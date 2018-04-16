@@ -1,0 +1,16 @@
+- name: เริ่มต้นใช้งาน
+  href: 'gettingstarted.yml#step-0'
+- name: การรับข้อมูล
+  href: 'gettingdata.yml#step-0'
+- name: การวางรูปแบบ
+  href: 'modeling.yml#step-0'
+- name: การจัดรูปแบบการแสดงข้อมูล
+  href: 'visualizations.yml#step-0'
+- name: การสำรวจข้อมูล
+  href: 'exploringdata.yml#step-0'
+- name: Power BI และ Excel
+  href: 'powerbiandexcel.yml#step-0'
+- name: การเผยแพร่และการแชร์
+  href: 'publishingandsharing.yml#step-0'
+- name: แนะนำ DAX
+  href: 'introductiontodax.yml#step-0'
