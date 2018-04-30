@@ -846,10 +846,12 @@
           href: desktop-send-smile-privacy-statement.md
     - name: การแก้ไขปัญหา
       items:
-        - name: แก้ไขปัญหาการนำเข้าฐานข้อมูล Access และสเปรดชีต Excel ใน Power BI Desktop และ Power Query
-          href: desktop-access-database-errors.md
+        - name: แก้ไขปัญหาระหว่างการลงชื่อเข้าใช้สำหรับ Power BI Desktop
+          href: desktop-troubleshooting-sign-in.md
         - name: แก้ไขปัญหาเมื่อเริ่มต้น Power BI Desktop
           href: desktop-error-launching-desktop.md
+        - name: แก้ไขปัญหาการนำเข้าฐานข้อมูล Access และสเปรดชีต Excel ใน Power BI Desktop และ Power Query
+          href: desktop-access-database-errors.md
 - name: แอป Power BI สำหรับอุปกรณ์เคลื่อนที่
   items:
     - name: เริ่มใช้งาน
@@ -1070,9 +1072,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848709'
         - name: ทำงานกับ KPI
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
-        - name: แหล่งข้อมูลที่ได้รับการสนับสนุน
+        - name: แหล่งข้อมูลรายงาน Power BI (.pbix)
           href: report-server/data-sources.md
-        - name: เชื่อมต่อกับแหล่งข้อมูล
+        - name: แหล่งข้อมูลรายงานที่มีการแบ่งหน้า (.rdl)
           href: report-server/connect-data-sources.md
         - name: 'เข้าถึงชุดข้อมูลที่แชร์เป็นตัวดึงข้อมูล OData '
           href: report-server/access-dataset-odata.md
