@@ -1,0 +1,17 @@
+- name: Docs
+  href: /
+  topicHref: /
+  items:
+    - name: Power BI
+      tocHref: /power-bi/
+      topicHref: /power-bi/
+      items:
+        - name: นักพัฒนา
+          tocHref: /power-bi/developer/
+          topicHref: /power-bi/developer/
+        - name: การเรียนรู้ตามคำแนะนำ
+          tocHref: /power-bi/guided-learning/
+          topicHref: /power-bi/guided-learning/
+        - name: เซิร์ฟเวอร์รายงาน
+          tocHref: /power-bi/report-server/
+          topicHref: /power-bi/report-server/
