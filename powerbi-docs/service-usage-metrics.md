@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>เมตริกการใช้งานสำหรับแดชบอร์ดและรายงาน
 หากคุณสร้างแดชบอร์ดและรายงาน วิธีใช้เมตริกการใช้งานจะช่วยคุณให้เข้าใจเกี่ยวกับผลกระทบของแดชบอร์ดและรายงานเหล่านี้ เมื่อคุณเรียกใช้เมตริกการใช้งานแดชบอร์ดหรือเมตริกการใช้งานรายงาน คุณพบว่ามีการใช้แดชบอร์ดและรายงานเหล่านั้นทั่วทั้งองค์กรของคุณอย่างไร มีการใช้อะไร โดยผู้ใด และเพื่อวัตถุประสงค์ใด  
@@ -53,7 +53,7 @@ ms.lasthandoff: 03/09/2018
 
 รายงานเมตริกการใช้งานจะไม่แสดงขึ้นใน**ล่าสุด** **พื้นที่ทำงาน** **รายการโปรด**หรือรายการเนื้อหาอื่น ไม่สามารถเพิ่มรายงานเมตริกการใช้ลงในแอปฯ ถ้าคุณปักหมุดบนแผ่นจากรายงานเมตริกการใช้งานไปยังแดชบอร์ด จะไม่สามารถเพิ่มแดชบอร์ดลงในแอปหรือชุดเนื้อหาได้
 
-เมื่อต้องการเจาะลึกลงในข้อมูลรายงาน หรือเพื่อสร้างรายงานของคุณเองเทียบกับชุดข้อมูล ให้ใช้**บันทึกเป็น** (ดู[บันทึกรายงานเมตริกการใช้งานเป็นรายงาน Power BI แบบเต็ม](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report)
+เมื่อต้องการเจาะลึกลงในข้อมูลรายงาน หรือเพื่อสร้างรายงานของคุณเองเทียบกับชุดข้อมูล ให้ใช้**บันทึกเป็น** (ดู[บันทึกรายงานเมตริกการใช้งานเป็นรายงาน Power BI แบบเต็ม](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize))
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>เปิดรายงานเมตริกการใช้งานสำหรับแดชบอร์ดหรือรายงาน
 1. เริ่มต้นในพื้นที่ทำงานที่ประกอบด้วยแดชบอร์ดหรือรายงาน
@@ -100,7 +100,7 @@ ms.lasthandoff: 03/09/2018
 ### <a name="report-usage-metrics-report"></a>รายงานเมตริกการใช้งานแดชบอร์ด
 ![รายงานเมตริกการใช้งานแดชบอร์ด](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
-## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>บันทึกรายงานเมตริกการใช้งานเป็นรายงาน Power BI แบบเต็ม (ตั้งค่าส่วนบุคคล)
+## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>บันทึก รายงานเมตริกการใช้ เป็นรายงาน Power BI ที่น่าสนใจ (ปรับแต่ง)
 
 ![บันทึกเป็น](media/service-usage-metrics/power-bi-save-as.png)
 

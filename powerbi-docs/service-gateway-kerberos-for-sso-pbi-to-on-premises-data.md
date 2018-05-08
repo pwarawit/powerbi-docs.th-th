@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: bb0800dc6a61efe1d7b331a6049460275b4412a3
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 344e6ecc31748d58f0803f95aed53badfa6be4f2
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>ใช้ Kerberos สำหรับ SSO (ลงชื่อเข้าระบบครั้งเดียว) จาก Power BI ไปยังแหล่งข้อมูลในองค์กร
 คุณสามารถเชื่อมต่อด้วย การลงชื่อเข้าระบบครั้งเดียว เปิดใช้งานรายงานและแดชบอร์ดของ Power BI เพื่อปรับปรุงจากข้อมูลในองค์กร โดยการกำหนดค่าในเกตเวย์ข้อมูลในองค์กรของคุณด้วย Kerberos เกตเวย์ข้อมูลในองค์กร จะช่วยอำนวยความสะดวกในการ ลงชื่อเข้าระบบครั้งเดียว (SSO) โดยใช้ DirectQuery เพื่อเชื่อมต่อกับแหล่งข้อมูลในองค์กร
@@ -64,19 +64,18 @@ ms.lasthandoff: 04/08/2018
 
 
 > [!NOTE]
-> เพื่อเปิดใช้งาน SSO สำหรับ SAP HANA คุณต้องแน่ใจว่า ได้เติมเต็มความต้องการของ SAP ที่เฉพาะเจาะจงสำหรับ SAP HANA ดังต่อไปนี้:
-> 1. ให้แน่ใจว่า เซิร์ฟเวอร์ SAP HANA ทำงานด้วยเวอร์ชันขั้นต่ำ ซึ่งขึ้นอยู่กับระดับเซิร์ฟเวอร์แพลตฟอร์ม SAP Hana ของคุณ:
-> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386)
-> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324)
-> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
+> เมื่อต้องการเปิดใช้งาน SSO สำหรับ SAP HANA:
 >
-> 2. บนเครื่องเกตเวย์ ติดตั้งโปรแกรมควบคุม HANA ODBC ล่าสุดของ SAP  เวอร์ชันขั้นต่ำคือ HANA ODBC เวอร์ชัน 2.00.020.00 ที่ออกเดือน สิงหาคม 2017
+> - ให้แน่ใจว่า เซิร์ฟเวอร์ SAP HANA ทำงานด้วยเวอร์ชันขั้นต่ำ ซึ่งขึ้นอยู่กับระดับเซิร์ฟเวอร์แพลตฟอร์ม SAP Hana ของคุณ:
+>     - [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386)
+>     - [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324)
+>     - [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
 >
-> ลิงก์ไปยัง โปรแกรมแก้ไข และ อัปเกรด จาก SAP ต่อไปนี้อาจเป็นประโยชน์ โปรดทราบว่า คุณต้องเข้าสู่ระบบไปยังแหล่งข้อมูลต่อไปนี้ โดยใช้บัญชี SAP Support ของคุณ และ SAP อาจเปลี่ยนแปลงหรือปรับปรุงลิงก์เหล่านี้ได้
-> 
-> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386) 
-> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324) 
-> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
+> - บนเครื่องเกตเวย์ ติดตั้งโปรแกรมควบคุม HANA ODBC ล่าสุดของ SAP  เวอร์ชันขั้นต่ำคือ HANA ODBC เวอร์ชัน 2.00.020.00 ที่ออกเดือน สิงหาคม 2017
+>
+> สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าและกำหนดค่าการลงชื่อเข้าระบบครั้งเดียวสำหรับ SAP HANA โดยใช้ Kerberos ดูที่หัวข้อ[การลงชื่อเข้าระบบครั้งเดียวโดยใช้ Kerberos](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.03/en-US/1885fad82df943c2a1974f5da0eed66d.html) ในคู่มือความปลอดภัยของ SAP HANA และการเชื่อมโยงจากหน้านั้น โดยเฉพาะอย่างยิ่ง SAP Note 1837331 – HOWTO HANA DBSSO Kerberos/Active Directory] 
+>
+>
 
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>ข้อผิดพลาดจากการกำหนดค่า Kerberos ไม่เพียงพอ
