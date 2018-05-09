@@ -1,0 +1,52 @@
+### YamlMime:Tutorial
+title: เริ่มต้นใช้งาน
+metadata:
+  title: เริ่มต้นใช้งาน | Microsoft Power BI
+  description: เรียนรู้ว่า Power BI คืออะไร โครงสร้างต่าง ๆ ของมันทำงานร่วมกันอย่างไร และคุณสามารถใช้มันเพื่อให้ได้ข้อมูลเชิงลึกได้อย่างไร
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: gettingdata
+  nextTutorialTitle: การรับข้อมูล
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 12/05/2017
+  ms.author: davidi
+  ms.openlocfilehash: 0a7456720b041b9dda176a5182f945a0b1fa63b5
+  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 02/06/2018
+items:
+- durationInMinutes: 1
+  content: >
+    ในส่วนเริ่มต้นของ**การเรียนรู้ตามคำแนะนำ**นี้ คุณจะเรียนรู้ว่า Power BI คืออะไร โครงสร้างต่าง ๆ ของมันทำงานร่วมกันอย่างไร และคุณสามารถใช้มันเพื่อให้ได้ข้อมูลเชิงลึกได้อย่างไร
+- title: แนะนำ Power BI
+  durationInMinutes: 5
+  content: >
+    [!INCLUDE [](includes/0-0-what-is-power-bi.md)]
+- title: การใช้ Power BI
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/1c01r_pAZdk?rel=0]
+
+
+    [!INCLUDE [](includes/0-1-intro-using-power-bi.md)]
+- title: โครงสร้างของ Power BI
+  durationInMinutes: 6
+  content: >
+    [!INCLUDE [](includes/0-0b-building-blocks-power-bi.md)]
+- title: ดูบริการ Power BI
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/5srP3h3RJf8?rel=0]
+
+
+    [!INCLUDE [](includes/0-3-dashboards-cloud-services.md)]
+- title: ตรวจทานและมีอะไรต่อไป
+  durationInMinutes: 5
+  content: >
+    [!INCLUDE [](includes/0-4-summary-of-intro-to-power-bi.md)]
+- content: คุณได้จบส่วน**เริ่มต้นใช้งาน** ของการเรียนรู้ตามคำแนะนำของ Microsoft Power BI แล้ว เยี่ยมไปเลย! ในตอนนี้คุณสามารถไปต่อยังส่วนถัดไปของการเรียนรู้ตามคำแนะนำ ซึ่งก็คือ**การรับข้อมูล** เลือกปุ่ม**การรับข้อมูล**ด้านล่างเพื่อไปต่อ

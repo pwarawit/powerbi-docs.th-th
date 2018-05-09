@@ -1,0 +1,68 @@
+### YamlMime:Tutorial
+title: การรับข้อมูล
+metadata:
+  title: การรับข้อมูล | Microsoft Power BI
+  description: สำรวจและเรียนรู้วิธีมากมาย ที่คุณสามารถรับและทำงานกับข้อมูลใน Power BI
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: modeling
+  nextTutorialTitle: การวางรูปแบบ
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 12/05/2017
+  ms.author: davidi
+  ms.openlocfilehash: 7a825054ddafc5277988df6b3760bca42a508704
+  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 02/06/2018
+items:
+- durationInMinutes: 1
+  content: >
+    ข้อมูลเป็นหัวใจสำคัญของ Power BI ในส่วน**การเรียนรู้ตามคำแนะนำ**นี้ คุณเรียนรู้วิธีการรับ และทำงานกับข้อมูลใน Power BI
+- title: ภาพรวมของ Power BI Desktop
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/mdy-eRev6HM?rel=0]
+
+
+    [!INCLUDE [](includes/1-1-overview-of-power-bi-desktop.md)]
+- title: เริ่มต้นใช้งานกับ Power BI Desktop
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/1Bo1BrpR3AY?rel=0]
+
+
+    [!INCLUDE [](includes/0-2-get-started-power-bi-desktop.md)]
+- title: เชื่อมต่อกับแหล่งข้อมูลใน Power BI Desktop
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/S6s0osmRCZ4?rel=0]
+
+
+    [!INCLUDE [](includes/1-2-connect-to-data-sources-in-power-bi-desktop.md)]
+- title: ล้างและแปลงข้อมูลของคุณด้วยตัวแก้ไขคิวรี
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/o-sinon5JYY?rel=0]
+
+
+    [!INCLUDE [](includes/1-3-clean-and-transform-data-with-query-editor.md)]
+- title: แหล่งข้อมูลขั้นสูงและการแปลงเพิ่มเติม
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/8WsY0R2V_bw?rel=0]
+
+
+    [!INCLUDE [](includes/1-4-advanced-data-sources-and-transformation.md)]
+- title: การล้างข้อมูลที่จัดรูปแบบอย่างไม่ปกติ
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/74KQmzdvFV8?rel=0]
+
+
+    [!INCLUDE [](includes/1-5-cleaning-irregular-data.md)]
+- content: เยี่ยมไปเลย! คุณจบส่วน**การรับข้อมูล**ของการเรียนรู้ตามคำแนะนำของ Microsoft Power BI ขั้นตอนถัดไปคือการ เรียนรู้เกี่ยวกับ**การจัดรูปแบบ** ซึ่งเป็นหัวข้อของบทช่วยสอนถัดไป
