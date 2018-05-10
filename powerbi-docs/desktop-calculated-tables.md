@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 41017e1570a518e26305b6195531bcff889dbd9c
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: 3b7e3204d918c84acaff1b98bbab0fc09c6f0b87
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>การใช้ตารางที่มีการคำนวณใน Power BI Desktop
 เมื่อใช้ตารางที่มีการคำนวณ คุณสามารถเพิ่มตารางใหม่ลงในรูปแบบข้อมูล แต่แทนที่จะคิวรีและโหลดค่าจากแหล่งข้อมูลลงไปยังคอลัมน์ใหม่ในตาราง คุณสามารถสร้างสูตร Data Analysis Expressions (DAX) ที่ใช้กำหนดค่าของตาราง ใน Power BI Desktop ตารางที่มีการคำนวณ สร้างขึ้นด้วยคุณลักษณะ ตารางใหม่ ในมุมมองรายงาน หรือมุมมองข้อมูล

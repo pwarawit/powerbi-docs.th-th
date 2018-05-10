@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea40bafdc3c210771e5dd02368df41d3d9287baf
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b134fe1e5d14f3707391888951178553d5cda7e5
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>ตัวแก้ไขรายงาน... ชมการแนะนำ
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>แก้ไขรายงานในบริการ Power BI และ Power BI Desktop
@@ -56,7 +56,6 @@ ms.lasthandoff: 03/09/2018
 |  |  |
 | --- | --- |
 | ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>ด้านบนของพื้นที่การแสดงภาพระบุชนิดของภาพที่ใช้อยู่ ในตัวอย่างนี้จะเป็นแผนภูมิคอลัมน์แบบกลุ่ม<br><br></li> <li>ด้านล่างของพื้นที่การแสดงภาพ (คุณอาจจำเป็นต้องเลื่อนลง) แสดงช่องข้อมูลที่มีการใช้ในภาพ แผนภูมินี้จะใช้ FiscalMonth, DistrictManager และค่าผลต่างยอดขายรวม <br><br></li><li>พื้นที่ตัวกรอง (คุณอาจจำเป็นต้องเลื่อนลง) แสดงตัวกรองใด ๆ ที่มีการนำไปใช้ <br><br></li><li>พื้นที่ช่องข้อมูลแสดงรายการตารางที่พร้อมใช้งาน หากคุณขยายชื่อของตาราง ช่องข้อมูลดังกล่าวจะเป็นตัวสร้างตารางนั้น แบบอักษรสีเหลืองช่วยให้คุณทราบว่าอย่างน้อยหนึ่งช่องข้อมูลจากตารางนั้นจะถูกใช้ในการแสดงภาพ<br><br></li><li>![ไอคอนลูกกลิ้งระบายสี](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) การแสดงพื้นที่การจัดรูปแบบ สำหรับการแสดงภาพที่เลือก ให้เลือกไอคอนลูกกลิ้งระบายสี<br><br></li><li>![ไอคอนแว่นขยาย](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) เมื่อต้องการแสดงพื้นที่ Analystics เลือกไอคอนแว่นขยาย</ul> |
-|  | |
 
 ## <a name="the-visualizations-pane-from-top-to-bottom"></a>พื้นที่การแสดงภาพ (จากบนลงล่าง)
 ![ด้านบนของพื้นที่การแสดงภาพ](media/service-the-report-editor-take-a-tour/selectviz.png)

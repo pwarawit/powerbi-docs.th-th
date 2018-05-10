@@ -5,20 +5,20 @@ metadata:
   description: เรียนรู้ว่า Power BI คืออะไร โครงสร้างต่าง ๆ ของมันทำงานร่วมกันอย่างไร และคุณสามารถใช้มันเพื่อให้ได้ข้อมูลเชิงลึกได้อย่างไร
   audience: Business User
   level: Beginner
-  nextTutorialHref: gettingdata
+  nextTutorialHref: gettingdata.yml
   nextTutorialTitle: การรับข้อมูล
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: 0a7456720b041b9dda176a5182f945a0b1fa63b5
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 7eac10ab7caf67209bc9dc61d24890371e1a4f94
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: th-TH
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
   content: >
