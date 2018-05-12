@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7da16deb3e5919d509a5cbbb7fd845914c8c4ea4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e6c4a614f19a6ba7b9e24c199b7f291e7f57f098
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>สร้างรายงาน Power BI ใหม่จากชุดข้อมูลนำเข้า
-คุณได้อ่าน[รายงานใน Power BI](service-reports.md)และตอนนี้ คุณต้องการสร้างรายงานของคุณเอง มีวิธีในสร้างรายงานหลายวิธี และในบทความนี้เราจะเริ่มต้น โดยการสร้างรายงานพื้นฐานมากจากชุดข้อมูล Excel เมื่อคุณทำความเข้าใจพื้นฐานของการสร้างรายงาน การ**ขั้นตอนถัดไป**ที่ด้านล่างจะพาคุณไปยังหัวข้อการรายงานขั้นสูงเพิ่มเติม  
+# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>สร้างรายงานใหม่ในบริการ Power BI โดยการนำเข้าชุดข้อมูล
+คุณได้อ่าน[รายงานใน Power BI](service-reports.md)และตอนนี้ คุณต้องการสร้างรายงานของคุณเอง มีวิธีการสร้างรายงานหลากหลายวิธี และในบทความนี้เราจะเริ่มต้นด้วยการสร้างรายงานพื้นฐานจากชุดข้อมูล Excel โดยใช้บริการ Power BI เมื่อคุณทำความเข้าใจพื้นฐานของการสร้างรายงาน การ**ขั้นตอนถัดไป**ที่ด้านล่างจะพาคุณไปยังหัวข้อการรายงานขั้นสูงเพิ่มเติม  
 
 > **เคล็ดลับ**: เมื่อต้องการสร้างรายงาน โดยการคัดลอกรายงานที่มีอยู่ ดู[คัดลอกรายงาน](power-bi-report-copy.md)
 > 
 ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-- Power BI บริการ (สำหรับการสร้างรายงานโดยใช้ Power BI Desktop ดู[มุมมองรายงานบนเดสก์ท็อป](desktop-report-view.md)   
+- บริการ Power BI (สำหรับการสร้างรายงานโดยใช้ Power BI Desktop ให้ดู [มุมมองรายงานบนเดสก์ท็อป](desktop-report-view.md))  
 - ตัวอย่างการวิเคราะห์การค้าปลีก
 
 ## <a name="import-the-dataset"></a>นำเข้าชุดข้อมูล

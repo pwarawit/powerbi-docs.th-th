@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
 ms.author: maghan
-ms.openlocfilehash: c6b9edb929934a80886874fe421f11cc7462dbd8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 779ae9a6df285b58c83021f87ed593af9ec0b3fb
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>ฝังแดชบอร์ด ไทล์ หรือรายงาน Power BI ลงในแอปพลิเคชันของคุณ
 เรียนรู้วิธีการรวม หรือฝัง แดชบอร์ด ไทล์ หรือรายงาน ลงในเว็บแอปโดยใช้ Power BI .NET SDK พร้อมกับ Power BI JavaScript API เมื่อทำการฝังสิ่งต่างๆ สำหรับลูกค้าของคุณ นี่คือสภาพ ISV โดยทั่วไป
@@ -31,11 +31,11 @@ ms.lasthandoff: 01/30/2018
 เมื่อต้องการเริ่มต้นใช้งานการฝึกปฏิบัตินี้ คุณต้องมีบัญชี**Power BI Pro** ถ้าคุณไม่มีบัญชีผู้ใช้ คุณสามารถ[ลงทะเบียนเพื่อรับบัญชี Power BI ฟรี](../service-self-service-signup-for-power-bi.md)และจากนั้น ลงทะเบียนเพื่อทดลองใช้[ Power BI Pro](../service-self-service-signup-for-power-bi.md#in-service-power-bi-pro-60-day-trial) หรือคุณสามารถสร้าง [Azure Active Directory ระดับผู้เช่า](create-an-azure-active-directory-tenant.md) ด้วยตนเองเพื่อทำการทดสอบ
 
 > [!NOTE]
-> กำลังจะฝังแดชบอร์ดสำหรับองค์กรของคุณหรือไม่ ดู[รวมแดชบอร์ดลงในแอปสำหรับองค์กรของคุณ](integrate-dashboard.md)
+> กำลังจะฝังแดชบอร์ดสำหรับองค์กรของคุณหรือไม่ ดูที่ [รวมแดชบอร์ดลงในแอปสำหรับองค์กรของคุณ](integrate-dashboard.md)
 > 
 > 
 
-เมื่อต้องรวมแดชบอร์ดลงในเว็บแอป คุณต้องใช้ **Power BI** API และ**โทเค็นการเข้าถึง**การตรวจสอบ Azure Active Directory (AD) เพื่อรับแดชบอร์ด จากนั้น คุณสามารถโหลดแดชบอร์ดโดยใช้โทเค็นฝังตัว **Power BI** API ทำให้เขียนโปรแกรมในทรัพยากรบางอย่างของ **Power BI** ได้ สำหรับข้อมูลเพิ่มเติม ดู[ภาพรวมของ Power BI REST API](https://msdn.microsoft.com/library/dn877544.aspx)และ[Power BI .NET SDK ](https://github.com/Microsoft/PowerBI-CSharp)และ [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
+เมื่อต้องรวมแดชบอร์ดลงในเว็บแอป คุณใช้ **Power BI** API และ**โทเค็นการเข้าถึง**สำหรับรับรองความถูกต้องกับ Azure Active Directory (AD) เพื่อรับแดชบอร์ด หลังจากนั้น คุณโหลดแดชบอร์ดโดยใช้โทเค็นฝังตัว **Power BI** API ให้การเข้าถึงแหล่งข้อมูล **Power BI** ผ่านทางโปรแกรม สำหรับข้อมูลเพิ่มเติม ดู[ภาพรวมของ Power BI REST API](https://msdn.microsoft.com/library/dn877544.aspx), [Power BI .NET SDK](https://github.com/Microsoft/PowerBI-CSharp) และ [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
 
 ## <a name="download-the-sample"></a>ดาวน์โหลดตัวอย่าง
 บทความนี้แสดงรหัสที่ใช้ในการ[ฝังตัวสำหรับตัวอย่างขององค์กรของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)บน GitHub เพื่อติดตามการฝึกปฏิบัตินี้ คุณสามารถดาวน์โหลดตัวอย่างได้
@@ -46,15 +46,15 @@ ms.lasthandoff: 01/30/2018
 ถ้าคุณดาวน์โหลดตัวอย่างการ[ฝังเพื่อองค์กรของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)คุณต้องใช้ **ID ไคลเอ็นต์**ที่คุณได้หลังการลงทะเบียน เพื่อให้ตัวอย่างสามารถรับรองความถูกต้องกับ Azure AD เมื่อต้องการกำหนดค่าตัวอย่าง เปลี่ยนคำ **clientId** ในไฟล์*web.config*
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>ขั้นตอนที่ 2 - รับโทเค็นการเข้าถึงจาก Azure AD
-ภายในแอปพลิเคชันของคุณ คุณจะต้องรับ**โทเค็นการเข้าถึง**จาก Azure AD ก่อนที่จะสามารถเรียกใช้ Power BI REST API ได้ สำหรับข้อมูลเพิ่มเติม ดู[รับรองผู้ใช้ และรับโทเค็นการเข้าถึง Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md)
+ภายในแอปพลิเคชันของคุณ คุณจะต้องรับ**โทเค็นการเข้าถึง**จาก Azure AD ก่อนที่คุณสามารถเรียกใช้ Power BI REST API ได้ สำหรับข้อมูลเพิ่มเติม ดู[รับรองผู้ใช้ และรับโทเค็นการเข้าถึง Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md)
 
 คุณสามารถดูตัวอย่างของสิ่งนี้ในงานแต่ละรายการเนื้อหาใน **Controllers\HomeController.cs** ได้
 
-## <a name="step-3---get-a-content-item"></a>ขั้นตอนที่ 3 - รับรายการเนื้อหา
-เมื่อต้องฝังเนื้อหา Power BI ของคุณ คุณจะจำเป็นต้องทำบางสิ่งให้แน่ใจว่า ได้ฝังอย่างถูกต้อง ในขณะที่ขั้นตอนเหล่านี้ทั้งหมดสามารถทำได้ด้วย REST API โดยตรง แอปพลิเคชันตัวอย่างและตัวอย่างที่นี่ี่ถูกสร้างด้วย NET SDK
+## <a name="step-3---get-a-content-item"></a>ขั้นตอนที่ 3 - รับเนื้อหา
+เมื่อต้องฝังเนื้อหา Power BI ของคุณ คุณจะจำเป็นต้องทำสองสิ่งให้แน่ใจว่า การฝังตัวถูกต้อง ถึงแม้ว่าขั้นตอนเหล่านี้สามารถทำได้ใน REST API โดยตรง แอปพลิเคชันตัวอย่าง และตัวอย่างนี้จะใช้ .NET SDK
 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>สร้างไคลเอ็นต์ Power BI ด้วยโทเค็นการเข้าถึงของคุณ
-ด้วยโทเค็นการเข้าถึงของคุณ คุณจะสามารถสร้างวัตถุไคลเอ็นต์ Power BI ได้ซึ่งจะช่วยให้คุณสามารถโต้ตอบกับ Power BI APIs ทำสิ่งนี้ได้ โดยการตัด AccessToken ด้วยวัตถุ*Microsoft.Rest.TokenCredentials*ุ
+ด้วยโทเค็นการเข้าถึงของคุณ คุณสามารถสร้างวัตถุไคลเอ็นต์ Power BI ของคุณ ให้คุณสามารถโต้ตอบกับ Power BI API ทำได้โดยนำ AccessToken ไปใส่ไว้ในวัตถุ *Microsoft.Rest.TokenCredentials*
 
 ```
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -70,10 +70,10 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 }
 ```
 
-### <a name="get-the-content-item-you-want-to-embed"></a>รับรายการเนื้อหาที่คุณต้องการฝัง
-ใช้วัตถุไคลเอ็นต์ Power BI เพื่อเรียกใช้การอ้างอิงไปยังรายการที่คุณต้องการฝัง คุณสามารถฝังแดชบอร์ด ไทล์ หรือรายงาน นี่คือตัวอย่างของวิธีการเรียก แดชบอร์ด ไทล์ หรือแรกรายงานจากพื้นที่ทำงานที่ระบุ
+### <a name="get-the-content-item-you-want-to-embed"></a>รับเนื้อหาที่คุณต้องการฝังตัว
+คุณใช้วัตถุไคลเอ็นต์ Power BI เพื่อดึงเอา อ้างอิงไปยังเนื้อหา ที่คุณต้องการฝังตัว คุณสามารถฝังแดชบอร์ด ไทล์ หรือรายงาน นี่คือตัวอย่างของวิธีการดึง แดชบอร์ด ไทล์ หรือรายงานจากพื้นที่ทำงานที่ระบุไว้
 
-ตัวอย่างนี้อยู่ใน**Controllers\HomeController.cs**ของตัวอย่าง[แอปที่เป็นเจ้าของข้อมูล](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
+มีตัวอย่างนี้ให้ใน **Controllers\HomeController.cs** ของการ[ตัวอย่าง แอปเป็นเจ้าของข้อมูล](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
 
 **แดชบอร์ด**
 
@@ -123,14 +123,14 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>สร้างโทเค็นฝังตัว
-โทเค็นฝังตัวต้องถูกสร้างขึ้นซึ่งสามารถใช้งานจาก JavaScript API โทเค็นฝังตัวจะเป็นสิ่งเฉพาะสำหรับรายการที่คุณจะฝัง ซึ่งหมายความว่า เมื่อใดก็ตามที่คุณฝังเนื้อหา Power BI คุณจำเป็นต้องสร้างโทเค็นฝังตัวใหม่ สำหรับข้อมูลเพิ่มเติม ที่รวมถึงใช้ **accessLevel** ใด ดูที่[GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)
+โทเค็นฝังตัว จะต้องถูกสร้างขึ้นสำหรับใช้จาก JavaScript API โทเค็นฝังตัวแต่ละตัวจะเฉพาะเจาะจงกับรายการคุณจะฝัง ซึ่งหมายความว่า ทุกครั้งที่คุณต้องการฝังเนื้อหาของ Power BI ชิ้นหนึ่ง คุณต้องสร้างโทเค็นใหม่ขึ้นมา สำหรับข้อมูลเพิ่มเติม รวมไปถึง **accessLevel** ที่จะใช้ ดู[GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)
 
 > [!IMPORTANT]
-> เนื่องจากโทเค็นการฝังมีไว้เพื่อทดสอบการพัฒนาเท่านั้น บัญชีหลักของ Power BI สามารถสร้างโทเค็นการฝังได้อย่างจำกัด หากต้องการใช้งาน [ต้องซื้อความสามารถ](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) สภาวะการฝังเพิ่อการผลิต ไม่มีข้อจำกัดการสร้างโทเค็นการฝังเมื่อซื้อความสามารถ
+> เนื่องจากโทเค็นฝังตัวมีไว้สำหรับทดสอบการพัฒนาเท่านั้น จำนวนโทเค็นฝังตัวที่บัญชีหลักของ Power BI มีได้จำกัด จะ[ต้องซื้อความจุ](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) สำหรับการใช้งานจริง ไม่มีข้อจำกัดจำนวนโทเค็นฝังตัวที่สร้างเมื่อซื้อความจุแล้ว ไปที่ [รับฟีเจอร์ที่พร้อมใช้งาน](https://msdn.microsoft.com/en-us/library/mt846473.aspx) เพื่อตรวจสอบจำนวนโทเค็นการฝังฟรีแบบต่างๆ ที่ใช้
 
-มีตัวอย่างนี้ใน**Controllers\HomeController.cs**ของการ[ฝังตัวอย่างข้อมูลขององค์กรของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
+มีตัวอย่างนี้ อยู่ใน **Controllers\HomeController.cs** ของ[ตัวอย่างการฝังตัวสำหรับองค์กรของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
 
-สิ่งนี้คาดว่ามีการสร้าง class สำหรับ**EmbedConfig**และ**TileEmbedConfig** มีตัวอย่างเหล่านี้ใน**Models\EmbedConfig.cs**และ**Models\TileEmbedConfig.cs**
+ตัวอย่างต่อไปนี้ สมมุติว่ามีการสร้างคลาสสำหรับ **EmbedConfig** และ **TileEmbedConfig** อยู่ก่อนแล้ว ตัวอย่างมีให้ใน **Models\EmbedConfig.cs** และ **Models\TileEmbedConfig.cs**
 
 **แดชบอร์ด**
 
@@ -192,10 +192,10 @@ var embedConfig = new EmbedConfig()
 
 
 
-## <a name="step-4---load-an-item-using-javascript"></a>ขั้นตอนที่ 4 - โหลดวัตถุต่างๆโดยใช้ JavaScript
-คุณสามารถใช้ JavaScript เพื่อโหลดแดชบอร์ดลงในองค์ประกอบ div บนเว็บเพจของคุณ ตัวอย่างใช้โมเดล EmbedConfig/TileEmbedConfig พร้อมกับมุมมองสำหรับแดชบอร์ด ไทล์ หรือรายงาน สำหรับตัวอย่างแบบเต็มของการใช้ JavaScript API คุณสามารถใช้[ตัวอย่างของ Microsoft Power BI Embedded](https://microsoft.github.io/PowerBI-JavaScript/demo) ได้
+## <a name="step-4---load-an-item-using-javascript"></a>ขั้นตอนที่ 4 - โหลดเนื้อหาโดยใช้ JavaScript
+คุณสามารถใช้ JavaScript เพื่อโหลดแดชบอร์ดลงใน องค์ประกอบ div บนเว็บเพจของคุณ ตัวอย่างนี้ใช้รูปแบบ EmbedConfig/TileEmbedConfig พร้อมกับมุมมองสำหรับแดชบอร์ด ไทล์ หรือรายงาน สำหรับตัวอย่างแบบเต็มของการใช้ JavaScript API คุณสามารถใช้ [ตัวอย่างแบบฝังตัวของ Microsoft Power BI](https://microsoft.github.io/PowerBI-JavaScript/demo)
 
-ตัวอย่างเป็นแอปพลิเคชันนี้ที่อยู่ภายในการ[ฝังตัวเพื่อตัวอย่างขององค์กรของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
+ตัวอย่างเป็นแอปพลิเคชันแบบนี้ มีอยู่ใน[ตัวอย่างการฝังตัวสำหรับองค์กรของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
 
 **Views\Home\EmbedDashboard.cshtml**
 
@@ -321,7 +321,7 @@ var embedConfig = new EmbedConfig()
 ```
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-มีแอปตัวอย่างบน GitHub เพื่อให้คุณพิจารณา ตัวอย่างข้างต้นจะอิงกับตัวอย่างนั้น สำหรับข้อมูลเพิ่มเติม ดูการ[ฝังตัวเพื่อตัวอย่างขององค์กรของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
+มีตัวอย่างแอปพลิเคชั่นอยู่บน GitHub ให้คุณได้ศึกษา ตัวอย่างต่าง ๆ ข้างบนมาจากตัวอย่างนั้น สำหรับข้อมูลเพิ่มเติม ดูการ[ฝังตัวเพื่อตัวอย่างขององค์กรของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
 
 ข้อมูลเพิ่มเติมสำหรับ JavaScript API ดู [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
 

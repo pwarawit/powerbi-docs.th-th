@@ -15,17 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: eea3bcb040f5267cb1fcc1f24ef6b306f6c03af3
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>โต้ตอบกับรายงานในมุมมองการแก้ไขในบริการ Power BI
-สามารถแก้ไขรายงานในบริการ Power BI และ Power BI Desktop ได้ถ้าคุณมีสิทธิ์ระดับเจ้าของ ไม่เหมือนกับเดสก์ท็อป บริการ Power BI มีสองโหมดที่แตกต่างกันสำหรับการโต้ตอบกับรายงาน - [มุมมองการอ่าน](service-reading-view-and-editing-view.md)สำหรับรายงาน*ผู้บริโภค*และแก้ไขมุมมองสำหรับเจ้าของรายงานและสำหรับผู้สร้าง บทความสำหรับบทช่วยสอนนี้ครอบคลุมถึงมุมมองการแก้ไขในบริการ Power BI 
+สามารถสร้างและแก้ไขรายงานในบริการ Power BI และ Power BI Desktop ในบริการ Power BI สามารถสร้างและแก้ไขรายงานใน **มุมมองการแก้ไข** และใน Power BI Desktop สามารถสร้างและแก้ไขรายงานใน [**มุมมองรายงาน**](desktop-report-view.md) บทความนี้ครอบคลุมถึงมุมมองการแก้ไขในบริการ Power BI 
+
+บริการ Power BI มีสองโหมดที่แตกต่างกันสำหรับโต้ตอบกับรายงาน -- [มุมมองการอ่าน](service-reading-view-and-editing-view.md) สำหรับรายงาน *ผู้บริโภค* และมุมมองการแก้ไขสำหรับเจ้าของและผู้สร้างรายงาน  จำเป็นต้องใช้สิทธิ์การใช้งาน Power BI Pro เพื่อแชร์รายงาน รวมถึงการแก้ไขรายงานที่สร้างโดยผู้อื่น ถ้าคุณเป็นผู้ใช้ Power BI ฟรี คุณจะยังสามารถสร้างรายงาน แต่จะไม่สามารถใช้ [การแชร์](service-share-reports.md) ได้    
 
 ในมุมมองการแก้ไขรายงาน คุณสามารถสำรวจและออกแบบรายงานได้ตามต้องการ ฟังก์ชั่น[มุมมองการอ่าน](service-reading-view-and-editing-view.md)ทั้งหมดพร้อมใช้งาน และอื่น ๆ อีกมาก มุมมองการแก้ไขพร้อมใช้งานเฉพาะกับบุคคลที่สร้างรายงาน หรือเฉพาะเพื่อนร่วมงานผู้[เป็นเจ้าของรายงานร่วม โดยให้เป็นสมาชิกหรือผู้ดูแลของพื้นที่ทำงานแอปฯ](service-create-distribute-apps.md)
 
@@ -42,6 +44,9 @@ ms.lasthandoff: 03/09/2018
 * แสดงข้อมูลที่ใช้เพื่อสร้างการแสดงภาพ 
 * ตั้งค่าการเจาะรายละเอียด
 * ทำซ้ำหน้ารายงาน
+
+## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
+จำเป็นต้องใช้สิทธิ์การใช้งาน Power BI Pro เพื่อแก้ไขรายงานที่สร้างโดยผู้อื่น รวมถึงการแชร์รายงานกับผู้อื่น  ถ้าคุณเป็นผู้ใช้ Power BI ฟรี คุณจะยังสามารถสร้างรายงาน แต่จะไม่สามารถใช้ [การแชร์](service-share-reports.md) ได้
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

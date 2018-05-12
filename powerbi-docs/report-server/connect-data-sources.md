@@ -1,6 +1,6 @@
 ---
-title: เชื่อมต่อกับแหล่งข้อมูล
-description: เรียนรู้เกี่ยวกับแหล่งข้อมูลที่คุณสามารถเชื่อมต่อกับภายในเซิร์ฟเวอร์รายงาน Power BI
+title: แหล่งข้อมูลรายงานที่มีการแบ่งหน้า (.rdl) ในเซิร์ฟเวอร์รายงาน Power BI
+description: เรียนรู้เกี่ยวกับแหล่งข้อมูลที่รายงานที่มีการแบ่งหน้า (.rdl) สามารถเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI
 services: powerbi
 documentationcenter: ''
 author: markingmyname
@@ -15,29 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 35312fcf4301a7655893c1824b93b7718d6ae97f
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 189e5c2900fedf8403df75f0eb371830f28f7281
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="connecting-to-data-sources"></a>เชื่อมต่อกับแหล่งข้อมูล
-เรียนรู้เกี่ยวกับแหล่งข้อมูลที่คุณสามารถเชื่อมต่อกับภายในเซิร์ฟเวอร์รายงาน Power BI
-
-## <a name="power-bi-reports"></a>รายงาน Power BI
-รายงาน Power BI สามารถทำงานกับข้อมูลที่นำเข้า หรือใช้การเชื่อมต่อแบบรายงานสดของ Analysis Services กับ DirectQuery การเผยแพร่ในเดือนตุลาคม 2017 มีการสนับสนุนสำหรับการเชื่อมต่ออื่นนอกเหนือจากการเชื่อมต่อแบบรายงานสดของ Analyssi Services ซึ่งรวมถึงข้อมูลที่นำเข้า คุณสามารถดาวน์โหลดการเผยแพร่ในเดือนตุลาคม 2017 ได้ที่[powerbi.com](https://powerbi.microsoft.com/report-server/)
-
-สำหรับข้อมูลเกี่ยวกับแหล่งข้อมูลได้รับการสนับสนุน ดูที่[แหล่งข้อมูลรายงาน Power BI ในเซิร์ฟเวอร์รายงาน Power BI](data-sources.md)
-
-## <a name="other-reports"></a>รายงานอื่นๆ
-รายงานชนิดอื่นๆที่สนับสนุนแหล่งข้อมูลเดียวกันที่มีอยู่ใน SQL Server Reporting Services สำหรับข้อมูลเพิ่มเติม ดูที่[แหล่งข้อมูลที่ได้รับการสนับสนุน โดย Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)
+# <a name="paginated-report-rdl-data-sources"></a>แหล่งข้อมูลรายงานที่มีการแบ่งหน้า (.rdl)
+รายงานที่มีการแบ่งหน้าของ Reporting Services ในเซิร์ฟเวอร์รายงาน Power BI สนับสนุนแหล่งข้อมูลเดียวกันกับที่ได้รับการสนับสนุนใน SQL Server Reporting Services ดูรายการ [แหล่งข้อมูลที่สนับสนุนโดย Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[คู่มือผู้ใช้](user-handbook-overview.md)  
-[เริ่มใช้งานด่วน: รายงานแบบแบ่งหน้า](quickstart-create-paginated-report.md)  
-[เริ่มใช้งานด่วน: รายงาน Power BI](quickstart-create-powerbi-report.md)
+เมื่อคุณได้เชื่อมต่อกับแหล่งข้อมูลของคุณ [ให้สร้างรายงานที่มีการแบ่งหน้า](quickstart-create-paginated-report.md)  
 
-คุณมีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 
