@@ -1,0 +1,107 @@
+### YamlMime:Tutorial
+title: การเผยแพร่และการแชร์
+metadata:
+  title: การเผยแพร่และการแชร์ | Microsoft Power BI
+  description: ข้อมูลจะมีประสิทธิภาพมากที่สุดเมื่อได้แชร์กับผู้อื่น - เรียนรู้วิธีการเผยแพร่ ส่งออก แชร์ และแจกจ่ายข้อมูลเชิงลึก Power BI ของคุณ
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: introductiontodax
+  nextTutorialTitle: แนะนำ DAX
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 12/06/2017
+  ms.author: davidi
+  ms.openlocfilehash: cc8560f56cba1f8bb0dc3d7faedf44433318288b
+  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 02/06/2018
+items:
+- durationInMinutes: 1
+  content: >
+    ข้อมูลจะมีประสิทธิภาพมากที่สุดเมื่อได้แชร์กับผู้อื่น - เรียนรู้วิธีการเผยแพร่ ส่งออก แชร์ และแจกจ่ายข้อมูลเชิงลึก Power BI ของคุณ
+- title: แนะนำชุดเนื้อหา การรักษาความปลอดภัย และกลุ่ม
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/5DABLeJzQYM?rel=0]
+
+
+    [!INCLUDE [](includes/6-0-intro-content-packs-groups.md)]
+- title: เผยแพร่รายงาน Power BI Desktop
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/i0zAvCRLScI?rel=0]
+
+
+    [!INCLUDE [](includes/4-1-publish-reports.md)]
+- title: พิมพ์และส่งออกแดชบอร์ดและรายงาน
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/gauDt5ZV74I?rel=0]
+
+
+    [!INCLUDE [](includes/4-4g-print-and-export-dashboards-reports.md)]
+- title: การเผยแพร่อีกครั้งและการรีเฟรชข้อมูลของคุณด้วยตนเอง
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/O60a1Acdpkc?rel=0]
+
+
+    [!INCLUDE [](includes/4-5-manually-republish-reports.md)]
+- title: แนะนำ Power BI บนมือถือ
+  durationInMinutes: 7
+  content: >
+    > [!Video https://www.youtube.com/embed/Sfb_vDIb6Dc?rel=0]
+
+
+    [!INCLUDE [](includes/4-4a-power-bi-mobile.md)]
+- title: สร้างกลุ่มใน Power BI
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/758Lnhj9DRo?rel=0]
+
+
+    [!INCLUDE [](includes/6-1-create-groups.md)]
+- title: สร้างชุดเนื้อหา
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/8V2WP4nFCiA?rel=0]
+
+
+    [!INCLUDE [](includes/6-2-create-content-packs.md)]
+- title: ใช้ชุดเนื้อหา
+  durationInMinutes: 7
+  content: >
+    > [!Video https://www.youtube.com/embed/fE9R6ydo8yk?rel=0]
+
+
+    [!INCLUDE [](includes/6-3-use-content-packs.md)]
+- title: ปรับปรุงชุดเนื้อหา
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/nem2r4NpTyU?rel=0]
+
+
+    [!INCLUDE [](includes/6-4-update-content-pack.md)]
+- title: รวม OneDrive for Business กับ Power BI
+  durationInMinutes: 3
+  content: >
+    > [!Video https://www.youtube.com/embed/mxjakuVGgnU?rel=0]
+
+
+    [!INCLUDE [](includes/6-4a-integrate-onedrive-for-business.md)]
+- title: เผยแพร่บนเว็บ
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/jNPOaLP9hlc?rel=0]
+
+
+    [!INCLUDE [](includes/6-6-publish-to-web.md)]
+- title: จบการเรียนรู้ตามคำแนะนำของ Power BI
+  durationInMinutes: 4
+  content: >
+    [!INCLUDE [](includes/6-5-guided-learning-completion.md)]
+- content: คุณจบส่วน**การเผยแพร่และการแชร์**ของการเรียนรู้ตามคำแนะนำของ Power BI แล้ว ถ้าคุณต้องการการแนะนำ DAX ซึ่งเป็นภาษาที่ใช้สร้างคิวรี Power BI กรุณาตรงไปบทช่วยสอนถัดไป

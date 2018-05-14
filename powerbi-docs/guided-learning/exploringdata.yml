@@ -1,0 +1,96 @@
+### YamlMime:Tutorial
+title: การสำรวจข้อมูล
+metadata:
+  title: การสำรวจข้อมูล | Microsoft Power BI
+  description: เรียนรู้วิธีการค้นหา เชื่อมต่อ และโต้ตอบกับข้อมูลใน Power BI
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: powerbiandexcel
+  nextTutorialTitle: Power BI และ Excel
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 12/05/2017
+  ms.author: davidi
+  ms.openlocfilehash: aa974a0f3448efde8a4410fabcf0e4f78a5050fd
+  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 02/06/2018
+items:
+- durationInMinutes: 1
+  content: >
+    ยินดีต้อนรับสู่บทช่วยสอน**การสำรวจข้อมูล** ที่นี่คุณจะได้เรียนรู้วิธีการค้นหา เชื่อมต่อ และโต้ตอบกับข้อมูลใน Power BI
+- title: แนะนำบริการของ Power BI
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/B2vd4MQrz4M?rel=0]
+
+
+    [!INCLUDE [](includes/4-0-intro-power-bi-service.md)]
+- title: ข้อมูลเชิงลึกด่วนใน Power BI
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/et_MLSL2sA8?rel=0]
+
+
+    [!INCLUDE [](includes/4-1a-quick-insights.md)]
+- title: สร้างและกำหนดค่าแดชบอร์ด
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/lJKgWnvl6bQ?rel=0]
+
+
+    [!INCLUDE [](includes/4-2-create-configure-dashboards.md)]
+- title: ถามคำถามเกี่ยวกับข้อมูลของคุณด้วยภาษาธรรมชาติ
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/qMf7OLJfCz8?rel=0]
+
+
+    [!INCLUDE [](includes/4-3-asking-questions-natural-language.md)]
+- title: สร้างคำแนะนำ Q&A แบบกำหนดเอง
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/E1mIAyEXuF4?rel=0]
+
+
+    [!INCLUDE [](includes/4-3a-suggested-questions.md)]
+- title: แชร์แดชบอร์ดกับองค์กรของคุณ
+  durationInMinutes: 7
+  content: >
+    > [!Video https://www.youtube.com/embed/0tUwn8DHo3s?rel=0]
+
+
+    [!INCLUDE [](includes/4-4-share-dashboards.md)]
+- title: แสดงวิชวลและไทล์แบบเต็มหน้าจอ
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/LoApjhwTse0?rel=0]
+
+
+    [!INCLUDE [](includes/4-4b-display-visuals-tiles-fullscreen.md)]
+- title: แก้ไขรายละเอียดไทล์ และเพิ่มวิดเจ็ต
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/XhqVbHqd5jQ?rel=0]
+
+
+    [!INCLUDE [](includes/4-4d-change-tile-details.md)]
+- title: เพิ่มพื้นที่บนแดชบอร์ดของคุณ
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/c31gZkyvC54?rel=0]
+
+
+    [!INCLUDE [](includes/4-4e-get-more-dashboard-space.md)]
+- title: ติดตั้งและกำหนดค่าเกตเวย์ส่วนบุคคล
+  durationInMinutes: 11
+  content: >
+    > [!Video https://www.youtube.com/embed/xjcO5tNvjGs?rel=0]
+
+
+    [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
+- content: ส่วน**สำรวจข้อมูล**ของการเรียนรู้ตามคำแนะนำนี้ ได้เตรียมคุณให้พร้อมที่จะทำงานกับชนิดข้อมูลต่าง ๆ กัน ในบทช่วยสอนถัดไป คุณจะได้เรียนรู้วิธีการใช้แหล่งข้อมูลที่ใช้บ่อย - Excel
