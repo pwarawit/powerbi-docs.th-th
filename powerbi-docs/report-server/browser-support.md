@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: 273a336280a371f694fb08a43d75e24535942e9a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: a0ac612ec132d5aefc8353b4ef92212913e3db5a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>การสนับสนุนเบราว์เซอร์สำหรับเซิร์ฟเวอร์รายงาน Power BI
 เรียนรู้เกี่ยวกับรุ่นเบราว์เซอร์ที่ได้รับการสนับสนุนสำหรับการจัดการและดูแลเซิร์ฟเวอร์รายงาน Power BI และการควบคุม Report Viewer
@@ -120,9 +120,9 @@ Your browser does not support scripts or has been configured to not allow script
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [คู่มือผู้ดูแลระบบ](admin-handbook-overview.md)  
-[เริ่มต้นใช้งานด่วน: ติดตั้งเซิร์ฟเวอร์รายงาน Power BI](quickstart-install-report-server.md)  
+[ติดตั้งเซิร์ฟเวอร์รายงาน Power BI](install-report-server.md)  
 [ติดตั้งตัวสร้างรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [ดาวน์โหลดเครื่องมือข้อมูลเซิร์ฟเวอร์ SQL (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-คุณมีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

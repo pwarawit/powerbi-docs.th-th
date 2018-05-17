@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: ff2e515823cbaa726fbdf72d1cb398381ea69363
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b1bfbdc635c0abba7e6d14567c3e839fd6a0c716
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>วิธีการค้นหาคีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงานของคุณ
 เรียนรู้วิธีคุณสามารถค้นหาคีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI ของคุณเมื่อต้องการติดตั้งเซิร์ฟเวอร์ของคุณในสภาพแวดล้อมการผลิต
@@ -52,10 +52,10 @@ ms.lasthandoff: 01/30/2018
 ![](media/find-product-key/vlsc-download.png "ศูนย์บริการสิทธิ์การใช้งาน Volume")
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เริ่มต้นใช้งานด่วน: ติดตั้งเซิร์ฟเวอร์รายงาน Power BI](quickstart-install-report-server.md)  
+[ติดตั้งเซิร์ฟเวอร์รายงาน Power BI](install-report-server.md)  
 [ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](install-powerbi-desktop.md)  
 [ติดตั้งตัวสร้างรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [ดาวน์โหลดเครื่องมือข้อมูลเซิร์ฟเวอร์ SQL (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-คุณมีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

@@ -5,20 +5,20 @@ metadata:
   description: ข้อมูลจะมีประสิทธิภาพมากที่สุดเมื่อได้แชร์กับผู้อื่น - เรียนรู้วิธีการเผยแพร่ ส่งออก แชร์ และแจกจ่ายข้อมูลเชิงลึก Power BI ของคุณ
   audience: Business User
   level: Beginner
-  nextTutorialHref: introductiontodax
+  nextTutorialHref: introductiontodax.yml
   nextTutorialTitle: แนะนำ DAX
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/06/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: cc8560f56cba1f8bb0dc3d7faedf44433318288b
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 32729b224866381b41be53ac1eb8f7f1874903b4
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: th-TH
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
   content: >

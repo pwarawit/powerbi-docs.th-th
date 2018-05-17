@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: e3d0e8b98135e232809cd2b5e3fc06827b1f480e
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 6dad138407c80a1caab8b3aca4668504bdf2c382
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>ลงทะเบียนแอป Azure AD เพื่อฝังเนื้อหา Power BI
 เรียนรู้วิธีการลงทะเบียนแอปพลิเคชันภายใน Azure Active Directory (Azure AD) สำหรับการใช้งานด้วยการฝังเนื้อหา Power BI
@@ -71,9 +71,6 @@ ms.lasthandoff: 04/26/2018
 * เลือก **สิทธิ์ที่จำเป็น**
 * เลือก **บริการ Power BI** เพื่อตรวจสอบสิทธิ์ที่คุณเลือกจากไซต์การลงทะเบียนแอป
 * เลือก **ให้สิทธิ์**
-
-
-
 
 ตอนนี้คุณสามารถใช้แอปพลิเคชันที่ลงทะเบียนไว้เป็นส่วนหนึ่งของแอปพลิเคชันแบบกำหนดเองของคุณเพื่อโต้ตอบกับบริการ Power BI
 

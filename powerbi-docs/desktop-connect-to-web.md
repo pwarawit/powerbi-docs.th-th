@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 23984d8e64445d869062e942eb6155ff58b0d0ae
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: a4b24ce9201978435f057919b30dd6cef1b31c3a
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>เชื่อมต่อไปยังหน้าเว็บจาก Power BI Desktop
 คุณสามารถเชื่อมต่อไปยังหน้าเว็บ และนำเข้าข้อมูลหน้าเว็บลงใน Power BI Desktop เพื่อนำไปใช้ในภาพ และโมเดลข้อมูลของคุณ
@@ -55,7 +55,7 @@ ms.lasthandoff: 03/15/2018
 มีข้อมูลหลากหลายประเภทที่คุณสามารถเชื่อมต่อโดยใช้ Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแหล่งข้อมูล กรุณาตรวจดูแหล่งที่มาต่อไปนี้:
 
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
-* [ปรับข้อมูลให้เป็นรูปร่าง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [จัดรูปร่าง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [เชื่อมต่อกับสมุดงาน Excel ใน Power BI Desktop](desktop-connect-excel.md)   
 * [เชื่อมต่อกับไฟล์ CSV ใน Power BI Desktop](desktop-connect-csv.md)   
 * [ใส่ข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   

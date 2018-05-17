@@ -1,6 +1,6 @@
 ---
-title: 'บทช่วยสอน: จากสมุดงาน Excel สู่รายงานอันน่าตื่นตาตื่นใจเพียงครู่เดียว'
-description: 'บทช่วยสอน: จากสมุดงาน Excel สู่รายงานอันน่าตื่นตาตื่นใจเพียงครู่เดียว'
+title: จากสมุดงาน Excel สู่รายงานอันน่าตื่นตาตื่นใจเพียงครู่เดียว
+description: จากสมุดงาน Excel สู่รายงานอันน่าตื่นตาตื่นใจเพียงครู่เดียว
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: 64872b94d13f30cbab08d67530cc6ae0ccbe8fc3
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 849511476200d401432fdcc2ad88ec2930448bf9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>จากสมุดงาน Excel สู่รายงานอันน่าตื่นตาตื่นใจเพียงครู่เดียว
 ผู้จัดการต้องการดูรายงานตัวเลขยอดขายของคุณที่รวมข้อมูลที่น่าประทับใจจากแคมเปญล่าสุดภายในวันนี้ แต่ข้อมูลล่าสุดอยู่ในระบบของบุคคลที่สามต่าง ๆ และบนไฟล์ในคอมพิวเตอร์โน๊ตบุ๊คของคุณ ในอดีตต้องใช้เวลาหลายชั่วโมงในการสร้างภาพและจัดรูปแบบรายงาน คุณเริ่มรู้สึกตื่นตระหนก

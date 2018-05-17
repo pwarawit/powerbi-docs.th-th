@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 762a8bebfa757b41bfeafb54b278eca41a57f35d
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: bd49252101df0009b2a25b5cdf3b77f79d86510e
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>เชื่อมต่อกับ Snowflake ใน Power BI Desktop
 ใน Power BI Desktop คุณสามารถเชื่อมต่อไปยัง **Snowflake** Computing Warehouse และใช้ข้อมูลพื้นฐานได้เช่นเดียวกับแหล่งข้อมูลอื่นๆ ใน Power BI Desktop 
@@ -61,7 +61,7 @@ ms.lasthandoff: 03/15/2018
 
 * [เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
-* [ทำให้เป็นรูปร่างและรวมข้อมูลใน Power BI Desktop](desktop-shape-and-combine-data.md)
+* [จัดรูปร่าง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [เชื่อมต่อกับเวิร์กบุ๊ก Excel ใน Power BI Desktop](desktop-connect-excel.md)   
 * [ใส่ข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
 

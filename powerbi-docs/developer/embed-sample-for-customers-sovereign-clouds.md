@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 5d0d679a9b5d3bea494915dc981e155ad69eeac6
+ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>ฝังในแดชบอร์ด ไทล์ หรือรายงาน Power BI ลงในแอปพลิเคชันสำหรับคลาวด์แบบ sovereign
 เรียนรู้วิธีการรวม หรือฝัง แดชบอร์ด ไทล์ หรือ รายงาน ลงในแอปบนเว็บด้วย Power BI .NET SDK ตลอดจด Power BI JavaScript API สำหรับลูกค้าของคุณ นี่คือกรณีทั่วไปของ ISV
@@ -38,7 +38,7 @@ Power BI ยังสนับสนุนคลาวด์แบบ sovereign 
 
 ![แดชบอร์ดที่ฝังตัว](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-เมื่อต้องการเริ่มต้นการฝึกปฏิบัตินี้ คุณต้องการ**บัญชี Power BI** ถ้าคุณยังไม่มีบัญชีผู้ใช้ ขึ้นอยู่กับชนิดของภาครัฐ คุณสามารถ[ลงทะเบียนบัญชี Power BI สำหรับรัฐบาลสหรัฐ](../service-govus-signup.md) หรือ [บัญชี Power BI สำหรับผู้ใช้คลาวด์เยอรมนี](https://powerbi.microsoft.com/en-us/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)
+เมื่อต้องการเริ่มต้นการฝึกปฏิบัตินี้ คุณต้องการ**บัญชี Power BI** ถ้าคุณยังไม่มีบัญชีผู้ใช้ ขึ้นอยู่กับชนิดของภาครัฐ คุณสามารถ[ลงทะเบียนบัญชี Power BI สำหรับรัฐบาลสหรัฐ](../service-govus-signup.md) หรือ [บัญชี Power BI สำหรับผู้ใช้คลาวด์เยอรมนี](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1)
 
 > [!NOTE]
 > กำลังมองหาวิธีฝังแดชบอร์ดสำหรับองค์กรของคุณ ดูที่ [รวมแดชบอร์ดลงในแอปสำหรับองค์กรของคุณ](integrate-dashboard.md)
@@ -407,7 +407,7 @@ var embedConfig = new EmbedConfig()
 
 * มีตัวอย่างแอปพลิเคชั่นอยู่บน GitHub ให้คุณได้ศึกษา ตัวอย่างต่าง ๆ ข้างบนมาจากตัวอย่างนั้น สำหรับข้อมูลเพิ่มเติม ดู[ตัวอย่างการฝังตัวสำหรับองค์กรของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
 * สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ JavaScript API โปรดอ้างอิงจาก [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
-* สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power BI สำหรับคลาวด์ประเทศเยอรมนี โปรดอ้างอิงจาก [Power BI สำหรับคลาวด์ประเทศเยอรมนี คำถามที่ถามบ่อย](https://docs.microsoft.com/en-us/power-bi/service-govde-faq)
+* สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power BI สำหรับคลาวด์ประเทศเยอรมนี โปรดอ้างอิงจาก [Power BI สำหรับคลาวด์ประเทศเยอรมนี คำถามที่ถามบ่อย](https://docs.microsoft.com/power-bi/service-govde-faq)
 * [วิธีการย้ายเนื้อหาจาก Power BI Workspace Collection ไปยัง Power BI](migrate-from-powerbi-embedded.md)
 
 ข้อจำกัดและข้อควรพิจารณา
