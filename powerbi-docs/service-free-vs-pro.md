@@ -3,7 +3,7 @@ title: Power BI Free เปรียบเทียบกับ Pro
 description: ผู้ใช้ทุกคนภายใน Power BI จะใช้งานแบบ Free หรือไม่ก็ Pro จะเป็นประโยชน์มากในการทำความเข้าใจความแตกต่างระหว่างผู้ใช้สองประเภทเหล่านี้...
 services: powerbi
 documentationcenter: ''
-author: markingmyname
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 0d6282f1b0e89fbe1deb4fbea6a578b831fafd98
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9fff53ffca1e863603467549e2e5495ffbfaf0cf
+ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="power-bi-free-vs-pro"></a>Power BI Free เปรียบเทียบกับ Pro
 ผู้ใช้ทุกคนภายใน Power BI จะใช้งานแบบ Free หรือไม่ก็ Pro จะเป็นประโยชน์มากในการทำความเข้าใจความแตกต่างระหว่างผู้ใช้สองประเภทเหล่านี้...

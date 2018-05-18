@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 466505ae2c4050629e8bbcc4ff90cde520d31375
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: cf084492a7b5d1ecc10ff933eeaef4cdbdc14022
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>แก้ไขปัญหาการรีเฟรชตามกำหนดเวลาในเซิร์ฟเวอร์รายงาน Power BI
 บทความนี้อธิบายถึงทรัพยากรมีให้เพื่อใช้แก้ไขปัญหา รีเฟรชตามกำหนดเวลาในเซิร์ฟเวอร์รายงาน Power BI
@@ -60,7 +60,6 @@ ms.lasthandoff: 01/30/2018
 
 | การตั้งค่า | คำอธิบาย |
 | --- | --- |
-| EnablePowerBIReportEmbeddedModels |เปิดหรือปิดใช้งาน ความสามารถในการใช้ข้อมูลนำเข้า ภายในรายงานของคุณ ค่าที่ถูกต้องเป็น True หรือ False |
 | MaxFileSizeMb |ขนาดไฟล์สูงสุดสำหรับรายงานที่อัปโหลด ค่าเริ่มต้นคือ 1000 MB (1 GB) ค่าสูงสุดคือ 2000 MB (2 GB) |
 | ModelCleanupCycleMinutes |กำหนดว่ารูปแบบมีการตรวจสอบบ่อยแค่ไหน เพื่อลบออกจากหน่วยความจำ ค่าเริ่มต้นคือ 15 นาที |
 | ModelExpirationMinutes |กำหนดว่าเวลานานเท่าไรนับจากการใช้งานล่าสุด ที่รูปแบบจะหมดอายุและลบออกจากหน่วยความจำ ค่าเริ่มต้นคือ 60 นาที |
