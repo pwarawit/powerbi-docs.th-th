@@ -1,28 +1,20 @@
 ---
 title: เชื่อมต่อกับข้อมูลโดยใช้อินเทอร์เฟสทั่วไปใน Power BI Desktop
 description: เรียนรู้วิธีการเชื่อมต่อแหล่งข้อมูลต่าง ๆ ด้วยอินเทอร์เฟสทั่วไปใน Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 54627f734448c15244d29485d4380f6630cee3d4
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 4be27c91d0616d4611eb07dab5d68c39ed0ab6d2
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>เชื่อมต่อกับข้อมูลโดยใช้อินเทอร์เฟสทั่วไปใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับแหล่งข้อมูลต่าง ๆ ใน **Power BI Desktop** ด้วยตัวเชื่อมต่อข้อมูลอยู่ภายใน ตั้งแต่**ฐานข้อมูล Access** จนถึงทรัพยากร **Zendesk** ตามที่แสดงในหน้าต่าง**รับข้อมูล** คุณยังสามารถเชื่อมต่อกับแหล่งข้อมูล*อื่น ๆ* เพื่อขยายตัวเลือกการเชื่อมต่อของคุณ โดยใช้อินเทอร์เฟสทั่วไป (เช่น **ODBC** หรือ **REST API**) ที่มีอยู่แล้วใน **Power BI Desktop**
@@ -118,7 +110,7 @@ ms.lasthandoff: 05/04/2018
 
 * [เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
-* [จัดรูปร่าง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
-* [เชื่อมต่อกับเวิร์กบุ๊ก Excel ใน Power BI Desktop](desktop-connect-excel.md)   
+* [จัดรูปร่างและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [เชื่อมต่อกับสมุดงาน Excel ใน Power BI Desktop](desktop-connect-excel.md)   
 * [ใส่ข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
 

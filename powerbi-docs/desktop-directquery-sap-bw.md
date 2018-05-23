@@ -1,28 +1,20 @@
 ---
 title: DirectQuery และ SAP Business Warehouse (BW) ใน Power BI
 description: ข้อควรพิจารณาเมื่อใช้ DirectQuery กับ SAP Business Warehouse (BW)
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 792895f5bff61f52c82823040c974b162493edb2
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: a8fde13b0beeb57fb5d25aa35002358f04ab6cad
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery และ SAP Business Warehouse (BW)
 คุณสามารถเชื่อมต่อกับแหล่งข้อมูล **SAP Business Warehouse (BW)** ได้โดยตรงโดยใช้ **DirectQuery** เนื่องจากลักษณะแบบ OLAP/หลายมิติของ SAP BW ซึ่งมีความแตกต่างกันมากกว่าระหว่าง DirectQuery กับ SAP BW เมื่อเทียบกับแหล่งข้อมูลเชิงสัมพันธ์เช่น SQL Server ความแตกต่างเหล่านี้จะสรุปได้ดังนี้
@@ -39,9 +31,9 @@ ms.lasthandoff: 03/22/2018
 ## <a name="additional-modeling-restrictions"></a>ข้อจำกัดเกี่ยวกับแบบจำลองเพิ่มเติม
 ข้อจำกัดหลักเกี่ยวกับแบบจำลองเพิ่มเติมเมื่อเชื่อมต่อกับ SAP BW โดยใช้ DirectQuery ใน Power BI มีดังนี้
 
-* **ไมสนับสนุนสำหรับคอลัมน์จากการคำนวณ** ความสามารถในการสร้างคอลัมน์จากการคำนวณถูกปิดใช้งาน นอกจากนี้ ก็ยังหมายความอีกด้วยว่า การจัดกลุ่มและการจัดคลัสเตอร์ซึ่งสร้างคอลัมน์จากการคำนวณยังไม่พร้อมใช้งาน
+* **ไมสนับสนุนสำหรับคอลัมน์จากการคำนวณ **ความสามารถในการสร้างคอลัมน์จากการคำนวณถูกปิดใช้งาน นอกจากนี้ ก็ยังหมายความอีกด้วยว่า การจัดกลุ่มและการจัดคลัสเตอร์ซึ่งสร้างคอลัมน์จากการคำนวณยังไม่พร้อมใช้งาน
 * **ข้อจำกัดเพิ่มเติมสำหรับหน่วยวัด** มีข้อจำกัดเพิ่มเติมที่กำหนดบนนิพจน์ DAX ซึ่งสามารถใช้ในหน่วยวัดเพื่อแสดงระดับการสนับสนุนที่เสนอโดย SAP BW
-* **ไม่รองรับการกำหนดความสัมพันธ์** ความสัมพันธ์จะสิลทอดในแหล่งข้อมูล SAP ภายนอก และไม่สามารถกำหนดความสัมพันธ์เพิ่มเติมในแบบจำลอง
+* **ไม่รองรับการกำหนดความสัมพันธ์ **ความสัมพันธ์จะสิลทอดในแหล่งข้อมูล SAP ภายนอก และไม่สามารถกำหนดความสัมพันธ์เพิ่มเติมในแบบจำลอง
 * **ไม่มีมุมมองข้อมูล****มุมมองข้อมูล**ที่ตามปกติแสดงข้อมูลระดับรายละเอียดในตารางได้ตามปกติ ด้วยลักษณะของแหล่งข้อมูล OLAP เช่น SAP BW มุมมองนี้ไมสามารถใช้งานผ่าน SAP BW
 * **มีการแก้ไขรายละเอียดคอลัมน์และหน่วยวัด** มีการแก้ไขรายการของคอลัมน์และหน่วยวัดที่เห็นในรายการเขตข้อมูลโดยแหล่งข้อมูลพื้นฐานและไม่สามารถปรับเปลี่ยนได้ ตัวอย่างเช่น จะไม่สามารถลบคอลัมน์หรือเปลี่ยนแปลง datatype (อย่างไรก็ตาม สามารถเปลี่ยนชื่อได้)
 * **ข้อจำกัดเพิ่มเติมใน DAX** มีข้อจำกัดเพิ่มเติมเกี่ยวกับ DAX ที่สามารถใช้ในการกำหนดหน่วยวัดเพื่อสะท้อนถึงขีดจำกัดในแหล่งข้อมูล ตัวอย่างเช่น ไม่สามารถใช้ฟังก์ชันรวมกับตารางได้
@@ -83,7 +75,7 @@ ms.lasthandoff: 03/22/2018
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ DirectQuery กรุณาตรวจดูทรัพยากรต่อไปนี้:
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ DirectQuery โปรดดูที่ทรัพยากรดังต่อไปนี้:
 
 * [DirectQuery ใน Power BI](desktop-directquery-about.md)
 * [แหล่งข้อมูลที่สนับสนุนโดย DirectQuery](desktop-directquery-data-sources.md)

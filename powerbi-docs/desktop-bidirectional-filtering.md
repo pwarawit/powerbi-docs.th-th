@@ -1,28 +1,20 @@
 ---
 title: การกรองข้ามแบบสองทิศทางใน Power BI Desktop
 description: เปิดใช้งานการกรองข้ามด้วย DirectQuery ใน Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 448bc397d23a289defc95515ad42de1ce0741ba5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a584d61e1f2f55c244b453e6c086f3222217ee9a
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop"></a>การกรองข้ามแบบสองทิศทางในด้วย DirectQuery ใน Power BI Desktop
 

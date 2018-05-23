@@ -1,28 +1,20 @@
 ---
 title: เชื่อมต่อไปยังหน้าเว็บจาก Power BI Desktop
 description: เชื่อมต่อและใช้ข้อมูลหน้าเว็บได้อย่างง่ายดายใน Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a4b24ce9201978435f057919b30dd6cef1b31c3a
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: b9a157b9a7302ed7e02f0b3e8f17a905b9b65d93
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>เชื่อมต่อไปยังหน้าเว็บจาก Power BI Desktop
 คุณสามารถเชื่อมต่อไปยังหน้าเว็บ และนำเข้าข้อมูลหน้าเว็บลงใน Power BI Desktop เพื่อนำไปใช้ในภาพ และโมเดลข้อมูลของคุณ
@@ -55,7 +47,7 @@ ms.lasthandoff: 05/04/2018
 มีข้อมูลหลากหลายประเภทที่คุณสามารถเชื่อมต่อโดยใช้ Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแหล่งข้อมูล กรุณาตรวจดูแหล่งที่มาต่อไปนี้:
 
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
-* [จัดรูปร่าง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [จัดรูปร่างและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [เชื่อมต่อกับสมุดงาน Excel ใน Power BI Desktop](desktop-connect-excel.md)   
 * [เชื่อมต่อกับไฟล์ CSV ใน Power BI Desktop](desktop-connect-csv.md)   
 * [ใส่ข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   

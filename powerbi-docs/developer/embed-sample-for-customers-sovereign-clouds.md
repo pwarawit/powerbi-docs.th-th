@@ -1,27 +1,19 @@
 ---
 title: การฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับลูกค้าของคุณบนบริการคลาวด์แบบ sovereign
 description: เรียนรู้วิธีการรวม หรือฝัง แดชบอร์ด ไทล์ หรือรายงาน ลงในเว็บแอปด้วย Power BI API สำหรับลูกค้าของคุณ
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: 5d0d679a9b5d3bea494915dc981e155ad69eeac6
-ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
+ms.openlocfilehash: 59f045d142fdf5ba22f9d240913687a9306e6b43
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/14/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>ฝังในแดชบอร์ด ไทล์ หรือรายงาน Power BI ลงในแอปพลิเคชันสำหรับคลาวด์แบบ sovereign
 เรียนรู้วิธีการรวม หรือฝัง แดชบอร์ด ไทล์ หรือ รายงาน ลงในแอปบนเว็บด้วย Power BI .NET SDK ตลอดจด Power BI JavaScript API สำหรับลูกค้าของคุณ นี่คือกรณีทั่วไปของ ISV
@@ -212,7 +204,7 @@ Report report = reports.Value.FirstOrDefault();
 โทเค็นฝังตัว จะต้องถูกสร้างขึ้นสำหรับใช้จาก JavaScript API โทเค็นฝังตัวแต่ละตัวจะเฉพาะเจาะจงกับรายการคุณจะฝัง ซึ่งหมายความว่า ทุกครั้งที่คุณต้องการฝังเนื้อหาของ Power BI ชิ้นหนึ่ง คุณต้องสร้างโทเค็นใหม่ขึ้นมา สำหรับข้อมูลเพิ่มเติม รวมไปถึง **accessLevel** ที่จะใช้ ดู[GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)
 
 > [!IMPORTANT]
-> เนื่องจากโทเค็นฝังตัวมีไว้สำหรับทดสอบการพัฒนาเท่านั้น จำนวนโทเค็นฝังตัวที่บัญชีหลักของ Power BI มีได้จำกัด จะ[ต้องซื้อความจุ](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) สำหรับการใช้งานจริง ไม่มีข้อจำกัดจำนวนโทเค็นฝังตัวที่สร้างเมื่อซื้อความจุแล้ว
+> เนื่องจากโทเค็นฝังตัวมีไว้สำหรับทดสอบการพัฒนาเท่านั้น จำนวนโทเค็นฝังตัวที่บัญชีหลักของ Power BI มีได้จำกัด [ต้องซื้อความจุ](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) สำหรับสถานการณ์ที่มีการฝังสำหรับการผลิต ไม่มีข้อจำกัดจำนวนโทเค็นฝังตัวที่สร้างเมื่อซื้อความจุแล้ว
 
 มีตัวอย่างนี้ อยู่ใน **Controllers\HomeController.cs** ของ[ตัวอย่างการฝังตัวสำหรับองค์กรของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
 
@@ -405,7 +397,7 @@ var embedConfig = new EmbedConfig()
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-* มีตัวอย่างแอปพลิเคชั่นอยู่บน GitHub ให้คุณได้ศึกษา ตัวอย่างต่าง ๆ ข้างบนมาจากตัวอย่างนั้น สำหรับข้อมูลเพิ่มเติม ดู[ตัวอย่างการฝังตัวสำหรับองค์กรของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
+* มีตัวอย่างแอปพลิเคชันบน GitHub ให้คุณได้ศึกษา ตัวอย่างต่าง ๆ ข้างบนมาจากตัวอย่างนั้น สำหรับข้อมูลเพิ่มเติม ดู[ตัวอย่างการฝังตัวสำหรับองค์กรของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
 * สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ JavaScript API โปรดอ้างอิงจาก [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
 * สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power BI สำหรับคลาวด์ประเทศเยอรมนี โปรดอ้างอิงจาก [Power BI สำหรับคลาวด์ประเทศเยอรมนี คำถามที่ถามบ่อย](https://docs.microsoft.com/power-bi/service-govde-faq)
 * [วิธีการย้ายเนื้อหาจาก Power BI Workspace Collection ไปยัง Power BI](migrate-from-powerbi-embedded.md)

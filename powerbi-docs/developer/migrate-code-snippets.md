@@ -1,27 +1,19 @@
 ---
 title: โค้ดสำหรับการโยกย้ายเนื้อหาจาก Power BI Embedded
 description: ต่อไปนี้คือโค้ดบางอย่างของการดำเนินงานพื้นฐานที่จำเป็นสำหรับการโยกย้ายเนื้อหา
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: d293f2184f0f9a314a77c362312de4ab6a4dc5df
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 8fbefc7f1b6a9841dcb9c3d34d850c7e8e392881
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>โค้ดสำหรับการโยกย้ายเนื้อหาจากคอลเลกชันพื้นที่ทำงานของ Power BI
 ต่อไปนี้คือโค้ดบางอย่างของการดำเนินงานพื้นฐานที่จำเป็นสำหรับการโยกย้ายเนื้อหา สำหรับขั้นตอนที่เกี่ยวข้องกับรายงานบางชนิด ดู[วิธีการโยกย้ายเนื้อหาคอลเลกชันของพื้นที่ทำงาน Power BI ไปยัง Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration)
@@ -149,7 +141,7 @@ using System.Threading.Tasks;
     }
 
     var basicCreds = new BasicCreds() { user = <sqldb_username>, pwd = <sqldb_password> };
-    var body = new SetCredsRequestBody() { credentialType = "Basic", basicCreds = basicCreds };
+    var body = new SetCredsRequestBody() { credentialType = "Basic", basicCredentials = basicCreds };
 
     var url = string.Format("https://api.powerbi.com/v1.0/myorg/gateways/{0}/datasources/{1}", <gateway_id>, <datasource_id>);
     var request = new HttpRequestMessage(new HttpMethod("PATCH"), url);
@@ -235,10 +227,10 @@ using System.Threading.Tasks;
 [วิธีการย้ายเนื้อหาคอลเลกชันพื้นที่ทำงานแบบฝัง Power BI ไปยัง Power BI](migrate-from-powerbi-embedded.md)  
 [วิธีฝัง Power BI แดชบอร์ด รายงาน และไทล์](embedding-content.md)  
 [Power BI Premium คืออะไร](../service-premium.md)  
-[JavaScript API Git repo](https://github.com/Microsoft/PowerBI-JavaScript)  
+[พื้นที่เก็บข้อมูลของ JavaScript API Git](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git repo](https://github.com/Microsoft/PowerBI-CSharp)  
 [ตัวอย่างการฝัง JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [เอกสารบรรยายแนวความคิดของ Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+คำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

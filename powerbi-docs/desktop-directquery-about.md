@@ -1,28 +1,20 @@
 ---
 title: การใช้ DirectQuery ใน Power BI
 description: ทำความเข้าใจเกี่ยวกับการใช้ DirectQuery กับ Power BI
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 02/05/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 89dae54ed1faaa868ca022360480540de9dbe295
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: 472be555bb4c46da41eb762c1eeae14ef991e742
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>การใช้ DirectQuery ใน Power BI
 คุณสามารถเชื่อมต่อกับแหล่งข้อมูลต่าง ๆ ได้ทุกประเภท เมื่อใช้**Power BI Desktop**หรือ**บริการ Power BI**และคุณสามารถทำการเชื่อมต่อข้อมูลเหล่านั้นด้วยวิธีต่าง ๆ ได้ คุณสามารถ*นำเข้า*ข้อมูลไปยัง Power BI ซึ่งเป็นวิธีทั่วไปในการรับข้อมูล หรือคุณสามารถเชื่อมต่อโดยตรงไปยังข้อมูลในที่เก็บแหล่งข้อมูลดั้งเดิม หรือที่เรียกว่า**DirectQuery** บทความนี้อธิบาย**DirectQuery**และความสามารถของ DirectQuery รวมถึงหัวข้อต่อไปนี้:

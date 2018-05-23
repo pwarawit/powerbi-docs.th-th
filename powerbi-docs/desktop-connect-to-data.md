@@ -1,28 +1,20 @@
 ---
 title: เชื่อมต่อกับข้อมูลใน Power BI Desktop
 description: เชื่อมต่อกับข้อมูลใน Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: eb6d31864570a2078cf46b7e30fa771fd7773e93
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 50a5d3d97e90879dcb542c441f129f468a95c6c7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>เชื่อมต่อกับข้อมูลใน Power BI Desktop
 ด้วย Power BI Desktop คุณสามารถเชื่อมต่อไปทั่วโลกแห่งข้อมูลที่กำลังขยายตัวได้อย่างง่ายดาย ถ้าคุณไม่มี Power BI Desktop คุณสามารถ[ดาวน์โหลด](http://go.microsoft.com/fwlink/?LinkID=521662)และติดตั้งได้
@@ -72,10 +64,10 @@ ms.lasthandoff: 03/15/2018
 แน่นอนว่า นี่คือโมเดลอย่างง่ายด้วยการเชื่อมต่อข้อมูลเดียว รายงาน Power BI Desktop ส่วนใหญ่จะมีการเชื่อมต่อกับแหล่งข้อมูลอื่นที่แตกต่างกันไป สร้างรูปเพื่อให้ตรงกับความต้องการของของคุณด้วยความสัมพันธ์ที่สร้างโมเดลข้อมูลที่สมบูรณ์ 
 
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
-มีหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับความความสามารถของ กรุณาตรวจดูแหล่งที่มาต่อไปนี้
+มีหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI Desktop กรุณาดูที่ทรัพยากรต่อไปนี้เพื่อศึกษาข้อมูลเพิ่มเติมเกี่ยวกับความความสามารถของ
 
-* [เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
-* [ภาพรวมแบบสอบถามดับ Power BI Desktop](desktop-query-overview.md)
+* [เริ่มต้นใช้งานด้วย Power BI Desktop](desktop-getting-started.md)
+* [ภาพรวมคิวรี ด้วย Power BI Desktop](desktop-query-overview.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
 * [ปรับข้อมูลให้เป็นรูปร่าง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [งานแบบสอบถามทั่วไปใน Power BI Desktop](desktop-common-query-tasks.md)   

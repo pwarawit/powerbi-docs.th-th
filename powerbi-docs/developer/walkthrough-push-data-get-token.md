@@ -1,27 +1,19 @@
 ---
 title: รับโทเค็นการเข้าถึงการรับรองความถูกต้อง
 description: คำแนะนำการส่งข้อมูล - รับโทเค็นการเข้าถึงการรับรองความถูกต้อง
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: b2bec0ed32133c6882365ec257840cc3bf0b6119
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 640c6dac9a896cff55bddad46ceef8bce7ccae14
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>ขั้นตอนที่ 2: รับโทเค็นการเข้าถึงการรับรองความถูกต้อง
 บทความนี้เป็นส่วนหนึ่งของคำแนะนำทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
@@ -189,5 +181,5 @@ ms.lasthandoff: 01/30/2018
 [ส่งข้อมูลลงในชุดข้อมูล Power BI](walkthrough-push-data.md)  
 [ภาพรวมของ Power BI REST API](overview-of-power-bi-rest-api.md)  
 [การอ้างอิง Power BI REST API](https://msdn.microsoft.com/library/mt147898.aspx)  
-คุณมีคำถามเพิ่มเติมหรือไม่ [ ลองเข้าร่วมกับชุมชน Power BI ](http://community.powerbi.com/)
+คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

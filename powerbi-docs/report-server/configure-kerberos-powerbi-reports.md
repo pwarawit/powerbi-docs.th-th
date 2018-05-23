@@ -1,27 +1,19 @@
 ---
 title: กำหนดค่า Kerberos เพื่อใช้รายงาน Power BI
 description: เรียนรู้วิธีการกำหนดค่าเซิร์ฟเวอร์รายงานของคุณสำหรับการรับรองความถูกต้อง Kerberos ไปยังแหล่งข้อมูลที่ใช้ภายในรายงานของ Power BI สำหรับสภาพแวดล้อมแบบกระจาย
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 70d4992ad4680d2a412a6bdded895f4248f5dab1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c4429c33f52954852f430e582064c813b11555b7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>กำหนดค่า Kerberos เพื่อใช้รายงาน Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -223,7 +215,7 @@ SPN สำหรับ SQL Browser จะคล้ายกับสิ่งท
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [คู่มือผู้ดูแลระบบ](admin-handbook-overview.md)  
-[เริ่มต้นใช้งานด่วน: ติดตั้งเซิร์ฟเวอร์รายงาน Power BI](quickstart-install-report-server.md)  
+[ติดตั้ง Power BI Report Server](install-report-server.md)  
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

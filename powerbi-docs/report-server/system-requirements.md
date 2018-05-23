@@ -1,27 +1,19 @@
 ---
 title: ข้อกำหนดฮาร์ดแวร์และซอฟต์แวร์สำหรับติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 description: ที่นี่คุณจะพบข้อกำหนดขั้นต่ำของฮาร์ดแวร์และซอฟต์แวร์เพื่อติดตั้งและเรียกใช้เซิร์ฟเวอร์รายงาน Power BI
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 26710c6a19ea4f9389718bea51ffff82dfadd3eb
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 2963dbe2a5d1109e4396568624e16bf49d98da10
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>ข้อกำหนดฮาร์ดแวร์และซอฟต์แวร์สำหรับติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 ที่นี่คุณจะพบข้อกำหนดขั้นต่ำของฮาร์ดแวร์และซอฟต์แวร์เพื่อติดตั้งและเรียกใช้เซิร์ฟเวอร์รายงาน Power BI
@@ -69,16 +61,16 @@ SQL Server ถูกใช้เพื่อโฮสต์ฐานข้อม
 
 | **เวอร์ชันของเซิร์ฟเวอร์** | **SKU ที่จำเป็นต้องมี** |
 | --- | --- |
-| 2012 SP1 CU4 หรือใหม่กว่า |Business Intelligence and Enterprise SKU |
+| 2012 SP1 CU4 หรือใหม่กว่า |เทคโนโลยีสำหรับการรวบรวมข้อมูล จัดเก็บ วิเคราะห์ และการเข้าถึงข้อมูล รวมถึงการดูในหลากหลายมุมมอง (BI) และ SKU องค์กร |
 | 2014 |Business Intelligence and Enterprise SKU |
 | 2016 และเวอร์ชันที่ใหม่กว่า |SKU มาตรฐาน หรือสูงกว่า |
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [คู่มือผู้ใช้](user-handbook-overview.md)  
 [คู่มือผู้ดูแลระบบ](admin-handbook-overview.md)  
-[ติดตั้งเซิร์ฟเวอร์รายงาน Power BI](install-report-server.md)  
+[ติดตั้ง Power BI Report Server](install-report-server.md)  
 [ติดตั้งตัวสร้างรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
-[ดาวน์โหลดเครื่องมือข้อมูลเซิร์ฟเวอร์ SQL (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[ดาวน์โหลด SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

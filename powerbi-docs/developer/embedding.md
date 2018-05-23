@@ -1,27 +1,19 @@
 ---
 title: การฝังด้วย Power BI
 description: Power BI มี API สำหรับฝังแดชบอร์ดและรายงานของคุณลงในแอปพลิเคชัน
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/30/17
-ms.author: mihart
-ms.openlocfilehash: 4d112ae4c25f080a3eb90de596c056366da3fe1d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.component: powerbi-developer
+ms.topic: conceptual
+ms.date: 11/30/2017
+ms.author: maghan
+ms.openlocfilehash: 043bd43ac6d0abcd4cc4bae54f4ee57cc4ef2a41
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="embedding-with-power-bi"></a>การฝังด้วย Power BI
 Power BI มี API สำหรับฝังแดชบอร์ดและรายงานของคุณลงในแอปพลิเคชัน Power BI API มีชุดความสามารถที่สอดคล้องกันและสิทธิ์เข้าถึงฟีเจอร์ล่าสุดของ Power BI เช่น แดชบอร์ด เกตเวย์ และพื้นที่ทำงานแอปขณะฝังเนื้อหาของคุณ
@@ -70,11 +62,11 @@ Power BI มี API สำหรับฝังแดชบอร์ดและ
 [วิธีฝัง Power BI แดชบอร์ด รายงาน และไทล์](embedding-content.md)  
 [วิธีการย้ายเนื้อหาคอลเลกชันพื้นที่ทำงาน Power BI Embedded ไปยัง Power BI](migrate-from-powerbi-embedded.md)  
 [Power BI Premium คืออะไร](../service-premium.md)  
-[JavaScript API Git repo](https://github.com/Microsoft/PowerBI-JavaScript)  
+[พื้นที่เก็บข้อมูลของ JavaScript API Git](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git repo](https://github.com/Microsoft/PowerBI-CSharp)  
 [ตัวอย่างการฝัง JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[เอกสารทางเทคนิคเรื่องการวิเคราะห์การวางแผนกำลังการผลิตแบบฝัง](https://aka.ms/pbiewhitepaper)  
+[เอกสารทางเทคนิคเรื่องการวางแผนความจุวิเคราะห์แบบฝัง](https://aka.ms/pbiewhitepaper)  
 [เอกสารทางเทคนิคเรื่อง Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+คำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

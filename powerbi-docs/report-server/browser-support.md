@@ -1,27 +1,19 @@
 ---
 title: การสนับสนุนเบราว์เซอร์สำหรับเซิร์ฟเวอร์รายงาน Power BI
 description: เรียนรู้เกี่ยวกับรุ่นเบราว์เซอร์ที่ได้รับการสนับสนุนสำหรับการจัดการและดูแลเซิร์ฟเวอร์รายงาน Power BI และการควบคุม Report Viewer
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: a0ac612ec132d5aefc8353b4ef92212913e3db5a
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 23eea014ca4554a2df676cf1fe0be54c2b69d15a
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>การสนับสนุนเบราว์เซอร์สำหรับเซิร์ฟเวอร์รายงาน Power BI
 เรียนรู้เกี่ยวกับรุ่นเบราว์เซอร์ที่ได้รับการสนับสนุนสำหรับการจัดการและดูแลเซิร์ฟเวอร์รายงาน Power BI และการควบคุม Report Viewer
@@ -54,7 +46,7 @@ ms.lasthandoff: 05/07/2018
 
 * Google Chrome (+)
   
-  **(+)** รุ่นล่าสุดที่เผยแพร่สาธารณะ
+  **(+) **รุ่นล่าสุดที่เผยแพร่สาธารณะ
 
 ## <a name="browser-requirements-for-the-report-viewer-web-control-2015"></a>ข้อกำหนดของเบราว์เซอร์สำหรับการควบคุมเว็บตัวแสดงรายงาน (2015)
 ต่อไปนี้คือรายการปัจจุบันของเบราว์เซอร์ที่ได้รับการสนับสนุนด้วยการควบคุมเว็บตัวแสดงรายงาน ตัวแสดงรายงานสนับสนุนการดูรายงานจากพอร์ทัลเว็บ
@@ -72,7 +64,7 @@ ms.lasthandoff: 05/07/2018
 
 * Apple Safari (+)
   
-  **(+)** รุ่นล่าสุดที่เผยแพร่สาธารณะ
+  **(+) **รุ่นล่าสุดที่เผยแพร่สาธารณะ
 
 ### <a name="authentication-requirements"></a>ข้อกำหนดการรับรองความถูกต้อง
 เบราว์เซอร์ที่สนับสนุนแผนงานการรับรองความถูกต้องเฉพาะที่ต้องดำเนินการโดยเซิร์ฟเวอร์รายงานตามลำดับเพื่อให้คำขอของไคลเอ็นต์เสร็จสมบูรณ์ ตารางต่อไปนี้ระบุชนิดการรับรองความถูกต้องเริ่มต้นที่ได้รับการสนับสนุนโดยแต่ละเบราว์เซอร์ที่ใช้งานบนระบบปฏิบัติการ Windows
@@ -85,7 +77,7 @@ ms.lasthandoff: 05/07/2018
 | **Mozilla Firefox**(+) |NTLM, Basic |NTLM |ใช่ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Firefox |
 | **Apple Safari**(+) |NTLM, Basic |Basic |ใช่ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Safari |
 
- **(+)** รุ่นล่าสุดที่เผยแพร่สาธารณะ
+ **(+) **รุ่นล่าสุดที่เผยแพร่สาธารณะ
 
 ### <a name="script-requirements-for-viewing-reports"></a>ข้อกำหนดของสคริปต์สำหรับการดูรายงาน
 หากต้องการใช้ตัวแสดงรายงาน กำหนดค่าเบราว์เซอร์ของคุณเพื่อเรียกใช้สคริปต์
@@ -116,13 +108,13 @@ Your browser does not support scripts or has been configured to not allow script
 * Google Chrome (+)
 * Mozilla Firefox (+)
   
-  **(+)** รุ่นล่าสุดที่เผยแพร่สาธารณะ
+  **(+) **รุ่นล่าสุดที่เผยแพร่สาธารณะ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [คู่มือผู้ดูแลระบบ](admin-handbook-overview.md)  
-[ติดตั้งเซิร์ฟเวอร์รายงาน Power BI](install-report-server.md)  
+[ติดตั้ง Power BI Report Server](install-report-server.md)  
 [ติดตั้งตัวสร้างรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
-[ดาวน์โหลดเครื่องมือข้อมูลเซิร์ฟเวอร์ SQL (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[ดาวน์โหลด SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

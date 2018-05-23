@@ -1,27 +1,19 @@
 ---
 title: เขียนชุดเนื้อหาทมเพลตใน Power BI
 description: การเขียนชุดเนื้อหาของเทมเพลต
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maghan
-ms.openlocfilehash: bfed948be385439d33b335b08da68b103cd7c1b8
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: f3f3343122857cbf06c0004d2a3e5e5247f07e48
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>เขียนชุดเนื้อหาทมเพลตใน Power BI
 การเขียนชุดเนื้อหาเทมเพลตใช้ Power BI Desktop และ PowerBI.com มี 4 องค์ประกอบสำหรับชุดเนื้อหาของคุณ:
@@ -135,7 +127,7 @@ ms.lasthandoff: 03/08/2018
 
 | สนับสนุน | *ไม่สนับสนุน* |
 | --- | --- |
-| ชุดข้อมูลที่สร้างใน PBI Desktop |*ชุดข้อมูลจากชุดเนื้อหาหรือข้อมูลอื่น ๆ ที่ป้อนเข้า เช่น ไฟล์ Excel*  |
+| ชุดข้อมูลที่สร้างใน PBI Desktop |*ชุดข้อมูลจากชุดเนื้อหาหรือข้อมูลอื่น ๆ ที่ป้อนเข้า เช่น ไฟล์ Excel * |
 | แหล่งข้อมูลที่สนับสนุนสำหรับระบบคลาวด์ที่ทำกำหนดการรีเฟรชข้อมูลแล้ว |*ไม่สนับสนุนสำหรับแบบสอบถามโดยตรงหรือการเชื่อมต่อภายในองค์กร* |
 | แบบสอบถามส่งกลับเค้าร่างหรือข้อผิดพลาดที่สอดคล้อง เมื่อเหมาะสม |*เค้าร่างแบบไดนามิกหรือแบบกำหนดเอง* |
 | แหล่งข้อมูลหนึ่งสำหรับแต่ละชุดข้อมูล |*แหล่งข้อมูลหลายแหล่งเช่น Mashups หรือ URL ที่ตรวจพบว่าเป็นแหล่งข้อมูลหลายแหล่ง* |

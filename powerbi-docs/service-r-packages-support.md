@@ -1,28 +1,20 @@
 ---
 title: เรียนรู้ว่าแพ็คเกจ R อันใดที่ได้รับการสนับสนุนการใช้ และสร้างสคริปต์ R ใน Power BI
 description: แพ็คเกจ R ที่ได้รับการสนับสนุน และไม่รองรับใน Power BI
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c4ff69bff3c65fa64f90184668d34fac5a82815f
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 39c6c11e4815df507431648b1d317f9a62a4b1c3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>แพ็คเกจ R ในบริการ Power BI
 คุณสามารถใช้[R ภาษาโปรแกรม](https://www.r-project.org/)ที่มีประสิทธิภาพเพื่อสร้างภาพในบริการ Power BI ได้ แพ็คเกจ R หลายแพ็กเกจได้รับการสนับสนุนในบริการ Power BI (และหลายแพ็คเกจจะได้รับการสนับสนุนตลอดเวลา) และบางแพ็กเกจจะไม่ได้รับการสนับสนุน
