@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 282526e18777e623725859adc84475525dcf25ba
-ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
+ms.openlocfilehash: c7e2d3e949da96c9f2c54a7b589856f48702ff6c
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="power-bi-data-source-prerequisites"></a>ข้อกำหนดเบื้องต้นของแหล่งข้อมูล Power BI
 สำหรับตัวให้บริการข้อมูลแต่ละตัว Power BI รองรับเวอร์ชันตัวให้บริการที่เจาะจงกับวัตถุ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแหล่งข้อมูลที่มีใน Power BI ดูที่[แหล่งข้อมูล](desktop-data-sources.md) ตารางต่อไปนี้แสดงข้อกำหนดเหล่านี้

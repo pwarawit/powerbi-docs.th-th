@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 2caf5adc442a5794a23e3ed5af478f5467068b14
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>ฝังตัวแดชบอร์ด รายงานและไทล์ Power BI ของคุณ
 
@@ -85,7 +85,7 @@ Microsoft [ประกาศเปิดตัว Power BI Premium](https://pow
 
 ### <a name="create-app-workspaces"></a>สร้างพื้นที่ทำงานของแอป
 
-ถ้าคุณกำลังฝังแดชบอร์ดและรายงานสำหรับลูกค้าของคุณ แดชบอร์ดและรายงานเหล่านั้นต้องมีการวางตำแหน่งไว้ภายในพื้นที่ทำงานของแอป บัญชี*หลักที่กล่าวถึงข้างต้นต้องเป็นผู้ดูแลระบบของพื้นที่ทำงานแอป
+ถ้าคุณกำลังฝังแดชบอร์ดและรายงานสำหรับลูกค้าของคุณ แดชบอร์ดและรายงานเหล่านั้นต้องมีการวางตำแหน่งไว้ภายในพื้นที่ทำงานของแอป บัญชี*หลัก*ที่กล่าวถึงข้างต้นต้องเป็นผู้ดูแลระบบของพื้นที่ทำงานแอป
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
 
@@ -99,7 +99,7 @@ Microsoft [ประกาศเปิดตัว Power BI Premium](https://pow
 
 ## <a name="step-2-embed-your-content"></a>ขั้นตอนที่ 2: ฝังเนื้อหาของคุณ
 
-ภายในแอปพลิเคชัน คุณจะต้องรับรองความถูกต้องกับ Power BI ถ้าคุณกำลังฝังเนื้อหาสำหรับลูกค้าของคุณ คุณจะจัดเก็บข้อมูลประจำตัวสำหรับบัญชีหลัก*ภายในแอปพลิเคชันของคุณ สำหรับข้อมูลเพิ่มเติม ดู [รับรองความถูกต้องผู้ใช้และรับโทเค็นการเข้าถึง Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md)
+ภายในแอปพลิเคชัน คุณจะต้องรับรองความถูกต้องกับ Power BI ถ้าคุณกำลังฝังเนื้อหาสำหรับลูกค้าของคุณ คุณจะจัดเก็บข้อมูลประจำตัวสำหรับบัญชี*หลัก*ภายในแอปพลิเคชันของคุณ สำหรับข้อมูลเพิ่มเติม ดู [รับรองความถูกต้องผู้ใช้และรับโทเค็นการเข้าถึง Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md)
 
 ภายในแอปพลิเคชันของคุณ หลังจากที่รับรองความถูกต้องแล้ว ใช้ Power BI REST API และ JavaScript API เพื่อฝังแดชบอร์ดและรายงานลงในแอปพลิเคชันของคุณ 
 
@@ -143,7 +143,7 @@ Microsoft [ประกาศเปิดตัว Power BI Premium](https://pow
 * ซื้อความจุที่เหมาะกับความต้องการของคุณ คุณสามารถใช้ตารางด้านล่างเพื่อทำความเข้าใจเกี่ยวกับ SKU ความจุ Power BI Embedded ที่คุณอาจต้องการ สำหรับรายละเอียดเพิ่มเติม [เอกสารทางเทคนิคเรื่องการวางแผนความจุวิเคราะห์แบบฝัง](https://aka.ms/pbiewhitepaper) เมื่อพร้อมที่จะซื้อแล้ว คุณก็สามารถทำเช่นนั้นได้ภายใน [พอร์ทัล Microsoft Azure](https://portal.azure.com) สำหรับรายละเอียดเกี่ยวกับวิธีการสร้างความจุ Power BI Embedded ดู[สร้างความจุ Power BI Embedded ในพอร์ทัล Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
 
 > [!IMPORTANT]
-> เนื่องจากโทเค็นแบบฝังมุ่งหมายเพื่อทดสอบการพัฒนาเท่านั้น จำนวนโทเค็นแบบฝังที่บัญชีหลักของ Power BI มีได้จึงจำกัด [ต้องซื้อความจุ](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) สำหรับสถานการณ์ที่มีการฝังสำหรับการผลิต ไม่มีข้อจำกัดเกี่ยวกับการสร้างโทเค็นแบบฝังเมื่อซื้อความจุแล้ว
+> เนื่องจากโทเค็นแบบฝังมุ่งหมายเพื่อทดสอบการพัฒนาเท่านั้น จำนวนโทเค็นแบบฝังที่บัญชีหลักของ Power BI มีได้จึงจำกัด [ต้องซื้อความจุ](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) สำหรับสถานการณ์ที่มีการฝังสำหรับการผลิต ไม่มีข้อจำกัดเกี่ยวกับการสร้างโทเค็นแบบฝังเมื่อซื้อความจุแล้ว ไปที่ [รับฟีเจอร์ที่พร้อมใช้งาน](https://msdn.microsoft.com/en-us/library/mt846473.aspx) เพื่อตรวจสอบจำนวนโทเค็นการฝังฟรีแบบต่างๆ ที่ใช้
 
 | โหนดของความจุ | แกนทั้งหมด<br/>*(Backend + frontend)* | Backend Cores | Frontend Cores | การจำกัดการเชื่อมต่อ DirectQuery/live | หน้าสูงสุดที่แสดงในชั่วโมงที่เรียกใช้มากที่สุด |
 | --- | --- | --- | --- | --- | --- |
@@ -178,5 +178,5 @@ Microsoft [ประกาศเปิดตัว Power BI Premium](https://pow
 [เอกสารทางเทคนิคเรื่องการวางแผนความจุวิเคราะห์แบบฝัง](https://aka.ms/pbiewhitepaper)  
 [เอกสารทางเทคนิคเรื่อง Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+คำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 
