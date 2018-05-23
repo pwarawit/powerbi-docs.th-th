@@ -1,28 +1,20 @@
 ---
 title: รายงานใน Power BI
 description: รายงานใน Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 664e07b1a772c0eb5d14372061511bc86c671b64
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 0d11c1bd865aade1ad54a361a0616f6426da1a67
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="reports-in-power-bi"></a>รายงานใน Power BI
 ## <a name="what-is-a-power-bi-report"></a>รายงาน Power BI คืออะไร?
@@ -37,7 +29,7 @@ ms.lasthandoff: 03/09/2018
 รายงานเป็นคุณลักษณะของบริการ Power BI และ Power BI Desktop ประสบการณ์การทำงานกับรายงานจะเหมือนกันเกือบทุกประการ อย่างไรก็ตาม สำหรับมือถือ คุณไม่สามารถสร้างรายงานได้ แต่คุณสามารถ[ดู แชร์ และใส่คำอธิบายประกอบรายงาน](mobile-reports-in-the-mobile-apps.md)ได้
 
 ## <a name="advantages-of-reports"></a>ข้อดีของรายงาน
-รายงานจะขึ้นอยู่กับชุดข้อมูลเดียว การแสดงภาพในรายงานแต่ละฉบับจะแสดงกลุ่มของข้อมูล และการแสดงภาพจะไม่คงที่ คุณสามารถเพิ่ม และลบข้อมูล เปลี่ยนประเภทการแสดงภาพ และใช้ตัวกรองและตัวแบ่งส่วนข้อมูล ตามที่คุณเจาะลึกข้อมูลเพื่อค้นหาข้อมูลเชิงลึกและค้นหาคำตอบ เหมือนกับแดชบอร์ดแต่มีมากกว่า รายงานเป็นแบบสามารถโต้ตอบได้สูง และกำหนดเองได้สูง และการแสดงภาพจะอัปเดตเมื่อมีการเปลี่ยนแปลงข้อมูลพื้นฐาน
+รายงานจะขึ้นอยู่กับชุดข้อมูลเดียว แสดงภาพในรายงานแต่ละหมายถึง nugget ของข้อมูล และการแสดงภาพจะไม่คงที่ คุณสามารถเพิ่ม และลบข้อมูล เปลี่ยนประเภทการแสดงภาพ และใช้ตัวกรองและตัวแบ่งส่วนข้อมูล ตามที่คุณเจาะลึกข้อมูลเพื่อค้นหาข้อมูลเชิงลึกและค้นหาคำตอบ เหมือนกับแดชบอร์ดแต่มีมากกว่า รายงานเป็นแบบสามารถโต้ตอบได้สูง และกำหนดเองได้สูง และการแสดงภาพจะอัปเดตเมื่อมีการเปลี่ยนแปลงข้อมูลพื้นฐาน
 
 ## <a name="dashboards-versus-reports"></a>แดชบอร์ดเทียบกับรายงาน
 มักสับสนระหว่าง[แดชบอร์ด](service-dashboards.md)กับรายงานเนื่องจากทั้งสองเป็นพื้นที่ที่กรอกข้อมูลด้วยการแสดงภาพเหมือนกัน แต่แดชบอร์ดกับรายงานมีความแตกต่างที่สำคัญบางประการ  
@@ -87,5 +79,5 @@ ms.lasthandoff: 03/09/2018
 
 [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

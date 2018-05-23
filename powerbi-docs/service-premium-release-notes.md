@@ -1,28 +1,20 @@
 ---
 title: บันทึกย่อประจำรุ่นของ Power BI Premium
 description: อ่านบันทึกย่อประจำรุ่นสำหรับ Power BI Premium ความจุสำหรับองค์กรหรือทีมของคุณโดยเฉพาะ
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 91126fa362dd6bca3e85b28959b5059825cd8a07
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-premium-release-notes"></a>บันทึกย่อประจำรุ่นของ Power BI Premium
 ต่อไปนี้คือ บันทึกย่อประจำรุ่นสำหรับ Power BI Premium ความจุที่ให้องค์กรหรือทีมของคุณ มีประสิทธิภาพที่เชื่อถือได้ยิ่งขึ้น มีปริมาณข้อมูลขนาดใหญ่มากขึ้น และความสามารถในการแจกจ่ายเนื้อหา โดยไม่มีข้อจำกัดสิทธิ์การใช้ของโปรแกรมที่ใช้เปิดอ่าน
@@ -37,11 +29,11 @@ ms.lasthandoff: 04/16/2018
 * คุณอาจเห็นกรณีชั่วคราว ที่คุณมีการเชื่อมต่อ Direct Query/ไลฟ์ ต่อวินาทีมากกว่าที่กำหนดในความจุ SKU ของคุณ คุณไม่ควรพึ่งพา ปริมาณที่เกินจากที่กำหนดในความจุ SKU ของคุณ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[Power BI Premium ถามที่ถามบ่อย](service-premium-faq.md)  
+[Power BI Premium คำถามที่พบบ่อย](service-premium-faq.md)  
 [วิธีการซื้อ Power BI Premium](service-admin-premium-purchase.md)  
 [การจัดการ Power BI Premium](service-admin-premium-manage.md)  
 [เอกสารทางเทคนิคเรื่อง Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 [ดูแล Power BI ในองค์กรของคุณ](service-admin-administering-power-bi-in-your-organization.md)  
 
-คุณมีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

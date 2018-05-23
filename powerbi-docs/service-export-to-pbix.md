@@ -1,28 +1,20 @@
 ---
 title: วิธีการส่งออกรายงานจากบริการ Power BI ไปยังเดสก์ท็อป (ตัวอย่าง)
 description: ดาวน์โหลดรายงานจากบริการ Power BI ไปยังไฟล์ Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>ส่งออกรายงานจากบริการ Power BI ไปยังเดสก์ท็อป (ตัวอย่าง)
 ใน Power BI Desktop คุณสามารถส่งออก (นอกจากนี้ยังเรียกว่า*ดาวน์โหลด*) รายงานไปยังบริการ Power BI โดยการบันทึกรายงาน และเลือก**เผยแพร่**ได้ คุณสามารถส่งออกในทิศทางอื่นเช่น และดาวน์โหลดรายงานจากบริการ Power BI ลงในเดสก์ท็อปได้ นามสกุลสำหรับไฟล์ที่ถูกส่งออกในทิศทางใดก็ตามคือ *.pbix*
@@ -38,7 +30,7 @@ ms.lasthandoff: 03/09/2018
 2. จากแถบเมนู เลือก**ไฟล์ > ดาวน์โหลดรายงาน**
    
    > [!NOTE]
-   > ต้องมีการ[สร้างรายงานขึ้นแล้วโดยใช้ Power BI Desktop](guided-learning/publishingandsharing.yml#step-2) หลังวันที่ 23 พฤศจิกายน 2016 และอัปเดตมาตั้งแต่ตอนนั้นเพื่อที่จะสามารถดาวน์โหลดรายงานได้ ถ้ายังไม่มีการสร้างและอัปเดตดังกล่าว ตัวเลือกเมนูในเมนู*ดาวน์โหลดรายงาน*ในบริการ Power BI จะเป็นสีเทา
+   > ต้องมีการ[สร้างรายงานขึ้นแล้วโดยใช้ Power BI Desktop](guided-learning/publishingandsharing.yml?tutorial-step=2) หลังวันที่ 23 พฤศจิกายน 2016 และอัปเดตมาตั้งแต่ตอนนั้นเพื่อที่จะสามารถดาวน์โหลดรายงานได้ ถ้ายังไม่มีการสร้างและอัปเดตดังกล่าว ตัวเลือกเมนูในเมนู*ดาวน์โหลดรายงาน*ในบริการ Power BI จะเป็นสีเทา
    > 
    > 
 3. ขณะกำลังสร้างไฟล์ .pbix แบนเนอร์สถานะจะแสดงความคืบหน้า เมื่อไฟล์พร้อม คุณจะถูกขอให้เปิดหรือบันทึกไฟล์ .pbix ชื่อของไฟล์ตรงกับชื่อเรื่องของรายงาน

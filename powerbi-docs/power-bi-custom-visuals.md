@@ -1,28 +1,20 @@
 ---
 title: การแสดงข้อมูลแบบกำหนดเองใน Power BI
 description: การแสดงข้อมูลแบบกำหนดเองใน Power BI
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6e5459492879cccbd2f18c572140eabfd0ab0f1c
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 58cf5383f034b47708aa6b75ca5ead3e79b8e270
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="custom-visuals-in-power-bi"></a>วิชวลแบบกำหนดเองใน Power BI
 เมื่อสร้าง หรือแก้ไขรายงาน Power BI มีการแสดงข้อมูลเป็นภาพ หรือวิชวล มากมายหลายชนิด พร้อมให้คุณใช้งาน วิชวลเหล่านี้จะแสดงในบานหน้าต่าง**การจัดรูปแบบการแสดงข้อมูล** เมื่อคุณดาวน์โหลด Power BI Desktop หรือเปิดบริการ Power BI (app.powerbi.com) ชุดของวิชวลนี้จะมีให้มาอยู่แล้ว

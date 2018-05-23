@@ -1,28 +1,20 @@
 ---
 title: พื้นที่ทำงานเก็บถาวรของ Power BI
 description: พื้นที่ทำงานเก็บถาวรของ Power BI หลังจากที่มีการจัดการกับผู้เช่า Office 365 ของคุณ
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 254857072df2b06fbdeb2af0a53d262e98f8f254
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 8b9fcf1c6121c4aeecfdf948b77493f1f2a7f825
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-archived-workspace"></a>พื้นที่ทำงานเก็บถาวรของ Power BI
 ทุกคนสามารถลงทะเบียนและเริ่มใช้ service ได้ในเพียงไม่กี่นาทีด้วย Power BI  จากนั้น แผนกไอทีขององค์กรของคุณสามารถเลือกควบคุมการจัดการ Power BI สำหรับผู้ใช้ในองค์กรของคุณ  ถ้าการควบคุมนี้เกิดขึ้น คุณจะได้รับประโยชน์จากการจัดการจากส่วนกลางของผู้ใช้และสิทธิ์ในองค์กรของคุณ และคุณยังสามารถใช้ประโยชน์จากการลงชื่อเข้าใช้แบบสตรีมไลน์โดยใช้ชื่อผู้ใช้และรหัสผ่านเดิมที่คุณใช้สำหรับ service อื่นๆในองค์กรของคุณ 

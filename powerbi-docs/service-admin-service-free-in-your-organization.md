@@ -1,28 +1,20 @@
 ---
 title: Power BI (ฟรี) ในองค์กรของคุณ
 description: บทความนี้กล่าวถึงตัวเลือกของคุณสำหรับ Power BI (ฟรี) จากมุมมองในฐานะองค์กร ถ้าคุณคือผู้ดูแลผู้เช่า บทความนี้จะแสดงวิธีการจัดการการลงชื่อสมัครใช้ฟรี
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5da8b4cbb86766e6b411af902fce4bf18f480612
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2ba97b76b13c9adf3c9f20d5d42c5ec9c363edda
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-free-in-your-organization"></a>Power BI (ฟรี) ในองค์กรของคุณ
 บทความนี้จะกล่าวถึงวิธีใช้งานข้อเสนอ Power BI (ฟรี) ภายในองค์กรของคุณ องค์กรหมายถึงการที่คุณมีผู้เช่าและสามารถจัดการผู้ใช้และบริการภายในผู้เช่านั้น ในฐานะผู้ดูแล คุณสามารถควบคุมการกำหนดสิทธิ์การใช้งานหรือคุณสามารถอนุญาตให้ผู้ใช้สามารถลงชื่อสมัครใช้้เป็นรายบุคคล เราจะมาดูที่สิทธิ์การใช้งาน Power BI (ฟรี) และวิธีที่คุณสามารถควบคุมการลงชื่อสมัครใช้้เป็นรายบุคคลได้
@@ -73,7 +65,7 @@ ms.lasthandoff: 04/08/2018
 
 การตั้งค่า AAD ซึ่งควบคุมสิ่งนี้คือ **AllowAdHocSubscriptions** ผู้เช่าส่วนใหญ่จะมีการตั้งค่านี้ให้เป็นจริงซึ่งหมายความว่า ถูกเปิดใช้งาน ถ้าคุณซื้อ Power BI ผ่านคู่ค้า อาจมีการตั้งค่าเป็นเท็จตามค่าเริ่มต้น ซึ่งหมายความว่า ถูกปิดใช้งาน
 
-1. ก่อนอื่น คุณจำเป็นต้องลงชื่อเข้าใช้ Azure Active Directory โดยใช้ข้อมูลประจำตัว Office 365 ของคุณ บรรทัดแรกจะเป็นพร้อมท์ให้คุณป้อนข้อมูลประจำตัว บรรทัดสองจะเชื่อมต่อกับ Azure Active Directory
+1. ก่อนอื่น คุณจำเป็นต้องลงชื่อเข้าใช้ Azure Active Directory โดยใช้ข้อมูลประจำตัว Office 365 ของคุณ บรรทัดแรกจะถามข้อมูลประจำตัวของคุณ บรรทัดสองจะเชื่อมต่อกับ Azure Active Directory
    
      $msolcred = get-credential   connect-msolservice -credential $msolcred
    
@@ -97,5 +89,5 @@ ms.lasthandoff: 04/08/2018
 [Power BI Premium คืออะไร](service-premium.md)  
 [เอกสารทางเทคนิคของ Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

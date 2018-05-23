@@ -1,28 +1,20 @@
 ---
 title: เกตเวย์ข้อมูลแบบติดตั้งภายในองค์กร (โหมดส่วนบุคคล)
 description: เกตเวย์ข้อมูลสำหรับ Power BI ที่บุคคลสามารถใช้เพื่อเชื่อมต่อกับข้อมูลภายในองค์กร
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 97b1119577d90e6570625af7de95d3417d3c48ba
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>เกตเวย์ข้อมูลแบบติดตั้งภายในองค์กร (โหมดส่วนบุคคล)
 คุณสามารถใช้แหล่งข้อมูลแบบติดตั้งภายในองค์กร และสร้างรายงาน Power BI และแดชบอร์ด **เกตเวย์** คือ ซอฟต์แวร์ที่อำนวยความสะดวกในการเข้าถึงข้อมูลที่เก็บอยู่ในเครือข่ายส่วนตัวแบบติดตั้งภายในองค์กร และทำให้คุณสามารถใช้ข้อมูลดังกล่าวด้วยบริการออนไลน์ เช่น **บริการ BI Power** ได้ **เกตเวย์ข้อมูลแบบติดตั้งภายในองค์กร (โหมดส่วนบุคคล)**  คือ การอัปเดตเกตเวย์ Power BI ที่ปล่อยออกมาล่าสุด ซึ่งอนุญาตให้บุคคลสามารถติดตั้งเกตเวย์ในคอมพิวเตอร์ของตนเองและเข้าถึงข้อมูลภายในองค์กรได้

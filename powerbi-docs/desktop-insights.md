@@ -1,28 +1,20 @@
 ---
 title: ใช้ข้อมูลเชิงลึกใน Power BI Desktop (ตัวอย่าง)
 description: เข้าใจการเพิ่มขึ้นหรือลดลงใน Power BI Desktop ด้วยข้อมูลเชิงลึกถึงได้อย่างง่าย ๆ
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2a98e0e5f79819c7530f713d2ccb541a18b0ce6c
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>ใช้ข้อมูลเชิงลึกใน Power BI Desktop (ตัวอย่าง)
 คุณสามารถบอก **Power BI Desktop** ให้อธิบายการเพิ่มขึ้นหรือลดลงในแผนภูมิ และได้รับการวิเคราะห์ที่ รวดเร็ว อัตโนมัติ และลึกซึ้งเกี่ยวกับข้อมูลของคุณ เพียงแค่คลิกขวาบนจุดข้อมูล แล้วเลือก**วิเคราะห์ > อธิบายการลดลง**(หรือ เพิ่มขึ้น ถ้าแท่งก่อนหน้ามีค่าน้อยกว่า) ข้อมูลเชิงลึกจะถูกส่งถึงคุณในหน้าต่างที่ใช้งานได้ง่าย ๆ

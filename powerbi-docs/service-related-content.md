@@ -1,29 +1,21 @@
 ---
 title: ดูเนื้อหาที่เกี่ยวข้องในบริการ Power BI
 description: การนำทางที่ทำได้ง่ายขึ้น มุมมองที่เกี่ยวข้องกับเนื้อหาในแดชบอร์ด รายงาน และชุดข้อมูล
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 43dffab862173779068f1180f83bc6c92bf98013
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9aa0169f76515dd2f05a3e9debb8bc3d10cbdd07
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>ดูเนื้อหาที่เกี่ยวข้องในบริการ Power BI
 บานหน้าต่าง**เนื้อหาที่เกี่ยวข้อง**แสดงว่าเนื้อหาPower BI service แดชบอร์ด รายงาน และชุดข้อมูลของคุณเชื่อมต่อกันอย่างไร  และก็ดียิ่งขึ้น จากบานหน้าต่างนี้คุณสามารถดำเนินการงานทั่วไปเช่นการรีเฟรช เปลี่ยนชื่อ สร้างข้อมูลเชิงลึก และอื่น ๆ อีกมาก เลือกรายงานที่เกี่ยวข้องหรือแดชบอร์ด และจะเปิดในพื้นที่ทำงานของ Power BI ขึ้น   

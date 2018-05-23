@@ -4,13 +4,13 @@
 
 นี่คือส่วนสุดท้าย (และหัวข้อสุดท้าย เว้นแต่ว่าคุณต้องการเรียนรู้ DAX) ของบทเรียน ดังนั้นถ้าคุณผ่านส่วนต่างๆ เหล่านั้นมาตามลำดับ ให้หยุดสักครู่เพื่อให้กำลังใจตนเองก่อน ทำได้ดีมาก! ตอนนี้คุณเข้าใจ**แนวคิดที่สำคัญ**เหล่านี้อย่างถี่ถ้วนแล้ว:
 
-* อะไรคือ [Power BI](../gettingstarted.yml#step-1)
-* [โครงสร้างพื้นฐาน](../gettingstarted.yml#step-3)ของ Power BI
-* [การรับ](../gettingdata.yml#step-3)และ[การวางรูปแบบ](../modeling.yml#step-1)ข้อมูล
-* [การแสดงภาพของข้อมูล](../visualizations.yml#step-1)
-* [การสำรวจข้อมูล](../exploringdata.yml#step-1)ในบริการ Power BI
-* การใช้ [Excel และ Power BI](../powerbiandexcel.yml#step-1) ร่วมกัน
-* และ[การเผยแพร่และการแชร์](../publishingandsharing.yml#step-1)งานของคุณ
+* อะไรคือ [Power BI](../gettingstarted.yml?tutorial-step=1)
+* [โครงสร้างพื้นฐาน](../gettingstarted.yml?tutorial-step=3)ของ Power BI
+* [การรับ](../gettingdata.yml?tutorial-step=3)และ[การวางรูปแบบ](../modeling.yml?tutorial-step=1)ข้อมูล
+* [การแสดงภาพของข้อมูล](../visualizations.yml?tutorial-step=1)
+* [การสำรวจข้อมูล](../exploringdata.yml?tutorial-step=1)ในบริการ Power BI
+* การใช้ [Excel และ Power BI](../powerbiandexcel.yml?tutorial-step=1) ร่วมกัน
+* และ[การเผยแพร่และการแชร์](../publishingandsharing.yml?tutorial-step=1)งานของคุณ
 
 นั่นคือความรู้จำนวนมาก และในเมื่อคุณจำสิ่งเหล่านั้นได้ทั้งหมดแล้ว คุณก็พร้อมที่จะจำสิ่งเหล่านั้นไปใช้! ต่อไปนี้คือ**ลิงก์เพื่อดาวน์โหลด**หรือเพื่อทำให้เบราว์เซอร์ของคุณ**เชื่อมต่อกับบริการ Power BI**:
 

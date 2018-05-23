@@ -1,28 +1,20 @@
 ---
 title: ปิดบัญชี Power BI ของคุณ
 description: ปิดบัญชี Power BI ของคุณ
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d74aed9f3d2f21459853781089b4c32bcdf51b2c
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: be0b1bf3dbfba0f2e1545eced38ec19650342a19
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="closing-your-power-bi-account"></a>ปิดบัญชี Power BI ของคุณ
 ถ้าคุณไม่ต้องการใช้ Power BI อีกต่อไป คุณสามารถขอให้เราปิดบัญชี Power BI ของคุณ  หลังจากปิดบัญชีของคุณแล้ว คุณจะสามารถไม่ลงชื่อเข้าใช้ Power BI ได้อีกต่อไป  นอกจากนี้ ข้อมูลลูกค้าใด ๆ ที่คุณอัปโหลดหรือสร้างไว้ใน Power BI จะถูกลบตามนโยบายการเก็บข้อมูลในเงื่อนไขการใช้บริการ Power BI
