@@ -1,28 +1,20 @@
 ---
 title: แหล่งข้อมูลสำหรับ Power BI
 description: แหล่งข้อมูลสำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: identified
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f2749976772d2bc2e3d48ca355925cafad93fe0c
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 183d0fdcf164ca706dd1704ea1c503f59ca7d715
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>แหล่งข้อมูลสำหรับบริการ Power BI
 ข้อมูลเป็นหัวใจสำคัญของ Power BI เมื่อใดก็ตามที่คุณกำลังสำรวจข้อมูล สร้างแผนภูมิและแดชบอร์ด ถามคำถามด้วยการถามตอบ ภาพและคำตอบที่คุณเห็นทั้งหมดเหล่านั้นได้รับเอาข้อมูลพื้นฐานมาจากชุดข้อมูลหนึ่ง แตชุดข้อมูลนั้นมาจากไหน คำตอบคือ มันมาจากแหล่งข้อมูล
@@ -36,7 +28,7 @@ ms.lasthandoff: 03/12/2018
 ## <a name="files"></a>ไฟล์
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** (.xlsx, xlxm) � Excel จะไม่เหมือนใครตรงที่เวิร์กบุ๊กสามารถมีทั้งข้อมูลที่คุณใส่ลงในแผ่นงานด้วยตนเอง และคุณสามารถสร้างคิวรีโหลดข้อมูลจากแหล่งข้อมูลภายนอก โดยใช้ Power Query (รับ และแปลงใน Excel 2016) หรือ Power Pivot คุณสามารถนำเข้าข้อมูลที่อยู่ในตารางในแผ่นงาน (ข้อมูล*ต้อง*อยู่ในตาราง), หรือนำเข้าข้อมูลที่โหลดลงในแบบจำลองข้อมูลได้ เมื่อต้องการเรียนรู้เพิ่มเติม ดู[รับข้อมูลจาก Excel](service-get-data-from-files.md)
+**Excel** (.xlsx, xlxm) Excel จะไม่เหมือนใครตรงที่เวิร์กบุ๊กสามารถมีทั้งข้อมูลที่คุณใส่ลงในแผ่นงานด้วยตนเอง และคุณสามารถสร้างคิวรีโหลดข้อมูลจากแหล่งข้อมูลภายนอก โดยใช้ Power Query (รับ และแปลงใน Excel 2016) หรือ Power Pivot คุณสามารถนำเข้าข้อมูลที่อยู่ในตารางในแผ่นงาน (ข้อมูล*ต้อง*อยู่ในตาราง), หรือนำเข้าข้อมูลที่โหลดลงในแบบจำลองข้อมูลได้ เมื่อต้องการเรียนรู้เพิ่มเติม ดู[รับข้อมูลจาก Excel](service-get-data-from-files.md)
 
 **Power BI Desktop** (.pbix) - คุณสามารถใช้ Power BI Desktop เพื่อสอบถาม และโหลดข้อมูลจากแหล่งข้อมูลภายนอก ขยายแบบจำลองข้อมูลของคุณกับตัววัดและความสัมพันธ์ และสร้างรายงานได้ คุณสามารถนำเข้าไฟล์ Power BI Desktop ของคุณลงในไซต์ Power BI ของคุณ Power BI Desktop จะเหมาะสมสำหรับผู้ใช้ขั้นสูงเพิ่มเติมที่มีความเข้าใจที่ดีของแหล่งข้อมูลของพวกเขา แบบสอบถามข้อมูล และการแปลง และแนวคิดการจำลองข้อมูล เมื่อต้องการเรียนรู้เพิ่มเติม ดู[มุมมองความสัมพันธ์ใน Power BI Desktop](desktop-connect-to-data.md)
 
