@@ -1,34 +1,26 @@
 ---
 title: ใส่คำอธิบายประกอบ และแบ่งปันในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 description: 'อ่านเกี่ยวกับการใส่คำอธิบายประกอบ และแชร์ไทล์ รายงาน และรูปภาพจากอุปกรณ์เคลื่อนที่ Microsoft Power BI สำหรับ iOS และ Android '
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 02/28/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 12dd7e2dcce655b6cde370877f56c4d57e18dbd9
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: c70a5c50a139423f6c5e69ed6ec9a416dfae8b4e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>ใส่คำอธิบายประกอบ และแชร์ไทล์ รายงาน หรือรูปภาพในแอปสำหรับอุปกรณ์เคลื่อนที่ของ Power BI
 ใช้กับ
 
-| ![iPhone](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/ipad-logo-50-px.png) | ![โทรศัพท์ Android](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-tablet-logo-50-px.png) |
+| ![iPhone](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/ipad-logo-50-px.png) | ![มือถือ Android](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhones |iPads |โทรศัพท์ Android |แท็บเล็ต Android |
+| iPhones |iPads |มือถือ Android |แท็บเล็ต Android |
 
 คุณสามารถใส่คำอธิบายประกอบ และแชร์สแนปช็อตของไทล์ รายงาน หรือภาพจากอุปกรณ์เคลื่อนที่ Power BI สำหรับอุปกรณ์ iOS และ Android ผู้รับของคุณเห็นเหมือนกับเวลาที่คุณส่งเมล์ รวมถึงลิงก์ คุณสามารถส่งสแนปช็อตของไทล์ให้ทุกคน ไม่เพียงเพื่อนร่วมงานในโดเมนอีเมลเดียวกันเท่านั้น คุณสามารถเพิ่มคำอธิบายประกอบ บรรทัด ข้อความ หรือประทับตรา ก่อนที่คุณแชร์ได้
 
