@@ -1,28 +1,20 @@
 ---
 title: มุมมองการอ่านรายงาน และมุมมองการแก้ไขในบริการ Power BI
 description: ภาพรวมระดับสูงของความแตกต่างระหว่างมุมมองการอ่าน และมุมมองการแก้ไขสำหรับการรายงานบริการ Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/13/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>มุมมองการอ่านและมุมมองการแก้ไขในรายงานบริการ Power BI
 ในบริการ Power BI (ไม่ใช่ Power BI Desktop) จะมีสองโหมดสำหรับดู และโต้ตอบกับรายงานคือ มุมมองการอ่าน และมุมมองการแก้ไข มุมมองการอ่านจะพร้อมใช้งานสำหรับผู้ใช้ทั้งหมด และได้รับการออกแบบมาสำหรับ*ผู้ใช้*ข้อมูลโดยเฉพาะ ส่วนมุมมองการแก้ไขจะพร้อมใช้งานสำหรับ*ผู้สร้าง*และเจ้าของรายงานเท่านั้น
@@ -48,7 +40,6 @@ ms.lasthandoff: 03/15/2018
 |งาน  | มุมมองการอ่าน  | มุมมองการแก้ไข |
 |-------------------------|-------|-------|
 |**รายงานโดยทั้งหมด**  |
-||||
 | [สร้างและแก้ไขรายงาน](service-report-create-new.md) | ไม่ใช่  | ใช่ |
 | [แชร์รายงาน](service-share-reports.md)| ใช่ | ใช่ และยังสามารถจัดการสิทธิ์ รวมถึงการให้สิทธิ์*ความเป็นเจ้าของ*กับผู้อื่น |
 | [สร้างระดับวิชวล ตัวเจาะเข้าถึงรายละเอียด ระดับหน้า และตัวกรองระดับรายงานจากบานหน้าต่างตัวกรองแบบถาวร (ถาวร)](power-bi-report-add-filter.md) | ไม่ใช่  | ใช่ |
@@ -63,12 +54,10 @@ ms.lasthandoff: 03/15/2018
 | [บันทึกรายงาน](service-report-save.md) | ใช่ แต่ใช้**บันทึกเป็น**เท่านั้น | ใช่ |
 | [ลบรายงาน](service-delete.md) | ไม่ใช่  | ใช่ |
 |**หน้ารายงาน** |
-||||
 | [เพิ่ม หรือเปลี่ยนชื่อหน้ารายงาน](power-bi-report-add-page.md)  | ไม่ใช่  | ใช่  |
 | [ทำซ้ำหน้ารายงาน](power-bi-report-copy-paste-page.md) | ไม่ใช่  | ใช่ |
 | [ลบหน้ารายงาน](service-delete.md) | ไม่ใช่ | ใช่ |
 |**ทำงานกับการแสดงภาพรายงาน**|
-||||
 | [เพิ่มการแสดงภาพในรายงาน](power-bi-report-add-visualizations-i.md) | ไม่ใช่  | ใช่ |
 | [เพิ่มกล่องข้อความและรูปร่างในรายงาน](power-bi-reports-add-text-and-shapes.md) | ไม่ใช่  | ใช่ |
 | [ใช้บานหน้าต่างการจัดรูปแบบรายงาน](service-the-report-editor-take-a-tour.md) | ไม่ใช่ | ใช่ |
@@ -101,4 +90,4 @@ ms.lasthandoff: 03/15/2018
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
 มีวิธีมากมายเพื่อตอบโต้กับรายงานในมุมมองการอ่าน เช่น การหั่นและการเจาะข้อมูลของคุณเพื่อค้นหาข้อมูลเชิงลึกและหาคำตอบสำหรับคำถาม  หัวข้อถัดไปจะอธิบาย[โต้ตอบกับรายงานในมุมมองการอ่าน](service-interact-with-a-report-in-editing-view.md)บางอย่างอย่างละเอียด    
 กลับไปยัง[รายงานใน Power BI](service-reports.md)    
-มีคำถามเพิ่มเติมหรือไม่ [ลองชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

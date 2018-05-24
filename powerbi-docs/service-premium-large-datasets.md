@@ -46,7 +46,7 @@ Power BI Premium รองรับการอัปโหลดไฟล์ช
 **ในขณะที่หน่วยความจำและเวลาสำหรับแต่ละคิวรีสูงกว่าความจุพรีเมียม** ขอแนะนำคุณใช้ตัวกรองและตัวแบ่งส่วนข้อมูล เพื่อจำกัดใหรูปแสดงเฉพาะสิ่งที่จำเป็น
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[Power BI Premium คืออะไร](service-premium.md)  
+[Power BI Premium คืออะไร?](service-premium.md)  
 [บันทึกย่อประจำรุ่นของ Power BI Premium](service-premium-release-notes.md)  
 [เอกสารทางเทคนิคเรื่อง Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 [เอกสารทางเทคนิคเรื่องการวางแผนการใช้ Power BI สำหรับองค์กร](https://aka.ms/pbienterprisedeploy)  

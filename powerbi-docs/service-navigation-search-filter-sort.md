@@ -1,28 +1,20 @@
 ---
 title: ค้นหาและการเรียงลำดับเนื้อหาของคุณในบริการ Power BI
 description: เอกสารประกอบสำหรับการเรียงลำดับและการเรียงลำดับเนื้อหาในพื้นที่ทำงาน Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a98780e0854b997e00a88f1ab3a5002e8c2fb10
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: a9b7d2326d62887a1a1acfef1ae164bec1cf2e62
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>การนำทาง: ค้นหาและการเรียงลำดับเนื้อหาของคุณในบริการ Power BI
 มีหลายวิธีในการนำทางเนื้อหาของคุณในบริการ Power BI เนื้อหาดังกล่าวจะได้รับการจัดการภายในพื้นที่ทำงานแยกตามประเภท: แดชบอร์ด รายงาน สมุดงาน และชุดข้อมูล  นอกจากนี้ยังมีการจัดระเบียบเนื้อหาแยกตามการใช้งาน: รายการโปรด ล่าสุด แอปฯ แชร์กับฉัน และที่แนะนำ เส้นทางที่แตกต่างกันเหล่านี้ที่เข้ามาในเนื้อหาของคุณอนุญาตให้คุณค้นหาสิ่งที่คุณต้องการในบริการ Power BI ได้อย่างรวดเร็ว  

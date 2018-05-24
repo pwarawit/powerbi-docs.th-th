@@ -43,5 +43,5 @@ ms.lasthandoff: 05/19/2018
 [การดูแล Power BI ในองค์กรของคุณ](service-admin-administering-power-bi-in-your-organization.md)  
 [Power BI Premium - มันคืออะไร?](service-premium.md)  
 
-ถ้าคุณมีคำถามเพิ่มเติม [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

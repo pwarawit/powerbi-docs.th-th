@@ -24,5 +24,5 @@ ms.lasthandoff: 05/17/2018
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
 อ่านเพิ่มเติมเกี่ยวกับ[รายงานใน Power BI](service-reports.md)  
 [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)  
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

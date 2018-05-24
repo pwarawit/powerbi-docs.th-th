@@ -63,17 +63,17 @@ ms.lasthandoff: 05/17/2018
 ## <a name="enable-or-disable-individual-user-sign-up-in-azure-active-directory"></a>เปิดใช้งานหรือปิดใช้งานการลงชื่อสมัครใช้โดยผู้ใช้เป็นรายบุคคลใน Azure Active Directory
 ในฐานะผู้ดูแล คุณสามารถเลือกเปิดใช้งานหรือปิดใช้งานการลงชื่อสมัครใช้โดยผู้ใช้เป็นรายบุคคลได้โดยเป็นส่วนหนึ่งของ Azure Active Directory (AAD) ถ้าคุณทราบวิธีการใช้ประโยชน์จากคำสั่ง AAD PowerShell ก็สามารถเปิดใช้งานหรือปิดใช้งานการสมัครใช้งานแบบเฉพาะกิจได้ด้วยตัวคุณเอง [เรียนรู้เพิ่มเติม](https://technet.microsoft.com/library/jj151815.aspx)
 
-การตั้งค่า AAD ซึ่งควบคุมสิ่งนี้คือ **AllowAdHocSubscriptions** ผู้เช่าส่วนใหญ่จะมีการตั้งค่านี้ให้เป็นจริงซึ่งหมายความว่า ถูกเปิดใช้งาน ถ้าคุณซื้อ Power BI ผ่านคู่ค้า อาจมีการตั้งค่าเป็นเท็จตามค่าเริ่มต้น ซึ่งหมายความว่า ถูกปิดใช้งาน
+การตั้งค่า AAD ซึ่งควบคุมสิ่งนี้คือ **AllowAdHocSubscriptions** ผู้เช่าส่วนใหญ่จะมีการตั้งค่านี้ให้เป็นจริง ซึ่งหมายความว่า ถูกเปิดใช้งาน ถ้าคุณซื้อ Power BI ผ่านคู่ค้า อาจมีการตั้งค่าเป็นเท็จตามค่าเริ่มต้น ซึ่งหมายความว่า ถูกปิดใช้งาน
 
-1. ก่อนอื่น คุณจำเป็นต้องลงชื่อเข้าใช้ Azure Active Directory โดยใช้ข้อมูลประจำตัว Office 365 ของคุณ บรรทัดแรกจะถามข้อมูลประจำตัวของคุณ บรรทัดสองจะเชื่อมต่อกับ Azure Active Directory
+1. ก่อนอื่น คุณจำเป็นต้องลงชื่อเข้าใช้ Azure Active Directory โดยใช้ข้อมูลประจำตัว Office 365 ของคุณ บรรทัดแรกจะถามข้อมูลประจำตัวของคุณ บรรทัดที่สองจะเชื่อมต่อกับ Azure Active Directory
    
      $msolcred = get-credential   connect-msolservice -credential $msolcred
    
    ![](media/service-admin-service-free-in-your-organization/aad-signin.png)
-2. ในทันทีที่ลงชื่อเข้าใช้ คุณสามารถออกคำสั่งต่อไปนี้เพื่อดูสิ่งที่ผู้เช่าของคุณกำหนดค่าไว้ในขณะนี้
+2. ในทันทีที่คุณลงชื่อเข้าใช้ คุณสามารถออกคำสั่งต่อไปนี้เพื่อดูสิ่งที่ผู้เช่าของคุณกำหนดค่าไว้ในขณะนี้
    
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
-3. คุณสามารถทำให้คำสั่งนี้เปิดใช้งาน ($true) หรือปิดใช้งาน AllowAdHocSubscriptions ($false)
+3. คุณสามารถทำให้คำสั่งนี้เปิดใช้งาน ($true) หรือปิดใช้งาน AllowAdHocSubscriptions ($false) ได้
    
      Set-MsolCompanySettings -AllowAdHocSubscriptions $true
 
@@ -89,5 +89,5 @@ ms.lasthandoff: 05/17/2018
 [Power BI Premium คืออะไร](service-premium.md)  
 [เอกสารทางเทคนิคของ Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+คำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

@@ -67,5 +67,5 @@ Office 365 อนุญาตให้บริษัทสามารถขา
 [จัดการ Azure AD ด้วย Windows PowerShell](https://technet.microsoft.com/library/jj151815.aspx)  
 [Power BI Premium - มันคืออะไร?](service-premium.md)
 
-ถ้าคุณมีคำถามเพิ่มเติม [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

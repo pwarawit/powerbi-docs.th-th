@@ -72,7 +72,7 @@ ms.lasthandoff: 05/17/2018
 
 [การแก้ไขปัญหาเกตเวย์ข้อมูลในองค์กร](service-gateway-onprem-tshoot.md)
 
-[การแก้ไขปัญหา Power BI Gateway - ส่วนบุคคล](service-admin-troubleshooting-power-bi-personal-gateway.md)
+[แก้ไขปัญหาเกตเวย์ Power BI - ส่วนบุคคล](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

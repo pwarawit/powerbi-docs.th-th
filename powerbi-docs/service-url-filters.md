@@ -1,29 +1,21 @@
 ---
 title: เพิ่มพารามิเตอร์รายงาน Power BI โดยใช้ url
 description: กรองรายงานโดยใช้พารามิเตอร์สตริงของแบบสอบถาม URL หรือแมกระทั่งกรองบนเขตข้อมูลมากกว่าหนึ่งรายการ
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/15/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 72afa61316800e9636d7b1a1536ff9c43b66c453
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 071f7ea0c324ec8fe0160766f65cf929f811362a
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>กรองรายงานโดยใช้พารามิเตอร์สตริงของแบบสอบถามใน URL
 เมื่อคุณเปิดรายงานในบริการ Power BI แต่ละหน้าของรายงานมี URL ของตัวเองไม่ซ้ำกัน เมื่อต้องกรองหน้ารายงานนั้น คุณสามารถใช้บานหน้าต่างตัวกรองบนพื้นที่รายงาน  หรือคุณสามารถเพิ่มพารามิเตอร์สตริงของแบบสอบถามไปยัง URL เพื่อกรองรายงาน บางครั้งคุณมีรายงานที่คุณต้องการแสดงให้แก่ผู้ร่วมงาน และคุณต้องการกรองไว้ล่วงหน้าสำหรับพวกเขา วิธีหนึ่งที่ทำได้ก็คือ การเริ่มต้นด้วย URL ที่เป็นค่าเริ่มต้นสำหรับรายงาน เพิ่มพารามิเตอร์ตัวกรองไปยัง URL และจากนั้น ส่งอีเมล URL ทั้งหมดให้พวกเขา
@@ -98,7 +90,7 @@ TerritoryChain = [Territory] & "-" & [Chain]
 
 เผยแพร่รายงานไปยังบริการ Power BI จากนั้นใช้สตริงแบบสอบถาม URL ในการกรองเพื่อแสดงข้อมูลสำหรับร้านค้า Lindseys ใน NC เท่านั้น
 
-https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
+    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC–Lindseys'
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>ปักหมุดไทล์จากรายงานที่กรองแล้ว
 เมื่อคุณได้กรองรายงานโดยใช้พารามิเตอร์สตริงของแบบสอบถาม คุณสามารถปักหมุดการจัดรูปแบบการแสดงข้อมูลจากรายงานไปยังแดชบอร์ดของคุณได้ ไทล์ในแดชบอร์ดจะแสดงข้อมูลที่กรองแล้ว และการเลือกไทล์แดชบอรดจะเปิดรายงานที่ใช้ในการสร้าง  อย่างไรก็ตาม การที่คุณกรองโดยใช้ URL จะไม่ได้บันทึกไว้ร่วมกับรายงาน และเมื่อมีการเลือกไทล์แดชบอร์ด รายงานก็เปิดขึ้นมาในสถานะยังไม่กรอง  ซึ่งหมายความว่า ข้อมูลที่แสดงในไทล์แดชบอร์ดจะไม่ตรงกับข้อมูลที่แสดงในการจัดรูปแบบการแสดงข้อมูลในรายงาน
