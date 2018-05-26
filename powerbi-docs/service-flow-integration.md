@@ -1,5 +1,5 @@
 ---
-title: 'บทเรียน: การรวม Power BI ด้วย Microsoft Flow'
+title: การรวม Power BI ด้วย Microsoft Flow
 description: เรียนรู้วิธีสร้างโฟลวที่์ถูกทริกเกอร์ ด้วยการแจ้งเตือนข้อมูล Power BI
 services: powerbi
 documentationcenter: ''
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b38866b2a9989af529e89cd358f25716072c46bb
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 70ce46dcfa6d4ab1ee1e18f1b31fb4f52dd1bbea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow และ Power BI
 

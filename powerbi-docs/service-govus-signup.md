@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/27/2017
+ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>ลงทะเบียนหน่วยราชการสหรัฐของคุณใน Power BI service
 การ**บริการ Power BI**มีเวอร์ชันพร้อมใช้งานสำหรับลูกค้าส่วนราชการสหรัฐอเมริกา ซึ่งเป็นส่วนหนึ่งของการของการสมัครใช้งาน**ชุมชน Office 365 สำหรับส่วนราชการสหรัฐ** การ**บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้ถูกออกแบบมาโดยเฉพาะสำหรับลูกค้าส่วนราชการสหรัฐและแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI**
@@ -48,7 +48,7 @@ ms.lasthandoff: 02/27/2018
 > ขั้นตอนเหล่านี้ควรจะทำโดยผู้ดูแลพอร์ทัล
 >
 
-1. ไปยัง[https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government)
+1. ไปที่ [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government)
 
 >[!NOTE]
 >ถ้าคุณไม่ต้องการลงทะเบียน Office Government Cloud ในขณะนี้ โปรดติดต่อตัวแทนฝ่ายขายของคุณ
@@ -73,7 +73,7 @@ ms.lasthandoff: 02/27/2018
 6. กำหนดบัญชีให้ผู้ใช้
    
    ![](media/service-govus-signup/service_govus_signup_5.png)
-7. เข้าสู่ระบบ**บริการ Power BI**สำหรับลูกค้าส่วนราชการสหรัฐที่[https://app.powerbigov.us](https://app.powerbigov.us)
+7. เข้าสู่ระบบ **Power BI Service** สำหรับลูกค้าส่วนราชการสหรัฐอเมริกาที่ [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ## <a name="additional-signup-information"></a>ข้อมูลการลงทะเบียนเพิ่มเติม
 ด้านล่างนี้คือข้อมูลเพิ่มเติมสำหรับการลงทะเบียน**Power BI US Government**ในกรณีโยกย้ายสิทธิ์การใช้งานต่าง ๆ
@@ -82,7 +82,7 @@ ms.lasthandoff: 02/27/2018
 * คลิกแล้วไปสู่การเรียกเก็บเงิน > ซื้อบริการ > Power BI Pro Gov และการเลือกซื้อและไม่ทดลองใช้่
 * กรอกข้อมูลจำเป็นและได้รับสิทธิ์การใช้งาน
 * ลบ Power BI Pro เวอร์ชันทดลองใช้ หรือลบสิทธิ์การใช้งานเก่า และมอบสิทธิ์ใหม่ให้กับผู้ใช้
-* เข้าสู่ระบบ[https://app.powerbigov.us](https://app.powerbigov.us)
+* เข้าสู่ระบบ [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>เวอร์ชันทดลอง Reseller Power BI Trial สู่กระบวนการเริ่มต้นใช้งาน
 ไปยัง**การเรียกเก็บเงิน > การสมัครใช้งาน**และเลือกสมัครใช้งาน **Power BI Pro for Government** แล้วคุณจะเห็น
@@ -97,12 +97,7 @@ ms.lasthandoff: 02/27/2018
 ### <a name="whitelisting-instructions"></a>คำแนะนำของการอนุญาตพิเศษ
 *การอนุญาตพิเศษ*คือกระบวนการท่ีทีมวิศวกรรม Power BI ย้ายลูกค้าจากระบบคลาวด์เชิงพาณิชย์ไปยังระบบคลาวด์ของส่วนราชการที่มีความปลอดภัย ซึ่งทำให้แน่ใจว่ามีฟีเจอร์ที่พร้อมใช้งานในส่วนราชการตามที่คาดไว้ ลูกค้าส่วนราชการสหรัฐที่มีอยู่ (รวมลูกค้าใหม่)**Power BI**บริการเป็นครั้งแรก*ต้อง*เริ่มต้นรายการอนุญาตพิเศษต่อไปนี้ กระบวนการต้องทำก่อนที่จะตั้งค่าหรือการโยกย้ายไปยัง US Government **Power BI** services 
 
-เมื่อต้องการให้ผู้เช่าของคุณมี*อนุญาตพิเศษ*สำหรับ US Government cloud ให้กรอกข้อมูลตั๋วการสนับสนุนที่ทำให้การร้องขอ จากลิ้งต่อไปนี้ โปรดสังเกตว่า ผู้ดูแลระบบเท่านั้นสามารถทำการร้องขอนี้
-
-* [*รายการอนุญาตพิเศษของ*คำขอการสนับสนุนแบบออนไลน์ ](https://powerbi.microsoft.com/clouds/)
-* ตรวจสอบให้แน่ใจว่า คุณมีโดเมนที่จะได้รับ*อนุญาตพิเศษ*และอีเมลสำหรับตัวแทนของไมโครซอฟท์ซึ่งทำงานกับคุณเกี่ยวกับกระบวนการ
-
-ขั้นตอนสำหรับ*รายการอนุญาตของ*ใช้เวลาประมาณ 3 สัปดาห์ ระหว่างที่ทีมวิศวกรรมของ Power BI ทำการเปลี่ยนแปลงที่เหมาะสมเพื่อให้แน่ใจว่า ผู้เช่าของคุณทำงานได้อย่างถูกต้องใน US Government cloud
+เมื่อต้องการ *อนุญาต* ผู้เช่าของคุณสำหรับระบบคลาวด์ของส่วนราชการสหรัฐอเมริกา ให้ติดต่อทีมบัญชี Microsoft สำหรับความช่วยเหลือในการอนุญาต โปรดทราบว่า ผู้ดูแลระบบเท่านั้นที่สามารถร้องขอได้ ขั้นตอนสำหรับ*รายการอนุญาตของ*ใช้เวลาประมาณ 3 สัปดาห์ ระหว่างที่ทีมวิศวกรรมของ Power BI ทำการเปลี่ยนแปลงที่เหมาะสมเพื่อให้แน่ใจว่า ผู้เช่าของคุณทำงานได้อย่างถูกต้องใน US Government cloud
 
 ลูกค้าที่กำลังโยกย้ายจาก Power BI สิทธิ์การใช้งาน**ฟรี**ให้**Power BI US Government** (และจากคำนิยาม การโยกย้ายเกี่ยวข้องกันสิทธิ์การใช้งาน**Pro**โดยมีคุณลักษณะที่อธิบายไว้ก่อนในบทความนี้ตอนก่อน) จะพบกับปัญหาอธิบายไว้ในส่วนต่อไปนี้ของบทความนี้ จนกว่าผู้เช่าของพวกเขาจะได้*อนุญาตพิเศษ*จากให้ทีมวิศวกรรมของ Power BI
 

@@ -1,5 +1,5 @@
 ---
-title: แดชบอร์ดที่แสดง แดชบอร์ดไทล์ หน้ารายงาน และการแสดงภาพรายงานในโหมดเต็มหน้าจอ
+title: แสดงแดชบอร์ด ไทล์ หน้ารายงาน และการแสดงภาพในโหมดเต็มหน้าจอ
 description: แสดงแดชบอร์ด แดชบอร์ดไทล์่ ภาพรายงาน และหน้ารายงานแบบเต็มหน้าจอโหมด หรือ*โหมดโทรทัศน์*
 services: powerbi
 documentationcenter: ''
@@ -16,20 +16,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 23241edc3b7fec6b4cf10c422fc7744268ed2cdc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8fc102d7ec13a7d1c18706028d99ecfef9812baf
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="full-screen-mode-in-power-bi"></a>โหมดเต็มหน้าจอใน Power BI
+# <a name="full-screen-mode-in-power-bi-service"></a>โหมดเต็มหน้าจอในบริการ Power BI
 ## <a name="what-is-full-screen-mode"></a>โหมดเต็มหน้าจอคืออะไร
 ![โหมดเต็มหน้าจอของแดชบอร์ดก่อนและหลัง](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-แสดงเนื้อหาของคุณ (แดชบอร์ด หน้ารายงาน ไทล์ และแสดงรูปภาพ) โดยปราศจากการรบกวนของเมนูและแถบนำทาง  คุณสามารถดูในมุมมองไม่เปลี่ยนได้แบบเต็มรูปแบบเนื้อหาของคุณได้อย่างรวดเร็ว ตลอดเวลา ซึ่งในบางครั้งจะเรียกว่าโหมดโทรทัศน์ ฟังก์ชันที่พร้อมใช้งานในโหมดเต็มหน้าจอแตกต่างกันไปตามเนื้อหา  
+แสดงเนื้อหา Power BI ของคุณ (แดชบอร์ด หน้ารายงาน ไทล์ และการแสดงภาพ) โดยปราศจากการรบกวนของเมนูและแถบนำทาง  คุณสามารถดูในมุมมองไม่เปลี่ยนได้แบบเต็มรูปแบบเนื้อหาของคุณได้อย่างรวดเร็ว ตลอดเวลา ซึ่งในบางครั้งจะเรียกว่าโหมดโทรทัศน์ ฟังก์ชันที่พร้อมใช้งานในโหมดเต็มหน้าจอแตกต่างกันไปตามเนื้อหา 
+
+ถ้าคุณกำลังใช้ Power BI บนมือถือ [หน้าจอแบบเต็มพร้อมใช้งานสำหรับแอป Windows 10 สำหรับอุปกรณ์เคลื่อนที่](mobile-windows-10-app-presentation-mode.md) Power BI Desktop ไม่มีโหมดเต็มหน้าจอสำหรับรายงานหรือการแสดงภาพ แต่มีพอดีกับหน้าสำหรับ [มุมมองความสัมพันธ์](desktop-report-view.md) และ [โหมดโฟกัสสำหรับภาพรายงาน](service-focus-mode.md)
+
+ 
 
 การใช้งานบางอย่างในโหมดเต็มหน้าจอเช่น
 

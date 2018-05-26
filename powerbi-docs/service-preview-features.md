@@ -16,21 +16,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 45f10ab7fef7669adbbc836e67a4daaed267905e
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 54aa25b0d5252af24bdbefef3f1d5798df2f6168
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="opt-in-for-power-bi-preview-features"></a>เลือกใช้ฟีเจอร์ตัวอย่างของ Power BI
+# <a name="opt-in-for-power-bi-service-preview-features"></a>เลือกใช้ฟีเจอร์ตัวอย่างของบริการ Power BI
 ## <a name="what-are-preview-features"></a>อะไรคือ*ฟีเจอร์ตัวอย่าง*
-ขณะที่เราทำการปรับปรุง Power BI เราจะปล่อยฟังก์ชันใหม่บางอย่างที่เป็น*ฟีเจอร์ตัวอย่าง* ฟีเจอร์ตัวอย่างสามารถเปิดและปิด ทำให้คุณมีโอกาสในการลองได้
+ขณะที่เราปรับปรุงบริการ Power BI เราจะปล่อยฟังก์ชันใหม่บางอย่างที่เป็น *ฟีเจอร์ตัวอย่าง* ฟีเจอร์ตัวอย่างสามารถเปิดและปิด ทำให้คุณมีโอกาสในการลองได้
 
 > [!TIP]
-> มีคำถามหรือคำติชมหรือไม่ [เยี่ยมชมฟอรั่มชุมชน Power BI](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview)
+> ฟีเจอร์ตัวอย่างจะพร้อมใช้งานสำหรับ Power BI Desktop สำหรับข้อมูลเพิ่มเติม ให้ [เยี่ยมชมฟอรัมชุมชน Power BI Desktop](https://community.powerbi.com/t5/Desktop/bd-p/power-bi-designer)
 > 
 > 
 
