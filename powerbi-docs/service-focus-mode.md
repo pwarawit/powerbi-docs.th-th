@@ -1,29 +1,22 @@
 ---
 title: โหมดโฟกัส - ย่อ/ขยายในบนภาพเดียวเมื่อต้องการดูรายละเอียดเพิ่มเติม
 description: เอกสารประกอบสำหรับการแสดงการแดชบอร์ดไทล์ของ Power BI หรือรายงานแสดงภาพในโหมดโฟกัส หรือที่เรียกว่าป๊อปอัพ
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3073fb3515dd90e676d38a1f89aca4c66445cd1f
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 367a6b9b5de4d052dac3ca3b80be5f4037467646
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249664"
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>แสดงแดชบอร์ดไทล์ หรือรายงานแบบเป็นรูปในโหมดโฟกัส
 

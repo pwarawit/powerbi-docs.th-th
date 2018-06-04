@@ -1,29 +1,22 @@
 ---
 title: แสดงแดชบอร์ด ไทล์ หน้ารายงาน และการแสดงภาพในโหมดเต็มหน้าจอ
 description: แสดงแดชบอร์ด แดชบอร์ดไทล์่ ภาพรายงาน และหน้ารายงานแบบเต็มหน้าจอโหมด หรือ*โหมดโทรทัศน์*
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 8fc102d7ec13a7d1c18706028d99ecfef9812baf
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 7b84b473f64b4ee2d37a3a39de9976f2cf147059
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244122"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>โหมดเต็มหน้าจอในบริการ Power BI
 ## <a name="what-is-full-screen-mode"></a>โหมดเต็มหน้าจอคืออะไร

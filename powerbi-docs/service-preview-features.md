@@ -1,29 +1,22 @@
 ---
 title: เลือกใช้ฟีเจอร์ตัวอย่าง
 description: วิธีการเปิดใช้งาน (และปิด) ฟีเจอร์ Power BI ที่มีในตัวอย่าง
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 54aa25b0d5252af24bdbefef3f1d5798df2f6168
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: df676392c484239724cf631c208a4d586ca65e24
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249148"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>เลือกใช้ฟีเจอร์ตัวอย่างของบริการ Power BI
 ## <a name="what-are-preview-features"></a>อะไรคือ*ฟีเจอร์ตัวอย่าง*

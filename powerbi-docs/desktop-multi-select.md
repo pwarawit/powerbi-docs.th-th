@@ -1,28 +1,21 @@
 ---
 title: องค์ประกอบข้อมูลที่เลือกได้หลายรายการในภาพที่ใช้ Power BI Desktop
 description: คุณสามารถเลือกจุดข้อมูลหลายรายการในภาพของ Power BI Desktop ได้ เพียงแค่กด CTRL + คลิก
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 02/05/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f3018274c390920579cb7b60a589d00abdd4a5ce
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: dfd86b1b9375368b7cf921552c642cdc2eab9001
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34229599"
 ---
 # <a name="multi-select-data-elements-in-visuals-using-power-bi-desktop"></a>องค์ประกอบข้อมูลที่เลือกได้หลายรายการในภาพที่ใช้ Power BI Desktop
 
@@ -38,7 +31,7 @@ ms.lasthandoff: 02/24/2018
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-คุณอาจยังมีความสนใจในบทความต่อไปนี้:
+คุณอาจสนใจบทความต่อไปนี้:
 
 * [ใช้เส้นตารางและจัดชิดกับเส้นตารางในรายงาน Power BI Desktop](desktop-gridlines-snap-to-grid.md)
 * [เกี่ยวกับตัวกรองและการเน้นในรายงาน Power BI](power-bi-reports-filters-and-highlighting.md)
