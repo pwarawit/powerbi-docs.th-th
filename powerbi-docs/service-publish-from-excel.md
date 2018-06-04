@@ -1,28 +1,21 @@
 ---
 title: เผยแพร่ไปยัง Power BI จาก Excel 2016
 description: เรียนรู้วิธีการเผยแพร่สมุดงาน Excel ไปยังไซต์ Power BI ของคุณ
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ad398cedd92350618e0f23a33c85a33e6abd934b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: aa2bfed2858f93d91ff806b934f16c06555668d6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244841"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>เผยแพร่ไปยัง Power BI จาก Excel 2016
 ด้วย Excel 2016 คุณสามารถเผยแพร่สมุดงาน Excel ของคุณไปยังไซต์[Power BI](https://powerbi.microsoft.com) ได้ทันที ซึ่งเป็นที่ที่คุณสามารถสร้างรายงานและแดชบอร์ดแบบโต้ตอบสูงตามข้อมูลของสมุดงานของคุณได้ จากนั้นคุณสามารถแชร์ข้อมูลเชิงลึกของคุณกับผู้อื่นในองค์กรของคุณได้

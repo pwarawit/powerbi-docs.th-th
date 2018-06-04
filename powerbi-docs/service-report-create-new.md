@@ -11,10 +11,11 @@ ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 377ea4acc1a6fb41101571ac3ed0be2f3e50889b
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34246168"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>สร้างรายงานใหม่ในบริการ Power BI โดยการนำเข้าชุดข้อมูล
 คุณได้อ่าน[รายงานใน Power BI](service-reports.md)และตอนนี้ คุณต้องการสร้างรายงานของคุณเอง มีวิธีการสร้างรายงานหลากหลายวิธี และในบทความนี้เราจะเริ่มต้นด้วยการสร้างรายงานพื้นฐานจากชุดข้อมูล Excel โดยใช้บริการ Power BI เมื่อคุณทำความเข้าใจพื้นฐานของการสร้างรายงาน การ**ขั้นตอนถัดไป**ที่ด้านล่างจะพาคุณไปยังหัวข้อการรายงานขั้นสูงเพิ่มเติม  
