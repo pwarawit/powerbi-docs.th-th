@@ -1,29 +1,22 @@
 ---
 title: การรวม Power BI ด้วย Microsoft Flow
 description: เรียนรู้วิธีสร้างโฟลวที่์ถูกทริกเกอร์ ด้วยการแจ้งเตือนข้อมูล Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 70ce46dcfa6d4ab1ee1e18f1b31fb4f52dd1bbea
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: dc79282a5c221e85fae7838009f6cecf91cbfdb8
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34246838"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow และ Power BI
 
@@ -119,5 +112,5 @@ ms.lasthandoff: 05/07/2018
 * [ตั้งค่าการแจ้งเตือนข้อมูลใน Power BI service](service-set-data-alerts.md)
 * [ตั้งค่าการแจ้งเตือนข้อมูลบน iphone ของคุณ](mobile-set-data-alerts-in-the-mobile-apps.md)
 * [ตั้งค่าการแจ้งเตือนข้อมูลในแอป mobile Power BI สำหรับ Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
-* มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

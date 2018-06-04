@@ -1,28 +1,21 @@
 ---
 title: การแก้ไขปัญหาการวิเคราะห์ใน Excel ใน Power BI Desktop
 description: วิธีแก้ไขปัญหาทั่วไปสำหรับการวิเคราะห์ใน Excel
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/24/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1760828290846b9ee7601ad4aa313ee3e9cbdf8a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 764da32e4b0d32163421365a5f486a1d8649fd4b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34229001"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>การแก้ไขปัญหาการวิเคราะห์ใน Excel
 อาจมีบางครั้งที่เมื่อคุณใช้การวิเคราะห์ใน Excel คุณได้รับผลลัพธ์ที่ไม่คาดคิดหรือลักษณะการทำงานไม่ทำงานตามที่คุณคาดไว้ หน้านี้มีโซลูชันสำหรับปัญหาทั่วไปเมื่อใช้การวิเคราะห์ใน Excel

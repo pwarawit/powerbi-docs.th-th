@@ -11,10 +11,11 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 ms.openlocfilehash: 56a26b50f50dd52d4355cd8326ec0d104dab19c0
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34248941"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>สร้างแดชบอร์ด Power BI จากรายงาน
 คุณได้อ่าน[แดชบอร์ดใน Power BI](service-dashboards.md)และตอนนี้ คุณต้องการสร้างของคุณเอง มีหลายวิธีในการสร้างแดชบอร์ด สามารถสร้างจากรายงานโดยสร้างตั้งแต่เริ่มต้น จากชุดข้อมูลโดยการทำซ้ำแดชบอร์ดที่มีอยู่แล้ว และอื่น ๆ อีกมาก  
@@ -112,4 +113,4 @@ ms.lasthandoff: 05/17/2018
 * [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
 * [เคล็ดลับสำหรับการออกแบบแดชบอร์ด ที่ยอดเยี่ยม](service-dashboards-design-tips.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

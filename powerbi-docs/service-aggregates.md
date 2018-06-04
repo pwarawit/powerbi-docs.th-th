@@ -1,28 +1,21 @@
 ---
 title: การรวม (ผลรวม, ค่าเฉลี่ย, ค่าสูงสุด ฯลฯ) ในการแสดงภาพ
 description: เปลี่ยนการรวมในแผนภูมิ (ผลรวม, ค่าเฉลี่ย, ค่าสูงสุด ฯลฯ) ใน Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: modifying
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/04/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c391ab631d94e98df68835f680a48e24afd293fb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 39adfd04118362fa706f0840daa5c2520d899b5e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247607"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>การรวมในการแสดงภาพของ Power BI
 ## <a name="what-is-an-aggregate"></a>การรวมคืออะไร?

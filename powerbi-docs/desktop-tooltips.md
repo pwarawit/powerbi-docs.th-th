@@ -11,10 +11,11 @@ ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 1f53b0efc2195221fbcbe45f03102d2c98e8eef3
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34232119"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>สร้างคำแนะนำเครื่องมือของหน้ารายงานใน Power BI Desktop (ตัวอย่าง)
 คุณสามารถสร้าง**คำแนะนำเครื่องมือรายงาน**ที่สวยงาม ที่ปรากฏเมื่อคุณโฮเวอร์เหนือวิชวล จากหน้ารายงานที่คุณสร้างใน **Power BI Desktop** ได้ โดยการสร้างหน้ารายงานที่เป็นคำแนะนำเครื่องมือของคุณ คำแนะนำเครื่องมือแบบกำหนดเองของคุณสามารถรวม วิชวล รูปภาพ และคอลเลกชันของรายการใด ๆ ที่คุณสร้างไว้ในหน้ารายงาน 

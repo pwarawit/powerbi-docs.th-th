@@ -11,10 +11,11 @@ ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f54aa5a67739a3ad6f9ea0a42f8a2b872e51d52d
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34230933"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>เชื่อมต่อกับ Adobe Analytics ใน Power BI Desktop 
 ใน **Power BI Desktop** คุณสามารถเชื่อมต่อกับ **Adobe Analytics** และใช้ข้อมูลเบื้องต้นเช่นเดียวกับแหล่งข้อมูลอื่นใน Power BI Desktop ได้ 
@@ -44,7 +45,7 @@ ms.lasthandoff: 05/17/2018
 
 * [เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
-* [จัดรูปร่างและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
-* [เชื่อมต่อกับสมุดงาน Excel ใน Power BI Desktop](desktop-connect-excel.md)   
-* [ใส่ข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
+* [จัดรูปทรงและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [เชื่อมต่อกับเวิร์กบุ๊ก Excel ใน Power BI Desktop](desktop-connect-excel.md)   
+* [ป้อนข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
 

@@ -1,28 +1,21 @@
 ---
 title: รับข้อมูลจากไฟล์ Power BI Desktop
 description: เรียนรู้วิธีการรับข้อมูลและรายงานจาก Power BI Desktop ลงใน Power BI
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 03/30/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3ebe9edbd77bf1661effd34c798c822305e265ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5429e6acafcad706d6d445086c612f50e22bf01c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34241541"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>รับข้อมูลจากไฟล์ Power BI Desktop
 ![](media/service-desktop-files/pbid_file_icon.png)

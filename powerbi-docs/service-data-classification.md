@@ -1,29 +1,21 @@
 ---
 title: การจัดประเภทข้อมูลของแดชบอร์ด
 description: เรียนรู้เกี่ยวกับการจัดประเภทข้อมูลแดชบอร์ด รวมถึงสิ่งที่ีผู้ดูแลระบบควรตั้งค่า และวิธีที่เจ้าของแดชบอร์ดสามารถเปลี่ยนการจัดประเภท
-services: powerbi
-documentationcenter: ''
 author: amandacofsky
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 03/15/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
-ms.openlocfilehash: aed13e5bc7a21caa87e4c5b25fd61d55dcfc6129
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f08e4199af06a4a7fd74cb525e918a67a27165a8
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "29924827"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251333"
 ---
 # <a name="dashboard-data-classification"></a>การจัดประเภทข้อมูลของแดชบอร์ด
 แดชบอร์ดทุกตัวจะแตกต่างกันไป และขึ้นอยู่กับแหล่งข้อมูลที่เชื่อมต่อ คุณอาจจะเห็นว่าคุณและเพื่อนร่วมงานของคุณแชร์ความต้องการมาตรการที่แตกต่างกัน โดยขึ้นอยู่กับระดับความลับของข้อมูล แดชบอร์ดบางตัวไม่ควรจะหรือพิมพ์หรือใช้ร่วมกันกับที่อยู่ภายนอกบริษัทของคุณ ในขณะที่ตัวอื่นๆสามารถแชร์ได้อย่างอิสระ โดยใช้การจัดประเภทข้อมูลแดชบอร์ด คุณจะสามารถสร้างความตระหนักให้กับบุคคลที่กำลังดูแดชบอร์ดของคุณ เกี่ยวกับระดับการรักษาความปลอดภัยใดควรใช้ คุณสามารถแท็กแดชบอร์ดของคุณ ด้วยการจัดประเภทที่กำหนดโดยแผนก IT ของบริษัทของคุณ ดังนั้นทุกคนที่ดูเนื้อหาจะมีการทำความเข้าใจเกี่ยวกับระดับความลับของข้อมูลในระดับเดียวกันได้

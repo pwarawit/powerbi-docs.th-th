@@ -1,30 +1,22 @@
 ---
 title: แดชบอร์ดแนะนำใน Power BI
 description: เอกสารประกอบเกี่ยวกับวิธีการสร้างแดชบอร์ดแนะนำใน Power BI service
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: efa6d0266ae6fc8418ff4a6f2f78e47f5481d166
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 31fe8629b2943e125b2e70106cc9c87578ecc977
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
-ms.locfileid: "29924937"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249424"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>แดชบอร์ดแนะนำใน Power BI service
 ## <a name="create-a-featured-dashboard"></a>สร้างแดชบอร์ดแนะนำ
