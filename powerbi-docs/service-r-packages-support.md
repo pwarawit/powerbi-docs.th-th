@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 39c6c11e4815df507431648b1d317f9a62a4b1c3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34299205"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>แพ็คเกจ R ในบริการ Power BI
 คุณสามารถใช้[R ภาษาโปรแกรม](https://www.r-project.org/)ที่มีประสิทธิภาพเพื่อสร้างภาพในบริการ Power BI ได้ แพ็คเกจ R หลายแพ็กเกจได้รับการสนับสนุนในบริการ Power BI (และหลายแพ็คเกจจะได้รับการสนับสนุนตลอดเวลา) และบางแพ็กเกจจะไม่ได้รับการสนับสนุน
@@ -25,9 +26,9 @@ ms.lasthandoff: 05/17/2018
 แพ็คเกจ R รองรับการ**บริการ Power BI**ที่พบในส่วนต่อไปนี้ ชื่อว่า**แพ็คเกจที่ได้รับการสนับสนุน** ถ้าคุณต้องการขอรับการสนับสนุนให้แพ็คเกจ R ที่ไม่พบในรายการที่แสดงอยู่ คุณสามารถส่งอีเมลพร้อมคำขอของคุณมาที่[ทีมรับคำติชม ของแพ็คเกจ R ใน Power BI](mailto:rinpbifb@microsoft.com)ได้
 
 ## <a name="requirements-and-limitations-of-r-packages"></a>แพ็คเกจข้อกำหนดและขีดจำกัดของ R
-มีข้อกำหนดและขีดจำกัดสำหรับแพคเกจ R อยู่เล็กน้อยดังนี้
+มีข้อกำหนดและขีดจำกัดสำหรับแพคเกจ R อยู่เล็กน้อยดังนี้:
 
-* บริการ Power BI สนับสนุนแพคเกจ R ด้วยใบอนุญาตซอฟต์แวร์แบบเปิดฟรี เช่น GPL-2 GPL-3 MIT+ และอื่น ๆ
+* บริการ Power BI ส่วนใหญ่สนับสนุนแพคเกจ R ที่มีใบอนุญาตซอฟต์แวร์แบบเปิดและฟรี เช่น GPL-2 GPL-3 MIT+ และอื่น ๆ
 * บริการ Power BI สนับสนุนแพคเกจที่เผยแพร่ใน CRAN บริการไม่สนับสนุนแพคเกจ R ส่วนตัว หรือแบบกำหนดเอง แนะนำให้ผู้ใช้สร้างแพ็คเกจส่วนตัวของพวกเขาพร้อมใช้งานบน CRAN ก่อนที่จะร้องขอแพ็คเกจมีอยู่ในบริการ Power BI
 * **Power BI Desktop**มีแพ็คเกจ R ที่แตกต่างกันสองแพ็คเกจ
   
@@ -388,7 +389,7 @@ ms.lasthandoff: 05/17/2018
 | tm |0.6-2 |https://cran.r-project.org/web/packages/tm/index.html |
 | topicmodels |0.2-3 |https://cran.r-project.org/web/packages/topicmodels/index.html |
 | tree |1.0-37 |https://cran.r-project.org/web/packages/tree/index.html |
-| treemap |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
+| แผนผังต้นไม้ |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
 | tseries |0.10-34 |https://cran.r-project.org/web/packages/tseries/index.html |
 | tsfa |2014.10-1 |https://cran.r-project.org/web/packages/tsfa/index.html |
 | tsoutliers |0.6 |https://cran.r-project.org/web/packages/tsoutliers/index.html |

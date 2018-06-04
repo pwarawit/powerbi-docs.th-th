@@ -11,10 +11,11 @@ ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 2ba97b76b13c9adf3c9f20d5d42c5ec9c363edda
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293685"
 ---
 # <a name="power-bi-free-in-your-organization"></a>Power BI (ฟรี) ในองค์กรของคุณ
 บทความนี้จะกล่าวถึงวิธีใช้งานข้อเสนอ Power BI (ฟรี) ภายในองค์กรของคุณ องค์กรหมายถึงการที่คุณมีผู้เช่าและสามารถจัดการผู้ใช้และบริการภายในผู้เช่านั้น ในฐานะผู้ดูแล คุณสามารถควบคุมการกำหนดสิทธิ์การใช้งานหรือคุณสามารถอนุญาตให้ผู้ใช้สามารถลงชื่อสมัครใช้้เป็นรายบุคคล เราจะมาดูที่สิทธิ์การใช้งาน Power BI (ฟรี) และวิธีที่คุณสามารถควบคุมการลงชื่อสมัครใช้้เป็นรายบุคคลได้
@@ -89,5 +90,5 @@ ms.lasthandoff: 05/17/2018
 [Power BI Premium คืออะไร](service-premium.md)  
 [เอกสารทางเทคนิคของ Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-คำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

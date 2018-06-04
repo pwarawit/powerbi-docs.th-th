@@ -1,28 +1,21 @@
 ---
 title: แก้ไขปัญหาเมื่อเริ่มต้น Power BI Desktop
 description: แก้ไขปัญหาเมื่อเริ่มต้น Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 2014524b3209a67bd0f0aaa3d1ddf00042227c4d
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 99ee9e87584202420239658a3522ad82cb383227
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286560"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>แก้ไขปัญหาเมื่อ Power BI Desktop เปิดไม่ขึ้น
 ใน**Power BI Desktop** ผู้ใช้ที่ติดตั้งและใช้งานเวอร์ชันก่อนหน้า **เกตเวย์ข้อมูลภายในองค์กร Power BI** สามารถถูกบล็อกจากการเปิดใช้งาน Power BI Desktop เนื่องจากนโยบายข้อจำกัดในระดับผู้ดูแลเกตเวย์ Power BI ภายในองค์กร ได้วางและตั้งชื่อไปป์บนเครื่อง 
@@ -42,7 +35,7 @@ ms.lasthandoff: 04/26/2018
 สิ่งสำคัญคือต้องทราบว่า Power BI Desktop ได้รับการออกแบบเป็นสถาปัตยกรรมแบบหลายกระบวนการ และกระบวนการต่างๆ เหล่านี้สื่อสารโดยใช้เนมไปป์ Windows อาจมีกระบวนการอื่นที่รบกวนเนมไปป์เหล่านั้น สาเหตุที่พบได้บ่อยที่สุดสำหรับการรบกวนดังกล่าวคือ ความปลอดภัย รวมถึงสถานการณ์ที่ซอฟต์แวร์ป้องกันไวรัส หรือไฟร์วอลล์อาจบล็อกไปป์ หรือเปลี่ยนเส้นทางปริมาณการใช้งานไปยังพอร์ตเฉพาะ การเปิดใช้งาน Power BI Desktop ด้วยสิทธิ์ของผู้ดูแลระบบอาจแก้ปัญหาดังกล่าว ถ้าไม่สามารถเปิดการใช้งานด้วยสิทธิ์ของผู้ดูแลได้ ให้ติดต่อผู้ดูแลระบบของคุณเพื่อพิจารณาว่ามีการใช้กฎความปลอดภัยใดที่ป้องกันไม่ให้เนมไปป์สื่อสารได้อย่างถูกต้อง และอนุญาต Power BI Desktop และกระบวนการย่อยที่เกี่ยวข้อง
 
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>ความช่วยเหลือปัญหาอื่น ๆ เมื่อเปิดใช้ Power BI Desktop
-เราจะมุ่งมั่นที่จะครอบคลุมปัญหาที่เกิดขึ้นกับ**Power BI Desktop**ให้มากที่สุด เราดูปัญหาที่อาจจะมีผลกระทบต่อลูกค้าจำนวนมากอย่างเป็นประจำ และรวมเอาไว้ในบทความของเรา
+เราจะมุ่งมั่นที่จะครอบคลุมปัญหาที่เกิดขึ้นกับ**Power BI Desktop**ให้มากที่สุด เราดูปัญหาที่อาจจะมีผลกระทบต่อลูกค้าเป็นประจำ และรวมเอาไว้ในบทความของเรา
 
 ถ้าปัญหาเกี่ยวกับการเปิดใช้งาน **Power BI Desktop** จะไม่เชื่อมโยงกับเกตเวย์ข้อมูลในองค์กร หรือเมื่อการแก้ปัญหาก่อนหน้านี้ใช้ไม่ได้ผล คุณสามารถส่งเรื่องไปยัง [ฝ่ายสนับสนุน Power BI](https://support.powerbi.com) (https://support.powerbi.com) เพื่อช่วยระบุและแก้ไขปัญหาของคุณ
 

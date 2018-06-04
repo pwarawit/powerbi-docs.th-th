@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
 ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290280"
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>รวมแดชบอร์ดลงในแอปสำหรับองค์กรของคุณ
 เรียนรู้วิธีการรวม หรือฝังตัว แดชบอร์ดลงในเว็บแอปโดยการเรียก REST API ตลอดจน Power BI JavaScript API เมื่อต้องการการฝังตัวสำหรับองค์กรของคุณ
@@ -40,7 +41,7 @@ ms.lasthandoff: 05/17/2018
 ![](media/integrate-dashboard/powerbi-embed-dashboard-register-app4.png)
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>ขั้นตอนที่ 2 - รับโทเค็นการเข้าถึงจาก Azure AD
-ภายในแอปพลิเคชันของคุณ คุณจะต้องรับ**โทเค็นการเข้าถึง**จาก Azure AD ก่อนที่คุณสามารถเรียกใช้ Power BI REST API ได้ สำหรับข้อมูลเพิ่มเติม ดู[รับรองความถูกต้องผู้ใช้ และรับโทเค็นการเข้าถึง Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md)
+ภายในแอปพลิเคชันของคุณ คุณจะต้องรับ**โทเค็นการเข้า**จาก Azure AD ก่อนที่คุณสามารถเรียกใช้ Power BI REST API ได้ สำหรับข้อมูลเพิ่มเติม ดู[รับรองความถูกต้องผู้ใช้ และรับโทเค็นการเข้าถึง Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md)
 
 ## <a name="step-3---get-a-dashboard"></a>ขั้นตอนที่ 3 - รับแดชบอร์ด
 เพื่อรับแดชบอร์ด **Power BI** คุณใช้การดำเนินการ[รับแดชบอร์ด](https://msdn.microsoft.com/library/mt465739.aspx) ซึ่งจะได้รายการแดชบอร์ดของ **Power BI** จากรายการแดชบอร์ด คุณสามารถรับรหัสแดชบอร์ด

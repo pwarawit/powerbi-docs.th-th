@@ -1,28 +1,21 @@
 ---
 title: สร้างการวิเคราะห์ขั้นสูงและแสดงข้อมูลโดยใช้สคริปต์ R ใน Power BI
 description: ใช้สคริปต์ R ใน Power BI เพื่อสร้างการวิเคราะห์ขั้นสูงและการแสดงภาพขั้นสูง
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e921da07809757de02a9b0d00065a0946edb7e51
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fd4198bb6b826f8d4af22e83e313c4c0b8101024
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34299320"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>การสร้างภาพ R ในบริการ Power BI
 บริการ Power BI สนับสนุนการดูและโต้ตอบกับภาพที่สร้างขึ้น ด้วยสคริปต์ R ภาพที่สร้างขึ้นด้วยสคริปต์ R มักเรียกว่า*ภาพ R* ซึ่งสามารถนำเสนอการปรับรูปร่างข้อมูลและการวิเคราะห์ขั้นสูง เช่น การทำนายโดยใช้การวิเคราะห์ที่มีข้อมูลเต็มเปี่ยมและพลังของการแสดงภาพ R

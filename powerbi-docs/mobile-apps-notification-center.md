@@ -1,27 +1,20 @@
 ---
 title: รับการแจ้งเตือนในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 description: ศูนย์การแจ้งเตือนรวบรวมข้อมูล Power BI ของคุณที่เกี่ยวข้อง และส่งข้อมูลนั้นไปยังอุปกรณ์เคลื่อนที่ของคุณ
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 218e7054a195db15f3b8b7c890723be7f0638d0c
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: e97a65e08d3830dc954a88f518c05798d177490f
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294527"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>รับการแจ้งเตือนในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:

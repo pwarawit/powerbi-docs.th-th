@@ -1,32 +1,25 @@
 ---
 title: เพิ่มการเชื่อมโยงหลายมิติไปยังกล่องข้อความในรายงาน
 description: เพิ่มการเชื่อมโยงหลายมิติไปยังกล่องข้อความในบริการของ Power BI และ Desktop
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/20/2017
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 95352c72dfca1c1439f89d532dbcfcc5cd26758c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e8a03cdd666f84b788d3bd90b8ebf2a84fc12a9b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294076"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>เพิ่มการเชื่อมโยงหลายมิติไปยังกล่องข้อความในรายงาน
-คุณสามารถเพิ่มกล่องข้อความลงในรายงาน ปักหมุดลงในแดชบอร์ดจากรายงาน และเพิ่มไปยังแดชบอร์ดโดยตรงได้ คุณสามารถเพิ่มการเชื่อมโยงหลายมิติไปยังกล่องข้อความไม่ว่าจะอยู่ส่วนใดก็ตามก็ได้ **หัวข้อนี้ครอบคลุมกล่องข้อความในรายงานในบริการของ Power BI (ไม่รวมถึง Power BI Desktop)**
+คุณสามารถเพิ่มกล่องข้อความลงในรายงาน ปักหมุดลงในแดชบอร์ดจากรายงาน และเพิ่มไปยังแดชบอร์ดโดยตรงได้ คุณสามารถเพิ่มการเชื่อมโยงหลายมิติไปยังกล่องข้อความไม่ว่าจะอยู่ส่วนใดก็ตามก็ได้  
 
 > **หมายเหตุ**: สำหรับข้อมูลเกี่ยวกับการเชื่อมโยงหลายมิติในตารางและเมทริกซ์ของ Power BI โปรดดู[การเชื่อมโยงหลายมิติในตาราง](power-bi-hyperlinks-in-tables.md) สำหรับข้อมูลเกี่ยวกับการเพิ่มกล่องข้อความลงใน**แดชบอร์ดของคุณ** โปรดดู[เพิ่มไทล์โดยตรงจากแดชบอร์ด](service-dashboard-add-widget.md) 
 > 
@@ -61,8 +54,6 @@ ms.lasthandoff: 02/24/2018
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [กล่องข้อความในรายงาน Power BI](power-bi-reports-add-text-and-shapes.md)
-
-[เพิ่มกล่องข้อความไปยังแดชบอร์ด ](service-dashboard-add-widget.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

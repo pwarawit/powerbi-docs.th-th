@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c51d89979ccf6791e69a7cdd457004b065b9d537
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34288877"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>ใช้ IDE ภายนอกกับ Power BI
 ด้วย**Power BI Desktop**คุณสามารถใช้ R IDE ภายนอกของคุณ (สภาพแวดล้อมรวมเพื่อการพัฒนา) เพื่อสร้าง และปรับปรุงสคริปต์ R จาก แล้วจะใช้สคริปต์เหล่านั้นใน Power BI ได้
@@ -82,7 +83,7 @@ ms.lasthandoff: 05/17/2018
 * ตัวแก้ไข **ไคลเอ็นต์ R**(RGui.exe) ไม่ถูกรองรับ เนื่องจากตัวแก้ไขเองก็ไม่รองรับเปิดไฟล์
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ R ใน Power BI โปรดดูที่บทความต่อไปนี้
+ดูข้อมูลเพิ่มเติมเกี่ยวกับ R ใน Power BI
 
 * [กำลังเรียกใช้สคริปต์ R ใน Power BI Desktop](desktop-r-scripts.md)
 * [สร้างภาพ Power BI ที่ใช้ R](desktop-r-visuals.md)

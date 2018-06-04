@@ -1,28 +1,21 @@
 ---
 title: ลงทะเบียน Power BI สำหรับลูกค้าหน่วยราชการสหรัฐ
 description: สำหรับสหรัฐอเมริกา ลูกค้าหน่วราชการ เรียนรู้วิธีการลงทะเบียนหน่วยราชการสหรัฐของคุณ สำหรับบริการ Power BI US Government service
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 17d7c07cb35eb9046b6fcfe8da5a85ee15fe7eaf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310509"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>ลงทะเบียนหน่วยราชการสหรัฐของคุณใน Power BI service
 การ**บริการ Power BI**มีเวอร์ชันพร้อมใช้งานสำหรับลูกค้าส่วนราชการสหรัฐอเมริกา ซึ่งเป็นส่วนหนึ่งของการของการสมัครใช้งาน**ชุมชน Office 365 สำหรับส่วนราชการสหรัฐ** การ**บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้ถูกออกแบบมาโดยเฉพาะสำหรับลูกค้าส่วนราชการสหรัฐและแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI**
@@ -130,7 +123,7 @@ ms.lasthandoff: 04/26/2018
 มีหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI สำหรับข้อมูลและการเรียนรู้เพิ่มเติม รวมถึงบทความที่แสดงวิธีการลงทะเบียนใช้บริการ ให้ดูทรัพยากรต่อไปนี้
 
 * [ภาพรวมของ Power BI สำหรับส่วนราชการสหรัฐ](service-govus-overview.md)
-* [Guided learning สำหรับ Power BI](guided-learning/gettingstarted.yml#step-1)
+* [Guided learning สำหรับ Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [เริ่มต้นใช้งาน Power BI service](service-get-started.md)
 * [เริ่มต้นใช้งานกับ Power BI Desktop](desktop-getting-started.md)
 

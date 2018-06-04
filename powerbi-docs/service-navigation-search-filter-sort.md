@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a9b7d2326d62887a1a1acfef1ae164bec1cf2e62
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 421ef9609872515ae462de574d67528835bb78ab
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722850"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>การนำทาง: ค้นหาและการเรียงลำดับเนื้อหาของคุณในบริการ Power BI
 มีหลายวิธีในการนำทางเนื้อหาของคุณในบริการ Power BI เนื้อหาดังกล่าวจะได้รับการจัดการภายในพื้นที่ทำงานแยกตามประเภท: แดชบอร์ด รายงาน สมุดงาน และชุดข้อมูล  นอกจากนี้ยังมีการจัดระเบียบเนื้อหาแยกตามการใช้งาน: รายการโปรด ล่าสุด แอปฯ แชร์กับฉัน และที่แนะนำ เส้นทางที่แตกต่างกันเหล่านี้ที่เข้ามาในเนื้อหาของคุณอนุญาตให้คุณค้นหาสิ่งที่คุณต้องการในบริการ Power BI ได้อย่างรวดเร็ว  
@@ -60,6 +61,6 @@ ________________________________________
 * สำหรับชุดข้อมูล **เรียงลำดับตาม**ไม่พร้อมใช้งาน สำหรับเจ้าของ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
+[Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

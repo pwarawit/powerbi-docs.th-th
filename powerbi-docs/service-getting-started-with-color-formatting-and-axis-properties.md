@@ -1,28 +1,21 @@
 ---
 title: เริ่มใช้งานด้วยคุณสมบัติแกนและการจัดรูปแบบสี
 description: เริ่มใช้งานด้วยคุณสมบัติแกนและการจัดรูปแบบสี
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1c6698f4e85dcbf41b79bf4289890b2e60365254
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8d04814a81390b98843cb402f495459c884a2e84
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34299665"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>เริ่มใช้งานด้วยคุณสมบัติแกนและการจัดรูปแบบสี
 ใน**Power BI** คุณก็สามารถเปลี่ยนสีของชุดข้อมูล จุดข้อมูล และแม้แตพื้นหลังของการแสดงภาพได้ คุณยังสามารถเปลี่ยนวิธีการนำเสนอข้อมูลที่แกน X และแกน Y ซึ่งจะช่วยให้คุณสามารถจัดการลักษณะที่ปรากฏของแดชบอร์ดและรายงานของคุณได้อย่างเต็มที่

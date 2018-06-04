@@ -1,28 +1,21 @@
 ---
 title: เคล็ดลับและลูกเล่นในการจัดรูปแบบสีใน Power BI
 description: เคล็ดลับและลูกเล่นในการจัดรูปแบบสีใน Power BI
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 795a7bcc2a6885f0608acfc9ed5a1f8dd0e1f34b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3c91a6a70899a4a59c3d98cd9ab948284df5b662
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298400"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>เคล็ดลับและลูกเล่นในการจัดรูปแบบสีใน Power BI
 Power BI มีหลายวิธีในการปรับแต่งแดชบอร์ดและรายงานของคุณ บทความนี้ให้รายละเอียดคอลเลกชันของเคล็ดลับที่สามารถทำให้การแสดงภาพ Power BI ของคุณดึงดูดใจ น่าสนใจ และตรงตามความต้องการของคุณมากขึ้น

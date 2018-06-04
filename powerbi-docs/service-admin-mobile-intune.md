@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 03f1c9948b3c178f39d369fddece36a5fcd05e4f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34297480"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>กำหนดค่าแอปฯมือถือโดยใช้ Microsoft Intune
 Microsoft Intune ช่วยให้องค์กรต่าง ๆ สามารถจัดการอุปกรณ์ต่าง ๆ และแอปพลิเคชันได้ ในแอปพลิเคชันมือถือ Power BI สำหรับ iOS และ Android รวมกับ Intune เพื่อให้คุณจัดการแอปพลิเคชันนี้บนอุปกรณ์ของคุณได้ และเพื่อควบคุมการรักษาความปลอดภัย ด้วยนโยบายการกำหนดค่า คุณสามารถควบคุมรายการ เช่น การบังคับใช้ PIN เพื่อเข้าใช้งาน การควบคุมวิธีจัดการกับข้อมูลโดยแอปพลิเคชัน หรือแม้แต่การเข้ารหัสลับข้อมูลแอปพลิเคชันเมื่อไม่ได้ใช้งาน

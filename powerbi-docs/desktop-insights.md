@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286094"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>ใช้ข้อมูลเชิงลึกใน Power BI Desktop (ตัวอย่าง)
 คุณสามารถบอก **Power BI Desktop** ให้อธิบายการเพิ่มขึ้นหรือลดลงในแผนภูมิ และได้รับการวิเคราะห์ที่ รวดเร็ว อัตโนมัติ และลึกซึ้งเกี่ยวกับข้อมูลของคุณ เพียงแค่คลิกขวาบนจุดข้อมูล แล้วเลือก**วิเคราะห์ > อธิบายการลดลง**(หรือ เพิ่มขึ้น ถ้าแท่งก่อนหน้ามีค่าน้อยกว่า) ข้อมูลเชิงลึกจะถูกส่งถึงคุณในหน้าต่างที่ใช้งานได้ง่าย ๆ
@@ -75,6 +76,6 @@ ms.lasthandoff: 05/17/2018
 * [ภาพรวมคิวรี ด้วย Power BI Desktop](desktop-query-overview.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
 * [เชื่อมต่อกับข้อมูลใน Power BI Desktop](desktop-connect-to-data.md)
-* [จัดรูปทรง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
-* [งานคิวรีที่ใช้บ่อยใน Power BI Desktop](desktop-common-query-tasks.md)   
+* [จัดรูปร่างและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [งานคิวรี่ที่ใช้บ่อยใน Power BI Desktop](desktop-common-query-tasks.md)   
 

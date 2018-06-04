@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/22/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 2150c1c54a32ab201218088265f1b10c7c8a8f0e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: f20fe4595236381106b6cb2a676ffd3d3baa3971
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34471789"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>ตัวอย่างความสามารถในการทำกำไรลูกค้าสำหรับ Power BI: ชมการแนะนำ
 
@@ -47,7 +48,7 @@ ms.lasthandoff: 05/17/2018
 ### <a name="get-the-pbix-file-for-this-sample"></a>รับไฟล์ .pbix สำหรับตัวอย่างนี้
 
 อีกทางเลือกหนึ่งคือ คุณสามารถดาวน์โหลดตัวอย่างเป็นไฟล์ .pbix ซึ่งถูกออกแบบมาสำหรับใช้กับ Power BI Desktop
-[ตัวอย่างความสามารถในการทำกำไรลูกค้า](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
+[ตัวอย่างความสามารถในการทำกำไรลูกค้า](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer-Profitability-Sample-PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>รับเวิร์กบุ๊ก Excel สำหรับตัวอย่างนี้
 

@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: maggies
 ms.openlocfilehash: 8ec03ae7eebcba4505cad02b76b9c48fefef34cb
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294320"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>ดูรายงาน Power BI ที่ปรับให้เหมาะสมกับมือถือของคุณ
 
@@ -106,5 +107,5 @@ ms.lasthandoff: 05/17/2018
 * [สร้างรายงานที่ปรับให้เหมาะสมสำหรับแอปมือถือ Power BI](desktop-create-phone-report.md)
 * [สร้างมุมมองโทรศัพท์ของแดชบอร์ดใน Power BI](service-create-dashboard-mobile-phone-view.md)
 * [สร้างวิชวลแบบตอบสนองที่ปรับให้เหมาะสมกับทุกขนาด](desktop-create-responsive-visuals.md)
-* มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

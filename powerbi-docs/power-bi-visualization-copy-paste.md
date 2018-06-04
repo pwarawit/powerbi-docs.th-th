@@ -1,28 +1,21 @@
 ---
 title: คัดลอก และวางการแสดงภาพใน Power BI
 description: คัดลอก และวางการแสดงภาพใน Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/20/2017
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8074845fc2f48ba8b06134cfefcbf8f15ace5350
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 44b7c8ab65accdb804c7a4b8afd19b1598137dbe
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295456"
 ---
 # <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>คัดลอกและวางการแสดงภาพในบริการของ Power BI และ Power BI Desktop
 การคัดลอก และการวางการแสดงภาพจะต้องมีสิทธิ์ในการแก้ไขสำหรับรายงาน ในบริการของ Power BI ซึ่งหมายถึงการเปิดรายงานใน[มุมมองการแก้ไข](service-reading-view-and-editing-view.md)
@@ -33,9 +26,7 @@ ms.lasthandoff: 02/24/2018
    ![](media/power-bi-visualization-copy-paste/copypasteviznew.gif)
 
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
-อ่านข้อมูลเพิ่มเติมเกี่ยวกับ[การแสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)
-
-[Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)  
+อ่านเพิ่มเติมเกี่ยวกับ[การแสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

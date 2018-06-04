@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 49f6e073d40ef00413ba38dd709780758cf1e448
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291039"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>พื้นฐาน DAX ใน Power BI Desktop
 บทความนี้มีไว้สำหรับผู้ใช้ที่ยังใหม่กับ Power BI Desktop โดยมีไว้เพื่อให้คำแนะนำที่ง่ายและรวดเร็วแก่คุณเกี่ยวกับวิธีการที่คุณสามารถใช้นิพจน์การวิเคราะห์ข้อมูล (DAX) เพื่อแก้ปัญหาการคำนวณพื้นฐานและการวิเคราะห์ข้อมูลต่างๆ เราจะไปดูกันที่ข้อมูลแนวคิดบางอย่าง ชุดงานที่คุณสามารถทำให้เสร็จสมบูรณ์ และแบบทดสอบเพื่อทดสอบสิ่งที่คุณได้เรียนรู้ไปสักเล็กน้อย หลังจากจบบทความนี้ คุณควรมีความเข้าใจที่ดีเกี่ยวกับแนวคิดพื้นฐานสำคัญที่สุดของ DAX

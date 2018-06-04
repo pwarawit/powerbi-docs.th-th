@@ -11,10 +11,11 @@ ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: fc7885755da62c7b777bb0af7627626b1ce60aa0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34299090"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>ใช้ Kerberos สำหรับ SSO (ลงชื่อเข้าระบบครั้งเดียว) จาก Power BI ไปยังแหล่งข้อมูลในองค์กร
 คุณสามารถเชื่อมต่อด้วย การลงชื่อเข้าระบบครั้งเดียว เปิดใช้งานรายงานและแดชบอร์ดของ Power BI เพื่อปรับปรุงจากข้อมูลในองค์กร โดยการกำหนดค่าในเกตเวย์ข้อมูลในองค์กรของคุณด้วย Kerberos เกตเวย์ข้อมูลในองค์กร จะช่วยอำนวยความสะดวกในการ ลงชื่อเข้าระบบครั้งเดียว (SSO) โดยใช้ DirectQuery เพื่อเชื่อมต่อกับแหล่งข้อมูลในองค์กร
@@ -59,7 +60,7 @@ ms.lasthandoff: 05/17/2018
 > [!NOTE]
 > เมื่อต้องการเปิดใช้งาน SSO สำหรับ SAP HANA:
 >
-> - ให้แน่ใจว่า เซิร์ฟเวอร์ SAP HANA ทำงานด้วยเวอร์ชันขั้นต่ำ ซึ่งขึ้นอยู่กับระดับเซิร์ฟเวอร์แพลตฟอร์ม SAP Hana ของคุณ:
+> - ตรวจสอบให้แน่ใจว่า เซิร์ฟเวอร์ SAP HANA ทำงานด้วยเวอร์ชันขั้นต่ำ ซึ่งขึ้นอยู่กับระดับเซิร์ฟเวอร์แพลตฟอร์ม SAP Hana ของคุณ:
 >     - [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386)
 >     - [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324)
 >     - [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)

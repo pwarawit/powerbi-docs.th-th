@@ -1,27 +1,20 @@
 ---
 title: สำรวจรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI
 description: เรียนรู้เกี่ยวกับการดูและโต้ตอบกับรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI บนโทรศัพท์หรือแท็บเล็ตของคุณ คุณสร้างรายงานในบริการ Power BI หรือ Power BI Desktop จาก นั้น ก็สามารถโต้ตอบกับรายงานเหล่านั้นได้ในแอปอุปกรณ์เคลื่อนที่
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: a7bd77ec65fd3897c6e9af9acd2a20a229565415
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34297687"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>สำรวจรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI
 นำไปใช้กับ:
@@ -50,7 +43,7 @@ ms.lasthandoff: 04/26/2018
   ![รายงานบนโทรศัพท์ในโหมดแนวนอน](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>ดูรายงานที่ปรับให้เหมาะสมสำหรับโทรศัพท์
-ผู้เขียนรายงาน Power BI สามารถสร้างเค้าโครงรายงานที่ปรับให้เหมาะสมสำหรับโทรศัพท์โดยเฉพาะ หน้ารายงานที่ปรับให้เหมาะสมสำหรับโทรศัพท์ได้เพิ่มฟังก์ชันการทำงาน: เช่น คุณสามารถเจาะลึกและเรียงลำดับการแสดงผลด้วยภาพ และสามารถเข้าถึง [ตัวกรองผู้สร้างรายงานที่ถูกเพิ่มไปยังหน้ารายงาน](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone) รายงานจะเปิดขึ้นบนโทรศัพท์ของคุณโดยกรองให้เป็นค่าที่ถูกกรองในรายงานบนเว็บโดยข้อความบอกว่า มีตัวกรองที่ใช้งานอยู่บนหน้านั้น คุณสามารถเปลี่ยนตัวกรองบนโทรศัพท์ของคุณได้
+ผู้เขียนรายงาน Power BI สามารถสร้างเค้าโครงรายงานที่ปรับให้เหมาะสมสำหรับโทรศัพท์โดยเฉพาะ หน้ารายงานที่ปรับให้เหมาะสมสำหรับโทรศัพท์ได้เพิ่มฟังก์ชันการทำงาน: เช่น คุณสามารถเจาะลึกและเรียงลำดับการแสดงผลด้วยภาพ และสามารถเข้าถึง [ตัวกรองผู้สร้างรายงานที่ถูกเพิ่มไปยังหน้ารายงาน](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone) รายงานเปิดขึ้นบนมือถือของคุณ จะถูกกรองข้อมูลด้วยค่าการกรองในรายงานบนเว็บ และมีข้อความแจ้งว่ามีตัวกรองกำลังใช้งานอยู่บนหน้า คุณสามารถเปลี่ยนตัวกรองบนโทรศัพท์ของคุณได้
 
 ในรายการรายงาน รายงานที่ปรับให้เหมาะสมแล้วจะมีไอคอนพิเศษ ![ไอคอนรายงานบนโทรศัพท์](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 

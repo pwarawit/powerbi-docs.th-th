@@ -20,10 +20,11 @@ ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: af93d9d49b25fe2bc8fefcc2128dea74effc65ec
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34723034"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service-apppowerbicom"></a>สมัครใช้งานรายงานและแดชบอร์ดในบริการ Power BI (app.powerbi.com)
 ไม่เคยที่จะเท่าทันแดชบอร์ดและรายงานที่สำคัญที่สุดของคุณอย่างนี้มาก่อน สมัครใช้งานหน้ารายงานและแดชบอร์ดที่สำคัญที่สุดคุณ และ Power BI จะส่งอีเมสแนปช็อตถึงคุณ คุณบอก Power BI ความถี่ที่คุณต้องการรับอีเมล จากวันละครั้งถึงหนึ่งครั้งต่อสัปดาห์ 

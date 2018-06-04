@@ -9,17 +9,18 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 ms.openlocfilehash: 31fcc0a8904aa28e32b7192c4d2b56a6f3913a94
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291661"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>กรองรายงานตามตำแหน่งที่ตั้งทางภูมิศาสตร์ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 ใช้ได้กับ:
 
-| ![iPhone](media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![มือถือ Android](media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](media/mobile-apps-geographic-filtering/android-tablet-logo-50-px.png) | ![แท็บเล็ต Android](media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
+| ![iPhone](media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![โทรศัพท์ Android](media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](media/mobile-apps-geographic-filtering/android-tablet-logo-50-px.png) | ![แท็บเล็ต Android](media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhones |iPads |มือถือ Android |แท็บเล็ต Android |มือถือ Windows 10 |
+| iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |มือถือ Windows 10 |
 
 เมื่อคุณดูที่รายงาน Power BI บนอุปกรณ์เคลื่อนที่ของคุณ คุณเห็นไอคอนรูปเข็มหมุดเล็ก ๆ ที่มุมบนขวาหรือไม่? ถ้าเป็นเช่นนั้น คุณสามารถกรองรายงานตามตำแหน่งที่ตั้งทางภูมิศาสตร์ของคุณ
 

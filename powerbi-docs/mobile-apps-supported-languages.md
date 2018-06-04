@@ -1,27 +1,20 @@
 ---
 title: ภาษาที่รองรับในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 description: ดูรายการภาษาที่รองรับในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 21cdf0492f4466ea337abb32b74ae0250dc0353d
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 593b83f5ffb868cda3548315ce3f4840fadf0ec2
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34292650"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>ภาษาที่รองรับในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 แอป Power BI สำหรับอุปกรณ์เคลื่อนที่รองรับภาษาเหล่านี้:
