@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 05/18/2018
 ms.author: mihart
-ms.openlocfilehash: 13a745e65f1166690ade4f0279e0374ed95f053b
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 8ff358b44697625c2971989ba562e3fd9a69afd8
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722896"
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>เปิดรายงานในบริการของ Power BI (app.powerbi.com)
 รายงานมีในบริการของ Power BI, Power BI Desktop, Power BI สำหรับอุปกรณ์เคลื่อนที่ และแม้แต่ Power BI แบบฝังตัว บทความนี้ใช้กับการเปิดรายงานใน***บริการของ Power BI***

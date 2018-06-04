@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 8b9fcf1c6121c4aeecfdf948b77493f1f2a7f825
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293639"
 ---
 # <a name="power-bi-archived-workspace"></a>พื้นที่ทำงานเก็บถาวรของ Power BI
 ทุกคนสามารถลงทะเบียนและเริ่มใช้ service ได้ในเพียงไม่กี่นาทีด้วย Power BI  จากนั้น แผนกไอทีขององค์กรของคุณสามารถเลือกควบคุมการจัดการ Power BI สำหรับผู้ใช้ในองค์กรของคุณ  ถ้าการควบคุมนี้เกิดขึ้น คุณจะได้รับประโยชน์จากการจัดการจากส่วนกลางของผู้ใช้และสิทธิ์ในองค์กรของคุณ และคุณยังสามารถใช้ประโยชน์จากการลงชื่อเข้าใช้แบบสตรีมไลน์โดยใช้ชื่อผู้ใช้และรหัสผ่านเดิมที่คุณใช้สำหรับ service อื่นๆในองค์กรของคุณ 

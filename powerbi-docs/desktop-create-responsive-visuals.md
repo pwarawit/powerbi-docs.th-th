@@ -1,35 +1,28 @@
 ---
 title: ปรับวิชวล Power BI ให้เหมาะสมกับทุกขนาด
 description: เรียนรู้วิธีการปรับวิชวลในรายงานที่มีอยู่ใน Power BI Desktop และบริการ Power BI สำหรับแอป Power BI บนมือถือให้เหมาะสม
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d80e96fbca893fee3ff03ef9021988f5a22bb2e7
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: a6e683318c00a800f69334f90ce3a71d74489030
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290533"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>ปรับวิชวล Power BI ให้เหมาะสมกับทุกขนาด
 โดยค่าเริ่มต้น เมื่อคุณสร้างรายงานใหม่ วิชวลเป็นแบบ*ตอบสนอง*: นั่นคือวิชวลจะสามารถเปลี่ยนแปลงเพื่อแสดงข้อมูลและข้อมูลเชิงลึกให้ได้มากที่สุด โดยไม่ขึ้นกับขนาดหน้าจอได้ สำหรับรายงานเก่า คุณสามารถตั้งค่าวิชวลเพื่อปรับขนาดให้ได้มากที่สุดเช่นกัน
 
-เมื่อวิชวลเปลี่ยนขนาด Power BI จัดลำดับความสำคัญมุมมองข้อมูล ตัวอย่างเช่น เอาช่องว่างภายในออก และการย้ายคำอธิบายแผนภูมิไปไว้ด้านบนของวิชวลโดยอัตโนมัติ เพื่อให้วิชวลยังคงให้ข้อมูลแม้ว่าจะมีขนาดเล็กลง การตอบสนอง จะมีประโยชน์โดยเฉพาะอย่างยิ่งในวิชวลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ บนมือถือ
+เมื่อเปลี่ยนขนาดภาพ Power BI ก็จะจัดลำดับความสำคัญมุมมองข้อมูล ตัวอย่างเช่น เอาช่องว่างภายในออก และย้ายคำอธิบายแผนภูมิไปไว้ด้านบนสุดของภาพโดยอัตโนมัติ เพื่อให้ภาพยังคงแสดงข้อมูลได้ แม้ว่าจะมีขนาดเล็กลงก็ตาม การตอบสนอง จะมีประโยชน์โดยเฉพาะอย่างยิ่งในวิชวลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ บนมือถือ
 
-![ตอบสนองต่อการปรับขนาดวิชวล](media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
+![การปรับขนาดภาพแบบตอบสนอง](media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
 
 วิชวลใดๆ ทั้งแกน X และแกน Y และตัวแบ่งส่วนข้อมูลสามารถตอบสนองตามที่ปรับขนาดได้เช่นกัน
 
@@ -57,6 +50,6 @@ ms.lasthandoff: 04/18/2018
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [สร้างรายงานที่ปรับให้เหมาะสมสำหรับแอปมือถือ Power BI](desktop-create-phone-report.md)
-* [ดูรายงาน Power BI ที่ปรับให้เหมาะสมกับมือถือของคุณ](mobile-apps-view-phone-report.md)
+* [ดูรายงาน Power BI ที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ](mobile-apps-view-phone-report.md)
 * คำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

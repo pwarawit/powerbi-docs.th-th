@@ -1,28 +1,21 @@
 ---
 title: ใส่ข้อมูลโดยตรงลงใน Power BI Desktop
 description: เพิ่มข้อมูลลงใน Power BI Desktop โดยตรงได้อย่างง่ายดาย
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 09dc9de858da04084204d68d6829f59500e9fa10
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 51889b066095f7f69782bc72556d816007e1574a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291108"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>ใส่ข้อมูลโดยตรงลงใน Power BI Desktop
 ด้วย Power BI Desktop คุณก็สามารถใส่ข้อมูลได้โดยตรง และใช้ข้อมูลนั้นในรายงานและการแสดงภาพของคุณ ตัวอย่างเช่น คุณสามารถคัดลอกเวิร์กบุ๊กหรือเว็บเพจบางส่วน จากนั้นวางลงใน Power BI Desktop
@@ -46,11 +39,11 @@ Power BI Desktop อาจพยายามทำการเปลี่ยน
 ตอนนี้คุณก็พร้อมที่จะใช้ข้อมูลนำเข้าจากเวิร์กบุ๊ก Excel ของคุณใน Power BI Desktop เพื่อสร้างภาพ รายงาน หรือโต้ตอบกับข้อมูลอื่น ๆ ที่คุณอาจต้องการเชื่อมต่อ และนำเข้า เช่น เวิร์กบุ๊ก Excel ฐานข้อมูล หรือแหล่งข้อมูลอื่น ๆ
 
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
-มีข้อมูลทุกประเภทที่คุณสามารถเชื่อมต่อโดยใช้ Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแหล่งข้อมูล โปรดดูแหล่งข้อมูลต่อไปนี้:
+มีข้อมูลหลากหลายประเภทที่คุณสามารถเชื่อมต่อโดยใช้ Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแหล่งข้อมูล โปรดดูทรัพยากรต่อไปนี้:
 
 * [เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
-* [จัดรูปร่าง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [จัดรูปทรงและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [เชื่อมต่อกับเวิร์กบุ๊ก Excel ใน Power BI Desktop](desktop-connect-excel.md)   
 * [เชื่อมต่อกับไฟล์ CSV ใน Power BI Desktop](desktop-connect-csv.md)   
 

@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
 ms.openlocfilehash: d6896686f89cc5b5eba1ec5f5e23d1e857da3c9c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34297641"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>รับข้อมูลจากโลกแห่งความจริงด้วยแอปโทรศัพท์เคลื่อนที่ Power BI
 แอปโทรศัพท์เคลื่อนที่ Power BI สามารถเชื่อมโลกแห่งความจริงเข้ากับข้อมูล BI ที่เกี่ยวข้องได้โดยตรงในหลายวิธีที่แตกต่างกัน 

@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 264dc3ee1daafd077a6e9a56f62eb86c6a3f528a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291385"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>มุมมองข้อมูลใน Power BI Desktop
 **มุมมองข้อมูล** ช่วยให้คุณตรวจสอบ สำรวจ และทำความเข้าใจข้อมูลในรูปแบบ Power BI Desktop ซึ่งจะแตกต่างจากวิธีที่คุณดูตาราง คอลัมน์ และข้อมูลใน**ตัวแก้ไขแบบสอบถาม** ด้วยมุมมองข้อมูล คุณกำลังดูข้อมูลของคุณ*หลังจาก*ที่โหลดเข้ามาในรูปแบบเรียบร้อยแล้ว

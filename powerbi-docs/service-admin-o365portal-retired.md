@@ -1,28 +1,21 @@
 ---
 title: Power BI สำหรับ Office 365 จะหยุดใช้งาน
 description: Power BI สำหรับ Office 365 จะหยุดใช้งาน เรียนรู้วิธีการใช้และจัดการ Power BI เวอร์ชั่นปัจจุบัน
-services: powerbi
-documentationcenter: ''
-author: davidiseminger
+author: mgblythe
 manager: kfile
-backup: amandacofsky
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: amandacofsky
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c83ae371153443f48fa6996e4024119ca3d94d04
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 024bdce00ba6ec7b9c1027163776a71e77aaf91d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34456122"
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>Power BI สำหรับ Office 365 จะหยุดใช้งาน
 Power BI สำหรับ Office 365, Power BI เวอร์ชันก่อนหน้าได้ถูกเปลี่ยนไปเป็น [Power BI](https://powerbi.microsoft.com) เวอร์ชันล่าสุด ผู้ใช้ที่เคยใช้ **Power BI สำหรับ Office 365** สามารถใช้ Power BI เวอร์ชันปัจจุบันได้ คุณสามารถ[เรียนรู้เพิ่มเติมเกี่ยวกับ Power BI](service-get-started.md)ได้

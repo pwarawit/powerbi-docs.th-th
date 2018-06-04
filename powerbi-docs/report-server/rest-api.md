@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: e77c77acb7808923097eb3e2146bef816eda51ee
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a1cbcc6d265504bc93ef6447a6be381ca6399063
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721765"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>พัฒนาเซิร์ฟเวอร์รายงาน Power BI ด้วย REST APIs
 เซิร์ฟเวอร์รายงาน Power BI สนับสนุน Representational State Transfer (REST) APIs REST API เป็นจุดบริการที่สนับสนุนการดำเนินงาน HTTP (วิธีการ) ซึ่งให้ สร้าง บริการ เรียก อัปเดต หรือลบทรัพยากรภายในเซิร์ฟเวอร์รายงาน
 
 REST API ให้เข้าโปรแกรมวัตถุในแค็ตตาล็อกของเซิร์ฟเวอร์รายงาน Power BI ตัวอย่างของวัตถุคือ แฟ้ม รายงาน KPIs แหล่งข้อมูล ชุดข้อมูล แผนการรีเฟรช การสมัครใช้งาน และอื่น ๆ เมื่อใช้ REST API คุณสามารถลำดับชั้นของแฟ้ม ค้นหาเนื้อหาของแฟ้ม หรือดาวน์โหลดคำนิยามรายงาน และอื่นๆ คุณสามารถสร้าง อัปเดต และลบวัตถุต่างๆ ได้อีกด้วย ตัวอย่างของการทำงานกับวัตถุคือการอัปโหลดรายงาน ดำเนินงานแผนการรีเฟรช ลบแฟ้มและอื่นๆ
+
+[!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
 ## <a name="components-of-a-rest-api-requestresponse"></a>ส่วนประกอบของคำขอ/คำตอบ REST API
 สามารถแยกคู่คำขอ/คำตอบ REST API เป็นส่วนประกอบได้ 5 ส่วน:

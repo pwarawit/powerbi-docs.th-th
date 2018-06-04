@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
 ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34288325"
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>รวมไทล์ลงในแอป (ผู้ใช้เป็นเจ้าของข้อมูล)
 เรียนรู้วิธีการรวมหรือฝังตัวไทล์ ลงในเว็บแอปโดยใช้การเรียก REST API ตลอดจน Power BI JavaScript API เมื่อต้องการฝังตัวสำหรับองค์กรของคุณ
@@ -40,7 +41,7 @@ ms.lasthandoff: 05/17/2018
 ![](media/integrate-tile/powerbi-embed-dashboard-register-app4.png)
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>ขั้นตอนที่ 2 - รับโทเค็นการเข้าถึงจาก Azure AD
-ภายในแอปพลิเคชันของคุณ คุณจะต้องรับ**โทเค็นการเข้าถึง**จาก Azure AD ก่อนที่คุณสามารถเรียกใช้ Power BI REST API ได้ สำหรับข้อมูลเพิ่มเติม ดู[รับรองความถูกต้องผู้ใช้ และรับโทเค็นการเข้าถึง Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md)
+ภายในแอปพลิเคชันของคุณ คุณจะต้องรับ**โทเค็นการเข้า**จาก Azure AD ก่อนที่คุณสามารถเรียกใช้ Power BI REST API ได้ สำหรับข้อมูลเพิ่มเติม ดู[รับรองความถูกต้องผู้ใช้ และรับโทเค็นการเข้าถึง Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md)
 
 ## <a name="step-3---get-a-tile"></a>ขั้นตอนที่ 3 - รับไทล์
 เพื่อรับไทล์ **Power BI** คุณใช้การดำเนินการ [รับไทล์](https://msdn.microsoft.com/library/mt465741.aspx) ที่รับรายการของไทล์ **Power BI** จากแดชบอร์ดที่ระบุ จากรายการของไทล์ คุณสามารถรับ รหัสไทล์ และ URL ที่ฝัง

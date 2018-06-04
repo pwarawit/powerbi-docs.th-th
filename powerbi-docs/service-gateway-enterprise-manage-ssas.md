@@ -11,10 +11,11 @@ ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34297158"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>จัดการแหล่งข้อมูลของคุณ - Analysis Services
 เมื่อคุณได้ติดตั้งเกตเวย์ข้อมูลในองค์กร คุณจะต้องเพิ่มแหล่งข้อมูลที่สามารถใช้กับเกตเวย์ บทความนี้จะดูที่วิธีการทำงานกับเกตเวย์และแหล่งข้อมูล คุณสามารถใช้แหล่งข้อมูล Analysis Services เพื่อการรีเฟรชตามกำหนดการ หรือใช้เพื่อการเชื่อมต่อสดก็ได้

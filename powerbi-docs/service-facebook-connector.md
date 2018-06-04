@@ -1,28 +1,21 @@
 ---
 title: 'บริการของบุคคลที่สาม: ตัวเชื่อมต่อ Facebook สำหรับ Power BI Desktop'
 description: 'บริการของบุคคลที่สาม: ตัวเชื่อมต่อ Facebook สำหรับ Power BI Desktop'
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 894791ddc4eb632ad4dc0ee55f19bbadad5e28d6
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6e33e1a27903cc3fbce5c3f504287fa96dbf8305
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34296629"
 ---
 # <a name="facebook-connector-for-power-bi-desktop"></a>ตัวเชื่อมต่อ Facebook สำหรับ Power BI Desktop
 ตัวเชื่อมต่อ Facebook ใน**Power BI Desktop**อาศัย Facebook Graph API ด้วยเหตุนี้ คุณลักษณะและความพร้อมใช้งานอาจแตกต่างกันเมื่อเวลาผ่านไป
