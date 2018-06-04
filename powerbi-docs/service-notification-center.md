@@ -12,10 +12,11 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: ca8b7ded6427f912933618ebdeaeeecea41b8681
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249950"
 ---
 # <a name="power-bi-notifications"></a>การแจ้งเตือน Power BI
 ศูนย์การแจ้งเตือนคือ ตัวดึงข้อมูลตามลำดับที่เกี่ยวข้องกับประสบการณ์การใช้งาน Power BI ของคุณ เปิดเพื่อดูข้อความเกี่ยวกับแดชบอร์ดใหม่ที่มีการแชร์กับคุณ การเปลี่ยนแปลงที่ดำเนินการกับพื้นที่กลุ่มของคุณ รายละเอียดเกี่ยวกับเหตุการณ์และการประชุมใน Power BI การแจ้งเตือนที่คุณได้ตั้งค่า และอื่น ๆ คุณสามารถเลือก[ตั้งค่าการแจ้งเตือนในบริการ Power BI](service-set-data-alerts.md)ได้ รวมถึงในแอปฯมือถือ Power BI ได้เช่นกัน
@@ -37,7 +38,7 @@ ms.lasthandoff: 05/17/2018
 4. เมื่อต้องการปิดการแจ้งเตือน เลือกไอคอน X
 
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
-* [แจ้งเตือนข้อมูลในบริการ Power BI](service-set-data-alerts.md)
+* [การแจ้งเตือนข้อมูลในบริการของ Power BI](service-set-data-alerts.md)
 * [สร้าง Microsoft Flow ที่เปิดใช้งานโดยข้อมูลการแจ้งเตือนของ Power BI](service-flow-integration.md)
 * [ตั้งค่าการแจ้งเตือนข้อมูลในแอปฯ iPhone (Power BI สำหรับ iOS)](mobile-set-data-alerts-in-the-mobile-apps.md)
 * [ตั้งค่าการแจ้งเตือนข้อมูลในแอปฯมือถือ Power BI สำหรับ Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
