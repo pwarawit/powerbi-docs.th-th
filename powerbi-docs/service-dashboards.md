@@ -11,10 +11,11 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 02a88f04d3c23746da702db043c1992267baf054
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34248688"
 ---
 # <a name="dashboards-in-power-bi-service"></a>แดชบอร์ดในบริการ Power BI
 
@@ -85,7 +86,7 @@ Power BI Pro จำเป็นสำหรับทั้งการแชร�
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [เริ่มต้นใช้งาน Power BI](service-get-started.md)  
 [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)  
-[Power BI Premium คืออะไร?](service-premium.md)  
+[Power BI Premium คืออะไร](service-premium.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

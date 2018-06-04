@@ -1,29 +1,21 @@
 ---
 title: คำถามที่พบบ่อยใน Power BI
 description: เรียกดูรายการของคำถามและคำตอบที่ถามบ่อย เกี่ยวกับ Power BI service, Power BI Desktop และแอปมือถือ Power BI
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 04/04/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 7f1c42d46568723706bcdd349790c963f204a33c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: e72e3bcca4254b957580775196d4919e88452773
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/22/2018
-ms.locfileid: "30083454"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34253104"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>คำถามที่ถามบ่อยเกี่ยวกับ Power BI
 * ถ้าคุณมีคำถามอื่น [ลองถามชุมชน Power BI](http://community.powerbi.com/)

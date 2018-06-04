@@ -11,10 +11,11 @@ ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251678"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>มุมมองการอ่านและมุมมองการแก้ไขในรายงานบริการ Power BI
 ในบริการ Power BI (ไม่ใช่ Power BI Desktop) จะมีสองโหมดสำหรับดู และโต้ตอบกับรายงานคือ มุมมองการอ่าน และมุมมองการแก้ไข มุมมองการอ่านจะพร้อมใช้งานสำหรับผู้ใช้ทั้งหมด และได้รับการออกแบบมาสำหรับ*ผู้ใช้*ข้อมูลโดยเฉพาะ ส่วนมุมมองการแก้ไขจะพร้อมใช้งานสำหรับ*ผู้สร้าง*และเจ้าของรายงานเท่านั้น
