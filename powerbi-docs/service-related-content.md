@@ -12,10 +12,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9aa0169f76515dd2f05a3e9debb8bc3d10cbdd07
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250157"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>ดูเนื้อหาที่เกี่ยวข้องในบริการ Power BI
 บานหน้าต่าง**เนื้อหาที่เกี่ยวข้อง**แสดงว่าเนื้อหาPower BI service แดชบอร์ด รายงาน และชุดข้อมูลของคุณเชื่อมต่อกันอย่างไร  และก็ดียิ่งขึ้น จากบานหน้าต่างนี้คุณสามารถดำเนินการงานทั่วไปเช่นการรีเฟรช เปลี่ยนชื่อ สร้างข้อมูลเชิงลึก และอื่น ๆ อีกมาก เลือกรายงานที่เกี่ยวข้องหรือแดชบอร์ด และจะเปิดในพื้นที่ทำงานของ Power BI ขึ้น   

@@ -11,10 +11,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 0e462fa6faf8d83bfcdb8658e2fcb852aeac5c3b
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34248918"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>จัดลำดับหน้าในรายงานในบริการ Power BI และ Power BI Desktop
 หลังจากที่คุณทำการเปลี่ยนแปลงไปยังรายงานใน Power BI คุณสามารถบันทึก บันทึก ด้วยชื่อใหม่ หรือเพียงแค่ปิดโดยไม่บันทึกการเปลี่ยนแปลงของคุณ เช่น คุณเปิดรายงาน สร้างภาพ และปักหมุดลงในแดชบอร์ดของคุณ ถ้าคุณปิดเดี๋ยวนี้โดยไม่บันทึกการเปลี่ยนแปลงของคุณ ไทล์จะยังคงดำรงอยู่บนแดชบอร์ด แต่การแสดงภาพไม่ถูกบันทึกในรายงาน เมื่อคุณคลิกที่ไทล์ในแดชบอร์ด รายงานเปิดขึ้น แต่การแสดงภาพไม่มีข้อมูลในรายงาน
@@ -36,9 +37,9 @@ ms.lasthandoff: 05/17/2018
     ![ตั้งชื่อรายงาน](media/service-report-save/power-bi-save-dialog.png)
 
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
-อ่านเพิ่มเติมเกี่ยวกับ[รายงานใน Power BI](service-reports.md)
+อ่านข้อมูลเพิ่มเติมเกี่ยวกับ[รายงานใน Power BI](service-reports.md)
 
-[Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
+[Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 
