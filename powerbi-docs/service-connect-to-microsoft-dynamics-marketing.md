@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ Microsoft Dynamics Marketing ด้วย Power BI
 description: Microsoft Dynamics Marketing สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 059f842dae35fa7a46094d0ade990df7514908d6
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 94b019f04fb6fabcad3092524fd2724015a6d8e1
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815288"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242201"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>เชื่อมต่อกับ Microsoft Dynamics Marketing ด้วย Power BI
 ชุดเนื้อหา Microsoft Dynamics Marketing สำหรับ Power BI ช่วยให้คุณสามารถเข้าใช้งานและวิเคราะห์ข้อมูลของคุณจาก Dynamics Marketing ได้อย่างง่ายดาย ชุดเนื้อหาดังกล่าวใช้แบบจำลองเชิงพรรณาที่ด้านบนสุดของตัวดึงข้อมูล OData โดยมีเอนทิตีและหน่วยวัดที่จำเป็นทั้งหมด เช่น โปรแกรม แคมเปญ รายชื่อติดต่อทางการตลาดและลูกค้าเป้าหมายของบริษัท การโต้ตอบกับลูกค้าเป้าหมายและการให้คะแนนลูกค้าเป้าหมาย ข้อความทางการตลาดที่ส่งผ่านอีเมล และเว็บไซต์ การสังเกตพฤติกรรม งบประมาณ ธุรกรรมทางการเงิน ประสิทธิภาพของ KPI และอื่น ๆ อีกมากมาย 

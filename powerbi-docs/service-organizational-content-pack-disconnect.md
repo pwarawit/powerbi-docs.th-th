@@ -1,29 +1,21 @@
 ---
 title: ตัดการเชื่อมต่อจากชุดเนื้อหาขององค์กร - Power BI
 description: อ่านเกี่ยวกับการลบการเชื่อมต่อกับชุดเนื้อหาขององค์กรโดยการลบชุดข้อมูลใน Power BI
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 97ffc337b98dd6a44e823e673b845852398c67d5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c0e7bddd23987377bfd8cf05bdfd1ab997e621ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815298"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247653"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>ลบการเชื่อมต่อของคุณกับชุดเนื้อหา Power BI ขององค์กร
 เพื่อนร่วมงานสร้างชุดเนื้อหาหนึ่งขึ้น คุณพบชุดเนื้อหานั้นใน AppSource และเพิ่มลงในพื้นที่ทำงาน Power BI ของคุณ ตอนนี้คุณไม่ต้องการชุดเนื้อหานั้นอีกต่อไป  คุณจะลบชุดเนื้อหานั้นได้อย่างไร?

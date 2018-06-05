@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับชุดเนื้อหา Microsoft Dynamics AX ด้วย Power BI
 description: ชุดเนื้อหา Microsoft Dynamics AX สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 09362afc3bc84b454db8a095edc5135f1b9955d8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2e84d52d9e26b23380b9fbc12fdaa4086a2ec7ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815278"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34239919"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>เชื่อมต่อกับชุดเนื้อหา Microsoft Dynamics AX ด้วย Power BI
 Microsoft Dynamics AX มีสามชุดเนื้อหา Power BI ที่วางเป้าหมายสำหรับผู้ใช้ทางธุรกิจที่แตกต่างกัน ชุดเนื้อหาสำหรับประสิทธิภาพการทำงานด้านการเงินออกแบบมาสำหรับ CFOs โดยเฉพาะ ส่งมอบเข้าใช้งานข้อมูลเชิงลึกเกี่ยวกับประสิทธิภาพการทำงานด้านการเงินขององค์กรของคุณ ชุดเนื้อหาประสิทธิภาพการทำงานแชนเนลร้านค้าปลีก มีเป้าหมายสำหรับผู้จัดการแชนเนลให้มุ่งเน้นที่ประสิทธิภาพการขายเพื่อพยากรณ์แนวโน้มและเปิดเผยข้อมูลเชิงลึก โดยวาดภาพได้โดยตรงจากข้อมูลร้านค้าปลีกและธุรกิจการค้า การจัดการต้นทุนได้รับการออกแบบมาสำหรับ COOs และ CFOs และให้รายละเอียดเกี่ยวกับประสิทธิภาพการดำเนินงาน

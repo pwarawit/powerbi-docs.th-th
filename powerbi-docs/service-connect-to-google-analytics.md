@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ Google Analytics ด้วย Power BI
 description: Google Analytics สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2e1f0d3fad5c556030ed5351793a95a86cfea977
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b479c46ffe3e51ad5f15cc9884a2ea02626a4cc5
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815378"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244641"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>เชื่อมต่อกับ Google Analytics ด้วย Power BI
 การเชื่อมต่อกับ Google Analytics ผ่าน Power BI เริ่มต้นโดยการเชื่อมต่อกับบัญชี Google Analytics ของคุณ คุณจะได้รับแดชบอร์ด Power BI และชุดของรายงาน Power BI ซึ่งจะให้ข้อมูลเชิงลึกเกี่ยวกับปริมาณการรับส่งข้อมูลและขนาดของผู้ใช้ในไซต์ของคุณ คุณสามารถโต้ตอบกับแดชบอร์ดและรายงานได้ แต่คุณไม่สามารถบันทึกการเปลี่ยนแปลงได้ ข้อมูลจะรีเฟรชโดยอัตโนมัติหนึ่งครั้งต่อวัน
@@ -77,7 +69,7 @@ ms.locfileid: "30815378"
 * จากไซต์ Power BI สนับสนุน (ตำแหน่งที่คุณกำลังอ่านบทความนี้), เลือก**ติดต่อฝ่ายสนับสนุน**ทางด้านขวาของหน้า
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [แอปฯ Power BI คืออะไร?](service-install-use-apps.md)
+* [แอปใน Power BI คืออะไร](service-install-use-apps.md)
 * [รับข้อมูลใน Power BI](service-get-data.md)
 * มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

@@ -1,30 +1,22 @@
 ---
 title: Power BI service - แนวคิดพื้นฐาน
 description: พื้นที่ทำงาน แดชบอร์ด รายงาน ชุดข้อมูล และเวิร์กบุ๊กของบริการ Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5898b0615aa18fdd4ea3df65d557587f94eb732d
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 7793b79ad26fdb0b01f3dc2a01be02c47047ce9c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/22/2018
-ms.locfileid: "30083246"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34253311"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - แนวคิดพื้นฐานสำหรับบริการ Power BI
 

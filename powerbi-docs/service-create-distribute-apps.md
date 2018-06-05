@@ -1,28 +1,20 @@
 ---
 title: สร้างและเผยแพร่แอปฯด้วยแดชบอร์ดและรายงานใน Power BI
 description: เรียนรู้วิธีการสร้างและเผยแพร่แอปฯ ซึ่งเป็นคอลเลกชันของแดชบอร์ดและรายงานที่สร้างขึ้นเพื่อนำเสนอเมตริกหลักสำหรับองค์กรของคุณ
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c2f2fcca7c1d915f94960824d32a5d4f18a978b6
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 6efd54d868a5a1f2d8d657d352c7133d4036b0b6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/08/2018
-ms.locfileid: "30816013"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34254843"
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>สร้างและเผยแพร่แอปฯด้วยแดชบอร์ดและรายงานใน Power BI
 

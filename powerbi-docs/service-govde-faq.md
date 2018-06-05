@@ -1,29 +1,21 @@
 ---
 title: ถามที่ถามบ่อยสำหรับ Power BI สำหรับลูกค้าภาครัฐประเทศเยอรมนี
 description: สำหรับลูกค้าภาครัฐประเทศเยอรมนี ตอบคำถามสำหรับคำถามทั่วไปเกี่ยวกับบริการ Power BI ของภาครัฐประเทศเยอรมนี
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 911e75cb0d9f81c2696575942a13531e5799218e
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 909d524416b04654dc6f511a71b675381ec74e3a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/30/2018
-ms.locfileid: "30274814"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310279"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>ถามที่ถามบ่อยสำหรับ Power BI สำหรับลูกค้าระบบคลาวด์ประเทศเยอรมนี
 **บริการ Power BI**มีเวอร์ชันที่พร้อมใช้งานสำหรับลูกค้าสหภาพยุโรป/ข้อตกลงการค้าเสรียุโรป/ยุโรป (EU/EFTA) มักจะอ้างอิงถึงเป็น Deutschland Microsoft Cloud (MCD) **บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้เป็นบริการเฉพาะสำหรับลูกค้า EU/EFTA และแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI** หรือบริการ Power BI ที่จัดหาสำหรับลูกค้าภาครัฐบาล
@@ -79,7 +71,7 @@ ms.locfileid: "30274814"
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
 มีหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI สำหรับข้อมูลและการเรียนรู้เพิ่มเติม รวมถึงบทความที่แสดงวิธีการลงทะเบียนใช้บริการ ให้ดูทรัพยากรต่อไปนี้
 
-* [Guided learning สำหรับ Power BI](guided-learning/gettingstarted.yml#step-1)
+* [Guided learning สำหรับ Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [เริ่มต้นใช้งาน Power BI service](service-get-started.md)
 * [เริ่มต้นใช้งานกับ Power BI Desktop](desktop-getting-started.md)
 

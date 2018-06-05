@@ -1,29 +1,21 @@
 ---
 title: บทนำชุดเนื้อหาองค์กรใน Power BI
 description: อ่านเกี่ยวกับการรวมชุดแดชบอร์ด รายงาน เวิร์กบุ๊ก Excel และชุดข้อมูลของคุณลงในชุดเนื้อหาองค์กรที่คุณสามารถแชร์กับเพื่อนร่วมงานของคุณได้
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 00ddec3dbf4087935a7c3583138dabb2a83f0ae5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f88ad90ddf0cd9315a3a3830a01b038d7300c1c9
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815333"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247331"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>บทนำชุดเนื้อหาองค์กรใน Power BI
 > [!NOTE]

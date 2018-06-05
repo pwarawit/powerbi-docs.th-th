@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ appFigures ด้วย Power BI
 description: appFigures สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 07b702d549100753149fa10b3017b31e394ab9b8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7990cdbc0741e80bf2cbb60431228ff6a1d41485
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815383"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34243833"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>เชื่อมต่อกับ appFigures ด้วย Power BI
 การติดตามสถิติที่สำคัญเกี่ยวกับแอปฯของคุณใช้งานได้ง่าย ด้วย Power BI และชุดเนื้อหา appFigures Power BI เรียกคืนข้อมูลของคุณ รวมถึงแอปฯการขาย ดาวน์โหลด และสถิติโฆษณา จากนั้นสร้างแดชบอร์ดค่าเริ่มต้นและรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลนั้น

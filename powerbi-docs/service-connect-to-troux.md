@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ Troux ด้วย Power BI
 description: Troux สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 701b35d317076827148ec523d38f0c23362aed47
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: dbf3831264a354ec96a38751dfa7a3719c5c9f2a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815828"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247952"
 ---
 # <a name="connect-to-troux-for-power-bi"></a>เชื่อมต่อกับ Troux สำหรับ Power BI
 ด้วยชุดข้อมูล Troux คุณสามารถแสดงที่จัดเก็บ Enterprise Architecture ของคุณด้วยวิธีใหม่ทั้งหมดโดยตรงใน Power BI ชุดเนื้อหานี้มีชุดของข้อมูลเชิงลึกเกี่ยวกับขีดความสามารถทางธุรกิจ รวมถึงแอปพลิเคชันที่นำเสนอขีดความสามารถเหล่านั้น และเทคโนโลยีที่สนับสนุนแอปพลิเคชันเหล่านั้นที่สามารถกำหนดเองได้เต็มรูปแบบโดยใช้ Power BI
