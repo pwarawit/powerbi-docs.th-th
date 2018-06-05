@@ -1,29 +1,21 @@
 ---
 title: ทำงานร่วมกันในพื้นที่ทำงานของกล่มุของแอป Power BI ของคุณ
 description: อ่านเกี่ยวกับการทำงานร่วมกันบนไฟล์ Power BI Desktop ในพื้นที่ทำงานของแอป และกับ Office 365 services เช่นการแชร์ไฟล์บน OneDrive สำหรับธุรกิจ การสนทนาใน Exchange ปฏิทิน และ tasks
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1837bc36ac4707663b5583699b0090ac9a692eb7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815408"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34245465"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>ทำงานร่วมกันในพื้นที่ทำงานของกล่มุของแอป Power BI ของคุณ
 แอปพื้นที่ทำงาน Power BI คือตำแหน่งที่ยอดเยี่ยมเพื่อทำงานร่วมกับเพื่อนร่วมงานของคุณบนแดชบอร์ด รายงาน และชุดข้อมูลเพื่อสร้าง*apps* นั่นคือพื้นที่ทำงานใดถูกออกแบบมาเพื่อ ทำงานร่วมกัน หลังจากคุณเสร็จสิ้นการทำงานร่วมกันบนแดชบอร์ดของคุณและรายงานกับเพื่อนร่วมงานแล้ว จากนั้นคุณจัดแพคเกจให้เป็นแอปและแจกจ่ายมัน อ่านเพิ่มเติมเกี่ยวกับ[การสร้างแอปและพื้นที่การทำงานของแอปใน Power BI](service-create-distribute-apps.md) 

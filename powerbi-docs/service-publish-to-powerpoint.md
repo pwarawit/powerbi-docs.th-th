@@ -1,29 +1,21 @@
 ---
 title: ส่งออกรายงานจาก Power BI ไปยัง PowerPoint (ตัวอย่าง)
 description: แสดงตัวอย่างส่งออกรายงาน Power BI ไปยัง PowerPoint
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/22/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Share your work
-ms.openlocfilehash: fccb8575ac6ce238f0d5fb8fe64d9c16efa96c07
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1d4b825cd7301af020f01de215e00968d21f972c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815903"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250019"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>ส่งออกรายงานจาก Power BI ไปยัง PowerPoint (ตัวอย่าง)
 ด้วย Power BI คุณสามารถเผยแพร่รายงานของคุณไปยัง**Microsoft PowerPoint**และสร้างชุดสไลด์ที่ยึดตามรายงาน Power BI ของคุณได้อย่างง่ายดายได้ เมื่อคุณ**ส่งออกไปยัง PowerPoint** สิ่งต่อไปนี้เกิดขึ้น
@@ -98,7 +90,7 @@ ms.locfileid: "30815903"
 * เวลาการ**ดาวน์โหลดใน**สไลด์ปกของไฟล์ PowerPoint ที่ถูกส่งออก ถูกตั้งค่าเป็นโซนเวลาของคอมพิวเตอร์ของคุณในเวลาของการส่งออก
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[วิเคราะห์ใน excel](service-analyze-in-excel.md)
+[วิเคราะห์ใน Excel](service-analyze-in-excel.md)
 
 [ข้อมูล Excel ใน Power BI](service-excel-workbook-files.md)
 

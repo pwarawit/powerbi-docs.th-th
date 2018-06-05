@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ ClickDimensions ด้วย Power BI
 description: ClickDimensions สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 35b6fd4c2594a29745fe307d804b3f0147d94e43
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9506ab48e48fe04e07de8dcb08ad5234d31045cf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815793"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242966"
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>เชื่อมต่อกับ ClickDimensions ด้วย Power BI
 แพคข้อมูล ClickDimensions สำหรับ Power BI ช่วยให้ผู้ใช้สามารถใช้ประโยชน์จากตลาดข้อมูล ClickDimensions ใน Power BI โดยให้ข้อมูลเชิงลึกแก่ทีมบริหาร เพื่อประสบความสำเร็จในการขายและการตลาด แสดงภาพและวิเคราะห์การโต้ตอบอีเมล การเยี่ยมชมเว็บ และการส่งฟอร์มในแดชบอร์ดและรายงาน Power BI

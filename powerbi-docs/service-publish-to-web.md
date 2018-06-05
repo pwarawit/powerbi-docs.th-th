@@ -1,29 +1,21 @@
 ---
 title: เผยแพร่บนเว็บจาก Power BI
 description: ด้วย Power BI เผยแพร่ไปยังเว็บ คุณสามารถฝังการแสดงภาพ Power BI แบบโต้ตอบแบบออนไลน์ เช่นโพสต์ในบล็อก เว็บไซต์ ผ่านทางอีเมลหรือ social media บนอุปกรณ์ใดก็ได้อย่างง่ายดาย
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 31e40efee8c4d67ec524212996ac6d7a8caf1852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: b85ffb97948976e25347039dfa4f81dda9f1ea7c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/03/2018
-ms.locfileid: "30816053"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34254866"
 ---
 # <a name="publish-to-web-from-power-bi"></a>เผยแพร่บนเว็บจาก Power BI
 
@@ -149,7 +141,7 @@ ms.locfileid: "30816053"
 
 ผู้ดูแลระบบ power BI สามารถเปิดหรือปิดใช้งานการเผยแพร่ไปยังฟีเจอร์ของเว็บ พวกเขายังอาจจำกัดการเข้าถึงกลุ่มทีเป็นแบบเฉพาะ ความสามารถสร้างโค้ดแบบฝังตัวได้เปลี่ยน โดยยึดตามการตั้งค่านี้
 
-|ฟีเจอร์ |เปิดใช้งานทั้งองค์กร |ปิดใช้งานทั้งองค์กร |กลุ่มความปลอดภัยเฉพาะ   |
+|ฟีเจอร์ |เปิดใช้งานทั้งองค์กร |เปิดใช้งานสำหรับทั้งองค์กร |กลุ่มความปลอดภัยเฉพาะ   |
 |---------|---------|---------|---------|
 |**เผยแพร่ไปยังเว็บ**ภายใต้เมนู**ไฟล์**ของรายงาน|เปิดใช้งานสำหรับทั้งหมด|ไม่แสดงทั้งหมด|ผู้ใช้หรือกลุ่มที่ได้รับอนุญาตเท่านั้นที่สามารถดูได้|
 |**จัดการโค้ดฝังตัว**ภายใต้**การตั้งค่า**|เปิดใช้งานสำหรับทั้งหมด|เปิดใช้งานสำหรับทั้งหมด|เปิดใช้งานสำหรับทั้งหมด<br><br>* **ลบ**ตัวเลือกสำหรับผู้ใช้หรือกลุ่มที่ได้รับอนุญาตเท่านั้น<br>* **รับรหัส**เปิดใช้งานสำหรับทั้งหมด|
