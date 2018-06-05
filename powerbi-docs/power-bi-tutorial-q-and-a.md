@@ -1,26 +1,20 @@
 ---
 title: บทช่วยสอน - การใช้ถามตอบบนแดชบอร์ด หรือในรายงาน
 description: บทช่วยสอนเกี่ยวกับวิธีการใช้ถามตอบใน Power BI เพื่อสร้างการแสดงภาพใหม่ บนแดชบอร์ดและรายงาน
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 44501e5447248164f6f04d4463213939975e18ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0e98c68e62f36114257052171e0928db25853f24
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815873"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34239499"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>บทช่วยสอน: วิธีการใช้ถามตอบเพื่อสร้างการแสดงภาพ และสร้างรายงาน
 [ภาพรวมถามตอบ](power-bi-q-and-a.md)ได้แนะนำคุณเกี่ยวกับ ถามตอบของ Power BI และเปรียบเทียบความแตกต่างระหว่าง*ผู้บริโภค* (มีแดชบอร์ดและรายงานที่แชร์ให้กับพวกเขา) และ*ผู้สร้าง* (เป็นเจ้าของรายงานและชุดข้อมูลพื้นฐาน) ส่วนแรกของบทช่วยสอนนี้ออกแบบสำหรับ ผู้บริโภคแดชบอร์ดที่ใช้บริการ Power BI และส่วนสองออกแบบมาสำหรับ ผู้ที่สร้างรายงานโดยใช้บริการของ Power BI หรือ Power BI Desktop เนื้อหา [ถามตอบ และ Power BI สำหรับอุปกรณ์เคลื่อนที่](mobile-apps-ios-qna.md) และ[ถามตอบ ด้วย Power BI Embedded](developer/qanda.md) ครอบคลุมในบทความต่างหาก

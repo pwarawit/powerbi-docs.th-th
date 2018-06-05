@@ -1,29 +1,21 @@
 ---
 title: เคล็ดลับและลูกเล่นสำหรับการถามคำถามด้วย ถามตอบใน Power BI
 description: เคล็ดลับและลูกเล่นสำหรับการถามคำถามด้วย ถามตอบใน Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 28ebd938b1121e1d2d453a9c9e72592b1c814742
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: 0165eb7161e9ba931c336300f73316d215b1c88d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/03/2018
-ms.locfileid: "30816043"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247081"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>เคล็ดลับสำหรับการถามคำถามใน ถามตอบ Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>คำและคำศัพท์ที่ถามตอบรู้จัก
