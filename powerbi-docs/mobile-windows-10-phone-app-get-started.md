@@ -1,28 +1,20 @@
 ---
 title: เริ่มใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
 description: แอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10 ช่วยให้คุณเข้าถึงข้อมูลทางธุรกิจของตนเองแบบผ่านทางอุปกรณ์เคลื่อนที่ระบบสัมผัสที่ทันสมัยบนแท็บเล็ตหรือโทรศัพท์
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 97fb3625848210f6222317cf3fc48eea305ef04d
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.openlocfilehash: 6cd1c8aec1bf31a8cae43074531014cbeef71bd5
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/08/2017
-ms.locfileid: "30972416"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295134"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>เริ่มใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
 แอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10 พร้อมให้คุณใช้งาน Power BI บนแท็บเล็ตหรือโทรศัพท์ ด้วยการเข้าถึงข้อมูลทางธุรกิจของคุณแบบผ่านทางอุปกรณ์เคลื่อนที่ระบบสัมผัสที่ทันสมัย ดูและโต้ตอบกับแดชบอร์ดบริษัทของคุณจากที่ใดก็ได้ &#151; บน[หน้าจอเริ่มต้นของ Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)
