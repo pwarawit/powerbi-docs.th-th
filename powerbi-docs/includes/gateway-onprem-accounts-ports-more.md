@@ -1,5 +1,5 @@
 ## <a name="sign-in-account"></a>ลงชื่อเข้าใช้บัญชี
-ผู้ใช้สามารถลงชื่อเข้าใช้ด้วยบัญชีทำงานหรือบัญชีโรงเรียน นี่คือบัญชีองค์กรของคุณ หากคุณลงชื่อสมัครใช้ข้อเสนอของ Office 365 และไม่ได้ใส่อีเมล์ที่ใช้ทำงานจริงของคุณ อาจส่งผลให้มีลักษณะคล้ายnancy@contoso.onmicrosoft.comได้ บัญชีของคุณได้รับจัดเก็บภายในบัญชีผู้เช่าใน Azure Active Directory (AAD) ในบริการคลาวด์ ในกรณีส่วนใหญ่ UPN ของบัญชี AAD จะตรงกับที่อยู่อีเมล
+ผู้ใช้สามารถลงชื่อเข้าใช้ด้วยบัญชีทำงานหรือบัญชีโรงเรียน นี่คือบัญชีองค์กรของคุณ หากคุณลงชื่อสมัครใช้ข้อเสนอของ Office 365 และไม่ได้ใส่อีเมลที่ใช้ทำงานจริงของคุณ อาจส่งผลให้มีลักษณะคล้ายnancy@contoso.onmicrosoft.comได้ บัญชีของคุณภายในบริการคลาวด์จะได้รับการจัดเก็บภายในบัญชีผู้เช่าใน Azure Active Directory (AAD) ในกรณีส่วนใหญ่ UPN ของบัญชี AAD จะตรงกับที่อยู่อีเมล
 
 ## <a name="windows-service-account"></a>บัญชีบริการ Windows
 เกตเวย์ข้อมูลแบบติดตั้งภายในองค์กรได้รับการกำหนดค่าให้ใช้*NT SERVICE\PBIEgwService*สำหรับข้อมูลประจำตัวการเข้าสู่ระบบบริการ Windows โดยค่าเริ่มต้นจะมีสิทธิ์ในการเข้าสู่ระบบเป็นบริการ ซึ่งอยู่ในบริบทของเครื่องที่คุณกำลังติดตั้งเกตเวย
@@ -29,10 +29,10 @@
 | --- | --- | --- |
 | *.download.microsoft.com |80 |HTTP ที่ใช้ในการดาวน์โหลดตัวติดตั้ง |
 | *.powerbi.com |443 |HTTPS |
-| * analysis.windows.net |443 |HTTPS |
+| *.analysis.windows.net |443 |HTTPS |
 | *.login.windows.net |443 |HTTPS |
-| * servicebus.windows.net |5671-5672 |Advanced Message Queuing Protocol (AMQP) |
-| * servicebus.windows.net |443, 9350-9354 |Listeners บน Service Bus Relay เหนือ TCP (ต้องใช้ 443 สำหรับการควบรวมโทเค็น Access Control) |
+| *.servicebus.windows.net |5671-5672 |Advanced Message Queuing Protocol (AMQP) |
+| *.servicebus.windows.net |443, 9350-9354 |ตัวรอรับการติดต่อ บน Service Bus Relay บน TCP (ต้องใช้ 443 สำหรับการรับโทเค็นควบคุมการเข้าถึง) |
 | *.frontend.clouddatahub.net |443 |HTTPS |
 | *.core.windows.net |443 |HTTPS |
 | login.microsoftonline.com |443 |HTTPS |

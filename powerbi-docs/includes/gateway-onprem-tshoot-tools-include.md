@@ -26,7 +26,7 @@
 <a name="fiddler" />
 
 ### <a name="fiddler-trace"></a>ติดตาม Fiddler
-[Fiddler](http://www.telerik.com/fiddler)เป็นเครื่องมือแบบไม่เสียค่าใช้จ่ายจาก Telerik ที่ใช้ตรวจดูการรับส่งข้อมูลของ HTTP  คุณสามารถดูด้านหลังและข้างหน้าด้วยบริการ Power BI จากเครื่องไคลเอ็นต์ ซึ่งอาจจะแสดงข้อผิดพลาดและข้อมูลอื่นๆที่เกี่ยวข้อง
+[Fiddler](http://www.telerik.com/fiddler)เป็นเครื่องมือแบบไม่เสียค่าใช้จ่ายจาก Telerik ที่ใช้ตรวจดูการรับส่งข้อมูลของ HTTP  คุณสามารถดูกลับไปกลับมาได้ด้วยบริการ Power BI จากเครื่องลูกค้า ซึ่งอาจจะแสดงข้อผิดพลาดและข้อมูลอื่นๆที่เกี่ยวข้อง
 
 ![](media/gateway-onprem-tshoot-tools-include/fiddler.png)
 

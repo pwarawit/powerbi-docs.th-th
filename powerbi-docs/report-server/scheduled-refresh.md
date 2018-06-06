@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: fceeda7a135d097c3269c25e25fde0c8cd639767
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1e29898ed2c72b3a28bc2fd90dd430e45b5cde03
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296905"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799544"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>รายงาน Power BI รีเฟรชตามกำหนดการในเซิร์ฟเวอร์รายงาน Power BI
 การรีเฟรชตามกำหนดการสำหรับรายงาน Power BI จะช่วยให้ข้อมูลสำหรับรายงานได้รับการอัปเดตอยู่เสมอ
@@ -59,10 +59,7 @@ ms.locfileid: "34296905"
 
 สำหรับข้อมูลเกี่ยวกับวิธีการตรวจสอบอินสแตนซ์ Analysis Services ดูที่[ตรวจสอบอินสแตนซ์ Analysis Services](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance)
 
-สำหรับข้อมูลเกี่ยวกับการตั้งค่าหน่วยความจำภายใน Analysis Services ดูที่[คุณสมบัติหน่วยความจำ](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)
-
-### <a name="authentication-and-kerberos"></a>การรับรองความถูกต้องและ Kerberos
-ถ้าแหล่งข้อมูลของคุณได้รับการตั้งค่าให้ใช้ข้อมูลประจำตัวของ Windows อาจมีการกำหนดการมอบสอทธิ์ที่จำกัดของ Kerberos เพื่อให้สามารถทำงานได้ สำหรับข้อมูลเพิ่มเติม ดูที่[กำหนดค่าการรับรองความถูกต้องของ Windows บนเซิร์ฟเวอร์รายงาน](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)
+สำหรับข้อมูลเกี่ยวกับการตั้งค่าหน่วยความจำภายใน Analysis Services ดู[คุณสมบัติหน่วยความจำ](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 กำหนดค่า[การรีเฟรชตามกำหนดการ](configure-scheduled-refresh.md)ในรายงาน Power BI
