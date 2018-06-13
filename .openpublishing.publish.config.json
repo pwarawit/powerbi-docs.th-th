@@ -23,7 +23,6 @@
   "notification_subscribers": [],
   "branches_to_filter": [
     "live",
-    "live-sxs",
     "master-sxs"
   ],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/powerbi-docs.th-th",
@@ -31,7 +30,9 @@
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
-  "contribution_branch_mappings": {},
+  "contribution_branch_mappings": {
+      "live-sxs": "live"
+  },
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
