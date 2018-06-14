@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: e5866b249d95cd3b05c7d769fe0cdbab984a978d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a41acec10e2801d046185d34c64e4d51b5e9dae0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289935"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813100"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>ส่งข้อมูลไปยังชุดข้อมูลรายการรหัสที่สร็จสมบูรณ์
 บทความนี้เป็นส่วนหนึ่งของคำแนะนำทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
@@ -228,7 +228,7 @@ ms.locfileid: "34289935"
 [สร้างชุดข้อมูลใน Power BI](walkthrough-push-data-create-dataset.md)  
 [รับชุดข้อมูลเพื่อเพิ่มแถวลงในตาราง Power BI](walkthrough-push-data-get-datasets.md)  
 [เพิ่มแถวลงในตาราง Power BI](walkthrough-push-data-add-rows.md)  
-[การอ้างอิง Power BI REST API](https://msdn.microsoft.com/library/mt147898.aspx)  
+[การอ้างอิง Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
 [ภาพรวมของ Power BI REST API](overview-of-power-bi-rest-api.md)  
 
 

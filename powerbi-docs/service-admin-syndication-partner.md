@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 39f40c4b8aaf53e81f15c1ad29d1d8425f017468
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
+ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294297"
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250326"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>ไม่สามารถเพิ่ม Power BI กับ Office 365 ที่สมัครผ่านคู่ค้า
 Office 365 อนุญาตให้บริษัทสามารถขายต่อ Office 365 โดยรวมเข้ากับโซลูชันของพวกเขาเอง และให้ลูกค้าปลายทาง มีที่ติดต่อเดียว สำหรับการจัดซื้อ การเรียกเก็บเงิน และการสนับสนุน
@@ -59,10 +59,6 @@ Office 365 อนุญาตให้บริษัทสามารถขา
 
 * คู่ค้าของคุณตกลงที่จะเพิ่ม Power BI ลงในรายการผลิตภัฑณฑ์ของพวกเขาเพื่อให้คุณสามารถซื้อจากพวกเขาได้
 * คู่ค้าของคุณสามารถเปลี่ยนรูปแบบของคุณให้สามารถซื้อ Power BI โดยตรงจาก Microsoft หรือคู่ค้าอื่นที่มี Power BI ได้
-
-วิดีโอนี้ อธิบายรูปแบบ syndication ของ Office 365 และการซื้อ Power BI:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C357phT94A8" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [จัดการ Azure AD ด้วย Windows PowerShell](https://technet.microsoft.com/library/jj151815.aspx)  
