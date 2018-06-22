@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289912"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>ใช้ DirectQuery ใน Power BI Desktop
 ด้วย **Power BI Desktop** เมื่อคุณเชื่อมต่อกับแหล่งข้อมูลของคุณ คุณสามารถนำเข้าสำเนาของข้อมูลลงใน **Power BI Desktop** ได้ สำหรับบางแหล่งข้อมูล คุณสามารถเลือกวิธีการอื่นได้: เชื่อมต่อโดยตรงกับแหล่งข้อมูลโดยใช้ **DirectQuery**
