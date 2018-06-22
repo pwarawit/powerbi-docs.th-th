@@ -14,6 +14,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34296280"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>วิธีการกำหนดค่าการรีเฟรชตามกำหนดเวลา ของรายงาน Power BI
 เมื่อต้องการรีเฟรชข้อมูลในรายงาน Power BI ของคุณ แผนการรีเฟรชตามกำหนดเวลาต้องถูกสร้างขึ้น ซึ่งสามารถทำได้ภายในการบริเวณ *จัดการ* ของรายงาน Power BI
