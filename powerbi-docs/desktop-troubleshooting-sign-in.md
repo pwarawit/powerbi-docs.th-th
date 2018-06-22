@@ -15,6 +15,7 @@ ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34226724"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>การแก้ไขปัญหาการลงชื่อเข้าใช้ใน Power BI Desktop
 อาจมีเวลาเมื่อคุณพยายามลงชื่อเข้าใช้ **Power BI Desktop** แต่ต้องเผชิญกับพบข้อผิดพลาด ปัญหาในการลงชื่อเข้าใช้มีสาเหตุหลักสองข้อ: **ข้อผิดพลาดการรับรองความถูกต้องของพร็อกซี** และ **ข้อผิดพลาดในการเปลี่ยนเส้นทาง Non-HTTPS URL** 

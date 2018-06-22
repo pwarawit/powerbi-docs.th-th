@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290671"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>งานคิวรีที่ใช้บ่อยใน Power BI Desktop
 เมื่อทำงานในหน้าต่าง **ตัวแก้ไขคิวรี** ของ Power BI Desktop มีงานอยู่ไม่กี่อย่างที่ใช้งานบ่อย ๆ เอกสารนี้ สาธิตงานที่ใช้บ่อยเหล่านั้น และมีลิงก์ให้สำหรับข้อมูลเพิ่มเติม 

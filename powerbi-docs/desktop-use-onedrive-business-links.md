@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290717"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>ใช้ลิงก์ OneDrive for Business ใน Power BI Desktop
 หลายคนมีเวิร์กบุ๊ก Excel ที่จัดเก็บบนไดรฟ์ OneDrive for Business ที่จะเหมาะสำหรับใช้งานกับ Power BI Desktop ด้วย **Power BI Desktop** คุณสามารถใช้การเชื่อมโยงออนไลน์สำหรับไฟล์ **Excel** ที่จัดเก็บใน **OneDrive for Business** เพื่อสร้างรายงานและวิชวลได้ คุณสามารถใช้บัญชีผู้ใช้กลุ่ม **OneDrive for Business** หรือบัญชีผู้ใช้บุคคล **OneDrive for Business** ของคุณก็ได้
