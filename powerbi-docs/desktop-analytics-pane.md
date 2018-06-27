@@ -11,10 +11,10 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 817e01f83904a8481fa1d0915f671c6761247795
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34287681"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>การใช้บานหน้าต่างการวิเคราะห์ใน Power BI Desktop
@@ -31,7 +31,7 @@ ms.locfileid: "34287681"
 ![](media/desktop-analytics-pane/analytics-pane_1b.png)
 
 ## <a name="using-the-analytics-pane"></a>การใช้บานหน้าต่างการวิเคราะห์
-ด้วยบานหน้าต่าง**การวิเคราะห์** คุณสามารถสร้าง สายการอ้างอิงแบบไดนามิก (เส้นที่มีให้เลือก ขึ้นอยู่กับชนิดของวิชวล) ชนิดต่าง ๆ ต่อไปนี้:
+ด้วยบานหน้าต่าง**การวิเคราะห์** คุณสามารถสร้างสายการอ้างอิงแบบไดนามิกชนิดต่าง ๆ ต่อไปนี้ (สายการอ้างอิงที่มีให้เลือก ขึ้นอยู่กับชนิดของวิชวล):
 
 * เส้นคงที่แกน X
 * เส้นคงที่แกน Y
@@ -77,7 +77,7 @@ ms.locfileid: "34287681"
 ![](media/desktop-analytics-pane/analytics-pane_8.png)
 
 ## <a name="limitations"></a>ข้อจำกัด
-ความสามารถในการใช้สายการอ้างอิงแบบไดนามิก จะขึ้นกับชนิดของวิชวลที่ใช้ รายการต่อไปนี้แสดงสายการอ้างอิงแบบไดนามิกแบบไหนที่มีสำหรับวิชวลชนิดใด:
+ความสามารถในการใช้สายการอ้างอิงแบบไดนามิก จะขึ้นกับชนิดของวิชวลที่ใช้ รายการต่อไปนี้แสดงว่า สายการอ้างอิงแบบไดนามิกแบบไหนที่มีสำหรับวิชวลชนิดใด:
 
 สายการอ้างอิงแบบไดนามิก สามารถใช้กับวิชวลต่อไปนี้ได้เต็มรูปแบบ:
 
@@ -110,7 +110,7 @@ ms.locfileid: "34287681"
 เส้นเปอร์เซ็นต์ไทล์ มีใช้งานเฉพาะเมื่อใช้ข้อมูลที่นำเข้าใน **Power BI Desktop** หรือเมื่อเชื่อมต่อสดไปยังรูปแบบเซิร์ฟเวอร์ที่ติดตั้ง **Analysis Service 2016** หรือใหม่กว่า, **Azure Analysis Services** หรือชุดข้อมูลบนบริการของ Power BI 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-มีหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับความความสามารถของกรุณาตรวจดูทรัพยากรต่อไปนี้
+มีมากมายหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับความความสามารถของกรุณาตรวจดูทรัพยากรต่อไปนี้
 
 * [มีอะไรใหม่ใน Power BI Desktop](desktop-latest-update.md)
 * [ดาวน์โหลด Power BI Desktop](desktop-get-the-desktop.md)
@@ -118,5 +118,5 @@ ms.locfileid: "34287681"
 * [ภาพรวมคิวรี ด้วย Power BI Desktop](desktop-query-overview.md)
 * [ชนิดข้อมูลใน Power BI Desktop](desktop-data-types.md)
 * [จัดรูปทรง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
-* [งานคิวรีที่ใช้บ่อยใน Power BI Desktop](desktop-common-query-tasks.md)    
+* [งานคิวรี่ที่ใช้บ่อยใน Power BI Desktop](desktop-common-query-tasks.md)    
 

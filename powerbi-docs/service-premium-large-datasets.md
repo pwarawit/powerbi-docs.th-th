@@ -11,10 +11,10 @@ ms.date: 02/27/2018
 ms.author: jocaplan
 LocalizationGroup: Premium
 ms.openlocfilehash: fa05fd6808ebe78d5d17e2ad3d93fbcf22f7d3c9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34298607"
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>Power BI Premium รองรับชุดข้อมูลขนาดใหญ่
@@ -53,4 +53,4 @@ Power BI Premium รองรับการอัปโหลดไฟล์ช
 [เอกสารทางเทคนิคเรื่องการวางแผนการใช้ Power BI สำหรับองค์กร](https://aka.ms/pbienterprisedeploy)  
 [เปิดใช้งานเวอร์ชันทดลองใช้ Extended Pro ](service-extended-pro-trial.md)  
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

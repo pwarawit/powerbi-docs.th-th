@@ -11,10 +11,10 @@ ms.date: 07/18/2017
 ms.author: maghan
 LocalizationGroup: Get started
 ms.openlocfilehash: c38b94b278bf0e2fe308e3249b27acf8ed7e7837
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34247998"
 ---
 # <a name="extended-pro-trial-activation"></a>การเปิดใช้งานรุ่นทดลองใช้ Pro ถูกขยายเวลา
@@ -105,7 +105,7 @@ ms.locfileid: "34247998"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [ข้อกำหนดในการให้บริการ Extended Pro Trial](https://aka.ms/power-bi-trial)  
 [ข้อตกลงการให้บริการ Power BI สำหรับแต่ละผู้ใช้](https://powerbi.microsoft.com/terms-of-service/)  
-[ประกาศ Power BI Premium ](https://aka.ms/pbipremium-announcement)  
+[ประกาศ Power BI Premium](https://aka.ms/pbipremium-announcement)  
 [ค้นหาผู้ใช้ Power BI ที่มีการลงชื่อเข้าใช้](service-admin-access-usage.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

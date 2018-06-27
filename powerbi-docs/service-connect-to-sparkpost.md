@@ -11,10 +11,10 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6f914a031c70c68703116083f42885e2fe79cf30
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34247906"
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>เชื่อมต่อกับ SparkPost ด้วย Power BI
@@ -23,7 +23,7 @@ ms.locfileid: "34247906"
 เชื่อมต่อไปยัง[ชุดเนื้อหา SparkPost สำหรับ Power BI](https://app.powerbi.com/getdata/services/spark-post)
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
-1. เลือก**รับข้อมูล**ที่ด้านล่างของบานหน้าต่างนำทางด้านซ้าย
+1. เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ
    
    ![](media/service-connect-to-sparkpost/getdata.png)
 2. ในกล่อง**บริการ** เลือก**รับ**
@@ -39,11 +39,11 @@ ms.locfileid: "34247906"
    
    ![](media/service-connect-to-sparkpost/dashboard.png)
 
-**ฉันต้องทำอะไรต่อ?**
+**ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่องถามตอบ](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานพื้นฐาน
+* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
 * ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
 
 ## <a name="whats-included"></a>มีอะไรรวมอยู่บ้าง

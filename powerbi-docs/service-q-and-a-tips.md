@@ -11,10 +11,10 @@ ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 0165eb7161e9ba931c336300f73316d215b1c88d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34247081"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>เคล็ดลับสำหรับการถามคำถามใน ถามตอบ Power BI
@@ -92,9 +92,9 @@ ms.locfileid: "34247081"
 หลังจากที่ถามตอบแสดงผลลัพธ์ของคุณแล้ว ดำเนินการสนทนาต่อไป ใช้คุณลักษณะที่โต้ตอบของการแสดงภาพ และถามตอบเพื่อเปิดเผยข้อมูลเชิงลึกเพิ่มเติม
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-กลับไปยัง [Q&A ใน Power BI](power-bi-q-and-a.md)  
+[กลับไปยัง Q&A ใน Power BI](power-bi-q-and-a.md)  
 
 [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

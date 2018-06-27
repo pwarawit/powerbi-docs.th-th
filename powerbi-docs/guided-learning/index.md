@@ -3,10 +3,10 @@ title: การเรียนรู้ Microsoft Power BI พร้อมค�
 description: เริ่มการเรียนรู้ของคุณด้วยคอลเลกชันหลักสูตรที่เป็นลำดับนี้ และทำความเข้าใจความสามารถที่กว้างขวางและมีประสิทธิภาพของ Microsoft Power BI
 layout: LandingPage
 ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34310164"
 ---
 <div id="main" class="v2">

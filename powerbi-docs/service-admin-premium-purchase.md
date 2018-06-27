@@ -11,10 +11,10 @@ ms.date: 10/17/2017
 ms.author: mblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 2789f2e3e8198ddc0363fb07488f5fe8f39441a6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34297388"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>วิธีการซื้อ Power BI Premium
@@ -43,7 +43,7 @@ ms.locfileid: "34297388"
 
 เพื่อซื้อความจุพรีเมียม คุณจะต้องทำสิ่งต่อไปนี้
 
-1. จากภายใน Power BI service เลือก**ตัวเลือกแอป Office 365** > **ผู้ดูแลระบบ** อีกวิธีหนึ่งคือ คุณสามารถเรียกดูศูนย์การจัดการ Office 365 คุณสามารถไปที่นั่นได้ โดยไปท ี่https://portal.office.com และเลือก**ผู้ดูแลระบบ**
+1. จากภายใน Power BI service เลือก**ตัวเลือกแอป Office 365** > **ผู้ดูแลระบบ** อีกวิธีหนึ่งคือ คุณสามารถเรียกดูศูนย์การจัดการ Office 365 คุณสามารถไปที่นั่นได้ โดยไปที่https://portal.office.comและเลือก**ผู้ดูแลระบบ**
    
     ![](media/service-admin-premium-purchase/o365-app-picker.png)
 2. เลือก**การเรียกเก็บเงิน** > **ซื้อบริการ**
