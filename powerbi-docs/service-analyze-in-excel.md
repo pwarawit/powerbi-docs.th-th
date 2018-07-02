@@ -1,28 +1,21 @@
 ---
 title: วิเคราะห์ใน Excel
 description: เรียนรู้เกี่ยวกับวิธีการวิเคราะห์ชุดข้อมูล Power BI ใน Excel
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 02/05/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 03/22/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 385a89d6b50507833c1e43327c405f02b2468ac2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f11493fac87643145dab168e23a1fb8e7b7a6e4e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34239640"
 ---
 # <a name="analyze-in-excel"></a>วิเคราะห์ใน Excel
 มีบางครั้งที่คุณอาจต้องการใช้ Excel เพื่อดูและโต้ตอบกับชุดข้อมูลที่คุณมีใน Power BI ด้วย**วิเคราะห์ใน Excel** คุณสามารถดำเนินการดังกล่าวได้ และสามารถเข้าใช้งานคุณลักษณะ PivotTable แผนภูมิ และตัวแบ่งส่วนข้อมูลใน Excel ที่ยึดตามชุดข้อมูลที่มีอยู่ใน Power BI ได้
@@ -105,3 +98,5 @@ ms.lasthandoff: 02/24/2018
 
 เนื่องจากผู้ใช้จะต้องรีเฟรชชุดข้อมูลนั้น และการรีเฟรชสำหรับการเชื่อมต่อภายนอกไม่สนับสนุนใน Excel Online ขอแนะนำให้ผู้ใช้เปิดสมุดงานใน Excel เวอร์ชันเดสก์ท็อปบนคอมพิวเตอร์ของผู้ใช้งาน
 
+## <a name="troubleshooting"></a>การแก้ไขปัญหา
+อาจมีบางครั้งที่เมื่อคุณใช้การวิเคราะห์ใน Excel คุณได้รับผลลัพธ์ที่ไม่คาดคิดหรือลักษณะการทำงานไม่ทำงานตามที่คุณคาดไว้ [หน้านี้มีโซลูชันสำหรับปัญหาที่พบบ่อยเมื่อใช้การวิเคราะห์ใน Excel](desktop-troubleshooting-analyze-in-excel.md)

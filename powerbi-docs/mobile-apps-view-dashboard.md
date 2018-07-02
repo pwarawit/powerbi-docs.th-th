@@ -1,27 +1,20 @@
 ---
 title: ดูแดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 description: สร้างหรือเชื่อมต่อกับแดชบอร์ดและรายงานในบริการของ Power BI จากนั้น ดูข้อมูลได้ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 07/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/16/2018
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295888"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>ดูแดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -37,8 +30,8 @@ ms.lasthandoff: 01/17/2018
 
 เมื่อต้องการดูแดชบอร์ดและรายงานบนอุปกรณ์เคลื่อนที่ของคุณ คุณจำเป็นต้องสร้างหรือเชื่อมต่อกับรายการเหล่านั้นในเว็บเบราว์เซอร์ 
 
-1. ไปยังบริการของ Power BI ([https://www.powerbi.com](https://www.powerbi.com)) และ[ลงชื่อเข้าใช้บัญชี](service-self-service-signup-for-power-bi.md)
-2. [สร้างแดชบอร์ดและรายงาน Power BI ของคุณ](service-get-started.md)หรือเชื่อมต่อกับ[แอป Power BI](service-connect-to-services.md)ที่มีอยู่สำหรับบริการที่หลากหลาย เช่น[Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md)และ[Adobe Analyics ](service-connect-to-adobe-analytics.md)
+1. ไปยังบริการของ Power BI ([https://www.powerbi.com](https://www.powerbi.com)) และ[ลงทะเบียนสำหรับบัญชีผู้ใช้](service-self-service-signup-for-power-bi.md)
+2. [สร้างแดชบอร์ดและรายงาน Power BI ของคุณเอง](service-get-started.md) หรือเชื่อมต่อกับ[แอป Power BI](service-connect-to-services.md) ที่มีอยู่สำหรับบริการที่หลากหลาย เช่น [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) และ [Adobe Analytics](service-connect-to-adobe-analytics.md)
 
 ที่นี่ คุณสามารถเปิดแดชบอร์ดในบริการของ Power BI
 
@@ -115,31 +108,21 @@ ms.lasthandoff: 01/17/2018
    
    ![หน้าแรกของแดชบอร์ด](media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
-     -     ดาวสีเหลือง ![ดาวรายการโปรด](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) แสดงแดชบอร์ดที่เป็นรายการโปรด 
+    ดาวสีเหลือง ![ดาวรายการโปรด](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) แสดงแดชบอร์ดที่เป็นรายการโปรด 
 
-     -     เครื่องหมายด้านล่างแต่ละชื่อของแดชบอร์ด (ในกรณีนี้ "MBI") ![จัดประเภทข้อมูล](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)แสดงวิธีการจัดประเภทข้อมูลในแต่ละแดชบอร์ด อ่านเพิ่มเติมเกี่ยวกับ[การจัดประเภทข้อมูลใน Power BI](service-data-classification.md)
-
+    เครื่องหมายด้านล่างแต่ละชื่อของแดชบอร์ด (ในกรณีนี้ "MBI") ![จัดประเภทข้อมูล](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)แสดงวิธีการจัดประเภทข้อมูลในแต่ละแดชบอร์ด อ่านเพิ่มเติมเกี่ยวกับ[การจัดประเภทข้อมูลใน Power BI](service-data-classification.md)
 
     แดชบอร์ด Power BI จะมีลักษณะแตกต่างกันเล็กน้อยบน Android ของคุณ ไทล์ทั้งหมดจะปรากฏในขนาดเท่ากัน และถูกจัดเรียงทีละอันจากบนลงล่าง
 
     ![มุมมองแดชบอร์ดแนวตั้ง](media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-     หรือเพียงแค่หมุนโทรศัพท์ของคุณมาด้านข้าง คุณจะเห็นแดชบอร์ดในโหมดแนวนอนบนโทรศัพท์
-
-    > [AZURE.TIP] ถ้าคุณเป็นเจ้าของแดชบอร์ด ในบริการของ Power BI คุณจะสามารถ[สร้างมุมมองแดชบอร์ดสำหรับโทรศัพท์](service-create-dashboard-mobile-phone-view.md)ในโหมดแนวตั้งได้ 
+    ถ้าคุณเป็นเจ้าของแดชบอร์ด ในบริการของ Power BI คุณจะสามารถ[สร้างมุมมองแดชบอร์ดสำหรับโทรศัพท์](service-create-dashboard-mobile-phone-view.md)ในโหมดแนวตั้งได้ 
 
 1. ในขณะที่อยู่บนแดชบอร์ด คุณสามารถแตะจุดไข่ปลาแนวตั้ง (...) ถัดจากชื่อที่ใช้เชิญเพื่อนร่วมงาน รีเฟรช หรือรับข้อมูลเกี่ยวกับแดชบอร์ด:
    
    ![เมนูจุดไข่ปลา](media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. ปัดขึ้นหรือลงเพื่อดู[ไทล์ทั้งหมดในแดชบอร์ด](mobile-tiles-in-the-mobile-apps.md) 
 3. เมื่อต้องการย้อนกลับไปยังหน้าแรกของแดชบอร์ด แตะชื่อแดชบอร์ดเพื่อเปิดบันทึกการแสดงเส้นทาง จากนั้นแตะ**พื้นที่ทำงานของฉัน**   
-
-### <a name="view-dashboards-in-landscape-mode-on-your-android-phone"></a>มองแดชบอร์ดในโหมดแนวนอนบนโทรศัพท์ Android ของคุณ
-คุณยังสามารถดูแดชบอร์ดในโหมดแนวนอน โดยการเปิดใช้งานโทรศัพท์ของคุณ เค้าโครงแดชบอร์ดจะเปลี่ยนแปลงจากชุดของไทล์เป็นมุมมองแดชบอร์ดทั้งหมด &#151;คุณจะเห็นไทล์ของแดชบอร์ดทั้งหมดวางอยู่เหมือนกับที่ไทล์เหล่านี้วางอยู่ในบริการของ Power BI
-
-![แดชบอร์ดแนวนอน](media/mobile-apps-view-dashboard/power-bi-android-landscape-dashboard.png)
-
-คุณสามารถใช้รูปแบบการสัมผัส "หุบนิ้ว" เมื่อต้องขยายและย่อบนพื้นที่ต่างๆ ของแดชบอร์ดของคุณ เลื่อนเพื่อนำทางนั้น และคุณยังคงสามารถ[แตะไทล์](mobile-tiles-in-the-mobile-apps.md)เพื่อเปิดไทล์ในโหมดโฟกัส และโต้ตอบกับข้อมูลของคุณ
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>ดูแดชบอร์ดบนแท็บเล็ต์ Android ของคุณ
 1. เปิดแอป Power BI บนแท็บเบล็ต Android ของคุณ และลงชื่อเข้าใช้

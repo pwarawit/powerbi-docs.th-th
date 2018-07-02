@@ -1,28 +1,21 @@
 ---
 title: รับ Power BI Desktop
 description: ดาวน์โหลด และติดตั้ง Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 08/15/2017
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/24/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a03e859e769f880b0c627080a864b41e96fc138b
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: 52ef1f6526b83a54ba26fdffaf8150049c55880d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813330"
 ---
 # <a name="get-power-bi-desktop"></a>รับ Power BI Desktop
 **Power BI Desktop** ช่วยให้คุณสร้างคิวรีขั้นสูง รูปแบบข้อมูล และรายงานที่แสดงข้อมูลเป็นภาพ ด้วย **Power BI Desktop** คุณสามารถสร้างรูปแบบข้อมูล สร้างรายงาน และแชร์งานของคุณ โดยการเผยแพร่ไปยังบริการของ Power BI ได้  **Power BI Desktop** มีให้ดาวน์โหลดฟรี
@@ -82,7 +75,7 @@ ms.lasthandoff: 04/03/2018
 > ไม่รองรับการติดตั้งเวอร์ชันดาวน์โหลด (MSI) และ **Microsoft Store** ของ **Power BI Desktop** บนคอมพิวเตอร์เครื่องเดียวกัน (ในบางครั้งเรียกว่าการติดตั้ง*ข้างกัน*) คุณควรถอนการติดตั้ง **Power BI Desktop** ด้วยตนเอง ก่อนที่จะดาวน์โหลดจาก **Microsoft Store**
 > 
 > [!NOTE]
-> **Power BI Desktop** รุ่นเซิร์ฟเวอร์รายงาน Power BI เป็นเวอร์ชันแยกต่างหากจากเวอร์ชันที่อธิบายในบทความนี้ สำหรับข้อมูลเกี่ยวกับ **Power BI Desktop** เวอร์ชันเซิร์ฟเวอร์รายงาน ดูบทความ[เริ่มต้นด่วน: สร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน Power BI](report-server/quickstart-create-powerbi-report.md)
+> **Power BI Desktop** รุ่นเซิร์ฟเวอร์รายงาน Power BI เป็นเวอร์ชันแยกต่างหากจากเวอร์ชันที่อธิบายในบทความนี้ สำหรับข้อมูลเกี่ยวกับ **Power BI Desktop** เวอร์ชันเซิร์ฟเวอร์รายงาน ดูบทความ[สร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน Power BI](report-server/quickstart-create-powerbi-report.md)
 > 
 > 
 
@@ -106,6 +99,14 @@ ms.lasthandoff: 04/03/2018
 * **การตั้งค่าการแสดงผลของ Windows:** ถ้าตั้งค่าการแสดงผล ให้ขนาดของข้อความ แอป และรายการอื่น ๆ มีค่ามากกว่า 100% คุณอาจไม่สามารถเห็นกล่องโต้ตอบบางอย่างที่ต้องปิด หรือตอบกลับเพื่อดำเนินต่อโดยใช้ **Power BI Desktop** ถ้าคุณพบปัญหานี้ ตรวจสอบ**การตั้งค่าการแสดงผล**ของคุณ โดยไปที่**การตั้งค่า > ระบบ > การแสดงผล**ใน Windows และการใช้แถบเลื่อนเพื่อตั้งค่ากลับไปเป็น 100%
 * **CPU:** แนะนำตัวประมวลผล x86- หรือ x64-บิต 1 กิกะเฮิร์ตซ์ (GHz) หรือเร็วกว่า
 
+## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
+
+ผู้ใช้บางส่วนจะพบข้อผิดพลาดคล้ายกับต่อไปนี้ เมื่อใช้ **Power BI Desktop** เวอร์ชันที่ล้าสมัย: 
+
+    "We weren't able to restore the saved database to the model" 
+
+อัปเดตเป็น Power BI Desktop รุ่นปัจจุบัน มักจะแก้ไขปัญหานี้ได้
+
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 เมื่อคุณได้ติดตั้ง **Power BI Desktop** แล้ว เนื้อหาต่อไปนี้สามารถช่วยให้คุณเริ่มต้น และใช้งานอย่างรวดเร็ว:
 
@@ -113,6 +114,6 @@ ms.lasthandoff: 04/03/2018
 * [ภาพรวมคิวรี ด้วย Power BI Desktop](desktop-query-overview.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
 * [เชื่อมต่อกับข้อมูลใน Power BI Desktop](desktop-connect-to-data.md)
-* [จัดรูปทรง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
-* [งานคิวรีที่ใช้บ่อยใน Power BI Desktop](desktop-common-query-tasks.md)   
+* [จัดรูปร่างและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [งานคิวรี่ที่ใช้บ่อยใน Power BI Desktop](desktop-common-query-tasks.md)   
 

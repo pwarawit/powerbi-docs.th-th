@@ -7,19 +7,19 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/07/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f88ad90ddf0cd9315a3a3830a01b038d7300c1c9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e07e28ca7fd4dbb38f931a3fbc2a97661294711c
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247331"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852359"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>บทนำชุดเนื้อหาองค์กรใน Power BI
 > [!NOTE]
-> คุณได้ยินเกี่ยวกับ*แอปฯ*ใหม่หรือยัง? แอปฯเป็นวิธีใหม่ในการกระจายเนื้อหาไปยังผู้ชมจำนวนมากใน Power BI เราขอแนะนำให้ใช้แอปฯแทนชุดเนื้อหาองค์กรหรือพื้นที่ทำงานแบบอ่านอย่างเดียว เรียนรู้[เพิ่มเติมเกี่ยวกับแอปฯ](service-install-use-apps.md)
+> คุณได้ยินเกี่ยวกับ*แอปฯ*ใหม่หรือยัง? แอปเป็นวิธีใหม่ในการกระจายเนื้อหาไปยังผู้ชมจำนวนมากใน Power BI เราวางแผนที่จะยกเลิกการสนับสนุนชุดเนื้อหาระดับองค์กรเร็ว ๆ นี้ ดังนั้น เราขอแนะนำให้ใช้แอปแทน เรียนรู้[เพิ่มเติมเกี่ยวกับแอปฯ](service-install-use-apps.md)
 > 
 > 
 
@@ -79,5 +79,5 @@ ms.locfileid: "34247331"
 * [สร้างและเผยแพร่ชุดเนื้อหาองค์กร](service-organizational-content-pack-create-and-publish.md)
 * [สร้างและกระจายแอปฯใน Power BI](service-create-distribute-apps.md) 
 * [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
-* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

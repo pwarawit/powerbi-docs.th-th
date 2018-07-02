@@ -1,39 +1,22 @@
 ---
-title: 'ข้อผิดพลาด: '
-need: ''
-to: ''
-update: ''
-android: ''
-system: ''
-webview": ''
-'-': ''
-power: ''
-bi": ''
+title: 'การแก้ไข: "จำเป็นต้องอัปเดต Android System Webview" - Power BI'
 description: เมื่อลงชื่อเข้าใช้แอป Android สำหรับอุปกรณ์เคลื่อนที่ คุณอาจได้รับข้อความว่า คุณจำเป็นต้องอัปเดต Android System Webview
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 1a478d8465f05fcc4218d049101c239ed5559fc9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 143d3c2a48ca6dbe6ca39f4a097e45654accaa04
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2017
-ms.locfileid: "30972101"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721259"
 ---
-# <a name="error-need-to-update-android-system-webview---power-bi"></a>ข้อผิดพลาด: "จำเป็นต้องอัปเดต Android System Webview" - Power BI
+# <a name="fixing-need-to-update-android-system-webview"></a>การแก้ไข: "จำเป็นต้องอัปเดต Android System Webview"
 เมื่อลงชื่อเข้าใช้แอป Android สำหรับอุปกรณ์เคลื่อนที่สำหรับ Microsoft Power BIคุณอาจได้รับข้อความว่า คุณจำเป็นต้องอัปเดต Android System Webview 
 
 สมมติว่าคุณไปที่ Google Play Store และอัปเดต Android System Webview จากนั้นกลับมาและลองเปิดแอป Power BI สำหรับอุปกรณ์เคลื่อนที่อีกครั้ง 

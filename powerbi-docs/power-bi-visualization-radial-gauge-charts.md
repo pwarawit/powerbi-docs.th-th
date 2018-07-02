@@ -1,32 +1,24 @@
 ---
-title: บทเรียน แผนภูมิหน้าปัดความเร็วใน Power BI
-description: บทเรียน แผนภูมิหน้าปัดความเร็วใน Power BI
-services: powerbi
-documentationcenter: ''
+title: แผนภูมิหน้าปัดความเร็วใน Power BI
+description: แผนภูมิหน้าปัดความเร็วใน Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: xmja6Epqa
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5b0b5861c567997bb5636c4fe00085535debc8f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7417b324a74dcc4aecd599c73fed0298de3e6a89
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30974531"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34292535"
 ---
-# <a name="radial-gauge-charts-in-power-bi-tutorial"></a>แผนภูมิหน้าปัดความเร็วใน Power BI(บทเรียน)
+# <a name="radial-gauge-charts-in-power-bi"></a>แผนภูมิหน้าปัดความเร็วใน Power BI
 แผนภูมิหน้าปัดความเร็วมีโค้งวงกลม และแสดงเป็นค่าเดียวที่วัดความคืบหน้าตามเพื่อไปสู่เป้าหมาย/KPI  เป้าหมาย หรือค่าเป้าหมาย ถูกแสดงทีละบรรทัด (needle) ความคืบสู่เป้าหมายที่ถูกแสดงด้วยการแรเงา  และค่าที่แสดงว่าความคืบหน้าจะแสดงในเป็นหนาภายในส่วนโค้ง ค่าที่เป็นไปได้ทั้งหมดจะกระจายเท่าๆ กันตามส่วนโค้ง จากค่าต่ำสุด (ค่าซ้ายสุด) ไปสู่ค่าสูงสุด (ค่าขวาสุด)
 
 ในตัวอย่างด้านล่าง เรามีผู้ค้าปลีกรถยนต์กำลังติดตามการขายเฉลี่ยของทีมขายของเราต่อเดือน เป้าหมายของเราคือ 140 และแสดงด้วยเข็มสีดำ  การขายเฉลี่ยที่เป็นไปได้น้อยที่สุดคือ 0 และเราได้ตั้งค่าสูงสุดเป็น 200  การแรเงาสีน้ำเงินแสดงว่า ตอนนี้เราประมาณการว่ามีการขาย 120 ตัวในเดือนนี้ โชคดีทีี่เรายังคงมีสัปดาห์อื่นเพื่อจะทำให้ถึงเป้าหมาย

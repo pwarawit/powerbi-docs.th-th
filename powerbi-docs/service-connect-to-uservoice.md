@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ UserVoice ด้วย Power BI
 description: UserVoice สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc55031358fe27b5bb935b8255c8b6b1c191d4ab
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815398"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250837"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>เชื่อมต่อกับ UserVoice ด้วย Power BI
 การติดตามและการสำรวจข้อมูล UserVoice ของคุณด้วย Power BI และชุดเนื้อหา UserVoice นั้นง่ายดาย Power BI ดึงข้อมูลของคุณ รวมทั้งทิ๊กเก็ต คำแนะนำและความพอใจ จากนั้นสร้างแดชบอร์ดแบบคิดนอกกรอบและรายงานที่ยึดตามข้อมูลนั้น
@@ -43,7 +35,7 @@ ms.locfileid: "30815398"
 3. เลือก**UserVoice**แล้วเลือก**รับ**
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. เมื่อได้รับการถาาม ให้ใส่ URL ของ UserVoice URL จำเป็นต้องเป็นตามรูปแบบต่อไปนี้อย่างเคร่งคัด https://fabrikam.uservoice.com แทน "fabrikam" ด้วยชื่อผลิตภัณฑ์หรือบริการของคุณ
+4. เมื่อได้รับการถาาม ให้ใส่ URL ของ UserVoice URL ต้องเป็นตามรูปแบบต่อไปนี้อย่างเคร่งคัด https://fabrikam.uservoice.com โดยแทนที่ "fabrikam" ด้วยชื่อผลิตภัณฑ์หรือบริการของคุณ
    
    >[!NOTE]
    >โปรดสังเกตว่า ไม่มีเครื่องหมายทับต่อที่ส่วนท้าย และการเชื่อมต่อจะต้องเป็น http**s**
@@ -71,7 +63,7 @@ ms.locfileid: "30815398"
 
 ถ้าคุณเห็นข้อผิดพลาดนี้หลังจากพิมพ์ URL UserVoice ของคุณ ตรวจสอบให้แน่ใจว่าข้อกำหนดต่อไปนี้ถูกยอมรับหรือไม่
 
-* URL เป็นตามแบบนี้ "https://fabrikam.uservoice.com" แทน "fabrikam" ด้วยคำนำหน้า URL UserVoice ที่ถูกต้องของคุณ
+* URL เป็นตามรูปแบบ "https://fabrikam.uservoice.com" โดยแทนที่ "fabrikam" ด้วยคำนำหน้า URL UserVoice ที่ถูกต้องของคุณ
 * ตรวจสอบให้แน่ใจว่า ตัวอักษรทั้งหมดเป็นตัวพิมพ์เล็ก
 * ตรวจสอบให้แน่ใจว่า URL เป็นแบบ 'http**s**'
 * ตรวจสอบให้แน่ใจว่าไม่มีที่ส่วนท้ายของ URL หลังสแลช
@@ -82,9 +74,9 @@ ms.locfileid: "30815398"
 
 **ขออภัย เกิดปัญหาบางอย่างขึ้น**
 
-ถ้าคุณได้รับข้อผิดพลาดนี้ขณะกำลังโหลดข้อมูล ให้ตรวจสอบว่า บัญชี UserVoice ของคุณยังไม่เกินโควตาของการใช้ API การรายเดือน ถ้าทั้งหมดยังดูดี ลองเชื่อมต่ออีกครั้ง ถ้าปัญหายังคงอยู่ โปรดติดต่อฝ่ายสนับสนุน Power BI ที่[https://community.powerbi.com](https://community.powerbi.com/)
+ถ้าคุณได้รับข้อผิดพลาดนี้ขณะกำลังโหลดข้อมูล ให้ตรวจสอบว่า บัญชี UserVoice ของคุณยังไม่เกินโควตาของการใช้ API การรายเดือน ถ้าทั้งหมดยังดูดี ลองเชื่อมต่ออีกครั้ง ถ้าปัญหายังคงอยู่ โปรดติดต่อฝ่ายสนับสนุน Power BI ที่ [https://community.powerbi.com](https://community.powerbi.com/)
 
-**อื่นๆ**  
+**อื่น ๆ**  
 
 ชุดเนื้อหา Power BI UserVoice ใช้ API ที่ของ UserVoice เพื่อรับข้อมูลของคุณ ตรวจสอบให้แน่ใจว่า คุณได้ตรวจสอบการใช้ API ของคุณเพื่อให้คุณไม่เกินขีดจำกัดของคุณ ถ้าคุณมีข้อมูลจำนวนมากในบัญชีของคุณ UserVoice คำแนะนำเพื่อลดผลกระทบต่อการใช้ API ของคุณคือเปลี่ยนความถี่ในการรีเฟรชจากค่าเริ่มต้นปัจจุบันซึ่งเป็นหนึ่งครั้งต่อวัน ให้เป็นหนึ่งครั้งต่อสัปดาห์หรือทุกๆวันอื่นขึ้นอยู่กับความต้องการของคุณ คำแนะนำของอื่นคือให้มีผู้ดูแลระบบเพียงคนเดียวที่สร้างและแชร์ชุดเนื้อหากับส่วนเหลือของทีม ทนที่จะมีผู้ดูแลทุกคนในองค์กรของคุณทำการดึงข้อมูลเอง ซึ่งทำให้ API โหลดโดยไม่จำเป็น
 

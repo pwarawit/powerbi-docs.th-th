@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1bf5f83265c9d4fc11532b647207f8d273aab50c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "34721121"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>เชื่อมต่อกับชุดข้อมูลในบริการ Power BI จาก Power BI Desktop
 คุณสามารถสร้างการเชื่อมต่อสดไปยังชุดข้อมูลที่ใช้ร่วมกันในบริการ Power BI และสร้างรายงานที่แตกต่างกันมากมายจากชุดข้อมูลเดียวกัน ซึ่งหมายความว่า คุณสามารถสร้างโมเดลข้อมูลที่สมบูรณ์แบบที่สุดของคุณใน Power BI Desktop และเผยแพร่ไปยังบริการ Power BI จากนั้นคุณ และผู้อื่นสามารถสร้างรายงานที่แตกต่างกันหลายรายการ (ในไฟล์.pbix ที่แยกต่างหาก) จากโมเดลข้อมูลเดียวกันที่ใช้ทั่วไป คุณลักษณะนี้เรียกว่า**Power BI service Live connection**
@@ -35,6 +36,8 @@ ms.lasthandoff: 05/17/2018
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>เชื่อมต่อชุดข้อมูลบริการ Power BI โดยใช้การเชื่อมต่อสด
 เมื่อแอนนาสร้างรายงานของเธอ (และสร้างชุดข้อมูลที่อยู่กับมัน) แอนนาจะเผยแพร่เข้าไปยัง**บริการ Power BI**และมันจะแสดงอยู่ในพื้นที่ทำงานของทีมในบริการ Power BI ในตอนนี้ชุดข้อมูลนั้นจะมีไว้สำหรับทุกคนในพื้นที่ทำงานของเธอสมารถเข้าดู และใช้งาน
+
+เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับพื้นที่ทำงาน ดู[พื้นที่ทำงานแอป](service-create-distribute-apps.md#app-workspaces)
 
 ตอนนี้สมาชิกคนอื่น ๆ ในพื้นที่ทำงานของแอนนาสามารถสร้างการเชื่อมต่อสดไปยังโมเดลข้อมูลที่แอนนาแชร์ไว้ (โดยใช้คุณลักษณะ**Power BI service live connection**) และสร้างรายงานที่เป็นแบบฉบับของตนเอง จาก*ชุดข้อมูลต้นฉบับของแอนนา*
 

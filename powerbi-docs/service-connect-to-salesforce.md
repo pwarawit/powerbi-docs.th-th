@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ Salesforce ด้วย Power BI
 description: Salesforce สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/16/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8089c796441fd4200b146da6330dd5c208bf8b30
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e36cff803af74d212f4c1804fe3a955a11c193cf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815678"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722462"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>เชื่อมต่อกับ Salesforce ด้วย Power BI
 ด้วย Power BI คุณสามารถเชื่อมต่อกับบัญชี Salesforce.com ของคุณได้อย่างง่ายดาย สร้างการเชื่อมต่อนี้เพื่อดึงข้อมูลของคุณและมีแดชบอร์ด และรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลของคุณโดยอัตโนมัติ
@@ -73,14 +65,21 @@ ms.locfileid: "30815678"
 * [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
 * ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
 
-## <a name="system-requirements"></a>ความต้องการของระบบ
-* เชื่อมต่อกับบัญชีผลิตภัณฑ์ Salesforce ที่สามารถเข้าถึง API ที่เปิดใช้งาน
-* สิทธิ์ที่มอบให้กับแอป Power BI ในระหว่างการเข้าสู่ระบบ
-* บัญชีมีการเรียกใช้ API เพียงพอที่สามารถใช้งานดึงและรีเฟรชข้อมูล
-* โทเค็นรับรองตัวตนที่จำเป็นกับการรีเฟรช ให้ทำให้แน่ใจว่า คุณมีชุดข้อมูล 5 ชุดหรือน้อยกว่า ชุดข้อมูล Salesforce ที่ถูกนำเข้า ด้วยที่ Salesforce มีขีดจำกัดของโทเค็นการรับรองความถูกต้อง 5 ตัวสำหรับแอปพลิเคชัน
+## <a name="system-requirements-and-considerations"></a>ข้อกำหนดของระบบและข้อควรพิจารณา
+- เชื่อมต่อกับบัญชีผลิตภัณฑ์ Salesforce ที่สามารถเข้าถึง API ที่เปิดใช้งาน
+- สิทธิ์ที่มอบให้กับแอป Power BI ในระหว่างการเข้าสู่ระบบ
+- บัญชีมีการเรียกใช้ API เพียงพอที่สามารถใช้งานดึงและรีเฟรชข้อมูล
+- โทเค็นรับรองตัวตนที่จำเป็นกับการรีเฟรช ให้ทำให้แน่ใจว่า คุณมีชุดข้อมูล 5 ชุดหรือน้อยกว่า ชุดข้อมูล Salesforce ที่ถูกนำเข้า ด้วยที่ Salesforce มีขีดจำกัดของโทเค็นการรับรองความถูกต้อง 5 ตัวสำหรับแอปพลิเคชัน
+- Salesforce Reports API มีข้อจำกัดที่สนับสนุนสูงสุด 2,000 แถวข้อมูล
+
 
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
 ถ้าคุณพบข้อผิดพลาดใดๆ โปรดตรวจสอบความต้องการด้านบน โปรดทราบว่าความสามารถในการเข้าสู่ระบบแบบโดเมนแบบกำหนดเองหรือแบบ sandbox ยังไม่รองรับในขณะนี้
+
+### <a name="unable-to-connect-to-the-remote-server-message"></a>ข้อความ “ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ระยะไกลได้”
+
+ถ้าคุณได้รับข้อความ "ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ระยะไกล" เมื่อพยายามเชื่อมต่อกับบัญชี Salesforce ของคุณ ให้ดูโซลูชันนี้บนฟอรั่ม Outsystems: [ข้อความข้อผิดพลาดการลงชื่อเข้าระบบตัวเชื่อมต่อ Salesforce: ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ระยะไกลได้](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&)
+
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [เริ่มต้นใช้งาน Power BI](service-get-started.md)

@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 855ed26172fa0f157787ba4cfdc3e7e6ab4ff4ba
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 7239351a7a9486aeeab53e4ab7fc5c3c3e877ff6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561459"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>เกี่ยวกับตัวกรองและการไฮไลท์ในรายงาน Power BI
 ***ตัวกรอง***ให้ลบออกทั้งหมดยกเว้นข้อมูลที่คุณต้องการวิเคราะห์  ***การไฮไลท์***จะไม่กรอง เนื่องจากจะไม่ลบข้อมูลออกแตจะไฮไลท์เซตย่อยของข้อมูลที่สามารถมองเห็นได้แทน ข้อมูลที่ไม่ไฮไลท์ยังคงเป็นสีจาง แต่สามารถจะมองเห็นได้
@@ -77,7 +78,7 @@ ms.lasthandoff: 05/17/2018
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
-เมื่อคุณออกจากรายงาน การเปลี่ยนแปลงของคุณถูกบันทึก เมื่อต้องการเลิกทำการกรองของคุณ เลือก**รีเซ็ตเป็นค่าเริ่มต้น**จากแถบเมนูด้านบน
+เมื่อคุณออกจากรายงาน การเปลี่ยนแปลงของคุณถูกบันทึก เพื่อยกเลิกการกรองของคุณ และกลับไปยังการกรอง, การแบ่งส่วนข้อมูล, ดูรายละเอียด และชุดเรียงลำดับ ตามค่าเริ่มต้นของผู้เขียนรายงาน - เลือก**รีเซ็ตเป็นค่าเริ่มต้น**จากแถบเมนูด้านบน
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 

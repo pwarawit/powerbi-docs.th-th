@@ -1,31 +1,24 @@
 ---
-title: บทช่วยสอน - การแสดงภาพตารางในรายงานและแดชบอร์ด Power BI (บทช่วยสอน)
+title: การแสดงภาพตารางในรายงานและแดชบอร์ด Power BI
 description: บทช่วยสอนสำหรับการทำงานกับการแสดงภาพตารางในรายงานและแดชบอร์ด Power BI รวมถึงวิธีการปรับขนาดความกว้างของคอลัมน์
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: ''
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/22/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fd5085912ec74312fa4a4b25060cbd4afba94
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 22eb44048d8a4f681d8d112ce3fdb5a841d0511e
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "34584242"
 ---
-# <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>การทำงานกับตารางในรายงาน และแดชบอร์ด Power BI (บทช่วยสอน)
+# <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>การทำงานกับตารางในรายงานและแดชบอร์ด Power BI
 ตารางคือ เส้นตารางที่ประกอบด้วยข้อมูลที่เกี่ยวข้องในชุดที่สมเหตุผลของแถวและคอลัมน์ ซึ่งอาจยังประกอบด้วยส่วนหัวและแถวสำหรับผลรวมด้วย ตารางทำงานได้ดีกับข้อเปรียบเทียบเชิงปริมาณซึ่งเป็นการที่คุณดูหลายค่าสำหรับหนึ่งประเภท ตัวอย่างเช่น ตารางนี้แสดงการวัดที่แตกต่างกัน 5 การวัดสำหรับ**ประเภท**
 
 ![](media/power-bi-visualization-tables/table.png)
@@ -69,15 +62,21 @@ ms.lasthandoff: 02/24/2018
 
 * ลองจัดรูปแบบเส้นตาราง ที่นี่เราได้เพิ่มเส้นตารางแนวตั้งสีน้ำเงิน เพิ่มช่องว่างในแถว เพิ่มเค้าโครง และขนาดข้อความเล็กน้อย
   
-    ![](media/power-bi-visualization-tables/power-bi-table-grid2-new.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
   
     ![](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 * สำหรับส่วนหัวของคอลัมน์ เราเปลี่ยนสีพื้นหลัง เพิ่มเค้าร่าง และเพิ่มขนาดฟอนต์ 
   
-    ![](media/power-bi-visualization-tables/power-bi-table-column.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
+
   
     ![](media/power-bi-visualization-tables/power-bi-table-column2.png)
-* และหลังการปรับรูปแบบเพิ่มเติมบางส่วน ต่อไปนี้คือตารางขั้นสุดท้ายที่ได้ เนื่องจากมีตัวเลือกการจัดรูปแบบมากมาย วิธีดีที่สุดในการเรียนรู้คือเริ่มด้วยตารางแบบเรียบง่ายก่อน เปิดพื้นที่การจัดรูปแบบขึ้น![](media/power-bi-visualization-tables/power-bi-format.png) และเริ่มการสำรวจ 
+
+* คุณยังสามารถจัดรูปแบบกับ แต่ละคอลัมน์ และส่วนหัวของคอลัมน์ เริ่มต้นด้วยการขยาย**การจัดรูปแบบเขตข้อมูล** และเลือกคอลัมน์เพื่อจัดรูปแบบจากรายการดรอปดาวน์ ขึ้นอยู่กับค่าของคอลัมน์ เขตข้อมูลที่จัดรูปแบบช่วยให้คุณตั้งค่าสิ่งต่าง ๆ เช่น: หน่วยแสดงผล, สีฟอนต์, จำนวนตำแหน่งทศนิยม, พื้นหลัง, การจัดแนว และอื่น ๆ เมื่อคุณได้ปรับการตั้งค่าแล้ว ตัดสินใจว่าจะใช้การตั้งค่าเหล่านั้นกับส่วนหัวและแถวผลรวมได้เช่นกัน
+
+    ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
+
+* และหลังการปรับรูปแบบเพิ่มเติมบางส่วน ต่อไปนี้คือตารางขั้นสุดท้ายที่ได้ เนื่องจากมีตัวเลือกการจัดรูปแบบมากมาย วิธีดีที่สุดในการเรียนรู้คือเริ่มจากรูปแบบค่าเริ่มต้น เปิดบานหน้าต่างการจัดรูปแบบ ![](media/power-bi-visualization-tables/power-bi-format.png) และเริ่มการสำรวจ 
   
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 
@@ -121,5 +120,8 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/power-bi-visualization-tables/resizetable.gif)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
+* เมื่อใช้การจัดรูปแบบคอลัมน์ คุณสามารถเลือกตัวเลือกการจัดแนวเพียงหนึ่งตัวเลือกต่อคอลัมน์: อัตโนมัติ, ซ้าย, กึ่งกลาง, ขวา โดยปกติแล้วจะ คอลัมน์ประกอบด้วยข้อความทั้งหมด หรือตัวเลขทั้งหมด และไม่ผสมกัน แต่ในกรณีที่คอลัมน์ที่ประกอบด้วยทั้งตัวเลขและข้อความ **อัตโนมัติ**จะจัดชิดซ้ายสำหรับข้อความ และชิดขวาสำหรับตัวเลข พฤติกรรมนี้สนับสนุนภาษาที่คุณอ่านจากซ้ายไปขวา   
+
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

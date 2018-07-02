@@ -1,36 +1,29 @@
 ---
-title: แผนภูมิโดนัทใน Power BI (บทช่วยสอน)
-description: 'บทช่วยสอน: แผนภูมิโดนัทใน Power BI'
-services: powerbi
-documentationcenter: ''
+title: แผนภูมิโดนัทใน Power BI
+description: แผนภูมิโดนัทใน Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dca772fd2a1b8f40fa61f1abc41145e8ff6e5a8a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5d8be3d160e8ea37ba9814c7bd78c3ad5a751d3b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294207"
 ---
-# <a name="doughnut-charts-in-power-bi-tutorial"></a>แผนภูมิโดนัทใน Power BI (บทช่วยสอน)
+# <a name="doughnut-charts-in-power-bi"></a>แผนภูมิโดนัทใน Power BI
 แผนภูมิโดนัทจะคล้ายกับแผนภูมิวงกลมที่จะแสดงความสัมพันธ์ของข้อมูลองค์ประกอบต่างๆ กับข้อมูลทั้งหมด ความแตกต่างเพียงประการเดียว คือ ส่วนตรงกลางนั้นว่างเปล่า และมีพื้นที่ว่างสำหรับระบุป้ายชื่อหรือไอคอน
 
 ## <a name="create-a-doughnut-chart"></a>สร้างแผนภูมิโดนัท
 คำแนะนำเหล่านี้จะใช้ตัวอย่างการวิเคราะห์การค้าปลีก เพื่อสร้างแผนภูมิโดนัทที่แสดงยอดขายสำหรับปีนี้โดยจำแนกตามประเภท ถ้าต้องการทำตามคำแนะนำดังกล่าว ให้[ดาวน์โหลดตัวอย่าง](sample-datasets.md)สำหรับบริการของ Power BI (app.powerbi.com) หรือ Power BI Desktop
 
-1. เริ่มต้นจาก[หน้ารายงานเปล่า](power-bi-report-add-page.md)แล้วเลือก **SalesStage** \> เขตข้อมูล **ขั้นตอนการขาย** ถ้าคุณกำลังใช้บริการของ Power BI ให้ตรวจสอบให้แน่ใจว่าคุณได้เปิดรายงานใน[มุมมองการแก้ไข](service-interact-with-a-report-in-editing-view.md) แล้ว
+1. เริ่มต้นจาก[หน้ารายงานเปล่า](power-bi-report-add-page.md) และเลือกเขตข้อมูล**ขั้นตอนการขาย** \> **ขั้นตอนการขาย** ถ้าคุณกำลังใช้บริการของ Power BI ให้ตรวจสอบให้แน่ใจว่าคุณได้เปิดรายงานใน[มุมมองการแก้ไข](service-interact-with-a-report-in-editing-view.md) แล้ว
 
 2. ในส่วนบานหน้าต่างเขตข้อมูล ให้เลือก**ยอดขาย** \> **ยอดขายของปีล่าสุด**  
    

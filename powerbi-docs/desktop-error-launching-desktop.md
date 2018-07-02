@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 99ee9e87584202420239658a3522ad82cb383227
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bdf3791d74510b1630bc13c279ed0cd5ebddc3ec
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286560"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813468"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>แก้ไขปัญหาเมื่อ Power BI Desktop เปิดไม่ขึ้น
 ใน**Power BI Desktop** ผู้ใช้ที่ติดตั้งและใช้งานเวอร์ชันก่อนหน้า **เกตเวย์ข้อมูลภายในองค์กร Power BI** สามารถถูกบล็อกจากการเปิดใช้งาน Power BI Desktop เนื่องจากนโยบายข้อจำกัดในระดับผู้ดูแลเกตเวย์ Power BI ภายในองค์กร ได้วางและตั้งชื่อไปป์บนเครื่อง 
@@ -33,6 +33,13 @@ ms.locfileid: "34286560"
 อีกวิธีหนึ่งคือ คุณสามารถเปิดใช้ Power BI Desktop แบบผู้ดูแล ซึ่งอนุญาตให้ Power BI Desktop เปิดใช้งานอย่างเรียบร้อย ยังคงแนะนำให้คุณติดตั้งเวอร์ชันล่าสุดของเกตเวย์ข้อมูลภายในองค์กร Power BI ตามที่อธิบายไว้ก่อนหน้าในบทความนี้
 
 สิ่งสำคัญคือต้องทราบว่า Power BI Desktop ได้รับการออกแบบเป็นสถาปัตยกรรมแบบหลายกระบวนการ และกระบวนการต่างๆ เหล่านี้สื่อสารโดยใช้เนมไปป์ Windows อาจมีกระบวนการอื่นที่รบกวนเนมไปป์เหล่านั้น สาเหตุที่พบได้บ่อยที่สุดสำหรับการรบกวนดังกล่าวคือ ความปลอดภัย รวมถึงสถานการณ์ที่ซอฟต์แวร์ป้องกันไวรัส หรือไฟร์วอลล์อาจบล็อกไปป์ หรือเปลี่ยนเส้นทางปริมาณการใช้งานไปยังพอร์ตเฉพาะ การเปิดใช้งาน Power BI Desktop ด้วยสิทธิ์ของผู้ดูแลระบบอาจแก้ปัญหาดังกล่าว ถ้าไม่สามารถเปิดการใช้งานด้วยสิทธิ์ของผู้ดูแลได้ ให้ติดต่อผู้ดูแลระบบของคุณเพื่อพิจารณาว่ามีการใช้กฎความปลอดภัยใดที่ป้องกันไม่ให้เนมไปป์สื่อสารได้อย่างถูกต้อง และอนุญาต Power BI Desktop และกระบวนการย่อยที่เกี่ยวข้อง
+
+## <a name="resolve-issues-when-connecting-to-sql-server"></a>แก้ไขปัญหาเมื่อเชื่อมต่อกับ SQL Server
+ถ้าคุณพบข้อผิดพลาดที่คล้ายกับข้อผิดพลาดต่อไปนี้ เมื่อเชื่อมต่อกับฐานข้อมูล SQL Server คุณมักจะสามารถแก้ไขปัญหาได้ด้วยการเปิดใช้งาน **Power BI Desktop** ในฐานะเป็นผู้ดูแล จากนั้นทำการเชื่อมต่อ SQL Server:
+
+    "An error happened while reading data from the provider: 'Could not load file or assembly 'System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=xxxxxxxxxxxxx' or one of its dependencies. Either a required impersonation level was not provided, or the provided impersonation level is invalid. (Exception from HRESULT: 0x80070542)'"
+
+หลังจากเรียกใช้ในฐานะเป็นผู้ดูแลระบบและสร้างการเชื่อมต่อดังกล่าว DLL ที่จำเป็นต้องมีได้รับการลงทะเบียนอย่างถูกต้อง หลังจากนั้น การเรียกใช้ Power BI Desktop ในฐานะเป็นผู้ดูแลระบบก็ไม่จำเป็นอีกต่อไป
 
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>ความช่วยเหลือปัญหาอื่น ๆ เมื่อเปิดใช้ Power BI Desktop
 เราจะมุ่งมั่นที่จะครอบคลุมปัญหาที่เกิดขึ้นกับ**Power BI Desktop**ให้มากที่สุด เราดูปัญหาที่อาจจะมีผลกระทบต่อลูกค้าเป็นประจำ และรวมเอาไว้ในบทความของเรา

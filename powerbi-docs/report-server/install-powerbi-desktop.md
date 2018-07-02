@@ -1,27 +1,20 @@
 ---
 title: ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
 description: เรียนรู้วิธีติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/22/2018
+ms.component: powerbi-report-server
+ms.topic: conceptual
+ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: c22e909130767abd1dc6f0aa00d76e1fb6b99ee7
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 368f2692933b37d833c864fb9fea6a22423bbb77
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481842"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
 เรียนรู้วิธีติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
@@ -42,7 +35,7 @@ ms.lasthandoff: 03/28/2018
 
 2. ในหน้าศูนย์ดาวน์โหลด เลือก **ดาวน์โหลด**
 
-3. โดยขึ้นอยู่กับคอมพิวเตอร์ของคุณ เลือก: 
+3. ขึ้นอยู่กับคอมพิวเตอร์ของคุณ เลือก: 
 
     - **PBIDesktopRS.msi** (เวอร์ชัน 32 บิต) หรือ
 
@@ -70,33 +63,33 @@ ms.lasthandoff: 03/28/2018
 การแก้ไขรายงาน Power BI จากภายในเซิร์ฟเวอร์รายงาน Power BI หรือการสร้างรายงาน Power BI ใหม่จากพอร์ทัลเว็บจะเปิด Power BI Desktop เวอร์ชันที่ถูกต้องเสมอ
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
-รายงานในเซิร์ฟเวอร์รายงาน Power BI และบริการ Power BI (http://powerbi.com)ดำเนินการเกือบเหมือนกันทุกประการ แต่มีคุณลักษณะบางอย่างแตกต่างกัน
+รายงานในเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI (http://powerbi.com) ทำงานเกือบเหมือนกัน แต่มีความแตกต่างในบางคุณลักษณะ
 
 ### <a name="in-a-browser"></a>ในเบราว์เซอร์
-รายงานจากเซิร์ฟเวอร์รายงาน Power BI จะสนับสนุนการจัดรูปแบบการแสดงข้อมูลทั้งหมดรวมถึง:
+รายงานในเซิร์ฟเวอร์รายงาน Power BI สนับสนุนการแสดงภาพทั้งหมด รวมถึง:
 
-* การแสดงผลด้วยภาพแบบกำหนดเอง
+* วิชวลแบบกำหนดเอง
 
-รายงานจากเซิร์ฟเวอร์รายงาน Power BI จะไม่สนับสนุน:
+รายงานในเซิร์ฟเวอร์รายงาน Power BI ไม่สนับสนุน:
 
-* การแสดงผลด้วยภาพ R
+* วิชวล R
 * แผนที่ ArcGIS
-* การแสดงเส้นทาง
-* คุณลักษณะการแสดงตัวอย่าง Power BI Desktop
+* การนำทางแบบแสดงเส้นนำทาง
+* คุณลักษณะที่เป็นตัวอย่างใน Power BI Desktop
 
-### <a name="in-the-power-bi-mobile-apps"></a>ในแอปอุปกรณ์เคลื่อนที่ Power BI
-รายงานจากเซิร์ฟเวอร์รายงาน Power BI จะสนับสนุนฟังก์ชันพื้นฐานทั้งหมดใน [แอปอุปกรณ์เคลื่อนที่ Power BI](../mobile-apps-for-mobile-devices.md)รวมถึง:
+### <a name="in-the-power-bi-mobile-apps"></a>ในแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI
+รายงานในเซิร์ฟเวอร์รายงาน Power BI สนับสนุนฟังก์ชันพื้นฐานทั้งหมดใน[แอปสำหรับอุปกรณ์เคลื่อนที่ Power BI](../mobile-apps-for-mobile-devices.md) รวมถึง:
 
-* [เค้าโครงรายงานบนโทรศัพท์](../desktop-create-phone-report.md): คุณสามารถปรับรายงานให้เหมาะสมสำหรับแอปอุปกรณ์เคลื่อนที่ Power BI ได้ บนโทรศัพท์มือถือ รายงานที่ปรับให้เหมาะสมจะมีไอคอนพิเศษ ![ไอคอนเค้าโครงรายงานโทรศัพท์](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) และเค้าโครง
+* [เค้าโครงรายงานโทรศัพท์](../desktop-create-phone-report.md): คุณสามารถรายงานให้เหมาะสำหรับแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ได้ บนโทรศัพท์มือถือของคุณ รายงานที่ปรับให้เหมาะสมมีไอคอนพิเศษ ![ไอคอนเค้าโครงรายงานโทรศัพท์](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) และเค้าโครงที่เหมาะกับมือถือ
   
-    ![รายงานที่ปรับให้เหมาะสมสำหรับโทรศัพท์](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+    ![รายงานที่ปรับให้เหมาะสมสำหรับมือถือ](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
 
-รายงานจากเซิร์ฟเวอร์รายงาน Power BI จะไม่สนับสนุนคุณลักษณะเหล่านี้ในแอปอุปกรณ์เคลื่อนที Power BI:
+รายงานในเซิร์ฟเวอร์รายงาน Power BI ไม่สนับสนุนคุณลักษณะเหล่านี้ในแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI:
 
-* การแสดงผลด้วยภาพ R
+* วิชวล R
 * แผนที่ ArcGIS
 * การแสดงผลด้วยภาพแบบกำหนดเอง
-* การแสดงเส้นทาง
+* การนำทางแบบแสดงเส้นนำทาง
 * Geofiltering หรือรหัสแท่ง
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop สำหรับเซิร์ฟเวอร์รายงาน Power BI เวอร์ชันก่อนหน้านี้
@@ -109,10 +102,8 @@ ms.lasthandoff: 03/28/2018
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 หลังจากที่ติดตั้ง Power BI Desktop แล้ว คุณสามารถเริ่มการสร้างรายงาน Power BI ได้
 
-[เริ่มต้นใช้งานด่วน: สร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน Power BI](quickstart-create-powerbi-report.md)  
-[เริ่มต้นใช้งาน Power BI Desktop](../desktop-getting-started.md)  
-การเรียนรู้พร้อมคำแนะนำ: [เริ่มต้นใช้งาน Power BI Desktop](../guided-learning/gettingdata.yml#step-2)  
-[ภาพรวมคู่มือผู้ใช้เซิร์ฟเวอร์รายงาน Power BI](user-handbook-overview.md)
+[สร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน Power BI](quickstart-create-powerbi-report.md)  
+[เซิร์ฟเวอร์รายงาน Power BI คืออะไร](get-started.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

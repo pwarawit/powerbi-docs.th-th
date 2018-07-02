@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e688561b6b669aab68c4251fa5e25157dc219cd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34723011"
+ms.locfileid: "34755081"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>การแก้ไขปัญหา เกตเวย์ข้อมูลในองค์กร
 บทความนี้กล่วงถึงปัญหาที่พบได้บ่อย ที่คุณอาจเจอเมื่อใช้งาน**เกตเวย์ข้อมูลภายในองค์กร**
@@ -149,6 +149,9 @@ ms.locfileid: "34723011"
 **ไม่สามารถมองเห็นแหล่งข้อมูลของเกตเวย์ข้อมูลใน 'รับข้อมูล' สำหรับ Analysis Services จากบริการของ Power BI**
 
 ตรวจสอบให้แน่ใจว่า บัญชีของคุณอยู่ในรายการในแท็บ**ผู้ใช้** ของแหล่งข้อมูล ในการกำหนดค่าของเกตเวย์ ถ้าคุณไม่สามารถเข้าถึงเกตเวย์ ตรวจสอบกับผู้ดูแลระบบของเกตเวย์ และขอให้เขาตรวจสอบให้ เฉพาะบัญชีผู้ใช้ในรายการ**ผู้ใช้**เท่านั้นที่จะเห็นรายการแหล่งข้อมูลแสดงอยู่ใน Analysis Services
+
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>ข้อผิดพลาด: คุณไม่ได้ติดตั้งหรือการกำหนดค่าเกตเวย์ สำหรับแหล่งข้อมูลในชุดข้อมูลนี้
+ตรวจสอบให้แน่ใจว่า คุณได้เพิ่มหนึ่งหรือหลายแหล่งข้อมูลอย่าง ตามที่อธิบายไว้ใน[เพิ่มแหล่งข้อมูล](service-gateway-manage.md#add-a-data-source) ถ้าเกตเวย์ไม่ปรากฏในพอร์ทัลผู้ดูแลภายใต้**จัดการเกตเวย์** ลองล้างแคชของเบราว์เซอร์คุณ หรือลงชื่อออกจากบริการแล้วลงชื่อเข้าใช้อีกครั้ง
 
 ## <a name="datasets"></a>ชุดข้อมูล
 ### <a name="error-there-is-not-enough-space-for-this-row"></a>ข้อผิดพลาด: มีเนื้อที่ไม่เพียงพอสำหรับแถวนี้

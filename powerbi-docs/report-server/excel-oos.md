@@ -1,39 +1,25 @@
 ---
-title: กำหนดค่าเซิร์ฟเวอร์รายงานของคุณเพื่อโฮสต์ เวิร์กบุ๊ก Excel โดยใช้ Office Online Server (OOS)
-description: นอกเหนือจากการดูรายงาน Power BI ในพอร์ทัลของเว็บแล้ว ตอนนี้ผู้ใช้ธุรกิจสามารถทำเช่นเดียวกันเวิร์กบุ๊ก Excel ในเซิร์ฟเวอร์รายงาน Power BI
-services: powerbi
-documentationcenter: ''
+title: โฮสต์เวิร์กบุ๊ก Excel โดยใช้ Office Online Server (OOS) - เซิร์ฟเวอร์รายงาน Power BI
+description: นอกเหนือจากการดูรายงาน Power BI ในพอร์ทัลของเว็บแล้ว เซิร์ฟเวอร์รายงาน Power BI สามารถโฮสต์เวิร์กบุ๊ก Excel โดยใช้ Office Online Server (OOS)
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 08/23/2017
+ms.component: powerbi-report-server
+ms.topic: conceptual
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: a9d5c1b8da8935a535ed112030a5c2a40132f176
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481911"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>กำหนดค่าเซิร์ฟเวอร์รายงานของคุณเพื่อโฮสต์ เวิร์กบุ๊ก Excel โดยใช้ Office Online Server (OOS)
-นอกเหนือจากการดูรายงาน Power BI ในพอร์ทัลของเว็บแล้ว ตอนนี้ผู้ใช้ธุรกิจสามารถทำเช่นเดียวกันเวิร์กบุ๊ก Excel ในเซิร์ฟเวอร์รายงาน Power BI ให้พวกเขามีจุดเดียวสำหรับเผยแพร่ และดูเนื้อหา Microsoft BI ของพวกเขา ในแบบบริการตัวเอง
+นอกเหนือจากการดูรายงาน Power BI ในพอร์ทัลของเว็บแล้ว เซิร์ฟเวอร์รายงาน Power BI สามารถโฮสต์สมุดงาน Excel โดยใช้ [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) ได้ เซิร์ฟเวอร์รายงานของคุณกลายเป็นสถานที่เดียวเพื่อเผยแพร่ และดูเนื้อหา Microsoft BI แบบบริการตนเอง
 
-> [!NOTE]
-> นี่คือคุณลักษณะตัวอย่าง ที่รวมอยู่ในรุ่นตัวอย่าง ของเดือนสิงหาคม 2017 สำหรับข้อมูลเพิ่มเติม ดู[มีอะไรใหม่ในเซิร์ฟเวอร์รายงาน Power BI](whats-new.md)
-> 
-> 
-
-![รายงาน Excel กำลังถูกดูจากพอร์ทัลของเว็บเซิร์ฟเวอร์รายงาน](media/excel-oos/excel-in-pbirs.png)
-
-นี่สามารถทำได้ โดยการทำให้ใช้ [Office Online Server](https://technet.microsoft.com/library/jj219437\(v=office.16\).aspx) (OOS)
+![รายงาน Excel ที่ดูจากพอร์ทัลของเว็บเซิร์ฟเวอร์รายงาน](media/excel-oos/excel-in-pbirs.png)
 
 ## <a name="prepare-server-to-run-office-online-server"></a>เตรียมเซิร์ฟเวอร์เพื่อเรียกใช้ Office Online Server
 ทำตามขั้นตอนต่อไปนี้บนเซิร์ฟเวอร์ที่จะเรียกใช้ Office Online Server เซิร์ฟเวอร์นี้ต้องเป็น Windows Server 2012 R2 หรือ Windows Server 2016 Windows Server 2016 จำเป็นต้องมี Office Online Server เดือนเมษายน 2017 หรือใหม่กว่า
@@ -182,10 +168,10 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 * คุณทำได้แค่การอ่านเวิร์กบุ๊กเท่านั้น
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[คู่มือผู้ดูแล](admin-handbook-overview.md)  
-[เริ่มต้นใช้งานด่วน: ติดตั้งเซิร์ฟเวอร์รายงาน Power BI](quickstart-install-report-server.md)  
+[ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
+[ติดตั้ง Power BI Report Server](install-report-server.md)  
 [ติดตั้งตัวสร้างรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [ดาวน์โหลด SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-คำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

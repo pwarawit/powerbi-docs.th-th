@@ -1,38 +1,31 @@
 ---
 title: สร้างชุดข้อมูล
 description: การฝึกปฏิบัติ - พุชข้อมูลลงในชุดข้อมูล - สร้างชุดข้อมูลใน Power BI
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 31677a3d92ece6944825eccad190863f67c3a145
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c6cbdf9effa3264eadf19de97be864cc3f152e8b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812433"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>ขั้นตอนที่ 3: สร้างชุดข้อมูลใน Power BI
 บทความนี้เป็นส่วนหนึ่งของการฝึกปฏิบัติทีละขั้นตอนเพื่อ[พุชข้อมูลลงในชุดข้อมูล](walkthrough-push-data.md)
 
-ใน**ขั้นตอนที่ 2** ของการฝึกปฏิบัติ พุชข้อมูลลงในชุดข้อมูล เรื่อง[รับโทเคนการเข้าถึงการรับรองความถูกต้อง](walkthrough-push-data-get-token.md) คุณได้รับโทเค็นการรับรองความถูกต้องกับ **Azure AD** แล้ว ในขั้นตอนนี้ คุณจะใช้โทเค็นไปเรียกการดำเนินการ[สร้างชุดข้อมูล](https://msdn.microsoft.com/library/mt203562.aspx)
+ใน**ขั้นตอนที่ 2** ของการฝึกปฏิบัติ พุชข้อมูลลงในชุดข้อมูล เรื่อง[รับโทเคนการเข้าถึงการรับรองความถูกต้อง](walkthrough-push-data-get-token.md) คุณได้รับโทเค็นการรับรองความถูกต้องกับ **Azure AD** แล้ว ในขั้นตอนนี้ คุณจะใช้โทเค็นเพื่อเรียกการดำเนินการ [โพสต์ชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/pushdatasets)
 
-เพื่อเรียกไปยังทรัพยากร REST คุณใช้ url ที่ระบุตำแหน่งทรัพยากร และคุณส่งสตริง JavaScript Object Notation (JSON) ซึ่งอธิบายชุดข้อมูล ไปยังทรัพยากรของ บริการของ Power BI ทรัพยากร REST ระบุส่วนของบริการของ Power BI ที่คุณต้องการทำงานด้วย เพื่อพุชข้อมูลลงในชุดข้อมูล ทรัพยากรเป้าหมาย คือ**ชุดข้อมูล** URL ที่ระบุชุดข้อมูลคือ https://api.PowerBI.com/v1.0/myorg/datasets ถ้าคุณกำลังพุชข้อมูลภายในกลุ่ม url จะเป็น https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
+เพื่อเรียกไปยังทรัพยากร REST คุณใช้ url ที่ระบุตำแหน่งทรัพยากร และคุณส่งสตริง JavaScript Object Notation (JSON) ซึ่งอธิบายชุดข้อมูล ไปยังทรัพยากรของ บริการของ Power BI ทรัพยากร REST ระบุส่วนของบริการของ Power BI ที่คุณต้องการทำงานด้วย เพื่อพุชข้อมูลลงในชุดข้อมูล ทรัพยากรเป้าหมาย คือ**ชุดข้อมูล** URL ที่ระบุชุดข้อมูลคือ https://api.PowerBI.com/v1.0/myorg/datasets ถ้าคุณกำลังพุชข้อมูลภายในกลุ่ม ค่า URL คือ https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets
 
 เพื่อรับรองความถูกต้องของการดำเนินการ Power BI REST คุณเพิ่มโทเค็นคุณที่คุณได้รับจาก[รับโทเคนการเข้าถึงการรับรองความถูกต้อง](walkthrough-push-data-get-token.md) เข้าไปในส่วนหัวของคำขอ:
 
-เมื่อคุณเรียกการดำเนินการ[สร้างชุดข้อมูล](https://msdn.microsoft.com/library/mt203562.aspx) ชุดข้อมูลใหม่จะถูกสร้างขึ้น 
+เมื่อคุณเรียกใช้การดำเนินการ[โพสต์ชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) ชุดข้อมูลใหม่จะถูกสร้างขึ้น 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -119,7 +112,7 @@ ms.lasthandoff: 01/30/2018
 
 <a name="code"/>
 
-## <a name="complete-code-listing"></a>รายการรหัสที่เสร็จสมบูรณ์
+## <a name="complete-code-listing"></a>รายการรหัสเสร็จสมบูรณ์
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     using System.Net;
@@ -235,10 +228,11 @@ ms.lasthandoff: 01/30/2018
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [รับชุดข้อมูลเพื่อเพิ่มแถวลงในตาราง Power BI](walkthrough-push-data-get-datasets.md)  
 [รับโทเค็นการเข้าถึงการรับรองความถูกต้อง](walkthrough-push-data-get-token.md)  
-[สร้างชุดข้อมูล](https://msdn.microsoft.com/library/mt203562.aspx)  
+[โพสต์ชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/datasets_postdataset)  
+[โพสต์ชุดข้อมูลในกลุ่ม](https://docs.microsoft.com/rest/api/power-bi/datasets_postdatasetingroup)  
 [พุชข้อมูลลงในแดชบอร์ด Power BI](walkthrough-push-data.md)  
 [ภาพรวมของ Power BI REST API](overview-of-power-bi-rest-api.md)  
-[การอ้างอิง Power BI REST API](https://msdn.microsoft.com/library/mt147898.aspx)  
+[การอ้างอิง Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
 
-คำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

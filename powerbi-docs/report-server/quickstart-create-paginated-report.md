@@ -1,29 +1,22 @@
 ---
-title: 'เริ่มต้นใช้งานด่วน: สร้างรายงานแบบแบ่งหน้าสำหรับเซิร์ฟเวอร์รายงาน Power BI'
+title: สร้างรายงานแบบแบ่งหน้าสำหรับเซิร์ฟเวอร์รายงาน Power BI
 description: เรียนรู้วิธีการสร้างรายงานแบบแบ่งหน้าสำหรับเซิร์ฟเวอร์รายงาน Power BI ในขั้นตอนง่ายๆไม่กี่ขั้นตอน
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/12/2017
+ms.component: powerbi-report-server
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 1e77a1ef92826010d6bc2fa28749a2ee17bbe723
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e996b1399ff4dde96d122e747cf1f07db3a44876
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721834"
 ---
-# <a name="quickstart-create-a-paginated-report-for-power-bi-report-server"></a>เริ่มต้นใช้งานด่วน: สร้างรายงานแบบแบ่งหน้าสำหรับเซิร์ฟเวอร์รายงาน Power BI
+# <a name="create-a-paginated-report-for-power-bi-report-server"></a>สร้างรายงานแบบแบ่งหน้าสำหรับเซิร์ฟเวอร์รายงาน Power BI
 ตามชื่อแนะนำ รายงานแบบแบ่งหน้าสามารถเรียกใช้งานกับหน้ามากมาย พวกเขากำลังวางเค้าโครงในรูปแบบคงที่ และเสนอการกำหนดค่าอย่างแม่นยำ รายงานแบบแบ่งหน้าคือ ไฟล์ .rdl
 
 คุณสามารถจัดเก็บและจัดการกับรายงานแบบแบ่งหน้าในเว็บพอร์ทัลเซิร์ฟเวอร์รายงาน Power BI เหมือนกับที่คุณสามารถทำได้ในเว็บพอร์ทัล SQL Server Reporting Services (SSRS) คุณสามารถสร้าง และแก้ไขไฟล์ใน “ตัวสร้างรายงาน” หรือ “ตัวออกแบบรายงาน” ในเครื่องมือข้อมูลเซิร์ฟเวอร์ SQL (SSDT), แล้วเผยแพร่ไปยังเว็บพอร์ทัล จากนั้น ผู้อ่านรายงานในองค์กรของคุณสามารถดูข้อมูลได้ ในเบราว์เซอร์ หรือ ในแอป Power BI บนมือถือในอุปกรณ์เคลื่อนที่ของพวกเขา
@@ -101,7 +94,7 @@ ms.lasthandoff: 11/13/2017
 มีทรัพยากรที่ยอดเยี่ยมมากมายสำหรับการออกแบบรายงานใน “ตัวสร้างรายงาน” และใน “ตัวออกแบบรายงาน” ในเครื่องมือข้อมูลเซิร์ฟเวอร์ SQL บทช่วยสอนตัวสร้างรายงานเหมาะสำหรับการเริ่มต้น
 
 * [บทช่วยสอนตัวสร้างรายงาน](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
-* [คู่มือผู้ใช้เซิร์ฟเวอร์รายงาน Power BI](user-handbook-overview.md)  
+* [เซิร์ฟเวอร์รายงาน Power BI คืออะไร](get-started.md)  
 
-คุณมีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

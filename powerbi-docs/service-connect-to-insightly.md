@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ Insightly ด้วย Power BI
 description: Insightly สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a49260a90647178e0737e728804b00c004b21376
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fe5e061913713c76f64995876dda047f7cdc5fea
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815328"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244467"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>เชื่อมต่อกับ Insightly ด้วย Power BI
 แสดงข้อมูลเป็นภาพและแชร์ข้อมูล Insightly CRM ของคุณใน Power BI ด้วยชุดเนื้อหา Insightly เชื่อมต่อกับ Power BI โดยใช้คีย์ Insightly API ของคุณเพื่อดูและสร้างรายงานและแดชบอร์ดจากข้อมูล CRM ของคุณ ด้วย Power BI คุณสามารถวิเคราะห์ข้อมูลของคุณในรูปแบบใหม่ สร้างแผนภูมิและกราฟอันทรงพลัง และแสดงรายชื่อผู้ติดต่อ ลูกค้าเป้าหมาย และองค์กรต่าง ๆ บนแผนที่ได้
@@ -31,7 +23,7 @@ ms.locfileid: "30815328"
 เชื่อมต่อไปยัง[ชุดเนื้อหา Insightly](https://app.powerbi.com/getdata/services/insightly)สำหรับ Power BI
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
-1. เลือก**รับข้อมูล**ที่ด้านล่างของแผงนำทางด้านซ้ายมือ
+1. เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ
    
    ![](media/service-connect-to-insightly/getdata.png)
 2. ในกล่อง**บริการ** เลือก**รับ**
@@ -47,11 +39,11 @@ ms.locfileid: "30815328"
    
      ![](media/service-connect-to-insightly/dashboard.png)
 
-**ฉันต้องทำอะไรต่อ?**
+**ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่องถามตอบ](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานพื้นฐาน
+* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
 * ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
 
 ## <a name="whats-included"></a>มีอะไรรวมอยู่บ้าง
@@ -84,7 +76,7 @@ ms.locfileid: "30815328"
 ![](media/service-connect-to-insightly/findapi.png)
 
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
-ระบบนำเข้าข้อมูลของคุณผ่านทาง Insightly API ซึ่งรวมถึงขีดจำกัดประจำวันโดยยึดตามระดับแผนการสมัครใช้งาน Insightly ของคุณ ขีดจำกัดจะแสดงอยู่ในส่วนขีดจำกัดอัตรา/การควบคุมคำขอของเอกสาร API ของเรา: https://api.insight.ly/v2.2/Help#!/Overview/Introduction#ratelimit
+ระบบนำเข้าข้อมูลของคุณผ่านทาง Insightly API ซึ่งรวมถึงขีดจำกัดประจำวันโดยยึดตามระดับแผนการสมัครใช้งาน Insightly ของคุณ ขีดจำกัดจะแสดงอยู่ในส่วน ขีดจำกัดอัตรา/การควบคุมปริมาณคำขอ ของเอกสาร API ของเรา: https://api.insight.ly/v2.2/Help#!/Overview/Introduction#ratelimit
 
 รายงานที่ให้ไว้ใช้เขตข้อมูลค่าเริ่มต้นจาก Insightly และอาจไม่รวมค่าที่กำหนดเองของคุณ แก้ไขรายงานเพื่อดูเขตข้อมูลที่พร้อมใช้งานทั้งหมด
 

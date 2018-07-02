@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ Windows Dev Center ด้วย Power BI
 description: Windows Dev Center สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 246c1dc22d120ac01fe5276bbd0a2dd95b0dbc1f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815338"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250065"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>เชื่อมต่อกับ Windows Dev Center ด้วย Power BI
 สำรวจและตรวจสอบข้อมูล Windows Dev Center app analytics ใน Power BI ด้วยชุดเนื้อหา Power BI ข้อมูลจะรีเฟรชโดยอัตโนมัตหนึ่งครั้งต่อวัน
@@ -74,7 +66,7 @@ ms.locfileid: "30815338"
 ## <a name="finding-parameters"></a>การค้นหาพารามิเตอร์
 คุณสามารถค้นหา ID ของแอปพลิเคชั่น โดยไปที่หน้าข้อมูลประจำตัวแอปภายใต้การจัดการแอป
 
-ID แอปพลิเคชัน อยู่บนส่วนท้ายของ URL สำหรับ Windows 10 Store ของคุณ https://www.microsoft.com/store/apps/ **{applicationId }**
+ID แอปพลิเคชัน อยู่ที่ส่วนท้ายของ URL สำหรับ Windows 10 Store ของคุณ https://www.microsoft.com/store/apps/ **{applicationId}**
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [เริ่มต้นใช้งานใน Power BI](service-get-started.md)

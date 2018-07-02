@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/18/2018
 ms.author: maghan
-ms.openlocfilehash: 2963dbe2a5d1109e4396568624e16bf49d98da10
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481763"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>ข้อกำหนดฮาร์ดแวร์และซอฟต์แวร์สำหรับติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 ที่นี่คุณจะพบข้อกำหนดขั้นต่ำของฮาร์ดแวร์และซอฟต์แวร์เพื่อติดตั้งและเรียกใช้เซิร์ฟเวอร์รายงาน Power BI
@@ -57,17 +58,17 @@ SQL Server ถูกใช้เพื่อโฮสต์ฐานข้อม
  ในขณะที่สามารถติดตั้งเซิร์ฟเวอร์รายงานในสภาพแวดล้อมที่มีตัวควบคุมโดเมนแบบอ่านอย่างเดียว (RODC), Reporting Services จำเป็นต้องเข้าถึงตัวควบคุมโดเมนแบบอ่าน-เขียนเพื่อให้ทำงานได้อย่างถูกต้อง ถ้า Reporting Services สามารถเข้าถึง RODC ได้เท่านั้นคุณอาจพบข้อผิดพลาดเมื่อพยายามจัดการบริการ
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>การเชื่อมต่อสดของรายงาน Power BI และ Analysis Services
-คุณสามารถใช้การเชื่อมต่อสดกับอินสแตนซ์ตารางหรืออินสแตนซ์หลายมิติ เซิร์ฟเวอร์ Analysis Services ของคุณต้องเป็นรุ่นและอิดิทชั่นที่เหมาะสมเพื่อให้ทำงานได้ดี
+คุณสามารถใช้การเชื่อมต่อแบบสดกับอินสแตนซ์หลายมิติ หรือแบบตาราง เซิร์ฟเวอร์ Analysis Services ของคุณต้องเป็นเวอร์ชันและรุ่นที่เหมาะสมเพื่อให้ทำงานได้ถูกต้อง
 
-| **เวอร์ชันของเซิร์ฟเวอร์** | **SKU ที่จำเป็นต้องมี** |
+| **รุ่นของเซิร์ฟเวอร์** | **SKU ที่จำเป็นต้องมี** |
 | --- | --- |
 | 2012 SP1 CU4 หรือใหม่กว่า |เทคโนโลยีสำหรับการรวบรวมข้อมูล จัดเก็บ วิเคราะห์ และการเข้าถึงข้อมูล รวมถึงการดูในหลากหลายมุมมอง (BI) และ SKU องค์กร |
 | 2014 |Business Intelligence and Enterprise SKU |
 | 2016 และเวอร์ชันที่ใหม่กว่า |SKU มาตรฐาน หรือสูงกว่า |
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[คู่มือผู้ใช้](user-handbook-overview.md)  
-[คู่มือผู้ดูแลระบบ](admin-handbook-overview.md)  
+[เซิร์ฟเวอร์รายงาน Power BI คืออะไร](get-started.md)  
+[ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
 [ติดตั้ง Power BI Report Server](install-report-server.md)  
 [ติดตั้งตัวสร้างรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [ดาวน์โหลด SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)

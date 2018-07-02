@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: e13a4810baf4898eb9aba7b09978991c9bc3d0a6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 0bfad6dba38cce4bd170bb3f3bd7f9a7877b6174
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "34480945"
 ---
 # <a name="migrate-a-report-server-installation"></a>ย้ายการติดตั้งเซิร์ฟเวอร์รายงาน
 เรียนรู้วิธีการย้ายอินสแตนซ์ SQL Server Reporting Services (SSRS) ที่มีอยู่ของคุณไปยังอินสแตนซ์ของเซิร์ฟเวอร์รายงาน Power BI
@@ -98,7 +99,7 @@ rs.exe
 * ดำเนินการล้างข้อมูลต่างๆที่จำเป็นสำหรับการติดตั้งเซิร์ฟเวอรรายงาน์ Power BI แบบเดิม
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[คู่มือผู้ดูแลระบบ](admin-handbook-overview.md)  
+[ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
 [ติดตั้ง Power BI Report Server](install-report-server.md)  
 [สคริปต์กับ rs.exe Utility และ Web Service](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
 

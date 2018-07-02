@@ -1,30 +1,24 @@
 ---
-title: 'บทช่วยสอน: เชื่อมต่อกับแอป GitHub ด้วย Power BI'
+title: 'บทช่วยสอน: เชื่อมต่อกับตัวอย่าง GitHub ด้วย Power BI'
 description: ในบทช่วยสอนนี้ คุณจะเชื่อมต่อกับข้อมูลจริงในบริการ GitHub ด้วย Power BI และ Power BI จะสร้างแดชบอร์ดและรายงานโดยอัตโนมัติ
 author: maggiesMSFT
 manager: kfile
-backup: SarinaJoan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.custom: connect-to-services
-ms.devlang: NA
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5f393d8255128b27dce8422444b427835aeef0cb
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310118"
 ---
-# <a name="tutorial-connect-to-the-github-app-with-power-bi"></a>บทช่วยสอน: เชื่อมต่อกับแอป GitHub ด้วย Power BI
+# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>บทช่วยสอน: เชื่อมต่อกับตัวอย่าง GitHub ด้วย Power BI
 ในบทช่วยสอนนี้ คุณจะเชื่อมต่อกับข้อมูลจริงในบริการ GitHub ด้วย Power BI และ Power BI จะสร้างแดชบอร์ดและรายงานโดยอัตโนมัติ คุณจะเชื่อมต่อกับที่เก็บเนื้อหาสาธารณะของ Power BI (หรือที่เรียกว่า *ที่เก็บ*) และดูข้อมูล: มีบุคคลกี่คนให้การสนับสนุนเนื้อหาสาธารณะของ Power BI ใครให้การสนับสนุนมากที่สุด วันใดในสัปดาห์ที่มีการสนับสนุนมากที่สุด และตอบคำถามอื่นๆ 
 
 ![รายงาน GitHub ใน Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)

@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c550b911eef43ade98b3bc771e3f13929b805e11
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ae8919bbe06c729cc43e230146c4c1a216a80168
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287635"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813259"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>ขั้นตอนที่ 4: รับชุดข้อมูลเพื่อเพิ่มแถวลงในตาราง Power BI
 บทความนี้เป็นส่วนหนึ่งของคำแนะนำทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
 
-ใน**ขั้นตอนที่ 3**เป็นขั้นตอนการส่งข้อมูลไปยังชุดข้อมูล[สร้างชุดข้อมูลใน Power BI](walkthrough-push-data-create-dataset.md)คุณเรียกใช้การดำเนินการ[สร้างชุดข้อมูล](https://msdn.microsoft.com/library/mt203562.aspx)เพื่อสร้างชุดข้อมูลใน Power BI ในขั้นตอนนี้ ให้คุณใช้การดำเนินการ[รับชุดข้อมูล](https://msdn.microsoft.com/library/mt203567.aspx)และ Newtonsoft.Json เพื่อรับรหัสชุดข้อมูล คุณสามารถใช้รหัสชุดข้อมูลในขั้นตอนที่ 4 เพื่อเพิ่มแถวไปยังชุดข้อมูล 
+ใน**ขั้นตอนที่ 3**เป็นขั้นตอนการส่งข้อมูลไปยังชุดข้อมูล[สร้างชุดข้อมูลใน Power BI](walkthrough-push-data-create-dataset.md)คุณเรียกใช้การดำเนินการ[สร้างชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/datasets)เพื่อสร้างชุดข้อมูลใน Power BI ในขั้นตอนนี้ ให้คุณใช้การดำเนินการ[รับชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/getdatasets)และ Newtonsoft.Json เพื่อรับรหัสชุดข้อมูล คุณสามารถใช้รหัสชุดข้อมูลในขั้นตอนที่ 4 เพื่อเพิ่มแถวไปยังชุดข้อมูล 
 
-เมื่อต้องส่งข้อมูลไปยังชุดข้อมูล Power BI คุณจำเป็นต้องอ้างอิงตารางในชุดข้อมูล เมื่อต้องการอ้างอิงตารางในชุดข้อมูล ก่อนอื่นคุณต้องได้รับ**รหัสชุดข้อมูล** คุณได้รับ**รหัสชุดข้อมูล**โดยใช้การดำเนินการ[”รับชุดข้อมูล”](https://msdn.microsoft.com/library/mt203567.aspx) การดำเนินการ **”รับชุดข้อมูล”** ส่งคืนสตริง JSON ที่ประกอบด้วยรายการของชุดข้อมูลทั้งหมดใน Power BI วิธีแนะนำในการยกเลิกการจัดลำดับสตริง JSON อยู่ใน[Newtonsoft.Json](http://www.newtonsoft.com/json)
+เมื่อต้องส่งข้อมูลไปยังชุดข้อมูล Power BI คุณจำเป็นต้องอ้างอิงตารางในชุดข้อมูล เมื่อต้องการอ้างอิงตารางในชุดข้อมูล ก่อนอื่นคุณต้องได้รับ**รหัสชุดข้อมูล** คุณจะได้รับ**รหัสชุดข้อมูล**โดยใช้การดำเนินการ[รับชุดข้อมูลจากรหัส](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid) การดำเนินการ**รับชุดข้อมูลจากรหัส** จะส่งคืนสตริง JSON ที่ประกอบด้วยรายการของชุดข้อมูลทั้งหมดใน Power BI วิธีแนะนำในการยกเลิกการจัดลำดับสตริง JSON อยู่ใน[Newtonsoft.Json](http://www.newtonsoft.com/json)
 
 นี่คือวิธีที่คุณได้รับชุดข้อมูล
 
@@ -267,10 +267,10 @@ ms.locfileid: "34287635"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [เพิ่มแถวลงในตาราง Power BI](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
-[รับชุดข้อมูล](https://msdn.microsoft.com/library/mt203567.aspx)  
+[รับชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
 [ส่งข้อมูลไปยัง Power BI](walkthrough-push-data.md)  
 [ภาพรวมของ Power BI REST API](overview-of-power-bi-rest-api.md)  
-[การอ้างอิง Power BI REST API](https://msdn.microsoft.com/library/mt147898.aspx)  
+[การอ้างอิง Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
 
 คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

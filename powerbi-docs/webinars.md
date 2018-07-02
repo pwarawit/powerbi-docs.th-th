@@ -1,27 +1,20 @@
 ---
 title: การสัมมนาออนไลน์ Power BI
 description: การสัมมนาออนไลน์ Power BI
-services: powerbi
-documentationcenter: ''
 author: maikelson
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/26/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/09/2018
 ms.author: maikelson
-ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
-ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
+ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34299297"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -31,17 +24,13 @@ ms.lasthandoff: 04/27/2018
 
 ลงทะเบียนเพื่อรับข่าวสารจากผู้เชี่ยวชาญ Power BI และมีส่วนร่วมในเซสชันการถามตอบแบบออนไลน์
 
-**[ชุดข้อมูลการสัมมนาบนเว็บของการนำกรอบงานไปใช้ใน Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
-<br>โดย Manu Kanwarpal และ Paul Henwood
-<br>*มีนาคม เมษายน และพฤษภาคม 2018 เวลา 9:00 น. PST, 12:00 น. EST*
+**วาดภาพข้อมูลเชิงลึกที่เหมาะสมด้วย Power BI และ Visio**
+<br>โดย Shakun Grover
+<br>*22 พฤษภาคม 2018 เวลา 10:00 น. PST, 1:00PM EST*
 
-วางแผนการเผยแพร่ Power BI ที่มีประสิทธิภาพสำหรับองค์กรของคุณและค้นหาความแตกต่างของการจัดการการให้บริการซอฟต์แวร์ที่มีประสิทธิภาพ (SaaS) นี่คือชุดข้อมูลแบบห้าส่วนที่ปลดล็อกศักยภาพของ Power BI สำหรับองค์กรของคุณ
+เข้าร่วมกับเราสำหรับการสัมมนาผ่านเว็บนี้เพื่อเรียนรู้วิธีการรวมแดชบอร์ด Power BI และไดอะแกรม Microsoft Visio เพื่อสร้างข้อมูลเชิงลึกแบบเป็นภาพที่ทรงพลัง Visio และ Power BI จะเป็นภาพสูงและเสริมกันอย่างเป็นธรรมชาติ Visio ช่วยให้คุณสามารถสร้างไดอะแกรมเพื่อแสดงได้ เช่น เวิร์กโฟลว์ที่เชื่อมต่อถึงกันและเค้าโครงเสมือนจริง Power BI ช่วยให้คุณสร้างแดชบอร์ดได้ง่ายโดยใช้แผนภูมิและแผนที่เพื่อวัดตัวบ่งชี้ประสิทธิภาพหลัก รวมถึงติดตามเป้าหมายด้วย
 
-[ลงทะเบียนเพื่อเข้าชมในวันที่ 1 พฤษภาคม - ส่วนที่ 5 - การเผยแพร่: การเผยแพร่ Power BI ได้สำเร็จ](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
-<br>[ลงทะเบียนและเข้าชมได้ทันที - ส่วนที่ 4 - ความปลอดภัย: เก็บรักษาข้อมูลของคุณให้ปลอดภัยด้วย Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
-<br>[ลงทะเบียนและเข้าชมได้ทันที - ส่วนที่ 3 - การจัดการบริการ: ข้อมูลเชิงลึกของการจัดการบริการ Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
-<br>[ลงทะเบียนและเข้าชมได้ทันที - ส่วนที่ 2 - การควบคุม: ควบคุมการใช้งาน Power BI ของคุณ](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
-<br>[ลงทะเบียนและเข้าชมได้ทันที - ส่วนที่ 1 - การเริ่มนำไปใช้: เริ่มนำวัฒนธรรมที่ใช้ข้อมูลไปใช้](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+[ลงทะเบียนเพื่อชมในวันที่ 22 พฤษภาคม](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **เรียนรู้เกี่ยวกับ Power BI Embedded ใน 20 นาที**
 <br>โดย Megan Asarrane และ Colin Murphy
@@ -88,6 +77,10 @@ ms.lasthandoff: 04/27/2018
 **วิธีการออกแบบรายงาน Power BI ที่อันน่าทึ่งแบบมองเห็นได้**
 <br>โดย Charles Sterling
 <br>[ดูเดี๋ยวนี้](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**นอกเหนือจาก Spreadsheet**
+<br>โดย Gohul Shanmugalingam
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
 
 **แปลงรายงานจากแนะนำให้คุณยอดเยี่ยม!**
 <br>โดย Reid Havens
@@ -139,6 +132,14 @@ ms.lasthandoff: 04/27/2018
 <br>โดย Nagasaikiran Kambhampati และ Miguel Martinez
 <br>[ลงทะเบียนเพื่อเข้าชม](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[ดาวน์โหลดชุดเริ่มต้นสำหรับการวิเคราะห์ข้นสูงเพื่อทำตาม](https://aka.ms/pbiaawebinar)
+
+**[ชุดข้อมูลการสัมมนาบนเว็บของการนำกรอบงานไปใช้ใน Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+<br>โดย Manu Kanwarpal และ Paul Henwood
+<br>[ลงทะเบียนและเข้าชมได้ทันที - ส่วนที่ 1 - การเริ่มนำไปใช้: เริ่มนำวัฒนธรรมที่ใช้ข้อมูลไปใช้](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+<br>[ลงทะเบียนและเข้าชมได้ทันที - ส่วนที่ 2 - การควบคุม: ควบคุมการใช้งาน Power BI ของคุณ](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[ลงทะเบียนและเข้าชมได้ทันที - ส่วนที่ 3 - การจัดการบริการ: ข้อมูลเชิงลึกของการจัดการบริการ Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[ลงทะเบียนและเข้าชมได้ทันที - ส่วนที่ 4 - ความปลอดภัย: เก็บรักษาข้อมูลของคุณให้ปลอดภัยด้วย Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[ลงทะเบียนและเข้าชมตอนนี้ - ส่วนที่ 5 - การเผยแพร่: การเผยแพร่ Power BI ได้สำเร็จ](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
 **ชุดข้อมูลการสัมมนาบนเว็บของผู้เชี่ยวชาญด้านการเงินของ Office 365**
 <br>โดย Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky และ Miguel Martinez

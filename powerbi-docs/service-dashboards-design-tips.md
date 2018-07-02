@@ -1,29 +1,21 @@
 ---
 title: เคล็ดลับสำหรับการออกแบบแดชบอร์ด Power BI ที่ยอดเยี่ยม
 description: เคล็ดลับสำหรับการออกแบบแดชบอร์ด Power BI ที่ยอดเยี่ยม
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/02/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9c67aa0982733847cdca7d6079fa8887e6c1d1d2
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
-ms.locfileid: "29924957"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247058"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>เคล็ดลับสำหรับการออกแบบแดชบอร์ด Power BI ที่ยอดเยี่ยม
 หลังจากที่คุณสร้างแดชบอร์ด และเพิ่มไทล์บางตัวเข้าไป ให้คิดเกี่ยวกับวิธีการทำให้แดชบอร์ดของคุณไม่เพียงแค่สวยงามเท่านั้น แต่ยังทำงาน โดยทั่วไป ซึ่งหมายความว่า ทำข้อมูลที่สำคัญที่สุดออกให้โดดเด่น และทำให้สะอาด และเป็นระเบียบ
@@ -32,25 +24,28 @@ ms.locfileid: "29924957"
 
 > [!TIP]
 > หลักการออกแบบสำหรับรายงานจำนวนมากนำไปใช้กับแดชบอร์ดได้เช่นกัน  อ่านเอกสารทางเทคนิคของเราเรื่อง[หลักการออกแบบที่ดีที่สุดสำหรับรายงานและการแสดงภาพ](power-bi-visualization-best-practices.md)
-> 
-> 
+>
+>
 
-### <a name="consider-your-audience"></a>ให้พิจารณาผู้ชมรายงาน
+## <a name="watch-the-dashboard-makeover-webinarhttpsinfomicrosoftcomco-powerbi-wbnr-fy16-05may-12-dashboard-makeover-registrationhtml"></a>ให้เข้า[การสัมมนาผ่านเว็บเกี่ยวกับการตกแต่งแดชบอร์ด](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html)
+ดูผู้เชี่ยวชาญ Microsoft Principal Program Manager และแดชบอร์ด Power BI คุณ Marc Reguera [ดำเนินการตกแต่งแดชบอร์ด ](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html)
+
+## <a name="consider-your-audience"></a>ให้พิจารณาผู้ชมรายงาน
 อะไรคือตัววัดหลักที่จะช่วยให้พวกเขาทำการตัดสินใจ วิธการใช้แดชบอร์ด สิ่งที่ได้เรียนรู้หรือสมมติฐานทางวัฒนธรรมบริโภคนิยมอะไรส่งผลต่อตัวเลือกการออกแบบ ข้อมูลใดที่ผู้ชมของคุณต้องทำให้สำเร็จ
 
 ให้จำไว้ว่า แดชบอร์ดคือภาพรวมหรือสถานที่เดียวที่สามารถตรวจสอบสถานะปัจจุบันของธุรกิจได้ แดชบอร์ดที่จะยึดตามรายงานต้นแบบและชุดข้อมูล และสิ่งทีมีการโหลดของรายละเอียด ผู้อ่านของคุณสามารถเจาะลึกเข้ารายงานจากแดชบอร์ดของคุณได้ ดังนั้นอย่าใส่รายละเอียดในแดชบอร์ดเว้นแต่ว่านั่นคือสิ่งที่ผู้อ่านของคุณจำเป็นต้องตรวจสอบ
 
 แดชบอร์จะถูกแสดงอย่างไร ถ้าจะอยู่บนจอภาพขนาดใหญ่ คุณสามารถใส่เนื้อหาเพิ่มเติมได้ ถ้าผู้อ่านอ่านบนแท็บเล็ต หากมีไทล์น้อยลงจะสามารถอ่านได้ง่ายขึ้น
 
-### <a name="tell-a-story-and-keep-it-to-one-screen"></a>บอกเล่าเรื่องราวและอยู่ในหน้าจอเดียว
+## <a name="tell-a-story-and-keep-it-to-one-screen"></a>บอกเล่าเรื่องราวและอยู่ในหน้าจอเดียว
 เนื่องจากแดชบอร์ดที่มีไว้เพื่อแสดงข้อมูลที่สำคัญอย่างรวดเร็ว หากมีไทล์ทั้งหมดบนหนึ่งหน้าจอจะดีที่สุด คุณสามารถหลีกเลี่ยงแถบเลื่อนบนแดชบอร์ดของคุณได้ไหม
 
 มีแดชบอร์ดเกินไปอีกหรือไม่  ลบข้อมูลที่จำเป็นทั้งหมดซึ่งอ่านได้และแปลความหมายได้อย่างง่ายดาย
 
-### <a name="make-use-of-full-screen-mode"></a>ทำให้ใช้โหมดเต็มหน้าจอ
+## <a name="make-use-of-full-screen-mode"></a>ทำให้ใช้โหมดเต็มหน้าจอ
 แสดงแดชบอร์ดของคุณแบบ[เต็มหน้าจอ](service-fullscreen-mode.md)โดยไม่มีสิ่งรบกวน
 
-### <a name="make-the-most-important-information-biggest"></a>ทำให้ข้อมูลที่สำคัญที่่สุดให้ใหญ่ที่สุด
+## <a name="make-the-most-important-information-biggest"></a>ทำให้ข้อมูลที่สำคัญที่่สุดให้ใหญ่ที่สุด
 ถ้าข้อความและการแสดงภาพบนแดชบอร์ดของคุณจะมีขนาดเท่ากันทั้งหมด ผู้อ่านของคุณจะหาสิ่งสำคัญมากที่สุดยาก ตัวอย่างเช่น แสดงภาพการ์ดเป็นวิธีดีในการแสดงหมายเลขสำคัญให้เป็นที่รู้จัก  
 ![การแสดงภาพการ์ด](media/service-dashboards-design-tips/pbi_card.png)
 
@@ -58,10 +53,10 @@ ms.locfileid: "29924957"
 
 อ่านเกี่ยวกับ[การสร้างไทล์ที่มีเพียงตัวเลขตัวเดียว](power-bi-visualization-card.md)
 
-### <a name="put-the-most-important-information-in-the-upper-corner"></a>ใส่ข้อมูลที่สำคัญที่สุดที่มุมด้านบน
+## <a name="put-the-most-important-information-in-the-upper-corner"></a>ใส่ข้อมูลที่สำคัญที่สุดที่มุมด้านบน
 คนส่วนใหญ่อ่านจากบนลงล่าง ดังนั้นให้ใส่รายละเอียดที่ด้านบนและแสดงรายละเอียดเพิ่มเติมเมื่อคุณย้ายในทิศทางที่ผู้ชมใช้อ่าน (จากซ้ายไปขวา ขวาไปซ้าย)
 
-### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>ใช้การแสดงภาพที่เหมาะสมสำหรับข้อมูล และจัดรูปแบบให้อ่านได้ง่าย
+## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>ใช้การแสดงภาพที่เหมาะสมสำหรับข้อมูล และจัดรูปแบบให้อ่านได้ง่าย
 หลีกเลี่ยงการแสดงภาพต่างๆ เพื่อให้มีความหลากหลาย  การแสดงภาพควรลงสีรูปภาพ และให้ "อ่าน" และแปลได้ง่าย  สำหรับข้อมูลและภาพบางอย่าง ภาพกราฟิกง่าย ๆ ก็เพียงพอ แต่อาจเรียกข้อมูลอื่นๆ เพื่อแสดงภาพที่ซับซ้อนมากขึ้น โปรดทำให้แน่ใจว่าได้ใช้ชื่อและป้ายชื่อและการกำหนดเองแบบอื่นๆ เพื่อช่วยผู้อ่าน  
 
 * [เลือกการแสดงภาพข้อมูลที่เหมาะสม](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx) ระมัดระวังการใช้แผนภูมิที่บิดเบือนความเป็นจริง เช่น แผนภูมิสามมิติ โปรดทราบว่า เป็นเรื่องยากสำหรับสมองมนุษยในการแปลรูปร่างวงกลม แผนภูมิวงกลม แผนภูมิโดนัท แผนภูมิหน้าปัดและชนิดแผนภูมิวงกลมอื่นๆ อาจมีลักษณะสวยงาม แต่ไม่ใช่แนวปฏิบัติที่ดีที่สุดสำหรับการแสดงภาพข้อมูล
@@ -85,7 +80,6 @@ ms.locfileid: "29924957"
 * *Advanced Presentations* Design โดย Andrew Abela   
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[แดชบอร์ดใน Power BI](service-dashboards.md)  
+[สร้างแดชบอร์ดจากรายงาน](service-dashboard-create.md)  
 [Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)  
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
-

@@ -1,35 +1,32 @@
 ---
 title: ภาพรวม Q&A ใน Power BI service และ Desktop
 description: หัวข้อภาพรวมเอกสารประกอบสำหรับคิวรี่ภาษาธรรมชาติ Q&A ของ Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 814c4a4274b5f2e022074454ce5460d13a20f1e2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815668"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295479"
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Q&A ใน Power BI service และ Power BI Desktop
 ## <a name="what-is-qa"></a>Q&A คืออะไร
 ในบางครั้ง วิธีที่เร็วที่สุดในการให้ได้คำตอบจากข้อมูลของคุณคือ การถามคำถามโดยใช้ภาษาธรรมชาติ ตัวอย่างเช่น "ยอดขายรวมปีที่แล้วเป็นเท่าไหร่"  ใช้ Q&A เพื่อสำรวจข้อมูลของคุณโดยใช้การอนุมาน ความสามารถภาษาธรรมชาติ และรับคำตอบในรูปแบบของแผนภูมิและกราฟ Q&A แตกต่างจากโปรแกรมค้นหา Q&A เพียงแค่แสดงผลลัพธ์เกี่ยวกับข้อมูลใน Power BI
 
 บทความนี้จะกระโดดไปยัง Q&A ทุกอย่าง เลือกการเชื่อมโยงด้านล่างเพื่อเรียนรู้ Q&A ทำงานอย่างไรใน Power BI ทำงานแบบบริการตนเอง (แดชบอร์ดและรายงาน) Power BI Desktop (รายงาน) Power BI Embedded และ Power BI สำหรับอุปกรณ์เคลื่อน  
+
+> [!NOTE]
+> **ถามตอบ Power BI** สนับสนุนการตอบคำถามภาษาธรรมชาติ ที่ถามเป็นภาษาอังกฤษ คุณยังสามารถลองใช้คุณลักษณะตัวอย่าง สำหรับคำถามที่ถามเป็นภาษาสเปน ใน **Power BI Desktop** ไปที่**ไฟล์**, **ตัวเลือกและการตั้งค่า**, **ตัวเลือก** และค้นหาแท็บ**คุณลักษณะตัวอย่าง** เลือกกล่องสำหรับ**การสนับสนุนภาษาสเปนสำหรับ Q&A**  
+>
+>
 
 ![](media/power-bi-q-and-a/pbi_qa_boxsalessqft.png)
 

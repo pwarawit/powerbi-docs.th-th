@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 640c6dac9a896cff55bddad46ceef8bce7ccae14
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 238d068e5083c8f46ac3299faddd4e0872f0654d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289383"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812640"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>ขั้นตอนที่ 2: รับโทเค็นการเข้าถึงการรับรองความถูกต้อง
 บทความนี้เป็นส่วนหนึ่งของคำแนะนำทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
@@ -104,7 +104,7 @@ ms.locfileid: "34289383"
        #endregion
 ```
 
-หลังจากที่คุณได้รับโทเค็นรับรองความถูกต้อง คุณสามารถเรียกการดำเนินการ Power BI ต่างๆได้ ขั้นตอนถัดไปแสดงวิธีการเรียกใช้การดำเนินการ[สร้างชุดข้อมูล](https://msdn.microsoft.com/library/mt203562.aspx)เพื่อสร้างชุดข้อมูลและส่งข้อมูลลงในแดชบอร์ด
+หลังจากที่คุณได้รับโทเค็นรับรองความถูกต้อง คุณสามารถเรียกการดำเนินการ Power BI ต่างๆได้ ขั้นตอนถัดไปแสดงวิธีการเรียกใช้การดำเนินการ [โพสต์ชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) เพื่อสร้างชุดข้อมูลให้สามารถพุชข้อมูลลงในแดชบอร์ด
 
 ขั้นตอนถัดไปแสดงวิธีการ[สร้างชุดข้อมูลใน Power BI](walkthrough-push-data-create-dataset.md)
 
@@ -181,6 +181,6 @@ ms.locfileid: "34289383"
 [ไลบรารีรับรองความถูกต้อง AD azure สำหรับแพคเกจ .NET NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
 [ส่งข้อมูลลงในชุดข้อมูล Power BI](walkthrough-push-data.md)  
 [ภาพรวมของ Power BI REST API](overview-of-power-bi-rest-api.md)  
-[การอ้างอิง Power BI REST API](https://msdn.microsoft.com/library/mt147898.aspx)  
+[การอ้างอิง Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
 คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ Webtrends ด้วย Power BI
 description: Webtrends สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9c8772430143b974fb389eac2f2ad3e74748fd3f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 89eda507e0b908fe746cb13c0c6477baed07ba3c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815403"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34243035"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>เชื่อมต่อกับ Webtrends ด้วย Power BI
 ชุดเนื้อหา Webtrends สำหรับ Power BI มีเมตริกแบบนอกกล่องหลายตัว เช่นมุมองเพจทั้งหมด และการเข้าชมด้วยปริมาณการใช้งานแหล่งข้อมูล แสดงผลเป็นภาพของข้อมูล Webtrends ของคุณใน Power BI ที่เริ่มต้นโดยการเชื่อมต่อกับบัญชี Webtrends ของคุณ คุณสามารถใช้แดชบอร์ดและรายงานที่แสดงไว้ หรือปรับแต่งเพื่อไฮไลต์ข้อมูลที่คุณสนใจมากที่สุด  ข้อมูลจะรีเฟรชโดยอัตโนมัตหนึ่งครั้งต่อวัน
@@ -103,7 +95,7 @@ ms.locfileid: "30815403"
 ![](media/service-connect-to-webtrends/webtrendscreds.png)
 
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
-คุณอาจพบปัญหาขณะที่ชุดเนื้อหานี้กำลังโหลดอยู่ หลังจากที่คุณได้ให้ข้อมูลประจำตัวของคุณ ถ้าคุณเห็นข้อความ "Oops" ระหว่างการโหลด โปรดดูคำแนะนำแก้ปัญหาที่ด้านล่าง ถ้าคุณยังคงพบปัญหา โปรดบันทึกการ์ดการสนับสนุนใน https://support.powerbi.com
+คุณอาจพบปัญหาขณะที่ชุดเนื้อหานี้กำลังโหลดอยู่ หลังจากที่คุณได้ให้ข้อมูลประจำตัวของคุณ ถ้าคุณเห็นข้อความ "Oops" ระหว่างการโหลด โปรดดูคำแนะนำแก้ปัญหาที่ด้านล่าง หากคุณยังพบปัญหานี้อยู่ กรุณายื่นตั๋วขอความช่วยเหลือที่https://support.powerbi.com
 
 1. ใช้โปรไฟล์ ID ที่ถูกต้องกำลังถูกใช้ ให้ดู[ค้นหาพารามิเตอร์](#FindingParams)สำหรับรายละเอียดเพิ่มเติม
 2. ผู้ใช้มีสิทธิ์เข้าถึงรายงานที่แสดงอยู่ในส่วน["มีอะไรบ้าง"](#Included)

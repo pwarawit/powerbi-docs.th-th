@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ Zendesk ด้วย Power BI
 description: Zendesk สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 52adef9d30ec269e6e3a954632a54814b241623d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 997dd8b598e67d590723c72fb35245c3b3486c8b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815323"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242457"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>เชื่อมต่อกับ Zendesk ด้วย Power BI
 ชุดเนื้อหา Zendesk นำเสนอแดชบอร์ด Power BI และชุดของรายงาน Power BI ที่มีข้อมูลเชิงลึกเกี่ยวกับปริมาณตั๋วและประสิทธิภาพการทำงานของบริษัทตัวแทน คุณสามารถใช้แดชบอร์ดและรายงานที่มีให้ได้ หรือปรับแต่งเพื่อไฮไลท์ข้อมูลที่คุณสนใจมากที่สุด  ข้อมูลจะรีเฟรชโดยอัตโนมัติหนึ่งครั้งต่อวัน 
@@ -34,7 +26,7 @@ ms.locfileid: "30815323"
 >จำเป็นต้องมีบัญชีผู้ดูแลระบบ Zendesk เพื่อเชื่อมต่อ รายละเอียดเพิ่มเติมเกี่ยวกับ[ข้อกำหนด](#Requirements)ที่ด้านล่าง
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
-1. เลือก**รับข้อมูล**ที่ด้านล่างของแผงนำทางด้านซ้ายมือ
+1. เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ
    
    ![](media/service-connect-to-zendesk/pbi_getdata.png)
 2. ในกล่อง**บริการ** เลือก**รับ**
@@ -43,7 +35,7 @@ ms.locfileid: "30815323"
 3. เลือก**Zendesk** \> **รับ**
    
    ![](media/service-connect-to-zendesk/zendesk.png)
-4. ให้ URL ที่เชื่อมโยงกับบัญชีของคุณ นี่จะเป็นในรูปแบบ**https://company.zendesk.com**ดูรายละเอียดบน[ค้นหาพารามิเตอร์เหล่านี้](#FindingParams)ที่ด้านล่าง
+4. ให้ URL ที่เชื่อมโยงกับบัญชีของคุณ นี่จะเป็นในรูปแบบ**https://company.zendesk.com** ดูรายละเอียดบน[ค้นหาพารามิเตอร์](#FindingParams)เหล่านี้ที่ด้านล่าง
    
    ![](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
 5. เมื่อมีข้อความปรากฏ ใส่ข้อมูลประจำตัวของ Zendesk  เลือก**oAuth 2**เป็นกลไกการรับรองความถูกต้อง แล้วคลิก**ลงชื่อเข้าใช้** ทำตามขั้นตอนการรับรองความถูกต้อง Zendesk (ถ้าคุณลงชื่อเข้าใช้ Zendesk อยู่แล้วในเบราว์เซอร์ของคุณ คุณอาจไม่ได้รับข้อความปรากฏให้ใส่ข้อมูลประจำตัว)
@@ -61,11 +53,11 @@ ms.locfileid: "30815323"
    
    ![](media/service-connect-to-zendesk/pbi_zendeskdash.png)
 
-**ฉันต้องทำอะไรต่อ?**
+**ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่องถามตอบ](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานพื้นฐาน
+* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
 * ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
 
 ## <a name="whats-included"></a>มีอะไรรวมอยู่บ้าง

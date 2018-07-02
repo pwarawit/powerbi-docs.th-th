@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 05/19/2018
 ms.author: maggies
-ms.openlocfilehash: 9bfcf7ab0b752cdbacefe7075e5975f7b0eb8bf9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a7012bf96ee0f8ac7e73d1db21e9a36f0fea88cb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481060"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>การสนับสนุนเบราว์เซอร์สำหรับ Power BI Report Server
 Power BI Report Server จะมีการเผยแพร่ไม่กี่ครั้งต่อปี ความปลอดภัยและการอัปเดตที่สำคัญจะพร้อมใช้งานจนกว่าการเผยแพร่ถัดไปจะพร้อมใช้งานโดยทั่วไป (GA) หลังจากการเผยแพร่ถัดไป การเผยแพร่ก่อนหน้านี้จะยังคงได้รับการอัปเดตความปลอดภัยสำหรับส่วนที่เหลือในช่วงอายุการเผยแพร่ 12 เดือน
@@ -36,9 +37,9 @@ Power BI Report Server จะมีการเผยแพร่ไม่กี
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [มีอะไรใหม่ใน Power BI Report Server](whats-new.md)  
-[คู่มือผู้ใช้](user-handbook-overview.md)  
-[คู่มือผู้ดูแลระบบ](admin-handbook-overview.md)  
+[เซิร์ฟเวอร์รายงาน Power BI คืออะไร](get-started.md)
+[ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
 [ติดตั้ง Power BI Report Server](install-report-server.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

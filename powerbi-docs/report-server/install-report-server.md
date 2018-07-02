@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: a0fc47776cd0eaceb4a03a99bc27b88b04da398d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3efd7da5ef320e08ab620da3c63a6d3ff327396a
+ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250395"
 ---
 # <a name="install-power-bi-report-server"></a>ติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 
@@ -23,11 +24,7 @@ ms.lasthandoff: 05/17/2018
 
 เมื่อต้องการดาวน์โหลดเซิร์ฟเวอร์รายงาน Power BI ไปที่[การรายงานภายในองค์กรกับเซิร์ฟเวอร์ Power BI](https://powerbi.microsoft.com/report-server/)และเลือก**ดาวน์โหลดเวอร์ชันทดลองใช้ฟรี** 
 
-## <a name="video-install-power-bi-report-server"></a>วิดีโอ: ติดตั้งเซิร์ฟเวอร์รายงาน Power BI
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-## <a name="before-you-begin"></a>ก่อนเริ่มต้น
+## <a name="before-you-begin"></a>ก่อนที่คุณเริ่มต้น
 ก่อนที่คุณจะติดตั้งเซิร์ฟเวอร์รายงาน Power BI เราขอแนะนำให้คุณตรวจสอบ[ข้อกำหนดของฮาร์ดแวร์และซอฟต์แวร์สำหรับการติดตั้งเซิร์ฟเวอร์รายงาน Power BI](system-requirements.md)
 
 ### <a name="power-bi-report-server-product-key"></a>คีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI
@@ -130,8 +127,8 @@ ms.lasthandoff: 05/17/2018
 * ดูที่[กำหนดค่าไฟร์วอลล์สำหรับการเข้าถึงเซิร์ฟเวอร์รายงาน](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access)และ[การกำหนดค่าเซิร์ฟเวอร์รายงานสำหรับการดูแลระบบระยะไกล](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration) เมื่อต้องการกำหนดค่าพอร์ทัลเว็บเพื่อให้คุณสามารถเข้าถึงได้ผ่านคอมพิวเตอร์รายงานเพื่อดูและจัดการรายงาน
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[คู่มือผู้ดูแลระบบ](admin-handbook-overview.md)  
-[วิธีการค้นหาคีย์ผลิตภัณฑ์ของคุณเซิร์ฟเวอร์รายงาน](find-product-key.md)  
+[ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
+[วิธีการค้นหาคีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงานของคุณ](find-product-key.md)  
 [ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](install-powerbi-desktop.md)  
 [ตรวจสอบการติดตั้งบริการการรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 [กำหนดค่าบัญชีผู้ใช้บริการเซิร์ฟเวอร์รายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  

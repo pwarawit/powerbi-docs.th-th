@@ -1,29 +1,21 @@
 ---
 title: มีอะไรใหม่ในบริการ Power BI
 description: มีอะไรใหม่ในบริการ Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/23/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/09/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 7b8d3b4202ff08b5b97765fe20abe37c41518a31
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: db32f7d0d3f7ca7b6943ca5347dc349c8c44be85
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/30/2018
-ms.locfileid: "30274896"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301860"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
@@ -32,18 +24,22 @@ ms.locfileid: "30274896"
 - [มีอะไรใหม่ใน Power BI Desktop](desktop-latest-update.md)  
 - [มีอะไรใหม่ในแอปอุปกรณ์เคลื่อนที่สำหรับ Power BI](mobile-whats-new-in-the-mobile-apps.md)  
 - [บล็อกของทีม Power BI](https://powerbi.microsoft.com/blog/)
-- [บันทึกย่อสำหรับการวางจำหน่าย Business Applications Spring ‘18](https://aka.ms/bagspring2018releasenotes_internal)จาก Dynamics 365: อัปเดตล่าสุดสำหรับแอปพลิเคชันทางธุรกิจของเรา ตลอดจนความสามารถใหม่ ๆ สำหรับการสร้างแอปพลิเคชันของคุณและส่วนขยายที่เพิ่มเติมจากแพลตฟอร์มของเรา 
+- [บันทึกย่อสำหรับการวางจำหน่าย Business Applications Spring ‘18](http://aka.ms/businessappsreleasenotes)จาก Dynamics 365: อัปเดตล่าสุดสำหรับแอปพลิเคชันทางธุรกิจของเรา ตลอดจนความสามารถใหม่ ๆ สำหรับการสร้างแอปพลิเคชันของคุณและส่วนขยายที่เพิ่มเติมจากแพลตฟอร์มของเรา 
 
 นอกจากนี้ คุณยังสามารถตรวจสอบแชนแนล YouTube สำหรับข้อมูลเกี่ยวกับ "มีอะไรใหม่" และคุณลักษณะต่าง ๆ
 
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="march-2018"></a>มีนาคม 2018
+## <a name="april-2018"></a>เมษายน 2018
+* [เอกสารทางเทคนิค Power BI GDPR](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+* [แฟ้มบันทึกการตรวจสอบ](https://docs.microsoft.com/power-bi/service-admin-auditing) บริการของ Power BI จะเปิดตามค่าเริ่มต้นสำหรับผู้เช่า Office 365
+
+## <a name="previous-months-2018"></a>เดือนก่อน ๆ (2018)
+### <a name="march-2018"></a>มีนาคม 2018
 * [ตัวกรองแบบถาวร](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)ในบริการ Power BI
 * แชร์เนื้อหากับผู้ใช้ที่ใช้บัญชีอีเมลส่วนบุคคลของตน ส่วนขยายของ [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/)
 
-## <a name="previous-months-2018"></a>เดือนก่อน ๆ (2018)
 ### <a name="february-2018"></a>กุมภาพันธ์ 2018
 * ติดตั้ง [Power BI Apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) โดยอัตโนมัติสำหรับผู้ใช้ปลายทาง
 * ความจุ P4 และ P5 บน Power BI Premium
@@ -665,7 +661,7 @@ ms.locfileid: "30274896"
 * ความน่าเชื่อถือของการรีเฟรชด้วย OneDrive ได้รับการปรับปรุง  สถานการณ์บางอย่างที่เวิร์กบุ๊กไม่รีเฟรชจาก OneDrive ได้รับการแก้ไข
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)  
+[เริ่มต้นใช้งานด้วย Power BI](service-get-started.md)  
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

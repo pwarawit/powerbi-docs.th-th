@@ -1,34 +1,61 @@
 ---
 title: มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 description: มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/20/2018
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799636"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 สำหรับ "ข้อมูลอะไรใหม่" ที่เกี่ยวข้อง ให้ดู
 
 * [บล็อกทีมของ power BI สำหรับแอป mobile](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [มีอะไรใหม่ใน Power BI Desktop](desktop-latest-update.md)  
-* [มีอะไรใหม่ในบริการ Power BI service](service-whats-new.md)  
+* [มีอะไรใหม่ในบริการ Power BI](service-whats-new.md)  
+
+## <a name="may-2018"></a>พฤษภาคม 2018
+
+### <a name="mobile-drill-through-all-mobile-apps"></a>เข้าถึงรายละเอียดในมือถือ: แอปสำหรับอุปกรณ์เคลื่อนที่ทั้งหมด
+
+คุณสามารถเข้าถึงรายละเอียดจากจุดข้อมูลที่เลือก ไปยังอีกหน้ารายงานในแอปสำหรับอุปกรณ์เคลื่อนที่ ถ้าได้กำหนดการกระทำนั้นโดยผู้สร้างรายงาน 
+
+### <a name="back-button-all-mobile-apps"></a>ปุ่มย้อนกลับ: แอปสำหรับอุปกรณ์เคลื่อนที่ทั้งหมด
+
+ตอนนี้ เมื่อคุณนำทางในรายงานโดยปัดนิ้ว, เลือกหน้ารายงานบนแถบการดำเนินการ หรือใช้การเข้าถึงรายละเอียด ปุ่มย้อนกลับจะนำคุณกลับไปยังหน้าก่อนหน้าที่คุณกำลังดูอยู่ 
+
+### <a name="dashboard-themes-all-mobile-apps"></a>ธีมแดชบอร์ด: แอปสำหรับอุปกรณ์เคลื่อนที่ทั้งหมด
+
+เมื่อผู้เขียนรายงานกำหนดธีมแดชบอร์ดในบริการของ Power BI หน้าตาของแดชบอร์ดจะเปลี่ยนในแอปมือถือด้วย แต่คุณจะไม่เห็นรูปภาพพื้นหลัง
+
+### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: กำหนดค่าการเข้าถึงเซิร์ฟเวอร์รายงานจากระยะไกล สำหรับแอปอุปกรณ์เคลื่อนที่ iOS ของ Power BI
+
+ผู้ดูแลระบบ IT ของคุณสามารถใช้เครื่องมือ MDM เพื่อกำหนดค่าการเข้าถึงเซิร์ฟเวอร์รายงานของแอปสำหรับอุปกรณ์เคลื่อนที่ iOS ของ Power BI ได้แล้วตอนนี้ ดู [กำหนดค่าแอปสำหรับอุปกรณ์เคลื่อนที่ iOS ของ Power BI สำหรับการเข้าถึงไปยังเซิร์ฟเวอร์รายงานจากระยะไกล](report-server/configure-powerbi-mobile-apps-remote.md) สำหรับรายละเอียด
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI สำหรับแอปความเป็นจริงผสม (แสดงตัวอย่าง)
+
+Power BI สำหรับแอปความเป็นจริงผสม ตอนนี้อยู่ใน Microsoft Store แล้ว ดูแดชบอร์ดและรายงานของคุณ ขณะรวมอยู่ในโลกเสมือน หรือวางอยู่ในตำแหน่งเฉพาะในบริบทของสภาพแวดล้อมของคุณ ดูวิดีโอ[แนะนำ Power BI บน Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss) ใหม่สำหรับบริบท หรืออ่านบทความเกี่ยวกับ [Power BI สำหรับแอปความเป็นจริงผสม](mobile-mixed-reality-app.md)ใหม่
+
+
+## <a name="april-2018"></a>เมษายน 2018
+
+### <a name="mobile-drill-down-and-drill-up"></a>ดูข้อมูลโดยละเอียดและดูข้อมูลสรุปบนมือถือ
+
+ตอนนี้คุณสามารถดูรายละเอียดแนวลึก และดูข้อมูลสรุปในวิชวลรายงานบนอุปกรณ์เคลื่อนที่ของคุณ เพื่อเข้าถึงคุณลักษณะใหม่นี้ แตะค้างที่วิชวลรายงานเพื่อเปิดเมนูแนะนำเครื่องมือ จากนั้นแตะปุ่มดูรายละเอียดเพื่อสำรวจข้อมูลของคุณที่ลึกซึ้งขึ้น อ่านเพิ่มเติมเกี่ยวกับ[ดูข้อมูลโดยละเอียดและดูข้อมูลสรุป ในแอปสำหรับอุปกรณ์เคลื่อนที่](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/)
+
+### <a name="persistent-filters"></a>ตัวกรองแบบถาวร
+
+เราเพิ่งอัปเดตตัวกรองและตัวแบ่งส่วนข้อมูลรายงาน เพื่อให้บันทึกโดยอัตโนมัติจาก Power BI บนเว็บไปยังแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ ตอนนี้ ตัวกรองและตัวแบ่งส่วนข้อมูลที่คุณตั้งค่าในแอปสำหรับอุปกรณ์เคลื่อนที่ จะถูกบันทึกไปยัง Power BI บนเว็บโดยอัตโนมัติ
+
 
 ## <a name="march-2018"></a>มีนาคม 2018
 
@@ -120,7 +147,7 @@ ms.lasthandoff: 03/28/2018
 อ่าน[สรุปฟีเจอร์แอปสำหรับอุปกรณ์เคลื่อนทีเดือนกรกฎาคม 2017 ](https://powerbi.microsoft.com/blog/power-bi-service-and-mobile-july-feature-summary/#ios-preview)
 
 #### <a name="ios-devices"></a>อุปกรณ์ iOS
-** ประสบการณ์ Q&A ใหม่เกี่ยวบน iOS (ตัวอย่าง)** แทนที่จะได้รับคำตอบคำถามของคุณเท่านั้น คุณสามารถใช้ภาษาธรรมชาติเพื่อรับข้อมูลที่มีขอบเขตเชิงลึกได้ ถึงแม้ว่าคุณไม่แน่ใจว่าสิ่งที่คุณกำลังค้นหา Q&A จะช่วยให้ข้อมูลเชิงลึกมีความเกี่ยวข้องกับข้อมูลของคุณ ประสบการณ์ Q&A ใหม่บนมือถือ ถูกพัฒนาขึ้นในการทำงานร่วมกันกับทีมวิจัย Microsoft ได้แสดงเทคโนโลยีที่มีประสิทธิภาพภายในผลิตภัณฑ์ของเรา ลองบทเรียน[ถามคำถามเกี่ยวกับข้อมูลของคุณในแอปมือถือบน iOS ](mobile-apps-ios-qna.md)
+**ประสบการณ์ Q&A ใหม่เกี่ยวบน iOS (ตัวอย่าง)** แทนที่จะได้รับคำตอบคำถามของคุณเท่านั้น คุณสามารถใช้ภาษาธรรมชาติเพื่อรับข้อมูลที่มีขอบเขตเชิงลึกได้ ถึงแม้ว่าคุณไม่แน่ใจว่าสิ่งที่คุณกำลังค้นหา Q&A จะช่วยให้ข้อมูลเชิงลึกมีความเกี่ยวข้องกับข้อมูลของคุณ ประสบการณ์ Q&A ใหม่บนมือถือ ถูกพัฒนาขึ้นในการทำงานร่วมกันกับทีมวิจัย Microsoft ได้แสดงเทคโนโลยีที่มีประสิทธิภาพภายในผลิตภัณฑ์ของเรา ลองบทเรียน[ถามคำถามเกี่ยวกับข้อมูลของคุณในแอปมือถือบน iOS ](mobile-apps-ios-qna.md)
 
 ### <a name="responsive-visuals"></a>รูปภาพแบบตอบสนอง
 **รูปภาพแบบตอบสนองสำหรับรายงานโทรศัพท์และแดชบอร์ด** คุณสามารถตั้งค่าภาพในแดชบอร์ดหรือรายงานให้เป็นแแบบ*ตอบสนอง* เพื่อจะเปลี่ยนแปลงแบบไดนามิกเพื่อแสดงจำนวนสูงสุดของข้อมูลและข้อมูลเชิงลึก โดยไม่ไม่ข้อจำกัดของหน้าจอ อ่าน[บล็อกเกี่ยวกับรูปภาพแบบตอบสนอง](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)
@@ -133,7 +160,7 @@ ms.lasthandoff: 03/28/2018
 #### <a name="all-devices"></a>อุปกรณ์ทั้งหมด
 **เมนูใหม่ แชร์กับฉัน**ไปที่แชร์กับฉันในเมนูแอปสำหรับอุปกรณ์เคลื่อนที่ เพื่อดูเนื้อหาทั้งหมดทีถูกแชร์กับคุณ
 
-เมนุใหม่ Apps** แอปเป็นคอลเลกชันของแดชบอร์ดและรายงานซึ่งถูกสร้างขึ้นตามวัตถุประสงค์โดยองค์กรของคุณ เพื่อการจัดส่งเมตริกหลักสำหรับการตัดสินใจที่มีข้อมูลเป็นส่วนผลักดันให้ยิ่งง่ายและรวดเร็วขึ้น
+**เมนุใหม่ Apps** แอปเป็นคอลเลกชันของแดชบอร์ดและรายงานซึ่งถูกสร้างขึ้นตามวัตถุประสงค์โดยองค์กรของคุณ เพื่อการจัดส่งเมตริกหลักสำหรับการตัดสินใจที่มีข้อมูลเป็นส่วนผลักดันให้ยิ่งง่ายและรวดเร็วขึ้น
 
 อ่านเพิ่มเติมเกี่ยวกับ[วิธีที่ Power BI จัดระเบียบเนื้อหาของคุณ](mobile-apps-find-content-mobile-devices.md)
 
@@ -260,7 +287,7 @@ ms.lasthandoff: 03/28/2018
 #### <a name="android-devices"></a>อุปกรณ์ Android
 **แสดงตัวอย่าง Intune Mobile Application Management** Power BI รองรับ Microsoft Intune Mobile Application Manager (MAM) ตอนนี้อยู่ในตัวอย่างสำหรับผู้ใช้ Power BI Pro บนอุปกรณ์ Android 
 
-**รายการโปรด** แท็กแดชบอร์ดโปรดของคุณบนอุปกรณ์ Android  และดู[แดชบอร์ด Power BI โปรด และ Reporting Services mobile reports และ Kpi](mobile-android-tablet-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) ทั้งหมดของคุณ ที่เก็บไว้ในตำแหน่งที่ตั้งที่สะดวกแห่งหนึ่ง 
+**รายการโปรด** แท็กแดชบอร์ดโปรดของคุณบนอุปกรณ์ Android  และดู[แดชบอร์ด Power BI โปรด และ Reporting Services mobile reports และ Kpi](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) ทั้งหมดของคุณ ที่เก็บไว้ในตำแหน่งที่ตั้งที่สะดวกแห่งหนึ่ง 
 
 #### <a name="ios-devices"></a>อุปกรณ์ iOS
 **ลิงค์**Url ในไทล์และการแสดงภาพสามารถคลิกได้ และเปิดในเบราว์เซอร์ได้
@@ -381,13 +408,13 @@ ms.lasthandoff: 03/28/2018
 * เลือกตัวเลือกมากกว่าหนึ่งรายการในตัวแบ่งส่วนข้อมูลรายงาน
 
 #### <a name="android-mobile-app"></a>แอปสำหรับอุปกรณ์เคลื่อนที่ android
-* **SQL Server 2016 [Reporting Services mobile report](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) **ตอนนี้บนโทรศัพท์ Android
+* **SQL Server 2016 [Reporting Services mobile report](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)** ตอนนี้บนโทรศัพท์ Android
 * **แกลเลอรีรายงาน**เปิดรายงานของคุณโดยตรงในแกลเลอรีรายงาน
 * **การรับรองตัวตนแบบ NTLM** รองรับรายงานมือถือใน SQL Server 2016 Reporting Services
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>แอป Power BI สำหรับอุปกรณ์ Windows 10
 * **โหมดการนำเสนอ**แสดงแดชบอร์ด Power BI และรายงานในโหมดการนำเสนอจากแอป Power BI
-* **SQL Server 2016 [Reporting Services mobile reports](mobile-app-windows-10-ssrs-kpis-mobile-reports.md) **ขณะนี้บนอุปกรณ์ Windows 10
+* **SQL Server 2016 [Reporting Services mobile reports](mobile-app-windows-10-ssrs-kpis-mobile-reports.md)** ขณะนี้บนอุปกรณ์ Windows 10
 * ดู**เกล็ดเครื่องมือข้อมูล**เมื่อวางเคอร์เซอร์ของคุณเหนือแดชบอร์ดไทล์
 
 ### <a name="march-2016"></a>มีนาคม 2016

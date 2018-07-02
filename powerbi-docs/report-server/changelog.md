@@ -1,27 +1,20 @@
 ---
 title: บันทึกการเปลี่ยนแปลงสำหรับ เซิร์ฟเวอร์รายงาน Power BI
 description: บันทึกการเปลี่ยนแปลงนี้ สำหรับเซิร์ฟเวอร์รายงาน Power BI และแสดงรายการสิ่งใหม่ รวมไปถึงการแก้ไขข้อบกพร่อง ของการเผยแพร่แต่ละรุ่น
-services: powerbi
-documentationcenter: ''
 author: jtarquino
-manager: jonhp
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+manager: kfile
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/11/2017
-ms.author: tankas
-ms.openlocfilehash: 1345cfee8eb92b9b4e3cf883f19edddee859a1c3
-ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
+ms.component: powerbi-report-server
+ms.topic: conceptual
+ms.date: 03/31/2018
+ms.author: jtarquino
+ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/29/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482141"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>บันทึกการเปลี่ยนแปลงสำหรับ เซิร์ฟเวอร์รายงาน Power BI
 
@@ -31,6 +24,24 @@ ms.lasthandoff: 03/29/2018
 
 ## <a name="march-2018"></a>มีนาคม 2018
 - **เซิร์ฟเวอร์รายงาน Power BI**
+    - *เวอร์ชัน 1.2.6690.34729 (รุ่น 15.0.2.402), เผยแพร่: 27 เมษายน 2018*
+        - แก้ไขข้อบกพร่อง
+            - เปิดใช้งานการโยกย้ายของแค็ตตาล็อก SQL Server Reporting Services 2017
+            - สำหรับรายงาน Power BI (PBIX)
+                - รายงานสามารถรีเฟรชเมื่อเซิร์ฟเวอร์ถูกกำหนดค่าให้ใช้การรับรองความถูกต้องแบบกำหนดเอง
+                - การปรับเปลี่ยนคุณสมบัติของรายงาน จะไม่รีเซ็ตข้อมูลประจำตัวของแหล่งข้อมูล
+            - สำหรับรายงานที่มีการแบ่งหน้า (RDL)
+                - การใช้ `Lookup()` หรือฟังก์ชันดัดแปลง เช่น `LookupSet()` และ `MultiLookup()` ในนิพจน์ RDL ไม่ทำให้เกิด `#Error`
+                - รายงานที่เชื่อมโยง เคารพขนาดหน้าของรายงานเป้าหมายเมื่อพิมพ์
+                - การสมัครสมาชิก สามารถสร้างสำหรับรายงานที่เชื่อมโยง ที่ใช้พารามิเตอร์ที่ต่อกันเป็นทอด
+                - ค่าเริ่มต้นของพารามิเตอร์หลายค่า สามารถเปลี่ยนแปลงได้เมื่อใช้ IE11
+                - ตัวเลือกการจัดส่ง การสมัครสมาชิกแบบให้ข้อมูล สามารถแก้ไขได้
+                - สามารถดู และแก้ไขการสมัครสมาชิก ในขณะที่กำลังดำเนินการกับสมาชิก
+                - การตั้งค่าข้อมูลประจำตัวของแหล่งข้อมูล ไม่นำสตริงการเชื่อมต่อตามนิพจน์ออก
+            - สำหรับ KPI
+                - เส้นแนวโน้มจะรีเฟรชเมื่อข้อมูลจะได้รับการปรับปรุง
+            - การปรับปรุงเสถียรภาพทั่วไป
+
     - *เวอร์ชัน 1.2.6660.39920 (รุ่น 15.0.2.389), เผยแพร่: 28 มีนาคม 2018*
         - แก้ไขข้อบกพร่อง
             - สำหรับรายงาน Power BI (PBIX) แก้ไขข้อมูลส่งออกที่ใช้ไม่ได้จากวิชวล Power BI
@@ -92,6 +103,9 @@ ms.lasthandoff: 03/29/2018
             - การปรับปรุงการช่วยสำหรับการเข้าถึง
 
 - **Power BI Desktop (ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI)**
+    - *เวอร์ชัน: 2.51.4885.3981 (ตุลาคม 2017), เผยแพร่: 10 เมษายน 2018*
+        - ปรับปรุงความปลอดภัย
+
     - *เวอร์ชัน: 2.51.4885.2501 (ตุลาคม 2017), กเผยแพร่: 10 มกราคม 2018*
         - ปรับปรุงความปลอดภัย
 
@@ -117,7 +131,7 @@ ms.lasthandoff: 03/29/2018
 
     - *รุ่น 14.0.600.301 เผยแพร่: 11 กรกฎาคม 2017*
         - แก้ไขข้อบกพร่อง
-            - แท็ก {{UserId}} ถูกแปลงเป็นข้อมูลประจำตัวที่เก็บไว้ แทนที่จะเป็นผู้ใช้ ที่ดำเนินการรายงานในรายงาน Power BI
+            - แท็ก `{{UserId}}` ถูกแปลงเป็นข้อมูลประจำตัวที่เก็บไว้ แทนที่จะเป็นผู้ใช้ ที่ดำเนินการรายงานในรายงาน Power BI
             - รูปภาพบางภาพไม่แสดงในรายงานในเซิร์ฟเวอร์รายงาน Power BI
             - ไม่สามารถเปลี่ยนชื่อของรายงาน Power BI ในเซิร์ฟเวอร์รายงาน Power BI
             - ไม่สามารถโหลดวิชวลแบบกำหนดเอง ในแอปพลิเคชันสำหรับอุปกรณ์เคลื่อนที่ของ Power BI (จำเป็นต้องติดตั้งแอปสำหรับอุปกรณ์เคลื่อนที่ใหม่เพื่อล้างแคชภายในเครื่อง)
@@ -131,9 +145,9 @@ ms.lasthandoff: 03/29/2018
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[คู่มือผู้ใช้](user-handbook-overview.md)  
-[คู่มือผู้ดูแล](admin-handbook-overview.md)  
-[เริ่มต้นใช้งานด่วน: ติดตั้งเซิร์ฟเวอร์รายงาน Power BI](quickstart-install-report-server.md)  
+[เซิร์ฟเวอร์รายงาน Power BI คืออะไร](get-started.md)
+[ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
+[ติดตั้ง Power BI Report Server](install-report-server.md)  
 [ติดตั้งตัวสร้างรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [ดาวน์โหลด SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

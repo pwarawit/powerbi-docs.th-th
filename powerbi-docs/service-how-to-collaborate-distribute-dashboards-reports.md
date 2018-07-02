@@ -1,29 +1,21 @@
 ---
 title: ฉันควรทำงานร่วมกัน และแชร์ใน Power BI ได้อย่างไร?
 description: ใน Power BI คุณสามารถทำงานร่วมกัน และแชร์แดชบอร์ด รายงาน ไทล์ และแอป ด้วยวิธีต่าง ๆ กัน แต่ละวิธีมีข้อดีของมันเอง
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: lukaszp
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: 02/28/2017
+ms.reviewer: lukaszp
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: adcba818f60a66ecc4be5827e1ce7688618d0c72
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815803"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249516"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>ฉันควรทำงานร่วมกัน และแชร์ใน Power BI ได้อย่างไร?
 
@@ -57,7 +49,7 @@ ms.locfileid: "30815803"
 
 ![ไอคอนเผยแพร่แอป](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-สามารถค้นหา และติดตั้งแอปในบริการของ Power BI ([https://powerbi.com](https://powerbi.com)) ได้ง่าย คุณสามารถส่งลิงก์โดยตรงไปยังแอป ให้กับผู้ใช้ทางธุรกิจ หรือพวกเขาสามารถค้นหาได้ใน AppSource ถ้าผู้ดูแลระบบ Power BI ของคุณ ให้สิทธิ์แก่คุณ คุณสามารถติดตั้งแอปลงในบัญชีผู้ใช้ Power BI ของเพื่อนร่วมงานคุณโดยอัตโนมัติ อ่านเพิ่มเติมเกี่ยวกับ[การเผยแพร่แอปของคุณ](service-create-distribute-apps.md#publish-your-app) 
+สามารถค้นหาและติดตั้งแอปได้ง่าย ๆ ในบริการของ Power BI ([https://powerbi.com](https://powerbi.com)) คุณสามารถส่งลิงก์โดยตรงไปยังแอป ให้กับผู้ใช้ทางธุรกิจ หรือพวกเขาสามารถค้นหาได้ใน AppSource ถ้าผู้ดูแลระบบ Power BI ของคุณ ให้สิทธิ์แก่คุณ คุณสามารถติดตั้งแอปลงในบัญชีผู้ใช้ Power BI ของเพื่อนร่วมงานคุณโดยอัตโนมัติ อ่านเพิ่มเติมเกี่ยวกับ[การเผยแพร่แอปของคุณ](service-create-distribute-apps.md#publish-your-app) 
 
 หลังจากที่พวกเขาติดตั้งแอปแล้ว พวกเขาสามารถดูแอปในเบราว์เซอร์หรืออุปกรณ์เคลื่อนที่ของพวกเขา
 

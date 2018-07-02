@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297687"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "34799429"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>สำรวจรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI
 นำไปใช้กับ:
@@ -81,25 +81,30 @@ ms.locfileid: "34297687"
    ![เรียงลำดับการแสดงผลด้วยภาพ](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * เมื่อต้องการย้อนกลับลำดับการจัดเรียง ให้แตะจุดไข่ปลา (**...** ) อีกครั้ง จากนั้นแตะชื่อเขตข้อมูลเดียวกันอีกครั้ง
 
-## <a name="drill-down-on-an-ipad-or-a-tablet"></a>ดูรายละเอียดแนวลึกบน iPad หรือแท็บเล็ต
-ถ้าผู้สร้างรายงานได้เพิ่มความสามารถนี้ในการดูรายละเอียดแนวลึกบนบน iPad หรือแท็บเล็ต คุณสามารถเจาะดูข้อมูลลึกลงในการแสดงผลด้วยภาพเพื่อดูค่าที่รวมกันส่วนหนึ่งของงาน คุณ [เพิ่มการเจาะดูข้อมูลลึกลงในการแสดงผลด้วยภาพ](power-bi-visualization-drill-down.md) ใน Power BI Desktop หรือบริการ Power BI 
+## <a name="drill-down-and-up-in-a-visual"></a>ดูรายละเอียดแนวลึก และดูข้อมูลสรุปในวิชวล
+ถ้าผู้สร้างรายงานได้เพิ่มความสามารถการดูรายละเอียดแนวลึกในวิชวล คุณสามารถดูรายละเอียดแนวลึกในวิชวล เพื่อดูค่าที่ประกอบขึ้นมาเป็นวิชวล คุณ [เพิ่มการเจาะดูข้อมูลลึกลงในการแสดงผลด้วยภาพ](power-bi-visualization-drill-down.md) ใน Power BI Desktop หรือบริการ Power BI 
 
-> [!NOTE]
-> ในขณะนี้ การเจาะดูข้อมูลลึกลงยังไม่ทำงานบนแผนที่ใน iPad หรือแท็บเล็ต
-> 
-> 
+* แตะที่จุดข้อมูลในวิชวลเพื่อแสดงการแนะนำเครื่องมือ ถ้าวิชวลมีรายละเอียดแนวลึก ด้านล่างของคำแนะนำมีลูกศรที่คุณสามารถแตะได้ 
+  
+  ![การดูรายละเอียดแนวลึกในวิชวล](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
-* แตะการแสดงผลด้วยภาพ ถ้ามีลูกศรขึ้นและลงตรงมุมด้านบน ![ไอคอนเจาะดูข้อมูลลึกลงและขึ้น](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png)จากนั้น คุณก็สามารถเจาะดูข้อมูลลึกลงได้ เมื่อต้องเจาะดูข้อมูลค่าหนึ่งค่าให้ลึกลง ให้แตะลูกศรตรงมุมขวาบน จากนั้น แตะค่าในการแสดงผลด้วยภาพ &#151; ในกรณีนี้ ได้แก่ ฟองคำพูดสีน้ำเงินเข้ม FD-04
+* เพื่อกลับไปดูข้อมูลสรุป แตะที่ลูกศรขึ้นในคำแนะนำ
   
-  ![การเจาะดูข้อมูลลึกลงในการแสดงผลด้วยภาพ](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
-* เมื่อต้องการเจาะดูข้อมูลย้อนกลับไปให้ลึกขึ้น แตะลูกศรขึ้นตรงมุมซ้ายบน
-  
-  ![เจาะดูข้อมูลลึกขึ้น](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+  ![เจาะดูข้อมูลลึกขึ้น](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
-## <a name="go-back-to-my-workspace"></a>กลับไปยังพื้นที่ทำงานของฉัน
-* แตะลูกศรที่อยู่ถัดจากชื่อรายงาน > แตะ **พื้นที่ทำงานของฉัน**
-  
-  ![กลับขึ้นไป](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+* นอกจากนี้คุณยังสามารถดูรายละเอียดแนวลึกในจุดข้อมูลทั้งหมดในวิชวล เปิดในโหมดโฟกัส แตะที่ไอคอนสำรวจ จากนั้นเลือกแสดงระดับถัดไป หรือขยายเพื่อแสดงทั้งระดับปัจจุบันและระดับถัดไป
+
+   ![Power BI ดูรายละเอียดแนวลึกทั้งหมด](media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
+
+## <a name="drill-through-from-one-page-to-another"></a>การเข้าถึงรายละเอียดข้อมูลจากหน้าหนึ่งไปอีกหน้าหนึ่ง
+
+ด้วย *drillthrough* (การเข้าถึงรายละเอียด) เมื่อคุณแตะส่วนของวิชวล Power BI จะนำคุณไปยังหน้าอื่นในรายงาน ที่กรองด้วยค่าที่คุณแตะ ผู้สร้างรายงานสามารถกำหนดหนึ่งหรือหลายตัวเลือกสำหรับการ drillthrough ซึ่งแต่ละตัวเลือกจะพาคุณไปยังรายงานคนละหน้า ในกรณีดังกล่าว คุณสามารถเลือกว่าคุณต้องการเข้าถึงรายละเอียดตัวไหน ในตัวอย่างต่อไปนี้ เมื่อคุณแตะที่ค่าในมาตรวัด คุณสามารถเลือกระหว่างการเข้าถึงรายละเอียด **spent by business area** (การใช้จ่ายตามด้านธุรกิจ) หรือ **planning by business area** (การวางแผนตามด้านธุรกิจ) ได้
+
+![การเข้าถึงรายละเอียดใน Power BI สำหรับอุปกรณ์เคลื่อนที่](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
+
+เมื่อคุณดูที่รายละเอียด ปุ่มย้อนกลับจะนำคุณกลับไปยังรายงานหน้าก่อนหน้า
+
+อ่านเกี่ยวกับวิธีการ[เพิ่ม drill-through ใน Power BI Desktop](desktop-drillthrough.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ดูและโต้ตอบกับรายงาน Power BI ที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ](mobile-apps-view-phone-report.md)

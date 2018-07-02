@@ -8,14 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 071f7ea0c324ec8fe0160766f65cf929f811362a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: aeaea6d14cf8f4fd62fbbf5098e68429fe40b96a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34471950"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>กรองรายงานโดยใช้พารามิเตอร์สตริงของแบบสอบถามใน URL
 เมื่อคุณเปิดรายงานในบริการ Power BI แต่ละหน้าของรายงานมี URL ของตัวเองไม่ซ้ำกัน เมื่อต้องกรองหน้ารายงานนั้น คุณสามารถใช้บานหน้าต่างตัวกรองบนพื้นที่รายงาน  หรือคุณสามารถเพิ่มพารามิเตอร์สตริงของแบบสอบถามไปยัง URL เพื่อกรองรายงาน บางครั้งคุณมีรายงานที่คุณต้องการแสดงให้แก่ผู้ร่วมงาน และคุณต้องการกรองไว้ล่วงหน้าสำหรับพวกเขา วิธีหนึ่งที่ทำได้ก็คือ การเริ่มต้นด้วย URL ที่เป็นค่าเริ่มต้นสำหรับรายงาน เพิ่มพารามิเตอร์ตัวกรองไปยัง URL และจากนั้น ส่งอีเมล URL ทั้งหมดให้พวกเขา
@@ -97,9 +98,10 @@ TerritoryChain = [Territory] & "-" & [Chain]
 
 อาจเป็นประโยชน์ในบางกรณีที่คุณต้องการดูผลลัพธ์ที่แตกต่างกันระหว่างข้อมูลแบบกรองแล้วบนแดชบอร์ดกับแบบยังไม่ได้กรองในรายงาน
 
-## <a name="limitations-and-troubleshooting"></a>ข้อจำกัดและการแก้ไขปัญหา
+## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
 มีบางสิ่งที่ควรระวังเมื่อใช้พารามิเตอร์สตริงของแบบสอบถาม
 
+* ในเซิร์ฟเวอร์รายงาน Power BI คุณสามารถ[ผ่านพารามิเตอร์รายงาน](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)ได้โดยการรวมพารามเตอร์เหล่านั้นใน URL รายงานได้ พารามิเตอร์ URL เหล่านี้ไม่มีคำนำหน้าเนื่องจากจะถูกส่งผ่านโดยตรงไปยังเอ็นจินประมวลผลรายงาน 
 * การกรองสตริงแบบสอบถามใช้ไม่ได้กับ [เผยแพร่ไปยังเว็บ](service-publish-to-web.md) หรือ Power BI Embedded   
 * ชนิดเขตข้อมูลจะต้องเป็นตัวเลขหรือสตริง
 * ชื่อตารางและเขตข้อมูลต้องไม่มีช่องว่าง

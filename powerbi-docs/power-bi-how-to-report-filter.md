@@ -1,29 +1,21 @@
 ---
 title: ภาพรวมของบานหน้าต่างตัวกรอง Power BI
 description: ภาพรวมของบานหน้าต่างตัวกรองรายงานใน Power BI service และแดชบอร์ด Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/15/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 00b0b116aa59ebab1d963a8803f788040761d9f5
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/15/2018
-ms.locfileid: "30975351"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "34721397"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>สำรวจภาพรวมของบานหน้าต่างตัวกรองรายงาน
 บทความนี้จะอธิบายหน้าต่างตัวกรองรายงานแบบเชิงลึก คุณจะเห็นบานหน้าต่างใน[มุมมองการแก้ไขและมุมมองการอ่าน ower BI ](service-reading-view-and-editing-view.md)และใน[มุมมองรายงาน Power BI Desktop](desktop-report-view.md)
@@ -31,7 +23,7 @@ ms.locfileid: "30975351"
 การกรองข้อมูลใน Power BI มีหลายวิธี และเราขอแนะนำให้อ่าน[เกี่ยวกับตัวกรองและการไฮไลท์](power-bi-reports-filters-and-highlighting.md)ก่อน
 
 ## <a name="working-with-the-report-filters-pane"></a>สำรวจภาพบานหน้าต่างตัวกรองรายงาน
-ใน Power BI Desktop รายงานจะเปิดในมุมมองรายงาน ใน Power BI service รายสามารถเปิดใน [มุมมองการอ่านและการแก้ไข](service-reading-view-and-editing-view.md) ในมุมมองการแก้ไข และ ในมุมมองรายงานของเดสท็อป เจ้าของรายงานสามารถ[เพิ่มตัวกรองไปใช้กับรายงาน](power-bi-report-add-filter.md) และตัวกรองเหล่านั้นจะถูกบันทึกไว้กับรายงาน บุคคลที่กำลังดูที่รายงานในมุมมองการอ่านสามารถโต้ตอบ แต่คุณไม่สามารถเพิ่มตัวกรองใหม่ในรายงาน
+ใน Power BI Desktop รายงานจะเปิดในมุมมองรายงาน ใน Power BI service รายสามารถเปิดใน [มุมมองการอ่านและการแก้ไข](service-reading-view-and-editing-view.md) ในมุมมองการแก้ไข และ ในมุมมองรายงานของเดสท็อป เจ้าของรายงานสามารถ[เพิ่มตัวกรองไปใช้กับรายงาน](power-bi-report-add-filter.md) และตัวกรองเหล่านั้นจะถูกบันทึกไว้กับรายงาน คนที่กำลังดูที่รายงานในมุมมองการอ่าน สามารถโต้ตอบกับตัวกรองและบันทึกการเปลี่ยนแปลงได้ แต่ไม่สามารถเพิ่มตัวกรองใหม่ในรายงาน
 
 ใน Power BI service รายงานเก็บการเปลี่ยนแปลงที่คุณทำในบานหน้าต่างตัวกรอง และการเปลี่ยนแปลงเหล่านั้นจะดำเนินการได้ผ่านรายงานสำหรับอุปกรณ์เคลื่อน เมื่อต้องการรีเซ็ตบานหน้าต่างตัวกรองเป็นค่าเริ่มต้นของผู้สร้าง เลือก**รีเซ็ตให้เป็นค่าเริ่มต้น**จากแถบเมนูด้านบน     
 

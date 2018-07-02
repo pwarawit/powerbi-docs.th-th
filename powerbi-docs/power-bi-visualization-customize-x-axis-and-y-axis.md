@@ -1,31 +1,24 @@
 ---
-title: กำหนดคุณสมบัติแกน X และแกน Y ด้วยตนเอง (บทช่วยสอน)
-description: 'บทช่วยสอน: กำหนดคุณสมบัติแกน X และแกน Y ด้วยตนเอง'
-services: powerbi
-documentationcenter: ''
+title: กำหนดคุณสมบัติแกน X และแกน Y ด้วยตนเอง
+description: กำหนดคุณสมบัติแกน X และแกน Y ด้วยตนเอง
 author: mihart
 manager: kfile
-backup: ''
+ms.reviewer: ''
 featuredvideoid: 9DeAKM4SNJM
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 05/16/2017
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d4156429b728718fa89131a46ebd0f5dd5aabf67
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 372f00e7bd62068688bdcc22c1e983c3fe629f8a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295717"
 ---
-# <a name="customize-x-axis-and-y-axis-properties-tutorial"></a>กำหนดคุณสมบัติแกน X และแกน Y ด้วยตนเอง (บทช่วยสอน)
+# <a name="customize-x-axis-and-y-axis-properties"></a>กำหนดคุณสมบัติแกน X และแกน Y ด้วยตนเอง
 ในบทช่วยสอนนี้ คุณจะได้เรียนรู้หลายวิธีในการกำหนดค่าแกน X และแกน Y ของวิชวลคุณ ไม่ใช่วิชวลทั้งหมดที่มีแกน หรือสามารถกำหนดแกนเองได้ ตัวอย่างของวิชวลที่ไม่มีแกน เช่น แผนภูมิวงกลม และตัวเลือกที่กำหนดเองได้ จะแตกต่างกันตามวิชวล มีตัวเลือกอยู่มากมายเกินกว่าที่จะครอบคลุมในบทความเดียว ดังนั้นเราจะดูเฉพาะ การกำหนดค่าแกนที่ใช้บ่อยที่สุดบางค่า เพื่อให้คุณคุ้นเคยกับแท็บการจัดรูปแบบวิชวล บนพื้นที่รายงาน Power BI  
 
 > [!NOTE]
@@ -146,4 +139,4 @@ ms.lasthandoff: 02/24/2018
 
 [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

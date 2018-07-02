@@ -1,28 +1,21 @@
 ---
 title: แก้ไขปัญหาข้อผิดพลาดไทล์
 description: ข้อผิดพลาดทั่วไปที่อาจพบเมื่อพยายามรีเฟรชไทล์
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
-ms.date: 12/06/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 0901860a190e29489b9c940231607d9fc63109ab
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: 8b68ce7af749b7e7f292592f6debdc7e964d6c17
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242897"
 ---
 # <a name="troubleshooting-tile-errors"></a>แก้ไขปัญหาข้อผิดพลาดไทล์
 ด้านล่างนี้คือข้อผิดพลาดทั่วไปที่คุณอาจประสบกับไทล์พร้อมกับคำอธิบาย
@@ -58,7 +51,7 @@ ms.lasthandoff: 03/22/2018
 
 ภาพของคุณได้พยายามสอบถามข้อมูลมากเกินกว่าที่เราก็จะทำให้ผลลัพธ์เสร็จสมบูรณ์ด้วยทรัพยากรที่พร้อมใช้งานได้ ลองกรองภาพเพื่อลดปริมาณข้อมูลในผลลัพธ์
 
-**เราไม่สามารถระบช่องข้อมูลต่อไปนี้ได้: {0} โปรดอัปเดตภาพที่มีช่องข้อมูลที่มีอยู่จริงในชุดข้อมูล**
+**เราไม่สามารถระบุฟิลด์ดังต่อไปนี้: {0} โปรดอัปเดตภาพที่มีช่องข้อมูลที่มีอยู่จริงในชุดข้อมูล**
 
 ช่องข้อมูลอาจถูกลบแล้วหรือมีการเปลี่ยนชื่อ คุณสามารถลบช่องข้อมูลที่ใช้งานไม่ได้ออกจากภาพ เพิ่มช่องข้อมูลอื่น และปักหมุดอีกครั้งได้
 

@@ -1,25 +1,22 @@
 ---
 title: ทัวร์ Power BI service
 description: ภาพรวมของประสบการณ์การนำทาง Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
+ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: quickstart
 ms.component: powerbi-service
-ms.workload: powerbi
-ms.date: 05/07/2018
+ms.topic: quickstart
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 58b1125a894ff064942e61534db990587bdf9f2a
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34471605"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>เริ่มต้นใช้งานด่วน - ทำความรู้จักบริการของ Power BI
 
@@ -129,6 +126,19 @@ ms.lasthandoff: 05/07/2018
 ![เรียงลำดับเนื้อหา](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดู[การนำทางใน Power BI การค้นหา เรียงลำดับ กรอง](service-navigation-search-filter-sort.md)
+
+## <a name="clean-up-resources"></a>เพิ่มพื้นที่ทรัพยากร
+หลังจากที่คุณเสร็จการเริ่มต้นด่วนนี้ คุณสามารถลบแดชบอร์ด, รายงาน และชุดข้อมูลตัวอย่างการวิเคราะห์ด้านการขายปลีก ถ้าคุณต้องการ
+
+1. เปิดบริการ Power BI (app.powerbi.com) และลงชื่อเข้าใช้    
+2. ในบานหน้าต่างนำทางด้านซ้าย เลือก **พื้นที่ทำงาน > พื้นที่ทำงานของฉัน**  
+    สังเกตเห็นดาวสีเหลืองที่ระบุว่าเป็นรายการโปรดหรือไม่?    
+3. บนแท็บ**แดชบอร์ด** เลือกไอคอนถังขยะ**ลบ**ถัดจากแดชบอร์ดการวิเคราะห์ด้านการขายปลีก    
+
+    ![ลบแดชบอร์ด](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
+
+4. เลือกแท็บ**รายงาน** และทำสิ่งเดียวกันสำหรับรายงานการวิเคราะห์ด้านการขายปลีก
+1. เลือกแท็บ**ชุดข้อมูล** และทำสิ่งเดียวกันสำหรับชุดข้อมูลการวิเคราะห์ด้านการขายปลีก
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ SQL Sentry ด้วย Power BI
 description: SQL Sentry สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c73502381e99bf64a8e342ca46ee1bb7089b6825
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8ad41917c887cff7db991051aa35d5dad6b6a8fa
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815283"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242434"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>เชื่อมต่อกับ SQL Sentry ด้วย Power BI
 วิเคราะห์ข้อมูลประสิทธิภาพการทำงานของคุณที่รวบรวมโดย SQL Sentry ทำได้ง่ายขึ้นด้วย Power BI Power BI เรียกคืนข้อมูลของคุณ จากนั้นสร้างแดชบอร์ดค่าเริ่มต้นและรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลนั้น
@@ -31,10 +23,10 @@ ms.locfileid: "30815283"
 เชื่อมต่อไปยัง[ชุดเนื้อหา SQL Sentry สำหรับ Power BI](https://app.powerbi.com/groups/me/getdata/services/sql-sentry)
 
 >[!NOTE]
->ในการเชื่อมต่อ จำเป็นต้องเข้าถึงบัญชี SQL Sentry ที่คุณใช้สำหรับการเชื่อมต่อกับ http://cloud.sqlsentry.com และ ID ฐานข้อมูลที่คุณต้องการตรวจติดตาม  คำแนะนำสำหรับตำแหน่งที่จะค้นหา ID ของฐานข้อมูล มีอยู่ที่ด้านล่าง
+>การเข้าถึงบัญชี SQL Sentry ที่คุณใช้สำหรับการเชื่อมต่อกับ http://cloud.sqlsentry.com และ ID ฐานข้อมูลที่คุณจะติดตาม จำเป็นสำหรับการเชื่อมต่อ  คำแนะนำสำหรับตำแหน่งที่จะค้นหา ID ของฐานข้อมูล มีอยู่ที่ด้านล่าง
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
-1. เลือก**รับข้อมูล**ที่ด้านล่างของแผงนำทางด้านซ้ายมือ
+1. เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ
    
    ![](media/service-connect-to-sql-sentry/pbi_getdata.png)
 2. ในกล่อง**บริการ** เลือก**รับ**
@@ -64,11 +56,11 @@ ms.locfileid: "30815283"
    
    ![](media/service-connect-to-sql-sentry/img9dashboard800.png)
 
-**ฉันต้องทำอะไรต่อ?**
+**ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่องถามตอบ](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานพื้นฐาน
+* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
 * ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
 
 ## <a name="whats-included"></a>มีอะไรรวมอยู่บ้าง

@@ -1,27 +1,20 @@
 ---
 title: ลงทะเบียนแอปด้วย Azure AD
 description: การฝึกปฏิบัติ - ใส่ข้อมูลลงในชุดข้อมูล - ลงทะเบียนแอปด้วย Azure AD
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 48ab2a51a479269b8846288b64089964a0544681
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "34285979"
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>ขั้นตอนที่ 1: ลงทะเบียนแอปด้วย Azure AD
 บทความนี้เป็นส่วนหนึ่งของการฝึกปฏิบัติทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
@@ -39,7 +32,7 @@ ms.lasthandoff: 01/30/2018
 2. คลิก**ลงชื่อเข้าใช้ด้วยบัญชีของคุณที่มีอยู่**และลงชื่อเข้าใช้บัญชี Power BI ของคุณ
 3. ใส่ข้อมูล**ชื่อแอป**เช่น "ตัวอย่างแอปการพุชข้อมูล"
 4. สำหรับ**ชนิดของแอป**เลือก**แอปแบบดั้งเดิม**
-5. ป้อนการ**เปลี่ยนเส้นทาง URL** เช่น **https://login.live.com/oauth20_desktop.srf** สำหรับ **Native client app** url เปลี่ยนเส้นทางให้รายละเอียดเพิ่มเติมแก่ **Azure AD** เกี่ยวกับแอปพลิเคชันเฉพาะเจาะจงที่จะรับรองความถูกต้อง Uri มาตรฐานสำหรับ client app คือ https://login.live.com/oauth20_desktop.srf
+5. ใส่ **เปลี่ยนเส้นทาง URL** เช่น **https://login.live.com/oauth20_desktop.srf** สำหรับ **Native client app** url เปลี่ยนเส้นทางให้รายละเอียดเพิ่มเติมแก่ **Azure AD** เกี่ยวกับแอปพลิเคชันเฉพาะเจาะจงที่จะรับรองความถูกต้อง Uri มาตรฐานสำหรับแอปไคลเอ็นต์คือ https://login.live.com/oauth20_desktop.srf
 6. สำหรับ **เลือก API เพื่อเข้าถึง** ให้เลือก **อ่านและเขียนชุดข้อมูลทั้งหมด** สำหรับสิทธิ์แอป Power BI ทั้งหมด ดู [สิทธิ์ Power BI](power-bi-permissions.md)
 7. คลิก**ลงทะเบียนแอป** และบันทึก **ID ไคลเอ็นต์**ที่ถูกสร้างขึ้น **ID ไคลเอ็นต์**ระบุแอปใน Azure AD
 

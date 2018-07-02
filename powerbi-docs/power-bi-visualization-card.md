@@ -1,28 +1,21 @@
 ---
 title: การแสดงภาพการ์ด (หรือที่เรียกกันว่า ไทล์จำนวนมาก)
 description: สร้างการแสดงภาพการ์ดใน Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/24/2017
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f38f3bb19be268cba4745c88aa98d09c080c773e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ebf66b041a65c3b9f1e7c8a3a69ac4121970a5bd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294766"
 ---
 # <a name="card-visualizations"></a>การแสดงภาพการ์ด
 บางครั้งตัวเลขเพียงตัวเดียวก็เป็นสิ่งสำคัญที่สุดที่คุณต้องการติดตามในแดชบอร์ด Power BI หรือรายงานของคุณ เช่น ยอดขายรวม ส่วนแบ่งตลาดแบบปีต่อปี ตลาดแชร์ปีปี หรือโอกาสทั้งหมด แสดงภาพชนิดนี้จะเรียกว่า*การ์ด* เช่นเดียวกับการแสดงภาพดั้งเดิมของ Power BI แทบจะทุกชนิด คุณสามารถสร้างการ์ดขึ้นได้ โดยใช้ตัวแก้ไขรายงาน หรือการถามตอบ
@@ -45,7 +38,7 @@ ms.lasthandoff: 02/24/2018
    ![](media/power-bi-visualization-card/power-bi-pin-icon.png)
 7. ปักหมุดไทล์ลงในแดชบอร์ดที่มีอยู่ หรือแดชบอร์ดใหม่
 
-   * แดชบอร์ดที่มีอยู่: เลือกชื่อของแดชบอร์ดจากรายการแบบหล่นลง
+   * แดชบอร์ดที่มีอยู่ ให้เลือกชื่อของแดชบอร์ดจากรายการแบบดร๊อปดาวน์
    * แดชบอร์ดใหม่: พิมพ์ชื่อของแดชบอร์ดใหม่
 8. เลือก**หมุด**
 
@@ -91,12 +84,31 @@ ms.lasthandoff: 02/24/2018
 - ถ้าคุณไม่สามารถเห็นกล่องคำถามทั้งหมด โปรดติดต่อผู้ดูแลระบบหรือผู้ดูแลผู้เช่าของคุณ    
 - ถ้าคุณกำลังใช้ Desktop และการดับเบิลคลิกพื้นที่ว่างในรายงานไม่สามารถเปิดการถามตอบได้ คุณก็อาจจะต้องเปิดใช้งานการถามตอบดังกล่าว  เลือก**ไฟล์ > ตัวเลือกและการตั้งค่า > ตัวเลือก > คุณลักษณะการแสดงตัวอย่าง > การถามตอบ**และรีสตาร์ต Desktop
 
+## <a name="format-a-card"></a>จัดรูปแบบการ์ด
+คุณมีตัวเลือกมากมายสำหรับการเปลี่ยนป้ายชื่อ, ข้อความ, สี และอีกมาก วิธีดีที่สุดในการเรียนรู้คือ สร้างการ์ด จากนั้นสำรวจบานหน้าต่างการจัดรูปแบบ ต่อไปนี้เป็นเพียงบางตัวเลือกของการจัดรูปแบบที่มี 
+
+1. เริ่มต้นด้วยการเลือกไอคอนรูปลูกกลิ้งทาสี เพื่อเปิดบานหน้าต่างการจัดรูปแบบ 
+
+    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+2. ขยาย**ป้ายชื่อข้อมูล** และเปลี่ยนสี, ขนาด และตระกูลแบบอักษร ถ้าคุณมีหลายพันร้านค้า คุณสามารถใช้**แสดงหน่วย**เพื่อแสดงจำนวนของร้านค้าเป็นหลักพัน และควบคุมตำแหน่งทศนิยมได้เช่นกัน ตัวอย่างเช่น แสดง 125.8K แทนที่จะเป็น 125,832.00
+
+3.  ขยาย**ป้ายชื่อประเภท**และเปลี่ยนสีและขนาด
+
+    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+
+4. ขยาย**พื้นหลัง**และเลื่อนแถบเลื่อนเป็นเปิด  ตอนนี้คุณสามารถเปลี่ยนสีพื้นหลังและความโปร่งใส
+
+    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+
+5. ลองสำรวจตัวเลือกการจัดรูปแบบต่อไป จนกว่าการ์ดของคุณเป็นแบบที่คุณต้องการ 
+
+    ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [ไทล์แดชบอร์ดใน Power BI](service-dashboard-tiles.md)
 
 [แดชบอร์ดใน Power BI](service-dashboards.md)
 
-[Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
+[Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

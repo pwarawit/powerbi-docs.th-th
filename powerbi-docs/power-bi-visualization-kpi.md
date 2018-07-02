@@ -1,31 +1,24 @@
 ---
-title: ภาพ KPI (บทช่วยสอน)
+title: วิชวล KPI
 description: สร้าง KPI ในบริการของ Power BI และ Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: xmja6EpqaO0
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/21/2017
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1a937b77135d6ad7843a6e0be779c235a1073f46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2fc84d82e67b1c1e4a4b37655a13bd5415abf816
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34292604"
 ---
-# <a name="kpi-visuals-tutorial"></a>ภาพ KPI (บทช่วยสอน)
+# <a name="kpi-visuals"></a>วิชวล KPI
 ดัชนีประสิทธิภาพหลัก (KPI) เป็นภาพสัญลักษณ์ที่แสดงปริมาณความก้าวหน้าของงานที่ทำเพื่อมุ่งไปยังเป้าหมายที่วัดผลได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ KPI ดู [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)
 
 ## <a name="when-to-use-a-kpi"></a>เมื่อต้องการใช้ KPI
@@ -76,11 +69,8 @@ KPI จะพร้อมใช้งานบนอุปกรณ์เคล�
 * ถ้า KPI ของคุณไม่มีลักษณะคล้ายกับด้านบน อาจเป็น เพราะคุณจำเป็นต้องเรียงลำดับตามเดือน เนื่องจาก KPI ไม่มีตัวเลือกการเรียงลำดับ คุณจะต้องเรียงลำดับตามเดือน*ก่อน*คุณแปลงการแสดงภาพของคุณเป็น KPI
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[รายงานใน Power BI](service-reports.md)
 
 [การแสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)
-
-[Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

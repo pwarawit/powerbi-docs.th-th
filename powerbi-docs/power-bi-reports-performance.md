@@ -1,28 +1,21 @@
 ---
 title: แนวทางปฏิบัติที่ดีที่สุดเพื่อประสิทธิภาพการทำงานของ Power BI
 description: บทความนี้มีคำแนะนำสำหรับการสร้างรายงานอย่างรวดเร็ว และเชื่อถือได้ใน Power BI
-services: powerbi
-documentationcenter: ''
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/12/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310555"
 ---
 # <a name="power-bi-performance-best-practices"></a>แนวทางปฏิบัติที่ดีที่สุดเพื่อประสิทธิภาพการทำงานของ Power BI 
 บทความนี้มีคำแนะนำสำหรับการสร้างรายงานอย่างรวดเร็ว และเชื่อถือได้ใน Power BI  
@@ -96,8 +89,14 @@ ms.lasthandoff: 03/12/2018
 ## <a name="understand-custom-visual-performance"></a>ทำความเข้าใจประสิทธิภาพวิชวลแบบกำหนดเอง 
 ตรวจสอบให้แน่ใจว่าได้ทดสอบแต่ละวิชวลแบบกำหนดเองอย่างละเอียดเพื่อให้แน่ใจว่ามีประสิทธิภาพการทำงานสูง วิชวลแบบกำหนดเองที่ปรับแต่งได้ไม่ดี สามารถส่งผลเสียต่อประสิทธิภาพการทำงานของทั้งรายงาน 
  
-## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>เจาะลึกลงในประสิทธิภาพคิวรี ด้วย SQL Profiler และ Power BI Desktop 
-สำหรับการเจาะลึกลงไปเพื่อหาว่าวิชวลใดใช้เวลาและทรัพยากรมากที่สุด คุณสามารถเชื่อมต่อ SQL Profiler กับ Power BI Desktop เพื่อเห็นภาพทั้งหมดของประสิทธิภาพคิวรี ต่อไปนี้คือวิธีปฏิบัติ: 
+## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>เจาะลึกลงในประสิทธิภาพคิวรี ด้วย SQL Profiler และ Power BI Desktop
+
+สำหรับการเจาะลึกลงไปเพื่อหาว่าวิชวลใดใช้เวลาและทรัพยากรมากที่สุด คุณสามารถเชื่อมต่อ SQL Profiler กับ Power BI Desktop เพื่อเห็นภาพทั้งหมดของประสิทธิภาพคิวรี
+
+> [!NOTE]
+> Power BI desktop สนับสนุนการเชื่อมต่อเข้ากับพอร์ตการวินิจฉัย พอร์ตการวินิจฉัยอนุญาตให้เครื่องมืออื่น ๆ เชื่อมต่อและดำเนินการติดตามเพื่อการวินิจฉัย *ไม่สนับสนุนการทำการเปลี่ยนแปลงใด ๆ ลงในรูปแบบ การเปลี่ยนแปลงไปยังรูปแบบอาจทำให้ข้อมูลเสียหายและสูญหายได้*
+
+ต่อไปนี้คือวิธีปฏิบัติ:
   
 1. **ติดตั้ง SQL Server Profiler และเรียกใช้ Power BI Desktop** 
 

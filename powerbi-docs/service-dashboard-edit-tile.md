@@ -1,30 +1,22 @@
 ---
-title: บทเรียน แก้ไขแดชบอร์ดไทล์
+title: แก้ไขไทล์แดชบอร์ด
 description: บทเรียนนี้นำพาคุณจากการสร้างไทล์ และปักหมุดไปยังแดชบอร์ด เพื่อเรียนรู้วิธีการแก้ไขแดชบอร์ดไทล์ปรับขนาด ย้าย เปลี่ยนชื่อ ปักหมุด ลบ เพิ่มไฮเปอร์ลิงก์
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 98856d551e0f124d7ea3e038623e2340ceeb18b8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
-ms.locfileid: "29924972"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34248353"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>แก้ไขหรือลบแดชบอร์ดไทล์
 
@@ -150,7 +142,7 @@ ms.locfileid: "29924972"
 
 - - -
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[แดชบอร์ดไทล์ใน Power BI](service-dashboard-tiles.md)
+[ไทล์แดชบอร์ดใน Power BI](service-dashboard-tiles.md)
 
 [แดชบอร์ดใน Power BI](service-dashboards.md)
 

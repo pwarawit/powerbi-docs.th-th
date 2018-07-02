@@ -1,31 +1,23 @@
 ---
-title: เริ่มใช้งานด่วน - เริ่มต้นใช้งานถามตอบของ Power BI
-description: 'เริ่มใช้งานด่วน: เริ่มต้นใช้งานด้วยการถามตอบในบริการ Power BI โดยใช้ตัวอย่างการวิเคราะห์ร้านค้าปลีก'
-services: powerbi
-documentationcenter: ''
+title: เริ่มใช้งานกับการถามตอบ Power BI
+description: เริ่มต้นใช้งานถามตอบในบริการของ Power BI โดยใช้ตัวอย่างการวิเคราะห์ด้านการขายปลีก
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0f4f56431fd0c667411c302f4f30f0c395269e4a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c567921b765f03fbaa11f2b98724cea1a1ce1905
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815393"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34240996"
 ---
-# <a name="get-started-with-power-bi-qa-quickstart"></a>เริ่มใช้งานกับการถามตอบ Power BI (เริ่มใช้งานด่วน)
+# <a name="get-started-with-power-bi-qa"></a>เริ่มใช้งานกับการถามตอบ Power BI
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>ใช้ถามตอบ Power BI ด้วยตัวอย่างการวิเคราะห์ร้านค้าปลีก
 ในบางครั้ง วิธีที่เร็วที่สุดในการให้ได้คำตอบจากข้อมูลของคุณคือ การถามคำถามโดยใช้ภาษาธรรมชาติ  ในเริ่มใช้งานด่วนนี้ เราจะดู 2 วิธีีที่แตกต่างกันสำหรับการสร้างการแสดงภาพเดียวกัน: ก่อนอื่นให้สร้างในรายงานก่อน และประการที่สอง ถามคำถามกับถามตอบ (Q&A) เราจะใช้บริการ Power BI แต่กระบวนการเกือบจะเหมือนกันทั้งหมดกับการใช้ Power BI Desktop
 
@@ -65,7 +57,7 @@ ms.locfileid: "30815393"
 4. เมื่อต้องการปักหมุดแผนภูมิไปยังแดชบอร์ด เลือกไอคอนหมุด![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[การถามตอบใน Power BI](power-bi-q-and-a.md)
+[Q&A ใน Power BI](power-bi-q-and-a.md)
 
 [ทำให้ข้อมูลของคุณทำงานได้ดีกับการถามตอบใน Power BI](service-prepare-data-for-q-and-a.md)
 

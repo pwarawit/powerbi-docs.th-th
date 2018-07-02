@@ -1,30 +1,23 @@
 ---
-title: เปลี่ยนขนาดของหน้ารายงาน (บทช่วยสอน)
-description: 'บทช่วยสอน: เปลี่ยนการตั้งค่าการแสดงหน้าในรายงาน Power BI'
-services: powerbi
-documentationcenter: ''
+title: เปลี่ยนขนาดของหน้ารายงาน
+description: เปลี่ยนการตั้งค่าการแสดงหน้าในรายงาน Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: modifying
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9ec589655a3dc9b3e19def76cee2f20c48a512b2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c2b9a106c4007af868cf69902ce511da8e03e75f
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244572"
 ---
-# <a name="change-the-size-of-a-report-page-tutorial"></a>เปลี่ยนขนาดของหน้ารายงาน (บทช่วยสอน)
+# <a name="change-the-size-of-a-report-page"></a>เปลี่ยนขนาดของหน้ารายงาน
 ใน[บทความและวิดีโอก่อนหน้านี้](power-bi-report-display-settings.md)คุณได้เรียนรู้สองวิธีในการควบคุมการแสดงหน้าในรายงาน Power BI: **มุมมอง**และ**ขนาดหน้า** มุมมองหน้าและขนาดหน้ามีใช้งานทั้งในบริการ Power BI และ Power BI Desktop โดยที่มีลักษณะและฟังก์ชันการทำงานเกือบเหมือนกันทั้งหมด แต่สำหรับบทช่วยสอนนี้ เราจะใช้บริการ Power BI
 
 ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น

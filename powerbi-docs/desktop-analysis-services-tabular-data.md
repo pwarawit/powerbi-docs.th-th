@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726d084201c59182655fbaf5ef35a0e999bc07fc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c92e91a08026ab3e4fce4513aa8e0892fa0c3db3
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "34799498"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>ใช้ข้อมูล Analysis Services Tabular ใน Power BI Desktop
 ด้วย Power BI Desktop คุณมีสองวิธีที่สามารถเชื่อมต่อ และรับข้อมูลจากแบบจำลอง SQL Server Analysis Services Tabular คือ สำรวจโดยใช้การเชื่อมต่อกันโดยตรงหรือรายการที่เลือก และนำเข้าลงใน Power BI Desktop
@@ -84,4 +85,10 @@ ms.lasthandoff: 05/17/2018
 2. ป้อนชื่อเซิร์ฟเวอร์ใหม่
    
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_chname_dialog.png)
+   
+   
+## <a name="troubleshooting"></a>การแก้ไขปัญหา 
+รายการต่อไปนี้อธิบายปัญหาที่ทราบแล้วทั้งหมด เมื่อเชื่อมต่อกับ SQL Server Analysis Services (SSAS) หรือ Azure Analysis Services 
+
+* **ข้อผิดพลาด: ไม่สามารถโหลด Schema สำหรับโมเดล** - ข้อผิดพลาดนี้มักจะเกิดขึ้นเมื่อผู้ใช้ที่เชื่อมต่อกับ Analysis Services ไม่สามารถเข้าถึงฐานข้อมูล/รูปแบบได้
 

@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ comScore Digital Analytix ด้วย Power BI
 description: comScore Digital Analytix สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c7e476cb9e5a210ce2d37691c44ed05dd9f3c256
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bc9a8637416bdea50e955c1aea73bbcfeed51bb6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815253"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34243012"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>เชื่อมต่อกับ comScore Digital Analytix ด้วย Power BI
 ดูภาพและสำรวจข้อมูล comScore Digital Analytix ของคุณใน Power BI ด้วยชุดเนื้อหา Power BI ข้อมูลจะรีเฟรชโดยอัตโนมัติหนึ่งครั้งต่อวัน
@@ -51,11 +43,11 @@ ms.locfileid: "30815253"
    ![](media/service-connect-to-connect-to/creds.png)
 6. กระบวนการนำเข้าจะเริ่มโดยอัตโนมัติ เมื่อเสร็จสิ้น แดชบอร์ดใหม่ รายงาน และแบบจำลองจะปรากฏในบานหน้าต่างนำทาง เลือกแดชบอร์ดเพื่อดูข้อมูลที่นำเข้าของคุณ
 
-**ฉันต้องทำอะไรต่อ?**
+**ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่องถามตอบ](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานพื้นฐาน
+* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
 * ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
 
 <a name="Requirements"></a>
@@ -72,7 +64,7 @@ ms.locfileid: "30815253"
 
 ในศูนย์ข้อมูลที่คุณเชื่อมต่อจะกำหนด โดย URL ที่คุณนำทางไปใน comScore
 
-ถ้าคุณใช้ https://dax.comscore.com ใส่ "สหรัฐอเมริกา" ถ้าคุณใช้ https://dax.comscore.eu ใส่ "EU"
+ถ้าคุณใช้ https://dax.comscore.com ใส่ "US" ถ้าคุณใช้ https://dax.comscore.eu ใส่ "EU"
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 

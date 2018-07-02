@@ -1,39 +1,22 @@
 ---
-title: 'ข้อผิดพลาด: '
-communication: ''
-failures": ''
-in: ''
-ios: ''
-mobile: ''
-apps: ''
-'-': ''
-power: ''
-bi": ''
+title: 'การแก้ไข: "ความล้มเหลวในการสื่อสาร" ในแอปสำหรับอุปกรณ์เคลื่อนที่ iOS - Power BI'
 description: บทความนี้อาจช่วยคุณได้ถ้าคุณเห็นข้อความนี้, 'เราพบความล้มเหลวในการสื่อสาร ความล้มเหลวอาจเกี่ยวข้องกับการตั้งค่าพร็อกซีบนการเชื่อมต่อ Wi-Fi ของคุณ'
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 03/07/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 52b6876165c6760bf76715b8eb051299eb07fe0c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0bb0a221455311854ec52092d062defbc715cdfa
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2017
-ms.locfileid: "30972016"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "34721420"
 ---
-# <a name="error-communication-failures-in-ios-mobile-apps---power-bi"></a>ข้อผิดพลาด: "ความล้มเหลวในการสื่อสาร" ในแอปบนอุปกรณ์เคลื่อนที่ iOS - Power BI
+# <a name="fixing-communication-failures-in-ios-mobile-apps---power-bi"></a>การแก้ไข: "ความล้มเหลวในการสื่อสาร" ในแอปสำหรับอุปกรณ์เคลื่อนที่ iOS - Power BI
 | ![iPhone](media/mobile-known-issues-with-the-iphone-app/iphone-logo-50-px.png) | ![iPad](media/mobile-known-issues-with-the-iphone-app/ipad-logo-50-px.png) |
 |:--- |:--- |
 | iPhone |iPad |

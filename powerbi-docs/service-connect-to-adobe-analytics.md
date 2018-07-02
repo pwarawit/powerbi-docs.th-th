@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ Adobe Analytics ด้วย Power BI
 description: เชื่อมต่อกับ Adobe Analytics จาก Power BI สำหรับแอปซึ่งแสดงข้อมูลบัญชีของคุณในแดชบอร์ดและรายงาน
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 452f970efda4c49e197ed578f5c5b05917aa43e7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815418"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251632"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>เชื่อมต่อกับ Adobe Analytics ด้วย Power BI
 การเชื่อมต่อกับ Adobe Analytics ผ่านทาง Power BI เริ่มจากการเชื่อมต่อไปยังบัญชี Adobe Analytics Marketing Cloud ของคุณ คุณจะได้แอปที่มีแดชบอร์ด Power BI และชุดของรายงาน Power BI ซึ่งให้ข้อมูลเชิงลึกเกี่ยวกับ ปริมาณการใช้งาน และมิติของผู้ใช้ ของไซต์คุณ ข้อมูลจะถูกรีเฟรชโดยอัตโนมัติวันละครั้ง คุณสามารถโต้ตอบกับแดชบอร์ดและรายงาน แต่คุณไม่สามารถบันทึกการเปลี่ยนแปลงได้
@@ -102,7 +94,7 @@ Suite ID จะสร้างขึ้นเมื่อสร้าง Report 
 ถ้าคุณผ่านหน้าจอข้อมูลประจำตัวได้สำเร็จ ก่อนจะพบข้อผิดพลาด เป็นไปได้ที่รายงานใช้เวลานานเกินไปกว่าจะเสร็จ ข้อผิดพลาดที่พบบ่อยจะอยู่ในรูปแบบ *"ไม่สามารถรับข้อมูลจากรายงาน Adobe Analytics เนื้อหารวม &quot;หน้าอ้างอิง, หน้า&quot;, ระยะเวลาโดยประมาณคือ xx วินาที"* โปรดตรวจทานส่วน "ที่รวมอยู่ข้างใน" และเปรียบเทียบกับขนาดอินสแตนซ์ Adobe ของคุณ ขออภัยที่ยังไม่มีวิธีหลีกเลี่ยงปัญหาการหมดเวลานี้ แต่เรากำลังพิจารณาปรับปรุงเพื่อสนับสนุนอินสแตนซ์ที่มีขนาดใหญ่ขึ้น โปรดส่งคำติชมไปยังทีม Power BI ที่ https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [แอปใน Power BI คืออะไร](service-install-use-apps.md)
+* [แอป Power BI คืออะไร](service-install-use-apps.md)
 * [รับข้อมูลใน Power BI](service-get-data.md)
-* มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

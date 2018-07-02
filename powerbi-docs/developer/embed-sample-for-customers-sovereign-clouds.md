@@ -9,11 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: 59f045d142fdf5ba22f9d240913687a9306e6b43
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ebbb004fe79bbae942243bc227e1c09fd51fa75f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813721"
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>ฝังในแดชบอร์ด ไทล์ หรือรายงาน Power BI ลงในแอปพลิเคชันสำหรับคลาวด์แบบ sovereign
 เรียนรู้วิธีการรวม หรือฝัง แดชบอร์ด ไทล์ หรือ รายงาน ลงในแอปบนเว็บด้วย Power BI .NET SDK ตลอดจด Power BI JavaScript API สำหรับลูกค้าของคุณ นี่คือกรณีทั่วไปของ ISV
@@ -36,12 +37,12 @@ Power BI ยังสนับสนุนคลาวด์แบบ sovereign 
 > กำลังมองหาวิธีฝังแดชบอร์ดสำหรับองค์กรของคุณ ดูที่ [รวมแดชบอร์ดลงในแอปสำหรับองค์กรของคุณ](integrate-dashboard.md)
 >
 
-เมื่อต้องรวมแดชบอร์ดลงในเว็บแอป คุณใช้ **Power BI** API และ**โทเค็นการเข้าถึง**สำหรับรับรองความถูกต้องกับ Azure Active Directory (AD) เพื่อรับแดชบอร์ด หลังจากนั้น คุณโหลดแดชบอร์ดโดยใช้โทเค็นฝังตัว **Power BI** API ให้การเข้าถึงแหล่งข้อมูล **Power BI** ผ่านทางโปรแกรม สำหรับข้อมูลเพิ่มเติม ดู[ภาพรวมของ Power BI REST API](https://msdn.microsoft.com/library/dn877544.aspx), [Power BI .NET SDK](https://github.com/Microsoft/PowerBI-CSharp) และ [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
+เพื่อรวมแดชบอร์ดลงในเว็บแอป คุณใช้ **Power BI** API และ**โทเค็นการเข้าถึง**สำหรับรับรองตัวตนกับ Azure Active Directory (AD) เพื่อรับแดชบอร์ด หลังจากนั้น คุณโหลดแดชบอร์ดโดยใช้โทเค็นแบบฝังตัว **Power BI** API การเข้าถึงแหล่งข้อมูล **Power BI** ผ่านทางโปรแกรม สำหรับข้อมูลเพิ่มเติม ดู[ Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/), [Power BI .NET SDK](https://github.com/Microsoft/PowerBI-CSharp) และ [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
 
 ## <a name="download-the-sample"></a>ดาวน์โหลดตัวอย่าง
 บทความนี้แสดงโค้ดที่ใช้ใน [ตัวอย่างการฝังตัวสำหรับลูกค้าของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) บน GitHub ถ้าต้องการทำตามการฝึกปฏิบัตินี้ คุณสามารถดาวน์โหลดตัวอย่าง
 
-* ชุมชน Cloud สำหรับรัฐบาล (GCC):
+* ชุมชน Cloud สำหรับส่วนราชการ (GCC):
     1. เขียนทับแฟ้ม Cloud.config ด้วยเนื้อหา GCCCloud.config
     2. อัปเดต clientid (รหัสไคลเอ็นต์ของเนทิฟแอป), groupid, ผู้ใช้ (ผู้ใช้หลักของคุณ) และรหัสผ่านในแฟ้ม Web.config
     3. เพิ่มพารามิเตอร์ GCC ในแฟ้ม web.config ดังนี้
@@ -56,7 +57,7 @@ Power BI ยังสนับสนุนคลาวด์แบบ sovereign 
 <add key="embedUrlBase" value="https://app.powerbigov.us" />
 ```
 
-* ผู้รับเหมากองทัพ (DoDCON):
+* ผู้รับจ้างทางการทหาร (DoDCON):
     1. เขียนทับแฟ้ม Cloud.config ด้วยเนื้อหา TBCloud.config
     2. อัปเดต clientid (รหัสไคลเอ็นต์ของเนทิฟแอป), groupid, ผู้ใช้ (ผู้ใช้หลักของคุณ) และรหัสผ่านในแฟ้ม Web.config
     3. เพิ่มพารามิเตอร์ DoDCON ในแฟ้ม web.config ดังนี้
@@ -112,11 +113,11 @@ Power BI ยังสนับสนุนคลาวด์แบบ sovereign 
 
 * Power BI สำหรับคลาวด์ประเทศเยอรมน - ี https://app.powerbi.de/apps
 
-ถ้าคุณดาวน์โหลด [ตัวอย่างการฝังตัวสำหรับลูกค้าของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) คุณใช้ค่า **Client ID** ที่คุณได้รับหลังจากลงทะเบียน เพื่อให้ตัวอย่างสามารถรับรองความถูกต้องกับ Azure AD เพื่อกำหนดค่าของตัวอย่าง เปลี่ยนค่า **clientId** ในแฟ้ม *web.config*
+ถ้าคุณดาวน์โหลด [ตัวอย่างการฝังตัวสำหรับลูกค้าของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) คุณใช้ค่า **Client ID** ที่คุณได้รับหลังจากลงทะเบียน เพื่อให้ตัวอย่างสามารถรับรองความถูกต้องกับ Azure AD เพื่อกำหนดค่าของตัวอย่าง เปลี่ยนค่า **clientId** ในไฟล์ *web.config*
 
 
-## <a name="step-2---get-an-access-token-from-azure-ad"></a>ขั้นตอนที่ 2 - รับโทเค็นการเข้าถึงจาก Azure AD
-ภายในแอปพลิเคชันของคุณ คุณจะต้องรับ**โทเค็นการเข้าถึง**จาก Azure AD ก่อนที่คุณสามารถเรียกใช้ Power BI REST API ได้ สำหรับข้อมูลเพิ่มเติม ดู[รับรองความถูกต้องผู้ใช้ และรับโทเค็นการเข้าถึง Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md) เนื่องจากแต่ละ sovereign cloud มีหน่วยงานที่สังกัดแตกต่างกัน URL สำหรับรับโทเค็นการเข้าถึงของแอปพลิเคชันคุณจะแตกต่างกันออกไป
+## <a name="step-2---get-an-access-token-from-azure-ad"></a>ขั้นตอนที่ 2 - รับโทเค็นเพื่อเข้า จาก Azure AD
+ภายในแอปพลิเคชันของคุณ คุณจะต้องรับ**โทเค็นการเข้า**จาก Azure AD ก่อนที่คุณสามารถเรียกใช้ Power BI REST API ได้ สำหรับข้อมูลเพิ่มเติม ดู[รับรองความถูกต้องผู้ใช้ และรับโทเค็นการเข้าถึง Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md) เนื่องจากแต่ละ sovereign cloud มีหน่วยงานที่สังกัดแตกต่างกัน URL สำหรับรับโทเค็นการเข้าถึงของแอปพลิเคชันคุณจะแตกต่างกันออกไป
 
 * ชุมชน Cloud สำหรับรัฐบาล (GCC) - https://login.microsoftonline.com
 
@@ -128,11 +129,11 @@ Power BI ยังสนับสนุนคลาวด์แบบ sovereign 
 
 คุณสามารถดูตัวอย่างโค้ดของเนื้อหาแต่ละขั้นตอนได้ใน **Controllers\HomeController.cs**
 
-## <a name="step-3---get-a-content-item"></a>ขั้นตอนที่ 3 - รับเนื้อหา
-เมื่อต้องฝังเนื้อหา Power BI ของคุณ คุณจะจำเป็นต้องทำสองสิ่งให้แน่ใจว่า การฝังตัวถูกต้อง ถึงแม้ว่าขั้นตอนเหล่านี้สามารถทำได้ใน REST API โดยตรง แอปพลิเคชันตัวอย่าง และตัวอย่างนี้จะใช้ .NET SDK
+## <a name="step-3---get-a-content-item"></a>ขั้นตอนที่ 3 รับเนื้อหา
+เมื่อต้องฝังเนื้อหา Power BI ของคุณ คุณจะจำเป็นต้องทำสิ่งสองสิ่งนี้ให้แน่ใจว่า การฝังตัวนั้นถูกต้อง ถึงแม้ว่าขั้นตอนเหล่านี้สามารถทำได้ใน REST API โดยตรง แอปพลิเคชันตัวอย่าง และตัวอย่างนี้จะใช้ .NET SDK
 
-### <a name="create-the-power-bi-client-with-your-access-token"></a>สร้างไคลเอ็นต์ Power BI ด้วยโทเค็นการเข้าถึงของคุณ
-ด้วยโทเค็นการเข้าถึงของคุณ คุณสามารถสร้างวัตถุไคลเอ็นต์ Power BI ของคุณ ให้คุณสามารถโต้ตอบกับ Power BI API ทำได้โดยนำ AccessToken ไปใส่ไว้ในวัตถุ *Microsoft.Rest.TokenCredentials*
+### <a name="create-the-power-bi-client-with-your-access-token"></a>สร้างไคลเอ็นต์ Power BI ด้วยโทเค็นการเข้าของคุณ
+ด้วยโทเค็นการเข้าของคุณ คุณสามารถสร้างวัตถุไคลเอ็นต์ Power BI ซึ่งทำให้คุณสามารถโต้ตอบกับ Power BI API ทำได้โดยนำ AccessToken ไปใส่ไว้ในวัตถุ *Microsoft.Rest.TokenCredentials*
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -149,9 +150,9 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ```
 
 ### <a name="get-the-content-item-you-want-to-embed"></a>รับเนื้อหาที่คุณต้องการฝังตัว
-คุณใช้วัตถุไคลเอ็นต์ Power BI เพื่อดึงเอา อ้างอิงไปยังเนื้อหา ที่คุณต้องการฝังตัว คุณสามารถฝังแดชบอร์ด ไทล์ หรือรายงาน นี่คือตัวอย่างของวิธีการดึง แดชบอร์ด ไทล์ หรือรายงานจากพื้นที่ทำงานที่ระบุไว้
+คุณใช้วัตถุไคลเอ็นต์ Power BI เพื่อดึงเอาตัวอ้างอิงไปยังเนื้อหา ที่คุณต้องการฝังตัว คุณสามารถฝังแดชบอร์ด ไทล์ หรือรายงาน นี่คือตัวอย่างของวิธีการดึง แดชบอร์ด ไทล์ หรือรายงานตัวแรกจากพื้นที่ทำงานที่ระบุไว้
 
-มีตัวอย่างนี้ให้ใน **Controllers\HomeController.cs** ของการ[ตัวอย่าง แอปเป็นเจ้าของข้อมูล](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
+มีตัวอย่างนี้ให้ใน **Controllers\HomeController.cs** ของ[ตัวอย่าง แอปเป็นเจ้าของข้อมูล](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
 
 **แดชบอร์ด**
 
@@ -200,15 +201,15 @@ ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId)
 Report report = reports.Value.FirstOrDefault();
 ```
 
-### <a name="create-the-embed-token"></a>สร้างโทเค็นฝังตัว
-โทเค็นฝังตัว จะต้องถูกสร้างขึ้นสำหรับใช้จาก JavaScript API โทเค็นฝังตัวแต่ละตัวจะเฉพาะเจาะจงกับรายการคุณจะฝัง ซึ่งหมายความว่า ทุกครั้งที่คุณต้องการฝังเนื้อหาของ Power BI ชิ้นหนึ่ง คุณต้องสร้างโทเค็นใหม่ขึ้นมา สำหรับข้อมูลเพิ่มเติม รวมไปถึง **accessLevel** ที่จะใช้ ดู[GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)
+### <a name="create-the-embed-token"></a>สร้างโทเค็นแบบฝังตัว
+โทเค็นแบบฝังตัวจะต้องถูกสร้างขึ้น ซึ่งสามารถใช้ได้จาก JavaScript API โทเค็นแบบฝังตัวจะเป็นแบบเฉพาะเจาะจงกับรายการคุณจะฝัง ซึ่งหมายความว่า ทุกครั้งที่คุณต้องการฝังเนื้อหาของ Power BI ชิ้นหนึ่ง คุณต้องสร้างโทเค็นใหม่ขึ้นมา สำหรับข้อมูลเพิ่มเติม รวมไปถึง **accessLevel** ที่จะใช้ ดู[โทเค็นที่ฝัง](https://docs.microsoft.com/rest/api/power-bi/embedtoken)
 
 > [!IMPORTANT]
-> เนื่องจากโทเค็นฝังตัวมีไว้สำหรับทดสอบการพัฒนาเท่านั้น จำนวนโทเค็นฝังตัวที่บัญชีหลักของ Power BI มีได้จำกัด [ต้องซื้อความจุ](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) สำหรับสถานการณ์ที่มีการฝังสำหรับการผลิต ไม่มีข้อจำกัดจำนวนโทเค็นฝังตัวที่สร้างเมื่อซื้อความจุแล้ว
+> เนื่องจากโทเค็นแบบฝังตัวมีไว้สำหรับทดสอบการพัฒนาเท่านั้น จำนวนโทเค็นแบบฝังตัวที่บัญชีหลักของ Power BI มีได้จำกัด [ต้องซื้อความจุ](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) สำหรับสถานการณ์ที่มีการฝังในโปรดักชั่น ไม่จำกัดจำนวนโทเค็นแบบฝังตัวที่สร้างเมื่อซื้อความจุแล้ว
 
 มีตัวอย่างนี้ อยู่ใน **Controllers\HomeController.cs** ของ[ตัวอย่างการฝังตัวสำหรับองค์กรของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
 
-ตัวอย่างต่อไปนี้ สมมุติว่ามีการสร้างคลาสสำหรับ **EmbedConfig** และ **TileEmbedConfig** อยู่ก่อนแล้ว ตัวอย่างมีให้ใน **Models\EmbedConfig.cs** และ **Models\TileEmbedConfig.cs**
+ตัวอย่างต่อไปนี้ ถือว่ามีการสร้างคลาสสำหรับ **EmbedConfig** และ **TileEmbedConfig** อยู่ก่อนแล้ว ตัวอย่างมีให้ใน **Models\EmbedConfig.cs** และ **Models\TileEmbedConfig.cs**
 
 **แดชบอร์ด**
 
@@ -397,7 +398,7 @@ var embedConfig = new EmbedConfig()
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-* มีตัวอย่างแอปพลิเคชันบน GitHub ให้คุณได้ศึกษา ตัวอย่างต่าง ๆ ข้างบนมาจากตัวอย่างนั้น สำหรับข้อมูลเพิ่มเติม ดู[ตัวอย่างการฝังตัวสำหรับองค์กรของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
+* มีตัวอย่างแอปพลิเคชันบน GitHub ให้คุณได้ศึกษา ตัวอย่างต่างๆ ข้างบนมาจากตัวอย่างนั้น สำหรับข้อมูลเพิ่มเติม ดู[ตัวอย่างการฝังตัวสำหรับองค์กรของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)
 * สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ JavaScript API โปรดอ้างอิงจาก [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
 * สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power BI สำหรับคลาวด์ประเทศเยอรมนี โปรดอ้างอิงจาก [Power BI สำหรับคลาวด์ประเทศเยอรมนี คำถามที่ถามบ่อย](https://docs.microsoft.com/power-bi/service-govde-faq)
 * [วิธีการย้ายเนื้อหาจาก Power BI Workspace Collection ไปยัง Power BI](migrate-from-powerbi-embedded.md)
@@ -405,4 +406,4 @@ var embedConfig = new EmbedConfig()
 ข้อจำกัดและข้อควรพิจารณา
 * บัญชีผู้ใช้ GCC สนับสนุนเฉพาะความสามารถ P และ EM เท่านั้น
 
-ถ้าคุณมีคำถามเพิ่มเติม [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)

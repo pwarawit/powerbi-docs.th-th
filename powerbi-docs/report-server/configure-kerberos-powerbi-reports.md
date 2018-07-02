@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: c4429c33f52954852f430e582064c813b11555b7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a9173ba6b4689a6cc71eba679f9bcc0c54de048c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481796"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>กำหนดค่า Kerberos เพื่อใช้รายงาน Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -214,8 +215,8 @@ SPN สำหรับ SQL Browser จะคล้ายกับสิ่งท
 ขณะที่การกำหนดค่านี้ควรใช้ได้ในกรณีส่วนใหญ่ ด้วย Kerberos อาจมีการกำหนดค่าที่แตกต่างออกไปโดยขึ้นอยู่กับสภาพแวดล้อมของคุณ ถ้ารายงานยังคงไม่โหลด คุณจะต้องติดต่อผู้ดูแลระบบโดเมนของคุณเพื่อตรวจสอบเพิ่มเติม หรือติดต่อฝ่ายสนับสนุน
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[คู่มือผู้ดูแลระบบ](admin-handbook-overview.md)  
+[ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
 [ติดตั้ง Power BI Report Server](install-report-server.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

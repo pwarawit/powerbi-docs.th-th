@@ -1,36 +1,29 @@
 ---
 title: มีอะไรใหม่ในการอัปเดต Power BI Desktop ล่าสุด
 description: มีอะไรใหม่ในการอัปเดต Power BI Desktop ล่าสุด
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 05/31/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/04/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 08dbb8c68ba7ca50766f104d0a7581c9f876f6d1
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: c1c32e216dfdf4417fda8ee8888f85e1d27a8cda
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812456"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>มีอะไรใหม่ในการอัปเดต Power BI Desktop ล่าสุด
 
-## <a name="april-2018-update-2575068501"></a>การอัปเดตประจำเดือน 2018 เมษายน (2.57.5068.501)
+## <a name="june-2018-update-2595135101"></a>การอัปเดตประจำเดือนมิถุนายน 2018 (2.59.5135.101)
+
+พระอาทิตย์กำลังส่องแสงลงบนการอัปเดตของเดือนนี้ ด้วยคุณลักษณะและการปรับปรุง ที่จะทำให้รายงานของคุณอบอุ่น และให้คุณได้อาบแดดในข้อมูลเชิงลึกที่รายงานมีให้
 
 ตอนนี้คุณสามารถ[ดาวน์โหลดเวอร์ชันล่าสุดของ Power BI Desktop](https://powerbi.microsoft.com/desktop)ได้ ถ้าคุณกำลังใช้งาน Windows 10 คุณยังสามารถรับ **Power BI Desktop** ได้จาก Windows Store รุ่นที่ออกรายเดือนจะเหมือนกัน ไม่ว่าคุณจะติดตั้ง **Power BI Desktop** ทางไหน ดู[บทความนี้](desktop-get-the-desktop.md)สำหรับข้อมูลเพิ่มเติม 
-
-เราจะไม่หลอกคุณว่าเรามีความสุขกับอัปเดต **Power BI Desktop** ของเดือนนี้แค่ไหน เราได้กระจายการปรับปรุงในหลาย ๆ ด้าน และหวังว่านั่นจะช่วยให้คุณขยายรายงานของคุณด้วยวิชวลที่น่าทึ่ง และสวยงามในอนาคต 
 
 ลิงก์ที่อยู่ข้างแต่ละอัปเดต มีความหมายดังนี้:
 
@@ -43,41 +36,45 @@ ms.lasthandoff: 04/06/2018
 
 การปรับปรุงต่อไปนี้เป็นของใหม่ใน **Power BI Desktop** สำหรับเดือนนี้:
 
+
 ### <a name="reporting"></a>การรายงาน
 
-* Q&A Explorer [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=13s)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer) 
-* ปุ่มที่ทริกเกอร์การกระทำ [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=9m42s) [[บทความ]](desktop-buttons.md)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#buttons) 
-* รูปแบบเส้นในแผนภูมิผสม [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=16m55s)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#comboLines) 
-* ปรับปรุงค่าเริ่มต้นของการเรียงลำดับวิชวล [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=19m21s)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sort) 
-* สามารถใช้ ตัวแบ่งส่วนข้อมูลตัวเลข ได้ทั่วไป [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=21m13s)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#numericSlicer) 
+* สนับสนุนความคมชัดสูงสำหรับรายงาน [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=13s) [[บทความ]](desktop-accessibility.md#high-contrast-support-for-reports) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
+* ตัวควบคุมรัศมีของโดนัท [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=6m1s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
+* การควบคุมตำแหน่งป้ายชื่อรายละเอียดของแผนภูมิวงกลมและแผนภูมิโดนัท [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=7m19s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
+* จัดรูปแบบป้ายชื่อข้อมูลแยกจากกัน สำหรับแต่ละหน่วยวัดในแผนภูมิผสม [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=9m29s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
+* รายงานโทรศัพท์ที่ยาวขึ้น [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=11m26s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#phoneReports) 
 
-### <a name="analytics"></a>การวิเคราะห์
+### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
 
-* ปรับปรุงรูปแบบภาษา [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=22m)[[บทความ]](power-bi-custom-visuals-organization.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
-* ฟังก์ชัน DAX ใหม่: COMBINEVALUES() [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=23m37s)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
+* วิชวลแบบกำหนดเองใหม่สองวิชวล [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=17m42s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
 
-### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
-
-* สามารถใช้ วิชวลองค์กร ได้ทั่วไป [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=26m11s)[[บทความ]](power-bi-custom-visuals-organization.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
-* วิชวลแบบกำหนดเองใหม่มากมาย [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=28m8s)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
+### <a name="modeling"></a>การวางรูปแบบ
+* การกรองและเรียงลำดับในมุมมองข้อมูล [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=13m11s) [[บทความ]](desktop-data-view.md#filtering-in-data-view) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
+* ปรับปรุงการกรองตามตำแหน่งที่ตั้ง [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=15m35s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#locale) 
 
 ### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
 
-* สามารถใช้ตัวเชื่อมต่อ Adobe Analytics ได้ทั่วไป [[วิดีโอ]](https://youtu.be/kuI6MMzDh34?t=32m) [[บทความ]](desktop-multi-select.md)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#adobeAnalytics) 
-* ปรับปรุงตัวเชื่อมต่อ SAP HANA: การเลือกพอร์ต [[วิดีโอ]](https://youtu.be/kuI6MMzDh34?t=32m44s)[[บทความ]](desktop-directquery-sap-hana.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
-* ตัวเชื่อมต่อ Dynamics 365 Business Central [[วิดีโอ]](https://youtu.be/kuI6MMzDh34?t=34m10s)[[บทความ]](desktop-directquery-sap-hana.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#dynamics365BusinessCentral) 
+* ปรับปรุงตัวเชื่อมต่อ SAP BusinessWarehouse (โปรแกรมควบคุมใหม่ และประสิทธิภาพที่ดีขึ้น รวมถึงการสนับสนุนตัวแปรลำดับชั้นที่ดีขึ้น) [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=21m6s) [[บทความ]](desktop-sap-bw-connector.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#sapBW) 
+* ตัวเชื่อมต่อ Spark ตอนนี้สนับสนุนการรับรองความถูกต้องของ Windows [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=24m31s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#spark) 
+* ปรับปรุงตัวเชื่อมต่อ OData V4 [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=25m12s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#oData) 
+* การปรับปรุงตัวเชื่อมต่อ ODBC (สนับสนุนการพับสำหรับแถวด้านบนสุด ความสามารถในการกรองการนำทางโดยแค็ตตาล็อก DSN) [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=26m51s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#odbc) 
 
+### <a name="other"></a>อื่นๆ
+
+* ตัวเลือก sovereign cloud [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
 
 > [!NOTE]
 > คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
 
-ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
+ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
 
 วิดีโอต่อไปนี้อธิบาย และแสดงการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/W_Nb73Od_AI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4VpGtWSrssE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
 > [!NOTE]
 > นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](mobile-whats-new-in-the-mobile-apps.md) ได้

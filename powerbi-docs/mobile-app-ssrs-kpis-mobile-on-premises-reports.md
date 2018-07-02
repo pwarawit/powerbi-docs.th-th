@@ -1,38 +1,33 @@
 ---
 title: ดูรายงานและ KPI ภายในองค์กรในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 description: แอป Power BI สำหรับอุปกรณ์เคลื่อนที่เสนอการใช้งานระบบสัมผัสที่เชื่อมต่อแบบสดเพื่อเข้าถึงข้อมูลทางธุรกิจภายในองค์กรของคุณใน SQL Server Reporting Services และเซิร์ฟเวอร์รายงาน Power BI
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/18/2017
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 5bbd2f09187e9fac16f6cc4b9ac3ff59a888ed7f
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482256"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>ดูรายงานจากรีพอร์ตเซิร์ฟเวอร์ภายในองค์กรและ KPI ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+
+แอป Power BI สำหรับอุปกรณ์เคลื่อนที่ให้คุณใช้งานในระบบสัมผัสที่เชื่อมต่อแบบสดเพื่อเข้าถึงข้อมูลทางธุรกิจภายในองค์กรของคุณในเซิร์ฟเวอร์รายงาน Power BI และ SQL Server 2016 Reporting Services (SSRS)
+
 นำไปใช้กับ:
 
 | ![iPhone](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/iphone-logo-50-px.png) | ![iPad](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/ipad-logo-50-px.png) | ![โทรศัพท์ Android](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |
 
-แอป Power BI สำหรับอุปกรณ์เคลื่อนที่ให้คุณใช้งานในระบบสัมผัสที่เชื่อมต่อแบบสดเพื่อเข้าถึงข้อมูลทางธุรกิจภายในองค์กรของคุณในเซิร์ฟเวอร์รายงาน Power BI และ SQL Server 2016 Reporting Services (SSRS) 
 
- ![หน้าแรกของรีพอร์ตเซิร์ฟเวอร์ในแอปสำหรับอุปกรณ์เคลื่อนที่](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-pbi-report-server-home.png)
+![หน้าแรกของรีพอร์ตเซิร์ฟเวอร์ในแอปสำหรับอุปกรณ์เคลื่อนที่](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-pbi-report-server-home.png)
 
 ## <a name="first-things-first"></a>ขั้นแรก
 **แอปสำหรับอุปกรณ์เคลื่อนที่เป็นตำแหน่งที่คุณดูเนื้อหา Power BI ไม่ใช่ตำแหน่งที่คุณสร้างเนื้อหา**
@@ -51,7 +46,7 @@ ms.lasthandoff: 12/19/2017
    
    ![ตัวอย่างของ Reporting Services](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
-## <a name="connect-to-an-on-premises-server"></a>เชื่อมต่อกับเซิร์ฟเวอร์ภายในองค์กร
+## <a name="connect-to-an-on-premises-report-server"></a>เชื่อมต่อกับเซิร์ฟเวอร์ภายในองค์กร
 คุณสามารถดูรายงาน Power BI สำหรับองค์กร รายงานจาก Reporting Services และ KPI ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ 
 
 1. บนอุปกรณ์เคลื่อนที่ เปิดแอป Power BI
@@ -85,6 +80,24 @@ ms.lasthandoff: 12/19/2017
 6. ในตอนนี้ คุณเห็นเซิร์ฟเวอร์ในแถบนำทางด้านซ้าย - ในตัวอย่างนี้ เรียกว่า "เซิร์ฟเวอร์รายงาน Power BI"
    
    ![รีพอร์ตเซิร์ฟเวอร์ในบานหน้าต่างนำทางด้านซ้าย](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
+
+## <a name="connect-to-an-on-premises-report-server-in-ios"></a>เชื่อมต่อกับเซิร์ฟเวอร์รายงานภายในองค์กรใน iOS
+
+ถ้าคุณกำลังดู Power BI ในแอปสำหรับอุปกรณ์ที่ iOS ผู้ดูแลระบบ IT ของคุณอาจมีนโยบายการกำหนดค่าแอป ถ้าเป็นเช่นนั้น ประสบการณ์การเชื่อมต่อกับเซิร์ฟเวอร์รายงานของคุณถูกทำให้ง่ายขึ้น และคุณไม่ต้องใส่ข้อมูลมากเท่าเดิมเมื่อคุณเชื่อมต่อกับเซิร์ฟเวอร์รายงาน 
+
+1. คุณจะเห็นข้อความว่า แอปสำหรับอุปกรณ์เคลื่อนที่ของคุณได้กำหนดค่าสำหรับเซิร์ฟเวอร์รายงานแล้ว แตะ**ลงชื่อเข้าใช้**
+
+    ![ลงชื่อเข้าใช้เซิร์ฟเวอร์รายงาน](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-sign-in.png)
+
+2.  บนหน้า**เชื่อมต่อกับเซิร์ฟเวอร์** รายละเอียดของเซิร์ฟเวอร์รายงานได้ถูกกรอกให้แล้ว แตะ**เชื่อมต่อ**
+
+    ![รายละเอียดของเซิร์ฟเวอร์รายงานที่กรอกให้แล้ว](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-remote-configure-connect-server.png)
+
+3. พิมพ์รหัสผ่านเพื่อรับรองความถูกต้อง จากนั้นแตะ**ลงชื่อเข้าใช้** 
+
+    ![รายละเอียดของเซิร์ฟเวอร์รายงานที่กรอกให้แล้ว](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-address.png)
+
+ตอนนี้ คุณสามารถดูและโต้ตอบกับ KPI และรายงาน Power BI ที่จัดเก็บบนเซิร์ฟเวอร์รายงาน
 
 ## <a name="view-power-bi-reports-and-kpis-in-the-power-bi-app"></a>ดูรายงาน Power BI และ KPI ในแอป Power BI
 รายงาน Power BI รายงานสำหรับอุปกรณ์เคลื่อนที่ของ Reporting Services และ KPI จะแสดงอยู่ในโฟลเดอร์เดียวกันบนพอร์ทัลเว็บของ Reporting Services 

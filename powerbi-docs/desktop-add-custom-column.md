@@ -1,28 +1,21 @@
 ---
 title: เพิ่มคอลัมน์แบบกำหนดเองใน Power BI Desktop
 description: สร้างคอลัมน์แบบกำหนดเองใหม่ใน Power BI Desktop ได้อย่างรวดเร็ว
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/24/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7408d7f5c0dff6d1f04ea42a3f4dfefc8600524f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 30f39cd2b79792e9d4d3c41a1d60a8ddce6802f6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290510"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>เพิ่มคอลัมน์แบบกำหนดเองใน Power BI Desktop
 คุณสามารถเพิ่มคอลัมน์แบบกำหนดเองใหม่ของข้อมูล ลงในรูปแบบของคุณด้วย**ตัวแก้ไขคิวรี**ใน **Power BI Desktop** ได้ คุณสามารถสร้าง และเปลี่ยนชื่อคอลัมน์แบบกำหนดเองของคุณ โดยใช้ปุ่มเพื่อสร้าง[สูตร M](https://msdn.microsoft.com/library/mt270235.aspx) ที่กำหนดคอลัมน์แบบกำหนดเองของคุณได้อย่างง่าย ๆ สูตร M มี[ชุดเนื้อหา การอ้างอิงฟังก์ชันที่ครอบคลุม](https://msdn.microsoft.com/library/mt779182.aspx) 
@@ -40,7 +33,7 @@ ms.lasthandoff: 02/24/2018
 
 ![](media/desktop-add-custom-column/add-custom-column_02.png)
 
-เมื่อคุณทำเช่นนั้น หน้าต่าง**เพิ่มคอลัมน์แบบกำหนดเอง**จะปรากฏขึ้น ซึ่งเราจะกล่าวถึงในส่วนต่อไปนี้
+หน้าต่าง**เพิ่มคอลัมน์แบบกำหนดเอง**จะปรากฏขึ้น ซึ่งจะอธิบายในส่วนต่อไปนี้
 
 ## <a name="the-add-custom-column-window"></a>หน้าต่างเพิ่มคอลัมน์แบบกำหนดเอง
 ในหน้าต่าง**เพิ่มคอลัมน์แบบกำหนดเอง** คุณเห็นรายการเขตข้อมูลที่มีในบานหน้าต่างทางด้านขวา ชื่อคอลัมน์แบบกำหนดเองของคุณอยู่ด้านบน (คุณสามารถเปลี่ยนชื่อ โดยพิมพ์ชื่อใหม่ในกล่องข้อความ) และ[สูตร **M**](https://msdn.microsoft.com/library/mt779182.aspx) ที่คุณสร้าง (หรือเขียน) จากการแทรกเขตข้อมูลจากด้านขวา เพิ่มตัวดำเนินการ หรือสร้างสูตร ที่กำหนดคอลัมน์แบบกำหนดเองใหม่ของคุณ 

@@ -1,35 +1,27 @@
 ---
 title: กล่องข้อความและรูปร่างในรายงาน Power BI
 description: เอกสารประกอบเกี่ยวกับการเพิ่มและสร้างกล่องข้อความ และรูปร่างในรายงานโดยใช้ Microsoft Power BI service
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
+ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/22/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ce10e5d7b0ea2247655a9f93bfc3534086106f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30974561"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310302"
 ---
 # <a name="static-content-in-power-bi-reports"></a>เนื้อหาคงที่ในรายงาน Power BI
-สามารถเพิ่มกล่องข้อความและรูปร่าง ลงในรายงานโดยใช้บริการ Power BI service และ Power BI Desktop ในทั้งสองกรณี คุณต้องแก้ไขสิทธิ์สำหรับรายงาน ถ้ารายงานที่ถูกแชร์กับคุณ คุณจะเข้าถึงมุมมองการแก้ไขไม่ได้ 
+สามารถเพิ่มกล่องข้อความและรูปร่าง ลงในรายงานโดยใช้บริการ Power BI service และ Power BI Desktop ในทั้งสองกรณี คุณต้องแก้ไขสิทธิ์สำหรับรายงาน ถ้ารายงานมีการแชร์ให้กับคุณในบริการของ Power BI คุณจะไม่ได้สิทธิ์การแก้ไข 
 
-Watch Will ใช้ Power BI Desktop เพื่อ[เพิ่มรูปภาพแบบคงที่ไปยังรายงาน](guided-learning/visualizations.yml#step-11)แล้ว ทำตามขั้นตอนด้านล่างเพื่อลองใช้ Power BI service แทน
+Watch Will ใช้ Power BI Desktop เพื่อ[เพิ่มรูปภาพแบบคงที่ไปยังรายงาน](guided-learning/visualizations.yml?tutorial-step=11)แล้ว ทำตามขั้นตอนด้านล่างเพื่อลองใช้ Power BI service แทน
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew" frameborder="0" allowfullscreen></iframe>
 > 

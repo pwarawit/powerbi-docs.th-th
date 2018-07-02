@@ -1,33 +1,25 @@
 ---
 title: ชุดเนื้อหาองค์กร จัดการและอัปเดต
 description: อ่านเกี่ยวกับการจัดการ ปรับปรุง และการลบเนื้อหาขององค์กรคภายใน Power BI
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/12/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4e48ce4269def6764630322ac798a8dd0e491861
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815893"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852313"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>จัดการ อัปเดต และลบชุดเนื้อหาองค์กร
 > [!NOTE]
-> คุณได้ยินเกี่ยวกับ*แอปฯ*ใหม่แล้วหรือยัง แอปเป็นวิธีใหม่ในการกระจายเนื้อหาไปยังผู้ชมจำนวนมากใน Power BI เราขอแนะนำให้ใช้แอปฯแทนชุดเนื้อหาองค์กรหรือพื้นที่ทำงานแบบอ่านอย่างเดียว เรียนรู้[เพิ่มเติมเกี่ยวกับแอปฯ](service-install-use-apps.md)
+> คุณได้ยินเกี่ยวกับ*แอปฯ*ใหม่แล้วหรือยัง แอปเป็นวิธีใหม่ในการกระจายเนื้อหาไปยังผู้ชมจำนวนมากใน Power BI เราวางแผนที่จะยกเลิกการสนับสนุนชุดเนื้อหาระดับองค์กรเร็ว ๆ นี้ ดังนั้น เราขอแนะนำให้ใช้แอปแทน เรียนรู้[เพิ่มเติมเกี่ยวกับแอปฯ](service-install-use-apps.md)
 > 
 > 
 
@@ -80,7 +72,7 @@ ms.locfileid: "30815893"
 ในฐานะผู้สร้างชุดเนื้อหา คุณสามารถ[กำหนดเวลาการรีเฟรชของชุดข้อมูล](refresh-data.md)ได้  เมื่อคุณสร้างและอัปโหลดชุดเนื้อหา การกำหนดเวลาการรีเฟรชนั้นก็ถูกอัปโหลดพร้อมกับชุดข้อมูล ถ้าคุณเปลี่ยนการกำหนดเวลาการรีเฟรช คุณจำเป็นต้องเผยแพร่ชุดเนื้อหา (ดูด้านบน) อีกครั้ง
 
 ## <a name="delete-an-organizational-content-pack-from-appsource"></a>ลบชุดเนื้อหาขององค์กรจาก AppSource
-คุณสามารถลบชุดเนื้อหาจาก AppSource ได้ ถ้าคุณเป็นผู้สร้างชุดเนื้อหานั้น 
+คุณสามารถลบชุดเนื้อหาจาก AppSource ได้ ถ้าคุณเป็นผู้สร้างชุดเนื้อหานั้น ถ้าคุณได้สร้างชุดเนื้อหาขององค์กรในพื้นที่ทำงานแอป แล้วตัดสินใจที่จะลบพื้นที่ทำงานนั้น ตรวจสอบให้แน่ใจว่าลบชุดเนื้อหาก่อน ถ้าคุณลบพื้นที่ทำงานโดยไม่ได้ลบชุดเนื้อหาก่อน คุณสูญเสียการเข้าถึงชุดเนื้อหาเหล่านั้นทั้งหมด และจะต้องติดต่อฝ่ายสนับสนุนของ Microsoft สำหรับความช่วยเหลือ 
 
 > [!TIP]
 > คุณสามารถ[ลบการเชื่อมต่อไปยังชุดเนื้อหา](service-organizational-content-pack-disconnect.md)ที่คุณไม่ได้สร้างขึ้นได้ สิ่งนั้นไม่ได้ลบชุดเนื้อหาจาก AppSource

@@ -1,33 +1,25 @@
 ---
 title: ทำซ้ำหน้ารายงานใน Power BI
 description: คัดลอกและวางหน้ารายงานใน Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: UOKbxTXZrWw
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/20/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 03/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 39d33965c45efe9ca063e658b42c00dcaea8ef26
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c75fd53b7aaa941e8e94518950e9f3ebaaa40c35
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30974541"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34237326"
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>ทำซ้ำหน้ารายงานใน Power BI
-การทำซ้ำหน้ารายงานจำเป็นต้องมีสิทธิ์ในการแก้ไขไขรายงาน ใน Power BI service หมายถึงการเปิดรายงานใน[มุมมองการแก้ไข](service-reading-view-and-editing-view.md) 
+ทำซ้ำหน้ารายงานในบริการของ Power BI หรือ Power BI Desktop จำเป็นต้องมีสิทธิ์ในการแก้ไขรายงาน ในบริการของ Power BI หมายถึงการเปิดรายงานใน[มุมมองการแก้ไข](service-reading-view-and-editing-view.md) 
 
 
 1. ใน Power BI เปิดรายงานที่มีอย่างน้อยหนึ่งหน้า 
@@ -42,10 +34,9 @@ ms.locfileid: "30974541"
    <iframe width="560" height="315" src="https://www.youtube.com/embed/UOKbxTXZrWw?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
-อ่านเพิ่มเติมเกี่ยวกับ[แสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)
-[เพิ่มหน้าใหม่ลงในรายงาน](power-bi-report-add-page.md) 
-
-[Power BI แนวคิดพื้นฐาน](service-basic-concepts.md) 
+อ่านเพิ่มเติมเกี่ยวกับ[การแสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)    
+[เพิ่มหน้าใหม่ลงในรายงาน](power-bi-report-add-page.md)    
+[Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)    
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

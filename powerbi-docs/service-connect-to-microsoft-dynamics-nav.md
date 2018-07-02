@@ -1,32 +1,24 @@
 ---
 title: เชื่อมต่อกับ Microsoft Dynamics NAV ด้วย Power BI
 description: Microsoft Dynamics NAV สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/16/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b06e756732c2c12e822967fbcfeb208bcb1ae334
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 498a66c5e675fc8a394f3c3a0dc2ef7ff7fa99c2
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815673"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "34722439"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>เชื่อมต่อกับ Microsoft Dynamics NAV ด้วย Power BI
-รับข้อมูลเชิงลึกลงในข้อมูล Microsoft Dynamics NAV ของคุณนั้นทำได้ง่ายด้วย Power BI Power BI ดึงข้อมูลของคุณ ทั้งยอดขายและข้อมูลทางการเงิน จากนั้นสร้างแอปและแดชบอร์ด และรายงานที่ยึดตามข้อมูลนั้น Power BI จำเป็นต้องอนุญาตให้ไปยังตารางที่จะดึงข้อมูลจาก ในกรณีนี้ข้อมูลยอดขายและข้อมูลทางการเงิน รายละเอียดเพิ่มเติมเกี่ยวกับข้อกำหนดด้านล่าง หลังจากที่คุณติดตั้งแอป คุณสามารถดูแดชบอร์ดและรายงานใน Power BI service ([https://powerbi.com](https://powerbi.com)) และ ในแอปมือถือ Power BI ได้ 
+รับข้อมูลเชิงลึกลงในข้อมูล Microsoft Dynamics NAV ของคุณนั้นทำได้ง่ายด้วย Power BI Power BI ดึงข้อมูลของคุณ ทั้งยอดขายและข้อมูลทางการเงิน จากนั้นสร้างแอปและแดชบอร์ด และรายงานที่ยึดตามข้อมูลนั้น Power BI จำเป็นต้องอนุญาตให้ไปยังตารางที่จะดึงข้อมูลจาก ในกรณีนี้ข้อมูลยอดขายและข้อมูลทางการเงิน รายละเอียดเพิ่มเติมเกี่ยวกับข้อกำหนดด้านล่าง หลังจากที่คุณติดตั้งแอป คุณสามารถดูแดชบอร์ดและรายงานในบริการของ Power BI ([https://powerbi.com](https://powerbi.com)) และในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ได้ 
 
 [เชื่อมต่อกับ Microsoft Dynamics NAV สำหรับ Power BI](https://app.powerbi.com/getdata/services/microsoft-dynamics-nav)หรืออ่านเพิ่มเติมเกี่ยวกับ[การรวม Dynamics NAV](https://powerbi.microsoft.com/integrations/microsoft-dynamics-nav)ด้วย Power BI
 

@@ -1,28 +1,21 @@
 ---
 title: เชื่อมต่อกับฐานข้อมูล Impala ใน Power BI Desktop
 description: เชื่อมต่อและใช้ฐานข้อมูล Impala ใน Power BI Desktop ได้อย่างง่ายดาย
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bef087b485573ba9a629887bfb05d875c88c8b4c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: b4e45d2ce20e42b4289ffcaaf7c487e4ae746ca0
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301768"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>เชื่อมต่อกับฐานข้อมูล Impala ใน Power BI Desktop
 ใน Power BI Desktop คุณสามารถเชื่อมต่อกับฐานข้อมูล **Impala** และใช้ข้อมูลเบื้องต้นเช่นเดียวกับแหล่งข้อมูลอื่นใน Power BI Desktop ได้
@@ -36,7 +29,7 @@ ms.lasthandoff: 04/26/2018
 
 ![](media/desktop-connect-impala/connect_impala_3a.png)
 
-เมื่อข้อความปรากฏขึ้น ให้ใส่ชื่อผู้ใช้และรหัสผ่านของคุณ หรือเชื่อมต่อแบบไม่ระบุชื่อ อย่างใดอย่างหนึ่งที่ระบบสนับสนุน
+เมื่อได้รับพร้อมท์ ใส่ข้อมูลประจำตัวของคุณ หรือเชื่อมต่อแบบไม่ระบุชื่อ ตัวเชื่อมต่อ Impala สนับสนุนการรับรองความถูกต้องแบบไม่ระบุชื่อ, แบบพื้นฐาน (ชื่อผู้ใช้ + รหัสผ่าน) และ แบบ Windows
 
 ![](media/desktop-connect-impala/connect_impala_4.png)
 
@@ -52,14 +45,14 @@ ms.lasthandoff: 04/26/2018
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 มีบางข้อจำกัดและข้อควรพิจารณาที่ควรระลึกถึงสำหรับตัวเชื่อมต่อ**Impala**:
 
-* แผนในอนาคตจะรวมถึงการเปิดใช้งานการรีเฟรชการสนับสนุนโดยใช้**Power BI Gateway**
+* ตัวเชื่อมต่อ Impala สนับสนุนเกตเวย์ข้อมูลภายในองค์กร โดยใช้กลไกการรับรองความถูกต้องที่สนับสนุนสามแบบ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 มีข้อมูลหลากหลายประเภทที่คุณสามารถเชื่อมต่อโดยใช้ Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแหล่งข้อมูล โปรดดูทรัพยากรต่อไปนี้:
 
 * [เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
-* [จัดรูปร่างและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
-* [เชื่อมต่อกับสมุดงาน Excel ใน Power BI Desktop](desktop-connect-excel.md)   
-* [ใส่ข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
+* [จัดรูปทรงและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [เชื่อมต่อกับเวิร์กบุ๊ก Excel ใน Power BI Desktop](desktop-connect-excel.md)   
+* [ป้อนข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
 

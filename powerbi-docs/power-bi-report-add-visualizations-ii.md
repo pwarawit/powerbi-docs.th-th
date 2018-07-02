@@ -1,30 +1,23 @@
 ---
-title: ส่วนที่ 2 เพิ่มการแสดงภาพไปยังรายงาน Power BI (บทช่วยสอน)
-description: 'บทช่วยสอน: ส่วนที่ 2 เพิ่มการแสดงภาพไปยังรายงาน Power BI'
-services: powerbi
-documentationcenter: ''
+title: ส่วนที่ 2 เพิ่มการแสดงภาพไปยังรายงาน Power BI
+description: ส่วนที่ 2 เพิ่มการแสดงภาพไปยังรายงาน Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 567bece0089a01170e218af9606331e44cb7834f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c3f98635d188aa1857be9c8d8e36dc296339ad7
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34292236"
 ---
-# <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>ส่วนที่ 2 เพิ่มการแสดงภาพไปยังรายงาน Power BI (บทช่วยสอน)
+# <a name="part-2-add-visualizations-to-a-power-bi-report"></a>ส่วนที่ 2 เพิ่มการแสดงภาพไปยังรายงาน Power BI
 ใน[ส่วนที่ 1](power-bi-report-add-visualizations-ii.md) คุณได้สร้างภาพพื้นฐานแล้วโดยการเลือกกล่องข้อความถัดจากชื่อเขตข้อมูล  ในส่วนที่ 2 คุณจะได้เรียนรู้วิธีใช้การลากและวาง และใช้**เขตข้อมูล**และพื้นที่**การแสดงภาพ**เต็มรูปแบบเพื่อสร้างและปรับเปลี่ยนการแสดงภาพ
 
 ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น

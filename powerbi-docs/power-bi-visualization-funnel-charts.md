@@ -1,31 +1,24 @@
 ---
-title: แผนภูมิกรวย (บทช่วยสอน)
-description: 'บทช่วยสอน: แผนภูมิกรวยใน Power BI'
-services: powerbi
-documentationcenter: ''
+title: แผนภูมิกรวย
+description: แผนภูมิกรวยใน Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 34be2f0ed53cdb8b45e60174d09e7da2da1fcce2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: bae4effe719fa74dfa5deb3545e81bfc2aac655f
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34292098"
 ---
-# <a name="funnel-charts-tutorial"></a>แผนภูมิกรวย (บทช่วยสอน)
+# <a name="funnel-charts"></a>แผนภูมิกรวย
 แผนภูมิกรวยช่วยให้คุณแสดงกระบวนการเส้นตรง ที่แบ่งเป็นขั้นตอนที่เชื่อมต่อกันตามลำดับ ตัวอย่างเช่น กรวยการขายที่ติดตามขั้นตอนของลูกค้า: เป้าหมาย \> เป้าหมายที่ผ่านคุณสมบัติ \> สนใจ \> ทำสัญญา \> ปิดการขาย  มองอย่างรวดเร็ว รูปร่างของกรวยบ่งบอกสุขภาพของกระบวนการที่คุณกำลังติดตาม
 
 แต่ละขั้นตอนกรวยการแสดงเปอร์เซ็นต์ของผลรวม ดังนั้น ในกรณีส่วนใหญ่ แผนภูมิกรวยจะมีรูปเหมือนกรวย - ด้วยขั้นตอนแรกที่ใหญ่ที่สุด และขั้นตอนถัด ๆ มาเล็กกว่าขั้นตอนก่อนหน้า  แผนภูมิเป็นรูปต้นแพร์จะยังมีประโยชน์ -- สามารถใช้ระบุปัญหาในกระบวนการได้  แต่โดยทั่วไปแล้ว ขั้นแรกหรือขั้น "ทางเข้า" มีขนาดใหญ่ที่สุด
@@ -80,7 +73,7 @@ ms.lasthandoff: 02/24/2018
 5. [เพิ่มกรวยเป็นไทล์แดชบอร์ด](service-dashboard-tiles.md) 
 6. [บันทึกรายงาน](service-report-save.md)
 
-## <a name="highlighting-and-cross-filtering"></a>การไฮไลต์เชื่อมโยงและการกรองข้าม
+## <a name="highlighting-and-cross-filtering"></a>การทำไฮไลท์และการกรองข้าม
 สำหรับข้อมูลเกี่ยวกับการใช้บานหน้าต่างตัวกรอง ดู[เพิ่มตัวกรองไปยังรายงาน](power-bi-report-add-filter.md)
 
 ไฮไลต์แท่งในแผนภูมิกรวย จะกรองข้ามการแสดงภาพอื่น ๆ บนหน้ารายงาน... และในทางกลับกัน เพื่อทำตาม เพิ่มวิชวลอีกสองสามวิชวล บนหน้ารายงานที่มีแผนภูมิกรวย
@@ -106,5 +99,5 @@ ms.lasthandoff: 02/24/2018
 
 [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

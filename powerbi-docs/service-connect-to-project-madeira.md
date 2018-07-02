@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ Project Madeira ด้วย Power BI
 description: Project Madeira for Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
-ms.locfileid: "30816003"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34245616"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>เชื่อมต่อกับ Project Madeira ด้วย Power BI
 รับข้อมูลเชิงลึกลงในโครงการ "Madeira"ของคุณ ข้อมูลเป็นเรื่องง่ายด้วย Power BI และแพคเนื้อหาโครงการ "Madeira" Power BI ดึงข้อมูลของคุณ ทั้งยอดขายและข้อมูลทางการเงิน จากนั้นสร้างแดชบอร์ดแบบคิดนอกกรอบและรายงานที่ยึดตามข้อมูลนั้น
@@ -41,7 +33,7 @@ ms.locfileid: "30816003"
     ![](media/service-connect-to-project-madeira/services.png)
 3. เลือก**โครงการ "Madeira"** แล้วเลือก**รับ**  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. เมื่อไดถูกถามให้ใส่ URL โครงการ "Madeira" ของคุณ URL ต้องทำตามรูปแบบต่อไปนี้อย่างไม่บิดพลิ้ว https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US') กับชื่อบริษัทโครงการ "Madeira" ของคุณ โปรดสังเกตว่า ไม่มีเครื่องหมายทับต่อที่ส่วนท้าย และการเชื่อมต่อจะต้องเป็น https ดูรายละเอียดในการค้นหา URL นี้[ด้านล่าง](#FindingParams)  
+4. เมื่อไดถูกถามให้ใส่ URL โครงการ "Madeira" ของคุณ URL ต้องอยู่ในรูปแบบต่อไปนี้เท่านั้น https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US') ที่มีชื่อบริษัทของคุณใน Project “Madeira” โปรดสังเกตว่า ไม่มีเครื่องหมายทับต่อที่ส่วนท้าย และการเชื่อมต่อจะต้องเป็น https ดูรายละเอียดในการค้นหา URL นี้[ด้านล่าง](#FindingParams)  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. เมื่อได้รับการถาม ให้เลือก Basic เป็นวิธีการรับรองตัวตน ให้ใส่โครงการ "Madeira" ของคุณ อีเมลเป็นชื่อผู้ใช้ และจากนั้น ป้อน access key บริการเว็บสำหรับบัญชีโครงการ "Madeira" ของคุณเป็นรหัสผ่าน ถ้าคุณลงชื่อเข้าใช้ไปยังโครงการ "Madeira" ในเบราว์เซอร์ของคุณแล้ว คุณอาจไม่ถูกถามข้อมูลประจำตัว ดูรายละเอียดในการสร้าง access key นี้[ด้านล่าง](#FindingParams)  
@@ -81,7 +73,7 @@ ms.locfileid: "30816003"
 ## <a name="finding-parameters"></a>การค้นหาพารามิเตอร์
 **รับ URL ขวา**วิธีง่ายๆ ในการขอรับ URL นี้คือในโครงการ "Madeira" ไปที่ Web Services ค้นหา powerbifinance Web Services และคัดลอก URL ของ Odata (คลิกขวาใช้และคัดลอชาร์ตคัต) แล้วบันทึกไฟล์ " / powerbifinance..." ส่วนหนึ่งจากสตริง URL
 
-Web Service Access Keys** เพื่อที่ใช้ข้อมูลจากโครงการ "Madeira" คุณจะต้องสร้างคีย์การเข้าถึง Web Service สำหรับบัญชีผู้ใช้ของคุณ ในโครงการ "Madeira" ให้ค้นหาหน้าผู้ใช้ และจากนั้น เปิดการ์ดหรับบัญชีผู้ใช้ของคุณ ที่นี่คุณสามารถสร้าง access key เข้า web services ใหม่ และคัดลอกไปยังเขตข้อมูล Password ในหน้าการเชื่อมต่อของ Power BI ได้
+**Web Service Access Keys** เพื่อที่ใช้ข้อมูลจากโครงการ "Madeira" คุณจะต้องสร้างคีย์การเข้าถึง Web Service สำหรับบัญชีผู้ใช้ของคุณ ในโครงการ "Madeira" ให้ค้นหาหน้าผู้ใช้ และจากนั้น เปิดการ์ดหรับบัญชีผู้ใช้ของคุณ ที่นี่คุณสามารถสร้าง access key เข้า web services ใหม่ และคัดลอกไปยังเขตข้อมูล Password ในหน้าการเชื่อมต่อของ Power BI ได้
 
 ![](media/service-connect-to-project-madeira/accesskey.png)
 

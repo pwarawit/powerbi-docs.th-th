@@ -1,30 +1,22 @@
 ---
 title: ฝังด้วยส่วนเว็บรายงานใน SharePoint Online
 description: ด้วยส่วยรายงานเว็บ Power BI ใหม่ สำหรับ SharePoint Online คุณสามารถฝังรายงาน Power BI แบบโต้ตอบได้อย่างง่ายดายในหน้า SharePoint Online
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/19/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 11b1d2c1c5205fd1346e9350b0a814b7d76d4135
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/08/2018
-ms.locfileid: "30816023"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34553576"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>ฝังด้วยส่วนเว็บรายงานใน SharePoint Online
 
@@ -144,12 +136,16 @@ ms.locfileid: "30816023"
   1. ลงชื่อออก SharePoint และลงชื่อเข้าใช้อีกครั้งใน ตรวจสอบให้แน่ใจว่าปิดหน้าต่างเบราว์เซอร์ทั้งหมดก่อนที่ลงชื่อกลับเข้าใช้
 
   2. ถ้าบัญชีผู้ใช้ของคุณจำเป็นต้องรับรองตัวตนแบบหลายปัจจัย (MFA) ให่ตรวจสอบให้แน่ใจว่า คุณลงชื่อเข้าใช้ไปยัง SharePoint โดยใช้อุปกรณ์รับรองตัวตนแบบหลายปัจจัยของคุณ (แอปมือถือ สมาร์ทการ์ด และอื่น ๆ)
+  
+  3. บัญชีผู้ใช้ Azure B2B Guest ไม่ได้รับการสนับสนุน ผู้ใช้จะเห็นโลโก้ Power BI ที่แสดงว่าส่วนนี้กำลังโหลด แต่จะไม่แสดงรายงาน
 
 * Power BI ไม่รองรับภาษาเดียวกับที่ SharePoint Online รองรับ ผลที่ได้คือคุณอาจไม่เห็นการแปลที่เหมาะสมภายในรายงานแบบฝังตัว
 
 * คุณอาจพบปัญหาถ้าใช้ Internet Explorer 10 คุณสามารถค้นหาที่[เบราว์เซอร์ที่รองรับ Power BI](service-browser-support.md)และสำหรับ[Office 365](https://products.office.com/office-system-requirements#Browsers-section)ได้
 
-* Web part Power BI จะไม่พร้อมใช้งานใน[ระบบคลาวด์แห่งชาติ](https://powerbi.microsoft.com/en-us/clouds/) 
+* Web part Power BI จะไม่พร้อมใช้งานใน [sovereign cloud](https://powerbi.microsoft.com/en-us/clouds/)
+
+* SharePoint Server แบบคลาสสิกไม่ได้รับการสนับสนุนด้วย web part นี้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

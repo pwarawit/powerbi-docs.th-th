@@ -1,105 +1,65 @@
 ---
-title: กำหนดสิทธิ์การใช้งาน Power BI Pro
-description: กำหนดสิทธิ์การใช้งาน Power BI Pro
-services: powerbi
-documentationcenter: ''
+title: 'เริ่มต้นใช้งานด่วน: กำหนดสิทธิ์การใช้งาน Power BI Pro ใน Office 365'
+description: เรียนรู้วิธีการกำหนดสิทธิ์การใช้งาน Power BI Pro เพื่อให้ผู้ใช้ของคุณสามารถเข้าถึงเนื้อหาและความสามารถทั้งหมดในบริการของ Power BI
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/22/2018
+ms.component: powerbi-admin
+ms.topic: quickstart
+ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: cc22bfa635bb9d91624e6d4a5cdfe301d6478af6
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: cd4a849a010d4ece6cd91a220d617ac3098a77ea
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/08/2018
-ms.locfileid: "30977276"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295387"
 ---
-# <a name="assigning-power-bi-pro-licenses"></a>กำหนดสิทธิ์การใช้งาน Power BI Pro
+# <a name="quickstart-assign-power-bi-pro-licenses-in-office-365"></a>เริ่มต้นใช้งานด่วน: กำหนดสิทธิ์การใช้งาน Power BI Pro ใน Office 365
 
-ผู้ดูแลระบบสามารถเลือกจากพอร์ทัลการจัดการและคำสั่ง Cmdlet ของ PowerShell ที่หลากหลายเพื่อกำหนดสิทธิ์การใช้งาน Power BI Pro ให้กับผู้ใช้ การจัดการสิทธิ์การใช้งานของ Power BI ได้รับการสนุบสนุนโดย Azure Active Directory (Azure AD)
+Power BI Pro เป็นสิทธิ์การใช้งานสำหรับแต่ละบุคคล ที่ให้การเข้าถึงเนื้อหาและความสามารถทั้งหมดในบริการของ Power BI รวมถึงความสามารถในการแชร์เนื้อหาและทำงานร่วมกับผู้ใช้อื่นที่มีสิทธิ์การใช้งานแบบ Pro ได้ เฉพาะผู้ใช้แบบ Pro เท่านั้นที่สามารถเผยแพร่เนื้อหา หรือใช้เนื้อหาจากพื้นที่ทำงานจากแอป, แชร์แดชบอร์ด และสมัครสมาชิกแดชบอร์ดและรายงานได้ บทความนี้อธิบายวิธีการกำหนดสิทธิ์การใช้งาน Power BI Pro ใน Office 365 คุณยังสามารถ[กำหนดสิทธิ์การใช้งานใน Azure](service-admin-assigning-power-bi-pro-licenses-azure.md) ได้
 
-* ผู้เป็นเจ้าของการสมัครใช้งาน Azure สามารถใช้พาเนล Azure Active Directory ใน[พอร์ทัล Azure](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0)ได้ 
 
-* ผู้ดูแลระบบส่วนกลางและผู้ดูแลบัญชีผู้ใช้สามารถใช้[ศูนย์การจัดการ Office 365](https://portal.office.com/AdminPortal/Home#/homepage)ได้
+## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-## <a name="managing-power-bi-pro-licenses-in-the-azure-portal"></a>การจัดการสิทธิ์การใช้งาน Power BI Pro ในพอร์ทัล Azure
+คุณต้องเป็นสมาชิกของบทบาท[**ผู้ดูแลระบบส่วนกลาง** หรือ **ผู้ดูแลการเรียกเก็บเงิน**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)ใน Office 365
 
-Power BI ใช้ Azure AD เป็นบริการพื้นฐาน Azure AD เก็บบัญชีและกลุ่มผู้ใช้ นอกจากนี้ยังจัดเก็บการตั้งค่าอื่นๆ เช่นข้อมูลเกี่ยวกับผลิตภัณฑ์ที่ซื้อ
+คุณต้อง[ซื้อสิทธิ์การใช้งานอย่างน้อยหนึ่งสิทธิ์](service-admin-purchasing-power-bi-pro.md)ก่อนที่คุณจะเริ่ม
 
-### <a name="assigning-licenses-to-individual-user-accounts"></a>การกำหนดสิทธิ์การใช้งานให้กับบัญชีผู้ใช้แต่ละราย
 
-ถ้าคุณเป็นเจ้าของการสมัครใช้งาน Azure กรุณาทำตามขั้นตอนต่อไปนี้เพื่อกำหนดสิทธิ์การใช้งาน Pro ให้กับบัญชีผู้ใช้แต่ละราย
 
-1. ไปที่[พอร์ทัล Azure](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0) 
+## <a name="assign-licenses-to-individual-user-accounts"></a>กำหนดสิทธิ์การใช้งานให้กับบัญชีผู้ใช้แต่ละราย
 
-2. ในแถบนำทางด้านซ้าย คลิกที่ Azure Active Directory
+ทำตามขั้นตอนต่อไปนี้เพื่อกำหนดสิทธิ์การใช้งาน Power BI Pro ให้กับบัญชีผู้ใช้แต่ละราย:
 
-    ![รูปภาพ](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-01.png)
+1. เปิด[ศูนย์การจัดการ Office 365](https://portal.office.com/adminportal/home#/homepage)
 
-3. ในพาเนล Azure Active Directory คลิกที่ “สิทธิ์การใช้งาน”
+2. ในบานหน้าต่างด้านซ้าย ขยาย**ผู้ใช้** แล้วเลือก**ผู้ใช้ที่ใช้งานอยู่**
 
-    ![รูปภาพ](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-02.png)
+    ![ผู้ใช้ที่ใช้งานอยู่](media/service-admin-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-05.png)
 
-4. ในพาเนล “สิทธิ์การใช้งาน” คลิกที่ “ผลิตภัณฑ์ทั้งหมด” จากนั้นคลิกที่ Power BI Pro เพื่อแสดงรายชื่อผู้ใช้ที่มีสิทธิ์ใช้งาน
+3. เลือกผู้ใช้ จากนั้นภายใต้**สิทธิ์การใช้งานผลิตภัณฑ์**เลือก**แก้ไข**
 
-    ![รูปภาพ](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-03.png)
+    ![แก้ไขสิทธิ์การใช้งานผลิตภัณฑ์](media/service-admin-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-06.png)
 
-5. คลิกที่ “กำหนด” เพื่อเพิ่มสิทธิ์การใช้งาน Power BI Pro ให้กับบัญชีผู้ใช้เพิ่มเติม
+4. ภายใต้ **Power BI Pro** สลับการตั้งค่าเป็น**เปิด** แล้วเลือก**บันทึก**
 
-    ![รูปภาพ](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-04.png)
+    ![สิทธิ์การใช้งานผลิตภัณฑ์เปิดแล้ว](media/service-admin-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-07.png)
 
-> [!NOTE]
-> ถึงแม้ว่าจะสามารถจัดการด้านสิทธิ์การใช้งานส่วนใหญ่ได้ แต่ไม่สามารถซื้อสิทธิ์การใช้งาน Power BI Pro ในพอร์ทัล Azure ได้ ใช้ศูนย์การจัดการ Office 365 เพื่อซื้อการสมัครใช้งาน Power BI Pro โปรดดูที่[การซื้อ Power BI Pro](https://docs.microsoft.com/en-us/power-bi/service-admin-purchasing-power-bi-pro)เพื่อศึกษาข้อมูลเพิ่มเติม
->
+5. ภายใต้**สถานะ**ของบัญชีที่เลือก ตรวจสอบว่าที่มีการกำหนดสิทธิ์การใช้งาน Power BI Pro เรียบร้อยแล้ว
 
-## <a name="managing-power-bi-pro-licenses-in-the-office-365-admin-center"></a>การจัดการสิทธิ์การใช้งาน Power BI Pro ในศูนย์การจัดการ Office 365
+    ![ตรวจสอบสถานะสิทธิ์การใช้งาน](media/service-admin-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-08.png)
 
-ถ้าคุณเป็นผู้ดูแลระบบส่วนกลาง ดังนั้นคุณสามารถซื้อการสมัครใช้งาน Power BI Pro และจัดการสิทธิ์การใช้งานที่เกี่ยวข้องสำหรับองค์กรได้ที่ศูนย์การจัดการ Office 365
 
-ถ้าคุณเป็นผู้ดูแลระบบ Office 365 กรุณาทำตามขั้นตอนต่อไนี้นี้เพื่อกำหนดสิทธิ์การใช้งาน Pro ให้กับบัญชีผู้ใช้แต่ละราย
-
-1. ไปที่ศูนย์การจัดการ Office 365
-
-2. ในบานหน้าต่างนำทางด้านซ้ายให้ขยาย “ผู้ใช้” และคลิกที่ “ผู้ใช้ที่ใช้งานอยู่”
-
-    ![รูปภาพ](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-05.png)
-
-3. เลือกผู้ใช้หนึ่งรายหรือหลายราย จากนั้นคลิกที่ “แก้ไขสิทธิ์การใช้งานผลิตภัณฑ์”
-
-    ![รูปภาพ](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-06.png)
-
-4. ใต้ Power BI Pro สลับการตั้งค่าเป็น “เปิด” แล้วคลิก “บันทึก”
-
-    ![รูปภาพ](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-07.png)
-
-5. ตรวจสอบใต้ “สถานะ” ของบัญชีที่เลือกที่มีการกำหนดสิทธิ์การใช้งาน Power BI Pro เสร็จเรียบร้อยแล้ว
-
-    ![รูปภาพ](media/service-assigning-power-bi-pro-licenses/service-assigning-power-bi-pro-licenses-08.png)
-
-> [!NOTE]
-> ในการสมัครใช้งาน หากสิทธิ์การใช้งานหมด ให้เพิ่มสิทธิ์โดยการขยาย “การเรียกเก็บเงิน” ในบานหน้าต่างนำทางด้านซ้าย แล้วคลิก “การสมัครใช้งาน” ในหน้าการสมัครใช้งาน ให้เลือกการสมัครใช้งาน Power BI Pro แล้วคลิกที่ “เพิ่ม/ลบสิทธิ์การใช้งาน”
->
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
+
+ตอนนี้ คุณได้กำหนดสิทธิ์การใช้งานแล้ว เรียนรู้เพิ่มเติมเกี่ยวกับ Power BI Pro
+
 [Power BI Pro ในองค์กรของคุณ](service-admin-power-bi-pro-in-your-organization.md)
-</br>
-[ขยายเวลาการเปิดใช้งาน Pro เวอร์ชันทดลองใช้](service-extended-pro-trial.md)
-</br>
-[บริการข้อตกลง Power BI สำหรับผู้ใช้แต่ละราย](https://powerbi.microsoft.com/terms-of-service/)
-</br>
-[ประกาศ Power BI Premium](https://aka.ms/pbipremium-announcement)
-</br>
+
 [ค้นหาผู้ใช้ Power BI ที่มีการลงชื่อเข้าใช้](service-admin-access-usage.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

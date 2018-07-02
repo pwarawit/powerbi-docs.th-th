@@ -1,28 +1,29 @@
 ---
-title: ใช้ OAuth เพื่อเชื่อมต่อกับ Reporting Services
-description: เรียนรู้วิธีการกำหนดค่าสภาพแวดล้อมของคุณเพื่อสนับสนุนการรับรองความถูกต้อง OAuth ด้วยแอป Power BI สำหรับอุปกรณ์เคลื่อนที่เพื่อเชื่อมต่อไปยัง Reporting Services 2016 หรือใหม่กว่า
+title: ใช้ OAuth เพื่อเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI และ SSRS
+description: เรียนรู้วิธีการกำหนดค่าสภาพแวดล้อมของคุณ เพื่อสนับสนุนการรับรองความถูกต้อง OAuth ด้วยแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ เพื่อเชื่อมต่อกับ SQL Server Reporting Services 2016 หรือใหม่กว่า
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 4c9b2f5233ab984e57bf48978284441850c0c48f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852221"
 ---
-# <a name="using-oauth-to-connect-to-reporting-services"></a>ใช้ OAuth เพื่อเชื่อมต่อกับ Reporting Services
-เรียนรู้วิธีการกำหนดค่าสภาพแวดล้อมของคุณเพื่อสนับสนุนการรับรองความถูกต้อง OAuth ด้วยแอป Power BI สำหรับอุปกรณ์เคลื่อนที่เพื่อเชื่อมต่อไปยัง Reporting Services 2016 หรือใหม่กว่า
+# <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>ใช้ OAuth เพื่อเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI และ SSRS
+เรียนรู้วิธีการกำหนดค่าสภาพแวดล้อมของคุณ เพื่อสนับสนุนการรับรองความถูกต้อง OAuth ด้วยแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ เพื่อเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI และ SQL Server Reporting Services 2016 หรือใหม่กว่า
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-ในอดีต แอป Power BI สำหรับอุปกรณ์เคลื่อนที่สนับสนุนการรับรองความถูกต้องพื้นฐานผ่านทาง HTTPS ไปยัง Reporting Services เพื่อแสดงรายงานหรือ KPI บนอุปกรณ์เคลื่อนที่เท่านั้น องค์กรจำนวนมากไม่อนุญาตการกำหนดค่าชนิดนี้เนื่องจากปัญหาเกี่ยวกับความปลอดภัย ด้วยการอัปเดตแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ ตอนนี้คุณสามารถใช้ OAuth เพื่อเชื่อมต่อกับ Reporting Services Windows Server 2016 มีการปรับปรุงบางอย่างไปยังบทบาทของ Web Application Proxy เพื่ออนุญาตการรับรองความถูกต้องชนิดนี้
+คุณสามารถใช้ OAuth เพื่อเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI และ Reporting Services เพื่อแสดงรายงานอุปกรณ์มือถือ หรือ KPI Windows Server 2016 มีการปรับปรุงบทบาท Web Application Proxy (WAP) เพื่ออนุญาตการรับรองความถูกต้องชนิดนี้ โปรดทราบว่า การกำหนดค่านี้ไม่สนับสนุนการดูรายงาน Power BI ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ แต่คุณสามารถดูรายงานได้ในเบราว์เซอร์บนอุปกรณ์เคลื่อนที่ เพื่อดูรายงาน Power BI ในแอปสำหรับอุปกรณ์เคลื่อนที่ คุณต้องใช้การรับรองความถูกต้องของ Windows
 
-## <a name="requirements"></a>ความต้องการ
+## <a name="requirements"></a>ข้อกำหนด
 Windows Server 2016 เป็นที่ต้องการสำหรับเซิร์ฟเวอร์ Web Application Proxy (WAP) และ Active Directory Federation Services (ADFS) คุณไม่จำเป็นต้องมีโดเมนระดับการทำงาน Windows 2016
 
 ## <a name="domain-name-services-dns-configuration"></a>การกำหนดค่าบริการชื่อโดเมน (DNS)
@@ -202,7 +203,8 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 คุณสามารถเปิดใช้งานการรับรองความถูกต้องแบบหลายปัจจัยเพื่อเปิดใช้งานความปลอดภัยเพิ่มเติมสำหรับสภาพแวดล้อมของคุณ เมื่อต้องการเรียนรู้เพิ่มเติม ดู[กำหนดค่า AD FS 2016 และ Azure MFA](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)
 
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
-**คุณได้รับข้อผิดพลาดไม่สามารถเข้าสู่ระบบเซิร์ฟเวอร์ SSRS โปรดตรวจสอบการกำหนดค่าเซิร์ฟเวอร์**
+
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>คุณได้รับข้อผิดพลาดว่า ไม่สามารถเข้าสู่ระบบเซิร์ฟเวอร์ SSRS โปรดตรวจสอบการกำหนดค่าของเซิร์ฟเวอร์
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

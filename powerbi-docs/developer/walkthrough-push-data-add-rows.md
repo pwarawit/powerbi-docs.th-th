@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 382d600a6e50d926fc61163ea1b0e4f1273fdcc9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287543"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812548"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>ขั้นตอนที่ 5: เพิ่มแถวลงในตาราง Power BI
 บทความนี้เป็นส่วนหนึ่งของคำแนะนำทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
 
-ใน**ขั้นตอนที่ 4**เป็นการส่งข้อมูลไปยังชุดข้อมูล[รับชุดข้อมูลเพื่อเพิ่มแถวลงในตาราง Power BI](walkthrough-push-data-get-datasets.md)คุณใช้การดำนเนินการ[รับชุดข้อมูล](https://msdn.microsoft.com/library/mt203567.aspx)และ Newtonsoft.Json เพื่อรับรหัสชุดข้อมูล ในขั้นตอนนี้ คุณใช้รหัสชุดข้อมูลกับการดำเนินการ[เพิ่มแถว](https://msdn.microsoft.com/library/mt203561.aspx)เพื่อเพิ่มแถวไปยัง**ชุดข้อมูล**Power BI 
+ใน**ขั้นตอนที่ 4**เป็นการส่งข้อมูลไปยังชุดข้อมูล[รับชุดข้อมูลเพื่อเพิ่มแถวลงในตาราง Power BI](walkthrough-push-data-get-datasets.md)คุณใช้การดำนเนินการ[รับชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)และ Newtonsoft.Json เพื่อรับรหัสชุดข้อมูล ในขั้นตอนนี้ คุณใช้รหัสชุดข้อมูลกับการดำเนินการ[โพสต์แถว](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) เพื่อเพิ่มแถวไปยัง**ชุดข้อมูล** Power BI 
 
-เมื่อคุณเรียกใช้การดำเนินการ[เพิ่มแถว](https://msdn.microsoft.com/library/mt203561.aspx)การดำเนินงาน คุณเพิ่มแถวไปยังชุดข้อมูล
+เมื่อคุณเรียกใช้การดำเนินการ[โพสต์แถว](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) คุณเพิ่มแถวไปยังชุดข้อมูล
 
 ![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -308,9 +308,8 @@ ms.locfileid: "34287543"
     }
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เพิ่มแถว](https://msdn.microsoft.com/library/mt203561.aspx)  
-[ส่งข้อมูลไปยังแดชบอร์ด Power BI](walkthrough-push-data.md)  
+[พุชข้อมูลลงในแดชบอร์ด Power BI](walkthrough-push-data.md)  
 [ภาพรวมของ Power BI REST API](overview-of-power-bi-rest-api.md)  
-[การอ้างอิง Power BI REST API](https://msdn.microsoft.com/library/mt147898.aspx)  
+[การอ้างอิง Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
 คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

@@ -1,48 +1,40 @@
 ---
-title: ภาพรวมคู่มือผู้ดูแล เซิร์ฟเวอร์รายงาน Power BI
-description: ยินดีต้อนรับสู่คู่มือผู้ดูแลสำหรับเซิร์ฟเวอร์รายงาน Power BI ตำแหน่งที่ตั้งภายในองค์กรสำหรับการจัดเก็บและการจัดการ Power BI อุปกรณ์เคลื่อนที่ และรายงานที่มีการแบ่งหน้าของคุณ
-services: powerbi
-documentationcenter: ''
+title: ภาพรวมของการดูแลระบบ เซิร์ฟเวอร์รายงาน Power BI
+description: บทความนี้เป็นภาพรวมของการดูแลระบบเซิร์ฟเวอร์รายงาน Power BI ที่ตั้งอยู่ภายในองค์กรสำหรับจัดเก็บและจัดการ รายงาน Power BI, Power BI สำหรับอุปกรณ์เคลื่อนที่ และรายงานที่มีการแบ่งหน้า
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/01/2017
+ms.component: powerbi-report-server
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: maghan
-ms.openlocfilehash: 130a4264b2e8c4e511527f34088a580a7787673b
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 1dbca883bc4df2bde743963db7994361616be192
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721926"
 ---
-# <a name="administrator-handbook-overview-power-bi-report-server"></a>ภาพรวมคู่มือผู้ดูแล เซิร์ฟเวอร์รายงาน Power BI
-ยินดีต้อนรับสู่คู่มือผู้ดูแลสำหรับเซิร์ฟเวอร์รายงาน Power BI ตำแหน่งที่ตั้งภายในองค์กรสำหรับการจัดเก็บและการจัดการ Power BI อุปกรณ์เคลื่อนที่ และรายงานที่มีการแบ่งหน้าของคุณ
+# <a name="admin-overview-power-bi-report-server"></a>ภาพรวมของการดูแลระบบ เซิร์ฟเวอร์รายงาน Power BI
+บทความนี้เป็นภาพรวมของการดูแลระบบเซิร์ฟเวอร์รายงาน Power BI ที่ตั้งอยู่ภายในองค์กรสำหรับจัดเก็บและจัดการ รายงาน Power BI, Power BI สำหรับอุปกรณ์เคลื่อนที่ และรายงานที่มีการแบ่งหน้า บทความนี้แนะนำแนวคิดของการวางแผน, การปรับใช้ และการจัดการเซิร์ฟเวอร์รายงาน Power BI ของคุณ พร้อมลิงก์ไปยังข้อมูลเพิ่มเติม
 
 ![](media/admin-handbook-overview/admin-handbook.png)
 
-คู่มือนี้จะช่วยให้คุณเข้าใจแนวคิดเกี่ยวกับการวางแผน การปรับใช้ และการจัดการเซิร์ฟเวอร์รายงาน Power BI ของคุณ
+
 
 ## <a name="installing-and-migration"></a>การติดตั้งและการโยกย้าย
-คุณจะต้องติดตั้งเซิร์ฟเวอร์รายงาน Power BI เพื่อเริ่มใช้งาน เรามีข้อมูลที่จะช่วยให้คุณสามารถจัดการงานนี้
+คุณต้องติดตั้งเซิร์ฟเวอร์รายงาน Power BI เพื่อเริ่มต้นใช้งาน เรามีบทความที่อธิบายวิธีติดตั้งนี้
 
-ก่อนที่คุณเริ่มการติดตั้ง อัปเกรด หรือโยกย้ายไปยังเซิร์ฟเวอร์รายงาน Power BI ให้ดู[ความต้องการของระบบ](system-requirements.md)สำหรับเซิร์ฟเวอร์รายงาน
+ก่อนที่คุณจะเริ่มการติดตั้ง, อัปเกรด หรือโยกย้ายไปยังเซิร์ฟเวอร์รายงาน Power BI ให้ดู[ความต้องการของระบบ](system-requirements.md)สำหรับเซิร์ฟเวอร์รายงาน
 
 ### <a name="installing"></a>กำลังติดตั้ง
-ถ้าคุณกำลังปรับใช้เซิร์ฟเวอร์รายงาน Power BI ตัวใหม่ ให้คุณใช้เอกสารต่อไปนี้เพื่อช่วยให้คุณ การเริ่มต้นด่วนพร้อมให้ใช้งานทันที หรือคุณสามารถค้นหาเอกสารการติดตั้งสำหรับรายละเอียดทั้งหมด
+ถ้าคุณกำลังปรับใช้เซิร์ฟเวอร์รายงาน Power BI ใหม่ ให้ใช้เอกสารต่อไปนี้เพื่อช่วยคุณ 
 
-* [การเริ่มต้นใช้งานด่วน: ติดตั้งเซิร์ฟเวอร์รายงาน Power BI](quickstart-install-report-server.md)
-* [ติดตั้งเซิร์ฟเวอร์รายงาน Power BI](install-report-server.md)
+[ติดตั้ง Power BI Report Server](install-report-server.md)
 
 ### <a name="migration"></a>การโยกย้าย
-ไม่มีการอัปเกรดในสถานที่สำหรับ SQL Server Reporting Services ถ้าคุณมีอินสแตนซ์ของ SQL Server Reporting Services อยู่แล้วที่คุณต้องการทำเซิร์ฟเวอร์รายงาน Power BI คุณจะต้องโยกย้ายอินสแตนซ์ดังกล่าว มีเหตุผลอื่น ๆ ที่คุณอาจต้องการดำเนินการโยกย้ายเช่นกัน ทบทวนเอกสารการโยกย้ายสำหรับรายละเอียดเพิ่มเติม
+ไม่มีการอัปเกรดแบบแทนที่สำหรับ SQL Server Reporting Services ถ้าคุณมีอินสแตนซ์ของ SQL Server Reporting Services ที่คุณต้องการทำให้เป็นเซิร์ฟเวอร์รายงาน Power BI คุณต้องทำการโยกย้าย คุณอาจต้องทำการโยกย้ายด้วยเหตุผลอื่นเช่นกัน ทบทวนเอกสารการโยกย้ายสำหรับรายละเอียดเพิ่มเติม
 
 [โยกย้ายการติดตั้งเซิร์ฟเวอร์รายงาน](migrate-report-server.md)
 
@@ -55,11 +47,11 @@ ms.lasthandoff: 01/30/2018
 ความปลอดภัยและการป้องกันมีความสำคัญสำหรับทุกองค์กร คุณสามารถเรียนรู้เกี่ยวกับการรับรองความถูกต้อง การอนุญาต บทบาท และสิทธิ์บนเอกสารประกอบด้าน[ความปลอดภัย](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[การเริ่มต้นใช้งานด่วน: ติดตั้งเซิร์ฟเวอร์รายงาน Power BI](quickstart-install-report-server.md)  
-[วิธีการค้นหาคีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงานของคุณ](find-product-key.md)  
-[ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](install-powerbi-desktop.md)  
+[ติดตั้ง Power BI Report Server](install-report-server.md)  
+[ค้นหาคีย์ผลิตภัณฑ์ของเซิร์ฟเวอร์รายงานคุณ](find-product-key.md)  
+[ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับ Power BI Report Server](install-powerbi-desktop.md)  
 [ติดตั้งตัวสร้างรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [ดาวน์โหลด SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

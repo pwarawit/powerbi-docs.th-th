@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับฐานข้อมูล Oracle
 description: ขั้นตอนและการดาวน์โหลดที่จำเป็นต้องเชื่อมต่อ Oracle กับ Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 4/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: a56097c02c9f3af63151d0a38e14fdc580e4ee9e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/12/2018
-ms.locfileid: "30975226"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291016"
 ---
 # <a name="connect-to-an-oracle-database"></a>เชื่อมต่อกับฐานข้อมูล Oracle
 เมื่อต้องการเชื่อมต่อกับฐานข้อมูล Oracle ด้วย**Power BI Desktop** ซอฟต์แวร์ไคลเอ็นต์ Oracle ที่ถูกต้องต้องติดตั้งบนคอมพิวเตอร์ที่ใช้งาน Power BI Desktop ซึ่งซอฟต์แวร์ไคลเอ็นต์ Oracle ที่คุณใช้ขึ้นอยู่กับเวอร์ชันของ Power BI Desktop ที่คุณได้ติดตั้ง เวอร์ชัน**32 บิต**หรือ**เวอร์ชัน 64 บิต**
@@ -36,7 +28,7 @@ ms.locfileid: "30975226"
 ![](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
 ## <a name="installing-the-oracle-client"></a>ติดตั้งไคลเอ็นต์ Oracle
-สำหรับเวอร์ชัน**32 บิต**ของ Power BI Desktop ใช้ลิงก์ต่อไปนี้เพื่อดาวน์โหลด และติดตั้งไคลเอนต์ Oracle**32 บิต**
+สำหรับเวอร์ชัน**32 บิต**ของ Power BI Desktop ใช้ลิงก์ต่อไปนี้เพื่อดาวน์โหลดและติดตั้ง Oracle Client**32 บิต**
 
 * [32-bit Oracle Data Access Components (ODAC) with Oracle Developer Tools for Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
@@ -50,7 +42,7 @@ ms.locfileid: "30975226"
 1. จากหน้าต่างการรับข้อมูล เลือก**ฐานข้อมูล > ฐานข้อมูล Oracle**
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. ในกล่องโต้ตอบ**ฐานข้อมูล Oracle**ที่ปรากฏขึ้น ให้ใส่ชื่อของเซิร์ฟเวอร์ และเลือก**เชื่อมต่อ** ถ้าจำเป็นต้องมี SID คุณสามารถระบด้วยรูปแบบ *ServerName/SID*
+2. ในกล่องโต้ตอบ**ฐานข้อมูล Oracle**ที่ปรากฏขึ้น ให้ใส่ชื่อของเซิร์ฟเวอร์ และเลือก**เชื่อมต่อ** ถ้าต้องใช้ SID คุณสามารถระบุด้วยรูปแบบ: *ServerName/SID* โดยที่ SID เป็นชื่อที่ไม่ซ้ำของฐานข้อมูลได้ ถ้ารูปแบบ *ServerName/SID* ไม่ทำงาน ลองใช้ *ServerName/ServiceName* โดยที่ ServiceName เป็นนามแฝงที่ใช้เมื่อเชื่อมต่อ
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 3. ถ้าคุณต้องการนำเข้าข้อมูลโดยใชคิวรี่ของฐานข้อมูลแบบเนทีฟ คุณสามารถใส่คิวรีของคุณในกล่อง**คำสั่ง SQL** ที่สามารถขยายตัวส่วน**ตัวเลือกขั้นสูง**ของกล่องโต้ตอบ**ฐานข้อมูล Oracle**

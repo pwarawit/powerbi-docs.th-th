@@ -1,35 +1,27 @@
 ---
 title: ตั้งค่าการแจ้งเตือนข้อมูลใน Power BI service
 description: เรียนการตั้งค่าการแจ้งเตือน เมื่อมีข้อมูลในแดชบอร์ดของคุณเปลี่ยนเกินขีดจำกัดที่คุณตั้งไว้ใน Microsoft Power BI service
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 187ca632ad947e5cb657f3a5d19e1d62262259b4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 321e66fd5ed185a92c98bf7832dc3b71944be98d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
-ms.locfileid: "29924892"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689725"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>แจ้งเตือนข้อมูลใน Power BI service
 ต้งค่าการแจ้งเตือน เมื่อมีข้อมูลในแดชบอร์ดของคุณเปลี่ยนเกินขีดจำกัดที่คุณตั้งไว 
 
-การแจ้งเตือนสามารถตั้งค่าบนหมุดไทล์ที่ปักจากภาพรายงานเท่านั้น และบนหน้าปัดวัด Kpi และการ์ดเท่านั้น การแจ้งเตือนบนภาพถูกสร้างขึ้นจากชุดข้อมูลที่มีการปักหมุดจากรายงานกับแดชบอร์ด แต่ไม่สามารถตั้งค่าแบบสตรีมมิ่งบนไทล์ที่สร้างขึ้นโดยตรงบนแดชบอร์ด โดยใช้การ**เพิ่มไทล์**  >   **ข้อมูลการสตรีมแบบกำหนดเอง** 
+คุณสามารถตั้งค่าการแจ้งเตือนบนไทล์ ถ้าคุณมีสิทธิ์การใช้งาน Power BI Pro หรือถ้ามีการแชร์แดชบอร์ดให้กับคุณจาก[ความจุพรีเมียม](service-premium.md) การแจ้งเตือนสามารถตั้งค่าบนหมุดไทล์ที่ปักจากภาพรายงานเท่านั้น และบนหน้าปัดวัด Kpi และการ์ดเท่านั้น การแจ้งเตือนบนภาพถูกสร้างขึ้นจากชุดข้อมูลที่มีการปักหมุดจากรายงานกับแดชบอร์ด แต่ไม่สามารถตั้งค่าแบบสตรีมมิ่งบนไทล์ที่สร้างขึ้นโดยตรงบนแดชบอร์ด โดยใช้การ**เพิ่มไทล์**  >   **ข้อมูลการสตรีมแบบกำหนดเอง** 
 
 มีเพียงคุณที่สามารถดูการแจ้งเตือนที่คุณตั้งไว้ แม้ว่าคุณได้แชร์แดชบอร์ดของคุณ การแจ้งเตือนข้อมูลจะถูกซิงโครไนซ์เต็มรูปแบบข้ามแพลตฟอร์ม ตั้งค่าและดูการแจ้งเตือนข้อมูลได้[ในแอป mobile Power BI](mobile-set-data-alerts-in-the-mobile-apps.md)และใน Power BI service ไม่สามารถใช้กับ Power BI Desktop ได้ การแจ้งเตือนสามารถแม้กระทั้ง[ถูกตั้งให้เป็นอัตโนมัติและรวมเข้ากับ Microsoft Flow](https://flow.microsoft.com) - [ลองใช้ด้วยตนเอง](service-flow-integration.md)
 

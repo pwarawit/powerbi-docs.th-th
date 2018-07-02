@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/05/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d2fa65587fdbd85aabd429d531b79e9e614d2f49
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 032e0ed05d56d2d7f1e2b41cfd922999ff43ea94
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813377"
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>รวมรายงานลงในแอปสำหรับองค์กรของคุณ
 เรียนรู้วิธีการรวม หรือฝังรายงานลงในเว็บแอปโดยใช้การเรียกใช้ REST API พร้อมกับ Power BI JavaScript API เมื่อทำการฝังสำหรับองค์กรของคุณ
@@ -27,10 +28,14 @@ ms.lasthandoff: 05/17/2018
 > 
 > 
 
-เมื่อต้องรวมในรายงานลงในเว็บแอป คุณต้องใช้ **Power BI** REST API หรือ Power BI C# SDK และ**โทเค็นการเข้าถึง**การตรวจสอบ Azure Active Directory (AD) เพื่อรับรายงาน จากนั้น คุณสามารถโหลดรายงานโดยใช้โทเค็นการเข้าถึงเดียวกัน **Power BI** API ทำให้เขียนโปรแกรมในทรัพยากรบางอย่างของ **Power BI** ได้ สำหรับข้อมูลเพิ่มเติม ดู[ภาพรวมของ Power BI REST API](https://msdn.microsoft.com/library/dn877544.aspx) และ [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
+เมื่อต้องรวมในรายงานลงในเว็บแอป คุณต้องใช้ **Power BI** REST API หรือ Power BI C# SDK และ**โทเค็นการเข้าถึง**การตรวจสอบ Azure Active Directory (AD) เพื่อรับรายงาน จากนั้น คุณสามารถโหลดรายงานโดยใช้โทเค็นการเข้าถึงเดียวกัน **Power BI** API การเข้าถึงแหล่งข้อมูล **Power BI** ผ่านทางโปรแกรม สำหรับข้อมูลเพิ่มเติม ดู [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) และ [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
 
 ## <a name="download-the-sample"></a>ดาวน์โหลดตัวอย่าง
-บทความนี้แสดงรหัสที่ใช้ในการ[รวมรายงานลงในแอปบนเว็บ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app)บน GitHub เพื่อติดตามการฝึกปฏิบัตินี้ คุณสามารถดาวน์โหลดตัวอย่างได้
+บทความนี้แสดงรหัสที่ใช้ในการ[รวมรายงานลงในแอปบนเว็บ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app)บน GitHub ถ้าต้องการทำตามการฝึกปฏิบัตินี้ คุณสามารถดาวน์โหลดตัวอย่าง
+
+คุณยังสามารถเข้าถึง[เครื่องมือประสบการณ์การเตรียมความพร้อม](https://aka.ms/embedsetup/UserOwnsData) เพื่อเริ่มต้นใช้งานอย่างรวดเร็ว และดาวน์โหลดแอปพลิเคชันตัวอย่างได้
+
+แต่ถ้าคุณเลือกที่จะตั้งค่าสภาพแวดล้อมด้วยตนเอง คุณสามารถดำเนินต่อตามด้านล่าง
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>ขั้นตอนที่ 1 - การลงทะเบียนแอปใน Azure AD
 คุณจะต้องลงทะเบียนแอปพลิเคชันของคุณกับ Azure AD เพื่อเรียกใช้ REST API สำหรับข้อมูลเพิ่มเติม ดู[ลงทะเบียนแอป Azure AD เพื่อฝังเนื้อหา Power BI](register-app.md)
@@ -40,13 +45,13 @@ ms.lasthandoff: 05/17/2018
 ![](media/integrate-report/powerbi-embed-dashboard-register-app4.png)
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>ขั้นตอนที่ 2 - รับโทเค็นการเข้าถึงจาก Azure AD
-ภายในแอปพลิเคชันของคุณ คุณจะต้องรับ**โทเค็นการเข้าถึง**จาก Azure AD ก่อนที่คุณสามารถเรียกใช้ Power BI REST API ได้ สำหรับข้อมูลเพิ่มเติม ดู[รับรองผู้ใช้ และรับโทเค็นการเข้าถึง Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md)
+ภายในแอปพลิเคชันของคุณ คุณจะต้องรับ**โทเค็นการเข้า**จาก Azure AD ก่อนที่คุณสามารถเรียกใช้ Power BI REST API ได้ สำหรับข้อมูลเพิ่มเติม ดู[รับรองผู้ใช้ และรับโทเค็นการเข้าถึง Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md)
 
 ## <a name="step-3---get-a-report"></a>ขั้นตอนที่ 3 - รับรายงาน
-เมื่อต้องการรับรายงาน**Power BI**คุณต้องใช้[Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) operation ที่รับรายการของรายงาน**Power BI** จากรายชื่อของรายงาน คุณสามารถรับรหัสรายงานได้
+เมื่อต้องการรับรายงาน**Power BI**คุณต้องใช้[Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) operation ที่รับรายการของรายงาน**Power BI** จากรายชื่อของรายงาน คุณสามารถรับรหัสรายงานได้
 
 ### <a name="get-reports-using-an-access-token"></a>รับรายงานโดยใช้โทเค็นการเข้าถึง
-ด้วยการ**โทเค็นการเข้าถึง**ที่คุณเรียกใช้ตาม[ขั้นตอนที่ 2](#step-2-get-an-access-token-from-azure-ad) คุณสามารถเรียกการดำเนินการ[รับรายงาน](https://msdn.microsoft.com/library/mt634543.aspx)ได้ [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx)operation จะส่งคืนค่ารายการของรายงาน จากรายการของรายงาน คุณสามารถรับรายงานชิ้นหนึ่ง ด้านล่างนี้คือC# method ที่่สมบูรณ์ที่จะทำให้ได้รับรายงาน 
+ด้วยการ**โทเค็นการเข้าถึง**ที่คุณเรียกใช้ตาม[ขั้นตอนที่ 2](#step-2-get-an-access-token-from-azure-ad) คุณสามารถเรียกการดำเนินการ[รับรายงาน](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)ได้ [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)operation จะส่งคืนค่ารายการของรายงาน จากรายการของรายงาน คุณสามารถรับรายงานชิ้นหนึ่ง ด้านล่างนี้คือC# method ที่่สมบูรณ์ที่จะทำให้ได้รับรายงาน 
 
 เมื่อต้องเรียก REST API คุณต้องใส่ส่วนหัวที่เป็นข้อมูลการให้สิทธิ์(*Authroization*) ในรูปแบบ *Bearer {โทเค็นการเข้าถึง}*
 
@@ -213,7 +218,7 @@ function updateEmbedReport() {
 ![ตัวอย่างรายงานที่ฝังตัว](media/integrate-report/powerbi-embedded-report.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>ทำงานกับกลุ่ม (พื้นที่ทำงานของแอป)
-สำหรับการฝังรายงานหนึ่งๆจากกลุ่ม (พื้นที่ทำงานของแอป) คุณจะต้องรับรายการของรายงานที่พร้อมใช้ทั้งหมดภายในแดชบอร์ดของกลุ่มโดยการเรียกใช้ REST API ต่อไปนี้ เมื่อต้องการค้นหาข้อมูลเพิ่มเติมเกี่ยวกับการเรียกใช้ REST API นี้ ดู[Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) คุณจะต้องมีสิทธิ์ในกลุ่มเพื่อขอส่งคืนค่าผลลัพธ์
+สำหรับการฝังรายงานหนึ่งๆจากกลุ่ม (พื้นที่ทำงานของแอป) คุณจะต้องรับรายการของรายงานที่พร้อมใช้ทั้งหมดภายในแดชบอร์ดของกลุ่มโดยการเรียกใช้ REST API ต่อไปนี้ เมื่อต้องการค้นหาข้อมูลเพิ่มเติมเกี่ยวกับการเรียกใช้ REST API นี้ ดู[Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) คุณจะต้องมีสิทธิ์ในกลุ่มเพื่อขอส่งคืนค่าผลลัพธ์
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{group_id}/reports

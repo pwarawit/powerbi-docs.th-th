@@ -1,27 +1,20 @@
 ---
 title: ใช้เครื่องมือสำหรับนักพัฒนาเพื่อสร้างวิชวลแบบกำหนดเอง
 description: วิชวลแบบกำหนดเองช่วยให้คุณตอบสนองความต้องการของผู้ใช้ และสอดคล้องกับการออกแบบของแอปคุณ เรียนรู้วิธีสร้างวิชวลแบบกำหนดเองสำหรับ Power BI โดยใช้เครื่องมือนักพัฒนา
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: c7ed6a9b8acc74c9d4e39ff21a10624a208847f4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34296321"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>ใช้เครื่องมือสำหรับนักพัฒนาเพื่อสร้างวิชวลแบบกำหนดเอง
 วิชวลแบบกำหนดเองช่วยให้คุณตอบสนองความต้องการของผู้ใช้ และสอดคล้องกับการออกแบบของแอปคุณ เรียนรู้วิธีสร้างวิชวลแบบกำหนดเองสำหรับ Power BI โดยใช้เครื่องมือนักพัฒนา
@@ -87,7 +80,7 @@ ms.lasthandoff: 03/09/2018
     --install-cert  Install localhost certificate
     </code></pre>
 
-<a name"ssl-setup"></a>
+<a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>การตั้งค่าใบรับรองของเซิร์ฟเวอร์
 เพื่อเปิดใช้งานแสดงตัวอย่างแบบสดของวิชวลคุณ จำเป็นต้องใช้เซิร์ฟเวอร์ https ที่เชื่อถือได้ ก่อนที่คุณจะเริ่มต้น คุณต้องติดตั้งใบรับรอง SSL ซึ่งจะอนุญาตให้แอสเซทของวิชวลโหลดลงในเว็บเบราว์เซอร์ของคุณ 
@@ -97,9 +90,24 @@ ms.lasthandoff: 03/09/2018
 > 
 > 
 
-เพื่อ*เพิ่ม*ใบรับรอง การเรียกใช้คำสั่งต่อไปนี้
+เพื่อ*สร้าง*ใบรับรอง เรียกใช้คำสั่งต่อไปนี้
+
+    pbiviz --create-cert
+
+> [!NOTE]
+> คุณควรเห็นข้อความ ที่บอกให้คุณทราบตำแหน่งที่ตั้งของใบรับรอง และวลีรหัสผ่านที่สร้างขึ้นใหม่
+> 
+> 
+
+
+เพื่อ*ติดตั้ง*ใบรับรอง เรียกใช้คำสั่งต่อไปนี้
 
     pbiviz --install-cert
+    
+> [!NOTE]
+> คุณควรเห็นข้อความ ที่บอกให้คุณใช้วลีรหัสผ่านของคุณที่เพิ่งสร้างขึ้นใหม่ เพื่อติดตั้งใบรับรอง PFX
+> 
+> 
 
 **ระบบปฏิบัติการ Windows**
 

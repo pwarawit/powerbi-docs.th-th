@@ -1,29 +1,21 @@
 ---
 title: เปลี่ยนวิธีการเรียงลำดับแผนภูมิในรายงาน Power BI
 description: เปลี่ยนวิธีการเรียงลำดับแผนภูมิในรายงาน Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/20/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8160011a30b54345d446f352148665e3840323d9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3c32fc3cc9dc2b16384016ca624d4dd3a773aacb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30974556"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561804"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>เปลี่ยนวิธีการเรียงลำดับแผนภูมิในรายงาน Power BI
 ในรายงาน Power BI คุณสามารถเรียงลำดับการแสดงภาพส่วนใหญ่ตามลำดับตัวอักษร โดยชื่อของประเภทในแผนภูมิ หรือค่าตัวเลขของแต่ละประเภท ตัวอย่างเช่น แผนภูมินี้จะเรียงตามชื่อร้านค้า
@@ -38,6 +30,13 @@ ms.locfileid: "30974556"
    ![](media/power-bi-report-change-sort/sortby.gif)
 
    **หมายเหตุ** ภาพไม่สามารถเรียงลำดับได้ทั้งหมด  ตัวอย่างเช่น ไม่สามารถจัดเรียงภาพต่อไปนี้ ทรีแมป แผนที่ แผนที่ที่กรอกข้อมูล ลายจุด หน้าปัด บัตร บัตรหลายแถว น้ำตก
+
+## <a name="saving-changes-you-make-to-sort-order"></a>บันทึกการเปลี่ยนแปลงที่คุณทำกับการเรียงลำดับ
+รายงาน Power BI จะคงตัวกรอง, ตัวแบ่งส่วนข้อมูล, การเรียงลำดับ และ การเปลี่ยนแปลงอื่น ๆ ในมุมมองที่คุณทำไว้ ดังนั้นถ้าคุณนำทางออกจากรายงาน และกลับไปทีหลัง การเปลี่ยนแปลงของคุณก็ยังบันทึกไว้  ถ้าคุณต้องการย้อนกลับการเปลี่ยนแปลงของคุณ กลับไปยังการตั้งค่าที่ผู้เขียนรายงานเลือกไว้ เลือก**รีเซ็ตเป็นค่าเริ่มต้น**จากแถบเมนูด้านบน 
+
+![เรียงลำดับแบบคงอยู่](media/power-bi-report-change-sort/power-bi-reset-to-default.png)
+
+แต่ถ้าปุ่ม**รีเซ็ตเป็นค่าเริ่มต้น**เป็นสีเทา แสดงว่าผู้เขียนรายงานได้ปิดใช้งานความสามารถในการบันทึก (คงอยู่) การเปลี่ยนแปลงของคุณ
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>เรียงลำดับโดยใช้เกณฑ์อื่น

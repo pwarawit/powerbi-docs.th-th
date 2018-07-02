@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 76d07c8384123a303c8801a45ecd05b9e6ed0321
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289475"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813123"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>ส่งข้อมูลลงในชุดข้อมูล Power BI
 โดยใช้ Power BI API คุณสามารถส่งข้อมูลลงในชุดข้อมูล Power BI ตัวอย่างเช่น คุณต้องการขยายลำดับงานทางธุรกิจที่มีอยู่ในการส่งข้อมูลที่สำคัญลงในชุดข้อมูลของคุณ ในกรณีนี้ คุณต้องการส่งชุดข้อมูลการตลาดและการขายซึ่งมีตารางผลิตภัณฑ์อยู่ลงในชุดข้อมูล
@@ -31,14 +31,14 @@ ms.locfileid: "34289475"
 ในส่วนถัดไปคือการสนทนาทั่วไปของการดำเนินการ Power BI API ที่ส่งข้อมูล
 
 ## <a name="power-bi-api-operations-to-push-data"></a>การดำเนินการของ BI API power เพื่อส่งข้อมูล
-คุณสามารถส่งแหล่งข้อมูลไปยัง Power BI ได้โดยใช้ Power BI REST API เมื่อแอปเพิ่มแถวไปยังชุดข้อมูล ไทล์บนแดชบอร์ดจะได้รับการอัปเดตโดยอัตโนมัติด้วยข้อมูลที่อัปเดตแล้ว เมื่อต้องส่งข้อมูล ให้คุณใช้การดำเนินการ[สร้างชุดข้อมูล](https://msdn.microsoft.com/library/mt203562.aspx)พร้อมกับการ[ดำเนินการ](https://msdn.microsoft.com/library/mt203561.aspx)เพิ่มแถว เมื่อต้องการค้นหาชุดข้อมูล ให้คุณใช้การ[ดำเนินการ](https://msdn.microsoft.com/library/mt203567.aspx)รับชุดข้อมูล คุณสามารถส่งรหัสของกลุ่มเพื่อทำงานกับกลุ่มได้จากการดำเนินการเหล่านี้ ใช้การ[ดำเนินการ](https://msdn.microsoft.com/library/mt243842.aspx)รับกลุ่มเพื่อรับรายการของรหัสกลุ่ม
+คุณสามารถส่งแหล่งข้อมูลไปยัง Power BI ได้โดยใช้ Power BI REST API เมื่อแอปเพิ่มแถวไปยังชุดข้อมูล ไทล์บนแดชบอร์ดจะได้รับการอัปเดตโดยอัตโนมัติด้วยข้อมูลที่อัปเดตแล้ว เพื่อพุชข้อมูล คุณใช้การดำเนินการ[โพสต์ชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) พร้อมกับการดำเนินการ[โพสต์แถว](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) เมื่อต้องการค้นหาชุดข้อมูล ให้คุณใช้การ[ดำเนินการ](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)รับชุดข้อมูล คุณสามารถส่งรหัสของกลุ่มเพื่อทำงานกับกลุ่มได้จากการดำเนินการเหล่านี้ ใช้การ[ดำเนินการ](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)รับกลุ่มเพื่อรับรายการของรหัสกลุ่ม
 
 ต่อไปนี้เป็นการดำเนินการเพื่อส่งข้อมูลลงในชุดข้อมูล:
 
-* [สร้างชุดข้อมูล](https://msdn.microsoft.com/library/mt203562.aspx)
-* [รับชุดข้อมูล](https://msdn.microsoft.com/library/mt203567.aspx)
-* [เพิ่มแถว](https://msdn.microsoft.com/library/mt203561.aspx)
-* [รับกลุ่ม](https://msdn.microsoft.com/library/mt243842.aspx)
+* [โพสต์ชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [รับชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
+* [โพสต์แถว](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [รับกลุ่ม](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
 คุณสามารถสร้างชุดข้อมูลใน Power BI ได้โดยการส่งสตริง JavaScript Object Notation (JSON) ไปยังบริการ Power BI เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ JSON ดู[การแนะนำ JSON](http://json.org/)
 
@@ -113,10 +113,6 @@ ms.locfileid: "34289475"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [ลงทะเบียนใช้งาน Power BI](create-an-azure-active-directory-tenant.md)  
-[สร้างชุดข้อมูล](https://msdn.microsoft.com/library/mt203562.aspx)  
-[รับชุดข้อมูล](https://msdn.microsoft.com/library/mt203567.aspx)  
-[เพิ่มแถว](https://msdn.microsoft.com/library/mt203561.aspx)  
-[รับกลุ่ม](https://msdn.microsoft.com/library/mt243842.aspx)  
 [การแนะนำ JSON](http://json.org/)  
 [ภาพรวมของ Power BI REST API](overview-of-power-bi-rest-api.md)  
 คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

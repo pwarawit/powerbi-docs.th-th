@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afed2bc87e7e358d9ba02a465c43d223f6e7cba3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288325"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813790"
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>รวมไทล์ลงในแอป (ผู้ใช้เป็นเจ้าของข้อมูล)
 เรียนรู้วิธีการรวมหรือฝังตัวไทล์ ลงในเว็บแอปโดยใช้การเรียก REST API ตลอดจน Power BI JavaScript API เมื่อต้องการฝังตัวสำหรับองค์กรของคุณ
@@ -28,7 +28,7 @@ ms.locfileid: "34288325"
 > 
 > 
 
-เพื่อรวมไทล์ลงในเว็บแอป คุณใช้ **Power BI** REST API หรือ Power BI C# SDK และ**โทเค็นการเข้าถึง**การรับรองความถูกต้องของ Azure Active Directory (AD) เพื่อรับไทล์ จากนั้น คุณโหลดไทล์โดยใช้โทเค็นการเข้าถึงเดียวกัน **Power BI** API ให้การเข้าถึงทรัพยากรของ **Power BI** ผ่านทางโปรแกรม สำหรับข้อมูลเพิ่มเติม ดู[ภาพรวมของ Power BI REST API](https://msdn.microsoft.com/library/dn877544.aspx) และ [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
+เพื่อรวมไทล์ลงในเว็บแอป คุณใช้ **Power BI** REST API หรือ Power BI C# SDK และ**โทเค็นการเข้าถึง**การรับรองความถูกต้องของ Azure Active Directory (AD) เพื่อรับไทล์ จากนั้น คุณโหลดไทล์โดยใช้โทเค็นการเข้าถึงเดียวกัน **Power BI** API การเข้าถึงแหล่งข้อมูล **Power BI** ผ่านทางโปรแกรม สำหรับข้อมูลเพิ่มเติม ดู [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) และ [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
 
 ## <a name="download-the-sample"></a>ดาวน์โหลดตัวอย่าง
 บทความนี้แสดงรหัสที่ใช้ใน [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) บน GitHub ถ้าต้องการทำตามการฝึกปฏิบัตินี้ คุณสามารถดาวน์โหลดตัวอย่างได้
@@ -44,12 +44,12 @@ ms.locfileid: "34288325"
 ภายในแอปพลิเคชันของคุณ คุณจะต้องรับ**โทเค็นการเข้า**จาก Azure AD ก่อนที่คุณสามารถเรียกใช้ Power BI REST API ได้ สำหรับข้อมูลเพิ่มเติม ดู[รับรองความถูกต้องผู้ใช้ และรับโทเค็นการเข้าถึง Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md)
 
 ## <a name="step-3---get-a-tile"></a>ขั้นตอนที่ 3 - รับไทล์
-เพื่อรับไทล์ **Power BI** คุณใช้การดำเนินการ [รับไทล์](https://msdn.microsoft.com/library/mt465741.aspx) ที่รับรายการของไทล์ **Power BI** จากแดชบอร์ดที่ระบุ จากรายการของไทล์ คุณสามารถรับ รหัสไทล์ และ URL ที่ฝัง
+เพื่อรับไทล์ **Power BI** คุณใช้การดำเนินการ [รับไทล์](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) ที่รับรายการของไทล์ **Power BI** จากแดชบอร์ดที่ระบุ จากรายการของไทล์ คุณสามารถรับ รหัสไทล์ และ URL ที่ฝัง
 
 คุณจำเป็นต้องดึงค่า รหัสแดชบอร์ด ก่อนถึงจะเรียกดูไทล์ได้ สำหรับข้อมูลเกี่ยวกับวิธีการดึงแดชบอร์ด ดู[รวมแดชบอร์ดลงในแอป (ผู้ใช้เป็นเจ้าของข้อมูล)](integrate-dashboard.md)
 
 ### <a name="get-tiles-using-an-access-token"></a>รับไทล์โดยใช้โทเค็นการเข้าถึง
-ด้วย**โทเค็นการเข้าถึง** ที่คุณได้จาก[ขั้นตอนที่ 2](#step-2-get-an-access-token-from-azure-ad) คุณเรียกการดำเนินการ[รับไทล์](https://msdn.microsoft.com/library/mt465741.aspx)ได้ การดำเนินการ[รับไทล์](https://msdn.microsoft.com/library/mt465741.aspx) จะส่งรายการของไทล์กลับมา คุณสามารถรับไทล์เดียวจากรายการของไทล์ ด้านล่างนี้คือเมทอต C# ที่สมบูรณ์เพื่อจะรับไทล์ 
+ด้วย**โทเค็นการเข้าถึง** ที่คุณได้จาก[ขั้นตอนที่ 2](#step-2-get-an-access-token-from-azure-ad) คุณเรียกการดำเนินการ[รับไทล์](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles)ได้ การดำเนินการ[รับไทล์](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) จะส่งรายการของไทล์กลับมา คุณสามารถรับไทล์เดียวจากรายการของไทล์ ด้านล่างนี้คือเมทอต C# ที่สมบูรณ์เพื่อจะรับไทล์ 
 
 เพื่อเรียกใช้ REST API คุณต้องใส่ส่วนหัว *Authorization* ในรูปแบบ *Bearer {โทเค็นการเข้าถึง}*
 
@@ -216,7 +216,7 @@ function updateEmbedTile() {
 ![ไทล์ที่ฝังตัวในเว็บแอปพลิเคชัน](media/integrate-tile/powerbi-embedded-tile.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>การทำงานกับกลุ่ม (พื้นที่ทำงานแอป)
-สำหรับการฝังตัวไทล์จากกลุ่ม (พื้นที่ทำงานแอป) คุณจะต้องการรับรายการของไทล์ที่มีอยู่ทั้งหมดภายในแดชบอร์ดของกลุ่มโดยการเรียก REST API ต่อไปนี้ เมื่อต้องการข้อมูลเพิ่มเติมเกี่ยวกับ REST API นี้ ดูที่[รับไทล์](https://msdn.microsoft.com/library/mt465741.aspx) คุณต้องมีสิทธิ์ในกลุ่มเพื่อให้คำขอส่งผลลัพธ์กลับมา
+สำหรับการฝังตัวไทล์จากกลุ่ม (พื้นที่ทำงานแอป) คุณจะต้องการรับรายการของไทล์ที่มีอยู่ทั้งหมดภายในแดชบอร์ดของกลุ่มโดยการเรียก REST API ต่อไปนี้ เมื่อต้องการข้อมูลเพิ่มเติมเกี่ยวกับ REST API นี้ ดูที่[รับไทล์](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) คุณต้องมีสิทธิ์ในกลุ่มเพื่อให้คำขอส่งผลลัพธ์กลับมา
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards/{dashboard_id}/tiles

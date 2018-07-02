@@ -1,28 +1,21 @@
 ---
 title: ใช้คอลัมน์จากการคำนวณใน Power BI Desktop
 description: คอลัมน์จากการคำนวณใน Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2a92426061b37753c529b84a1de6b8068cb3bc5f
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 3c1df2f08732a45b98e2de84684735171b004602
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290372"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>ใช้คอลัมน์จากการคำนวณใน Power BI Desktop
 คุณสามารถใช้คอลัมน์จากการคำนวณเพื่อเพิ่มข้อมูลใหม่ลงในตารางที่มีอยู่แล้วในแบบจำลองของคุณ แต่แทนที่จะทำแบบสอบถามและโหลดค่าลงในคอลัมน์ใหม่ของคุณจากแหล่งข้อมูล คุณสามารถสร้างสูตรนิพจน์การวิเคราะห์ข้อมูล (DAX) ที่กำหนดค่าของคอลัมน์ได้ ใน Power BI Desktop คอลัมน์จากการคำนวณถูกสร้างขึ้นโดยใช้คุณลักษณะคอลัมน์ใหม่ในมุมมองรายงาน
@@ -59,7 +52,7 @@ Jeff มีเขตข้อมูลที่เขาต้องการ
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
 ## <a name="learn-more"></a>เรียนรู้เพิ่มเติม
-ในที่นี้ เราเพียงแค่แนะนำคอลัมน์จากการคำนวณอย่างรวดเร็วเท่านั้น โปรดแน่ใจว่าได้ศึกษา [บทช่วยสอนสร้างคอลัมน์จากการคำนวณใน Power BI Desktop](desktop-tutorial-create-calculated-columns.md) ที่คุณสามารถดาวน์โหลดไฟล์ตัวอย่างและได้รับบทเรียนทีละขั้นตอนเกี่ยวกับวิธีการสร้างคอลัมน์เพิ่มเติมแล้ว 
+ในที่นี้ เราเพียงแค่แนะนำคอลัมน์จากการคำนวณอย่างรวดเร็วเท่านั้น โปรดแน่ใจว่าได้ศึกษา [บทช่วยสอน: สร้างคอลัมน์จากการคำนวณใน Power BI Desktop](desktop-tutorial-create-calculated-columns.md) ที่คุณสามารถดาวน์โหลดไฟล์ตัวอย่าง และได้รับบทเรียนทีละขั้นตอนเกี่ยวกับวิธีการสร้างคอลัมน์เพิ่มเติม 
 
 เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ DAX โปรดดูที่ [พื้นฐาน DAX ใน Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
 

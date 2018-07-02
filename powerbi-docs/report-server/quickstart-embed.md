@@ -1,108 +1,107 @@
 ---
 title: ฝังรายงานโดยใช้ iFrame
-description: เซิร์ฟเวอร์รายงาน Power BI สามารถติดตั้งตัวเองได้รวดเร็วมาก จากการดาวน์โหลด การติดตั้ง และการกำหนดค่า คุณควรจะพร้อมทำงานภายในไม่กี่นาที
-services: powerbi
-documentationcenter: ''
+description: ฝังรายงานเซิร์ฟเวอร์รายงาน Power BI ใน iFrame ใน SharePoint Server
 author: markingmyname
-manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/09/2017
 ms.author: maghan
-ms.openlocfilehash: 56835bfb25c8c930099fadf710137f69fa89fc2e
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 05/04/2018
+ms.topic: quickstart
+ms.service: powerbi
+ms.component: powerbi-report-server
+ms.custom: mvc
+manager: kfile
+ms.openlocfilehash: 8d7653e6f390959df745fa2b19076ee89b26b1bc
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293708"
 ---
-# <a name="quickstart-embed-a-power-bi-report-using-an-iframe-and-url-parameters"></a>เริ่มการใช้งานด่วน: ฝังรายงาน Power BI โดยใช้ iFrame และพารามิเตอร์ URL
+# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>เริ่มต้นด่วน: ฝังรายงานเซิร์ฟเวอร์รายงาน Power BI โดยใช้ iFrame ใน SharePoint Server
 
-คุณสามารถฝังรายงานต่างๆโดยใช้ iFrame ในแอปพลิเคชันของคุณ 
+ในการเริ่มต้นด่วนนี้ คุณจะได้เรียนรู้วิธีการฝังรายงานเซิร์ฟเวอร์รายงาน Power BI โดยใช้ iFrame ในหน้า SharePoint ถ้าคุณกำลังทำงานกับ SharePoint Online เซิร์ฟเวอร์รายงาน Power BI ต้องสามารถเข้าถึงแบบสาธารณะได้ ใน SharePoint Online, Power BI Web Part ที่ทำงานกับบริการของ Power BI ไม่ทำงานกับเซิร์ฟเวอร์รายงาน Power BI 
 
-## <a name="url-parameter"></a>พารามิเตอร์ URL
+![ตัวอย่าง iFrame](media/quickstart-embed/quickstart_embed_01.png)
+## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
+* คุณจะต้องมี[เซิร์ฟเวอร์รายงาน Power BI](https://powerbi.microsoft.com/en-us/report-server/) ที่ติดตั้งและกำหนดค่าแล้ว
+* คุณจะต้องมี [Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](install-powerbi-desktop.md) ติดตั้งแล้ว
+* คุณจะต้องมีสภาพแวดล้อม [SharePoint](https://docs.microsoft.com/en-us/sharepoint/install/install) ที่ติดตั้งและกำหนดค่าแล้ว
 
-URL สำหรับรายงาน คุณสามารถเพิ่มพารามิเตอร์สตริงแบบสอบถาม`?rs:Embed=true`ได้
+## <a name="creating-the-power-bi-report-server-report-url"></a>การสร้าง URL รายงานเซิร์ฟเวอร์รายงาน Power BI
 
-ตัวอย่างเช่น:
+1. ดาวน์โหลดตัวอย่างจาก GitHub - [การสาธิตบล็อก](https://github.com/Microsoft/powerbi-desktop-samples)
 
-```
-http://myserver/reports/powerbi/Sales?rs:embed=true
-```
+    ![ดาวน์โหลดไฟล์ PBIX ตัวอย่าง](media/quickstart-embed/quickstart_embed_14.png)
 
-สิ่งนี้จะทำงานบนรายงานทุกชนิดภายในเซิร์ฟเวอร์รายงาน Power BI
+2. เปิดไฟล์ PBIX ตัวอย่างจาก GitHub ใน **Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI**
 
-## <a name="iframe"></a>iFrame
+    ![เครื่องมือ PBI RS Desktop](media/quickstart-embed/quickstart_embed_02.png)
 
-เมื่อคุณมี URL ของคุณ คุณสามารถสร้าง iFrame ภายในเว็บเพจเพื่อโฮสต์รายงาน
+3. บันทึกรายงานไปยัง**เซิร์ฟเวอร์รายงาน Power BI** 
 
-ตัวอย่างเช่น:
+    ![บันทึก PBI RS](media/quickstart-embed/quickstart_embed_03.png)
 
-```
-<iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
-```
+4. ดูรายงานใน**พอร์ทัลของเว็บ**
 
-## <a name="url-filter"></a>ตัวกรอง URL
+    ![พอร์ทัลของเว็บ](media/quickstart-embed/quickstart_embed_04.png)
 
-คุณสามารถเพิ่มพารามิเตอร์สตริงแบบสอบถามไปยัง URL เพื่อกรองข้อมูลที่ส่งกลับในรายงาน Power BI
+### <a name="capturing-the-url-parameter"></a>การจับพารามิเตอร์ URL
 
-ไวยากรณ์ที่ตรงไปตรงมา เช่น เริ่มต้นด้วย URL ของรายงาน เพิ่มเครื่องหมายคำถาม และไวยากรณ์ตัวกรองนี้
+เมื่อคุณมี URL ของคุณแล้ว คุณสามารถสร้าง iFrame ภายในหน้า SharePoint เพื่อโฮสต์รายงาน สำหรับ URL รายงานเซิร์ฟเวอร์รายงาน Power BI ใด ๆ คุณสามารถเพิ่มพารามิเตอร์ querystring `?rs:embed=true` เพื่อฝังรายงานของคุณลงใน iFrame ได้ 
 
-URL?filter=***ตาราง***/***ฟิลด์*** eq '***ค่า***'
+   ตัวอย่างเช่น:
+    ``` 
+    http://myserver/reports/powerbi/Sales?rs:embed=true
+    ```
+## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>การฝังรายงานเซิร์ฟเวอร์รายงาน Power BI ใน SharePoint iFrame
 
-คำนึงถึงข้อควรพิจารณาเหล่านี้:
+1. นำทางไปยัง SharePoint หน้า**เนื้อหาของไซต์**
 
-- **ชื่อตาราง**และ**เขตข้อมูล**จำเป็นต้องระบุ **แต่ค่า**ไม่จำเป็น
-- คุณสามารถกรองรายงานที่มีเขตข้อมูลที่ถูกซ่อนจากมุมมองรายงาน
-- **ค่า**ต้องอยู่ระหว่างเครื่องหมายอัญประกาศเดี่ยว
-- ชนิดเขตข้อมูลจะต้องเป็นสตริง
-- ชื่อตารางและเขตข้อมูลต้องไม่มีช่องว่าง
+    ![หน้าเนื้อหาของไซต์](media/quickstart-embed/quickstart_embed_05.png)
 
-###  <a name="example-filter-on-a-field"></a>ตัวอย่าง: ตัวกรองบนเขตข้อมูล
+2. เลือกหน้าที่คุณต้องการเพิ่มรายงานของคุณ
 
-ใช้เป็นตัวอย่าง เช่น [ตัวอย่างการวิเคราะห์ร้านค้าปลีก](../sample-datasets.md) ระบุว่านี่คือ URL สำหรับรายงานบนเซิร์ฟเวอร์รายงานในโฟลเดอร์ที่ชื่อว่า "power bi":
+    ![แอปหน้าเนื้อหาของไซต์](media/quickstart-embed/quickstart_embed_06.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample
-```
+3. เลือกที่รูปเฟืองด้านบนขวา แล้วเลือก**แก้ไขหน้า**
 
-คุณเห็นการแสดงภาพแผนที่ในตัวอย่างการวิเคราะห์ร้านค้าปลีกที่แสดงร้านค้าใน North Carolina และรัฐอื่นๆ
+    ![ตัวเลือกแก้ไขหน้า](media/quickstart-embed/quickstart_embed_07.png)
 
-![การแสดงภาพของแผนที่ตัวอย่างการวิเคราะห์ร้านค้าปลีก](media/quickstart-embed/report-server-retail-analysis-sample-map.png)
+4. เลือก**เพิ่ม Web Part**
 
-*NC*เป็นค่าสำหรับ North Carolina ที่ถูกเก็บไว้ใน**เขตข้อมูล**ดินแดนของการ**ตาราง**ร้านค้า ดังนั้น การกรองรายงานเพื่อแสดงข้อมูลเฉพาะสำหรับร้านค้าใน North Carolina เพิ่มข้อมูลต่อไปนี้ลงใน URL:
+    ![เพิ่ม Web Part](media/quickstart-embed/quickstart_embed_08.png)
 
-?filter=Store/Territory eq 'NC'
+5. ภายใต้**ประเภท** เลือก**สื่อและเนื้อหา** ภายใต้**ส่วน** เลือก**ตัวแก้ไขเนื้อหา** แล้วเลือก**เพิ่ม**
 
-ขณะนี้รายงานถูกกรองสำหรับ North Carolina แล้ว เช่น การแสดงภาพทั้งหมดบนหน้ารายงานเพื่อแสดงข้อมูลสำหรับ North Carolina เท่านั้น
+    ![เลือกตัวแก้ไขเนื้อหา Web Part](media/quickstart-embed/quickstart_embed_09.png) ![เลือกเพิ่ม](media/quickstart-embed/quickstart_embed_091.png)
 
-![การแสดงภาพที่กรองตัวอย่างการวิเคราะห์ร้านค้าปลีก](media/quickstart-embed/report-server-retail-analysis-sample-filtered-map.png)
+6. เลือก**คลิกที่นี่เพื่อเพิ่มเนื้อหาใหม่**
 
-### <a name="create-a-dax-formula-to-filter-on-multiple-values"></a>สร้างสูตร DAX เพื่อกรองข้อมูลสำหรับค่าหลายค่า
+    ![เพิ่มเนื้อหาใหม่](media/quickstart-embed/quickstart_embed_10.png)
 
-อีกวิธีหนึ่งเพื่อกรองหลายเขตข้อมูลคือการสร้างคอลัมน์จากการคำนวณลงใน Power BI Desktop ที่รวมเขตข้อมูลสองเขตเป็นค่าเดียว จากนั้น คุณจะสามารถกรองค่านั้นได้
+7. ใน ribbon เลือกแท็บ**รูปแบบข้อความ** แล้วเลือก**แก้ไขแหล่งข้อมูล**
 
-ตัวอย่างเช่น ตัวอย่างการวิเคราะห์ร้านค้าปลีกมีเขตข้อมูลสองเขต: ดินแดนและสาขา ใน Power BI Desktop คุณสามารถ[สร้างคอลัมน์จากการคำนวณ](../desktop-tutorial-create-calculated-columns.md)(เขตข้อมูล) ที่เรียกว่า TerritoryChain ได้ โปรดจำไว้ว่า ชื่อ**เขตข้อมูล**ต้องไม่มีช่องว่าง นี่คือสูตร DAX สำหรับคอลัมน์นั้น
+     ![แก้ไขแหล่งข้อมูล](media/quickstart-embed/quickstart_embed_11.png)
 
-TerritoryChain = [Territory] & "-" & [Chain]
+8. ในหน้าต่างแก้ไขแหล่งข้อมูล วางรหัส iFrame ของคุณ แล้วเลือกตกลง
 
-เผยแพร่รายงานไปยังเซิร์ฟเวอร์รายงาน Power BI จากนั้นใช้สตริงแบบสอบถาม URL ในการกรองเพื่อแสดงข้อมูลสำหรับร้านค้า Lindseys ใน NC เท่านั้น
+    ![รหัส iFrame](media/quickstart-embed/quickstart_embed_12.png)
 
-```
-https://report-server/reports/power-bi/Retail-Analysis-Sample?filter=Store/TerritoryChain eq 'NC-Lindseys'
+     ตัวอย่างเช่น:
+     ```
+     <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
+     ```
 
-```
+9. ใน ribbon เลือกแท็บ**หน้า** และเลือก**หยุดการแก้ไข**
+
+    ![หยุดการแก้ไข](media/quickstart-embed/quickstart_embed_13.png)
+
+10. ตอนนี้ คุณควรจะเห็นรายงานบนหน้า
+
+    ![ตัวอย่าง iFrame](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 [เริ่มต้นใช้งานด่วน: สร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน Power BI](quickstart-create-powerbi-report.md)  
 [เริ่มต้นใช้งานด่วน: สร้างรายงานที่มีการแบ่งหน้าสำหรับเซิร์ฟเวอร์รายงาน Power BI](quickstart-create-paginated-report.md)  
 
-คุณมีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+คุณมีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/) 

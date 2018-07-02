@@ -1,31 +1,24 @@
 ---
-title: เริ่มต้นใช้งานการจัดรูปแบบการแสดงภาพ Power BI (บทช่วยสอน)
-description: 'บทช่วยสอน: กำหนดชื่อเรื่องการแสดงภาพ พื้นหลัง และคำอธิบายแผนภูมิ'
-services: powerbi
-documentationcenter: ''
+title: เริ่มต้นใช้งานการจัดรูปแบบการแสดงภาพ Power BI
+description: กำหนดชื่อเรื่องการแสดงภาพ พื้นหลัง และคำอธิบายแผนภูมิ
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e81f4e9ede3591accc94576291179b4fd40215e5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d65281539bcc27ce24971a6da0945908ba65e754
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "34297112"
 ---
-# <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>กำหนดชื่อเรื่องการแสดงภาพ คำอธิบายแผนภูมิ และพื้นหลัง (บทช่วยสอน)
+# <a name="customize-visualization-titles-legends-and-backgrounds"></a>กำหนดชื่อเรื่องการแสดงภาพ คำอธิบายแผนภูมิ และพื้นหลัง
 ในบทช่วยสอนนี้ คุณจะได้เรียนรู้ถึงวิธีการกำหนดการแสดงภาพของคุณเองสองถึงสามวิธี   มีตัวเลือกมากมายสำหรับการกำหนดการแสดงภาพของคุณ วิธีดีที่สุดเมื่อต้องการเรียนรู้เกี่ยวกับตัวเลือกทั้งหมดคือการสำรวจพื้นที่การจัดรูปแบบ (เลือกไอคอนลูกกลิ้งทาสี)  เพื่อช่วยให้คุณเริ่มต้นใช้งาน บทความนี้แสดงวิธีการกำหนดชื่อเรื่องการแสดงภาพ คำอธิบายแผนภูมิ และพื้นหลัง  
 
 เราไม่สามารถกำหนดค่าได้ทุกการแสดงภาพ [ดูรายการทั้งหมด](#list)ได้  
@@ -127,5 +120,5 @@ ms.lasthandoff: 02/24/2018
 [กำหนดค่าแกน X และแกน Y](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [กำหนดสีและคุณสมบัติแกน](service-getting-started-with-color-formatting-and-axis-properties.md)  
 [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)  
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

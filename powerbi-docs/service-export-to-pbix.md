@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "34722554"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>ส่งออกรายงานจากบริการ Power BI ไปยังเดสก์ท็อป (ตัวอย่าง)
 ใน Power BI Desktop คุณสามารถส่งออก (นอกจากนี้ยังเรียกว่า*ดาวน์โหลด*) รายงานไปยังบริการ Power BI โดยการบันทึกรายงาน และเลือก**เผยแพร่**ได้ คุณสามารถส่งออกในทิศทางอื่นเช่น และดาวน์โหลดรายงานจากบริการ Power BI ลงในเดสก์ท็อปได้ นามสกุลสำหรับไฟล์ที่ถูกส่งออกในทิศทางใดก็ตามคือ *.pbix*
@@ -57,6 +58,7 @@ ms.lasthandoff: 05/19/2018
 * คุณลักษณะนี้จะไม่สามารถใช้งานได้กับรายงานที่สร้างขึ้นใน**บริการ Power BI** รวมถึงชุดเนื้อหาด้วย
 * คุณควรใช้เวอร์ชันล่าสุดของ **Power BI Desktop** เสมอเมื่อเปิดไฟล์ที่ดาวน์โหลดแล้ว ไฟล์ *.pbix* ที่ดาวน์โหลดแล้วอาจไม่สามารถเปิดได้ในเวอร์ชันที่ไม่ใช่เวอร์ชั่นปัจจุบันของ**Power BI Desktop**
 * หากผู้ดูแลระบบของคุณปิดใช้งานความสามารถในการส่งออกข้อมูล คุณลักษณะนี้จะไม่ปรากฏใน**บริการ Power BI**
+* ชุดข้อมูลที่มีการรีเฟรชแบบเพิ่มหน่วย ไม่สามารถดาวน์โหลดเป็นไฟล์ *.pbix* ได้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 ดูวิดีโอความยาวหนึ่งนาที**Guy in a Cube**สำหรับคุณลักษณะนี้:

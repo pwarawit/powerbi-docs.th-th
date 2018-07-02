@@ -1,95 +1,77 @@
 ---
-title: ซื้อ Power BI Pro
-description: Power BI Pro มีไว้ให้ผู้ใช้เหล่านั้นเผยแพร่รายงาน แชร์แดชบอร์ด ทำงานร่วมกับเพื่อนร่วมงานในพื้นที่ทำงาน และมีส่วนร่วมในกิจกรรมอื่น ๆ ที่เกี่ยวข้อง
-services: powerbi
-documentationcenter: ''
+title: 'การเริ่มต้นใช้งานด่วน: ซื้อสิทธิ์การใช้งาน Power BI Pro'
+description: เรียนรู้วิธีการซื้อสิทธิ์การใช้งาน Power BI Pro เพื่อให้ผู้ใช้ของคุณสามารถเข้าถึงเนื้อหาและความสามารถทั้งหมดในบริการ Power BI
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/22/2018
+ms.component: powerbi-admin
+ms.topic: quickstart
+ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c843125b875a2fe63dd24ab9b6346cda85456835
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 723b352657f0f89e591ef5c8614866d1ede59ae9
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295180"
 ---
-# <a name="purchasing-power-bi-pro"></a>ซื้อ Power BI Pro
+# <a name="quickstart-purchase-power-bi-pro-licenses"></a>การเริ่มต้นใช้งานด่วน: ซื้อสิทธิ์การใช้งาน Power BI Pro
 
-ด้วย Power BI Pro คุณสามารถเผยแพร่รายงาน แชร์แดชบอร์ด ทำงานร่วมกับเพื่อนร่วมงานในพื้นที่ทำงาน และมีส่วนร่วมในกิจกรรมอื่น ๆ ที่เกี่ยวข้อง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการที่ว่า Power BI Pro มีประโยชน์ต่อองค์กรของคุณอย่างไรบ้าง ดู [Power BI Pro ในองค์กรของคุณ](service-admin-power-bi-pro-in-your-organization.md)
+Power BI Pro เป็นสิทธิ์การใช้งานสำหรับแต่ละบุคคลที่ช่วยให้สามารถเข้าถึงเนื้อหาและความสามารถทั้งหมดในบริการ Power BI ได้ รวมถึงความสามารถในการแชร์เนื้อหาและทำงานร่วมกับผู้ใช้อื่นที่มีสิทธิ์การใช้งานแบบ Pro ได้ เฉพาะผู้ใช้แบบ Pro เท่านั้นที่สามารถเผยแพร่เนื้อหาไปยังหรือใช้งานพื้นที่ทำงานจากแอป แชร์แดชบอร์ด และสมัครใช้งานแดชบอร์ดและรายงานได้ บทความนี้อธิบายวิธีการสั่งซื้อสิทธิ์การใช้งาน Power BI Pro ใน Office 365
 
-## <a name="purchasing-power-bi-pro-through-office-365-admin-center"></a>ซื้อ Power BI Pro ผ่านศูนย์การจัดการ Office 365
 
-ผู้ดูแลระบบ IT ในสำนักงานสามารถซื้อ Power BI Pro เป็นส่วนหนึ่งของการสมัครใช้งาน Office 365 Enterprise E5 หรือไม่ก็เป็นการสมัครใช้งาน Power BI Pro แยกต่างหากก็ได้ จากนั้น คุณสามารถกำหนดสิทธิ์การใช้งาน Power BI Pro สำหรับผู้ใช้ที่เหมาะสม สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกำหนดสิทธิ์การใช้งาน ดู [กำหนดสิทธิ์การใช้งานให้ผู้ใช้ใน Office 365 ](https://support.office.com/en-us/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&rs=en-US&ad=US)
+## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-ทำตามขั้นตอนเหล่านี้เพื่อซื้อ Power BI Pro ถ้าคุณเป็นผู้ดูแลระบบ IT ของ Office:
+คุณต้องเป็นสมาชิกของบทบาท[ **ผู้ดูแลระบบส่วนกลาง**หรือ**ผู้ดูแลการเรียกเก็บเงิน** ](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)ใน Office 365 
 
-1. นำทางไปยัง [ศูนย์การจัดการ Office 365](https://portal.office.com/adminportal/home#/homepage)
-2. ในบานหน้าต่างนำทางด้านซ้าย เลือกการเรียกเก็บเงิน แล้วคลิกที่การสมัครใช้งาน
 
-    ![บานหน้าต่างนำทาง](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
+## <a name="purchase-power-bi-pro-licenses-through-office-365"></a>ซื้อสิทธิ์การใช้งาน Power BI Pro ผ่าน Office 365
 
-3. คลิกเพิ่มการสมัครใช้งานทางมุมบนขวาของหน้าการสมัครใช้งาน
+ทำตามขั้นตอนเหล่านี้เพื่อซื้อสิทธิ์การใช้งาน Power BI Pro:
+
+1. เรียกดู [ศูนย์การจัดการ Office 365](https://portal.office.com/adminportal/home#/homepage)
+
+2. ในบานหน้าต่างนำทางด้านซ้าย เลือก **การเรียกเก็บเงิน** > **การสมัครใช้งาน**
+
+    ![แผงนำทาง](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
+
+3. ที่มุมบนขวาของหน้า**สมัครใช้งาน** เลือก**เพิ่มการสมัครใช้งาน**
 
     ![การสมัครใช้งาน](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-02.png)
 
 4. ค้นหาข้อเสนอการสมัครใช้งานที่ต้องการ:
 
-    ภายใต้ชุดโปรแกรม Enterprise เลือก Office 365 Enterprise E5
+    ภายใต้**ชุดโปรแกรม Enterprise** เลือก **Office 365 Enterprise E5**
 
     ![สมัครใช้งาน Office E5](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-03.png)
 
-    ภายใต้แผนอื่น ๆ เลือก Power BI Pro
+    ใต้**แผนอื่น ๆ**เลือก **Power BI Pro**
 
-    ![การสมัครใช้งาน PBI](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
+    ![การสมัครใช้งาน Power BI](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
 
-5. โฮเวอร์เหนือจุดไข่ปลา (...) สำหรับการสมัครใช้งานที่ต้องการ แล้วเลือกซื้อตอนนี้
+5. โฮเวอร์เหนือจุดไข่ปลา (...) สำหรับการสมัครใช้งานที่ต้องการ แล้วเลือก **ซื้อตอนนี้**
 
     ![ซื้อตอนนี้](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 
-6. เลือกชำระเงินรายเดือนหรือชำระเงินสำหรับทั้งปีตามการกำหนดลักษณะการเรียกเก็บเงินของคุณ
-7. ภายใต้คุณต้องการผู้ใช้กี่คน ใส่จำนวนสิทธิ์การใช้งานที่ต้องการ แล้ว คลิกบนซื้อสินค้าตอนนี้หรือเพิ่มลงในรถเข็นและจบการทำธุรกรรม
-8. ตรวจสอบว่า การสมัครใช้งานที่ได้มานั้นแสดงรายการอยู่บนหน้าการสมัครใช้งานตอนนี้หรือไม่
+6. เลือก**ชำระเงินรายเดือน** หรือ**ชำระเงินสำหรับทั้งป** ีตามการกำหนดลักษณะการเรียกเก็บเงินของคุณ
+
+7. ภายใต้**คุณต้องการผู้ใช้กี่คน?** ใส่จำนวนสิทธิ์การใช้งานที่ต้องการ แล้วเลือก**ซื้อสินค้าตอนนี้** เพื่อจบการทำธุรกรรม
+
+8. ตรวจสอบว่าการสมัครใช้งานที่ได้มานั้นแสดงรายการอยู่บนหน้า**การสมัครใช้งาน**ตอนนี้หรือไม่
 
    ![การสมัครใช้งานที่ได้มา](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro/service-purchasing-power-bi-pro-06.png)
 
-> [!NOTE]
-> คุณสามารถเพิ่มสิทธิ์การใช้งานเพิ่มเติมหลังจากการซื้อเริ่มต้น เลือกการสมัครใช้งาน Power BI Pro จากหน้าการสมัครใช้งาน แล้ว คลิกบนเพิ่ม/ลบสิทธิ์การใช้งาน
->
+9. เมื่อต้องการเพิ่มสิทธิ์การใช้งานเพิ่มเติมหลังจากการซื้อครั้งแรก เลือก**Power BI Pro** จากหน้า**สมัครใช้งาน** จากนั้น**เพิ่ม/ลบสิทธิ์การใช้งาน**
 
-## <a name="pricing"></a>การกำหนดราคา
-
-สำหรับข้อมูลการกำหนดราคาล่าสุด ดู [การกำหนดราคา Power BI](https://powerbi.microsoft.com/en-us/pricing/)
-
-> [!NOTE]
-> ผู้ใช้ที่ได้รับการกำหนดสิทธิ์การใช้งาน Pro จะมีเวลา 30 วันในการเข้าถึงแบบเต็มหลังจากจบการสมัครใช้งาน เมื่อเกิดกรณีนี้ขึ้น คุณจะเห็นการสมัครใช้งานที่แสดงเป็น "หมดอายุแล้ว" ในพอร์ทัลผู้ดูแล
->
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[ลงชื่อสมัครใช้ Power BI แบบบริการตนเอง](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)
-<br/>
-[Power BI (ฟรี) ในองค์กรของคุณ](service-admin-service-free-in-your-organization.md)
-<br/>
-[Power BI Pro ในองค์กรของคุณ](service-admin-power-bi-pro-in-your-organization.md)
-<br/>
-[เปิดใช้งานเวอร์ชันทดลองใช้ Pro เพิ่มเติม](service-extended-pro-trial.md)
-<br/>
-[การกำหนดสิทธิ์การใช้งาน Power BI Pro](service-admin-assigning-power-bi-pro-licenses.md)
-<br/>
-[Power BI Premium คืออะไร](service-admin-premium-manage.md)
-<br/>
-[วิธีการซื้อ Power BI Premium](service-admin-premium-purchase.md)
-<br/>
-[เอกสารทางเทคนิคของ Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+หลังจากที่คุณได้ซื้อสิทธิ์การใช้งานแล้ว มอบหมายสิทธิ์เหล่านั้นให้กับผู้ใช้ในผู้เช่าของคุณ
+
+[มอบหมายสิทธิ์การใช้งานให้ผู้ใช้ใน Office 365](service-admin-assigning-power-bi-pro-licenses.md)
+
+[มอบหมายสิทธิ์การใช้งานให้ผู้ใช้ใน Azure](service-admin-assigning-power-bi-pro-licenses-azure.md)
+
+[ราคาของ power BI](https://powerbi.microsoft.com/en-us/pricing/)

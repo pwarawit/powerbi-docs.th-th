@@ -1,27 +1,20 @@
 ---
 title: คำแนะนำในการวางแผนความจุสำหรับเวอร์รายงาน Power BI
 description: เอกสารนี้มีคำแนะนำเกี่ยวกับการวางแผนความจุสำหรับเวอร์รายงาน Power BI โดยการแชร์ผลลัพธ์ของการโหลดทดสอบมีการดำเนินการของปริมาณงานต่าง ๆ
-services: powerbi
-documentationcenter: ''
 author: parthsha
 manager: kfile
-backup: maghan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maghan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 36d12e520cd53abc0159e698f3f469f62f884c95
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 3c3295483112ae0b5475e15c2073faba86dfff30
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561827"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>คำแนะนำในการวางแผนความจุสำหรับเวอร์รายงาน Power BI
 เซิร์ฟเวอรรายงาน์ power BI เป็นแบบบริการตนเอง BI และเป็นโซลูชันการรายงานสำหรับองค์กรธุรกิจ ซึ่งลูกค้าสามารถปรับใช้ภายในองค์กรหลังไฟร์วอลล์ของพวกเขา ได้ จะรวมความสามารถในการรายงานแบบโต้ตอบของ Power BI Desktop ด้วยแพลตฟอร์มที่เซิร์ฟเวอร์ภายในองค์กรของ SQL Server Reporting Services ด้วยน้ำหนักและการเติบโตของการใช้งานของการวิเคราะห์และการรายงานภายในองค์กร การจัดทำงบประมาณฮาร์ดแวร์โครงสร้างพื้นฐานและลิขสิทธิ์ซอฟต์แวร์จึงถูกใช้งาน เพื่อขยายไปยังฐานผู้ใช้แบบองค์กร ซึ่งเป็นเรื่องท้าทายยิ่งนัก เอกสารนี้มีวัตถุประสงค์เพื่อเสนอคำแนะนำเกี่ยวกับการวางแผนความจุสำหรับเซิร์ฟเวอร์รายงาน Power BI โดยแชร์ผลลัพธ์การดำเนินการทดสอบการโหลดจำนวนมากของปริมาณงานต่างๆ เทียบกับเซิร์ฟเวอร์รายงาน ในขณะที่รายงาน คิวรี่ และการใช้รูปแบบขององค์กรแตกต่างกันอย่างกว้างขวาง ผลลัพธที่์แสดงอยู่ในเอกสารนี้ พร้อมกับการทดสอบจริงที่ใช้และอธิบายโดยละเอียดเกี่ยวกับวิธี่ดำเนินการ ทำหน้าที่เป็นจุดอ้างอิงสำหรับทุกคน ในช่วงต้นของขั้นตอนการวางแผนเพื่อใช้เซิร์ฟเวอร์รายงาน Power BI
@@ -57,7 +50,7 @@ ms.lasthandoff: 03/08/2018
 ดูภาคผนวก 1.1 โทโพโลยีเซิร์ฟเวอร์รายงาน Power BI และภาคผนวก 1.2 การตั้งค่าเครื่องเสมือนเซิร์ฟเวอร์รายงาน Power BI สำหรับการกำหนดค่าโดยละเอียดของแต่ละเครื่องเสมือนที่ใช้ในโทโพโลยี
 
 ### <a name="tests"></a>ทดสอบ
-การทดสอบที่ใช้ในการเรียกใช้การทดสอบการโหลดสาธารณะ พร้อมใช้งานในโครงการ GitHub เรียกว่า Reporting Services LoadTest (ดู https://github.com/Microsoft/Reporting-Services-LoadTest) เครื่องมือนี้ช่วยให้ผู้ใช้ศึกษาประสิทธิภาพการทำงาน ความน่าเชื่อถือ ปรับขนาด และลักษณะการคืนสภาพของ SQL Server Reporting Services และ Power BI Report Server โครงการนี้ประกอบด้วย่ของกรณีทดสอบสีกลุ่ม
+การทดสอบที่ใช้ใน การทดสอบการโหลด มีให้ดาวน์โหลดได้สาธารณะในโครงการ GitHub ที่ชื่อว่า [Reporting Services LoadTest](https://github.com/Microsoft/Reporting-Services-LoadTest) เครื่องมือนี้ช่วยให้ผู้ใช้ศึกษาประสิทธิภาพการทำงาน ความน่าเชื่อถือ ปรับขนาด และลักษณะการคืนสภาพของ SQL Server Reporting Services และ Power BI Report Server โครงการนี้ประกอบด้วย่ของกรณีทดสอบสีกลุ่ม
 
 * ทดสอบการจำลองกำลังแสดงรายงาน Power BI
 * ทดสอบการจำลอการแสดงงรายงานมือถือ
@@ -121,7 +114,7 @@ ms.lasthandoff: 03/08/2018
 ### <a name="1-topology"></a>โทโพโลยี 1
 **1.1 โทโพโลยีเซิร์ฟเวอร์รายงาน BI power**
 
-เมื่อต้องเน้นเท่านั้นบนเซิร์ฟเวอร์รายงาน Power BI ลักษณะการทำงานภายใต้การกำหนดค่าที่หลากหลาย การกำหนดค่า VM สำหรับเครื่องแต่ละชนิด(ยกเว้นเครื่องโฮสตเซิร์ฟเวอ์รรายงาน Power BI) ได้รับการแก้ไข แต่ละเครื่องจะถูกเตรียมใช้งานตามเครื่อง D Series second-generation (v2) ที่มี Premium Storage Disks คุณสามารถค้นหาข้อมูลโดยละเอียดที่เกี่ยวกับ VM แต่ละขนาด ภายใต้ส่วน "วัตถุประสงค์ทั่วไป" บน https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/
+เมื่อต้องเน้นเท่านั้นบนเซิร์ฟเวอร์รายงาน Power BI ลักษณะการทำงานภายใต้การกำหนดค่าที่หลากหลาย การกำหนดค่า VM สำหรับเครื่องแต่ละชนิด(ยกเว้นเครื่องโฮสตเซิร์ฟเวอ์รรายงาน Power BI) ได้รับการแก้ไข แต่ละเครื่องจะถูกเตรียมใช้งานตามเครื่อง D Series second-generation (v2) ที่มี Premium Storage Disks คุณสามารถหาข้อมูลโดยละเอียดเกี่ยวกับ แต่ละขนาดของ VM ภายใต้ส่วน “วัตถุประสงค์ทั่วไป” ที่ https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/
 
 | ชนิดเครื่องเสมือน | ตัวประมวลผล | หน่วยความจำ | ขนาด azure VM |
 | --- | --- | --- | --- |
@@ -131,7 +124,7 @@ ms.lasthandoff: 03/08/2018
 
 **1.2 กำหนดค่าเครื่องเสมือนของเซิร์ฟเวอร์รายงาน BI power** 
 
-กำหนดค่าที่หลากหลายของตัวประมวลผลและหน่วยความจะถูกใช้สำหรับเครื่องเสมือนโฮสต์เซิร์ฟเวอร์รายงาน BI power ไม่เหมือนกับ Vm อื่นๆ เครื่องนี้ถูกเตรียมใช้งานตามเครื่อง D Series third-generation (v3) ที่มี Premium Storage Disks คุณสามารถค้นหาข้อมูลโดยละเอียดเกี่ยวกับขนาด VM นี้ภายใต้ส่วน "วัตถุประสงค์ทั่วไป" บน https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/
+กำหนดค่าที่หลากหลายของตัวประมวลผลและหน่วยความจะถูกใช้สำหรับเครื่องเสมือนโฮสต์เซิร์ฟเวอร์รายงาน BI power ไม่เหมือนกับ Vm อื่นๆ เครื่องนี้ถูกเตรียมใช้งานตามเครื่อง D Series third-generation (v3) ที่มี Premium Storage Disks คุณสามารถหาข้อมูลโดยละเอียดเกี่ยวกับ ขนาดของ VM นี้ ภายใต้ส่วน “วัตถุประสงค์ทั่วไป” ที่ https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/
 
 | เครื่องเสมือน | ตัวประมวลผล | หน่วยความจำ | ขนาด azure VM |
 | --- | --- | --- | --- |
@@ -144,8 +137,8 @@ ms.lasthandoff: 03/08/2018
 1. โคลนโครงการ Reporting Services LoadTest จาก GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest)
 2. ในไดเรกทอรีโครงการ คุณจะพบไฟล์โซลูชันที่เรียกว่า RSLoadTests.sln เปิดไฟล์นี้ ในปี Visual Studio 2015 หรือใหม่กว่า
 3. กำหนดว่าคุณต้องการเรียกใช้เครื่องมือนี้ กับการใชงาน้ของเซิร์ฟเวอร์รายงาน Power BI หรือกับเซิร์ฟเวอร์รายงานของ Power BI ใน Microsoft Azure ถ้าคุณกำลังจะเรียกใช้กับการปรับใช้ของคุณเอง ไปที่ขั้นตอนที่ 5
-4. ทำตามคำแนะนำในรายการบน https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure เพื่อสร้างสภาพแวดล้อมของเซิร์ฟเวอร์รายงานของ Power BI ใน Microsoft Azure
-5. เมื่อคุณเสร็จสิ้นการปรับใช้สภาพแวดล้อม ให้ทำตามคำแนะนำในรายการบน https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution เพื่อเรียกใช้การทดสอบ
+4. ทำตามคำแนะนำที่แสดงอยู่บน https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure เพื่อสร้างสภาพแวดล้อมเซิร์ฟเวอร์รายงาน Power BI ใน Azure
+5. เมื่อคุณปรับใช้สภาพแวดล้อมเสร็จแล้ว ทำตามคำแนะนำที่แสดงอยู่ที่ https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution เพื่อเรียกใช้การทดสอบ
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

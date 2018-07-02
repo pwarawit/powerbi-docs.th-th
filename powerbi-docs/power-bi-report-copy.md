@@ -1,30 +1,23 @@
 ---
-title: คัดลอกรายงาน Power BI
-description: สร้างรายงาน Power BI ใหม่อีกรายงานหนึ่ง
-services: powerbi
-documentationcenter: ''
+title: คัดลอกรายงานในบริการ Power BI
+description: สร้างรายงาน Power BI ใหม่จากอีกรายงานหนึ่งในบริการของ Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/09/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f7b4230a6dc9089008928145863fe70977fb92f4
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34247814"
 ---
-# <a name="create-a-new-report-from-an-existing-report"></a>สร้างรายงานใหม่จากรายงานที่มีอยู่
+# <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>สร้างรายงานใหม่จากรายงานที่มีอยู่ (คัดลอกรายงาน)
 คุณอาจมีรายงานที่เชื่อมต่อกับชุดข้อมูลของคุณแล้ว และมีวิชวลบางส่วนที่คุณต้องการนำมาใช้อีก หรือปรับเปลี่ยน  ทำไมไม่แค่คัดลอกรายงานนั้นมาพื้นฐานของรายงานใหม่?  เพื่อทำเช่นนั้น:
 
 1. [เปิดรายงาน](service-report-open.md)
@@ -47,3 +40,5 @@ ms.lasthandoff: 03/28/2018
 [สร้างการแสดงภาพใหม่](power-bi-report-add-visualizations-ii.md)
 
 [ลบการแสดงภาพ](service-delete.md)ที่คุณไม่ต้องการ
+
+[สร้างรายงานด้วย Power BI Desktop](desktop-report-view.md)

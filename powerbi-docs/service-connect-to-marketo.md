@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ Marketo ด้วย Power BI
 description: Marketo สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815353"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34252473"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>เชื่อมต่อกับ Marketo ด้วย Power BI
 ชุดเนื้อหา Power BI สำหรับ Marketo ช่วยคุณรับข้อมูลเชิงลึกลงในบัญชี Marketo ของคุณได้ด้วยข้อมูลสำหรับลูกค้าเป้าหมายและกิจกรรมของพวกลูกค้าเป้าหมายเหล่านี้ การสร้างการเชื่อมต่อนี้จะดึงข้อมูลของคุณและให้แดชบอร์ดและรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลนั้นโดยอัตโนมัติ
@@ -31,7 +23,7 @@ ms.locfileid: "30815353"
 เชื่อมต่อไปยัง[ชุดเนื้อหา Marketo](https://app.powerbi.com/getdata/services/marketo)สำหรับ Power BI
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
-1. เลือก**รับข้อมูล**ที่ด้านล่างของแผงนำทางด้านซ้ายมือ
+1. เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ
    
    ![](media/service-connect-to-marketo/pbi_getdata.png)
 2. ในกล่อง**บริการ** เลือก**รับ**
@@ -45,7 +37,7 @@ ms.locfileid: "30815353"
    ![](media/service-connect-to-marketo/pbi_marketoconnect.png)
    
    อ่านเพิ่มเติมเกี่ยวกับจุดสิ้นสุด Marketo REST: [http://developers.marketo.com/documentation/rest/endpoint-url/ ](http://developers.marketo.com/documentation/rest/endpoint-url/)
-5. การใช้วิธีการรับรองความถูก**พื้นฐาน** ให้ป้อน Client ID (รหัสไคลเอ็นต์) เป็น**ชื่อผู้ใช้**และ Client Secret (ความลับของไคลเอ็นต์) เป็น**รหัสผ่าน** Client ID และ Client Secret จะพร้อมใช้งานใน Marketo หรือจากผู้ดูแลระบบ Marketo ของคุณ ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)) 
+5. การใช้วิธีการรับรองความถูก**พื้นฐาน** ให้ป้อน Client ID (รหัสไคลเอ็นต์) เป็น**ชื่อผู้ใช้**และ Client Secret (ความลับของไคลเอ็นต์) เป็น**รหัสผ่าน** ID ไคลเอ็นต์ และข้อมูลลับไคลเอ็นต์ มีใน Marketo หรือ จากผู้ดูแลระบบ marketo ของคุณ ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)) 
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    
@@ -56,9 +48,9 @@ ms.locfileid: "30815353"
 
 **ฉันต้องทำอะไรต่อ?**
 
-* ลอง[ถามคำถามในกล่องถามตอบ](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานพื้นฐาน
+* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
 * ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
 
 ## <a name="whats-included"></a>มีอะไรรวมอยู่บ้าง

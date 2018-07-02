@@ -1,37 +1,29 @@
 ---
 title: แหล่งข้อมูลรายงาน Power BI ใน Power BI Report Server
-description: รายงาน Power BI สามารถเชื่อมต่อกับแหล่งข้อมูลต่างที่แตกต่างกันได้ ขึ้นอยู่กับวิธีการใช้ข้อมูล แหล่งข้อมูลที่แตกต่างกันสามารถใช้งานได้
-services: powerbi
-documentationcenter: ''
+description: รายงาน Power BI สามารถเชื่อมต่อกับหลาย ๆ แหล่งข้อมูลได้ ขึ้นอยู่กับวิธีการใช้ข้อมูล แหล่งข้อมูลที่แตกต่างกันสามารถใช้งานได้
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 04/02/2018
+ms.component: powerbi-report-server
+ms.topic: conceptual
+ms.date: 05/17/2018
 ms.author: maghan
-ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "34310463"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>แหล่งข้อมูลรายงาน Power BI ใน Power BI Report Server
-รายงาน Power BI สามารถเชื่อมต่อกับแหล่งข้อมูลต่างที่แตกต่างกันได้ ขึ้นอยู่กับวิธีการใช้ข้อมูล แหล่งข้อมูลที่แตกต่างกันสามารถใช้งานได้ สามารถนำเข้าข้อมูล หรือข้อมูลสามารถถูกคิวรี่ได้โดยตรงโดยใช้ DirectQuery หรือการเชื่อมต่อตรงกับ SQL Server Analysis Services
+รายงาน Power BI สามารถเชื่อมต่อกับหลาย ๆ แหล่งข้อมูลได้ ขึ้นอยู่กับวิธีการใช้ข้อมูล แหล่งข้อมูลที่แตกต่างกันสามารถใช้งานได้ สามารถนำเข้าข้อมูล หรือข้อมูลสามารถถูกคิวรี่ได้โดยตรงโดยใช้ DirectQuery หรือการเชื่อมต่อตรงกับ SQL Server Analysis Services
 
-แหล่งข้อมูลเหล่านี้จะใช้เฉพาะกับรายงาน Power BI ที่ใช้ภายในเซิร์ฟเวอร์รายงาน Power BI สำหรับข้อมูลเกี่ยวกับแหล่งข้อมูลทรองรับรายงานแบบจัดหน้า ให้ดู[ข้อมูลแหล่งข้อมูลที่รองรับ Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)
+แหล่งข้อมูลเหล่านี้จะใช้เฉพาะกับรายงาน Power BI ที่ใช้ภายในเซิร์ฟเวอร์รายงาน Power BI สำหรับข้อมูลเกี่ยวกับแหล่งข้อมูลที่สนับสนุนรายงานที่มีการแบ่งหน้า (.rdl) ดูที่[ข้อมูลแหล่งข้อมูลที่สนับสนุนโดย Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)
 
 > [!IMPORTANT]
-> แหล่งข้อมูลทั้งหมดในรายงาน Power BI Desktop ต้องรองรับการกำหนดค่าการรีเฟรชตามเวลา
-> 
-> 
+> แหล่งข้อมูลทั้งหมดในรายงาน Power BI Desktop ต้องสนับสนุนการกำหนดค่าการรีเฟรชตามกำหนดเวลา
+>  
 
 ## <a name="list-of-supported-data-sources"></a>รายการของแหล่งข้อมูลทีรองรับ
 
@@ -108,7 +100,7 @@ ms.lasthandoff: 04/03/2018
 | SQL Sentry (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Stripe (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | SweetIQ (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Troux (Beta) |ใช่ |ไม่ใช่ |ไม่ |
+| Troux (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Twilio (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | tyGraph (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Vertica (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
@@ -216,7 +208,7 @@ ms.lasthandoff: 04/03/2018
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-ในตอนนี้แหล่งข้อมูลของคุณได้ถูกหยิบออก [สร้างรายงาน](quickstart-create-powerbi-report.md)โดยใช้ข้อมูลจากแหล่งข้อมูลนั้น
+ตอนนี้ คุณได้เชื่อมต่อกับแหล่งข้อมูลของคุณแล้ว [สร้างรายงาน Power BI](quickstart-create-powerbi-report.md) โดยใช้ข้อมูลจากแหล่งข้อมูลนั้น
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

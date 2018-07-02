@@ -1,31 +1,24 @@
 ---
-title: แผนที่แถบสี (Choropleths) ใน Power BI (บทช่วยสอน)
-description: คู่มือ - บทช่วยสอนเกี่ยวกับการสร้างแผนที่แถบส (Choropleths) ใน Power BI
-services: powerbi
-documentationcenter: ''
+title: แผนที่แถบสี (Choropleths) ใน Power BI
+description: เอกสารประกอบเรื่องการสร้างแผนที่แถบสี (Choropleths) ใน Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/19/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0d4e1cd766cf5f1b35b5d0a6ca0946820efe9f3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5933404b9429ca773ed119addd81d86ad1a28597
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293064"
 ---
-# <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>แผนที่แถบสี (Choropleths) ใน Power BI (บทช่วยสอน)
+# <a name="filled-maps-choropleths-in-power-bi"></a>แผนที่แถบสี (Choropleths) ใน Power BI
 แผนที่แถบสีใช้เฉดสีหรือ หรือการปรับสีอ่อนแก่ หรือรูปแบบต่าง ๆ เพื่อแสดงว่าค่าแตกต่างกันมากเพียงใดในสัดส่วนทั่วทั้งภูมิศาสตร์หรือภูมิภาค  เพื่อแสดงความแตกต่างเหล่านี้ที่สัมพันธ์กับเฉดสีที่อยู่ในช่วงจากสีอ่อน (ความถี่น้อยกว่า/ต่ำกว่า) ไปถึงเข้ม (ความถี่มากกว่า/สูงกว่า) ได้อย่างรวดเร็ว    
 
 ![](media/power-bi-visualization-filled-maps-choropleths/large_map.png)

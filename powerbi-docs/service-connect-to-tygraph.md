@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับ tyGraph ด้วย Power BI
 description: tyGraph สำหรับ Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3ff0a65d32a95a6926e2c808af119e31effd7e05
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 11073e7df57d4717e27fa73c6a5e1e315a9a8dcc
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815293"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34241147"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>เชื่อมต่อกับ tyGraph ด้วย Power BI
 แสดงข้อมูลเป็นภาพและสำรวจข้อมูล tyGraph ของคุณใน Power BI ด้วยชุดเนื้อหา Power BI เริ่มต้นด้วยการเชื่อมต่อกับบัญชี tyGraph ของคุณ และโหลดแดชบอร์ด รายงาน และชุดข้อมูล เนื้อหาแบบใช้งานทันทีมีข้อมูลเชิงลึกเช่น Measure of Active Engagement (MAE score) และผู้สนับสนุนสูงสุด (Top Contributors) ปรับแต่งเพื่อไฮไลท์ข้อมูลเพิ่มเติมสำหรับข้อมูลที่คุณใส่ใจมากที่สุด  ระบบจะรีเฟรชข้อมูลโดยอัตโนมัติตามกำหนดการที่คุณตั้งค่าได้
@@ -31,7 +23,7 @@ ms.locfileid: "30815293"
 เชื่อมต่อกับ[tyGraph สำหรับ Power BI](https://app.powerbi.com/getdata/services/tygraph)
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
-1. เลือก**รับข้อมูล**ที่ด้านล่างของแผงนำทางด้านซ้ายมือ
+1. เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ
    
    ![](media/service-connect-to-tygraph/getdata.png)
 2. ในกล่อง**บริการ** เลือก**รับ**
@@ -46,7 +38,7 @@ ms.locfileid: "30815293"
 5. ให้คีย์ tyGraph เพื่อการเชื่อมต่อ ดูรายละเอียดการค้นพบนี้ที่ค่าด้านล่างนี้
    
     **ถ้าคุณเป็นผู้ดูแลระบบที่ผ่านการพิสูจน์ Yammer แล้ว**  
-    ระบบจะส่งคีย์ API ถึงคุณในอีเมลเมื่อบัญชี tyGraph ของคุณถูกสร้างขึ้นเรียบร้อยแล้ว ถ้าคุณไม่สามารถค้นหาคีย์ของคุณได้ คุณสามารถร้องขอคีย์ใหม่ได้โดยการส่งอีเมลไปยังsupport@unlimitedviz.com ถ้าคุณยังไม่มีบัญชี tyGraph คุณสามารถเริ่มการทดลองใช้ได้ที่[http://www.tygraph.com/](http://www.tygraph.com/) 
+    ระบบจะส่งคีย์ API ถึงคุณในอีเมลเมื่อบัญชี tyGraph ของคุณถูกสร้างขึ้นเรียบร้อยแล้ว ถ้าคุณไม่สามารถค้นหาคีย์ของคุณได้ คุณสามารถร้องขอคีย์ใหม่ได้โดยการส่งอีเมลไปยังsupport@unlimitedviz.com ถ้าคุณยังไม่มีบัญชี tyGraph คุณสามารถเริ่มทดลองใช้ได้ที่ [http://www.tygraph.com/](http://www.tygraph.com/) 
    
     **ถ้าคุณไม่ได้เป็นผู้ดูแลระบบที่ผ่านการพิสูจน์ Yammer**
    
@@ -57,11 +49,11 @@ ms.locfileid: "30815293"
    
     ![](media/service-connect-to-tygraph/dashboard.png)
 
-**ฉันต้องทำอะไรต่อ?**
+**ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่องถามตอบ](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานพื้นฐาน
+* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
 * ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
 
 <a name="FindingParams"></a>

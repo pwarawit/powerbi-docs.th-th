@@ -1,31 +1,24 @@
 ---
-title: บทช่วยสอน - แผนภูมิผสม
+title: แผนภูมิผสมใน Power BI
 description: บทช่วยสอนเกี่ยวกับแผนภูมิผสมนี้ อธิบายว่าเมื่อไรที่ควรใช้แผนภูมิผสม และวิธีการสร้างแผนภูมิเหล่านั้นในบริการ Power BI และเดสก์ท็อป
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/21/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b5e89a9a1f2e88ed793dff6457b58fd9ac609ef5
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 6cc9b9cafe2b3efdb8e51e89c203e2cb123e909a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584288"
 ---
-# <a name="combo-chart-in-power--tutorial"></a>แผนภูมิผสมใน Power (บทช่วยสอน)
+# <a name="combo-chart-in-power-bi"></a>แผนภูมิผสมใน Power BI
 ใน Power BI แผนภูมิผสม เป็นการแสดงผลภาพที่รวมเอาแผนภูมิเส้นและแผนภูมิคอลัมน์เข้าด้วยกัน การรวมแผนภูมิทั้ง 2 ให้เป็นหนึ่งเดียว ช่วยให้คุณทำการเปรียบเทียบข้อมูลได้อย่างรวดเร็ว
 
 แผนภูมิผสม สามารถมีแกน Y หนึ่งหรือสองแกนก็ได้
@@ -112,6 +105,7 @@ ms.lasthandoff: 04/05/2018
 
 * [เพิ่มแผนภูมิผสมเป็นไทล์แดชบอร์ด](service-dashboard-tiles.md)
 * [บันทึกรายงาน](service-report-save.md)
+* [ทำให้รายงานสามารถเข้าถึงได้มากขึ้นสำหรับผู้ทุพพลภาพ](desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>การไฮไลต์แบบเชื่อมโยง และการกรองข้าม
 
@@ -125,4 +119,4 @@ ms.lasthandoff: 04/05/2018
 
 [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

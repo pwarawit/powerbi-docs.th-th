@@ -1,29 +1,21 @@
 ---
 title: เชื่อมต่อกับบริการที่คุณใช้กับ Power BI
 description: เชื่อมต่อกับบริการที่คุณใช้จำนวนหนึ่ง เพื่อเรียกใช้ธุรกิจของคุณ เช่น Salesforce, Microsoft Dynamics CRM และ Google Analytics
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c1df66100206198f3de32bea9859261d51d3774d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5b8a438ed354f246c5ac1d5ac0d0488db19633dd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
-ms.locfileid: "30815658"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34239269"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>เชื่อมต่อกับบริการที่คุณใช้กับ Power BI
 คุณสามารถเชื่อมต่อกับบริการที่คุณใช้จำนวนหนึ่ง เพื่อเรียกใช้ธุรกิจของคุณ เช่น Salesforce, Microsoft Dynamics CRM และ Google Analytics Power BI เริ่มต้นโดยใช้ข้อมูลประจำตัวของคุณเพื่อเชื่อมต่อกับบริการ และจากนั้นสร้างแอป Power BI ด้วยแดชบอร์ดและชุดของรายงาน Power BI ที่แสดงข้อมูลของคุณและให้ข้อมูลภาพเชิงลึกเกี่ยวกับธุรกิจของคุณโดยอัตโนมัติ 
@@ -32,7 +24,7 @@ ms.locfileid: "30815658"
 
 ![แอป AppSource](media/service-connect-to-services/overview.png)
 
-หลังจากที่คุณติดตั้งแอป คุณสามารถดูแดชบอร์ดและรายงานใน Power BI service ([https://powerbi.com](https://powerbi.com)) และ ในแอปมือถือ Power BI ได้ 
+หลังจากที่คุณติดตั้งแอป คุณสามารถดูแดชบอร์ดและรายงานในบริการของ Power BI ([https://powerbi.com](https://powerbi.com)) และในแอปมือถือ Power BI ได้ 
 
 ![แอป Google analytics ในแอปมือถือ Power BI](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 

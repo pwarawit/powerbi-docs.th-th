@@ -1,31 +1,24 @@
 ---
-title: ทรีแมปใน Power BI (บทช่วยสอน)
-description: 'บทช่วยสอน: ทรีแมปใน Power BI'
-services: powerbi
-documentationcenter: ''
+title: แผนที่ต้นไม้ใน Power BI
+description: แผนที่ต้นไม้ใน Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a803256e5902ffc19e77c67a450d4895982b4b8b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8b3f49487677f00e1026c9eab813633f470e6b41
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295364"
 ---
-# <a name="treemaps-in-power-bi-tutorial"></a>ทรีแมปใน Power BI (บทช่วยสอน)
+# <a name="treemaps-in-power-bi"></a>แผนที่ต้นไม้ใน Power BI
 ทรีแมปจะแสดงข้อมูลแบบลำดับชั้นเป็นชุดของสี่เหลี่ยมผืนผ้าที่วางเรียงต่อๆ กัน  แต่ละระดับของลำดับชั้นจะแสดงเป็นสี่เหลี่ยมผืนผ้าสีต่างๆ (มักจะเรียกว่า "กิ่ง") ซึ่งประกอบด้วยสี่เหลี่ยมผืนผ้าอื่นๆ ("ใบ")  พื้นที่ภายในสี่เหลี่ยมผืนผ้าแต่ละรูปจะได้รับการกำหนดขนาดตามค่าเชิงปริมาณที่วัดได้ โดยสี่เหลี่ยมผืนผ้าจะจัดเรียงตามขนาดไว้จากด้านบนซ้าย (ขนาดใหญ่ที่สุด) ไปจนถึงด้านล่างขวา (ขนาดเล็กที่สุด)
 
 ![](media/power-bi-visualization-treemaps/pbi-nancy_viz_treemap.png)
@@ -43,7 +36,7 @@ ms.lasthandoff: 02/24/2018
 * เมื่อต้องการกำหนดรูปแบบ ค่าผิดปกติ ปัจจัยสนับสนุนที่สำคัญอย่างยิ่งและและข้อยกเว้น
 
 ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
- - บริการของ Power BI หรือ Power BI Desktop
+ - บริการ Power BI หรือ Power BI Desktop
  - ตัวอย่างการวิเคราะห์การค้าปลีก
 
 ## <a name="create-a-basic-treemap"></a>สร้างทรีแมปแบบพื้นฐาน
@@ -72,7 +65,7 @@ ms.lasthandoff: 02/24/2018
 6. [เพิ่มทรีแมปเป็นไทล์แดชบอร์ด (ปักหมุดภาพ)](service-dashboard-tiles.md) 
 7. [บันทึกรายงาน](service-report-save.md)
 
-## <a name="highlighting-and-cross-filtering"></a>การเน้นและการกรองข้าม
+## <a name="highlighting-and-cross-filtering"></a>การทำไฮไลท์และการกรองข้าม
 สำหรับข้อมูลเกี่ยวกับการใช้บานหน้าต่างตัวกรอง โปรดดู[เพิ่มตัวกรองไปยังรายงาน](power-bi-report-add-filter.md)
 
 การเน้นประเภทหรือรายละเอียดในทรีแมปจะเน้นข้าม และ กรองข้ามการแสดงภาพอื่นๆ บนหน้ารายงาน... และในทางกลับกันการยกเลิกการเน้นก็จะเป็นการยกเลิกการดำเนินการดังกล่าว เมื่อต้องการทำตามขั้นตอนดังกล่าว ให้เพิ่มภาพบางภาพไปในหน้าเดียวกัน หรือคัดลอก/วางทรีแมปในหน้ารายงานที่มีภาพอื่นๆ อยู่แล้ว

@@ -9,11 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 6ecb9426ba1344fdf55789a22daec6b9fb6c6e89
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301791"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
 เรียนรู้วิธีที่คุณสามารถเผยแพร่วิชวลแบบกำหนดเองของคุณไปยัง AppSource ให้บุคคลอื่นค้นหาและใช้งาน office
@@ -25,7 +26,7 @@ ms.lasthandoff: 05/17/2018
 AppSource คืออะไร พูดง่าย ๆ คือ เป็นที่ที่จะค้นหาแอป SaaS และ add-in สำหรับผลิตภัณฑ์และบริการ Microsoft ของคุณ [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) เชื่อมต่อผู้ใช้ Office 365, Dynamics 365, Cortana Intelligence ฯลฯ นับล้านคน ไปยังโซลูชันที่ช่วยให้พวกเขาทำงานสำเร็จ ได้อย่างมีประสิทธิภาพขึ้น เข้าใจได้ลึกซึ้งขึ้น หรือสวยงามขึ้นกว่าที่เคย
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>การเตรียมเพื่อส่งวิชวลแบบกำหนดเองของคุณ
-คุณเขียนโค้ดและทดสอบวิชวลแบบกำหนดเองของคุณเสร็จแล้ว และบรรจุลงในไฟล์ pbiviz คุณจะต้องเครียมสิ่งต่อไปนี้ให้พร้อมสำหรับส่งวิชวลของคุณ
+เมื่อคุณเขียนโค้ดและทดสอบวิชวลแบบกำหนดเองของคุณเสร็จแล้ว และบรรจุลงในไฟล์ pbiviz คุณจะต้องเครียมสิ่งต่อไปนี้ให้พร้อมสำหรับส่งวิชวลของคุณ
 
 | รายการ | จำเป็นต้องมี | คำอธิบาย |
 | --- | --- | --- |

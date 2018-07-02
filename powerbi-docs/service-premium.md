@@ -1,28 +1,21 @@
 ---
 title: Power BI Premium คืออะไร
 description: Power BI Premium คือความสามารถเฉพาะสำหรับองค์กรหรือทีมของคุณ ซึ่งให้ประสิทธิภาพการทำงานเพิ่มขึ้นและปริมาณข้อมูลขนาดใหญ่ขึ้น โดยที่คุณไม่จำเป็นต้องซื้อสิทธิ์การใช้งานต่อผู้ใช้
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 617e56fd688016c8ee17184f726fb018a0128e05
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34755104"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium คืออะไร
 Power BI Premium มอบทรัพยากรแบบจำเพาะเพื่อเรียกใช้บริการ Power BI สำหรับองค์กรหรือทีมของคุณ ซึ่งให้ประสิทธิภาพการทำงานเพิ่มขึ้นและปริมาณข้อมูลขนาดใหญ่ขึ้น Premium นี้ช่วยให้สามารถเผยแพรเนื้อหา โดยที่คุณไม่จำเป็นต้องซื้อสิทธิ์การใช้งานต่อผู้ใช้สำหรับผู้ชม
@@ -66,16 +59,15 @@ Power BI Premium มอบทรัพยากรแบบจำเพาะเ
 <a name="premiumskus"/>
 
 ### <a name="premium-capacity-nodes"></a>โหนดความจุแบบพรีเมียม
-Power BI Premium ความจุ v-core ที่แตกต่างกัน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ SKU offereings โดยเฉพาะและค่าใช้จ่าย ให้ดู[ราคา Power BI ](https://powerbi.microsoft.com/pricing/) [ตัวคำนวนค่าใช้จ่าย](https://powerbi.microsoft.com/calculator/)พร้อมใช้งาน สำหรับข้อมูลเกี่ยวกับการวางแผนความจุวิเคราะห์แบบฝังตัว ให้ดู[อกสารทางเทคนิคเรื่องการวางแผนการใช้ Power BI สำหรับองค์กร](https://aka.ms/pbienterprisedeploy)
+Power BI Premium ความจุ v-core ที่แตกต่างกัน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อเสนอ SKU ที่ระบุและค่าใช้จ่าย ดูที่[การกำหนดราคา Power BI](https://powerbi.microsoft.com/pricing/) [ตัวคำนวนค่าใช้จ่าย](https://powerbi.microsoft.com/calculator/)พร้อมใช้งาน สำหรับข้อมูลเกี่ยวกับการวางแผนความจุวิเคราะห์แบบฝังตัว ให้ดู[อกสารทางเทคนิคเรื่องการวางแผนการใช้ Power BI สำหรับองค์กร](https://aka.ms/pbienterprisedeploy)
 
-* สามารถใช้โหนด P สำหรับการใช้งานแบบฝังตัวหรือแบบบริการ
-* โหนด EM นั้นสำหรับการใช้งานแบบฝังตัวเท่านั้น
-* EM1 และ EM2 
+* โหนด P สามารถใช้สำหรับการปรับใช้แบบฝังตัว หรือบริการ
+* โหนด EM สามารถใช้สำหรับการปรับใช้แบบฝังตัวเท่านั้น โหนด EM ไม่สามารถเข้าถึงความสามารถพรีเมียม เช่น การแชร์แอปให้ผู้ใช้ที่ไม่มีสิทธิ์การใช้งาน Power BI Pro
 
 >[!NOTE]
 >ลิงก์ในตารางนี้เท่านั้นทำงานอย่างเหมาะสมสำหรับผู้ใช้ที่เป็นผู้ดูแลระบบส่วนกลางของ Office 365 ผู้อื่นจะได้รับข้อผิดพลาด 404 
 
-| โหนดของความจุ | วี-คอร์รวม<br/>*(Backend + frontend)* | วี-คอร์ Backend | วี-คอร์ Frontend | จำกัดการเชื่อมต่อ DirectQuery/live | หน้าสูงสุดที่แสดงในชั่วโมงที่เรียกใช้มากที่สุด | ความพร้อมใช้งาน |
+| โหนดของความจุ | วี-คอร์รวม<br/>*(Backend + frontend)* | วี-คอร์ Backend | วี-คอร์ Frontend | การจำกัดการเชื่อมต่อ DirectQuery/live | หน้าสูงสุดที่แสดงในชั่วโมงที่เรียกใช้มากที่สุด | ความพร้อมใช้งาน |
 | --- | --- | --- | --- | --- | --- | --- |
 | [EM1 (แบบรายเดือน)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 v-core |.5 วี-คอร์ 2.5GB RAM |.5 วี-คอร์ |3.75 ต่อวินาที |150-300 |พร้อมใช้งาน |
 | [EM2 (แบบรายเดือน)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 v-cores |1 วี-คอร์ 5GB RAM |1 v-core |7.5 ต่อวินาที |301-600 |พร้อมใช้งาน |

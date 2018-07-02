@@ -1,29 +1,22 @@
 ---
-title: คำแนะนำและเคล็ดลับในการแสดงภาพแผนที่รวมถึงการรวม ด้วย Bing Maps
+title: คำแนะนำและเคล็ดลับสำหรับแผนที่ (รวมถึงการทำงานร่วมกับ Bing Maps)
 description: 'คำแนะนำและเคล็ดลับสำหรับการแสดงภาพ Map ภาพ ตำแหน่งที่ตั้ง ลองจิจูด และละติจูดบน Power BI และวิธีการที่ฟังก์ชั่นเหล่านี้ทำงานกับ Bing Maps '
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ajTPGNpthcg
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/18/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a78481376d679025fe3ac8929dff8756eb61257
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 321ff4ec528ef9b72324758417e0f72d67258ac3
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295226"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>คำแนะนำและเคล็ดลับสำหรับการแสดงภาพแผนที่ Power BI
 Power BI รวมเข้ากับ Bing Maps เพื่อให้ได้ค่าเริ่มต้นพิกัดแมป (กระบวนการที่เรียกว่า การกำหนดรหัสทางภูมิศาสตร์) เพื่อให้คุณสร้างแผนที่ได้ เมื่อทำงานร่วมกัน ส่วนเหล่านี้ใช้อัลกอริทึมในการระบุตำแหน่งที่ถูกต้อง แต่บางครั้งจะเป็นค่าคาดเดาที่ดีที่สุด หากลองทำแล้ว Power BI ไม่สามารถสร้างการแสดงภาพของแผนที่ได้ด้วยตนเอง ระบบจะแสดงรายการความช่วยเหลือของ Bing Maps 
