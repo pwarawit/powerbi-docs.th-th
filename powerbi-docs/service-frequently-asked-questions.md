@@ -7,62 +7,48 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/06/2018
+sktopms.date: 06/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e72e3bcca4254b957580775196d4919e88452773
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253104"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964825"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>คำถามที่ถามบ่อยเกี่ยวกับ Power BI
 * ถ้าคุณมีคำถามอื่น [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 * ยังคงมีปัญหาใช่หรือไม่? โปรดเยี่ยมชม[หน้าการสนับสนุน Power BI](https://powerbi.microsoft.com/support/)
 
 ## <a name="what-is-microsoft-power-bi"></a>Microsoft Power BI คืออะไร
-[Power BI](https://powerbi.microsoft.com/) คือบริการวิเคราะห์ธุรกิจบนระบบคลาวด์ที่ช่วยให้ทุกคนสามารถแสดงและวิเคราะห์ข้อมูลได้อย่างรวดเร็ว มีประสิทธิภาพ และเข้าใจได้ง่าย เชื่อมต่อผู้ใช้ไปยังช่วงที่กว้างขวางของข้อมูลผ่านแดชบอร์ดที่ใช้งานง่าย รายงานแบบโต้ตอบ และแสดงภาพที่ดึงดูดความสนใจ ได้ทำข้อมูลให้มีชีวิต
+Power BI คือบริการวิเคราะห์ธุรกิจบนระบบคลาวด์ที่ช่วยให้ทุกคนสามารถแสดงและวิเคราะห์ข้อมูลได้อย่างรวดเร็ว มีประสิทธิภาพ และเข้าใจได้ง่าย เชื่อมต่อผู้ใช้ไปยังช่วงที่กว้างขวางของข้อมูลผ่านแดชบอร์ดที่ใช้งานง่าย รายงานแบบโต้ตอบ และแสดงภาพที่ดึงดูดความสนใจ ได้ทำข้อมูลให้มีชีวิต อ่านเพิ่มเติมเกี่ยวกับ [Power BI คืออะไร](power-bi-overview.md)
 
-## <a name="whats-the-difference-between-power-bi-and-power-bi-pro"></a>อะไรคือความแตกต่างระหว่าง Power BI Premium กับ Power BI Pro
-Power BI มอบฟีเจอร์ทุกชนิดเพื่อช่วยให้คุณเริ่มต้นสำรวจข้อมูลในรูปแบบใหม่ทั้งหมด Power BI Pro มีฟีเจอร์ที่ดีที่สุดเช่นเดียวกับใน Power BI รวมทั้งฟีเจอร์เพิ่มเติมเช่นความจุเก็บข้อมูลเพิ่มเติม การกำหนดเวลาการรีเฟรชข้อมูลที่มากกว่าหนึ่งครั้งต่อวัน แหล่งข้อมูลโดยตรงด้วยการโต้ตอบแบบเต็มรูปแบบ กลุ่ม และอื่น ๆ เรียนรู้เพิ่มเติมเกี่ยวกับ[ความแตกต่างระหว่าง Power BI Pro กับ Power BI ฟรี](https://powerbi.microsoft.com/pricing)
+## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>อะไรคือความแตกต่างระหว่าง Power BI Pro กับ Power BI Premium
+Power BI Pro เป็นสิทธิ์การใช้งานสำหรับแต่ละบุคคล ที่ให้การเข้าถึงเนื้อหาและความสามารถทั้งหมดในบริการของ Power BI รวมถึงความสามารถในการแชร์เนื้อหาและทำงานร่วมกับผู้ใช้อื่นที่มีสิทธิ์การใช้งานแบบ Pro ได้ เฉพาะผู้ใช้แบบ Pro เท่านั้นที่สามารถเผยแพร่เนื้อหา หรือใช้เนื้อหาจากพื้นที่ทำงานจากแอป, แชร์แดชบอร์ด และสมัครสมาชิกแดชบอร์ดและรายงานได้ 
+
+Premium มอบความสามารถเฉพาะด้านเพื่อให้เกิดประสิทธิภาพที่สม่ำเสมอและรองรับปริมาณข้อมูลที่มากขึ้นใน Power BI สำหรับผู้ใช้แต่ละราย พรีเมี่ยมยังช่วยให้สามารถกระจายเนื้อหาได้อย่างกว้างขวางโดยผู้ใช้ Pro โดยไม่ต้องมีใบอนุญาตต่อผู้ใช้สำหรับผู้รับที่ดูเนื้อหา
 
 ## <a name="how-much-does-power-bi-cost"></a>Power BI ราคาเท่าใด
-ใช้ Power BI Desktop ฟรี ให้ทดลองใช้ฟรี 60 วันสำหรับ Power BI Pro อ่านเกี่ยวกับราคาได้ที่[ราคา Power BI ](https://powerbi.microsoft.com/pricing)
+Power BI Desktop ฟรี ให้ทดลองใช้ฟรี 60 วันสำหรับ Power BI Pro อ่านเกี่ยวกับราคาได้ที่[ราคา Power BI ](https://powerbi.microsoft.com/pricing)
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>ถ้าฉันมีคำถามเกี่ยวกับ Power BI Premium จะทำอย่างไร
 สำหรับคำถามที่เกี่ยวข้องกับ Power BI Premium ให้ดู[Power BI Premium FAQ](service-premium-faq.md)
 
-## <a name="are-users-who-signed-up-after-may-3-2017-eligible-for-the-extended-pro-trial"></a>ผู้ใช้ที่ลงทะเบียนหลังจากวันที่ 3 พฤษภาคม 2017 มีสิทธิ์ใชเวอร์ชั่นทดลองใช้ Extended Pro หรือไม่
-ผู้ใช้ที่ลงทะเบียนกับ Power BI ฟรี ตั้งแต่วันที่ 3 พฤษภาคม 2017 จะไม่มีสิทธิ์สำหรับในเวอร์ชันทดลองใช้ Extended Pro อย่างไรก็ตาม พวกเขาจะมีสิทธิ์ในการทดลองใช้งานรุ่น Pro แบบมาตรฐาน 60 วัน
-
-## <a name="how-do-i-find-out-who-in-my-organization-is-eligible-for-the-extended-pro-trial"></a>ฉันจะค้นคนในองค์กรของฉันที่มีสิทธิ์ในเวอร์ชันทดลองใช้ Extended Pro ได้อย่างไร
-ในขณะที่ไม่มีวิธีโดยตรงเพื่อค้นหาสิ่งนี้ คุณสามารถดูรายงาน Azure Active Directory Integrated Applications สำหรับ Power BI เพื่อดูผู้ใช้ผู้ใช้ที่ใช้งานอยู่ภายในองค์กรของคุณภายใน 30 วันที่ผ่านมา ผู้ใช้งานในรอบระยะเวลามีคุณสมบัติเหมาะสม และผู้ที่อยู่ในสิทธิ์การใช้งานฟรี จะได้รับการแจ้งเตือนแบบป๊อบอัพ สำหรับข้อมูลเพิ่มเติม ให้ดู[ค้นหาผู้ใช้ Power BI ที่มีการลงชื่อเข้าใช้](service-admin-access-usage.md)
-
-> [!NOTE]
-> รายงาน Azure AD ไม่ได้แจงว่าผู้ใช้เป็นเป็นแบบผู้ใช้ฟรีของ Pro ภายใน Power BI รายงานเฉพาะผู้ใช้ที่ลงชื่อเข้าใช้ Power BI และเมื่อเข้าสู่ระบบ ถ้าผู้ใช้มีชื่อแสดงอยู่ในรายงานนี้ นั่นไม่ไดหมายความว่าพวกเขามีสิทธิ์ในเวอร์ชั่นทดลองใช้ Extended Pro
-> 
-> 
+## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>ฉันรู้ได้อย่างไรว่าใครในองค์กรของฉันมีบัญชี Power BI
+คุณสามารถดูรายงานแอพลิเคชันรวม Azure Active Directory สำหรับ Power BI เพื่อดูผู้ใช้ที่ใช้งานอยู่ภายในองค์กรของคุณ รายงาน Azure AD ไม่ได้ระบุประเภทของใบอนุญาตที่ผู้ใช้แต่ละรายมี รายงานเฉพาะผู้ใช้ที่ลงชื่อเข้าใช้ Power BI และเมื่อเข้าสู่ระบบ สำหรับข้อมูลเพิ่มเติม ให้ดู[ค้นหาผู้ใช้ Power BI ที่มีการลงชื่อเข้าใช้](service-admin-access-usage.md)
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop คืออะไร
-[Power BI Desktop](https://powerbi.microsoft.com/designer) เป็นแอปพลิเคชันแบบฟรีบนเดสก์ท็อปที่คุณสามารถติดตั้งบนคอมพิวเตอร์ของคุณเอง Power BI Desktop ไดทำงานร่วมกับ Power BI service โดยการให้ข้อมูลขั้นสูงด้านการสำรวจ รูปร่าง การสร้างโมเดล และสร้างรายงาน พร้อมกับการแสดงภาพแบบโต้ตอบแบบสูง คุณสามารถบันทึกงานของคุณเป็นไฟล์ และเผยแพร่ข้อมูลและรายงานที่ถูกต้องการไปยังไซต์ Power BI ของคุณเพื่อแชร์กับผู้อื่น
+Power BI Desktop เป็นแอปพลิเคชันฟรีที่คุณสามารถติดตั้งบนคอมพิวเตอร์ของคุณเอง Power BI Desktop ไดทำงานร่วมกับ Power BI service โดยการให้ข้อมูลขั้นสูงด้านการสำรวจ รูปร่าง การสร้างโมเดล และสร้างรายงาน พร้อมกับการแสดงภาพแบบโต้ตอบแบบสูง คุณสามารถบันทึกงานของคุณเป็นไฟล์ และเผยแพร่ข้อมูลและรายงานที่ถูกต้องการไปยังไซต์ Power BI ของคุณเพื่อแชร์กับผู้อื่น อ่านเพิ่มเติมเกี่ยวกับ [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
 
 ## <a name="what-do-i-need-to-use-power-bi"></a>ฉันต้องการใช้ Power BI จะต้องมีอะไรบ้าง
-เพียงแค่เว็บเบราว์เซอร์กับที่อยู่อีเมล
-
->[!NOTE]
->ขณะนี้ที่อยู่อีเมลที่ลงท้ายด้วย .gov และ .mil ยังไม่ได้รับการรองรับ
+เพียงแค่เว็บเบราว์เซอร์กับที่อยู่อีเมล คุณสามารถลงทะเบียนด้วยอยู่ที่อีเมล .gov และ .mil ดูที่ [สมัครองค์กรรัฐบาลสหรัฐฯ ของคุณในบริการ Power BI](service-govus-signup.md) สำหรับข้อมูลเพิ่มเติม 
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>ทำไมฉันต้องลงทะเบียนด้วยอีเมลที่ทำงานของฉันด้วย
 Power BI ไม่รองรับอีเมลของการบริการอีเมล์ของลูกค้าหรือจากผู้ให้บริการโทรคมนาคม เรียนรู้เพิ่มเติมเกี่ยวกับ[Power BI กระบวนการลงทะเบียนแบบบริการตนเอง](service-self-service-signup-for-power-bi.md)
 
-## <a name="which-work-email-addresses-are-supported"></a>ที่อยู่อีเมลของที่ทำงานไหนรองรับ
-อีเมลที่ทำงานที่ลงท้ายด้วย **.edu**และ **.org**ได้รับการรองรับ
-
-ที่ลงท้ายด้วย **.gov** และ **.mil** ยังไม่ได้รับการรองรับตอนนี้
-
 ## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>Power BI มีราคาสำหรับภาครัฐ สถาบันการศึกษา และองค์กรไม่แสวงหาหรือไม่
-ใช่ ราคาแบบไม่แสวงหากำไรมีเมื่อสั่งซื้อโดยตรงจาก Microsoft คุณสามารถเรียนรู้เพิ่มเติม และลงทะเบียนผ่านไซต์[บริจาคผลิตภัณฑ์ Microsoft](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) ราคาภาครัฐและสถาบันการศึกษาถูกนำเสนอผ่าน MOSP/Direct, EA, และสิทธิ์การใช้งานโปรแกรมแบบี่เปิด ราคาสำหรับภาครัฐจะยังรวมการเผยแพร่ด้วย Power BI ยังไม่พร้อมใช้งานกับชุมชน Cloud สำหรับส่วนราชการสหรัฐฯ (GCC)
+ใช่ ราคาแบบไม่แสวงหากำไรมีเมื่อสั่งซื้อโดยตรงจาก Microsoft คุณสามารถเรียนรู้เพิ่มเติม และลงทะเบียนผ่านไซต์[บริจาคผลิตภัณฑ์ Microsoft](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) ราคาภาครัฐและสถาบันการศึกษาถูกนำเสนอผ่าน MOSP/Direct, EA, และสิทธิ์การใช้งานโปรแกรมแบบี่เปิด ราคาสำหรับภาครัฐจะยังรวมการเผยแพร่ด้วย 
 
 ## <a name="is-power-bi-available-on-premises"></a>คือ Power BI พร้อมใช้งานภายในองค์กรได้อย่างไร
 Power BI service [ https://powerbi.com ](https://powerbi.com)ไมสามารถใช้งานแบบบริการระบบคลาวด์ส่วนตัวหรือภายในได้ อย่างไรก็ตาม คุณมีตัวเลือกอื่นๆ สามตัว เพื่อดูและทำงานกับข้อมูลภายในองค์กร 

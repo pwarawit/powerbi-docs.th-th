@@ -1,31 +1,24 @@
 ---
-title: แผนภูมิกระจายแผนภูมิใน Power BI (บทช่วยสอน)
-description: 'บทช่วยสอน: แผนภูมิกระจายใน Power BI'
-services: powerbi
-documentationcenter: ''
+title: แผนภูมิกระจายใน Power BI
+description: แผนภูมิกระจายใน Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: PVcfPoVE3Ys
-qualityfocus: identified
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 02/28/2018
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5467456321b171116cf984ec276c3694b4030b
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: eaef6c8273fc8f4b0d4d43dc1df82fdf97c2edf8
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964779"
 ---
-# <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>แผนภูมิกระจายแผนภูมิและแผนภูมิฟองอากาศใน Power BI (บทช่วยสอน)
+# <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>แผนภูมิกระจายและแผนภูมิฟองใน Power BI
 แผนภูมิกระจายจะมีแกนค่าสองแกนเสมอเพื่อแสดงข้อมูลตัวเลขหนึ่งชุดตามแกนแนวนอนและอีกชุดของค่าตัวเลขตามแกนแนวตั้ง แผนภูมิแสดงจุดที่จุดตัดของค่าตัวเลข x และ y เพื่อรวมค่าเหล่านี้ลงในจุดข้อมูลเดียว จุดข้อมูลเหล่านี้อาจถูกกระจายสม่ำเสมอกันหรืออาจไม่สม่ำเสมอกันตามแกนแนวนอน โดยขึ้นอยู่กับข้อมูลดังกล่าว
 
 แผนภูมิฟองอากาศแทนที่จุดข้อมูลด้วยฟองอากาศ โดยที่ีมี*ขนาด*ฟองเป็นตัวแทนขนาดที่เพิ่มขึ้นของข้อมูล
@@ -88,7 +81,7 @@ ms.lasthandoff: 03/02/2018
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. ในการตั้งค่าจำนวนของจุดข้อมูลที่จะแสดงในแผนภูมิฟองอากาศ ในหัวข้อ**รูปแบบ**ของพื้นที่การ**แสดงภาพ** ขยายการ์ด**ทั่วไป**และปรับ**ปริมาณข้อมูล** คุณสามารถตั้งค่าปริมาณข้อมูลสูงสุดเป็นตัวเลขใด ๆ ก็ได้จนถึง 10,000 (ค่ามาตรฐานคือ 3500)
+3. ในการตั้งค่าจำนวนของจุดข้อมูลที่จะแสดงในแผนภูมิฟองอากาศ ในหัวข้อ**รูปแบบ**ของพื้นที่การ**แสดงภาพ** ขยายการ์ด**ทั่วไป**และปรับ**ปริมาณข้อมูล** คุณสามารถตั้งค่าปริมาณข้อมูลสูงสุดเป็นตัวเลขใด ๆ จนถึง 10,000 เมื่อคุณใช้ตัวเลขที่สูงขึ้น เราแนะนำให้ทดสอบก่อนเพื่อให้แน่ใจว่ายังมีประสิทธิภาพที่ดี 
 
     ![ปริมาณข้อมูล](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
@@ -123,9 +116,9 @@ ms.lasthandoff: 03/02/2018
 การสร้างเขตข้อมูลใหม่[ใช้ตัวแก้ไขแบบสอบถามของ Power BI Desktop เพืื่อเพิ่มคอลัมน์ดัชนี](desktop-add-custom-column.md)ไปยังชุดข้อมูลของคุณ  จากนั้นเพิ่มคอลัมน์นี้ไปยังพื้นที่**รายละเอียด**ของการแสดงภาพของคุณ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
- [ประเภทการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[ลองใช้ ใช้ได้ฟรี!](https://powerbi.com/)  
+[ลงทะเบียนเพื่อขอรับรุ่นทดลองใช้ฟรี](https://powerbi.microsoft.com/get-started/)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 
