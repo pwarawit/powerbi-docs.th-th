@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34584081"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599605"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>ปักหมุดไทล์ไปที่แดชบอร์ด Power BI จาก Excel
 ก่อนที่คุณสามารถปักหมุดไทล์จากสมุดงาน Excel ของคุณ คุณจะเชื่อมต่อเวิร์กบุ๊กนั้นกับเซอร์วิซ Power BI (app.powerbi.com) การเชื่อมต่อเวิร์กบุ๊กโดยหลักๆ คือการนำลิงก์เวอร์ชันอ่านอย่างเดียวของเวิร์กบุ๊กนั้นลงในยังเซอร์วิซ Power BI และให้คุณสามารถปักหมุดช่วงในแดชบอร์ดได้ คุณสามารถแม้กระทั้งปักหมุดทั้งแผ่นงานกับยังแดชบอร์ด  
@@ -60,7 +60,7 @@ Watch Will แสดงให้เห็นวิธีการนำเข้
    * แดชบอร์ดที่มีอยู่ ให้เลือกชื่อของแดชบอร์ดจากรายการแบบดร๊อปดาวน์
    * แดชบอร์ดใหม่ พิมพ์ชื่อของแดชบอร์ดใหม่
    
-    ![ปักหมุดกล่องข้อความแดชบอร์ด](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+     ![ปักหมุดกล่องข้อความแดชบอร์ด](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. เลือก**หมุด** ข้อความว่าสำเร็จแล้ว (ใกล้กับมุมบนขวา) ช่วยให้คุณทราบว่า การช่วงถูกเพิ่ม เป็นไทล์ ลงในแดชบอร์ดของคุณ 
    
     ![ได้ปักหมุดกล่องโต้ตอบแดชบอร์ด](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)

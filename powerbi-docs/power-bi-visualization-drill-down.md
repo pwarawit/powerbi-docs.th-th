@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f0ac0ca1bd03f06e2b7679ab4afc1b9193286f5b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dbe98d69ce800ef57e6def59003dce56b7be56cd
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584219"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600931"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>โหมดการดูรายละเอียดแนวลึกในการแสดงภาพใน Power BI
 
@@ -179,11 +179,11 @@ Power BI ให้คุณสามารถขยายทีละหนึ�
 
 แม้ว่าเขตข้อมูลของแกนจะเป็น**เดือน** ประเภท**ปี**ก็ยังถูกสร้างใน**แกน**ด้วย เนื่องจาก Power BI สร้างโครงสร้างวันที่และเวลาแบบเต็มสำหรับทุกค่าที่อ่าน ด้านบนสุดของลำดับชั้น แสดงข้อมูลสำหรับปี
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-1.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-1.png)
 
 ด้วยโหมดดูรายละเอียด คลิกที่แท่งในแผนภูมิจะลงไปตามลำดับชั้นหนึ่งระดับ คุณจะเห็นแท่งสามแท่ง สำหรับข้อมูลของไตรมาส จากนั้น ที่กลุ่มไอคอนมุมบนซ้าย เลือก**ขยายทั้งหมดลงหนึ่งระดับในลำดับชั้น** แล้วทำเหมือนเดิมอีกครั้ง เพื่อลงไปถึงระดับต่ำสุดของลำดับชั้น ซึ่งแสดงผลลัพธ์สำหรับแต่ละเดือน
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-2.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-datetime-2.png)
 
 นอกเหนือจากการแสดงภาพ เราสามารถเห็นลำดับชั้นในข้อมูลที่แสดงสำหรับแต่ละรายงานได้ ตารางต่อไปนี้แสดงผลลัพธ์ของ**ดูข้อมูล** ในรายงานที่ดูรายละเอียดเดือนเดียวหรือทุกเดือน 
 
@@ -192,8 +192,8 @@ Power BI ให้คุณสามารถขยายทีละหนึ�
 
 |โหมดขยาย|ปี|ไตรมาส|เดือน|วัน|
 | ---|:---:|:---:|:---:|---|
-|เดียว|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
-|ทั้งหมด|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
+|เดียว|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-day.png)|
+|ทั้งหมด|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-year.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-quarter.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-month.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>ข้อมูลลำดับชั้น ประเภท
@@ -201,20 +201,20 @@ Power BI ให้คุณสามารถขยายทีละหนึ�
 
 สำหรับตัวอย่างนี้ ลองทำตามด้วย[ตัวอย่างการวิเคราะห์การค้าปลีก](sample-datasets.md) สร้างภาพแผนภูมิคอลัมน์แบบเรียงซ้อน ที่ดู**หน่วยรวมปีนี้** (ค่า) ตาม**ดินแดน**, **เมือง**, **รหัสไปรษณีย์** และ**ชื่อ** (กลุ่ม)  
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-1.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-1.png)
 
 เมื่อเปิดโหมดดูรายละเอียด จากกลุ่มไอคอนที่ด้านซ้ายบน เลือก**ขยายทั้งหมดลงหนึ่งระดับในลำดับชั้น**สามครั้ง
 คุณควรอยู่ในระดับต่ำสุดของลำดับชั้น ซึ่งแสดงผลลัพธ์สำหรับ ดินแดน เมือง และ รหัสไปรษณีย์
 
-![](media\power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-2.png)
+![](media/power-bi-visualization-drill-down/power-bi-hierarchical-axis-category-2.png)
 
 นอกเหนือจากการแสดงภาพ เราสามารถเห็นลำดับชั้นในข้อมูลที่แสดงสำหรับแต่ละรายงานได้ ตารางต่อไปนี้แสดงผลลัพธ์ของ**แสดงข้อมูล** ในรายงานที่ดูรายละเอียดสำหรับดินแดนเดียว หรือทุกดินแดน เมื่อคุณเจาะลึกลงในรายละเอียด คุณจะเห็นว่ารายงานมีความเฉพาะเจาะจงมากขึ้น และรายงาน "ดินแดนทั้งหมด" มีข้อมูลมากกว่า
 
 
 | โหมดขยาย|ดินแดน|เมือง|รหัสไปรษณีย์|ชื่อ|
 | ---|:---:|:---:|:---:|---|
-|เดียว|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|ทั้งหมด|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media\power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|เดียว|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
+|ทั้งหมด|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
