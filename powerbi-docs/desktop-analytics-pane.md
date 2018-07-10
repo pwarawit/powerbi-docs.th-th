@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 817e01f83904a8481fa1d0915f671c6761247795
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 957408729812ab348cc171360416ee01b432d2e0
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287681"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136605"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>การใช้บานหน้าต่างการวิเคราะห์ใน Power BI Desktop
 ด้วยบานหน้าต่าง**การวิเคราะห์**ใน **Power BI Desktop** คุณสามารถเพิ่ม*สายการอ้างอิง*แบบไดนามิกกับวิชวล และเน้นให้เห็นแนวโน้มที่สำคัญหรือข้อมูลเชิงลึกได้ บานหน้าต่าง**การวิเคราะห์** จะอยู่ในบริเวณ**การจัดรูปแบบการแสดงข้อมูล**ของ Power BI Desktop
@@ -114,8 +114,8 @@ ms.locfileid: "34287681"
 
 * [มีอะไรใหม่ใน Power BI Desktop](desktop-latest-update.md)
 * [ดาวน์โหลด Power BI Desktop](desktop-get-the-desktop.md)
-* [เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
-* [ภาพรวมคิวรี ด้วย Power BI Desktop](desktop-query-overview.md)
+* [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
+* [ภาพรวมคิวรี่กับ Power BI Desktop](desktop-query-overview.md)
 * [ชนิดข้อมูลใน Power BI Desktop](desktop-data-types.md)
 * [จัดรูปทรง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [งานคิวรี่ที่ใช้บ่อยใน Power BI Desktop](desktop-common-query-tasks.md)    
