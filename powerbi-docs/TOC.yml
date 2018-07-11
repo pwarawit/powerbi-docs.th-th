@@ -12,6 +12,8 @@
       items:
         - name: เชื่อมต่อกับตัวอย่าง GitHub
           href: service-tutorial-connect-to-github.md
+        - name: เริ่มใช้งานด้วย Power BI
+          href: service-get-started.md
     - name: แนวคิด
       items:
         - name: มีอะไรใหม่ในบริการ Power BI
@@ -382,6 +384,8 @@
                   href: service-excel-workbook-files.md
                 - name: รับข้อมูลจากไฟล์ Power BI Desktop
                   href: service-desktop-files.md
+                - name: การตั้งค่าพารามิเตอร์สำหรับชุดข้อมูล
+                  href: service-parameters.md
                 - name: รับข้อมูลจากไฟล์ค่า (.csv) ที่ใช้จุลภาคเป็นตัวคั่น
                   href: service-comma-separated-value-files.md
                 - name: การสตรีมในเวลาจริงใน Power BI (ตัวอย่าง)
@@ -550,7 +554,7 @@
           href: power-bi-custom-visuals.md
         - name: การแสดงผลด้วยภาพแบบกำหนดเองสำหรับองค์กรใน Power BI
           href: power-bi-custom-visuals-organization.md
-        - name: ส่วนที่ I เพิ่มภาพไปยังรายงาน Power BI
+        - name: ส่วนที่ 1 เพิ่มการแสดงภาพไปยังรายงาน Power BI
           href: power-bi-report-add-visualizations-i.md
         - name: ส่วนที่ 2 เพิ่มภาพไปยังรายงาน Power BI
           href: power-bi-report-add-visualizations-ii.md
@@ -742,8 +746,7 @@
               href: power-bi-map-tips-and-tricks.md
             - name: กล่องข้อความในรายงาน Power BI
               href: power-bi-reports-add-text-and-shapes.md
-            - name: |
-                คุณสมบัติแกน x และแกน y ที่กำหนดด้วยตนเอง
+            - name: กำหนดคุณสมบัติแกน X และแกน Y ด้วยตนเอง
               href: power-bi-visualization-customize-x-axis-and-y-axis.md
             - name: แผนภูมิโดนัทใน Power BI
               href: power-bi-visualization-doughnut-charts.md
@@ -861,16 +864,12 @@
           items:
             - name: เริ่มต้นใช้งานแอป iOS
               href: mobile-iphone-app-get-started.md
-            - name: เริ่มใช้งานแอป iPad
-              href: mobile-ipad-app-get-started.md
             - name: Q&A นักวิเคราะห์เสมือนจริงในแอปสำหรับอุปกรณ์เคลื่อนของ iOS
               href: mobile-apps-ios-qna.md
             - name: แอป Power BI Apple Watch
               href: mobile-apple-watch.md
             - name: สแกนบาร์โค้ดจากแอปบน iPhone ของคุณ
               href: mobile-apps-scan-barcode-iphone.md
-            - name: Power BI สำหรับแอป iOS
-              href: mobile-ios-ipad-iphone-apps.md
         - name: (iOS และ Android)
           items:
             - name: ใส่คำอธิบายประกอบ และแชร์ในแอปสำหรับอุปกรณ์เคลื่อนที่
@@ -941,8 +940,6 @@
               href: developer/integrate-tile.md
             - name: รวมรายงาน Power BI ลงในแอป (ผู้ใช้เป็นเจ้าของข้อมูล)
               href: developer/integrate-report.md
-            - name: รวมเนื้อหาลงในแอปพลิเคชัน(แอปเป็นเจ้าของข้อมูล)
-              href: developer/embed-sample-for-customers.md
             - name: รวมเนื้อหาลงในแอปพลิเคชันสำหรับ sovereign clouds (แอปเป็นเจ้าของข้อมูล)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: ฝังเค้าโครงแบบกำหนดเองลงในแอป
@@ -1019,7 +1016,7 @@
   items:
     - name: ภาพรวม
       items:
-        - name: เซิร์ฟเวอร์ Power BI คืออะไร?
+        - name: เซิร์ฟเวอร์รายงาน Power BI คืออะไร?
           href: report-server/get-started.md
         - name: เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และเซอร์วิซ
           href: report-server/compare-report-server-service.md
@@ -1121,7 +1118,7 @@
   items:
     - name: ภาพรวม
       items:
-        - name: เกตเวย์ Power BI คืออะไร
+        - name: เกตเวย์ Power BI คืออะไร?
           href: service-gateway-getting-started.md
     - name: บทช่วยสอน
       items:
@@ -1169,7 +1166,7 @@
   items:
     - name: ภาพรวม
       items:
-        - name: ดูแล Power BI คืออะไร
+        - name: การดูแล Power BI คืออะไร?
           href: service-admin-administering-power-bi-in-your-organization.md
     - name: การเริ่มต้นใช้งานด่วน
       items:
@@ -1235,6 +1232,13 @@
           href: service-admin-syndication-partner.md
         - name: กำหนดค่าแอปสำหรับอุปกรณ์เคลื่อนที่ด้วย Intune
           href: service-admin-mobile-intune.md
+    - name: การอ้างอิง
+      items:
+        - name: 'PowerShell, REST Api และ .NET SDK'
+          href: service-admin-reference.md
+        - name: cmdlet Power BI สำหรับ PowerShell
+          href: 'https://docs.microsoft.com/en-us/powershell/power-bi/'
+          maintainContext: true
     - name: ทรัพยากร
       items:
         - name: แนวทางการกำกับดูแลและการปรับใช้ Power BI
