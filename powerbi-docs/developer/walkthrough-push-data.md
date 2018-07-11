@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813123"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598560"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>ส่งข้อมูลลงในชุดข้อมูล Power BI
 โดยใช้ Power BI API คุณสามารถส่งข้อมูลลงในชุดข้อมูล Power BI ตัวอย่างเช่น คุณต้องการขยายลำดับงานทางธุรกิจที่มีอยู่ในการส่งข้อมูลที่สำคัญลงในชุดข้อมูลของคุณ ในกรณีนี้ คุณต้องการส่งชุดข้อมูลการตลาดและการขายซึ่งมีตารางผลิตภัณฑ์อยู่ลงในชุดข้อมูล
@@ -98,6 +98,7 @@ ms.locfileid: "34813123"
 คุณสามารถใช้ชนิดข้อมูลต่อไปนี้สำหรับสคีของตาราง Power BI
 
 ## <a name="power-bi-table-data-types"></a>ชนิดข้อมูลตาราง Power BI
+
 | **ชนิดข้อมูล** | **ข้อจำกัด** |
 | --- | --- |
 | Int64 |Int64.MaxValue และ Int64.MinValue ไม่ได้รับอนุญาต |

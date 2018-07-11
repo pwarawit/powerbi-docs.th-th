@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b7e08f586c0c1f0bf7409735683bc9c1cd6aa969
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ade1e9377ddcb014cc71909c7256533a0e74d606
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286876"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136470"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับข้อมูลจากแหล่งต่าง ๆ มากมายด้วย Power BI Desktop รายการทั้งหมดของแหล่งข้อมูลที่พร้อมใช้งานอยู่ที่ด้านล่างของหน้านี้
@@ -201,10 +201,10 @@ ms.locfileid: "34286876"
 นั่นคือทั้งหมดของการเชื่อมต่อกับแหล่งข้อมูลใน Power BI Desktop ลองเชื่อมต่อกับข้อมูลจากรายการของแหล่งข้อมูลที่เรากำลังพัฒนา และกลับมาตรวจสอบบ่อยๆ - เราจะดำเนินการเพื่อเพิ่มลงในรายการนี้อยู่ตลอดเวลา
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-มีมากมายหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI Desktop กรุณาดูที่ทรัพยากรต่อไปนี้เพื่อศึกษาข้อมูลเพิ่มเติมเกี่ยวกับความความสามารถของ
+มีมากมายหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับขีดความสามารถ กรุณาดูแหล่งทรัพยากรต่อไปนี้:
 
-* [เริ่มต้นใช้งานด้วย Power BI Desktop](desktop-getting-started.md)
-* [ภาพรวมคิวรี ด้วย Power BI Desktop](desktop-query-overview.md)
+* [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
+* [ภาพรวมคิวรี่กับ Power BI Desktop](desktop-query-overview.md)
 * [ชนิดข้อมูลใน Power BI Desktop](desktop-data-types.md)
 * [จัดรูปทรง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [งานคิวรี่ที่ใช้บ่อยใน Power BI Desktop](desktop-common-query-tasks.md)    

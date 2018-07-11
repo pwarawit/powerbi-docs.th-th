@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 50a5d3d97e90879dcb542c441f129f468a95c6c7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4b1077b62baeee2412620e6ee2aa6aabc6838863
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285565"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136398"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>เชื่อมต่อกับข้อมูลใน Power BI Desktop
 ด้วย Power BI Desktop คุณสามารถเชื่อมต่อไปทั่วโลกแห่งข้อมูลที่กำลังขยายตัวได้อย่างง่ายดาย ถ้าคุณไม่มี Power BI Desktop คุณสามารถ[ดาวน์โหลด](http://go.microsoft.com/fwlink/?LinkID=521662)และติดตั้งได้
@@ -65,10 +65,10 @@ ms.locfileid: "34285565"
 แน่นอนว่า นี่คือโมเดลอย่างง่ายด้วยการเชื่อมต่อข้อมูลเดียว รายงาน Power BI Desktop ส่วนใหญ่จะมีการเชื่อมต่อกับแหล่งข้อมูลอื่นที่แตกต่างกันไป สร้างรูปเพื่อให้ตรงกับความต้องการของของคุณด้วยความสัมพันธ์ที่สร้างโมเดลข้อมูลที่สมบูรณ์ 
 
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
-มีมากมายหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI Desktop กรุณาดูที่ทรัพยากรต่อไปนี้เพื่อศึกษาข้อมูลเพิ่มเติมเกี่ยวกับความความสามารถของ
+มีมากมายหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับขีดความสามารถ กรุณาดูแหล่งทรัพยากรต่อไปนี้:
 
-* [เริ่มต้นใช้งานด้วย Power BI Desktop](desktop-getting-started.md)
-* [ภาพรวมคิวรี ด้วย Power BI Desktop](desktop-query-overview.md)
+* [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
+* [ภาพรวมคิวรี่กับ Power BI Desktop](desktop-query-overview.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
 * [ปรับข้อมูลให้เป็นรูปร่าง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [งานแบบสอบถามทั่วไปใน Power BI Desktop](desktop-common-query-tasks.md)   

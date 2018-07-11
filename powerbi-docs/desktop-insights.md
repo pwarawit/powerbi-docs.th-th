@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286094"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134696"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>ใช้ข้อมูลเชิงลึกใน Power BI Desktop (ตัวอย่าง)
 คุณสามารถบอก **Power BI Desktop** ให้อธิบายการเพิ่มขึ้นหรือลดลงในแผนภูมิ และได้รับการวิเคราะห์ที่ รวดเร็ว อัตโนมัติ และลึกซึ้งเกี่ยวกับข้อมูลของคุณ เพียงแค่คลิกขวาบนจุดข้อมูล แล้วเลือก**วิเคราะห์ > อธิบายการลดลง**(หรือ เพิ่มขึ้น ถ้าแท่งก่อนหน้ามีค่าน้อยกว่า) ข้อมูลเชิงลึกจะถูกส่งถึงคุณในหน้าต่างที่ใช้งานได้ง่าย ๆ
@@ -72,8 +72,8 @@ ms.locfileid: "34286094"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ **Power BI Desktop** และวิธีการเริ่มต้นใช้งาน ตรวจสอบบทความต่อไปนี้
 
-* [เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
-* [ภาพรวมคิวรี ด้วย Power BI Desktop](desktop-query-overview.md)
+* [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
+* [ภาพรวมคิวรี่กับ Power BI Desktop](desktop-query-overview.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
 * [เชื่อมต่อกับข้อมูลใน Power BI Desktop](desktop-connect-to-data.md)
 * [จัดรูปร่างและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)

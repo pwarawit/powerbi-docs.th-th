@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 51889b066095f7f69782bc72556d816007e1574a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3a1a458ab263eb1e03c565e7a47679994afda82e
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291108"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136145"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>ใส่ข้อมูลโดยตรงลงใน Power BI Desktop
 ด้วย Power BI Desktop คุณก็สามารถใส่ข้อมูลได้โดยตรง และใช้ข้อมูลนั้นในรายงานและการแสดงภาพของคุณ ตัวอย่างเช่น คุณสามารถคัดลอกเวิร์กบุ๊กหรือเว็บเพจบางส่วน จากนั้นวางลงใน Power BI Desktop
@@ -41,7 +41,7 @@ Power BI Desktop อาจพยายามทำการเปลี่ยน
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
 มีข้อมูลหลากหลายประเภทที่คุณสามารถเชื่อมต่อโดยใช้ Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแหล่งข้อมูล โปรดดูทรัพยากรต่อไปนี้:
 
-* [เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
+* [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
 * [จัดรูปทรงและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [เชื่อมต่อกับเวิร์กบุ๊ก Excel ใน Power BI Desktop](desktop-connect-excel.md)   

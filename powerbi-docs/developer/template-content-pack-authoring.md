@@ -1,19 +1,20 @@
 ---
 title: เขียนชุดเนื้อหาทมเพลตใน Power BI
 description: การเขียนชุดเนื้อหาของเทมเพลต
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
-ms.author: maghan
-ms.openlocfilehash: f3f3343122857cbf06c0004d2a3e5e5247f07e48
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.author: maggies
+ms.openlocfilehash: 02c4725617960474cff7a9a1452861d1ab5d5b8d
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290886"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>เขียนชุดเนื้อหาทมเพลตใน Power BI
 การเขียนชุดเนื้อหาเทมเพลตใช้ Power BI Desktop และ PowerBI.com มี 4 องค์ประกอบสำหรับชุดเนื้อหาของคุณ:
@@ -127,7 +128,7 @@ ms.lasthandoff: 05/17/2018
 
 | สนับสนุน | *ไม่สนับสนุน* |
 | --- | --- |
-| ชุดข้อมูลที่สร้างใน PBI Desktop |*ชุดข้อมูลจากชุดเนื้อหาหรือข้อมูลอื่น ๆ ที่ป้อนเข้า เช่น ไฟล์ Excel * |
+| ชุดข้อมูลที่สร้างใน PBI Desktop |*ชุดข้อมูลจากชุดเนื้อหาหรือข้อมูลอื่น ๆ ที่ป้อนเข้า เช่น ไฟล์ Excel*  |
 | แหล่งข้อมูลที่สนับสนุนสำหรับระบบคลาวด์ที่ทำกำหนดการรีเฟรชข้อมูลแล้ว |*ไม่สนับสนุนสำหรับแบบสอบถามโดยตรงหรือการเชื่อมต่อภายในองค์กร* |
 | แบบสอบถามส่งกลับเค้าร่างหรือข้อผิดพลาดที่สอดคล้อง เมื่อเหมาะสม |*เค้าร่างแบบไดนามิกหรือแบบกำหนดเอง* |
 | แหล่งข้อมูลหนึ่งสำหรับแต่ละชุดข้อมูล |*แหล่งข้อมูลหลายแหล่งเช่น Mashups หรือ URL ที่ตรวจพบว่าเป็นแหล่งข้อมูลหลายแหล่ง* |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 52ef1f6526b83a54ba26fdffaf8150049c55880d
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 319c636c660aff3ab651475e2d7b553fef49b8cd
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813330"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137341"
 ---
 # <a name="get-power-bi-desktop"></a>รับ Power BI Desktop
 **Power BI Desktop** ช่วยให้คุณสร้างคิวรีขั้นสูง รูปแบบข้อมูล และรายงานที่แสดงข้อมูลเป็นภาพ ด้วย **Power BI Desktop** คุณสามารถสร้างรูปแบบข้อมูล สร้างรายงาน และแชร์งานของคุณ โดยการเผยแพร่ไปยังบริการของ Power BI ได้  **Power BI Desktop** มีให้ดาวน์โหลดฟรี
@@ -110,8 +110,8 @@ ms.locfileid: "34813330"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 เมื่อคุณได้ติดตั้ง **Power BI Desktop** แล้ว เนื้อหาต่อไปนี้สามารถช่วยให้คุณเริ่มต้น และใช้งานอย่างรวดเร็ว:
 
-* [เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
-* [ภาพรวมคิวรี ด้วย Power BI Desktop](desktop-query-overview.md)
+* [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
+* [ภาพรวมคิวรี่กับ Power BI Desktop](desktop-query-overview.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
 * [เชื่อมต่อกับข้อมูลใน Power BI Desktop](desktop-connect-to-data.md)
 * [จัดรูปร่างและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)

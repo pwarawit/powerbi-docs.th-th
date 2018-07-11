@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6c1bb67b0c7fb8d3e3344cbb48f7fcf52dac64ed
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34288762"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137318"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>บทช่วยสอน: จัดรูปร่างและรวมข้อมูลใน Power BI Desktop
 
@@ -231,10 +231,10 @@ ms.locfileid: "34288762"
 ![](media/desktop-shape-and-combine-data/shapecombine_closeandapply.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-มีมากมายหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI Desktop กรุณาดูที่ทรัพยากรต่อไปนี้เพื่อศึกษาข้อมูลเพิ่มเติมเกี่ยวกับความความสามารถของ
+มีมากมายหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับขีดความสามารถ กรุณาดูแหล่งทรัพยากรต่อไปนี้:
 
-* [เริ่มต้นใช้งานด้วย Power BI Desktop](desktop-getting-started.md)
-* [ภาพรวมคิวรี ด้วย Power BI Desktop](desktop-query-overview.md)
+* [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
+* [ภาพรวมคิวรี่กับ Power BI Desktop](desktop-query-overview.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
 * [เชื่อมต่อกับข้อมูลใน Power BI Desktop](desktop-connect-to-data.md)
 * [งานคิวรี่ทั่วไปใน Power BI Desktop](desktop-common-query-tasks.md)   

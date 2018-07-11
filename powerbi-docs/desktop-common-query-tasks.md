@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6f80c1cc5d0b97318fe9e9b0653d166d571d1310
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290671"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137502"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>งานคิวรีที่ใช้บ่อยใน Power BI Desktop
 เมื่อทำงานในหน้าต่าง **ตัวแก้ไขคิวรี** ของ Power BI Desktop มีงานอยู่ไม่กี่อย่างที่ใช้งานบ่อย ๆ เอกสารนี้ สาธิตงานที่ใช้บ่อยเหล่านั้น และมีลิงก์ให้สำหรับข้อมูลเพิ่มเติม 
@@ -216,10 +216,10 @@ Power BI Desktop มีสูตรคำนวนครอบคลุมหล
 * ชนิด
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-มีหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI Desktop กรุณาดูที่ทรัพยากรต่อไปนี้เพื่อศึกษาข้อมูลเพิ่มเติมเกี่ยวกับความความสามารถของ
+มีมากมายหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับขีดความสามารถ กรุณาดูแหล่งทรัพยากรต่อไปนี้:
 
-* [เริ่มต้นใช้งานด้วย Power BI Desktop](desktop-getting-started.md)
-* [ภาพรวมคิวรี ด้วย Power BI Desktop](desktop-query-overview.md)
+* [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
+* [ภาพรวมคิวรี่กับ Power BI Desktop](desktop-query-overview.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
 * [เชื่อมต่อกับข้อมูลใน Power BI Desktop](desktop-connect-to-data.md)
 * [จัดรูปร่าง และรวมข้อมูล ด้วย Power BI Desktop](desktop-shape-and-combine-data.md)

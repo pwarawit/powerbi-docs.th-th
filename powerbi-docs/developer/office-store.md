@@ -9,15 +9,15 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301791"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092126"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
-เรียนรู้วิธีที่คุณสามารถเผยแพร่วิชวลแบบกำหนดเองของคุณไปยัง AppSource ให้บุคคลอื่นค้นหาและใช้งาน office
+เรียนรู้วิธีที่คุณสามารถเผยแพร่วิชวลแบบกำหนดเองของคุณไปยัง AppSource ให้บุคคลอื่นค้นหาและใช้งาน
 
 เมื่อคุณสร้างวิชวลแบบกำหนดเองของคุณเสร็จ คุณอาจต้องการเผยแพร่ลงใน AppSource ให้บุคคลอื่นสามารถค้นหา และใช้งาน มีบางอย่างที่จะต้องเตรียม ก่อนที่คุณจะทำอย่างนั้นได้ สำหรับข้อมูลเพิ่มเติมสำหรับวิธีสร้างวิชวลแบบกำหนดเอง ดู[ใช้เครื่องมือสำหรับนักพัฒนา มาสร้างวิชวลแบบกำหนดเอง](../service-custom-visuals-getting-started-with-developer-tools.md)
 
@@ -36,7 +36,7 @@ AppSource คืออะไร พูดง่าย ๆ คือ เป็น
 | ภาพหน้าจอ |ใช่ |คุณต้องมีภาพหน้าจอให้อย่างน้อยหนึ่งภาพ รูปแบบสามารถเป็น .png, .jpg, .jpeg หรือ .gif ต้องมีขนาด 1366px (ความกว้าง) x 768px (ความสูง) เท่านั้น ขนาดไฟล์ต้องไม่เกิน 1024kb *เพื่อดึงดูดให้มีคนใช้มากขึ้น เพิ่มข้อความอธิบายลงในภาพหน้าจอเพื่อแสดงความสามารถ และประโยชน์ที่มีให้กับผู้ใช้* |
 | ลิงก์ดาวน์โหลดสนับสนุน |ใช่ |ให้ URL สำหรับให้การสนับสนุนลูกค้าที่มีปัญหากับวิชวลของคุณ รูปแบบของ URL ของคุณควรมี http:// หรือ https:// |
 | ลิงก์ไปยังเอกสารความเป็นส่วนตัว |ใช่ |ให้ลิงก์ไปยังนโยบายความเป็นส่วนตัว สำหรับลูกค้าที่ใช้วิชวลของคุณ รูปแบบของลิงค์ของคุณควรมี http:// หรือ https:// |
-| ข้อตกลงสิทธิการใช้งานสำหรับผู้ใช้ (EULA) |ใช่ |คุณต้องอัปโหลดไฟล์ EULA ซึ่งอาจเป็น EULA ของคุณเอง หรือใช้ EULA ค่าเริ่มต้นภายใน Office store สำหรับวิชวลแบบกำหนดเองของ Power BI เมื่อต้องการใช้ EULA ค่าเริ่มต้น วาง URL ต่อไปนี้ในกล่องโต้ตอบการอัปโหลดไฟล์ "ข้อตกลงสิทธิ์การใช้งานสำหรับผู้ใช้" ของแดชบอร์ดผู้ขาย: [ https://visuals.azureedge.net/app-store/PowerBI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf) |
+| ข้อตกลงสิทธิการใช้งานสำหรับผู้ใช้ (EULA) |ใช่ |คุณต้องอัปโหลดไฟล์ EULA ซึ่งอาจเป็น EULA ของคุณเอง หรือใช้ EULA ค่าเริ่มต้นภายใน Office store สำหรับวิชวลแบบกำหนดเองของ Power BI เมื่อต้องการใช้ EULA ค่าเริ่มต้น วาง URL ต่อไปนี้ในกล่องโต้ตอบการอัปโหลดไฟล์ "ข้อตกลงสิทธิ์การใช้งานสำหรับผู้ใช้" ของแดชบอร์ดผู้ขาย: [ https://visuals.azureedge.net/app-store/PowerBI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) |
 | ลิงก์วิดีโอ |ไม่ใช่ |เพื่อเพิ่มความน่าสนใจของวิชวลแบบกำหนดเองของคุณ เราแนะนำให้มีลิงก์ไปยังวิดีโอเกี่ยวกับวิชวลของคุณ รูปแบบของ URL ของคุณควรมี http:// หรือ https:// |
 | ที่จัดเก็บ GitHub |ไม่ใช่ |จะเป็นการดีมากถ้าคุณมีลิงก์ไปยังที่เก็บ [GitHub](https://www.github.com) สาธารณะที่มีโค้ดต้นฉบับของวิชวลและตัวอย่างข้อมูล เพื่อให้นักพัฒนาอื่น ๆ แนะนำติชม และเสนอการปรับปรุงโค้ดให้กับคุณ |
 
@@ -97,7 +97,7 @@ AppSource คืออะไร พูดง่าย ๆ คือ เป็น
    * ลิงก์วิดีโอ
    * ข้อตกลงสิทธิการใช้งานสำหรับผู้ใช้ (EULA)
      
-       คุณต้องอัปโหลดไฟล์ EULA ซึ่งอาจเป็น EULA ของคุณเอง หรือใช้ EULA ค่าเริ่มต้นภายใน Office store สำหรับวิชวลแบบกำหนดเองของ Power BI เมื่อต้องการใช้ EULA ค่าเริ่มต้น วาง URL ต่อไปนี้ในกล่องโต้ตอบการอัปโหลดไฟล์ "ข้อตกลงสิทธิ์การใช้งานสำหรับผู้ใช้" ของแดชบอร์ดผู้ขาย: [ https://visuals.azureedge.net/app-store/PowerBI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf)
+       คุณต้องอัปโหลดไฟล์ EULA ซึ่งอาจเป็น EULA ของคุณเอง หรือใช้ EULA ค่าเริ่มต้นภายใน Office store สำหรับวิชวลแบบกำหนดเองของ Power BI เมื่อต้องการใช้ EULA ค่าเริ่มต้น วาง URL ต่อไปนี้ในกล่องโต้ตอบการอัปโหลดไฟล์ "ข้อตกลงสิทธิ์การใช้งานสำหรับผู้ใช้" ของแดชบอร์ดผู้ขาย: [ https://visuals.azureedge.net/app-store/PowerBI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf)
 8. เลือก**ถัดไป** เพื่อไปต่อยังหน้า**รายละเอียด**
 9. เลือก**ภาษา** แล้วเลือกภาษาจากรายการ
    

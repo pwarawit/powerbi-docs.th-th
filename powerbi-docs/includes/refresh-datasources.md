@@ -1,4 +1,5 @@
 ### <a name="on-premises-data-gateway"></a>เกตเวย์ข้อมูลภายในองค์กร
+
 | **แหล่งข้อมูล** |
 | --- |
 | Analysis Services แบบตาราง |

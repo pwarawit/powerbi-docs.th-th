@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 7a0a4f6296df351272a69ca30c8a8c08e1f9bcbc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5d889787b6ae7e6331522bbef1a6f1c748d4533d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287865"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136352"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>รวมไฟล์ (ไบนารี) ใน Power BI Desktop
 วิธีการหนึ่งที่มีประสิทธิภาพเพื่อนำเข้าข้อมูลลงใน **Power BI Desktop** คือการรวมหลาย ๆ ไฟล์ ซึ่งมีรูปแบบเดียวกัน เข้าเป็นตารางเดียว ด้วยการเผยแพร่เดือนพฤศจิกายน 2016 ของ **Power BI Desktop** (และรุ่นต่อ ๆ มา) วิธีที่สะดวกและได้รับความนิยมวิธีนี้ ได้พัฒนาให้สะดวกมากขึ้นและความสามารถมากขึ้น ตามที่จะอธิบายในบทความนี้
@@ -58,7 +58,7 @@ ms.locfileid: "34287865"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 มีข้อมูลหลากหลายประเภทที่คุณสามารถเชื่อมต่อโดยใช้ Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแหล่งข้อมูล โปรดดูทรัพยากรต่อไปนี้:
 
-* [เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
+* [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
 * [จัดรูปทรง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [เชื่อมต่อกับไฟล์ CSV ใน Power BI Desktop](desktop-connect-csv.md)   

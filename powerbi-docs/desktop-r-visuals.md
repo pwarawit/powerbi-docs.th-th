@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 641a4f457782711902ee7e2414cb9afffb391afc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32b21e23a6cc4a5e6d9ae4915ddc56f9f9957d14
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286347"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599661"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>สร้างภาพของ Power BI โดยใช้ R
 ด้วย**Power BI Desktop**คุณสามารถใช้**R**เพื่อแสดงภาพข้อมูลของคุณได้
@@ -81,9 +81,9 @@ ms.locfileid: "34286347"
    * เมื่อคุณเลือก**เรียกใช้** จากแถบชื่อเรื่อง**ตัวแก้ไขสคริปต์ R**
    * เมื่อใดก็ตามที่เกิดการเปลี่ยนแปลงข้อมูล เนื่องจากการรีเฟรชข้อมูล การกรอง หรือการเน้น
 
-    รูปต่อไปนี้แสดงตัวอย่างโค้ดการลงจุดสหสัมพันธ์ ซึ่งลงจุดสหสัมพันธ์ระหว่างแอตทริบิวต์ของรถยนต์ชนิดต่าง ๆ
+     รูปต่อไปนี้แสดงตัวอย่างโค้ดการลงจุดสหสัมพันธ์ ซึ่งลงจุดสหสัมพันธ์ระหว่างแอตทริบิวต์ของรถยนต์ชนิดต่าง ๆ
 
-    ![](media/desktop-r-visuals/r-visuals-6.png)
+     ![](media/desktop-r-visuals/r-visuals-6.png)
 
 5. เพื่อให้ได้มุมมองของการแสดงภาพที่มีขนาดใหญ่ขึ้น คุณสามารถย่อ**ตัวแก้ไขสคริปต์ R**ได้ และแน่นอน เช่นเดียวกับวิชวลอื่น ๆ ใน **Power BI Desktop**คุณสามารถกรองข้ามการลงจุดสหสัมพันธ์ โดยเลือกเฉพาะรถสปอร์ตในวิชวลโดนัท (วิชวลกลมทางด้านขวา ในรูปตัวอย่างด้านบน)
 

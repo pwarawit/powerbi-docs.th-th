@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c6cbdf9effa3264eadf19de97be864cc3f152e8b
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 9a6d8919f8ccb032fa7b4bd3312217501c1acb77
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812433"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092540"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>ขั้นตอนที่ 3: สร้างชุดข้อมูลใน Power BI
 บทความนี้เป็นส่วนหนึ่งของการฝึกปฏิบัติทีละขั้นตอนเพื่อ[พุชข้อมูลลงในชุดข้อมูล](walkthrough-push-data.md)
@@ -228,8 +228,8 @@ ms.locfileid: "34812433"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [รับชุดข้อมูลเพื่อเพิ่มแถวลงในตาราง Power BI](walkthrough-push-data-get-datasets.md)  
 [รับโทเค็นการเข้าถึงการรับรองความถูกต้อง](walkthrough-push-data-get-token.md)  
-[โพสต์ชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/datasets_postdataset)  
-[โพสต์ชุดข้อมูลในกลุ่ม](https://docs.microsoft.com/rest/api/power-bi/datasets_postdatasetingroup)  
+[โพสต์ชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)  
+[โพสต์ชุดข้อมูลในกลุ่ม](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
 [พุชข้อมูลลงในแดชบอร์ด Power BI](walkthrough-push-data.md)  
 [ภาพรวมของ Power BI REST API](overview-of-power-bi-rest-api.md)  
 [การอ้างอิง Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  

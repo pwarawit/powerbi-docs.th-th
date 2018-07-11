@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: 9988d108c33e086938aca76d088c6852bb1117a4
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813307"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599501"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>ลงทะเบียนแอป Azure AD เพื่อฝังเนื้อหา Power BI
 เรียนรู้วิธีการลงทะเบียนแอปพลิเคชันภายใน Azure Active Directory (Azure AD) สำหรับการใช้งานด้วยการฝังเนื้อหา Power BI
@@ -54,9 +54,8 @@ ms.locfileid: "34813307"
     คุณจะได้ **ID ไคลเอ็นต์** และถ้าคุณเลือก**เว็บแอปฝั่งเซิร์ฟเวอร์** จะคุณได้รับ**ข้อมูลลับเฉพาะสำหรับลูกค้า** **ID ไคลเอ็นต์**สามารถเรียกข้อมูลได้จากพอร์ทัล Azure ในภายหลังถ้าต้องการ ถ้าคุณทำ**ข้อมูลลับเฉพาะสำหรับลูกค้า**หาย คุณจำเป็นต้องสร้างใหม่ภายในพอร์ทัล Azure
 
 8. คุณต้องนำทางไปยัง Azure เพื่อเลือก **ให้สิทธิ์**
-> [!Note]
-    > ต้องเป็นผู้ดูแลระบบส่วนกลางในผู้เช่า Azure เพื่อดำเนินการขั้นตอนนี้ให้เสร็จ
->
+   > [!Note]
+   > ต้องเป็นผู้ดูแลระบบส่วนกลางในผู้เช่า Azure เพื่อดำเนินการขั้นตอนนี้ให้เสร็จ
 
 * ไปที่ Azure
 * ค้นหาและเลือก **การลงทะเบียนแอป**
@@ -83,8 +82,8 @@ ms.locfileid: "34813307"
     ![](media/register-app/azuread-new-app-registration.png)
 5. ทำตามพร้อมท์และสร้างแอปพลิเคชัน์ใหม่
    
-   * สำหรับเว็บแอปพลิเคชัน ให้ใส่ URL ลงชื่อเข้าระบบ ซึ่งเป็น URL พื้นฐานของแอปคุณ ที่ผู้ใช้สามารถลงชื่อเข้าใช้ เช่น http://localhost:13526
-   * สำหรับแอปพลิเคชันดั้งเดิม ให้ใส่ URL ที่เปลี่ยนเส้นทางซึ่ง Azure AD ใช้เพื่อส่งกลับการตอบสนองโทเค็น ใส่ค่าที่เจาะจงสำหรับแอปพลิเคชันของคุณ เช่น http://myapplication/redirect
+   * สำหรับเว็บแอปพลิเคชัน ให้ใส่ URL ลงชื่อเข้าระบบ ซึ่งเป็น URL พื้นฐานของแอปคุณ ที่ผู้ใช้สามารถลงชื่อเข้าใช้ เช่น `http://localhost:13526`
+   * สำหรับแอปพลิเคชันดั้งเดิม ให้ใส่ URL ที่เปลี่ยนเส้นทางซึ่ง Azure AD ใช้เพื่อส่งกลับการตอบสนองโทเค็น ใส่ค่าที่เจาะจงสำหรับแอปพลิเคชันของคุณ เช่น `http://myapplication/redirect`
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการลงทะเบียนแอปพลิเคชันใน Azure Active Directory ดู[การรวมแอปพลิเคชันกับ Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -161,44 +160,44 @@ ms.locfileid: "34813307"
    * **AllPrincipals** สามารถใช้ได้โดยผู้ดูแลผู้เช่าเท่านั้น เพื่อให้สิทธิ์ในนามของผู้ใช้ทั้งหมดในผู้เช่าได้
    * **Principal** จะใช้เพื่อให้สิทธิ์ในนามของผู้ใช้ที่ระบุ ในกรณีนี้ ควรเพิ่มอีกคุณสมบัติหนึ่งลงในเนื้อความของการร้องขอ - *principalId={User_ObjectId}*
     
-    *การให้สิทธิ์*จำเป็นสำหรับบัญชีหลัก เพื่อหลีกเลี่ยงการพร้อมท์ถามความยินยอมโดย Azure AD ซึ่งไม่สามารถทำได้ เมื่อลงชื่อเข้าใช้แบบไม่โต้ตอบ
+     *การให้สิทธิ์*จำเป็นสำหรับบัญชีหลัก เพื่อหลีกเลี่ยงการพร้อมท์ถามความยินยอมโดย Azure AD ซึ่งไม่สามารถทำได้ เมื่อลงชื่อเข้าใช้แบบไม่โต้ตอบ
    
-    ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
-    "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
-    ```
+     ```
+     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+     Authorization: Bearer ey..qw
+     Content-Type: application/json
+     { 
+     "clientId":"{Service_Plan_ID}",
+     "consentType":"AllPrincipals",
+     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
+     "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+     "startTime":"2017-03-29T14:35:32.4933413+03:00"
+     }
+     ```
 
-5.  ให้สิทธิ์แอปกับ Azure Active Directory (AAD)
+5. ให้สิทธิ์แอปกับ Azure Active Directory (AAD)
    
-    ค่าสำหรับ **consentType** สามารถใส่ **AllPrincipals** หรือ **Principal** อย่างใดอย่างหนึ่ง
+   ค่าสำหรับ **consentType** สามารถใส่ **AllPrincipals** หรือ **Principal** อย่างใดอย่างหนึ่ง
 
-    * **AllPrincipals** สามารถใช้ได้โดยผู้ดูแลผู้เช่าเท่านั้น เพื่อให้สิทธิ์ในนามของผู้ใช้ทั้งหมดในผู้เช่าได้
-    * **Principal** จะใช้เพื่อให้สิทธิ์ในนามของผู้ใช้ที่ระบุ ในกรณีนี้ ควรเพิ่มอีกคุณสมบัติหนึ่งลงในเนื้อความของการร้องขอ - *principalId={User_ObjectId}*
+   * **AllPrincipals** สามารถใช้ได้โดยผู้ดูแลผู้เช่าเท่านั้น เพื่อให้สิทธิ์ในนามของผู้ใช้ทั้งหมดในผู้เช่าได้
+   * **Principal** จะใช้เพื่อให้สิทธิ์ในนามของผู้ใช้ที่ระบุ ในกรณีนี้ ควรเพิ่มอีกคุณสมบัติหนึ่งลงในเนื้อความของการร้องขอ - *principalId={User_ObjectId}*
     
-    *การให้สิทธิ์*จำเป็นสำหรับบัญชีหลัก เพื่อหลีกเลี่ยงการพร้อมท์ถามความยินยอมโดย Azure AD ซึ่งไม่สามารถทำได้ เมื่อลงชื่อเข้าใช้แบบไม่โต้ตอบ
+   *การให้สิทธิ์*จำเป็นสำหรับบัญชีหลัก เพื่อหลีกเลี่ยงการพร้อมท์ถามความยินยอมโดย Azure AD ซึ่งไม่สามารถทำได้ เมื่อลงชื่อเข้าใช้แบบไม่โต้ตอบ
 
- ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
-    "scope":"User.Read Directory.AccessAsUser.All",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
- ```
+   ```
+   Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+   Authorization: Bearer ey..qw
+   Content-Type: application/json
+   { 
+   "clientId":"{Service_Plan_ID}",
+   "consentType":"AllPrincipals",
+   "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
+   "scope":"User.Read Directory.AccessAsUser.All",
+   "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+   "startTime":"2017-03-29T14:35:32.4933413+03:00"
+   }
+   ```
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 ตอนนี้ คุณได้ลงทะเบียนแอปพลิเคชันของคุณภายใน Azure AD แล้ว คุณต้องรับรองความถูกต้องของผู้ใช้ภายในแอปพลิเคชันของคุณ ดูที่[รับรองความถูกต้องผู้ใช้ และรับโทเค็นการเข้าถึง Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md)เมื่อต้องการเรียนรู้เพิ่มเติม
