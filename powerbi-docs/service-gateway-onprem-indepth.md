@@ -11,11 +11,11 @@ ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34298584"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38921518"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>เกตเวย์ข้อมูลในองค์กรในเชิงลึก
 การเข้าถึงข้อมูลภายในองค์กรเป็นไปได้สำหรับผู้ใช้ในองค์กรของคุณ (ในกรณีที่ผู้ใช้ดังกล่าวได้รับอนุญาตการเข้าถึง) แต่ก่อนที่ผู้ใช้เหล่านั้นจะสามารถเชื่อมต่อกับแหล่งข้อมูลภายในองค์กรของคุณ จำเป็นต้องมีการติดตั้งเกตเวย์ข้อมูลในและกำหนดค่าก่อน เกตเวย์อำนวยความสะดวกการติดต่อสื่อสารเบื้องหลังที่รวดเร็วและปลอดภัยระหว่างผู้ใช้ในระบบคลาวด์ไปยังแหล่งข้อมูลภายในองค์กร และย้อนกลับแล้วไปยังระบบคลาวด์อีกครั้ง

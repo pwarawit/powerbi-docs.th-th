@@ -11,11 +11,11 @@ ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5b8a438ed354f246c5ac1d5ac0d0488db19633dd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239269"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924591"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>เชื่อมต่อกับบริการที่คุณใช้กับ Power BI
 คุณสามารถเชื่อมต่อกับบริการที่คุณใช้จำนวนหนึ่ง เพื่อเรียกใช้ธุรกิจของคุณ เช่น Salesforce, Microsoft Dynamics CRM และ Google Analytics Power BI เริ่มต้นโดยใช้ข้อมูลประจำตัวของคุณเพื่อเชื่อมต่อกับบริการ และจากนั้นสร้างแอป Power BI ด้วยแดชบอร์ดและชุดของรายงาน Power BI ที่แสดงข้อมูลของคุณและให้ข้อมูลภาพเชิงลึกเกี่ยวกับธุรกิจของคุณโดยอัตโนมัติ 
@@ -24,7 +24,7 @@ ms.locfileid: "34239269"
 
 ![แอป AppSource](media/service-connect-to-services/overview.png)
 
-หลังจากที่คุณติดตั้งแอป คุณสามารถดูแดชบอร์ดและรายงานในบริการของ Power BI ([https://powerbi.com](https://powerbi.com)) และในแอปมือถือ Power BI ได้ 
+หลังจากที่คุณติดตั้งแอป คุณสามารถดูแดชบอร์ดและรายงานในบริการของ Power BI ([https://powerbi.com](https://powerbi.com)) และในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ได้ 
 
 ![แอป Google analytics ในแอปมือถือ Power BI](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599501"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38925012"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>ลงทะเบียนแอป Azure AD เพื่อฝังเนื้อหา Power BI
 เรียนรู้วิธีการลงทะเบียนแอปพลิเคชันภายใน Azure Active Directory (Azure AD) สำหรับการใช้งานด้วยการฝังเนื้อหา Power BI
@@ -23,7 +23,6 @@ ms.locfileid: "37599501"
 
 > [!IMPORTANT]
 > ก่อนที่คุณลงทะเบียนแอป Power BI คุณต้องการ[ผู้เช่า Azure Active Directory และผู้ใช้ขององค์กร](create-an-azure-active-directory-tenant.md) ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ Power BI ด้วยผู้ใช้ในผู้เช่าของคุณ การลงทะเบียนแอปจะไม่สามารถเสร็จสมบูรณ์ได้
-> 
 > 
 
 มีสองวิธีในการลงทะเบียนแอปพลิเคชันของคุณ วิธีแรกคือด้วย [Power BI App Registration Tool](https://dev.powerbi.com/apps/) หรือคุณสามารถทำได้โดยตรงภายในพอร์ทัล Azure Power BI App Registration Tool เป็นตัวเลือกที่ง่ายที่สุดเนื่องจากมีเขตข้อมูลเพื่อที่ต้องกรอกน้อย ใช้พอร์ทัล Azure ถ้าคุณต้องการทำการเปลี่ยนแปลงไปยังแอปของคุณ
@@ -45,7 +44,7 @@ ms.locfileid: "37599501"
    
     **URL โฮมเพจ**จะมีเฉพาะเมื่อคุณเลือกชนิดของแอปพลิเคชันเป็น**เว็บแอปฝั่งเซิร์ฟเวอร์**
    
-    สำหรับตัวอย่าง *การฝังตัวสำหรับลูกค้าของคุณ* และ *integrate-dashboard-web-app* URL ที่เปลี่ยนเส้นทางคือ `http://localhost:13526/redirect` สำหรับตัวอย่างรายงานและไทล์ URL ที่เปลี่ยนเส้นคือ `http://localhost:13526/`
+    สำหรับตัวอย่าง *การฝังตัวสำหรับลูกค้าของคุณ* และ *integrate-dashboard-web-app* **URL ที่เปลี่ยนเส้นทางคือ** `http://localhost:13526/Redirect` สำหรับตัวอย่างรายงานและไทล์ **URL ที่เปลี่ยนเส้นคือ** `http://localhost:13526/`
 6. เลือก API สำหรับแอปพลิเคชันที่มีสิทธิ์เข้าถึง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสิทธิ์การเข้าถึง Power BI ดูที่[สิทธิ์ Power BI](power-bi-permissions.md)
    
     ![](media/register-app/app-registration-apis.png)
@@ -83,7 +82,7 @@ ms.locfileid: "37599501"
 5. ทำตามพร้อมท์และสร้างแอปพลิเคชัน์ใหม่
    
    * สำหรับเว็บแอปพลิเคชัน ให้ใส่ URL ลงชื่อเข้าระบบ ซึ่งเป็น URL พื้นฐานของแอปคุณ ที่ผู้ใช้สามารถลงชื่อเข้าใช้ เช่น `http://localhost:13526`
-   * สำหรับแอปพลิเคชันดั้งเดิม ให้ใส่ URL ที่เปลี่ยนเส้นทางซึ่ง Azure AD ใช้เพื่อส่งกลับการตอบสนองโทเค็น ใส่ค่าที่เจาะจงสำหรับแอปพลิเคชันของคุณ เช่น `http://myapplication/redirect`
+   * สำหรับแอปพลิเคชันดั้งเดิม ให้ใส่ **URL ที่เปลี่ยนเส้นทางซึ่ง** Azure AD ใช้เพื่อส่งกลับการตอบสนองโทเค็น ใส่ค่าที่เจาะจงสำหรับแอปพลิเคชันของคุณ เช่น `http://myapplication/Redirect`
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการลงทะเบียนแอปพลิเคชันใน Azure Active Directory ดู[การรวมแอปพลิเคชันกับ Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 

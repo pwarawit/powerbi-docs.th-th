@@ -11,14 +11,14 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251609"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38937273"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>เชื่อมต่อกับ Microsoft Dynamics CRM ด้วย Power BI
-Microsoft Dynamics CRM Online สำหรับ Power BI ให้คุณสามารถเข้าถึง และวิเคราะห์ข้อมูลของคุณได้อย่างง่ายดาย Power BI ใช้ตัวดึงข้อมูล OData เพื่อสร้างรูปแบบคำอธิบาย ที่มีทุกเอนทิตีและหน่วยวัดที่จำเป็น เช่น บัญชี, กิจกรรม, โอกาส, ผลิตภัณฑ์, ลูกค้าเป้าหมาย, ผู้ใช้ และอีกมากมาย หลังจากที่คุณติดตั้งแอป คุณสามารถดูแดชบอร์ดและรายงานในบริการของ Power BI ([https://powerbi.com](https://powerbi.com)) และในแอป Power BI บนมือถือได้ 
+Microsoft Dynamics CRM Online สำหรับ Power BI ให้คุณสามารถเข้าถึง และวิเคราะห์ข้อมูลของคุณได้อย่างง่ายดาย Power BI ใช้ตัวดึงข้อมูล OData เพื่อสร้างรูปแบบคำอธิบาย ที่มีทุกเอนทิตีและหน่วยวัดที่จำเป็น เช่น บัญชี, กิจกรรม, โอกาส, ผลิตภัณฑ์, ลูกค้าเป้าหมาย, ผู้ใช้ และอีกมากมาย หลังจากที่คุณติดตั้งแอป คุณสามารถดูแดชบอร์ดและรายงานในบริการของ Power BI ([https://powerbi.com](https://powerbi.com)) และในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ได้ 
 
 เชื่อมต่อ Dynamics CRM Online [ผู้จัดการฝ่ายขาย](https://msit.powerbi.com/groups/me/getdata/services/dynamics-crm-sales-manager) หรือ[ผู้จัดการฝ่ายบริการ](https://msit.powerbi.com/groups/me/getdata/services/dynamics-crm-customer-service) อ่านเพิ่มเติมเกี่ยวกับ[การรวม Dynamics CRM Online](https://powerbi.microsoft.com/integrations/microsoft-dynamicscrm) กับ Power BI
 

@@ -11,11 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 1d9d4b13c6453f32a470b90980b03490d46ee424
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241088"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38937143"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>รีเฟรชชุดข้อมูลที่สร้างจากไฟล์ Power BI Desktop ภายในไดรฟ์ของเครื่อง
 ## <a name="whats-supported"></a>รับรองอะไรบ้าง

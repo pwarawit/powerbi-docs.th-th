@@ -11,11 +11,11 @@ ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 498a66c5e675fc8a394f3c3a0dc2ef7ff7fa99c2
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722439"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877399"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>เชื่อมต่อกับ Microsoft Dynamics NAV ด้วย Power BI
 รับข้อมูลเชิงลึกลงในข้อมูล Microsoft Dynamics NAV ของคุณนั้นทำได้ง่ายด้วย Power BI Power BI ดึงข้อมูลของคุณ ทั้งยอดขายและข้อมูลทางการเงิน จากนั้นสร้างแอปและแดชบอร์ด และรายงานที่ยึดตามข้อมูลนั้น Power BI จำเป็นต้องอนุญาตให้ไปยังตารางที่จะดึงข้อมูลจาก ในกรณีนี้ข้อมูลยอดขายและข้อมูลทางการเงิน รายละเอียดเพิ่มเติมเกี่ยวกับข้อกำหนดด้านล่าง หลังจากที่คุณติดตั้งแอป คุณสามารถดูแดชบอร์ดและรายงานในบริการของ Power BI ([https://powerbi.com](https://powerbi.com)) และในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ได้ 

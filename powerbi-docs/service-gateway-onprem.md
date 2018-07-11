@@ -11,11 +11,11 @@ ms.date: 06/05/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: c91e257d79e9d16fa5a7a58b696d58aefaaaaf92
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812824"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924929"
 ---
 # <a name="on-premises-data-gateway"></a>เกตเวย์ข้อมูลภายในองค์กร
 

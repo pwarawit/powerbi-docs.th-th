@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137502"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877342"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>งานคิวรีที่ใช้บ่อยใน Power BI Desktop
 เมื่อทำงานในหน้าต่าง **ตัวแก้ไขคิวรี** ของ Power BI Desktop มีงานอยู่ไม่กี่อย่างที่ใช้งานบ่อย ๆ เอกสารนี้ สาธิตงานที่ใช้บ่อยเหล่านั้น และมีลิงก์ให้สำหรับข้อมูลเพิ่มเติม 
@@ -38,7 +38,7 @@ ms.locfileid: "37137502"
 ขั้นตอนที่จำเป็นเพื่อเชื่อมต่อกับแหล่งข้อมูลทั้งสองคือ จุดเริ่มต้นของการคิวรีที่เราจะเริ่มกัน
 
 ## <a name="connect-to-data"></a>เชื่อมต่อกับข้อมูล
-เมื่อต้องการเชื่อมต่อกับข้อมูลใน Power BI Desktop เลือกปุ่ม**รับข้อมูล** จากแท็บ**หน้าแรก**บน ribbon Power BI Desktop จะแสดงเมนูให้เห็นแหล่งข้อมูลที่ใช้บ่อยที่สุด สำหรับรายการทั้งหมดของแหล่งข้อมูลซึ่งสามารถเชื่อมต่อ Power BI Desktop เลือกปุ่ม**เพิ่มเติม...** ที่ด้านล่างของเมนู สำหรับข้อมูลเพิ่มเติม ดู[แหล่งข้อมูลใน Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources)
+เมื่อต้องการเชื่อมต่อกับข้อมูลใน Power BI Desktop เลือกปุ่ม**รับข้อมูล** จากแท็บ**หน้าแรก**บน ribbon Power BI Desktop จะแสดงเมนูให้เห็นแหล่งข้อมูลที่ใช้บ่อยที่สุด สำหรับรายการทั้งหมดของแหล่งข้อมูลซึ่งสามารถเชื่อมต่อ Power BI Desktop เลือกปุ่ม**เพิ่มเติม...** ที่ด้านล่างของเมนู สำหรับข้อมูลเพิ่มเติม ดู[แหล่งข้อมูลใน Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-data-sources)
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -60,10 +60,10 @@ ms.locfileid: "37137502"
 
 การเชื่อมต่อข้อมูลอื่น ๆ ก็ทำงานคล้ายกัน ถ้าจำเป็นต้องรับรองความถูกต้องเพื่อทำการเชื่อมต่อข้อมูล Power BI Desktop จะถามให้คุณใส่ข้อมูลประจำตัว
 
-สำหรับการสาธิตทีละขั้นตอน ในการเชื่อมต่อกับข้อมูลใน Power BI Desktop ดูที่ [เชื่อมต่อกับข้อมูลใน Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data)
+สำหรับการสาธิตทีละขั้นตอน ในการเชื่อมต่อกับข้อมูลใน Power BI Desktop ดูที่ [เชื่อมต่อกับข้อมูลใน Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-to-data)
 
 ## <a name="shape-and-combine-data"></a>จัดรูปร่าง และรวมข้อมูล
-คุณสามารถจัดรูปร่างข้อมูล และรวมข้อมูลด้วย ตัวแก้ไขคิวรี อย่างง่าย ๆ ส่วนนี้จะให้ตัวอย่างสองสามตัวว่าคุณจะจัดรูปร่างข้อมูลได้อย่างไร สำหรับการสาธิตที่ครบถ้วนสมบูรณ์มากขึ้น ดูที่ **[จัดรูปร่างและรวมข้อมูล ด้วย Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**
+คุณสามารถจัดรูปร่างข้อมูล และรวมข้อมูลด้วย ตัวแก้ไขคิวรี อย่างง่าย ๆ ส่วนนี้จะให้ตัวอย่างสองสามตัวว่าคุณจะจัดรูปร่างข้อมูลได้อย่างไร สำหรับการสาธิตที่ครบถ้วนสมบูรณ์มากขึ้น ดูที่ **[จัดรูปร่างและรวมข้อมูล ด้วย Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**
 
 ในส่วนก่อนหน้านี้ เราเชื่อมต่อกับข้อมูลสองชุด – เวิร์กบุ๊ก Excel และทรัพยากรบนเว็บ ทันทีที่โหลดเข้าไปใน ตัวแก้ไขคิวรี เราจะเห็นดังรูปต่อไปนี้ เมื่อเลือกคิวรีจากเว็บเพจ (รายการคิวรีทั้งหมดที่มี ที่แสดงในบานหน้าต่าง**คิวรี** ทางด้านซ้ายของหน้าต่าง ตัวแก้ไขคิวรี)
 
