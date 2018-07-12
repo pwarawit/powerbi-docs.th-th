@@ -4,7 +4,7 @@
 
 ![](media/6-4a-integrate-onedrive-for-business/6-4a_1.png)
 
-เมื่อต้องการเชื่อมต่อกับไฟล์ PBIX (Power BI Desktop) บน OneDrive for Business ให้ลงชื่อเข้าใช้ในบริการ Power BI แล้วเลือก **รับข้อมูล** เลือก **ไฟล์** ภายใต้ นำเข้าหรือเชื่อมต่อกับข้อมูล จากนั้นเลือก **OneDrive for Business** เน้นไฟล์ที่ต้องการ แล้วเลือก **เชื่อมต่อ**
+เมื่อต้องการเชื่อมต่อกับไฟล์ PBIX (Power BI Desktop) บน OneDrive for Business ให้ลงชื่อเข้าใช้ในบริการของ Power BI แล้วเลือก**รับข้อมูล** เลือก **ไฟล์** ภายใต้ นำเข้าหรือเชื่อมต่อกับข้อมูล จากนั้นเลือก **OneDrive for Business** เน้นไฟล์ที่ต้องการ แล้วเลือก **เชื่อมต่อ**
 
 ![](media/6-4a-integrate-onedrive-for-business/6-4a_2.png)
 
