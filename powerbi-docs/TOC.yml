@@ -896,8 +896,10 @@
           href: developer/what-can-you-do.md
     - name: บทช่วยสอน
       items:
-        - name: ฝังเนื้อหาสำหรับลูกค้า
+        - name: เนื้อหาแบบฝังตัวสำหรับลูกค้าของคุณ
           href: developer/embed-sample-for-customers.md
+        - name: เนื้อหาแบบฝังตัวสำหรับองค์กรของคุณ
+          href: developer/embed-sample-for-your-organization.md
     - name: แนวคิด
       items:
         - name: ใช้กับ Power BI REST API
@@ -934,12 +936,8 @@
               href: developer/embedding.md
             - name: วิธีการฝังเนื้อหาของคุณ
               href: developer/embedding-content.md
-            - name: รวมแดชบอร์ดลงในแอป (ผู้ใช้เป็นเจ้าของข้อมูล)
-              href: developer/integrate-dashboard.md
-            - name: รวมไทล์ Power BI ลงในแอป (ผู้ใช้เป็นเจ้าของข้อมูล)
-              href: developer/integrate-tile.md
-            - name: รวมรายงาน Power BI ลงในแอป (ผู้ใช้เป็นเจ้าของข้อมูล)
-              href: developer/integrate-report.md
+            - name: วิธีการฝังตัวจากแอป
+              href: developer/embed-from-apps.md
             - name: รวมเนื้อหาลงในแอปพลิเคชันสำหรับ sovereign clouds (แอปเป็นเจ้าของข้อมูล)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: ฝังเค้าโครงแบบกำหนดเองลงในแอป
