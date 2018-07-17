@@ -11,11 +11,11 @@ ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
 ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944571"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38925447"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium คืออะไร
 Power BI Premium มอบทรัพยากรแบบจำเพาะเพื่อเรียกใช้บริการ Power BI สำหรับองค์กรหรือทีมของคุณ ซึ่งให้ประสิทธิภาพการทำงานเพิ่มขึ้นและปริมาณข้อมูลขนาดใหญ่ขึ้น Premium นี้ช่วยให้สามารถเผยแพรเนื้อหา โดยที่คุณไม่จำเป็นต้องซื้อสิทธิ์การใช้งานต่อผู้ใช้สำหรับผู้ชม

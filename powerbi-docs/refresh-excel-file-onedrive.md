@@ -11,11 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 6be8c6b5837fc9e9a0b8456b7c545e7f942eabe5
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092218"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38924342"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel ใน OneDrive หรือ SharePoint Online
 คุณสามารถนำเข้าสมุดงาน Excel ที่เก็บไว้บนเครื่องของคุณ หรือในพื้นที่เก็บข้อมูลบนคลาวด์ เช่น OneDrive สำหรับธุรกิจ หรือ SharePoint Online เราจะดูที่ข้อดีของการใช้พื้นที่เก็บข้อมูลบนคลาวด์สำหรับไฟล์ excel ของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการนำเข้าไฟล์ Excel ลงใน Power BI ดูที่[รับข้อมูลจากไฟล์สมุดงาน Excel](service-excel-workbook-files.md)

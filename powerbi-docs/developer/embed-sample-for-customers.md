@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: d9e2f76c63ee9ebff01080686277a3fbb5af46f3
-ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
+ms.openlocfilehash: a8833cb6b41ea76d50814975ada6239690a0c196
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37900088"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877429"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>บทช่วยสอน: ฝังรายงาน, แดชบอร์ด หรือไทล์ Power BI ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ
 ด้วย **Power BI Embedded ใน Azure** คุณสามารถฝังรายงาน, แดชบอร์ด หรือไทล์ลงในการใช้แอปพลิเคชันโดยใช้**แอปเป็นเจ้าของข้อมูล**ได้ **แอปเป็นเจ้าของข้อมูล** เกี่ยวกับแอปพลิเคชันที่ใช้ Power BI เป็นแพลตฟอร์มการวิเคราะห์แบบฝังตัว นี่คือสถานการณ์ทั่วไปของ**นักพัฒนา ISV** ในฐานะเป็น**นักพัฒนา ISV** คุณสามารถสร้างเนื้อหา Power BI ที่แสดงรายงาน, แดชบอร์ด หรือไทล์ในแอปพลิเคชันที่รวมงานทั้งหมดไว้ด้วยกันและโต้ตอบได้ โดยไม่ต้องให้ผู้ใช้แอปพลิเคชันต้องมีสิทธิ์การใช้งาน Power BI หรือแม้แต่รู้ว่ามี Power BI อยู่ภายใน บทช่วยสอนนี้สาธิตวิธีการรวมรายงานลงในแอปพลิเคชัน โดยใช้ **Power BI** SDK .NET พร้อมกับ **Power BI** JavaScript API เมื่อใช้ **Power BI Embedded ใน Azure** สำหรับลูกค้าของคุณโดยใช้**แอปเป็นเจ้าของข้อมูล**
@@ -54,7 +54,7 @@ ms.locfileid: "37900088"
     ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![ลงทะเบียนแอปใหม่](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
-4. ทำตามพร้อมท์และสร้างแอปพลิเคชัน์ใหม่ สำหรับแอปเป็นเจ้าของข้อมูล คุณจำเป็นต้องใช้ชนิดของแอปพลิเคชันแบบ**ดั้งเดิม** คุณยังต้องให้ **URI ที่เปลี่ยนเส้นทาง** ซึ่ง **Azure AD** ใช้เพื่อส่งกลับผลลัพธ์โทเค็น ใส่ค่าที่เฉพาะสำหรับแอปพลิเคชันของคุณ (ตัวอย่างเช่น: `http://localhost:13526/redirect`)
+4. ทำตามพร้อมท์และสร้างแอปพลิเคชัน์ใหม่ สำหรับแอปเป็นเจ้าของข้อมูล คุณจำเป็นต้องใช้ชนิดของแอปพลิเคชันแบบ**ดั้งเดิม** คุณยังต้องให้ **URI ที่เปลี่ยนเส้นทาง** ซึ่ง **Azure AD** ใช้เพื่อส่งกลับผลลัพธ์โทเค็น ใส่ค่าที่เฉพาะสำหรับแอปพลิเคชันของคุณ (ตัวอย่างเช่น: `http://localhost:13526/Redirect`)
 
     ![สร้างแอป](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
 
