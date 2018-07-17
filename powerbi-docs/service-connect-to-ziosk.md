@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3308abbb3fbc1ceadb78b83d13d69d014de1bff1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2c5fc1f8763b8360d7cd5a6f6605d6b4f3d5df3c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34238560"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135662"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>เชื่อมอมต่อกับ Ziosk Survey Analytics ด้วย Power BI
 แพ็คเนื้อหาสำหรับ Power BI มีการนำเสนอร้านอาหาร ด้วยแท็บเล็ต Ziosk มีการเข้าถึงข้อมูลเชิงลึกที่ให้มาโดยข้อมูลสำรวจ Ziosk รวมถึงการแบ่งเซกเมนต์ โดยวัน ตำแหน่งที่ตั้ง พนักงาน และอื่น ๆ
@@ -71,7 +71,7 @@ ms.locfileid: "34238560"
 บัญชีของ Ziosk ที่ มีสิทธิ์ในการตารางข้างต้นจำเป็นต้องใช้เพื่อสร้างอินสแตนซ์ของชุดเนื้อหานี้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)
+[Power BI คืออะไร](power-bi-overview.md)
 
 [Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)
 

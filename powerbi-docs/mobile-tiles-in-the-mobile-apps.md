@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 4680ab3709f1a2cbe56445e6719ea4de15396eb0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297664"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598653"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>สำรวจไทล์ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -40,7 +40,7 @@ ms.locfileid: "34297664"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *ตัวอย่างเช่น ในแผนภูมิเส้นนี้ ค่าที่เลือกคือค่าสำหรับ**ยอดขายของปีนี้**และ**ยอดขายของปีล่าสุด**ใน**เดือนสิงหาคม***  
+   <em>ตัวอย่างเช่น ในแผนภูมิเส้นนี้ ค่าที่เลือกคือค่าสำหรับ**ยอดขายของปีนี้</em>* และ**ยอดขายของปีที่แล้ว**ใน**เดือนสิงหาคม**.*  
    
    ในแผนภูมิวงกลม ให้แตะชิ้นของแผนภูมิวงกลมเพื่อแสดงค่าชิ้นส่วนที่ด้านบนของวงกลม  
    
@@ -107,7 +107,7 @@ ms.locfileid: "34297664"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   *ในแผนภูมิแท่งนี้ ค่าสำหรับแถบ **Decor** จะแสดงที่ด้านบนของแผนภูมิ*
+   <em>ในแผนภูมิแท่งนี้ ค่าสำหรับแถบ **Decor</em>* จะแสดงที่ด้านบนของแผนภูมิ*
    
    แตะไอคอน**เต็มหน้าจอ** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)เพื่อเปิดไทล์ในโหมดเต็มหน้าจอ โดยไม่มีแถบนำทางและเมนู
    
@@ -126,6 +126,6 @@ ms.locfileid: "34297664"
 4. แตะลูกศรย้อนกลับหรือปุ่มย้อนกลับเพื่อปิดไทล์ และกลับไปยังแดชบอร์ด
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [เริ่มต้นใช้งาน Power BI](service-get-started.md)
+* [Power BI คืออะไร](power-bi-overview.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

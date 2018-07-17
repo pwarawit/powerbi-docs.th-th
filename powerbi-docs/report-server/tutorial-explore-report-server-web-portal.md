@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32bf2d3cedbeeb2430620855a2ac95bf349af9a2
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34445014"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092057"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>บทช่วยสอน: สำรวจพอร์ทัลเว็บ Power BI Report Server ใน VM
 ในบทช่วยสอนนี้ คุณสร้างเครื่องเสมือน Azure ที่มีการติดตั้ง Power BI Report Server ไว้แล้วได้ ดังนั้นคุณสามารถดู แก้ไข และจัดการตัวอย่าง Power BI และรายงานที่มีการแบ่งหน้า และ KPI ได้
@@ -100,7 +100,7 @@ ms.locfileid: "34445014"
 |![เลขที่ 4](media/tutorial-explore-report-server-web-portal/number-4.png) | เริ่มต้น Power BI Desktop ที่ปรับให้เหมาะสมสำหรับเซิร์ฟเวอร์รายงาน Power BI (มีนาคม 2018)  |
 |![เลขที่ 5](media/tutorial-explore-report-server-web-portal/number-5.png) | พอร์ทัลเว็บเซิร์ฟเวอร์รายงาน Power BI เปิดขึ้นในเบราว์เซอร์   |
 
-ดับเบิลคลิกที่ไอคอน**พอร์ทัลเว็บเซิร์ฟเวอร์รายงาน** เบราว์เซอร์เปิดขึ้นhttp://localhost/reports/browse ในพอร์ทัลเว็บคุณจะเห็นไฟล์ต่าง ๆ ที่ถูกจัดกลุ่มแยกตามประเภท 
+ดับเบิลคลิกที่ไอคอน**พอร์ทัลเว็บเซิร์ฟเวอร์รายงาน** เบราว์เซอร์เปิดขึ้น`http://localhost/reports/browse` ในพอร์ทัลเว็บคุณจะเห็นไฟล์ต่าง ๆ ที่ถูกจัดกลุ่มแยกตามประเภท 
 
 ![พอร์ทัลเว็บของ Power BI Report Server](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

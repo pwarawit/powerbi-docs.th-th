@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7793b79ad26fdb0b01f3dc2a01be02c47047ce9c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0536dc6fd637db07c0e26a4ed7f0da1071b646eb
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253311"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137433"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - แนวคิดพื้นฐานสำหรับบริการ Power BI
 
@@ -231,7 +231,7 @@ ms.locfileid: "34253311"
    ![](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)  
+[Power BI คืออะไร](power-bi-overview.md)  
 [นำทาง: สำรวจบริการ Power BI](service-the-new-power-bi-experience.md)
 [วิดีโอ Power BI](videos.md)  
 [ตัวแก้ไขรายงาน... ชมการแนะนำ](service-the-report-editor-take-a-tour.md)

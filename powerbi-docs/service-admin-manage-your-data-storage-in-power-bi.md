@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7c0399072bfef35a1103a5db448da183f64f74c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a30c90b1c180277a584a152f26c7f92549284c7d
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245373"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944755"
 ---
 # <a name="manage-your-data-storage"></a>จัดการที่เก็บข้อมูลของคุณ
 เรียนรู้วิธีที่คุณสามารถจัดการที่เก็บข้อมูลของคุณ หรือของพื้นที่ทำงานแอป เพื่อให้แน่ใจว่า คุณสามารถเพื่อเผยแพร่รายงานและชุดข้อมูลได้ต่อไป
 
 ผู้ใช้และพื้นที่ทำงานแอป มีความจุข้อมูลของตัวเอง
 
-* ผู้ใช้ฟรี และ Pro มีพื้นที่จัดเก็บข้อมูลสูงสุด 10 GB
-* ผู้ใช้ Pro สามารถสร้างพื้นที่ทำงานของแอป โดยแต่ละพื้นที่เก็บข้อมูลได้สูงสุด 10 GB
+* ผู้ใช้ทั้งหมดจะมีพื้นที่จัดเก็บข้อมูลสูงสุด 10 GB
+* ผู้ใช้ที่มีสิทธิ์ใช้งาน Power BI Pro สามารถสร้างพื้นที่ทำงานของแอป โดยแต่ละคนจะมีพื้นที่เก็บข้อมูลได้สูงสุด 10 GB
 
 ที่ระดับผู้เช่า การใช้ทั้งหมดต้องไม่เกิน 10 GB ต่อผู้ใช้ Pro สำหรับทุก ๆ ผู้ใช้ Pro และทุก ๆ พื้นที่ทำงานแอปทั้งหมดในผู้เช่า
 

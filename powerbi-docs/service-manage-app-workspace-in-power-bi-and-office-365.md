@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 859ab3fdfd06040d8bbf131ab91ea6c9f84deb40
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241958"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965216"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>จัดการพื้นที่ทำงานของแอปใน Power BI และ Office 365
 ในฐานะผู้สร้างหรือผู้ดูแลระบบของ[พื้นที่ทำงานของแอปใน Power BI](service-install-use-apps.md)หรือใน Office 365 คุณจัดการบางส่วนของพื้นที่ทำงานใน Power BI ลักษณะอื่นๆ คุณจัดการใน Office 365 
@@ -33,7 +33,7 @@ ms.locfileid: "34241958"
 * ดูที่อยู่อีเมลของกลุ่ม
 * ลบกลุ่ม
 
-คุณจำเป็นต้องมีสิทธิ์การใช้งาน [Power BI Pro](service-free-vs-pro.md) ที่เป็นผู้ดูแลระบบหรือสมาชิกของพื้นที่ทำงานของแอป ผู้ใช้แอปของคุณต้องมสิทธิ์ใช้งาน Power BI Pro เช่นกัน ยกเว้นว่าพื้นที่ทำงานของแอปอยเป็นแบบ Power BI Premium จากนั้น ผู้ใช้ทางธุรกิจสามารถเข้าถึงแอปของคุณ ด้วยสิทธิ์การใช้งาน Power BI แบบฟรีแทน อ่าน[Power BI Premium คืออะไร](service-premium.md)สำหรับรายละเอียด
+คุณจำเป็นต้องมีสิทธิ์การใช้งาน [Power BI Pro](service-free-vs-pro.md) ที่เป็นผู้ดูแลระบบหรือสมาชิกของพื้นที่ทำงานของแอป ผู้ใช้แอปของคุณต้องมสิทธิ์ใช้งาน Power BI Pro เช่นกัน ยกเว้นว่าพื้นที่ทำงานของแอปอยเป็นแบบ Power BI Premium อ่าน[Power BI Premium คืออะไร](service-premium.md)สำหรับรายละเอียด
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>แก้ไขพื้นที่ทำงานของแอปใน Power BI
 1. ใน Power BI service เลือกลูกศรถัดจาก**พื้นที่ทำงาน** > เลือกจุดไข่ปลา (**...** ) ถัดจากชื่อพื้นที่ทำงานของคุณ > **แก้ไขพื้นที่ทำงาน** 

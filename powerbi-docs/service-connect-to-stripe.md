@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 533a8ae7f0030c70ed5212c890215a2b43d8e870
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 62f03283a978978314e91c86aaacbe6defe2e19e
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246608"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134535"
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>เชื่อมต่อกับ Stripe ด้วย Power BI
 ภาพและสำรวจข้อมูล Stripe ของคุณใน Power BI ด้วยชุดเนื้อหา Power BI ชุดเนื้อหา Power BI Stripe ดึงข้อมูลเกี่ยวกับลูกค้า ค่าธรรมเนียม เหตุการณ์ และใบแจ้งหนี้ ข้อมูลมีเหตุการณ์หมื่นเหตุการณ์ล่าสุดและค่าใช้จ่ายห้าพันใน 30 วันที่ผ่านมา เนื้อหาจะถูกรีเฟรชโดยอัตโนมัติวันละครั้งตามการกำหนดเวลาที่คุณควบคุม 
@@ -47,7 +47,7 @@ ms.locfileid: "34246608"
 * ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)
+[Power BI คืออะไร](power-bi-overview.md)
 
 [รับข้อมูลสำหรับ Power BI](service-get-data.md)
 

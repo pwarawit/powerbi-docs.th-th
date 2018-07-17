@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ea5ce2e1e635149c91fbcf38d84e3093af7915c9
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9366eff71e09b1f6c71c1f2519feb3d2392e3c58
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243856"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092655"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>เชื่อมต่อไปยัง Acumatica ด้วย Power BI
 ชุดเนื้อหา Acumatica BI Power ช่วยให้คุณรับข้อมูลเชิงลึกลงในข้อมูลโอกาสการขายของคุณได้อย่างรวดเร็ว Power BI ดึงข้อมูลของคุณ รวมถึงโอกาส บัญชีผู้ใช้ และ ลูกค้า จากรุ่นแดชบอร์ดเริ่มต้นและรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลที่เกี่ยวข้อง
@@ -66,7 +66,7 @@ ms.locfileid: "34243856"
 
     https://[sitedomain]/odata/[companyname]
 
-โดเมนไซต์แอปพลิเคชันสามารถพบได้ในแถบที่อยู่ของเบราว์เซอร์ของคุณเมื่อคุณกำลังลงชื่อเข้า Acumatica ในตัวอย่างด้านล่าง โดเมนไซต์คือ "https://pbi.acumatica.com" ดังนั้นจุดสิ้นสุด OData จะเป็น "https://pbi.acumatica.com/odata"
+โดเมนไซต์แอปพลิเคชันสามารถพบได้ในแถบที่อยู่ของเบราว์เซอร์ของคุณเมื่อคุณกำลังลงชื่อเข้า Acumatica ในตัวอย่างด้านล่าง โดเมนไซต์คือ `https://pbi.acumatica.com` ดังนั้นจุดสิ้นสุด OData จะเป็น `https://pbi.acumatica.com/odata`
 
  ![](media/service-connect-to-acumatica/url.png)
 

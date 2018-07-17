@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/26/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 770e200b0aa6916ac6d2de144902a04e9660e552
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3c73476351671d9c37bea824b2ade0f7e79dd274
+ms.sourcegitcommit: db03649b8241bf34566968bbede8c9a0d35852fd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482026"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37067252"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>ตัวอย่างทรัพยากรบุคคลสำหรับ Power BI: ชมการแนะนำ
 
@@ -32,7 +32,7 @@ ms.locfileid: "34482026"
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
- ก่อนที่คุณสามารถใช้ตัวอย่าง คุณต้องดาวน์โหลดในรูปแบบ [ชุดเนื้อหา](https://docs.microsoft.com/power-bi/sample-human-resources#get-the-content-pack-for-this-sample), [ไฟล์.pbix](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human-Resources-Sample-PBIX.pbix) หรือ[เวิร์กบุ๊ก Excel](http://go.microsoft.com/fwlink/?LinkId=529780)
+ ก่อนที่คุณสามารถใช้ตัวอย่าง คุณต้องดาวน์โหลดในรูปแบบ [ชุดเนื้อหา](https://docs.microsoft.com/power-bi/sample-human-resources#get-the-content-pack-for-this-sample), [ไฟล์.pbix](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix) หรือ[เวิร์กบุ๊ก Excel](http://go.microsoft.com/fwlink/?LinkId=529780)
 
 ### <a name="get-the-content-pack-for-this-sample"></a>รับชุดเนื้อหาสำหรับตัวอย่างนี้
 
@@ -54,7 +54,7 @@ ms.locfileid: "34482026"
 
 อีกทางเลือกหนึ่งคือ คุณสามารถดาวน์โหลดตัวอย่างเป็นไฟล์ .pbix ซึ่งถูกออกแบบมาสำหรับใช้กับ Power BI Desktop 
 
- * [ตัวอย่างทรัพยากรบุคคล](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix)
+ * [ตัวอย่างทรัพยากรบุคคล PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>รับเวิร์กบุ๊ก Excel สำหรับตัวอย่างนี้
 คุณยังสามารถ[ดาวน์โหลดเพียงชุดข้อมูล (เวิร์กบุ๊ก Excel)](http://go.microsoft.com/fwlink/?LinkId=529780) สำหรับตัวอย่างนี้ได้ เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน เมื่อต้องการดูข้อมูลดิบเลือก **Power Pivot > จัดการ**

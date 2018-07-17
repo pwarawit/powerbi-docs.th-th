@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b30e9934c6a1779538aeb5fe82db59e018fdb880
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dfcaabc7f36dd65c6e7dbf56b84778c62760da5d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249470"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135708"
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>เชื่อมต่อกับ Smartsheet ด้วย Power BI
 Smartsheet มีแพลตฟอร์มอย่างง่าย สำหรับการทำงานร่วมกันและการแชร์ไฟล์ ชุดเนื้อหา Smartsheet สำหรับ Power BI มีแดชบอร์ด รายงาน และชุดข้อมูลที่แสดงภาพรวมของบัญชี Smartsheet ของคุณ คุณยังสามารถใช้ [Power BI Desktop](desktop-connect-to-data.md) เพื่อเชื่อมต่อโดยตรงไปยังแต่ละแผ่นงานในบัญชีของคุณได้ 
@@ -60,6 +60,6 @@ Smartsheet มีแพลตฟอร์มอย่างง่าย สำ�
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป:
 
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)
+[Power BI คืออะไร](power-bi-overview.md)
 
 [รับข้อมูลสำหรับ Power BI](service-get-data.md)

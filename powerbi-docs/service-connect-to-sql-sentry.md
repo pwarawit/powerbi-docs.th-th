@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8ad41917c887cff7db991051aa35d5dad6b6a8fa
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9bec96b594d7a761311e0ef9f457f320eb1f3963
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242434"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136444"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>เชื่อมต่อกับ SQL Sentry ด้วย Power BI
 วิเคราะห์ข้อมูลประสิทธิภาพการทำงานของคุณที่รวบรวมโดย SQL Sentry ทำได้ง่ายขึ้นด้วย Power BI Power BI เรียกคืนข้อมูลของคุณ จากนั้นสร้างแดชบอร์ดค่าเริ่มต้นและรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลนั้น
@@ -93,7 +93,7 @@ ms.locfileid: "34242434"
 ถ้าคุณไม่ได้เป็นเจ้าของฐานข้อมูล SQL Sentry ที่มีการซิงโครไนซ์อยู่ <https://cloud.sqlsentry.com>โปรดติดต่อผู้ดูแลระบบของคุณเพื่อให้แน่ใจว่าคุณมีสิทธิ์ในการดูข้อมูลที่รวบรวมไว้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)
+[Power BI คืออะไร](power-bi-overview.md)
 
 [รับข้อมูลสำหรับ Power BI](service-get-data.md)
 

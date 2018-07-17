@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: b85ffb97948976e25347039dfa4f81dda9f1ea7c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254866"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092356"
 ---
 # <a name="publish-to-web-from-power-bi"></a>เผยแพร่บนเว็บจาก Power BI
 
@@ -135,7 +135,8 @@ ms.locfileid: "34254866"
 5. ภาพวิชวล " R " จะไม่ได้รับการรองรับในการเผยแพร่รายงานเว็บ
 6. การส่งออกข้อมูลจากภาพในรายงานที่เผยแพร่ไปยังเว็บ
 7. ArcGIS Maps สำหรับ Power BI
-8. [รักษาข้อมูลความเป็นความลับหรือกรรมสิทธิ์](#publish-to-web-from-power-bi)
+8. รายงานที่ประกอบด้วยหน่วยวัดของ DAX ระดับรายงาน
+9. [รักษาข้อมูลความเป็นความลับหรือกรรมสิทธิ์](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>การตั้งค่าผู้เช่า
 

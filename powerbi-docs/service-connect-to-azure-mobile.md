@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 336ae9cd9ac2940b244df88aaf5a8fff7bd3a55e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2d2d983da6de5ec88574092289ed2958c7a98923
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241853"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600423"
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>เชื่อมต่อกับ Azure Mobile Engagement ด้วย Power BI
 ในชุดเนื้อหา Power BI Azure Mobile Engagement ช่วยให้คุณรับข้อมูลเชิงลึกลงในข้อมูลแอปฯของคุณได้อย่างรวดเร็ว
@@ -23,7 +23,7 @@ ms.locfileid: "34241853"
 เชื่อมต่อไปยัง[ชุดเนื้อหา Azure Mobile Engagement](https://app.powerbi.com/groups/me/getdata/services/azme)สำหรับ Power BI
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
-1. เลือก**รับข้อมูล**ที่ด้านล่างของแผงนำทางด้านซ้ายมือ
+1. เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ
    
     ![](media/service-connect-to-azure-mobile/getdata.png)
 2. ในกล่อง**บริการ** เลือก**รับ**
@@ -42,11 +42,11 @@ ms.locfileid: "34241853"
    
     ![](media/service-connect-to-azure-mobile/dashboard.png)
 
- **ฉันต้องทำอะไรต่อ?**
+## <a name="what-now"></a>ฉันต้องทำอะไรต่อ?
 
-* ลอง[ถามคำถามในกล่องถามตอบ](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานพื้นฐาน
+* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
 * ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

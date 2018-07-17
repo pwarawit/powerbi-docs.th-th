@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 909d524416b04654dc6f511a71b675381ec74e3a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 966d25ce2cddbba4623774c9bcfc6a0a9f0af904
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310279"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137157"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>ถามที่ถามบ่อยสำหรับ Power BI สำหรับลูกค้าระบบคลาวด์ประเทศเยอรมนี
 **บริการ Power BI**มีเวอร์ชันที่พร้อมใช้งานสำหรับลูกค้าสหภาพยุโรป/ข้อตกลงการค้าเสรียุโรป/ยุโรป (EU/EFTA) มักจะอ้างอิงถึงเป็น Deutschland Microsoft Cloud (MCD) **บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้เป็นบริการเฉพาะสำหรับลูกค้า EU/EFTA และแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI** หรือบริการ Power BI ที่จัดหาสำหรับลูกค้าภาครัฐบาล
@@ -73,5 +73,5 @@ ms.locfileid: "34310279"
 
 * [Guided learning สำหรับ Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [เริ่มต้นใช้งาน Power BI service](service-get-started.md)
-* [เริ่มต้นใช้งานกับ Power BI Desktop](desktop-getting-started.md)
+* [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
 

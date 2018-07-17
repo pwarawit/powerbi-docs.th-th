@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3be6882219e23a2d22ee03e6805ce3a1e8e08b8f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fb05b6fd2378c8fe2b6dec35250df31d227b7760
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297733"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135455"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>สร้างการเชื่อมโยงไปยังตำแหน่งที่ตั้งเฉพาะในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 คุณสามารถสร้างและใช้ Uniform Resource Identifier (URI) เพื่อเชื่อมโยงไปยังตำแหน่งที่ตั้งที่ระบุ (*การเชื่อมโยงโดยตรง*) ภายในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่บนแพลตฟอร์มสำหรับอุปกรณ์เคลื่อนที่ทั้งหมด: iOS อุปกรณ์ Android และ Windows 10
@@ -103,5 +103,5 @@ https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**&co
 * [แอป Power BI สำหรับอุปกรณ์เคลื่อนที่](mobile-apps-for-mobile-devices.md)
 * ติดตาม@MSPowerBIบน Twitter
 * เข้าร่วมการสนทนาที่[ชุมชน Power BI](http://community.powerbi.com/)
-* [เริ่มต้นใช้งาน Power BI](service-get-started.md)
+* [Power BI คืออะไร](power-bi-overview.md)
 

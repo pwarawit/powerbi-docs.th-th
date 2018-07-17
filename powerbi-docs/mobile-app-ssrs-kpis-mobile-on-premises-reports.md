@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/13/2018
 ms.author: maggies
-ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32d73b4be55190b908353083b497581cb1b08c6e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482256"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599035"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>ดูรายงานจากรีพอร์ตเซิร์ฟเวอร์ภายในองค์กรและ KPI ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 
@@ -103,6 +103,9 @@ ms.locfileid: "34482256"
 รายงาน Power BI รายงานสำหรับอุปกรณ์เคลื่อนที่ของ Reporting Services และ KPI จะแสดงอยู่ในโฟลเดอร์เดียวกันบนพอร์ทัลเว็บของ Reporting Services 
 
 * แตะรายงาน Power BI ![ไอคอนรายงานของ power BI](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). การแตะจะเปิดโหมดแนวนอน และคุณสามารถโต้ตอบกับไฟล์ในแอป Power BI ได้
+
+    > [!NOTE]
+  > ดูรายละเอียดลงและขึ้นในขณะนี้ไม่ได้เปิดใช้งานในรายงานของ Power BI บนเซิร์ฟเวอร์รายงาน Power BI
   
     ![รายงาน power BI](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
 * ใน Power BI Desktop เจ้าของรายงานสามารถ[ปรับรายงาน](desktop-create-phone-report.md)ให้เหมาะสมสำหรับแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ได้ บนโทรศัพท์มือถือ รายงานที่ปรับให้เหมาะสมจะมีไอคอนพิเศษ![ไอคอนรายงาน Power BI ที่ปรับให้เหมาะสม](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png)และแบบการจัดหน้า
@@ -129,6 +132,6 @@ ms.locfileid: "34482256"
 3. แตะ**ถอดเซิร์ฟเวอร์**
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [เริ่มต้นใช้งาน Power BI](service-get-started.md)  
+* [Power BI คืออะไร](power-bi-overview.md)  
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

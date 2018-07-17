@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd4198bb6b826f8d4af22e83e313c4c0b8101024
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 016237c95d3494435931e143ff34dbe4a82abb55
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299320"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599677"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>การสร้างภาพ R ในบริการ Power BI
 บริการ Power BI สนับสนุนการดูและโต้ตอบกับภาพที่สร้างขึ้น ด้วยสคริปต์ R ภาพที่สร้างขึ้นด้วยสคริปต์ R มักเรียกว่า*ภาพ R* ซึ่งสามารถนำเสนอการปรับรูปร่างข้อมูลและการวิเคราะห์ขั้นสูง เช่น การทำนายโดยใช้การวิเคราะห์ที่มีข้อมูลเต็มเปี่ยมและพลังของการแสดงภาพ R
@@ -37,7 +37,7 @@ ms.locfileid: "34299320"
 
 โปรดทราบว่าบริการนี้ไม่ได้สนับสนุนแพคเกจ R ทุกแพคเกจ ดูแพคเกจที่สนับสนุนที่ส่วนท้ายของบทความนี้สำหรับรายการแพคเกจที่สนับสนุนในบริการ Power BI ในปัจจุบัน
 
-คุณสามารถดาวน์โหลด[ตัวอย่างไฟล์ Power BI Desktop](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample SL.pbix) (ไฟล์ .pbix) นี้ที่ประกอบด้วยบางภาพ R เพื่อดูวิธีการทำงานและทดลองใช้ได้
+คุณสามารถดาวน์โหลด[ตัวอย่างไฟล์ Power BI Desktop](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (ไฟล์ .pbix) นี้ที่ประกอบด้วยบางภาพ R เพื่อดูวิธีการทำงานและทดลองใช้ได้
 
 ภาพ R ที่สร้างขึ้นใน**Power BI Desktop** จากนั้นเผยแพร่ไปยังบริการ Power BI ส่วนใหญ่แล้วจะทำงานเหมือนภาพอื่น ๆ ในบริการ Power BI คุณสามารถโต้ตอบ กรอง แบ่งส่วน และปักหมุดภาพเหล่านั้นไปยังแดชบอร์ด หรือแชร์ไฟล์เหล่านั้นกับผู้อื่นได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแชร์แดชบอร์ดและรูปภาพ ดู[แชร์แดชบอร์ดกับเพื่อนร่วมงานและผู้อื่น](service-share-dashboards.md) สิ่งหนึ่งที่แตกต่างจากภาพอื่น ๆ คือภาพ R ไม่สามารถแสดงเคล็ดลับเครื่องมือได้ และไม่สามารถใช้เพื่อกรองภาพอื่น ๆ ได้
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 06/24/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 3382562459c461d9864cfce7163fb0d049deb494
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 44244bf746c1a11229d2041b4c2b43871fa7a199
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481819"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944548"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการวิเคราะห์ร้านค้าปลีกสำหรับ Power BI: ชมการแนะนำ
 
@@ -25,7 +25,7 @@ ms.locfileid: "34481819"
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
- ก่อนที่คุณสามารถใช้ตัวอย่าง คุณต้องดาวน์โหลดในรูปแบบ[ชุดเนื้อหา](https://docs.microsoft.com/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service) [ไฟล์ .pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail-Analysis-Sample-PBIX.pbix) หรือ[เวิร์กบุ๊ก Excel](http://go.microsoft.com/fwlink/?LinkId=529778)
+ ก่อนที่คุณสามารถใช้ตัวอย่าง คุณต้องดาวน์โหลดในรูปแบบ[ชุดเนื้อหา](https://docs.microsoft.com/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service) [ไฟล์ .pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) หรือ[เวิร์กบุ๊ก Excel](http://go.microsoft.com/fwlink/?LinkId=529778)
 
 
 ### <a name="get-the-content-pack-for-this-sample"></a>รับชุดเนื้อหาสำหรับตัวอย่างนี้
@@ -166,4 +166,4 @@ ms.locfileid: "34481819"
 * [ดาวน์โหลดเวิร์กบุ๊ก Excel สำหรับตัวอย่างนี้ Power BI](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [รับข้อมูล (สำหรับ Power BI)](service-get-data.md)    
 * [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)    
-* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

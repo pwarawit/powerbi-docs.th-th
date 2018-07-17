@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 89eda507e0b908fe746cb13c0c6477baed07ba3c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2250e3739904e6cc1e36c03df45cc765d3d9b591
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34243035"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135248"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>เชื่อมต่อกับ Webtrends ด้วย Power BI
 ชุดเนื้อหา Webtrends สำหรับ Power BI มีเมตริกแบบนอกกล่องหลายตัว เช่นมุมองเพจทั้งหมด และการเข้าชมด้วยปริมาณการใช้งานแหล่งข้อมูล แสดงผลเป็นภาพของข้อมูล Webtrends ของคุณใน Power BI ที่เริ่มต้นโดยการเชื่อมต่อกับบัญชี Webtrends ของคุณ คุณสามารถใช้แดชบอร์ดและรายงานที่แสดงไว้ หรือปรับแต่งเพื่อไฮไลต์ข้อมูลที่คุณสนใจมากที่สุด  ข้อมูลจะรีเฟรชโดยอัตโนมัตหนึ่งครั้งต่อวัน
@@ -101,7 +101,7 @@ ms.locfileid: "34243035"
 2. ผู้ใช้มีสิทธิ์เข้าถึงรายงานที่แสดงอยู่ในส่วน["มีอะไรบ้าง"](#Included)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)
+[Power BI คืออะไร](power-bi-overview.md)
 
 [Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)
 

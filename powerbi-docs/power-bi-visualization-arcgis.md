@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7a43b5c210c0e7f2bd26eea03bdcd5d2fa975321
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 85bf9630a8c272b513f27f38b24a5d8a77075444
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297319"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599631"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>แผนที่ ArcGIS ในบริการของ Power BI และ Power BI Desktop จาก Esri
 บทช่วยสอนนี้ถูกเขียนจากมุมมองของผู้สร้างแผนที่ ArcGIS เมื่อผู้สร้างแชร์แผนที่ ArcGIS ให้กับเพื่อนร่วมงาน ผู้ร่วมงานสามารถดูและโต้ตอบกับแผนที่ แต่ไม่สามารถบันทึกการเปลี่ยนแปลงได้ เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับการดูแผนที่ ArcGIS ดูที่[โต้ตอบกับแผนที่ ArcGIS](power-bi-visualizations-arcgis.md)
@@ -262,7 +262,7 @@ Power BI ให้ผู้ใช้ ผู้ดูแลผู้เช่า 
 </tr>
 <tr>
 <td>คีย์</td>
-<td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<td>Software\Policies\Microsoft\Power BI Desktop&lt;/td&gt;
 </tr>
 <tr>
 <td>valueName</td>

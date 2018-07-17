@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34310555"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598898"
 ---
 # <a name="power-bi-performance-best-practices"></a>แนวทางปฏิบัติที่ดีที่สุดเพื่อประสิทธิภาพการทำงานของ Power BI 
 บทความนี้มีคำแนะนำสำหรับการสร้างรายงานอย่างรวดเร็ว และเชื่อถือได้ใน Power BI  
@@ -115,7 +115,7 @@ ms.locfileid: "34310555"
    [msmdsrv.exe] 
 
    ค้นหาพอร์ตที่ใช้โดย msmdsrv.exe และบันทึกไว้ใช้ในภายหลัง ในกรณีนี้ คุณใช้พอร์ต 55786 
-3.  **เชื่อมต่อ SQL Server Profiler ไปยัง Power BI Desktop** 
+3. **เชื่อมต่อ SQL Server Profiler ไปยัง Power BI Desktop** 
 
    - เริ่มตัว SQL Server Profiler จากเมนู**เริ่มต้น** 
    - **แฟ้ม** > **การติดตามใหม่** 

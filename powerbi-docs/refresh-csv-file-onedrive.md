@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 42f5353c49d562f4fefeec81867fd9e9ff4831c2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5f64c32b2e4756d8815316cc45ddfd96a2167d71
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239036"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092287"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>รีเฟรชชุดข้อมูลที่สร้างขึ้นจากการไฟล์ .CSV บน OneDrive หรือ SharePoint Online
 ## <a name="what-are-the-advantages"></a>มีข้อดีอะไรบ้าง?
@@ -31,7 +31,7 @@ ms.locfileid: "34239036"
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive หรือ OneDrive for Business อะไรคือความแตกต่าง?
 ถ้าคุณมีทั้ง OneDrive ส่วนบุคคลและ OneDrive for Business แนะนำให้คุณเก็บไฟล์ต่าง ๆ ที่คุณต้องการเชื่อมต่อใน Power BI บน OneDrive for Business นี่คือสาเหตุว่าทำไม: คุณน่าจะใช้บัญชีคนละบัญชีเพื่อลงชื่อเข้าใช้บริการทั้งสอง
 
-การเชื่อมต่อกับ OneDrive for Business ใน Power BI มักทำได้อย่างราบรื่น เพราะบัญชีที่คุณลงชื่อเข้าใช้ Power BI มักเป็นบัญชีเดียวกับที่ลงชื่อเข้าใช้ใน OneDrive for Business แต่กับ OneDrive ส่วนบุคคล คุณน่าจะลงชื่อเข้าใช้ด้วย[บัญชี Microsoft](http://www.microsoft.com/account/default.aspx) อื่น
+การเชื่อมต่อกับ OneDrive for Business ใน Power BI มักทำได้อย่างราบรื่น เพราะบัญชีที่คุณลงชื่อเข้าใช้ Power BI มักเป็นบัญชีเดียวกับที่ลงชื่อเข้าใช้ใน OneDrive for Business แต่กับ OneDrive ส่วนบุคคล คุณน่าจะลงชื่อเข้าใช้ด้วย[บัญชี Microsoft](https://account.microsoft.com) อื่น
 
 เมื่อคุณลงชื่อเข้าใช้บัญชี Microsoft ของคุณ ตรวจสอบให้แน่ใจว่าได้เลือก “คงการลงชื่อเข้าใช้ของฉันไว้เสมอ” จากนั้น Power BI ถึงสามารถแล้วซิงโครไนซ์การอัปเดตใด ๆ กับชุดข้อมูลใน Power BI ได้
 

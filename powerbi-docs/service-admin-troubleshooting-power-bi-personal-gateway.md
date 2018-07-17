@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 58e6dc99198eb4f031dd28b5c80cc8babb03dbfb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247275"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145421"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>แก้ไขปัญหาเกตเวย์ Power BI - ส่วนบุคคล
 ส่วนต่อไปนี้จะผ่านปัญหาทั่วไปบางอย่างที่คุณอาจพบเมื่อใช้เกตเวย์ Power BI - ส่วนบุคคล
@@ -146,7 +146,7 @@ ms.locfileid: "34247275"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [การกำหนดค่าพร็อกซีสำหรับเกตเวย์ Power BI](service-gateway-proxy.md)  
 [รีเฟรชข้อมูล](refresh-data.md)  
-[เกตเวย์ Power BI - ส่วนบุคคล](personal-gateway.md)  
+[เกตเวย์ Power BI - ส่วนบุคคล](service-gateway-personal-mode.md)  
 [แก้ไขปัญหาข้อผิดพลาดไทล์](refresh-troubleshooting-tile-errors.md)  
 [การแก้ไขปัญหาเกตเวย์ข้อมูลในองค์กร](service-gateway-onprem-tshoot.md)  
 มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

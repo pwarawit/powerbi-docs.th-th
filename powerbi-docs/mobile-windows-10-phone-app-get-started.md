@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/05/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 6cd1c8aec1bf31a8cae43074531014cbeef71bd5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2ee490107b802957b262d0a133d8e8b0e2a42754
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295134"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135800"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>เริ่มใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
 แอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10 พร้อมให้คุณใช้งาน Power BI บนแท็บเล็ตหรือโทรศัพท์ ด้วยการเข้าถึงข้อมูลทางธุรกิจของคุณแบบผ่านทางอุปกรณ์เคลื่อนที่ระบบสัมผัสที่ทันสมัย ดูและโต้ตอบกับแดชบอร์ดบริษัทของคุณจากที่ใดก็ได้ &#151; บน[หน้าจอเริ่มต้นของ Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)
@@ -121,6 +121,6 @@ ms.locfileid: "34295134"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ดาวน์โหลดแอป Power BI](http://go.microsoft.com/fwlink/?LinkID=526478) จาก Windows Store  
-* [เริ่มต้นใช้งาน Power BI](service-get-started.md)
+* [Power BI คืออะไร](power-bi-overview.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

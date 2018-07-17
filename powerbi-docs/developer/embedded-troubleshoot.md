@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 07/03/2018
 ms.author: maghan
-ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813169"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926570"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>แก้ไขปัญหาแอปพลิเคชันแบบฝังตัว
 
@@ -96,6 +96,44 @@ public static string GetExceptionText(this HttpOperationException exc)
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
 ```
 
+## <a name="authentication"></a>การรับรองความถูกต้อง
+
+### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>การรับรองความถูกต้องล้มเหลวเนื่องจาก AADSTS70002 หรือ AADSTS50053
+
+**(AADSTS70002: ข้อมูลประจำตัวผิดพลาด AADSTS50053: คุณได้พยายามลงชื่อเข้าใช้หลายครั้งเกินไป ด้วย ID ผู้ใช้หรือรหัสผ่านที่ไม่ถูกต้อง)**
+
+ถ้าคุณกำลังใช้ Power BI Embedded และการรับรองความถูกต้องโดยตรงของ Azure AD และคุณได้รับข้อความที่เข้าสู่ระบบเช่น***ข้อผิดพลาด: unauthorized_client, error_description:AADSTS70002: ข้อมูลประจำตัวผิดพลาด AADSTS50053: คุณได้พยายามลงชื่อเข้าใช้หลายครั้งเกินไป ด้วย ID ผู้ใช้หรือรหัสผ่านที่ไม่ถูกต้อง***นั่นเป็นเพราะว่าการรับรองความถูกต้องโดยตรงได้ถูกปิดใช้งานในวันที่ 6/14/2018
+
+เราขอแนะนำให้ใช้[การเข้าถึงตามเงื่อนไขของ Azure AD](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/)เพื่อบล็อกการรับรองความถูกต้องแบบดั้งเดิมหรือใช้[การรับรองความถูกต้องแบบพาส-ทรูของ Azure AD Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication)
+
+อย่างไรก็ตาม นั่นคือวิธีการเปลี่ยนไปใช้ [นโยบาย Azure AD ](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)ที่สามารถกำหนดว่าเป็นองค์กรหรือ[วัตถุบริการ](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)ได้
+
+**_เราขอแนะนำให้คุณเปิดใช้งานนี้สำหรับแต่ละแอป เท่านั้น และเมื่อจำเป็นสำหรับการแก้ไขปัญหาชั่วคราวเท่านั้น_**
+
+เมื่อต้องสร้างนโยบายนี้ คุณจำเป็นต้องเป็น**ผู้ดูแลระบบส่วนกลาง**สำหรับไดเรกทอรีที่คุณกำลังสร้างนโยบายและกำหนดสิ่งต่างๆ นี่คือสคริปต์ตัวอย่างสำหรับการสร้างนโยบาย และกำหนดนโยบายให้กับ SP สำหรับแอปพลิเคชันนี้:
+
+1. ติดตั้ง[การแสดงโมดูล Powershell ของ Azure AD](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)
+
+2. เรียกใช้คำสั่ง powershell แบบบรรทัดต่อบรรทัดต่อไปนี้(ทำให้แน่ใจว่า ตัวแปร $sp ไม่มีแอปพลิเคชันมากกว่า 1)
+
+```powershell
+Connect-AzureAD
+```
+
+```powershell
+$sp = Get-AzureADServicePrincipal -SearchString "Name_Of_Application"
+```
+
+```powershell
+$policy = New-AzureADPolicy -Definition @("{`"HomeRealmDiscoveryPolicy`":{`"AllowCloudPasswordValidation`":true}}") -DisplayName EnableDirectAuth -Type HomeRealmDiscoveryPolicy -IsOrganizationDefault $false
+```
+
+```powershell
+Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id 
+```
+
+หลังจากกำหนดนโยบาย โปรดรอประมาณ 15-20 วินาทีสำหรับการเผยแพร่ก่อนการทดสอบ
+
 **การสร้างโทเค็นล้มเหลวเมื่อให้ข้อมูลประจำตัวที่ใช้ได้**
 
 GenerateToken สามารถล้มเหลวได้เมื่อใช้งานข้อมูลประจำตัวที่ให้มาด้วยเหตุผลสองสามประการ
@@ -113,6 +151,30 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 * ถ้า IsEffectiveIdentityRolesRequired เป็นจริง ดังนั้นต้องมีบทบาท
 * รหัสชุดข้อมูลเป็นข้อบังคับสำหรับ EffectiveIdentity ใด ๆ
 * สำหรับ Analysis Services ผู้ใช้หลักจะต้องเป็นผู้ดูแลระบบเกตเวย์
+
+### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: การอนุมัติต้องมีสิทธิ์ระดับผู้ดูแลระบบ
+
+**_ปัญหา:_**</br>
+เมื่อผู้ใช้ไม่ใช่ผู้ดูแลระบบพยายามลงชื่อเข้าใช้แอปพลิเคชันเพื่อให้ได้รับอนุมัติและให้อนุมัติได้ เธอจะได้รับข้อผิดพลาดต่อไปนี้:
+* ConsentTest ต้องการสิทธิ์ในการเข้าถึงทรัพยากรในองค์กรของคุณที่ผู้ดูแลระบบเท่านั้นสามารถมอบหมายได้ โปรดขอให้ผู้ดูแลระบบให้สิทธิ์แอปนี้ก่อนที่คุณสามารถใช้งาน
+* AADSTS90094: การอนุมัติต้องได้รับสิทธิ์จากผู้ดูแลระบบ
+
+    ![การทดสอบความยินยอม](media/embedded-troubleshoot/consent-test-01.png)
+
+ผู้ใช้ที่เป็นผู้ดูแลระบบสามารถลงชื่อเข้าใช้ และให้สิทธิ์ได้
+
+**_สาเหตุ:_**</br>
+การอนุมัติของผู้ใช้ถูกปิดใช้งานสำหรับผู้เช่า
+
+**_แก้ไขปัญหาได้ดังนี้้:_**
+
+*เปิดใช้งานการอนุมัติของผู้ใข้สำหรับผู้เช่าทั้งหมด (ผู้ใช้ทั้งหมด แอปพลิเคชั้นทั้งหมด)*
+1. ในพอร์ทัล Azure ไปที่ "Azure Active Directory" = > "ผู้ใช้และกลุ่ม" = > "การตั้งค่าผู้ใช้"
+2. เปิดใช้งานการตั้งค่า “ผู้ใช้สามารถยินยอมให้แอปเข้าถึงข้อมูลของบริษัทในนามของพวกเขา” แล้วเลือก บันทึก การเปลี่ยนแปลง
+
+    ![การแก้ไขการทดสอบความยินยอม](media/embedded-troubleshoot/consent-test-02.png)
+
+*ให้สิทธิ์ โดยผู้ดูแลระบบ*จะเป็นการให้สิทธิ์แอปพลิเคชันโดยผู้ดูแลระบบบ - สำหรับผู้เช่าทั้งหมด หรือ สำหรับผู้ใช้ที่ระบุ
 
 ## <a name="data-sources"></a>แหล่งข้อมูล
 
@@ -175,7 +237,7 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 
     AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
 
-ทั้งนี้เนื่องจาก URL เปลี่ยนเส้นทางที่ระบุสำหรับเว็บเซิร์ฟเวอร์แอปพลิเคชัน แตกต่างจาก URL ของตัวอย่าง ถ้าคุณต้องการลงทะเบียนแอปพลิเคชันตัวอย่าง ใช้ *http://localhost:13526/* เป็น URL เปลี่ยนเส้นทาง
+ทั้งนี้เนื่องจาก URL เปลี่ยนเส้นทางที่ระบุสำหรับเว็บเซิร์ฟเวอร์แอปพลิเคชัน แตกต่างจาก URL ของตัวอย่าง ถ้าคุณต้องการลงทะเบียนแอปพลิเคชันตัวอย่าง ใช้ `http://localhost:13526/` เป็น URL เปลี่ยนเส้นทาง
 
 ถ้าคุณต้องการแก้ไขแอปพลิเคชันที่ลงทะเบียนแล้ว ให้เรียนรู้วิธีการแก้ไข[แอปพลิเคชันที่ลงทะเบียน AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) เพื่อที่แอปพลิเคชันจะสามารถให้การเข้าถึง API ของเว็บ
 

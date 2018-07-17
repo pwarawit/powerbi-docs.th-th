@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 779bfb3e69a76d0fe9e9a34d6576b2054de89cc1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: aa7fcc720861d1459183aaf7a82a2af8912eb5b6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253630"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599759"
 ---
 # <a name="data-refresh-in-power-bi"></a>การรีเฟรชข้อมูลใน Power BI
 การทำให้แน่ใจว่า คุณได้รับข้อมูลล่าสุดเสมอมักเป็นเรื่องที่สำคัญอย่างยิ่งต่อการตัดสินใจให้ถูกต้อง คุณอาจเคยใช้ รับข้อมูลใน Power BI เพื่อเชื่อมต่อและอัปโหลดข้อมูลบางอย่าง สร้างรายงานบางอย่างและแดชบอร์ดมาแล้ว ตอนนี้ คุณต้องการจะตรวจสอบให้แน่ใจว่า ข้อมูลของคณเป็นข้อมูลล่าสุดและดีที่สุดจริงๆ
@@ -101,6 +101,7 @@ ms.locfileid: "34253630"
 การเก็บไฟล์ของคุณไว้บน OneDrive หรือ SharePoint Online และการเชื่อมต่อกับไฟล์เหล่านี้จาก Power BI จะทำให้มีความยืดหยุ่นมาก แต่ด้วยความยืดหยุ่นทั้งหมดนี้ ก็ทำให้เป็นเรื่องท้าทายมากที่สุดเรื่องหนึ่งในการทำความเข้าใจด้วย การรีเฟรชตามกำหนดการสำหรับไฟล์ที่จัดเก็บใน OneDrive หรือ SharePoint Online นั้นจะแตกต่างจากการรีเฟรชแพคเกจ คุณสามารถเรียนรู้เพิ่มเติมได้ในส่วน [ชนิดการรีเฟรช](#types-of-refresh)
 
 ### <a name="power-bi-desktop-file"></a>ไฟล์ Power BI Desktop
+
 | **แหล่งข้อมูล** | **รีเฟรชโดยอัตโนมัติ** | **การรีเฟรชด้วยตนเองตามที่ผู้ใช้กำหนดค่าหรือตามกำหนดการ** | **เกตเวย์ที่จำเป็น** |
 | --- | --- | --- | --- |
 | Get Data (บน ribbon) จะถูกใช้เพื่อเชื่อมต่อกับและสอบถามข้อมูลจากแหล่งข้อมูลแบบออนไลน์ที่แสดงรายการไว้ใด ๆ |ไม่ใช่ |ใช่ |ไม่ใช่ (ดูด้านล่าง) |
@@ -117,6 +118,7 @@ ms.locfileid: "34253630"
 สำหรับรายละเอียด ดู [รีเฟรชชุดข้อมูลที่สร้างจากไฟล์ Power BI Desktop บน OneDrive](refresh-desktop-file-onedrive.md)
 
 ### <a name="excel-workbook"></a>สมุดงาน Excel
+
 | **แหล่งข้อมูล** | **รีเฟรชโดยอัตโนมัติ** | **การรีเฟรชด้วยตนเองตามที่ผู้ใช้กำหนดค่าหรือตามกำหนดการ** | **เกตเวย์ที่จำเป็น** |
 | --- | --- | --- | --- |
 | ตารางข้อมูลในแผ่นงานที่ไม่ได้โหลดลงในตัวแบบข้อมูล Excel |ใช่ เป็นรายชั่วโมง *(OneDrive/SharePoint Online เท่านั้น)* |ด้วยตนเองเท่านั้น *(OneDrive/SharePoint Online เท่านั้น)* |ไม่ใช่ |
@@ -131,6 +133,7 @@ ms.locfileid: "34253630"
 สำหรับข้อมูลรายละเอียดเพิ่มเติม ดู [รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel บน OneDrive](refresh-excel-file-onedrive.md)
 
 ### <a name="comma-separated-value-csv-file-on-onedrive-or-sharepoint-online"></a>ไฟล์ที่มีค่าที่คั่นด้วยเครื่องหมายจุลภาค (.csv) บน OneDrive หรือ SharePoint Online
+
 | **แหล่งข้อมูล** | **รีเฟรชโดยอัตโนมัติ** | **การรีเฟรชด้วยตนเองตามที่ผู้ใช้กำหนดค่าหรือตามกำหนดการ** | **เกตเวย์ที่จำเป็น** |
 | --- | --- | --- | --- |
 | ค่าที่คั่นด้วยเครื่องหมายจุลภาคอย่างง่าย |ใช่ เป็นรายชั่วโมง |ด้วยตนเองเท่านั้น |ไม่ใช่ |
@@ -145,6 +148,7 @@ ms.locfileid: "34253630"
 **ชุดเนื้อหาระดับองค์กร**: ที่สร้างและร่วมใช้โดยผู้ใช้ในองค์กรของคุณเอง ผู้ใช้งานชุดเนื้อหาจะไม่สามารถตั้งค่ากำหนดการรีเฟรชหรือรีเฟรชด้วยตนเองได้ เฉพาะผู้สร้างชุดเนื้อหาเท่านั้นที่สามารถตั้งค่าการรีเฟรชสำหรับชุดข้อมูลในชุดเนื้อหาได้ การตั้งค่าการรีเฟรชจะดำเนินการสืบต่อมาด้วยชุดข้อมูล
 
 ### <a name="content-packs-from-online-services"></a>ชุดเนื้อหาจากบริการออนไลน์
+
 | **แหล่งข้อมูล** | **รีเฟรชโดยอัตโนมัติ** | **การรีเฟรชด้วยตนเองตามที่ผู้ใช้กำหนดค่าหรือตามกำหนดการ** | **เกตเวย์ที่จำเป็น** |
 | --- | --- | --- | --- |
 | บริการออนไลน์ในบริการ &gt;Get Data |ใช่ |ใช่ |ไม่ใช่ |
@@ -237,7 +241,7 @@ ms.locfileid: "34253630"
 > 
 > 
 
-เมื่อต้องการเรียนรู้เพิ่มเติม ดู [ข้อมูล Excel ใน Power BI](service-excel-workbook-files.md), [Power BI Gateway-Personal](personal-gateway.md), [เกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem.md), [รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel บนไดรฟ์ภายในเครื่อง](refresh-excel-file-local-drive.md)
+เมื่อต้องการเรียนรู้เพิ่มเติม ดู [ข้อมูล Excel ใน Power BI](service-excel-workbook-files.md), [Power BI Gateway-Personal](service-gateway-personal-mode.md), [เกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem.md), [รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel บนไดรฟ์ภายในเครื่อง](refresh-excel-file-local-drive.md)
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>ไฟล์ Power BI Desktop ที่มีข้อมูลจากตัวดึงข้อมูล OData
 ในกรณีนี้ คุณจะใช้ Get Data ใน Power BI Desktop เพื่อเชื่อมต่อ และนำเข้าข้อมูล census จากตัวดึงข้อมูล OData  คุณสร้างรายงานหลายรายงานใน Power BI Desktop แล้วจึงตั้งชื่อไฟล์ WACensus และบันทึกลงในส่วนที่ใช้ร่วมกันในบริษัทของคุณ จากนั้น จึงเผยแพร่ไฟล์ไปยังบริการ Power BI
@@ -270,7 +274,7 @@ ms.locfileid: "34253630"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [เครื่องมือสำหรับแก้ไขประเด็นปัญหาในการรีเฟรช](service-gateway-onprem-tshoot.md)  
 [การแก้ไขปัญหาสถานการณ์สมมติในการรีเฟรช](refresh-troubleshooting-refresh-scenarios.md)  
-[Power BI Gateway-Personal](personal-gateway.md)  
+[Power BI Gateway-Personal](service-gateway-personal-mode.md)  
 [เกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem.md)  
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: a86b1d6823a1d889b47015d1213a9a056c537703
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250326"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926662"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>ไม่สามารถเพิ่ม Power BI กับ Office 365 ที่สมัครผ่านคู่ค้า
 Office 365 อนุญาตให้บริษัทสามารถขายต่อ Office 365 โดยรวมเข้ากับโซลูชันของพวกเขาเอง และให้ลูกค้าปลายทาง มีที่ติดต่อเดียว สำหรับการจัดซื้อ การเรียกเก็บเงิน และการสนับสนุน
@@ -33,7 +33,7 @@ Office 365 อนุญาตให้บริษัทสามารถขา
 
 [Power BI (ฟรี)](#power-bi-free)
 
-[Power BI Pro และ Premium](#power-bi-pro)
+[Power BI Pro และ Premium](#power-bi-pro-and-premium)
 
 ## <a name="power-bi-free"></a>Power BI (ฟรี)
 ถ้าคุณพอใจกับข้อเสนอแบบฟรีสำหรับ Power BI คุณสามารถลงทะเบียนสำหรับบริการฟรี ตามค่าเริ่มต้น แต่ละลงชื่อสมัครใช้งานรายบุคคล หรือที่เรียกว่าการสมัครแบบเฉพาะกิจ (ad-hoc) จะถูกปิดไม่ให้ใช้งาน เมื่อคุณพยายามลงทะเบียนกับ Power BI คุณจะเห็นข้อความที่ระบุว่า แผนก IT ของคุณได้ปิดการลงทะเบียนสำหรับ Microsoft Power BI

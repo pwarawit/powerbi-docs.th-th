@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 920e61ed173e979a92958e56f9e0276f26288b3f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 7fe40fa3ea4a80198c3b06d2594c7ad0837ee923
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250686"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136191"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>เพิ่มรายการโปรด แดชบอร์ด รายงาน และแอปใน Power BI service
 เมื่อคุณทำให้เนื้อหาให้เป็น*รายการโปรด*คุณจะสามารถเข้าถึงได้จากพื้นที่ทำงานของคุณทั้งหมด  รายการโปรดโดยทั่วไปแล้วเป็นเนื้อหาที่คุณเยี่ยมชมบ่อยที่สุด
@@ -76,9 +76,9 @@ ms.locfileid: "34250686"
 > 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)
+[Power BI คืออะไร](power-bi-overview.md)
 
-[Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
+[Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: maggies
-ms.openlocfilehash: a7012bf96ee0f8ac7e73d1db21e9a36f0fea88cb
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b09fd5846689299f426fc779061efaa30f8f6909
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481060"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599169"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>การสนับสนุนเบราว์เซอร์สำหรับ Power BI Report Server
 Power BI Report Server จะมีการเผยแพร่ไม่กี่ครั้งต่อปี ความปลอดภัยและการอัปเดตที่สำคัญจะพร้อมใช้งานจนกว่าการเผยแพร่ถัดไปจะพร้อมใช้งานโดยทั่วไป (GA) หลังจากการเผยแพร่ถัดไป การเผยแพร่ก่อนหน้านี้จะยังคงได้รับการอัปเดตความปลอดภัยสำหรับส่วนที่เหลือในช่วงอายุการเผยแพร่ 12 เดือน
@@ -27,6 +27,7 @@ Power BI Report Server จะมีการเผยแพร่ไม่กี
     ![กราฟแสดงภาพกรอบเวลาที่สนับสนุน](media/support-timeline/report-server-support-timeline-mar-2018.png)
 
 ## <a name="version-history"></a>ประวัติเวอร์ชั่น
+
 | **เวอร์ชัน** | **วันที่พร้อมใช้งาน** | **วันที่สิ้นสุดการสนับสนุน** |
 | --- | --- | --- |
 | มิถุนายน 2017 |12 มิถุนายน 2017 |12 มิถุนายน 2018 |

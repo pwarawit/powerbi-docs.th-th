@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c2b9a106c4007af868cf69902ce511da8e03e75f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e4ffc542a9564ba3893245ef637b3edd01c38640
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34244572"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598766"
 ---
 # <a name="change-the-size-of-a-report-page"></a>เปลี่ยนขนาดของหน้ารายงาน
 ใน[บทความและวิดีโอก่อนหน้านี้](power-bi-report-display-settings.md)คุณได้เรียนรู้สองวิธีในการควบคุมการแสดงหน้าในรายงาน Power BI: **มุมมอง**และ**ขนาดหน้า** มุมมองหน้าและขนาดหน้ามีใช้งานทั้งในบริการ Power BI และ Power BI Desktop โดยที่มีลักษณะและฟังก์ชันการทำงานเกือบเหมือนกันทั้งหมด แต่สำหรับบทช่วยสอนนี้ เราจะใช้บริการ Power BI
@@ -31,19 +31,19 @@ ms.locfileid: "34244572"
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_page.png)
 2. ตรวจสอบให้แน่ใจว่าไม่มีการเลือกการแสดงภาพใดบนพื้นที่รายงาน เลือก**มุมมอง**และตรวจทานตัวเลือกการแสดง
 
-    * ในมุมมองการอ่าน คุณจะเห็นข้อมูลนี้
+   * ในมุมมองการอ่าน คุณจะเห็นข้อมูลนี้
 
      ![](media/power-bi-change-report-display-settings/power-bi-page-view-menu-new.png)
-    * ในมุมมองการแก้ไข คุณจะเห็นข้อมูลนี้
+   * ในมุมมองการแก้ไข คุณจะเห็นข้อมูลนี้
 
-    ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
+     ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
 
-1. มาดูลักษณะที่ปรากฏของหน้าโดยใช้การตั้งค่า**ขนาดจริง**
+3. มาดูลักษณะที่ปรากฏของหน้าโดยใช้การตั้งค่า**ขนาดจริง**
 
    ![](media/power-bi-change-report-display-settings/power-bi-actal-size2.png)
 
    ไม่สวยเท่าไหร่ ตอนนี้แดชบอร์ดมีแถบเลื่อนสองแถบ
-2. สลับไปยัง**พอดีกับความกว้าง**
+4. สลับไปยัง**พอดีกับความกว้าง**
 
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_width.png)
 

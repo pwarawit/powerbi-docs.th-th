@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/03/2018
 ms.author: maggies
-ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
-ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
+ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
+ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34799636"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "37864410"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 สำหรับ "ข้อมูลอะไรใหม่" ที่เกี่ยวข้อง ให้ดู
@@ -22,6 +22,16 @@ ms.locfileid: "34799636"
 * [บล็อกทีมของ power BI สำหรับแอป mobile](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [มีอะไรใหม่ใน Power BI Desktop](desktop-latest-update.md)  
 * [มีอะไรใหม่ในบริการ Power BI](service-whats-new.md)  
+
+## <a name="june-2018"></a>มิถุนายน 2018
+
+### <a name="full-canvas-reports"></a>รายงานพื้นที่ทำงานแบบสมบูรณ์
+
+แถบการดำเนินการด้านบนและด้านล่างจะหายไปไม่นานหลังจากการโหลดรายงาน ดังนั้น คุณจะสามารถดูรายงานได้มากขึ้นในทันที
+
+### <a name="increased-phone-report-canvas-size"></a>ขนาดพื้นที่รายงานแบบโทรศัพท์ที่เพิ่มขึ้น
+
+เราได้เพิ่มขนาดพื้นที่รายงานแบบโทรศัพท์ให้มีพื้นที่ว่างสำหรับการแสดงภาพมากขึ้นกว่าแต่ก่อน
 
 ## <a name="may-2018"></a>พฤษภาคม 2018
 

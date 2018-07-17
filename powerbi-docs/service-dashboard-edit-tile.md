@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34248353"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598989"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>แก้ไขหรือลบแดชบอร์ดไทล์
 
@@ -35,12 +35,12 @@ ms.locfileid: "34248353"
 * [ปักหมุดไทล์ให้แดชบอร์ดต่างๆ](#different)
 * [ลบไทล์](#delete)
   
- > [!TIP]
- > เมื่อต้องเปลี่ยนการแสดงภาพที่แสดงบนไทล์เอง ลบไทล์ และเพิ่ม[แดชบอร์ดไทล์](service-dashboard-tiles.md)ใหม่
- > 
+  > [!TIP]
+  > เมื่อต้องเปลี่ยนการแสดงภาพที่แสดงบนไทล์เอง ลบไทล์ และเพิ่ม[แดชบอร์ดไทล์](service-dashboard-tiles.md)ใหม่
 
- ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
- 1. เพื่อติดตาม ให้เปิด Power BI service(ไม่ใช่ Power BI Desktop) และ[ดาวน์โหลดตัวอย่างการวิเคราะห์การใช้จ่ายด้าน IT](sample-it-spend.md) เมื่อข้อความแสดงความสำเร็จปรากฏขึ้น เลือก **ไปยังแดชบอร์ด**
+  
+## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
+เพื่อติดตาม ให้เปิด Power BI service(ไม่ใช่ Power BI Desktop) และ[ดาวน์โหลดตัวอย่างการวิเคราะห์การใช้จ่ายด้าน IT](sample-it-spend.md) เมื่อข้อความแสดงความสำเร็จปรากฏขึ้น เลือก **ไปยังแดชบอร์ด**
 
 - - -
 <a name="create"></a>

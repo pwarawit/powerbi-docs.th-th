@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/25/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5492ed25dc5bd803661186694e7f9d3f4e19c30f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6ba62900206149f754f774f6bfd031aeb71f7437
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291569"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134857"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>ปักหมุดแดชบอร์ดลงในหน้าจอเริ่มต้นของ Windows 10 ของคุณจากแอป Power BI บนอุปกรณ์เคลื่อนที่
 คุณสามารถปักหมุดแดชบอร์ด Power BI ลงในหน้าจอเริ่มต้นของ Windows จากแอป Power BI บนอุปกรณ์เคลื่อนที่สำหรับ Windows 10 สิ่งเหล่านั้นจะกลายเป็น*ไทล์รายงานสด* เมื่อคุณแตะไทล์บนหน้าจอเริ่มต้น แดชบอร์ดจะที่เปิดขึ้นในแอป Power BI บนอุปกรณ์เคลื่อนที่สำหรับ Windows 10
@@ -33,7 +33,7 @@ ms.locfileid: "34291569"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ดาวน์โหลดแอป Power BI บนอุปกรณ์เคลื่นที่สำหรับ Windows 10](http://go.microsoft.com/fwlink/?LinkID=526478)จาก Windows Store  
-* [เริ่มต้นใช้งานแอป Power BI บนอุปกรณ์เคลื่อนสำหรับ Windows 10](mobile-windows-10-phone-app-get-started.md)  
-* [เริ่มต้นใช้งานด้วย Power BI](service-get-started.md)
+* [เริ่มต้นใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10](mobile-windows-10-phone-app-get-started.md)  
+* [Power BI คืออะไร](power-bi-overview.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

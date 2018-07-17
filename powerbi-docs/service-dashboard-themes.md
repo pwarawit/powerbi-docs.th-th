@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813813"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944663"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>ใช้ธีมแดชบอร์ดในบริการของ Power BI
 ด้วย**ธีมแดชบอร์ด** คุณสามารถใช้ธีมสีกับทั้งแดชบอร์ดของคุณ เช่นสีขององค์กร การกำหนดสีตามฤดูกาล หรือธีมสีอื่นๆ ที่คุณอาจต้องการนำไปใช้ เมื่อคุณนำ**ธีมแดชบอร์ด**ไปใช้งาน วิชวลทั้งหมดบนแดชบอร์ดของคุณจะใช้สีจากธีมที่คุณเลือก (มีข้อยกเว้นบางข้อ ซึ่งจะอธิบายภายหลังในบทความนี้)
@@ -89,7 +89,6 @@ ms.locfileid: "34813813"
 
     ![ใช้ธีมปลายทาง](media/service-dashboard-themes/power-bi-use-destination.png)
 
-* ธีมแดชบอร์ดในขณะนี้ยังไม่สนับสนุน เมื่อดูแดชบอร์ดแบบฝังตัวโดยใช้ REST API บนอุปกรณ์เคลื่อนที่ หรือโดยผู้ใช้ภายนอก    
 * ธีมแดชบอร์ดไม่สามารถใช้กับหน้ารายงานสด, ไทล์ iframe, ไทล์ SSRS, ไทล์เวิร์กบุ๊ก หรือรูปภาพที่ปักหมุดได้
 * ธีมแดชบอร์ดสามารถดูได้บนอุปกรณ์เคลื่อนที่ แต่การสร้างธีมแดชบอร์ดสามารถทำได้ในบริการของ Power BI เท่านั้น 
 * ธีมแดชบอร์ดแบบกำหนดเองทำงานกับเฉพาะไทล์ที่ปักหมุดจากรายงาน 

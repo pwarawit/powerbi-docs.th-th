@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 377ea4acc1a6fb41101571ac3ed0be2f3e50889b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 872045a52f2f13829d26de8dd288ac723dcd2788
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246168"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599539"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>สร้างรายงานใหม่ในบริการ Power BI โดยการนำเข้าชุดข้อมูล
 คุณได้อ่าน[รายงานใน Power BI](service-reports.md)และตอนนี้ คุณต้องการสร้างรายงานของคุณเอง มีวิธีการสร้างรายงานหลากหลายวิธี และในบทความนี้เราจะเริ่มต้นด้วยการสร้างรายงานพื้นฐานจากชุดข้อมูล Excel โดยใช้บริการ Power BI เมื่อคุณทำความเข้าใจพื้นฐานของการสร้างรายงาน การ**ขั้นตอนถัดไป**ที่ด้านล่างจะพาคุณไปยังหัวข้อการรายงานขั้นสูงเพิ่มเติม  
 
 > **เคล็ดลับ**: เมื่อต้องการสร้างรายงาน โดยการคัดลอกรายงานที่มีอยู่ ดู[คัดลอกรายงาน](power-bi-report-copy.md)
 > 
-### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-- บริการ Power BI (สำหรับการสร้างรายงานโดยใช้ Power BI Desktop ให้ดู [มุมมองรายงานบนเดสก์ท็อป](desktop-report-view.md))  
-- ตัวอย่างการวิเคราะห์การค้าปลีก
+> ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
+> - บริการ Power BI (สำหรับการสร้างรายงานโดยใช้ Power BI Desktop ให้ดู [มุมมองรายงานบนเดสก์ท็อป](desktop-report-view.md))  
+> - ตัวอย่างการวิเคราะห์การค้าปลีก
 
 ## <a name="import-the-dataset"></a>นำเข้าชุดข้อมูล
 วิธีการสร้างรายงานนี้เริ่มต้น ด้วยชุดข้อมูลและพื้นที่ว่างเปล่ารายงานว่างเปล่า เมื่อต้องติดตาม[ดาวน์โหลดชุดข้อมูล Excel ตัวอย่างการวิเคราะห์ร้านค้าปลีก](http://go.microsoft.com/fwlink/?LinkId=529778)และบันทึกไปยัง OneDrive for Business (ที่ต้องการ) หรือภายในเครื่อง

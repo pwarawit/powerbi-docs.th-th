@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2dc47d1fdf539c20cc0aabadd65b0401dc172ae8
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 087813feb7db96a320c48ed6b2433a7183446c71
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34298975"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926524"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>บทช่วยสอน: เชื่อมต่อกับข้อมูลภายในองค์กรใน SQL Server
 
@@ -128,7 +128,7 @@ ms.locfileid: "34298975"
 
 ## <a name="add-sql-server-as-a-gateway-data-source"></a>เพิ่ม SQL Server เป็นแหล่งข้อมูลเกตเวย์
 
-ใน Power BI Desktop คุณเชื่อมต่อโดยตรงกับ SQL Server แต่บริการของ Power BI จำเป็นต้องใช้เกตเวย์เพื่อทำหน้าที่เป็นบริดจ์ ตอนนี้ คุณเพิ่มของอินสแตนซ์ของ SQL Server ให้เป็นแหล่งข้อมูลสำหรับเกตเวย์ที่คุณสร้างไว้ในบทความก่อนหน้า (แสดงอยู่ภายใต้[ข้อกำหนดเบื้องต้น](#prereqisites)) 
+ใน Power BI Desktop คุณเชื่อมต่อโดยตรงกับ SQL Server แต่บริการของ Power BI จำเป็นต้องใช้เกตเวย์เพื่อทำหน้าที่เป็นบริดจ์ ตอนนี้ คุณเพิ่มของอินสแตนซ์ของ SQL Server ให้เป็นแหล่งข้อมูลสำหรับเกตเวย์ที่คุณสร้างไว้ในบทความก่อนหน้า (แสดงอยู่ภายใต้[ข้อกำหนดเบื้องต้น](#prerequisites)) 
 
 1. ที่มุมบนขวาของบริการของ Power BI เลือกไอคอนรูปเฟือง ![ไอคอนเฟืองตั้งค่า](media/service-gateway-sql-tutorial/icon-gear.png) > **จัดการเกตเวย์**
 
@@ -142,15 +142,17 @@ ms.locfileid: "34298975"
 
     ![ใส่การตั้งค่าแหล่งข้อมูล](media/service-gateway-sql-tutorial/data-source-settings.png)
 
-    | ตัวเลือก | ค่า |
-    | ---    | ---   |
-    | **ชื่อแหล่งข้อมูล**       | test-sql-source      |
-    | **ชนิดแหล่งข้อมูล**       | เซิร์ฟเวอร์ SQL      |
-    | **เซิร์ฟเวอร์**       |  ชื่อของอินสแตนซ์ SQL Server ของคุณ (ต้องเหมือนกับสิ่งที่คุณได้ระบุไว้ใน Power BI Desktop)    |
-    | **ฐานข้อมูล**       | TestGatewayDocs      |
-    | **วิธีการรับรองความถูกต้อง**       | Windows      |
-    | **ชื่อผู้ใช้**        |  บัญชี เช่น michael@contoso.com ที่คุณใช้เพื่อเชื่อมต่อกับ SQL Server     |
-    | **รหัสผ่าน**       |  รหัสผ่านสำหรับบัญชีที่คุณใช้เพื่อเชื่อมต่อกับ SQL Server    |
+
+   |          ตัวเลือก           |                                               ค่า                                                |
+   |---------------------------|----------------------------------------------------------------------------------------------------|
+   |   **ชื่อแหล่งข้อมูล**    |                                          test-sql-source                                           |
+   |   **ชนิดแหล่งข้อมูล**    |                                             เซิร์ฟเวอร์ SQL                                             |
+   |        **เซิร์ฟเวอร์**         | ชื่อของอินสแตนซ์ SQL Server ของคุณ (ต้องเหมือนกับสิ่งที่คุณได้ระบุไว้ใน Power BI Desktop) |
+   |       **ฐานข้อมูล**        |                                          TestGatewayDocs                                           |
+   | **วิธีการรับรองความถูกต้อง** |                                              Windows                                               |
+   |       **ชื่อผู้ใช้**        |             บัญชี เช่น michael@contoso.com ที่คุณใช้เพื่อเชื่อมต่อกับ SQL Server             |
+   |       **รหัสผ่าน**        |                   รหัสผ่านสำหรับบัญชีที่คุณใช้เพื่อเชื่อมต่อกับ SQL Server                    |
+
 
 4. เลือก**เพิ่ม** คุณจะเห็นข้อความ*การเชื่อมต่อเป็นที่สำเร็จ* เมื่อกระบวนการสำเร็จ
 

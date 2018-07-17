@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c57ae7a0213ce324f673e53862ba3dfa38f57409
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481911"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092678"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>กำหนดค่าเซิร์ฟเวอร์รายงานของคุณเพื่อโฮสต์ เวิร์กบุ๊ก Excel โดยใช้ Office Online Server (OOS)
 นอกเหนือจากการดูรายงาน Power BI ในพอร์ทัลของเว็บแล้ว เซิร์ฟเวอร์รายงาน Power BI สามารถโฮสต์สมุดงาน Excel โดยใช้ [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS) ได้ เซิร์ฟเวอร์รายงานของคุณกลายเป็นสถานที่เดียวเพื่อเผยแพร่ และดูเนื้อหา Microsoft BI แบบบริการตนเอง
@@ -78,7 +78,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **พารามิเตอร์**
 
-* **–InternalURL** คือชื่อโดเมนแบบเต็ม (FQDN) ของเซิร์ฟเวอร์ที่เรียกใช้ Office Online Server เช่น http://servername.contoso.com
+* **–InternalURL** คือชื่อโดเมนแบบเต็ม (FQDN) ของเซิร์ฟเวอร์ที่เรียกใช้ Office Online Server เช่น `http://servername.contoso.com`
 * **–ExternalURL** คือ FQDN ที่สามารถเข้าถึงได้บนอินเทอร์เน็ต
 * **–CertificateName** คือชื่อที่เข้าใจง่ายของใบรับรอง
 
@@ -91,7 +91,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **พารามิเตอร์**
 
-* **–InternalURL** คือชื่อของเซิร์ฟเวอร์ที่เรียกใช้ Office Online Server เช่น http://servername
+* **–InternalURL** คือชื่อของเซิร์ฟเวอร์ที่เรียกใช้ Office Online Server เช่น `http://servername`
 * **–AllowHttp** กำหนดค่าฟาร์มให้ใช้ HTTP
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>ตรวจสอบว่าฟาร์มของ Office Online Server ถูกสร้างขึ้นเรียบร้อยแล้ว

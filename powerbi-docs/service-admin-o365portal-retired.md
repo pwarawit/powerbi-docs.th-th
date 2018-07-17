@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 024bdce00ba6ec7b9c1027163776a71e77aaf91d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c0090cb81ebaebc6b4cec70163374be4f1f37980
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34456122"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135823"
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>Power BI สำหรับ Office 365 จะหยุดใช้งาน
 Power BI สำหรับ Office 365, Power BI เวอร์ชันก่อนหน้าได้ถูกเปลี่ยนไปเป็น [Power BI](https://powerbi.microsoft.com) เวอร์ชันล่าสุด ผู้ใช้ที่เคยใช้ **Power BI สำหรับ Office 365** สามารถใช้ Power BI เวอร์ชันปัจจุบันได้ คุณสามารถ[เรียนรู้เพิ่มเติมเกี่ยวกับ Power BI](service-get-started.md)ได้
@@ -28,8 +28,8 @@ Power BI สำหรับ Office 365, Power BI เวอร์ชันก่�
 สำหรับข้อมูลเพิ่มเติม ดู[พอร์ทัลผู้ดูแลระบบของ Power BI](service-admin-portal.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)
+[Power BI คืออะไร](power-bi-overview.md)
 
-[เริ่มต้นใช้งานกับ Power BI Desktop](desktop-getting-started.md)
+[Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
 
 [การดูแล Power BI ในองค์กรของคุณ](service-admin-administering-power-bi-in-your-organization.md)

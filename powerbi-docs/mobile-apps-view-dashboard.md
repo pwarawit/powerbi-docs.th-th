@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: db201098d6bd7207164b2ff08acb363563211f72
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295888"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137272"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>ดูแดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -195,6 +195,6 @@ ms.locfileid: "34295888"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ดาวน์โหลดแอป Android](http://go.microsoft.com/fwlink/?LinkID=544867)จาก Google play  
 * [เริ่มต้นใช้งานแอป Android สำหรับ Power BI](mobile-android-app-get-started.md)  
-* [เริ่มต้นใช้งาน Power BI](service-get-started.md)
+* [Power BI คืออะไร](power-bi-overview.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

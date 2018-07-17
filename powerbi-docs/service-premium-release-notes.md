@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52c6293bacb2cae1d74a7a0459c61fe3c3bc201f
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34298331"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944364"
 ---
 # <a name="power-bi-premium-release-notes"></a>บันทึกย่อประจำรุ่นของ Power BI Premium
 ต่อไปนี้คือ บันทึกย่อประจำรุ่นสำหรับ Power BI Premium ความจุที่ให้องค์กรหรือทีมของคุณ มีประสิทธิภาพที่เชื่อถือได้ยิ่งขึ้น มีปริมาณข้อมูลขนาดใหญ่มากขึ้น และความสามารถในการแจกจ่ายเนื้อหา โดยไม่มีข้อจำกัดสิทธิ์การใช้ของโปรแกรมที่ใช้เปิดอ่าน
 
-* ผู้ใช้ที่มีสิทธิ์การใช้งาน Power BI Free ตอนนี้สามารถดูแดชบอร์ดที่แชร์ให้แก่พวกเขาจากพื้นที่ทำงาน Premium ในบริการ Power BI ได้แล้ว
+* ผู้ใช้ทั้งหมดไม่ว่ามีสิทธิ์การใช้งานใด ตอนนี้สามารถดูแดชบอร์ดที่แชร์ให้แก่พวกเขาจากพื้นที่ทำงาน Premium ในบริการ Power BI ได้แล้ว
 * ผู้ดูแลความจุ จะได้รับสิทธิ์ในการกำหนดความจุโดยอัตโนมัติ
 * การรักษาความปลอดภัยระดับแถว (RLS) แบบไดนามิก มีให้ใช้งานแล้วสำหรับกรณีใช้งานแบบฝังตัว สำหรับข้อมูลเพิ่มเติม ดู[การรักษาความปลอดภัยระดับแถว (RLS) ที่มีการฝังตัววิเคราะห์](developer/embedded-row-level-security.md)
 * แจกจ่ายแอป Power BI กับผู้ใช้ในผู้เช่า AAD อื่น ๆ โดยใช้ powerbi.com ยังไม่ได้รับการสนับสนุน เราอยู่ในระหว่างการดำเนินเพื่อเปิดให้ใช้งาน

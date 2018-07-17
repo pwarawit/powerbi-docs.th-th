@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 06/22/2018
 ms.author: maghan
-ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 82a4c9c58567f5ace943363b7bed59fa744e85a5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561758"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944111"
 ---
 # <a name="embedding-with-power-bi"></a>การฝังด้วย Power BI
 Power BI มี API สำหรับฝังแดชบอร์ดและรายงานของคุณลงในแอปพลิเคชัน Power BI API มีชุดความสามารถที่สอดคล้องกันและสิทธิ์เข้าถึงฟีเจอร์ล่าสุดของ Power BI เช่น แดชบอร์ด เกตเวย์ และพื้นที่ทำงานแอปขณะฝังเนื้อหาของคุณ
@@ -29,7 +29,7 @@ Power BI มี API สำหรับฝังแดชบอร์ดและ
 ## <a name="embedding-for-your-organization"></a>สำหรับองค์กรของคุณ
 การฝังสำหรับองค์กรช่วยให้คุณขยายบริการ Power BI การดำเนินการนี้จำเป็นต้องให้ผู้ใช้แอปพลิเคชันลงชื่อเข้าใช้บริการ Power BI เมื่อต้องการดูเนื้อหาของตนเอง เมื่อบุคคลอื่นในองค์กรลงชื่อเข้าใช้ พวกเขาจะสามารถเข้าถึงแดชบอร์ดและรายงานที่พวกเขาเป็นเจ้าของ หรือที่แชร์กับบุคคลเหล่านั้นในบริการ Power BI เท่านั้น 
 
-*ตัวอย่างของการฝังสำหรับองค์กรรวมถึงแอปพลิเคชันบนเว็บภายใน, Web Part SharePoint Online และการรวมกับ Microsoft Teams*
+*ตัวอย่างของการฝังสำหรับองค์กรรวมถึงแอปพลิเคชันบนเว็บภายใน, SharePoint Online Web Part และ [การรวมของ Microsoft Teams (คุณต้องมีสิทธิ์ผู้ดูแลระบบ)](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/).*
 
 สำหรับการฝังสำหรับองค์กรของคุณ โปรดดูข้อมูลต่อไปนี้:
 

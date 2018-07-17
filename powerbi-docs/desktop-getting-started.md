@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 175852a05c4964e6a476abf50684d9ffc12c4468
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34309934"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599880"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>เริ่มต้นใช้งานกับ Power BI Desktop
 ยินดีต้อนรับสู่ตัว**แนวทางการเริ่มใช้งาน Power BI Desktop** การทัวร์สั้น ๆ สำหรับ Power BI Desktop นี้ช่วยให้คุณคุ้นเคยกับวิธีการที่ Power BI Desktop ทำงาน สาธิตสิ่งที่ Power BI Desktop สามารถทำได้ และเร่งความสามารถของคุณในการสร้างแบบจำลองข้อมูลอย่างมีประสิทธิภาพ พร้อมกับรายงานที่น่าทึ่ง ที่ช่วยในการทำงานด้านข่าวกรองทางธุรกิจของคุณ 
@@ -313,7 +313,7 @@ Power BI Desktop จะติดตั้งแอปพลิเคชันห
 
 คุณสามารถทำการเปลี่ยนแปลงไปยังรายงานในบริการ**Power BI** ได้โดยการเลือก**แก้ไขรายงาน**จากด้านบนของพื้นที่รายงาน
 
-เมื่อต้องการบันทึกรายงานของคุณ เลือก**ไฟล์\>บันทึกเป็น**จากบริการ มีการแสดงภาพที่น่าสนใจมากมายหลายชนิดที่คุณสามารถสร้างได้ในบริการ **Power BI** จากรายงานของคุณ ซึ่งคุณสามารถปักหมุดไปยัง*แดชบอร์ด*ได้ เมื่อต้องการเรียนรู้เกี่ยวกับแดชบอร์ดใน**บริการ** Power BI**[ ดูเคล็ดลับสำหรับการออกแบบแดชบอร์ดที่ยอดเยี่ยม](service-dashboards-design-tips.md)**
+เมื่อต้องการบันทึกรายงานของคุณ เลือก**ไฟล์\>บันทึกเป็น**จากบริการ มีการแสดงภาพที่น่าสนใจมากมายหลายชนิดที่คุณสามารถสร้างได้ในบริการ **Power BI** จากรายงานของคุณ ซึ่งคุณสามารถปักหมุดไปยัง*แดชบอร์ด*ได้ เมื่อต้องการเรียนรู้เกี่ยวกับแดชบอร์ดใน**บริการ** Power BI<strong>[ ดูเคล็ดลับสำหรับการออกแบบแดชบอร์ดที่ยอดเยี่ยม](service-dashboards-design-tips.md)</strong>
 
  ![](media/desktop-getting-started/gsg_share5.png)
 

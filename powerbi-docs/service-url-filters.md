@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: aeaea6d14cf8f4fd62fbbf5098e68429fe40b96a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52ef5b568e63d759b38ee8210873783b6c205a2a
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471950"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965538"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>กรองรายงานโดยใช้พารามิเตอร์สตริงของแบบสอบถามใน URL
 เมื่อคุณเปิดรายงานในบริการ Power BI แต่ละหน้าของรายงานมี URL ของตัวเองไม่ซ้ำกัน เมื่อต้องกรองหน้ารายงานนั้น คุณสามารถใช้บานหน้าต่างตัวกรองบนพื้นที่รายงาน  หรือคุณสามารถเพิ่มพารามิเตอร์สตริงของแบบสอบถามไปยัง URL เพื่อกรองรายงาน บางครั้งคุณมีรายงานที่คุณต้องการแสดงให้แก่ผู้ร่วมงาน และคุณต้องการกรองไว้ล่วงหน้าสำหรับพวกเขา วิธีหนึ่งที่ทำได้ก็คือ การเริ่มต้นด้วย URL ที่เป็นค่าเริ่มต้นสำหรับรายงาน เพิ่มพารามิเตอร์ตัวกรองไปยัง URL และจากนั้น ส่งอีเมล URL ทั้งหมดให้พวกเขา
@@ -107,8 +107,8 @@ TerritoryChain = [Territory] & "-" & [Chain]
 * ชื่อตารางและเขตข้อมูลต้องไม่มีช่องว่าง
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[ปักหมุดการจัดรูปแบบการแสดงข้อมูลไปยังแดชบอร์ด](service-dashboard-pin-tile-from-report.md)  
-[ลองใช้เลย - ใช้ได้ฟรี!](https://powerbi.com/)
+[ปักหมุดการแสดงภาพไปยังแดชบอร์ด](service-dashboard-pin-tile-from-report.md)  
+[ลงทะเบียนเพื่อขอรับรุ่นทดลองใช้ฟรี](https://powerbi.microsoft.com/get-started/)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

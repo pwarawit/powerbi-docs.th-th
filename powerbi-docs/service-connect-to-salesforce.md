@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e36cff803af74d212f4c1804fe3a955a11c193cf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dda983aec42731aa885323749d9302db75066569
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722462"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136789"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>เชื่อมต่อกับ Salesforce ด้วย Power BI
 ด้วย Power BI คุณสามารถเชื่อมต่อกับบัญชี Salesforce.com ของคุณได้อย่างง่ายดาย สร้างการเชื่อมต่อนี้เพื่อดึงข้อมูลของคุณและมีแดชบอร์ด และรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลของคุณโดยอัตโนมัติ
@@ -82,7 +82,7 @@ ms.locfileid: "34722462"
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)
+[Power BI คืออะไร](power-bi-overview.md)
 
 [รับข้อมูล](service-get-data.md)
 

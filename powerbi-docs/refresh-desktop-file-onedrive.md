@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 293c8af5b7c6a544b08a5f7b3dc0be7dd576f7ec
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2c52dd30a2b0dc911adbf706ec5007bb553f2717
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245718"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092310"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>รีเฟรชชุดข้อมูลที่จัดเก็บบน OneDrive หรือ SharePoint Online
 การนำเข้าไฟล์จาก OneDrive หรือ SharePoint Online ลงในบริการ Power BI คือวิธียอดเยี่ยมที่แน่ใจได้ว่างานที่คุณกำลังดำเนินการใน**Power BI Desktop**ยังคงซิงค์กับบริการของ Power BI
@@ -49,7 +49,7 @@ ms.locfileid: "34245718"
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive หรือ OneDrive สำหรับธุรกิจ ความแตกต่างคืออะไร
 ถ้าคุณมีทั้ง OneDrive ส่วนบุคคล และ OneDrive สำหรับธุรกิจ เราแนะนำให้คุณเก็บไฟล์ต่างๆ ที่คุณต้องการนำเข้าไปใน Power BI ใน OneDrive สำหรับธุรกิจ นี่คือสาเหตุว่าทำไม: คุณอาจใช้บัญชีที่ต่างกันสองบัญชีในการลงชื่อเข้าใช้ OneDrive ส่วนบุคคล และ OneDrive สำหรับธุรกิจ
 
-การเชื่อมต่อกับ OneDrive for Business ใน Power BI มักทำได้อย่างราบรื่น เพราะบัญชีที่คุณลงชื่อเข้าใช้ Power BI มักเป็นบัญชีเดียวกับที่ลงชื่อเข้าใช้ใน OneDrive for Business แต่ใน OneDrive ส่วนบุคคล คุณลงชื่อเข้าใช้ด้วย[บัญชี Microsoft](http://www.microsoft.com/account/default.aspx)
+การเชื่อมต่อกับ OneDrive for Business ใน Power BI มักทำได้อย่างราบรื่น เพราะบัญชีที่คุณลงชื่อเข้าใช้ Power BI มักเป็นบัญชีเดียวกับที่ลงชื่อเข้าใช้ใน OneDrive for Business แต่ใน OneDrive ส่วนบุคคล คุณลงชื่อเข้าใช้ด้วย[บัญชี Microsoft](https://account.microsoft.com)
 
 เมื่อคุณลงชื่อเข้าใช้บัญชี Microsoft ของคุณ ตรวจสอบให้แน่ใจว่าเลือก “ให้ฉันลงชื่อเข้าใช้เสมอ” และจากนั้น Power BI จะสามารถซิงโครไนซ์การอัปเดตใดๆ ที่คุณทำในไฟล์ใน Power BI Desktop ด้วยชุดข้อมูลใน Power BI  
     ![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)

@@ -7,15 +7,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c504280257a959ccd7a46e61b9d377c22b76c14d
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.openlocfilehash: 08a65e7d312b0f57ec2824431bd00456c06860be
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/24/2018
-ms.locfileid: "34471904"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945215"
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>การวางรูปแบบภาษาและรูปแบบภาษา 
 การใช้วลีทั่วไปและภาษาที่เป็นธรรมชาติในการถามคำถามเกี่ยวกับข้อมูลของคุณเป็นการดำเนินการที่มีประสิทธิภาพ และจะยิ่งมีประสิทธิภาพมากยิ่งขึ้นเมื่อได้รับคำตอบเกี่ยวกับข้อมูล ซึ่งเป็นสิ่งที่ส่วนถามตอบใน Power BI ช่วยให้คุณทำได้ เมื่อคุณถามคำถามในส่วนถามตอบของ Power BI ส่วนถามตอบจะพยายามอย่างมากที่สุดเพื่อตอบคำถามให้ถูกต้อง 
@@ -340,7 +340,7 @@ Binding: {Table: Customers}
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
 ถ้าคุณเปลี่ยนแปลงไฟล์ .lsdl.yaml ที่ไม่สอดคล้องกับรูปแบบภาษา คุณจะเห็นเส้นหยักการตรวจสอบเช่นนี้เพื่อระบุว่ามีปัญหา: 
 
-    ![yaml file showing errors](media/power-bi-q-and-a-linguistic-schema/power-bi-yaml-errors.png)
+![ไฟล์ yaml แสดงข้อผิดพลาด](media/power-bi-q-and-a-linguistic-schema/power-bi-yaml-errors.png)
 
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

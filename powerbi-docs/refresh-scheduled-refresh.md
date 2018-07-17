@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e6dbd431a1ea37195a6cbb6e3d9a39d79a4e9b0d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 96c1709c1d85b8a960be9c96b6839b69b4f22eaa
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248146"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145467"
 ---
 # <a name="configuring-scheduled-refresh"></a>การกำหนดค่าการรีเฟรชตามกำหนดการ
 
@@ -26,7 +26,7 @@ ms.locfileid: "34248146"
 
 ถ้าชุดข้อมูลของคุณสนับสนุนการรีเฟรชตามกำหนดการ จะมีข้อกำหนดและตั้งค่าที่สำคัญเพื่อทำให้การรีเฟรชสำเร็จ โดยใช้ “รีเฟรชตอนนี้” และ “กำหนดเวลารีเฟรช” นี่คือ**การเชื่อมต่อเกตเวย์**, **ข้อมูลประจำตัวของแหล่งข้อมูล**และ**กำหนดเวลารีเฟรช** มาดูรายละเอียดของแต่ละส่วนกัน:
 
-สิ่งนี้จะอธิบายถึงตัวเลือกที่พร้อมใช้งานสำหรับทั้ง[Power BI Gateway – ส่วนบุคคล](personal-gateway.md)และ[เกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem.md)
+สิ่งนี้จะอธิบายถึงตัวเลือกที่พร้อมใช้งานสำหรับทั้ง[Power BI Gateway – ส่วนบุคคล](service-gateway-personal-mode.md)และ[เกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem.md)
 
 เมื่อต้องการไปยังหน้าจอกำหนดเวลารีเฟรช คุณสามารถทำตามต่อไปนี้
 
@@ -123,7 +123,7 @@ ms.locfileid: "34248146"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [การรีเฟรชข้อมูลใน Power BI](refresh-data.md)  
-[Power BI Gateway - ส่วนบุคคล](personal-gateway.md)  
+[Power BI Gateway - ส่วนบุคคล](service-gateway-personal-mode.md)  
 [เกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem.md)  
 [การแก้ไขปัญหาเกตเวย์ข้อมูลในองค์กร](service-gateway-onprem-tshoot.md)  
 [แก้ไขปัญหาเกตเวย์ Power BI - ส่วนบุคคล](service-admin-troubleshooting-power-bi-personal-gateway.md)  

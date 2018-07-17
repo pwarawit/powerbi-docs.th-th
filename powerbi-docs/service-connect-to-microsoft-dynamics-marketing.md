@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94b019f04fb6fabcad3092524fd2724015a6d8e1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7cc2519353be7f83f69cdc6dda9d5f1a8ccc33a3
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242201"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137040"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>เชื่อมต่อกับ Microsoft Dynamics Marketing ด้วย Power BI
 ชุดเนื้อหา Microsoft Dynamics Marketing สำหรับ Power BI ช่วยให้คุณสามารถเข้าใช้งานและวิเคราะห์ข้อมูลของคุณจาก Dynamics Marketing ได้อย่างง่ายดาย ชุดเนื้อหาดังกล่าวใช้แบบจำลองเชิงพรรณาที่ด้านบนสุดของตัวดึงข้อมูล OData โดยมีเอนทิตีและหน่วยวัดที่จำเป็นทั้งหมด เช่น โปรแกรม แคมเปญ รายชื่อติดต่อทางการตลาดและลูกค้าเป้าหมายของบริษัท การโต้ตอบกับลูกค้าเป้าหมายและการให้คะแนนลูกค้าเป้าหมาย ข้อความทางการตลาดที่ส่งผ่านอีเมล และเว็บไซต์ การสังเกตพฤติกรรม งบประมาณ ธุรกรรมทางการเงิน ประสิทธิภาพของ KPI และอื่น ๆ อีกมากมาย 
@@ -47,9 +47,9 @@ ms.locfileid: "34242201"
 
 **ฉันต้องทำอะไรต่อ?**
 
-* ลอง[ถามคำถามในกล่องถามตอบ](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานพื้นฐาน
+* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
 * ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
 
 ## <a name="system-requirements"></a>ข้อกำหนดของระบบ
@@ -72,5 +72,5 @@ ms.locfileid: "34242201"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [รับข้อมูลสำหรับ Power BI](service-get-data.md)
 
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)
+[Power BI คืออะไร](power-bi-overview.md)
 

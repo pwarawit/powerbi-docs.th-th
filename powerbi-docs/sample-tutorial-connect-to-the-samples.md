@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: f6e4be87b86d7a73abf364d1b526c1f6d549934c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 02c3998a95e7d481ee032513054933f1484ae7f9
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471743"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944617"
 ---
 # <a name="the-power-bi-samples"></a>ตัวอย่างของ Power BI
 
@@ -36,29 +36,29 @@ ms.locfileid: "34471743"
 ## <a name="samples-and-power-bi-service"></a>ตัวอย่างและบริการของ Power BI
 
 1. เปิดและลงชื่อเข้าใช้บริการของ Power BI (app.powerbi.com)
-2. เลือก**รับข้อมูล**ที่ด้านล่างของ บานหน้าต่างนำทางด้านซ้ายมือ ถ้าคุณไม่เห็น**รับข้อมูล** ขยายบานหน้าต่างนำทาง โดยการเลือก![](media/sample-tutorial-connect-to-the-samples/expand-nav.png)
+2. เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ ถ้าคุณไม่เห็น**รับข้อมูล**ขยายบานหน้าต่างนำทาง โดยการเลือก![ไอคอน hamburger](media/sample-tutorial-connect-to-the-samples/expand-nav.png)
    
-   ![](media/sample-tutorial-connect-to-the-samples/pbi_getdata.png)
+   ![รับไอคอนข้อมูล](media/sample-tutorial-connect-to-the-samples/pbi_getdata.png)
 5. เลือก**ตัวอย่าง**  
    
-   ![](media/sample-tutorial-connect-to-the-samples/pbi_samplesdownload.png)
+   ![ปุ่มตัวอย่าง](media/sample-tutorial-connect-to-the-samples/pbi_samplesdownload.png)
 6. เลือก*ตัวอย่างการวิเคราะห์ด้านการขายปลีก* และเลือก**เชื่อมต่อ**   
    
-   ![](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
+   ![ปุ่มเชื่อมต่อสีเหลือง](media/sample-tutorial-connect-to-the-samples/pbi_retailanalysissampleconnect.png)
 
 ## <a name="what-exactly-was-imported"></a>อะไรกันแน่ที่ถูกนำเข้า?
 ด้วยตัวอย่างชุดเนื้อหา เมื่อคุณเลือก**เชื่อมต่อ** จริง ๆ แล้ว Power BI จะนำสำเนาของชุดเนื้อหานั้น มาเก็บไว้ให้คุณในคลาวด์ เนื่องจากบุคคลที่สร้างชุดเนื้อหา รวมชุดข้อมูล รายงาน และแดชบอร์ด -- นั่นคือสิ่งที่คุณจะได้รับเมื่อคุณคลิก**เชื่อมต่อ** 
 
 1. Power BI สร้างแดชบอร์ดใหม่ และแสดงรายการในแท็บ**แดชบอร์ด**ของคุณ เครื่องหมายดอกจันสีเหลือง บอกให้คุณทราบว่าเป็นใหม่
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-new-dashboard.png)
+   ![ข้อความแสดงความสำเร็จ](media/sample-tutorial-connect-to-the-samples/power-bi-new-dashboard.png)
 2. เปิดแท็บ**รายงาน**  ที่นี่คุณจะเห็นรายงานใหม่ที่มีชื่อ*ตัวอย่างการวิเคราะห์ด้านการขายปลีก*
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-new-report.png)
+   ![กล่องสีแดงรอบๆ ตัวอย่างการวิเคราะห์การค้าปลีกและดาวสีเหลือง](media/sample-tutorial-connect-to-the-samples/power-bi-new-report.png)
    
    และตรวจสอบแท็บ**ชุดข้อมูล**  มีชุดข้อมูลใหม่ที่นั่นเช่นเดียวกัน
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
+   ![กล่องสีแดงรอบๆ ตัวอย่างการวิเคราะห์การค้าปลีก](media/sample-tutorial-connect-to-the-samples/power-bi-new-dataset.png)
 
 ## <a name="explore-your-new-content"></a>สำรวจเนื้อหาใหม่ของคุณ
 ตอนนี้ ลองสำรวจแดชบอร์ด ชุดข้อมูล และรายงานด้วยตัวคุณเอง มีหลายวิธีที่จะนำทางไปยังแดชบอร์ด รายงาน และชุดข้อมูล วิธีหนึ่งในหลายวิธีเหล่านั้นจะอธิบายไว้ด้านล่าง  
@@ -70,13 +70,13 @@ ms.locfileid: "34471743"
 
 1. ย้อนกลับไปยังแท็บ**แดชบอร์ด**ของคุณ และเลือกแดชบอร์ด*ตัวอย่างการวิเคราะห์ด้านการขายปลีก*เพื่อเปิด    
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards.png)
+   ![แท็บแดชบอร์ดถูกเลือกแล้ว](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards.png)
 2. แดชบอร์ดจะเปิดขึ้นมา  มีไทล์แสดงข้อมูลให้เห็นหลากหลายแบบในนั้น
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards2new.png)
+   ![แดชบอร์ดพร้อมการแสดงภาพถูกไฮไลต์แล้ว](media/sample-tutorial-connect-to-the-samples/power-bi-dashboards2new.png)
 3. เลือกไทล์หนึ่งในนั้นเพื่อเปิดรายงานพื้นฐาน  ในตัวอย่างนี้ เราจะเลือกแผนภูมิพื้นที่ (มีเค้าร่างเป็นสีชมพูในภาพก่อนหน้า) รายงานจะเปิดออกเป็นหน้าที่มีแผนภูมิพื้นที่นั้นอยู่ข้างใน
    
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
+    ![หน้ารายงานพร้อมภาพที่เข้ากันถูกไฮไลต์แล้ว](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
    > ถ้าไทล์ถูกสร้างด้วย[Power BI Q&A](power-bi-q-and-a.md) หน้าถามตอบจะเปิดขึ้นแทน ถ้าไทล์เป็นการ[ปักหมุดจาก Excel](service-dashboard-pin-tile-from-excel.md) จะเปิด Excel Online ขึ้นภายใน Power BI
@@ -84,44 +84,44 @@ ms.locfileid: "34471743"
    > 
 1. กลับไปที่แท็บ**ชุดข้อมูล**ของคุณ คุณมีหลายตัวเลือกในการสำรวจชุดข้อมูลของคุณ  คุณจะไม่สามารถเปิดมัน และดูแถวและคอลัมน์ที่มีอยู่ทั้งหมด (เหมือนที่คุณทำได้ใน Power BI Desktop หรือ Excel)  เมื่อมีบางคนแชร์ชุดเนื้อหากับเพื่อนร่วมงาน พวกเขามักต้องการแชร์ข้อมูลเชิงลึก ไม่ได้ให้เพื่อนร่วมงานของพวกเขาเข้าถึงข้อมูลโดยตรง แต่นั่นไม่ได้หมายความว่า คุณไม่สามารถสำรวจชุดข้อมูล  
    
-   ![](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon2.png)
+   ![แท็บชุดข้อมูล](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon2.png)
    
-   * วิธีหนึ่งในการสำรวจชุดข้อมูล ก็โดยการสร้างการแสดงภาพและรายงานของคุณเองตั้งแต่เริ่มต้น  เลือกไอคอนแผนภูมิ ![](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) เพื่อเปิดชุดข้อมูลในโหมดการแก้ไขรายงาน
+   * วิธีหนึ่งในการสำรวจชุดข้อมูล ก็โดยการสร้างการแสดงภาพและรายงานของคุณเองตั้งแต่เริ่มต้น  เลือกไอคอนแผนภูมิ ![ไอคอนรายงาน](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) เพื่อเปิดชุดข้อมูลในโหมดการแก้ไขรายงาน
      
-       ![](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
+       ![รายงานใหม่](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
    * อีกวิธีหนึ่งในการสำรวจชุดข้อมูล คือการเรียกใช้[ข้อมูลเชิงลึกด่วน](service-insights.md) เลือกจุดไข่ปลา (...) แล้วเลือก**รับข้อมูลเชิงลึก** เมื่อข้อมูลเชิงลึกพร้อมแล้ว เลือก**ดูข้อมูลเชิงลึก**
      
-       ![](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
+       ![รายงานข้อมูลเชิงลึก](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
 ## <a name="samples-and-power-bi-desktop"></a>ตัวอย่างและ Power BI Desktop 
 เมื่อคุณเริ่มเปิดไฟล์ PBIX ตัวอย่าง จะแสดงในมุมมองรายงาน ที่คุณสามารถสำรวจ สร้าง และปรับเปลี่ยนตัวเลขใด ๆ ของหน้ารายงานที่มีการแสดงผลเป็นภาพ มุมมองรายงาน ออกแบบให้ได้ประสบการณ์แบบเดียวกับ มุมมองการแก้ไขรายงาน ในบริการ Power BI คุณสามารถย้ายภาพไปรอบ ๆ คัดลอกและวาง ผสาน เป็นต้น
 
 สิ่งที่แตกต่างกันคือ เมื่อใช้ Power BI Desktop คุณสามารถทำงานกับคิวรีของคุณ และการวางรูปแบบข้อมูลของคุณ เพื่อให้แน่ใจว่า ข้อมูลของคุณรองรับข้อมูลเชิงลึกที่ดีที่สุดในรายงานของคุณ จากนั้นคุณสามารถบันทึกไฟล์ Power BI Desktop ของคุณได้ทุกที่ที่คุณต้องการ ไม่ว่าจะเป็นไดรฟ์ในเครื่อง หรือไปยังระบบคลาวด์
 
-1. เปิด[ไฟล์ .pbix ตัวอย่างการวิเคราะห์ด้านการขายปลีก](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail-Analysis-Sample-PBIX.pbix)ใน Power BI Desktop 
+1. เปิด[ไฟล์ .pbix ตัวอย่างการวิเคราะห์ด้านการขายปลีก](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)ใน Power BI Desktop 
 
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
+    ![ตัวอย่างถูกเปิดในมุมมองรายงาน Power BI](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
 1. ไฟล์เปิดขึ้นในมุมมองรายงาน โปรดสังเกต 4 แท็บที่ด้านล่างของตัวแก้ไขรายงานหรือไม่? นั่นหมายความว่า ในรายงานนี้มีหน้าทั้งหมด 4 หน้า และหน้า "ร้านค้าใหม่" กำลังถูกเลือกในตอนนี้ 
 
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png)
+    ![closeup ของแท็บที่ด้านล่างและร้านค้าใหม่ถูกไฮไลต์แล้ว](media/sample-tutorial-connect-to-the-samples/power-bi-sample-tabs.png).
 
 3. สำหรับการเจาะลึกลงในตัวแก้ไขรายงาน ดู[ชมการแนะนำของตัวแก้ไขรายงาน](service-the-report-editor-take-a-tour.md)
 
 ## <a name="what-exactly-was-imported"></a>อะไรกันแน่ที่ถูกนำเข้า?
 เมื่อคุณเปิดไฟล์ PBIX ตัวอย่างในเดสก์ท็อป จริง ๆ แล้ว Power BI จะนำสำเนาของชุดเนื้อหานั้น มาเก็บไว้ให้คุณในคลาวด์ จากเดสก์ท็อป คุณสามารถเข้าถึงรายงาน***และชุดข้อมูลพื้นฐาน*** เมื่อข้อมูลถูกโหลด Power BI Desktop จะพยายามค้นหา และสร้างความสัมพันธ์สำหรับคุณ  
 
-1. สลับไปยัง[มุมมองข้อมูล](desktop-data-view.md)โดยการเลือกไอคอนตาราง ![](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png)
+1. สลับไปยัง[มุมมองข้อมูล](desktop-data-view.md)โดยการเลือกไอคอนตาราง ![ไอคอนตาราง](media/sample-tutorial-connect-to-the-samples/power-bi-data-icon.png)
  
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-sample-data.png)
+    ![มุมมองข้อมูล Desktop](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-sample-data.png)
 
     มุมมองข้อมูล ช่วยให้คุณตรวจสอบ สำรวจ และทำความเข้าใจข้อมูลในรูปแบบ Power BI Desktop มันแตกต่างจากวิธีคุณที่ดูตาราง คอลัมน์ และข้อมูลในตัวแก้ไขคิวรี ด้วยมุมมองข้อมูล คุณกำลังดูข้อมูลของคุณหลังจากที่โหลดเข้ามาในรูปแบบเรียบร้อยแล้ว
 
-    เมื่อคุณกำลังจัดรูปแบบข้อมูลของคุณ บางครั้งคุณต้องการดูว่ามีอะไรอยู่ในตารางหรือคอลัมน์จริง ๆ ซึ่งมักจะลงลึกไปในระดับแถว โดยไม่ต้องสร้างวิชวลบนพื้นที่รายงาน โดยเฉพาะอย่างยิ่งเมื่อคุณกำลังจะสร้างการวัด และคอลัมน์จากการคำนวณ หรือคุณจำเป็นต้องรู้ชนิดข้อมูลหรือประเภทข้อมูล
+    เมื่อคุณกำลังจัดรูปแบบข้อมูลของคุณ บางครั้งคุณต้องการดูว่ามีอะไรอยู่ในตารางหรือคอลัมน์จริง ๆ ซึ่งมักจะลงลึกไปในระดับแถว โดยไม่ต้องสร้างวิชวลบนพื้นที่รายงาน โดยเฉพาะอย่างยิ่งเมื่อคุณกำลังจะสร้างการวัดและคอลัมน์จากการคำนวณ หรือคุณจำเป็นต้องระบุชนิดข้อมูลหรือประเภทข้อมูล
 
-1. สลับไปยัง[มุมมองความสัมพันธ์](desktop-relationship-view.md) โดยการเลือกไอคอน![](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png)
+1. สลับไปยัง[มุมมองความสัมพันธ์](desktop-relationship-view.md)โดยเลือกไอคอน![ไอคอนที่มีลักษณะเหมือนกล่องที่เชื่อมต่อกัน 3 กล่อง](media/sample-tutorial-connect-to-the-samples/power-bi-desktop-relationship-icon.png)
  
-    ![](media/sample-tutorial-connect-to-the-samples/power-bi-relationships.png)
+    ![มุมมองความสัมพันธ์ใน Power BI Desktop](media/sample-tutorial-connect-to-the-samples/power-bi-relationships.png)
 
     มุมมองความสัมพันธ์ แสดงตาราง คอลัมน์ และความสัมพันธ์ทั้งหมดในรูปแบบข้อมูลของคุณ จากที่นี่ คุณสามารถดู เปลี่ยน และสร้างความสัมพันธ์ใหม่
 

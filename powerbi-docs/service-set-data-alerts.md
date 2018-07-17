@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 321e66fd5ed185a92c98bf7832dc3b71944be98d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689725"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137649"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>แจ้งเตือนข้อมูลใน Power BI service
 ต้งค่าการแจ้งเตือน เมื่อมีข้อมูลในแดชบอร์ดของคุณเปลี่ยนเกินขีดจำกัดที่คุณตั้งไว 
@@ -104,6 +104,6 @@ ms.locfileid: "34689725"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [สร้าง Microsoft Flow ที่มีการแจ้งเตือนข้อมูล](service-flow-integration.md)    
 [ตั้งค่าการแจ้งเตือนข้อมูลบนอุปกรณ์เคลื่อนที่ของคุณ](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[เริ่มต้นใช้งานกับ Power BI](service-get-started.md)    
+[Power BI คืออะไร?](power-bi-overview.md)    
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

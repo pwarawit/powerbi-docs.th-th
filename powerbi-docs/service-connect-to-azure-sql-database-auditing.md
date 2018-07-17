@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 36351491f7cb99a2e597ef4fd498ef7c38da386e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dd9b5b9f9db95b73a7001c34bcabcd2deacb8b4c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243902"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136582"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>ชุดเนื้อหาการตรวจสอบฐานข้อมูล SQL สำหรับ Power BI
 ชุดเนื้อหา Power BI สำหรับ Azure [การตรวจสอบฐานข้อมูล SQL](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/) ช่วยให้คุณเข้าใจกิจกรรมเกี่ยวกับฐานข้อมูลของคุณและรับข้อมูลเชิงลึกในความขัดแย้งและความผิดปกติที่อาจสามารถระบุถึงปัญหาทางธุรกิจ หรือการละเมิดความปลอดภัยที่สงสัย 
@@ -69,4 +69,4 @@ ms.locfileid: "34243902"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [รับข้อมูลสำหรับ Power BI](service-get-data.md)
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)
+[Power BI คืออะไร](power-bi-overview.md)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0e98c68e62f36114257052171e0928db25853f24
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239499"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599241"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>บทช่วยสอน: วิธีการใช้ถามตอบเพื่อสร้างการแสดงภาพ และสร้างรายงาน
 [ภาพรวมถามตอบ](power-bi-q-and-a.md)ได้แนะนำคุณเกี่ยวกับ ถามตอบของ Power BI และเปรียบเทียบความแตกต่างระหว่าง*ผู้บริโภค* (มีแดชบอร์ดและรายงานที่แชร์ให้กับพวกเขา) และ*ผู้สร้าง* (เป็นเจ้าของรายงานและชุดข้อมูลพื้นฐาน) ส่วนแรกของบทช่วยสอนนี้ออกแบบสำหรับ ผู้บริโภคแดชบอร์ดที่ใช้บริการ Power BI และส่วนสองออกแบบมาสำหรับ ผู้ที่สร้างรายงานโดยใช้บริการของ Power BI หรือ Power BI Desktop เนื้อหา [ถามตอบ และ Power BI สำหรับอุปกรณ์เคลื่อนที่](mobile-apps-ios-qna.md) และ[ถามตอบ ด้วย Power BI Embedded](developer/qanda.md) ครอบคลุมในบทความต่างหาก
@@ -90,9 +90,9 @@ ms.locfileid: "34239499"
 
 6. โต้ตอบกับการแสดงภาพใหม่ ไม่สำคัญว่าคุณได้สร้างการแสดงภาพด้วยวิธีไหน -- ทั้งหมดจะมีการโต้ตอบ จัดรูปแบบ และคุณลักษณะที่เหมือนกัน
 
-  ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
+   ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
 
-  ถ้าคุณได้สร้างการแสดงภาพในบริการของ Power BI คุณสามารถ[ปักหมุดไปยังแดชบอร์ด](service-dashboard-pin-tile-from-q-and-a.md)ได้
+   ถ้าคุณได้สร้างการแสดงภาพในบริการของ Power BI คุณสามารถ[ปักหมุดไปยังแดชบอร์ด](service-dashboard-pin-tile-from-q-and-a.md)ได้
 
 ## <a name="tell-qa-which-visualization-to-use"></a>บอกถามตอบว่าต้องใช้การแสดงภาพแบบไหน
 ด้วยถามตอบ ไม่เพียงแต่คุณสามารถขอให้ข้อมูลคุณพูดออกมาด้วยตัวเอง คุณสามารถบอกวิธีที่ Power BI จะแสดงคำตอบได้ เพียงแค่เพิ่ม "as a <visualization type>" ตรงท้ายคำถามของคุณ  ตัวอย่างเช่น "show inventory volume by plant as a map" และ "show total inventory as a card"  ลองทำด้วยตัวเองดู

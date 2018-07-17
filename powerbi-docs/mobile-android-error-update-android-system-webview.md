@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 143d3c2a48ca6dbe6ca39f4a097e45654accaa04
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 701dbeb60ea93e2df1bbfe886373919ae97a39c8
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721259"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134903"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>การแก้ไข: "จำเป็นต้องอัปเดต Android System Webview"
 เมื่อลงชื่อเข้าใช้แอป Android สำหรับอุปกรณ์เคลื่อนที่สำหรับ Microsoft Power BIคุณอาจได้รับข้อความว่า คุณจำเป็นต้องอัปเดต Android System Webview 
@@ -30,6 +30,6 @@ ms.locfileid: "34721259"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ดาวน์โหลดแอป Android](http://go.microsoft.com/fwlink/?LinkID=544867) จาก Android app store
-* [เริ่มต้นใช้งาน Power BI](service-get-started.md)
+* [Power BI คืออะไร](power-bi-overview.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301837"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965515"
 ---
 # <a name="power-bi-admin-portal"></a>พอร์ทัลผู้ดูแลระบบของ power BI
 
@@ -99,6 +99,8 @@ ms.locfileid: "35301837"
 ## <a name="tenant-settings"></a>การตั้งค่าผู้เช่า
 
 แท็บที่สามในพอร์ทัลผู้ดูแลระบบคือ**การตั้งค่าผู้เช่า** การตั้งค่าผู้เช่าช่วยให้คุณสามารถควบคุมคุณลักษณะที่ทำให้พร้อมใช้งานสำหรับองค์กรของคุณได้มากขึ้น ถ้าคุณมีข้อกังวลเกี่ยวกับข้อมูลที่ละเอียดอ่อน คุณลักษณะบางรายการของเราอาจไม่เหมาะสำหรับองค์กรของคุณ หรือคุณอาจต้องการให้คุณลักษณะที่ระบุพร้อมใช้งานสำหรับเฉพาะกลุ่มเท่านั้น ถ้าเป็นกรณีนี้ คุณสามารถปิดการใช้งานในผู้เช่าของคุณได้
+
+ตัวอย่างเช่น ข้อมูลต่อผู้ใช้จะถูกเปิดใช้งานสำหรับเมตริกการใช้งานตามค่าเริ่มต้น และข้อมูลบัญชีผู้สร้างเนื้อหาจะถูกรวมอยู่ในรายงานเมตริก ถ้าคุณไม่ต้องการรวมข้อมูลนี้สำหรับผู้ใช้บางคนหรือทั้งหมด ปิดใช้งานคุณลักษณะสำหรับกลุ่มความปลอดภัยที่ระบุ หรือ คุณลักษณะสำหรับทั้งองค์กร ข้อมูลบัญชีจะแสดงในรายงานว่า*ไม่มีชื่อ*
 
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -235,7 +237,7 @@ ms.locfileid: "35301837"
 
 ## <a name="r-visuals-settings"></a>การตั้งค่าวิชวล R
 
-### <a name="interact-with-an-dshare-r-visuals"></a>โต้ตอบและแชร์วิชวล R
+### <a name="interact-with-and-share-r-visuals"></a>โต้ตอบและแชร์การแสดงผลด้วยภาพ R
 
 ผู้ใช้ในองค์กรสามารถโต้ตอบ และแชร์วิชวลที่สร้างขึ้นด้วย R สคริปต์ได้ [เรียนรู้เพิ่มเติม](service-r-visuals.md)
 

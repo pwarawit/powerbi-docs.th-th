@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722212"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926547"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>ค้นหาผู้ใช้ Power BI ที่มีการลงชื่อเข้าใช้
 ถ้าคุณเป็นผู้ดูแลผู้เช่า และต้องการดูบุคคลที่มีการลงชื่อเข้าใช้ Power BI คุณสามารถใช้รายงานการเข้าถึงและการใช้งานของ Azure Active Directory เพื่อให้สามารถมองเห็นได้
@@ -25,9 +25,7 @@ ms.locfileid: "34722212"
 คุณสามารถเข้าถึงรายงานกิจกรรมภายในพอร์ทัล Azure Active Directory (Azure AD) [ใหม่](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)และ[คลาสสิก](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)ได้ ในขณะที่วิดีโอด้านบนใช้พอร์ทัลแบบคลาสสิกเป็นตัวอย่าง บทความนี้จะเน้นพอร์ทัลใหม่
 
 > [!NOTE]
-> รายงานกิจกรรมนี้รวมผู้ใช้ทั้ง Power BI (ฟรี) และผู้ใช้ Pro แต่ไม่ระบุผู้ใช้เหล่านี้ตามสิทธิ์การใช้งานที่ผู้ใช้มี
-> 
-> 
+> รายงานกิจกรรมนี้ไม่สามารถระบุชนิดของสิทธิ์การใช้งานที่ผู้ใช้แต่ละคนมี
 
 ## <a name="requirements"></a>ข้อกำหนด
 ต่อไปนี้คือข้อกำหนดในการดูรายงานกิจกรรมการลงชื่อเข้าใช้
@@ -70,7 +68,7 @@ ms.locfileid: "34722212"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [รายงานกิจกรรมการลงชื่อเข้าใช้ในพอร์ทัล Azure Active Directory (พอร์ทัลใหม่)](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)  
-[ดูรายงานการเข้าถึงและการใช้งานของคุณ (พอร์ทัลแบบคลาสสิก)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports#view-or-download-a-report)  
+[ดูรายงานการเข้าถึงและการใช้งานของคุณ (พอร์ทัลแบบคลาสสิก)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)  
 [สคริปต์ PowerShell สำหรับตัวอย่างการลงชื่อเข้าใช้](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)  
 ดู[นโยบายการเก็บรักษาข้อมูลรายงานของ Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
 [ใช้การตรวจสอบภายในองค์กรของคุณ](service-admin-auditing.md)  

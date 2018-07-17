@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6592405de2d76c14334c8c31e4af84cd5a090ed9
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1a9b9c8c7cde59cf7cd05b383070183b219159da
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247561"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136283"
 ---
 # <a name="connect-to-sweetiq-with-power-bi"></a>เชื่อมต่อกับ SweetIQ ด้วย Power BI
 ชุดเนื้อหา Power BI ดึงข้อมูลจากบัญชี SweetIQ ของคุณ และสร้างชุดเนื้อหาแบบใช้ทันทีที่ช่วยให้คุณสามารถสำรวจข้อมูลของคุณได้อย่างง่ายดาย ใช้ชุดเนื้อหา SweetIQ เพื่อวิเคราะห์ข้อมูลเกี่ยวกับตำแหน่งที่ตั้ง การจัดรายการ การจัดอันดับ และบทวิจารณ์ของคุณ ข้อมูลจะถูกตั้งค่าการรีเฟรชเป็นรีเฟรชทุกวัน เพื่อแน่ใจว่าข้อมูลที่คุณกำลังตรวจติดตามอัปเดตแล้ว
@@ -54,7 +54,7 @@ ID ไคลเอ็นต์และคีย์ API สำหรับชุ
 พูดคุยกับผู้ดูแลระบบของคุณสำหรับคีย์ API ของคุณ เพื่อให้สามารถเข้าถึงข้อมูลสำหรับไคลเอ็นต์ที่เฉพาะเจาะจง
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)
+[Power BI คืออะไร](power-bi-overview.md)
 
 [รับข้อมูลสำหรับ Power BI](service-get-data.md)
 

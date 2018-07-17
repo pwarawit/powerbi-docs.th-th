@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1ce4fe4e80138995e7ec356b92f31e45f3a2c920
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245616"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599795"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>เชื่อมต่อกับ Project Madeira ด้วย Power BI
 รับข้อมูลเชิงลึกลงในโครงการ "Madeira"ของคุณ ข้อมูลเป็นเรื่องง่ายด้วย Power BI และแพคเนื้อหาโครงการ "Madeira" Power BI ดึงข้อมูลของคุณ ทั้งยอดขายและข้อมูลทางการเงิน จากนั้นสร้างแดชบอร์ดแบบคิดนอกกรอบและรายงานที่ยึดตามข้อมูลนั้น
@@ -33,7 +33,7 @@ ms.locfileid: "34245616"
     ![](media/service-connect-to-project-madeira/services.png)
 3. เลือก**โครงการ "Madeira"** แล้วเลือก**รับ**  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. เมื่อไดถูกถามให้ใส่ URL โครงการ "Madeira" ของคุณ URL ต้องอยู่ในรูปแบบต่อไปนี้เท่านั้น https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US') ที่มีชื่อบริษัทของคุณใน Project “Madeira” โปรดสังเกตว่า ไม่มีเครื่องหมายทับต่อที่ส่วนท้าย และการเชื่อมต่อจะต้องเป็น https ดูรายละเอียดในการค้นหา URL นี้[ด้านล่าง](#FindingParams)  
+4. เมื่อไดถูกถามให้ใส่ URL โครงการ "Madeira" ของคุณ URL ต้องอยู่ในรูปแบบต่อไปนี้เท่านั้น <https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US>') ที่มีชื่อโครงการ “Madeira”ชื่อบริษัท โปรดสังเกตว่า ไม่มีเครื่องหมายทับต่อที่ส่วนท้าย และการเชื่อมต่อจะต้องเป็น https ดูรายละเอียดในการค้นหา URL นี้[ด้านล่าง](#FindingParams)  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. เมื่อได้รับการถาม ให้เลือก Basic เป็นวิธีการรับรองตัวตน ให้ใส่โครงการ "Madeira" ของคุณ อีเมลเป็นชื่อผู้ใช้ และจากนั้น ป้อน access key บริการเว็บสำหรับบัญชีโครงการ "Madeira" ของคุณเป็นรหัสผ่าน ถ้าคุณลงชื่อเข้าใช้ไปยังโครงการ "Madeira" ในเบราว์เซอร์ของคุณแล้ว คุณอาจไม่ถูกถามข้อมูลประจำตัว ดูรายละเอียดในการสร้าง access key นี้[ด้านล่าง](#FindingParams)  
@@ -93,10 +93,10 @@ ms.locfileid: "34245616"
 
 ถ้าคุณเห็นข้อผิดพลาดนี้หลังจากที่คุณใส่ URL โครงการ "Madeira" ของคุณ ตรวจสอบให้แน่ใจว่าจะพอใจกับข้อกำหนดต่อไปนี้  
 
-   - ให้ใช้ URL ตามนี้อย่างถูกต้อง https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company ('*CRONUS % 20US*')  
-   - ลบข้อความใดๆ หลังชื่อบริษัทในวงเล็บ  
-   - ตรวจสอบให้แน่ใจว่าไม่มีที่ส่วนท้ายของ URL หลังสแลช  
-   - ตรวจสอบให้แน่ใจว่า URL ถูกใช้เชื่อมต่อแบบปลอดภัยตามที่ระบุ โดยเริ่มต้น URL ที่มี https  
+- ให้ใช้ URL ตามนี้อย่างถูกต้อง https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company ('<em>CRONUS % 20US</em>')  
+- ลบข้อความใดๆ หลังชื่อบริษัทในวงเล็บ  
+- ตรวจสอบให้แน่ใจว่าไม่มีที่ส่วนท้ายของ URL หลังสแลช  
+- ตรวจสอบให้แน่ใจว่า URL ถูกใช้เชื่อมต่อแบบปลอดภัยตามที่ระบุ โดยเริ่มต้น URL ที่มี https  
 
 **"การเข้าสู่ระบบล้มเหลว"** ถ้าคุณได้รับข้อผิดพลาด "การเข้าสู่ระบบล้มเหลว" เมื่อคุณเข้าสู่ระบบไปยังแดชบอร์ด โดยใช้ข้อมูลประจำตัวโครงการ "Madeira" ของคุณ จากนั้นอาจมีสาเหตุของปัญหาต่อไปนี้  
 
@@ -104,16 +104,16 @@ ms.locfileid: "34245616"
    - อินสแตนซ์โครงการ "Madeira" ที่คุณกำลังพยายามจะเชื่อมต่อที่ไม่มีไปยังใบรับรอง SSL ในกรณีนี้ คุณจะเห็นข้อผิดพลาดที่ละเอียดยิ่งขึ้น ("ไม่สามารถสร้างความสัมพันธ์ SSL ที่เชื่อถือได้") โปรดทราบว่าใบรับรองที่เซ็นชื่อด้วยตนเองไม่ได้รับการรองรับ  
 
 **"Oops"** ถ้าคุณเห็นกล่องโต้ตอบข้อผิดพลาดการ "Oops" หลังจากที่คุณเลื่อนผ่านกล่องโต้ตอบการรับรองตัวตน สิ่งนี้เกิดบ่อยที่สุดจากปัญหาการเชื่อมต่อไปยังข้อมูลสำหรับชุดเนื้อหา ตรวจสอบว่า URL เป็นไปตามแบบที่ระบุไว้ก่อนหน้านี้  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company ('*CRONUS % 20US*')
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company ('<em>CRONUS % 20US</em>')
 
 ข้อผิดพลาดทั่วไปคือการระบุ URL แบบเต็มสำหรับ web service บางตัว  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')/powerbifinance
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')/powerbifinance
 
 หรือคุณอาจลืมเมื่อต้องระบุชื่อบริษัท   
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/
+    https://<em>mycronusus</em>.projectmadeira.com:7048/NAV/OData/
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)
+[Power BI คืออะไร](power-bi-overview.md)
 
 [Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)
 

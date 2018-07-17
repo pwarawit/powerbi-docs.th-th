@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/13/2018
 ms.author: maikelson
-ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34299297"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137652"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -22,25 +22,9 @@ ms.locfileid: "34299297"
 
 ## <a name="upcoming-webinars"></a>สัมมนาผ่านเว็บที่กำลังมาถึง
 
-ลงทะเบียนเพื่อรับข่าวสารจากผู้เชี่ยวชาญ Power BI และมีส่วนร่วมในเซสชันการถามตอบแบบออนไลน์
+สัมมนาผ่านเว็บยังไม่จัดกำหนดการ กรุณาตรวจสอบใหม่เพื่อดูงานที่จะจัดในอนาคต
 
-**วาดภาพข้อมูลเชิงลึกที่เหมาะสมด้วย Power BI และ Visio**
-<br>โดย Shakun Grover
-<br>*22 พฤษภาคม 2018 เวลา 10:00 น. PST, 1:00PM EST*
-
-เข้าร่วมกับเราสำหรับการสัมมนาผ่านเว็บนี้เพื่อเรียนรู้วิธีการรวมแดชบอร์ด Power BI และไดอะแกรม Microsoft Visio เพื่อสร้างข้อมูลเชิงลึกแบบเป็นภาพที่ทรงพลัง Visio และ Power BI จะเป็นภาพสูงและเสริมกันอย่างเป็นธรรมชาติ Visio ช่วยให้คุณสามารถสร้างไดอะแกรมเพื่อแสดงได้ เช่น เวิร์กโฟลว์ที่เชื่อมต่อถึงกันและเค้าโครงเสมือนจริง Power BI ช่วยให้คุณสร้างแดชบอร์ดได้ง่ายโดยใช้แผนภูมิและแผนที่เพื่อวัดตัวบ่งชี้ประสิทธิภาพหลัก รวมถึงติดตามเป้าหมายด้วย
-
-[ลงทะเบียนเพื่อชมในวันที่ 22 พฤษภาคม](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
-
-**เรียนรู้เกี่ยวกับ Power BI Embedded ใน 20 นาที**
-<br>โดย Megan Asarrane และ Colin Murphy
-<br>*23 พฤษภาคม 2018 เวลา 10:00 น. PST, 13:00 น. EST*
-
-กำลังนำเสนอการสัมมนาผ่านเว็บเพื่อเกริ่นนำให้กับ Power BI Embedded ในช่วงท้ายของการสัมมนาผ่านเว็บครั้งนี้ ผู้ใช้ควรสามารถเข้าใจว่า Power BI Embedded คืออะไร ขั้นตอนถัดไปที่จะเริ่มต้นใช้งานผลิตภัณฑ์ และสถานที่สำหรับขอความช่วยเหลือ/ทรัพยากร
-
-[ลงทะเบียนเพื่อชมในวันที่ 23 พฤษภาคม](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
-
->[เข้าร่วมการสัมมนาผ่านเว็บที่กำลังมาถึงจากชุมชน Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
+>[เข้าร่วมการสัมมนาผ่านเว็บที่กำลังมาถึงจากชุมชน Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>การสัมมนาที่โดดเด่น
 
@@ -78,15 +62,27 @@ ms.locfileid: "34299297"
 <br>โดย Charles Sterling
 <br>[ดูเดี๋ยวนี้](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
+**เรียนรู้เกี่ยวกับ Power BI Embedded ใน 20 นาที**
+<br>โดย Megan Asarrane และ Colin Murphy
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
+
 **นอกเหนือจาก Spreadsheet**
 <br>โดย Gohul Shanmugalingam
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
+
+**วาดภาพข้อมูลเชิงลึกที่เหมาะสมด้วย Power BI และ Visio**
+<br>โดย Shakun Grover
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **แปลงรายงานจากแนะนำให้คุณยอดเยี่ยม!**
 <br>โดย Reid Havens
 <br>[ดูเดี๋ยวนี้](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>คู่ค้า ###
+
+**เพิ่มประสิทธิภาพ BI ของคุณ ด้วยความอัจฉริยะด้านตำแหน่งที่ตั้ง**
+<br>โดยสก็อต บอลล์ จาก Esri และ Enrique Plaza จาก Microsoft
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
 **ปรับปรุงการทำกำไรในสุขอนามัย**
 <br>โดย Stephen Cracknell และ Stuart Macanliss จากสหรัฐอเมริกาทางแพทย์ทางด้าน IT
@@ -172,7 +168,7 @@ ms.locfileid: "34299297"
 
 - [เซสชันตามความต้องการ Microsoft 2017 ประชุมสุดยอดด้านข้อมูลเชิงลึกของข้อมูล](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
-- [เริ่มต้นใช้งาน Power BI](service-get-started.md)
+- [Power BI คืออะไร](power-bi-overview.md)
 
 - ติดตาม[ @MSPowerBIบน Twitter](https://twitter.com/mspowerbi)
 

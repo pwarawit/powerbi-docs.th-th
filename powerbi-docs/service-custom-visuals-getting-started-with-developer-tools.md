@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296321"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600390"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>ใช้เครื่องมือสำหรับนักพัฒนาเพื่อสร้างวิชวลแบบกำหนดเอง
 วิชวลแบบกำหนดเองช่วยให้คุณตอบสนองความต้องการของผู้ใช้ และสอดคล้องกับการออกแบบของแอปคุณ เรียนรู้วิธีสร้างวิชวลแบบกำหนดเองสำหรับ Power BI โดยใช้เครื่องมือนักพัฒนา
@@ -32,14 +32,14 @@ ms.locfileid: "34296321"
 
 1. ดาวน์โหลด และติดตั้ง [NodeJS](https://nodejs.org) จำเป็นต้องใช้เวอร์ชัน 4.0 หรือใหม่กว่า แต่แนะนำให้ใช้เวอร์ชัน 5.0 ขึ้นไป
 2. ติดตั้งเครื่องมือบรรทัดคำสั่ง เรียกใช้คำสั่งต่อไปนี้จากพร้อมท์คำสั่ง
-   
+
         npm install -g powerbi-visuals-tools
 3. คุณสามารถยืนยันว่า เครื่องมือได้ติดตั้งเรียบร้อยแล้ว ด้วยคำสั่งต่อไปนี้ โดยไม่ใส่พารามิเตอร์ใด ๆ
-   
+
         pbiviz
-   
+
     คุณควรเห็นการแสดงผลความช่วยเหลือ
-   
+
     <pre><code>
          +syyso+/
     oms/+osyhdhyso/
@@ -59,22 +59,22 @@ ms.locfileid: "34296321"
                /dmmh /mmmm/ /osyhhy/
                  //   dmmd
                        ++
-   
+
        PowerBI Custom Visual Tool
-   
+
     Usage: pbiviz [options] [command]
-   
+
     Commands:
-   
+
     new [name]        Create a new visual
     info              Display info about the current visual
     start             Start the current visual
     package           Package the current visual into a pbiviz file
     update [version]  Updates the api definitions and schemas in the current visual. Changes the version if specified
     help [cmd]        display help for [cmd]
-   
+
     Options:
-   
+
     -h, --help      output usage information
     -V, --version   output the version number
     --install-cert  Install localhost certificate
@@ -103,7 +103,7 @@ ms.locfileid: "34296321"
 เพื่อ*ติดตั้ง*ใบรับรอง เรียกใช้คำสั่งต่อไปนี้
 
     pbiviz --install-cert
-    
+
 > [!NOTE]
 > คุณควรเห็นข้อความ ที่บอกให้คุณใช้วลีรหัสผ่านของคุณที่เพิ่งสร้างขึ้นใหม่ เพื่อติดตั้งใบรับรอง PFX
 > 
@@ -112,20 +112,20 @@ ms.locfileid: "34296321"
 **ระบบปฏิบัติการ Windows**
 
 1. เลือก**ติดตั้งใบรับรอง...** .
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows.png)
 2. เลือก**ผู้ใช้ปัจจุบัน** แล้วเลือก**ถัดไป**
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows2.png)
 3. เลือก**วางใบรับรองทั้งหมดในที่เก็บต่อไปนี้** และเลือก**เรียกดู...**
 4. เลือก**ผู้ออกใบรับรองหลักที่น่าเชื่อถือ** แล้วเลือก**ตกลง** เลือก**ถัดไป**
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows3.png)
 5. เลือก**เสร็จสิ้น**
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows4.png)
 6. เลือก**ใช่**บนกล่องโต้ตอบคำเตือนด้านความปลอดภัย
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows5.png)
 7. ปิดทุกเบราว์เซอร์ที่คุณเปิดอยู่
 
@@ -137,13 +137,13 @@ ms.locfileid: "34296321"
 **OSX**
 
 1. ถ้าล็อกมุมบนซ้ายถูกล็อค เลือกเพื่อปลดล็อก ค้นหา *localhost* และดับเบิลคลิกที่ใบรับรอง
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx.png)
 2. เลือก**เชื่อถือเสมอ**และปิดหน้าต่าง
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx2.png)
 3. ใส่ชื่อผู้ใช้และรหัสผ่านของคุณ เลือก**อัพเดทการตั้งค่า**
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx3.png)
 4. ปิดทุกเบราว์เซอร์ที่คุณเปิดอยู่
 
@@ -157,15 +157,15 @@ ms.locfileid: "34296321"
 
 1. เรียกดู และลงชื่อเข้าใช้ [app.powerbi.com](https://app.powerbi.com)
 2. เลือก**ไอคอนรูปเฟือง** แล้วเลือก**ตั้งค่า**
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings.png)
 3. เลือก**นักพัฒนา** แล้วเลือก**เปิดใช้งานวิชวลผู้พัฒนาสำหรับการทดสอบ**
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings-enable-developer-live-preview.png)
 4. เลือก**วิชวลผู้พัฒนา**ในบานหน้าต่าง**การแสดงภาพ**
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
-   
+
    > [!NOTE]
    > คุณจำเป็นต้องเรียกใช้ `pbiviz start` จากโฟลเดอร์วิชวลในเครื่องพัฒนาของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสร้างวิชวลของคุณ ดู[สร้างวิชวลใหม่](#create-a-new-visual)ในบทความนี้
    > 
@@ -196,11 +196,11 @@ pbiviz new My Visual name
 1. เปิดพร้อมท์คำสั่ง
 2. เปลี่ยนไดเรกทอรีไปยังโฟลเดอร์ของวิชวล โฟลเดอร์นี้ประกอบด้วยไฟล์ `pbiviz.json`
 3. เรียกใช้คำสั่งต่อไปนี้
-   
+
     ```
     pbiviz start
     ```
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-start-visual.png)
 
 ถ้าคุณอยู่ในตำแหน่งที่ไม่ถูกต้อง คุณจะเห็นข้อผิดพลาดที่คล้ายกับต่อไปนี้
@@ -249,7 +249,7 @@ pbiviz new My Visual name
 1. เปิดพร้อมท์คำสั่ง
 2. เปลี่ยนไดเรกทอรีไปยังโฟลเดอร์ของวิชวล โฟลเดอร์นี้ประกอบด้วยไฟล์ `pbiviz.json`
 3. เรียกใช้คำสั่งต่อไปนี้
-   
+
     ```
     pbiviz package
     ```
@@ -294,6 +294,7 @@ pbiviz update 1.2.0
 โครงการวิชวลของคุณ คือโฟลเดอร์ที่สร้างขึ้นเมื่อคุณเรียกใช้คำสั่ง `pbiviz new` 
 
 ### <a name="file-structure"></a>โครงสร้างไฟล์
+
 | รายการ | คำอธิบาย |
 | --- | --- |
 | assets/ |ใช้เพื่อจัดเก็บแอสเซทของวิชวล (ไอคอน, ภาพหน้าจอ เป็นต้น) |

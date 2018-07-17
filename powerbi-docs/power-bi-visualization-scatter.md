@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: eaef6c8273fc8f4b0d4d43dc1df82fdf97c2edf8
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 8931bc773f0543cc8687c1a8f9f63681109247e2
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964779"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600215"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>แผนภูมิกระจายและแผนภูมิฟองใน Power BI
 แผนภูมิกระจายจะมีแกนค่าสองแกนเสมอเพื่อแสดงข้อมูลตัวเลขหนึ่งชุดตามแกนแนวนอนและอีกชุดของค่าตัวเลขตามแกนแนวตั้ง แผนภูมิแสดงจุดที่จุดตัดของค่าตัวเลข x และ y เพื่อรวมค่าเหล่านี้ลงในจุดข้อมูลเดียว จุดข้อมูลเหล่านี้อาจถูกกระจายสม่ำเสมอกันหรืออาจไม่สม่ำเสมอกันตามแกนแนวนอน โดยขึ้นอยู่กับข้อมูลดังกล่าว
@@ -57,9 +57,9 @@ ms.locfileid: "36964779"
    - **ยอดขาย** > **ร้อยละผลต่างยอดขายรวม**
    - **เขต** > **เขต**
 
-    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
+     ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 
-    ถ้าคุณกำลังใช้บริการ Power BI ตรวจสอบให้แน่ใจว่าคุณเปิดรายงานใน[มุมมองการแก้ไข](service-interact-with-a-report-in-editing-view.md)
+     ถ้าคุณกำลังใช้บริการ Power BI ตรวจสอบให้แน่ใจว่าคุณเปิดรายงานใน[มุมมองการแก้ไข](service-interact-with-a-report-in-editing-view.md)
 
 3. แปลงเป็นแผนภูมิกระจาย ในพื้นที่การแสดงภาพ เลือกไอคอนแผนภูมิกระจาย
 

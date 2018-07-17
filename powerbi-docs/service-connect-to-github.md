@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cd129d898f7ac958a3441754e87366aa1a9dddca
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f4a7e8d0ad254f2b5130026d793629a0cf4cf3be
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34238258"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137295"
 ---
 # <a name="connect-to-github-with-power-bi"></a>เชื่อมต่อกับ GitHub ด้วย Power BI
 ชุดเนื้อหา GitHub สำหรับ Power BI ช่วยให้คุณสามารถรับข้อมูลเชิงลึกลงในจัดเก็บใน GitHub (หรือที่เรียกว่า repo) กับข้อมูล การจัดสรร ปัญหา คำขอการดึง และผู้ใช้ที่ใช้งานอยู่
@@ -97,5 +97,5 @@ ms.locfileid: "34238258"
 3. กลับไปที่ Power BI ลองเชื่อมต่อกับ GitHub ในกล่องโต้ตอบการกำหนดค่า GitHub ให้ใช้ชื่อของ repo และเจ้าของ repo สำหรับ repo ที่เดียวกัน  
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [เริ่มต้นใช้งาน Power BI](service-get-started.md)
+* [Power BI คืออะไร](power-bi-overview.md)
 * [รับข้อมูล](service-get-data.md)

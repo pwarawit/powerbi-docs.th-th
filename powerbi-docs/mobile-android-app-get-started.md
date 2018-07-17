@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 84a2fe350c1146591aa89c5900c10f2747e90cf3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3323258304f8c36131caf6ef269d9befa6cfbb96
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297457"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136536"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>เริ่มต้นใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ บนอุปกรณ์ Android
 แอป Android สำหรับ Microsoft Power BI มอบประสบการณ์ BI บนอุปกรณ์เคลื่อนที่สำหรับ Power BI, เซิร์ฟเวอร์รายงาน Power BI และ Reporting Services ดูและโต้ตอบกับแดชบอร์ดของบริษัทของคุณ ภายในองค์กรและในคลาวด์ จากที่ใดก็ได้ ผ่านอุปกรณ์เคลื่อนที่ ที่รองรับระบบสัมผัสและดูข้อมูลสดได้ สำรวจข้อมูลในแดชบอร์ด และแชร์กับเพื่อนร่วมงานของคุณผ่านอีเมลหรือการส่งข้อความ 
@@ -23,7 +23,7 @@ ms.locfileid: "34297457"
 
 คุณสร้างรายงาน Power BI ใน Power BI Desktop และเผยแพร่:
 
-* [เผยแพร่ไปยังบริการของ Power BI](service-get-started.md) และสร้างแดชบอร์ด
+* [เผยแพร่ไปยังบริการของ Power BI](power-bi-overview.md) และสร้างแดชบอร์ด
 * [เผยแพร่ภายในองค์กรไปยัง เซิร์ฟเวอร์รายงาน Power BI](report-server/quickstart-create-powerbi-report.md)
 
 จากนั้น ในแอป Power BI สำหรับ Android คุณโต้ตอบกับแดชบอร์ดและรายงานของคุณ ไม่ว่าจะอยู่ภายในองค์กรหรืออยู่ในระบบคลาวด์
@@ -136,7 +136,7 @@ Microsoft Intune ช่วยให้องค์กรควบคุมรา
 
 ### <a name="see-also"></a>ดูเพิ่มเติม
 * [ดาวน์โหลดแอป Android](http://go.microsoft.com/fwlink/?LinkID=544867) จาก Android app store
-* [เริ่มต้นใช้งาน Power BI](service-get-started.md)
+* [Power BI คืออะไร](power-bi-overview.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 
 

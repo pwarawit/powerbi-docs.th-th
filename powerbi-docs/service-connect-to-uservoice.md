@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250837"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092172"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>เชื่อมต่อกับ UserVoice ด้วย Power BI
 การติดตามและการสำรวจข้อมูล UserVoice ของคุณด้วย Power BI และชุดเนื้อหา UserVoice นั้นง่ายดาย Power BI ดึงข้อมูลของคุณ รวมทั้งทิ๊กเก็ต คำแนะนำและความพอใจ จากนั้นสร้างแดชบอร์ดแบบคิดนอกกรอบและรายงานที่ยึดตามข้อมูลนั้น
@@ -35,7 +35,7 @@ ms.locfileid: "34250837"
 3. เลือก**UserVoice**แล้วเลือก**รับ**
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. เมื่อได้รับการถาาม ให้ใส่ URL ของ UserVoice URL ต้องเป็นตามรูปแบบต่อไปนี้อย่างเคร่งคัด https://fabrikam.uservoice.com โดยแทนที่ "fabrikam" ด้วยชื่อผลิตภัณฑ์หรือบริการของคุณ
+4. เมื่อได้รับการถาาม ให้ใส่ URL ของ UserVoice URL ต้องเป็นตามรูปแบบต่อไปนี้อย่างเคร่งคัด `https://fabrikam.uservoice.com` โดยแทนที่ "fabrikam" ด้วยชื่อผลิตภัณฑ์หรือบริการของคุณ
    
    >[!NOTE]
    >โปรดสังเกตว่า ไม่มีเครื่องหมายทับต่อที่ส่วนท้าย และการเชื่อมต่อจะต้องเป็น http**s**
@@ -63,7 +63,7 @@ ms.locfileid: "34250837"
 
 ถ้าคุณเห็นข้อผิดพลาดนี้หลังจากพิมพ์ URL UserVoice ของคุณ ตรวจสอบให้แน่ใจว่าข้อกำหนดต่อไปนี้ถูกยอมรับหรือไม่
 
-* URL เป็นตามรูปแบบ "https://fabrikam.uservoice.com" โดยแทนที่ "fabrikam" ด้วยคำนำหน้า URL UserVoice ที่ถูกต้องของคุณ
+* URL เป็นตามรูปแบบนี้ `https://fabrikam.uservoice.com` โดยแทนที่ "fabrikam" ด้วยคำนำหน้า UserVoice URL ที่ถูกต้องของคุณ
 * ตรวจสอบให้แน่ใจว่า ตัวอักษรทั้งหมดเป็นตัวพิมพ์เล็ก
 * ตรวจสอบให้แน่ใจว่า URL เป็นแบบ 'http**s**'
 * ตรวจสอบให้แน่ใจว่าไม่มีที่ส่วนท้ายของ URL หลังสแลช

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3051537298ac8f8fb5fc8661cfca998a07fc625
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252473"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135271"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>เชื่อมต่อกับ Marketo ด้วย Power BI
 ชุดเนื้อหา Power BI สำหรับ Marketo ช่วยคุณรับข้อมูลเชิงลึกลงในบัญชี Marketo ของคุณได้ด้วยข้อมูลสำหรับลูกค้าเป้าหมายและกิจกรรมของพวกลูกค้าเป้าหมายเหล่านี้ การสร้างการเชื่อมต่อนี้จะดึงข้อมูลของคุณและให้แดชบอร์ดและรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลนั้นโดยอัตโนมัติ
@@ -86,7 +86,7 @@ ms.locfileid: "34252473"
 | **เรียกใช้ API ทั้งหมด** | |**2,200** |
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)
+[Power BI คืออะไร](power-bi-overview.md)
 
 [รับข้อมูลสำหรับ Power BI](service-get-data.md)
 

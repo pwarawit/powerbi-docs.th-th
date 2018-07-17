@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f264dadf9d9d91083094d393e1b63d9f53aaca4c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0f2c3649a2c6e0582fe7536473f7a6ee9067ee1d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722370"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137456"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse พร้อม DirectQuery
 Azure SQL Data Warehouse พร้อม DirectQuery ช่วยให้คุณสามารถสร้างรายงานแบบไดนามิกที่ยึดตามข้อมูลและเมทริกซ์ที่คุณมีอยู่แล้วใน Azure SQL Data Warehouse ด้วย DirectQuery แบบสอบถามจะถูกส่งกลับไปยัง Azure SQL Data Warehouse ของคุณในแบบเรียลไทม์ ตามที่คุณสำรวจข้อมูล ซึ่งส่วนนี้รวมกับมาตราส่วนของ SQL Data Warehouse ทำให้ผู้ใช้สามารถสร้างรายงานแบบไดนามิกในไม่กี่นาทีต่อเทราไบต์ของข้อมูล นอกจากนี้ คำนำของปุ่ม**เปิดใน Power BI**อนุญาตให้ผู้ใช้เชื่อมต่อ Power BI กับ SQL Data Warehouse ได้โดยตรงโดยไม่ต้องระบุข้อมูลดัวกล่าวด้วยตนเอง
@@ -32,6 +32,11 @@ Azure SQL Data Warehouse พร้อม DirectQuery ช่วยให้คุ
 ข้อจำกัดและบันทึกย่อเหล่านี้อาจเปลี่ยนแปลงขณะที่เราปรับปรุงประสบการณ์การใช้งาน ขั้นตอนในการเชื่อมต่อจะมีรายละเอียดดังด้านล่าง
 
 ## <a name="using-the-open-in-power-bi-button"></a>ใช้ปุ่ม 'เปิดใน Power BI'
+
+> [!Important]
+> เรากำลังปรับปรุงการเชื่อมต่อของเรากับคลังข้อมูล SQL ของ Azure  สำหรับประสบการณ์ดีที่สุดในการเชื่อมต่อกับแหล่งคลังข้อมูล SQL ของ Azure ของคุณ ใช้ Power BI Desktop  เมื่อคุณได้สร้างรูปแบบข้อมูลและรายงานของคุณแล้ว คุณสามารถเผยแพร่สิ่งดังกล่าวไปยังบริการ Power BI  ตัวเชื่อมต่อโดยตรงสำหรับคลังข้อมูล SQL ของ Azure ในบริการ Power BI ในขณะนี้ไม่ได้รับการสนับสนุน
+>
+
 วิธีง่ายที่สุดในการย้ายไปมาระหว่าง SQL Data Warehouse และ Power BI ของคุณคือ ด้วยปุ่ม**เปิดใน Power BI**ภายในพอร์ทัลการแสดงตัวอย่าง Azure ปุ่มนี้ช่วยให้คุณสามารถเริ่มสร้างแดชบอร์ดใหม่ใน Power BI ได้อย่างราบรื่น
 
 1. การเริ่มใช้งาน ให้ไปยังตัวอย่าง SQL Data Warehouse ของคุณในพอร์ทัลการแสดงตัวอย่างของ Azure โปรดสังเกตว่าเฉพาะ SQL Data Warehouse เท่านั้นที่ปรากฏในพอร์ทัลการแสดงตัวอย่าง Azure ในขณะนี้
@@ -82,7 +87,7 @@ Azure SQL Data Warehouse พร้อม DirectQuery ช่วยให้คุ
 >
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เริ่มต้นใช้งาน Power BI](service-get-started.md)  
+[Power BI คืออะไร](power-bi-overview.md)  
 [รับข้อมูลสำหรับ Power BI](service-get-data.md)  
 [คลังข้อมูล Azure SQL](https://azure.microsoft.com/documentation/services/sql-data-warehouse/)  
 

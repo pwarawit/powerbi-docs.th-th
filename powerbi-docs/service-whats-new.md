@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/06/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: db32f7d0d3f7ca7b6943ca5347dc349c8c44be85
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 750dbf2593981e8fc9ad5f2f66219d6bf6fd641c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301860"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137479"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
@@ -31,11 +31,19 @@ ms.locfileid: "35301860"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="april-2018"></a>เมษายน 2018
+## <a name="may-2018"></a>พฤษภาคม 2018
+* [แดชบอร์แบบธีม](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes) ในบริการของ Power BI
+* [Incremental refresh](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh) ด้วย Premium
+* ร้องขอการเข้าถึงเวิร์กโฟลว์สำหรับ[Power BI Apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)
+* รับการปรับปรุงข้อมูลเพื่อให้ผู้ใช้ค้นหา[Power BI Apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)ได้ง่าย
+* ตั้งค่าเพื่อเปิดและปิด[ตัวกรองที่คงอยู่](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)ในบริการ Power BI
+* Azure B2B เชิญปรับปรุงเวิร์กโฟลว์สำหรับรายงาน
+
+## <a name="previous-months-2018"></a>เดือนก่อน ๆ (2018)
+### <a name="april-2018"></a>เมษายน 2018
 * [เอกสารทางเทคนิค Power BI GDPR](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * [แฟ้มบันทึกการตรวจสอบ](https://docs.microsoft.com/power-bi/service-admin-auditing) บริการของ Power BI จะเปิดตามค่าเริ่มต้นสำหรับผู้เช่า Office 365
 
-## <a name="previous-months-2018"></a>เดือนก่อน ๆ (2018)
 ### <a name="march-2018"></a>มีนาคม 2018
 * [ตัวกรองแบบถาวร](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)ในบริการ Power BI
 * แชร์เนื้อหากับผู้ใช้ที่ใช้บัญชีอีเมลส่วนบุคคลของตน ส่วนขยายของ [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/)
@@ -63,7 +71,7 @@ ms.locfileid: "35301860"
 * ตัวควบคุมสำหรับผู้ดูแลระบบระดับแยกย่อยสำหรับ[เผยแพร่ไปยังเว็บ](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings)
 
 ## <a name="september-2017"></a>กันยายน 2017
-* แชร์แดชบอร์ดเพื่อเพิ่มผู้ใช้ที่มีสิทธิ์ใช้งาน Premium
+* ในความจุแบบพรีเมียม แชร์แดชบอร์ดกับผู้ใช้ที่ไม่มีสิทธิ์การใช้งาน Power BI Pro
 * จัดสรรความจุเพื่อตอบสนองความต้องการทางธุรกิจของคุณด้วย v-แกนหลักร่วมกัน
 * ปรับขนาดความจุขึ้นหรือลงได้ทันทีด้วยหนึ่งคลิก
 * [บล็อก PubNub](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards)เพื่อให้ส่งข้อมูลไปยัง REST API ได้อย่างง่ายดาย
@@ -222,7 +230,7 @@ ms.locfileid: "35301860"
 
 ***วิเคราะห์ใน Excel***
 
-* [วิเคราะห์ใน Excel](service-analyze-in-excel.md)พร้อมใช้งานสำหรับผู้ใช้ทั้งหมด: ความสามารถในการเข้าถึงแบบจำลองข้อมูล Power BI ของคุณใน Excel ได้รับการขยายเพื่อให้ผู้ใช้ทั้งหมดสามารถใช้งานได้ ทั้งเวอร์ชันฟรีและ Pro
+* [วิเคราะห์ใน Excel](service-analyze-in-excel.md)มีให้สำหรับผู้ใช้ทั้งหมด: ผู้ใช้ทั้งหมดสามารถเข้าถึงรูปแบบข้อมูล Power BI ของคุณใน Excel ได้ ไม่ว่ามีสิทธิ์การใช้งานใด
 * ปรับปรุงประสบการณ์การใช้งานบัญชีผู้ใช้หลายคน: ถ้าคุณมีบัญชีผู้ใช้ Power BI มากกว่า 1 บัญชี ตอนนี้การลงชื่อเข้าใช้ทำได้ง่ายยิ่งขึ้น
 
 สำหรับรายละเอียดทั้งหมด [เยี่ยมชมบล็อกของทีม Power BI](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)
@@ -567,7 +575,7 @@ ms.locfileid: "35301860"
 
 **24 กรกฎาคม 2015**
 
-* เรามีความยินดีอย่างยิ่งที่จะประกาศ "ความพร้อมใช้งานทั่วไป" (General availability: GA) ของ Power BI คุณสามารถใช้งาน Power BI เวอร์ชันฟรีได้ต่อไป หรือลงทะเบียนสำหรับ[Power BI Pro](service-self-service-signup-for-power-bi.md)ได้ เราได้นำเสนอคุณลักษณะใหม่ที่ดีเยี่ยม โดยเป็นส่วนหนึ่งของการเผยแพร่ GA:
+* เรามีความยินดีอย่างยิ่งที่จะประกาศ "ความพร้อมใช้งานทั่วไป" (General availability: GA) ของ Power BI ลงทะเบียนวันนี้เพื่อใช้[Power BI Pro](service-self-service-signup-for-power-bi.md) เราได้นำเสนอคุณลักษณะใหม่ที่ดีเยี่ยม โดยเป็นส่วนหนึ่งของการเผยแพร่ GA:
 * ประสบการณ์ใหม่สำหรับการสร้างการแสดงภาพและรายงาน: พื้นที่รายงานใหม่ที่มีตัวเลือกการแสดงภาพมากขึ้น ให้คุณสามารถควบคุมการจัดรูปแบบชื่อเรื่อง คำอธิบายแผนภูมิ แกน สี พื้นหลัง และอื่น ๆ ได้มากขึ้น
 * [กลุ่ม Power BI](service-create-distribute-apps.md): กลุ่มเสนอประสบการณ์การทำงานร่วมกันอย่างมีประสิทธิภาพที่สร้างขึ้นภายในกลุ่ม Office 365
 * [ชุดเนื้อหาองค์กร](service-organizational-content-pack-introduction.md): Power BI ช่วยให้การสร้างแดชบอร์ดและรายงานทำได้ง่ายมาก และตอนนี้ ผู้ใช้สามารถเผยแพร่เนื้อหานี้ไปยังแกลเลอรีเนื้อหาขององค์กรได้แล้ว
@@ -661,7 +669,7 @@ ms.locfileid: "35301860"
 * ความน่าเชื่อถือของการรีเฟรชด้วย OneDrive ได้รับการปรับปรุง  สถานการณ์บางอย่างที่เวิร์กบุ๊กไม่รีเฟรชจาก OneDrive ได้รับการแก้ไข
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เริ่มต้นใช้งานด้วย Power BI](service-get-started.md)  
+[Power BI คืออะไร](power-bi-overview.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 
