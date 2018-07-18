@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/09/2018
 ms.author: maghan
-ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926570"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877035"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>แก้ไขปัญหาแอปพลิเคชันแบบฝังตัว
 
@@ -102,13 +102,11 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 **(AADSTS70002: ข้อมูลประจำตัวผิดพลาด AADSTS50053: คุณได้พยายามลงชื่อเข้าใช้หลายครั้งเกินไป ด้วย ID ผู้ใช้หรือรหัสผ่านที่ไม่ถูกต้อง)**
 
-ถ้าคุณกำลังใช้ Power BI Embedded และการรับรองความถูกต้องโดยตรงของ Azure AD และคุณได้รับข้อความที่เข้าสู่ระบบเช่น***ข้อผิดพลาด: unauthorized_client, error_description:AADSTS70002: ข้อมูลประจำตัวผิดพลาด AADSTS50053: คุณได้พยายามลงชื่อเข้าใช้หลายครั้งเกินไป ด้วย ID ผู้ใช้หรือรหัสผ่านที่ไม่ถูกต้อง***นั่นเป็นเพราะว่าการรับรองความถูกต้องโดยตรงได้ถูกปิดใช้งานในวันที่ 6/14/2018
+ถ้าคุณกำลังใช้ Power BI Embedded และการรับรองความถูกต้องโดยตรงของ Azure AD และคุณได้รับข้อความที่เข้าสู่ระบบเช่น***ข้อผิดพลาด: unauthorized_client, error_description:AADSTS70002: ข้อมูลประจำตัวผิดพลาด AADSTS50053: คุณได้พยายามลงชื่อเข้าใช้หลายครั้งเกินไป ด้วย ID ผู้ใช้หรือรหัสผ่านที่ไม่ถูกต้อง***นั่นเป็นเพราะว่าการรับรองความถูกต้องโดยตรงได้ถูกปิดใช้งานในวันที่ 6/14/2018 ตามค่าเริ่มต้น
 
-เราขอแนะนำให้ใช้[การเข้าถึงตามเงื่อนไขของ Azure AD](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/)เพื่อบล็อกการรับรองความถูกต้องแบบดั้งเดิมหรือใช้[การรับรองความถูกต้องแบบพาส-ทรูของ Azure AD Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication)
+นั่นคือวิธีการเปลี่ยนไปใช้ [นโยบาย Azure AD ](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)ที่สามารถกำหนดขอบเขตว่าเป็นองค์กรหรือ[วัตถุบริการ](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)ได้
 
-อย่างไรก็ตาม นั่นคือวิธีการเปลี่ยนไปใช้ [นโยบาย Azure AD ](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)ที่สามารถกำหนดว่าเป็นองค์กรหรือ[วัตถุบริการ](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)ได้
-
-**_เราขอแนะนำให้คุณเปิดใช้งานนี้สำหรับแต่ละแอป เท่านั้น และเมื่อจำเป็นสำหรับการแก้ไขปัญหาชั่วคราวเท่านั้น_**
+เราขอแนะนำให้คุณเปิดใช้งานส่วนนี้เหมือนเป็นพื้นฐานสำหรับแต่ละแอปเท่านั้น
 
 เมื่อต้องสร้างนโยบายนี้ คุณจำเป็นต้องเป็น**ผู้ดูแลระบบส่วนกลาง**สำหรับไดเรกทอรีที่คุณกำลังสร้างนโยบายและกำหนดสิ่งต่างๆ นี่คือสคริปต์ตัวอย่างสำหรับการสร้างนโยบาย และกำหนดนโยบายให้กับ SP สำหรับแอปพลิเคชันนี้:
 
