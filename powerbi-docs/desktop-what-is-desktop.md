@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: overview
-ms.date: 12/06/2017
+ms.date: 07/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: be29d5879ef62ab3d7fcef271e61337a0d2fb050
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 57d5158098f6ba7b2754ae25afaca524723255f5
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34289199"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39031913"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop คืออะไร
 
@@ -87,7 +87,7 @@ ms.locfileid: "34289199"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-เพื่อเริ่มต้นใช้งาน **Power BI Desktop** สิ่งแรกที่คุณต้องทำคือดาวน์โหลด และติดตั้งแอปพลิเคชัน มีสองวิธีในการรับ **Power BI Desktop**:
+หากต้องการเริ่มต้นใช้งานด้วย **Power BI Desktop** สิ่งแรกที่คุณต้องทำคือดาวน์โหลด และติดตั้งแอปพลิเคชัน มีสองวิธีในการรับ **Power BI Desktop**:
 
 * [ดาวน์โหลด Power BI Desktop จากเว็บ](desktop-get-the-desktop.md)
 * [รับ Power BI Desktop จาก Windows Store](http://aka.ms/pbidesktopstore)

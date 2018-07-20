@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: 07d51448083f61725157d3ea37c5d9dc73e85157
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599961"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032082"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>คำถามที่ถามบ่อยเกี่ยวกับ Power BI Embedded
 
@@ -76,7 +76,7 @@ Power BI Embedded คือ ชุดของ API ที่มีให้ก�
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
 |การซื้อ     |พอร์ทัล Azure |Office |Office |
-|ใช้กรณี |* ฝังเนื้อหาในแอปพลิเคชันของคุณเอง |* ฝังเนื้อหาในแอปพลิเคชันของคุณเอง<br>* * แชร์เนื้อหากับผู้ใช้ Power BI ฟรี ภายนอก PowerBI.com และฝังไว้ในแอปพลิเคชัน SaaS อื่น ๆ (SharePoint, [Teams](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/)) |* ฝังเนื้อหาในแอปพลิเคชันของคุณเอง<br>* แชร์เนื้อหากับผู้ใช้ Power BI ฟรี ภายนอก PowerBI.com และฝังไว้ในแอปพลิเคชัน SaaS อื่น ๆ (SharePoint, Teams)<br>* แชร์เนื้อหากับผู้ใช้ Power BI ฟรี ผ่าน PowerBI.com  |
+|ใช้กรณี |* ฝังเนื้อหาในแอปพลิเคชันของคุณเอง |* ฝังเนื้อหาในแอปพลิเคชันของคุณเอง<br>* ฝังเนื้อหาในแอปพลิเคชัน SaaS อื่น ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* ฝังเนื้อหาในแอปพลิเคชันของคุณเอง<br>* ฝังเนื้อหาในแอปพลิเคชัน SaaS อื่น ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* แชร์เนื้อหากับผู้ใช้ Power BI ผ่าน [บริการ Power BI](https://powerbi.microsoft.com/en-us/)  |
 |การเรียกเก็บเงิน |รายชั่วโมง |รายเดือน |รายเดือน |
 |ข้อผูกมัด  |ไม่มีข้อผูกมัด |รายปี  |รายเดือน/รายปี |
 |ความแตกต่าง |มีความยือหยุ่มเต็มที่ - สามารถสเกลขึ้น/ลง, หยุด/ทำงานต่อ ทรัพยากรในพอร์ทัล Azure หรือผ่าน API  |สามารถใช้เพื่อฝังเนื้อหาใน SharePoint Online และ Microsoft Teams |รวมการฝังในแอปพลิเคชัน และการใช้บริการของ Power BI ในความจุเดียวกัน |
