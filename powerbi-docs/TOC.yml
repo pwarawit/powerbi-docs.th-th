@@ -1021,7 +1021,9 @@
             - name: ฉันสามารถทำอะไรกับ Power BI API ได้บ้าง
               href: developer/overview-of-power-bi-rest-api.md
         - name: บทช่วยสอน
-          items: null
+          items:
+            - name: ส่งข้อมูลลงในชุดข้อมูล
+              href: developer/walkthrough-push-data.md
         - name: แนวคิด
           items:
             - name: นโยบายการเก็บข้อมูลโดยอัตโนมัติสำหรับข้อมูลแบบเรียลไทม์
@@ -1036,8 +1038,6 @@
                   href: developer/api-data-model-versioning.md
         - name: วิธีการ
           items:
-            - name: ส่งข้อมูลลงในชุดข้อมูล
-              href: developer/walkthrough-push-data.md
             - name: ลงทะเบียนแอปด้วย Azure AD
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: รับโทเค็นการเข้าใช้การรับรองความถูกต้อง
