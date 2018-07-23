@@ -322,6 +322,10 @@
                   href: service-collaborate-power-bi-workspace.md
                 - name: จัดการกลุ่มของคุณใน Power BI และ Office 365
                   href: service-manage-app-workspace-in-power-bi-and-office-365.md
+                - name: แชร์แดชบอร์ดที่เชื่อมโยงไปยังสมุดงาน Excel บน OneDrive for Business
+                  href: service-share-dashboard-that-links-to-excel-onedrive.md
+            - name: ชุดเนื้อหา
+              items:
                 - name: จัดการ อัปเดต และลบชุดเนื้อหาองค์กร
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: ชุดเนื้อหาองค์กร คัดลอก รีเฟรช และรับ ccess
@@ -332,8 +336,16 @@
                   href: service-organizational-content-pack-create-and-publish.md
                 - name: นำการเชื่อมต่อไปยังชุดเนื้อหาองค์กรของคุณออก
                   href: service-organizational-content-pack-disconnect.md
-                - name: แชร์แดชบอร์ดที่เชื่อมโยงไปยังสมุดงาน Excel บน OneDrive for Business
-                  href: service-share-dashboard-that-links-to-excel-onedrive.md
+                - name: ใบรับรอง
+                  items:
+                    - name: โครงการการรับรองชุดเนื้อหา
+                      href: service-content-pack-overview.md
+                    - name: เขียนชุดเนื้อหาของเทมเพลต
+                      href: template-content-pack-authoring.md
+                    - name: ทดสอบชุดเนื้อหาของเทมเพลต
+                      href: template-content-pack-testing.md
+                    - name: ประสบการณ์การใช้งานชุดเนื้อหาเทมเพลต
+                      href: template-content-pack-experience.md
             - name: รายงาน
               items:
                 - name: สร้างรายงานใหม่จากรายงานที่มีอยู่
@@ -890,58 +902,34 @@
           href: mobile-apps-supported-languages.md
 - name: Power BI สำหรับนักพัฒนา
   items:
-    - name: ภาพรวม
+    - name: การวิเคราะห์ที่ฝังตัว
       items:
-        - name: นักพัฒนาสามารถทำอะไรกับ Power BI ได้บ้าง
-          href: developer/what-can-you-do.md
-    - name: บทช่วยสอน
-      items:
-        - name: เนื้อหาแบบฝังตัวสำหรับลูกค้าของคุณ
-          href: developer/embed-sample-for-customers.md
-        - name: เนื้อหาแบบฝังตัวสำหรับองค์กรของคุณ
-          href: developer/embed-sample-for-your-organization.md
-    - name: แนวคิด
-      items:
-        - name: ใช้กับ Power BI REST API
+        - name: ภาพรวม
           items:
-            - name: ฉันสามารถทำอะไรกับ Power BI API ได้บ้าง
-              href: developer/overview-of-power-bi-rest-api.md
-            - name: ข้อจำกัดของ Power BI REST API
-              href: developer/api-rest-api-limitations.md
-            - name: คุณสมบัติของชุดข้อมูล
-              href: developer/api-dataset-properties.md
-            - name: การกำหนดรุ่นแบบจำลองข้อมูล
-              href: developer/api-data-model-versioning.md
-        - name: สร้างวิชวลแบบกำหนดเอง ด้วยเครื่องมือนักพัฒนา
-          href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: สิทธิ์ของ Power BI
-          href: developer/power-bi-permissions.md
-        - name: รักษาความปลอดภัยระดับแถว (RLS)
-          href: developer/embedded-row-level-security.md
-        - name: คำถามที่ถามบ่อย
-          href: developer/embedded-faq.md
-    - name: วิธีการ
-      items:
-        - name: สร้างวิชวลแบบกำหนดเอง
-          items:
-            - name: สร้างวิชวลแบบกำหนดเอง ด้วยเครื่องมือนักพัฒนา
-              href: service-custom-visuals-getting-started-with-developer-tools.md
-            - name: รับวิชวลแบบกำหนดเองที่ได้รับการรับรอง
-              href: power-bi-custom-visuals-certified.md
-            - name: เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
-              href: developer/office-store.md
-        - name: การฝังตัว
-          items:
-            - name: ฝังด้วย Power BI
+            - name: การฝังด้วย Power BI
               href: developer/embedding.md
+        - name: บทช่วยสอน
+          items:
+            - name: ฝังเนื้อหาสำหรับลูกค้า
+              href: developer/embed-sample-for-customers.md
+            - name: เนื้อหาแบบฝังตัวสำหรับองค์กรของคุณ
+              href: developer/embed-sample-for-your-organization.md
+        - name: แนวคิด
+          items:
+            - name: รักษาความปลอดภัยระดับแถว (RLS)
+              href: developer/embedded-row-level-security.md
+            - name: คำถามที่ถามบ่อย
+              href: developer/embedded-faq.md
+            - name: สิทธิ์ของ Power BI
+              href: developer/power-bi-permissions.md
+        - name: วิธีการ
+          items:
             - name: วิธีการฝังเนื้อหาของคุณ
               href: developer/embedding-content.md
             - name: วิธีการฝังตัวจากแอป
               href: developer/embed-from-apps.md
             - name: รวมเนื้อหาลงในแอปพลิเคชันสำหรับ sovereign clouds (แอปเป็นเจ้าของข้อมูล)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
-            - name: ฝังเค้าโครงแบบกำหนดเองลงในแอป
-              href: developer/embedded-custom-layout.md
             - name: สร้างผู้เช่า Azure Active Directory
               href: developer/create-an-azure-active-directory-tenant.md
             - name: ลงทะเบียนแอปพลิเคชัน
@@ -952,17 +940,105 @@
               href: developer/qanda.md
             - name: วิธีการโยกย้าย Power BI Embedded
               href: developer/migrate-from-powerbi-embedded.md
-            - name: เครื่องมือการย้าย Power BI แบบฝัง
-              href: developer/migrate-tool.md
-            - name: โยกย้ายส่วนย่อยของโค้ด
-              href: developer/migrate-code-snippets.md
             - name: แก้ไขปัญหาแอปพลิเคชันแบบฝังตัว
               href: developer/embedded-troubleshoot.md
-        - name: ส่งข้อมูล
+        - name: การอ้างอิง
           items:
-            - name: ส่งข้อมูลลงในแดชบอร์ด
+            - name: ดาวน์โหลด SDK .NET
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+            - name: ฝังเค้าโครงแบบกำหนดเองลงในแอป
+              href: developer/embedded-custom-layout.md
+            - name: โยกย้ายส่วนย่อยของโค้ด
+              href: developer/migrate-code-snippets.md
+        - name: ทรัพยากร
+          items:
+            - name: ศูนย์นักพัฒนา
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: ประสบการณ์การเตรียมความพร้อมสำหรับอุปกรณ์การฝังตัว
+              href: 'https://aka.ms/embedsetup'
+            - name: ตัวอย่าง JavaScript Playground
+              href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+            - name: วิกิสำหรับ Power BI JavaScript
+              href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+            - name: JavaScript Git Repo
+              href: 'https://go.microsoft.com/fwlink/?linkid=848276'
+            - name: 'Power BI C# Git Repo'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: ตัวอย่าง
+              href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+            - name: เครื่องมือการย้าย Power BI แบบฝัง
+              href: developer/migrate-tool.md
+            - name: ชุมชน Power BI
+              href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+            - name: ข้อมูลเกินสแตก
+              href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+    - name: พัฒนาวิชวลแบบกำหนดเอง
+      items:
+        - name: ภาพรวม
+          items:
+            - name: การเพิ่มวิชวลแบบกำหนดเองลงใน Power BI
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/'
+        - name: บทช่วยสอน
+          items:
+            - name: การพัฒนาวิชวลแบบกำหนดเองสำหรับ Power BI
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/step-by-step-lab/developing-a-power-bi-custom-visual/'
+        - name: แนวคิด
+          items:
+            - name: การใช้ความสามารถ
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/capabilities/'
+            - name: มุมมองข้อมูลการแมป
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/dataviewmappings/'
+            - name: อ็อบเจกต์และคุณสมบัติ
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/objects-and-properties/'
+            - name: โหมดแก้ไขขั้นสูง
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/advanced-edit-mode/'
+            - name: การโยกย้ายไปยังคำแนะนำ API ที่มีการกำหนดเวอร์ชัน
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/migrating-to-versioned-api-guide/'
+        - name: วิธีการ
+          items:
+            - name: รับวิชวลแบบกำหนดเองที่ได้รับการรับรอง
+              href: power-bi-custom-visuals-certified.md
+            - name: เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
+              href: developer/office-store.md
+        - name: การอ้างอิง
+          items:
+            - name: API
+              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
+        - name: ทรัพยากร
+          items:
+            - name: ศูนย์นักพัฒนา
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: สร้างวิชวลแบบกำหนดเอง ด้วยเครื่องมือนักพัฒนา
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: ตัวอย่าง
+              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+            - name: Git Repo วิชวลแบบกำหนดเอง
+              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+    - name: อัตโนมัติ
+      items:
+        - name: ภาพรวม
+          items:
+            - name: ฉันสามารถทำอะไรกับ Power BI API ได้บ้าง
+              href: developer/overview-of-power-bi-rest-api.md
+        - name: บทช่วยสอน
+          items: null
+        - name: แนวคิด
+          items:
+            - name: นโยบายการเก็บข้อมูลโดยอัตโนมัติสำหรับข้อมูลแบบเรียลไทม์
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
+            - name: ส่งข้อมูล
+              items:
+                - name: ข้อจำกัดของ Power BI REST API
+                  href: developer/api-rest-api-limitations.md
+                - name: คุณสมบัติของชุดข้อมูล
+                  href: developer/api-dataset-properties.md
+                - name: การกำหนดรุ่นแบบจำลองข้อมูล
+                  href: developer/api-data-model-versioning.md
+        - name: วิธีการ
+          items:
+            - name: ส่งข้อมูลลงในชุดข้อมูล
               href: developer/walkthrough-push-data.md
-            - name: ลงทะเบียนแอปกับ Azure AD
+            - name: ลงทะเบียนแอปด้วย Azure AD
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: รับโทเค็นการเข้าใช้การรับรองความถูกต้อง
               href: developer/walkthrough-push-data-get-token.md
@@ -972,44 +1048,22 @@
               href: developer/walkthrough-push-data-get-datasets.md
             - name: เพิ่มแถวลงในตาราง
               href: developer/walkthrough-push-data-add-rows.md
+        - name: การอ้างอิง
+          items:
+            - name: REST API
+              href: 'https://docs.microsoft.com/rest/api/power-bi'
+            - name: ข้อมูลอ้างอิง Power BI REST API
+              href: developer/rest-api-reference.md
             - name: รายการรหัสเสร็จสมบูรณ์
               href: developer/walkthrough-push-data-complete-code.md
-            - name: นโยบายการเก็บข้อมูลโดยอัตโนมัติสำหรับข้อมูลแบบเรียลไทม์
-              href: developer/api-automatic-retention-policy-for-real-time-data.md
-        - name: ใบรับรองของชุดเนื้อหา
+        - name: ทรัพยากร
           items:
-            - name: โปรแกรมใบรับรองชุดเนื้อหา
-              href: developer/service-content-pack-overview.md
-            - name: เขียนชุดเนื้อหาของเทมเพลต
-              href: developer/template-content-pack-authoring.md
-            - name: ทดสอบชุดเนื้อหาของเทมเพลต
-              href: developer/template-content-pack-testing.md
-            - name: ประสบการณ์การใช้งานชุดเนื้อหาเทมเพลต
-              href: developer/template-content-pack-experience.md
-    - name: การอ้างอิง
-      items:
-        - name: REST API
-          href: 'https://docs.microsoft.com/rest/api/power-bi/'
-        - name: 'Power BI C# Git Repo'
-          href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-        - name: ดาวน์โหลด SDK .NET
-          href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-        - name: JavaScript Git Repo
-          href: 'https://go.microsoft.com/fwlink/?linkid=848276'
-        - name: Git Repo วิชวลแบบกำหนดเอง
-          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-    - name: ทรัพยากร
-      items:
-        - name: ประสบการณ์การเตรียมความพร้อมสำหรับอุปกรณ์การฝังตัว
-          href: 'https://aka.ms/embedsetup'
-        - name: ตัวอย่าง JavaScript Playground
-          href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: ตัวอย่าง
-          href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-        - name: ชุมชน Power BI
-          href: 'https://go.microsoft.com/fwlink/?linkid=848280'
-        - name: ข้อมูลเกินสแตก
-          href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+            - name: ศูนย์นักพัฒนา
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 'Power BI C# Git Repo'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: ดาวน์โหลด SDK .NET
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: เซิร์ฟเวอร์รายงาน Power BI
   items:
     - name: ภาพรวม
