@@ -530,6 +530,12 @@
       items:
         - name: มีอะไรใหม่ในการอัปเดต Power BI Desktop ล่าสุด
           href: desktop-latest-update.md
+        - name: โมเดลแบบรวมใน Power BI Desktop (ตัวอย่าง)
+          href: desktop-composite-models.md
+        - name: ความสัมพันธ์แบบกลุ่ม-ต่อ-กลุ่มใน Power BI Desktop (ตัวอย่าง)
+          href: desktop-many-to-many-relationships.md
+        - name: โหมดที่เก็บข้อมูลใน Power BI Desktop (ตัวอย่าง)
+          href: desktop-storage-mode.md
         - name: การกรองข้ามแบบสองทิศทางใน Power BI Desktop (ตัวอย่าง)
           href: desktop-bidirectional-filtering.md
         - name: Power BI และ DirectQuery
@@ -670,6 +676,8 @@
               href: desktop-import-and-display-kpis.md
         - name: สร้างรายงาน
           items:
+            - name: องค์ประกอบภาพสำหรับรายงาน
+              href: desktop-visual-elements-for-reports.md
             - name: การถามตอบใน Power BI Desktop
               href: desktop-qna-in-reports.md
             - name: บานหน้าต่างการวิเคราะห์ใน Power BI Desktop
@@ -1244,6 +1252,8 @@
               href: service-premium-large-datasets.md
             - name: การรีเฟรชแบบเพิ่ม
               href: service-premium-incremental-refresh.md
+            - name: ฝ่ายสนับสนุน Multi-Geo (ตัวอย่าง)
+              href: service-admin-premium-multi-geo.md
             - name: คำถามที่ถามบ่อยสำหรับ Power BI Premium
               href: service-premium-faq.md
             - name: บันทึกย่อประจำรุ่นของ Power BI Premium
