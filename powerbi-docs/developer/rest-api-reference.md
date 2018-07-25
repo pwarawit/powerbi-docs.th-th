@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 638b46d681a9a9e7ef7754a4e28d0e94812ef8de
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 96675f8e96eef84a10684487f652c872405bf037
+ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812364"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39157159"
 ---
 # <a name="power-bi-rest-api-reference"></a>ข้อมูลอ้างอิง Power BI REST API
 Power BI เป็นบริการบนระบบคลาวด์ที่คุณสามารถใช้เพื่อสร้างแอปพลิเคชันแดชบอร์ดแบบกำหนดเอง Power BI REST API คือ REST-based API ที่มอบสิทธิ์การเข้าถึงทางโปรแกรม**แหล่งข้อมูลแดชบอร์ด**เช่น**ชุดข้อมูล** **ตาราง**และ**แถว**ใน Power BI
@@ -31,4 +31,3 @@ Power BI REST API มีการดำเนินการต่อไปน�
 เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ Power BI REST API ดูที่ [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
-
