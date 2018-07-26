@@ -34,7 +34,7 @@ DAX มีชุดฟังก์ชัน**ตาราง**จำนวนม
 
 คุณยังสามารถสร้างตารางที่ได้รับการคำนวณใหม่ทั้งตารางโดยใช้ฟังก์ชัน DAX ได้เช่นกัน ตารางที่ได้รับการคำนวณที่สร้างโดยใช้ DAX จำเป็นต้องมีฟังก์ชัน **NAME** และ **TABLE** ตารางที่ได้รับการคำนวณสามารถนำไปใช้ได้เหมือนกับตารางอื่นๆ รวมถึงการสร้างความสัมพันธ์ด้วยเช่นกัน
 
-> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

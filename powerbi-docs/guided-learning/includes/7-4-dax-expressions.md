@@ -10,7 +10,7 @@
 
 โปรดจำไว้ว่าเมื่อคุณอ้างอิงตัวแปรในนิพจน์ DAX ทุกครั้ง Power BI จะต้องคำนวณค่าของตัวเองใหม่ให้ตรงตามข้อกำหนดของคุณ เนื่องด้วยเหตุนี้ การหลีกเลี่ยงตัวแปรที่ซ้ำกันในฟังก์ชันของคุณจึงเป็นสิ่งที่ดี
 
-> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

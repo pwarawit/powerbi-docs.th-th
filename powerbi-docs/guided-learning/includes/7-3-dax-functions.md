@@ -89,7 +89,7 @@ DAX ใช้ฟังก์ชัน **MAX** และ **MIN** เพื่อ*
 
 แม้ฟังก์ชันเหล่านี้จะมีประโยชน์ในการคำนวณและดึงข้อมูลจากค่า*วันที่* แต่ฟังก์ชันเหล่านี้ใช้กับตัวแสดงเวลาที่ใช้ตารางวันที่ไม่ได้
 
-> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

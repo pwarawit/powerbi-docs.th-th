@@ -57,7 +57,7 @@
 * ชื่อการวัดใหม่
 * ฟังก์ชันหรือนิพจน์อย่างน้อยหนึ่งรายการ
 
-> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

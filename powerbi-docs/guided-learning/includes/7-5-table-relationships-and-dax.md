@@ -15,7 +15,7 @@ DAX มี**ฟังก์ชันความสัมพันธ์**ที
 
 คุณสามารถใช้ฟังก์ชันความสัมพันธ์เพื่อสร้างนิพจน์ที่มีค่าในหลายตารางได้ DAX จะส่งกลับผลลัพธ์ด้วยฟังก์ชันเหล่านี้ไม่ว่าห่วงโซ่ความสัมพันธ์จะยาวเพียงใด
 
-> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 
