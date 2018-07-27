@@ -682,8 +682,10 @@
               href: desktop-qna-in-reports.md
             - name: บานหน้าต่างการวิเคราะห์ใน Power BI Desktop
               href: desktop-analytics-pane.md
-            - name: ใช้ข้อมูลเชิงลึกใน Power BI Desktop
+            - name: ใช้ข้อมูลเชิงลึกเพื่ออธิบายการเพิ่มขึ้นและการลดลง
               href: desktop-insights.md
+            - name: ใช้ข้อมูลเชิงลึกเพื่อหาว่าการแจกจ่ายมีความแตกต่างกับแผนภูมิอย่างไร
+              href: desktop-insights-find-where-different.md
             - name: บุ๊กมาร์กใน Power BI
               href: desktop-bookmarks.md
             - name: ใช้ชุดรูปแบบรายงาน
