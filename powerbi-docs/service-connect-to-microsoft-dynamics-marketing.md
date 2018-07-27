@@ -35,7 +35,7 @@ ms.locfileid: "37137040"
 3. เลือก**Microsoft Dynamics Marketing** \> **รับ**
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. ให้ URL สำหรับ OData ที่เชื่อมโยงกับบัญชีของคุณ  นี่จะอยู่ในรูปแบบ " https://[instance\_name].marketing.dynamics.com/analytics "
+4. ให้ URL สำหรับ OData ที่เชื่อมโยงกับบัญชีของคุณ  นี่จะอยู่ในรูปแบบ "https:// [instance\_name].marketing.dynamics.com/analytics"
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. เมื่อได้รับข้อความปรากฏ ให้ใส่ข้อมูลประจำตัวของคุณ (คุณอาจข้ามขั้นตอนนี้ไปถ้าคุณลงชื่อเข้าใช้อยู่แล้วด้วยเบราว์เซอร์ของคุณ) สำหรับวิธีการรับรองความถูกต้อง ใส่**oAuth2**และคลิก**ลงชื่อเข้าใช้**:
@@ -54,7 +54,7 @@ ms.locfileid: "37137040"
 
 ## <a name="system-requirements"></a>ข้อกำหนดของระบบ
 * คุณจำเป็นต้องระบุ URL ของ OData ที่ถูกต้องสำหรับตัวอย่าง Dynamics Marketing (ชุดเนื้อหาจะไม่ทำงานกับรุ่น CRM ภายในองค์กร)  
-* ผู้ดูแลระบบต้องเปิดใช้งานจุดยุติ OData ในการตั้งค่าไซต์ ที่อยู่ของจุดสิ้นสุด OData สามารถดูได้ โดยการนำทางไปยัง**หน้าแรก\>ตั้งค่า\>ตั้งค่าไซต์**ในส่วน**บริการข้อมูลองค์กร**  OData URL มีรูปแบบ: https://[instance\_name].marketing.dynamics.com/analytics  
+* ผู้ดูแลระบบต้องเปิดใช้งานจุดยุติ OData ในการตั้งค่าไซต์ ที่อยู่ของจุดสิ้นสุด OData สามารถดูได้ โดยการนำทางไปยัง**หน้าแรก\>ตั้งค่า\>ตั้งค่าไซต์**ในส่วน**บริการข้อมูลองค์กร**  OData URL มีรูปแบบ: https:// [instance\_name].marketing.dynamics.com/analytics  
 * บัญชี/ข้อมูลประจำตัวผู้ใช้ที่คุณใช้เพื่อเข้าถึง Microsoft Dynamics Marketing ต้องเหมือนกันกับบัญชี/ข้อมูลประจำตัวที่คุณลงทะเบียนใช้งานกับ Power BI เมื่อคุณลงชื่อเข้าใช้ใน Microsoft Dynamics Marketing คุณจะลงชื่อเข้าใช้โดยอัตโนมัติด้วยข้อมูลประจำตัวเดียวกันกับที่คุณใช้สำหรับ Power BI ถ้าคุณต้องการลงชื่อเข้าใช้ลงใน Microsoft Dynamics Marketing ด้วยบัญชีอื่น โปรดลงทะเบียนเป็นผู้ใช้ Power BI โดยใช้บัญชีผู้ใช้อื่น เราหวังว่าจะแก้ไขปัญหานี้ในการเผยแพร่ครั้งถัดไป   
 
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
