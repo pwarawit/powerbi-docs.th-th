@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 6a19478e561edfb4398f9a128e284d3a7e43e9b6
+ms.sourcegitcommit: efe6747614ff66b5a86af9677632c1fb535448b2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924724"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39137955"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>ฝังตัวแดชบอร์ด รายงานและไทล์ Power BI ของคุณ
 
@@ -110,15 +110,13 @@ Microsoft [ประกาศเปิดตัว Power BI Premium](https://pow
 
 ภายในแอปพลิเคชันของคุณ หลังจากที่รับรองความถูกต้องแล้ว ใช้ Power BI REST API และ JavaScript API เพื่อฝังแดชบอร์ดและรายงานลงในแอปพลิเคชันของคุณ 
 
-สำหรับ **การฝังสำหรับองค์กรของคุณ** โปรดดการฝึกปฏิบัติดังต่อไปนี้:
+สำหรับ**การฝังสำหรับองค์กรของคุณ** ให้ดูขั้นตอนด้านล่าง:
 
-* [รวมแดชบอร์ดลงในแอป](integrate-dashboard.md)
-* [รวมไทล์ลงในแอป](integrate-tile.md)
-* [รวมรายงานลงในแอป](integrate-report.md)
+* [รวมรายงานลงในแอป](embed-sample-for-your-organization.md)
 
 สำหรับ**การฝังตัวสำหรับลูกค้าของคุณ** ซึ่งเป็นกรณีปกติสำหรับ ISV โปรดดูต่อไปนี้:
 
-* [แดชบอร์ด ไทล์หรือรายงานลงในแอปพลิเคชันของคุณ](embed-sample-for-customers.md)
+* [รวมรายงานลงในแอปพลิเคชันของคุณ](embed-sample-for-customers.md)
 
 เมื่อมีการฝังสำหรับลูกค้าของคุณ ก็จำเป็นต้องใช้โทเค็นแบบฝัง เพื่อเรียนรู้เพิ่มเติม ดูที่[โทเค็นการฝัง](https://docs.microsoft.com/rest/api/power-bi/embedtoken)
 

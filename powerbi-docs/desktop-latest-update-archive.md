@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/23/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 166d61c78f8e85a91dafa5de698d782b456834a7
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: dcf63989a7d016b5795337f43c9524b05d2d54cd
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37601648"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210387"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -34,6 +34,53 @@ ms.locfileid: "37601648"
 
 ส่วนต่อไปนี้อธิบายวิธีการอัปเดตเดือนก่อนหน้าไปยัง**Power BI Desktop**
 
+
+## <a name="june-2018-update-2595135101"></a>การอัปเดตประจำเดือนมิถุนายน 2018 (2.59.5135.101)
+
+พระอาทิตย์กำลังส่องแสงลงบนการอัปเดตของเดือนนี้ ด้วยคุณลักษณะและการปรับปรุง ที่จะทำให้รายงานของคุณอบอุ่น และให้คุณได้อาบแดดในข้อมูลเชิงลึกที่รายงานมีให้
+
+การอัปเดตใหม่ต่อไปนี้จะถูกอัปเดตไปยัง**Power BI Desktop**ในเดือนมิถุนายน:
+
+### <a name="reporting"></a>การรายงาน
+
+* สนับสนุนความคมชัดสูงสำหรับรายงาน [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=13s) [[บทความ]](desktop-accessibility.md#high-contrast-support-for-reports) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
+* ตัวควบคุมรัศมีของโดนัท [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=6m1s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
+* การควบคุมตำแหน่งป้ายชื่อรายละเอียดของแผนภูมิวงกลมและแผนภูมิโดนัท [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=7m19s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
+* จัดรูปแบบป้ายชื่อข้อมูลแยกจากกัน สำหรับแต่ละหน่วยวัดในแผนภูมิผสม [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=9m29s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
+* รายงานโทรศัพท์ที่ยาวขึ้น [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=11m26s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#phoneReports) 
+
+### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+
+* วิชวลแบบกำหนดเองใหม่สองวิชวล [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=17m42s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
+
+### <a name="modeling"></a>การวางรูปแบบ
+* การกรองและเรียงลำดับในมุมมองข้อมูล [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=13m11s) [[บทความ]](desktop-data-view.md#filtering-in-data-view) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
+* ปรับปรุงการกรองตามตำแหน่งที่ตั้ง [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=15m35s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#locale) 
+
+### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
+
+* ปรับปรุงตัวเชื่อมต่อ SAP BusinessWarehouse (โปรแกรมควบคุมใหม่ และประสิทธิภาพที่ดีขึ้น รวมถึงการสนับสนุนตัวแปรลำดับชั้นที่ดีขึ้น) [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=21m6s) [[บทความ]](desktop-sap-bw-connector.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#sapBW) 
+* ตัวเชื่อมต่อ Spark ตอนนี้สนับสนุนการรับรองความถูกต้องของ Windows [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=24m31s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#spark) 
+* ปรับปรุงตัวเชื่อมต่อ OData V4 [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=25m12s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#oData) 
+* การปรับปรุงตัวเชื่อมต่อ ODBC (สนับสนุนการพับสำหรับแถวด้านบนสุด ความสามารถในการกรองการนำทางโดยแค็ตตาล็อก DSN) [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=26m51s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#odbc) 
+
+### <a name="other"></a>อื่นๆ
+
+* ตัวเลือก sovereign cloud [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+
+
+> [!NOTE]
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+
+ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
+
+วิดีโอต่อไปนี้อธิบาย และแสดงการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4VpGtWSrssE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](mobile-whats-new-in-the-mobile-apps.md) ได้
 
 ## <a name="may-2018-update-2585103281"></a>การอัปเดตประจำเดือนพฤษภาคม 2018 (2.58.5103.281)
 
