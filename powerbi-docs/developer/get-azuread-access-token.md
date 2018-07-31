@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/11/2017
 ms.author: maghan
-ms.openlocfilehash: 339390bba2e35101bdd42f7f51ab059473231575
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 51ad188479c11f5a0d16768eee8c533bdc71c59c
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290901"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359943"
 ---
 # <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>รับรองความถูกต้องผู้ใช้ และรับโทเค็นการเข้าถึง Azure AD สำหรับแอปพลิเคชัน Power BI ของคุณ
 รับรองความถูกต้องผใช้ภายในแอปพลิเคชัน Power BI ของคุณ และเรียกใช้โทเค็นการเข้าถึงการใช้กับ REST API
@@ -190,7 +190,6 @@ var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "B
 สำหรับข้อมูลเกี่ยวกับวิธีการใช้**รอ**ดู[รอ (C# ข้อมูลอ้างอิง)](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/await)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-หลังจากที่คุณมีโทเค็นการเข้าถึง คุณจะสามารถโทรหา Power BI REST API เพื่อฝังเนื้อหา สำหรับข้อมูลเกี่ยวกับวิธีการฝังเนื้อหาของคุณ ดู[วิธีการฝัง Power BI แดชบอร์ด รายงาน และไทล์ของคุณ](embedding-content.md#step-2-embed-your-content)
+หลังจากที่คุณมีโทเค็นการเข้าถึง คุณจะสามารถโทรหา Power BI REST API เพื่อฝังเนื้อหา สำหรับข้อมูลเกี่ยวกับวิธีการฝังเนื้อหาของคุณ ดู[วิธีการฝัง Power BI แดชบอร์ด รายงาน และไทล์ของคุณ](embed-sample-for-customers.md#embed-your-content-within-your-application)
 
 คุณมีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
-
