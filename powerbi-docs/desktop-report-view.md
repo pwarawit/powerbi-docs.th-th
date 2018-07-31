@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5026de163aa870c042fe4c3a13b6ff3fbf8849f0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8239c271bff5dff6dc068b1c547b8ab2d7731da5
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290809"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39327740"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>มุมมองรายงานใน Power BI Desktop
 ถ้าคุณเคยทำงานกับ Power BI คุณย่อมทราบว่า Power BI สามารถสร้างรายงานที่แสดงเปอร์สเปกทิฟแบบไดนามิกและข้อมูลเชิงลึกในข้อมูลของคุณได้อย่างง่ายดาย Power BI ยังมีคุณลักษณะขั้นสูงอื่น ๆ ใน Power BI Desktop คุณสามารถสร้างคิวรีขั้นสูง ผสมรวมข้อมูลจากหลายแหล่งข้อมูล สร้างความสัมพันธ์ระหว่างตาราง และอื่น ๆ ได้ด้วย Power BI Desktop

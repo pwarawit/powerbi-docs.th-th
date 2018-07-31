@@ -68,5 +68,5 @@ ms.locfileid: "34240221"
 
 [แนวคิดพื้นฐานของ power BI](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

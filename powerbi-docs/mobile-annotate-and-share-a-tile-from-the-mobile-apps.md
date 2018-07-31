@@ -9,19 +9,19 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: c70a5c50a139423f6c5e69ed6ec9a416dfae8b4e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: bb628f0cc6f723a195f3b90e6d20f4018d9f2709
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295272"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39279860"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>ใส่คำอธิบายประกอบ และแชร์ไทล์ รายงาน หรือรูปภาพในแอปสำหรับอุปกรณ์เคลื่อนที่ของ Power BI
 ใช้กับ
 
-| ![iPhone](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/ipad-logo-50-px.png) | ![มือถือ Android](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-tablet-logo-50-px.png) |
+| ![iPhone](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/ipad-logo-50-px.png) | ![โทรศัพท์ Android](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhones |iPads |มือถือ Android |แท็บเล็ต Android |
+| iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |
 
 คุณสามารถใส่คำอธิบายประกอบ และแชร์สแนปช็อตของไทล์ รายงาน หรือภาพจากอุปกรณ์เคลื่อนที่ Power BI สำหรับอุปกรณ์ iOS และ Android ผู้รับของคุณเห็นเหมือนกับเวลาที่คุณส่งเมล์ รวมถึงลิงก์ คุณสามารถส่งสแนปช็อตของไทล์ให้ทุกคน ไม่เพียงเพื่อนร่วมงานในโดเมนอีเมลเดียวกันเท่านั้น คุณสามารถเพิ่มคำอธิบายประกอบ บรรทัด ข้อความ หรือประทับตรา ก่อนที่คุณแชร์ได้
 
@@ -31,7 +31,7 @@ ms.locfileid: "34295272"
 
 จดหมายที่ มีสแนปช็อตของไทล์ รายงาน หรือรูปภาพที่ยังมีลิงก์ไปยังวัตถุจริงบน Power BI service ([https://powerbi.com](https://powerbi.com)) ผู้รับของคุณสามารถคลิกลิงก์ และไปยังที่ไทล์ รายงาน หรือรูปภาพวิชวล ถ้าคุณและพวกเขามีสิทธิ์การใช้งาน Power BI Pro หรือเนื้อหาในการ[ความจุพรีเมียม](service-premium.md)และคุณได้แชร์รายการกับบุคคลเหล่านั้น 
 
-คุณสามารถ[แชร์ไทล์จากแอป mobile Power BI ให้กับอุปกรณ์ Windows 10](mobile-share-tile-windows-10-phone-app.md) แช่นกัน แต่อย่าใส่คำอธิบายประกอบ
+คุณสามารถ[แชร์ไทล์จากแอป mobile Power BI ให้กับอุปกรณ์ Windows 10](mobile-windows-10-phone-app-get-started.md) แช่นกัน แต่อย่าใส่คำอธิบายประกอบ
 
 ## <a name="open-a-tile-for-annotating"></a>เปิดไทล์สำหรับใส่คำอธิบายประกอบ
 1. แตะไทล์เพื่อเปิดในโหมดโฟกัส

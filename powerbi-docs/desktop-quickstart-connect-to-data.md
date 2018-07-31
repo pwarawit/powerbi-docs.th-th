@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 3f29bd899c62adbe2de1fdedd25b60cb104c71e0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f7266691573c0d02bafa7120b5d4a28ff0c03076
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287842"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39327672"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>เริ่มต้นใช้งานด่วน: เชื่อมต่อกับข้อมูลใน Power BI Desktop
 

@@ -119,5 +119,5 @@ Add-MsolRoleMember -RoleMemberEmailAddress "tim@contoso.com" -RoleName "Power BI
 [การตรวจสอบ Power BI ในองค์กรของคุณ](service-admin-auditing.md)  
 [การดูแล Power BI ในองค์กรของคุณ](service-admin-administering-power-bi-in-your-organization.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

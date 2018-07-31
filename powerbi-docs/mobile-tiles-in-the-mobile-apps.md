@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598653"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280144"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>สำรวจไทล์ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -92,7 +92,7 @@ ms.locfileid: "37598653"
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10tileellpslink.png)
    
-    [แชร์สแนปช็อตของไทล์](mobile-share-tile-windows-10-phone-app.md)
+    [แชร์สแนปช็อตของไทล์](mobile-windows-10-phone-app-get-started.md)
    
     แตะ**เปิดรายงาน** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)เพื่อ[ดูรายงานที่สำคัญ](mobile-reports-in-the-mobile-apps.md)
    
@@ -120,7 +120,7 @@ ms.locfileid: "37598653"
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    
-   แตะไอคอนแชร์สแนปช็อต![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png)เพื่อ[ใส่คำอธิบายประกอบ และแชร์ไทล์](mobile-share-tile-windows-10-phone-app.md)กับผู้อื่น   
+   แตะไอคอนแชร์สแนปช็อต![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png)เพื่อ[ใส่คำอธิบายประกอบ และแชร์ไทล์](mobile-windows-10-phone-app-get-started.md)กับผู้อื่น   
    
    แตะไอคอนเปิดรายงาน![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)เพื่อ[ดูรายงาน](mobile-reports-in-the-mobile-apps.md)ที่เป็นไปตามไทล์ 
 4. แตะลูกศรย้อนกลับหรือปุ่มย้อนกลับเพื่อปิดไทล์ และกลับไปยังแดชบอร์ด

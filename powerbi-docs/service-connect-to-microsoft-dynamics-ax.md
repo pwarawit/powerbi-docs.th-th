@@ -23,7 +23,7 @@ Microsoft Dynamics AX มีสามชุดเนื้อหา Power BI ท
 เชื่อมต่อกับชุดเนื้อหา Microsoft Dynamics AX [ประสิทธิภาพแชนเนลร้านค้าปลีก](https://app.powerbi.com/getdata/services/dynamics-ax-retail-channel-performance) [ประสิทธิภาพด้านการเงิน](https://app.powerbi.com/getdata/services/dynamics-ax-financial-performance)หรือ[การจัดการต้นทุน](https://app.powerbi.com/getdata/services/dynamics-ax-cost-management)สำหรับ Power BI
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
-1. เลือก**รับข้อมูล**ที่ด้านล่างของแผงนำทางด้านซ้ายมือ
+1. เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ
    
    ![](media/service-connect-to-microsoft-dynamics-ax/getdata.png)
 2. ในกล่อง**บริการ** เลือก**รับ**
@@ -44,11 +44,11 @@ Microsoft Dynamics AX มีสามชุดเนื้อหา Power BI ท
    
      ![](media/service-connect-to-microsoft-dynamics-ax/dashboard.png)
 
-**ฉันต้องทำอะไรต่อ?**
+**ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่องถามตอบ](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานพื้นฐาน
+* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
 * ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
 
 ## <a name="whats-included"></a>มีอะไรรวมอยู่บ้าง

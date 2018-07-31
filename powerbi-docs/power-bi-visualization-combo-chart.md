@@ -12,10 +12,10 @@ ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6cc9b9cafe2b3efdb8e51e89c203e2cb123e909a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/27/2018
 ms.locfileid: "34584288"
 ---
 # <a name="combo-chart-in-power-bi"></a>แผนภูมิผสมใน Power BI

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5899274ba3cc8ce0a059978a9b83ae2a7fd08527
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34249516"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280466"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>ฉันควรทำงานร่วมกัน และแชร์ใน Power BI ได้อย่างไร?
 
@@ -75,7 +75,7 @@ ms.locfileid: "34249516"
 
 อ่านเพิ่มเติมเกี่ยวกับ[การใส่คำอธิบายประกอบ และการแชร์ไทล์ รายงาน และวิชวล](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)จากแอปสำหรับอุปกรณ์เคลื่อนที่ Android และ iOS
 
-คุณยังสามารถ[แชร์สแนปช็อตของไทล์](mobile-share-tile-windows-10-phone-app.md)จากแอป Power BI สำหรับอุปกรณ์ที่ Windows 10 ได้
+คุณยังสามารถ[แชร์สแนปช็อตของไทล์](mobile-windows-10-phone-app-get-started.md)จากแอป Power BI สำหรับอุปกรณ์ที่ Windows 10 ได้
 
 ## <a name="publish-to-the-web"></a>เผยแพร่ไปยังเว็บ
 คุณสามารถเผยแพร่รายงาน Power BI ไปยังทั้งอินเทอร์เน็ต โดยการฝังตัวการแสดงภาพลงในบล็อกโพสต์ เว็บไซต์ สื่อทางสังคม และการสื่อสารทางออนไลน์อื่น ๆ บนอุปกรณ์ใดก็ได้ ทุกคนบนอินเทอร์เน็ตสามารถดูรายงานของคุณ และคุณไม่สามารถควบคุมว่าใครสามารถดูสิ่งที่คุณได้เผยแพร่แล้ว พวกเขาไม่จำเป็นต้องมีใบอนุญาต Power BI การเผยแพร่ไปยังเว็บ มีเฉพาะรายงานที่คุณสามารถแก้ไขได้เท่านั้น คุณไม่สามารถเผยแพร่รายงานไปยังเว็บ ถ้ารายงานถูกแชร์มาให้คุณ หรือ ถ้ารายงานอยู่ในแอป อ่านเพิ่มเติมเกี่ยวกับ[การเผยแพร่ไปยังเว็บ](service-publish-to-web.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210341"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280765"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>สร้างคำแนะนำเครื่องมือของหน้ารายงานใน Power BI Desktop (ตัวอย่าง)
 คุณสามารถสร้าง**คำแนะนำเครื่องมือรายงาน**ที่สวยงาม ที่ปรากฏเมื่อคุณโฮเวอร์เหนือวิชวล จากหน้ารายงานที่คุณสร้างใน **Power BI Desktop** ได้ โดยการสร้างหน้ารายงานที่เป็นคำแนะนำเครื่องมือของคุณ คำแนะนำเครื่องมือแบบกำหนดเองของคุณสามารถรวม วิชวล รูปภาพ และคอลเลกชันของรายการใด ๆ ที่คุณสร้างไว้ในหน้ารายงาน 
@@ -124,6 +124,7 @@ ms.locfileid: "39210341"
 * คำแนะนำเครื่องมือรายงาน ไม่สนับสนุนวิชวลแบบกำหนดเอง 
 * คลัสเตอร์ เป็นเขตข้อมูลที่ยังไม่สนับสนุนการแสดงคำแนะนำเครื่องมือรายงานในขณะนี้ 
 * เมื่อต้องการเลือกเขตข้อมูลสำหรับแสดงคำแนะนำเครื่องมือรายงาน เมื่อใช้เขตข้อมูลเมื่อเทียบกับประเภท วิชวลที่มีเขตข้อมูลนั้นจะแสดงคำแนะนำที่ระบุเมื่อ ข้อสรุปของเขตข้อมูลที่เลือกตรงกัน 
+
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

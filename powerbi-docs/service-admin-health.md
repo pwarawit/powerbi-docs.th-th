@@ -24,7 +24,7 @@ ms.locfileid: "34292052"
 
 1. ลงชื่อเข้าใช้[ศูนย์การจัดการ Office 365](https://portal.office.com/adminportal)
 
-2. เลือกไทล์**สถานภาพบริการ
+2. เลือกไทล์**สถานภาพบริการ**
 
     ![ไทล์สถานภาพบริการ](media/service-admin-health/service-health-tile.png)
 

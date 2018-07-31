@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 04/26/2018
 ms.author: maggies
 ms.custom: ''
-ms.openlocfilehash: 4a3b5aec179eb9436f1d8ed8a58bcf97906e1c1f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75f64de25799488d85b4f9938fa134d0d277f222
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294720"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280052"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>แอป Power BI สำหรับอุปกรณ์เคลื่อนที่คืออะไร
 Power BI มีชุดของแอปบนมือถือสำหรับ iOS, Android และ Windows 10 ในแอปสำหรับอุปกรณ์เคลื่อนที่ คุณสามารถเชื่อมต่อ และโต้ตอบกับข้อมูลในระบบคลาวด์ และข้อมูลภายในองค์กรของคุณ 
@@ -42,6 +42,6 @@ Microsoft Intune ช่วยองค์กรควบคุมรายกา
 อ่านเพิ่มเติมเกี่ยวกับ[การกำหนดค่าแอปฯมือถือ Power BI สำหรับ Android และ iOS ด้วย Microsoft Intune](service-admin-mobile-intune.md) 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[ดูแดชบอร์ดในแอปสำหรับอุปกรณ์เคลื่อนที่](mobile-apps-find-content-mobile-devices.md)
+[ดูแดชบอร์ดในแอปสำหรับอุปกรณ์เคลื่อนที่](mobile-apps-quickstart-view-dashboard-report.md)
 
 

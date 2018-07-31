@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 1700d5bb6a3c17b0a76e6cf04155050a01136e96
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 9e5d878b676159db7990af983f53ce813ac44441
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136573"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280259"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>เริ่มต้นใช้งานแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ IOS
 Microsoft Power BI สำหรับแอป iOS บน iPhone บน iPad หรือบน iPod Touch ให้บริการของ Power BI บริการของเซิร์ฟเวอร์รายงาน Power BI และ บริการการรายงาน ดูและโต้ตอบกับแดชบอร์ดของบริษัทของคุณ ภายในองค์กรและในคลาวด์ จากที่ใดก็ได้ ผ่านอุปกรณ์เคลื่อนที่ ที่รองรับระบบสัมผัสและดูข้อมูลสดได้ สำรวจข้อมูลในแดชบอร์ดและแชร์กับเพื่อนร่วมงานของคุณผ่านอีเมลหรือการส่งข้อความ และอัปเดตอยู่เสมอ ด้วยข้อมูลของคุณมากที่สุดตามระยะเวลาในของคุณ[Apple Watch](mobile-apple-watch.md)  
@@ -73,11 +73,11 @@ Microsoft Power BI สำหรับแอป iOS บน iPhone บน iPad ห
    ![ตัวอย่าง Reporting Service ในแอปโทรศัพท์เคลื่อนที่ Power BI](media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>ค้นหาเนื้อหาของคุณในแอปโทรศัพท์เคลื่อนที่ Power BI
-แดชบอร์ดและรายงานของคุณได้รับการจัดเก็บไว้คนละแห่งในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ ขึ้นอยู่กับว่ามาจากที่ใด อ่านเกี่ยวกับ[การค้นหาเนื้อหาของคุณในแอปสำหรับอุปกรณ์เคลื่อนที่](mobile-apps-find-content-mobile-devices.md) นอกจากนี้ คุณสามารถค้นหาสิ่งต่าง ๆ ที่คุณมีในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ 
+แดชบอร์ดและรายงานของคุณได้รับการจัดเก็บไว้คนละแห่งในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ ขึ้นอยู่กับว่ามาจากที่ใด อ่านเกี่ยวกับ[การค้นหาเนื้อหาของคุณในแอปสำหรับอุปกรณ์เคลื่อนที่](mobile-apps-quickstart-view-dashboard-report.md) นอกจากนี้ คุณสามารถค้นหาสิ่งต่าง ๆ ที่คุณมีในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ 
 
 ![แผงระบบนำทางด้านซ้าย](media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
-อ่านเกี่ยวกับ[การค้นหาเนื้อหาของคุณในแอปโทรศัพท์เคลื่อนที่](mobile-apps-find-content-mobile-devices.md)
+อ่านเกี่ยวกับ[การค้นหาเนื้อหาของคุณในแอปโทรศัพท์เคลื่อนที่](mobile-apps-quickstart-view-dashboard-report.md)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>ดูแดชบอร์ดโปรด KPI และรายงานของคุณ
 บนหน้ารายการโปรดในแอปอุปกรณ์เคลื่อนที่ คุณเห็นแดชบอร์ด Power BI โปรดทั้งหมดของคุณ รวมไปถึง KPI และรายงาน เซิร์ฟเวอร์รายงาน Power BI และ Reporting Services เมื่อคุณทำให้แดชบอร์ดเป็น*รายการโปรด*ในแอปอุปกรณ์เคลื่อนที่ Power BI คุณสามารถเข้าถึงแดชบอร์ดดังกล่าวได้จากทุกอุปกรณ์ของคุณ รวมถึงบริการของ Power BI ในเบราว์เซอร์ของคุณได้ 
