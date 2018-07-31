@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/04/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a56108668bea3e5210c4429825045ebb23faf72c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34228771"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39330500"
 ---
 # <a name="using-buttons-in-power-bi"></a>การใช้ปุ่มใน Power BI
 การใช้**ปุ่ม**ใน Power BI ช่วยให้คุณสร้างรายงานและแดชบอร์ดที่ทำงานคล้ายกับแอป สร้างสภาพแวดล้อมที่น่าสนใจแก่ผู้ใช้ ให้ผู้ใช้สามารถโฮเวอร์ คลิก และโต้ตอบกับเนื้อหา Power BI คุณสามารถเพิ่มปุ่มในรายงานของ **Power BI Desktop** และแชร์ หรือเผยแพร่รายงานเหล่านั้นไปยังบริการของ Power BI เพื่อสร้างแดชบอร์ดที่ทำงานคล้ายกับแอปสำหรับผู้ใช้ได้

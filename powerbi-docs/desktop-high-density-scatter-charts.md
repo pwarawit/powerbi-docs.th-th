@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6df40c8229575a7e6167e75b773228cbd18d1243
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7b9a9806cb733fb31983485d81cc03e1c9c0980c
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291131"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39329781"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>การสุ่มตัวอย่างความหนาแน่นสูงในแผนภูมิกราฟจุด Power BI
 เริ่มตั้งแต่การเผยแพร่เดือนกันยายน 2017 ของ **Power BI Desktop** และการอัปเดตของ**บริการของ Power BI** อัลกอริทึมการสุ่มตัวอย่างใหม่ มีให้ใช้งานซึ่งช่วยปรับปรุงวิธีที่แผนภูมิกระจายแสดงข้อมูลที่มีความหนาแน่นสูง

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 073301b1fe204d66eb91c4ea50216afc5464df64
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a4a8c591d4f8fb6c9610496366b4eb3d80601fae
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286002"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39327464"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>นำเข้าเวิร์กบุ๊ก Excel ลงใน Power BI Desktop
 ด้วย **Power BI Desktop** คุณสามารถนำเข้านำเข้าเวิร์กบุ๊ก Excel ที่มีคิวรี Power Query, รูปแบบ Power Pivot และแผ่นงาน Power View ลงใน Power BI Desktop ได้อย่างง่ายดาย รายงานและการแสดงภาพจะถูกสร้างโดยอัตโนมัติจากเวิร์กบุ๊ก Excel และทันทีที่นำเข้าแล้ว คุณสามารถปรับปรุงรายงานเหล่านั้นต่อด้วย Power BI Desktop โดยใช้คุณลักษณะที่มีอยู่และคุณลักษณะใหม่ที่เผยแพร่ในอัปเดตประจำเดือนของ Power BI Desktop

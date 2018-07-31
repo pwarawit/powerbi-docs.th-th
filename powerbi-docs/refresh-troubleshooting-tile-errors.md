@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8b68ce7af749b7e7f292592f6debdc7e964d6c17
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b5329614ff988fd9863a51cba314671756b70477
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242897"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39329580"
 ---
 # <a name="troubleshooting-tile-errors"></a>แก้ไขปัญหาข้อผิดพลาดไทล์
 ด้านล่างนี้คือข้อผิดพลาดทั่วไปที่คุณอาจประสบกับไทล์พร้อมกับคำอธิบาย

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e9f1bd3231182d66d2ded0abbb67b4d111941ee4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8fd04b6c7fe83e7047d2eaecf4fb4b0e564f0e9f
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289245"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39329649"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>การใช้ถาม-ตอบใน Power BI Desktop สำหรับคิวรีภาษาธรรมชาติ
 การใช้วลีทั่วไปและภาษาที่เป็นธรรมชาติในการถามคำถามเกี่ยวกับข้อมูลของคุณเป็นการดำเนินการที่มีประสิทธิภาพ และจะยิ่งมีประสิทธิภาพมากขึ้นเมื่อได้รับคำตอบจากข้อมูลของคุณ ซึ่งเป็นสิ่งที่ถาม-ตอบใน **Power BI Desktop** ช่วยให้คุณทำได้
