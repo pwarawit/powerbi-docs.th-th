@@ -918,14 +918,18 @@
       items:
         - name: ภาพรวม
           items:
-            - name: การฝังด้วย Power BI
+            - name: กำลังฝังอะไรกับ Power BI
               href: developer/embedding.md
+            - name: Power BI อะไรที่ถูกฝังอยู่ใน Azure
+              href: developer/azure-pbie-what-is-power-bi-embedded.md
         - name: บทช่วยสอน
           items:
             - name: ฝังเนื้อหาสำหรับลูกค้า
               href: developer/embed-sample-for-customers.md
             - name: เนื้อหาแบบฝังตัวสำหรับองค์กรของคุณ
               href: developer/embed-sample-for-your-organization.md
+            - name: รวมเนื้อหาลงในแอปพลิเคชันสำหรับ sovereign clouds
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: แนวคิด
           items:
             - name: รักษาความปลอดภัยระดับแถว (RLS)
@@ -936,12 +940,8 @@
               href: developer/power-bi-permissions.md
         - name: วิธีการ
           items:
-            - name: วิธีการฝังเนื้อหาของคุณ
-              href: developer/embedding-content.md
             - name: วิธีการฝังตัวจากแอป
               href: developer/embed-from-apps.md
-            - name: รวมเนื้อหาลงในแอปพลิเคชันสำหรับ sovereign clouds (แอปเป็นเจ้าของข้อมูล)
-              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: สร้างผู้เช่า Azure Active Directory
               href: developer/create-an-azure-active-directory-tenant.md
             - name: ลงทะเบียนแอปพลิเคชัน
@@ -950,18 +950,36 @@
               href: developer/get-azuread-access-token.md
             - name: ถามตอบเกี่ยวกับการฝัง
               href: developer/qanda.md
-            - name: วิธีการโยกย้าย Power BI Embedded
-              href: developer/migrate-from-powerbi-embedded.md
             - name: แก้ไขปัญหาแอปพลิเคชันแบบฝังตัว
               href: developer/embedded-troubleshoot.md
+            - name: จัดการกำลังการผลิตใน Azure
+              items:
+                - name: สร้างกำลังการผลิตใน Azure
+                  href: developer/azure-pbie-create-capacity.md
+                - name: ปรับมาตราส่วนกำลังการผลิตใน Azure
+                  href: developer/azure-pbie-scale-capacity.md
+                - name: หยุดชั่วคราวและเริ่มกำลังการผลิตใน Azure
+                  href: developer/azure-pbie-pause-start.md
+            - name: ย้ายจากคอลเลกชันพื้นที่ทำงาน
+              items:
+                - name: วิธีการโยกย้ายจากคอลเลกชันพื้นที่ทำงานของ BI Power
+                  href: developer/migrate-from-powerbi-embedded.md
+                - name: เครื่องมือสำหรับการโยกย้าย
+                  href: developer/migrate-tool.md
+                - name: โยกย้ายส่วนย่อยของโค้ด
+                  href: developer/migrate-code-snippets.md
         - name: การอ้างอิง
           items:
+            - name: API
+              items:
+                - name: จัดการทรัพยากร azure REST APIs
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: Power BI REST APIs
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
             - name: ดาวน์โหลด SDK .NET
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
             - name: ฝังเค้าโครงแบบกำหนดเองลงในแอป
               href: developer/embedded-custom-layout.md
-            - name: โยกย้ายส่วนย่อยของโค้ด
-              href: developer/migrate-code-snippets.md
         - name: ทรัพยากร
           items:
             - name: ศูนย์นักพัฒนา
@@ -978,8 +996,6 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: ตัวอย่าง
               href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-            - name: เครื่องมือการย้าย Power BI แบบฝัง
-              href: developer/migrate-tool.md
             - name: ชุมชน Power BI
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: ข้อมูลเกินสแตก
@@ -1064,8 +1080,6 @@
           items:
             - name: REST API
               href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: ข้อมูลอ้างอิง Power BI REST API
-              href: developer/rest-api-reference.md
             - name: รายการรหัสเสร็จสมบูรณ์
               href: developer/walkthrough-push-data-complete-code.md
         - name: ทรัพยากร
