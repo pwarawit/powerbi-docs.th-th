@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: ea323419e38aab7360bb817a56ae4c7c662998ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ba3829d54572c9d8166342d381f3850f0fc8a909
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34689860"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388743"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>โค้ดสำหรับการโยกย้ายเนื้อหาจากคอลเลกชันพื้นที่ทำงานของ Power BI
 ต่อไปนี้คือโค้ดบางอย่างของการดำเนินงานพื้นฐานที่จำเป็นสำหรับการโยกย้ายเนื้อหา สำหรับขั้นตอนที่เกี่ยวข้องกับรายงานบางชนิด ดู[วิธีการโยกย้ายเนื้อหาคอลเลกชันของพื้นที่ทำงาน Power BI ไปยัง Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration)

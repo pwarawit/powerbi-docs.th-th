@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
 ms.openlocfilehash: 2e09af0a2baf00932ebe57d34b2e47f6d0287b3b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 07/31/2018
 ms.locfileid: "34293386"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>แชร์แดชบอร์ดหรือรายงานจากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI
 นำไปใช้กับ:
 
-| ![iPhone](media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![มือถือ Android](media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
+| ![iPhone](media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![โทรศัพท์ Android](media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhones |iPads |มือถือ Android |แท็บเล็ต Android |อุปกรณ์ Windows 10 |
+| iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |อุปกรณ์ Windows 10 |
 
 ด้วย[สิทธิ์การใช้งาน Power BI Pro](service-free-vs-pro.md) คุณสามารถเชิญบุคคลอื่นเพื่อดูแดชบอร์ดและรายงานของคุณ โดยการแชร์ลิงก์จากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ได้ คุณสามารถแชร์กับทุกคน ทั้งในและนอกองค์กรของคุณ ทั้งมีหรือไม่มีบัญชีอีเมลขององค์กร พวกเขาจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro ด้วย หรือเนื้อหาจำเป็นต้องอยู่ใน[ความจุพรีเมียม](service-premium.md)
 
