@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 828c5e8afc28b496b1920468097ce629fe646e37
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2ea6f2e557f26358ab6a93d33c890e90c96885f4
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34564661"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>วิธีการค้นหาคีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงานของคุณ
 เรียนรู้วิธีคุณสามารถค้นหาคีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI ของคุณเมื่อต้องการติดตั้งเซิร์ฟเวอร์ของคุณในสภาพแวดล้อมการผลิต
@@ -33,8 +34,8 @@ ms.lasthandoff: 05/17/2018
 
 ![คีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI](media/find-product-key/pbirs-product-key-dialog.png)
 
-## <a name="purchased-software-assurance-agreeemnt"></a>ข้อตกลงการรับประกันซอฟต์แวร์ที่ซื้อ
-ถ้าคุณมีข้อตกลง SQL Server Enterprise SA คุณสามารถรับคีย์ผลิตภัณฑ์ของคุณจาก[ศูนย์บริการการมอบสิทธิ์การใช้งาน Volume](https://www.microsoft.com/Licensing/servicecenter/)ได้ ค้นหาภายใต้เซอร์วิสแพ็คล่าสุดสำหรับเซิร์ฟเวอร์ SQL รุ่นล่าสุด หากคุณค้นหาไม่พบ ให้ค้นหาภายใต้การปล่อย RTM ของเซิร์ฟเวอร์ SQL รุ่นล่าสุด
+## <a name="purchased-software-assurance-agreement"></a>ข้อตกลงการรับประกันซอฟต์แวร์ที่ซื้อแล้ว
+ถ้าคุณมีข้อตกลง SQL Server Enterprise SA คุณจะสามารถรับคีย์ผลิตภัณฑ์ของคุณจาก[ศูนย์บริการ Volume Licensing](https://www.microsoft.com/Licensing/servicecenter/) ค้นหาภายใต้เซอร์วิสแพ็คล่าสุดสำหรับเซิร์ฟเวอร์ SQL รุ่นล่าสุด หากคุณค้นหาไม่พบ ให้ค้นหาภายใต้การปล่อย RTM ของเซิร์ฟเวอร์ SQL รุ่นล่าสุด
 
 > [!NOTE]
 > คุณต้องค้นหาภายใต้ส่วนดาวน์โหลด ไม่ใช่ส่วนคีย์

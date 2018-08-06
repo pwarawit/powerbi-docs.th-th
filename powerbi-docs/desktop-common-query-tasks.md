@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: bec5bb108bc210f268db0392370e15d89c0352b7
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877342"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39330224"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>งานคิวรีที่ใช้บ่อยใน Power BI Desktop
 เมื่อทำงานในหน้าต่าง **ตัวแก้ไขคิวรี** ของ Power BI Desktop มีงานอยู่ไม่กี่อย่างที่ใช้งานบ่อย ๆ เอกสารนี้ สาธิตงานที่ใช้บ่อยเหล่านั้น และมีลิงก์ให้สำหรับข้อมูลเพิ่มเติม 
@@ -31,7 +31,7 @@ ms.locfileid: "38877342"
 
 เราจะใช้การเชื่อมต่อข้อมูลบางตัวเพื่อทำงานเหล่านี้ให้สำเร็จ เรามีข้อมูลให้คุณดาวน์โหลดหรือการเชื่อมต่อ กรณีที่คุณต้องการลองขั้นตอนเหล่านี้ด้วยตนเอง
 
-การเชื่อมต่อข้อมูลแรก เป็นเวิร์กบุ๊ก Excel อีกแหล่งข้อมูลหนึ่ง เป็นทรัพยากรบนเว็บ (ซึ่งอยู่ในเนื้อหาความช่วยเหลือของ Power BI Desktop หน้าอื่นด้วย) ซึ่งสามารถเข้าถึงได้จากที่นี่:
+การเชื่อมต่อข้อมูลแรกคือ สมุดงาน Excel ซึ่งคุณสามารถดาวน์โหลดได้จาก[ลิงก์นี้](http://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx) อีกแหล่งข้อมูลหนึ่ง เป็นทรัพยากรบนเว็บ (ซึ่งอยู่ในเนื้อหาความช่วยเหลือของ Power BI Desktop หน้าอื่นด้วย) ซึ่งสามารถเข้าถึงได้จากที่นี่:
 
 [*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 

@@ -1,56 +1,47 @@
 ---
 title: นักพัฒนาสามารถทำอะไรกับ Power BI ได้บ้าง
 description: Power BI มีหลากหลายตัวเลือกสำหรับนักพัฒนา ซึ่งมีช่วงตั้งแต่การฝังเพื่อกำหนดวิชวลเองและการสตรีมชุดข้อมูล
-services: powerbi
-documentationcenter: ''
 author: markingmyname
-manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 07/20/2017
 ms.author: maghan
-ms.openlocfilehash: b310562ac31694f398a659018743b8fa7aa46e35
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 05/25/2018
+ms.topic: overview
+ms.service: powerbi
+ms.component: powerbi-developer
+ms.custom: mvc
+manager: kfile
+ms.openlocfilehash: 07fb8d365a6fe4a874b057a71a90a99fc8a9e5fa
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34564707"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>นักพัฒนาสามารถทำอะไรกับ Power BI ได้บ้าง
-Power BI มีหลากหลายตัวเลือกสำหรับนักพัฒนา ซึ่งมีช่วงตั้งแต่การฝังเพื่อกำหนดวิชวลเองและการสตรีมชุดข้อมูล
 
-## <a name="embedding"></a>การฝัง
-บริการ Power BI และ Power BI ที่ฝังใน Azure จะมาพร้อมกันเพื่อเสนอ API เดียวสำหรับการฝังแดชบอร์ดและรายงานของคุณ ซึ่งหมายความว่า คุณจะมี API surface ชุดความสามารถ และการเข้าถึงคุณลักษณะ Power BI ล่าสุด – เช่น แดชบอร์ด เกตเวย์ และพื้นที่ทำงานของแอป – เมื่อมีการฝังเนื้อหาของคุณ สำหรับข้อมูลเพิ่มเติม ดูที่[การฝังด้วย Power BI](embedding.md)
+นักพัฒนามีตัวเลือกอื่นในการพยายามใส่เนื้อหา Power BI ลงในแอปพลิเคชัน ตัวเลือกเหล่านี้รวมถึง**ที่ฝังด้วย Power BI** **วิชวลแบบกำหนดเอง**และ**พุชข้อมูลลงใน Power BI**
 
-![](media/what-can-you-do/powerbi-embed-sample.png)
+## <a name="embedding"></a>การฝังตัว
+บริการ Power BI (SaaS) และบริการ Power BI Embedded ใน Azure (PaaS) มี API สำหรับการฝังสำหรับแดชบอร์ดและรายงาน ซึ่งหมายความว่าคุณมีชุดความสามารถและการเข้าถึงคุณลักษณะล่าสุดของ Power BI อย่างเช่น แดชบอร์ด เกตเวย์ และพื้นที่ทำงานแอปฯ เมื่อทำการฝังเนื้อหา
 
-## <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
-วิชวลแบบกำหนดเองจะช่วยให้คุณสามารถสร้างภาพของคุณเองสำหรับการใช้งานภายในรายงาน Power BI วิชวลแบบกำหนดเองจะถูกเขียนใน TypeScript ซึ่งคือเซตใหญ่ของ JavaScript ที่สนับสนุนคุณลักษณะขั้นสูงบางอย่างและสิทธิ์การเข้าถึงฟังก์ชันการทำงาน ES6/ES7 การกำหนดลักษณะวิชวลจะได้รับการจัดการโดยใช้ cascading styles sheets (css). เพื่อความสะดวกของคุณ เราจึงใช้ Less pre-compiler ที่สนับสนุนคุณลักษณะขั้นสูงบางอย่าง เช่น nesting, variables, mixins, conditions, loops และอื่น ๆ ถ้าคุณไม่ต้องการใช้คุณลักษณะเหล่านั้น คุณเพียงแค่เขียน plain css ลงใน less file
+คุณสามารถเข้าถึง[เครื่องมือประสบการณ์การเตรียมความพร้อม](https://aka.ms/embedsetup) เพื่อเริ่มต้นใช้งานได้อย่างรวดเร็ว และดาวน์โหลดแอปพลิเคชันตัวอย่างได้
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการพัฒนาและเผยแพร่วิชวลแบบกำหนดเอง ดูที่การ[เผยแพร่วิชวลแบบกำหนดเองไปยัง Office store](office-store.md)
+เลือกโซลูชันที่เหมาะกับคุณ:
+* [การฝังตัวสำหรับลูกค้าของคุณ](embedding.md#embedding-for-your-customers) จะมอบความสามารถในการฝังแดชบอร์ดและรายงานสำหรับผู้ใช้ที่ไม่มีบัญชี Power BI เรียกใช้โซลูชัน[การฝังตัวสำหรับลูกค้าของคุณ](https://aka.ms/embedsetup/AppOwnsData)
+* [การฝังตัวสำหรับองค์กรของคุณ](embedding.md#embedding-for-your-organization) ให้คุณสามารถขยายบริการของ Power BI เรียกใช้โซลูชัน[การฝังตัวสำหรับองค์กรของคุณ](https://aka.ms/embedsetup/UserOwnsData)
 
-![](media/what-can-you-do/powerbi-custom-visual-store.png)
+![ตัวอย่าง PBIE](media/what-can-you-do/what-can-you-do-02.png)
+
+## <a name="develop-custom-visuals"></a>พัฒนาวิชวลแบบกำหนดเอง
+วิชวลแบบกำหนดเองจะช่วยให้คุณสามารถสร้างภาพของคุณเองสำหรับการใช้งานภายในรายงาน Power BI วิชวลแบบกำหนดเองจะถูกเขียนในภาษา TypeScript ซึ่งเป็นเซตใหญ่ของ JavaScript TypeScript สนับสนุนคุณลักษณะขั้นสูงและสิทธิ์การเข้าถึงฟังก์ชัน ES6/ES7 บางอย่าง การกำหนดลักษณะวิชวลจะได้รับการจัดการโดยใช้ cascading styles sheets (css). เพื่อความสะดวกของคุณ เราใช้ Less เป็นพรีคอมไพเลอร์ซึ่งสนับสนุนคุณลักษณะขั้นสูงบางอย่าง เช่น การซ้อน ตัวแปร เงื่อนไข ลูป ฯลฯ ถ้าคุณไม่ต้องการใช้คุณลักษณะเหล่านั้น คุณเพียงแค่เขียน plain css ลงใน less file
+
+![ตัวอย่าง CV](media/what-can-you-do/powerbi-custom-visual-store.png)
 
 ## <a name="push-data-into-power-bi"></a>ส่งข้อมูลไปยัง Power BI
 คุณสามารถใช้ API Power BI เพื่อส่งข้อมูลไปยังชุดข้อมูล ซึ่งทำให้คุณสามารถเพิ่มแถวลงในตารางภายในชุดข้อมูลได้ จากนั้น ข้อมูลใหม่จะสามารถสะท้อนผลในไทล์บนแดชบอร์ด และในวิชวลภายในรายงานของคุณ
 
-สำหรับข้อมูลเพิ่มเติม ดูที่การ[ส่งข้อมูลไปยังแดชบอร์ด](walkthrough-push-data.md)
+![ตัวอย่างการส่งข้อมูล](media/what-can-you-do/powerbi-push-data.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[ฝังด้วย Power BI](embedding.md)  
-[วิธีการย้ายเนื้อหาคอลเลกชันพื้นที่ทำงานแบบฝัง Power BI ไปยัง Power BI](migrate-from-powerbi-embedded.md)  
-[JavaScript API Git repo](https://github.com/Microsoft/PowerBI-JavaScript)  
-[Power BI C# Git repo](https://github.com/Microsoft/PowerBI-CSharp)  
+[การฝังด้วย Power BI](embedding.md)  
 [เผยแพร่วิชวลแบบกำหนดเองไปยัง Office store](office-store.md)  
-[Power BI Visuals Git repo](https://github.com/Microsoft/PowerBI-visuals)  
-[ตัวอย่างการฝัง JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[Power BI Premium whitepaper](https://aka.ms/pbipremiumwhitepaper)  
-คุณมีคำถามเพิ่มเติมหรือไม่ [ ลองเข้าร่วมกับชุมชน Power BI ](http://community.powerbi.com/)
-
+[การพุชข้อมูลลงในแดชบอร์ด](walkthrough-push-data.md)

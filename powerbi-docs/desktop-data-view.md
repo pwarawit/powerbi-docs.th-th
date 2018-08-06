@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/04/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2caa22152580d3de8c6ede585c43dedf4e624f88
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: fad7b8453b6d5d29a1f6c5d9d9ed49b0a8b8a66f
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813744"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280351"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>มุมมองข้อมูลใน Power BI Desktop
 **มุมมองข้อมูล** ช่วยให้คุณตรวจสอบ สำรวจ และทำความเข้าใจข้อมูลแบบจำลอง **Power BI Desktop** ซึ่งจะแตกต่างจากวิธีที่คุณดูตาราง คอลัมน์ และข้อมูลใน**ตัวแก้ไขแบบสอบถาม** ด้วยมุมมองข้อมูล คุณกำลังดูข้อมูลของคุณ*หลังจาก*ที่โหลดเข้ามาในรูปแบบเรียบร้อยแล้ว
@@ -46,4 +46,5 @@ ms.locfileid: "34813744"
 
 คุณสามารถกรองค่าแต่ละค่าได้ หรือใช้การกรองขั้นสูงตามข้อมูลในคอลัมน์ 
 
-
+> [!NOTE]
+> เมื่อสร้างแบบจำลอง Power BI ในวัฒนธรรมที่แตกต่างจากอินเทอร์เฟซผู้ใช้ปัจจุบันของคุณ (ตัวอย่าง แบบจำลองถูกสร้างขึ้นเป็นภาษาอังกฤษแบบสหรัฐอเมริกาและคุณกำลังดูเป็นภาษาสเปน) กล่องค้นหาจะไม่ปรากฏในอินเทอร์เฟซผู้ใช้ในมุมมองข้อมูลสำหรับฟิลด์อื่นนอกเหนือจากฟิลด์ข้อความ
