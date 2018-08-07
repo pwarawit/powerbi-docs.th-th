@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/26/2018
+ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 9bc549c2579b4ab8c399bacde7a915033fb2ae14
-ms.sourcegitcommit: db03649b8241bf34566968bbede8c9a0d35852fd
+ms.openlocfilehash: 3d89b34199decf6b27bda49bfac085688dd2e14b
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37067135"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582694"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการวิเคราะห์คุณภาพผู้จัดหาสินค้าสำหรับ Power BI: ชมการแนะนำ
 
@@ -33,7 +33,7 @@ ms.locfileid: "37067135"
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
- ก่อนที่คุณสามารถใช้ตัวอย่าง คุณต้องดาวน์โหลดในรูปแบบ[ชุดเนื้อหา](https://docs.microsoft.com/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample) [ไฟล์ .pbix](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier%20Quality%20Analysis%20Sample%20PBIX.pbix) หรือ[เวิร์กบุ๊ก Excel](http://go.microsoft.com/fwlink/?LinkId=529779)
+ ก่อนที่คุณสามารถใช้ตัวอย่าง คุณต้องดาวน์โหลดในรูปแบบ[ชุดเนื้อหา](https://docs.microsoft.com/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample) [ไฟล์ .pbix](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix) หรือ[เวิร์กบุ๊ก Excel](http://go.microsoft.com/fwlink/?LinkId=529779)
 
 ### <a name="get-the-content-pack-for-this-sample"></a>รับชุดเนื้อหาสำหรับตัวอย่างนี้
 
@@ -56,7 +56,7 @@ ms.locfileid: "37067135"
 
 อีกทางเลือกหนึ่งคือ คุณสามารถดาวน์โหลดตัวอย่างเป็นไฟล์ .pbix ซึ่งถูกออกแบบมาสำหรับใช้กับ Power BI Desktop 
 
- * [ตัวอย่างการวิเคราะห์คุณภาพผู้ขาย PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier%20Quality%20Analysis%20Sample%20PBIX.pbix)
+ * [ตัวอย่างการวิเคราะห์คุณภาพผู้ขาย PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>รับเวิร์กบุ๊ก Excel สำหรับตัวอย่างนี้
 คุณยังสามารถ[ดาวน์โหลดเพียงชุดข้อมูล (เวิร์กบุ๊ก Excel)](http://go.microsoft.com/fwlink/?LinkId=529779) สำหรับตัวอย่างนี้ได้ เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน เมื่อต้องการดูข้อมูลดิบ เลือก **Power Pivot > จัดการ**

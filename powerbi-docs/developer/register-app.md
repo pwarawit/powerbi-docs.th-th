@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/31/2018
+ms.date: 07/31/2018
 ms.author: maghan
-ms.openlocfilehash: 4242e2a88ab930c5f647bbfa4aa97fea1dc313ad
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 06e7c27579f559928dab822a7e0323cfb4abc1a1
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157136"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388605"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>ลงทะเบียนแอป Azure AD เพื่อฝังเนื้อหา Power BI
 เรียนรู้วิธีการลงทะเบียนแอปพลิเคชันภายใน Azure Active Directory (Azure AD) สำหรับการใช้งานด้วยการฝังเนื้อหา Power BI
@@ -27,7 +27,7 @@ ms.locfileid: "39157136"
 มีสองวิธีในการลงทะเบียนแอปพลิเคชันของคุณ วิธีแรกคือด้วย [Power BI App Registration Tool](https://dev.powerbi.com/apps/) หรือคุณสามารถทำได้โดยตรงภายในพอร์ทัล Azure Power BI App Registration Tool เป็นตัวเลือกที่ง่ายที่สุดเนื่องจากมีเขตข้อมูลเพื่อที่ต้องกรอกน้อย ใช้พอร์ทัล Azure ถ้าคุณต้องการทำการเปลี่ยนแปลงไปยังแอปของคุณ
 
 ## <a name="register-with-the-power-bi-app-registration-tool"></a>ลงทะเบียนด้วย Power BI App Registration Tool
-คุณจำเป็นต้องลงทะเบียนแอปพลิเคชันของคุณใน **Azure Active Directory** เพื่อสร้างข้อมูลประจำตัวสำหรับแอปพลิเคชันของคุณ และระบุสิทธิ์ไปยังแหล่งข้อมูล Power BI REST เมื่อคุณลงทะเบียนแอปพลิเคชัน เช่น แอปคอนโซล หรือเว็บไซต์ คุณจะได้รับตัวระบุ ที่ให้แอปพลิเคชันใช้ระบุตัวเองระหว่างการร้องขอสิทธิ์กับผู้ใช้
+คุณจำเป็นต้องลงทะเบียนแอปพลิเคชันของคุณใน **Azure Active Directory** เพื่อสร้างข้อมูลประจำตัวสำหรับแอปพลิเคชันของคุณ และระบุสิทธิ์ไปยังแหล่งข้อมูล Power BI REST เมื่อคุณลงทะเบียนแอปพลิเคชัน เช่น แอปคอนโซล หรือเว็บไซต์ คุณจะได้รับตัวระบุที่แอปพลิเคชันใช้เพื่อระบุตัวตนต่อผู้ใช้ว่าพวกเขาต้องการสิทธิ์
 
 นี่คือวิธีการลงทะเบียนแอปพลิเคชันของคุณด้วย Power BI App Registration Tool:
 
@@ -36,7 +36,7 @@ ms.locfileid: "39157136"
 3. ใส่**ชื่อแอป**
 4. การเลือกชนิดของแอป จะขึ้นอยู่กับชนิดของแอปพลิเคชันที่คุณกำลังใช้
    
-   * ใช้**แอปแบบดั้งเดิม**สำหรับแอปที่ทำงานบนอุปกรณ์ไคลเอ็นต์ คุณจำเป็นต้องเลือก**แอปแบบดั้งเดิม** ถ้าคุณกำลังฝังเนื้อหาสำหรับลูกค้าของคุณ โดยไม่ต้องคำนึงถึงว่าแอปพลิเคชันจริงคืออะไร แม้แต่แอปพลิเคชันบนเว็บ
+   * ใช้**แอปแบบดั้งเดิม**สำหรับแอปที่ทำงานบนอุปกรณ์ไคลเอ็นต์ คุณจำเป็นต้องเลือก**แอปแบบดั้งเดิม** หากคุณกำลังฝังเนื้อหาสำหรับลูกค้าของคุณ โดยไม่ต้องคำนึงถึงว่าแอปพลิเคชันจริงคืออะไร
    * ใช้**เว็บแอปฝั่งเซิร์ฟเวอร์**สำหรับเว็บแอปหรือ API เว็บ
 
 5. ป้อนค่าสำหรับ **URL ที่เปลี่ยนเส้นทาง**และ **URL โฮมเพจ** **URL ที่เปลี่ยนเส้นทาง** ทำงานได้กับ URL ใด ๆ ที่ถูกต้อง
@@ -80,8 +80,8 @@ ms.locfileid: "39157136"
     ![](media/register-app/azuread-new-app-registration.png)
 5. ทำตามพร้อมท์และสร้างแอปพลิเคชัน์ใหม่
    
-   * สำหรับเว็บแอปพลิเคชัน ให้ใส่ URL ลงชื่อเข้าระบบ ซึ่งเป็น URL พื้นฐานของแอปคุณ ที่ผู้ใช้สามารถลงชื่อเข้าใช้ เช่น `http://localhost:13526`
-   * สำหรับแอปพลิเคชันดั้งเดิม ให้ใส่ **URL ที่เปลี่ยนเส้นทางซึ่ง** Azure AD ใช้เพื่อส่งกลับการตอบสนองโทเค็น ใส่ค่าที่เจาะจงสำหรับแอปพลิเคชันของคุณ เช่น `http://myapplication/Redirect`
+   * สำหรับเว็บแอปพลิเคชัน ให้ใส่ URL ลงชื่อเข้าระบบ ซึ่งเป็น URL พื้นฐานของแอปคุณ ที่ผู้ใช้สามารถลงชื่อเข้าใช้ (เช่ น `http://localhost:13526`)
+   * สำหรับแอปพลิเคชันดั้งเดิม ให้ใส่ **URL ที่เปลี่ยนเส้นทางซึ่ง** Azure AD ใช้เพื่อส่งกลับการตอบสนองโทเค็น ตรวจสอบว่าได้ป้อนค่าเฉพาะให้แอปพลิเคชันของคุณ (เช่น `http://myapplication/Redirect`)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการลงทะเบียนแอปพลิเคชันใน Azure Active Directory ดู[การรวมแอปพลิเคชันกับ Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -128,7 +128,7 @@ ms.locfileid: "39157136"
     ![](media/register-app/powerbi-embedded-azuread-app-permissions04.png)
 5. ภายใน**สิทธิ์ที่ต้องใช้**เลือก**ให้สิทธิ์**
    
-    การดำเนินการ**การให้สิทธิ์**จำเป็นสำหรับ*บัญชีหลัก*เพื่อหลีกเลี่ยงการถูกพร้อมท์เพื่อการยินยอมโดย Azure AD ถ้าบัญชีที่ดำเนินการนี้เป็นผู้ดูแลระบบส่วนกลาง คุณมอบสิทธิ์ให้แก่ผู้ใช้ทั้งหมดภายในองค์กรของคุณสำหรับแอปพลิเคชันนี้ ถ้าบัญชีที่ดำเนินการนี้เป็น*บัญชีผู้ใช้หลัก* และไม่ใช่ผู้ดูแลระบบส่วนกลาง คุณให้สิทธิ์*บัญชีหลัก*สำหรับแอปพลิเคชันนี้เท่านั้น
+    การดำเนินการ**ให้สิทธิ์** จำเป็นต้องมี*บัญชีหลัก*เพื่อหลีกเลี่ยงการถามความยินยอมโดย Azure AD ถ้าบัญชีที่ดำเนินการนี้เป็นผู้ดูแลระบบส่วนกลาง คุณมอบสิทธิ์ให้แก่ผู้ใช้ทั้งหมดภายในองค์กรของคุณสำหรับแอปพลิเคชันนี้ ถ้าบัญชีที่ดำเนินการนี้เป็น*บัญชีผู้ใช้หลัก* และไม่ใช่ผู้ดูแลระบบส่วนกลาง คุณให้สิทธิ์*บัญชีหลัก*สำหรับแอปพลิเคชันนี้เท่านั้น
    
     ![การให้สิทธิ์ภายในกล่องโต้ตอบสิทธิ์ที่ต้องใช้](media/register-app/powerbi-embedded-azuread-app-grant-permissions.png)
 
@@ -160,19 +160,25 @@ ms.locfileid: "39157136"
     
      *การให้สิทธิ์*จำเป็นสำหรับบัญชีหลัก เพื่อหลีกเลี่ยงการพร้อมท์ถามความยินยอมโดย Azure AD ซึ่งไม่สามารถทำได้ เมื่อลงชื่อเข้าใช้แบบไม่โต้ตอบ
    
-     ```
+     ```json
      Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
      Authorization: Bearer ey..qw
      Content-Type: application/json
      { 
      "clientId":"{Service_Plan_ID}",
      "consentType":"AllPrincipals",
-     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "resourceId":"c78a3685-1ce7-52cd-95f7-dc5aea8ec98e",
      "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
      "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
      "startTime":"2017-03-29T14:35:32.4933413+03:00"
      }
      ```
+    **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* ไม่ใช่สากล แต่จะขึ้นอยู่กับผู้เช่า ค่านี้คือ objectId ของแอปพลิเคชัน "บริการของ Power BI" ในผู้เช่า AAD
+
+    ผู้ใช้สามารถได้รับค่านี้ได้อย่างรวดเร็วในพอร์ทัล Azure:
+    1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
+    2. ค้นหา "บริการของ Power BI" ใน SearchBox
+
 5. ให้สิทธิ์แอปกับ Azure Active Directory (AAD)
    
    ค่าสำหรับ **consentType** สามารถใส่ **AllPrincipals** หรือ **Principal** อย่างใดอย่างหนึ่ง
@@ -182,7 +188,7 @@ ms.locfileid: "39157136"
     
    *การให้สิทธิ์*จำเป็นสำหรับบัญชีหลัก เพื่อหลีกเลี่ยงการพร้อมท์ถามความยินยอมโดย Azure AD ซึ่งไม่สามารถทำได้ เมื่อลงชื่อเข้าใช้แบบไม่โต้ตอบ
 
-   ```
+   ```json
    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
    Authorization: Bearer ey..qw
    Content-Type: application/json

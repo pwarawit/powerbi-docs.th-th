@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9366eff71e09b1f6c71c1f2519feb3d2392e3c58
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 452226f8d5b8e0ca05fc4d9e81355c7a4c10e923
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092655"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582649"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>เชื่อมต่อไปยัง Acumatica ด้วย Power BI
 ชุดเนื้อหา Acumatica BI Power ช่วยให้คุณรับข้อมูลเชิงลึกลงในข้อมูลโอกาสการขายของคุณได้อย่างรวดเร็ว Power BI ดึงข้อมูลของคุณ รวมถึงโอกาส บัญชีผู้ใช้ และ ลูกค้า จากรุ่นแดชบอร์ดเริ่มต้นและรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลที่เกี่ยวข้อง
@@ -37,7 +37,7 @@ ms.locfileid: "37092655"
    ![](media/service-connect-to-acumatica/acumatica.png)
 4. ใส่จุดสิ้นสุด Acumatica OData ของคุณ จุดสิ้นสุด OData ให้ระบบภายนอกสามารถร้องขอข้อมูลจาก Acumatica ได้ จุดสิ้นสุด Acumatica OData ถูกจัดรูปแบบดังนี้ และควรใช้ HTTPS:
    
-     https://[sitedomain]/odata/[companyname]
+     `https://[sitedomain]/odata/[companyname]`
    
    ชื่อบริษัทคือจำเป็นถ้าคุณใช้หลายบริษัท ข้อมูลเพิ่มเติมเกี่ยวกับการค้นหาพารามิเตอร์นี้ในบัญชี Acumatica ของคุณอยู่ด้านล่าง
    
