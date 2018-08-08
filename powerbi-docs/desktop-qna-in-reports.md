@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8fd04b6c7fe83e7047d2eaecf4fb4b0e564f0e9f
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329649"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39475740"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>การใช้ถาม-ตอบใน Power BI Desktop สำหรับคิวรีภาษาธรรมชาติ
 การใช้วลีทั่วไปและภาษาที่เป็นธรรมชาติในการถามคำถามเกี่ยวกับข้อมูลของคุณเป็นการดำเนินการที่มีประสิทธิภาพ และจะยิ่งมีประสิทธิภาพมากขึ้นเมื่อได้รับคำตอบจากข้อมูลของคุณ ซึ่งเป็นสิ่งที่ถาม-ตอบใน **Power BI Desktop** ช่วยให้คุณทำได้
@@ -24,6 +24,11 @@ ms.locfileid: "39329649"
 
 > [!NOTE]
 > ถามตอบพร้อมใช้งานเฉพาะเมื่อทำงานกับแบบจำลองที่ประกอบด้วยข้อมูล**นำเข้า** เชื่อมต่อสดไปยังแบบจำลอง SSAS และ DirectQuery ไม่ได้รับการสนับสนุน
+>
+>
+
+> [!NOTE]
+> ถามตอบต้องมีการอัปเดตรันไทม์ C ต่อไปนี้หากคุณกำลังใช้ Windows เวอร์ชันก่อน Windows 10 คุณสามารถลองติดตั้งโปรแกรมอัปเดตที่สำคัญจาก Windows Update หรือติดตั้งคอมโพเนนต์ที่ต้องการจาก Microsoft (KB2999226) ด้วยตนเอง https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
 >
 >
 

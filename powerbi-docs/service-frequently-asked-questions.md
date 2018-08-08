@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/28/2018
+sktopms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 5f117bdeb4e37986884c6a1021db1f361bdcddd3
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145398"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582693"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>คำถามที่ถามบ่อยเกี่ยวกับ Power BI
 * ถ้าคุณมีคำถามอื่น [ลองถามชุมชน Power BI](http://community.powerbi.com/)
@@ -47,8 +47,8 @@ Power BI Desktop เป็นแอปพลิเคชันฟรีที่
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>ทำไมฉันต้องลงทะเบียนด้วยอีเมลที่ทำงานของฉันด้วย
 Power BI ไม่รองรับอีเมลของการบริการอีเมล์ของลูกค้าหรือจากผู้ให้บริการโทรคมนาคม เรียนรู้เพิ่มเติมเกี่ยวกับ[Power BI กระบวนการลงทะเบียนแบบบริการตนเอง](service-self-service-signup-for-power-bi.md)
 
-## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>Power BI มีราคาสำหรับภาครัฐ สถาบันการศึกษา และองค์กรไม่แสวงหาหรือไม่
-ใช่ ราคาแบบไม่แสวงหากำไรมีเมื่อสั่งซื้อโดยตรงจาก Microsoft คุณสามารถเรียนรู้เพิ่มเติม และลงทะเบียนผ่านไซต์[บริจาคผลิตภัณฑ์ Microsoft](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/) ราคาภาครัฐและสถาบันการศึกษาถูกนำเสนอผ่าน MOSP/Direct, EA, และสิทธิ์การใช้งานโปรแกรมแบบี่เปิด ราคาสำหรับภาครัฐจะยังรวมการเผยแพร่ด้วย 
+## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Power BI มีราคาสำหรับภาครัฐ สถาบันการศึกษา และองค์กรไม่แสวงหากำไรหรือไม่
+ใช่ มีราคาสำหรับองค์กรไม่แสวงหากำไรเมื่อสั่งซื้อโดยตรงจาก Microsoft คุณสามารถเรียนรู้เพิ่มเติม และลงทะเบียนผ่านเว็บไซต์ [Microsoft Nonprofits](https://www.microsoft.com/en-us/nonprofits/power-bi) ราคาภาครัฐและสถาบันการศึกษาถูกนำเสนอผ่าน MOSP/Direct, EA, และสิทธิ์การใช้งานโปรแกรมแบบี่เปิด ราคาสำหรับภาครัฐจะยังรวมการเผยแพร่ด้วย 
 
 ## <a name="is-power-bi-available-on-premises"></a>คือ Power BI พร้อมใช้งานภายในองค์กรได้อย่างไร
 Power BI service [ https://powerbi.com ](https://powerbi.com)ไมสามารถใช้งานแบบบริการระบบคลาวด์ส่วนตัวหรือภายในได้ อย่างไรก็ตาม คุณมีตัวเลือกอื่นๆ สามตัว เพื่อดูและทำงานกับข้อมูลภายในองค์กร 

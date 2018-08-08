@@ -9,19 +9,19 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3777d082d8e0d166abadd2ab89035d6895421f24
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852221"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415357"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>ใช้ OAuth เพื่อเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI และ SSRS
 เรียนรู้วิธีการกำหนดค่าสภาพแวดล้อมของคุณ เพื่อสนับสนุนการรับรองความถูกต้อง OAuth ด้วยแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ เพื่อเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI และ SQL Server Reporting Services 2016 หรือใหม่กว่า
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-คุณสามารถใช้ OAuth เพื่อเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI และ Reporting Services เพื่อแสดงรายงานอุปกรณ์มือถือ หรือ KPI Windows Server 2016 มีการปรับปรุงบทบาท Web Application Proxy (WAP) เพื่ออนุญาตการรับรองความถูกต้องชนิดนี้ โปรดทราบว่า การกำหนดค่านี้ไม่สนับสนุนการดูรายงาน Power BI ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ แต่คุณสามารถดูรายงานได้ในเบราว์เซอร์บนอุปกรณ์เคลื่อนที่ เพื่อดูรายงาน Power BI ในแอปสำหรับอุปกรณ์เคลื่อนที่ คุณต้องใช้การรับรองความถูกต้องของ Windows
+คุณสามารถใช้ OAuth เพื่อเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI และ Reporting Services เพื่อแสดงรายงานอุปกรณ์มือถือ หรือ KPI Windows Server 2016 มีการปรับปรุงบทบาท Web Application Proxy (WAP) เพื่ออนุญาตการรับรองความถูกต้องชนิดนี้ โปรดทราบว่า การดูรายงาน Power BI ที่โฮสต์ในเซิร์ฟเวอร์รายงาน Power BI โดยใช้ WAP เพื่อรับรองความถูกต้องยังไม่ได้รับการสนับสนุนอย่างเป็นทางการในขณะนี้
 
 ## <a name="requirements"></a>ข้อกำหนด
 Windows Server 2016 เป็นที่ต้องการสำหรับเซิร์ฟเวอร์ Web Application Proxy (WAP) และ Active Directory Federation Services (ADFS) คุณไม่จำเป็นต้องมีโดเมนระดับการทำงาน Windows 2016
