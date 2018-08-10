@@ -682,6 +682,8 @@
           items:
             - name: องค์ประกอบภาพสำหรับรายงาน
               href: desktop-visual-elements-for-reports.md
+            - name: ส่งออกเป็น PDF และพิมพ์รายงาน
+              href: desktop-export-to-pdf.md
             - name: การถามตอบใน Power BI Desktop
               href: desktop-qna-in-reports.md
             - name: บานหน้าต่างการวิเคราะห์ใน Power BI Desktop
@@ -1242,6 +1244,8 @@
           href: service-gateway-onprem-indepth.md
         - name: เกตเวย์ข้อมูลแบบติดตั้งภายในองค์กร (โหมดส่วนบุคคล)
           href: service-gateway-personal-mode.md
+        - name: ตัวเชื่อมต่อแบบกำหนดเอง
+          href: service-gateway-custom-connectors.md
         - name: การแก้ไขปัญหาเกตเวย์ข้อมูลภายในองค์กร
           href: service-gateway-onprem-tshoot.md
 - name: การดูแลระบบ
