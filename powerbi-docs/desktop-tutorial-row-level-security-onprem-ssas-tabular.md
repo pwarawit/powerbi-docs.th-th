@@ -93,7 +93,7 @@ ms.locfileid: "34456145"
 2. จากรายการของแหล่งข้อมูล ให้เลือก**ฐานข้อมูล SQL Server Analysis Services** และเลือก**เชื่อมต่อ**
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
-3. กรอกรายละเอียดอินสแตนซ์ของ **Analysis Services** แบบตาราง และเลือก**เชื่อมต่อแบบไลฟ์** เลือก**ตกลง** ด้วย **Power BI** การรักษาความปลอดภัยแบบไดนามิกจะใช้ได้เฉพาะกับ**การเชื่อมต่อแบบไลฟ์** เท่านั้น
+3. กรอกรายละเอียดอินสแตนซ์ของ **Analysis Services** แบบตาราง และเลือก**เชื่อมต่อแบบไลฟ์** เลือก**ตกลง** ด้วย**Power BI** การรักษาความปลอดภัยแบบไดนามิกจะใช้ได้เฉพาะกับ**การเชื่อมต่อแบบไลฟ์** เท่านั้น
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 4. คุณจะเห็นว่า แบบจำลองที่ถูกปรับใช้อยู่ในอินสแตนซ์ของ **Analysis Services** เลือกแบบจำลองที่เกี่ยวข้อง แล้วเลือก**ตกลง**
@@ -104,7 +104,7 @@ ms.locfileid: "34456145"
 7. เราจะเก็บรายงานนี้อย่างง่ายๆ ดังนั้นเราจะไม่เพิ่มคอลัมน์ใดๆ อีกในตอนนี้ เมื่อต้องการแสดงสื่อความหมายของข้อมูลให้มากขึ้น เราจะสามารถเปลี่ยนการแสดงภาพเป็น**แผนภูมิโดนัท**
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
-8. เมื่อรายงานของคุณพร้อมแล้ว คุณสามารถเผยแพร่ไปยังพอร์ทัล Power BI ได้โดยตรง จาก ribbon ของ**หน้าแรก** ใน  **Power BI Desktop** ให้เลือก**เผยแพร่**
+8. เมื่อรายงานของคุณพร้อมแล้ว คุณสามารถเผยแพร่ไปยังพอร์ทัล Power BI ได้โดยตรง จาก ribbon ของ**หน้าแรก**ใน **Power BI Desktop**ให้เลือก**เผยแพร่**
 
 ## <a name="task-5-creating-and-sharing-a-dashboard"></a>งานที่ 5: การสร้างและการแชร์แดชบอร์ด
 1. คุณได้สร้างรายงานและคลิก**เผยแพร่**ใน **Power BI Desktop** แล้ว ดังนั้น จึงมีการเผยแพร่รายงานไปยังบริการของ **Power BI** ตอนนี้ รายงานอยู่ในบริการ สภาพการการรักษาความปลอดภัยแบบจำลองของเราถูกแสดงให้เห็นได้โดยใช้ตัวอย่างที่เราได้สร้างขึ้นในขั้นตอนก่อนหน้านี้
@@ -126,7 +126,7 @@ ms.locfileid: "34456145"
 
 ## <a name="task-6-understanding-what-happens-behind-the-scenes"></a>งานที่ 6: ทำความเข้าใจกับสิ่งที่เกิดขึ้นเบื้องหลัง
 1. งานนี้อนุมานว่าคุณคุ้นเคยกับ SQL Profiler เนื่องจากคุณจำเป็นต้องจับภาพการติดตามโปรไฟล์ของ SQL Server ในอินสแตนซ์ตารางแบบ SSAS ในองค์กรของคุณ
-2. เซสชันได้รับการเตรียมใช้งานทันทีที่ผู้ใช้ (ในกรณีนี้คือ Jon Doe ) เข้าถึงแดชบอร์ดในบริการของ Power BI คุณสามารถพบว่า บทบาท **salesterritoryusers** มีผลทันที โดยชื่อผู้ใช้ที่มีประสิทธิภาพมีฐานะเป็น **<EffectiveUserName> jondoe@moonneo.com </EffectiveUserName>**
+2. เซสชันได้รับการเตรียมใช้งานทันทีที่ผู้ใช้ (ในกรณีนี้คือ Jon Doe ) เข้าถึงแดชบอร์ดในบริการของ Power BI คุณสามารถพบว่า บทบาท **salesterritoryusers** มีผลทันที โดยชื่อผู้ใช้ที่มีประสิทธิภาพมีฐานะเป็น **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>**
    
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>jondoe@moonneo.com</EffectiveUserName></PropertyList>
 3. ตามคำขอชื่อผู้ใช้ที่มีประสิทธิภาพ Analysis Services จะแปลงคำขอเป็นข้อมูลประจำตัว moonneo\jondoe จริงหลังจากคิวรี Active Directory ในเครื่อง เมื่อ **Analysis Services** ได้รับข้อมูลประจำตัวจริงจาก Active Directory จากนั้น โดยอิงกับการเข้าถึงและสิทธิ์ที่ผู้ใช้มีสำหรับข้อมูล **Analysis Services** จะแสดงเฉพาะข้อมูลที่บุคคลนั้นได้รับอนุญาตเท่านั้น
