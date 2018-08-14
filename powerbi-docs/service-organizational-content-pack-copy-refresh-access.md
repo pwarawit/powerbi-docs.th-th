@@ -3,29 +3,29 @@ title: ชุดเนื้อหาระดับองค์กร การ
 description: อ่านเกี่ยวกับการสร้างสำเนาและการแก้ไขปัญหาการเข้าถึงชุดเนื้อหาระดับองค์กรใน Power BI
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c2d7a878189542d8a477933f6c54390b2636787e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 37cfca811b7e60bde832396e67b246933d4e0a8e
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852244"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624217"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>ชุดเนื้อหาองค์กร คัดลอก รีเฟรช และรับ ccess
-> [!NOTE]
-> คุณได้ยินเกี่ยวกับ*แอปฯ*ใหม่แล้วหรือยัง แอปเป็นวิธีใหม่ในการกระจายเนื้อหาไปยังผู้ชมจำนวนมากใน Power BI เราวางแผนที่จะยกเลิกการสนับสนุนชุดเนื้อหาระดับองค์กรเร็ว ๆ นี้ ดังนั้น เราขอแนะนำให้ใช้แอปแทน เรียนรู้[เพิ่มเติมเกี่ยวกับแอปฯ](service-install-use-apps.md)
-> 
-> 
 
 เมื่อมีชุดเนื้อหาระดับองค์กรการเผยแพร่ ผู้รับทั้งหมดดูแดชบอร์ รายงาน เวิร์กบุ๊ก Excel ชุดข้อมูล และข้อมูล (ยกเว้นแหล่งข้อมูลของ SQL Server Analysis Services (SSAS))เดียวกัน  [ผู้สร้างชุดเนื้อหาเท่านั้นที่สามารถแก้ไข และประกาศ](service-organizational-content-pack-manage-update-delete.md)ชุดเนื้อหาได้  อย่างไรก็ตาม ผู้รับทั้งหมดสามารถบันทึกสำเนาของชุดเนื้อหาที่สามารถ live ควบคู่ไปกับต้นฉบับ
 
 กำลังสร้างชุดเนื้อหาที่จะแตกต่างจากการแชร์แดชบอร์ดหรือการทำงานร่วมกันบนชุดเนื้อหาเหล่านั้นในกลุ่ม อ่าน[ฉันควรทำงานร่วมกันและแชร์แดชบอร์ดและรายงานอย่างไร](service-how-to-collaborate-distribute-dashboards-reports.md) เพื่อตัดสินใจเลือกตัวเลือกที่ดีที่สุดสำหรับสถานการณ์ของคุณ
+
+> [!NOTE]
+> คุณไม่สามารถสร้าง หรือติดตั้งชุดเนื้อหาระดับองค์กรในตัวอย่างการใช้งานพื้นที่ทำงานใหม่ ตอนนี้ คือเวลาดีที่จะอัปเกรดชุดเนื้อหาของคุณไปยังแอป ถ้าคุณยังไม่ได้เริ่มต้น เรียนรู้[เพิ่มเติมเกี่ยวกับการใช้งานพื้นที่ทำงานใหม่](service-create-the-new-workspaces.md)
+> 
 
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>สร้างสำเนาของข้อแพ็คเนื้อหาขององค์กร
 สร้างสำเนาของคุณเองของชุดเนื้อหา ที่ผู้อื่นไม่สามารถมองเห็น

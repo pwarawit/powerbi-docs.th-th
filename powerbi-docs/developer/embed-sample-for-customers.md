@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 781e34eadfccb89954c0a8548589e1bf89830079
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: 1185b6195f0d802cec71143c1f27ce5cead584c6
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359765"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39616062"
 ---
-# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>บทช่วยสอน: ฝังรายงาน, แดชบอร์ด หรือไทล์ Power BI ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ
-ด้วย **Power BI Embedded ใน Azure** คุณสามารถฝังรายงาน, แดชบอร์ด หรือไทล์ลงในการใช้แอปพลิเคชันโดยใช้**แอปเป็นเจ้าของข้อมูล**ได้ **แอปเป็นเจ้าของข้อมูล** เกี่ยวกับแอปพลิเคชันที่ใช้ Power BI เป็นแพลตฟอร์มการวิเคราะห์แบบฝังตัว นี่คือสถานการณ์ทั่วไปของ**นักพัฒนา ISV** ในฐานะเป็น**นักพัฒนา ISV** คุณสามารถสร้างเนื้อหา Power BI ที่แสดงรายงาน, แดชบอร์ด หรือไทล์ในแอปพลิเคชันที่รวมงานทั้งหมดไว้ด้วยกันและโต้ตอบได้ โดยไม่ต้องให้ผู้ใช้แอปพลิเคชันต้องมีสิทธิ์การใช้งาน Power BI หรือแม้แต่รู้ว่ามี Power BI อยู่ภายใน บทช่วยสอนนี้สาธิตวิธีการรวมรายงานลงในแอปพลิเคชัน โดยใช้ **Power BI** SDK .NET พร้อมกับ **Power BI** JavaScript API เมื่อใช้ **Power BI Embedded ใน Azure** สำหรับลูกค้าของคุณโดยใช้**แอปเป็นเจ้าของข้อมูล**
+# <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>บทช่วยสอน: ฝังรายงาน Power BI แดชบอร์ด หรือไทล์ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ
+ด้วย **Power BI Embedded ใน Azure** คุณสามารถฝังรายงาน, แดชบอร์ด หรือไทล์ลงในการใช้แอปพลิเคชันโดยใช้**แอปเป็นเจ้าของข้อมูล**ได้ **แอปเป็นเจ้าของข้อมูล** เกี่ยวกับแอปพลิเคชันที่ใช้ Power BI เป็นแพลตฟอร์มการวิเคราะห์แบบฝังตัว การใช้**แอปเป็นเจ้าของข้อมูล**มักเป็นสถานการณ์**ของผู้พัฒนาของผู้จำหน่ายซอฟท์แวร์อิสระ (ISV)** ในฐานะเป็น**นักพัฒนาของผู้จำหน่ายซอฟท์แวร์อิสระ (ISV)** คุณสามารถสร้างเนื้อหา **Power BI** ที่แสดงรายงาน, แดชบอร์ด หรือไทล์ในแอปพลิเคชันที่รวมงานทั้งหมดไว้ด้วยกันและที่โต้ตอบได้ โดยผู้ใช้แอปพลิเคชันไม่ต้องมีสิทธิ์การใช้งาน Power BI บทช่วยสอนนี้สาธิตวิธีการรวมรายงานลงในแอปพลิเคชัน โดยใช้ **Power BI** SDK .NET พร้อมกับ **Power BI** JavaScript API เมื่อใช้ **Power BI Embedded ใน Azure** สำหรับลูกค้าของคุณโดยใช้**แอปเป็นเจ้าของข้อมูล**
 
 ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีการ:
 >[!div class="checklist"]
@@ -25,14 +25,14 @@ ms.locfileid: "39359765"
 >* ฝังรายงาน Power BI ลงในแอปพลิเคชัน
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-เพื่อเริ่มต้นใช้งาน คุณต้องการบัญชีผู้ใช้ **Power BI Pro** (ซึ่งจะเป็น**บัญชีหลัก**ของคุณ) และการสมัครใช้งาน **Microsoft Azure**
+เมื่อต้องการเริ่มต้นใช้งาน คุณต้องมีบัญชี **Power BI Pro** (บัญชีนี้เป็น**บัญชีหลัก**ของคุณ) และการสมัครใช้งาน **Microsoft Azure**
 
 * ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/en-us/pricing/)ก่อนที่คุณจะเริ่ม
 * ถ้าคุณยังไม่มีการสมัครใช้งาน Azure สร้าง[บัญชีฟรี](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)ก่อนที่คุณจะเริ่ม
 * คุณจำเป็นต้องตั้งค่า[ผู้เช่า Azure Active Directory](create-an-azure-active-directory-tenant.md) ของคุณเอง
 * คุณต้องติดตั้ง [Visual Studio](https://www.visualstudio.com/) (เวอร์ชัน 2013 หรือใหม่กว่า)
 
-## <a name="setup-your-embedded-analytics-development-environment"></a>ตั้งค่าสภาพแวดล้อมการพัฒนา การวิเคราะห์แบบฝังตัวของคุณ
+## <a name="set-up-your-embedded-analytics-development-environment"></a>ตั้งค่าสภาพแวดล้อมการพัฒนาการวิเคราะห์แบบฝังตัวของคุณ
 
 ก่อนที่คุณจะเริ่มการฝังรายงาน, แดชบอร์ด หรือไทล์ ลงในแอปพลิเคชันของคุณ คุณจำเป็นต้องตรวจสอบให้แน่ใจว่า สภาพแวดล้อมของคุณถูกตั้งค่าเพื่ออนุญาตให้ทำการฝัง โดยถือเป็นส่วนหนึ่งของการตั้งค่า คุณจะต้องทำสิ่งต่อไปนี้
 
@@ -49,7 +49,7 @@ ms.locfileid: "39359765"
  
     ![พอร์ทัลหลัก Azure](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-3. ในบานหน้าต่างนำทางด้านซ้าย เลือก**บริการทั้งหมด** เลือก**การลงทะเบียนแอป** แล้วเลือก**ลงทะเบียนแอปพลิเคชันใหม่**
+3. ในบานหน้าต่างนำทางด้านซ้าย เลือก**บริการทั้งหมด**เลือก**ทะเบียนแอป**และจากนั้น เลือก**ลงทะเบียนแอปพลิเคชันใหม่**
    
     ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![ลงทะเบียนแอปใหม่](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
@@ -98,7 +98,7 @@ ms.locfileid: "39359765"
    
     ![การให้สิทธิ์ภายในกล่องโต้ตอบสิทธิ์ที่ต้องใช้](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
-## <a name="setup-your-power-bi-environment"></a>ตั้งค่าสภาพแวดล้อม Power BI ของคุณ
+## <a name="set-up-your-power-bi-environment"></a>ตั้งค่าสภาพแวดล้อม Power BI ของคุณ
 
 ### <a name="create-an-app-workspace"></a>สร้างพื้นที่ทำงานสำหรับแอปฯ
 
@@ -269,7 +269,9 @@ var embedConfig = new EmbedConfig()
 ตัวอย่างต่อไปนี้ ถือว่ามีการสร้างคลาสสำหรับ **EmbedConfig** และ **TileEmbedConfig** อยู่ก่อนแล้ว ตัวอย่างมีให้ในไฟล์ **Models\EmbedConfig.cs** และไฟล์ **Models\TileEmbedConfig.cs**
 
 ### <a name="load-an-item-using-javascript"></a>โหลดเนื้อหาโดยใช้ JavaScript
-คุณสามารถใช้ JavaScript เพื่อโหลดรายงานลงในองค์ประกอบ div บนเว็บเพจของคุณ 
+คุณสามารถใช้ JavaScript เพื่อโหลดรายงานลงในองค์ประกอบ div บนเว็บเพจของคุณ
+
+สำหรับตัวอย่างแบบเต็มของการใช้ JavaScript API คุณสามารถใช้[เครื่องมือ Playground](https://microsoft.github.io/PowerBI-JavaScript/demo) ได้ นี่คือวิธีที่รวดเร็วเพื่อลองเล่นกับตัวอย่าง Power BI Embedded ชนิดต่าง ๆ กัน คุณยังสามารถรับข้อมูลเพิ่มเติมเกี่ยวกับ JavaScript API โดยเข้าดูที่หน้า [Powerbi-javascript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) ได้
 
 ตัวอย่างนี้ใช้รูปแบบ **EmbedConfig** และรูปแบบ **TileEmbedConfig** พร้อมกับมุมมองรายงาน
 
@@ -316,25 +318,23 @@ var embedConfig = new EmbedConfig()
 </script>
 ```
 
-สำหรับตัวอย่างแบบเต็มของการใช้ JavaScript API คุณสามารถใช้[เครื่องมือ Playground](https://microsoft.github.io/PowerBI-JavaScript/demo) ได้ นี่คือวิธีที่รวดเร็วเพื่อลองเล่นกับตัวอย่าง Power BI Embedded ชนิดต่าง ๆ กัน คุณยังสามารถรับข้อมูลเพิ่มเติมเกี่ยวกับ JavaScript API โดยไปที่หน้า [PowerBI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) ได้
-
 ## <a name="move-to-production"></a>ย้ายไปยังการผลิต
 
 หลังจากที่คุณพัฒนาแอปพลิเคชันของคุณเสร็จแล้ว ก็ถึงเวลาที่จะรองรับพื้นที่ทำงานของแอปคุณด้วยความจุเฉพาะ ความจุเฉพาะ จำเป็นสำหรับการย้ายไปยังการผลิต
 
 ### <a name="create-a-dedicated-capacity"></a>สร้างความจุเฉพาะ
-เมื่อสร้างความจุเฉพาะ คุณสามารถใช้ประโยชน์จากการมีทรัพยากรเฉพาะที่จัดสรรไว้สำหรับลูกค้าของคุณ คุณสามารถซื้อความจุเฉพาะภายใน[พอร์ทัล Microsoft Azure](https://portal.azure.com) ได้ สำหรับรายละเอียดเกี่ยวกับวิธีการสร้างความจุ Power BI Embedded โปรดดู[สร้างความจุ Power BI Embedded ในพอร์ทัล Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
+เมื่อสร้างความจุเฉพาะ คุณสามารถใช้ประโยชน์จากการมีทรัพยากรเฉพาะที่จัดสรรไว้สำหรับลูกค้าของคุณ คุณสามารถซื้อความจุเฉพาะภายใน[พอร์ทัล Microsoft Azure](https://portal.azure.com) ได้ สำหรับรายละเอียดเกี่ยวกับวิธีการสร้างความจุ Power BI Embedded โปรดดู[สร้างความจุ Power BI Embedded ในพอร์ทัล Azure](azure-pbie-create-capacity.md)
 
 ใช้ตารางด้านล่างเพื่อกำหนดความจุ Power BI Embedded ที่เหมาะกับความต้องการของคุณที่สุด
 
 | โหนดของความจุ | แกนทั้งหมด<br/>*(Backend + frontend)* | Backend Cores | Frontend Cores | การจำกัดการเชื่อมต่อ DirectQuery/live | หน้าสูงสุดที่แสดงในชั่วโมงที่เรียกใช้มากที่สุด |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 v-cores |.5 cores, 3GB RAM |.5 cores | 5 ต่อวินาที |1-300 |
-| A2 |2 v-cores |1 core, 5GB RAM |1 core | 10 ต่อวินาที |301-600 |
-| A3 |4 v-cores |2 cores, 10GB RAM |2 cores | 15 ต่อวินาที |601-1,200 |
-| A4 |8 v-cores |4 cores, 25GB RAM |4 cores |30 ต่อวินาที |1,201-2,400 |
-| A5 |16 v-cores |8 cores, 50GB RAM |8 cores |60 ต่อวินาที |2,401-4,800 |
-| A6 |32 v-cores |16 cores, 100GB RAM |16 cores |120 ต่อวินาที |4,801-9600 |
+| A1 |1 v-core(s) |.5 core(s), 3GB RAM |.5 cores | 5 ต่อวินาที |1-300 |
+| A2 |2 v-core(s) |1 core(s), 5GB RAM |1 cor(e) | 10 ต่อวินาที |301-600 |
+| A3 |4 v-core(s) |2 core(s), 10GB RAM |2 core(s) | 15 ต่อวินาที |601-1,200 |
+| A4 |8 v-core(s) |4 core(s), 25GB RAM |4 core(s) |30 ต่อวินาที |1,201-2,400 |
+| A5 |16 v-core(s) |8 core(s), 50GB RAM |8 core(s) |60 ต่อวินาที |2,401-4,800 |
+| A6 |32 v-core(s) |16 core(s), 100GB RAM |16 core(s) |120 ต่อวินาที |4,801-9600 |
 
 **_ด้วย A SKU คุณไม่สามารถเข้าถึงเนื้อหา Power BI ที่มีสิทธิ์การใช้งาน Power BI ฟรี_**
 

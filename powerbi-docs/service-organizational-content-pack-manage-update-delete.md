@@ -3,24 +3,23 @@ title: ชุดเนื้อหาองค์กร จัดการแล
 description: อ่านเกี่ยวกับการจัดการ ปรับปรุง และการลบเนื้อหาขององค์กรคภายใน Power BI
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: d00ad254e25f8806f6cf2bc944e849e32167b1f8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182805"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624332"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>จัดการ อัปเดต และลบชุดเนื้อหาองค์กร
 > [!NOTE]
-> คุณได้ยินเกี่ยวกับ*แอปฯ*ใหม่แล้วหรือยัง แอปเป็นวิธีใหม่ในการกระจายเนื้อหาไปยังผู้ชมจำนวนมากใน Power BI เราวางแผนที่จะยกเลิกการสนับสนุนชุดเนื้อหาระดับองค์กรเร็ว ๆ นี้ ดังนั้น เราขอแนะนำให้ใช้แอปแทน เรียนรู้[เพิ่มเติมเกี่ยวกับแอปฯ](service-install-use-apps.md)
-> 
+> คุณไม่สามารถสร้างชุดเนื้อหาระดับองค์กร หรือติดตั้งชุดเนื้อหาดังกล่าวในตัวอย่างการใช้งานพื้นที่ทำงานใหม่ ตอนนี้ คือเวลาดีที่จะอัปเกรดชุดเนื้อหาของคุณไปยังแอป ถ้าคุณยังไม่ได้เริ่มต้น เรียนรู้[เพิ่มเติมเกี่ยวกับการใช้งานพื้นที่ทำงานใหม่](service-create-the-new-workspaces.md)
 > 
 
 อ่านเกี่ยวกับการรวมชุดแดชบอร์ด รายงาน เวิร์กบุ๊ก Excel และชุดข้อมูลของคุณลงใน[ชุดเนื้อหาองค์กร](service-organizational-content-pack-introduction.md) เพื่อนร่วมงานของคุณสามารถใช้งานได้แบบเป็น หรือพวกเขาสามารถสร้างสำเนาของตนเองได้

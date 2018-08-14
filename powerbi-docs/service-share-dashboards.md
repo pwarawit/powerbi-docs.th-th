@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e176f82e106c531410b8e9233b983c6e321bddf4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299067"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624403"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>แชร์แดชบอร์ด Power BI และรายงานกับเพื่อนร่วมงานและคนอื่นๆ
 *แชร์*เป็นวิธีที่ดีเมื่อต้องให้บางคนสามารถเข้าถึงแดชบอร์ดและรายงานของคุณ Power BI ยังมี[หลายวิธีอื่นๆ เพื่อที่จะทำงานร่วมกันและเผยแพร่แดชบอร์ดและรายงาน](service-how-to-collaborate-distribute-dashboards-reports.md)
@@ -91,6 +91,8 @@ ms.locfileid: "34299067"
 
 4. ในกล่องโต้ตอบ **ลบการเข้าถึง** ให้ตัดสินใจว่าคุณต้องการลบการเข้าถึงเนื้อหาที่เกี่ยวข้อง เช่นรายงานและชุดข้อมูลหรือไม่ ถ้าคุณลบรายการที่มีีไอคอนคำเตือน![ไอคอนการแจ้งเตือน Power BI](media/service-share-dashboards/power-bi-warning-icon.png)จะดีที่สุดเมื่อต้องลบเนื้อหาที่เกี่ยวข้อง เนื่องจากมันจะไม่แสดงอย่างเหมาะสม
 
+    ![กล่องโต้ตอบ Power BI แสดงการแจ้งเตือนการแชร์](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
+
 ## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>แชร์แดชบอร์ดหรือรายงานที่มีบุคคลภายนอกองค์กรของคุณ
 เมื่อคุณแชร์กับบุคคลภายนอกองค์กรของคุณ พวกเขาได้รับอีเมลที่ มีลิงก์ไปยังแดชบอร์ดหรือรายงานที่แชร์ และพวกเขาจำเป็นต้องลงชื่อเข้าใช้ Power BI หากต้องการเห็นมัน ถ้าพวกเขาไม่มีสิทธิ์ใช้งาน Power BI Pro พวกเขาสามารถลงทะเบียนขอสิทธิ์การใช้งานหลังจากคลิกที่ลิงค์
 
@@ -145,6 +147,8 @@ ms.locfileid: "34299067"
 ### <a name="i-cant-share-a-dashboard-or-report"></a>ฉันไม่สามารถแชร์แดชบอร์ดหรือรายงาน
 
 เมื่อต้องแชร์แดชบอร์ดหรือรายงาน คุณต้องได้รับอนุญาตแชร์เนื้อหาด้านในใดๆ ที่เกี่ยวข้องกับรายงานและชุดข้อมูล ถ้าคุณเห็นข้อความบอกว่า คุณไม่สามารถแชร์ได้ ขอให้ผู้เขียนรายงานให้แชร์สิทธิ์สำหรับรายงานและชุดข้อมูลเหล่านั้นแก่คุณอีกครั้ง
+
+![ข้อความ "ไม่สามารถแชร์"](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
