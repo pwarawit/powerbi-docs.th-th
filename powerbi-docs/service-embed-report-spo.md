@@ -61,7 +61,7 @@ ms.locfileid: "39032059"
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
-2. เลือก**+** และเลือก**Power BI** web part
+2. เลือก **+** และเลือก**Power BI** web part
 
     ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
