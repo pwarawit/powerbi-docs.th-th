@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 70aa61d6a02bea1b7058a68b20718008ace1b8c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34480899"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657816"
 ---
 # <a name="conditional-formatting-in-tables"></a>การจัดรูปแบบตามเงื่อนไขในตาราง 
 ด้วยการจัดรูปแบบตามเงื่อนไขสำหรับตาราง คุณสามารถระบุสีพื้นหลังของเซลล์ตามค่าของเซลล์ หรือตามค่าอื่นหรือเขตข้อมูลอื่น รวมถึงการไล่ระดับสี คุณยังสามารถแสดงค่าเซลล์ ด้วยแถบข้อมูล 
@@ -24,7 +24,7 @@ ms.locfileid: "34480899"
 
 ![เมนูการจัดรูปแบบตามเงื่อนไข](media/desktop-conditional-table-formatting/table-formatting-0-popup-menu.png)
 
-ส่วนต่อไปนี้อธิบายตัวเลือกการจัดรูปแบบตามเงื่อนไขสามตัวเลือกนี้ สามารถรวมตัวเลือกหนึ่งหรือหลายตัวเลือกในคอลัมน์เดียวของตารางได้
+ส่วนต่อไปนี้อธิบายแต่ละตัวเลือกการจัดรูปแบบตามเงื่อนไขเหล่านี้ สามารถรวมตัวเลือกหนึ่งหรือหลายตัวเลือกในคอลัมน์เดียวของตารางได้
 
 > [!NOTE]
 > เมื่อนำไปใช้กับตาราง การจัดรูปแบบตามเงื่อนไขจะแทนที่สไตล์ตารางแบบกำหนดเองใด ๆ ที่ใช้กับเซลล์ที่ถูกจัดรูปแบบตามเงื่อนไข
@@ -95,3 +95,43 @@ ms.locfileid: "34480899"
 ถ้าเลือกตัวเลือก**แสดงแถบอย่างเดียว** เซลล์ของตารางจะแสดงเฉพาะแถบเท่านั้น
 
 ![ตารางตัวอย่างที่มีแถบข้อมูลเท่านั้น](media/desktop-conditional-table-formatting/table-formatting-3-default-table-bars.png)
+
+## <a name="color-formatting-by-field-value"></a>การจัดรูปแบบสีโดยค่าของเขตข้อมูล
+
+คุณสามารถใช้หน่วยวัดหรือคอลัมน์ที่ระบุสี โดยใช้ค่าข้อความหรือโค้ดฐานสิบหก เพื่อใช้สีนั้นกับพื้นหลังของสีฟอนต์ของตารางหรือวิชวลเมทริกซ์ คุณสามารถสร้างตรรกะที่กำหนดเองสำหรับเขตข้อมูลที่ระบุ และมีตรรกะที่ใช้สีที่ต้องการกับฟอนต์หรือพื้นหลัง
+
+ตัวอย่าง ในตารางต่อไปนี้จะมีสีที่เกี่ยวข้องกับแต่ละรุ่นผลิตภัณฑ์ 
+
+![เขตข้อมูล ProductName พร้อมกับชื่อสี](media/desktop-conditional-table-formatting/conditional-table-formatting_01.png)
+
+เมื่อต้องการจัดรูปแบบเซลล์ตามค่าเขตข้อมูล เลือกกล่องโต้ตอบ**การจัดรูปแบบตามเงื่อนไข** โดยการคลิกขวาคอลัมน์*สี*สำหรับวิชวลนั้น และในกรณีนี้เลือก**สีพื้นหลัง**จากเมนู 
+
+![เลือกสีพื้นหลังจากเมนู](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
+
+ในกล่องโต้ตอบที่ปรากฏขึ้น เลือก**ค่าเขตข้อมูล**ใน**การจัดรูปแบบโดย**พื้นทีดรอปดาวน์ ดังที่แสดงในรูปต่อไปนี้
+
+![จัดรูปแบบโดยค่าเขตข้อมูล](media/desktop-conditional-table-formatting/conditional-table-formatting_03.png)
+
+คุณสามารถทำซ้ำกระบวนการสำหรับสีฟอนต์ และผลลัพธ์ในวิชวลจะเป็นสีทึบในคอลัมน์**สี** ดังที่แสดงในหน้าจอต่อไปนี้ได้
+
+![จัดรูปแบบโดยค่าเขตข้อมูล](media/desktop-conditional-table-formatting/conditional-table-formatting_04.png)
+
+คุณยังสามารถสร้างการคำนวณ DAX ตามตรรกะทางธุรกิจ ที่แสดงผลรหัสฐานสิบหกอื่นตามเงื่อนไขที่คุณต้องการ ซึ่งโดยทั่วไปแล้วง่ายกว่าการสร้างกฎหลายกฎในกล่องโต้ตอบการจัดรูปแบบตามเงื่อนไข พิจารณาเขตข้อมูล*ColorKPI*ในรูปตัวอย่างต่อไปนี้
+
+![การคำนวณ DAX](media/desktop-conditional-table-formatting/conditional-table-formatting_05.png)
+
+จากนั้นคุณสามารถตั้งค่าเขตข้อมูลสำหรับ**สีพื้นหลัง**ในวิธีต่อไปนี้
+
+![ตั้งค่าสีเขตข้อมูลตาม KPI](media/desktop-conditional-table-formatting/conditional-table-formatting_06.png)
+
+และคุณอาจจะได้รับผลลัพธ์เช่นเมทริกซ์ต่อไปนี้
+
+![วิชวลเมทริกซ์ด้วยค่า KPI ตามสี](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
+
+มีหลายรูปแบบเพิ่มเติมที่คุณสามารถสร้าง เพียงแค่ใช้จินตนาการของคุณและ DAX เล็กน้อย
+
+## <a name="next-steps"></a>ขั้นตอนถัดไป
+สำหรับข้อมูลเพิ่มเติม โปรดดูบทความต่อไปนี้:  
+
+* [คำแนะนำและเคล็ดลับในการจัดรูปแบบสีใน Power BI](service-tips-and-tricks-for-color-formatting.md)  
+

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: be4651d1658c80c84105a65bc48e4072ed203794
-ms.sourcegitcommit: 7bdb76bd80973c5e5174747b7e304705754fe647
+ms.openlocfilehash: a3e39e6326eb5b32cd72e2aefec74c07804b4639
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39217639"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657908"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>ใช้องค์ประกอบด้านภาพเพื่อปรับแต่งรายงาน Power BI
 
@@ -59,6 +59,9 @@ ms.locfileid: "39217639"
 ![ความโปร่งใสที่มากกว่า 50% ทำให้เกิดกรอบเส้นประ](media/desktop-visual-elements-for-reports/visual-elements-for-reports_04.png)
 
 เป็นเรื่องสำคัญที่ต้องทราบไว้ว่ากรอบเส้นประจะแสดงเมื่อทำการแก้ไขรายงาน*เท่านั้น* และจะ*ไม่*ปรากฏต่อคนที่กำลังดูรายงานที่เผยแพร่ไปแล้วอยู่ อย่างเช่นเมื่อดูผ่าน**บริการ Power BI**
+
+> [!NOTE]
+> ถ้าคุณใช้พื้นหลังสีเข้มสำหรับรูปพื้นหลัง และตั้งค่าข้อความสีอ่อนมาก หรือสีขาว โปรดจำไว้ว่าคุณลักษณะ**การส่งออกเป็น PDF**ไม่รวมรูปพื้นหลัง ดังนั้นการส่งออกใด ๆ กับแบบอักษรสีขาวจะแทบมองไม่เห็นในการส่งออกไฟล์ PDF ดู[การส่งออกเป็น PDF](desktop-export-to-pdf.md)สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ**การส่งออกเป็น PDF**
 
 
 ## <a name="using-improved-visual-headers-in-power-bi-reports"></a>การใช้ภาพส่วนหัวที่ได้รับการปรับแต่งในรายงาน Power BI
