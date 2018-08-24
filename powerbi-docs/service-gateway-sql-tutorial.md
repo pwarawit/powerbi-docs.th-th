@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 087813feb7db96a320c48ed6b2433a7183446c71
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: 33b88c728a5a79f2b1edf6e1728850723ce76fec
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926524"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40257203"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>บทช่วยสอน: เชื่อมต่อกับข้อมูลภายในองค์กรใน SQL Server
 
@@ -93,7 +93,7 @@ ms.locfileid: "37926524"
 
 1. ใน Power BI Desktop บนแท็บ**หน้าแรก** เลือก **รับข้อมูล** > **SQL Server**
 
-2. ภายใต้**เซิร์ฟเวอร์** ใส่ชื่อเซิร์ฟเวอร์ของคุณ และภายใต้**ฐานข้อมูล** ใส่ "TestGatewayDocs" เลือก **ตกลง** 
+2. ภายใต้**เซิร์ฟเวอร์** ใส่ชื่อเซิร์ฟเวอร์ของคุณ และภายใต้**ฐานข้อมูล** ใส่ "TestGatewayDocs" เลือก**ตกลง** 
 
     ![ใส่เซิร์ฟเวอร์และฐานข้อมูล](media/service-gateway-sql-tutorial/server-database.png)
 
@@ -107,7 +107,7 @@ ms.locfileid: "37926524"
 
     ![แผนภูมิคอลัมน์แบบเรียงซ้อน](media/service-gateway-sql-tutorial/column-chart.png)    
 
-6. เลือกที่แผนภูมิคอลัมน์ในพื้นที่รายงาน ในบานหน้าต่าง**เขตข้อมูล** เลือกเขตข้อมูล **Category** (ประเภท) และ **Sales** (ยอดขาย)  
+6. ด้วยแผนภูมิคอลัมน์ที่เลือกในพื้นที่รายงาน ในบานหน้าต่าง**เขตข้อมูล**เลือกเขตข้อมูล**ผลิตภัณฑ์**และ**ยอดขาย**  
 
     ![เลือกเขตข้อมูล](media/service-gateway-sql-tutorial/select-fields.png)
 
@@ -146,7 +146,7 @@ ms.locfileid: "37926524"
    |          ตัวเลือก           |                                               ค่า                                                |
    |---------------------------|----------------------------------------------------------------------------------------------------|
    |   **ชื่อแหล่งข้อมูล**    |                                          test-sql-source                                           |
-   |   **ชนิดแหล่งข้อมูล**    |                                             เซิร์ฟเวอร์ SQL                                             |
+   |   **ชนิดแหล่งข้อมูล**    |                                             SQL Server                                             |
    |        **เซิร์ฟเวอร์**         | ชื่อของอินสแตนซ์ SQL Server ของคุณ (ต้องเหมือนกับสิ่งที่คุณได้ระบุไว้ใน Power BI Desktop) |
    |       **ฐานข้อมูล**        |                                          TestGatewayDocs                                           |
    | **วิธีการรับรองความถูกต้อง** |                                              Windows                                               |

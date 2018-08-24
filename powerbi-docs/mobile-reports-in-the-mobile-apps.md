@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: eee7c4989c4856ab86cb4883f8004198da00e4fd
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799429"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40256969"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>สำรวจรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI
 นำไปใช้กับ:
@@ -84,7 +84,7 @@ ms.locfileid: "34799429"
 ## <a name="drill-down-and-up-in-a-visual"></a>ดูรายละเอียดแนวลึก และดูข้อมูลสรุปในวิชวล
 ถ้าผู้สร้างรายงานได้เพิ่มความสามารถการดูรายละเอียดแนวลึกในวิชวล คุณสามารถดูรายละเอียดแนวลึกในวิชวล เพื่อดูค่าที่ประกอบขึ้นมาเป็นวิชวล คุณ [เพิ่มการเจาะดูข้อมูลลึกลงในการแสดงผลด้วยภาพ](power-bi-visualization-drill-down.md) ใน Power BI Desktop หรือบริการ Power BI 
 
-* แตะที่จุดข้อมูลในวิชวลเพื่อแสดงการแนะนำเครื่องมือ ถ้าวิชวลมีรายละเอียดแนวลึก ด้านล่างของคำแนะนำมีลูกศรที่คุณสามารถแตะได้ 
+* แตะค้างที่แถบหนึ่ง หรือชี้ในภาพเพื่อแสดงเคล็ดลับเครื่องมือ ถ้าวิชวลมีรายละเอียดแนวลึก ด้านล่างของคำแนะนำมีลูกศรที่คุณสามารถแตะได้ 
   
   ![การดูรายละเอียดแนวลึกในวิชวล](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600390"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257024"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>ใช้เครื่องมือสำหรับนักพัฒนาเพื่อสร้างวิชวลแบบกำหนดเอง
 วิชวลแบบกำหนดเองช่วยให้คุณตอบสนองความต้องการของผู้ใช้ และสอดคล้องกับการออกแบบของแอปคุณ เรียนรู้วิธีสร้างวิชวลแบบกำหนดเองสำหรับ Power BI โดยใช้เครื่องมือนักพัฒนา
@@ -178,10 +178,10 @@ ms.locfileid: "37600390"
 คุณสามารถสร้างโครงการวิชวลใหม่ โดยการเรียกใช้คำสั่งต่อไปนี้
 
 ```
-pbiviz new My Visual name
+pbiviz new MyVisualName
 ```
 
-คุณสามารถแทนที่ *My Visual Name* ด้วยชื่อคุณต้องการตั้งให้วิชวลได้ ซึ่งสามารถเปลี่ยนแปลงในภายหลัง โดยการปรับเปลี่ยนเขตข้อมูล `name` และ `displayName` ในไฟล์ `pbiviz.json` ที่สร้างขึ้นได้
+คุณสามารถเปลี่ยน *MyVisualName* เป็นชื่อคุณต้องการตั้งให้ภาพ ซึ่งสามารถเปลี่ยนแปลงในภายหลัง โดยการปรับเปลี่ยนเขตข้อมูล `name` และ `displayName` ในไฟล์ `pbiviz.json` ที่สร้างขึ้นได้
 
 คำสั่งนี้จะสร้างโฟลเดอร์ใหม่ในไดเรกทอรีที่เรียกใช้คำสั่ง ซึ่งจะสร้างเทมเพลตพื้นฐานเริ่มต้น สำหรับวิชวลของคุณ เมื่อคำสั่งเสร็จสมบูรณ์ คุณสามารถเปิดไดเรกทอรี และใช้ตัวแก้ไขโปรดของคุณ เพื่อเริ่มการทำงานกับวิชวลใหม่ของคุณ
 

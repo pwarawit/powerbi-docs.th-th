@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f9c6d161149a4c862636a13ad88d3c43f2dbcd8a
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: cbec15b472e6cfad6134cc48970977132d61dd36
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329322"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257195"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>ใช้ข้อมูล Analysis Services Tabular ใน Power BI Desktop
 ด้วย Power BI Desktop คุณมีสองวิธีที่สามารถเชื่อมต่อ และรับข้อมูลจากแบบจำลอง SQL Server Analysis Services Tabular คือ สำรวจโดยใช้การเชื่อมต่อกันโดยตรงหรือรายการที่เลือก และนำเข้าลงใน Power BI Desktop
@@ -24,7 +24,9 @@ ms.locfileid: "39329322"
 
 **สำรวจโดยการใช้การเชื่อมต่อกันโดยตรง** เมื่อใช้การเชื่อมต่อกันโดยตรง รายการในแบบจำลอง Tabular หรือมุมมองของคุณ เช่น ตาราง คอลัมน์ และหน่วยวัดที่ปรากฏในรายการเขตข้อมูล Power BI Desktop ของคุณ คุณสามารถใช้เครื่องมือรายงานและการแสดงวิชวลขั้นสูง Power BI Desktop เพื่อสำรวจแบบจำลอง Tabular ของคุณ ด้วยวิธีใหม่ที่สามารถโต้ตอบได้สูง
 
-เมื่อเชื่อมต่อโดยตรงจะไม่มีการนำเข้าข้อมูลจากแบบจำลอง Tabular ลงใน Power BI Desktop ในแต่ละครั้งที่คุณโต้ตอบกับการแสดงวิชวล Power BI Desktop จะคิวรีแบบจำลอง Tabular และคำนวณผลลัพธ์ที่คุณเห็น คุณต้องการข้อมูลล่าสุดอยู่เสมอ โปรดทราบว่าแบบจำลอง Tabular มีความปลอดภัยสูง รายการที่ปรากฏใน Power BI Desktop ขึ้นอยู่กับสิทธิ์ของคุณสำหรับแบบจำลอง Tabular ที่คุณกำลังเชื่อมต่อ
+เมื่อเชื่อมต่อโดยตรงจะไม่มีการนำเข้าข้อมูลจากแบบจำลอง Tabular ลงใน Power BI Desktop ในแต่ละครั้งที่คุณโต้ตอบกับการแสดงวิชวล Power BI Desktop จะคิวรีแบบจำลอง Tabular และคำนวณผลลัพธ์ที่คุณเห็น คุณจะเห็นข้อมูลล่าสุดที่พร้อมใช้งานในรูปแบบตาราง จากประมวลผลครั้งล่าสุด หรือ จากตารางคิวรีโดยตรงที่พร้อมใช้งานในรูปแบบตาราง 
+
+โปรดทราบว่า รูปแบบตารางสูงมีความปลอดภัยสูง รายการที่ปรากฏใน Power BI Desktop ขึ้นอยู่กับสิทธิ์ของคุณสำหรับแบบจำลอง Tabular ที่คุณกำลังเชื่อมต่อ
 
 เมื่อคุณสร้างรายงานแบบไดนามิกใน Power BI Desktop คุณสามารถแบ่งปันเอกสารโดยการเผยแพร่ไปยังไซต์ Power BI ของคุณ เมื่อคุณเผยแพร่ไฟล์ Power BI Desktop ด้วยการเชื่อมต่อโดยตรงไปยังแบบจำลอง Tabular ไปยังไซต์ Power BI ของคุณ เกตเวย์ข้อมูลภายในองค์กรต้องได้รับการติดตั้ง และกำหนดค่าโดยผู้ดูแลระบบ ดูที่ [เกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem.md) เพื่อเรียนรู้เพิ่มเติม
 

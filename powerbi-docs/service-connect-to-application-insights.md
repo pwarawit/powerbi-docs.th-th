@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6ccf112a78e69e006a4ca3d6e8a7cd372adf5f05
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3c1000eb48cfb53f5838f19f6c0ece4403e9d3ba
+ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244260"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "40256831"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>เชื่อมต่อกับ Application Insights ด้วย Power BI
 ใช้ Power BI เพื่อสร้างแดชบอร์ดแบบกำหนดเองที่มีประสิทธิภาพจากการวัดและส่งข้อมูลทางไกล[Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) นึกภาพการวัดและส่งข้อมูลทางไกลของแอปของคุณในรูปแบบใหม่ รวมเมตริกจากแอปหรือบริการส่วนต่างๆลงบนแดชบอร์ดเดียวกัน การวางจำหน่ายครั้งแรกของชุดเนื้อหา Power BI สำหรับข้อมูลเชิงลึกของแอปพลิเคชันนี้ มีวิดเจ็ตสำหรับการวัดที่เกี่ยวข้องกับการใช้งานทั่วไป เช่นผู้ใช้ที่ใช้งานอยู่ มุมมองหน้า เซสชัน เบราว์เซอร์ และเวอร์ชันระบบปฏิบัติการ และการเผยแพร่ทางภูมิศาสตร์ของผู้ใช้ในแผนที่
@@ -23,7 +23,7 @@ ms.locfileid: "34244260"
 เชื่อมต่อไปยัง[เนื้อหาข้อมูลเชิงลึกของแอปพลิเคชันสำหรับ Power BI](https://app.powerbi.com/getdata/services/application-insights)
 
 >[!NOTE]
->เข้าถึงภาพรวมของ Application Insights สำหรับแอปพลิเคชันของ Azure Preview Portal ซึ่งต้องมีการเชื่อมต่อ รายละเอียดเพิ่มเติมเกี่ยวกับข้อกำหนดด้านล่าง
+>**ไม่สนับสนุน**วิธีการรวมนี้ เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับวิธีเชื่อมต่อข้อมูลเชิงลึกของแอปพลิเคชันไปยัง Power BI ใช้ [ส่งออกฟังก์ชั่นคิวรีการวิเคราะห์](https://docs.microsoft.com/azure/application-insights/app-insights-export-power-bi#export-analytics-queries)
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
 1. เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ

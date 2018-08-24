@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482141"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257202"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>บันทึกการเปลี่ยนแปลงสำหรับ เซิร์ฟเวอร์รายงาน Power BI
 
@@ -22,6 +22,18 @@ ms.locfileid: "34482141"
 
 สำหรับข้อมูลโดยละเอียดเกี่ยวกับคุณลักษณะใหม่ ๆ ดู[มีอะไรใหม่ในเซิร์ฟเวอร์รายงาน Power BI](whats-new.md) 
 
+## <a name="august-2018"></a>สิงหาคม 2018
+- **เซิร์ฟเวอร์รายงาน Power BI**
+    - *เวอร์ชัน 1.3.6801.38816 (รุ่น 15.0.2.540), เผยแพร่: 15 สิงหาคม 2018*
+        - คุณลักษณะ
+            - สนับสนุนคิวรีโดยตรง SAP HANA SSO ด้วย Kerberos สำหรับรายงาน Power BI
+            - API ภาพแบบกำหนดเองที่จัดส่งพร้อมการเผยแพร่ - เวอร์ชัน 1.13.0
+            - ภาพแบบกำหนดเองจะกลับเป็นเวอร์ชันก่อนหน้าที่สามารถเข้ากันได้กับรุ่นปัจจุบันของ API ของเซิร์ฟเวอร์ (ถ้ามี)
+
+- **Power BI Desktop (ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI)**
+    - *เวอร์ชัน: 2.61.5192.64 (สิงหาคม 2018 ), เผยแพร่: วันที่ 15 สิงหาคม 2018*
+        - ประกอบด้วยการเปลี่ยนแปลงที่จำเป็นสำหรับการเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI (สิงหาคม 2018)         
+        
 ## <a name="march-2018"></a>มีนาคม 2018
 - **เซิร์ฟเวอร์รายงาน Power BI**
     - *เวอร์ชัน 1.2.6690.34729 (รุ่น 15.0.2.402), เผยแพร่: 27 เมษายน 2018*
@@ -98,7 +110,7 @@ ms.locfileid: "34482141"
             - สนับสนุน Direct Query
             - สนับสนุนไฟล์ขนาดใหญ่ (สูงสุด 2 กิกะไบต์)
             - REST API สาธารณะ
-            - ﻿﻿สนับสนุนการแชร์ชุดข้อมูลใน Power BI Desktop (ผ่าน oData)
+            - สนับสนุนการแชร์ชุดข้อมูลใน Power BI Desktop (ผ่าน oData)
             - สนับสนุนพารามิเตอร์ URL สำหรับไฟล์ PBIX
             - การปรับปรุงการช่วยสำหรับการเข้าถึง
 
