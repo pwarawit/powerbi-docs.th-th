@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d696a7492f1295f2e2c9b39088b0eacdb66b15ca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: be532e428680d9286247f57d81cab2802aea1fe3
+ms.sourcegitcommit: 9a666382484882162690efaed106b82a4bcbf883
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310187"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42799056"
 ---
 # <a name="hyperlinks-in-tables"></a>ไฮเปอร์ลิงก์ในตาราง
 หัวข้อนี้สอนวิธีการใช้ Power BI Desktop เพื่อสร้างไฮเปอร์ลิงก์ จากนั้น เมื่อสร้างเสร็จแล้ว ใช้บริการ Desktop หรือ Power BI เพื่อเพิ่มไฮเปอร์ลิงก์เหล่านั้นไปยังรายงานตารางและเมทริกซ์ของคุณ 
@@ -39,8 +39,10 @@ ms.locfileid: "34310187"
     ![](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
 3. เลือก**URL เว็บ**
 4. สลับไปยังมุมมองรายงานและสร้างตารางหรือเมทริกซ์โดยใช้เขตข้อมูลที่มีการจัดประเภทเป็น URL เว็บ ไฮเปอร์ลิงก์จะเป็นสีน้ำเงินและขีดเส้นใต้
-   
     ![](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
+> **หมายเหตุ**: URL ต้องเริ่มต้นด้วย**http://, https://** หรือ**www**
+> 
+>   
 5. ถ้าคุณไม่ต้องการแสดง URL ยาวในตาราง คุณสามารถแสดงเป็นไอคอนการเชื่อมโยงหลายมิติ![](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png)แทนได้ โปรดทราบว่า คุณไม่สามารถแสดงไอคอนในเมทริกซ์ได้
    
    * เลือกแผนภูมิเพื่อเปิดใช้งาน
