@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: f56e05e51090f37fdb0bcd295ec877ee73b5dac0
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: dc29336754be008b541f146fff7c5f8609472cd0
+ms.sourcegitcommit: dddb6f8d39131febadfd97efa0e0e1d728f4f5ff
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "40257931"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42703017"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>กำหนดค่าเซิร์ฟเวอร์รายงานของคุณเพื่อโฮสต์ เวิร์กบุ๊ก Excel โดยใช้ Office Online Server (OOS)
 
@@ -37,7 +37,7 @@ ms.locfileid: "40257931"
     ```
 
     **Windows Server 2016:**
-   
+
     ```
     Add-WindowsFeature Web-Server,Web-Mgmt-Tools,Web-Mgmt-Console,Web-WebServer,Web-Common-Http,Web-Default-Doc,Web-Static-Content,Web-Performance,Web-Stat-Compression,Web-Dyn-Compression,Web-Security,Web-Filtering,Web-Windows-Auth,Web-App-Dev,Web-Net-Ext45,Web-Asp-Net45,Web-ISAPI-Ext,Web-ISAPI-Filter,Web-Includes,NET-Framework-Features,NET-Framework-45-Features,NET-Framework-Core,NET-Framework-45-Core,NET-HTTP-Activation,NET-Non-HTTP-Activ,NET-WCF-HTTP-Activation45,Windows-Identity-Foundation,Server-Media-Foundation
     ```
@@ -57,9 +57,9 @@ ms.locfileid: "40257931"
 1. ดาวน์โหลด Office Online Server จาก [Volume Licensing Service Center (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) การดาวน์โหลดจะอยู่ภายใต้ผลิตภัณฑ์ Office เหล่านั้นบนพอร์ทัล VLSC สำหรับการพัฒนา คุณสามารถดาวน์โหลด OOS จากดาวน์โหลดสำหรับสมาชิกของ MSDN
 2. เรียกใช้ Setup.exe
 3. บนหน้า**อ่านข้อกำหนดสิทธิ์การใช้งานซอฟต์แวร์ของ Microsoft** เลือก**ฉันยอมรับเงื่อนไขของข้อตกลงนี้** แล้วเลือก**ดำเนินการต่อ**
-4. บนหน้า**เลือกตำแหน่งที่ตั้งไฟล์** เลือกโฟลเดอร์ที่คุณต้องการติดตั้งไฟล์ Office Online Server (ตัวอย่างเช่น *C:\Program Files\Microsoft Office Web Apps*) และเลือก **ติดตั้งทันที** ถ้าโฟลเดอร์ที่คุณระบุไม่มีอยู่จริง โปรแกรมติดตั้งจะสร้างให้คุณ
+4. บนหน้า**เลือกตำแหน่งที่ตั้งไฟล์** เลือกโฟลเดอร์ที่คุณต้องการติดตั้งไฟล์ Office Online Server (ตัวอย่างเช่น C:\Program Files\Microsoft Office Web Apps*) และเลือก **ติดตั้งทันที** ถ้าโฟลเดอร์ที่คุณระบุไม่มีอยู่จริง โปรแกรมติดตั้งจะสร้างให้คุณ
 
-    **_เราขอแนะนำให้คุณติดตั้ง Office Online Server บนไดรฟ์ระบบ_**
+    เราขอแนะนำให้ คุณติดตั้ง Office Online Server บนไดรฟ์ระบบ
 
 5. เมื่อโปรแกรมติดตั้ง Office Online Server ติดตั้งเสร็จ เลือก**ปิด**
 
@@ -180,7 +180,7 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 
 ## <a name="limitations-and-considerations"></a>ข้อจำกัดและข้อควรพิจารณา
 
-* คุณจะมีความสามารถแบบอ่านอย่างเดียวในสมุดงาน
+* คุณทำได้แค่การอ่านเวิร์กบุ๊กเท่านั้น
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 20bdd4731cd4aad3c6412d1959de3be088a3457a
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280144"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151963"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>สำรวจไทล์ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -28,10 +28,6 @@ ms.locfileid: "39280144"
 จากนั้นในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ ให้คุณเปิดไทล์ในโหมดโฟกัส และโต้ตอบกับไทล์นั้น คุณสามารถเปิดไทล์ด้วยการแสดงผลด้วยภาพ รวมถึงไทล์ตาม Bing และ R. ทุกชนิด
 
 ## <a name="tiles-in-the-ios-apps"></a>ไทล์ในแอป iOS
-> [!NOTE]
-> คุณสามารถ[สร้างไทล์รูปภาพด้วยแอป iPhone](mobile-iphone-app-get-started.md) และบันทึกลงในแดชบอร์ดของคุณได้
-> 
-> 
 
 1. เปิด[แดชบอร์ดในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ iOS](mobile-apps-view-dashboard.md)
 2. แตะไทล์ ซึ่งจะเปิดขึ้นในโหมดโฟกัส โดยสามารถดูและสำรวจข้อมูลของไทล์ได้ง่ายขึ้น ในโหมดโฟกัสคุณสามารถ:
@@ -40,7 +36,7 @@ ms.locfileid: "39280144"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   <em>ตัวอย่างเช่น ในแผนภูมิเส้นนี้ ค่าที่เลือกคือค่าสำหรับ**ยอดขายของปีนี้</em>* และ**ยอดขายของปีที่แล้ว**ใน**เดือนสิงหาคม**.*  
+   *ตัวอย่างเช่น ในแผนภูมิเส้นนี้ ค่าที่เลือกคือค่าสำหรับ**ยอดขายของปีนี้**และ**ยอดขายของปีล่าสุด**ใน**เดือนสิงหาคม***  
    
    ในแผนภูมิวงกลม ให้แตะชิ้นของแผนภูมิวงกลมเพื่อแสดงค่าชิ้นส่วนที่ด้านบนของวงกลม  
    
@@ -107,7 +103,7 @@ ms.locfileid: "39280144"
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   <em>ในแผนภูมิแท่งนี้ ค่าสำหรับแถบ **Decor</em>* จะแสดงที่ด้านบนของแผนภูมิ*
+   *ในแผนภูมิแท่งนี้ ค่าสำหรับแถบ **Decor** จะแสดงที่ด้านบนของแผนภูมิ*
    
    แตะไอคอน**เต็มหน้าจอ** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)เพื่อเปิดไทล์ในโหมดเต็มหน้าจอ โดยไม่มีแถบนำทางและเมนู
    
