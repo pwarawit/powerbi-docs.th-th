@@ -2,20 +2,20 @@
 title: ไทล์แดชบอร์ดในบริการ Power BI
 description: ทั้งหมดที่เกี่ยวกับไทล์แดชบอร์ดใน Power BI ซึ่งรวมถึงไทล์ที่สร้างขึ้นจาก SQL Server Reporting Services (SSRS)
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249079"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241602"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>ไทล์แดชบอร์ดใน Power BI
 แดชบอร์ดและไทล์แดชบอร์ดเป็นคุณลักษณะของบริการ Power BI ไม่ใช่ของ Power BI Desktop ขณะที่ไม่สามารถสร้างหรือปักหมุดไทล์แดชบอร์ดใน Power BI สำหรับมือถือได้ แต่เราสามารถ[ดูและแชร์](mobile-tiles-in-the-mobile-apps.md)บนมือถือได้ และใน Power BI สำหรับอุปกรณ์เคลื่อนที่ คุณสามารถ[เพิ่มรูปภาพลงในแดชบอร์ดของคุณกับแอปฯ iPhone](mobile-iphone-app-get-started.md) ได้
@@ -67,9 +67,9 @@ ms.locfileid: "34249079"
    
    * [เปิดแผ่นงานที่ถูกใช้เพื่อสร้างไทล์นี้](service-reports.md) ![ไอคอนแผ่นงาน](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [ดูในโหมดโฟกัส](service-focus-mode.md) ![ไอคอนโฟกัส](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+    * [ดูในโหมดโฟกัส](service-focus-mode.md) ![ไอคอนโฟกัส](media/service-dashboard-tiles/fullscreen-icon.jpg)  
      * [ส่งออกข้อมูลที่ใช้ในไทล์](power-bi-visualization-export-data.md) ![ไอคอนส่งออกข้อมูล](media/service-dashboard-tiles/export-icon.png)
-     * [แก้ไขชื่อเรื่องและชื่อเรื่องรอง เพิ่มไฮเปอร์ลิงก์ แสดงเวลาการรีเฟรชล่าสุด](service-dashboard-edit-tile.md) ![ไอคอนแก้ไข](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [แก้ไขชื่อเรื่องและคำบรรยาย เพิ่มไฮเปอร์ลิงก์](service-dashboard-edit-tile.md) ![แก้ไขไอคอน](media/service-dashboard-tiles/pencil-icon.jpg)
      * [เรียกใช้ข้อมูลเชิงลึก](service-insights.md) ![ไอคอนข้อมูลเชิงลึก](media/service-dashboard-tiles/power-bi-insights.png)
      * [ปักหมุดไทล์ไปยังแดชบอร์ดอื่น](service-pin-tile-to-another-dashboard.md) 
        ![ไอคอนปักหมุด](media/service-dashboard-tiles/pin-icon.jpg)

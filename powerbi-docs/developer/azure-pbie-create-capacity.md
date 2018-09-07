@@ -10,12 +10,12 @@ ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: ''
 ms.date: 07/31/2018
-ms.openlocfilehash: 222a6368bc717880fee4f6ce6958455959b491bd
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: f364bb725c492c1bffd2493c1e2a48ee8c442a9e
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360474"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300057"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>สร้างความจุ Power BI Embedded ในพอร์ทัล Azure
 
@@ -54,7 +54,7 @@ ms.locfileid: "39360474"
     |**การสมัครใช้งาน**|การสมัครใช้งานที่คุณต้องการสร้างความจุ|
     |**กลุ่มทรัพยากร**|กลุ่มทรัพยากรที่ประกอบด้วยความจุใหม่นี้ เลือกจากกลุ่มทรัพยากรที่มีอยู่แล้วหรือสร้างกลุ่มอื่น สำหรับข้อมูลเพิ่มเติม ให้ดู[ภาพรวม Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)|
     |**ผู้ดูแลระบบความจุ Power BI**|ผู้ดูแลระบบความจุ power BI สามารถดูความจุในพอร์ทัลผู้ดูแลระบบ Power BI และให้สิทธิ์ในการกำหนดผู้ใช้อื่นๆ ตามค่าเริ่มต้น ผู้ดูแลความจุคือ บัญชีของคุณ ผู้ดูแลระบบความจุต้องอยู่ภายในผู้เช่า Power BI ของคุณ|
-    |**ตำแหน่งที่ตั้ง**|ตำแหน่งที่ตั้งที่โฮสต์ Power BI สำหรับผู้เช่าของคุณ การตั้งค่านี้ได้รับการแก้ไขโดยอัตโนมัติ และไม่สามารถเลือกตำแหน่งที่ตั้งอื่นได้|
+    |**ตำแหน่งที่ตั้ง**|ตำแหน่งที่ตั้งที่โฮสต์ Power BI สำหรับผู้เช่าของคุณ ตำแหน่งเริ่มต้นของคุณคือ ภูมิภาคบ้านของคุณ แต่คุณสามารถเปลี่ยนตำแหน่งที่ตั้งโดยใช้[ตัวเลือก Multi-Geo](embedded-multi-geo.md)
     |**ระดับการกำหนดราคา**|เลือก SKU (วี-คอร์เคานต์และขนาดหน่วยความจำ) ที่ตรงตามความต้องการของคุณ  สำหรับรายละเอียดเพิ่มเติม ดู[การกำหนดราคา Power BI Embedded](https://azure.microsoft.com/pricing/details/power-bi-embedded/)|
 
 6. เลือก **สร้าง**

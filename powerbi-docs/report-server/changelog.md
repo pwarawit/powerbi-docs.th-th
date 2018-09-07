@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
-ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
+ms.openlocfilehash: bfc9b054f9a34757361bf4ab1803aa6904471167
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257202"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380324"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>บันทึกการเปลี่ยนแปลงสำหรับ เซิร์ฟเวอร์รายงาน Power BI
 
@@ -24,6 +24,15 @@ ms.locfileid: "40257202"
 
 ## <a name="august-2018"></a>สิงหาคม 2018
 - **เซิร์ฟเวอร์รายงาน Power BI**
+    - *เวอร์ชัน 1.3.6816.37243 (รุ่น 15.0.2.557) เผยแพร่: 30 สิงหาคม 2018*
+        - แก้ไขข้อบกพร่อง
+            - แก้ไขปัญหาเมื่อเซิร์ฟเวอร์มีการอัปเกรดจากเวอร์ชันก่อนหน้าของเซิร์ฟเวอร์รายงาน PBI ที่เปลี่ยนเส้นทางการผูกที่ไม่มีการอัปเดต ลูกค้าจะเห็นสิ่งนี้:      
+            *`
+            Failed to load expression host assembly. Details: Could not load file or assembly 'Microsoft.ReportingServices.ProcessingObjectModel, Version=2018.7.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (rsErrorLoadingExprHostAssembly)
+             `*
+             
+            - ข้อบกพร่องสำหรับความโปร่งใสของป้ายชื่อข้อมูลได้รับการแก้ไขแล้ว
+            
     - *เวอร์ชัน 1.3.6801.38816 (รุ่น 15.0.2.540), เผยแพร่: 15 สิงหาคม 2018*
         - คุณลักษณะ
             - สนับสนุนคิวรีโดยตรง SAP HANA SSO ด้วย Kerberos สำหรับรายงาน Power BI
