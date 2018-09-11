@@ -2,21 +2,21 @@
 title: สร้างแผนที่ ArcGIS จาก ESRI ใน Power BI
 description: 'สร้างแผนที่ ArcGIS จาก ESRI ใน Power BI '
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 85bf9630a8c272b513f27f38b24a5d8a77075444
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 127187367b2ae5680b50bc1e72de7214c522705e
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599631"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168077"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>แผนที่ ArcGIS ในบริการของ Power BI และ Power BI Desktop จาก Esri
 บทช่วยสอนนี้ถูกเขียนจากมุมมองของผู้สร้างแผนที่ ArcGIS เมื่อผู้สร้างแชร์แผนที่ ArcGIS ให้กับเพื่อนร่วมงาน ผู้ร่วมงานสามารถดูและโต้ตอบกับแผนที่ แต่ไม่สามารถบันทึกการเปลี่ยนแปลงได้ เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับการดูแผนที่ ArcGIS ดูที่[โต้ตอบกับแผนที่ ArcGIS](power-bi-visualizations-arcgis.md)
