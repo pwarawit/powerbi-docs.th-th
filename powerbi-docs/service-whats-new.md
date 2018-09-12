@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/06/2018
+ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 750dbf2593981e8fc9ad5f2f66219d6bf6fd641c
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: d7f966834e2d6b44f3a887991bd0ebd6e38836f0
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137479"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044359"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
@@ -31,27 +31,37 @@ ms.locfileid: "37137479"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2018"></a>พฤษภาคม 2018
-* [แดชบอร์แบบธีม](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes) ในบริการของ Power BI
-* [Incremental refresh](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh) ด้วย Premium
-* ร้องขอการเข้าถึงเวิร์กโฟลว์สำหรับ[Power BI Apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)
-* รับการปรับปรุงข้อมูลเพื่อให้ผู้ใช้ค้นหา[Power BI Apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)ได้ง่าย
-* ตั้งค่าเพื่อเปิดและปิด[ตัวกรองที่คงอยู่](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)ในบริการ Power BI
-* Azure B2B เชิญปรับปรุงเวิร์กโฟลว์สำหรับรายงาน
+## <a name="august-2018"></a>สิงหาคม 2018
+* การปรับปรุง [ตัวกรอง URL รายงาน](service-url-filters.md) สำหรับ Power BI
 
 ## <a name="previous-months-2018"></a>เดือนก่อน ๆ (2018)
+### <a name="july-2018"></a>กรกฎาคม 2018
+* [cmdlet ของ PowerShell และ API](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/) สำหรับผู้ดูแลระบบ Power BI
+
+### <a name="june-2018"></a>มิถุนายน 2018
+* แชร์รายงานกับตัวกรองและตัวแบ่งส่วนข้อมูล
+* อินเทอร์เฟซผู้ใช้ใหม่และที่ปรับปรุงสำหรับ[การเชื่อมต่อเกตเวย์](https://powerbi.microsoft.com/blog/easier-set-up-of-datasets-in-power-bi/)และการตั้งค่าชุดข้อมูล
+
+### <a name="may-2018"></a>พฤษภาคม 2018
+* [แดชบอร์แบบธีม](https://docs.microsoft.com/power-bi/service-dashboard-themes) ในบริการของ Power BI
+* [Incremental refresh](https://docs.microsoft.com/power-bi/service-premium-incremental-refresh) ด้วย Premium
+* ร้องขอการเข้าถึงเวิร์กโฟลว์สำหรับ[Power BI Apps](https://docs.microsoft.com/power-bi/service-create-distribute-apps)
+* รับการปรับปรุงข้อมูลเพื่อให้ผู้ใช้ค้นหา[Power BI Apps](https://docs.microsoft.com/power-bi/service-create-distribute-apps)ได้ง่าย
+* ตั้งค่าเพื่อเปิดและปิด[ตัวกรองที่คงอยู่](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)ในบริการ Power BI
+* Azure B2B เชิญปรับปรุงเวิร์กโฟลว์สำหรับรายงาน
+
 ### <a name="april-2018"></a>เมษายน 2018
-* [เอกสารทางเทคนิค Power BI GDPR](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+* [รายงานบทสรุป Power BI เกี่ยวกับการป้องกันข้อมูล](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * [แฟ้มบันทึกการตรวจสอบ](https://docs.microsoft.com/power-bi/service-admin-auditing) บริการของ Power BI จะเปิดตามค่าเริ่มต้นสำหรับผู้เช่า Office 365
 
 ### <a name="march-2018"></a>มีนาคม 2018
-* [ตัวกรองแบบถาวร](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/)ในบริการ Power BI
-* แชร์เนื้อหากับผู้ใช้ที่ใช้บัญชีอีเมลส่วนบุคคลของตน ส่วนขยายของ [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/)
+* [ตัวกรองแบบถาวร](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)ในบริการ Power BI
+* แชร์เนื้อหากับผู้ใช้ที่ใช้บัญชีอีเมลส่วนบุคคลของตน ส่วนขยายของ [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/)
 
 ### <a name="february-2018"></a>กุมภาพันธ์ 2018
-* ติดตั้ง [Power BI Apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) โดยอัตโนมัติสำหรับผู้ใช้ปลายทาง
+* ติดตั้ง [Power BI Apps](https://docs.microsoft.com/power-bi/service-create-distribute-apps) โดยอัตโนมัติสำหรับผู้ใช้ปลายทาง
 * ความจุ P4 และ P5 บน Power BI Premium
-* แสดงตัวอย่างของ[ภาพแบบกำหนดเองสำหรับองค์กร](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-organization)
+* แสดงตัวอย่างของ[ภาพแบบกำหนดเองสำหรับองค์กร](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-organization)
 
 ### <a name="january-2018"></a>มกราคม 2018
 *   รายงาน Power BI ที่แชร์และเป็นรายการโปรด
@@ -63,12 +73,12 @@ ms.locfileid: "37137479"
 
 ## <a name="previous-months-2017"></a>เดือนก่อน ๆ (2017)
 ## <a name="october-and-november-2017"></a>เดือนตุลาคมและพฤศจิกายน 2017
-*   เนื้อหาที่คัดเลือกเพื่อเผยแพร่กับ [Power BI Apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)
-*   การกระจายไปยังผู้ใช้ภายนอกด้วย[Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/)
+*   เนื้อหาที่คัดเลือกเพื่อเผยแพร่กับ [Power BI Apps](https://docs.microsoft.com/power-bi/service-create-distribute-apps)
+*   การกระจายไปยังผู้ใช้ภายนอกด้วย[Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/)
 * คำแนะนำแอปฯที่ขับเคลื่อนด้วย AI
 * อัปเดต UI บนไทล์แดชบอร์ด
 * การสมัครใช้งานอีเมลที่สนับสนุนสำหรับแอปฯ 
-* ตัวควบคุมสำหรับผู้ดูแลระบบระดับแยกย่อยสำหรับ[เผยแพร่ไปยังเว็บ](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings)
+* ตัวควบคุมสำหรับผู้ดูแลระบบระดับแยกย่อยสำหรับ[เผยแพร่ไปยังเว็บ](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings)
 
 ## <a name="september-2017"></a>กันยายน 2017
 * ในความจุแบบพรีเมียม แชร์แดชบอร์ดกับผู้ใช้ที่ไม่มีสิทธิ์การใช้งาน Power BI Pro

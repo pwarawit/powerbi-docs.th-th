@@ -1,0 +1,197 @@
+items:
+- name: Power BI สำหรับผู้บริโภค
+  href: power-bi-consumer-overview.md
+- name: บริการ Power BI บนเว็บ
+  items:
+  - name: ภาพรวม
+    items:
+    - name: Power BI คืออะไร
+      href: ../../service-basic-concepts.md
+  - name: การเริ่มต้นใช้งานด่วน
+    items:
+    - name: ค้นหาวิธีใช้ใน Power BI
+      href: ../../service-the-new-power-bi-experience.md
+  - name: แนวคิด
+    items:
+    - name: มีอะไรใหม่ในบริการ Power BI
+      href: ../../service-whats-new.md
+    - name: ลงชื่อสมัครใช้บริการด้วยตนเอง
+      href: ../../service-self-service-signup-for-power-bi.md
+    - name: ค้นหาและการเรียงลำดับเนื้อหา
+      href: ../../service-navigation-search-filter-sort.md
+    - name: เนื้อหาที่เกี่ยวข้อง
+      href: ../../service-related-content.md
+    - name: เนื้อหาล่าสุด
+      href: ../../service-recent.md
+    - name: เลือกใช้ฟีเจอร์ตัวอย่างของ Power BI
+      href: ../../service-preview-features.md
+    - name: แดชบอร์ดใน Power BI
+      href: ../../service-dashboards.md
+    - name: การถามตอบใน Power BI
+      href: ../../power-bi-q-and-a.md
+    - name: รายงานใน Power BI
+      href: ../../service-reports.md
+    - name: Cortana เบื้องต้นสำหรับ Power BI
+      href: ../../service-cortana-intro.md
+    - name: ไทล์แดชบอร์ดใน Power BI
+      href: ../../service-dashboard-tiles.md
+    - name: แชร์กับฉัน
+      href: ../../service-shared-with-me.md
+    - name: การรีเฟรชข้อมูลใน Power BI
+      href: ../../refresh-data.md
+    - name: คำถามที่ถามบ่อย
+      href: ../../service-frequently-asked-questions.md
+    - name: Power BI สำหรับภาครัฐของประเทศสหรัฐอเมริกา
+      href: ../../service-govus-overview.md
+    - name: Power BI Free เปรียบเทียบกับ Pro
+      href: ../../service-free-vs-pro.md
+    - name: 10 เคล็ดลับสำหรับการรับความช่วยเหลือ
+      href: ../../service-tips-for-finding-help.md
+    - name: เกี่ยวกับตัวกรองและการไฮไลท์ในรายงาน Power BI
+      href: ../../power-bi-reports-filters-and-highlighting.md
+  - name: วิธีการ
+    items:
+    - name: งานทั่วไป
+      items:
+      - name: แดชบอร์ด รายงาน และแอปโปรดใน Power BI
+        href: ../../service-dashboard-favorite.md
+      - name: แสดงไทล์แดชบอร์ดในโหมดโฟกัส
+        href: ../../service-focus-mode.md
+      - name: พิมพ์แดชบอร์ด พิมพ์ไทล์แดชบอร์ด พิมพ์หน้ารายงาน
+        href: ../../service-print.md
+      - name: เปลี่ยนชื่อของเนื้อหาภายใน Power BI
+        href: ../../service-rename.md
+      - name: แสดงแดชบอร์ดและรายงานในโหมดเต็มหน้าจอ (โทรทัศน์โหมด)
+        href: ../../service-fullscreen-mode.md
+      - name: ลบเนื้อหาภายใน Power BI
+        href: ../../service-delete.md
+      - name: ลงทะเบียนองค์กรภาครัฐของประเทศสหรัฐอเมริกาของคุณ
+        href: ../../service-govus-signup.md
+      - name: แจ้งเตือนข้อมูลใน Power BI service
+        href: ../../service-set-data-alerts.md
+      - name: เคล็ดลับและลูกเล่นสำหรับการถามคำถามด้วย ถามตอบใน Power BI
+        href: ../../service-q-and-a-tips.md
+      - name: ติดตั้ง และใช้แอปด้วยแดชบอร์ดและรายงาน
+        href: ../../service-install-use-apps.md
+      - name: ค้นหาและเชื่อมต่อกับชุดเนื้อหาองค์กร
+        href: ../../service-organizational-content-pack-find-and-open.md
+      - name: เริ่มใช้งานกับการถามตอบ Power BI
+        href: ../../power-bi-visualization-introduction-to-q-and-a.md
+    - name: แดชบอร์ด
+      items:
+      - name: แดชบอร์ดแนะนำใน Power BI
+        href: ../../service-dashboard-featured.md
+      - name: ศูนย์การแจ้งเตือนแบบรวมของ Power BI
+        href: ../../service-notification-center.md
+      - name: ไอเท็มของแดชบอร์ด
+        href: ../../service-dashboard-themes.md
+    - name: รายงาน
+      items:
+      - name: วิธีอื่นๆ ในการเปิดรายงาน
+        href: ../../service-report-open.md
+      - name: เปลี่ยนวิธีการเรียงลำดับแผนภูมิในรายงาน Power BI
+        href: ../../power-bi-report-change-sort.md
+      - name: ส่งออกข้อมูลจากการแสดงข้อมูล
+        href: ../../power-bi-visualization-export-data.md
+      - name: วิธีการใช้ตัวกรองรายงาน
+        href: ../../power-bi-how-to-report-filter.md
+      - name: สมัครใช้งานไปยังรายงานหรือแดชบอร์ด
+        href: ../../service-report-subscribe.md
+- name: แอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+  items:
+  - name: ภาพรวม
+    items:
+    - name: แอปสำหรับอุปกรณ์เคลื่อนคืออะไร
+      href: ../../mobile-apps-for-mobile-devices.md
+  - name: การเริ่มต้นใช้งานด่วน
+    items:
+    - name: สำรวจแดชบอร์ดและรายงาน
+      href: ../../mobile-apps-quickstart-view-dashboard-report.md
+  - name: บทช่วยสอน
+    items:
+    - name: ถามคำถามใน iOS แอปสำหรับอุปกรณ์เคลื่อน
+      href: ../../tutorial-mobile-apps-ios-qna.md
+  - name: แนวคิด
+    items:
+    - name: มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่
+      href: ../../mobile-whats-new-in-the-mobile-apps.md
+    - name: รับข้อมูลตามโลกความจริงด้วยแอปสำหรับโทรศัพท์เคลื่อนที่
+      href: ../../mobile-apps-data-in-real-world-context.md
+    - name: ดูข้อมูลของคุณแบบออฟไลน์ในแอปสำหรับอุปกรณ์เคลื่อนที่
+      href: ../../mobile-apps-offline-data.md
+    - name: Power BI สำหรับแอปความเป็นจริงผสม (แสดงตัวอย่าง)
+      href: ../../mobile-mixed-reality-app.md
+  - name: วิธีการ
+    items:
+    - name: แอปทั้งหมดสำหรับอุปกรณ์เคลื่อนที่
+      items:
+      - name: ดูรายงานในสถานทีสำหรับอุปกรณ์เคลื่อนที่
+        href: ../../mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      - name: แชร์แดชบอร์ดจากแอป Power BI mobile
+        href: ../../mobile-share-dashboard-from-the-mobile-apps.md
+      - name: โต้ตอบกับไทล์ในแอปสำหรับอุปกรณ์เคลื่อนที่
+        href: ../../mobile-tiles-in-the-mobile-apps.md
+      - name: รายการโปรดในแอปสำหรับอุปกรณ์เคลื่อนที่
+        href: ../../mobile-apps-favorites.md
+      - name: ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+        href: ../../mobile-set-data-alerts-in-the-mobile-apps.md
+      - name: รับการแจ้งเตือนในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+        href: ../../mobile-apps-notification-center.md
+      - name: สร้างการเชื่อมโยงโดยตรงที่จะไปยังตำแหน่งที่ระบุ
+        href: ../../mobile-apps-deep-link-specific-location.md
+      - name: กรองรายงานตามตำแหน่งที่ตั้งในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+        href: ../../mobile-apps-geographic-filtering.md
+      - name: สแกนคิวอาร์โค้ด Power BI จากโทรศัพท์ของคุณ
+        href: ../../mobile-apps-qr-code.md
+      - name: แดชบอร์ดสำหรับ Power BI สำหรับอุปกรณ์เคลื่อน
+        href: ../../mobile-apps-view-dashboard.md
+      - name: ดูรายงานที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ
+        href: ../../mobile-apps-view-phone-report.md
+      - name: รายงานในแอปสำหรับอุปกรณ์เคลื่อนที่
+        href: ../../mobile-reports-in-the-mobile-apps.md
+      - name: ใช้ OAuth เพื่อเชื่อมต่อกับ Reporting Services
+        href: ../../mobile-oauth-ssrs.md
+      - name: กำหนดค่าแอปสำหรับอุปกรณ์เคลื่อนที่ด้วย Intune
+        href: ../../service-admin-mobile-intune.md
+    - name: อุปกรณ์ Android
+      items:
+      - name: เริ่มต้นใช้งานแอป Android
+        href: ../../mobile-android-app-get-started.md
+      - name: กำลังแก้ไข 'ใบรับรอง SSL ขององค์กรของคุณไม่น่าเชื่อถือ'
+        href: ../../mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+      - name: 'ข้อผิดพลาด: "จำเป็นต้องอัปเดต Android System Webview"'
+        href: ../../mobile-android-error-update-android-system-webview.md
+    - name: iOS
+      items:
+      - name: เริ่มต้นใช้งานแอป iOS
+        href: ../../mobile-iphone-app-get-started.md
+      - name: Q&A นักวิเคราะห์เสมือนจริงในแอปสำหรับอุปกรณ์เคลื่อนของ iOS
+        href: ../../mobile-apps-ios-qna.md
+      - name: แอป Power BI Apple Watch
+        href: ../../mobile-apple-watch.md
+      - name: สแกนบาร์โค้ดจากแอปบน iPhone ของคุณ
+        href: ../../mobile-apps-scan-barcode-iphone.md
+    - name: (iOS และ Android)
+      items:
+      - name: ใส่คำอธิบายประกอบ และแชร์ในแอปสำหรับอุปกรณ์เคลื่อนที่
+        href: ../../mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+    - name: แอป Power BI สำหรับอุปกรณ์ Windows 10
+      items:
+      - name: เริ่มใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
+        href: ../../mobile-windows-10-phone-app-get-started.md
+      - name: ปักหมุดกับแดชบอรที่หน้าจอเริ่มต้น
+        href: ../../mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+      - name: ดูรายงานมือถือของ Reporting Services และ KPI บนแอปสำหรับ Windows 10
+        href: ../../mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+      - name: ดู Power BI บน Surface Hub
+        href: ../../mobile-windows-10-app-presentation-mode.md
+  - name: ทรัพยากร
+    items:
+    - name: ภาษาที่สนับสนุนในแอปสำหรับอุปกรณ์เคลื่อนที่
+      href: ../../mobile-apps-supported-languages.md
+ms.openlocfilehash: bf5934cb6de5ee7c1252fbd871c02589dd377d58
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343610"

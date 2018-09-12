@@ -2,21 +2,21 @@
 title: ภาพรวมของการแสดงภาพรายงานในบริการของ Power BI และ Power BI Desktop
 description: ภาพรวมของการแสดงภาพรายงาน (วิชวล) ใน Microsoft Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f0e0dc02fc07849c68c00ce857da0ccbeb2d76df
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 03b981f6ac03bf23077458a29ea6f88b8feaa04e
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240198"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044290"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>การแสดงภาพในรายงาน Power BI
 การแสดงภาพ (หรือวิชวล) แสดงข้อมูลเชิงลึกค้นพบแล้วในข้อมูล รายงาน Power BI อาจมีหน้าเดียวกับหนึ่งวิชวล หรืออาจมีหลายหน้าที่เต็มไปด้วยวิชวล ในบริการของ Power BI วิชวลสามารถ[ถูกปักหมุดจากรายงานไปยังแดชบอร์ด](service-dashboard-pin-tile-from-report.md)ได้ 
@@ -25,7 +25,7 @@ ms.locfileid: "34240198"
 
 มีชนิดของวิชวลต่าง ๆ มากมาย จากบานหน้าต่าง การจัดรูปแบบการแสดงข้อมูล BI Power 
 
-![](media/power-bi-report-visualizations/power-bi-visualizations.png)
+![](media/power-bi-report-visualizations/power-bi-templates.png)
 
 และสำหรับตัวเลือกเพิ่มเติมยิ่งขึ้นไปอีก โปรดไป[ไซต์ชุมชน Microsoft AppSource](https://appsource.microsoft.com) เพื่อค้นหา และดาวน์โหลด[วิชวลแบบกำหนดเอง](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1)จาก Microsoft และชุมชน    
 
@@ -48,8 +48,3 @@ ms.locfileid: "34240198"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-[รายงานใน Power BI](service-reports.md)  
-[แดชบอร์ดใน Power BI](service-dashboards.md)  
-[Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)  
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
-

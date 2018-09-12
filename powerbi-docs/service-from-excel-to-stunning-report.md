@@ -2,20 +2,20 @@
 title: จากสมุดงาน Excel สู่รายงานอันน่าตื่นตาตื่นใจเพียงครู่เดียว
 description: จากสมุดงาน Excel สู่รายงานอันน่าตื่นตาตื่นใจเพียงครู่เดียว
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: f24d4055bd5fcf5fdee058112c268a1a0e197012
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3244a185c7b7e9caa689ab7b90c184c9bf5b4662
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247183"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044428"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>จากสมุดงาน Excel สู่รายงานอันน่าตื่นตาตื่นใจเพียงครู่เดียว
 ผู้จัดการต้องการดูรายงานตัวเลขยอดขายของคุณที่รวมข้อมูลที่น่าประทับใจจากแคมเปญล่าสุดภายในวันนี้ แต่ข้อมูลล่าสุดอยู่ในระบบของบุคคลที่สามต่าง ๆ และบนไฟล์ในคอมพิวเตอร์โน๊ตบุ๊คของคุณ ในอดีตต้องใช้เวลาหลายชั่วโมงในการสร้างภาพและจัดรูปแบบรายงาน คุณเริ่มรู้สึกตื่นตระหนก
@@ -34,7 +34,7 @@ ms.locfileid: "34247183"
 ![ข้อมูลที่จัดรูปแบบเป็นตาราง](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-into-power-bi"></a>อัปโหลดไฟล์ Excel ของคุณไปยัง Power BI
-Power BI เชื่อมต่อกับแหล่งข้อมูลจำนวนมาก รวมถึงไฟล์ Excel ที่อยู่บนคอมพิวเตอร์ของคุณ ลงชื่อเข้า Power BI เพื่อเริ่มใช้งาน หากคุณยังไม่ได้ลงทะเบียน[คุณสามารถทำได้โดยไม่มีค่าใช้จ่าย](https://powerbi.com)
+Power BI เชื่อมต่อกับแหล่งข้อมูลจำนวนมาก รวมถึงไฟล์ Excel ที่อยู่บนคอมพิวเตอร์ของคุณ ลงชื่อเข้าบริการ Power BI เพื่อเริ่มใช้งาน หากคุณยังไม่ได้ลงทะเบียน[คุณสามารถทำได้โดยไม่มีค่าใช้จ่าย](https://powerbi.com)
 
 คุณต้องการสร้างแดชบอร์ดใหม่ เปิด**พื้นที่ทำงานของฉัน**และเลือกไอคอน **+ สร้าง**
 

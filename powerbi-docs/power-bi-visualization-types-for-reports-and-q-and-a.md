@@ -2,20 +2,20 @@
 title: ชนิดการแสดงภาพใน Power BI
 description: ชนิดการแสดงภาพใน Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bc1c54be2fdafeba4c706ca637ce50da7bf9d48c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4a98e62145c7928af9d33a5cd08c17e1867eef28
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246457"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168123"
 ---
 # <a name="visualization-types-in-power-bi"></a>ชนิดการแสดงภาพใน Power BI
 ## <a name="power-bi-visualizations"></a>การแสดงภาพ Power BI
@@ -122,6 +122,14 @@ ms.locfileid: "34246457"
 
 ### <a name="pie-charts"></a>แผนภูมิวงกลม
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+
+### <a name="ribbon-charts"></a>แผนภูมิ Ribbon
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
+
+>[!TIP]
+>กำหนดว่าข้อมูลประเภทไหนมีอันดับสูงสุด
+
+สำหรับข้อมูลเพิ่มเติม ดู[การใช้แผนภูมิ Ribbon ใน Power BI](desktop-ribbon-charts.md)
 
 ### <a name="scatter-and-bubble-charts"></a>แผนภูมิกระจายและแผนภูมิฟอง
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)

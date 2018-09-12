@@ -2,21 +2,21 @@
 title: แสดงแดชบอร์ด ไทล์ หน้ารายงาน และการแสดงภาพในโหมดเต็มหน้าจอ
 description: แสดงแดชบอร์ด แดชบอร์ดไทล์่ ภาพรายงาน และหน้ารายงานแบบเต็มหน้าจอโหมด หรือ*โหมดโทรทัศน์*
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7b84b473f64b4ee2d37a3a39de9976f2cf147059
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244122"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044336"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>โหมดเต็มหน้าจอในบริการ Power BI
 ## <a name="what-is-full-screen-mode"></a>โหมดเต็มหน้าจอคืออะไร
@@ -24,7 +24,7 @@ ms.locfileid: "34244122"
 
 แสดงเนื้อหา Power BI ของคุณ (แดชบอร์ด หน้ารายงาน ไทล์ และการแสดงภาพ) โดยปราศจากการรบกวนของเมนูและแถบนำทาง  คุณสามารถดูในมุมมองไม่เปลี่ยนได้แบบเต็มรูปแบบเนื้อหาของคุณได้อย่างรวดเร็ว ตลอดเวลา ซึ่งในบางครั้งจะเรียกว่าโหมดโทรทัศน์ ฟังก์ชันที่พร้อมใช้งานในโหมดเต็มหน้าจอแตกต่างกันไปตามเนื้อหา 
 
-ถ้าคุณกำลังใช้ Power BI บนมือถือ [หน้าจอแบบเต็มพร้อมใช้งานสำหรับแอป Windows 10 สำหรับอุปกรณ์เคลื่อนที่](mobile-windows-10-app-presentation-mode.md) Power BI Desktop ไม่มีโหมดเต็มหน้าจอสำหรับรายงานหรือการแสดงภาพ แต่มีพอดีกับหน้าสำหรับ [มุมมองความสัมพันธ์](desktop-report-view.md) และ [โหมดโฟกัสสำหรับภาพรายงาน](service-focus-mode.md)
+ถ้าคุณกำลังใช้ Power BI บนมือถือ [หน้าจอแบบเต็มพร้อมใช้งานสำหรับแอป Windows 10 สำหรับอุปกรณ์เคลื่อนที่](mobile-windows-10-app-presentation-mode.md) Power BI Desktop ไม่มีโหมดเต็มหน้าจอสำหรับรายงานหรือการแสดงภาพ แต่มีพอดีกับหน้าสำหรับ [มุมมองความสัมพันธ์และมุมมองรายงาน](desktop-report-view.md) และ [โหมดโฟกัสสำหรับภาพรายงาน](service-focus-mode.md)
 
  
 
@@ -44,7 +44,7 @@ ms.locfileid: "34244122"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="dashboards-and-report-pages-in-full-screen-mode"></a>แดชบอร์ดและหน้ารายงานในโหมดเต็มหน้าจอ
-1. จากแถบเมนู Power BI ด้านบนแดชบอร์ดหรือรายงานของคุณ ให้เลือก**เต็มหน้าจอ**ไอคอน![ไอคอนเต็มหน้าจอ](media/service-fullscreen-mode/power-bi-full-screen-icon.png) พื้นที่แดชบอร์ดหรือหน้ารายงานของคุณเป็นแบบเต็มหน้าจอ ตัวอย่างด้านล่างเป็นแดชบอร์ด
+1. จากแถบเมนูบริการ Power BI ด้านบนแดชบอร์ดหรือรายงานของคุณ ให้เลือก**เต็มหน้าจอ**ไอคอน![ไอคอนเต็มหน้าจอ](media/service-fullscreen-mode/power-bi-full-screen-icon.png) พื้นที่แดชบอร์ดหรือหน้ารายงานของคุณเป็นแบบเต็มหน้าจอ ตัวอย่างด้านล่างเป็นแดชบอร์ด
    
       ![แดชบอร์ดแสดงเต็มหน้าจอ](media/service-fullscreen-mode/power-bi-dash-full-screen.png)
 2. ในโหมดเต็มหน้าจอ คุณมีหลายตัวเลือกเมนู  เพื่อแสดงเมนู เพียงย้ายเมาส์หรือเคอร์เซอร์ของคุณ 

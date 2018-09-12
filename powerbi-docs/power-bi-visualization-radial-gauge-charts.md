@@ -2,21 +2,21 @@
 title: แผนภูมิหน้าปัดความเร็วใน Power BI
 description: แผนภูมิหน้าปัดความเร็วใน Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7417b324a74dcc4aecd599c73fed0298de3e6a89
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8cb3dba371b555dc7d9a7bc6d1e27aac82a57fef
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292535"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168008"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>แผนภูมิหน้าปัดความเร็วใน Power BI
 แผนภูมิหน้าปัดความเร็วมีโค้งวงกลม และแสดงเป็นค่าเดียวที่วัดความคืบหน้าตามเพื่อไปสู่เป้าหมาย/KPI  เป้าหมาย หรือค่าเป้าหมาย ถูกแสดงทีละบรรทัด (needle) ความคืบสู่เป้าหมายที่ถูกแสดงด้วยการแรเงา  และค่าที่แสดงว่าความคืบหน้าจะแสดงในเป็นหนาภายในส่วนโค้ง ค่าที่เป็นไปได้ทั้งหมดจะกระจายเท่าๆ กันตามส่วนโค้ง จากค่าต่ำสุด (ค่าซ้ายสุด) ไปสู่ค่าสูงสุด (ค่าขวาสุด)
@@ -56,22 +56,22 @@ ms.locfileid: "34292535"
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>ขั้นตอนที่ 2 สร้างตัววัดแบบหน้าปัดความเร็วเพื่อติดตามยอดขายรวม
 1. ในบานหน้าต่าง**เขตข้อมูล** ให้เลือก**ยอดขายรวม**
    
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
-2. เปลี่ยนการรวมข้อมูลเป็น**หาค่าเฉลี่ย**
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gross-sales.png)
+2. เปลี่ยนการรวมข้อมูลเป็น**หาค่าเฉลี่ย** ในเขตข้อมูล**ค่า** เลือกรายการแบบหล่นลง และเลือก**เฉลี่ย**
    
    ![](media/power-bi-visualization-radial-gauge-charts/changetoaverage_new.png)
 3. เลือกไอคอนตัววัดแบบหน้าปัดความเร็ว![](media/power-bi-visualization-radial-gauge-charts/gaugeicon_new.png)เพื่อแปลงแผนภูมิคอลัมน์เป็นตัววัด
    
-   ตามค่าเริ่มต้น Power BI สร้างแผนภูมหน้าปัดความเร็วที่ค่าปัจจุบัน (ในกรณีนี้คือค่าเฉลี่ยของผลรวมขาย) จะถือว่าเป็นจุดกลิ่งกลางของหน้าปัด เนื่องจากยอดขายรวมค่าเฉลี่ยคือ $182.76K ค่าเริ่มต้น (ต่ำสุด) ถูกตั้งค่าเป็น 0 และค่าสิ้นสุด (สูงสุด) ถูกตั้งค่าเป็นคู่ค่าปัจจุบัน
+   ตามค่าเริ่มต้น Power BI สร้างแผนภูมหน้าปัดความเร็วที่ค่าปัจจุบัน (ในกรณีนี้คือค่าเฉลี่ยของผลรวมขาย) จะถือว่าเป็นจุดกลิ่งกลางของหน้าปัด เนื่องจากยอดขายรวมค่าเฉลี่ยคือ $184.21K ค่าเริ่มต้น (ต่ำสุด) ถูกตั้งค่าเป็น 0 และค่าสิ้นสุด (สูงสุด) ถูกตั้งค่าเป็นคู่ค่าปัจจุบัน
    
-   ![](media/power-bi-visualization-radial-gauge-charts/gauge_no_target.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-184.png)
 
 ### <a name="step-3-set-a-target-value"></a>ขั้นตอนที่ 3: ตั้งค่าเป้าหมาย
 1. ลาก**COGS**ไป**ค่าเป้าหมาย**
 2. เปลี่ยนการรวมข้อมูลเป็น**หาค่าเฉลี่ย**
-   Power BI เพิ่มเข็มเพื่อแสดงค่าเป้าหมาย **$145.48K**ของเรา โปรดสังเกตว่าเราได้เกินเป้าหมายของเราแล้ว
+   Power BI เพิ่มเข็มเพื่อแสดงค่าเป้าหมาย **$146K**ของเรา โปรดสังเกตว่าเราได้เกินเป้าหมายของเราแล้ว
    
-   ![](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress_new.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-cogs.png)
    
    > [!NOTE]
    > คุณสามารถใส่ค่าเป้าหมายด้วยตนเอง  ดู "ใช้ตัวเลือกของการจัดรูปแบบเพื่อตั้งค่าต่ำสุด สูงสุด และค่าเป้าหมาย" ตามด้านล่าง
@@ -98,7 +98,7 @@ ms.locfileid: "34292535"
 1. ลาก**ยอดขายรวมมากที่สุด**จาก**ค่าสูงสุด**
 2. เปิดบานหน้าต่างจัดรูปแบบโดยเลือกไอคอนแปรงลูกกลิ้ง
    
-   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-roller.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/power-bi-max.png)
 3. ขยาย**แกนตัววัด**และใส่ค่า**Min**และ**Max**
    
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-axis.png)
@@ -113,9 +113,7 @@ ms.locfileid: "34292535"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[เพิ่มการแสดงภาพลงในรายงาน](power-bi-report-add-visualizations-i.md)
-
-[ปักหมุดการแสดงถาพไว้กับแดชบอร์ด](service-dashboard-pin-tile-from-report.md)
+[ปักหมุดการแสดงภาพไปยังแดชบอร์ด](service-dashboard-pin-tile-from-report.md)
 
 [ Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)
 

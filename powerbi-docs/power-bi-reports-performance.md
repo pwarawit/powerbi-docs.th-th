@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 08ead2570602538218085327c6d385c36e0d7e8c
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256964"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343334"
 ---
 # <a name="power-bi-performance-best-practices"></a>แนวทางปฏิบัติที่ดีที่สุดเพื่อประสิทธิภาพการทำงานของ Power BI 
 บทความนี้มีคำแนะนำสำหรับการสร้างรายงานอย่างรวดเร็ว และเชื่อถือได้ใน Power BI  
@@ -59,7 +59,7 @@ ms.locfileid: "40256964"
 - ผลักให้คอลัมน์จากการคำนวณและหน่วยวัด เข้าใกล้แหล่งข้อมูลเท่าที่ทำได้ – ยิ่งอยู่ใกล้แหล่งข้อมูล ประสิทธิภาพน่าจะยิ่งสูงขึ้นด้วย 
 - ปรับให้เหมาะสม! ทำความเข้าใจการทำงานของคิวรีคุณ เพิ่มดัชนีสำหรับคอลัมน์ที่ถูกกรองบ่อย ฯลฯ 
 
-### <a name="modelling-guidance"></a>คำแนะนำในการจัดรูปแบบข้อมูล 
+### <a name="modeling-guidance"></a>แนวทางการสร้างแบบจำลอง 
 - เริ่มต้นใน Power BI Desktop 
 - หลีกเลี่ยงคิวรีที่ซับซ้อนในตัวแก้ไขคิวรี 
 - ไม่ใช้การกรองวันที่แบบสัมพัทธ์ในตัวแก้ไขคิวรี  
@@ -110,7 +110,7 @@ ms.locfileid: "40256964"
 
    ผลลัพธ์ควรเป็นรายการของแอปพลิเคชันและพอร์ตที่เปิด ตัวอย่างเช่น:  
 
-   TCP    [::1]:55786            [::1]:55830            ESTABLISHED 
+   `TCP    [::1]:55786            [::1]:55830            ESTABLISHED`
 
    [msmdsrv.exe] 
 

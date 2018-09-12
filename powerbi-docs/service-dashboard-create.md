@@ -1,5 +1,5 @@
 ---
-title: สร้างแดชบอร์ด Power BI จากรายงาน
+title: สร้างแดชบอร์ดบริการ Power BI จากรายงาน
 description: สร้างแดชบอร์ด Power BI จากรายงาน
 author: mihart
 manager: kfile
@@ -8,16 +8,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 09/02/2018
 ms.author: mihart
-ms.openlocfilehash: 56a26b50f50dd52d4355cd8326ec0d104dab19c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a550aabb3590018666a3784e602ede15696862e5
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248941"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168100"
 ---
-# <a name="create-a-power-bi-dashboard-from-a-report"></a>สร้างแดชบอร์ด Power BI จากรายงาน
+# <a name="create-a-power-bi-dashboard-in-power-bi-service"></a>สร้างแดชบอร์ด Power BI ในบริการ Power BI
 คุณได้อ่าน[แดชบอร์ดใน Power BI](service-dashboards.md)และตอนนี้ คุณต้องการสร้างของคุณเอง มีหลายวิธีในการสร้างแดชบอร์ด สามารถสร้างจากรายงานโดยสร้างตั้งแต่เริ่มต้น จากชุดข้อมูลโดยการทำซ้ำแดชบอร์ดที่มีอยู่แล้ว และอื่น ๆ อีกมาก  
 
 ในช่วงแรกที่คุณเริ่มอาจดูยุ่งยากมาก ดังนั้นเราจะเริ่มต้นโดยการสร้างแดชบอร์ดง่าย ๆ และรวดเร็วโดยการปักหมุดการแสดงภาพจากรายงานที่มีการทำขึ้นแล้ว เมื่อคุณดำเนินการในขั้น Quickstart นี้เสร็จเรียบร้อยแล้ว คุณจะเข้าใจอย่างดีในความสัมพันธ์ระหว่างแดชบอร์ดและรายงาน การเปิดมุมมองการแก้ไขในตัวแก้ไขแบบรายงาน การปักหมุดไทล์ และการเคลื่อนไปมาระหว่างแดชบอร์ดและรายงาน ใช้ลิงค์ในสารบัญที่อยู่ทางด้านซ้ายหรือ**ขั้นตอนถัดไป**ที่ด้านล่างเพื่อเลื่อนไปยังหัวข้อขั้นสูงกว่า
