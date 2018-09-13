@@ -535,6 +535,8 @@ items:
     items:
     - name: มีอะไรใหม่ในการอัปเดต Power BI Desktop ล่าสุด
       href: desktop-latest-update.md
+    - name: การรวมข้อมูลใน Power BI Desktop (ตัวอย่าง)
+      href: desktop-aggregations.md
     - name: โมเดลแบบรวมใน Power BI Desktop (ตัวอย่าง)
       href: desktop-composite-models.md
     - name: ความสัมพันธ์แบบกลุ่ม-ต่อ-กลุ่มใน Power BI Desktop (ตัวอย่าง)
@@ -601,6 +603,8 @@ items:
         href: desktop-import-excel-workbooks.md
       - name: เชื่อมต่อกับข้อมูลโดยใช้อินเทอร์เฟสทั่วไป
         href: desktop-connect-using-generic-interfaces.md
+      - name: เชื่อมต่อกับไฟล์ PDF
+        href: desktop-connect-pdf.md
       - name: เชื่อมต่อกับ Adobe Analytics
         href: desktop-connect-adobe-analytics.md
       - name: เชื่อมต่อกับฐานข้อมูล Oracle
@@ -683,6 +687,8 @@ items:
       items:
       - name: องค์ประกอบภาพสำหรับรายงาน
         href: desktop-visual-elements-for-reports.md
+      - name: สร้างคำแนะนำเครื่องมือตามหน้ารายงาน
+        href: desktop-tooltips.md
       - name: ส่งออกเป็น PDF และพิมพ์รายงาน
         href: desktop-export-to-pdf.md
       - name: การถามตอบใน Power BI Desktop
@@ -1346,9 +1352,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Power BI สำหรับ Office 365 จะเปลี่ยนไปสู่ Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: 55614628ef823534357fa7e1700e21417e821ca6
-ms.sourcegitcommit: 37bb070a71a658cba7ed421feef65015e8b515ae
+ms.openlocfilehash: 7058954c3269da6f3802454c439671989bdcb52e
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "43821742"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512213"
