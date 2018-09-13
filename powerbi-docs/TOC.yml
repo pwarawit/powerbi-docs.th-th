@@ -68,7 +68,7 @@ items:
       - name: ตัวแก้ไขรายงาน... ชมการแนะนำ
         href: service-the-report-editor-take-a-tour.md
       - name: การแสดงข้อมูลใน Power BI
-        href: power-bi-report-visualizations.md
+        href: visuals/power-bi-report-visualizations.md
       - name: แหล่งข้อมูลสำหรับ Power BI
         href: service-get-data.md
       - name: การเปิดใช้งานรุ่นทดลองใช้ Pro ถูกขยายเวลา
@@ -300,7 +300,7 @@ items:
         - name: สร้างคำถามที่น่าสนใจสำหรับ Power BI Q&A
           href: service-q-and-a-create-featured-questions.md
         - name: ชนิดการแสดงภาพใน Power BI
-          href: power-bi-visualization-types-for-reports-and-q-and-a.md
+          href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
         - name: ทำงานกับรูปแบบภาษาใน Power BI Desktop
           href: power-bi-q-and-a-linguistic-schema.md
       - name: แชร์งานของคุณ
@@ -392,7 +392,7 @@ items:
         - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับการสร้างรายงานอย่างรวดเร็ว และเชื่อถือได้ใน Power BI
           href: power-bi-reports-performance.md
         - name: โต้ตอบกับ ArcGIS maps ใน Power BI
-          href: power-bi-visualizations-arcgis.md
+          href: visuals/power-bi-visualizations-arcgis.md
       - name: ข้อมูลจากไฟล์
         items:
         - name: จากสมุดงาน Excel สู่รายงานอันน่าตื่นตาตื่นใจเพียงครู่เดียว
@@ -580,15 +580,15 @@ items:
     - name: การแสดงผลด้วยภาพแบบกำหนดเองสำหรับองค์กรใน Power BI
       href: power-bi-custom-visuals-organization.md
     - name: ส่วนที่ 1 เพิ่มการแสดงภาพไปยังรายงาน Power BI
-      href: power-bi-report-add-visualizations-i.md
+      href: visuals/power-bi-report-add-visualizations-i.md
     - name: ส่วนที่ 2 เพิ่มภาพไปยังรายงาน Power BI
-      href: power-bi-report-add-visualizations-ii.md
+      href: visuals/power-bi-report-add-visualizations-ii.md
     - name: แผนภูมิพื้นที่พื้นฐาน
-      href: power-bi-visualization-basic-area-chart.md
+      href: visuals/power-bi-visualization-basic-area-chart.md
     - name: แผนภูมิผสมใน Power BI
-      href: power-bi-visualization-combo-chart.md
+      href: visuals/power-bi-visualization-combo-chart.md
     - name: กำหนดชื่อภาพ พื้นหลัง และคำอธิบายแผนภูมิ
-      href: power-bi-visualization-customize-title-background-and-legend.md
+      href: visuals/power-bi-visualization-customize-title-background-and-legend.md
     - name: ArcGIS ใน Power BI
       href: power-bi-visualization-arcgis.md
     - name: เชื่อมต่อกับข้อมูล
@@ -664,7 +664,7 @@ items:
     - name: แปลงและทำข้อมูลให้เป็นรูปร่าง
       items:
       - name: ใช้แผนที่รูปร่างใน Power BI Desktop (ตัวอย่าง)
-        href: desktop-shape-map.md
+        href: visuals/desktop-shape-map.md
       - name: รวมไบนารี
         href: desktop-combine-binaries.md
     - name: จำลองแบบข้อมูลของคุณ
@@ -710,13 +710,13 @@ items:
       - name: ใช drillthrough
         href: desktop-drillthrough.md
       - name: ใช้ตัวแบ่งส่วนข้อมูลวันที่แบบสัมพัทธ์และตัวกรอง
-        href: desktop-slicer-filter-date-range.md
+        href: visuals/desktop-slicer-filter-date-range.md
       - name: ใช้การจัดกลุ่มและการใช้ช่องเก็บ
         href: desktop-grouping-and-binning.md
       - name: แผนภูมิ Ribbon
-        href: desktop-ribbon-charts.md
+        href: visuals/desktop-ribbon-charts.md
       - name: ใช้ภาพเมทริกซ์ใหม่
-        href: desktop-matrix-visual.md
+        href: visuals/desktop-matrix-visual.md
       - name: สร้างการแสดงผลด้วยภาพของ Power BI ที่ใช้ R
         href: desktop-r-visuals.md
       - name: ใช้เปิด R วิชวลแบบกำหนดเอง
@@ -732,7 +732,7 @@ items:
       - name: เพิ่มคอลัมน์แบบกำหนดเอง
         href: desktop-add-custom-column.md
       - name: สร้างภาพแบบตอบสนองใน Power BI
-        href: desktop-create-responsive-visuals.md
+        href: visuals/desktop-create-responsive-visuals.md
       - name: ใช้ป้ายชื่อลำดับชั้นแบบอินไลน์ใน Power BI Desktop (ตัวอย่าง)
         href: desktop-inline-hierarchy-labels.md
       - name: ใช้ตัวแบ่งส่วนข้อมูลช่วงตัวเลข
@@ -756,19 +756,19 @@ items:
     - name: การแสดงภาพ
       items:
       - name: แนวทางปฏิบัติที่ดีที่สุดของการแสดงข้อมูล
-        href: power-bi-visualization-best-practices.md
+        href: visuals/power-bi-visualization-best-practices.md
       - name: ดูข้อมูลที่ใช้เพื่อสร้างการแสดงผลด้วยภาพ
         href: service-reports-show-data.md
       - name: เปลี่ยนชนิดของการแสดงภาพในรายงาน Power BI
-        href: power-bi-report-change-visualization-type.md
+        href: visuals/power-bi-report-change-visualization-type.md
       - name: เริ่มใช้งานด้วยคุณสมบัติแกนและการจัดรูปแบบสี
-        href: service-getting-started-with-color-formatting-and-axis-properties.md
+        href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
       - name: เคล็ดลับและลูกเล่นในการจัดรูปแบบสีใน Power BI
-        href: service-tips-and-tricks-for-color-formatting.md
+        href: visuals/service-tips-and-tricks-for-color-formatting.md
       - name: คัดลอก และวางการแสดงภาพใน Power BI
-        href: power-bi-visualization-copy-paste.md
+        href: visuals/power-bi-visualization-copy-paste.md
       - name: ย้าย ปรับขนาด และเปิดหน้าต่างใหม่การแสดงข้อมูลในรายงาน Power BI
-        href: power-bi-visualization-move-and-resize.md
+        href: visuals/power-bi-visualization-move-and-resize.md
       - name: ดูรายละเอียดแนวลึกในการแสดงข้อมูลใน Power BI
         href: power-bi-visualization-drill-down.md
       - name: การเชื่อมโยงหลายมิติในตาราง
@@ -776,37 +776,37 @@ items:
       - name: เพิ่มการเชื่อมโยงหลายมิติไปยังกล่องข้อความในรายงาน Power BI
         href: service-add-hyperlink-to-text-box.md
       - name: ฮิสโทแกรม
-        href: service-histograms.md
+        href: visuals/service-histograms.md
       - name: เคล็ดลับและลูกเล่นในการแสดงข้อมูลแผนที่ Power BI
-        href: power-bi-map-tips-and-tricks.md
+        href: visuals/power-bi-map-tips-and-tricks.md
       - name: กล่องข้อความในรายงาน Power BI
         href: power-bi-reports-add-text-and-shapes.md
       - name: คุณสมบัติแกน x และแกน y ที่กำหนดด้วยตนเอง
-        href: power-bi-visualization-customize-x-axis-and-y-axis.md
+        href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
       - name: แผนภูมิโดนัทใน Power BI
-        href: power-bi-visualization-doughnut-charts.md
+        href: visuals/power-bi-visualization-doughnut-charts.md
       - name: แผนที่แถบสี (Choropleths) ใน Power BI
-        href: power-bi-visualization-filled-maps-choropleths.md
+        href: visuals/power-bi-visualization-filled-maps-choropleths.md
       - name: แผนภูมิกรวยใน Power BI
-        href: power-bi-visualization-funnel-charts.md
+        href: visuals/power-bi-visualization-funnel-charts.md
       - name: การแสดงผลด้วยภาพของ KPI
-        href: power-bi-visualization-kpi.md
+        href: visuals/power-bi-visualization-kpi.md
       - name: แผนภูมิหน้าปัดความเร็วใน Power BI
-        href: power-bi-visualization-radial-gauge-charts.md
+        href: visuals/power-bi-visualization-radial-gauge-charts.md
       - name: แผนภูมิกระจายใน Power BI
-        href: power-bi-visualization-scatter.md
+        href: visuals/power-bi-visualization-scatter.md
       - name: ตัวแบ่งส่วนข้อมูลใน Power BI
-        href: power-bi-visualization-slicers.md
+        href: visuals/power-bi-visualization-slicers.md
       - name: การทำงานกับตาราง
-        href: power-bi-visualization-tables.md
+        href: visuals/power-bi-visualization-tables.md
       - name: ทรีแมปใน Power BI
-        href: power-bi-visualization-treemaps.md
+        href: visuals/power-bi-visualization-treemaps.md
       - name: แผนภูมิแบบน้ำตกใน Power BI
-        href: power-bi-visualization-waterfall-charts.md
+        href: visuals/power-bi-visualization-waterfall-charts.md
       - name: การ์ด (ไทล์ตัวเลขขนาดใหญ่) ใน Power BI
-        href: power-bi-visualization-card.md
+        href: visuals/power-bi-visualization-card.md
       - name: สร้างการวิเคราะห์ขั้นสูงและแสดงข้อมูลโดยใช้สคริปต์ R ใน Power BI
-        href: service-r-visuals.md
+        href: visuals/service-r-visuals.md
     - name: การแก้ไขปัญหา
       items:
       - name: แก้ไขปัญหาการนำเข้าฐานข้อมูล Access และสเปรดชีต Excel ใน Power BI Desktop และ Power Query
@@ -838,93 +838,93 @@ items:
   - name: ภาพรวม
     items:
     - name: แอปสำหรับอุปกรณ์เคลื่อนคืออะไร
-      href: mobile-apps-for-mobile-devices.md
+      href: consumer/mobile/mobile-apps-for-mobile-devices.md
   - name: การเริ่มต้นใช้งานด่วน
     items:
     - name: สำรวจแดชบอร์ดและรายงาน
-      href: mobile-apps-quickstart-view-dashboard-report.md
+      href: consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md
   - name: บทช่วยสอน
     items:
     - name: ถามคำถามใน iOS แอปสำหรับอุปกรณ์เคลื่อน
-      href: tutorial-mobile-apps-ios-qna.md
+      href: consumer/mobile/tutorial-mobile-apps-ios-qna.md
   - name: แนวคิด
     items:
     - name: มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่
-      href: mobile-whats-new-in-the-mobile-apps.md
+      href: consumer/mobile/mobile-whats-new-in-the-mobile-apps.md
     - name: รับข้อมูลตามโลกความจริงด้วยแอปสำหรับโทรศัพท์เคลื่อนที่
-      href: mobile-apps-data-in-real-world-context.md
+      href: consumer/mobile/mobile-apps-data-in-real-world-context.md
     - name: ดูข้อมูลของคุณแบบออฟไลน์ในแอปสำหรับอุปกรณ์เคลื่อนที่
-      href: mobile-apps-offline-data.md
+      href: consumer/mobile/mobile-apps-offline-data.md
     - name: Power BI สำหรับแอปความเป็นจริงผสม (แสดงตัวอย่าง)
-      href: mobile-mixed-reality-app.md
+      href: consumer/mobile/mobile-mixed-reality-app.md
   - name: วิธีการ
     items:
     - name: แอปทั้งหมดสำหรับอุปกรณ์เคลื่อนที่
       items:
       - name: ดูรายงานในสถานทีสำหรับอุปกรณ์เคลื่อนที่
-        href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+        href: consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
       - name: แชร์แดชบอร์ดจากแอป Power BI mobile
-        href: mobile-share-dashboard-from-the-mobile-apps.md
+        href: consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md
       - name: โต้ตอบกับไทล์ในแอปสำหรับอุปกรณ์เคลื่อนที่
-        href: mobile-tiles-in-the-mobile-apps.md
+        href: consumer/mobile/mobile-tiles-in-the-mobile-apps.md
       - name: รายการโปรดในแอปสำหรับอุปกรณ์เคลื่อนที่
-        href: mobile-apps-favorites.md
+        href: consumer/mobile/mobile-apps-favorites.md
       - name: ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
-        href: mobile-set-data-alerts-in-the-mobile-apps.md
+        href: consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md
       - name: รับการแจ้งเตือนในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
-        href: mobile-apps-notification-center.md
+        href: consumer/mobile/mobile-apps-notification-center.md
       - name: สร้างการเชื่อมโยงโดยตรงที่จะไปยังตำแหน่งที่ระบุ
-        href: mobile-apps-deep-link-specific-location.md
+        href: consumer/mobile/mobile-apps-deep-link-specific-location.md
       - name: กรองรายงานตามตำแหน่งที่ตั้งในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
-        href: mobile-apps-geographic-filtering.md
+        href: consumer/mobile/mobile-apps-geographic-filtering.md
       - name: สแกนคิวอาร์โค้ด Power BI จากโทรศัพท์ของคุณ
-        href: mobile-apps-qr-code.md
+        href: consumer/mobile/mobile-apps-qr-code.md
       - name: แดชบอร์ดสำหรับ Power BI สำหรับอุปกรณ์เคลื่อน
-        href: mobile-apps-view-dashboard.md
+        href: consumer/mobile/mobile-apps-view-dashboard.md
       - name: ดูรายงานที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ
-        href: mobile-apps-view-phone-report.md
+        href: consumer/mobile/mobile-apps-view-phone-report.md
       - name: รายงานในแอปสำหรับอุปกรณ์เคลื่อนที่
-        href: mobile-reports-in-the-mobile-apps.md
+        href: consumer/mobile/mobile-reports-in-the-mobile-apps.md
       - name: ใช้ OAuth เพื่อเชื่อมต่อกับ Reporting Services
-        href: mobile-oauth-ssrs.md
+        href: consumer/mobile/mobile-oauth-ssrs.md
       - name: กำหนดค่าแอปสำหรับอุปกรณ์เคลื่อนที่ด้วย Intune
         href: service-admin-mobile-intune.md
     - name: อุปกรณ์ Android
       items:
       - name: เริ่มต้นใช้งานแอป Android
-        href: mobile-android-app-get-started.md
+        href: consumer/mobile/mobile-android-app-get-started.md
       - name: กำลังแก้ไข 'ใบรับรอง SSL ขององค์กรของคุณไม่น่าเชื่อถือ'
-        href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+        href: consumer/mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
       - name: 'ข้อผิดพลาด: "จำเป็นต้องอัปเดต Android System Webview"'
-        href: mobile-android-error-update-android-system-webview.md
+        href: consumer/mobile/mobile-android-error-update-android-system-webview.md
     - name: iOS
       items:
       - name: เริ่มต้นใช้งานแอป iOS
-        href: mobile-iphone-app-get-started.md
+        href: consumer/mobile/mobile-iphone-app-get-started.md
       - name: Q&A นักวิเคราะห์เสมือนจริงในแอปสำหรับอุปกรณ์เคลื่อนของ iOS
-        href: mobile-apps-ios-qna.md
+        href: consumer/mobile/mobile-apps-ios-qna.md
       - name: แอป Power BI Apple Watch
-        href: mobile-apple-watch.md
+        href: consumer/mobile/mobile-apple-watch.md
       - name: สแกนบาร์โค้ดจากแอปบน iPhone ของคุณ
-        href: mobile-apps-scan-barcode-iphone.md
+        href: consumer/mobile/mobile-apps-scan-barcode-iphone.md
     - name: (iOS และ Android)
       items:
       - name: ใส่คำอธิบายประกอบ และแชร์ในแอปสำหรับอุปกรณ์เคลื่อนที่
-        href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+        href: consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
     - name: แอป Power BI สำหรับอุปกรณ์ Windows 10
       items:
       - name: เริ่มใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
-        href: mobile-windows-10-phone-app-get-started.md
+        href: consumer/mobile/mobile-windows-10-phone-app-get-started.md
       - name: ปักหมุดกับแดชบอรที่หน้าจอเริ่มต้น
-        href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+        href: consumer/mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
       - name: ดูรายงานมือถือของ Reporting Services และ KPI บนแอปสำหรับ Windows 10
-        href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+        href: consumer/mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
       - name: ดู Power BI บน Surface Hub
-        href: mobile-windows-10-app-presentation-mode.md
+        href: consumer/mobile/mobile-windows-10-app-presentation-mode.md
   - name: ทรัพยากร
     items:
     - name: ภาษาที่สนับสนุนในแอปสำหรับอุปกรณ์เคลื่อนที่
-      href: mobile-apps-supported-languages.md
+      href: consumer/mobile/mobile-apps-supported-languages.md
 - name: Power BI สำหรับนักพัฒนา
   items:
   - name: การวิเคราะห์ที่ฝังตัว
@@ -1352,9 +1352,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Power BI สำหรับ Office 365 จะเปลี่ยนไปสู่ Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: 7058954c3269da6f3802454c439671989bdcb52e
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: da2d6e5f1eb433434024e67dc314c159ea0ff818
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512213"
+ms.locfileid: "44728306"
