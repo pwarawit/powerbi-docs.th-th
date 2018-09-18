@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: c47722fda28fc45289858f082a0838f583b53dbb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 598b3e75aa134a5b5e2ee2a8c01316133b60fdac
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34296802"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727271"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
@@ -40,7 +40,7 @@ ms.locfileid: "34296802"
 | ข้อมูลเชิงลึกด่วน | ไม่ใช่ | ใช่ | [สร้างข้อมูลเชิงลึกโดยอัตโนมัติด้วย Power BI](../service-insights.md) 
 | วิเคราะห์ใน Excel | ไม่ใช่ | ใช่ | [วิเคราะห์ใน Excel](../service-analyze-in-excel.md) 
 | รายงานที่มีการแบ่งหน้า | ใช่ | ไม่ใช่ | รายงานที่มีการแบ่งหน้า ยังไม่มีในบริการของ Power BI แต่คุณสามารถ[ปักหมุดรายการในรายงานที่มีการแบ่งหน้า ไปยังแดชบอร์ด Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
-| แอป Power BI สำหรับอุปกรณ์เคลื่อนที่ | ใช่ | ใช่ | [ภาพรวมแอป Power BI สำหรับอุปกรณ์เคลื่อนที่](../mobile-apps-for-mobile-devices.md) 
+| แอป Power BI สำหรับอุปกรณ์เคลื่อนที่ | ใช่ | ใช่ | [ภาพรวมแอป Power BI สำหรับอุปกรณ์เคลื่อนที่](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | แผนที่ ArcGIS | ไม่ใช่ | ใช่ | [แผนที่ ArcGIS ในบริการของ Power BI และ Power BI Desktop ที่ให้บริการโดย Esri](../power-bi-visualization-arcgis.md)
 | การสมัครสมาชิกอีเมลสำหรับรายงาน Power BI | ไม่ใช่ | ใช่ | [การสมัครสมาชิกไปยังรายงานหรือแดชบอร์ด](../service-report-subscribe.md)ในบริการของ Power BI 
 | การสมัครสมาชิกอีเมลสำหรับรายงานที่มีการแบ่งหน้า | ใช่ | ไม่ใช่ | [การจัดส่งอีเมลใน Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
@@ -48,7 +48,7 @@ ms.locfileid: "34296802"
 | รักษาความปลอดภัยตามระดับแถว | ผ่านทางแหล่งข้อมูลในโหมด DirectQuery เท่านั้น | มีทั้งใน DirectQuery (แหล่งข้อมูล) และโหมดการนำเข้า | [รักษาความปลอดภัยระดับแถว (RLS)](../service-admin-rls.md) ด้วย Power BI 
 | โหมดเต็มหน้าจอ | ไม่ใช่ | ใช่ | [โหมดเต็มหน้าจอ](../service-fullscreen-mode.md)ในบริการของ Power BI 
 | ทำงานร่วมกับ Office 365 ขั้นสูง | ไม่ใช่ | ใช่ | [ทำงานร่วมกันในพื้นที่ทำงานแอป](../service-collaborate-power-bi-workspace.md)ด้วย Office 365 
-| วิชวล R | ไม่ใช่ | ใช่ | [สร้างวิชวล R](../service-r-visuals.md) ในบริการของ Power BI  
+| วิชวล R | ไม่ใช่ | ใช่ | [สร้างวิชวล R](../visuals/service-r-visuals.md) ในบริการของ Power BI  
 | แสดงตัวอย่างฟีเจอร์ | ไม่ใช่ | ใช่ | [ยินยอมเข้าร่วม สำหรับคุณลักษณะตัวอย่างในบริการของ Power BI](../service-preview-features.md) 
 | ภาพแบบกำหนดเอง | ใช่ | ใช่ | [วิชวลแบบกำหนดเองใน Power BI](../power-bi-custom-visuals.md) 
 | Power BI Desktop | เวอร์ชันที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน มีให้ดาวน์โหลดสำหรับเซิร์ฟเวอร์รายงาน | เวอร์ชันที่ปรับให้เหมาะสมสำหรับบริการของ Power BI มีที่ Windows Store | [Power BI Desktop สำหรับเซิร์ฟเวอร์รายงาน](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop สำหรับบริการของ Power BI](http://aka.ms/pbidesktopstore)

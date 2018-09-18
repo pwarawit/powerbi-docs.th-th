@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 585c1c854ed3e95cc176d34f442fec6416f23dcd
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623964"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726673"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>ฉันควรทำงานร่วมกัน และแชร์ใน Power BI ได้อย่างไร?
 
@@ -83,9 +83,9 @@ ms.locfileid: "39623964"
 
 คุณกำลังแชร์สแนปช็อตของไทล์ รายงาน หรือ วิชวล และผู้รับของคุณจะเห็นเหมือนกับตอนที่คุณส่งเมล เมลยังมีลิงก์ไปยังแดชบอร์ดหรือรายงาน ถ้าพวกเขามีสิทธิ์การใช้งาน Power BI Pro หรือเนื้อหาอยู่ใน[ความจุพรีเมียม](service-premium.md) และคุณได้แชร์วัตถุกับพวกเขาแล้ว พวกเขาสามารถเปิดดูได้ คุณสามารถส่งสแนปช็อตของไทล์ให้กับใครก็ได้ &#151; ไม่เพียงแต่ผู้ร่วมงานในโดเมนอีเมลเดียวกันเท่านั้น
 
-อ่านเพิ่มเติมเกี่ยวกับ[การใส่คำอธิบายประกอบ และการแชร์ไทล์ รายงาน และวิชวล](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)จากแอปสำหรับอุปกรณ์เคลื่อนที่ Android และ iOS
+อ่านเพิ่มเติมเกี่ยวกับ[การใส่คำอธิบายประกอบ และการแชร์ไทล์ รายงาน และวิชวล](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)จากแอปสำหรับอุปกรณ์เคลื่อนที่ Android และ iOS
 
-คุณยังสามารถ[แชร์สแนปช็อตของไทล์](mobile-windows-10-phone-app-get-started.md)จากแอป Power BI สำหรับอุปกรณ์ที่ Windows 10 ได้
+คุณยังสามารถ[แชร์สแนปช็อตของไทล์](consumer/mobile/mobile-windows-10-phone-app-get-started.md)จากแอป Power BI สำหรับอุปกรณ์ที่ Windows 10 ได้
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>พิมพ์ หรือบันทึกเป็น PDF หรือไฟล์แบบคงที่อื่น ๆ
 คุณสามารถพิมพ์ หรือบันทึกเป็น PDF (หรือรูปแบบไฟล์แบบคงที่อื่น ๆ) สำหรับทั้งแดชบอร์ด ไทล์แดชบอร์ด หน้ารายงาน หรือการแสดงภาพจากบริการของ Power BI รายงานสามารถพิมพ์ออกมาทีละหน้าในแต่ละครั้งเท่านั้น -- คุณไม่สามารถพิมพ์รายงานทั้งหมดในครั้งเดียว อ่านเพิ่มเติมเกี่ยวกับ[การพิมพ์ หรือการบันทึกเป็นไฟล์แบบคงที่](service-print.md)

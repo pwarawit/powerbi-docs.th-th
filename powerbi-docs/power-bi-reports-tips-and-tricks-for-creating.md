@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8305b9eab95e2b13f9104de6bcefe3f03a95d2f5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34254889"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726811"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>คำแนะนำและเคล็ดลับในการสร้างรายงานในบริการของ Power BI และ Power BI Desktop
 เพื่อให้ได้รับประโยชน์สูงสุดจากข้อมูลของคุณ บางครั้งคุณก็ต้องการความช่วยเหลือเพิ่มเติมเล็กน้อย เราได้รวบรวมคำแนะนำและเคล็ดลับบางประการที่คุณสามารถใช้ในการสร้างรายงานใน Microsoft Power BI Desktop*และ*ใน Microsoft Excel 2016 หรือ Excel 2013 รุ่น Pro-Plus ที่เปิดใช้งาน Power Pivot add-in แล้ว และติดตั้งรวมทั้งเปิดใช้งาน Power Query แล้ว
@@ -167,7 +167,7 @@ DAX คือ ภาษาสำหรับสูตรในการคำน
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>บริการของ Power BI *และ* Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportspower-bi-visualization-best-practicesmd"></a>อ่านเอกสารทางเทคนิค [หลักสำหรับการออกแบบรายงาน Power BI](power-bi-visualization-best-practices.md)
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>อ่านเอกสารทางเทคนิค [หลักสำหรับการออกแบบรายงาน Power BI](visuals/power-bi-visualization-best-practices.md)
 เอกสารนี้ให้แนวทางปฏิบัติที่ดีที่สุดสำหรับการออกแบบรายงานใน Power BI เริ่มต้นด้วยการวางแผน ซึ่งจะกล่าวถึงหลักของการออกแบบที่คุณสามารถนำไปใช้กับรายงานของคุณ รวมถึงหน้าและแต่ละรูปภาพที่ประกอบเป็นรายงานนั้น หลายแนวทางปฏิบัติที่ดีที่สุดเหล่านี้ใช้กับการออกแบบแดชบอร์ดได้เช่นกัน
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>อ่าน และ/หรือดู "วิธีการออกแบบรายงาน (และแดชบอร์ด)อันน่าทึ่ง ใน Power BI"
@@ -209,7 +209,7 @@ DAX คือ ภาษาสำหรับสูตรในการคำน
 * ให้ความสนใจกับวิธีการชำระเงิน[แผนภูมิจะถูกเรียงลำดับ](power-bi-report-change-sort.md)  ถ้าคุณต้องการดึงดูดความสนใจไปยังหมายเลขสูงสุดหรือต่ำสุด ให้เรียงลำดับตามหน่วยวัด  ถ้าคุณต้องการให้บุคคลสามารถค้นหาประเภทใดประเภทหนึ่งได้อย่างรวดเร็วภายในประเภทอื่นๆมากมาย ให้เรียงลำดับตามแกน  
 * แผนภูมิวงกลมนั้นดีที่สุดถ้าพวกมีน้อยกว่าแปดประเภท เนื่องจากคุณไม่สามารถเปรียบเทียบค่ากัน มันจึงยากที่จะเปรียบเทียบค่าในแผนภูมิวงกลมกว่าแผนภูมิแท่งและแผนภูมิคอลัมน์ แผนภูมิวงกลมนั้นเหมาะสำหรับการดูความสัมพันธ์จากส่วนย่อยไปส่วนทั้งหมด มากกว่าการเปรียบเทียบส่วนได้ แผนภูมหน้าปัดนั้นยอดเยี่ยมสำหรับการแสดงสถานะปัจจุบันในบริบทของเป้าหมาย    
 
-สำหรับคำแนะนำเพิ่มเติมของการแสดงภาพแบบเฉพาะ ให้ดู[ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)  
+สำหรับคำแนะนำเพิ่มเติมของการแสดงภาพแบบเฉพาะ ให้ดู[ชนิดการแสดงภาพใน Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)  
 
 ### <a name="learn-more-about-best-practice-dashboard-design"></a>เรียนรู้เพิ่มเติมเกี่ยวกับแนวทางปฏิบัติที่ดีที่สุดของการออกแบบแดชบอร์ด
 หนังสือที่เราชื่นชอบรวมถึง

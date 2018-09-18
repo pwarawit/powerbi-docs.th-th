@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 66222eb773d70afcfcf361fba49118363a670e7f
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 8bbfafcecb6876ea063bb6751ca31c25697dc185
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329373"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725868"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>ใช้ Drillthrough ใน Power BI Desktop
 ด้วย **Drillthrough** ใน **Power BI Desktop** คุณสามารถสร้างหน้าในรายงานของคุณ ที่มุ่งเน้นไปยังรายการที่ระบุ เช่น ผู้จัดหา ลูกค้า หรือผู้ผลิต ผู้ใช้สามารถคลิกขวาที่จุดข้อมูลในหน้ารายงานอื่นๆ แล้วเข้าถึงรายละเอียดในหน้ารายงานที่เน้นนั้น เพื่อดูรายละเอียดที่กรองตามบริบทดังกล่าว
@@ -79,5 +79,5 @@ ms.locfileid: "39329373"
 
 คุณอาจสนใจบทความต่อไปนี้:
 
-* [การใช้ตัวแบ่งส่วนข้อมูล Power BI Desktop](desktop-slicers.md)
+* [การใช้ตัวแบ่งส่วนข้อมูล Power BI Desktop](visuals/desktop-slicers.md)
 

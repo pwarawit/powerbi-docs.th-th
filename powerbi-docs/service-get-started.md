@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c4f710cd048fc2c2828f0386d23328c164bb3fb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 51c3fdbef345a0d6020abe35ba7c71aaa67882e4
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598678"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726857"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>บทช่วยสอน: เริ่มต้นใช้งานบริการ Power BI (app.powerbi.com)
 บทเรียนนี้ช่วยให้คุณเริ่มต้นใช้งาน***Power BI service***  สำหรับทำความเข้าใจว่า Power BI service เหมาะสมกับข้อเสนอ Power BI อื่นๆอย่างไร เราขอแนะนำให้ คุณเริ่มต้นด้วยการอ่าน[Power BI คืออะไร](power-bi-overview.md)
@@ -42,7 +42,7 @@ ms.locfileid: "37598678"
 
 ![ลงชื่อเข้าใช้ หรือลงทะเบียนฟรี](media/service-get-started/power-bi-sign-up.png)
 
-ถ้าคุณกำลังมองหาความช่วยเหลือเกี่ยวกับ Power BI Desktop ให้ดู[เริ่มต้นใช้งานเดสก์ท็อป](desktop-getting-started.md) ถ้าคุณกำลังมองหาความช่วยเหลือเกี่ยวกับ Power BI สำหรับอุปกรณ์เคลื่อน ให้ดู[แอป Power BI สำหรับอุปกรณ์เคลื่อนที่](mobile-apps-for-mobile-devices.md)
+ถ้าคุณกำลังมองหาความช่วยเหลือเกี่ยวกับ Power BI Desktop ให้ดู[เริ่มต้นใช้งานเดสก์ท็อป](desktop-getting-started.md) ถ้าคุณกำลังมองหาความช่วยเหลือเกี่ยวกับ Power BI สำหรับอุปกรณ์เคลื่อน ให้ดู[แอป Power BI สำหรับอุปกรณ์เคลื่อนที่](consumer/mobile/mobile-apps-for-mobile-devices.md)
 
 > [!TIP]
 > ต้องการหลักสูตรฝึกอบรมด้วยตนเองแบบฟรีแทนหรือไม่ [ลงทะเบียนในหลักสูตรการวิเคราะห์และแสดงข้อมูลบน EdX ของเรา](http://aka.ms/edxpbi)

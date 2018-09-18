@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2d8509c83ccce3d76926d926c64061ca78c100d
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: fc4d62134bccae1a1ac0fd10444dd47c84ecc945
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256181"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727041"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>แพ็คเกจ R ในบริการ Power BI
 คุณสามารถใช้[R ภาษาโปรแกรม](https://www.r-project.org/)ที่มีประสิทธิภาพเพื่อสร้างภาพในบริการ Power BI ได้ แพ็คเกจ R หลายแพ็กเกจได้รับการสนับสนุนในบริการ Power BI (และหลายแพ็คเกจจะได้รับการสนับสนุนตลอดเวลา) และบางแพ็กเกจจะไม่ได้รับการสนับสนุน
 
-ส่วนต่อไปนี้ให้ตารางที่มีตัวอักษรของแพ็คเกจ R ที่ได้รับการสนับสนุนใน Power BI และรายการที่ไม่ได้รับการสนับสนุน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ R ใน Power BI ให้ดู[ภาพ R](service-r-visuals.md)บทความ
+ส่วนต่อไปนี้ให้ตารางที่มีตัวอักษรของแพ็คเกจ R ที่ได้รับการสนับสนุนใน Power BI และรายการที่ไม่ได้รับการสนับสนุน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ R ใน Power BI ให้ดู[ภาพ R](visuals/service-r-visuals.md)บทความ
 
 ## <a name="request-support-for-a-new-r-package"></a>ขอรับการสนับสนุนสำหรับแพ็คเกจ R ใหม่
 แพ็คเกจ R รองรับการ**บริการ Power BI**ที่พบในส่วนต่อไปนี้ ชื่อว่า**แพ็คเกจที่ได้รับการสนับสนุน** ถ้าคุณต้องการขอรับการสนับสนุนให้แพ็คเกจ R ที่ไม่พบในรายการที่แสดงอยู่ คุณสามารถส่งอีเมลพร้อมคำขอของคุณมาที่[ทีมรับคำติชม ของแพ็คเกจ R ใน Power BI](mailto:rinpbifb@microsoft.com)ได้
@@ -940,7 +940,7 @@ ms.locfileid: "39256181"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ R ใน Power BI โปรดดูที่บทความต่อไปนี้:
 
-* [การสร้างภาพ R ในบริการ Power BI](service-r-visuals.md)
+* [การสร้างภาพ R ในบริการ Power BI](visuals/service-r-visuals.md)
 * [สร้างภาพ Power BI ที่ใช้ R](desktop-r-visuals.md)
 * [กำลังเรียกใช้สคริปต์ R ใน Power BI Desktop](desktop-r-scripts.md)
 * [ใช้ R ในตัวแก้ไขคิวรี](desktop-r-in-query-editor.md)

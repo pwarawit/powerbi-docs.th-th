@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8e31d3128e38453212a8a0ecef2a139fa2d0f356
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 565c43be3489c23f26a98f99ce2d70022be965d2
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250556"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728007"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>กำหนดค่าแอปฯมือถือโดยใช้ Microsoft Intune
 Microsoft Intune ช่วยให้องค์กรต่าง ๆ สามารถจัดการอุปกรณ์ต่าง ๆ และแอปพลิเคชันได้ ในแอปพลิเคชันมือถือ Power BI สำหรับ iOS และ Android รวมกับ Intune เพื่อให้คุณจัดการแอปพลิเคชันนี้บนอุปกรณ์ของคุณได้ และเพื่อควบคุมการรักษาความปลอดภัย ด้วยนโยบายการกำหนดค่า คุณสามารถควบคุมรายการ เช่น การบังคับใช้ PIN เพื่อเข้าใช้งาน การควบคุมวิธีจัดการกับข้อมูลโดยแอปพลิเคชัน หรือแม้แต่การเข้ารหัสลับข้อมูลแอปพลิเคชันเมื่อไม่ได้ใช้งาน
@@ -163,7 +163,7 @@ Microsoft Intune สามารถมีร่วมกับการจัด
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [กำหนดค่าและปรับใช้นโยบายการจัดการแอปพลิเคชันมือถือในคอนโซล Microsoft Intune](https://technet.microsoft.com/library/dn878026.aspx)  
-[แอปฯ Power BI สำหรับอุปกรณ์เคลื่อนที่](mobile-apps-for-mobile-devices.md)  
+[แอปฯ Power BI สำหรับอุปกรณ์เคลื่อนที่](consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

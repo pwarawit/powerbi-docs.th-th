@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: ed8a0990c9da2da877c32a0ef44c676f91e0f493
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 80d2039b2cfcac2f2c3db9c6f656561b670aa341
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291408"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727501"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>ตั้งค่าตัวกรองทางภูมิศาสตร์ใน Power BI Desktop สำหรับแอปบนอุปกรณ์เคลื่อนที่
 ใน Power BI Desktop คุณสามารถ[จัดประเภทข้อมูลทางภูมิศาสตร์](desktop-data-categorization.md)สำหรับคอลัมน์ เพื่อให้ Power BI Desktop ทราบว่าควรทำอย่างไรกับค่าในวิชวลในรายงานได้ ประโยชน์เพิ่มเติมคือ เมื่อคุณหรือเพื่อนร่วมงานของคุณดูรายงานนั้นในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ Power BI ใช้ตัวกรองทางภูมิศาสตร์ที่ตรงกับตำแหน่งของคุณโดยอัตโนมัติ 
 
-ตัวอย่างเช่น คุณเป็นผู้จัดการฝ่ายขาย และกำลังเดินทางไปพบลูกค้า และคุณต้องการจะกรองยอดขายและรายได้สำหรับลูกค้าที่คุณกำลังจะไปพบอย่างรวดเร็ว คุณต้องการแยกดูเฉพาะข้อมูลสำหรับตำแหน่งปัจจุบันของคุณ ไม่ว่า จะเป็น รัฐ เมือง หรือที่อยู่ ต่อไป ถ้าคุณมีเวลาเหลือ คุณอยากจะไปเยี่ยมลูกค้ารายอื่น ๆ อยู่ที่ใกล้ คุณสามารถ[กรองรายงานตามตำแหน่งของคุณเพื่อค้นหาลูกค้าเหล่านั้น](mobile-apps-geographic-filtering.md)ได้
+ตัวอย่างเช่น คุณเป็นผู้จัดการฝ่ายขาย และกำลังเดินทางไปพบลูกค้า และคุณต้องการจะกรองยอดขายและรายได้สำหรับลูกค้าที่คุณกำลังจะไปพบอย่างรวดเร็ว คุณต้องการแยกดูเฉพาะข้อมูลสำหรับตำแหน่งปัจจุบันของคุณ ไม่ว่า จะเป็น รัฐ เมือง หรือที่อยู่ ต่อไป ถ้าคุณมีเวลาเหลือ คุณอยากจะไปเยี่ยมลูกค้ารายอื่น ๆ อยู่ที่ใกล้ คุณสามารถ[กรองรายงานตามตำแหน่งของคุณเพื่อค้นหาลูกค้าเหล่านั้น](consumer/mobile/mobile-apps-geographic-filtering.md)ได้
 
 > [!NOTE]
 > คุณสามารถกรองข้อมูลตามตำแหน่งที่ตั้งในแอปสำหรับอุปกรณ์เคลื่อนที่ ก็ต่อเมื่อชื่อภูมิศาสตร์ในรายงานเป็นภาษาอังกฤษเท่านั้น &#150; เช่น "New York" หรือ "Germany"
@@ -52,12 +52,12 @@ ms.locfileid: "34291408"
 2. เผยแพร่รายงานไปยังบริการ Power BI
 
 ## <a name="view-the-report-in-power-bi-mobile-app"></a>ดูรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
-1. เปิดรายงานในใด ๆ ใน[แอป Power BI สำหรับอุปกรณ์เคลื่อนที่](mobile-apps-for-mobile-devices.md)
+1. เปิดรายงานในใด ๆ ใน[แอป Power BI สำหรับอุปกรณ์เคลื่อนที่](consumer/mobile/mobile-apps-for-mobile-devices.md)
 2. ถ้าคุณอยู่ในตำแหน่งทางภูมิศาสตร์ที่มีข้อมูลในรายงาน คุณสามารถกรองข้อมูลนั้นด้วยตำแหน่งของคุณโดยอัตโนมัติ
    
     ![ตัวกรองทางภูมิศาสตร์ในแอปสำหรับอุปกรณ์เคลื่อนที่](media/desktop-mobile-geofiltering/power-bi-mobile-geo-map-set-filter.png)
 
-อ่านเพิ่มเติมเกี่ยวกับ[การกรองรายงานตามตำแหน่งในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่](mobile-apps-geographic-filtering.md)
+อ่านเพิ่มเติมเกี่ยวกับ[การกรองรายงานตามตำแหน่งในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่](consumer/mobile/mobile-apps-geographic-filtering.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [จัดประเภทข้อมูลใน Power BI Desktop](desktop-data-categorization.md)  

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f3a9e8aabbd45cb476866158165e2e37a3d8f652
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242398"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726328"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>สร้างคำถามที่น่าสนใจสำหรับ Power BI Q&A
 ถ้าคุณเป็นเจ้าของชุดข้อมูล คุณสามารถเพิ่มคำถามที่แนะนำของคุณเองในชุดข้อมูลนั้น  และ Power BI Q&A จะแสดงคำถามเหล่านั้นให้เพื่อนร่วมงานที่ใช้ (*บริโภค*) ชุดข้อมูลของคุณ  คำถามที่แนะนำนั้นเพื่อให้เพื่อนร่วมงานของคุณมีความคิดเบื้องต้น เกี่ยวกับชนิดของคำถามที่พวกเขาสามารถสอบถามเกี่ยวกับชุดข้อมูล คำถามที่น่าสนใจที่คุณเพิ่มนั้นขึ้นกับคุณ -- เพิ่มคำถามยอดนิยม คำถามที่แสดงผลลัพธ์ที่น่าสนใจ หรือคำถามที่อาจเป็นเรื่องยากที่จะเขียนเป็นวลี
@@ -26,7 +26,7 @@ ms.locfileid: "34242398"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> คำถามที่แนะนำของ Q&A จะพร้อมใช้งานใน[แอป Microsoft Power BI สำหรับ iOS บน iPads, iPhones และอุปกรณ์ iPod Touch](mobile-apps-ios-qna.md)และ Power BI Desktop Q&A แต่สร้างคำถามที่พร้อมใช้งานใน Power BI service (app.powerbi.com) เท่านั้น
+> คำถามที่แนะนำของ Q&A จะพร้อมใช้งานใน[แอป Microsoft Power BI สำหรับ iOS บน iPads, iPhones และอุปกรณ์ iPod Touch](consumer/mobile/mobile-apps-ios-qna.md)และ Power BI Desktop Q&A แต่สร้างคำถามที่พร้อมใช้งานใน Power BI service (app.powerbi.com) เท่านั้น
 > 
 
 บทเรียนนี้ใช้[ตัวอย่างการวิเคราะห์การค้าปลีก](sample-datasets.md)

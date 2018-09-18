@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241579"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558596"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>แก้ไขปัญหาแอปพลิเคชันแบบฝังตัว
 
@@ -105,13 +105,13 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 หากคุณกำลังใช้ Power BI Embedded และการรับรองความถูกต้องโดยตรงของ Azure AD และคุณได้รับข้อความที่เข้าสู่ระบบ เช่น ***ข้อผิดพลาด: unauthorized_client, error_description:AADSTS70002: ข้อมูลประจำตัวที่ตรวจสอบผิดพลาด AADSTS50053: คุณได้พยายามลงชื่อเข้าใช้หลายครั้งเกินไป ด้วยรหัสผู้ใช้หรือรหัสผ่านที่ไม่ถูกต้อง*** นั่นเป็นเพราะว่าการรับรองความถูกต้องโดยตรงได้ถูกปิดใช้งานในวันที่ 6/14/2018 ตามค่าเริ่มต้น
 
-นั่นคือวิธีการเปลี่ยนไปใช้ [นโยบาย Azure AD ](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)ที่สามารถกำหนดขอบเขตว่าเป็นองค์กรหรือ[วัตถุบริการ](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object)ได้
+นั่นคือวิธีการเปลี่ยนไปใช้ [นโยบาย Azure AD ](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)ที่สามารถกำหนดขอบเขตว่าเป็นองค์กรหรือ[วัตถุบริการ](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object)ได้
 
 เราขอแนะนำให้คุณเปิดใช้งานส่วนนี้เหมือนเป็นพื้นฐานสำหรับแต่ละแอปเท่านั้น
 
 เมื่อต้องสร้างนโยบายนี้ คุณจำเป็นต้องเป็น**ผู้ดูแลระบบส่วนกลาง**สำหรับไดเรกทอรีที่คุณกำลังสร้างนโยบายและกำหนดสิ่งต่างๆ นี่คือสคริปต์ตัวอย่างสำหรับการสร้างนโยบาย และกำหนดนโยบายให้กับ SP สำหรับแอปพลิเคชันนี้:
 
-1. ติดตั้ง[การแสดงโมดูล Powershell ของ Azure AD](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)
+1. ติดตั้ง[การแสดงโมดูล Powershell ของ Azure AD](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)
 
 2. เรียกใช้คำสั่ง Powershell แบบบรรทัดต่อบรรทัดต่อไปนี้ (ตรวจสอบให้แน่ใจว่าตัวแปร $sp ไม่มีแอปพลิเคชันมากกว่า 1)
 
@@ -274,7 +274,7 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 
 ถ้าคุณต้องการแก้ไขแอปพลิเคชันที่ลงทะเบียนแล้ว ให้เรียนรู้วิธีการแก้ไข[แอปพลิเคชันที่ลงทะเบียน AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) เพื่อที่แอปพลิเคชันจะสามารถให้การเข้าถึง API ของเว็บ
 
-ถ้าคุณต้องการแก้ไขโปรไฟล์หรือข้อมูลผู้ใช้ Power BI ของคุณ เรียนรู้วิธีการแก้ไข[ข้อมูล Power BI](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts) ของคุณ
+ถ้าคุณต้องการแก้ไขโปรไฟล์หรือข้อมูลผู้ใช้ Power BI ของคุณ เรียนรู้วิธีการแก้ไข[ข้อมูล Power BI](https://docs.microsoft.com/power-bi/service-basic-concepts) ของคุณ
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [คำถามที่ถามบ่อยของ Power BI Embedded](embedded-faq.md)
 

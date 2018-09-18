@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 80e5b31f4fd8e59333848da26995388874d1746c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136973"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728053"
 ---
 # <a name="reports-in-power-bi"></a>รายงานใน Power BI
 ## <a name="what-is-a-power-bi-report"></a>รายงาน Power BI คืออะไร?
@@ -27,7 +27,7 @@ ms.locfileid: "37136973"
 
 ถ้าคุณไม่คุ้นเคยกับ Power BI คุณสามารถเรียนรู้ข้อมูลพื้นฐานได้โดยการอ่าน[แนวคิดพื้นฐานของ Power BI](service-basic-concepts.md)
 
-รายงานเป็นคุณลักษณะของบริการ Power BI และ Power BI Desktop ประสบการณ์การทำงานกับรายงานจะเหมือนกันเกือบทุกประการ อย่างไรก็ตาม สำหรับมือถือ คุณไม่สามารถสร้างรายงานได้ แต่คุณสามารถ[ดู แชร์ และใส่คำอธิบายประกอบรายงาน](mobile-reports-in-the-mobile-apps.md)ได้
+รายงานเป็นคุณลักษณะของบริการ Power BI และ Power BI Desktop ประสบการณ์การทำงานกับรายงานจะเหมือนกันเกือบทุกประการ อย่างไรก็ตาม สำหรับมือถือ คุณไม่สามารถสร้างรายงานได้ แต่คุณสามารถ[ดู แชร์ และใส่คำอธิบายประกอบรายงาน](consumer/mobile/mobile-reports-in-the-mobile-apps.md)ได้
 
 ## <a name="advantages-of-reports"></a>ข้อดีของรายงาน
 รายงานจะขึ้นอยู่กับชุดข้อมูลเดียว แสดงภาพในรายงานแต่ละหมายถึง nugget ของข้อมูล และการแสดงภาพจะไม่คงที่ คุณสามารถเพิ่ม และลบข้อมูล เปลี่ยนประเภทการแสดงภาพ และใช้ตัวกรองและตัวแบ่งส่วนข้อมูล ตามที่คุณเจาะลึกข้อมูลเพื่อค้นหาข้อมูลเชิงลึกและค้นหาคำตอบ เหมือนกับแดชบอร์ดแต่มีมากกว่า รายงานเป็นแบบสามารถโต้ตอบได้สูง และกำหนดเองได้สูง และการแสดงภาพจะอัปเดตเมื่อมีการเปลี่ยนแปลงข้อมูลพื้นฐาน

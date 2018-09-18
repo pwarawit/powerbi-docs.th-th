@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: e64850351c9bdc1877eed3a53323e7934e11fbe7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d6ab9619fd1419f94994b65fffef7ddcbfff3f3d
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445129"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727202"
 ---
 # <a name="whitepapers-for-power-bi"></a>เอกสารทางเทคนิคสำหรับ Power BI
 
@@ -31,7 +31,7 @@ ms.locfileid: "34445129"
 | [Power BI และ GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| Power BI สามารถเป็นส่วนสำคัญของเส้นทางที่คุณไปสู่การปฏิบัติตามนโยบาย GDPR วัตถุประสงค์ของเอกสารนี้คือ ให้คุณใช้ทำความเข้าใจพื้นฐานของ GDPR และความเกี่ยวข้องกับ Power BI ในขณะที่การปฏิบัติตาม GDPR ถือเป็นเรื่องบังคับในสถานการณ์ที่ระบุไว้ในเอกสารนี้ มันไม่ใช่เป็นแค่การทำให้ผ่านจนครบทุกข้อเท่านั้น แต่ยังเป็นวิธีที่ช่วยเพิ่มเติมความสามารถโดยรวมของคุณ ในการปกป้องข้อมูล และรักษาความเป็นส่วนตัว|
 | [กระจายเนื้อหา Power BI ไปยังผู้ใช้ที่เป็นผู้เยี่ยมชมจากภายนอกโดยใช้ Azure Active Directory B2](https://aka.ms/powerbi-b2b-whitepaper)|เอกสารนี้สรุปวิธีการกระจายเนื้อหาไปยังผู้ใช้ภายนอกองค์กรโดยใช้การรวมกันของ Azure Active Directory Business-to-business (AAD B2B)|
 | [การวิเคราะห์ขั้นสูงด้วย Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |อธิบายความสามารถในการวิเคราะห์ขั้นสูงของ Power BI รวมถึงการวิเคราะห์เชิงทำนาย การแสดงวิชวลแบบกำหนดเอง R integration และนิพจน์การวิเคราะห์ข้อมูล |
-| [แนวทางการออกแบบที่ดีที่สุดสำหรับรายงานและวิชวล](power-bi-visualization-best-practices.md) |มอบแนวทางปฏิบัติที่ดีที่สุดสำหรับการออกแบบรายงานใน Power BI |
+| [แนวทางการออกแบบที่ดีที่สุดสำหรับรายงานและวิชวล](visuals/power-bi-visualization-best-practices.md) |มอบแนวทางปฏิบัติที่ดีที่สุดสำหรับการออกแบบรายงานใน Power BI |
 | [การกรองแบบสองทิศทาง](desktop-bidirectional-filtering.md) |อธิบายการกรองไขว้แบบสองทิศทางใน Power BI Desktop (เอกสารทางเทคนิคครอบคลุมถึง SQL Server Analysis Services 2016 ทั้งสองมีลักษณะการทำงานแบบเดียวกัน) |
 | [DirectQuery ใน SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |DirectQuery ได้รับการออกแบบใหม่เพื่อปรับปรุงความเร็วและประสิทธิภาพการทำงานให้ดียิ้งขึ้นสำหรับ SQL Server 2016 อย่างไรก็ตาม DirectQuery ยังคงมีความซับซ้อนอย่างมากในการทำความเข้าใจและนำมาใช้ |
 | [Power BI และ SAP BW](https://aka.ms/powerbiandsapbw)| เอกสารนี้อธิบายถึงวิธีการที่ลูกค้า SAP สามารถใช้ประโยชน์จากการเชื่อมต่อ Power BI ไปยังระบบ SAP Business Warehouse (BW) ที่มีอยู่ของลูกค้า|

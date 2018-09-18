@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 5f34207640fe0db02d38464ce8600a44b6ffab4c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280673"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726466"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>สร้างรายงานที่ปรับให้เหมาะสมสำหรับแอป Power BI บนโทรศัพท์
 เมื่อคุณ[สร้างรายงานใน Power BI Desktop](desktop-report-view.md) คุณก็สามารถปรับปรุงประสบการณ์การใช้งานรายงานในแอปสำหรับอุปกรณ์เคลื่อนที่บนโทรศัพท์ได้โดยสร้างรายงานในรูปแบบเฉพาะสำหรับโทรศัพท์ คุณสามารถปรับเปลี่ยนรายงานสำหรับโทรศัพท์ของคุณได้โดยจัดเรียงและปรับขนาดภาพใหม่แต่อาจไม่ต้องทำทั้งหมด ทั้งนี้เพื่อให้ได้รับประสบการณ์การใช้งานที่เหมาะสม และคุณยังสามารถสร้างภาพ[ *แบบตอบสนอง*](#optimize-a-visual-for-any-size)และ[ตัวแบ่งส่วนข้อมูลแบบตอบสนอง](#enhance-slicers-to-to-work-well-in-phone-reports)ที่ปรับขนาดใหม่ให้เหมาะสมสำหรับการดูผ่านโทรศัพท์ได้ นอกจากนี้ ถ้าคุณเพิ่มตัวกรองให้รายงานของคุณ ตัวกรองเหล่านั้นก็จะปรากฏขึ้นโดยอัตโนมัติในรายงานโทรศัพท์ ผู้อ่านรายงานของคุณสามารถดูรายงานเหล่านั้น และกรองรายงานด้วยตัวกรองดังกล่าว
@@ -56,7 +56,7 @@ ms.locfileid: "39280673"
 
 ![การปรับขนาดภาพแบบตอบสนอง](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-คุณเลือกว่าจะเปิดใช้งานการตอบสนองสำหรับแต่ละภาพหรือไม่ อ่านข้อมูลเพิ่มเติมเกี่ยวกับ[การปรับภาพให้เหมาะสม](desktop-create-responsive-visuals.md)
+คุณเลือกว่าจะเปิดใช้งานการตอบสนองสำหรับแต่ละภาพหรือไม่ อ่านข้อมูลเพิ่มเติมเกี่ยวกับ[การปรับภาพให้เหมาะสม](visuals/desktop-create-responsive-visuals.md)
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>ข้อควรพิจารณาเมื่อสร้างเค้าโครงรายงานโทรศัพท์
 * สำหรับรายงานที่มีหลายหน้า คุณสามารถปรับหน้าทั้งหมดนั้นให้เหมาะสมหรือปรับเพียงไม่กี่หน้าให้เหมาะสมก็ได้ 
@@ -101,11 +101,11 @@ ms.locfileid: "39280673"
 
 ![หน้าโทรศัพท์ที่ไม่ได้ปรับให้เหมาะสม](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
-ผู้อ่านรายงานสามารถพลิกโทรศัพท์ไปทางด้านข้าง เพื่อดูหน้าในโหมดแนวนอน อ่านข้อมูลเพิ่มเติมเกี่ยวกับ[การโต้ตอบกับรายงาน Power BI ที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ](mobile-apps-view-phone-report.md)
+ผู้อ่านรายงานสามารถพลิกโทรศัพท์ไปทางด้านข้าง เพื่อดูหน้าในโหมดแนวนอน อ่านข้อมูลเพิ่มเติมเกี่ยวกับ[การโต้ตอบกับรายงาน Power BI ที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ](consumer/mobile/mobile-apps-view-phone-report.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [สร้างมุมมองโทรศัพท์สำหรับแดชบอร์ดใน Power BI](service-create-dashboard-mobile-phone-view.md)
-* [ดูรายงาน Power BI ที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ](mobile-apps-view-phone-report.md)
-* [สร้างภาพแบบตอบสนองที่ปรับให้เหมาะสมตามขนาดต่างๆ](desktop-create-responsive-visuals.md)
+* [ดูรายงาน Power BI ที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ](consumer/mobile/mobile-apps-view-phone-report.md)
+* [สร้างภาพแบบตอบสนองที่ปรับให้เหมาะสมตามขนาดต่างๆ](visuals/desktop-create-responsive-visuals.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

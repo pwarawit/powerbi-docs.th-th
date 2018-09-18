@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a6216169eb50ca535b73b07f5553c9b3d5e17470
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: efc806787f2a1d5cd110439c1c5505bb7e77e980
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240973"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727478"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>ทำให้ข้อมูลของคุณทำงานได้ดีกับ Q&A ใน Power BI
 ถ้าคุณคือบุคคลที่สร้างตัวแบบข้อมูล หรือสร้างเวิร์กบุ๊ก Excel ที่จะใช้กับ Power BI อ่านที่
@@ -27,7 +27,7 @@ Q&A สามารถทำงานไฟล์ Excel ที่ถูกอั
 ### <a name="how-qa-works-with-excel"></a>วิธที่ Q&A ทำงานกับ Excel
 Q&A มีชุดของหลักภาษาธรรมชาติที่เข้าใจความสามารถในการที่ทำงานกับข้อมูลของคุณ มีคำสำคัญขึ้นอยู่กับบริบทสำหรับการค้นหาในตาราง Excel คอลัมน์ และชื่อเขตข้อมูลจากการคำนวณของคุณ นอกจากนี้ยังมีความรู้ที่มีอยู่ภายในวิธีการกรอง เรียงลำดับ จับกลุ่ม เรียงลำดับ และแสดงข้อมูล 
 
-ตัวอย่างเช่น ในตาราง Excel ที่มีชื่อว่า "Sales" กับคอลัมน์ "Product", "Month", "Units Sold”, “Gross Sales” คุณสามารถถามคำถามเกี่ยวกับเอนทิตีใดๆ เหล่านั้น  คุณสามารถสอบถามเพื่อแสดงยอดขาย ผลกำไรรวมตามเดือน ผลิตภัณฑ์เรียงลำดับตามหน่วยที่ขายได้ และอื่น ๆ อ่านเพิ่มเติมเกี่ยวกับ[ชนิดของคำถามที่ถามคุณสามารถสอบถาม](power-bi-q-and-a.md)และ[ชนิดการแสดงภาพที่คุณสามารถระบุในคิวรี่ของ Q&A](power-bi-visualization-types-for-reports-and-q-and-a.md)
+ตัวอย่างเช่น ในตาราง Excel ที่มีชื่อว่า "Sales" กับคอลัมน์ "Product", "Month", "Units Sold”, “Gross Sales” คุณสามารถถามคำถามเกี่ยวกับเอนทิตีใดๆ เหล่านั้น  คุณสามารถสอบถามเพื่อแสดงยอดขาย ผลกำไรรวมตามเดือน ผลิตภัณฑ์เรียงลำดับตามหน่วยที่ขายได้ และอื่น ๆ อ่านเพิ่มเติมเกี่ยวกับ[ชนิดของคำถามที่ถามคุณสามารถสอบถาม](power-bi-q-and-a.md)และ[ชนิดการแสดงภาพที่คุณสามารถระบุในคิวรี่ของ Q&A](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 ### <a name="prepare-an-excel-dataset-for-qa"></a>เตรียมชุดข้อมูล Excel สำหรับ Q&A
 Q&A ใช้ชื่อของตาราง คอลัมน์ และเขตข้อมูลจากการคำนวณเพื่อตอบคำถามเฉพาะข้อมูล ซึ่งหมายความว่าคุณเรียกอะไร เอนทิตีในเวิร์กบุ๊กของคุณมีความสำคัญ

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 736d4b53f82255e84e3bd54a2177ae17c264039b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251678"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726765"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>มุมมองการอ่านและมุมมองการแก้ไขในรายงานบริการ Power BI
 ในบริการ Power BI (ไม่ใช่ Power BI Desktop) จะมีสองโหมดสำหรับดู และโต้ตอบกับรายงานคือ มุมมองการอ่าน และมุมมองการแก้ไข มุมมองการอ่านจะพร้อมใช้งานสำหรับผู้ใช้ทั้งหมด และได้รับการออกแบบมาสำหรับ*ผู้ใช้*ข้อมูลโดยเฉพาะ ส่วนมุมมองการแก้ไขจะพร้อมใช้งานสำหรับ*ผู้สร้าง*และเจ้าของรายงานเท่านั้น
@@ -59,13 +59,13 @@ ms.locfileid: "34251678"
 | [ทำซ้ำหน้ารายงาน](power-bi-report-copy-paste-page.md) | ไม่ใช่  | ใช่ |
 | [ลบหน้ารายงาน](service-delete.md) | ไม่ใช่ | ใช่ |
 |**ทำงานกับการแสดงภาพรายงาน**|
-| [เพิ่มการแสดงภาพในรายงาน](power-bi-report-add-visualizations-i.md) | ไม่ใช่  | ใช่ |
+| [เพิ่มการแสดงภาพในรายงาน](visuals/power-bi-report-add-visualizations-i.md) | ไม่ใช่  | ใช่ |
 | [เพิ่มกล่องข้อความและรูปร่างในรายงาน](power-bi-reports-add-text-and-shapes.md) | ไม่ใช่  | ใช่ |
 | [ใช้บานหน้าต่างการจัดรูปแบบรายงาน](service-the-report-editor-take-a-tour.md) | ไม่ใช่ | ใช่ |
 | [ตั้งค่าการโต้ตอบกับภาพ](service-reports-visual-interactions.md) | ไม่ใช่  | ใช่ |
 | [แสดงข้อมูลที่ใช้ในการสร้างการแสดงภาพ](service-reports-show-data.md) | ไม่ใช่  | ใช่ |
 | [กำหนดค่าตัวเจาะเข้าถึงรายละเอียด](power-bi-visualization-drill-down.md) | ไม่ใช่  | ใช่ |
-| [เปลี่ยนการแสดงภาพที่ใช้](power-bi-report-change-visualization-type.md) | ไม่ใช่ | ใช่|
+| [เปลี่ยนการแสดงภาพที่ใช้](visuals/power-bi-report-change-visualization-type.md) | ไม่ใช่ | ใช่|
 | [ลบการแสดงภาพ กล่องข้อความ หรือรูปร่าง](service-delete.md)| ไม่ใช่ | ใช่ |
 
 

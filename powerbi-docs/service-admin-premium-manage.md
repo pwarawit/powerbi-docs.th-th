@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
-ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
+ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43250784"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558481"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>จัดการความจุภายใน Power BI Premium และ Power BI Embedded
 เรียนรู้วิธีที่คุณสามารถจัดการ Power BI Premium และความจุ Power BI Embedded ซึ่งมีแหล่งข้อมูลเฉพาะสำหรับเนื้อหาของคุณ
@@ -47,7 +47,7 @@ ms.locfileid: "43250784"
 เมื่อต้องใช้ประโยชน์จากความจุเฉพาะ คุณจะจำเป็นต้องซื้อการสมัครใช้งานสำหรับ Power BI Premium ภายในศูนย์การจัดการ Office 365 หรือสร้างทรัพยากร Power BI Embedded ภายในพอร์ทัล Microsoft Azure สำหรับข้อมูลเพิ่มเติม โปรดดูบทความต่อไปนี้
 
 * **Power BI Premium:** [วิธีซื้อ Power BI Premium](service-admin-premium-purchase.md)
-* **Power BI Embedded** [ความจุสร้าง Power BI Embedded ในพอร์ทัล Azure](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
+* **Power BI Embedded** [ความจุสร้าง Power BI Embedded ในพอร์ทัล Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
 
 เมื่อคุณซื้อ Power BI Premium SKU ผู้เช่าของคุณจะได้รับหมายเลขที่สอดคล้องกันของ v-cores สำหรับใช้ในการทำงานความจุ ตัวอย่างเช่น การซื้อ Power BI Premium P3 SKU มีผู้เช่าที่มี 32 v-cores
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d735ff366d422d03186c25a0b358e87d6790a260
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c7688134d7c006c38626f52df26fa5a87ac5c8d7
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280627"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728168"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - แนวคิดพื้นฐานสำหรับบริการ Power BI
 
@@ -111,10 +111,10 @@ ms.locfileid: "39280627"
 
 ### <a name="dig-deeper"></a>เจาะลึกมากขึ้น
 * [รายงานในบริการ Power BI และ Power BI Desktop](service-reports.md)
-* [รายงานในแอปฯมือถือ Power BI](mobile-reports-in-the-mobile-apps.md)
+* [รายงานในแอปฯมือถือ Power BI](consumer/mobile/mobile-reports-in-the-mobile-apps.md)
 
 ## <a name="dashboards"></a>แดชบอร์ด
-*แดชบอร์ด*เป็นสิ่งที่คุณสร้าง**ในบริการ Power BI**หรือสิ่งที่เพื่อนร่วมงานสร้าง**ในบริการ Power BI**และแชร์กับคุณ เป็นพื้นที่ที่ประกอบด้วยไทล์และวิดเจ็ตศูนย์ไทล์หรือวิดเจ็ตหรือมากกว่านั้น แต่ละไทล์ที่ปักหมุดจากรายงานหรือจาก[การถามตอบ](power-bi-q-and-a.md)แสดง[การแสดงภาพ](power-bi-report-visualizations.md)เดียวที่สร้างขึ้นจากชุดข้อมูลและปักหมุดไปยังแดชบอร์ด นอกจากนี้ หน้ารายงานทั้งหมดยังสามารถปักหมุดไปยังแดชบอร์ดเป็นหนึ่งไทล์ได้ มีหลายวิธีในการเพิ่มไทล์ไปยังแดชบอร์ด แต่มีจำนวนมากเกินไปจะรวมเข้าได้หมดในหัวข้อภาพรวมนี้ เมื่อต้องการเรียนรู้เพิ่มเติม ดู[ไทล์แดชบอร์ดใน Power BI](service-dashboard-tiles.md) 
+*แดชบอร์ด*เป็นสิ่งที่คุณสร้าง**ในบริการ Power BI**หรือสิ่งที่เพื่อนร่วมงานสร้าง**ในบริการ Power BI**และแชร์กับคุณ เป็นพื้นที่ที่ประกอบด้วยไทล์และวิดเจ็ตศูนย์ไทล์หรือวิดเจ็ตหรือมากกว่านั้น แต่ละไทล์ที่ปักหมุดจากรายงานหรือจาก[การถามตอบ](power-bi-q-and-a.md)แสดง[การแสดงภาพ](visuals/power-bi-report-visualizations.md)เดียวที่สร้างขึ้นจากชุดข้อมูลและปักหมุดไปยังแดชบอร์ด นอกจากนี้ หน้ารายงานทั้งหมดยังสามารถปักหมุดไปยังแดชบอร์ดเป็นหนึ่งไทล์ได้ มีหลายวิธีในการเพิ่มไทล์ไปยังแดชบอร์ด แต่มีจำนวนมากเกินไปจะรวมเข้าได้หมดในหัวข้อภาพรวมนี้ เมื่อต้องการเรียนรู้เพิ่มเติม ดู[ไทล์แดชบอร์ดใน Power BI](service-dashboard-tiles.md) 
 
 ทำไมผู้คนสร้างแดชบอร์ดขึ้น?  ต่อไปนี้เป็นเหตุผลเพียงบางส่วน:
 

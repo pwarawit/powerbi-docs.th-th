@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: c9451297dab6210a454ea96c1537189f46e8ad24
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241602"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726144"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>ไทล์แดชบอร์ดใน Power BI
-แดชบอร์ดและไทล์แดชบอร์ดเป็นคุณลักษณะของบริการ Power BI ไม่ใช่ของ Power BI Desktop ขณะที่ไม่สามารถสร้างหรือปักหมุดไทล์แดชบอร์ดใน Power BI สำหรับมือถือได้ แต่เราสามารถ[ดูและแชร์](mobile-tiles-in-the-mobile-apps.md)บนมือถือได้ และใน Power BI สำหรับอุปกรณ์เคลื่อนที่ คุณสามารถ[เพิ่มรูปภาพลงในแดชบอร์ดของคุณกับแอปฯ iPhone](mobile-iphone-app-get-started.md) ได้
+แดชบอร์ดและไทล์แดชบอร์ดเป็นคุณลักษณะของบริการ Power BI ไม่ใช่ของ Power BI Desktop ขณะที่ไม่สามารถสร้างหรือปักหมุดไทล์แดชบอร์ดใน Power BI สำหรับมือถือได้ แต่เราสามารถ[ดูและแชร์](consumer/mobile/mobile-tiles-in-the-mobile-apps.md)บนมือถือได้ และใน Power BI สำหรับอุปกรณ์เคลื่อนที่ คุณสามารถ[เพิ่มรูปภาพลงในแดชบอร์ดของคุณกับแอปฯ iPhone](consumer/mobile/mobile-iphone-app-get-started.md) ได้
 
 ## <a name="dashboard-tiles"></a>ไทล์แดชบอร์ด
 ![แดชบอร์ด Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
@@ -94,7 +94,7 @@ ms.locfileid: "43241602"
 * ถ้าการแสดงภาพต้นฉบับที่ใช้เพื่อสร้างไทล์เปลี่ยนแปลง ไทล์ดังกล่าวจะไม่เปลี่ยนแปลงไปด้วย  ตัวอย่างเช่น ถ้าคุณปักหมุดแผนภูมิเส้นจากรายงาน จากนั้นคุณเปลี่ยนแผนภูมิเส้นเป็นแผนภูมิแท่ง ไทล์แดชบอร์ดจะยังคงแสดงแผนภูมิเส้น รีเฟรชข้อมูลแต่การชนิดแสดงภาพไม่เปลี่ยน
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[สร้างบัตร (ไทล์ตัวเลขขนาดใหญ่) สำหรับแดชบอร์ดของคุณ](power-bi-visualization-card.md)
+[สร้างบัตร (ไทล์ตัวเลขขนาดใหญ่) สำหรับแดชบอร์ดของคุณ](visuals/power-bi-visualization-card.md)
 
 [แดชบอร์ดใน Power BI](service-dashboards.md)  
 

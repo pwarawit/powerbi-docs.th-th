@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: eb0d584e2383e1b878cfc26739e77d4e50d70a0f
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 804794f53eb062d5c9cb286be46c0459d5435d28
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280489"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727955"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>แท็กเขตข้อมูลบาร์โค้ดใน Power BI Desktop สำหรับแอปสำหรับอุปกรณ์เคลื่อนที่
-ใน Power BI Desktop คุณสามารถ [จัดประเภทข้อมูล](desktop-data-categorization.md) ในคอลัมน์ ดังนั้น Power BI Desktop จึงทราบวิธีการนำค่ามาใช้ในการแสดงผลด้วยภาพในรายงานได้ นอกจากนี้ คุณยังสามารถจัดประเภทคอลัมน์เป็น **บาร์โค้ด**ได้ เมื่อคุณหรือเพื่อนร่วมงาน [สแกนบาร์โค้ดบนผลิตภัณฑ์ด้วยแอป Power BI](mobile-apps-scan-barcode-iphone.md) บน iPhone คุณก็จะเห็นรายงานใด ๆ ที่มีบาร์โค้ดนั้น เมื่อคุณเปิดรายงานในแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ก็จะกรองรายงานให้เป็นข้อมูลที่เกี่ยวข้องกับบาร์โค้ดนั้นโดยอัตโนมัติ
+ใน Power BI Desktop คุณสามารถ [จัดประเภทข้อมูล](desktop-data-categorization.md) ในคอลัมน์ ดังนั้น Power BI Desktop จึงทราบวิธีการนำค่ามาใช้ในการแสดงผลด้วยภาพในรายงานได้ นอกจากนี้ คุณยังสามารถจัดประเภทคอลัมน์เป็น **บาร์โค้ด**ได้ เมื่อคุณหรือเพื่อนร่วมงาน [สแกนบาร์โค้ดบนผลิตภัณฑ์ด้วยแอป Power BI](consumer/mobile/mobile-apps-scan-barcode-iphone.md) บน iPhone คุณก็จะเห็นรายงานใด ๆ ที่มีบาร์โค้ดนั้น เมื่อคุณเปิดรายงานในแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ก็จะกรองรายงานให้เป็นข้อมูลที่เกี่ยวข้องกับบาร์โค้ดนั้นโดยอัตโนมัติ
 
 1. ใน Power BI Desktop สลับไปยังมุมมองข้อมูล
 2. เลือกคอลัมน์ที่มีข้อมูลบาร์โค้ด ดูรายการของ [รูปแบบบาร์โค้ดที่สนับสนุน](#supported-barcode-formats) ด้านล่าง
@@ -27,7 +27,7 @@ ms.locfileid: "39280489"
 4. ในมุมมองรายงาน เพิ่มเขตข้อมูลนี้ในการแสดงผลด้วยภาพที่คุณต้องการโดยกรองตามบาร์โค้ด
 5. บันทึกรายงานและเผยแพร่ไปยังบริการ Power BI
 
-ในตอนนี้ เมื่อคุณเปิดสแกนเนอร์บน [แอป Power BI สำหรับ iPhone](mobile-iphone-app-get-started.md) และสแกนบาร์โค้ด คุณจะเห็นรายงานนี้ในรายการของรายงาน เมื่อคุณเปิดรายงาน การแสดงผลด้วยภาพจะถูกกรองตามบาร์โค้ดผลิตภัณฑ์ที่คุณสแกน
+ในตอนนี้ เมื่อคุณเปิดสแกนเนอร์บน [แอป Power BI สำหรับ iPhone](consumer/mobile/mobile-iphone-app-get-started.md) และสแกนบาร์โค้ด คุณจะเห็นรายงานนี้ในรายการของรายงาน เมื่อคุณเปิดรายงาน การแสดงผลด้วยภาพจะถูกกรองตามบาร์โค้ดผลิตภัณฑ์ที่คุณสแกน
 
 ## <a name="supported-barcode-formats"></a>รูปแบบบาร์โค้ดที่สนับสนุน
 ต่อไปนี้เป็นบาร์โค้ดที่ Power BI จดจำถ้าคุณสามารถแท็กบาร์โค้ดเหล่านี้ในรายงาน Power BI: 
@@ -44,8 +44,8 @@ ms.locfileid: "39280489"
 * ITF14Code 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [สแกนบาร์โค้ดจากแอป Power BI บน iPhone ของคุณ](mobile-apps-scan-barcode-iphone.md)
-* [ปัญหาเกี่ยวกับการสแกนบาร์โค้ดบน iPhone](mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
+* [สแกนบาร์โค้ดจากแอป Power BI บน iPhone ของคุณ](consumer/mobile/mobile-apps-scan-barcode-iphone.md)
+* [ปัญหาเกี่ยวกับการสแกนบาร์โค้ดบน iPhone](consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [การจัดประเภทข้อมูลใน Power BI Desktop](desktop-data-categorization.md)  
 * คำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

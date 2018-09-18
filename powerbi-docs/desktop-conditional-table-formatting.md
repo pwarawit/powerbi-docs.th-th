@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 324a9b7f8a3718c6da0efb7533751d88dd717bcf
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657816"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728099"
 ---
 # <a name="conditional-formatting-in-tables"></a>การจัดรูปแบบตามเงื่อนไขในตาราง 
 ด้วยการจัดรูปแบบตามเงื่อนไขสำหรับตาราง คุณสามารถระบุสีพื้นหลังของเซลล์ตามค่าของเซลล์ หรือตามค่าอื่นหรือเขตข้อมูลอื่น รวมถึงการไล่ระดับสี คุณยังสามารถแสดงค่าเซลล์ ด้วยแถบข้อมูล 
@@ -133,5 +133,5 @@ ms.locfileid: "39657816"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 สำหรับข้อมูลเพิ่มเติม โปรดดูบทความต่อไปนี้:  
 
-* [คำแนะนำและเคล็ดลับในการจัดรูปแบบสีใน Power BI](service-tips-and-tricks-for-color-formatting.md)  
+* [คำแนะนำและเคล็ดลับในการจัดรูปแบบสีใน Power BI](visuals/service-tips-and-tricks-for-color-formatting.md)  
 

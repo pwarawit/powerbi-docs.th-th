@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: b34c16337158e784b0c41bd3e3fd93aca9504cd7
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624403"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727317"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>แชร์แดชบอร์ด Power BI และรายงานกับเพื่อนร่วมงานและคนอื่นๆ
 *แชร์*เป็นวิธีที่ดีเมื่อต้องให้บางคนสามารถเข้าถึงแดชบอร์ดและรายงานของคุณ Power BI ยังมี[หลายวิธีอื่นๆ เพื่อที่จะทำงานร่วมกันและเผยแพร่แดชบอร์ดและรายงาน](service-how-to-collaborate-distribute-dashboards-reports.md)
@@ -27,7 +27,7 @@ ms.locfileid: "39624403"
 
 คุณสามารถแชร์แดชบอร์ดและรายงานจากสถานที่ส่วนใหญ่ในบริการ Power BI รายการโปรด รายการล่าสุด แชร์กับฉัน(ถ้าเจ้าของทำได้ใน), My Workspace หรือพื้นที่ทำงานอื่นๆของคุณ เมื่อคุณแชร์แดชบอร์ดหรือรายงาน ซึ่งคนที่คุณแชรให้จะสามารถดูและโต้ตอบกับมันได้ แต่ไม่สามารถแก้ไขมันได้ พวกเขาจะเห็นข้อมูลเดียวกันกับที่คุณเห็นในแดชบอร์ดหรือรายงาน เว้นแต่ว่า[ระดับแถวความปลอดภัย (RLS)](service-admin-rls.md)ได้ถูกใช้ เหล่าเพื่อนร่วมงานที่คุณแชร์กับสามารถใช้ร่วมกับเพื่อนร่วมงานของพวกเขา ถ้าคุณอนุญาต บุคคลภายนอกองค์กรสามารถดู และโต้ตอบกับแดชบอร์ดหรือรายงานเช่นเดียวกัน แต่ไม่สามารถแชร์มันได้ 
 
-คุณยังสามารถ[แชร์แดชบอร์ดจากแอป Power BI จากอุปกรณ์เคลื่อนใด ๆ](mobile-share-dashboard-from-the-mobile-apps.md)ได้ คุณสามารถแชร์แดชบอร์ด จาก Power BI service และแอปมือถือ Power BI แต่ไม่สามารถแชร์จาก Power BI Desktop
+คุณยังสามารถ[แชร์แดชบอร์ดจากแอป Power BI จากอุปกรณ์เคลื่อนใด ๆ](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)ได้ คุณสามารถแชร์แดชบอร์ด จาก Power BI service และแอปมือถือ Power BI แต่ไม่สามารถแชร์จาก Power BI Desktop
 
 ## <a name="video-share-a-dashboard"></a>วิดีโอ แชร์แดชบอร์ด
 ดู Amanda แชร์แดชบอร์ดของเธอกับเพื่อนร่วมงานภายในและภายนอกบริษัทของเธอ แล้วทำตามคำแนะนำทีละขั้นตอนด้านล่างวิดีโอเพื่อลองทำด้วยตนเอง

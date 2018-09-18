@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599241"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727961"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>บทช่วยสอน: วิธีการใช้ถามตอบเพื่อสร้างการแสดงภาพ และสร้างรายงาน
-[ภาพรวมถามตอบ](power-bi-q-and-a.md)ได้แนะนำคุณเกี่ยวกับ ถามตอบของ Power BI และเปรียบเทียบความแตกต่างระหว่าง*ผู้บริโภค* (มีแดชบอร์ดและรายงานที่แชร์ให้กับพวกเขา) และ*ผู้สร้าง* (เป็นเจ้าของรายงานและชุดข้อมูลพื้นฐาน) ส่วนแรกของบทช่วยสอนนี้ออกแบบสำหรับ ผู้บริโภคแดชบอร์ดที่ใช้บริการ Power BI และส่วนสองออกแบบมาสำหรับ ผู้ที่สร้างรายงานโดยใช้บริการของ Power BI หรือ Power BI Desktop เนื้อหา [ถามตอบ และ Power BI สำหรับอุปกรณ์เคลื่อนที่](mobile-apps-ios-qna.md) และ[ถามตอบ ด้วย Power BI Embedded](developer/qanda.md) ครอบคลุมในบทความต่างหาก
+[ภาพรวมถามตอบ](power-bi-q-and-a.md)ได้แนะนำคุณเกี่ยวกับ ถามตอบของ Power BI และเปรียบเทียบความแตกต่างระหว่าง*ผู้บริโภค* (มีแดชบอร์ดและรายงานที่แชร์ให้กับพวกเขา) และ*ผู้สร้าง* (เป็นเจ้าของรายงานและชุดข้อมูลพื้นฐาน) ส่วนแรกของบทช่วยสอนนี้ออกแบบสำหรับ ผู้บริโภคแดชบอร์ดที่ใช้บริการ Power BI และส่วนสองออกแบบมาสำหรับ ผู้ที่สร้างรายงานโดยใช้บริการของ Power BI หรือ Power BI Desktop เนื้อหา [ถามตอบ และ Power BI สำหรับอุปกรณ์เคลื่อนที่](consumer/mobile/mobile-apps-ios-qna.md) และ[ถามตอบ ด้วย Power BI Embedded](developer/qanda.md) ครอบคลุมในบทความต่างหาก
 
 ถามตอบ เป็นการโต้ตอบที่สนุก และมักจะนำคำถามหนึ่งไปสู่คำถามอื่น ๆ เมื่อการแสดงภาพเปิดเผยให้เห็นแนวทางน่าสนใจที่จะค้นคว้าต่อ ดู Amanda สาธิตการใช้ถามตอบ เพื่อสร้างการแสดงภาพ เจาะลึกลงในวิชวลเหล่านั้น และปักหมุดวิชวลไปยังแดชบอร์ด
 
@@ -44,7 +44,7 @@ ms.locfileid: "37599241"
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-list.png)
 
-3. ขณะที่คุณพิมพ์คำถาม ถามตอบจะเลือก[การแสดงภาพ](power-bi-visualization-types-for-reports-and-q-and-a.md)ที่ดีที่สุด เพื่อแสดงคำตอบของคุณ และการแสดงภาพจะเปลี่ยนแปลงตาม ขณะที่คุณปรับเปลี่ยนคำถาม
+3. ขณะที่คุณพิมพ์คำถาม ถามตอบจะเลือก[การแสดงภาพ](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)ที่ดีที่สุด เพื่อแสดงคำตอบของคุณ และการแสดงภาพจะเปลี่ยนแปลงตาม ขณะที่คุณปรับเปลี่ยนคำถาม
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-viz.png)
 
@@ -82,7 +82,7 @@ ms.locfileid: "37599241"
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-suggestions.png)
 
-4. ขณะที่คุณพิมพ์คำถาม ถามตอบจะเลือก[การแสดงภาพ](power-bi-visualization-types-for-reports-and-q-and-a.md)ที่ดีที่สุด เพื่อแสดงคำตอบของคุณ และการแสดงภาพจะเปลี่ยนตาม ขณะที่คุณปรับเปลี่ยนคำถาม
+4. ขณะที่คุณพิมพ์คำถาม ถามตอบจะเลือก[การแสดงภาพ](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)ที่ดีที่สุด เพื่อแสดงคำตอบของคุณ และการแสดงภาพจะเปลี่ยนตาม ขณะที่คุณปรับเปลี่ยนคำถาม
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-visual.png)
 

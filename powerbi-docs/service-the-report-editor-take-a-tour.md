@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ef05531ee6080593d232e48a2118a9be7e8cbd19
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34299481"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726650"
 ---
 # <a name="the-report-editortake-a-tour"></a>ตัวแก้ไขรายงาน... ชมการแนะนำ
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>แก้ไขรายงานในบริการ Power BI และ Power BI Desktop
@@ -65,7 +65,7 @@ ms.locfileid: "34299481"
 
 ![ลบ StoreType จากคำอธิบายแผนภูมิ](media/service-the-report-editor-take-a-tour/deletefield.png)
 
-สำหรับข้อมูลเพิ่มเติม ดู[เพิ่มการแสดงภาพไปยังรายงาน Power BI](power-bi-report-add-visualizations-i.md)
+สำหรับข้อมูลเพิ่มเติม ดู[เพิ่มการแสดงภาพไปยังรายงาน Power BI](visuals/power-bi-report-add-visualizations-i.md)
 
 ### <a name="format-your-visuals"></a>จัดรูปแบบภาพของคุณ
 เลือกไอคอนลูกกลิ้งระบายสีเพื่อแสดงพื้นที่จัดรูปแบบ ตัวเลือกที่พร้อมใช้งานขึ้นอยู่กับประเภทของการแสดงภาพที่เลือก
@@ -74,9 +74,9 @@ ms.locfileid: "34299481"
 
 ความสามารถในการจัดรูปแบบเกือบไม่มีที่สิ้นสุด  เมื่อต้องการเรียนรู้เพิ่มเติม สำรวจด้วยตัวเองหรือเยี่ยมชมบทความเหล่านี้:
 
-* [กำหนดชื่อเรื่องแสดงภาพ พื้นหลัง และคำอธิบายแผนภูมิ](power-bi-visualization-customize-title-background-and-legend.md)
-* [จัดรูปแบบสี](service-getting-started-with-color-formatting-and-axis-properties.md)
-* [คุณสมบัติแกน X และแกน Y ที่กำหนดด้วยตนเอง](power-bi-visualization-customize-x-axis-and-y-axis.md)
+* [กำหนดชื่อเรื่องแสดงภาพ พื้นหลัง และคำอธิบายแผนภูมิ](visuals/power-bi-visualization-customize-title-background-and-legend.md)
+* [จัดรูปแบบสี](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
+* [คุณสมบัติแกน X และแกน Y ที่กำหนดด้วยตนเอง](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>เพิ่มการวิเคราะห์ไปยังการแสดงภาพของคุณ
 เมื่อต้องการแสดงพื้นที่ Analystics เลือกไอคอนแว่นขยาย ตัวเลือกที่พร้อมใช้งานขึ้นอยู่กับประเภทของการแสดงภาพที่เลือก
@@ -126,7 +126,7 @@ ms.locfileid: "34299481"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป:
 [สร้างรายงาน](service-report-create-new.md)
 
-อ่านเพิ่มเติมเกี่ยวกับรายงานใน[บริการ Power BI](service-reports.md), [Power BI Desktop](desktop-report-view.md)และ[Power BI สำหรับมือถือ](mobile-apps-view-phone-report.md)
+อ่านเพิ่มเติมเกี่ยวกับรายงานใน[บริการ Power BI](service-reports.md), [Power BI Desktop](desktop-report-view.md)และ[Power BI สำหรับมือถือ](consumer/mobile/mobile-apps-view-phone-report.md)
 
 [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
 

@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600369"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726880"
 ---
 # <a name="getting-a-custom-visual-certified"></a>การนำวิชวลแบบกำหนดเอง*เข้ารับการรับรอง*
 ## <a name="what-is-meant-by-certified"></a>*การรับรอง*หมายถึงอะไร
@@ -142,7 +142,7 @@ Microsoft ขอสงวนสิทธิ์ในการลบวิชว�
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [เริ่มต้นใช้งานเครื่องมือสำหรับนักพัฒนาวิชวลแบบกำหนดเอง (ตัวอย่าง)](service-custom-visuals-getting-started-with-developer-tools.md)      
 [รายการเพลย์ลิสต์ วิชวลแบบกำหนดเองของ Microsoft บน YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[การแสดงข้อมูลใน Power BI](power-bi-report-visualizations.md)  
+[การแสดงข้อมูลใน Power BI](visuals/power-bi-report-visualizations.md)  
 [การแสดงข้อมูลแบบกำหนดเองใน Power BI](power-bi-custom-visuals.md)  
 [การเผยแพร่วิชวลแบบกำหนดเองไปยัง Microsoft AppSource](developer/office-store.md)  
 ถ้าคุณมีคำถามเพิ่มเติม [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
