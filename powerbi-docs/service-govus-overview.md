@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f110464d435130a40666e61dd6a9c89ad6b10ccf
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8ac91cb0ab6061f0fcbcb120c5915a91166f90ad
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280443"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546199"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI สำหรับลูกค้าส่วนราชการสหรัฐอเมริกา
 การ**บริการ Power BI**มีเวอร์ชันพร้อมใช้งานสำหรับลูกค้าส่วนราชการสหรัฐอเมริกา ซึ่งเป็นส่วนหนึ่งของการของการสมัครใช้งาน**ชุมชน Office 365 สำหรับส่วนราชการสหรัฐ** การ**บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้ถูกออกแบบมาโดยเฉพาะสำหรับลูกค้าส่วนราชการสหรัฐและแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI**
@@ -37,7 +37,7 @@ ms.locfileid: "39280443"
 * [นำเข้าข้อมูล](service-get-data.md)และรายงานจากไฟล์ Excel, CSV และ Power BI Desktop
 * Data Management Gateway
 * ข้อมูลทั้งหมดจะถูกเข้ารหัสลับในทั้ง Azure SQL และ Blob Storage สำหรับ Power BI
-* เชื่อมต่อกับบริการด้วย[ชุดเนื้อหา](service-connect-to-services.md)
+* เชื่อมต่อกับบริการด้วย[ชุดเนื้อหา](consumer/end-user-connect-to-services.md)
 
 ## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>เชื่อมต่อระหว่างส่วนราชการกับ Public Azure Cloud services 
 

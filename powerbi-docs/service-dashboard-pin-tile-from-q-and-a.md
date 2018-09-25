@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e71412febc5b8d8a9ee4ff20174496de0c7d51f2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf5855acc5efe773f8f06e6de9f769f75794bdb
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251425"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548752"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>ปักหมุดไทล์ที่แดชบอร์ดจาก Q&A
 ## <a name="how-to-pin-a-tile-from-qa"></a>วิธีการปักหมุดไทล์จาก Q&A
 Q&A คือเครื่องมือราย Power BI แบบเฉพาะ จำเป็นต้องค้นหาข้อมูลเชิงลึกที่เฉพาะเจาะจงหรือไม่ ถามคำถามเกี่ยวกับข้อมูลของคุณ และรับคำตอบในรูปแบบการแสดงภาพ
 
-ในการอธิบายวิธีใช้นี้ เราจะใช้ Power BI service (app.powerbi.com) เพื่อเปิดแดชบอร์ด ถามคำถามโดยใช้ภาษาธรรมชาติเพื่อสร้างภาพ และปักหมุดการแสดงภาพนั้นที่แดชบอร์ด แดชบอร์ดใช้งานใน Power BI Desktop ไม่ได้ สำหรับข้อมูลใน Q&A กับเครื่องมือและเนื้อหา Power BI อื่น ๆ ให้ดู[Q&A ของ Power BI โดยภาพรวม](power-bi-q-and-a.md) 
+ในการอธิบายวิธีใช้นี้ เราจะใช้ Power BI service (app.powerbi.com) เพื่อเปิดแดชบอร์ด ถามคำถามโดยใช้ภาษาธรรมชาติเพื่อสร้างภาพ และปักหมุดการแสดงภาพนั้นที่แดชบอร์ด แดชบอร์ดใช้งานใน Power BI Desktop ไม่ได้ สำหรับข้อมูลใน Q&A กับเครื่องมือและเนื้อหา Power BI อื่น ๆ ให้ดู[Q&A ของ Power BI โดยภาพรวม](consumer/end-user-q-and-a.md) 
 
 เพื่อการทำตาม ให้เปิด[แดชบอร์ดตัวอย่างวิเคราะห์ร้านค้าปลีก](sample-retail-analysis.md)
 
 
-1. เปิด[แดชบอร์ด](service-dashboards.md)ที่มีอย่างน้อยหนึ่งไทล์ที่ปักหมุดจากรายงาน เมื่อคุณถามคำถาม Power BI จะค้นหาคำตอบในชุดข้อมูลใดๆ ที่มีไทล์ถูกปักในแดชบอร์ดนั้น  เพื่อเรียนรู้เพิ่มเติม ให้ดู[รับข้อมูล](service-get-data.md)
+1. เปิด[แดชบอร์ด](consumer/end-user-dashboards.md)ที่มีอย่างน้อยหนึ่งไทล์ที่ปักหมุดจากรายงาน เมื่อคุณถามคำถาม Power BI จะค้นหาคำตอบในชุดข้อมูลใดๆ ที่มีไทล์ถูกปักในแดชบอร์ดนั้น  เพื่อเรียนรู้เพิ่มเติม ให้ดู[รับข้อมูล](service-get-data.md)
 2. ที่กล่องคำถามด้านบนในแดชบอร์ดของคุณ ให้เริ่มพิมพ์สิ่งที่คุณต้องการทราบเกี่ยวกับข้อมูลของคุณ  
    ![กล่องคำถาม Q&A](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. ตัวอย่างเช่น พิมพ์ “ยอดขายของปีที่แล้วตามเดือนและพื้นที่”  
@@ -62,6 +62,6 @@ Q&A คือเครื่องมือราย Power BI แบบเฉพ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [เปลี่ยนชื่อ ปรับขนาด เพิ่มไฮเปอร์ลิงก์ เปลี่ยนตำแหน่งไทล์ และอื่น ๆ ](service-dashboard-edit-tile.md)    
-[แสดงแดชบอร์ดไทล์ของคุณในโหมดโฟกัส](service-focus-mode.md)     
-[กลับไปยัง Q&A ใน Power BI](power-bi-q-and-a.md)  
+[แสดงแดชบอร์ดไทล์ของคุณในโหมดโฟกัส](consumer/end-user-focus.md)     
+[กลับไปยัง Q&A ใน Power BI](consumer/end-user-q-and-a.md)  
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

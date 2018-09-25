@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 04a385d67a8cc462b21c16cf7daaa5aa675436d9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 72c51a6eae4acec5bfc0af7b471f98dfcb22da67
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744899"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549811"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>สำรวจไทล์ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -23,7 +23,7 @@ ms.locfileid: "44744899"
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |อุปกรณ์ Windows 10 |
 
-ไทล์คือสแนปช็อตแบบสดของข้อมูลของคุณ ที่ปักหมุดไว้ที่แดชบอร์ด ค่าของไทล์จะเปลี่ยนเมื่อมีการเปลี่ยนแปลงข้อมูล **คุณ[เพิ่มไทล์ไปยังแดชบอร์ดในบริการของ Power BI](../../service-dashboard-tiles.md)** 
+ไทล์คือสแนปช็อตแบบสดของข้อมูลของคุณ ที่ปักหมุดไว้ที่แดชบอร์ด ค่าของไทล์จะเปลี่ยนเมื่อมีการเปลี่ยนแปลงข้อมูล **คุณ[เพิ่มไทล์ไปยังแดชบอร์ดในบริการของ Power BI](../end-user-tiles.md)** 
 
 จากนั้นในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ ให้คุณเปิดไทล์ในโหมดโฟกัส และโต้ตอบกับไทล์นั้น คุณสามารถเปิดไทล์ด้วยการแสดงผลด้วยภาพ รวมถึงไทล์ตาม Bing และ R. ทุกชนิด
 

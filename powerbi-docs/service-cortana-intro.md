@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5d11fd66e8b0aff15648aba6d3e397cd7fdb9bb3
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a0692d74f42b48bc68d670ad2e6c6a33dca0729d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/04/2018
-ms.locfileid: "34251655"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550109"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>ค้นหาและดูข้อมูล Power BI ของคุณได้อย่างรวดเร็วโดยใช้ Cortana สำหรับ Power BI
 ใช้ Cortana ในทุกอุปกรณ์ Windows 10 ของคุณเพื่อให้ได้คำตอบสำหรับคำถามทางธุรกิจที่สำคัญของคุณทันที โดยการรวม Cortana กับ Power BI ทำให้สามารถดึงข้อมูลที่สำคัญได้โดยตรงจากแดชบอร์ดและรายงาน Power BI สิ่งที่ต้องใช้คือ Windows 10 เวอร์ชั่นพฤศจิกายน ปี 2015 หรือเวอร์ชั่นใหม่กว่า Cortana, Power BI และสิทธิ์การเข้าถึงอย่างน้อยหนึ่งชุดข้อมูล
@@ -67,7 +67,7 @@ Cortana สามารถค้นหาคำตอบในแดชบอร
 ### <a name="cortana-and-reports"></a>Cortana และรายงาน
  Cortana สามารถค้นหาคำตอบในรายงานที่มี[หน้าที่ออกแบบมาโดยเฉพาะสำหรับการแสดงผลโดย Cortana](service-cortana-answer-cards.md)ได้ เพียงแค่ถามคำถามโดยใช้ชื่อเรื่องหรือคำสำคัญจากหนึ่งในหน้ารายงานพิเศษเหล่านี้  
 
-เทคโนโลยีพื้นฐานสำหรับรายงานใช้ [การถามตอบ Microsoft Power BI](power-bi-q-and-a.md)
+เทคโนโลยีพื้นฐานสำหรับรายงานใช้ [การถามตอบ Microsoft Power BI](consumer/end-user-q-and-a.md)
 
 เมื่อคุณถามคำถามใน Cortana, Power BI ตอบคำถามจากหน้ารายงานที่ออกแบบมาโดยเฉพาะสำหรับ Cortana คำตอบที่เป็นไปได้จะถูกกำหนดโดย Cortana โดยตรงจากใน*บัตรคำตอบ* Cortana ที่สร้างไว้แล้วใน Power BI  ในการสำรวจคำตอบเพิ่มเติม เพียงแค่เปิดผลลัพธ์ใน Power BI
 

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 42ba9b042209dfd717c58042834e8d7966f97ecf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d221cfdc849a18ba934ebacaf58ef40999ac0117
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744747"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543324"
 ---
 # <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>สแกนบาร์โค้ดด้วย iPhone ของคุณจากแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 สแกนบาร์โค้ดในโลกแห่งความจริงเพื่อไปยังข้อมูล BI ที่ถูกกรองโดยตรงในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
@@ -67,6 +67,6 @@ ms.locfileid: "44744747"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [แท็กเขตข้อมูลบาร์โค้ดใน Power BI Desktop](../../desktop-mobile-barcodes.md)
-* [ไทล์แดชบอร์ดใน Power BI](../../service-dashboard-tiles.md)
-* [แดชบอร์ดใน Power BI](../../service-dashboards.md)
+* [ไทล์แดชบอร์ดใน Power BI](../end-user-tiles.md)
+* [แดชบอร์ดใน Power BI](../end-user-dashboards.md)
 

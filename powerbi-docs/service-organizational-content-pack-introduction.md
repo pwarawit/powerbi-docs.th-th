@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9109bd45f47e92d9158b9247fe32a43132fff720
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624309"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547648"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>บทนำชุดเนื้อหาองค์กรใน Power BI
 > [!NOTE]
@@ -42,7 +42,7 @@ ms.locfileid: "39624309"
 
 * การดู AppSource เลือก**รับข้อมูล** > **องค์กรของฉัน** > **รับ**
 
-อ่านเพิ่มเติมเกี่ยวกับ[การค้นหาและการเปิดชุดเนื้อหาองค์กร](service-organizational-content-pack-find-and-open.md)
+อ่านเพิ่มเติมเกี่ยวกับ[การค้นหาและการเปิดชุดเนื้อหาองค์กร](consumer/end-user-content-pack.md)
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>วงจรชีวิตของชุดเนื้อหาองค์กร
 ผู้ใช้ Power BI Pro สามารถสร้าง เผยแพร่ และเข้าใช้งานชุดเนื้อหาองค์กรได้ เฉพาะผู้สร้างชุดเนื้อหาเท่านั้นที่สามารถปรับเปลี่ยนเวิร์กบุ๊กและชุดข้อมูล กำหนดการรีเฟรช และลบชุดเนื้อหาได้
@@ -52,7 +52,7 @@ ms.locfileid: "39624309"
 1. ใน Power BI Pro, Nate สร้างชุดเนื้อหาและเผยแพร่ไปยังกลุ่มการกระจายการตลาด การตั้งค่าการรีเฟรชจะถูกสืบทอดกับชุดข้อมูล และสามารถเปลี่ยนได้โดย Nate เท่านั้น
    
    > [!NOTE]
-   > ถ้า Nate สร้างชุดเนื้อหาจากภายใน[พื้นที่ทำงานของแอปฯ Power BI](service-create-distribute-apps.md) ที่เขาเป็นสมาชิก ดังนั้น แม้ว่าเขาออกจากพื้นที่ทำงานไปแล้ว ผู้อื่นในพื้นที่ทำงาน Power BI สามารถครองความเป็นเจ้าของได้
+   > ถ้า Nate สร้างชุดเนื้อหาจากภายใน[พื้นที่ทำงานของแอปฯ Power BI](consumer/end-user-create-apps.md) ที่เขาเป็นสมาชิก ดังนั้น แม้ว่าเขาออกจากพื้นที่ทำงานไปแล้ว ผู้อื่นในพื้นที่ทำงาน Power BI สามารถครองความเป็นเจ้าของได้
    > 
    > 
 2. Nate ส่งอีเมลไปยังกลุ่มการกระจาย บอกให้พวกเขาทราบเกี่ยวกับชุดเนื้อหาใหม่นี้
@@ -76,7 +76,7 @@ ms.locfileid: "39624309"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [สร้างและเผยแพร่ชุดเนื้อหาองค์กร](service-organizational-content-pack-create-and-publish.md)
-* [สร้างและกระจายแอปฯใน Power BI](service-create-distribute-apps.md) 
-* [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
+* [สร้างและกระจายแอปฯใน Power BI](consumer/end-user-create-apps.md) 
+* [Power BI - แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

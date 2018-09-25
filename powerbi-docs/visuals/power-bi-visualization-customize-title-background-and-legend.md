@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b486ad6bc4027aa2122ee72fc7fb89f0fd80c875
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a219ad94725f8d5423597bd65321f0024f95c1bb
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744867"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546015"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>กำหนดชื่อเรื่องการแสดงภาพ คำอธิบายแผนภูมิ และพื้นหลัง
 ในบทช่วยสอนนี้ คุณจะได้เรียนรู้ถึงวิธีการกำหนดการแสดงภาพของคุณเองสองถึงสามวิธี   มีตัวเลือกมากมายสำหรับการกำหนดการแสดงภาพของคุณ วิธีดีที่สุดเมื่อต้องการเรียนรู้เกี่ยวกับตัวเลือกทั้งหมดคือการสำรวจพื้นที่การจัดรูปแบบ (เลือกไอคอนลูกกลิ้งทาสี)  เพื่อช่วยให้คุณเริ่มต้นใช้งาน บทความนี้แสดงวิธีการกำหนดชื่อเรื่องการแสดงภาพ คำอธิบายแผนภูมิ และพื้นหลัง  
@@ -120,6 +120,6 @@ ms.locfileid: "44744867"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [กำหนดค่าแกน X และแกน Y](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [กำหนดสีและคุณสมบัติแกน](service-getting-started-with-color-formatting-and-axis-properties.md)  
-[Power BI - แนวคิดพื้นฐาน](../service-basic-concepts.md)  
+[Power BI - แนวคิดพื้นฐาน](../consumer/end-user-basic-concepts.md)  
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

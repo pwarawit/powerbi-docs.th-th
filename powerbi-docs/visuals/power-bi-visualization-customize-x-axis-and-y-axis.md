@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e49b5ddab09c32662beb04ce70e5dc7606d92f59
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744992"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545956"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>คุณสมบัติแกน x และแกน y ที่กำหนดด้วยตนเอง
 ในบทช่วยสอนนี้ คุณจะได้เรียนรู้หลายวิธีในการกำหนดค่าแกน X และแกน Y ของวิชวลคุณ ไม่ใช่วิชวลทั้งหมดที่มีแกน หรือสามารถกำหนดแกนเองได้ ตัวอย่างของวิชวลที่ไม่มีแกน เช่น แผนภูมิวงกลม และตัวเลือกที่กำหนดเองได้ จะแตกต่างกันตามวิชวล มีตัวเลือกอยู่มากมายเกินกว่าที่จะครอบคลุมในบทความเดียว ดังนั้นเราจะดูเฉพาะ การกำหนดค่าแกนที่ใช้บ่อยที่สุดบางค่า เพื่อให้คุณคุ้นเคยกับแท็บการจัดรูปแบบวิชวล บนพื้นที่รายงาน Power BI  
@@ -86,7 +86,7 @@ ms.locfileid: "44744992"
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../power-bi-report-change-sort.md#other)
+> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 > 1. ในเดือนมกราคม %กำไรขั้นต้น อยู่ที่ 35% ไปจุดสุงสุดที่ 45% ในเดือนเมษายน ตกลงในเดือนกรกฎาคม และกลับไปสูงสุดอีกครั้งในเดือนสิงหาคม เราจะเห็นรูปแบบที่คล้ายกัน ในยอดขายปีที่แล้วและของปีนี้หรือไม่?
 > 2. เพิ่ม**ยอดขายปีนี้ > ค่า** และ**ยอดขายปีที่แล้ว**ลงในแผนภูมิเส้น มาตราส่วนของ **%กำไรขั้นต้นปีที่แล้ว** (เส้นสีน้ำเงินตามเส้นตาราง 0M%) มีขนาดเล็กกว่ามาตราส่วนของ**ยอดขาย**มาก ซึ่งทำให้ยากต่อการเปรียบเทียบ และเปอร์เซ็นต์ที่ป้ายชื่อแกน Y ประหลาดมาก      
 
@@ -137,6 +137,6 @@ ms.locfileid: "44744992"
 
 [กำหนดสีและคุณสมบัติของแกน](service-getting-started-with-color-formatting-and-axis-properties.md)
 
-[Power BI - แนวคิดพื้นฐาน](../service-basic-concepts.md)
+[Power BI - แนวคิดพื้นฐาน](../consumer/end-user-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

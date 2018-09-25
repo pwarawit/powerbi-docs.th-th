@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 02c3998a95e7d481ee032513054933f1484ae7f9
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8b4a0605df348957c4adb0d8e02975f4cd752307
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "36944617"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543807"
 ---
 # <a name="the-power-bi-samples"></a>ตัวอย่างของ Power BI
 
@@ -79,7 +79,7 @@ ms.locfileid: "36944617"
     ![หน้ารายงานพร้อมภาพที่เข้ากันถูกไฮไลต์แล้ว](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > ถ้าไทล์ถูกสร้างด้วย[Power BI Q&A](power-bi-q-and-a.md) หน้าถามตอบจะเปิดขึ้นแทน ถ้าไทล์เป็นการ[ปักหมุดจาก Excel](service-dashboard-pin-tile-from-excel.md) จะเปิด Excel Online ขึ้นภายใน Power BI
+   > ถ้าไทล์ถูกสร้างด้วย[Power BI Q&A](consumer/end-user-q-and-a.md) หน้าถามตอบจะเปิดขึ้นแทน ถ้าไทล์เป็นการ[ปักหมุดจาก Excel](service-dashboard-pin-tile-from-excel.md) จะเปิด Excel Online ขึ้นภายใน Power BI
    > 
    > 
 1. กลับไปที่แท็บ**ชุดข้อมูล**ของคุณ คุณมีหลายตัวเลือกในการสำรวจชุดข้อมูลของคุณ  คุณจะไม่สามารถเปิดมัน และดูแถวและคอลัมน์ที่มีอยู่ทั้งหมด (เหมือนที่คุณทำได้ใน Power BI Desktop หรือ Excel)  เมื่อมีบางคนแชร์ชุดเนื้อหากับเพื่อนร่วมงาน พวกเขามักต้องการแชร์ข้อมูลเชิงลึก ไม่ได้ให้เพื่อนร่วมงานของพวกเขาเข้าถึงข้อมูลโดยตรง แต่นั่นไม่ได้หมายความว่า คุณไม่สามารถสำรวจชุดข้อมูล  
@@ -89,7 +89,7 @@ ms.locfileid: "36944617"
    * วิธีหนึ่งในการสำรวจชุดข้อมูล ก็โดยการสร้างการแสดงภาพและรายงานของคุณเองตั้งแต่เริ่มต้น  เลือกไอคอนแผนภูมิ ![ไอคอนรายงาน](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) เพื่อเปิดชุดข้อมูลในโหมดการแก้ไขรายงาน
      
        ![รายงานใหม่](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * อีกวิธีหนึ่งในการสำรวจชุดข้อมูล คือการเรียกใช้[ข้อมูลเชิงลึกด่วน](service-insights.md) เลือกจุดไข่ปลา (...) แล้วเลือก**รับข้อมูลเชิงลึก** เมื่อข้อมูลเชิงลึกพร้อมแล้ว เลือก**ดูข้อมูลเชิงลึก**
+   * อีกวิธีหนึ่งในการสำรวจชุดข้อมูล คือการเรียกใช้[ข้อมูลเชิงลึกด่วน](consumer/end-user-insights.md) เลือกจุดไข่ปลา (...) แล้วเลือก**รับข้อมูลเชิงลึก** เมื่อข้อมูลเชิงลึกพร้อมแล้ว เลือก**ดูข้อมูลเชิงลึก**
      
        ![รายงานข้อมูลเชิงลึก](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -130,7 +130,7 @@ ms.locfileid: "36944617"
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[แนวคิดพื้นฐานของ power BI](service-basic-concepts.md)
+[แนวคิดพื้นฐานของ power BI](consumer/end-user-basic-concepts.md)
 
 [ตัวอย่างสำหรับบริการ Power BI](sample-datasets.md)
 

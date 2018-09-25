@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "38924546"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544635"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>เชื่อมต่อกับ Adobe Analytics ด้วย Power BI
 การเชื่อมต่อกับ Adobe Analytics ผ่านทาง Power BI เริ่มจากการเชื่อมต่อไปยังบัญชี Adobe Analytics Marketing Cloud ของคุณ คุณจะได้แอปที่มีแดชบอร์ด Power BI และชุดของรายงาน Power BI ซึ่งให้ข้อมูลเชิงลึกเกี่ยวกับ ปริมาณการใช้งาน และมิติของผู้ใช้ ของไซต์คุณ ข้อมูลจะถูกรีเฟรชโดยอัตโนมัติวันละครั้ง คุณสามารถโต้ตอบกับแดชบอร์ดและรายงาน แต่คุณไม่สามารถบันทึกการเปลี่ยนแปลงได้
@@ -94,7 +94,7 @@ Suite ID จะสร้างขึ้นเมื่อสร้าง Report 
 ถ้าคุณผ่านหน้าจอข้อมูลประจำตัวได้สำเร็จ ก่อนจะพบข้อผิดพลาด เป็นไปได้ที่รายงานใช้เวลานานเกินไปกว่าจะเสร็จ ข้อผิดพลาดที่พบบ่อยจะอยู่ในรูปแบบ *"ไม่สามารถรับข้อมูลจากรายงาน Adobe Analytics เนื้อหารวม &quot;หน้าอ้างอิง, หน้า&quot;, ระยะเวลาโดยประมาณคือ xx วินาที"* โปรดตรวจทานส่วน "ที่รวมอยู่ข้างใน" และเปรียบเทียบกับขนาดอินสแตนซ์ Adobe ของคุณ ขออภัยที่ยังไม่มีวิธีหลีกเลี่ยงปัญหาการหมดเวลานี้ แต่เรากำลังพิจารณาปรับปรุงเพื่อสนับสนุนอินสแตนซ์ที่มีขนาดใหญ่ขึ้น โปรดส่งคำติชมไปยังทีม Power BI ที่ https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [แอป Power BI คืออะไร](service-install-use-apps.md)
+* [แอป Power BI คืออะไร](consumer/end-user-apps.md)
 * [รับข้อมูลใน Power BI](service-get-data.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

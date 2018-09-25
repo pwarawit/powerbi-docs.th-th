@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726328"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548246"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>สร้างคำถามที่น่าสนใจสำหรับ Power BI Q&A
 ถ้าคุณเป็นเจ้าของชุดข้อมูล คุณสามารถเพิ่มคำถามที่แนะนำของคุณเองในชุดข้อมูลนั้น  และ Power BI Q&A จะแสดงคำถามเหล่านั้นให้เพื่อนร่วมงานที่ใช้ (*บริโภค*) ชุดข้อมูลของคุณ  คำถามที่แนะนำนั้นเพื่อให้เพื่อนร่วมงานของคุณมีความคิดเบื้องต้น เกี่ยวกับชนิดของคำถามที่พวกเขาสามารถสอบถามเกี่ยวกับชุดข้อมูล คำถามที่น่าสนใจที่คุณเพิ่มนั้นขึ้นกับคุณ -- เพิ่มคำถามยอดนิยม คำถามที่แสดงผลลัพธ์ที่น่าสนใจ หรือคำถามที่อาจเป็นเรื่องยากที่จะเขียนเป็นวลี
@@ -47,8 +47,8 @@ ms.locfileid: "44726328"
    ![การแสดงข้อมูลแบบแผนที่](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
-[Q&A ใน Power BI](power-bi-q-and-a.md)  
+[Q&A ใน Power BI](consumer/end-user-q-and-a.md)  
 [บทเรียน บทนำสู Power BI Q&A](power-bi-visualization-introduction-to-q-and-a.md)  
-[Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)  
+[Power BI แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)  
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

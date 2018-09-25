@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 27b3f18143fe5f354fb9a6965b1d3a58ba33f556
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a9f394cdfefabf1392b0219079d95a35d38b1754
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726926"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546130"
 ---
 # <a name="power-bi-admin-portal"></a>พอร์ทัลผู้ดูแลระบบของ power BI
 
@@ -161,7 +161,7 @@ ms.locfileid: "44726926"
 
 ### <a name="export-data"></a>ส่งออกข้อมูล
 
-ผู้ใช้ในองค์กรสามารถส่งออกข้อมูลจากไทล์หรือการแสดงวิชวล [เรียนรู้เพิ่มเติม](power-bi-visualization-export-data.md)
+ผู้ใช้ในองค์กรสามารถส่งออกข้อมูลจากไทล์หรือการแสดงวิชวล [เรียนรู้เพิ่มเติม](consumer/end-user-export-data.md)
 
 ![](media/service-admin-portal/powerbi-admin-export-data.png)
 
@@ -170,13 +170,13 @@ ms.locfileid: "44726926"
 
 ### <a name="export-reports-as-powerpoint-presentations"></a>ส่งออกรายงานในรูปแบบการนำเสนอ PowerPoint
 
-ผู้ใช้ในองค์กรสามารถส่งออกรายงาน Power BI ในรูปแบบไฟล์ PowerPoint ได้ [เรียนรู้เพิ่มเติม](service-publish-to-powerpoint.md)
+ผู้ใช้ในองค์กรสามารถส่งออกรายงาน Power BI ในรูปแบบไฟล์ PowerPoint ได้ [เรียนรู้เพิ่มเติม](consumer/end-user-powerpoint.md)
 
 ![](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>พิมพ์แดชบอร์ดและรายงาน
 
-ผู้ใช้ในองค์กรสามารถพิมพ์แดชบอร์ดและรายงานได้ [เรียนรู้เพิ่มเติม](service-print.md)
+ผู้ใช้ในองค์กรสามารถพิมพ์แดชบอร์ดและรายงานได้ [เรียนรู้เพิ่มเติม](consumer/end-user-print.md)
 
 ![](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
@@ -205,7 +205,7 @@ ms.locfileid: "44726926"
 > [!NOTE]
 > โปรดอย่าลืมว่าการเปลี่ยนแปลงการตั้งค่าผู้เช่าจะใช้เวลาสักครู่ในการดำเนินการ
 
-ไปที่นี่เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับ[แอปส่งข้อมูล](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users)
+ไปที่นี่เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับ[แอปส่งข้อมูล](consumer/end-user-create-apps.md#how-to-install-an-app-automatically-for-end-users)
 
 ## <a name="integration-settings"></a>การตั้งค่าการรวม
 

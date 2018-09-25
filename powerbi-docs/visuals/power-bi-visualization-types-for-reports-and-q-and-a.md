@@ -2,7 +2,7 @@
 title: ชนิดการแสดงภาพใน Power BI
 description: ชนิดการแสดงภาพใน Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 40106a9f219487a1fb52f353f3609f8f1d98bf4b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744912"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566061"
 ---
 # <a name="visualization-types-in-power-bi"></a>ชนิดการแสดงภาพใน Power BI
 ## <a name="power-bi-visualizations"></a>การแสดงภาพ Power BI
@@ -176,9 +176,9 @@ ms.locfileid: "44744912"
 [การแสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)    
 [อ้างอิงภาพที่ถูกต้องจาก sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
 
-[รายงานใน Power BI](../service-reports.md)
+[รายงานใน Power BI](../consumer/end-user-reports.md)
 
-[Power BI - แนวคิดพื้นฐาน](../service-basic-concepts.md)
+[Power BI - แนวคิดพื้นฐาน](../consumer/end-user-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

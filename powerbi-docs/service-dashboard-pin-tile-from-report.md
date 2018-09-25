@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 968cf7e573a298c2a82adaf2092a9d35ffa397e5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75543bfc381f0a8391fe4422d677913ab61ad363
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240221"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550063"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>ปักหมุดไทล์ไปยังแดชบอร์ด Power BI จากรายงาน
 ## <a name="pinning-tiles-from-a-report"></a>ปักหมุดไทล์จากรายงาน
-วิธีหนึ่งในการเพิ่ม[ไทล์แดชบอร์ด](service-dashboard-tiles.md)ใหม่ นั้นมาจากภายใน [รายงาน Power BI](service-reports.md) อันที่จริงแล้ว คุณสามารถเพิ่มไทล์ใหม่หลายตัวจากรายงาน  แต่ละไทล์เหล่านี้ เมื่อคลิกจะเป็นลิงก์กลับลงในรายงาน
+วิธีหนึ่งในการเพิ่ม[ไทล์แดชบอร์ด](consumer/end-user-tiles.md)ใหม่ นั้นมาจากภายใน [รายงาน Power BI](consumer/end-user-reports.md) อันที่จริงแล้ว คุณสามารถเพิ่มไทล์ใหม่หลายตัวจากรายงาน  แต่ละไทล์เหล่านี้ เมื่อคลิกจะเป็นลิงก์กลับลงในรายงาน
 
 และหน้ารายงานรูปภาพทั้งหมดสามารถปักหมุให้เป็นแดชบอร์ดได้  ซึ่งยังเรียกว่าการปักหมุดไทล์*live*  *Live* เนื่องจากคุณสามารถโต้ตอบกับไทล์บนแดชบอร์ดและเพราะว่า การเปลี่ยนแปลงในรายงานจะถูกซิงค์กับแดชบอร์ดไม่เหมือนกับไทล์การแสดงภาพแต่ละตัว คุณสามารถอ่านเพิ่มเติมเกี่ยวกับหัวข้อนี้ด้านล่าง
 
@@ -58,15 +58,15 @@ ms.locfileid: "34240221"
 สำหรับข้อมูลเพิ่มเติม ให้ดู[ปักหมุดหน้ารายงานทั้งหน้า](service-dashboard-pin-live-tile-from-report.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[แดชบอร์ดใน Power BI](service-dashboards.md)
+[แดชบอร์ดใน Power BI](consumer/end-user-dashboards.md)
 
-[แดชบอร์ดไทล์ใน Power BI](service-dashboard-tiles.md)
+[แดชบอร์ดไทล์ใน Power BI](consumer/end-user-tiles.md)
 
-[รายงานใน Power BI](service-reports.md)
+[รายงานใน Power BI](consumer/end-user-reports.md)
 
 [การรีเฟรชข้อมูลใน Power BI](refresh-data.md)
 
-[แนวคิดพื้นฐานของ power BI](service-basic-concepts.md)
+[แนวคิดพื้นฐานของ power BI](consumer/end-user-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

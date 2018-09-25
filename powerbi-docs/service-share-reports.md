@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bc5fe4c1e1fedc700fcbadd182f01e9e50348e3e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34257240"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545654"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>แชร์รายงาน Power BI ที่ถูกกรองร่วมกับเพื่อนร่วมงานของคุณ
 *แชร์*เป็นวิธีที่ดีเมื่อต้องให้บางคนสามารถเข้าถึงแดชบอร์ดและรายงานของคุณ Power BI ยังนำเสนอ[หลายวิธีอื่นๆ เพื่อที่จะทำงานร่วมกันและเผยแพร่แดชบอร์ดและรายงาน](service-how-to-collaborate-distribute-dashboards-reports.md)
@@ -28,7 +28,7 @@ ms.locfileid: "34257240"
 ## <a name="filter-and-share-a-report"></a>กรองข้อมูลและแชร์รายงาน
 จะเกิดอะไรขึ้นถ้าคุณต้องการแชร์รายงานที่ถูกกรอง อาจรายงานที่แสดงเฉพาะข้อมูลสำหรับเมือง หรือพนักงานขาย หรือปีที่เฉพาะเจาะจง คุณทำสิ่งนี้ โดยการสร้าง URL แบบกำหนดเอง
 
-1. เปิดรายงานใน[มุมมองการแก้ไข](service-reading-view-and-editing-view.md) ให้ใช้ตัวกรอง และบันทึกรายงาน
+1. เปิดรายงานใน[มุมมองการแก้ไข](consumer/end-user-reading-view.md) ให้ใช้ตัวกรอง และบันทึกรายงาน
    
    ในตัวอย่างนี้ เรากำลังกรอง[ตัวอย่างการวิเคราะห์ร้านค้าปลีก](sample-tutorial-connect-to-the-samples.md)เพื่อแสดงเฉพาะค่าที่**Territory**เท่ากับ**NC**
    

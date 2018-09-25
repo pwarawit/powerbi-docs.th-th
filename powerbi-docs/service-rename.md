@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d19e0a77f603ce6b80ce70ba5df4506699bd0969
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a3a78c27ab8d6e7c321af3f5ba4144e8b320e4a9
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252151"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545739"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>เปลี่ยนชื่อเกือบทุกสิ่งใน Power BI service
 บทความนี้สอนวิธีการเปลี่ยนชื่อแดชบอร์ด รายงาน หน้ารายงาน เวิร์กบุ๊ก ชุดข้อมูล แอปฯ และพื้นที่ทำงานในบริการ Power BI service
@@ -71,7 +71,7 @@ ms.locfileid: "34252151"
 ## <a name="rename-a-page-in-a-report"></a>เปลี่ยนชื่อหน้าในรายงาน
 ไม่ชอบชื่อของหน้าในรายงาน Power BI ของคุณใช่ไหม  เปลี่ยนชื่อใหม่ เพียงคลิกเดียว สามารถเปลี่ยนชื่อใน[มุมมองการแก้ไขรายงาน](service-interact-with-a-report-in-editing-view.md)ได้
 
-1. เปิดรายงานใน[มุมมองการแก้ไข](service-reading-view-and-editing-view.md)
+1. เปิดรายงานใน[มุมมองการแก้ไข](consumer/end-user-reading-view.md)
 2. ค้นหาแท็บหน้ารายงานที่ด้านล่างของหน้าต่าง Power BI
    
     ![รายงานทีมีแท็บที่ไฮไลต์ไว้](media/service-rename/report-page-tabs-new.png)

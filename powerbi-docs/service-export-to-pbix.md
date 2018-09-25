@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2f7133bb376cc04e181eed2d90a45e3361190d0b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722554"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547049"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>ส่งออกรายงานจากบริการ Power BI ไปยังเดสก์ท็อป (ตัวอย่าง)
 ใน Power BI Desktop คุณสามารถส่งออก (นอกจากนี้ยังเรียกว่า*ดาวน์โหลด*) รายงานไปยังบริการ Power BI โดยการบันทึกรายงาน และเลือก**เผยแพร่**ได้ คุณสามารถส่งออกในทิศทางอื่นเช่น และดาวน์โหลดรายงานจากบริการ Power BI ลงในเดสก์ท็อปได้ นามสกุลสำหรับไฟล์ที่ถูกส่งออกในทิศทางใดก็ตามคือ *.pbix*
@@ -27,7 +27,7 @@ ms.locfileid: "34722554"
 ## <a name="download-the-report-as-a-pbix"></a>ดาวน์โหลดรายงานเป็นแบบ .pbix
 การดาวน์โหลดไฟล์ .pbix ให้ทำตามขั้นตอนเหล่านี้:
 
-1. ใน**บริการ Power BI** เปิดรายงานที่คุณต้องการดาวน์โหลดใน[มุมมองการแก้ไข](service-reading-view-and-editing-view.md)
+1. ใน**บริการ Power BI** เปิดรายงานที่คุณต้องการดาวน์โหลดใน[มุมมองการแก้ไข](consumer/end-user-reading-view.md)
 2. จากแถบเมนู เลือก**ไฟล์ > ดาวน์โหลดรายงาน**
    
    > [!NOTE]
@@ -67,8 +67,8 @@ ms.locfileid: "34722554"
 
 นอกจากนี้ ต่อไปนี้คือบทความเพิ่มเติมที่สามารถช่วยให้คุณเรียนรู้วิธีการใช้**บริการ Power BI**:
 
-* [รายงานใน Power BI](service-reports.md)
-* [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
+* [รายงานใน Power BI](consumer/end-user-reports.md)
+* [Power BI - แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
 
 เมื่อคุณได้ติดตั้ง **Power BI Desktop** เนื้อหาต่อไปนี้สามารถช่วยให้คุณเริ่มต้นและใช้งานได้อย่างรวดเร็ว:
 

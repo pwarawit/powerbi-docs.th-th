@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8095db86b8954b3f91a83f2e83c0108d1676cf76
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: df53cf238a52502cecb4d1f77482b7b1a09c6b7a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748844"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545279"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>ส่วนที่ 1 เพิ่มการแสดงภาพไปยังรายงาน Power BI
 บทความนี้ให้คำแนะนำสั้น ๆ สำหรับการสร้างการแสดงภาพในรายงาน โดยใช้บริการของ Power BI หรือ Power BI Desktop  สำหรับเนื้อหาขั้นสูงขึ้น กรุณา[ดูส่วนที่ II](power-bi-report-add-visualizations-ii.md) ดู Amanda สาธิตสักสองสามวิธีสำหรับ สร้าง แก้ไข และจัดรูปแบบวิชวลบนพื้นที่รายงาน แล้วทดลองด้วยตัวเองโดยใช้[ตัวอย่างการขายและการตลาด](../sample-datasets.md)เพื่อสร้างรายงานของคุณเอง
@@ -25,7 +25,7 @@ ms.locfileid: "44748844"
 
 
 ## <a name="open-a-report-and-add-a-new-page"></a>เปิดรายงาน และเพิ่มหน้าใหม่
-1. เปิด[รายงานในมุมมองการแก้ไข](../service-reading-view-and-editing-view.md) บทช่วยสอนนี้ใช้[ตัวอย่างการขายและการตลาด](../sample-datasets.md)
+1. เปิด[รายงานในมุมมองการแก้ไข](../consumer/end-user-reading-view.md) บทช่วยสอนนี้ใช้[ตัวอย่างการขายและการตลาด](../sample-datasets.md)
 2. ถ้าคุณมองไม่เห็นบานหน้าต่างเขตข้อมูล เลือกไอคอนลูกศรเพื่อเปิด 
    
    ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
@@ -59,7 +59,7 @@ ms.locfileid: "44748844"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
  ไปต่อยัง[ส่วนที่ 2: เพิ่มการแสดงภาพไปยังรายงาน Power BI](power-bi-report-add-visualizations-ii.md)
    
-   [โต้ตอบกับการแสดงภาพ](../service-reading-view-and-editing-view.md)ในรายงาน
+   [โต้ตอบกับการแสดงภาพ](../consumer/end-user-reading-view.md)ในรายงาน
    
    [ทำอีกหลายอย่างกับการแสดงภาพ](power-bi-report-visualizations.md)
    

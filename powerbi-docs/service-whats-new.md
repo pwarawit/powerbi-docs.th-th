@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 83d9e435c1dca10a444f3125830eb6432aecf6bd
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 090a59f406f1e3874f678752f0e0bc9656ae492f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728214"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548959"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
@@ -89,13 +89,13 @@ ms.locfileid: "44728214"
 
 ### <a name="august-2017"></a>สิงหาคม 2017
 * รู้จักผู้ชมของคุณด้วย[เมตริกการใช้งานต่อผู้ใช้](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/)
-* เริ่มต้นใช้งานด้วยแอปฯ[บริการ Power BI](service-connect-to-services.md) สำหรับบริการออนไลน์
+* เริ่มต้นใช้งานด้วยแอปฯ[บริการ Power BI](consumer/end-user-connect-to-services.md) สำหรับบริการออนไลน์
 * เชื่อมต่อกับ IBM Netezza ด้วยเกตเวย์ข้อมูลในองค์กรผ่านทั้งโหมดนำเข้าและโหมดการเชื่อมต่อ DirectQuery
 * [RLS แบบไดนามิก](developer/embedded-row-level-security.md)ตอนนี้สนับสนุนสำหรับ Power BI Embedded แล้ว
 * ตอนนี้ได้มีการเพิ่ม[การกรอง API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) ขั้นสูงสำหรับรุ่น 1.7 ของภาพ API แบบกำหนดเอง
 
 ### <a name="july-2017"></a>กรกฎาคม 2017
-* สนับสนุนสำหรับ[การสมัครใช้งานอีเมล](service-report-subscribe.md)บนแดชบอร์ด
+* สนับสนุนสำหรับ[การสมัครใช้งานอีเมล](consumer/end-user-subscribe.md)บนแดชบอร์ด
 * ตรวจสอบและวินิจฉัยสาเหตุที่เวลาการโหลดสำหรับแดชบอร์ดแย่โดยใช้ตัวตรวจสอบประสิทธิภาพการทำงาน
 * ตอนนี้ Snowflake และ SAP BusinessWarehouse DirectQuery สนับสนุนสำหรับเกตเวย์ข้อมูลภายในองค์กรแล้ว
 * [API ใหม่เพื่อจัดการการรีเฟรชข้อมูล](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/)ในบริการ Power BI
@@ -206,12 +206,12 @@ ms.locfileid: "44728214"
 
 สำหรับรายละเอียดทั้งหมด [เยี่ยมชมบล็อกของทีม Power BI](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/)
 
-* [Power BI Q&A สนับสนุนสำหรับแบบจำลองแบบตาราง SQL Server 2016 Analysis Services](service-q-and-a-direct-query.md): เรายินดีอย่างยิ่งที่จะประกาศการปรับปรุงประสบการณ์ของผู้ใช้สำหรับการถามตอบของ Power BI และจุดเริ่มต้นของตัวอย่างสาธารณะของการถามตอบ Power BI สำหรับแหล่งข้อมูลที่เชื่อมต่อเกตเวย์องค์กร โดยเริ่มต้นด้วยการสนับสนุนสำหรับแบบจำลองแบบตาราง SQL Server 2016 Analysis Services สำหรับรายละเอียดทั้งหมด [ดูบล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
+* [Power BI Q&A สนับสนุนสำหรับแบบจำลองแบบตาราง SQL Server 2016 Analysis Services](consumer/end-user-q-and-a-direct-query.md): เรายินดีอย่างยิ่งที่จะประกาศการปรับปรุงประสบการณ์ของผู้ใช้สำหรับการถามตอบของ Power BI และจุดเริ่มต้นของตัวอย่างสาธารณะของการถามตอบ Power BI สำหรับแหล่งข้อมูลที่เชื่อมต่อเกตเวย์องค์กร โดยเริ่มต้นด้วยการสนับสนุนสำหรับแบบจำลองแบบตาราง SQL Server 2016 Analysis Services สำหรับรายละเอียดทั้งหมด [ดูบล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
 * [สนับสนุนไฟล์ภายในเครื่องสำหรับรายงาน Excel](service-excel-workbook-files.md#local-excel-workbooks): ในตอนนี้คุณสามารถอัปโหลดไฟล์ Excel ของคุณจากไดรฟ์ภายในเครื่องหรือบริการพื้นที่จัดเก็บอื่น ๆ และใช้รายงาน Excel ที่เหมือนกับที่คุณใช้ใน Excel Online พร้อมประโยชน์เพิ่มเติมของ Power BI ได้ สำหรับรายละเอียดทั้งหมด [ดูบล็อกโพสต์](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)
 
 **28 เมษายน 2016**
 
-* [ข้อมูลเชิงลึกด่วนสำหรับไทล์แดชบอร์ด](service-insights.md): เมื่อดูไทล์ในโหมดโฟกัส คลิกรับข้อมูลเชิงลึกเพื่อค้นหาไทล์และข้อมูลที่เกี่ยวข้องสำหรับความสัมพันธ์ ค่าผิดปกติ แนวโน้ม ข้อมูลเทียบเวลา การเปลี่ยนจุดในแนวโน้ม และปัจจัยหลักโดยอัตโนมัติภายในเวลาไม่กี่วินาที
+* [ข้อมูลเชิงลึกด่วนสำหรับไทล์แดชบอร์ด](consumer/end-user-insights.md): เมื่อดูไทล์ในโหมดโฟกัส คลิกรับข้อมูลเชิงลึกเพื่อค้นหาไทล์และข้อมูลที่เกี่ยวข้องสำหรับความสัมพันธ์ ค่าผิดปกติ แนวโน้ม ข้อมูลเทียบเวลา การเปลี่ยนจุดในแนวโน้ม และปัจจัยหลักโดยอัตโนมัติภายในเวลาไม่กี่วินาที
 
 สำหรับรายละเอียดทั้งหมด [เยี่ยมชมบล็อกของทีม Power BI](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)
 
@@ -437,7 +437,7 @@ ms.locfileid: "44728214"
 
 **3 ธันวาคม 2015**
 
-* ค้นหาแนวโน้มโดยอัตโนมัติและเผยให้เห็นรูปแบบในชุดข้อมูลด้วยข้อมูลเชิงลึกด่วน: [วิดีโอ](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)หรือ[บทความ](service-insights.md)
+* ค้นหาแนวโน้มโดยอัตโนมัติและเผยให้เห็นรูปแบบในชุดข้อมูลด้วยข้อมูลเชิงลึกด่วน: [วิดีโอ](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)หรือ[บทความ](consumer/end-user-insights.md)
 * [แสดงภาพข้อมูล VMob ของคุณใน Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [การรวม Ppower BI กับ Cortana](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [แสดงตัวอย่างของเกตเวย์ Power BI สำหรับองค์กร](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
@@ -587,7 +587,7 @@ ms.locfileid: "44728214"
 
 * เรามีความยินดีอย่างยิ่งที่จะประกาศ "ความพร้อมใช้งานทั่วไป" (General availability: GA) ของ Power BI ลงทะเบียนวันนี้เพื่อใช้[Power BI Pro](service-self-service-signup-for-power-bi.md) เราได้นำเสนอคุณลักษณะใหม่ที่ดีเยี่ยม โดยเป็นส่วนหนึ่งของการเผยแพร่ GA:
 * ประสบการณ์ใหม่สำหรับการสร้างการแสดงภาพและรายงาน: พื้นที่รายงานใหม่ที่มีตัวเลือกการแสดงภาพมากขึ้น ให้คุณสามารถควบคุมการจัดรูปแบบชื่อเรื่อง คำอธิบายแผนภูมิ แกน สี พื้นหลัง และอื่น ๆ ได้มากขึ้น
-* [กลุ่ม Power BI](service-create-distribute-apps.md): กลุ่มเสนอประสบการณ์การทำงานร่วมกันอย่างมีประสิทธิภาพที่สร้างขึ้นภายในกลุ่ม Office 365
+* [กลุ่ม Power BI](consumer/end-user-create-apps.md): กลุ่มเสนอประสบการณ์การทำงานร่วมกันอย่างมีประสิทธิภาพที่สร้างขึ้นภายในกลุ่ม Office 365
 * [ชุดเนื้อหาองค์กร](service-organizational-content-pack-introduction.md): Power BI ช่วยให้การสร้างแดชบอร์ดและรายงานทำได้ง่ายมาก และตอนนี้ ผู้ใช้สามารถเผยแพร่เนื้อหานี้ไปยังแกลเลอรีเนื้อหาขององค์กรได้แล้ว
 * [นำเข้าไฟล์ Excel ทั้งหมด](service-excel-workbook-files.md): คุณสามารถนำเข้าเวิร์กบุ๊ก Excel ใด ๆ ที่จัดเก็บบน OneDrive for Business ลงใน Power BI และดูทั้งเวิร์กบุ๊กได้ เหมือนกับที่คุณดำเนินการใน Excel Online
 * [นำไฟล์ CSV เข้ามา](service-get-data-from-files.md): เช่นเดียวกับไฟล์ Excel หรือไฟล์ Power BI Desktop ไฟล์ข้อความค่าที่คั่นด้วยเครื่องหมายจุลภาค (CSV) ยังเป็นชุดข้อมูลสำหรับแดชบอร์ด Power BI และรายงานของคุณได้

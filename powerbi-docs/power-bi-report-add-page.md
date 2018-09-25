@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 48980bf4ded44f9c383b38606747d14b5a5725c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5a6600fe6c60d5f108b9203508448ef3f1778a7e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34237441"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548743"
 ---
 # <a name="add-a-page-to-a-power-bi-report-in-power-bi-service-and-power-bi-desktop"></a>เพิ่มหน้าไปยังรายงานของ Power BI ในบริการ Power BI และ Power BI Desktop
 ไม่มีเหตุผลที่จะรวบรวมสิ่งต่างๆ ไว้ในหน้ารายงานเพียงหน้าเดียว - เพียงแค่เพิ่มหน้าว่างหน้าใหม่ 
 
-การเพิ่มและการทำซ้ำหน้ารายงานจะต้องมีสิทธิ์ในการแก้ไขรายงาน ในบริการของ Power BI หมายถึงการเปิดรายงานใน[มุมมองการแก้ไข](service-reading-view-and-editing-view.md) 
+การเพิ่มและการทำซ้ำหน้ารายงานจะต้องมีสิทธิ์ในการแก้ไขรายงาน ในบริการของ Power BI หมายถึงการเปิดรายงานใน[มุมมองการแก้ไข](consumer/end-user-reading-view.md) 
 
 ## <a name="add-a-new-blank-page"></a>เพิ่มหน้าว่างใหม่
 เลือกสีเหลืองพร้อมไอคอน จากนั้นพิมพ์ชื่อใหม่สำหรับหน้านั้น  
@@ -35,9 +35,9 @@ ms.locfileid: "34237441"
 หน้าใหม่ของคุณได้รับการสร้างขึ้นและกลายเป็นหน้าที่ใช้งานอยู่ เมื่อต้องการเปลี่ยนชื่อหน้า ให้ดับเบิลคลิกชื่อที่อยู่บนแท็บที่จะเน้น แล้วพิมพ์ชื่อใหม่  สำหรับข้อมูลเพิ่มเติม โปรดดู[การเปลี่ยนชื่อในบริการของ Power BI](service-rename.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-อ่านข้อมูลเพิ่มเติมเกี่ยวกับ[รายงานใน Power BI](service-reports.md)
+อ่านข้อมูลเพิ่มเติมเกี่ยวกับ[รายงานใน Power BI](consumer/end-user-reports.md)
 
-[Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)
+[Power BI แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

@@ -11,15 +11,15 @@ ms.topic: conceptual
 ms.date: 03/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8083e2aba9a2aa5b8bba27995e9fe261a76084c9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 380567441fafec92d1f5e9e6b135b797264df40f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728076"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543579"
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>ทำซ้ำหน้ารายงานใน Power BI
-ทำซ้ำหน้ารายงานในบริการของ Power BI หรือ Power BI Desktop จำเป็นต้องมีสิทธิ์ในการแก้ไขรายงาน ในบริการของ Power BI หมายถึงการเปิดรายงานใน[มุมมองการแก้ไข](service-reading-view-and-editing-view.md) 
+ทำซ้ำหน้ารายงานในบริการของ Power BI หรือ Power BI Desktop จำเป็นต้องมีสิทธิ์ในการแก้ไขรายงาน ในบริการของ Power BI หมายถึงการเปิดรายงานใน[มุมมองการแก้ไข](consumer/end-user-reading-view.md) 
 
 
 1. ใน Power BI เปิดรายงานที่มีอย่างน้อยหนึ่งหน้า 
@@ -36,7 +36,7 @@ ms.locfileid: "44728076"
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
 อ่านเพิ่มเติมเกี่ยวกับ[การแสดงภาพในรายงาน Power BI](visuals/power-bi-report-visualizations.md)    
 [เพิ่มหน้าใหม่ลงในรายงาน](power-bi-report-add-page.md)    
-[Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)    
+[Power BI แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)    
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

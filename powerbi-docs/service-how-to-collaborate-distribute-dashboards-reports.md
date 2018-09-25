@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726673"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545762"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>ฉันควรทำงานร่วมกัน และแชร์ใน Power BI ได้อย่างไร?
 
@@ -57,7 +57,7 @@ ms.locfileid: "44726673"
 
 ![ไอคอนเผยแพร่แอป](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-สามารถค้นหาและติดตั้งแอปได้ง่าย ๆ ในบริการของ Power BI ([https://powerbi.com](https://powerbi.com)) คุณสามารถส่งลิงก์โดยตรงไปยังแอป ให้กับผู้ใช้ทางธุรกิจ หรือพวกเขาสามารถค้นหาได้ใน AppSource ถ้าผู้ดูแลระบบ Power BI ของคุณ ให้สิทธิ์แก่คุณ คุณสามารถติดตั้งแอปลงในบัญชีผู้ใช้ Power BI ของเพื่อนร่วมงานคุณโดยอัตโนมัติ อ่านเพิ่มเติมเกี่ยวกับ[การเผยแพร่แอปของคุณ](service-create-distribute-apps.md) 
+สามารถค้นหาและติดตั้งแอปได้ง่าย ๆ ในบริการของ Power BI ([https://powerbi.com](https://powerbi.com)) คุณสามารถส่งลิงก์โดยตรงไปยังแอป ให้กับผู้ใช้ทางธุรกิจ หรือพวกเขาสามารถค้นหาได้ใน AppSource ถ้าผู้ดูแลระบบ Power BI ของคุณ ให้สิทธิ์แก่คุณ คุณสามารถติดตั้งแอปลงในบัญชีผู้ใช้ Power BI ของเพื่อนร่วมงานคุณโดยอัตโนมัติ อ่านเพิ่มเติมเกี่ยวกับ[การเผยแพร่แอปของคุณ](consumer/end-user-create-apps.md) 
 
 หลังจากที่พวกเขาติดตั้งแอปแล้ว พวกเขาสามารถดูแอปในเบราว์เซอร์หรืออุปกรณ์เคลื่อนที่ของพวกเขา
 
@@ -88,7 +88,7 @@ ms.locfileid: "44726673"
 คุณยังสามารถ[แชร์สแนปช็อตของไทล์](consumer/mobile/mobile-windows-10-phone-app-get-started.md)จากแอป Power BI สำหรับอุปกรณ์ที่ Windows 10 ได้
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>พิมพ์ หรือบันทึกเป็น PDF หรือไฟล์แบบคงที่อื่น ๆ
-คุณสามารถพิมพ์ หรือบันทึกเป็น PDF (หรือรูปแบบไฟล์แบบคงที่อื่น ๆ) สำหรับทั้งแดชบอร์ด ไทล์แดชบอร์ด หน้ารายงาน หรือการแสดงภาพจากบริการของ Power BI รายงานสามารถพิมพ์ออกมาทีละหน้าในแต่ละครั้งเท่านั้น -- คุณไม่สามารถพิมพ์รายงานทั้งหมดในครั้งเดียว อ่านเพิ่มเติมเกี่ยวกับ[การพิมพ์ หรือการบันทึกเป็นไฟล์แบบคงที่](service-print.md)
+คุณสามารถพิมพ์ หรือบันทึกเป็น PDF (หรือรูปแบบไฟล์แบบคงที่อื่น ๆ) สำหรับทั้งแดชบอร์ด ไทล์แดชบอร์ด หน้ารายงาน หรือการแสดงภาพจากบริการของ Power BI รายงานสามารถพิมพ์ออกมาทีละหน้าในแต่ละครั้งเท่านั้น -- คุณไม่สามารถพิมพ์รายงานทั้งหมดในครั้งเดียว อ่านเพิ่มเติมเกี่ยวกับ[การพิมพ์ หรือการบันทึกเป็นไฟล์แบบคงที่](consumer/end-user-print.md)
 
 ## <a name="publish-to-the-web"></a>เผยแพร่ไปยังเว็บ
 
@@ -99,7 +99,7 @@ ms.locfileid: "44726673"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [แชร์แดชบอร์ดกับเพื่อนร่วมงานและผู้อื่น](service-share-dashboards.md)
-* [สร้างและเผยแพร่แอปใน Power BI](service-create-distribute-apps.md)
+* [สร้างและเผยแพร่แอปใน Power BI](consumer/end-user-create-apps.md)
 * มีคำติชมหรือไม่? ไปที่[ไซต์ชุมชน Power BI](https://community.powerbi.com/) พร้อมกับคำแนะนำของคุณ
 * มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

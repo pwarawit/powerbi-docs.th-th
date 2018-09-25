@@ -2,7 +2,7 @@
 title: แผนภูมิแบบน้ำตกใน Power BI
 description: แผนภูมิแบบน้ำตกใน Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: feb608455add8740d7894fa2cec3c54a8a26944e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744752"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565831"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>แผนภูมิแบบน้ำตกใน Power BI
 แผนภูมิแบบน้ำตกจะแสดงผลรวมสะสมเป็นค่าที่เพิ่มขึ้นหรือลดลง แผนภูมินี้มีประโยชน์สำหรับการวิเคราะห์ว่าค่าเริ่มต้น (ตัวอย่างเช่น กำไรสุทธิ) ได้รับผลกระทบอย่างไร เมื่อมีการเปลี่ยนแปลงเชิงบวก และเชิงลบที่เกิดขึ้นอย่างต่อเนื่องในช่วงระยะเวลาหนึ่ง
@@ -74,13 +74,13 @@ ms.locfileid: "44744752"
 การเน้นคอลัมน์ในแผนภูมิแบบน้ำตกจะกรองข้ามการแสดงภาพอื่นๆ ในหน้ารายงาน และในทางกลับกัน การยกเลิกการเน้นก็จะเป็นการยกเลิกการดำเนินการดังกล่าว อย่างไรก็ตาม คอลัมน์ผลรวมจะไม่ทริกเกอร์การเน้น หรือตอบสนองกับการกรองข้าม
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[รายงานใน Power BI](../service-reports.md)
+[รายงานใน Power BI](../consumer/end-user-reports.md)
 
 [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [การแสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)
 
-[Power BI - แนวคิดพื้นฐาน](../service-basic-concepts.md)
+[Power BI - แนวคิดพื้นฐาน](../consumer/end-user-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 617809e072a492fb9887930e58bafd89ca8201e8
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310302"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544982"
 ---
 # <a name="static-content-in-power-bi-reports"></a>เนื้อหาคงที่ในรายงาน Power BI
 สามารถเพิ่มกล่องข้อความและรูปร่าง ลงในรายงานโดยใช้บริการ Power BI service และ Power BI Desktop ในทั้งสองกรณี คุณต้องแก้ไขสิทธิ์สำหรับรายงาน ถ้ารายงานมีการแชร์ให้กับคุณในบริการของ Power BI คุณจะไม่ได้สิทธิ์การแก้ไข 
@@ -65,6 +65,6 @@ Watch Will ใช้ Power BI Desktop เพื่อ[เพิ่มรูป�
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
 [เพิ่มไฮเปอร์ลิงก์ให้กล่องข้อความ](service-add-hyperlink-to-text-box.md)
 
-[Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)
+[Power BI แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

@@ -1,21 +1,21 @@
 ---
 title: ใช้วิชวลเมทริกซ์ใน Power BI Desktop
 description: เรียนรู้วิธีที่วิชวลเมทริกซ์ เปิดให้ใช้งานรูปแบบขั้นและการไฮไลต์ระดับแยกย่อยใน Power BI Desktop
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 396028e1bcb58e94e545d848cf3cae3101091326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e08eeed7b4adf1a392d2661613dd190cce1fb52f
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748921"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565946"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>ใช้วิชวลเมทริกซ์ใน Power BI Desktop
 ด้วยคุณลักษณะวิชวล**เมทริกซ์** คุณสามารถสร้างวิชวลเมทริกซ์ (บางครั้งเรียกว่า*ตาราง*) ในรายงาน **Power BI Desktop** และทำไฮไลต์เชื่อมโยงองค์ประกอบภายในเมทริกซ์ กับวิชวลอื่น ๆ นอกจากนี้ คุณยังสามารถเลือกแถว คอลัมน์ และแม้แต่ละเซลล์ และทำไฮไลต์เชื่อมโยง สุดท้าย เพื่อทำให้ใช้งานพื้นที่เค้าโครงได้ดียิ่งขึ้น วิชวลเมทริกซ์สนับสนุนรูปแบบขั้น

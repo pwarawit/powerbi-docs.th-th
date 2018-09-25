@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b1c68312f60761964194d7be810b5ee490785cb2
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: fa572b44445c4fcf929286b68222b2faf4f9d7d2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624125"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548292"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>เชื่อมต่อกับไฟล์ที่จัดเก็บใน OneDrive สำหรับพื้นที่ทำงานของแอป Power BI
-หลังจากที่คุณได้[สร้างพื้นที่ทำงานของแอปใน Power BI](service-create-distribute-apps.md)คุณสามารถจัดเก็บ Excel, CSV และไฟล์ Power BI Desktop ของคุณบน OneDrive for Business สำหรับพื้นที่ทำงานแอป Power BI ของคุณ คุณสามารถปรับปรุงแฟ้มที่คุณเก็บไว้ใน OneDrive และการอัปเดตเหล่านั้นมีผลในรายงาน Power BI และแดชบอร์ดที่ยึดตามไฟล์เหล่านั้นโดยอัตโนมัติ 
+หลังจากที่คุณได้[สร้างพื้นที่ทำงานของแอปใน Power BI](consumer/end-user-create-apps.md)คุณสามารถจัดเก็บ Excel, CSV และไฟล์ Power BI Desktop ของคุณบน OneDrive for Business สำหรับพื้นที่ทำงานแอป Power BI ของคุณ คุณสามารถปรับปรุงแฟ้มที่คุณเก็บไว้ใน OneDrive และการอัปเดตเหล่านั้นมีผลในรายงาน Power BI และแดชบอร์ดที่ยึดตามไฟล์เหล่านั้นโดยอัตโนมัติ 
 
 > [!NOTE]
 > ตัวอย่างการใช้งานพื้นที่ทำงานใหม่จะเปลี่ยนความสัมพันธ์ระหว่างพื้นที่ทำงาน Power BI และกลุ่ม Office 365 คุณจะไม่สามารถสร้างกลุ่ม Office 365 โดยอัตโนมัติทุกครั้งที่คุณสร้างพื้นที่ทำงานใหม่ อ่านเกี่ยวกับ[สร้างพื้นที่ทำงานใหม่ (ตัวอย่าง)](service-create-the-new-workspaces.md)
@@ -79,7 +79,7 @@ ms.locfileid: "39624125"
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [สร้างแอปและพื้นที่ทำงานแอปใน Power BI](service-create-distribute-apps.md)
+* [สร้างแอปและพื้นที่ทำงานแอปใน Power BI](consumer/end-user-create-apps.md)
 * [นำเข้าข้อมูลจากเวิร์กบุ๊ก Excel](service-get-data-from-files.md)
 * [เชื่อมต่อไปยังเวิร์กบุ๊ก Excel ทั้งหมด](service-excel-workbook-files.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

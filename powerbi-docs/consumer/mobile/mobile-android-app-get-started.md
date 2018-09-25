@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 0762ee808c089b73c69be99a38bfad63c231bc54
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c33e7dd69d4bd0a0d09ebc124739d5d017c631bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44745035"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550040"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>เริ่มต้นใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ บนอุปกรณ์ Android
 แอป Android สำหรับ Microsoft Power BI มอบประสบการณ์ BI บนอุปกรณ์เคลื่อนที่สำหรับ Power BI, เซิร์ฟเวอร์รายงาน Power BI และ Reporting Services ดูและโต้ตอบกับแดชบอร์ดของบริษัทของคุณ ภายในองค์กรและในคลาวด์ จากที่ใดก็ได้ ผ่านอุปกรณ์เคลื่อนที่ ที่รองรับระบบสัมผัสและดูข้อมูลสดได้ สำรวจข้อมูลในแดชบอร์ด และแชร์กับเพื่อนร่วมงานของคุณผ่านอีเมลหรือการส่งข้อความ 
@@ -119,11 +119,11 @@ Microsoft Intune ช่วยให้องค์กรควบคุมรา
 ต่อไปนี้คือสิ่งอื่น ๆ ที่คุณสามารถทำได้ในแอปอุปกรณ์ Android สำหรับ Power BI ที่มีแดชบอร์ดและรายงานใน Power BI, รายงานและ KPI ในพอร์ทัลของเว็บเซิร์ฟเวอร์รายงาน Power BI หรือ Reporting Services
 
 ### <a name="power-bi-dashboards-and-reports"></a>แดชบอร์ดและรายงาน Power BI
-* ดู[แอปของคุณ](../../service-install-use-apps.md)
+* ดู[แอปของคุณ](../end-user-apps.md)
 * ดู[แดชบอร์ด](../../mobile-apps-view-dashboard.md)ของคุณ
 * สำรวจ[ไทล์บนแดชบอร์ดของคุณ](../../mobile-tiles-in-the-mobile-apps.md)
 * เปิด[รายงาน Power BI](../../mobile-reports-in-the-mobile-apps.md)
-* ดู[แอปของคุณ](../../service-install-use-apps.md)
+* ดู[แอปของคุณ](../end-user-apps.md)
 * [ใส่คำอธิบายประกอบ และแชร์ไทล์](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * แชร์[แดชบอร์ด](../../mobile-share-dashboard-from-the-mobile-apps.md)
 * [สแกนรหัส QR Power BI](../../mobile-apps-qr-code.md) ด้วยมือถือ Android ของคุณ เพื่อเปิดไทล์แดชบอร์ดหรือรายงานที่เกี่ยวข้อง 

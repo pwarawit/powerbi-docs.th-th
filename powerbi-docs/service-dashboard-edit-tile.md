@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598989"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546107"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>แก้ไขหรือลบแดชบอร์ดไทล์
 
@@ -36,7 +36,7 @@ ms.locfileid: "37598989"
 * [ลบไทล์](#delete)
   
   > [!TIP]
-  > เมื่อต้องเปลี่ยนการแสดงภาพที่แสดงบนไทล์เอง ลบไทล์ และเพิ่ม[แดชบอร์ดไทล์](service-dashboard-tiles.md)ใหม่
+  > เมื่อต้องเปลี่ยนการแสดงภาพที่แสดงบนไทล์เอง ลบไทล์ และเพิ่ม[แดชบอร์ดไทล์](consumer/end-user-tiles.md)ใหม่
 
   
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
@@ -142,11 +142,11 @@ ms.locfileid: "37598989"
 
 - - -
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[ไทล์แดชบอร์ดใน Power BI](service-dashboard-tiles.md)
+[ไทล์แดชบอร์ดใน Power BI](consumer/end-user-tiles.md)
 
-[แดชบอร์ดใน Power BI](service-dashboards.md)
+[แดชบอร์ดใน Power BI](consumer/end-user-dashboards.md)
 
-[Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)
+[Power BI แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 8b7c46ad1e9ea9c4c79a8f5a1b48c73ab3336306
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 7253a340ce0852039a08d0ed17c488fc8fdbfa69
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157580"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545933"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>เขียนชุดเนื้อหาทมเพลตใน Power BI
 การเขียนชุดเนื้อหาเทมเพลตใช้ Power BI Desktop และ PowerBI.com มี 4 องค์ประกอบสำหรับชุดเนื้อหาของคุณ:
@@ -22,7 +22,7 @@ ms.locfileid: "39157580"
 * แบบสอบถามช่วยให้คุณสามารถ[เชื่อมต่อ](desktop-connect-to-data.md)และ[แปลง](desktop-query-overview.md)ข้อมูล รวมถึงกำหนด[พารามิเตอร์](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)  
 * รูปแบบข้อมูลเพื่อสร้าง[ความสัมพันธ์](desktop-create-and-manage-relationships.md) [หน่วยวัด](desktop-measures.md)และการปรับปรุงการถามตอบ  
 * [หน้า](desktop-report-view.md)รายงานรวมภาพและตัวกรองเพื่อให้ข้อมูลเชิงลึกไปยังข้อมูลของคุณ  
-* [แดชบอร์ด](service-dashboards.md)และ[ไทล์](service-dashboard-create.md)เสนอภาพรวมของข้อมูลเชิงลึกที่รวมอยู่  
+* [แดชบอร์ด](consumer/end-user-dashboards.md)และ[ไทล์](service-dashboard-create.md)เสนอภาพรวมของข้อมูลเชิงลึกที่รวมอยู่  
 
 คุณอาจคุ้นเคยกับแต่ละชิ้นที่เป็นคุณลักษณะ Power BI ที่มีอยู่ เมื่อมีการสร้างชุดเนื้อหา มีสิ่งต่าง ๆ เพิ่มเติมที่ควรพิจารณาสำหรับแต่ละมุมมอง ดูแต่ละส่วนด้านล่างสำหรับรายละเอียดเพิ่มเติม
 

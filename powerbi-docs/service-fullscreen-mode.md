@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 58a739c0d566030d2b09094264da14f6afd6d6fc
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83b9d87bf494c3b9e974ee9dfdfa97beb68a6579
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727593"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545808"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>โหมดเต็มหน้าจอในบริการ Power BI
 ## <a name="what-is-full-screen-mode"></a>โหมดเต็มหน้าจอคืออะไร
@@ -24,7 +24,7 @@ ms.locfileid: "44727593"
 
 แสดงเนื้อหา Power BI ของคุณ (แดชบอร์ด หน้ารายงาน ไทล์ และการแสดงภาพ) โดยปราศจากการรบกวนของเมนูและแถบนำทาง  คุณสามารถดูในมุมมองไม่เปลี่ยนได้แบบเต็มรูปแบบเนื้อหาของคุณได้อย่างรวดเร็ว ตลอดเวลา ซึ่งในบางครั้งจะเรียกว่าโหมดโทรทัศน์ ฟังก์ชันที่พร้อมใช้งานในโหมดเต็มหน้าจอแตกต่างกันไปตามเนื้อหา 
 
-ถ้าคุณกำลังใช้ Power BI บนมือถือ [หน้าจอแบบเต็มพร้อมใช้งานสำหรับแอป Windows 10 สำหรับอุปกรณ์เคลื่อนที่](consumer/mobile/mobile-windows-10-app-presentation-mode.md) Power BI Desktop ไม่มีโหมดเต็มหน้าจอสำหรับรายงานหรือการแสดงภาพ แต่มีพอดีกับหน้าสำหรับ [มุมมองความสัมพันธ์และมุมมองรายงาน](desktop-report-view.md) และ [โหมดโฟกัสสำหรับภาพรายงาน](service-focus-mode.md)
+ถ้าคุณกำลังใช้ Power BI บนมือถือ [หน้าจอแบบเต็มพร้อมใช้งานสำหรับแอป Windows 10 สำหรับอุปกรณ์เคลื่อนที่](consumer/mobile/mobile-windows-10-app-presentation-mode.md) Power BI Desktop ไม่มีโหมดเต็มหน้าจอสำหรับรายงานหรือการแสดงภาพ แต่มีพอดีกับหน้าสำหรับ [มุมมองความสัมพันธ์และมุมมองรายงาน](desktop-report-view.md) และ [โหมดโฟกัสสำหรับภาพรายงาน](consumer/end-user-focus.md)
 
  
 
@@ -35,7 +35,7 @@ ms.locfileid: "44727593"
 * การดูบนหน้าจอขนาดเล็ก
 * การตรวจทานในโหมดล็อก คุณสามารถสัมผัสหน้าจอหรือใช้เมาส์เหนือไทล์โดยไม่ต้องเปิดรายงานหรือแดชบอร์ดพื้นฐาน
 
-> **หมายเหตุ** โหมดเต็มหน้าจอแตกต่างจาก[โหมดโฟกัส (ป๊อปอัพ)](service-focus-mode.md)
+> **หมายเหตุ** โหมดเต็มหน้าจอแตกต่างจาก[โหมดโฟกัส (ป๊อปอัพ)](consumer/end-user-focus.md)
 > 
 > 
 
@@ -78,7 +78,7 @@ ms.locfileid: "44727593"
       ![](media/service-fullscreen-mode/exit-fullscreen-new.png)
 
 ## <a name="visualizations-and-dashboard-tiles-in-full-screen-mode"></a>แสดงภาพและแดชบอร์ดไทล์ในโหมดเต็มหน้าจอ
-1. เมื่อต้องการแสดงแดชบอร์ดไทล์และแสดงภาพรายงานในโหมดเต็มหน้าจอ คุณต้องเริ่มต้นด้วยไทล์หรือการแสดงภาพนั้นใน[โหมดโฟกัส](service-focus-mode.md) 
+1. เมื่อต้องการแสดงแดชบอร์ดไทล์และแสดงภาพรายงานในโหมดเต็มหน้าจอ คุณต้องเริ่มต้นด้วยไทล์หรือการแสดงภาพนั้นใน[โหมดโฟกัส](consumer/end-user-focus.md) 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
 2. แล้ว เลือกไอคอนเต็มหน้าจอ ![ไอคอนเต็มหน้าจอ](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  สำหรับไทล์หรือรูปภาพ ไทล์หรือรูปภาพจะแสดงเต็มหน้าจอ โดยไม่มีเมนูหรือแถบนำทาง
@@ -86,8 +86,8 @@ ms.locfileid: "44727593"
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[แดชบอร์ดใน Power BI](service-dashboards.md)  
-[โหมดโฟกัส](service-focus-mode.md)    
+[แดชบอร์ดใน Power BI](consumer/end-user-dashboards.md)  
+[โหมดโฟกัส](consumer/end-user-focus.md)    
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

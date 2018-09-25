@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 586e95ba624bde1d18b5c431a1b9dcbb642b939c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a689a3b04ca3b48c0b924ae62a52315dc3535faf
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748011"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544985"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>สร้างและดูรายการโปรดในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -30,7 +30,7 @@ ms.locfileid: "44748011"
 ![รายการโปรดในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่](./media/mobile-apps-favorites/power-bi-android-favorites-reports.png)
 
 
-คุณยังสามารถ[สร้างแดชบอร์ดและแอป Power BI รายการโปรดได้ในบริการของ Power BI](../../service-dashboard-favorite.md) จากนั้น คุณจะเห็นรายการโปรดที่คุณสร้างในหน้ารายการโปรดของแอปอุปกรณ์เคลื่อนที่
+คุณยังสามารถ[สร้างแดชบอร์ดและแอป Power BI รายการโปรดได้ในบริการของ Power BI](../end-user-favorite.md) จากนั้น คุณจะเห็นรายการโปรดที่คุณสร้างในหน้ารายการโปรดของแอปอุปกรณ์เคลื่อนที่
 
 คุณสามารถทำเครื่องหมายให้ KPI และรายงานบนเซิร์ฟเวอร์รายงาน Power BI หรือพอร์ทัลเว็บ Reporting Services เป็นรายการโปรด และจากนั้น ดูรายการโปรดเหล่านี้ในโฟลเดอร์ที่คุณสะดวกบนอุปกรณ์เคลื่อนที่ พร้อมกับแดชบอร์ด Power BI ตัวโปรดของคุณ
 
@@ -76,6 +76,6 @@ ms.locfileid: "44748011"
 คุณสามารถดูเซิร์ฟเวอร์รายงาน Power BI และ Reporting Services report และ KPI ที่เป็นรายการโปรดของคุณในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ได้ แต่คุณไม่สามารถทำให้เป็นรายการโปรดในแอปสำหรับอุปกรณ์เคลื่อนที่ คุณ[แท็กสิ่งเหล่านี้เป็นรายการโปรดในพอร์ทัลเว็บ](../../report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites) 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [แดชบอร์ดรายการโปรดในบริการของ Power BI](../../service-dashboard-favorite.md) 
+* [แดชบอร์ดรายการโปรดในบริการของ Power BI](../end-user-favorite.md) 
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ed882a339e1ee7d53302dc33a7cedb1a95709b8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 656f32dd28796ec58b7cfcf774248ee30de0085a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249125"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545910"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>ปักหมุดไทล์จากแดชบอร์ดหนึ่งไปยังอีกแดชบอร์ด
-วิธีหนึ่งในการเพิ่ม[แดชบอร์ดไทล์](service-dashboard-tiles.md)ใหม่คือ การคัดลอกจากแดชบอร์ดอื่น แต่ละไทล์เหล่านี้ เป็นลิงก์กลับไปยังตำแหน่งที่ถูกสร้างขึ้นเมื่อคลิก ใน Q&A หรือรายงาน 
+วิธีหนึ่งในการเพิ่ม[แดชบอร์ดไทล์](consumer/end-user-tiles.md)ใหม่คือ การคัดลอกจากแดชบอร์ดอื่น แต่ละไทล์เหล่านี้ เป็นลิงก์กลับไปยังตำแหน่งที่ถูกสร้างขึ้นเมื่อคลิก ใน Q&A หรือรายงาน 
 
 > [!NOTE]
 > คุณไม่สามารถปักหมุดไทล์จากแดชบอร์ดทแชร์ได้
 
 ## <a name="pin-a-tile-to-another-dashboard"></a>ปักหมุดไทล์ไปยังแดชบอร์ดอื่น
 1. [รับข้อมูล](service-get-data.md) ตัวอย่างนี้จะใช้[ตัวอย่างการวิเคราะห IT Spend Analysis ](sample-it-spend.md)
-2. เปิด[แดชบอร์ด](service-dashboards.md)
+2. เปิด[แดชบอร์ด](consumer/end-user-dashboards.md)
 3. วางเคอร์เซอร์เหนือที่ไทล์คุณต้องการปักหมุด เลือกจุดไข่ปลา (...) และเลือก**ปักหมุดไทล์**  
    
    ![เมนูจุดไข่ปลา](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
@@ -42,7 +42,7 @@ ms.locfileid: "34249125"
 6. เลือก**ไปยังแดชบอร์ด** เพื่อดูไทล์ใหม่ ที่นั่น คุณสามารถ[เปลี่ยนชื่อ ปรับขนาด ลิงก์ และย้าย](service-dashboard-edit-tile.md)การแสดงภาพที่ปักหมุดไว้ได้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[เปิด ใน Power BI](service-dashboard-tiles.md)  
-[แดชบอร์ดใน Power BI](service-dashboards.md)  
+[เปิด ใน Power BI](consumer/end-user-tiles.md)  
+[แดชบอร์ดใน Power BI](consumer/end-user-dashboards.md)  
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

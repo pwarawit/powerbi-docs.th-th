@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 250ccba882a045417b2ae424cac81b6561cb2a41
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18e33fa4767eb0d9e457589ea3fa3b61721dce51
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728260"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548039"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>แผนที่ ArcGIS ในบริการของ Power BI และ Power BI Desktop จาก Esri
 บทช่วยสอนนี้ถูกเขียนจากมุมมองของผู้สร้างแผนที่ ArcGIS เมื่อผู้สร้างแชร์แผนที่ ArcGIS ให้กับเพื่อนร่วมงาน ผู้ร่วมงานสามารถดูและโต้ตอบกับแผนที่ แต่ไม่สามารถบันทึกการเปลี่ยนแปลงได้ เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับการดูแผนที่ ArcGIS ดูที่[โต้ตอบกับแผนที่ ArcGIS](visuals/power-bi-visualizations-arcgis.md)
@@ -61,7 +61,7 @@ ArcGIS Maps for Power BI ให้บริการโดย Esri (www.esri.com
 2. เลือกกล่องกาเครื่องหมาย **ArcGIS Maps for Power BI** คุณจะต้องรีสตาร์ต Power BI หลังจากที่คุณทำการเลือกแล้ว
    
     ![](media/power-bi-visualization-arcgis/power-bi-use-arcgis-new.png)
-3. เปิดรายงานใน[มุมมองการแก้ไข](service-reading-view-and-editing-view.md) เลือกไอคอน ArcGIS Maps for Power BI จากบานหน้าต่าง การจัดรูปแบบการแสดงข้อมูล
+3. เปิดรายงานใน[มุมมองการแก้ไข](consumer/end-user-reading-view.md) เลือกไอคอน ArcGIS Maps for Power BI จากบานหน้าต่าง การจัดรูปแบบการแสดงข้อมูล
    
     ![](media/power-bi-visualization-arcgis/power-bi-viz-pane2.png)
 4. Power BI เพิ่มเแม่แบบแผนที่ ArcGIS ที่ว่างเปล่าไปยังพื้นที่ของรายงาน

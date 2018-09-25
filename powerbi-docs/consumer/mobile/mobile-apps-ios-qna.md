@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 320ab8cef7ba2b36846550dcdb3171c7fb4b788a
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744880"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548131"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>นักวิเคราะห์เสมือนของถามตอบ ในแอป iOS - Power BI
 
@@ -137,11 +137,11 @@ ms.locfileid: "44744880"
 คุณสามารถปรับปรุงผลลัพธ์ที่คุณและลูกค้าของคุณได้รับ เมื่อมีการใช้นักวิเคราะห์เสมือนของถามตอบในชุดข้อมูลได้ด้วยการถามคำถามที่กำหนดเป้าหมายแล้วเพิ่มมากขึ้น หรือการปรับปรุงชุดข้อมูลดังกล่าว
 
 ### <a name="how-to-ask-questions"></a>วิธีการถามคำถาม
-* ทำตาม [เคล็ดลับเหล่านี้ในการถามคำถามในถามตอบ](../../service-q-and-a-tips.md) ในบริการของ Power BI หรือนักวิเคราะห์เสมือนของถามตอบในแอปสำหรับอุปกรณ์เคลื่อนที่ระบบ iOS ของคุณ
+* ทำตาม [เคล็ดลับเหล่านี้ในการถามคำถามในถามตอบ](../end-user-q-and-a-tips.md) ในบริการของ Power BI หรือนักวิเคราะห์เสมือนของถามตอบในแอปสำหรับอุปกรณ์เคลื่อนที่ระบบ iOS ของคุณ
 
 ### <a name="how-to-enhance-the-dataset"></a>วิธีการปรับปรุงชุดข้อมูล
 * ปรับปรุงชุดข้อมูลใน Power BI Desktop หรือในบริการของ Power BI เพื่อ [ทำให้ข้อมูลของคุณสามารถใช้งานได้อย่างมีประสิทธิภาพในการถามตอบและนักวิเคราะห์เสมือนของถามตอบ](../../service-prepare-data-for-q-and-a.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [การถามตอบในบริการ Power BI](../../power-bi-q-and-a.md)
+* [การถามตอบในบริการ Power BI](../end-user-q-and-a.md)
 * มีคำถามหรือไม่ โปรดดู [ส่วนเนื้อหาแอปสำหรับอุปกรณ์เคลื่อนที่ของชุมชน Power BI](https://go.microsoft.com/fwlink/?linkid=839277)

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 732f27a8272c780d156912da904bab82de03f326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44745000"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544014"
 ---
 # <a name="combo-chart-in-power-bi"></a>แผนภูมิผสมใน Power BI
 ใน Power BI แผนภูมิผสม เป็นการแสดงผลภาพที่รวมเอาแผนภูมิเส้นและแผนภูมิคอลัมน์เข้าด้วยกัน การรวมแผนภูมิทั้ง 2 ให้เป็นหนึ่งเดียว ช่วยให้คุณทำการเปรียบเทียบข้อมูลได้อย่างรวดเร็ว
@@ -103,13 +103,13 @@ ms.locfileid: "44745000"
 
 จากตรงนี้ คุณอาจต้องการ:
 
-* [เพิ่มแผนภูมิผสมเป็นไทล์แดชบอร์ด](../service-dashboard-tiles.md)
+* [เพิ่มแผนภูมิผสมเป็นไทล์แดชบอร์ด](../consumer/end-user-tiles.md)
 * [บันทึกรายงาน](../service-report-save.md)
 * [ทำให้รายงานสามารถเข้าถึงได้มากขึ้นสำหรับผู้ทุพพลภาพ](../desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>การไฮไลต์แบบเชื่อมโยง และการกรองข้าม
 
-การไฮไลต์คอลัมน์หรือเส้นในแผนภูมิผสม เป็นการไฮไลต์แบบเชื่อมโยงและกรองข้ามไปยังการแสดงภาพอื่น ๆ บนหน้ารายงาน และในทางกลับกัน การยกเลิกไฮไลต์จะเป็นการยกเลิกการกระทำดังกล่าว ใช้[การปฏิสัมพันธ์กับภาพ](../service-reports-visual-interactions.md) เพื่อเปลี่ยนคุณลักษณะเริ่มต้นนี้
+การไฮไลต์คอลัมน์หรือเส้นในแผนภูมิผสม เป็นการไฮไลต์แบบเชื่อมโยงและกรองข้ามไปยังการแสดงภาพอื่น ๆ บนหน้ารายงาน และในทางกลับกัน การยกเลิกไฮไลต์จะเป็นการยกเลิกการกระทำดังกล่าว ใช้[การปฏิสัมพันธ์กับภาพ](../consumer/end-user-interactions.md) เพื่อเปลี่ยนคุณลักษณะเริ่มต้นนี้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
@@ -117,6 +117,6 @@ ms.locfileid: "44745000"
 
 [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI - แนวคิดพื้นฐาน](../service-basic-concepts.md)
+[Power BI - แนวคิดพื้นฐาน](../consumer/end-user-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

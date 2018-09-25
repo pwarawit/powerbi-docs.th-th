@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 44244bf746c1a11229d2041b4c2b43871fa7a199
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6955bc0c41e5a6a145d2101ab527d753f98d5c61
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944548"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550086"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการวิเคราะห์ร้านค้าปลีกสำหรับ Power BI: ชมการแนะนำ
 
@@ -165,5 +165,5 @@ ms.locfileid: "36944548"
 * [ดาวน์โหลดไฟล์ zip ของไฟล์ตัวอย่างทั้งหมด](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [ดาวน์โหลดเวิร์กบุ๊ก Excel สำหรับตัวอย่างนี้ Power BI](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [รับข้อมูล (สำหรับ Power BI)](service-get-data.md)    
-* [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)    
+* [Power BI - แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)    
 * มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

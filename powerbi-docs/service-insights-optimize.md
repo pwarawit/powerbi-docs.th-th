@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: eed9b668cccf3bc8252d70f1dee94675063a8844
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fbf49a9ddbec5f087a28e51144c782e2f1739db0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247768"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546972"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>ปรับข้อมูลของคุณให้เหมาะสมสำหรับข้อมูลเชิงลึกด่วนของ Power BI
 ต้องการปรับปรุงผลลัพธ์ข้อมูลเชิงลึกด่วนหรือไม่?  ถ้าคุณเป็นเจ้าของชุดข้อมูล ลองขั้นตอนเหล่านี้:
@@ -26,7 +26,7 @@ ms.locfileid: "34247768"
 * คุณได้รับการข้อความข้อผิดพลาดที่ระบุว่า ข้อมูลของคุณไม่มีนัยสำคัญทางสถิติหรือไม่?  ซึ่งสามารถเกิดขึ้นได้กับแบบจำลองที่เรียบง่ายมาก หรือแบบจำลองที่ไม่มีวันที่หรือตัวเลขคอลัมน์ เมื่อต้องสร้างข้อมูลเชิงลึก ชุดข้อมูลของคุณต้องมีอย่างน้อยหนึ่งมิติและหน่วยวัดหนึ่ง
 
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
-[ข้อมูลเชิงลึกด่วนใน Power BI](service-insights.md)
+[ข้อมูลเชิงลึกด่วนใน Power BI](consumer/end-user-insights.md)
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

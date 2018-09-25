@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623941"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543960"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>ทำงานร่วมกันในพื้นที่ทำงานของกล่มุของแอป Power BI ของคุณ
 แอปพื้นที่ทำงาน Power BI คือตำแหน่งที่ยอดเยี่ยมเพื่อทำงานร่วมกับเพื่อนร่วมงานของคุณบนแดชบอร์ด รายงาน และชุดข้อมูลเพื่อสร้าง*apps* ทำงานร่วมกันไม่ได้จบด้วยพื้นที่ทำงานใน Power BI Office 365 เสนอกลุ่มอื่นๆบริการ เช่นแชร์ไฟล์บน OneDrive สำหรับธุรกิจ การสนทนาใน Exchange ปฏิทินที่ใช้ร่วมกัน และ tasks และอื่น ๆ อ่านเพิ่มเติมเกี่ยวกับ[กลุ่มใน Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)
@@ -38,7 +38,7 @@ ms.locfileid: "39623941"
    
     ![แท็บรายงาน](media/service-collaborate-power-bi-workspace/power-bi-workspace-report.png)
    
-    จากที่นี่ มันเหมือนกับรายงานอื่นๆ ใน Power BI คุณและผู้อื่นในพื้นที่ทำงานของแอปสามารถ[ปรับเปลี่ยนรายงาน](service-reports.md)และบันทึกไทล์ที่แดชบอร์ดที่คุณเลือกได้
+    จากที่นี่ มันเหมือนกับรายงานอื่นๆ ใน Power BI คุณและผู้อื่นในพื้นที่ทำงานของแอปสามารถ[ปรับเปลี่ยนรายงาน](consumer/end-user-reports.md)และบันทึกไทล์ที่แดชบอร์ดที่คุณเลือกได้
 
 ## <a name="collaborate-in-office-365"></a>ทำงานร่วมกันใน Office 365
 ทำงานร่วมกันใน Office 365 เริ่มต้นจากพื้นที่ทำงานของแอปใน Power BI
@@ -77,7 +77,7 @@ ms.locfileid: "39623941"
 ถ้าคุณเป็นเจ้าของหรือผู้ดูแลระบบของพื้นที่ทำงานของแอป คุณสามารถเพิ่มหรือลบสมาชิกในพื้นที่ทำงานได้ อ่านเพิ่มเติมเกี่ยวกับ[จัดการพื้นที่ทำงานของแอป Power BI](service-manage-app-workspace-in-power-bi-and-office-365.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [สร้างแอปและพื้นที่ทำงานแอปใน Power BI](service-create-distribute-apps.md)
+* [สร้างแอปและพื้นที่ทำงานแอปใน Power BI](consumer/end-user-create-apps.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 * มีคำติชมหรือไม่ เยี่ยมชม[แนวคิด Power BI](https://ideas.powerbi.com/forums/265200-power-bi)
 

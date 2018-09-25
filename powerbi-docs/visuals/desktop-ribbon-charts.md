@@ -1,21 +1,21 @@
 ---
 title: ใช้แผนภูมิ ribbon ใน Power BI
 description: สร้างและใช้แผนภูมิ ribbon ในบริการ Power BI และ Power BI Desktop
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0d7dbf878c32ee29ea490e10f27f1bda49f20b08
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e7bd79b8d93bba4395922fb39faaf423109f7b02
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744875"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566130"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>ใช้แผนภูมิ ribbon ใน Power BI
 คุณสามารถใช้แผนภูมิ Ribbon ใน **Power BI** เพื่อแสดงภาพข้อมูล และทราบได้อย่างรวดเร็วว่า ข้อมูลประเภทไหนมีอันดับสูงสุด (มีค่ามากสุด) ได้ แผนภูมิ Ribbon เหมาะกับการแสดงการเปลี่ยนแปลงอันดับ โดยที่ค่าอันดับสูงสุดจะแสดงอยู่ด้านบนสุดของแต่ละช่วงเวลาเสมอ แผนภูมิ Ribbon มีให้ใช้งานใน **Power BI Desktop** ตั้งแต่รุ่นเดือนกันยายน 2017 และในการปรับปรุงรุ่นต่อไปของ**บริการของ Power BI**

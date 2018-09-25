@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aa73da576a64a3245a3e8a9deab124dcefbc79f8
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 946746b1c868ca5310edd929434cc852400b5bc3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748674"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548085"
 ---
 # <a name="treemaps-in-power-bi"></a>แผนที่ต้นไม้ใน Power BI
 ทรีแมปจะแสดงข้อมูลแบบลำดับชั้นเป็นชุดของสี่เหลี่ยมผืนผ้าที่วางเรียงต่อๆ กัน  แต่ละระดับของลำดับชั้นจะแสดงเป็นสี่เหลี่ยมผืนผ้าสีต่างๆ (มักจะเรียกว่า "กิ่ง") ซึ่งประกอบด้วยสี่เหลี่ยมผืนผ้าอื่นๆ ("ใบ")  พื้นที่ภายในสี่เหลี่ยมผืนผ้าแต่ละรูปจะได้รับการกำหนดขนาดตามค่าเชิงปริมาณที่วัดได้ โดยสี่เหลี่ยมผืนผ้าจะจัดเรียงตามขนาดไว้จากด้านบนซ้าย (ขนาดใหญ่ที่สุด) ไปจนถึงด้านล่างขวา (ขนาดเล็กที่สุด)
@@ -62,7 +62,7 @@ ms.locfileid: "44748674"
    > 
 5. โฮเวอร์เหนือพื้นที่**ร้านเครือข่ายสาขา** เพื่อดูคำแนะนำเครื่องมือสำหรับส่วนนั้นๆ ของ**ประเภท**  ตัวอย่างเช่น การโฮเวอร์เหนือ**Lindseys**ในสี่เหลี่ยมผืนผ้า **040 เด็กโต** จะแสดงคำแนะนำเครื่องมือสำหรับส่วนของ Lindsey ของประเภทเด็กโต  
    ![](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
-6. [เพิ่มทรีแมปเป็นไทล์แดชบอร์ด (ปักหมุดภาพ)](../service-dashboard-tiles.md) 
+6. [เพิ่มทรีแมปเป็นไทล์แดชบอร์ด (ปักหมุดภาพ)](../consumer/end-user-tiles.md) 
 7. [บันทึกรายงาน](../service-report-save.md)
 
 ## <a name="highlighting-and-cross-filtering"></a>การทำไฮไลท์และการกรองข้าม
@@ -76,11 +76,11 @@ ms.locfileid: "44748674"
 2. ในแผนภูมิวงกลม**ยอดขายปีล่าสุดในร้านค้าเครือข่ายสาขา** เมื่อเลือกชิ้นวงกลม**การขายตรงสินค้าแฟชั่น** จะกรองข้ามทรีแมป  
    ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
 
-3. เมื่อต้องการจัดการวิธีการที่แผนภูมิเน้นข้ามและกรองข้ามระหว่างกัน โปรดดู[การโต้ตอบแบบการแสดงภาพในรายงาน Power BI](../service-reports-visual-interactions.md)
+3. เมื่อต้องการจัดการวิธีการที่แผนภูมิเน้นข้ามและกรองข้ามระหว่างกัน โปรดดู[การโต้ตอบแบบการแสดงภาพในรายงาน Power BI](../consumer/end-user-interactions.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [ปักหมุดการแสดงภาพไปยังแดชบอร์ด](../service-dashboard-pin-tile-from-report.md)  
-[Power BI - แนวคิดพื้นฐาน](../service-basic-concepts.md)  
+[Power BI - แนวคิดพื้นฐาน](../consumer/end-user-basic-concepts.md)  
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)  
 

@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 08/16/2018
-ms.openlocfilehash: 85e04993639d3c2897d2d7dddc00e79fd4fdf0c6
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 6960945d878269344e8993577a8eac239d8ca4a4
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40256837"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549902"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>ฝังด้วยส่วนเว็บรายงานใน SharePoint Online
 
@@ -85,7 +85,7 @@ ms.locfileid: "40256837"
 > [!IMPORTANT]
 > ให้ตรวจสอบให้แน่ใจว่าว่าใครสามารถดูรายงานภายใน Power BI service และอนุญาตให้เข้าถึงสิ่งที่ไม่ได้อยู่ในรายการ
 
-มีสองวิธีที่จะเข้าถึงรายงานภายใน Power BI service ถ้าคุณกำลังใช้กลุ่ม Office 365 เพื่อสร้างไซต์ทีม SharePoint Online ของคุณ คุณได้สร้างรายการผู้ใช้ในฐานะสมาชิกของ **พื้นที่ทำงานแอปภายในบริการ Power BI** และ **หน้า SharePoint** ซึ่งทำให้แน่ใจว่า ผู้ใช้สามารถดูเนื้อหาของกลุ่มนั้น สำหรับข้อมูลเพิ่มเติม ให้ดู[สร้างและกระจายแอปใน Power BI](service-create-distribute-apps.md)
+มีสองวิธีที่จะเข้าถึงรายงานภายใน Power BI service ถ้าคุณกำลังใช้กลุ่ม Office 365 เพื่อสร้างไซต์ทีม SharePoint Online ของคุณ คุณได้สร้างรายการผู้ใช้ในฐานะสมาชิกของ **พื้นที่ทำงานแอปภายในบริการ Power BI** และ **หน้า SharePoint** ซึ่งทำให้แน่ใจว่า ผู้ใช้สามารถดูเนื้อหาของกลุ่มนั้น สำหรับข้อมูลเพิ่มเติม ให้ดู[สร้างและกระจายแอปใน Power BI](consumer/end-user-create-apps.md)
 
 อีกวิธีหนึ่งคือ คุณสามารถให้ผู้ใช้เข้าถึงรายงานของคุณ โดยทำต่อไปนี้
 
@@ -142,7 +142,7 @@ ms.locfileid: "40256837"
 
 * Power BI ไม่รองรับภาษาเดียวกับที่ SharePoint Online รองรับ ผลที่ได้คือคุณอาจไม่เห็นการแปลที่เหมาะสมภายในรายงานแบบฝังตัว
 
-* คุณอาจพบปัญหาถ้าใช้ Internet Explorer 10 คุณสามารถค้นหาที่[เบราว์เซอร์ที่รองรับ Power BI](service-browser-support.md)และสำหรับ[Office 365](https://products.office.com/office-system-requirements#Browsers-section)ได้
+* คุณอาจพบปัญหาถ้าใช้ Internet Explorer 10 คุณสามารถค้นหาที่[เบราว์เซอร์ที่รองรับ Power BI](consumer/end-user-browsers.md)และสำหรับ[Office 365](https://products.office.com/office-system-requirements#Browsers-section)ได้
 
 * Web part Power BI จะไม่พร้อมใช้งานใน [sovereign cloud](https://powerbi.microsoft.com/en-us/clouds/)
 
@@ -151,7 +151,7 @@ ms.locfileid: "40256837"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 [อนุญาตหรือป้องกันไม่ให้สร้างไซต์แบบสมัยใหม่โดยผู้ใช้ปลายทาง](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[สร้างและกระจายแอปฯใน Power BI](service-create-distribute-apps.md)  
+[สร้างและกระจายแอปฯใน Power BI](consumer/end-user-create-apps.md)  
 [แชร์แดชบอร์ดกับเพื่อนร่วมงานและคนอื่นๆ](service-share-dashboards.md)  
 [Power BI Premium คืออะไร](service-premium.md)  
 

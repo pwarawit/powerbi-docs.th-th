@@ -11,25 +11,25 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3c6ae5351908bd71888040c3bc900323837935c2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726650"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546084"
 ---
 # <a name="the-report-editortake-a-tour"></a>ตัวแก้ไขรายงาน... ชมการแนะนำ
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>แก้ไขรายงานในบริการ Power BI และ Power BI Desktop
 ตัวแก้ไขรายงานในบริการ Power BI และตัวแก้ไขรายงานใน Power BI Desktop จะคล้ายกันอย่างมาก วิดีโอแสดงตัวแก้ไขรายงานใน Power BI Desktop และบทความนี้แสดงตัวแก้ไขรายงานในบริการ Power BI 
 
 ## <a name="the-difference-between-report-creators-and-report-consumers"></a>ความแตกต่างระหว่าง*ผู้สร้าง*รายงานและ*ผู้บริโภค*รายงาน
-ความสามารถในการสร้างและแก้ไขรายงานจะจำกัดอยู่เฉพาะกับเจ้าของรายงาน (หรือที่เรียกว่า*ผู้สร้าง*) ถ้าคุณกำลัง*การใช้งาน*รายงานที่แชร์กับคุณ คุณจะยังคงสามารถเปิดและโต้ตอบกับรายงานในบริการ Power BI ได้ใน [มุมมองการอ่านเท่านั้น](service-reading-view-and-editing-view.md) และจะไม่สามารถใช้คุณลักษณะที่ครอบคลุมทั้งหมดที่มีพร้อมใช้งานสำหรับผู้สร้างรายงาน  
+ความสามารถในการสร้างและแก้ไขรายงานจะจำกัดอยู่เฉพาะกับเจ้าของรายงาน (หรือที่เรียกว่า*ผู้สร้าง*) ถ้าคุณกำลัง*การใช้งาน*รายงานที่แชร์กับคุณ คุณจะยังคงสามารถเปิดและโต้ตอบกับรายงานในบริการ Power BI ได้ใน [มุมมองการอ่านเท่านั้น](consumer/end-user-reading-view.md) และจะไม่สามารถใช้คุณลักษณะที่ครอบคลุมทั้งหมดที่มีพร้อมใช้งานสำหรับผู้สร้างรายงาน  
 
-เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับรายงานในมุมมองการอ่าน ดู[มุมมองการอ่านและมุมมองแก้ไขในบริการ Power BI](service-reading-view-and-editing-view.md) 
+เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับรายงานในมุมมองการอ่าน ดู[มุมมองการอ่านและมุมมองแก้ไขในบริการ Power BI](consumer/end-user-reading-view.md) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-ในบริการ Power BI การ*ตัวแก้ไขรายงาน*พร้อมใช้งานใน[มุมมองการแก้ไข](service-reading-view-and-editing-view.md)เท่านั้น การเปิดรายงานในมุมมองการแก้ไข คุณต้องเป็นเจ้าของรายงานหรือเป็นผู้สร้าง
+ในบริการ Power BI การ*ตัวแก้ไขรายงาน*พร้อมใช้งานใน[มุมมองการแก้ไข](consumer/end-user-reading-view.md)เท่านั้น การเปิดรายงานในมุมมองการแก้ไข คุณต้องเป็นเจ้าของรายงานหรือเป็นผู้สร้าง
 
 ตัวแก้ไขรายงาน Power BI สร้างขึ้นจาก 3 ส่วนด้วยกัน:  
 
@@ -126,9 +126,9 @@ ms.locfileid: "44726650"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป:
 [สร้างรายงาน](service-report-create-new.md)
 
-อ่านเพิ่มเติมเกี่ยวกับรายงานใน[บริการ Power BI](service-reports.md), [Power BI Desktop](desktop-report-view.md)และ[Power BI สำหรับมือถือ](consumer/mobile/mobile-apps-view-phone-report.md)
+อ่านเพิ่มเติมเกี่ยวกับรายงานใน[บริการ Power BI](consumer/end-user-reports.md), [Power BI Desktop](desktop-report-view.md)และ[Power BI สำหรับมือถือ](consumer/mobile/mobile-apps-view-phone-report.md)
 
-[Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
+[Power BI - แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

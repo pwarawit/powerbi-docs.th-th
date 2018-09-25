@@ -1,21 +1,21 @@
 ---
 title: ใช้แผนที่รูปร่างใน Power BI Desktop (ตัวอย่าง)
 description: สร้างการเปรียบเทียบระหว่างภูมิภาคโดยใช้แผนที่รูปร่างใน Power BI Desktop
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: deb2d7c7ac7a43c625d5c5a15221d55cc38b11b6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: ad9a3e73a90ff69f5d56e1e5c1fc487c855df74d
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44745301"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566044"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>แผนที่รูปร่างใน Power BI Desktop (ตัวอย่าง)
 ใน Power BI Desktop คุณสร้างวิชวล**แผนที่รูปร่าง** เพื่อเปรียบเทียบภูมิภาคบนแผนที่ โดยการใช้สีที่ต่างกันในแต่ละภูมิภาค ซึ่งต่างจากวิชวล**แผนที่**ตรงที่ **แผนที่รูปร่าง**ไม่สามารถแสดงตำแหน่งทางภูมิศาสตร์ของจุดข้อมูลบนแผนที่ได้อย่างแม่นยำ แต่วัตถุประสงค์หลักของแผนที่รูปร่างคือ แสดงการเปรียบเทียบระหว่างภูมิภาคบนแผนที่ โดยการใช้สีที่แตกต่างกันออกไป
