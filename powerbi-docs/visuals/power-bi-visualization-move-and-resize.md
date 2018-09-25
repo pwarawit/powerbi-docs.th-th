@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 929af9c8ff3322fc792f2890b6914148725bf694
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: ec2520ad72889ae3e8f4955ea93c4bf7727daa18
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744984"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544383"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>ย้ายและปรับขนาดการแสดงภาพในรายงานในบริการของ Power BI และ Power BI Desktop
-เฉพาะผู้สร้างและเจ้าของรายงานเท่านั้นที่สามารถย้าย และปรับขนาดการแสดงภาพได้ ในบริการ Power BI (app.powerbi.com) หมายถึงการเปิดรายงานใน[มุมมองการแก้ไข](../service-reading-view-and-editing-view.md)
+เฉพาะผู้สร้างและเจ้าของรายงานเท่านั้นที่สามารถย้าย และปรับขนาดการแสดงภาพได้ ในบริการ Power BI (app.powerbi.com) หมายถึงการเปิดรายงานใน[มุมมองการแก้ไข](../consumer/end-user-reading-view.md)
 
 ## <a name="open-the-report"></a>เปิดรายงาน
 ใน Power BI ให้เปิดรายงานที่มีการแสดงภาพอย่างน้อยหนึ่งรายการ หรือ[สร้างการแสดงภาพใหม่](power-bi-report-add-visualizations-i.md) 

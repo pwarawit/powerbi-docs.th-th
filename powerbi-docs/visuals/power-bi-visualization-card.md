@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8532fff7bc522a0ad0e59bd17580549bd9e68a23
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744851"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548338"
 ---
 # <a name="card-visualizations"></a>การแสดงภาพการ์ด
 บางครั้งตัวเลขเพียงตัวเดียวก็เป็นสิ่งสำคัญที่สุดที่คุณต้องการติดตามในแดชบอร์ด Power BI หรือรายงานของคุณ เช่น ยอดขายรวม ส่วนแบ่งตลาดแบบปีต่อปี ตลาดแชร์ปีปี หรือโอกาสทั้งหมด แสดงภาพชนิดนี้จะเรียกว่า*การ์ด* เช่นเดียวกับการแสดงภาพดั้งเดิมของ Power BI แทบจะทุกชนิด คุณสามารถสร้างการ์ดขึ้นได้ โดยใช้ตัวแก้ไขรายงาน หรือการถามตอบ
@@ -51,13 +51,13 @@ ms.locfileid: "44744851"
 ## <a name="create-a-card-from-the-qa-question-box"></a>สร้างการ์ดจากกล่องคำถามการถามตอบ
 กล่องคำถามการถามตอบเป็นวิธีที่ง่ายที่สุดในการสร้างการ์ด กล่องคำถามการถามตอบจะพร้อมใช้งานในบริการของ Power BI (app.powerbi.com) จากแดชบอร์ดหรือรายงาน ขั้นตอนด้านล่างนี้จะอธิบายถึงวิธีการสร้างการ์ดจากแดชบอร์ดบริการของ Power BI ถ้าคุณต้องการสร้างการ์ดโดยใช้การถามตอบใน Power BI Desktop [ให้ทำตามคำแนะนำเหล่านี้](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA)เกี่ยวกับการแสดงตัวอย่างการถามตอบสำหรับรายงานของ Desktop
 
-1. สร้าง[แดชบอร์ด](../service-dashboards.md)แล้ว[รับข้อมูล](../service-get-data.md) ตัวอย่างนี้จะใช้[ตัวอย่างการวิเคราะห์โอกาส](../sample-opportunity-analysis.md)
+1. สร้าง[แดชบอร์ด](../consumer/end-user-dashboards.md)แล้ว[รับข้อมูล](../service-get-data.md) ตัวอย่างนี้จะใช้[ตัวอย่างการวิเคราะห์โอกาส](../sample-opportunity-analysis.md)
 
 1. ที่ด้านบนในแดชบอร์ดของคุณ ให้เริ่มพิมพ์สิ่งที่คุณต้องการทราบเกี่ยวกับข้อมูลของคุณในกล่องคำถาม 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**เคล็ดลับ**: ในส่วนรายงานของบริการของ Power BI ใน[มุมมองการแก้ไข](../service-reading-view-and-editing-view.md) ให้เลือก**ถามคำถาม**จากแถบเมนูด้านบน ในส่วนรายงานของ Power BI Desktop ให้หาพื้นที่ว่างบางตำแหน่งในรายงาน แล้วดับเบิลคลิกเพื่อเปิดกล่องคำถาม
+>**เคล็ดลับ**: ในส่วนรายงานของบริการของ Power BI ใน[มุมมองการแก้ไข](../consumer/end-user-reading-view.md) ให้เลือก**ถามคำถาม**จากแถบเมนูด้านบน ในส่วนรายงานของ Power BI Desktop ให้หาพื้นที่ว่างบางตำแหน่งในรายงาน แล้วดับเบิลคลิกเพื่อเปิดกล่องคำถาม
 
 3. ตัวอย่างเช่น พิมพ์ "จำนวนโอกาส" ในกล่องคำถาม
 
@@ -105,10 +105,10 @@ ms.locfileid: "44744851"
     ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[ไทล์แดชบอร์ดใน Power BI](../service-dashboard-tiles.md)
+[ไทล์แดชบอร์ดใน Power BI](../consumer/end-user-tiles.md)
 
-[แดชบอร์ดใน Power BI](../service-dashboards.md)
+[แดชบอร์ดใน Power BI](../consumer/end-user-dashboards.md)
 
-[Power BI แนวคิดพื้นฐาน](../service-basic-concepts.md)
+[Power BI แนวคิดพื้นฐาน](../consumer/end-user-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
