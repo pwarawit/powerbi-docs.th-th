@@ -1,21 +1,21 @@
 ---
 title: ใช้ธีมแดชบอร์ดในบริการของ Power BI
 description: เรียนรู้วิธีการใช้ชุดสีแบบกำหนดเอง และนำไปใช้กับทั้งแดชบอร์ดในบริการของ Power BI
-author: mihart
+author: maggiesMSFT
 manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/22/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 25bd28db7b31921d5f1a02ae72cee47207134f2a
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: fd6cc83b5e5d27159f0cff853cb3effb6b415a9d
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241487"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47186604"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>ใช้ธีมแดชบอร์ดในบริการของ Power BI
 ด้วย**ธีมแดชบอร์ด** คุณสามารถใช้ธีมสีกับทั้งแดชบอร์ดของคุณ เช่นสีขององค์กร การกำหนดสีตามฤดูกาล หรือธีมสีอื่นๆ ที่คุณอาจต้องการนำไปใช้ เมื่อคุณนำ**ธีมแดชบอร์ด**ไปใช้งาน วิชวลทั้งหมดบนแดชบอร์ดของคุณจะใช้สีจากธีมที่คุณเลือก (มีข้อยกเว้นบางข้อ ซึ่งจะอธิบายภายหลังในบทความนี้)
@@ -46,7 +46,7 @@ ms.locfileid: "43241487"
 
 ![เลือกแบบกำหนดเองจากรายการดรอปดาวน์](media/service-dashboard-themes/power-bi-theme-custom.png)
 
-ใช้ตัวเลือกแบบกำหนดเองเพื่อสร้างธีมแดชบอร์ดของคุณเอง ถ้าต้องการเพิ่มรูปภาพพื้นหลัง เราขอแนะนำว่า รูปภาพของคุณมีความละเอียดอย่างน้อย 1920x1080 หากต้องการใช้รูปภาพเป็นพื้นหลัง ให้อัปโหลดรูปภาพไปยังเว็บไซต์สาธารณะ จากนั้นคัดลอก URL และวางลงในเขตข้อมูล URL ของรูปภาพ** 
+ใช้ตัวเลือกแบบกำหนดเองเพื่อสร้างธีมแดชบอร์ดของคุณเอง ถ้าต้องการเพิ่มรูปภาพพื้นหลัง เราขอแนะนำว่า รูปภาพของคุณมีความละเอียดอย่างน้อย 1920x1080 หากต้องการใช้รูปภาพเป็นพื้นหลัง ให้อัปโหลดรูปภาพไปยังเว็บไซต์สาธารณะ จากนั้นคัดลอก URL และวางลงในเขตข้อมูล **URL ของรูปภาพ** 
 
 ### <a name="using-json-themes"></a>ใช้ธีม JSON
 อีกวิธีในการสร้างธีมแบบกำหนดเอง คือการอัปโหลดไฟล์ JSON ที่มีการตั้งค่าสำหรับสีทั้งหมดที่คุณต้องการใช้สำหรับแดชบอร์ดของคุณ ใน Power BI Desktop ผู้สร้างรายงานใช้ไฟล์ JSON [สร้างธีมสำหรับรายงาน](desktop-report-themes.md) ไฟล์ JSON เดียวกันนี้สามารถอัปโหลดสำหรับสำหรับแดชบอร์ดได้ หรือคุณสามารถค้นหา และอัปโหลดไฟล์ JSON จาก[หน้าแกลเลอรีธีม](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery)ในชุมชน Power BI 

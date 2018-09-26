@@ -1,20 +1,20 @@
 ---
 title: ค้นหาและดูรายงานและแดชบอร์ดของคุณได้อย่างรวดเร็วโดยใช้ Cortana
 description: ใช้ Cortana กับ Power BI เพื่อรับคำตอบจากข้อมูลของคุณ ขณะนี้ทำงานกับรายงานและแดชบอร์ด
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 01/13/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a0692d74f42b48bc68d670ad2e6c6a33dca0729d
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 95fa59d91a73101d7d04f3921a81236bfae7d0bb
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46550109"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187317"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>ค้นหาและดูข้อมูล Power BI ของคุณได้อย่างรวดเร็วโดยใช้ Cortana สำหรับ Power BI
 ใช้ Cortana ในทุกอุปกรณ์ Windows 10 ของคุณเพื่อให้ได้คำตอบสำหรับคำถามทางธุรกิจที่สำคัญของคุณทันที โดยการรวม Cortana กับ Power BI ทำให้สามารถดึงข้อมูลที่สำคัญได้โดยตรงจากแดชบอร์ดและรายงาน Power BI สิ่งที่ต้องใช้คือ Windows 10 เวอร์ชั่นพฤศจิกายน ปี 2015 หรือเวอร์ชั่นใหม่กว่า Cortana, Power BI และสิทธิ์การเข้าถึงอย่างน้อยหนึ่งชุดข้อมูล

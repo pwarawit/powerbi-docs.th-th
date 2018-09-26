@@ -1,7 +1,7 @@
 ---
 title: แก้ไขไทล์แดชบอร์ด
 description: บทเรียนนี้นำพาคุณจากการสร้างไทล์ และปักหมุดไปยังแดชบอร์ด เพื่อเรียนรู้วิธีการแก้ไขแดชบอร์ดไทล์ปรับขนาด ย้าย เปลี่ยนชื่อ ปักหมุด ลบ เพิ่มไฮเปอร์ลิงก์
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 340f3d57c1ad860d4b0468085ff6a40c4013fa5c
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546107"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187616"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>แก้ไขหรือลบแดชบอร์ดไทล์
 

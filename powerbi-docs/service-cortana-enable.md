@@ -1,20 +1,20 @@
 ---
 title: เปิดใช้งาน Cortana สำหรับ Power BI
 description: ใช้ Cortana กับ Power BI เพื่อรับคำตอบจากข้อมูลของคุณ เปิดใช้งาน Cortana สำหรับแต่ละชุดข้อมูล Power BI จากนั้นใช้ Cortana ให้เข้าถึงชุดข้อมูลของคุณจากอุปกรณ์ Windows
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 12/20/2017
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 40dd75becc890c48e8d1b2a7dc10381896ceed71
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0d6042cece6bbe4c7618190938a8e1f93edf5480
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252358"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187087"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>เปิดใช้งาน Cortana เพื่อเข้าถึงรายงาน Power BI (และชุดข้อมูลภายในของพวกเขา)
 คุณได้อ่าน[บทนำสู่ Cortana และ Power BI](service-cortana-intro.md) (ถ้าไม่ คุณอาจต้องการอ่านก่อน จากนั้นค่อยกลับมา) และตอนนี้คุณต้องการลองใช้ด้วยตนเอง  ก่อนที่คุณสามารถถามคำถามภาษาธรรมชาติใน Cortana และค้นหาคำตอบจากข้อมูลที่จัดเก็บไว้ใน***รายงาน*** Power BI มีความต้องการเพียงไม่กี่ตัว โดยเฉพาะ คุณจะต้องทำสิ่งต่อไปนี้

@@ -1,21 +1,21 @@
 ---
 title: วิธีการเพิ่มไฮเปอร์ลิงก์ลงในตาราง
 description: ไฮเปอร์ลิงก์ในตาราง
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/22/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 869eb25b17233d6c926f759c09923f528a4eb72e
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9c1fc61d4a667b10728af8b7496e20803d024a83
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545211"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187570"
 ---
 # <a name="hyperlinks-in-tables"></a>ไฮเปอร์ลิงก์ในตาราง
 หัวข้อนี้สอนวิธีการใช้ Power BI Desktop เพื่อสร้างไฮเปอร์ลิงก์ จากนั้น เมื่อสร้างเสร็จแล้ว ใช้บริการ Desktop หรือ Power BI เพื่อเพิ่มไฮเปอร์ลิงก์เหล่านั้นไปยังรายงานตารางและเมทริกซ์ของคุณ 
