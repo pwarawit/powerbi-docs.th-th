@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e75cc0f7ca31257ea46af20b63c29d0d870ef7a0
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329695"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417383"
 ---
 # <a name="data-refresh-in-power-bi"></a>การรีเฟรชข้อมูลใน Power BI
 การทำให้แน่ใจว่า คุณได้รับข้อมูลล่าสุดเสมอมักเป็นเรื่องที่สำคัญอย่างยิ่งต่อการตัดสินใจให้ถูกต้อง คุณอาจเคยใช้ รับข้อมูลใน Power BI เพื่อเชื่อมต่อและอัปโหลดข้อมูลบางอย่าง สร้างรายงานบางอย่างและแดชบอร์ดมาแล้ว ตอนนี้ คุณต้องการจะตรวจสอบให้แน่ใจว่า ข้อมูลของคณเป็นข้อมูลล่าสุดและดีที่สุดจริงๆ
@@ -211,8 +211,6 @@ ms.locfileid: "39329695"
 | **แหล่งข้อมูล** | **อัตโนมัติ** | **การรีเฟรชด้วยตนเองตามที่ผู้ใช้กำหนดค่าหรือตามกำหนดการ** | **เกตเวย์ที่จำเป็น** |
 | --- | --- | --- | --- |
 | แอปแบบกำหนดเองที่พัฒนาขึ้นมาโดยใช้ Power BI Rest API หรือ Microsoft Stream Analytics |ใช่ เป็นการสตรีมสด |ไม่ใช่ |ไม่ใช่ |
-
-เมื่อต้องการเรียนรู้เพิ่มเติม ดู [สร้างแดชบอร์ดแบบเรียลไทม์ใน Power BI](https://msdn.microsoft.com/library/mt267603.aspx)
 
 ## <a name="configure-scheduled-refresh"></a>กำหนดค่าการรีเฟรชตามกำหนดการ
 เมื่อต้องการเรียนรู้วิธีการกำหนดค่าการรีเฟรชตามกำหนดการ ดู [กำหนดค่าการรีเฟรชตามกำหนดการ](refresh-scheduled-refresh.md)
