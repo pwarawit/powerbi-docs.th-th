@@ -2,12 +2,12 @@
 title: การเรียนรู้ Microsoft Power BI พร้อมคำแนะนำ
 description: เริ่มการเรียนรู้ของคุณด้วยคอลเลกชันหลักสูตรที่เป็นลำดับนี้ และทำความเข้าใจความสามารถที่กว้างขวางและมีประสิทธิภาพของ Microsoft Power BI
 layout: LandingPage
-ms.openlocfilehash: 2cd748b60da6781ff9ea710b5802f3d68c3bc6b8
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: edcc3a365d84edf53ace6c1ac63d341914155161
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600687"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187363"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -32,25 +32,9 @@ ms.locfileid: "37600687"
 เริ่มต้นใช้งาน </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=1">แนะนำ Power BI</a>
-                                <span style="margin-left: 32px; align-self: center;">5m</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=2">การใช้ Power BI</a>
-                                <span style="margin-left: 32px; align-self: center;">4m</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=3">โครงสร้างของ Power BI</a>
-                                <span style="margin-left: 32px; align-self: center;">6m</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=4">ลักษณะคร่าวๆ ของบริการ Power BI</a>
-                                <span style="margin-left: 32px; align-self: center;">9m</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=5">ตรวจสอบแล้วทำอะไรต่อไป</a>
-                                <span style="margin-left: 32px; align-self: center;">5m</span>
-                              </li>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/">เริ่มต้นใช้งาน Power BI โดยใช้ Microsoft Learn</a>
+                                <span style="margin-left: 32px; align-self: center;">47m</span>
+                              </li>                              
                           </ul>
                       </div>
                     </div>

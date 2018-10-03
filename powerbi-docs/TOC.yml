@@ -8,7 +8,7 @@ items:
   - name: การเริ่มต้นใช้งานด่วน
     items:
     - name: ค้นหาวิธีใช้ใน Power BI
-      href: service-the-new-power-bi-experience.md
+      href: consumer/end-user-experience.md
   - name: บทช่วยสอน
     items:
     - name: เชื่อมต่อกับตัวอย่าง GitHub
@@ -24,31 +24,31 @@ items:
     - name: Power BI พื้นฐาน
       items:
       - name: Power BI - แนวคิดพื้นฐาน
-        href: service-basic-concepts.md
+        href: consumer/end-user-basic-concepts.md
       - name: ค้นหาและการเรียงลำดับเนื้อหา
         href: service-navigation-search-filter-sort.md
       - name: เนื้อหาที่เกี่ยวข้อง
-        href: service-related-content.md
+        href: consumer/end-user-related.md
       - name: เนื้อหาล่าสุด
-        href: service-recent.md
+        href: consumer/end-user-recent.md
       - name: เลือกใช้ฟีเจอร์ตัวอย่างของ Power BI
-        href: service-preview-features.md
+        href: consumer/end-user-preview-features.md
       - name: แดชบอร์ดใน Power BI
-        href: service-dashboards.md
+        href: consumer/end-user-dashboards.md
       - name: การถามตอบใน Power BI
-        href: power-bi-q-and-a.md
+        href: consumer/end-user-q-and-a.md
       - name: รายงานใน Power BI
-        href: service-reports.md
+        href: consumer/end-user-reports.md
       - name: Cortana เบื้องต้นสำหรับ Power BI
         href: service-cortana-intro.md
       - name: ไทล์แดชบอร์ดใน Power BI
-        href: service-dashboard-tiles.md
+        href: consumer/end-user-tiles.md
       - name: แชร์กับฉัน
-        href: service-shared-with-me.md
+        href: consumer/end-user-shared-with-me.md
       - name: การรีเฟรชข้อมูลใน Power BI
         href: refresh-data.md
       - name: คำถามที่ถามบ่อย
-        href: service-frequently-asked-questions.md
+        href: consumer/end-user-faq.md
       - name: Power BI สำหรับภาครัฐของประเทศสหรัฐอเมริกา
         href: service-govus-overview.md
       - name: Power BI Free เปรียบเทียบกับ Pro
@@ -57,14 +57,16 @@ items:
         href: service-tips-for-finding-help.md
       - name: เกี่ยวกับตัวกรองและการไฮไลท์ในรายงาน Power BI
         href: power-bi-reports-filters-and-highlighting.md
+      - name: ลูกค้าและนักออกแบบ Power BI
+        href: consumer/end-user-consumer.md
     - name: ทำงานใน Power BI
       items:
       - name: ข้อมูลเชิงลึกด่วนใน Power BI
-        href: service-insights.md
+        href: consumer/end-user-insights.md
       - name: รับข้อมูลจากไฟล์
         href: service-get-data-from-files.md
       - name: เปิดรายงาน Power BI ในมุมมองการอ่าน หรือมุมมองการแก้ไข
-        href: service-reading-view-and-editing-view.md
+        href: consumer/end-user-reading-view.md
       - name: ตัวแก้ไขรายงาน... ชมการแนะนำ
         href: service-the-report-editor-take-a-tour.md
       - name: การแสดงข้อมูลใน Power BI
@@ -80,7 +82,7 @@ items:
       - name: Power BI เริ่มใช้งานแอปของบริษัทอื่น
         href: service-power-bi-get-started-third-party-apps.md
       - name: ชนิดของข้อมูลเชิงลึกด่วนที่ได้รับการสนับสนุนโดย Power BI
-        href: service-insight-types.md
+        href: consumer/end-user-insight-types.md
       - name: รวม (ผลรวม ค่าเฉลี่ย ค่าสูงสุด และอื่น ๆ) ใน Power BI
         href: service-aggregates.md
       - name: การตั้งค่าการแสดงหน้าในรายงาน Power BI
@@ -92,33 +94,33 @@ items:
       - name: งานทั่วไป
         items:
         - name: แดชบอร์ด รายงาน และแอปโปรดใน Power BI
-          href: service-dashboard-favorite.md
+          href: consumer/end-user-favorite.md
         - name: แสดงไทล์แดชบอร์ดในโหมดโฟกัส
-          href: service-focus-mode.md
+          href: consumer/end-user-focus.md
         - name: พิมพ์แดชบอร์ด พิมพ์ไทล์แดชบอร์ด พิมพ์หน้ารายงาน
-          href: service-print.md
+          href: consumer/end-user-print.md
         - name: เปลี่ยนชื่อของเนื้อหาภายใน Power BI
           href: service-rename.md
         - name: แสดงแดชบอร์ดและรายงานในโหมดเต็มหน้าจอ (โทรทัศน์โหมด)
           href: service-fullscreen-mode.md
         - name: ลบเนื้อหาภายใน Power BI
-          href: service-delete.md
+          href: consumer/end-user-delete.md
         - name: ลงทะเบียนองค์กรภาครัฐของประเทศสหรัฐอเมริกาของคุณ
           href: service-govus-signup.md
         - name: แจ้งเตือนข้อมูลใน Power BI service
           href: service-set-data-alerts.md
         - name: เคล็ดลับและลูกเล่นสำหรับการถามคำถามด้วย ถามตอบใน Power BI
-          href: service-q-and-a-tips.md
+          href: consumer/end-user-q-and-a-tips.md
         - name: ติดตั้ง และใช้แอปด้วยแดชบอร์ดและรายงาน
-          href: service-install-use-apps.md
+          href: consumer/end-user-apps.md
         - name: ค้นหาและเชื่อมต่อกับชุดเนื้อหาองค์กร
-          href: service-organizational-content-pack-find-and-open.md
+          href: consumer/end-user-content-pack.md
         - name: เริ่มใช้งานกับการถามตอบ Power BI
           href: power-bi-visualization-introduction-to-q-and-a.md
       - name: เชื่อมต่อกับเซิร์ฟเวอร์
         items:
         - name: เชื่อมต่อกับบริการที่คุณใช้
-          href: service-connect-to-services.md
+          href: consumer/end-user-connect-to-services.md
         - name: Acumatica
           href: service-connect-to-acumatica.md
         - name: Adobe Analytics
@@ -228,29 +230,29 @@ items:
       - name: แดชบอร์ด
         items:
         - name: แดชบอร์ดแนะนำใน Power BI
-          href: service-dashboard-featured.md
+          href: consumer/end-user-featured.md
         - name: ศูนย์การแจ้งเตือนแบบรวมของ Power BI
-          href: service-notification-center.md
+          href: consumer/end-user-notification-center.md
         - name: ไอเท็มของแดชบอร์ด
           href: service-dashboard-themes.md
       - name: รายงาน
         items:
         - name: วิธีอื่นๆ ในการเปิดรายงาน
-          href: service-report-open.md
+          href: consumer/end-user-report-open.md
         - name: เปลี่ยนวิธีการเรียงลำดับแผนภูมิในรายงาน Power BI
-          href: power-bi-report-change-sort.md
+          href: consumer/end-user-change-sort.md
         - name: ส่งออกข้อมูลจากการแสดงข้อมูล
-          href: power-bi-visualization-export-data.md
+          href: consumer/end-user-export-data.md
         - name: วิธีการใช้ตัวกรองรายงาน
-          href: power-bi-how-to-report-filter.md
+          href: consumer/end-user-report-filter.md
         - name: สมัครใช้งานไปยังรายงานหรือแดชบอร์ด
-          href: service-report-subscribe.md
+          href: consumer/end-user-subscribe.md
       - name: เผยแพร่
         items:
         - name: Power BI Publisher สำหรับ Excel
           href: publisher-for-excel.md
         - name: เผยแพร่ไปยัง PowerPoint
-          href: service-publish-to-powerpoint.md
+          href: consumer/end-user-powerpoint.md
     - name: ทำงานใน Power BI
       items:
       - name: แดชบอร์ด
@@ -292,15 +294,13 @@ items:
         - name: ใช้การถามตอบเพื่อสร้างการแสดงข้อมูล และสร้างรายงาน
           href: power-bi-tutorial-q-and-a.md
         - name: ใช้การถามตอบด้วย Power BI Gateway — ข้อมูลองค์กร (ตัวอย่าง)
-          href: service-q-and-a-direct-query.md
+          href: consumer/end-user-q-and-a-direct-query.md
         - name: ทำให้ข้อมูลของคุณทำงานได้ดีกับการถามตอบใน Power BI
           href: service-prepare-data-for-q-and-a.md
         - name: เปิดใช้งาน Cortana สำหรับ Power BI
           href: service-cortana-enable.md
         - name: สร้างคำถามที่น่าสนใจสำหรับ Power BI Q&A
           href: service-q-and-a-create-featured-questions.md
-        - name: ชนิดการแสดงภาพใน Power BI
-          href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
         - name: ทำงานกับรูปแบบภาษาใน Power BI Desktop
           href: power-bi-q-and-a-linguistic-schema.md
       - name: แชร์งานของคุณ
@@ -314,7 +314,7 @@ items:
         - name: สร้างพื้นที่ทำงานใหม่ (แสดงตัวอย่าง)
           href: service-create-the-new-workspaces.md
         - name: เผยแพร่แอปที่มีแดชบอร์ดและรายงาน
-          href: service-create-distribute-apps.md
+          href: consumer/end-user-create-apps.md
         - name: แชร์รายงานทีมีการกรอง
           href: service-share-reports.md
         - name: เผยแพร่จาก Power BI ไปยังเว็บ
@@ -356,7 +356,7 @@ items:
         - name: สร้างรายงานใหม่จากรายงานที่มีอยู่
           href: power-bi-report-copy.md
         - name: เนื้อหาล่าสุด
-          href: service-recent.md
+          href: consumer/end-user-recent.md
         - name: เพิ่มหน้าไปยังรายงาน Power BI
           href: power-bi-report-add-page.md
         - name: เพิ่มตัวกรองไปยังรายงานใน Power BI
@@ -380,7 +380,7 @@ items:
         - name: สร้างคิวอาร์โค้ดสำหรับรายงาน
           href: service-create-qr-code-for-report.md
         - name: เปลี่ยนการตั้งค่าการแสดงหน้าในรายงาน Power BI
-          href: power-bi-change-report-display-settings.md
+          href: consumer/end-user-report-view.md
         - name: จัดลำดับหน้าในรายงานใน Power BI
           href: service-report-reorder-pages.md
         - name: ทำซ้ำหน้ารายงานใน Power BI
@@ -476,7 +476,7 @@ items:
     - name: สัมมนาผ่านเว็บ
       href: webinars.md
     - name: เบราว์เซอร์ทีรองรับ
-      href: service-browser-support.md
+      href: consumer/end-user-browsers.md
     - name: ภาษาที่รองรับและประเทศ/ภูมิภาค
       href: supported-languages-countries-regions.md
     - name: เอกสารทางเทคนิค
@@ -581,16 +581,10 @@ items:
       href: power-bi-custom-visuals-organization.md
     - name: ส่วนที่ 1 เพิ่มการแสดงภาพไปยังรายงาน Power BI
       href: visuals/power-bi-report-add-visualizations-i.md
-    - name: ส่วนที่ 2 เพิ่มภาพไปยังรายงาน Power BI
+    - name: ส่วนที่ 2 เพิ่มการแสดงภาพไปยังรายงาน Power BI
       href: visuals/power-bi-report-add-visualizations-ii.md
-    - name: แผนภูมิพื้นที่พื้นฐาน
-      href: visuals/power-bi-visualization-basic-area-chart.md
-    - name: แผนภูมิผสมใน Power BI
-      href: visuals/power-bi-visualization-combo-chart.md
     - name: กำหนดชื่อภาพ พื้นหลัง และคำอธิบายแผนภูมิ
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
-    - name: ArcGIS ใน Power BI
-      href: power-bi-visualization-arcgis.md
     - name: เชื่อมต่อกับข้อมูล
       items:
       - name: แหล่งข้อมูลใน Power BI Desktop
@@ -609,6 +603,14 @@ items:
         href: desktop-connect-adobe-analytics.md
       - name: เชื่อมต่อกับฐานข้อมูล Oracle
         href: desktop-connect-oracle-database.md
+      - name: ขั้นตอนการเรียกใช้สคริปต์ Python ใน Power BI Desktop
+        href: desktop-python-scripts.md
+      - name: การใช้ Python ใน Power Query Editor
+        href: desktop-python-in-query-editor.md
+      - name: ใช้ Python IDE ภายนอกกับ Power BI
+        href: desktop-python-ide.md
+      - name: สร้างภาพของ Power BI โดยใช้ Python
+        href: desktop-python-visuals.md
       - name: กำลังเรียกใช้สคริปต์ R ใน Power BI Desktop
         href: desktop-r-scripts.md
       - name: ใช้ R ในตัวแก้ไขแบบสอบถาม
@@ -625,11 +627,13 @@ items:
         href: desktop-ssas-multidimensional.md
       - name: เชื่อมต่อกับไฟล์ CSV ใน Power BI Desktop
         href: desktop-connect-csv.md
-      - name: เชื่อมต่อกับฐานข้อมูล Impala ใน Power BI Desktop (ตัวอย่าง)
+      - name: เชื่อมต่อกับฐานข้อมูล Google BigQuery ใน Power BI Desktop
+        href: desktop-connect-bigquery.md
+      - name: เชื่อมต่อกับฐานข้อมูล Impala ใน Power BI Desktop
         href: desktop-connect-impala.md
       - name: เชื่อมต่อกับตัวดึงข้อมูล OData ใน Power BI Desktop
         href: desktop-connect-odata.md
-      - name: เชื่อมต่อกับฐานข้อมูล Amazon Redshift ใน Power BI Desktop (ตัวอย่าง)
+      - name: เชื่อมต่อกับฐานข้อมูล Amazon Redshift ใน Power BI Desktop
         href: desktop-connect-redshift.md
       - name: เชื่อมต่อไปยังหน้าเว็บจาก Power BI Desktop
         href: desktop-connect-to-web.md
@@ -725,8 +729,6 @@ items:
         href: desktop-gridlines-snap-to-grid.md
       - name: การสุ่มตัวอย่างเส้นความหนาแน่นสูง
         href: desktop-high-density-sampling.md
-      - name: แผนภูมิกระจายความหนาแน่นสูง
-        href: desktop-high-density-scatter-charts.md
       - name: เพิ่มคอลัมน์จากตัวอย่าง
         href: desktop-add-column-from-example.md
       - name: เพิ่มคอลัมน์แบบกำหนดเอง
@@ -757,8 +759,12 @@ items:
       items:
       - name: แนวทางปฏิบัติที่ดีที่สุดของการแสดงข้อมูล
         href: visuals/power-bi-visualization-best-practices.md
-      - name: ดูข้อมูลที่ใช้เพื่อสร้างการแสดงผลด้วยภาพ
-        href: service-reports-show-data.md
+      - name: ชนิดการแสดงภาพใน Power BI
+        href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
+      - name: ดูข้อมูลที่ใช้เพื่อสร้างภาพ
+        href: consumer/end-user-show-data.md
+      - name: ส่งออกข้อมูลที่ใช้เพื่อสร้างภาพ
+        href: visuals/power-bi-visualization-export-data.md
       - name: เปลี่ยนชนิดของการแสดงภาพในรายงาน Power BI
         href: visuals/power-bi-report-change-visualization-type.md
       - name: เริ่มใช้งานด้วยคุณสมบัติแกนและการจัดรูปแบบสี
@@ -770,7 +776,7 @@ items:
       - name: ย้าย ปรับขนาด และเปิดหน้าต่างใหม่การแสดงข้อมูลในรายงาน Power BI
         href: visuals/power-bi-visualization-move-and-resize.md
       - name: ดูรายละเอียดแนวลึกในการแสดงข้อมูลใน Power BI
-        href: power-bi-visualization-drill-down.md
+        href: consumer/end-user-drill.md
       - name: การเชื่อมโยงหลายมิติในตาราง
         href: power-bi-hyperlinks-in-tables.md
       - name: เพิ่มการเชื่อมโยงหลายมิติไปยังกล่องข้อความในรายงาน Power BI
@@ -783,6 +789,14 @@ items:
         href: power-bi-reports-add-text-and-shapes.md
       - name: คุณสมบัติแกน x และแกน y ที่กำหนดด้วยตนเอง
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
+      - name: ArcGIS ใน Power BI
+        href: power-bi-visualization-arcgis.md
+      - name: แผนภูมิพื้นที่พื้นฐาน
+        href: visuals/power-bi-visualization-basic-area-chart.md
+      - name: การ์ด (ไทล์ตัวเลขขนาดใหญ่) ใน Power BI
+        href: visuals/power-bi-visualization-card.md
+      - name: แผนภูมิผสมใน Power BI
+        href: visuals/power-bi-visualization-combo-chart.md
       - name: แผนภูมิโดนัทใน Power BI
         href: visuals/power-bi-visualization-doughnut-charts.md
       - name: แผนที่แถบสี (Choropleths) ใน Power BI
@@ -791,22 +805,22 @@ items:
         href: visuals/power-bi-visualization-funnel-charts.md
       - name: การแสดงผลด้วยภาพของ KPI
         href: visuals/power-bi-visualization-kpi.md
+      - name: สร้างการวิเคราะห์ขั้นสูงและแสดงข้อมูลโดยใช้สคริปต์ R ใน Power BI
+        href: visuals/service-r-visuals.md
       - name: แผนภูมิหน้าปัดความเร็วใน Power BI
         href: visuals/power-bi-visualization-radial-gauge-charts.md
       - name: แผนภูมิกระจายใน Power BI
         href: visuals/power-bi-visualization-scatter.md
+      - name: แผนภูมิกระจายความหนาแน่นสูง
+        href: visuals/desktop-high-density-scatter-charts.md
       - name: ตัวแบ่งส่วนข้อมูลใน Power BI
         href: visuals/power-bi-visualization-slicers.md
-      - name: การทำงานกับตาราง
+      - name: ตารางใน Power BI
         href: visuals/power-bi-visualization-tables.md
-      - name: ทรีแมปใน Power BI
+      - name: แผนที่ต้นไม้ใน Power BI
         href: visuals/power-bi-visualization-treemaps.md
       - name: แผนภูมิแบบน้ำตกใน Power BI
         href: visuals/power-bi-visualization-waterfall-charts.md
-      - name: การ์ด (ไทล์ตัวเลขขนาดใหญ่) ใน Power BI
-        href: visuals/power-bi-visualization-card.md
-      - name: สร้างการวิเคราะห์ขั้นสูงและแสดงข้อมูลโดยใช้สคริปต์ R ใน Power BI
-        href: visuals/service-r-visuals.md
     - name: การแก้ไขปัญหา
       items:
       - name: แก้ไขปัญหาการนำเข้าฐานข้อมูล Access และสเปรดชีต Excel ใน Power BI Desktop และ Power Query
@@ -861,8 +875,6 @@ items:
     items:
     - name: แอปทั้งหมดสำหรับอุปกรณ์เคลื่อนที่
       items:
-      - name: ดูรายงานในสถานทีสำหรับอุปกรณ์เคลื่อนที่
-        href: consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
       - name: แชร์แดชบอร์ดจากแอป Power BI mobile
         href: consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md
       - name: โต้ตอบกับไทล์ในแอปสำหรับอุปกรณ์เคลื่อนที่
@@ -877,18 +889,12 @@ items:
         href: consumer/mobile/mobile-apps-deep-link-specific-location.md
       - name: กรองรายงานตามตำแหน่งที่ตั้งในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
         href: consumer/mobile/mobile-apps-geographic-filtering.md
-      - name: สแกนคิวอาร์โค้ด Power BI จากโทรศัพท์ของคุณ
-        href: consumer/mobile/mobile-apps-qr-code.md
       - name: แดชบอร์ดสำหรับ Power BI สำหรับอุปกรณ์เคลื่อน
         href: consumer/mobile/mobile-apps-view-dashboard.md
-      - name: ดูรายงานที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ
-        href: consumer/mobile/mobile-apps-view-phone-report.md
       - name: รายงานในแอปสำหรับอุปกรณ์เคลื่อนที่
         href: consumer/mobile/mobile-reports-in-the-mobile-apps.md
       - name: ใช้ OAuth เพื่อเชื่อมต่อกับ Reporting Services
         href: consumer/mobile/mobile-oauth-ssrs.md
-      - name: กำหนดค่าแอปสำหรับอุปกรณ์เคลื่อนที่ด้วย Intune
-        href: service-admin-mobile-intune.md
     - name: อุปกรณ์ Android
       items:
       - name: เริ่มต้นใช้งานแอป Android
@@ -909,24 +915,34 @@ items:
         href: consumer/mobile/mobile-apps-scan-barcode-iphone.md
     - name: (iOS และ Android)
       items:
+      - name: ดูรายงานในสถานทีสำหรับอุปกรณ์เคลื่อนที่
+        href: consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      - name: ดูรายงานที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ
+        href: consumer/mobile/mobile-apps-view-phone-report.md
+      - name: สแกนคิวอาร์โค้ด Power BI จากโทรศัพท์ของคุณ
+        href: consumer/mobile/mobile-apps-qr-code.md
       - name: ใส่คำอธิบายประกอบ และแชร์ในแอปสำหรับอุปกรณ์เคลื่อนที่
         href: consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
     - name: แอป Power BI สำหรับอุปกรณ์ Windows 10
       items:
-      - name: เริ่มใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
+      - name: เริ่มต้นใช้งานแอป Windows 10
         href: consumer/mobile/mobile-windows-10-phone-app-get-started.md
       - name: ปักหมุดกับแดชบอรที่หน้าจอเริ่มต้น
         href: consumer/mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-      - name: ดูรายงานมือถือของ Reporting Services และ KPI บนแอปสำหรับ Windows 10
+      - name: ดูรายงานอุปกรณ์มือถือของ Reporting Services และ KPI
         href: consumer/mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
       - name: ดู Power BI บน Surface Hub
         href: consumer/mobile/mobile-windows-10-app-presentation-mode.md
+      - name: ลงชื่อเข้าระบบครั้งเดียวในแอป Windows
+        href: consumer/mobile/mobile-windows-10-app-single-sign-on-sso.md
   - name: ทรัพยากร
     items:
     - name: ภาษาที่สนับสนุนในแอปสำหรับอุปกรณ์เคลื่อนที่
       href: consumer/mobile/mobile-apps-supported-languages.md
 - name: Power BI สำหรับนักพัฒนา
   items:
+  - name: นักพัฒนาสามารถทำอะไรกับ Power BI ได้บ้าง
+    href: developer/what-can-you-do.md
   - name: การวิเคราะห์ที่ฝังตัว
     items:
     - name: ภาพรวม
@@ -1003,7 +1019,7 @@ items:
       items:
       - name: ศูนย์นักพัฒนา
         href: https://powerbi.microsoft.com/en-us/developers/
-      - name: ประสบการณ์การเตรียมความพร้อมสำหรับอุปกรณ์การฝังตัว
+      - name: การฝังเครื่องมือตั้งค่า
         href: https://aka.ms/embedsetup
       - name: ตัวอย่าง JavaScript Playground
         href: https://go.microsoft.com/fwlink/?linkid=848279
@@ -1027,7 +1043,7 @@ items:
         href: https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/
     - name: บทช่วยสอน
       items:
-      - name: การพัฒนาวิชวลแบบกำหนดเองสำหรับ Power BI
+      - name: การพัฒนาภาพที่กำหนดเองสำหรับ Power BI
         href: https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/
     - name: แนวคิด
       items:
@@ -1289,7 +1305,7 @@ items:
         href: service-admin-premium-purchase.md
       - name: จัดการ Power BI Premium
         href: service-admin-premium-manage.md
-      - name: รายงานขีดความสามารถของตัวตรวจสอบ Power BI Premium
+      - name: ตรวจสอบความสามารถในการทำงานของคุณ
         href: service-admin-premium-monitor-capacity.md
       - name: การสนับสนุนสำหรับชุดข้อมูลขนาดใหญ่
         href: service-premium-large-datasets.md
@@ -1352,9 +1368,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Power BI สำหรับ Office 365 จะเปลี่ยนไปสู่ Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: da2d6e5f1eb433434024e67dc314c159ea0ff818
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 594bf5227936e6bd5bcc4104727eaeff126260a2
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44728306"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47449040"
