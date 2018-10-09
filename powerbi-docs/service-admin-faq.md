@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 60ac0a944b1eb54ab998fbf25cb5fb79d6dddbe6
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37926607"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271911"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>การจัดการ Power BI - คำถามที่ถามบ่อย (FAQ)
 
@@ -120,7 +120,7 @@ ms.locfileid: "37926607"
     Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>ฉันจะป้องกันไม่ให้ผู้ใช้ปัจจุบันของฉันเริ่มใช้ Power BI ได้อย่างไร?
-มีหลายขั้นตอนที่คุณสามารถใช้ได้ในฐานะผู้ดูแลระบบเพื่อป้องกันไม่ให้ผู้ใช้ลงทะเบียนสำหรับ Power BI ถ้าคุณบล็อกรายการนี้ ความพยายามของผู้ใช้ในการลงทะเบียนจะล้มเหลว และผู้ใช้จะถูกนำไปยังการติดต่อผู้ดูแลระบบขององค์กรของผู้ใช้เอง คุณไม่ต้องทำซ้ำกระบวนการนี้ถ้าคุณได้ปิดใช้งานการแจกจ่ายสิทธิ์การใช้งานโดยอัตโนมัติแล้ว (เช่น Office 365 สำหรับการศึกษาสำหรับนักเรียน คณะ และเจ้าหน้าที่) [เรียนรู้เพิ่มเติม](service-admin-service-free-in-your-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
+มีหลายขั้นตอนที่คุณสามารถใช้ได้ในฐานะผู้ดูแลระบบเพื่อป้องกันไม่ให้ผู้ใช้ลงทะเบียนสำหรับ Power BI ถ้าคุณบล็อกรายการนี้ ความพยายามของผู้ใช้ในการลงทะเบียนจะล้มเหลว และผู้ใช้จะถูกนำไปยังการติดต่อผู้ดูแลระบบขององค์กรของผู้ใช้เอง คุณไม่ต้องทำซ้ำกระบวนการนี้ถ้าคุณได้ปิดใช้งานการแจกจ่ายสิทธิ์การใช้งานโดยอัตโนมัติแล้ว (เช่น Office 365 สำหรับการศึกษาสำหรับนักเรียน คณะ และเจ้าหน้าที่) [เรียนรู้เพิ่มเติม](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory)
 
 การตั้งค่า AAD ซึ่งควบคุมสิ่งนี้คือ **AllowAdHocSubscriptions** ผู้เช่าส่วนใหญ่จะมีการตั้งค่านี้ให้เป็นจริง ซึ่งหมายความว่า ถูกเปิดใช้งาน ถ้าคุณซื้อ Power BI ผ่านคู่ค้า อาจมีการตั้งค่าเป็นเท็จตามค่าเริ่มต้น ซึ่งหมายความว่า ถูกปิดใช้งาน
 

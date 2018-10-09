@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: fa572b44445c4fcf929286b68222b2faf4f9d7d2
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ad430f438bb6418378b13f3104f87a3bd972a2e4
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548292"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271888"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>เชื่อมต่อกับไฟล์ที่จัดเก็บใน OneDrive สำหรับพื้นที่ทำงานของแอป Power BI
 หลังจากที่คุณได้[สร้างพื้นที่ทำงานของแอปใน Power BI](consumer/end-user-create-apps.md)คุณสามารถจัดเก็บ Excel, CSV และไฟล์ Power BI Desktop ของคุณบน OneDrive for Business สำหรับพื้นที่ทำงานแอป Power BI ของคุณ คุณสามารถปรับปรุงแฟ้มที่คุณเก็บไว้ใน OneDrive และการอัปเดตเหล่านั้นมีผลในรายงาน Power BI และแดชบอร์ดที่ยึดตามไฟล์เหล่านั้นโดยอัตโนมัติ 
@@ -29,7 +29,7 @@ ms.locfileid: "46548292"
 2. แล้วคุณ[เชื่อมต่อกับไฟล์เหล่านั้นจาก Power BI](service-connect-to-files-in-app-workspace-onedrive-for-business.md#2-import-excel-files-as-datasets-or-as-excel-online-workbooks)
 
 > [!NOTE]
-> พื้นที่ทำงานของแอปใช้ได้กับ[Power BI Pro](service-free-vs-pro.md)
+> พื้นที่ทำงานของแอปใช้ได้กับ[Power BI Pro](service-features-license-type.md)
 > 
 > 
 

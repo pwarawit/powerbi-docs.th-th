@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4d43ffb1f4e005830fd36da4e80cf4d0c7d86fed
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549948"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271774"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>แชร์แดชบอร์ด Power BI และรายงานกับเพื่อนร่วมงานและคนอื่นๆ
 *แชร์*เป็นวิธีที่ดีเมื่อต้องให้บางคนสามารถเข้าถึงแดชบอร์ดและรายงานของคุณ Power BI ยังมี[หลายวิธีอื่นๆ เพื่อที่จะทำงานร่วมกันและเผยแพร่แดชบอร์ดและรายงาน](service-how-to-collaborate-distribute-dashboards-reports.md)
 
 ![ไอคอนแชร์ในรายการแดชบอร์ดโปรด](media/service-share-dashboards/power-bi-share-dash-report-favorites.png)
 
-ด้วยการใช้งานร่วมกัน ไม่ว่าคุณแชร์เนื้อหาภายใน หรือภายนอกองค์กร คุณจำเป็นต้องมี[สิทธิ์การใช้งาน Power BI Pro](service-free-vs-pro.md) ผู้รับของคุณยังต้องมีสิทธิ์ใช้งาน Power BI Pro หรือเนื้อหาต้องอยู่ใน[ความสามารถพรีเมียม](service-premium.md) 
+ด้วยการใช้งานร่วมกัน ไม่ว่าคุณแชร์เนื้อหาภายใน หรือภายนอกองค์กร คุณจำเป็นต้องมี[สิทธิ์การใช้งาน Power BI Pro](service-features-license-type.md) ผู้รับของคุณยังต้องมีสิทธิ์ใช้งาน Power BI Pro หรือเนื้อหาต้องอยู่ใน[ความสามารถพรีเมียม](service-premium.md) 
 
 คุณสามารถแชร์แดชบอร์ดและรายงานจากสถานที่ส่วนใหญ่ในบริการ Power BI รายการโปรด รายการล่าสุด แชร์กับฉัน(ถ้าเจ้าของทำได้ใน), My Workspace หรือพื้นที่ทำงานอื่นๆของคุณ เมื่อคุณแชร์แดชบอร์ดหรือรายงาน ซึ่งคนที่คุณแชรให้จะสามารถดูและโต้ตอบกับมันได้ แต่ไม่สามารถแก้ไขมันได้ พวกเขาจะเห็นข้อมูลเดียวกันกับที่คุณเห็นในแดชบอร์ดหรือรายงาน เว้นแต่ว่า[ระดับแถวความปลอดภัย (RLS)](service-admin-rls.md)ได้ถูกใช้ เหล่าเพื่อนร่วมงานที่คุณแชร์กับสามารถใช้ร่วมกับเพื่อนร่วมงานของพวกเขา ถ้าคุณอนุญาต บุคคลภายนอกองค์กรสามารถดู และโต้ตอบกับแดชบอร์ดหรือรายงานเช่นเดียวกัน แต่ไม่สามารถแชร์มันได้ 
 

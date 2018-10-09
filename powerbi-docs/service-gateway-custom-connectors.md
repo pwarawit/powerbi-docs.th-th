@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9c36034ad5e8175e08f1d16c2f5148c5dab0ebbd
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: 2536ea34cadae5f348e619d713420787db4c467a
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "42702891"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48799057"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>ใช้ตัวเชื่อมต่อข้อมูลแบบกำหนดเองกับเกตเวย์ข้อมูลภายในองค์กร
 
@@ -45,8 +45,6 @@ ms.locfileid: "42702891"
 
 * ตรวจสอบให้แน่ใจว่าโฟลเดอร์ที่คุณสร้างจะสามารถเข้าถึงบริการเกตเวย์พื้นหลัง โดยทั่วไปแล้ว โฟลเดอร์ภายใต้โฟลเดอร์ Windows หรือโฟลเดอร์ระบบของผู้ใช้ของคุณจะไม่สามารถเข้าถึงได้ ตัวตั้งค่าคอนฟิกเกตเวย์จะแสดงข้อความถ้าโฟลเดอร์นั้นจะไม่สามารถเข้าถึงได้ (ซึ่งใช้ไม่ได้สำหรับเวอร์ชันส่วนบุคคลของเกตเวย์)
 * สำหรับตัวเชื่อมต่อแบบกำหนดเองเพื่อทำงานกับเกตเวย์ข้อมูลภายในองค์กร พวกเขาจำเป็นต้องใช้ส่วน "TestConnection" ในโค้ดของตัวเชื่อมต่อแบบกำหนดเอง ซึ่งไม่จำเป็นเมื่อใช้ตัวเชื่อมต่อแบบกำหนดเองด้วย Power BI Desktop ด้วยเหตุนี้คุณสามารถมีหนึ่งตัวทีทำงานกับเดสก์ท็อป แต่ไมใช่กับเกตเวย์ โปรดดู[เอกสารนี้](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support)เกี่ยวกับวิธีการใช้ส่วน TestConnection
-* ตัวเชื่อมต่อแบบกำหนดเองด้วยการรับรองความถูกต้อง OAuth ไม่ได้รับการสนับสนุน
-* ไม่สนับสนุนตัวเชื่อมต่อแบบกำหนดเองโดยใช้คิวรีโดยตรง
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
@@ -60,4 +58,4 @@ ms.locfileid: "42702891"
 * [กำหนดค่าพร็อกซีสำหรับเกตเวย์ข้อมูลภายในองค์กร](service-gateway-proxy.md)  
 * [ใช้ Kerberos สำหรับ SSO (ลงชื่อเข้าใช้ครั้งเดียว) จาก Power BI ไปยังแหล่งข้อมูลภายในองค์กร](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)  
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

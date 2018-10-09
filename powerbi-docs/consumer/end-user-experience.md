@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/18/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 152ca52713cc548553d061d2457d13d1b5760ee4
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565854"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798942"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>เริ่มต้นใช้งานด่วน - ทำความรู้จักบริการของ Power BI
 
@@ -38,7 +38,7 @@ ms.locfileid: "46565854"
 
     ![เลือกตัวอย่าง](./media/end-user-experience/power-bi-retail-sample.png)
 
-    บริการของ Power BI จะนำเข้าตัวอย่างและแสดงแดชบอร์ด แดชบอร์ดคือสิ่งที่ทำให้ บริการของ Power BI แตกต่างจาก Power BI Desktop ตัวอย่างยังมีรายงานและชุดข้อมูล ซึ่งเราจะพาชมในภายหลัง
+    บริการของ Power BI จะนำเข้าตัวอย่างและแสดงแดชบอร์ด แดชบอร์ดคือสิ่งที่ทำให้บริการของ Power BI แตกต่างจาก Power BI Desktop ตัวอย่างยังมีรายงานและชุดข้อมูล ซึ่งเราจะพาชมในภายหลัง
 
     ![](media/end-user-experience/power-bi-dashboard.png)
 

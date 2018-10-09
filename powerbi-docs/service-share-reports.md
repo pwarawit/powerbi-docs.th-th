@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fed01feb86530dbee10e446d41799a3e2ccd9e3
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545654"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271520"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>แชร์รายงาน Power BI ที่ถูกกรองร่วมกับเพื่อนร่วมงานของคุณ
 *แชร์*เป็นวิธีที่ดีเมื่อต้องให้บางคนสามารถเข้าถึงแดชบอร์ดและรายงานของคุณ Power BI ยังนำเสนอ[หลายวิธีอื่นๆ เพื่อที่จะทำงานร่วมกันและเผยแพร่แดชบอร์ดและรายงาน](service-how-to-collaborate-distribute-dashboards-reports.md)
 
-ด้วยการแชร์ คุณและผู้รับของคุณต้องมี[สิทธิ์การใช้งาน Power BI Pro](service-free-vs-pro.md)หรือเนื้อหาจำเป็นต้องเป็นแบบ[ความจุพรีเมียม](service-premium.md) มีข้อเสนอแนะไหม ทีม Power BI สนใจคำติชมของคุณเสมอ ดังนั้นให้ไปที่[ไซต์ชุมชน Power BI](https://community.powerbi.com/)
+ด้วยการแชร์ คุณและผู้รับของคุณต้องมี[สิทธิ์การใช้งาน Power BI Pro](service-features-license-type.md)หรือเนื้อหาจำเป็นต้องเป็นแบบ[ความจุพรีเมียม](service-premium.md) มีข้อเสนอแนะไหม ทีม Power BI สนใจคำติชมของคุณเสมอ ดังนั้นให้ไปที่[ไซต์ชุมชน Power BI](https://community.powerbi.com/)
 
 คุณสามารถแชร์รายงานกับผู้ร่วมงานในโดเมนอีเมลเดียวกับคุณ จากสถานที่ส่วนใหญ่ใน Power BI service เช่น รายการโปรด ล่าสุด แชร์กับฉัน (ถ้าเจ้าของอนุญาต) My Workspace หรือพื้นที่ทำงานอื่นๆของคุณได้ เมื่อคุณแชร์แดชบอร์ดหรือรายงาน ซึ่งคนที่คุณแชรให้จะสามารถดูและโต้ตอบกับมันได้ แต่ไม่สามารถแก้ไขมันได้ พวกเขาจะเห็นข้อมูลเดียวกันกับที่คุณเห็นในแดชบอร์ดหรือรายงาน เว้นแต่ว่า[ระดับแถวความปลอดภัย (RLS)](service-admin-rls.md)จะถูกใช้ 
 

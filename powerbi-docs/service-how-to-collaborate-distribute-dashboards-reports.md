@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545762"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271741"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>ฉันควรทำงานร่วมกัน และแชร์ใน Power BI ได้อย่างไร?
 
@@ -29,7 +29,7 @@ ms.locfileid: "46545762"
 - พิมพ์รายงาน
 * เผยแพร่ไปยังเว็บสำหรับเว็บไซต์สาธารณะ ที่ทุกคนในโลกสามารถดู และโต้ตอบกับข้อมูล
 
-ไม่ว่าคุณจะเลือกตัวเลือกไหนเพื่อแชร์แดชบอร์ด คุณต้องมี[สิทธิ์การใช้งาน Power BI Pro](service-free-vs-pro.md) หรือเนื้อหาจำเป็นต้องอยู่ใน[ความจุพรีเมียม](service-premium.md) ข้อกำหนดสิทธิ์การใช้งานสำหรับผู้ร่วมงานที่จะดูแดชบอร์ดของคุณ จะแตกต่างกันไป ขึ้นอยู่กับตัวเลือกที่คุณเลือก ส่วนต่อไปนี้คือรายละเอียด 
+ไม่ว่าคุณจะเลือกตัวเลือกไหนเพื่อแชร์แดชบอร์ด คุณต้องมี[สิทธิ์การใช้งาน Power BI Pro](service-features-license-type.md) หรือเนื้อหาจำเป็นต้องอยู่ใน[ความจุพรีเมียม](service-premium.md) ข้อกำหนดสิทธิ์การใช้งานสำหรับผู้ร่วมงานที่จะดูแดชบอร์ดของคุณ จะแตกต่างกันไป ขึ้นอยู่กับตัวเลือกที่คุณเลือก ส่วนต่อไปนี้คือรายละเอียด 
 
 ![แอปในบริการของ Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -101,5 +101,5 @@ ms.locfileid: "46545762"
 * [แชร์แดชบอร์ดกับเพื่อนร่วมงานและผู้อื่น](service-share-dashboards.md)
 * [สร้างและเผยแพร่แอปใน Power BI](consumer/end-user-create-apps.md)
 * มีคำติชมหรือไม่? ไปที่[ไซต์ชุมชน Power BI](https://community.powerbi.com/) พร้อมกับคำแนะนำของคุณ
-* มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 
