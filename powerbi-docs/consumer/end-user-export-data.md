@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 08/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8e5e2211af7dc53dba20a8d43c1083517b51bf17
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: eac6a1b4f7a3f734aa22c715a4ef196193230283
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565992"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908865"
 ---
 # <a name="export-data-from-visualizations"></a>ส่งออกข้อมูลจากการแสดงภาพ
 ถ้าคุณต้องการดูข้อมูลที่ใช้ในการสร้างการแสดงภาพ คุณสามารถ[แสดงข้อมูลนั้นใน Power BI](end-user-show-data.md)หรือส่งออกข้อมูลนั้นไปยัง Excel เป็นไฟล์ .xlsx หรือ .csv ได้   
@@ -55,7 +55,7 @@ ms.locfileid: "46565992"
 4. เลือกจุดไข่ปลาที่มุมขวาบนของการแสดงภาพ เลือก **ส่งออกข้อมูล**
 
    ![](media/end-user-export-data/power-bi-export-data2.png)
-5. ใน Power BI online ถ้าการแสดงภาพของคุณมีค่ารวม (ตัวอย่างหนึ่งที่ควรเป็นถ้าคุณเปลี่ยน**จำนวนนับ**เป็น*ค่าเฉลี่ย* **ผลรวม**หรือ*ค่าต่ำสุด*) คุณจะได้สองตัวเลือก นั่นคือ **ข้อมูลสรุป**และ**ข้อมูลพื้นฐาน** ใน Power BI Desktop คุณจะมีตัวเลือก**ข้อมูลสรุป** เท่านั้น เพื่อทำความเข้าใจเรื่องการรวมค่า ดู [การรวมค่าใน Power BI](../service-aggregates.md)
+5. ใน Power BI online ถ้าการแสดงภาพของคุณมีค่ารวม (ตัวอย่างหนึ่งที่ควรเป็นถ้าคุณเปลี่ยน**จำนวนนับ**เป็น*ค่าเฉลี่ย* *ผลรวม*หรือ*ค่าต่ำสุด*) คุณจะได้สองตัวเลือก นั่นคือ **ข้อมูลสรุป**และ**ข้อมูลพื้นฐาน** ใน Power BI Desktop คุณจะมีตัวเลือก**ข้อมูลสรุป** เท่านั้น เพื่อทำความเข้าใจเรื่องการรวมค่า ดู [การรวมค่าใน Power BI](../service-aggregates.md)
 
     ![](media/end-user-export-data/power-bi-export-data5.png)
 6. เลือก**ข้อมูลสรุป** > **ส่งออก**และเลือกไฟล์ .xlsx หรือ .csv Power BI ส่งออกข้อมูล  ถ้าคุณได้ใช้ตัวกรองกับการแสดงภาพ ข้อมูลที่ส่งออกจะถูกส่งออกตามที่ถูกกรอง เมื่อคุณเลือก**ส่งออก** เบราว์เซอร์ของคุณจะปรากฏให้คุณบันทึกไฟล์ดังกล่าว เมื่อบันทึกแล้ว เปิดไฟล์ดังกล่าวใน Excel

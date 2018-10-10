@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 2b39d9ab5b8bae32dde6eda66f09f69a9718d569
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548499"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908542"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "46548499"
 | จำเป็นต้องใช้เกตเวย์ | ไม่ใช่ | ใช่สำหรับแหล่งข้อมูลภายในองค์กร |  
 | การสตรีมในเวลาจริง | ไม่ใช่ | ใช่ | [การสตรีมในเวลาจริงใน Power BI](../service-real-time-streaming.md)
 | แดชบอร์ด | ไม่ใช่ | ใช่ | [แดชบอร์ดในบริการของ Power BI](../consumer/end-user-dashboards.md) 
-| กลุ่มการแจกจ่ายรายงานโดยใช้แอป | ไม่ใช่ | ใช่ | [สร้างและเผยแพร่แอปที่มีแดชบอร์ดและรายงาน](../consumer/end-user-create-apps.md) 
+| กลุ่มการแจกจ่ายรายงานโดยใช้แอป | ไม่ใช่ | ใช่ | [สร้างและเผยแพร่แอปที่มีแดชบอร์ดและรายงาน](../service-create-distribute-apps.md) 
 | ชุดเนื้อหา | ไม่ใช่ | ใช่ | [ชุดเนื้อหาระดับองค์กร: บทนำ](../service-organizational-content-pack-introduction.md) 
 | เชื่อมต่อกับบริการต่าง ๆ เช่น Salesforce | ไม่ใช่ | ใช่ | [เชื่อมต่อกับบริการที่คุณใช้](../consumer/end-user-connect-to-services.md)ด้วยบริการของ Power BI
 | ถามตอบ | ไม่ใช่ | ใช่ | [ถามตอบในบริการของ Power BI และ Power BI Desktop](../consumer/end-user-q-and-a.md) 

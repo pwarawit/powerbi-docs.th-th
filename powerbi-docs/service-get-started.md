@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6efef092002c0dc401c4c5328dd3e0d595beff66
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 554e9f3bbea5a1da6ac43f21f72b054a26849f23
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187133"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908764"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>บทช่วยสอน: เริ่มต้นใช้งานบริการ Power BI (app.powerbi.com)
 บทเรียนนี้ช่วยให้คุณเริ่มต้นใช้งาน***Power BI service***  สำหรับทำความเข้าใจว่า Power BI service เหมาะสมกับข้อเสนอ Power BI อื่นๆอย่างไร เราขอแนะนำให้ คุณเริ่มต้นด้วยการอ่าน[Power BI คืออะไร](power-bi-overview.md)
@@ -55,7 +55,7 @@ ms.locfileid: "47187133"
 ## <a name="what-is-power-bi-service"></a>บริการ Power BI คืออะไร
 บริการ Microsoft Power BI ในบางครั้งเรียกว่า Power BI แบบออนไลน์หรือ app.powerbi.com Power BI ช่วยให้คุณรู้ข้อมูลทันสมัยที่สำคัญสำหรับคุณ  ด้วยบริการ Power BI ***แดชบอร์ด***ช่วยให้คุณสามารถเฝ้่าระหวังความเสี่ยงของธุรกิจของคุณได้  แดชบอร์ดของคุณแสดง***ไทล์***ที่คุณสามารถคลิกเพื่อเปิด***รายงาน***เพื่อดูเพิ่มเติม  เชื่อมต่อกับหลาย***ชุดข้อมูล***เมื่อต้องการนำข้อมูลเกี่ยวข้องทั้งหมดมารวมกันในที่เดียว ต้องการความช่วยเหลือในการทำความเข้าใจเกี่ยวกับบล็อกที่สร้าง Power BI หรือไม่  ดู[Power BI แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
 
-ถ้าคุณมีข้อมูลที่สำคัญในไฟล์ Excel หรือ CSV คุณสามารถสร้างแดชบอร์ด Power BI เพื่อรับข่าวสารที่ใดก็ได้ และแชร์ข้อมูลเชิงลึกกับผู้อื่น  คุณได้การสมัครใช้งานแอปพลิเคชัน SaaS เช่น Salesforce หรือไม่  เริ่มต้นด้วยการเชื่อมต่อกับ Salesforce เพื่อสร้างแดชบอร์ดโดยอัตโนมัติจากข้อมูลนั้น หรือ[ดูแอป SaaS อื่น ๆ ทั้งหมด](service-get-data.md)ที่คุณสามารถเชื่อมต่อได้ ถ้าคุณเป็นส่วนหนึ่งขององค์กร ให้พิจารณาว่า[apps](consumer/end-user-create-apps.md)ใดเคยเผยแพร่ให้คุณหรือไม่
+ถ้าคุณมีข้อมูลที่สำคัญในไฟล์ Excel หรือ CSV คุณสามารถสร้างแดชบอร์ด Power BI เพื่อรับข่าวสารที่ใดก็ได้ และแชร์ข้อมูลเชิงลึกกับผู้อื่น  คุณได้การสมัครใช้งานแอปพลิเคชัน SaaS เช่น Salesforce หรือไม่  เริ่มต้นด้วยการเชื่อมต่อกับ Salesforce เพื่อสร้างแดชบอร์ดโดยอัตโนมัติจากข้อมูลนั้น หรือ[ดูแอป SaaS อื่น ๆ ทั้งหมด](service-get-data.md)ที่คุณสามารถเชื่อมต่อได้ ถ้าคุณเป็นส่วนหนึ่งขององค์กร ให้พิจารณาว่า[apps](service-create-distribute-apps.md)ใดเคยเผยแพร่ให้คุณหรือไม่
 
 อ่านเกี่ยวกับวิธีอื่นๆทั้งหมด ในการ[เอาข้อมูลให้ Power BI](service-get-data.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5268241c32112847c879407374b325dd63dd8aab
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cae5c83f6e220689bfd7d484d5d86c188325ad05
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564853"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908635"
 ---
 # <a name="reports-in-power-bi"></a>รายงานใน Power BI
 ## <a name="what-is-a-power-bi-report"></a>รายงาน Power BI คืออะไร?
@@ -67,7 +67,7 @@ ms.locfileid: "46564853"
 * เริ่มต้นด้วยการ[สำรวจบริการ Power BI](end-user-basic-concepts.md) เพื่อให้คุณทราบตำแหน่งที่จะค้นหารายงานและเครื่องมือรายงาน
 * เรียนรู้วิธีการ[เปิดรายงาน](end-user-report-open.md)และการโต้ตอบทั้งหมดที่พร้อมใช้งานใน[มุมมองการอ่าน](end-user-reading-view.md)
 * สร้างความคุ้นเคยกับรายงานโดยเข้าดูหนึ่งใน[ตัวอย่าง](../sample-tutorial-connect-to-the-samples.md)ของเรา  
-* ไม่ต้องการรายงานอีกต่อไป? คุณสามารถ[ลบออก](end-user-delete.md)ได้
+<!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
 * การดูชุดข้อมูลที่รายงานใช้ และดูว่าแดชบอร์ดใดที่มีไทล์ปักหมุดจากรายงาน [ดูเนื้อหาที่เกี่ยวข้อง](end-user-related.md)
 
 > [!TIP]
@@ -79,6 +79,4 @@ ms.locfileid: "46564853"
 [Power BI คืออะไร](../power-bi-overview.md) 
 
 [Power BI แนวคิดพื้นฐาน](end-user-basic-concepts.md)
-
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

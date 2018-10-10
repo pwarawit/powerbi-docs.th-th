@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b40933e085cf81528a28e9eedb4260351f657323
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9a22889da87af91f3b5ea996961ec9e9538fe31b
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548407"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909118"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>สร้างพื้นที่ทำงานกับเพื่อนร่วมงานของคุณใน Power BI
 
@@ -77,7 +77,7 @@ ms.locfileid: "46548407"
 
 ## <a name="distribute-an-app"></a>แจกจ่ายแอป
 
-เมื่อเนื้อหาพร้อมแล้ว คุณสามารถเลือกได้ว่าแดชบอร์ดและรายงานใดที่คุณต้องการจะเผยแพร่ จากนั้นเผยแพร่ในฐานะเป็น*แอป* เพื่อนร่วมงานสามารถรับแอปของคุณในสองสามวิธีที่แตกต่างกัน คุณสามารถติดตั้งแอปโดยอัตโนมัติในบัญชี Power BI ของเพื่อนร่วมงาน ถ้าผู้ดูแลระบบ Power BI ของคุณให้สิทธิ์คุณ หรือ เพื่อนร่วมงานของคุณสามารถค้นหา และติดตั้งแอปของคุณจาก Microsoft AppSource หรือคุณสามารถส่งลิงก์ได้โดยตรง พวกเขาจะได้รับอัปเดตโดยอัตโนมัติ และคุณสามารถควบคุมความถี่ในการรีเฟรชข้อมูลได้ ดู[เผยแพร่แอปด้วยแดชบอร์ดและรายงานใน Power BI](consumer/end-user-create-apps.md) สำหรับรายละเอียด
+เมื่อเนื้อหาพร้อมแล้ว คุณสามารถเลือกได้ว่าแดชบอร์ดและรายงานใดที่คุณต้องการจะเผยแพร่ จากนั้นเผยแพร่ในฐานะเป็น*แอป* เพื่อนร่วมงานสามารถรับแอปของคุณในสองสามวิธีที่แตกต่างกัน คุณสามารถติดตั้งแอปโดยอัตโนมัติในบัญชี Power BI ของเพื่อนร่วมงาน ถ้าผู้ดูแลระบบ Power BI ของคุณให้สิทธิ์คุณ หรือ เพื่อนร่วมงานของคุณสามารถค้นหา และติดตั้งแอปของคุณจาก Microsoft AppSource หรือคุณสามารถส่งลิงก์ได้โดยตรง พวกเขาจะได้รับอัปเดตโดยอัตโนมัติ และคุณสามารถควบคุมความถี่ในการรีเฟรชข้อมูลได้ ดู[เผยแพร่แอปด้วยแดชบอร์ดและรายงานใน Power BI](service-create-distribute-apps.md) สำหรับรายละเอียด
 
 ## <a name="power-bi-apps-faq"></a>แอปฯ Power BI ถามที่ถามบ่อย
 
@@ -92,7 +92,6 @@ ms.locfileid: "46548407"
 ดู[พื้นที่ทำงานแอปใหม่แตกต่างจากพื้นที่ทำงานแอปที่มีอยู่อย่างไร](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces) ทั้งนี้ เพื่อเปรียบเทียบพื้นที่ทำงานแอปปัจจุบันและพื้นที่ทำงานแอปใหม่ 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [ติดตั้งและใช้แอปฯใน Power BI](consumer/end-user-apps.md)
-* [แอป Power BI สำหรับบริการภายนอก](consumer/end-user-connect-to-services.md)
+* [ติดตั้งและใช้แอปฯใน Power BI](service-create-distribute-apps.md)
 - [สร้างพื้นที่ทำงานใหม่ (ตัวอย่าง)](service-create-the-new-workspaces.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)

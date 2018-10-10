@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 99d8faa7ba3e0e92f97e84bd52454ad44a472e71
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 00f4f63630efd36b55da5e15ce28f1733edaf84f
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547303"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908681"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>เริ่มใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
 แอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10 พร้อมให้คุณใช้งาน Power BI บนแท็บเล็ตหรือโทรศัพท์ ด้วยการเข้าถึงข้อมูลทางธุรกิจของคุณแบบผ่านทางอุปกรณ์เคลื่อนที่ระบบสัมผัสที่ทันสมัย ดูและโต้ตอบกับแดชบอร์ดบริษัทของคุณจากที่ใดก็ได้ &#151; บน[หน้าจอเริ่มต้นของ Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)
@@ -108,7 +108,7 @@ ms.locfileid: "46547303"
 ต่อไปนี้คือสิ่งอื่นๆ ที่คุณสามารถทำในแอป Power BI สำหรับ Windows 10 กับแดชบอร์ดและรายงานใน Power BI ตลอดจนรายงานอุปกรณ์มือถือและ KPI ของ Reporting Services ในพอร์ทัลเว็บ Reporting Services
 
 ### <a name="power-bi-dashboards-and-reports"></a>แดชบอร์ดและรายงาน Power BI
-* ดู[แอปของคุณ](../end-user-apps.md)
+* ดู[แอปของคุณ](../../service-create-distribute-apps.md)
 * ดู[แดชบอร์ด](mobile-apps-view-dashboard.md)ของคุณ
 * [ปักหมุดไทล์และแดชบอร์ด Power BI](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) เป็นไทล์รายงานสดบนหน้าจอเริ่มต้นของอุปกรณ์ของคุณ
 * [แชร์ไทล์](mobile-windows-10-phone-app-get-started.md)

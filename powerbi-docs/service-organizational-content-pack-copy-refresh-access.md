@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1fbb49f55c4139845f806d590ffb4956abfe0dcd
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 37cfca811b7e60bde832396e67b246933d4e0a8e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543500"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908428"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>ชุดเนื้อหาองค์กร คัดลอก รีเฟรช และรับ ccess
 
@@ -51,6 +51,6 @@ ms.locfileid: "46543500"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [แนะนำชุดเนื้อหาองค์กร](service-organizational-content-pack-introduction.md)
-* [สร้างกลุ่มใน Power BI](consumer/end-user-create-apps.md)
+* [สร้างกลุ่มใน Power BI](service-create-distribute-apps.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

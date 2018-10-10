@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271741"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908980"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>ฉันควรทำงานร่วมกัน และแชร์ใน Power BI ได้อย่างไร?
 
@@ -57,7 +57,7 @@ ms.locfileid: "48271741"
 
 ![ไอคอนเผยแพร่แอป](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-สามารถค้นหาและติดตั้งแอปได้ง่าย ๆ ในบริการของ Power BI ([https://powerbi.com](https://powerbi.com)) คุณสามารถส่งลิงก์โดยตรงไปยังแอป ให้กับผู้ใช้ทางธุรกิจ หรือพวกเขาสามารถค้นหาได้ใน AppSource ถ้าผู้ดูแลระบบ Power BI ของคุณ ให้สิทธิ์แก่คุณ คุณสามารถติดตั้งแอปลงในบัญชีผู้ใช้ Power BI ของเพื่อนร่วมงานคุณโดยอัตโนมัติ อ่านเพิ่มเติมเกี่ยวกับ[การเผยแพร่แอปของคุณ](consumer/end-user-create-apps.md) 
+สามารถค้นหาและติดตั้งแอปได้ง่าย ๆ ในบริการของ Power BI ([https://powerbi.com](https://powerbi.com)) คุณสามารถส่งลิงก์โดยตรงไปยังแอป ให้กับผู้ใช้ทางธุรกิจ หรือพวกเขาสามารถค้นหาได้ใน AppSource ถ้าผู้ดูแลระบบ Power BI ของคุณ ให้สิทธิ์แก่คุณ คุณสามารถติดตั้งแอปลงในบัญชีผู้ใช้ Power BI ของเพื่อนร่วมงานคุณโดยอัตโนมัติ อ่านเพิ่มเติมเกี่ยวกับ[การเผยแพร่แอปของคุณ](service-create-distribute-apps.md) 
 
 หลังจากที่พวกเขาติดตั้งแอปแล้ว พวกเขาสามารถดูแอปในเบราว์เซอร์หรืออุปกรณ์เคลื่อนที่ของพวกเขา
 
@@ -99,7 +99,7 @@ ms.locfileid: "48271741"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [แชร์แดชบอร์ดกับเพื่อนร่วมงานและผู้อื่น](service-share-dashboards.md)
-* [สร้างและเผยแพร่แอปใน Power BI](consumer/end-user-create-apps.md)
+* [สร้างและเผยแพร่แอปใน Power BI](service-create-distribute-apps.md)
 * มีคำติชมหรือไม่? ไปที่[ไซต์ชุมชน Power BI](https://community.powerbi.com/) พร้อมกับคำแนะนำของคุณ
 * มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 
