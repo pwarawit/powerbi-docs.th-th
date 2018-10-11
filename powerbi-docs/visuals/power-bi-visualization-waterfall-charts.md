@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: e9b48b79b30250c442140929045132fe1c4b10e8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565831"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448925"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>แผนภูมิแบบน้ำตกใน Power BI
 แผนภูมิแบบน้ำตกจะแสดงผลรวมสะสมเป็นค่าที่เพิ่มขึ้นหรือลดลง แผนภูมินี้มีประโยชน์สำหรับการวิเคราะห์ว่าค่าเริ่มต้น (ตัวอย่างเช่น กำไรสุทธิ) ได้รับผลกระทบอย่างไร เมื่อมีการเปลี่ยนแปลงเชิงบวก และเชิงลบที่เกิดขึ้นอย่างต่อเนื่องในช่วงระยะเวลาหนึ่ง
@@ -39,32 +39,32 @@ ms.locfileid: "46565831"
 
 1. เลือกแท็บ**ชุดข้อมูล** แล้วเลื่อนไปยังชุดข้อมูล "ตัวอย่างการวิเคราะห์การค้าปลีก" ใหม่  เลือกไอคอน**สร้างรายงาน** เพื่อเปิดชุดข้อมูลในมุมมองการแก้ไขรายงาน 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
-2. ในส่วนบานหน้าต่าง**เขตข้อมูล** ให้เลือก**ยอดขาย\> ผลต่างของยอดขายรวม** ถ้า**ผลต่างของยอดขายรวม**ไม่ได้อยู่ในพื้นที่ของ**แกน Y** ให้ลากไปไว้ในส่วนนั้น
-3. แปลงแผนภูมิเป็น**แบบน้ำตก** 
+    ![แท็บชุดข้อมูลที่ถูกเน้น](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-report.png)
+2. ในส่วนบานหน้าต่าง**เขตข้อมูล** ให้เลือก**ยอดขาย\> ผลต่างของยอดขายรวม** 
+3. แปลงแผนภูมิเป็น**แบบน้ำตก** ถ้า**ผลต่างของยอดขายรวม**ไม่ได้อยู่ในพื้นที่ของ**แกน Y** ให้ลากไปไว้ในส่วนนั้น
    
-    ![](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
+    ![แม่แบบการแสดงภาพ](media/power-bi-visualization-waterfall-charts/convertwaterfall.png)
 4. เลือก**เวลา** \> **เดือนตามรอบบัญชี** เพื่อเพิ่มไปยัง**ประเภท** ตามที่เหมาะสม 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![แผนภูมิน้ำตก](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 5. เรียงลำดับแผนภูมิแบบน้ำตกตามลำดับเวลา ในส่วนมุมบนขวาของแผนภูมิ ให้เลือกจุดไข่ปลา (...) แล้วเลือก **เดือนตามรอบบัญชี**
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sort.png)
+    ![เลือกการเรียงลำดับตาม > FiscalMonth](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
+    ![reslt ของการเรียงลำดับใหม่จากน้อยไปมาก](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
 6. ดูรายละเอียดเพิ่มเติมอีกเล็กน้อย เพื่อดูว่าอะไรคือปัจจัยที่สนับสนุนให้เกิดการเปลี่ยนแปลงมากที่สุดในแต่ละเดือน ลาก**ร้านค้า** > **เขตการขาย**ไปยังบักเก็ต **การแบ่งย่อย**
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![แสดงร้านค้าในบักเก็ต](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 7. ตามค่าเริ่มต้น Power BI จะเพิ่มปัจจัยสนับสนุน 5 อันดับแรกที่จะเพิ่ม หรือลดในแต่ละเดือน แต่เราสนใจเฉพาะปัจจัยสนับสนุน 2 อันดับแรก  ในบานหน้าต่างการจัดรูปแบบ ให้เลือก**การแบ่งย่อย** แล้วตั้งค่า**สูงสุด**เป็น 2
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![จัดรูปแบบ > แบ่งย่อย](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
    
     การตรวจสอบอย่างรวดเร็วแสดงให้เห็นว่าเขตโอไฮโอ และเพนซิลเวเนียเป็นปัจจัยสนับสนุนที่มีอิทธิพลมากที่สุดที่ทำให้เกิดการเปลี่ยนแปลงทั้งในเชิงบวกและเชิงลบในแผนภูมิแบบน้ำตกของเรา 
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
-8. นี่คือข้อมูลจากการตรวจสอบที่น่าสนใจ โอไฮโอและเพนซิลเวเนียได้รับผลกระทบดังกล่าว เนื่องจากเขตการขาย 2 เขตนี้มียอดขายสูงกว่าเขตการขายอื่น ๆ เป็นอย่างมากใช่หรือไม่  เราสามารถตรวจสอบข้อมูลดังกล่าวได้ สร้างแผนที่ตรวจสอบยอดขายตามเขตการขาย  
+    ![แผนภูมิน้ำตก](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+8. นี่คือข้อมูลจากการตรวจสอบที่น่าสนใจ โอไฮโอและเพนซิลเวเนียได้รับผลกระทบดังกล่าว เนื่องจากเขตการขาย 2 เขตนี้มียอดขายสูงกว่าเขตการขายอื่น ๆ เป็นอย่างมากใช่หรือไม่  เราสามารถตรวจสอบข้อมูลดังกล่าวได้ สร้างแผนที่ที่ดูค่ายอดขายของปีนี้และยอดขายของปีที่แล้วตามเขต  
    
-    ![](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
+    ![แผนที่เข้าไปใกล้ PA และ Ohio](media/power-bi-visualization-waterfall-charts/power-bi-map.png)
    
     แผนที่ของเราสนับสนุนทฤษฎีของเรา  โดยแสดงให้เห็นว่าเขตการขาย 2 เขตนี้มียอดขายสูงสุดในปีที่ผ่านมา (ขนาดฟอง) และปีนี้ (แรเงาฟอง)
 
@@ -74,13 +74,7 @@ ms.locfileid: "46565831"
 การเน้นคอลัมน์ในแผนภูมิแบบน้ำตกจะกรองข้ามการแสดงภาพอื่นๆ ในหน้ารายงาน และในทางกลับกัน การยกเลิกการเน้นก็จะเป็นการยกเลิกการดำเนินการดังกล่าว อย่างไรก็ตาม คอลัมน์ผลรวมจะไม่ทริกเกอร์การเน้น หรือตอบสนองกับการกรองข้าม
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[รายงานใน Power BI](../consumer/end-user-reports.md)
+
+[การโต้ตอบแบบการแสดงภาพ](../service-reports-visual-interactions.md)
 
 [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[การแสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)
-
-[Power BI - แนวคิดพื้นฐาน](../consumer/end-user-basic-concepts.md)
-
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
-

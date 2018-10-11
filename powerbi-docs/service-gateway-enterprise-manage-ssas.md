@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599192"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238111"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>จัดการแหล่งข้อมูลของคุณ - Analysis Services
 เมื่อคุณได้ติดตั้งเกตเวย์ข้อมูลในองค์กร คุณจะต้องเพิ่มแหล่งข้อมูลที่สามารถใช้กับเกตเวย์ บทความนี้จะดูที่วิธีการทำงานกับเกตเวย์และแหล่งข้อมูล คุณสามารถใช้แหล่งข้อมูล Analysis Services เพื่อการรีเฟรชตามกำหนดการ หรือใช้เพื่อการเชื่อมต่อสดก็ได้
@@ -150,13 +150,38 @@ ms.locfileid: "37599192"
 วิธีการกำหนดค่าเกตเวย์ของคุณเพื่อดำเนินการค้นหา AD:
 
 1. ดาวน์โหลด และติดตั้งเกตเวย์ล่าสุด
+
 2. ในเกตเวย์ คุณจำเป็นต้องเปลี่ยนการ**บริการเกตเวย์ข้อมูลในองค์กร**เพื่อเรียกใช้ ด้วยบัญชีโดเมน (แทนภายในเครื่องบัญชีบริการ – มิฉะนั้นการค้นหา AD จะไม่ทำงานอย่างเหมาะสมในเวลาที่กำลังดำเนินการ) คุณจะต้องปิดและเปิดบริการเกตเวย์ใหม่เพื่อให้การเปลี่ยนแปลงมีผลบังคับใช้  ไปยังแอปเกตเวย์บนเครื่องของคุณ (ค้นหา "เกตเวย์ข้อมูลภายในองค์กร") ในการดำเนินการนี้ ให้ไปที่**ตั้งค่าบริการ > เปลี่ยนบัญชีบริการ** ตรวจสอบให้แน่ใจว่า คุณมีรหัสสำหรับการกู้คืนของเกตเวย์นีอยู่ เนื่องจากคุณจะต้องทำการคืนค่าบนเครื่องเดียวกันเว้นแต่ว่าคุณต้องการสร้างเกตเวย์ใหม่แทน 
-3. นำทางไปยังโฟลเดอร์การติดตั้งของเกตเวย์*เกตเวย์ข้อมูลภายในองค์กรกับ C:\Program Files\On*เป็นผู้ดูแล เพื่อให้แน่ใจว่า คุณมีสิทธิ์เขียน และแก้ไขไฟล์ต่อไปนี้:
 
-       Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
-4. แก้ไขการกำหนดค่าสองค่าต่อไปนี้ตาม*ค่า*การกำหนดค่าแอตทริบิวต์ Active Directory ของผู้ใช้ AD ของคุณ ค่ากำหนดค่าที่แสดงด้านล่างเป็นเพียงตัวอย่าง คุณจำเป็นต้องระบุเหล่านั้นโดยยึดตามการกำหนดค่า Active Directory 
+3. นำทางไปยังโฟลเดอร์การติดตั้งของเกตเวย์*C:\Program Files\On-premises data gateway* การที่เป็นผู้ดูแล เพื่อให้แน่ใจว่า คุณมีสิทธิ์เขียน และแก้ไขไฟล์ต่อไปนี้ได้: Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 
-   ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+4. แก้ไขการกำหนดค่าสองค่าต่อไปนี้ตาม*ค่า* การกำหนดค่าแอตทริบิวต์ของ Active Directory สำหรับผู้ใช้ AD ของคุณ ค่ากำหนดค่าที่แสดงด้านล่างเป็นเพียงตัวอย่าง คุณจำเป็นต้องระบุเหล่านั้นโดยยึดตามการกำหนดค่า Active Directory กำหนดค่าเหล่านี้จะตรงตามตัวพิมพ์ใหญ่-เล็ก ดังนั้นให้ ตรวจสอบให้แน่ใจว่าตรงกับค่าใน Active Directory
+
+    ![การตั้งค่า Azure Active Directory](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+
+    ถ้าไม่มีค่าไว้สำหรับการกำหนดค่า ADServerPath เกตเวย์ใช้ค่าเริ่มต้นของ Global Catalog คุณยังสามารถระบุค่าหลายค่าสำหรับ ADServerPath ได้ แต่ละค่าต้องคั่น ด้วยเครื่องหมายอัฒภาคตามตัวอย่างต่อไปนี้
+
+    ```xml
+    <setting name="ADServerPath" serializeAs="String">
+        <value> >GC://serverpath1; GC://serverpath2;GC://serverpath3</value>
+    </setting>
+    ```
+    เกตเวย์แยกวิเคราะห์ค่าสำหรับ ADServerPath จากซ้ายไปขวาจนกว่าจะพบรายการตรงกัน ถ้าไม่ตรงกัน คือใช้ UPN ต้นฉบับ ตรวจสอบให้แน่ใจว่าบัญชีผู้ใช้เรียกใช้บริการเกตเวย์ (PBIEgwService) มีสิทธิ์แบบสอบถามไปยังเซิร์ฟเวอร์ AD ทั้งหมดที่คุณระบุใน ADServerPath
+
+    เกตเวย์สนับสนุนสองชนิด ADServerPath ตามตัวอย่างต่อไปนี้
+
+    **WinNT**
+
+    ```xml
+    <value="WinNT://usa.domain.corp.contoso.com,computer"/>
+    ```
+
+    **GC**
+
+    ```xml
+    <value> GC://USA.domain.com </value>
+    ```
+
 5. เริ่ม**เกตเวย์ข้อมูลภายในองค์กร**บริการสำหรับการเปลี่ยนแปลงการกำหนดค่ามีผลใช้
 
 ### <a name="working-with-mapping-rules"></a>ทำงานกับกฎการแมป

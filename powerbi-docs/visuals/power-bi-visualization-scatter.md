@@ -8,24 +8,24 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/28/2018
+ms.date: 09/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 13bc26eaecdcc9b3a00f22f75f6f9a5322d823f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748901"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448856"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>แผนภูมิกระจายและแผนภูมิฟองใน Power BI
 แผนภูมิกระจายจะมีแกนค่าสองแกนเสมอเพื่อแสดงข้อมูลตัวเลขหนึ่งชุดตามแกนแนวนอนและอีกชุดของค่าตัวเลขตามแกนแนวตั้ง แผนภูมิแสดงจุดที่จุดตัดของค่าตัวเลข x และ y เพื่อรวมค่าเหล่านี้ลงในจุดข้อมูลเดียว จุดข้อมูลเหล่านี้อาจถูกกระจายสม่ำเสมอกันหรืออาจไม่สม่ำเสมอกันตามแกนแนวนอน โดยขึ้นอยู่กับข้อมูลดังกล่าว
 
 แผนภูมิฟองอากาศแทนที่จุดข้อมูลด้วยฟองอากาศ โดยที่ีมี*ขนาด*ฟองเป็นตัวแทนขนาดที่เพิ่มขึ้นของข้อมูล
 
-![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+![ตัวอย่างแผนภูมิฟอง](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
-คุณสามารถตั้งค่าจำนวนของจุดข้อมูลได้  
+คุณสามารถตั้งค่าจำนวนของจุดข้อมูลได้สูงสุดถึง 10,000 จุด  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>เมื่อต้องใช้แผนภูมิกระจายหรือแผนภูมิฟองอากาศ
 ### <a name="scatter-charts-are-a-great-choice"></a>แผนภูมิกระจายเป็นตัวเลือกที่ดีที่สุด:
@@ -48,9 +48,9 @@ ms.locfileid: "44748901"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 
-คำแนะนำเหล่านี้ใช้ตัวอย่างการวิเคราะห์ร้านค้าปลีก เพื่อทำตาม[ดาวน์โหลดตัวอย่าง](../sample-datasets.md)สำหรับบริการ Power BI (app.powerbi.com) หรือ Power BI Desktop   
+คำแนะนำเหล่านี้ใช้ตัวอย่างการวิเคราะห์ร้านค้าปลีก ถ้าต้องการทำตามคำแนะนำดังกล่าว ให้[ดาวน์โหลดตัวอย่าง](../sample-datasets.md)สำหรับบริการของ Power BI (app.powerbi.com) หรือ Power BI Desktop   
 
-1. เลือกสีเหลืองพร้อมไอคอนเพื่อสร้างเป็น[หน้ารายงานเปล่า](../power-bi-report-add-page.md)
+1. เปิดรายงานในมุมมองแก้ไขแล้วเลือกไอคอนบวกสีเหลืองเพื่อสร้าง [หน้ารายงานเปล่า](../power-bi-report-add-page.md)
  
 2. จากพื้นที่ช่องข้อมูล เลือกช่องข้อมูลต่อไปนี้:
    - **ยอดขาย** > **ยอดขายต่อตารางฟุต**
@@ -81,20 +81,20 @@ ms.locfileid: "44748901"
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. ในการตั้งค่าจำนวนของจุดข้อมูลที่จะแสดงในแผนภูมิฟองอากาศ ในหัวข้อ**รูปแบบ**ของพื้นที่การ**แสดงภาพ** ขยายการ์ด**ทั่วไป**และปรับ**ปริมาณข้อมูล** คุณสามารถตั้งค่าปริมาณข้อมูลสูงสุดเป็นตัวเลขใด ๆ จนถึง 10,000 เมื่อคุณใช้ตัวเลขที่สูงขึ้น เราแนะนำให้ทดสอบก่อนเพื่อให้แน่ใจว่ายังมีประสิทธิภาพที่ดี 
+3. ในการตั้งค่าจำนวนของจุดข้อมูลที่จะแสดงในแผนภูมิฟองอากาศเพื่อแสดงในแผนภูมิฟอง ในส่วน **การจัดรูปแบบ** ของบานหน้าต่าง **การแสดงภาพ** ขยายการ์ด **ทั่วไป**และปรับ **ปริมาณข้อมูล** คุณสามารถตั้งค่าปริมาณข้อมูลสูงสุดเป็นตัวเลขใด ๆ จนถึง 10,000 เมื่อคุณใช้ตัวเลขที่สูงขึ้น เราแนะนำให้ทดสอบก่อนเพื่อให้แน่ใจว่ายังมีประสิทธิภาพที่ดี 
 
-    ![ปริมาณข้อมูล](./media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+    ![ปริมาณข้อมูล](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
    > [!NOTE]
    > เนื่องจากจุดข้อมูลที่มากกว่าอาจหมายถึงเวลาในการโหลดที่นานกว่า ถ้าคุณเลือกที่จะเผยแพร่รายงานด้วยขีดจำกัดที่จุดสิ้นสุดของสเกลที่สูงกว่า ตรวจสอบให้แน่ใจว่าคุณทดสอบรายงานของคุณทั่วทั้งเว็บและอุปกรณ์เคลื่อนที่ของคุณ เพื่อให้แน่ใจว่าประสิทธิภาพการทำงานตรงกับความคาดหวังของผู้ใช้ของคุณ โปรดทราบว่าสำหรับตัวเลขของจุดข้อมูลที่สูงกว่า คุณควรทดสอบผลลัพธ์ด้วยหลากหลายปัจจัยรูปแบบเพื่อให้แน่ใจถึงประสิทธิภาพ
 
 4. คุณสามารถ[จัดรูปแบบสี ป้ายชื่อ ชื่อเรื่อง พื้นหลัง และอื่น ๆ ของการแสดงภาพ](service-getting-started-with-color-formatting-and-axis-properties.md)ได้ การ[ปรับปรุงการเข้าถึง](../desktop-accessibility.md) ให้พิจารณาเพิ่มรูปร่างเครื่องหมายไปยังแต่ละบรรทัด การใช้รูปร่างตัวทำเครื่องหมายที่แตกต่างกันสำหรับแต่ละบรรทัดทำให้ง่ายสำหรับผู้บริโภครายงานในการแยกความแตกต่างของแต่ละเส้น (หรือพื้นที่) การเลือกรูปร่างเครื่องหมาย ขยายการ์ด**รูปร่าง** จากนั้นเลือกรูปร่างตัวทำเครื่องหมาย
 
-      ![รูปร่างเครื่องหมาย](./media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+      ![รูปร่างเครื่องหมาย](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
    นอกจากนี้ คุณยังสามารถเปลี่ยนรูปร่างเครื่องหมายเป็นข้าวหลามตัด สามเหลี่ยม หรือสี่เหลี่ยมจัตุรัสได้:
 
-   ![เครื่องหมายสี่เหลี่ยมจตุรัส](./media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+   ![เครื่องหมายสี่เหลี่ยมจตุรัส](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
@@ -104,8 +104,7 @@ ms.locfileid: "44748901"
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
 
-เพิ่มเขตข้อมูลไปยังพื้นที่**รายละเอียด**ที่จะบอกวิธีการจัดกลุ่มค่า Power BI ช่องข้อมูลต้องไม่ซ้ำกันสำหรับแต่ละจุดที่คุณต้องการลรทำผัง  
-เช่น ตัวเลขแถวอย่างง่ายหรือช่องข้อมูล ID:
+เพิ่มเขตข้อมูลไปยังพื้นที่**รายละเอียด**ที่จะบอกวิธีการจัดกลุ่มค่า Power BI ช่องข้อมูลต้องไม่ซ้ำกันสำหรับแต่ละจุดที่คุณต้องการทำผัง เช่น หมายเลขแถวหรือช่อง ID
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
 
@@ -116,9 +115,8 @@ ms.locfileid: "44748901"
 การสร้างเขตข้อมูลใหม่[ใช้ตัวแก้ไขแบบสอบถามของ Power BI Desktop เพืื่อเพิ่มคอลัมน์ดัชนี](../desktop-add-custom-column.md)ไปยังชุดข้อมูลของคุณ  จากนั้นเพิ่มคอลัมน์นี้ไปยังพื้นที่**รายละเอียด**ของการแสดงภาพของคุณ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
+
+[แผนภูมิกระจายความหนาแน่นสูง](desktop-high-density-scatter-charts.md)
+
 [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[ลงทะเบียนเพื่อขอรับรุ่นทดลองใช้ฟรี](https://powerbi.microsoft.com/get-started/)  
-
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

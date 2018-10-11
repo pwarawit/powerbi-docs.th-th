@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 2e6eb9817071f3cbccd442014564e21463bf06f8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566061"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448948"
 ---
 # <a name="visualization-types-in-power-bi"></a>ชนิดการแสดงภาพใน Power BI
 ## <a name="power-bi-visualizations"></a>การแสดงภาพ Power BI
@@ -32,10 +32,10 @@ ms.locfileid: "46566061"
 >[!TIP]
 >แผนภูมิพื้นที่พื้นฐานจะยึดตามแผนภูมิเส้นที่มีพื้นที่ระหว่างแกนและเส้นเป็นบริเวณทึบ
 
-สำหรับข้อมูลเพิ่มเติม ดู[บทช่วยสอน: แผนภูมิพื้นที่พื้นฐาน](power-bi-visualization-basic-area-chart.md)
+สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิพื้นที่พื้นฐาน](power-bi-visualization-basic-area-chart.md)
 
 ### <a name="bar-and-column-charts"></a>แผนภูมิแท่งและแผนภูมิคอลัมน์
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png) 
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
 
  ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
 
@@ -56,7 +56,7 @@ ms.locfileid: "46566061"
 >[!TIP]
 >แผนภูมิผสมรวมแผนภูมิคอลัมน์และแผนภูมิเส้นไว้ด้วยกัน เลือกจาก*เส้นและคอลัมน์แบบเรียงซ้อน*และ*เส้นและแผนภูมิคอลัมน์กลุ่ม*
 
-สำหรับข้อมูลเพิ่มเติม ดู[บทช่วยสอน: แผนภูมิผสมใน Power BI](power-bi-visualization-combo-chart.md)
+สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิผสมใน Power BI](power-bi-visualization-combo-chart.md)
 
 ### <a name="doughnut-charts"></a>แผนภูมิโดนัท
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
@@ -64,7 +64,7 @@ ms.locfileid: "46566061"
 >[!TIP]
 >แผนภูมิโดนัทจะคล้ายกับแผนภูมิวงกลม  โดยที่จะแสดงความสัมพันธ์ของส่วนต่าง ๆ ต่อส่วนทั้งหมด
 
-สำหรับข้อมูลเพิ่มเติม ดู[บทช่วยสอน: แผนภูมิโดนัทใน Power BI](power-bi-visualization-doughnut-charts.md)
+สำหรับข้อมูลเพิ่มเติม ดู [แผนภูมิโดนัทใน Power BI](power-bi-visualization-doughnut-charts.md)
 
 ### <a name="funnel-charts"></a>แผนภูมิกรวย
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
@@ -72,7 +72,7 @@ ms.locfileid: "46566061"
 >[!TIP]
 >แผนภูมิกรวยช่วยในการสร้างภาพของกระบวนการที่มีลำดับขั้น และรายการต่าง ๆ ให้จัดเรียงตามลำดับจากขั้นหนึ่งไปยังอีกขั้น  ใช้แผนภูมิกรวยเมื่อมีโฟลว์ลำดับระหว่างขั้นตอนต่าง ๆ เช่นกระบวนการขายที่เริ่มต้นด้วยลูกค้าเป้าหมาย และลงท้ายด้วยการขาย
 
-สำหรับข้อมูลเพิ่มเติม ดู[บทช่วยสอน: แผนภูมิกรวยใน Power BI](power-bi-visualization-funnel-charts.md)
+สำหรับข้อมูลเพิ่มเติม ดู [แผนภูมิกรวยใน Power BI](power-bi-visualization-funnel-charts.md)
 
 ### <a name="gauge-charts"></a>แผนภูมิตัววัด
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
@@ -80,15 +80,15 @@ ms.locfileid: "46566061"
 >[!TIP]
 >แสดงสถานะปัจจุบันในบริบทของเป้าหมาย
 
-สำหรับข้อมูลเพิ่มเติม ดู[บทช่วยสอน: แผนภูมิตัววัดใน Power BI](power-bi-visualization-radial-gauge-charts.md)
+สำหรับข้อมูลเพิ่มเติม ดู [แผนภูมิวัดความเร็วใน Power BI](power-bi-visualization-radial-gauge-charts.md)
 
-### <a name="kpis"></a>KPIs
+### <a name="kpis"></a>KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
 >[!TIP]
 >แสดงความคืบหน้าของการบรรลุเป้าหมายที่วัดได้
 
-สำหรับข้อมูลเพิ่มเติม ดู[บทช่วยสอน: KPI ใน Power BI](power-bi-visualization-kpi.md)
+สำหรับข้อมูลเพิ่มเติม ดู [KPI ใน Power BI](power-bi-visualization-kpi.md)
 
 ### <a name="line-charts"></a>แผนภูมิเส้น
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
@@ -107,7 +107,7 @@ ms.locfileid: "46566061"
 ### <a name="maps-arcgis-maps"></a>แผนที่: แผนที่ ArcGIS
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-สำหรับข้อมูลเพิ่มเติม ดู[บทช่วยสอน: แผนที่ ArcGIS ใน Power BI](../power-bi-visualization-arcgis.md)
+สำหรับข้อมูลเพิ่มเติม ดู [แผนที่ ArcGIS ใน Power BI](../power-bi-visualization-arcgis.md)
 
 ### <a name="maps-filled-maps-choropleth"></a>แผนที่: แผนที่แถบสี (Choropleth)
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -115,10 +115,21 @@ ms.locfileid: "46566061"
 >[!TIP]
 >ยิ่งมีีสีเข้มเท่าไหร่ ค่านั้นยิ่งมากขึ้นเท่านัั้น
 
-สำหรับข้อมูลเพิ่มเติม ดู[บทช่วยสอน: แผนที่แถบสีใน Power BI](power-bi-visualization-filled-maps-choropleths.md)
+สำหรับข้อมูลเพิ่มเติม ดู [แผนที่แถบสีใน Power BI](power-bi-visualization-filled-maps-choropleths.md)
+
+### <a name="maps-shape-maps"></a>แผนที่: สร้างแผนที่รูปร่าง
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+
+>[!TIP]
+>เปรียบเทียบภูมิภาคตามสี
+
+สำหรับข้อมูลเพิ่มเติม ดู [แผนที่รูปร่างใน Power BI](desktop-shape-map.md)
+
 
 ### <a name="matrix"></a>เมทริกซ์
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+
+สำหรับข้อมูลเพิ่มเติม ดู [การแสดงผลด้วยภาพแบบเมทริกซ์ใน Power BI](desktop-shape-map.md)
 
 ### <a name="pie-charts"></a>แผนภูมิวงกลม
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
@@ -129,12 +140,20 @@ ms.locfileid: "46566061"
 >[!TIP]
 >แสดงความสัมพันธ์ระหว่างหน่วยวัดเชิงปริมาณ 2 หน่วย (กระจาย) หรือ 3 หน่วย (แผนภูมิฟอง) โดยไม่คำนึงถึงลำดับและอื่น ๆ
 
-สำหรับข้อมูลเพิ่มเติม ดู[บทช่วยสอน: แผนภูมิกระจายใน Power BI](power-bi-visualization-scatter.md)
+สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิกระจายใน Power BI](power-bi-visualization-scatter.md)
+
+### <a name="scatter-high-density"></a>ความหนาแน่นสูงกระจาย
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+
+>[!TIP]
+>จุดข้อมูลมากเกินไปบนการแสดงผลด้วยภาพสามารถทำให้หยุดชะงักได้ เพื่อใช้อัลกอริทึมการสุ่มตัวอย่างที่ซับซ้อนเพื่อให้แน่ใจความแม่นยำของการแสดงภาพ
+
+สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิกระจายความหนาแน่นสูงใน Power BI](desktop-high-density-scatter-charts.md)
 
 ### <a name="slicers"></a>ตัวแบ่งส่วนข้อมูล
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
-สำหรับข้อมูลเพิ่มเติม ดู[บทช่วยสอน: ตัวแบ่งส่วนข้อมูลใน Power BI](power-bi-visualization-slicers.md)
+สำหรับข้อมูลเพิ่มเติม ดู[ตัวแบ่งส่วนข้อมูลใน Power BI](power-bi-visualization-slicers.md)
 
 ### <a name="standalone-images"></a>รูปภาพเดี่ยว
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
@@ -149,10 +168,10 @@ ms.locfileid: "46566061"
 
 สำหรับข้อมูลเพิ่มเติม ดู[การทำงานกับตารางใน Power BI](power-bi-visualization-tables.md)
 
-### <a name="tree-maps"></a>แผนผังต้นไม้
+### <a name="treemaps"></a>แผนภูมิต้นไม้
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
-สำหรับข้อมูลเพิ่มเติม ดู[บทช่วยสอน: แผนผังต้นไม้ใน Power BI](power-bi-visualization-treemaps.md)
+สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิต้นไม้ใน Power BI](power-bi-visualization-treemaps.md)
 
 >[!TIP]
 >แผนภูมิพื้นที่ที่มีสี่เหลี่ยมผืนผ้าเติมสีจะมีค่าที่เป็นตัวแทนขนาด  แผนภูมิเหล่านี้อาจเป็นแบบชั้นโดยที่มีสี่เหลี่ยมผืนผ้าที่ซ้อนกันภายในสี่เหลี่ยมผืนผ้าหลัก
@@ -163,7 +182,7 @@ ms.locfileid: "46566061"
 >[!TIP]
 >แผนภูมิแบบน้ำตกจะแสดงผลรวมสะสมเป็นค่าที่เพิ่มขึ้นหรือลดลง
 
-สำหรับข้อมูลเพิ่มเติม ดู[บทช่วยสอน: แผนภูมิน้ำตกใน Power BI](power-bi-visualization-waterfall-charts.md)
+สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิน้ำตกใน Power BI](power-bi-visualization-waterfall-charts.md)
 
 ## <a name="tell-qa-which-visualization-to-use"></a>บอกการถามตอบว่าต้องใช้การแสดงภาพแบบใด
 เมื่อพิมพ์คิวรี่ด้วยภาษาธรรมชาติในการถามตอบของ Power BI A คุณสามารถระบุชนิดการแสดงภาพในคิวรี่ของคุณได้  ตัวอย่างเช่น:
@@ -175,10 +194,3 @@ ms.locfileid: "46566061"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [การแสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)    
 [อ้างอิงภาพที่ถูกต้องจาก sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
-
-[รายงานใน Power BI](../consumer/end-user-reports.md)
-
-[Power BI - แนวคิดพื้นฐาน](../consumer/end-user-basic-concepts.md)
-
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
-

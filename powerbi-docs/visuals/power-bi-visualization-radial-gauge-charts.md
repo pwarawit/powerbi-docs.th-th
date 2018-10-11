@@ -8,15 +8,15 @@ featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565578"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416877"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>แผนภูมิหน้าปัดความเร็วใน Power BI
 แผนภูมิหน้าปัดความเร็วมีโค้งวงกลม และแสดงเป็นค่าเดียวที่วัดความคืบหน้าตามเพื่อไปสู่เป้าหมาย/KPI  เป้าหมาย หรือค่าเป้าหมาย ถูกแสดงทีละบรรทัด (needle) ความคืบสู่เป้าหมายที่ถูกแสดงด้วยการแรเงา  และค่าที่แสดงว่าความคืบหน้าจะแสดงในเป็นหนาภายในส่วนโค้ง ค่าที่เป็นไปได้ทั้งหมดจะกระจายเท่าๆ กันตามส่วนโค้ง จากค่าต่ำสุด (ค่าซ้ายสุด) ไปสู่ค่าสูงสุด (ค่าขวาสุด)
@@ -92,7 +92,7 @@ ms.locfileid: "46565578"
 
 ### <a name="step-5-save-your-report"></a>ขั้นตอนที่ 5 บันทึกรายงานของคุณ
 1. [บันทึกรายงาน](../service-report-save.md)
-2. [เพิ่มแผนภูมิแบบหน้าปัดความเร็วเป็นแดชบอร์ดไทล์](../consumer/end-user-tiles.md) 
+2. [เพิ่มแผนภูมิแบบหน้าปัดความเร็วเป็นแดชบอร์ดไทล์](../service-dashboard-pin-tile-from-report.md) 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>ใช้ตัวเลือกของการจัดรูปแบบเพื่อตั้งค่าต่ำสุด สูงสุด และค่าเป้าหมาย
 1. ลาก**ยอดขายรวมมากที่สุด**จาก**ค่าสูงสุด**
@@ -110,14 +110,8 @@ ms.locfileid: "46565578"
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 6. จัดรูปแบบแผนภูมหน้าปัดต่อไป ก็สามารถทำได้
 
-## <a name="next-steps"></a>ขั้นตอนถัดไป
+## <a name="next-step"></a>ขั้นตอนถัดไป
+
+[ตัววัดใน Power BI](power-bi-visualization-kpi.md)
+
 [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[เพิ่มการแสดงภาพลงในรายงาน](power-bi-report-add-visualizations-i.md)
-
-[ปักหมุดการแสดงถาพไว้กับแดชบอร์ด](../service-dashboard-pin-tile-from-report.md)
-
-[ Power BI แนวคิดพื้นฐาน](../consumer/end-user-basic-concepts.md)
-
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
-

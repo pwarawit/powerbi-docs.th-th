@@ -8,22 +8,22 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 962f76666e4b139b24225daefd5af776f36b3d0d
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548476"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416946"
 ---
 # <a name="funnel-charts"></a>แผนภูมิกรวย
 แผนภูมิกรวยช่วยให้คุณแสดงกระบวนการเส้นตรง ที่แบ่งเป็นขั้นตอนที่เชื่อมต่อกันตามลำดับ ตัวอย่างเช่น กรวยการขายที่ติดตามขั้นตอนของลูกค้า: เป้าหมาย \> เป้าหมายที่ผ่านคุณสมบัติ \> สนใจ \> ทำสัญญา \> ปิดการขาย  มองอย่างรวดเร็ว รูปร่างของกรวยบ่งบอกสุขภาพของกระบวนการที่คุณกำลังติดตาม
 
 แต่ละขั้นตอนกรวยการแสดงเปอร์เซ็นต์ของผลรวม ดังนั้น ในกรณีส่วนใหญ่ แผนภูมิกรวยจะมีรูปเหมือนกรวย - ด้วยขั้นตอนแรกที่ใหญ่ที่สุด และขั้นตอนถัด ๆ มาเล็กกว่าขั้นตอนก่อนหน้า  แผนภูมิเป็นรูปต้นแพร์จะยังมีประโยชน์ -- สามารถใช้ระบุปัญหาในกระบวนการได้  แต่โดยทั่วไปแล้ว ขั้นแรกหรือขั้น "ทางเข้า" มีขนาดใหญ่ที่สุด
 
-![](media/power-bi-visualization-funnel-charts/funnelplain.png)
+![ตัวอย่างสีน้ำเงินกรวย](media/power-bi-visualization-funnel-charts/funnelplain.png)
 
 ## <a name="when-to-use-a-funnel-chart"></a>เมื่อใดที่ใช้แผนภูมิกรวย
 แผนภูมิกรวยเป็นตัวเลือกที่ดีสำหรับ:
@@ -57,11 +57,11 @@ ms.locfileid: "46548476"
 
 1. เริ่มต้นจาก[หน้ารายงานเปล่า](../power-bi-report-add-page.md) และเลือกเขตข้อมูล**ขั้นตอนการขาย** \> **ขั้นตอนการขาย** ถ้าคุณกำลังใช้บริการของ Power BI ตรวจสอบให้แน่ใจว่า คุณเปิดรายงานใน[มุมมองการแก้ไข](../service-interact-with-a-report-in-editing-view.md)
    
-    ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
+    ![เลือกขั้นตอนการขาย](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [แปลงแผนภูมิ](power-bi-report-change-visualization-type.md)ให้เป็นแผนภูมิกรวย โปรดสังเกตว่า**ขั้นตอนการขาย**อยู่ใน**กลุ่ม** 
 3. จากบานหน้าต่าง**เขตข้อมูล** เลือก**ข้อเท็จจริง** \> **จำนวนโอกาส**
    
-    ![](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![สร้างแผนภูมิกรวย](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. โฮเวอร์เหนือแท่ง จะแสดงข้อมูลจำนวนมากออกมา
    
    * ชื่อของขั้นตอน
@@ -69,8 +69,8 @@ ms.locfileid: "46548476"
    * อัตราการแปลงโดยรวม (% ของลูกค้าเป้าหมาย) 
    * ขั้นตอน-ถึง-ขั้นตอน (หรืออัตราการดรอป) ซึ่งก็เป็น % ของขั้นตอนก่อนหน้า (ในกรณีนี้ ขั้นตอนข้อเสนอ/ขั้นตอนโซลูชัน)
      
-     ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [เพิ่มกรวยเป็นไทล์แดชบอร์ด](../consumer/end-user-tiles.md) 
+     ![รายละเอียดสำหรับแถบข้อเสนอ](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
+5. [เพิ่มกรวยเป็นไทล์แดชบอร์ด](../service-dashboard-tiles.md) 
 6. [บันทึกรายงาน](../service-report-save.md)
 
 ## <a name="highlighting-and-cross-filtering"></a>การทำไฮไลท์และการกรองข้าม
@@ -80,24 +80,20 @@ ms.locfileid: "46548476"
 
 1. บนกรวย เลือกแท่ง**ข้อเสนอ** ซึ่งจะไฮไลต์เชื่อมโยงไปยังการแสดงภาพอื่น ๆ บนหน้า ใช้ CTRL เพื่อเลือกหลายค่า
    
-   ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. เพื่อกำหนดลักษณะ การไฮไลต์เชื่อมโยง และการกรองข้าม ระหว่างวิชวล ดู[การโต้ตอบระหว่างวิชวลใน Power BI](../consumer/end-user-interactions.md)
+   ![โต้ตอบกับภาพแสดงวิดีโอสั้น ๆ](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
+2. เพื่อกำหนดลักษณะ การไฮไลต์เชื่อมโยง และการกรองข้าม ระหว่างวิชวล ดู[การโต้ตอบระหว่างวิชวลใน Power BI](../service-reports-visual-interactions.md)
 
-## <a name="create-a-funnel-chart-in-qa"></a>สร้างแผนภูมิกรวยในถามตอบ
-เปิดแดชบอร์ดตัวอย่างการวิเคราะห์โอกาสทางการขาย หรือแดชบอร์ดอื่น ๆ ที่มีการแสดงภาพอย่างน้อยหนึ่งภาพที่ปักหมุดจากชุดข้อมูล ตัวอย่างการวิเคราะห์โอกาสทางการขาย  เมื่อคุณพิมพ์คำถามในถามตอบ Power BI ค้นหาคำตอบในชุดข้อมูลทั้งหมดที่เชื่อมโยงกับ (มีไทล์ที่ปักหมุดไว้) แดชบอร์ดที่เลือก สำหรับข้อมูลเพิ่มเติมดู [Power BI - แนวคิดพื้นฐาน](../consumer/end-user-basic-concepts.md)
+## <a name="create-a-funnel-chart-using-qa"></a>สร้างแผนภูมิกรวยใช้ถามตอบ
+เปิดแดชบอร์ดตัวอย่างการวิเคราะห์โอกาสทางการขาย หรือแดชบอร์ดอื่น ๆ ที่มีการแสดงภาพอย่างน้อยหนึ่งภาพที่ปักหมุดจากชุดข้อมูล ตัวอย่างการวิเคราะห์โอกาสทางการขาย  เมื่อคุณพิมพ์คำถามในถามตอบ Power BI ค้นหาคำตอบในชุดข้อมูลทั้งหมดที่เชื่อมโยงกับ (มีไทล์ที่ปักหมุดไว้) แดชบอร์ดที่เลือก สำหรับข้อมูลเพิ่มเติมดู [Power BI - แนวคิดพื้นฐาน](../service-basic-concepts.md)
 
 1. บนแดชบอร์ดตัวอย่างการวิเคราะห์โอกาสทางการขาย เริ่มพิมพ์คำถามของคุณในกล่องคำถาม ถามตอบ
    
-   ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
+   ![กล่องคำถามและกรวย](media/power-bi-visualization-funnel-charts/power-bi-qna.png)
    
 2. โปรดแน่ใจว่าได้เพิ่ม "เป็นกรวย" ตรงท้ายคำถาม เพื่อให้ Power BI ทราบชนิดการแสดงภาพที่คุณต้องการ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
+
+[ตัววัดใน Power BI](power-bi-visualization-radial-gauge-charts.md)
+
 [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[ปักหมุดการแสดงภาพไปยังแดชบอร์ด](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI - แนวคิดพื้นฐาน](../consumer/end-user-basic-concepts.md)
-
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
-

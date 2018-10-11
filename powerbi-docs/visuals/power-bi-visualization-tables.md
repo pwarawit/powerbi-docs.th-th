@@ -8,17 +8,17 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8c2ec6a93b41fd097bc5097a6e3921505d975a3c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d2aae3abeca51cdcc142660190332f84adcfddfb
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748924"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448833"
 ---
-# <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>การทำงานกับตารางในรายงานและแดชบอร์ด Power BI
+# <a name="tables-in-power-bi-reports-and-dashboards"></a>การทำงานกับตารางในรายงานและแดชบอร์ด Power BI
 ตารางคือ เส้นตารางที่ประกอบด้วยข้อมูลที่เกี่ยวข้องในชุดที่สมเหตุผลของแถวและคอลัมน์ ซึ่งอาจยังประกอบด้วยส่วนหัวและแถวสำหรับผลรวมด้วย ตารางทำงานได้ดีกับข้อเปรียบเทียบเชิงปริมาณซึ่งเป็นการที่คุณดูหลายค่าสำหรับหนึ่งประเภท ตัวอย่างเช่น ตารางนี้แสดงการวัดที่แตกต่างกัน 5 การวัดสำหรับ**ประเภท**
 
 ![](media/power-bi-visualization-tables/table.png)
@@ -31,54 +31,51 @@ ms.locfileid: "44748924"
 * เพื่อแสดงข้อมูลตัวเลขตามประเภท   
 
 > [!NOTE]
-> ถ้าตารางมีค่ามากเกินไป พิจารณาการแปลงเป็นเมทริกซ์ และ/หรือใช้การเจาะลึกข้อมูลแทน
+> ถ้าตารางมีค่ามากเกินไป พิจารณาการแปลงเป็นเมทริกซ์ และ/หรือใช้การเจาะลึกข้อมูลแทน ตารางจะแสดงจุดข้อมูลสูงสุดคือ 3,500
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 - บริการ Power BI หรือ Power BI Desktop
 - ตัวอย่างการวิเคราะห์การค้าปลีก
 
 ## <a name="create-a-table"></a>ลบตาราง
-เราจะสร้างตารางที่มีภาพแสดงอยู่ด้านบนเพื่อแสดงมูลค่ายอดขายตามประเภทรายการสินค้า เมื่อต้องการทำตามคำแนะนำดังกล่าว ให้ลงชื่อเข้าใช้บริการของ Power BI แล้วเลือก**รับข้อมูล\>ตัวอย่าง\>ตัวอย่างการวิเคราะห์การค้าปลีก > เชื่อมต่อ** และเลือก **ไปยังแดชบอร์ด การสร้างภาพจำเป็นต้องมีสิทธิ์ในการแก้ไขสำหรับชุดข้อมูลและรายงาน โชคดีที่ตัวอย่าง Power BI ทั้งหมดสามารถแก้ไขได้ ถ้ามีการแชร์รายงานกับคุณ คุณจะไม่สามารถสร้างการแสดงภาพในรายงานได้
+เราจะสร้างตารางที่มีภาพแสดงอยู่ด้านบนเพื่อแสดงมูลค่ายอดขายตามประเภทรายการสินค้า เมื่อต้องการทำตามคำแนะนำดังกล่าว ให้ลงชื่อเข้าใช้บริการของ Power BI แล้วเลือก**รับข้อมูล\>ตัวอย่าง\>ตัวอย่างการวิเคราะห์การค้าปลีก > เชื่อมต่อ** แล้วเลือก **ไปยังแดชบอร์ด** การสร้างภาพจำเป็นต้องมีสิทธิ์ในการแก้ไขสำหรับชุดข้อมูลและรายงาน โชคดีที่ตัวอย่าง Power BI ทั้งหมดสามารถแก้ไขได้ ถ้ามีการแชร์รายงานกับคุณ คุณจะไม่สามารถสร้างการแสดงภาพในรายงานได้
 
 1. จากพื้นที่นำทางด้านซ้าย เลือก**พื้นที่ทำงาน > พื้นที่ทำงานของฉัน**    
 2. เลือกแถบที่ชุดข้อมูลและเลื่อนลงไปยังชุดข้อมูลตัวอย่างการวิเคราะห์ร้านค้าปลีกที่คุณเพิ่งจะเพิ่มเข้ามา  เลือกไอคอน**สร้างรายงาน**
 
-    ![](media/power-bi-visualization-tables/power-bi-create-report.png)
+    ![ชี้ไปที่ไอคอนรายงาน](media/power-bi-visualization-tables/power-bi-create-report.png)
 2. ในตัวแก้ไขรายงาน เลือก**รายการ** > **ประเภท**  Power BI จะสร้างตารางที่แสดงรายการทุกประเภทโดยอัตโนมัติ
 
-    ![](media/power-bi-visualization-tables/power-bi-table1.png)
+    ![ผลลัพธ์ของการเพิ่มประเภท](media/power-bi-visualization-tables/power-bi-table1.png)
 3. เลือก**ยอดขาย > ราคาต่อหน่วยเฉลี่ย**และ**ยอดขาย > ยอดขายของปีล่าสุด**และ**ยอดขาย > ยอดขายของปีนี้**และเลือกทั้ง 3 ตัวเลือก (ค่า เป้าหมาย สถานะ)   
 4. ในพื้นที่การแสดงภาพ ค้นหาแอ่ง**ค่า** และการลาก และปล่อยค่าจนกว่าลำดับของคอลัมน์แผนภูมิของคุณตรงกับรูปภาพแรกในหน้านี้  ค่าของคุณด้วยควรมีลักษณะดังนี้
 
-    ![](media/power-bi-visualization-tables/power-bi-table2.png)
+    ![ค่าที่ดี](media/power-bi-visualization-tables/power-bi-table2.png)
 5. ปักหมุดตารางไปยังแดชบอร์ดโดยการเลือกไอคอนปักหมุด  
 
-     ![](media/power-bi-visualization-tables/pbi_pintile.png)
+     ![thumbtack](media/power-bi-visualization-tables/pbi_pintile.png)
 
 ## <a name="format-the-table"></a>จัดรูปแบบตาราง
-มีหลายวิธีในการจัดรูปแบบตาราง และที่นี่เราจะกล่าวถึงบางเพียงบางส่วนเท่านั้น วิธีที่ยอดเยี่ยมในการเรียนรู้เกี่ยวกับตัวเลือกอื่น ๆ ในการจัดรูปแบบคือการเปิดพื้นที่การจัดรูปแบบ (ไอคอนลูกกลิ้ง ![](media/power-bi-visualization-tables/power-bi-format.png)) และสำรวจ
+มีหลายวิธีในการจัดรูปแบบตาราง และที่นี่เราจะกล่าวถึงบางเพียงบางส่วนเท่านั้น วิธีที่ยอดเยี่ยมในการเรียนรู้เกี่ยวกับตัวเลือกอื่น ๆ ในการจัดรูปแบบคือการเปิดบานหน้าต่างการจัดรูปแบบ (ไอคอนลูกกลิ้ง ![ลูกกลิ้งทาสี](media/power-bi-visualization-tables/power-bi-format.png)) และสำรวจ
 
 * ลองจัดรูปแบบเส้นตาราง ที่นี่เราได้เพิ่มเส้นตารางแนวตั้งสีน้ำเงิน เพิ่มช่องว่างในแถว เพิ่มเค้าโครง และขนาดข้อความเล็กน้อย
 
-    ![](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
+    ![การ์ดเส้นตาราง](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
 
-    ![](media/power-bi-visualization-tables/power-bi-table-grid3.png)
+    ![ตารางแสดงผลลัพธ์](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 * สำหรับส่วนหัวของคอลัมน์ เราเปลี่ยนสีพื้นหลัง เพิ่มเค้าร่าง และเพิ่มขนาดฟอนต์ 
 
-    ![](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
+    ![การ์ดหัวข้อคอลัมน์](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
 
-
-~~~
-![](media/power-bi-visualization-tables/power-bi-table-column2.png)
-~~~
+    ![ส่วนหัวในตารางการจัดรูปแบบ](media/power-bi-visualization-tables/power-bi-table-column2.png)
 
 * คุณยังสามารถจัดรูปแบบกับ แต่ละคอลัมน์ และส่วนหัวของคอลัมน์ เริ่มต้นด้วยการขยาย**การจัดรูปแบบเขตข้อมูล** และเลือกคอลัมน์เพื่อจัดรูปแบบจากรายการดรอปดาวน์ ขึ้นอยู่กับค่าของคอลัมน์ เขตข้อมูลที่จัดรูปแบบช่วยให้คุณตั้งค่าสิ่งต่าง ๆ เช่น: หน่วยแสดงผล, สีฟอนต์, จำนวนตำแหน่งทศนิยม, พื้นหลัง, การจัดแนว และอื่น ๆ เมื่อคุณได้ปรับการตั้งค่าแล้ว ตัดสินใจว่าจะใช้การตั้งค่าเหล่านั้นกับส่วนหัวและแถวผลรวมได้เช่นกัน
 
-    ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
+    ![เขตข้อมูลที่จัดรูปแบบสำหรับยอดขายของปีนี้](media/power-bi-visualization-tables/power-bi-field-formatting.png)
 
 * และหลังการปรับรูปแบบเพิ่มเติมบางส่วน ต่อไปนี้คือตารางขั้นสุดท้ายที่ได้ เนื่องจากมีตัวเลือกการจัดรูปแบบมากมาย วิธีดีที่สุดในการเรียนรู้คือเริ่มจากรูปแบบค่าเริ่มต้น เปิดบานหน้าต่างการจัดรูปแบบ ![](media/power-bi-visualization-tables/power-bi-format.png) และเริ่มการสำรวจ 
 
-    ![](media/power-bi-visualization-tables/power-bi-table-format.png)
+    ![ตารางที่มีรูปแบบทั้งหมดไว้](media/power-bi-visualization-tables/power-bi-table-format.png)
 
 ### <a name="conditional-formatting"></a>การจัดรูปแบบตามเงื่อนไข
 อีกชนิดหนึ่งของการจัดรูปแบบจะเรียกว่า*จัดรูปแบบตามเงื่อนไข*และนำไปใช้กับเขตข้อมูลในแอ่ง**ค่า**ของพื้นที่**การแสดงภาพ**ในบริการ Power BI หรือ Desktop 
@@ -87,27 +84,27 @@ ms.locfileid: "44748924"
 
 1. ในแอ่ง**ช่องข้อมูล**ของพื้นที่**การแสดงภาพ**ในบริการ Power BI หรือ Desktop เลือกลูกศรชี้ลงข้าง ๆ ค่าในแอ่งค่าเดียวกับที่คุณต้องการจัดรูปแบบ (หรือคลิกขวาที่ช่องข้อมูล) คุณสามารถจัดการการจัดรูปแบบตามเงื่อนไขสำหรับช่องข้อมูลในพื้นที่**ค่า**ของแอ่ง**ช่องข้อมูล**ได้เท่านั้น
 
-    ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
+    ![เส้นทางไปยังระดับสีพื้นหลัง](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
 2. เลือก**ระดับสีพื้นหลัง** ในกล่องโต้ตอบที่ปรากฏขึ้น คุณสามารถกำหนดค่าสี รวมถึงค่า*ต่ำสุด*และ*สูงสุด*ได้ ถ้าคุณเลือกกล่อง**เลือกแยกจากกัน** คุณสามารถกำหนดค่า*ศูนย์กลาง*ที่เป็นทางเลือกได้เช่นกัน
 
-    ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
+    ![หน้าจอระดับสีพื้นหลัง](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
     เราลองใช้การจัดรูปแบบแบบกำหนดเองไปยังค่าของค่าเฉลี่ยราคาต่อหน่วยของเรา เลือก**เลือกแยกจากกัน** เพิ่มสีบาง และเลือก**ตกลง** 
 
-    ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-background.png)
+    ![ตารางที่แสดงสีที่แยกกัน](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-background.png)
 3. เพิ่มเขตข้อมูลใหม่ไปยังตารางที่มีทั้งค่าบวกและค่าลบ  เลือก**ยอดขาย > ผลต่างยอดขายรวม** 
 
-    ![](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
+    ![แสดงเขตข้อมูลใหม่ที่ด้านขวาสุด](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
 4. เพิ่มการจัดรูปแบบตามเงื่อนไขแถบข้อมูลโดยการเลือกลูกศรชี้ลงที่ข้าง ๆ**ผลต่างยอดขายรวม**และเลือก**จัดรูปแบบตามเงื่อนไข > แถบข้อมูล**
 
-    ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
+    ![เส้นทางเพื่อเลือกแถบข้อมูล](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
 5. ในกล่องโต้ตอบที่ปรากฏขึ้น ตั้งค่าสีสำหรับ**แถบค่าบวก** **แถบค่าลบ** ทำเครื่องหมายถูกถัดจาก**แสดงแถบเท่านั้น** และทำการเปลี่ยนแปลงอื่น ๆ ที่คุณต้องการ
 
-    ![](media/power-bi-visualization-tables/power-bi-data-bars.png)
+    ![เครื่องหมายถูกสำหรับการแสดงแถบอย่างเดียว](media/power-bi-visualization-tables/power-bi-data-bars.png)
 
     เมื่อคุณเลือก**ตกลง** แถบข้อมูลจะแทนค่าตัวเลขในตารางที่ทำให้ง่ายต่อการสแกน
 
-    ![](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
+    ![ตารางเดียวกันแต่มีแถบในคอลัมน์สุดท้าย](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 6. เมื่อต้องลบการจัดรูปแบบตามเงื่อนไขออกจากการสร้างภาพ เพียงคลิกขวาที่ช่องข้อมูลอีกครั้ง แล้วเลือก**ลบรูปแบบตามเงื่อนไข**
 
 > [!TIP]
@@ -118,10 +115,13 @@ ms.locfileid: "44748924"
 ## <a name="adjust-the-column-width-of-a-table"></a>ปรับความกว้างคอลัมน์ของตาราง
 ในบางครั้ง Power BI จะตัดส่วนหัวของคอลัมน์ในรายงาน และแดชบอร์ดออก หากต้องการแสดงชื่อคอลัมน์ทั้งหมด เลื่อนพื้นที่ดังกล่าวไปทางด้านขวาของส่วนหัวเพื่อแสดงลูกศรคู่ เลือกแล้วลาก
 
-![](media/power-bi-visualization-tables/resizetable.gif)
+![วิดีโอระยะใกล้ของการปรับขนาดคอลัมน์](media/power-bi-visualization-tables/resizetable.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
 * เมื่อใช้การจัดรูปแบบคอลัมน์ คุณสามารถเลือกตัวเลือกการจัดแนวเพียงหนึ่งตัวเลือกต่อคอลัมน์: อัตโนมัติ, ซ้าย, กึ่งกลาง, ขวา โดยปกติแล้วจะ คอลัมน์ประกอบด้วยข้อความทั้งหมด หรือตัวเลขทั้งหมด และไม่ผสมกัน แต่ในกรณีที่คอลัมน์ที่ประกอบด้วยทั้งตัวเลขและข้อความ **อัตโนมัติ**จะจัดชิดซ้ายสำหรับข้อความ และชิดขวาสำหรับตัวเลข พฤติกรรมนี้สนับสนุนภาษาที่คุณอ่านจากซ้ายไปขวา   
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+## <a name="next-steps"></a>ขั้นตอนถัดไป
 
+[แผนที่ต้นไม้ใน Power BI](power-bi-visualization-treemaps.md)
+
+[ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
