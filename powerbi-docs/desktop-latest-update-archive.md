@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8c2ee97fb39fe115da78bad7bc5787a152dfd793
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 40eefccbce19c8d6f4441e30e037e6e421a8dd5c
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658161"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512259"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -34,11 +34,59 @@ ms.locfileid: "39658161"
 
 ส่วนต่อไปนี้อธิบายวิธีการอัปเดตเดือนก่อนหน้าไปยัง**Power BI Desktop**
 
+## <a name="august-2018-update-2615192321"></a>อัปเดตประจำเดือนสิงหาคม 2018 (2.61.5192.321)
+
+การอัปเดตเดือนสิงหาคมของเราเป็นที่น่าชื่นชม และได้ดำเนินการอย่างรวดเร็วตามการเผยแพร่ใหญ่ในเดือนกรกฎาคม หวังว่าคุณจะได้พบการอัปเดตเหล่านี้ดังเช่นวันที่ท้องฟ้าแจ่มใสบนชายหาด โปรดลองทำดู เราคิดว่าคุณจะพบการอัปเดตเหล่านี้มันใช่เลย 
+
+การอัปเดตใหม่ต่อไปนี้จะถูกอัปเดตไปยัง**Power BI Desktop**ในเดือนสิงหาคม:
+
+### <a name="modeling"></a>การวางรูปแบบ
+
+* ประเภทข้อมูลสำหรับหน่วยวัด  [[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=15m27s)  [[บทความ]](desktop-measures.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dataCategory)
+* ฟังก์ชัน DAX ทางสถิติ  [[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=18m56s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dax)
+
+
+### <a name="reporting"></a>การรายงาน
+
+* ส่งออกเป็น PDF และพิมพ์รายงานของคุณ [[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=12s)  [[บทความ]](desktop-export-to-pdf.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#print) 
+* สร้างกลุ่มบุ๊กมาร์ก[[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=4m4s)  [[บทความ]](desktop-bookmarks.md#bookmark-groups)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#bookmarks) 
+* การกำหนดธีมพร้อมใช้งานโดยทั่วไป[[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=7m9s)  [[บทความ]](desktop-report-themes.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Theming) 
+* การรายงานซ้ำตัวแบ่งส่วนข้อมูล[[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=22m53s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#slicer) 
+
+### <a name="analytics"></a>การวิเคราะห์
+
+* การจัดรูปแบบตามเงื่อนไขโดยค่า[[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=7m54s)  [[บทความ]](desktop-conditional-table-formatting.md#color-formatting-by-field-value)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
+* การรวม Python [[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=11m14s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
+* การปรับปรุงการถามตอบ[[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=13m1s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
+
+### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+
+* ห้าวิชวลใหม่แบบกำหนดเอง[[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=19m48s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
+
+* ตัวเชื่อมต่อ Spark พร้อมใช้งานโดยทั่วไป[[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=31m41s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#spark) 
+
+
+> [!NOTE]
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+
+ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
+
+
+วิดีโอต่อไปนี้อธิบาย และแสดงการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dgv5HhHxxe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+> [!NOTE]
+> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](mobile-whats-new-in-the-mobile-apps.md) ได้
+
+
 ## <a name="july-2018-update-26051693201"></a>อัปเดตเดือนกรกฎาคม 2018 (2.60.5169.3201)
 
 การอัปเดตใหญ่ของกรกฎาคมต้องเรียกว่าน่าจุดพลุฉลองกันเลยทีเดียว ด้วยการมาของคุณลักษณะการรายงานและข้อมูลที่เฝ้ารอกันมานาน ซึ่งจะทำให้งานภาพของคุณเปล่งประกาย และเต็มไปด้วยสีสันที่พร้อมจะอวดข้อมูลเชิงลึกให้ชม
 
-การอัปเดตต่อไปนี้เป็นสิ่งใหม่กับ **Power BI Desktop** ในเดือนกรกฎาคม:
+การอัปเดตใหม่ต่อไปนี้จะถูกอัปเดตไปยัง**Power BI Desktop**ในเดือนกรกฏาคม:
 
 ### <a name="modeling"></a>การวางรูปแบบ
 

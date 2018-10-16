@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 4cc2c0ae14cf457c3a704b2891e070f4e4e00166
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657954"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512190"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>ใช้ธีมรายงานใน Power BI Desktop
 ด้วย**ธีมรายงาน** คุณสามารถใช้ธีมสี กับรายงานของคุณทั้งหมด เช่น สีขององค์กร การกำหนดสีตามฤดูกาล หรือธีมสีอื่นๆ ที่คุณอาจต้องการนำไปใช้ เมื่อคุณนำ**ธีมรายงาน**ไปใช้งาน วิชวลทั้งหมดในรายงานของคุณจะใช้สีจากธีมที่คุณเลือก (มีข้อยกเว้นบางข้อ ซึ่งจะอธิบายภายหลังในบทความนี้)
@@ -36,7 +36,17 @@ ms.locfileid: "39657954"
 เราแนะนำให้อัปเกรดเป็นเวอร์ชันล่าสุด**Power BI Desktop**เสมอ ซึ่งคุณสามารถรับได้จากลิงก์ใน[รับ Power BI Desktop](desktop-get-the-desktop.md) 
 
 ## <a name="how-report-themes-work"></a>ธีมรายงาน ทำงานอย่างไร
-เพื่อใช้ธีมรายงานไปยังรายงาน Power BI Desktop เลือกปุ่ม**สลับธีม** จาก ribbon **หน้าแรก** จากนั้นเลือก**นำเข้าธีม**จากรายการแบบดรอปดาวน์
+หากต้องการใช้ธีมรายงานกับรายงาน Power BI Desktop คุณสามารถเลือกจากธีมรายงานที่มีอยู่แล้วภายใน หรือนำเข้าธีมแบบกำหนดเอง
+
+หากต้องเลือกจากธีมรายงานที่มีอยู่แล้วภายใน ให้เลือกปุ่ม**สลับธีม**จากริบบิ้น**หน้าแรก** จากนั้นเลือกธีมที่มีอยู่จากเมนูดรอปดาวน์
+
+![เลือกธีมรายงาน](media/desktop-report-themes/report-themes_2a.png)
+
+ธีมรายงานของคุณจะถูกนำไปใช้กับรายงาน และคุณก็พร้อมแล้ว
+
+### <a name="importing-report-themes"></a>การนำเข้าธีมรายงาน
+
+หากต้องการนำเข้าธีมรายงาน ให้เลือกปุ่ม**สลับธีม** จากริบบิ้น**หน้าแรก** จากนั้นเลือก**นำเข้าธีม**จากรายการแบบดรอปดาวน์
 
 ![](media/desktop-report-themes/report-themes_3.png)
 

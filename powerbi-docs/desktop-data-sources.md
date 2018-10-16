@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657885"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512075"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับข้อมูลจากแหล่งต่าง ๆ มากมายด้วย Power BI Desktop รายการทั้งหมดของแหล่งข้อมูลที่พร้อมใช้งานอยู่ที่ด้านล่างของหน้านี้
@@ -53,6 +53,7 @@ ms.locfileid: "39657885"
 * XML
 * JSON
 * โฟลเดอร์
+* PDF (รุ่นเบต้า)
 * โฟลเดอร์ SharePoint
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**ไฟล์**
@@ -79,7 +80,8 @@ ms.locfileid: "39657885"
 * Impala
 * Google BigQuery
 * Snowflake
-* Exasol
+* Exasol (รุ่นเบต้า)
+* Jethro (รุ่นเบต้า)
 
 > [!NOTE]
 > ตัวเชื่อมต่อฐานข้อมูลบางอย่างจำเป็นต้องให้คุณเปิดใช้งานโดยการเลือก**ไฟล์ > ตัวเลือกและการตั้งค่า > ตัวเลือก**จากนั้นเลือก**คุณลักษณะการแสดงตัวอย่าง**และเปิดใช้งานตัวเชื่อมต่อ ถ้าคุณไม่เห็นตัวเชื่อมต่อที่กล่าวถึงด้านบน และต้องการใช้งานตัวเชื่อมต่อเหล่านั้น โปรดตรวจสอบการตั้งค่าของ**คุณลักษณะการแสดงตัวอย่าง** และโปรดทราบว่าแหล่งข้อมูลใด ๆ ที่ได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง*มีการจำกัดการสนับสนุนและฟังก์ชันการทำงาน และไม่ควรใช้ในสภาพแวดล้อมการผลิต
@@ -93,6 +95,7 @@ ms.locfileid: "39657885"
 ประเภท **Power BI** มีการเชื่อมต่อข้อมูลดังต่อไปนี้
 
 * ชุดข้อมูล Power BI
+* กระแสข้อมูล Power BI (รุ่นเบต้า)
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ **Power BI**
 
@@ -108,7 +111,7 @@ ms.locfileid: "39657885"
 * Azure Cosmos DB (เบต้า)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
-* Azure HDInsight Spark (เบต้า)
+* Azure HDInsight Spark
 * คิวรีแบบโต้ตอบ HDInsight (เบต้า)
 * Azure KustoDB (เบต้า)
 
@@ -169,6 +172,7 @@ ms.locfileid: "39657885"
 * ไฟล์ Hadoop (HDFS)
 * Spark
 * สคริปต์ R
+* สคริปต์ Python
 * ODBC
 * OLE DB
 * Blank Query
