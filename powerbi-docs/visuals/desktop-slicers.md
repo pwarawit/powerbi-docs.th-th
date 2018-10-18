@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 161ea8f20db36c129787e84242ea002980d0f8dd
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: df4afe91de955eabfba6eeea9022cc5f9475cc33
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565877"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336863"
 ---
 # <a name="using-slicers-power-bi-desktop"></a>การใช้ตัวแบ่งส่วนข้อมูลใน Power BI Desktop
 
@@ -65,6 +65,12 @@ ms.locfileid: "46565877"
 คุณลักษณะนี้ช่วยให้คุณสร้างกลุ่มแบบกำหนดเองของตัวแบ่งส่วนข้อมูลเพื่อให้ซิงโครไนซ์กัน มีชื่อเริ่มต้นให้อยู่แล้ว แต่คุณสามารถใช้ชื่อใดก็ได้ที่คุณต้องการ 
 
 ชื่อกลุ่มเพิ่มความยืดหยุ่นให้กับตัวแบ่งส่วนข้อมูล คุณสามารถสร้างกลุ่มแยกกัน เพื่อซิงค์ตัวแบ่งส่วนข้อมูลที่ใช้เขตข้อมูลเดียวกัน หรือใส่ตัวแบ่งส่วนข้อมูลที่ใช้คนละเขตข้อมูลลงในกลุ่มเดียวกัน 
+
+## <a name="how-filtering-affects-selection-in-slicers"></a>วิธีการกรองที่มีผลต่อรายการที่เลือกในตัวแบ่งส่วนข้อมูล
+
+หากคุณเลือกรายการในตัวแบ่งส่วนข้อมูลและใช้ตัวกรองที่โดยทั่วไปแล้วจะลบรายการที่เลือก ก็จะยังคงเหลืออยู่ที่ด้านล่างของรายการในตัวแบ่งส่วนข้อมูล หากลบตัวกรองออก รายการที่เลือกจะยังคงอยู่ในตัวแบ่งส่วนข้อมูล คุณจะพบว่าหากคุณไม่ได้เลือกรายการจากตัวแบ่งส่วนข้อมูล ก็จะหายไปจากรายการ
+
+![เก็บรายการที่เลือกไว้ในตัวแบ่งส่วนข้อมูล](./media/desktop-slicers/retained-selection-in-slicers.gif)
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

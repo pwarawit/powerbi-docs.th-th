@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 072f548c3725c4133bb548a72fc58679e74f5fc7
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 6055a9c5e41f1745b088df93587d701393c0d495
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417107"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336748"
 ---
 # <a name="power-bi-security"></a>Power BI Security
 สำหรับคำอธิบายโดยละเอียดของความปลอดภัยของ Power BI [ดาวน์โหลดเอกสารทางเทคนิคของความปลอดภัยของ Power BI:](http://go.microsoft.com/fwlink/?LinkId=829185)
@@ -58,4 +58,14 @@ Power BI ใช้ Azure Active Directory ([AAD](http://azure.microsoft.com/serv
 ตามที่อธิบายไว้ก่อนหน้าในบทความนี้ การเข้าสู่ระบบ Power BI ของผู้ใช้ถูกใช้ โดยเซิร์ฟเวอร์ Active Directory ในองค์กรจะจับคู่ UPN สำหรับข้อมูลประจำตัว อย่างไรก็ตาม เป็นเรื่อง**สำคัญ**ที่ควรทราบว่า ผู้ใช้เป็นผู้รับผิดชอบข้อมูลที่พวกเขาแชร์ ถ้าผู้ใช้เชื่อมต่อกับแหล่งข้อมูลโดยใช้ข้อมูลประจำตัวของเขา จากนั้นการรายงาน (หรือแดชบอร์ด หรือชุดข้อมูล) จะยึดตามข้อมูลทีผู้ใช้ใช้ร่วมกับบุคคลที่แชร์แดชบอร์ด ซึ่งเขาจะไม่ได้รับการรับรองตัวตนกับแหล่งข้อมูลต้นฉบับ และจะสามารถเข้าถึงรายงานได้
 
 มีข้อยกเว้นคือการเชื่อมต่อไปยัง**SQL Server Analysis Services**โดยใช้**เกตเวย์ข้อมูลภายในองค์กร** แดชบอร์ดจะถูกเก็บไว้ใน Power BI แต่เข้าถึงรายงานพื้นฐานหรือชุดข้อมูลเริ่มต้นการรับรองความถูกต้องสำหรับผู้ใช้ที่พยายามที่จะเข้าถึงรายงาน(หรือชุดข้อมูล) และการเข้าถึงจะอนุมัติ หากผู้ใช้มีข้อมูลประจำตัวเพียงพอในการเข้าถึงข้อมูลเท่านั้น สำหรับข้อมูลเพิ่มเติม ให้ดู[เจาะลึกเกตเวย์ข้อมูลขององค์กร](service-gateway-onprem-indepth.md)
+
+## <a name="enforcing-tls-version-usage"></a>บังคับใช้รุ่น TLS
+
+เครือข่ายและผู้ดูแลระบบไอทีสามารถบังคับใช้ข้อกำหนดในการใช้ TLS ปัจจุบัน (Transport Layer Security) สำหรับการติดต่อสื่อสารใดๆ ที่มีความปลอดภัยบนเครือข่าย Windows ให้การรองรับเวอร์ชัน TLS ผ่าน Microsoft Schannel Provider ดัง[อธิบายไว้ในหัวข้อ TSL Schannel SSP](https://docs.microsoft.com/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-)
+
+การบังคับใช้นี้สามารถทำได้โดยการตั้งค่ารีจิสทรีคีย์สำหรับการจัดการ การบังคับใช้ได้อธิบายไว้ใน[การจัดการ SSL Protocols ในหัวข้อ AD FS](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs) 
+
+**Power BI Desktop** ยึดการตั้งค่าคีย์รีจิสทรีที่อธิบายไว้ในหัวข้อเหล่านั้นและสร้างเฉพาะการเชื่อมต่อโดยใช้ TLS เวอร์ชันที่ได้รับอนุญาตตามการตั้งค่ารีจิสทรีเหล่านั้นเมื่อปรากฏ
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่ารีจิสทรีคีย์เหล่านี้ ดูได้ที่หัวข้อ[การตั้งค่ารีจิสทรี TLS](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)
 

@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/09/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0d9f16933bff264b10c0bff3e1b7c440a3d373a2
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48907865"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112210"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>ติดตั้งและใช้แอปกับแดชบอร์ดและรายงาน
 ใน Power BI *แอป*รวมรายงานและแดชบอร์ดที่เกี่ยวข้องเข้าด้วยกัน ทั้งหมดในที่เดียว บุคคลในองค์กรของคุณสามารถสร้าง และเผยแพร่พร้อมกับข้อมูลทางธุรกิจที่สำคัญ [บริการภายนอก](end-user-connect-to-services.md)คุณอาจใช้่ เช่น Google Analytics และ Microsoft Dynamics CRM นอกจากนี้ยังนำเสนอแอป Power BI 
@@ -34,13 +34,13 @@ ms.locfileid: "48907865"
 
 **บนคอมพิวเตอร์ของคุณ** 
 
-เมื่อคุณคลิกที่ลิงก์ในอีเมล บริการของ Power BI ([https://powerbi.com](https://powerbi.com)) จะเปิดขึ้นในเบราว์เซอร์ คุณยืนยันคุณต้องการติดตั้งแอป และจะเปิดไปยังเพจเริ่มต้นแอป
+เลือกลิงก์ในอีเมลเพื่อเปิดบริการ Power BI ([https://powerbi.com](https://powerbi.com)) ในเบราว์เซอร์ ยืนยันว่าคุณต้องการติดตั้งแอป และจะเปิดขึ้นในหน้ารับของแอป
 
 ![แอปเพจเริ่มต้นใน Power BI service](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
 
 **บน iOS หรืออุปกรณ์เคลื่อนที่ Android ของคุณ** 
 
-เมื่อคุณคลิ๊กที่ลิงก์ในอีเมล์บนอุปกรณ์เคลื่อนที่ของคุณ แอปจะติดตั้งโดยอัตโนมัติ และเปิดรายการเนื้อหาแอปในอุปกรณ์เคลื่อนที่ 
+เมื่อคุณเลือกลิงก์ในอีเมลบนอุปกรณ์เคลื่อนที่ของคุณ แอปจะติดตั้งโดยอัตโนมัติและเปิดรายการเนื้อหาของแอปในแอปบนมือถือ 
 
 ![รายการเนื้อหาแอปบนอุปกรณ์เคลื่อนที่](./media/end-user-apps/power-bi-app-index-it-spend-360.png)
 
@@ -50,7 +50,7 @@ ms.locfileid: "48907865"
 1. เลือก**แอป** ![แอปในบานหน้าต่างนำทางด้านซ้าย](./media/end-user-apps/power-bi-apps-bar.png) > **รับแอป** 
    
      ![ไอคอนรับแอป](./media/end-user-apps/power-bi-service-apps-get-apps-oppty.png)
-2. ใน AppSource ภายใต้**องค์กรของฉัน**คุณสามารถค้นหาเพื่อจำกัดขอบเขตผลลัพธ์ และค้นหาแอปที่คุณกำลังค้นหาได้
+2. ใน AppSource ภายใต้ **องค์กรของฉัน** ค้นหาผลให้แคบลงและหาแอปที่คุณกำลังมองหา
    
      ![ใน AppSource ภายใต้องค์กรของฉัน](./media/end-user-apps/power-bi-appsource-my-org.png)
 3. เลือก**รับทันที**เพื่อเพิ่มลงในหน้าแอปของคุณ 
