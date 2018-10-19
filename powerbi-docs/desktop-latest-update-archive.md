@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 40eefccbce19c8d6f4441e30e037e6e421a8dd5c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: cda575c11be90c8e18a3a9f3b8325ccf674afffc
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512259"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49337093"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
 บทความนี้อธิบายเกี่ยวกับการอัปเดตก่อนหน้าสำหรับ **Power BI Desktop** สำหรับการเผยแพร่ในเดือนล่าสุด ดูที่[ **การอัปเดตล่าสุดของ**Power BI Desktop](desktop-latest-update.md)
 
-คุณสามารถ[ดาวน์โหลดเวอร์ชันล่าสุดของ Power BI Desktop](https://powerbi.microsoft.com/desktop) ได้เสมอ หากคุณกำลังใช้งาน Windows 10 คุณยังสามารถรับ **Power BI Desktop** จาก Windows Store ได้ รุ่นที่ออกรายเดือนจะเหมือนกัน ไม่ว่าคุณจะติดตั้ง **Power BI Desktop** ทางไหน ดู[บทความนี้](desktop-get-the-desktop.md)สำหรับข้อมูลเพิ่มเติม 
+คุณสามารถ[ดาวน์โหลดเวอร์ชันล่าสุดของ Power BI Desktop](https://powerbi.microsoft.com/desktop) ได้เสมอ ถ้าคุณกำลังใช้งาน Windows 10 คุณยังสามารถรับ **Power BI Desktop** ได้จาก Windows Store เวอร์ชันรายเดือนจะเหมือนกันแม้ว่าหมายเลขเวอร์ชันอาจแตกต่างกัน โดยไม่คำนึงถึงวิธีการที่คุณติดตั้ง**Power BI Desktop** ดู[บทความนี้](desktop-get-the-desktop.md)สำหรับข้อมูลเพิ่มเติม 
 
 ลิงก์ที่อยู่ข้างแต่ละอัปเดต มีความหมายดังนี้:
 
@@ -33,6 +33,53 @@ ms.locfileid: "44512259"
 คุณยังสามารถดูวิดีโอ**อัปเดตล่าสุด**เริ่มตั้งแต่แรก จากภายในบทความนี้เลย โดยคลิกที่ไอคอน**เล่น**บนรูปภาพวิดีโอที่อยู่ด้านล่างรายการการอัปเดตได้
 
 ส่วนต่อไปนี้อธิบายวิธีการอัปเดตเดือนก่อนหน้าไปยัง**Power BI Desktop**
+
+
+## <a name="september-2018-update-2625222582"></a>อัปเดตประจำเดือนกันยายน 2018 (2.62.5222.582)
+
+การอัปเดตประจำเดือนกันยายนเปรียบเสมือนได้เข้าไปอยู่ในชั้นเรียนใหม่อันน่าตื่นเต้น หวังว่าการอัปเดตเหล่านี้จะเป็นประโยชน์ต่อคุณเหมือนดินสอเบอร์ 2 ที่เพิ่งเหลาจนคม เบอร์ 2  
+
+การอัปเดตใหม่ต่อไปนี้จะถูกอัปเดตไปยัง**Power BI Desktop**ในเดือนนี้:
+
+### <a name="reporting"></a>การรายงาน
+
+* ส่วนสนับสนุนเค้าโครงการลงจุดในแผนภูมิกระจาย [[วิดีโอ]](https://youtu.be/Rzw2WyI09kY?t=30s)  [[บทความ]](power-bi-visualization-scatter.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dotPlot) 
+* คัดลอกค่าและการเลือกจากภาพตารางและเมทริกซ์ [[วิดีโอ]](https://youtu.be/Rzw2WyI09kY?t=2m33s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#copy) 
+* ตัวเลือกธีมรายงานที่มีอยู่ภายใน [[วิดีโอ]](https://youtu.be/Rzw2WyI09kY?t=6m2s)   [[บทความ]](desktop-report-themes.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* คำแนะนำเครื่องมือของหน้ารายงานโดยทั่วไปพร้อมใช้งาน การสนับสนุนการ์ดใหม่ [[วิดีโอ]](https://youtu.be/Rzw2WyI09kY?t=8m10s)  [[บทความ]](desktop-tooltips.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#themes) 
+* การปรับปรุงความสามารถในการเข้าถึงสำหรับการวิเคราะห์และสนับสนุนการจัดรูปแบบบานหน้าต่าง [[วิดีโอ]](https://youtu.be/Rzw2WyI09kY?t=9m29s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#accessibility)
+
+### <a name="analytics"></a>การวิเคราะห์
+
+* การรวม (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/Rzw2WyI09kY?t=11m37s)  [[บทความ]](desktop-aggregations.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
+
+### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+
+* ห้าวิชวลใหม่แบบกำหนดเอง[[วิดีโอ]](https://youtu.be/Rzw2WyI09kY?t=23m8s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
+
+* ตัวเชื่อมต่อไฟล์ PDF (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/Rzw2WyI09kY?t=29m26s)  [[บทความ]](desktop-connect-pdf.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* ตัวเชื่อมต่อแบนด์วิดท์ SAP - สนับสนุนคุณสมบัติการวัด  [[วิดีโอ]](https://youtu.be/Rzw2WyI09kY?t=30m15s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#sapBW) 
+* ตัวเชื่อมต่อกระแสข้อมูล (รุ่น beta)  [[บทความ]](desktop-connect-dataflows.md)   [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#dataflows) 
+
+### <a name="data-preparation"></a>การเตรียมข้อมูล
+* M Intellisense  [[วิดีโอ]](https://youtu.be/Rzw2WyI09kY?t=30m42s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#pdf) 
+* เพิ่มคอลัมน์จากตัวอย่าง - สนับสนุนช่องว่างภายในข้อความ  [[วิดีโอ]](https://youtu.be/Rzw2WyI09kY?t=32m27s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#addColumn) 
+
+
+> [!NOTE]
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+
+ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
+
+
+วิดีโอต่อไปนี้อธิบาย และแสดงการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rzw2WyI09kY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+> [!NOTE]
+> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
 
 ## <a name="august-2018-update-2615192321"></a>อัปเดตประจำเดือนสิงหาคม 2018 (2.61.5192.321)
 
@@ -137,7 +184,7 @@ ms.locfileid: "44512259"
 
 
 > [!NOTE]
-> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](mobile-whats-new-in-the-mobile-apps.md) ได้
+> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
 
 ## <a name="june-2018-update-2595135101"></a>การอัปเดตประจำเดือนมิถุนายน 2018 (2.59.5135.101)
 
@@ -184,7 +231,7 @@ ms.locfileid: "44512259"
 
 
 > [!NOTE]
-> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](mobile-whats-new-in-the-mobile-apps.md) ได้
+> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
 
 ## <a name="may-2018-update-2585103281"></a>การอัปเดตประจำเดือนพฤษภาคม 2018 (2.58.5103.281)
 
@@ -238,7 +285,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-_GMCE1TLvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](mobile-whats-new-in-the-mobile-apps.md) ได้
+> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
 
 
 ## <a name="april-2018-update-2575068501"></a>การอัปเดตประจำเดือน 2018 เมษายน (2.57.5068.501)
@@ -284,7 +331,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W_Nb73Od_AI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](mobile-whats-new-in-the-mobile-apps.md) ได้
+> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
 
 
 
@@ -330,7 +377,7 @@ ms.locfileid: "44512259"
 
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 
@@ -352,7 +399,7 @@ ms.locfileid: "44512259"
 ### <a name="reporting"></a>การรายงาน
 
 * จุดข้อมูลแบบเลือกหลายรายการในหลายๆ หน้า [[วิดีโอ]](https://youtu.be/KeVB5RwMzJo?t=23s) [[บทความ]](desktop-multi-select.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
-* ตัวแบ่งส่วนข้อมูลการซิงค์ในหลาย ๆ หน้าของรายงาน[[วิดีโอ]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[บทความ]](desktop-slicers.md)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
+* ตัวแบ่งส่วนข้อมูลการซิงค์ในหลาย ๆ หน้าของรายงาน[[วิดีโอ]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[บทความ]](visuals/desktop-slicers.md)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
 * ปรับปรุงตัวแบ่งส่วนช่วงตัวเลข - การจัดระยะจำนวนเต็ม (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/KeVB5RwMzJo?t=8m44s)[[บทความ]](desktop-slicer-numeric-range.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
 * กำหนดรหัสพิกัดได้รวดเร็วขึ้นสำหรับแผนที่ Bing (ตัวอย่างเว็บ) - เร็วขึ้นสูงสุดถึง 6 เท่า [[วิดีโอ]](https://youtu.be/KeVB5RwMzJo?t=10m18s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
 * ป้ายชื่อข้อมูลที่ยาวเกินสำหรับการแสดงผลด้วยภาพแผนภูมิแท่งและแผนภูมิคอลัมน์ [[วิดีโอ]](https://youtu.be/KeVB5RwMzJo?t=12m31s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
@@ -394,7 +441,7 @@ ms.locfileid: "44512259"
 
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 ## <a name="january-2018-update-2544970761"></a>การอัปเดตประจำเดือนมกราคม 2018 (2.54.4970.761)
@@ -443,7 +490,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 
@@ -499,7 +546,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 ## <a name="november-2017-update-2524921202"></a>อัปเดตประจำเดือนพฤศจิกายน 2017 (2.52.4921.202)
@@ -555,7 +602,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 
@@ -613,7 +660,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jksjtR8GnBE" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 ## <a name="september-2017-update-2504859502"></a>อัปเดตประจำเดือนกันยายน 2017 (2.50.4859.502)
@@ -623,7 +670,7 @@ ms.locfileid: "44512259"
 ### <a name="report-view"></a>มุมมองรายงาน:
 
 -   Drillthrough ไปยังหน้าการรายงานอื่น[[วิดีโอ]](https://youtu.be/moTQJlnClJw?t=19s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#drillthrough) [[บทความ]](desktop-drillthrough.md)
--   แผนภูมิ Ribbon[[วิดีโอ]](https://youtu.be/moTQJlnClJw?t=8m57s)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[บทความ]  ](desktop-ribbon-charts.md)
+-   แผนภูมิ Ribbon[[วิดีโอ]](https://youtu.be/moTQJlnClJw?t=8m57s)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[บทความ]  ](visuals/desktop-ribbon-charts.md)
 -   ข้อมูลเชิงลึกเกี่ยวกับการอธิบายการเพิ่ม / การอธิบายการลดลง[[วิดีโอ]](https://youtu.be/moTQJlnClJw?t=13m37s)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#insights) [[บทความ]  ](desktop-insights.md)
 -   ตัวอย่างการอัปเดตการกำหนดธีม – ตัวควบคุมสไตล์แผนภูมิ [[วิดีโอ]](https://youtu.be/moTQJlnClJw?t=19m25s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#theming) [[บทความ]](desktop-report-themes.md)
 -   การปรับปรุงการช่วยสำหรับการเข้าถึง [[วิดีโอ]](https://youtu.be/moTQJlnClJw?t=27m25s)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#accessibility) [[บทความ]  ](desktop-accessibility.md)
@@ -653,7 +700,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/moTQJlnClJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 ## <a name="august-2017-update-2494831222"></a>อัปเดตประจำเดือนสิงหาคม 2017 (2.49.4831.222)
@@ -698,7 +745,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ND8U0yXroaQ" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 ## <a name="july-2017-update-2484792321"></a>อัปเดตประจำเดือนกรกฏาคม 2017 (2.48.4792.321)
@@ -748,7 +795,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4X96ow7FnSY" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 ## <a name="june-2017-update-2474766542"></a>อัปเดตประจำเดือนมิถุนายน 2017 (2.47.4766.542)
@@ -762,7 +809,7 @@ ms.locfileid: "44512259"
 -   ตั้งค่าตระกูลแบบอักษรด้วยภาพ[[วิดีโอ]](https://youtu.be/YlNVE5dgcSI?t=6m59s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#fonts)
 -   ตัวแบ่งส่วนข้อมูลภาพแนวนอน[[วิดีโอ]](https://youtu.be/YlNVE5dgcSI?t=8m42s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#imageSlicer)
 -   อัปเดตรูปแบบแผนภูมิผสม[[วิดีโอ]](https://youtu.be/YlNVE5dgcSI?t=9m58s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#comboChart)
--   ปรับปรุงแผนที่ Bing [[วิดีโอ]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[บทความ]](power-bi-map-tips-and-tricks.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
+-   ปรับปรุงแผนที่ Bing [[วิดีโอ]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[บทความ]](visuals/power-bi-map-tips-and-tricks.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
 -   การสุ่มตัวอย่างเส้นความหนาแน่นสูง[[วิดีโอ]](https://youtu.be/YlNVE5dgcSI?t=16m53s) [[บทความ]](desktop-high-density-sampling.md)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#highDensityLine)
 -   รายงานที่สามารถเข้าถึงได้[[วิดีโอ]](https://youtu.be/YlNVE5dgcSI?t=19m23s) [[บทความ]](desktop-accessibility.md)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#accessibility)
 
@@ -793,7 +840,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YlNVE5dgcSI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 
@@ -840,7 +887,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CKISVNHcHVA" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 
@@ -852,7 +899,7 @@ ms.locfileid: "44512259"
 ### <a name="report-view"></a>มุมมองรายงาน:
 
 -   เปลี่ยนชื่อแกน[[วิดีโอ]](https://youtu.be/AWMaIaI8G2Y?t=25s)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#renameAxisTitles)
--   ประสิทธิภาพการแสดงผลด้วยภาพแบบเมทริกซ์ใหม่: การเรียงลำดับคอลัมน์ การปรับขนาดคอลัมน์ และการตัดคำ (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[บทความ]](desktop-matrix-visual.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
+-   ประสิทธิภาพการแสดงผลด้วยภาพแบบเมทริกซ์ใหม่: การเรียงลำดับคอลัมน์ การปรับขนาดคอลัมน์ และการตัดคำ (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[บทความ]](visuals/desktop-matrix-visual.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
 
 ### <a name="analytics"></a>การวิเคราะห์:
 
@@ -885,7 +932,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AWMaIaI8G2Y" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 ## <a name="march-2017-update-2444675422"></a>อัปเดประจำเดือนมีนาคม 2017 (2.44.4675.422)
@@ -894,7 +941,7 @@ ms.locfileid: "44512259"
 
 ### <a name="report-view"></a>มุมมองรายงาน:
 
--   ภาพเมทริกซ์ใหม่ (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/CaRTON3lJqw?t=18s) [[บทความ]](desktop-matrix-visual.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
+-   ภาพเมทริกซ์ใหม่ (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/CaRTON3lJqw?t=18s) [[บทความ]](visuals/desktop-matrix-visual.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
 -   ตัวแบ่งส่วนช่วงตัวเลข (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/CaRTON3lJqw?t=8m20s) [[บทความ]](desktop-slicer-numeric-range.md)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#rangeSlicer)
 -   ป้ายชื่อข้อมูลในการแสดงผลด้วยภาพแบบวงกลมและโดนัท - เปอร์เซ็นต์ของทั้งหมด [[วิดีโอ]](https://youtu.be/CaRTON3lJqw?t=10m52s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#dataLabels)
 -   Cross-highlight ใช้ชุดข้อมูลหลายชุด[[วิดีโอ]](https://youtu.be/CaRTON3lJqw?t=11m57s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#crossHighlight)
@@ -928,7 +975,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaRTON3lJqw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 
@@ -976,7 +1023,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mn75-LOPxMA" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 ## <a name="january-2017-update-2424611482"></a>อัปเดตประจำเดือนมกราคม 2017 (2.42.4611.482)
@@ -1012,7 +1059,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C1-f0T8vZ7M" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 
@@ -1065,7 +1112,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kERJ_WOLuLk" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 ## <a name="october-2016-update-2404554361"></a>อัปเดตประจำเดือนตุลาคม 2016 (2.40.4554.361)
@@ -1118,7 +1165,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UXEYSvgvMaQ" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 ## <a name="september-2016-update-2394526362"></a>อัปเดตประจำเดือนกันยายน 2016 (2.39.4526.362)
@@ -1176,7 +1223,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pcUr6E8g_KI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 
@@ -1237,7 +1284,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0VvG7Eqoke8" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 ## <a name="july-2016-update-2374464321"></a>อัปเดตประจำเดือนกรกฏาคม 2016 (2.37.4464.321)
@@ -1249,7 +1296,7 @@ ms.locfileid: "44512259"
 ### <a name="report-view"></a>มุมมองรายงาน:
 
 -   ลักษณะตารางที่กำหนดไว้ล่วงหน้า[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[วิดีโอ]](https://youtu.be/g8ccfjffWmw?t=1m25s)
--   การอัปเดตรูปร่างแผนที่ - ใช้แผนที่แบบกำหนดเอง[[บทความ]](desktop-shape-map.md)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)[[วิดีโอ]    ](https://youtu.be/g8ccfjffWmw?t=2m21s)
+-   การอัปเดตรูปร่างแผนที่ - ใช้แผนที่แบบกำหนดเอง[[บทความ]](visuals/desktop-shape-map.md)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)[[วิดีโอ]    ](https://youtu.be/g8ccfjffWmw?t=2m21s)
 
 ### <a name="data-connectors"></a>ตัวเชื่อมต่อข้อมูล:
 
@@ -1280,7 +1327,7 @@ ms.locfileid: "44512259"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g8ccfjffWmw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 ## <a name="june-2016-update-2364434362"></a>อัปเดตประจำเดือนมิถุนายน 2016 (2.36.4434.362)
 
@@ -1290,7 +1337,7 @@ ms.locfileid: "44512259"
 
 ### <a name="report-view"></a>มุมมองรายงาน:
 
--   การแสดงผลด้วยภาพแบบใหม่ - แผนที่รูปร่าง[[วิดีโอ]](https://youtu.be/sZsL2l6oS4A?t=3m9s) [[article]](desktop-shape-map.md)
+-   การแสดงผลด้วยภาพแบบใหม่ - แผนที่รูปร่าง[[วิดีโอ]](https://youtu.be/sZsL2l6oS4A?t=3m9s) [[article]](visuals/desktop-shape-map.md)
 -   ตัวแบ่งส่วนข้อมูลแบบค้นหาได้[[วิดีโอ]](https://youtu.be/sZsL2l6oS4A?t=6m25s)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   ป้ายชื่อแผนภูมิเส้นที่สามารถกำหนดค่าได้[[วิดีโอ]](https://youtu.be/sZsL2l6oS4A?t=7m21s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   จุดลงชื่อเข้าใช้ใหม่[[วิดีโอ]](https://youtu.be/sZsL2l6oS4A?t=2m30s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
@@ -1334,7 +1381,7 @@ ms.locfileid: "44512259"
 
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 
@@ -1390,7 +1437,7 @@ ms.locfileid: "44512259"
 
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 ## <a name="april-2016-update-2344372322"></a>อัปเดตประจำเดือนเมษายน 2016 (2.34.4372.322)
 
@@ -1439,7 +1486,7 @@ ms.locfileid: "44512259"
 
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 ## <a name="march-2016-update-2334337281"></a>อัปเดประจำเดือนมีนาคม 2016 (2.33.4337.281)
@@ -1491,7 +1538,7 @@ ms.locfileid: "44512259"
 
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 
@@ -1549,7 +1596,7 @@ ms.locfileid: "44512259"
 
 
 > [!NOTE]
-> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](mobile-whats-new-in-the-mobile-apps.md)
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 ## <a name="january-2016-update-2314280361"></a>อัปเดตประจำเดือนมกราคม 2016 (2.31.4280.361)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512075"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336909"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับข้อมูลจากแหล่งต่าง ๆ มากมายด้วย Power BI Desktop รายการทั้งหมดของแหล่งข้อมูลที่พร้อมใช้งานอยู่ที่ด้านล่างของหน้านี้
@@ -75,13 +75,15 @@ ms.locfileid: "44512075"
 * ฐานข้อมูล Teradata
 * ฐานข้อมูล SAP HANA
 * เซิร์ฟเวอร์แอปพลิเคชัน SAP Business Warehouse
-* เซิร์ฟเวอร์ข้อความ SAP Business Warehouse (เบต้า)
+* เซิร์ฟเวอร์ข้อความ SAP Business Warehouse
 * Amazon Redshift
 * Impala
 * Google BigQuery
 * Snowflake
+* Dremio (iรุ่นเบต้า)
 * Exasol (รุ่นเบต้า)
 * Jethro (รุ่นเบต้า)
+* วิสาหกิจ Kyligence (เบต้า)
 
 > [!NOTE]
 > ตัวเชื่อมต่อฐานข้อมูลบางอย่างจำเป็นต้องให้คุณเปิดใช้งานโดยการเลือก**ไฟล์ > ตัวเลือกและการตั้งค่า > ตัวเลือก**จากนั้นเลือก**คุณลักษณะการแสดงตัวอย่าง**และเปิดใช้งานตัวเชื่อมต่อ ถ้าคุณไม่เห็นตัวเชื่อมต่อที่กล่าวถึงด้านบน และต้องการใช้งานตัวเชื่อมต่อเหล่านั้น โปรดตรวจสอบการตั้งค่าของ**คุณลักษณะการแสดงตัวอย่าง** และโปรดทราบว่าแหล่งข้อมูลใด ๆ ที่ได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง*มีการจำกัดการสนับสนุนและฟังก์ชันการทำงาน และไม่ควรใช้ในสภาพแวดล้อมการผลิต
@@ -112,7 +114,7 @@ ms.locfileid: "44512075"
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
-* คิวรีแบบโต้ตอบ HDInsight (เบต้า)
+* คิวรีแบบโต้ตอบ HDInsight
 * Azure KustoDB (เบต้า)
 
 แสดงรูปภาพต่อไปนี้**รับข้อมูล**สำหรับ**Azure**
@@ -124,10 +126,10 @@ ms.locfileid: "44512075"
 * รายการ SharePoint Online
 * Microsoft Exchange Online
 * Dynamics 365 (ออนไลน์)
-* Dynamics NAV (เบต้า)
+* Dynamics NAV
 * Dynamics 365 Business Central
+* Dynamics 365 Business Central (ภายในองค์กร)
 * Common Data Service สำหรับแอป (เบต้า)
-* Common Data Service (เบต้า)
 * Microsoft Azure Consumption Insights (เบต้า)
 * Visual Studio Team Services (เบต้า)
 * ออบเจ็กต์ Salesforce
@@ -163,7 +165,7 @@ ms.locfileid: "44512075"
 
 ประเภท**อื่น ๆ**มีการเชื่อมต่อข้อมูลต่อไปนี้:
 
-* Vertica (เบต้า)
+* Vertica
 * เว็บ
 * รายการ SharePoint
 * ฟีด OData
@@ -175,6 +177,8 @@ ms.locfileid: "44512075"
 * สคริปต์ Python
 * ODBC
 * OLE DB
+* Denado
+* Paxata (เบต้า)
 * Blank Query
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**อื่น ๆ**
