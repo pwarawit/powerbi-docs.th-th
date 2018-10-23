@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/17/2018
+ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 69e1bfffab1dd30685036b3c5265f81040a5f7c3
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 6f595a2d6423b1e79e927ee2d229363632022d58
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187156"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49397014"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>บทช่วยสอน: วิธีการใช้ถามตอบเพื่อสร้างการแสดงภาพ และสร้างรายงาน
 [ภาพรวมถามตอบ](consumer/end-user-q-and-a.md)ได้แนะนำคุณเกี่ยวกับ ถามตอบของ Power BI และเปรียบเทียบความแตกต่างระหว่าง*ผู้บริโภค* (มีแดชบอร์ดและรายงานที่แชร์ให้กับพวกเขา) และ*ผู้สร้าง* (เป็นเจ้าของรายงานและชุดข้อมูลพื้นฐาน) ส่วนแรกของบทช่วยสอนนี้ออกแบบสำหรับ ผู้บริโภคแดชบอร์ดที่ใช้บริการ Power BI และส่วนสองออกแบบมาสำหรับ ผู้ที่สร้างรายงานโดยใช้บริการของ Power BI หรือ Power BI Desktop เนื้อหา [ถามตอบ และ Power BI สำหรับอุปกรณ์เคลื่อนที่](consumer/mobile/mobile-apps-ios-qna.md) และ[ถามตอบ ด้วย Power BI Embedded](developer/qanda.md) ครอบคลุมในบทความต่างหาก
@@ -98,7 +98,7 @@ ms.locfileid: "47187156"
 ด้วยถามตอบ ไม่เพียงแต่คุณสามารถขอให้ข้อมูลคุณพูดออกมาด้วยตัวเอง คุณสามารถบอกวิธีที่ Power BI จะแสดงคำตอบได้ เพียงแค่เพิ่ม "as a <visualization type>" ตรงท้ายคำถามของคุณ  ตัวอย่างเช่น "show inventory volume by plant as a map" และ "show total inventory as a card"  ลองทำด้วยตัวเองดู
 
 ##  <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
-- ถ้าคุณได้เชื่อมต่อชุดข้อมูลโดยใช้การเชื่อมต่อสด หรือใช้เกตเวย์ ถามตอบจะต้อง[เปิดใช้งานสำหรับชุดข้อมูลนั้น](consumer/end-user-q-and-a-direct-query.md)
+- ถ้าคุณได้เชื่อมต่อชุดข้อมูลโดยใช้การเชื่อมต่อสด หรือใช้เกตเวย์ ถามตอบจะต้อง[เปิดใช้งานสำหรับชุดข้อมูลนั้น](service-q-and-a-direct-query.md)
 
 - คุณได้เปิดรายงาน และไม่เห็นตัวเลือกการถามตอบ ถ้าคุณกำลังใช้บริการของ Power BI ตรวจสอบทำให้แน่ใจว่า รายงานเปิดในมุมมองการแก้ไข ถ้าคุณไม่สามารถเปิดรายงานในมุมมองการแก้ไข นั่นหมายความว่า คุณไม่มีสิทธิ์ในการแก้ไขรายงานนั้น และจะไม่สามารถใช้ถามตอบกับรายงานนั้น
 
@@ -107,5 +107,5 @@ ms.locfileid: "47187156"
 [บทช่วยสอน: ใช้ถามตอบ ด้วยตัวอย่างการขายปลีก](power-bi-visualization-introduction-to-q-and-a.md)   
 [เคล็ดลับการถามคำถาม ในถามตอบ](consumer/end-user-q-and-a-tips.md)   
 [เตรียมเวิร์กบุ๊กสำหรับการถามตอบ](service-prepare-data-for-q-and-a.md)  
-[เตรียมชุดข้อมูลภายในองค์กรสำหรับการถามตอบ](consumer/end-user-q-and-a-direct-query.md)
+[เตรียมชุดข้อมูลภายในองค์กรสำหรับการถามตอบ](service-q-and-a-direct-query.md)
 [ปักหมุดไทล์ไปยังแดชบอร์ดจากถามตอบ](service-dashboard-pin-tile-from-q-and-a.md)

@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 10/16/2018
 ms.author: mihart
-ms.openlocfilehash: a312a4311590d02d0fa8bd97726f9cf596cfe6a0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 2c7a9d5f6bdbbfff905f3faa8cec255c2b85a0d5
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545785"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396821"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>โต้ตอบกับ ArcGIS แมปใน Power BI
 หัวข้อนี้ถูกเขียนจากมุมมองของจุดของบุคคล*ใช้*แผน ArcGIS ในบริการ Power BI เดสก์ท็อป หรืออุปกรณ์เคลื่อนที่ เมื่อผู้สร้างการแชร์การแมป ArcGIS กับคุณ มีหลายวิธีในการโต้ตอบกับแผนผังนั้น  เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการสร้างแผนผังมี ArcGIS ดู[ArcGIS แมป โดยบทช่วยสอนทาง esri](../power-bi-visualization-arcgis.md)
@@ -57,7 +57,7 @@ ArcGIS Maps for Power BI ให้ 3 โหมดตัวเลือก คุ
 ## <a name="interacting-with-an-arcgis-map"></a>โต้ตอบกับแผน ArcGIS
 ฟีเจอร์พร้อมใช้งานคุณขึ้นอยู่กับว่าคุณเป็น*creator* (บุคคลที่ทำการแมป) หรือ*ผู้บริโภค*(บุคคลที่ใช้ร่วมกันแผน ArcGIS กับคุณ) ถ้าคุณโต้ตอบกับแผน ArcGIS ที่เป็นผู้บริโภค (หรือ[มุมมองการอ่าน](../consumer/end-user-reading-view.md)ต่อไปนี้เป็นการกระทำที่คุณใช้งาน
 
-* เหมือนกับชนิดการแสดงภาพอื่น ๆ คุณสามารถ[ปักหมุดกับแดชบอร์ด](../service-dashboard-pin-tile-from-report.md), [มุมมอง](../consumer/end-user-show-data.md)และ/หรือ[ส่งออกข้อมูลเบื้องต้น](../consumer/end-user-export-data.md)และดูแมปเป็น[โหมดโฟกัส](../consumer/end-user-focus.md)และ[เต็มหน้าจอ](../service-fullscreen-mode.md)    
+* เหมือนกับชนิดการแสดงภาพอื่น ๆ คุณสามารถ[ปักหมุดกับแดชบอร์ด](../service-dashboard-pin-tile-from-report.md), [มุมมอง](../consumer/end-user-show-data.md)และ/หรือ[ส่งออกข้อมูลเบื้องต้น](power-bi-visualization-export-data.md)และดูแมปเป็น[โหมดโฟกัส](../consumer/end-user-focus.md)และ[เต็มหน้าจอ](../service-fullscreen-mode.md)    
 * ขยายการ**ตัวกรอง**บานหน้าต่างเพื่อสำรวจแมปโดยใช้ตัวกรอง เมื่อคุณปิดรายงาน ตัวกรองที่คุณใช้จะไม่ถูกบันทึก    
     ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * ถ้าแผนที่คุณมีเลเยอร์อ้างอิง เลือกตำแหน่งที่ตั้งเมื่อต้องแสดงรายละเอียดในคำแนะนำ ต่อไปนี้เราได้เลือกเขตเอี่ยมศิริ และดูข้อมูลจากการอ้างอิงรายได้ภายในบ้านเฉลี่ยเลเยอร์ creator ที่เพิ่มลงในแผนผัง

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2085f1ca852839c27c4943872e5f5ddb248e8638
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908911"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641401"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>เชื่อมต่อกับ Microsoft Dynamics NAV ด้วย Power BI
 รับข้อมูลเชิงลึกลงในข้อมูล Microsoft Dynamics NAV ของคุณนั้นทำได้ง่ายด้วย Power BI Power BI ดึงข้อมูลของคุณ ทั้งยอดขายและข้อมูลทางการเงิน จากนั้นสร้างแอปและแดชบอร์ด และรายงานที่ยึดตามข้อมูลนั้น Power BI จำเป็นต้องอนุญาตให้ไปยังตารางที่จะดึงข้อมูลจาก ในกรณีนี้ข้อมูลยอดขายและข้อมูลทางการเงิน รายละเอียดเพิ่มเติมเกี่ยวกับข้อกำหนดด้านล่าง หลังจากที่คุณติดตั้งแอป คุณสามารถดูแดชบอร์ดและรายงานในบริการของ Power BI ([https://powerbi.com](https://powerbi.com)) และในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ได้ 
@@ -29,7 +29,7 @@ ms.locfileid: "48908911"
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
 4. เมื่อถูกถาม ให้ใส่ URL ของ OData Microsoft Dynamics NAV URL ควรตรงกับรูปแบบต่อไปนี้
    
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
    * "instance.navserver.com" กับชื่อเซิร์ฟเวอร์ NAV ของคุณ
    * " DynamicsNAV90\_Instance1 " กับชื่ออินสแตนซ์ของเซิร์ฟเวอร์ NAV ของคุณ
@@ -72,7 +72,7 @@ Power BI ใช้เว็บเซอร์วิซของ Microsoft Dynami
 
 * URL ทำตามรูปแบบนี้
   
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
   
   * "instance.navserver.com" กับชื่อเซิร์ฟเวอร์ NAV ของคุณ
   * " DynamicsNAV90\_Instance1 " กับชื่ออินสแตนซ์ของเซิร์ฟเวอร์ NAV ของคุณ
@@ -92,11 +92,11 @@ Power BI ใช้เว็บเซอร์วิซของ Microsoft Dynami
 
 * ตรวจสอบ URL ตามรูปแบบที่ระบุไว้ข้างต้น ข้อผิดพลาดทั่วไปคือการระบุ
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
   
     อย่างไรก็ตาม คุณจำเป็นต้องมีส่วน 'Company('CRONUS%20International%20Ltd.')' กับชื่อ บริษัท NAV ของคุณ
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [แอป Power BI คืออะไร](service-create-distribute-apps.md)
