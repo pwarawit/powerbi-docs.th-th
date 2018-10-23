@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5db9b801fad3145cc864799062fe886c99da53aa
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 73be85644fd320bd44372a0df6c844705c3cf602
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280213"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336932"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>ใช้ตัวเชื่อมต่อ SAP BW ใน Power BI Desktop (ตัวอย่าง)
 ด้วย Power BI Desktop คุณสามารถเข้าถึงข้อมูล **SAP Business Warehouse (BW)** ได้
 
 สำหรับข้อมูลเกี่ยวกับว่า ลูกค้า SAP จะได้ประโยชน์จากการเชื่อมต่อ Power BI กับระบบ SAP Business Warehouse (BW) ที่มีอยู่ของพวกเขาอย่างไร ดูที่[เอกสารทางเทคนิค Power BI และ SAP BW](https://aka.ms/powerbiandsapbw) สำหรับรายละเอียดเกี่ยวกับการใช้ DirectQuery ด้วย SAP BW ดูบทความ[DirectQuery และ SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 
-เริ่มตั้งแต่การเผยแพร่เดือนมิถุนายน 2018 ของ **Power BI Desktop** คุณสามารถใช้ตัวเชื่อมต่อ SAP BW กับการใช้งานที่มีการปรับปรุงประสิทธิภาพและความสามารถอย่างมาก เวอร์ชันของตัวเชื่อมต่อ SAP BW ที่อัปเดตนี้ พัฒนาโดย Microsoft และเรียกว่า **Implementation 2.0** คุณสามารถเลือกเวอร์ชั่น 1 (v1) ของ**ตัวเชื่อมต่อ SAP BW** หรือ**ตัวเชื่อมต่อ Implementation 2.0 SAP**  ได้ ส่วนต่อไปนี้จะอธิบายการติดตั้งแต่ละเวอร์ชันตามลำดับ คุณสามารถเลือกตัวเชื่อมต่อตัวใดตัวหนึ่ง เพื่อเชื่อมต่อกับ SAP BW จาก Power BI Desktop ได้
+เริ่มด้วยการเผยแพร่ **Power BI Desktop** เดือนมิถุนายน ค.ศ. 2018 (และโดยทั่วไปจะมีที่เผยแพร่ในเดือนตุลาคม ค.ศ. 2018) คุณสามารถใช้ตัวเชื่อมต่อ SAP BW กับการใช้งานที่มีการปรับปรุงประสิทธิภาพและความสามารถที่มากมาย เวอร์ชันของตัวเชื่อมต่อ SAP BW ที่อัปเดตนี้ พัฒนาโดย Microsoft และเรียกว่า **Implementation 2.0** คุณสามารถเลือกเวอร์ชั่น 1 (v1) ของ**ตัวเชื่อมต่อ SAP BW** หรือ**ตัวเชื่อมต่อ Implementation 2.0 SAP**  ได้ ส่วนต่อไปนี้จะอธิบายการติดตั้งแต่ละเวอร์ชันตามลำดับ คุณสามารถเลือกตัวเชื่อมต่อตัวใดตัวหนึ่ง เพื่อเชื่อมต่อกับ SAP BW จาก Power BI Desktop ได้
 
 เราแนะนำให้คุณใช้**ตัวเชื่อมต่อ SAP Implementation 2.0** ถ้าเป็นไปได้
 
