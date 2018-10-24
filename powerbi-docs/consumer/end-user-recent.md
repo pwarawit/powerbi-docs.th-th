@@ -8,20 +8,17 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/01/2018
+ms.date: 10/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a165b58eae7309070dfe0bc33adc0a3e47ec7991
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1479b8fc431428a1b44ccd06bb501071042ada6e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46559048"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908497"
 ---
 # <a name="recent-content-in-power-bi-service"></a>เนื้อหา**ล่าสุด**ในบริการ Power BI
-
-
-## <a name="what-is-recent-content"></a>เนื้อหาล่าสุดคืออะไร
 เนื้อหาล่าสุดคือรายการสุดท้ายที่คุณเข้าชมใน Power BI ไม่เกิน 20 รายการ  ซึ่งรวมถึง แดชบอร์ด รายงาน แอป และเวิร์กบุ๊กทั้งหมดของพื้นที่ทำงานของคุณ
 
 ![หน้าต่างเนื้อหาล่าสุด](./media/end-user-recent/power-bi-recent-screen.png)
@@ -39,10 +36,10 @@ ms.locfileid: "46559048"
 
 ![แสดงเนื้อหาล่าสุดทั้งหมด](./media/end-user-recent/power-bi-recent-list.png)
 
-จากที่นี่ คุณสามารถโต้ตอบกับเนื้อหา ตามที่คุณต้องการบนแต่ละ[ **แดชบอร์ด**](end-user-dashboards.md), [ **รายงาน**](end-user-reports.md)และ **เวิร์กบุ๊ก**แท็บ และคง[ **แอป** ](end-user-apps.md)หน้าจอ
+จากตรงนี่ คุณสามารถโต้ตอบกับเนื้อหาตามที่คุณต้องการบนแต่ละแทบของ[ **แดชบอร์ด**](end-user-dashboards.md), [ **รายงาน**](end-user-reports.md)และ **สมุดงาน** และบนหน้าจอ<!--[**Apps**](end-user-apps.md)--> แอป 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[แอปบริการของ power BI](end-user-apps.md)
+<!--[Power BI service Apps](end-user-apps.md)-->
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 
