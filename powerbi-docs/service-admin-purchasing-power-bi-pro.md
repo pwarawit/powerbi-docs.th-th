@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: quickstart
-ms.date: 10/01/2018
+ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 55c379c784c70d77a1b37500900b2d974047a735
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: 7984f269235084268af57f1bb0d292793aef1f7f
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271736"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641286"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>ซื้อและมอบใบอนุญาตการใช้งาน Power BI Pro
 
@@ -114,7 +114,7 @@ Power BI Pro เป็นสิทธิ์การใช้งานสำห�
 
 ตอนนี้ คุณได้กำหนดสิทธิ์การใช้งานแล้ว เรียนรู้เพิ่มเติมเกี่ยวกับ Power BI Pro
 
-[การออกใบอนุญาตสำหรับ Power BI ในองค์กรของคุณ](service-admin-licensing-organization.md)
+[สิทธิ์การใช้งาน Power BI สำหรับองค์กรของคุณ](service-admin-licensing-organization.md)
 
 [หาผู้ใช้ Power BI ที่ได้ลงชื่อเข้าใช้](service-admin-access-usage.md)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ce37c13d313a44af5f082c0db2a72dbf4d53aca5
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: 8a95dae913c2069fa3768d66c55d2b1358640000
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48875452"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641930"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - แนวคิดพื้นฐานสำหรับบริการ Power BI
 
@@ -82,7 +82,7 @@ ms.locfileid: "48875452"
 เราสามารถรีเฟรช เปลี่ยนชื่อ สำรวจ และลบชุดข้อมูลได้ ใช้ชุดข้อมูลเพื่อสร้างรายงานตั้งแต่เริ่มต้น หรือโดยการเรียกใช้[ข้อมูลเชิงลึกด่วน](service-insights.md)  เพื่อดูว่ารายงานและแดชบอร์ดใดที่ใช้ชุดข้อมูลแล้ว ให้เลือก**ดูที่เกี่ยวข้อง** ในการสำรวจชุดข้อมูล เลือกตัวเลือกนี้ สิ่งที่คุณกำลังทำคือการเปิดชุดข้อมูลในตัวแก้ไขรายงาน ซึ่งเป็นส่วนที่คุณสามารถเริ่มเจาะลึกลงในข้อมูลและสร้างการแสดงภาพได้จริง ๆ ดังนั้น เราไปต่อที่หัวข้อถัดไปกันนั่นคือ รายงาน
 
 ### <a name="dig-deeper"></a>เจาะลึกมากขึ้น
-* [Power BI Premium คืออะไร](service-premium.md)
+* [Power BI Premium คืออะไร?](service-premium.md)
 * [รับข้อมูลสำหรับ Power BI](service-get-data.md)
 * [ชุดข้อมูลตัวอย่างสำหรับ Power BI](sample-datasets.md)
 
