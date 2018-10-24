@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544635"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908589"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>เชื่อมต่อกับ Adobe Analytics ด้วย Power BI
 การเชื่อมต่อกับ Adobe Analytics ผ่านทาง Power BI เริ่มจากการเชื่อมต่อไปยังบัญชี Adobe Analytics Marketing Cloud ของคุณ คุณจะได้แอปที่มีแดชบอร์ด Power BI และชุดของรายงาน Power BI ซึ่งให้ข้อมูลเชิงลึกเกี่ยวกับ ปริมาณการใช้งาน และมิติของผู้ใช้ ของไซต์คุณ ข้อมูลจะถูกรีเฟรชโดยอัตโนมัติวันละครั้ง คุณสามารถโต้ตอบกับแดชบอร์ดและรายงาน แต่คุณไม่สามารถบันทึกการเปลี่ยนแปลงได้
@@ -25,26 +25,26 @@ ms.locfileid: "46544635"
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. เลือก **Adobe Analytics** \> **รับ**
+3. เลือก **Adobe Analytics** \> **รับ**
    
    ![](media/service-connect-to-adobe-analytics/adobe.png)
-2. Power BI เชื่อมต่อกับ Adobe Analytics Company และ Report Suite ID (ไม่ใช่ชื่อ Report Suite) ที่ระบุ ดูรายละเอียดที่ [การค้นหาพารามิเตอร์เหล่านั้น](#FindingParams) ที่ด้านล่าง
+4. Power BI เชื่อมต่อกับ Adobe Analytics Company และ Report Suite ID (ไม่ใช่ชื่อ Report Suite) ที่ระบุ ดูรายละเอียดที่ [การค้นหาพารามิเตอร์เหล่านั้น](#FindingParams) ที่ด้านล่าง
    
    ![](media/service-connect-to-adobe-analytics/parameters.png)
-3. สำหรับ**วิธีการรับรองความถูกต้อง** ให้เลือก **oAuth2** \> **ลงชื่อเข้าใช้** เมื่อได้รับพร้อมท์ ใส่ข้อมูลประจำตัว Adobe Analytics ของคุณ 
+5. สำหรับ**วิธีการรับรองความถูกต้อง** ให้เลือก **oAuth2** \> **ลงชื่อเข้าใช้** เมื่อได้รับพร้อมท์ ใส่ข้อมูลประจำตัว Adobe Analytics ของคุณ 
    
     ![](media/service-connect-to-adobe-analytics/creds.png)
    
     ![](media/service-connect-to-adobe-analytics/adobe_signin.png)
-4. คลิก**ยอมรับ**เพื่ออนุญาตให้ Power BI เข้าถึงข้อมูล Adobe Analytics ของคุณ
+6. คลิก**ยอมรับ**เพื่ออนุญาตให้ Power BI เข้าถึงข้อมูล Adobe Analytics ของคุณ
    
    ![](media/service-connect-to-adobe-analytics/adobe_authorize.png)
-5. หลังจากที่คุณอนุมัติ กระบวนการนำเข้าจะเริ่มต้นโดยอัตโนมัติ 
+7. หลังจากที่คุณอนุมัติ กระบวนการนำเข้าจะเริ่มต้นโดยอัตโนมัติ 
 
 ## <a name="view-the-adobe-analytics-dashboard-and-reports"></a>ดูแดชบอร์ดและรายงาน Adobe Analytics
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![Adobe Analytics dashboard](media/service-connect-to-adobe-analytics/dashboard.png)
+   ![แดชบอร์ด Adobe Analytics](media/service-connect-to-adobe-analytics/dashboard.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -82,19 +82,19 @@ Power BI ใช้ Adobe Analytics Report API เพื่อกำหนด แ
 
 **Report Suite ID**
 
-Suite ID จะสร้างขึ้นเมื่อสร้าง Report Suite คุณสามารถติดต่อผู้ดูแลระบบของคุณเพื่อหาค่า ID สังเกตว่านี่ไม่ใช่ชื่อ Report Suite
+Suite ID จะสร้างขึ้นเมื่อสร้าง Report Suite คุณสามารถติดต่อผู้ดูแลระบบของคุณเพื่อหาค่า ID นี่ไม่ใช่ชื่อ Report Suite
 
 จาก [คู่มือ](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html) Adobe:
 
 ![](media/service-connect-to-adobe-analytics/reportsuiteid.png)
 
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
-ถ้าคุณเห็นข้อผิดพลาดหลังจากใส่ข้อมูลประจำตัวของคุณว่า คุณไม่มีสิทธิ์ โปรดยืนยันกับผู้ดูแลระบบของคุณว่า คุณสามารถเข้าถึง Adobe Analytics API นอกจากนี้ ยืนยัน Adobe ID ที่ให้ไว้ ว่าเชื่อมโยงกับ Marketing Cloud Organization ของคุณ (เชื่อมโยงกับบริษัท Adobe Analytics)
+หากคุณเห็นข้อผิดพลาดหลังจากใส่ข้อมูลประจำตัวของคุณว่า คุณไม่มีสิทธิ์ ให้ยืนยันกับผู้ดูแลระบบของคุณว่าคุณสามารถเข้าถึง API ของ Adobe Analytics ได้ นอกจากนี้ ยืนยัน Adobe ID ที่ให้ไว้ ว่าเชื่อมโยงกับ Marketing Cloud Organization ของคุณ (เชื่อมโยงกับบริษัท Adobe Analytics)
 
-ถ้าคุณผ่านหน้าจอข้อมูลประจำตัวได้สำเร็จ ก่อนจะพบข้อผิดพลาด เป็นไปได้ที่รายงานใช้เวลานานเกินไปกว่าจะเสร็จ ข้อผิดพลาดที่พบบ่อยจะอยู่ในรูปแบบ *"ไม่สามารถรับข้อมูลจากรายงาน Adobe Analytics เนื้อหารวม &quot;หน้าอ้างอิง, หน้า&quot;, ระยะเวลาโดยประมาณคือ xx วินาที"* โปรดตรวจทานส่วน "ที่รวมอยู่ข้างใน" และเปรียบเทียบกับขนาดอินสแตนซ์ Adobe ของคุณ ขออภัยที่ยังไม่มีวิธีหลีกเลี่ยงปัญหาการหมดเวลานี้ แต่เรากำลังพิจารณาปรับปรุงเพื่อสนับสนุนอินสแตนซ์ที่มีขนาดใหญ่ขึ้น โปรดส่งคำติชมไปยังทีม Power BI ที่ https://ideas.powerbi.com
+ถ้าคุณผ่านหน้าจอข้อมูลประจำตัวได้สำเร็จ ก่อนจะพบข้อผิดพลาด เป็นไปได้ที่รายงานใช้เวลานานเกินไปกว่าจะเสร็จ ข้อผิดพลาดที่พบบ่อยจะอยู่ในรูปแบบ *"ไม่สามารถรับข้อมูลจากรายงาน Adobe Analytics เนื้อหารวม &quot;หน้าอ้างอิง, หน้า&quot;, ระยะเวลาโดยประมาณคือ xx วินาที"* ตรวจทานส่วน "สิ่งที่รวมอยู่ข้างใน" และเปรียบเทียบกับขนาดตัวอย่ง Adobe ของคุณ ขออภัยที่ยังไม่มีวิธีหลีกเลี่ยงปัญหาการหมดเวลานี้ อย่างไรก็ตาม เรากำลังพิจารณาปรับปรุงเพื่อรองรับตัวอย่างที่มีขนาดใหญ่ขึ้น โปรดส่งคำติชมไปยังทีม Power BI ที่ https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [แอป Power BI คืออะไร](consumer/end-user-apps.md)
+* [แอป Power BI คืออะไร](service-create-distribute-apps.md)
 * [รับข้อมูลใน Power BI](service-get-data.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

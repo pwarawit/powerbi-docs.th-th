@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 865e19f368b8e1915d0262ae6356e70a8dbc2781
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 9654e2838b1b62dcc856e2870b3fcc1e5301641c
+ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416921"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48874586"
 ---
 # <a name="card-visualizations"></a>การแสดงภาพการ์ด
 บางครั้งตัวเลขเพียงตัวเดียวก็เป็นสิ่งสำคัญที่สุดที่คุณต้องการติดตามในแดชบอร์ด Power BI หรือรายงานของคุณ เช่น ยอดขายรวม ส่วนแบ่งตลาดแบบปีต่อปี ตลาดแชร์ปีปี หรือโอกาสทั้งหมด แสดงภาพชนิดนี้จะเรียกว่า*การ์ด* เช่นเดียวกับการแสดงภาพดั้งเดิมของ Power BI แทบจะทุกชนิด คุณสามารถสร้างการ์ดขึ้นได้ โดยใช้ตัวแก้ไขรายงาน หรือการถามตอบ
@@ -58,7 +58,7 @@ ms.locfileid: "47416921"
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
 > [!TIP]
-> ในส่วนรายงานของบริการ Power BI ใน[มุมมองการแก้ไข](../service-reading-view-and-editing-view.md) ให้เลือก**ถามคำถาม**จากแถบเมนูด้านบน ในส่วนรายงานของ Power BI Desktop ให้หาพื้นที่ว่างบางตำแหน่งในรายงาน แล้วดับเบิลคลิกเพื่อเปิดกล่องคำถาม
+> ในส่วนรายงานของบริการ Power BI ในมุมมองการแก้ไข เลือก**ถามคำถาม**จากแถบเมนูด้านบน ในส่วนรายงานของ Power BI Desktop ให้หาพื้นที่ว่างบางตำแหน่งในรายงาน แล้วดับเบิลคลิกเพื่อเปิดกล่องคำถาม
 
 3. ตัวอย่างเช่น พิมพ์ "จำนวนโอกาส" ในกล่องคำถาม
 

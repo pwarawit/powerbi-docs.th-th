@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 19a029564fecdc9a54a136d045e75bb9580193da
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543960"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908251"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>ทำงานร่วมกันในพื้นที่ทำงานของกล่มุของแอป Power BI ของคุณ
 แอปพื้นที่ทำงาน Power BI คือตำแหน่งที่ยอดเยี่ยมเพื่อทำงานร่วมกับเพื่อนร่วมงานของคุณบนแดชบอร์ด รายงาน และชุดข้อมูลเพื่อสร้าง*apps* ทำงานร่วมกันไม่ได้จบด้วยพื้นที่ทำงานใน Power BI Office 365 เสนอกลุ่มอื่นๆบริการ เช่นแชร์ไฟล์บน OneDrive สำหรับธุรกิจ การสนทนาใน Exchange ปฏิทินที่ใช้ร่วมกัน และ tasks และอื่น ๆ อ่านเพิ่มเติมเกี่ยวกับ[กลุ่มใน Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)
@@ -23,7 +23,7 @@ ms.locfileid: "46543960"
 > [!NOTE]
 > ตัวอย่างการใช้งานพื้นที่ทำงานใหม่จะเปลี่ยนความสัมพันธ์ระหว่างพื้นที่ทำงาน Power BI และกลุ่ม Office 365 คุณจะไม่สามารถสร้างกลุ่ม Office 365 โดยอัตโนมัติทุกครั้งที่คุณสร้างพื้นที่ทำงานใหม่ อ่านเกี่ยวกับ[สร้างพื้นที่ทำงานใหม่ (ตัวอย่าง)](service-create-the-new-workspaces.md)
 
-พื้นที่ทำงานของแอปใช้ได้กับ[Power BI Pro](service-free-vs-pro.md)
+พื้นที่ทำงานของแอปใช้ได้กับ[สิทธิ์การใช้งาน Power BI Pro](service-features-license-type.md)
 
 ## <a name="collaborate-on-power-bi-desktop-files-in-your-app-workspace"></a>ทำงานร่วมกันบนไฟล์ Power BI Desktop ในพื้นที่ทำงานของแอป
 หลังจากที่คุณสร้างไฟล์ Power BI Desktop ถ้าคุณได้เผยแพร่ไปยังพื้นที่ทำงานของแอป Power BI แล้วทุกคนในพื้นที่ทำงานของคุณจะสามารถทำงานร่วมกันได้
@@ -77,7 +77,7 @@ ms.locfileid: "46543960"
 ถ้าคุณเป็นเจ้าของหรือผู้ดูแลระบบของพื้นที่ทำงานของแอป คุณสามารถเพิ่มหรือลบสมาชิกในพื้นที่ทำงานได้ อ่านเพิ่มเติมเกี่ยวกับ[จัดการพื้นที่ทำงานของแอป Power BI](service-manage-app-workspace-in-power-bi-and-office-365.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [สร้างแอปและพื้นที่ทำงานแอปใน Power BI](consumer/end-user-create-apps.md)
+* [สร้างแอปและพื้นที่ทำงานแอปใน Power BI](service-create-distribute-apps.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 * มีคำติชมหรือไม่ เยี่ยมชม[แนวคิด Power BI](https://ideas.powerbi.com/forums/265200-power-bi)
 

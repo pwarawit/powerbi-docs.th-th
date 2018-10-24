@@ -3,16 +3,17 @@ layout: HubPage
 hide_bc: true
 title: เอกสาร Power BI
 description: เอกสาร Power BI
-ms.openlocfilehash: 61caafcfd5ea816a1678209355dab387a83a8642
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.service: powerbi
+ms.openlocfilehash: 7dbc0270fcfdd7dc83a41cbe45399dc05a2ccfe8
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37597358"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798988"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>เอกสาร Power BI</h1>
+        <h1>การเตรียมเอกสาร Power BI</h1>
         <p style="font-size: 1.12rem;margin-bottom: 1rem;">Power BI เน้นความแข็งแกร่งข้อมูลเชิงลึกของคุณและค่าของข้อมูลของคุณ ด้วยเอกสาร Power BI คุณจะได้รับข้อมูลระดับผู้เชี่ยวชาญและคำตอบของสิ่งที่คุณต้องการ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม</p>
         <ul class="pivots">
             <li>
@@ -22,18 +23,18 @@ ms.locfileid: "37597358"
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsA">
                             <li>
-                                <a href="power-bi-overview.md">
+                                <a href="consumer/power-bi-consumer-landing.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-powerbi-logo.svg" alt="" />
+                                                        <img src="./media/index/powerbi-4x_ea1e-01-resized-with-ratio.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>บริการ Power BI</h3>
-                                                    <p>บริการของ Power BI เป็นบริการออนไลน์ที่คุณจะพบแดชบอร์ด แอป และรายงานที่เผยแพร่แล้ว</p>
+                                                    <h3>Power BI สำหรับรายงานลูกค้า</h3>
+                                                    <p>เริ่มต้นใช้งาน Power BI? ทำความรู้จักกับผลิตภัณฑ์และบริการต่างๆ ที่ประกอบกันเป็น Power BI และดูว่าคุณสามารถทำอะไรได้บ้าง</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -41,18 +42,18 @@ ms.locfileid: "37597358"
                                 </a>
                             </li>
                             <li>
-                                <a href="desktop-what-is-desktop.md">
+                                <a href="power-bi-creator-landing.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-desktop.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Design_E771.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Power BI Desktop</h3>
-                                                    <p>Power BI Desktop ช่วยให้คุณสร้างแบบสอบถามขั้นสูง โมเดล และรายงานที่แสดงข้อมูลเป็นภาพ</p>
+                                                    <h3>Power BI สำหรับรายงานผู้ออกแบบ</h3>
+                                                    <p>คุณคือผู้ออกแบบรายงานบน Power BI หรือไม่ เรียนรู้วิธีการเชื่อมต่อข้อมูล ออกแบบการสอบถาม และสร้งรายงานและแดชบอร์ด</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -60,18 +61,18 @@ ms.locfileid: "37597358"
                                 </a>
                             </li>
                             <li>
-                                <a href="mobile-apps-for-mobile-devices.md">
+                                <a href="service-admin-administering-power-bi-in-your-organization.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-mobile-apps.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Admin_F286.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>แอป Power BI สำหรับอุปกรณ์เคลื่อนที่</h3>
-                                                    <p>ดู และโต้ตอบกับแดชบอร์ด Power BI และรายงานของคุณบนอุปกรณ์เคลื่อนที่ของคุณ</p>
+                                                    <h3>Power BI สำหรับผู้ดูแลระบบ</h3>
+                                                    <p>เรียนรู้การจัดการผู้เช่า Power BI รวมถึงการกำหนดค่านโยบาย ติดตามการใช้งาน และการจัดเตรียมสิทธิ์การใช้งานและความสามารถต่างๆ</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -85,12 +86,12 @@ ms.locfileid: "37597358"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-developer.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Developer_ECCE.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>นักพัฒนา Power BI</h3>
-                                                    <p>Power BI มีหลากหลายตัวเลือกสำหรับนักพัฒนา มีช่วงตั้งแต่การฝังไปยังภาพแบบกำหนดเอง และชุดข้อมูลการสตรีม</p>
+                                                    <h3>Power BI สำหรับนักพัฒนา</h3>
+                                                    <p>Power BI มีตัวเลือกมากมายสำหรับนักพัฒนา ตั้งแต่การฝังในภาพแบบกำหนดเองและชุดข้อมูลสตรีมมิ่ง</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -98,18 +99,18 @@ ms.locfileid: "37597358"
                                 </a>
                             </li>
                             <li>
-                                <a href="report-server/get-started.md">
+                                <a href="https://powerbi.microsoft.com/blog/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-report-server.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-Blog_E1D7.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>เซิร์ฟเวอร์รายงานของ Power BI</h3>
-                                                    <p>สร้าง ปรับใช้ และจัดการ Power BI รายงานที่ใส่เลขหน้าและบนอุปกรณ์เคลื่อนที่ภายในองค์กร</p>
+                                                    <h3>บล็อก Power BI</h3>
+                                                    <p>ติดตามข่าวสารเกี่ยวกับการพัฒนา Power BI รุ่นล่าสุดเสมอ</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -123,7 +124,7 @@ ms.locfileid: "37597358"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/powerbi/pbi-guided-learning.svg" alt="" />
+                                                        <img src="./media/index/power-bi-4x-GuidedLearning_E736.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">

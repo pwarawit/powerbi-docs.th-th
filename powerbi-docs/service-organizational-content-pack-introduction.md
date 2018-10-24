@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 3f8a5075290620d9d1ed1829008002ff71d25c82
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547648"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908170"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>บทนำชุดเนื้อหาองค์กรใน Power BI
 > [!NOTE]
@@ -33,7 +33,7 @@ ms.locfileid: "46547648"
 แดชบอร์ด รายงาน และเวิร์กบุ๊ก Excel เป็นแบบอ่านอย่างเดียว แต่คุณสามารถคัดลอกและใช้แดชบอร์ดและรายงานเป็นจุดเริ่มต้นสำหรับการสร้างชุดเนื้อหาเวอร์ชันส่วนบุคคลของคุณเองได้
 
 > [!NOTE]
-> ชุดเนื้อหาองค์กรจะใช้งานได้เฉพาะเมื่อคุณและเพื่อนร่วมงานของคุณมี[Power BI Pro](service-free-vs-pro.md)
+> ชุดเนื้อหาองค์กรจะใช้งานได้เฉพาะเมื่อคุณและเพื่อนร่วมงานของคุณมี[สิทธิ์การใช้งาน Power BI Pro](service-features-license-type.md)
 > 
 > 
 
@@ -52,7 +52,7 @@ ms.locfileid: "46547648"
 1. ใน Power BI Pro, Nate สร้างชุดเนื้อหาและเผยแพร่ไปยังกลุ่มการกระจายการตลาด การตั้งค่าการรีเฟรชจะถูกสืบทอดกับชุดข้อมูล และสามารถเปลี่ยนได้โดย Nate เท่านั้น
    
    > [!NOTE]
-   > ถ้า Nate สร้างชุดเนื้อหาจากภายใน[พื้นที่ทำงานของแอปฯ Power BI](consumer/end-user-create-apps.md) ที่เขาเป็นสมาชิก ดังนั้น แม้ว่าเขาออกจากพื้นที่ทำงานไปแล้ว ผู้อื่นในพื้นที่ทำงาน Power BI สามารถครองความเป็นเจ้าของได้
+   > ถ้า Nate สร้างชุดเนื้อหาจากภายใน[พื้นที่ทำงานของแอปฯ Power BI](service-create-distribute-apps.md) ที่เขาเป็นสมาชิก ดังนั้น แม้ว่าเขาออกจากพื้นที่ทำงานไปแล้ว ผู้อื่นในพื้นที่ทำงาน Power BI สามารถครองความเป็นเจ้าของได้
    > 
    > 
 2. Nate ส่งอีเมลไปยังกลุ่มการกระจาย บอกให้พวกเขาทราบเกี่ยวกับชุดเนื้อหาใหม่นี้
@@ -76,7 +76,7 @@ ms.locfileid: "46547648"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [สร้างและเผยแพร่ชุดเนื้อหาองค์กร](service-organizational-content-pack-create-and-publish.md)
-* [สร้างและกระจายแอปฯใน Power BI](consumer/end-user-create-apps.md) 
+* [สร้างและกระจายแอปฯใน Power BI](service-create-distribute-apps.md) 
 * [Power BI - แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 25e7fe3e47cee2aed7781fff2a20621e3bd860ed
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547579"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908819"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>จัดการพื้นที่ทำงานของแอปใน Power BI และ Office 365
-ในฐานะผู้สร้างหรือผู้ดูแลระบบของ[พื้นที่ทำงานของแอปใน Power BI](consumer/end-user-apps.md)หรือใน Office 365 คุณจัดการบางส่วนของพื้นที่ทำงานใน Power BI ลักษณะอื่นๆ คุณจัดการใน Office 365 
+ในฐานะผู้สร้างหรือผู้ดูแลระบบของ[พื้นที่ทำงานของแอปใน Power BI](service-create-distribute-apps.md)หรือใน Office 365 คุณจัดการบางส่วนของพื้นที่ทำงานใน Power BI ลักษณะอื่นๆ คุณจัดการใน Office 365 
 
 > [!NOTE]
 > ตัวอย่างการใช้งานพื้นที่ทำงานใหม่จะเปลี่ยนความสัมพันธ์ระหว่างพื้นที่ทำงาน Power BI และกลุ่ม Office 365 คุณจะไม่สามารถสร้างกลุ่ม Office 365 โดยอัตโนมัติทุกครั้งที่คุณสร้างพื้นที่ทำงานใหม่ อ่านเกี่ยวกับ[สร้างพื้นที่ทำงานใหม่ (ตัวอย่าง)](service-create-the-new-workspaces.md)
@@ -36,7 +36,7 @@ ms.locfileid: "46547579"
 * ดูที่อยู่อีเมลของกลุ่ม
 * ลบกลุ่ม
 
-คุณจำเป็นต้องมีสิทธิ์การใช้งาน [Power BI Pro](service-free-vs-pro.md) ที่เป็นผู้ดูแลระบบหรือสมาชิกของพื้นที่ทำงานของแอป ผู้ใช้แอปของคุณต้องมสิทธิ์ใช้งาน Power BI Pro เช่นกัน ยกเว้นว่าพื้นที่ทำงานของแอปอยเป็นแบบ Power BI Premium อ่าน[Power BI Premium คืออะไร](service-premium.md)สำหรับรายละเอียด
+คุณจำเป็นต้องมี[สิทธิ์การใช้งาน Power BI Pro](service-features-license-type.md) ที่เป็นผู้ดูแลระบบหรือสมาชิกของพื้นที่ทำงานของแอป ผู้ใช้แอปของคุณต้องมสิทธิ์ใช้งาน Power BI Pro เช่นกัน ยกเว้นว่าพื้นที่ทำงานของแอปอยเป็นแบบ Power BI Premium อ่าน[Power BI Premium คืออะไร](service-premium.md)สำหรับรายละเอียด
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>แก้ไขพื้นที่ทำงานของแอปใน Power BI
 1. ใน Power BI service เลือกลูกศรถัดจาก**พื้นที่ทำงาน** > เลือกจุดไข่ปลา (**...** ) ถัดจากชื่อพื้นที่ทำงานของคุณ > **แก้ไขพื้นที่ทำงาน** 
@@ -76,7 +76,6 @@ ms.locfileid: "46547579"
 3. เลือก**บันทึก**หรือ**ละทิ้ง**
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [แอป Power BI คืออะไร](consumer/end-user-apps.md)
-* [เผยแพร่แอปที่มีแดชบอร์ดและรายงานใน Power BI](consumer/end-user-create-apps.md)
-* มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+* [เผยแพร่แอปที่มีแดชบอร์ดและรายงานใน Power BI](service-create-distribute-apps.md)
+* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 
