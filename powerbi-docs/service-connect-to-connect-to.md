@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc9a8637416bdea50e955c1aea73bbcfeed51bb6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f125edf58ab80da68a236d671495fc48e475c212
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243012"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548545"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>เชื่อมต่อกับ comScore Digital Analytix ด้วย Power BI
 ดูภาพและสำรวจข้อมูล comScore Digital Analytix ของคุณใน Power BI ด้วยชุดเนื้อหา Power BI ข้อมูลจะรีเฟรชโดยอัตโนมัติหนึ่งครั้งต่อวัน
@@ -45,14 +45,14 @@ ms.locfileid: "34243012"
 
 **ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 <a name="Requirements"></a>
 
-## <a name="system-requirements"></a>ข้อกำหนดของระบบ
+## <a name="system-requirements"></a>ความต้องการของระบบ
 ในการเชื่อมต่อ จำเป็นต้องมีบัญชีผู้ใช้ของ DAx comScore และการเข้าใช้งาน comScore DAx API โปรดติดต่อผู้ดูแลระบบ DAx comScore ของคุณเพื่อยืนยันบัญชีของคุณ
 
 <a name="FindingParams"></a>

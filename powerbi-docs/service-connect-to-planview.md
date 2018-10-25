@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1f3bdb66d9737102c63ecace5359ba1b96265f6a
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: ad93a57e08f858c78e71d66792315d1836c2a075
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137410"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547673"
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>เชื่อมต่อกับ Planview Enterprise ด้วย Power BI
 ด้วยชุดเนื้อหา Planview Enterprise คุณสามารถมองเห็นภาพทรัพยากรของคุณ และทำงานเพื่อจัดการข้อมูลในวิธีการใหม่ทั้งกระบวนการได้โดยตรงใน Power BI ใช้ข้อมูลประจำตัวการลงชื่อเข้าใช้ของ Planview Enterprise เพื่อดูการใช้จ่ายพอร์ตลงทุนแบบโต้ตอบของคุณ ทำความเข้าใจว่าคุณอยู่ตรงจุดไหน เกินงบประมาณหรือต่ำกว่างบประมาณ และดูว่าโครงการของคุณสอดคล้องกับลำดับความสำคัญเชิงกลยุทธ์ขององค์กรของคุณมากน้อยเพียงใด นอกจากนี้ คุณยังสามารถขยายแดชบอร์ดและรายงานแบบใช้งานทันทีเพื่อรับข้อมูลเชิงลึกที่มีความสำคัญมากที่สุดสำหรับคุณ
@@ -44,12 +44,12 @@ ms.locfileid: "37137410"
 
 **ฉันต้องทำอะไรต่อ?**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
-## <a name="system-requirements"></a>ข้อกำหนดของระบบ
+## <a name="system-requirements"></a>ความต้องการของระบบ
 ในการนำเข้าข้อมูล Planview Enterprise ของคุณไปยัง Power BI คุณต้องเป็นผู้ใช้ Planview Enterprise ที่มีการเปิดใช้งานคุณลักษณะ Reporting Portal Viewer ในบทบาทของคุณ ดูข้อกำหนดเพิ่มเติมที่ด้านล่าง
 
 ขั้นตอนนี้ถือว่าคุณลงชื่อเข้าใช้โฮมเพจ Microsoft Power BI ด้วยบัญชี Power BI แล้ว ถ้าคุณไม่มีบัญชี Power BI ไปที่ [powerbi.com](https://powerbi.microsoft.com/get-started/) และด้านล่าง **Power BI - การทำงานร่วมกันและการแชร์บนระบบคลาวด์** เลือก **ทดลองใช้ฟรี** แล้ว คลิก**รับข้อมูล**

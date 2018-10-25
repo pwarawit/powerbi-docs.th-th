@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/24/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: d3b7ace4fe611cc55965f96f770caf7b4ebf21b1
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c65b945260357b0679f8fdb83c534aac53481126
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726397"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564796"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
 เรียนรู้วิธีติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
@@ -29,11 +29,11 @@ ms.locfileid: "44726397"
 
 1. ในพอร์ทัลเว็บเซิร์ฟเวอร์รายงาน เลือก **ดาวน์โหลด**ลูกศร > **Power BI Desktop**
 
-    ![ดาวน์โหลด Power BI Desktop จากพอร์ทัลเว็บ](media/install-powerbi-desktop/report-server-download-web-portal.png)
+    ![ดาวน์โหลด Power BI Desktop จากพอร์ทัลของเว็บ](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    หรือคุณสามารถไปที่ [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (ปรับให้เหมาะสมแล้วสำหรับเซิร์ฟเวอร์รายงาน Power BI - มีนาคม 2018) ในศูนย์ดาวน์โหลดของ Microsoft ได้โดยตรง
+    หรือคุณสามารถไปที่ [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (ที่ถูกปรับให้เหมาะกับเซิร์ฟเวอร์รายงาน Power BI - สิงหาคม 2018) ในศูนย์ดาวน์โหลด Microsoft ได้โดยตรง
 
-2. ในหน้าศูนย์ดาวน์โหลด เลือก **ดาวน์โหลด**
+2. ในหน้าศูนย์ดาวน์โหลด เลือก**ดาวน์โหลด**
 
 3. ขึ้นอยู่กับคอมพิวเตอร์ของคุณ เลือก: 
 
@@ -41,15 +41,16 @@ ms.locfileid: "44726397"
 
     - **PBIDesktopRS_x64.msi** (เวอร์ชัน 64 บิต)
 
-1. หลังจากที่คุณดาวน์โหลดตัวติดตั้ง เรียกใช้ตัวช่วยสร้างการตั้งค่า Power BI Desktop (ตุลาคม 2017)
-2. ในตอนท้ายของการติดตั้ง ตรวจสอบ **เริ่มต้น Power BI Desktop ตอนนี้**
+1. หลังจากที่คุณดาวน์โหลดตัวติดตั้งแล้ว ให้เรียกใช้ตัวช่วยติดตั้ง Power BI Desktop (สิงหาคม 2018)
+
+2. ในตอนท้ายของการติดตั้ง ทำเครื่องหมายที่**เริ่มต้น Power BI Desktop ทันที**
    
     ซึ่งจะเริ่มต้นโดยอัตโนมัติ และคุณก็พร้อมทำงานต่อได้
 
 ## <a name="verify-you-are-using-the-correct-version"></a>ตรวจสอบว่า คุณกำลังใช้เวอร์ชันที่ถูกต้อง
 คุณสามารถตรวจสอบว่า คุณกำลังใช้ Power BI Desktop ที่ถูกต้อง ได้โดยการค้นหาหน้าจอเปิดใช้งานหรือแถบชื่อเรื่องแถบภายใน Power BI Desktop แถบชื่อเรื่องจะระบุเดือนและปีที่มีการเผยแพร่
 
-![แถบชื่อเรื่องสำหรับ Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+![แถบชื่อเรื่องสำหรับ Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](media/install-powerbi-desktop/power-bi-report-server-desktop-august-2018.png)
 
 เวอร์ชัน Power BI Desktop สำหรับบริการ Power BI จะไม่มีเดือนและปีในแถบชื่อเรื่อง
 
@@ -63,7 +64,7 @@ ms.locfileid: "44726397"
 การแก้ไขรายงาน Power BI จากภายในเซิร์ฟเวอร์รายงาน Power BI หรือการสร้างรายงาน Power BI ใหม่จากพอร์ทัลเว็บจะเปิด Power BI Desktop เวอร์ชันที่ถูกต้องเสมอ
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
-รายงานในเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI (http://powerbi.com) ทำงานเกือบเหมือนกัน แต่มีความแตกต่างในบางคุณลักษณะ
+รายงาน Power BI ในเซิร์ฟเวอร์รายงาน Power BI ในบริการของ Power BI (http://app.powerbi.com)และในแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ทำงานได้เกือบจะเหมือนกัน แต่จะมีบางคุณลักษณ์ที่แตกต่างกัน
 
 ### <a name="in-a-browser"></a>ในเบราว์เซอร์
 รายงานในเซิร์ฟเวอร์รายงาน Power BI สนับสนุนการแสดงภาพทั้งหมด รวมถึง:
@@ -80,9 +81,9 @@ ms.locfileid: "44726397"
 ### <a name="in-the-power-bi-mobile-apps"></a>ในแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI
 รายงานในเซิร์ฟเวอร์รายงาน Power BI สนับสนุนฟังก์ชันพื้นฐานทั้งหมดใน[แอปสำหรับอุปกรณ์เคลื่อนที่ Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md) รวมถึง:
 
-* [เค้าโครงรายงานโทรศัพท์](../desktop-create-phone-report.md): คุณสามารถรายงานให้เหมาะสำหรับแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ได้ บนโทรศัพท์มือถือของคุณ รายงานที่ปรับให้เหมาะสมมีไอคอนพิเศษ ![ไอคอนเค้าโครงรายงานโทรศัพท์](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) และเค้าโครงที่เหมาะกับมือถือ
+* [เค้าโครงรายงานโทรศัพท์](../desktop-create-phone-report.md): คุณสามารถรายงานให้เหมาะสำหรับแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ได้ บนโทรศัพท์มือถือของคุณ รายงานที่ปรับให้เหมาะสมมีไอคอนพิเศษ ![ไอคอนเค้าโครงรายงานโทรศัพท์](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png) และเค้าโครงที่เหมาะกับมือถือ
   
-    ![รายงานที่ปรับให้เหมาะสมสำหรับมือถือ](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+    ![รายงานที่ปรับให้เหมาะสมสำหรับมือถือ](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-report.png)
 
 รายงานในเซิร์ฟเวอร์รายงาน Power BI ไม่สนับสนุนคุณลักษณะเหล่านี้ในแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI:
 

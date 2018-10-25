@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 56be5b6a0618dea28ac286f5cbaa0c019d9037d2
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 49fab6884a4acd548ccb5c17913c003763af8cab
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136007"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549718"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>เชื่อมต่อกับ Circuit ID ด้วย Power BI
 การวิเคราะห์ข้อมูลติดต่อสื่อสารของคุณจาก Circuit ID ทำได้ง่ายขึ้นด้วย Power BI Power BI เรียกคืนข้อมูลของคุณ จากนั้นสร้างแดชบอร์ดค่าเริ่มต้นและรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลนั้น หลังจากที่คุณได้สร้างการเชื่อมต่อแล้ว คุณสามารถสำรวจข้อมูลของคุณและปรับแต่งแดชบอร์ดตามความต้องการของคุณได้ ข้อมูลจะถูกรีเฟรชทุกวันโดยอัตโนมัติ
@@ -41,10 +41,10 @@ ms.locfileid: "37136007"
 
 **ฉันต้องทำอะไรต่อ?**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [Power BI คืออะไร](power-bi-overview.md)

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 71cb40ef6f1346bd3d8486658b05427e66d1dbf3
+ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558596"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "46474057"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>แก้ไขปัญหาแอปพลิเคชันแบบฝังตัว
 
@@ -84,18 +84,18 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 ส่วนหลังของแอปพลิเคชันอาจจำเป็นต้องรีเฟรชโทเค็นการรับรองความถูกต้องก่อนที่จะเรียก GenerateToken
 
-```
+    ```
     GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
     Host: wabi-us-north-central-redirect.analysis.windows.net
     ...
     Authorization: Bearer eyJ0eXAiOi...
     ...
- 
+
     HTTP/1.1 403 Forbidden
     ...
-     
+
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-```
+    ```
 
 ## <a name="authentication"></a>การรับรองความถูกต้อง
 
@@ -229,13 +229,13 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 | OpenConnectionError | ไม่สามารถแสดงภาพได้ ไม่สามารถแสดงชื่อเรื่องภาพรายงานได้: <visual title> | N/A | หยุดกำลังการผลิตชั่วคราว หรือลบในขณะที่รายงานที่เกี่ยวข้องกับความจุถูกเปิดในเซสชัน |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | ไม่สามารถโหลด schema สำหรับโมเดลที่เกี่ยวข้องกับรายงานนี้ ตรวจสอบให้แน่ใจว่าคุณมีการเชื่อมต่อไปยังเซิร์ฟเวอร์ แล้วลองอีกครั้ง | N/A | <li> หยุดกำลังการผลิตชั่วคราว <li> ลบกำลังการผลิต |
 
-## <a name="onboarding-experience-tool-for-embedding"></a>ประสบการณ์การเตรียมความพร้อมสำหรับการฝัง
+## <a name="embedding-setup-tool"></a>เครื่องมือตั้งค่าการฝังตัว
 
-คุณสามารถเข้าถึง[เครื่องมือประสบการณ์การเตรียมความพร้อม](https://aka.ms/embedsetup) เพื่อดาวน์โหลดแอปพลิเคชันตัวอย่างได้อย่างรวดเร็ว จากนั้น คุณสามารถเปรียบเทียบแอปพลิเคชันของคุณกับตัวอย่าง
+คุณสามารถเข้าถึง[เครื่องมือตั้งค่าการฝังตัว](https://aka.ms/embedsetup) เพื่อดาวน์โหลดแอปพลิเคชันตัวอย่างได้อย่างรวดเร็ว จากนั้น คุณสามารถเปรียบเทียบแอปพลิเคชันของคุณกับตัวอย่าง
 
 ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-ตรวจสอบว่า คุณผ่านข้อกำหนดเบื้องต้นทั้งหมด ก่อนที่จะใช้เครื่องมือประสบการณ์การเตรียมความพร้อม คุณต้องมีบัญชี **Power BI Pro** และการสมัครใช้งาน **Microsoft Azure**
+ตรวจสอบว่าคุณผ่านข้อกำหนดเบื้องต้นทั้งหมด ก่อนที่จะใช้เครื่องมือตั้งค่าการฝังตัว คุณต้องมีบัญชี **Power BI Pro** และการสมัครใช้งาน **Microsoft Azure**
 
 * ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/en-us/pricing/)ก่อนที่คุณจะเริ่ม
 * ถ้าคุณยังไม่มีการสมัครใช้งาน Azure สร้าง[บัญชีฟรี](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)ก่อนที่คุณจะเริ่ม
@@ -244,7 +244,7 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 
 ### <a name="common-issues"></a>ปัญหาที่พบบ่อย
 
-ปัญหาทั่วไปที่คุณอาจพบขณะทดสอบด้วยเครื่องมือประสบการณ์การออนบอร์ดคือ:
+ปัญหาทั่วไปที่คุณอาจพบขณะทดสอบเครื่องมือตั้งค่าการฝังตัวคือ:
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>การใช้แอปพลิเคชันตัวอย่าง การฝังตัวสำหรับของลูกค้าคุณ
 
@@ -262,6 +262,10 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 
 ข้อผิดพลาดนี้เกิดขึ้นเนื่องจากค่ารหัสผ่านผู้ใช้ของคุณ ยังไม่ได้ใส่เข้าไปในแอปพลิเคชันตัวอย่าง เปิดแฟ้ม Web.config ในโซลูชัน และกรอกเขตข้อมูล pbiPassword ด้วยรหัสผ่านผู้ใช้ของคุณ
 
+ถ้าคุณได้รับข้อผิดพลาด - AADSTS50079: ผู้ใช้จะต้องใช้การรับรองความถูกต้องแบบหลายปัจจัย
+
+    Need to use an AAD account that does not have MFA enabled.
+
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>การใช้แอปพลิเคชันตัวอย่าง การฝังตัวสำหรับองค์กรของคุณ
 
 ถ้าคุณกำลังทำงานกับประสบการณ์**ฝังตัวสำหรับองค์กรของคุณ** บันทึกและคลายการบีบอัดไฟล์ *PowerBI-Developer-Samples.zip* จากนั้น เปิดโฟลเดอร์ *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* และเรียกใช้ไฟล์ *pbi-saas-embed-report.sln*
@@ -275,6 +279,10 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 ถ้าคุณต้องการแก้ไขแอปพลิเคชันที่ลงทะเบียนแล้ว ให้เรียนรู้วิธีการแก้ไข[แอปพลิเคชันที่ลงทะเบียน AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) เพื่อที่แอปพลิเคชันจะสามารถให้การเข้าถึง API ของเว็บ
 
 ถ้าคุณต้องการแก้ไขโปรไฟล์หรือข้อมูลผู้ใช้ Power BI ของคุณ เรียนรู้วิธีการแก้ไข[ข้อมูล Power BI](https://docs.microsoft.com/power-bi/service-basic-concepts) ของคุณ
+
+ถ้าคุณได้รับข้อผิดพลาด - AADSTS50079: ผู้ใช้จะต้องใช้การรับรองความถูกต้องแบบหลายปัจจัย
+
+    Need to use an AAD account that does not have MFA enabled.
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [คำถามที่ถามบ่อยของ Power BI Embedded](embedded-faq.md)
 

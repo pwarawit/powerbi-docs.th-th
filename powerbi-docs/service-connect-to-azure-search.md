@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 09171c02dcbf5af50553c6e82f46f7f81b15a4cc
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5ba3c1336abc10872e58ef2ec38f076dfa120d47
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136214"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544999"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>เชื่อมต่อกับ Azure Search ด้วย Power BI
 การวิเคราะห์การรับส่งข้อมูล Azure Search (Azure Search Traffic Analytics) ช่วยให้คุณสามารถตรวจติดตามและทำความเข้าใจเกี่ยวกับการรับส่งข้อมูลไปยังบริการค้นหา Azure ของคุณ ชุดเนื้อหา Azure Search สำหรับ Power BI ให้ข้อมูลเชิงลึกโดยละเอียดเกี่ยวกับข้อมูลการค้นหาของคุณ โดยรวมถึงการค้นหา การทำดัชนี สถิติการบริการ และเวลาแฝงในช่วงเวลส 30 วันที่ผ่านมา คุณสามารถพบรายละเอียดเพิ่มเติมใน[บล็อกโพสต์ Azure](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/)
@@ -44,12 +44,12 @@ ms.locfileid: "37136214"
 
 **ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
-## <a name="system-requirements"></a>ข้อกำหนดของระบบ
+## <a name="system-requirements"></a>ความต้องการของระบบ
 ชุดเนื้อหา Azure Search ต้องมีการวิเคราะห์การรับส่งข้อมูล Azure Search ที่เปิดใช้งานในบัญชีผู้ใช้
 
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
@@ -58,5 +58,5 @@ ms.locfileid: "37136214"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [Power BI คืออะไร](power-bi-overview.md)
 
-[Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)
+[Power BI แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
 

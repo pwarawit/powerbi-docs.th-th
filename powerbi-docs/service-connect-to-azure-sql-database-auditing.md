@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dd9b5b9f9db95b73a7001c34bcabcd2deacb8b4c
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: f0c98d88ad9b87e57cf8f1cf7c36a58e30b684ea
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136582"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545371"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>ชุดเนื้อหาการตรวจสอบฐานข้อมูล SQL สำหรับ Power BI
 ชุดเนื้อหา Power BI สำหรับ Azure [การตรวจสอบฐานข้อมูล SQL](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/) ช่วยให้คุณเข้าใจกิจกรรมเกี่ยวกับฐานข้อมูลของคุณและรับข้อมูลเชิงลึกในความขัดแย้งและความผิดปกติที่อาจสามารถระบุถึงปัญหาทางธุรกิจ หรือการละเมิดความปลอดภัยที่สงสัย 
@@ -62,10 +62,10 @@ ms.locfileid: "37136582"
 
 **ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [รับข้อมูลสำหรับ Power BI](service-get-data.md)

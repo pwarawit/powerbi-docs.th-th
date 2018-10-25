@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3c1000eb48cfb53f5838f19f6c0ece4403e9d3ba
-ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
+ms.openlocfilehash: 00a42a3ffcc92ca7bc48459635359acb9da8da82
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/11/2018
-ms.locfileid: "40256831"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548361"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>เชื่อมต่อกับ Application Insights ด้วย Power BI
 ใช้ Power BI เพื่อสร้างแดชบอร์ดแบบกำหนดเองที่มีประสิทธิภาพจากการวัดและส่งข้อมูลทางไกล[Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/) นึกภาพการวัดและส่งข้อมูลทางไกลของแอปของคุณในรูปแบบใหม่ รวมเมตริกจากแอปหรือบริการส่วนต่างๆลงบนแดชบอร์ดเดียวกัน การวางจำหน่ายครั้งแรกของชุดเนื้อหา Power BI สำหรับข้อมูลเชิงลึกของแอปพลิเคชันนี้ มีวิดเจ็ตสำหรับการวัดที่เกี่ยวข้องกับการใช้งานทั่วไป เช่นผู้ใช้ที่ใช้งานอยู่ มุมมองหน้า เซสชัน เบราว์เซอร์ และเวอร์ชันระบบปฏิบัติการ และการเผยแพร่ทางภูมิศาสตร์ของผู้ใช้ในแผนที่
@@ -47,10 +47,10 @@ ms.locfileid: "40256831"
 
 **ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="whats-included"></a>มีอะไรรวมอยู่บ้าง
 ชุดเนื้อหาข้อมูลเชิงลึกของแอปพลิเคชันประกอบด้วยตารางและเมทริกซ์ต่อไปนี้  

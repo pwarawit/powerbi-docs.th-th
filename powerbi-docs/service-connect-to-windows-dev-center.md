@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ccb878da983aad493efb2cfdfb0d09366964a157
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250065"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545440"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>เชื่อมต่อกับ Windows Dev Center ด้วย Power BI
 สำรวจและตรวจสอบข้อมูล Windows Dev Center app analytics ใน Power BI ด้วยชุดเนื้อหา Power BI ข้อมูลจะรีเฟรชโดยอัตโนมัตหนึ่งครั้งต่อวัน
@@ -48,10 +48,10 @@ ms.locfileid: "34250065"
 
 **ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="whats-included"></a>มีอะไรรวมอยู่บ้าง
 ชุดเนื้อหาDev Center Power BI มีข้อมูลการวิเคราะห์สำหรับแอปของคุณและ การจัดหา IAP หารจัดอันดับ บทวิจารณ์ และสถานภาพแอป ข้อมูลถูกจำกัดล่าสุด 3 เดือน และเป็นหน้าต่างเคลื่อนที่ได้ ดังนั้นวันที่รวมอยู่จะถูกอัพเดตเมื่อรีเฟรชชุดข้อมูล

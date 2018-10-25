@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 31f1d4161801b45307e92ad3f654d30843897dc8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 987b6998823119fa8aa85d2aabe4d37608a6a671
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244168"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549879"
 ---
 # <a name="connect-to-microsoft-azure-consumption-insights-with-power-bi"></a>เชื่อมต่อกับข้อมูลรายจ่ายเชิงลึกของ Microsoft Azure ด้วย Power BI
 สำรวจ และตรวจสอบข้อมูลรายจ่าย Microsoft Azure ใน Power BI ด้วยชุดเนื้อหา Power BI ข้อมูลจะถูกรีเฟรชโดยอัตโนมัติวันละครั้ง
@@ -44,10 +44,10 @@ ms.locfileid: "34244168"
 
 **ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="whats-included"></a>มีอะไรรวมอยู่บ้าง
 ชุดเนื้อหาข้อมูลรายจ่ายเชิงลึกของ Azure Microsoft รวมข้อมูลรายงานรายเดือน สำหรับช่วงของเดือนที่คุณระบุระหว่างขั้นตอนการเชื่อมต่อ ช่วงของเดือนเป็นหน้าต่างเคลื่อนที่ได้ ดังนั้นวันที่ที่รวมอยู่ จะถูกอัปเดตตามการรีเฟรชชุดข้อมูล

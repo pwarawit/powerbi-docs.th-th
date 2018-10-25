@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 3efd7da5ef320e08ab620da3c63a6d3ff327396a
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250395"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565923"
 ---
 # <a name="install-power-bi-report-server"></a>ติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 
@@ -30,11 +30,11 @@ ms.locfileid: "35250395"
 ### <a name="power-bi-report-server-product-key"></a>คีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI
 
 #### <a name="power-bi-premium"></a>Power BI Premium
-ถ้าคุณซื้อ Power BI Premium คุณจะสามารถเข้าถึงคีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI ของคุณได้ในแท็บ**ตั้งค่า Premium**ของพอร์ทัลผู้ดูแลระบบ Power BI ซึ่งจะพร้อมใช้งานสำหรับผู้ดูแลระบบสากล หรือผู้ใช้ที่ได้รับการกำหนดบทบาทเป็นผู้ดูแลระบบบริการ Power BI
+ถ้าคุณซื้อ Power BI Premium ภายในแท็บ**การตั้งค่า Premium**  ของพอร์ทัลผู้ดูแลระบบ Power BI คุณสามารถเข้าถึงคีย์ผลิตภัณฑ์ของเซิร์ฟเวอร์รายงาน Power BI ซึ่งใช้ได้เฉพาะผู้ดูแลระบบส่วนกลาง หรือผู้ใช้ที่ได้รับการกำหนดบทบาทเป็นผู้ดูแลระบบบริการของ Power BI เท่านั้น
 
 ![](../media/service-admin-premium-manage/pbirs-product-key.png "คีย์เซิร์ฟเวอร์รายงาน Power BI ในการตั้งค่า Premium")
 
-การเลือก**คีย์เซิร์ฟเวอร์รายงาน Power BI**จะแสดงกล่องโต้ตอบที่มีคีย์ผลิตภัณฑ์ของคุณ คุณสามารถคัดลอกคีย์และนำไปใช้กับการติดตั้ง
+การเลือก**คีย์เซิร์ฟเวอร์รายงาน Power BI** จะแสดงกล่องโต้ตอบที่มีคีย์ผลิตภัณฑ์ของคุณ คุณสามารถคัดลอกและใช้กับการติดตั้ง
 
 ![](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "คีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI Report")
 
@@ -77,7 +77,7 @@ ms.locfileid: "35250395"
 
 ## <a name="configuring-your-report-server"></a>กำหนดค่าเซิร์ฟเวอร์รายงานของคุณ
 
-คุณจะเห็น “ตัวจัดการการกำหนดค่าบริการการรายงาน” หลังจากที่คุณเลือก**กำหนดค่าเซิร์ฟเวอร์รายงาน**ในการตั้งค่า ดูที่[ตัวจัดการการกำหนดค่าบริการการรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)สำหรับข้อมูลเพิ่มเติม
+หลังจากที่คุณเลือก**กำหนดค่าเซิร์ฟเวอร์รายงาน**ในการตั้งค่า คุณจะพบ Reporting Services Configuration Manager ดูที่[ตัวจัดการการกำหนดค่าบริการการรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)สำหรับข้อมูลเพิ่มเติม
 
 คุณจำเป็นต้อง[สร้างฐานข้อมูลเซิร์ฟเวอร์รายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)เพื่อดำเนินการกำหนดค่าเริ่มต้นของ “บริการการรายงาน” ให้เสร็จสิ้น เซิร์ฟเวอร์ฐานข้อมูล SQL Server จะต้องทำตามขั้นตอนต่อไปนี้
 

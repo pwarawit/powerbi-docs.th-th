@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 6ea5814cdba7df6d7e7bb4bbb284f52110ca184c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744920"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547809"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>ดูรายงาน Power BI ที่ปรับให้เหมาะสมกับมือถือของคุณ
 
@@ -22,9 +22,9 @@ ms.locfileid: "44744920"
 
 | ![iPhone](./media/mobile-apps-view-phone-report/ios-logo-40-px.png) | ![มือถือ Android](./media/mobile-apps-view-phone-report/android-logo-40-px.png) |
 |:--- |:--- |
-| iPhones |มือถือ Android |
+| iPhones |โทรศัพท์ Android |
 
-เมื่อคุณสร้างรายงาน Power BI ใน Power BI Desktop คุณยังสามารถ[สร้างเวอร์ชันของรายงานที่ปรับให้เหมาะสมสำหรับการดู](../../desktop-create-phone-report.md)ในแอป Power BI บนมือถือของคุณได้
+เมื่อคุณสร้างรายงาน Power BI ใน Power BI Desktop หรือในบริการของ Power BI คุณยังสามารถ[สร้างเวอร์ชันของรายงานที่ปรับให้เหมาะสมสำหรับการดู](../../desktop-create-phone-report.md) ในแอป Power BI บนโทรศัพท์ได้อีกด้วย
 
 แล้วเมื่อคุณเปิดรายงาน Power BI บนมือถือ Power BI ตรวจว่ามีรายงานที่ปรับให้เหมาะสมสำหรับมือถือหรือไม่ และเปิดรายงานนั้นโดยอัตโนมัติในมุมมองแนวตั้ง
 
@@ -79,7 +79,7 @@ ms.locfileid: "44744920"
     แปลงกลับ มีให้ทั้งระดับรายงาน ที่ล้างการสำรวจทั้งหมดทุกวิชวล และระดับวิชวล ที่ยกเลิกการสำรวจเฉพาะวิชวลที่เลือก   
 
 ## <a name="drill-down-in-a-visual"></a>การดูรายละเอียดแนวลึกในวิชวล
-ถ้ามีกำหนดระดับลำดับชั้นในวิชวล คุณสามารถเจาะลึกในข้อมูลวิชวลที่ละเอียดขึ้น แล้วย้อนกลับขึ้นมาได้ คุณ[เพิ่มการเจาะลึกลงในภาพ](../../power-bi-visualization-drill-down.md)ในบริการของ Power BI หรือ ใน Power BI Desktop การเจาะรายละเอียดแนวลึก ทำงานเฉพาะในรายงาน Power BI ที่ปรับให้เหมาะสมกับมือถือเท่านั้น เมื่อคุณดูบนมือถือของคุณ 
+ถ้ามีกำหนดระดับลำดับชั้นในวิชวล คุณสามารถเจาะลึกในข้อมูลวิชวลที่ละเอียดขึ้น แล้วย้อนกลับขึ้นมาได้ คุณ[เพิ่มการเจาะลึกลงในภาพ](../end-user-drill.md)ในบริการของ Power BI หรือ ใน Power BI Desktop การเจาะรายละเอียดแนวลึก ทำงานเฉพาะในรายงาน Power BI ที่ปรับให้เหมาะสมกับมือถือเท่านั้น เมื่อคุณดูบนมือถือของคุณ 
 
 1. ในรายงานบนมือถือ แตะที่จุดไข่ปลา (**...** ) ในมุมบนขวา > **ขยายเป็นโหมดโฟกัส**
    

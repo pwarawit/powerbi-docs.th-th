@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2250e3739904e6cc1e36c03df45cc765d3d9b591
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: f60fe155cb723550128ea6d35805932cb4559669
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135248"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544750"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>เชื่อมต่อกับ Webtrends ด้วย Power BI
 ชุดเนื้อหา Webtrends สำหรับ Power BI มีเมตริกแบบนอกกล่องหลายตัว เช่นมุมองเพจทั้งหมด และการเข้าชมด้วยปริมาณการใช้งานแหล่งข้อมูล แสดงผลเป็นภาพของข้อมูล Webtrends ของคุณใน Power BI ที่เริ่มต้นโดยการเชื่อมต่อกับบัญชี Webtrends ของคุณ คุณสามารถใช้แดชบอร์ดและรายงานที่แสดงไว้ หรือปรับแต่งเพื่อไฮไลต์ข้อมูลที่คุณสนใจมากที่สุด  ข้อมูลจะรีเฟรชโดยอัตโนมัตหนึ่งครั้งต่อวัน
@@ -44,10 +44,10 @@ ms.locfileid: "37135248"
 
 **ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="whats-included"></a>มีอะไรรวมอยู่บ้าง
 <a name="Included"></a>
@@ -103,5 +103,5 @@ ms.locfileid: "37135248"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [Power BI คืออะไร](power-bi-overview.md)
 
-[Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)
+[Power BI แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
 

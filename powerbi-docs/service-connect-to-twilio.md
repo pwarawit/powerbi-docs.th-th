@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f81330ec331ae42dea994982369428e9f7eb23aa
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0bb592d508e959267df31e705aa833394aa4d19e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249447"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544888"
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>เชื่อมต่อกับ Twilio ด้วย Power BI
 ชุดเนื้อหา Microsoft Twilio สำหรับ Power BI ช่วยให้คุณสามารถดึงข้อมูลของคุณลงใน Power BI และกล่อง[แดชบอร์ด Twilio](https://powerbi.microsoft.com/integrations/twilio)แบบไม่ทั่วไป และรายงานที่แสดงข้อมูลเชิงลึกในข้อมูลของคุณ คุณยังสามารถสร้างรายงานแบบกำหนดเองของคุณ และสร้างแดชบอร์ดบนชุดข้อมูล Power BI ข้อมูลจะถูกรีเฟรชวันละครั้งเพื่อ ดังนั้นจะดูที่ข้อมูลล่าสุดเสมอ
@@ -41,10 +41,10 @@ ms.locfileid: "34249447"
 
 **ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="whats-included"></a>มีอะไรรวมอยู่บ้าง
 รายละเอียดสำหรับรายการการโทรและข้อความทั้งหมดเป็นเวลา 30 วันล่าสุด คุณสามารถทำการเรียงลำดับทั้งหมดของการวิเคราะห์และการรวมข้อมูลนี้

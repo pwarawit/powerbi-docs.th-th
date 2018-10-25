@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c69b73be481408884cc4fbfc5ae4987714b10d9d
-ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
+ms.openlocfilehash: cfa25a28490a2254bd19bb431beea0ebc14d3c56
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "43695121"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549764"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>เชื่อมต่อกับ Microsoft Dynamics Marketing ด้วย Power BI
 ชุดเนื้อหา Microsoft Dynamics Marketing สำหรับ Power BI ช่วยให้คุณสามารถเข้าใช้งานและวิเคราะห์ข้อมูลของคุณจาก Dynamics Marketing ได้อย่างง่ายดาย ชุดเนื้อหาดังกล่าวใช้แบบจำลองเชิงพรรณาที่ด้านบนสุดของตัวดึงข้อมูล OData โดยมีเอนทิตีและหน่วยวัดที่จำเป็นทั้งหมด เช่น โปรแกรม แคมเปญ รายชื่อติดต่อทางการตลาดและลูกค้าเป้าหมายของบริษัท การโต้ตอบกับลูกค้าเป้าหมายและการให้คะแนนลูกค้าเป้าหมาย ข้อความทางการตลาดที่ส่งผ่านอีเมล และเว็บไซต์ การสังเกตพฤติกรรม งบประมาณ ธุรกรรมทางการเงิน ประสิทธิภาพของ KPI และอื่น ๆ อีกมากมาย 
@@ -47,12 +47,12 @@ ms.locfileid: "43695121"
 
 **ฉันต้องทำอะไรต่อ?**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
-## <a name="system-requirements"></a>ข้อกำหนดของระบบ
+## <a name="system-requirements"></a>ความต้องการของระบบ
 * คุณจำเป็นต้องระบุ URL ของ OData ที่ถูกต้องสำหรับตัวอย่าง Dynamics Marketing (ชุดเนื้อหาจะไม่ทำงานกับรุ่น CRM ภายในองค์กร)  
 * ผู้ดูแลระบบต้องเปิดใช้งานจุดยุติ OData ในการตั้งค่าไซต์ ที่อยู่ของจุดสิ้นสุด OData สามารถดูได้ โดยการนำทางไปยัง**หน้าแรก\>ตั้งค่า\>ตั้งค่าไซต์**ในส่วน**บริการข้อมูลองค์กร**  OData URL มีรูปแบบ: https://[instance\_name].marketing.dynamics.com/analytics  
 * บัญชี/ข้อมูลประจำตัวผู้ใช้ที่คุณใช้เพื่อเข้าถึง Microsoft Dynamics Marketing ต้องเหมือนกันกับบัญชี/ข้อมูลประจำตัวที่คุณลงทะเบียนใช้งานกับ Power BI เมื่อคุณลงชื่อเข้าใช้ใน Microsoft Dynamics Marketing คุณจะลงชื่อเข้าใช้โดยอัตโนมัติด้วยข้อมูลประจำตัวเดียวกันกับที่คุณใช้สำหรับ Power BI ถ้าคุณต้องการลงชื่อเข้าใช้ลงใน Microsoft Dynamics Marketing ด้วยบัญชีอื่น โปรดลงทะเบียนเป็นผู้ใช้ Power BI โดยใช้บัญชีผู้ใช้อื่น เราหวังว่าจะแก้ไขปัญหานี้ในการเผยแพร่ครั้งถัดไป   

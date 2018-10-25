@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1a9b9c8c7cde59cf7cd05b383070183b219159da
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 738fbadb7be4d474cdc6f8a2aa86e6160d6c0234
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136283"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543439"
 ---
 # <a name="connect-to-sweetiq-with-power-bi"></a>เชื่อมต่อกับ SweetIQ ด้วย Power BI
 ชุดเนื้อหา Power BI ดึงข้อมูลจากบัญชี SweetIQ ของคุณ และสร้างชุดเนื้อหาแบบใช้ทันทีที่ช่วยให้คุณสามารถสำรวจข้อมูลของคุณได้อย่างง่ายดาย ใช้ชุดเนื้อหา SweetIQ เพื่อวิเคราะห์ข้อมูลเกี่ยวกับตำแหน่งที่ตั้ง การจัดรายการ การจัดอันดับ และบทวิจารณ์ของคุณ ข้อมูลจะถูกตั้งค่าการรีเฟรชเป็นรีเฟรชทุกวัน เพื่อแน่ใจว่าข้อมูลที่คุณกำลังตรวจติดตามอัปเดตแล้ว
@@ -41,10 +41,10 @@ ms.locfileid: "37136283"
 
 **ฉันต้องทำอะไรต่อ?**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="finding-parameters"></a>การค้นหาพารามิเตอร์
 ID ไคลเอ็นต์และคีย์ API สำหรับชุดเนื้อหานี้จะไม่เหมือนกับชื่อผู้ใช้และรหัสผ่าน SweetIQ ของคุณ

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fe5e061913713c76f64995876dda047f7cdc5fea
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6e2ca51f79173e065d0a780943eab2e834837820
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244467"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548639"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>เชื่อมต่อกับ Insightly ด้วย Power BI
 แสดงข้อมูลเป็นภาพและแชร์ข้อมูล Insightly CRM ของคุณใน Power BI ด้วยชุดเนื้อหา Insightly เชื่อมต่อกับ Power BI โดยใช้คีย์ Insightly API ของคุณเพื่อดูและสร้างรายงานและแดชบอร์ดจากข้อมูล CRM ของคุณ ด้วย Power BI คุณสามารถวิเคราะห์ข้อมูลของคุณในรูปแบบใหม่ สร้างแผนภูมิและกราฟอันทรงพลัง และแสดงรายชื่อผู้ติดต่อ ลูกค้าเป้าหมาย และองค์กรต่าง ๆ บนแผนที่ได้
@@ -41,10 +41,10 @@ ms.locfileid: "34244467"
 
 **ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="whats-included"></a>มีอะไรรวมอยู่บ้าง
 ชุดเนื้อหานี้ประกอบด้วยตารางต่อไปนี้ ที่มีเขตข้อมูลจากบันทึกที่สอดคล้องกัน:

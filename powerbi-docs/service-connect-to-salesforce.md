@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dda983aec42731aa885323749d9302db75066569
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136789"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548269"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>เชื่อมต่อกับ Salesforce ด้วย Power BI
 ด้วย Power BI คุณสามารถเชื่อมต่อกับบัญชี Salesforce.com ของคุณได้อย่างง่ายดาย สร้างการเชื่อมต่อนี้เพื่อดึงข้อมูลของคุณและมีแดชบอร์ด และรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลของคุณโดยอัตโนมัติ
@@ -56,14 +56,16 @@ ms.locfileid: "37136789"
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
-คุณสามารถปรับเปลี่ยนแดชบอร์ดนี้เพื่อแสดงข้อมูลของคุณด้วยวิธีใดก็ตามที่คุณต้องการ คุณสามารถถามคำถาม Q&A หรือคลิกที่ไทล์เพื่อ[เปิดรายงานด้านใน](service-dashboard-tiles.md)และ[เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
+คุณสามารถปรับเปลี่ยนแดชบอร์ดนี้เพื่อแสดงข้อมูลของคุณด้วยวิธีใดก็ตามที่คุณต้องการ คุณสามารถถามคำถาม Q&A หรือคลิกที่ไทล์เพื่อ[เปิดรายงานด้านใน](consumer/end-user-tiles.md)และ[เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
 
 **ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
-* [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด <<<<<<< ส่วนหัว
+* [เลือกไทล์](consumer/end-user-tiles.md)เมื่อต้องเปิดรายงานพื้นฐาน =======
 * [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+>>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="system-requirements-and-considerations"></a>ข้อกำหนดของระบบและข้อควรพิจารณา
 - เชื่อมต่อกับบัญชีผลิตภัณฑ์ Salesforce ที่สามารถเข้าถึง API ที่เปิดใช้งาน

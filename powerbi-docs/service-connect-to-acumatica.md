@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 452226f8d5b8e0ca05fc4d9e81355c7a4c10e923
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 6aa5b5dbb22881b6bccaa2ed43352a8f22308675
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582649"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546659"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>เชื่อมต่อไปยัง Acumatica ด้วย Power BI
 ชุดเนื้อหา Acumatica BI Power ช่วยให้คุณรับข้อมูลเชิงลึกลงในข้อมูลโอกาสการขายของคุณได้อย่างรวดเร็ว Power BI ดึงข้อมูลของคุณ รวมถึงโอกาส บัญชีผู้ใช้ และ ลูกค้า จากรุ่นแดชบอร์ดเริ่มต้นและรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลที่เกี่ยวข้อง
@@ -51,10 +51,10 @@ ms.locfileid: "39582649"
 
 **ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="system-requirements"></a>ความต้องการของระบบ
 ชุดเนื้อหานี้จำเป็นต้องใช้ Acumatica v5.2 หรือสูงกว่า โปรดยืนยันเวอร์ชัน กับผู้ดูแลระบบ Acumatica ของคุณ

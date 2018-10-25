@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 62f03283a978978314e91c86aaacbe6defe2e19e
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 550d3bc609afbbac69c63c373e452eac11244152
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37134535"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549478"
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>เชื่อมต่อกับ Stripe ด้วย Power BI
 ภาพและสำรวจข้อมูล Stripe ของคุณใน Power BI ด้วยชุดเนื้อหา Power BI ชุดเนื้อหา Power BI Stripe ดึงข้อมูลเกี่ยวกับลูกค้า ค่าธรรมเนียม เหตุการณ์ และใบแจ้งหนี้ ข้อมูลมีเหตุการณ์หมื่นเหตุการณ์ล่าสุดและค่าใช้จ่ายห้าพันใน 30 วันที่ผ่านมา เนื้อหาจะถูกรีเฟรชโดยอัตโนมัติวันละครั้งตามการกำหนดเวลาที่คุณควบคุม 
@@ -41,10 +41,10 @@ ms.locfileid: "37134535"
 
 **ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [Power BI คืออะไร](power-bi-overview.md)

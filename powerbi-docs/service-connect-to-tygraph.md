@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4e9e10f713be50707909c68b104f82cada6777b6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3c508044e9f21c09d3115fd745320be9ad0161bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599058"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548453"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>เชื่อมต่อกับ tyGraph ด้วย Power BI
 แสดงข้อมูลเป็นภาพและสำรวจข้อมูล tyGraph ของคุณใน Power BI ด้วยชุดเนื้อหา Power BI เริ่มต้นด้วยการเชื่อมต่อกับบัญชี tyGraph ของคุณ และโหลดแดชบอร์ด รายงาน และชุดข้อมูล เนื้อหาแบบใช้งานทันทีมีข้อมูลเชิงลึกเช่น Measure of Active Engagement (MAE score) และผู้สนับสนุนสูงสุด (Top Contributors) ปรับแต่งเพื่อไฮไลท์ข้อมูลเพิ่มเติมสำหรับข้อมูลที่คุณใส่ใจมากที่สุด  ระบบจะรีเฟรชข้อมูลโดยอัตโนมัติตามกำหนดการที่คุณตั้งค่าได้
@@ -51,10 +51,10 @@ ms.locfileid: "37599058"
 
 **ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 <a name="FindingParams"></a>
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b1f2970ad73783acf3736856463915161056b801
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 01c7866a47d20b51055aa77bdd4792e2277c335f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34237887"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549760"
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>เชื่อมต่อกับ VMob ด้วย Power BI
 การติดตามและการสำรวจข้อมูล VMob ของคุณด้วย Power BI และชุดเนื้อหา VMob ทำได้ง่ายยิ่งขึ้น Power BI จะเรียกใช้ข้อมูลต่อไปนี้: สถิติผู้ใช้ในทุกเวลาและใน 30 วันที่ผ่านมา KPI ร้านค้าปลีกใน 30 วันที่ผ่านมา และประสิทธิภาพของแคมเปญในเวลา 30 วันที่ผ่านมา
@@ -44,10 +44,10 @@ ms.locfileid: "34237887"
 
 **ฉันต้องทำอะไรต่อ?**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [เริ่มต้นใช้งานใน Power BI](service-get-started.md)

@@ -10,25 +10,22 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 08/29/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 8e19bc596bef3862dca79ac92ffbd74954a9c756
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: b5a2b26beb548a7f1df5edb8cf12a2c0ea250c8f
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300172"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187639"
 ---
-# <a name="monitor-power-bi-premium-capacities-in-your-organization"></a>ตรวจสอบความจุของ Power BI Premium ในองค์กรของคุณ
+# <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>ตรวจสอบความจุของ Power BI Premium และ Power BI Embedded
 
-บทความนี้แสดงภาพรวมของการตรวจสอบตัววัดความจุ Power BI Premium ของคุณ การตรวจสอบการใช้งานความจจะุช่วยให้คุณสามารถใช้วิธีจัดการความจุได้อย่างมีข้อมูล 
+บทความนี้แสดงภาพรวมของการตรวจสอบตัววัดความจุ Power BI Premium ของคุณ การตรวจสอบการใช้งานความจจะุช่วยให้คุณสามารถใช้วิธีจัดการความจุได้อย่างมีข้อมูล
 
 คุณสามารถตรวจสอบความจุด้วยแอปการวัดความจุ Power BI Premium หรือในพอร์ทัลผู้ดูแลระบบ เราขอแนะนำให้ใช้แอป เนื่องจากจะมีรายละเอียดมาก แต่บทความนี้ครอบคลุมทั้งสองตัวเลือก
 
 ## <a name="install-the-premium-capacity-metrics-app"></a>ติดตั้ง แอปวัดความจุ Premium
 
 คุณสามารถไปยัง[แอปวัดความจุ Premium ](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics)ได้โดยตรงหรือติดตั้งแอปเหมือนที่คุณทำกับแอปอื่นๆ ใน Power BI
-
-> [!IMPORTANT]
-> เมื่อต้องการติดตั้งและใช้แอปนี้ คุณต้องเป็นผู้ดูแลความจุอย่างน้อยหนึ่งความจุ การเป็นผู้ดูแลระบบของ Power BI ไม่เพียงพอ 
 
 1. ใน Power BI คลิ๊ก**แอป**
 
@@ -42,7 +39,8 @@ ms.locfileid: "43300172"
 
 หลังจากที่คุณติดตั้งแอป คุณสามารถดูตัววัดในเรื่องความจุในองค์กรของคุณ ลองมาดูการวัดสำคัญบางอย่างที่พร้อมใช้งาน
 
-## <a name="use-the-metrics-app"></a>ใช้แอปการวัด 
+## <a name="use-the-metrics-app"></a>ใช้แอปการวัด
+
 เมื่อคุณเปิดแอป จะพบแดชบอร์ดก่อนพร้อมข้อมูลสรุปของความจุทั้งหมดที่คุณมีสิทธิ์ผู้ดูแลระบบ
 
 ![ภาพรวมของรายงาน premium](media/service-admin-premium-monitor-capacity/app-dashboard.png)

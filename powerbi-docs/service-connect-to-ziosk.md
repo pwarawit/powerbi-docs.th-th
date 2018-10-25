@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2c5fc1f8763b8360d7cd5a6f6605d6b4f3d5df3c
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 4b47e620c0469ed56a7afb413a5775cf2a34c4d4
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135662"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546574"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>เชื่อมอมต่อกับ Ziosk Survey Analytics ด้วย Power BI
 แพ็คเนื้อหาสำหรับ Power BI มีการนำเสนอร้านอาหาร ด้วยแท็บเล็ต Ziosk มีการเข้าถึงข้อมูลเชิงลึกที่ให้มาโดยข้อมูลสำรวจ Ziosk รวมถึงการแบ่งเซกเมนต์ โดยวัน ตำแหน่งที่ตั้ง พนักงาน และอื่น ๆ
@@ -43,10 +43,10 @@ ms.locfileid: "37135662"
 
 **ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="whats-included"></a>มีอะไรรวมอยู่บ้าง
 ชุดเนื้อหานี้ประกอบด้วยข้อมูลจากตารางต่อไปนี้  
@@ -73,5 +73,5 @@ ms.locfileid: "37135662"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [Power BI คืออะไร](power-bi-overview.md)
 
-[Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)
+[Power BI แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
 

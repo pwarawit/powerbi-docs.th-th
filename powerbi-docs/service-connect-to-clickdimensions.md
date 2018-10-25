@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9506ab48e48fe04e07de8dcb08ad5234d31045cf
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 709dd5d1b5203e9c5bb790d69cb0537c03a17916
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34242966"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543361"
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>เชื่อมต่อกับ ClickDimensions ด้วย Power BI
 แพคข้อมูล ClickDimensions สำหรับ Power BI ช่วยให้ผู้ใช้สามารถใช้ประโยชน์จากตลาดข้อมูล ClickDimensions ใน Power BI โดยให้ข้อมูลเชิงลึกแก่ทีมบริหาร เพื่อประสบความสำเร็จในการขายและการตลาด แสดงภาพและวิเคราะห์การโต้ตอบอีเมล การเยี่ยมชมเว็บ และการส่งฟอร์มในแดชบอร์ดและรายงาน Power BI
@@ -44,10 +44,10 @@ ms.locfileid: "34242966"
 
 **ฉันต้องทำอะไรตอนนี้**
 
-* ลอง[ถามคำถามในกล่อง Q&A](power-bi-q-and-a.md)ที่ด้านบนของแดชบอร์ด
+* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
 * [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
-* ถึงแม้ว่าชุดข้อมูลของคุณถูกกำหนดให้รีเฟรซรายวัน คุณสามารถเปลี่ยนแปลงกำหนดเวลารีเฟรช หรือลองรีเฟรชตามความต้องการ โดยใช้**รีเฟรชทันที**
+* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
+* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="system-requirements"></a>ความต้องการของระบบ
 เพื่อเชื่อมต่อกับชุดเนื้อหา Power BI คุณต้องให้ข้อมูลกับศูนย์ข้อมูลที่สอดคล้องกับบัญชีของคุณ และเข้าสู่ระบบ ด้วยบัญชี ClickDimensions ของคุณ ถ้าคุณไม่แน่ใจว่าข้อมูลใดบ้างทีศูนย์ข้อมูลให้ โปรดตรวจสอบกับผู้ดูแลระบบของคุณ
