@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ddfe0c7ad116a74fa6887491ee41e544096de0f9
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 4e7692be8ec78c79076408635a75dbf0ab9080d2
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388858"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974057"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>โมเดลแบบรวมใน Power BI Desktop (ตัวอย่าง)
 
@@ -164,12 +164,13 @@ ms.locfileid: "39388858"
 
 มีข้อจำกัดบางอย่างสำหรับ**โมเดลแบบรวม**รุ่นนี้
 
-แหล่งที่มาหลายมิติดังต่อไปนี้ไม่สามารถใช้กับ**โมเดลแบบรวม**ได้:
+แหล่งที่มา  Live Connect (หลายมิติ) ดังต่อไปนี้ไม่สามารถใช้กับ**โมเดลแบบรวม**ได้:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * ชุดข้อมูล Power BI
+* Azure Analysis Services
 
 เมื่อทำการเชื่อมต่อกับแหล่งที่มาหลายมิติแบบนั้นโดยใช้ DirectQuery คุณจะไม่สามารถเชื่อมต่อกับแหล่งที่มา DirectQuery อีกแห่งด้วย หรือรวมเข้ากับข้อมูลที่นำเข้าด้วยได้
 

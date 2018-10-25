@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/23/2018
+ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 1472646d1a4dc338740583ab759c2fc71aa1e56d
-ms.sourcegitcommit: fbc1fabcb5e3b285228c9aa192b9b421b2782922
+ms.openlocfilehash: b54a38f4c5639eae549a36a93c887d87630b7daf
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "47059104"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396761"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
@@ -212,7 +212,7 @@ ms.locfileid: "47059104"
 
 สำหรับรายละเอียดทั้งหมด [เยี่ยมชมบล็อกของทีม Power BI](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/)
 
-* [Power BI Q&A สนับสนุนสำหรับแบบจำลองแบบตาราง SQL Server 2016 Analysis Services](consumer/end-user-q-and-a-direct-query.md): เรายินดีอย่างยิ่งที่จะประกาศการปรับปรุงประสบการณ์ของผู้ใช้สำหรับการถามตอบของ Power BI และจุดเริ่มต้นของตัวอย่างสาธารณะของการถามตอบ Power BI สำหรับแหล่งข้อมูลที่เชื่อมต่อเกตเวย์องค์กร โดยเริ่มต้นด้วยการสนับสนุนสำหรับแบบจำลองแบบตาราง SQL Server 2016 Analysis Services สำหรับรายละเอียดทั้งหมด [ดูบล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
+* [Power BI Q&A สนับสนุนสำหรับแบบจำลองแบบตาราง SQL Server 2016 Analysis Services](service-q-and-a-direct-query.md): เรายินดีอย่างยิ่งที่จะประกาศการปรับปรุงประสบการณ์ของผู้ใช้สำหรับการถามตอบของ Power BI และจุดเริ่มต้นของตัวอย่างสาธารณะของการถามตอบ Power BI สำหรับแหล่งข้อมูลที่เชื่อมต่อเกตเวย์องค์กร โดยเริ่มต้นด้วยการสนับสนุนสำหรับแบบจำลองแบบตาราง SQL Server 2016 Analysis Services สำหรับรายละเอียดทั้งหมด [ดูบล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
 * [สนับสนุนไฟล์ภายในเครื่องสำหรับรายงาน Excel](service-excel-workbook-files.md#local-excel-workbooks): ในตอนนี้คุณสามารถอัปโหลดไฟล์ Excel ของคุณจากไดรฟ์ภายในเครื่องหรือบริการพื้นที่จัดเก็บอื่น ๆ และใช้รายงาน Excel ที่เหมือนกับที่คุณใช้ใน Excel Online พร้อมประโยชน์เพิ่มเติมของ Power BI ได้ สำหรับรายละเอียดทั้งหมด [ดูบล็อกโพสต์](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)
 
 **28 เมษายน 2016**
@@ -593,7 +593,7 @@ ms.locfileid: "47059104"
 
 * เรามีความยินดีอย่างยิ่งที่จะประกาศ "ความพร้อมใช้งานทั่วไป" (General availability: GA) ของ Power BI ลงทะเบียนวันนี้เพื่อใช้[Power BI Pro](service-self-service-signup-for-power-bi.md) เราได้นำเสนอคุณลักษณะใหม่ที่ดีเยี่ยม โดยเป็นส่วนหนึ่งของการเผยแพร่ GA:
 * ประสบการณ์ใหม่สำหรับการสร้างการแสดงภาพและรายงาน: พื้นที่รายงานใหม่ที่มีตัวเลือกการแสดงภาพมากขึ้น ให้คุณสามารถควบคุมการจัดรูปแบบชื่อเรื่อง คำอธิบายแผนภูมิ แกน สี พื้นหลัง และอื่น ๆ ได้มากขึ้น
-* [กลุ่ม Power BI](consumer/end-user-create-apps.md): กลุ่มเสนอประสบการณ์การทำงานร่วมกันอย่างมีประสิทธิภาพที่สร้างขึ้นภายในกลุ่ม Office 365
+* [กลุ่ม Power BI](service-create-distribute-apps.md): กลุ่มเสนอประสบการณ์การทำงานร่วมกันอย่างมีประสิทธิภาพที่สร้างขึ้นภายในกลุ่ม Office 365
 * [ชุดเนื้อหาองค์กร](service-organizational-content-pack-introduction.md): Power BI ช่วยให้การสร้างแดชบอร์ดและรายงานทำได้ง่ายมาก และตอนนี้ ผู้ใช้สามารถเผยแพร่เนื้อหานี้ไปยังแกลเลอรีเนื้อหาขององค์กรได้แล้ว
 * [นำเข้าไฟล์ Excel ทั้งหมด](service-excel-workbook-files.md): คุณสามารถนำเข้าเวิร์กบุ๊ก Excel ใด ๆ ที่จัดเก็บบน OneDrive for Business ลงใน Power BI และดูทั้งเวิร์กบุ๊กได้ เหมือนกับที่คุณดำเนินการใน Excel Online
 * [นำไฟล์ CSV เข้ามา](service-get-data-from-files.md): เช่นเดียวกับไฟล์ Excel หรือไฟล์ Power BI Desktop ไฟล์ข้อความค่าที่คั่นด้วยเครื่องหมายจุลภาค (CSV) ยังเป็นชุดข้อมูลสำหรับแดชบอร์ด Power BI และรายงานของคุณได้
@@ -687,5 +687,5 @@ ms.locfileid: "47059104"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [Power BI คืออะไร](power-bi-overview.md)  
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

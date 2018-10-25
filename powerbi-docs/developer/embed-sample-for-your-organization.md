@@ -9,14 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 544429528ed51dd2928eb82632f512ff3f7d5afd
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: aca87dd2e9dafb630d20e19f98a44380c30db32c
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39359742"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974172"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>บทช่วยสอน: ฝังรายงาน แดชบอร์ด หรือไทล์ Power BI ลงในแอปพลิเคชันสำหรับองค์กรของคุณ
+
 บทช่วยสอนนี้จะสาธิตวิธีการรวมรายงานลงในแอปพลิเคชันโดยใช้ **Power BI .NET SDK** พร้อมกับ **Power BI JavaScript API** เมื่อทำการฝัง **Power BI** ลงในแอปพลิเคชันสำหรับองค์กรของคุณ ด้วย **Power BI** คุณสามารถฝังรายงาน แดชบอร์ด หรือไทล์ ลงในแอปพลิเคชันโดยใช้ **ผู้ใช้ที่เป็นเจ้าของข้อมูล** **ผู้ใช้ที่เป็นเจ้าของข้อมูล** ช่วยให้แอปพลิเคชันของคุณขยายบริการ Power BI
 
 ![ดูแอปพลิเคชัน](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
@@ -27,6 +28,7 @@ ms.locfileid: "39359742"
 >* ฝังรายงาน Power BI ลงในแอปพลิเคชัน
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
+
 คุณต้องมีบัญชี **Power BI Pro** และการสมัครใช้งาน **Microsoft Azure** เพื่อเริ่มต้นใช้งาน
 
 * ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/en-us/pricing/)ก่อนที่คุณจะเริ่ม
@@ -38,9 +40,10 @@ ms.locfileid: "39359742"
 
 ก่อนที่คุณจะเริ่มการฝังรายงาน, แดชบอร์ด หรือไทล์ ลงในแอปพลิเคชันของคุณ คุณจำเป็นต้องตรวจสอบให้แน่ใจว่า สภาพแวดล้อมของคุณถูกตั้งค่าเพื่ออนุญาตให้ทำการฝัง โดยถือเป็นส่วนหนึ่งของการตั้งค่า คุณจะต้องทำสิ่งต่อไปนี้
 
-คุณสามารถเข้าถึง[เครื่องมือประสบการณ์การเตรียมความพร้อม](https://aka.ms/embedsetup/UserOwnsData) เพื่อเริ่มต้นใช้งาน และดาวน์โหลดแอปพลิเคชันตัวอย่างที่ช่วยแนะนำคุณไปตามขั้นตอนการสร้างสภาพแวดล้อม และการฝังรายงานได้
+คุณสามารถเข้าถึง [เครื่องมือตั้งค่าการฝังตัว](https://aka.ms/embedsetup/UserOwnsData) เพื่อเริ่มต้นใช้งาน และดาวน์โหลดแอปพลิเคชันตัวอย่างที่ช่วยแนะนำคุณไปตามขั้นตอนการสร้างสภาพแวดล้อม และการฝังรายงานได้
 
 แต่ถ้าคุณเลือกที่จะตั้งค่าสภาพแวดล้อมด้วยตนเอง คุณสามารถดำเนินต่อตามด้านล่าง
+
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>ลงทะเบียนแอปพลิเคชันใน Azure Active Directory (Azure AD)
 
 คุณลงทะเบียนแอปพลิเคชันของคุณกับ Azure Active Directory เพื่ออนุญาตให้แอปพลิเคชันของคุณเข้าถึง Power BI REST API ซึ่งจะช่วยให้คุณสร้างข้อมูลประจำตัวสำหรับแอปพลิเคชันของคุณ และระบุสิทธิ์ไปยังแหล่งข้อมูล REST ของ Power BI ได้
@@ -229,17 +232,21 @@ ms.locfileid: "39359742"
     ![ดูแอปพลิเคชัน](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>ฝังเนื้อหาของคุณภายในแอปพลิเคชันของคุณ
+
 ถึงแม้ว่าขั้นตอนการฝังเนื้อหาของคุณสามารถทำได้ด้วย [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/)รหัสตัวอย่างที่อธิบายไว้ในบทความนี้ถูกสร้างด้วย **.NET SDK**
 
 เมื่อต้องรวมในรายงานลงในเว็บแอป คุณต้องใช้ **Power BI REST API** REST API หรือ **Power BI C# SDK** และ **โทเค็นการเข้าถึง** การอนุญาต Azure Active Directory (AD) เพื่อรับรายงาน จากนั้น ให้คุณโหลดรายงานโดยใช้ **โทเค็นการเข้าถึง** เดียวกัน **Power BI Rest API** ให้การเข้าถึงทางการเขียนโปรแกรมสำหรับทรัพยากร **Power BI** เฉพาะ สำหรับข้อมูลเพิ่มเติม ดู [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) และ [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)
 
 ### <a name="get-an-access-token-from-azure-ad"></a>รับโทเค็นการเข้าถึงจาก Azure AD
+
 ภายในแอปพลิเคชันของคุณ คุณจะต้องรับ **โทเค็นการเข้าถึง** จาก Azure AD ก่อนที่คุณสามารถเรียกใช้ Power BI REST API ได้ สำหรับข้อมูลเพิ่มเติม ให้ดู[การรับรองตัวตนผู้ใช้และรับโทเค็นการเข้า Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md)
 
 ### <a name="get-a-report"></a>รับรายงาน
+
 เมื่อต้องการรับรายงาน **Power BI** คุณต้องใช้การดำเนินการ [รับรายงาน](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) ที่รับรายการของ **รายงาน Power BI** จากรายชื่อของรายงาน คุณสามารถรับรหัสรายงานได้
 
 ### <a name="get-reports-using-an-access-token"></a>รับรายงานโดยใช้โทเค็นการเข้าถึง
+
 [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)operation จะส่งคืนค่ารายการของรายงาน จากรายการของรายงาน คุณสามารถรับรายงานชิ้นหนึ่ง
 
 เพื่อเรียกใช้ REST API คุณต้องใส่ส่วนหัว *Authorization* ในรูปแบบ *Bearer {โทเค็นการเข้าถึง}*
@@ -303,6 +310,7 @@ public class PBIReport
 ```
 
 #### <a name="get-reports-using-the-net-sdk"></a>รับรายงานโดยใช้.NET SDK
+
 คุณสามารถใช้ .NET SDK เพื่อเรียกดูรายการของรายงานแทนที่จะเรียก REST API โดยตรง นี่คือตัวอย่างรหัสของวิธีแสดงรายการของรายงาน
 
 ```csharp
@@ -325,6 +333,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ```
 
 ### <a name="load-a-report-using-javascript"></a>โหลดรายงานโดยใช้ JavaScript
+
 คุณสามารถใช้ JavaScript เพื่อโหลดรายงานลงในองค์ประกอบ div บนเว็บเพจของคุณ
 
 นี่คือตัวอย่างรหัสวิธีการเรียกใช้รายงานจากพื้นที่ทำงานที่ระบุไว้
@@ -413,6 +422,7 @@ function updateEmbedReport() {
 หลังจากที่คุณพัฒนาแอปพลิเคชันของคุณเสร็จแล้ว ก็ถึงเวลาที่จะรองรับพื้นที่ทำงานของแอปคุณด้วยความจุเฉพาะ
 
 ### <a name="create-a-dedicated-capacity"></a>สร้างความจุเฉพาะ
+
 โดยการสร้างความจุเฉพาะ คุณสามารถใช้ประโยชน์จากการมีทรัพยากรเฉพาะสำหรับเนื้อหาในพื้นที่ทำงานแอปของคุณ คุณสามารถสร้างความจุเฉพาะโดยใช้ [Power BI Premium](../service-premium.md) ได้
 
 ตารางต่อไปนี้แสดงรายการ Power BI Premium SKU แบบพร้อมใช้งานซึ่งพร้อมใช้งานภายใน [Office 365](../service-admin-premium-purchase.md)
@@ -453,6 +463,7 @@ function updateEmbedReport() {
 ผู้ดูแลระบบส่วนกลางหรือผู้ดูแลระบบบริการ Power BI สามารถเปิดใช้งานความสามารถในการใช้ REST API โดยเปืดหรือปิดสำหรับผู้เช่า ผู้ดูแลระบบ Power BI สามารถตั้งการตั้งค่านี้สำหรับทั้งองค์กรหรือกลุ่มความปลอดภัยแต่ละกลุ่มก็ได้ มีการเปิดใช้งานสำหรับทั้งองค์กรตามค่าเริ่มต้น คุณสามารถทำสิ่งนี้ได้ผ่าน [พอร์ทัลผู้ดูแลระบบของ Power BI](../service-admin-portal.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
+
 ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีฝังเนื้อหา Power BI ในแอปพลิเคชันโดยใช้ **บัญชีองค์กร Power BI** ของคุณ ในตอนนี้คุณสามารถลองการฝังเนื้อหา Power BI ลงในแอปพลิเคชันโดยใช้แอปได้  คุณยังสามารถลองการฝังเนื้อหา Power BI สำหรับลูกค้าของคุณ
 
 > [!div class="nextstepaction"]

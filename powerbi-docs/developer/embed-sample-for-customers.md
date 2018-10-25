@@ -9,14 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 1185b6195f0d802cec71143c1f27ce5cead584c6
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: 25667c76008c0ef6dd2d8560e2b23a31063276fa
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616062"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974080"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>บทช่วยสอน: ฝังรายงาน Power BI แดชบอร์ด หรือไทล์ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ
+
 ด้วย **Power BI Embedded ใน Azure** คุณสามารถฝังรายงาน, แดชบอร์ด หรือไทล์ลงในการใช้แอปพลิเคชันโดยใช้**แอปเป็นเจ้าของข้อมูล**ได้ **แอปเป็นเจ้าของข้อมูล** เกี่ยวกับแอปพลิเคชันที่ใช้ Power BI เป็นแพลตฟอร์มการวิเคราะห์แบบฝังตัว การใช้**แอปเป็นเจ้าของข้อมูล**มักเป็นสถานการณ์**ของผู้พัฒนาของผู้จำหน่ายซอฟท์แวร์อิสระ (ISV)** ในฐานะเป็น**นักพัฒนาของผู้จำหน่ายซอฟท์แวร์อิสระ (ISV)** คุณสามารถสร้างเนื้อหา **Power BI** ที่แสดงรายงาน, แดชบอร์ด หรือไทล์ในแอปพลิเคชันที่รวมงานทั้งหมดไว้ด้วยกันและที่โต้ตอบได้ โดยผู้ใช้แอปพลิเคชันไม่ต้องมีสิทธิ์การใช้งาน Power BI บทช่วยสอนนี้สาธิตวิธีการรวมรายงานลงในแอปพลิเคชัน โดยใช้ **Power BI** SDK .NET พร้อมกับ **Power BI** JavaScript API เมื่อใช้ **Power BI Embedded ใน Azure** สำหรับลูกค้าของคุณโดยใช้**แอปเป็นเจ้าของข้อมูล**
 
 ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีการ:
@@ -25,6 +26,7 @@ ms.locfileid: "39616062"
 >* ฝังรายงาน Power BI ลงในแอปพลิเคชัน
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
+
 เมื่อต้องการเริ่มต้นใช้งาน คุณต้องมีบัญชี **Power BI Pro** (บัญชีนี้เป็น**บัญชีหลัก**ของคุณ) และการสมัครใช้งาน **Microsoft Azure**
 
 * ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/en-us/pricing/)ก่อนที่คุณจะเริ่ม
@@ -36,9 +38,10 @@ ms.locfileid: "39616062"
 
 ก่อนที่คุณจะเริ่มการฝังรายงาน, แดชบอร์ด หรือไทล์ ลงในแอปพลิเคชันของคุณ คุณจำเป็นต้องตรวจสอบให้แน่ใจว่า สภาพแวดล้อมของคุณถูกตั้งค่าเพื่ออนุญาตให้ทำการฝัง โดยถือเป็นส่วนหนึ่งของการตั้งค่า คุณจะต้องทำสิ่งต่อไปนี้
 
-คุณสามารถเข้าถึง[เครื่องมือประสบการณ์การเตรียมความพร้อม](https://aka.ms/embedsetup/AppOwnsData) เพื่อเริ่มต้นใช้งาน และดาวน์โหลดแอปพลิเคชันตัวอย่างที่ช่วยแนะนำคุณไปตามขั้นตอนการสร้างสภาพแวดล้อม และการฝังรายงานได้
+คุณสามารถเข้าถึง [เครื่องมือตั้งค่าการฝังตัว](https://aka.ms/embedsetup/AppOwnsData) เพื่อเริ่มต้นใช้งาน และดาวน์โหลดแอปพลิเคชันตัวอย่างที่ช่วยแนะนำคุณไปตามขั้นตอนการสร้างสภาพแวดล้อม และการฝังรายงานได้
 
 แต่ถ้าคุณเลือกที่จะตั้งค่าสภาพแวดล้อมด้วยตนเอง คุณสามารถดำเนินต่อตามด้านล่าง
+
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>ลงทะเบียนแอปพลิเคชันใน Azure Active Directory (Azure AD)
 
 คุณลงทะเบียนแอปพลิเคชันของคุณกับ Azure Active Directory เพื่ออนุญาตให้แอปพลิเคชันของคุณเข้าถึง Power BI REST API ซึ่งจะช่วยให้คุณสร้างข้อมูลประจำตัวสำหรับแอปพลิเคชันของคุณ และระบุสิทธิ์ไปยังแหล่งข้อมูล REST ของ Power BI ได้
@@ -46,11 +49,11 @@ ms.locfileid: "39616062"
 1. ยอมรับ[เงื่อนไขของ Microsoft Power BI API](https://powerbi.microsoft.com/api-terms)
 
 2. ลงชื่อเข้าใช้[พอร์ทัล Azure](https://portal.azure.com)
- 
+
     ![พอร์ทัลหลัก Azure](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
 3. ในบานหน้าต่างนำทางด้านซ้าย เลือก**บริการทั้งหมด**เลือก**ทะเบียนแอป**และจากนั้น เลือก**ลงทะเบียนแอปพลิเคชันใหม่**
-   
+
     ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![ลงทะเบียนแอปใหม่](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
@@ -65,11 +68,11 @@ ms.locfileid: "39616062"
 ### <a name="use-the-azure-active-directory-portal"></a>ใช้พอร์ทัล Azure Active Directory
 
 1. เรียกดู[การลงทะเบียนแอป](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade)ภายในพอร์ทัล Azure และเลือกแอปที่คุณกำลังใช้สำหรับการฝัง
-   
+
     ![การเลือกแอป](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
 2. เลือก**การตั้งค่า** จากนั้นภายใต้**การเข้าถึง API** เลือก**สิทธิ์ที่จำเป็น**
-   
+
     ![สิทธิ์ที่จำเป็น](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
 
 3. เลือก **Azure Active Directory Windows** จากนั้นตรวจสอบว่าได้เลือก**การเข้าถึงไดเรกทอรีในฐานะผู้ใช้ที่เข้าสู่ระบบ** เลือก**บันทึก**
@@ -204,6 +207,7 @@ ms.locfileid: "39616062"
     ![ดูแอปพลิเคชัน](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
 ## <a name="embed-your-content-within-your-application"></a>ฝังเนื้อหาของคุณภายในแอปพลิเคชันของคุณ
+
 ถึงแม้ว่าขั้นตอนการฝังเนื้อหาของคุณสามารถทำได้ด้วย [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/)รหัสตัวอย่างที่อธิบายไว้ในบทความนี้ถูกสร้างด้วย **.NET SDK**
 
 การฝังตัวสำหรับลูกค้าของคุณภายในแอปพลิเคชันคุณ จำเป็นต้องให้คุณรับ**โทเค็นการเข้าถึง**สำหรับบัญชีหลักของคุณจาก **Azure AD** จำเป็นต้องได้รับ[โทเค็นการเข้าถึง Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) สำหรับแอปพลิเคชัน Power BI ของคุณ**โดยใช้แอปเป็นเจ้าของข้อมูล** ก่อนที่คุณจะเรียกใช้ [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/).
@@ -225,6 +229,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ```
 
 ### <a name="get-the-content-item-you-want-to-embed"></a>รับเนื้อหาที่คุณต้องการฝังตัว
+
 คุณสามารถใช้วัตถุไคลเอ็นต์ Power BI เพื่อดึงตัวอ้างอิงไปยังเนื้อหาที่คุณต้องการฝังตัว
 
 นี่คือตัวอย่างรหัสวิธีการดึงรายงานตัวแรกจากพื้นที่ทำงานที่ระบุไว้
@@ -243,6 +248,7 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>สร้างโทเค็นแบบฝังตัว
+
 โทเค็นแบบฝังตัวจะต้องถูกสร้างขึ้น ซึ่งสามารถใช้ได้จาก JavaScript API โทเค็นแบบฝังตัวจะเป็นแบบเฉพาะเจาะจงกับรายการที่คุณจะฝัง ซึ่งหมายความว่า ทุกครั้งที่คุณต้องการฝังเนื้อหาของ Power BI ชิ้นหนึ่ง คุณต้องสร้างโทเค็นการฝังใหม่ขึ้นมา สำหรับข้อมูลเพิ่มเติม รวมไปถึง **accessLevel** ที่จะใช้ ดู[GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)
 
 นี่คือตัวอย่างของการเพิ่มโทเค็นฝังตัวสำหรับรายงานให้กับแอปพลิเคชันของคุณ
@@ -323,6 +329,7 @@ var embedConfig = new EmbedConfig()
 หลังจากที่คุณพัฒนาแอปพลิเคชันของคุณเสร็จแล้ว ก็ถึงเวลาที่จะรองรับพื้นที่ทำงานของแอปคุณด้วยความจุเฉพาะ ความจุเฉพาะ จำเป็นสำหรับการย้ายไปยังการผลิต
 
 ### <a name="create-a-dedicated-capacity"></a>สร้างความจุเฉพาะ
+
 เมื่อสร้างความจุเฉพาะ คุณสามารถใช้ประโยชน์จากการมีทรัพยากรเฉพาะที่จัดสรรไว้สำหรับลูกค้าของคุณ คุณสามารถซื้อความจุเฉพาะภายใน[พอร์ทัล Microsoft Azure](https://portal.azure.com) ได้ สำหรับรายละเอียดเกี่ยวกับวิธีการสร้างความจุ Power BI Embedded โปรดดู[สร้างความจุ Power BI Embedded ในพอร์ทัล Azure](azure-pbie-create-capacity.md)
 
 ใช้ตารางด้านล่างเพื่อกำหนดความจุ Power BI Embedded ที่เหมาะกับความต้องการของคุณที่สุด
@@ -359,6 +366,7 @@ var embedConfig = new EmbedConfig()
     ![เชื่อมโยงพื้นที่ทำงานของแอปไปยังความจุ](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
+
 ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีฝังเนื้อหา Power BI ในแอปพลิเคชันสำหรับลูกค้าของคุณ คุณยังสามารถทดลองฝังเนื้อหา Power BI สำหรับองค์กรของคุณ
 
 > [!div class="nextstepaction"]

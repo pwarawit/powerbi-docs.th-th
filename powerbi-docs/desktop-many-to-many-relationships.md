@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 5c0c6fd619a2487f9c801200d732cda628a68055
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388766"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974011"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>ความสัมพันธ์แบบกลุ่ม-ต่อ-กลุ่มใน Power BI Desktop (ตัวอย่าง)
 
@@ -158,12 +158,13 @@ ms.locfileid: "39388766"
 
 มีข้อจำกัดจำนวนหนึ่งสำหรับ**ความสัมพันธ์แบบกลุ่ม-ต่อ-กลุ่ม**และ**โมเดลแบบรวม**ในรุ่นนี้
 
-แหล่งที่มาหลายมิติดังต่อไปนี้ไม่สามารถใช้กับ**โมเดลแบบรวม**ได้:
+แหล่งที่มา  Live Connect (หลายมิติ) ดังต่อไปนี้ไม่สามารถใช้กับ**โมเดลแบบรวม**ได้:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * ชุดข้อมูล Power BI
+* Azure Analysis Services
 
 เมื่อทำการเชื่อมต่อกับแหล่งที่มาหลายมิติแบบนั้นโดยใช้ DirectQuery คุณจะไม่สามารถเชื่อมต่อกับแหล่งที่มา DirectQuery อีกแห่งด้วย หรือรวมเข้ากับข้อมูลที่นำเข้าด้วยได้
 
