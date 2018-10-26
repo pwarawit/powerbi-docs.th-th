@@ -1,5 +1,5 @@
 ---
-title: แดชบอร์ด Power BI คืออะไร?
+title: แดชบอร์ดสำหรับผู้ใช้บริการ Power BI คืออะไร
 description: แดชบอร์ดเป็นคุณลักษณะสำคัญของบริการ Power BI
 author: mihart
 manager: kvivek
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7db5bf514b567cbcaf9dddc5d48006762237a622
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 840f302b1df31736d7fcd1c0766c34963a2f6738
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909141"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473945"
 ---
-# <a name="dashboards-in-power-bi-service"></a>แดชบอร์ดในบริการ Power BI
+# <a name="dashboards-for-power-bi-service-consumers"></a>แดชบอร์ดสำหรับผู้บริโภคบริการของ Power BI
 
 ***แดชบอร์ด*** Power BI เป็นแบบหน้าเดียว ซึ่งมักเรียกว่าพื้นที่ว่างเปล่าที่ใช้การแสดภาพเพื่อบอกเล่าเรื่องราวหนึ่ง ๆ ได้ เนื่องจากจำกัดอยู่เพียงหนึ่งหน้า แดชบอร์ดทีี่ออกแบบมาอย่างดีจะประกอบด้วยองค์ประกอบที่สำคัญที่สุดของเรื่องราวเท่านั้น
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336817"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952222"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>รับข้อมูลจากหน้าเว็บโดยให้ตัวอย่าง
 
@@ -51,6 +51,8 @@ ms.locfileid: "49336817"
 ในตัวอย่างนี้ เราจะแยก *Name* (ชื่อ) และ *Price* (ราคา) สำหรับแต่ละเกมบนหน้า เราสามารถทำได้ โดยการระบุสองตัวอย่างจากหน้าสำหรับแต่ละคอลัมน์ ดังที่แสดงในรูปต่อไปนี้ ขณะที่พิมพ์อยู่ตัวอย่างเหล่านั้นลงไป ใน **Power Query** (ซึ่งเป็นเทคโนโลยีพื้นฐานที่แยกข้อมูลจากเว็บเพจ) สามารถแยกข้อมูลที่ตรงกับรูปแบบของรายการตัวอย่าง โดยใช้อัลกอริทึมการแยกข้อมูลที่ฉลาด
 
 ![ข้อมูลตามตัวอย่าง](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+
+> หมายเหตุ: ค่าแนะนำแสดงค่าที่มีความยาวน้อยกว่าหรือเท่ากับ 128 อักขระเท่านั้น
 
 เมื่อเราพอใจกับข้อมูลที่แยกจากเว็บเพจแล้ว เราเลือก**ตกลง** เพื่อไปที่**ตัวแก้ไขคิวรี** ซึ่งเราสามารถทำการแปลงเพิ่มเติม หรือจัดรูปร่างข้อมูล เช่น การรวมข้อมูลนี้ กับข้อมูลอื่น ๆ ของ แหล่งข้อมูลของเรา
 

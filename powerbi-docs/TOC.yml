@@ -194,16 +194,18 @@ items:
       items:
       - name: การจัดประเภทข้อมูลใน Power BI Desktop
         href: desktop-data-categorization.md
-      - name: แท็กเขตข้อมูลบาร์โค้ดใน Power BI Desktop สำหรับแอปสำหรับอุปกรณ์เคลื่อนที่ของ Power BI
+      - name: แท็กเขตข้อมูลบาร์โค้ดสำหรับแอปสำหรับอุปกรณ์เคลื่อนที่
         href: desktop-mobile-barcodes.md
-      - name: ตั้งการกรองทางภูมิศาสตร์ใน Power BI Desktop สำหรับแอปสำหรับอุปกรณ์เคลื่อนที่ของ Power BI
+      - name: ตั้งค่าการกรองทางภูมิศาสตร์สำหรับแอปสำหรับอุปกรณ์เคลื่อนที่
         href: desktop-mobile-geofiltering.md
-      - name: คอลัมนจากการคำนวณใน Power BI Desktop
+      - name: คอลัมน์จากการคำนวณใน Power BI Desktop
         href: desktop-calculated-columns.md
       - name: ตารางจากการคำนวณใน Power BI Desktop
         href: desktop-calculated-tables.md
       - name: หน่วยวัดใน Power BI Desktop
         href: desktop-measures.md
+      - name: แก้ไขรูปแบบภาษาของ ถามตอบ
+        href: power-bi-q-and-a-linguistic-schema.md
       - name: นำเข้า และแสดง KPI (ตัวอย่าง)
         href: desktop-import-and-display-kpis.md
     - name: สร้างรายงาน
@@ -346,6 +348,8 @@ items:
     items:
     - name: ชนิดข้อมูลใน Power BI Desktop
       href: desktop-data-types.md
+    - name: ทางลัดตัวแก้ไขสูตรสำหรับ Power BI Desktop
+      href: desktop-formula-editor.md
     - name: ระดับความเป็นส่วนตัวของ Power BI Desktop
       href: desktop-privacy-levels.md
     - name: การขยายของตัวเชื่อมต่อใน Power BI
@@ -570,6 +574,8 @@ items:
         href: sql-server-analysis-services-tabular-data.md
       - name: Azure และ Power BI
         href: service-azure-and-power-bi.md
+      - name: ข้อมูลขาออกของ Power BI และ Azure
+        href: service-azure-egress-power-bi.md
     - name: การรีเฟรชข้อมูล
       items:
       - name: กำหนดค่าการรีเฟรชตามกำหนดการ
@@ -630,19 +636,19 @@ items:
       items:
       - name: สร้างรายงานใหม่จากรายงานที่มีอยู่
         href: power-bi-report-copy.md
-      - name: เพิ่มหน้าไปยังรายงาน Power BI
+      - name: เพิ่มหน้าในรายงาน
         href: power-bi-report-add-page.md
-      - name: เพิ่มตัวกรองไปยังรายงานใน Power BI
+      - name: เพิ่มตัวกรองในรายงาน
         href: power-bi-report-add-filter.md
       - name: บันทึกรายงานใน Power BI
         href: service-report-save.md
       - name: สร้างรายงานใหม่จากชุดข้อมูล
         href: service-report-create-new.md
-      - name: โต้ตอบกับรายงานในมุมมองการแก้ไขใน Power BI
+      - name: โต้ตอบกับรายงานในมุมมองการแก้ไข
         href: service-interact-with-a-report-in-editing-view.md
       - name: วิเคราะห์ใน Excel
         href: service-analyze-in-excel.md
-      - name: ทริกและเคล็ดลับสำหรับการสร้างรายงานใน Power BI service
+      - name: คำแนะนำและเคล็ดลับสำหรับการสร้างรายงาน
         href: power-bi-reports-tips-and-tricks-for-creating.md
       - name: บานหน้าต่างการวิเคราะห์
         href: service-analytics-pane.md
@@ -650,32 +656,32 @@ items:
         href: service-usage-metrics.md
       - name: สร้างคิวอาร์โค้ดสำหรับรายงาน
         href: service-create-qr-code-for-report.md
-      - name: จัดลำดับหน้าในรายงานใน Power BI
+      - name: จัดลำดับหน้าในรายงานใหม่
         href: service-report-reorder-pages.md
-      - name: ทำซ้ำหน้ารายงานใน Power BI
+      - name: ทำซ้ำหน้ารายงาน
         href: power-bi-report-copy-paste-page.md
-      - name: ส่งออกรายงานจากบริการ Power BI ไปยังเดสก์ท็อป (ตัวอย่าง)
+      - name: ส่งออกรายงานจากบริการไปยัง Power BI Desktop (ตัวอย่าง)
         href: service-export-to-pbix.md
-      - name: กรองรายงานโดยใช้พารามิเตอร์สตริงของแบบสอบถามใน URL
+      - name: กรองรายงานโดยใช้พารามิเตอร์ใน URL
         href: service-url-filters.md
-      - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับการสร้างรายงานอย่างรวดเร็ว และเชื่อถือได้ใน Power BI
+      - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับการสร้างรายงานอย่างรวดเร็วและเชื่อถือได้
         href: power-bi-reports-performance.md
-      - name: โต้ตอบกับ ArcGIS maps ใน Power BI
+      - name: โต้ตอบกับ ArcGIS Maps
         href: visuals/power-bi-visualizations-arcgis.md
     - name: การถามคำถามเกี่ยวกับข้อมูลของคุณ
       items:
       - name: ใช้การถามตอบเพื่อสร้างการแสดงข้อมูล และสร้างรายงาน
         href: power-bi-tutorial-q-and-a.md
-      - name: ทำให้ข้อมูลของคุณทำงานได้ดีกับการถามตอบใน Power BI
+      - name: ทำให้ข้อมูลของคุณทำงานได้ดีกับ ถามตอบ
         href: service-prepare-data-for-q-and-a.md
       - name: เปิดใช้งาน Cortana สำหรับ Power BI
         href: service-cortana-enable.md
-      - name: สร้างคำถามที่น่าสนใจสำหรับ Power BI Q&A
+      - name: สร้างคำถามที่แนะนำสำหรับ ถามตอบ
         href: service-q-and-a-create-featured-questions.md
       - name: ชนิดการแสดงภาพใน Power BI
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
-      - name: ทำงานกับรูปแบบภาษาใน Power BI Desktop
-        href: power-bi-q-and-a-linguistic-schema.md
+      - name: ใช้ ถามตอบ ที่มีการเชื่อมต่อสด
+        href: service-q-and-a-direct-query.md
     - name: แชร์งานของคุณ
       items:
       - name: ฉันควรเข้าร่วมงานและแชร์อย่างไร?
@@ -684,8 +690,6 @@ items:
         href: service-share-dashboards.md
       - name: สร้างและแชร์แอป
         href: service-create-distribute-apps.md
-      - name: ติดตั้งและใช้แอป
-        href: service-install-use-apps.md
       - name: สร้างพื้นที่ทำงานของแอป
         href: service-create-workspaces.md
       - name: สร้างพื้นที่ทำงานใหม่ (แสดงตัวอย่าง)
@@ -1094,8 +1098,14 @@ items:
       href: service-gateway-enterprise-manage-scheduled-refresh.md
     - name: ผนวกแหล่งข้อมูลภายในระบบคลาวด์ในองค์กร
       href: service-gateway-mashup-on-premises-cloud.md
-    - name: ใช้ Kerberos สำหรับลงชื่อเข้าระบบครั้งเดียว (SSO)
-      href: service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md
+    - name: เปิดใช้งานการลงชื่อเข้าระบบครั้งเดียว (SSO)
+      items:
+      - name: ลงชื่อเข้าระบบครั้งเดียว (SSO) - ภาพรวม
+        href: service-gateway-sso-overview.md
+      - name: ลงชื่อเข้าระบบครั้งเดียว (SSO) - Kerberos
+        href: service-gateway-sso-kerberos.md
+      - name: ลงชื่อเข้าระบบครั้งเดียว (SSO) - SAML
+        href: service-gateway-sso-saml.md
     - name: การกำหนดค่าพร็อกซี
       href: service-gateway-proxy.md
     - name: คลัสเตอร์ของความพร้อมใช้งานสูงสำหรับเกตเวย์ข้อมูลภายในองค์กร
@@ -1138,8 +1148,6 @@ items:
         href: service-admin-premium-multi-geo.md
       - name: คำถามที่ถามบ่อยสำหรับ Power BI Premium
         href: service-premium-faq.md
-      - name: บันทึกย่อประจำรุ่นของ Power BI Premium
-        href: service-premium-release-notes.md
     - name: บทบาทการดูแลระบบใน Office 365
       href: service-admin-role.md
     - name: คำถามที่พบบ่อย (FAQ)
@@ -1185,6 +1193,8 @@ items:
     - name: cmdlet Power BI สำหรับ PowerShell
       href: https://docs.microsoft.com/en-us/powershell/power-bi/
       maintainContext: true
+    - name: การอ้างอิง URL บริการ
+      href: power-bi-whitelist-urls.md
   - name: ทรัพยากร
     items:
     - name: แนวทางการกำกับดูแลและการปรับใช้ Power BI
@@ -1193,9 +1203,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Power BI สำหรับ Office 365 จะเปลี่ยนไปสู่ Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: e91012d1336b54dee11fd3b342ac4a44fc45d979
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: bc509b1cd6717cc3ec38e0b8eb404dc9bb4885d3
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112268"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641999"
