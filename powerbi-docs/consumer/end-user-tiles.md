@@ -1,21 +1,21 @@
 ---
-title: ไทล์แดชบอร์ดในบริการ Power BI
-description: ทั้งหมดที่เกี่ยวกับไทล์แดชบอร์ดใน Power BI ซึ่งรวมถึงไทล์ที่สร้างขึ้นจาก SQL Server Reporting Services (SSRS)
+title: ไทล์แดชบอร์ดในบริการ Power BI สำหรับผู้บริโภค
+description: ทั้งหมดที่เกี่ยวกับไทล์แดชบอร์ดใน Power BI สำหรับลูกค้า ซึ่งรวมถึงไทล์ที่สร้างขึ้นจาก SQL Server Reporting Services (SSRS)
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f0ff1d9a49e0566119df2c790ad618700c9a9ca3
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: f788da00d50ee7e22da82aa7e57560cfc516b0c7
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565463"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396485"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>ไทล์แดชบอร์ดใน Power BI
 แดชบอร์ดและไทล์แดชบอร์ดเป็นคุณลักษณะของบริการ Power BI ไม่ใช่ของ Power BI Desktop ขณะที่ไม่สามารถสร้างหรือปักหมุดไทล์แดชบอร์ดใน Power BI สำหรับมือถือได้ แต่เราสามารถ[ดูและแชร์](mobile/mobile-tiles-in-the-mobile-apps.md)บนมือถือได้ และใน Power BI สำหรับอุปกรณ์เคลื่อนที่ คุณสามารถ[เพิ่มรูปภาพลงในแดชบอร์ดของคุณกับแอปฯ iPhone](mobile/mobile-iphone-app-get-started.md) ได้
@@ -23,58 +23,45 @@ ms.locfileid: "46565463"
 ## <a name="dashboard-tiles"></a>ไทล์แดชบอร์ด
 ![แดชบอร์ด Power BI](./media/end-user-tiles/power-bi-dashboard.png)
 
-ไทล์เป็นสแนปช็อตของข้อมูลของคุณที่ปักหมุดไปยังแดชบอร์ด คุณสามารถสร้างไทล์จากรายงาน ชุดข้อมูล แดชบอร์ด จากกล่องถามตอบ Excel และจาก SQL Server Reporting Services (SSRS) และอื่น ๆ ได้  ภาพถ่ายหน้าจอนี้แสดงไทล์ต่าง ๆ มากมายที่ปักหมุดไปยังแดชบอร์ดหนึ่ง
+ไทล์เป็นสแนปช็อตของข้อมูลของคุณที่ปักหมุดไปยังแดชบอร์ดโดย *ผู้ออกแบบ* คุณสามารถสร้างไทล์จากรายงาน ชุดข้อมูล แดชบอร์ด กล่องคำถามของ Q&A, Excel และ SQL Server Reporting Services (SSRS) และอื่น ๆ ได้  ภาพถ่ายหน้าจอนี้แสดงไทล์ต่าง ๆ มากมายที่ปักหมุดไปยังแดชบอร์ดหนึ่ง
 
-นอกจากการปักหมุดแล้ว คุณยังสามารถสร้างไทล์แบบเดี่ยวได้โดยตรงบนแดชบอร์ดโดยใช้[เพิ่มไทล์](../service-dashboard-add-widget.md) ไทล์แบบเดี่ยวรวมถึง: กล่องข้อความ รูปภาพ วิดีโอ ข้อมูลสตรีมมิ่ง และเนื้อหาบนเว็บ
+นอกเหนือจากไทล์ที่ปักหมุดจากรายงาน *ผู้ออกแบบ*สามารถเพิ่มไทล์แบบเดี่ยวได้โดยตรงบนแดชบอร์ดผ่านตัวเลือก **เพิ่มไทล์** ไทล์แบบเดี่ยวรวมถึง: กล่องข้อความ รูปภาพ วิดีโอ ข้อมูลสตรีมมิ่ง และเนื้อหาบนเว็บ
 
 ต้องการความช่วยเหลือในการทำความเข้าใจเกี่ยวกับบล็อกที่ประกอบเป็น Power BI หรือไม่?  ดู[Power BI - แนวคิดพื้นฐาน](end-user-basic-concepts.md)
 
-> [!NOTE]
-> ถ้าการแสดงภาพต้นฉบับที่ใช้เพื่อสร้างไทล์เปลี่ยนแปลง ไทล์ดังกล่าวจะไม่เปลี่ยนแปลงไปด้วย  ตัวอย่างเช่น ถ้าคุณปักหมุดแผนภูมิเส้นจากรายงาน จากนั้นคุณเปลี่ยนแผนภูมิเส้นเป็นแผนภูมิแท่ง ไทล์แดชบอร์ดจะยังคงแสดงแผนภูมิเส้น รีเฟรชข้อมูลแต่การชนิดแสดงภาพไม่เปลี่ยน
-> 
-> 
-
-## <a name="pin-a-tile-from"></a>ปักหมุดไทล์จาก...
-มีหลายวิธีในการเพิ่ม (PIN) ไทล์หนึ่ง ๆ ไปยังแดชบอร์ดหนึ่ง สามารถปักหมุดไทล์ได้จาก:
-
-* [การถามตอบสำหรับ Power BI](../service-dashboard-pin-tile-from-q-and-a.md)
-* [รายงาน](../service-dashboard-pin-tile-from-report.md)
-* [แดชบอร์ดอื่น](../service-pin-tile-to-another-dashboard.md)
-* [สมุดงาน Excel บน OneDrive for Business](../service-dashboard-pin-tile-from-excel.md)
-* [Power BI Publisher สำหรับ Excel](../publisher-for-excel.md)
-* [ข้อมูลเชิงลึกด่วน](end-user-insights.md)
-* [SSRS](https://msdn.microsoft.com/library/mt604784.aspx)
-
-และเราสามารถสร้างไทล์แบบเดี่ยวสำหรับรูปภาพ กล่องข้อความ วิดีโอ ข้อมูลสตรีมมิ่ง และเนื้อหาบนเว็บได้โดยตรงบนแดชบอร์ดโดยใช้[เพิ่มไทล์](../service-dashboard-add-widget.md)
-
-  ![เพิ่มไอคอนไทล์](./media/end-user-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>โต้ตอบกับไทล์บนแดชบอร์ด
-### <a name="move-and-resize-a-tile"></a>ย้ายและปรับขนาดไทล์
-หยิบไทล์และ[ย้ายไปรอบ ๆ ในแดชบอร์ด](../service-dashboard-edit-tile.md) เลื่อนและเลือกด้ามจับ![ด้ามจับ](./media/end-user-tiles/resize-handle.jpg)เพื่อปรับขนาดไทล์
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>เลื่อนเหนือไทล์เพื่อเปลี่ยนลักษณะปรากฏและลักษณะการทำงาน
 1. เลื่อนเหนือไทล์เพื่อแสดงจุดไข่ปลา
    
     ![จุดไข่ปลาไทล์](./media/end-user-tiles/ellipses_new.png)
-2. เลือกจุดไข่ปลาเพื่อเปิดเมนูการดำเนินการไทล์
+2. เลือกจุดไข่ปลาเพื่อเปิดเมนูการดำเนินการไทล์ ตัวเลือกที่ใช้ได้แตกต่างกันไปตามประเภทภาพและวิธีที่ใช้ในการสร้างไทล์ นี่คือตัวอย่างบางส่วนของสิ่งที่คุณอาจเห็น
+
+    - ไทล์ที่สร้างขึ้นโดยใช้ Q&A
    
-    ![ไอคอนจุดไข่ปลา](./media/end-user-tiles/power-bi-tile-menu.png)
+        ![ไอคอนจุดไข่ปลา](./media/end-user-tiles/power-bi-menu1.png)
+
+    - ไทล์ที่สร้างขึ้นจากสมุดงาน
+   
+        ![ไอคอนจุดไข่ปลา](./media/end-user-tiles/power-bi-menu2.png)
+
+    - ไทล์ที่สร้างขึ้นจากรายงาน
+   
+        ![ไอคอนจุดไข่ปลา](./media/end-user-tiles/power-bi-menu3.png)
    
     จากตรงนี้คุณสามารถ:
    
    * [เปิดรายงานที่ถูกใช้เพื่อสร้างไทล์นี้](end-user-reports.md) ![ไอคอนรายงาน](./media/end-user-tiles/chart-icon.jpg)  
    
-   * [เปิดแผ่นงานที่ถูกใช้เพื่อสร้างไทล์นี้](end-user-reports.md) ![ไอคอนแผ่นงาน](./media/end-user-tiles/power-bi-open-worksheet.png)  
-     
-    * [ดูในโหมดโฟกัส](end-user-focus.md) ![ไอคอนโฟกัส](./media/end-user-tiles/fullscreen-icon.jpg)  
-     * [ส่งออกข้อมูลที่ใช้ในไทล์](end-user-export-data.md) ![ไอคอนส่งออกข้อมูล](./media/end-user-tiles/export-icon.png)
-     * [แก้ไขชื่อเรื่องและคำบรรยาย เพิ่มไฮเปอร์ลิงก์](../service-dashboard-edit-tile.md) ![แก้ไขไอคอน](./media/end-user-tiles/pencil-icon.jpg)
+   * [เปิดคำถามของ Q&A ที่ถูกใช้เพื่อสร้างไทล์](end-user-reports.md)![ไอคอน Q&A](./media/end-user-tiles/qna-icon.png)  
+   
+
+   * [เปิดสมุดงานที่ถูกใช้เพื่อสร้างไทล์นี้](end-user-reports.md) ![ไอคอนแผ่นงาน](./media/end-user-tiles/power-bi-open-worksheet.png)  
+    * [ดูไทล์ในโหมดโฟกัส](end-user-focus.md) ![ไอคอนโฟกัส](./media/end-user-tiles/fullscreen-icon.jpg)  
      * [เรียกใช้ข้อมูลเชิงลึก](end-user-insights.md) ![ไอคอนข้อมูลเชิงลึก](./media/end-user-tiles/power-bi-insights.png)
-     * [ปักหมุดไทล์ไปยังแดชบอร์ดอื่น](../service-pin-tile-to-another-dashboard.md) 
-       ![ไอคอนปักหมุด](./media/end-user-tiles/pin-icon.jpg)
-     * [ลบไทล์](../service-dashboard-edit-tile.md)
-     ![ไอคอนลบ](./media/end-user-tiles/trash-icon.png)
+    * [เพิ่มข้อคิดเห็นและเริ่มการอภิปราย](end-user-comment.md) ![ไอคอนข้อคิดเห็น ](./media/end-user-tiles/comment-icons.png)
+
 3. เมื่อต้องปิดเมนูการดำเนินการ เลือกพื้นที่ว่างในพื้นที่ใช้งาน
 
 ### <a name="select-click-a-tile"></a>เลือก (คลิกที่) ไทล์
@@ -91,20 +78,9 @@ ms.locfileid: "46565463"
 * สำหรับไทล์ที่สร้างขึ้นโดยตรงบนแดชบอร์ดโดยใช้**เพิ่มไทล์** ถ้ามีการตั้งค่าไฮเปอร์ลิงก์แบบกำหนดเอง การเลือกชื่อเรื่อง ชื่อเรื่องรอง และหรือไทล์จะเปิด URL นั้น  มิฉะนั้น ตามค่าเริ่มต้น การเลือกหนึ่งไทล์จากไทล์เหล่านี้ที่ถูกสร้างขึ้นโดยตรงบนแดชบอร์ดสำหรับรูปภาพหนึ่ง โค้ดของเว็บ หรือกล่องข้อความ จะไม่ก่อให้เกิดการดำเนินการใด
 * ถ้าคุณไม่มีสิทธิ์ในรายงานภายใน SSRS การเลือกไทล์ที่สร้างขึ้นจาก SSRS จะสร้างหน้าที่ระบุว่าคุณไม่มีการเข้าถึง (rsAccessDenied)
 * ถ้าคุณไม่สามารถเข้าถึงเครือข่ายที่เซิร์ฟเวอร์ SSRS นั้นอยู่ การเลือกไทล์ที่สร้างขึ้นจาก SSRS จะสร้างหน้าที่บ่งชี้ว่าไม่สามารถค้นหาเซิร์ฟเวอร์ (HTTP 404) ได้ อุปกรณ์ของคุณจำเป็นต้องมีสิทธิ์เข้าถึงเครือข่ายไปยังเซิร์ฟเวอร์รายงานเพื่อดูรายงานดังกล่าว
-* ถ้าการแสดงภาพต้นฉบับที่ใช้เพื่อสร้างไทล์เปลี่ยนแปลง ไทล์ดังกล่าวจะไม่เปลี่ยนแปลงไปด้วย  ตัวอย่างเช่น ถ้าคุณปักหมุดแผนภูมิเส้นจากรายงาน จากนั้นคุณเปลี่ยนแผนภูมิเส้นเป็นแผนภูมิแท่ง ไทล์แดชบอร์ดจะยังคงแสดงแผนภูมิเส้น รีเฟรชข้อมูลแต่การชนิดแสดงภาพไม่เปลี่ยน
+* ถ้าการแสดงภาพต้นฉบับที่ใช้เพื่อสร้างไทล์เปลี่ยนแปลง ไทล์ดังกล่าวจะไม่เปลี่ยนแปลงไปด้วย  ตัวอย่างเช่น ถ้า *ผู้ออกแบบ* ปักหมุดแผนภูมิเส้นจากรายงาน จากนั้นคุณเปลี่ยนแผนภูมิเส้นเป็นแผนภูมิแท่ง ไทล์แดชบอร์ดจะยังคงแสดงแผนภูมิเส้น รีเฟรชข้อมูลแต่การชนิดแสดงภาพไม่เปลี่ยน
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[สร้างบัตร (ไทล์ตัวเลขขนาดใหญ่) สำหรับแดชบอร์ดของคุณ](../visuals/power-bi-visualization-card.md)
-
-[แดชบอร์ดใน Power BI](end-user-dashboards.md)  
-
 [รีเฟรชข้อมูล](../refresh-data.md)
 
-[Power BI - แนวคิดพื้นฐาน](end-user-basic-concepts.md)
-
-[ส่งออกไทล์ไปยัง Power Point](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
-
-[ปักหมุดรายการ Reporting Services ไปยังแดชบอร์ด Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
-
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
-
+[Power BI แนวคิดพื้นฐาน](end-user-basic-concepts.md)

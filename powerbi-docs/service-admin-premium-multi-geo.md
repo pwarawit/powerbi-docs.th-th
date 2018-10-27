@@ -1,21 +1,21 @@
 ---
 title: การสนับสนุน MultiGeo เพื่อ Power BI Premium (ตัวอย่าง)
 description: เรียนรู้วิธีปรับใช้เนื้อหาไปยังศูนย์ข้อมูลในภูมิภาคนอกเหนือจากภูมิภาคเดิมของผู้เช่า Power BI
-author: maggiesMSFT
-ms.author: maggies
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/31/2018
+ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 135217acbe6289edb73c39035f58df8babf32566
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300195"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641683"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>การสนับสนุน MultiGeo เพื่อ Power BI Premium (ตัวอย่าง)
 
@@ -40,7 +40,7 @@ Multi-Geo ในขณะนี้พร้อมใช้งานใน Power 
 เพื่อความจุใหม่ ๆ ให้เปิดใช้งาน Multi-Geo ด้วยการเลือกภูมิภาคนอกเหนือจากภูมิภาคเริ่มต้นจากเมนูแบบหล่นลง  ความจุที่ใช้ได้จะแสดงภูมิภาคที่พิกัดอยู่ อย่างเช่น **สหรัฐอเมริกากลางทางตะวันตก**
 
 ![ขนาดความจุ: เลือกภูมิภาค Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
-  
+
 หลังจากสร้างความจุแล้ว ความจุนั้นจะอยู่ในภูมิภาคนั้น และพื้นที่ทำงานใด ๆ ที่สร้างขึ้นจะเก็บเนื้อหาไว้ในภูมิภาคนั้น คุณสามารถย้ายพื้นที่ทำงานจากภูมิภาคหนึ่งไปยังอีกภูมิภาคผ่านเมนูแบบหล่นลงบนหน้าจอการตั้งค่าพื้นที่ทำงาน
 
 ![แก้ไขพื้นที่ทำงาน: เลือกความจุที่ใช้งานได้ Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
@@ -83,7 +83,7 @@ Multi-Geo ในขณะนี้พร้อมใช้งานใน Power 
 
 ## <a name="move-content-out-of-multi-geo"></a>ย้ายเนื้อหาออกจาก Multi-Geo  
 
-คุณสามารถนำพื้นที่ทำงานออกจากความจุ Multi-Geo ได้สองวิธี:
+คุณสามารถนำพื้นที่ทำงานออกจากความจุ Multi-Geo ได้หนึ่งในสองวิธี:
 
 - ลบความจุปัจจุบันที่พื้นที่ทำงานอยู่  การทำเช่นนี้จะย้ายพื้นที่ทำงานกลับไปยังความจุที่แชร์กันในภูมิภาคเดิม
 - ย้ายพื้นที่ทำงานเดี่ยวกลับไปยังความจุแบบ Premium ที่อยู่ผู้เช่าเดิม
@@ -91,11 +91,8 @@ Multi-Geo ในขณะนี้พร้อมใช้งานใน Power 
 ## <a name="limitations-and-considerations"></a>ข้อจำกัดและข้อควรพิจารณา
 
 - ยืนยันว่าการเคลื่อนย้ายใด ๆ ที่คุณทำระหว่างภูมิภาคได้ปฏิบัติตามข้อกำหนดของรัฐบาลและบริษัทก่อนที่จะทำการโอนย้ายข้อมูล
-
 - คิวรีที่ได้รับการแคชที่เก็บอยู่ในภูมิภาคระยะไกลจะพักอยู่ในภูมิภาคนั้น อย่างไรก็ตาม ข้อมูลอื่นที่อยู่ในระหว่างการส่งต่ออาจเดินทางกลับไปกลับมาระหว่างเขตภูมิศาสตร์หลายเขต
-
 - เมื่อทำการย้ายข้อมูลจากภูมิภาคหนึ่งไปยังอีกภูมิภาคหนึ่งในสภาพแวดล้อม Multi-Geo ข้อมูลต้นทางอาจยังอยู่ในภูมิภาคที่ย้ายออกมานานถึง 30 วัน ในระหว่างนั้นผู้ใช้ปลายทางจะไม่มีสิทธิ์เข้าถึงข้อมูล ข้อมูลจะถูกลบออกจากภูมิภาคและทำลายในระยะเวลา 30 วันนั้น
-
 - Multi-Geo ไม่ได้ส่งผลให้เกิดประสิทธิภาพที่ดีขึ้นโดยทั่วไป การโหลดรายงานและแดชบอร์ดจะยังคงเกี่ยวข้องกับการส่งคำร้องขอไปยังภูมิภาคเดิมของ Metadata
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
@@ -103,4 +100,4 @@ Multi-Geo ในขณะนี้พร้อมใช้งานใน Power 
 - [Power BI Premium: นี่คืออะไร](service-premium.md)
 - [Multi-Geo สำหรับความจุ Power BI Embedded](developer/embedded-multi-geo.md)
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)

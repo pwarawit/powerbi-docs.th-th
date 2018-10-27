@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/13/2018
+ms.date: 10/18/2018
 ms.author: maikelson
-ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137652"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473968"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -22,9 +22,7 @@ ms.locfileid: "37137652"
 
 ## <a name="upcoming-webinars"></a>สัมมนาผ่านเว็บที่กำลังมาถึง
 
-สัมมนาผ่านเว็บยังไม่จัดกำหนดการ กรุณาตรวจสอบใหม่เพื่อดูงานที่จะจัดในอนาคต
-
->[เข้าร่วมการสัมมนาผ่านเว็บที่กำลังมาถึงจากชุมชน Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
+>[การสัมมนาผ่านเว็บที่กำลังมาถึงจากชุมชน Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>การสัมมนาที่โดดเด่น
 
@@ -34,21 +32,29 @@ ms.locfileid: "37137652"
 <br>โดย Miguel Martinez
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-**เคล็ดลับ คำแนะนำ และเครื่องมือของ Power BI จากเจ้าของเคล็ดลับ PowerBI**
-<br>โดย Mike Carlo และ Seth Bauer
-<br>[ดูเดี๋ยวนี้](https://www.youtube.com/watch?v=fnj1_e3HXow)
-
 **เรียนรู้วิธีการนำทางของคุณได้ผ่านแดชบอร์ด Power BI ใน 20 นาที**
 <br>โดย Miguel Martinez
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**Microsoft ทำงานบน Power BI - การวางแผนทางการเงินและการวิเคราะห์ทำได้ง่าย**
+<br>โดย Cory Hrncirik และ Miguel Martinez
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**ทำให้ข้อมูล Power BI ของคุณเป็นภาพ: ชนิดของแผนภูมิหลักและวิธีใช้งาน**
+<br>โดย Miranda Li
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
+**Power BI, Excel และ Office 365: เพิ่มประสิทธิภาพข้อมูลขององค์กรของคุณ**
+<br>โดย Olaf Hubel และ Miguel Martinez
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
 **การกระตุ้นความสนใจแบบง่าย — เคล็ดลับสำหรับการออกแบบการการจัดรูปแบบการแสดงข้อมูลที่ดีขึ้น**
 <br>โดย Miranda Li
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**รวมกันดีกว่า: ข้อดี 5 ข้อที่ผู้ใช้ Excel ได้จากการใช้ Power BI**
-<br>โดย Carlos Otero และ Miguel Martinez
-<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
+**เคล็ดลับ คำแนะนำ และเครื่องมือของ Power BI จากเจ้าของเคล็ดลับ PowerBI**
+<br>โดย Mike Carlo และ Seth Bauer
+<br>[ดูเดี๋ยวนี้](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 >[เรียกดูไลบรารีของ Power BI สัมมนาผ่านเว็บตามความต้องการจากผู้เชี่ยวชาญของเราชุมชน](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
@@ -61,6 +67,10 @@ ms.locfileid: "37137652"
 **วิธีการออกแบบรายงาน Power BI ที่อันน่าทึ่งแบบมองเห็นได้**
 <br>โดย Charles Sterling
 <br>[ดูเดี๋ยวนี้](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**รวมกันดีกว่า: ข้อดี 5 ข้อที่ผู้ใช้ Excel ได้จากการใช้ Power BI**
+<br>โดย Carlos Otero และ Miguel Martinez
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 **เรียนรู้เกี่ยวกับ Power BI Embedded ใน 20 นาที**
 <br>โดย Megan Asarrane และ Colin Murphy

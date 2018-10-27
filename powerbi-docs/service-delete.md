@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 770b2796eb8f29cadfe8371cb2baef12cec7c0e8
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0d07953fb4f9474f929c108df5b76acb61c7df7c
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48910302"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435348"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>ลบเกือบทุกสิ่งในบริการ Power BI
 บทความนี้สอนวิธีการลบแดชบอร์ด รายงาน เวิร์กบุ๊ก ชุดข้อมูล แอปฯ การแสดงภาพ และพื้นที่ทำงานในบริการ Power BI
@@ -129,7 +129,7 @@ ms.locfileid: "48910302"
 
    ![เลือกแอปฯ](media/service-delete/power-bi-delete-app.png)
 
-   หากคุณเอาแอปฯออกโดยไม่ได้ตั้งใจ คุณมีหลายตัวเลือกสำหรับการเรียกคือแอปฯดังกล่าว  คุณสามารถขอให้ผู้สร้างแอปฯส่งแอปฯกลับมาใหม่ คุณสามารถค้นหาอีเมลต้นฉบับที่มีลิงค์ไปยังแอปฯ คุณสามารถตรวจสอบ[ศูนย์การแจ้งเตือน](service-notification-center.md)ของคุณเพื่อดูว่าแอปฯดังกล่าวยังคงอยู่ในรายการแจ้งเตือนหรือไม่ หรือคุณสามารถตรวจสอบ [ AppSource](service-install-use-apps.md) ขององค์กรของคุณ
+   หากคุณเอาแอปฯออกโดยไม่ได้ตั้งใจ คุณมีหลายตัวเลือกสำหรับการเรียกคือแอปฯดังกล่าว  คุณสามารถขอให้ผู้สร้างแอปฯส่งแอปฯกลับมาใหม่ คุณสามารถค้นหาอีเมลต้นฉบับที่มีลิงค์ไปยังแอปฯ คุณสามารถตรวจสอบ[ศูนย์การแจ้งเตือน](service-notification-center.md)ของคุณเพื่อดูว่าแอปฯดังกล่าวยังคงอยู่ในรายการแจ้งเตือนหรือไม่ หรือคุณสามารถตรวจสอบ [ AppSource](consumer/end-user-apps.md) ขององค์กรของคุณ
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
 บทความนี้ครอบคลุมวิธีการลบบล็อคก่อสร้างหลักของบริการ Power BI แต่ยังมีสิ่งอื่นอีกที่คุณสามารถลบได้ใน Power BI  

@@ -1,23 +1,23 @@
 ---
-title: ดูรายงานในบริการ Power BI
-description: เปิดรายงาน Power BI ในมุมมองการอ่าน
+title: ดูรายงานในบริการ Power BI สำหรับผู้บริโภค
+description: หัวข้อนี้แสดงถึงลูกค้า Power BI และผู้ใช้ปลายทางต้องเปิดและดูรายงาน Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 10/17/2018
 ms.author: mihart
-ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112026"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396945"
 ---
-# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>ดูรายงานในบริการ Power BI (app.powerbi.com)
-รายงานเป็นภาพอย่างน้อยหนึ่งหน้า รายงานสร้างขึ้นโดย*ตัวออกแบบรายงาน*ของ Power BI  และ[แชร์กับคุณโดยตรง](end-user-shared-with-me.md) หรือเป็นส่วนหนึ่งของ[แอป](end-user-apps.md) 
+# <a name="view-a-report-in-power-bi-service-for-consumers"></a>ดูรายงานในบริการ Power BI สำหรับ*ผู้บริโภค*
+รายงานเป็นภาพอย่างน้อยหนึ่งหน้า รายงานจะสร้างขึ้นโดย*นักออกแบบรายงาน* Power BI และ[ใช้ร่วมกันกับ*ผู้บริโภค*โดยตรง](end-user-shared-with-me.md)หรือในฐานะเป็นส่วนหนึ่งของ[แอป](end-user-apps.md) 
 
 มีหลายวิธีในการเปิดรายงาน และเราจะแสดงสองรายการ: เปิดจากหน้าหลักและเปิดจากแดชบอร์ด 
 
@@ -42,7 +42,7 @@ ms.locfileid: "49112026"
    
    ![แชร์ส่วนของหน้าหลักกับฉัน](./media/end-user-report-open/power-bi-shared.png)
 
-4. เพียงแค่เลือกการ์ดรายงานหนึ่งรายการเพื่อเปิดรายงาน
+4. เพียงแค่เลือก*การ์ด*รายงานหนึ่งรายการเพื่อเปิดรายงาน
 
    ![หน้ารายงาน](./media/end-user-report-open/power-bi-report1.png)
 
@@ -65,10 +65,10 @@ ms.locfileid: "49112026"
 
    ![หน้าหลัก](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. เลือกหนึ่งแอปเพื่อเปิด ขึ้นอยู่กับตัวเลือกที่กำหนดโดย*ตัวออกแบบ*แอป แอปจะเปิดแดชบอร์ดหรือหรือรายงาน หากเลือกแอป:
+8. เลือกหนึ่งแอปเพื่อเปิด ขึ้นอยู่กับตัวเลือกที่กำหนดโดย*ตัวออกแบบ*แอป แอปจะเปิดแดชบอร์ด รายงาน หรือรายการเนื้อหาแอป หากเลือกแอป:
     - เปิดรายงาน ตั้งค่าเรียบร้อย
     - เปิดแดชบอร์ด ดู[เปิดรายงานจากแดชบอร์ด](#Open-a-report-from-a-dashboard)ด้านล่าง
-
+    - เปิดรายการเนื้อหาแอป ภายใต้ตัวเลือก **รายงาน** เลือกรายงานเพื่อเปิด
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>เปิดรายงานจากแดชบอร์ด
@@ -83,15 +83,15 @@ ms.locfileid: "49112026"
     ![เปิดรายงานในมุมมองการอ่าน](./media/end-user-report-open/power-bi-report-new.png)
 
 > [!NOTE]
-> ไทล์ทั้งหมดไม่นำไปสู่รายงาน ถ้าคุณเลือกไทล์ที่[ถูกสร้างขึ้นด้วยการถามตอบ](../service-dashboard-pin-tile-from-q-and-a.md) หน้าจอถามตอบจะเปิดขึ้น หากคุณเลือกไทล์ที่[สร้างขึ้นโดยใช้แดชบอร์ด **เพิ่ม**วิดเจ็ต](../service-dashboard-add-widget.md)ของไทล์ แล้วตัวช่วย**แก้ไขไทล์**จะเปิดขึ้น  
+> ไทล์ทั้งหมดไม่นำไปสู่รายงาน ถ้าคุณเลือกไทล์ที่[ถูกสร้างขึ้นด้วยการถามตอบ](end-user-q-and-a.md) หน้าจอถามตอบจะเปิดขึ้น หากคุณเลือกไทล์ที่[สร้างขึ้นโดยใช้แดชบอร์ด **เพิ่ม**วิดเจ็ต](../service-dashboard-add-widget.md)ของไทล์ แล้วสิ่งต่างๆ อาจเกิดขึ้นได้  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>ยังคงวิธีอื่น ๆ ในการเปิดรายงาน
 เมื่อคุณใช้บริการของ Power BI ต่าง ๆ ได้คล่องแล้ว คุณจะรู้ว่าเวิร์กโฟลว์การทำงานแบบไหนที่ดีที่สุดสำหรับคุณ สองสามวิธีอื่น ๆ ในการเข้าถึงรายงาน:
 - จากบานหน้าต่างนำทางด้านซ้าย ใช้**รายการโปรด** และ **ล่าสุด**    
 - ใช้[เนื้อหาที่เกี่ยวข้องกับมุมมอง](end-user-related.md)    
-- ในอีเมล เมื่อมีใคร[แชร์กับคุณ](../service-share-reports.md) หรือคุณ[ตั้งค่าการแจ้งเตือน](../service-set-data-alerts.md)    
-- จาก [ศูนย์การแจ้งเตือน] ของคุณ    (end-user-notification-center.md)    
+- ในอีเมล เมื่อมีใคร[แชร์กับคุณ](../service-share-reports.md) หรือคุณ[ตั้งค่าการแจ้งเตือน](end-user-alerts.md)    
+- จาก[ศูนย์การแจ้งเตือน](end-user-notification-center.md)ของคุณ    
 - และอื่น ๆ อีกมากมาย
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

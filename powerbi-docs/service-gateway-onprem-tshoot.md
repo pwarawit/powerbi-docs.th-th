@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
-ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
+ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43151917"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49474037"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>การแก้ไขปัญหา เกตเวย์ข้อมูลในองค์กร
 
@@ -40,6 +40,25 @@ ms.locfileid: "43151917"
 * เมื่อต้องการเริ่มบริการ เรียกใช้คำสั่งนี้:
 
     '''   net start PBIEgwService   '''
+
+### <a name="log-file-configuration"></a>การกำหนดค่าไฟล์บันทึก
+
+ไฟล์บันทึกบริการเกตเวย์จะถูกแยกประเภทลงในบักเก็ตสามใบ: ข้อมูล ข้อผิดพลาด และเครือข่าย การจัดประเภทนี้ให้ประสบการณ์ในการแก้ไขปัญหาที่ดีกว่า ซึ่งช่วยให้คุณสามารถโฟกัสบนพื้นที่เฉพาะได้โดยขึ้นอยู่กับข้อผิดพลาดหรือปัญหา คุณสามารถเห็นหมวดหมู่สามประเภทในส่วนย่อยต่อไปนี้จากไฟล์การกำหนดค่าเกตเวย์: `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log`
+
+```xml
+  <system.diagnostics>
+    <trace autoflush="true" indentsize="4">
+      <listeners>
+        <remove name="Default" />
+        <add name="ApplicationFileTraceListener"
+             type="Microsoft.PowerBI.DataMovement.Pipeline.Common.Diagnostics.RotatableFilesManagerTraceListener, Microsoft.PowerBI.DataMovement.Pipeline.Common"
+             initializeData="%LOCALAPPDATA%\Microsoft\On-premises data gateway\,GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50" />
+      </listeners>
+    </trace>
+  </system.diagnostics>
+```
+
+ไฟล์นี้จะตั้งอยู่ในตำแหน่งตามค่าเริ่มต้นที่: *\Program Files\On-premises data gateway\Microsoft.PowerBI.EnterpriseGateway.exe.config* หากต้องการกำหนดค่าจำนวนไฟล์บันทึกเพื่อเก็บรักษาไว้ ให้เปลี่ยนหมายเลขแรก (20 ในตัวอย่างนี้): `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50`
 
 ### <a name="error-failed-to-create-a-gateway-try-again"></a>ข้อผิดพลาด: การสร้างเกตเวย์ล้มเหลว ลองอีกครั้ง
 
