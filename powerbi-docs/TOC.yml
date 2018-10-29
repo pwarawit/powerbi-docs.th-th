@@ -498,8 +498,6 @@ items:
         href: service-connect-to-prevedere.md
       - name: Project Online
         href: service-connect-to-project-online.md
-      - name: Project Madeira
-        href: service-connect-to-project-madeira.md
       - name: Projectplace
         href: service-connect-to-projectplace.md
       - name: QuickBooks Online
@@ -792,7 +790,7 @@ items:
         href: developer/embed-sample-for-customers.md
       - name: เนื้อหาแบบฝังตัวสำหรับองค์กรของคุณ
         href: developer/embed-sample-for-your-organization.md
-      - name: รวมเนื้อหาลงในแอปพลิเคชันสำหรับ sovereign clouds
+      - name: ฝังเนื้อหาสำหรับคลาวด์แบบ Sovereign
         href: developer/embed-sample-for-customers-sovereign-clouds.md
     - name: แนวคิด
       items:
@@ -854,7 +852,7 @@ items:
       items:
       - name: ศูนย์นักพัฒนา
         href: https://powerbi.microsoft.com/en-us/developers/
-      - name: การฝังเครื่องมือตั้งค่า
+      - name: เครื่องมือตั้งค่าการฝังตัว
         href: https://aka.ms/embedsetup
       - name: ตัวอย่าง JavaScript Playground
         href: https://go.microsoft.com/fwlink/?linkid=848279
@@ -1138,7 +1136,7 @@ items:
         href: service-admin-premium-purchase.md
       - name: จัดการ Power BI Premium
         href: service-admin-premium-manage.md
-      - name: รายงานขีดความสามารถของตัวตรวจสอบ Power BI Premium
+      - name: Monitor Power BI Premium
         href: service-admin-premium-monitor-capacity.md
       - name: การสนับสนุนสำหรับชุดข้อมูลขนาดใหญ่
         href: service-premium-large-datasets.md
@@ -1203,9 +1201,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Power BI สำหรับ Office 365 จะเปลี่ยนไปสู่ Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: bc509b1cd6717cc3ec38e0b8eb404dc9bb4885d3
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 513c5a62b5436d157b1b22fbf1f06735a589dd3b
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641999"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003075"
