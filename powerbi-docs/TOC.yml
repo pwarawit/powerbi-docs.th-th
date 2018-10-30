@@ -877,7 +877,9 @@ items:
     - name: บทช่วยสอน
       items:
       - name: การพัฒนาภาพที่กำหนดเองสำหรับ Power BI
-        href: https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/
+        href: developer/custom-visual-develop-tutorial.md
+      - name: เพิ่มตัวเลือกการจัดรูปแบบ
+        href: developer/custom-visual-develop-tutorial-format-options.md
     - name: แนวคิด
       items:
       - name: การใช้ความสามารถ
@@ -1201,9 +1203,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: Power BI สำหรับ Office 365 จะเปลี่ยนไปสู่ Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: 513c5a62b5436d157b1b22fbf1f06735a589dd3b
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 29189aa7be988fef11dea305e4e0a1651e12a7a4
+ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003075"
+ms.lasthandoff: 10/26/2018
+ms.locfileid: "50153736"
