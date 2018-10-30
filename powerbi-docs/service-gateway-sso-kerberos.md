@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0055994ee883fbdb508dfa304d063bc359dd5beb
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: b66799df83095ce2104196b076482cc232c9bfae
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641631"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101634"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>ใช้ Kerberos สำหรับลงชื่อเข้าใช้ครั้งเดียว (SSO) จาก Power BI ไปยังแหล่งข้อมูลภายในองค์กร
 
@@ -61,7 +61,7 @@ ms.locfileid: "49641631"
 จะเปิดใช้งาน **การมอบหมายที่มีข้อจำกัดของ Kerberos** เกตเวย์ต้องดำเนินงานด้วยบัญชีโดเมน เว้นแต่ว่า Azure AD ของคุณได้ซิงโครไนซ์กับ Active Directory ของคุณในเครื่องอยู่แล้ว (ด้วย Azure AD DirSync/Connect) ถ้าคุณต้องการสลับบัญชีไปเป็นบัญชีโดเมน โปรดดู[ การสลับเกตเวย์ไปยังบัญชีโดเมน](#switching-the-gateway-to-a-domain-account) ภายหลังในบทความนี้
 
 > [!NOTE]
-> ถ้ามีการกำหนดค่าของ Azure AD DirSync / Connect และบัญชีผู้ใช้มีการซิงโครไนซ์ บริการเกตเวย์ก็ไม่ต้องดำเนินการค้นหา AD ในเครื่องระหว่างที่ทำงาน และคุณสามารถใช้ SID ของบริการในเครื่อง (แทนที่จะต้องใช้บัญชีโดเมน) สำหรับบริการเกตเวย์ ขั้นตอนการกำหนดค่า การมอบหมายที่มีข้อจำกัดของ Kerberos ที่ระบุไว้ในบทความนี้เหมือนกับการใช้งานลักษณะข้างบน (เพียงแค่ใช้ SID ของบริการ แทนที่จะเป็นบัญชีโดเมน)
+> ถ้ามีการกำหนดค่าของ Azure AD DirSync / Connect และบัญชีผู้ใช้มีการซิงโครไนซ์ บริการเกตเวย์ก็ไม่ต้องดำเนินการค้นหา AD ในเครื่องระหว่างที่ทำงาน และคุณสามารถใช้ SID ของบริการในเครื่อง (แทนที่จะต้องใช้บัญชีโดเมน) สำหรับบริการเกตเวย์ ขั้นตอนการกำหนดค่าการมอบหมายที่มีข้อจำกัดของ Kerberos ที่แสดงในบทความนี้จะเหมือนกับการกำหนดค่านั้น (จะใช้กับวัตถุคอมพิวเตอร์ของเกตเวย์ใน Active Directory แทนที่จะใช้บัญชีโดเมน)
 
 ### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>ข้อกำหนดเบื้องต้น 3: มีสิทธิ์ผู้ดูแลโดเมน เพื่อกำหนดค่า SPN (SetSPN) และตั้งค่า การมอบหมายที่มีข้อจำกัดของ Kerberos
 

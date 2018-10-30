@@ -7,20 +7,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 10/23/2018
 ms.author: maikelson
-ms.openlocfilehash: 126baf11492f05228d1e0637e27b5f2caa8390a3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473968"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952245"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
 ลงทะเบียนสำหรับการสัมมนาผ่านเว็บสดของเรากำลังเกิดขึ้น หรือดูของเราเซสชันที่บันทึกไว้ตามความต้องการ
 
 ## <a name="upcoming-webinars"></a>สัมมนาผ่านเว็บที่กำลังมาถึง
+
+**Power BI: การวิเคราะห์เสร็จสิ้นแล้ว**
+<br>โดย Gohul Shanmugalingam
+<br>*8 พฤศจิกายน พ.ศ. 2561 เวลา 13:00 น. - 14:00 น. EST*
+
+โทรหาผู้มีวิสัยทัศน์ด้านการวิเคราะหและ Excel ทุกคน: เรียนรู้วิธีสร้างรายงานที่สวยงามที่ผู้คนต้องการใช้หรือแบ่งปันข้อมูลเชิงลึกที่น่าสนใจซึ่งเข้าใจง่ายและแยกส่วนข้อมูลที่ซับซ้อนอย่างปลอดภัยลงในไซโลเพื่อให้สามารถเข้าถึงได้
+
+เราจะแบ่งปันนวัตกรรมผลิตภัณฑ์ใหม่และวิสัยทัศน์ของเราสำหรับ BI ขององค์กรที่ทันสมัยและ BI บริการตนเอง ช่วยให้องค์กรของคุณสามารถสร้างวัฒนธรรมที่ขับเคลื่อนด้วยข้อมูลได้
+
+[ลงทะเบียนเพื่อรับชมในวันที่ 8 พฤศจิกายนนี้](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**เสริมสร้างทักษะการสร้างแบบจำลองข้อมูลของคุณด้วย Power BI**
+<br>โดย Kasper de Jonge
+<br>*วันที่ 20 พฤศจิกายน พ.ศ. 2561 เวลา 11:00 น. – 12:00 น. PST*
+
+ลงทะเบียนสำหรับการสัมมนาทางเว็บนี้เพื่อพัฒนาทักษะการสร้างแบบจำลองด้วย Power BI ของคุณไปยังระดับต่อไป เรียนรู้เกี่ยวกับเครื่องมือวิเคราะห์ในหน่วยความจำ Power BI กลยุทธ์สำหรับการสร้างและจัดการความสัมพันธ์ของข้อมูล และวิธีใช้บริบทตัวกรอง Data Analysis Expressions (DAX) ค้นหาวิธีควบคุมความท้าทายในการสร้างแบบจำลองด้วย Power BI หรือ Azure Analysis Services
+
+[ลงทะเบียนเพื่อรับชมในวันที่ 20 พฤศจิกายนนี้](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
 
 >[การสัมมนาผ่านเว็บที่กำลังมาถึงจากชุมชน Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 

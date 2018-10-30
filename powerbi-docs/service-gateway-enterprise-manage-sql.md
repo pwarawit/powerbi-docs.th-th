@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2eb880ee512a3f13c56bb6dbf880209f05cdf7b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ff770320e0e6cd3f591e3318637a04977152e488
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296330"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101427"
 ---
 # <a name="manage-your-data-source---sql-server"></a>จัดการแหล่งข้อมูลของคุณ - SQL Server
 เมื่อคุณติดตั้งเกตเวย์ข้อมูลในองค์กรแล้ว คุณจะสามารถเพิ่มแหล่งข้อมูลที่สามารถใช้กับเกตเวย์ดังกล่าวได้ บทความนี้จะอธิบายวิธีการทำงานกับเกตเวย์และแหล่งข้อมูล คุณสามารถใช้แหล่งข้อมูล SQL Server สำหรับรีเฟรชตามกำหนดการ หรือ สำหรับ DirectQuery ได้
@@ -60,7 +60,7 @@ ms.locfileid: "34296330"
 และคุณจะต้องเลือก**วิธีการรับรองความถูกต้อง**ด้วย  ซึ่งสามารถเลือกเป็น**Windows**หรือ**Basic**ได้  คุณควรเลือก**Basic**ถ้าคุณต้องการใช้การรับรองความถูกต้องของ SQL แทนการรับรองความถูกต้องของ Windows จากนั้นใส่ข้อมูลประจำตัวที่จะใช้สำหรับแหล่งข้อมูลนี้
 
 > [!NOTE]
-> คิวรีทั้งหมดที่ไปยังแหล่งข้อมูลจะทำงานโดยใช้ข้อมูลประจำตัวเหล่านี้ เว้นแต่ว่า Kerberos Single Sign On (SSO) ได้รัับการกำหนดค่า และเปิดใช้งานสำหรับแหล่งข้อมูล SSO จะทำให้ชุดข้อมูลนำเข้าใช้ข้อมูลประจำตัวที่จัดเก็บไว้ แต่ชุดข้อมูล DirectQuery จะใช้ผู้ใช้ Power BI ปัจจุบันเพื่อดำเนินการคิวรีโดยใช้ SSO โปรดดูที่บทความเกตเวย์ข้อมูลภายในองค์กรเพื่อเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการจัดเก็บ[ข้อมูลประจำตัว](service-gateway-onprem.md#credentials) หรือดูที่บทความที่อธิบายวิธีการ[ใช้ Kerberos สำหรับ SSO (single sign-on) จาก Power BI ไปยังแหล่งข้อมูลภายในองค์กร](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)
+> คิวรีทั้งหมดที่ไปยังแหล่งข้อมูลจะทำงานโดยใช้ข้อมูลประจำตัวเหล่านี้ เว้นแต่ว่า Kerberos Single Sign On (SSO) ได้รัับการกำหนดค่า และเปิดใช้งานสำหรับแหล่งข้อมูล SSO จะทำให้ชุดข้อมูลนำเข้าใช้ข้อมูลประจำตัวที่จัดเก็บไว้ แต่ชุดข้อมูล DirectQuery จะใช้ผู้ใช้ Power BI ปัจจุบันเพื่อดำเนินการคิวรีโดยใช้ SSO โปรดดูที่บทความเกตเวย์ข้อมูลภายในองค์กรเพื่อเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการจัดเก็บ[ข้อมูลประจำตัว](service-gateway-onprem.md#credentials) หรือดูที่บทความที่อธิบายวิธีการ[ใช้ Kerberos สำหรับ SSO (single sign-on) จาก Power BI ไปยังแหล่งข้อมูลภายในองค์กร](service-gateway-sso-kerberos.md)
 > 
 > 
 
@@ -123,6 +123,6 @@ ms.locfileid: "34296330"
 * [เกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem.md)  
 * [เกตเวย์ข้อมูลในองค์กร - เชิงลึก](service-gateway-onprem-indepth.md)  
 * [แก้ไขปัญหาเกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem-tshoot.md)
-* [ใช้ Kerberos สำหรับ SSO (ลงชื่อเข้าใช้ครั้งเดียว) จาก Power BI ไปยังแหล่งข้อมูลภายในองค์กร](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md) 
+* [ใช้ Kerberos สำหรับ SSO (ลงชื่อเข้าใช้ครั้งเดียว) จาก Power BI ไปยังแหล่งข้อมูลภายในองค์กร](service-gateway-sso-kerberos.md) 
 * มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

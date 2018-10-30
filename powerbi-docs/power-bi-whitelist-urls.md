@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: cc7b24d273f8e83854f7e316f0c761e710e48160
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 7b57e0d5e303f2b342e2d7750741717b178a8f4e
+ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641976"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "50222116"
 ---
 # <a name="power-bi-urls"></a>URL ของ Power BI
 
@@ -70,7 +70,7 @@ Power BI ขึ้นอยู่กับจุดสิ้นสุดที�
 | --- | --- | --- | --- |
 | 1 | **จำเป็นต้องมี:** AppSource (แอปภายในหรือภายนอกใน Power BI) | appsource.microsoft.com </br> *.s microsoft.com  | TCP 443 |
 | 2 | **จำเป็น:** ลงชื่อเข้าใช้และรับข้อมูลสำหรับแพคเกจเนื้อหา | * github.com  | TCP 443 |
-| 3 | **ตัวเลือก:** นำเข้าไฟล์จาก OneDrive ส่วนบุคคล | ดู[URL และพอร์ตที่จำเป็นสำหรับไซต์ OneDrive](https://docs.microsoft.com/en-us/onedrive/required-urls-and-ports) | N/A |
+| 3 | **ตัวเลือก:** นำเข้าไฟล์จาก OneDrive ส่วนบุคคล | ดู[URL และพอร์ตที่จำเป็นสำหรับไซต์ OneDrive](https://docs.microsoft.com/onedrive/required-urls-and-ports) | N/A |
 | 4 | **ตัวเลือก:** Power BI ในวิดีโอบทช่วยสอน 60 วินาที | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
 | 5 | **ตัวเลือก:** แหล่งข้อมูลการสตรีม PubNub | ดู[เอกสาร PubNub](https://support.pubnub.com/support/solutions/articles/14000043522) | N/A |
 | | | |
@@ -93,7 +93,7 @@ Power BI ขึ้นอยู่กับจุดสิ้นสุดบา�
 | 1 | **จำเป็น:** นำเข้าวิชวลแบบกำหนดเองจากอินเทอร์เฟซ Marketplace หรือจากไฟล์ | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
 | 2 | **ตัวเลือก:** Bing Maps | bing.com </br> platform.bing.com </br> *.dynamic.tiles.virtualearth.net </br> *.virtualearth.net | TCP 443 |
 | 3 | **ตัวเลือก:** PowerApps | ดู[ส่วนบริการที่จะเป็น](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)จากไซต์ความต้องการของระบบ PowerApps | N/A |
-| 4 | **ตัวเลือก:** Visio | ดูเอกสารประกอบสำหรับ Office 365 [Office Online และ Url ทั่วไป ](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)ตลอดจน [SharePoint Online และ OneDrive for Business](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/A |
+| 4 | **ตัวเลือก:** Visio | ดูเอกสารประกอบสำหรับ Office 365 [Office Online และ Url ทั่วไป ](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)ตลอดจน [SharePoint Online และ OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/A |
 | | | |
 
 ## <a name="related-external-sites"></a>เว็บไซต์ภายนอกที่เกี่ยวข้อง

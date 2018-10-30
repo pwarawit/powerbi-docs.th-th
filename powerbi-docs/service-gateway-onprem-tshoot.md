@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474037"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101657"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>การแก้ไขปัญหา เกตเวย์ข้อมูลในองค์กร
 
@@ -446,7 +446,7 @@ GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 
 ## <a name="kerberos"></a>Kerberos
 
-ถ้าเซิร์ฟเวอร์ฐานข้อมูลเบื้องต้นและเกตเวย์ข้อมูลภายในองค์กรไม่ถูกกำหนดค่าอย่างเหมาะสมสำหรับ[การมอบหมายที่มีข้อจำกัดของ Kerberos](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md) ให้เปิดใช้งาน[การบันทึกอย่างละเอียด](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig)บนเกตเวย์ และตรวจสอบโดยยึดจากข้อผิดพลาด/การติดตามในแฟ้มบันทึกของเกตเวย์เป็นจุดเริ่มต้นสำหรับการแก้ไขปัญหา
+ถ้าเซิร์ฟเวอร์ฐานข้อมูลเบื้องต้นและเกตเวย์ข้อมูลภายในองค์กรไม่ถูกกำหนดค่าอย่างเหมาะสมสำหรับ[การมอบหมายที่มีข้อจำกัดของ Kerberos](service-gateway-sso-kerberos.md) ให้เปิดใช้งาน[การบันทึกอย่างละเอียด](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig)บนเกตเวย์ และตรวจสอบโดยยึดจากข้อผิดพลาด/การติดตามในแฟ้มบันทึกของเกตเวย์เป็นจุดเริ่มต้นสำหรับการแก้ไขปัญหา
 
 ### <a name="impersonationlevel"></a>ImpersonationLevel
 
