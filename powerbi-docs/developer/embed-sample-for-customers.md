@@ -3,18 +3,18 @@ title: ฝังเนื้อหา Power BI ลงในแอปพลิเ
 description: เรียนรู้วิธีการรวมหรือฝัง แดชบอร์ด, ไทล์ หรือรายงาน ลงในเว็บแอปด้วย Power BI API สำหรับลูกค้าของคุณ
 author: markingmyname
 ms.author: maghan
-ms.date: 06/20/2018
+manager: kfile
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-manager: kfile
-ms.openlocfilehash: 25667c76008c0ef6dd2d8560e2b23a31063276fa
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.date: 10/17/2018
+ms.openlocfilehash: d3076090b06cdb60b72c475fd156cc274985ea32
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974080"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435499"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>บทช่วยสอน: ฝังรายงาน Power BI แดชบอร์ด หรือไทล์ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ
 
@@ -36,7 +36,7 @@ ms.locfileid: "45974080"
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>ตั้งค่าสภาพแวดล้อมการพัฒนาการวิเคราะห์แบบฝังตัวของคุณ
 
-ก่อนที่คุณจะเริ่มการฝังรายงาน, แดชบอร์ด หรือไทล์ ลงในแอปพลิเคชันของคุณ คุณจำเป็นต้องตรวจสอบให้แน่ใจว่า สภาพแวดล้อมของคุณถูกตั้งค่าเพื่ออนุญาตให้ทำการฝัง โดยถือเป็นส่วนหนึ่งของการตั้งค่า คุณจะต้องทำสิ่งต่อไปนี้
+ก่อนที่คุณจะเริ่มฝังรายการ, แดชบอร์ด หรือไทล์ลงในแอปพลิเคชันของคุณ คุณจำเป็นต้องตรวจสอบให้แน่ใจว่าสภาพแวดล้อมเอื้ออำนวยต่อการฝังด้วย Power BI
 
 คุณสามารถเข้าถึง [เครื่องมือตั้งค่าการฝังตัว](https://aka.ms/embedsetup/AppOwnsData) เพื่อเริ่มต้นใช้งาน และดาวน์โหลดแอปพลิเคชันตัวอย่างที่ช่วยแนะนำคุณไปตามขั้นตอนการสร้างสภาพแวดล้อม และการฝังรายงานได้
 
@@ -44,26 +44,26 @@ ms.locfileid: "45974080"
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>ลงทะเบียนแอปพลิเคชันใน Azure Active Directory (Azure AD)
 
-คุณลงทะเบียนแอปพลิเคชันของคุณกับ Azure Active Directory เพื่ออนุญาตให้แอปพลิเคชันของคุณเข้าถึง Power BI REST API ซึ่งจะช่วยให้คุณสร้างข้อมูลประจำตัวสำหรับแอปพลิเคชันของคุณ และระบุสิทธิ์ไปยังแหล่งข้อมูล REST ของ Power BI ได้
+คุณลงทะเบียนแอปพลิเคชันของคุณกับ Azure Active Directory เพื่ออนุญาตให้แอปพลิเคชันของคุณเข้าถึง Power BI REST API การลงทะเบียนแอปพลิเคชันจะทำให้คุณสร้างอัตลักษณ์แอปพลิเคชันของคุณและระบุสิทธิ์ไปยังทรัพยากร Power BI REST
 
 1. ยอมรับ[เงื่อนไขของ Microsoft Power BI API](https://powerbi.microsoft.com/api-terms)
 
 2. ลงชื่อเข้าใช้[พอร์ทัล Azure](https://portal.azure.com)
 
-    ![พอร์ทัลหลัก Azure](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
+    ![พอร์ทัล Main ของ Azure](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-3. ในบานหน้าต่างนำทางด้านซ้าย เลือก**บริการทั้งหมด**เลือก**ทะเบียนแอป**และจากนั้น เลือก**ลงทะเบียนแอปพลิเคชันใหม่**
+3. ในบานหน้าต่างนำทางซ้ายมือ เลือก**บริการทั้งหมด** จากนั้นเลือก**การลงทะเบียนแอป** แล้วเลือก **ลงทะเบียนแอปพลิเคชันใหม่**
 
     ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![ลงทะเบียนแอปใหม่](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
-4. ทำตามพร้อมท์และสร้างแอปพลิเคชัน์ใหม่ สำหรับแอปเป็นเจ้าของข้อมูล คุณจำเป็นต้องใช้ชนิดของแอปพลิเคชันแบบ**ดั้งเดิม** คุณยังต้องให้ **URI ที่เปลี่ยนเส้นทาง** ซึ่ง **Azure AD** ใช้เพื่อส่งกลับผลลัพธ์โทเค็น ใส่ค่าที่เฉพาะสำหรับแอปพลิเคชันของคุณ (ตัวอย่างเช่น: `http://localhost:13526/Redirect`)
+4. ทำตามพร้อมท์และสร้างแอปพลิเคชัน์ใหม่ สำหรับแอปเป็นเจ้าของข้อมูล คุณต้องใช้ **พื้นถิ่น** สำหรับประเภทแอปพลิเคชัน คุณยังต้องให้ **URI ที่เปลี่ยนเส้นทาง** ซึ่ง **Azure AD** ใช้เพื่อส่งกลับผลลัพธ์โทเค็น ใส่ค่าที่เฉพาะสำหรับแอปพลิเคชันของคุณ (ตัวอย่างเช่น: `http://localhost:13526/Redirect`)
 
     ![สร้างแอป](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>นำสิทธิ์ไปใช้กับแอปพลิเคชันของคุณภายใน Azure Active Directory
 
-คุณจะต้องเปิดใช้งานสิทธิ์เพิ่มเติมให้กับแอปพลิเคชันของคุณ นอกเหนือจากสิทธิ์ที่มีในหน้าลงทะเบียนแอปพลิเคชัน คุณจะต้องเข้าสู่ระบบ ด้วยบัญชี*หลัก*ที่ใช้สำหรับฝังตัว หรือบัญชีผู้ดูแลระบบส่วนกลาง
+เปิดใช้งานสิทธิ์เพิ่มเติมสำหรับแอปพลิเคชันของคุณนอกเหนือจากที่มีในหน้าการลงทะเบียนแอป ลงชื่อเข้าใช้ด้วยบัญชี *หลัก* ที่คุณกำลังใช้เพื่อการฝัง บัญชีหลักจะต้องเป็นบัญชีผู้ดูแลทั่วไป
 
 ### <a name="use-the-azure-active-directory-portal"></a>ใช้พอร์ทัล Azure Active Directory
 
@@ -76,7 +76,7 @@ ms.locfileid: "45974080"
     ![สิทธิ์ที่จำเป็น](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
 
 3. เลือก **Azure Active Directory Windows** จากนั้นตรวจสอบว่าได้เลือก**การเข้าถึงไดเรกทอรีในฐานะผู้ใช้ที่เข้าสู่ระบบ** เลือก**บันทึก**
-   
+
     ![สิทธิ์ของ Windows Azure AD](media/embed-sample-for-customers/embed-sample-for-customers-011.png)
 
 4. เลือก**เพิ่ม**
@@ -91,14 +91,14 @@ ms.locfileid: "45974080"
 
     ![เลือกบริการของ PBI](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
-7. เลือกสิทธิ์ทั้งหมดใต้**สิทธิ์ที่ได้รับมอบ** คุณจำเป็นต้องเลือกทีละสิทธิ์ เพื่อบันทึกการเลือก เลือก**บันทึก**เมื่อทำเสร็จแล้ว
-   
+7. เลือกสิทธิ์ทั้งหมดใต้**สิทธิ์ที่ได้รับมอบ** เลือก**บันทึก**เมื่อทำเสร็จแล้ว
+
     ![เลือกสิทธิ์ที่ได้รับมอบสิทธิ์](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
 8. ภายใน**สิทธิ์ที่ต้องใช้**เลือก**ให้สิทธิ์**
-   
+
     เมื่อดำเนินการ**การให้สิทธิ์** คุณจำเป็นต้องมี*บัญชีหลัก*เพื่อมิต้องให้ Azure AD พร้อมท์ให้คุณทำการยินยอม ถ้าบัญชีที่ดำเนินการนี้เป็นผู้ดูแลระบบส่วนกลาง คุณจะต้องมอบสิทธิ์ให้แก่ผู้ใช้ทั้งหมดภายในองค์กรของคุณสำหรับแอปพลิเคชันนี้ ถ้าบัญชีที่ดำเนินการนี้เป็น*บัญชีผู้ใช้หลัก* และไม่ใช่ผู้ดูแลระบบส่วนกลาง คุณจะให้สิทธิ์แก่*บัญชีหลัก*สำหรับแอปพลิเคชันนี้ได้เท่านั้น
-   
+
     ![การให้สิทธิ์ภายในกล่องโต้ตอบสิทธิ์ที่ต้องใช้](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
 ## <a name="set-up-your-power-bi-environment"></a>ตั้งค่าสภาพแวดล้อม Power BI ของคุณ
@@ -107,11 +107,11 @@ ms.locfileid: "45974080"
 
 ถ้าคุณมีการฝังรายงาน, แดชบอร์ด หรือไทล์สำหรับลูกค้าของคุณ คุณจะต้องวางเนื้อหาของคุณภายในพื้นที่ทำงานแอป บัญชี*หลัก*จะต้องเป็นผู้ดูแลระบบของพื้นที่ทำงานแอป
 
-1. เริ่มต้นโดยการสร้างพื้นที่ทำงาน เลือก **พื้นที่ทำงาน** > **สร้างพื้นที่ทำงานแอป** นี่จะเป็นตำแหน่งที่วางเนื้อหาที่แอปพลิเคชันของคุณจะเข้าถึง
+1. เริ่มต้นโดยการสร้างพื้นที่ทำงาน เลือก **พื้นที่ทำงาน** > **สร้างพื้นที่ทำงานแอป** ในการสร้างพื้นที่ทำงาน วางเนื้อหาที่แอปพลิเคชันของคุณต้องเข้าถึง
 
     ![สร้างพื้นที่ทำงาน](media/embed-sample-for-customers/embed-sample-for-customers-020.png)
 
-2. ตั้งชื่อพื้นที่ทำงาน ถ้าชื่อ **ID พื้นที่ทำงาน**ที่ตรงกันไม่สามารถใช้ได้ แก้ไขให้ ID ใหม่มีค่าไม่ซ้ำกัน นี่จะเป็นชื่อของแอปด้วย
+2. ตั้งชื่อพื้นที่ทำงาน ถ้าชื่อ **ID พื้นที่ทำงาน**ที่ตรงกันไม่สามารถใช้ได้ แก้ไขให้ ID ใหม่มีค่าไม่ซ้ำกัน
 
     ![ตั้งชื่อพื้นที่ทำงาน](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
 
@@ -161,29 +161,31 @@ ms.locfileid: "45974080"
 
     ![ตัวอย่างแอปพลิเคชัน แอปเป็นเจ้าของข้อมูล](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-2. เปิดแฟ้ม Web.config ในแอปพลิเคชันตัวอย่าง มีเขตข้อมูล 5 เขตที่คุณจะต้องใส่ เพื่อให้เรียกใช้แอปพลิเคชัน **clientID**, **groupId**, **reportId**, **pbiUsername** และ **pbiPassword**
+2. เปิดแฟ้ม Web.config ในแอปพลิเคชันตัวอย่าง คุณต้องป้อนทั้ง 5 ช่อง เพื่อเรียกใช้แอปพลิเคชันให้สำเร็จ **applicationId**, **workspaceId**, **reportId**, **pbiUsername** และ **pbiPassword**
 
     ![แฟ้ม Web.config](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-    กรอกข้อมูล **clientId** ด้วย **ID แอปพลิเคชัน**จาก **Azure** **clientId** ให้แอปพลิเคชันใช้ระบุตัวเองระหว่างการร้องขอสิทธิ์กับผู้ใช้ เพื่อรับ **clientId** ทำตามขั้นตอนเหล่านี้:
+    ป้อนข้อมูล **applicationId** ด้วย **ID แอปพลิเคชัน** จาก **Azure** แอปพลิเชันจะใช้ **applicationId** เพื่อระบุตัวเองไปยังผู้ใช้จากที่คุณกำลังขอสิทธิ์ สำหรับวิธีรับ **applicationId** ให้ทำตามขั้นตอนต่อไปนี้:
 
     ลงชื่อเข้าใช้[พอร์ทัล Azure](https://portal.azure.com)
 
-    ![พอร์ทัลหลัก Azure](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
+    ![พอร์ทัล Main ของ Azure](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-    ในบานหน้าต่างนำทางด้านซ้าย เลือก**บริการทั้งหมด** และเลือก**การลงทะเบียนแอป**
+    ในบานหน้าต่างนำทางซ้ายมือ เลือก **บริการทั้งหมด** และเลือก **การลงทะเบียนแอป**
 
-    ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-customers/embed-sample-for-customers-003.png) เลือกแอปพลิเคชั่นที่คุณต้องการรับ**clientId** ที่ต้องการใช้
+    ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+
+    เลือกแอปพลิเคชันที่ต้องการรับ **applicationId**
 
     ![การเลือกแอป](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    คุณควรจะเห็น **ID แอปพลิเคชัน** ที่แสดงในรูปของ GUID ใช้ **ID แอปพลิเคชัน**นี้เป็นค่า **clientId** สำหรับแอปพลิเคชัน
+    คุณควรจะเห็น **ID แอปพลิเคชัน** ที่แสดงในรูปของ GUID ใช้ **ID แอปพลิเคชัน** นี้เป็น **applicationId** สำหรับแอปพลิเคชัน
 
-    ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    กรอกข้อมูล **groupId** ด้วย **GUID พื้นที่ทำงานของแอป**จาก Power BI
+    ป้อนข้อมูล **workspaceId** ด้วย **พื้นที่ทำงานแอปพลิเคชัน GUID** จาก Power BI
 
-    ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+    ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
     กรอกข้อมูล **reportId** ด้วย **GUID รายงาน**จาก Power BI
 
@@ -212,7 +214,7 @@ ms.locfileid: "45974080"
 
 การฝังตัวสำหรับลูกค้าของคุณภายในแอปพลิเคชันคุณ จำเป็นต้องให้คุณรับ**โทเค็นการเข้าถึง**สำหรับบัญชีหลักของคุณจาก **Azure AD** จำเป็นต้องได้รับ[โทเค็นการเข้าถึง Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) สำหรับแอปพลิเคชัน Power BI ของคุณ**โดยใช้แอปเป็นเจ้าของข้อมูล** ก่อนที่คุณจะเรียกใช้ [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/).
 
-เมื่อสร้าง Power BI Client ด้วย**โทเค็นการเข้าถึง**ของคุณ คุณสามารถสร้างวัตถุ Power BI Client ได้ ซึ่งจะทำให้คุณสามารถโต้ตอบกับ[Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/) สิ่งนี้ทำได้โดยการนำ **โทเค็นการเข้าถึง** ด้วยวัตถุ ***Microsoft.Rest.TokenCredentials***
+ในการสร้าง Power BI Client ด้วย **โทเค็นการเข้าถึง** คุณต้องการสร้างวัตถุไคลเอ็นต์ Power BI ซึ่งช่วยให้คุณสามารถติดต่อกับ [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/) ได้ สิ่งนี้ทำได้โดยการนำ **โทเค็นการเข้าถึง** ด้วยวัตถุ ***Microsoft.Rest.TokenCredentials***
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -240,8 +242,8 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
 
 // Get the first report in the group.
 Report report = reports.Value.FirstOrDefault();
@@ -261,7 +263,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new EmbedConfig()
@@ -275,6 +277,7 @@ var embedConfig = new EmbedConfig()
 ตัวอย่างต่อไปนี้ ถือว่ามีการสร้างคลาสสำหรับ **EmbedConfig** และ **TileEmbedConfig** อยู่ก่อนแล้ว ตัวอย่างมีให้ในไฟล์ **Models\EmbedConfig.cs** และไฟล์ **Models\TileEmbedConfig.cs**
 
 ### <a name="load-an-item-using-javascript"></a>โหลดเนื้อหาโดยใช้ JavaScript
+
 คุณสามารถใช้ JavaScript เพื่อโหลดรายงานลงในองค์ประกอบ div บนเว็บเพจของคุณ
 
 สำหรับตัวอย่างแบบเต็มของการใช้ JavaScript API คุณสามารถใช้[เครื่องมือ Playground](https://microsoft.github.io/PowerBI-JavaScript/demo) ได้ นี่คือวิธีที่รวดเร็วเพื่อลองเล่นกับตัวอย่าง Power BI Embedded ชนิดต่าง ๆ กัน คุณยังสามารถรับข้อมูลเพิ่มเติมเกี่ยวกับ JavaScript API โดยเข้าดูที่หน้า [Powerbi-javascript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) ได้
@@ -336,12 +339,12 @@ var embedConfig = new EmbedConfig()
 
 | โหนดของความจุ | แกนทั้งหมด<br/>*(Backend + frontend)* | Backend Cores | Frontend Cores | การจำกัดการเชื่อมต่อ DirectQuery/live | หน้าสูงสุดที่แสดงในชั่วโมงที่เรียกใช้มากที่สุด |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 v-core(s) |.5 core(s), 3GB RAM |.5 cores | 5 ต่อวินาที |1-300 |
-| A2 |2 v-core(s) |1 core(s), 5GB RAM |1 cor(e) | 10 ต่อวินาที |301-600 |
-| A3 |4 v-core(s) |2 core(s), 10GB RAM |2 core(s) | 15 ต่อวินาที |601-1,200 |
-| A4 |8 v-core(s) |4 core(s), 25GB RAM |4 core(s) |30 ต่อวินาที |1,201-2,400 |
-| A5 |16 v-core(s) |8 core(s), 50GB RAM |8 core(s) |60 ต่อวินาที |2,401-4,800 |
-| A6 |32 v-core(s) |16 core(s), 100GB RAM |16 core(s) |120 ต่อวินาที |4,801-9600 |
+| A1 |1 v-core(s) |0.5 core(s), 3-GB RAM |0.5 cores |0 5 per second |1-300 |
+| A2 |2 v-core(s) |1 core(s), 5-GB RAM |1 cor(e) | 10 ต่อวินาที |301-600 |
+| A3 |4 v-core(s) |2 core(s), 10-GB RAM |2 core(s) | 15 ต่อวินาที |601-1,200 |
+| A4 |8 v-core(s) |4 core(s), 25-GB RAM |4 core(s) |30 ต่อวินาที |1,201-2,400 |
+| A5 |16 v-core(s) |8 core(s), 50-GB RAM |8 core(s) |60 ต่อวินาที |2,401-4,800 |
+| A6 |32 v-core(s) |16 core(s), 100-GB RAM |16 core(s) |120 ต่อวินาที |4,801-9600 |
 
 **_ด้วย A SKU คุณไม่สามารถเข้าถึงเนื้อหา Power BI ที่มีสิทธิ์การใช้งาน Power BI ฟรี_**
 
@@ -361,7 +364,7 @@ var embedConfig = new EmbedConfig()
 
     ![กำหนดความจุเฉพาะ](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. หลังจากที่คุณเลือก **บันทึก** คุณควรเห็น **ข้าวหลามตัด** ถัดจากชื่อพื้นที่ทำงานแอป
+3. หลังจากเลือก **บันทึก** คุณควรจะเห็น **รูปข้าวหลามตัด** ถัดจากชื่อพื้นที่ทำงานแอพลิเคชัน
 
     ![เชื่อมโยงพื้นที่ทำงานของแอปไปยังความจุ](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
@@ -372,4 +375,4 @@ var embedConfig = new EmbedConfig()
 > [!div class="nextstepaction"]
 >[ฝังตัวสำหรับองค์กรของคุณ](embed-sample-for-your-organization.md)
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)

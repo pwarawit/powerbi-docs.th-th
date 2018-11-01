@@ -1,6 +1,6 @@
 ---
 title: วิชวล KPI
-description: ในบทช่วยสอนนี้ คุณจะสร้างภาพ KPI ใน Power BI Desktop
+description: สร้างวิชวล KPI ใน Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -11,14 +11,14 @@ ms.topic: tutorial
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 67786351732088b4db52b0c57230683d99fc158a
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: aec8bc2d7faa8d3c4b9c7b4eb69ed9a930cfbcd1
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186925"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417245"
 ---
-# <a name="tutorial-create-kpi-visuals"></a>บทช่วยสอน: สร้างภาพ KPI
+# <a name="kpi-visuals"></a>วิชวล KPI
 ดัชนีประสิทธิภาพหลัก (KPI) เป็นภาพสัญลักษณ์ที่แสดงปริมาณความก้าวหน้าของงานที่ทำเพื่อมุ่งไปยังเป้าหมายที่วัดผลได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ KPI ดู [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)
 
 ถ้าคุณไม่ได้ลงทะเบียน Power BI ให้[ลงทะเบียนรุ่นทดลองใช้ฟรี](https://app.powerbi.com/signupredirect?pbi_source=web)ก่อนที่คุณจะเริ่มต้นใช้งาน
@@ -26,13 +26,6 @@ ms.locfileid: "47186925"
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 * [Power BI Desktop - ฟรี!](https://powerbi.microsoft.com/en-us/get-started/)
 * [ไฟล์ PBIX ตัวอย่างการวิเคราะห์การขายปลีก](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
-
-## <a name="in-this-tutorial-you-will-learn"></a>ในบทช่วยสอนนี้ คุณจะได้เรียนรู้
-> [!div class="checklist"]
-> * วิธีการสร้าง KPI
-> * สถานการณ์ที่ดีที่สุดสำหรับภาพ KPI
-> * วิธีการจัดรูปแบบ KPI
-> * ข้อกำหนดสำหรับภาพ KPI
 
 ## <a name="when-to-use-a-kpi"></a>เมื่อต้องการใช้ KPI
 KPI เป็นตัวเลือกที่ดีที่สุด:
@@ -58,13 +51,13 @@ KPI เป็นตัวเลือกที่ดีที่สุด:
 3. เพิ่ม**เวลา > เดือนการเงิน**  เพื่อแสดงแนวโน้ม
 4. สิ่งสำคัญ: เรียงลำดับแผนภูมิตาม**เดือนงบประมาณ** เมื่อคุณแปลงการแสดงภาพเป็น KPI จึงไม่มีตัวเลือกการเรียงลำดับ
 
-    ![](../media/power-bi-visualization-kpi/power-bi-chart.png)
+    ![](media/power-bi-visualization-kpi/power-bi-chart.png)
 5. แปลงภาพเป็น KPI โดยเลือกไอคอน KPI จากบานหน้าต่างการแสดงภาพ
    
-    ![](../media/power-bi-visualization-kpi/power-bi-kpi-template.png)
+    ![](media/power-bi-visualization-kpi/power-bi-kpi-template.png)
 6. เพิ่มเป้าหมาย เพิ่มยอดขายของปีล่าสุดเป็นเป้าหมาย ลาก**หน่วยรวมปีที่แล้ว**ไปยังเขตข้อมูล**เป้าหมาย**
    
-    ![]../(media/power-bi-visualization-kpi/power-bi-kpi-done.png)
+    ![](media/power-bi-visualization-kpi/power-bi-kpi-done.png)
 7. อีกทางหนึ่งคือ จัดรูปแบบ KPI โดยเลือกไอคอน ลูกกลิ้งทาสี เพื่อเปิดบานหน้าต่างการจัดรูปแบบ
    
    * **ตัวดัชนี** - ควบคุมหน่วยแสดงผลของตัวดัชนีและตำแหน่งทศนิยม
@@ -78,5 +71,8 @@ KPI จะพร้อมใช้งาน ในบริการของ Po
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
 * ถ้า KPI ของคุณไม่มีลักษณะคล้ายกับด้านบน อาจเป็นเพราะคุณจำเป็นต้องเรียงลำดับตามเดือนทางบัญชี เนื่องจาก KPI ไม่มีตัวเลือกการเรียงลำดับ คุณจะต้องเรียงลำดับตามเดือนทางบัญชี*ก่อน*คุณแปลงภาพของคุณเป็น KPI
 
-> [!div class="nextstepaction"]
-> [สร้างภาพการวัด](power-bi-visualization-radial-gauge-charts.md)
+## <a name="next-steps"></a>ขั้นตอนถัดไป
+
+[แผนที่พื้นฐานใน Power BI](power-bi-map-tips-and-tricks.md)
+
+[ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

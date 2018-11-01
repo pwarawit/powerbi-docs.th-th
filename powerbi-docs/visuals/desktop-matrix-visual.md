@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c176cff4973ee73218bf9e568d01f15bd137929
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 0cf9c152c9481e223a143bed3985e883c92af192
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187064"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416831"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>ใช้วิชวลเมทริกซ์ใน Power BI Desktop
 ด้วยคุณลักษณะวิชวล**เมทริกซ์** คุณสามารถสร้างวิชวลเมทริกซ์ (บางครั้งเรียกว่า*ตาราง*) ในรายงาน **Power BI Desktop** และทำไฮไลต์เชื่อมโยงองค์ประกอบภายในเมทริกซ์ กับวิชวลอื่น ๆ นอกจากนี้ คุณยังสามารถเลือกแถว คอลัมน์ และแม้แต่ละเซลล์ และทำไฮไลต์เชื่อมโยง สุดท้าย เพื่อทำให้ใช้งานพื้นที่เค้าโครงได้ดียิ่งขึ้น วิชวลเมทริกซ์สนับสนุนรูปแบบขั้น
@@ -153,10 +153,6 @@ ms.locfileid: "47187064"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-คุณอาจสนใจบทความต่อไปนี้:
+[แผนภูมิแบบกระจายและแบบฟองสบู่ใน Power BI](power-bi-visualization-scatter.md)
 
-* [ใช้เส้นตาราง และจัดชิดเส้นตาราง ในรายงาน Power BI Desktop](../desktop-gridlines-snap-to-grid.md)
-* [แหล่งข้อมูลใน Power BI Desktop](../desktop-data-sources.md)
-* [ชนิดข้อมูลใน Power BI Desktop](../desktop-data-types.md)
-
- 
+[ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

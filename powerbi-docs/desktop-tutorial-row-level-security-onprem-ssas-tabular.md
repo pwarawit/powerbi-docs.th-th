@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456145"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101588"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>การรักษาความปลอดภัยระดับแถวแบบไดนามิกกับรูปแบบตารางข้อมูล Analysis Services
 บทช่วยสอนนี้จะแสดงให้เห็นขั้นตอนที่จำเป็นในการใช้**การรักษาความปลอดภัยระดับแถว**ภายใน**รูปแบบตารางข้อมูล Analysis Services** ของคุณและแสดงวิธีใช้ในรายงาน Power BI ขั้นตอนนี้ให้คุณทำตามและเรียนรู้ขั้นตอนต่างๆ ที่จำเป็นโดยกรอกข้อมูลในชุดข้อมูลตัวอย่าง
@@ -72,6 +72,9 @@ ms.locfileid: "34456145"
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     ในสูตรนี้ ฟังก์ชัน **LOOKUPVALUE** จะส่งกลับค่าทั้งหมดสำหรับคอลัมน์ **DimUserSecurity [SalesTerritoryID]** ซึ่ง **DimUserSecurity [UserName]** จะเหมือนกับชื่อผู้ใช้ปัจจุบันที่เข้าสู่ระบบ Windows และ **DimUserSecurity [SalesTerritoryID]** จะเหมือนกับ **DimSalesTerritory [SalesTerritoryKey]**
    
+    > [!IMPORTANT]
+    > โปรดทราบว่า [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax) ของฟังก์ชัน DAX จะไม่ได้รับการรองรับหากใช้การรักษาความปลอดภัยระดับแถว
+
    ชุด SalesTerritoryKey ของการขายที่ส่งกลับโดย **LOOKUPVALUE** จะใช้เพื่อจำกัดแถวที่แสดงใน **DimSalesTerritory** เฉพาะแถวที่ **SalesTerritoryKey** ของแถวที่อยู่ในชุดของรหัสที่ส่งกลับโดยฟังก์ชัน **LOOKUPVALUE** จะปรากฏขึ้น
 8. สำหรับตาราง **DimUserSecurity** ในคอลัมน์**ตัวกรอง DAX** ให้พิมพ์สูตรต่อไปนี้:
    

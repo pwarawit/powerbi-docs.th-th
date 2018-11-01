@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 1de9624dfde73baf424a21ed4d587d086c1d6763
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 7a034e865b0e0b6ba55385f8873d039dba0662db
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187271"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396968"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>กรองรายงานโดยใช้พารามิเตอร์สตริงของแบบสอบถามใน URL
 
@@ -137,7 +137,7 @@ Power BI สนับสนุน OData V3 และ V4 สำหรับชน
 |---------|---------|---------|
 |**ชื่อตาราง**     | ช่องว่าง คือ 0x20        |  Table_x0020_Name       |
 |**Column**@**Number**     |   @ คือ 0x40     |  Column_x0040_Number       |
-|**[Column]**     |  [คือ 0x005B] คือ 0x0050       |  _x0058_Column_x0050       |
+|**[Column]**     |  [คือ 0x0058] คือ 0x0050       |  _x0058_Column_x0050       |
 |**Column+Plus**     | + คือ 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3![ ภาพตารางแสดงอักขระพิเศษ](media/service-url-filters/power-bi-special-characters1.png)
@@ -169,12 +169,14 @@ TerritoryChain = [Territory] & "-" & [Chain]
 
 * เมื่อใช้ตัวดำเนินการ *in* ค่าทางด้านขวาของ *in* ต้องเป็นรายการที่คั่นด้วยจุลภาคที่อยู่ในวงเล็บ    
 * ในเซิร์ฟเวอร์รายงาน Power BI คุณสามารถ[ผ่านพารามิเตอร์รายงาน](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)ได้โดยการรวมพารามเตอร์เหล่านั้นใน URL รายงานได้ พารามิเตอร์ URL เหล่านี้ไม่มีคำนำหน้าเนื่องจากจะถูกส่งผ่านโดยตรงไปยังเอ็นจินประมวลผลรายงาน
-* การกรองสตริงแบบสอบถามใช้ไม่ได้กับ [เผยแพร่ไปยังเว็บ](service-publish-to-web.md) หรือ Power BI Embedded   
+* การกรองสตริงแบบสอบถามใช้ไม่ได้กับ [เผยแพร่ไปยังเว็บ](service-publish-to-web.md)
+* [ฝังด้วยส่วนเว็บรายงานใน SharePoint Online](service-embed-report-spo.md) จะไม่รองรับตัวกรอง URL
 * ชนิดข้อมูล long คือ (2^53-1) เนื่องจากข้อจำกัดของ Javascript
+* ตัวกรองรายงาน URL จำกัดที่ 10 นิพจน์ (AND เชื่อมต่อ 10 ตัวกรอง)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 [ปักหมุดการแสดงภาพไปยังแดชบอร์ด](service-dashboard-pin-tile-from-report.md)  
 [ลงทะเบียนเพื่อขอรับรุ่นทดลองใช้ฟรี](https://powerbi.microsoft.com/get-started/)
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
