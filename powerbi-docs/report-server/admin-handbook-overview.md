@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 10/24/2018
 ms.author: maghan
-ms.openlocfilehash: 1dbca883bc4df2bde743963db7994361616be192
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2c8319395bd4daf44562f71380fc254964708c2b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721926"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100622"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>ภาพรวมของการดูแลระบบ เซิร์ฟเวอร์รายงาน Power BI
-บทความนี้เป็นภาพรวมของการดูแลระบบเซิร์ฟเวอร์รายงาน Power BI ที่ตั้งอยู่ภายในองค์กรสำหรับจัดเก็บและจัดการ รายงาน Power BI, Power BI สำหรับอุปกรณ์เคลื่อนที่ และรายงานที่มีการแบ่งหน้า บทความนี้แนะนำแนวคิดของการวางแผน, การปรับใช้ และการจัดการเซิร์ฟเวอร์รายงาน Power BI ของคุณ พร้อมลิงก์ไปยังข้อมูลเพิ่มเติม
+บทความนี้เป็นภาพรวมของการดูแลระบบเซิร์ฟเวอร์รายงาน Power BI ที่ตั้งอยู่ภายในองค์กรสำหรับจัดเก็บและจัดการ รายงาน Power BI, Power BI สำหรับอุปกรณ์เคลื่อนที่ และรายงานที่มีการแบ่งหน้า บทความนี้แนะนำแนวคิดของการวางแผน การปรับใช้ และการจัดการเซิร์ฟเวอร์รายงาน Power BI ของคุณ พร้อมลิงก์ไปยังข้อมูลเพิ่มเติม
 
 ![](media/admin-handbook-overview/admin-handbook.png)
 
@@ -44,13 +44,13 @@ ms.locfileid: "34721926"
 ส่วนใหญ่ของการกำหนดค่าจะเกิดขึ้นภายในตัวจัดการการกำหนดค่าเซิร์ฟเวอร์รายงาน ลองดูเอกสารประกอบ[การจัดการการกำหนดค่า](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)สำหรับรายละเอียดเพิ่มเติม
 
 ## <a name="security"></a>ความปลอดภัย
-ความปลอดภัยและการป้องกันมีความสำคัญสำหรับทุกองค์กร คุณสามารถเรียนรู้เกี่ยวกับการรับรองความถูกต้อง การอนุญาต บทบาท และสิทธิ์บนเอกสารประกอบด้าน[ความปลอดภัย](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection)
+ความปลอดภัยและการป้องกันมีความสำคัญสำหรับทุกองค์กร คุณสามารถเรียนรู้เกี่ยวกับการรับรองความถูกต้อง การอนุญาต บทบาท และสิทธิ์ได้ในเอกสารประกอบด้าน[ความปลอดภัย](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [ติดตั้ง Power BI Report Server](install-report-server.md)  
 [ค้นหาคีย์ผลิตภัณฑ์ของเซิร์ฟเวอร์รายงานคุณ](find-product-key.md)  
 [ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับ Power BI Report Server](install-powerbi-desktop.md)  
-[ติดตั้งตัวสร้างรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[ดาวน์โหลดตัวสร้างรายงาน](https://www.microsoft.com/download/details.aspx?id=53613)  
 [ดาวน์โหลด SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

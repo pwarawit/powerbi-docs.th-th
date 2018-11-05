@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: cda575c11be90c8e18a3a9f3b8325ccf674afffc
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: b068516b13b3aab134b20f95939c75a5b6e949b5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337093"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101703"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -341,7 +341,7 @@ ms.locfileid: "49337093"
 
 ### <a name="reporting"></a>การรายงาน
 
-* รายงานหน้าคำแนะนำเครื่องมือ[[วิดีโอ]](https://youtu.be/kuI6MMzDh34?t=16s) [[บทความ]]()[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* รายงานหน้าคำแนะนำเครื่องมือ[[วิดีโอ]](https://youtu.be/kuI6MMzDh34?t=16s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
 * ตอนนี้บุ๊กมาร์กพร้อมให้บริการโดยทั่วไปแล้ว [[วิดีโอ]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[บทความ]](desktop-bookmarks.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
 * หน่วยแสดงผลและการควบคุมความแม่นยำสำหรับคอลัมน์ตาราง และคอลัมน์เมทริกซ์ [[วิดีโอ]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[บทความ]](desktop-slicer-numeric-range.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
 * ปิดส่วนหัวที่มองเห็นในโหมดการอ่านสำหรับรายงาน [[วิดีโอ]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 

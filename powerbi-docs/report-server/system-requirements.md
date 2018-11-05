@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 06/13/2018
+ms.date: 10/24/2018
 ms.author: maghan
-ms.openlocfilehash: c2784bf8e8dca857ae2a1b55d1ad8560e552cafb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 397bc6f1582ff49f665f25559925d5b7e19e0fd5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37780605"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101335"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>ข้อกำหนดฮาร์ดแวร์และซอฟต์แวร์สำหรับติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 ที่นี่คุณจะพบข้อกำหนดขั้นต่ำของฮาร์ดแวร์และซอฟต์แวร์เพื่อติดตั้งและเรียกใช้เซิร์ฟเวอร์รายงาน Power BI
@@ -69,7 +69,7 @@ SQL Server ถูกใช้เพื่อโฮสต์ฐานข้อม
 [เซิร์ฟเวอร์รายงาน Power BI คืออะไร](get-started.md)  
 [ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
 [ติดตั้ง Power BI Report Server](install-report-server.md)  
-[ติดตั้งตัวสร้างรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[ดาวน์โหลดตัวสร้างรายงาน](https://www.microsoft.com/download/details.aspx?id=53613)  
 [ดาวน์โหลด SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

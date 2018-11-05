@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 882fdad2b29c9bd21ea0b979d5009dee86304159
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4faaa63a3845125b4df1ec634d22b084b5ae25f2
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548154"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101220"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>เชื่อมต่อกับ Azure Audit Logs ด้วย Power BI
 ด้วยชุดเนื้อหาของบันทึกการตรวจสอบ Azure คุณสามารถวิเคราะห์และแสดงผลข้อมูลที่จัดเก็บไว้ในบันทึกการตรวจสอบได้ Power BI ดึงข้อมูลของคุณ สร้างแดชบอร์ดที่ใช้งานทันที และสร้างรายงานที่ยึดตามข้อมูลนั้น
@@ -32,13 +32,13 @@ ms.locfileid: "46548154"
 3. เลือก**Azure Audit Logs** > **รับ**  
    
    ![](media/service-connect-to-azure-audit-logs/azureauditlogs.png)
-4. เมื่อได้รับข้อความปรากฏ ให้ใส่ **ID การสมัครใช้งาน Azure** ของคุณ ดูรายละเอียดในการค้นหา[ID การสมัครใช้งาน](#FindingParams)ของคุณที่ด้านล่าง   
+4. เมื่อถูกถาม ให้ป้อน**ID การสมัครใช้งาน Azure** ดูรายละเอียดในการค้นหา[ID การสมัครใช้งาน](#FindingParams)ของคุณที่ด้านล่าง   
    
     ![](media/service-connect-to-azure-audit-logs/parameters.png)
 5. สำหรับ **วิธีการรับรองความถูกต้อง** ให้เลือก **oAuth2** \> **ลงชื่อเข้าใช้**
    
     ![](media/service-connect-to-azure-audit-logs/creds.png)
-6. ใส่ข้อมูลประจำตัวของบัญชีผู้ใช้เพื่อเสร็จสิ้นกระบวนการลงชื่อเข้าใช้
+6. ใส่ข้อมูลประจำตัวของบัญชีผู้ใช้ เพื่อให้กระบวนการลงชื่อเข้าใช้เสร็จสิ้น
    
     ![](media/service-connect-to-azure-audit-logs/login.png)
 7. Power BI จะดึงข้อมูลบันทึกการตรวจสอบ Azure ของคุณและสร้างแดชบอร์ดและรายงานแบบพร้อมใช้งานขึ้น 
@@ -53,7 +53,7 @@ ms.locfileid: "46548154"
 * แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="system-requirements"></a>ความต้องการของระบบ
-ชุดเนื้อหาในบันทึกการตรวจสอบ Azure จำเป็นต้องมีการเข้าถึงบันทึกการตรวจสอบในพอร์ทัล Azure รายละเอียดเพิ่มเติม[ที่นี่](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/)
+ชุดเนื้อหาบันทึกการตรวจสอบของ Azure กำหนดให้มีการเข้าถึง บันทึกการตรวจสอบ ในพอร์ทัล Microsoft Azure รายละเอียดเพิ่มเติม[ที่นี่](/azure/azure-resource-manager/resource-group-audit/)
 
 <a name="FindingParams"></a>
 
@@ -63,10 +63,10 @@ ms.locfileid: "46548154"
 1. จาก https://portal.azure.com -&gt;เรียกดู -&gt; การสมัคร -&gt; รหัสการสมัครใช้งาน
 2. จาก https://manage.windowsazure.com -&gt;การตั้งค่า -&gt; รหัสการสมัครใช้งาน
 
-ID การสมัครใช้งานของคุณจะเป็นชุดของตัวเลขและตัวอักษร คล้ายกับตัวอย่างในขั้นตอนที่\#4 ข้างต้น 
+ID การสมัครใช้งานจะเป็นชุดของตัวเลขและตัวอักษร คล้ายกับตัวอย่างในขั้นตอนที่ \#4 ข้างต้น 
 
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
-ถ้าคุณเห็นข้อผิดพลาดข้อมูลประจำตัวหรือมีข้อผิดพลาดในการพยายามรีเฟรชเนื่องจากข้อมูลประจำตัวไม่ถูกต้อง โปรดลองลบตัวอย่างทั้งหมดของชุดเนื้อหาบันทึกการตรวจสอบ Azure และเชื่อมต่ออีกครั้ง
+ถ้าคุณเห็นข้อผิดพลาดของข้อมูลประจำตัว หรือมีข้อผิดพลาดในการพยายามรีเฟรชเนื่องจากข้อมูลประจำตัวไม่ถูกต้อง โปรดลองลบอินสแตนซ์ทั้งหมดของชุดเนื้อหาบันทึกการตรวจสอบ Azure และเชื่อมต่ออีกครั้ง
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [Power BI คืออะไร](power-bi-overview.md)  

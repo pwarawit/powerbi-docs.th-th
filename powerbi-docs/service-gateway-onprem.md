@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: b56134314b9396dff1b965786e65e62129e5e7b9
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 2758ef661b70c53a37104c67c4012be79725990e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558458"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101496"
 ---
 # <a name="on-premises-data-gateway"></a>เกตเวย์ข้อมูลภายในองค์กร
 
@@ -47,9 +47,9 @@ ms.locfileid: "45558458"
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>ดาวน์โหลด และติดตั้งเกตเวย์ข้อมูลในองค์กร
 
-ในการดาวน์โหลดเกตเวย์ ให้เลือก**เกตเวย์ข้อมูล**ภายใต้เมนูดาวน์โหลด ดาวน์โหลด[เกตเวย์ข้อมูลภายในองค์กร](http://go.microsoft.com/fwlink/?LinkID=820925) 
+ในการดาวน์โหลดเกตเวย์ ให้เลือก**เกตเวย์ข้อมูล**ภายใต้เมนูดาวน์โหลด ดาวน์โหลด[เกตเวย์ข้อมูลภายในองค์กร](http://go.microsoft.com/fwlink/?LinkID=820925)
 
-สังเกตว่า การปรับปรุงเกตเวย์ข้อมูลในองค์กร จะทำโดยการติดตั้งเกตเวย์ใหม่ ตามที่อธิบายไว้ในส่วนนี้ เมื่ออัปเดตเกตเวย์ (โดยการติดตั้งใหม่) การตั้งค่าเกตเวย์ที่มีอยู่ของคุณจะยังคงอยู่
+สังเกตว่าคุณอัปเดตเกตเวย์ข้อมูลแบบติดตั้งภายในองค์กร โดยการติดตั้งเกตเวย์อีกครั้งตามที่อธิบายไว้ในส่วนนี้ การตั้งค่าปัจจุบันของคุณจะยังคงอยู่ ตราบเท่าที่คุณติดตั้งเกตเวย์เวอร์ชันใหม่ ถ้าคุณติดตั้งเวอร์ชันเดิม ระบบจะถือว่าเป็นการติดตั้งซ้ำ และจะไม่เก็บการตั้งค่าของคุณไว้
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 

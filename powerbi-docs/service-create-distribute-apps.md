@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 62950462f60fea6db44a9756eff8f99a6841d1d4
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: 3881e37fa5e97939265e9bb9362cee65a1030e67
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435453"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100829"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>เผยแพร่แอปที่มีแดชบอร์ดและรายงานใน Power BI
 
@@ -63,7 +63,7 @@ ms.locfileid: "49435453"
    
      ![เนื้อหาของแอปฯ](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-5. ที่**การเข้าถึง** ตัดสินใจว่าใครที่สามารถเข้าถึงแอปฯได้: ไม่ว่าจะเป็นทุกคนในองค์กรของคุณ หรือบุคคลที่เฉพาะเจาะจง หรือกลุ่มความปลอดภัย Active Directory ถ้าคุณมีสิทธิ์ต่าง ๆ คุณสามารถตัดสินใจที่จะติดตั้งแอปฯโดยอัตโนมัติสำหรับผู้รับได้ คุณสามารถเปิดใช้งานการตั้งค่านี้ได้ใน[พอร์ทัลผู้ดูแลระบบของ Power BI](#how-to-enable-pushing-apps) คุณสามารถเรียนรู้เพิ่มเติมในข้อควรพิจารณาสำหรับ[ส่งแอปฯ](#how-to-enable-pushing-apps)ได้
+5. ที่**การเข้าถึง** ตัดสินใจว่าใครที่สามารถเข้าถึงแอปฯได้: ไม่ว่าจะเป็นทุกคนในองค์กรของคุณ หรือบุคคลที่เฉพาะเจาะจง หรือกลุ่มความปลอดภัย Active Directory ถ้าคุณมีสิทธิ์ต่าง ๆ คุณสามารถตัดสินใจที่จะติดตั้งแอปฯโดยอัตโนมัติสำหรับผู้รับได้ ผู้ดูแลระบบของ Power BI สามารถเปิดใช้งานการตั้งค่านี้ได้ในพอร์ทัลผู้ดูแลระบบของ Power BI ได้ อ่าน[การติดตั้งแอปโดยอัตโนมัติ](#how-to-install-an-app-automatically-for-end-users)เพิ่มเติม
 
     ![การเข้าถึงแอปฯ](media/service-create-distribute-apps/power-bi-apps-access.png)
 

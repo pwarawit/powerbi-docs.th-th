@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/01/2018
-ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.date: 10/20/2018
+ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641217"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100783"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>ฝังด้วยส่วนเว็บรายงานใน SharePoint Online
 
@@ -42,41 +42,38 @@ ms.locfileid: "49641217"
 2. เลือกเมนู**แฟ้ม**
 
 3. เลือก**ฝังใน SharePoint Online**
-   
-    ![](media/service-embed-report-spo/powerbi-file-menu.png)
+
+    ![เมนูไฟล์](media/service-embed-report-spo/powerbi-file-menu.png)
 
 4. คัดลอก URL จากกล่องโต้ตอบ
 
-    ![](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
-
-   > [!NOTE]
-   > คุณยังสามารถใช้ URL ที่จะแสดงในแถบที่อยู่ของเว็บเบราว์เซอร์ของคุณเมื่อดูรายงาน URL ดังกล่าวประกอบด้วยหน้ารายงานที่คุณกำลังดู คุณจำเป็นต้องลบส่วนรายงานจาก URL ถ้าคุณต้องการใช้หน้าอื่น
+    ![ลิงก์ที่ฝังไว้](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>เพิ่มรายงาน Power BI ลงในหน้า SharePoint Online
 
 1. เปิดหน้าที่ต้องการใน SharePoint Online และเลือก**แก้ไข**
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
+    ![หน้าแก้ไข SP](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
 
     หรือ สร้างไซต์ที่ทันสมัยใหม่ โดยการเลือก **+ ใหม่**ภายใน SharePoint Online
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
+    ![หน้าใหม่ SP](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
 2. เลือก **+** และเลือก**Power BI** web part
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
+    ![web part ใหม่ของ SP](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
 3. เลือก**เพิ่มรายงาน**
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
+    ![รายงานใหม่ของ SP](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)
 
-4. ส่ง URL ของรายงานไปยังบานหน้าต่างคุณสมบัติ นี่คือ URL ที่คุณคัดลอกจากขั้นตอนด้านบน รายงานโหลดโดยอัตโนมัติ
+4. ส่ง URL ของรายงานไปยังบานหน้าต่างคุณสมบัติ URL รายงานนี้คือ URL ที่คุณคัดลอกจากขั้นตอนด้านบน รายงานโหลดโดยอัตโนมัติ
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
+    ![คุณสมบัติ web part ใหม่ของ SP](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
 5. เลือก**เผยแพร่**เพื่อทำการเปลี่ยนแปลงการมองเห็นให้ผู้ใช้ SharePoint Online ของคุณ
 
-    ![](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
+    ![รายงาน SP โหลดแล้ว](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
 ## <a name="granting-access-to-reports"></a>กำลังอนุญาตการเข้าถึงรายงาน
 
@@ -87,24 +84,12 @@ ms.locfileid: "49641217"
 
 มีสองวิธีที่จะเข้าถึงรายงานภายใน Power BI service ถ้าคุณกำลังใช้กลุ่ม Office 365 เพื่อสร้างไซต์ทีม SharePoint Online ของคุณ คุณได้สร้างรายการผู้ใช้ในฐานะสมาชิกของ **พื้นที่ทำงานแอปภายในบริการ Power BI** และ **หน้า SharePoint** ซึ่งทำให้แน่ใจว่า ผู้ใช้สามารถดูเนื้อหาของกลุ่มนั้น สำหรับข้อมูลเพิ่มเติม ให้ดู[สร้างและกระจายแอปใน Power BI](service-create-distribute-apps.md)
 
-อีกวิธีหนึ่งคือ คุณสามารถให้สิทธิ์ผู้ใช้เข้าถึงรายงานของคุณโดยทำตามขั้นตอนด้านล่าง
+อีกวิธีหนึ่งคือคุณสามารถแชร์รายงานกับผู้ใช้โดยตรงได้ ด้วยการฝังรายงานไว้ในแอป ต้องติดตั้งแอปไว้ล่วงหน้าเพื่อฝังรายงาน คุณสามารถตั้งค่าให้มีการติดตั้งแอปล่วงหน้าได้โดยใช้ฟีเจอร์ **ติดตั้งแอปโดยอัตโนมัติ**
 
-1. เพิ่มไทล์จากรายงานไปยังแดชบอร์ด
+   ![ติดตั้งแอปโดยอัตโนมัติ](media/service-embed-report-spo/install-app-automatically.png)
 
-2. แชร์แดชบอร์ดกับผู้ใช้ที่ต้องการเข้าถึงรายงาน สำหรับข้อมูล ให้ดู[แชร์แดชบอร์ดกับเพื่อนร่วมงานและผู้อื่น](service-share-dashboards.md)
-
-## <a name="web-part-settings"></a>ตั้งค่า web part
-
-ด้านล่างเป็นคำอธิบายของการตั้งค่าที่สามารถปรับปรุงของ Power BI web part สำหรับ SharePoint Online
-
-![](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
-
-| คุณสมบัติ | คำอธิบาย |
-| --- | --- |
-| ชื่อหน้า |ตั้งค่าหน้าเริ่มต้นที่แสดง โดย web part เลือกค่าจากรายการแบบดรอปดาวน์ ถ้าไม่มีการแสดงหน้า รายงานของคุณมีหน้าหนึ่ง หรือ URL ที่คุณวางมีชื่อหน้า ลบส่วนของรายงานจาก URL เมื่อต้องเลือกหน้าใดหน้าหนึ่ง |
-| แสดง |ตัวเลือกวิธีปรับปรุงรายงานให้พอดีกับหน้า SharePoint Online |
-| แสดงบานหน้าต่างนำทาง |แสดงหรือซ่อนบานหน้าหน้าต่างนำทาง |
-| แสดงบานหน้าต่างตัวกรอง |แสดงหรือซ่อนบานหน้าต่างตัวกรอง |
+> [!NOTE]
+> **ผู้ใช้ต้องเข้าถึงทั้งหน้า SharePoint และรายงาน เพื่อดูรายงานที่หน้า SharePoint**
 
 ## <a name="multi-factor-authentication"></a>การรับรองตัวตนแบบหลายปัจจัย
 
@@ -113,13 +98,26 @@ ms.locfileid: "49641217"
 > [!NOTE]
 > การรับรองความถูกต้องโดยใช้หลายปัจจัยยังไม่รองรับ Azure Active Directory 2.0 ผู้ใช้ได้รับข้อความที่แสดง*ข้อผิดพลาด* ถ้าผู้ใช้ลงชื่อเข้าใช้ SharePoint Online อีกครั้งโดยใช้อุปกรณ์ความปลอดภัยของพวกเขา พวกเขาอาจสามารถดูรายงานได้
 
+## <a name="web-part-settings"></a>ตั้งค่า web part
+
+ด้านล่างเป็นคำอธิบายของการตั้งค่าที่สามารถปรับปรุงของ Power BI web part สำหรับ SharePoint Online
+
+![คุณสมบัติ web part ใหม่ของ SP](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
+
+| คุณสมบัติ | คำอธิบาย |
+| --- | --- |
+| ชื่อหน้า |ตั้งค่าหน้าเริ่มต้นที่แสดง โดย web part เลือกค่าจากรายการแบบดรอปดาวน์ ถ้าไม่มีการแสดงหน้า รายงานของคุณมีหน้าหนึ่ง หรือ URL ที่คุณวางมีชื่อหน้า ลบส่วนของรายงานจาก URL เมื่อต้องเลือกหน้าใดหน้าหนึ่ง |
+| แสดง |ตัวเลือกวิธีปรับปรุงรายงานให้พอดีกับหน้า SharePoint Online |
+| แสดงบานหน้าต่างนำทาง |แสดงหรือซ่อนบานหน้าหน้าต่างนำทาง |
+| แสดงบานหน้าต่างตัวกรอง |แสดงหรือซ่อนบานหน้าต่างตัวกรอง |
+
 ## <a name="reports-that-do-not-load"></a>รายงานที่โหลดไม่ได้
 
 รายงานของคุณอาจไม่โหลดภายใน web part ของ Power BI และอาจแสดงข้อความต่อไปนี้
 
 *เนื้อหานี้ไม่พร้อมใช้งาน*
 
-![](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
+![รายงานไม่พบข้อความ](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
 
 มีเหตุผลโดยทั่วไปสำหรับข้อความนี้สองตัว
 
@@ -128,13 +126,17 @@ ms.locfileid: "49641217"
 
 ติดต่อกับเจ้าของหน้า SharePoint Online เพื่อช่วยให้คุณสามารถแก้ไขปัญหาได้
 
+## <a name="licensing"></a>สิทธิ์การใช้งาน
+
+การที่ผู้ใช้ดูรายงานใน SharePoint ต้องมี**ใบอนุญาตใช้งาน Power BI Pro** หรือไม่เช่นนั้นเนื้อหาต้องอยู่ในพื้นที่ทำงานที่อยู่ใน **[ความจุพรีเมียมของ Power BI (EM หรือ P SKU)](service-admin-premium-purchase.md)**
+
 ## <a name="known-issues-and-limitations"></a>ปัญหาและขีดจำกัดที่ทราบแล้ว
 
-* ข้อผิดพลาด: "เกิดข้อผิดพลาด โปรดลองออกจากระบบ และย้อนกลับมา แล้วเข้ามาเยี่ยมชมหน้านี้อีกครั้ง รหัสความสัมพันธ์: ไม่ได้ถูกกำหนด, สถานะการตอบสนอง http: 400, ข้อผิดพลาดเซิร์ฟเวอร์รหัส 10001, ข้อความ: โทเค็นรีเฟรชหายไป"
+* ข้อผิดพลาด: "เกิดข้อผิดพลาด โปรดลองออกจากระบบ และย้อนกลับมา แล้วเข้ามาเยี่ยมชมหน้านี้อีกครั้ง ID สหสัมพันธ์: ไม่ได้ถูกกำหนด, สถานะการตอบสนอง http: 400, ข้อผิดพลาดเซิร์ฟเวอร์รหัส 10001, ข้อความ: โทเค็นรีเฟรชหายไป"
   
-  ถ้าคุณได้รับข้อผิดพลาดนี้ โปรดหนึ่งในสิ่งต่อไปนี้
+  ถ้าคุณได้รับข้อผิดพลาดนี้ โปรดทำตามขั้นตอนการแก้ปัญหาขั้นตอนใดขั้นตอนหนึ่งด้านล่าง
   
-  1. ลงชื่อออก SharePoint และลงชื่อเข้าใช้อีกครั้งใน ตรวจสอบให้แน่ใจว่าปิดหน้าต่างเบราว์เซอร์ทั้งหมดก่อนที่ลงชื่อกลับเข้าใช้
+  1. ลงชื่อออกจาก SharePoint และลงชื่อกลับเข้าใช้ ตรวจสอบให้แน่ใจว่าปิดหน้าต่างเบราว์เซอร์ทั้งหมดก่อนที่ลงชื่อกลับเข้าใช้
 
   2. ถ้าบัญชีผู้ใช้ของคุณจำเป็นต้องใช้การรับรองความถูกต้องแบบหลายปัจจัย (MFA) ทำให้แน่ใจว่า คุณลงชื่อเข้าใช้ SharePoint โดยใช้อุปกรณ์รับรองความถูกต้องแบบหลายปัจจัยของคุณ (แอปโทรศัพท์ สมาร์ทการ์ด และอื่น ๆ)
   
