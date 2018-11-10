@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: d46acd9c70e8deb7fb9ae6d241256e61b7f85b65
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.openlocfilehash: 4ac828baa4f6080ab50008aa4ffb570ff016246f
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50153759"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223155"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
 
@@ -147,8 +147,8 @@ ms.locfileid: "50153759"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[ใช้เครื่องมือสำหรับนักพัฒนา มาสร้างวิชวลแบบกำหนดเอง](../service-custom-visuals-getting-started-with-developer-tools.md)  
-[การแสดงข้อมูลใน Power BI](../visuals/power-bi-report-visualizations.md)  
+[พัฒนาภาพแบบกำหนดเองของ Power BI](custom-visual-develop-tutorial.md)  
+[จัดรูปแบบข้อมูลใน Power BI](../visuals/power-bi-report-visualizations.md)  
 [การแสดงข้อมูลแบบกำหนดเองใน Power BI](../power-bi-custom-visuals.md)  
 [การนำวิชวลแบบกำหนดเอง*เข้ารับการรับรอง*](../power-bi-custom-visuals-certified.md)
 

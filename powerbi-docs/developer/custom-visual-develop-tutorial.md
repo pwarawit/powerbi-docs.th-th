@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: 813d65844fee21a6c10d4c95bd15fb18cf4c75c2
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: ed3a7a7c9f649f5ce834594572e3ab87b91181f5
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50161051"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223432"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>บทช่วยสอน: การพัฒนาวิชวลแบบกำหนดเองของ Power BI
 
@@ -39,6 +39,7 @@ ms.locfileid: "50161051"
 
 * ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/en-us/pricing/)ก่อนที่คุณจะเริ่ม
 * คุณต้องใช้[รหัส Visual Studio](https://www.visualstudio.com/)ที่ติดตั้งแล้ว
+* คุณจำเป็นต้องมี [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6)เวอร์ชัน 4 หรือใหม่กว่าสำหรับผู้ใช้ windows หรือ[เทอร์มินัล](https://macpaw.com/how-to/use-terminal-on-mac)สำหรับผู้ใช้ OSX
 
 ## <a name="setting-up-the-developer-environment"></a>การตั้งค่าสภาพแวดล้อมสำหรับนักพัฒนา
 
@@ -69,6 +70,8 @@ ms.locfileid: "50161051"
     ```
 
 ### <a name="creating-and-installing-a-certificate"></a>การสร้างและติดตั้งใบรับรอง
+
+#### <a name="windows"></a>Windows
 
 1. เมื่อต้องการสร้างใบรับรอง ให้ป้อนคำสั่งต่อไปนี้
 
@@ -117,13 +120,32 @@ ms.locfileid: "50161051"
 > [!Important]
 > อย่าปิดเซสชัน Windows PowerShell
 
+#### <a name="osx"></a>OSX
+
+1. ถ้าล็อกมุมบนซ้ายถูกล็อค เลือกเพื่อปลดล็อก ค้นหา *localhost* และดับเบิลคลิกที่ใบรับรอง
+
+    ![ติดตั้ง SSL cert 1 บน OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx.png)
+
+2. เลือก**เชื่อถือเสมอ**และปิดหน้าต่าง
+
+    ![ติดตั้ง SSL cert 2 บน OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx2.png)
+
+3. ใส่ชื่อผู้ใช้และรหัสผ่านของคุณ เลือก**อัพเดทการตั้งค่า**
+
+    ![ติดตั้ง SSL cert 3 บน OSX](media/custom-visual-develop-tutorial/install-ssl-certificate-osx3.png)
+
+4. ปิดทุกเบราว์เซอร์ที่คุณเปิดอยู่
+
+> [!NOTE]
+> ถ้าเบราว์เซอร์ยังไม่รู้จักใบรับรอง คุณอาจจำเป็นต้องรีสตาร์ตคอมพิวเตอร์ของคุณ
+
 ## <a name="creating-a-custom-visual"></a>การสร้างวิชวลแบบกำหนดเองได้
 
 ในตอนนี้คุณได้ตั้งค่าสภาพแวดล้อมแล้ว ถึงตอนนี้ให้สร้างวิชวลแบบกำหนดเอง
 
 คุณสามารถ[ดาวน์โหลด](https://github.com/Microsoft/PowerBI-visuals-circlecard)รหัสต้นทางแบบเต็มสำหรับบทช่วยสอนนี้ได้
 
-1. ใน Windows PowerShell ให้ตรวจสอบว่า มีการติดตั้งแพคเกจเครื่องมือวิชวลของ Power BI แล้ว
+1. ้ตรวจสอบว่า มีการติดตั้งแพคเกจเครื่องมือวิชวลของ Power BI แล้ว
 
     ```powershell
     pbiviz
@@ -555,6 +577,10 @@ ms.locfileid: "50161051"
 คุณได้กำหนดค่าให้บทบาทข้อมูลและผูกวิชวลเข้ากับมุมมองข้อมูลแล้ว
 
 ในบทช่วยสอนถัดไป คุณจะได้เรียนรู้วิธีเพิ่มตัวเลือกการจัดรูปแบบเข้าวิชวลแบบกำหนดเอง
+
+## <a name="debugging"></a>การดีบัก
+
+สำหรับเคล็ดลับเกี่ยวกับการดีบักวิชวลแบบกำหนดเองของคุณ ดู[คู่มือการแก้จุดบกพร่อง](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

@@ -10,12 +10,12 @@ ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/29/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a2e43d205b9e4f3085652ac3603ee68f67b2b33c
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: 064d32944f52f6e391d4a7ec4df41ecbf09b7e3f
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222177"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223087"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>คำถามที่ถามบ่อยเกี่ยวกับวิชวลแบบกำหนดเองของ Power BI
 
@@ -58,3 +58,7 @@ ms.locfileid: "50222177"
 **วิชวลแบบกำหนดเองที่ได้รับการรับรองคืออะไร**
 
 วิชวลแบบกำหนดเองที่ได้รับการรับรองคือวิชวลใน [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) ที่ตรงตามข้อกำหนดรหัส[ที่ระบุไว้](power-bi-custom-visuals-certified.md) และผ่านการทดสอบโดยทีม Power BI  โดยการทดสอบออกแบบมาเพื่อตรวจสอบว่าวิชวลนั้นๆ ไม่ได้เข้าถึงการบริการหรือแหล่งทรัพยากรภายนอก อย่างไรก็ตาม Microsoft ไม่ใช่ผู้เขียนวิชวลแบบกำหนดเองของบุคคลภายนอก และเราให้คำแนะนำลูกค้าในการติดต่อผู้เขียนโดยตรง เพื่อตรวจสอบยืนยันฟังก์ชันของวิชวลนั้นๆ
+
+## <a name="next-steps"></a>ขั้นตอนถัดไป
+
+สำหรับข้อมูลเกี่ยวกับการแก้ไข เยี่ยมชม [แก้ไขปัญหาวิชวลแบบกำหนดเองของ Power BI ของคุณ](power-bi-custom-visuals-troubleshoot.md)

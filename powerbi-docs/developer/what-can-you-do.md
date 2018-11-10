@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 ms.date: 09/17/2018
-ms.openlocfilehash: ac35e0c61576e561afd495e51d814bc38ab0a3f5
-ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
+ms.openlocfilehash: 5fb4583dccf7b6543881f1c9062227b9a3a68b05
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "46473988"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223154"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>นักพัฒนาสามารถทำอะไรกับ Power BI ได้บ้าง
 
@@ -44,7 +44,7 @@ ms.locfileid: "46473988"
 
 ![ตัวอย่าง CV](media/what-can-you-do/powerbi-custom-visual-store.png)
 
-เมื่อต้องเริ่มเรียนรู้เพิ่มเติมเกี่ยวกับการพัฒนาภาพแบบกำหนดเอง โปรดดู[ใช้เครื่องมือสำหรับนักพัฒนาเพื่อสร้างวิชวลแบบกำหนดเอง](../service-custom-visuals-getting-started-with-developer-tools.md)
+เมื่อต้องเริ่มเรียนรู้เพิ่มเติมเกี่ยวกับการพัฒนาภาพแบบกำหนดเอง โปรดดู [การพัฒนาวิชวลแบบกำหนดเองสำหรับ Power BI](custom-visual-develop-tutorial.md)
 
 ## <a name="using-api-automation"></a>ใช้ API อัตโนมัติ
 

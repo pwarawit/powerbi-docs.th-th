@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: dcefa427290fd804a0b2c79dc357e5f5bfbe7296
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50161037"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223271"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>บทช่วยสอน: การเพิ่มตัวเลือกการจัดรูปแบบให้กับวิชวลแบบกำหนดเองของ Power BI
 
@@ -254,6 +254,10 @@ ms.locfileid: "50161037"
 
 8. ไปที่เหนือไอคอน **การ์ดวงกลม** แล้วสังเกตที่คำแนะนำเครื่องมือที่ปรากฏขึ้น
 
+## <a name="debugging"></a>การดีบัก
+
+สำหรับเคล็ดลับเกี่ยวกับการดีบักวิชวลแบบกำหนดเองของคุณ ดู[คู่มือการแก้จุดบกพร่อง](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/)
+
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-ถ้าคุณต้องการเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการเผยแพร่วิชวลแบบกำหนดเองที่เพิ่งพัฒนาขึ้นมาใหม่ให้ผู้อื่นนำไปใช้ได้ โปรดดูที่ [การเผยแพร่วิชวลแบบกำหนดเองไปยัง AppSource](office-store.md)
+คุณสามารถแสดงวิชวลที่ปรับปรุงใหม่ของคุณเพื่อให้บุคคลอื่นได้ใช้งานโดยการส่งไป **AppSource** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการนี้ กรุณาอ้างอิง [เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource](office-store.md)

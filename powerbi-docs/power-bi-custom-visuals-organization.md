@@ -10,12 +10,12 @@ ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/29/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6fc21a9b8558b554cae6e9096aaee0fbaabcdaf3
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: e34491ebc1cc7554e8c8c000da7528754b5a673b
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222093"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223110"
 ---
 # <a name="use-organizational-custom-visuals-in-power-bi"></a>ใช้วิชวลแบบกำหนดเองขององค์กรใน Power BI
 
@@ -54,4 +54,12 @@ ms.locfileid: "50222093"
 
 * วิชวลของ Visio visual, วิชวลของ PowerApps และวิชวลของ GlobeMap จาก AppSource Marketplace จะไม่แสดงผล ถ้ามีการเรียกใช้งานผ่านที่เก็บขององค์กร
 
-สำหรับข้อมูลเพิ่มเติมและคำตอบที่คุณอยากรู้ โปรดเยี่ยมชม[คำถามที่ถามบ่อย](power-bi-custom-visuals-faq.md#organizational-custom-visuals)
+## <a name="troubleshoot"></a>การแก้ไขปัญหา
+
+สำหรับข้อมูลเกี่ยวกับการแก้ไข เยี่ยมชม [แก้ไขปัญหาวิชวลแบบกำหนดเองของ Power BI ของคุณ](power-bi-custom-visuals-troubleshoot.md)
+
+## <a name="faq"></a>คำถามที่ถามบ่อย
+
+สำหรับข้อมูลเพิ่มเติมและคำตอบที่คุณอยากรู้ โปรดเยี่ยมชม[คำถามที่ถามบ่อยเกี่ยวกับวิชวลแบบกำหนดเองของ Power BI](power-bi-custom-visuals-faq.md#organizational-custom-visuals)
+
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
