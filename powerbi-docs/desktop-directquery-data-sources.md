@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/10/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d37ed22c0abba4e843d37fd6df465f9a755fbdc6
-ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
+ms.openlocfilehash: 97d9fc6bf7a27b9d681d10ae20ab0780622e5ee8
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/11/2018
-ms.locfileid: "40256940"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223409"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>แหล่งข้อมูลที่สนับสนุนโดย DirectQuery Power BI
 **Power BI Desktop**และ**บริการ Power BI**มีแหล่งข้อมูลมากมายที่คุณสามารถเชื่อมต่อและรับการเข้าถึงข้อมูลได้ บทความนี้อธิบายว่าจะมีการเชื่อมต่อแหล่งข้อมูลใดสำหรับ Power BI ที่สนับสนุนวิธีการเชื่อมต่อที่เรียกว่า **DirectQuery** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ DirectQuery ดู[ **DirectQuery ใน Power BI**](desktop-directquery-about.md)
@@ -23,12 +23,12 @@ ms.locfileid: "40256940"
 แหล่งข้อมูลต่อไปนี้สนับสนุน DirectQuery ใน Power BI:
 
 * Amazon Redshift
-* Azure Databricks
 * Azure HDInsight Spark
 * ฐานข้อมูล Azure SQL
 * คลังข้อมูล Azure SQL
 * Google BigQuery
-* IBM Netezza
+* ฐานข้อมูล IBM DB2
+* IBM Netezza (Beta)
 * Impala (รุ่น 2.x)
 * ฐานข้อมูล Oracle (เวอร์ชัน 12 หรือสูงกว่า)
 * เซิร์ฟเวอร์แอปพลิเคชันของ SAP Business Warehouse
@@ -65,8 +65,8 @@ ms.locfileid: "40256940"
 | Spark (รุ่น Beta) (เวอร์ชัน 0.9 หรือสูงกว่า) |ยังไม่สนับสนุนใน**บริการ Power BI** |
 | Azure HDInsight Spark |ไม่ใช่ |
 | IBM Netezza |ใช่ |
-| เซิร์ฟเวอร์แอปพลิเคชันของ SAP Business Warehouse |ใช่ |
-| เซิร์ฟเวอร์ข้อความของ SAP Business Warehouse |ยังไม่สนับสนุนใน**บริการ Power BI** |
+| เซิร์ฟเวอร์แอปพลิเคชัน SAP Business Warehouse |ใช่ |
+| เซิร์ฟเวอร์ข้อความ SAP Business Warehouse |ยังไม่สนับสนุนใน**บริการ Power BI** |
 | Google BigQuery |ไม่ใช่ |
 
 
