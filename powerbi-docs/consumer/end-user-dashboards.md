@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 11/09/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 840f302b1df31736d7fcd1c0766c34963a2f6738
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 4f65371d0f94c8336b9b6667bae32ef0bdfdf5e3
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473945"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507633"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>แดชบอร์ดสำหรับผู้บริโภคบริการของ Power BI
 
@@ -26,7 +26,7 @@ ms.locfileid: "49473945"
 การแสดงภาพที่คุณเห็นบนแดชบอร์ดเรียกว่า*ไทล์* และจะถูก*ปักหมุด*ไปยังแดชบอร์ดจากรายงาน ถ้าคุณไม่คุ้นเคยกับ Power BI คุณสามารถเรียนรู้ข้อมูลพื้นฐานได้โดยการอ่าน[แนวคิดพื้นฐานของ Power BI](end-user-basic-concepts.md)
 
 > [!NOTE]
-> แดชบอร์ดเป็นคุณลักษณะของบริการ Power BI ไม่สามารถใช้งานได้บน Power BI Desktop เราไม่สามารถสร้างแดชบอร์ดในสำหรับมือถือได้ แต่สามารถ[ดูและแชร์](/mobile/mobile-apps-view-dashboard.md)บนมือถือได้
+> แดชบอร์ดเป็นคุณลักษณะของบริการ Power BI ไม่สามารถใช้งานได้บน Power BI Desktop เราไม่สามารถสร้างแดชบอร์ดในสำหรับมือถือได้ แต่สามารถ[ดูและแชร์](mobile/mobile-apps-view-dashboard.md)บนมือถือได้
 > 
 > 
 

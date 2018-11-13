@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: d265e465825fb8def167207ed632f1702adcbc7f
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973643"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507944"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>ดูรายงานในโหมดงานนำเสนอบน Surface Hub และ Windows 10 - Power BI
 คุณสามารถแสดงรายงานในโหมดงานนำเสนอบน Surface Hub และแสดงแดชบอร์ด รายงาน และไทล์ในโหมดเต็มหน้าจอบนอุปกรณ์ Windows 10 
@@ -27,7 +27,7 @@ ms.locfileid: "45973643"
 
 เมื่อคุณแสดงรายงานในโหมดงานนำเสนอบน Surface Hub คุณสามารถวาดบนหน้าด้วยหมึกสีต่างๆ และนำทางไปมาระหว่างหน้าของรายงาน
 
-คุณยังสามารถ[แสดงแดชบอร์ดและรายงานในโหมดเต็มหน้าจอจากบริการ Power BI](../../service-fullscreen-mode.md)บนเว็บได้
+คุณยังสามารถ[แสดงแดชบอร์ดและรายงานในโหมดเต็มหน้าจอจากบริการ Power BI](../end-user-focus.md)บนเว็บได้
 
 > [!NOTE]
 > โหมดการนำเสนอจะแตกต่างจาก[โหมดโฟกัสสำหรับไทล์](mobile-tiles-in-the-mobile-apps.md)
@@ -74,6 +74,6 @@ ms.locfileid: "45973643"
 7. เมื่อต้องการออกจากโหมดเต็มหน้าจอ ปัดลงจากด้านบน แล้วแตะที่ลูกศร 2 อันที่หันเข้าหากัน![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [แสดงแดชบอร์ดและรายงานในโหมดเต็มหน้าจอจากบริการของ Power BI](../../service-fullscreen-mode.md)
+* [แสดงแดชบอร์ดและรายงานในโหมดเต็มหน้าจอจากบริการของ Power BI](../end-user-focus.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

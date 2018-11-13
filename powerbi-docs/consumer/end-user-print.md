@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 636dbceae129d7a5288fa6dfc8a281d5257a087f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565003"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507680"
 ---
 # <a name="printing-from-power-bi-service"></a>พิมพ์จาก Power BI service
 พิมพ์แดชบอร์ดทั้ง แดชบอร์ดไทล์ หน้ารายงาน หรือรูปรายงานจาก Power BI service รายงานสามารถพิมพ์ออกมาหนึ่งหน้าในแต่ละครั้งเท่านั้น คุณไม่สามารถพิมพ์รายงานทั้งหมดในครั้งเดียว
@@ -47,7 +47,7 @@ ms.locfileid: "46565003"
 1. [เปิดไทล์ในโหมดโฟกัส](end-user-focus.md)โดยการเลือกจุดไข่ปลา แล้วเลือกไอคอนโฟกัส![ไอคอนโฟกัส](./media/end-user-print/power-bi-focus-icon.png)
    
     ![เมนูจุดไข่ปลา](./media/end-user-print/menu-options.png)
-2. เปิดไทล์ใน[โหมดเต็มหน้าจอ](../service-fullscreen-mode.md)โดยการเลือกไอคอนเต็มหน้าจอ![ไอคอนเต็มหน้าจอ](./media/end-user-print/power-bi-full-screen-icon.png)จากแถบนำทางด้านบน
+2. เปิดไทล์ใน[โหมดเต็มหน้าจอ](end-user-focus.md)โดยการเลือกไอคอนเต็มหน้าจอ![ไอคอนเต็มหน้าจอ](./media/end-user-print/power-bi-full-screen-icon.png)จากแถบนำทางด้านบน
 3. ลากเคอร์เซอร์เหนือไทล์เพื่อเปิดเมนูตัวเลือก
    
     ![เมนูตัวเลือกแบบเต็มหน้าจอ](./media/end-user-print/menu-options-new.png)

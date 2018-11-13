@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 873b83221aa5a1a728d648cccf7a23d5924dfb6d
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: c3664eee2d3836fc802d1728bbfe7fce3e03e18d
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45975506"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297216"
 ---
 # <a name="using-python-in-query-editor"></a>การใช้ Python ใน Query Editor
 คุณสามารถใช้ **Python** ซึ่งเป็นภาษาการเขียนโปรแกรมที่นักสถิติ นักวิทยาศาสตร์ข้อมูล และนักวิเคราะห์ข้อมูลใช้กันอย่างกว้างขวางใน **ตัวแก้ไขคิวรีของ** Power BI Desktop การรวม Python ใน **ตัวแก้ไขคิวรี** ช่วยให้คุณดำเนินการทำความสะอาดข้อมูลโดยใช้ Python  และดำเนินการวิเคราะห์และการจัดรูปทรงข้อมูลขั้นสูงในชุดข้อมูล รวมทั้งการเติมเต็มข้อมูลที่คาดหาย การคาดการณ์ และการทำคลัสเตอร์ และอื่นๆ **Python** เป็นภาษาที่มีประสิทธิภาพ และสามารถใช้ได้ใน **ตัวแก้ไขคิวรี** เพื่อเตรียมแบบจำลองข้อมูลของคุณ และสร้างรายงาน
@@ -75,9 +75,7 @@ ms.locfileid: "45975506"
 เมื่อวิชวลดังกล่าวเสร็จสมบูรณ์ และภาพอื่นๆ ที่คุณอาจต้องการสร้างโดยใช้ **Power BI Desktop** คุณสามารถบันทึกไฟล์ของ **Power BI Desktop** (ซึ่งจะบันทึกเป็นไฟล์ .pbix) และจากนั้น ใช้แบบจำลองข้อมูลที่รวมถึงสคริปต์ Python ที่เป็นส่วนหนึ่งของแบบจำลองนั้นในบริการของ Power BI
 
 > [!NOTE]
-> ต้องการดูไฟล์ .pbix ที่เสร็จสมบูรณ์ด้วยขั้นตอนเหล่านี้หรือไม่ คุณโชคดี - คุณสามารถดาวน์โหลดไฟล์ของ **Power BI Desktop** ที่เสร็จสมบูรณ์ในตัวอย่างเหล่านี้[ที่นี่](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete Values with Python in PQ.pbix)
-> 
-> 
+> ต้องการดูไฟล์ .pbix ที่เสร็จสมบูรณ์ด้วยขั้นตอนเหล่านี้หรือไม่ คุณโชคดี - คุณสามารถดาวน์โหลดไฟล์ของ **Power BI Desktop** ที่เสร็จสมบูรณ์ในตัวอย่างเหล่านี้[ที่นี่](http://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix)
 
 เมื่อคุณอัปโหลดไฟล์ .pbix ไปยังบริการของ Power BI จำเป็นต้องทำขั้นตอนเพิ่มเติมเพื่อให้สามารถรีเฟรชข้อมูล (ในบริการ) และเพื่อให้ปรับปรุงภาพที่แสดงข้อมูลในบริการได้ (ข้อมูลต้องเข้าถึง Python เพื่อปรับปรุงการแสดงผลด้วยภาพ) ขั้นตอนเพิ่มเติมมีดังนี้:
 

@@ -8,15 +8,15 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 62a8ae907b01c8309aee101aa074e9bfb72b207d
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545956"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265920"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>คุณสมบัติแกน x และแกน y ที่กำหนดด้วยตนเอง
 ในบทช่วยสอนนี้ คุณจะได้เรียนรู้หลายวิธีในการกำหนดค่าแกน X และแกน Y ของวิชวลคุณ ไม่ใช่วิชวลทั้งหมดที่มีแกน หรือสามารถกำหนดแกนเองได้ ตัวอย่างของวิชวลที่ไม่มีแกน เช่น แผนภูมิวงกลม และตัวเลือกที่กำหนดเองได้ จะแตกต่างกันตามวิชวล มีตัวเลือกอยู่มากมายเกินกว่าที่จะครอบคลุมในบทความเดียว ดังนั้นเราจะดูเฉพาะ การกำหนดค่าแกนที่ใช้บ่อยที่สุดบางค่า เพื่อให้คุณคุ้นเคยกับแท็บการจัดรูปแบบวิชวล บนพื้นที่รายงาน Power BI  
@@ -86,30 +86,33 @@ ms.locfileid: "46545956"
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
-> 1. ในเดือนมกราคม %กำไรขั้นต้น อยู่ที่ 35% ไปจุดสุงสุดที่ 45% ในเดือนเมษายน ตกลงในเดือนกรกฎาคม และกลับไปสูงสุดอีกครั้งในเดือนสิงหาคม เราจะเห็นรูปแบบที่คล้ายกัน ในยอดขายปีที่แล้วและของปีนี้หรือไม่?
-> 2. เพิ่ม**ยอดขายปีนี้ > ค่า** และ**ยอดขายปีที่แล้ว**ลงในแผนภูมิเส้น มาตราส่วนของ **%กำไรขั้นต้นปีที่แล้ว** (เส้นสีน้ำเงินตามเส้นตาราง 0M%) มีขนาดเล็กกว่ามาตราส่วนของ**ยอดขาย**มาก ซึ่งทำให้ยากต่อการเปรียบเทียบ และเปอร์เซ็นต์ที่ป้ายชื่อแกน Y ประหลาดมาก      
+    > [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+    ในเดือนมกราคม %กำไรขั้นต้น อยู่ที่ 35% ไปจุดสุงสุดที่ 45% ในเดือนเมษายน ตกลงในเดือนกรกฎาคม และกลับไปสูงสุดอีกครั้งในเดือนสิงหาคม เราจะเห็นรูปแบบที่คล้ายกัน ในยอดขายปีที่แล้วและของปีนี้หรือไม่?
+     
+3. เพิ่ม**ยอดขายปีนี้ > ค่า** และ**ยอดขายปีที่แล้ว**ลงในแผนภูมิเส้น มาตราส่วนของ **%กำไรขั้นต้นปีที่แล้ว** (เส้นสีน้ำเงินตามเส้นตาราง 0M%) มีขนาดเล็กกว่ามาตราส่วนของ**ยอดขาย**มาก ซึ่งทำให้ยากต่อการเปรียบเทียบ และเปอร์เซ็นต์ที่ป้ายชื่อแกน Y ประหลาดมาก      
+
+    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+
 5. เพื่อให้ง่ายต่อการอ่านและตีความวิชวล แปลงแผนภูมิเส้นให้เป็น แผนภูมิเส้นและแผนภูมิคอลัมน์แบบเรียงซ้อน
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/converttocombo_new.png)
 
 6. ลาก **%อัตรากำไรปีที่แล้ว**จาก**ค่าคอลัมน์**ลงใน**ค่าเส้นตรง** ตอนนี้เรามีแผนภูมิคอลัมน์แบบเรียงซ้อนที่เราสร้างไว้ข้างต้น***รวมกับ***แผนภูมิเส้น  (ไม่บังคับ คุณอาจจัดรูปแบบตัวอักษร สี และ ขนาดของแกน ที่ได้เรียนรู้ด้านบนได้)
    
-
    Power BI จะสร้างแกนสองแกน ซึ่งช่วยให้ชุดข้อมูลมีการปรับขนาดต่างกัน หน่วยวัดด้านซ้ายเป็นหน่วยดอลลาร์ ส่วนด้านขวาวัดเป็นเปอร์เซ็นต์
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes-new.png)
 
 ### <a name="format-the-secondary-y-axis"></a>จัดรูปแบบแกน Y ทุติยภูมิ
-1. ในบานหน้าต่าง**การจัดรูปแบบการแสดงข้อมูล** เลือกไอคอนลูกกลิ้งทาสี เพื่อแสดงตัวเลือการจัดรูปแบบ
-2. ขยายตัวเลือกแกน Y โดยการเลือกลูกศรลง
-3. เลื่อนผ่านรายการจนกว่าคุณพบตัวเลือกสำหรับ**แสดงรายการสำรอง** สลับค่า**แสดงรายการสำรอง**จาก**ปิด**ไปเป็น**เปิด**
+1. ในบานหน้าต่าง**การจัดรูปแบบการแสดงข้อมูล** เลือกไอคอนลูกกลิ้งทาสี เพื่อแสดงตัวเลือการจัดรูปแบบ    
+2. ขยายตัวเลือกแกน Y โดยการเลือกลูกศรลง    
+3. เลื่อนผ่านรายการจนกว่าคุณพบตัวเลือกสำหรับ**แสดงรายการสำรอง** สลับค่า**แสดงรายการสำรอง**จาก**ปิด**ไปเป็น**เปิด**    
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/combo3.png)
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes.png)
+
 4. (ไม่บังคับ) กำหนดค่าทั้งสองแกน ถ้าคุณสลับ**ตำแหน่ง**สำหรับแกนคอลัมน์หรือแกนเส้นแล้ว ทั้งสองแกนจะสลับด้านกัน
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axes-options.png)
@@ -120,7 +123,7 @@ ms.locfileid: "46545956"
 1. สลับ**ชื่อแกน**ไปเป็น**เปิด**สำหรับ**แกน Y (คอลัมน์)** และ**แกน Y (เส้น)**
 2. ตั้งค่า**สไตล์**เพื่อ**แสดงเฉพาะหัวข้อ**
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)
+   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)    
 3. แผนภูมิผสมของคุณตอนนี้แสดงแกนทั้งสองแกนด้วยชื่อ
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo-chart.png)
