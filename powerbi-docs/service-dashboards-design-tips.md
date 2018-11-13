@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 082d0ba1e638e8eaf6ae16fa8d5ed63c128c8ad5
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545003"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507864"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>เคล็ดลับสำหรับการออกแบบแดชบอร์ด Power BI ที่ยอดเยี่ยม
 หลังจากที่คุณสร้างแดชบอร์ด และเพิ่มไทล์บางตัวเข้าไป ให้คิดเกี่ยวกับวิธีการทำให้แดชบอร์ดของคุณไม่เพียงแค่สวยงามเท่านั้น แต่ยังทำงาน โดยทั่วไป ซึ่งหมายความว่า ทำข้อมูลที่สำคัญที่สุดออกให้โดดเด่น และทำให้สะอาด และเป็นระเบียบ
@@ -43,7 +43,7 @@ ms.locfileid: "46545003"
 มีแดชบอร์ดเกินไปอีกหรือไม่  ลบข้อมูลที่จำเป็นทั้งหมดซึ่งอ่านได้และแปลความหมายได้อย่างง่ายดาย
 
 ## <a name="make-use-of-full-screen-mode"></a>ทำให้ใช้โหมดเต็มหน้าจอ
-แสดงแดชบอร์ดของคุณแบบ[เต็มหน้าจอ](service-fullscreen-mode.md)โดยไม่มีสิ่งรบกวน
+แสดงแดชบอร์ดของคุณแบบ[เต็มหน้าจอ](consumer/end-user-focus.md)โดยไม่มีสิ่งรบกวน
 
 ## <a name="make-the-most-important-information-biggest"></a>ทำให้ข้อมูลที่สำคัญที่่สุดให้ใหญ่ที่สุด
 ถ้าข้อความและการแสดงภาพบนแดชบอร์ดของคุณจะมีขนาดเท่ากันทั้งหมด ผู้อ่านของคุณจะหาสิ่งสำคัญมากที่สุดยาก ตัวอย่างเช่น แสดงภาพการ์ดเป็นวิธีดีในการแสดงหมายเลขสำคัญให้เป็นที่รู้จัก  
