@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 2758ef661b70c53a37104c67c4012be79725990e
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101496"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297147"
 ---
 # <a name="on-premises-data-gateway"></a>เกตเวย์ข้อมูลภายในองค์กร
 
@@ -117,8 +117,8 @@ ms.locfileid: "50101496"
 [จัดการแหล่งข้อมูลของคุณ - SQL Server](service-gateway-enterprise-manage-sql.md)  
 [จัดการแหล่งข้อมูลของคุณ - Oracle](service-gateway-onprem-manage-oracle.md)  
 [จัดการแหล่งข้อมูลของคุณ - นำเข้า/รีเฟรชตามกำหนดการ](service-gateway-enterprise-manage-scheduled-refresh.md)  
-[เกตเวย์ข้อมูลในองค์กร เชิงลึก](service-gateway-onprem-indepth.md)  
-[เกตเวย์ข้อมูลภายในองค์กร (โหมดส่วนบุคคล) - เวอร์ชันใหม่ของเกตเวย์ส่วนบุคคล](service-gateway-personal-mode.md)
-[กำหนดค่าพร็อกซีสำหรับ Power BI Gateways](service-gateway-proxy.md)  
+[เกตเวย์ข้อมูลในองค์กรในเชิงลึก](service-gateway-onprem-indepth.md)  
+[เกตเวย์ข้อมูลภายในองค์กร (โหมดส่วนตัว) - เวอร์ชันใหม่ของเกตเวย์ส่วนบุคคล](service-gateway-personal-mode.md)  
+[กำหนดค่าพร็อกซีสำหรับเกตเวย์ข้อมูลภายในองค์กร](service-gateway-proxy.md)  
 
-คำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

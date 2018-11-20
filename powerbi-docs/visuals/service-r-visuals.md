@@ -1,5 +1,5 @@
 ---
-title: สร้างการวิเคราะห์ขั้นสูงและแสดงข้อมูลโดยใช้สคริปต์ R ใน Power BI
+title: สร้างการวิเคราะห์ขั้นสูงและการแสดงภาพวิชวลโดยใช้สคริปต์ R
 description: ใช้สคริปต์ R ใน Power BI เพื่อสร้างการวิเคราะห์ขั้นสูงและการแสดงภาพขั้นสูง
 author: mihart
 manager: kvivek
@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3407458cfe6e395a5a209e136af1d4c9a7aa6a6
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 409a2ee486d0153e0dec2f715ff0e2ea19e236d7
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566360"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297124"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>การสร้างภาพ R ในบริการ Power BI
 บริการ Power BI สนับสนุนการดูและโต้ตอบกับภาพที่สร้างขึ้น ด้วยสคริปต์ R ภาพที่สร้างขึ้นด้วยสคริปต์ R มักเรียกว่า*ภาพ R* ซึ่งสามารถนำเสนอการปรับรูปร่างข้อมูลและการวิเคราะห์ขั้นสูง เช่น การทำนายโดยใช้การวิเคราะห์ที่มีข้อมูลเต็มเปี่ยมและพลังของการแสดงภาพ R
 
 > [!NOTE]
-> [ภาษาการเขียนโปรแกรม R](https://www.r-project.org/)เป็นหนึ่งในภาษาที่ใช้กันอย่างแพร่หลายที่สุดโดยนักสถิติ นักวิทยาศาสตร์ข้อมูล และนักวิเคราะห์ทางธุรกิจในการเขียนโปรแกรม ภาษา R มีชุมชนแหล่งข้อมูลเปิดที่นำเสนอแพคเกจที่เพิ่มเข้ามากว่า 7,000 แพคเกจ รวมถึงแพคเกจที่ใช้งานอย่างแพร่หลายใน[กลุ่มผู้ใช้ R](http://msdsug.microsoft.com/) เวอร์ชัน R ที่ปรับใช้ในบริการ Power BI เป็น*Revolution R Open 3.2.2.*
+> [ภาษาการเขียนโปรแกรม R](https://www.r-project.org/)เป็นหนึ่งในภาษาที่ใช้กันอย่างแพร่หลายที่สุดโดยนักสถิติ นักวิทยาศาสตร์ข้อมูล และนักวิเคราะห์ทางธุรกิจในการเขียนโปรแกรม ภาษา R มีชุมชนทรัพยากรเปิดที่นำเสนอแพคเกจที่เพิ่มเข้ามากกว่า 7,000 แพคเกจ รวมถึงแพคเกจที่ใช้งานอย่างแพร่หลายในกลุ่มผู้ใช้ R เวอร์ชัน R ที่ปรับใช้ในบริการ Power BI เป็น*Revolution R Open 3.2.2.*
 > 
 > 
 

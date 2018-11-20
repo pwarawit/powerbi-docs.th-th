@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: 3e125061766d6ade0daeaacb208d3070d8e9bd9b
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973269"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266127"
 ---
 # <a name="power-bi-admin-portal"></a>พอร์ทัลผู้ดูแลระบบของ power BI
 
@@ -297,7 +297,16 @@ ms.locfileid: "50973269"
 
 ผู้ใช้ในองค์กรสามารถนำเข้าข้อมูลลงในบริการได้ เช่น การรายงานการเผยแพร่จาก Power BI Desktop, การอัปโหลดไฟล์รายงาน Power BI และการเชื่อมต่อกับข้อมูลจากบริการโดยตรง [เรียนรู้เพิ่มเติม](desktop-upload-desktop-files.md)
 
-## <a name="capacity-settings"></a>ตั้งค่าความจุ
+## <a name="dataflow-settings-preview"></a>การตั้งค่ากระแสข้อมูล (ตัวอย่าง)
+
+### <a name="create-and-use-dataflows-preview"></a>สร้างและใช้กระแสข้อมูล (ตัวอย่าง)
+
+ผู้ใช้ในองค์กรสามารถสร้างและใช้กระแสข้อมูลได้ [เรียนรู้เพิ่มเติม](service-dataflows-overview.md)
+
+> [!NOTE]
+> การตั้งค่านี้จะนำไปใช้กับทั้งองค์กร และไม่สามารถจำกัดให้กับเฉพาะกลุ่มได้
+
+## <a name="capacity-settings"></a>การตั้งค่ากำลังการผลิต
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 

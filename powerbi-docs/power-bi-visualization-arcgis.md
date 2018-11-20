@@ -8,15 +8,15 @@ featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18e33fa4767eb0d9e457589ea3fa3b61721dce51
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 81867ba36e79a26acb168c1b02fc31e228bd6439
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548039"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266058"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>แผนที่ ArcGIS ในบริการของ Power BI และ Power BI Desktop จาก Esri
 บทช่วยสอนนี้ถูกเขียนจากมุมมองของผู้สร้างแผนที่ ArcGIS เมื่อผู้สร้างแชร์แผนที่ ArcGIS ให้กับเพื่อนร่วมงาน ผู้ร่วมงานสามารถดูและโต้ตอบกับแผนที่ แต่ไม่สามารถบันทึกการเปลี่ยนแปลงได้ เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับการดูแผนที่ ArcGIS ดูที่[โต้ตอบกับแผนที่ ArcGIS](visuals/power-bi-visualizations-arcgis.md)
@@ -26,7 +26,7 @@ ms.locfileid: "46548039"
  ถึงแม้ว่าคุณไม่สามารถสร้างแผนที่ ArcGIS บนอุปกรณ์เคลื่อนที่ คุณสามารถดู และโต้ตอบกับแผนที่ ดู[การโต้ตอบกับแผนที่ ArcGIS](visuals/power-bi-visualizations-arcgis.md)
 
 > [!TIP]
-> GIS ย่อมาจาก Geographic Information Science หมายถึงวิทยาการข้อมูลทางภูมิศาสตร์
+> GIS ย่อมาจากระบบข้อมูลทางภูมิศาสตร์
 
 
 ตัวอย่างด้านล่างใช้พื้นที่สีเทาเข้ม เพื่อแสดงยอดขายตามภูมิภาคในรูป แผนที่คลื่นความร้อน เทียบกับเลเยอร์รายได้หลังหักภาษีของประชากรปี 2016 คุณจะได้เห็นเมื่อคุณอ่านต่อไป การใช้แผนที่ ArcGIS มอบความสามารถที่ไม่จำกัดในการทำแผนที่ ข้อมูลประชากร และ การแสดงภาพแผนที่ที่สวยงาม ให้คุณสามารถบอกเล่าเรื่องราวของคุณได้ดีที่สุด

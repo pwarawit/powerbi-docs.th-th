@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: 88bfd67ddf284ea6b518c5ebdd6386887513f393
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223064"
+ms.locfileid: "51266104"
 ---
 # <a name="whitepapers-for-power-bi"></a>เอกสารทางเทคนิคสำหรับ Power BI
 
@@ -22,6 +22,7 @@ ms.locfileid: "51223064"
 
 | เอกสารทางเทคนิค | คำอธิบาย | วันที่ |
 | --- | --- | --- |
+| [Power BI และกระแสข้อมูล](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| เอกสารสรุปนี้อธิบายถึงกระแสข้อมูลในรายละเอียดทางเทคนิค และอธิบายถึงความสามารถและความคิดริเริ่มที่อยู่เบื้องหลังฟีเจอร์และฟังก์ชันของกระแสข้อมูล | พฤศจิกายน 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |อธิบาย Power BI Premium ทั้งตามที่มีอยู่เมื่อเปิดใช้งาน และพัฒนาการของ Power BI Premium | ตุลาคม 2017 |
 | [การใช้งานและการวางแผน Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| เอกสารนี้มีคำแนะนำและแนวทางปฏิบัติที่ดีที่สุดสำหรับการวางแผนและการใช้งานความจุพรีเมียมสำหรับปริมาณงานที่กำหนดไว้อย่างดี| พฤศจิกายน 2017 |
 | [วางแผนความจุสำหรับการวิเคราะห์แบบฝังตัวด้วย Power BI Premium](https://aka.ms/pbiewhitepaper) |เอกสารนี้ให้คำแนะนำสำหรับนักพัฒนาแอป/ISV เพื่อใช้ในการกำหนดความจุที่เหมาะสมที่สุดสำหรับธุรกิจ | ตุลาคม 2017 |
