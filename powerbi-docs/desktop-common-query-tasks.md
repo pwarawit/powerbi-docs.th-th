@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: bec5bb108bc210f268db0392370e15d89c0352b7
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 33462cbdac69d13d64d396a1dd93a6e1922a9e2c
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39330224"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679403"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>งานคิวรีที่ใช้บ่อยใน Power BI Desktop
 เมื่อทำงานในหน้าต่าง **ตัวแก้ไขคิวรี** ของ Power BI Desktop มีงานอยู่ไม่กี่อย่างที่ใช้งานบ่อย ๆ เอกสารนี้ สาธิตงานที่ใช้บ่อยเหล่านั้น และมีลิงก์ให้สำหรับข้อมูลเพิ่มเติม 
@@ -146,7 +146,7 @@ ms.locfileid: "39330224"
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 
-Power BI Desktop มีสูตรคำนวนครอบคลุมหลากหลายประเภท สำหรับข้อมูลเพิ่มเติม และแหล่งอ้างอิง ของสูตรใน ตัวแก้ไขคิวรี ทั้งหมด โปรดเข้าไปที่[ประเภทของสูตร Power Query](https://support.office.com/en-in/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819)
+Power BI Desktop มีสูตรคำนวนครอบคลุมหลากหลายประเภท สำหรับข้อมูลเพิ่มเติม และแหล่งอ้างอิง ของสูตรใน ตัวแก้ไขคิวรี ทั้งหมด โปรดเข้าไปที่[ประเภทของสูตร Power Query](https://support.office.com/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819)
 
 สูตรในตัวแก้ไขคิวรี แบ่งประเภทได้ดังนี้:
 

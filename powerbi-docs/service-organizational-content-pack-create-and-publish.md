@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 4638842217127c1d80ec115e05f8db1a6d3eb36c
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908474"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679052"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>สร้าง และเผยแพร่ชุดเนื้อหาองค์กร (บทเรียน)
 
@@ -71,7 +71,7 @@ ms.locfileid: "48908474"
       ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
    
       > [!NOTE]
-      > ถ้าสมาชิกของกลุ่มไม่สามารถดูสมุดงาน Excel ได้ คุณอาจจำเป็นต้อง[แชร์เวิร์กบุ๊กกับบุคคลเหล่านั้นใน OneDrive for Business](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)
+      > ถ้าสมาชิกของกลุ่มไม่สามารถดูสมุดงาน Excel ได้ คุณอาจจำเป็นต้อง[แชร์เวิร์กบุ๊กกับบุคคลเหล่านั้นใน OneDrive for Business](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c)
       > 
       > 
 4. เลือก**เผยแพร่**เมื่อต้องเพิ่มชุดเนื้อหาลงในไลบรารีแพ็คเนื้อหาขององค์กรของกลุ่ม  
@@ -93,6 +93,6 @@ ms.locfileid: "48908474"
 * [บทนำชุดเนื้อหาองค์กร](service-organizational-content-pack-introduction.md)  
 * [จัดการ อัปเดต และลบชุดเนื้อหาองค์กร](service-organizational-content-pack-manage-update-delete.md)  
 * [สร้างกลุ่มใน Power BI](service-create-distribute-apps.md)  
-* [อะไรคือ OneDrive สำหรับธุรกิจ](https://support.office.com/en-us/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
+* [อะไรคือ OneDrive สำหรับธุรกิจ](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

@@ -1,21 +1,21 @@
 ---
 title: ชมการแนะนำตัวอย่างที่พร้อมใช้งานกับ Power BI
 description: ชุดเนื้อหาตัวอย่าง ไฟล์ PBIX และชุดข้อมูล Excel สำหรับ Power BI
-author: mihart
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/06/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 91c08ab428852cc0fa8a721278e232400ed19bfa
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: fa6c6094e4fdfefebd0c7bb1f9ec8fa87d41766b
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546498"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717803"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>มีข้อมูลตัวอย่างอะไรบ้างให้ใช้กับ Power BI?
 สมมุติว่าคุณยังใหม่กับ Power BI และต้องการทดลองใช้ แต่คุณไม่มีข้อมูลใด ๆ  หรือบางทีคุณอาจมีชุดข้อมูลอยู่แล้ว แต่คุณยังไม่เข้าใจว่า Power BI ทำงานอย่างไร คุณกังวลว่าคุณอาจทำให้ชุดข้อมูลของคุณเสียหาย

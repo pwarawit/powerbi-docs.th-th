@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e74c8db22a2a1c4ddb188ae13a8ca5df9f862f3
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 432e38ffdcb92ee1d2cf1d62f7f34863d748885b
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507726"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679121"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>ค้นหาและเชื่อมต่อกับชุดเนื้อหาองค์กร
 
@@ -38,7 +38,7 @@ ms.locfileid: "51507726"
 ## <a name="connect-to-an-organizational-content-pack"></a>เชื่อมต่อกับชุดเนื้อหาองค์กร
 * เลือก**รับทันที**เพื่อเชื่อมต่อไปยังชุดเนื้อหาและเพิ่มชุดเนื้อหานั้นลงในพื้นที่ทำงานของคุณที่ใช้งานอยู่ แดชบอร์ด รายงาน เวิร์กบุ๊ก Excel และชุดข้อมูลใหม่จะถูกทำเครื่องหมายด้วยเครื่องหมายดอกจันสีเหลือง
 
-ถ้าชุดเนื้อหามีเวิร์กบุ๊ก Excel คุณอาจเห็นคำเตือนว่าคุณไม่มีสิทธิ์ในการดูเวิร์กบุ๊กนั้น ถ้าเป็นเช่นนั้น ขอให้เจ้าของชุดเนื้อหา[แชร์เวิร์กบุ๊กกับคุณใน OneDrive for Business](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) 
+ถ้าชุดเนื้อหามีเวิร์กบุ๊ก Excel คุณอาจเห็นคำเตือนว่าคุณไม่มีสิทธิ์ในการดูเวิร์กบุ๊กนั้น ถ้าเป็นเช่นนั้น ขอให้เจ้าของชุดเนื้อหา[แชร์เวิร์กบุ๊กกับคุณใน OneDrive for Business](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) 
 
 ชุดเนื้อหานี้ถูกล็อกอยู่ คุณสามารถ[บันทึกสำเนาของแดชบอร์ดและรายงานของคุณเอง](../service-organizational-content-pack-copy-refresh-access.md)ได้ 
 

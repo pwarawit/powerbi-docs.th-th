@@ -1,7 +1,7 @@
 ---
 title: เปลี่ยนวิธีการที่การแสดงผลด้วยภาพโต้ตอบในรายงาน
 description: จัดทำเอกสารประกอบสำหรับวิธีการตั้งค่าการโต้ตอบแบบภาพในรายงานบริการ Microsoft Power BI และรายงาน Power BI Desktop
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: N_xYsCbyHPw
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 09/24/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c3671ae626496bf80ac4b212a755bb13f82ec66b
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: de18466b2ce98c0ba1e4b5e6e9ad2eb501f18a49
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47418714"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717228"
 ---
 # <a name="visualization-interactions-in-a-power-bi-report"></a>การโต้ตอบแบบการแสดงภาพในรายงาน Power BI
 ถ้าคุณมีสิทธิ์ในการแก้ไขรายงาน คุณสามารถใช้**โต้ตอบแบบภาพ**เพื่อเปลี่ยนวิธีแสดงภาพบนหน้ารายงานมีผลกระทบต่อกันได้ 

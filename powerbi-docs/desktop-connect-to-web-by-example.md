@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
-ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
+ms.openlocfilehash: 9d7012006ca18cf43c530c4d79ed02e6ed73f33f
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49952222"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679305"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>รับข้อมูลจากหน้าเว็บโดยให้ตัวอย่าง
 
@@ -35,9 +35,9 @@ ms.locfileid: "49952222"
 
 จากที่นั่น ใส่ URL ของหน้าเว็บที่คุณต้องการแยกข้อมูล ในบทความนี้ เราจะใช้เว็บเพจ Microsoft Store เพื่อแสดงวิธีการทำงานของตัวเชื่อมต่อนี้ 
 
-ถ้าคุณต้องการทำตาม คุณสามารถใช้ [URL ของ Microsoft Store](https://www.microsoft.com/en-us/store/top-paid/games/xbox?category=classics) ที่เราใช้ในบทความนี้:
+ถ้าคุณต้องการทำตาม คุณสามารถใช้ [URL ของ Microsoft Store](https://www.microsoft.com/store/top-paid/games/xbox?category=classics) ที่เราใช้ในบทความนี้:
 
-    https://www.microsoft.com/en-us/store/top-paid/games/xbox?category=classics
+    https://www.microsoft.com/store/top-paid/games/xbox?category=classics
 
 ![กล่องโต้ตอบเว็บ](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
@@ -48,7 +48,7 @@ ms.locfileid: "49952222"
 
 การเลือก**แยกตารางโดยใช้ตัวอย่าง** จะแสดงหน้าต่างการโต้ตอบ ที่คุณสามารถดูตัวอย่างเนื้อหาของเว็บเพจ และป้อนค่าตัวอย่างของข้อมูลที่คุณต้องการจะแยก 
 
-ในตัวอย่างนี้ เราจะแยก *Name* (ชื่อ) และ *Price* (ราคา) สำหรับแต่ละเกมบนหน้า เราสามารถทำได้ โดยการระบุสองตัวอย่างจากหน้าสำหรับแต่ละคอลัมน์ ดังที่แสดงในรูปต่อไปนี้ ขณะที่พิมพ์อยู่ตัวอย่างเหล่านั้นลงไป ใน **Power Query** (ซึ่งเป็นเทคโนโลยีพื้นฐานที่แยกข้อมูลจากเว็บเพจ) สามารถแยกข้อมูลที่ตรงกับรูปแบบของรายการตัวอย่าง โดยใช้อัลกอริทึมการแยกข้อมูลที่ฉลาด
+ในตัวอย่างนี้ เราจะแยก *Name* (ชื่อ) และ *﻿Price* (ราคา) สำหรับแต่ละเกมบนหน้า เราสามารถทำได้ โดยการระบุสองตัวอย่างจากหน้าสำหรับแต่ละคอลัมน์ ดังที่แสดงในรูปต่อไปนี้ ขณะที่พิมพ์อยู่ตัวอย่างเหล่านั้นลงไป ใน **Power Query** (ซึ่งเป็นเทคโนโลยีพื้นฐานที่แยกข้อมูลจากเว็บเพจ) สามารถแยกข้อมูลที่ตรงกับรูปแบบของรายการตัวอย่าง โดยใช้อัลกอริทึมการแยกข้อมูลที่ฉลาด
 
 ![ข้อมูลตามตัวอย่าง](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 

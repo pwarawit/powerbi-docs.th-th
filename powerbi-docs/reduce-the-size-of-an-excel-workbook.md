@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12ff54b1aa44edaead98b1fab6942acbd76216c7
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5d21dff56620e4b2eb05ed3bbf123ff1d1805075
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329442"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679380"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>ลดขนาดของเวิร์กบุ๊ก Excel เพื่อดูใน Power BI
 คุณสามารถอัปโหลดเวิร์กบุ๊ก Excel ต่างๆ ที่มีขนาดเล็กกว่า 1 GB ไปยัง Power BI ได้ เวิร์กบุ๊ก Excel สามารถมีส่วนประกอบสองส่วน ได้แก่: รูปแบบข้อมูล และส่วนเหลือของรายงาน ซึ่งเป็นเนื้อหาหลักของเวิร์กชีต ถ้ารายงานมีขนาดที่ตรงตามขีดจำกัดด้านขนาดต่อไปนี้ คุณก็สามารถบันทึกไปยัง**OneDrive for Business** ให้เชื่อมต่อจาก Power BI แล้วดูใน Excel Online:
@@ -28,7 +28,7 @@ ms.locfileid: "39329442"
 
 * รูปภาพ
 * เซลล์ที่แรเงา [เอารูปแบบการแรเงาเซลล์ออก](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e)
-* เวิร์กชีตที่มีการใช้สี [เอาพื้นหลังของแผ่นงานออก](https://support.office.com/en-US/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8)
+* เวิร์กชีตที่มีการใช้สี [เอาพื้นหลังของแผ่นงานออก](https://support.office.com/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8)
 * กล่องข้อความ
 * ภาพตัดปะ
 
@@ -55,7 +55,7 @@ ms.locfileid: "39329442"
 * **ในส่วนแท็บข้อมูล Excel**: ไม่ต้องทำเครื่องหมายเลือก**ตาราง**ในกล่อง**การนำเข้าข้อมูล**
 
 ## <a name="workbook-size-optimizer"></a>ตัวปรับเพิ่มขนาดเวิร์กบุ๊ก
-ถ้าเวิร์กบุ๊กของคุณประกอบด้วยรูปแบบข้อมูล คุณก็สามารถเรียกใช้ตัวปรับเพิ่มขนาดเวิร์กบุ๊กเพื่อลดขนาดเวิร์กบุ๊กของคุณได้ [ดาวน์โหลดตัวปรับเพิ่มขนาดเวิร์กบุ๊ก](https://www.microsoft.com/en-us/download/details.aspx?id=38793)
+ถ้าเวิร์กบุ๊กของคุณประกอบด้วยรูปแบบข้อมูล คุณก็สามารถเรียกใช้ตัวปรับเพิ่มขนาดเวิร์กบุ๊กเพื่อลดขนาดเวิร์กบุ๊กของคุณได้ [ดาวน์โหลดตัวปรับเพิ่มขนาดเวิร์กบุ๊ก](https://www.microsoft.com/download/details.aspx?id=38793)
 
 ## <a name="related-info"></a>ข้อมูลที่เกี่ยวข้อง
 [สร้างรูปแบบข้อมูลที่มีหน่วยความจำที่มีประสิทธิภาพ](https://support.office.com/article/Create-a-memory-efficient-Data-Model-using-Excel-2013-and-the-Power-Pivot-add-in-951c73a9-21c4-46ab-9f5e-14a2833b6a70)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909329"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157413"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>ไม่สามารถเพิ่ม Power BI กับ Office 365 ที่สมัครผ่านคู่ค้า
 
@@ -23,7 +23,7 @@ Office 365 อนุญาตให้บริษัทสามารถขา
 
 หากคุณสนใจซื้อ Power BI ควบคู่ไปกับการสมัครใช้งาน Office 365 เราขอแนะนำให้ติดต่อกับคู่ค้าของคุณ หากคู่ค้าของคุณไม่มี Power BI ให้บริการ คุณมีทางเลือกหลายทางให้พิจารณา
 
-# <a name="work-with-your-partner-to-purchase-power-bi"></a>ติดต่อกับคู่ค้าของคุณเพื่อซื้อ Power BI
+## <a name="work-with-your-partner-to-purchase-power-bi"></a>ติดต่อกับคู่ค้าของคุณเพื่อซื้อ Power BI
 
 หากคุณต้องการซื้อการสมัครใช้งาน Power BI Pro หรือ Power BI Premium ให้ติดต่อคู่ค้าของคุณเพื่อพิจารณาทางเลือกที่คุณมี
 
@@ -31,7 +31,7 @@ Office 365 อนุญาตให้บริษัทสามารถขา
 
 * คู่ค้าของคุณสามารถเปลี่ยนรูปแบบของคุณให้สามารถซื้อ Power BI โดยตรงจาก Microsoft หรือคู่ค้าอื่นที่มี Power BI ได้
 
-# <a name="purchase-from-microsoft-or-another-channel"></a>สั่งซื้อจาก Microsoft หรือช่องทางอื่น
+## <a name="purchase-from-microsoft-or-another-channel"></a>สั่งซื้อจาก Microsoft หรือช่องทางอื่น
 
 ขึ้นอยู่กับความสัมพันธ์ระหว่างคู่ค้าของคุณ คุณอาจสามารถซื้อ Power BI โดยตรงจาก Microsoft หรือคู่ค้าอื่นได้ คุณสามารถตรวจสอบว่าคุณสามารถเพิ่มการสมัครใช้งาน Power BI ในพอร์ทัลผู้ดูแลระบบ Office 365 ได้หรือไม่ (จำเป็นต้องเป็นสมาชิกในบทบาทผู้ดูแลระบบส่วนกลางหรือผู้ดูแลระบบเรียกเก็บเงิน)
 
