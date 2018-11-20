@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b068516b13b3aab134b20f95939c75a5b6e949b5
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 3e8e8359742a422049751a348bce6a5d4015bd72
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101703"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619873"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -33,6 +33,64 @@ ms.locfileid: "50101703"
 คุณยังสามารถดูวิดีโอ**อัปเดตล่าสุด**เริ่มตั้งแต่แรก จากภายในบทความนี้เลย โดยคลิกที่ไอคอน**เล่น**บนรูปภาพวิดีโอที่อยู่ด้านล่างรายการการอัปเดตได้
 
 ส่วนต่อไปนี้อธิบายวิธีการอัปเดตเดือนก่อนหน้าไปยัง**Power BI Desktop**
+
+## <a name="october-2018-update-263327240262"></a>การอัปเดตประจำเดือนตุลาคม 2018 (2.63.3272.40262)
+
+การอัปเดตประจำเดือนตุลาคมดีจนน่าขนลุก เป็นประโยชน์จนสะพรึง และหอมหวานยิ่งกว่าลูกอมในถังใส่ขนมสีส้ม 
+
+การอัปเดตใหม่ต่อไปนี้จะถูกอัปเดตไปยัง **Power BI Desktop** ในเดือนตุลาคม:
+
+### <a name="reporting"></a>การรายงาน
+
+* ค้นหาในบัตรกรอง [[วิดีโอ]](https://youtu.be/cT3L2VzgBRU?t=56)  [[บทความ]](power-bi-reports-filters-and-highlighting.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23search) 
+* การปรับปรุงความสามารถในการเข้าถึงสำหรับประสบการณ์การเขียน [[วิดีโอ]](https://youtu.be/cT3L2VzgBRU?t=118)  [[บทความ]](desktop-accessibility.md#arranging-items-in-field-buckets)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
+* การปรับปรุงสมรรถภาพสำหรับแผนที่ ArcGIS [[วิดีโอ]](https://youtu.be/cT3L2VzgBRU?t=333)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
+
+
+### <a name="modeling"></a>การวางรูปแบบ
+
+* การปรับปรุงตัวแก้ไข DAX [[วิดีโอ]](https://youtu.be/GO1dhDJhSDY)  [[บทความ]](desktop-formula-editor.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23daxEditor) 
+
+### <a name="analytics"></a>การวิเคราะห์
+
+* โมเดลแบบรวมและการสนับสนุนการรวมในบริการ Power BI (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/8E6UokaDtc0)  [[บทความ - การรวม]](desktop-aggregations.md) [[บทความ - โมเดลแบบรวม]](desktop-composite-models.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23compositeModels) 
+* อธิบายการเพิ่มขึ้นของตัววัดแบบไม่บวกสะสม [[วิดีโอ]](https://youtu.be/8E6UokaDtc0?t=107)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23Insights) 
+
+### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+
+* ห้าวิชวลใหม่แบบกำหนดเอง[[วิดีโอ]](https://youtu.be/ZfJSSG17SEY)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23customVisuals) 
+
+### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
+
+* ตัวเชื่อมต่อเว็บตามตัวอย่างพร้อมใช้งานโดยทั่วไปแล้ว [[วิดีโอ]](https://youtu.be/MhrhIXNtelw)  [[บทความ]](desktop-connect-to-web-by-example.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23webByExample) 
+* เวอร์ชันที่2 ของการใช้ตัวเชื่อมต่อแบนด์วิดท์ SAP พร้อมใช้งานโดยทั่วไปแล้ว [[วิดีโอ]](https://youtu.be/MhrhIXNtelw?t=133)   [[บทความ]](desktop-sap-bw-connector.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBW) 
+* ตัวเชื่อมต่อเซิร์ฟเวอร์แบนด์วิดท์ SAP พร้อมใช้งานโดยทั่วไปแล้ว [[วิดีโอ]](https://youtu.be/MhrhIXNtelw?t=159)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23sapBWmessageServer) 
+* ตัวเชื่อมต่อ Vertica พร้อมใช้งานโดยทั่วไปแล้ว [[วิดีโอ]](https://youtu.be/MhrhIXNtelw?t=175)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23vertica) 
+* ตัวเชื่อมต่อ Dynamics NAV และ Dynamics 365 buisness Central พร้อมใช้งานโดยทั่วไปแล้ว [[video]](https://youtu.be/MhrhIXNtelw?t=197)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamics) 
+* ตัวเชื่อมต่อ Dynamics 365 business Central ภายในองค์กรใหม่ [[วิดีโอ]](https://youtu.be/MhrhIXNtelw?t=219)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dynamicsOnPrem) 
+
+### <a name="data-preparation"></a>การเตรียมข้อมูล
+* การทำความเข้าใจกับข้อมูลในตัวแก้ไข Power Query (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/XNNvXCvlDlc)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23dataProfiling) 
+* ตัวเลือก Fuzzy Matching สำหรับ Merge Queries (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/XNNvXCvlDlc?t=261)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23fuzzyMatching) 
+
+### <a name="other-areas"></a>หมวดอื่น
+* ตัวเลือกควบคุมการส่งออกข้อมูลสำหรับรายงาน [[วิดีโอ]](https://youtu.be/agjKCFQ1NBQ?t=16)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23exportControl) 
+* การตั้งค่า Transport layer security  [[วิดีโอ]](https://youtu.be/agjKCFQ1NBQ?t=208)  [[บทความ]](service-admin-power-bi-security.md#enforcing-tls-version-usage)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23tls) 
+
+
+> [!NOTE]
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+
+ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
+
+
+ช่องวิดีโอต่อไปนี้จะอธิบายและแสดงแต่ละการอัปเดตเหล่านี้ คุณยังสามารถเห็นวิดีโอได้จากบล็อกโพสต์อีกด้วย
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cT3L2VzgBRU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
 
 
 ## <a name="september-2018-update-2625222582"></a>อัปเดตประจำเดือนกันยายน 2018 (2.62.5222.582)

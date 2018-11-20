@@ -1,5 +1,5 @@
 ---
-title: ใช้โมเดลแบบรวมใน Power BI Desktop (ตัวอย่าง)
+title: ใช้แบบจำลองแบบรวมใน Power BI Desktop
 description: สร้างโมเดลข้อมูลที่มีการเชื่อมต่อข้อมูลและความสัมพันธ์แบบกลุ่ม-ต่อ-กลุ่มมากกว่าหนึ่งแห่งใน Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 47c99e40b1665b98c33d16b685e359c10277a560
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: b7a8323557f769fa2a05d504de2540bc505e7a54
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435407"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619712"
 ---
-# <a name="use-composite-models-in-power-bi-desktop-preview"></a>ใช้โมเดลแบบรวมใน Power BI Desktop (ตัวอย่าง)
+# <a name="use-composite-models-in-power-bi-desktop"></a>ใช้แบบจำลองแบบรวมใน Power BI Desktop
 
 ก่อนหน้านี้ใน Power BI Desktop เมื่อคุณใช้ DirectQuery ในรายงาน คุณจะไม่สามารถมีการเชื่อมต่อข้อมูลอื่น &mdash;ไม่ว่าจะเป็น DirectQuery หรือนำเข้า&mdash; ในรายงานนั้นได้ ด้วยโมเดลแบบรวม ข้อกำจัดจะหายไป รายงานจะสามารถรวมการเชื่อมต่อข้อมูลจากการเชื่อมต่อข้อมูล DirectQuery หรือนำเข้าได้มากกว่าหนึ่งแห่ง ในแบบใด ๆ ที่คุณเลือก
 
@@ -30,16 +30,6 @@ ms.locfileid: "49435407"
 * **ความสัมพันธ์แบบกลุ่ม-ต่อ-กลุ่ม**: ด้วย *โมเดลแบบรวม* คุณสามารถสร้าง *ความสัมพันธ์แบบกลุ่ม-ต่อ-กลุ่ม* ระหว่างตารางได้ วิธีการนี้จะลบขอคำสำหรับค่าเฉพาะในตาราง นอกจากนี้ยังลบการแก้ปัญหาชั่วคราวก่อนหน้า เช่น การเริ่มตารางใหม่เพื่อสร้างความสัมพันธ์เท่านั้น สำหรับข้อมูลเพิ่มเติม โปรดดู [ความสัมพันธ์แบบกลุ่ม-ต่อ-กลุ่มใน Power BI Desktop (ตัวอย่าง)](desktop-many-to-many-relationships.md)
 
 * **โหมดที่เก็บข้อมูล**: คุณสามารถระบุวิชวลที่ต้องการคิวรีไปยังแหล่งข้อมูลระบบ Back-end ได้ วิชวลที่ไม่ต้องใช้คิวรีจะถูกนำเข้าแม้ว่าจะมาจาก DirectQuery คุณลักษณะนี้จะช่วยปรับปรุงประสิทธิภาพ และลดการโหลดระบบ Back-end ก่อนหน้านี้ แม้กระทั่งวิชวลพื้นฐานอย่างตัวแบ่งข้อมูล ก็เริ่มคิวรีที่ถูกส่งไปยังแหล่งระบบ Back-end สำหรับข้อมูลเพิ่มเติม โปรดดู [โหมดที่เก็บข้อมูลใน Power BI Desktop (ตัวอย่าง)](desktop-storage-mode.md)
-
-## <a name="enable-the-composite-models-preview-feature"></a>เปิดใช้งานคุณลักษณะตัวอย่างโมเดลแบบรวม
-
-คุณลักษณะโมเดลแบบรวมอยู่ในช่วงตัวอย่าง และต้องเปิดใช้งานใน Power BI Desktop หากต้องการเปิดใช้งานโมเดลแบบรวม ให้ไปที่ **ไฟล์** >  **ตัวเลือกและการตั้งค่า** > **ตัวเลือก** > **คุณลักษณะตัวอย่าง** จากนั้นเลือกกล่องกาเครื่องหมาย **โมเดลแบบรวม** 
-
-![บานหน้าต่าง "คุณลักษณะตัวอย่าง"](media/desktop-composite-models/composite-models_02.png)
-
-หากต้องการเปิดใช้งานคุณลักษณะ คุณต้องรีสตาร์ต Power BI Desktop
-
-![หน้าต่าง "คุณลักษณะต้องการรีสตาร์ต"](media/desktop-composite-models/composite-models_03.png)
 
 
 ## <a name="use-composite-models"></a>ใช้โมเดลแบบรวม

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336909"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619827"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับข้อมูลจากแหล่งต่าง ๆ มากมายด้วย Power BI Desktop รายการทั้งหมดของแหล่งข้อมูลที่พร้อมใช้งานอยู่ที่ด้านล่างของหน้านี้
@@ -30,8 +30,6 @@ ms.locfileid: "49336909"
 
 > [!NOTE]
 > ทีม Power BI จะขยายแหล่งข้อมูลที่พร้อมใช้งานอย่างต่อเนื่องไปยัง**Power BI Desktop**และ**บริการ Power BI** ดังนั้นคุณมักจะเห็นงานระหว่างแหล่งข้อมูลที่กำลังดำเนินการอยู่ในช่วงเริ่มต้นได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง* แหล่งข้อมูลใด ๆ ที่ได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง*มีการจำกัดการสนับสนุนและฟังก์ชันการทำงาน และไม่ควรใช้ในสภาพแวดล้อมการผลิต
-> 
-> 
 
 ## <a name="data-sources"></a>แหล่งข้อมูล
 ชนิดข้อมูลจะได้รับการจัดระเบียบในประเภทต่อไปนี้:
@@ -80,15 +78,14 @@ ms.locfileid: "49336909"
 * Impala
 * Google BigQuery
 * Snowflake
+* BI Connector
+* Exasol
 * Dremio (iรุ่นเบต้า)
-* Exasol (รุ่นเบต้า)
 * Jethro (รุ่นเบต้า)
 * วิสาหกิจ Kyligence (เบต้า)
 
 > [!NOTE]
 > ตัวเชื่อมต่อฐานข้อมูลบางอย่างจำเป็นต้องให้คุณเปิดใช้งานโดยการเลือก**ไฟล์ > ตัวเลือกและการตั้งค่า > ตัวเลือก**จากนั้นเลือก**คุณลักษณะการแสดงตัวอย่าง**และเปิดใช้งานตัวเชื่อมต่อ ถ้าคุณไม่เห็นตัวเชื่อมต่อที่กล่าวถึงด้านบน และต้องการใช้งานตัวเชื่อมต่อเหล่านั้น โปรดตรวจสอบการตั้งค่าของ**คุณลักษณะการแสดงตัวอย่าง** และโปรดทราบว่าแหล่งข้อมูลใด ๆ ที่ได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง*มีการจำกัดการสนับสนุนและฟังก์ชันการทำงาน และไม่ควรใช้ในสภาพแวดล้อมการผลิต
-> 
-> 
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**ไฟล์**
 
@@ -111,11 +108,11 @@ ms.locfileid: "49336909"
 * พื้นที่เก็บข้อมูล Azure Blob
 * พื้นที่เก็บข้อมูล Azure Table
 * Azure Cosmos DB (เบต้า)
-* Azure Data Lake Store
+* Azure Data Lake Storage
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * คิวรีแบบโต้ตอบ HDInsight
-* Azure KustoDB (เบต้า)
+* Azure Data Explorer (เบต้า)
 
 แสดงรูปภาพต่อไปนี้**รับข้อมูล**สำหรับ**Azure**
 
@@ -131,7 +128,8 @@ ms.locfileid: "49336909"
 * Dynamics 365 Business Central (ภายในองค์กร)
 * Common Data Service สำหรับแอป (เบต้า)
 * Microsoft Azure Consumption Insights (เบต้า)
-* Visual Studio Team Services (เบต้า)
+* Azure DevOps (เบต้า)
+* Azure DevOps Server (เบต้า)
 * ออบเจ็กต์ Salesforce
 * รายงาน Salesforce
 * Google Analytics
@@ -187,8 +185,6 @@ ms.locfileid: "49336909"
 
 > [!NOTE]
 > ในขณะนี้คุณไม่สามารถเชื่อมต่อกับแหล่งข้อมูลแบบกำหนดเองที่รักษาความปลอดภัยโดยใช้ Azure Active Directory
-> 
-> 
 
 ## <a name="connecting-to-a-data-source"></a>เชื่อมต่อกับแหล่งข้อมูล
 เลือกแหล่งข้อมูลจากหน้าต่าง**รับข้อมูล**และเลือก**เชื่อมต่อ**เพื่อเชื่อมต่อกับแหล่งข้อมูล ในรูปต่อไปนี้**เว็บ**ได้รับการเลือกจากประเภทการเชื่อมต่อข้อมูล**อื่น ๆ**

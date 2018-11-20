@@ -61,14 +61,14 @@
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
-## <a name="support-for-tls-1112"></a>สนับสนุน TLS 1.1/1.2
+## <a name="support-for-tls-12"></a>สนับสนุน TLS 1.1/1.2
 
-เกตเวย์ข้อมูลแบบติดตั้งภายในองค์กร จะใช้ Transport Layer Security (TLS) 1.1 หรือ 1.2 ในการสื่อสารกับ**Power BI service**เป็นค่าเริ่มต้น เกตเวย์ข้อมูลแบบติดตั้งภายในองค์กรรุ่นก่อนหน้านี้ใช้ TLS 1.0 เป็นค่าเริ่มต้น ในวันที่ 15 มีนาคม 2018 การสนับสนุน TLS 1.0 จะสิ้นสุดลง รวมถึงความสามารถของเกตเวย์ในการโต้ตอบกับ**บริการ Power BI** โดยใช้ TLS 1.0 คุณต้องอัปเกรดการติดตั้งเกตเวย์ข้อมูลแบบติดตั้งภายในองค์กร เพื่อให้แน่ใจว่าเกตเวย์ของคุณจะยังคงทำงานได้
+เกตเวย์ข้อมูลแบบติดตั้งภายในองค์กร จะใช้ Transport Layer Security (TLS) 1.2 หรือ 1.2 ในการสื่อสารกับ Power BI service เป็นค่าเริ่มต้น เพื่อให้แน่ใจว่าการรับส่งข้อมูลทั้งหมดของเกตเวย์ใช้ TLS 1.2 คุณต้องเพิ่มหรือแก้ไขรีจิสทรีคีย์ต่อไปนี้บนเครื่องที่ใช้งาน service ของเกตเวย์:
 
-สิ่งสำคัญคือต้องทราบว่า TLS 1.0 ยังคงได้รับการสนับสนุนโดยเกตเวย์ข้อมูลแบบติดตั้งภายในองค์กรก่อนวันที่ 1 พฤศจิกายน และใช้เป็นกลไกแสดงแทนโดยเกตเวย์ เพื่อให้แน่ใจว่าการรับส่งข้อมูลทั้งหมดของเกตเวย์ใช้ TLS 1.1 หรือ 1.2 (และเพื่อป้องกันไม่ให้ใช้ TLS 1.0 บนเกตเวย์ของคุณ) คุณต้องเพิ่มหรือแก้ไขรีจิสทรีคีย์ต่อไปนี้บนเครื่องที่ใช้งาน service ของเกตเวย์:
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > การเพิ่มหรือแก้ไขรีจิสทรีคีย์เหล่านี้จะนำการเปลี่ยนแปลงไปใช้กับแอปพลิเคชัน .NET ทั้งหมด สำหรับข้อมูลเกี่ยวกับการเปลี่ยนแปลงรีจิสทรีที่มีผลต่อ TLS สำหรับแอปพลิเคชันอื่นๆ ดูที่[การตั้งค่ารีจิสทรี Transport Layer Security (TLS)](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)

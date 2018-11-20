@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a84d34bf82be99eb52fccfb6318142f7d47de1
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329925"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619620"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>เชื่อมต่อกับ Microsoft Azure Consumption Insights (Beta) ใน Power BI Desktop (Beta)
 ด้วยตัวเชื่อมต่อ**Azure Consumption Insights** คุณสามารถใช้ **Power BI Desktop**เพื่อเชื่อมต่อกับ Azure และรับข้อมูลเชิงลึกและข้อมูลเกี่ยวกับการใช้บริการ Azure ขององค์กรของคุณได้ คุณยังสามารถสร้างหน่วยวัด คอลัมน์แบบกำหนดเอง และรูปภาพเพื่อรายงาน และแชร์เกี่ยวกับการใช้งาน Azure ขององค์กรของคุณ รุ่นนี้**Azure Consumption Insights**ตัวเชื่อมต่ออยู่ในรุ่นเบต้า และจะมีการเปลี่ยนแปลง
@@ -49,9 +49,20 @@ ms.locfileid: "39329925"
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-เมื่อคุณใส่*แป้นการเข้าถึง*Access key**เชื่อมต่อ** หน้าต่าง**ตัวนำทาง**จะปรากฏขึ้น และจะแสดงตารางทั้งสี่ที่มีให้คุณ *สรุป* *การใช้งาน* *PriceSheet*และ*MarketPlace* คุณสามารถเลือกกล่องกาเครื่องหมายข้างตารางใดๆ เพื่อดูตัวอย่าง คุณสามารถเลือกโดยการติ๊กกล่องด้านข้างชื่อของพวกเขาอย่างน้อยหนึ่งตาราง จาก นั้นเลือก**การโหลด**
+เมื่อคุณใส่ของคุณ*แป้นการเข้าถึง*และเลือก**เชื่อมต่อ**บานหน้าต่าง**ตัวนำทาง**จะปรากฏขึ้น และแสดงตารางเก้าตารางที่พร้อมใช้งานสำหรับคุณ: 
+* **งบประมาณ**: มีรายละเอียดงบประมาณเพื่อดูค่าใช้จ่ายจริงหรือใช้งานกับเป้าหมายงบประมาณที่มีอยู่ 
+* **MarketPlace**: มีค่าธรรมเนียม Azure Marketplace ตามการใช้งาน
+* **PriceSheets**: มีอัตราการใช้โดยตัววัดสำหรับการลงทะเบียน
+* **RICharges**: มีค่าใช้จ่ายเชื่อมโยงกับอินสแตนซ์ที่สงวนไว้ของคุณมากกว่า 24 เดือนที่ผ่านมา
+* **RIRecommendations_Single**: คำแนะนำในการซื้อมีอินสแตนซ์ที่สงวนไว้ตามแนวโน้มการใช้งานของคุณในการสมัครใช้งานเดียวช่วง 7, 30 หรือ 60 วัน
+* **RIRecommendations_Shared**: คำแนะนำในการซื้อมีอินสแตนซ์ที่สงวนไว้โดยอิงตามแนวโน้มการใช้งานของคุณในการสมัครใช้งานทั้งหมดช่วง 7, 30 หรือ 60 วัน
+* **RIUsage**: มีรายละเอียดของปริมาณการใช้สำหรับอินสแตนซ์สงวนไว้ของคุณที่มีอยู่ช่วงเดือนที่ผ่าน
+* **สรุป**: แสดงข้อมูลสรุปรายเดือนผ่านยอดดุล ซื้อใหม่ Azure Marketplace ค่าบริการ ปรับปรุง และค่าใช้จ่ายเกิน
+* **UsageDetails**: มีการแบ่งรายละเอียดของปริมาณการใช้และค่าใช้จ่ายโดยประมาณสำหรับการลงทะเบียน
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
+คุณสามารถเลือกกล่องกาเครื่องหมายข้างตารางใดๆ เพื่อดูตัวอย่าง คุณสามารถเลือกโดยการติ๊กกล่องด้านข้างชื่อของพวกเขาอย่างน้อยหนึ่งตาราง จาก นั้นเลือก**การโหลด**
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > ตาราง*Summary*และ*PriceSheet*มีเฉพาะ API Key ในระดับลงทะเบียน นอกจากนี้ ตามค่าเริ่มต้นข้อมูลในตารางเหล่านี้มีข้อมูลของเดือนปัจจุบันสำหรับ*การใช้งาน*และ*PriceSheet* ตาราง*Summary*และ*MarketPlace*จะไม่จำกัดเฉพาะเดือนปัจจุบัน
