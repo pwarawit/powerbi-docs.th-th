@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 9a739efdba84279e938fd8e13d6521cf975d0b9d
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297147"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679029"
 ---
 # <a name="on-premises-data-gateway"></a>เกตเวย์ข้อมูลภายในองค์กร
 
@@ -100,7 +100,7 @@ ms.locfileid: "51297147"
 ## <a name="enabling-outbound-azure-connections"></a>การเปิดใช้งานการเชื่อมต่อ Azure ขาออก
 
 เกตเวย์ข้อมูลในองค์กรอาศัย Azure Service Bus สำหรับการเชื่อมต่อระบบคลาวด์ และสร้างการเชื่อมต่อขาออกไปยังภูมิภาค Azure ที่เกี่ยวข้อง ตามค่าเริ่มต้น นี่คือตำแหน่งที่ตั้งของผู้เช่า Power BI ของคุณ ดูว่า [ตำแหน่งที่ตั้งของผู้เช่า Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/) ของฉันอยู่ที่ไหน
-ถ้ามีไฟร์วอลล์บล็อกการเชื่อมต่อขาออก คุณต้องกำหนดค่าไฟร์วอลล์เพื่ออนุญาตการเชื่อมต่อขาออกจากเกตเวย์ข้อมูลในองค์กร ไปยังภูมิภาค Azure ที่เกี่ยวข้อง ดู [ช่วง IP ของศูนย์ข้อมูล Microsoft Azure](https://www.microsoft.com/en-us/download/details.aspx?id=41653) สำหรับรายละเอียดเกี่ยวกับช่วงของที่อยู่ IP ของแต่ละศูนย์ข้อมูลของ Azure
+ถ้ามีไฟร์วอลล์บล็อกการเชื่อมต่อขาออก คุณต้องกำหนดค่าไฟร์วอลล์เพื่ออนุญาตการเชื่อมต่อขาออกจากเกตเวย์ข้อมูลในองค์กร ไปยังภูมิภาค Azure ที่เกี่ยวข้อง ดู [ช่วง IP ของศูนย์ข้อมูล Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653) สำหรับรายละเอียดเกี่ยวกับช่วงของที่อยู่ IP ของแต่ละศูนย์ข้อมูลของ Azure
 > [!NOTE]
 > ช่วงของที่อยู่ IP อาจเปลี่ยนแปลงได้ตามเวลา ดังนั้น ให้แน่ใจว่าคุณดาวน์โหลดข้อมูลล่าสุดเป็นประจำ 
 
