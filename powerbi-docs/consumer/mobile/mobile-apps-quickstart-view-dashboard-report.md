@@ -1,5 +1,5 @@
 ---
-title: 'การเริ่มต้นใช้งานด่วน: แดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่'
+title: 'การเริ่มต้นใช้งานด่วน: สำรวจแดชบอร์ดและรายงานในแอปสำหรับอุปกรณ์เคลื่อนที่'
 description: ในการเริ่มต้นใช้งานด่วนนี้ คุณสำรวจแดชบอร์ดและรายงานตัวอย่างได้ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 author: maggiesMSFT
 manager: kfile
@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: quickstart
-ms.date: 05/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
-ms.openlocfilehash: 89f45409607cbe8da6cb1b167b6e71238d6edde0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6d5d543c3654da13592b24f4c70bc964eb7bddff
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548821"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157275"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>การเริ่มต้นใช้งานด่วน: แดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 ในการเริ่มต้นใช้งานด่วนนี้ คุณสำรวจแดชบอร์ดและรายงานตัวอย่างได้ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่บนโทรศัพท์ Android นอกจากนี้ คุณสามารถทำตามขั้นตอนในแอปสำหรับอุปกรณ์เคลื่อนอื่น ๆ ได้ 

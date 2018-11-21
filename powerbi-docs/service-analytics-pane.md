@@ -1,5 +1,5 @@
 ---
-title: บานหน้าต่างการวิเคราะห์ในบริการของ Power BI
+title: สร้างสายการอ้างอิงแบบไดนามิกสำหรับวิชวล
 description: สร้างสายการอ้างอิงแบบไดนามิกสำหรับวิชวลในบริการของ Power BI
 author: mihart
 manager: kfile
@@ -7,17 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2017
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 37f4663a176e81f2c235111092fcfa5576bfe08a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 04173d98185d7900848e93563b8e981bf3b200e6
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244532"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717711"
 ---
-# <a name="analytics-pane-in-power-bi-service"></a>บานหน้าต่างการวิเคราะห์ในบริการของ Power BI
+# <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>สร้างสายการอ้างอิงแบบไดนามิกสำหรับวิชวลในบริการของ Power BI
+
 ด้วยบานหน้าต่าง**การวิเคราะห์**ใน**บริการของ Power BI** คุณสามารถเพิ่ม*สายการอ้างอิง*แบบไดนามิก ให้กับการแสดงภาพ และเน้นไปที่แนวโน้มสำคัญหรือข้อมูลเชิงลึกได้
 
 ![](media/service-analytics-pane/power-bi-analytics-pane.png)
@@ -27,7 +28,7 @@ ms.locfileid: "34244532"
 > 
 > 
 
-## <a name="using-the-analytics-pane"></a>การใช้บานหน้าต่างการวิเคราะห์
+## <a name="use-the-analytics-pane"></a>การใช้บานหน้าต่างการวิเคราะห์
 ด้วยบานหน้าต่าง**การวิเคราะห์** คุณสามารถสร้างสายการอ้างอิงแบบไดนามิกชนิดต่าง ๆ ต่อไปนี้ (สายการอ้างอิงที่มีให้เลือก ขึ้นอยู่กับชนิดของวิชวล):
 
 * เส้นคงที่แกน X

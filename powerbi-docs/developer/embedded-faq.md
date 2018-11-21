@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 09/17/2018
-ms.openlocfilehash: 56b6c954aa49f8adf0aa479f143fb11b932c107e
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 8cdeed0c5575a8405ae5db6d1eaca522ab0597cb
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736975"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679443"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>คำถามที่ถามบ่อยเกี่ยวกับ Power BI Embedded
 
@@ -119,10 +119,10 @@ https://app.powerbi.com/ > ? เกี่ยวกับ Power BI
 ![เกี่ยวกับ ภูมิภาคผู้เช่า](media/embedded-faq/about-01.png)
 ![Power BI](media/embedded-faq/tenant-location-01.png)
 
-### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>สิ่งที่ช่องทางกระบวนการสื่อสารตามลำดับ (CSP) สนับสนุน คืออะไร?
+### <a name="what-is-supported-with-the-cloud-solution-provider-csp-channel"></a>สิ่งที่ได้รับการสนับสนุนจาก Cloud Solution Provide (CSP) คืออะไร?
 
 * คุณสามารถสร้าง PBIE ให้ผู้เช่าของคุณด้วยการสมัครใช้งานชนิด CSP
-* บัญชีคู่ค้าสามารถลงชื่อเข้าใช้ผู้เช่าลูกค้า และซื้อ PBIE สำหรับผู้เช่าลูกค้าที่ระบุผู้ใช้ที่เป็นผู้เช่าลูกค้าให้เป็นผู้ดูแลความจุ Power BI
+* บัญชีคู่ค้าสามารถลงชื่อเข้าใช้ในนามผู้เช่าของลูกค้า และซื้อ PBIE สำหรับผู้เช่าของลูกค้า กำหนดให้ผู้ใช้ที่เป็นผู้เช่าของลูกค้าเป็นผู้ดูแลความจุ Power BI
 
 ### <a name="why-do-i-get-an-unsupported-account-message"></a>เหตุใดฉันจึงได้รับข้อความว่า เป็นบัญชีที่ไม่สนับสนุน
 

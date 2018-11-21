@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: d6f3f654574e9cca081ae2f8191fd7b9fc017afd
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 3d9e8e46fdd84edbeb5b4ff5e8f7efe4a4291049
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223591"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679276"
 ---
 # <a name="troubleshoot-power-bi-custom-visuals"></a>แก้ปัญหาการแสดงภาพ Power BI แบบกำหนดเอง
 
@@ -37,7 +37,7 @@ ms.locfileid: "51223591"
 
 **ไม่สามารถติดต่อเซิร์ฟเวอร์วิชวล**
 
-เรียกใช้เซิร์ฟเวอร์วิชวลด้วยคำสั่ง `pbiviz start` ในบรรทัดคำสั่งของเทอร์มินัล จากรากของโครงการวิชวลของคุณ ถ้าเซิร์ฟเวอร์กำลังทำงาน เป็นไปได้ว่าใบรับรอง SSL ของคุณไม่ได้ติดตั้งอย่างถูกต้อง
+เรียกใช้เซิร์ฟเวอร์วิชวลด้วยคำสั่ง `pbiviz start` ในบรรทัดคำสั่งของเทอร์มินัล จากรากของโครงการวิชวลของคุณ ถ้าเซิร์ฟเวอร์ไม่ทำงาน เป็นไปได้ว่าไม่ได้ติดตั้งใบรับรอง SSL ของคุณอย่างถูกต้อง
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

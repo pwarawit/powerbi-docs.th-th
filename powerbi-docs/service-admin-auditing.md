@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/10/2018
+ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 294fb3a0142908ce0ab068e075ce39f950a0b124
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973361"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850487"
 ---
 # <a name="using-auditing-within-your-organization"></a>ใช้การตรวจสอบภายในองค์กรของคุณ
 
@@ -139,83 +139,100 @@ Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType Power
 
 กิจกรรมต่อไปนี้ได้รับการตรวจสอบ โดย Power BI
 
-* AddDatasourceToGateway
-* AddGroupMembers
-* AnalyzedByExternalApplication
-* AnalyzeInExcel
-* AttachDataflowStorageAccount
-* BindToGateway
-* ChangeCapacityState
-* ChangeGatewayAdministrators
-* ChangeGatewayDatasourceUsers
-* CreateApp
-* CreateDashboard
-* CreateDataflow
-* CreateDataset
-* CreateEmailSubscription
-* CreateFolder
-* CreateGateway
-* CreateGroup
-* CreateOrgApp
-* CreateReport
-* DeleteComment
-* DeleteDashboard
-* DeleteDataflow
-* DeleteDataset
-* DeleteEmailSubscription
-* DeleteFolder
-* DeleteGateway
-* DeleteGroup
-* DeleteGroupMembers
-* DeleteOrgApp
-* DeleteReport
-* DownloadReport
-* EditDataset
-* EditReport
-* ExportDataflow
-* ExportReport
-* ExportTile
-* GenerateDataflowSasToken
-* GenerateEmbedToken
-* GetDatasources
-* นำเข้า
-* InstallApp
-* MigrateWorkspaceIntoCapacity
-* OptInForProTrial
-* PostComment
-* PrintDashboard
-* PrintReport
-* PublishToWebReport
-* RefreshDataset
-* RemoveDatasourceFromGateway
-* RemoveWorkspacesFromCapacity
-* RenameDashboard
-* SetAllConnections
-* SetScheduledRefresh
-* SetScheduledRefreshOnDataflow
-* ShareDashboard
-* ShareReport
-* TakeOverDataset
-* TakeOverDataset
-* UnpublishApp
-* UpdateApp
-* UpdateCapacityAdmins
-* UpdateCapacityDisplayName
-* UpdateCapacityResourceGovernanceSettings
-* UpdateCapacityUsersAssignment
-* UpdatedAdminFeatureSwitch
-* UpdateDataflow
-* UpdateDatasetParameters
-* UpdateDatasourceCredentials
-* UpdateDatasources
-* UpdateEmailSubscription
-* UpdateFolder
-* UpdateFolderAccess
-* ViewDashboard
-* ViewDataflow
-* ViewReport
-* ViewTile
-* ViewUsageMetrics
+| ชื่อที่เรียกง่าย                                     | ชื่อการดำเนินการ                              | บันทึกย่อ                                  |
+|---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| เพิ่มแหล่งข้อมูลไปยังเกตเวย์ Power BI แล้ว             | AddDatasourceToGateway                      |                                          |
+| เพิ่มการเข้าถึงโฟลเดอร์ Power BI แล้ว                      | AddFolderAccess                             | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| เพิ่มสมาชิกกลุ่ม Power BI แล้ว                      | AddGroupMembers                             |                                          |
+| ผู้ดูแลระบบแนบบัญชีเก็บข้อมูลกระแสข้อมูลไปยังผู้เช่า | AdminAttachedDataflowStorageAccountToTenant | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| ชุดข้อมูล Power BI ที่วิเคราะห์แล้ว                         | AnalyzedByExternalApplication               |                                          |
+| วิเคราะห์รายงาน Power BI แล้ว                          | AnalyzeInExcel                              |                                          |
+| ผูกชุดข้อมูล Power BI ไปยังเกตเวย์แล้ว                | BindToGateway                               |                                          |
+| เปลี่ยนแปลงสถานะความจุแล้ว                            | ChangeCapacityState                         |                                          |
+| เปลี่ยนแปลงการกำหนดผู้ใช้ความจุแล้ว                  | UpdateCapacityUsersAssignment               |                                          |
+| เปลี่ยนแปลงการเชื่อมต่อชุดข้อมูล Power BI แล้ว              | SetAllConnections                           |                                          |
+| เปลี่ยนผู้ดูแลระบบเกตเวย์ Power BI แล้ว                   | ChangeGatewayAdministrators                 |                                          |
+| เปลี่ยนผู้ใช้แหล่งข้อมูลเกตเวย์ Power IB แล้ว        | ChangeGatewayDatasourceUsers                |                                          |
+| สร้างชุดเนื้อหา Power BI ขององค์กรแล้ว      | CreateOrgApp                                |                                          |
+| สร้างแอป Power BI แล้ว                              | CreateApp                                   |                                          |
+| สร้างแดชบอร์ด Power BI แล้ว                        | CreateDashboard                             |                                          |
+| สร้างกระแสข้อมูล Power BI แล้ว                         | CreateDataflow                              |                                          |
+| สร้างชุดข้อมูล Power BI แล้ว                          | CreateDataset                               |                                          |
+| สร้างการสมัครใช้งานอีเมล Power BI แล้ว               | CreateEmailSubscription                     |                                          |
+| สร้างโฟลเดอร์ Power BI แล้ว                           | CreateFolder                                |                                          |
+| เกตเวย์ Power BI ที่สร้างขึ้น                          | CreateGateway                               |                                          |
+| สร้างกลุ่ม Power BI แล้ว                            | CreateGroup                                 |                                          |
+| สร้างรายงาน Power BI แล้ว                           | CreateReport                                |                                          |
+| กระแสข้อมูลที่ย้ายไปยังบัญชีเก็บข้อมูลภายนอก     | DataflowMigratedToExternalStorageAccount    | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| การให้สิทธิ์กระแสข้อมูลที่เพิ่มเข้าไป                        | DataflowPermissionsAdded                    | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| การให้สิทธิ์กระแสข้อมูลที่ถูกลบ                      | DataflowPermissionsRemoved                  | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| ลบชุดเนื้อหา Power BI ขององค์กรแล้ว      | DeleteOrgApp                                |                                          |
+| ลบข้อคิดเห็น Power BI แล้ว                          | DeleteComment                               |                                          |
+| ลบแดชบอร์ด Power BI แล้ว                        | DeleteDashboard                             | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| ลบกระแสข้อมูล Power BI แล้ว                         | DeleteDataflow                              | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| ลบชุดข้อมูล Power BI แล้ว                          | DeleteDataset                               |                                          |
+| ลบการสมัครใช้งานอีเมล Power BI แล้ว               | DeleteEmailSubscription                     |                                          |
+| ลบโฟลเดอร์ Power BI แล้ว                           | DeleteFolder                                |                                          |
+| ลบการเข้าถึงโฟลเดอร์ Power BI แล้ว                    | DeleteFolderAccess                          | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| เกตเวย์ Power BI ที่ตรวจพบ                          | DeleteGateway                               |                                          |
+| ลบกลุ่ม Power BI แล้ว                            | DeleteGroup                                 |                                          |
+| ลบรายงาน Power BI แล้ว                           | DeleteReport                                |                                          |
+| ค้นพบแหล่งข้อมูลสำหรับชุดข้อมูล Power BI แล้ว          | GetDatasources                              |                                          |
+| รายงาน Power BI ที่ดาวน์โหลด                        | DownloadReport                              |                                          |
+| แก้ไขการให้สิทธิ์ใบรับรอง Power BI แล้ว          | EditCertificationPermission                 | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| แก้ไขแดชบอร์ด Power BI แล้ว                         | EditDashboard                               | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| แก้ไขชุดข้อมูล Power BI แล้ว                           | EditDataset                                 |                                          |
+| แก้ไขคุณสมบัติของชุดข้อมูล Power BI แล้ว                | EditDatasetProperties                       | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| แก้ไขรายงาน Power BI แล้ว                            | EditReport                                  |                                          |
+| ส่งออกกระแสข้อมูล Power BI แล้ว                        | ExportDataflow                              |                                          |
+| ส่งออกข้อมูลภาพรายงาน Power BI แล้ว              | ExportReport                                |                                          |
+| ส่งออกข้อมูลไทล์ Power BI แล้ว                       | ExportTile                                  |                                          |
+| การเพิ่มสิทธิ์กระแสข้อมูลล้มเหลว                | FailedToAddDataflowPermissions              | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| การลบสิทธิ์กระแสข้อมูลล้มเหลว             | FailedToRemoveDataflowPermissions           | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| สร้างโทเค็น SAS ของกระแสข้อมูล Power BI แล้ว             | GenerateDataflowSasToken                    |                                          |
+| สร้างโทเค็นแบบฝังตัวของ Power BI แล้ว                    | GenerateEmbedToken                          |                                          |
+| นำเข้าไฟล์ไปยัง Power BI แล้ว                         | นำเข้า                                      |                                          |
+| ติดตั้ง Power BI แล้ว                            | InstallApp                                  |                                          |
+| โยกย้ายพื้นที่ทำงานของแอปไปยังความจุแล้ว                  | MigrateWorkspaceIntoCapacity                |                                          |
+| โพสต์ข้อคิดเห็น Power BI แล้ว                           | PostComment                                 |                                          |
+| พิมพ์แดชบอร์ด Power BI แล้ว                        | PrintDashboard                              |                                          |
+| พิมพ์หน้ารายงาน Power BI แล้ว                      | PrintReport                                 |                                          |
+| เผยแพร่รายงาน Power BI ไปยังเว็บแล้ว                  | PublishToWebReport                          |                                          |
+| ได้รับข้อมูลลับสำหรับกระแสข้อมูล Power BI จาก Key Vault แล้ว  | ReceiveDataflowSecretFromKeyVault           | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| ลบแหล่งข้อมูลออกจากเกตเวย์ Power BI แล้ว         | RemoveDatasourceFromGateway                 |                                          |
+| ลบสมาชิกกลุ่ม Power BI แล้ว                    | DeleteGroupMembers                          |                                          |
+| ลบพื้นที่ทำงานออกจากความจุแล้ว                 | RemoveWorkspacesFromCapacity                |                                          |
+| เปลี่ยนชื่อแดชบอร์ด Power BI แล้ว                        | RenameDashboard                             |                                          |
+| ร้องขอการรีเฟรชกระแสข้อมูล Power BI แล้ว               | RequestDataflowRefresh                      | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| ร้องขอการรีเฟรชชุดข้อมูล Power BI แล้ว                | RefreshDataset                              |                                          |
+| เรียกคืนพื้นที่ทำงาน Power BI แล้ว                     | GetWorkspaces                               |                                          |
+| ตั้งค่าการรีเฟรชตามกำหนดเวลาบนกระแสข้อมูล Power BI        | SetScheduledRefreshOnDataflow               |                                          |
+| ตั้งค่าการรีเฟรชตามกำหนดเวลาบนชุดข้อมูล Power BI         | SetScheduledRefresh                         |                                          |
+| แชร์แดชบอร์ด Power BI แล้ว                         | ShareDashboard                              |                                          |
+| แชร์รายงาน Power BI แล้ว                            | ShareReport                                 |                                          |
+| เริ่มใช้งาน Power BI เวอร์ชั่นทดลองใช้ที่ขยายเวลา                   | OptInForExtendedProTrial                    | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| เริ่มต้นใช้งานเวอร์ชันทดลองของ Power BI แล้ว                            | OptInForProTrial                            |                                          |
+| เข้าควบคุมแหล่งข้อมูล Power BI แล้ว                   | TakeOverDataset                          |                                          |
+| เข้าควบคุมชุดข้อมูล Power BI แล้ว                        | TakeOverDataset                             |                                          |
+| ยกเลิกเผยแพร่แอป Power BI แล้ว                          | UnpublishApp                                |                                          |
+| อัปเดตการตั้งค่าการกำกับดูแลทรัพยากรความจุ      | UpdateCapacityResourceGovernanceSettings    | ปัจจุบันไม่อยู่ในพอร์ทัลผู้ดูแลระบบ Office 365 |
+| อัปเดตผู้ดูแลความจุแล้ว                            | UpdateCapacityAdmins                        |                                          |
+| อัปเดตชื่อที่แสดงความจุแล้ว                     | UpdateCapacityDisplayName                   |                                          |
+| อัปเดตการตั้งค่า Power BI ขององค์กรแล้ว          | UpdatedAdminFeatureSwitch                   |                                          |
+| อัปเดตแอป Power BI แล้ว                              | UpdateApp                                   |                                          |
+| อัปเดตกระแสข้อมูล Power BI แล้ว                         | UpdateDataflow                              |                                          |
+| อัปเดตแหล่งข้อมูลสำหรับชุดข้อมูล Power BI แล้ว             | UpdateDatasources                           |                                          |
+| อัปเดตพารามิเตอร์สำหรับชุดข้อมูล Power BI แล้ว               | UpdateDatasetParameters                     |                                          |
+| อัปเดตการสมัครใช้งานอีเมล Power BI แล้ว               | UpdateEmailSubscription                     |                                          |
+| อัปเดตโฟลเดอร์ Power BI แล้ว                           | UpdateFolder                                |                                          |
+| อัปเดตการเข้าถึงโฟลเดอร์ Power BI แล้ว                    | UpdateFolderAccess                          |                                          |
+| อัปเดตข้อมูลประจำตัวแหล่งข้อมูลเกตเวย์ Power IB แล้ว  | UpdateDatasourceCredentials                 |                                          |
+| ดูแดชบอร์ด Power BI แล้ว                         | ViewDashboard                               |                                          |
+| ดูกระแสข้อมูล Power BI แล้ว                          | ViewDataflow                                |                                          |
+| ดูรายงาน Power BI แล้ว                            | ViewReport                                  |                                          |
+| ดูไทล์ Power BI แล้ว                              | ViewTile                                    |                                          |
+| ดูเมตริกการใช้งาน Power BI แล้ว                     | ViewUsageMetrics                            |                                          |
+|                                                   |                                             |                                          |
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

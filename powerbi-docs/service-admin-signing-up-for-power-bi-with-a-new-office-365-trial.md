@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5089be0cb8bd96573a0d1b3e25c742c1f559253b
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736860"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850395"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>ลงทะเบียนสำหรับ Power BI ด้วย Office 365 รุ่นทดลองใช้ ตัวใหม่
 
@@ -27,13 +27,13 @@ ms.locfileid: "50736860"
 
 1. เมื่อเสร็จสิ้นกระบวนการการลงทะเบียน คุณจะได้ชื่อสำหรับลงชื่อเข้าใช้ใหม่ที่มีลักษณะเหมือน you@yourcompany.onmicrosoft.com นี่คือการลงชื่อเข้าใช้ที่คุณจะใช้กับ Power BI
 
-1. ลงทะเบียนสำหรับ Power BI [โดยใช้ลิงก์นี้](https://portal.office.com/Start/Confirm?Sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235&ru=https%3A%2F%2Fapp.powerbi.com%3FredirectedFromSignup%3D1%26noSignUpCheck%3D1) หากได้รับพร้อมท์ ให้ลงชื่อเข้าใช้ โดยใช้ชื่อและรหัสผ่านที่คุณเลือกสำหรับ Office 365 ในขั้นตอนก่อนหน้านี้
+1. ลงทะเบียนสำหรับ Power BI [โดยใช้ลิงก์นี้](https://app.powerbi.com/signupredirect?pbi_source=web) หากได้รับพร้อมท์ ให้ลงชื่อเข้าใช้ โดยใช้ชื่อและรหัสผ่านที่คุณเลือกสำหรับ Office 365 ในขั้นตอนก่อนหน้านี้
 
 1. เท่านี้ก็เรียบร้อย! เมื่อเสร็จสิ้นแล้ว คุณจะถูกเปลี่ยนเส้นทางไปยัง Power BI หากคุณมีปัญหาในการลงชื่อเข้าใช้ด้วยบัญชีใหม่ ให้ลองใช้เซสชันเบราว์เซอร์ส่วนตัว
 
 ## <a name="important-considerations"></a>ข้อควรพิจารณาที่สำคัญ
 
-หากใช้วิธีการลงทะเบียนวิธีนี้ คุณกำลังสร้างผู้เช่าองค์กรใหม่ และคุณจะกลายเป็นผู้ดูแลผู้เช่า สามารถดูข้อมูลเพิ่มเติมได้ที่ [ผู้ดูแล Power BI คืออะไร?](service-admin-administering-power-bi-in-your-organization.md) คุณสามารถเพิ่มผู้ใช้ใหม่ลงในผู้เช่าของคุณ แล้วแชร์ให้กับพวกเขา ดังที่อธิบายไว้ใน [เอกสารประกอบผู้ดูแล Office 365](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG)
+หากใช้วิธีการลงทะเบียนวิธีนี้ คุณกำลังสร้างผู้เช่าองค์กรใหม่ และคุณจะกลายเป็นผู้ดูแลผู้เช่า สามารถดูข้อมูลเพิ่มเติมได้ที่ [ผู้ดูแล Power BI คืออะไร](service-admin-administering-power-bi-in-your-organization.md) คุณสามารถเพิ่มผู้ใช้ใหม่ลงในผู้เช่าของคุณ แล้วแชร์ให้กับพวกเขา ดังที่อธิบายไว้ใน [เอกสารประกอบผู้ดูแล Office 365](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

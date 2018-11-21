@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 11/16/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973384"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850602"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>กรองรายงานโดยใช้พารามิเตอร์สตริงของแบบสอบถามใน URL
 
@@ -47,7 +47,7 @@ URL?filter=***ตาราง***/***เขตข้อมูล*** eq '***ค่
 
 * **สตริง**ต้องถูกล้อมรอบด้วยเครื่องหมายอัญประกาศเดี่ยว - 'ชื่อผู้จัดการ'
 * **ตัวเลข**ไม่จำเป็นต้องมีการจัดรูปแบบพิเศษ
-* **วันที่และเวลา**ต้องถูกล้อมรอบด้วยเครื่องหมายอัญประกาศเดี่ยว และถูกนำหน้า ด้วยคำว่า **DateTime**
+* **วันที่และเวลา**ต้องถูกล้อมรอบด้วยเครื่องหมายอัญประกาศเดี่ยว ใน OData v3 ต้องนำหน้าด้วยคำว่า datetime แต่ไม่จำเป็นต้องใช้ datetime ใน OData v4
 
 ถ้ายังคงสับสน ให้อ่านต่อไป เราจะอธิบายในรายละเอียด  
 

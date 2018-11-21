@@ -1,5 +1,5 @@
 ---
-title: เพิ่มข้อคิดเห็นไปยังรายงานในรีพอร์ตเซิร์ฟเวอร์ - เซิร์ฟเวอร์รายงาน Power BI
+title: เพิ่มข้อคิดเห็นไปยังรายงานในเซิร์ฟเวอร์รายงาน Power BI
 description: เรียนรู้วิธีการเพิ่มข้อคิดเห็นไปยัง Power BI หรือรายงานที่มีการแบ่งหน้าบนเซิร์ฟเวอร์รายงาน Power BI หรือรีพอร์ตเซิร์ฟเวอร์ของ SQL Server Reporting Services
 author: maggiesMSFT
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: ff51b2e41d921b7a88afc9b13bb4ecd98814d12e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e0053660263f4cbed55050b9431b67228bf74c29
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727984"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157367"
 ---
-# <a name="add-comments-to-a-report-in-a-report-server"></a>เพิ่มข้อคิดเห็นไปยังรายงานในรีพอร์ตเซิร์ฟเวอร์
-คุณสามารถเพิ่มข้อคิดเห็นเมื่อต้องการรายงาน รวมถึงรายงาน Power BI ภายในพอร์ทัลเว็บของรีพอร์ตเซิร์ฟเวอร์ ข้อคิดเห็นสดพร้อมรายงาน และทุกคนที่มีสิทธิ์ที่เหมาะสม สามารถดูข้อคิดเห็นสำหรับรายงานได้ ดูส่วน[สิทธิ์](#permissions)ด้านล่างสำหรับรายละเอียด
+# <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>เพิ่มข้อคิดเห็นไปยังรายงานในรีพอร์ตเซิร์ฟเวอร์ - เซิร์ฟเวอร์รายงาน Power BI
+คุณสามารถเพิ่มข้อคิดเห็นเมื่อต้องการรายงาน รวมถึงรายงาน Power BI ภายในพอร์ทัลเว็บของรีพอร์ตเซิร์ฟเวอร์ ข้อคิดเห็นสดพร้อมรายงาน และทุกคนที่มีสิทธิ์ที่เหมาะสม สามารถดูข้อคิดเห็นสำหรับรายงานได้ ดูส่วน[การให้สิทธิ์](#permissions)ด้านล่างสำหรับรายละเอียด
 
 ## <a name="add-or-view-comments"></a>เพิ่ม หรือดูข้อคิดเห็น
 1. เปิดส่วนที่มีการแบ่งหน้าหรือรายงาน Power BI บนรีพอร์ตเซิร์ฟเวอร์
@@ -47,5 +47,5 @@ ms.locfileid: "44727984"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [เซิร์ฟเวอร์รายงาน Power BI คืออะไร](get-started.md)  
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 
