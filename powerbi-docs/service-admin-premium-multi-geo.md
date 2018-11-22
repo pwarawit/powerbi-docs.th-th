@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/21/2018
+ms.date: 11/20/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 91e1880e1a879ee98d65d6ad91b26e534e807040
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641683"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268308"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>การสนับสนุน MultiGeo เพื่อ Power BI Premium (ตัวอย่าง)
 
@@ -94,6 +94,7 @@ Multi-Geo ในขณะนี้พร้อมใช้งานใน Power 
 - คิวรีที่ได้รับการแคชที่เก็บอยู่ในภูมิภาคระยะไกลจะพักอยู่ในภูมิภาคนั้น อย่างไรก็ตาม ข้อมูลอื่นที่อยู่ในระหว่างการส่งต่ออาจเดินทางกลับไปกลับมาระหว่างเขตภูมิศาสตร์หลายเขต
 - เมื่อทำการย้ายข้อมูลจากภูมิภาคหนึ่งไปยังอีกภูมิภาคหนึ่งในสภาพแวดล้อม Multi-Geo ข้อมูลต้นทางอาจยังอยู่ในภูมิภาคที่ย้ายออกมานานถึง 30 วัน ในระหว่างนั้นผู้ใช้ปลายทางจะไม่มีสิทธิ์เข้าถึงข้อมูล ข้อมูลจะถูกลบออกจากภูมิภาคและทำลายในระยะเวลา 30 วันนั้น
 - Multi-Geo ไม่ได้ส่งผลให้เกิดประสิทธิภาพที่ดีขึ้นโดยทั่วไป การโหลดรายงานและแดชบอร์ดจะยังคงเกี่ยวข้องกับการส่งคำร้องขอไปยังภูมิภาคเดิมของ Metadata
+- คุณลักษณะ[กระแสข้อมูล](service-dataflows-overview.md) (ในตัวอย่าง) ไม่รองรับบน Multi-GEO ในขณะนี้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

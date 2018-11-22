@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266127"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268377"
 ---
 # <a name="power-bi-admin-portal"></a>พอร์ทัลผู้ดูแลระบบของ power BI
 
@@ -301,7 +301,7 @@ ms.locfileid: "51266127"
 
 ### <a name="create-and-use-dataflows-preview"></a>สร้างและใช้กระแสข้อมูล (ตัวอย่าง)
 
-ผู้ใช้ในองค์กรสามารถสร้างและใช้กระแสข้อมูลได้ [เรียนรู้เพิ่มเติม](service-dataflows-overview.md)
+ผู้ใช้ในองค์กรสามารถสร้างและใช้กระแสข้อมูลได้ สำหรับภาพรวมของกระแสข้อมูล โปรดดู [การเตรียมข้อมูลด้วยตนเองใน Power BI (ตัวอย่าง)](service-dataflows-overview.md) เมื่อต้องการเปิดใช้งานกระแสข้อมูลในความจุแบบ Premium ให้ดู[การกำหนดค่าปริมาณงาน](service-admin-premium-manage.md#configure-workloads)
 
 > [!NOTE]
 > การตั้งค่านี้จะนำไปใช้กับทั้งองค์กร และไม่สามารถจำกัดให้กับเฉพาะกลุ่มได้
