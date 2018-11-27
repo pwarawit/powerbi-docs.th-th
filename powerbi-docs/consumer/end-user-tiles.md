@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f788da00d50ee7e22da82aa7e57560cfc516b0c7
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 1e86403dbdb2972cc83b379efff8bbc17173a4e1
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396485"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331907"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>ไทล์แดชบอร์ดใน Power BI
-แดชบอร์ดและไทล์แดชบอร์ดเป็นคุณลักษณะของบริการ Power BI ไม่ใช่ของ Power BI Desktop ขณะที่ไม่สามารถสร้างหรือปักหมุดไทล์แดชบอร์ดใน Power BI สำหรับมือถือได้ แต่เราสามารถ[ดูและแชร์](mobile/mobile-tiles-in-the-mobile-apps.md)บนมือถือได้ และใน Power BI สำหรับอุปกรณ์เคลื่อนที่ คุณสามารถ[เพิ่มรูปภาพลงในแดชบอร์ดของคุณกับแอปฯ iPhone](mobile/mobile-iphone-app-get-started.md) ได้
+แดชบอร์ดและไทล์แดชบอร์ดเป็นคุณลักษณะของบริการ Power BI ไม่ใช่ของ Power BI Desktop ขณะที่ไม่สามารถสร้างหรือปักหมุดไทล์แดชบอร์ดใน Power BI สำหรับมือถือได้ แต่เราสามารถ[ดูและแชร์](mobile/mobile-tiles-in-the-mobile-apps.md)บนมือถือได้ 
 
 ## <a name="dashboard-tiles"></a>ไทล์แดชบอร์ด
 ![แดชบอร์ด Power BI](./media/end-user-tiles/power-bi-dashboard.png)

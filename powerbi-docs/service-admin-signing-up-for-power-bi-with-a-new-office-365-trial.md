@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 26fa709eee00607911b2bee2e8bf3f5f1cba732f
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850395"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289116"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>ลงทะเบียนสำหรับ Power BI ด้วย Office 365 รุ่นทดลองใช้ ตัวใหม่
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-บทความนี้จะอธิบายวิธีสำรองในการลงทะเบียนใช้งาน Power BI โดยใช้รุ่นทดลองใช้งาน Office 365 หากคุณกำลังมีปัญหาในการลงทะเบียนใช้งาน Power BI ด้วยที่อยู่อีเมลที่ทำงานของคุณ ก่อนอื่นให้ตรวจสอบให้แน่ใจว่าเป็น [ที่อยู่อีเมลที่สามารถใช้ได้กับ Power BI](service-self-service-signup-for-power-bi.md#what-email-address-can-be-used-with-power-bi) หากไม่สำเร็จ ให้ลองลงทะเบียนใช้งานรุ่นทดลองใช้งาน Office 365 ก่อนแล้วค่อยลงทะเบียนใช้งาน Power BI คุณจะสามารถใช้ Power BI ได้แม้ว่า Office 365 รุ่นทดลองใช้งาน จะหมดอายุ
+บทความนี้จะอธิบายวิธีสำรองในการลงทะเบียนใช้งาน Power BI โดยใช้รุ่นทดลองใช้งาน Office 365 หากคุณกำลังมีปัญหาในการลงทะเบียนใช้งาน Power BI ด้วยที่อยู่อีเมลที่ทำงานของคุณ ก่อนอื่นให้ตรวจสอบให้แน่ใจว่าเป็น [ที่อยู่อีเมลที่สามารถใช้ได้กับ Power BI](service-self-service-signup-for-power-bi.md#supported-email-addresses) หากไม่สำเร็จ ให้ลองลงทะเบียนใช้งานรุ่นทดลองใช้งาน Office 365 ก่อนแล้วค่อยลงทะเบียนใช้งาน Power BI คุณจะสามารถใช้ Power BI ได้แม้ว่า Office 365 รุ่นทดลองใช้งาน จะหมดอายุ
 
 1. ลงทะเบียนสำหรับการทดลองใช้ Office 365 [บนเว็บไซต์ของ Office 365](https://go.microsoft.com/fwlink/p/?LinkID=403802)
 
