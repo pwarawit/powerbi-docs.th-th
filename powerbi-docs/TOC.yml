@@ -390,42 +390,54 @@ items:
     items:
     - name: มีอะไรใหม่ในบริการ Power BI
       href: service-whats-new.md
-    - name: แนวคิดพื้นฐาน
+    - name: แนวคิดพื้นฐานสำหรับนักออกแบบ
       href: service-basic-concepts.md
-    - name: ลงชื่อสมัครใช้บริการด้วยตนเอง
-      href: service-self-service-signup-for-power-bi.md
-    - name: Cortana เบื้องต้นสำหรับ Power BI
-      href: service-cortana-intro.md
-    - name: การรีเฟรชข้อมูลใน Power BI
-      href: refresh-data.md
-    - name: Power BI สำหรับภาครัฐของประเทศสหรัฐอเมริกา
-      href: service-govus-overview.md
-    - name: คุณลักษณะตามประเภทของสิทธิ์การใช้งาน
-      href: service-features-license-type.md
     - name: 10 เคล็ดลับสำหรับการรับความช่วยเหลือ
       href: service-tips-for-finding-help.md
-    - name: เกี่ยวกับตัวกรองและการไฮไลท์ในรายงาน Power BI
-      href: power-bi-reports-filters-and-highlighting.md
-    - name: รับข้อมูลจากไฟล์
-      href: service-get-data-from-files.md
-    - name: ตัวแก้ไขรายงาน... ชมการแนะนำ
-      href: service-the-report-editor-take-a-tour.md
-    - name: การแสดงข้อมูลใน Power BI
-      href: visuals/power-bi-report-visualizations.md
-    - name: แหล่งข้อมูลสำหรับ Power BI
-      href: service-get-data.md
-    - name: การเปิดใช้งานรุ่นทดลองใช้ Pro ถูกขยายเวลา
-      href: service-extended-pro-trial.md
-    - name: Microsoft Flow และ Power BI
-      href: service-flow-integration.md
-    - name: ถามที่ถามบ่อยของ Power BI สำหรับลูกค้า Germany Cloud
-      href: service-govde-faq.md
-    - name: Power BI เริ่มใช้งานแอปของบริษัทอื่น
-      href: service-power-bi-get-started-third-party-apps.md
-    - name: รวม (ผลรวม ค่าเฉลี่ย ค่าสูงสุด และอื่น ๆ) ใน Power BI
-      href: service-aggregates.md
-    - name: การตั้งค่าการแสดงหน้าในรายงาน Power BI
-      href: power-bi-report-display-settings.md
+    - name: สิทธิ์การใช้งาน
+      items:
+      - name: ลงชื่อสมัครใช้บริการด้วยตนเอง
+        href: service-self-service-signup-for-power-bi.md
+      - name: คุณลักษณะตามประเภทของสิทธิ์การใช้งาน
+        href: service-features-license-type.md
+      - name: การเปิดใช้งานรุ่นทดลองใช้ Pro ถูกขยายเวลา
+        href: service-extended-pro-trial.md
+      - name: Power BI สำหรับภาครัฐของประเทศสหรัฐอเมริกา
+        href: service-govus-overview.md
+      - name: ถามที่ถามบ่อยสำหรับลูกค้า Germany Cloud
+        href: service-govde-faq.md
+    - name: ข้อมูล
+      items:
+      - name: แหล่งข้อมูลสำหรับ Power BI
+        href: service-get-data.md
+      - name: รับข้อมูลจากไฟล์
+        href: service-get-data-from-files.md
+      - name: ค่ารวม (ผลรวม ค่าเฉลี่ย ค่าสูงสุด และอื่น ๆ)
+        href: service-aggregates.md
+      - name: การรีเฟรชข้อมูลใน Power BI
+        href: refresh-data.md
+      - name: Azure และ Power BI
+        href: service-azure-and-power-bi.md
+      - name: ข้อมูลขาออกของ Power BI และ Azure
+        href: service-azure-egress-power-bi.md
+    - name: การออกแบบรายงาน
+      items:
+      - name: ตัวแก้ไขรายงาน... ชมการแนะนำ
+        href: service-the-report-editor-take-a-tour.md
+      - name: การแสดงข้อมูลใน Power BI
+        href: visuals/power-bi-report-visualizations.md
+      - name: เกี่ยวกับตัวกรองและการทำไฮไลท์ในรายงาน
+        href: power-bi-reports-filters-and-highlighting.md
+      - name: การตั้งค่าการแสดงหน้าในรายงาน Power BI
+        href: power-bi-report-display-settings.md
+      - name: Cortana เบื้องต้นสำหรับ Power BI
+        href: service-cortana-intro.md
+    - name: อื่น ๆ
+      items:
+      - name: Microsoft Flow และ Power BI
+        href: service-flow-integration.md
+      - name: เริ่มใช้งานแอปของบริษัทอื่น
+        href: service-power-bi-get-started-third-party-apps.md
   - name: วิธีการ
     items:
     - name: งานทั่วไป
@@ -548,13 +560,13 @@ items:
         href: service-connect-to-zuora.md
     - name: ข้อมูลจากไฟล์
       items:
-      - name: จากสมุดงาน Excel สู่รายงานอันน่าตื่นตาตื่นใจเพียงครู่เดียว
+      - name: จาก Excel สู่รายงานที่น่าทึ่ง
         href: service-from-excel-to-stunning-report.md
       - name: รับข้อมูลจากไฟล์สมุดงาน Excel
         href: service-excel-workbook-files.md
       - name: รับข้อมูลจากไฟล์ Power BI Desktop
         href: service-desktop-files.md
-      - name: การตั้งค่าพารามิเตอร์สำหรับชุดข้อมูล
+      - name: แก้ไขพารามิเตอร์
         href: service-parameters.md
       - name: รับข้อมูลจากไฟล์ค่า (.csv) ที่ใช้จุลภาคเป็นตัวคั่น
         href: service-comma-separated-value-files.md
@@ -562,7 +574,7 @@ items:
         href: service-real-time-streaming.md
       - name: เผยแพร่ไปยัง Power BI จาก Excel 2016
         href: service-publish-from-excel.md
-      - name: ลดขนาดของสมุดงาน Excel เพื่อดูใน Power BI
+      - name: ลดขนาดของเวิร์กบุ๊ก Excel
         href: reduce-the-size-of-an-excel-workbook.md
     - name: ข้อมูลจากฐานข้อมูล
       items:
@@ -574,23 +586,19 @@ items:
         href: spark-on-hdinsight-with-direct-connect.md
       - name: ข้อมูลสดของ SQL Server Analysis Services ใน Power BI
         href: sql-server-analysis-services-tabular-data.md
-      - name: Azure และ Power BI
-        href: service-azure-and-power-bi.md
-      - name: ข้อมูลขาออกของ Power BI และ Azure
-        href: service-azure-egress-power-bi.md
     - name: การรีเฟรชข้อมูล
       items:
       - name: กำหนดค่าการรีเฟรชตามกำหนดการ
         href: refresh-scheduled-refresh.md
-      - name: รีเฟรชชุดข้อมูลที่สร้างจากไฟล์ Power BI Desktop - ภายในเครื่อง
+      - name: รีเฟรชชุดข้อมูลจากไฟล์ Power BI Desktop ภายในเครื่อง
         href: refresh-desktop-file-local-drive.md
-      - name: รีเฟรชชุดข้อมูลที่สร้างจากไฟล์ Power BI Desktop - ระบบคลาวด์
+      - name: รีเฟรชชุดข้อมูลจากไฟล์ Power BI Desktop ในระบบคลาวด์
         href: refresh-desktop-file-onedrive.md
-      - name: รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel - ภายในเครื่อง
+      - name: รีเฟรชชุดข้อมูลจากเวิร์กบุ๊ก Excel ภายในเครื่อง
         href: refresh-excel-file-local-drive.md
-      - name: รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel - ระบบคลาวด์
+      - name: รีเฟรชชุดข้อมูลจากเวิร์กบุ๊ก Excel ในระบบคลาวด์
         href: refresh-excel-file-onedrive.md
-      - name: รีเฟรชชุดข้อมูลที่สร้างจากไฟล์ค่า (.csv) ที่ใช้จุลภาคเป็นตัวคั่นบน OneDrive
+      - name: รีเฟรชชุดข้อมูลที่สร้างขึ้นจากการไฟล์ .csv บน OneDrive
         href: refresh-csv-file-onedrive.md
       - name: การแก้ไขปัญหาสถานการณ์สมมติในการรีเฟรช
         href: refresh-troubleshooting-refresh-scenarios.md
@@ -604,25 +612,25 @@ items:
         href: service-dashboard-create.md
       - name: สร้างสำเนาของแดชบอร์ด
         href: service-dashboard-copy.md
-      - name: ปักหมุดไทล์ไปยังแดชบอร์ด Power BI จากรายงาน
+      - name: ปักหมุดไทล์ไปยังแดชบอร์ดจากรายงาน
         href: service-dashboard-pin-tile-from-report.md
-      - name: ปักหมุดไทล์จากแดชบอร์ดหนึ่งไปยังอีกแดชบอร์ด
+      - name: ปักหมุดไทล์จากแดชบอร์ดหนึ่งไปยังอีกแดชบอร์ดหนึ่ง
         href: service-pin-tile-to-another-dashboard.md
-      - name: ปักหมุดไทล์ไปยังแดชบอร์ด Power BI จาก Excel
+      - name: ปักหมุดไทล์ไปยังแดชบอร์ดจาก Excel
         href: service-dashboard-pin-tile-from-excel.md
-      - name: ปักหมุดไทล์ไปยังแดชบอร์ด Power BI จากกล่องคำถามถามตอบ
+      - name: ปักหมุดไทล์ที่แดชบอร์ดจาก Q&A
         href: service-dashboard-pin-tile-from-q-and-a.md
-      - name: ปักหมุดหน้ารายงานทั้งหมดไปยังแดชบอร์ด Power BI
+      - name: ปักหมุดทั้งหน้ารายงานไปยังแดชบอร์ด
         href: service-dashboard-pin-live-tile-from-report.md
       - name: เมทริกการใช้สำหรับแดชบอร์ด
         href: service-usage-metrics.md
-      - name: เพิ่มรูปภาพ กล่องข้อความ วิดีโอ หรือโค้ดเว็บลงในแดชบอร์ดของคุณ
+      - name: เพิ่มรูปภาพ กล่องข้อความ วิดีโอ หรือโค้ดลงในแดชบอร์ด
         href: service-dashboard-add-widget.md
-      - name: แก้ไขไทล์ — ปรับขนาด ย้าย เปลี่ยนชื่อ ปักหมุด ลบ เพิ่มเชื่อมโยงหลายมิติ
+      - name: แก้ไขไทล์
         href: service-dashboard-edit-tile.md
-      - name: เคล็ดลับสำหรับการออกแบบแดชบอร์ด Power BI ที่ยอดเยี่ยม
+      - name: เคล็ดลับสำหรับการออกแบบแดชบอร์ดที่ยอดเยี่ยม
         href: service-dashboards-design-tips.md
-      - name: ปรับข้อมูลของคุณให้เหมาะสมสำหรับข้อมูลเชิงลึกด่วนของ Power BI
+      - name: ปรับข้อมูลของคุณให้เหมาะสมสำหรับข้อมูลเชิงลึกด่วน
         href: service-insights-optimize.md
       - name: สร้างมุมมองโทรศัพท์ของแดชบอร์ด
         href: service-create-dashboard-mobile-phone-view.md
@@ -672,7 +680,7 @@ items:
         href: visuals/power-bi-visualizations-arcgis.md
     - name: การถามคำถามเกี่ยวกับข้อมูลของคุณ
       items:
-      - name: ใช้การถามตอบเพื่อสร้างการแสดงข้อมูล และสร้างรายงาน
+      - name: ใช้ ถามตอบ เพื่อสร้างการแสดงภาพและรายงาน
         href: power-bi-tutorial-q-and-a.md
       - name: ทำให้ข้อมูลของคุณทำงานได้ดีกับ ถามตอบ
         href: service-prepare-data-for-q-and-a.md
@@ -708,7 +716,7 @@ items:
         href: service-collaborate-power-bi-workspace.md
       - name: จัดการกลุ่มของคุณใน Power BI และ Office 365
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
-      - name: แชร์แดชบอร์ดที่เชื่อมโยงไปยังสมุดงาน Excel บน OneDrive for Business
+      - name: แชร์แดชบอร์ดที่เชื่อมโยงไปยังเวิร์กบุ๊ก Excel บน OneDrive
         href: service-share-dashboard-that-links-to-excel-onedrive.md
     - name: ชุดเนื้อหา
       items:
@@ -936,6 +944,8 @@ items:
         href: developer/custom-visual-develop-tutorial-format-options.md
     - name: แนวคิด
       items:
+      - name: คำแนะนำสำหรับการแสดงภาพ Power BI
+        href: developer/office-store-in-app-purchase-visual-guidelines.md
       - name: การใช้ความสามารถ
         href: https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/
       - name: มุมมองข้อมูลการแมป
@@ -1164,7 +1174,7 @@ items:
       href: service-gateway-proxy.md
     - name: คลัสเตอร์ของความพร้อมใช้งานสูงสำหรับเกตเวย์ข้อมูลภายในองค์กร
       href: service-gateway-high-availability-clusters.md
-    - name: เกตเวย ์ข้อมูลภายในองค์กร
+    - name: เกตเวย์ข้อมูลภายในองค์กร
       href: service-gateway-onprem.md
     - name: เกตเวย์ข้อมูลภายในองค์กร - เชิงลึก
       href: service-gateway-onprem-indepth.md
@@ -1255,9 +1265,9 @@ items:
       href: service-admin-governance.md
     - name: ความปลอดภัยของ Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 6be9e4865dd91817bd4b73c2763d6f7d374e1013
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289300"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331861"

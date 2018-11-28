@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101588"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452763"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>การรักษาความปลอดภัยระดับแถวแบบไดนามิกกับรูปแบบตารางข้อมูล Analysis Services
 บทช่วยสอนนี้จะแสดงให้เห็นขั้นตอนที่จำเป็นในการใช้**การรักษาความปลอดภัยระดับแถว**ภายใน**รูปแบบตารางข้อมูล Analysis Services** ของคุณและแสดงวิธีใช้ในรายงาน Power BI ขั้นตอนนี้ให้คุณทำตามและเรียนรู้ขั้นตอนต่างๆ ที่จำเป็นโดยกรอกข้อมูลในชุดข้อมูลตัวอย่าง
@@ -50,7 +50,7 @@ ms.locfileid: "50101588"
    เราจะกลับมาหาผู้ใช้เหล่านี้ในงานที่กำลังจะเกิดขึ้น
 4. ถัดไป เราจะทำ *การรวมภายใน* กับตาราง **DimSalesTerritory** ซึ่งจะแสดงรายละเอียดภูมิภาคที่เกี่ยวข้องกับผู้ใช้ โค้ดต่อไปนีดำเนินการ *การรวมภายใน* และรูปภาพต่อไปนี้แสดงให้เห็นว่าตารางจะปรากฏขึ้นเมื่อ*การรวมภายใน* ประสบความสำเร็จ
    
-       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
+       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryID] = b.[SalesTerritoryKey]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. โปรดสังเกตว่าภาพด้านบนแสดงข้อมูล เช่น ผู้ใช้รายใดเป็นผู้รับผิดชอบพื้นที่การขายใด ข้อมูลดังกล่าวแสดงขึ้นเนื่องจากความสัมพันธ์ที่เราสร้างขึ้นใน**ขั้นตอนที่ 2** นอกจากนี้ โปรดทราบว่าผู้ใช้ ซึ่งคือ **Jon Doe เป็นส่วนหนึ่งของพื้นที่การขายในออสเตรเลีย** เราจะไปหา John Doe อีกครั้งในขั้นตอนและงานที่จะเกิดขึ้น
