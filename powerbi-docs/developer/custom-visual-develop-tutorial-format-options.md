@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 11/06/2018
-ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: 56de3745d59e4a26dffbb988e9543c294de261e3
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223271"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289185"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>บทช่วยสอน: การเพิ่มตัวเลือกการจัดรูปแบบให้กับวิชวลแบบกำหนดเองของ Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "51223271"
 
     คุณจะเห็นข้อความแสดงว่า -*ตัวเลือกการจัดรูปแบบสำหรับวิชวลนี้ไม่พร้อมใช้งาน*
 
-    ![การจัดรูปแบบพู่กัน](media/custom-visual-develop-tutorial/format-paintbrush.png)
+    ![การจัดรูปแบบพู่กัน](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
 2. เปิดไฟล์ *capabilities.json* ใน**รหัส Visual Studio**
 
@@ -41,7 +41,7 @@ ms.locfileid: "51223271"
     ```json
     "objects": {},
     ```
-    ![เพิ่มวัตถุ](media/custom-visual-develop-tutorial/add-objects.png)
+    ![เพิ่มวัตถุ](media/custom-visual-develop-tutorial-format-options/add-objects.png)
 
 4. บันทึกไฟล์ **capabilities.json**
 
@@ -50,13 +50,13 @@ ms.locfileid: "51223271"
     > [!Note]
     > ถ้าคุณไม่เห็นการเปลี่ยนแปลงในตัวเลือกการจัดรูปแบบ โปรดเลือก**โหลดวิชวลแบบกำหนดเองอีกครั้ง**
 
-    ![ดูตัวเลือกการจัดรูปแบบ](media/custom-visual-develop-tutorial/view-formatting-options.png)
+    ![ดูตัวเลือกการจัดรูปแบบ](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
 6. ตั้งค่าตัวเลือก **ชื่อเรื่อง** เป็น *ปิด* โปรดสังเกตว่าวิชวลหยุดแสดงชื่อหน่วยวัดที่มุมบนซ้ายแล้ว
 
-    ![ตัวเลือกไทล์จะปิด](media/custom-visual-develop-tutorial/tile-option-off.png)
+    ![ตัวเลือกไทล์จะปิด](media/custom-visual-develop-tutorial-format-options/tile-option-off.png)
 
-    ![ไทล์ไม่มีชื่อ](media/custom-visual-develop-tutorial/no-name-tile.png)
+    ![ไทล์ไม่มีชื่อ](media/custom-visual-develop-tutorial-format-options/no-name-tile.png)
 
 ### <a name="adding-custom-formatting-options"></a>การเพิ่มตัวเลือกการจัดรูปแบบแบบกำหนดเอง
 
@@ -64,7 +64,7 @@ ms.locfileid: "51223271"
 
 1. หยุดวิชวลแบบกำหนดเอง ใน PowerShell
 
-2. แทรกส่วนย่อย JSON ลงในวัตถุ**วัตถุ** ในแฟ้ม**capabilities.json** ในรหัส Visual Studio
+2. แทรกส่วนย่อย JSON ลงในออบเจ็กต์ที่ระบุชื่อว่า**ออบเจ็กต์** ในแฟ้ม**capabilities.json** สำหรับ Visual Studio Code
 
     ```json
     "circle": {
@@ -89,12 +89,12 @@ ms.locfileid: "51223271"
                  }
              }
          }
-     }
+     },
     ```
 
     ส่วนย่อย JSON จะอธิบายเกี่ยวกับกลุ่มที่ชื่อวงกลม ซึ่งประกอบด้วยตัวเลือกสองตัวที่ชื่อว่า circleColor และ circleThickness
 
-   ![รหัสความหนาของวงกลม](media/custom-visual-develop-tutorial/circle-thickness-code.png)
+   ![รหัสความหนาของวงกลม](media/custom-visual-develop-tutorial-format-options/circle-thickness-code.png)
 
 3. บันทึกไฟล์ **capabilities.json**
 
@@ -112,7 +112,7 @@ ms.locfileid: "51223271"
     }
     ```
 
-    ![คลาสโมดูล](media/custom-visual-develop-tutorial/module-classes.png)
+    ![คลาสโมดูล](media/custom-visual-develop-tutorial-format-options/module-classes.png)
 
     โมดูลนี้จะกำหนดคลาสสองคลาส คลาส **CircleSettings** จะกำหนดคุณสมบัติไว้สองอย่าง ด้วยชื่อที่ตรงกับวัตถุที่กำหนดไว้ในไฟล์ **capabilities.json** (**circleColor** และ  **circleThickness**) และกำหนดค่าเริ่มต้นด้วย คลาส **VisualSettings** จะรับช่วงมาจากคลาส **DataViewObjectParser** และเพิ่มคุณสมบัติชื่อ **วงกลม** ซึ่งจะตรงกับวัตถุที่กำหนดไว้ในไฟล์ *capabilities.json* และส่งกลับอินสแตนซ์ของ **CircleSettings**
 
@@ -127,7 +127,7 @@ ms.locfileid: "51223271"
     ```
     คุณสมบัตินี้จะจัดเก็บค่าอ้างอิงไปยังวัตถุ **VisualSettings**ซึ่งอธิบายการตั้งค่าวิชวล
 
-    ![เพิ่มคลาสวิชวล](media/custom-visual-develop-tutorial/visual-class-add-on.png)
+    ![เพิ่มคลาสวิชวล](media/custom-visual-develop-tutorial-format-options/visual-class-add-on.png)
 
 9. เพิ่มวิธีการต่อไปนี้ก่อนวิธี **อัปเดต** ในคลาส **วิชวล** วิธีนี้ใช้เพื่อรวบรวมตัวเลือกการจัดรูปแบบ
 
@@ -140,7 +140,7 @@ ms.locfileid: "51223271"
     ```
     วิธีนี้ใช้เพื่อรวบรวมตัวเลือกการจัดรูปแบบ
 
-    ![วัตถุการตั้งค่าวิชวล](media/custom-visual-develop-tutorial/visual-settings-object.png)
+    ![วัตถุการตั้งค่าวิชวล](media/custom-visual-develop-tutorial-format-options/visual-settings-object.png)
 
 10. ในวิธี **อัปเดต** หลังจากยืนยันตัวแปร **รัศมี** แล้ว ให้เพิ่มรหัสต่อไปนี้
 
@@ -150,7 +150,7 @@ ms.locfileid: "51223271"
     ```
     รหัสนี้จะเรียกใช้ตัวเลือกการจัดรูปแบบ โดยจะปรับเปลี่ยนค่าใดๆ ที่ส่งผ่านไปยังคุณสมบัติ **circleThickness** โดยแปลงค่านั้นเป็น 0 ถ้าเป็นค่าลบ หรือแปลงเป็น 10 ถ้ามีค่ามากกว่า 10
 
-    ![ตัวแปรรัศมี](media/custom-visual-develop-tutorial/radius.png)
+    ![ตัวแปรรัศมี](media/custom-visual-develop-tutorial-format-options/radius.png)
 
 11. สำหรับ**องค์ประกอบวงกลม** ให้ปรับเปลี่ยนค่าที่ส่งผ่านไปยัง**เติมสไตล์** ให้เป็นนิพจน์ต่อไปนี้
 
@@ -158,7 +158,7 @@ ms.locfileid: "51223271"
     this.visualSettings.circle.circleColor
     ```
 
-    ![เติมองค์ประกอบวงกลม](media/custom-visual-develop-tutorial/circle-element-fill.png)
+    ![เติมองค์ประกอบวงกลม](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
 12. สำหรับ**องค์ประกอบวงกลม** ให้ปรับเปลี่ยนค่าที่ส่งผ่านไปยัง**ลักษณะความกว้างเส้น** ให้เป็นนิพจน์ต่อไปนี้
 
@@ -166,7 +166,7 @@ ms.locfileid: "51223271"
     this.visualSettings.circle.circleThickness
     ```
 
-    ![ความกว้างเส้นของวงกลม](media/custom-visual-develop-tutorial/circle-stroke-width.png)
+    ![ความกว้างเส้นของวงกลม](media/custom-visual-develop-tutorial-format-options/circle-stroke-width.png)
 
 13. บันทึกไฟล์ visual.ts
 
@@ -180,7 +180,7 @@ ms.locfileid: "51223271"
 
 16. ขยาย**วงกลม** ในตัวเลือก **การจัดรูปแบบวิชวล**
 
-    ![รูปแบบวงกลม](media/custom-visual-develop-tutorial/circle-format.png)
+    ![รูปแบบวงกลม](media/custom-visual-develop-tutorial-format-options/circle-format.png)
 
     ปรับเปลี่ยนตัวเลือก **สี** และ **ความหนา**
 
@@ -198,7 +198,7 @@ ms.locfileid: "51223271"
 
     ในแผง **การแสดงภาพ** ที่ลอยอยู่เหนือไอคอน จะปรากฏชื่อที่แสดง
 
-    ![วิชวลชื่อที่แสดง](media/custom-visual-develop-tutorial/display-name-viz.png)
+    ![วิชวลชื่อที่แสดง](media/custom-visual-develop-tutorial-format-options/display-name-viz.png)
 
 4. สำหรับคุณสมบัติ **คำอธิบาย** ให้ใส่ข้อความต่อไปนี้
 
@@ -216,7 +216,7 @@ ms.locfileid: "51223271"
 
 10. ตรวจทานไอคอน
 
-    ![รูปภาพแผง Viz](media/custom-visual-develop-tutorial/viz-pane-image.png)
+    ![รูปภาพแผง Viz](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
 11. ในรหัส Visual Studio ให้ยืนยันว่าไฟล์ทั้งหมดได้รับการบันทึกแล้ว
 
@@ -226,7 +226,7 @@ ms.locfileid: "51223271"
     pbiviz package
     ```
 
-    ![โฟลเดอร์แจกจ่าย](media/custom-visual-develop-tutorial/dist-folder.png)
+    ![โฟลเดอร์แจกจ่าย](media/custom-visual-develop-tutorial-format-options/dist-folder.png)
 
 ในตอนนี้แพคเกจก็ส่งออกไปยังโฟลเดอร์**แจกจ่าย**ของโครงการแล้ว ตัวแพคเกจจะมีทุกอย่างที่จำเป็นต้องใช้ในการนำเข้าวิชวลแบบกำหนดเองไปยังบริการของ Power BI หรือรายงาน Power BI Desktop ตอนนี้คุณก็มีวิชวลแบบกำหนดเองที่ทำการแพคเกจแล้ว และพร้อมใช้งาน
 
@@ -238,7 +238,7 @@ ms.locfileid: "51223271"
 
 2. ในแผง**_การแสดงภาพ_** ให้เลือกแบบ**จุดไข่ปลา**แล้ว เลือก**นำเข้า**จากไฟล์
 
-    ![เพิ่ม Viz แบบกำหนดเองลงในเดสก์ท็อป](media/custom-visual-develop-tutorial/add-custom-viz-to-desktop.png)
+    ![เพิ่ม Viz แบบกำหนดเองลงในเดสก์ท็อป](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
 3. ใน**หน้าต่างการนำเข้า** ให้เลือก**นำเข้า**
 
@@ -250,7 +250,7 @@ ms.locfileid: "51223271"
 
 7. ตรวจสอบว่ามีการเพิ่มวิชวลไปยังแผง**_การแสดงภาพ_**
 
-    ![ดูในแผง PBI Desktop viz](media/custom-visual-develop-tutorial/view-in-desktop-viz-pane.png)
+    ![ดูในแผง PBI Desktop viz](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
 8. ไปที่เหนือไอคอน **การ์ดวงกลม** แล้วสังเกตที่คำแนะนำเครื่องมือที่ปรากฏขึ้น
 
