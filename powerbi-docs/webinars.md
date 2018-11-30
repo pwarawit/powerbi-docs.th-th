@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
-ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
+ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49952245"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452671"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -22,23 +22,13 @@ ms.locfileid: "49952245"
 
 ## <a name="upcoming-webinars"></a>สัมมนาผ่านเว็บที่กำลังมาถึง
 
-**Power BI: การวิเคราะห์เสร็จสิ้นแล้ว**
-<br>โดย Gohul Shanmugalingam
-<br>*8 พฤศจิกายน พ.ศ. 2561 เวลา 13:00 น. - 14:00 น. EST*
+**ยืนยันการแก้ปัญหาสุขภาพเพื่อปรับปรุงการแสดงผลลัพธ์ให้กับผู้ป่วยทั้งในเชิงร่างกายและความคุ้มค่า**
+<br>โดย Stephen Cracknell และ Stuart Macanliss จากสหรัฐอเมริกาทางแพทย์ทางด้าน IT
+<br>*วันที่ 28 พฤศจิกายน พ.ศ. 2561 เวลา 11:00 น. – 12:00 น. PST*
 
-โทรหาผู้มีวิสัยทัศน์ด้านการวิเคราะหและ Excel ทุกคน: เรียนรู้วิธีสร้างรายงานที่สวยงามที่ผู้คนต้องการใช้หรือแบ่งปันข้อมูลเชิงลึกที่น่าสนใจซึ่งเข้าใจง่ายและแยกส่วนข้อมูลที่ซับซ้อนอย่างปลอดภัยลงในไซโลเพื่อให้สามารถเข้าถึงได้
+องค์กรสุขอนามัยเผชิญความท้าทายในการเข้าถึงข้อมูลเชิงลึกอันมหาศาลของผู้ป่วยและการทำให้ข้อมูลเชิงลึกเหล่านั้นสามารถใช้งานได้จริง ลงทะเบียนสำหรับการสัมมนาผ่านเว็บนี้เพื่อเรียนรู้วิธีการออกแบบรายงานสุขอนามัยที่มีประสิทธิภาพซึ่งจะช่วยให้องค์กรของคุณแปลงข้อมูลที่มีให้เป็นข้อมูลเชิงลึกและเป็นประโยชน์ต่อผู้ป่วยมากยิ่งขึ้น รับคำแนะนำและกลยุทธ์ดี ๆ จากผู้เชี่ยวชาญและผู้ก่อตั้ง Healthcare IT Stuart Macanliss คุณ Stephen Cracknell ผู้เป็นทั้ง CEO และกรรมการของ Healthcare IT Stuart Macanliss และ rheumatologist Dr. จากเท็กซัส John P. Lavery
 
-เราจะแบ่งปันนวัตกรรมผลิตภัณฑ์ใหม่และวิสัยทัศน์ของเราสำหรับ BI ขององค์กรที่ทันสมัยและ BI บริการตนเอง ช่วยให้องค์กรของคุณสามารถสร้างวัฒนธรรมที่ขับเคลื่อนด้วยข้อมูลได้
-
-[ลงทะเบียนเพื่อรับชมในวันที่ 8 พฤศจิกายนนี้](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**เสริมสร้างทักษะการสร้างแบบจำลองข้อมูลของคุณด้วย Power BI**
-<br>โดย Kasper de Jonge
-<br>*วันที่ 20 พฤศจิกายน พ.ศ. 2561 เวลา 11:00 น. – 12:00 น. PST*
-
-ลงทะเบียนสำหรับการสัมมนาทางเว็บนี้เพื่อพัฒนาทักษะการสร้างแบบจำลองด้วย Power BI ของคุณไปยังระดับต่อไป เรียนรู้เกี่ยวกับเครื่องมือวิเคราะห์ในหน่วยความจำ Power BI กลยุทธ์สำหรับการสร้างและจัดการความสัมพันธ์ของข้อมูล และวิธีใช้บริบทตัวกรอง Data Analysis Expressions (DAX) ค้นหาวิธีควบคุมความท้าทายในการสร้างแบบจำลองด้วย Power BI หรือ Azure Analysis Services
-
-[ลงทะเบียนเพื่อรับชมในวันที่ 20 พฤศจิกายนนี้](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+[ลงทะเบียนเพื่อรับชมในวันที่ 28 พฤศจิกายนนี้](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
 >[การสัมมนาผ่านเว็บที่กำลังมาถึงจากชุมชน Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
@@ -54,9 +44,17 @@ ms.locfileid: "49952245"
 <br>โดย Miguel Martinez
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
 
+**เสริมสร้างทักษะการสร้างแบบจำลองข้อมูลของคุณด้วย Power BI**
+<br>โดย Kasper de Jonge
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
 **Microsoft ทำงานบน Power BI - การวางแผนทางการเงินและการวิเคราะห์ทำได้ง่าย**
 <br>โดย Cory Hrncirik และ Miguel Martinez
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Power BI: การวิเคราะห์เสร็จสิ้นแล้ว**
+<br>โดย Gohul Shanmugalingam
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
 **ทำให้ข้อมูล Power BI ของคุณเป็นภาพ: ชนิดของแผนภูมิหลักและวิธีใช้งาน**
 <br>โดย Miranda Li
@@ -70,9 +68,9 @@ ms.locfileid: "49952245"
 <br>โดย Miranda Li
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**เคล็ดลับ คำแนะนำ และเครื่องมือของ Power BI จากเจ้าของเคล็ดลับ PowerBI**
-<br>โดย Mike Carlo และ Seth Bauer
-<br>[ดูเดี๋ยวนี้](https://www.youtube.com/watch?v=fnj1_e3HXow)
+**ผลกระทบโดยรวมทางเศรษฐกิจของ Microsoft Flow และ PowerApps**
+<br>โดยคุณ Jonathan Lipsitz และ Enrique Plaza Garcia
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 >[เรียกดูไลบรารีของ Power BI สัมมนาผ่านเว็บตามความต้องการจากผู้เชี่ยวชาญของเราชุมชน](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
@@ -112,10 +110,6 @@ ms.locfileid: "49952245"
 <br>โดยสก็อต บอลล์ จาก Esri และ Enrique Plaza จาก Microsoft
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
-**ปรับปรุงการทำกำไรในสุขอนามัย**
-<br>โดย Stephen Cracknell และ Stuart Macanliss จากสหรัฐอเมริกาทางแพทย์ทางด้าน IT
-<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
-
 **ข่าวกรองที่นำไปใช้สำหรับการขายและบริการ**
 <br>โดย Bobrin กระจายจาก Avanade
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
@@ -129,6 +123,10 @@ ms.locfileid: "49952245"
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
 ### <a name="community"></a>ชุมชน ###
+
+**เคล็ดลับ คำแนะนำ และเครื่องมือของ Power BI จากเจ้าของเคล็ดลับ PowerBI**
+<br>โดย Mike Carlo และ Seth Bauer
+<br>[ดูเดี๋ยวนี้](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 **บอกเล่าเรื่องราวด้วยข้อมูลของคุณและ Power BI**
 <br>โดย Tristan Malherbe

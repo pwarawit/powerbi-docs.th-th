@@ -9,12 +9,12 @@ ms.component: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: 91cf4e2115b2eaae3178b2fb25e487e0501e3a6d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: b057fd14083cdabff96d9821d1399da07b93556b
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268955"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452835"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>บทช่วยสอน: สร้างรายงานแบบแบ่งหน้าและอัปโหลดเข้าบริการ Power BI | Microsoft Docs
 
@@ -64,7 +64,7 @@ ms.locfileid: "51268955"
 
     ![แหล่งข้อมูลใหม่](media/paginated-reports-quickstart-aw/power-bi-paginated-new-data-source-connection.png)
   
-     กล่องโต้ตอบ **คุณสมบัติแหล่งข้อมูล** จะเปิดขึ้น  
+     กล่องโต้ตอบ**คุณสมบัติแหล่งข้อมูล** จะเปิดขึ้น  
   
 6.  คุณสามารถตั้งชื่อแหล่งข้อมูลได้ตามต้องการ โดยใช้อักขระและเส้นขีดล่าง สำหรับบทช่วยสอนนี้ ให้คุณพิมพ์ **MyAzureDataSource** ในกล่อง**ชื่อ**  
   
@@ -119,7 +119,7 @@ ms.locfileid: "51268955"
  
 1.  เลือก**เรียกใช้คิวรี** ตัวสร้างรายงานจะแสดง **ผลลัพธ์คิวรี** 
  
-     ![ผลลัพธ์แบบสอบถาม](media/paginated-reports-quickstart-aw/power-bi-paginated-query-results.png)
+     ![ผลลัพธ์คิวรี](media/paginated-reports-quickstart-aw/power-bi-paginated-query-results.png)
 
 18. เลือก**ถัดไป** 
 
@@ -137,7 +137,7 @@ ms.locfileid: "51268955"
 
     - OrderQty
     - UnitPrice
-    - LineTotal
+    - ยอดรวมรายการทั้งหมด
 
     ตัวสร้างรายงานได้สร้างเขตข้อมูลเหล่านี้ไว้ในผลรวมกล่อง**ค่า** โดยอัตโนมัติ
 
