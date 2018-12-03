@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: eedbe8c6f9b9453acf2e07f484bf1cac7272f390
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 5a355e3d19a781def54a1dcf747f404ed7852444
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39286068"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670891"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>ใช้ข้อมูลเชิงลึกใน Power BI Desktop เพื่อหาว่าการกระจาย่แตกต่างกันที่ไหน (ตัวอย่าง)
 
@@ -60,7 +60,7 @@ ms.locfileid: "39286068"
 คุณสามารถใช้ข้อมูลเชิงลึกเมื่อรายงานของคุณอยู่ในโหมดอ่าน หรือแก้ไข ทำให้มีความยืดหยุ่นในการวิเคราะห์ข้อมูล และสร้างวิชวลที่คุณสามารถเพิ่มในรายงานของคุณได้อย่างง่ายดายเ
 
 ## <a name="details-of-the-returned-results"></a>รายละเอียดของผลลัพธ์ที่ส่งกลับ
-คุณสามารถนึกภาพอัลกอริทึมเป็นเป็นคอลัมน์อื่น ๆ ในแบบจำลอง และสำหรับค่าทั้งหมดของคอลัมน์เหล่านั้น ให้นำไปใช้เป็นตัวกรองกับวิชวลเดิม และค้นหาค่าตัวกรองใดที่ก่อให้เกิดผลลัพธ์*ที่แตกต่างจากต้นฉบับมากที่สุด
+คุณสามารถนึกภาพอัลกอริทึมเป็นเป็นคอลัมน์อื่น ๆ ในแบบจำลอง และสำหรับค่าทั้งหมดของคอลัมน์เหล่านั้น ให้นำไปใช้เป็นตัวกรองกับวิชวลเดิม และค้นหาค่าตัวกรองใดที่ก่อให้เกิดผลลัพธ์*ที่แตกต่าง*จากต้นฉบับมากที่สุด
 
 แน่นอน คุณอาจสงสัยว่าอะไรเป็นความหมาย*ที่แตกต่าง* ตัวอย่างเช่น กล่าวว่ายอดขายโดยรวมสามารถแยกเป็นยอดขายของสหรัฐอเมริกาและแคนาดาได้ดังต่อไปนี้:
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 239fe074593b40ebe57d052bbe05f934e4d26725
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c3b8d11176992cb9e6ce114d2c0a7a310ca5d9fc
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328246"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670992"
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>ใช้การวัดผลด่วนเพื่อการคำนวณที่ใช้บ่อยและทรงพลังได้อย่างง่ายดาย
 คุณสามารถใช้**การวัดผลด่วน** ทำการคำนวณที่ใช้บ่อยและทรงพลัง ได้อย่างรวดเร็วและง่ายดาย **การวัดผลด่วน**เรียกใช้ชุดคำสั่ง DAX ในเบื้องหลัง (คุณไม่จำเป็นต้องเขียน DAX เอง – ทั้งหมดทำให้คุณเรียบร้อยแล้ว) ตามที่คุณป้อนเข้าในกล่องโต้ตอบ จากนั้นแสดงผลลัพธ์เพื่อให้คุณได้ใช้ในรายงานของคุณ ยิ่งไปกว่านั้น คุณสามารถดู DAX ที่ดำเนินการโดยการวัดผลด่วน และเริ่มต้นหรือขยายความรู้ DAX ของคุณเอง

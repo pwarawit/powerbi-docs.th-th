@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452671"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670428"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -22,13 +22,7 @@ ms.locfileid: "52452671"
 
 ## <a name="upcoming-webinars"></a>สัมมนาผ่านเว็บที่กำลังมาถึง
 
-**ยืนยันการแก้ปัญหาสุขภาพเพื่อปรับปรุงการแสดงผลลัพธ์ให้กับผู้ป่วยทั้งในเชิงร่างกายและความคุ้มค่า**
-<br>โดย Stephen Cracknell และ Stuart Macanliss จากสหรัฐอเมริกาทางแพทย์ทางด้าน IT
-<br>*วันที่ 28 พฤศจิกายน พ.ศ. 2561 เวลา 11:00 น. – 12:00 น. PST*
-
-องค์กรสุขอนามัยเผชิญความท้าทายในการเข้าถึงข้อมูลเชิงลึกอันมหาศาลของผู้ป่วยและการทำให้ข้อมูลเชิงลึกเหล่านั้นสามารถใช้งานได้จริง ลงทะเบียนสำหรับการสัมมนาผ่านเว็บนี้เพื่อเรียนรู้วิธีการออกแบบรายงานสุขอนามัยที่มีประสิทธิภาพซึ่งจะช่วยให้องค์กรของคุณแปลงข้อมูลที่มีให้เป็นข้อมูลเชิงลึกและเป็นประโยชน์ต่อผู้ป่วยมากยิ่งขึ้น รับคำแนะนำและกลยุทธ์ดี ๆ จากผู้เชี่ยวชาญและผู้ก่อตั้ง Healthcare IT Stuart Macanliss คุณ Stephen Cracknell ผู้เป็นทั้ง CEO และกรรมการของ Healthcare IT Stuart Macanliss และ rheumatologist Dr. จากเท็กซัส John P. Lavery
-
-[ลงทะเบียนเพื่อรับชมในวันที่ 28 พฤศจิกายนนี้](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
+สัมมนาผ่านเว็บยังไม่จัดกำหนดการ กรุณาตรวจสอบใหม่เพื่อดูงานที่จะจัดในอนาคต
 
 >[การสัมมนาผ่านเว็บที่กำลังมาถึงจากชุมชน Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
@@ -105,6 +99,10 @@ ms.locfileid: "52452671"
 <br>[ดูเดี๋ยวนี้](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>คู่ค้า ###
+
+**ยืนยันการแก้ปัญหาสุขภาพเพื่อปรับปรุงการแสดงผลลัพธ์ให้กับผู้ป่วยทั้งในเชิงร่างกายและความคุ้มค่า**
+<br>โดย Stephen Cracknell และ Stuart Macanliss จากสหรัฐอเมริกาทางแพทย์ทางด้าน IT
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
 **เพิ่มประสิทธิภาพ BI ของคุณ ด้วยความอัจฉริยะด้านตำแหน่งที่ตั้ง**
 <br>โดยสก็อต บอลล์ จาก Esri และ Enrique Plaza จาก Microsoft
