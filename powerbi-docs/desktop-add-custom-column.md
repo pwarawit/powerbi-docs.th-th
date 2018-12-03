@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7937730988c651e32fb99e9c8eb9314b3a00785b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 3ea3aa22a2ab76df115c1b4784d74dedfdf7dbf0
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330023"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578669"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>เพิ่มคอลัมน์แบบกำหนดเองใน Power BI Desktop
 คุณสามารถเพิ่มคอลัมน์แบบกำหนดเองใหม่ของข้อมูล ลงในรูปแบบของคุณด้วย**ตัวแก้ไขคิวรี**ใน **Power BI Desktop** ได้ คุณสามารถสร้าง และเปลี่ยนชื่อคอลัมน์แบบกำหนดเองของคุณ โดยใช้ปุ่มเพื่อสร้าง[สูตร M](https://msdn.microsoft.com/library/mt270235.aspx) ที่กำหนดคอลัมน์แบบกำหนดเองของคุณได้อย่างง่าย ๆ สูตร M มี[ชุดเนื้อหา การอ้างอิงฟังก์ชันที่ครอบคลุม](https://msdn.microsoft.com/library/mt779182.aspx) 

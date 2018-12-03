@@ -7,18 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/02/2018
 ms.author: mblythe
+ms.date: 01/02/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: b99f346102ae8b5f31db8101e499fb6915d870de
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850418"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578439"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Row-level security (RLS) กับ Power BI
-Row-level security (RLS) ด้วย Power BI สามารถใช้เพื่อจำกัดการเข้าถึงข้อมูลสำหรับผู้ใช้ที่กำหนด ตัวกรองจำกัดการเข้าถึงข้อมูลในระดับแถว และคุณสามารถกำหนดตัวกรองภายในบทบาทได้ โปรดทราบว่า ในบริการ Power BI สมาชิกของพื้นที่ทำงานจะเข้าถึงชุดข้อมูลในพื้นที่ทำงานได้ RLS ไม่จำกัดการเข้าถึงข้อมูลนี้ 
+
+Row-level security (RLS) ด้วย Power BI สามารถใช้เพื่อจำกัดการเข้าถึงข้อมูลสำหรับผู้ใช้ที่กำหนด ตัวกรองจำกัดการเข้าถึงข้อมูลในระดับแถว และคุณสามารถกำหนดตัวกรองภายในบทบาทได้ โปรดทราบว่า ในบริการ Power BI สมาชิกของพื้นที่ทำงานจะเข้าถึงชุดข้อมูลในพื้นที่ทำงานได้ RLS ไม่จำกัดการเข้าถึงข้อมูลนี้
 
 คุณสามารถกำหนดค่า RLS สำหรับแบบจำลองข้อมูลที่นำเข้าไปยัง Power BI ด้วย Power BI Desktop และคุณยังสามารถกำหนดค่า RLS บนชุดข้อมูลที่กำลังใช้ DirectQuery เช่น SQL Server ก่อนหน้านี้ คุณสามารถใช้ได้เฉพาะ RLS ภายในแบบจำลองภายในองค์กรของ Analysis Services ภายนอก Power BI เท่านั้น ในส่วนการเชื่อมต่อสดของ Analysis Services คุณสามารถกำหนดค่ารักษาความปลอดภัยระดับแถวบนแบบจำลองภายในองค์กรได้ ตัวเลือกความปลอดภัยจะไม่แสดงสำหรับชุดข้อมูลแบบ live connection
 
@@ -34,6 +35,7 @@ Row-level security (RLS) ด้วย Power BI สามารถใช้เพ
 [!INCLUDE [include-short-name](./includes/rls-desktop-view-as-roles.md)]
 
 ## <a name="manage-security-on-your-model"></a>จัดการความปลอดภัยบนแบบจำลองของคุณ
+
 เมื่อต้องจัดการความปลอดภัยบนแบบจำลองข้อมูลของคุณ คุณจะต้องทำสิ่งต่อไปนี้
 
 1. เลือก**จุดไข่ปลา (...)** สำหรับชุดข้อมูล
@@ -46,7 +48,9 @@ Row-level security (RLS) ด้วย Power BI สามารถใช้เพ
 คุณสามารถสร้างหรือแก้ไขบทบาทภายใน Power BI Desktop
 
 ## <a name="working-with-members"></a>ทำงานกับสมาชิก
+
 ### <a name="add-members"></a>เพิ่มสมาชิก
+
 คุณสามารถเพิ่มสมาชิกให้กับบทบาทโดยการพิมพ์ลงในที่อยู่อีเมล์หรือชื่อของผู้ใช้ หรือพิมพ์ลงในกลุ่มความปลอดภัยหรือรายการแจกจ่ายที่คุณต้องการเพิ่มได้ สมาชิกรายนี้จะต้องอยู่ภายในองค์กรของคุณ คุณไม่สามารถเพิ่ม ’กลุ่ม’ ที่สร้างขึ้นภายใน Power BI
 
 ![](media/service-admin-rls/rls-add-member.png)
@@ -56,11 +60,13 @@ Row-level security (RLS) ด้วย Power BI สามารถใช้เพ
 ![](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>ลบสมาชิก
+
 คุณสามารถลบสมาชิกได้โดยการเลือก X ที่อยู่ถัดจากชื่อของพวกเขา 
 
 ![](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>การตรวจสอบบทบาทภายใน บริการ Power BI
+
 คุณสามารถตรวจสอบว่าบทบาทที่คุณกำหนดทำงานถูกต้องหรือไม่ได้โดยการทดสอบบทบาท 
 
 1. เลือก**จุดไข่ปลา (...)** ถัดจากบทบาท
@@ -83,12 +89,11 @@ Row-level security (RLS) ด้วย Power BI สามารถใช้เพ
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
 ## <a name="using-rls-with-app-workspaces-in-power-bi"></a>ใช้ RLS กับพื้นที่ทำงานแอปใน Power BI
+
 ถ้าคุณเผยแพร่รายงาน Power BI Desktop ของคุณไปยังพื้นที่ทำงานแอปภายใน Power BI service บทบาทจะได้รับการปรับใช้กับสมาชิกแบบอ่านอย่างเดียว คุณจะต้องระบุว่าสมาชิกสามารถดูเนื้อหา Power BI ภายในการตั้งค่าพื้นที่ทำงานแอปได้หรือไม่
 
 > [!WARNING]
 > ถ้าคุณกำหนดค่าพื้นที่ทำงานแอปเพื่อให้สมาชิกมีสิทธิ์ในการแก้ไข จะไม่สามารถใช้บทบาท RLS กับพื้นที่ทำงานแอปนั้นได้ ผู้ใช้จะสามารถดูข้อมูลทั้งหมด
-> 
-> 
 
 ![](media/service-admin-rls/rls-group-settings.png)
 
@@ -100,4 +105,3 @@ Row-level security (RLS) ด้วย Power BI สามารถใช้เพ
 [Row-level security (RLS) กับ Power BI Desktop](desktop-rls.md)  
 
 คุณมีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
-

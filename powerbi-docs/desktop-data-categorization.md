@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8bd86a5218adcdd804df1e5e2aa1fc26fea69669
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 55e496656046037226a7414c994697b670bcf8c9
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328016"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669738"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>การจัดประเภทข้อมูลใน Power BI Desktop
 ใน **Power BI Desktop** คุณสามารถระบุประเภทของข้อมูลสำหรับคอลัมน์ เพื่อให้ Power BI Desktop ทราบว่าควรจัดการกับค่าเหล่านั้นอย่างไรเมื่อดำเนินการแสดงผลเป็นภาพ

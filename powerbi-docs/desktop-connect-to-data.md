@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4b1077b62baeee2412620e6ee2aa6aabc6838863
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: e0430455131b0669dfa744c7a1df6691bda4c782
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136398"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578163"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>เชื่อมต่อกับข้อมูลใน Power BI Desktop
 ด้วย Power BI Desktop คุณสามารถเชื่อมต่อไปทั่วโลกแห่งข้อมูลที่กำลังขยายตัวได้อย่างง่ายดาย ถ้าคุณไม่มี Power BI Desktop คุณสามารถ[ดาวน์โหลด](http://go.microsoft.com/fwlink/?LinkID=521662)และติดตั้งได้

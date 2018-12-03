@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bdf3791d74510b1630bc13c279ed0cd5ebddc3ec
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 78cfcd51a951095353ce5d0f25c4511cc720c632
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813468"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578232"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>แก้ไขปัญหาเมื่อ Power BI Desktop เปิดไม่ขึ้น
 ใน**Power BI Desktop** ผู้ใช้ที่ติดตั้งและใช้งานเวอร์ชันก่อนหน้า **เกตเวย์ข้อมูลภายในองค์กร Power BI** สามารถถูกบล็อกจากการเปิดใช้งาน Power BI Desktop เนื่องจากนโยบายข้อจำกัดในระดับผู้ดูแลเกตเวย์ Power BI ภายในองค์กร ได้วางและตั้งชื่อไปป์บนเครื่อง 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4c40cf3f314bde1685548662987aae11a9ac601b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: f0794af93df95b5410e77c88563e9d9cb43c409c
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39326705"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670037"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>รวมไฟล์ (ไบนารี) ใน Power BI Desktop
 วิธีการหนึ่งที่มีประสิทธิภาพเพื่อนำเข้าข้อมูลลงใน **Power BI Desktop** คือการรวมหลาย ๆ ไฟล์ ซึ่งมีรูปแบบเดียวกัน เข้าเป็นตารางเดียว ด้วยการเผยแพร่เดือนพฤศจิกายน 2016 ของ **Power BI Desktop** (และรุ่นต่อ ๆ มา) วิธีที่สะดวกและได้รับความนิยมวิธีนี้ ได้พัฒนาให้สะดวกมากขึ้นและความสามารถมากขึ้น ตามที่จะอธิบายในบทความนี้

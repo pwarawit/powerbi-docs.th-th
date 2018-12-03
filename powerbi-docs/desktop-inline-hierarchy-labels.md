@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4c41665bd1b9476816dcbb5739a36ecd6d95852b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c698d3abc7931437c0bd2b15385714c9c8282dc7
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328292"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670312"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>ใช้ป้ายลำดับชั้นแบบอินไลน์ใน Power BI Desktop
 **Power BI Desktop** สนับสนุนการใช้**ป้ายลำดับชั้นแบบอินไลน์** ซึ่งเป็นหนึ่งในสองคุณลักษณะ ที่ปรับปรุงการดูรายละเอียดแบบลำดับชั้นให้ดีขึ้น คุณลักษณะที่สอง ซึ่งอยู่ในขณะนี้อยู่ในระหว่างการพัฒนา คือความสามารถในการใช้ป้ายลำดับชั้นที่ซ้อนกัน (รออีกสักหน่อย - เราอัปเดตอยู่บ่อย ๆ)   

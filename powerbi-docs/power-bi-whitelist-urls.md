@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: e62d39f13e2b171456d667ec9683acd4ebdc5516
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 47fb90ba0f73bba2b210a9003b782a477dbf8214
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157137"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578738"
 ---
 # <a name="power-bi-urls"></a>URL ของ Power BI
 
@@ -91,7 +91,7 @@ Power BI ขึ้นอยู่กับจุดสิ้นสุดบา�
 | แถว | วัตถุประสงค์ | ปลายทาง | พอร์ต |
 | --- | --- | --- | --- |
 | 1 | **จำเป็น:** นำเข้าวิชวลแบบกำหนดเองจากอินเทอร์เฟซ Marketplace หรือจากไฟล์ | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
-| 2 | **ตัวเลือก:** Bing Maps | bing.com </br> platform.bing.com </br> *.dynamic.tiles.virtualearth.net </br> *.virtualearth.net | TCP 443 |
+| 2 | **ตัวเลือก:** Bing Maps | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
 | 3 | **ตัวเลือก:** PowerApps | ดู[ส่วนบริการที่จะเป็น](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)จากไซต์ความต้องการของระบบ PowerApps | N/A |
 | 4 | **ตัวเลือก:** Visio | ดูเอกสารประกอบสำหรับ Office 365 [Office Online และ Url ทั่วไป ](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)ตลอดจน [SharePoint Online และ OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/A |
 | | | |
@@ -103,7 +103,7 @@ Power BI ลิงก์ไปยังเว็บไซต์อื่นท�
 | แถว | วัตถุประสงค์ | ปลายทาง | พอร์ต |
 | --- | --- | --- | --- |
 | 1 | **ตัวเลือก:** เว็บไซต์ชุมชน | community.powerbi.com </br> oxcrx34285.i.lithium.com | TCP 443 |
-| 2 | **ตัวเลือก:** เว็บไซต์เอกสารประกอบ | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.neting-district.clicktale.net | TCP 443 |
+| 2 | **ตัวเลือก:** เว็บไซต์เอกสารประกอบ | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
 | 3 | **ตัวเลือก:** เว็บไซต์ดาวน์โหลด (สำหรับ Power BI Desktop และอื่น ๆ) | download.microsoft.com | TCP 443 |
 | 4 | **ตัวเลือก:** การเปลี่ยนเส้นทางภายนอก | aka.ms </br> go.microsoft.com | TCP 443 |
 | 5 | **ตัวเลือก:** เว็บไซต์สำหรับคำติชมแนวคิด| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |

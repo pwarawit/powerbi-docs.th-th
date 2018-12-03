@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c84ef0f57398bd9573488c1a8c5b16fd5511dd87
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 6cffff89a8c0086cbd7c7e229b4e678052fe6c70
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328982"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669506"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>เชื่อมต่อกับตัวดึงข้อมูล OData ใน Power BI Desktop
 ใน Power BI Desktop คุณสามารถเชื่อมต่อกับ **ตัวดึงข้อมูล OData** และใช้ข้อมูลเบื้องต้นเช่นเดียวกับแหล่งข้อมูลอื่นใน Power BI Desktop ได้
