@@ -1,21 +1,21 @@
 ---
 title: เคล็ดลับสำหรับการสร้างรายงานอันน่าทึ่ง
 description: คำแนะนำและเคล็ดลับในการสรา้งรายงานในบริการของ Power BI และ Power BI Desktop
-author: mihart
+author: davidi
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
-ms.author: mihart
+ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 0397921d239ec1d07312e69061890f8898e9687b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 2093800f10484a24eb4db9f77f45468ae4b9b4c3
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549971"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829847"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>คำแนะนำและเคล็ดลับในการสร้างรายงานในบริการของ Power BI และ Power BI Desktop
 เพื่อให้ได้รับประโยชน์สูงสุดจากข้อมูลของคุณ บางครั้งคุณก็ต้องการความช่วยเหลือเพิ่มเติมเล็กน้อย เราได้รวบรวมคำแนะนำและเคล็ดลับบางประการที่คุณสามารถใช้ในการสร้างรายงานใน Microsoft Power BI Desktop*และ*ใน Microsoft Excel 2016 หรือ Excel 2013 รุ่น Pro-Plus ที่เปิดใช้งาน Power Pivot add-in แล้ว และติดตั้งรวมทั้งเปิดใช้งาน Power Query แล้ว
