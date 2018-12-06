@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a15975f456bab94fd04fa7501760c9874fabf952
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 01051ab47304713fe3cf0f9128f5cd99af58bffe
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744800"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830228"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>ส่วนที่ 2 เพิ่มการแสดงภาพไปยังรายงาน Power BI
 ใน[ส่วนที่ 1](power-bi-report-add-visualizations-ii.md) คุณได้สร้างภาพพื้นฐานแล้วโดยการเลือกกล่องข้อความถัดจากชื่อเขตข้อมูล  ในส่วนที่ 2 คุณจะได้เรียนรู้วิธีใช้การลากและวาง และใช้**เขตข้อมูล**และพื้นที่**การแสดงภาพ**เต็มรูปแบบเพื่อสร้างและปรับเปลี่ยนการแสดงภาพ
@@ -32,7 +32,7 @@ ms.locfileid: "44744800"
 1. เปิดไฟล์ .pbix ตัวอย่างการวิเคราะห์ด้านการขายปลีกใน Power BI Desktop 
    ![](media/power-bi-report-add-visualizations-ii/power-bi-open-desktop.png)   
 
-2.  [เพิ่มหน้าใหม่](../power-bi-report-add-page.md)โดยการเลือกไอคอนเครื่องหมายถูกสีเหลืองที่ด้านล่างของพื้นที่รายงาน
+2. เพิ่มหน้าใหม่โดยการเลือกไอคอนเครื่องหมายถูกสีเหลืองที่ด้านล่างของพื้นที่รายงาน
 
 ### <a name="add-a-visualization-that-looks-at-this-years-sales-compared-to-last-year"></a>เพิ่มการแสดงภาพที่ดูการขายของปีนี้เทียบกับปีที่แล้ว
 1. จากตาราง**ยอดขาย** เลือก**ค่ายอดขายของ** > **ปีนี้**และ**ยอดขายของปีที่แล้ว** Power BI สร้างแผนภูมิคอลัมน์  ซึ่งส่วนนี้น่าสนใจพอสมควรและคุณจะอยากเจาะลึกลงไปอีก การขายจะมีลักษณะเป็นอย่างไรเมื่อแยกดูเป็นรายเดือน?  

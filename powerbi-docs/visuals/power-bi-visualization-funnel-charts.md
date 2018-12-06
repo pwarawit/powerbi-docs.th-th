@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 962f76666e4b139b24225daefd5af776f36b3d0d
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 345293e6b8bd7047ecfe1716f0b7be1c5bed9c58
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416946"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829883"
 ---
 # <a name="funnel-charts"></a>แผนภูมิกรวย
 แผนภูมิกรวยช่วยให้คุณแสดงกระบวนการเส้นตรง ที่แบ่งเป็นขั้นตอนที่เชื่อมต่อกันตามลำดับ ตัวอย่างเช่น กรวยการขายที่ติดตามขั้นตอนของลูกค้า: เป้าหมาย \> เป้าหมายที่ผ่านคุณสมบัติ \> สนใจ \> ทำสัญญา \> ปิดการขาย  มองอย่างรวดเร็ว รูปร่างของกรวยบ่งบอกสุขภาพของกระบวนการที่คุณกำลังติดตาม
@@ -53,9 +53,9 @@ ms.locfileid: "47416946"
 
 ตอนนี้ ลองสร้างแผนภูมิของคุณเอง ที่แสดงจำนวนโอกาสที่เรามีในแต่ละของขั้นตอนการขายของเรา
 
-คำแนะนำเหล่านี้ใช้ตัวอย่างการวิเคราะห์โอกาสทางการขาย เพื่อทดลองทำตาม [ดาวน์โหลดตัวอย่าง](../sample-datasets.md)สำหรับบริการของ Power BI (app.powerbi.com) หรือ Power BI Desktop   
+คำแนะนำเหล่านี้ใช้ตัวอย่างการวิเคราะห์โอกาสทางการขาย ถ้าต้องการทำตามคำแนะนำดังกล่าว ให้[ดาวน์โหลดตัวอย่าง](../sample-datasets.md)สำหรับบริการของ Power BI (app.powerbi.com) หรือ Power BI Desktop   
 
-1. เริ่มต้นจาก[หน้ารายงานเปล่า](../power-bi-report-add-page.md) และเลือกเขตข้อมูล**ขั้นตอนการขาย** \> **ขั้นตอนการขาย** ถ้าคุณกำลังใช้บริการของ Power BI ตรวจสอบให้แน่ใจว่า คุณเปิดรายงานใน[มุมมองการแก้ไข](../service-interact-with-a-report-in-editing-view.md)
+1. เริ่มต้นจาก**หน้ารายงานเปล่า** และเลือกเขตข้อมูลขั้นตอนการขาย\> **ขั้นตอนการขาย** ถ้าคุณกำลังใช้บริการของ Power BI ตรวจสอบให้แน่ใจว่า คุณเปิดรายงานใน[มุมมองการแก้ไข](../service-interact-with-a-report-in-editing-view.md)
    
     ![เลือกขั้นตอนการขาย](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [แปลงแผนภูมิ](power-bi-report-change-visualization-type.md)ให้เป็นแผนภูมิกรวย โปรดสังเกตว่า**ขั้นตอนการขาย**อยู่ใน**กลุ่ม** 

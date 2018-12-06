@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9654e2838b1b62dcc856e2870b3fcc1e5301641c
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: b15d285774f0b6735fbc5df0ca2d00a81b944012
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48874586"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829952"
 ---
 # <a name="card-visualizations"></a>การแสดงภาพการ์ด
 บางครั้งตัวเลขเพียงตัวเดียวก็เป็นสิ่งสำคัญที่สุดที่คุณต้องการติดตามในแดชบอร์ด Power BI หรือรายงานของคุณ เช่น ยอดขายรวม ส่วนแบ่งตลาดแบบปีต่อปี ตลาดแชร์ปีปี หรือโอกาสทั้งหมด แสดงภาพชนิดนี้จะเรียกว่า*การ์ด* เช่นเดียวกับการแสดงภาพดั้งเดิมของ Power BI แทบจะทุกชนิด คุณสามารถสร้างการ์ดขึ้นได้ โดยใช้ตัวแก้ไขรายงาน หรือการถามตอบ
@@ -25,7 +25,7 @@ ms.locfileid: "48874586"
 ## <a name="create-a-card-using-the-report-editor"></a>สร้างการ์ดโดยใช้ตัวแก้ไขรายงาน
 คำแนะนำเหล่านี้จะใช้ตัวอย่างการวิเคราะห์การค้าปลีก ถ้าต้องการทำตามคำแนะนำดังกล่าว ให้[ดาวน์โหลดตัวอย่าง](../sample-datasets.md)สำหรับบริการของ Power BI (app.powerbi.com) หรือ Power BI Desktop   
 
-1. เริ่มต้นจาก[หน้ารายงานว่าง](../power-bi-report-add-page.md) แล้วเลือก**ร้านค้า** \> เขตข้อมูล**เปิดจำนวนร้านค้า** ถ้าคุณกำลังใช้บริการของ Power BI ให้ตรวจสอบให้แน่ใจว่าคุณได้เปิดรายงานใน[มุมมองการแก้ไข](../service-interact-with-a-report-in-editing-view.md)แล้ว
+1. เริ่มต้นจากหน้ารายงานว่างแล้วเลือก**ร้านค้า** เปิดเขตข้อมูล\> **จำนวนร้านค้า** ถ้าคุณกำลังใช้บริการของ Power BI ให้ตรวจสอบให้แน่ใจว่าคุณได้เปิดรายงานใน[มุมมองการแก้ไข](../service-interact-with-a-report-in-editing-view.md)แล้ว
 
     Power BI จะสร้างแผนภูมิคอลัมน์ที่มีตัวเลขเพียงตัวเลขเดียว
 

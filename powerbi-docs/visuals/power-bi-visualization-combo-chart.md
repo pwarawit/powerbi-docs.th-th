@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 5d2a33b8dc50a4a30bb79406462f1342953528d9
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448971"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830389"
 ---
 # <a name="combo-chart-in-power-bi"></a>แผนภูมิผสมใน Power BI
 ใน Power BI แผนภูมิผสม เป็นการแสดงผลภาพที่รวมเอาแผนภูมิเส้นและแผนภูมิคอลัมน์เข้าด้วยกัน การรวมแผนภูมิทั้ง 2 ให้เป็นหนึ่งเดียว ช่วยให้คุณทำการเปรียบเทียบข้อมูลได้อย่างรวดเร็ว
@@ -45,7 +45,7 @@ ms.locfileid: "47448971"
 
 1. จากแดชบอร์ด "ตัวอย่างการวิเคราะห์ด้านการขายปลีก" เลือกไทล์**จำนวนร้านค้าทั้งหมด** เพื่อเปิดรายงาน "ตัวอย่างการวิเคราะห์ด้านการขายปลีก"
 2. เลือก**แก้ไขรายงาน** เพื่อเปิดรายงานในมุมมองการแก้ไข
-3. [เพิ่มหน้ารายงานใหม่](../power-bi-report-add-page.md)
+3. เพิ่มหน้ารายงานใหม่
 4. สร้างแผนภูมิคอลัมน์ ที่แสดงยอดขายและอัตรากำไรขั้นต้นของปีนี้ แยกตามเดือน
 
     a.  จากบานหน้าต่างเขตข้อมูล เลือก**ยอดขาย** \> **ยอดขายปีนี้** > **ค่า**

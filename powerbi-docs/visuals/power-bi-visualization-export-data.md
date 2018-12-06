@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: af39332bdc1c9e1529d56f55215b0b32ab86f3e7
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: f6cb53eadb3c5ddf14b8f8b3b3882e0d7b509a3f
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396830"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830113"
 ---
 # <a name="export-data-from-visualizations"></a>ส่งออกข้อมูลจากการแสดงภาพ
 ถ้าคุณต้องการดูข้อมูลที่ใช้ในการสร้างการแสดงภาพ คุณสามารถแสดงข้อมูลนั้นใน Power BI หรือส่งออกข้อมูลนั้นไปยัง Excel เป็นไฟล์ .xlsx หรือ .csv ได้ ตัวเลือกในการส่งออกข้อมูลต้องมีสิทธิ์การใช้งานระดับ Pro หรือ Premium และแก้ไขสิทธิ์ในชุดข้อมูลและรายงาน 
@@ -38,7 +38,7 @@ ms.locfileid: "49396830"
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
 
 ## <a name="from-a-visualization-in-a-report"></a>จากการแสดงภาพในรายงาน
-ในการทำตามขั้นตอนนี้ เปิด[รายงานตัวอย่างการวิเคราะห์การจัดซื้อ](../sample-procurement.md)ใน[มุมมองการแก้ไข](../consumer/end-user-reading-view.md) [เพิ่มหน้ารายงานเปล่าใหม่](../power-bi-report-add-page.md) จากนั้นทำตามขั้นตอนด้านล่างเพื่อเพิ่มการรวมและตัวกรองระดับการแสดงภาพ
+ในการทำตามขั้นตอนนี้ เปิด[รายงานตัวอย่างการวิเคราะห์การจัดซื้อ](../sample-procurement.md)ใน[มุมมองการแก้ไข](../consumer/end-user-reading-view.md) เพิ่มหน้ารายงานเปล่าใหม่ จากนั้นทำตามขั้นตอนด้านล่างเพื่อเพิ่มการรวมและตัวกรองระดับการแสดงภาพ
 
 1. สร้างแผนภูมิคอลัมน์ใหม่  จากช่องเขตข้อมูล เลือก**ตำแหน่งที่ตั้ง > เมือง**และ**ใบแจ้งหนี้ > เปอร์เซ็นต์ส่วนลด**  คุณอาจจำเป็นต้องย้าย**เปอร์เซ็นต์ส่วนลด**ลงในแอ่งค่าดังกล่าว 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 327ba72c46aa5a6a2edea723bd5450cd5bbbcdb4
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187340"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829906"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>ใช้บริการของ Power BI หรือ Power BI Desktop เพื่อสร้างหน้าคำตอบแบบกำหนดเองสำหรับ Cortana
 ใช้ความสามารถเต็มของ Power BI เพื่อสร้างหน้ารายงานพิเศษ ที่เรียกว่า*หน้าคำตอบ Cortana* (และในบางครั้งเรียกว่า *การ์ดคำตอบ Cortana*) ที่ออกแบบมาโดยเฉพาะเพื่อตอบคำถาม Cortana
@@ -41,7 +41,7 @@ ms.locfileid: "47187340"
 ## <a name="create-a-cortana-answer-page-designed-specifically-for-cortana"></a>สร้างหน้าคำตอบ Cortana ที่ออกแบบมาโดยเฉพาะสำหรับ Cortana
 *หน้าคำตอบ Cortana* ในรายงานถูกปรับขนาดโดยเฉพาะสำหรับ Cortana เพื่อให้ Cortana สามารถแสดงในหน้าจอเป็นคำตอบของคำถาม เพื่อสร้างหน้าที่มีคำตอบสำหรับ Cortana:
 
-1. เราขอแนะนำให้เริ่มจาก[หน้ารายงานเปล่า](power-bi-report-add-page.md)
+1. เราขอแนะนำให้เริ่มจากหน้ารายงานเปล่า
 2. ในบานหน้าต่าง**การจัดรูปแบบการแสดงข้อมูล** เลือกไอคอนรูปลูกกลิ้งทาสี แล้วเลือก **ขนาดหน้า** > **ชนิด** > **Cortana**
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)

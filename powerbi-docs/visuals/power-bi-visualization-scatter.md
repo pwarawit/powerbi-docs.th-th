@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7739dda4647a82b3c9d4b58976db89038428625a
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 9b508964062146ff140bcb85b0b8b42e9bf4f68f
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003190"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830136"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>แผนภูมิกระจาย แผนภูมิฟองอากาศ และแผนภูมิลงจุดใน Power BI
 แผนภูมิกระจายจะมีแกนค่าสองแกนเสมอเพื่อแสดงข้อมูลตัวเลขหนึ่งชุดตามแกนแนวนอนและอีกชุดของค่าตัวเลขตามแกนแนวตั้ง แผนภูมิแสดงจุดที่จุดตัดของค่าตัวเลข x และ y เพื่อรวมค่าเหล่านี้ลงในจุดข้อมูลเดียว จุดข้อมูลเหล่านี้อาจถูกกระจายสม่ำเสมอกันหรืออาจไม่สม่ำเสมอกันตามแกนแนวนอน โดยขึ้นอยู่กับข้อมูลดังกล่าว
@@ -57,7 +57,7 @@ ms.locfileid: "50003190"
 
 คำแนะนำเหล่านี้ใช้ตัวอย่างการวิเคราะห์ร้านค้าปลีก ถ้าต้องการทำตามคำแนะนำดังกล่าว ให้[ดาวน์โหลดตัวอย่าง](../sample-datasets.md)สำหรับบริการของ Power BI (app.powerbi.com) หรือ Power BI Desktop   
 
-1. เปิดรายงานในมุมมองแก้ไขแล้วเลือกไอคอนบวกสีเหลืองเพื่อสร้าง [หน้ารายงานเปล่า](../power-bi-report-add-page.md)
+1. เปิดรายงานในมุมมองแก้ไขแล้วเลือกไอคอนบวกสีเหลืองเพื่อสร้างหน้ารายงานเปล่า
  
 2. จากพื้นที่ช่องข้อมูล เลือกช่องข้อมูลต่อไปนี้:
    - **ยอดขาย** > **ยอดขายต่อตารางฟุต**

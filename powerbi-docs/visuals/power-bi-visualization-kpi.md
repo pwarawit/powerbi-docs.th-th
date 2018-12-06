@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aec8bc2d7faa8d3c4b9c7b4eb69ed9a930cfbcd1
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 0492390ae47c8d5aa0930a063370712c80d61de2
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417245"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829653"
 ---
 # <a name="kpi-visuals"></a>วิชวล KPI
 ดัชนีประสิทธิภาพหลัก (KPI) เป็นภาพสัญลักษณ์ที่แสดงปริมาณความก้าวหน้าของงานที่ทำเพื่อมุ่งไปยังเป้าหมายที่วัดผลได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ KPI ดู [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)
@@ -46,7 +46,7 @@ KPI เป็นตัวเลือกที่ดีที่สุด:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. เปิดรายงานในมุมมองรายงาน และ[เลือกแท็บสีเหลืองเพื่อเพิ่มหน้าใหม่](../power-bi-report-add-page.md)    
+1. เปิดรายงานในมุมมองรายงาน และเลือกแท็บสีเหลืองเพื่อเพิ่มหน้าใหม่    
 2. จากบานหน้าต่างเขตข้อมูล ให้เลือก**ยอดขาย > หน่วยรวมปีนี้**  ซึ่งจะเป็นตัวดัชนี
 3. เพิ่ม**เวลา > เดือนการเงิน**  เพื่อแสดงแนวโน้ม
 4. สิ่งสำคัญ: เรียงลำดับแผนภูมิตาม**เดือนงบประมาณ** เมื่อคุณแปลงการแสดงภาพเป็น KPI จึงไม่มีตัวเลือกการเรียงลำดับ

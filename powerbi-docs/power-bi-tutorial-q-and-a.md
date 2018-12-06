@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6f595a2d6423b1e79e927ee2d229363632022d58
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 9ca771d200f5bd4b50dfbddbd8eb67931be375c1
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49397014"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830021"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>บทช่วยสอน: วิธีการใช้ถามตอบเพื่อสร้างการแสดงภาพ และสร้างรายงาน
 [ภาพรวมถามตอบ](consumer/end-user-q-and-a.md)ได้แนะนำคุณเกี่ยวกับ ถามตอบของ Power BI และเปรียบเทียบความแตกต่างระหว่าง*ผู้บริโภค* (มีแดชบอร์ดและรายงานที่แชร์ให้กับพวกเขา) และ*ผู้สร้าง* (เป็นเจ้าของรายงานและชุดข้อมูลพื้นฐาน) ส่วนแรกของบทช่วยสอนนี้ออกแบบสำหรับ ผู้บริโภคแดชบอร์ดที่ใช้บริการ Power BI และส่วนสองออกแบบมาสำหรับ ผู้ที่สร้างรายงานโดยใช้บริการของ Power BI หรือ Power BI Desktop เนื้อหา [ถามตอบ และ Power BI สำหรับอุปกรณ์เคลื่อนที่](consumer/mobile/mobile-apps-ios-qna.md) และ[ถามตอบ ด้วย Power BI Embedded](developer/qanda.md) ครอบคลุมในบทความต่างหาก
@@ -74,7 +74,7 @@ ms.locfileid: "49397014"
     **บริการ**    
     ![](media/power-bi-tutorial-q-and-a/power-bi-service.png)
 
-2. กล่องคำถามถามตอบ จะแสดงบนพื้นที่รายงานของคุณ ในตัวอย่างด้านล่าง กล่องคำถามแสดงอยู่เหนือการแสดงภาพอื่น ซึ่งยอมรับได้ แต่จะเป็นการดีกว่าถ้า[เพิ่มหน้าเปล่าลงในรายงาน](power-bi-report-add-page.md)ก่อนที่ถามคำถาม
+2. กล่องคำถามถามตอบ จะแสดงบนพื้นที่รายงานของคุณ ในตัวอย่างด้านล่าง กล่องคำถามแสดงอยู่เหนือการแสดงภาพอื่น ซึ่งยอมรับได้ แต่จะเป็นการดีกว่าถ้าเพิ่มหน้าเปล่าลงในรายงานก่อนที่ถามคำถาม
 
     ![](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
 
