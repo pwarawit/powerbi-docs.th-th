@@ -1,13 +1,13 @@
-# Microsoft Power BI Documentation
+# <a name="microsoft-power-bi-documentation"></a>การเตรียมเอกสาร Microsoft Power BI
 
-This is the GitHub repository for the technical product documentation for **Power BI**. This documentation is published to  [https://docs.microsoft.com/power-bi](https://docs.microsoft.com/power-bi).
+นี่คือที่เก็บใน GitHub ของเอกสารประกอบผลิตภัณฑ์ทางเทคนิคสำหรับ**Power BI** เอกสารนี้ถูกเผยแพร่ไปยัง[ https://docs.microsoft.com/power-bi ](https://docs.microsoft.com/power-bi)
 
-## How to contribute
+## <a name="how-to-contribute"></a>วิธีการสนับสนุน
 
-Thanks for your interest in contributing to [Docs.microsoft.com](https://docs.microsoft.com/), home of technical content for Microsoft products and services.
+ขอบคุณที่สนใจในการสนับสนุนกับ[Docs.microsoft.com](https://docs.microsoft.com/)ซึ่งเป็นบ้านของเนื้อหาทางเทคนิคสำหรับผลิตภัณฑ์และบริการจาก Microsoft
 
-To learn how to make contributions to the content in this repository, start with our [Docs contributor guide](https://docs.microsoft.com/contribute). If you are a Microsoft employee, please visit the [internal version](https://aka.ms/docsguidescontribute) of this guide.
+หากต้องการเรียนรู้วิธีการสนับสนุนเนื้อหาในที่เก็บในส่วนนี้ เริ่มต้นได้จากที่[คู่มือผู้ร่วมสร้างเอกสาร](https://docs.microsoft.com/contribute)ของเรา หากคุณเป็นพนักงานของ Microsoft กรุณาเข้าไปที่[เวอร์ชั่นสำหรับภายใน](https://aka.ms/docsguidescontribute) ของคู่มือแนะนำเล่มนี้
 
-## Code of conduct
+## <a name="code-of-conduct"></a>แนวทางปฏิบัติ
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+โครงการนี้ได้นำไปใช้ใน[แนวทางปฏิบัติของ Microsoft Open Source](https://opensource.microsoft.com/codeofconduct/) สำหรับข้อมูลเพิ่มเติม เข้าไปดูที่[คำถามที่พบบ่อยเกี่ยวกับแนวทางปฏิบัติ](https://opensource.microsoft.com/codeofconduct/faq/)หรือติดต่อ[ opencode@microsoft.com ](mailto:opencode@microsoft.com)หากต้องการถามหรือแสดงความคิดเห็นเพิ่มเติม

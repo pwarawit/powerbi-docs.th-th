@@ -1,5 +1,5 @@
 ---
-title: 'บทช่วยสอน: สร้างรายงานแบบแบ่งหน้าและอัปโหลดเข้าบริการของ Power BI | Microsoft Docs'
+title: 'บทช่วยสอน: สร้างรายงานแบบแบ่งหน้าและอัปโหลดไปยังบริการของ Power BI (ดูตัวอย่าง)'
 description: ในบทช่วยสอนนี้ คุณจะได้เชื่อมต่อกับฐานข้อมูลตัวอย่าง Azure SQL จากนั้นคุณจะได้ใช้วิซาร์ดในตัวสร้างรายงานเพื่อสร้างรายงานแบบแบ่งหน้า และคุณจะได้อัปโหลดรายงานแบบแบ่งหน้าไปยังพื้นที่ทำงานในบริการของ Power BI ด้วยความจุพรีเมียม
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: b057fd14083cdabff96d9821d1399da07b93556b
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: fbeb617207c13459fe88487547609323391487e2
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452835"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900623"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>บทช่วยสอน: สร้างรายงานแบบแบ่งหน้าและอัปโหลดเข้าบริการ Power BI | Microsoft Docs
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>บทช่วยสอน: สร้างรายงานแบบแบ่งหน้าและอัปโหลดไปยังบริการของ Power BI (ดูตัวอย่าง)
 
 ในบทช่วยสอนนี้ คุณจะได้เชื่อมต่อกับฐานข้อมูลตัวอย่าง Azure SQL จากนั้น คุณจะได้ใช้วิซาร์ดในตัวสร้างรายงาน เพื่อสร้างรายงานแบบแบ่งหน้าพร้อมตารางที่ครอบคลุมพื้นที่หลายหน้า และคุณจะได้อัปโหลดรายงานแบบแบ่งหน้าไปยังพื้นที่ทำงานในบริการของ Power BI ด้วยความจุพรีเมียม รายงานแบบแบ่งหน้าในบริการของ Power BI อยู่ในช่วงตัวอย่าง
 

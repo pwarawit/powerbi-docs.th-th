@@ -1,5 +1,5 @@
 ---
-title: ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรงในตัวสร้างรายงาน
+title: ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรงในตัวสร้างรายงาน (ดูตัวอย่าง)
 description: ในบทความน ี้คุณจะเห็นว่าคุณสามารถป้อนข้อมูลลงในรายงานแบบแบ่งหน้าในตัวสร้างรายงานโดยตรงได้อย่างไร
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.author: maggies
-ms.openlocfilehash: 201a81eaef81015c73d70b54e8e862c2ccc29b1d
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: c3b003ee600df010aa07aad78ee2350704734dd4
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52290079"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900416"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรงในตัวสร้างรายงาน - Power BI
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรงในตัวสร้างรายงาน (ดูตัวอย่าง) - Power BI
 
 ในบทความนี้ คุณจะเรียนรู้เกี่ยวกับคุณลักษณะในตัวสร้างรายงาน SQL Server 2016 เวอร์ชันใหม่ซึ่งช่วยให้คุณสามารถป้อนข้อมูลลงในรายงาน RDL เป็นชุดข้อมูลแบบฝังตัวได้โดยตรง  คุณลักษณะนี้คล้ายกับ Power BI Desktop คุณสามารถพิมพ์ข้อมูลลงในชุดข้อมูลในรายงานได้โดยตรง หรือวางจากโปรแกรมอื่น เช่น Microsoft Excel หลังจากที่คุณสร้างชุดข้อมูลโดยการป้อนข้อมูล คุณสามารถใช้ข้อมูลนี้ได้เช่นเดียวกับข้อมูลแบบฝังตัวอื่น ๆ ที่คุณสร้างขึ้น นอกจากนี้คุณยังสามารถเพิ่มตารางมากกว่าหนึ่งตารางและใช้ตารางหนึ่งเป็นตัวกรองตารางอื่นก็ได้ คุณลักษณะนี้มีประโยชน์อย่างยิ่งสำหรับชุดข้อมูลขนาดเล็กแบบคงที่ซึ่งคุณอาจต้องใช้ในรายงานของคุณ เช่น พารามิเตอร์ของรายงาน
  

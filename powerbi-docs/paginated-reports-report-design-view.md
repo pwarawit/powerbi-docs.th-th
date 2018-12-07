@@ -1,5 +1,5 @@
 ---
-title: สำรวจรอบๆ ได้ในมุมมองการออกแบบรายงาน สำหรับรายงานแบบแบ่งหน้า - Power BI | Microsoft Docs
+title: สำรวจดูรอบๆ ในมุมมองการออกแบบรายงานสำหรับรายงานแบบแบ่งหน้า (ดูตัวอย่าง)
 description: มุมมองการออกแบบรายงานในตัวสร้างรายงานเป็นพื้นที่การออกแบบสำหรับสร้างรายงานแบบแบ่งหน้าที่สามารถเผยแพร่ไปยังบริการของ Power BI ได้
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: de3919903a3df4fdc5b0e167069b3035204761ff
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: dc811c5f6c6a7d5d428591eb7afd1665cda6dbb0
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51269000"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900462"
 ---
-# <a name="getting-around-in-report-design-view-for-paginated-reports"></a>สำรวจดูรอบๆ ในมุมมองการออกแบบรายงานสำหรับรายงานแบบแบ่งหน้า
+# <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>สำรวจดูรอบๆ ในมุมมองการออกแบบรายงานสำหรับรายงานแบบแบ่งหน้า (ดูตัวอย่าง)
 
 มุมมองการออกแบบรายงานในตัวสร้างรายงานเป็นพื้นที่การออกแบบสำหรับสร้างรายงานแบบแบ่งหน้าที่สามารถเผยแพร่ไปยังบริการของ Power BI ได้ พื้นที่การออกแบบนี้อยู่ที่ตรงกลางของตัวสร้างรายงาน พร้อมริบบิ้นและแผงต่างๆ ล้อมรอบ พื้นที่การออกแบบคือที่ที่ให้คุณเพิ่มและจัดการหน่วยข้อมูลของรายงานได้ บทความนี้จะอธิบายถึงแผงต่างๆ ที่ใช้เพื่อเพิ่ม เลือกและจัดระเบียบทรัพยากรของรายงาน และเปลี่ยนคุณสมบัติหน่วยข้อมูลของรายงาน  
 

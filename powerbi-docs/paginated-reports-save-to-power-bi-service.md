@@ -1,5 +1,5 @@
 ---
-title: เผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI | Microsoft Docs
+title: เผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI (ดูตัวอย่าง)
 description: ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีการเผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI โดยการอัปโหลดจากคอมพิวเตอร์ของคุณเอง
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6f2d1a4e4de87ea6eb63826b59286a9abd54b94f
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 1114f1949c68e4bebf2d636906bf754e7de77273
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268856"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900278"
 ---
-# <a name="publish-a-paginated-report-to-the-power-bi-service"></a>เผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI
+# <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>เผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI (ดูตัวอย่าง)
 
 ในบทความนี้ คุณจะได้เรียนรู้เกี่ยวกับการเผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI โดยการอัปโหลดจากคอมพิวเตอร์ของคุณเอง คุณสามารถอัปโหลดรายงานแบบแบ่งหน้าไปยัง "พื้นที่ทำงานของฉัน" หรือพื้นที่ทำงานอื่นได้ ตราบเท่าที่พื้นที่ทำงานนั้นอยู่ในความจุ Premium มองหาไอคอนรูปข้าวหลามตัด ![ไอคอนรูปข้าวหลามตัดของความจุ Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ถัดจากชื่อพื้นที่ทำงาน 
 
@@ -61,7 +61,7 @@ ms.locfileid: "51268856"
 
 1. กำหนดข้อมูลประจำตัว > **ลงชื่อเข้าใช้**
 
-    ![แก้ไขรหัสประจำตัว](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
+    ![แก้ไขข้อมูลประจำตัว](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 
    คุณจะเห็นรายงานของคุณอยู่ในรายการรายงาน
 
