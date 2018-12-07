@@ -282,7 +282,9 @@ items:
         href: desktop-create-phone-report.md
       - name: ใช้ ดูข้อมูล และ ดูระเบียน
         href: desktop-see-data-see-records.md
-    - name: การแสดงภาพ
+      - name: เคล็ดลับสำหรับการสร้างรายงาน
+        href: desktop-tips-and-tricks-for-creating-reports.md
+    - name: การจัดรูปแบบการแสดงข้อมูล
       items:
       - name: แนวทางปฏิบัติที่ดีที่สุดของการแสดงข้อมูล
         href: visuals/power-bi-visualization-best-practices.md
@@ -312,7 +314,7 @@ items:
         href: power-bi-reports-add-text-and-shapes.md
       - name: คุณสมบัติแกน x และแกน y ที่กำหนดด้วยตนเอง
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: ArcGIS ใน Power BI
+      - name: แผนที่ ArcGIS ใน Power BI
         href: power-bi-visualization-arcgis.md
       - name: แผนภูมิพื้นที่พื้นฐาน
         href: visuals/power-bi-visualization-basic-area-chart.md
@@ -346,6 +348,8 @@ items:
         href: visuals/power-bi-visualization-treemaps.md
       - name: แผนภูมิแบบน้ำตกใน Power BI
         href: visuals/power-bi-visualization-waterfall-charts.md
+      - name: สร้างสายการอ้างอิงแบบไดนามิก
+        href: service-analytics-pane.md
     - name: การแก้ไขปัญหา
       items:
       - name: แก้ไขปัญหาการนำเข้าฐานข้อมูล Access และสเปรดชีต Excel ใน Power BI Desktop และ Power Query
@@ -382,10 +386,10 @@ items:
       href: power-bi-overview.md
   - name: บทช่วยสอน
     items:
-    - name: เชื่อมต่อกับตัวอย่าง GitHub
-      href: service-tutorial-connect-to-github.md
     - name: เริ่มใช้งานด้วย Power BI
       href: service-get-started.md
+    - name: เชื่อมต่อกับตัวอย่าง GitHub
+      href: service-tutorial-connect-to-github.md
   - name: แนวคิด
     items:
     - name: มีอะไรใหม่ในบริการ Power BI
@@ -440,22 +444,10 @@ items:
         href: service-power-bi-get-started-third-party-apps.md
   - name: วิธีการ
     items:
-    - name: งานทั่วไป
-      items:
-      - name: เปลี่ยนชื่อของเนื้อหาภายใน Power BI
-        href: service-rename.md
-      - name: ข้อมูลเชิงลึกด่วนใน Power BI
-        href: service-insights.md
-      - name: ลงทะเบียนองค์กรภาครัฐของประเทศสหรัฐอเมริกาของคุณ
-        href: service-govus-signup.md
-      - name: แจ้งเตือนข้อมูลใน Power BI service
-        href: service-set-data-alerts.md
-      - name: เริ่มใช้งานกับการถามตอบ Power BI
-        href: power-bi-visualization-introduction-to-q-and-a.md
-      - name: ลบเกือบทุกรายการในบริการ Power BI
-        href: service-delete.md
     - name: เชื่อมต่อกับเซิร์ฟเวอร์
       items:
+      - name: เชื่อมต่อกับเซิร์ฟเวอร์
+        href: service-connect-to-services.md
       - name: Acumatica
         href: service-connect-to-acumatica.md
       - name: Adobe Analytics
@@ -570,7 +562,7 @@ items:
         href: service-parameters.md
       - name: รับข้อมูลจากไฟล์ค่า (.csv) ที่ใช้จุลภาคเป็นตัวคั่น
         href: service-comma-separated-value-files.md
-      - name: การสตรีมในเวลาจริงใน Power BI (ตัวอย่าง)
+      - name: การสตรีมในเวลาจริงใน Power BI
         href: service-real-time-streaming.md
       - name: เผยแพร่ไปยัง Power BI จาก Excel 2016
         href: service-publish-from-excel.md
@@ -622,6 +614,8 @@ items:
         href: service-dashboard-pin-tile-from-q-and-a.md
       - name: ปักหมุดทั้งหน้ารายงานไปยังแดชบอร์ด
         href: service-dashboard-pin-live-tile-from-report.md
+      - name: แจ้งเตือนข้อมูลใน Power BI service
+        href: service-set-data-alerts.md
       - name: เมทริกการใช้สำหรับแดชบอร์ด
         href: service-usage-metrics.md
       - name: เพิ่มรูปภาพ กล่องข้อความ วิดีโอ หรือโค้ดลงในแดชบอร์ด
@@ -630,8 +624,6 @@ items:
         href: service-dashboard-edit-tile.md
       - name: เคล็ดลับสำหรับการออกแบบแดชบอร์ดที่ยอดเยี่ยม
         href: service-dashboards-design-tips.md
-      - name: ปรับข้อมูลของคุณให้เหมาะสมสำหรับข้อมูลเชิงลึกด่วน
-        href: service-insights-optimize.md
       - name: สร้างมุมมองโทรศัพท์ของแดชบอร์ด
         href: service-create-dashboard-mobile-phone-view.md
       - name: สร้างคิวอาร์โค้ดสำหรับไทล์
@@ -644,54 +636,48 @@ items:
         href: service-dashboard-themes.md
     - name: รายงาน
       items:
-      - name: สร้างรายงานใหม่จากรายงานที่มีอยู่
-        href: power-bi-report-copy.md
-      - name: เพิ่มหน้าในรายงาน
-        href: power-bi-report-add-page.md
+      - name: สร้างรายงานจากชุดข้อมูล
+        href: service-report-create-new.md
       - name: เพิ่มตัวกรองในรายงาน
         href: power-bi-report-add-filter.md
       - name: บันทึกรายงานใน Power BI
         href: service-report-save.md
-      - name: สร้างรายงานใหม่จากชุดข้อมูล
-        href: service-report-create-new.md
       - name: โต้ตอบกับรายงานในมุมมองการแก้ไข
         href: service-interact-with-a-report-in-editing-view.md
       - name: วิเคราะห์ใน Excel
         href: service-analyze-in-excel.md
       - name: คำแนะนำและเคล็ดลับสำหรับการสร้างรายงาน
         href: power-bi-reports-tips-and-tricks-for-creating.md
-      - name: บานหน้าต่างการวิเคราะห์
-        href: service-analytics-pane.md
       - name: เมทริกการใช้สำหรับรายงาน
         href: service-usage-metrics.md
       - name: สร้างคิวอาร์โค้ดสำหรับรายงาน
         href: service-create-qr-code-for-report.md
-      - name: จัดลำดับหน้าในรายงานใหม่
-        href: service-report-reorder-pages.md
-      - name: ทำซ้ำหน้ารายงาน
-        href: power-bi-report-copy-paste-page.md
-      - name: ส่งออกรายงานจากบริการไปยัง Power BI Desktop (ตัวอย่าง)
+      - name: ส่งออกรายงานไปยัง Power BI Desktop (ตัวอย่าง)
         href: service-export-to-pbix.md
       - name: กรองรายงานโดยใช้พารามิเตอร์ใน URL
         href: service-url-filters.md
       - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับการสร้างรายงานอย่างรวดเร็วและเชื่อถือได้
         href: power-bi-reports-performance.md
-      - name: โต้ตอบกับ ArcGIS Maps
-        href: visuals/power-bi-visualizations-arcgis.md
     - name: การถามคำถามเกี่ยวกับข้อมูลของคุณ
       items:
+      - name: เริ่มใช้งานกับการถามตอบ Power BI
+        href: power-bi-visualization-introduction-to-q-and-a.md
       - name: ใช้ ถามตอบ เพื่อสร้างการแสดงภาพและรายงาน
         href: power-bi-tutorial-q-and-a.md
       - name: ทำให้ข้อมูลของคุณทำงานได้ดีกับ ถามตอบ
         href: service-prepare-data-for-q-and-a.md
-      - name: เปิดใช้งาน Cortana สำหรับ Power BI
-        href: service-cortana-enable.md
       - name: สร้างคำถามที่แนะนำสำหรับ ถามตอบ
         href: service-q-and-a-create-featured-questions.md
-      - name: ชนิดการแสดงภาพใน Power BI
+      - name: ชนิดการจัดรูปแบบการแสดงข้อมูลใน Q&A
         href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
       - name: ใช้ ถามตอบ ที่มีการเชื่อมต่อสด
         href: service-q-and-a-direct-query.md
+      - name: เปิดใช้งาน Cortana สำหรับ Power BI
+        href: service-cortana-enable.md
+      - name: ข้อมูลเชิงลึกด่วนใน Power BI
+        href: service-insights.md
+      - name: ปรับข้อมูลของคุณให้เหมาะสมสำหรับข้อมูลเชิงลึกด่วน
+        href: service-insights-optimize.md
     - name: แชร์งานของคุณ
       items:
       - name: ฉันควรเข้าร่วมงานและแชร์อย่างไร?
@@ -718,28 +704,6 @@ items:
         href: service-manage-app-workspace-in-power-bi-and-office-365.md
       - name: แชร์แดชบอร์ดที่เชื่อมโยงไปยังเวิร์กบุ๊ก Excel บน OneDrive
         href: service-share-dashboard-that-links-to-excel-onedrive.md
-    - name: ชุดเนื้อหา
-      items:
-      - name: จัดการ อัปเดต และลบชุดเนื้อหาองค์กร
-        href: service-organizational-content-pack-manage-update-delete.md
-      - name: ชุดเนื้อหาองค์กร คัดลอก รีเฟรช และรับ ccess
-        href: service-organizational-content-pack-copy-refresh-access.md
-      - name: 'ชุดเนื้อหาองค์กร: บทนำ'
-        href: service-organizational-content-pack-introduction.md
-      - name: สร้างและเผยแพร่ชุดเนื้อหาขององค์กร
-        href: service-organizational-content-pack-create-and-publish.md
-      - name: นำการเชื่อมต่อไปยังชุดเนื้อหาองค์กรของคุณออก
-        href: service-organizational-content-pack-disconnect.md
-      - name: ใบรับรอง
-        items:
-        - name: โครงการการรับรองชุดเนื้อหา
-          href: service-content-pack-overview.md
-        - name: เขียนชุดเนื้อหาของเทมเพลต
-          href: template-content-pack-authoring.md
-        - name: ทดสอบชุดเนื้อหาของเทมเพลต
-          href: template-content-pack-testing.md
-        - name: ประสบการณ์การใช้งานชุดเนื้อหาเทมเพลต
-          href: template-content-pack-experience.md
     - name: เผยแพร่
       items:
       - name: Power BI Publisher สำหรับ Excel
@@ -792,6 +756,60 @@ items:
         href: service-dataflows-developer-resources.md
       - name: เชื่อมต่อกระแสข้อมูลกับ Power BI Desktop
         href: desktop-connect-dataflows.md
+    - name: รายงานที่มีการแบ่งหน้าใน Power BI
+      items:
+      - name: อะไรคือรายงานที่มีการแบ่งหน้า? (แสดงตัวอย่าง)
+        href: paginated-reports-report-builder-power-bi.md
+      - name: คำถามที่พบบ่อยเกี่ยวกับรายงานแบบแบ่งหน้า (ตัวอย่าง)
+        href: paginated-reports-faq.md
+      - name: สร้างรายงานแบบแบ่งหน้าและอัปโหลดรายงาน (ตัวอย่าง)
+        href: paginated-reports-quickstart-aw.md
+      - name: ลองใช้งานมุมมองการออกแบบรายงาน (ตัวอย่าง)
+        href: paginated-reports-report-design-view.md
+      - name: ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรง (ตัวอย่าง)
+        href: paginated-reports-enter-data.md
+      - name: สร้างแหล่งข้อมูลแบบฝังตัว (ตัวอย่าง)
+        href: paginated-reports-embedded-data-source.md
+      - name: สร้างชุดข้อมูลแบบฝังตัว (ตัวอย่าง)
+        href: paginated-reports-create-embedded-dataset.md
+      - name: สร้างพารามิเตอร์ (ตัวอย่าง)
+        href: paginated-reports-parameters.md
+      - name: เผยแพร่รายงานแบบแบ่งหน้า (ตัวอย่าง)
+        href: paginated-reports-save-to-power-bi-service.md
+      - name: ดูตัวอย่างรายงานแบบแบ่งหน้า (ตัวอย่าง)
+        href: paginated-reports-view-power-bi-service.md
+      - name: โต้ตอบกับพารามิเตอร์ (ตัวอย่าง)
+        href: paginated-reports-view-parameters.md
+    - name: งานอื่น ๆ
+      items:
+      - name: เปลี่ยนชื่อของเนื้อหาภายใน Power BI
+        href: service-rename.md
+      - name: ลงทะเบียนองค์กรภาครัฐของประเทศสหรัฐอเมริกาของคุณ
+        href: service-govus-signup.md
+      - name: ลบเกือบทุกรายการในบริการ Power BI
+        href: service-delete.md
+      - name: ชุดเนื้อหา
+        items:
+        - name: จัดการ อัปเดต และลบชุดเนื้อหาองค์กร
+          href: service-organizational-content-pack-manage-update-delete.md
+        - name: ชุดเนื้อหาองค์กร คัดลอก รีเฟรช และรับ ccess
+          href: service-organizational-content-pack-copy-refresh-access.md
+        - name: 'ชุดเนื้อหาองค์กร: บทนำ'
+          href: service-organizational-content-pack-introduction.md
+        - name: สร้างและเผยแพร่ชุดเนื้อหาขององค์กร
+          href: service-organizational-content-pack-create-and-publish.md
+        - name: นำการเชื่อมต่อไปยังชุดเนื้อหาองค์กรของคุณออก
+          href: service-organizational-content-pack-disconnect.md
+        - name: ใบรับรอง
+          items:
+          - name: โครงการการรับรองชุดเนื้อหา
+            href: service-content-pack-overview.md
+          - name: เขียนชุดเนื้อหาของเทมเพลต
+            href: template-content-pack-authoring.md
+          - name: ทดสอบชุดเนื้อหาของเทมเพลต
+            href: template-content-pack-testing.md
+          - name: ประสบการณ์การใช้งานชุดเนื้อหาเทมเพลต
+            href: template-content-pack-experience.md
   - name: ทรัพยากร
     items:
     - name: วิดีโอ
@@ -802,38 +820,6 @@ items:
       href: supported-languages-countries-regions.md
     - name: เอกสารทางเทคนิค
       href: whitepapers.md
-- name: รายงานที่มีการแบ่งหน้าใน Power BI
-  items:
-  - name: ภาพรวม
-    items:
-    - name: อะไรคือรายงานที่มีการแบ่งหน้า? (แสดงตัวอย่าง)
-      href: paginated-reports-report-builder-power-bi.md
-  - name: บทช่วยสอน
-    items:
-    - name: สร้างรายงานที่มีการแบ่งหน้าและอัปโหลดรายงาน
-      href: paginated-reports-quickstart-aw.md
-  - name: แนวคิด
-    items:
-    - name: ลองใช้งานมุมมองการออกแบบรายงาน
-      href: paginated-reports-report-design-view.md
-    - name: คำถามที่พบบ่อยเกี่ยวกับรายงานที่มีการแบ่งหน้า
-      href: paginated-reports-faq.md
-  - name: วิธีการ
-    items:
-    - name: ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรง
-      href: paginated-reports-enter-data.md
-    - name: สร้างแหล่งข้อมูลแบบฝังตัว
-      href: paginated-reports-embedded-data-source.md
-    - name: สร้างชุดข้อมูลแบบฝังตัว
-      href: paginated-reports-create-embedded-dataset.md
-    - name: สร้างพารามิเตอร์
-      href: paginated-reports-parameters.md
-    - name: เผยแพร่รายงานที่มีการแบ่งหน้า
-      href: paginated-reports-save-to-power-bi-service.md
-    - name: ดูรายงานที่มีการแบ่งหน้า
-      href: paginated-reports-view-power-bi-service.md
-    - name: โต้ตอบกับพารามิเตอร์
-      href: paginated-reports-view-parameters.md
 - name: Power BI สำหรับนักพัฒนา
   items:
   - name: นักพัฒนาสามารถทำอะไรกับ Power BI ได้บ้าง
@@ -1265,9 +1251,9 @@ items:
       href: service-admin-governance.md
     - name: ความปลอดภัยของ Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: d6dd88caff9e0f2cdef7f7697c81161fe32c0b35
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 83446170e1ee29cdf2e2d2f1298a37c58e255f1b
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331861"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900393"
