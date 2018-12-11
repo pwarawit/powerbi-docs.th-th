@@ -4,18 +4,19 @@ description: ใช้ SAP HANA ใน Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ba49fc09fb7b5a3885dbbcdf61086026e822ae03
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 7f4ff77522f083c103210dce4cdc3a7cd2325ec5
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669623"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025161"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>ใช้ SAP HANA ใน Power BI Desktop
 ตอนนี้คุณสามารถเข้าถึงฐานข้อมูล**SAP HANA**ได้ด้วย Power BI Desktop ในการใช้**SAP HANA**จะต้องติดตั้งไดรเวอร์ ODBC SAP Hana บนคอมพิวเตอร์ผู้รับบริการท้องถิ่นเพื่อให้การเชื่อมต่อข้อมูล**SAP HANA**ของ Power BI Desktop สามารถทำงานได้อย่างเหมาะสม คุณสามารถดาวน์โหลดไดรเวอร์ ODBC SAP HANA ได้จาก[ศูนย์ดาวน์โหลดซอฟต์แวร์ SAP](https://support.sap.com/swdc) ในศูนย์ดาวโหลดซอฟต์แวร์ ให้ค้นหา SAP HANA CLIENT สำหรับคอมพิวเตอร์ที่ใช้ Windows เนื่องด้วย**ศูนย์ดาวน์โหลดซอฟต์แวร์ SAP**นั้นมีการเปลี่ยนแปลงโครงสร้างบ่อยครั้ง คำแนะนำการนำทางที่เฉพาะเจาะจงมากกว่านี้ในเว็บไซต์ดังกล่าวจึงไม่พร้อมใช้งาน
@@ -30,7 +31,7 @@ ms.locfileid: "52669623"
 
 ในรุ่นนี้**SAP HANA**ในโหมด[DirectQuery](desktop-directquery-sap-hana.md)ได้รับการสนับสนุนการใช้งานใน Power BI Desktop และ บริการ Power BI และคุณสามารถเผยแพร่การอัปโหลดรายงานที่ใช้**SAP Hana**ใน โหมด DirectQuery ไปยังบริการ Power BI คุณยังสามารถเผยแพร่ และอัปโหลดรายงานไปยังบริการ Power BI เมื่อไม่ได้ใช้**SAP HANA**ในโหมด DirectQuery ได้อีกด้วย
 
-### <a name="supported-features-for-sap-hana"></a>ฟีเจอร์ที่ได้รับการสนับสนุนสำหรับ SAP HANA
+## <a name="supported-features-for-sap-hana"></a>ฟีเจอร์ที่ได้รับการสนับสนุนสำหรับ SAP HANA
 รุ่นนี้มีความสามารถสำหรับ**SAP HANA**มากมาย ดังที่แสดงในรายการต่อไปนี้:
 
 * ตัวเชื่อมต่อ Power BI ของ**SAP HANA**ใช้ไดร์ฟเวอร์ SAP ODBC เพื่อประสบการณ์การใช้งานที่ดีที่สุดของผู้ใช้
@@ -40,8 +41,7 @@ ms.locfileid: "52669623"
 * รวมถึงการนำทางที่มีประสิทธิภาพสูงสุดสำหรับโมเดล HANA
 * Power BI สนับสนุนตัวแปรต่าง ๆ ของ**SAP HANA** และพารามิเตอร์ที่นำเข้ามา
 
-### <a name="installing-the-sap-hana-odbc-driver"></a>กำลังติดตั้งไดร์ฟเวอร์ ODBC SAP HANA
-### <a name="limitations-of-sap-hana"></a>ขีดจำกัดของ SAP HANA
+## <a name="limitations-of-sap-hana"></a>ขีดจำกัดของ SAP HANA
 ในการใช**SAP HANA**้นั้นมีข้อจำกัดบางประการตามที่แสดงไว้ด้านล่าง:
 
 * สตริง NVARCHAR จะถูกตัดทอนให้อยู่ที่ความยาวสูงสุด 4000 ตัวอักขระ Unicode

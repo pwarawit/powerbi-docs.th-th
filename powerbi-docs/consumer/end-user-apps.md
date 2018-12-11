@@ -7,18 +7,18 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9c9a99e2bfe0ae90607da4f27d77cb0a2a78a7c8
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: cba5f971e81a425de661e03ac66c5c6d5fe82049
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507657"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979386"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>ติดตั้งและใช้แอปกับแดชบอร์ดและรายงาน
-ใน Power BI *แอป*รวมรายงานและแดชบอร์ดที่เกี่ยวข้องเข้าด้วยกัน ทั้งหมดในที่เดียว บุคคลในองค์กรของคุณสามารถสร้าง และเผยแพร่พร้อมกับข้อมูลทางธุรกิจที่สำคัญ [บริการภายนอก](end-user-connect-to-services.md)คุณอาจใช้่ เช่น Google Analytics และ Microsoft Dynamics CRM นอกจากนี้ยังนำเสนอแอป Power BI 
+ใน Power BI *แอป*รวมรายงานและแดชบอร์ดที่เกี่ยวข้องเข้าด้วยกัน ทั้งหมดในที่เดียว บุคคลในองค์กรของคุณสามารถสร้าง และเผยแพร่พร้อมกับข้อมูลทางธุรกิจที่สำคัญ [บริการภายนอก](../service-connect-to-services.md)คุณอาจใช้่ เช่น Google Analytics และ Microsoft Dynamics CRM นอกจากนี้ยังนำเสนอแอป Power BI 
 
 ![แอปใน Power BI](./media/end-user-apps/power-bi-apps-navbar.png)
 
@@ -63,5 +63,5 @@ ms.locfileid: "51507657"
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[แอป Power BI สำหรับบริการภายนอก](end-user-connect-to-services.md)
+[แอป Power BI สำหรับบริการภายนอก](../service-connect-to-services.md)
 

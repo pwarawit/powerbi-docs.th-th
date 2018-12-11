@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 31cf660a969e1779625c205c6834ceaca92325d1
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 82cc459bcfd33d2aa576529899b7f893b0854c37
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268871"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180311"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources-preview"></a>การใช้กระแสข้อมูลกับแหล่งข้อมูลในองค์กร (ตัวอย่าง)
 
@@ -79,7 +79,7 @@ ms.locfileid: "51268871"
 บทความนี้ให้ข้อมูลเกี่ยวกับการใช้แหล่งข้อมูลในองค์กรสำหรับกระแสข้อมูล และให้ข้อมูลวิธีการใช้และกำหนดค่าเกตเวย์เพื่อเข้าถึงข้อมูลนั้นๆ บทความต่อไปนี้อาจมีประโยชน์เช่นกัน
 
 * [การเตรียมข้อมูลด้วยตัวเองโดยใช้กระแสข้อมูล](service-dataflows-overview.md)
-* [สร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
+* [การสร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
 * [การใช้เอนทิตีที่คำนวณใน Power BI Premium (ตัวอย่าง)](service-dataflows-computed-entities-premium.md)
 * [แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI (ตัวอย่าง)](service-dataflows-developer-resources.md)
 
