@@ -4,18 +4,19 @@ description: ใน Power BI แอปรวมรายงานและแด
 author: mihart
 manager: kvivek
 ms.reviewer: lukaszp
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/14/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: cba5f971e81a425de661e03ac66c5c6d5fe82049
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: ca6823673b46c033d2fd04b7d8a278d87aeb78f3
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979386"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280500"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>ติดตั้งและใช้แอปกับแดชบอร์ดและรายงาน
 ใน Power BI *แอป*รวมรายงานและแดชบอร์ดที่เกี่ยวข้องเข้าด้วยกัน ทั้งหมดในที่เดียว บุคคลในองค์กรของคุณสามารถสร้าง และเผยแพร่พร้อมกับข้อมูลทางธุรกิจที่สำคัญ [บริการภายนอก](../service-connect-to-services.md)คุณอาจใช้่ เช่น Google Analytics และ Microsoft Dynamics CRM นอกจากนี้ยังนำเสนอแอป Power BI 

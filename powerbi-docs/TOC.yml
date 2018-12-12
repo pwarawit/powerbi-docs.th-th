@@ -32,21 +32,21 @@ items:
       href: sample-datasets.md
     - name: กำลังใช้ตัวอย่างชุดเนื้อหาอย่างง่าย
       href: sample-tutorial-connect-to-the-samples.md
-    - name: 'ตัวอย่างการใช้ประโยชน์ของลูกค้า: ชมการแนะนำ'
+    - name: 'ตัวอย่างความสามารถในการทำกำไรสำหรับลูกค้า: ชมการแนะนำ'
       href: sample-customer-profitability.md
-    - name: 'ตัวอย่างการวิเคราะห์การใช้จ่ายด้าน IT: ชมการแนะนำ'
+    - name: 'ตัวอย่างการวิเคราะห์ค่าใช้จ่ายในด้านไอที: ชมการแนะนำ'
       href: sample-it-spend.md
     - name: 'ตัวอย่างทรัพยากรบุคคล: ชมการแนะนำ'
       href: sample-human-resources.md
     - name: 'ตัวอย่างการวิเคราะห์โอกาสทางการขาย: ชมการแนะนำ'
       href: sample-opportunity-analysis.md
-    - name: 'ตัวอย่างการวิเคราะห์การจัดซื้อ: ชมการแนะนำ'
+    - name: 'ตัวอย่างการวิเคราะห์ด้านการจัดซื้อ: ชมการแนะนำ'
       href: sample-procurement.md
-    - name: 'ตัวอย่างการวิเคราะห์ร้านค้าปลีก: ชมการแนะนำ'
+    - name: 'ตัวอย่างการวิเคราะห์ด้านการขายปลีก: ชมการแนะนำ'
       href: sample-retail-analysis.md
-    - name: 'ยอดขายและตัวอย่างทางการตลาด: ชมการแนะนำ'
+    - name: 'ตัวอย่างการขายและการตลาด: ชมการแนะนำ'
       href: sample-sales-and-marketing.md
-    - name: 'ตัวอย่างการวิเคราะห์คุณภาพผู้ขาย: ชมการแนะนำ'
+    - name: 'ตัวอย่างการวิเคราะห์คุณภาพผู้จัดหา: ชมการแนะนำ'
       href: sample-supplier-quality.md
     - name: ดาวน์โหลดเวิร์กบุ๊กตัวอย่างด้านการเงิน
       href: sample-financial-download.md
@@ -184,9 +184,9 @@ items:
         href: desktop-sap-bw-connector.md
       - name: ใช้ลิงก์ OneDrive for Business ใน Power BI Desktop
         href: desktop-use-onedrive-business-links.md
-      - name: 'บริการของบุคคลที่สาม: ตัวเชื่อมต่อ Facebook สำหรับ Power BI Desktop'
+      - name: 'บริการจากบุคคลที่สาม: ตัวเชื่อมต่อ Facebook สำหรับ Power BI Desktop'
         href: service-facebook-connector.md
-      - name: 'บริการของบุคคลสาม: ตัวเชื่อมต่อ Google Analytics สำหรับ Power BI Desktop'
+      - name: 'บริการจากบุคคลที่สาม: ตัวเชื่อมต่อ Google Analytics สำหรับ Power BI Desktop'
         href: service-google-analytics-connector.md
       - name: 'Project Online: เชื่อมต่อกับข้อมูลผ่านทาง Power BI Desktop'
         href: desktop-project-online-connect-to-data.md
@@ -734,7 +734,7 @@ items:
         href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
       - name: แก้ไขปัญหารีเฟรชตามกำหนดการสำหรับ Azure SQL Database
         href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-      - name: 'ข้อผิดพลาด: เราไม่พบข้อมูลใด ๆ ในสมุดงาน Excel ของคุณ'
+      - name: 'ข้อผิดพลาด: เราไม่พบข้อมูลใด ๆ ในเวิร์กบุ๊ก Excel ของคุณ'
         href: service-admin-troubleshoot-excel-workbook-data.md
       - name: แก้ไขปัญหาข้อผิดพลาดไทล์
         href: refresh-troubleshooting-tile-errors.md
@@ -758,6 +758,14 @@ items:
         href: service-dataflows-developer-resources.md
       - name: เชื่อมต่อกระแสข้อมูลกับ Power BI Desktop
         href: desktop-connect-dataflows.md
+      - name: การรวม Dataflows และ Azure Data Lake (ตัวอย่าง)
+        href: service-dataflows-azure-data-lake-integration.md
+      - name: เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับที่เก็บกระแสข้อมูล (ตัวอย่าง)
+        href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+      - name: กำหนดค่าการตั้งค่ากระแสข้อมูลพื้นที่ทำงาน (ตัวอย่าง)
+        href: service-dataflows-configure-workspace-storage-settings.md
+      - name: เพิ่มโฟลเดอร์ CDM ไปยัง Power BI เป็นกระแสข้อมูล (ตัวอย่าง)
+        href: service-dataflows-add-cdm-folder.md
     - name: รายงานที่มีการแบ่งหน้าใน Power BI
       items:
       - name: อะไรคือรายงานที่มีการแบ่งหน้า? (แสดงตัวอย่าง)
@@ -794,9 +802,9 @@ items:
         items:
         - name: จัดการ อัปเดต และลบชุดเนื้อหาองค์กร
           href: service-organizational-content-pack-manage-update-delete.md
-        - name: ชุดเนื้อหาองค์กร คัดลอก รีเฟรช และรับ ccess
+        - name: 'ชุดเนื้อหาระดับองค์กร: คัดลอก รีเฟรช และเข้าถึง'
           href: service-organizational-content-pack-copy-refresh-access.md
-        - name: 'ชุดเนื้อหาองค์กร: บทนำ'
+        - name: 'ชุดเนื้อหาระดับองค์กร: บทนำ'
           href: service-organizational-content-pack-introduction.md
         - name: สร้างและเผยแพร่ชุดเนื้อหาขององค์กร
           href: service-organizational-content-pack-create-and-publish.md
@@ -1253,9 +1261,9 @@ items:
       href: service-admin-governance.md
     - name: ความปลอดภัยของ Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 066aa4a3b87375e29e14d1611e7e67ab58dfd482
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: e105b33d6b37099dd6bc2c657f2293f8561a6004
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979685"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53181024"
