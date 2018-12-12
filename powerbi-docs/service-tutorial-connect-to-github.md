@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b9fff17d51756da4561823886ed80beeec830843
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 88be0aa477b5e4b2df4f53c42dfb6fde3dda0184
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548123"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900508"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>บทช่วยสอน: เชื่อมต่อกับตัวอย่าง GitHub ด้วย Power BI
 ในบทช่วยสอนนี้ คุณจะเชื่อมต่อกับข้อมูลจริงในบริการ GitHub ด้วย Power BI และ Power BI จะสร้างแดชบอร์ดและรายงานโดยอัตโนมัติ คุณจะเชื่อมต่อกับที่เก็บเนื้อหาสาธารณะของ Power BI (หรือที่เรียกว่า *ที่เก็บ*) และดูข้อมูล: มีบุคคลกี่คนให้การสนับสนุนเนื้อหาสาธารณะของ Power BI ใครให้การสนับสนุนมากที่สุด วันใดในสัปดาห์ที่มีการสนับสนุนมากที่สุด และตอบคำถามอื่นๆ 
@@ -125,6 +125,6 @@ ms.locfileid: "46548123"
 ในบทช่วยสอนนี้ คุณได้เชื่อมต่อกับ Repo สาธารณะของ GitHub และข้อมูลที่ได้รับ ซึ่ง Power BI ได้จัดรูปแบบในแดชบอร์ดและรายงาน คุณได้ตอบคำถามบางอย่างเกี่ยวกับข้อมูลโดยการสำรวจแดชบอร์ดและรายงาน ในตอนนี้ คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับการเชื่อมต่อกับบริการอื่นๆ เช่น Salesforce, Microsoft Dynamics และ Google Analytics 
  
 > [!div class="nextstepaction"]
-> [เชื่อมต่อกับบริการออนไลน์ที่คุณใช้](consumer/end-user-connect-to-services.md)
+> [เชื่อมต่อกับบริการออนไลน์ที่คุณใช้](service-connect-to-services.md)
 
 

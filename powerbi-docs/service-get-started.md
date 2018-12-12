@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 554e9f3bbea5a1da6ac43f21f72b054a26849f23
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908764"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900563"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>บทช่วยสอน: เริ่มต้นใช้งานบริการ Power BI (app.powerbi.com)
 บทเรียนนี้ช่วยให้คุณเริ่มต้นใช้งาน***Power BI service***  สำหรับทำความเข้าใจว่า Power BI service เหมาะสมกับข้อเสนอ Power BI อื่นๆอย่างไร เราขอแนะนำให้ คุณเริ่มต้นด้วยการอ่าน[Power BI คืออะไร](power-bi-overview.md)
@@ -158,5 +158,5 @@ ms.locfileid: "48908764"
 พร้อมที่จะลองเพิ่มหรือไม่  นี่เป็นวิธียอดเยี่ยมเพื่อสำรวจ Power BI
 
 > [!div class="nextstepaction"]
-> [เชื่อมต่อกับบริการออนไลน์ที่คุณใช้](consumer/end-user-connect-to-services.md)
+> [เชื่อมต่อกับบริการออนไลน์ที่คุณใช้](service-connect-to-services.md)
 

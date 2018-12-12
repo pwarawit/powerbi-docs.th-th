@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 8689c9a2fded5e283740d82923d674b73434e6a1
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: aca89b1e45c2ce236a4b5a960436077e089a5b01
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850464"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900577"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
@@ -37,7 +37,7 @@ ms.locfileid: "51850464"
 | แดชบอร์ด | ไม่ใช่ | ใช่ | [แดชบอร์ดในบริการของ Power BI](../consumer/end-user-dashboards.md) 
 | กลุ่มการแจกจ่ายรายงานโดยใช้แอป | ไม่ใช่ | ใช่ | [สร้างและเผยแพร่แอปที่มีแดชบอร์ดและรายงาน](../service-create-distribute-apps.md) 
 | ชุดเนื้อหา | ไม่ใช่ | ใช่ | [ชุดเนื้อหาระดับองค์กร: บทนำ](../service-organizational-content-pack-introduction.md) 
-| เชื่อมต่อกับบริการต่าง ๆ เช่น Salesforce | ใช่ | ใช่ | [เชื่อมต่อกับบริการที่คุณใช้](../consumer/end-user-connect-to-services.md)ด้วยชุดเนื้อหาในบริการของ Power BI ใช้ตัวเชื่อมต่อที่ได้รับการรับรองเพื่อเชื่อมต่อกับบริการในเซิร์ฟเวอร์รายงาน Power BI สามารถดูรายละเอียดได้ที่ [แหล่งข้อมูลรายงาน Power BI ในเซิร์ฟเวอร์รายงาน Power BI](data-sources.md)
+| เชื่อมต่อกับบริการต่าง ๆ เช่น Salesforce | ใช่ | ใช่ | [เชื่อมต่อกับบริการที่คุณใช้](../service-connect-to-services.md)ด้วยชุดเนื้อหาในบริการของ Power BI ใช้ตัวเชื่อมต่อที่ได้รับการรับรองเพื่อเชื่อมต่อกับบริการในเซิร์ฟเวอร์รายงาน Power BI สามารถดูรายละเอียดได้ที่ [แหล่งข้อมูลรายงาน Power BI ในเซิร์ฟเวอร์รายงาน Power BI](data-sources.md)
 | ถามตอบ | ไม่ใช่ | ใช่ | [ถามตอบในบริการของ Power BI และ Power BI Desktop](../consumer/end-user-q-and-a.md) 
 | ข้อมูลเชิงลึกด่วน | ไม่ใช่ | ใช่ | [สร้างข้อมูลเชิงลึกโดยอัตโนมัติด้วย Power BI](../consumer/end-user-insights.md) 
 | วิเคราะห์ใน Excel | ไม่ใช่ | ใช่ | [วิเคราะห์ใน Excel](../service-analyze-in-excel.md) 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 0ffcec94d015223df596aa6ac941f7400a89e747
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: daada8a7f69c600acf6fc45669ed6a42c2fdd831
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718079"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900669"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
@@ -95,7 +95,7 @@ ms.locfileid: "51718079"
 
 ### <a name="august-2017"></a>สิงหาคม 2017
 * รู้จักผู้ชมของคุณด้วย[เมตริกการใช้งานต่อผู้ใช้](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/)
-* เริ่มต้นใช้งานด้วยแอปฯ[บริการ Power BI](consumer/end-user-connect-to-services.md) สำหรับบริการออนไลน์
+* เริ่มต้นใช้งานด้วยแอปฯ[บริการ Power BI](service-connect-to-services.md) สำหรับบริการออนไลน์
 * เชื่อมต่อกับ IBM Netezza ด้วยเกตเวย์ข้อมูลในองค์กรผ่านทั้งโหมดนำเข้าและโหมดการเชื่อมต่อ DirectQuery
 * [RLS แบบไดนามิก](developer/embedded-row-level-security.md)ตอนนี้สนับสนุนสำหรับ Power BI Embedded แล้ว
 * ตอนนี้ได้มีการเพิ่ม[การกรอง API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) ขั้นสูงสำหรับรุ่น 1.7 ของภาพ API แบบกำหนดเอง

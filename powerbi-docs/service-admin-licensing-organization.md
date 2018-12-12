@@ -10,20 +10,16 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: ce44e87144d9338fbd88f0bc7183daf1b5339b35
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331999"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900485"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>การออกใบอนุญาตการใช้งาน Power BI ในองค์กรของคุณ
 
-ในบริการของ Power BI ผู้ใช้มีการกำหนดความสามารถตามใบอนุญาตสองประเภท:
-
-* **การออกใบอนุญาตการใช้งาน** -  *Power BI Pro และการออกใบอนุญาตฟรีต่อผู้ใช้* ใบอนุญาตสำหรับ Power BI Pro ช่วยให้สามารถเข้าถึงเนื้อหาและความสามารถทั้งหมดในบริการ Power BI รวมถึงความสามารถในการแบ่งปันเนื้อหาและทำงานร่วมกับผู้ใช้แบบ Pro รายอื่น เฉพาะผู้ใช้แบบ Pro เท่านั้นที่สามารถเผยแพร่เนื้อหา หรือใช้เนื้อหาจากพื้นที่ทำงานจากแอป, แชร์แดชบอร์ด และสมัครสมาชิกแดชบอร์ดและรายงานได้ การออกใบอนุญาตฟรีช่วยให้สามารถเข้าถึงคุณลักษณะบางอย่างของบริการ Power BI ได้ ดูข้อมูลเพิ่มเติมได้ที่ [คุณลักษณะการบริการของ Power BI ตามประเภทของใบอนุญาต](service-features-license-type.md)
-
-* **การออกใบอนุญาตแบบ Premium สำหรับ Power BI**  - *ตามความสามารถ* Premium มอบความสามารถเฉพาะด้านเพื่อให้เกิดประสิทธิภาพที่สม่ำเสมอและรองรับปริมาณข้อมูลที่มากขึ้นใน Power BI สำหรับผู้ใช้แต่ละราย Premium ยังช่วยให้ผู้ใช้แบบ Pro สามารถกระจายเนื้อหาได้อย่างกว้างขวางโดยผู้รับไม่ต้องมีใบอนุญาต Pro ในการดูเนื้อหา สำหรับข้อมูลเพิ่มเติม ให้ดู [อะไรคือ Power BI Premium](service-premium.md)
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
 บทความนี้เน้นไปที่การออกใบอนุญาตผู้ใช้จากมุมมองของผู้ดูแลระบบ
 
