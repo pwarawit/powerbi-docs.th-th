@@ -2,17 +2,18 @@
 title: อภิธานศัพท์สำหรับผู้ใช้ Power BI
 description: Power BI มีข้อกำหนดใหม่และการใช้ใหม่สำหรับเงื่อนไขที่คุ้นเคย ใช้อภิธานศัพท์ของเราเพื่อสร้างความคุ้นเคยกับคำศัพท์ Power BI
 services: power-bi
+ms.custom: seodec18
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/12/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026366"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280799"
 ---
 # <a name="glossary-for-power-bi-service"></a>อภิธานศัพท์สำหรับบริการ Power BI
 บริการ Power BI อาจใช้คำศัพท์ที่ไม่คุ้นเคยหรือสับสน อภิธานศัพท์เป็นที่เหมาะสมในการค้นหาคำศัพท์ คุณอาจต้องการเก็บไว้คั่นหน้า อีกแหล่งข้อมูลหนึ่งที่ยอดเยี่ยมสำหรับการเรียนรู้เกี่ยวกับการสร้างการปิดกั้นใน Power BI คือ [แนวคิดพื้นฐาน](end-user-basic-concepts.md) แนวคิดพื้นฐานเป็นภาพรวมระดับสูงเกี่ยวกับ*ส่วนประกอบ*ของ Power BI และความเกี่ยวข้องกัน
@@ -42,7 +43,7 @@ ms.locfileid: "53026366"
 
 **AppSource**ศูนย์รวมข้อมูลแบบออนไลน์ที่คุณสามารถเรียกดู และค้นหาแดชบอร์ด รายงาน ชุดข้อมูล และแอปเพื่อดาวน์โหลด
 
-**ArcGIS Maps สำหรับ Power BI** ArcGIS เป็นแพลตฟอร์มการทำแผนที่และการวิเคราะห์ที่สร้างขึ้นโดย ESRI ของบริษัท ชื่อของภาพที่อยู่ในคลังข้อมูลภาพของ Power BI เรียกว่า ArcGIS Maps สำหรับ Power BI
+**ArcGIS สำหรับ Power BI** ArcGIS เป็นแพลตฟอร์มการทำแผนที่และการวิเคราะห์ที่สร้างขึ้นโดย ESRI ของบริษัท ชื่อของภาพที่อยู่ในคลังข้อมูลภาพของ Power BI เรียกว่า ArcGIS สำหรับ Power BI
 
 **กำหนด** [Power BI Premium] คำกริยาสำหรับย้ายพื้นที่ทำงานไปยังหรือออกจากพื้นที่ทำงานที่กำหนด อย่าใช้การเลื่อนระดับสำหรับการย้ายพื้นที่ทำงานไปยังที่จัดเก็บข้อมูลที่กำหนดเนื่องจากมีความเฉพาะที่เหนือกว่าที่จัดเก็บข้อมูลที่ใช้ร่วมกัน  
 

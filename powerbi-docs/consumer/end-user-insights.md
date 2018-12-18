@@ -1,24 +1,25 @@
 ---
-title: ข้อมูลเชิงลึกข้อมูล ด้วย Power BI ที่สร้างโดยอัตโนมัติ
-description: เรียนรู้วิธีการรับข้อมูลเชิงลึกเกี่ยวกับไทล์ของชุดข้อมูลและแดชบอร์ดของคุณ
+title: เรียกใช้และดูข้อมูลเชิงลึกบนไทล์แดชบอร์ด
+description: ในฐานะผู้ใช้งานปลายทางของ Power BI เรียนรู้วิธีการรับข้อมูลเชิงลึกเกี่ยวกับไทล์ของชุดข้อมูลและแดชบอร์ดของคุณ
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f68e962eacf04005d83ec0def10cf8e0e24f6e10
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: dd59f572da6bb3b62fa142ea7b7eab4aef5a3466
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112049"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180541"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>ข้อมูลเชิงลึกข้อมูล ด้วย Power BI ที่สร้างโดยอัตโนมัติ
+# <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>ดูข้อมูลเชิงลึกบนไทล์แดชบอร์ดด้วย Power BI
 แต่ละไทล์ของการแสดงภาพบนแดชบอร์ดของคุณคือ ประตูไปสู่การสำรวจข้อมูล เมื่อคุณเลือกไทล์ จะเปิดรายงานที่คุณสามารถกรองและจัดเรียง รวมถึงเจาะลึกลงไปในชุดข้อมูลหลังรายงาน และเมื่อคุณเรียกใช้ข้อมูลเชิงลึก Power BI จะสำรวจข้อมูลให้คุณ
 
 เรียกใช้ข้อมูลเชิงลึกด่วนเพื่อสร้างการแสดงภาพแบบโต้ตอบที่น่าสนใจที่ยึดตามข้อมูลของคุณ สามารถเรียกใช้ข้อมูลเชิงลึกแบบด่วนบนไทล์ของแดชบอร์ดเฉพาะและคุณยังสามารถเรียกใช้ข้อมูลเชิงลึกในข้อมูลเชิงลึกได้!
@@ -40,7 +41,9 @@ ms.locfileid: "49112049"
 4. ข้อมูลเชิงลึกกระตุ้นความสนใจของคุณหรือไม่ เลือกบัตรข้อมูลเชิงลึกเพื่อเจาะลึกเพิ่มเติม ข้อมูลเชิงลึกแสดงทางด้านซ้าย และการ์ดใหม่ เท่านั้นตามข้อมูลในข้อมูลเชิงลึกที่เดียว แสดงตามแนวทางด้านขวา    
 
  ## <a name="interact-with-the-insight-cards"></a>โต้ตอบกับบัตรข้อมูลเชิงลึก
-   * กรองการแสดงภาพ  แสดงตัวกรอง โดยเลือกลูกศรเพื่อขยายบานหน้าต่างตัวกรองในมุมบนขวา
+เมื่อคุณเปิดข้อมูลเชิงลึกแล้ว ให้สำรวจต่อไป
+
+   * กรองวิชวลบนพื้นที่  แสดงตัวกรอง โดยเลือกลูกศรเพื่อขยายบานหน้าต่างตัวกรองในมุมบนขวา
 
      ![ดูข้อมูลเชิงลึกของเมนูตัวกรองที่ขยาย](./media/end-user-insights/power-bi-insights-on-insights.png)
    
