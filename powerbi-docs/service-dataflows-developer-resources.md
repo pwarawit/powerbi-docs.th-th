@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d2b2449985a4380d78e7055ecf87f99a65a9a67e
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: a56dbb713f3d853094c2612a19edecb8bf4d7b24
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268892"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180610"
 ---
 # <a name="developer-resources-for-power-bi-dataflows-preview"></a>ทรัพยากรของนักพัฒนาสำหรับกระแสข้อมูล Power BI (ตัวอย่าง)
 
@@ -29,7 +29,7 @@ ms.locfileid: "51268892"
 
 | ทรัพยากรของกระแสข้อมูล | คำอธิบาย |
 | --- | --- |
-| [การอ้างอิงของ Power BI dataflow REST API](http://download.microsoft.com/download/5/4/0/540DAA5B-6760-4BDF-A089-8C3DBA8BB4DD/Power%20BI%20dataflow%20REST%20API%20reference.docx)    | คู่มืออ้างอิงฉบับสมบูรณ์ของกระแสข้อมูล REST API|
+| [การอ้างอิงของ Power BI dataflow REST API](https://go.microsoft.com/fwlink/?linkid=2047629)    | คู่มืออ้างอิงฉบับสมบูรณ์ของกระแสข้อมูล REST API|
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
@@ -37,14 +37,19 @@ ms.locfileid: "51268892"
 บทความนี้ให้ข้อมูลเกี่ยวกับทรัพยากรของนักพัฒนาสำหรับกระแสข้อมูล สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระแสข้อมูล บทความต่อไปนี้อาจเป็นประโยชน์:
 
 * [การเตรียมข้อมูลด้วยตัวเองโดยใช้กระแสข้อมูล](service-dataflows-overview.md)
-* [สร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
+* [การสร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
 * [การใช้เอนทิตีที่คำนวณใน Power BI Premium (ตัวอย่าง)](service-dataflows-computed-entities-premium.md)
 * [การใช้กระแสข้อมูลพร้อมแหล่งข้อมูลในองค์กร (ตัวอย่าง)](service-dataflows-on-premises-gateways.md)
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการพัฒนา CDM และบทนำสอน สามารถดูได้ตามนี้:
+* [Common Data Model - ภาพรวม](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [โฟลเดอร์ CDM ](https://go.microsoft.com/fwlink/?linkid=2045304)
+* [นิยามของ ไฟล์รูปแบบ CDM](https://go.microsoft.com/fwlink/?linkid=2045521)
+
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power Query และการรีเฟรชตามกำหนดการ สามารถดูได้ในบทความเหล่านี้:
 * [ภาพรวมคิวรีใน Power BI Desktop](desktop-query-overview.md)
 * [การกำหนดค่าการรีเฟรชตามกำหนดการ](refresh-scheduled-refresh.md)
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Common Data Model สามารถดูได้ในบทความภาพรวม:
-* [Common Data Model - ภาพรวม](https://docs.microsoft.com/powerapps/common-data-model/overview)
+
 

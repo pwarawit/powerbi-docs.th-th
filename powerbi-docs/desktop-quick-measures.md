@@ -1,21 +1,22 @@
 ---
-title: ใช้การวัดผลด่วนเพื่อการคำนวณที่ใช้บ่อยและทรงพลังได้อย่างง่ายดายใน Power BI
+title: ใช้การวัดผลด่วนเพื่อการคำนวณที่ใช้บ่อยและทรงพลัง
 description: การวัดผลด่วนมีสูตร DAX ที่เตรียมให้สำเร็จรูป ที่ช่วยให้การคำนวนที่ใช้บ่อยทำได้อย่างรวดเร็ว
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c3b8d11176992cb9e6ce114d2c0a7a310ca5d9fc
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 19fdadb6476dab9eda0fa5c76f17680cbd7b4cfe
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670992"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026426"
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>ใช้การวัดผลด่วนเพื่อการคำนวณที่ใช้บ่อยและทรงพลังได้อย่างง่ายดาย
 คุณสามารถใช้**การวัดผลด่วน** ทำการคำนวณที่ใช้บ่อยและทรงพลัง ได้อย่างรวดเร็วและง่ายดาย **การวัดผลด่วน**เรียกใช้ชุดคำสั่ง DAX ในเบื้องหลัง (คุณไม่จำเป็นต้องเขียน DAX เอง – ทั้งหมดทำให้คุณเรียบร้อยแล้ว) ตามที่คุณป้อนเข้าในกล่องโต้ตอบ จากนั้นแสดงผลลัพธ์เพื่อให้คุณได้ใช้ในรายงานของคุณ ยิ่งไปกว่านั้น คุณสามารถดู DAX ที่ดำเนินการโดยการวัดผลด่วน และเริ่มต้นหรือขยายความรู้ DAX ของคุณเอง

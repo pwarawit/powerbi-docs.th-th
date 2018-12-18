@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547257"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53181001"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>สำรวจรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI
 นำไปใช้กับ:
@@ -105,6 +105,16 @@ ms.locfileid: "46547257"
 เมื่อคุณดูที่รายละเอียด ปุ่มย้อนกลับจะนำคุณกลับไปยังรายงานหน้าก่อนหน้า
 
 อ่านเกี่ยวกับวิธีการ[เพิ่ม drill-through ใน Power BI Desktop](../../desktop-drillthrough.md)
+
+## <a name="show-data-and-copy-values"></a>แสดงข้อมูลและคัดลอกค่า
+
+โดยการเลือกเมนูตัวเลือกจุดไข่ปลา (**...** ) ในตำแหน่งมุมขวาบนของการแสดงภาพในรายงานโทรศัพท์ และจากนั้นเลือก**แสดงข้อมูล**คุณสามารถดูข้อมูลเบื้องต้นแบบการแสดงภาพได้
+
+![Power BI สำหรับอุปกรณ์มือถือแสดงตัวเลือกเมนูข้อมูล](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+
+แตะยาว ๆ บนเซลล์ในตารางจะปรากฏการเลือกดั้งเดิมและเมนูคัดลอกออกมา จากนั้นคุณจึงจะสามารถเลือกคัดลอกข้อมูลจากตาราง (หรือทั้งตาราง) ได้
+
+![การเข้าถึงรายละเอียดใน Power BI สำหรับอุปกรณ์เคลื่อนที่](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ดูและโต้ตอบกับรายงาน Power BI ที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ](mobile-apps-view-phone-report.md)

@@ -1,28 +1,30 @@
 ---
-title: วิธีการเพิ่มไฮเปอร์ลิงก์ลงในตาราง
-description: ไฮเปอร์ลิงก์ในตาราง
-author: maggiesMSFT
-manager: kfile
+title: เพิ่มไฮเปอร์ลิงก์ลงในตาราง
+description: ใช้ Power BI Desktop เพื่อสร้างไฮเปอร์ลิงก์ จากนั้น ใช้บริการ Desktop หรือ Power BI เพื่อเพิ่มไฮเปอร์ลิงก์เหล่านั้นไปยังรายงานตารางและเมทริกซ์ของคุณ
+author: mihart
+manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/22/2018
-ms.author: maggies
+ms.date: 12/06/2018
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9c1fc61d4a667b10728af8b7496e20803d024a83
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 92224e00da95714125a8e15c27432e8d305ae0f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187570"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180564"
 ---
-# <a name="hyperlinks-in-tables"></a>ไฮเปอร์ลิงก์ในตาราง
-หัวข้อนี้สอนวิธีการใช้ Power BI Desktop เพื่อสร้างไฮเปอร์ลิงก์ จากนั้น เมื่อสร้างเสร็จแล้ว ใช้บริการ Desktop หรือ Power BI เพื่อเพิ่มไฮเปอร์ลิงก์เหล่านั้นไปยังรายงานตารางและเมทริกซ์ของคุณ 
+# <a name="add-hyperlinks-to-a-table"></a>เพิ่มไฮเปอร์ลิงก์ลงในตาราง
+หัวข้อนี้สอนวิธีการใช้ Power BI Desktop เพื่อสร้างไฮเปอร์ลิงก์ จากนั้น ใช้บริการ Desktop หรือ Power BI เพื่อเพิ่มไฮเปอร์ลิงก์เหล่านั้นไปยังรายงานตารางและเมทริกซ์ของคุณ 
 
-![](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
+![ตารางที่มีไฮเปอร์ลิงก์](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
-> **หมายเหตุ**: ไฮเปอร์ลิงก์ใน[ไทล์บนแดชบอร์ด](service-dashboard-edit-tile.md)และ[กล่องข้อความบนแดชบอร์ด](service-dashboard-add-widget.md)สามารถสร้างขึ้นทันทีโดยใช้บริการ Power BI ได้ ไฮเปอร์ลิงก์ใน[กล่องข้อความในรายงาน](service-add-hyperlink-to-text-box.md)สามารถสร้างขึ้นในทันทีโดยใช้บริการ Power BI และ Power BI Desktop ได้
+> [!NOTE]
+> ไฮเปอร์ลิงก์ใน [ไทล์บนแดชบอร์ด](service-dashboard-edit-tile.md) และ [กล่องข้อความบนแดชบอร์ด](service-dashboard-add-widget.md) สามารถสร้างขึ้นในทันทีโดยใช้บริการ Power BI ไฮเปอร์ลิงก์ใน[กล่องข้อความในรายงาน](service-add-hyperlink-to-text-box.md)สามารถสร้างขึ้นในทันทีโดยใช้บริการ Power BI และ Power BI Desktop ได้
 > 
 > 
 
@@ -36,17 +38,20 @@ ms.locfileid: "47187570"
 1. ถ้าไฮเปอร์ลิงก์ดังกล่าวไม่ได้มีอยู่เป็นเขตข้อมูลในชุดข้อมูลของคุณ ใช้เดสก์ท็อปเพื่อเพิ่มเป็นแบบ[คอลัมน์แบบกำหนดเอง](desktop-common-query-tasks.md)
 2. ในมุมมองข้อมูล เลือกคอลัมน์ และที่แถบ**การสร้างแบบจำลอง** เลือกรายการแบบเลื่อนลงสำหรับ**ประเภทข้อมูล**
    
-    ![](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
+    ![รายการประเภทข้อมูลแบบดรอปดาวน์](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
 3. เลือก**URL เว็บ**
 4. สลับไปยังมุมมองรายงานและสร้างตารางหรือเมทริกซ์โดยใช้เขตข้อมูลที่มีการจัดประเภทเป็น URL เว็บ ไฮเปอร์ลิงก์จะเป็นสีน้ำเงินและขีดเส้นใต้
-    ![](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
-> **หมายเหตุ**: URL ต้องเริ่มต้นด้วย**http://, https://** หรือ**www**
-> 
->   
-5. ถ้าคุณไม่ต้องการแสดง URL ยาวในตาราง คุณสามารถแสดงเป็นไอคอนการเชื่อมโยงหลายมิติ![](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png)แทนได้ โปรดทราบว่า คุณไม่สามารถแสดงไอคอนในเมทริกซ์ได้
+
+    ![ลิงก์สีน้ำเงินและขีดเส้นใต้](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
+
+    > [!NOTE]
+    > URL ต้องเริ่มต้นด้วย**http://, https://** หรือ**www**
+    >
+   
+1. ถ้าคุณไม่ต้องการแสดง URL ยาวในตาราง คุณสามารถแสดงเป็นไฮเปอร์ลิงก์แทนได้  ![ไฮเปอร์ลิงก์ไอคอน](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) แทน โปรดทราบว่า คุณไม่สามารถแสดงไอคอนในเมทริกซ์ได้
    
    * เลือกแผนภูมิเพื่อเปิดใช้งาน
-   * เลือกไอคอนแปรงลูกกลิ้ง ![](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) เพื่อเปิดแถบจัดรูปร่าง
+   * เลือกไอคอนลูกกลิ้งระบายสี ![ไอคอนลูกกลิ้งระบายสี](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) เพื่อเปิดแท็บพื้นที่การจัดรูปแบบ
    * ขยาย**ค่า** ค้นหา**ไอคอน URL**และเปิดใช้งานเป็น**เปิด**
 6. (เป็นทางเลือก) [เผยแพร่รายงานจากเดสก์ท็อปไปยังบริการ Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2)และเปิดรายงานในบริการ Power BI ไฮเปอร์ลิงก์จะทำงานตรงนั้นได้เช่นกัน
 
@@ -64,26 +69,27 @@ ms.locfileid: "47187570"
 1. เปิดสมุดงานใน Excel
 2. เลือกแถบ **PowerPivot** และจากนั้น เลือก**จัดการ**
    
-   ![](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot2.png)
-3. เมื่อ PowerPivot เปิดขึ้น เลือกแถบ**ขั้นสูง**
+   ![เปิด PowerPivot ใน Excel](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot2.png)
+1. เมื่อ PowerPivot เปิดขึ้น เลือกแถบ**ขั้นสูง**
    
-   ![](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot3.png)
+   ![แท็บ PowerPivot ขั้นสูง](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot3.png)
 4. วางเคอร์เซอร์ในคอลัมน์ที่ประกอบด้วย URL ที่คุณต้องการเปลี่ยนเป็นไฮเปอร์ลิงก์ในตาราง Power BI
    
-   > **หมายเหตุ**: URL ต้องเริ่มต้นด้วย**http://, https://** หรือ**www**
-   > 
+   > [!NOTE]
+   > URL ต้องเริ่มต้นด้วย**http://, https://** หรือ**www**
    > 
 5. ในกลุ่ม**รายงานคุณสมบัติ** เลือก**ประเภทข้อมูล**แบบเลื่อนลง แล้วเลือก**URL เว็บ** 
    
-   ![](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
+   ![ดรอปดาวน์ประเภทข้อมูลใน Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
+
 6. จากบริการ Power BI หรือ Power BI Desktop เชื่อมต่อไปยัง หรือนำเข้าสมุดงานนี้
 7. สร้างการแสดงภาพตารางที่มีเขตข้อมูล URL
    
-   ![](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
+   ![สร้างตารางใน Power BI ด้วย URL เขตข้อมูล](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
 คำถาม: ฉันสามารถใช้ URL ที่กำหนดเองเป็นไฮเปอร์ลิงก์ในตารางหรือเมทริกซ์ได้หรือไม่?    
-คำตอบ: ไม่ได้ คุณสามารถใช้ไอคอนลิงก์หนึ่งได้ ถ้าคุณต้องการข้อความแบบกำหนดเองสำหรับไฮเปอร์ลิงก์ของคุณ และรายการของ URL เป็นรายการที่สั้น ให้พิจารณาการใช้กล่องข้อความแทน
+คำตอบ: หมายเลข คุณสามารถใช้ไอคอนลิงก์หนึ่งได้ ถ้าคุณต้องการข้อความแบบกำหนดเองสำหรับไฮเปอร์ลิงก์ของคุณ และรายการของ URL เป็นรายการที่สั้น ให้พิจารณาการใช้กล่องข้อความแทน
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

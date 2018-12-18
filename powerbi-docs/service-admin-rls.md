@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.author: mblythe
 ms.date: 01/02/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 466e91786dcb75f09db808306ba7d9d9f486718b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578439"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025140"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Row-level security (RLS) กับ Power BI
 
@@ -41,7 +42,7 @@ Row-level security (RLS) ด้วย Power BI สามารถใช้เพ
 1. เลือก**จุดไข่ปลา (...)** สำหรับชุดข้อมูล
 2. เลือก**ความปลอดภัย**
    
-   ![](media/service-admin-rls/rls-security.png)
+   ![ใช้ตัวกรองการรักษาความปลอดภัยในทั้งสองทิศทาง](media/service-admin-rls/rls-security.png)
 
 ซึ่งจะนำคุณไปยังหน้า RLS เพื่อให้คุณเพิ่มสมาชิกให้กับบทบาทที่คุณสร้างไว้ใน Power BI Desktop เฉพาะเจ้าของชุดข้อมูลเท่านั้นที่จะเห็นความปลอดภัยที่มีอยู่ ถ้าชุดข้อมูลอยู่ใน ‘กลุ่ม’ จะมีเพียง ‘ผู้ดูแล’ ของกลุ่มเท่านั้นที่จะเห็นตัวเลือกความปลอดภัย 
 
@@ -53,17 +54,17 @@ Row-level security (RLS) ด้วย Power BI สามารถใช้เพ
 
 คุณสามารถเพิ่มสมาชิกให้กับบทบาทโดยการพิมพ์ลงในที่อยู่อีเมล์หรือชื่อของผู้ใช้ หรือพิมพ์ลงในกลุ่มความปลอดภัยหรือรายการแจกจ่ายที่คุณต้องการเพิ่มได้ สมาชิกรายนี้จะต้องอยู่ภายในองค์กรของคุณ คุณไม่สามารถเพิ่ม ’กลุ่ม’ ที่สร้างขึ้นภายใน Power BI
 
-![](media/service-admin-rls/rls-add-member.png)
+![เพิ่มสมาชิก](media/service-admin-rls/rls-add-member.png)
 
 คุณยังสามารถดูจำนวนสมาชิกที่เป็นส่วนหนึ่งของบทบาทจากเป็นตัวเลขในวงเล็บที่อยู่ถัดจากชื่อบทบาท หรือถัดจาก ‘สมาชิก’
 
-![](media/service-admin-rls/rls-member-count.png)
+![สมาชิกในบทบาท](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>ลบสมาชิก
 
 คุณสามารถลบสมาชิกได้โดยการเลือก X ที่อยู่ถัดจากชื่อของพวกเขา 
 
-![](media/service-admin-rls/rls-remove-member.png)
+![ลบสมาชิกออก](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>การตรวจสอบบทบาทภายใน บริการ Power BI
 
@@ -72,15 +73,15 @@ Row-level security (RLS) ด้วย Power BI สามารถใช้เพ
 1. เลือก**จุดไข่ปลา (...)** ถัดจากบทบาท
 2. เลือก**ทดสอบข้อมูลแบบเป็นบทบาท**
 
-![](media/service-admin-rls/rls-test-role.png)
+![ทดสอบในฐานะบทบาท](media/service-admin-rls/rls-test-role.png)
 
 จากนั้นคุณจะเห็นรายงานที่พร้อมใช้งานสำหรับบทบาทนี้ แดชบอร์ดจะไม่แสดงในมุมมองนี้ ในแถบสีน้ำเงินด้านบน คุณจะเห็นสิ่งที่จะถูกนำไปใช้
 
-![](media/service-admin-rls/rls-test-role2.png)
+![ตอนนี้กำลังดูในฐานะเป็น <role>](media/service-admin-rls/rls-test-role2.png)
 
 คุณสามารถทดสอบบทบาทหรือการรวมบทบาทอื่นๆได้โดยการเลือก**ดูเป็น**เดี๋ยวนี้
 
-![](media/service-admin-rls/rls-test-role3.png)
+![ทดสอบบทบาทอื่น](media/service-admin-rls/rls-test-role3.png)
 
 คุณสามารถเลือกเพื่อดูข้อมูลเป็นรายบุคคลหรือคุณสามารถเลือกการรวมบทบาทที่พร้อมใช้งานเพื่อตรวจสอบว่ากำลังทำงานอยู่หรือไม่ 
 
@@ -95,7 +96,7 @@ Row-level security (RLS) ด้วย Power BI สามารถใช้เพ
 > [!WARNING]
 > ถ้าคุณกำหนดค่าพื้นที่ทำงานแอปเพื่อให้สมาชิกมีสิทธิ์ในการแก้ไข จะไม่สามารถใช้บทบาท RLS กับพื้นที่ทำงานแอปนั้นได้ ผู้ใช้จะสามารถดูข้อมูลทั้งหมด
 
-![](media/service-admin-rls/rls-group-settings.png)
+![การตั้งค่ากลุ่ม](media/service-admin-rls/rls-group-settings.png)
 
 [!INCLUDE [include-short-name](./includes/rls-limitations.md)]
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7e39d0ee048f51066783b1cc9c98333e0352dcf
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 9e7f43780048a222b9d024b39d983968f45c59f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268943"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180587"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>การสร้างและการใช้กระแสข้อมูลใน Power BI (ตัวอย่าง)
 
@@ -143,6 +143,10 @@ ms.locfileid: "51268943"
 
 เมื่อคุณเลือกเอนทิตีแล้วเลือกที่ปุ่ม **โหลด** จะมีเอนทิตีกรากฏในแผง**เขตข้อมูล** ใน **Power BI Desktop** และจะปรากฏในลักษณะเดียวกันกับ**ตาราง**จากชุดข้อมูลอื่นๆ
 
+## <a name="using-dataflows-stored-in-azure-data-lake-storage-gen2"></a>การใช้กระแสข้อมูลที่ถูกจัดเก็บไว้ใน Azure Data Lake Storage Gen2
+
+บางองค์กรอาจต้องการใช้ที่เก็บข้อมูลเป็นของตัวเองในการสร้างหรือจัดการกับกระแสข้อมูล คุณสามารถรวมกระแสข้อมูลเข้ากันกับ Azure Data Lake Storage Gen2 ถ้าคุณทำตามข้อกำหนดและจัดการสิทธิ์อย่างเหมาะสม เอกสารประกอบเกี่ยวกับข้อกำหนดทั้งหมดนี้สามารถดูได้ตั้งแต่ต้นที่ ภาพรวมของเอกสาร[การรวมกระแสข้อมูลและ Azure Data Lake (ตัวอย่าง)](service-dataflows-azure-data-lake-integration.md)
+
 
 ## <a name="troubleshooting-data-connections"></a>การแก้ปัญหาการเชื่อมต่อข้อมูล
 
@@ -160,6 +164,7 @@ ms.locfileid: "51268943"
 * [การใช้เอนทิตีที่คำนวณใน Power BI Premium (ตัวอย่าง)](service-dataflows-computed-entities-premium.md)
 * [การใช้กระแสข้อมูลพร้อมแหล่งข้อมูลในองค์กร (ตัวอย่าง)](service-dataflows-on-premises-gateways.md)
 * [แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI (ตัวอย่าง)](service-dataflows-developer-resources.md)
+* [ การรวมกระแสข้อมูลและ Azure Data Lake (ตัวอย่าง)](service-dataflows-azure-data-lake-integration.md)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Common Data Model สามารถดูได้ในบทความภาพรวม:
 * [Common Data Model - ภาพรวม](https://docs.microsoft.com/powerapps/common-data-model/overview)

@@ -1,21 +1,22 @@
 ---
-title: รีเฟรชชุดข้อมูลที่สร้างจาก แฟ้มค่าที่คั่นด้วยเครื่องหมายจุลภาค (.csv) บน OneDrive
+title: รีเฟรชชุดข้อมูลที่สร้างขึ้นจากการไฟล์ .csv บน OneDrive
 description: รีเฟรชชุดข้อมูลที่สร้างจาก แฟ้มค่าที่คั่นด้วยเครื่องหมายจุลภาค (.csv) บน OneDrive
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 6e6ce7a80e810ac8c05f6a4ab70c2d19f2201262
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: c06d9c56051ccb02d17d695561bc6caa462e99c3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670398"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025545"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>รีเฟรชชุดข้อมูลที่สร้างขึ้นจากการไฟล์ .CSV บน OneDrive หรือ SharePoint Online
 ## <a name="what-are-the-advantages"></a>มีข้อดีอะไรบ้าง?

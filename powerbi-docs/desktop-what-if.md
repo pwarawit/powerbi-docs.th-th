@@ -1,21 +1,22 @@
 ---
-title: ใช้พารามิเตอร์ What if (เกิดอะไรขึ้นถ้า) เพื่อแสดงภาพตัวแปรใน Power BI Desktop
+title: ใช้พารามิเตอร์ What if (เกิดอะไรขึ้นถ้า) เพื่อแสดงภาพตัวแปร
 description: สร้างตัวแปร What if ของคุณเองเพื่อสร้างภาพและแสดงตัวแปรใน Power BI
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/10/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 926ef4aedf7c56af6f79cbbf1c7810cb3aee670b
-ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
+ms.openlocfilehash: 6a69a6f852f6a37649b152a3c0ba0e469b555b37
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/11/2018
-ms.locfileid: "40256986"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025200"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>สร้างและใช้พารามิเตอร์ What if (ถ้า) เพื่อแสดงภาพตัวแปรใน Power BI Desktop
 เริ่มต้นด้วย **Power BI Desktop** รุ่นเผยแพร่เดือนสิงหาคม 2018 คุณสามารถสร้างตัวแปร**เกิดอะไรขึ้นถ้า**สำหรับรายงานของคุณ โต้ตอบกับตัวแปรในฐานะเป็นตัวแบ่งส่วนข้อมูล และแสดงภาพ และกำหนดปริมาณค่าที่สำคัญต่าง ๆ ในรายงานของคุณ

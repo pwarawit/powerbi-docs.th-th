@@ -8,15 +8,15 @@ featuredvideoid: xmja6EpqaO0
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 09/24/2018
+ms.date: 11/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0492390ae47c8d5aa0930a063370712c80d61de2
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c726ba8d50f077a640879f666fd441e27b19d3c7
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829653"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979363"
 ---
 # <a name="kpi-visuals"></a>วิชวล KPI
 ดัชนีประสิทธิภาพหลัก (KPI) เป็นภาพสัญลักษณ์ที่แสดงปริมาณความก้าวหน้าของงานที่ทำเพื่อมุ่งไปยังเป้าหมายที่วัดผลได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ KPI ดู [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050)
@@ -49,7 +49,7 @@ KPI เป็นตัวเลือกที่ดีที่สุด:
 1. เปิดรายงานในมุมมองรายงาน และเลือกแท็บสีเหลืองเพื่อเพิ่มหน้าใหม่    
 2. จากบานหน้าต่างเขตข้อมูล ให้เลือก**ยอดขาย > หน่วยรวมปีนี้**  ซึ่งจะเป็นตัวดัชนี
 3. เพิ่ม**เวลา > เดือนการเงิน**  เพื่อแสดงแนวโน้ม
-4. สิ่งสำคัญ: เรียงลำดับแผนภูมิตาม**เดือนงบประมาณ** เมื่อคุณแปลงการแสดงภาพเป็น KPI จึงไม่มีตัวเลือกการเรียงลำดับ
+4. หมายเหตุสำคัญ เรียงลำดับแผนภูมิตาม**เดือนงบประมาณ** เมื่อคุณแปลงการแสดงภาพเป็น KPI จึงไม่มีตัวเลือกการเรียงลำดับ
 
     ![](media/power-bi-visualization-kpi/power-bi-chart.png)
 5. แปลงภาพเป็น KPI โดยเลือกไอคอน KPI จากบานหน้าต่างการแสดงภาพ

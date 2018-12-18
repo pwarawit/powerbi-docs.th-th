@@ -1,30 +1,31 @@
 ---
-title: ข้อมูลเชิงลึกข้อมูล ด้วย Power BI ที่สร้างโดยอัตโนมัติ
+title: สร้างข้อมูลเชิงลึกโดยอัตโนมัติด้วย Power BI
 description: เรียนรู้วิธีการรับข้อมูลเชิงลึกเกี่ยวกับไทล์ของชุดข้อมูลและแดชบอร์ดของคุณ
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/25/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b58b0b88ed0417f88784824a67ab294dda7343e
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 386f4fb24488df3856f8e731fcd6c95043c86d74
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850441"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180932"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>ข้อมูลเชิงลึกข้อมูล ด้วย Power BI ที่สร้างโดยอัตโนมัติ
+# <a name="generate-data-insights-automatically-with-power-bi"></a>สร้างข้อมูลเชิงลึกโดยอัตโนมัติด้วย Power BI
 มีชุดข้อมูลใหม่ และไม่แน่ใจตำแหน่งที่จะเริ่มได้อย่างไร  จำเป็นต้องสร้างแดชบอร์ดอย่างรวดเร็วใช่ไหม  ต้องการค้นหาข้อมูลเชิงลึกที่คุณอาจพลาดไปใช่หรือไม่
 
 เรียกใช้ข้อมูลเชิงลึกด่วนเพื่อสร้างการแสดงภาพแบบโต้ตอบที่น่าสนใจที่ยึดตามข้อมูลของคุณ สามารถถูกเรียกใช้ข้อมูลเชิงลึกด่วนเป็นชุดข้อมูลทั้งหมด (ข้อมูลเชิงลึกด่วน) หรือ บนไทล์แดชบอร์ดที่เฉพาะเจาะจง (ขอบเขตข้อมูลเชิงลึก) แม้ว่าคุณสามารถเรียกใช้ข้อมูลเชิงลึกบนข้อมูลเชิงลึก
 
 > [!NOTE]
-> ข้อมูลเชิงลึกใช้ไม่ได้กับ DirectQuery - ใช้ได้กับข้อมุลที่อัปโหลดไปยัง Power BI
+> ข้อมูลเชิงลึกไม่สามารถใช้งานได้กับ DirectQuery ข้อมูลเชิงลึกสามารถใช้งานได้กับข้อมูลที่อัปโหลดไปยัง Power BI เท่านั้น
 > 
 
 ฟีเจอร์ข้อมูลเชิงลึกมีอยู่แล้วภายในการเติบโต[ชุดของอัลกอริทึมวิเคราะห์ขั้นสูง](service-insight-types.md)พัฒนาขึ้นร่วมกับ Microsoft ค้นคว้าที่เราจะยังคงใช้การอนุญาตให้บุคคลเพิ่มเติมเมื่อต้องการค้นหาข้อมูลเชิงลึกในข้อมูลของพวกเขาในด้วยวิธีใหม่ ๆ

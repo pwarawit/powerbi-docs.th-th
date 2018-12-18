@@ -1,44 +1,42 @@
 ---
-title: Power BI Free เปรียบเทียบกับ Pro
-description: ผู้ใช้ทุกคนภายใน Power BI จะใช้งานแบบ Free หรือไม่ก็ Pro จะเป็นประโยชน์มากในการทำความเข้าใจความแตกต่างระหว่างผู้ใช้สองประเภทเหล่านี้...
+title: ฟีเจอร์การบริการ Power BI ตามประเภทของใบอนุญาต
+description: 'ในบริการ Power BI ผู้ใช้มีการกำหนดความสามารถตามใบอนุญาตสองประเภท: แบบต่อผู้ใช้ (free และ Pro) และตามขนาดความจุ'
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/13/2018
+ms.date: 12/06/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 62d6a274b7cfb784f4f61b0973bad22ea6194698
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: fab6181997fd57448a152fe315efcadf076e4fbb
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641309"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025888"
 ---
-# <a name="power-bi-free-vs-pro"></a>Power BI Free เปรียบเทียบกับ Pro
+# <a name="power-bi-service-features-by-license-type"></a>ฟีเจอร์การบริการ Power BI ตามประเภทของใบอนุญาต
 
-ผู้ใช้ทุกคนภายใน Power BI จะใช้งานแบบ Free หรือไม่ก็ Pro จะเป็นประโยชน์มากในการทำความเข้าใจความแตกต่างระหว่างผู้ใช้สองประเภทเหล่านี้...
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
-*ผู้ใช้ทั้งหมด* ในบริการนี้จะใช้งานแบบ Free หรือไม่ก็ Pro ความแตกต่างหลักระหว่างผู้ใช้แบบ Free หรือ Pro จะอยู่ที่การแชร์และการทำงานร่วมกัน เฉพาะผู้ใช้แบบ Pro เท่านั้นที่สามารถเผยแพร่เนื้อหาไปยังพื้นที่ทำงานบนแอป ใช้แอปโดยไม่ต้องมีความสามารถแบบพรีเมียม แชร์แดชบอร์ด และสมัครใช้งานแดชบอร์ดและรายงานได้ ในตอนนี้ ผู้ใช้แบบ Free สามารถเชื่อมต่อกับแหล่งข้อมูลทั้งหมดได้ผ่านตัวเลือกการเชื่อมต่อทั้งหมด เช่น DirectQuery การเชื่อมต่อสด และการใช้เกตเวย์ข้อมูล
+## <a name="per-user-license-type-comparison"></a>เปรียบเทียบชนิดสิทธิ์การใช้งานต่อผู้ใช้
 
-ถ้ามีการเผยแพร่แอป และพื้นที่ทำงานบนแอปมีไว้เพื่อกำหนดให้มีความสามารถแบบพรีเมียม ผู้ใช้แบบ Free ก็สามารถใช้แอปเหล่านั้นได้
-
-## <a name="free-vs-pro-comparison"></a>การเปรียบเทียบ Free กับ Pro
-ต่อไปนี้เป็นรายการคุณลักษณะที่ได้รับการสนับสนุนตามประเภทผู้ใช้
+ต่อไปนี้เป็นรายการฟีเจอร์ที่ได้รับการสนับสนุนประเภทต่อสิทธิการใช้งานของผู้ใช้
 
 |  | Free | Pro |
 | --- | --- | --- |
 | **เชื่อมต่อกับแหล่งข้อมูลจำนวน 70 +** |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
 | **เผยแพร่บนเว็บ** |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
-| **การใช้งานร่วมกันแบบเพียร์ทูเพียร์** |![คุณลักษณะที่ไม่พร้อมใช้งาน](media/features-license-type/not-available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
 | **ส่งออกไปยัง PowerPoint, Excel, CSV** |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
 | **การแจกจ่ายในองค์กร** | | |
 | แอป |![คุณลักษณะที่ไม่พร้อมใช้งาน](media/features-license-type/not-available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
 | การสมัครใช้งานอีเมล |![คุณลักษณะที่ไม่พร้อมใช้งาน](media/features-license-type/not-available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
 | API และส่วนควบคุมแบบฝัง |![คุณลักษณะที่ไม่พร้อมใช้งาน](media/features-license-type/not-available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
 | **การทำงานร่วมกัน** | | |
+| การใช้งานร่วมกันแบบเพียร์ทูเพียร์ |![คุณลักษณะที่ไม่พร้อมใช้งาน](media/features-license-type/not-available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
 | พื้นที่ทำงานบนแอป |![คุณลักษณะที่ไม่พร้อมใช้งาน](media/features-license-type/not-available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
 | วิเคราะห์ใน Excel วิเคราะห์ใน Power BI Desktop |![คุณลักษณะที่ไม่พร้อมใช้งาน](media/features-license-type/not-available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
 

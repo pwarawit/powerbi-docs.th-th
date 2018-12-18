@@ -1,21 +1,22 @@
 ---
-title: ใช้ R ในตัวแก้ไขคิวรีของ Power BI
+title: ใช้ R ในตัวแก้ไขคิวรี
 description: ใช้ R ในตัวแก้ไขคิวรีของ Power BI Desktop สำหรับการวิเคราะห์ขั้นสูง
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9183a0fbb163fb4e46e6b310bcce953aaef9d1b8
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 10431709fd77089fb98524b7060711ce6acc76fd
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670635"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026144"
 ---
 # <a name="using-r-in-query-editor"></a>ใช้ R ในตัวแก้ไขคิวรี
 คุณสามารถใช้ **R** ซึ่งเป็นภาษาการเขียนโปรแกรมที่นักสถิติ นักวิทยาศาสตร์ข้อมูล และนักวิเคราะห์ข้อมูลใช้กันอย่างกว้างขวาง ใน**ตัวแก้ไขคิวรีของ** Power BI Desktop การรวม R ใน**ตัวแก้ไขคิวรี**ช่วยให้คุณดำเนินการทำความสะอาดข้อมูล และดำเนินการวิเคราะห์และการจัดรูปทรงข้อมูลขั้นสูงในชุดข้อมูล รวมทั้งการเติมเต็มข้อมูลที่คาดหาย การคาดการณ์ และการทำคลัสเตอร์ และอื่นๆ **R** เป็นภาษาที่มีประสิทธิภาพ และสามารถใช้ได้ใน**ตัวแก้ไขคิวรี**เพื่อเตรียมแบบจำลองข้อมูลของคุณ และสร้างรายงาน

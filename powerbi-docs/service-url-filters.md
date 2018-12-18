@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 12/06/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 778be27e38c287de1adf7011c9e4b78048b2a4fa
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850602"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180817"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>กรองรายงานโดยใช้พารามิเตอร์สตริงของแบบสอบถามใน URL
 
@@ -145,7 +145,7 @@ Table_x0020_Name/Column_x002B_Plus eq 3![ ภาพตารางแสดง�
 
 Table_x0020_Special /_x005B_Column_x0020_Brackets_x005D_ eq '[C]'![ ตารางแสดงอักขระพิเศษ](media/service-url-filters/power-bi-special-characters2.png)
 
-### <a name="use-dax-to-filter-on-multiple-values"></a>ใช้ DAX เพื่อกรองค่าหลายค่า
+## <a name="use-dax-to-filter-on-multiple-values"></a>ใช้ DAX เพื่อกรองค่าหลายค่า
 
 อีกวิธีหนึ่งเพื่อกรองหลายเขตข้อมูลคือ การสร้างคอลัมน์จากการคำนวณที่รวมเขตข้อมูลสองเขตเป็นค่าเดียว จากนั้น คุณก็สามารถกรองค่านั้นได้
 
@@ -155,7 +155,7 @@ TerritoryChain = [Territory] & "-" & [Chain]
 
 เผยแพร่รายงานไปยังบริการ Power BI จากนั้นใช้สตริงแบบสอบถาม URL ในการกรองเพื่อแสดงข้อมูลสำหรับร้านค้า Lindseys ใน NC เท่านั้น
 
-    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC–Lindseys'
+    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>ปักหมุดไทล์จากรายงานที่กรองแล้ว
 

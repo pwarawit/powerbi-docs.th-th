@@ -9,15 +9,16 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268377"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026718"
 ---
-# <a name="power-bi-admin-portal"></a>พอร์ทัลผู้ดูแลระบบของ power BI
+# <a name="administering-power-bi-in-the-admin-portal"></a>ดูแล Power BI ในพอร์ทัลผู้ดูแลระบบ
 
 พอร์ทัลผู้ดูแลสามารถช่วยให้คุณจัดการ Power BI ของ*ผู้เช่า*สำหรับองค์กรของคุณ พอร์ทัลประกอบด้วยหน่วยข้อมูลต่างๆ เช่น เมตริกการใช้งาน การเข้าถึงศูนย์ผู้ดูแลระบบของ Office 365 และการตั้งค่า
 
@@ -201,13 +202,13 @@ ms.locfileid: "52268377"
 
 ![เผยแพร่ชุดเนื้อหาไปยังองค์กร](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-organizational-content-packs-and-apps"></a>สร้างชุดเนื้อหาและแอปเชิงองค์กรเทมเพลต
+### <a name="create-template-organizational-content-packs-and-apps"></a>สร้างชุดเนื้อหาและแอปสำหรับองค์กรเชิงเทมเพลต
 
 ผู้ใช้ในองค์กรสามารถสร้างชุดเนื้อหาเทมเพลตที่ใช้ชุดข้อมูลที่สร้างขึ้นใน Power BI Desktop ได้ [เรียนรู้เพิ่มเติม](template-content-pack-authoring.md)
 
 ### <a name="push-apps-to-end-users"></a>ส่งแอปให้กับผู้ใช้ปลายทาง
 
-ผู้ใช้สามารถแชร์แอปผู้ใช้โดยตรงได้โดยไม่จำเป็นต้องติดตั้งจาก AppSource [เรียนรู้เพิ่มเติม](service-create-distribute-apps.md)
+ผู้ใช้สามารถแชร์แอปกับผู้ใช้ปลายทางโดยตรงได้โดยไม่จำเป็นต้องติดตั้งจาก AppSource [เรียนรู้เพิ่มเติม](service-create-distribute-apps.md)
 
 ## <a name="integration-settings"></a>การตั้งค่าการรวม
 
@@ -328,7 +329,7 @@ ms.locfileid: "52268377"
 
 ![ฝังโค้ดภายในพอร์ทัลผู้ดูแลระบบ Power BI](media/service-admin-portal/embed-codes.png)
 
-## <a name="organization-visuals"></a>วิชวลองค์กร
+## <a name="organization-visuals"></a>รูปภาพขององค์กร
 
 แท็บ **วิชวลองค์กร** ช่วยให้คุณสามารถปรับใช้ และจัดการวิชวลแบบกำหนดเองภายในองค์กรของคุณ ด้วยวิชวลด้านองค์กร คุณสามารถปรับใช้วิชวลที่เป็นกรรมสิทธิ์ในองค์กรของคุณ ซึ่งผู้เขียนรายงานสามารถค้นพบ และนำเข้าลงในรายงานของพวกเขาจาก Power BI Desktop [เรียนรู้เพิ่มเติม](power-bi-custom-visuals-organization.md)
 
@@ -355,7 +356,7 @@ ms.locfileid: "52268377"
 
     * **ตั้งชื่อให้วิชวลแบบกำหนดเองของคุณ** (จำเป็น): ตั้งชื่อเรื่องสั้น ๆ เพื่อช่วยให้ผู้ใช้ Power BI Desktop สามารถทำความเข้าใจได้ง่าย ๆ
 
-    * **ไอคอน** (จำเป็น): ไฟล์ไอคอนที่แสดงใน UI ของ Power BI Desktop
+    * **ไอคอน**: ไฟล์ไอคอนที่แสดงใน UI ของ Power BI Desktop
 
     * **คำอธิบาย**: คำอธิบายสั้น ๆ ของวิชวลเพื่อให้บริบทและการศึกษาแก่ผู้ใช้เพิ่มเติม
 

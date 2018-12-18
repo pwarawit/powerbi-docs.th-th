@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 12/07/2018
 ms.author: maggies
-ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: a4914bf0fb6945bc5ee45bdf6559ca75bbd7c2b5
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565923"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180955"
 ---
 # <a name="install-power-bi-report-server"></a>ติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 
@@ -25,7 +25,11 @@ ms.locfileid: "46565923"
 เมื่อต้องการดาวน์โหลดเซิร์ฟเวอร์รายงาน Power BI ไปที่[การรายงานภายในองค์กรกับเซิร์ฟเวอร์ Power BI](https://powerbi.microsoft.com/report-server/)และเลือก**ดาวน์โหลดเวอร์ชันทดลองใช้ฟรี** 
 
 ## <a name="before-you-begin"></a>ก่อนที่คุณเริ่มต้น
-ก่อนที่คุณจะติดตั้งเซิร์ฟเวอร์รายงาน Power BI เราขอแนะนำให้คุณตรวจสอบ[ข้อกำหนดของฮาร์ดแวร์และซอฟต์แวร์สำหรับการติดตั้งเซิร์ฟเวอร์รายงาน Power BI](system-requirements.md)
+ก่อนที่คุณจะติดตั้ง Power BI Report Server เราขอแนะนำให้คุณตรวจสอบ [ข้อกำหนดของฮาร์ดแวร์และซอฟต์แวร์สำหรับการติดตั้ง Power BI Report Server](system-requirements.md)
+
+ > [!IMPORTANT]
+ > ในขณะที่คุณสามารถติดตั้งเซิร์ฟเวอร์รายงาน Power BI ในสภาพแวดล้อมที่มีตัวควบคุมโดเมนแบบอ่านอย่างเดียว (RODC), Power BI Report Server จำเป็นต้องเข้าถึงตัวควบคุมโดเมนแบบอ่าน-เขียนเพื่อให้ทำงานได้อย่างถูกต้อง ถ้า Power BI Report Server สามารถเข้าถึง RODC ได้เท่านั้นคุณอาจพบข้อผิดพลาดเมื่อพยายามจัดการบริการ
+
 
 ### <a name="power-bi-report-server-product-key"></a>คีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI
 

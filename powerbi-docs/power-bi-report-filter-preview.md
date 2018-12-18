@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/12/2018
+ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d2d8bef9689fd2e9db99c0a521a5ee326845b1de
-ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
+ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51611371"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026258"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>ใช้งานตัวกรองใหม่ในรายงาน Power BI (ตัวอย่าง)
 
-บทความนี้กล่าวถึงการใช้งานตัวกรองใหม่: ตัวกรองใน Power BI ได้รับการออกแบบใหม่และฟังก์ชันการทำงานใหม่ เมื่อคุณออกแบบรายงาน ใน Power BI Desktop หรือ ในบริการ Power BI คุณสามารถทำให้บานหน้าต่างตัวกรองมีลักษณะ และดำเนินการกับรายงานทั้งหมด ในการใช้งานใหม่ บานหน้าต่างตัวกรองเก่าทำหน้าที่เป็นบานหน้าต่างตัวกรองสำหรับแก้ไข และบานหน้าต่างตัวกรองใหม่ เป็นเพียงสิ่งที่ลูกค้ารายงานของคุณดู 
+บทความนี้กล่าวถึงว่าประสบการณ์การใช้งานตัวกรองใหม่: ตัวกรองใน Power BI ได้รับการออกแบบใหม่และมีฟังก์ชันการทำงานใหม่ เมื่อคุณออกแบบรายงาน ใน Power BI Desktop หรือ ในบริการ Power BI คุณสามารถทำให้บานหน้าต่างตัวกรองมีลักษณะ และดำเนินการกับรายงานทั้งหมด ในการใช้งานใหม่ บานหน้าต่างตัวกรองเก่าทำหน้าที่เป็นบานหน้าต่างตัวกรองสำหรับแก้ไข และบานหน้าต่างตัวกรองใหม่ เป็นเพียงสิ่งที่ลูกค้ารายงานของคุณดู 
  
 ![มุมมองเริ่มต้น (ไม่มีการนำไปใช้เพิ่มเติมโดยกำหนดเอง)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
 
@@ -98,7 +98,7 @@ ms.locfileid: "51611371"
 
     ![เลือกไอคอนรูปแบบ](media/power-bi-report-filter-preview/power-bi-filter-format.png)    
 
-1. ขยาย**บานหน้าต่างตัวกรอง**การตั้งค่าสีสำหรับพื้นหลัง ฟอนต์ ไอคอน และเส้น ขอบด้านซ้าย เพื่อเสริมหน้ารายงาน
+1. ขยาย**บานหน้าต่างตัวกรอง**การตั้งค่าสีสำหรับพื้นหลัง ไอคอน และเส้น ขอบด้านซ้าย เพื่อเสริมหน้ารายงาน
 
     ![ขยายบานหน้าต่างตัวกรอง](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
 

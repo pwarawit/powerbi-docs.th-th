@@ -1,23 +1,25 @@
 ---
-title: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ ในส่วนของบริการคลาวด์ภาครัฐและสาธารณะ
-description: เรียนรู้วิธีการรวม หรือฝัง แดชบอร์ด ไทล์ หรือรายงาน ลงในเว็บแอปด้วย Power BI API สำหรับลูกค้าของคุณ
+title: การวิเคราะห์ที่ฝังตัวที่ใช้ในการฝังเนื้อหา Power BI ลงในแอปพลิเคชันของคุณสำหรับส่วนของบริการคลาวด์ภาครัฐและสาธารณะ
+description: เรียนรู้วิธีรวมหรือฝังรายงาน, แดชบอร์ด หรือไทล์ เข้าไปในแอปพลิเคชั่นโดยการใช้ Power BI APIs สำหรับการวิเคราะห์ที่ฝังตัวสำหรับลูกค้าของคุณ เรียนรู้วิธีการรวม Power BI เข้ากันกับแอปพลิเคชันของคุณโดยใช้ซอฟต์แวร์การวิเคราะห์แบบฝังตัว, เครื่องมือการวิเคราะห์แบบฝังตัวหรือเครื่องมือข่าวกรองธุรกิจแบบฝังตัว
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 10/25/2018
-ms.openlocfilehash: 76b80ad296f2f595fb5014e13bbd48d414cd8bbe
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: aabf472e236f545fe51d4007dcd8fbdf36632931
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003167"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180633"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>คำแนะนำการใช้งาน: ฝังในแดชบอร์ด ไทล์ หรือรายงาน Power BI ลงในแอปพลิเคชันสำหรับคลาวด์แบบ sovereign
+# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>บทช่วยสอน: ฝังในแดชบอร์ด ไทล์ หรือรายงาน Power BI ลงในแอปพลิเคชันสำหรับคลาวด์แบบ sovereign
 
-เรียนรู้วิธีการฝังแดชบอร์ด ไทล์ หรือ รายงาน ลงในแอปพลิเคชันเว็บของคุณโดยใช้ Power BI SDK .NET พร้อมกับ Power BI JavaScript API ในระหว่างทำการรวมข้อมูลให้ลูกค้าของคุณ
+เรียนรู้วิธีการฝังเนื้อหาวิเคราะห์ภายในองค์กรของคุณที่ดำเนินการสร้างแอปพลิเคชั่นสำหรับบริการคลาวด์ คุณสามารถใช้ Power BI .NET SDK ด้วยกันกับ Power BI JavaScript API เพื่อฝังรายงาน แดชบอร์ด หรือ ไทล์ ลงในเว็บแอปพลิเคชันของคุณ
 
 Power BI ยังสนับสนุนคลาวด์แบบ sovereign (ส่วนตัว)
 
@@ -132,7 +134,7 @@ Sovereign cloud ได้แก่:
 
 * Power BI สำหรับคลาวด์ประเทศจีน - https://app.powerbi.cn/apps
 
-ถ้าคุณได้ดาวน์โหลด[ตัวอย่างการฝังสำหรับลูกค้าของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)ไว้ คุณจะได้ใช้ **applicationID** ที่คุณได้รับหลังจากลงทะเบียน เพื่อให้ตัวอย่างสามารถยืนยันตัวตนกับ Azure AD ได้ ในการกำหนดค่าตัวอย่าง ให้เปลี่ยน **applicationId** ในไฟล์ *web.config*
+ถ้าคุณได้ดาวน์โหลด[ตัวอย่างการฝังสำหรับลูกค้าของคุณ](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)ไว้ คุณจะได้ใช้ **applicationID** ที่คุณได้รับมา เพื่อให้ตัวอย่างสามารถยืนยันตัวตนกับ Azure AD ได้ ในการกำหนดค่าตัวอย่าง ให้เปลี่ยน **applicationId** ในไฟล์ *web.config*
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>ขั้นตอนที่ 2 - รับโทเค็นเพื่อเข้า จาก Azure AD
 

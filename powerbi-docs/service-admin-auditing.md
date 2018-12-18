@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850487"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026833"
 ---
 # <a name="using-auditing-within-your-organization"></a>ใช้การตรวจสอบภายในองค์กรของคุณ
 
@@ -73,13 +74,13 @@ ms.locfileid: "51850487"
 
 จะมีข้อผิดพลาดแสดงถ้าเลือกช่วงวันมีค่ามากกว่า 90 วัน หากคุณกำลังใช้ช่วงวันที่สูงสุด 90 วัน เลือกเวลาปัจจุบันสำหรับ **วันเริ่มต้น** มิฉะนั้น คุณจะได้รับข้อความข้อผิดพลาดที่แจ้งว่า วันเริ่มต้นอยู่ก่อนหน้าวันสิ้นสุด หากคุณเปิดการตรวจสอบภายในช่วง 90 วันที่ผ่านมา ช่วงวันที่จะไม่สามารถเริ่มก่อนวันที่ที่เปิดใช้งานการตรวจสอบ
 
-![](media/service-admin-auditing/search-audit-log-by-date.png)
+![ค้นหาตามวันที่](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>ค้นหาบันทึกการตรวจสอบตามผู้ใช้งาน
 
 คุณสามารถค้นหารายการบันทึกการตรวจสอบสำหรับกิจกรรมต่าง ๆ ที่ดำเนินการโดยผู้ใช้ที่ระบุได้ หากต้องการดำเนินการนี้ ให้ใส่ชื่อผู้ใช้อย่างน้อยหนึ่งชื่อในเขตข้อมูล **ผู้ใช้** ชื่อผู้ใช้มีลักษณะเหมือนที่อยู่อีเมล กล่าวคือ เป็นบัญชีที่ผู้ใช้ใช้เข้าสู่ระบบ Power BI ปล่อยให้กล่องนี้ว่างไว้เพื่อกลับไปยังรายการสำหรับผู้ใช้ทั้งหมด (และบัญชีบริการ) ในองค์กรของคุณ
 
-![ค้นหาตามวันที่](media/service-admin-auditing/search-audit-log-by-user.png)
+![ค้นหาตามผู้ใช้งาน](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="view-search-results"></a>ดูผลลัพธ์การค้นหา
 

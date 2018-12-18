@@ -1,31 +1,33 @@
 ---
-title: จัดการที่เก็บข้อมูลของคุณ
-description: เรียนรู้วิธีที่คุณสามารถจัดการที่เก็บข้อมูลของคุณ หรือของพื้นที่ทำงานแอป เพื่อให้แน่ใจว่า คุณสามารถเพื่อเผยแพร่รายงานและชุดข้อมูลได้ต่อไป
+title: จัดการที่เก็บข้อมูลในพื้นที่ทำงานของคุณ
+description: เรียนรู้วิธีที่คุณสามารถจัดการที่เก็บข้อมูลของคุณ หรือของพื้นที่ทำงานแอป เพื่อให้แน่ใจว่า คุณสามารถเผยแพร่รายงานและชุดข้อมูลต่อไปได้
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 864d50d8850a8ceed964f128cea71b0daf5d8322
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 239cc7e0574c9c6a4d76cdff83e14cf6af742689
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736883"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180472"
 ---
-# <a name="manage-your-data-storage"></a>จัดการที่เก็บข้อมูลของคุณ
-เรียนรู้วิธีที่คุณสามารถจัดการที่เก็บข้อมูลของคุณ หรือของพื้นที่ทำงานแอป เพื่อให้แน่ใจว่า คุณสามารถเพื่อเผยแพร่รายงานและชุดข้อมูลได้ต่อไป
+# <a name="manage-data-storage-in-power-bi-workspaces"></a>ladakจัดการที่เก็บข้อมูลในพื้นที่ทำงานบน Power BI
 
-ผู้ใช้และพื้นที่ทำงานแอป มีความจุข้อมูลของตัวเอง
+เรียนรู้วิธีที่คุณสามารถจัดการที่เก็บข้อมูลของคุณ หรือของพื้นที่ทำงานแอป เพื่อให้แน่ใจว่า คุณสามารถเผยแพร่รายงานและชุดข้อมูลต่อไปได้
+
+ผู้ใช้และพื้นที่ทำงานแอป มีความจุข้อมูลของตัวเอง:
 
 * ผู้ใช้ทั้งหมดจะมีพื้นที่จัดเก็บข้อมูลสูงสุด 10 GB
-* ผู้ใช้ที่มีสิทธิ์ใช้งาน Power BI Pro สามารถสร้างพื้นที่ทำงานของแอปได้ โดยแต่ละคนจะมีพื้นที่เก็บข้อมูลได้สูงสุด 10 GB
+* ผู้ใช้ที่มีสิทธิ์ใช้งาน Power BI Pro สามารถสร้างพื้นที่ทำงานของแอป โดยแต่ละคนจะมีพื้นที่เก็บข้อมูลได้สูงสุด 10 GB
 
-ในระดับผู้เช่า การใช้ทั้งหมดต้องไม่เกิน 10 GB ต่อผู้ใช้ Pro สำหรับทุก ๆ ผู้ใช้ Pro และทุก ๆ พื้นที่ทำงานแอปทั้งหมดในผู้เช่า
+ที่ระดับผู้เช่า การใช้ทั้งหมดต้องไม่เกิน 10 GB ต่อผู้ใช้ Pro สำหรับทุก ๆ ผู้ใช้ Pro และทุก ๆ พื้นที่ทำงานแอปทั้งหมดในผู้เช่า
 
 อ่านเกี่ยวกับคุณลักษณะอื่น ๆ ของ[รูปแบบการกำหนดราคา Power BI](https://powerbi.microsoft.com/pricing)
 
@@ -44,36 +46,36 @@ ms.locfileid: "50736883"
 
 1. เพื่อจัดการที่เก็บข้อมูลของคุณเอง ไปที่ **พื้นที่งานของฉัน** ในบานหน้าต่างนำทางด้านซ้าย
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
-2. เลือกไอคอนรูปเฟือง![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)ในมุมบนขวา\> **จัดการที่เก็บข้อมูลส่วนตัว**
+    ![พื้นที่ทำงานของฉัน](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+2. เลือกไอคอนรูปเฟือง![ไอคอนรูปเฟือง](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ในมุมบนขวา\>**จัดการที่เก็บข้อมูลส่วนตัว**
    
     แถบด้านบนแสดงให้เห็นว่า คุณได้ใช้ที่เก็บข้อมูลมากแค่ไหน
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
+    ![จัดการพื้นที่เก็บข้อมูลอย่างจำกัด](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
    
     ชุดข้อมูลและรายงานจะถูกแบ่งออกเป็นสองแท็บ:
    
-    **ฉันเป็นเจ้าของ:** ได้แก่รายงานและชุดข้อมูลที่คุณได้อัปโหลดไปยังบัญชี Power BI ของคุณ รวมถึงชุดข้อมูลบริการ เช่น Salesforce และ Dynamics CRM  
-    **ผู้อื่นเป็นเจ้าของ:** ได้แก่รายงานและชุดข้อมูลที่ผู้อื่นได้แชร์ให้คุณ
-3. เมื่อต้องการลบชุดข้อมูลหรือรายงาน ให้เลือกไอคอนรูปถังขยะ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)
+    **ฉันเป็นเจ้าของ:** สิ่งเหล่านี้คือรายงานและชุดข้อมูลที่คุณได้อัปโหลดไปยังบัญชี Power BI ของคุณ รวมถึงชุดข้อมูลบริการ เช่น Salesforce และ Dynamics CRM  
+    **ผู้อื่นเป็นเจ้าของ:** ผู้อื่นได้แชร์รายงานและชุดข้อมูลเหล่านี้ให้กับคุณ
+3. เมื่อต้องการลบชุดข้อมูลหรือรายงาน ให้เลือกไอคอนรูปถังขยะ ![ไอคอนถังขยะ](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
 โปรดทราบว่า คุณหรือบุคคลอื่นอาจมีรายงานและแดชบอร์ดที่ขึ้นกับชุดข้อมูลหนึ่ง ๆ ถ้าคุณลบชุดข้อมูล รายงานและแดชบอร์ดเหล่านั้นจะไม่ทำงานอีกต่อไป
 
 ## <a name="manage-your-app-workspace"></a>จัดการพื้นที่ทำงานของแอป
 1. เลือกลูกศรที่อยู่ถัดจาก**พื้นที่ทำงาน** \> เลือกชื่อของพื้นที่ทำงานแอป
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. เลือกไอคอนรูปเฟือง![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)ในมุมบนขวา\> **จัดการที่เก็บข้อมูลกลุ่ม**
+    ![เลือกแอปพื้นที่ทำงาน](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+2. เลือกไอคอนรูปเฟือง![ไอคอนรูปเฟือง](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ในมุมบนขวา\>**จัดการที่เก็บข้อมูลส่วนตัว**
    
     แถบด้านบนแสดงให้เห็นว่า มีการใช้ที่เก็บข้อมูลกลุ่มมากแค่ไหน
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![จัดการพื้นที่เก็บข้อมูลบนแอปพื้นที่ทำงาน](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     ชุดข้อมูลและรายงานจะถูกแบ่งออกเป็นสองแท็บ:
    
-    **เราเป็นเจ้าของ:** ได้แก่รายงานและชุดข้อมูลที่คุณหรือผู้อื่นได้อัปโหลดไปยังบัญชี Power BI ของกลุ่ม รวมถึงชุดข้อมูลบริการ เช่น Salesforce และ Dynamics CRM
-    **ผู้อื่นเป็นเจ้าของ:** ได้แก่รายงานและชุดข้อมูลที่ผู้อื่นได้แชร์ให้กลุ่มของคุณ
-3. เมื่อต้องการลบชุดข้อมูลหรือรายงาน ให้เลือกไอคอนรูปถังขยะ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)
+    **เราเป็นเจ้าของ:** สิ่งเหล่านี้คือรายงานและชุดข้อมูลที่คุณหรือผู้อื่นได้อัปโหลดไปยังบัญชี Power BI ของกลุ่ม รวมถึงชุดข้อมูลบริการ เช่น Salesforce และ Dynamics CRM
+    **ผู้อื่นเป็นเจ้าของ:** ผู้อื่นได้แชร์รายงานและชุดข้อมูลเหล่านี้ให้กับคุณ
+3. เมื่อต้องการลบชุดข้อมูลหรือรายงาน ให้เลือกไอคอนรูปถังขยะ ![ไอคอนถังขยะ](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
    > สมาชิกใด ๆ ที่มีสิทธิ์ในการแก้ไขพื้นที่ทำงานแอป มีสิทธิ์ในการลบชุดข้อมูลและรายงานจากพื้นที่ทำงานแอป
@@ -88,17 +90,17 @@ ms.locfileid: "50736883"
 ## <a name="what-happens-when-you-hit-a-limit"></a>เกิดอะไรขึ้นเมื่อคุณถึงขีดจำกัด
 เมื่อคุณถึงขีดจำกัดความจุข้อมูลของคุณ คุณจะเห็นพร้อมท์ภายในบริการ 
 
-เมื่อคุณเลือกไอคอนรูปเฟือง ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) คุณจะเห็นแถบสีแดงระบุว่า คุณกำลังใช้งานเกินขีดจำกัดความจุของข้อมูลของคุณ
+เมื่อคุณเลือกไอคอนรูปเฟือง ![ไอคอนรูปเฟือง](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png), คุณจะเห็นแถบสีแดงระบุว่า คุณกำลังใช้งานเกินขีดจำกัดความจุของข้อมูลของคุณ
 
-![](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+! [การเก็บข้อมูลถึงขีดจำกัด]] (media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
 คุณยังจะเห็นคำเตือนภายใน**จัดการที่เก็บข้อมูลส่วนบุคคล**อีกด้วย
 
- ![](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
+ ![จัดการที่เก็บข้อมูลส่วนบุคคลเพราะถึงขีดจำกัดของที่เก็บข้อมูล](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
  เมื่อคุณพยายามที่จะดำเนินการใด ๆ ที่ทำให้ถึงขีดจำกัดเหล่านี้ คุณจะเห็นพร้อมท์ที่ระบุว่า คุณกำลังใช้เกินขีดจำกัด คุณสามารถ[จัดการ](#manage)ที่เก็บข้อมูลของคุณเพื่อลดปริมาณข้อมูล และผ่านข้อจำกัดดังกล่าว
 
- ![](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+ ![เกินขีดจำกัดที่จัดเก็บของคุณ](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
  มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

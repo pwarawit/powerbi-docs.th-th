@@ -1,21 +1,22 @@
 ---
-title: วิเคราะห์ใน Excel
+title: วิเคราะห์ใน Excel สำหรับ Power BI
 description: เรียนรู้เกี่ยวกับวิธีการวิเคราะห์ชุดข้อมูล Power BI ใน Excel
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d1ddb1eabb45fa0c93b04419524d7f4f194189bb
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: b33fafee2ef1f217a99b870e77c3823c6783a11d
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669140"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025959"
 ---
 # <a name="analyze-in-excel"></a>วิเคราะห์ใน Excel
 มีบางครั้งที่คุณอาจต้องการใช้ Excel เพื่อดูและโต้ตอบกับชุดข้อมูลที่คุณมีใน Power BI ด้วย**วิเคราะห์ใน Excel** คุณสามารถดำเนินการดังกล่าวได้ และสามารถเข้าใช้งานคุณลักษณะ PivotTable แผนภูมิ และตัวแบ่งส่วนข้อมูลใน Excel ที่ยึดตามชุดข้อมูลที่มีอยู่ใน Power BI ได้

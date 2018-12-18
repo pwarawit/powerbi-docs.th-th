@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8131722d0e035f28fcb88827b1a68c2da97959cb
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: b63b8a601040751cda81e022d571d3a0ed6d501f
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268931"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180679"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>การใช้เอนทิตีที่คำนวณใน Power BI Premium (ตัวอย่าง)
 
@@ -77,16 +77,21 @@ ms.locfileid: "51268931"
 
 โปรดทราบข้อสำคัญไว้ว่าหากคุณลบพื้นที่ทำงานออกจากความจุ Power BI Premium กระแสข้อมูลที่เกี่ยวข้องจะไม่รีเฟรชอีกต่อไป 
 
+เมื่อทำงานโดยใช้กระแสข้อมูลที่สร้างขึ้นเฉพาะสำหรับในบัญชี Azure Data Lake Storage Gen2 ภายในองค์กร เอนทิตีที่มีลิงก์และเอนทิตีที่มีการคำนวณจะทำงานได้อย่างมีประสิทธิภาพต่อเมื่อเอนทิตี้ทั้งสองอยู่ในบัญชีที่เก็บข้อมูลเดียวกัน สำหรับข้อมูลเพิ่มเติม ให้เข้าไปดูที่ [เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับที่เก็บกระแสข้อมูล (ตัวอย่าง)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
+
+นอกจากนี้ เอนทิตีที่มีลิงก์จะไม่สามารถใช้งานได้กับกระแสข้อมูลที่สร้างขึ้นจากโฟลเดอร์ CDM ดูที่ [เพิ่มโฟลเดอร์ CDM เข้าสู่ Power BI ในฐานะกระแสข้อมูล (ดูตัวอย่าง)](service-dataflows-add-cdm-folder.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 บทความนี้ได้อธิบายเกี่ยวกับเอนทิตีที่คำนวณและกระแสข้อมูลที่พร้อมใช้ในบริการของ Power BI ต่อไปนี้คือบทความเพิ่มเติมที่อาจเป็นประโยชน์
 
-
 * [การเตรียมข้อมูลด้วยตัวเองโดยใช้กระแสข้อมูล](service-dataflows-overview.md)
 * [สร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
 * [การใช้กระแสข้อมูลพร้อมแหล่งข้อมูลในองค์กร (ตัวอย่าง)](service-dataflows-on-premises-gateways.md)
 * [แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI (ตัวอย่าง)](service-dataflows-developer-resources.md)
+* [กำหนดการตั้งค่ากระแสข้อมูลพื้นที่ทำงาน (ตัวอย่าง)](service-dataflows-configure-workspace-storage-settings.md)
+* [เพิ่มโฟลเดอร์ CDM ไปยัง Power BI เป็นกระแสข้อมูล (ตัวอย่าง)](service-dataflows-add-cdm-folder.md)
+* [เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับที่เก็บกระแสข้อมูล (ตัวอย่าง)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power Query และการรีเฟรชตามกำหนดการ สามารถดูได้ในบทความเหล่านี้:
 * [ภาพรวมคิวรีใน Power BI Desktop](desktop-query-overview.md)

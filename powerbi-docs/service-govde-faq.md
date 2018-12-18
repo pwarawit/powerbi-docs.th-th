@@ -1,26 +1,29 @@
 ---
-title: ถามที่ถามบ่อยสำหรับ Power BI สำหรับลูกค้าภาครัฐประเทศเยอรมนี
+title: คำถามที่ถามบ่อยสำหรับลูกค้าภาครัฐประเทศเยอรมนี
 description: สำหรับลูกค้าภาครัฐประเทศเยอรมนี ตอบคำถามสำหรับคำถามทั่วไปเกี่ยวกับบริการ Power BI ของภาครัฐประเทศเยอรมนี
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4a602a8494261705d61c70679d9511993afe69af
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: dfc240e50f2fa88fc40b5f6f8d80b1106c388cd5
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670083"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026465"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>ถามที่ถามบ่อยสำหรับ Power BI สำหรับลูกค้าระบบคลาวด์ประเทศเยอรมนี
 **บริการ Power BI**มีเวอร์ชันที่พร้อมใช้งานสำหรับลูกค้าสหภาพยุโรป/ข้อตกลงการค้าเสรียุโรป/ยุโรป (EU/EFTA) มักจะอ้างอิงถึงเป็น Deutschland Microsoft Cloud (MCD) **บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้เป็นบริการเฉพาะสำหรับลูกค้า EU/EFTA และแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI** หรือบริการ Power BI ที่จัดหาสำหรับลูกค้าภาครัฐบาล
 
 ![](media/service-govde-faq/govde-faq_01.png)
+
+## <a name="questions-and-answers"></a>คำถามและคำตอบ
 
 คำถามและคำตอบต่อไปนี้แสดงข้อมูลสำคัญสำหรับบริการ Power BI Pro ใน Microsoft Cloud Deutschland (MCD) ซึ่งก็คือ ระบบคลาวด์บริการ Power BI ที่จัดให้มีสำหรับลูกค้า EU/EFTA โดยเฉพาะ
 
@@ -68,7 +71,7 @@ ms.locfileid: "52670083"
 | พอร์ทัล Azure (สำหรับฝัง) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
 | ชุมชน |[https://community.powerbi.com/](https://community.powerbi.com/) |[https://community.powerbi.com/](https://community.powerbi.com/) |
 
-### <a name="next-steps"></a>ขั้นตอนถัดไป
+## <a name="next-steps"></a>ขั้นตอนถัดไป
 มีหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI สำหรับข้อมูลและการเรียนรู้เพิ่มเติม รวมถึงบทความที่แสดงวิธีการลงทะเบียนใช้บริการ ให้ดูทรัพยากรต่อไปนี้
 
 * [Guided learning สำหรับ Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)

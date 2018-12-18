@@ -1,23 +1,24 @@
 ---
-title: ใช้ IDE ภายนอกกับ Power BI
-description: คุณสามารถเปิดและใช้ IDE ภายนอกกับ Power BI
+title: ใช้ R IDE ภายนอกกับ Power BI
+description: คุณสามารถเปิด IDE ภายนอกและใช้งาน IDE กับ Power BI
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0b8b2173e2015bbe1dca08a1fe45157d0814f899
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 99acb51369d805e907bf77752239320cb9236465
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669968"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025996"
 ---
-# <a name="use-an-external-r-ide-with-power-bi"></a>ใช้ IDE ภายนอกกับ Power BI
+# <a name="use-an-external-r-ide-with-power-bi"></a>ใช้ R IDE ภายนอกกับ Power BI
 ด้วย**Power BI Desktop**คุณสามารถใช้ R IDE ภายนอกของคุณ (สภาพแวดล้อมรวมเพื่อการพัฒนา) เพื่อสร้าง และปรับปรุงสคริปต์ R จาก แล้วจะใช้สคริปต์เหล่านั้นใน Power BI ได้
 
 ![](media/desktop-r-ide/r-ide_1a.png)
