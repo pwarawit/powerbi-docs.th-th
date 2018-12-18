@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dd59f572da6bb3b62fa142ea7b7eab4aef5a3466
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 8bae8475ee4bbe91ea27f3a9e30a3323a92a8250
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180541"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280270"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>ดูข้อมูลเชิงลึกบนไทล์แดชบอร์ดด้วย Power BI
 แต่ละไทล์ของการแสดงภาพบนแดชบอร์ดของคุณคือ ประตูไปสู่การสำรวจข้อมูล เมื่อคุณเลือกไทล์ จะเปิดรายงานที่คุณสามารถกรองและจัดเรียง รวมถึงเจาะลึกลงไปในชุดข้อมูลหลังรายงาน และเมื่อคุณเรียกใช้ข้อมูลเชิงลึก Power BI จะสำรวจข้อมูลให้คุณ
