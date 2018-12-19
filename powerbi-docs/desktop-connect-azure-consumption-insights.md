@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 706fe9f3014ef14ff34100ff336fbf04b44e709c
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026809"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281042"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>เชื่อมต่อกับ Microsoft Azure Consumption Insights (Beta) ใน Power BI Desktop (Beta)
 ด้วยตัวเชื่อมต่อ**Azure Consumption Insights** คุณสามารถใช้ **Power BI Desktop**เพื่อเชื่อมต่อกับ Azure และรับข้อมูลเชิงลึกและข้อมูลเกี่ยวกับการใช้บริการ Azure ขององค์กรของคุณได้ คุณยังสามารถสร้างหน่วยวัด คอลัมน์แบบกำหนดเอง และรูปภาพเพื่อรายงาน และแชร์เกี่ยวกับการใช้งาน Azure ขององค์กรของคุณ รุ่นนี้**Azure Consumption Insights**ตัวเชื่อมต่ออยู่ในรุ่นเบต้า และจะมีการเปลี่ยนแปลง
@@ -70,7 +70,7 @@ ms.locfileid: "53026809"
 > 
 > 
 
-เมื่อคุณเลือก**โหลด**ข้อมูลที่ถูกโหลดไปยัง**Power BI Desktop**
+เมื่อคุณเลือก**โหลด**ข้อมูลที่ถูกโหลดไปยัง**Power BI Desktop**  ตัวเชื่อมต่อจะโหลดข้อมูลตามค่าเริ่มต้นของตารางระยะเวลา  ถ้าคุณต้องการกำหนดระยะเวลาเอง[คุณสามารถตั้งค่าคิวรีแบบกำหนดเอง](https://docs.microsoft.com/en-us/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights)ได้
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 

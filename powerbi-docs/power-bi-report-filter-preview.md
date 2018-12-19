@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: fb25ae7408ddb19d7e8bc9c91c0e1b0f65d2bf42
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026258"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280638"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>ใช้งานตัวกรองใหม่ในรายงาน Power BI (ตัวอย่าง)
 
@@ -34,11 +34,11 @@ ms.locfileid: "53026258"
 
 ## <a name="turn-on-the-new-filter-experience"></a>ลองใช้งานตัวกรองใหม่ 
 
-คุณเปิดใช้งานการใช้งานใหม่ใน Power BI Desktop จากนั้นคุณสามารถปรับเปลี่ยนตัวกรองหรือในบริการ Power BI (https://app.powerbi.com) เนื่องจากการใช้งานตัวกรองใหม่อยู่ในตัวอย่าง คุณต้องการใช้งานใน Power BI Desktop 
+คุณเปิดใช้งานการใช้งานใหม่ใน Power BI Desktop จากนั้นคุณสามารถปรับเปลี่ยนตัวกรองหรือในบริการ Power BI (https://app.powerbi.com) เนื่องจากการใช้งานตัวกรองใหม่อยู่ในตัวอย่าง คุณต้องการใช้งานใน Power BI Desktop ถ้าคุณเริ่มต้นด้วยการสร้างรายงานในบริการ Power BI จะไม่มีตัวกรองใหม่
 
 ### <a name="turn-on-new-filters-for-all-new-reports"></a>เปิดใช้งานตัวกรองใหม่สำหรับรายงานใหม่ทั้งหมด
 
-1. เลือก**แฟ้ม** > **ตัวเลือกและการตั้งค่า** > **ตัวเลือก** > **คุณลักษณะตัวอย่าง** แล้ว เลือกการ**ประสบการณ์การใช้งานตัวกรองใหม่**กล่องกาเครื่องหมาย 
+1. ใน Power BI Desktop เลือก**แฟ้ม** > **ตัวเลือกและการตั้งค่า** > **ตัวเลือก** > **คุณลักษณะตัวอย่าง** แล้ว เลือกการ**ประสบการณ์การใช้งานตัวกรองใหม่**กล่องกาเครื่องหมาย 
 2. รีสตาร์ท Power BI Desktop เพื่อดูการใช้งานตัวกรองใหม่ในรายงานใหม่ทั้งหมด
 
 หลังจากที่คุณรีสตาร์ท Power BI Desktop จะเปิดใช้งานตามค่าเริ่มต้นสำหรับรายงานใหม่ทั้งหมดที่คุณสร้าง  
@@ -47,7 +47,7 @@ ms.locfileid: "53026258"
 
 นอกจากนี้คุณยังสามารถเปิดใช้งานตัวกรองใหม่สำหรับรายงานที่มีอยู่ได้อีกด้วย
 
-1. ในรายงานที่มีอยู่ ให้เลือก**แฟ้ม** > **ตัวเลือกและการตั้งค่า** > **ตัวเลือก**
+1. ใน Power BI Desktop ในรายงานที่มีอยู่ ให้เลือก**แฟ้ม** > **ตัวเลือกและการตั้งค่า** > **ตัวเลือก**
 2. ด้านล่าง**รายงานการตั้งค่า**เลือก**เปิดใช้งานบานบานหน้าต่างตัวกรองที่อัปเดต และแสดงตัวกรองในส่วนหัวภาพสำหรับรายงานนี้**
 
 ## <a name="build-the-new-filter-pane"></a>สร้างบานหน้าต่างตัวกรองใหม่

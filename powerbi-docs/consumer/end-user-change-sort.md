@@ -1,33 +1,34 @@
 ---
-title: เปลี่ยนวิธีการเรียงลำดับแผนภูมิในรายงาน Power BI
+title: เปลี่ยนวิธีการเรียงลำดับแผนภูมิในรายงาน
 description: เปลี่ยนวิธีการเรียงลำดับแผนภูมิในรายงาน Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: Conceptual
-ms.date: 09/20/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f4ca6633eb401e7df8041ea385284210c14995ad
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 191dfdeba436322052befdbc6548fd08f96f0738
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979356"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280017"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>เปลี่ยนวิธีการเรียงลำดับแผนภูมิในรายงาน Power BI
 ในรายงาน Power BI คุณสามารถเรียงลำดับการแสดงภาพส่วนใหญ่ตามลำดับตัวอักษร โดยชื่อของประเภทในแผนภูมิ หรือค่าตัวเลขของแต่ละประเภท ตัวอย่างเช่น แผนภูมินี้จะเรียงตามประเภทของ **ชื่อร้านค้า**
 
-![](media/end-user-change-sort/pbi_chartsortcategory.png)
+![แผนภูมิแท่ง alpha ที่เรียงลำดับตามแกน X](media/end-user-change-sort/pbi_chartsortcategory.png)
 
 เป็นเรื่องง่ายเมื่อต้องเปลี่ยนการเรียงลำดับจากประเภท (ชื่อร้าน) เป็นค่า(ยอดขายสำหรับแต่ละตารางฟุต) แทน
 
 1. เลือกจุดไข่ปลา (...) แล้วเลือก**เรียงลำดับตาม > ยอดขายต่อ Sq Ft**
 2. ถ้าจำเป็น ให้เลือกจุดไข่ปลาอีกครั้งและเลือก**เรียงลำดับจากมากไปน้อย**
 
-   ![](media/end-user-change-sort/sort.gif)
+   ![วิดีโอแสดงการเลือกเรียงลำดับตามและจากน้อยไปหามาก มากไปหาน้อย](media/end-user-change-sort/sort.gif)
 
    **หมายเหตุ**: ภาพไม่สามารถเรียงลำดับได้ทั้งหมด  ภาพต่อไปนี้ไม่สามารถเรียงลำดับได้ ยกตัวอย่างเช่น: แผนที่ต้นไม้ แผนที่ แผนที่แถบสี แผนภูมิแบบกระจาย การวัด การ์ด บัตรหลายแถว แผนภูมิแบบน้ำตก
 
