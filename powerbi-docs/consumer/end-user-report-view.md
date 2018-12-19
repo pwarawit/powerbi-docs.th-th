@@ -1,24 +1,25 @@
 ---
-title: เปลี่ยนขนาดของหน้ารายงาน
+title: เปลี่ยนขนาดแสดงและอัตราส่วนของหน้ารายงาน
 description: เปลี่ยนการตั้งค่าการแสดงหน้าในรายงาน Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c3e0fe7d469558a1800b7ce26b8b255fd8fa7a15
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 93e6c66c28c95d729ae0af0910f887f61f52694e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566199"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280845"
 ---
 # <a name="change-the-size-of-a-report-page"></a>เปลี่ยนขนาดของหน้ารายงาน
-ใน[บทความและวิดีโอก่อนหน้านี้](../power-bi-report-display-settings.md)คุณได้เรียนรู้สองวิธีในการควบคุมการแสดงหน้าในรายงาน Power BI: **มุมมอง**และ**ขนาดหน้า** มุมมองหน้าและขนาดหน้ามีใช้งานทั้งในบริการ Power BI และ Power BI Desktop โดยที่มีลักษณะและฟังก์ชันการทำงานเกือบเหมือนกันทั้งหมด แต่สำหรับบทช่วยสอนนี้ เราจะใช้บริการ Power BI
+ใน[บทความและวิดีโอก่อนหน้านี้](../power-bi-report-display-settings.md)คุณได้เรียนรู้สองวิธีในการควบคุมการแสดงหน้าในรายงาน Power BI ซึ่งก็คือ: **มุมมอง**และ**ขนาดหน้า** มุมมองหน้าและขนาดหน้ามีใช้งานทั้งในบริการ Power BI และ Power BI Desktop โดยที่มีลักษณะและฟังก์ชันการทำงานเกือบเหมือนกันทั้งหมด แต่สำหรับบทช่วยสอนนี้ เราจะใช้บริการ Power BI
 
 ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 - บริการ Power BI   
@@ -28,33 +29,33 @@ ms.locfileid: "46566199"
 
 1. เปิดรายงานในมุมมองการอ่านหรือมุมมองการแก้ไข และเลือกแท็บรายงานสำหรับ**ร้านค้าใหม่** ตามค่าเริ่มต้น หน้ารายงานนี้จะแสดงขึ้นโดยใช้การตั้งค่า**พอดีกับหน้า**  ในกรณีนี้ การทำให้พอดีกับหน้า แสดงหน้ารายงานโดยไม่มีแถบเลื่อน แต่บางรายละเอียดและชื่อเรื่องเล็กเกินไปเมื่อต้องการอ่าน
 
-   ![](media/end-user-report-view/pbi_fit_to_page.png)
+   ![รายงานที่แสดงในพื้นที่ทำงาน](media/end-user-report-view/pbi_fit_to_page.png)
 2. ตรวจสอบให้แน่ใจว่าไม่มีการเลือกการแสดงภาพใดบนพื้นที่รายงาน เลือก**มุมมอง**และตรวจทานตัวเลือกการแสดง
 
    * ในมุมมองการอ่าน คุณจะเห็นข้อมูลนี้
 
-     ![](media/end-user-report-view/power-bi-page-view-menu-new.png)
+     ![การเลือกมุมมองเมนูรายการแบบหล่นลงและการจัดให้พอดีกับหน้า](media/end-user-report-view/power-bi-page-view-menu-new.png)
    * ในมุมมองการแก้ไข คุณจะเห็นข้อมูลนี้
 
-     ![](media/end-user-report-view/power-bi-view-editing-view.png)
+     ![การเลือกมุมมองเมนูรายการแบบหล่นลงและการจัดให้พอดีกับหน้า](media/end-user-report-view/power-bi-view-editing-view.png)
 
 3. มาดูลักษณะที่ปรากฏของหน้าโดยใช้การตั้งค่า**ขนาดจริง**
 
-   ![](media/end-user-report-view/power-bi-actal-size2.png)
+   ![รายงานที่แสดงในพื้นที่ทำงาน พร้อมการใช้งานแถบเลื่อนทั้งสอง](media/end-user-report-view/power-bi-actal-size2.png)
 
    ไม่สวยเท่าไหร่ ตอนนี้แดชบอร์ดมีแถบเลื่อนสองแถบ
 4. สลับไปยัง**พอดีกับความกว้าง**
 
-   ![](media/end-user-report-view/pbi_fit_to_width.png)
+   ![การรายงานจะแสดงโดยมีแถบเลื่อนหนึ่งแถบเดียว](media/end-user-report-view/pbi_fit_to_width.png)
 
-   ตอนนี้ดูดีขึ้น เรามีแถบเลื่อนต่าง ๆ แต่นั่นก็ทำให้ง่ายต่อการอ่านรายละเอียด
+   ดูดีขึ้นแล้ว แม้เราจะมีแถบเลื่อนแถบเดียว แต่ก็ทำให้อ่านรายละเอียดได้ง่ายขึ้น
 
 ## <a name="change-the-default-view-for-a-report-page"></a>เปลี่ยนมุมมองค่าเริ่มต้นสำหรับหน้ารายงาน
 ถ้าคุณเป็น*ผู้สร้าง*รายงาน คุณสามารถเปลี่ยนมุมมองตามค่าเริ่มต้นสำหรับหน้ารายงานของคุณได้ เมื่อคุณแชร์รายงานของคุณกับผู้อื่น หน้ารายงานจะเปิดขึ้นโดยใช้มุมมองที่คุณได้ตั้งค่าไว้ *ผู้ใช้*รายงานจะสามารถเปลี่ยนมุมมองได้ แต่ไม่สามารถบันทึกการเปลี่ยนแปลงได้เมื่อพวกเขาออกจากรายงาน
 
 1. ที่หน้า**ร้านค้าใหม่**ของรายงาน สลับกลับไปยังมุมมอง**ขนาดจริง**
 
-   ![](media/end-user-report-view/power-bi-actual-size.png)
+   ![การเลือกมุมมองเมนูรายการแบบหล่นลงพร้อมขนาดจริง](media/end-user-report-view/power-bi-actual-size.png)
 
 2. ที่หน้ารายงาน**ยอดขายรายเดือนของเขต** ตั้งค่ามุมมอง**จัดพอดีกับความกว้าง**
 
@@ -62,16 +63,16 @@ ms.locfileid: "46566199"
 
 4. จากนั้นบันทึกรายงานโดยเลือก**ไฟล์ > บันทึก** ในครั้งถัดไปที่คุณเปิดรายงานนี้ หน้าดังกล่าวจะแสดงโดยใช้การตั้งค่ามุมมองใหม่ ไปดูกันเลย
 
-   ![](media/end-user-report-view/power-bi-save.png)
+   ![การเลือกไฟล์รายการแบบหล่นลงพร้อมการบันทึก](media/end-user-report-view/power-bi-save.png)
 3. เลือกชื่อของพื้นที่ทำงานปัจจุบันจากแถบนำทางด้านบนเพื่อกลับไปยังพื้นที่ทำงานปัจจุบัน  
 
-   ![](media/end-user-report-view/power-bi-my-workspace.png)
+   ![แถบเมนูด้านบนจะแสดงเส้นทางการนำทาง](media/end-user-report-view/power-bi-my-workspace.png)
 4. เลือกแท็บ**รายงาน** และเลือกรายงานเดียวกัน (ตัวอย่างการวิเคราะห์ร้านค้าปลีก)
 
-    ![](media/end-user-report-view/power-bi-new-report2.png)
+    ![การเลือกมุมมองเนื้อหาพร้อมแท็บรายงาน](media/end-user-report-view/power-bi-new-report2.png)
 5. เปิดแต่ละหน้าของรายงานเพื่อดูการตั้งค่าใหม่
 
-   ![](media/end-user-report-view/power-bi-page-view.gif)
+   ![วิดีโอแสดง hos เพื่อเปลี่ยนตัวเลือกมุมมอง](media/end-user-report-view/power-bi-page-view.gif)
 
 ## <a name="now-lets-explore-the-page-size-setting"></a>ตอนนี้ เรามาสำรวจการตั้งค่า*ขนาดหน้า*กัน
 การตั้งค่าขนาดหน้ามีใช้เฉพาะใน[มุมมองการแก้ไข](../service-interact-with-a-report-in-editing-view.md) ดังนั้นคุณต้องมีสิทธิ์แก้ไข (*ผู้สร้าง*) สำหรับรายงานนั้นในการเปลี่ยนแปลงการตั้งค่าขนาดหน้า ถ้าคุณเคยเชื่อมต่อกับ[ตัวอย่าง](../sample-datasets.md)ใด ๆ ของเรา คุณจะมีสิทธิ์*ผู้สร้าง*ในการรายงานเหล่านั้น
@@ -80,13 +81,13 @@ ms.locfileid: "46566199"
 2. ตรวจสอบให้แน่ใจว่าไม่มีการเลือกการแสดงภาพใดบนพื้นที่รายงาน  ในช่อง**การแสดงภาพ** เลือกไอคอนลูกกลิ้งทาสี![](media/end-user-report-view/power-bi-paintroller.png)
 3. เลือก**ขนาดหน้ากระดาษ** &gt; **ชนิด**เพื่อแสดงตัวเลือกขนาดหน้า
 
-   ![](media/end-user-report-view/power-bi-page-size-menu-new.png)
+   ![การเลือกการ์ดขนาดหน้ากระดาษแบบขยายและแบบ 16:9](media/end-user-report-view/power-bi-page-size-menu-new.png)
 4. เลือก**อักษร**  บนพื้นที่รายงาน เฉพาะเนื้อหาที่พอดีภายในช่วง 816 x 1056 พิกเซล (ตัวอักษรขนาด) เท่านั้นที่จะยังคงอยู่ในส่วนสีขาวของพื้นที่รายงาน
 
-   ![](media/end-user-report-view/power-bi-letter-new.png)
+   ![การเลือกพื้นที่รายงานพร้อมการ์ดขนาดหน้ากระดาษแบบขยายและเลือกประเภท > จดหมาย](media/end-user-report-view/power-bi-letter-new.png)
 5. เลือก**ขนาดหน้า**อัตราส่วน **16:9**
 
-   ![](media/end-user-report-view/power-bi-16-to-9-new.png)
+   ![การเลือกการ์ดขนาดหน้ากระดาษแบบขยายและแบบ 16:9](media/end-user-report-view/power-bi-16-to-9-new.png)
 
    หน้ารายงานแสดงโดยใช้อัตราส่วนความกว้าง 16 x ความสูง 9 ในการดูขนาดพิกเซลจริงที่กำลังใช้งานอยู่นั้น ให้ดูเขตข้อมูลความกว้างและความสูงสีเทา (ความละเอียด 1280x720) มีพื้นที่ว่างจำนวนมากรอบ ๆ พื้นที่รายงาน ทั้งนี้เนื่องจากก่อนหน้านี้เราได้ตั้งค่า**มุมมอง**เป็น "ให้พอดีกับความกว้าง"
 7. สำรวจตัวเลือก**ขนาดหน้ากระดาษต่อไป**
@@ -100,14 +101,14 @@ ms.locfileid: "46566199"
 
 1. ปรับขนาดและย้ายภาพเพื่อให้พอดีกับพื้นที่น้อยกว่าครึ่งหนึ่งของพื้นที่รายงานปัจจุบัน
 
-    ![](media/end-user-report-view/power-bi-custom-view.gif)
+    ![วิดีโอจะแสดงภาพที่ถูกปรับขนาด และเคลื่อนไปโดยรอบพื้นที่ทำงาน](media/end-user-report-view/power-bi-custom-view.gif)
 2. เลือก**ขนาดหน้า** &gt; **กำหนดเอง**
 3. ตั้งค่าความกว้างเป็น 500 และตั้งค่าความสูงเป็น 750
 
-    ![](media/end-user-report-view/power-bi-custom-new.png)
+    ![การขยายบานหน้าต่างจัดรูปแบบพร้อมการ์ดขนาดหน้ากระดาษ](media/end-user-report-view/power-bi-custom-new.png)
 4. ปรับแต่งหน้ารายงานเพื่อให้ดูดีที่สุด สลับไปมาระหว่าง**มุมมอง > ขนาดจริง**และ**มุมมอง > ปรับพอดีกับหน้า**เพื่อทำการปรับเปลี่ยน
 
-    ![](media/end-user-report-view/power-bi-final-new.png)
+    ![การขยายพื้นที่รายงานพร้อมบานหน้าต่างจัดรูปแบบ](media/end-user-report-view/power-bi-final-new.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [สร้างรายงานสำหรับ Cortana](../service-cortana-answer-cards.md)

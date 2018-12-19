@@ -5,20 +5,21 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 10/08/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7982c2b29d5d92a992a115c92cbc7f0d128cb9d6
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 0d614b6028fa4d7e11ac5bf82e05d44a95e4f234
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452602"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280868"
 ---
-# <a name="tutorial-set-data-alerts-in-power-bi-service"></a>บทช่วยสอน: ตั้งค่าการแจ้งเตือนข้อมูลในบริการ Power BI
+# <a name="tutorial-set-data-alerts-in-power-bi-service"></a>บทช่วยสอน: ตั้งค่าการแจ้งเตือนข้อมูลใน Power BI service
 ต้งค่าการแจ้งเตือน เมื่อมีข้อมูลในแดชบอร์ดของคุณเปลี่ยนเกินขีดจำกัดที่คุณตั้งไว 
 
 คุณสามารถตั้งค่าการแจ้งเตือนบนไทล์ ถ้าคุณมีสิทธิ์การใช้งาน Power BI Pro หรือถ้ามีการแชร์แดชบอร์ดให้กับคุณจาก[ความจุพรีเมียม](../service-premium.md) การแจ้งเตือนสามารถตั้งค่าบนหมุดไทล์ที่ปักจากภาพรายงานเท่านั้น และบนหน้าปัดวัด Kpi และการ์ดเท่านั้น การแจ้งเตือนบนภาพถูกสร้างขึ้นจากชุดข้อมูลที่มีการปักหมุดจากรายงานกับแดชบอร์ด แต่ไม่สามารถตั้งค่าแบบสตรีมมิ่งบนไทล์ที่สร้างขึ้นโดยตรงบนแดชบอร์ด โดยใช้การ**เพิ่มไทล์**  >   **ข้อมูลการสตรีมแบบกำหนดเอง** 
@@ -83,7 +84,7 @@ ms.locfileid: "52452602"
    > 
 
 ## <a name="managing-alerts"></a>การจัดการการแจ้งเตือน
-มีหลายวิธีที่จะจัดการการแจ้งเตือนของคุณ จากแดชบอร์ดไทล์เอง จากเมนูการตั้งค่า Power BI บนแต่ละไทล์ใน[แอปสำหรับอุปกรณ์เคลื่อนที่ Power BI บน iPhone](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)หรือใน[แอปสำหรับอุปกรณ์เคลื่อนที่ Power BI สำหรับ Windows 10](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+มีหลายวิธีในการจัดการการแจ้งเตือนของคุณ: เช่น จากแดชบอร์ดไทล์ จากเมนูการตั้งค่า Power BI จากแต่ละไทล์ใน[แอปสำหรับอุปกรณ์เคลื่อนที่ Power BI บน iPhone](mobile/mobile-set-data-alerts-in-the-mobile-apps.md) หรือใน[แอปสำหรับอุปกรณ์เคลื่อนที่ Power BI สำหรับ Windows 10](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 
 ### <a name="from-the-tile-itself"></a>จากตัวไทล์เอง
 1. ถ้าคุณต้องการเปลี่ยนหรือลบการแจ้งเตือนสำหรับไทล์ ให้เปิดหน้าต่าง**จัดการการแจ้งเตือน**ใหม่อีกครั้ง โดยการเลือกไอคอนระฆัง ![ไอคอนการแจ้งเตือน](media/end-user-alerts/power-bi-bell-icon.png) แจ้งเตือนทั้งหมดที่คุณได้ตั้งค่าสำหรับไทล์ได้แสดงขึ้น

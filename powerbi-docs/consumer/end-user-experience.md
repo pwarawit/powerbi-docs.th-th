@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 3b3eaa33879a1f0c6d51aecaa93cae6ce5c90d10
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473876"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280822"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>เริ่มต้นใช้งานด่วน - ทำความรู้จักบริการของ Power BI
 
@@ -40,7 +41,7 @@ ms.locfileid: "49473876"
 
     บริการของ Power BI จะนำเข้าตัวอย่างและแสดงแดชบอร์ด แดชบอร์ดคือสิ่งที่ทำให้บริการของ Power BI แตกต่างจาก Power BI Desktop ตัวอย่างยังมีรายงานและชุดข้อมูล ซึ่งเราจะพาชมในภายหลัง
 
-    ![](media/end-user-experience/power-bi-dashboard.png)
+    ![การแสดงแดชบอร์ด](media/end-user-experience/power-bi-dashboard.png)
 
 ดู Amanda การแนะนำระบบการนำทางของ Power BI service  แล้ว ทำตามคำแนะนำทีละขั้นตอนด้านล่างวิดีโอเพื่อสำรวจด้วยตัวคุณเอง
 
@@ -50,7 +51,7 @@ ms.locfileid: "49473876"
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>ดูเนื้อหา (แดชบอร์ด รายงาน เวิร์กบุ๊ก ชุดข้อมูล พื้นที่ทำงาน แอป)
 มาเริ่มต้น ด้วยการดูวิธีการจัดระเบียบเนื้อหาพื้นฐาน (แดชบอร์ด รายงาน ชุดข้อมูล เวิร์กบุ๊ก) เนื้อหาถูกแสดงภายในบริบทขิงพื้นที่ทำงาน ตรงนี้ คุณมีพื้นที่ทำงานเดียวเท่านั้นและเรียกว่า **พื้นที่ทำงานของฉัน** โดยทั่วไปแล้ว ผู้ใช้ไม่จำเป็นต้องใช้พื้นที่ทำงานอื่น ๆ พื้นที่ทำงานของฉันจัดเก็บเนื้อหาทั้งหมดที่คุณเป็นเจ้าของ ให้คิดว่าเป็น sandbox ส่วนบุคคลของคุณหรือพื้นที่ทำงานสำหรับเนื้อหาของคุณเอง พื้นที่ทำงานของฉันที่เป็นตัวอย่างการวิเคราะห์ด้านการขายปลีกซึ่งคุณเพิ่งดาวน์โหลดจะถูกบันทึกไว้ 
 
-ภายในพื้นที่ทำงานของฉัน เนื้อหาของคุณถูกจัดเป็น 4 แท็บ แดชบอร์ด รายงาน เวิร์กบุ๊ก และชุดข้อมูล
+ภายในพื้นที่ทำงานของฉัน เนื้อหาของคุณถูกจัดเป็น 4 แท็บ: แดชบอร์ด รายงาน สมุดงาน และชุดข้อมูล
 
 ![หน้าจอพื้นที่ทำงานของฉัน](./media/end-user-experience/power-bi-my-workspace.png)
 
