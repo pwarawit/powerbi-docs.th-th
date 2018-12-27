@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a23a725ecad5641c3f82fa4c57ee1a0bc951e28
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: e0721efaaca879ffb2915315af9aea4dbafca3ca
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670405"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900255"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>แหล่งข้อมูลสำหรับบริการ Power BI
 ข้อมูลเป็นหัวใจสำคัญของ Power BI เมื่อใดก็ตามที่คุณกำลังสำรวจข้อมูล สร้างแผนภูมิและแดชบอร์ด ถามคำถามด้วยการถามตอบ ภาพและคำตอบที่คุณเห็นทั้งหมดเหล่านั้นได้รับเอาข้อมูลพื้นฐานมาจากชุดข้อมูลหนึ่ง แตชุดข้อมูลนั้นมาจากไหน คำตอบคือ มันมาจากแหล่งข้อมูล
@@ -44,7 +44,7 @@ ms.locfileid: "52670405"
 
 ชุดเนื้อหาประกอบด้วยทั้งหมดของข้อมูลและรายงานที่คุณต้องการแล้วเตรียมพร้อมสำหรับคุณ ใน Power BI มีอยู่สองชนิดของชุดเนื้อหา ที่มีอยู่จากบริการเช่น Google Analytics, Marketo หรือ Salesforce และที่สร้าง และแชร์ โดยผู้ใช้อื่นในองค์กรของคุณ
 
-**บริการ** � มีบริการพร้อมด้วยชุดเนื้อหาเยอะแยะมากมายสำหรับ Power BI และเพิ่มเติมจะถูกเพิ่มในทุกครั้ง บริการส่วนใหญ่จำเป็นต้องใช้บัญชีผู้ใช้ เมื่อต้องการเรียนรู้เพิ่มเติม ดู[เชื่อมต่อกับบริการ](consumer/end-user-connect-to-services.md)
+**บริการ** � มีบริการพร้อมด้วยชุดเนื้อหาเยอะแยะมากมายสำหรับ Power BI และเพิ่มเติมจะถูกเพิ่มในทุกครั้ง บริการส่วนใหญ่จำเป็นต้องใช้บัญชีผู้ใช้ เมื่อต้องการเรียนรู้เพิ่มเติม ดู[เชื่อมต่อกับบริการ](service-connect-to-services.md)
 
 **องค์กร**ถ้าคุณและผู้ใช้อื่นในองค์กรของคุณมีบัญชี Power BI Pro คุณสามารถสร้าง แชร์ และใช้ชุดเนื้อหาได้ เมื่อต้องการเรียนรู้เพิ่มเติม ดู [บทนำเกี่ยวกับชุดเนื้อหาระดับองค์กร](service-organizational-content-pack-introduction.md)
 
