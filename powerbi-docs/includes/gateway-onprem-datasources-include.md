@@ -6,7 +6,7 @@
 | Analysis Services Multidimensional |ใช่ |ใช่ |
 | ไฟล์ |ไม่ใช่ |ใช่ |
 | โฟลเดอร์ |ไม่ใช่ |ใช่ |
-| IBM DB2 |ไม่ใช่ |ใช่ |
+| IBM DB2 |ใช่ |ใช่ |
 | ฐานข้อมูล IBM Informix |ไม่ใช่ |ใช่ |
 | IBM Netezza |ใช่ |ใช่ |
 | Impala |ใช่ |ใช่ |

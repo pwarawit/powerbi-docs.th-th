@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/21/2018
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: cbfee8034639a65517f9adc57cc95dd1271e6044
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: ea26ba39a9ec06b79330719afd4fb3b3a572d912
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53025453"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301815"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Microsoft Power BI Premium คืออะไร?
 
@@ -71,14 +71,14 @@ Power BI Premium ความจุ v-core ที่แตกต่างกั�
 >[!NOTE]
 >ลิงก์ในตารางนี้จะทำงานได้อย่างถูกต้องสำหรับผู้ใช้ที่อยู่ในบทบาทผู้ดูแลระบบส่วนกลางของ Office 365 ผู้อื่นได้รับข้อผิดพลาด 404
 
-| โหนดของความจุ | วี-คอร์รวม<br/>*(Backend + frontend)* | วี-คอร์ Backend | วี-คอร์ Frontend | การจำกัดการเชื่อมต่อ DirectQuery/live | หน้าสูงสุดที่แสดงในชั่วโมงที่เรียกใช้มากที่สุด | ความพร้อมใช้งาน |
+| โหนดของความจุ | วี-คอร์รวม<br/>*(Backend + frontend)* | วี-คอร์ Backend | วี-คอร์ Frontend | การจำกัดการเชื่อมต่อ DirectQuery/live | ความพร้อมใช้งาน |
 | --- | --- | --- | --- | --- | --- | --- |
-| [EM1 (แบบรายเดือน)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 v-core |0.5 v-cores 2.5-GB RAM |0.5 v-cores |3.75 ต่อวินาที |150-300 |พร้อมใช้งาน |
-| [EM2 (แบบรายเดือน)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 v-cores |1 v-core, 5-GB RAM |1 v-core |7.5 ต่อวินาที |301-600 |พร้อมใช้งาน |
-| [EM3 (แบบรายเดือน)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 v-cores |2 v-cores, 10-GB RAM |2 v-cores | |601-1,200 |พร้อมใช้งาน |
-| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 v-cores |4 v-cores, 25-GB RAM |4 v-cores |30 ต่อวินาที |1,201-2,400 |พร้อมใช้งาน ([รายเดือน](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)พร้อมใช้งานเช่นกัน) |
-| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 v-cores |8 v-cores, 50-GB RAM |8 v-cores |60 ต่อวินาที |2,401-4,800 |พร้อมใช้งาน |
-| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 v-cores |16 v-cores, 100-GB RAM |16 v-cores |120 ต่อวินาที |4,801-9600 |พร้อมใช้งาน |
+| [EM1 (แบบรายเดือน)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 v-core |0.5 v-cores 2.5-GB RAM |0.5 v-cores |3.75 ต่อวินาที |พร้อมใช้งาน |
+| [EM2 (แบบรายเดือน)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 v-cores |1 v-core, 5-GB RAM |1 v-core |7.5 ต่อวินาที |พร้อมใช้งาน |
+| [EM3 (แบบรายเดือน)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 v-cores |2 v-cores, 10-GB RAM |2 v-cores | |พร้อมใช้งาน |
+| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 v-cores |4 v-cores, 25-GB RAM |4 v-cores |30 ต่อวินาที |พร้อมใช้งาน ([รายเดือน](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)พร้อมใช้งานเช่นกัน) |
+| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 v-cores |8 v-cores, 50-GB RAM |8 v-cores |60 ต่อวินาที |พร้อมใช้งาน |
+| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 v-cores |16 v-cores, 100-GB RAM |16 v-cores |120 ต่อวินาที |พร้อมใช้งาน |
 | | | | | | | |
 
 * วี-คอร์ Frontend รับผิดชอบบริการเว็บ แดชบอร์ด และการจัดการเอกสารรายงาน การจัดการสิทธิ์การเข้าถึง การจัดกำหนดการ API การอัปโหลดและการดาวน์โหลด และโดยทั่วไปนั้นเพื่อทุกอย่างที่เกี่ยวกับประสบการณ์การใช้งานของผู้ใช้

@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: e396f46987ef14aac9361e8f7ef41e90b2d8383e
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 96cd04385bec6d4b9b47e3e05a30820b2f19f3dd
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180886"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301884"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>บทช่วยสอน: ฝังรายงาน Power BI แดชบอร์ด หรือไทล์ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ
 
@@ -104,7 +104,7 @@ ms.locfileid: "53180886"
 
 ## <a name="set-up-your-power-bi-environment"></a>ตั้งค่าสภาพแวดล้อม Power BI ของคุณ
 
-### <a name="create-an-app-workspace"></a>สร้างพื้นที่ทำงานสำหรับแอปฯ
+### <a name="create-an-app-workspace"></a>สร้างพื้นที่ทำงานสำหรับแอป
 
 หากคุณกำลังฝังรายงาน, แดชบอร์ด หรือไทล์สำหรับลูกค้า คุณต้องวางเนื้อหาลงในพื้นที่ทำงานแอป บัญชี*หลัก*จะต้องเป็นผู้ดูแลระบบของพื้นที่ทำงานแอป
 
@@ -338,14 +338,14 @@ var embedConfig = new EmbedConfig()
 
 ใช้ตารางด้านล่างเพื่อกำหนดความจุ Power BI Embedded ที่เหมาะกับความต้องการของคุณที่สุด
 
-| โหนดของความจุ | แกนทั้งหมด<br/>*(Backend + frontend)* | Backend Cores | Frontend Cores | การจำกัดการเชื่อมต่อ DirectQuery/live | หน้าสูงสุดที่แสดงในชั่วโมงที่เรียกใช้มากที่สุด |
+| โหนดของความจุ | แกนทั้งหมด<br/>*(Backend + frontend)* | Backend Cores | Frontend Cores | การจำกัดการเชื่อมต่อ DirectQuery/live|
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 v-core(s) |0.5 core(s), 3-GB RAM |0.5 cores |0 5 per second |1-300 |
-| A2 |2 v-core(s) |1 core(s), 5-GB RAM |1 cor(e) | 10 ต่อวินาที |301-600 |
-| A3 |4 v-core(s) |2 core(s), 10-GB RAM |2 core(s) | 15 ต่อวินาที |601-1,200 |
-| A4 |8 v-core(s) |4 core(s), 25-GB RAM |4 core(s) |30 ต่อวินาที |1,201-2,400 |
-| A5 |16 v-core(s) |8 core(s), 50-GB RAM |8 core(s) |60 ต่อวินาที |2,401-4,800 |
-| A6 |32 v-core(s) |16 core(s), 100-GB RAM |16 core(s) |120 ต่อวินาที |4,801-9600 |
+| A1 |1 v-core(s) |0.5 core(s), 3-GB RAM |0.5 cores |0 5 per second |
+| A2 |2 v-core(s) |1 core(s), 5-GB RAM |1 cor(e) | 10 ต่อวินาที |
+| A3 |4 v-core(s) |2 core(s), 10-GB RAM |2 core(s) | 15 ต่อวินาที |
+| A4 |8 v-core(s) |4 core(s), 25-GB RAM |4 core(s) |30 ต่อวินาที |
+| A5 |16 v-core(s) |8 core(s), 50-GB RAM |8 core(s) |60 ต่อวินาที |
+| A6 |32 v-core(s) |16 core(s), 100-GB RAM |16 core(s) |120 ต่อวินาที |
 
 **_ด้วย A SKU คุณไม่สามารถเข้าถึงเนื้อหา Power BI ที่มีสิทธิ์การใช้งาน Power BI ฟรี_**
 

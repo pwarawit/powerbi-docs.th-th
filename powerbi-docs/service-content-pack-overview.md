@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 11/20/2018
 ms.author: maggies
 ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289208"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451363"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>ภาพรวมของโครงการชุดเนื้อหาบริการของ Power BI
 ชุดเนื้อหาคือ ชุดของเนื้อหาสำเร็จรูป ที่ให้ผู้ใช้สามารถรับข้อมูลเชิงลึกจากแหล่งข้อมูลได้ในทันที ชุดเนื้อหามักจะเน้นไปยังสถานการณ์ทางธุรกิจที่เฉพาะเจาะจง ให้ข้อมูลเชิงลึกสำหรับบทบาท โดเมน หรือเวิร์กโฟลว์

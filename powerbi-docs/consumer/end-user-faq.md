@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 12/21/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e329b40c0be55ce164ab487b7eb1d3006062b15a
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: be92d60e2f1fd6a9ea21cac37325ccfd58ba0687
+ms.sourcegitcommit: 2c77439e4bf66d239baf19ae2ce0eed6c5c7f13c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280684"
+ms.lasthandoff: 12/22/2018
+ms.locfileid: "53748547"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>คำถามที่ถามบ่อยเกี่ยวกับ Power BI
 * ถ้าคุณมีคำถามอื่น [ลองถามชุมชน Power BI](http://community.powerbi.com/)
@@ -29,6 +29,10 @@ ms.locfileid: "53280684"
 Power BI Pro เป็นสิทธิ์การใช้งานสำหรับแต่ละบุคคล ที่ให้การเข้าถึงเนื้อหาและความสามารถทั้งหมดในบริการของ Power BI รวมถึงความสามารถในการแชร์เนื้อหาและทำงานร่วมกับผู้ใช้อื่นที่มีสิทธิ์การใช้งานแบบ Pro ได้ เฉพาะผู้ใช้แบบ Pro เท่านั้นที่สามารถเผยแพร่เนื้อหา หรือใช้เนื้อหาจากพื้นที่ทำงานจากแอป, แชร์แดชบอร์ด และสมัครสมาชิกแดชบอร์ดและรายงานได้ 
 
 Premium มอบความสามารถเฉพาะด้านเพื่อให้เกิดประสิทธิภาพที่สม่ำเสมอและรองรับปริมาณข้อมูลที่มากขึ้นใน Power BI สำหรับผู้ใช้แต่ละราย พรีเมี่ยมยังช่วยให้สามารถกระจายเนื้อหาได้อย่างกว้างขวางโดยผู้ใช้ Pro โดยไม่ต้องมีใบอนุญาตต่อผู้ใช้สำหรับผู้รับที่ดูเนื้อหา
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>เกิดอะไรขึ้นถ้าสิทธิ์การใช้งาน Power BI Pro ของฉันหมดอายุ
+ไม่มีช่วงเวลาผ่อนผัน 30 วันหลังจากสิทธิ์การใช้งาน Power BI Pro หมดอายุ
+Power BI Pro มีระยะเวลาการสมัครใช้งานแบบเดียวกับ Office 365 สำหรับข้อมูลเพิ่มเติม ให้ดู[เกิดอะไรขึ้นกับข้อมูลของฉันและการเข้าถึงเมื่อการสมัครใช้งานทางธุรกิจ Office 365 ของฉันได้สิ้นสุด](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>ถ้าฉันมีคำถามเกี่ยวกับ Power BI Premium จะทำอย่างไร
 สำหรับคำถามที่เกี่ยวข้องกับ Power BI Premium ให้ดู[Power BI Premium FAQ](../service-premium-faq.md)
