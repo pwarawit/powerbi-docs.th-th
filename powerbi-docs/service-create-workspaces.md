@@ -11,11 +11,11 @@ ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452648"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451432"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>สร้างพื้นที่ทำงานกับเพื่อนร่วมงานของคุณใน Power BI
 
@@ -27,7 +27,7 @@ ms.locfileid: "52452648"
 
 **คุณทราบหรือไม่** Power BI กำลังแสดงตัวอย่างการใช้งานพื้นที่ทำงานใหม่ อ่าน[สร้างพื้นที่ทำงานใหม่ (ตัวอย่าง)](service-create-the-new-workspaces.md) เพื่อดูว่าพื้นที่ทำงานจะเปลี่ยนแปลงไปอย่างไรในอนาคต 
 
-## <a name="video-apps-and-app-workspaces"></a>วิดีโอ: แอปฯและพื้นที่ทำงานของแอปฯ
+## <a name="video-apps-and-app-workspaces"></a>วิดีโอ: แอปและพื้นที่ทำงานของแอป
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-an-app-workspace-based-on-an-office-365-group"></a>สร้างพื้นที่ทำงานแอปโดยอาศัยกลุ่ม Office 365

@@ -1,31 +1,29 @@
 ---
 title: ดูโหมดงานนำเสนอบน Surface Hub, Windows 10 - Power BI
 description: อ่านเกี่ยวกับการแสดงรายงาน Power BI ใน Surface Hub และการแสดงแดชบอร์ด รายงาน และไทล์ Power BI ในโหมดเต็มหน้าจอบนอุปกรณ์ Windows 10
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: maggies
-ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.date: 12/10/2018
+ms.author: mshenhav
+ms.openlocfilehash: 49a1d8386159966171b46801d3bfe3685b2a6bb2
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507944"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301769"
 ---
-# <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>ดูรายงานในโหมดงานนำเสนอบน Surface Hub และ Windows 10 - Power BI
-คุณสามารถแสดงรายงานในโหมดงานนำเสนอบน Surface Hub และแสดงแดชบอร์ด รายงาน และไทล์ในโหมดเต็มหน้าจอบนอุปกรณ์ Windows 10 
+# <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>ดูรายงานและแดชบอร์ดในโหมดงานนำเสนอบน Surface Hub และอุปกรณ์ Windows 10
+คุณสามารถใช้โหมดการนำเสนอเพื่อแสดงรายงานและแดชบอร์ดแบบเต็มหน้าจอบนอุปกรณ์ Windows 10 และ Surface Hub 
 
 ![รายงานในโหมดเต็มหน้าจอ](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode.png)
 
-โหมดงานนำเสนอและโหมดเต็มหน้าจอมีประโยชน์สำหรับการแสดง Power BI ในการประชุม หรือบนโปรเจคเตอร์เฉพาะในสำนักงาน หรือแม้แต่เพียงเพื่อการขยายพื้นที่บนหน้าจอขนาดเล็ก 
+โหมดการนำเสนอมีประโยชน์สำหรับการแสดง Power BI ในการประชุม หรือบนโปรเจคเตอร์เฉพาะในสำนักงาน หรือแม้แต่เพียงเพื่อการขยายพื้นที่บนหน้าจอขนาดเล็ก 
 
-ในโหมดเต็มหน้าจอในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ทั้งหมด "chrome" เช่น แถบนำทางและแถบเมนูจะถูกนำออก ยกเว้นแท็บหน้าและบานหน้าต่างตัวกรองในรายงาน
-
-เมื่อคุณแสดงรายงานในโหมดงานนำเสนอบน Surface Hub คุณสามารถวาดบนหน้าด้วยหมึกสีต่างๆ และนำทางไปมาระหว่างหน้าของรายงาน
+ในโหมดการนำเสนอบนแอปมือถือ Power BI สำหรับ Windows 10 "chrome" ทั้งหมดเช่น แถบนำทางและเมนูจะถูกเอาออกเพื่อให้คุณและสมาชิกในทีมของคุณสามารถเน้นไปที่ข้อมูลในรายงานของคุณ แถบเครื่องมือที่มีการดำเนินการจะพร้อมใช้งานสำหรับคุณและช่วยให้คุณสามารถโต้ตอบและทำงานร่วมกับข้อมูลของคุณได้ในขณะที่อยู่ในโหมดการนำเสนอ
 
 คุณยังสามารถ[แสดงแดชบอร์ดและรายงานในโหมดเต็มหน้าจอจากบริการ Power BI](../end-user-focus.md)บนเว็บได้
 
@@ -34,44 +32,24 @@ ms.locfileid: "51507944"
 > 
 > 
 
-## <a name="display-dashboards-reports-and-tiles-in-full-screen-mode"></a>แสดงแดชบอร์ด รายงาน และไทล์ในโหมดเต็มหน้าจอ
-1. ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่บนแดชบอร์ด รายงาน หรือไทล์ ให้แตะไอคอน**เต็มหน้าจอ** ![ไอคอนเต็มหน้าจอ](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png)เพื่อไปยังโหมดเต็มหน้าจอ
-2. ในโหมดการนำเสนอ คุณสามารถกรองรายงาน หรือค้นหาแดชบอร์ดและรายงานอื่นๆ
-   
-    ขยายบานหน้าต่างตัวกรองเพื่อตั้งค่า หรือเอาตัวกรองออก
-   
-    ![พื้นที่ตัวกรอง](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-filter.png)
-   
-     แตะคอนค้นหา ![ไอคอนค้นหา](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) เมื่อต้องค้นหาแดชบอร์ดอื่น
-   
-    ![ผลลัพธ์การค้นหา](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-search.png)
-3. เมื่อต้องการออกจากโหมดเต็มหน้าจอ ให้แตะไอคอนที่มีลูกศร 2 อันหันหน้าเข้าหากัน ![ออกจากโหมดเต็มหน้าจอ](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) บนแถบเครื่องมือ หรือปัดลงจากด้านบน แล้วแตะที่ลูกศร 2 อันที่หันเข้าหากัน ![ออกจากโหมดเต็มหน้าจอ](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
+## <a name="use-presentation-mode"></a>ใช้โหมดการนำเสนอ
+ในแอปมือถือ Power BI แตะไอคอน**เต็มหน้าจอ**เพื่อไปยังโหมดเต็มหน้าจอ
+![ไอคอนเต็มหน้าจอ](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) แอป Chrome จะหายไปและแถบเครื่องมือจะปรากฏที่ด้านล่างของหน้าจอหรือทางด้านขวาและซ้าย (ขึ้นอยู่กับขนาดหน้าจอของคุณ)
 
-## <a name="turn-on-presentation-mode-for-surface-hub"></a>เปิดโหมดการนำเสนอสำหรับ Surface Hub
-โหมดการนำเสนอจะเปิดตามค่าเริ่มต้นใน Surface Hub แต่ถ้าปิดอยู่ คุณสามารถเปิดใหม่อีกครั้ง
+![รายงานในโหมดเต็มหน้าจอด้วยแถบเครื่องมือด้านข้าง](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode2.png)
 
-1. แตะไอคอนการตั้งค่า ![ไอคอนการตั้งค่า](./media/mobile-windows-10-app-presentation-mode/power-bi-settings-icon.png) ที่ด้านล่างของแถบนำทางด้านซ้าย
-2. แตะ**ตัวเลือก**แล้วเลื่อน**โหมดการนำเสนอของ Microsoft Surface Hub**เพื่อ**เปิด**
-   
-    ![เปิดโหมดการนำเสนอ](./media/mobile-windows-10-app-presentation-mode/power-bi-turn-on-presentation-mode.png)
+จากแถบเครื่องมือ คุณสามารถดำเนินการต่อไปนี้:
 
-## <a name="display-and-draw-on-reports-on-surface-hub"></a>แสดงและวาดรายงานบน Surface Hub
-1. ในรายงาน ให้แตะไอคอน**เต็มหน้าจอ** ![ไอคอนเต็มหน้าจอ](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png)เพื่อไปยังโหมดการนำเสนอของ Surface Hub
-   
-    คุณมองเห็นแถบการดำเนินการที่ยุบลงได้ทั้งสองด้านของหน้าจอ 
-   
-   * เมื่อต้องการเปิด ให้ปัดเข้าหรือแตะที่ตัวจัดการ
-   * เมื่อต้องการปิด ให้ปัดออกหรือแตะ X ที่ด้านบน
-2. บนอุปกรณ์ที่สนับสนุนการเขียนด้วยปากกา คุณสามารถเริ่มการเขียนแบบทันทีได้ 
-3. เมื่อต้องเปลี่ยนสีหมึก แตะปากกาในแถบการกระทำด้านซ้ายหรือขวา
-   
-    ![หมึก Surface hub](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-ink.png)
-4. แตะยางลบหรือลูกศรเลิกทำเพื่อลบหมึกบางส่วนหรือทั้งหมดออก
-5. แตะลูกศรเวียนเพื่อรีเฟรชเนื้อหารายงาน
-6. แตะลูกศรชี้ทางด้านข้างเมื่อต้องไปยังหน้าอื่นในรายงาน
-   
-    ![ลูกศรชี้ทางด้านข้างไปยังหน้าอื่น](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-arrows.png)
-7. เมื่อต้องการออกจากโหมดเต็มหน้าจอ ปัดลงจากด้านบน แล้วแตะที่ลูกศร 2 อันที่หันเข้าหากัน![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png)
+1. แตะไอคอนย้อนกลับ ![ไอคอนย้อนกลับ](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) กลับไปยังหน้าก่อนหน้าของคุณ การแตะที่ไอคอนเป็นระยะเวลานานจะปรากฏหน้าต่าง breadcrumbs ช่วยคุณนำทางไปยังโฟลเดอร์ที่มีรายงานหรือแดชบอร์ดของคุณ
+2. ไอคอนหมึก ![ไอคอนหมึก](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) จะช่วยให้สามารถเลือกสีได้เมื่อคุณใช้ปากกา Surface เพื่อวาด และใส่คำอธิบายประกอบบนหน้ารายงานของคุณ 
+3. ใช้ไอคอนหน้า ![ไอคอนการแบ่งหน้า](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) เมื่อต้องแทนหน้ารายงานที่คุณกำลังนำเสนอในปัจจุบัน
+4. แตะคอนค้นหา ![ไอคอนค้นหา](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) เมื่อต้องค้นหาสิ่งประดิษฐ์อื่นใน Power BI
+5. เมื่อต้องการออกจากโหมดการนำเสนอ ให้แตะไอคอนที่มีลูกศร 2 อันหันหน้าเข้าหากัน ![ออกจากโหมดเต็มหน้าจอ](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) บนแถบเครื่องมือ
+
+คุณสามารถปลดการเชื่อมต่อแถบเครื่องมือและลากเพื่อค้นหาได้ทุกที่บนหน้าจอ ซึ่งจะเป็นประโยชน์สำหรับหน้าจอขนาดใหญ่ เมื่อคุณต้องการเน้นบริเวณที่ระบุในรายงานของคุณ และต้องการให้มีเครื่องมือที่พร้อมใช้งานอยู่ถัดจากรายงานด้วย เพียงแค่วางนิ้วของคุณบนแถบเครื่องมือ และปัดลงในพื้นที่รายงาน
+
+![รายงานในโหมดการนำเสนอและแถบเครื่องมือที่ปลดการเชื่อมต่อ](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar.png)
+
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [แสดงแดชบอร์ดและรายงานในโหมดเต็มหน้าจอจากบริการของ Power BI](../end-user-focus.md)

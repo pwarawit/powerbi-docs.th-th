@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 58c9d41769179b84d9d7cdc79d02f66bc4c99953
-ms.sourcegitcommit: 76b07d55e85110a6ae8c49e08e80e4fa63826166
+ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/11/2018
-ms.locfileid: "53200660"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649056"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับที่เก็บกระแสข้อมูล (ตัวอย่าง)
 
@@ -76,7 +76,7 @@ ms.locfileid: "53200660"
 
 คุณต้องสร้างไฟล์ระบบชื่อว่า*powerbi*ก่อนที่บัญชีเก็บข้อมูลของคุณ จะสามารถเพิ่มเข้าไปยัง Power BI ได้ มีหลายวิธีในการสร้างไฟล์ระบบดังกล่าว รวมถึงการใช้ Azure Databricks, HDInsight, AZCopy หรือ Azure Storage Explorer ส่วนนี้แสดงวิธีการสร้างแฟ้มระบบโดยใช้ Azure Storage Explorer อย่างง่าย
 
-ขั้นตอนนี้จำเป็นต้องให้คุณต้องติดตั้ง Azure Storage Explorer เมื่อต้องการติดตั้ง Azure Storage Explorer สำหรับ Windows, Macintosh หรือ Linux ให้ดูที่[Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/)
+ขั้นตอนนี้จำเป็นต้องให้คุณต้องติดตั้ง Azure Storage Explorer เวอร์ชัน 1.6.1 หรือสูงกว่า เมื่อต้องการติดตั้ง Azure Storage Explorer สำหรับ Windows, Macintosh หรือ Linux ให้ดูที่[Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/)
 
 1. เมื่อคุณสำเร็จการติดตั้ง Azure Storage Explorer เรียบร้อยแล้ว ในการเปิดใช้งานครั้งแรกระบบจะมีการแสดหน้าต่างการเชื่อมต่อ Azure Microsoft Explorer ขึ้นมาให้เห็น แม้ว่า Storage Explorer จะมีหลายวิธีในการเชื่อมต่อเข้ากับบัญชีเก็บข้อมูล แต่ในขณะนี้มีเพียงวิธีเดียวเท่านั้นที่สามารถใช้ได้กับการติดตั้งตามที่กำหนด 
 
@@ -108,11 +108,11 @@ ms.locfileid: "53200660"
 
     ![ADD แอปพลิเคชันขององค์กร](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
 
-4. ในแถบค้นหา พิมพ์*Power*และคอลเลกชันของ Object ID สำหรับแอปพลิเคชัน Power BI และ Power Query จะปรากฏขึ้น
+4. ในแถบค้นหา พิมพ์*Power*และคอลเลกชันของ Object ID สำหรับแอปพลิเคชัน Power BI และ Power Query จะปรากฏขึ้น คุณจำเป็นต้องใช้ค่าสามค่าทั้งหมดในขั้นตอนต่อไป  
 
     ![ค้นหาแอปพลิเคชัน Power](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. เลือกและคัดลอก Object ID สำหรับบริการ Power BI จากผลลัพธ์การค้นหาของคุณ เตรียมพร้อมที่จะวางค่าตัวเลขนั้นในขั้นตอนต่อไป
+5. เลือกและคัดลอกทั้ง Object ID สำหรับบริการ Power BI และ Power BI premium จากผลลัพธ์การค้นหาของคุณ เตรียมพร้อมที่จะวางค่าตัวเลขเหล่านั้นในขั้นตอนต่อไป
 
 7. ถัดไป ใช้**Azure Storage Explorer**เพื่อนำทางไปยังไฟล์ระบบ*powerbi*ที่คุณสร้างขึ้นในส่วนก่อนหน้านี้ ทำตามคำแนะนำในบทความ[การจัดการการเข้าถึง](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)ในส่วนของ[ตั้งค่าไฟล์และระดับสิทธิ์การให้อนญาตการเข้าถึงโดยใช้ Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)
 
@@ -120,7 +120,7 @@ ms.locfileid: "53200660"
 
    ![สำหรับทั้งคู่ กำหนดทั้งสาม](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. สำหรับ Power Query Online Object ID ที่ถูกเก็บไว้ในขั้นตอนที่ 5 กำหนดให้ **เขียน**, **ดำเนินการ** เข้าถึงและตั้งเป็นค่าเริ่มต้น ACL ให้กับไฟล์ระบบ*powerbi* ของคุณ
+9. สำหรับ Power Query Online Object ID ที่เก็บไว้ในขั้นตอนที่ 4 กำหนดให้ **เขียน**, **ดำเนินการ** เข้าถึงและตั้งเป็นค่าเริ่มต้น ACL ในระบบไฟล์*powerbi* ของคุณ
 
    ![ถัดไป กำหนดให้เขียนและดำเนินการ](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 

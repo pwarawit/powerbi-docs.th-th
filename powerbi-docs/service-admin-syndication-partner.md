@@ -11,10 +11,10 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 12/18/2018
 ms.locfileid: "52157413"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>ไม่สามารถเพิ่ม Power BI กับ Office 365 ที่สมัครผ่านคู่ค้า
@@ -53,7 +53,7 @@ Office 365 อนุญาตให้บริษัทสามารถขา
 
 ### <a name="enable-ad-hoc-subscriptions"></a>เปิดใช้งานการสมัครใช้งานแบบเฉพาะกิจ
 
-ตามค่าเริ่มต้น การลงทะเบียนรายบุคคล (หรือที่เรียกว่าการสมัครแบบเฉพาะกิจ) จะถูกปิดการใช้งาน ในกรณีนี้ คุณจะเห็นข้อความต่อไปนี้เมื่อคุณพยายามลงทะเบียน: *แผนก IT ของคุณได้ปิดการลงทะเบียนสำหรับ Microsoft Power BI*
+ตามค่าเริ่มต้น การลงทะเบียนรายบุคคล (หรือที่เรียกว่าการสมัครแบบเฉพาะกิจ) จะถูกปิดการใช้งาน ในกรณีนี้ คุณจะเห็นข้อความต่อไปนี้เมื่อคุณพยายามลงทะเบียน: *แผนก IT ของคุณได้ปิดใช้งานการลงทะเบียนสำหรับ Microsoft Power BI*
 
 ![รูปภาพขออภัย](media/service-admin-syndication-partner/sorry.png)
 

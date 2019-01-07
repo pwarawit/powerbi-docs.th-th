@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: e09c08780011ffaac7d37468e6018b079c41c669
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619827"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329751"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับข้อมูลจากแหล่งต่าง ๆ มากมายด้วย Power BI Desktop รายการทั้งหมดของแหล่งข้อมูลที่พร้อมใช้งานอยู่ที่ด้านล่างของหน้านี้
@@ -78,6 +78,7 @@ ms.locfileid: "51619827"
 * Impala
 * Google BigQuery
 * Snowflake
+* Essbase (เบต้า)
 * BI Connector
 * Exasol
 * Dremio (iรุ่นเบต้า)
@@ -177,7 +178,7 @@ ms.locfileid: "51619827"
 * OLE DB
 * Denado
 * Paxata (เบต้า)
-* Blank Query
+* คิวรีที่ว่างเปล่า
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**อื่น ๆ**
 
