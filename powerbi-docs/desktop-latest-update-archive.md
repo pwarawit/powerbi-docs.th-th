@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3e8e8359742a422049751a348bce6a5d4015bd72
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 129649367efa3a2b23fbf3be181e14df158eba02
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619873"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329866"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -33,6 +33,57 @@ ms.locfileid: "51619873"
 คุณยังสามารถดูวิดีโอ**อัปเดตล่าสุด**เริ่มตั้งแต่แรก จากภายในบทความนี้เลย โดยคลิกที่ไอคอน**เล่น**บนรูปภาพวิดีโอที่อยู่ด้านล่างรายการการอัปเดตได้
 
 ส่วนต่อไปนี้อธิบายวิธีการอัปเดตเดือนก่อนหน้าไปยัง**Power BI Desktop**
+
+## <a name="november-2018-update-2645285461"></a>อัปเดตประจำเดือนพฤศจิกายน 2018 (2.64.5285.461)
+
+อัปเดตประจำเดือนพฤศจิกายน เรามีคุณลักษณะและฟังก์ชันการทำงานใหม่ๆ ดังนั้นคุณแค่เตรียมพร้อมรับชุดของข้อมูลและการวิเคราะห์ที่น่าสนใจ ทำตัวให้สบายและรอการอัปเดตใหม่ของเรา 
+
+การอัปเดตต่อไปนี้จะเป็นการอัปเดตใหม่สำหรับ **Power BI Desktop** ในเดือนพฤศจิกายน:
+
+### <a name="reporting"></a>การรายงาน
+
+* ขยาย และยุบส่วนหัวของแถวเมทริกซ์[[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=16)[[บทความ]](power-bi-reports-filters-and-highlighting.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23expandCollapse) 
+* คัดลอก และวางระหว่างไฟล์เดสก์ท็อป[[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=199)[[บทความ]](desktop-report-view.md#copy-and-paste-between-reports)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23copyPaste)
+* อัปเดตการใช้งาน (ตัวอย่าง) การกรอง[[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=410)[[บทความ]](power-bi-reports-filters-and-highlighting.md)[[บล็อก]     ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23filterPane)
+* รายงานการปรับปรุงการเข้าถึง[[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=1036)[[บทความ]](desktop-accessibility.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23reportAccessibility)
+
+### <a name="analytics"></a>การวิเคราะห์
+
+* สีเข้มบนภาพอัปเกรดเป็นใช้การจัดรูปแบบตามเงื่อนไข[[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=1224)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23conditionalFormatting) 
+* ติดตามคำถามในถามตอบ explorer [[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=1429)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
+
+
+### <a name="modeling"></a>การวางรูปแบบ
+
+* สร้างมุมมองแบบจำลอง (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=1642)[[บทความ]](desktop-modeling-view.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
+* สีผสมแบบจำลองในขณะนี้พร้อมใช้งานแล้วสำหรับ[[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=1941)[[บทความ]](desktop-composite-models.md)[[บล็อก] ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23compositeModels) 
+* ปรับปรุงการเข้าถึงการสร้างโมเดล[[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=2023)[[บทความ]](desktop-accessibility.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
+* ฟังก์ชัน DAX ใหม่[[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=2066)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
+
+### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+
+* ห้าวิชวลใหม่แบบกำหนดเอง[[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=2108)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
+
+### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
+
+* ตัวเชื่อมต่อเซิร์ฟเวอร์ DevOps azure [[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=2641)[[บล็อก] ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
+* ตัวเชื่อมต่อ PDF สนับสนุนสำหรับหน้าเริ่มต้นและสิ้นสุดหน้าพารามิเตอร์[[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=2667)[[บทความ]](desktop-connect-pdf.md)[[บล็อก]     ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23pdf) 
+* ปรับปรุงตัวเชื่อมต่อ Azure Consumption Insights [[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=2704)[[บทความ]](desktop-connect-azure-consumption-insights.md)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23consumptionInsights) 
+
+
+> [!NOTE]
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+
+ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
+
+
+ช่องวิดีโอต่อไปนี้จะอธิบายและแสดงแต่ละการอัปเดตเหล่านี้ คุณยังสามารถเห็นวิดีโอได้จากบล็อกโพสต์อีกด้วย
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1xsXXoyTxfk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
+
 
 ## <a name="october-2018-update-263327240262"></a>การอัปเดตประจำเดือนตุลาคม 2018 (2.63.3272.40262)
 
@@ -273,7 +324,7 @@ ms.locfileid: "51619873"
 * ปรับปรุงตัวเชื่อมต่อ OData V4 [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=25m12s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#oData) 
 * การปรับปรุงตัวเชื่อมต่อ ODBC (สนับสนุนการพับสำหรับแถวด้านบนสุด ความสามารถในการกรองการนำทางโดยแค็ตตาล็อก DSN) [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=26m51s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#odbc) 
 
-### <a name="other"></a>อื่นๆ
+### <a name="other"></a>อื่น ๆ
 
 * ตัวเลือก sovereign cloud [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
@@ -363,9 +414,9 @@ ms.locfileid: "51619873"
 ### <a name="analytics"></a>การวิเคราะห์
 
 * ปรับปรุงรูปแบบภาษา [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=22m)[[บทความ]](power-bi-custom-visuals-organization.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
-* ฟังก์ชัน DAX ใหม่: COMBINEVALUES() [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=23m37s)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
+* ฟังก์ชัน DAX ใหม่: COMBINEVALUES()  [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=23m37s)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
 
-### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
+### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
 
 * สามารถใช้ วิชวลองค์กร ได้ทั่วไป [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=26m11s)[[บทความ]](power-bi-custom-visuals-organization.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
 * วิชวลแบบกำหนดเองใหม่มากมาย [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=28m8s)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
@@ -373,7 +424,7 @@ ms.locfileid: "51619873"
 ### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
 
 * สามารถใช้ตัวเชื่อมต่อ Adobe Analytics ได้ทั่วไป [[วิดีโอ]](https://youtu.be/kuI6MMzDh34?t=32m) [[บทความ]](desktop-multi-select.md)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#adobeAnalytics) 
-* ปรับปรุงตัวเชื่อมต่อ SAP HANA: การเลือกพอร์ต [[วิดีโอ]](https://youtu.be/kuI6MMzDh34?t=32m44s)[[บทความ]](desktop-directquery-sap-hana.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
+* การปรับปรุงตัวเชื่อมต่อ SAP HANA: การเลือกพอร์ต [[วิดีโอ]](https://youtu.be/kuI6MMzDh34?t=32m44s) [[บทความ]](desktop-directquery-sap-hana.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
 * ตัวเชื่อมต่อ Dynamics 365 Business Central [[วิดีโอ]](https://youtu.be/kuI6MMzDh34?t=34m10s)[[บทความ]](desktop-directquery-sap-hana.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#dynamics365BusinessCentral) 
 
 
@@ -1584,7 +1635,7 @@ ms.locfileid: "51619873"
     -   เพิ่มข้อมูลเค้าร่างไปยังลำดับชั้นการนำทางสำหรับแหล่งข้อมูล ODBC
     -   ความสามารถในการปิดใช้งานการแสดงตัวอย่างจาก**ตัวนำทาง**
     -   สนับสนุนชื่อทางเทคนิค
--   การโหลด: ขั้นตอนอัตโนมัติเพื่อแยกแยะชื่อคอลัมน์ขัดแย้งกัน (การเปรียบเทียบความไวต่ออักษรใหญ่เล็ก)
+-   การโหลด: ขั้นตอนอัตโนมัติในการแยกชื่อคอลัมน์ขัดแย้งกัน (การเทียบตรงตามตัวพิมพ์ใหญ่เล็ก)
 -   ตอนนี้คุณสามารถเปลี่ยนชื่อแบบสอบถามได้โดยตรงจากช่อง**แบบสอบถาม**
 
 
@@ -1612,8 +1663,8 @@ ms.locfileid: "51619873"
 -   ดูข้อมูลเบื้องหลังภาพ (รวมถึง*การส่งออกข้อมูลไปยัง CSV*)
 -   การปรับปรุงแผนที่ - ทำแผนที่ด้วยละติจูด/ลองจิจูดเท่านั้น
 -   การสนับสนุนการเผยแพร่การใช้งาน KPI (รวมถึงสนับสนุนลำดับชั้นการนำทางและแนวโน้ม KPI สำหรับ SSAS MD)
--   โหมดสำรวจ SSAS: สนับสนุนสำหรับโฟลเดอร์**แสดงผล**ในช่องพื้นที่**ข้อมูล**
--   การปรับปรุงเค้าโครง Ribbon: แถบ Ribbon ตามบริบทสำหรับ**เครื่องมือรายงาน**
+-   โหมดสำรวจ SSAS: รองรับสำหรับโฟลเดอร์**แสดงผล**ในช่องพื้นที่**ข้อมูล**
+-   ปรับปรุงเค้าโครง Ribbon: แท็บ Ribbon ตามบริบทสำหรับ**เครื่องมือรายงาน**
 -   KPI ภาพใหม่
 -   รับรายงานและเปิดไปยังหน้าเดียวกันที่สามารถมองเห็นได้เมื่อทำการบันทึกรายงานดังกล่าว
 -   ตัวเลือก**แก้ไขแบบสอบถาม**ในเมนูบริบทแบบตารางในช่องพื้นที่ข้อมูล (มุมมอง**ข้อมูล** & **รายงาน**)
@@ -1623,7 +1674,7 @@ ms.locfileid: "51619873"
 ### <a name="data-modeling"></a>แบบจำลองข้อมูล:
 
 -   ความสามารถในการกำหนดลำดับชั้น
--   ปรับปรุงประสิทธิภาพการทำงาน: การปรับเปลี่ยนชื่อตารางและคอลัมน์ให้เหมาะสม
+-   การปรับปรุงประสิทธิภาพการทำงาน: ตารางและคอลัมน์เปลี่ยนชื่อการปรับให้เหมาะสม
 
 ### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล:
 
@@ -1711,7 +1762,7 @@ ms.locfileid: "51619873"
 
 -   เพิ่มประสิทธิภาพในการแสดงภาพ:
     - สัญลักษณ์ภาพสำหรับสถานะการเรียงลำดับในภาพแบบเป็น**ตาราง**
-    - ภาพใหม่: แผนภูมิ**พื้นที่แบบซ้อนกัน**
+    - วิชวลใหม่: แผนภูมิ**พื้นที่แบบซ้อนกัน**
     - คำแนะนำเครื่องมืออัจฉริยะสำหรับแผนภูมิ**พื้นที่**และ**บรรทัด**เมื่อเลื่อนเมาส์
     - ความสามารถในการสร้างเส้น/บริเวณอ้างอิงสำหรับภาพ**คาร์ทีเซียน**
     - ป้ายชื่อข้อมูลที่ปรับปรุงแล้วสำหรับ**แผนภูมิวงกลม**และ**แผนภูมิกระจาย**
@@ -1872,7 +1923,7 @@ ms.locfileid: "51619873"
         - ทิศทางป้ายชื่อแกน X (แนวนอน / ทแยงมุม)
         - การสนับสนุนสำหรับสเกลลอการิทึมและสเกลเชิงเส้นตรงสำหรับค่าในแกน Y
         - ข้อความที่แสดงสำหรับไฮเปอร์ลิงก์ในกล่องข้อความ
-        - การปรับปรุงสำหรับการแสดงภาพที่มีอยู่: ตาราง เมทริกซ์ ตัวแบ่งส่วนข้อมูล แผนภูมิกระจาย การ์ดเดียว แผนภูมิผสม และตัววัด
+        - การปรับปรุงสำหรับการจัดรูปแบบการแสดงข้อมูลที่มีอยู่: ตาราง เมทริกซ์ ตัวแบ่งส่วนข้อมูล แผนภูมิกระจาย การ์ดเดียว แผนภูมิผสม และตัววัด
         - การสนับสนุนสำหรับการแสดงค่าควาอิ่มตัวของสีในคำแนะนำเครื่องมือ
         - ความสามารถในการปรับขนาดรูปภาพและนำตัวเลือกการจัดรูปแบบเพิ่มเติมมาใช้
 
@@ -1888,7 +1939,7 @@ ms.locfileid: "51619873"
     - คัดลอกเนื้อหาตารางไปยังคลิปบอร์ด
 - การสรุปตามช่องข้อมูล:
     - การสนับสนุนสำหรับการดำเนินการเพิ่มเติมในพื้นที่ช่องข้อมูล: ค่ามัธยฐาน ค่าเบี่ยงเบนมาตรฐาน และค่าความแปรปรวน
-    - การสรุปค่าเริ่มต้น: ในขณะนี้ผู้ใช้สามารถเลือกกำหนดข้อสรุปค่าเริ่มต้นสำหรับช่องข้อมูลใด ๆ ที่ระบุในแบบจำลองของตนได้
+    - ข้อสรุปตามค่าเริ่มต้น: ในขณะนี้ผู้ใช้สามารถเลือกกำหนดข้อสรุปตามค่าเริ่มต้นสำหรับช่องข้อมูลใด ๆ ที่ระบุในแบบจำลองของตนได้
 
 ### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
 
@@ -1912,8 +1963,8 @@ ms.locfileid: "51619873"
 - "ตรวจหาประเภทคอลัมน์" ตัวเลือกเพื่อเริ่มการตรวจหาประเภทตามความต้องการ
 - "รีเฟรชตัวอย่างทั้งหมด" เพื่อรีเฟรชตัวอย่างตัวแก้ไขแบบสอบถามทั้งหมดด้วยการคลิกครั้งเดียว
 - พัฒนาประสิทธิภาพ:
-    - เลือกกล่องโต้ตอบคอลัมน์: ประสบการณ์ของผู้ใช้ที่รวดเร็วขึ้นสำหรับการจัดการกับตารางที่กว้าง
-    - หน้าต่างแบบปรากฏขึ้นสำหรับการขยาย/รวมและตัวกรองอัตโนมัติ: รวดเร็วขึ้นสำหรับค่า/ช่องข้อมูลจำนวนมาก
+    - เลือกกล่องโต้ตอบคอลัมน์: การใช้งานของผู้ใช้ที่รวดเร็วขึ้นสำหรับการจัดการกับตารางที่กว้าง
+    - หน้าต่างแบบผุดขึ้นสำหรับขยาย/รวมและตัวกรองอัตโนมัติ: รวดเร็วขึ้นสำหรับค่า/เขตข้อมูลจำนวนมาก
 
 วิดีโอต่อไปนี้ครอบคลุมถึงคุณลักษณะหล่านี้แบบลงรายละเอียดเพิ่มเติม
 
@@ -1969,13 +2020,13 @@ ms.locfileid: "51619873"
 
 -   **ตัวเชื่อมต่อข้อมูลใหม่**: appFigures, Quickbooks Online, Zendesk, Github, Twilio และ SweetIQ
 
--   **การแปลงใหม่**: แยกอักขระแรก/สุดท้าย/ช่วงของอักขระจากคอลัมน์ข้อความ ตัวเลือกเพื่อระบุประเภทการเข้าร่วมในกล่องโต้ตอบผสานแบบสอบถาม ความสามารถในการกำหนดสไตล์ใบเสนอราคาในคอลัมน์แยกโดยตัวคั่นการโต้ตอบ
+-   **การแปลงใหม่**: แยกอักขระแรก/สุดท้าย/ช่วงของอักขระจากคอลัมน์ข้อความ ตัวเลือกเพื่อระบุประเภทการเข้าร่วมในกล่องโต้ตอบคิวรีแบบผสาน ความสามารถในการกำหนดรูปแบบใบเสนอราคาในคอลัมน์แยกโดยกล่องโต้ตอบของตัวคั่น
 
--   **รายงานการปรับปรุงการเขียน**: แสดงภาพแบบใหม่ (พื้นที่แผนภูมิ น้ำตก โดนัท และเมทริกซ์) การจัดรูปแบบภาพและตัวเลือกแบบกำหนดเองใหม่ (ป้ายชื่อ ชื่อเรื่อง พื้นหลัง คำอธิบายแผนภูมิ สี ฯลฯ) แทรกกล่องข้อความและรูปภาพในรายงานของคุณ การสนับสนุนสำหรับหลายไฮเปอร์ลิงค์ในรายงานและตารางรายงาน การเลิกทำ/ทำซ้ำการดำเนินการ
+-   **การปรับปรุงการเขียนรายงาน**: การจัดรูปแบบการแสดงข้อมูลใหม่ (แผนภูมิพื้นที่ น้ำตก โดนัท และเมทริกซ์) การจัดรูปการแสดงผลด้วยภาพและตัวเลือกการกำหนดเองใหม่ (ป้ายชื่อ ชื่อเรื่อง พื้นหลัง คำอธิบายแผนภูมิ สี ฯลฯ) แทรกกล่องข้อความและรูปภาพในรายงานของคุณ การรองรับสำหรับไฮเปอร์ลิงค์ในรายงานและตารางรายงาน การเลิกทำ/ทำซ้ำการดำเนินการ
 
 -   **การสำรวจรายงานโดยตรง**เหนือแบบจำลองตาราง Analysis Services
 
--   **สร้างแบบจำลองข้อมูล:** มุมมองข้อมูลและมุมมองความสัมพันธ์ใหม่
+-   **การสร้างแบบจำลองข้อมูล:** มุมมองข้อมูลและมุมมองความสัมพันธ์ใหม่
 
 -   เผยแพร่รายงานไปยัง PowerBI.com โดยตรงจาก Power BI Desktop
 
@@ -2001,7 +2052,7 @@ ms.locfileid: "51619873"
 
 -   จัดเรียงตามคอลัมน์อื่น
 
--   ตัวแก้ไขสูตร DAX ที่ดียิ่งขึ้น: ช่วยเหลือฟังก์ชั่นและต้นแบบ
+-   ตัวแก้ไขสูตร DAX ที่ปรับปรุงใหม่: วิธีใช้และต้นแบบของฟังก์ชัน
 
 **รับข้อมูลและแบบสอบถาม**
 
@@ -2102,7 +2153,7 @@ ms.locfileid: "51619873"
     -   ปรับปรุงขีดความสามารถในการค้นหาในต้นไม้ตัวนำทาง
 - การแปลงใหม่
   -   การดำเนินการเพิ่มและลบสำหรับคอลัมน์วันที่/เวลา
-  -   รวมคอลัมน์: ตัวเลือกเพื่อปิดใช้งานคำนำหน้าคอลัมน์ใหม่
+  -   คอลัมน์รวม: ตัวเลือกเพื่อปิดใช้งานคำนำหน้าคอลัมน์ใหม่
 - การปรับปรุงรายการช่องข้อมูล
   -   ขยาย/ย่อตาราง
   -   ซ่อน/ยกเลิกการซ่อนช่องข้อมูล
