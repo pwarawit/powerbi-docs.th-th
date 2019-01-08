@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 34e3524d561fb6f6394d69fed55c1bd29bddf4bd
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 3f0a23c2bdb97c6fbc75981c40cb92c529550b1b
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100599"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008246"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>เชื่อมต่อกับ Application Insights ด้วย Power BI
 ใช้ Power BI เพื่อสร้างแดชบอร์ดแบบกำหนดเองที่มีประสิทธิภาพจากการวัดและส่งข้อมูลทางไกล[Application Insights](/azure/application-insights/app-insights-overview/) นึกภาพการวัดและส่งข้อมูลทางไกลของแอปของคุณในรูปแบบใหม่ รวมเมตริกจากแอปหรือบริการส่วนต่างๆลงบนแดชบอร์ดเดียวกัน การวางจำหน่ายครั้งแรกของชุดเนื้อหา Power BI สำหรับข้อมูลเชิงลึกของแอปพลิเคชันนี้ มีวิดเจ็ตสำหรับการวัดที่เกี่ยวข้องกับการใช้งานทั่วไป เช่นผู้ใช้ที่ใช้งานอยู่ มุมมองหน้า เซสชัน เบราว์เซอร์ และเวอร์ชันระบบปฏิบัติการ และการเผยแพร่ทางภูมิศาสตร์ของผู้ใช้ในแผนที่
