@@ -2,20 +2,21 @@
 title: ใช้วิชวลแบบกำหนดเองที่ทำงานด้วย R ใน Power BI
 description: ใช้วิชวลแบบกำหนดเองที่ทำงานด้วย R ใน Power BI
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
-ms.author: maghan
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9f9b6faa7490ed05626f52623750ea79183d36a
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 84b6acfcf87601712622cbbd2b4e7d396f75f0b8
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187386"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056098"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>ใช้วิชวลแบบกำหนดเองที่ทำงานด้วย R ใน Power BI
 ใน **Power BI Desktop** และ **บริการของ Power BI** คุณสามารถใช้วิชวลแบบกำหนดเองที่ทำงานด้วย R โดยไม่มีความรู้ใด ๆ เกี่ยวกับ R และไม่ต้องเขียนสคริปต์ R ได้ ซึ่งช่วยให้คุณนำความสามารถการวิเคราะห์ และการแสดงผลของวิชวล R และสคริปต์ R มาใช้งาน โดยไม่ต้องการเรียนรู้ R หรือเขียนโปรแกรมเอง
@@ -33,7 +34,7 @@ ms.locfileid: "47187386"
 
 ต่อไปนี้คือขั้นตอนในการเรียกดู และเลือกวิชวลจากไซต์ออนไลน์ **AppSource**:
 
-1. นำทางไปยังไลบรารีวิชวล Power BI ที่ [https://appsource.microsoft.com](https://appsource.microsoft.com/) เลือกกล่องกาเครื่องหมาย*แอป Power BI* ภายใต้*ปรับปรุงตามผลิตภัณฑ์* แล้วเลือกลิงก์**ดูทั้งหมด**
+1. นำทางไปยังไลบรารีวิชวล Power BI ที่ [https://appsource.microsoft.com](https://appsource.microsoft.com/) เลือกกล่องกาเครื่องหมาย**แอป Power BI** ภายใต้*ปรับปรุงตามผลิตภัณฑ์* แล้วเลือกลิงก์ดูทั้งหมด
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2a.png)
 
