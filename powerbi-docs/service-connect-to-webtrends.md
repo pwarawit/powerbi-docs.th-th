@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f60fe155cb723550128ea6d35805932cb4559669
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1166808dc827448f94bb84cc37bf4000df178c1d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544750"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008683"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>เชื่อมต่อกับ Webtrends ด้วย Power BI
 ชุดเนื้อหา Webtrends สำหรับ Power BI มีเมตริกแบบนอกกล่องหลายตัว เช่นมุมองเพจทั้งหมด และการเข้าชมด้วยปริมาณการใช้งานแหล่งข้อมูล แสดงผลเป็นภาพของข้อมูล Webtrends ของคุณใน Power BI ที่เริ่มต้นโดยการเชื่อมต่อกับบัญชี Webtrends ของคุณ คุณสามารถใช้แดชบอร์ดและรายงานที่แสดงไว้ หรือปรับแต่งเพื่อไฮไลต์ข้อมูลที่คุณสนใจมากที่สุด  ข้อมูลจะรีเฟรชโดยอัตโนมัตหนึ่งครั้งต่อวัน

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3c508044e9f21c09d3115fd745320be9ad0161bc
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: bafab0768df53390d0d36730b66d1221d9012c14
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548453"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54007878"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>เชื่อมต่อกับ tyGraph ด้วย Power BI
 แสดงข้อมูลเป็นภาพและสำรวจข้อมูล tyGraph ของคุณใน Power BI ด้วยชุดเนื้อหา Power BI เริ่มต้นด้วยการเชื่อมต่อกับบัญชี tyGraph ของคุณ และโหลดแดชบอร์ด รายงาน และชุดข้อมูล เนื้อหาแบบใช้งานทันทีมีข้อมูลเชิงลึกเช่น Measure of Active Engagement (MAE score) และผู้สนับสนุนสูงสุด (Top Contributors) ปรับแต่งเพื่อไฮไลท์ข้อมูลเพิ่มเติมสำหรับข้อมูลที่คุณใส่ใจมากที่สุด  ระบบจะรีเฟรชข้อมูลโดยอัตโนมัติตามกำหนดการที่คุณตั้งค่าได้

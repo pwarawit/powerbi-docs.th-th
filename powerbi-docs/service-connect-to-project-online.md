@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 75017eed249b7ec3c4eaab5931a4c1be80770ab1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: dd6698cab5b9fed407e6e8f45ceb160209a38fae
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548867"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54007579"
 ---
 # <a name="connect-to-project-online-with-power-bi"></a>เชื่อมต่อกับ Project Online ด้วย Power BI
 Microsoft Project Online เป็นโซลูชันออนไลน์ที่ยืดหยุ่นสำหรับการจัดการพอร์ตโครงการ (Project Portfolio Management: PPM) และงานประจำวัน Project Online ช่วยให้องค์กรสามารถเริ่มต้นและจัดลำดับความสำคัญการลงทุนในพอร์ตโครงการ และส่งมอบมูลค่าทางธุรกิจตามที่ต้องการได้ ชุดเนื้อหา Project Online สำหรับ Power BI ช่วยให้คุณสามารถเข้าถึงข้อมูลเชิงลึกที่ให้บริการเพื่อจัดการโครงการ พอร์ตโครงการ และทรัพยากร

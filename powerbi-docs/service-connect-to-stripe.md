@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 550d3bc609afbbac69c63c373e452eac11244152
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6a194a4d56f4a940ad892ccd2f9097dd782f49d3
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549478"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008545"
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>เชื่อมต่อกับ Stripe ด้วย Power BI
 ภาพและสำรวจข้อมูล Stripe ของคุณใน Power BI ด้วยชุดเนื้อหา Power BI ชุดเนื้อหา Power BI Stripe ดึงข้อมูลเกี่ยวกับลูกค้า ค่าธรรมเนียม เหตุการณ์ และใบแจ้งหนี้ ข้อมูลมีเหตุการณ์หมื่นเหตุการณ์ล่าสุดและค่าใช้จ่ายห้าพันใน 30 วันที่ผ่านมา เนื้อหาจะถูกรีเฟรชโดยอัตโนมัติวันละครั้งตามการกำหนดเวลาที่คุณควบคุม 

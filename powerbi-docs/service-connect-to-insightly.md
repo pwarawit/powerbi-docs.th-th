@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6e2ca51f79173e065d0a780943eab2e834837820
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 87d294c81cbf9a342ce238bb198173516c1f3215
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548639"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008016"
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>เชื่อมต่อกับ Insightly ด้วย Power BI
 แสดงข้อมูลเป็นภาพและแชร์ข้อมูล Insightly CRM ของคุณใน Power BI ด้วยชุดเนื้อหา Insightly เชื่อมต่อกับ Power BI โดยใช้คีย์ Insightly API ของคุณเพื่อดูและสร้างรายงานและแดชบอร์ดจากข้อมูล CRM ของคุณ ด้วย Power BI คุณสามารถวิเคราะห์ข้อมูลของคุณในรูปแบบใหม่ สร้างแผนภูมิและกราฟอันทรงพลัง และแสดงรายชื่อผู้ติดต่อ ลูกค้าเป้าหมาย และองค์กรต่าง ๆ บนแผนที่ได้
@@ -51,7 +51,7 @@ ms.locfileid: "46548639"
 
 | ตาราง |  |  |  |
 | --- | --- | --- | --- |
-| ที่ติดต่อ |โอกาสทางการขาย |ขั้นตอนไปป์ไลน์ |วันที่งานเสร็จสมบูรณ์ |
+| รายชื่อติดต่อ |โอกาสทางการขาย |ขั้นตอนไปป์ไลน์ |วันที่งานเสร็จสมบูรณ์ |
 | เขตข้อมูลแบบกำหนดเอง |วันปิดโอกาสทางการขาย |วันที่โครงการเสร็จสมบูรณ์ |งาน |
 | เหตุการณ์ |วันคาดการณ์โอกาสทางการขาย |โครงการ |ทีม/สมาชิก |
 | ลูกค้าเป้าหมาย |องค์กร |แท็ก |ผู้ใช้ |

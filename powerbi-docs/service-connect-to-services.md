@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 685a28b336e45224f924ed103a34dd19413868bf
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: c2a6e25cae2fcd1a2d84a5ffe6941559593f75c0
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979294"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008568"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>เชื่อมต่อกับบริการที่คุณใช้กับ Power BI
 คุณสามารถเชื่อมต่อกับบริการที่คุณใช้จำนวนหนึ่ง เพื่อเรียกใช้ธุรกิจของคุณ เช่น Salesforce, Microsoft Dynamics CRM และ Google Analytics Power BI เริ่มต้นโดยใช้ข้อมูลประจำตัวของคุณเพื่อเชื่อมต่อกับบริการ และจากนั้นสร้างแอป Power BI ด้วยแดชบอร์ดและชุดของรายงาน Power BI ที่แสดงข้อมูลของคุณและให้ข้อมูลภาพเชิงลึกเกี่ยวกับธุรกิจของคุณโดยอัตโนมัติ

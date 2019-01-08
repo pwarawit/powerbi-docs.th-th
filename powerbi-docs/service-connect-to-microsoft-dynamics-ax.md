@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8466d57340feb80650af93e4f400b82436d11b05
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 688f0e9bc1070c1cd9605a508d2086f52f7e5730
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544865"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008131"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>เชื่อมต่อกับชุดเนื้อหา Microsoft Dynamics AX ด้วย Power BI
 Microsoft Dynamics AX มีสามชุดเนื้อหา Power BI ที่วางเป้าหมายสำหรับผู้ใช้ทางธุรกิจที่แตกต่างกัน ชุดเนื้อหาสำหรับประสิทธิภาพการทำงานด้านการเงินออกแบบมาสำหรับ CFOs โดยเฉพาะ ส่งมอบเข้าใช้งานข้อมูลเชิงลึกเกี่ยวกับประสิทธิภาพการทำงานด้านการเงินขององค์กรของคุณ ชุดเนื้อหาประสิทธิภาพการทำงานแชนเนลร้านค้าปลีก มีเป้าหมายสำหรับผู้จัดการแชนเนลให้มุ่งเน้นที่ประสิทธิภาพการขายเพื่อพยากรณ์แนวโน้มและเปิดเผยข้อมูลเชิงลึก โดยวาดภาพได้โดยตรงจากข้อมูลร้านค้าปลีกและธุรกิจการค้า การจัดการต้นทุนได้รับการออกแบบมาสำหรับ COOs และ CFOs และให้รายละเอียดเกี่ยวกับประสิทธิภาพการดำเนินงาน
