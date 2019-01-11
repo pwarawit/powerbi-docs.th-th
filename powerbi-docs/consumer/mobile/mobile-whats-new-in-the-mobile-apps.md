@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: f272d0e40de5c65de9134c3d184195889233496b
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: ae0126c6242508a551e094d3e40a57e7e6868ab3
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280937"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983887"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 สำหรับ "ข้อมูลอะไรใหม่" ที่เกี่ยวข้อง ให้ดู
@@ -39,7 +39,7 @@ ms.locfileid: "53280937"
 
 ### <a name="supporting-report-query-string"></a>สนับสนุนรายงานสตริงแบบสอบถาม 
 
-ตอนนี้การเปิดลิงก์รายงานที่มีสตริงแบบสอบถามสามารถเปิดในแอปบนอุปกรณ์เคลื่อน และสามารถกรองไว้ล่วงหน้าตามเงื่อนไขกำหนดไว้ในสตริงแบบสอบถาม เรียนรู้เพิ่มเติมเกี่ยวกับ[วิธีการสร้าง url ของรายงาน ด้วยสตริงแบบสอบถาม](https://docs.microsoft.com/en-us/power-bi/service-url-filters/)  
+ตอนนี้การเปิดลิงก์รายงานที่รวมเอาสตริงแบบสอบถามสามารถเปิดในแอปบนอุปกรณ์เคลื่อน และสามารถกรองไว้ล่วงหน้าตามเงื่อนไขกำหนดไว้ในสตริงแบบสอบถามได้ เรียนรู้เพิ่มเติมเกี่ยวกับ[วิธีการสร้าง url ของรายงาน ด้วยสตริงแบบสอบถาม](https://docs.microsoft.com/en-us/power-bi/service-url-filters/)  
 
 ### <a name="shared-credentials-now-in-android"></a>ข้อมูลประจำตัวที่ใช้ร่วมกัน (ตอนนี้ใน Android)
 

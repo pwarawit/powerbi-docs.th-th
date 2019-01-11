@@ -9,13 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 7830aa829dc05e29ec0b8dc23d7f35b58991b007
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e839fabffc685ac0f97146cb7ee5218039df1c18
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830159"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056190"
 ---
 # <a name="certified-custom-visuals"></a>วิชวลแบบกำหนดเองที่ได้รับการรับรอง
 
@@ -62,7 +63,7 @@ Microsoft สามารถลบวิชวลออกจาก [ราย�
 เมื่อต้องการส่งวิชวลแบบกำหนดเองไปขอการรับรอง:
 
 1. ส่งอีเมลไปยังทีมสนับสนุนวิชวลแบบกำหนดเองของ Power BI (pbicvsupport@microsoft.com) ในอีเมล ให้ระบุข้อมูลต่อไปนี้:
-    * หัวข้อ: Visual Certification Request
+    * ชื่อเรื่อง: คำขอการรับรองวิชวล
     * เชื่อมโยงไปยังพื้นที่เก็บบน GitHub ที่มีการโฮสต์ซอร์สโค้ดที่มนุษย์สามารถอ่านได้
     * [ยึดตามข้อกำหนดที่ให้](#certification-requirements)
     * ผ่านการตรวจทานโค้ด
@@ -73,6 +74,7 @@ Microsoft สามารถลบวิชวลออกจาก [ราย�
 
 | ลิงก์ไปยัง AppSource | ลิงก์ไปยังวิดีโอ |
 | --- | --- |
+| [ระบบ 3AG - แผนภูมิคอลัมน์ที่มีความแปรปรวนแบบสัมพัทธ์](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) | |
 | [Aster Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
 | [Beyondsoft Calendar](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
 | [Bowtie Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [วิดีโอ](https://youtu.be/So5xKMSpVJI) |
