@@ -25,7 +25,7 @@ ms.locfileid: "53026741"
 > [!NOTE]
 > ถามตอบพร้อมใช้งานเฉพาะเมื่อทำงานกับแบบจำลองที่ประกอบด้วยข้อมูล**นำเข้า** เชื่อมต่อสดไปยังแบบจำลอง SSAS และ DirectQuery ไม่ได้รับการสนับสนุน
 >
-> ถามตอบต้องมีการอัปเดตรันไทม์ C ต่อไปนี้หากคุณกำลังใช้ Windows เวอร์ชันก่อน Windows 10 คุณสามารถลองติดตั้งโปรแกรมอัปเดตที่สำคัญจาก Windows Update หรือติดตั้งคอมโพเนนต์ที่ต้องการจาก Microsoft (KB2999226) ด้วยตนเอง https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
+> ถามตอบต้องมีการอัปเดตรันไทม์ C ต่อไปนี้หากคุณกำลังใช้ Windows เวอร์ชันก่อน Windows 10 คุณสามารถลองติดตั้งโปรแกรมอัปเดตที่สำคัญจาก Windows Update หรือติดตั้งคอมโพเนนต์ที่ต้องการจาก Microsoft (KB2999226) ด้วยตนเอง [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)
 >
 >
 
