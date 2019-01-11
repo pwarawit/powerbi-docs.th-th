@@ -11,30 +11,32 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: d9cf6255cfa57790c13ee1fc9d3201860552863b
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026833"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072370"
 ---
 # <a name="using-auditing-within-your-organization"></a>ใช้การตรวจสอบภายในองค์กรของคุณ
 
 การทราบว่าใครกำลังดำเนินการอะไร และในรายการใดใน Power BI ของคุณ เป็นสิ่งสำคัญที่สามารถช่วยให้องค์กรของคุณปฏิบัติตามข้อกำหนดได้ เช่น การปฏิบัติตามข้อบังคับการประชุมและการจัดการบันทึกต่าง ๆ ใช้การตรวจสอบ Power BI เพื่อตรวจสอบการกระทำที่ผู้ใช้ดำเนินการ เช่น "ดูรายงาน" และ "ดูแดชบอร์ด" คุณไม่สามารถใช้การตรวจสอบเพื่อตรวจสอบสิทธิ์
 
-คุณทำงานกับการตรวจสอบในศูนย์การรักษาความปลอดภัยและการปฏิบัติตามนโยบาย Office 365 หรือใช้ PowerShell เราครอบคลุมทั้งสองอย่างในบทความนี้ คุณสามารถกรองข้อมูลการตรวจสอบภายในได้ตามช่วงวัน ผู้ใช้ แดชบอร์ด รายงาน ชุดข้อมูล และประเภทกิจกรรมได้ นอกจากนี้ คุณยังสามารถดาวน์โหลดกิจกรรมในรูปแบบไฟล์ csv (คั่นด้วยจุลภาคค่า) เพื่อทำการวิเคราะห์แบบออฟไลน์ได้
+คุณทำงานกับการตรวจสอบในศูนย์การรักษาความปลอดภัยและการปฏิบัติตามนโยบาย Office 365 หรือใช้ PowerShell การตรวจสอบขึ้นอยู่กับหน้าที่การใช้งานใน Exchange Online ซึ่งถูกเตรียมพร้อมใช้งานมาโดยอัตโนมัติเพื่อรองรับ Power BI 
+
+คุณสามารถกรองข้อมูลการตรวจสอบภายในได้ตามช่วงวัน ผู้ใช้ แดชบอร์ด รายงาน ชุดข้อมูล และประเภทกิจกรรมได้ นอกจากนี้ คุณยังสามารถดาวน์โหลดกิจกรรมในรูปแบบไฟล์ csv (คั่นด้วยจุลภาคค่า) เพื่อทำการวิเคราะห์แบบออฟไลน์ได้
 
 ## <a name="requirements"></a>ข้อกำหนด
 
 คุณต้องเป็นไปตามข้อกำหนดเหล่านี้เพื่อเข้าถึงบันทึกการตรวจสอบภายใน:
 
-- เมื่อต้องการเข้าถึงส่วนการตรวจสอบภายในสำหรับศูนย์การรักษาความปลอดภัยและการปฏิบัติตามกฎระเบียบของ Office 365 คุณต้องมีใบอนุญาต Exchange Online สำหรับการใช้งาน (มาพร้อมกับการสมัครใช้งาน Office 365 Enterprise E3 และ E5)
+* การเข้าถึงบันทึกการตรวจสอบใน Exchange Online ได้คุณจะต้องได้รับการแต่งตั้งให้เป็นผู้ดูแลระบบส่วนกลาง, ได้รับมอบหมายให้เข้าถึงบันทึกการตรวจสอบหรือได้รับอนุญาตให้สามารถเข้าดูข้อมูลได้อย่างเดียวเท่านั้น ตามค่าเริ่มต้น หน้าที่เหล่านี้จะถูกกำหนดให้กับกลุ่มจัดการปฏิบัติตามกฎระเบียบและการจัดการองค์กรบนหน้า**สิทธิ์**ในศูนย์การจัดการ Exchange
 
-- คุณต้องเป็นผู้ดูแลระบบส่วนกลางหรือมีบทบาทผู้ดูแลระบบ Exchange ที่สามารถเข้าถึงการบันทึกการตรวจสอบได้ บทบาทผู้ดูแลระบบ Exchange จะถูกควบคุมผ่านศูนย์การจัดการ Exchange สำหรับข้อมูลเพิ่มเติม ดู[สิทธิ์ใน Exchange Online](/exchange/permissions-exo/permissions-exo/)
+    เมื่อต้องการให้ผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบเข้าถึงบันทึกการตรวจสอบบัญชีคุณต้องเพิ่มผู้ใช้คนนั้นให้เป็นสมาชิกของกลุ่มที่มีหน้าที่เหล่านี้ อีกวิธีหนึ่งคือ คุณสามารถสร้างกลุ่มแบบกำหนดหน้าที่เองในศูนย์การจัดการ Exchange และกำหนดหน้าที่ให้เข้าถึงบันทึกการตรวจสอบหรือดูบันทึกการตรวจสอบได้เท่านั้นให้กับกลุ่มนี้ จากนั้นเพิ่มบัญชีผู้ไม่ใช่คนดูแลระบบเข้าไปยังกลุ่มใหม่นี้ สำหรับข้อมูลเพิ่มเติม ดูได้ที่[การจัดการหน้าที่ให้กับกลุ่มใน Exchange Online](/Exchange/permissions-exo/role-groups)
 
-- ถ้าคุณมีสิทธิ์เข้าถึงบันทึกการตรวจสอบภายใจ แต่ไม่ใช่ผู้ดูแลระบบส่วนกลางหรือผู้ดูแลระบบบริการ Power BI คุณจะไม่สามารถเข้าถึงพอร์ทัล Power BI ผู้ดูแลระบบได้ ในกรณีนี้ คุณต้องรับลิงก์ตรงไปยัง [ศูนย์การรักษาความปลอดภัยและการปฏิบัติตามนโยบาย Office 365](https://sip.protection.office.com/#/unifiedauditlog)
+    หากคุณไม่สามารถเข้าไปที่ศูนย์การจัดการ Exchange จากศูนย์การจัดการ Office 365 ได้ให้ไปที่ https://outlook.office365.com/ecpและลงชื่อเข้าโดยใช้ข้อมูลประจำตัวของคุณ
 
-- เพื่อดูบันทึกการตรวจสอบสำหรับ Power BI ในผู้เช่าของคุณ คุณต้องการสิทธิ์กล่องจดหมาย exchange อย่างน้อยหนึ่งสิทธิ์ในผู้เช่าของคุณ
+* ถ้าคุณมีสิทธิ์เข้าถึงบันทึกการตรวจสอบภายใจ แต่ไม่ใช่ผู้ดูแลระบบส่วนกลางหรือผู้ดูแลระบบบริการ Power BI คุณจะไม่สามารถเข้าถึงพอร์ทัล Power BI ผู้ดูแลระบบได้ ในกรณีนี้ คุณต้องใช้ลิงก์ตรงไปยัง [ศูนย์การรักษาความปลอดภัยและการปฏิบัติตามนโยบาย Office 365](https://sip.protection.office.com/#/unifiedauditlog)
 
 ## <a name="accessing-your-audit-logs"></a>การเข้าถึงบันทึกการตรวจสอบของคุณ
 
@@ -51,8 +53,6 @@ ms.locfileid: "53026833"
 1. เลือก**ไปที่ศูนย์ผู้ดูแลระบบ O365**
 
    ![ไปยัง แอ็ดมินเซ็นเตอร์ O365](media/service-admin-auditing/audit-log-o365-admin-center.png)
-
-หากต้องการสร้างบัญชีที่ไม่ใช่ผู้ดูแลระบบที่สามารถเข้าถึงบันทึกการตรวจสอบได้ คุณจะต้องกำหนดสิทธิ์ภายในศูนย์การจัดการ Exchange Online ตัวอย่างเช่น คุณสามารถกำหนดผู้ใช้ไปยังกลุ่มบทบาทที่มีอยู่แล้ว เช่น การจัดการองค์กร หรือคุณสามารถสร้างกลุ่มบทบาทใหม่ที่มีบทบาทสำหรับบันทึกการตรวจสอบ สำหรับข้อมูลเพิ่มเติม ดู[สิทธิ์ใน Exchange Online](/exchange/permissions-exo/permissions-exo/)
 
 ## <a name="search-only-power-bi-activities"></a>ค้นหากิจกรรม Power BI เท่านั้น
 
@@ -119,9 +119,7 @@ ms.locfileid: "53026833"
 
 ## <a name="use-powershell-to-search-audit-logs"></a>ใช้ PowerShell เพื่อค้นหาบันทึกการตรวจสอบ
 
-คุณยังสามารถใช้ PowerShell เพื่อเข้าถึงบันทึกการตรวจสอบโดยยึดตามการเข้าสู่ระบบของคุณได้ ตัวอย่างต่อไปนี้แสดงวิธีใช้คำสั่ง [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) เพื่อดึงรายการบันทึกการตรวจสอบ Power BI
-
-หากต้องการใช้คำสั่ง [New-PSSession](/powershell/module/microsoft.powershell.core/new-pssession/) บัญชีของคุณต้องได้รับสิทธิ์การใช้งาน Exchange Online และคุณต้องมีสิทธิ์ในการเข้าถึงบันทึกการตรวจสอบสำหรับผู้เช่าของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเชื่อมต่อกับ Exchange Online ดู[เชื่อมต่อกับ Exchange Online PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/)
+คุณยังสามารถใช้ PowerShell เพื่อเข้าถึงบันทึกการตรวจสอบโดยยึดตามการเข้าสู่ระบบของคุณได้ ตัวอย่างต่อไปนี้แสดงวิธีการเชื่อมต่อไปยัง Exchange Online PowerShell และใช้คำสั่ง [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) เพื่อดึงรายการบันทึกการตรวจสอบ Power BI หากต้องการให้สคริปต์ทำงาน คุณต้องได้รับการกำหนดสิทธิ์อย่างเหมาะสม ตามที่อธิบายไว้ในการส่วนของ[ข้อกำหนด](#requirements)
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -134,7 +132,7 @@ Import-PSSession $Session
 Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType PowerBI -ResultSize 1000 | Format-Table | More
 ```
 
-ตัวอย่างอื่นของการใช้ PowerShell ด้วยบันทึกการตรวจสอบ ดู [การใช้บันทึกการตรวจสอบโดยใช้ Power BI และ PowerShell เพื่อกำหนดสิทธิ์การใช้งาน Power BI Pro](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเชื่อมต่อกับ Exchange Online ดู[เชื่อมต่อกับ Exchange Online PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/) ตัวอย่างอื่นของการใช้ PowerShell ด้วยบันทึกการตรวจสอบ ดู [การใช้บันทึกการตรวจสอบโดยใช้ Power BI และ PowerShell เพื่อกำหนดสิทธิ์การใช้งาน Power BI Pro](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/)
 
 ## <a name="activities-audited-by-power-bi"></a>กิจกรรมที่ตรวจสอบโดย Power BI
 

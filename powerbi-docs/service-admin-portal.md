@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6fff11d37b0f099effeafb6b88dbfa68af88f3d6
-ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
+ms.openlocfilehash: e83c853ac1c3fc7c7d4d5e79c9f6be965d880361
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53735580"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072301"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>ดูแล Power BI ในพอร์ทัลผู้ดูแลระบบ
 
@@ -44,7 +44,7 @@ ms.locfileid: "53735580"
 * [การตั้งค่าผู้เช่า](#tenant-settings)
 * [การตั้งค่า Premium](#premium-settings)
 * [โค้ดฝังตัว](#embed-codes)
-* [วิชวลขององค์กร](#organization-visuals)
+* [การแสดงผลด้วยภาพองค์กร](#organization-visuals)
 
 ## <a name="usage-metrics"></a>เมตริกการใช้งาน
 
@@ -329,9 +329,9 @@ ms.locfileid: "53735580"
 
 ![ฝังโค้ดภายในพอร์ทัลผู้ดูแลระบบ Power BI](media/service-admin-portal/embed-codes.png)
 
-## <a name="organization-visuals"></a>การแสดงผลด้วยภาพขององค์กร
+## <a name="organizational-visuals"></a>การแสดงผลด้วยภาพขององค์กร
 
-แท็บ **วิชวลองค์กร** ช่วยให้คุณสามารถปรับใช้ และจัดการวิชวลแบบกำหนดเองภายในองค์กรของคุณ ด้วยวิชวลด้านองค์กร คุณสามารถปรับใช้วิชวลที่เป็นกรรมสิทธิ์ในองค์กรของคุณ ซึ่งผู้เขียนรายงานสามารถค้นพบ และนำเข้าลงในรายงานของพวกเขาจาก Power BI Desktop [เรียนรู้เพิ่มเติม](power-bi-custom-visuals-organization.md)
+แท็บ **การแสดงผลด้วยภาพองค์กร** ช่วยให้คุณสามารถปรับใช้ และจัดการการแสดงผลด้วยภาพแบบกำหนดเองภายในองค์กรของคุณ ด้วยวิชวลด้านองค์กร คุณสามารถปรับใช้วิชวลที่เป็นกรรมสิทธิ์ในองค์กรของคุณ ซึ่งผู้เขียนรายงานสามารถค้นพบ และนำเข้าลงในรายงานของพวกเขาจาก Power BI Desktop [เรียนรู้เพิ่มเติม](power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > วิชวลแบบกำหนดเองอาจประกอบด้วยโค้ดที่มีความเสี่ยงด้านความปลอดภัยหรือความเป็นส่วนตัว ดังนั้นผู้เขียนและแหล่งที่มาของวิชวลแบบกำหนดเองจะต้องมีความน่าเชื่อถือก่อนที่จะปรับใช้กับที่เก็บข้อมูลขององค์กร
