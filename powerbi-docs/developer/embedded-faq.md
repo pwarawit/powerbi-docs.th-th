@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 3971651caf9be7e754f4232ffec8b4e4dbfdfe6d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 106d971a06777f7d22d1fb3cd2ba3995b95a21d9
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008430"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136656"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>คำถามที่ถามบ่อยเกี่ยวกับ Power BI Embedded
 
@@ -204,6 +204,10 @@ Australia Southeast, Brazil South, Canada Central, East US 2, India West, Japan 
 
 อ้างอิงข้อมูลเพิ่มเติมเกี่ยวกับ[RLS กับตัวกรอง JavaScript](embedded-row-level-security.md#using-rls-vs-javascript-filters)
 
+### <a name="what-are-the-best-practices-to-improve-performance"></a>อะไรคือแนวทางปฏิบัติที่ดีที่สุดเพื่อปรับปรุงประสิทธิภาพการทำงาน?
+
+[ประสิทธิภาพการทำงานของ Power BI Embedded](embedded-performance-best-practices.md)
+
 ## <a name="licensing"></a>สิทธิ์การใช้งาน
 
 ### <a name="how-do-i-purchase-power-bi-embedded"></a>ฉันซื้อ Power BI Embedded ได้อย่างไร
@@ -264,8 +268,8 @@ Power BI Embedded พร้อมใช้งานสำหรับบาง [
 
 3. เมื่อคุณพร้อมสำหรับการใช้งานจริง ซื้อความจุเฉพาะของ **Power BI Embedded** และกำหนดเนื้อหา Power BI (พื้นที่ทำงาน) ของคุณลงในความจุนั้น
 
-> [!Note]
-> คุณยังสามารถใช้**คอลเลกชันพื้นที่ทำงานของ Power BI** ต่อ ขณะที่สร้างโซลูชัน **Power BI Embedded** ไปพร้อม ๆ กันได้ เมื่อคุณพร้อม คุณสามารถย้ายลูกค้าของคุณไปยังโซลูชัน **Power BI Embedded** ใหม่ และถอนโซลูชัน**คอลเลกชันพื้นที่ทำงานของ Power BI** ได้
+    > [!Note]
+    > คุณยังสามารถใช้**คอลเลกชันพื้นที่ทำงานของ Power BI** ต่อ ขณะที่สร้างโซลูชัน **Power BI Embedded** ไปพร้อม ๆ กันได้ เมื่อคุณพร้อม คุณสามารถย้ายลูกค้าของคุณไปยังโซลูชัน **Power BI Embedded** ใหม่ และถอนโซลูชัน**คอลเลกชันพื้นที่ทำงานของ Power BI** ได้
 
 สำหรับข้อมูลเพิ่มเติม โปรดอ้างอิง[วิธีการย้ายเนื้อหาคอลเลกชันพื้นที่ทำงานของ Power BI ไปยัง Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)
 
@@ -318,10 +322,6 @@ Power BI Embedded พร้อมใช้งานสำหรับบาง [
 
 คุณสามารถเรียนรู้วิธีการแก้ไขข้อมูล Power BI ของคุณได้[ที่นี่](https://docs.microsoft.com/power-bi/service-basic-concepts)
 
-สำหรับข้อมูลเพิ่มเติม โปรดดู[การแก้ไขปัญหาแอปพลิเคชันแบบฝังตัวของคุณ](embedded-troubleshoot.md)
+สำหรับข้อมูลเพิ่มเติม ดู[การแก้ไขปัญหาแอปพลิเคชันแบบฝังตัวของคุณ](embedded-troubleshoot.md)
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
-
-### <a name="what-are-the-best-practices-to-improve-performance"></a>อะไรคือแนวทางปฏิบัติที่ดีที่สุดเพื่อปรับปรุงประสิทธิภาพการทำงาน?
-
-[ประสิทธิภาพการทำงานของ Power BI Embedded](embedded-performance-best-practices.md)
