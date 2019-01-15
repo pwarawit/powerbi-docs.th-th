@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 692d752756590945eb17e2f512929f7303727e94
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: c29145e4a51821bab284693bc13a508cb9c046c6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564819"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279170"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>ใช้ตัวแบ่งส่วนข้อมูลและตัวกรองวันที่แบบสัมพัทธ์ใน Power BI Desktop
 ด้วย**ตัวแบ่งส่วนข้อมูลวันที่ที่สัมพันธ์**หรือ**ตัวกรองวันที่ี่ที่สัมพันธ์** คุณสามารถใช้ตัวกรองที่ยึดตามเวลากับคอลัมน์วันที่ใดก็ตามในแบบจำลองข้อมูลของคุณได้ ตัวอย่างเช่น คุณสามารถใช้**ตัวแบ่งส่วนข้อมูลวันที่ที่เกี่ยวข้อง**เพื่อแสดงข้อมูลยอดขายเฉพาะที่เกิดขึ้นภายใน 30 วันที่ผ่านมา (หรือ เดือน, เดือนตามปฏิทิน ฯลฯ) ได้ และเมื่อคุณรีเฟรชข้อมูล ช่วงเวลาสัมพัทธ์จะถูกปรับให้ใช้วันที่ที่เหมาะสมโดยอัตโนมัติ

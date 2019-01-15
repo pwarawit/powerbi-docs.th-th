@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 123cb794a1ba307439a47bdb949e2c76297e7ba2
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: acd2ad2afe9b380a8888dee7a4b9d4707d79b41f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979567"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279837"
 ---
 # <a name="use-the-matrix-visual-in-power-bi"></a>ใช้เมทริกซ์วิชวลใน Power BI
 ด้วยคุณลักษณะวิชวล**เมทริกซ์** คุณสามารถสร้างวิชวลเมทริกซ์ (บางครั้งเรียกว่า*ตาราง*) ในรายงาน **Power BI Desktop** และ **Power BI service** และทำไฮไลต์เชื่อมโยงองค์ประกอบภายในเมทริกซ์ กับวิชวลอื่น ๆ นอกจากนี้ คุณยังสามารถเลือกแถว คอลัมน์ และแม้แต่ละเซลล์ และทำไฮไลต์เชื่อมโยง สามารถคัดลอกเซลล์เดียวและหลายเซลล์ และวางลงในแอปพลิเคชันอื่นได้ สุดท้าย เพื่อทำให้ใช้งานพื้นที่เค้าโครงได้ดียิ่งขึ้น วิชวลเมทริกซ์สนับสนุนรูปแบบขั้น

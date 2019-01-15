@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 64d3faf9fd720d1e50fa69b5ccd914e6b3ac1294
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 8808391d0794ec4a487526cc5bbe4216fe0f75a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280914"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275329"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>สร้างรายงานที่ปรับให้เหมาะสมสำหรับแอป Power BI ในมือถือ
 คุณสามารถเพิ่มประสบการณ์การดูรายงานของคุณในรูปแบบแอปมือถือบนโทรศัพท์หรือแท็บเล็ตได้ สร้างรายงานเป็นเค้าโครงแนวตั้งสำหรับโทรศัพท์หรือแท็บเล็ต ใน Power BI Desktop และในบริการ BI Power คุณสามารถปรับเปลี่ยนรายงานสำหรับโทรศัพท์ของคุณได้โดยการจัดเรียงและปรับขนาดภาพใหม่ให้อยู่ในเค้าโครงแนวตั้ง เพื่อให้ได้รับประสบการณ์การใช้งานที่เหมาะสม คุณไม่จำเป็นต้องรวมทั้งหมดลงไป และคุณยังสามารถสร้างภาพ[ *แบบตอบสนอง*](#optimize-a-visual-for-any-size)และ[ตัวแบ่งส่วนข้อมูลแบบตอบสนอง](#enhance-slicers-to-to-work-well-in-phone-reports)ที่ปรับขนาดใหม่ให้เหมาะสมสำหรับการดูผ่านโทรศัพท์ได้ หากคุณได้เพิ่มตัวกรองลงในรายงาน ตัวกรองเหล่านั้นจะแสดงในรายงานที่ปรับให้เหมาะสมโดยอัตโนมัติ ผู้อ่านรายงานของคุณสามารถดูรายงานเหล่านั้น และกรองรายงานด้วยตัวกรองดังกล่าว

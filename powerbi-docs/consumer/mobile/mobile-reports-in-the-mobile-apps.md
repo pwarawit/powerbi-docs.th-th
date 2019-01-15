@@ -1,20 +1,20 @@
 ---
 title: สำรวจรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI
 description: เรียนรู้เกี่ยวกับการดูและโต้ตอบกับรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI บนโทรศัพท์หรือแท็บเล็ตของคุณ คุณสร้างรายงานในบริการ Power BI หรือ Power BI Desktop จาก นั้น ก็สามารถโต้ตอบกับรายงานเหล่านั้นได้ในแอปอุปกรณ์เคลื่อนที่
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
-ms.author: maggies
-ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.author: mshenhav
+ms.openlocfilehash: 037cab2435abddc0988d076f6598ab8313b4dda6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181001"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281585"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>สำรวจรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI
 นำไปใช้กับ:

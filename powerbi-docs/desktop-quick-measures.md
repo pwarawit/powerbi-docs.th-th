@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 19fdadb6476dab9eda0fa5c76f17680cbd7b4cfe
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 5a436a276a68b2cade6a1622a54590bc379cebd8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026426"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283471"
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>ใช้การวัดผลด่วนเพื่อการคำนวณที่ใช้บ่อยและทรงพลังได้อย่างง่ายดาย
 คุณสามารถใช้**การวัดผลด่วน** ทำการคำนวณที่ใช้บ่อยและทรงพลัง ได้อย่างรวดเร็วและง่ายดาย **การวัดผลด่วน**เรียกใช้ชุดคำสั่ง DAX ในเบื้องหลัง (คุณไม่จำเป็นต้องเขียน DAX เอง – ทั้งหมดทำให้คุณเรียบร้อยแล้ว) ตามที่คุณป้อนเข้าในกล่องโต้ตอบ จากนั้นแสดงผลลัพธ์เพื่อให้คุณได้ใช้ในรายงานของคุณ ยิ่งไปกว่านั้น คุณสามารถดู DAX ที่ดำเนินการโดยการวัดผลด่วน และเริ่มต้นหรือขยายความรู้ DAX ของคุณเอง

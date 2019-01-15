@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.openlocfilehash: 5c388a15132c7f433a50c2975aa4b45195c55bf9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47238111"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285058"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>จัดการแหล่งข้อมูลของคุณ - Analysis Services
 เมื่อคุณได้ติดตั้งเกตเวย์ข้อมูลในองค์กร คุณจะต้องเพิ่มแหล่งข้อมูลที่สามารถใช้กับเกตเวย์ บทความนี้จะดูที่วิธีการทำงานกับเกตเวย์และแหล่งข้อมูล คุณสามารถใช้แหล่งข้อมูล Analysis Services เพื่อการรีเฟรชตามกำหนดการ หรือใช้เพื่อการเชื่อมต่อสดก็ได้
@@ -153,7 +153,7 @@ ms.locfileid: "47238111"
 
 2. ในเกตเวย์ คุณจำเป็นต้องเปลี่ยนการ**บริการเกตเวย์ข้อมูลในองค์กร**เพื่อเรียกใช้ ด้วยบัญชีโดเมน (แทนภายในเครื่องบัญชีบริการ – มิฉะนั้นการค้นหา AD จะไม่ทำงานอย่างเหมาะสมในเวลาที่กำลังดำเนินการ) คุณจะต้องปิดและเปิดบริการเกตเวย์ใหม่เพื่อให้การเปลี่ยนแปลงมีผลบังคับใช้  ไปยังแอปเกตเวย์บนเครื่องของคุณ (ค้นหา "เกตเวย์ข้อมูลภายในองค์กร") ในการดำเนินการนี้ ให้ไปที่**ตั้งค่าบริการ > เปลี่ยนบัญชีบริการ** ตรวจสอบให้แน่ใจว่า คุณมีรหัสสำหรับการกู้คืนของเกตเวย์นีอยู่ เนื่องจากคุณจะต้องทำการคืนค่าบนเครื่องเดียวกันเว้นแต่ว่าคุณต้องการสร้างเกตเวย์ใหม่แทน 
 
-3. นำทางไปยังโฟลเดอร์การติดตั้งของเกตเวย์*C:\Program Files\On-premises data gateway* การที่เป็นผู้ดูแล เพื่อให้แน่ใจว่า คุณมีสิทธิ์เขียน และแก้ไขไฟล์ต่อไปนี้ได้: Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
+3. นำทางไปยังโฟลเดอร์การติดตั้งของเกตเวย์*เกตเวย์ข้อมูลภายในองค์กรกับ C:\Program Files\On*เป็นผู้ดูแล เพื่อให้แน่ใจว่า คุณมีสิทธิ์เขียน และแก้ไขไฟล์ต่อไปนี้: Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 
 4. แก้ไขการกำหนดค่าสองค่าต่อไปนี้ตาม*ค่า* การกำหนดค่าแอตทริบิวต์ของ Active Directory สำหรับผู้ใช้ AD ของคุณ ค่ากำหนดค่าที่แสดงด้านล่างเป็นเพียงตัวอย่าง คุณจำเป็นต้องระบุเหล่านั้นโดยยึดตามการกำหนดค่า Active Directory กำหนดค่าเหล่านี้จะตรงตามตัวพิมพ์ใหญ่-เล็ก ดังนั้นให้ ตรวจสอบให้แน่ใจว่าตรงกับค่าใน Active Directory
 

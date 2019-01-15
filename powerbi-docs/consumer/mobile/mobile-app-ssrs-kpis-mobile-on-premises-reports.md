@@ -1,20 +1,20 @@
 ---
 title: ดูรายงานและ KPI ภายในองค์กรในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 description: แอป Power BI สำหรับอุปกรณ์เคลื่อนที่เสนอการใช้งานระบบสัมผัสที่เชื่อมต่อแบบสดเพื่อเข้าถึงข้อมูลทางธุรกิจภายในองค์กรของคุณใน SQL Server Reporting Services และเซิร์ฟเวอร์รายงาน Power BI
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/13/2018
-ms.author: maggies
-ms.openlocfilehash: fcc548829ae5a1a661ae55603544e25a51b0204c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: c735b5e1abbed0c733ca4414e15fc44b741349d8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748204"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287933"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>ดูรายงานจากรีพอร์ตเซิร์ฟเวอร์ภายในองค์กรและ KPI ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 
@@ -44,7 +44,7 @@ ms.locfileid: "44748204"
 1. แตะปุ่มนำทางส่วนกลาง ![ปุ่มนำทางส่วนกลาง](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) ทางมุมบนซ้าย แตะไอคอนเฟืองมุมบนขวา ![ไอคอนรูปเฟือง](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png).
 2. แตะ**ตัวอย่าง Reporting Services** จากนั้น เรียกดูเพื่อโต้ตอบกับตัวอย่าง KPI และรายงานสำหรับอุปกรณ์เคลื่อนที่
    
-   ![ตัวอย่างของ Reporting Services](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
+   ![ตัวอย่างของบริการการรายงาน](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
 ## <a name="connect-to-an-on-premises-report-server"></a>เชื่อมต่อกับเซิร์ฟเวอร์ภายในองค์กร
 คุณสามารถดูรายงาน Power BI สำหรับองค์กร รายงานจาก Reporting Services และ KPI ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ 

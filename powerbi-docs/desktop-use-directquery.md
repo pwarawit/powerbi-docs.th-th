@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 350378be4a9e24b844cf1ad17133db65ab674573
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a5aaa50aff2302742d6845c9cb16b0fc36ea2677
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670497"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276801"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>ใช้ DirectQuery ใน Power BI Desktop
 ด้วย **Power BI Desktop** เมื่อคุณเชื่อมต่อกับแหล่งข้อมูลของคุณ คุณสามารถนำเข้าสำเนาของข้อมูลลงใน **Power BI Desktop** ได้ สำหรับบางแหล่งข้อมูล คุณสามารถเลือกวิธีการอื่นได้: เชื่อมต่อโดยตรงกับแหล่งข้อมูลโดยใช้ **DirectQuery**

@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 706fe9f3014ef14ff34100ff336fbf04b44e709c
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: f6c7df80f580c40cb1c0653b237894bb5911bde0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53281042"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282551"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>เชื่อมต่อกับ Microsoft Azure Consumption Insights (Beta) ใน Power BI Desktop (Beta)
 ด้วยตัวเชื่อมต่อ**Azure Consumption Insights** คุณสามารถใช้ **Power BI Desktop**เพื่อเชื่อมต่อกับ Azure และรับข้อมูลเชิงลึกและข้อมูลเกี่ยวกับการใช้บริการ Azure ขององค์กรของคุณได้ คุณยังสามารถสร้างหน่วยวัด คอลัมน์แบบกำหนดเอง และรูปภาพเพื่อรายงาน และแชร์เกี่ยวกับการใช้งาน Azure ขององค์กรของคุณ รุ่นนี้**Azure Consumption Insights**ตัวเชื่อมต่ออยู่ในรุ่นเบต้า และจะมีการเปลี่ยนแปลง

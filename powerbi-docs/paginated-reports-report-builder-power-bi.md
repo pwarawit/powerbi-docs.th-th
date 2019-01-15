@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 12/05/2018
 ms.author: maggies
-ms.openlocfilehash: d79299f469062ec74c49ff4b7e9edda26c3409a3
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 7ce0e90e3166ce6f84c5e53e05d56e9fcc4e790d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026142"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282851"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร (แสดงตัวอย่าง)
 รายงานแบบแบ่งหน้า ในรูปแบบรายงานมาตรฐานใน SQL Server Reporting Services พร้อมใช้งานในบริการของ Power BI แล้ว รายงานเหล่านี้สามารถพิมพ์หรือแชร์ได้ ซึ่งเรียกว่า "แบบแบ่งหน้า" เนื่องจากมีการจัดรูปแบบให้พอดีกับหน้า โดยกำหนดให้แสดงข้อมูลทั้งหมดในตาราง แม้ว่าตารางนั้นต้องใช้พื้นที่หลายหน้า บางครั้งก็เรียกว่า "พิกเซลสมบูรณ์แบบ" เพราะคุณสามารถควบคุมเค้าโครงหน้าของรายงานได้เต็มที่ รายงานแบบแบ่งหน้านั้นมาจากเทคโนโลยีรายงาน RDL ใน SQL Server Reporting Services ตัวสร้างรายงานเป็นเครื่องมือแบบเดี่ยวเพื่อใช้เขียนรายงานแบบแบ่งหน้า 

@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: e0053660263f4cbed55050b9431b67228bf74c29
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 14540dc9ecaf1c3baa513b6e8cd12323de973d3d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157367"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275398"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>เพิ่มข้อคิดเห็นไปยังรายงานในรีพอร์ตเซิร์ฟเวอร์ - เซิร์ฟเวอร์รายงาน Power BI
 คุณสามารถเพิ่มข้อคิดเห็นเมื่อต้องการรายงาน รวมถึงรายงาน Power BI ภายในพอร์ทัลเว็บของรีพอร์ตเซิร์ฟเวอร์ ข้อคิดเห็นสดพร้อมรายงาน และทุกคนที่มีสิทธิ์ที่เหมาะสม สามารถดูข้อคิดเห็นสำหรับรายงานได้ ดูส่วน[การให้สิทธิ์](#permissions)ด้านล่างสำหรับรายละเอียด

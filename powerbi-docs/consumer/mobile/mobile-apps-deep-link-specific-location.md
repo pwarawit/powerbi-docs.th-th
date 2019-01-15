@@ -1,20 +1,20 @@
 ---
 title: สร้างการเชื่อมโยงไปยังตำแหน่งที่ตั้งเฉพาะในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 description: เรียนรู้วิธีการสร้างการเชื่อมโยงโดยตรงไปยังแดชบอร์ด ไทล์ หรือรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ที่ระบุด้วย Uniform Resource Identifier (URI)
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
-ms.openlocfilehash: 1f9503980ba19b290fa5d0fd1f521bb85ef93759
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.author: mshenhav
+ms.openlocfilehash: ccb3b390b0654c7dc850cf66a7f0c9a7ec02f910
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983588"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278411"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>สร้างการเชื่อมโยงไปยังตำแหน่งที่ตั้งเฉพาะในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 คุณสามารถสร้างและใช้ Uniform Resource Identifier (URI) เพื่อเชื่อมโยงไปยังตำแหน่งที่ตั้งที่ระบุ (*การเชื่อมโยงโดยตรง*) ภายในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่บนแพลตฟอร์มสำหรับอุปกรณ์เคลื่อนที่ทั้งหมด: iOS อุปกรณ์ Android และ Windows 10

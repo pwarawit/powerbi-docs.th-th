@@ -5,17 +5,17 @@ author: otarb
 manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c3664eee2d3836fc802d1728bbfe7fce3e03e18d
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: d97c59b7c5d25e85dee5f3b5b5b6ae8d24ae6cb2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297216"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283333"
 ---
 # <a name="using-python-in-query-editor"></a>การใช้ Python ใน Query Editor
 คุณสามารถใช้ **Python** ซึ่งเป็นภาษาการเขียนโปรแกรมที่นักสถิติ นักวิทยาศาสตร์ข้อมูล และนักวิเคราะห์ข้อมูลใช้กันอย่างกว้างขวางใน **ตัวแก้ไขคิวรีของ** Power BI Desktop การรวม Python ใน **ตัวแก้ไขคิวรี** ช่วยให้คุณดำเนินการทำความสะอาดข้อมูลโดยใช้ Python  และดำเนินการวิเคราะห์และการจัดรูปทรงข้อมูลขั้นสูงในชุดข้อมูล รวมทั้งการเติมเต็มข้อมูลที่คาดหาย การคาดการณ์ และการทำคลัสเตอร์ และอื่นๆ **Python** เป็นภาษาที่มีประสิทธิภาพ และสามารถใช้ได้ใน **ตัวแก้ไขคิวรี** เพื่อเตรียมแบบจำลองข้อมูลของคุณ และสร้างรายงาน

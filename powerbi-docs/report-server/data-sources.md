@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
-ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: de16c10a03654802e4c65bfa92e60259e2f9510d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310463"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291774"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>แหล่งข้อมูลรายงาน Power BI ใน Power BI Report Server
 รายงาน Power BI สามารถเชื่อมต่อกับหลาย ๆ แหล่งข้อมูลได้ ขึ้นอยู่กับวิธีการใช้ข้อมูล แหล่งข้อมูลที่แตกต่างกันสามารถใช้งานได้ สามารถนำเข้าข้อมูล หรือข้อมูลสามารถถูกคิวรี่ได้โดยตรงโดยใช้ DirectQuery หรือการเชื่อมต่อตรงกับ SQL Server Analysis Services
@@ -210,5 +210,5 @@ ms.locfileid: "34310463"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 ตอนนี้ คุณได้เชื่อมต่อกับแหล่งข้อมูลของคุณแล้ว [สร้างรายงาน Power BI](quickstart-create-powerbi-report.md) โดยใช้ข้อมูลจากแหล่งข้อมูลนั้น
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

@@ -5,17 +5,17 @@ author: christianwade
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/19/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: 96756adc0c24992e99dee0236bb2eb0b81716e4b
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 97ac445401554bf384bc1b61574534383fa2020f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641792"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292280"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>การรีเฟรชแบบเพิ่มหน่วยใน Power BI Premium
 
@@ -107,7 +107,7 @@ ms.locfileid: "49641792"
 
 ### <a name="advanced-policy-options"></a>ตัวเลือกนโยบายขั้นสูง
 
-#### <a name="detect-data-changes"></a>ตรวจพบการเปลี่ยนแปลงข้อมูล
+#### <a name="detect-data-changes"></a>ตรวจหาการเปลี่ยนแปลงข้อมูล
 
 การรีเฟรชแบบเพิ่มหน่วย 10 วัน มีประสิทธิภาพมากกว่าการรีเฟรชทั้งห้าปีเต็ม อย่างก็ตาม เราอาจสามารถทำได้ดีกว่านั้น ถ้าคุณเลือกกล่องกาเครื่องหมาย **ตรวจพบการเปลี่ยนแปลงข้อมูล** คุณสามารถเลือกคอลัมน์วันที่/เวลาที่ใช้ในการระบุและรีเฟรชเฉพาะวันที่ข้อมูลถูกเปลี่ยนแปลง ซึ่งสมมติว่าคอลัมน์ดังกล่าวอยู่ในระบบแหล่งข้อมูล ซึ่งมีไว้สำหรับวัตถุประสงค์การตรวจสอบ **ซึ่งไม่ควรเป็นคอลัมน์เดียวกับที่ถูกใช้พาร์ติชั่นข้อมูลด้วยพารามิเตอร์ RangeStart/RangeEnd** ค่าสูงสุดของคอลัมน์นี้จะได้รับการประเมินสำหรับแต่ละช่วงเวลาในช่วงที่เพิ่มขึ้น หากไม่มีการเปลี่ยนแปลงตั้งแต่การรีเฟรชครั้งล่าสุด ไม่จำเป็นต้องรีเฟรชช่วงเวลา ในตัวอย่าง จะลดจำนวนวันจากการรีเฟรชทุกๆ 10 วันเป็น 2 วัน
 

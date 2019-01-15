@@ -1,20 +1,20 @@
 ---
 title: เริ่มต้นใช้งานแอปอุปกรณ์เคลื่อนที่ Power BI บน iOS
 description: เรียนรู้วิธีการที่แอปอุปกรณ์เคลื่อนที่ Microsoft Power BI บน iOS ทำให้คุณสามารถพกพา Power BI ไปได้ทุกที่ พร้อมการเข้าถึงข้อมูลทางธุรกิจภายในองค์กรและในระบบคลาวด์ผ่านอุปกรณ์เคลื่อนที่
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
-ms.author: maggies
-ms.openlocfilehash: a09fc4471f9af3a9406dcbcdd80d5bcc7a3632f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748881"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281792"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>เริ่มต้นใช้งานแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ IOS
 Microsoft Power BI สำหรับแอป iOS บน iPhone บน iPad หรือบน iPod Touch ให้บริการของ Power BI บริการของเซิร์ฟเวอร์รายงาน Power BI และ บริการการรายงาน ดูและโต้ตอบกับแดชบอร์ดของบริษัทของคุณ ภายในองค์กรและในคลาวด์ จากที่ใดก็ได้ ผ่านอุปกรณ์เคลื่อนที่ ที่รองรับระบบสัมผัสและดูข้อมูลสดได้ สำรวจข้อมูลในแดชบอร์ดและแชร์กับเพื่อนร่วมงานของคุณผ่านอีเมลหรือการส่งข้อความ และอัปเดตอยู่เสมอ ด้วยข้อมูลของคุณมากที่สุดตามระยะเวลาในของคุณ[Apple Watch](mobile-apple-watch.md)  

@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a2bd78e8b30565428d380c43c7067f9e13117a96
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 985c4b4dc7afa3fc68945f483e8ff775b925e462
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717458"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276576"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>ลบเกือบทุกสิ่งในบริการ Power BI
 บทความนี้สอนวิธีการลบแดชบอร์ด รายงาน เวิร์กบุ๊ก ชุดข้อมูล แอปฯ การแสดงภาพ และพื้นที่ทำงานในบริการ Power BI

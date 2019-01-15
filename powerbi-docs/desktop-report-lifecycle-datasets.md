@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3679a2f3ab98e1f54ead364e4ef4bf65d382a9d5
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 9a0e87eca537fc8c22dffaad6a725dc949b2b121
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578600"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275582"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>เชื่อมต่อกับชุดข้อมูลในบริการ Power BI จาก Power BI Desktop
 คุณสามารถสร้างการเชื่อมต่อสดไปยังชุดข้อมูลที่ใช้ร่วมกันในบริการ Power BI และสร้างรายงานที่แตกต่างกันมากมายจากชุดข้อมูลเดียวกัน ซึ่งหมายความว่า คุณสามารถสร้างโมเดลข้อมูลที่สมบูรณ์แบบที่สุดของคุณใน Power BI Desktop และเผยแพร่ไปยังบริการ Power BI จากนั้นคุณ และผู้อื่นสามารถสร้างรายงานที่แตกต่างกันหลายรายการ (ในไฟล์.pbix ที่แยกต่างหาก) จากโมเดลข้อมูลเดียวกันที่ใช้ทั่วไป คุณลักษณะนี้เรียกว่า**Power BI service Live connection**
