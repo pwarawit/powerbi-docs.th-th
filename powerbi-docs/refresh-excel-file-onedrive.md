@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e256da8530681d8eea6f41746e7a0c0885e4b91b
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 57aa5afe32b8f65805ef4be71ded176f34aefd6e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670242"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296029"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel ใน OneDrive หรือ SharePoint Online
 คุณสามารถนำเข้าสมุดงาน Excel ที่เก็บไว้บนเครื่องของคุณ หรือในพื้นที่เก็บข้อมูลบนคลาวด์ เช่น OneDrive สำหรับธุรกิจ หรือ SharePoint Online เราจะดูที่ข้อดีของการใช้พื้นที่เก็บข้อมูลบนคลาวด์สำหรับไฟล์ excel ของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการนำเข้าไฟล์ Excel ลงใน Power BI ดูที่[รับข้อมูลจากไฟล์สมุดงาน Excel](service-excel-workbook-files.md)
@@ -43,7 +43,7 @@ ms.locfileid: "52670242"
 > 
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive หรือ OneDrive สำหรับธุรกิจ ความแตกต่างคืออะไร
-ถ้าคุณมีทั้ง OneDrive ส่วนบุคคล และ OneDrive สำหรับธุรกิจ เราแนะนำให้คุณเก็บไฟล์ต่างๆ ที่คุณต้องการนำเข้าไปใน Power BI ใน OneDrive สำหรับธุรกิจ นี่คือสาเหตุว่าทำไม: คุณอาจใช้บัญชีที่ต่างกันสองบัญชีในการลงชื่อเข้าใช้ OneDrive ส่วนบุคคล และ OneDrive สำหรับธุรกิจ
+ถ้าคุณมีทั้ง OneDrive ส่วนบุคคล และ OneDrive สำหรับธุรกิจ เราแนะนำให้คุณเก็บไฟล์ต่างๆ ที่คุณต้องการนำเข้าไปใน Power BI ใน OneDrive สำหรับธุรกิจ นี่คือสาเหตุว่าทำไม: คุณน่าจะใช้บัญชีคนละบัญชีเพื่อลงชื่อเข้าใช้บริการทั้งสอง
 
 การเชื่อมต่อกับ OneDrive for Business ใน Power BI มักทำได้อย่างราบรื่น เพราะบัญชีที่คุณลงชื่อเข้าใช้ Power BI มักเป็นบัญชีเดียวกับที่ลงชื่อเข้าใช้ใน OneDrive for Business แต่ใน OneDrive ส่วนบุคคล คุณลงชื่อเข้าใช้ด้วย[บัญชี Microsoft](https://account.microsoft.com)
 

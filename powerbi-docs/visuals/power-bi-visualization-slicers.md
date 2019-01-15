@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 10/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e6b738060875685a7de8e07a55d28afaf071b32e
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: e2c9daf54ec18b53655043cd4a472674ee5123be
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979662"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295983"
 ---
 # <a name="slicers-in-power-bi"></a>ตัวแบ่งส่วนข้อมูลใน Power BI
 คุณต้องการให้ผู้อ่านรายงานของคุณ สามารถดูภาพรวมของเมตริกการขาย แต่ยังแสดงประสิทธิภาพของแต่ละผู้จัดการเขต และกรอบเวลาที่แตกต่างกัน คุณสามารถสร้างหลายรายงานแยกต่างหากกัน หรือแผนภูมิเปรียบเทียบ หรือคุณสามารถใช้ตัวแบ่งส่วนข้อมูล ตัวแบ่งส่วนข้อมูลเป็นอีกวิธีหนึ่งของการกรอง ที่จำกัดส่วนของชุดข้อมูลที่จะแสดงในการแสดงภาพอื่น ๆ ในรายงานให้แคบลง 

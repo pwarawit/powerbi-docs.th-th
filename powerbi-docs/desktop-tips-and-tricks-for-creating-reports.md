@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
-ms.openlocfilehash: c68c29449873e22c7e338279e80f049d522ba347
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: bd1889605773b1d9eed888550676b8bbc9933b2f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026373"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296006"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>คำแนะนำและเคล็ดลับในการสรา้งรายงานใน Power BI Desktop
 เพื่อให้ได้รับประโยชน์สูงสุดจากข้อมูลของคุณ บางครั้งคุณก็ต้องการความช่วยเหลือเพิ่มเติมเล็กน้อย เราได้รวบรวมคำแนะนำและเคล็ดลับบางประการที่คุณสามารถใช้งานได้ในการสร้างรายงานใน Microsoft Power BI Desktop*และ*ในรุ่น Microsoft Excel 2016 หรือ Excel 2013 Pro-Plus ที่เปิดใช้งาน Power Pivot add-in แล้วและติดตั้งรวมทั้งเปิดใช้งาน Power Query แล้ว 

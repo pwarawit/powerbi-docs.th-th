@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: dfc240e50f2fa88fc40b5f6f8d80b1106c388cd5
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 5c4bf7c1e1abb8fd87b97c48bfa94b57d5481b00
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026465"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295869"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>ถามที่ถามบ่อยสำหรับ Power BI สำหรับลูกค้าระบบคลาวด์ประเทศเยอรมนี
 **บริการ Power BI**มีเวอร์ชันที่พร้อมใช้งานสำหรับลูกค้าสหภาพยุโรป/ข้อตกลงการค้าเสรียุโรป/ยุโรป (EU/EFTA) มักจะอ้างอิงถึงเป็น Deutschland Microsoft Cloud (MCD) **บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้เป็นบริการเฉพาะสำหรับลูกค้า EU/EFTA และแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI** หรือบริการ Power BI ที่จัดหาสำหรับลูกค้าภาครัฐบาล

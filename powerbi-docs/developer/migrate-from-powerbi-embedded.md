@@ -3,16 +3,16 @@ title: วิธีการย้ายเนื้อหาจาก Power BI 
 description: เรียนรู้วิธีการโยกย้ายเนื้อหาจาก Power BI Workspace Collection ไปยัง Power BI Embedded และใช้ประโยชน์การพัฒนาเพื่อการฝังในแอป
 author: markingmyname
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: ff9218a84ba9c0055e965f4b000b73a490d250a5
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: a52902e22572503b4be6c21f87abf62a90f60476
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297193"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296627"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>วิธีการย้ายเนื้อหาจาก Power BI Workspace Collection ไปยัง Power BI Embedded
 เรียนรู้วิธีการโยกย้ายจาก Power BI Workspace Collection ไปยัง Power BI Embedded และใช้ประโยชน์การพัฒนาเพื่อการฝังในแอป

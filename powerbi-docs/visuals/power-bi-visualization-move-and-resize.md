@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ec2520ad72889ae3e8f4955ea93c4bf7727daa18
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: cddf5594d7de129d528b2e89e2dca3c5d82a9df1
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544383"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296558"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>ย้ายและปรับขนาดการแสดงภาพในรายงานในบริการของ Power BI และ Power BI Desktop
 เฉพาะผู้สร้างและเจ้าของรายงานเท่านั้นที่สามารถย้าย และปรับขนาดการแสดงภาพได้ ในบริการ Power BI (app.powerbi.com) หมายถึงการเปิดรายงานใน[มุมมองการแก้ไข](../consumer/end-user-reading-view.md)
@@ -37,4 +37,4 @@ ms.locfileid: "46544383"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [ปรับขนาดภาพในแดชบอร์ด](../service-dashboard-edit-tile.md)  
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
