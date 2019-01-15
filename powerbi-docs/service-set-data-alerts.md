@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cc374da84e269abe18a52270c0d9fd15987cf666
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 6d818252d60c2e6e123e4dff0c64dd5e2408cad2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452625"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285748"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>แจ้งเตือนข้อมูลใน Power BI service
 ต้งค่าการแจ้งเตือน เมื่อมีข้อมูลในแดชบอร์ดของคุณเปลี่ยนเกินขีดจำกัดที่คุณตั้งไว 
@@ -73,7 +73,7 @@ ms.locfileid: "52452625"
    > 
 
 ## <a name="managing-alerts"></a>การจัดการการแจ้งเตือน
-มีหลายวิธีที่จะจัดการการแจ้งเตือนของคุณ จากแดชบอร์ดไทล์เอง จากเมนูการตั้งค่า Power BI บนแต่ละไทล์ใน[แอปสำหรับอุปกรณ์เคลื่อนที่ Power BI บน iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)หรือใน[แอปสำหรับอุปกรณ์เคลื่อนที่ Power BI สำหรับ Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+มีหลายวิธีในการจัดการการแจ้งเตือนของคุณ: เช่น จากแดชบอร์ดไทล์ จากเมนูการตั้งค่า Power BI จากแต่ละไทล์ใน[แอปสำหรับอุปกรณ์เคลื่อนที่ Power BI บน iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) หรือใน[แอปสำหรับอุปกรณ์เคลื่อนที่ Power BI สำหรับ Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 
 ### <a name="from-the-tile-itself"></a>จากตัวไทล์เอง
 1. ถ้าคุณต้องการเปลี่ยนหรือลบการแจ้งเตือนสำหรับไทล์ ให้เปิดหน้าต่าง**จัดการการแจ้งเตือน**ใหม่อีกครั้ง โดยการเลือกไอคอนระฆัง ![ไอคอนการแจ้งเตือน](media/service-set-data-alerts/power-bi-bell-icon.png) แจ้งเตือนทั้งหมดที่คุณได้ตั้งค่าสำหรับไทล์ได้แสดงขึ้น

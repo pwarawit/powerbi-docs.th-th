@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 30ac2c0620607d680874e423c841c381fc273904
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: ef4f9de49619a26e17fbdf2b0df47bc56ba23f4d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "50101519"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279331"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>เกตเวย์ข้อมูลในองค์กรในเชิงลึก
 การเข้าถึงข้อมูลภายในองค์กรเป็นไปได้สำหรับผู้ใช้ในองค์กรของคุณ (ในกรณีที่ผู้ใช้ดังกล่าวได้รับอนุญาตการเข้าถึง) แต่ก่อนที่ผู้ใช้เหล่านั้นจะสามารถเชื่อมต่อกับแหล่งข้อมูลภายในองค์กรของคุณ จำเป็นต้องมีการติดตั้งเกตเวย์ข้อมูลในและกำหนดค่าก่อน เกตเวย์อำนวยความสะดวกการติดต่อสื่อสารเบื้องหลังที่รวดเร็วและปลอดภัยระหว่างผู้ใช้ในระบบคลาวด์ไปยังแหล่งข้อมูลภายในองค์กร และย้อนกลับแล้วไปยังระบบคลาวด์อีกครั้ง

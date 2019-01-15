@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/20/2018
 ms.author: maggies
-ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: c5c69bab7fb0a47e5e546dfe1b3143a13428d4bc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "53451363"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285242"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>ภาพรวมของโครงการชุดเนื้อหาบริการของ Power BI
 ชุดเนื้อหาคือ ชุดของเนื้อหาสำเร็จรูป ที่ให้ผู้ใช้สามารถรับข้อมูลเชิงลึกจากแหล่งข้อมูลได้ในทันที ชุดเนื้อหามักจะเน้นไปยังสถานการณ์ทางธุรกิจที่เฉพาะเจาะจง ให้ข้อมูลเชิงลึกสำหรับบทบาท โดเมน หรือเวิร์กโฟลว์

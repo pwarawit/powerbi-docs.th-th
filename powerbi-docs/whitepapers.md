@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 01/09/2019
 ms.author: maggies
-ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266104"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295845"
 ---
 # <a name="whitepapers-for-power-bi"></a>เอกสารทางเทคนิคสำหรับ Power BI
 
@@ -26,7 +26,7 @@ ms.locfileid: "51266104"
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |อธิบาย Power BI Premium ทั้งตามที่มีอยู่เมื่อเปิดใช้งาน และพัฒนาการของ Power BI Premium | ตุลาคม 2017 |
 | [การใช้งานและการวางแผน Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| เอกสารนี้มีคำแนะนำและแนวทางปฏิบัติที่ดีที่สุดสำหรับการวางแผนและการใช้งานความจุพรีเมียมสำหรับปริมาณงานที่กำหนดไว้อย่างดี| พฤศจิกายน 2017 |
 | [วางแผนความจุสำหรับการวิเคราะห์แบบฝังตัวด้วย Power BI Premium](https://aka.ms/pbiewhitepaper) |เอกสารนี้ให้คำแนะนำสำหรับนักพัฒนาแอป/ISV เพื่อใช้ในการกำหนดความจุที่เหมาะสมที่สุดสำหรับธุรกิจ | ตุลาคม 2017 |
-| [วางแผนการใช้งาน Power BI Enterprise](https://aka.ms/pbienterprisedeploy) |เอกสารทางเทคนิคนี้สรุปข้อควรพิจารณาสำหรับการใช้งาน Power BI ในระดับองค์กรอย่างปลอดภัยและมีประสิทธิภาพ | กรกฎาคม 2018 |
+| [วางแผนการใช้งาน Power BI Enterprise](https://go.microsoft.com/fwlink/?linkid=2057861) |เอกสารทางเทคนิคนี้สรุปข้อควรพิจารณาสำหรับการใช้งาน Power BI ในระดับองค์กรอย่างปลอดภัยและมีประสิทธิภาพ | กรกฎาคม 2018 |
 | [คำแนะนำในการวางแผนความจุสำหรับเซิร์ฟเวอร์รายงาน Power BI](report-server/capacity-planning.md) |เอกสารนี้มีวัตถุประสงค์เพื่อเสนอคำแนะนำเกี่ยวกับการวางแผนความจุสำหรับเซิร์ฟเวอร์รายงาน Power BI โดยแบ่งปันผลลัพธ์การดำเนินการทดสอบการโหลดจำนวนมากของปริมาณงานต่าง ๆ กับเซิร์ฟเวอร์รายงาน | มีนาคม 2018 |
 | [การรักษาความปลอดภัย](service-admin-power-bi-security.md) |แสดงคำอธิบายโดยละเอียดของการรักษาความปลอดภัยภายใน Power BI | กรกฎาคม 2018 |
 | [กระจายเนื้อหา Power BI ไปยังผู้ใช้ที่เป็นผู้เยี่ยมชมจากภายนอกโดยใช้ Azure Active Directory B2](https://aka.ms/powerbi-b2b-whitepaper)|เอกสารนี้สรุปวิธีการกระจายเนื้อหาไปยังผู้ใช้ภายนอกองค์กรโดยใช้การรวมกันของ Azure Active Directory Business-to-business (AAD B2B)| มีนาคม 2018 |
