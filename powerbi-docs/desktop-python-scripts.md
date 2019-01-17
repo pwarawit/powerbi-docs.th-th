@@ -10,18 +10,26 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d098b55367e4d8ff13dc2fd22593af00dffe611f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5eab760a3bfbb590a1a6242984aa1be88064409f
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286945"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54323962"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>เรียกใช้สคริปต์ Python ใน Power BI Desktop
 คุณสามารถเรียกใช้สคริปต์ Python โดยตรงใน **Power BI Desktop** และนำเข้าชุดข้อมูลผลลัพธ์ลงในรูปแบบข้อมูล Power BI Desktop ได้
 
 ## <a name="install-python"></a>ติดตั้ง Python
-เพื่อเรียกใช้สคริปต์ Python ใน Power BI Desktop คุณจำเป็นต้องติดตั้ง **Python** บนเครื่องคอมพิวเตอร์ของคุณ คุณสามารถดาวน์โหลดและติดตั้ง **Python** ได้ฟรีจากตำแหน่งที่ตั้งต่าง ๆ ซึ่งรวมถึง[หน้าดาวน์โหลด Official Python](https://www.python.org/) และ [Anaconda](https://anaconda.org/anaconda/python/) รุ่นปัจจุบันของการเขียนสคริปต์ Python ในPower BI Desktopสนับสนุนอักขระ Unicode ตลอดจนช่องว่าง (อักขระว่าง) ในเส้นทางการติดตั้ง
+เพื่อเรียกใช้สคริปต์ Python ใน Power BI Desktop คุณจำเป็นต้องติดตั้ง **Python** บนเครื่องคอมพิวเตอร์ของคุณ คุณสามารถดาวน์โหลดและติดตั้ง **Python** ได้ฟรีจากตำแหน่งที่ตั้งต่าง ๆ ซึ่งรวมถึง[หน้าดาวน์โหลด Official Python](https://www.python.org/) และ [Anaconda](https://anaconda.org/anaconda/python/) รุ่นปัจจุบันของการเขียนสคริปต์ Python ใน{0}Power BI Desktop{0}สนับสนุนอักขระ Unicode ตลอดจนช่องว่าง (อักขระว่าง) ในเส้นทางการติดตั้ง
+
+### <a name="install-required-python-packages"></a>ติดตั้งแพคเกจ Python ที่จำเป็น
+การรวม Power BI Python จำเป็นต้องใช้แพคเกจ Python สองชิ้นในการติดตั้ง (Pandas และ Matplotlib)  การใช้เครื่องมือบรรทัดคำสั่ง pip ติดตั้งสองแพคเกจดังต่อไปนี้
+
+```
+pip install pandas
+pip install matplotlib
+```
 
 ## <a name="run-python-scripts"></a>เรียกใช้สคริปต์ Python
 ด้วยเพียงไม่กี่ขั้นตอนใน Power BI Desktop คุณสามารถเรียกใช้สคริปต์ Python และสร้างรูปแบบข้อมูล จากนั้นคุณสามารถสร้างรายงาน และแชร์บนบริการ Power BI ต่อไปได้

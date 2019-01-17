@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 3aa4ea96e9bea4e52de05b49fa0c958a6c2a6943
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b7301d46279d9b975a07b07506c023e19437631b
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286875"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54324054"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 สำหรับ "ข้อมูลอะไรใหม่" ที่เกี่ยวข้อง ให้ดู
@@ -22,6 +22,12 @@ ms.locfileid: "54286875"
 * [บล็อกทีมของ power BI สำหรับแอป mobile](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [มีอะไรใหม่ใน Power BI Desktop](../../desktop-latest-update.md)  
 * [มีอะไรใหม่ในบริการ Power BI](../../service-whats-new.md)  
+
+## <a name="december-2018"></a>ธันวาคม 2018
+
+### <a name="filter-is-now-available-for-landscape-reports"></a>ตัวกรองตอนนี้พร้อมใช้งานสำหรับรายงานแนวนอน 
+
+บานหน้าต่างตัวกรองของรายงานตอนนี้พร้อมใช้งานสำหรับรายงานแนวนอน (นอกเหนือจากรายงานโทรศัพท์)
 
 ## <a name="november-2018"></a>พฤศจิกายน 2018
 
