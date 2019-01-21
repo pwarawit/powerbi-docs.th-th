@@ -270,6 +270,12 @@ items:
         href: desktop-rls.md
       - name: คำแนะนำเครื่องมือสำหรับกำหนดเอง
         href: desktop-custom-tooltips.md
+      - name: กล่องข้อความและรูปร่างในรายงาน
+        href: power-bi-reports-add-text-and-shapes.md
+      - name: เพิ่มไฮเปอร์ลิงก์ไปยังกล่องข้อความ
+        href: service-add-hyperlink-to-text-box.md
+      - name: ไฮเปอร์ลิงก์ในตาราง
+        href: power-bi-hyperlinks-in-tables.md
       - name: การจัดรูปแบบตารางตามเงื่อนไข
         href: desktop-conditional-table-formatting.md
       - name: เรียงลำดับตามคอลัมน์ใน Power BI Desktop
@@ -302,18 +308,12 @@ items:
         href: visuals/power-bi-visualization-export-data.md
       - name: ย้าย ปรับขนาด และเปิดหน้าต่างการแสดงผลด้วยภาพในการรายงาน
         href: visuals/power-bi-visualization-move-and-resize.md
-      - name: ไฮเปอร์ลิงก์ในตาราง
-        href: power-bi-hyperlinks-in-tables.md
-      - name: เพิ่มการเชื่อมโยงหลายมิติไปยังกล่องข้อความในรายงาน
-        href: service-add-hyperlink-to-text-box.md
       - name: เปลี่ยนวิธีการที่การแสดงผลด้วยภาพโต้ตอบในรายงาน
         href: service-reports-visual-interactions.md
       - name: ฮิสโทแกรม
         href: visuals/service-histograms.md
       - name: เคล็ดลับและลูกเล่นในการแสดงข้อมูลแผนที่ Power BI
         href: visuals/power-bi-map-tips-and-tricks.md
-      - name: กล่องข้อความในรายงาน Power BI
-        href: power-bi-reports-add-text-and-shapes.md
       - name: คุณสมบัติแกน x และแกน y ที่กำหนดด้วยตนเอง
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
       - name: แผนที่ ArcGIS ใน Power BI
@@ -1293,9 +1293,9 @@ items:
       href: service-admin-governance.md
     - name: ความปลอดภัยของ Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a3abfd814e95ca00c433b66e7fe6aad665f8426f
-ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
+ms.openlocfilehash: b3553d493940b831e3e604fe43176ace125fe995
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "54239301"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406741"
