@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/20/2018
+ms.date: 01/14/2019
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 2abca5019454067b6cdc04c3f52b6daeafb2fb85
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ebcf4a6467991bfc0d434302cd2c846ca4af1a5c
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285357"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54324008"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>วิธีการซื้อ Power BI Premium
 
@@ -60,7 +60,7 @@ ms.locfileid: "54285357"
 
 1. ทำตามขั้นตอนเพื่อทำการซื้อให้เสร็จสมบูรณ์
 
-นอกจากนี้คุณยังสามารถเลือกลิงก์ใดลิงก์หนึ่งต่อไปนี้เพื่อนำคุณไปยังหน้าการซื้อสำหรับ SKU นั้นโดยตรง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ SKU เหล่านั้น ให้ดู [Power BI Premium คืออะไร](service-premium.md#premiumskus)
+นอกจากนี้คุณยังสามารถเลือกลิงก์ใดลิงก์หนึ่งต่อไปนี้เพื่อนำคุณไปยังหน้าการซื้อสำหรับ SKU นั้นโดยตรง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ SKU เหล่านั้น ให้ดู [Power BI Premium คืออะไร](service-premium.md#premium-capacity-nodes)
 
 > [!IMPORTANT]
 > การเลือกลิงก์ด้านล่างนี้จะทำให้เกิดข้อผิดพลาดหากคุณไม่ได้อยู่ในบทบาทผู้ดูแลระบบส่วนกลางของ Office 365 หรือบทบาทของผู้ดูแลระบบการเรียกเก็บเงิน
