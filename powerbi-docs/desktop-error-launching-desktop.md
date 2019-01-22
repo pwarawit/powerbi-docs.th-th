@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 78cfcd51a951095353ce5d0f25c4511cc720c632
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: f527fa17ab242f6835ca99a3ff3ef3e2525a001f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578232"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277146"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>แก้ไขปัญหาเมื่อ Power BI Desktop เปิดไม่ขึ้น
 ใน**Power BI Desktop** ผู้ใช้ที่ติดตั้งและใช้งานเวอร์ชันก่อนหน้า **เกตเวย์ข้อมูลภายในองค์กร Power BI** สามารถถูกบล็อกจากการเปิดใช้งาน Power BI Desktop เนื่องจากนโยบายข้อจำกัดในระดับผู้ดูแลเกตเวย์ Power BI ภายในองค์กร ได้วางและตั้งชื่อไปป์บนเครื่อง 
@@ -23,13 +23,13 @@ ms.locfileid: "52578232"
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>แก้ไขปัญหาด้วยเกตเวย์ข้อมูลในองค์กรและ Power BI Desktop
 มีสามตัวเลือกเพื่อแก้ไขปัญหาเกี่ยวข้องกับเกตเวย์ข้อมูลในองค์กร และเปิดใช้งาน Power BI Desktop
 
-### <a name="resolution-1-install-the-latest-version-of-power-bi-on-premises-data-gateway"></a>การแก้ปัญหาที่ 1 ติดตั้งเกตเวย์ข้อมูลภายในองค์กร Power BI เวอร์ชันล่าสุด
+### <a name="resolution-1-install-the-latest-version-of-power-bi-on-premises-data-gateway"></a>การแก้ปัญหาที่ 1: ติดตั้งเกตเวย์ข้อมูลภายในองค์กร Power BI เวอร์ชันล่าสุด
 เกตเวย์ข้อมูลภายในองค์กร Power BI เวอร์ชันล่าสุดไม่จำกัดการตั้งชื่อไปป์บนเครื่องคอมพิวเตอร์ และอนุญาตให้ Power BI Desktop เพื่อเปิดใช้งานได้อย่างถูกต้อง ถ้าคุณจำเป็นต้องดำเนินต่อโดยใช้เกตเวย์ข้อมูลภายในองค์กร Power BI นี่คือวิธีแก้ไขแนะนำ คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดของเกตเวย์ข้อมูลภายในองค์กร Power BI จาก[ตำแหน่งที่ตั้งนี้](https://go.microsoft.com/fwlink/?LinkId=698863)ได้ โปรดทราบว่า ลิงก์เป็นลิงก์ดาวน์โหลดโดยตรงเพื่อการดำเนินการติดตั้ง
 
-### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-windows-service"></a>การแก้ปัญหาที 2 ถอนการติดตั้งหรือหยุด Windows service ของเกตเวย์ข้อมูลองค์กร Power BI
+### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-windows-service"></a>การแก้ปัญหาที 2: ถอนการติดตั้งหรือหยุด Windows service ของเกตเวย์ข้อมูลองค์กร Power BI
 ถ้าคุณไม่จำเป็นต้องใช้เกตเวย์ข้อมูลภายในองค์กร Power BI คุณสามารถถอนการติดตั้ง หรือคุณสามารถหยุด Windows service ของเกตเวย์ข้อมูลองค์กร Power BI ซึ่งจะลบข้อจำกัดนโยบาย และอนุญาตให้ Power BI Desktop ทำงาน
 
-### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>การแก้ปัญหาที่ 3 เรียกใช้ Power BI Desktop กับสิทธิ์ผู้ดูแลระบบ
+### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>การแก้ปัญหาที่ 3: เรียกใช้ Power BI Desktop กับสิทธิ์ผู้ดูแลระบบ
 อีกวิธีหนึ่งคือ คุณสามารถเปิดใช้ Power BI Desktop แบบผู้ดูแล ซึ่งอนุญาตให้ Power BI Desktop เปิดใช้งานอย่างเรียบร้อย ยังคงแนะนำให้คุณติดตั้งเวอร์ชันล่าสุดของเกตเวย์ข้อมูลภายในองค์กร Power BI ตามที่อธิบายไว้ก่อนหน้าในบทความนี้
 
 สิ่งสำคัญคือต้องทราบว่า Power BI Desktop ได้รับการออกแบบเป็นสถาปัตยกรรมแบบหลายกระบวนการ และกระบวนการต่างๆ เหล่านี้สื่อสารโดยใช้เนมไปป์ Windows อาจมีกระบวนการอื่นที่รบกวนเนมไปป์เหล่านั้น สาเหตุที่พบได้บ่อยที่สุดสำหรับการรบกวนดังกล่าวคือ ความปลอดภัย รวมถึงสถานการณ์ที่ซอฟต์แวร์ป้องกันไวรัส หรือไฟร์วอลล์อาจบล็อกไปป์ หรือเปลี่ยนเส้นทางปริมาณการใช้งานไปยังพอร์ตเฉพาะ การเปิดใช้งาน Power BI Desktop ด้วยสิทธิ์ของผู้ดูแลระบบอาจแก้ปัญหาดังกล่าว ถ้าไม่สามารถเปิดการใช้งานด้วยสิทธิ์ของผู้ดูแลได้ ให้ติดต่อผู้ดูแลระบบของคุณเพื่อพิจารณาว่ามีการใช้กฎความปลอดภัยใดที่ป้องกันไม่ให้เนมไปป์สื่อสารได้อย่างถูกต้อง และอนุญาต Power BI Desktop และกระบวนการย่อยที่เกี่ยวข้อง

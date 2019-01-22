@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 01af6707cf53f1a5be3f1e7446e967b2306e993b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717934"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287082"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>เพิ่มรูปภาพ ข้อความ วิดีโอ การสตรีมข้อมูลไปยังแดชบอร์ดของคุณ
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -28,7 +28,7 @@ ms.locfileid: "51717934"
 1. เลือก**เพิ่มไทล์**จากแถบเมนูด้านบน ขึ้นอยู่กับข้อจำกัดช่องว่าง คุณอาจเห็นเฉพาะเครื่องหมาย![บวก](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png)
    
     ![เพิ่มไอคอนไทล์](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
-2. เลือกชนิดของไทล์เมื่อต้องเพิ่ม: **รูปภาพ**, **กล่องข้อความ**, **วิดีโอ**, **เว็บเนื้อหา**หรือ**สตรีมข้อมูลแบบกำหนดเอง**.
+2. เลือกชนิดของไทล์ที่ต้องเพิ่ม: **รูปภาพ**, **กล่องข้อความ**, **วิดีโอ**, **เว็บเนื้อหา**หรือ**สตรีมข้อมูลแบบกำหนดเอง**
    
     ![เพิ่มหน้าต่างไทล์](media/service-dashboard-add-widget/power-bi-add-tile.png)
 

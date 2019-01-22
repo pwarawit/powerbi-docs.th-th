@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d875a5cd3ded8769ab3734601bd81cf0f17d7cea
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 74567016fe98d57b68d972084761ab8e50bf7b23
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578278"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284736"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>ใช้คอลัมน์จากการคำนวณใน Power BI Desktop
 คุณสามารถใช้คอลัมน์จากการคำนวณเพื่อเพิ่มข้อมูลใหม่ลงในตารางที่มีอยู่แล้วในแบบจำลองของคุณ แต่แทนที่จะทำแบบสอบถามและโหลดค่าลงในคอลัมน์ใหม่ของคุณจากแหล่งข้อมูล คุณสามารถสร้างสูตรนิพจน์การวิเคราะห์ข้อมูล (DAX) ที่กำหนดค่าของคอลัมน์ได้ ใน Power BI Desktop คอลัมน์จากการคำนวณถูกสร้างขึ้นโดยใช้คุณลักษณะคอลัมน์ใหม่ในมุมมองรายงาน
@@ -52,7 +52,7 @@ Jeff มีเขตข้อมูลที่เขาต้องการ
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
 ## <a name="learn-more"></a>เรียนรู้เพิ่มเติม
-ในที่นี้ เราเพียงแค่แนะนำคอลัมน์จากการคำนวณอย่างรวดเร็วเท่านั้น โปรดแน่ใจว่าได้ศึกษา [บทช่วยสอน: สร้างคอลัมน์จากการคำนวณใน Power BI Desktop](desktop-tutorial-create-calculated-columns.md) ที่คุณสามารถดาวน์โหลดไฟล์ตัวอย่าง และได้รับบทเรียนทีละขั้นตอนเกี่ยวกับวิธีการสร้างคอลัมน์เพิ่มเติม 
+ในที่นี้ เราเพียงแค่แนะนำคอลัมน์จากการคำนวณอย่างรวดเร็วเท่านั้น ลองไปดูที่ [บทช่วยสอน: สร้างคอลัมน์จากการคำนวณใน Power BI Desktop](desktop-tutorial-create-calculated-columns.md) ที่คุณสามารถดาวน์โหลดไฟล์ตัวอย่างและได้รับบทเรียนทีละขั้นตอนเกี่ยวกับวิธีการสร้างคอลัมน์เพิ่มเติมแล้ว 
 
 เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ DAX โปรดดูที่ [พื้นฐาน DAX ใน Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
 

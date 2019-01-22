@@ -6,15 +6,15 @@ ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/16/2018
-ms.openlocfilehash: a365cab0420fdf373d62f5b1774a4d86985adfe3
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101266"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292464"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>มีอะไรใหม่ใน Power BI Report Server
 
@@ -266,13 +266,13 @@ ms.locfileid: "50101266"
 
 ผู้ดูแลระบบสามารถตั้งค่าคุณสมบัติต่อไปนี้ในคุณสมบัติขั้นสูง SSMS สำหรับเซิร์ฟเวอร์ฟาร์ม:
 
-* EnableCustomVisuals: True/False
-* EnablePowerBIReportEmbeddedModels: True/False
-* EnablePowerBIReportExportData: True/False
-* MaxFileSizeMb: ค่าเริ่มต้นตอนนี้คือ 1000
+* เปิดใช้งานวิชวลแบบกำหนดค่าเอง: True/False จริง/เท็จ
+* เปิดใช้งานแบบจำลองรายงาน Power BI แบบฝังตัว: จริง/เท็จ
+* เปิดใช้งานการนำออกข้อมูลจากรายงาน Power BI: จริง/เท็จ
+* MaxFileSizeMb: ค่าเริ่มต้นในตอนนี้คือ 1000
 * ModelCleanupCycleMinutes: ความถี่ในการตรวจสอบเพื่อขับแบบจำลองจากหน่วยความจำ
 * ModelExpirationMinutes: ระยะเวลาจนกว่าแบบจำลองหมดอายุ และขับออกไปตามครั้งที่ใช้ล่าสุด
-* ScheduleRefreshTimeoutMinutes: ระยะเวลาที่ใช้ในการรีเฟรชข้อมูลสำหรับแบบจำลอง ตามค่าเริ่มต้น เป็นเวลาสองชั่วโมง  ไม่มีขีดจำกัดสูงสุด
+* ScheduleRefreshTimeoutMinutes: การรีเฟรชข้อมูลจะใช้เวลานานแค่ไหนสำหรับแต่ละรูปแบบ ตามค่าเริ่มต้น เป็นเวลาสองชั่วโมง  ไม่มีขีดจำกัดสูงสุด
 
 **ไฟล์กำหนดค่า rsreportserver.config**
 

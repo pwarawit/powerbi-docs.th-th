@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 328c8ab2e236f0ddc0c5116c1f76d343999193ab
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 774a90b946be30d26217a450edff541136bdb863
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157390"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283862"
 ---
 # <a name="add-a-filter-to-a-report-in-editing-view"></a>เพิ่มตัวกรองสำหรับรายงานในมุมมองการแก้ไข
 
@@ -24,7 +24,7 @@ ms.locfileid: "52157390"
 **คุณทราบหรือไม่** Power BI มีการใช้งานตัวกรองใหม่อยู่ในตัวอย่าง อ่านเพิ่มเติมเกี่ยวกับ[การใช้งานตัวกรองใหม่ในรายงาน Power BI](power-bi-report-filter-preview.md)
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>ตัวกรองในมุมมองการแก้ไขและมุมมองการอ่าน
-คุณสามารถโต้ตอบกับรายงานในสองมุมมอง คือ มุมมองการอ่าน และมุมมองการแก้ไข ความสามารถในการกรองที่พร้อมใช้งานสำหรับคุณจะขึ้นอยู่กับมุมมองที่เลือก อ่านรายละเอียด [เกี่ยวกับตัวกรองและการไฮไลท์ในรายงาน Power BI](power-bi-reports-filters-and-highlighting.md) ทั้งหมด
+คุณสามารถตรวจดูรายงานในสองมุมมองได้คือ: มุมมองการอ่านและมุมมองการแก้ไข ความสามารถในการกรองที่พร้อมใช้งานสำหรับคุณจะขึ้นอยู่กับมุมมองที่เลือก อ่านรายละเอียด [เกี่ยวกับตัวกรองและการไฮไลท์ในรายงาน Power BI](power-bi-reports-filters-and-highlighting.md) ทั้งหมด
 
 บทความนี้จะอธิบายวิธีการสร้างตัวกรองใน **มุมมองการแก้ไข** ของรายงาน  สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวกรองในมุมมองการอ่าน สามารถดูได้ที่ [โต้ตอบกับตัวกรองในมุมมองการอ่านของรายงาน](consumer/end-user-reading-view.md)
 

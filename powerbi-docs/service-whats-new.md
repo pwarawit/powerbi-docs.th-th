@@ -5,17 +5,17 @@ author: mihart
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: daada8a7f69c600acf6fc45669ed6a42c2fdd831
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: c35f418362c5036331030bf100d9bfca6b943a4a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900669"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295847"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
@@ -24,7 +24,7 @@ ms.locfileid: "52900669"
 - [มีอะไรใหม่ใน Power BI Desktop](desktop-latest-update.md)  
 - [มีอะไรใหม่ในแอปอุปกรณ์เคลื่อนที่สำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [บล็อกของทีม Power BI](https://powerbi.microsoft.com/blog/)
-- [บันทึกย่อสำหรับการวางจำหน่าย Business Applications Spring ‘18](http://aka.ms/businessappsreleasenotes)จาก Dynamics 365: อัปเดตล่าสุดสำหรับแอปพลิเคชันทางธุรกิจของเรา ตลอดจนความสามารถใหม่ ๆ สำหรับการสร้างแอปพลิเคชันของคุณและส่วนขยายที่เพิ่มเติมจากแพลตฟอร์มของเรา 
+- [Business Applications Spring บันทึกย่อประจำรุ่น 18](http://aka.ms/businessappsreleasenotes) จาก Dynamics 365 การอัปเดตแอปพลิเคชันทางธุรกิจล่าสุดของเรา ตลอดจนความสามารถใหม่ ๆ สำหรับแอปพลิเคชันของคุณเองและส่วนขยายที่ด้านบนแพลตฟอร์มของเรา 
 
 นอกจากนี้ คุณยังสามารถตรวจสอบแชนแนล YouTube สำหรับข้อมูลเกี่ยวกับ "มีอะไรใหม่" และคุณลักษณะต่าง ๆ
 
@@ -119,7 +119,7 @@ ms.locfileid: "52900669"
 * Power BI SharePoint Web Part พร้อมใช้งานสำหรับผู้ใช้ทั้งหมด
 * เชื่อมต่อ Power BI ไปยังแหล่งข้อมูลใด ๆ โดยใช้[SDK ตัวเชื่อมต่อข้อมูล](https://powerbi.microsoft.com/blog/data-connectors-developer-preview/)
 * นำทางไปยังรายงานด้วยหลายพารามิเตอร์ตัวกรอง URL
-* แสดงตัวอย่าง: [ใช้ Power BI Apps](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/)เพื่อกระจายแดชบอร์ดและรายงานของคุณอย่างกว้างขวางกับผู้ชมจำนวนมาก
+* ตัวอย่าง: [ใช้ Power BI Apps](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/) เพื่อกระจายแดชบอร์ดและรายงานของคุณอย่างกว้างขวางกับผู้ชมจำนวนมาก
 
 ### <a name="march-2017"></a>มีนาคม 2017
 * ปรับให้เข้ากับวิธีใช้ Power BI ในองค์กรของคุณด้วย[ตัวควบคุมของผู้ดูแลระบบระดับแยกย่อย](https://powerbi.microsoft.com/blog/announcing-granular-tenant-settings-in-power-bi/)
@@ -128,13 +128,13 @@ ms.locfileid: "52900669"
 * ใช้การควบคุมชุดข้อมูลของคุณมากยิ่งขึ้นด้วย[กำหนดการรีเฟรชแคชแบบกำหนดเอง](https://powerbi.microsoft.com/blog/announcing-custom-cache-refresh-schedules-in-the-power-bi-service/)
 * เชื่อมต่อกับ[Amazon Redshift](https://powerbi.microsoft.com/blog/announcing-support-for-amazon-redshift-reports-in-the-power-bi-service/)
 * เรียกดู[ภาพของ Power BI แบบกำหนดเองใน Office Store](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/)
-* แสดงตัวอย่าง: [สมัครใช้งานไปยังหน้ารายงาน](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)เพื่อติดตามข้อมูลของคุณ
+* ตัวอย่าง: [สมัครใช้งานหน้ารายงาน](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)เพื่อติดตามข้อมูลของคุณ
 * ใช้ชุดเนื้อหา Azure AD นี้เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับวิธีที่พนักงานและคู่ค้าของคุณกำลังใช้ Azure AD
 
 ### <a name="february-2017"></a>กุมภาพันธ์ 2017
 * [ปรับปรุงการแสดงตัวอย่างการนำทาง](https://powerbi.microsoft.com/blog/power-bi-service-february-feature-summary/) สลับไปมาระหว่างพื้นที่ทำงานได้ง่ายยิ่งขึ้น และดำเนินการกับเนื้อหาภายในพื้นที่ทำงานปัจจุบัน 
 * [ฝังแดชบอร์ด Power BI](https://powerbi.microsoft.com/blog/embed-dashboard/)ลงในแอปพลิเคชันแบบกำหนดเองของคุณ
-* แสดงตัวอย่าง: [รวมรายงาน Power BI ใน SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) 
+* ตัวอย่าง: [รวมรายงาน Power BI ใน SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) 
 
 ### <a name="january-2017"></a>มกราคม 2017
 * จัดการ Power BI โดยใช้[บทบาทผู้ดูแลระบบ Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole)
@@ -142,25 +142,25 @@ ms.locfileid: "52900669"
 * เวอร์ชัน 1.4 ของ[เครื่องมือสำหรับนักพัฒนาและ API ภาพแบบกำหนด](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/)ออกสู่ตลาดแล้ว
 * [ชุดคุณลักษณะสตรีมมิ่งแบบเรียลไทม์](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)นำออกสู่ตลาดเพื่อพร้อมใช้งานทั่วไปแล้ว
 * [ส่งข้อมูลไปยัง Power BI โดยใช้ Microsoft Flow](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)โดยไม่ต้องเขียนโค้ดใด ๆ
-* แสดงตัวอย่าง: [สมัครใช้งานไปยังหน้ารายงาน](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)เพื่อติดตามข้อมูลของคุณ
+* ตัวอย่าง: [สมัครใช้งานหน้ารายงาน](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)เพื่อติดตามข้อมูลของคุณ
 * ใช้ชุดเนื้อหา Azure AD นี้เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับวิธีที่พนักงานและคู่ค้าของคุณกำลังใช้ Azure AD
 
 ## <a name="2016"></a>2016
 ### <a name="november-2016"></a>พฤศจิกายน 2016
-* แสดงตัวอย่าง: ลองใช้งาน[การนำทางแบบใหม่สำหรับบริการ Power BI, powerbi.com](https://powerbi.microsoft.com/blog/announcing-the-new-power-bi-navigation-preview/)
-* แสดงตัวอย่าง: [ส่งออกรายงาน Power BI ไปยัง PowerPoint](https://powerbi.microsoft.com/blog/export-power-bi-report-to-powerpoint-preview/)
-* แสดงตัวอย่าง: [ดาวน์โหลดรายงาน Power BI (ไฟล์ PBIX)](https://powerbi.microsoft.com/blog/announcing-preview-of-download-power-bi-desktop-files-from-the-web/)จากบริการ Power BI เพื่อให้คุณสามารถแก้ไขได้ใน Power BI Desktop
+* ตัวอย่าง: ลองใช้งาน[การนำทางแบบใหม่สำหรับบริการ Power BI, powerbi.com](https://powerbi.microsoft.com/blog/announcing-the-new-power-bi-navigation-preview/)
+* ตัวอย่าง: [ส่งออกรายงาน Power BI ไปยัง PowerPoint](https://powerbi.microsoft.com/blog/export-power-bi-report-to-powerpoint-preview/)
+* ตัวอย่าง: [ดาวน์โหลดรายงาน Power BI (ไฟล์ PBIX)](https://powerbi.microsoft.com/blog/announcing-preview-of-download-power-bi-desktop-files-from-the-web/) จากบริการ Power BI เพื่อให้คุณสามารถแก้ไขได้ใน Power BI Desktop
 * สร้าง[ตัววัดที่เติมของเหลว](https://powerbi.microsoft.com/blog/visual-awesomeness-unlocked-liquid-fill-gauge/) ซึ่งเป็นตัววัดวงกลมที่แสดงค่าเปอร์เซ็นต์ ด้วยคลื่นของเหลวที่เคลื่อนไหว
 * สำรวจ[ข้อมูลการจัดการโครงการ Jira](https://powerbi.microsoft.com/blog/explore-your-jira-data-with-power-bi/)ของคุณด้วยชุดเนื้อหา Power BI
 * สำรวจ[ข้อมูล Insightcentr](https://powerbi.microsoft.com/blog/explore-your-insightcentr-data-with-power-bi/)ของคุณด้วยชุดเนื้อหา Power BI นี้
 * สร้างกราฟิกแสดงข้อมูล (Infographic) อย่างรวดเร็วด้วย[ภาพการออกแบบกราฟิกแสดงข้อมูลแบบกำหนดเอง](https://powerbi.microsoft.com/blog/quickly-create-infographics-with-the-infographic-designer-custom-visual-for-power-bi/)
-* ตัวอย่างส่วนตัว: [Azure Stream Analytics](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/)ส่งออกชุดข้อมูลสตรีมมิ่ง ที่ซึ่งคุณสามารถสร้างไทล์สตรีมมิ่ง Power BI ได้
-* แสดงตัวอย่าง: เพิ่ม[การแสดงภาพแผนที่ ESRI ArcGIS](https://powerbi.microsoft.com/blog/arcgis-maps-for-powerbi-available-in-powerbi-service/)ไปยังรายงานและแดชบอร์ดของคุณ
+* ตัวอย่างส่วนตัว: [Azure Stream Analytics](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/) จะส่งออกชุดข้อมูลสตรีมมิ่งของ Power BI ซึ่งคุณสามารถสร้างไทล์สตรีมมิ่งได้
+* ตัวอย่าง: เพิ่ม[การแสดงภาพแผนที่ ESRI ArcGIS](https://powerbi.microsoft.com/blog/arcgis-maps-for-powerbi-available-in-powerbi-service/) ไปยังรายงานและแดชบอร์ดของคุณ
 
 ### <a name="october-2016"></a>ตุลาคม 2016
 * ใช้ประโยชน์จาก[การรวม Power BI กับ Microsoft Teams ใหม่](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)
 * ออกแบบ[การแสดงภาพ R](https://powerbi.microsoft.com/blog/r-powered-custom-visuals/)ใน Power BI โดยไม่ทำความเข้าใจเกี่ยวกับ R.
-* แสดงตัวอย่าง: ด้วย[Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/) ผู้เชี่ยวชาญ BI สามารถสร้างแบบจำลอง BI เชิงความหมายได้ตามข้อมูลที่อยู่ในระบบคลาวด์ หรือภายในองค์กร เพื่อให้ผู้ใช้ทางธุรกิจมีมุมมองข้อมูลของตนที่ลดความซับซ้อนลง
+* ตัวอย่าง: ด้วย [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/) ผู้เชี่ยวชาญ BI สามารถสร้างแบบจำลอง BI เชิงความหมายได้ตามข้อมูลที่อยู่ในระบบคลาวด์หรือภายในองค์กร เพื่อให้ผู้ใช้ทางธุรกิจมีมุมมองข้อมูลของตนที่ลดความซับซ้อนลง
 * บทบาทใหม่ของ[ผู้ดูแลระบบบริการ Power BI](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/) สามารถกำหนดให้กับผู้ใช้ที่ควรมีสิทธิ์เข้าถึงพอร์ทัลผู้ดูแล Power BI แต่ไม่ใช่สิทธิ์การเข้าถึงการดูแลอื่น ๆ ของ Office 365
 * สำรวจ[ข้อมูลขั้นสูง MYOB ของคุณด้วย Power BI](https://powerbi.microsoft.com/blog/explore-your-myob-advanced-data-with-power-bi/)
 * วิธีการที่ผู้ที่ไม่ใช่ผู้ดูแลระบบสามารถตรวจทาน[บันทึกการตรวจสอบ Power BI](https://powerbi.microsoft.com/blog/tech-tip-thursday-power-bi-auditing-for-a-non-administrator/) ได้
@@ -184,7 +184,7 @@ ms.locfileid: "52900669"
 ### <a name="june-2016"></a>มิถุนายน 2016
 ***ข้อมูลเชิงลึกด่วน***
 
-* ข้อมูลเชิงลึกด่วนทำงานกับตัวกรองที่ซับซ้อน (Complex Filter): เรายินดีที่จะประกาศว่าข้อมูลเชิงลึกด่วนที่ครอบคลุมไปไทล์เดียว ตอนนี้เข้าใจตัวกรองที่ซับซ้อนแล้ว
+* ข้อมูลเชิงลึกด่วนทำงานกับตัวกรองที่ซับซ้อน: เรายินดีที่จะประกาศว่าข้อมูลเชิงลึกด่วนที่ครอบคลุมไปไทล์เดียว ตอนนี้เข้าใจตัวกรองที่ซับซ้อนแล้ว
 
 สำหรับรายละเอียดทั้งหมด [เยี่ยมชมบล็อกของทีม Power BI](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/)
 
@@ -192,13 +192,13 @@ ms.locfileid: "52900669"
 ***รับข้อมูล***
 
 * ขีดจำกัดขนาดไฟล์เพิ่มเป็น 1 GB: เราเพิ่มขีดจำกัดขนาดไฟล์สำหรับทั้งเวิร์กบุ๊ก Excel และไฟล์ Power BI Desktop เป็น 1 GB
-* ค้นหาเซิร์ฟเวอร์ SSAS ที่ตั้งค่ากับเกตเวย์ Enterprise และอัปเดตอื่น ๆ ของเกตเวย์: ในตอนนี้เมื่อคุณตั้งค่าเกตเวย์ Enterprise ผู้ใช้ในบริษัทของคุณจะสามารถเข้าถึงเซิร์ฟเวอร์เหล่านี้ในบริการ Power BI ได้ผ่านทางหน้ารับข้อมูล นอกจากนี้ เรายังเพิ่มการสนับสนุนสำหรับการรีเฟรชชุดข้อมูลที่มีข้อมูลจากเซิร์ฟเวอร์ SAP Business Warehouse ที่ใช้เกตเวย์ดังกล่าว และสร้างกฎการทำแผนที่ UPN เมื่อคุณใช้ Analysis Services กับเกตเวย์นั้น
+* ค้นหาเซิร์ฟเวอร์ SSAS ที่ตั้งค่ากับเกตเวย์เอ็นเตอร์ไพรส์และการอัปเดตเกตเวย์อื่น ๆ: ในตอนนี้เมื่อคุณตั้งค่าเกตเวย์เอ็นเตอร์ไพรส์ ผู้ใช้ในบริษัทของคุณจะสามารถเข้าถึงเซิร์ฟเวอร์เหล่านี้ในบริการ Power BI ผ่านทางหน้ารับข้อมูล นอกจากนี้ เรายังเพิ่มการสนับสนุนสำหรับการรีเฟรชชุดข้อมูลที่มีข้อมูลจากเซิร์ฟเวอร์ SAP Business Warehouse ที่ใช้เกตเวย์ดังกล่าว และสร้างกฎการทำแผนที่ UPN เมื่อคุณใช้ Analysis Services กับเกตเวย์นั้น
 
 ***การรักษาความปลอดภัยระดับแถว (RLS)***
 
-* สนับสนุนกลุ่ม (AAD) Azure Active Directory: ขณะนี้ผู้ใช้สามารถกำหนดกลุ่ม AAD (กลุ่มความปลอดภัยและรายการกระจาย) ให้กับบทบาทหนึ่งได้ ซึ่งทำให้ง่ายต่อการกำหนดบทบาทให้กับกลุ่มผู้ใช้จำนวนมากในครั้งเดียวได้
-* [ทดสอบบทบาท RLS ของคุณด้วยรายงานที่สำรองข้อมูลไว้ด้วย RLS้](service-admin-rls.md#validating-the-role-within-power-bi-desktop): เราได้เพิ่มคุณลักษณะการแสดงตัวอย่าง RLS ของเราที่ช่วยให้คุณสามารถทดสอบชุดข้อมูลของคุณเป็นบทบาทเฉพาะได้ ซึ่งนี่จะทำให้แน่ใจว่าบทบาทดังกล่าวทำงานตามที่คุณคาดหมายก่อนที่ผู้ใช้ต่าง ๆ จะเข้าใช้งานแดชบอร์ดของคุณ
-* กำหนดและใช้งาน RLS ไปยังแบบจำลองระบบคลาวด์ตามคิวรี่โดยตรง: ในตอนนี้คุณสามารถสร้างและใช้กฎ RLS สำหรับแหล่งข้อมูลคิวรีโดยตรงได้แล้ว
+* การสนับสนุนกลุ่ม Azure Active Directory (AAD): ขณะนี้ผู้ใช้สามารถกำหนดกลุ่ม AAD (กลุ่มความปลอดภัยและรายการแจกจ่าย) ให้กับบทบาทหนึ่งได้ ซึ่งทำให้ง่ายต่อการกำหนดบทบาทให้กับกลุ่มผู้ใช้จำนวนมากในครั้งเดียวได้
+* [ทดสอบบทบาท RLS ของคุณ ด้วยรายงานที่สำรองข้อมูลไว้ด้วย RLS ภายใน](service-admin-rls.md#validating-the-role-within-power-bi-desktop): เราได้เพิ่มคุณลักษณะการแสดงตัวอย่าง RLS ของเราที่ช่วยให้คุณทดสอบชุดข้อมูลในบทบาทเฉพาะ ซึ่งนี่จะทำให้แน่ใจว่าบทบาทดังกล่าวทำงานตามที่คุณคาดหมายก่อนที่ผู้ใช้ต่าง ๆ จะเข้าใช้งานแดชบอร์ดของคุณ
+* กำหนดและปรับใช้ RLS เข้ากับโมเดลคลาวด์ตามคิวรีโดยตรง: ตอนนี้คุณสามารถสร้างและปรับใช้กฎ RLS สำหรับแหล่งข้อมูลคิวรีโดยตรง
 
 ***แดชบอร์ด***
 
@@ -206,13 +206,13 @@ ms.locfileid: "52900669"
 
 ***วิเคราะห์ใน Excel***
 
-* ปรับปรุงประสบการณ์ในการดาวน์โหลด: ดาวน์โหลดอัปเดตไปยังคุณลักษณะการวิเคราะห์ใน Excel ผ่านประสบการณ์กล่องโต้ตอบใหม่ได้อย่างง่ายดาย
-* สนับสนุนสำหรับ RLS: เมื่อคุณตั้งค่า RLS แล้ว ตอนนี้กฎที่คุณนำไปใช้กับข้อมูลในขณะนี้จะโฟลว์ผ่านเมื่อผู้ใช้วิเคราะห์ข้อมูลใน Excel
-* ปรับปรุงข้อผิดพลาดในการส่งข้อความสำหรับฐานข้อมูล Analysis Services ภายในองค์กร: ก่อนหน้านี้ ถ้าคุณเลือกการวิเคราะห์ใน Excel สำหรับแหล่งข้อมูลที่ไม่สนับสนุน คุณจะไม่ได้รับข้อความข้อผิดพลาดจนกว่าหลังจากที่คุณดาวน์โหลดไฟล์ ODC และพยายามที่จะเชื่อมต่อกับ Power BI ขณะนี้ ทันทีที่คุณเลือกวิเคราะห์ใน Excel (Analyze in Excel) สำหรับแหล่งข้อมูลที่เราไม่สนับสนุน คุณจะเห็นข้อความแจ้งให้คุณทราบว่าเรายังไม่สนับสนุนแหล่งข้อมูลนั้น
+* ประสบการณ์การดาวน์โหลดที่มีการปรับปรุง: ดาวน์โหลดอัปเดตไปยังคุณลักษณะการวิเคราะห์ใน Excel ผ่านประสบการณ์กล่องโต้ตอบใหม่ได้อย่างง่ายดาย
+* การสนับสนุน RLS: เมื่อคุณตั้งค่า RLS แล้ว กฎที่คุณนำไปใช้กับข้อมูลในขณะนี้จะโฟลว์ผ่านเมื่อผู้ใช้วิเคราะห์ข้อมูลใน Excel
+* ข้อความแสดงข้อผิดพลาดที่มีการปรับปรุงสำหรับฐานข้อมูล Analysis Service ภายในองค์กร: ก่อนหน้านี้ ถ้าคุณเลือกการวิเคราะห์ใน Excel สำหรับแหล่งข้อมูลที่ไม่สนับสนุน คุณจะไม่ได้รับข้อความแสดงข้อผิดพลาดจนกว่าหลังจากที่คุณดาวน์โหลดไฟล์ ODC และพยายามที่จะเชื่อมต่อกับ Power BI ขณะนี้ ทันทีที่คุณเลือกวิเคราะห์ใน Excel (Analyze in Excel) สำหรับแหล่งข้อมูลที่เราไม่สนับสนุน คุณจะเห็นข้อความแจ้งให้คุณทราบว่าเรายังไม่สนับสนุนแหล่งข้อมูลนั้น
 
 สำหรับรายละเอียดทั้งหมด [เยี่ยมชมบล็อกของทีม Power BI](https://powerbi.microsoft.com/blog/power-bi-service-may-update-file-size-increase-to-1-gb/)
 
-* [Power BI Q&A สนับสนุนสำหรับแบบจำลองแบบตาราง SQL Server 2016 Analysis Services](service-q-and-a-direct-query.md): เรายินดีอย่างยิ่งที่จะประกาศการปรับปรุงประสบการณ์ของผู้ใช้สำหรับการถามตอบของ Power BI และจุดเริ่มต้นของตัวอย่างสาธารณะของการถามตอบ Power BI สำหรับแหล่งข้อมูลที่เชื่อมต่อเกตเวย์องค์กร โดยเริ่มต้นด้วยการสนับสนุนสำหรับแบบจำลองแบบตาราง SQL Server 2016 Analysis Services สำหรับรายละเอียดทั้งหมด [ดูบล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
+* [การสนับสนุนการถามตอบ Power BI สำหรับแบบจำลองแบบตาราง SQL Server 2016 Analysis Services](service-q-and-a-direct-query.md): เรายินดีอย่างยิ่งที่จะประกาศการปรับปรุงประสบการณ์ของผู้ใช้สำหรับการถามตอบของ Power BI และจุดเริ่มต้นของการแสดงตัวอย่างสาธารณะของการถามตอบ Power BI สำหรับแหล่งข้อมูลที่เชื่อมต่อเกตเวย์เอ็นเตอร์ไพรส์ โดยเริ่มต้นด้วยการสนับสนุนสำหรับแบบจำลองแบบตาราง SQL Server 2016 Analysis Services สำหรับรายละเอียดทั้งหมด [ดูบล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-q-a-for-enterprise-gateway-connected-data-sources-now-available-in-public-preview/)
 * [สนับสนุนไฟล์ภายในเครื่องสำหรับรายงาน Excel](service-excel-workbook-files.md#local-excel-workbooks): ในตอนนี้คุณสามารถอัปโหลดไฟล์ Excel ของคุณจากไดรฟ์ภายในเครื่องหรือบริการพื้นที่จัดเก็บอื่น ๆ และใช้รายงาน Excel ที่เหมือนกับที่คุณใช้ใน Excel Online พร้อมประโยชน์เพิ่มเติมของ Power BI ได้ สำหรับรายละเอียดทั้งหมด [ดูบล็อกโพสต์](https://powerbi.microsoft.com/blog/powerbi-upload-excel-reports-from-local-files/)
 
 **28 เมษายน 2016**
@@ -238,11 +238,11 @@ ms.locfileid: "52900669"
 ***องค์กร***
 
 * [ExpressRoute](service-admin-power-bi-expressroute.md): ใช้เพื่อสร้างการเชื่อมต่อส่วนตัวที่มีการจัดการไปยัง Power BI
-* [ชุดเนื้อหาที่สนับสนุนสำหรับ RLS](service-admin-rls.md) (ตัวอย่าง): หากมีการกำหนด RLS สำหรับแดชบอร์ดและรายงานที่มีการกระจายโดยเป็นส่วนหนึ่งของชุดเนื้อหาหนึ่ง ดังนั้น ระบบจะเป็นปฏิบัติตามกฎการรักษาความปลอดภัยสำหรับชุดเนื้อหานั้น
+* [การสนับสนุนชุดเนื้อหาสำหรับ RLS](service-admin-rls.md) (ตัวอย่าง): หากมีการกำหนด RLS สำหรับแดชบอร์ดและรายงานที่มีการกระจายโดยเป็นส่วนหนึ่งของชุดเนื้อหาหนึ่ง ดังนั้น ระบบจะปฏิบัติตามกฎการรักษาความปลอดภัยสำหรับชุดเนื้อหานั้น
 
 ***แดชบอร์ด***
 
-* [ไทล์วิดีโอ Vimeo](service-dashboard-add-widget.md): จากแดชบอร์ด เพิ่มไทล์ที่ประกอบด้วยโปรแกรมเล่น Vimeo ที่ฝังตัว
+* [ไทล์วิดีโอ Vimeo](service-dashboard-add-widget.md):  จากแดชบอร์ด เพิ่มไทล์ที่ประกอบด้วยโปรแกรมเล่น Vimeo ที่ฝังตัว
 
 ***วิเคราะห์ใน Excel***
 
@@ -266,9 +266,9 @@ ms.locfileid: "52900669"
 
 ***ถามตอบ***
 
-* การเติมข้อมูลอัตโนมัติสำหรับ "คือ (is)": การถามตอบจะแนะนำค่าถ้าคุณพิมพ์ชื่อคอลัมน์และตามด้วย "คือ (is)"
+* ทำให้เสร็จสมบูรณ์โดยอัตโนมัติสำหรับ "คือ (is)": การถามตอบจะแนะนำค่าต่าง ๆ ถ้าคุณพิมพ์ชื่อคอลัมน์และตามด้วย "คือ (is)"
 
-***Mobile***
+***อุปกรณ์เคลื่อนที่***
 
 * KPI บน Apple Watch ของคุณ: ตรวจสอบ KPI และไทล์การ์ดของคุณโดยไม่ต้องเปิดแอป Power BI
 
@@ -403,7 +403,7 @@ ms.locfileid: "52900669"
 * เพิ่มประสิทธิภาพในการแสดงภาพ:
   
   1. สัญลักษณ์ภาพสำหรับสถานะการเรียงลำดับในภาพแบบเป็นตาราง
-  2. ภาพใหม่: แผนภูมิพื้นที่แบบซ้อนกัน
+  2. วิชวลใหม่: แผนภูมิพื้นที่แบบเรียงซ้อน
   3. เคล็ดลับเครื่องมืออัจฉริยะสำหรับแผนภูมิพื้นที่และแผนภูมิเส้นเมื่อเลื่อนเมาส์
   4. ความสามารถในการสร้างเส้น/บริเวณอ้างอิงสำหรับภาพคาร์ทีเซียน
   5. ป้ายชื่อข้อมูลที่ปรับปรุงแล้วสำหรับแผนภูมิวงกลมและแผนภูมิกระจาย
@@ -421,9 +421,9 @@ ms.locfileid: "52900669"
   1. สนับสนุน SSAS หลายมิติ - สนับสนุนลำดับชั้น (คุณลักษณะการแสดงตัวอย่าง)
   2. ตัวเชื่อมต่อ Stripe
   3. ตัวเชื่อมต่อ Smartsheet
-  4. “ใส่ข้อมูล”: วางหรือใส่ข้อมูลเพื่อสร้างตาราง
-  5. การปรับปรุง DirectQuery: การสนับสนุนสำหรับข้อมูลทุกประเภทของ T SQL และ SAP HANA ทำให้ประสิทธิภาพการทำงานเพิ่มขึ้น
-  6. ตัวเชื่อมต่อ ODBC: สนับสนุนสำหรับการเลือกผู้ใช้/DSNs ระบบ
+  4. "ป้อนข้อมูล": วางหรือป้อนข้อมูลเพื่อสร้างตาราง
+  5. การปรับปรุง DirectQuery:  การสนับสนุนสำหรับข้อมูลทุกประเภทของ T-SQL และ SAP HANA ทำให้ประสิทธิภาพการทำงานเพิ่มขึ้น
+  6. ตัวเชื่อมต่อ ODBC: การสนับสนุนสำหรับการเลือกผู้ใช้/DSN ระบบ
   7. ตัวเชื่อมต่อ CSV: ความสามารถในการระบุตัวคั่นคอลัมน์ในกล่องโต้ตอบแหล่งข้อมูล
 
 สำหรับรายละเอียดทั้งหมด รวมทั้งวิดีโอที่สาธิตการอัปเดตทั้งหลายเหล่านี้ ไปยัง[บล็อก Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)
@@ -447,8 +447,8 @@ ms.locfileid: "52900669"
 * [แสดงภาพข้อมูล VMob ของคุณใน Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [การรวม Ppower BI กับ Cortana](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [แสดงตัวอย่างของเกตเวย์ Power BI สำหรับองค์กร](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* นำชุดเนื้อหาใหม่มาใช้:[ค้นหาการวิเคราะห์จาก Bing บนแดชบอร์ด Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
-* นักพัฒนาที่เน้นการปรับปรุงใหม่ ๆ: [ใหม่สอง API และการลงทะเบียนแอปฯที่ง่ายขึ้น](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
+* การนำชุดเนื้อหาใหม่มาใช้: [ค้นหาการวิเคราะห์จาก Bing บนแดชบอร์ด Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
+* การเพิ่มประสิทธิภาพใหม่ ๆ ที่นักพัฒนามุ่งเน้น: [API สองแบบใหม่และการลงทะเบียนแอปที่ง่ายขึ้น](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **24 พฤศจิกายน 2015**
 
@@ -541,7 +541,7 @@ ms.locfileid: "52900669"
 
 * มีความยืดหยุ่นในแดชบอร์ดของคุณมากขึ้น เพื่อปรับแต่งแดชบอร์ดตามที่คุณต้องการด้วยขนาดไทล์เพิ่มเติมตั้งแต่ 1 x 1 ถึง 5 x 5
 * ตอนนี้คุณสามารถ[แชร์ (และยกเลิกแชร์) แดชบอร์ดจากพื้นที่กลุ่ม](service-collaborate-power-bi-workspace.md) ในวิธีการเช่นเดียวกับที่คุณดำเนินการในพื้นที่ของคุณเอง เมื่อเพื่อนร่วมงานยอมรับคำเชิญการแชร์ของคุณแล้ว แดชบอร์ดที่แชร์นั้น (และรายงานที่เกี่ยวข้องของแดชบอร์ดเหล่านั้น) จะถูกเพิ่มในพื้นที่ของตนด้วยสิทธิ์แบบอ่านอย่างเดียว
-* เราได้เพิ่ม 5 [ตัวอย่างที่เกี่ยวข้องกับอุตสาหกรรม](sample-datasets.md)เพิ่มเติมไปยัง Power BI: กำไรจากลูกค้า ทรัพยากรมนุษย์ การวิ เคราะห์โอกาส การวิเคราะห์การจัดซื้อ และตัวอย่างการขายและการตลาด
+* เราได้เพิ่ม 5 [ตัวอย่างที่เกี่ยวข้องกับอุตสาหกรรม](sample-datasets.md)เพิ่มเติมไปยัง Power BI: ความสามารถในการทำกำไรสำหรับลูกค้า ทรัพยากรบุคคล การวิเคราะห์โอกาส การวิเคราะห์ด้านการจัดซื้อ และตัวอย่างการขายและการตลาด
 * Stripe คือแพลตฟอร์การชำระเงินขั้นสูงสำหรับธุรกิจแบบออนไลน์ ตั้งแต่บริษัทสตาร์ทอัพไปจนถึง Fortune 500 ธุรกิจหลายพันธุรกิจใช้ Stripe รับการชำระเงินกว่า 130 สกุลเงินจากทั่วทุกมุมโลก ด้วยการเชื่อมต่อ Power BI กับบัญชี Stripe ปัจจุบันของ คุณจะสามารถ[ใช้ชุดเนื้อหา Power BI Stripe เพื่อตรวจติดตาม สำรวจ และดูกิจกรรม Stripe ของคุณได้](service-connect-to-stripe.md)
 
 [เรียนรู้เพิ่มเติมในบล็อกของเรา](http://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx)
@@ -592,9 +592,9 @@ ms.locfileid: "52900669"
 **24 กรกฎาคม 2015**
 
 * เรามีความยินดีอย่างยิ่งที่จะประกาศ "ความพร้อมใช้งานทั่วไป" (General availability: GA) ของ Power BI ลงทะเบียนวันนี้เพื่อใช้[Power BI Pro](service-self-service-signup-for-power-bi.md) เราได้นำเสนอคุณลักษณะใหม่ที่ดีเยี่ยม โดยเป็นส่วนหนึ่งของการเผยแพร่ GA:
-* ประสบการณ์ใหม่สำหรับการสร้างการแสดงภาพและรายงาน: พื้นที่รายงานใหม่ที่มีตัวเลือกการแสดงภาพมากขึ้น ให้คุณสามารถควบคุมการจัดรูปแบบชื่อเรื่อง คำอธิบายแผนภูมิ แกน สี พื้นหลัง และอื่น ๆ ได้มากขึ้น
+* ประสบการณ์ใหม่สำหรับการสร้างการแสดงภาพและรายงาน: พื้นที่รายงานใหม่มีตัวเลือกการแสดงภาพมากขึ้น ให้คุณสามารถควบคุมการจัดรูปแบบชื่อเรื่อง คำอธิบายแผนภูมิ แกน สี พื้นหลัง และอื่น ๆ ได้มากขึ้น
 * [กลุ่ม Power BI](service-create-distribute-apps.md): กลุ่มเสนอประสบการณ์การทำงานร่วมกันอย่างมีประสิทธิภาพที่สร้างขึ้นภายในกลุ่ม Office 365
-* [ชุดเนื้อหาองค์กร](service-organizational-content-pack-introduction.md): Power BI ช่วยให้การสร้างแดชบอร์ดและรายงานทำได้ง่ายมาก และตอนนี้ ผู้ใช้สามารถเผยแพร่เนื้อหานี้ไปยังแกลเลอรีเนื้อหาขององค์กรได้แล้ว
+* [ชุดเนื้อหาองค์กร](service-organizational-content-pack-introduction.md): Power BI ช่วยให้การสร้างแดชบอร์ดและรายงานทำได้ง่ายมาก และตอนนี้ผู้ใช้สามารถเผยแพร่เนื้อหานี้ไปยังแกลเลอรีเนื้อหาองค์กรได้
 * [นำเข้าไฟล์ Excel ทั้งหมด](service-excel-workbook-files.md): คุณสามารถนำเข้าเวิร์กบุ๊ก Excel ใด ๆ ที่จัดเก็บบน OneDrive for Business ลงใน Power BI และดูทั้งเวิร์กบุ๊กได้ เหมือนกับที่คุณดำเนินการใน Excel Online
 * [นำไฟล์ CSV เข้ามา](service-get-data-from-files.md): เช่นเดียวกับไฟล์ Excel หรือไฟล์ Power BI Desktop ไฟล์ข้อความค่าที่คั่นด้วยเครื่องหมายจุลภาค (CSV) ยังเป็นชุดข้อมูลสำหรับแดชบอร์ด Power BI และรายงานของคุณได้
 * แทนที่ไฟล์ Excel, Power BI Desktop และ CSV: คุณสามารถอัปโหลดไฟล์เวอร์ชั่นที่อัปเดตแล้วไปยัง Power BI ได้ และไฟล์นั้นจะแทนที่ชุดข้อมูลที่มีอยู่ในปัจจุบัน รายงานและแดชบอร์ดทั้งหมดที่เชื่อมต่อกับชุดข้อมูลนี้ ขณะนี้ใช้เวอร์ชันใหม่โดยอัตโนมัติทั้งหมด

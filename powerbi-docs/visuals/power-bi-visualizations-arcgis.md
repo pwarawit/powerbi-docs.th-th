@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 37e3e16a17e163d1acfeb43e1a1ede9fba1eca1e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266035"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279377"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>โต้ตอบกับ ArcGIS แมปใน Power BI
 หัวข้อนี้ถูกเขียนจากมุมมองของจุดของบุคคล*ใช้*แผน ArcGIS ในบริการ Power BI เดสก์ท็อป หรืออุปกรณ์เคลื่อนที่ เมื่อผู้สร้างการแชร์การแมป ArcGIS กับคุณ มีหลายวิธีในการโต้ตอบกับแผนผังนั้น  เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการสร้างแผนผังมี ArcGIS ดู[ArcGIS แมป โดยบทช่วยสอนทาง esri](../power-bi-visualization-arcgis.md)
@@ -145,9 +145,9 @@ ArcGIS Maps for Power BI ให้บริการโดย Esri (www.esri.com
 ไม่ Power BI จำเป็นต้องเชื่อมต่อเครือข่ายเมื่อต้องแสดงแผนที่แบบ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-ขอความช่วยเหลือ: **ทาง Esri**แสดง[เอกสารที่ครอบคลุม](https://go.microsoft.com/fwlink/?LinkID=828772)ชุดคุณลักษณะของ**ArcGIS Maps for Power BI**
+การขอความช่วยเหลือ: **Esri** มี[เอกสารประกอบที่ครอบคลุม](https://go.microsoft.com/fwlink/?LinkID=828772)ชุดคุณลักษณะของ **ArcGIS Maps for Power BI**
 
-คุณสามารถถามคำถาม ค้นหาข้อมูลล่าสุด รายงานปัญหา และค้นหาคำตอบใน Power BI [เธรดชุมชนที่เกี่ยวข้องกับ**ArcGIS Maps for Power BI**](https://go.microsoft.com/fwlink/?LinkID=828771)ได้
+คุณสามารถถามคำถาม ค้นหาข้อมูลล่าสุด รายงานปัญหา และค้นหาคำตอบใน[กระทู้ ชุมชน Power BI ที่เกี่ยวข้องกับ **ArcGIS Maps for Power BI**](https://go.microsoft.com/fwlink/?LinkID=828771) ได้
 
 ถ้าคุณมีคำแนะนำสำหรับการปรับปรุงประสิทธิภาพ โปรดส่งเพื่อ[รายการแนวคิดของ Power BI](https://ideas.powerbi.com)
 

@@ -5,16 +5,16 @@ author: maikelson
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 24d023d726183119a3bd098c61db75cb68969c52
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670428"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283150"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -50,11 +50,11 @@ ms.locfileid: "52670428"
 <br>โดย Gohul Shanmugalingam
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
-**ทำให้ข้อมูล Power BI ของคุณเป็นภาพ: ชนิดของแผนภูมิหลักและวิธีใช้งาน**
+**ทำข้อมูลวิชวล Power BI ของคุณ:  ชนิดแผนภูมิหลักและวิธีการใช้งาน**
 <br>โดย Miranda Li
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
 
-**Power BI, Excel และ Office 365: เพิ่มประสิทธิภาพข้อมูลขององค์กรของคุณ**
+**Power BI, Excel และ Office 365: ปรับข้อมูลองค์กรของคุณให้เหมาะสม**
 <br>โดย Olaf Hubel และ Miguel Martinez
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
@@ -112,7 +112,7 @@ ms.locfileid: "52670428"
 <br>โดย Bobrin กระจายจาก Avanade
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
-**ผู้ผลิต: อุตสาหกรรมของคุณจะดำเนินการตามการแปลงแบบดิจิทัล - รักษาความเป็นผู้นำ โดยใช้ประโยชน์จากการวิเคราะห์เมื่อต้องการขยายให้ใหญ่สุดกำไรจาก**
+**ผู้ผลิต: อุตสาหกรรมของคุณจะดำเนินการตามการแปลงแบบดิจิทัล - รักษาความเป็นผู้นำ โดยใช้ประโยชน์จากการวิเคราะห์เมื่อต้องการขยายผลกำไรให้เติบโตยิ่งขึ้น**
 <br>โดย Thompson "นพดล"จากระยะขอบสีน้ำเงินและ Pastor Jim จาก กลุ่ม Fastener Elgin
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
@@ -142,7 +142,7 @@ ms.locfileid: "52670428"
 <br>โดย Kasper de Jonge
 <br>[ดูเดี๋ยวนี้](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**ถามให้คู่ค้า: พัฒนาภาพแบบกำหนดเองสำหรับ Power BI**
+**ถามคู่ค้า: พัฒนาภาพแบบกำหนดเองสำหรับ Power BI**
 <br>โดย Ted Pattison
 <br>[ดูเดี๋ยวนี้](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
@@ -155,11 +155,11 @@ ms.locfileid: "52670428"
 
 **[ชุดข้อมูลการสัมมนาบนเว็บของการนำกรอบงานไปใช้ใน Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
 <br>โดย Manu Kanwarpal และ Paul Henwood
-<br>[ลงทะเบียนและเข้าชมได้ทันที - ส่วนที่ 1 - การเริ่มนำไปใช้: เริ่มนำวัฒนธรรมที่ใช้ข้อมูลไปใช้](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
-<br>[ลงทะเบียนและเข้าชมได้ทันที - ส่วนที่ 2 - การควบคุม: ควบคุมการใช้งาน Power BI ของคุณ](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
-<br>[ลงทะเบียนและเข้าชมได้ทันที - ส่วนที่ 3 - การจัดการบริการ: ข้อมูลเชิงลึกของการจัดการบริการ Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
-<br>[ลงทะเบียนและเข้าชมได้ทันที - ส่วนที่ 4 - ความปลอดภัย: เก็บรักษาข้อมูลของคุณให้ปลอดภัยด้วย Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
-<br>[ลงทะเบียนและเข้าชมตอนนี้ - ส่วนที่ 5 - การเผยแพร่: การเผยแพร่ Power BI ได้สำเร็จ](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
+<br>[ลงทะเบียนและรับชมทันที - ส่วนที่ 1 - การนำมาใช้: ปรับวิถีการส่งข้อมูล](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+<br>[ลงทะเบียนและรับชมทันที - ส่วนที่ 2 - การกำกับดูแล: ควบคุมการใช้งาน Power BI ของคุณ](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[ลงทะเบียนและรับชมทันที - ส่วนที่ 3 - การจัดการรูปแบบบริการ: ข้อมูลเชิงลึกเกี่ยวกับการจัดการบริการ Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[ลงทะเบียนและรับชมทันที - ส่วนที่ 4 - ความปลอดภัย: รักษาข้อมูลของคุณให้ปลอดภัยอยู่เสมอด้วย Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[ลงทะเบียนและรับชมทันที - ส่วนที่ 5 - ใช้งานจริง: เผยแพร่ Power BI เรียบร้อยแล้ว](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
 **ชุดข้อมูลการสัมมนาบนเว็บของผู้เชี่ยวชาญด้านการเงินของ Office 365**
 <br>โดย Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky และ Miguel Martinez

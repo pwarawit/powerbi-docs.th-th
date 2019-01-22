@@ -6,19 +6,19 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900563"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292004"
 ---
-# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>บทช่วยสอน: เริ่มต้นใช้งานบริการ Power BI (app.powerbi.com)
+# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>บทช่วยสอน: เริ่มต้นใช้งานบริการ Power BI service (app.powerbi.com)
 บทเรียนนี้ช่วยให้คุณเริ่มต้นใช้งาน***Power BI service***  สำหรับทำความเข้าใจว่า Power BI service เหมาะสมกับข้อเสนอ Power BI อื่นๆอย่างไร เราขอแนะนำให้ คุณเริ่มต้นด้วยการอ่าน[Power BI คืออะไร](power-bi-overview.md)
 
 ![ภาพแสดงความสัมพันธ์ระหว่างเดสก์ท็อป บริการ และอุปกรณ์เคลื่อนที่](media/service-get-started/power-bi-components.png)
@@ -93,7 +93,7 @@ ms.locfileid: "52900563"
    > 
  
 
-## <a name="step-2-start-exploring-your-dataset"></a>ขั้นตอนที่ 2 เริ่มต้นสำรวจชุดข้อมูลของคุณ
+## <a name="step-2-start-exploring-your-dataset"></a>ขั้นตอนที่ 2: เริ่มต้นสำรวจชุดข้อมูลของคุณ
 หลังจากที่คุณเชื่อมต่อกับข้อมูลแล้ว เริ่มต้นสำรวจ  เมื่อคุณพบสิ่งที่น่าสนใจ คุณสามารถสร้างแดชบอร์ดเพื่อตรวจสอบ และดูการเปลี่ยนแปลงเมื่อเวลาผ่านไปได้ มาดูว่าทำงานอย่างไร
     
 1. ในตัวแก้ไขรายงาน เราจะใช้บานหน้าต่าง**เขตข้อมูล**ทางด้านขวาของหน้าเพื่อสร้างรูปภาพ  เลือกกล่องกาเครื่องหมายข้าง**ยอดขายรวม**และ**วัน**
@@ -128,7 +128,7 @@ ms.locfileid: "52900563"
    
    เลือกไทล์ใหม่บนแดชบอร์ดของคุณเมื่อต้องกลับไปยังรายงานเมื่อใดก็ Power BI พาคุณกลับสู่ตัวแก้ไขรายงานในมุมมองการอ่าน เมื่อต้องการสลับกลับไปยังมุมมองการแก้ไข ให้เลือก**แก้ไขรายงาน**จากแถบเมนูด้านบน มุมมองการแก้ไขหนึ่งครั้ง ดูต่อและปักหมุดไทล์ 
 
-## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>ขั้นตอนที่ 3: สำรวจต่อไปด้วย Q&A (แบบสอบถามภาษาธรรมชาติ)
+## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>ขั้นตอนที่ 3:  สำรวจต่อไปด้วยการ Q&A (แบบสอบถามภาษาธรรมชาติ)
 1. หากต้องการสำรวจข้อมูลอย่างรวดเร็ว ลองถามคำถามในกล่อง Q&A กล่อง Q&A จะอยู่ที่ด้านบนของแดชบอร์ดของคุณ (**ถามคำถามเกี่ยวกับข้อมูลของคุณ**) และ ในแถบเมนูด้านบนในรายงานของคุณ (**ถามคำถาม**) ตัวอย่างเช่น ลองพิมพ์ "เซกเมนต์ใดมีรายได้ส่วนใหญ่"
    
    ![พื้นที่ Q&A](media/service-get-started/powerbi-qna.png)

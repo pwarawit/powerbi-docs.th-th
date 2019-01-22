@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e88e60bc1745a08ea53c7336f6f1fb9e4cda1ec8
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: cd9a68d10e0da0aaa883dae1a3979eff6a6b4ce6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619735"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290739"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>การรวมข้อมูลใน Power BI Desktop (ตัวอย่าง)
 
@@ -72,7 +72,7 @@ ms.locfileid: "51619735"
 > [!NOTE]
 > ตาราง **Sales Agg** เป็นเพียงตารางอีกตาราง ดังนั้นจึงมีความยืดหยุ่นในการโหลดด้วยวิธีการต่างๆ ตัวอย่างเช่น การรวมสามารถทำได้ในฐานข้อมูลต้นทางโดยใช้กระบวนการ ETL/ELT หรือโดย [นิพจน์ M](https://msdn.microsoft.com/query-bi/m/power-query-m-reference) สำหรับตาราง ซึ่งสามารถใช้โหมดพื้นที่เก็บข้อมูลการนำเข้าที่มีหรือไม่มี [การรีเฟรชแบบเพิ่มหน่วยในบริการ Power BI Premium](service-premium-incremental-refresh.md) หรืออาจเป็น DirectQuery และเพิ่มประสิทธิภาพสำหรับการคิวรี่อย่างรวดเร็วโดยใช้ [ดัชนี columnstore](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview) ความยืดหยุ่นนี้จะช่วยให้สถาปัตยกรรมที่สมดุลสามารถกระจายโหลดคิวรี่เพื่อหลีกเลี่ยงปัญหาคอขวดได้
 
-### <a name="storage-mode"></a>โหมดที่เก็บข้อมูล 
+### <a name="storage-mode"></a>โหมดการจัดเก็บข้อมูล 
 ลองดำเนินการต่อไปกับตัวอย่างที่เรากำลังใช้ เราตั้งค่าโหมดพื้นที่จัดเก็บข้อมูลของ **Sales Agg** เป็น **การนำเข้า** เพื่อเพิ่มความเร็วในการคิวรี่
 
 ![การตั้งค่าโหมดพื้นที่เก็บข้อมูล](media/desktop-aggregations/aggregations_04.jpg)
@@ -123,7 +123,7 @@ ms.locfileid: "51619735"
 
 เมนูแบบเลื่อนลง การสรุป มีค่าต่อไปนี้สำหรับการเลือก
 * จำนวน
-* จัดกลุ่มตาม
+* GroupBy
 * สูงสุด
 * ต่ำสุด
 * ผลรวม

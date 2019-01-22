@@ -6,20 +6,20 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508048"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295270"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>ใช้ Kerberos สำหรับลงชื่อเข้าใช้ครั้งเดียว (SSO) จาก Power BI ไปยังแหล่งข้อมูลภายในองค์กร
 
-ใช้ [การมอบหมายที่มีข้อจำกัดของ Kerberos](https://technet.microsoft.com/library/jj553400.aspx) เพื่อเปิดใช้งานการเชื่อมต่อการลงชื่อเข้าใช้ครั้งเดียวแบบไร้ร้อยต่อ เปิดใช้งาน SSO สำหรับรายงาน Power BI และแดชบอร์ดเพื่อรีเฟรชข้อมูลจากแหล่งข้อมูลภายในองค์กรอย่างง่ายดาย
+ใช้ [การมอบหมายที่มีข้อจำกัดของ Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) เพื่อเปิดใช้งานการเชื่อมต่อการลงชื่อเข้าใช้ครั้งเดียวแบบไร้ร้อยต่อ เปิดใช้งาน SSO สำหรับรายงาน Power BI และแดชบอร์ดเพื่อรีเฟรชข้อมูลจากแหล่งข้อมูลภายในองค์กรอย่างง่ายดาย
 
 ## <a name="supported-data-sources"></a>แหล่งข้อมูลที่ได้รับการสนับสนุน
 
@@ -50,7 +50,7 @@ ms.locfileid: "51508048"
 
 จะต้องกำหนดค่าหลายรายการ เพื่อให้การมอบหมายที่มีข้อจำกัดของ Kerberos ทำงานได้อย่างถูกต้อง ซึ่งรวมถึง*ชื่อบริการหลัก* (SPN) และการตั้งค่าการรับมอบสิทธิ์บนบัญชีบริการ
 
-### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>ข้อกำหนดเบื้องต้น 1: ติดตั้ง และกำหนดค่า เกตเวย์ข้อมูลในองค์กร
+### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>ข้อกำหนดเบื้องต้น 1: ติดตั้งและกำหนดค่าเกตเวย์ข้อมูลภายในองค์กร
 
 เกตเวย์ข้อมูลในองค์กร รุ่นนี้รองรับการอัปเกรดแบบแทนที่ ตลอดจนการแทนที่ค่าที่ตั้งไว้ของเกตเวย์เดิม
 
@@ -65,7 +65,7 @@ ms.locfileid: "51508048"
 > [!NOTE]
 > ถ้ามีการกำหนดค่าของ Azure AD DirSync / Connect และบัญชีผู้ใช้มีการซิงโครไนซ์ บริการเกตเวย์ก็ไม่ต้องดำเนินการค้นหา AD ในเครื่องระหว่างที่ทำงาน และคุณสามารถใช้ SID ของบริการในเครื่อง (แทนที่จะต้องใช้บัญชีโดเมน) สำหรับบริการเกตเวย์ ขั้นตอนการกำหนดค่าการมอบหมายที่มีข้อจำกัดของ Kerberos ที่แสดงในบทความนี้จะเหมือนกับการกำหนดค่านั้น (จะใช้กับวัตถุคอมพิวเตอร์ของเกตเวย์ใน Active Directory แทนที่จะใช้บัญชีโดเมน)
 
-### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>ข้อกำหนดเบื้องต้น 3: มีสิทธิ์ผู้ดูแลโดเมน เพื่อกำหนดค่า SPN (SetSPN) และตั้งค่า การมอบหมายที่มีข้อจำกัดของ Kerberos
+### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>ข้อกำหนดเบื้องต้น 3: มีสิทธิ์ผู้ดูแลระบบโดเมนเพื่อกำหนดค่า SPN (SetSPN) และการตั้งค่าการมอบหมายที่มีข้อจำกัดของ Kerberos
 
 ถึงแม้ว่า ผู้ดูแลโดเมน สามารถให้บุคคลอื่น มีสิทธิ์กำหนดค่า SPN และการมอบหมายของ Kerberos เป็นการชั่วคราวหรือถาวรได้ โดยไม่ต้องได้สิทธิ์ของผู้ดูแลโดเมน แต่เป็นวิธีที่ไม่แนะนำ ในส่วนต่อไปนี้ เราจะแสดงขั้นตอนที่จำเป็นในการกำหนดค่าตาม **ข้อกำหนดเบื้องต้น 3** โดยละเอียด
 
@@ -112,7 +112,7 @@ ms.locfileid: "51508048"
 ในขั้นตอนต่อไป เราจะสมมติสภาพแวดล้อมในองค์กรที่มีสองเครื่องคือ เครื่องเกตเวย์และเซิร์ฟเวอร์ฐานข้อมูลที่ทำงานบน SQL Server เพื่อใช้ตัวอย่างนี้ เราจะสมมติการตั้งค่าและชื่อต่อไปนี้:
 
 * ชื่อเครื่องเกตเวย์: **PBIEgwTestGW**
-* บัญชีบริการเกตเวย์: **PBIEgwTest\GatewaySvc** (ชื่อบัญชีที่แสดง: Gateway Connector)
+* บัญชีบริการเกตเวย์: **PBIEgwTest\GatewaySvc** (ชื่อที่แสดงบัญชี: ตัวเชื่อมต่อเกตเวย์)
 * ชื่อเครื่องแหล่งข้อมูล SQL Server: **PBIEgwTestSQL**
 * บัญชีบริการแหล่งข้อมูล SQL Server: **PBIEgwTest\SQLService**
 
@@ -164,7 +164,7 @@ ms.locfileid: "51508048"
 
 หากคุณกำลังใช้ SAP HANA เราขอแนะนำให้ปฏิบัติตามขั้นตอนต่อไปนี้ซึ่งอาจทำให้การปรับปรุงประสิทธิภาพน้อยลง
 
-1. ในไดเรกทอรีการติดตั้งเกตเวย์ ให้ค้นหาและเปิดไฟล์การกำหนดค่านี้: *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*
+1. ในไดเรกทอรีการติดตั้งเกตเวย์ ค้นหาและเปิดไฟล์ที่มีการกำหนดค่าตามนี้: *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*.
 
 1. ค้นหาคุณสมบัติ *FullDomainResolutionEnabled* และเปลี่ยนค่าเป็น *จริง*
 
@@ -202,7 +202,7 @@ ms.locfileid: "51508048"
 
 เมื่อคุณเข้าใจว่า Kerberos ทำงานร่วมกับเกตเวย์อย่างไร คุณสามารถกำหนดค่า SSO สำหรับ SAP Business Warehouse (SAP BW) ได้ ขั้นตอนต่อไปนี้ถือว่าคุณได้ [เตรียมพร้อมสำหรับการมอบหมายที่มีข้อจำกัดของ Kerberos](#preparing-for-kerberos-constrained-delegation) เรียบร้อยแล้วตามที่อธิบายไว้ก่อนหน้าในบทความนี้
 
-คู่มือนี้จะพยายามครอบคลุมให้ได้มากที่สุด ถ้าคุณได้ทำขั้นตอนบางขั้นตอนเสร็จสิ้นไปแล้ว คุณอาจข้ามไปได้: ยกตัวอย่างเช่น คุณได้สร้างผู้ใช้ของบริการสำหรับเซิร์ฟเวอร์ BW และได้แมป SN ไว้แล้ว หรือคุณได้ติดตั้งไลบรารี gsskrb5 แล้ว
+คู่มือนี้จะพยายามครอบคลุมให้ได้มากที่สุด ถ้าคุณได้ทำขั้นตอนบางขั้นเสร็จสิ้นไปแล้ว คุณอาจข้ามขั้นตอนเหล่านั้นไปได้: ยกตัวอย่างเช่น คุณได้สร้างผู้ใช้ของบริการสำหรับเซิร์ฟเวอร์ BW และได้แมป SN ไว้แล้ว หรือคุณได้ติดตั้งไลบรารี gsskrb5 แล้ว
 
 ### <a name="setup-gsskrb5-on-client-machines-and-the-bw-server"></a>ตั้งค่า gsskrb5 ในเครื่องไคลเอ็นต์และเซิร์ฟเวอร์ BW
 

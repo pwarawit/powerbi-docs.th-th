@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ef0ecdfaea51a9ca50e0f105b51b8239ebc4fa1
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: ad044a5b3f6ddcb4b8e1dbffa1bb2a7dac01eb31
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717550"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284989"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>ปักหมุดไทล์ไปที่แดชบอร์ด Power BI จาก Excel
 ก่อนที่คุณสามารถปักหมุดไทล์จากสมุดงาน Excel ของคุณ คุณจะเชื่อมต่อเวิร์กบุ๊กนั้นกับเซอร์วิซ Power BI (app.powerbi.com) การเชื่อมต่อเวิร์กบุ๊กโดยหลักๆ คือการนำลิงก์เวอร์ชันอ่านอย่างเดียวของเวิร์กบุ๊กนั้นลงในยังเซอร์วิซ Power BI และให้คุณสามารถปักหมุดช่วงในแดชบอร์ดได้ คุณสามารถแม้กระทั้งปักหมุดทั้งแผ่นงานกับยังแดชบอร์ด  
@@ -81,7 +81,7 @@ Watch Will แสดงให้เห็นวิธีการนำเข้
  ![video](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
-ฟีเจอร์ที่ไม่รองรับ Power BI ใช้ Excel Services เพื่อรับไทล์ของเวิร์กบุ๊ก ดังนั้น เนื่องจากฟีเจอร์บางอย่างจาก Excel ไม่รองรับ Excel Services REST API มันจะมองไม่เห็นบนไทล์ใน Power BI ตัวอย่างเช่น เส้นแบบประกายไฟ ไอคอนการตั้งค่าการจัดรูปแบบตามเงื่อนไข และตัวแบ่งส่วนข้อมูลเวลา สำหรับรายการทั้งหมดของฟีเจอร์ไม่รองรับ ให้ดู[ฟีเจอร์ที่ไม่รองรับใน Excel Services REST API](http://msdn.microsoft.com/library/office/ff394477.aspx)
+ฟีเจอร์ที่ไม่ได้รับการสนับสนุน: Power BI ใช้ Excel Services เพื่อรับไทล์ของเวิร์กบุ๊ก ดังนั้น เนื่องจากฟีเจอร์บางอย่างจาก Excel ไม่รองรับ Excel Services REST API มันจะมองไม่เห็นบนไทล์ใน Power BI ตัวอย่างเช่น: เส้นแบบประกายไฟ ไอคอนการตั้งค่าการจัดรูปแบบตามเงื่อนไข และตัวแบ่งส่วนข้อมูลเวลา สำหรับรายการทั้งหมดของฟีเจอร์ไม่รองรับ ให้ดู[ฟีเจอร์ที่ไม่รองรับใน Excel Services REST API](http://msdn.microsoft.com/library/office/ff394477.aspx)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [แชร์แดชบอร์ดที่เชื่อมโยงไปยังเวิร์กบุ๊ก Excel](service-share-dashboard-that-links-to-excel-onedrive.md)

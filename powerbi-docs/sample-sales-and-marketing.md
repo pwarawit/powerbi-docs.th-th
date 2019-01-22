@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 717db64d30a12d41dc293db11f6f942e4615a1db
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 58c5063796a575498ab1c402f0be6aa2492e9060
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717596"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289244"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการขายและการตลาดสำหรับ Power BI: ชมการแนะนำ
 
@@ -132,7 +132,7 @@ VanArsdel มีคู่แข่งหลายราย แต่ก็เป
 
 โดยการกรองการแสดงภาพ ตาม VanArsdel, ตามเซ็กเมนต์, ตามเดือน และ ตามภูมิภาค เราสามารถค้นพบโอกาสในการเติบโตสำหรับ VanArsdel
 
-นี่เป็นสภาพแวดล้อมที่ปลอดภัยที่จะทดลองสิ่งต่าง ๆ﻿ คุณสามารถเลือกที่จะไม่บันทึกการเปลี่ยนแปลงของคุณ ถ้าคุณบันทึก คุณสามารถ**รับข้อมูล**สำหรับสำเนาชุดใหม่ของตัวอย่างนี้ได้เสมอ
+นี่เป็นสภาพแวดล้อมที่ปลอดภัยที่จะทดลองสิ่งต่าง ๆ คุณสามารถเลือกที่จะไม่บันทึกการเปลี่ยนแปลงของคุณ ถ้าคุณบันทึก คุณสามารถ**รับข้อมูล**สำหรับสำเนาชุดใหม่ของตัวอย่างนี้ได้เสมอ
 
-## <a name="next-steps-connect-to-your-data"></a>ขั้นตอนถัดไป: เชื่อมต่อกับข้อมูลของคุณ
+## <a name="next-steps-connect-to-your-data"></a>ขั้นตอนถัดไป: เชื่อมต่อไปยังข้อมูลของคุณ
 เราหวังว่าการแนะนำนี้ ได้แสดงให้เห็นว่าแดชบอร์ด, Q&A และรายงาน Power BI สามารถให้ข้อมูลเชิงลึกในข้อมูลการขายและการตลาด ตอนนี้ถึงตาคุณแล้ว — ลองเชื่อมต่อกับข้อมูลของคุณเอง ด้วย Power BI คุณสามารถเชื่อมต่อกับแหล่งข้อมูลที่หลากหลาย เรียนรู้เพิ่มเติมเกี่ยวกับ[เริ่มต้นใช้งาน Power BI](service-get-started.md)  

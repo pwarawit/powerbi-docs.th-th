@@ -6,16 +6,16 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 92b8d0e0ecfa9bae36e552e30cf8f1a7fcecff4b
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 398737276e55e15273a2245a4b7a72fdca938438
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100760"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287727"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>Spark บน HDInsight พร้อม DirectQuery
 
@@ -76,7 +76,7 @@ Spark บน Azure HDInsight ที่มี DirectQuery ช่วยให้�
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[เริ่มต้นใช้งาน: สร้างกลุ่มเครื่อง Apache Spark บน HDInsight Linux และเรียกใช้แบบสอบถามแบบโต้ตอบโดยใช้ Spark SQL](/azure/hdinsight/spark/apache-spark-jupyter-spark-sql/)  
+[เริ่มใช้งาน: สร้างกลุ่มเครื่อง Apache Spark บน HDInsight Linux และเรียกใช้แบบสอบถามแบบโต้ตอบโดยใช้ Spark SQL](/azure/hdinsight/spark/apache-spark-jupyter-spark-sql/)  
 [Power BI คืออะไร](power-bi-overview.md)  
 [รับข้อมูลสำหรับ Power BI](service-get-data.md)
 [ใช้ Kerberos บนเกตเวย์ภายในองค์กรสำหรับ SSO](service-gateway-sso-kerberos.md)

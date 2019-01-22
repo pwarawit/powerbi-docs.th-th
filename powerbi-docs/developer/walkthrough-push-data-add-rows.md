@@ -6,17 +6,17 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/01/2018
-ms.openlocfilehash: 7608d9098177805849ec61f0427ee5bc662d58c9
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 0337e35a67a852e1bb82209e095df4945c5de84a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475671"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275306"
 ---
-# <a name="step-5-add-rows-to-a-power-bi-table"></a>ขั้นตอนที่ 5: เพิ่มแถวลงในตาราง Power BI
+# <a name="step-5-add-rows-to-a-power-bi-table"></a>ขั้นตอนที่ 5: เพิ่มแถวในตาราง Power BI
 บทความนี้เป็นส่วนหนึ่งของคำแนะนำทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
 
 ใน**ขั้นตอนที่ 4**เป็นการส่งข้อมูลไปยังชุดข้อมูล[รับชุดข้อมูลเพื่อเพิ่มแถวลงในตาราง Power BI](walkthrough-push-data-get-datasets.md)คุณใช้การดำนเนินการ[รับชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)และ Newtonsoft.Json เพื่อรับรหัสชุดข้อมูล ในขั้นตอนนี้ คุณใช้รหัสชุดข้อมูลกับการดำเนินการ[โพสต์แถว](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) เพื่อเพิ่มแถวไปยัง**ชุดข้อมูล** Power BI 
@@ -29,11 +29,11 @@ ms.locfileid: "39475671"
 
 ## <a name="add-rows-to-a-power-bi-table"></a>เพิ่มแถวในตาราง Power BI
 > [!NOTE]
-> ก่อนที่คุณจะเริ่มต้นใช้งาน ตรวจสอบให้แน่ใจว่าคุณดำเนินตามขั้นตอนก่อนหน้านี้ในคำแนะนำการ[ส่งข้อมูลไปยัง](walkthrough-push-data.md)ชุดข้อมูล
+> ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่า คุณดำเนินตามขั้นตอนก่อนหน้านี้ในการฝึกปฏิบัติ[พุชข้อมูลลงในชุดข้อมูล](walkthrough-push-data.md)แล้ว
 > 
 > 
 
-1. ในโครงการแอปพลิเคชันคอนโซลที่คุณสร้างในขั้นตอนที่ 2: คำแนะนำการส่งข้อมูล[รับโทเค็นการเข้าถึงการรับรองความถูกต้อง](walkthrough-push-data-get-token.md)เพิ่มรหัสด้านล่าง
+1. ในแอปพลิเคชันคอนโซลคุณสร้างในขั้นตอนที่ 2: [รับโทเค็นการเข้าถึงการรับรองความถูกต้อง](walkthrough-push-data-get-token.md) เพิ่มโค้ดที่ด้านล่าง
 2. เรียกใช้แอปคอนโซล และเข้าสู่บัญชี Power BI ของคุณ คุณจะเห็น**แถวที่เพิ่ม**ในหน้าต่างคอนโซล คุณยังสามารถลงชื่อเข้าใช้ Power BI เพื่อดูแถวที่เพิ่มลงในชุดข้อมูลได้
 
 **ตัวอย่างการส่งข้อมูลไปยังชุดข้อมูล**

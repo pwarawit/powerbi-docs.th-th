@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 81867ba36e79a26acb168c1b02fc31e228bd6439
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: e559cb3ed460c8d81406ae8c8b01fe33eceaf461
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266058"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293928"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>แผนที่ ArcGIS ในบริการของ Power BI และ Power BI Desktop จาก Esri
 บทช่วยสอนนี้ถูกเขียนจากมุมมองของผู้สร้างแผนที่ ArcGIS เมื่อผู้สร้างแชร์แผนที่ ArcGIS ให้กับเพื่อนร่วมงาน ผู้ร่วมงานสามารถดูและโต้ตอบกับแผนที่ แต่ไม่สามารถบันทึกการเปลี่ยนแปลงได้ เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับการดูแผนที่ ArcGIS ดูที่[โต้ตอบกับแผนที่ ArcGIS](visuals/power-bi-visualizations-arcgis.md)
@@ -207,7 +207,7 @@ ArcGIS Online ให้องค์กรสามารถเผยแพร่
 2. ป้อนคำค้นหา จากนั้นเลือกเลเยอร์แผนที่ ในตัวอย่างนี้ เราได้เลือกเขตการเลือกตั้งสมาชิกสภาของสหรัฐอเมริกา
    
     ![](media/power-bi-visualization-arcgis/power-bi-esri-demographics-esri2-new.png)
-3. เพื่อดูรายละเอียด เลือกพื้นที่แรเงา พื้นที่ใดพื้นที่หนึ่ง เพื่อเปิด *เลือกจากเลเยอร์อ้างอิง*: ใช้เครื่องมือการเลือกเลเยอร์อ้างอิง เพื่อเลือกขอบเขตหรือวัตถุบนเลเยอร์อ้างอิง
+3. เมื่อต้องดูรายละเอียด เลือกพื้นที่แรเงาเพื่อเปิด *ตัวเลือกจากเลเยอร์อ้างอิง*: ใช้เครื่องมือการเลือกเลเยอร์อ้างอิงเพื่อเลือกขอบเขตหรือวัตถุบนเลเยอร์อ้างอิง
 
 <br/>
 
@@ -325,7 +325,7 @@ ArcGIS Maps for Power BI ให้บริการโดย Esri (www.esri.com
 
 **ฉันได้รับข้อผิดพลาดใน Power BI Desktop เกี่ยวกับแคชของฉันกำลังเต็ม**
 
-นี่คือข้อบกพร่องที่กำลังแก้ไข  ในระหว่างนี้ เพื่อล้างแคชของคุณ โปรดลองลบไฟล์ในตำแหน่งที่ตั้งนี้: C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF แล้วรีสตาร์ต Power BI
+นี่คือข้อบกพร่องที่กำลังแก้ไข  ในระหว่างนี้ ลองลบไฟล์ในตำแหน่งที่ตั้งนี้เพื่อเป็นการล้างแคชของคุณ: C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF และจากนั้นรีสตาร์ต Power BI
 
 **ArcGIS Maps for Power BI สนับสนุน Shapefiles ของ Esri หรือไม่?**
 

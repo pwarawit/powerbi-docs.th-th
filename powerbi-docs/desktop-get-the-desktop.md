@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: be4ebfdfa7dca5ce212c2b5d242d87b0001b7750
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909605"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281930"
 ---
 # <a name="get-power-bi-desktop"></a>รับ Power BI Desktop
 **Power BI Desktop** ช่วยให้คุณสร้างคิวรีขั้นสูง รูปแบบข้อมูล และรายงานที่แสดงข้อมูลเป็นภาพ ด้วย **Power BI Desktop** คุณสามารถสร้างรูปแบบข้อมูล สร้างรายงาน และแชร์งานของคุณ โดยการเผยแพร่ไปยังบริการของ Power BI ได้  **Power BI Desktop** มีให้ดาวน์โหลดฟรี
@@ -115,7 +115,7 @@ ms.locfileid: "50909605"
 เราขอแนะนำให้อัปเดตเป็นเวอร์ชันล่าสุดของ Power BI Desktop เพื่อประโยชน์จากความก้าวหน้าในคุณลักษณะ, ประสิทธิภาพ, เสถียรภาพ และการปรับปรุงอื่น ๆ บางองค์กรอาจไม่ต้องการให้ผู้ใช้อัปเดตเป็นเวอร์ชันใหม่ คุณสามารถปิดการแจ้งเตือนได้โดยการปรับเปลี่ยนรีจิสทรี ด้วยขั้นตอนต่อไปนี้:
 
 1. การใช้ตัวแก้ไขรีจิสทรี นำทางไปที่ *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop*
-2. สร้างรายการใหม่ด้วยการตั้งค่าต่อไปนี้: *REG_DWORD: DisableUpdateNotification*
+2. สร้างรายการใหม่ที่มีการตั้งค่าต่อไปนี้: *REG_DWORD: DisableUpdateNotification*
 3. ตั้งค่าของรายการใหม่นั้นเป็น **1**
 
 คุณจะต้องรีสตาร์ตคอมพิวเตอร์เพื่อให้การเปลี่ยนแปลงมีผลบังคับใช้
@@ -125,7 +125,7 @@ ms.locfileid: "50909605"
 ในบางกรณี รวมถึงบางการกำหนดค่าความละเอียดหน้าจอ ผู้ใช้บางรายอาจเห็น Power BI Desktop แสดงเนื้อหาด้วยพื้นที่สีดำขนาดใหญ่ นี่คือผลลัพธ์โดยทั่วไปของระบบปฏิบัติการล่าสุดที่มีผลต่อการแสดงรายการมากกว่าเป็นผลลัพธ์โดยตรงของการแสดงเนื้อหาของ Power BI Desktop หากไม่คำนึงว่าพื้นที่สีดำขนาดใหญ่ไม่สำคัญเท่าวิชวล เพื่อจัดการปัญหานี้ ให้ปฏิบัติตามขั้นตอนต่อไปนี้:
 
 1. กดแป้น Start และพิมพ์คำว่า *blurry* ลงในแถบค้นหาที่ปรากฏ
-2. ในกล่องโต้ตอบที่ปรากฏขึ้น เลือกตัวเลือก: *ให้ Windows แก้ไขแอปที่พร่ามัว*
+2. ในกล่องโต้ตอบที่ปรากฏขึ้น เลือกตัวเลือก: *อนุญาตให้ Windows แก้ไขแอปที่ไม่ชัดเจน*
 3. รีสตาร์ต Power BI Desktop
 
 ปัญหานี้อาจหมดไปหลังจากมีการเผยแพร่อัปเดตของ Windows รุ่นถัดมา 

@@ -5,20 +5,20 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f8ceeddea7a8a9b7a63043cc7e91269da570790b
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a07f266ccdc0b02cd6a18f84b48b5e2b3564b642
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52671003"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279032"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>การแก้ไขปัญหาการลงชื่อเข้าใช้ใน Power BI Desktop
-อาจมีเวลาเมื่อคุณพยายามลงชื่อเข้าใช้ **Power BI Desktop** แต่ต้องเผชิญกับพบข้อผิดพลาด ปัญหาในการลงชื่อเข้าใช้มีสาเหตุหลักสองข้อ: **ข้อผิดพลาดการรับรองความถูกต้องของพร็อกซี** และ **ข้อผิดพลาดในการเปลี่ยนเส้นทาง Non-HTTPS URL** 
+อาจมีเวลาเมื่อคุณพยายามลงชื่อเข้าใช้ **Power BI Desktop** แต่ต้องเผชิญกับพบข้อผิดพลาด มีสาเหตุหลักสองข้อสำหรับปัญหาในการลงชื่อเข้าใช้: **ข้อผิดพลาดการรับรองความถูกต้องพร็อกซี** และ **ข้อผิดพลาดในการเปลี่ยนเส้นทางไม่ใช่ HTTPS URL** 
 
 เมื่อต้องการตรวจสอบปัญหาที่เป็นสาเหตุของปัญหาของคุณลงชื่อเข้าใช้ ขั้นแรกคือ การติดต่อผู้ดูแลระบบของคุณ และส่งข้อมูลการวินิจฉัย เพื่อให้พวกเขาสามารถระบุสาเหตุของปัญหาได้ จากการติดตามปัญหาที่เกี่ยวข้องกับการลงชื่อเข้าใช้ขอบคุณ ผู้ดูแลระบบสามารถตรวจสอบข้อผิดพลาดที่เกิดขึ้นกับคุณได้ 
 
@@ -56,7 +56,7 @@ ms.locfileid: "52671003"
 
 ข้อยกเว้นในไฟล์การติดตามของ *Power BI Desktop* ต่อไปนี้จะเกี่ยวข้องกับข้อผิดพลาดนี้:
 
-* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: การเปลี่ยนเส้นทางที่ไม่ใช่ HTTPS url ไม่ได้รับการรองรับในมุมมองเว็บ*
+* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: ไม่รองรับข้อผิดพลาดการเปลี่ยนเส้นทางที่ไม่ใช่ HTTPS URL ใน webview*
 * *รหัสข้อผิดพลาด: non_https_redirect_failed*
 
 ถ้ามี*รหัสข้อผิดพลาด: non_https_redirect_failed* เกิดขึ้น หมายความว่า หน้าเปลี่ยนเส้นทางหรือผู้ให้บริการในสายการเปลี่ยนเส้นทางอย่างน้อยหนึ่งรายหรือมากกว่าไม่ใช่ปลายทาง HTTPS ที่ได้รับการคุ้มครอง หรือผู้ออกใบรับรองการเปลี่ยนเส้นทางอย่างน้อยหนึ่งเส้นทางหรือมากกว่าไม่ได้อยู่ระหว่างคำ รากที่เชื่อถือได้ของอุปกรณ์ ผู้ให้บริการทั้งหมดในสายการเปลี่ยนเส้นทางใดๆก็ตามต้องมีการเข้าสู่ระบบต้องใช้ HTTPS URL เมื่อต้องการแก้ไขปัญหานี้ ติดต่อผู้ดูแลระบบของคุณและขอให้ใช้ URL ที่มีความปลอดภัยสำหรับไซต์ที่รับรองความถูกต้องของพวกเขา 

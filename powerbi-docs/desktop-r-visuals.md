@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0a739e963039e61aa66e398d27fa82982eb26bb0
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: c1a4ba0a89f84cb0fce205373f1d0f00cc1479ac
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670520"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278595"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>สร้างภาพของ Power BI โดยใช้ R
 ด้วย**Power BI Desktop**คุณสามารถใช้**R**เพื่อแสดงภาพข้อมูลของคุณได้
@@ -107,7 +107,7 @@ ms.locfileid: "52670520"
 
     ![](media/desktop-r-visuals/r-visuals-9.png)
 
-    > **ความปลอดภัยของสคริปต์ R:** วิชวล R ถูกสร้างขึ้นจากสคริปต์ R ซึ่งอาจประกอบด้วยโค้ดที่มีความเสี่ยงต่อความปลอดภัยหรือความเป็นส่วนตัว เมื่อพยายามที่จะดูหรือโต้ตอบกับวิชวล R เป็นครั้งแรก ผู้ใช้จะได้รับข้อความเตือนเรื่องความปลอดภัย เปิดใช้งานวิชวล R ถ้าคุณเชื่อถือผู้เขียนและแหล่งที่มาเท่านั้น หรือหลังจากที่คุณตรวจทานและทำความเข้าใจสคริปต์ R
+    > **การรักษาความปลอดภัยสคริปต์ R:** ภาพ R ถูกสร้างขึ้นจากสคริปต์ R ซึ่งประกอบด้วยโค้ดที่มีความเสี่ยงต่อความปลอดภัยหรือความเป็นส่วนตัว เมื่อพยายามที่จะดูหรือโต้ตอบกับวิชวล R เป็นครั้งแรก ผู้ใช้จะได้รับข้อความเตือนเรื่องความปลอดภัย เปิดใช้งานวิชวล R ถ้าคุณเชื่อถือผู้เขียนและแหล่งที่มาเท่านั้น หรือหลังจากที่คุณตรวจทานและทำความเข้าใจสคริปต์ R
     > 
     > 
 

@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5d2a33b8dc50a4a30bb79406462f1342953528d9
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 896c415028b99db8662e93b5d709b76520996fef
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830389"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275766"
 ---
 # <a name="combo-chart-in-power-bi"></a>แผนภูมิผสมใน Power BI
 ใน Power BI แผนภูมิผสม เป็นการแสดงผลภาพที่รวมเอาแผนภูมิเส้นและแผนภูมิคอลัมน์เข้าด้วยกัน การรวมแผนภูมิทั้ง 2 ให้เป็นหนึ่งเดียว ช่วยให้คุณทำการเปรียบเทียบข้อมูลได้อย่างรวดเร็ว
@@ -57,7 +57,7 @@ ms.locfileid: "52830389"
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. เลือกจุดไข่ปลา (...) ในมุมบนขวาของการแสดงภาพ และเลือก**เรียงลำดับตาม > FiscalMonth** เมื่อต้องเปลี่ยนลำดับการจัดเรียง เลือกจุดไข่ปลาอีกครั้ง แล้วคลิก**เรียงลำดับจากน้อยไปมาก**หรือ**เรียงลำดับจากมากไปน้อย**
 
-6. แปลงแผนภูมิคอลัมน์ให้เป็นแผนภูมิผสม มีสองคำสั่งผสมแผนภูมิ: **เส้นและคอลัมน์แบบเรียงซ้อน**และ**เส้นและแผนภูมิคอลัมน์** เมื่อยังเลือกแผนภูมิคอลัมน์นี้อยู่ ในบานหน้าต่าง**แสดงภาพ** เลือก**แผนภูมิเส้นและแผนภูมิกลุ่มคอลัมน์**
+6. แปลงแผนภูมิคอลัมน์ให้เป็นแผนภูมิผสม มีแผนภูมิผสมสองแผนภูมิที่สามารถใช้งานได้: **เส้นกับคอลัมน์แบบเรียงซ้อน**และ**เส้นกับแผนภูมิคอลัมน์กลุ่ม** เมื่อยังเลือกแผนภูมิคอลัมน์นี้อยู่ ในบานหน้าต่าง**แสดงภาพ** เลือก**แผนภูมิเส้นและแผนภูมิกลุ่มคอลัมน์**
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. จากบานหน้าต่าง**เขตข้อมูล** ลาก**ยอดขาย** \> **ยอดขายปีที่แล้ว** ไปยังบักเก็ต**ค่าเส้นตรง**

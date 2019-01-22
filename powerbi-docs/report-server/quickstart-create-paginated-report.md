@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.author: maggies
-ms.openlocfilehash: 475221981181e4ddfac18e7023259fac9bbc35ed
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289139"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284454"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>สร้างรายงานแบบแบ่งหน้าสำหรับเซิร์ฟเวอร์รายงาน Power BI
 ตามชื่อแนะนำ รายงานแบบแบ่งหน้าสามารถเรียกใช้งานกับหน้ามากมาย พวกเขากำลังวางเค้าโครงในรูปแบบคงที่ และเสนอการกำหนดค่าอย่างแม่นยำ รายงานแบบแบ่งหน้าคือ ไฟล์ .rdl
@@ -60,7 +60,7 @@ ms.locfileid: "52289139"
      ต้องการสร้างชุดข้อมูลหรือไม่ ดูที่[สร้างชุดข้อมูลที่ใช้ร่วมกันหรือชุดข้อมูลที่ฝัง](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs)
 2. เลือกชนิดแผนภูมิ - ในกรณีนี้ แผนภูมิแท่ง
    
-    ![ตัวช่วยสร้างแผนภูมิ: ชนิดแผนภูมิ](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
+    ![ตัวช่วยสร้างแผนภูมิ: ประเภทแผนภูมิ](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
 3. จัดเรียงเขตข้อมูลโดยการลากไปยัง**ประเภท**, **ชุด**และ**กล่อง**ค่า
    
     ![ตัวช่วยสร้างแผนภูมิ: จัดเรียงเขตข้อมูล](media/quickstart-create-paginated-report/reportserver-paginated-arrange-fields.png)

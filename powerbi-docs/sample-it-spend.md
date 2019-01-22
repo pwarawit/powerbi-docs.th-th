@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 66a1999637f31083681a6984d4698d78815dc1c1
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 910e4de20d777281f7617727889befa5eb80dfe1
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717481"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290093"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการวิเคราะห์การใช้จ่ายด้าน IT สำหรับ Power BI: ชมการแนะนำ
 
@@ -117,7 +117,7 @@ ms.locfileid: "51717481"
 * เปลี่ยนชนิดของการแสดงภาพสำหรับแต่ละแผนภูมิ
 * ปักหมุดเหล่านั้นไปยังแดชบอร์ดของคุณ
 
-นี่เป็นสภาพแวดล้อมที่ปลอดภัยที่จะทดลองสิ่งต่าง ๆ﻿ คุณสามารถเลือกที่จะไม่บันทึกการเปลี่ยนแปลงของคุณ ถ้าคุณบันทึก คุณสามารถรับข้อมูล สำหรับสำเนาชุดใหม่ของตัวอย่างนี้ได้เสมอ
+นี่เป็นสภาพแวดล้อมที่ปลอดภัยที่จะทดลองสิ่งต่าง ๆ คุณสามารถเลือกที่จะไม่บันทึกการเปลี่ยนแปลงของคุณ ถ้าคุณบันทึก คุณสามารถรับข้อมูล สำหรับสำเนาชุดใหม่ของตัวอย่างนี้ได้เสมอ
 
-## <a name="next-steps-connect-to-your-data"></a>ขั้นตอนถัดไป: เชื่อมต่อกับข้อมูลของคุณ
+## <a name="next-steps-connect-to-your-data"></a>ขั้นตอนถัดไป: เชื่อมต่อไปยังข้อมูลของคุณ
 เราหวังว่าการแนะนำนี้ ได้แสดงให้เห็นว่าแดชบอร์ด, Q&A และรายงาน Power BI สามารถให้ข้อมูลเชิงลึกในข้อมูลการใช้จ่ายด้าน IT ตอนนี้ถึงตาคุณแล้ว — ลองเชื่อมต่อกับข้อมูลของคุณเอง ด้วย Power BI คุณสามารถเชื่อมต่อกับแหล่งข้อมูลที่หลากหลาย เรียนรู้เพิ่มเติมเกี่ยวกับ[เริ่มต้นใช้งาน Power BI](service-get-started.md)

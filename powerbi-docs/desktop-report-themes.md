@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 215b4c8f46b2d39c6dcc5853c07e4e6526027881
-ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
+ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51027471"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277445"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>ใช้ธีมรายงานใน Power BI Desktop
 ด้วย **ธีมรายงาน** คุณสามารถใช้ธีมสี กับรายงานของคุณทั้งหมด เช่น สีขององค์กร, การกำหนดสีตามฤดูกาล หรือธีมสีอื่น ๆ เมื่อคุณใช้ **ธีมรายงาน** วิชวลทั้งหมดในรายงานของคุณจะใช้สีจากธีมที่คุณเลือก มีข้อยกเว้นบางข้อ ซึ่งจะอธิบายภายหลังในบทความนี้
@@ -124,7 +124,7 @@ ms.locfileid: "51027471"
 
 ส่วน **สีข้อมูล** ของแผง **รูปแบบ** จะสะท้อนให้เห็นธีมรายงานของคุณ ตัวอย่างเช่น หลังจากที่ใช้โทนสีเขียว และสีน้ำตาลจากธีม **วันเซนต์แพทริค** ให้เลือกวิชวล จากนั้นไปที่ **รูปแบบ > สีข้อมูล** และดูข้อมูลต่อไปนี้:
 
-![การแสดงภาพ](media/desktop-report-themes/report-themes_8.png)
+![การจัดรูปแบบการแสดงข้อมูล](media/desktop-report-themes/report-themes_8.png)
 
 เห็นสีเขียวทั้งหมดนั่นไหม? นั่นเป็นเพราะว่าสีเหล่านั้นเป็นส่วนหนึ่งของ **ธีมรายงาน** ที่ถูกนำเข้าและถูกใช้งาน
 
@@ -248,10 +248,10 @@ ms.locfileid: "51027471"
 
 | **cardName** |
 | --- |
-| axis: แกนวัด |
+| แกน: แกนวัด |
 | breakdown: การแบ่งย่อย |
-| bubbles: ฟอง |
-| calloutValue: ค่าการโทร |
+| bubbles: แผนภูมิแบบฟอง |
+| calloutValue: ค่าคำบรรยายภาพ |
 | card: การ์ด |
 | cardTitle: ชื่อการ์ด |
 | categoryAxis: แกน X |
@@ -259,15 +259,15 @@ ms.locfileid: "51027471"
 | columnFormatting: การจัดรูปแบบเขตข้อมูล |
 | columnHeaders: ส่วนหัวของคอลัมน์ |
 | dataLabels: ป้ายชื่อข้อมูล |
-| fill: เติม |
+| fill: สีเติม |
 | fillPoint: จุดกรอกข้อมูล |
 | forecast: พยากรณ์ |
 | general: ทั่วไป |
 | goals: เป้าหมาย |
-| grid: กริด |
+| grid: เส้นตาราง |
 | header: ส่วนหัว |
-| imageScaling: ปรับขนาด |
-| indicator: ตัวชี้วัด |
+| imageScaling: การปรับมาตราส่วน |
+| indicator: ตัวบ่งชี้ |
 | items: รายการ |
 | labels: ป้ายชื่อข้อมูล |
 | legend: คำอธิบายแผนภูมิ |
@@ -276,29 +276,29 @@ ms.locfileid: "51027471"
 | mapStyles: ลักษณะการแมป |
 | numericInputStyle: ข้อมูลป้อนเข้าแบบตัวเลข |
 | percentBarLabel: ป้ายอัตราการแปลง |
-| plotArea: พื้นที่แปลง |
+| plotArea: พื้นที่การลงจุด |
 | plotAreaShading: แรเงาสมมาตร |
 | ratioLine: เส้นอัตราส่วน |
 | referenceLine: เส้นคงที่ |
-| ribbonChart: Ribbon |
+| ribbonChart ริบบิ้น |
 | rotation: การหมุน |
 | rowHeaders: ส่วนหัวของแถว |
-| selection: ควบคุมรายการเลือก |
+| selection: ตัวควบคุมการเลือก |
 | sentimentColors: สีแสดงความคิดเห็น |
 | shape: รูปร่าง |
 | slider: แถบเลื่อน |
 | status: การเข้ารหัสสี |
 | subTotals: ผลรวมย่อย |
 | target: เป้าหมาย |
-| ทั้งหมด: ผลรวมทั้งหมด |
-| total: เส้นแนวโน้ม |
+| total: ผลรวมทั้งหมด |
+| trend: เส้นแนวโน้ม |
 | trendline: แกนแนวโน้ม |
 | valueAxis: แกน Y |
 | values: ค่า |
 | wordWrap: ตัดคำ |
-| xAxisReferenceLine: บรรทัดที่คงของแกน x |
-| y1AxisReferenceLine: บรรทัดที่คง |
-| zoom: การย่อ/ขยาย |
+| xAxisReferenceLine: เส้นคงที่แกน X |
+| y1AxisReferenceLine: เส้นคงที่ |
+| zoom: ย่อ/ขยาย |
 
 ### <a name="properties-within-each-card"></a>คุณสมบัติภายในแต่ละการ์ด
 ส่วนต่อไปนี้กำหนดชื่อคุณสมบัติภายในแต่ละการ์ด:

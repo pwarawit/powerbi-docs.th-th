@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 44fbf1e651c36c95694e397c64050977f3ee730a
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: f6396747dc21ddc94ab1abda6939e8e423c649e7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092563"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296210"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>ขั้นตอนที่ 4: รับชุดข้อมูลเพื่อเพิ่มแถวลงในตาราง Power BI
 บทความนี้เป็นส่วนหนึ่งของคำแนะนำทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
@@ -26,11 +26,11 @@ ms.locfileid: "37092563"
 นี่คือวิธีที่คุณได้รับชุดข้อมูล
 
 ## <a name="get-a-power-bi-dataset"></a>รับชุดข้อมูล Power BI
-> **หมายเหตุ**: ก่อนคุณเริ่มต้นใช้งาน ตรวจสอบให้แน่ใจว่า คุณดำเนินการตามขั้นตอนก่อนหน้านี้ในคำแนะนำการ[ส่งข้อมูล](walkthrough-push-data.md)ลงในชุดข้อมูล
+> **หมายเหตุ**: ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่า คุณดำเนินตามขั้นตอนก่อนหน้านี้ในการฝึกปฏิบัติ[พุชข้อมูลลงในชุดข้อมูล](walkthrough-push-data.md)แล้ว
 > 
 > 
 
-1. ในโครงการแอปพลิเคชันคอนโซลที่คุณสร้างในขั้นตอนที่ 2: คำแนะนำการส่งข้อมูล[รับโทเค็นการเข้าถึงการรับรองความถูกต้อง](walkthrough-push-data-get-token.md)ติดตั้งแพคเกจ Newtonsoft.Json NuGet นี่คือวิธีการติดตั้งแพคเกจ:
+1. ในแอปพลิเคชันคอนโซลคุณสร้างในขั้นตอนที่ 2: คำแนะนำการส่งข้อมูล[รับโทเค็นการเข้าถึงการรับรองความถูกต้อง](walkthrough-push-data-get-token.md)ติดตั้งแพคเกจ Newtonsoft.Json NuGet นี่คือวิธีการติดตั้งแพคเกจ:
    
      ก. ใน Studio Visual 2015 เลือก**เครื่องมือ** > **ตัวจัดการแพคเกจ NuGet** > **คอนโซลตัวจัดการแพคเกจ**
    

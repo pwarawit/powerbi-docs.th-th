@@ -1,20 +1,20 @@
 ---
 title: ดูรายงาน Power BI ที่ปรับให้เหมาะสมกับมือถือของคุณ
 description: อ่านเกี่ยวกับการโต้ตอบกับหน้ารายงาน ที่ปรับให้เหมาะสมสำหรับการดูในแอปมือถือ Power BI
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/14/2018
-ms.author: maggies
-ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 99f40837f4b2c188120c4ca0311be3e9ded5fe95
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547809"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276917"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>ดูรายงาน Power BI ที่ปรับให้เหมาะสมกับมือถือของคุณ
 
@@ -48,7 +48,7 @@ ms.locfileid: "46547809"
     ![ตัวกรองขั้นสูงของรายงานบนมือถือของ Power BI](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
 ## <a name="cross-highlight-visuals"></a>การไฮไลต์เชื่อมโยงวิชวล
-การไฮไลต์เชื่อมโยงวิชวลในรายงานบนมือถือ ทำงานแบบเดียวกับในบริการของ Power BI และในรายงานบนมือถือในมุมมองแนวนอน: เมื่อคุณเลือกข้อมูลในวิชวลหนึ่ง จะไฮไลต์ข้อมูลที่เกี่ยวข้องในวิชวลอื่น ๆ บนหน้านั้น
+ไฮไลท์ภาพในโทรศัพท์ รายงานทำงานเหมือนเดิม ในบริการ Power BI และรายงานบนมือถือในมุมมองแนวนอน: เมื่อคุณเลือกข้อมูลในวิชวลหนึ่ง วิชวลจะเน้นข้อมูลที่เกี่ยวข้องกันในวิชวลอื่นบนหน้านั้น
 
 อ่านเพิ่มเติมเกี่ยวกับ[การกรอง และไฮไลต์ใน Power BI](../../power-bi-reports-filters-and-highlighting.md)
 

@@ -5,19 +5,19 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: 0ec22bd142f7509935691ff7bfcd38cb51a04fb2
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 94e40681d065591db008f8a9062d851e0bd83f61
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280121"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285771"
 ---
-# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>บทช่วยสอน: รวมข้อมูลการขายจาก Excel และตัวดึงข้อมูล OData
+# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>บทช่วยสอน: รวมข้อมูลยอดขายจาก Excel และตัวดึงข้อมูล OData
 
 ซึ่งเป็นปกติที่จะมีข้อมูลกระจายอยู่ในแหล่งข้อมูลหลายแหล่ง เช่นข้อมูลผลิตภัณฑ์ในฐานข้อมูลหนึ่ง ข้อมูลการขายในอีกที่หนึ่ง ด้วย **Power BI Desktop** คุณสามารถรวมข้อมูลจากแหล่งข้อมูลที่แตกต่างกัน เพื่อสร้างการวิเคราะห์ข้อมูลและการแสดงภาพที่น่าสนใจ และน่าดึงดูดใจได้ 
 
@@ -115,7 +115,7 @@ ms.locfileid: "39280121"
 2. ในกล่องโต้ตอบ**คอลัมน์แบบกำหนดเอง** พิมพ์ **LineTotal** ในเขตข้อมูล**ชื่อคอลัมน์ใหม่**
 
 3. ในเขตข้อมูล**สูตรคอลัมน์แบบกำหนดเอง**หลังจาก **=** ใส่ **[Order_Details.UnitPrice]** \* **[Order_ Details.Quantity]** (คุณยังสามารถเลือกชื่อเขตข้อมูลจากกล่องเลื่อน**คอลัมน์ที่มีให้เลือกใช้งาน** และเลือก **<< แทรก** แทนที่จะพิมพ์ลงไป) 
-3. เลือก **ตกลง**
+3. เลือก**ตกลง**
    
    ![กล่องโต้ตอบคอลัมน์แบบกำหนดเอง](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)
 

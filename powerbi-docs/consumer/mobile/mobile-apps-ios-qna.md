@@ -1,20 +1,20 @@
 ---
 title: นักวิเคราะห์เสมือนของถามตอบ ในแอป iOS - Power BI
 description: ถามคำถามเกี่ยวกับข้อมูลตัวอย่างด้วยคำพูดของคุณเอง กับนักวิเคราะห์เสมือนของถามตอบ ในแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ในอุปกรณ์ iOS ของคุณ
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
-ms.author: maggies
-ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548131"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278711"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>นักวิเคราะห์เสมือนของถามตอบ ในแอป iOS - Power BI
 
@@ -100,7 +100,7 @@ ms.locfileid: "46548131"
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. แตะลูกศรที่มุมซ้ายบน เพื่อกลับไปยังหน้าต่างการสนทนาสำหรับนักวิเคราะห์เสมือนของถามตอบ
 8. แตะ X ที่ด้านขวาของกล่องข้อความ เพื่อลบข้อความ แล้วเริ่มต้นอีกครั้ง
-9. ลองคำถามใหม่: แตะ **ด้านบน** ในส่วนคำสำคัญ ให้แตะ **ยอดขายโดยเฉลี่ย $/ หน่วย/ปี** > **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
+9. ลองตั้งคำถามใหม่: แตะ **ด้านบน** ในส่วนคำสำคัญ ให้แตะ **ยอดขายโดยเฉลี่ย $/ หน่วย/ปี** > **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
 10. เลือก **โดย** ในส่วนคำสำคัญ ให้แตะ **เวลา**จากรายการคำแนะนำด้านบน > **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)

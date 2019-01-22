@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/03/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ebec34690001293e93dafd69dd76f7bdbf54981c
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: dc756e98a58d30edd476112ca249dae032d0d79a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900547"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296811"
 ---
 # <a name="visualization-types-in-power-bi"></a>ชนิดการแสดงภาพใน Power BI
 ## <a name="power-bi-visualizations"></a>การแสดงภาพ Power BI
@@ -117,7 +117,7 @@ ms.locfileid: "52900547"
 
 สำหรับข้อมูลเพิ่มเติม ดู [แผนที่แถบสีใน Power BI](power-bi-visualization-filled-maps-choropleths.md)
 
-### <a name="maps-shape-maps"></a>แผนที่: สร้างแผนที่รูปร่าง
+### <a name="maps-shape-maps"></a>แผนที่: แผนที่รูปร่าง
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]

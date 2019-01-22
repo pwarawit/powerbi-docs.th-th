@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a0ef369aa690044dbef9c4ef0cda070565b9922
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: e1748c478f9f58b568b901f3a243e64e4658f6a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829906"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54273098"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>ใช้บริการของ Power BI หรือ Power BI Desktop เพื่อสร้างหน้าคำตอบแบบกำหนดเองสำหรับ Cortana
 ใช้ความสามารถเต็มของ Power BI เพื่อสร้างหน้ารายงานพิเศษ ที่เรียกว่า*หน้าคำตอบ Cortana* (และในบางครั้งเรียกว่า *การ์ดคำตอบ Cortana*) ที่ออกแบบมาโดยเฉพาะเพื่อตอบคำถาม Cortana
@@ -32,11 +32,11 @@ ms.locfileid: "52829906"
 
 **บทความ 1**: [เรียนรู้วิธีที่ Cortana และ Power BI ทำงานร่วมกัน](service-cortana-intro.md)
 
-**บทความ 2**:[สำหรับการค้นหารายงาน Power BI: เปิดใช้งานการทำงานร่วมกันระหว่าง Cortana - Power BI - Windows](service-cortana-enable.md)
+**บทความ 2**: [สำหรับการค้นหารายงาน Power BI: เปิดใช้งานการรวม Cortana - Power BI - Windows สำหรับรายงาน](service-cortana-enable.md)
 
 **บทความ 3**: บทความนี้
 
-**บทความ 4**:[แก้ไขปัญหา](service-cortana-troubleshoot.md)
+**บทความ 4**: [แก้ไขปัญหา](service-cortana-troubleshoot.md)
 
 ## <a name="create-a-cortana-answer-page-designed-specifically-for-cortana"></a>สร้างหน้าคำตอบ Cortana ที่ออกแบบมาโดยเฉพาะสำหรับ Cortana
 *หน้าคำตอบ Cortana* ในรายงานถูกปรับขนาดโดยเฉพาะสำหรับ Cortana เพื่อให้ Cortana สามารถแสดงในหน้าจอเป็นคำตอบของคำถาม เพื่อสร้างหน้าที่มีคำตอบสำหรับ Cortana:

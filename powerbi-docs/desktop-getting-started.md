@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5f202597fa641bf68b8e49c461ed5c25ea987c3e
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 019ee7985c27c72ca41a09c8d13754316fd60232
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670941"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291659"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>เริ่มต้นใช้งานกับ Power BI Desktop
 ยินดีต้อนรับสู่ตัว**แนวทางการเริ่มใช้งาน Power BI Desktop** การทัวร์สั้น ๆ สำหรับ Power BI Desktop นี้ช่วยให้คุณคุ้นเคยกับวิธีการที่ Power BI Desktop ทำงาน สาธิตสิ่งที่ Power BI Desktop สามารถทำได้ และเร่งความสามารถของคุณในการสร้างแบบจำลองข้อมูลอย่างมีประสิทธิภาพ พร้อมกับรายงานที่น่าทึ่ง ที่ช่วยในการทำงานด้านข่าวกรองทางธุรกิจของคุณ 
@@ -69,9 +69,9 @@ Power BI Desktop จะติดตั้งแอปพลิเคชันห
 
 ![](media/desktop-getting-started/designer_gsg_blankreport.png)
 
-มีสามมุมมองใน Power BI Desktop: มุมมอง**รายงาน** มุมมอง**ข้อมูล** และมุมมอง**ความสัมพันธ์** นอกจากนี้ Power BI Desktop ยังมี **ตัวแก้ไขการสอบถาม** ซึ่งเปิดขึ้นในหน้าต่างแยกต่างหาก ใน **ตัวแก้ไขการสอบถาม** คุณสามารถสร้างการสอบถามและแปลงข้อมูลได้ จากนั้นโหลดแบบจำลองข้อมูลที่ปรับแต่งแล้วนั้นลงใน Power BI Desktop และสร้างรายงาน
+มีสามมุมมองใน Power BI Desktop: **รายงาน**มุมมอง**ข้อมูล**มุมมอง และ**ความสัมพันธ์**มุมมอง นอกจากนี้ Power BI Desktop ยังมี **ตัวแก้ไขการสอบถาม** ซึ่งเปิดขึ้นในหน้าต่างแยกต่างหาก ใน **ตัวแก้ไขการสอบถาม** คุณสามารถสร้างการสอบถามและแปลงข้อมูลได้ จากนั้นโหลดแบบจำลองข้อมูลที่ปรับแต่งแล้วนั้นลงใน Power BI Desktop และสร้างรายงาน
 
-หน้าจอต่อไปนี้แสดงสามไอคอนมุมมองทางด้านซ้ายของ Power BI Desktop: **รายงาน** **ข้อมูล** และ **ความสัมพันธ์** จากบนลงล่าง มุมมองที่แสดงอยู่ในปัจจุบันมีการระบุโดยแถบสีเหลืองทางด้านซ้าย ในกรณีนี้มุมมอง**รายงาน**จะแสดงอยู่ในปัจจุบัน คุณสามารถเปลี่ยนมุมมองได้โดยการเลือกไอคอนใดไอคอนหนึ่งจากสามไอคอนนั้น
+หน้าจอต่อไปนี้แสดงสามไอคอนมุมมองทางด้านซ้ายของ Power BI Desktop: **รายงาน** **ข้อมูล** และ **ความสัมพันธ์**จากบนลงล่าง มุมมองที่แสดงอยู่ในปัจจุบันมีการระบุโดยแถบสีเหลืองทางด้านซ้าย ในกรณีนี้มุมมอง**รายงาน**จะแสดงอยู่ในปัจจุบัน คุณสามารถเปลี่ยนมุมมองได้โดยการเลือกไอคอนใดไอคอนหนึ่งจากสามไอคอนนั้น
 
 ![](media/desktop-getting-started/designer_gsg_viewtypes.png)
 

@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: E1mIAyEXuF4
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 02663648002f7924725791e378e10532fadc1128
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 7e57233dac635cadf8f1dc31b4956b4f8e503083
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51716952"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284023"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>สร้างคำถามที่น่าสนใจสำหรับ Power BI Q&A
 ถ้าคุณเป็นเจ้าของชุดข้อมูล คุณสามารถเพิ่มคำถามที่แนะนำของคุณเองในชุดข้อมูลนั้น  และ Power BI Q&A จะแสดงคำถามเหล่านั้นให้เพื่อนร่วมงานที่ใช้ (*บริโภค*) ชุดข้อมูลของคุณ  คำถามที่แนะนำนั้นเพื่อให้เพื่อนร่วมงานของคุณมีความคิดเบื้องต้น เกี่ยวกับชนิดของคำถามที่พวกเขาสามารถสอบถามเกี่ยวกับชุดข้อมูล คำถามที่น่าสนใจที่คุณเพิ่มนั้นขึ้นกับคุณ -- เพิ่มคำถามยอดนิยม คำถามที่แสดงผลลัพธ์ที่น่าสนใจ หรือคำถามที่อาจเป็นเรื่องยากที่จะเขียนเป็นวลี
@@ -48,7 +48,7 @@ ms.locfileid: "51716952"
 
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
 [Q&A ใน Power BI](consumer/end-user-q-and-a.md)  
-[บทเรียน บทนำสู Power BI Q&A](power-bi-visualization-introduction-to-q-and-a.md)  
+[บทช่วยสอน: การถามตอบเกี่ยวกับ Power BI เบื้องต้น](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)  
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

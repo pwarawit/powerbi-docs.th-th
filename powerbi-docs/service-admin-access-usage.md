@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dfd9aab419d0a097721c4f2b49e382c11be82541
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: f685a900465cc0f1b635aad7609aaae4356da6b3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909513"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284644"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>ค้นหาผู้ใช้ Power BI ที่มีการลงชื่อเข้าใช้
 
@@ -32,7 +32,7 @@ ms.locfileid: "50909513"
 
 * ผู้เช่าของคุณต้องมีสิทธิ์การใช้งาน Azure AD Premium ที่เกี่ยวเนื่อง
 
-* คุณต้องอยู่ในหนึ่งบทบาทต่อไปนี้: ผู้ดูแลระบบส่วนกลาง, ผู้ ดูแลรักษาความปลอดภัย หรือ ผู้อ่านความปลอดภัย
+* คุณต้องได้รับมอบหมายหน้าที่ดังต่อไปนี้: ผู้ดูแลระบบส่วนกลาง ผู้ดูแลความปลอดภัย หรือตัวอ่านความปลอดภัย
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>ใช้พอร์ทัล Azure เพื่อดูการลงชื่อเข้าใช้
 

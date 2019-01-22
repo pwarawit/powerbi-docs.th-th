@@ -1,20 +1,20 @@
 ---
 title: แชร์แดชบอร์ดหรือรายงานจากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI
 description: เชิญบุคคลอื่นเพื่อดูแดชบอร์ดและรายงานของคุณ โดยการแชร์ลิงก์จากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI เรียนรู้วิธีการ
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
-ms.author: maggies
-ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.author: mshenhav
+ms.openlocfilehash: 69532ea9ad98edc7655fb77aec13b69eec6566bf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271658"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283678"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>แชร์แดชบอร์ดหรือรายงานจากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI
 นำไปใช้กับ:
@@ -94,7 +94,7 @@ ms.locfileid: "48271658"
     ถ้าคุณเป็นเจ้าของแดชบอร์ด คุณจะเห็นรายการของเพื่อนร่วมงานที่คุณแชร์แดชบอร์ดหรือรายงาน และข้อความเหล่านี้:
 
     -   **สามารถดู**: พวกเขาสามารถดู แต่แชร์ไม่ได้
-    -   **สามารถดู และแชร์ต่อ**: พวกเขาสามารถดู และแชร์กับเพื่อนร่วมงานอื่น ๆ ได้
+    -   **สามารถดูและแชร์ซ้ำ**: พวกเขาสามารถดู และแชร์กับเพื่อนร่วมงานอื่น ๆ ได้
 
 1. พิมพ์ที่อยู่อีเมล และข้อความที่ส่งไปพร้อมกับคำเชิญของคุณ มิฉะนั้น Power BI จะส่งข้อความเริ่มต้น
 2. เพื่ออนุญาตให้แชร์ต่อได้ ปล่อยตัวเลือก**อนุญาตให้ผู้รับแชร์ต่อ** ให้ยังคงถูกเลือก
@@ -128,7 +128,7 @@ ms.locfileid: "48271658"
    
    **สามารถดู**: พวกเขาสามารถดู แต่แชร์ไม่ได้
    
-   **สามารถดู และแชร์ต่อ**: พวกเขาสามารถดู และแชร์กับเพื่อนร่วมงานอื่น ๆ ได้
+   **สามารถดูและแชร์ซ้ำ**: พวกเขาสามารถดู และแชร์กับเพื่อนร่วมงานอื่น ๆ ได้
 2. พิมพ์ที่อยู่อีเมล และข้อความที่ส่งไปพร้อมกับคำเชิญของคุณ มิฉะนั้น Power BI จะส่งข้อความเริ่มต้น
    
    ![กล่องโต้ตอบการเชิญ](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-windows-10-share-dashboard.png)

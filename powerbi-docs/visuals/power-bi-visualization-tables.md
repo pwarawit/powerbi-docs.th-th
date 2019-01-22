@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c94fd3ce58cefdb9e3cc7749b6486ab9bb0577cb
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 2c909f1f7d2c1b500d37de0e4617e10c79977c96
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101473"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284782"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>การทำงานกับตารางในรายงานและแดชบอร์ด Power BI
 ตารางคือ เส้นตารางที่ประกอบด้วยข้อมูลที่เกี่ยวข้องในชุดที่สมเหตุผลของแถวและคอลัมน์ ซึ่งอาจยังประกอบด้วยส่วนหัวและแถวสำหรับผลรวมด้วย ตารางทำงานได้ดีกับข้อเปรียบเทียบเชิงปริมาณซึ่งเป็นการที่คุณดูหลายค่าสำหรับหนึ่งประเภท ตัวอย่างเช่น ตารางนี้แสดงการวัดที่แตกต่างกัน 5 การวัดสำหรับ**ประเภท**
@@ -79,7 +79,7 @@ ms.locfileid: "50101473"
 
     ![ตารางที่มีรูปแบบทั้งหมดไว้](media/power-bi-visualization-tables/power-bi-table-format.png)
 
-### <a name="conditional-formatting"></a>การจัดรูปแบบตามเงื่อนไข
+### <a name="conditional-formatting"></a>การจัดรูปแบบแบบมีเงื่อนไข
 อีกชนิดหนึ่งของการจัดรูปแบบจะเรียกว่า*จัดรูปแบบตามเงื่อนไข*และนำไปใช้กับเขตข้อมูลในแอ่ง**ค่า**ของพื้นที่**การแสดงภาพ**ในบริการ Power BI หรือ Desktop 
 
 ด้วยการจัดรูปแบบตามเงื่อนไขสำหรับตาราง คุณสามารถระบุสีพื้นหลังของเซลล์และสีฟอนต์ได้ด้วยตนเองโดยยึดตามค่าของเซลล์ รวมถึงการใช้สีไล่ระดับสี 

@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 18fb96573052455034f8c257811daed6cb15529e
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: dd3da287d976b9fe84ab56b425a5f08fba31d224
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679253"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288370"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>สร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน Power BI
 คุณสามารถจัดเก็บ และจัดการรายงาน Power BI ภายในองค์กร ในพอร์ทัลของเว็บเซิร์ฟเวอร์รายงาน Power BI เช่นเดียวกับที่คุณสามารถจัดเก็บรายงาน Power BI ในระบบคลาวด์ในบริการของ Power BI (https://powerbi.com) ได้ คุณสร้างและแก้ไขรายงานใน Power BI Desktop แล้วเผยแพร่ไปยังพอร์ทัลของเว็บ จากนั้น ผู้อ่านรายงานในองค์กรของคุณ สามารถดูรายงานได้ในเบราว์เซอร์ หรือในแอปมือถือ Power BI บนอุปกรณ์เคลื่อนที่ของพวกเขา
@@ -70,7 +70,7 @@ ms.locfileid: "51679253"
     ![เลือกเซิร์ฟเวอร์รายงาน](media/quickstart-create-powerbi-report/report-server-select-server.png)
 
 ## <a name="step-3-design-your-report"></a>ขั้นตอนที่ 3: ออกแบบรายงานของคุณ
-ต่อไปนี้เป็นเรื่องสนุก: คุณจะสร้างวิชวลที่แสดงข้อมูลของคุณ
+เรื่องสนุกๆ อยู่ในส่วนนี้: คุณจะสร้างวิชวลที่แสดงข้อมูลของคุณ
 
 ตัวอย่างเช่น คุณสามารถสร้างแผนภูมิกรวยของลูกค้าและจัดกลุ่มตามรายได้รายปี
 
@@ -97,7 +97,7 @@ ms.locfileid: "51679253"
 มีทรัพยากรที่ยอดเยี่ยมมากมายสำหรับการสร้างรายงานใน Power BI Desktop ลิงก์นี้เป็นจุดเริ่มต้นที่ดี
 
 * [เริ่มต้นใช้งาน Power BI Desktop](../desktop-getting-started.md)
-* การเรียนรู้พร้อมคำแนะนำ:[เริ่มต้นใช้งาน Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
+* การเรียนรู้ตามคำแนะนำ: [เริ่มต้นใช้งานกับ Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
 
 ### <a name="power-bi-report-server"></a>เซิร์ฟเวอร์รายงาน Power BI
 * [ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับ Power BI Report Server](install-powerbi-desktop.md)  

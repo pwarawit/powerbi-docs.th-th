@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 079494a47452ca0ca043032f78fa35c7d1755d11
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416877"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282574"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>แผนภูมิหน้าปัดความเร็วใน Power BI
 แผนภูมิหน้าปัดความเร็วมีโค้งวงกลม และแสดงเป็นค่าเดียวที่วัดความคืบหน้าตามเพื่อไปสู่เป้าหมาย/KPI  เป้าหมาย หรือค่าเป้าหมาย ถูกแสดงทีละบรรทัด (needle) ความคืบสู่เป้าหมายที่ถูกแสดงด้วยการแรเงา  และค่าที่แสดงว่าความคืบหน้าจะแสดงในเป็นหนาภายในส่วนโค้ง ค่าที่เป็นไปได้ทั้งหมดจะกระจายเท่าๆ กันตามส่วนโค้ง จากค่าต่ำสุด (ค่าซ้ายสุด) ไปสู่ค่าสูงสุด (ค่าขวาสุด)
@@ -40,11 +40,11 @@ ms.locfileid: "47416877"
 ## <a name="create-a-basic-radial-gauge"></a>สร้างแผนภูมิหน้าปัดความเร็วแบบพื้นฐาน
 คำแนะนำเหล่านี้ใช้ Power BI service เพื่อติดตาม ลงชื่อเข้าใช้ Power BI และเปิดไฟล์ตัวอย่าง Excel เกี่ยวกับการเงิน  
 
-หรือ ดูวิธีที่คุณสามารถสร้างภาพการวัดเดี่ยว หน้าปัดความเร็ว บัตร และ Kpi
+หรือดู วิธีที่คุณสามารถสร้างภาพการวัดตัวเดียว: ตัวประเมิน บัตร และ KPI
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>ขั้นตอนที่ 1 เปิดไฟล์ Excel ตัวอย่างการเงิน
+### <a name="step-1-open-the-financial-sample-excel-file"></a>ขั้นตอนที่ 1: เปิดไฟล์ Excel ตัวอย่างการเงิน
 1. [ดาวน์โหลดตัวอย่างไฟล์ Excel เกี่ยวกับการเงิน](../sample-financial-download.md) ถ้าคุณยังไมได้่โหลด จดจำตำแหน่งที่บันทึกไว้
 
 2. เปิดไฟล์ใน***Power BI service*** โดยเลือก**รับไฟล์ข้อมูล\>** และเรียกดูตำแหน่งที่ตั้งที่คุณบันทึกไฟล์ เลือก**นำเข้า** ตัวอย่างทางการเงินจะถูกเพิ่มในพื้นที่ทำงานของคุณในฐานะชุดข้อมูล
@@ -53,7 +53,7 @@ ms.locfileid: "47416877"
 
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
-### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>ขั้นตอนที่ 2 สร้างตัววัดแบบหน้าปัดความเร็วเพื่อติดตามยอดขายรวม
+### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>ขั้นตอนที่ 2: สร้างตัววัดแบบหน้าปัดความเร็วเพื่อติดตามยอดขายรวม
 1. ในบานหน้าต่าง**เขตข้อมูล** ให้เลือก**ยอดขายรวม**
    
    ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
@@ -78,7 +78,7 @@ ms.locfileid: "47416877"
    > 
    > 
 
-### <a name="step-4-set-a-maximum-value"></a>ขั้นตอนที่ 4 ตั้งค่าสูงสุด
+### <a name="step-4-set-a-maximum-value"></a>ขั้นตอนที่ 4: ตั้งค่าสูงสุด
 ในขั้นตอนที่ 2 Power BI ให้ใช้เขตข้อมูลที่ตั้งค่าต่ำสุด(เริ่มต้น) และค่าสูงสุด(สิ้นสุด)โดยอัตโนมัติ  แต่จะเกิดอะไรขึ้นถ้าคุณต้องการตั้งค่าสูงสุดของคุณเอง  สมมติว่าแทนที่จะใช้่ค่าปัจจุบันคุณสองเป็นค่าที่เป็นไปได้สูงสุด คุณต้องการตั้งค่าเป็นตัวเลขยอดขายรวมสูงสุดในชุดข้อมูลของคุณหรือไม่ 
 
 1. ลาก**ยอดขายรวม**จาก**เขตข้อมูล**รายการไปยัง**ค่าสูงสุด**
@@ -90,7 +90,7 @@ ms.locfileid: "47416877"
    
    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-final-gauge.png)
 
-### <a name="step-5-save-your-report"></a>ขั้นตอนที่ 5 บันทึกรายงานของคุณ
+### <a name="step-5-save-your-report"></a>ขั้นตอนที่ 5: บันทึกรายงานของคุณ
 1. [บันทึกรายงาน](../service-report-save.md)
 2. [เพิ่มแผนภูมิแบบหน้าปัดความเร็วเป็นแดชบอร์ดไทล์](../service-dashboard-pin-tile-from-report.md) 
 

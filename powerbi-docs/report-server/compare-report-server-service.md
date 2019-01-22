@@ -7,15 +7,15 @@ ms.author: maggies
 ms.date: 11/16/2018
 ms.topic: overview
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: aca89b1e45c2ce236a4b5a960436077e089a5b01
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 95055f19ed4187124d940e0fe7f70068dffc71c5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900577"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289773"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
@@ -47,7 +47,7 @@ ms.locfileid: "52900577"
 | การสมัครสมาชิกอีเมลสำหรับรายงาน Power BI | ไม่ใช่ | ใช่ | [การสมัครสมาชิกไปยังรายงานหรือแดชบอร์ด](../consumer/end-user-subscribe.md)ในบริการของ Power BI 
 | การสมัครสมาชิกอีเมลสำหรับรายงานที่มีการแบ่งหน้า | ใช่ | ไม่ใช่ | [การจัดส่งอีเมลใน Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
 | การแจ้งเตือนข้อมูล | ไม่ใช่ | ใช่ | [การแจ้งเตือนข้อมูล](../service-set-data-alerts.md)ในบริการของ Power BI
-| รักษาความปลอดภัยตามระดับแถว | ผ่านทางแหล่งข้อมูลในโหมด DirectQuery เท่านั้น | มีทั้งใน DirectQuery (แหล่งข้อมูล) และโหมดการนำเข้า | [รักษาความปลอดภัยระดับแถว (RLS)](../service-admin-rls.md) ด้วย Power BI 
+| รักษาความปลอดภัยระดับแถว | ผ่านทางแหล่งข้อมูลในโหมด DirectQuery เท่านั้น | มีทั้งใน DirectQuery (แหล่งข้อมูล) และโหมดการนำเข้า | [รักษาความปลอดภัยระดับแถว (RLS)](../service-admin-rls.md) ด้วย Power BI 
 | โหมดเต็มหน้าจอ | ไม่ใช่ | ใช่ | [โหมดเต็มหน้าจอ](../consumer/end-user-focus.md)ในบริการของ Power BI 
 | ทำงานร่วมกับ Office 365 ขั้นสูง | ไม่ใช่ | ใช่ | [ทำงานร่วมกันในพื้นที่ทำงานแอป](../service-collaborate-power-bi-workspace.md)ด้วย Office 365 
 | วิชวล R | ไม่ใช่ | ใช่ | [สร้างการแสดงผลด้วยภาพ R](../desktop-r-visuals.md) ใน Power BI Desktop และเผยแพร่ไปยังบริการของ Power BI คุณไม่สามารถบันทึกรายงาน Power BI กับการแสดงผลด้วยภาพ R ไปยังเซิร์ฟเวอร์รายงาน Power BI ได้  

@@ -1,29 +1,29 @@
 ---
-title: บทเรียน สร้างหน่วยวัดของคุณเองใน Power BI Desktop
-description: บทเรียน สร้างหน่วยวัดของคุณเองใน Power BI Desktop
+title: 'บทช่วยสอน: สร้างหน่วยวัดของคุณเองใน Power BI Desktop'
+description: 'บทช่วยสอน: สร้างหน่วยวัดของคุณเองใน Power BI Desktop'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 85c16822a51bc3c4a59bbfaa363f742f77552b72
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ba9cc81c966ebadb2aaff8c339b8a151aef7b6fd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578647"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287612"
 ---
-# <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>บทเรียน สร้างหน่วยวัดของคุณเองใน Power BI Desktop
+# <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>บทช่วยสอน: สร้างหน่วยวัดของคุณเองใน Power BI Desktop
 คุณสามารถสร้างโซลูชันของการวิเคราะห์ข้อมูลมีประสิทธิภาพที่สุดบางอย่างใน Power BI Desktop โดยใช้หน่วยวัด หน่วยวัดที่ช่วยคุณด้วยการคำนวนบนข้อมูลของคุณ ตามที่คุณโต้ตอบกับรายงานของคุณ บทเรียนนี้จะแนะนำคุณโดยผ่านการทำความเข้าใจเกี่ยวกับหน่วยวัด และสร้างหน่วยวัดพื้นฐานของคุณเองใน Power BI Desktop
 
 ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-- บทเรียนนี้มีไว้สำหรับผู้ใช้ Power BI ที่คุณคุ้นเคยกับการใช้ Power BI Desktop เพื่อสร้างแบบจำลองที่ขั้นสูงขึ้น คุณควรจะคุ้นเคยกับการใช้ Get Data และตัวแก้ไขคิวรีเพื่อนำเข้าข้อมูล ทำงานกับหลายตารางที่เกี่ยวข้อง และเพิ่มเขตข้อมูลไปยังพื้นที่รายงาน ถ้าคุณไม่คุ้นเคยกับ Power BI Desktop ตรวจดู[เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
+- บทเรียนนี้มีไว้สำหรับผู้ใช้ Power BI ที่คุณคุ้นเคยกับการใช้ Power BI Desktop เพื่อสร้างแบบจำลองที่ขั้นสูงขึ้น คุณควรจะคุ้นเคยกับการใช้ Get Data และตัวแก้ไขคิวรีเพื่อนำเข้าข้อมูล ทำงานกับหลายตารางที่เกี่ยวข้อง และเพิ่มเขตข้อมูลไปยังพื้นที่รายงาน ถ้าคุณยังไม่คุ้นเคยกับ Power BI Desktop ให้ตรวจดู[เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
   
-- ดาวน์โหลดไฟล์[ตัวอย่างการขาย Contoso สำหรับ Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) ซึ่งรวมถึงข้อมูลยอดขายออนไลน์จากบริษัทจำลอง Contoso, inc ข้อมูลนี้ถูกนำเข้าจากฐานข้อมูล ดังนั้นคุณจะไม่สามารถเชื่อมต่อกับแหล่งข้อมูลหรือดูในตัวแก้ไขคิวรีได้ เอาไฟลจากคอมพิวเตอร์ของคุณเองออกมา และจากนั้นเปิดใน Power BI Desktop
+- ดาวน์โหลดไฟล์ [ตัวอย่างการขาย Contoso สำหรับ Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) ซึ่งรวมถึงข้อมูลยอดขายออนไลน์จากบริษัทจำลอง Contoso, Inc. ข้อมูลนี้นำมาจากฐานข้อมูล ดังนั้นคุณจะไม่สามารถเชื่อมต่อกับแหล่งข้อมูลหรือดูในตัวแก้ไขคิวรีได้ เอาไฟลจากคอมพิวเตอร์ของคุณเองออกมา และจากนั้นเปิดใน Power BI Desktop
 
 ## <a name="understand-measures"></a>ทำความเข้าใจหน่วยวัด
 
@@ -85,7 +85,7 @@ ms.locfileid: "52578647"
     
     ![เลือกคอลัมน์](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_sum.png)
     
-    นิพจน์ปรากฏตลอดเวลาระหว่างวงเล็บปิดและวงเล็บปิด นิพจน์ของคุณจะประกอบด้วยอาร์กิวเมนต์เดียว เพื่อส่งผ่านไปยังฟังก์ชัน SUM ของคอลัมน์ SalesAmount จนกว่าจะมีค่าที่เหลืออยู่ในรายการ Sales(SalesAmount) เพียงค่าเดียว ชื่อคอลัมน์ที่นำหน้าด้วยชื่อตารางจะถูกเรียกว่าการ*ชื่อที่ครบถ้วน*ของคอลัมน์ ชื่อคอลัมน์ที่ครบถ้วนทำให้สูตรของคุณอ่านง่ายขึ้น 
+    นิพจน์ปรากฏตลอดเวลาระหว่างวงเล็บปิดและวงเล็บปิด นิพจน์ของคุณจะประกอบด้วยอาร์กิวเมนต์เดียว เพื่อส่งผ่านไปยังฟังก์ชัน SUM ของคอลัมน์ SalesAmount เริ่มการพิมพ์คำว่า "SalesAmount" จนกว่าจะมีค่าที่เหลืออยู่ในรายการ เพียงค่าเดียว: Sales(SalesAmount) ชื่อคอลัมน์ที่นำหน้าด้วยชื่อตารางจะถูกเรียกว่าการ*ชื่อที่ครบถ้วน*ของคอลัมน์ ชื่อคอลัมน์ที่ครบถ้วนทำให้สูตรของคุณอ่านง่ายขึ้น 
     
     ![เลือก SalesAmount](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
@@ -128,7 +128,7 @@ ms.locfileid: "52578647"
 
 ![ยอดขายและขายสุทธิตามประเทศ](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
 
-แผนภูมิตอนนี้ใช้หน่วยวัดสองตัว คือ SalesAmount ซึ่งเป็นผลรวมโดยอัตโนมัติ และยอดขายสุทธิที่คุณสร้างขึ้น ตัววัดแต่ละตัวมีการคำนวณในบริบทของเขตข้อมูลอื่นเช่น RegionCountryName
+แผนภูมิตอนนี้ใช้หน่วยวัดสองตัวคือ: SalesAmount ซึ่งเป็นผลรวมโดยอัตโนมัติและยอดขายสุทธิที่คุณสร้างขึ้น ตัววัดแต่ละตัวมีการคำนวณในบริบทของเขตข้อมูลอื่นเช่น RegionCountryName
     
 ### <a name="use-your-measure-with-a-slicer"></a>ใช้หน่วยวัดของคุณกับตัวแบ่งส่วนข้อมูล
 

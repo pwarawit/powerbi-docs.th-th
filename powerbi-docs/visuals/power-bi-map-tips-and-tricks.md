@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d1152ae1e4d386882c9165e6545a44c7f3c47e46
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 23e237428b86046cf75b02e2e98082da18d671cf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548522"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54286693"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>คำแนะนำและเคล็ดลับสำหรับการแสดงภาพแผนที่ Power BI
 Power BI รวมเข้ากับ Bing Maps เพื่อให้ได้ค่าเริ่มต้นพิกัดแมป (กระบวนการที่เรียกว่า การกำหนดรหัสทางภูมิศาสตร์) เพื่อให้คุณสร้างแผนที่ได้ เมื่อทำงานร่วมกัน ส่วนเหล่านี้ใช้อัลกอริทึมในการระบุตำแหน่งที่ถูกต้อง แต่บางครั้งจะเป็นค่าคาดเดาที่ดีที่สุด หากลองทำแล้ว Power BI ไม่สามารถสร้างการแสดงภาพของแผนที่ได้ด้วยตนเอง ระบบจะแสดงรายการความช่วยเหลือของ Bing Maps 

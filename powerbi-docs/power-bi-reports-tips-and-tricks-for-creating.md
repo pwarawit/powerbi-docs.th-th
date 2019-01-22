@@ -5,17 +5,17 @@ author: davidi
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 2093800f10484a24eb4db9f77f45468ae4b9b4c3
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 02202e8b5e89aa8d312a96d448c825f2ca44447a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829847"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290509"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>คำแนะนำและเคล็ดลับในการสร้างรายงานในบริการของ Power BI และ Power BI Desktop
 เพื่อให้ได้รับประโยชน์สูงสุดจากข้อมูลของคุณ บางครั้งคุณก็ต้องการความช่วยเหลือเพิ่มเติมเล็กน้อย เราได้รวบรวมคำแนะนำและเคล็ดลับบางประการที่คุณสามารถใช้ในการสร้างรายงานใน Microsoft Power BI Desktop*และ*ใน Microsoft Excel 2016 หรือ Excel 2013 รุ่น Pro-Plus ที่เปิดใช้งาน Power Pivot add-in แล้ว และติดตั้งรวมทั้งเปิดใช้งาน Power Query แล้ว
@@ -30,7 +30,7 @@ ms.locfileid: "52829847"
 คุณยังสามารถดู[การอ้างอิงสูตร](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)ได้อีกด้วย
 
 ### <a name="data-types-in-query-editor"></a>ชนิดข้อมูลในตัวแก้ไขคิวรี
-เมื่อคุณใช้ตัวแก้ไขคิวรีใน Power BI Desktop เพื่อโหลดข้อมูล เราจะทำการตรวจหาชนิดข้อมูลจากการคาดเดาที่ดีที่สุด  เมื่อใช้สูตร บางครั้งระบบจะไม่เก็บการตั้งค่าชนิดข้อมูลที่คอลัมน์ไว้ คุณควรตรวจสอบชนิดข้อมูลของคอลัมน์ว่าถูกต้องหรือไม่ หลังจากได้ดำเนินการต่อไปนี้: โหลดข้อมูลเบื้องต้นไปยังแท็บคิวรี แถวแรกเป็นหัวกระดาษ เพิ่มคอลัมน์ จัดกลุ่มตาม ผสาน ผนวก และก่อนที่จะกดโหลดข้อมูลเป็นครั้งแรก
+เมื่อคุณใช้ตัวแก้ไขคิวรีใน Power BI Desktop เพื่อโหลดข้อมูล เราจะทำการตรวจหาชนิดข้อมูลจากการคาดเดาที่ดีที่สุด  เมื่อใช้สูตร บางครั้งระบบจะไม่เก็บการตั้งค่าชนิดข้อมูลที่คอลัมน์ไว้ คุณควรตรวจสอบประเภทของข้อมูลในคอลัมน์ว่าถูกต้องหรือไม่หลังจากดำเนินการดังต่อไปนี้:  โหลดข้อมูลเบื้องต้นไปยังแท็บคิวรี แถวแรกเป็นหัวกระดาษ เพิ่มคอลัมน์ จัดกลุ่มตาม ผสาน ผนวก และก่อนที่จะกดโหลดข้อมูลเป็นครั้งแรก
 
 ข้อควรระลึกที่สำคัญประการหนึ่ง คือ: ตัวเอียงในเส้นตารางข้อมูล ไม่ได้หมายความว่า ตั้งค่าชนิดข้อมูลนั้นไม่ถูกต้อง แต่เพียงหมายความว่า ระบบไม่ได้พิจารณาข้อมูลนั้นว่าเป็นข้อความ
 
@@ -167,7 +167,7 @@ DAX คือ ภาษาสำหรับสูตรในการคำน
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>บริการของ Power BI *และ* Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>อ่านเอกสารทางเทคนิค [หลักสำหรับการออกแบบรายงาน Power BI](visuals/power-bi-visualization-best-practices.md)
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>อ่านเอกสารทางเทคนิค: [หลักการสำหรับการออกแบบรายงาน Power BI](visuals/power-bi-visualization-best-practices.md)
 เอกสารนี้ให้แนวทางปฏิบัติที่ดีที่สุดสำหรับการออกแบบรายงานใน Power BI เริ่มต้นด้วยการวางแผน ซึ่งจะกล่าวถึงหลักของการออกแบบที่คุณสามารถนำไปใช้กับรายงานของคุณ รวมถึงหน้าและแต่ละรูปภาพที่ประกอบเป็นรายงานนั้น หลายแนวทางปฏิบัติที่ดีที่สุดเหล่านี้ใช้กับการออกแบบแดชบอร์ดได้เช่นกัน
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>อ่าน และ/หรือดู "วิธีการออกแบบรายงาน (และแดชบอร์ด)อันน่าทึ่ง ใน Power BI"

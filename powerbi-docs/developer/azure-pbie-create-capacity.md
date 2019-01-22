@@ -5,17 +5,17 @@ author: markingmyname
 manager: kfile
 ms.author: maghan
 ms.service: power-bi-embedded
-ms.component: ''
+ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: ''
 ms.date: 07/31/2018
-ms.openlocfilehash: f364bb725c492c1bffd2493c1e2a48ee8c442a9e
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: caab7ce649687ec22d171e112382aa13d7652fb9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300057"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288554"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>สร้างความจุ Power BI Embedded ในพอร์ทัล Azure
 
@@ -29,7 +29,7 @@ ms.locfileid: "43300057"
 
 เมื่อต้องการทำตามการเริ่มต้นใช้งานด่วน คุณจำเป็นต้อง:
 
-* **สมัครใช้งาน azure:** เยี่ยมชม[Azure รุ่นทดลองใช้ฟรี](https://azure.microsoft.com/free/)เพื่อสร้างบัญชีผู้ใช้
+* **สมัครใช้งาน azure:** เยี่ยมชม[ Azure รุ่นทดลองใช้ฟรี ](https://azure.microsoft.com/free/)เพื่อสร้างบัญชีผู้ใช้
 * **Azure Active Directory:** การสมัครใช้งานของคุณต้องเชื่อมโยงกับผู้เช่าของ Azure Active Directory (AAD) นอกจากนี้ ***คุณต้องลงชื่อเข้าใช้ Azure ด้วยบัญชีผู้เช่ารายนั้น*** ไม่รองรับบัญชี Microsoft หากต้องการเรียนรู้เพิ่มเติม ดู[การรับรองความถูกต้องและสิทธิ์ผู้ใช้](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users)
 * **ผู้เช่า Power BI:** บัญชีในผู้เช่า AAD ของคุณอย่างน้อยหนึ่งบัญชีต้องลงชื่อสมัครใช้งาน Power BI
 * **กลุ่มทรัพยากร:** ใช้กลุ่มทรัพยากรที่คุณมีอยู่หรือ[สร้างกลุ่มใหม่](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)
@@ -71,4 +71,4 @@ ms.locfileid: "43300057"
 
 ในการเริ่มต้นฝังเนื้อหา Power BI ในแอปพลิเคชันของคุณ โปรดดูที่[วิธีฝังแดชบอร์ด รายงาน และไทล์ใน Power BI ของคุณ](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/)
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)

@@ -1,23 +1,23 @@
 ---
-title: 'บทช่วยสอน: การวิเคราะห์ Facebook โดยใช้ Power BI Desktop'
-description: 'บทช่วยสอน: การวิเคราะห์ Facebook โดยใช้ Power BI Desktop'
+title: 'บทช่วยสอน: Facebook analytics กำลังใช้ Power BI Desktop'
+description: 'บทช่วยสอน: Facebook analytics กำลังใช้ Power BI Desktop'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ec90e63de1e42350ff205febdc66abf4ba6ee626
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ae2d40d5a53a7a84c0f6070a7be1011968d7ed7b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578508"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276985"
 ---
-# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>บทช่วยสอน: การวิเคราะห์ Facebook โดยใช้ Power BI Desktop
+# <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>บทช่วยสอน: Facebook analytics กำลังใช้ Power BI Desktop
 
 ในบทช่วยสอนนี้ คุณจะเรียนรู้วิธีการนำเข้าข้อมูลจาก Facebook และใช้ใน Power BI Desktop คุณจะเชื่อมต่อและนำเข้าข้อมูลจากหน้า Facebook ของ Power BI ทำการแปลงข้อมูลนำเข้า และใช้ข้อมูลในการแสดงภาพรายงาน
 
@@ -187,7 +187,7 @@ ms.locfileid: "52578508"
 2. ในตัวแก้ไข Power Query เลือกคอลัมน์**Number of comments** และเปลี่ยนชนิดข้อมูลเป็น**จำนวนเต็ม** โดยวิธีใดวิธีหนึ่งต่อไปนี้: 
    - เลือกไอคอน **1.2** ที่อยู่ถัดจากส่วนหัวของคอลัมน์**Number of comments** และเลือก**จำนวนเต็ม**จากดรอปดาวน์ หรือ
    - คลิกขวาที่ส่วนหัวของคอลัมน์ และเลือก**เปลี่ยนชนิด > จำนวนเต็ม** หรือ
-   - เลือก**ชนิดข้อมูล: เลขทศนิยม** ในกลุ่ม**แปลง**ของแท็บหน้าแรก หรือกลุ่ม**คอลัมน์ใดก็ได้** ของแท็บ**แปลง** แล้ว เลือก**จำนวนเต็ม**
+   - การเลือก**ประเภทข้อมูล: เลขทศนิยม** ในกลุ่ม**แปลง**ของแท็บหน้าแรก หรือกลุ่ม**คอลัมน์ใดก็ได้** ของแท็บ**แปลง** แล้ว เลือก**จำนวนเต็ม**
    
    ไอคอนในส่วนหัวของคอลัมน์เปลี่ยนไปเป็น **123** ซึ่งระบุชนิดข้อมูลเป็นจำนวนเต็ม
    

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maghan
-ms.openlocfilehash: c8904f3025a0a60557b1d3efb54ea6bc18c20da4
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 763b79b50266678a78dc956372f504f30836c4fc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507917"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292975"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>ข้อกำหนดฮาร์ดแวร์และซอฟต์แวร์สำหรับติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 บทความนี้จะให้คุณได้ดูข้อกำหนดขั้นต่ำของฮาร์ดแวร์และซอฟต์แวร์เพื่อใช้ในการติดตั้งและเรียกใช้เซิร์ฟเวอร์รายงาน Microsoft Power BI
@@ -25,9 +25,9 @@ ms.locfileid: "51507917"
 | --- | --- |
 | .NET framework |4.6<br><br>คุณสามารถติดตั้ง.NET Framework จาก[Microsoft.NET Framework 4.6 (ตัวติดตั้งเว็บ) สำหรับ Windows](http://support.microsoft.com/kb/3045560)ได้ด้วยตนเอง<br/><br/> สำหรับข้อมูลเพิ่มเติมและคำแนะนำเกี่ยวกับ .NET Framework 4.6 ดู[คู่มือ .NET Framework Deployment สำหรับนักพัฒนา](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)<br/><br/>Windows 8.1 และ Windows Server 2012 R2 จำเป็นต้องมี[KB2919355](http://support.microsoft.com/kb/2919355) ก่อนติดตั้ง.NET Framework 4.6 |
 | ฮาร์ดดิสก์ |เซิร์ฟเวอร์รายงาน Power BI จำเป็นต้องมีเนื้อที่บนฮาร์ดดิสก์อย่างน้อย 1 กิกะไบต์<br><br>จะต้องเพิ่มเนื้อที่ว่างบนเซิร์ฟเวอร์ฐานข้อมูลที่โฮสต์ฐานข้อมูลของเซิร์ฟเวอร์รายงาน |
-| หน่วยความจำ |**ต่ำสุด:** 1 GB<br/><br/> **แนะนำ:** อย่างน้อย 4 GB |
+| หน่วยความจำ |**ขั้นต่ำ:** 1 GB<br/><br/> **แนะนำ:** อย่างน้อย 4 GB |
 | ความเร็วในการประมวลผล |**ค่าต่ำสุด:** x64 ตัวประมวลผล: 1.4 GHz<br/><br/> **แนะนำ:** 2.0 GHz หรือเร็วกว่า |
-| ชนิดตัวประมวลผล |x64 Processor: AMD Opteron, AMD Athlon 64, Xeon Intel with Intel EM64T support, IV Pentium Intel with EM64T support |
+| ชนิดตัวประมวลผล |x64 ตัวประมวลผล: AMD Opteron, AMD Athlon 64, Xeon Intel พร้อมการรองรับ Intel EM64, IV Pentium Intel พร้อมการรองรับ EM64T |
 | ระบบปฏิบัติการ |Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
 
 > [!NOTE]

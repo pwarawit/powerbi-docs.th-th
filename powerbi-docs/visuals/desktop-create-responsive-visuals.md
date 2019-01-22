@@ -5,20 +5,20 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1260f2c69a4ab913f7451671ab7821ee250998c0
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 4372f37cf6afc8fe51d6650ddd888bd41d3ea678
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187248"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280136"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>ปรับวิชวล Power BI ให้เหมาะสมกับทุกขนาด
-โดยค่าเริ่มต้น เมื่อคุณสร้างรายงานใหม่ วิชวลเป็นแบบ*ตอบสนอง*: นั่นคือวิชวลจะสามารถเปลี่ยนแปลงเพื่อแสดงข้อมูลและข้อมูลเชิงลึกให้ได้มากที่สุด โดยไม่ขึ้นกับขนาดหน้าจอได้ สำหรับรายงานเก่า คุณสามารถตั้งค่าวิชวลเพื่อปรับขนาดให้ได้มากที่สุดเช่นกัน
+ตามค่าเริ่มต้น เมื่อคุณสร้างรายงานใหม่ ภาพจะถูกตั้งค่าเป็น*แบบตอบสนอง*: ภาพเปลี่ยนการแสดงผลข้อมูลทั่วไปและข้อมูลเชิงลึกปริมาณมากได้ โดยไม่ขึ้นอยู่กับขนาดของหน้าจอ สำหรับรายงานเก่า คุณสามารถตั้งค่าวิชวลเพื่อปรับขนาดให้ได้มากที่สุดเช่นกัน
 
 เมื่อเปลี่ยนขนาดภาพ Power BI ก็จะจัดลำดับความสำคัญมุมมองข้อมูล ตัวอย่างเช่น เอาช่องว่างภายในออก และย้ายคำอธิบายแผนภูมิไปไว้ด้านบนสุดของภาพโดยอัตโนมัติ เพื่อให้ภาพยังคงแสดงข้อมูลได้ แม้ว่าจะมีขนาดเล็กลงก็ตาม การตอบสนอง จะมีประโยชน์โดยเฉพาะอย่างยิ่งในวิชวลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ บนมือถือ
 

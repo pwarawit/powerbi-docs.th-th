@@ -5,19 +5,19 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: db3184f7bc3c181b685c22d0bcad27206b4a0f8f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34285979"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296374"
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>ขั้นตอนที่ 1: ลงทะเบียนแอปด้วย Azure AD
-บทความนี้เป็นส่วนหนึ่งของการฝึกปฏิบัติทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
+บทความนี้เป็นส่วนหนึ่งของคำแนะนำทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
 
 ขั้นตอนแรกเพื่อส่ง (push) ข้อมูลลงในชุดข้อมูลของ Power BI คือ ต้องลงทะเบียนแอปของคุณใน Azure AD คุณจำเป็นต้องทำสิ่งนี้ก่อนเพื่อให้คุณมี **ID ไคลเอ็นต์**ที่ระบุแอปของคุณใน Azure AD หากไม่มี **ID ไคลเอ็นต์** Azure AD จะไม่สามารถรับรองความถูกต้องแอปของคุณได้
 

@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4638842217127c1d80ec115e05f8db1a6d3eb36c
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 3a434c418e8a385db921dd910f354bda04ad8edd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679052"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289336"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>สร้าง และเผยแพร่ชุดเนื้อหาองค์กร (บทเรียน)
 
@@ -53,7 +53,7 @@ ms.locfileid: "51679052"
       > 
       > 
    
-   3. เราขอแนะนำ ให้เพิ่มการ**คำอธิบาย** ซึ่งช่วยให้เพื่อนร่วมงานค้นหาชุดเนื้อหาเพิ่มเติมได้อย่างง่ายดายตามที่พวกเขาต้องการ นอกเหนือจากคำอธิบาย ให้เพิ่มคำสำคัญที่เพื่อนร่วมงานของคุณอาจใช้เพื่อค้นหาชุดเนื้อหานี้ รวมถึงข้อมูลที่ติดต่อในกรณีที่เพื่อนร่วมงานของคุณมีคำถาม หรือต้องการความช่วยเหลือ
+   3. แนะนำ: เพิ่ม **คำอธิบาย** ซึ่งช่วยให้เพื่อนร่วมงานค้นหาชุดเนื้อหาเพิ่มเติมได้อย่างง่ายดายตามที่พวกเขาต้องการ นอกเหนือจากคำอธิบาย ให้เพิ่มคำสำคัญที่เพื่อนร่วมงานของคุณอาจใช้เพื่อค้นหาชุดเนื้อหานี้ รวมถึงข้อมูลที่ติดต่อในกรณีที่เพื่อนร่วมงานของคุณมีคำถาม หรือต้องการความช่วยเหลือ
    
    4. **อัปโหลดรูปภาพหรือโลโก้**เพื่อทำให้ง่ายสำหรับสมาชิกของกลุ่มเพื่อค้นหาชุดเนื้อหา&#151;ค้นหาด้วยรูปภาพจะรวดเร็วการค้นหาด้วยข้อความ เราใช้รูปภาพไทล์ของคอลัมน์ Opportunity Count 100% แผนภูมิในสกรีนช็อตด้านล่าง
    

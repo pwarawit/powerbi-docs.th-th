@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 0990f6ddaf458d5723cd04fedf0b34f497de16cb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974195"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278504"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>ส่งข้อมูลลงในชุดข้อมูล Power BI
 
@@ -25,10 +25,10 @@ ms.locfileid: "45974195"
 ## <a name="steps-to-push-data-into-a-dataset"></a>ขั้นตอนการส่งข้อมูลลงในชุดข้อมูล
 
 * ขั้นตอนที่ 1: [ลงทะเบียนแอปกับ Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)
-* ขั้นตอนที่ 2: [รับโทเค็นการเข้าถึงการรับรองความถูกต้อง ](walkthrough-push-data-get-token.md)
-* ขั้นตอนที่ 3:[สร้างชุดข้อมูลใน Power BI](walkthrough-push-data-create-dataset.md)
-* ขั้นตอนที่ 4:[รับชุดข้อมูลเพื่อเพิ่มแถวลงในตาราง Power BI](walkthrough-push-data-get-datasets.md)
-* ขั้นตอนที่ 5:[เพิ่มแถวลงในตาราง Power BI](walkthrough-push-data-add-rows.md)
+* ขั้นตอนที่ 2: [รับโทเค็นการเข้าถึงการรับรองความถูกต้อง](walkthrough-push-data-get-token.md)
+* ขั้นตอนที่ 3: [สร้างชุดข้อมูลใน Power BI](walkthrough-push-data-create-dataset.md)
+* ขั้นตอนที่ 4: [รับชุดข้อมูลเพื่อเพิ่มแถวลงในตาราง Power BI](walkthrough-push-data-get-datasets.md)
+* ขั้นตอนที่ 5: [เพิ่มแถวลงในตาราง Power BI](walkthrough-push-data-add-rows.md)
 
 ในส่วนถัดไปคือการสนทนาทั่วไปของการดำเนินการ Power BI API ที่ส่งข้อมูล
 
@@ -59,7 +59,7 @@ ms.locfileid: "45974195"
         ]
     }
 
-สำหรับตัวอย่างชุดข้อมูลการขายและการตลาดของเรา คุณจะผ่านสตริง JSON เช่นตัวอย่างด้านล่าง ในตัวอย่างนี้**การขายและการตลาด**คือชื่อของชุดข้อมูล และ**ผลิตภัณฑ์**คือชื่อของตาราง หลังจากที่คุณกำหนดตาราง จากนั้นกำหนดสคีของตาราง สำหรับ**ชุดข้อมูลการขายและการตลาด**และสคีของตารางมีคอลัมน์เหล่านี้: รหัสผลิตภัณฑ์ ผู้ผลิต ประเภท ส่วน ผลิตภัณฑ์ และ เสร็จสมบูรณ์
+สำหรับตัวอย่างชุดข้อมูลการขายและการตลาดของเรา คุณจะผ่านสตริง JSON เช่นตัวอย่างด้านล่าง ในตัวอย่างนี้**การขายและการตลาด**คือชื่อของชุดข้อมูล และ**ผลิตภัณฑ์**คือชื่อของตาราง หลังจากที่คุณกำหนดตาราง จากนั้นกำหนดสคีของตาราง สำหรับชุดข้อมูล **การขายและการตลาด** ตาราง schema มีคอลัมน์เหล่านี้: ProductID ผู้ผลิต ประเภท เซ็กเมนต์ ผลิตภัณฑ์ และ IsCompete
 
 **ตัวอย่างชุดข้อมูลวัตถุ JSON**
 
@@ -112,7 +112,7 @@ ms.locfileid: "45974195"
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>เรียนรู้เพิ่มเติมเกี่ยวกับการส่งข้อมูลลงใน Power BI
 
-เมื่อต้องการเริ่มต้นใช้งานการส่งข้อมูลลงในชุดข้อมูล ดู[ขั้นตอนที่ 1: ลงทะเบียนแอปกับ Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)ในบานหน้าต่างนำทางด้านซ้าย
+เมื่อต้องเริ่มส่งข้อมูลลงในชุดข้อมูล ให้ดูที่[ขั้นตอนที่ 1: ลงทะเบียนแอปกับ Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)ซึ่งอยู่ในหน้าต่างนำทางด้านซ้าย
 
 [ขั้นตอนถัดไป >](walkthrough-push-data-register-app-with-azure-ad.md)
 

@@ -6,17 +6,17 @@ manager: amitaro
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 546ae48aac10ae6c72a062665c7d8f448432a194
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452763"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292648"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>การรักษาความปลอดภัยระดับแถวแบบไดนามิกกับรูปแบบตารางข้อมูล Analysis Services
 บทช่วยสอนนี้จะแสดงให้เห็นขั้นตอนที่จำเป็นในการใช้**การรักษาความปลอดภัยระดับแถว**ภายใน**รูปแบบตารางข้อมูล Analysis Services** ของคุณและแสดงวิธีใช้ในรายงาน Power BI ขั้นตอนนี้ให้คุณทำตามและเรียนรู้ขั้นตอนต่างๆ ที่จำเป็นโดยกรอกข้อมูลในชุดข้อมูลตัวอย่าง

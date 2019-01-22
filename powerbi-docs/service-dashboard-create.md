@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: maggies
-ms.openlocfilehash: 28a282ff6a35061422995c46fbbcd34c21b533a7
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: c42aa07fd78430c5692067ae8476b22288470c8c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717435"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294291"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>สร้างแดชบอร์ด Power BI จากรายงาน
 คุณได้อ่าน[แดชบอร์ดใน Power BI](service-dashboards.md)และตอนนี้ คุณต้องการสร้างของคุณเอง มีหลายวิธีในการสร้างแดชบอร์ด สามารถสร้างจากรายงานโดยสร้างตั้งแต่เริ่มต้น จากชุดข้อมูลโดยการทำซ้ำแดชบอร์ดที่มีอยู่แล้ว และอื่น ๆ อีกมาก  
@@ -65,7 +65,7 @@ ms.locfileid: "51717435"
 1. ในพื้นที่ทำงานของคุณ เลือกแถบ**รายงาน** รายงานที่นำเข้ามาใหม่จะแสดงด้วยเครื่องหมายดอกจันสีเหลือง เลือกชื่อรายงานเพื่อเปิดใช้งาน
 
     ![แถบรายงาน](media/service-dashboard-create/power-bi-reports.png)
-2. รายงานเปิดขึ้นในมุมมองการอ่าน จะเห็นว่ามีสองแถบที่ด้านล่าง นั่นคือ แถบการวิเคราะห์ส่วนลดและภาพรวมการใช้เวลา แต่ละแถบจะแสดงหน้าของรายงานนั้น ๆ
+2. รายงานเปิดขึ้นในมุมมองการอ่าน โปรดสังเกตว่ามีสองแถบที่ด้านล่าง: วิเคราะห์การลดราคาและใช้ภาพรวม แต่ละแถบจะแสดงหน้าของรายงานนั้น ๆ
     เลือก**แก้ไขรายงาน**เพื่อเปิดรายงานในมุมมองการแก้ไข
 
     ![รายงานในมุมมองการอ่าน](media/service-dashboard-create/power-bi-reading-view.png)

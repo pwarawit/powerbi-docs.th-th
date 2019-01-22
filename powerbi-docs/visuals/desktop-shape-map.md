@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417337"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290900"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>แผนที่รูปร่างใน Power BI Desktop (ตัวอย่าง)
 สร้างภาพ**แผนที่รูปร่าง**เพื่อเปรียบเทียบภูมิภาคบนแผนที่โดยใช้สี ไม่เหมือนกับภาพ**แผนที่** **แผนที่รูปร่าง**ไม่สามารถแสดงตำแหน่งที่ตั้งทางภูมิศาสตร์อย่างแม่นยำของจุดข้อมูลบนแผนที่ได้ แต่วัตถุประสงค์หลักคือการเปรียบเทียบภูมิภาคบนแผนที่โดยการใช้สีแตกต่างกัน
@@ -176,7 +176,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Litigated Zone 3 |
 | Litigated Zone 4 |
 
-### <a name="canada-provinces"></a>แคนาดา: จังหวัด
+### <a name="canada-provinces"></a>แคนาดา: เขต
 
 | `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
@@ -335,7 +335,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | mx-bcn |B.C. |MX-BCN |Baja California |Baja California |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>เนเธอร์แลนด์: จังหวัด
+### <a name="netherlands-provinces"></a>เนเธอร์แลนด์: เขต
 
 | `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |

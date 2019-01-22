@@ -5,24 +5,24 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 55e496656046037226a7414c994697b670bcf8c9
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 92191c96409a3a75ad44f8d3472805a3e98da7dd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669738"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275720"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>การจัดประเภทข้อมูลใน Power BI Desktop
 ใน **Power BI Desktop** คุณสามารถระบุประเภทของข้อมูลสำหรับคอลัมน์ เพื่อให้ Power BI Desktop ทราบว่าควรจัดการกับค่าเหล่านั้นอย่างไรเมื่อดำเนินการแสดงผลเป็นภาพ
 
 เมื่อ Power BI Desktop นำเข้าข้อมูล ไม่เพียงแต่ได้รับตัวข้อมูลเองเท่านั้น จะยังได้รับข้อมูลเช่นชื่อของตารางและคอลัมน์ ใช้งานเป็นคีย์หลักหรือไม่ ฯลฯ  ด้วยข้อมูลนั้น Power BI Desktop สร้างสมมติฐานบางประการเกี่ยวกับวิธีแสดงผลเป็นภาพ เพื่อให้ได้คุณมีประสบการณ์เริ่มต้นที่ดี 
 
-ตัวอย่างเช่น: เมื่อ Power BI Desktop ตรวจพบว่า คอลัมน์มีค่าตัวเลข คุณอาจต้องการหาผลรวมในวิธีใดวิธีหนึ่ง ดังนั้นจะถูกจัดให้อยู่ใน ค่า หรือ สำหรับคอลัมน์ที่มีค่าเป็นวันที่และเวลา จะสันนิษฐานว่าคุณอยากจะใช้มัน เป็นแกนลำดับชั้นเวลาบนแผนภูมิเส้น
+ตัวอย่างมีดังนี้: เมื่อ Power BI Desktop ตรวจพบว่า คอลัมน์มีค่าตัวเลข คุณอาจต้องการหาผลรวมในวิธีใดวิธีหนึ่ง ดังนั้นจะถูกจัดให้อยู่ในค่า หรือ สำหรับคอลัมน์ที่มีค่าเป็นวันที่และเวลา จะสันนิษฐานว่าคุณอยากจะใช้มัน เป็นแกนลำดับชั้นเวลาบนแผนภูมิเส้น
 
 แต่มีบางกรณีที่ท้าทายขึ้น เช่นข้อมูลภูมิศาสตร์ ลองพิจารณาตารางต่อไปนี้จากแผ่นงาน Excel:
 

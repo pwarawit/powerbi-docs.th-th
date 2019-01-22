@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f4d16a5694dde63b66dcb001f1a5375ed92d978c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 2cb8e7b6c2744f80891c5424f620b9812eee1acb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37137180"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285380"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 เคล็ดลับสำหรับการรับความช่วยเหลือเกี่ยวกับคำถาม Power BI ของคุณ
 คุณเคยรู้สึกอึดอัดเมื่อใช้ Power BI หรือพบปัญหาเนื่องจากคุณไม่เจอคำตอบของคำถามเกี่ยวกับ Power BI ในเวลาที่คุณต้องการ เช่น "just-in-time" หรือไม่ 
@@ -30,7 +30,7 @@ ms.locfileid: "37137180"
 ทีม Power BI ปรับปรุงและพัฒนาเอกสารประกอบ Power BI อย่างต่อเนื่องรวมทั้งมีการฝึกอบรมด้วย คุณสามารถค้นหาเนื้อหาที่ดีที่สุด รวมถึงการบันทึกการสัมมนาผ่านเว็บ รายงาน คำแนะนำการเรียนรู้ และลิงก์ไปยังโพสต์ในบล็อกของฟีเจอร์ล่าสุดทั้งหมด
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3 อ่านบล็อก Power BI เกี่ยวกับข่าวสารล่าสุด
-ทีม Power BI อธิบายฟีเจอร์ใหม่ทั้งหมดใน[โพสต์ในบล็อก Power BI](https://powerbi.microsoft.com/blog/) ปกติของพวกเขา ค้นหาว่ามีอะไรใหม่ตั้งแต่ Power BI Desktop จนถึงแอปมือถือ Power BI หรือไม่ สร้างพฤติกรรมของการกลับมาดูว่ามีอะไรใหม่เสมอ ให้ใช้เวลาสักสองสามนาทีต่อสัปดาห์เพื่อหาสิ่งใหม่ๆในบล็อก คุณไม่เคยทราบว่าเมื่อไหร่คุณจะได้รับประโยชนข้อมูลบืตนั้นที่คุณสังเกตเห็นเมื่อหลายเดือนก่อน
+ทีม Power BI อธิบายฟีเจอร์ใหม่ทั้งหมดใน[โพสต์ในบล็อก Power BI](https://powerbi.microsoft.com/blog/) ปกติของพวกเขา ค้นหาว่ามีอะไรใหม่ตั้งแต่ Power BI Desktop จนถึงแอปมือถือ Power BI หรือไม่ พยายามกลับมาดูบ่อยๆ ว่ามีอะไรใหม่: การสแกนบล็อกในแต่ละสัปดาห์ใช้เวลาไม่นาน คุณไม่เคยทราบว่าเมื่อไหร่คุณจะได้รับประโยชนข้อมูลบืตนั้นที่คุณสังเกตเห็นเมื่อหลายเดือนก่อน
 
 ## <a name="4-try-twitter"></a>4 ลองใช้ Twitter
 ลูกค้า Power BI และผู้เชี่ยวชาญจำนวนมากอยู่บน Twitter ถามคำถามของคุณในทวีต เพิ่มแฮชแท็ก #powerbi และ #powerbihelp เพื่อให้บุคคลทีรู้เรื่องนี้เห็นทวิตของคุณ

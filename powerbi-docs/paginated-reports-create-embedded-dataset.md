@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
 ms.author: maggies
-ms.openlocfilehash: 827a7acd24ead0c4948a09f2e67b53c3966769bb
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 1689d7382c0f3bf7406a4a44ffeab53e6bc59197
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900439"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281079"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>สร้างชุดข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
 ในบทความนี้ คุณจะได้เรียนรู้วิธีการสร้างชุดข้อมูลแบบฝังตัว โดยอ้างอิงจากแหล่งข้อมูลแบบฝังตัว สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI ชุดข้อมูลแบบฝังตัวนั้นอยู่ในรายงานแบบแบ่งหน้าแต่ละอัน สำหรับใช้ในรายงานนั้นๆ ในตอนนี้ รายงานแบบแบ่งหน้าที่เผยแพร่ไปยังบริการของ Power BI ต้องใช้ชุดข้อมูลแบบฝังตัวและแหล่งข้อมูลแบบฝังตัว คุณอาจสร้างแหล่งข้อมูลแบบฝังตัวและชุดข้อมูลได้ในตัวสร้างรายงาน ขณะที่คุณสร้างรายงาน 

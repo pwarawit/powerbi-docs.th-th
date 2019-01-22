@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3ef719f85690297cd523a6fefb7f0ba5f77c9199
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 0ad902fc08592addb234517af99faedf1851503a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717619"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280961"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>จัดการความจุภายใน Power BI Premium และ Power BI Embedded
 
@@ -42,9 +42,9 @@ ms.locfileid: "51717619"
 
 เมื่อต้องใช้ประโยชน์จากความจุเฉพาะ คุณต้องซื้อ Power BI Premium ภายในศูนย์การจัดการ Office 365 หรือสร้างทรัพยากร Power BI Embedded ภายในพอร์ทัล Microsoft Azure สำหรับข้อมูลเพิ่มเติม ให้ดูบทความต่อไปนี้:
 
-* **Power BI Premium:** [วิธีซื้อ Power BI Premium](service-admin-premium-purchase.md)
+* **Power BI Premium:** [วิธีการซื้อ Power BI Premium](service-admin-premium-purchase.md)
 
-* **Power BI Embedded** [ความจุสร้าง Power BI Embedded ในพอร์ทัล Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
+* **Power BI แบบฝังตัว:** [สร้างความจุ Power BI แบบฝังตัวในพอร์ทัล Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
 
 เมื่อคุณซื้อ SKU ของ Power BI Premium หรือ Embedded ผู้เช่าของคุณจะได้รับหมายเลขที่สอดคล้องกันของ v-cores สำหรับใช้ในการทำงานความจุ ตัวอย่างเช่น การซื้อ Power BI Premium P3 SKU มีผู้เช่าที่มี 32 v-cores สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ SKU ให้ดู [โหนดควมจุระดับ Premium](service-premium.md#premium-capacity-nodes)
 
@@ -56,7 +56,7 @@ ms.locfileid: "51717619"
 
 ## <a name="configure-workloads"></a>กำหนดค่าปริมาณงาน
 
-ตามค่าเริ่มต้นแล้ว ความจุสำหรับ Power BI Premium และ Power BI Embedded จะรองรับเฉพาะปริมาณงานที่เชื่อมโยงกับการเรียกใช้คิวรี Power BI ในระบบคลาวด์เท่านั้น แต่ในตอนนี้เรามีส่วนสนับสนุนตัวอย่างสำหรับปริมาณงานเพิ่มเติมสองตัว: **รายงานแบบแบ่งหน้า** และ **กระแสข้อมูล** สามารถดูข้อมูลเพิ่มเติมได้ที่ [ปริมาณงานในความจุพรีเมียม](service-premium.md#workloads-in-premium-capacity)
+ตามค่าเริ่มต้นแล้ว ความจุสำหรับ Power BI Premium และ Power BI Embedded จะรองรับเฉพาะปริมาณงานที่เชื่อมโยงกับการเรียกใช้คิวรี Power BI ในระบบคลาวด์เท่านั้น แต่ในตอนนี้เรามีส่วนสนับสนุนการแสดงตัวอย่างสำหรับปริมาณงานเพิ่มเติมสองตัว: **รายงานแบบแบ่งหน้า** และ **กระแสข้อมูล** สามารถดูข้อมูลเพิ่มเติมได้ที่ [ปริมาณงานในความจุพรีเมียม](service-premium.md#workloads-in-premium-capacity)
 
 หากต้องการเปิดใช้ปริมาณงานในพอร์ทัลผู้ดูแลระบบของ Power BI ให้ปฎิบัติตามขั้นตอนต่อไปนี้
 

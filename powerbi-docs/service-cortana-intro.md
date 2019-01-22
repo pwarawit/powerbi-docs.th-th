@@ -4,17 +4,17 @@ description: ใช้ Cortana กับ Power BI เพื่อรับคำ
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ccc99c2f9810bcda80e1f02ce67e49390fd0308f
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: bcd07bb0cb53ea4818195e15c1492a27f424cf38
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003259"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292612"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>ค้นหาและดูข้อมูล Power BI ของคุณได้อย่างรวดเร็วโดยใช้ Cortana สำหรับ Power BI
 ใช้ Cortana ในทุกอุปกรณ์ Windows 10 ของคุณเพื่อให้ได้คำตอบสำหรับคำถามทางธุรกิจที่สำคัญของคุณทันที โดยการรวม Cortana กับ Power BI ทำให้สามารถดึงข้อมูลที่สำคัญได้โดยตรงจากแดชบอร์ดและรายงาน Power BI สิ่งที่ต้องใช้คือ Windows 10 เวอร์ชั่นพฤศจิกายน ปี 2015 หรือเวอร์ชั่นใหม่กว่า Cortana, Power BI และสิทธิ์การเข้าถึงอย่างน้อยหนึ่งชุดข้อมูล
@@ -38,11 +38,11 @@ ms.locfileid: "50003259"
 
 **บทความ 1** (บทความนี้): ทำความเข้าใจวิธีการที่ Cortana และ Power BI ทำงานร่วมกัน
 
-**บทความ 2**:[ค้นหารายงาน Power BI: เปิดใช้งานการทำงานร่วมกันระหว่าง Cortana - Power BI - Windows](service-cortana-enable.md)
+**บทความ 2**:[ค้นหารายงาน Power BI: เปิดใช้งานการรวม Cortana - Power BI - Windows สำหรับรายงาน](service-cortana-enable.md)
 
 **บทความ 3**: [ค้นหารายงาน Power BI: สร้าง*บัตรคำตอบ Cortana*](service-cortana-answer-cards.md) พิเศษ
 
-**บทความ 4**:[แก้ไขปัญหา](service-cortana-troubleshoot.md)
+**บทความ 4**: [แก้ไขปัญหา](service-cortana-troubleshoot.md)
 
 ## <a name="how-do-cortana-and-power-bi-work-together"></a>Cortana และ Power BI ทำงานร่วมกันอย่างไร?
 เมื่อคุณใช้ Cortana เพื่อถามคำถาม Power BI สามารถเป็นหนึ่งในตำแหน่งที่ Cortana ค้นหาคำตอบ ใน Power BI, Cortana สามารถค้นหาคำตอบที่เต็มไปด้วยข้อมูลจากรายงาน Power BI (ที่ประกอบด้วยหน้ารายงานชนิดพิเศษที่เรียกว่า *บัตรคำตอบ Cortana*) และจากแดชบอร์ด Power BI ได้

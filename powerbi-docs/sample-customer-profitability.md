@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: a47a63311dd28f2f1f313bc0a5cfcd68cdb0401b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3dd4f5f0404737685757400202d3a92767e44189
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717987"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280849"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>ตัวอย่างความสามารถในการทำกำไรลูกค้าสำหรับ Power BI: ชมการแนะนำ
 
@@ -195,7 +195,7 @@ ms.locfileid: "51717987"
 
 คุณยังสามารถ[ดาวน์โหลดเพียงชุดข้อมูล (เวิร์กบุ๊ก Excel) สำหรับตัวอย่างนี้](http://go.microsoft.com/fwlink/?LinkId=529781)ได้
 
-## <a name="next-steps-connect-to-your-data"></a>ขั้นตอนถัดไป: เชื่อมต่อกับข้อมูลของคุณ
+## <a name="next-steps-connect-to-your-data"></a>ขั้นตอนถัดไป: เชื่อมต่อไปยังข้อมูลของคุณ
 เราหวังว่าการแนะนำนี้ ได้แสดงให้เห็นว่าแดชบอร์ด, Q&A และรายงาน Power BI สามารถให้ข้อมูลเชิงลึกในข้อมูลของลูกค้า ตอนนี้ถึงตาคุณแล้ว — ลองเชื่อมต่อกับข้อมูลของคุณเอง ด้วย Power BI คุณสามารถเชื่อมต่อกับแหล่งข้อมูลที่หลากหลาย เรียนรู้เพิ่มเติมเกี่ยวกับ[เริ่มต้นใช้งาน Power BI](service-get-started.md)
 
 [กลับไปยังตัวอย่างใน Power BI](sample-datasets.md)  

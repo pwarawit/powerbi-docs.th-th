@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
-ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
+ms.openlocfilehash: d48df3287813229e673bbc523281cdb2218ec384
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53649056"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277284"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับที่เก็บกระแสข้อมูล (ตัวอย่าง)
 
@@ -76,7 +76,7 @@ ms.locfileid: "53649056"
 
 คุณต้องสร้างไฟล์ระบบชื่อว่า*powerbi*ก่อนที่บัญชีเก็บข้อมูลของคุณ จะสามารถเพิ่มเข้าไปยัง Power BI ได้ มีหลายวิธีในการสร้างไฟล์ระบบดังกล่าว รวมถึงการใช้ Azure Databricks, HDInsight, AZCopy หรือ Azure Storage Explorer ส่วนนี้แสดงวิธีการสร้างแฟ้มระบบโดยใช้ Azure Storage Explorer อย่างง่าย
 
-ขั้นตอนนี้จำเป็นต้องให้คุณต้องติดตั้ง Azure Storage Explorer เวอร์ชัน 1.6.1 หรือสูงกว่า เมื่อต้องการติดตั้ง Azure Storage Explorer สำหรับ Windows, Macintosh หรือ Linux ให้ดูที่[Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/)
+ขั้นตอนนี้จำเป็นให้คุณต้องติดตั้ง Azure Storage Explorer เวอร์ชัน 1.6.2 หรือสูงกว่า เมื่อต้องการติดตั้ง Azure Storage Explorer สำหรับ Windows, Macintosh หรือ Linux ให้ดูที่[Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/)
 
 1. เมื่อคุณสำเร็จการติดตั้ง Azure Storage Explorer เรียบร้อยแล้ว ในการเปิดใช้งานครั้งแรกระบบจะมีการแสดหน้าต่างการเชื่อมต่อ Azure Microsoft Explorer ขึ้นมาให้เห็น แม้ว่า Storage Explorer จะมีหลายวิธีในการเชื่อมต่อเข้ากับบัญชีเก็บข้อมูล แต่ในขณะนี้มีเพียงวิธีเดียวเท่านั้นที่สามารถใช้ได้กับการติดตั้งตามที่กำหนด 
 
