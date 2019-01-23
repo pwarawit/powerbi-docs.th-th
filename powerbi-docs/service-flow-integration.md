@@ -1,7 +1,7 @@
 ---
 title: การรวม Power BI ด้วย Microsoft Flow
 description: เรียนรู้วิธีสร้างโฟลวที่์ถูกทริกเกอร์ ด้วยการแจ้งเตือนข้อมูล Power BI
-author: mihart
+author: mgblythe
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 2d73710b9fc41a8cb6a3d8287dc939323d71f7dd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f39912f5813f67ed65afde10a0e157385e98b7b7
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289819"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406626"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow และ Power BI
 
@@ -110,7 +110,7 @@ ms.locfileid: "54289819"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [เริ่มต้นใช้งาน Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)
 * [ตั้งค่าการแจ้งเตือนข้อมูลใน Power BI service](service-set-data-alerts.md)
-* [ตั้งค่าการแจ้งเตือนข้อมูลบน iphone ของคุณ](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* [ตั้งค่าการแจ้งเตือนข้อมูลในแอป mobile Power BI สำหรับ Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [ตั้งค่าการแจ้งเตือนข้อมูลบน iPhone ของคุณ](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

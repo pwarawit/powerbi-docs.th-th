@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 4b8cd79eca1711b424d772737b27400f9291cef0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4d121a469257c79e37212ab0e357bb9ee8be68ec
+ms.sourcegitcommit: 19b4d45db8f55cdbb5d7de0d61f6be5163a2852e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279216"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54420797"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>เริ่มต้นใช้งานด่วน: เชื่อมต่อกับข้อมูลใน Power BI Desktop
 
@@ -39,13 +39,13 @@ ms.locfileid: "54279216"
 
 ## <a name="connect-to-data"></a>เชื่อมต่อกับข้อมูล
 
-ด้วย **Power BI Desktop** คุณสามารถเชื่อมต่อกับข้อมูลชนิดต่าง ๆ กันได้หลายชนิด คุณสามารถเชื่อมต่อกับแหล่งข้อมูลพื้นฐาน เช่น ไฟล์ Microsoft Excel และคุณสามารถเชื่อมต่อกับบริการออนไลน์ที่ประกอบด้วยข้อมูลที่หลากหลาย เช่น Salesforce, Microsoft Dynamics, Azure Blob Storage และอีกมากมาย 
+ด้วย **Power BI Desktop** คุณสามารถเชื่อมต่อกับข้อมูลชนิดต่าง ๆ กันได้หลายชนิด คุณสามารถเชื่อมต่อกับแหล่งข้อมูลพื้นฐาน เช่น ไฟล์ Microsoft Excel และคุณสามารถเชื่อมต่อกับบริการออนไลน์ที่ประกอบด้วยข้อมูลที่หลากหลาย เช่น Salesforce, Microsoft Dynamics, Azure Blob Storage และอีกมากมาย
 
 เพื่อเชื่อมต่อกับข้อมูล ไปที่ ribbon **หน้าแรก** และเลือก**รับข้อมูล**
 
 ![รับข้อมูล](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
-หน้าต่าง**รับข้อมูล**จะปรากฏขึ้น ซึ่งคุณสามารถเลือกจากแหล่งข้อมูลต่าง ๆ มากมายที่ **Power BI Desktop** สามารถเชื่อมต่อได้ ในเริ่มต้นใช้งานด่วนนี้ เราจะใช้เวิร์กบุ๊ก Excel ที่คุณได้ดาวน์โหลด ไว้ในส่วน*ข้อกำหนดเบื้องต้น* ที่จุดเริ่มต้นของบทความนี้ 
+หน้าต่าง**รับข้อมูล**จะปรากฏขึ้น ซึ่งคุณสามารถเลือกจากแหล่งข้อมูลต่าง ๆ มากมายที่ **Power BI Desktop** สามารถเชื่อมต่อได้ ในเริ่มต้นใช้งานด่วนนี้ เราจะใช้เวิร์กบุ๊ก Excel ที่คุณได้ดาวน์โหลด ไว้ในส่วน*ข้อกำหนดเบื้องต้น* ที่จุดเริ่มต้นของบทความนี้
 
 ![รับข้อมูล](media/desktop-quickstart-connect-to-data/qs-connect-data_03.png)
 
@@ -69,10 +69,8 @@ ms.locfileid: "54279216"
 
 เท่านี้ก็เรียบร้อย! คุณได้เชื่อมต่อกับข้อมูลใน **Power BI Desktop** โหลดข้อมูลนั้น และตอนนี้ คุณเห็นเขตข้อมูลทั้งหมดที่มีในตารางเหล่านั้น
 
-
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
+
 คุณสามารถทำอะไรได้มากมายด้วย **Power BI Desktop** เมื่อคุณเชื่อมต่อกับข้อมูลแล้ว เช่น การสร้างวิชวลและรายงาน ลองดูที่ทรัพยากรต่อไปนี้เพื่อช่วยคุณเริ่มต้น:
 
 * [คำแนะนำเริ่มต้นใช้งานสำหรับ Power BI Desktop](desktop-getting-started.md)
-
-

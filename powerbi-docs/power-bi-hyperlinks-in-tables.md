@@ -1,22 +1,22 @@
 ---
 title: เพิ่มไฮเปอร์ลิงก์ลงในตาราง
 description: ใช้ Power BI Desktop เพื่อสร้างไฮเปอร์ลิงก์ จากนั้น ใช้บริการ Desktop หรือ Power BI เพื่อเพิ่มไฮเปอร์ลิงก์เหล่านั้นไปยังรายงานตารางและเมทริกซ์ของคุณ
-author: mihart
-manager: kvivek
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
-ms.author: mihart
+ms.date: 01/16/2019
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 637253e3cffebcba7df0a3bc3ce44e943b909364
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 972abb3781cbaaff8a9617b70988c21f7389d4f9
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279906"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406672"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>เพิ่มไฮเปอร์ลิงก์ลงในตาราง
 หัวข้อนี้สอนวิธีการใช้ Power BI Desktop เพื่อสร้างไฮเปอร์ลิงก์ จากนั้น ใช้บริการ Desktop หรือ Power BI เพื่อเพิ่มไฮเปอร์ลิงก์เหล่านั้นไปยังรายงานตารางและเมทริกซ์ของคุณ 
@@ -25,7 +25,6 @@ ms.locfileid: "54279906"
 
 > [!NOTE]
 > ไฮเปอร์ลิงก์ใน [ไทล์บนแดชบอร์ด](service-dashboard-edit-tile.md) และ [กล่องข้อความบนแดชบอร์ด](service-dashboard-add-widget.md) สามารถสร้างขึ้นในทันทีโดยใช้บริการ Power BI ไฮเปอร์ลิงก์ใน[กล่องข้อความในรายงาน](service-add-hyperlink-to-text-box.md)สามารถสร้างขึ้นในทันทีโดยใช้บริการ Power BI และ Power BI Desktop ได้
-> 
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>เมื่อต้องสร้างไฮเปอร์ลิงก์ในตารางหรือเมทริกซ์โดยใช้ Power BI Desktop
@@ -56,7 +55,7 @@ ms.locfileid: "54279906"
 6. (เป็นทางเลือก) [เผยแพร่รายงานจากเดสก์ท็อปไปยังบริการ Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2)และเปิดรายงานในบริการ Power BI ไฮเปอร์ลิงก์จะทำงานตรงนั้นได้เช่นกัน
 
 ### <a name="for-data-connected-with-directquery"></a>สำหรับข้อมูลที่เชื่อมโยงกับ DirectQuery
-คุณจะไม่สามารถสร้างคอลัมน์ใหม่ในโหมด DirectQuery ได้  แต่ถ้าข้อมูลของคุณมี URL อยู่แล้ว คุณสามารถทำให้ URL เหล่านั้นเป็นไฮเปอร์ลิงก์ได้
+คุณไม่สามารถสร้างคอลัมน์ใหม่ในโหมด DirectQuery ได้  แต่ถ้าข้อมูลของคุณมี URL อยู่แล้ว คุณสามารถทำให้ URL เหล่านั้นเป็นไฮเปอร์ลิงก์ได้
 
 1. ในมุมมองรายงาน สร้างตารางโดยใช้เขตข้อมูลที่ประกอบด้วย URL
 2. เลือกคอลัมน์ดังกล่าว และที่แถบ**การสร้างแบบจำลอง** เลือกรายการแบบเลื่อนลงสำหรับ**ประเภทข้อมูล**

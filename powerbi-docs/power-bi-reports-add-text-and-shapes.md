@@ -1,24 +1,24 @@
 ---
 title: กล่องข้อความและรูปร่างในรายงาน Power BI
 description: เอกสารประกอบเกี่ยวกับการเพิ่มและสร้างกล่องข้อความ และรูปร่างในรายงานโดยใช้ Microsoft Power BI service
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/22/2018
-ms.author: mihart
+ms.date: 01/16/2019
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 937e15f5cd56f7c720afa945598f9fc1641468f7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: cf5cecc8df5c1e6c3057cab6eb41e40e934b1510
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295546"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406557"
 ---
-# <a name="static-content-in-power-bi-reports"></a>เนื้อหาคงที่ในรายงาน Power BI
+# <a name="text-boxes-and-shapes-power-bi-reports"></a>กล่องข้อความและรูปร่างในรายงาน Power BI
 สามารถเพิ่มกล่องข้อความและรูปร่าง ลงในรายงานโดยใช้บริการ Power BI service และ Power BI Desktop ในทั้งสองกรณี คุณต้องแก้ไขสิทธิ์สำหรับรายงาน ถ้ารายงานมีการแชร์ให้กับคุณในบริการของ Power BI คุณจะไม่ได้สิทธิ์การแก้ไข 
 
 Watch Will ใช้ Power BI Desktop เพื่อ[เพิ่มรูปภาพแบบคงที่ไปยังรายงาน](guided-learning/visualizations.yml?tutorial-step=11)แล้ว ทำตามขั้นตอนด้านล่างเพื่อลองใช้ Power BI service แทน

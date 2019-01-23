@@ -1,25 +1,25 @@
 ---
 title: เพิ่มการเชื่อมโยงหลายมิติไปยังกล่องข้อความในรายงาน
 description: เพิ่มการเชื่อมโยงหลายมิติไปยังกล่องข้อความในบริการของ Power BI และ Desktop
-author: mihart
-manager: kvivek
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/23/2018
-ms.author: mihart
+ms.date: 01/16/2019
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b438b9d9e66d336b94122fe96a707f0602261b4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6484046f6c69f47e01e14b56c38c4c9a5871b28b
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278030"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406603"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>เพิ่มการเชื่อมโยงหลายมิติไปยังกล่องข้อความในรายงาน
-คุณสามารถเพิ่มกล่องข้อความลงในรายงาน ปักหมุดลงในแดชบอร์ดจากรายงาน และเพิ่มไปยังแดชบอร์ดโดยตรงได้ คุณสามารถเพิ่มการเชื่อมโยงหลายมิติไปยังกล่องข้อความไม่ว่าจะอยู่ส่วนใดก็ตามก็ได้  
+คุณสามารถเพิ่มกล่องข้อความลงในรายงาน ปักหมุดลงในแดชบอร์ดจากรายงาน และเพิ่มไปยังแดชบอร์ดโดยตรงได้ ไม่ว่ากล่องข้อความจะอยู่ที่ไหนคุณสามารถเพิ่มการเชื่อมโยงหลายมิติไปยังกล่องข้อความได้เสมอ  
 
 > **หมายเหตุ**: สำหรับข้อมูลเกี่ยวกับการเชื่อมโยงหลายมิติในตารางและเมทริกซ์ของ Power BI โปรดดู[การเชื่อมโยงหลายมิติในตาราง](power-bi-hyperlinks-in-tables.md) สำหรับข้อมูลเกี่ยวกับการเพิ่มกล่องข้อความลงใน**แดชบอร์ดของคุณ** โปรดดู[เพิ่มไทล์โดยตรงจากแดชบอร์ด](service-dashboard-add-widget.md) 
 > 
@@ -30,26 +30,26 @@ ms.locfileid: "54278030"
 
 ## <a name="to-add-a-hyperlink-to-a-text-box-in-a-report"></a>เมื่อต้องการเพิ่มการเชื่อมโยงหลายมิติไปยังกล่องข้อความในรายงาน
 1. [สร้างกล่องข้อความ แล้วเพิ่มข้อความบางอย่าง](power-bi-reports-add-text-and-shapes.md) 
-2. เน้นข้อความที่มีอยู่ หรือเพิ่มข้อความใหม่ เพื่อใช้เป็นการเชื่อมโยงหลายมิติ
+2. เลือกข้อความที่มีอยู่ หรือเพิ่มข้อความใหม่ เพื่อใช้เป็นการเชื่อมโยงหลายมิติ
    
-   ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-new.png)
-3. เลือกไอคอนการเชื่อมโยงหลายมิติ  ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png)
+   ![เลือกข้อความในกล่องข้อความ](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-new.png)
+3. เลือกไอคอนการเชื่อมโยงหลายมิติ ![ไฮเปอร์ลิงก์ไอคอน](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png).
 4. พิมพ์ หรือวาง URL ลงในเขตข้อมูลการเชื่อมโยงหลายมิติ แล้วเลือก**เสร็จสิ้น**
    
-   ![](media/service-add-hyperlink-to-text-box/power-bi-add-link.png)
+   ![พิมพ์ หรือวาง URL ลงในเขตข้อมูลการเชื่อมโยงหลายมิติ](media/service-add-hyperlink-to-text-box/power-bi-add-link.png)
 5. ทดสอบลิงก์  
    
-   ![](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
+   ![ทดสอบลิงก์](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
    
    * วางเคอร์เซอร์ของคุณบนส่วนใดส่วนหนึ่งของข้อความที่เน้น เพื่อแสดง URL  
      
-      ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
+      ![วางเคอร์เซอร์ของคุณบนส่วนใดส่วนหนึ่งของข้อความที่เน้น](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
    * เลือก URL ที่จะเปิดหน้าในหน้าต่างเบราว์เซอร์ใหม่
 
 ## <a name="to-remove-the-hyperlink-but-leave-the-text"></a>เมื่อต้องการนำการเชื่อมโยงหลายมิติออก แต่ให้ข้อความยังคงไว้ตามเดิม
 1. ในกล่องข้อความ ให้เลือกการเชื่อมโยงหลายมิติที่จะเน้นข้อความ
    
-     ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-remove.png)
+     ![นำการเชื่อมโยงหลายมิติออก](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-remove.png)
 2. เลือก**นำออก** 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
