@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32a052ca009c613b262d5277a0fd85b186c8e148
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406764"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488925"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
@@ -197,7 +197,7 @@ ms.locfileid: "54406764"
 ***การรักษาความปลอดภัยระดับแถว (RLS)***
 
 * การสนับสนุนกลุ่ม Azure Active Directory (AAD): ขณะนี้ผู้ใช้สามารถกำหนดกลุ่ม AAD (กลุ่มความปลอดภัยและรายการแจกจ่าย) ให้กับบทบาทหนึ่งได้ ซึ่งทำให้ง่ายต่อการกำหนดบทบาทให้กับกลุ่มผู้ใช้จำนวนมากในครั้งเดียวได้
-* [ทดสอบบทบาท RLS ของคุณ ด้วยรายงานที่สำรองข้อมูลไว้ด้วย RLS ภายใน](service-admin-rls.md#validating-the-role-within-power-bi-desktop): เราได้เพิ่มคุณลักษณะการแสดงตัวอย่าง RLS ของเราที่ช่วยให้คุณทดสอบชุดข้อมูลในบทบาทเฉพาะ ซึ่งนี่จะทำให้แน่ใจว่าบทบาทดังกล่าวทำงานตามที่คุณคาดหมายก่อนที่ผู้ใช้ต่าง ๆ จะเข้าใช้งานแดชบอร์ดของคุณ
+* [ทดสอบบทบาท RLS ของคุณ ด้วยรายงานที่สำรองข้อมูลไว้ด้วย RLS ภายใน](service-admin-rls.md#validate-the-roles-within-power-bi-desktop): เราได้เพิ่มคุณลักษณะการแสดงตัวอย่าง RLS ของเราที่ช่วยให้คุณทดสอบชุดข้อมูลในบทบาทเฉพาะ ซึ่งนี่จะทำให้แน่ใจว่าบทบาทดังกล่าวทำงานตามที่คุณคาดหมายก่อนที่ผู้ใช้ต่าง ๆ จะเข้าใช้งานแดชบอร์ดของคุณ
 * กำหนดและปรับใช้ RLS เข้ากับโมเดลคลาวด์ตามคิวรีโดยตรง: ตอนนี้คุณสามารถสร้างและปรับใช้กฎ RLS สำหรับแหล่งข้อมูลคิวรีโดยตรง
 
 ***แดชบอร์ด***
