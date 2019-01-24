@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fa76b19e187f7a27dc8b9268dad4d9b5ab8f101
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f7e8d58e5fd738e5da678723ef239f5303be5070
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286392"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838473"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>บทนำชุดเนื้อหาองค์กรใน Power BI
 > [!NOTE]
@@ -41,8 +41,6 @@ ms.locfileid: "54286392"
 การเผยแพร่ชุดเนื้อหาองค์กรที่เพิ่มไปยัง AppSource  ขั้นตอนนี้ทำให้ที่เก็บเป็นศูนย์กลางสำหรับสมาชิกต่าง ๆ เพื่อเรียกดูและค้นหาแดชบอร์ด รายงาน และชุดข้อมูลที่เผยแพร่สำหรับพวกเขาได้  
 
 * การดู AppSource เลือก**รับข้อมูล** > **องค์กรของฉัน** > **รับ**
-
-อ่านเพิ่มเติมเกี่ยวกับ[การค้นหาและการเปิดชุดเนื้อหาองค์กร](consumer/end-user-content-pack.md)
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>วงจรชีวิตของชุดเนื้อหาองค์กร
 ผู้ใช้ Power BI Pro สามารถสร้าง เผยแพร่ และเข้าใช้งานชุดเนื้อหาองค์กรได้ เฉพาะผู้สร้างชุดเนื้อหาเท่านั้นที่สามารถปรับเปลี่ยนเวิร์กบุ๊กและชุดข้อมูล กำหนดการรีเฟรช และลบชุดเนื้อหาได้
