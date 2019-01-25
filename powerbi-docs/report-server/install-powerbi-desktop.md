@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 01/14/2019
 ms.author: maggies
-ms.openlocfilehash: 943e81c8c49a4a0707ed41b593093fc27a85a01e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1f7da83629b932d2e14fbc57682e0f7f7988739a
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295892"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488833"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
 เรียนรู้วิธีติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
@@ -31,7 +31,7 @@ ms.locfileid: "54295892"
 
     ![ดาวน์โหลด Power BI Desktop จากพอร์ทัลของเว็บ](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    หรือคุณสามารถไปที่ [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (ที่ถูกปรับให้เหมาะกับเซิร์ฟเวอร์รายงาน Power BI - สิงหาคม 2018) ในศูนย์ดาวน์โหลด Microsoft ได้โดยตรง
+    หรือไปที่ [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (ที่ปรับให้เหมาะกับเซิร์ฟเวอร์รายงาน Power BI - มกราคม 2019) ในศูนย์ดาวน์โหลดของ Microsoft โดยตรง
 
 2. ในหน้าศูนย์ดาวน์โหลด เลือก**ดาวน์โหลด**
 
@@ -41,7 +41,7 @@ ms.locfileid: "54295892"
 
     - **PBIDesktopRS_x64.msi** (เวอร์ชัน 64 บิต)
 
-1. หลังจากที่คุณดาวน์โหลดตัวติดตั้งแล้ว ให้เรียกใช้ตัวช่วยติดตั้ง Power BI Desktop (สิงหาคม 2018)
+1. หลังจากที่คุณดาวน์โหลดตัวติดตั้งแล้ว ให้เรียกใช้ตัวช่วยติดตั้ง Power BI Desktop (มกราคม 2019)
 
 2. ในตอนท้ายของการติดตั้ง ทำเครื่องหมายที่**เริ่มต้น Power BI Desktop ทันที**
    
