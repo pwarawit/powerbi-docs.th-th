@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 01/21/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e741076bf345f093e249b398995a72a683ae84d6
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 0b423310e88917c910d44f15247bbaec49732f2c
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394802"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838335"
 ---
 # <a name="apps-in-power-bi"></a>แอปใน Power BI
 ## <a name="what-is-a-power-bi-app"></a>แอป Power BI คืออะไร?
@@ -26,12 +26,14 @@ ms.locfileid: "54394802"
 
 ![แอปใน Power BI](./media/end-user-apps/power-bi-apps-nav.png)
 
+> [!NOTE]
+> การใช้ฟีเจอร์แอปจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro <!-- add link to how to figure out your license -->
+
 ## <a name="app-designers-and-app-consumers"></a>***นักออกแบบ***แอป และ***ผู้บริโภค***แอป
 คุณอาจเป็นผู้ที่สร้างแอป (นักออกแบบ) เพื่อใช้งานด้วยตนเอง หรือเพื่อแชร์กับเพื่อนร่วมงาน ทั้งนีี้ขึ้นอยู่กับบทบาทของคุณ หรือคุณอาจเป็นคนที่รับและดาวน์โหลดแอป (สำหรับผู้บริโภค) ที่สร้างโดยผู้อื่น บทความนี้เหมาะสำหรับ*ลูกค้า*ของคุณ!
 
 ## <a name="advantages-of-apps"></a>ข้อดีของแอป
 สามารถหาแอปจากในบริการของ Power BI ([https://powerbi.com](https://powerbi.com)) และจากอุปกรณ์มือถือของคุณและติดตั้งได้ง่ายๆ หลังจากที่คุณติดตั้งแอป คุณไม่จำเป็นต้องจำชื่อของแดชบอร์ดต่างๆ มากมายเนื่องจากแดชบอร์ดมารวมกันในหนึ่งแอป ในเบราว์เซอร์ของคุณ หรือบนอุปกรณ์เคลื่อนที่ของคุณ
-
 
 ด้วยแอป เมื่อใดก็ตามที่ผู้สร้างแอปออกการอัปเดต คุณเห็นการเปลี่ยนแปลงโดยอัตโนมัติ ผู้เขียนยังควบคุมความถของการรีเฟรชข้อมูล ดังนั้นคุณไม่จำเป็นต้องกังวลเกี่ยวกับการทำให้ล่าสุด 
 
