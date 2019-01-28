@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 4bc704eb5aeb2bf6da18a43a6d4502b5541ce249
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287910"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899261"
 ---
 # <a name="on-premises-data-gateway"></a>เกตเวย์ข้อมูลภายในองค์กร
 
@@ -96,7 +96,9 @@ ms.locfileid: "54287910"
 
 ## <a name="tenant-level-administration"></a>การดูแลระบบระดับผู้เช่า
 
-ขณะนี้ยังไม่ที่ที่ให้ผู้ดูแลผู้เช่า สามารถจัดการเกตเวย์ทั้งหมดที่ผู้ใช้อื่นได้ติดตั้งและกำหนดค่าในที่เดียว  ถ้าคุณเป็นผู้ดูแลระบบผู้เช่า เราขอแนะนำให้คุณขอให้ผู้ใช้ในองค์กรของคุณ เพิ่มคุณเป็นผู้ดูแลระบบในทุกเกตเวย์ที่พวกเขาติดตั้ง ซึ่งช่วยให้คุณสามารถจัดการเกตเวย์ทั้งหมดในองค์กรของคุณผ่านทางหน้าการตั้งค่าเกตเวย์ หรือผ่านทาง[คำสั่ง PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters) 
+ในฐานะผู้ดูแลระบบผู้เช่า คุณสามารถดูเกตเวย์ข้อมูลภายในองค์กรทั้งหมดที่ติดตั้งภายในผู้เช่าของคุณและจัดการเกตเวย์เหล่านั้น ขณะนี้ความสามารถนี้อยู่ในการแสดงตัวอย่างแบบสาธารณะ สำหรับข้อมูลเพิ่มเติม ดูท [ี่เอกสารศูนย์การดูแลระบบแพลตฟอร์ม Power](/power-platform/admin/onpremises-data-gateway-management)
+
+หรือหากคุณเป็นผู้ดูแลระบบผู้เช่า เราขอแนะนำให้คุณขอให้ผู้ใช้ในองค์กรของคุณเพิ่มคุณเป็นผู้ดูแลระบบสำหรับทุกเกตเวย์ที่ทำการติดตั้ง ซึ่งช่วยให้คุณสามารถจัดการเกตเวย์ทั้งหมดในองค์กรของคุณผ่านทางหน้าการตั้งค่าเกตเวย์ หรือผ่านทาง[คำสั่ง PowerShell](service-gateway-high-availability-clusters.md#powershell-support-for-gateway-clusters) 
 
 ## <a name="enabling-outbound-azure-connections"></a>การเปิดใช้งานการเชื่อมต่อ Azure ขาออก
 
