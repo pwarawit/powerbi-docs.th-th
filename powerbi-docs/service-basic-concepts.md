@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/18/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 487a67f48913ee774904377956eee85ccbae49fc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 29e6fe1bfb5a85d2a5ea42db406d4a127a65ec25
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296696"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147461"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI
 
@@ -223,7 +223,6 @@ ms.locfileid: "54296696"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 - [Power BI คืออะไร](power-bi-overview.md)  
-- [การนำทาง: สำรวจบริการ Power BI](service-the-new-power-bi-experience.md)
 - [วิดีโอ Power BI](videos.md)  
 - [ตัวแก้ไขรายงาน... ชมการแนะนำ](service-the-report-editor-take-a-tour.md)
 
