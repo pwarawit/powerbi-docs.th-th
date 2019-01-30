@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 13c2742325e0cf2714d759eb1fd21ce6bcfd0187
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 03a0e3cbd2a82c0d6741694c4389a8dcf4d207d9
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291222"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234266"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>มีอะไรใหม่ในการอัปเดต Power BI Desktop ล่าสุด 
 
@@ -39,7 +39,7 @@ ms.locfileid: "54291222"
 ### <a name="reporting"></a>การรายงาน
 
 * คู่มืออัจฉริยะสำหรับจัดแนวออบเจ็กต์บนหน้า [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=11) [[บทความ]](power-bi-reports-filters-and-highlighting.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
-* ArcGIS Maps สำหรับ Power BI อัปเดต [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=84) [[บทความ]](power-bi-visualization-arcgis.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* ArcGIS Maps สำหรับ Power BI อัปเดต [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=84) [[บทความ]](visuals/power-bi-visualization-arcgis.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
 * การสนับสนุนสำหรับการเข้าถึงรายการเขตข้อมูล [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=464) [[บทความ]](desktop-report-view.md#copy-and-paste-between-reports) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
 * ตั้งค่าลำดับแท็บสำหรับออบเจ็กต์บนหน้า [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=643) [[บทความ]](power-bi-reports-filters-and-highlighting.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
 * เคล็ดลับเครื่องมือสำหรับวิชวลปุ่ม [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=884) [[บทความ]](desktop-accessibility.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)
