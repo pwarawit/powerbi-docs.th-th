@@ -316,8 +316,8 @@ items:
         href: visuals/power-bi-map-tips-and-tricks.md
       - name: คุณสมบัติแกน x และแกน y ที่กำหนดด้วยตนเอง
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-      - name: แผนที่ ArcGIS ใน Power BI
-        href: power-bi-visualization-arcgis.md
+      - name: แผนที่ ArcGIS
+        href: visuals/power-bi-visualization-arcgis.md
       - name: แผนภูมิพื้นที่พื้นฐาน
         href: visuals/power-bi-visualization-basic-area-chart.md
       - name: การ์ด (ไทล์ตัวเลขขนาดใหญ่) ใน Power BI
@@ -1295,9 +1295,9 @@ items:
       href: service-admin-governance.md
     - name: ความปลอดภัยของ Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 6278920f313261f1e25d72093058fd61dbb13803
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 070efc5b3775b8d675e7f053094f108edabd3115
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147530"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234496"
