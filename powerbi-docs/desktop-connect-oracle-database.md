@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dc26d6de5ca22fdabfd80bd7ba1d9830e274f808
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 826338a5e5524bb54c2ebb2207a3d438a8d428b1
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284506"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899238"
 ---
 # <a name="connect-to-an-oracle-database"></a>เชื่อมต่อกับฐานข้อมูล Oracle
 เมื่อต้องการเชื่อมต่อกับฐานข้อมูล Oracle ด้วย**Power BI Desktop** ซอฟต์แวร์ไคลเอ็นต์ Oracle ที่ถูกต้องต้องติดตั้งบนคอมพิวเตอร์ที่ใช้งาน Power BI Desktop ซึ่งซอฟต์แวร์ไคลเอ็นต์ Oracle ที่คุณใช้ขึ้นอยู่กับเวอร์ชันของ Power BI Desktop ที่คุณได้ติดตั้ง เวอร์ชัน**32 บิต**หรือ**เวอร์ชัน 64 บิต**
@@ -51,3 +51,11 @@ ms.locfileid: "54284506"
 4. เมื่อมีป้อนข้อมูลของฐานข้อมูล Oracle ของคุณลงในกล่องโต้ตอบฐานข้อมูล Oracle (รวมถึงข้อมูลประกอบใดๆ เช่น SID หรือคิวรี่ฐานข้อมูลเนทีฟ) ให้เลือก**ตกลง**เพื่อเชื่อมต่อ
 5. ถ้าฐานข้อมูล Oracle ต้องใช้ข้อมูลประจำตัวผู้ใช้ฐานข้อมูล ให้ป้อนข้อมูลประจำตัวเหล่านั้นในกล่องโต้ตอบเมื่อได้รับการขอจากระบบ
 
+
+## <a name="troubleshooting"></a>การแก้ไขปัญหา
+
+ถ้าคุณดาวน์โหลด Power BI Desktop จาก Microsoft Store คุณอาจไม่สามารถเชื่อมต่อกับฐานข้อมูล Oracle เนื่องจากปัญหาโปรแกรมควบคุม Oracle ถ้าคุณพบปัญหานี้ ข้อความแสดงข้อผิดพลาดที่ส่งคืนคือ "ไม่ได้ตั้งค่าการอ้างอิงวัตถุ" เมื่อต้องแก้ไขปัญหา ให้ทำหนึ่งในข้อต่อไปนี้:
+
+* ดาวน์โหลด Power BI Desktop จาก https://powerbi.microsoft.com/desktop แทน
+
+* ถ้าคุณต้องการใช้เวอร์ชันจาก Microsoft Store: บนคอมพิวเตอร์ของคุณ ให้คัดลอก oraons.dll จาก_12.X.X\client_X_ลงใน_12.X.X\client_X\bin_ X แสดงหมายเลขเวอร์ชันและไดเรกทอรี

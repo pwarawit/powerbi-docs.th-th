@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: ed519f920fc872c8f13d5a10d59ce0f2f531f2fc
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488925"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147576"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
 ตรวจสอบหน้านี้สำหรับปัญหาที่ทราบแล้วและคุณลักษณะที่เผยแพร่ล่าสุดในการ**บริการ Power BI** สำหรับข้อมูล "มีอะไรใหม่" ที่เกี่ยวข้อง ดู:
 
+- [มีอะไรใหม่ในระบบธุรกิจอัจฉริยะที่เปิดตัวเมื่อ 18](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) ตุลาคม จาก Microsoft Business Applications Group: การอัปเดตล่าสุดสำหรับแอปพลิเคชันทางธุรกิจของเรา
 - [มีอะไรใหม่ใน Power BI Desktop](desktop-latest-update.md)  
 - [มีอะไรใหม่ในแอปอุปกรณ์เคลื่อนที่สำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [บล็อกของทีม Power BI](https://powerbi.microsoft.com/blog/)
-- [Business Applications Spring บันทึกย่อประจำรุ่น 18](http://aka.ms/businessappsreleasenotes) จาก Dynamics 365 การอัปเดตแอปพลิเคชันทางธุรกิจล่าสุดของเรา ตลอดจนความสามารถใหม่ ๆ สำหรับแอปพลิเคชันของคุณเองและส่วนขยายที่ด้านบนแพลตฟอร์มของเรา 
 
-นอกจากนี้ คุณยังสามารถตรวจสอบแชนแนล YouTube สำหรับข้อมูลเกี่ยวกับ "มีอะไรใหม่" และคุณลักษณะต่าง ๆ
+นอกจากนี้ยังสามารถตรวจสอบแชนแนล YouTube สำหรับข้อมูลเกี่ยวกับ "มีอะไรใหม่" และคุณลักษณะต่าง ๆ
 
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)

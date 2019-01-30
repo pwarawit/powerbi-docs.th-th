@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 04f67f82552f7915f8ca4fc6e639de3e616c2f8a
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295270"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147599"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>ใช้ Kerberos สำหรับลงชื่อเข้าใช้ครั้งเดียว (SSO) จาก Power BI ไปยังแหล่งข้อมูลภายในองค์กร
 
@@ -205,6 +205,9 @@ ms.locfileid: "54295270"
 คู่มือนี้จะพยายามครอบคลุมให้ได้มากที่สุด ถ้าคุณได้ทำขั้นตอนบางขั้นเสร็จสิ้นไปแล้ว คุณอาจข้ามขั้นตอนเหล่านั้นไปได้: ยกตัวอย่างเช่น คุณได้สร้างผู้ใช้ของบริการสำหรับเซิร์ฟเวอร์ BW และได้แมป SN ไว้แล้ว หรือคุณได้ติดตั้งไลบรารี gsskrb5 แล้ว
 
 ### <a name="setup-gsskrb5-on-client-machines-and-the-bw-server"></a>ตั้งค่า gsskrb5 ในเครื่องไคลเอ็นต์และเซิร์ฟเวอร์ BW
+
+> [!NOTE]
+> gsskrb5 ไม่ได้รับการสนับสนุนโดย SAP อีกต่อไป สำหรับข้อมูลเพิ่มเติม ให้ดู [SAP Note 352295](https://launchpad.support.sap.com/#/notes/352295) นอกจากนี้โปรดทราบว่า gsskrb5 ไม่อนุญาตการเชื่อมต่อ SSO จากเกตเวย์ข้อมูลไปยังเซิร์ฟเวอร์ข้อความ BW สามารถทำการเชื่อมต่อกับเซิร์ฟเวอร์แอปพลิเคชัน BW ได้เท่านั้น
 
 ต้องมีการใช้ gsskrb5 ทั้งในไคลเอ็นต์และในเซิร์ฟเวอร์เพื่อเสร็จสิ้นการเชื่อมต่อ SSO ผ่านเกตเวย์ Common Crypto Library (sapcrypto) ยังไม่รองรับในขณะนี้
 
