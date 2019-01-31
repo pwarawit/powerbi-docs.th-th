@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 3f2d0913095d61999bb85979770c69725b9f9b88
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b535e3cc42956818fce0c1c127fd775b6b4d4664
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283655"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431303"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>บทช่วยสอน: ฝังรายงาน Power BI, แดชบอร์ด หรือไทล์เข้าไปในแอปพลิเคชันสำหรับองค์กรของคุณ
 
@@ -32,7 +32,7 @@ ms.locfileid: "54283655"
 
 ก่อนเริ่ม คุณต้องมีบัญชี Power BI Pro และ เป็นสมาชิก Microsoft Azure:
 
-* หากคุณยังไม่ได้สมัคร Power BI Pro ให้ [สมัครทดลองใช้งานฟรี](https://powerbi.microsoft.com/en-us/pricing/) ก่อนที่คุณจะเริ่ม
+* หากคุณยังไม่ได้สมัคร Power BI Pro ให้ [สมัครทดลองใช้งานฟรี](https://powerbi.microsoft.com/pricing/) ก่อนที่คุณจะเริ่ม
 * ถ้าคุณยังไม่มีการสมัครใช้งาน Azure สร้าง[บัญชีฟรี](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)ก่อนที่คุณจะเริ่ม
 * ตั้งค่า [Azure Active Directory (Azure AD) ผู้เช่า](create-an-azure-active-directory-tenant.md) ของคุณ
 * ติดตั้ง [Visual Studio](https://www.visualstudio.com/) เวอร์ชัน 2013 หรือใหม่กว่า

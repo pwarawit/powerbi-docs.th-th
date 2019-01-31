@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 6590e442fc5f183213681dc7d10a7d91e87ac35b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a9827ccead960c789bb9c7b4c39dd15d86886207
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282393"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430935"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>บทช่วยสอน: การพัฒนาภาพที่กำหนดเองสำหรับ Power BI
 
@@ -37,7 +37,7 @@ ms.locfileid: "54282393"
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-* ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/en-us/pricing/)ก่อนที่คุณจะเริ่ม
+* ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/pricing/)ก่อนที่คุณจะเริ่ม
 * คุณต้องใช้[รหัส Visual Studio](https://www.visualstudio.com/)ที่ติดตั้งแล้ว
 * คุณจำเป็นต้องมี [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6)เวอร์ชัน 4 หรือใหม่กว่าสำหรับผู้ใช้ windows หรือ[เทอร์มินัล](https://macpaw.com/how-to/use-terminal-on-mac)สำหรับผู้ใช้ OSX
 

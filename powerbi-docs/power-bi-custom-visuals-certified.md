@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: 03b18d4d603b09d34dd3f99decc841c3bae934f4
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: ab8da0a7b1fb42158a399b5443bf737718e6a81f
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394841"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430429"
 ---
 # <a name="certified-custom-visuals"></a>วิชวลแบบกำหนดเองที่ได้รับการรับรอง
 
@@ -73,98 +73,98 @@ Microsoft สามารถลบวิชวลออกจาก [ราย�
 
 | ลิงก์ไปยัง AppSource | ลิงก์ไปยังวิดีโอ |
 | --- | --- |
-| [ระบบ 3AG - แผนภูมิคอลัมน์ที่มีความแปรปรวนแบบสัมพัทธ์](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381803) | |
-| [Advanced Donut Visual](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381941) | |
-| [Advanced Network Visualization](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381942) | |
-| [Advanced TimeSeries Visual](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381943) | |
-| [Advanced Combo Visual](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381944) | |
-| [Aster Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
-| [Beyondsoft Calendar](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381096) | |
-| [Bowtie Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380838) | [วิดีโอ](https://youtu.be/So5xKMSpVJI) |
-| [Box and Whisker chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380831) | |
-| [Box and Whisker chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381351) | [วิดีโอ](https://youtu.be/JoHaFLfhXdo) |
-| [Brick Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380836) | [วิดีโอ](https://youtu.be/hA3DOsvn2xY) |
-| [Bubble Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381340) | |
-| [Bullet Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380755) | [วิดีโอ](https://youtu.be/AOlsFYkfkcw) |
-| [Bullet Chart by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380953) | [วิดีโอ](https://youtu.be/mtvUNl9bMjA) |
-| [Calendar by Tallan](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381146) | |
-| [Candlestick by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380952) | [วิดีโอ](https://youtu.be/nT_18gyRxPo) |
-| [Card with States by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380967) | |
-| [Chiclet Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380756) | |
-| [Chord](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380761) | [วิดีโอ](https://youtu.be/AQvd2FhRyCI) |
-| [Circular Gauge by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380837) | [วิดีโอ](https://youtu.be/9NHXALkBXuY) |
-| [Cluster Map](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380806) | |
-| [Cylindrical Gauge by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380874) | [วิดีโอ](https://youtu.be/DgdoWi7Gcxo) |
-| [Dial Gauge](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381184) | |
-| [Dot Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760) | |
-| [Dot Plot by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380949) | [วิดีโอ](https://youtu.be/By16pX9KT40) |
-| [Drilldown Cartogram](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381045) | |
-| [Drilldown Choropleth](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381044) | |
-| [Drill-down column chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380857) | [วิดีโอ](https://youtu.be/lBy2gQQ5YsQ) |
-| [Drill-down column chart for time based data](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380881) | [วิดีโอ](https://youtu.be/T_mRou18vx0) |
-| [Drill-down donut chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380858) | [วิดีโอ](https://youtu.be/AUVFrSHmPeo) |
-| [Dual KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380774) | |
-| [Dynamic Tooltip by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380983) | [วิดีโอ](https://youtu.be/Z-tl97BpEr0) |
-| [Enhanced Scatter](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762) | [วิดีโอ](https://youtu.be/xCfM0cjM4do) |
-| [Enlighten Aquarium](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381112) | |
-| [Enlighten Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960) | |
-| [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
-| [Enlighten Waffle Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
-| [กรองตามรายการของ Devscope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381413) | [วิดีโอ](https://youtu.be/RetEWGwBu0I) |
-| [Force-Directed Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) | [วิดีโอ](https://youtu.be/YsTa7uyJ4sg) |
-| [Funnel with Source by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [วิดีโอ](https://youtu.be/R_EcimsLI8U) |
-| [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [วิดีโอ](https://youtu.be/qJ7s_KrGiUU) |
-| [Gantt Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381364) | [วิดีโอ](https://youtu.be/vJLV9JRCpI8) |
-| [Globe Data Bars](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381344) | |
-| [Grid by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380825) | [วิดีโอ](https://youtu.be/VOPoDJgZfOY) |
-| [Hierarchy Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381333) | [วิดีโอ](https://youtu.be/0ZGzJaq_KT4) |
-| [Histogram Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380776) | |
-| [Histogram with points by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381032) | [วิดีโอ](https://youtu.be/-ILF--wExrw) |
-| [Horizontal Funnel by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380846) | [วิดีโอ](https://youtu.be/SudZei68PPo) |
-| [Image by CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381297) | |
-| [Image Grid](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381355) | |
-| [Infographic Designer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
-| [KPI Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
-| [KPI Column by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996) | [วิดีโอ](https://youtu.be/rU0xoOlIq1U) |
-| [KPI Grid โดย MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380947) | [วิดีโอ](https://youtu.be/dM4PvZh71V0) |
-| [KPI Indicator](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
-| [KPI Ticker by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [วิดีโอ](https://youtu.be/cudG4gsZ2V8) |
-| [Linear Gauge by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [วิดีโอ](https://youtu.be/7_jFaM30dkc) |
-| [LineDot Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380766) | |
-| [Mekko Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380785) | [วิดีโอ](https://youtu.be/90FLCKpgicA) |
-| [หลาย KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381763) | |
-| [ภาพรวม โดย CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381477) | |
-| [Play Axis (Dynamic Slicer)](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380981) | |
-| [Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083) | [วิดีโอ](https://youtu.be/IvfIP3E6-1Q) |
-| [Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381299) | [วิดีโอ](https://youtu.be/1enze8pcGzY) |
-| [Pulse Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381006) | [วิดีโอ](https://youtu.be/DQWdcQtjDVw) |
-| [Quadrant Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381011) | [วิดีโอ](https://youtu.be/ppBnyhqWNC0) |
-| [Radar Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380771) | |
-| [Ring Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380824) | [วิดีโอ](https://youtu.be/pDToHDFHnq8) |
-| [Rotating Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381007) | [วิดีโอ](https://youtu.be/d5xBCMmb3hU) |
-| [Sankey Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380777) | [วิดีโอ](https://youtu.be/WWP9wVUHGaA) |
-| [Scatter Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381703) | |
-| [Scroller](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381018) | |
-| [Smart Filter by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380859) | [วิดีโอ](https://youtu.be/gcJsDDRQq28) |
-| [Sparkline by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380910) | [วิดีโอ](https://youtu.be/0m3Vnvso9tY) |
-| [Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380772) | |
-| [Sunburst](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767) | |
-| [Synoptic Panel by OKViz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380873) | |
-| [Table Heatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380818) | |
-| [Tachometer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380937) | [วิดีโอ](https://youtu.be/C3OXdETbS9o) |
-| [Text Filter](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
-| [Text Wrapper by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
-| [Thermometer by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380847) | [วิดีโอ](https://youtu.be/SPX9mgrAdBc) |
-| [ตัวแบ่งเวลา](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380798) | |
-| [Timeline Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [วิดีโอ](https://youtu.be/ozMtZ4_NZ10) |
-| [ไทม์ไลน์ โดย CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381427) | [วิดีโอ](https://youtu.be/szNi9YgXFJc) |
-| [Tornado chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [วิดีโอ](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
-| [Trading Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [วิดีโอ](https://youtu.be/xhTR6y6J9Ko) |
-| [Ultimate Variance](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140) | [วิดีโอ](https://youtu.be/pDYF8iZxERs) |
-| [Ultimate Waterfall](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380956) | [วิดีโอ](https://youtu.be/0BZsVCQdEkc) |
-| [รายชื่อผู้ใช้ โดย CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381426) | |
-| [Waffle Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381049) | [วิดีโอ](https://youtu.be/1vRqYUsm3Vk) |
-| [Word Cloud](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380752) | [วิดีโอ](https://youtu.be/AblTenl9fqo) |
+| [ระบบ 3AG - แผนภูมิคอลัมน์ที่มีความแปรปรวนแบบสัมพัทธ์](https://appsource.microsoft.com/product/power-bi-visuals/WA104381803) | |
+| [Advanced Donut Visual](https://appsource.microsoft.com/product/power-bi-visuals/WA104381941) | |
+| [Advanced Network Visualization](https://appsource.microsoft.com/product/power-bi-visuals/WA104381942) | |
+| [Advanced TimeSeries Visual](https://appsource.microsoft.com/product/power-bi-visuals/WA104381943) | |
+| [Advanced Combo Visual](https://appsource.microsoft.com/product/power-bi-visuals/WA104381944) | |
+| [Aster Plot](https://appsource.microsoft.com/product/power-bi-visuals/WA104380759) | |
+| [Beyondsoft Calendar](https://appsource.microsoft.com/product/power-bi-visuals/WA104381096) | |
+| [Bowtie Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380838) | [วิดีโอ](https://youtu.be/So5xKMSpVJI) |
+| [Box and Whisker chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380831) | |
+| [Box and Whisker chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381351) | [วิดีโอ](https://youtu.be/JoHaFLfhXdo) |
+| [Brick Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380836) | [วิดีโอ](https://youtu.be/hA3DOsvn2xY) |
+| [Bubble Chart by Akvelon](https://appsource.microsoft.com/product/power-bi-visuals/WA104381340) | |
+| [Bullet Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380755) | [วิดีโอ](https://youtu.be/AOlsFYkfkcw) |
+| [Bullet Chart by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380953) | [วิดีโอ](https://youtu.be/mtvUNl9bMjA) |
+| [Calendar by Tallan](https://appsource.microsoft.com/product/power-bi-visuals/WA104381146) | |
+| [Candlestick by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380952) | [วิดีโอ](https://youtu.be/nT_18gyRxPo) |
+| [Card with States by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380967) | |
+| [Chiclet Slicer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380756) | |
+| [Chord](https://appsource.microsoft.com/product/power-bi-visuals/WA104380761) | [วิดีโอ](https://youtu.be/AQvd2FhRyCI) |
+| [Circular Gauge by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380837) | [วิดีโอ](https://youtu.be/9NHXALkBXuY) |
+| [Cluster Map](https://appsource.microsoft.com/product/power-bi-visuals/WA104380806) | |
+| [Cylindrical Gauge by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380874) | [วิดีโอ](https://youtu.be/DgdoWi7Gcxo) |
+| [Dial Gauge](https://appsource.microsoft.com/product/power-bi-visuals/WA104381184) | |
+| [Dot Plot](https://appsource.microsoft.com/product/power-bi-visuals/WA104380760) | |
+| [Dot Plot by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380949) | [วิดีโอ](https://youtu.be/By16pX9KT40) |
+| [Drilldown Cartogram](https://appsource.microsoft.com/product/power-bi-visuals/WA104381045) | |
+| [Drilldown Choropleth](https://appsource.microsoft.com/product/power-bi-visuals/WA104381044) | |
+| [Drill-down column chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380857) | [วิดีโอ](https://youtu.be/lBy2gQQ5YsQ) |
+| [Drill-down column chart for time based data](https://appsource.microsoft.com/product/power-bi-visuals/WA104380881) | [วิดีโอ](https://youtu.be/T_mRou18vx0) |
+| [Drill-down donut chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380858) | [วิดีโอ](https://youtu.be/AUVFrSHmPeo) |
+| [Dual KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104380774) | |
+| [Dynamic Tooltip by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380983) | [วิดีโอ](https://youtu.be/Z-tl97BpEr0) |
+| [Enhanced Scatter](https://appsource.microsoft.com/product/power-bi-visuals/WA104380762) | [วิดีโอ](https://youtu.be/xCfM0cjM4do) |
+| [Enlighten Aquarium](https://appsource.microsoft.com/product/power-bi-visuals/WA104381112) | |
+| [Enlighten Slicer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380960) | |
+| [Enlighten Stack Shuffle](https://appsource.microsoft.com/product/power-bi-visuals/WA104380849) | |
+| [Enlighten Waffle Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380850) | |
+| [กรองตามรายการของ Devscope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381413) | [วิดีโอ](https://youtu.be/RetEWGwBu0I) |
+| [Force-Directed Graph](https://appsource.microsoft.com/product/power-bi-visuals/WA104380764) | [วิดีโอ](https://youtu.be/YsTa7uyJ4sg) |
+| [Funnel with Source by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381334) | [วิดีโอ](https://youtu.be/R_EcimsLI8U) |
+| [Gantt](https://appsource.microsoft.com/product/power-bi-visuals/WA104380765) | [วิดีโอ](https://youtu.be/qJ7s_KrGiUU) |
+| [Gantt Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381364) | [วิดีโอ](https://youtu.be/vJLV9JRCpI8) |
+| [Globe Data Bars](https://appsource.microsoft.com/product/power-bi-visuals/WA104381344) | |
+| [Grid by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380825) | [วิดีโอ](https://youtu.be/VOPoDJgZfOY) |
+| [Hierarchy Chart by Akvelon](https://appsource.microsoft.com/product/power-bi-visuals/WA104381333) | [วิดีโอ](https://youtu.be/0ZGzJaq_KT4) |
+| [Histogram Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380776) | |
+| [Histogram with points by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381032) | [วิดีโอ](https://youtu.be/-ILF--wExrw) |
+| [Horizontal Funnel by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380846) | [วิดีโอ](https://youtu.be/SudZei68PPo) |
+| [Image by CloudScope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381297) | |
+| [Image Grid](https://appsource.microsoft.com/product/power-bi-visuals/WA104381355) | |
+| [Infographic Designer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380898) | |
+| [KPI Chart by Akvelon](https://appsource.microsoft.com/product/power-bi-visuals/WA104381432) | |
+| [KPI Column by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380996) | [วิดีโอ](https://youtu.be/rU0xoOlIq1U) |
+| [KPI Grid โดย MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380947) | [วิดีโอ](https://youtu.be/dM4PvZh71V0) |
+| [KPI Indicator](https://appsource.microsoft.com/product/power-bi-visuals/WA104380832) | |
+| [KPI Ticker by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380946) | [วิดีโอ](https://youtu.be/cudG4gsZ2V8) |
+| [Linear Gauge by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380821) | [วิดีโอ](https://youtu.be/7_jFaM30dkc) |
+| [LineDot Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380766) | |
+| [Mekko Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380785) | [วิดีโอ](https://youtu.be/90FLCKpgicA) |
+| [หลาย KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381763) | |
+| [ภาพรวม โดย CloudScope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381477) | |
+| [Play Axis (Dynamic Slicer)](https://appsource.microsoft.com/product/power-bi-visuals/WA104380981) | |
+| [Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083) | [วิดีโอ](https://youtu.be/IvfIP3E6-1Q) |
+| [Power KPI Matrix](https://appsource.microsoft.com/product/power-bi-visuals/WA104381299) | [วิดีโอ](https://youtu.be/1enze8pcGzY) |
+| [Pulse Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104381006) | [วิดีโอ](https://youtu.be/DQWdcQtjDVw) |
+| [Quadrant Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381011) | [วิดีโอ](https://youtu.be/ppBnyhqWNC0) |
+| [Radar Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380771) | |
+| [Ring Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380824) | [วิดีโอ](https://youtu.be/pDToHDFHnq8) |
+| [Rotating Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104381007) | [วิดีโอ](https://youtu.be/d5xBCMmb3hU) |
+| [Sankey Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380777) | [วิดีโอ](https://youtu.be/WWP9wVUHGaA) |
+| [Scatter Chart by Akvelon](https://appsource.microsoft.com/product/power-bi-visuals/WA104381703) | |
+| [Scroller](https://appsource.microsoft.com/product/power-bi-visuals/WA104381018) | |
+| [Smart Filter by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380859) | [วิดีโอ](https://youtu.be/gcJsDDRQq28) |
+| [Sparkline by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380910) | [วิดีโอ](https://youtu.be/0m3Vnvso9tY) |
+| [Graph](https://appsource.microsoft.com/product/power-bi-visuals/WA104380772) | |
+| [Sunburst](https://appsource.microsoft.com/product/power-bi-visuals/WA104380767) | |
+| [Synoptic Panel by OKViz](https://appsource.microsoft.com/product/power-bi-visuals/WA104380873) | |
+| [Table Heatmap](https://appsource.microsoft.com/product/power-bi-visuals/WA104380818) | |
+| [Tachometer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380937) | [วิดีโอ](https://youtu.be/C3OXdETbS9o) |
+| [Text Filter](https://appsource.microsoft.com/product/power-bi-visuals/WA104381309) | |
+| [Text Wrapper by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380826) | |
+| [Thermometer by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380847) | [วิดีโอ](https://youtu.be/SPX9mgrAdBc) |
+| [ตัวแบ่งเวลา](https://appsource.microsoft.com/product/power-bi-visuals/WA104380798) | |
+| [Timeline Slicer](https://appsource.microsoft.com/product/power-bi-visuals/WA104380786) | [วิดีโอ](https://youtu.be/ozMtZ4_NZ10) |
+| [ไทม์ไลน์ โดย CloudScope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381427) | [วิดีโอ](https://youtu.be/szNi9YgXFJc) |
+| [Tornado chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104380768) | [วิดีโอ](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
+| [Trading Chart by MAQ Software](https://appsource.microsoft.com/product/power-bi-visuals/WA104380823) | [วิดีโอ](https://youtu.be/xhTR6y6J9Ko) |
+| [Ultimate Variance](https://appsource.microsoft.com/product/power-bi-visuals/WA104381140) | [วิดีโอ](https://youtu.be/pDYF8iZxERs) |
+| [Ultimate Waterfall](https://appsource.microsoft.com/product/power-bi-visuals/WA104380956) | [วิดีโอ](https://youtu.be/0BZsVCQdEkc) |
+| [รายชื่อผู้ใช้ โดย CloudScope](https://appsource.microsoft.com/product/power-bi-visuals/WA104381426) | |
+| [Waffle Chart](https://appsource.microsoft.com/product/power-bi-visuals/WA104381049) | [วิดีโอ](https://youtu.be/1vRqYUsm3Vk) |
+| [Word Cloud](https://appsource.microsoft.com/product/power-bi-visuals/WA104380752) | [วิดีโอ](https://youtu.be/AblTenl9fqo) |
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

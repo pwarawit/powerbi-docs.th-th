@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 660f76b5bf04f742d435df928e068e434ca70531
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281999"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430613"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>แนวคิดพื้นฐานสำหรับ***ลูกค้า***ที่ใช้บริการ Power BI
 
@@ -37,7 +37,7 @@ ms.locfileid: "54281999"
 ![หน้าจอยินดีต้อนรับเข้าสู่บริการของ Power BI](media/end-user-basic-concepts/power-bi-open.png)
 
 เมื่อคุณใช้ Power BI คุณจะต้องปรับเปลี่ยนสิ่งที่คุณเห็นเมื่อเปิดเว็บไซต์ในแต่ละครั้ง  ตัวอย่างเช่น บางคนชอบ Power BI เพื่อเปิดไปยังหน้าแรกในขณะที่คนอื่นมีแดชบอร์ดที่ชื่นชอบที่พวกเขาต้องการเห็นเป็นอันดับแรก ไม่ต้องกังวล เราจะสอนวิธีการทำเช่นนี้ 
-- [ตัวอย่างหน้าแรก](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
+- [ตัวอย่างหน้าแรก](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)    
 - [ตั้งค่าเนื้อหาเป็น**แนะนำ**](end-user-featured.md) 
 
 ![แสดงมุมมองหน้าแรกและมุมมองแดชบอร์ด](media/end-user-basic-concepts/power-bi-first.png)

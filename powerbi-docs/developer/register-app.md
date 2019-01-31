@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 96f91eefeab038419ce64e31c7b4b5755d6adf2c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c05dddbddc2dd19fed1bfbec25bcd9e378df543f
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286599"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430164"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>ลงทะเบียนแอป Azure AD เพื่อฝังเนื้อหา Power BI
 
@@ -138,7 +138,7 @@ ms.locfileid: "54286599"
 
 ### <a name="applying-permissions-programmatically"></a>กำลังใช้สิทธิ์ผ่านทางการเขียนโปรแกรม
 
-1. คุณจำเป็นต้องรับบริการหลัก (service principal) ที่มีอยู่แล้วภายในผู้เช่าของคุณ สำหรับข้อมูลเกี่ยวกับวิธีการดังกล่าว ดู[รับ servicePrincipal](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/serviceprincipal_get)
+1. คุณจำเป็นต้องรับบริการหลัก (service principal) ที่มีอยู่แล้วภายในผู้เช่าของคุณ สำหรับข้อมูลเกี่ยวกับวิธีการดังกล่าว ดู[รับ servicePrincipal](https://developer.microsoft.com/graph/docs/api-reference/beta/api/serviceprincipal_get)
 
     คุณสามารถเรียกใช้ API *รับ servicePrincipal* โดยไม่มี {id} และจะส่ง บริการหลักทั้งหมดภายในผู้เช่า กลับมาให้คุณ
 2. ตรวจสอบบริการหลักกับ ID ไคลเอ็นต์แอปของคุณที่ **appId**คุณสมบัติ

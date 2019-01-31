@@ -7,17 +7,17 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: a52902e22572503b4be6c21f87abf62a90f60476
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: be1c1e489cd29fc67ade95886f77a5a08697ff99
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296627"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431027"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>วิธีการย้ายเนื้อหาจาก Power BI Workspace Collection ไปยัง Power BI Embedded
 เรียนรู้วิธีการโยกย้ายจาก Power BI Workspace Collection ไปยัง Power BI Embedded และใช้ประโยชน์การพัฒนาเพื่อการฝังในแอป
 
-เมื่อไม่นานมานี้ Microsoft [ประกาศเปิดตัว Power BI Embedded](https://powerbi.microsoft.com/en-us/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/) ซึ่งเป็นแบบจำลองิ์ความสามารถใหม่่ที่ให้สิทธเพื่อเพิ่มวิธีที่ผู้ใช้เข้าถึง แชร์ และแจกจ่ายเนื้อหา นอกจากนียังทำให้ปรับขนาดและทำงานเพิ่มเติมได้อีกด้วย
+เมื่อไม่นานมานี้ Microsoft [ประกาศเปิดตัว Power BI Embedded](https://powerbi.microsoft.com/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/) ซึ่งเป็นแบบจำลองิ์ความสามารถใหม่่ที่ให้สิทธเพื่อเพิ่มวิธีที่ผู้ใช้เข้าถึง แชร์ และแจกจ่ายเนื้อหา นอกจากนียังทำให้ปรับขนาดและทำงานเพิ่มเติมได้อีกด้วย
 
 ซึ่งหมายความว่า ด้วย Power BI Embedded คุณจะมี API surface ซึ่งเป็นชุดความสามารถและการเข้าถึงฟีเจอร์ล่าสุดของ Power BI – เช่น แดชบอร์ด เกตเวย์ และพื้นที่ทำงานของแอป – เมื่อทำการฝังเนื้อหาของคุณ ดำเนินต่อไป แล้วคุณจะสามารถเริ่มต้นใช้งาน Power BI Desktop และใช้ Power BI Embedded
 

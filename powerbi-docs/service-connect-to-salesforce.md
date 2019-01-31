@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b98d807ccc84aa83826ae5e9eecdbdd1987a91
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: ca035762f16d2e8e6c7ffb59220a2457daf10545
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008591"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430820"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>เชื่อมต่อกับ Salesforce ด้วย Power BI
 ด้วย Power BI คุณสามารถเชื่อมต่อกับบัญชี Salesforce.com ของคุณได้อย่างง่ายดาย สร้างการเชื่อมต่อนี้เพื่อดึงข้อมูลของคุณและมีแดชบอร์ด และรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลของคุณโดยอัตโนมัติ
@@ -61,10 +61,8 @@ ms.locfileid: "54008591"
 **ฉันต้องทำอะไรตอนนี้**
 
 * ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
-* [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด <<<<<<< ส่วนหัว
-* [เลือกไทล์](consumer/end-user-tiles.md)เมื่อต้องเปิดรายงานพื้นฐาน =======
+* [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
 * [เลือกไทล์](service-dashboard-tiles.md)เพื่อเปิดรายงานด้านใน
->>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
 * แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="system-requirements-and-considerations"></a>ข้อกำหนดของระบบและข้อควรพิจารณา

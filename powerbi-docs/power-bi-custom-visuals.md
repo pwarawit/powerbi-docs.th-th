@@ -10,16 +10,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cac436c97515f6b6f7b6cfc110469615e7afc4c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1ebb9633451ab8e2f1b8cbf8ada743ce6c42692e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289305"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431142"
 ---
 # <a name="custom-visuals-in-power-bi"></a>วิชวลแบบกำหนดเองใน Power BI
 
-เมื่อสร้าง หรือแก้ไขรายงาน Power BI มีการแสดงข้อมูลเป็นภาพ หรือวิชวล มากมายหลายชนิด พร้อมให้คุณใช้งาน วิชวลเหล่านี้จะแสดงในบานหน้าต่าง**การจัดรูปแบบการแสดงข้อมูล** เมื่อคุณดาวน์โหลด[Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) หรือเปิด [บริการ Power BI](https://app.powerbi.com) ชุดของรูปภาพนี้จะมีให้มาอยู่แล้ว
+เมื่อสร้าง หรือแก้ไขรายงาน Power BI มีการแสดงข้อมูลเป็นภาพ หรือวิชวล มากมายหลายชนิด พร้อมให้คุณใช้งาน วิชวลเหล่านี้จะแสดงในบานหน้าต่าง**การจัดรูปแบบการแสดงข้อมูล** เมื่อคุณดาวน์โหลด[Power BI Desktop](https://powerbi.microsoft.com/desktop/) หรือเปิด [บริการ Power BI](https://app.powerbi.com) ชุดของรูปภาพนี้จะมีให้มาอยู่แล้ว
 
 ![การจัดรูปแบบการแสดงข้อมูล](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
@@ -48,16 +48,16 @@ ms.locfileid: "54289305"
 
 ## <a name="marketplace-visuals"></a>วิชวลจาก Marketplace
 
-สมาชิกในชุมชน ตลอดจน Microsoft ได้มอบวิชวลแบบกำหนดเองของพวกเขาเพื่อประโยชน์สาธารณะ และเผยแพร่ทาง [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) marketplace วิชวลเหล่านี้สามารถดาวน์โหลด และเพิ่มลงรายงาน Power BI วิชวลแบบกำหนดเองเหล่านี้ทั้งหมด ได้รับการทดสอบและอนุมัติโดย Microsoft ทั้งฟังก์ชันการใช้งานและคุณภาพ
+สมาชิกในชุมชน ตลอดจน Microsoft ได้มอบวิชวลแบบกำหนดเองของพวกเขาเพื่อประโยชน์สาธารณะ และเผยแพร่ทาง [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) marketplace วิชวลเหล่านี้สามารถดาวน์โหลด และเพิ่มลงรายงาน Power BI วิชวลแบบกำหนดเองเหล่านี้ทั้งหมด ได้รับการทดสอบและอนุมัติโดย Microsoft ทั้งฟังก์ชันการใช้งานและคุณภาพ
 
-AppSource [คืออะไร?](developer/office-store.md) เป็นที่ค้นหาแอป, add-in และส่วนขยายสำหรับซอฟต์แวร์ Microsoft ของคุณ [AppSource](https://appsource.microsoft.com/en-us/) เชื่อมต่อผู้ใช้ของผลิตภัณฑ์ เช่น Office 365, Azure, Dynamics 365, Cortana และ Power BI นับล้านคน ไปยังโซลูชันที่ช่วยให้พวกเขาทำงานสำเร็จ ได้อย่างมีประสิทธิภาพขึ้น เข้าใจได้ลึกซึ้งขึ้น หรือสวยงามขึ้นกว่าที่เคย
+AppSource [คืออะไร?](developer/office-store.md) เป็นที่ค้นหาแอป, add-in และส่วนขยายสำหรับซอฟต์แวร์ Microsoft ของคุณ [AppSource](https://appsource.microsoft.com/) เชื่อมต่อผู้ใช้ของผลิตภัณฑ์ เช่น Office 365, Azure, Dynamics 365, Cortana และ Power BI นับล้านคน ไปยังโซลูชันที่ช่วยให้พวกเขาทำงานสำเร็จ ได้อย่างมีประสิทธิภาพขึ้น เข้าใจได้ลึกซึ้งขึ้น หรือสวยงามขึ้นกว่าที่เคย
 
 ### <a name="certified-visuals"></a>วิชวลที่ผ่านการรับรองแล้ว
 
 วิชวลของ Power BI ที่ผ่านการรับรอง เป็นวิชวลจาก Marketplace ที่ผ่านการทดสอบที่เข้มงวดเรื่องคุณภาพ และรองรับการใช้งานเพิ่มเติม เช่น[การสมัครสมาชิกอีเมล](https://docs.microsoft.com/power-bi/service-report-subscribe)และ[การส่งออกไปยัง PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint).
 เมื่อต้องการดูรายการของวิชวลแบบกำหนดเองได้ที่ผ่านการรับรอง หรือต้องการส่งวิชวลของคุณเอง ให้ดู [วิชวลแบบกำหนดเองที่ผ่านการรับรองแล้ว](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified)
 
-คุณเป็นนักพัฒนาเว็บ และสนใจสร้างวิชวลของคุณเอง และเพิ่มเข้าไปใน AppSource หรือไม่ ดู[การพัฒนาวิชวลแบบกำหนดเองสำหรับ Power BI](developer/custom-visual-develop-tutorial.md) และเรียนรู้วิธีการ[เผยแพร่วิชวลแบบกำหนดเองไปยัง AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)
+คุณเป็นนักพัฒนาเว็บ และสนใจสร้างวิชวลของคุณเอง และเพิ่มเข้าไปใน AppSource หรือไม่ ดู[การพัฒนาวิชวลแบบกำหนดเองสำหรับ Power BI](developer/custom-visual-develop-tutorial.md) และเรียนรู้วิธีการ[เผยแพร่วิชวลแบบกำหนดเองไปยัง AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)
 
 ### <a name="import-a-custom-visual-from-a-file"></a>นำเข้าภาพที่กำหนดเองจากไฟล์
 
@@ -135,7 +135,7 @@ AppSource [คืออะไร?](developer/office-store.md) เป็นที
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. ไปยัง[หน้าผลลัพธ์แอป](https://appsource.microsoft.com/en-us/marketplace/apps) คุณสามารถดูแอปอันดับต้น ๆ ในแต่ละประเภท รวมถึง *แอป Power BI* แต่เรากำลังค้นหาวิชวลแบบกำหนดเอง เราจะจำกัดการค้นหาให้แคบลงโดยเลือก **วิชวล Power BI** จากรายการนำทางด้านซ้ายมือ
+2. ไปยัง[หน้าผลลัพธ์แอป](https://appsource.microsoft.com/marketplace/apps) คุณสามารถดูแอปอันดับต้น ๆ ในแต่ละประเภท รวมถึง *แอป Power BI* แต่เรากำลังค้นหาวิชวลแบบกำหนดเอง เราจะจำกัดการค้นหาให้แคบลงโดยเลือก **วิชวล Power BI** จากรายการนำทางด้านซ้ายมือ
 
     ![วิชวล AppSource](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 

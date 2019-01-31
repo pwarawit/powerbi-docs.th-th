@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52f679ee143e1009068c7de1ed9ce13e82e957dc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295385"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430453"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>ข้อจำกัดของจุดข้อมูลและกลยุทธ์ตามรูปแบบการแสดงผลด้วยภาพ
 
@@ -40,7 +40,7 @@ ms.locfileid: "54295385"
 ## <a name="statistics"></a>ค่าสถิติ
 บางแบบจำลองสามารถให้ข้อมูลสถิติเกี่ยวกับจำนวนของค่าสำหรับบางคอลัมน์ เมื่อทราบข้อมูลดังกล่าว เราสามารถใช้ประโยชน์จากข้อมูลนั้นเพื่อทำให้เกิดสมดุลไปทั่วทั้งลำดับชั้น หากวิชวลคำนวณค่าเข้ามาแทนที่ตามกลยุทธ์ที่มันถูกวางเอาไว้
 
-สำหรับข้อมูลเพิ่มเติม ให้ดูที่[มีอะไรใหม่ในบริการการวิเคราะห์](https://docs.microsoft.com/en-us/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)
+สำหรับข้อมูลเพิ่มเติม ให้ดูที่[มีอะไรใหม่ในบริการการวิเคราะห์](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)
 
 ## <a name="dynamic-limits"></a>ขีดจำกัดแบบไดนามิก
 นอกเหนือจากกลยุทธ์ด้านบน ภาพ ที่มีลำดับชั้นที่สองของการจัดกลุ่มคอลัมน์ (แกน และคำอธิบายแผน ภูมิ หรือประเภท และชุดข้อมูล) ใช้กลยุทธ์เพิ่มเติมที่ชื่อว่า*ขีดจำกัดแบบไดนามิก*  ขีดจำกัดแบบไดนามิกถูกออกแบบมาเพื่อให้การสมดุลของจุดข้อมูลออกมาดียิ่งขึ้น 
@@ -128,7 +128,7 @@ ms.locfileid: "54295385"
 - ค่า: การจำลองภาพเสมือน โดยใช้หน้าต่าง 200 แถวในแต่ละครั้ง
 
 ### <a name="scatter-chart-high-density"></a>แผนภูมิกระจาย (แบบความหนาแน่นสูง)
-ดู [การกระจายความหนาแน่นสูง](https://docs.microsoft.com/en-us/power-bi/visuals/desktop-high-density-scatter-charts)
+ดู [การกระจายความหนาแน่นสูง](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)
 
 ### <a name="pie"></a>แผนภูมิวงกลม
 - แต้มสูงสุด: 3,500

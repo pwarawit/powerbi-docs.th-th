@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
-ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
+ms.openlocfilehash: f477cbd5f2d767333c16a43308b4793527665806
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54899261"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430797"
 ---
 # <a name="on-premises-data-gateway"></a>เกตเวย์ข้อมูลภายในองค์กร
 
@@ -91,7 +91,7 @@ ms.locfileid: "54899261"
 
 * [Azure Information Protection](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
 ) ยังไม่ได้รับการสนับสนุนในขณะนี้
-* [การเข้าถึงแบบออนไลน์](https://products.office.com/en-us/access) ยังไม่ได้รับการสนับสนุนในขณะนี้
+* [การเข้าถึงแบบออนไลน์](https://products.office.com/access) ยังไม่ได้รับการสนับสนุนในขณะนี้
 * ระบบจะสนับสนุนสคริปต์ R เมื่อเรียกใช้เกตเวย์ในโหมดส่วนบุคคลเท่านั้น
 
 ## <a name="tenant-level-administration"></a>การดูแลระบบระดับผู้เช่า
@@ -102,7 +102,7 @@ ms.locfileid: "54899261"
 
 ## <a name="enabling-outbound-azure-connections"></a>การเปิดใช้งานการเชื่อมต่อ Azure ขาออก
 
-เกตเวย์ข้อมูลในองค์กรอาศัย Azure Service Bus สำหรับการเชื่อมต่อระบบคลาวด์ และสร้างการเชื่อมต่อขาออกไปยังภูมิภาค Azure ที่เกี่ยวข้อง ตามค่าเริ่มต้น นี่คือตำแหน่งที่ตั้งของผู้เช่า Power BI ของคุณ ดูว่า [ตำแหน่งที่ตั้งของผู้เช่า Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/) ของฉันอยู่ที่ไหน
+เกตเวย์ข้อมูลในองค์กรอาศัย Azure Service Bus สำหรับการเชื่อมต่อระบบคลาวด์ และสร้างการเชื่อมต่อขาออกไปยังภูมิภาค Azure ที่เกี่ยวข้อง ตามค่าเริ่มต้น นี่คือตำแหน่งที่ตั้งของผู้เช่า Power BI ของคุณ ดูว่า [ตำแหน่งที่ตั้งของผู้เช่า Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-where-is-my-tenant-located/) ของฉันอยู่ที่ไหน
 ถ้ามีไฟร์วอลล์บล็อกการเชื่อมต่อขาออก คุณต้องกำหนดค่าไฟร์วอลล์เพื่ออนุญาตการเชื่อมต่อขาออกจากเกตเวย์ข้อมูลในองค์กร ไปยังภูมิภาค Azure ที่เกี่ยวข้อง ดู [ช่วง IP ของศูนย์ข้อมูล Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653) สำหรับรายละเอียดเกี่ยวกับช่วงของที่อยู่ IP ของแต่ละศูนย์ข้อมูลของ Azure
 > [!NOTE]
 > ช่วงของที่อยู่ IP อาจเปลี่ยนแปลงได้ตามเวลา ดังนั้น ให้แน่ใจว่าคุณดาวน์โหลดข้อมูลล่าสุดเป็นประจำ 

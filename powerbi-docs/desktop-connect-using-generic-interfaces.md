@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c1671c820b6de4cddac169c67103168ac46ffc1f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c680ebea23c479202b8b49ed0376f2416a9cffa3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296057"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430636"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>เชื่อมต่อกับข้อมูลโดยใช้อินเทอร์เฟสทั่วไปใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับแหล่งข้อมูลต่าง ๆ ใน **Power BI Desktop** ด้วยตัวเชื่อมต่อข้อมูลอยู่ภายใน ตั้งแต่**ฐานข้อมูล Access** จนถึงทรัพยากร **Zendesk** ตามที่แสดงในหน้าต่าง**รับข้อมูล** คุณยังสามารถเชื่อมต่อกับแหล่งข้อมูล*อื่น ๆ* เพื่อขยายตัวเลือกการเชื่อมต่อของคุณ โดยใช้อินเทอร์เฟสทั่วไป (เช่น **ODBC** หรือ **REST API**) ที่มีอยู่แล้วใน **Power BI Desktop**
@@ -49,7 +49,7 @@ ms.locfileid: "54296057"
 | ตัวเชื่อมต่อทั่วไปของ Power BI Desktop | แหล่งข้อมูลภายนอก | ลิงก์สำหรับข้อมูลเพิ่มเติม |
 | --- | --- | --- |
 | ODBC |Cassandra |[โปรแกรมควบคุม Cassandra ODBC](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
-| ODBC |Couchbase DB |[Couchbase และ Power BI](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| ODBC |Couchbase DB |[Couchbase และ Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 | ODBC |DynamoDB |[โปรแกรมควบคุม DynamoDB ODBC](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
 | ODBC |Google BigQuery |[โปรแกรมควบคุม BigQuery ODBC](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
 | ODBC |Hbase |[โปรแกรมควบคุม Hbase ODBC](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
@@ -91,7 +91,7 @@ ms.locfileid: "54296057"
 
 | ตัวเชื่อมต่อทั่วไปของ Power BI Desktop | แหล่งข้อมูลภายนอก | ลิงก์สำหรับข้อมูลเพิ่มเติม |
 | --- | --- | --- |
-| REST API |Couchbase DB |[ข้อมูล Couchbase REST API](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| REST API |Couchbase DB |[ข้อมูล Couchbase REST API](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 
 ## <a name="data-sources-accessible-through-r-script"></a>แหล่งข้อมูลที่สามารถเข้าถึงผ่านสคริปต์ R
 คุณสามารถใช้**สคริปต์ R** เพื่อเข้าถึงแหล่งข้อมูล และใช้ข้อมูลนั้นใน **Power BI Desktop** ได้

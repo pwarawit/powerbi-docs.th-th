@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2bd35e5c2bc92ee660a9524754a3daef95e6e83d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 164385fc232774999a21e1870b02fcb59b74ad50
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275812"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430199"
 ---
 # <a name="card-visualizations"></a>การแสดงภาพการ์ด
 บางครั้งตัวเลขเพียงตัวเดียวก็เป็นสิ่งสำคัญที่สุดที่คุณต้องการติดตามในแดชบอร์ด Power BI หรือรายงานของคุณ เช่น ยอดขายรวม ส่วนแบ่งตลาดแบบปีต่อปี ตลาดแชร์ปีปี หรือโอกาสทั้งหมด แสดงภาพชนิดนี้จะเรียกว่า*การ์ด* เช่นเดียวกับการแสดงภาพดั้งเดิมของ Power BI แทบจะทุกชนิด คุณสามารถสร้างการ์ดขึ้นได้ โดยใช้ตัวแก้ไขรายงาน หรือการถามตอบ
@@ -49,7 +49,7 @@ ms.locfileid: "54275812"
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>สร้างการ์ดจากกล่องคำถามการถามตอบ
-กล่องคำถามการถามตอบเป็นวิธีที่ง่ายที่สุดในการสร้างการ์ด กล่องคำถามการถามตอบจะพร้อมใช้งานในบริการ Power BI จากแดชบอร์ดหรือรายงานและในมุมมองรายงานบนเดสก์ท็อป ขั้นตอนด้านล่างนี้จะอธิบายถึงวิธีการสร้างการ์ดจากแดชบอร์ดบริการของ Power BI ถ้าคุณต้องการสร้างการ์ดโดยใช้การถามตอบใน Power BI Desktop [ให้ทำตามคำแนะนำเหล่านี้](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA)เกี่ยวกับการแสดงตัวอย่างการถามตอบสำหรับรายงานของ Desktop
+กล่องคำถามการถามตอบเป็นวิธีที่ง่ายที่สุดในการสร้างการ์ด กล่องคำถามการถามตอบจะพร้อมใช้งานในบริการ Power BI จากแดชบอร์ดหรือรายงานและในมุมมองรายงานบนเดสก์ท็อป ขั้นตอนด้านล่างนี้จะอธิบายถึงวิธีการสร้างการ์ดจากแดชบอร์ดบริการของ Power BI ถ้าคุณต้องการสร้างการ์ดโดยใช้การถามตอบใน Power BI Desktop [ให้ทำตามคำแนะนำเหล่านี้](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA)เกี่ยวกับการแสดงตัวอย่างการถามตอบสำหรับรายงานของ Desktop
 
 1. สร้าง[แดชบอร์ด](../service-dashboards.md)แล้ว[รับข้อมูล](../service-get-data.md) ตัวอย่างนี้จะใช้[ตัวอย่างการวิเคราะห์โอกาส](../sample-opportunity-analysis.md)
 

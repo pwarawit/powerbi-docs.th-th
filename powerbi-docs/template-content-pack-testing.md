@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 2ceb8440cd64b05966caaadc9346771dd28cba82
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8a5382a5e435f916599b05310f89d9b1f0327023
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281240"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430682"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>การทดสอบชุดเนื้อหาเทมเพลตสำหรับ Power BI
 มีหลายวิธีในการทดสอบชุดเนื้อหาของคุณก่อนที่จะส่งเผยแพร่  
@@ -68,7 +68,7 @@ ms.locfileid: "54281240"
 <a name="submission"></a>
 
 ## <a name="submission"></a>การส่ง
-กระบวนการส่งผ่าน [Microsoft AppSource](https://appsource.microsoft.com/en-us/partners/list-an-app) จะทำให้คุณสามารถเผยแพร่ชุดเนื้อหาเทมเพลตในแกลเลอรีชุดเนื้อหาบริการใน PowerBI.com ตลอดจนแสดงรายการชุดเนื้อหาของคุณใน [Microsoft AppSource](http://appsource.microsoft.com)
+กระบวนการส่งผ่าน [Microsoft AppSource](https://appsource.microsoft.com/partners/list-an-app) จะทำให้คุณสามารถเผยแพร่ชุดเนื้อหาเทมเพลตในแกลเลอรีชุดเนื้อหาบริการใน PowerBI.com ตลอดจนแสดงรายการชุดเนื้อหาของคุณใน [Microsoft AppSource](http://appsource.microsoft.com)
 
 ### <a name="before-submission"></a>ก่อนส่ง
 * ตรวจสอบเคล็ดลับการเขียนสำหรับวัตถุแต่ละรายการภายในชุดเนื้อหา
@@ -77,7 +77,7 @@ ms.locfileid: "54281240"
 * ตรวจสอบให้แน่ใจว่าชุดเนื้อหาตอบสนองต่อการถามตอบอย่างเหมาะสม เราขอแนะนำให้ทดสอบคำถามที่แตกต่างกันอย่างน้อย 30 รายการทั่วทั้งแบบจำลองข้อมูล (ข้ามขั้นตอนนี้ถ้าคุณพัฒนา[ตัวเชื่อมต่อข้อมูล](https://aka.ms/DataConnectors)แบบกำหนดเองของคุณเอง)
 
 ### <a name="submission"></a>การส่ง
-เมื่อพร้อมที่จะส่ง โปรดไปที่[หน้าการส่งแอป](https://appsource.microsoft.com/en-us/partners/list-an-app)บน AppSource และส่งข้อมูลของคุณ โปรดตรวจสอบให้แน่ใจว่าได้เลือก Power BI จากรายการผลิตภัณฑ์ที่พร้อมใช้งานแล้ว
+เมื่อพร้อมที่จะส่ง โปรดไปที่[หน้าการส่งแอป](https://appsource.microsoft.com/partners/list-an-app)บน AppSource และส่งข้อมูลของคุณ โปรดตรวจสอบให้แน่ใจว่าได้เลือก Power BI จากรายการผลิตภัณฑ์ที่พร้อมใช้งานแล้ว
 
 ทีม Power BI จะตรวจสอบข้อมูลที่คุณส่งและจะติดต่อคุณเพื่อให้แน่ใจว่าวัตถุทั้งหมดตรงตามข้อกำหนดการส่ง นอกเหนือจากการดำเนินการให้เสร็จสมบูรณ์แล้ว เราจะตรวจสอบคุณภาพของแดชบอร์ดและรายงานที่ระบุด้วยเพื่อให้แน่ใจว่าเป็นไปตามสถานการณ์ทางธุรกิจที่อธิบายไว้ในแอปพลิเคชัน
 

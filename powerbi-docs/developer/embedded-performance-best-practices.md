@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-embedded
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 025d843158795e7c36a5a278f2022349a9b72ca6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 50fbb175640e38431db62df34276417f1080e42a
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277169"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430361"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>แนวทางปฏิบัติที่ดีที่สุดเพื่อประสิทธิภาพการทำงานของ Power BI Embedded
 
@@ -26,7 +26,7 @@ ms.locfileid: "54277169"
 
 ### <a name="embed-url"></a>URL แบบฝัง
 
-หลีกเลี่ยงการสร้าง URL แบบฝังด้วยตัวคุณเอง แต่คุณควรตรวจสอบให้แน่ใจว่าคุณได้รับ URL แบบฝัง โดยการเรียก API [รับรายงาน](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Freports%2Fgetreportsingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256168308&sdata=22lkqRM2w1MQfrM8dooedaPqqIU8PufTq9TT4VDzRo0%3D&reserved=0), [รับแดชบอร์ด](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Fdashboards%2Fgetdashboardsingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256168308&sdata=nfWRgbSoXVF42Rg%2Ba9491u19uksXp%2FAyz%2Fa%2Ba7%2FCtdA%3D&reserved=0) หรือ[รับไทล์](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Frest%2Fapi%2Fpower-bi%2Fdashboards%2Fgettilesingroup&data=02%7C01%7CMark.Ghanayem%40microsoft.com%7C07ca68ceb37a48e3f3de08d64968707a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636777110256178318&sdata=LgZ27TynNpqQJDrb3aHWGQXIS%2FzichAO9De5M2uhF1Q%3D&reserved=0) เราได้เพิ่มพารามิเตอร์ใหม่ใน URL ที่เรียกว่า **_config_** ใช้สำหรับการปรับปรุงประสิทธิภาพการทำงาน
+หลีกเลี่ยงการสร้าง URL แบบฝังด้วยตัวคุณเอง แต่คุณควรตรวจสอบให้แน่ใจว่าคุณได้รับ URL แบบฝัง โดยการเรียก API [รับรายงาน](/rest/api/power-bi/reports/getreportsingroup), [รับแดชบอร์ด](/rest/api/power-bi/dashboards/getdashboardsingroup) หรือ[รับไทล์](/rest/api/power-bi/dashboards/gettilesingroup) เราได้เพิ่มพารามิเตอร์ใหม่ใน URL ที่เรียกว่า **_config_** ใช้สำหรับการปรับปรุงประสิทธิภาพการทำงาน
 
 ### <a name="permissions"></a>สิทธิ์
 
@@ -58,7 +58,7 @@ Powerbi.preload() ดาวน์โหลด javascript ไฟล์ css แล
 
 ปรับปรุงเครื่องมือและแพคเกจ SDK ให้ทันสมัยอยู่เสมอ
 
-* ใช้ [Power Bi Desktop](https://powerbi.microsoft.com/en-us/desktop/) เวอร์ชันล่าสุดเสมอ
+* ใช้ [Power Bi Desktop](https://powerbi.microsoft.com/desktop/) เวอร์ชันล่าสุดเสมอ
 
 * ติดตั้ง [Power BI client SDK](https://github.com/Microsoft/PowerBI-JavaScript) เวอร์ชันล่าสุด เรายังคงมีการปรับปรุงประสิทธิภาพเพิ่มเติมอย่างต่อเนื่อง ดังนั้นอย่าลืมติดตามเป็นครั้งคราว
 

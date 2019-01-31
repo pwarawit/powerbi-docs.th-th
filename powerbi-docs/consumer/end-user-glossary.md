@@ -8,12 +8,12 @@ ms.service: powerbi-service
 ms.topic: resource
 ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 1722c401dfd5d2fdfbba530f440cecf9f1e075f3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280799"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431280"
 ---
 # <a name="glossary-for-power-bi-service"></a>อภิธานศัพท์สำหรับบริการ Power BI
 บริการ Power BI อาจใช้คำศัพท์ที่ไม่คุ้นเคยหรือสับสน อภิธานศัพท์เป็นที่เหมาะสมในการค้นหาคำศัพท์ คุณอาจต้องการเก็บไว้คั่นหน้า อีกแหล่งข้อมูลหนึ่งที่ยอดเยี่ยมสำหรับการเรียนรู้เกี่ยวกับการสร้างการปิดกั้นใน Power BI คือ [แนวคิดพื้นฐาน](end-user-basic-concepts.md) แนวคิดพื้นฐานเป็นภาพรวมระดับสูงเกี่ยวกับ*ส่วนประกอบ*ของ Power BI และความเกี่ยวข้องกัน
@@ -70,7 +70,7 @@ ms.locfileid: "53280799"
 
 **รายการเนื้อหา**ดัชนีเนื้อหาสำหรับแอป
 
-**ชุดเนื้อหา**คอลเลกชันของชุดข้อมูลแพคเกจล่วงหน้า รายงาน และแดชบอร์ด **แอป**เรียนรู้[เกี่ยวกับการใช้งานพื้นที่ทำงานใหม่](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces) เลยเดี๋ยวนี้ 
+**ชุดเนื้อหา**คอลเลกชันของชุดข้อมูลแพคเกจล่วงหน้า รายงาน และแดชบอร์ด **แอป**เรียนรู้[เกี่ยวกับการใช้งานพื้นที่ทำงานใหม่](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces) เลยเดี๋ยวนี้ 
 
 **มุมมองเนื้อหา**
 

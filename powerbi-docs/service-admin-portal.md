@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 2f7d43649079f63fe18bfb4316557c2b5322f204
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 8cda803939ee9ae2f864496300fce25890770dac
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234473"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430384"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>ดูแล Power BI ในพอร์ทัลผู้ดูแลระบบ
 
@@ -387,7 +387,7 @@ ms.locfileid: "55234473"
 
 ตรวจสอบให้แน่ใจว่า ID ของวิชวลไม่มีการเปลี่ยนแปลง ไฟล์ใหม่จะแทนไฟล์ก่อนหน้าสำหรับรายงานทั้งหมดทั่วทั้งองค์กร อย่างไรก็ตาม เวอร์ชันใหม่ของวิชวลอาจทำลายการใช้งานหรือโครงสร้างข้อมูลของเวอร์ชันก่อนหน้าของวิชวล ดังนั้นจึงไม่ควรแทนที่เวอร์ชันก่อนหน้า แต่ควรสร้างรายการใหม่สำหรับเวอร์ชันใหม่ของวิชวล ตัวอย่างเช่น เพิ่มหมายเลขเวอร์ชันใหม่ (เวอร์ชัน X.X) ไปยังชื่อของวิชวลรายการใหม่ ด้วยวิธีนี้ จะเห็นได้ชัดว่าวิชวลเดิมจะยังคงอยู่ในหมายเลยเวอร์ชันที่อัปเดตแล้ว ดังนั้นรายงานที่มีอยู่จะไม่ทำลายฟังก์ชันการทำงานดังกล่าว และตรวจสอบให้แน่ใจว่า ID ของวิชวลไม่มีการเปลี่ยนแปลง จากนั้น ในครั้งถัดไปที่ผู้ใช้ใช้งานที่เก็บข้อมูลขององค์กรจาก Power BI Desktop พวกเขาสามารถนำเข้าเวอร์ชันใหม่ ซึ่งจะพร้อมท์ให้ผู้ใช้เปลี่ยนเวอร์ชันปัจจุบันที่พวกเขามีในรายงาน
 
-สำหรับข้อมูลเพิ่มเติม โปรดเยี่ยมชม[คำถามที่ถามบ่อยเกี่ยวกับวิชวลแบบกำหนดเองขององค์กร](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)
+สำหรับข้อมูลเพิ่มเติม โปรดเยี่ยมชม[คำถามที่ถามบ่อยเกี่ยวกับวิชวลแบบกำหนดเองขององค์กร](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals)
 
 ## <a name="dataflow-storage-preview"></a>ที่เก็บกระแสข้อมูล (ตัวอย่าง)
 

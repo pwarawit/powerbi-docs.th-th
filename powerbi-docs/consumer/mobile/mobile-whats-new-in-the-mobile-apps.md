@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: b7301d46279d9b975a07b07506c023e19437631b
-ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
+ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54324054"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431257"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 สำหรับ "ข้อมูลอะไรใหม่" ที่เกี่ยวข้อง ให้ดู
@@ -37,15 +37,15 @@ ms.locfileid: "54324054"
 
 ### <a name="enhance-presentation-mode-windows"></a>ปรับปรุงโหมดการนำเสนอ (Windows)
 
-ปรับปรุงโหมดการนำเสนอสำหรับอุปกรณ์ Surface Hub และ Windows 10  เพลิดเพลินไปกับประสบการณ์ใหม่ที่ปรับปรุงขึ้นมาให้กับห้องประชุม Surface Hub ด้วยการปรับปรุงเครื่องมืองานนำเสนอ เครื่องมือสำหรับการทำงานร่วมกัน ไร้กรอบและมุมมองหน้าจอขนาดใหญ่ให้เหมาะสม เพื่อให้คุณสามารถโฟกัสกับข้อมูลของคุณ โหมดการนำเสนอยังมีเครื่องมือเช่นการใช้หมึกเพื่อช่วยให้คุณนำเสนอได้อย่างมีประสิทธิภาพและมีการอภิปรายเกี่ยวกับข้อมูลของคุณ อ่านเพิ่มเติมเกี่ยวกับโหมดการนำเสนอ[ที่นี่](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/)
+ปรับปรุงโหมดการนำเสนอสำหรับอุปกรณ์ Surface Hub และ Windows 10  เพลิดเพลินไปกับประสบการณ์ใหม่ที่ปรับปรุงขึ้นมาให้กับห้องประชุม Surface Hub ด้วยการปรับปรุงเครื่องมืองานนำเสนอ เครื่องมือสำหรับการทำงานร่วมกัน ไร้กรอบและมุมมองหน้าจอขนาดใหญ่ให้เหมาะสม เพื่อให้คุณสามารถโฟกัสกับข้อมูลของคุณ โหมดการนำเสนอยังมีเครื่องมือเช่นการใช้หมึกเพื่อช่วยให้คุณนำเสนอได้อย่างมีประสิทธิภาพและมีการอภิปรายเกี่ยวกับข้อมูลของคุณ อ่านเพิ่มเติมเกี่ยวกับโหมดการนำเสนอ[ที่นี่](https://powerbi.microsoft.com/blog/presentation-mode-in-power-bi-windows-app/)
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>เค้าโครงรายงานแนวตั้งในแท็บเล็ต (iOS และ Android)
 
-ขณะนี้เราใช้เค้าโครงรายงานสำหรับโทรศัพท์เมื่อมีเค้าโครงดังกล่าว เพื่อแสดงรายงานบนแท็บเล็ตในโหมดการวางแนวตั้ง อ่านเพิ่มเติมเกี่ยวกับ[วิธีการสร้างเค้าโครงโทรศัพท์ในบริการ Power BI หรือ Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/)
+ขณะนี้เราใช้เค้าโครงรายงานสำหรับโทรศัพท์เมื่อมีเค้าโครงดังกล่าว เพื่อแสดงรายงานบนแท็บเล็ตในโหมดการวางแนวตั้ง อ่านเพิ่มเติมเกี่ยวกับ[วิธีการสร้างเค้าโครงโทรศัพท์ในบริการ Power BI หรือ Desktop](https://docs.microsoft.com/power-bi/desktop-create-phone-report/)
 
 ### <a name="supporting-report-query-string"></a>สนับสนุนรายงานสตริงแบบสอบถาม 
 
-ตอนนี้การเปิดลิงก์รายงานที่รวมเอาสตริงแบบสอบถามสามารถเปิดในแอปบนอุปกรณ์เคลื่อน และสามารถกรองไว้ล่วงหน้าตามเงื่อนไขกำหนดไว้ในสตริงแบบสอบถามได้ เรียนรู้เพิ่มเติมเกี่ยวกับ[วิธีการสร้าง url ของรายงาน ด้วยสตริงแบบสอบถาม](https://docs.microsoft.com/en-us/power-bi/service-url-filters/)  
+ตอนนี้การเปิดลิงก์รายงานที่รวมเอาสตริงแบบสอบถามสามารถเปิดในแอปบนอุปกรณ์เคลื่อน และสามารถกรองไว้ล่วงหน้าตามเงื่อนไขกำหนดไว้ในสตริงแบบสอบถามได้ เรียนรู้เพิ่มเติมเกี่ยวกับ[วิธีการสร้าง url ของรายงาน ด้วยสตริงแบบสอบถาม](https://docs.microsoft.com/power-bi/service-url-filters/)  
 
 ### <a name="shared-credentials-now-in-android"></a>ข้อมูลประจำตัวที่ใช้ร่วมกัน (ตอนนี้ใน Android)
 
@@ -65,7 +65,7 @@ ms.locfileid: "54324054"
 
 ตอนนี้มีรายงานแบบแบ่งหน้าพร้อมใช้ในบริการของ Power BI แล้ว ผู้ใช้ที่เข้าถึงรายงานแบบแบ่งหน้าในบริการของ Power BI ได้จะสามารถเข้าถึงรายงานเหล่านี้ได้จากแอปอุปกรณ์เคลื่อนที่ 
 
-โปรดอ่าน[บล็อกโพสต์เกี่ยวกับรายงานแบบแบ่งหน้าในมือถือ](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/)ของ Power BI
+โปรดอ่าน[บล็อกโพสต์เกี่ยวกับรายงานแบบแบ่งหน้าในมือถือ](https://powerbi.microsoft.com/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/)ของ Power BI
 
 ### <a name="shared-credentials-ios"></a>ข้อมูลประจำตัวที่แชร์ (iOS)
 

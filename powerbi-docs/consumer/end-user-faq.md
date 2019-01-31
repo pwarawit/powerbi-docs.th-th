@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8eb428857e98a696ffb368c729525acd80e268f2
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 001fab5caae7663a70b0f4d4272a1f9abbb1765e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394780"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429923"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>คำถามที่ถามบ่อยเกี่ยวกับ Power BI
 * ถ้าคุณมีคำถามอื่น [ลองถามชุมชน Power BI](http://community.powerbi.com/)
@@ -50,7 +50,7 @@ Power BI Desktop เป็นแอปพลิเคชันฟรีที่
 Power BI ไม่รองรับอีเมลของการบริการอีเมล์ของลูกค้าหรือจากผู้ให้บริการโทรคมนาคม เรียนรู้เพิ่มเติมเกี่ยวกับ[Power BI กระบวนการลงทะเบียนแบบบริการตนเอง](../service-self-service-signup-for-power-bi.md)
 
 ## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Power BI มีราคาสำหรับภาครัฐ สถาบันการศึกษา และองค์กรไม่แสวงหากำไรหรือไม่
-ใช่ มีราคาสำหรับองค์กรไม่แสวงหากำไรเมื่อสั่งซื้อโดยตรงจาก Microsoft คุณสามารถเรียนรู้เพิ่มเติม และลงทะเบียนผ่านเว็บไซต์ [Microsoft Nonprofits](https://www.microsoft.com/en-us/nonprofits/power-bi) ราคาภาครัฐและสถาบันการศึกษาถูกนำเสนอผ่าน MOSP/Direct, EA, และสิทธิ์การใช้งานโปรแกรมแบบี่เปิด ราคาสำหรับภาครัฐจะยังรวมการเผยแพร่ด้วย 
+ใช่ มีราคาสำหรับองค์กรไม่แสวงหากำไรเมื่อสั่งซื้อโดยตรงจาก Microsoft คุณสามารถเรียนรู้เพิ่มเติม และลงทะเบียนผ่านเว็บไซต์ [Microsoft Nonprofits](https://www.microsoft.com/nonprofits/power-bi) ราคาภาครัฐและสถาบันการศึกษาถูกนำเสนอผ่าน MOSP/Direct, EA, และสิทธิ์การใช้งานโปรแกรมแบบี่เปิด ราคาสำหรับภาครัฐจะยังรวมการเผยแพร่ด้วย 
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI รองรับอุปกรณ์เคลื่อนที่หรือไม่
 ใช่ Power BI มีแอปในระบบสำหรับโทรศัพท์ และแท็บเล็ต อุปกรณ์ iOS และอุปกรณ์ Windows 10 ดาวน์โหลดหนึ่งใน[แอปสำหรับอุปกรณ์เคลื่อนของ Power BI](https://powerbi.microsoft.com/mobile)จากร้านค้าเกี่ยวข้อง:  

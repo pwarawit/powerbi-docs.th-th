@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: f39912f5813f67ed65afde10a0e157385e98b7b7
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: c02ce0a92e258055edf906cf17730fec56bcb450
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406626"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430774"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow และ Power BI
 
-[Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started)คือ SaaS ที่นำเสนอสำหรับการทำงานอัตโนมัติสำหรับเวิร์กโฟลว์ในแอปพลิเคชันที่หลากหลายและบริการ SaaS ที่ผู้ใช้ทางธุรกิจใช้อยู่ ด้วยโฟลว์ คุณสามารถทำงานโดยอัตโนมัติ โดยการรวมแอปโปรดของคุณและบริการที่ (รวมถึง Power BI) เพื่อรับการแจ้งเตือน การซิงโครไนซ์ไฟล์ การเก็บรวบรวมข้อมูล และอื่น ๆ การทำงานซ้ำ ๆ กลายเป็นเรื่องง่าย ด้วยเวิร์คโฟลว์อัตโนมัติ
+[Microsoft Flow](https://flow.microsoft.com/documentation/getting-started)คือ SaaS ที่นำเสนอสำหรับการทำงานอัตโนมัติสำหรับเวิร์กโฟลว์ในแอปพลิเคชันที่หลากหลายและบริการ SaaS ที่ผู้ใช้ทางธุรกิจใช้อยู่ ด้วยโฟลว์ คุณสามารถทำงานโดยอัตโนมัติ โดยการรวมแอปโปรดของคุณและบริการที่ (รวมถึง Power BI) เพื่อรับการแจ้งเตือน การซิงโครไนซ์ไฟล์ การเก็บรวบรวมข้อมูล และอื่น ๆ การทำงานซ้ำ ๆ กลายเป็นเรื่องง่าย ด้วยเวิร์คโฟลว์อัตโนมัติ
 
 [เริ่มต้นใช้งานโฟลว์ตอนนี้เลย](https://flow.microsoft.com/documentation/getting-started)
 
@@ -31,7 +31,7 @@ ms.locfileid: "54406626"
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>สร้างโฟลว์ที่ทริกเกอร์ โดยข้อมูลการแจ้งเตือนของ Power BI
 
 ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-บทเรียนนี้จะแสดงวิธีการสร้างโฟลว์ที่แตกต่างกันสองโฟลว์ หนึ่งโฟลว์จากเทมเพลตและอีกหนึ่งทำมาจากเริ่มต้น เพื่อทำตาม[สร้างการแจ้งเตือนข้อมูลใน Power BI](service-set-data-alerts.md)สร้างบัญชีผู้ใช้ฟรีของ Slack และ[ลงชื่อเข้าใช้ Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup) (ซึ่งใช้ฟรี)
+บทเรียนนี้จะแสดงวิธีการสร้างโฟลว์ที่แตกต่างกันสองโฟลว์ หนึ่งโฟลว์จากเทมเพลตและอีกหนึ่งทำมาจากเริ่มต้น เพื่อทำตาม[สร้างการแจ้งเตือนข้อมูลใน Power BI](service-set-data-alerts.md)สร้างบัญชีผู้ใช้ฟรีของ Slack และ[ลงชื่อเข้าใช้ Microsoft Flow](https://flow.microsoft.com/#home-signup) (ซึ่งใช้ฟรี)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>สร้างโฟลว์ที่ใช้ Power BI จากเทมเพลต
 ในงานนี้ เราจะใช้เทมเพลตเพื่อสร้างโฟลว์อย่างง่ายที่จะถูกทริกเกอร์ โดยการแจ้งเตือนข้อมูล Power BI (notification)
@@ -108,7 +108,7 @@ ms.locfileid: "54406626"
     ![โฟลว์ทริกเกอร์การแจ้งเตือนใน Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [เริ่มต้นใช้งาน Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)
+* [เริ่มต้นใช้งาน Microsoft Flow](https://flow.microsoft.com/documentation/getting-started/)
 * [ตั้งค่าการแจ้งเตือนข้อมูลใน Power BI service](service-set-data-alerts.md)
 * [ตั้งค่าการแจ้งเตือนข้อมูลบน iPhone ของคุณ](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
