@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/03/2018
+ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc756e98a58d30edd476112ca249dae032d0d79a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ee0063d5266c663079a9801777ee2c900957c52f
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296811"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234312"
 ---
 # <a name="visualization-types-in-power-bi"></a>ชนิดการแสดงภาพใน Power BI
 ## <a name="power-bi-visualizations"></a>การแสดงภาพ Power BI
@@ -82,6 +82,11 @@ ms.locfileid: "54296811"
 
 สำหรับข้อมูลเพิ่มเติม ดู [แผนภูมิวัดความเร็วใน Power BI](power-bi-visualization-radial-gauge-charts.md)
 
+<!-- ### Key influencers chart
+![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+
+A key influencer chart displays the major contributors to a selected result or value. -->
+
 ### <a name="kpis"></a>KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
@@ -107,7 +112,7 @@ ms.locfileid: "54296811"
 ### <a name="maps-arcgis-maps"></a>แผนที่: แผนที่ ArcGIS
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-สำหรับข้อมูลเพิ่มเติม ดู [แผนที่ ArcGIS ใน Power BI](../power-bi-visualization-arcgis.md)
+สำหรับข้อมูลเพิ่มเติม ดู [แผนที่ ArcGIS ใน Power BI](power-bi-visualization-arcgis.md)
 
 ### <a name="maps-filled-maps-choropleth"></a>แผนที่: แผนที่แถบสี (Choropleth)
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -133,6 +138,13 @@ ms.locfileid: "54296811"
 
 ### <a name="pie-charts"></a>แผนภูมิวงกลม
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+
+แผนภูมิวงกลมจะแสดงความสัมพันธ์ของส่วนต่าง ๆ ต่อส่วนทั้งหมด 
+
+### <a name="ribbon-chart"></a>แผนภูมิริบบอน
+![แผนภูมิริบบอน](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
+
+แผนภูมิ Ribbon แสดงประเภทข้อมูลที่มีอันดับสูงสุด (ค่ามากที่สุด) แผนภูมิ Ribbon เหมาะกับการแสดงการเปลี่ยนแปลงอันดับ โดยที่ค่าอันดับสูงสุดจะแสดงอยู่ด้านบนสุดของแต่ละช่วงเวลาเสมอ
 
 ### <a name="scatter-and-bubble-charts"></a>แผนภูมิกระจายและแผนภูมิฟอง
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)

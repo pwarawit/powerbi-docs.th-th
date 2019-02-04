@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/20/2018
-ms.openlocfilehash: 4fff6b19b9a17b626d11545a8d4baa8464ffc324
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a53ddf70e82c191af520f2dbba5b5d3d1b0ced42
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294140"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431234"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>แก้ไขปัญหาแอปพลิเคชันแบบฝังตัวของคุณ
 
@@ -99,6 +99,14 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 ## <a name="authentication"></a>การรับรองความถูกต้อง
 
+### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>การรับรองความถูกต้องล้มเหลวเนื่องจาก AADSTS90002 ไม่พบผู้เช่าที่ได้รับ 'การอนุญาต'
+
+ หากคุณได้รับข้อความการลงชื่อเข้าใช้ เช่น ***error: invalid_request, error_description: AADSTS90002: ไม่พบผู้เช่าที่ได้รับ 'การอนุญาต'*** ซึ่งก็คือเนื่องจากไม่สนับสนุน ADAL 4.x "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" เป็น url ผู้มีสิทธิ์
+ 
+ในการแก้ไขปัญหานี้คุณควรตัด "oauth2/authorize/" จากท้าย URL ผู้มีสิทธิ์ของคุณ โปรดดู [ตัวอย่างนักพัฒนา Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples) สำหรับการอ้างอิง
+
+ ตรวจสอบ [การตรวจสอบความถูกต้องผู้มีสิทธิ์ที่ดีขึ้น](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/wiki/Changes-adalnet-4.0#better-authority-validation) จากบันทึกย่อประจำรุ่น ADAL 4.x
+ 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>การรับรองความถูกต้องล้มเหลวเนื่องจาก AADSTS70002 หรือ AADSTS50053
 
 **_(AADSTS70002: ข้อมูลประจำตัวผิดพลาด AADSTS50053: คุณได้พยายามลงชื่อเข้าใช้หลายครั้งเกินไปด้วยรหัสผู้ใช้หรือรหัสผ่านที่ไม่ถูกต้อง)_**
@@ -243,7 +251,7 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 
 ตรวจสอบว่าคุณผ่านข้อกำหนดเบื้องต้นทั้งหมด ก่อนที่จะใช้เครื่องมือตั้งค่าการฝังตัว คุณต้องมีบัญชี **Power BI Pro** และการสมัครใช้งาน **Microsoft Azure**
 
-* ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/en-us/pricing/)ก่อนที่คุณจะเริ่ม
+* ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/pricing/)ก่อนที่คุณจะเริ่ม
 * ถ้าคุณยังไม่มีการสมัครใช้งาน Azure สร้าง[บัญชีฟรี](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)ก่อนที่คุณจะเริ่ม
 * คุณจำเป็นต้องตั้งค่า[ผู้เช่า Azure Active Directory](create-an-azure-active-directory-tenant.md) ของคุณเอง
 * คุณต้องติดตั้ง [Visual Studio](https://www.visualstudio.com/) (เวอร์ชัน 2013 หรือใหม่กว่า)
@@ -294,7 +302,7 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 
-หากคุณต้องการความช่วยเหลือเพิ่มเติม โปรด [ติดต่อฝ่ายสนับสนุน](https://powerbi.microsoft.com/en-us/support/pro/?Type=documentation&q=power+bi+embedded) หรือ [สร้างตั๋วการสนับสนุนผ่านพอร์ทัล Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) และระบุข้อความแสดงข้อผิดพลาดที่คุณพบ
+หากคุณต้องการความช่วยเหลือเพิ่มเติม โปรด [ติดต่อฝ่ายสนับสนุน](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded) หรือ [สร้างตั๋วการสนับสนุนผ่านพอร์ทัล Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) และระบุข้อความแสดงข้อผิดพลาดที่คุณพบ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
