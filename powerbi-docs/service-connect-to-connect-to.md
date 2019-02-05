@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 01/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7a6e6979a6281ef6b00a84cff138818869b113e6
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 49ac1f917a5f3095c1dbc13c644061859389fe74
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008039"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482694"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>เชื่อมต่อกับ comScore Digital Analytix ด้วย Power BI
 ดูภาพและสำรวจข้อมูล comScore Digital Analytix ของคุณใน Power BI ด้วยชุดเนื้อหา Power BI ข้อมูลจะรีเฟรชโดยอัตโนมัติหนึ่งครั้งต่อวัน
@@ -63,8 +63,6 @@ ms.locfileid: "54008039"
 **ศูนย์ข้อมูล**
 
 ในศูนย์ข้อมูลที่คุณเชื่อมต่อจะกำหนด โดย URL ที่คุณนำทางไปใน comScore
-
-ถ้าคุณใช้ https://dax.comscore.com ใส่ "US" ถ้าคุณใช้ https://dax.comscore.eu ใส่ "EU"
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 
