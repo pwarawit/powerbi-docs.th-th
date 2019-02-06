@@ -2,20 +2,20 @@
 title: จัดการความจุภายใน Power BI Premium และ Power BI Embedded
 description: เรียนรู้วิธีการจัดการ Power BI Premium และเปิดใช้งานการเข้าถึงเนื้อหาให้ทั้งองค์กรของคุณ
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/20/2018
-ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 0ad902fc08592addb234517af99faedf1851503a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7b7940daa977c05080e5415ae5337a718ada4323
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280961"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762616"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>จัดการความจุภายใน Power BI Premium และ Power BI Embedded
 
