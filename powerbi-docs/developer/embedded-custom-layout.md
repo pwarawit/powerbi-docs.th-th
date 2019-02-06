@@ -2,22 +2,21 @@
 title: เค้าโครงแบบกำหนดเอง ด้วยเนื้อหา Power BI แบบฝังตัว
 description: เรียนรู้เกี่ยวกับเค้าโครงแบบกำหนดเองเมื่อมีการฝังเนื้อหา Power BI ลงในแอปพลิเคชันของคุณ
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.author: maghan
-ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e812fde896072762e113c81b1dd728091a8ff190
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288945"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762317"
 ---
 # <a name="custom-layouts"></a>เค้าโครงแบบกำหนดเอง
-
 
 ใช้เค้าโครงแบบกำหนดเอง เพื่อฝังรายงานที่มีเค้าโครงที่ต่างจากรายงานต้นฉบับ การกำหนดเค้าโครงใหม่ แตกต่างกันออกไประหว่าง กำหนดแค่ขนาดหน้าเท่านั้น ไปจนถึงการควบคุมขนาด หรือตำแหน่ง และการมองเห็นของวิชวล
 
@@ -115,7 +114,6 @@ enum VisualContainerDisplayMode {
 - `width`, ความสูง: กำหนดขนาดของวิชวลใหม่
 - `displayState`: กำหนดการมองเห็นของวิชวล
 
-
 ## <a name="update-layout"></a>ปรับปรุงเค้าโครง
 
 คุณสามารถใช้เมธอด updateSettings เพื่อปรับปรุงเค้าโครงรายงานเวลาใดก็ได้ เมื่อได้โหลดรายงานแล้ว ดู[ปรับปรุงการตั้งค่า](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Update-Settings)
@@ -173,9 +171,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-
 ## <a name="see-also"></a>ดูเพิ่มเติม
 
 [ฝังตัวแดชบอร์ด รายงาน และไทล์ Power BI ของคุณ](embedding-content.md)   
 [ถามชุมชน Power BI](https://community.powerbi.com/)
-

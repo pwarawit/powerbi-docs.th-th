@@ -2,26 +2,28 @@
 title: รายการรหัสเสร็จสมบูรณ์
 description: คำแนะนำในการส่งข้อมูล - รายการรหัสที่เสร็จสมบูรณ์
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 96620449e8be8dbbfa13a00484fff29f2370fe19
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 95aadefab6a98413a22dd9386bfb4fc06cb482cb
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429947"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762248"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>ส่งข้อมูลไปยังชุดข้อมูลรายการรหัสที่สร็จสมบูรณ์
+
 บทความนี้เป็นส่วนหนึ่งของคำแนะนำทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
 
 หลังจากที่คุณทำตามขั้นตอนที่ 2 ถึง 5 ในการ**ส่งข้อมูลไปยังชุดข้อมูล**รหัสแหล่งที่มาที่สมบูรณ์ของคุณควรมีลักษณะดังต่อไปนี้
 
 ## <a name="push-data-to-dataset-code"></a>ส่งข้อมูลไปยังรหัสชุดข้อมูล
+
       using System;
       using Microsoft.IdentityModel.Clients.ActiveDirectory;
       using System.Net;
@@ -219,8 +221,8 @@ ms.locfileid: "55429947"
           }
       }
 
-
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
+
 [ส่งข้อมูลลงในชุดข้อมูล Power BI](walkthrough-push-data.md)  
 [คำแนะนำ - ส่งข้อมูลไปยังชุดข้อมูล Power BI](walkthrough-push-data.md)  
 [ลงทะเบียนแอปกับ Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)  
@@ -231,6 +233,4 @@ ms.locfileid: "55429947"
 [การอ้างอิง Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
 [ภาพรวมของ Power BI REST API](overview-of-power-bi-rest-api.md)  
 
-
 คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
-

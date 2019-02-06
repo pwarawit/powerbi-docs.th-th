@@ -2,21 +2,22 @@
 title: ถามตอบใน Power BI Embedded
 description: Power BI Embedded ให้คุณสามารถรวม ถามตอบ เข้าไปในแอปพลิเคชัน และอนุญาตให้ผู้ใช้ของคุณถามคำถามด้วยภาษาธรรมชาติ
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
-ms.author: maghan
-ms.openlocfilehash: 208c1e2a0e188622f989faa6ba391d9742dd7967
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 23e0f7a938116185e05e583f5c7f208efed3ca4d
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278018"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761926"
 ---
 # <a name="qa-in-power-bi-embedded"></a>ถามตอบใน Power BI Embedded
+
 Power BI Embedded ให้คุณสามารถรวม ถามตอบ เข้าไปในแอปพลิเคชัน และอนุญาตให้ผู้ใช้ของคุณถามคำถามด้วยภาษาธรรมชาติ และได้รับคำตอบทันทีในรูปวิชวล เช่นแผนภูมิ หรือกราฟ
 
 ![การโต้ตอบกับถามตอบ ในเฟรมฝังตัว](media/qanda/embedded-qanda.gif)
@@ -47,13 +48,14 @@ var qna = powerbi.embed(qnaContainer, config);
 ```
 
 ## <a name="set-question"></a>ตั้งค่าคำถาม
+
 ถ้าคุณใช้**โหมดผลลัพธ์** ด้วยคำถามที่ตั้งค่าไว้ คุณสามารถเพิ่มเติมคำถามลงในเฟรม และให้ตอบทันทีแทนที่ผลลัพธ์เดิม วิชวลที่ตรงกับคำถามใหม่จะถูกแสดงแทน
 
 ตัวอย่างหนึ่งของการใช้งานนี้ คือรายการคำถามที่ถามบ่อย ผู้ใช้สามารถไปตามคำถามต่าง ๆ และได้รับคำตอบภายในส่วนฝังตัวเดียวกัน
 
 **โค้ดส่วนย่อสำหรับใช้ใน JS SDK:**  
 
-```        
+```
 // Get a reference to the embedded Q&A HTML element
 var qnaContainer = $('#qnaContainer')[0];
 
@@ -70,6 +72,7 @@ qna.setQuestion("This year sales")
 ```
 
 ## <a name="visual-rendered-event"></a>เหตุการณ์การแสดงผลวิชวล
+
 สำหรับโหมด**โต้ตอบ** แอปพลิเคชันสามารถรับการแจ้งเตือน เหตุการณ์ข้อมูลถูกเปลี่ยนแปลง ทุกครั้งที่วิชวลเปลี่ยนแปลงตามคำถามที่กำลังพิมพ์เข้าไป
 
 การฟังเหตุการณ์ *visualRendered* ให้คุณสามารถบันทึกคำถามไว้ใช้ภายหลัง 
@@ -93,10 +96,11 @@ qna.on("visualRendered", function(event) {
 ```
 
 ## <a name="embed-token"></a>โทเค็นสำหรับฝังตัว
+
 สร้างโทเค็นฝังตัวจากชุดข้อมูล เพื่อเริ่มส่วนถามตอบ สำหรับข้อมูลเพิ่มเติม ดูที่[สร้างโทเค็น](https://docs.microsoft.com/rest/api/power-bi/embedtoken)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
+
 ถ้าต้องการทดลองการฝังตัวถามตอบ ดู[ตัวอย่างการฝังตัวด้วย JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)
 
 คำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
-

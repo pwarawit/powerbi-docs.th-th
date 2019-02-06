@@ -2,21 +2,22 @@
 title: รับโทเค็นการเข้าถึงการรับรองความถูกต้อง
 description: คำแนะนำการส่งข้อมูล - รับโทเค็นการเข้าถึงการรับรองความถูกต้อง
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 1381706801a1a817927c891fcc205950cef24cbb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 2d4e59badf394153dcb6877a270d2ecea63f5df6
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430866"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761972"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>ขั้นตอนที่ 2: รับโทเค็นการเข้าใช้การรับรองความถูกต้อง
+
 บทความนี้เป็นส่วนหนึ่งของคำแนะนำทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
 
 ใน**ขั้นตอนที่ 1**เป็นขั้นตอนของการส่งข้อมูลลงในชุดข้อมูล[ลงทะเบียนแอปกับ Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)คุณลงทะเบียนแอปไคลเอ็นต์ใน Azure AD ในขั้นตอนนี้ คุณจะได้รับโทเค็นการเข้าถึงการรับรองความถูกต้อง แอป Power BI จะรวมกับ**Azure AD**เพื่อให้สามารถเข้าสู่ระบบความปลอดภัยและการตรวจสอบสำหรับแอปของคุณ คุณใช้โทเค็นเพื่อรับรองความถูกต้องในการเข้าถึง**Azure AD**และเพื่อเข้าถึงแหล่งข้อมูลของ Power BI
@@ -24,15 +25,16 @@ ms.locfileid: "55430866"
 นี่คือวิธีการรับโทเค็นการเข้าถึงการรับรองความถูกต้อง
 
 ## <a name="get-an-authentication-access-token"></a>รับโทเค็นการเข้าใช้การรับรองความถูกต้อง
+
 > **หมายเหตุ**: ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่า คุณดำเนินตามขั้นตอนก่อนหน้านี้ในการฝึกปฏิบัติ[พุชข้อมูลลงในชุดข้อมูล](walkthrough-push-data.md)แล้ว
 > 
 > 
 
 1. สร้าง**โครงการแอปพลิเคชันคอนโซล**ใน Studio Visual 2015
 2. ติดตั้ง[ไลบรารีรับรองความถูกต้อง AD Azure สำหรับแพคเกจ .NET NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) ใช้แพคเกจนี้ หากคุณต้องการรับโทเค็นรักษาความปลอดภัยการรับรองความถูกต้องในแอป .NET นี่คือวิธีการติดตั้งแพคเกจ:
-   
+
      ก. ใน Studio Visual 2015 เลือก**เครื่องมือ** > **ตัวจัดการแพคเกจ NuGet** > **คอนโซลตัวจัดการแพคเกจ**
-   
+
      ข. ใน**คอนโซลตัวจัดการแพคเกจ**ใส่แพคเกจติดตั้ง Microsoft.IdentityModel.Clients.ActiveDirectory -รุ่น 2.21.301221612.
 3. เพิ่มรหัสด้านล่างลงในคลาสโปรแกรม {...}
 4. แทนที่ "{ClientID }" ด้วย**ID ไคลเอ็นต์**ที่คุณได้รับเมื่อคุณลงทะเบียนแอป ดู[การลงทะเบียนแอปกับ Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)
@@ -113,6 +115,7 @@ ms.locfileid: "55430866"
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>รายการรหัสเสร็จสมบูรณ์
+
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
@@ -172,10 +175,10 @@ ms.locfileid: "55430866"
         }
     }
 
-
 [ขั้นตอนถัดไป >](walkthrough-push-data-create-dataset.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
+
 [สร้างชุดข้อมูลใน Power BI](walkthrough-push-data-create-dataset.md)  
 [ลงทะเบียนแอปกับ Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)  
 [ไลบรารีรับรองความถูกต้อง AD azure สำหรับแพคเกจ .NET NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
@@ -183,4 +186,3 @@ ms.locfileid: "55430866"
 [ภาพรวมของ Power BI REST API](overview-of-power-bi-rest-api.md)  
 [การอ้างอิง Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
 คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
-

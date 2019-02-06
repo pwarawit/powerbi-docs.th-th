@@ -2,21 +2,22 @@
 title: รับชุดข้อมูลเพื่อเพิ่มแถว
 description: คำแนะนำสำหรับการส่งข้อมูล - รับชุดข้อมูลเพื่อเพิ่มแถวลงในตาราง Power BI
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: cd7f1eabc104da7e310abbfbce2929f047f0e5d8
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: fbde44136f403e3aff0c32d8d4acef4d1970830a
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430843"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762501"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>ขั้นตอนที่ 4: รับชุดข้อมูลเพื่อเพิ่มแถวลงในตาราง Power BI
+
 บทความนี้เป็นส่วนหนึ่งของคำแนะนำทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
 
 ใน**ขั้นตอนที่ 3**เป็นขั้นตอนการส่งข้อมูลไปยังชุดข้อมูล[สร้างชุดข้อมูลใน Power BI](walkthrough-push-data-create-dataset.md)คุณเรียกใช้การดำเนินการ[สร้างชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/datasets)เพื่อสร้างชุดข้อมูลใน Power BI ในขั้นตอนนี้ ให้คุณใช้การดำเนินการ[รับชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)และ Newtonsoft.Json เพื่อรับรหัสชุดข้อมูล คุณสามารถใช้รหัสชุดข้อมูลในขั้นตอนที่ 4 เพื่อเพิ่มแถวไปยังชุดข้อมูล 
@@ -26,14 +27,13 @@ ms.locfileid: "55430843"
 นี่คือวิธีที่คุณได้รับชุดข้อมูล
 
 ## <a name="get-a-power-bi-dataset"></a>รับชุดข้อมูล Power BI
+
 > **หมายเหตุ**: ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่า คุณดำเนินตามขั้นตอนก่อนหน้านี้ในการฝึกปฏิบัติ[พุชข้อมูลลงในชุดข้อมูล](walkthrough-push-data.md)แล้ว
-> 
-> 
 
 1. ในแอปพลิเคชันคอนโซลคุณสร้างในขั้นตอนที่ 2: คำแนะนำการส่งข้อมูล[รับโทเค็นการเข้าถึงการรับรองความถูกต้อง](walkthrough-push-data-get-token.md)ติดตั้งแพคเกจ Newtonsoft.Json NuGet นี่คือวิธีการติดตั้งแพคเกจ:
-   
+
      ก. ใน Studio Visual 2015 เลือก**เครื่องมือ** > **ตัวจัดการแพคเกจ NuGet** > **คอนโซลตัวจัดการแพคเกจ**
-   
+
      ข. ใน**คอนโซล Manager แพคเกจ**ใส่ Newtonsoft.Json แพคเกจติดตั้ง
 2. หลังจากติดตั้งแพคเกจแล้ว เพิ่ม**การใช้ Newtonsoft.Json;** ไปยัง Program.cs
 3. ใน Program.cs เพิ่มรหัสด้านล่างเพื่อรับ**รหัสชุดข้อมูล**
@@ -110,6 +110,7 @@ ms.locfileid: "55430843"
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>รายการรหัสเสร็จสมบูรณ์
+
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     using System.Net;
@@ -265,6 +266,7 @@ ms.locfileid: "55430843"
 [ขั้นตอนถัดไป >](walkthrough-push-data-add-rows.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
+
 [เพิ่มแถวลงในตาราง Power BI](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
 [รับชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
@@ -273,4 +275,3 @@ ms.locfileid: "55430843"
 [การอ้างอิง Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
 
 คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
-
