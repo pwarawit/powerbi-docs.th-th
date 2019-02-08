@@ -870,6 +870,8 @@ items:
       items:
       - name: แนวทางปฏิบัติที่ดีที่สุดของประสิทธิภาพการทำงาน
         href: developer/embedded-performance-best-practices.md
+      - name: โครงร่างสำคัญของบริการ
+        href: developer/embed-service-principal.md
       - name: รักษาความปลอดภัยระดับแถว
         href: developer/embedded-row-level-security.md
       - name: จัดการผู้เช่าจำนวนมาก
@@ -888,7 +890,7 @@ items:
         href: developer/create-an-azure-active-directory-tenant.md
       - name: ลงทะเบียนแอปพลิเคชัน
         href: developer/register-app.md
-      - name: การรับรองความถูกต้องไปยังบริการของ Power BI
+      - name: รับโทเค็นการเข้าถึง Azure AD
         href: developer/get-azuread-access-token.md
       - name: ถามตอบเกี่ยวกับการฝัง
         href: developer/qanda.md
@@ -1036,6 +1038,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: เพิ่มแถวลงในตาราง
         href: developer/walkthrough-push-data-add-rows.md
+      - name: เข้ารหัสข้อมูลประจำตัว
+        href: developer/encrypt-credentials.md
     - name: การอ้างอิง
       items:
       - name: REST API
@@ -1234,9 +1238,9 @@ items:
         href: service-admin-premium-purchase.md
       - name: จัดการ Power BI Premium
         href: service-admin-premium-manage.md
-      - name: ตรวจสอบความจุ Premium ด้วยแอป
+      - name: ตรวจสอบความจุด้วยแอป
         href: service-admin-premium-monitor-capacity.md
-      - name: ตรวจสอบความจุ Premium ในพอร์ทัลผู้ดูแลระบบ
+      - name: ตรวจสอบความจุในพอร์ทัลผู้ดูแลระบบ
         href: service-admin-premium-monitor-portal.md
       - name: รีสตาร์ตความจุแบบพรีเมียม
         href: service-admin-premium-restart.md
@@ -1301,9 +1305,9 @@ items:
       href: service-admin-governance.md
     - name: ความปลอดภัยของ Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e5f1b5c6ac45f6f37b61692fe4bd7f5cc086aec5
-ms.sourcegitcommit: 01d08ddf9a437489f75501efda6b3b0d8cbd7864
+ms.openlocfilehash: 27de32e6dda7f6eba069eaee56582a449dca858c
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55760406"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794497"
