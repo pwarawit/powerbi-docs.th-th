@@ -2,19 +2,19 @@
 title: Power BI ใช้นโยบายการเก็บข้อมูลโดยอัตโนมัติสำหรับข้อมูลแบบเรียลไทม์
 description: เรียนรู้เกี่ยวกับนโยบายการเก็บข้อมูลโดยอัตโนมัติในบริการ Power BI
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 9b5923c7bd92b1fe53ebb7ab9416aca8cece3cfa
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 246feb1cb15d1688cab044151b50ba62db45c453
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294391"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762409"
 ---
 # <a name="automatic-retention-policy-for-real-time-data"></a>นโยบายการเก็บข้อมูลโดยอัตโนมัติสำหรับข้อมูลแบบเรียลไทม์
 
@@ -26,6 +26,6 @@ ms.locfileid: "54294391"
 
 </center>
 
-นโยบายการเก็บข้อมูลจะเปิดใช้งานเมื่อคุณสร้างชุดข้อมูลครั้งแรก สิ่งที่ต้องทำคือเพิ่มคิวรีพารามิเตอร์ "defaultRetentionPolicy" เข้าไปยังชุดข้อมูลโพสต์ของคุณจากนั้นให้เรียกใช้และตั้งค่าเท่ากับ*basicFIFO*  
+นโยบายการเก็บข้อมูลจะเปิดใช้งานเมื่อคุณสร้างชุดข้อมูลครั้งแรก สิ่งที่คุณต้องทำคือการเพิ่มพารามิเตอร์คิวรี "นโยบายการเก็บข้อมูลค่าเริ่มต้น" เข้าไปยังชุดข้อมูล POST ของคุณจากนั้นให้เรียกใช้และตั้งค่าเท่ากับ*basicFIFO*  
   
     POST https://api.powerbi.com/v1.0/myorg/datasets?defaultRetentionPolicy={None | basicFIFO}

@@ -9,28 +9,28 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: df77d4b9642a6df511af8af054e3e983c0120f77
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b1357d2e10214cdf578bff4d2aa7fca8fc19033
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291636"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794706"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>ภาพรวมคู่มือสำหรับนักพัฒนา เซิร์ฟเวอร์รายงาน Power BI
 ยินดีต้อนรับสู่คู่มือสำหรับนักพัฒนา สำหรับเซิร์ฟเวอร์รายงาน Power BI ซึ่งใช้จัดเก็บ และจัดการรายงาน Power BI, รายงานบนอุปกรณ์เคลื่อนที่ และรายงานที่จัดรูปหน้าแล้วของคุณภายในองค์กร
 
 ![](media/developer-handbook-overview/admin-handbook.png)
 
-คู่มือนี้จะแสดงให้เห็นตัวเลือกที่คุณมี สำหรับนักพัฒนา เพื่อทำงานกับ เซิร์ฟเวอร์รายงาน Power BI
+คู่มือนี้แสดงให้เห็นตัวเลือกที่คุณมีในฐานะนักพัฒนา เพื่อทำงานกับ เซิร์ฟเวอร์รายงาน Power BI
 
 ## <a name="embedding"></a>การฝังตัว
-สำหรับรายงานใด ๆ ภายในเซิร์ฟเวอร์รายงาน Power BI คุณสามารถฝังตัวภายใน iFrame โดยการเพิ่มพารามิเตอร์ querystring `?rs:Embed=true` เข้าไปใน URL ซึ่งทำงานได้กับรายงาน Power BI เช่นเดียวกับรายงานชนิดอื่น ๆ
+สำหรับรายงานใด ๆ ภายในเซิร์ฟเวอร์รายงาน Power BI คุณสามารถฝังตัวภายใน iFrame โดยการเพิ่มพารามิเตอร์ querystring `?rs:Embed=true` เข้าไปใน URL เทคนิคนี้สามารทำงานร่วมกับรายงาน Power BI เช่นเดียวกับรายงานชนิดอื่น ๆ
 
 ### <a name="report-viewer-control"></a>ตัวควบคุม Report Viewer
-สำหรับรายงานที่มีการแบ่งหน้า คุณสามารถใช้ประโยชน์จากตัวควบคุม Report Viewer ซึ่งให้คุณสามารถวางตัวควบคุมภายใน .NET Windows แอปพลิเคชัน หรือเว็บแอปพลิเคชัน สำหรับข้อมูลเพิ่มเติม ดู[เริ่มต้นใช้งานตัวควบคุม Report Viewer](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)
+สำหรับรายงานที่มีการแบ่งหน้า คุณสามารถใช้ประโยชน์จากตัวควบคุม Report Viewer ด้วยเทคนิคนี้ คุณสามารถใส่ตัวควบคุมภายใน .NET Windows หรือแอปพลิเคชันเว็บ สำหรับข้อมูลเพิ่มเติม ดู[เริ่มต้นใช้งานตัวควบคุม Report Viewer](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)
 
 ## <a name="apis"></a>API
-คุณมีหลายตัวเลือกสำหรับ API เพื่อโต้ตอบกับเซิร์ฟเวอร์รายงาน Power BI ซึ่งรวมไปถึงต่อไปนี้
+คุณมีหลายตัวเลือกสำหรับ API เพื่อโต้ตอบกับเซิร์ฟเวอร์รายงาน Power BI ซึ่งรวมไปถึงรายการต่อไปนี้
 
 * [REST API](rest-api.md)
 * [การเข้าถึง URL](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)

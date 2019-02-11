@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 174886acf1d827497b48d660bb89e2b4057b09b9
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234692"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794855"
 ---
 # <a name="visualization-types-in-power-bi"></a>ชนิดการแสดงภาพใน Power BI
 คุณจะพบการแสดงผลด้วยภาพในรายงานแดชบอร์ด แอป และถามตอบ (Q&A) ชนิดการแสดงผลด้วยภาพเหล่านี้บางส่วนถูกรวมเป็นแพคเกจเข้ากับ Power BI และบางส่วนเป็น *วิชวลแบบกำหนดเอง* วิชวลแบบกำหนดเองถูกสร้างขึ้นนอก Power BI และในแนวทางที่อนุญาตให้ *ผู้ออกแบบรายงาน* เพิ่มลงในรายงาน Power BI แดชบอร์ด และแอปได้ 
@@ -26,7 +26,7 @@ ms.locfileid: "55234692"
 > หากต้องการเรียนรู้เกี่ยวกับวิชวลแบบกำหนดเอง ให้ค้นหาวิชวลเหล่านั้นในส่วน **วิชวล Power BI** ของ [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) สำหรับแต่ละวิชวล คุณจะพบคำอธิบาย ข้อมูลผู้สร้าง และภาพหน้าจอหรือวิดีโอ 
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>รายการของการแสดงภาพที่พร้อมใช้งานใน Power BI
-คุณสามารถพบการแสดงผลด้วยภาพเหล่านี้ทั้งหมดได้ในแอป Power BI, แดชบอร์ด, รายงานและ [ที่ระบุในถามตอบ (Q&A)](#gna)
+คุณสามารถพบการแสดงผลด้วยภาพเหล่านี้ทั้งหมดได้ในแอป Power BI, แดชบอร์ด, รายงานและ [ที่ระบุในถามตอบ (Q&A)](#qna) หากต้องการเรียนรู้วิธีการโต้ตอบกับการแสดงภาพ ดู[โต้ตอบกับการแสดงภาพในรายงาน แดชบอร์ด และแอป](end-user-visualizations.md)
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>แผนภูมิพื้นที่: พื้นฐาน (เป็นชั้น) และแบบเรียงซ้อน
 ![แผนภูมิพื้นที่](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
@@ -232,5 +232,5 @@ KPI เป็นตัวเลือกที่ดีที่สุด:
 ![เซสชันถามตอบ](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[การแสดงภาพในรายงาน Power BI](end-user-visualizations.md)    
+[โต้ตอบกับการแสดงภาพในรายงาน แดชบอร์ด และแอป](end-user-visualizations.md)    
 [อ้างอิงภาพที่ถูกต้องจาก sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

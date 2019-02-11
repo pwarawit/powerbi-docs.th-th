@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: 790c06dd84d7db3a382ef547c8fcc16237273951
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 69ce8088903cbdddef504dbf5e9b2ecc2a8ab9d4
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431165"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762685"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>บทช่วยสอน: ฝังในแดชบอร์ด ไทล์ หรือรายงาน Power BI ลงในแอปพลิเคชันสำหรับคลาวด์แบบ sovereign
+# <a name="tutorial-embed-a-power-bi-content-into-your-application-for-sovereign-clouds"></a>บทช่วยสอน: ฝังเนื้อหาของ Power BI ลงในแอปพลิเคชันสำหรับบริการคลาวด์สาธารณะ
 
 เรียนรู้วิธีการฝังเนื้อหาวิเคราะห์ภายในองค์กรของคุณที่ดำเนินการสร้างแอปพลิเคชั่นสำหรับบริการคลาวด์ คุณสามารถใช้ Power BI .NET SDK ด้วยกันกับ Power BI JavaScript API เพื่อฝังรายงาน แดชบอร์ด หรือ ไทล์ ลงในเว็บแอปพลิเคชันของคุณ
 
@@ -37,7 +37,7 @@ Sovereign cloud ได้แก่:
 
 ![แดชบอร์ดแบบฝังตัว](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-เมื่อต้องการเริ่มต้นการฝึกปฏิบัตินี้ คุณต้องการ**บัญชี Power BI** ถ้าคุณยังไม่มีบัญชีผู้ใช้ ขึ้นอยู่กับชนิดของบริการคลาวด์แบบ sovereign คุณสามารถ[ลงทะเบียนบัญชี Power BI สำหรับรัฐบาลสหรัฐ](../service-govus-signup.md) หรือ [บัญชี Power BI สำหรับผู้ใช้คลาวด์เยอรมนี](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) หรือ [Power BI สำหรับผู้ใช้คลาวด์ประเทศจีน](http://www.21vbluecloud.com/powerbi/)
+เมื่อต้องการเริ่มต้นการฝึกปฏิบัตินี้ คุณต้องการ**บัญชี Power BI** ถ้าคุณไม่มีการตั้งค่าบัญชี คุณสามารถเลือกบริการคลาวด์สาธารณะที่เหมาะสมสำหรับคุณ ทั้งนี้ขึ้นอยู่กับชนิดของภาครัฐหรือประเทศ คุณสามารถ[ลงทะเบียนบัญชี Power BI สำหรับรัฐบาลสหรัฐ](../service-govus-signup.md) หรือ [บัญชี Power BI สำหรับผู้ใช้คลาวด์เยอรมนี](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) หรือ [Power BI สำหรับผู้ใช้คลาวด์ประเทศจีน](http://www.21vbluecloud.com/powerbi/)
 
 > [!NOTE]
 > กำลังมองหาวิธีฝังแดชบอร์ดสำหรับองค์กรของคุณแทน ดูที่ [รวมแดชบอร์ดลงในแอปสำหรับองค์กรของคุณ](integrate-dashboard.md)
@@ -229,7 +229,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>สร้างโทเค็นแบบฝังตัว
 
-คุณสามารถสร้างโทเค็นการฝังได้โดยใช้ JavaScript API โทเค็นแบบฝังตัวจะเป็นแบบเฉพาะเจาะจงกับรายการที่คุณจะฝัง ซึ่งหมายความว่า ทุกครั้งที่คุณต้องการฝังเนื้อหาของ Power BI ชิ้นหนึ่ง คุณต้องสร้างโทเค็นการฝังใหม่ขึ้นมา สำหรับข้อมูลเพิ่มเติม รวมไปถึง **accessLevel** ที่จะใช้ ดู[โทเค็นที่ฝัง](https://docs.microsoft.com/rest/api/power-bi/embedtoken)
+คุณสามารถสร้างโทเค็นการฝังได้โดยใช้ JavaScript API โทเค็นแบบฝังตัวจะเป็นแบบเฉพาะเจาะจงกับรายการที่คุณจะฝัง ซึ่งหมายความว่า ทุกครั้งที่คุณต้องการฝังเนื้อหาของ Power BI ชิ้นหนึ่ง คุณต้องสร้างโทเค็นแบบฝังตัวใหม่ขึ้นมา สำหรับข้อมูลเพิ่มเติม รวมไปถึง **accessLevel** ที่จะใช้ ดู[โทเค็นที่ฝัง](https://docs.microsoft.com/rest/api/power-bi/embedtoken)
 
 > [!IMPORTANT]
 > เนื่องจากโทเค็นแบบฝังตัวมีไว้สำหรับการทดสอบของนักพัฒนาเท่านั้น จำนวนโทเค็นแบบฝังตัวที่บัญชีหลักของ Power BI สร้างได้ มีได้จำกัด [ต้องซื้อความจุ](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) สำหรับสถานการณ์ที่มีการฝังในโปรดักชั่น ไม่จำกัดจำนวนโทเค็นแบบฝังตัวที่สร้างเมื่อซื้อความจุแล้ว
@@ -435,8 +435,8 @@ var embedConfig = new TileEmbedConfig()
 
 * [วิธีการย้ายเนื้อหาจาก Power BI Workspace Collection ไปยัง Power BI](migrate-from-powerbi-embedded.md)
 
-ข้อจำกัดและข้อควรพิจารณา
+ข้อควรพิจารณาและข้อจำกัด
 
-* บัญชีผู้ใช้ GCC สนับสนุนเฉพาะความสามารถ P และ EM เท่านั้น
+* บัญชีผู้ใช้ GCC รองรับเฉพาะความจุ P และ EM เท่านั้น
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)

@@ -1,6 +1,6 @@
 ---
 title: ใช้ความปลอดภัยระดับแถวด้วยเนื้อหา Power BI Embedded
-description: เรียนรู้เกี่ยวกับขั้นตอนที่คุณจำเป็นต้องทำเพื่อฝังเนื้อหา Power BI ภายในแอปพลิเคชันของคุณ
+description: เรียนรู้เกี่ยวกับขั้นตอนที่คุณจำเป็นต้องดำเนินการเพื่อฝังเนื้อหา Power BI ภายในแอปพลิเคชันของคุณ
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -8,15 +8,15 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: f50305eed647bfc94bc5c19ee1a298cb9ac9c782
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284184"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762708"
 ---
-# <a name="use-row-level-security-with-power-bi-embedded-content"></a>ใช้ความปลอดภัยระดับแถวด้วยเนื้อหา Power BI Embedded
+# <a name="row-level-security-with-power-bi-embedded"></a>การรักษาความปลอดภัยระดับแถวด้วย Power BI Embedded
 
 **การรักษาความปลอดภัยระดับแถว (RLS)** สามารถใช้เพื่อจำกัดการเข้าถึงข้อมูลภายในแดชบอร์ด ไทล์ รายงาน และชุดข้อมูลของผู้ใช้ ผู้ใช้ที่แตกต่างกันสามารถทำงานกับวัตถุเดียวกันทั้งหมดเหล่านั้นในขณะที่ดูข้อมูลที่แตกต่างกันได้ การฝัง RLS ที่สนับสนุน
 
@@ -308,6 +308,18 @@ public IdentityBlob(string value);
 
    ![การลงทะเบียนแอปฯ](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
+## <a name="on-premises-data-gateway-with-service-principal-preview"></a>เกตเวย์ข้อมูลภายในองค์กรด้วยบริการหลัก (ตัวอย่าง)
+
+ลูกค้าที่กำหนดค่าการรักษาความปลอดภัยระดับแถว (RLS) ใช้แหล่งข้อมูลแบบเชื่อมต่อสดภายในองค์กรของ SQL Server Analysis Services (SSAS) สามารถเพลิดเพลินไปกับความจุของ [บริการหลัก](embed-service-principal.md)ใหม่ในการจัดการผู้ใช้และการเข้าถึงข้อมูลใน SSAS ของพวกเขาเมื่อรวมเข้ากับ**Power BI Embedded**
+
+การใช้[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) ช่วยให้คุณสามารถระบุข้อมูลประจำตัวที่มีผลบังคับใช้สำหรับการเชื่อมต่อแบบสดภายในองค์กรของ SSAS สำหรับโทเค็นแบบฝังโดยใช้[ออบเจ็กต์ของบริการหลัก](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)
+
+จนถึงตอนนี้ เพื่อให้สามารถระบุข้อมูลประจำตัวที่มีผลบังคับใช้สำหรับการเชื่อมต่อแบบสดภายในองค์กรของ SSAS ผู้ใช้หลักที่สร้างโทเค็นแบบฝังตัวต้องเป็นผู้ดูแลระบบเกตเวย์ ตอนนี้ แทนที่จะต้องเป็นผู้ดูแลระบบเกตเวย์ ผู้ดูแลระบบเกตเวย์สามารถให้สิทธิ์เฉพาะแก่ผู้ใช้สำหรับแหล่งข้อมูลนั้นที่อนุญาตให้ผู้ใช้สามารถเขียนทับข้อมูลประจำตัวที่มีผลบังคับใช้เมื่อสร้างโทเค็นแบบฝังตัว ความสามารถใหม่นี้จะเปิดใช้งานการฝังด้วยบริการหลักสำหรับการเชื่อมต่อแบบสดของ SSAS
+
+เมื่อต้องการเปิดใช้งานสถานการณ์สมมตินี้ ผู้ดูแลระบบเกตเวย์สามารถใช้[เพิ่ม REST API ของผู้ใช้แหล่งข้อมูล ](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser)เพื่อให้สิทธิ์ *ReadOverrideEffectiveIdentity* ของบริการหลักสำหรับ Power BI Embedded
+
+คุณไม่สามารถตั้งค่าสิทธิ์นี้โดยใช้พอร์ทัลผู้ดูแลระบบ สิทธิ์นี้สามารถตั้งค่าได้เฉพาะด้วย API เท่านั้น ในพอร์ทัลผู้ดูแลระบบ คุณเห็นการระบุสำหรับผู้ใช้และ SPN ที่มีสิทธิ์ดังกล่าว
+
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 
 * การกำหนดบทบาทให้ผู้ใช้ภายในบริการ Power BI จะไม่ส่งผลต่อ RLS เมื่อใช้โทเค็นที่ฝัง
@@ -315,7 +327,7 @@ public IdentityBlob(string value);
 * การเชื่อมต่อแบบสดของ Analysis Services ได้รับการสนับสนุนสำหรับเซิร์ฟเวอร์ภายในองค์กร
 * การเชื่อมต่อแบบสดของ Azure Analysis Services Azure สนับสนุนการกรองด้วยบทบาท การกรองแบบไดนามิกสามารถทำได้โดยใช้ CustomData
 * ถ้าชุดข้อมูลพื้นฐานไม่จำเป็นต้องใช้ RLS คำขอ GenerateToken ต้อง**ไม่มี**ข้อมูลประจำตัวที่มีผลบังคับใช้
-* ถ้าชุดข้อมูลพื้นฐานคือโมเดลคลาวด์ (แบบจำลองที่แคชหรือ DirectQuery) ข้อมูลประจำตัวที่มีผลบังคับใช้ต้องมีอย่างน้อยหนึ่งบทบาทมิฉะนั้นการมอบหมายบทบาทจะไม่เกิดขึ้น
+* ถ้าชุดข้อมูลพื้นฐานคือแบบจำลองบนคลาวด์ (แบบจำลองที่แคชหรือ DirectQuery) ข้อมูลประจำตัวที่มีผลบังคับใช้ต้องมีอย่างน้อยหนึ่งบทบาท มิฉะนั้นการมอบหมายบทบาทจะไม่เกิดขึ้น
 * รายการข้อมูลประจำตัวจะเปิดใช้โทเค็นข้อมูลประจำตัวสำหรับการฝังแดชบอร์ด สำหรับวัตถุอื่นๆ ทั้งหมด รายการจะประกอบด้วยข้อมูลประจำตัวรายการเดียว
 
 ### <a name="token-based-identity-limitations-preview"></a>การจำกัดข้อมูลประจำตัวที่ใช้โทเค็น (ตัวอย่าง)

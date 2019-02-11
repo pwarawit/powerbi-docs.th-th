@@ -2,24 +2,24 @@
 title: สร้างความจ Power BI Embedded ในพอร์ทัล Azure | Microsoft Docs
 description: บทความนี้แนะนำเกี่ยวกับวิธีการสร้างความจุ Power BI Embedded ใน Microsoft Azure
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.service: power-bi-embedded
 ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
-ms.reviewer: ''
-ms.date: 07/31/2018
-ms.openlocfilehash: caab7ce649687ec22d171e112382aa13d7652fb9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.reviewer: zakharb
+ms.date: 02/05/2019
+ms.openlocfilehash: 1d829dc31bc6e2419d4f2c187b40d6945f963f69
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288554"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762570"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>สร้างความจุ Power BI Embedded ในพอร์ทัล Azure
 
-บทความนี้แนะนำเกี่ยวกับวิธีการสร้างความจุ Power BI Embedded ใน Microsoft Azure Power BI Embedded ช่วยลดความสามารถของ Power BI ด้วยการช่วยให้คุณสามารถเพิ่มภาพ รายงาน และแดชบอร์ดที่สวยงามลงในแอปพลิเคชันของคุณได้อย่างรวดเร็ว
+บทความนี้แนะนำเกี่ยวกับวิธีการสร้างความจุ [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) ใน Microsoft Azure Power BI Embedded ช่วยลดความสามารถของ Power BI ด้วยการช่วยให้คุณสามารถเพิ่มภาพ รายงาน และแดชบอร์ดที่สวยงามลงในแอปพลิเคชันของคุณได้อย่างรวดเร็ว
 
 ถ้าคุณยังไม่มีการสมัครใช้งาน Azure สร้าง[บัญชีฟรี](https://azure.microsoft.com/free/)ก่อนที่คุณจะเริ่ม
 
@@ -30,7 +30,7 @@ ms.locfileid: "54288554"
 เมื่อต้องการทำตามการเริ่มต้นใช้งานด่วน คุณจำเป็นต้อง:
 
 * **สมัครใช้งาน azure:** เยี่ยมชม[ Azure รุ่นทดลองใช้ฟรี ](https://azure.microsoft.com/free/)เพื่อสร้างบัญชีผู้ใช้
-* **Azure Active Directory:** การสมัครใช้งานของคุณต้องเชื่อมโยงกับผู้เช่าของ Azure Active Directory (AAD) นอกจากนี้ ***คุณต้องลงชื่อเข้าใช้ Azure ด้วยบัญชีผู้เช่ารายนั้น*** ไม่รองรับบัญชี Microsoft หากต้องการเรียนรู้เพิ่มเติม ดู[การรับรองความถูกต้องและสิทธิ์ผู้ใช้](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users)
+* **Azure Active Directory:** การสมัครใช้งานของคุณต้องเชื่อมโยงกับผู้เช่าของ Azure Active Directory (AAD) นอกจากนี้ ***คุณต้องลงชื่อเข้าใช้ Azure ด้วยบัญชีผู้เช่ารายนั้น*** บัญชี Microsoft ไม่ได้รับการสนับสนุน หากต้องการเรียนรู้เพิ่มเติม ดู[การรับรองความถูกต้องและสิทธิ์ผู้ใช้](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users)
 * **ผู้เช่า Power BI:** บัญชีในผู้เช่า AAD ของคุณอย่างน้อยหนึ่งบัญชีต้องลงชื่อสมัครใช้งาน Power BI
 * **กลุ่มทรัพยากร:** ใช้กลุ่มทรัพยากรที่คุณมีอยู่หรือ[สร้างกลุ่มใหม่](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)
 
@@ -38,13 +38,11 @@ ms.locfileid: "54288554"
 
 1. ลงชื่อเข้าใช้[พอร์ทัล Azure](https://portal.azure.com/)
 
-2. เลือก**สร้างทรัพยากร** > **ข้อมูล + วิเคราะห์**
+2. ในกล่องค้นหา ค้นหาสำหรับ*Power BI Embedded*
 
-3. ในกล่องค้นหา ค้นหาสำหรับ*Power BI Embedded*
+3. ภายใน Power BI Embedded เลือก**สร้าง**
 
-4. ภายใน Power BI Embedded เลือก**สร้าง**
-
-5. กรอกข้อมูลที่จำเป็น จากนั้นเลือก**สร้าง**
+4. กรอกข้อมูลที่จำเป็น จากนั้นเลือก**สร้าง**
 
     ![ฟิลด์เพื่อกรอกข้อมูลสำหรับสร้างความจุใหม่](media/azure-pbie-create-capacity/azure-portal-create-power-bi-embedded.png)
 
@@ -57,9 +55,7 @@ ms.locfileid: "54288554"
     |**ตำแหน่งที่ตั้ง**|ตำแหน่งที่ตั้งที่โฮสต์ Power BI สำหรับผู้เช่าของคุณ ตำแหน่งเริ่มต้นของคุณคือ ภูมิภาคบ้านของคุณ แต่คุณสามารถเปลี่ยนตำแหน่งที่ตั้งโดยใช้[ตัวเลือก Multi-Geo](embedded-multi-geo.md)
     |**ระดับการกำหนดราคา**|เลือก SKU (วี-คอร์เคานต์และขนาดหน่วยความจำ) ที่ตรงตามความต้องการของคุณ  สำหรับรายละเอียดเพิ่มเติม ดู[การกำหนดราคา Power BI Embedded](https://azure.microsoft.com/pricing/details/power-bi-embedded/)|
 
-6. เลือก **สร้าง**
-
-โดยปกติการสร้างมักใช้เวลาไม่เกินหนึ่งนาที บ่อยครั้งที่ใช้เวลาสองถึงสามวินาที ถ้าคุณเลือก **ปักหมุดไปยังแดชบอร์ด** คุณสามารถนำทางไปยังแดชบอร์ดเพื่อดูความจุใหม่ของคุณได้ อีกวิธีหนึ่งคือ คุณสามารถนำทางไปยัง **บริการทั้งหมด** > **Power BI Embedded**เพื่อดูว่าความจุของคุณพร้อมแล้วหรือยัง
+คุณสามารถนำทางไปยัง **บริการทั้งหมด** > **Power BI Embedded**เพื่อดูว่าความจุของคุณพร้อมแล้วหรือยัง อีกวิธีหนึ่งคือ คุณสามารถเลือก**ปักหมุดลงในแดชบอร์ด**จากส่วนแจ้งเตือน หรือ จากภายในพาเนล การนำทางไปยังแดชบอร์ดของคุณเพื่อดูความจุของคุณใหม่ได้
 
 ![แดชบอร์ดพอร์ทัล Azure ที่มีความจุ Power BI Embedded](media/azure-pbie-create-capacity/azure-portal-dashboard.png)
 
