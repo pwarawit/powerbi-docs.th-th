@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8cda803939ee9ae2f864496300fce25890770dac
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
+ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430384"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55888244"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>ดูแล Power BI ในพอร์ทัลผู้ดูแลระบบ
 
@@ -288,16 +288,6 @@ ms.locfileid: "55430384"
 
 ผู้ใช้ในองค์กรสามารถฝังแดชบอร์ดและรายงาน Power BI ในแอปพลิเคชัน Software as a Service (SaaS) ได้ ปิดใช้งานการตั้งค่านี้ป้องกันไม่ให้ผู้ใช้ใช้ REST Api ฝังเนื้อหา Power BI ภายในแอปพลิเคชันของพวกเขา [เรียนรู้เพิ่มเติม](developer/embedding.md)
 
-## <a name="workspaces-and-import-settings"></a>การตั้งค่าพื้นที่ทำงานและการนำเข้า
-
-### <a name="author-content-in-workspaces"></a>เนื้อหาของผู้เขียนในพื้นที่ทำงาน
-
-ผู้ใช้ในองค์กรสามารถเข้าถึงพื้นที่ทำงานเพื่อเชื่อมต่อกับข้อมูลและเนื้อหาของผู้เขียนได้ [เรียนรู้เพิ่มเติม](service-create-the-new-workspaces.md)
-
-### <a name="import-data-into-power-bi"></a>นำเข้าข้อมูลลงใน Power BI
-
-ผู้ใช้ในองค์กรสามารถนำเข้าข้อมูลลงในบริการได้ เช่น การรายงานการเผยแพร่จาก Power BI Desktop, การอัปโหลดไฟล์รายงาน Power BI และการเชื่อมต่อกับข้อมูลจากบริการโดยตรง [เรียนรู้เพิ่มเติม](desktop-upload-desktop-files.md)
-
 ## <a name="dataflow-settings-preview"></a>การตั้งค่ากระแสข้อมูล (ตัวอย่าง)
 
 ### <a name="create-and-use-dataflows-preview"></a>สร้างและใช้กระแสข้อมูล (ตัวอย่าง)
@@ -307,7 +297,7 @@ ms.locfileid: "55430384"
 > [!NOTE]
 > การตั้งค่านี้จะนำไปใช้กับทั้งองค์กร และไม่สามารถจำกัดให้กับเฉพาะกลุ่มได้
 
-## <a name="capacity-settings"></a>การตั้งค่ากำลังการผลิต
+## <a name="capacity-settings"></a>การตั้งค่าความจุ
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
