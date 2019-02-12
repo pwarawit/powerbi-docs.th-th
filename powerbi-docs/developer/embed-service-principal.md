@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: a0b1722a54f1e5ea5bf01d8e5bb5fb4753351a60
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763161"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971682"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>บริการหลักพร้อมด้วย Power BI (ตัวอย่าง)
 
@@ -108,9 +108,6 @@ ms.locfileid: "55763161"
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-    > [!Note]
-    > เฉพาะผู้ดูแลระบบส่วนกลางของ AAD เท่านั้นที่สามารถสร้างกลุ่มความปลอดภัย AAD ได้
-
 3. ในฐานะผู้ดูแลระบบ Power BI คุณจำเป็นต้องเปิดใช้งานบริการหลักใน**การตั้งค่านักพัฒนา**ในพอร์ทัลผู้ดูแลระบบ Power BI เพิ่มกลุ่มความปลอดภัยที่คุณสร้างใน Azure AD สำหรับส่วน**กลุ่มความปลอดภัยเฉพาะ**ใน**การตั้งค่านักพัฒนา**
 
    > [!Important]
@@ -149,7 +146,7 @@ ms.locfileid: "55763161"
 
 2. จากนั้นภายใต้**แอปพลิเคชันที่ได้รับการจัดการในไดเรกทอรีภายในเครื่อง** เลือกชื่อของแอปพลิเคชันที่คุณสร้างขึ้น
 
-   ![แอปพลิเคชันในไดเรกทอรีภายในเครื่องที่มีจัดการ](media/embed-service-principal/managed-application-in-local-directory.png)
+   ![แอปพลิเคชันในไดเรกทอรีภายในเครื่องที่มีการจัดการ](media/embed-service-principal/managed-application-in-local-directory.png)
 
     > [!Note]
     > Id ออบเจ็กต์ในรูปด้านบนไม่ใช่ออบเจ็กต์ที่ใช้กับบริการหลัก
@@ -173,6 +170,7 @@ ms.locfileid: "55763161"
 * คุณจำเป็นต้องมีสิทธิ์ของผู้ดูแลระบบ Power BI เพื่อเปิดใช้งานบริการหลักในการตั้งค่านักพัฒนาภายในพอร์ทัลผู้ดูแลระบบของ Power BI
 * คุณไม่สามารถติดตั้ง หรือจัดการเกตเวย์ข้อมูลภายในองค์กรโดยใช้บริการหลัก
 * แอปพลิเคชัน[แบบฝังตัวสำหรับองค์กรของคุณ](embed-sample-for-your-organization.md)ไม่สามารถใช้บริการหลักได้
+* [Dataflows](../service-dataflows-overview.md) การจัดการไม่ได้รับการสนับสนุน
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

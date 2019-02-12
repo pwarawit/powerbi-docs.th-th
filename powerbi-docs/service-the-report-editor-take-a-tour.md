@@ -1,6 +1,6 @@
 ---
 title: แนะนำตัวแก้ไขรายงาน
-description: ตัวแก้ไขรายงานในบริการ Power BI และตัวแก้ไขรายงานใน Power BI Desktop จะคล้ายคลึงกัน
+description: ตัวแก้ไขรายงานในบริการของ Power BI และตัวแก้ไขรายงานใน Power BI Desktop จะคล้ายคลึงกัน
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,21 +8,23 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/25/2019
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147415"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971705"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>แนะนำตัวแก้ไขรายงานใน Power BI
 
-*ตัวแก้ไขรายงาน*ในบริการ Power BI และตัวแก้ไขรายงานใน Power BI Desktop จะคล้ายคลึงกัน วิดีโอแสดงตัวแก้ไขรายงานใน Power BI Desktop และบทความนี้แสดงตัวแก้ไขรายงานในบริการ Power BI 
+*ตัวแก้ไขรายงาน*ในบริการ Power BI และตัวแก้ไขรายงานใน Power BI Desktop จะคล้ายคลึงกัน โดยทั่วไปคุณจะเริ่มต้นด้วยการสร้างรายงานใน Power BI Desktop จากนั้นจึงเผยแพร่รายงานไปยังบริการของ Power BI ซึ่งเป็นที่ที่คุณสามารถดำเนินการปรับเปลี่ยนต่อได้ นอกจากนี้บริการของ Power BI ยังเป็นที่ที่คุณสร้างแดชบอร์ดโดยยึดตามรายงานของคุณอีกด้วย
 
-ในฐานะผู้สร้างรายงาน คุณสร้างและแก้ไขแดชบอร์ดและรายงาน จากนั้น คุณแจกจ่ายให้กับผู้ใช้รายงานของคุณ พวกเขาอาจโต้ตอบกับแดชบอร์ดและรายงานของคุณในมุมมองการอ่านในบริการ Power BI แต่ไม่สามารถแก้ไขได้ อ่านเพิ่มเติมเกี่ยวกับ[สิ่งที่ผู้ใช้รายงานสามารถทำในบริการ Power BI](consumer/end-user-reading-view.md) 
+หลังจากที่สร้างแดชบอร์ดและรายงานของคุณแล้ว คุณจึงสามารถแจกจ่ายให้แก่ผู้ใช้รายงานของคุณได้ ทั้งนี้จะขึ้นอยู่กับวิธีที่คุณแชร์ ผู้ใช้ปลายทางของคุณอาจสามารถโต้ตอบได้ในมุมมองการอ่านซึ่งอยู่ในบริการของ Power BI แต่จะไม่สามารถแก้ไขได้ อ่านเพิ่มเติมเกี่ยวกับ [สิ่งที่ผู้ใช้รายงานสามารถทำได้ในบริการของ Power BI](consumer/end-user-reading-view.md) 
+
+วิดีโอนี้แสดงเครื่องมือแก้ไขรายงานใน Power BI Desktop บทความนี้แสดงตัวแก้ไขรายงานในบริการของ Power BI 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -79,7 +81,7 @@ ms.locfileid: "55147415"
 เมื่อต้องการแสดงพื้นที่ Analystics เลือกไอคอนแว่นขยาย ตัวเลือกที่พร้อมใช้งานขึ้นอยู่กับประเภทของการแสดงภาพที่เลือก
 
 ![พื้นที่ Analytics ในตัวแก้ไขรายงาน](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
-มีพื้นที่การวิเคราะห์ในบริการ Power BI คุณสามารถเพิ่มรายการอ้างอิงแบบไดนามิกเพื่อจัดรูปแบบข้อมูล และโฟกัสไปที่แนวโน้มที่สำคัญหรือข้อมูลเชิงลึก เมื่อต้องการเรียนรู้เพิ่มเติม ดู[พื้นที่การวิเคราะห์ในบริการ Power BI](service-analytics-pane.md)หรือ[พื้นที่การวิเคราะห์ใน Power BI Desktop](desktop-analytics-pane.md)
+ด้วยบานหน้าต่างการวิเคราะห์ในบริการของ Power BI คุณสามารถเพิ่มสายการอ้างอิงแบบไดนามิกให้กับการแสดงภาพ และเน้นไปที่แนวโน้มสำคัญหรือข้อมูลเชิงลึกได้ โปรดดู [บานหน้าต่างการวิเคราะห์ในบริการของ Power BI](service-analytics-pane.md) หรือ [บานหน้าต่างการวิเคราะห์ใน Power BI Desktop](desktop-analytics-pane.md) เพื่อเรียนรู้เพิ่มเติม
 
 - - -
 ## <a name="the-filters-pane"></a>พื้นที่ตัวกรอง
@@ -90,6 +92,12 @@ ms.locfileid: "55147415"
 ![พื้นที่ตัวกรอง](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
 สำหรับข้อมูลเพิ่มเติม ดู[เพิ่มตัวกรองไปในรายงาน](power-bi-report-add-filter.md)
+
+มีประสบการณ์การใช้ตัวกรองใหม่อยู่ในตัวอย่างในขณะนี้ ในตัวกรองใหม่ คุณสามารถจัดรูปแบบให้มีลักษณะเหมือนรายงานได้ นอกจากนี้คุณยังสามารถล็อคหรือซ่อนตัวกรองจากผู้ใช้รายงานของคุณได้อีกด้วย 
+
+![ประสบการณ์ใช้งานตัวกรองใหม่](media/service-the-report-editor-take-a-tour/power-bi-filter-reading.png)
+
+อ่านเพิ่มเติมเกี่ยวกับ [ประสบการณ์การใช้งานตัวกรองใหม่](power-bi-report-filter-preview.md)
 
 - - -
 ## <a name="the-fields-pane"></a>พื้นที่ช่องข้อมูล
