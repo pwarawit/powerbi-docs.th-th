@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287082"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215723"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>เพิ่มรูปภาพ ข้อความ วิดีโอ การสตรีมข้อมูลไปยังแดชบอร์ดของคุณ
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -101,12 +101,12 @@ ms.locfileid: "54287082"
 ## <a name="tips-for-embedding-web-content"></a>เคล็ดลับสำหรับการฝังเนื้อหาบนเว็บ
 * สำหรับ iframes ใช้แหล่งข้อมูลความปลอดภัย ถ้าคุณใส่ โค้ดฝังตัว iframe ของคุณ และได้รับไทล์ว่าง ตรวจสอบเพื่อดูว่า คุณกำลังใช้**http**สำหรับแหล่งข้อมูล iframe  ถ้าเป็นเช่นนั้น เปลี่ยนเพื่อ**https**
   
-  ```
+  ```html
   <iframe src="https://xyz.com">
   ```
 * แก้ไขข้อมูลความกว้างและความสูง โค้ดที่ฝังนี้ฝังวิดีโอ และตั้งค่าโปรแกรมเล่นวิดีโอเป็นพิกเซล 560 แสดง x 315  ขนาดต่อไปนี้จะไม่เปลี่ยนแปลง ตามที่คุณปรับขนาดไทล์
   
-  ```
+  ```html
   <iframe width="560" height="315"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
@@ -114,14 +114,14 @@ ms.locfileid: "54287082"
   
   ถ้าคุณต้อง player เพื่อปรับขนาดให้พอดีกับขนาดไทล์ ตั้งค่าความกว้าง และความสูงเป็น 100%
   
-  ```
+  ```html
   <iframe width="100%" height="100%"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
 * รหัสนี้ฝังทวี และ ยังคง เป็นลิงก์แยกต่างหากบนแดชบอร์ด ลิงก์สำหรับการ**AFK** podcast,  **@GuyInACubeของหน้า Twitter**, **ทำตาม**,  **#analytics**, **ตอบกลับ**, **ทวี**และ**เช่น**  เลือกไทล์เองนำคุณไปยัง podcast บน Twitter
   
-  ```
+  ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">
   <p lang="en" dir="ltr">Listen to
   <a href="https://twitter.com/GuyInACube">@GuyInACube</a> talk to

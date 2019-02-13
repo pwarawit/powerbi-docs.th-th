@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 51eb5c2947dc6d621e6c2ef6d3e2361a4542a0f1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ee7b69bbf8857f12cabb6f7147f8e1d779b2a17e
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276940"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215078"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>คลัสเตอร์ความพร้อมใช้งานสูงสำหรับเกตเวย์ข้อมูลภายในองค์กร
 
@@ -59,13 +59,13 @@ ms.locfileid: "54276940"
 1. เปิดหน้าต่างคำสั่ง PowerShell ในฐานะผู้ดูแลระบบ
 2. จากนั้นเรียกใช้คำสั่ง PowerShell ครั้งเดียวดังต่อไปนี้ (คาดว่าคุณไม่เคยเรียกใช้คำสั่ง PowerShell บนเครื่องปัจจุบันมาก่อน)
 
-    ```
+    ```powershell
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
     ```
 
 3. ถัดไป ไปที่โฟลเดอร์การติดตั้งเกตเวย์ข้อมูลภายในองค์กรในหน้าต่าง PowerShell และนำเข้าโมดูลที่จำเป็นโดยใช้คำสั่งต่อไปนี้
 
-    ```
+    ```powershell
     Import-Module .\OnPremisesDataGatewayHAMgmt.psm1
     ```
 

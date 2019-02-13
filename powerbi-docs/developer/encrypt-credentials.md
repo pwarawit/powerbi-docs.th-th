@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mahirdiab
-ms.openlocfilehash: 050628dfe179a39ca24d2df72f1296acf48aa261
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 79ab3731abfdf972de1ee9d40456ebb0c5ebfa62
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763174"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223524"
 ---
 # <a name="encrypt-credentials"></a>เข้ารหัสข้อมูลประจำตัว
 เมื่อคุณเรียกใช้งาน[สร้างแหล่งข้อมูล](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) หรือ [อัปเดตแหล่งข้อมูล](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)ภายใต้**เกตเวย์ภายในองค์กร**โดยใช้[Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) ค่าข้อมูลประจำตัวที่จำเป็นต้องเข้ารหัสลับโดยใช้คีย์สาธารณะของเกตเวย์
@@ -24,28 +24,28 @@ ms.locfileid: "55763174"
 ข้อมูลประจำตัวที่ระบุในเมธอด EncodeCredentials ด้านล่าง ควรอยู่ในรูปแบบต่อไปนี้ ทั้งนี้ขึ้นอยู่กับชนิดข้อมูลประจำตัว:
 
 **พื้นฐาน / ข้อมูลประจำตัวของ Windows**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"username\", \"value\":\"john\"},{\"name\":\"password\", \"value\":\"*****\"}]}";
 ```
 
 **ข้อมูลประจำตัวหลัก**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"key\", \"value\":\"ec....LA=\"}]}";
 ```
 
 **ข้อมูลประจำตัว OAuth2**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"accessToken\", \"value\":\"eyJ0....fwtQ\"}]}";
 ```
 
 
 **ข้อมูลประจำตัวแบบไม่ระบุชื่อ**
-```
+```csharp
 var credentials = "{\"credentialData\":\"\"}";
 ```
 
 **เข้ารหัสลับข้อมูลประจำตัว**
-```
+```csharp
 public static class AsymmetricKeyEncryptionHelper
 {
 

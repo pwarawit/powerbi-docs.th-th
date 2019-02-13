@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.author: maggies
-ms.openlocfilehash: 9556a501832502a8d5653967408b9fac8d0704a5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 732b90a5d325665cbe82c87bd1247ff72af9e6e5
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295664"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215147"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรงในตัวสร้างรายงาน (ดูตัวอย่าง) - Power BI
 
@@ -82,11 +82,11 @@ ms.locfileid: "54295664"
 
 นอกจากนี้คุณยังสามารถอัปโหลดรายงานแบบแบ่งหน้าของคุณไปยังเซิร์ฟเวอร์รายงาน Power BI Report Server หรือ SQL Server Reporting Services 2016 หรือ 2017 ก่อนที่คุณจะทำ คุณต้องเพิ่มรายการต่อไปนี้ลงใน RsReportServer.config ของคุณเป็นส่วนขยายข้อมูลเพิ่มเติม สำรองไฟล์ RsReportServer.config ก่อนที่จะทำการเปลี่ยนแปลงในกรณีที่คุณเรียกใช้เข้าไปในประเด็น
 
-```
-<Extension Name=”ENTERDATA” Type=”Microsoft.ReportingServices.DataExtensions.XmlDPConnection,Microsoft.ReportingServices.DataExtensions”>
-<Configuration>
-<ConfigName>ENTERDATA</ConfigName>
-</Configuration>
+```xml
+<Extension Name="ENTERDATA" Type="Microsoft.ReportingServices.DataExtensions.XmlDPConnection,Microsoft.ReportingServices.DataExtensions">
+    <Configuration>
+        <ConfigName>ENTERDATA</ConfigName>
+    </Configuration>
 </Extension>
 ```
 
