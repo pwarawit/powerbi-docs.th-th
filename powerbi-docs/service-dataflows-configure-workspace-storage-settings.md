@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 96b6e1a8a92b19181463de404967625b37418582
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bcde69d25b6b73787a4b9d16e4ba2b39b183ffd7
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291958"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086436"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>การตั้งค่าตัวเลขกระแสข้อมูลในพื้นที่ทำงาน (ดูตัวอย่าง)
 
 ด้วย Power BI และกระแสข้อมูล คุณสามารถเก็บไฟล์ข้อกำหนด กระแสข้อมูลและไฟล์ข้อมูลไว้ที่บัญชี Azure Data Lake Storage Gen2 ของคุณ ผู้ดูแลพื้นที่ทำงานสามารถกำหนดค่า Power BI ให้ทำเช่นนั้นได้ และบทความนี้จะแนะนำขั้นตอนที่จำเป็นต้องใช้เพื่อดำเนินการอย่างที่กล่าวมา 
 
-ก่อนที่คุณสามารถกำหนดค่าของตำแหน่งที่เก็บกระแสข้อมูลของพื้นที่ทำงาน ผู้ดูแลระบบส่วนกลางของบริษัทคุณต้องเชื่อมต่อบัญชีที่เก็บข้อมูลองค์กรของคุณไปยัง Power BI และเปิดใช้งานการมอบหมายสิทธิ์การเก็บข้อมูลให้กับบัญชีที่จะใช้ดูแลการเก็บข้อมูลนั่น * [เชื่อมต่อ Azure Data Lake Storage Gen2 ให้กับที่เก็บกระแสข้อมูล (ดูตัวอย่าง)](service-dataflows-connect-azure-data-lake-storage-gen2.md) 
+ก่อนที่คุณสามารถกำหนดค่าของตำแหน่งที่เก็บกระแสข้อมูลของพื้นที่ทำงาน ผู้ดูแลระบบส่วนกลางของบริษัทคุณต้องเชื่อมต่อบัญชีที่เก็บข้อมูลองค์กรของคุณไปยัง Power BI และเปิดใช้งานการมอบหมายสิทธิ์การเก็บข้อมูลให้กับบัญชีที่จะใช้ดูแลการเก็บข้อมูลนั่น *[เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับการเก็บกระแสข้อมูล (ตัวอย่าง) ](service-dataflows-connect-azure-data-lake-storage-gen2.md)* 
 
 มีสองวิธีในการกำหนดค่าการเก็บกระแสข้อมูลบนพื้นที่ทำงาน: 
 
