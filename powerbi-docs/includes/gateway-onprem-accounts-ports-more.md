@@ -43,7 +43,7 @@
 
 คุณสามารถบังคับให้เกตเวย์สื่อสารกับ Azure Service Bus โดยใช้ HTTPS แทนการใช้ TCP โดยตรง โดยการใช้ HTTPS อาจมีผลกระทบต่อประสิทธิภาพการทำงาน เมื่อต้องการทำเช่นนั้น แก้ไขไฟล์*Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*โดยการเปลี่ยนค่าจาก`AutoDetect`เป็น`Https`ตามที่แสดงในข้อมูลรหัสโดยตรงตามย่อหน้านี้ ไฟล์อยู่ที่ (ตามค่าเริ่มต้น) ที่*C:\Program Files\เกตเวย์ข้อมูลที่ติดตั้งภายในองค์กร*
 
-```
+```xml
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
     <value>Https</value>
 </setting>
