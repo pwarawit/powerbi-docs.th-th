@@ -83,8 +83,10 @@ items:
         href: end-user-insights.md
     - name: รับข้อมูล
       items:
-      - name: ติดตั้งและใช้แอป
+      - name: แอปใน Power BI
         href: end-user-apps.md
+      - name: ติดตั้งและใช้แอป
+        href: end-user-app-view.md
       - name: เชื่อมต่อกับเซิร์ฟเวอร์
         href: end-user-connect-to-services.md
     - name: การถามคำถามเกี่ยวกับข้อมูลของคุณ
@@ -193,9 +195,9 @@ items:
     items:
     - name: ภาษาที่สนับสนุนในแอปสำหรับอุปกรณ์เคลื่อนที่
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: f0e5454a60f1434b1098484e7ef3cc74d3ce3be5
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: e32baf6ff64b485b1be29dea76bcbe864d2cdc59
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086574"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248987"
