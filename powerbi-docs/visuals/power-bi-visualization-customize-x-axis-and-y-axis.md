@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c6395785c3d3e386aa2ac735439a265f5fe3fb02
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287013"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223317"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>คุณสมบัติแกน x และแกน y ที่กำหนดด้วยตนเอง
 ในบทช่วยสอนนี้ คุณจะได้เรียนรู้หลายวิธีในการกำหนดค่าแกน X และแกน Y ของวิชวลคุณ ไม่ใช่วิชวลทั้งหมดที่มีแกน หรือสามารถกำหนดแกนเองได้ ตัวอย่างของวิชวลที่ไม่มีแกน เช่น แผนภูมิวงกลม และตัวเลือกที่กำหนดเองได้ จะแตกต่างกันตามวิชวล มีตัวเลือกอยู่มากมายเกินกว่าที่จะครอบคลุมในบทความเดียว ดังนั้นเราจะดูเฉพาะ การกำหนดค่าแกนที่ใช้บ่อยที่สุดบางค่า เพื่อให้คุณคุ้นเคยกับแท็บการจัดรูปแบบวิชวล บนพื้นที่รายงาน Power BI  
@@ -70,7 +70,7 @@ ms.locfileid: "54287013"
 3. ย้าย**ตำแหน่ง**แกน Y ไปด้านขวา
 4. จัดรูปแบบสีข้อความ ขนาด และแบบตัวอักษร ในตัวอย่างนี้ เราได้ตั้งค่า**สี**ข้อความเป็นสีดำ **ขนาดของข้อความ**เป็น 14 และ**แบบตัวอักษร**เป็น Arial Black  
 5. ให้ค่า**หน่วยแสดงผล**เป็น ล้าน และจำนวน**จุดทศนิยมของค่า**เป็นศูนย์
-6. สำหรับการแสดงผลภาพนี้ การมีชื่อแกน Y ไม่ได้ช่วยวิชวลให้ดีขึ้น ดังนั้นจึงปล่อยให้การแสดง**ชื่อเรื่อง**เป็นปิด  
+6. สำหรับการแสดงผลภาพนี้ การมีชื่อแกน Y ไม่ได้ช่วยภาพให้ดีขึ้น ดังนั้นจึงปล่อยให้การแสดง**ชื่อเรื่อง**ปิด  
 7. เรามาทำเส้นตารางให้เด่นขึ้นมา โดยการเปลี่ยน**สี**เป็นสีเทา และเพิ่ม**สโตรก**เป็น 2
 
     หลังจากกำหนดค่าทั้งหมดเหล่านี้ แผนภูมิคอลัมน์ของคุณจะมีลักษณะดังนี้:
@@ -136,7 +136,7 @@ ms.locfileid: "54287013"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 อ่านเพิ่มเติมเกี่ยวกับ[การแสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)
 
-[กำหนดค่า](power-bi-visualization-customize-title-background-and-legend.md)[ชื่อเรื่อง พื้นหลัง และคำอธิบายแผนภูมิ](power-bi-visualization-customize-title-background-and-legend.md)
+[กำหนดชื่อเรื่อง พื้นหลัง และคำอธิบายใต้ภาพ](power-bi-visualization-customize-title-background-and-legend.md)
 
 [กำหนดสีและคุณสมบัติของแกน](service-getting-started-with-color-formatting-and-axis-properties.md)
 

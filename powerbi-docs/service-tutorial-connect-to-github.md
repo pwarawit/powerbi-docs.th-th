@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bad76adc42fc9f70c1439c6da0cfe2d149bbbe43
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8f44356f79b8a77ef06fe464671dbbaaaa4187e9
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295712"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215598"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>บทช่วยสอน: เชื่อมต่อกับตัวอย่าง GitHub ด้วย Power BI
 ในบทช่วยสอนนี้ คุณจะเชื่อมต่อกับข้อมูลจริงในบริการ GitHub ด้วย Power BI และ Power BI จะสร้างแดชบอร์ดและรายงานโดยอัตโนมัติ คุณจะเชื่อมต่อกับที่เก็บเนื้อหาสาธารณะของ Power BI (หรือที่เรียกว่า *ที่เก็บ*) และดูข้อมูล: มีบุคคลกี่คนให้การสนับสนุนเนื้อหาสาธารณะของ Power BI ใครให้การสนับสนุนมากที่สุด วันใดในสัปดาห์ที่มีการสนับสนุนมากที่สุด และตอบคำถามอื่นๆ 
@@ -31,7 +31,7 @@ ms.locfileid: "54295712"
 > * เปิดบริการ Power BI
 > * ค้นหาแอป GitHub
 > * ใส่ข้อมูลสำหรับ Repo GitHub สาธารณะของ Power BI
-> * ดูแดชบอร์ดและรายงานที่มีข้อมูล GitHub
+> * ดูแดชบอร์ดและรายงานด้วยข้อมูล GitHub
 > * เพิ่มพื้นที่ทรัพยากรโดยการลบแอป
 
 ถ้าคุณไม่ได้ลงทะเบียน Power BI ให้[ลงทะเบียนรุ่นทดลองใช้ฟรี](https://app.powerbi.com/signupredirect?pbi_source=web)ก่อนที่คุณจะเริ่มต้นใช้งาน
@@ -69,7 +69,7 @@ ms.locfileid: "54295712"
  
    ![ไทล์ GitHub ใน Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tile.png) 
 
-8. เลือกไอคอนการนำทางส่วนกลางเพื่อย่อการนำทางด้านซ้าย เพื่อให้คุณมีพื้นที่มากขึ้น
+8. เลือกไอคอนนำทางส่วนกลางเพื่อลดการนำทางด้านซ้าย เพื่อให้มีพื้นที่ว่างเพิ่มเติม
 
     ![ไอคอนการนำทางส่วนกลาง](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 

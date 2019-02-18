@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: d811ff6c68155d354df1785ae722829e1187543c
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431096"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216872"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
@@ -31,10 +31,42 @@ ms.locfileid: "55431096"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="september-2018"></a>กันยายน 2018
-* [แสดงข้อคิดเห็นแดชบอร์ด](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)ในบริการของ Power BI
 
-## <a name="previous-months-2018"></a>เดือนก่อน ๆ (2018)
+## <a name="february-2019"></a>กุมภาพันธ์ 2562
+* ปริมาณงานและชุดข้อมูลที่ใช้งานอยู่ขนาดเมตริกใน[แอปควบคุมปริมาตรความจุ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)
+* ส่งออกเป็น PDF และอีเมลตามความต้องการ(service-report-subscribe.md)
+* การดำเนินการจำนวนมากในพอร์ทัลผู้ดูแลระบบ
+
+## <a name="previous-months-2019"></a>เดือนก่อนหน้านี้(2019)
+### <a name="january-2019"></a>มกราคม 2019
+* [ฝังรายงาน secure Power BI](service-embed-secure.md)ในพอร์ทัลภายในหรือเว็บไซต์
+* การอัปเดตใน[ตัวแก้ไขdataflows](service-dataflows-overview.md)ด้วยตัวเชื่อมต่อใหม่ และการสนับสนุนสำหรับคำถาม SQL ดั้งเดิมและแปลง Power Query ออนไลน์
+* [bookmarkส่วนบุคคล](https://powerbi.microsoft.com/en-us/blog/announcing-personal-bookmarks-in-the-power-bi-service/)ในการบริการ Power BI
+* การตั้งเวลาตามตารางเวลาด้วยการสมัครสมาชิกอีเมล
+
+## <a name="2018"></a>2018
+### <a name="december-2018"></a>ธันวาคม 2018
+* AI-powered[แนะนำแอป](https://powerbi.microsoft.com/en-us/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/)ใน Power BI Home
+* [จัดการพื้นที่ทำงาน](https://powerbi.microsoft.com/en-us/blog/workspace-management-in-the-admin-portal/)ในพอร์ทัลผู้ดูแล
+* แสดงตัวอย่างของ Power BI Dataflows และ Azure Lake เก็บ Gen2 รวมข้อมูลใน[dataflows](service-dataflows-overview.md)
+* เทมเพลตโซลูชันของ power BI จะเปิดแหล่งที่มา
+
+### <a name="november-2018"></a>พฤศจิกายน 2018
+* Power BI data prepสามารถใช้งานกับ[dataflows](service-dataflows-overview.md) public preview
+* แสดงตัวอย่างสาธารณะของ[รายงานเลขหน้า](paginated-reports-report-builder-power-bi.md)ใน Power BI Premium
+* ข้อมูลขนาดและการนับจำนวนของชุดข้อมูลในหน่วยความจำใน[
+แอปควบคุมปริมาตรความจุ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)
+
+### <a name="october-2018"></a>ตุลาคม 2018
+* รวม [desktop aggregations.md] ในบริการ Power BI
+* Power BI ที่ขยายไปยัง3 ภูมิภาคใหม: อินเดียกลาง ออสเตรเลียตะวันออก และสหรัฐ อเมริกากลาง (ไอโอวา) 
+* ส่งออกไปยัง PowerPoint ที่พร้อมใช้งานโดยทั่วไปแล้ว
+
+### <a name="september-2018"></a>กันยายน 2018
+* [แสดงข้อคิดเห็นแดชบอร์ด](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)ในบริการของ Power BI
+* แสดงภาพสาธารณะของ[Power BI home และGlobal Search](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)
+* สามารถ[ติดตามคำถาม](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)ใน[แอปควบคุมปริมาตรความจุ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)
+
 ### <a name="august-2018"></a>สิงหาคม 2018
 * [แอปตรวจสอบความจุ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)สำหรับ Power BI Premium
 * การปรับปรุง [ตัวกรอง URL รายงาน](service-url-filters.md) สำหรับ Power BI
@@ -78,7 +110,7 @@ ms.locfileid: "55431096"
 *   การรีเฟรชตามกำหนดการสนับสนุนสำหรับ Azure Analysis Services (AAS)
 
 ## <a name="previous-months-2017"></a>เดือนก่อน ๆ (2017)
-## <a name="october-and-november-2017"></a>เดือนตุลาคมและพฤศจิกายน 2017
+### <a name="october-and-november-2017"></a>เดือนตุลาคมและพฤศจิกายน 2017
 *   เนื้อหาที่คัดเลือกเพื่อเผยแพร่กับ [Power BI Apps](service-create-distribute-apps.md)
 *   การกระจายไปยังผู้ใช้ภายนอกด้วย[Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/)
 * คำแนะนำแอปฯที่ขับเคลื่อนด้วย AI
@@ -86,7 +118,7 @@ ms.locfileid: "55431096"
 * การสมัครใช้งานอีเมลที่สนับสนุนสำหรับแอปฯ 
 * ตัวควบคุมสำหรับผู้ดูแลระบบระดับแยกย่อยสำหรับ[เผยแพร่ไปยังเว็บ](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings)
 
-## <a name="september-2017"></a>กันยายน 2017
+### <a name="september-2017"></a>กันยายน 2017
 * ในความจุแบบพรีเมียม แชร์แดชบอร์ดกับผู้ใช้ที่ไม่มีสิทธิ์การใช้งาน Power BI Pro
 * จัดสรรความจุเพื่อตอบสนองความต้องการทางธุรกิจของคุณด้วย v-แกนหลักร่วมกัน
 * ปรับขนาดความจุขึ้นหรือลงได้ทันทีด้วยหนึ่งคลิก

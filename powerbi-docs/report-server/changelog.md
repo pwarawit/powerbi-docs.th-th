@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 034fc149dcd76102ae83864fe65d53c55b57c96a
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
+ms.openlocfilehash: 346e1a3d096ba5e8ea8d16b49d49e02c0c65e54a
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482763"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56224053"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>บันทึกการเปลี่ยนแปลงสำหรับ เซิร์ฟเวอร์รายงาน Power BI
 
@@ -94,7 +94,7 @@ ms.locfileid: "55482763"
                 - รายงานสามารถรีเฟรชเมื่อเซิร์ฟเวอร์ถูกกำหนดค่าให้ใช้การรับรองความถูกต้องแบบกำหนดเอง
                 - การปรับเปลี่ยนคุณสมบัติของรายงาน จะไม่รีเซ็ตข้อมูลประจำตัวของแหล่งข้อมูล
             - สำหรับรายงานที่มีการแบ่งหน้า (RDL)
-                - การใช้ `Lookup()` หรือฟังก์ชันดัดแปลง เช่น `LookupSet()` และ `MultiLookup()` ในนิพจน์ RDL ไม่ทำให้เกิด `#Error`
+                - การใช้ `Lookup()` หรือฟังก์ชันดัดแปลง เช่น `LookupSet()` และ `MultiLookup()` ที่แสดงใน RDL ไม่สามารถแสดงผลลัพธ์ `#Error`อีกต่อไป
                 - รายงานที่เชื่อมโยง เคารพขนาดหน้าของรายงานเป้าหมายเมื่อพิมพ์
                 - การสมัครสมาชิก สามารถสร้างสำหรับรายงานที่เชื่อมโยง ที่ใช้พารามิเตอร์ที่ต่อกันเป็นทอด
                 - ค่าเริ่มต้นของพารามิเตอร์หลายค่า สามารถเปลี่ยนแปลงได้เมื่อใช้ IE11

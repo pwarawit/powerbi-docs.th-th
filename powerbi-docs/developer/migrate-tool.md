@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 41ab7f06da3038e48e2d1188edc8b91edeee8d4f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762363"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216389"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>เครื่องมือการย้าย Power BI แบบฝัง
 
@@ -207,7 +207,7 @@ ms.locfileid: "55762363"
 
 ในตัวอย่างข้างต้น หนึ่งในรายงานที่ถูกโคลนล้มเหลวในการระบุรายงานที่มีชื่อเดียวกัน เราจะเห็นสิ่งต่อไปนี้ ถ้าเราดูที่ XML แผนการย้าย
 
-```
+```xml
 <ReportMigrationData>
     <PaaSWorkspaceCollectionName>SampleWorkspaceCollection</PaaSWorkspaceCollectionName>
     <PaaSWorkspaceId>4c04147b-d8fc-478b-8dcb-bcf687149823</PaaSWorkspaceId>
@@ -229,7 +229,7 @@ ms.locfileid: "55762363"
 
 สำหรับรายการที่ล้มเหลว เราสามารถเปลี่ยนชื่อของ SaaSTargetReportName ได้
 
-```
+```xml
 <SaaSTargetReportName>cloned2</SaaSTargetReportName>
 ```
 
@@ -245,7 +245,7 @@ ms.locfileid: "55762363"
 
 คุณสามารถอัปโหลดไฟล์ Power BI Desktop รุ่นภายในเครื่องได้ คุณจะต้องปิดเครื่องมือ แก้ไข XML และใส่เส้นทางแบบเต็มไปยัง PBIX ภายในเครื่องของคุณในคุณสมบัติ**PbixPath**
 
-```
+```xml
 <PbixPath>[Full Path to PBIX file]</PbixPath>
 ```
 
@@ -255,9 +255,9 @@ ms.locfileid: "55762363"
 
 ### <a name="directquery-reports"></a>รายงาน DirectQuery
 
-คุณจะต้องอัปเดตเพื่อปรับปรุงสตริงการเชื่อมต่อสำหรับรายงาน DirectQuery ซึ่งสามารถทำได้ใน*powerbi.com*หรือคุณสามารถค้นหาสตริงการเชื่อมต่อจาก Power BI แบบฝัง (Paas) ทางโปรแกรมได้ สำหรับตัวอย่าง ดูที่[สตริงการเชื่อมต่อ “DirectQuery ที่แยกออก” จากรายงาน PaaS](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report)
+คุณจะต้องอัปเดตเพื่อปรับปรุงสตริงการเชื่อมต่อสำหรับรายงาน DirectQuery ซึ่งสามารถทำได้ใน*powerbi.com*หรือคุณสามารถค้นหาสตริงการเชื่อมต่อจาก Power BI แบบฝัง (PaaS) ทางโปรแกรมได้ สำหรับตัวอย่าง ดูที่[สตริงการเชื่อมต่อ “DirectQuery ที่แยกออก” จากรายงาน PaaS](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report)
 
-จากนั้นคุณจะสามารถอัปเดตสตริงการเชื่อมต่อสำหรับชุดข้อมูลในบริการ Power BI (Saas) และตั้งค่าข้อมูลประจำตัวสำหรับแหล่งข้อมูล คุณสามารถดูตัวอย่างต่อไปนี้เพื่อดูวิธีการทำ
+จากนั้นคุณจะสามารถอัปเดตสตริงการเชื่อมต่อสำหรับชุดข้อมูลในบริการ Power BI (SaaS) และตั้งค่าข้อมูลประจำตัวสำหรับแหล่งข้อมูล คุณสามารถดูตัวอย่างต่อไปนี้เพื่อดูวิธีการทำ
 
 * [การอัปเดตสตริงเชื่อมต่อ DirectQuery คือ พื้นที่ทำงาน SaaS](migrate-code-snippets.md#update-directquery-connection-string-is-saas-workspace)
 * [ตั้งค่าข้อมูลประจำตัวของ DirectQuery ในพื้นที่ทำงาน SaaS](migrate-code-snippets.md#set-directquery-credentials-in-saas-workspace)

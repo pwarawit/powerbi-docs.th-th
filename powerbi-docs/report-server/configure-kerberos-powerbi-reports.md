@@ -9,19 +9,19 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: b9fcd2dbd664ac4f119c3f00c3d1a173b9251bd3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5342f509fdd0705b2752aab3315a4968d610b681
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296213"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223777"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>กำหนดค่า Kerberos เพื่อใช้รายงาน Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 เรียนรู้วิธีการกำหนดค่าเซิร์ฟเวอร์รายงานของคุณสำหรับการรับรองความถูกต้อง Kerberos ไปยังแหล่งข้อมูลที่ใช้ภายในรายงานของ Power BI สำหรับสภาพแวดล้อมแบบกระจาย
 
-เซิร์ฟเวอร์รายงาน Power BI รวมถึงความสามารถในการโฮสต์รายงาน Power BI เซิร์ฟเวอร์รายการของคุณสนับสนุนแหล่งข้อมูลมากมาย ในขณะที่บทความนี้มุ่งเน้นโดยเฉพาะที่ SQL Server Analysis Services คุณสามารถใช้แนวคิดดังกล่าวและนำไปใช้กับแหล่งข้อมูลอื่น ๆ เช่น SQL Server ได้
+เซิร์ฟเวอร์รายงาน Power BI รวมถึงความสามารถในการโฮสต์รายงาน Power BI เซิร์ฟเวอร์รายการของคุณสนับสนุนแหล่งข้อมูลมากมาย ในขณะที่บทความนี้มุ่งเน้นโดยเฉพาะ SQL Server Analysis Services คุณสามารถใช้แนวคิด และที่นำไปใช้กับแหล่งข้อมูลอื่น ๆ เช่น SQL Server
 
 คุณสามารถติดตั้งเซิร์ฟเวอร์รายงาน Power BI, SQL Server และ Analysis Services บนคอมพิวเตอร์เครื่องเดียวได้ และทุกอย่างควรใช้งานได้โดยไม่ต้องกำหนดค่าเพิ่มเติม ซึ่งดีมากสำหรับสภาพแวดล้อมการทดสอบ คุณอาจพบข้อผิดพลาดถ้าคุณมีบริการเหล่านี้ติดตั้งอยู่บนเครื่องที่แยกต่างหากที่เรียกว่าสภาพแวดล้อมแบบกระจาย ในสภาพแวดล้อมเช่นนี้ คุณจะต้องใช้การรับรองความถูกต้อง Kerberos ต้องมีการกำหนดค่าที่จำเป็นสำหรับการนำขั้นตอนนี้ไปใช้ 
 
@@ -63,7 +63,7 @@ ms.locfileid: "54296213"
 
 เราต้องตรวจสอบให้แน่ใจว่า RSWindowsNegotiate อยู่ในรายการและเป็นส่วนแรกในรายการของชนิดการรับรองความถูกต้อง ซึ่งควรมีลักษณะคล้ายต่อไปนี้
 
-```
+```xml
 <AuthenticationTypes>
     <RSWindowsNegotiate/>
     <RSWindowsNTLM/>

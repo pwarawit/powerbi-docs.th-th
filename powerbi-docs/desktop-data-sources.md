@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f5fc52df86faa69683fa1e76f8893fb1d1a09ab9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281171"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225925"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับข้อมูลจากแหล่งต่าง ๆ มากมายด้วย Power BI Desktop รายการทั้งหมดของแหล่งข้อมูลที่พร้อมใช้งานอยู่ที่ด้านล่างของหน้านี้
@@ -77,11 +77,14 @@ ms.locfileid: "54281171"
 * Amazon Redshift
 * Impala
 * Google BigQuery
+* Vertica
 * Snowflake
 * Essbase (เบต้า)
-* BI Connector
+* Dremio
 * Exasol
-* Dremio (iรุ่นเบต้า)
+* MarkLogic (เบต้า)
+* AtScale cubes (เบต้า)
+* BI Connector
 * Jethro (รุ่นเบต้า)
 * วิสาหกิจ Kyligence (เบต้า)
 
@@ -136,8 +139,6 @@ ms.locfileid: "54281171"
 * Google Analytics
 * Adobe Analytics
 * appFigures (เบต้า)
-* comScore Digital Analytix (เบต้า)
-* Dynamics 365 for Customer Insights
 * Data.World - รับชุดข้อมูล (เบต้า)
 * Facebook
 * GitHub (เบต้า)
@@ -157,6 +158,8 @@ ms.locfileid: "54281171"
 * Webtrends (เบต้า)
 * Zendesk (เบต้า)
 * TeamDesk (เบต้า)
+* แหล่งข้อมูล Emigo (เบต้า)
+* การรักษาความปลอดภัยของ Microsoft Graph
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**บริการออนไลน์**
 
@@ -164,7 +167,6 @@ ms.locfileid: "54281171"
 
 ประเภท**อื่น ๆ**มีการเชื่อมต่อข้อมูลต่อไปนี้:
 
-* Vertica
 * เว็บ
 * รายการ SharePoint
 * ฟีด OData
@@ -176,8 +178,12 @@ ms.locfileid: "54281171"
 * สคริปต์ Python
 * ODBC
 * OLE DB
+* Workforce Dimensions (เบต้า)
 * Denado
 * Paxata (เบต้า)
+* SurveyMonkey(เบต้า)
+* QubolePresto (เบต้า)
+* Quick Base (เบต้า)
 * คิวรีที่ว่างเปล่า
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**อื่น ๆ**
@@ -190,7 +196,7 @@ ms.locfileid: "54281171"
 ## <a name="connecting-to-a-data-source"></a>เชื่อมต่อกับแหล่งข้อมูล
 เลือกแหล่งข้อมูลจากหน้าต่าง**รับข้อมูล**และเลือก**เชื่อมต่อ**เพื่อเชื่อมต่อกับแหล่งข้อมูล ในรูปต่อไปนี้**เว็บ**ได้รับการเลือกจากประเภทการเชื่อมต่อข้อมูล**อื่น ๆ**
 
-![เชื่อมต่อกับเว็บ](media/desktop-data-sources/data-sources_08a.png)
+![เชื่อมต่อกับเว็บ](media/desktop-data-sources/data-sources_08.png)
 
 หน้าต่างการเชื่อมต่อจะแสดงขึ้นตามชนิดของการเชื่อมต่อข้อมูล คุณจะได้รับพร้อมท์เพื่อแจ้งให้ป้อนข้อมูลประจำตัว หากจำเป็นต้องใช้ รูปต่อไปนี้แสดง URL ที่ป้อนเพื่อเชื่อมต่อกับแหล่งข้อมูลเว็บ
 

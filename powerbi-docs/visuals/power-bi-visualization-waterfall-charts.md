@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c219a7ac9ce88d3dca9d01a09868835062fe93ce
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3835bedc1b4ab2df87abf4704ef338ff7f4abc5d
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291912"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215055"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>แผนภูมิแบบน้ำตกใน Power BI
 แผนภูมิแบบน้ำตกจะแสดงผลรวมสะสมเป็นค่าที่เพิ่มขึ้นหรือลดลง แผนภูมินี้มีประโยชน์สำหรับการวิเคราะห์ว่าค่าเริ่มต้น (ตัวอย่างเช่น กำไรสุทธิ) ได้รับผลกระทบอย่างไร เมื่อมีการเปลี่ยนแปลงเชิงบวก และเชิงลบที่เกิดขึ้นอย่างต่อเนื่องในช่วงระยะเวลาหนึ่ง
@@ -51,7 +51,7 @@ ms.locfileid: "54291912"
    
     ![เลือกการเรียงลำดับตาม > FiscalMonth](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
-    ![reslt ของการเรียงลำดับใหม่จากน้อยไปมาก](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
+    ![ผลลัพธ์ของการเรียงลำดับใหม่](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
 6. ดูรายละเอียดเพิ่มเติมอีกเล็กน้อย เพื่อดูว่าอะไรคือปัจจัยที่สนับสนุนให้เกิดการเปลี่ยนแปลงมากที่สุดในแต่ละเดือน ลาก**ร้านค้า** > **เขตการขาย**ไปยังบักเก็ต **การแบ่งย่อย**
    
     ![แสดงร้านค้าในบักเก็ต](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)

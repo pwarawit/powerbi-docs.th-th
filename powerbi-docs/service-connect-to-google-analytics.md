@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f8777774981e89a88f1fb4f85573fd5a7e078dd6
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 9d0eafea7f1ec25d8af86bf05fa130abb1bbd9c2
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008407"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216297"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>เชื่อมต่อกับ Google Analytics ด้วย Power BI
 การเชื่อมต่อกับ Google Analytics ผ่าน Power BI เริ่มต้นโดยการเชื่อมต่อกับบัญชี Google Analytics ของคุณ คุณจะได้รับแดชบอร์ด Power BI และชุดของรายงาน Power BI ซึ่งจะให้ข้อมูลเชิงลึกเกี่ยวกับปริมาณการรับส่งข้อมูลและขนาดของผู้ใช้ในไซต์ของคุณ คุณสามารถโต้ตอบกับแดชบอร์ดและรายงานได้ แต่คุณไม่สามารถบันทึกการเปลี่ยนแปลงได้ ข้อมูลจะรีเฟรชโดยอัตโนมัติหนึ่งครั้งต่อวัน

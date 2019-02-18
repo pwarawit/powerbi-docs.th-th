@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 02/11/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b82f739d8e5dd5497ab2a41e44097fda12345bd3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 50dd529366a06cc46b2ca906bfc8987a3988cb72
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278227"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56226086"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -33,6 +33,80 @@ ms.locfileid: "54278227"
 คุณยังสามารถดูวิดีโอ**อัปเดตล่าสุด**เริ่มตั้งแต่แรก จากภายในบทความนี้เลย โดยคลิกที่ไอคอน**เล่น**บนรูปภาพวิดีโอที่อยู่ด้านล่างรายการการอัปเดตได้
 
 ส่วนต่อไปนี้อธิบายวิธีการอัปเดตเดือนก่อนหน้าไปยัง**Power BI Desktop**
+
+
+## <a name="december-2018-update-2655313501"></a>อัปเดตประจำเดือนธันวาคม 2018 (2.65.5313.501)
+
+การปรบปรุงในเดือนธันวาคมของเราอาจจะทำให้คุณรู้สึกตื่นเต้น และอย่างน้อยก็กระตุ้นความสนใจการแสดงผลด้วยภาพที่ขับเคลื่อนด้วยข้อมูลดังกล่าว 
+
+ตอนนี้คุณสามารถ[ดาวน์โหลดเวอร์ชันล่าสุดของ Power BI Desktop](https://powerbi.microsoft.com/desktop)ได้ ถ้าคุณกำลังใช้งาน Windows 10 คุณยังสามารถรับ **Power BI Desktop** ได้จาก Windows Store เวอร์ชันรายเดือนจะเหมือนกันแม้ว่าหมายเลขเวอร์ชันอาจแตกต่างกัน โดยไม่คำนึงถึงวิธีการที่คุณติดตั้ง**Power BI Desktop** ดู[บทความนี้](desktop-get-the-desktop.md)สำหรับข้อมูลเพิ่มเติม 
+
+ลิงก์ที่อยู่ข้างแต่ละอัปเดต มีความหมายดังนี้:
+
+* **[วิดีโอ]** เล่นวิดีโอในแท็บเบราว์เซอร์ใหม่ ตรงจุดที่กำลังพูดถึงคุณลักษณะดังกล่าว
+* บางคุณลักษณะก็มี **[บทความ]** ที่ให้รายละเอียดเพิ่มเติม
+* คุณลักษณะส่วนใหญ่จะอธิบายไว้ใน **[บล็อก]** โพสต์ ที่อัปเดตรายเดือน
+* สุดท้าย คุณลักษณะบางอย่างจะอธิบายในตัวเองและไม่จำเป็นต้องมีบทความหรือวิดีโอ
+
+คุณยังสามารถดูวิดีโอ**อัปเดตล่าสุด**เริ่มตั้งแต่แรก จากภายในบทความนี้เลย โดยคลิกที่ไอคอน**เล่น**บนรูปภาพวิดีโอที่อยู่ด้านล่างรายการการอัปเดตได้
+
+การปรับปรุงต่อไปนี้เป็นของใหม่ใน **Power BI Desktop** สำหรับเดือนนี้:
+
+### <a name="reporting"></a>การรายงาน
+
+* คู่มืออัจฉริยะสำหรับจัดแนวออบเจ็กต์บนหน้า [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=11) [[บทความ]](power-bi-reports-filters-and-highlighting.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
+* ArcGIS Maps สำหรับ Power BI อัปเดต [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=84) [[บทความ]](visuals/power-bi-visualization-arcgis.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* การสนับสนุนสำหรับการเข้าถึงรายการเขตข้อมูล [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=464) [[บทความ]](desktop-report-view.md#copy-and-paste-between-reports) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
+* ตั้งค่าลำดับแท็บสำหรับออบเจ็กต์บนหน้า [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=643) [[บทความ]](power-bi-reports-filters-and-highlighting.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
+* เคล็ดลับเครื่องมือสำหรับวิชวลปุ่ม [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=884) [[บทความ]](desktop-accessibility.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)
+* ไอคอนที่อัปเดตสำหรับ *การโต้ตอบแบบวิชวล* [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=974) [[บทความ]](desktop-accessibility.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#icons)
+
+
+
+### <a name="analytics"></a>การวิเคราะห์
+
+* การสนับสนุนการเชื่อมต่อสดสำหรับการถามตอบ (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=1037) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#liveConnectQA) 
+
+
+### <a name="modeling"></a>การวางรูปแบบ
+
+* การอัปเดตแถบสูตร DAX [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=1132) [[บทความ]](desktop-modeling-view.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#daxFormulaBar) 
+* การสนับสนุนสำหรับการเข้าถึงการดูข้อมูล [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=1253) [[บทความ]](desktop-composite-models.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#dataView) 
+
+
+### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+
+* วิชวลแบบกำหนดเองอันใหม่หนึ่งวิชวล [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=1370) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
+
+* ตัวเชื่อมต่อ AtScale (รุ่น beta) [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=1449) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#atScale) 
+* ตัวเชื่อมต่อ Oracle Essbase (รุ่น Beta) [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=1449) [[บทความ]](desktop-connect-pdf.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#essbase) 
+
+
+### <a name="data-preparation"></a>การเตรียมข้อมูล
+
+* การรวมแบบไม่ชัดเจน - สนับสนุนสำหรับรายการที่ตรงกันที่สุด Top N [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=1480) [[บล็อก] ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fuzzyMerge) 
+
+
+### <a name="other"></a>อื่น ๆ
+* การสนับสนุนที่มีความเปรียบต่างสูงสำหรับบานหน้าต่างและส่วนท้ายของรายงานทั้งหมด [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=1631) [[บทความ]](desktop-connect-pdf.md) [[บล็อก]     ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#highContrast) 
+* กล่องโต้ตอบทางลัดคีย์บอร์ดที่อัปเดต [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=1654) [[บทความ]](desktop-accessibility.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#keyboardShortcuts) 
+
+
+
+> [!NOTE]
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+
+ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
+
+
+ช่องวิดีโอต่อไปนี้จะอธิบายและแสดงแต่ละการอัปเดตเหล่านี้ คุณยังสามารถเห็นวิดีโอได้จากบล็อกโพสต์อีกด้วย
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AHNlkjRFdYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
 
 ## <a name="november-2018-update-2645285461"></a>อัปเดตประจำเดือนพฤศจิกายน 2018 (2.64.5285.461)
 
@@ -1639,7 +1713,7 @@ ms.locfileid: "54278227"
 -   ตอนนี้คุณสามารถเปลี่ยนชื่อแบบสอบถามได้โดยตรงจากช่อง**แบบสอบถาม**
 
 
-ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการอัปเดตเหล่านี้ใช่หรือไม่ ลองดูที่[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-march-update-feature-summary/)ซึ่่งคุณสามารถดูข้อมูลในรายละเอียดเพิ่มเติมเกี่ยวกับแต่ละคุณลักษณะใหม่เหล่านี้ได้
+ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดูที่[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-march-update-feature-summary/)ซึ่่งคุณสามารถดูข้อมูลในรายละเอียดเพิ่มเติมเกี่ยวกับแต่ละคุณลักษณะใหม่เหล่านี้ได้
 
 วิดีโอต่อไปนี้จะอธิบายและแสดงการอัปเดตแต่ละรายการเหล่านี้ คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
 
@@ -2032,7 +2106,7 @@ ms.locfileid: "54278227"
 
 -   การสนับสนุนสำหรับการเปิดไฟล์ล่าสุดในหน้าเริ่มต้นและเมนู "ไฟล์ -\>เปิด"
 
--   สนับสนุนสำหรับข้อมูลประจำตัว UPN Exchange ในตัวเชื่อมต่อ Exchange ï»¿
+-   การสนับสนุนExchange UPN Credentials ใน Exchange Connector
 
 นอกเหนือจากคุณลักษณะใหม่ทั้งหมดเหล่านี้ เรายังทำให้**Power BI Desktop พร้อมใช้งานในภาษาอื่นอีก 42 ภาษา** รับรายการทั้งหมดของภาษาและติดตั้งภาษาที่คุณต้องการจาก[หน้าดาวน์โหลดอย่างเป็นทางการของเรา](https://www.microsoft.com/download/details.aspx?id=45331)
 
@@ -2062,7 +2136,7 @@ ms.locfileid: "54278227"
 
 -   ตัวกรองคอลัมน์ข้อความใหม่ - **ไม่ได้เริ่มต้นด้วย**และ**ไม่ได้ลงท้ายด้วย**
 
--   ปรับปรุงกล่องโต้ตอบระดับความเป็นส่วนตัว ï» ¿
+-   กล่องโต้ตอบเพิ่มระดับความเป็นส่วนตัว
 
 ดูที่วิดีโอต่อไปนี้สำหรับรายละเอียดเพิ่มเติม:
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 543a2bafe884a313e4ab392f617ed91026c97207
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4331878aee591f9e3939c0bb1c239eca160ee61d
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277744"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223662"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>เชื่อมโยงเอนทิตีระหว่างกระแสข้อมูลใน Power BI (ตัวอย่าง)
 
@@ -79,7 +79,7 @@ ms.locfileid: "54277744"
 มีข้อจำกัดและข้อควรพิจารณาบางข้อที่ควรคำนึงถึงเมื่อทำงานกับเอนทิตีที่มีการเชื่อมโยงไว้:
 
 * มีฮอปอ้างอิงสูงสุดห้าตัว
-* การขึ้นต่อกันเป็นวงรอบของเอนทิตีที่เชื่อมโยงไว้แล้วไม่ได้รับอนุญาตให้ใช้
+* วงจรอ้างอิงของเเอนทิตี้ที่เชื่อมโยงไม่ได้รับอนุญาตให้ใช้
 * กระแสข้อมูลต้องอยู่ใน[พื้นที่ทำงาน Power BI ใหม่](service-create-the-new-workspaces.md)
 
 

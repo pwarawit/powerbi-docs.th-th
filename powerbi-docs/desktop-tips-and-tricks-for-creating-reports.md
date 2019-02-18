@@ -1,7 +1,7 @@
 ---
 title: คำแนะนำและเคล็ดลับในการสร้างรายงานใน Power BI Desktop
 description: เรียนรู้หลักปฏิบัติที่ดีที่สุดสำหรับการสร้างรายงานในบริการ Power BI และ Power BI Desktop
-author: davidi
+author: davidiseminger
 manager: kfile
 ms.reviewer: willthom
 ms.custom: seodec18
@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
-ms.openlocfilehash: bd1889605773b1d9eed888550676b8bbc9933b2f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fa3d24de1f54be127f3f9b23ca33677987464150
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296006"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223869"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>คำแนะนำและเคล็ดลับในการสรา้งรายงานใน Power BI Desktop
 เพื่อให้ได้รับประโยชน์สูงสุดจากข้อมูลของคุณ บางครั้งคุณก็ต้องการความช่วยเหลือเพิ่มเติมเล็กน้อย เราได้รวบรวมคำแนะนำและเคล็ดลับบางประการที่คุณสามารถใช้งานได้ในการสร้างรายงานใน Microsoft Power BI Desktop*และ*ในรุ่น Microsoft Excel 2016 หรือ Excel 2013 Pro-Plus ที่เปิดใช้งาน Power Pivot add-in แล้วและติดตั้งรวมทั้งเปิดใช้งาน Power Query แล้ว 
