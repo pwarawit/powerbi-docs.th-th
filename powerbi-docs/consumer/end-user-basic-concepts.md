@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: c363d71b9d8796f1bd05ac01e12e9424a499a439
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430613"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216205"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>แนวคิดพื้นฐานสำหรับ***ลูกค้า***ที่ใช้บริการ Power BI
 
@@ -87,7 +87,7 @@ _______________________________________________________
 * สามารถใช้ในรายงานต่าง ๆ ได้มากมาย
 * การแสดงภาพจากชุดข้อมูลหนึ่งสามารถแสดงบนหลายแดชบอร์ดได้
   
-  ![ชุดข้อมูลที่มีความสัมพันธ์แบบ M:1](media/end-user-basic-concepts/drawing2.png)
+  ![ความสัมพันธ์ M:1 ชุดข้อมูล](media/end-user-basic-concepts/drawing2.png)
 
 ไปที่บล็อกการสร้างถัดไป - การแสดงภาพข้อมูล
 __________________________________________________________
