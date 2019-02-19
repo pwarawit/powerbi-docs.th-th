@@ -11,18 +11,18 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: ff9f75b216ba64dfdb0b8244bb99016d0edd4ede
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277008"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324875"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>จัดการเกตเวย์ Power BI ภายในองค์กร
 
-หลังจากที่คุณ[ติดตั้งเกตเวย์ข้อมูล Power BI](service-gateway-install.md) แล้ว คุณสามารถจัดการได้ตามความต้องการของคุณ ในหัวข้อนี้ คุณเรียนรู้วิธีการ: เพิ่ม และเอาแหล่งข้อมูลและผู้ใช้ออก, รีสตาร์ทเกตเวย์, โยกย้าย, คืนค่า, ยึดครอง และเอาเกตเวย์ออก 
+หลังจากที่คุณ[ติดตั้งเกตเวย์ข้อมูล Power BI](service-gateway-install.md) แล้ว คุณสามารถจัดการได้ตามความต้องการของคุณ ในหัวข้อนี้ คุณเรียนรู้วิธีการ: เพิ่ม และเอาแหล่งข้อมูลและผู้ใช้ออก, รีสตาร์ทเกตเวย์, โยกย้าย, คืนค่า, ยึดครอง และเอาเกตเวย์ออก
 
-คุณสามารถจัดการเกตเวย์ผ่านพื้นที่**จัดการเกตเวย์**ของบริการของ Power BI, ในแอปเกตเวย์บนเครื่องคอมพิวเตอร์ของคุณ และด้วยสคริปต์ PowerShell ได้ บทความนี้มุ่งเน้นไปที่บริการของ Power BI 
+คุณสามารถจัดการเกตเวย์ผ่านพื้นที่**จัดการเกตเวย์**ของบริการของ Power BI, ในแอปเกตเวย์บนเครื่องคอมพิวเตอร์ของคุณ และด้วยสคริปต์ PowerShell ได้ บทความนี้มุ่งเน้นไปที่บริการของ Power BI
 
 ถ้าคุณเพิ่งติดตั้งเกตเวย์ เราขอแนะนำให้คุณ[เพิ่มแหล่งข้อมูล](#add-a-data-source) จากนั้น[เพิ่มผู้ใช้](#add-users-to-a-data-source) เพื่อให้พวกเขาสามารถเข้าถึงแหล่งข้อมูลได้
 

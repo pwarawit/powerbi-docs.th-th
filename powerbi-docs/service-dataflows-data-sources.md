@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cef34e7be0767ce16b84b066663318b66bcbd2d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280573"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324932"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>เชื่อมต่อไปยังแหล่งข้อมูลสำหรับกระแสข้อมูล Power BI (ดูตัวอย่าง)
 
@@ -76,6 +76,7 @@ ms.locfileid: "54280573"
 * ฐานข้อมูล SQL Server
 * ฐานข้อมูล Sybase
 * ฐานข้อมูล Teradata
+* Vertica
 
 หมวดหมู่ **Power BI** ประกอบด้วยการเชื่อมต่อข้อมูลที่ใช้ได้สำหรับกระแสข้อมูลต่อไปนี้:
 
@@ -91,6 +92,7 @@ ms.locfileid: "54280573"
 
 หมวดหมู่ **บริการออนไลน์** ประกอบด้วยการเชื่อมต่อข้อมูลที่ใช้ได้สำหรับกระแสข้อมูลต่อไปนี้:
 
+* Amazon Redshift
 * Common Data Service สำหรับแอป
 * Microsoft Exchange Online
 * ออบเจ็กต์ Salesforce
@@ -154,12 +156,8 @@ ms.locfileid: "54280573"
 
 รายการต่อไปนี้แสดงว่าตัวเชื่อมต่อใดที่คุณสามารถใช้ได้ในปัจจุบันโดยการคัดลอกและวางคิวรี่ M ลงในคิวรี่ว่างเปล่า:
 
-* Amazon Redshift
 * SAP Business Warehouse 
-* SAP HANA
-* บริการด้านการวิเคราะห์
 * Azure Analysis Services
-* Google Analytics
 * Adobe Analytics
 * ODBC
 * OLE DB
@@ -170,7 +168,6 @@ ms.locfileid: "54280573"
 * Azure HDInsight (HDFS)
 * ไฟล์ Hadoop (HDFS)
 * Informix (เบต้า)
-* Vertica
 
 นั่นคือทั้งหมดของการเชื่อมต่อกับแหล่งข้อมูลในกระแสข้อมูล Power BI
 

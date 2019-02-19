@@ -1,20 +1,20 @@
 ---
 title: 'บทช่วยสอน: สำรวจ Power BI Report Server ใน VM'
 description: ในบทช่วยสอนนี้ คุณสร้างเครื่องเสมือนที่มีการติดตั้ง Power BI Report Server แล้ว และสำรวจพอร์ทัลเว็บได้
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
-ms.author: maggies
-ms.openlocfilehash: 4eb9f5dc7e45006d1b5697f35b79d0e9d11fa2df
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: 098aa1cd2c031a200e3ce246890a467a6e15149d
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281401"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325093"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>บทช่วยสอน: สำรวจพอร์ทัลเว็บ Power BI Report Server ใน VM
 ในบทช่วยสอนนี้ คุณสร้างเครื่องเสมือน Azure ที่มีการติดตั้ง Power BI Report Server ไว้แล้วได้ ดังนั้นคุณสามารถดู แก้ไข และจัดการตัวอย่าง Power BI และรายงานที่มีการแบ่งหน้า และ KPI ได้

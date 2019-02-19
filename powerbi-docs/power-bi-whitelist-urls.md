@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: 39a62950260789b50be034c2f55808e6991764db
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 07441bd0446e37353984efe97e435ac83d2c355d
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294126"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249079"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Power BI Url สำหรับอนุญาตพิเศษ
 
@@ -69,10 +69,10 @@ Power BI ขึ้นอยู่กับจุดสิ้นสุดที�
 
 | แถว | วัตถุประสงค์ | ปลายทาง | พอร์ต |
 | --- | --- | --- | --- |
-| 1 | **จำเป็นต้องมี:** AppSource (แอปภายในหรือภายนอกใน Power BI) | appsource.microsoft.com </br> *.s microsoft.com  | TCP 443 |
+| 1 | **จำเป็นต้องมี:** AppSource (แอปภายในหรือภายนอกใน Power BI) | appsource.microsoft.com <br> *.s microsoft.com  | TCP 443 |
 | 2 | **ตัวเลือก:** ลงชื่อเข้าใช้และรับข้อมูลสำหรับแพคเกจเนื้อหา | ขึ้นอยู่กับชุดเนื้อหาที่ใช้ | ขึ้นอยู่กับชุดเนื้อหาที่ใช้ |
 | 3 | **ตัวเลือก:** นำเข้าไฟล์จาก OneDrive ส่วนบุคคล | ดู[URL และพอร์ตที่จำเป็นสำหรับไซต์ OneDrive](https://docs.microsoft.com/onedrive/required-urls-and-ports) | N/A |
-| 4 | **ตัวเลือก:** Power BI ในวิดีโอบทช่วยสอน 60 วินาที | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
+| 4 | **ตัวเลือก:** Power BI ในวิดีโอบทช่วยสอน 60 วินาที | *.doubleclick.net <br> *.ggpht.com <br> *.google.com <br> *.googlevideo.com <br> *.youtube.com <br> *.ytimg.com <br> fonts.gstatic.com | TCP 443 |
 | 5 | **ตัวเลือก:** แหล่งข้อมูลการสตรีม PubNub | ดู[เอกสาร PubNub](https://support.pubnub.com/support/solutions/articles/14000043522) | N/A |
 | | | |
 
@@ -91,8 +91,8 @@ Power BI ขึ้นอยู่กับจุดสิ้นสุดบา�
 
 | แถว | วัตถุประสงค์ | ปลายทาง | พอร์ต |
 | --- | --- | --- | --- |
-| 1 | **จำเป็นต้องมี:** นำเข้าวิชวลแบบกำหนดเองจากอินเทอร์เฟซ Marketplace หรือจากไฟล์ | *.azureedge.net </br> *.blob.core.windows.net </br> store.office.com | TCP 443 |
-| 2 | **ตัวเลือก:** แผนที่ Bing | bing.com </br> platform.bing.com </br> *.virtualearth.net | TCP 443 |
+| 1 | **จำเป็นต้องมี:** นำเข้าวิชวลแบบกำหนดเองจากอินเทอร์เฟซ Marketplace หรือจากไฟล์ | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
+| 2 | **ตัวเลือก:** แผนที่ Bing | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **ตัวเลือก:** PowerApps | ดู[ส่วนบริการที่จะเป็น](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)จากไซต์ความต้องการของระบบ PowerApps | N/A |
 | 4 | **ตัวเลือก:** Visio | ดูเอกสารประกอบสำหรับ Office 365 [Office Online และ Url ทั่วไป ](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)ตลอดจน [SharePoint Online และ OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/A |
 | | | |
@@ -103,12 +103,12 @@ Power BI ลิงก์ไปยังเว็บไซต์อื่นท�
 
 | แถว | วัตถุประสงค์ | ปลายทาง | พอร์ต |
 | --- | --- | --- | --- |
-| 1 | **ตัวเลือก:** เว็บไซต์ชุมชน | community.powerbi.com </br> oxcrx34285.i.lithium.com | TCP 443 |
-| 2 | **ตัวเลือก:** เว็บไซต์เอกสารประกอบ | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
+| 1 | **ตัวเลือก:** เว็บไซต์ชุมชน | community.powerbi.com <br> oxcrx34285.i.lithium.com | TCP 443 |
+| 2 | **ตัวเลือก:** เว็บไซต์เอกสารประกอบ | docs.microsoft.com <br> img-prod-cms-rt-microsoft-com.akamaized.net <br> statics-uhf-eas.akamaized.net <br> cdnssl.clicktale.net <br> ing-district.clicktale.net | TCP 443 |
 | 3 | **ตัวเลือก:** เว็บไซต์ดาวน์โหลด (สำหรับ Power BI Desktop และอื่น ๆ) | download.microsoft.com | TCP 443 |
-| 4 | **ตัวเลือก:** การเปลี่ยนเส้นทางภายนอก | aka.ms </br> go.microsoft.com | TCP 443 |
-| 5 | **ตัวเลือก:** เว็บไซต์สำหรับคำติชมแนวคิด| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |
+| 4 | **ตัวเลือก:** การเปลี่ยนเส้นทางภายนอก | aka.ms <br> go.microsoft.com | TCP 443 |
+| 5 | **ตัวเลือก:** เว็บไซต์สำหรับคำติชมแนวคิด| ideas.powerbi.com <br> powerbi.uservoice.com | TCP 443 |
 | 6 | **ตัวเลือก:** เว็บไซต์ Power BI - หน้าเว็บไซต์แรก เรียนรู้ลิงก์เพิ่มเติม ไซต์สนับสนุน ลิงก์ดาวน์โหลด พื้นที่นำเสนอคู่ค้า เป็นต้น | powerbi.microsoft.com | TCP 443 |
 | 7 | **ตัวเลือก:** ศูนย์นักพัฒนา Power BI | dev.powerbi.com | TCP 443 |
-| 8 | **ตัวเลือก:** เว็บไซต์การสนับสนุน | support.powerbi.com </br> s3.amazonaws.com </br> *.olark.com </br> logx.optimizely.com </br> mscom.demdex.net </br> tags.tiqcdn.com | TCP 443 |
+| 8 | **ตัวเลือก:** เว็บไซต์การสนับสนุน | support.powerbi.com <br> s3.amazonaws.com <br> *.olark.com <br> logx.optimizely.com <br> mscom.demdex.net <br> tags.tiqcdn.com | TCP 443 |
 | | | |

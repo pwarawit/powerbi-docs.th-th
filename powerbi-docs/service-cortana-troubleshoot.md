@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d768956f26256bd06516981b2bae0ab17ef3ca90
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296328"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249056"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>แก้ไขปัญหา Cortana สำหรับ Power BI
 บทความนี้เป็นส่วนหนึ่งของชุดบทความต่อเนื่อง ถ้าคุณยังไม่ได้อ่าน เราขอแนะนำให้คุณอ่านสามบทความต่อไปนี้
@@ -79,7 +79,7 @@ ms.locfileid: "54296328"
 
    ![บัตรคำตอบ](media/service-cortana-troubleshoot/power-bi-answer-card-new.png)
 
-   </br>
+   <br>
 
    ![แท็บบัตรคำตอบใน Power BI](media/service-cortana-troubleshoot/power-bi-answer-card2.png)
 4. บางครั้งในครั้งแรกที่คุณพิมพ์ลงในเขตข้อมูล**Utterance** อาจไม่มีสิ่งใดเกิดขึ้น ให้คุณคิดถึงขั้นตอนนี้เหมือนกับเป็นการเริ่มแจ้งระบบ คุณทำให้เครื่องมือแก้ไขปัญหาทราบว่าถึงเวลาเปิดใช้งานแล้ว ตัดและวาง หรือพิมพ์ลงในเขตข้อมูล**Utterance**อีกครั้ง ในตัวอย่างนี้ ชื่อของบัตรคำตอบของเราคือ**ร้านค้า Cortana** การวางหรือการพิมพ์**ร้านค้า Cortana**ลงในเครื่องมือดังกล่าวสร้างผลลัพธ์หนึ่งที่แสดงในเขตข้อมูล**การแปลความ (Interpretation)** คลิกเพื่อดูบัตรคำตอบที่แสดงในหน้าต่าง Cortana - ในกรณีนี้คือ **ร้านค้า Cortana**

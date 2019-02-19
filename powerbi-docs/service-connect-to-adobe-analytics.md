@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8ea62f894b01143997850f3c15f2a069b93d7c26
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: bcd92dc0288fc347c5f5931d40b94cf769f5293f
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008706"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249033"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>เชื่อมต่อกับ Adobe Analytics ด้วย Power BI
 การเชื่อมต่อกับ Adobe Analytics ผ่านทาง Power BI เริ่มจากการเชื่อมต่อไปยังบัญชี Adobe Analytics Marketing Cloud ของคุณ คุณจะได้แอปที่มีแดชบอร์ด Power BI และชุดของรายงาน Power BI ซึ่งให้ข้อมูลเชิงลึกเกี่ยวกับ ปริมาณการใช้งาน และมิติของผู้ใช้ ของไซต์คุณ ข้อมูลจะถูกรีเฟรชโดยอัตโนมัติวันละครั้ง คุณสามารถโต้ตอบกับแดชบอร์ดและรายงาน แต่คุณไม่สามารถบันทึกการเปลี่ยนแปลงได้
@@ -53,19 +53,19 @@ Power BI ใช้ Adobe Analytics Report API เพื่อกำหนด แ
 
 | **ชื่อตาราง** | **รายละเอียดของคอลัมน์** |
 | --- | --- |
-| ผลิตภัณฑ์ |elements=  "product" (top 25) </br> metrics="cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
-| เบราว์เซอร์ |elements= "browser" (top 25)</br>  metrics="bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "pageviews" |
-| หน้า |elements= "page" (top 25)</br>  metrics="cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "visits", "uniquevisitors", "pageviews", "bounces", "bouncerate", "totaltimespent" |
+| ผลิตภัณฑ์ |elements=  "product" (top 25) <br> metrics="cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
+| เบราว์เซอร์ |elements= "browser" (top 25)<br>  metrics="bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "pageviews" |
+| หน้า |elements= "page" (top 25)<br>  metrics="cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "visits", "uniquevisitors", "pageviews", "bounces", "bouncerate", "totaltimespent" |
 | การเปิดใช้งาน JavaScript |elements=  "javascriptenabled”, “browser” (top 25) |
-| ระบบปฏิบัติการมือถือ |elements= "mobileos"(top 25)</br> metrics="bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "checkouts", "revenue", "units", "pageviews" |
-| คำสำคัญสำหรับโปรแกรมค้นหา |elements= "searchengine" "searchenginekeyword"</br>  metrics="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
-| โปรแกรมค้นหา ไปยังผลิตภัณฑ์ |elements= "searchengine", "product"</br>  metrics="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
-| หน้าที่อ้างอิง |elements= "referrer" (top 15), “page" (top 10)</br>  metrics="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
-| หน้าตามรหัสประเทศ |elements= "geocountry" (Top 20), "page"</br>  metrics="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
-| ผลิตภัณฑ์ตามรหัสประเทศ |elements= "geocountry" (Top 20), "product"</br> metrics="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
-| ค้นหาประเทศและภูมิภาค |elements= "geocountry" (Top 200)</br>  metrics="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
-| ภาษา |elements= "language", "browser" (Top 25)</br>  metrics="bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "pageviews", "cartadditions", "cartremovals", "checkouts", "carts", "cartviews" |
-| ค้นหาโปรแกรมค้นหา |elements= "searchengine" (top 100)</br>  metrics="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
+| ระบบปฏิบัติการมือถือ |elements= "mobileos"(top 25)<br> metrics="bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "checkouts", "revenue", "units", "pageviews" |
+| คำสำคัญสำหรับโปรแกรมค้นหา |elements= "searchengine" "searchenginekeyword"<br>  metrics="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
+| โปรแกรมค้นหา ไปยังผลิตภัณฑ์ |elements= "searchengine", "product"<br>  metrics="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
+| หน้าที่อ้างอิง |elements= "referrer" (top 15), “page" (top 10)<br>  metrics="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
+| หน้าตามรหัสประเทศ |elements= "geocountry" (Top 20), "page"<br>  metrics="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units", "pageviews" |
+| ผลิตภัณฑ์ตามรหัสประเทศ |elements= "geocountry" (Top 20), "product"<br> metrics="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
+| ค้นหาประเทศและภูมิภาค |elements= "geocountry" (Top 200)<br>  metrics="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
+| ภาษา |elements= "language", "browser" (Top 25)<br>  metrics="bounces", "bouncerate", "visitors", "visits", "uniquevisitors", "totaltimespent", "pageviews", "cartadditions", "cartremovals", "checkouts", "carts", "cartviews" |
+| ค้นหาโปรแกรมค้นหา |elements= "searchengine" (top 100)<br>  metrics="bounces", "bouncerate", "visitors", "visits", "entries", "uniquevisitors", "totaltimespent", "cartadditions", "cartremovals", "carts", "cartviews", "checkouts", "revenue", "units" |
 | ค้นหาเบราว์เซอร์ |elements= "browser" (top 25) |
 
 ## <a name="system-requirements"></a>ข้อกำหนดของระบบ

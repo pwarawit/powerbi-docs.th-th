@@ -1,22 +1,23 @@
 ---
 title: แหล่งข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
 description: ในบทความนี้ คุณจะได้เรียนรู้วิธีการสร้างและปรับเปลี่ยนแหล่งข้อมูลแบบฝังตัวในรายงานแบบแบ่งหน้า ในบริการของ Power BI
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.author: maggies
-ms.openlocfilehash: d768edbbc57e52186fdb33e1aed9a3da76408963
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7f919234f7635c76ce50d0bfffa393498f141da8
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275605"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324403"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>สร้างแหล่งข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
+
 ในบทความนี้ คุณจะได้เรียนรู้วิธีการสร้างและปรับเปลี่ยนแหล่งข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI คุณอาจกำหนดแหล่งข้อมูลแบบฝังตัวได้ในรายงาน และใช้เฉพาะในรายงานนั้น ในตอนนี้ รายงานแบบแบ่งหน้าที่เผยแพร่ไปยังบริการของ Power BI ต้องใช้ชุดข้อมูลแบบฝังตัวและแหล่งข้อมูลแบบฝังตัว และสามารถเชื่อมต่อกับแหล่งข้อมูลเหล่านี้ได้:
 
 - ฐานข้อมูล Azure SQL และคลังข้อมูล

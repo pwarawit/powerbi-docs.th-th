@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: eb1147875accff47b80dcdaf8a4051b57e627625
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: adeb3f09e52d039937ba3cf54afb72f8ed1287f3
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762639"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249171"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ
 
@@ -97,7 +97,7 @@ ms.locfileid: "55762639"
 
     <center>
 
-    | **MasterUser** </br> (ใบอนุญาต Power BI Pro) | **ServicePrincipal** </br> (โทเค็นเฉพาะแอปเท่านั้น)|
+    | **MasterUser** <br> (ใบอนุญาต Power BI Pro) | **ServicePrincipal** <br> (โทเค็นเฉพาะแอปเท่านั้น)|
     |---------------|-------------------|
     | [applicationId](#application-id) | [applicationId](#application-id) |
     | [workspaceId](#workspace-id) | [workspaceId](#workspace-id) |
@@ -111,7 +111,7 @@ ms.locfileid: "55762639"
 
     ![แฟ้ม Web.config](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-### <a name="application-id"></a>ID แอปพลิเคชัน
+### <a name="application-id"></a>รหัสแอปพลิเคชัน
 
 แอตทริบิวต์นี้จำเป็นสำหรับ AuthenticationTypes ทั้งสอง (บัญชีหลัก และ[บริการหลัก](embed-service-principal.md))
 
@@ -139,11 +139,11 @@ ms.locfileid: "55762639"
 
 กรอกข้อมูล **workspaceId** ด้วย พื้นที่ทำงานแอป (กลุ่ม) GUID จาก Power BI คุณสามารถดูข้อมูลนี้จาก URL เมื่อลงชื่อเข้าใช้บริการ Power BI หรือโดยการใช้ Powershell
 
-URL </br>
+URL <br>
 
 ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
-PowerShell </br>
+PowerShell <br>
 
 ```powershell
 Get-PowerBIworkspace -name "App Owns Embed Test"
@@ -157,11 +157,11 @@ Get-PowerBIworkspace -name "App Owns Embed Test"
 
 กรอกข้อมูล **reportId** ด้วย GUID รายงานจาก Power BI คุณสามารถดูข้อมูลนี้จาก URL เมื่อลงชื่อเข้าใช้บริการ Power BI หรือโดยการใช้ Powershell
 
-URL</br>
+URL<br>
 
 ![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
 
-PowerShell </br>
+PowerShell <br>
 
 ```powershell
 Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
