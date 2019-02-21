@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8cc1201c506e98ae33b68ef0cf802dae20b6f493
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216527"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426734"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับที่เก็บกระแสข้อมูล (ตัวอย่าง)
 
@@ -70,6 +70,8 @@ ms.locfileid: "56216527"
 ในหน้าต่าง**เพิ่มการกำหนดบทบาท** เลือกบทบาท**ผู้อ่าน**เพื่อกำหนดค่าการบริการ Power BI จากนั้นใช้การค้นหาเพื่อกำหนดที่ตั้ง**บริการ Power BI** รูปภาพต่อไปนี้แสดงบทบาทของ**ผุ้อ่าน**ที่ได้รับมอบหมายให้กับบริการ Power BI
 
 ![บริการ power BI ที่ถูกกำหนดให้กับบทบาทผู้อ่าน](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
+
+หมายเหตุ: โปรดให้เวลาอย่างน้อย 30 นาที ในการอนุญาต propogate ไปยัง Power BI จากพอร์ทัล เมื่อใดก็ตามที่คุณเปลี่ยนการอนุญาตในพอร์ทัลคุณควรให้เวลา 30 นาที สำหรับสะท้อนให้เหมือนกับใน Power BI เพื่อลองอีกครั้ง 
 
 
 ### <a name="create-a-file-system-for-power-bi"></a>สร้างไฟล์ระบบสำหรับ Power BI

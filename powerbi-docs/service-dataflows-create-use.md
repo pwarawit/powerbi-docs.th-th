@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb550bb2a009c5f227541db41a9bc45fc708d1e1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279055"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426642"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>การสร้างและการใช้กระแสข้อมูลใน Power BI (ตัวอย่าง)
 
@@ -155,6 +155,10 @@ ms.locfileid: "54279055"
 * **ตัวเชื่อมต่อ Salesforce** - การใช้บัญชีทดลองใช้สำหรับ Salesforce พร้อมผลลัพธ์กระแสข้อมูลเมื่อการเชื่อมต่อผิดพลาดและไม่มีรายละเอียดให้ ในการแก้ปัญหานี้ ให้คุณใช้บัญชีการสร้างของ Salesforce หรือบัญชีนักพัฒนาเพื่อทำการทดสอบ
 
 * **ตัวเชื่อมต่อ SharePoint** - ตรวจสอบให้แน่ใจว่าคุณได้ให้ที่อยู่ต้นของไซต์ SharePoint โดยไม่มีโฟลเดอร์ย่อยหรือเอกสารใด ตัวอย่างเช่น การใช้ลิงก์ที่คล้ายกับต่อไปนี้:[https://microsoft.sharepoint.com/teams/ObjectModel/](https://microsoft.sharepoint.com/teams/ObjectModel/) 
+
+* **ตัวเชื่อมต่อไฟล์ JSON** -ในขณะนี้คุณสามารถเชื่อมต่อกับไฟล์ JSON โดยใช้การรับรองความถูกต้องพื้นฐานเท่านั้นได้  เชื่อมต่อกับไฟล์ JSON โดยใช้ข้อมูลประจำตัวภายใน URL (ตัวอย่างเช่น https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg..) ที่**ไม่ได้**รับการสนับสนุน  
+
+* **Azure SQL Data Warehouse** - ขณะนี้ Dataflow ไม่สนับสนุนการรับรองความถูกต้อง Azure Active Directory (AAD) สำหรับ Azure SQL Data Warehouse ใช้การรับรองความถูกต้องพื้นฐานสำหรับสถานการณ์สมมตินี้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

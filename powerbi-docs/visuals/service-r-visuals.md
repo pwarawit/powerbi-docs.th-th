@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48e1ddbc498e234c43bf755d3a23a2e10e4cc856
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290233"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426619"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>การสร้างภาพ R ในบริการ Power BI
 บริการ Power BI สนับสนุนการดูและโต้ตอบกับภาพที่สร้างขึ้น ด้วยสคริปต์ R ภาพที่สร้างขึ้นด้วยสคริปต์ R มักเรียกว่า*ภาพ R* ซึ่งสามารถนำเสนอการปรับรูปร่างข้อมูลและการวิเคราะห์ขั้นสูง เช่น การทำนายโดยใช้การวิเคราะห์ที่มีข้อมูลเต็มเปี่ยมและพลังของการแสดงภาพ R
@@ -66,11 +66,19 @@ ms.locfileid: "54290233"
 ## <a name="licensing"></a>การมอบสิทธิ์การใช้งาน
 ภาพ R จำเป็นต้องมีสิทธิ์การใช้งาน[Power BI Pro](../service-self-service-signup-for-power-bi.md)เพื่อแสดงในรายงาน รีเฟรช ตัวกรอง และตัวกรองข้าม สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสิทธิ์การใช้งาน Power BI Pro และความแตกต่างจากสิทธิ์การใช้งานฟรี ดู[เนื้อหา Power BI Pro - นี่คืออะไร?](../service-premium.md)
 
-ผู้ใช้ที่ใช้งาน Power BI ฟรีสามารถใช้ไทล์ที่แชร์กับตนได้เท่านั้น สำหรับข้อมูลเพิ่มเติม ดู[ซื้อ Power BI Pro](../service-admin-purchasing-power-bi-pro.md)
+ผู้ใช้ที่ใช้งาน Power BI ฟรีสามารถใช้ไทล์ที่แชร์กับตนได้เท่านั้นในพื้นที่ทำงานระดับ Premium สำหรับข้อมูลเพิ่มเติม ดู[ซื้อ Power BI Pro](../service-admin-purchasing-power-bi-pro.md)
 
 ตารางต่อไปนี้อธิบายเกี่ยวกับความสามารถของภาพ R ตามสิทธิ์การใช้งาน
 
-![](media/service-r-visuals/r-visuals-service_6a.png)
+
+|  |ผู้เขียน R วิชวลใน Power BI Desktop  | สร้างรายงานบริการ PBI ด้วยวิชวล R |ดูวิชวล R ในรายงาน  | มุมมองไทล์ R ในแดชบอร์ด |
+|---------|---------|---------|---------|--------|
+|**ผู้เยี่ยมชม** Power BI Embedded     |  ไม่เกี่ยวข้อง|  ไม่เกี่ยวข้อง       | ไม่ได้รับการสนับสนุน  | ไม่เกี่ยวข้อง |
+|**ผู้เช่าที่ไม่มีการจัดการ**(ไม่ได้ยืนยันโดเมน) | สนับสนุน | ไม่ได้รับการสนับสนุน |  ไม่ได้รับการสนับสนุน |ได้รับการสนับสนุน (สถานการณ์ B2B) |
+|**ผู้เช่าที่ได้รับการจัดการ**ซึ่งมีใบอนุญาตฟรี    |  สนับสนุน       |  ไม่ได้รับการสนับสนุน       |    ได้รับการสนับสนุนในความจุ Premium เท่านั้น    | สนับสนุน |
+**ผู้เช่าที่ได้รับการจัดการ**ซึ่งมีใบอนุญาต Pro     |   สนับสนุน      | สนับสนุน      | สนับสนุน    |สนับสนุน|
+
+
 
 ## <a name="known-limitations"></a>ข้อจำกัดที่ทราบ
 ภาพ R ในบริการ Power BI มีข้อจำกัดบางอย่าง:

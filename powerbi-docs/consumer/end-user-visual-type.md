@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794855"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426780"
 ---
 # <a name="visualization-types-in-power-bi"></a>ชนิดการแสดงภาพใน Power BI
 คุณจะพบการแสดงผลด้วยภาพในรายงานแดชบอร์ด แอป และถามตอบ (Q&A) ชนิดการแสดงผลด้วยภาพเหล่านี้บางส่วนถูกรวมเป็นแพคเกจเข้ากับ Power BI และบางส่วนเป็น *วิชวลแบบกำหนดเอง* วิชวลแบบกำหนดเองถูกสร้างขึ้นนอก Power BI และในแนวทางที่อนุญาตให้ *ผู้ออกแบบรายงาน* เพิ่มลงในรายงาน Power BI แดชบอร์ด และแอปได้ 
@@ -98,10 +98,12 @@ ms.locfileid: "55794855"
 - แสดงความสมบูรณ์ของการวัดเดี่ยว
 - แสดงข้อมูลที่สามารถสแกนและทำความเข้าใจได้อย่างรวดเร็ว
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+ ### <a name="key-influencers-chart"></a>แผนภูมิผู้มีอิทธิพลหลัก
+![ผู้มีอิทธิพลหลัก](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
 
-A key influencer chart displays the major contributors to a selected result or value.  -->
+แผนภูมิผู้มีอิทธิพลหลักแสดงผู้สนับสนุนหลักไปยังผลลัพธ์หรือค่าที่เลือก
+
+ผู้มีอิทธิพลหลักเป็นตัวเลือกที่ยอดเยี่ยมเพื่อช่วยให้คุณเข้าใจปัจจัยที่ส่งผลต่อเมตริกหลัก ตัวอย่างเช่น *อะไรคือสิ่งที่มีอิทธิพลต่อลูกค้าในการสั่งซื้อครั้งที่สอง*หรือ*ทำไมยอดขายถึงสูงมากเมื่อเดือนมิถุนายนที่ผ่านมา* 
 
 ### <a name="kpis"></a>KPI
 ![KPI](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
