@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 02/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
+ms.openlocfilehash: b130ccbe6b3fe6fa09b9a4c4efe388f79350c500
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482717"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298833"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>ใช้งานตัวกรองใหม่ในรายงาน Power BI (ตัวอย่าง)
 
 บทความนี้กล่าวถึงว่าประสบการณ์การใช้งานตัวกรองใหม่: ตัวกรองใน Power BI ได้รับการออกแบบใหม่และมีฟังก์ชันการทำงานใหม่ เมื่อคุณออกแบบรายงาน ใน Power BI Desktop หรือ ในบริการ Power BI คุณสามารถทำให้บานหน้าต่างตัวกรองมีลักษณะ และดำเนินการกับรายงานทั้งหมด ในการใช้งานใหม่ บานหน้าต่างตัวกรองเก่าทำหน้าที่เป็นบานหน้าต่างตัวกรองสำหรับแก้ไข และบานหน้าต่างตัวกรองใหม่ เป็นเพียงสิ่งที่ลูกค้ารายงานของคุณดู 
  
 ![มุมมองเริ่มต้น (ไม่มีการนำไปใช้เพิ่มเติมโดยกำหนดเอง)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
+
+> [!NOTE]
+> ประสบการณ์การใช้งานตัวกรองใหม่อยู่ในตัวอย่าง การติดตั้งใหม่อาจแทนที่การจัดรูปแบบที่คุณได้ตั้งค่าไว้แล้ว
 
 ในฐานะผู้ออกแบบรายงาน นี่คือสิ่งที่คุณสามารถทำได้ ด้วยตัวกรองใหม่:
 
@@ -83,6 +86,7 @@ ms.locfileid: "55482717"
 - ความโปร่งใสของพื้นหลัง
 - ปิดหรือเปิดเส้นขอบของบานหน้าต่างตัวกรอง
 - สีเส้นขอบของบานหน้าต่างตัวกรอง
+- ชื่อบานหน้าต่างตัวกรองและแบบอักษรหัวข้อ สี และขนาดข้อความ
 
 คุณยังสามารถจัดรูปแบบองค์ประกอบเหล่านี้สำหรับการ์ดตัวกรอง ขึ้นอยู่กับการนำไปใช้ (ตั้งค่าเป็นอย่างอื่น) หรือพร้อมใช้งาน (ลบ): 
 
@@ -90,6 +94,8 @@ ms.locfileid: "55482717"
 - ความโปร่งใสของพื้นหลัง
 - เส้นขอบ: เปิดหรือปิด
 - สีขอบ
+- แบบอักษร์ สี และขนาดข้อความ
+- สีของกล่องข้อมูลป้อนเข้า
 
 ### <a name="set-the-format-for-the-filters-pane-and-cards"></a>ตั้งค่ารูปแบบสำหรับบานหน้าต่างตัวกรองและการ์ด
 
@@ -100,11 +106,11 @@ ms.locfileid: "55482717"
 
 1. ขยาย**บานหน้าต่างตัวกรอง**การตั้งค่าสีสำหรับพื้นหลัง ไอคอน และเส้น ขอบด้านซ้าย เพื่อเสริมหน้ารายงาน
 
-    ![ขยายบานหน้าต่างตัวกรอง](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
+    ![ขยายบานหน้าต่างตัวกรอง](media/power-bi-report-filter-preview/power-bi-filter-format-pane-font.png)
 
 1. ขยาย**การ์ดตัวกรอง**เพื่อตั้งค่าสีและเส้นขอบเป็น**พร้อมใช้งาน**และ**ใช้งานได้** หากคุณสร้างการ์ดที่พร้อมใช้งาน และใช้สีที่ต่างกัน จะเห็นได้ชัดว่าใช้ตัวกรองใหนสามารภใช้ได้ 
   
-    ![ขยายการ์ดตัวกรอง](media/power-bi-report-filter-preview/power-bi-filter-format-card.png)
+    ![ขยายการ์ดตัวกรอง](media/power-bi-report-filter-preview/power-bi-filter-format-card-font.png)
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>ดูตัวกรองสำหรับภาพในโหมดการอ่าน
 

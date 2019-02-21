@@ -1,6 +1,6 @@
 ---
 title: การวิเคราะห์ที่ฝังตัวที่ใช้ในการฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับองค์กรของคุณ
-description: เรียนรู้วิธีรวมหรือฝังรายงาน, แดชบอร์ด หรือไทล์ เข้าไปในแอปพลิเคชั่นโดยการใช้ Power BI APIs สำหรับการวิเคราะห์ที่ฝังตัวสำหรับองค์กรของคุณ เรียนรู้วิธีการรวม Power BI เข้ากันกับแอปพลิเคชันของคุณโดยใช้ซอฟต์แวร์การวิเคราะห์แบบฝังตัว, เครื่องมือการวิเคราะห์แบบฝังตัวหรือเครื่องมือข่าวกรองธุรกิจแบบฝังตัว
+description: เรียนรู้วิธีรวมหรือฝัง รายงาน แดชบอร์ด หรือไทล์ เข้าไปในแอปพลิเคชั่นโดยการใช้ Power BI APIs สำหรับการวิเคราะห์แบบฝังตัวสำหรับองค์กรของคุณ เรียนรู้วิธีการรวม Power BI เข้ากันกับแอปพลิเคชันของคุณโดยใช้ซอฟต์แวร์การวิเคราะห์แบบฝังตัว, เครื่องมือการวิเคราะห์แบบฝังตัวหรือเครื่องมือข่าวกรองธุรกิจแบบฝังตัว
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 2d095f117fdaafa34a1b9636d03045d0119f4dd8
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 6a6dc71d68fa7ff136d35cbfb185b96db8e0589e
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762478"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249447"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับองค์กรของคุณ
 
@@ -57,7 +57,7 @@ ms.locfileid: "55762478"
 
 3. ในหน้าต่างนำทางซ้ายมือ เลือก **บริการทั้งหมด** และเลือก **การลงทะเบียนแอป** จากนั้นเลือก **ลงทะเบียนแอปพลิเคชันใหม่**
 
-    ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)</br>
+    ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)<br>
 
     ![ลงทะเบียนแอปใหม่](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
 
@@ -367,7 +367,7 @@ window.onload = function () {
     // client side click to embed a selected report.
     var el = document.getElementById("bEmbedReportAction");
     if (el.addEventListener) {
-        el.addEventListener("click", updateEmbedReporte, false);
+        el.addEventListener("click", updateEmbedReport, false);
     } else {
         el.attachEvent('onclick', updateEmbedReport);
     }

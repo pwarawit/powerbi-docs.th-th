@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086482"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408195"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>ดูแล Power BI ในพอร์ทัลผู้ดูแลระบบ
 
@@ -172,11 +172,11 @@ ms.locfileid: "56086482"
 > [!NOTE]
 > ปิดใช้งาน**ส่งออกข้อมูล**ยัง ช่วยป้องกันผู้ใช้จากการใช้ฟีเจอร์การ**วิเคราะห์ใน Excel**ตลอดจนการใช้เชื่อมต่อสดของบริการ Power BI ฃ
 
-### <a name="export-reports-as-powerpoint-presentations"></a>ส่งออกรายงานในรูปแบบการนำเสนอ PowerPoint
+### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>ส่งออกรายงานในรูปแบบงานนำเสนอ PowerPoint หรือเอกสาร PDF
 
-ผู้ใช้ในองค์กรสามารถส่งออกรายงาน Power BI ในรูปแบบไฟล์ PowerPoint ได้ [เรียนรู้เพิ่มเติม](consumer/end-user-powerpoint.md)
+ผู้ใช้งานในองค์กรสามารถส่งออกรายงาน Power BI ในรูปแบบไฟล์ PowerPoint หรือเอกสาร PDF ได้ [เรียนรู้เพิ่มเติม](consumer/end-user-powerpoint.md)
 
-รูปต่อไปนี้แสดงให้เห็น**ไฟล์**เมนูสำหรับการรายงานเมื่อเปิดการตั้งค่า**นำเสนอออกเป็นงานในรูปแบบ PowerPoint**
+รูปต่อไปนี้แสดงเมนู**แฟ้ม**สำหรับรายงานเมื่อ**การตั้งค่าส่งออกรายงานในรูปแบบงานนำเสนอ PowerPoint หรือเอกสาร PDF**ถูกเปิดใช้งาน
 
 ![ส่งออกรายงานในรูปแบบการนำเสนอ PowerPoint](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
@@ -202,9 +202,9 @@ ms.locfileid: "56086482"
 
 ![เผยแพร่ชุดเนื้อหาไปยังองค์กร](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-organizational-content-packs-and-apps"></a>สร้างชุดเนื้อหาและแอปสำหรับองค์กรเชิงเทมเพลต
+### <a name="create-template-apps"></a>สร้างแอปแม่แบบ
 
-ผู้ใช้ในองค์กรสามารถสร้างชุดเนื้อหาเทมเพลตที่ใช้ชุดข้อมูลที่สร้างขึ้นใน Power BI Desktop ได้ [เรียนรู้เพิ่มเติม](template-content-pack-authoring.md)
+ผู้ใช้งานในองค์กรสามารถสร้างแอปแม่แบบโดยใช้ชุดข้อมูลที่สร้างขึ้นใน Power BI Desktop ได้ เรียนรู้เพิ่มเติมเกี่ยวกับ[แอปแม่แบบ](template-content-pack-authoring.md)
 
 ### <a name="push-apps-to-end-users"></a>ส่งแอปให้กับผู้ใช้ปลายทาง
 
@@ -301,6 +301,18 @@ ms.locfileid: "56086482"
 
 > [!NOTE]
 > การตั้งค่านี้จะนำไปใช้กับทั้งองค์กร และไม่สามารถจำกัดให้กับเฉพาะกลุ่มได้
+
+## <a name="template-apps-settings-preview"></a>การตั้งค่าแอปแม่แบบ (ตัวอย่าง)
+
+การตั้งค่าสองแบบควบคุมแอปแม่แบบ 
+
+![ตั้งค่าแอปแม่แบบพอร์ทัลของผู้ดูแลระบบ Power BI](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
+
+การตั้งค่าแบบแรก**สร้างแอปแม่แบบ** ควบคุมว่าบุคคลใดในองค์กรของคุณสามารถสร้างแอปแม่แบบได้ ผู้สร้างแอปแม่แบบสามารถแจกจ่ายแอปแม่แบบให้กับลูกค้าภายนอกองค์กรของคุณผ่าน AppSource หรือวิธีการแจกจ่ายอื่นๆ
+
+![พอร์ทัลผู้ดูแลระบบของ power BI สร้างการตั้งค่าแอปแม่แบบ](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+
+การตั้งค่าแบบที่สอง**ติดตั้งแอปแม่แบบ**คุณเป็นคนควบคุมว่าบุคคลใดในองค์กรของคุณสามารถดาวน์โหลดและติดตั้งแอปแม่แบบจาก AppSource หรือแหล่งข้อมูลอื่นๆได้
 
 ## <a name="capacity-settings"></a>การตั้งค่าความจุ
 

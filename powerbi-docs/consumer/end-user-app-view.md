@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: b48feeaacc5ec0beff3b9b250f22b1aa605de9f7
-ms.sourcegitcommit: 6c75e38660b1ab4c1af355c85709859ffde09e25
+ms.openlocfilehash: f4e6f0204ed9832a3ed3c3ed8347a44300f606df
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55068062"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249401"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>ติดตั้งและใช้แอปกับแดชบอร์ดและรายงาน
 ตอนนี้คุณมี [ความเข้าใจพื้นฐานของแอป](end-user-apps.md) มาเรียนรู้วิธีเปิดและโต้ตอบกับแอป 
@@ -25,7 +25,7 @@ ms.locfileid: "55068062"
 
 ใน Power BI บนอุปกรณ์เคลื่อนที่ของคุณ คุณสามารถเติดตั้งแอปได้ จากลิงก์โดยตรงเท่านั้น และไม่สามารถตัดตั้งจาก AppSource ถ้าผู้สร้างแอปติดตั้งแอปโดยอัตโนมัติ คุณจะเห็นได้ในรายการของแอป
 
-### <a name="install-an-app-from-a-direct-link"></a>ติดตั้งแอปจากลิงก์โดยตรง
+## <a name="install-an-app-from-a-direct-link"></a>ติดตั้งแอปจากลิงก์โดยตรง
 วิธีง่ายที่สุดในการติดตั้งแอปใหม่ด้วยตัวคุณเอง เพื่อรับลิงก์ในอีเมลโดยตรงจากผู้เขียนแอป  
 
 **บนคอมพิวเตอร์ของคุณ** 
@@ -40,7 +40,7 @@ ms.locfileid: "55068062"
 
 ![รายการเนื้อหาแอปบนอุปกรณ์เคลื่อนที่](./media/end-user-app-view/power-bi-app-index-it-spend-360.png)
 
-### <a name="get-the-app-from-microsoft-appsource"></a>ดาวน์โหลดแอปจาก Microsoft AppSource
+## <a name="get-the-app-from-microsoft-appsource"></a>ดาวน์โหลดแอปจาก Microsoft AppSource
 นอกจากนี้คุณยังสามารถค้นหาและติดตั้งแอปจาก Microsoft AppSource ได้ เฉพาะแอปที่คุณเข้าถึง (เช่น ผู้เขียนแอปให้สิทธิ์แก่คุณหรืออนุญาตให้ทุกคน) จะปรากฎขึ้น
 
 1. เลือก**แอป** ![แอปในบานหน้าต่างนำทางด้านซ้าย](./media/end-user-apps/power-bi-apps-bar.png) > **รับแอป** 
