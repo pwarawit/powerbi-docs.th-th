@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 4cbd17a08a8cb7c7253f60f29a19341598c9800f
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408080"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426550"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>คำแนะนำการใช้วิชวลของ Power BI ที่มีการซื้อเพิ่มเติม
 
@@ -33,7 +33,10 @@ ms.locfileid: "56408080"
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>วิชวล Power BI ที่มีคุณลักษณะ IAP คืออะไร?
 
-วิชวล IAP เป็นวิชวลที่ไม่เสียค่าใช้จ่ายและเสนอคุณลักษณะฟรี แต่ยังมีคุณลักษณะเพิ่มเติมซึ่งอาจมีการเรียกเก็บเงินเพิ่มเติมเพื่อให้สามารถใช้งานได้ นักพัฒนาต้องแจ้งผู้ใช้ในคำอธิบายของวิชวลเกี่ยวกับคุณลักษณะที่ต้องซื้อเพิ่มเติมเพื่อใช้งาน ปัจจุบัน Microsoft ไม่ได้มี application programming interfaces (APIs) แบบเนทีฟเพื่อสนับสนุนการซื้อเพิ่มภายในแอปและ Add-ins นักพัฒนาอาจใช้ระบบการชำระเงินอื่นสำหรับการซื้อเหล่านั้น ดูที่ [นโยบาย](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) ของร้านค้าของเรา
+วิชวล IAP เป็นวิชวลที่ไม่เสียค่าใช้จ่ายและเสนอคุณลักษณะฟรี แต่ยังมีคุณลักษณะขั้นสูงเพิ่มเติมซึ่งอาจมีการเรียกเก็บเงินเพิ่มเติมเพื่อให้สามารถใช้งานได้ นักพัฒนาต้องแจ้งผู้ใช้ในคำอธิบายของวิชวลเกี่ยวกับคุณลักษณะที่ต้องซื้อเพิ่มเติมเพื่อใช้งาน ปัจจุบัน Microsoft ไม่ได้มี application programming interfaces (APIs) แบบเนทีฟเพื่อสนับสนุนการซื้อเพิ่มภายในแอปและ Add-ins นักพัฒนาอาจใช้ระบบการชำระเงินอื่นสำหรับการซื้อเหล่านั้น ดูที่ [นโยบาย](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) ของร้านค้าของเรา
+
+> [!NOTE]
+> ลายน้ำไม่สามารถใช้งานได้กับคุณลักษณะฟรี นักพัฒนาอาจทำให้หน้าต่างป็อปอัพหรือลายน้ำแสดงขึ้นมาหากมีการใช้คุณลักษณะแบบชำระเงินขั้นสูงแต่ไม่มีสิทธิ์การใช้งานอย่างถูกต้อง  
 
 ## <a name="logo-guidelines"></a>หลักเกณฑ์เกี่ยวกับโลโก้
 
