@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 54af03d332dc9c848ecd83264b2e6aeeca35c9ed
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5540ef52109ab593e834cb446c3442093d4d94f3
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281102"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661870"
 ---
 # <a name="printing-from-power-bi-service"></a>พิมพ์จาก Power BI service
 พิมพ์แดชบอร์ดทั้ง แดชบอร์ดไทล์ หน้ารายงาน หรือรูปรายงานจาก Power BI service รายงานสามารถพิมพ์ออกมาหนึ่งหน้าในแต่ละครั้งเท่านั้น คุณไม่สามารถพิมพ์รายงานทั้งหมดในครั้งเดียว

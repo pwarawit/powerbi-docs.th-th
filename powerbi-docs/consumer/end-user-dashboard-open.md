@@ -6,17 +6,17 @@ manager: kvivek
 ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a4dff6ca2020a349c3f06e5c828e186b3e11bdb6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 62172546e38069253ccc01626dc2101b7e2e4799
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288715"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56663080"
 ---
 # <a name="view-a-dashboard"></a>ดูแดชบอร์ด
 ลูกค้า Power BI ใช้เวลาในการดูแดชบอร์ดมาก แดชบอร์ดออกแบบมาเพื่อเน้นข้อมูลเฉพาะจากรายงานและชุดข้อมูลที่จำเป็น และผู้ใช้ Power BI ใช้ข้อมูลดังกล่าวสำหรับการติดตาม ตรวจสอบ ตอบคำถาม ทดสอบ และอื่นๆ -- เพื่อตัดสินใจทางธุรกิจโดยใช้ข้อมูล

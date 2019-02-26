@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/12/2019
+ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: ea86970565717d5dae8db865a65765f2c8245bad
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426780"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662399"
 ---
 # <a name="visualization-types-in-power-bi"></a>ชนิดการแสดงภาพใน Power BI
 คุณจะพบการแสดงผลด้วยภาพในรายงานแดชบอร์ด แอป และถามตอบ (Q&A) ชนิดการแสดงผลด้วยภาพเหล่านี้บางส่วนถูกรวมเป็นแพคเกจเข้ากับ Power BI และบางส่วนเป็น *วิชวลแบบกำหนดเอง* วิชวลแบบกำหนดเองถูกสร้างขึ้นนอก Power BI และในแนวทางที่อนุญาตให้ *ผู้ออกแบบรายงาน* เพิ่มลงในรายงาน Power BI แดชบอร์ด และแอปได้ 
