@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: ad3025b9649529566972f75e9c447bb7558132b8
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325208"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662468"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>มีอะไรใหม่ใน Power BI Report Server
 
@@ -41,6 +41,10 @@ ms.locfileid: "56325208"
 [**เส้นบอกแนวสำหรับการจัดแนวแบบสมาร์ท** ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides)คุณเห็นเส้นบอกแนวสำหรับการจัดแนวแบบสมาร์ทเมื่อย้ายวัตถุบนหน้ารายงานของคุณ เช่น คุณเห็นใน PowerPoint เพื่อช่วยให้คุณสามารถจัดแนวทุกอย่างบนหน้าของคุณได้ คุณเห็นเส้นบอกแนวแบบสมาร์ททุกครั้งที่คุณลาก หรือปรับขนาดบางอย่างบนหน้าของคุณ เมื่อคุณย้ายวัตถุที่อยู่ใกล้วัตถุอื่นมันจะถูกจัดวางในตำแหน่งที่สอดคล้องกับวัตถุอื่น
 
 **คุณลักษณะความสามารถในการเข้าถึงได้**มีรายการคุณลักษณะความสามารถในการเข้าถึงได้ที่มากเกินไป: ตัวอย่างเช่น [สนับสนุนการเข้าถึงบานหน้าต่างรายการเขตข้อมูล](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList) บานหน้าต่างรายการเขตข้อมูลจะสามารถเข้าถึงได้เต็มรูปแบบ คุณสามารถนำทางไปรอบ ๆ บานหน้าต่างโดยใช้เพียงแป้นพิมพ์และโปรแกรมอ่านหน้าจอของคุณและใช้เมนูบริบทเพื่อเพิ่มเขตข้อมูลลงในหน้ารายงานของคุณ
+
+#### <a name="custom-visuals"></a>ภาพที่กำหนดเอง
+
+- เวอร์ชันของ API ที่ส่งไปพร้อมกับรุ่นนี้คือ 2.3.
 
 ### <a name="administrator-settings"></a>การตั้งค่าโดยผู้ดูแลระบบ
 

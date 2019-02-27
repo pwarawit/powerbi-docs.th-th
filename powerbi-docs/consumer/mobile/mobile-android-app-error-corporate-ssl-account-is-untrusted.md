@@ -10,12 +10,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2b296d465b312486a91e1407b5866e15b0b48b54
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: de103412e21e0d26d20058e2d4e1fb9a8a5449bf
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280803"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662330"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>การแก้ไข “ไม่เชื่อถือใบรับรอง SSL ขององค์กรของคุณ” - Power BI
 เมื่อลงชื่อเข้าใช้แอป Android บนมือถือสำหรับ Microsoft Power BI คุณอาจเห็นข้อความว่า "ไม่สามารถรับรองความถูกต้องเนื่องจากใบรับรอง SSL ขององค์กรของคุณไม่น่าเชื่อถือโดยอุปกรณ์นี้ โปรดติดต่อผู้ดูแลระบบไอทีของบริษัทของคุณ" 
@@ -41,9 +41,9 @@ ms.locfileid: "54280803"
 ไปที่ **การตั้งค่า** > **ระบบ** > **วันที่และเวลา** เพื่อตรวจสอบ
 
 ## <a name="custom-authentication-server"></a>เซิร์ฟเวอร์การรับรองความถูกต้องแบบกำหนดเอง
-หากคุณใช้เซิร์ฟเวอร์การรับรองความถูกต้องแบบกำหนดเอง ใบรับรอง SSL ในเซิร์ฟเวอร์การรับรองความถูกต้องขององค์กรอาจไม่ถูกต้อง โปรดติดต่อผู้ดูแลระบบไอทีขององค์กรเพื่อช่วยเหลือคุณ
+หากคุณใช้เซิร์ฟเวอร์การรับรองความถูกต้องแบบกำหนดเอง ใบรับรอง SSL ในเซิร์ฟเวอร์การรับรองความถูกต้องขององค์กรอาจไม่ถูกต้อง โปรดทำงานร่วมกันกับฝ่าย IT ในองค์กรของคุณ เพื่อทดสอบการรับรองความถูกต้องของการกำหนดค่าเซิร์ฟเวอร์องค์กร โดยทำตามคำแนะนำใน[บทความนี้](https://support.microsoft.com/en-us/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ดาวน์โหลดแอป Android](http://go.microsoft.com/fwlink/?LinkID=544867) จาก Android app store.
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/) 
 

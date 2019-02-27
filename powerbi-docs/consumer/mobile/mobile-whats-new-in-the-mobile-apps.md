@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
+ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431257"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56826732"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 สำหรับ "ข้อมูลอะไรใหม่" ที่เกี่ยวข้อง ให้ดู
@@ -22,6 +22,16 @@ ms.locfileid: "55431257"
 * [บล็อกทีมของ power BI สำหรับแอป mobile](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [มีอะไรใหม่ใน Power BI Desktop](../../desktop-latest-update.md)  
 * [มีอะไรใหม่ในบริการ Power BI](../../service-whats-new.md)  
+
+## <a name="january---february-2019"></a>มกราคม - กุมภาพันธ์ 2019
+ 
+### <a name="visio-visuals"></a>ภาพ Visio
+
+เปิดใช้งานการลงชื่อเข้าใช้ครั้งเดียว (sso) ในภาพ Visio ดังนั้นไม่จำเป็นต้องมีขั้นตอนการลงชื่อเข้าใช้ครั้งเดียวใดๆ เพิ่มเติมเมื่อดูรายงาน ด้วยภาพ Visio ในแอป 
+
+### <a name="dashboard-commenting-is-coming-to-power-bi-mobile-windows-app"></a>การแสดงความคิดเห็นในแดชบอร์ดกำลังจะมีให้ใช้ในแอป Power BI Mobile Windows
+
+คุณสามารถเพิ่มข้อคิดเห็นที่แดชบอร์ดและไทล์บางตัวได้โดยตรงเพื่อพูดคุยเกี่ยวกับข้อมูลของคุณ และทุกคนที่ดูแดชบอร์ดจะเห็นข้อคิดเห็นของคุณ 
 
 ## <a name="december-2018"></a>ธันวาคม 2018
 
