@@ -843,7 +843,13 @@ items:
     - name: ภาษาที่รองรับและประเทศ/ภูมิภาค
       href: supported-languages-countries-regions.md
     - name: เอกสารทางเทคนิค
-      href: whitepapers.md
+      items:
+      - name: ภาพรวมเอกสารทางเทคนิค
+        href: whitepapers.md
+      - name: เอกสารทางเทคนิคเรื่องความปลอดภัย Power BI
+        href: whitepaper-powerbi-security.md
+      - name: การปรับใช้ Power BI premium
+        href: whitepaper-powerbi-premium-deployment.md
 - name: Power BI สำหรับนักพัฒนา
   items:
   - name: นักพัฒนาสามารถทำอะไรกับ Power BI ได้บ้าง
@@ -1036,6 +1042,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: เพิ่มแถวลงในตาราง
         href: developer/walkthrough-push-data-add-rows.md
+      - name: กำหนดค่าข้อมูลประจำตัว
+        href: developer/configure-credentials.md
       - name: เข้ารหัสข้อมูลประจำตัว
         href: developer/encrypt-credentials.md
     - name: การอ้างอิง
@@ -1228,7 +1236,7 @@ items:
     items:
     - name: Power BI Premium
       items:
-      - name: Power BI Premium คืออะไร
+      - name: Power BI Premium คืออะไร?
         href: service-premium.md
       - name: หน่วยความจำ premium ใช้การปรับให้เหมาะสม
         href: service-premium-understand-how-it-works.md
@@ -1305,9 +1313,9 @@ items:
       href: service-admin-governance.md
     - name: ความปลอดภัยของ Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 994d0f82fc92eb8e54aee92f0b4ceefa38cc8a49
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 1d95f65528ff52931b9fbe9119f9d593db99655a
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826709"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892447"
