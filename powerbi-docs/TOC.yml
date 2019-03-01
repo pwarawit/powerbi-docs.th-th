@@ -1242,12 +1242,12 @@ items:
         href: service-premium-understand-how-it-works.md
       - name: ซื้อ Power BI Premium
         href: service-admin-premium-purchase.md
-      - name: จัดการ Power BI Premium
-        href: service-admin-premium-manage.md
       - name: ตรวจสอบความจุด้วยแอป
         href: service-admin-premium-monitor-capacity.md
       - name: ตรวจสอบความจุในพอร์ทัลผู้ดูแลระบบ
         href: service-admin-premium-monitor-portal.md
+      - name: กำหนดค่าปริมาณงาน
+        href: service-admin-premium-workloads.md
       - name: รีสตาร์ตความจุแบบพรีเมียม
         href: service-admin-premium-restart.md
       - name: การสนับสนุนสำหรับชุดข้อมูลขนาดใหญ่
@@ -1313,9 +1313,9 @@ items:
       href: service-admin-governance.md
     - name: ความปลอดภัยของ Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 1d95f65528ff52931b9fbe9119f9d593db99655a
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: b6d9e25d9b4eb357038c5daa56df1b4d3f4d9e78
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892447"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014334"
