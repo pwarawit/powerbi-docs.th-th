@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: fd1df09e9ef431bf04c566996867c355350fdb2e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 56247275d39c3feb978a8ec38841c7f69de8787a
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279783"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226192"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>บทช่วยสอน: การเพิ่มตัวเลือกการจัดรูปแบบให้กับวิชวลแบบกำหนดเองของ Power BI
 
@@ -146,7 +146,10 @@ ms.locfileid: "54279783"
 
     ```typescript
     this.visualSettings = VisualSettings.parse<VisualSettings>(dataView);
-    this.visualSettings.circle.circleThickness = Math.max(0, this.visualSettings.circle.circleThickness)this.visualSettings.circle.circleThickness = Math.min(10, this.visualSettings.circle.circleThickness);
+
+    this.visualSettings.circle.circleThickness = Math.max(0, this.visualSettings.circle.circleThickness);
+
+    this.visualSettings.circle.circleThickness = Math.min(10, this.visualSettings.circle.circleThickness);
     ```
     รหัสนี้จะเรียกใช้ตัวเลือกการจัดรูปแบบ โดยจะปรับเปลี่ยนค่าใดๆ ที่ส่งผ่านไปยังคุณสมบัติ **circleThickness** โดยแปลงค่านั้นเป็น 0 ถ้าเป็นค่าลบ หรือแปลงเป็น 10 ถ้ามีค่ามากกว่า 10
 
@@ -236,7 +239,7 @@ ms.locfileid: "54279783"
 
 1. เปิด **Power BI Desktop** และสร้างรายงานใหม่ด้วย*ชุดข้อมูลตัวอย่าง*
 
-2. ในแผง **_การแสดงภาพ_** ให้เลือกแบบ **จุดไข่ปลา** แล้ว เลือก **นำเข้า** จากไฟล์
+2. ในแผง**_การแสดงภาพ_** ให้เลือกแบบ**จุดไข่ปลา**แล้ว เลือก**นำเข้า**จากไฟล์
 
     ![เพิ่ม Viz แบบกำหนดเองลงในเดสก์ท็อป](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408195"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014656"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>ดูแล Power BI ในพอร์ทัลผู้ดูแลระบบ
 
@@ -297,7 +297,7 @@ ms.locfileid: "56408195"
 
 ### <a name="create-and-use-dataflows-preview"></a>สร้างและใช้กระแสข้อมูล (ตัวอย่าง)
 
-ผู้ใช้ในองค์กรสามารถสร้างและใช้กระแสข้อมูลได้ สำหรับภาพรวมของกระแสข้อมูล โปรดดู [การเตรียมข้อมูลด้วยตนเองใน Power BI (ตัวอย่าง)](service-dataflows-overview.md) เมื่อต้องการเปิดใช้งานกระแสข้อมูลในความจุแบบ Premium ให้ดู[การกำหนดค่าปริมาณงาน](service-admin-premium-manage.md#configure-workloads)
+ผู้ใช้ในองค์กรสามารถสร้างและใช้กระแสข้อมูลได้ สำหรับภาพรวมของกระแสข้อมูล โปรดดู [การเตรียมข้อมูลด้วยตนเองใน Power BI (ตัวอย่าง)](service-dataflows-overview.md) เมื่อต้องการเปิดใช้งานกระแสข้อมูลในความจุแบบ Premium ให้ดู[การกำหนดค่าปริมาณงาน](service-admin-premium-workloads.md)
 
 > [!NOTE]
 > การตั้งค่านี้จะนำไปใช้กับทั้งองค์กร และไม่สามารถจำกัดให้กับเฉพาะกลุ่มได้
@@ -321,8 +321,6 @@ ms.locfileid: "56408195"
 แท็บ **Power BI Premium** ช่วยให้คุณสามารถจัดการความจุ Power BI Premium (Em หรือ P SKU) ใด ๆ ที่ซื้อให้องค์กรของคุณ ผู้ใช้ทั้งหมดภายในองค์กรของคุณสามารถดูแท็บ *Power BI Premium* แต่จะเห็นเฉพาะเนื้อหาภายในได้ หากผู้ใช้ถูกกำหนดให้เป็น **ผู้ดูแลความจุ** หรือผู้ใช้ที่ได้รับสิทธิ์ให้กำหนดความจุ อย่างใดอย่างหนึ่งเท่านั้น ถ้าผู้ใช้มีสิทธิ์ใดๆ ข้อความต่อไปนี้ปรากฏขึ้น
 
 ![ไม่สามารถเข้าถึงการตั้งค่า Premium](media/service-admin-portal/premium-settings-no-access.png)
-
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีจัดการการตั้งค่า Premium ดู[จัดการ Power BI Premium](service-admin-premium-manage.md)
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
@@ -410,6 +408,5 @@ ms.locfileid: "56408195"
 
 [การดูแล Power BI ในองค์กรของคุณ](service-admin-administering-power-bi-in-your-organization.md) [การทำความเข้าใจเกี่ยวกับบทบาทผู้ดูแลระบบ Power BI](service-admin-role.md)  
 [ตรวจสอบ Power BI ในองค์กรของคุณ](service-admin-auditing.md)  
-[จัดการ Power BI Premium](service-admin-premium-manage.md)  
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)

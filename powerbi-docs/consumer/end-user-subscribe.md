@@ -2,20 +2,21 @@
 title: สมัครใช้งานรายงานและแดชบอร์ดด้วยตัวคุณเอง
 description: เรียนรู้วิธีการสมัครใช้งานสำหรับตัวคุณเองและเพื่อร่วมงานเพื่อสแนปช็อตรายงาน Power BI หรือแดชบอร์ดที่ส่งอีเมลมา
 author: mihart
+ms.author: mihart
 manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/14/2019
+ms.date: 02/14/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e8d849c711bb190951feffca072a883137275af7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: 99501c6acc54188e2e87f0ae93354cac8116273c
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661795"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327952"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>บอกรับรายงานหรือแดชบอร์ดใน Power BI service 
 ไม่เคยที่จะเท่าทันแดชบอร์ดและรายงานที่สำคัญที่สุดของคุณอย่างนี้มาก่อน สมัครใช้งานหน้ารายงานและแดชบอร์ดที่สำคัญที่สุดคุณ และ Power BI จะส่งอีเมสแนปช็อตถึงคุณ คุณบอก Power BI ความถี่ที่คุณต้องการรับอีเมล: รายวัน รายสัปดาห์ หรือเมื่อรีเฟรชข้อมูล คุณสามารถกำหนดเวลาเฉพาะสำหรับ Power BI ในการส่งอีเมล หรือเรียกใช้งานตอนนี้  
