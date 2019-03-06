@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
-ms.component: powerbi-visuals
+ms.component: powerbi-service
 ms.topic: tutorial
 ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c937104d570409023373a5ccbcf94e1b66e6aaab
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 1f55a12e306af8a28e297e9feab2f2c0ae0cd60b
+ms.sourcegitcommit: 87e81ba92f3d1d65c26f9fc007bf106f96f37bfd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426803"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57461683"
 ---
 # <a name="key-influencers-visualization"></a>การแสดงภาพข้อมูลผู้มีอิทธิพลหลัก
 ภาพวิชวลของผู้มีอิทธิพลหลักช่วยให้คุณเข้าใจปัจจัยที่ขับเคลื่อนเมตริกที่คุณสนใจ ซึ่งช่วยวิเคราะห์ข้อมูลของคุณ จัดอันดับปัจจัยที่มีความสำคัญ และแสดงพวกเขาในฐานะที่เป็นผู้มีอิทธิพลหลัก ตัวอย่างเช่น คุณสนใจที่จะค้นหาว่าอะไรมีผลต่ออัตราการลาออกของพนักงาน (churn) ปัจจัยหนึ่งอาจมาจากระยะเวลาของสัญญาจ้างงานและอีกปัจจัยหนึ่งอาจเป็นอายุของพนักงาน 
