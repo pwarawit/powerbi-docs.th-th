@@ -8,39 +8,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/14/2019
+ms.date: 02/26/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: c23c85c7afa16844d2e2e0944fa0aed0d760fc28
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 8922bb329e4b598745fd259c67e74b063368b7be
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794395"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892401"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>วิธีการซื้อ Power BI Premium
 
-บทความนี้อธิบายวิธีการซื้อความจุของ Power BI Premium สำหรับองค์กรของคุณ คุณซื้อความจุ Power BI Premium ในศูนย์ผู้ดูแลระบบ Office 365 และคุณ [จัดการความจุของคุณ](service-admin-premium-manage.md) ในพอร์ทัลผู้ดูแลระบบ Power BI
+บทความนี้อธิบายวิธีการซื้อความจุของ Power BI Premium (P1-P3) สำหรับองค์กรของคุณ คุณซื้อความจุ Power BI Premium ในศูนย์ผู้ดูแลระบบ Office 365 และคุณ [จัดการความจุของคุณ](service-admin-premium-manage.md) ในพอร์ทัลผู้ดูแลระบบ Power BI สำหรับข้อมูลการกำหนดราคาและการวางแผนในปัจจุบัน ดู [หน้าการกำหนดราคา Power BI](https://powerbi.microsoft.com/pricing/) และ [เครื่องคิดเลข Power BI Premium](https://powerbi.microsoft.com/calculator/)
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/NkvYs5Qp4iA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+ผู้เขียนเนื้อหาจะยังคงต้องมีสิทธิ์การใช้งาน Power BI Pro แม้ว่าองค์กรของคุณจะใช้ Power BI Premium ก็ตาม ตรวจสอบให้แน่ใจว่าคุณซื้อสิทธิ์การใช้งาน Power BI Pro อย่างน้อยหนึ่งใบสำหรับองค์กรของคุณ
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power BI Premium ดูที่ [Power BI Premium คืออะไร](service-premium.md) สำหรับข้อมูลการกำหนดราคาและการวางแผนในปัจจุบัน ดู [หน้าการกำหนดราคา Power BI](https://powerbi.microsoft.com/pricing/) และ [เครื่องคิดเลข Power BI Premium](https://powerbi.microsoft.com/calculator/)
-
-> [!IMPORTANT]
-> ผู้เขียนเนื้อหาจะยังคงต้องมีสิทธิ์การใช้งาน Power BI Pro แม้ว่าองค์กรของคุณจะใช้ Power BI Premium ก็ตาม ตรวจสอบให้แน่ใจว่าคุณซื้อสิทธิ์การใช้งาน Power BI Pro อย่างน้อยหนึ่งใบสำหรับองค์กรของคุณ
->
->ถ้าการสมัครใช้งานระดับ Premium หมดอายุ คุณมีเวลา 30 วันของการเข้าถึงความจุแบบเต็มของคุณ หลังจากนั้น เนื้อหาของคุณจะเปลี่ยนเป็นความจุที่ใช้ร่วมกัน แบบจำลองที่มี > 1 GB จะไม่ได้รับการสนับสนุนในความจุที่ใช้ร่วมกัน
+ถ้าการสมัครใช้งานระดับ Premium หมดอายุ คุณมีเวลา 30 วันของการเข้าถึงความจุแบบเต็มของคุณ หลังจากนั้น เนื้อหาของคุณจะเปลี่ยนเป็นความจุที่ใช้ร่วมกัน แบบจำลองที่มีความจุมากกว่า 1 GB จะไม่ได้รับการรับรองในความจุที่ใช้ร่วมกัน
 
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>สร้างลูกค้าใหม่ด้วย Power BI Premium P1
 
-ถ้าคุณไม่มีผู้เช่าและต้องการสร้างหนึ่งรายการ คุณสามารถซื้อ Power BI Premium ได้ในเวลาเดียวกัน ลิงก์ต่อไปนี้จะนำคุณไปสู่กระบวนการสร้างผู้เช่ารายใหม่และช่วยให้คุณสามารถซื้อ Power BI Premium: [ข้อเสนอ Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1)
-
-![Power BI Premium P1](media/service-admin-premium-purchase/premium-purchase-with-tenant.png)
-
-เมื่อคุณสร้างผู้เช่า คุณจะได้รับมอบหมายให้ทำหน้าที่เป็นผู้ดูแลระบบสากลของ Office 365 โดยอัตโนมัติสำหรับผู้เช่ารายนั้น
+ถ้าคุณไม่มีผู้เช่าและต้องการสร้างหนึ่งรายการ คุณสามารถซื้อ Power BI Premium ได้ในเวลาเดียวกัน ลิงก์ต่อไปนี้จะนำคุณไปสู่กระบวนการสร้างผู้เช่ารายใหม่และช่วยให้คุณสามารถซื้อ Power BI Premium: [ข้อเสนอ Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1) เมื่อคุณสร้างผู้เช่า คุณจะได้รับมอบหมายให้ทำหน้าที่เป็นผู้ดูแลระบบสากลของ Office 365 โดยอัตโนมัติสำหรับผู้เช่ารายนั้น
 
 ## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>ซื้อความจุ Power BI Premium สำหรับองค์กรที่มีอยู่
 
-ถ้าคุณมีองค์กรที่มีอยู่แล้ว คุณต้องอยู่ในบทบาทผู้ดูแลระบบส่วนกลางของ Office 365 หรือบทบาทของผู้ดูแลระบบการเรียกเก็บเงินเพื่อซื้อการสมัครรับข้อมูลและสิทธิ์การใช้งาน สำหรับข้อมูลเพิ่มเติม ให้ดู[เกี่ยวกับบทบาทผู้ดูแลระบบ Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
+ถ้าคุณมีองค์กรที่มีอยู่แล้ว (ผู้เช่า) คุณต้องอยู่ในบทบาทผู้ดูแลระบบส่วนกลางของ Office 365 หรือบทบาทของผู้ดูแลระบบการเรียกเก็บเงินเพื่อซื้อการสมัครรับข้อมูลและสิทธิ์การใช้งาน สำหรับข้อมูลเพิ่มเติม ให้ดู[เกี่ยวกับบทบาทผู้ดูแลระบบ Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
 
 เมื่อต้องการซื้อความจุระดับพรีเมี่ยม ให้ทำตามขั้นตอนต่อไปนี้
 
@@ -59,19 +50,6 @@ ms.locfileid: "55794395"
     ![ซื้อทันที](media/service-admin-premium-purchase/premium-purchase.png)
 
 1. ทำตามขั้นตอนเพื่อทำการซื้อให้เสร็จสมบูรณ์
-
-นอกจากนี้คุณยังสามารถเลือกลิงก์ใดลิงก์หนึ่งต่อไปนี้เพื่อนำคุณไปยังหน้าการซื้อสำหรับ SKU นั้นโดยตรง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ SKU เหล่านั้น ให้ดู [Power BI Premium คืออะไร](service-premium.md#premium-capacity-nodes)
-
-> [!IMPORTANT]
-> การเลือกลิงก์ด้านล่างนี้จะทำให้เกิดข้อผิดพลาดหากคุณไม่ได้อยู่ในบทบาทผู้ดูแลระบบส่วนกลางของ Office 365 หรือบทบาทของผู้ดูแลระบบการเรียกเก็บเงิน
-
-| ลิงก์การซื้อโดยตรง |
-| --- |
-| [EM3 (month-to-month) SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |
-| [P1 SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |
-| [P1 (month-to-month) SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1) |
-| [P2 SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |
-| [P3 SKU](https://portal.office.com/commerce/completeorder.aspx?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |
 
 หลังจากที่คุณเสร็จสิ้นการซื้อ **หน้าจอบริการการซื้อ**จะแสดงว่ารายการนั้นถูกซื้อและใช้งานได้
 
@@ -102,17 +80,13 @@ ms.locfileid: "55794395"
 
 คุณสามารถยกเลิกการสมัครใช้งานจากภายในศูนย์การจัดการ Office 365 เพื่อยกเลิกการสมัครใช้งาน Premium ให้ทำสิ่งต่อไปนี้
 
-![ยกเลิกการสมัคร](media/service-admin-premium-purchase/premium-cancel-subscription.png)
-
 1. เรียกดูศูนย์การจัดการ Office 365
 
 1. เลือก**การเรียกเก็บเงิน** > **การสมัครใช้งาน**
 
 1. เลือกการสมัครใช้งาน Power BI Premium จากรายการ
 
-1. ในดรอปดาวน์**การกระทำเพิ่มเติม** ให้เลือก**ยกเลิกการสมัครใช้งาน**
-
-    ![การกระทำเพิ่มเติม](media/service-admin-premium-purchase/o365-more-actions.png)
+1. เลือก**การดำเนินการเพิ่มเติม** > **ยกเลิกการสมัครใช้งาน**
 
 1. หน้า**ยกเลิกการสมัครใช้งาน**จะระบุว่าที่คุณเป็นผู้รับผิดชอบสำหรับ[ค่าธรรมเนียมการหยุดใช้งานก่อน](https://support.office.com/article/early-termination-fees-6487d4de-401a-466f-8bc3-c0beb5cc40d3)หรือไม่ เพจนี้จะยังแจ้งให้คุณทราบเมื่อข้อมูลจะถูกลบเพื่อสมัครใช้งาน
 

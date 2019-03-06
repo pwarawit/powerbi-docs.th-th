@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408149"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892332"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>คำถามที่ถามบ่อยเกี่ยวกับวิชวลแบบกำหนดเองของ Power BI
 
@@ -57,8 +57,44 @@ ms.locfileid: "56408149"
 
 ### <a name="what-are-certified-custom-visuals"></a>วิชวลแบบกำหนดเองที่ได้รับการรับรองคืออะไร
 
-วิชวลแบบกำหนดเองที่ได้รับการรับรองคือวิชวลใน [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) ที่ตรงตามข้อกำหนดรหัส[ที่ระบุไว้](power-bi-custom-visuals-certified.md) และผ่านการทดสอบโดยทีม Power BI  มีการออกแบบการทดสอบที่ทำขึ้นเพื่อตรวจสอบวิชวลที่ไม่ได้เข้าถึงบริการหรือทรัพยากรภายนอก อย่างไรก็ตาม Microsoft ไม่ใช่ผู้เขียนวิชวลแบบกำหนดเองประเภทบุคคลที่สาม เราแนะนำให้ลูกค้าติดต่อผู้เขียนโดยตรงเพื่อยืนยันการทำงานของวิชวลดังกล่าว
+วิชวลแบบกำหนดเองที่ได้รับการรับรองคือวิชวลใน [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) ที่ตรงตามข้อกำหนดของรหัส[ที่ระบุไว้](power-bi-custom-visuals-certified.md) และผ่านการทดสอบโดยทีม Power BI  มีการออกแบบการทดสอบที่ทำขึ้นเพื่อตรวจสอบวิชวลที่ไม่ได้เข้าถึงบริการหรือทรัพยากรภายนอก อย่างไรก็ตาม Microsoft ไม่ใช่ผู้เขียนวิชวลแบบกำหนดเองประเภทบุคคลที่สาม และเราแนะนำให้ลูกค้าติดต่อผู้เขียนโดยตรงเพื่อยืนยันการทำงานของวิชวลดังกล่าว
 
+### <a name="what-tests-are-done-during-the-certification-process"></a>มีการทดสอบอะไรบ้างในระหว่างกระบวนการออกใบรับรอง
+
+การทดสอบในกระบวนการออกใบรับรอง รวมถึงแต่ไม่จำกัดเพียง: การตรวจทานรหัส การวิเคราะห์รหัสแบบคงที่ การรั่วไหลของข้อมูล การทดสอบโดยใช้ข้อมูลไม่ถูกต้อง การทดสอบการโจมตี การทดสอบ XSS ในการเข้าถึง การใส่ข้อมูลที่เป็นอันตราย การตรวจสอบการป้อนช้อมูล และการทดสอบการทำงาน
+ 
+### <a name="do-you-certify-visuals-every-submission"></a>คุณรับรองวิชวลในทุกครั้งที่ส่งหรือไม่
+
+ใช่ ทุกครั้งที่ส่งวิชวลที่ได้รับการรับรองเวอร์ชันใหม่ไปยัง Marketplace การอัปเดตเวอร์ชันของวิชวลจะดำเนินการอยู่ภายใต้การตรวจสอบใบรับรองเดียวกัน
+
+หมายเหตุสำหรับนักพัฒนา: ถ้าคุณต้องการส่งการอัปเดตเวอร์ชันของวิชวลที่ได้รับการรับรอง คุณไม่จำเป็นต้องส่งอีเมลแยกต่างหากเป็น[คำขอใบรับรองครั้งแรก](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified#process-for-submitting-a-custom-visual-for-certification) ใบรับรองของการอัปเดตเวอร์ชันจะเกิดขึ้นโดยอัตโนมัติ และการละเมิดใด ๆ ที่ทำให้เกิดการปฏิเสธจะส่งเป็นอีเมลเพื่ออธิบายสิ่งที่ต้องได้รับการแก้ไข 
+
+### <a name="is-it-possible-that-a-certified-visual-stops-being-certified-with-a-new-update"></a>เป็นไปได้หรือไม่ว่าวิชวลที่ได้รับการรับรองจะหยุดการรับรองด้วยการอัปเดตใหม่
+
+ไม่ เหตุการณ์นี้เป็นไปไม่ได้ ไม่สามารถที่จะยกเลิกการรับรองวิชวลที่ได้รับการรับรองแล้วด้วยการอัปเดตใหม่ การอัปเดตถูกปฏิเสธ
+ 
+### <a name="do-i-need-to-share-my-code-in-public-repository-if-i-am-submitting-to-the-certification-process"></a>ฉันจำเป็นต้องแชร์รหัสในที่เก็บสาธารณะถ้าฉันต้องการส่งคำขอไปยังกระบวนการออกใบรับรองหรือไม่
+
+ไม่ คุณไม่จำเป็นต้องแชร์รหัสอย่างเปิดเผย อย่างไรก็ตาม คุณจำเป็นต้องให้เราอ่านสิทธิ์ในการตรวจสอบรหัสวิชวล เช่น ที่เก็บแบบส่วนตัวใน GitHub
+ 
+### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>เราต้อง[เผยแพร่](https://docs.microsoft.com/power-bi/developer/office-store)วิชวลใน[Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)เพื่อรับรองหรือไม่
+
+ใช่ การเผยแพร่วิชวลใน Marketplace ครั้งแรกเป็นข้อกำหนดภาคบังคับสำหรับใบรับรอง
+หากต้องการรับรองวิชวลแบบกำหนดเอง วิชวลนั้นควรอยู่ในเซิร์ฟเวอร์ของเรา เราไม่สามารถรับรองวิชวลแบบส่วนตัว
+ 
+### <a name="how-long-does-it-take-to-certify-my-visual"></a>เวลาที่ใช้ในการรับรองวิชวลของฉันนานแค่ไหน
+
+สำหรับเวอร์ชันที่อัปเดตแล้ว อาจใช้เวลาถึง 2 สัปดาห์ สำหรับการยื่นคำขอใหม่ (ใบรับรองครั้งแรก) อาจใช้เวลาสูงสุด 3 สัปดาห์ 
+
+### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>กระบวนการออกใบรับรองต้องตรวจสอบให้แน่ใจว่าไม่มีการรั่วไหลของข้อมูลเกิดขึ้นใช่หรือไม่
+
+มีการออกแบบการทดสอบที่ทำขึ้นเพื่อตรวจสอบวิชวลที่ไม่ได้เข้าถึงบริการหรือทรัพยากรภายนอก อย่างไรก็ตาม Microsoft ไม่ใช่ผู้เขียนวิชวลแบบกำหนดเองประเภทบุคคลที่สาม และเราแนะนำให้ลูกค้าติดต่อผู้เขียนโดยตรงเพื่อยืนยันการทำงานของวิชวลดังกล่าว
+ 
+### <a name="are-uncertified-custom-visuals-safe-to-use"></a>วิชวลแบบกำหนดเองที่ยังไม่ได้รับการรับรองมีความปลอดภัยในการใช้งานหรือไม่
+
+วิชวลแบบกำหนดเองที่ยังไม่ได้รับการรับรองไม่จำเป็นต้องหมายถึงวิชวลที่ไม่ปลอดภัย
+วิชวลบางอันไม่ผ่านการรับรองเนื่องจากไม่สอดคล้องกับ [ข้อกำหนดในการรับรอง](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) ตัวอย่างเช่น การเชื่อมต่อกับบริการภายนอก เช่น วิชวลแผนที่หรือวิชวลที่ใช้ไลบรารีเชิงพาณิชย์
+ 
 ## <a name="visuals-with-additional-purchases"></a>วิชวลที่มีการซื้อเพิ่มเติม
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>วิชวลที่มีการซื้อเพิ่มเติมคืออะไร?
@@ -100,7 +136,6 @@ ms.locfileid: "56408149"
 นอกจากนี้คุณยังสามารถหาบันทึกย่อแนวทางปฏิบัติที่ดีที่สุดในข้อแนะนำได้อีกด้วย  
 > [!Note]
 > ภาพฟรีทั้งหมดควรเก็บไว้เหมือนคุณลักษณะฟรีที่มีให้ก่อนหน้านี้ คุณอาจเพิ่มคุณลักษณะขั้นสูงแบบชำระเงินนอกเหนือจากคุณลักษณะฟรีแบบเก่า เราขอแนะนำให้ส่ง IAP visuals กับคุณลักษณะขั้นสูงเป็นภาพใหม่และไม่ปรับปรุงคุณลักษณะฟรีแบบเก่า
-
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>ฉันสามารถขอรับการรับรองวิชวลแบบกำหนดเองของ IAP ได้หรือไม่
 

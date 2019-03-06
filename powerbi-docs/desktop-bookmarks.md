@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325051"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892424"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>ใช้บุ๊กมาร์กเพื่อแชร์ข้อมูลเชิงลึก และสร้างเรื่องราวใน Power BI 
 การใช้**บุ๊กมาร์ก**ใน Power BI ช่วยให้คุณจับภาพมุมมองที่กำหนดค่าไว้ในปัจจุบันของหน้ารายงาน รวมถึงการกรองและสถานะของวิชวล และช่วยให้คุณกลับไปยังสถานะดังกล่าวในภายหลัง เพียงแค่เลือกบุ๊กมาร์กที่บันทึกไว้ 
@@ -25,6 +25,9 @@ ms.locfileid: "56325051"
 ![บุ๊กมาร์กใน Power BI](media/desktop-bookmarks/bookmarks_01.png)
 
 บุ๊กมาร์กสามารถใช้งานได้หลายทาง คุณสามารถใช้เพื่อติดตามความคืบหน้าของคุณเองในการสร้างรายงาน (บุ๊กมาร์ก เพิ่ม ลบ และเปลี่ยนชื่อง่าย) และคุณสามารถสร้างบุ๊กมาร์กเพื่อสร้างงานนำเสนอที่คล้ายกับ PowerPoint โดยการไปยังบุ๊กมาร์กต่าง ๆ ตามลำดับ เพื่อบอกเล่าเรื่องราวรายงานของคุณ อาจมีการใช้งานอื่น ๆ ด้วย ขึ้นอยู่กับคุณว่าจะใช้บุ๊กมาร์กดีที่สุดวิธีไหน
+
+> [!TIP]
+> สำหรับข้อมูลเกี่ยวกับการใช้บุ๊กมาร์กส่วนบุคคลในบริการ Power BI โปรดดู[การประกาศเกี่ยวกับบล็อก](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/)ของคุณลักษณะบุ๊กมาร์กส่วนบุคคล 
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>เปิดใช้งานตัวอย่าง บุ๊กมาร์ก (เวอร์ชันก่อนเดือนมีนาคม 2018)
 เริ่มตั้งแต่เวอร์ชัน มีนาคม 2018 ของ Power BI Desktop บุ๊กมาร์กมีให้ใช้งานโดยทั่วไปแล้ว 

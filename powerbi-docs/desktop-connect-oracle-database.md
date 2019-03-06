@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 826338a5e5524bb54c2ebb2207a3d438a8d428b1
-ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
+ms.openlocfilehash: b28c4ea9b4cacc77a7f98af5bfc006670f40af94
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54899238"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892286"
 ---
 # <a name="connect-to-an-oracle-database"></a>เชื่อมต่อกับฐานข้อมูล Oracle
 เมื่อต้องการเชื่อมต่อกับฐานข้อมูล Oracle ด้วย**Power BI Desktop** ซอฟต์แวร์ไคลเอ็นต์ Oracle ที่ถูกต้องต้องติดตั้งบนคอมพิวเตอร์ที่ใช้งาน Power BI Desktop ซึ่งซอฟต์แวร์ไคลเอ็นต์ Oracle ที่คุณใช้ขึ้นอยู่กับเวอร์ชันของ Power BI Desktop ที่คุณได้ติดตั้ง เวอร์ชัน**32 บิต**หรือ**เวอร์ชัน 64 บิต**
@@ -43,8 +43,13 @@ ms.locfileid: "54899238"
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
 2. ในกล่องโต้ตอบ**ฐานข้อมูล Oracle**ที่ปรากฏขึ้น ให้ใส่ชื่อของเซิร์ฟเวอร์ และเลือก**เชื่อมต่อ** ถ้าจำเป็นต้องมี SID คุณสามารถระบด้วยรูปแบบ: *ServerName/SID*ที่ SID เป็นชื่อที่ไม่ซ้ำของฐานข้อมูล ถ้ารูปแบบ *ServerName/SID* ไม่ทำงาน ลองใช้ *ServerName/ServiceName* โดยที่ ServiceName เป็นนามแฝงที่ใช้เมื่อเชื่อมต่อ
-   
+
+
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
+
+   > [!TIP]
+   > ถ้าคุณกำลังประสบกับปัญหาในการเชื่อมต่อในขั้นตอนนี้ ลองใช้รูปแบบต่อไปนี้ในเขตข้อมูลชื่อเซิร์ฟเวอร์: (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=host_name)(PORT=port_num))(CONNECT_DATA=(SERVICE_NAME=service_name)))
+   
 3. ถ้าคุณต้องการนำเข้าข้อมูลโดยใชคิวรี่ของฐานข้อมูลแบบเนทีฟ คุณสามารถใส่คิวรีของคุณในกล่อง**คำสั่ง SQL** ที่สามารถขยายตัวส่วน**ตัวเลือกขั้นสูง**ของกล่องโต้ตอบ**ฐานข้อมูล Oracle**
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
