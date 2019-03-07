@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: c5915f4f2792496a1521a868180d4ffc2dca3557
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248918"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014426"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>บริการหลักพร้อมด้วย Power BI (ตัวอย่าง)
 
@@ -165,7 +165,7 @@ ms.locfileid: "56248918"
 
 * บริการหลักเท่านั้นจะทำงานร่วมกับ[พื้นที่ทำงานแอปใหม่](../service-create-the-new-workspaces.md)
 * **ความจุเฉพาะของฉัน** ไม่ได้รับการสนับสนุนเมื่อใช้บริการหลัก
-* [ความจุเฉพาะ](../service-admin-premium-manage.md)จำเป็นเมื่อย้ายไปยังการผลิต
+* ความจุ Premium เฉพาะจำเป็นเมื่อย้ายไปยังการผลิต
 * คุณไม่สามารถลงชื่อเข้าใช้พอร์ทัล Power BI ด้วยบริการหลัก
 * คุณจำเป็นต้องมีสิทธิ์ของผู้ดูแลระบบ Power BI เพื่อเปิดใช้งานบริการหลักในการตั้งค่านักพัฒนาภายในพอร์ทัลผู้ดูแลระบบของ Power BI
 * คุณไม่สามารถติดตั้ง หรือจัดการเกตเวย์ข้อมูลภายในองค์กรโดยใช้บริการหลัก

@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f13074c2123808e7b26d40f9c5a7e20cbf0da6e4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e1d8d240e4fd5bc05fc015f1c12971a8646370dd
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291817"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226123"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>ใช้ Kerberos ตามทรัพยากร สำหรับการลงชื่อเข้าระบบครั้งเดียว (SSO) จาก Power BI ไปยังแหล่งข้อมูลในองค์กร
 
@@ -39,7 +39,7 @@ ms.locfileid: "54291817"
 
 ![บัญชีโดเมน](media/service-gateway-sso-kerberos-resource/domain-account.png)
 
-ในการเปิดใช้งาน**การมอบหมายที่มีข้อจำกัดของ Kerberos เกตเวย์ต้องดำเนินงานด้วยบัญชีโดเมน เว้นแต่ว่า Azure AD ของคุณได้ซิงโครไนซ์กับ Active Directory ของคุณในเครื่องอยู่แล้ว (ด้วย Azure AD DirSync/Connect) ถ้าคุณต้องการสลับบัญชีไปเป็นบัญชีโดเมน โปรดดู[ การสลับเกตเวย์ไปยังบัญชีโดเมน](service-gateway-sso-kerberos.md#switching-the-gateway-to-a-domain-account) ภายหลังในบทความนี้
+ในการเปิดใช้งาน**การมอบหมายที่มีข้อจำกัดของ Kerberos เกตเวย์ต้องดำเนินงานด้วยบัญชีโดเมน เว้นแต่ว่า Azure AD ของคุณได้ซิงโครไนซ์กับ Active Directory ของคุณในเครื่องอยู่แล้ว (ด้วย Azure AD DirSync/Connect) ถ้าคุณต้องการสลับบัญชีไปเป็นบัญชีโดเมน โปรดดู[ การสลับเกตเวย์ไปยังบัญชีโดเมน](service-gateway-sso-kerberos.md) ภายหลังในบทความนี้
 
 ถ้า Azure AD DirSync / Connect ได้รับการกำหนดค่าและบัญชีผู้ใช้ได้รับการซิงโครไนซ์ บริการเกตเวย์ไม่จำเป็นต้องดำเนินการค้นหา AD ภายในเครื่องที่รันไทม์ คุณสามารถใช้ SID ของบริการภายในเครื่อง (แทนการใช้บัญชีโดเมน) สำหรับบริการเกตเวย์ ขั้นตอนการกำหนดค่าการมอบหมายที่มีข้อจำกัดของ Kerberos ที่แสดงในบทความนี้จะเหมือนกับการกำหนดค่านั้น (จะใช้กับวัตถุคอมพิวเตอร์ของเกตเวย์ใน Active Directory แทนที่จะใช้บัญชีโดเมน)
 

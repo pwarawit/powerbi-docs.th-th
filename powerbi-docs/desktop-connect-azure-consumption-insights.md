@@ -1,5 +1,5 @@
 ---
-title: เชื่อมต่อกับข้อมูล Azure Consumption Insights (เบต้า)
+title: เชื่อมต่อกับค่าใช้จ่ายของ Azure และใช้งานจาก Power BI Desktop
 description: เชื่อมต่อกับ Azure และรับข้อมูลเชิงลึกเกี่ยวกับปริมาณการใช้และการใช้งานโดยใช้ Power BI Desktop ได้อย่างง่ายดาย
 author: davidiseminger
 manager: kfile
@@ -11,21 +11,27 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1302ede9c28cc42b3605e55705f07620f2974990
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 39678850b2e1acd16c678206feba8cccffa6477d
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216067"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327998"
 ---
-# <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>เชื่อมต่อกับ Microsoft Azure Consumption Insights (Beta) ใน Power BI Desktop (Beta)
-ด้วยตัวเชื่อมต่อ**Azure Consumption Insights** คุณสามารถใช้ **Power BI Desktop**เพื่อเชื่อมต่อกับ Azure และรับข้อมูลเชิงลึกและข้อมูลเกี่ยวกับการใช้บริการ Azure ขององค์กรของคุณได้ คุณยังสามารถสร้างหน่วยวัด คอลัมน์แบบกำหนดเอง และรูปภาพเพื่อรายงาน และแชร์เกี่ยวกับการใช้งาน Azure ขององค์กรของคุณ รุ่นนี้**Azure Consumption Insights**ตัวเชื่อมต่ออยู่ในรุ่นเบต้า และจะมีการเปลี่ยนแปลง
+# <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>วิเคราะห์ข้อมูลค่าใช้จ่ายและใช้งาน Azure ใน Power BI desktop
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01.png)
+Power BI desktop สามารถเชื่อมต่อกับ Azure และรับข้อมูลเชิงลึกเกี่ยวกับการใช้บริการ Azure ขององค์กรของคุณ ด้วยสิ่งนี้ คุณสามารถสร้างรายงานแบบกำหนดเองและวิธีการที่ทำให้เข้าใจมากขึ้นและวิเคราะห์การใช้จ่ายของ Azure
 
-ในบทความนี้ คุณเรียนรู้วิธีการเชื่อมต่อโดยใช้ตัวเชื่อมต่อ **Azure Consumption Insights**และรับข้อมูลที่คุณต้องการ วิธีการโยกย้ายจากใช้ตัวเชื่อมต่อ Azure Enterprise และคุณจะพบการแมปของ*คอลัมน์รายละเอียดการใช้งาน*พร้อมใช้งานใน API**ACI** (Azure Consumption Insights)
+Power BI ในขณะนี้สนับสนุนการเชื่อมต่อกับบัญชีการเรียกเก็บเงิน Enterprise Agreement และข้อตกลงของลูกค้า
 
-## <a name="connect-to-azure-consumption-insights"></a>เชื่อมต่อกับ Azure Consumption Insights
+ผู้ใช ้Enterprise Agreement ควรเชื่อมต่อกับตัวเชื่อมต่อ Azure Consumption Insights ผู้ใช้ Customer agreement ควรเชื่อมต่อกับตัวเชื่อมต่อการจัดการค่าใช้จ่ายของ Azure
+
+## <a name="connect-with-azure-consumption-insights"></a>เชื่อมต่อกับ Azure Consumption Insights
+
+Azure Consumption Insights ช่วยให้คุณสามารถเชื่อมต่อกับt บัญชีการเรียกเก็บเงินของ Azure Enterprise Agreement
+
+ในส่วนนี้ คุณจะได้เรียนรู้วิธีการรับการเชื่อมต่อข้อมูลที่คุณต้องการ วิธีการโอนย้ายระบบโดยใชตัวเชื่อมต่อ้ Azure Enterprise และคุณจะพบการแมปของ *คอลัมน์รายละเอียดการใช้งาน* พร้อมใช้งานในการ **ACI** (Azure Consumption Insights) API
+
 เพื่อเชื่อมต่อโดยใช้ตัวเชื่อมต่อ **Azure Consumption Insights**อย่างเรียบร้อย คุณจำเป็นต้องมีสิทธิ์เข้าถึงฟีเจอร์ Enterprise ภายในพอร์ทัล Azure
 
 เพื่อเชื่อมต่อโดยใช้ตัวเชื่อมต่อ **Azure Consumption Insights** เลือก**รับข้อมูล**จากริบบอน**หน้าแรก** ใน**Power BI Desktop** เลือก**บริการออนไลน์**จากประเภททางด้านซ้าย แล้วคุณจะเห็น **Microsoft Azure Consumption Insights (Beta)** เลือก **เชื่อมต่อ**
@@ -70,7 +76,7 @@ ms.locfileid: "56216067"
 > 
 > 
 
-เมื่อคุณเลือก**โหลด**ข้อมูลที่ถูกโหลดไปยัง**Power BI Desktop**  ตัวเชื่อมต่อจะโหลดข้อมูลตามค่าเริ่มต้นของตารางระยะเวลา  ถ้าคุณต้องการกำหนดระยะเวลาเอง[คุณสามารถตั้งค่าคิวรีแบบกำหนดเอง](https://docs.microsoft.com/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights)ได้
+เมื่อคุณเลือก**โหลด**ข้อมูลที่ถูกโหลดไปยัง**Power BI Desktop**
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
@@ -201,6 +207,71 @@ Azure ยังบริการ[ **Azure Consumption and Insights (ACI) API**]
 | ปี | |ปี |ไม่ใช่ |
 | SubscriptionId |SubscriptionId |SubscriptionId |ใช่ |
 | SubscriptionGuid |SubscriptionGuid |SubscriptionGuid |ไม่ใช่ |
+
+## <a name="connect-with-azure-cost-management"></a>เชื่อมต่อไปยังการจัดการค่าใช้จ่ายของ Azure
+
+ในส่วนนี้ คุณจะได้เรียนรู้วิธีการเชื่อมต่อกับบัญช Customer Agreement billing ของคุณ
+
+เชื่อมต่อโดยใช้**ตัวเชื่อมต่อการจัดการค่าใช้จ่ายของ Azure** เลือก**รับข้อมูล**จากการ**Home** ribbon ใน**Power BI Desktop**  เลือก**Azure**จากแคตตาล็อกทางด้านซ้ายและคุณเห็น**การจัดการค่าใช้จ่ายของ Azure (เบต้า)** เลือก **เชื่อมต่อ**
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
+
+ในกล่องโต้ตอบที่ปรากฏขึ้น การป้อนค่าของคุณ*รหัสโปรไฟล์เรียกเก็บเงิน*
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-01.png)
+
+คุณสามารถรับรหัสโปรไฟล์เรียกเก็บเงินของคุณจาก[พอร์ทัล Azure](https://portal.azure.com)ได้  นำทางไปยัง**จัดการค่าใช้จ่าย + เรียกเก็บเงิน**เลือกบัญชีเรียกเก็บเงินของคุณ จากนั้น เลือก**โปรไฟล์เรียกเก็บเงิน**ในแถบด้านข้าง  เลือกโปรไฟล์ที่เรียกเก็บเงินของคุณ และเลือก**คุณสมบัติ**ในแถบด้านข้าง  คัดลอกรหัสโปรไฟล์เรียกเก็บเงินของคุณ
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-02.png)
+
+คุณจะได้รับแจ้งให้ลงชื่อเข้าใช้ด้วยอีเมล Azure ของคุณและรหัสผ่าน  เมื่อคุณรับรองความถูกต้อง คุณจะเห็นการ**ตัวนำทาง**หน้าต่างที่ มีตารางสิบสองที่คุณใช้งาน:
+
+* **กิจกรรมในการเรียกเก็บเงิน**: มีแฟ้มบันทึกเหตุการณ์ของใบแจ้งหนี้ใหม่ ซื้อเครดิต และอื่น ๆ
+* **งบประมาณ**: มีรายละเอียดงบประมาณเพื่อดูค่าใช้จ่ายจริงหรือใช้งานกับเป้าหมายงบประมาณที่มีอยู่ 
+* **ค่าใช้จ่าย**: แสดงสรุปเดือนระดับของการใช้งาน Azure ตลาดค่าใช้จ่าย และค่าใช้จ่ายเรียกเก็บเงินแยกต่างหาก
+* **เครดิตทั้งหมด**: แสดงรายละเอียดการสั่งซื้อเครดิต Azure ทั้งหมดสำหรับโปรไฟล์การเรียกเก็บเงินที่ระบุ
+* **สรุปเครดิต**: แสดงสรุปเครดิตสำหรับโปรไฟล์การเรียกเก็บเงินที่ระบุ
+* **ที่ซื้อขาย**: มีค่าธรรมเนียม Azure Marketplace ตามการใช้งาน
+* **ใบราคา**: มีอัตราการใช้ โดยตัววัดสำหรับโปรไฟล์การเรียกเก็บเงินที่ระบุ
+* **ค่าใช้จ่าย RI**: มีค่าใช้จ่ายเชื่อมโยงกับอินสแตนซ์ที่สงวนไว้ของคุณมากกว่า 24 เดือนที่ผ่านมา
+* **คำแนะนำ RI (เดียว)**: คำแนะนำในการซื้อมีอินสแตนซ์ที่สงวนไว้ตามแนวโน้มการใช้งานของคุณในการสมัครใช้งานเดียวช่วง 7, 30 หรือ 60 วัน
+* **คำแนะนำ RI (แชร์)**: คำแนะนำในการซื้อมีอินสแตนซ์ที่สงวนไว้ตามแนวโน้มการใช้งานของคุณในการสมัครใช้งานในช่วง 7, 30 หรือ 60 วัน
+* **การใช้ RI**: มีรายละเอียดของปริมาณการใช้สำหรับอินสแตนซ์สงวนไว้ของคุณที่มีอยู่ช่วงเดือนที่ผ่านมา
+* **รายละเอียดการใช้งาน**: มีการแบ่งรายละเอียดของปริมาณการใช้และค่าใช้จ่ายโดยประมาณสำหรับการลงทะเบียน
+
+คุณสามารถเลือกกล่องกาเครื่องหมายข้างตารางใดๆ เพื่อดูตัวอย่าง  คุณสามารถเลือกโดยการติ๊กกล่องด้านข้างชื่อของพวกเขาอย่างน้อยหนึ่งตาราง จาก นั้นเลือก**การโหลด**
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-03.png)
+
+เมื่อคุณเลือก**โหลด**ข้อมูลที่ถูกโหลดไปยัง**Power BI Desktop**
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
+
+เมื่อข้อมูลที่คุณเลือกถูกโหลด ตารางและเขตข้อมูลที่คุณเลือก สามารถเห็นได้ในบานหน้าต่าง**เขตข้อมูล**
+
+![](media/desktop-connect-azure-consumption-insights/azure-cost-management-05.png)
+
+## <a name="writing-custom-queries"></a>เขียนคิวรีแบบกำหนดเอง
+
+ถ้าคุณต้องการกำหนดจำนวนเดือน เปลี่ยนเวอร์ชัน api หรือทำตรรกะขั้นสูงเพิ่มเติมบนข้อมูลที่ส่งกลับ คุณสามารถสร้างคิวรี M แบบกำหนดเอง
+
+เพื่อจะทำเช่นนั้น ใน Home **ribbon** ของ**Power BI Desktop**แล้วเลือกลูกศรดรอปดาวน์ใน**รับข้อมูล**แล้ว เลือก**คิวรี่ว่างเปล่า**  คุณยังสามารถทำเช่นนี้**ตัวแก้ไขคิวรี**โดยการคลิกขวาในการ**คิวรี**บานหน้าต่างตามด้านซ้าย และเลือก**คิวรีใหม่ > เมนูเปล่า**จากเมนูที่ปรากฏได้
+
+ในการ**แถบสูตร**พิมพ์ต่อไปนี้ แทน`billingProfileId`กับ ID จริง และ "ค่าใช้จ่าย" ด้วยชื่อตารางที่ถูกต้องใด ๆ (รายการด้านบน)
+
+```
+let
+    Source = AzureCostManagement.Tables(billingProfileId, [ numberOfMonths = 3 ]),
+    charges = Source{[Key="charges"]}[Data]
+in
+    charges
+```
+
+นอกจากการปรับเปลี่ยนการ`numberOfMonths`ค่าใดๆระหว่าง 1 และ 36 คุณยังสามารถใส่:
+
+* `apiVersion` การกำหนดเวอร์ชันของ API จะเรียกคิวรี
+* `lookbackWindow`สำหรับคำแนะนำ RI (เดียวหรือแชร์), การปรับเปลี่ยนหน้าต่างที่จะสร้างคำแนะนำจาก (ตัวเลือกที่ถูกต้อง: 7, 30 หรือ 60 วัน)
+
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 มีข้อมูลหลากหลายประเภทที่คุณสามารถเชื่อมต่อโดยใช้ Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแหล่งข้อมูล โปรดดูทรัพยากรต่อไปนี้:

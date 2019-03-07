@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 02/28/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3563c19630d481f1d3601e314ee13e1aef5c597d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: 385a2cb41c0fa58ec3df4ea675a6f43a5b868935
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661824"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014311"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>ส่งออกรายงานจาก Power BI ไปยัง PowerPoint
 ด้วย Power BI คุณสามารถเผยแพร่รายงานของคุณไปยัง**Microsoft PowerPoint**และสร้างชุดสไลด์ที่ยึดตามรายงาน Power BI ของคุณอย่างง่ายดายได้ เมื่อคุณ**ส่งออกไปยัง PowerPoint** สิ่งต่อไปนี้เกิดขึ้น
@@ -87,6 +87,7 @@ ms.locfileid: "56661824"
 * หน้าใน PowerPoint จะถูกสร้างขึ้นในขนาดมาตรฐาน 9:16 เสมอ โดยไม่คำนึงถึงขนาดหน้าเดิมหรือมิติในรายงาน Power BI
 * รายงานที่มีเจ้าของเป็นผู้ใช้ภายนอกโดเมนผู้เช่า Power BI ของคุณ (เช่น รายงานที่มีบุคคลภายนอกองค์กรของคุณเป็นเจ้าของ และถูกแชรให้คุณ) ไม่สามารถเผยแพร่ไปยัง PowerPoint ได้
 * ถ้าคุณแชร์แดชบอร์ดกับบุคคลภายนอกองค์กรของคุณ (และดังนั้น ผู้ใช้ที่ไม่อยู่ในผู้เช่า Power BI ของคุณ) ผู้ใช้รายนั้นจะไม่สามารถส่งรายงานที่เกี่ยวข้องของแดชบอร์ดที่แชร์ไปยัง PowerPoint ได้ ตัวอย่างเช่น ถ้าคุณเป็นเช่นนั้น aaron@contoso.comคุณสามารถแชร์ให้david@cohowinery.comได้ แต่david@cohowinery.comไม่สามารถส่งรายงานที่เกี่ยวข้องกับ PowerPoint ได้
+* ส่งออกอาจไม่ทำงานกับ PowerPoint เวอร์ชันที่เก่ากว่า
 * ตามที่ระบุไว้ก่อนหน้านี้ แต่ละหน้ารายงานจะถูกส่งออกเป็นรูปภาพหนึ่งรูปในไฟล์ PowerPoint
 * Power BI service ใช้การตั้งค่าภาษาของ Power BI ของคุณเป็นภาษาสำหรับการส่งออกไปยัง PowerPoint เพื่อดูหรือตั้งค่าการกำหนดลักษณะภาษาของคุณ ให้เลือกไอคอนรูปเฟือง ![ไอคอนรูปเฟือง](media/end-user-powerpoint/power-bi-settings-icon.png) **การตั้งค่า > ทั่วไป > ภาษา**
 * เวลาการ**ดาวน์โหลดใน**สไลด์ปกของไฟล์ PowerPoint ที่ถูกส่งออก ถูกตั้งค่าเป็นโซนเวลาของคอมพิวเตอร์ของคุณในเวลาของการส่งออก
