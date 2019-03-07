@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: c33ec747af514611df0ef00832acb785f04c40f1
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892332"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014173"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>คำถามที่ถามบ่อยเกี่ยวกับวิชวลแบบกำหนดเองของ Power BI
 
@@ -99,7 +99,7 @@ ms.locfileid: "56892332"
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>วิชวลที่มีการซื้อเพิ่มเติมคืออะไร?
 
-วิชวลที่มีการซื้อเพิ่มเติมเหมือนกับการซื้อภายในแอป (IAP) ที่เพิ่มเข้ามาในตลาดซึ่ง add-in เหล่านี้มีป้ายราคา  **อาจจำเป็นต้องซื้อเพิ่มเติม**
+วิชวลที่มีการซื้อเพิ่มเติมเหมือนกับการซื้อภายในแอป (IAP) ที่เพิ่มเข้ามาในตลาดซึ่ง add-in เหล่านี้มีป้ายราคา **อาจจำเป็นต้องซื้อเพิ่มเติม**
 
 วิชวลแบบกำหนดเองของ IAP นั้นฟรี วิชวลแบบกำหนดเองที่สามารถดาวน์โหลดได้ - ผู้ใช้ไม่ต้องจ่ายอะไรเลยในการดาวน์โหลดวิชวลแบบกำหนดเองเหล่านั้นจากตลาด วิชวล IAP เสนอการซื้อภายในแอปแบบทางเลือกสำหรับคุณลักษณะขั้นสูง  
 

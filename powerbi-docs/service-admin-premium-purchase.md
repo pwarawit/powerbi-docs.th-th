@@ -8,18 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 02/28/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8922bb329e4b598745fd259c67e74b063368b7be
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892401"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014150"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>วิธีการซื้อ Power BI Premium
 
-บทความนี้อธิบายวิธีการซื้อความจุของ Power BI Premium (P1-P3) สำหรับองค์กรของคุณ คุณซื้อความจุ Power BI Premium ในศูนย์ผู้ดูแลระบบ Office 365 และคุณ [จัดการความจุของคุณ](service-admin-premium-manage.md) ในพอร์ทัลผู้ดูแลระบบ Power BI สำหรับข้อมูลการกำหนดราคาและการวางแผนในปัจจุบัน ดู [หน้าการกำหนดราคา Power BI](https://powerbi.microsoft.com/pricing/) และ [เครื่องคิดเลข Power BI Premium](https://powerbi.microsoft.com/calculator/)
+> [!NOTE]
+> กำลังปรับปรุงบทความนี้อธิบายคุณลักษณะใหม่ ให้รายละเอียดเพิ่มเติม และปรับปรุงให้อ่านง่ายขึ้นในขณะนี้ 
+
+บทความนี้อธิบายวิธีการซื้อความจุของ Power BI Premium (P1-P3) สำหรับองค์กรของคุณ คุณซื้อความจุ Power BI Premium ในศูนย์ผู้ดูแลระบบ Office 365 และคุณจัดการความจุของคุณ ในพอร์ทัลผู้ดูแลระบบ Power BI สำหรับข้อมูลการกำหนดราคาและการวางแผนในปัจจุบัน ดู [หน้าการกำหนดราคา Power BI](https://powerbi.microsoft.com/pricing/) และ [เครื่องคิดเลข Power BI Premium](https://powerbi.microsoft.com/calculator/)
 
 ผู้เขียนเนื้อหาจะยังคงต้องมีสิทธิ์การใช้งาน Power BI Pro แม้ว่าองค์กรของคุณจะใช้ Power BI Premium ก็ตาม ตรวจสอบให้แน่ใจว่าคุณซื้อสิทธิ์การใช้งาน Power BI Pro อย่างน้อยหนึ่งใบสำหรับองค์กรของคุณ
 

@@ -1,5 +1,5 @@
 ---
-title: เกตเวย์ Power BI คืออะไร?
+title: เกตเวย์ข้อมูลภายในองค์กรคืออะไร
 description: เรียนรู้ข้อมูลพื้นฐานเกี่ยวกับเกตเวย์ข้อมูลสำหรับ Power BI
 author: mgblythe
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9c88a09eccd887007df8d2539be861b964c31b5f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: f1ae47dcb7c9281db018952d619691607d331003
+ms.sourcegitcommit: 87e81ba92f3d1d65c26f9fc007bf106f96f37bfd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324495"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57461660"
 ---
-# <a name="what-are-power-bi-gateways"></a>เกตเวย์ Power BI คืออะไร?
+# <a name="what-are-on-premises-data-gateways"></a>เกตเวย์ข้อมูลภายในองค์กรคืออะไร
 
 เกตเวย์ Power BI เป็นซอฟต์แวร์ที่คุณติดตั้งภายในกับเครือข่ายภายในองค์กร ซึ่งอำนวยความสะดวกในการเข้าถึงข้อมูลในเครือข่ายดังกล่าว เป็นเหมือนยามเฝ้าประตู ที่คอยฟังคำขอเชื่อมต่อ และอนุญาตเมื่อคำขอของผู้ใช้เข้าเงื่อนไขบางอย่าง ซึ่งช่วยให้องค์กรเก็บฐานข้อมูลและแหล่งข้อมูลอื่น ๆ บนเครือข่ายภายในองค์กรของตนได้ และยังใช้ข้อมูลภายในองค์กรในรายงานและแดชบอร์ด Power BI นั้นได้อย่างปลอดภัย
 
