@@ -1,5 +1,5 @@
 ---
-title: ใช้โหมดที่เก็บข้อมูลใน Power BI Desktop (ตัวอย่าง)
+title: โหมดที่เก็บข้อมูลใน Power BI Desktop
 description: ใช้โหมดที่เก็บข้อมูลเพื่อควบคุมว่าข้อมูลถูกแคชในหน่วยความจำสำหรับรายงานใน Power BI Desktop หรือไม่
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 02/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279193"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555871"
 ---
-# <a name="storage-mode-in-power-bi-desktop-preview"></a>โหมดที่เก็บข้อมูลใน Power BI Desktop (ตัวอย่าง)
+# <a name="storage-mode-in-power-bi-desktop"></a>โหมดที่เก็บข้อมูลใน Power BI Desktop
 
 ใน Microsoft Power BI Desktop คุณสามารถระบุ *โหมดที่เก็บข้อมูล* ของตารางได้ คุณสามารถใช้ *โหมดที่เก็บข้อมูล* เพื่อควบคุมว่า Power BI Desktop แคชข้อมูลตารางในหน่วยความจำสำหรับรายงานหรือไม่ 
 
@@ -127,7 +127,7 @@ ms.locfileid: "54279193"
 ![สคริปต์สำหรับการวินิจฉัยโหมดที่เก็บข้อมูล](media/desktop-storage-mode/storage-mode_08.png)
 
 > [!NOTE]
-> การทำงานนี้แตกต่างจาก [ความสัมพันธ์กลุ่ม-ต่อ-กลุ่มใน Power BI Desktop (ตัวอย่าง)](desktop-many-to-many-relationships.md) เมื่อตารางที่ถูกแคชและไม่ถูกแคชรวมกัน
+> พฤติกรรมนี้ต่างจาก[ความสัมพันธ์แบบกลุ่ม-ต่อ-กลุ่มใน Power BI Desktop (ตัวอย่าง)](desktop-many-to-many-relationships.md) เมื่อทำการรวมตารางที่ถูกแคชและไม่ได้ถูกแคชเข้าด้วยกัน
 
 ## <a name="caches-should-be-kept-in-sync"></a>แคชควรจะซิงค์อยู่เสมอ
 
@@ -162,7 +162,7 @@ ms.locfileid: "54279193"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับโมเดลแบบรวมและ DirectQuery โปรดดูบทความต่อไปนี้:
-* [โมเดลแบบรวมใน Power BI Desktop (ตัวอย่าง)](desktop-composite-models.md)
-* [ความสัมพันธ์แบบกลุ่ม-กลุ่มใน Power BI Desktop (ตัวอย่าง)](desktop-many-to-many-relationships.md)
+* [โมเดลแบบรวมใน Power BI Desktop](desktop-composite-models.md)
+* [ความสัมพันธ์แบบกลุ่มต่อกลุ่มใน Power BI Desktop](desktop-many-to-many-relationships.md)
 * [ใช้ DirectQuery ใน Power BI](desktop-directquery-about.md)
 * [แหล่งข้อมูลที่ได้รับการรองรับโดย DirectQuery ใน Power BI](desktop-directquery-data-sources.md)
