@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: f6a17a3e4033d5a97c5ae7744fef955aeed16eeb
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.openlocfilehash: c1ca797efa2e40bf74384a1e9f2362acd26c6f8f
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327745"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555668"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>ใช้ Assertion Markup Language (SAML) สำหรับการลงชื่อเข้าระบบครั้งเดียว (SSO) จาก Power BI กับแหล่งข้อมูลภายในองค์กร
 
@@ -38,6 +38,8 @@ ms.locfileid: "57327745"
     ```
 
 1. ใน SAP HANA Studio คลิกขวาที่เซิร์ฟเวอร์ SAP HANA จากนั้นไปที่ **การรักษาความปลอดภัย** > **เปิดคอนโซลการรักษาความปลอดภัย** > **ตัวให้บริการข้อมูลประจำตัว SAML**  >  **ไลบรารีเข้ารหัสลับ OpenSSL**
+
+    นอกจากนี้คุณยังสามารถใช้ SAP Cryptographic Library (หรือที่เรียกว่า CommonCryptoLib หรือ sapcrypto) แทน OpenSSL เพื่อทำตามขั้นตอนการตั้งค่าเหล่านี้ โปรดดูเอกสารประกอบ SAP อย่างเป็นทางการสำหรับข้อมูลเพิ่มเติม
 
 1. เลือก **นำเข้า** ไปที่ samltest.crt แล้วนำเข้า
 
@@ -121,6 +123,37 @@ ms.locfileid: "57327745"
 ตอนนี้คุณสามารถใช้หน้า **จัดการเกตเวย์** ใน Power BI เพื่อกำหนดค่าแหล่งข้อมูลและใน **การตั้งค่าขั้นสูง** และเปิดใช้งาน SSO จากนั้นคุณสามารถเผยแพร่รายงานและชุดข้อมูลที่เชื่อมโยงกับแหล่งข้อมูลดังกล่าวได้
 
 ![การตั้งค่าขั้นสูง](media/service-gateway-sso-saml/advanced-settings.png)
+
+## <a name="troubleshooting"></a>การแก้ไขปัญหา
+
+หลังจากกำหนดค่า SSO คุณอาจเห็นข้อผิดพลาดต่อไปนี้ในพอร์ทัล Power BI: “ไม่สามารถใช้ข้อมูลประจำตัวที่แสดงไว้สำหรับแหล่งที่มา SapHana” ข้อผิดพลาดนี้ระบุว่าข้อมูลประจำตัว SAML ถูกปฏิเสธ โดย SAP HANA
+
+การติดตามการรับรองความถูกต้องมีข้อมูลโดยละเอียดสำหรับการแก้ไขปัญหาข้อมูลประจำตัวเกี่ยวกับ SAP HANA ทำตามขั้นตอนเหล่านี้เพื่อกำหนดค่าการติดตามสำหรับเซิร์ฟเวอร์ SAP HANA ของคุณ
+
+1. บนเซิร์ฟเวอร์ SAP HANA เปิดใช้งานการติดตามการรับรองความถูกต้องโดยการเรียกใช้คิวรีต่อไปนี้
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') set ('trace', 'authentication') = 'debug' with reconfigure 
+    ```
+
+1. ทำซ้ำปัญหาที่คุณประสบ
+
+1. ใน HANA Studio เปิดคอนโซลดูแลระบบและไปที่แท็บ **ไฟล์การวินิจฉัย**
+
+1. เปิดการติดตาม indexserver ล่าสุดและค้นหา SAMLAuthenticator.cpp
+
+    คุณควรค้นหาข้อความแสดงข้อผิดพลาดโดยละเอียดที่ระบุสาเหตุหลัก เหมือนกับตัวอย่างต่อไปนี้
+
+    ```
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815797 d Authentication   SAMLAuthenticator.cpp(00091) : Element '{urn:oasis:names:tc:SAML:2.0:assertion}Assertion', attribute 'ID': '123123123123123' is not a valid value of the atomic type 'xs:ID'.
+    [3957]{-1}[-1/-1] 2018-09-11 21:40:23.815914 i Authentication   SAMLAuthenticator.cpp(00403) : No valid SAML Assertion or SAML Protocol detected
+    ```
+
+1. เมื่อการแก้ไขปัญหาเสร็จสมบูรณ์ ปิดใช้งานการติดตามการรับรองความถูกต้องโดยการเรียกใช้คิวรีต่อไปนี้
+
+    ```
+    ALTER SYSTEM ALTER CONFIGURATION ('indexserver.ini', 'SYSTEM') UNSET ('trace', 'authentication');
+    ```
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
