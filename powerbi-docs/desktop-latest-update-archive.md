@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/11/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 50dd529366a06cc46b2ca906bfc8987a3988cb72
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
+ms.openlocfilehash: 92b2026be33a6be25c4ad27c0d563a811eb0f4e6
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56226086"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580346"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -107,6 +107,7 @@ ms.locfileid: "56226086"
 
 > [!NOTE]
 > นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
+
 
 ## <a name="november-2018-update-2645285461"></a>อัปเดตประจำเดือนพฤศจิกายน 2018 (2.64.5285.461)
 

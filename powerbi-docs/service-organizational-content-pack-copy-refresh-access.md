@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a1834c88fbd7077f49560bc56b545539917ed3e
-ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
+ms.openlocfilehash: f22cac734d98e98cd17a915c09d6705e2cad121a
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57196447"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580070"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>ชุดเนื้อหาระดับองค์กร: คัดลอก รีเฟรช และเข้าถึง
 
@@ -25,13 +25,13 @@ ms.locfileid: "57196447"
 
 > [!NOTE]
 > คุณไม่สามารถสร้าง หรือติดตั้งชุดเนื้อหาระดับองค์กรในตัวอย่างการใช้งานพื้นที่ทำงานใหม่ ตอนนี้ คือเวลาดีที่จะอัปเกรดชุดเนื้อหาของคุณไปยังแอป ถ้าคุณยังไม่ได้เริ่มต้น เรียนรู้[เพิ่มเติมเกี่ยวกับการใช้งานพื้นที่ทำงานใหม่](service-create-the-new-workspaces.md)
-> 
+>
 
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>สร้างสำเนาของข้อแพ็คเนื้อหาขององค์กร
 สร้างสำเนาของคุณเองของชุดเนื้อหา ที่ผู้อื่นไม่สามารถมองเห็น
 
 1. เลือกจุดไข่ปลา (...) ที่อยู่ถัดจากแดชบอร์ดชุดเนื้อหา > ทำสำเนา
-   
+
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. เลือก**บันทึก**  
 
@@ -41,7 +41,7 @@ ms.locfileid: "57196447"
 > ก่อนหน้านี้ แต่ละครั้งที่คุณติดตั้งชุดเนื้อหาหรือสร้างสำเนา หนึ่งชุดข้อมูลใหม่จะปรากฏในรายการเนื้อหาพื้นที่ทำงาน การอัปเดตล่าสุดประยุกต์ประสบการณ์การใช้งานเพื่อแสดงเพียงหนึ่งรายการโดยใช้ไอคอนอ้างอิงชุดข้อมูลใหม่:
 >
 > ![ฐานข้อมูลที่มีไอคอนลิงก์](media/service-organizational-content-pack-copy-refresh-access/power-bi-dataset-reference-icon.png)
-> 
+>
 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>ความช่วยเหลือ  ฉันไม่สามารถเข้าถึงชุดเนื้อหาได้
 ซึ่งสามารถเกิดขึ้นได้จากสาเหตุหลายประการ
@@ -51,7 +51,7 @@ ms.locfileid: "57196447"
 * **เปลี่ยนแปลงการตั้งค่าความปลอดภัย**: ถ้าแดชบอร์ดและรายงานที่เชื่อมต่อกับแหล่งข้อมูล SSAS ภายในองค์กร และการเปลี่ยนแปลงการตั้งค่าความปลอดภัย อาจสามารถเพิกถอนสิทธิ์ของคุณในเซิร์ฟเวอร์ได้
 
 ## <a name="how-are-organizational-content-packs-refreshed"></a>รีเฟรชชุดเนื้อหาระดับองค์กรทำอย่างไร
-เมื่อมีการสร้างชุดเนื้อหา การตั้งค่าการรีเฟรชจะถูกสืบทอดกับชุดข้อมูล  เมื่อคุณสร้างสำเนาชุดเนื้อหา เวอร์ชันใหม่ยังมีลิงก์ไปยังชุดข้อมูลต้นฉบับและกำหนดการการรีเฟรช 
+เมื่อมีการสร้างชุดเนื้อหา การตั้งค่าการรีเฟรชจะถูกสืบทอดกับชุดข้อมูล  เมื่อคุณสร้างสำเนาชุดเนื้อหา เวอร์ชันใหม่ยังมีลิงก์ไปยังชุดข้อมูลต้นฉบับและกำหนดการการรีเฟรช
 
 ดู[จัดการ ปรับปรุง และลบชุดเนื้อหาระดับองค์กร](service-organizational-content-pack-manage-update-delete.md)
 
@@ -59,4 +59,3 @@ ms.locfileid: "57196447"
 * [แนะนำชุดเนื้อหาองค์กร](service-organizational-content-pack-introduction.md)
 * [สร้างกลุ่มใน Power BI](service-create-distribute-apps.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
-

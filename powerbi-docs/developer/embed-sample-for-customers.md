@@ -10,16 +10,18 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: adeb3f09e52d039937ba3cf54afb72f8ed1287f3
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 3e8a4f443a6784020467ef1cf3a918ef5410b209
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249171"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757426"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ
 
 ด้วย **Power BI Embedded ใน Azure** คุณสามารถฝังรายงาน, แดชบอร์ด หรือไทล์ลงในการใช้แอปพลิเคชันโดยใช้แอปเป็นเจ้าของข้อมูลได้ **แอปเป็นเจ้าของข้อมูล** เกี่ยวกับแอปพลิเคชันที่ใช้ Power BI เป็นแพลตฟอร์มการวิเคราะห์แบบฝังตัว ในฐานะเป็น**นักพัฒนาของผู้จำหน่ายซอฟท์แวร์อิสระ (ISV)** คุณสามารถสร้างเนื้อหา Power BI ที่แสดงรายงาน, แดชบอร์ด หรือไทล์ในแอปพลิเคชันที่รวมงานทั้งหมดไว้ด้วยกันและที่โต้ตอบได้ โดยผู้ใช้ไม่ต้องมีสิทธิ์การใช้งาน Power BI บทช่วยสอนนี้สาธิตวิธีการรวมรายงานลงในแอปพลิเคชัน โดยใช้ Power BI SDK .NET กับ Power BI JavaScript API โดยใช้ **Power BI Embedded ใน Azure** สำหรับลูกค้าของคุณ
+
+![Power BI ฝังรายงาน](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
 ในบทช่วยสอนนี้ คุณจะเรียนรู้วิธีการ:
 > [!div class="checklist"]
