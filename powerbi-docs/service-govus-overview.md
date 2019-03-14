@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a48ad26b9da5d5dba9fa04ab74301da7e1265d0b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4b017ae02ee88df47e426466c212ed6d87a2f92a
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292088"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580047"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI สำหรับลูกค้าส่วนราชการสหรัฐอเมริกา
 การ**บริการ Power BI**มีเวอร์ชันพร้อมใช้งานสำหรับลูกค้าส่วนราชการสหรัฐอเมริกา ซึ่งเป็นส่วนหนึ่งของการของการสมัครใช้งาน**ชุมชน Office 365 สำหรับส่วนราชการสหรัฐ** การ**บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้ถูกออกแบบมาโดยเฉพาะสำหรับลูกค้าส่วนราชการสหรัฐและแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI**
@@ -54,7 +54,7 @@ Azure จะถูกกระจายใน cloud หลายตัว ผู
 ## <a name="limitations-of-power-bi-us-government"></a>ข้อจำกัดของ Power BI US Government
 บางฟีเจอร์ที่มีในเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI**นั้น*ไม่มี*อยู่ใน**บริการ Power BI** สำหรับลูกค้าส่วนราชการสหรัฐ ทีม Power BI กำลังทำงานในการทำใหลูกค้าส่วนราชการสหรัฐใช้ฟีเจอร์เหล่านี้ได้ และจะอัปเดตบทความนี้เมื่อฟีเจอร์เหล่านี้จะพร้อมใช้งาน
 
-* **ฝังใน SharePoint Online** ไม่สามารถฝังเนื้อหาใน SharePoint Online โดยใช้ Web Part ของ Power BI
+* **ฝังใน SharePoint Online** ไม่สามารถฝังเนื้อหาใน SharePoint Online โดยใช้ Web Part ของ Power BI อย่างไรก็ตาม ความปลอดภัยที่ฝังอยู่นั้นทำงานได้โดยใช้ [*ส่วนของเว็บที่ฝังตัว* อยู่](https://docs.microsoft.com/power-bi/service-embed-secure) คุณต้องเพิ่ม *app.powerbigov.us* ไปยังรายการข้อยกเว้น ซึ่งสามารถทำได้ โดยทำตามคำแนะนำในบทความ [อนุญาต หรือจำกัดความสามารถในการฝังเนื้อหาบนหน้า SharePoint](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b)
 * **Power BI US Government**สามารถใช้งานไดใน้แบบ **Pro** เท่านั้น การอ้างอิงไปยังสิทธิ์การใช้งาน Power BI (ฟรี) ในพอร์ทัลของผู้ดูแลระบบ (หรือเป็นผู้ใช้) ที่กำลังทำงานอยู่ใน cloud ของบริการ Power BI เชิงพาณิชย์
 * **การตรวจสอบ** - การตรวจสอบทำได้แล้วผ่านทางพอร์ทัล ศูนย์การรักษาความปลอดภัยและการปฏิบัติตามนโยบายของ Office 365 ตั้งแต่เดือนมิถุนายน 2018
 * **เนื้อหาของ Power BI ใน Cortana** ผลลัพธ์ของ Power BI จะไม่แสดงขึ้นในผลลัพธ์การค้นหาของ Cortana ซึ่งรวมถึงผลลัพธ์สำหรับเนื้อหา Power BI ของคุณ (แดชบอร์ด รายงาน แอป) เช่นเดียวกับผลลัพธ์ที่แสดงในหน้ารายงานสำหรับคำสำคัญแบบเฉพาะที่ปรับแล้วของ Cortana

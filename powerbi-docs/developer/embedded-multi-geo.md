@@ -1,5 +1,5 @@
 ---
-title: การสนับสนุนหลายภูมิภาคสำหรับ Power BI Embedded (ตัวอย่าง)
+title: การสนับสนุนหลายภูมิภาคสำหรับ Power BI Embedded
 description: เรียนรู้วิธีปรับใช้เนื้อหาไปยังศูนย์ข้อมูลในภูมิภาคนอกเหนือจากภูมิภาคที่อยู่ของ Power BI Embedded
 author: markingmyname
 ms.author: maghan
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: d139f96b6aec2db23b2eabc54c3fa326e4762766
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762432"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57572036"
 ---
-# <a name="multi-geo-support-for-power-bi-embedded-preview"></a>การสนับสนุนหลายภูมิภาคสำหรับ Power BI Embedded (ตัวอย่าง)
+# <a name="multi-geo-support-for-power-bi-embedded"></a>การสนับสนุนหลายภูมิภาคสำหรับ Power BI Embedded
 
-**การสนับสนุนหลายภูมิภาคเพื่อ Power BI Embedded (ตัวอย่าง)** หมายความว่า Isv และองค์กรที่สร้างแอปพลิเคชันโดยใช้ Power BI Embedded ฝังตัววิเคราะห์ลงในแอปของพวกเขา จะสามารถปรับใช้ข้อมูลของพวกเขาในภูมิภาคต่างๆ ได้ทั่วโลก
+**การสนับสนุนหลายภูมิภาคเพื่อ Power BI Embedded**หมายความว่า Isv และองค์กรที่สร้างแอปพลิเคชันโดยใช้ Power BI Embedded ฝังตัววิเคราะห์ลงในแอปของพวกเขา จะสามารถปรับใช้ข้อมูลของพวกเขาในภูมิภาคต่างๆ ได้ทั่วโลก
 
 ตอนนี้ลูกค้าที่ใช้**Power BI Embedded**สามารถตั้งค่า**ความจุ**โดยใช้ตัวเลือก**หลายภูมิภาค**ตามคุณลักษณะและข้อจำกัดที่[Power BI Premium สนับสนุน](../service-admin-premium-Multi-Geo.md)
 

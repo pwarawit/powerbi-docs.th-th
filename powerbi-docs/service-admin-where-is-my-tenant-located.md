@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e71844110eb3452cbcb3b224bbca9db57475367e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 08536d412796b1516b689ed728af0126330edf93
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282183"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580159"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>ผู้เช่า Power BI ของฉันอยู่ที่ไหน
 
@@ -29,7 +29,7 @@ ms.locfileid: "54282183"
 
 1. ในบริการของ Power BI ที่เมนูด้านบน เลือกความช่วยเหลือ (**?**) จากนั้นเลือก **เกี่ยวกับ Power BI**
 
-1. ค้นหาค่าที่อยู่ถัดจาก **ข้อมูลของคุณถูกเก็บไว้ใน** นี่คือภูมิภาคที่ผู้เช่าของคุณอยู่
+1. ค้นหาค่าที่อยู่ถัดจาก **ข้อมูลของคุณถูกเก็บไว้ใน** นี่คือภูมิภาคที่ผู้เช่าของคุณอยู่ นี่คือภูมิภาคที่ข้อมูลของคุณถูกเก็บไว้ เว้นแต่ว่าคุณกำลังใช้ความจุเฉพาะในภูมิภาคอื่นสำหรับพื้นที่ทำงานของคุณด้วย
 
     ![ขอบเขตข้อมูล](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
 

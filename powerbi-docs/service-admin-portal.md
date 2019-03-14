@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: ca9a2eff3d05ec10c83dde90eabb779370ca5e96
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014656"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757357"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>ดูแล Power BI ในพอร์ทัลผู้ดูแลระบบ
 
@@ -192,6 +192,13 @@ ms.locfileid: "57014656"
 
 ![พิมพ์รายงาน](media/service-admin-portal/powerbi-admin-print-report.png)
 
+### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>อนุญาตให้ผู้ใช้ที่เป็นผู้เยี่ยมชมภายนอกแก้ไขและจัดการเนื้อหาในองค์กร
+ผู้ใช้ที่เป็นผู้เยี่ยมชมของ Azure B2B สามารถแก้ไขและจัดการเนื้อหาในองค์กร [เรียนรู้เพิ่มเติม](service-admin-azure-ad-b2b.md)
+
+รูปภาพต่อไปนี้แสดงตัวเลือกเพื่ออนุญาตให้ผู้ใช้ที่เป็นผู้เยี่ยมชมภายนอกแก้ไขและจัดการเนื้อหาในองค์กร
+
+![อนุญาตให้ผู้ใช้ที่เป็นผู้เยี่ยมชมภายนอกแก้ไขและจัดการเนื้อหาในองค์กร](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
 ## <a name="content-pack-and-app-settings"></a>การตั้งค่าชุดเนื้อหาและแอป
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>เผยแพร่ชุดเนื้อหาและแอปไปทั่วทั้งองค์กร
@@ -243,10 +250,45 @@ ms.locfileid: "57014656"
 > [!NOTE]
 > การตั้งค่านี้สามารถนำไปใช้กับทั้งองค์กร หรือสามารถจำกัดให้กับเฉพาะกลุ่มได้
 
+
+Power BI Desktop (เริ่มต้นเผยแพร่จากเดือนมีนาคม '19) สนับสนุนการใช้ **นโยบายกลุ่ม** เพื่อปิดใช้งานวิชวลแบบกำหนดเองทั่วทั้งคอมพิวเตอร์ที่ปรับใช้ขององค์กร
+
+<table>
+<tr><th>แอตทริบิวต์</th><th>ค่า</th>
+</tr>
+<td>คีย์</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableCustomVisuals</td>
+</tr>
+</table>
+
+ค่า 1 (เลขฐานสิบ) เปิดใช้งานการใช้วิชวลแบบกำหนดเองใน Power BI (ซึ่งเป็นค่าเริ่มต้น)
+
+ค่า 0 (เลขฐานสิบ) ปิดใช้งานการใช้วิชวลแบบกำหนดเองใน Power BI
+
 ### <a name="allow-only-certified-visuals"></a>อนุญาตให้วิชวลที่ผ่านการรับรองแล้วเท่านั้น
 
 ผู้ใช้ในองค์กรที่ได้รับสิทธิ์ในการเพิ่ม และใช้วิชวลแบบกำหนดเอง ซึ่งแสดงตามการตั้งค่า "เพิ่มและใช้วิชวลแบบกำหนดเอง" เท่านั้นที่สามารถใช้[วิชวลแบบกำหนดเองที่ได้รับการรับรองแล้ว](https://go.microsoft.com/fwlink/?linkid=2002010)(วิชวลที่ไม่ได้รับการรับรองจะถูกปิดกั้น และจะแสดงข้อผิดพลาดเมื่อถูกใช้) 
 
+
+Power BI Desktop (เริ่มต้นเผยแพร่จากเดือนมีนาคม '19) สนับสนุนการใช้ **นโยบายกลุ่ม** เพื่อปิดใช้งานวิชวลแบบกำหนดเองที่ไม่ผ่านการรับรองทั่วทั้งคอมพิวเตอร์ที่ปรับใช้ขององค์กร
+
+<table>
+<tr><th>แอตทริบิวต์</th><th>ค่า</th>
+</tr>
+<td>คีย์</td>
+    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
+<tr>
+<td>valueName</td>
+<td>EnableUncertifiedVisuals</td>
+</tr>
+</table>
+
+ค่า 1 (เลขฐานสิบ) เปิดใช้งานการใช้วิชวลแบบกำหนดเองที่ไม่ผ่านการรับรองใน Power BI (ซึ่งเป็นค่าเริ่มต้น)
+
+ค่า 0 (ฐานสิบ) ปิดใช้งานการใช้วิชวลแบบกำหนดเองที่ไม่ผ่านการรับรองใน Power BI (ตัวเลือกนี้ช่วยให้สามารถใช้ [วิชวลแบบกำหนดเองที่ได้รับการรับรอง](https://go.microsoft.com/fwlink/?linkid=2002010) เท่านั้น)
 
 ## <a name="r-visuals-settings"></a>การตั้งค่าวิชวล R
 

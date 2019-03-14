@@ -9,133 +9,62 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: 6a6dc71d68fa7ff136d35cbfb185b96db8e0589e
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.date: 03/12/2019
+ms.openlocfilehash: 34d7ec423f3d4cb0f7487c78eff68c580ff0489e
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249447"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757472"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับองค์กรของคุณ
 
-ใน **Power BI** คุณสามารถฝังรายงาน, แดชบอร์ด หรือไทล์ iแอปพลิเคชันโดยการใช้ ผู้ใช้ที่เป็นเจ้าของข้อมูล **ผู้ใช้ที่เป็นเจ้าของข้อมูล** ช่วยให้แอปพลิเคชันของคุณขยายบริการ Power BI เพื่อใช้การวิเคราะห์ที่ฝังตัว การสอนนี้จะแสดงวิธีวิธีการรวมรายงานเข้าไปในแอปพลิเคชัน คุณใช้ Power BI .NET SDK กับ Power BI JavaScript API เพื่อฝัง Power BI เข้าไปในแอปพลิเคชันสำหรับองค์กรของคุณ
+ใน **Power BI** คุณสามารถฝังรายงาน, แดชบอร์ด หรือไทล์ iแอปพลิเคชันโดยการใช้ ผู้ใช้ที่เป็นเจ้าของข้อมูล **ผู้ใช้ที่เป็นเจ้าของข้อมูล** ช่วยให้แอปพลิเคชันของคุณขยายบริการ Power BI เพื่อใช้การวิเคราะห์แบบฝังตัว การสอนนี้จะแสดงวิธีวิธีการรวมรายงานเข้าไปในแอปพลิเคชัน คุณใช้ Power BI .NET SDK กับ Power BI JavaScript API เพื่อฝัง Power BI เข้าไปในแอปพลิเคชันสำหรับองค์กรของคุณ
 
 ![Power BI ฝังรายงาน](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 ในการสอนนี้ คุณจะได้เรียนรู้งานต่อไปนี้:
 > [!div class="checklist"]
 > * ลงทะเบียนแอปพลิเคชันใน Azure
-> * ฝังรายงาน Power BI ลงในแอปพลิเคชัน
+> * ฝังรายงาน Power BI ลงในแอปพลิเคชันโดยใช้ผู้เช่า Power BI ของคุณ
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-ก่อนเริ่ม คุณต้องมีบัญชี Power BI Pro และ เป็นสมาชิก Microsoft Azure:
+เมื่อต้องเริ่มต้นใช้งาน คุณจำเป็นต้องมี:
 
-* หากคุณยังไม่ได้สมัคร Power BI Pro ให้ [สมัครทดลองใช้งานฟรี](https://powerbi.microsoft.com/pricing/) ก่อนที่คุณจะเริ่ม
-* ถ้าคุณยังไม่มีการสมัครใช้งาน Azure สร้าง[บัญชีฟรี](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)ก่อนที่คุณจะเริ่ม
-* ตั้งค่า [Azure Active Directory (Azure AD) ผู้เช่า](create-an-azure-active-directory-tenant.md) ของคุณ
-* ติดตั้ง [Visual Studio](https://www.visualstudio.com/) เวอร์ชัน 2013 หรือใหม่กว่า
+* [บัญชี Power BI Pro](../service-self-service-signup-for-power-bi.md)
+* การสมัครใช้งาน [Microsoft Azure](https://azure.microsoft.com/)
+* คุณจำเป็นต้องตั้งค่า[ผู้เช่า Azure Active Directory](create-an-azure-active-directory-tenant.md) ของคุณเอง
+
+ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/pricing/)ก่อนที่คุณจะเริ่ม
+
+ถ้าคุณยังไม่มีการสมัครใช้งาน Azure สร้าง[บัญชีฟรี](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)ก่อนที่คุณจะเริ่ม
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>ตั้งค่าสภาพแวดล้อมการพัฒนาการวิเคราะห์แบบฝังตัวของคุณ
 
-ก่อนที่จะเริ่มฝังรายงาน, แดชบอร์ด, หรือไทล์เข้าไปในแอปพลิเคชันของคุณ โปรดตรวจสอบให้แน่ใจว่าสภาพแวดล้อมของคุณถูกตั้งค่าสำหรับการฝัง สำหรับการตั้งค่า โปรดเลือกหนึ่งในการดำเนินการเหล่านี้:
+ก่อนที่คุณจะเริ่มฝังรายการ, แดชบอร์ด หรือไทล์ลงในแอปพลิเคชันของคุณ คุณจำเป็นต้องตรวจสอบให้แน่ใจว่าสภาพแวดล้อมเอื้ออำนวยต่อการฝังด้วย Power BI
 
-* คุณสามารถไปที่ [เครื่องมือตั้งค่าการฝังตัว](https://aka.ms/embedsetup/UserOwnsData) เพื่อเริ่มและดาวน์โหลดตัวอย่างแอปพลิเคชันที่จะพาคุณสร้างสภาพแวดล้อมและฝังรายงานได้อย่างรวดเร็ว
+คุณสามารถเข้าถึง [เครื่องมือตั้งค่าการฝังตัว](https://aka.ms/embedsetup/UserOwnsData) เพื่อให้คุณสามารถเริ่มต้นใช้งาน และดาวน์โหลดแอปพลิเคชันตัวอย่างที่ช่วยแนะนำคุณไปตามขั้นตอนการสร้างสภาพแวดล้อม และการฝังรายงานได้
 
-* หากคุณเลือกตั้งค่าสภาพแวดล้อมด้วยตนเอง โปรดทำตามขั้นตอนในส่วนต่อไปนี้
+แต่ถ้าคุณเลือกที่จะตั้งค่าสภาพแวดล้อมด้วยตนเอง คุณสามารถดำเนินต่อตามด้านล่าง
 
 ### <a name="register-an-application-in-azure-active-directory"></a>ลงทะเบียนแอปพลิเคชันใน Azure Active Directory
 
-เพื่อรับแอปพลิเคชันในการเข้าถึง Power BI REST APIs ให้ลงทะเบียนด้วย Azure Active Directory จากนั้นคุณสามารถสร้างอัตลักษณ์สำหรับแอปพลิเคชันของคุณและระบุสิทธิ์ไปยังทรัพยากร Power BI REST
+[ลงทะเบียนแอปพลิเคชัน](register-app.md)กับ Azure Active Directory เพื่ออนุญาตให้เข้าถึงแอปพลิเคชัน[Power BI REST ](https://docs.microsoft.com/rest/api/power-bi/) การลงทะเบียนแอปพลิเคชันจะทำให้คุณสร้างอัตลักษณ์แอปพลิเคชันของคุณและระบุสิทธิ์ไปยังทรัพยากร Power BI REST
 
-1. ยอมรับ [ข้อกำหนด Microsoft Power BI API](https://powerbi.microsoft.com/api-terms)
-
-2. ลงชื่อเข้าใช้ไปยัง [พอร์ทัล Azure](https://portal.azure.com)
-
-    ![แดชบอร์ด Azure](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
-
-3. ในหน้าต่างนำทางซ้ายมือ เลือก **บริการทั้งหมด** และเลือก **การลงทะเบียนแอป** จากนั้นเลือก **ลงทะเบียนแอปพลิเคชันใหม่**
-
-    ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)<br>
-
-    ![ลงทะเบียนแอปใหม่](media/embed-sample-for-your-organization/embed-sample-for-your-organization-004.png)
-
-4. ทำตามพร้อมท์และสร้างแอปพลิเคชัน์ใหม่ สำหรับ **ผู้ใช้ที่เป็นเจ้าของข้อมูล** ให้ใช้**เว็บแอป/ API** สำหรับ **ประเภทแอปพลิเคชัน** ให้ **URL ที่สมัคร** ซึ่ง Azure AD ใช้เพื่อส่งกลับผลลัพธ์โทเค็น ป้อนค่าที่จำเพาะไปยังแอปพลิเคชันของคุณ ตัวอย่างคือ `http://localhost:13526/`
-
-    ![สร้างแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-005.png)
-
-### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>นำสิทธิ์ไปใช้กับแอปพลิเคชันของคุณภายใน Azure Active Directory
-
-เปิดใช้สิทธิ์สำหรับแอปพลิเคชันของคุณนอกเหนือจากสิ่งที่คุณให้ในหน้าลงทะเบียนแอป ลงชื่อเข้าใช้ด้วยบัญชีผู้ดูแลทั่วไปเพื่อเปิดใช้สิทธิ์
-
-### <a name="use-the-azure-active-directory-portal"></a>ใช้พอร์ทัล Azure Active Directory
-
-1. เรียกดู [การลงทะเบียนแอป](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) ภายในพอร์ทัล Azure และเลือกแอปที่คุณกำลังใช้เพื่อการฝังตัว
-
-    ![เลือกแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
-
-2. เลือก **การตั้งค่า** จากนั้นด้านล่าง **การเข้าถึง API** เลือก **สิทธิ์ที่จำเป็น**
-
-    ![สิทธิ์ที่จำเป็น](media/embed-sample-for-your-organization/embed-sample-for-your-organization-008.png)
-
-3. เลือก **Windows Azure Active Directory** จากนั้นตรวจสอบให้แน่ใจว่าได้เลือก **การเข้าถึงไดเรกทอรีในฐานะผู้ใช้ที่เข้าสู่ระบบ** เลือก**บันทึก**
-
-    ![สิทธิ์ของ Windows Azure AD](media/embed-sample-for-your-organization/embed-sample-for-your-organization-011.png)
-
-4. เลือก**เพิ่ม**
-
-    ![เพิ่มสิทธิ์](media/embed-sample-for-your-organization/embed-sample-for-your-organization-012.png)
-
-5. เลือก **เลือก API**
-
-    ![เพิ่มการเข้าถึง API](media/embed-sample-for-your-organization/embed-sample-for-your-organization-013.png)
-
-6. เลือก **บริการของ Power BI** จากนั้นเลือก **เลือก**
-
-    ![เลือกบริการของ Power BI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-014.png)
-
-7. เลือกสิทธิ์ทั้งหมดใต้**สิทธิ์ที่ได้รับมอบ** เลือกทีละตัวเลือกเพื่อบันทึกการเลือก เลือก **บันทึก** เมื่อเสร็จสิ้น
-
-    ![เลือกสิทธิ์ที่ได้รับมอบสิทธิ์](media/embed-sample-for-your-organization/embed-sample-for-your-organization-015.png)
+คุณจำเป็นต้องดำเนินการลงทะเบียนแอป **เว็บแอปพลิเคชันฝั่งเซิร์ฟเวอร์** คุณลงทะเบียนแอปพลิเคชันเว็บฝั่งเซิร์ฟเวอร์เพื่อสร้างเป็นความลับของแอปพลิเคชัน
 
 ## <a name="set-up-your-power-bi-environment"></a>ตั้งค่าสภาพแวดล้อม Power BI ของคุณ
 
 ### <a name="create-an-app-workspace"></a>สร้างพื้นที่ทำงานสำหรับแอป
 
-หากคุณกำลังฝังรายงาน, แดชบอร์ด หรือไทล์สำหรับลูกค้า คุณต้องวางเนื้อหาลงในพื้นที่ทำงานแอป:
-
-1. เริ่มต้นโดยการสร้างพื้นที่ทำงาน เลือก**พื้นที่ทำงาน** > **สร้างพื้นที่ทำงานแอป** พื้นที่ทำงานนี้จะเป็นพื้นที่สำหรับวางเนื้อหาที่แอปพลิเคชันของคุณจำเป็นต้องเข้าถึง
-
-    ![สร้างพื้นที่ทำงาน](media/embed-sample-for-your-organization/embed-sample-for-your-organization-020.png)
-
-2. ตั้งชื่อพื้นที่ทำงาน ถ้าชื่อ **ID พื้นที่ทำงาน**ที่ตรงกันไม่สามารถใช้ได้ แก้ไขให้ ID ใหม่มีค่าไม่ซ้ำกัน ชื่อนี้ต้องเป็นชื่อของแอปด้วย
-
-    ![ชื่อพื้นที่ทำงาน](media/embed-sample-for-your-organization/embed-sample-for-your-organization-021.png)
-
-3. คุณมีสองสามตัวเลือกที่จะตั้งค่า ถ้าคุณเลือก**สาธารณะ** ทุกคนในองค์กรคุณสามารถดูสิ่งที่อยู่ในพื้นที่ทำงานได้ **ส่วนตัว** หมายถึงมีเพียงสมาชิกเท่าของพื้นที่ทำงานเท่านั้นที่สามารถเห็นเนื้อหาได้
-
-    ![เลือก ส่วนตัวหรือสาธารณะ](media/embed-sample-for-your-organization/embed-sample-for-your-organization-022.png)
-
-    คุณจะไม่สามารถเปลี่ยนการตั้งค่าของ สาธารณะหรือส่วนตัวหลังจากสร้างกลุ่มแล้ว
-
-4. นอกจากนี้คุณยังสามารถเลือกการเข้าถึงของสมาชิกแบบแก้ไขได้หรือดูเท่านั้น
-
-    ![เลือกการเข้าถึงของสมาชิก](media/embed-sample-for-your-organization/embed-sample-for-your-organization-023.png)
-
-5. เพิ่มที่อยู่อีเมลของบุคคลที่คุณต้องการให้เข้าถึงพื้นที่ทำงานและเลือก **เพิ่ม** คุณไม่สามารถเพิ่มนามแฝงของกลุ่ม เพิ่มได้แค่บุคคลอย่างเดียว
-
-6. ตัดสินใจว่า แต่ละคนเป็นสมาชิกหรือผู้ดูแลระบบ ผู้ดูแลระบบสามารถแก้ไขพื้นที่ทำงาน รวมถึงการเพิ่มสมาชิกคนอื่น ๆ สมาชิกสามารถแก้ไขเนื้อหาในพื้นที่ทำงาน นอกจากว่าพวกเขามีสิทธิ์เข้าถึงแบบดูเท่านั้น ทั้งผู้ดูแลระบบและสมาชิกสามารถเผยแพร่แอป
-
-    ในตอนนี้ คุณสามารถดูพื้นที่ทำงานใหม่แล้ว Power BI จะสร้างพื้นที่ทำงาน และเปิดพื้นที่ทำงานนั้น จะแสดงในรายการของพื้นที่ทำงานที่คุณเป็นสมาชิก เนื่องจากคุณเป็นผู้ดูแล คุณสามารถเลือกจุดไข่ปลา (...) เพื่อกลับมา และทำการเปลี่ยนแปลง เพิ่มสมาชิกใหม่ หรือเปลี่ยนแปลงสิทธิ์ของพวกเขาได้
-
-    ![สร้างพื้นที่ทำงานแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-025.png)
+หากคุณกำลังฝังรายงาน, แดชบอร์ด หรือไทล์สำหรับลูกค้า คุณต้องวางเนื้อหาลงในพื้นที่ทำงานแอป พื้นที่ทำงานมีหลายประเภทที่คุณสามารถตั้งค่า: [พื้นที่ทำงานแบบดั้งเดิม](../service-create-workspaces.md)หรือ[พื้นที่ทำงานใหม่](../service-create-the-new-workspaces.md)
 
 ### <a name="create-and-publish-your-reports"></a>สร้าง และเผยแพร่รายงานของคุณ
 
 คุณสามารถสร้างรายงานและชุดข้อมูลโดยการใช้ Power BI Desktop จากนั้นคุณสามารถเผยแพร่รายงานเหล่านั้นไปยังพื้นที่ทำงานแอป ผู้ใช้ปลายทางที่เผยแพร่รายงานจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro เพื่อเผยแพร่ไปยังพื้นที่ทำงานแอป
 
-1. ดาวน์โหลดตัวอย่าง[การสาธิตบล็อก](https://github.com/Microsoft/powerbi-desktop-samples)จาก GitHub
+1. ดาวน์โหลดตัวอย่าง [การสาธิต](https://github.com/Microsoft/powerbi-desktop-samples) จาก GitHub
 
     ![ดาวน์โหลดการสาธิต](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026-1.png)
 
@@ -153,83 +82,129 @@ ms.locfileid: "56249447"
 
 ## <a name="embed-your-content-by-using-the-sample-application"></a>ฝังเนื้อหาของคุณโดยการใช้แอปพลิเคชันตัวอย่าง
 
-สำหรับวิธีฝังเนื้อหาโดยการใช้แอปพลิเคชันตัวอย่าง ให้ทำตามขั้นตอนต่อไปนี้:
+ตัวอย่างนี้ถูกเก็บไว้อย่างตั้งใจเพื่อวัตถุประสงค์ในการสาธิต
 
-1. เริ่มจากดาวน์โหลด [ตัวอย่างผู้ใช้ที่เป็นเจ้าของข้อมูล](https://github.com/Microsoft/PowerBI-Developer-Samples) จาก GitHub. แอปพลิเคชันตัวอย่างจะมี 3 แบบ: แบบแรกคือ [รายงาน](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app) แบบที่สองคือ [แดชบอร์ด](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) และแบบสุดท้ายคือ [ไทล์](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) บทความนี้จะพูดถึงแอปพลิเคชัน **รายงาน**
+ทำตามขั้นตอนด้านล่างเพื่อเริ่มการฝังเนื้อหาของคุณโดยใช้แอปพลิเคชันตัวอย่าง
+
+1. ดาวน์โหลด[Visual Studio](https://www.visualstudio.com/) (เวอร์ชัน 2013 หรือใหม่กว่า) ทำให้แน่ใจว่าได้ดาวน์โหลด[แพคเกจ NuGet](https://www.nuget.org/profiles/powerbi)ล่าสุด
+
+2. ดาวน์โหลด [ตัวอย่างผู้ใช้ที่เป็นเจ้าของข้อมูล](https://github.com/Microsoft/PowerBI-Developer-Samples) จาก GitHub เพื่อเริ่มต้นใช้งาน
 
     ![ตัวอย่างแอปพลิเคชันของผู้ใช้ที่เป็นเจ้าของข้อมูล](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. เปิดไฟล์ **Cloud.config** ในแอปพลิเคชันตัวอย่าง มีไม่กี่เขตข้อมูลที่คุณจะต้องใส่เพื่อเรียกใช้แอปพลิเคชันให้สำเร็จ **ApplicationID**และ**ApplicationSecret**
+3. เปิดไฟล์ **Cloud.config** ในแอปพลิเคชันตัวอย่าง
+
+    มีเขตข้อมูลที่คุณต้องกรอกข้อมูลเพื่อเรียกใช้แอปพลิเคชันให้สำเร็จ
+
+    | เขตข้อมูล |
+    |--------------------|
+    | **[รหัสแอปพลิเคชัน](#application-id)** |
+    | **[ข้อมูลลับของแอปพลิเคชัน](#application-secret)** |
+    | **[รหัสพื้นที่ทำงาน](#workspace-id)** |
+    | **[รหัสรายงาน](#report-id)** |
+    | **[AADAuthorityUrl](#aadauthorityurl)** |
 
     ![ไฟล์ Cloud.config](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    ป้อนข้อมูลช่อง **ApplicationID** ด้วย **ID แอปพลิเคชัน** จาก Azure แอปพลิเคชันจะใช้ **ApplicationID** ในการระบุตัวเองไปยังผู้ใช้ที่คุณกำลังขอสิทธิ์
+### <a name="application-id"></a>รหัสแอปพลิเคชัน
 
-    สำหรับวิธีรับ **ApplicationID** ให้ทำตามขั้นตอนต่อไปนี้:
+ป้อนข้อมูล **applicationId** ด้วย **ID แอปพลิเคชัน** จาก **Azure** แอปพลิเชันจะใช้ **applicationId** เพื่อระบุตัวเองไปยังผู้ใช้จากที่คุณกำลังขอสิทธิ์
 
-    1. ลงชื่อเข้าใช้ไปยัง [พอร์ทัล Azure](https://portal.azure.com)
+สำหรับวิธีรับ **applicationId** ให้ทำตามขั้นตอนต่อไปนี้:
 
-       ![แดชบอร์ดพอร์ทัล Azure](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+1. ลงชื่อเข้าใช้[พอร์ทัล Azure](https://portal.azure.com)
 
-    2. ในบานหน้าต่างนำทางซ้ายมือ เลือก **บริการทั้งหมด** และเลือก **การลงทะเบียนแอป**
+2. ในบานหน้าต่างนำทางซ้ายมือ เลือก **บริการทั้งหมด** และเลือก **การลงทะเบียนแอป**
 
-       ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+    ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
-    3. เลือกแอปพลิเคชันที่ต้องใช้ **ApplicationID**
+3. เลือกแอปพลิเคชันที่ต้องใช้ **ApplicationID**
 
-       ![เลือกแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![การเลือกแอป](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    4. คุณควรจะเห็น **Application ID** ที่แสดงในรูปของ GUID ใช้ **ID แอปพลิเคชัน** นี้เป็น **ApplicationID** สำหรับแอปพลิเคชัน
+4. มี **ID แอปพลิเคชัน** ที่แสดงในรูปของ GUID ใช้ **ID แอปพลิเคชัน** นี้เป็น **applicationId** สำหรับแอปพลิเคชัน
 
-        ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    ป้อนข้อมูล **ApplicationSecret** จากส่วน **คีย์** ของส่วน **การลงทะเบียนแอปพลิเคชัน** ใน **Azure**
+### <a name="application-secret"></a>ข้อมูลลับของแอปพลิเคชัน
 
-    สำหรับวิธีรับ **ApplicationSecret** ให้ทำตามขั้นตอนต่อไปนี้:
+ป้อนข้อมูล **ApplicationSecret** จากส่วน **คีย์** ของส่วน **การลงทะเบียนแอปพลิเคชัน** ใน **Azure**  แอตทริบิวต์นี้ทำงานเมื่อใช้[บริการหลัก](embed-service-principal.md)
 
-    1. ลงชื่อเข้าใช้ไปยัง [พอร์ทัล Azure](https://portal.azure.com)
+สำหรับวิธีรับ **ApplicationSecret** ให้ทำตามขั้นตอนต่อไปนี้:
 
-       ![พอร์ทัล Azure](media/embed-sample-for-your-organization/embed-sample-for-your-organization-002.png)
+1. ลงชื่อเข้าใช้ไปยัง [พอร์ทัล Azure](https://portal.azure.com)
 
-    2. ในบานหน้าต่างนำทางซ้ายมือ เลือก **บริการทั้งหมด** และเลือก **การลงทะเบียนแอป**
+2. ในบานหน้าต่างนำทางซ้ายมือ เลือก **บริการทั้งหมด** และเลือก **การลงทะเบียนแอป**
 
-       ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+    ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    3. เลือกแอปพลิเคชันที่ต้องใช้ **ApplicationSecret**
+3. เลือกแอปพลิเคชันที่ต้องใช้ **ApplicationSecret**
 
-       ![เลือกแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![เลือกแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    4. เลือก **การตั้งค่า**
+4. เลือก **การตั้งค่า**
 
-       ![เลือกการตั้งค่า](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
+    ![เลือกการตั้งค่า](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
 
-    5. เลือก **คีย์**
+5. เลือก **คีย์**
 
-       ![เลือกคีย์](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+    ![เลือกคีย์](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
 
-    6. ป้อนชื่อในกล่อง **Description** และเลือกระยะเวลา จากนั้นเลือก **บันทึก** เพื่อรับ **ค่า** สำหรับแอปพลิเคชัน เมื่อคุณเลือกบานหน้าต่าง **คีย์** หลังจากการบันทึกค่าคีย์แล้ว ช่องค่าจะถูกซ่อนเท่านั้น ในขั้นตอนนี้คุณจะไม่สามารถเรียกดูค่าคีย์ได้ หากคุณทำค่าคีย์หาย ให้สร้างใหม่ในพอร์ทัล Azure
+6. ป้อนชื่อในกล่อง **Description** และเลือกระยะเวลา จากนั้นเลือก **บันทึก** เพื่อรับ **ค่า** สำหรับแอปพลิเคชัน เมื่อคุณเลือกบานหน้าต่าง **คีย์** หลังจากการบันทึกค่าคีย์แล้ว ช่องค่าจะถูกซ่อนเท่านั้น ในขั้นตอนนี้คุณจะไม่สามารถเรียกดูค่าคีย์ได้ หากคุณทำค่าคีย์หาย ให้สร้างใหม่ในพอร์ทัล Azure
 
-          ![ค่าคีย์](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![ค่าคีย์](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
 
-    7. สำหรับ **groupId** ป้อนพื้นที่ทำงานแอป GUID จาก Power BI
+### <a name="workspace-id"></a>ID พื้นที่ทำงาน
 
-       ![ป้อน groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+กรอกข้อมูล **workspaceId** ด้วย พื้นที่ทำงานแอป (กลุ่ม) GUID จาก Power BI คุณสามารถดูข้อมูลนี้จาก URL เมื่อลงชื่อเข้าใช้บริการ Power BI หรือโดยการใช้ Powershell
 
-    8. สำหรับช่อง **reportId** ป้อนพื้นที่ทำงานแอป GUID จาก Power BI
+URL <br>
 
-       ![ป้อน reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+![workspaceId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-040.png)
 
-3. เรียกใช้แอปพลิเคชัน:
+PowerShell <br>
 
-    เลือก**เรียกใช้**ใน **Visual Studio**
+```powershell
+Get-PowerBIworkspace -name "User Owns Embed Test"
+```
+
+   ![workspaceId จาก powershell](media/embed-sample-for-your-organization/embed-sample-for-your-organization-040-ps.png)
+
+### <a name="report-id"></a>รหัสรายงาน
+
+กรอกข้อมูล **reportId** ด้วย GUID รายงานจาก Power BI คุณสามารถดูข้อมูลนี้จาก URL เมื่อลงชื่อเข้าใช้บริการ Power BI หรือโดยการใช้ Powershell
+
+URL <br>
+
+![reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+
+PowerShell <br>
+
+```powershell
+Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
+```
+
+![reportId จาก powershell](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041-ps.png)
+
+### <a name="aadauthorityurl"></a>AADAuthorityUrl
+
+กรอกข้อมูลใน **AADAuthorityUrl** พร้อม URL ที่อนุญาตให้คุณฝังภายในผู้เช่าองค์กรของคุณหรือฝังด้วยผู้ใช้ที่เป็นผู้เยี่ยมชม
+
+สำหรับการฝังกับผู้เช่าขององค์กรของคุณ กรุณาใช้ URL - *https://login.microsoftonline.com/common/oauth2/authorize*
+
+สำหรับการฝังกับผู้เยี่ยมชม กรุณาใช้ URL - *https://login.microsoftonline.com/report-owner-tenant-id* - ที่ซึ่งคุณเพิ่มรหัสผู้เช่าของเจ้าของรายงานในการแทนที่ของ*report-owner-tenant-id*
+
+### <a name="run-the-application"></a>เรียกใช้แอปพลิเคชัน
+
+1. เลือก**เรียกใช้**ใน **Visual Studio**
 
     ![เรียกใช้แอปพลิเคชัน](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-    แล้ว เลือก **รับรายงาน**
+2. จากนั้นเลือก **Embed Report** ขึ้นอยู่กับเนื้อหาที่คุณเลือกที่จะทดสอบ - รายงาน, แดชบอร์ด หรือไทล์ - แล้วเลือกตัวเลือกนั้นในแอปพลิเคชัน
 
     ![เลือกเนื้อหา](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
-    ตอนนี้ คุณสามารถดูรายงานในแอปพลิเคชันตัวอย่างได้แล้ว
+3. ตอนนี้ คุณสามารถดูรายงานในแอปพลิเคชันตัวอย่างได้แล้ว
 
     ![ดูรายงานในแอปพลิเคชัน](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
@@ -255,10 +230,10 @@ ms.locfileid: "56249447"
 
 #### <a name="get-reports-with-the-rest-api"></a>รับรายงาน ด้วย REST API
 
-ตัวอย่างรหัสต่อไปนี้จะแสดงวิธีการเรียกดูรายงานด้วย **REST API**:
+ตัวอย่างรหัสต่อไปนี้จะแสดงวิธีการเรียกดูรายงานด้วย REST API:
 
-> [!NOTE]  
-> ตัวอย่างของการรับรายการเนื้อหาที่คุณต้องการฝังมีให้บริการในไฟล์ **Default.aspx.cs** ซึ่งอยู่ใน [แอปพลิเคชันตัวอย่าง](#embed-your-content-using-the-sample-application) ตัวอย่าง ได้แก่ รายงาน, แดชบอร์ด หรือไทล์
+> [!Note]
+> ตัวอย่างของการรับรายการเนื้อหาที่คุณต้องการฝังมีให้บริการในไฟล์ Default.aspx.cs ซึ่งอยู่ใน [แอปพลิเคชันตัวอย่าง](https://github.com/Microsoft/PowerBI-Developer-Samples) ตัวอย่าง ได้แก่ รายงาน, แดชบอร์ด หรือไทล์
 
 ```csharp
 using Newtonsoft.Json;
@@ -340,7 +315,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 คุณสามารถใช้ JavaScript เพื่อโหลดรายงานลงในองค์ประกอบ div บนเว็บเพจของคุณ ตัวอย่างรหัสต่อไปนี้จะแสดงวิธีการเรียกดูรายงานจากพื้นที่ทำงานที่ระบุ:
 
 > [!NOTE]  
-> ตัวอย่างของการโหลดรายการเนื้อหาที่คุณต้องการฝังมีให้บริการในไฟล์ **Default.aspx** ซึ่งอยู่ใน [แอปพลิเคชันตัวอย่าง](#embed-your-content-using-the-sample-application) ตัวอย่าง ได้แก่ รายงาน, แดชบอร์ด หรือไทล์
+> ตัวอย่างของการโหลดรายการเนื้อหาที่คุณต้องการฝังมีให้บริการในไฟล์ **Default.aspx** ซึ่งอยู่ใน [แอปพลิเคชันตัวอย่าง](https://github.com/Microsoft/PowerBI-Developer-Samples)
 
 ```javascript
 <!-- Embed Report-->
@@ -439,6 +414,7 @@ function updateEmbedReport() {
 | P3 |32 vCores |16 vCores, 100 GB ของ RAM |16 vCores |120 ต่อวินาที |
 | P4 |64 vCores |32 vCores, 200 GB ของ RAM |32 vCores |240 ต่อวินาที |
 | P5 |128 vCores |64 vCores, 400 GB ของ RAM |64 vCores |480 ต่อวินาที |
+
 > [!NOTE]
 > - เมื่อคุณพยายามฝังด้วยแอป Microsoft Office คุณสามารถใช้ EM SKUs เพื่อเข้าถึงเนื้อหาด้วยสิทธิ์การใช้งานฟรีของ Power BI แต่จะไม่สามารถเข้าถึงเนื้อหาด้วยสิทธิ์การใช้งานฟรีของ Power BI หากคุณกำลังใช้ Powerbi.com หรือ Power BI mobile
 > - เมื่อคุณพยายามฝังด้วยแอป Microsoft Office โดยการใข้ Powerbi.com หรือ Power BI mobile คุณสามารถเข้าถึงเนื้อหาด้วยสิทธิ์การใช้งานฟรีของ Power BI Power BI

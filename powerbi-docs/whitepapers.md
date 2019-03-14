@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/09/2019
+ms.date: 03/07/2019
 ms.author: maggies
-ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5af870bfd3cb6f9c925dd3d6268d0a1cb54df09b
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295845"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580024"
 ---
 # <a name="whitepapers-for-power-bi"></a>เอกสารทางเทคนิคสำหรับ Power BI
 
@@ -28,8 +28,8 @@ ms.locfileid: "54295845"
 | [วางแผนความจุสำหรับการวิเคราะห์แบบฝังตัวด้วย Power BI Premium](https://aka.ms/pbiewhitepaper) |เอกสารนี้ให้คำแนะนำสำหรับนักพัฒนาแอป/ISV เพื่อใช้ในการกำหนดความจุที่เหมาะสมที่สุดสำหรับธุรกิจ | ตุลาคม 2017 |
 | [วางแผนการใช้งาน Power BI Enterprise](https://go.microsoft.com/fwlink/?linkid=2057861) |เอกสารทางเทคนิคนี้สรุปข้อควรพิจารณาสำหรับการใช้งาน Power BI ในระดับองค์กรอย่างปลอดภัยและมีประสิทธิภาพ | กรกฎาคม 2018 |
 | [คำแนะนำในการวางแผนความจุสำหรับเซิร์ฟเวอร์รายงาน Power BI](report-server/capacity-planning.md) |เอกสารนี้มีวัตถุประสงค์เพื่อเสนอคำแนะนำเกี่ยวกับการวางแผนความจุสำหรับเซิร์ฟเวอร์รายงาน Power BI โดยแบ่งปันผลลัพธ์การดำเนินการทดสอบการโหลดจำนวนมากของปริมาณงานต่าง ๆ กับเซิร์ฟเวอร์รายงาน | มีนาคม 2018 |
-| [การรักษาความปลอดภัย](service-admin-power-bi-security.md) |แสดงคำอธิบายโดยละเอียดของการรักษาความปลอดภัยภายใน Power BI | กรกฎาคม 2018 |
-| [กระจายเนื้อหา Power BI ไปยังผู้ใช้ที่เป็นผู้เยี่ยมชมจากภายนอกโดยใช้ Azure Active Directory B2](https://aka.ms/powerbi-b2b-whitepaper)|เอกสารนี้สรุปวิธีการกระจายเนื้อหาไปยังผู้ใช้ภายนอกองค์กรโดยใช้การรวมกันของ Azure Active Directory Business-to-business (AAD B2B)| มีนาคม 2018 |
+| [การรักษาความปลอดภัย](service-admin-power-bi-security.md) |แสดงคำอธิบายโดยละเอียดของการรักษาความปลอดภัยภายใน Power BI | มีนาคม 2019 |
+| [กระจายเนื้อหา Power BI ไปยังผู้ใช้ที่เป็นผู้เยี่ยมชมจากภายนอกโดยใช้ Azure Active Directory B2](whitepaper-azure-b2b-power-bi.md)|เอกสารนี้สรุปวิธีการกระจายเนื้อหาไปยังผู้ใช้ภายนอกองค์กรโดยใช้การรวมกันของ Azure Active Directory Business-to-business (AAD B2B)| มีนาคม 2018 |
 | [การวิเคราะห์ขั้นสูงด้วย Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |อธิบายความสามารถในการวิเคราะห์ขั้นสูงของ Power BI รวมถึงการวิเคราะห์เชิงทำนาย การแสดงวิชวลแบบกำหนดเอง R integration และนิพจน์การวิเคราะห์ข้อมูล | กุมภาพันธ์ 2017 |
 | [แนวทางการออกแบบที่ดีที่สุดสำหรับรายงานและวิชวล](visuals/power-bi-visualization-best-practices.md) |มอบแนวทางปฏิบัติที่ดีที่สุดสำหรับการออกแบบรายงานใน Power BI | มิถุนายน 2018 |
 | [การกรองแบบสองทิศทาง](desktop-bidirectional-filtering.md) |อธิบายการกรองไขว้แบบสองทิศทางใน Power BI Desktop (เอกสารทางเทคนิคครอบคลุมถึง SQL Server Analysis Services 2016 ทั้งสองมีลักษณะการทำงานแบบเดียวกัน) | กรกฎาคม 2018 |
