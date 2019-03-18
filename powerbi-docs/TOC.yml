@@ -398,6 +398,10 @@ items:
       href: service-get-started.md
     - name: เชื่อมต่อกับตัวอย่าง GitHub
       href: service-tutorial-connect-to-github.md
+    - name: ใช้ Cognitive Services ใน Power BI
+      href: service-tutorial-use-cognitive-services.md
+    - name: การเรียนรู้เกี่ยวกับการรวมเข้าด้วยกันกับจักรกลด้วย Power BI
+      href: service-tutorial-invoke-machine-learning-model.md
   - name: แนวคิด
     items:
     - name: มีอะไรใหม่ในบริการ Power BI
@@ -646,6 +650,10 @@ items:
         href: service-dataflows-configure-workspace-storage-settings.md
       - name: เพิ่มโฟลเดอร์ CDM ไปยัง Power BI เป็นกระแสข้อมูล (ตัวอย่าง)
         href: service-dataflows-add-cdm-folder.md
+      - name: การเรียนรู้เกี่ยวกับการรวมเข้าด้วยกันกับจักรกลด้วย Power BI
+        href: service-machine-learning-integration.md
+      - name: ใช้ Cognitive Services ใน Power BI
+        href: service-cognitive-services.md
     - name: รายงานที่มีการแบ่งหน้าใน Power BI
       items:
       - name: อะไรคือรายงานที่มีการแบ่งหน้า? (แสดงตัวอย่าง)
@@ -722,7 +730,7 @@ items:
         href: service-delete.md
       - name: เชื่อมต่อกับเซิร์ฟเวอร์
         items:
-        - name: เชื่อมต่อกับเซิร์ฟเวอร์
+        - name: Acumatica
           href: service-connect-to-services.md
         - name: Acumatica
           href: service-connect-to-acumatica.md
@@ -1317,9 +1325,9 @@ items:
       href: service-admin-governance.md
     - name: ความปลอดภัยของ Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 45e6ec57f6fd9a0b02c6139b1bb6e3249edcbadc
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: ad67a7951e15d579cdea824a3eee69fe2ac0ff11
+ms.sourcegitcommit: cd7a027b532b1bb2dbbcae9e92426c80f80810d3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757449"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57964927"
