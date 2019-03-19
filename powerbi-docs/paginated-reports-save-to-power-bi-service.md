@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: d1d1f3c34483737e49129176c833be8384ade999
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324726"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174556"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>เผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI (ดูตัวอย่าง)
 
 ในบทความนี้ คุณจะได้เรียนรู้เกี่ยวกับการเผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI โดยการอัปโหลดจากคอมพิวเตอร์ของคุณเอง คุณสามารถอัปโหลดรายงานแบบแบ่งหน้าไปยัง "พื้นที่ทำงานของฉัน" หรือพื้นที่ทำงานอื่นได้ ตราบเท่าที่พื้นที่ทำงานนั้นอยู่ในความจุ Premium มองหาไอคอนรูปข้าวหลามตัด ![ไอคอนรูปข้าวหลามตัดของความจุ Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ถัดจากชื่อพื้นที่ทำงาน 
 
-ถ้าแหล่งข้อมูลของรายงานของคุณอยู่ในองค์กร คุณต้อง[สร้างเกตเวย์](#create-a-gateway-to-an-on-premises-data-source)หลังจากที่อัปโหลดรายงานแล้ว
+ถ้าแหล่งข้อมูลของรายงานของคุณอยู่ในองค์กร คุณต้อง[สร้างเกตเวย์](#create-a-gateway)หลังจากที่อัปโหลดรายงานแล้ว
 
 ## <a name="add-a-workspace-to-a-premium-capacity"></a>เพิ่มพื้นที่ทำงานไปยังความจุพรีเมียม
 

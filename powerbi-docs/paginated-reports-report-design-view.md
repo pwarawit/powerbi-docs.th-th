@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 2ee381cae5bd0c0ed1e6a8cab1cd33361a05814f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 7b84b967a9e6228258027302fc2e4ad4df5b0073
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324856"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174786"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>สำรวจดูรอบๆ ในมุมมองการออกแบบรายงานสำหรับรายงานแบบแบ่งหน้า (ดูตัวอย่าง)
 
@@ -22,12 +22,12 @@ ms.locfileid: "56324856"
 
 ![มุมมองการออกแบบรายงานของตัวสร้างรายงาน](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
-1. [แผนข้อมูลรายงาน](#report-data-pane) 
-2. [พื้นที่ออกแบบรายงาน](#report-design-surface)  
-3. [แผงพารามิเตอร์](#parameters-pane) 
-4. [แผงคุณสมบัติ](#properties-pane) 
-5. [แผงการจัดกลุ่ม](#grouping-pane) 
-6. [แถบสถานะปัจจุบันของรายงาน](#current-report-status-bar)  
+1. [แผนข้อมูลรายงาน](#1-report-data-pane) 
+2. [พื้นที่ออกแบบรายงาน](#2-report-design-surface)  
+3. [แผงพารามิเตอร์](#3-parameters-pane) 
+4. [แผงคุณสมบัติ](#4-properties-pane) 
+5. [แผงการจัดกลุ่ม](#5-grouping-pane) 
+6. [แถบสถานะปัจจุบันของรายงาน](#6-current-report-status-bar)  
   
 ## <a name="1-report-data-pane"></a>1 แผงข้อมูลรายงาน  
  ที่แผงข้อมูลรายงาน คุณอาจกำหนดข้อมูลรายงานและทรัพยากรรายงานที่คุณต้องการสำหรับรายงานได้ก่อนที่จะออกแบบเค้าโครงรายงาน ตัวอย่างเช่น คุณสามารถเพิ่มแหล่งข้อมูล ชุดข้อมูล เขตข้อมูลที่คำนวณไว้ พารามิเตอร์ของรายงาน และรูปภาพไปยังแผงข้อมูลรายงานได้  

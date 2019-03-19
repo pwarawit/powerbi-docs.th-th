@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 145ef2da33e0d596f03f75c76aaa99e90f58c4c2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288531"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174579"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>ทำงานร่วมกันในพื้นที่ทำงานของกล่มุของแอป Power BI ของคุณ
 แอปพื้นที่ทำงาน Power BI คือตำแหน่งที่ยอดเยี่ยมเพื่อทำงานร่วมกับเพื่อนร่วมงานของคุณบนแดชบอร์ด รายงาน และชุดข้อมูลเพื่อสร้าง*apps* ทำงานร่วมกันไม่ได้จบด้วยพื้นที่ทำงานใน Power BI Office 365 เสนอกลุ่มอื่นๆบริการ เช่นแชร์ไฟล์บน OneDrive สำหรับธุรกิจ การสนทนาใน Exchange ปฏิทินที่ใช้ร่วมกัน และ tasks และอื่น ๆ อ่านเพิ่มเติมเกี่ยวกับ[กลุ่มใน Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)
@@ -49,7 +49,7 @@ ms.locfileid: "54288531"
 2. จากเมนูนี้ คุณสามารถทำงานร่วมกันกับกลุ่มของคุณในสองสามวิธี 
    
    * มี[กลุ่มการสนทนาใน Office 365](service-collaborate-power-bi-workspace.md#have-a-group-conversation-in-office-365)
-   * [กำหนดการเหตุการณ์](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-group-workspace-calendar)บนของแอปปฏิทินของพื้นที่ทำงานของกลุ่ม
+   * [กำหนดการเหตุการณ์](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-apps-group-workspace-calendar)บนของแอปปฏิทินของพื้นที่ทำงานของกลุ่ม
    
    ในครั้งแรกที่คุณไปยังพื้นที่ทำงานของกลุ่มของแอปของคุณใน Office 365 ซึ่งอาจใช้เวลาสักครู่ รอ 15 ถึง 30 นาที จากนั้นรีเฟรชเบราว์เซอร์ของคุณ
 

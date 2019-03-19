@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2183596a66526ced7cfa4a298420972b63a87ca
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: eb50d8096c448e1a01533a7d8570e9dcc716ef23
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226261"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174993"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>ใช้ Kerberos สำหรับลงชื่อเข้าใช้ครั้งเดียว (SSO) จาก Power BI ไปยังแหล่งข้อมูลภายในองค์กร
 
@@ -60,7 +60,7 @@ ms.locfileid: "57226261"
 
 ![สกรีนช็อตของบัญชีบริการ](media/service-gateway-sso-kerberos/service-account.png)
 
-เมื่อต้องการเปิดใช้งานการมอบสิทธิ์แบบจำกัดของ Kerberos เกตเวย์ต้องทำงานเป็นบัญชีโดเมน เว้นแต่ว่าอินสแตนซ์ Azure Active Directory (Azure AD) ของคุณได้ซิงโครไนซ์กับอินสแตนซ์ Active Directory ภายในเครื่องของคุณแล้ว (โดยใช้ Azure AD DirSync/Connect) หากต้องการสลับบัญชีไปเป็นบัญชีโดเมน โปรดดู[ การสลับเกตเวย์ไปยังบัญชีโดเมน](#switching-the-gateway-to-a-domain-account) ภายหลังในบทความนี้
+เมื่อต้องการเปิดใช้งานการมอบสิทธิ์แบบจำกัดของ Kerberos เกตเวย์ต้องทำงานเป็นบัญชีโดเมน เว้นแต่ว่าอินสแตนซ์ Azure Active Directory (Azure AD) ของคุณได้ซิงโครไนซ์กับอินสแตนซ์ Active Directory ภายในเครื่องของคุณแล้ว (โดยใช้ Azure AD DirSync/Connect) หากต้องการสลับบัญชีไปเป็นบัญชีโดเมน โปรดดู[ การสลับเกตเวย์ไปยังบัญชีโดเมน](#switch-the-gateway-to-a-domain-account) ภายหลังในบทความนี้
 
 > [!NOTE]
 > ถ้ามีการกำหนดค่า Azure AD Connect และบัญชีผู้ใช้ซิงโครไนซ์ บริการเกตเวย์ไม่จำเป็นต้องดำเนินการภายใน Azure AD ค้นหาในขณะทำงาน คุณสามารถใช้ SID ของบริการภายในเครื่อง (แทนการใช้บัญชีโดเมน) สำหรับบริการเกตเวย์ ขั้นตอนการกำหนดค่า การมอบสิทธิ์แบบจำกัดของ Kerberos ที่ระบุไว้ในบทความนี้เหมือนกับการกำหนดค่านั้น โดยแค่นำไปใช้กับอ็อปเจ็กต์คอมพิวเตอร์ของเกตเวย์ใน Azure AD แทนบัญชีโดเมน
@@ -188,7 +188,7 @@ ms.locfileid: "57226261"
 
 ## <a name="configure-sap-bw-for-sso"></a>กำหนดค่า SAP BW สำหรับ SSO
 
-เมื่อคุณเข้าใจว่า Kerberos ทำงานร่วมกับเกตเวย์อย่างไร คุณสามารถกำหนดค่า SSO สำหรับ SAP Business Warehouse (SAP BW) ได้ ขั้นตอนต่อไปนี้ถือว่าคุณได้ [เตรียมพร้อมสำหรับการมอบหมายที่มีข้อจำกัดของ Kerberos](#preparing-for-kerberos-constrained-delegation) เรียบร้อยแล้วตามที่อธิบายไว้ก่อนหน้าในบทความนี้
+เมื่อคุณเข้าใจว่า Kerberos ทำงานร่วมกับเกตเวย์อย่างไร คุณสามารถกำหนดค่า SSO สำหรับ SAP Business Warehouse (SAP BW) ได้ ขั้นตอนต่อไปนี้ถือว่าคุณได้ [เตรียมพร้อมสำหรับการมอบหมายที่มีข้อจำกัดของ Kerberos](#prepare-for-kerberos-constrained-delegation) เรียบร้อยแล้วตามที่อธิบายไว้ก่อนหน้าในบทความนี้
 
 คู่มือนี้จะพยายามครอบคลุมให้ได้มากที่สุด ถ้าคุณได้ทำขั้นตอนบางขั้นตอนเหล่านี้เสร็จสิ้นแล้ว คุณอาจข้ามขั้นตอนเหล่านั้นไปได้: ตัวอย่าง คุณอาจสร้างผู้ใช้บริการสำหรับเซิร์ฟเวอร์ SAP BW ของคุณแล้ว และแมป SPN แล้ว หรือคุณอาจติดตั้ง `gsskrb5`ไลบรารี แล้ว
 
@@ -356,7 +356,7 @@ ms.locfileid: "57226261"
 
 ### <a name="add-a-new-sap-bw-application-server-data-source-to-the-power-bi-service"></a>เพิ่มแหล่งข้อมูล SAP BW Application Server ใหม่ลงในบริการ Power BI
 
-เพิ่มแหล่งข้อมูล SAP BW ไปยังเกตเวย์ของคุณ โดยทำตามคำแนะนำก่อนหน้าในบทความนี้เกี่ยวกับ [การเรียกใช้รายงาน](#running-a-power-bi-report)
+เพิ่มแหล่งข้อมูล SAP BW ไปยังเกตเวย์ของคุณ โดยทำตามคำแนะนำก่อนหน้าในบทความนี้เกี่ยวกับ [การเรียกใช้รายงาน](#run-a-power-bi-report)
 
 1. ในหน้าต่างการกำหนดค่าแหล่งข้อมูล ให้ป้อน **ชื่อโฮสต์** **หมายเลขระบบ** และ **ID ไคลเอ็นต์** ของ Application Server ตามที่คุณต้องการเพื่อลงชื่อเข้าใช้เซิร์ฟเวอร์ SAP BW จาก Power BI Desktop สำหรับ **วิธีการรับรองความถูกต้อง** ให้เลือก **Windows**
 
