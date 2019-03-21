@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a8a7aa8ed33e5c1baa7319ea65a67b6338c41ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277813"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220965"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>การใช้เอนทิตีที่คำนวณใน Power BI Premium (ตัวอย่าง)
 
@@ -79,7 +79,9 @@ ms.locfileid: "54277813"
 
 เมื่อทำงานโดยใช้กระแสข้อมูลที่สร้างขึ้นเฉพาะสำหรับในบัญชี Azure Data Lake Storage Gen2 ภายในองค์กร เอนทิตีที่มีลิงก์และเอนทิตีที่มีการคำนวณจะทำงานได้อย่างมีประสิทธิภาพต่อเมื่อเอนทิตี้ทั้งสองอยู่ในบัญชีที่เก็บข้อมูลเดียวกัน สำหรับข้อมูลเพิ่มเติม ให้เข้าไปดูที่ [เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับที่เก็บกระแสข้อมูล (ตัวอย่าง)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
-นอกจากนี้ เอนทิตีที่มีลิงก์จะไม่สามารถใช้งานได้กับกระแสข้อมูลที่สร้างขึ้นจากโฟลเดอร์ CDM ดูที่ [เพิ่มโฟลเดอร์ CDM เข้าสู่ Power BI ในฐานะกระแสข้อมูล (ดูตัวอย่าง)](service-dataflows-add-cdm-folder.md)
+เอนทิตีที่เชื่อมโยงแล้วไม่พร้อมใช้งานสำหรับกระแสข้อมูลที่สร้างจากโฟลเดอร์ Common Data Model (CDM) สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [เพิ่มโฟลเดอร์ CDM เข้าสู่ Power BI ในฐานะกระแสข้อมูล (ดูตัวอย่าง)](service-dataflows-add-cdm-folder.md)
+
+ตามแนวทางปฏิบัติที่ดีที่สุดเมื่อทำการคำนวณข้อมูลที่เข้าร่วมกับข้อมูลในองค์กรและข้อมูลบนระบบคลาวด์ ให้สร้างเอนทิตีใหม่เพื่อทำการคำนวณดังกล่าว ซึ่งจะให้ประสบการณ์สำหรับการคำนวณที่ดีกว่าการใช้เอนทิตีที่มีอยู่แล้ว เช่น เอนทิตีที่กำลังสืบค้นข้อมูลจากทั้งแหล่งที่มาและที่ทำการแปลงในทะเลสาบข้อมูล
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
