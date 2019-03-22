@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223846"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174832"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>แก้ไขปัญหาแอปพลิเคชันแบบฝังตัวของคุณ
 
@@ -290,7 +290,7 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 
 ข้อผิดพลาดนี้เกิดจาก URL เปลี่ยนเส้นทางที่ระบุสำหรับเว็บเซิร์ฟเวอร์แอปพลิเคชันแตกต่างจาก URL ของตัวอย่าง ถ้าคุณต้องการลงทะเบียนแอปพลิเคชันตัวอย่าง ใช้ `http://localhost:13526/` เป็น URL เปลี่ยนเส้นทาง
 
-ถ้าคุณต้องการแก้ไขแอปพลิเคชันที่ลงทะเบียนแล้ว ให้เรียนรู้วิธีการแก้ไข[แอปพลิเคชันที่ลงทะเบียน AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application) เพื่อที่แอปพลิเคชันจะสามารถให้สิทธิการเข้าถึง API ของเว็บ
+หากคุณต้องการแก้ไขแอปพลิเคชันที่ลงทะเบียนไว้ ให้เรียนรู้วิธี [อัปเดตแอปพลิเคชัน  Azure AD ที่ลงทะเบียนไว้](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app) เพื่อที่แอปพลิเคชันจะสามารถให้สิทธิ์เข้าถึง API ของเว็บได้
 
 ถ้าคุณต้องการแก้ไขโปรไฟล์หรือข้อมูลผู้ใช้ Power BI ของคุณ เรียนรู้วิธีการแก้ไข[ข้อมูล Power BI](https://docs.microsoft.com/power-bi/service-basic-concepts) ของคุณ
 

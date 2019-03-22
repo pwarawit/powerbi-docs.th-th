@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 875f30a6e051561f20a7ca54bc48343dd7248e79
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426734"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174763"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับที่เก็บกระแสข้อมูล (ตัวอย่าง)
 
@@ -65,7 +65,7 @@ ms.locfileid: "56426734"
 
 ขั้นตอนถัดไป คุณต้องให้สิทธิ์บริการ Power BI เป็น บทบาทผู้อ่านในการสร้างบัญชีสำหรับเก็บข้อมูล เนื่องจากมีการกำหนดบทบาทมาในตัวอยู่แล้ว ดังนั้นขั้นตอนจึงไม่มีความซับซ้อน 
 
-ทำตามขั้นตอนในบทความการ[กำหนดบทบาทให้บัญชีผู้ใช้ความปลอดภัยหลัก](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-role-to-a-security-principal)
+ทำตามขั้นตอนใน [กำหนดบทบาท RBAC ภายใน](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)
 
 ในหน้าต่าง**เพิ่มการกำหนดบทบาท** เลือกบทบาท**ผู้อ่าน**เพื่อกำหนดค่าการบริการ Power BI จากนั้นใช้การค้นหาเพื่อกำหนดที่ตั้ง**บริการ Power BI** รูปภาพต่อไปนี้แสดงบทบาทของ**ผุ้อ่าน**ที่ได้รับมอบหมายให้กับบริการ Power BI
 
@@ -150,6 +150,9 @@ ms.locfileid: "56426734"
 6. เลือก **เชื่อมต่อ**
 
 เมื่อดำเนินขั้นตอนเหล่านั้นจะเสร็จสมบูรณ์แล้ว บัญชี Azure Data Lake Storage Gen2 ของคุณจะถูกเชื่อมต่อกับ Power BI 
+
+> [!NOTE]
+> หากต้องการกำหนดค่าการเชื่อมต่อกับ Azure Data Lake Storage รุ่น2 ในพอร์ทัลผู้ดูแลระบบ Power BI คุณต้องมีสิทธิ์ผู้ดูแลระบบส่วนกลาง อย่างไรก็ตาม ผู้ดูแลระบบส่วนกลางจะไม่สามารถเชื่อมต่อกับที่เก็บข้อมูลภายนอกในพอร์ทัลผู้ดูแลระบบได้  
 
 ขั้นตอนถัดไปคุณต้องอนุญาตให้บุคลากรในองค์กรสามารถกำหนดค่าในพื้นที่ทำงานได้เพื่อที่จะให้พวกเขาสามารถใช้บัญชีที่เก็บข้อมูลสำหรับข้อกำหนดกระแสข้อมูลและที่เก็บข้อมูล ลองทำแบบนั้นดูในส่วนถัดไป 
 

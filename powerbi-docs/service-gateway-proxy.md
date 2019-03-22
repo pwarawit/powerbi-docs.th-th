@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7264ef7b1057f64d6eb51ccc77cbec2a74be6d0e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2122ce9bd6eb850a51a06188ca1c10faf78f4bb1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284000"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964674"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>กำหนดค่าพร็อกซีสำหรับเกตเวย์ข้อมูลภายในองค์กร
 สภาพแวดล้อมการทำงานของคุณ อาจบังคับให้คุณต้องเข้าถึงอินเทอร์เน็ตผ่านทางพร็อกซี ซึ่งอาจทำให้เกตเวย์ข้อมูลภายในองค์กรไม่สามารถเชื่อมต่อกับบริการได้
@@ -46,24 +46,41 @@ ms.locfileid: "54284000"
 ## <a name="configuring-proxy-settings"></a>การกำหนดค่าพร็อกซี
 ค่าเริ่มต้นของพร็อกซีกำหนดไว้ดังนี้
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true" />
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true" />
+</system.net>
+```
+
 
 ค่าเริ่มต้นทำงานได้กับ การรับรองความถูกต้องของ Windows ถ้าพร็อกซีของคุณใช้วิธีรับรองความถูกต้องอื่น คุณจะต้องเปลี่ยนการตั้งค่า ถ้าคุณไม่แน่ใจ คุณควรติดต่อผู้ดูแลเครือข่ายของคุณ ไม่แนะนำให้รับรองความถูกต้องของพร็อกซีแบบพื้นฐาน และการพยายามใช้การรับรองความถูกต้องของพร็อกซีแบบพื้นฐาน อาจก่อให้เกิดข้อผิดพลาดในการรับรองความถูกต้องของพร็อกซี ที่ส่งผลให้เกตเวย์ไม่ถูกกำหนดค่าอย่างถูกต้อง ใช้กลไกการรับรองความถูกต้องของพร็อกซีที่แข็งแรงขึ้นเพื่อแก้ไขปัญหา
 
 นอกจากการใช้ข้อมูลประจำตัวเริ่มต้น คุณสามารถเพิ่มองค์ประกอบ<proxy>เพื่อกำหนดค่าพร็อกซีเซิร์ฟเวอร์ให้ละเอียดขึ้นได้ ตัวอย่างเช่น คุณสามารถระบุว่า เกตเวย์ข้อมูลภายในองค์กรของคุณควรใช้พร็อกซีเสมอ แม้แต่กับแหล่งข้อมูลภายในเครื่อง โดยการตั้งค่าพารามิเตอร์ bypassonlocal เป็น false ซึ่งสามารถช่วยในสถานการณ์การแก้ไขปัญหา ถ้าคุณต้องการติดตามคำร้องขอ https ทั้งหมดที่มาจากเกตเวย์ข้อมูลภายในองค์กร ลงในแฟ้มบันทึกพร็อกซี การกำหนดค่าตัวอย่างต่อไปนี้ ระบุว่า คำขอทั้งหมดต้องเข้าถึงผ่านพร็อกซีที่มีที่อยู่ IP 192.168.1.10 เท่านั้น
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true">
-            <proxy  
-                autoDetect="false"  
-                proxyaddress="http://192.168.1.10:3128"  
-                bypassonlocal="false"  
-                usesystemdefault="true"
-            />  
-        </defaultProxy>
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true">
+        <proxy  
+            autoDetect="false"  
+            proxyaddress="http://192.168.1.10:3128"  
+            bypassonlocal="false"  
+            usesystemdefault="true"
+        />  
+    </defaultProxy>
+</system.net>
+```
+
+นอกจากนี้ โปรดอัปเดตไฟล์ดังต่อไปนี้เพื่อเชื่อมต่อเกตเวย์กับแหล่งข้อมูลระบบ Cloud ผ่านทางพร็อกซี: *C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe* ในไฟล์ ขยาย `<configurations>` ส่วนเพื่อให้เห็นเนื้อหาด้านล่าง และอัปเดต `proxyaddress`แอตทริบิวต์ด้วยข้อมูลพร็อกซีของคุณ ตัวอย่างต่อไปนี้จะกำหนดเส้นทางคำขอระบบ Cloud ทั้งหมดผ่านทางพร็อกซีที่มีที่อยู่ IP 192.168.1.10 เท่านั้น
+
+```
+<configuration>
+<system.net>
+    <defaultProxy useDefaultCredentials="true" enabled="true">
+    <proxy proxyaddress=""http://192.168.1.10:3128" bypassonlocal="true" />
+    </defaultProxy>
+</system.net>
+</configuration>
+```
 
 ถ้าต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการกำหนดค่าต่าง ๆ ของพร็อกซีในแฟ้มกำหนดค่าของ .NET ดูที่ [ค่า defaultProxy (การตั้งค่าเครือข่าย)](https://msdn.microsoft.com/library/kd3cf2ex.aspx)
 

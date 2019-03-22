@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014150"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964858"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>วิธีการซื้อ Power BI Premium
 
@@ -95,13 +95,15 @@ ms.locfileid: "57014150"
 
 1. อ่านผ่านข้อมูล และถ้าคุณต้องการดำเนินการ ให้เลือก**ยกเลิกการสมัครใช้งาน**
 
+### <a name="when-canceling-or-your-license-expires"></a>เมื่อยกเลิกหรือสิทธิ์การใช้งานของคุณหมดอายุ
+
+เมื่อยกเลิกการสมัครใช้งานแบบพรีเมียม หรือสิทธิ์การใช้งานความจุของคุณหมดอายุ คุณยังสามารถเข้าถึงความจุพรีเมียมของคุณได้เป็นระยะเวลา 30 วันนับจากวันที่ยกเลิกหรือหมดอายุสิทธิ์การใช้งาน หลังจาก 30 วัน คุณจะไม่สามารถเข้าถึงความจุพรีเมียมหรือพื้นที่ทำงานภายในความจุดังกล่าวได้อีกต่อไป
+
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[หน้ากำหนดราคา Power BI](https://powerbi.microsoft.com/pricing/)
-[เครื่องคิดเลข Power BI Premium](https://powerbi.microsoft.com/calculator/)
-[Power BI Premium คืออะไร?](service-premium.md)
-[คำถามที่พบบ่อยเกี่ยวกับ Power BI Premium](service-premium-faq.md)
-[เอกสารทางเทคนิคของ Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
-[เอกสารทางเทคนิคสำหรับการวางแผน Power BI Enterprise Deploymen](https://aka.ms/pbienterprisedeploy)
+[หน้าการกำหนดราคา Power BI](https://powerbi.microsoft.com/pricing/)   
+[เครื่องคิดเลข Power BI Premium](https://powerbi.microsoft.com/calculator/)   
+[คำถามที่ถามบ่อยสำหรับ Power BI Premium](service-premium-faq.md)   
+[เอกสารทางเทคนิคเรื่องการวางแผนการใช้ Power BI สำหรับองค์กร](https://aka.ms/pbienterprisedeploy)
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)

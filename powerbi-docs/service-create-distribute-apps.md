@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 451b5967dd648d982132282d2debbd4c4f86780f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 051609c59e155cb6d5c2a982483a7e6d2d91a665
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294122"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964697"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>เผยแพร่แอปที่มีแดชบอร์ดและรายงานใน Power BI
 
@@ -121,6 +121,11 @@ ms.locfileid: "54294122"
 
 ## <a name="unpublish-an-app"></a>ยกเลิกการเผยแพร่แอปฯ
 สมาชิกของพื้นที่ทำงานแอปฯสามารถยกเลิกการเผยแพร่แอปฯได้
+
+>[!NOTE]
+>เมื่อคุณยกเลิกการประกาศแอป ผู้ใช้แอปจะสูญเสียการเลือกกำหนดเองของพวกเขา ซึ่งหมายความว่าที่คั่นหน้าส่วนบุคคล ข้อคิดเห็น หรือการสมัครใช้งานใดๆ ที่เกี่ยวข้องกับเนื้อหาในแอปจะสูญหาย โปรดยกเลิกการประกาศแอปหากต้องการลบออกเท่านั้น
+> 
+> 
 
 * ในพื้นที่ทำงานแอปฯ เลือกจุดไข่ปลา (**...** ) ที่มุมขวาบน > **ยกเลิกการเผยแพร่แอปฯ**
   

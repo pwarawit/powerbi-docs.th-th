@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430315"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174947"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>เฝ้าติดตามเมตริกการใช้งานสำหรับแดชบอร์ดและรายงานของ Power BI
 
@@ -47,7 +47,7 @@ ms.locfileid: "55430315"
 
 รายงานเมตริกการใช้งานจะไม่แสดงขึ้นใน**ล่าสุด** **พื้นที่ทำงาน** **รายการโปรด**หรือรายการเนื้อหาอื่น ไม่สามารถเพิ่มรายงานเมตริกการใช้ลงในแอปฯ ถ้าคุณปักหมุดบนแผ่นจากรายงานเมตริกการใช้งานไปยังแดชบอร์ด จะไม่สามารถเพิ่มแดชบอร์ดลงในแอปหรือชุดเนื้อหาได้
 
-เมื่อต้องการเจาะลึกลงในข้อมูลรายงาน หรือเพื่อสร้างรายงานของคุณเองเทียบกับชุดข้อมูล ให้ใช้**บันทึกเป็น** (ดู[บันทึกรายงานเมตริกการใช้งานเป็นรายงาน Power BI แบบเต็ม](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize))
+หากต้องการเจาะลึกลงในข้อมูลรายงาน หรือสร้างรายงานของคุณเองเทียบกับชุดข้อมูล ให้ใช้ **บันทึกเป็น** (ดู [บันทึกรายงานเมตริกการใช้งานเป็นรายงาน Power BI แบบเต็มคุณลักษณะ](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize))
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>เปิดรายงานเมตริกการใช้งานสำหรับแดชบอร์ดหรือรายงาน
 
@@ -95,7 +95,7 @@ ms.locfileid: "55430315"
 
 ![รายงานเมตริกการใช้งานแดชบอร์ด](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
-## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>บันทึก รายงานเมตริกการใช้ เป็นรายงาน Power BI ที่น่าสนใจ (ปรับแต่ง)
+## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>บันทึกรายงานเมตริกการใช้งานเป็นรายงาน Power BI แบบเต็ม (ตั้งค่าส่วนบุคคล)
 
 ![บันทึกเป็น](media/service-usage-metrics/power-bi-save-as.png)
 

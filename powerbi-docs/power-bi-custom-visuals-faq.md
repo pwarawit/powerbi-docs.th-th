@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d17a5875569f29da41d62ca61efcbdae3b9242e9
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757334"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980369"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>คำถามที่ถามบ่อยเกี่ยวกับวิชวลแบบกำหนดเองของ Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "57757334"
 
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>ผู้ดูแลระบบสามารถจัดการวิชวลแบบกำหนดเองขององค์กรได้อย่างไร
 
-ในพอร์ทัลผู้ดูแล ในแท็บ "วิชวลแบบกำหนดเองขององค์กร" ผู้ดูแลระบบสามารถดูและ[จัดการวิชวลแบบกำหนดเองขององค์กรทั้งหมด](https://docs.microsoft.com/power-bi/service-admin-portal#organization-visuals)ได้: เพิ่ม ปิดใช้งาน เปิดใช้งาน และลบ
+ในพอร์ทัลผู้ดูแลระบบ ใต้แท็บ "การแสดงผลด้วยภาพแบบกำหนดเองขององค์กร" ผู้ดูแลระบบจะสามารถดูและ [จัดการการแสดงผลด้วยภาพแบบกำหนดเองขององค์กรทั้งหมดในองค์กร](service-admin-portal.md#organizational-visuals) ได้ ซึ่งได้แก่ เพิ่ม ปิดการใช้งาน เปิดการใช้งาน และลบ
 ไม่ต้องแชร์วิชวลทางอีเมลหรือโฟลเดอร์ที่ใช้ร่วมกันอีกต่อไปแล้ว! เมื่อเปิดใช้ในที่เก็บข้อมูลขององค์กร ผู้ใช้ในองค์กรสามารถค้นหาวิชวลแบบกำหนดเองขององค์กรได้อย่างง่ายดาย และสามารถนำเข้าไปยังรายงานได้โดยตรงจาก Power BI Desktop หรือการบริการ สามารถหาวิชวลแบบกำหนดเองขององค์กรได้จากร้านค้าที่มีอยู่ภายใน (ใน Desktop และบริการ) ในแท็บ *องค์กรของฉัน* เมื่อผู้ดูแลระบบอัปโหลดวิชวลแบบกำหนดเองขององค์กรเวอร์ชันใหม่ ทุกคนในองค์กรจะได้รับเวอร์ชันที่อัปเดตนั้น ผู้เขียนรายงานไม่จำเป็นต้องลบวิชวลออกจากรายงานเมื่อต้องการใช้วิชวลจากเวอร์ชันใหม่นี้ เพราะว่ารายงานทั้งหมดที่มีการใช้วิชวลเหล่านี้จะได้รับการอัปเดตอัตโนมัติ! กลไกการอัปเดตนั้นเหมือนกันกับวิชวลจาก Marketplace
 
 ### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>ถ้าผู้ดูแลระบบอัปโหลดวิชวลแบบกำหนดเองจาก Marketplace สาธารณะ ไปยังที่เก็บข้อมูลขององค์กร เมื่อผู้จัดจำหน่ายอัปเดตวิชวลใน Marketplace สาธารณะแล้วจะมีการอัปเดตตามโดยอัตโนมัติหรือไม่

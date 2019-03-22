@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d467839582abb3c66c8bf5a57d1f3c5f7b83d354
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
+ms.openlocfilehash: ed61d865756748ccd4e60f54de4a4b1b9adcef8d
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695047"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980346"
 ---
 # <a name="custom-visuals-in-power-bi"></a>วิชวลแบบกำหนดเองใน Power BI
 
@@ -159,7 +159,7 @@ AppSource [คืออะไร?](developer/office-store.md) เป็นที
 
 6. บันทึกไฟล์ ‘.pbiviz’ และจากนั้นเปิด Power BI
 
-7. นำเข้าไฟล์ ‘.pbiviz’ ลงในรายงานของคุณ (ดูที่หัวข้อ [นำเข้าวิชวลแบบกำหนดเองจากส่วนไฟล์](#import-a-custom-visuals-from-a-file) ด้านบน)
+7. นำเข้าไฟล์ '.pbiviz' ลงในรายงานของคุณ (ดูส่วน [นำเข้าภาพแบบกำหนดเองจากไฟล์](#import-a-custom-visual-from-a-file) ด้านบน)
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 

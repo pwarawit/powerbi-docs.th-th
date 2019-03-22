@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: fb2b169650360a7dc6a4afaee1c43abb733255c9
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 9fbd47dcefb2daf8d86c6932b5c70617b8bf7ac9
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431004"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964720"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -22,13 +22,19 @@ ms.locfileid: "55431004"
 
 ## <a name="upcoming-webinars"></a>สัมมนาผ่านเว็บที่กำลังมาถึง
 
-สัมมนาผ่านเว็บยังไม่จัดกำหนดการ กรุณาตรวจสอบใหม่เพื่อดูงานที่จะจัดในอนาคต
+**การบรรลุการได้รับประโยชน์ทั้งสองฝ่ายสำหรับผู้ผลิตและผู้ค้าปลีกผลิตภัณฑ์และสินค้าแก่ผู้บริโภค**
+<br>โดย Liz McCreesh
+<br>[ลงทะเบียนตอนนี้](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 >[การสัมมนาผ่านเว็บที่กำลังมาถึงจากชุมชน Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>การสัมมนาที่โดดเด่น
 
 เริ่มต้นใช้งานสัมมนาผ่านเว็บตามความต้องการเหล่านี้ได้รับความนิยม
+
+**Power BI และอนาคตของยุคใหม่และองค์กร BI**
+<br>โดย Arun Ulag and Amir Netz
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
 
 **เริ่มต้นใช้งาน Power BI**
 <br>โดย Miguel Martinez
@@ -46,13 +52,9 @@ ms.locfileid: "55431004"
 <br>โดย Cory Hrncirik และ Miguel Martinez
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
 
-**Power BI: การวิเคราะห์เสร็จสิ้นแล้ว**
-<br>โดย Gohul Shanmugalingam
-<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**ทำข้อมูลวิชวล Power BI ของคุณ:  ชนิดแผนภูมิหลักและวิธีการใช้งาน**
-<br>โดย Miranda Li
-<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+**เพิ่มประสิทธิภาพแอปพลิเคชันของคุณโดยใช้ Power BI JavaScript API**
+<br>โดย Nimrod Shalit
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
 **Power BI, Excel และ Office 365: ปรับข้อมูลองค์กรของคุณให้เหมาะสม**
 <br>โดย Olaf Hubel และ Miguel Martinez
@@ -62,10 +64,6 @@ ms.locfileid: "55431004"
 <br>โดย Miranda Li
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**ผลกระทบโดยรวมทางเศรษฐกิจของ Microsoft Flow และ PowerApps**
-<br>โดยคุณ Jonathan Lipsitz และ Enrique Plaza Garcia
-<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
-
 >[เรียกดูไลบรารีของ Power BI สัมมนาผ่านเว็บตามความต้องการจากผู้เชี่ยวชาญของเราชุมชน](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
 ## <a name="on-demand-webinars"></a>การสัมมนาผ่านเว็บตามความต้องการ
@@ -74,9 +72,25 @@ ms.locfileid: "55431004"
 
 ### <a name="getting-started"></a>เริ่มต้นใช้งาน
 
+**ทำให้กระบวนการทางธุรกิจประจำวันดำเนินการแบบอัตโนมัติด้วย Power BI, PowerApps, และ Microsoft Flow**
+<br>โดย Wim Coorevits and Enrique Plaza Garcia
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
+
+**Power BI: การวิเคราะห์เสร็จสิ้นแล้ว**
+<br>โดย Gohul Shanmugalingam
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**ทำข้อมูลวิชวล Power BI ของคุณ:  ชนิดแผนภูมิหลักและวิธีการใช้งาน**
+<br>โดย Miranda Li
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
 **วิธีการออกแบบรายงาน Power BI ที่อันน่าทึ่งแบบมองเห็นได้**
 <br>โดย Charles Sterling
 <br>[ดูเดี๋ยวนี้](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**ผลกระทบโดยรวมทางเศรษฐกิจของ Microsoft Flow และ PowerApps**
+<br>โดยคุณ Jonathan Lipsitz และ Enrique Plaza Garcia
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 **รวมกันดีกว่า: ข้อดี 5 ข้อที่ผู้ใช้ Excel ได้จากการใช้ Power BI**
 <br>โดย Carlos Otero และ Miguel Martinez
@@ -100,6 +114,10 @@ ms.locfileid: "55431004"
 
 ### <a name="partners"></a>คู่ค้า ###
 
+**แปลงข้อมูลลูกค้าเป็นความสำเร็จทางการค้าปลีกด้วย Power BI**
+<br>โดย Angad Soni จาก Hitachi Solutions
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
+
 **ยืนยันการแก้ปัญหาสุขภาพเพื่อปรับปรุงการแสดงผลลัพธ์ให้กับผู้ป่วยทั้งในเชิงร่างกายและความคุ้มค่า**
 <br>โดย Stephen Cracknell และ Stuart Macanliss จากสหรัฐอเมริกาทางแพทย์ทางด้าน IT
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
@@ -111,6 +129,10 @@ ms.locfileid: "55431004"
 **ข่าวกรองที่นำไปใช้สำหรับการขายและบริการ**
 <br>โดย Bobrin กระจายจาก Avanade
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
+
+**พฤติกรรม 5 ประการของภัณฑารักษ์ที่มีแนวโน้มประสบความสำเร็จ - Rohit Bhargava**
+<br>โดย Rohit Bhargava จาก Non-Obvious
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **ผู้ผลิต: อุตสาหกรรมของคุณจะดำเนินการตามการแปลงแบบดิจิทัล - รักษาความเป็นผู้นำ โดยใช้ประโยชน์จากการวิเคราะห์เมื่อต้องการขยายผลกำไรให้เติบโตยิ่งขึ้น**
 <br>โดย Thompson "นพดล"จากระยะขอบสีน้ำเงินและ Pastor Jim จาก กลุ่ม Fastener Elgin

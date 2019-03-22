@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3e8a4f443a6784020467ef1cf3a918ef5410b209
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 5bb4a739b6a333ecaf0ddc3ee2596fc210033470
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757426"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174970"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ
 
@@ -214,7 +214,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 แอตทริบิวต์นี้จำเป็นสำหรับ AuthenticationType ของ[บริการหลัก](embed-service-principal.md)เท่านั้น
 
-กรอกข้อมูล**ผู้เช่า** ด้วย ID ผู้เช่า azure ของคุณ คุณสามารถดูข้อมูลนี้จากการ[พอร์ทัล Azure AD](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id#use-the-azure-ad-portal)เมื่อลงชื่อเข้าใช้บริการ Power BI หรือโดยการใช้ Powershell ได้
+กรอกข้อมูล**ผู้เช่า** ด้วย ID ผู้เช่า azure ของคุณ คุณสามารถรับข้อมูลนี้ได้จาก [ศูนย์ผู้ดูแลระบบ Azure AD](/onedrive/find-your-office-365-tenant-id) เมื่อลงชื่อเข้าใช้บริการของ Power BI หรือใช้ Powershell
 
 ### <a name="run-the-application"></a>เรียกใช้แอปพลิเคชัน
 
@@ -304,7 +304,7 @@ var embedConfig = new EmbedConfig()
 
 ตัวอย่างนี้ใช้รูปแบบ **EmbedConfig** และรูปแบบ **TileEmbedConfig** พร้อมกับมุมมองรายงาน
 
-*ตัวอย่างของการเพิ่มมุมมองรายงาน แดชบอร์ด หรือไทล์มีให้ในไฟล์ Views\Home\EmbedReport.cshtml, Views\Home\EmbedDashboard.cshtml หรือ Views\Home\Embedtile.cshtml ใน[ตัวอย่างแอปพลิเคชัน](#embed-your-content-within-a-sample-application)*
+*ตัวอย่างของการเพิ่มมุมมองสำหรับรายงาน แดชบอร์ด หรือไทล์มีให้ในไฟล์ Views\Home\EmbedReport.cshtml, Views\Home\EmbedDashboard.cshtml หรือ Views\Home\Embedtile.cshtml ใน [ตัวอย่างแอปพลิเคชัน](#embed-content-using-the-sample-application)*
 
 ```javascript
 <script src="~/scripts/powerbi.js"></script>
