@@ -216,7 +216,7 @@ Australia Southeast, Brazil South, Canada Central, East US 2, India West, Japan 
 
 **[ID แอปพลิเคชัน](embed-sample-for-customers.md#application-id)** ถูกใช้เพื่อสร้างโทเค็นการเข้าถึงเมื่อส่งผ่าน ID แอปพลิเคชันสำหรับการรับรองความถูกต้อง
 
-เมื่อต้องการอ้างอิงบริการหลักสำหรับการดำเนินการ หรือทำการเปลี่ยนแปลงที่คุณใช ้**[ID ออบเจ็กต์ของบริการหลัก](embed-service-principal.md#how-to-get-the-service-principal-object-id)** — เช่น การใช้บริการหลักเป็นผู้ดูแลระบบในพื้นที่ทำงาน
+เมื่อต้องการอ้างอิงบริการหลักสำหรับการดำเนินการ หรือทำการเปลี่ยนแปลงที่คุณใช **[ID ออบเจ็กต์ของบริการหลัก](embed-service-principal.md#how-to-get-the-service-principal-object-id)** — เช่น การใช้บริการหลักเป็นผู้ดูแลระบบในพื้นที่ทำงาน
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>คุณสามารถจัดการเกตเวย์ข้อมูลภายในองค์กรด้วยบริการหลักได้หรือไม่
 
