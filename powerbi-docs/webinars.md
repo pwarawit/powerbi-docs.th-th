@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 9fbd47dcefb2daf8d86c6932b5c70617b8bf7ac9
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 3a5a84bdb22996fc3b773a861a85e82985cd036c
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964720"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220988"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -39,6 +39,10 @@ ms.locfileid: "57964720"
 **เริ่มต้นใช้งาน Power BI**
 <br>โดย Miguel Martinez
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
+
+**เริ่มต้นใช้งานแอปมือถือ Power BI**
+<br>โดย Maya Shenhav
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-Landing-Getting-Started-with-the-Power-BI-Mobile-App-Video.html?LCID=EN-US)
 
 **เรียนรู้วิธีการนำทางของคุณได้ผ่านแดชบอร์ด Power BI ใน 20 นาที**
 <br>โดย Miguel Martinez
