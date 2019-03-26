@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 54515259d0e258284cd5a2e86432a5ef6be89a9e
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
+ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57966421"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430334"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>บทช่วยสอน: เรียกแบบจำลอง Machine Learning Studio ใน Power BI (ตัวอย่าง)
 
@@ -92,7 +92,7 @@ ms.locfileid: "57966421"
 
 `https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
 
-!เชื่อมต่อกับแหล่งข้อมูล](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
+![เชื่อมต่อกับแหล่งข้อมูล](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
 ตัวแก้ไข Power Query จะแสดงตัวอย่างของข้อมูลจากไฟล์ CSV เลือก **แปลงข้อมูลตาราง** จาก Ribbon คำสั่ง จากนั้นเลือก **ใช้แถวแรกเป็นส่วนหัว**  ซึ่งจะเพิ่มขั้นตอนคิวรี _ส่วนหัวที่เลื่อนระดับ_ ลงในบานหน้าต่าง **ใช้ขั้นตอน** ทางด้านขวา นอกจากนี้คุณยังสามารถเปลี่ยนชื่อคิวรีให้เป็นชื่อที่เข้าใจง่าย เช่น _การกำหนดราคารถยนต์_ โดยใช้บานหน้าต่างทางด้านขวาได้
 
@@ -137,7 +137,7 @@ ms.locfileid: "57966421"
 
 เลือกปุ่ม **ข้อมูลเชิงลึก AI** ใน Ribbon จากนั้นเลือกโฟลเดอร์ _แบบจำลอง Azure Machine Learning_ จากเมนูการนำทางด้านซ้าย
 
-เลือกโฟลเดอร์ **แบบจำลอง Azure Machine Learning** ระบบจะแสดงรายการแบบจำลอง Azure ML ที่คุณได้รับสิทธิ์เข้าถึงอยู่เป็นฟังก์ชัน Power Query ด้วยคำนำหน้า *AzureML*  เมื่อคุณคลิกที่ฟังก์ชันที่สัมพันธ์กับแบบจำลอง _AutomobilePricePrediction_ พารามิเตอร์สำหรับบริการบนเว็บของแบบจำลองจะแสดงเป็นพารามิเตอร์ฟังก์ชัน
+ระบบจะแสดงรายการแบบจำลอง Azure ML ที่คุณได้รับสิทธิ์เข้าถึงอยู่เป็นฟังก์ชัน Power Query ด้วยคำนำหน้า *AzureML*  เมื่อคุณคลิกที่ฟังก์ชันที่สัมพันธ์กับแบบจำลอง _AutomobilePricePrediction_ พารามิเตอร์สำหรับบริการบนเว็บของแบบจำลองจะแสดงเป็นพารามิเตอร์ฟังก์ชัน
 
 หากต้องการเรียกแบบจำลอง Azure ML คุณสามารถระบุคอลัมน์ของเอนทิตีที่เลือกใดๆ ก็ได้ เป็นข้อมูลป้อนเข้าจากดรอปดาวน์ นอกจากนี้คุณยังสามารถระบุค่าคงที่เพื่อใช้เป็นข้อมูลป้อนเข้าได้ โดยสลับไอคอนคอลัมน์ไปทางซ้ายของกล่องโต้ตอบที่ป้อนเข้า เมื่อมีชื่อคอลัมน์ที่ตรงกับหนึ่งในชื่อพารามิเตอร์ฟังก์ชัน ระบบจะแนะนำคอลัมน์ดังกล่าวให้เป็นค่าป้อนเข้า  หากชื่อคอลัมน์ไม่ตรงกัน คุณสามารถเลือกได้จากดรอปดาวน์
 

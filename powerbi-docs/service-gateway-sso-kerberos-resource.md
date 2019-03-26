@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e1d8d240e4fd5bc05fc015f1c12971a8646370dd
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 6da5d89ae1ad3b98a879e4d99a10aa69224e1c46
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226123"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383371"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>ใช้ Kerberos ตามทรัพยากร สำหรับการลงชื่อเข้าระบบครั้งเดียว (SSO) จาก Power BI ไปยังแหล่งข้อมูลในองค์กร
 
@@ -23,7 +23,7 @@ ms.locfileid: "57226123"
 
 ## <a name="preparing-for-resource-based-kerberos-constrained-delegation"></a>การเตรียมการสำหรับการมอบหมายที่มีข้อจำกัดของ Kerberos ตามทรัพยากร
 
-จะต้องกำหนดค่าหลายรายการ เพื่อให้การมอบหมายที่มีข้อจำกัดของ Kerberos ทำงานได้อย่างถูกต้อง ซึ่งรวมถึง_ชื่อบริการหลัก_ (SPN) และการตั้งค่าการมอบหมายบนบัญชีบริการ
+จะต้องกำหนดค่าหลายรายการ เพื่อให้การมอบหมายที่มีข้อจำกัดของ Kerberos ทำงานได้อย่างถูกต้อง ซึ่งรวมถึง_ชื่อบริการหลัก_ (SPN) และการตั้งค่าการมอบหมายบนบัญชีบริการ 
 
 ### <a name="prerequisite-1-operating-system-requirements"></a>ข้อกำหนดเบื้องต้น 1: ความต้องการของระบบปฏิบัติการ
 
@@ -105,8 +105,8 @@ ms.locfileid: "57226123"
 1. เปิดพร้อมท์คำสั่งและเรียกใช้คำสั่งต่อไปนี้ในตัวควบคุมโดเมนสำหรับโดเมน **PBIEgwTestBack-end** เพื่ออัปเดตแอตทริบิวต์ msDS-AllowedToActOnBehalfOfOtherIdentity ของบัญชีบริการปลายสุด:
 
     ```powershell
-    $c=get-adgroupResourceDelGroup
-    set-aduser **SQLService** -principalsAllowedToDelegateToAccount$c
+    $c = Get-ADGroup ResourceDelGroup
+    Set-ADUser SQLService -PrincipalsAllowedToDelegateToAccount $c
     ```
 
 1. คุณสามารถตรวจสอบว่าการอัปเดตจะแสดงอยู่ในแท็บ "ตัวแก้ไขแอตทริบิวต์" ในคุณสมบัติสำหรับบัญชีบริการปลายสุดใน **Active Directory Users and Computers**

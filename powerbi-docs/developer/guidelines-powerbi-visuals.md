@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 03/10/2019
-ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58175490"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430311"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>คำแนะนำสำหรับการแสดงภาพ Power BI
 
@@ -29,7 +29,6 @@ ms.locfileid: "58175490"
 
 >[!IMPORTANT]  
 > หากคุณอัปเดตวิชวลจากฟรีเป็น "อาจจำเป็นต้องซื้อเพิ่มเติม" ผู้ใช้จะต้องได้รับฟังก์ชั่นการใช้งานฟรีในระดับเดียวกับก่อนการอัพเดท คุณอาจเพิ่มคุณลักษณะขั้นสูงแบบชำระเงินนอกเหนือจากคุณลักษณะฟรีแบบเก่าที่มีอยู่ เราขอแนะนำให้คุณส่งวิชวล IAP กับคุณลักษณะขั้นสูงเป็นวิชวลใหม่และไม่อัปเดตคุณลักษณะฟรีแบบเก่าที่มีอยู่
-
 
 ## <a name="what-changed-in-the-submission-process"></a>มีอะไรเปลี่ยนแปลงในกระบวนการส่งหรือไม่
 
@@ -51,17 +50,17 @@ ms.locfileid: "58175490"
 > [!IMPORTANT]
 > โลโก้สามารถใช้ได้เฉพาะใน **โหมดแก้ไขเท่านั้น** โลโก้**ไม่**สามารถแสดงในโหมดมุมมองได้
 
-![คำนิยาม](media/office-store-in-app-purchase-visual-guidelines/definitions.png)
+![คำนิยาม](media/guidelines-powerbi-visuals/definitions.png)
 
-![สิ่งที่ต้องคำนึงถึง](media/office-store-in-app-purchase-visual-guidelines/things-to-keep-in-mind.png)
+![สิ่งที่ต้องคำนึงถึง](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
 
-![สิ่งที่ต้องหลีกเลี่ยง](media/office-store-in-app-purchase-visual-guidelines/things-to-avoid.png)
+![สิ่งที่ต้องหลีกเลี่ยง](media/guidelines-powerbi-visuals/things-to-avoid.png)
 
-![ขนาดและรูปแบบ](media/office-store-in-app-purchase-visual-guidelines/size-and-format.png)
+![ขนาดและรูปแบบ](media/guidelines-powerbi-visuals/size-and-format.png)
 
-![ระยะขอบและการปรับขนาด](media/office-store-in-app-purchase-visual-guidelines/margins-and-sizes.png)
+![ระยะขอบและการปรับขนาด](media/guidelines-powerbi-visuals/margins-and-sizes.png)
 
-![โหมดแก้ไข](media/office-store-in-app-purchase-visual-guidelines/logos-in-edit-mode.png)
+![โหมดแก้ไข](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>แนวทางปฏิบัติที่ดีที่สุด
 
