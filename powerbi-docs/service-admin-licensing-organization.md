@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 65889d1082cee75ed56edc67ece9c99b5f344a6e
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430232"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383249"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>การออกใบอนุญาตการใช้งาน Power BI ในองค์กรของคุณ
 
@@ -35,7 +35,7 @@ ms.locfileid: "55430232"
 
 บุคคลในองค์กรของคุณสามารถลงชื่อสมัครเพื่อทดลองใช้ Power BI Pro ได้ ดูข้อมูลเพิ่มเติมได้ที่ [การสมัคร Power BI รายบุคคล](service-self-service-signup-for-power-bi.md)
 
-ผู้ใช้ที่ใช้ประโยชน์จากการทดลองใช้ Power BI Pro ในผลิตภัณฑ์จะไม่ปรากฏในพอร์ทัลผู้ดูแลระบบ Office 365 ในฐานะผู้ทดลองใช้ Power BI Pro (ปรากฏเป็นผู้ใช้ฟรีของ Power BI) อย่างไรก็ตามก็แสดงผู้ใช้เหล่านี้ว่าเป็นผู้ทดลองใช้ Power BI Pro ในหน้าการจัดการพื้นที่เก็บข้อมูลใน Power BI
+ผู้ใช้ที่ใช้ประโยชน์จากการทดลองใช้ Power BI Pro ในผลิตภัณฑ์จะไม่ปรากฏใศูนย์การจัดการ Microsoft 365 ในฐานะผู้ทดลองใช้ Power BI Pro (ปรากฏเป็นผู้ใช้ฟรีของ Power BI) อย่างไรก็ตามก็แสดงผู้ใช้เหล่านี้ว่าเป็นผู้ทดลองใช้ Power BI Pro ในหน้าการจัดการพื้นที่เก็บข้อมูลใน Power BI
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>การทดลองใช้งาน Power BI Pro สำหรับองค์กร
 
@@ -47,7 +47,7 @@ ms.locfileid: "55430232"
 
 * มีขีดจำกัดของเวอร์ชันทดลองใช้ขององค์กรหนึ่งเวอร์ชันสำหรับแต่ละผู้เช่า ซึ่งหมายความว่า ถ้าหากมีผู้สมัครใช้งาน Power BI Pro รุ่นทดลองใช้กับผู้เช่าของคุณแล้ว คุณจะไม่สามารถสมัครได้อีก หากคุณต้องความช่วยเหลือในเรื่องนี้ ติดต่อ [ความช่วยเหลือในการเรียกเก็บเงินสำหรับ Office 365](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671)
 
-1. นำทางไปยัง [ศูนย์การจัดการ Office 365](https://portal.office.com/adminportal/home#/homepage)
+1. ไปที่ [ศูนย์การจัดการ Microsoft 365](https://portal.office.com/adminportal/home#/homepage)
 
 1. ในบานหน้าต่างนำทางด้านซ้าย เลือก **การเรียกเก็บเงิน** จากนั้น **การสมัครรับข้อมูล**
 
@@ -71,7 +71,7 @@ ms.locfileid: "55430232"
 
 ผู้ใช้ภายในองค์กรของคุณสามารถรับใบอนุญาตใช้งาน Power BI ฟรีได้สองวิธีได้แก่
 
-* คุณสามารถกำหนดสิทธิ์การใช้งาน Power BI ให้แก่พวกเขาภายในพอร์ทัลผู้ดูแลระบบ Office 365
+* คุณสามารถกำหนดสิทธิ์การใช้งาน Power BI ให้แก่พวกเขาภายในศูนย์การจัดการ Microsoft 365
 
 * ถ้าผู้ใช้ [ลงทะเบียนทดลองใช้ Power BI Pro](service-self-service-signup-for-power-bi.md) และการทดลองใช้หมดอายุ สิทธิ์การทดลองใช้จะถูกกำหนดเป็นสิทธิ์การใช้งานฟรี
 
@@ -81,7 +81,7 @@ ms.locfileid: "55430232"
 
 ปิดกั้นใบอนุญาตการใช้งานนี้ได้หลังมีผู้สมัครใช้งาน Power BI เป็นรายบุคคลในครั้งแรก ระหว่างกระบวนการนี้ จะแนบเอกสารการปิดกั้นใบอนุญาตการใช้งานนี้กับองค์กรของคุณ และมอบใบอนุญาตใช้งานให้กับผู้ที่สมัคร
 
-1. ในศูนย์การจัดการ Office 365 ภายใต้ **การเรียกเก็บเงิน** > **ใบอนุญาต** เลือก**ไม่จำกัด**.
+1. ในศูนย์การจัดการ Microsoft 365 ภายใต้ **การเรียกเก็บเงิน** > **ใบอนุญาต** เลือก**ไม่จำกัด**.
 
     ![ปิดกั้นใบอนุญาตใช้งานฟรีแบบไม่จำกัด](media/service-admin-licensing-organization/unlimited-licenses.png)
 
@@ -93,7 +93,7 @@ ms.locfileid: "55430232"
 
 หากไม่สามารถปิดกั้นสิทธิ์การใช้งาน Power BI (ฟรี) และคุณไม่ต้องการลงทะเบียนรายบุคคล ปฏิบัติตามขั้นตอนนี้
 
-1. นำทางไปยัง [ศูนย์การจัดการ Office 365](https://portal.office.com/admin/default.aspx)
+1. ไปที่ [ศูนย์การจัดการ Microsoft 365](https://portal.office.com/admin/default.aspx)
 
 1. ในบานหน้าต่างนำทางด้านซ้าย เลือก **การเรียกเก็บเงิน** > **การสมัครใช้งาน**
 

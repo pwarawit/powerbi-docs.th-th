@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/13/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 48ea3d5e60c6f6a079be1d7040266817fdf5b97b
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 536e433540d371838b027e06f857609024e213f3
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964996"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430495"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -558,7 +558,7 @@ ms.locfileid: "57964996"
 
 ### <a name="other"></a>อื่น ๆ
 
-* ตัวเลือก sovereign cloud [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+* ตัวเลือกบริการคลาวด์แห่งชาติ [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
 
 > [!NOTE]
@@ -2250,7 +2250,7 @@ ms.locfileid: "57964996"
 
 มีการเพิ่มคุณลักษณะการทำงานต่อไปนี้ในอัปเดตนี้:
 
--   **ตัวเชื่อมต่อข้อมูลใหม่**: appFigures, Quickbooks Online, Zendesk, Github, Twilio และ SweetIQ
+-   **ตัวเชื่อมต่อข้อมูลใหม่**: appFigures, Quickbooks Online, Zendesk, GitHub, Twilio และ SweetIQ
 
 -   **การแปลงใหม่**: แยกอักขระแรก/สุดท้าย/ช่วงของอักขระจากคอลัมน์ข้อความ ตัวเลือกเพื่อระบุประเภทการเข้าร่วมในกล่องโต้ตอบคิวรีแบบผสาน ความสามารถในการกำหนดรูปแบบใบเสนอราคาในคอลัมน์แยกโดยกล่องโต้ตอบของตัวคั่น
 

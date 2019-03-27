@@ -10,19 +10,19 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 312e010bfa3ea635ef014a0b2dd913fa9e3911b6
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 25e36334390ad88d7856124c67e275db5c7fcd1c
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964858"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383019"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>วิธีการซื้อ Power BI Premium
 
 > [!NOTE]
 > กำลังปรับปรุงบทความนี้อธิบายคุณลักษณะใหม่ ให้รายละเอียดเพิ่มเติม และปรับปรุงให้อ่านง่ายขึ้นในขณะนี้ 
 
-บทความนี้อธิบายวิธีการซื้อความจุของ Power BI Premium (P1-P3) สำหรับองค์กรของคุณ คุณซื้อความจุ Power BI Premium ในศูนย์ผู้ดูแลระบบ Office 365 และคุณจัดการความจุของคุณ ในพอร์ทัลผู้ดูแลระบบ Power BI สำหรับข้อมูลการกำหนดราคาและการวางแผนในปัจจุบัน ดู [หน้าการกำหนดราคา Power BI](https://powerbi.microsoft.com/pricing/) และ [เครื่องคิดเลข Power BI Premium](https://powerbi.microsoft.com/calculator/)
+บทความนี้อธิบายวิธีการซื้อความจุของ Power BI Premium (P1-P3) สำหรับองค์กรของคุณ คุณซื้อความจุ Power BI Premium ในศูนย์การจัดการ Microsoft 365 และคุณจัดการความจุของคุณ ในพอร์ทัลผู้ดูแลระบบ Power BI สำหรับข้อมูลการกำหนดราคาและการวางแผนในปัจจุบัน ดู [หน้าการกำหนดราคา Power BI](https://powerbi.microsoft.com/pricing/) และ [เครื่องคิดเลข Power BI Premium](https://powerbi.microsoft.com/calculator/)
 
 ผู้เขียนเนื้อหาจะยังคงต้องมีสิทธิ์การใช้งาน Power BI Pro แม้ว่าองค์กรของคุณจะใช้ Power BI Premium ก็ตาม ตรวจสอบให้แน่ใจว่าคุณซื้อสิทธิ์การใช้งาน Power BI Pro อย่างน้อยหนึ่งใบสำหรับองค์กรของคุณ
 
@@ -42,7 +42,7 @@ ms.locfileid: "57964858"
 
     ![ตัวเลือกแอป office 365](media/service-admin-premium-purchase/o365-app-picker.png)
 
-    อีกวิธีหนึ่งคือ คุณสามารถเรียกดูศูนย์การจัดการ Office 365 คุณสามารถไปที่นั่นได้ โดยไปที่ https://portal.office.com และเลือก**ผู้ดูแลระบบ**
+    อีกวิธีหนึ่งคือ คุณสามารถเรียกดูศูนย์การจัดการ Microsoft 365 คุณสามารถไปที่นั่นได้ โดยไปที่ https://portal.office.com และเลือก**ผู้ดูแลระบบ**
 
 1. เลือก**การเรียกเก็บเงิน** > **ซื้อบริการ**
 
@@ -62,7 +62,7 @@ ms.locfileid: "57964858"
 
 ขณะนี้คุณมีความจุแล้ว คุณสามารถเพิ่มความจุได้ตามที่คุณต้องการ คุณสามารถผสม Premium capacity SKUs (P1 ผ่าน P3) ภายในองค์กรของคุณได้ SKU ที่ต่างกันมีความสามารถด้านทรัพยากรที่แตกต่างกัน
 
-1. ในศูนย์การจัดการ Office 365 เลือก **การเรียกเก็บเงิน** > **ซื้อบริการ**
+1. ในศูนย์การจัดการ Microsoft 365 เลือก **การเรียกเก็บเงิน** > **ซื้อบริการ**
 
 1. ค้นหารายการ Power BI Premium ที่คุณต้องการซื้อหนึ่งภายใต้**แผนอื่นๆ**
 
@@ -81,9 +81,9 @@ ms.locfileid: "57964858"
 
 ## <a name="cancel-your-subscription"></a>ยกเลิกการสมัครใช้งาน
 
-คุณสามารถยกเลิกการสมัครใช้งานจากภายในศูนย์การจัดการ Office 365 เพื่อยกเลิกการสมัครใช้งาน Premium ให้ทำสิ่งต่อไปนี้
+คุณสามารถยกเลิกการสมัครใช้งานจากภายในศูนย์การจัดการ Microsoft 365 เพื่อยกเลิกการสมัครใช้งาน Premium ให้ทำสิ่งต่อไปนี้
 
-1. เรียกดูศูนย์การจัดการ Office 365
+1. ค้นหาศูนย์การจัดการ Microsoft 365
 
 1. เลือก**การเรียกเก็บเงิน** > **การสมัครใช้งาน**
 

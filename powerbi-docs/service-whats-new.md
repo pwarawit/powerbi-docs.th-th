@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216872"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383726"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
@@ -347,7 +347,7 @@ ms.locfileid: "56216872"
 
 ***พอร์ทัลผู้ดูแลระบบ***
 
-* จัดการผู้ใช้อย่างง่ายดายด้วยการเชื่อมโยงไปยังศูนย์ดูแลระบบ O365
+* จัดการผู้ใช้อย่างง่ายดายด้วยการเชื่อมโยงไปยังศูนย์การจัดการ Microsoft 365
 * ความสามารถในการปิดใช้งานการเผยแพร่ไปยังเว็บ
 * ป้องกันไม่ให้ผู้ใช้เผยแพร่ชุดเนื้อหาไปยังทั้งองค์กร
 * ความสามารถในการปิดใช้งานการแชร์เนื้อหาไปยังผู้ใช้ภายนอก
@@ -509,7 +509,7 @@ ms.locfileid: "56216872"
 * ไซต์ใหม่สำหรับเอกสารประกอบ Power BI เป็นภาษาท้องถิ่น
 * เวลาการโหลดที่ดียิ่งขึ้นสำหรับรายงาน
 * อัปเดตชุดเนื้อหาองค์กรด้วยการเปลี่ยนแปลงรายงานเท่านั้น
-* สภาพสถานะ Power BI ในพอร์ทัลผู้ดูแลระบบของ Office 365
+* สถานะสุขภาพ power BI ในศูนย์การจัดการ Microsoft 365
 * KPI และรูปภาพในตาราง เมทริกซ์ และการ์ด
 
 สำหรับรายละเอียดทั้งหมด เยี่ยมชม[Power BI บล็อก](http://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b017ae02ee88df47e426466c212ed6d87a2f92a
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: d846a50ab87fe7d9f20034892e25dedde043f9ee
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580047"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430265"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI สำหรับลูกค้าส่วนราชการสหรัฐอเมริกา
 การ**บริการ Power BI**มีเวอร์ชันพร้อมใช้งานสำหรับลูกค้าส่วนราชการสหรัฐอเมริกา ซึ่งเป็นส่วนหนึ่งของการของการสมัครใช้งาน**ชุมชน Office 365 สำหรับส่วนราชการสหรัฐ** การ**บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้ถูกออกแบบมาโดยเฉพาะสำหรับลูกค้าส่วนราชการสหรัฐและแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI**
@@ -39,7 +39,7 @@ ms.locfileid: "57580047"
 * ข้อมูลทั้งหมดจะถูกเข้ารหัสลับในทั้ง Azure SQL และ Blob Storage สำหรับ Power BI
 * เชื่อมต่อกับบริการด้วย[ชุดเนื้อหา](service-connect-to-services.md)
 
-## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>เชื่อมต่อระหว่างส่วนราชการกับ Public Azure Cloud services 
+## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>การเชื่อมต่อระหว่างภาครัฐและบริการ Azure Cloud ระดับโลก 
 
 Azure จะถูกกระจายใน cloud หลายตัว ผู้เช่าสามารถตั้งกฎไฟรวอลล์สำหรับ cloud-specific instance ได้ แต่ระบบเครือ cross-cloud networking นั้นต่างออกไปและต้องเปิดกฎไฟร์วอลล์เฉพาะเพื่อสื่อสารระหว่าง service ถ้าคุณเป็นลูกค้า Power BI และคุณมีอินสแตนซ์ SQL ที่จำเป็นต้องเข้าในระบบคลาวด์สาธารณะ คุณต้องเปิดกฎไฟร์วอลล์ที่เฉพาะเจาะจงใน SQL เพื่่อเข้า Azure Government Cloud IP space ตามศูนย์ข้อมูลต่อไปนี้
 
@@ -93,7 +93,7 @@ Azure จะถูกกระจายใน cloud หลายตัว ผู
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
 
-**คำถาม:** บัญชีของฉันถูกเตรียมใช้งานในมากกว่าหนึ่ง sovereign cloud เมื่อใช้ **Power BI Desktop** ฉันจะเลือกคลาวด์ที่จะเชื่อมต่อได้อย่างไร
+**คำถาม:** บัญชีของฉันถูกเตรียมใช้งานในบริการคลาวด์แห่งชาติมากกว่าหนึ่งแห่ง เมื่อใช้ **Power BI Desktop** ฉันจะเลือกคลาวด์ที่จะเชื่อมต่อได้อย่างไร
 
 **คำตอบ:** เริ่มตั้งแต่การเผยแพร่เดือนกรกฎาคม 2018 ของ **Power BI Desktop** คุณสามารถเลือกระบบคลาวด์ที่คุณต้องการใช้เมื่อลงชื่อเข้าใช้ **Power BI Desktop** ได้
 
