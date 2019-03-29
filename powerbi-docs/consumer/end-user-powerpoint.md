@@ -11,18 +11,19 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 385a2cb41c0fa58ec3df4ea675a6f43a5b868935
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014311"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473809"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>ส่งออกรายงานจาก Power BI ไปยัง PowerPoint
 ด้วย Power BI คุณสามารถเผยแพร่รายงานของคุณไปยัง**Microsoft PowerPoint**และสร้างชุดสไลด์ที่ยึดตามรายงาน Power BI ของคุณอย่างง่ายดายได้ เมื่อคุณ**ส่งออกไปยัง PowerPoint** สิ่งต่อไปนี้เกิดขึ้น
 
 * แต่ละหน้าในรายงาน Power BI กลายเป็นแต่ละสไลด์ใน PowerPoint
-* แต่ละหน้าในรายงาน Power BI จะถูกส่งออกเป็นรูปภาพความละเอียดสูงหนึ่งรูปใน PowerPoint <!-- * The filters and slicers settings that you added to the report are preserved. -->
+* แต่ละหน้าในรายงาน Power BI จะถูกส่งออกเป็นรูปภาพความละเอียดสูงหนึ่งรูปใน PowerPoint
+<!-- * The filters and slicers settings that you added to the report are preserved. -->
 * ลิงก์ถูกสร้างขึ้นใน PowerPoint ที่เชื่อมโยงไปยังรายงาน Power BI 
 
 รับ**รายงาน Power BI**ของคุณ ที่ถูกส่งออกเป็น**PowerPoint**อย่างรวดเร็ว ทำตามขั้นตอนที่แสดงในส่วนถัดไป
@@ -91,6 +92,7 @@ ms.locfileid: "57014311"
 * ตามที่ระบุไว้ก่อนหน้านี้ แต่ละหน้ารายงานจะถูกส่งออกเป็นรูปภาพหนึ่งรูปในไฟล์ PowerPoint
 * Power BI service ใช้การตั้งค่าภาษาของ Power BI ของคุณเป็นภาษาสำหรับการส่งออกไปยัง PowerPoint เพื่อดูหรือตั้งค่าการกำหนดลักษณะภาษาของคุณ ให้เลือกไอคอนรูปเฟือง ![ไอคอนรูปเฟือง](media/end-user-powerpoint/power-bi-settings-icon.png) **การตั้งค่า > ทั่วไป > ภาษา**
 * เวลาการ**ดาวน์โหลดใน**สไลด์ปกของไฟล์ PowerPoint ที่ถูกส่งออก ถูกตั้งค่าเป็นโซนเวลาของคอมพิวเตอร์ของคุณในเวลาของการส่งออก
+* ตัวกรอง URL ไม่ได้ปฏิบัติตามในขณะนี้เมื่อเลือก "ค่าปัจจุบัน" สำหรับการส่งออกของคุณ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [พิมพ์หน้ารายงาน](end-user-print.md)

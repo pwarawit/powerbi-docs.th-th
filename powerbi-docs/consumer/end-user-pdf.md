@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c268bd370f32d2089b3b80c7cf4317df33e67280
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: e15cb6e09ff493512bb1b87939004c851b31fa10
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306492"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473740"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>ส่งออกรายงานจาก Power BI เป็น PDF
 ด้วย Power BI คุณสามารถเผยแพร่รายงานของคุณเป็นรูปแบบ PDF และสร้างเอกสารโดยตามยึดรายงาน Power BI ของคุณ เมื่อคุณ**ส่งออกเป็น PDF**แต่ละหน้าในรายงาน Power BI จะกลายเป็นหน้าใดหน้าหนึ่งในเอกสาร PDF ของคุณ
@@ -67,6 +67,8 @@ ms.locfileid: "58306492"
 * เมื่อทำการส่งออกเป็นไฟล์ PDF พร้อมด้วยรายงานที่มีรูปภาพเป็นพื้นหลัง คุณอาจจะเห็นรูปภาพผิดเพี้ยนไปจากเดิมหากคุณเลือกตัวเลือกให้รูปภาพเป็นขนาด "ปกติ" หรือ "เติม" กับหน้าพื้นหลัง  เพื่อให้งานออกมาดีที่สุด เราแนะนำให้คุณใช้ตัวเลือก "พอดี" เพื่อหลีกเลี่ยงปัญหาที่เกิดขณะทำการส่งออกงาน
 
 * บริการของ Power BI ใช้การตั้งค่าภาษาของ Power BI เป็นภาษาสำหรับการส่งออกเป็น PDF เพื่อดูหรือตั้งค่าการกำหนดลักษณะภาษาของคุณ ให้เลือกไอคอนรูปเฟือง **การตั้งค่า** > **ทั่วไป** > **ภาษา**
+
+* ตัวกรอง URL ไม่ได้ปฏิบัติตามในขณะนี้เมื่อเลือก "ค่าปัจจุบัน" สำหรับการส่งออกของคุณ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [พิมพ์หน้ารายงาน](end-user-print.md)

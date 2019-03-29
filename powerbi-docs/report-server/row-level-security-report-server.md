@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226215"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489579"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>การรักษาความปลอดภัยระดับแถว (RLS) ในเซิร์ฟเวอร์รายงาน Power BI
 
@@ -28,11 +28,11 @@ ms.locfileid: "57226215"
 
 ตามค่าเริ่มต้น การกรอง row-level security จะใช้ตัวกรองทิศทางเดียว โดยไม่คำนึงว่าการตั้งค่าความสัมพันธ์เป็นแบบทิศทางเดียวหรือสองทิศทาง คุณสามารถเปิดใช้งานการกรองแบบข้ามสองทิศทาง ด้วยความปลอดภัยระดับแถวด้วยตนเองได้
 
-- เลือกความสัมพันธ์ และทำเครื่องหมายบนกล่องกาเครื่องหมาย  **ใช้ตัวกรองความปลอดภัยในทั้งสองทิศทาง**  
+- เลือกความสัมพันธ์ และทำเครื่องหมายบนกล่องกาเครื่องหมาย **ใช้ตัวกรองความปลอดภัยในทั้งสองทิศทาง** 
 
     ![ใช้ตัวกรองความปลอดภัย](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-ทำเครื่องหมายที่ช่องนี้เมื่อใช้งาน [การรักษาความปลอดภัยระดับแถวแบบไดนามิก](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)ตามชื่อผู้ใช้หรือรหัสล็อกอิน 
+ทำเครื่องหมายที่ช่องนี้เมื่อใช้งาน[การรักษาความปลอดภัยระดับแถวแบบไดนามิก](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters)ตามชื่อผู้ใช้หรือรหัสล็อกอิน 
 
 เพื่อเรียนรู้เพิ่มเติม ดูที่[ตัวกรองไขว้แบบสองทิศทางที่ใช้ DirectQuery ใน Power BI Desktop](../desktop-bidirectional-filtering.md)และบทความเชิงเทคนิคของ[การรักษาความปลอดภัยแบบลำจองภาษา BI แบบตาราง](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)
 
@@ -85,7 +85,7 @@ ms.locfileid: "57226215"
 
 ผู้ใช้ที่มีรายงานโดยใช้ชื่อผู้ใช้ () ฟังก์ชั่น DAX จะสังเกตเห็นพฤติกรรมใหม่ในขณะนี้ซึ่งชื่อผู้ใช้หลัก (UPN) จะถูกส่งคืนยกเว้นเมื่อใช้ DirectQuery กับการรักษาความปลอดภัยแบบรวม  เนื่องจาก RLS ไม่ได้ปฏิบัติตามในสถานการณ์นั้น ลักษณะการทำงานในสถานการณ์นั้นจะไม่เปลี่ยนแปลง
 
-คุณสามารถกำหนด RLS บนชุดข้อมูลที่สร้างขึ้นด้วย Power BI Desktop เท่านั้น เพื่อเปิดใช้งาน RLS สำหรับชุดข้อมูลที่สร้างขึ้นโดยใช้ Excel คุณจะต้องแปลงไฟล์ของคุณให้เป็นไฟล์ Power BI Desktop (PBIX) ก่อน เรียนรู้เพิ่มเติมเกี่ยวกับ[การแปลงแฟ้ม Excel](../desktop-import-excel-workbooks.md)
+คุณสามารถกำหนด RLS บนชุดข้อมูลที่สร้างขึ้นด้วย Power BI Desktop เท่านั้น เพื่อเปิดใช้งาน RLS สำหรับชุดข้อมูลที่สร้างขึ้นโดยใช้ Excel คุณจะต้องแปลงไฟล์ของคุณให้เป็นไฟล์ Power BI Desktop (PBIX) ก่อน เรียนรู้เพิ่มเติมเกี่ยวกับ[การแปลงแฟ้ม Excel](../desktop-import-excel-workbooks.md)
 
 เฉพาะการสกัด แปลง และโหลดข้อมูล (ETL) และการเชื่อมต่อ DirectQuery โดยใช้ข้อมูลประจำตัวจะได้รับการสนับสนุน การเชื่อมต่อแบบสดไปยังบริการการวิเคราะห์และการเชื่อมต่อ DirectQuery โดยใช้การรับรองความถูกต้องแบบรวมถูกจัดการในแหล่งข้อมูลพื้นฐาน 
 

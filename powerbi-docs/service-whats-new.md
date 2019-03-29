@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: b65acda3ceb8d375cb34393828b74e191b2e5504
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383726"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489602"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
@@ -32,12 +32,21 @@ ms.locfileid: "58383726"
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 
-## <a name="february-2019"></a>กุมภาพันธ์ 2562
-* ปริมาณงานและชุดข้อมูลที่ใช้งานอยู่ขนาดเมตริกใน[แอปควบคุมปริมาตรความจุ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)
-* ส่งออกเป็น PDF และอีเมลตามความต้องการ(service-report-subscribe.md)
-* การดำเนินการจำนวนมากในพอร์ทัลผู้ดูแลระบบ
+## <a name="march-2019"></a>มีนาคม 2019
+* ความพร้อมใช้งานทั่วไปของ Multi-Geo สำหรับ Power BI Premium
+* การแก้ไขและจัดการการสนับสนุนเนื้อหา Power BI สำหรับ Azure B2B
 
 ## <a name="previous-months-2019"></a>เดือนก่อนหน้านี้(2019)
+### <a name="february-2019"></a>กุมภาพันธ์ 2562
+* ปริมาณงานและชุดข้อมูลที่ใช้งานอยู่ขนาดเมตริกใน[แอปควบคุมปริมาตรความจุ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)
+* ส่งออกเป็น PDF สำหรับรายงาน Power BI
+* [การสมัครสมาชิกผ่านอีเมลแบบตามความต้องการ](service-report-subscribe.md)
+* การดำเนินการจำนวนมากในพอร์ทัลผู้ดูแลระบบ
+* การส่งออกที่กรองแล้วสำหรับ PPT และ PDF
+* [การตั้งค่าการสนับสนุนและความช่วยเหลือ](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/) ในพอร์ทัลผู้ดูแลระบบ
+* ประสบการณ์การติดตามการใช้งานข้อมูลสำหรับ[กระแสข้อมูล](service-dataflows-overview.md)
+* การตั้งค่าการแสดงผลด้วยภาพแบบกำหนดเองที่ได้รับการรับรองใหม่ในพอร์ทัลผู้ดูแลระบบ
+
 ### <a name="january-2019"></a>มกราคม 2019
 * [ฝังรายงาน secure Power BI](service-embed-secure.md)ในพอร์ทัลภายในหรือเว็บไซต์
 * การอัปเดตใน[ตัวแก้ไขdataflows](service-dataflows-overview.md)ด้วยตัวเชื่อมต่อใหม่ และการสนับสนุนสำหรับคำถาม SQL ดั้งเดิมและแปลง Power Query ออนไลน์
