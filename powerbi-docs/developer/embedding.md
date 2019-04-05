@@ -1,6 +1,6 @@
 ---
 title: การวิเคราะห์แบบฝังตัวด้วย Power BI
-description: Power BI มี API เพื่อใช้การวิเคราะห์แบบฝังตัวสำหรับแดชบอร์ดและรายงานในแอปพลิเคชัน เรียนรู้เพิ่มเติมเกี่ยวกับการฝังด้วย Power BI ทั้งในการ PaaS enviornment และ SaaS environment โดยใช้ซอฟต์แวร์การวิเคราะห์แบบฝังตัว เครื่องมือการวิเคราะห์แบบฝังตัว หรือเครื่องมือข่าวกรองธุรกิจอัจฉริยะแบบฝังตัว
+description: Power BI มี API เพื่อใช้การวิเคราะห์แบบฝังตัวสำหรับแดชบอร์ดและรายงานในแอปพลิเคชัน เรียนรู้เพิ่มเติมเกี่ยวกับการฝังด้วย Power BI ทั้งในสภาพแวดล้อม PaaS และสภาพแวดล้อม SaaS โดยใช้ซอฟต์แวร์การวิเคราะห์แบบฝังตัว เครื่องมือการวิเคราะห์แบบฝังตัว หรือเครื่องมือข่าวกรองธุรกิจอัจฉริยะแบบฝังตัว
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -8,14 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
+helpviewer_keywords:
+- embedded analytics
+- embedding
+- Power BI embedding
+- app owns data
+- user owns data
+- Power BI APIs
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: ca159fb8cea26f4c707aabc99d9fa2c308a32e1a
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 0a4b43bd02697472a0bbdf16171ba655fc014dbc
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762455"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872719"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>การวิเคราะห์แบบฝังตัวด้วย Power BI
 
@@ -42,7 +49,7 @@ ms.locfileid: "55762455"
 
 **การฝังตัวสำหรับองค์กรของคุณ** ให้คุณสามารถขยายบริการของ Power BI การฝังสำหรับองค์กรของคุณจำเป็นต้องให้ผู้ใช้แอปพลิเคชันของคุณลงชื่อเข้าใช้บริการของ Power BI เมื่อพวกเขาต้องการดูเนื้อหาของพวกเขา เมื่อบุคคลใดบุคคลหนึ่งในองค์กรลงชื่อเข้าใช้ พวกเขาสามารถเข้าถึงแดชบอร์ดและรายงานที่พวกเขาเป็นเจ้าของ หรือที่แชร์กับบุคคลเหล่านั้นในบริการ Power BI เท่านั้น
 
-*ตัวอย่างการฝังสำหรับองค์กรของคุณรวมถึงแอปพลิเคชันภายใน เช่น [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [การทำงานรวมกับ Microsoft Teams (คุณต้องมีสิทธิ์ผู้ดูแลระบบ) ](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)และ [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)*
+*ตัวอย่างการฝังสำหรับองค์กรของคุณรวมถึงแอปพลิเคชันภายใน เช่น [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) [การทำงานรวมกับ Microsoft Teams (คุณต้องมีสิทธิ์ผู้ดูแลระบบ)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) และ [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)*
 
 สำหรับการฝังให้กับองค์กรของคุณ โปรดดูข้อมูลด้านล่างนี้:
 
@@ -85,9 +92,9 @@ Power BI Embedded มีประโยชน์สำหรับ ISV นัก
 > [ฝังตัวสำหรับองค์กรของคุณ](embed-sample-for-your-organization.md)
 
 > [!div class="nextstepaction"]
-> [Power BI Embedded คืออะไร](azure-pbie-what-is-power-bi-embedded.md)
+> [Power BI Embedded คืออะไร?](azure-pbie-what-is-power-bi-embedded.md)
 
 > [!div class="nextstepaction"]
->[ฝังสำหรับลูกค้าของคุณ](embed-sample-for-customers.md)
+>[ฝังตัวสำหรับลูกค้าของคุณ](embed-sample-for-customers.md)
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)

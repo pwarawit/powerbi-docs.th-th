@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 02/05/2019
-ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.date: 03/29/2019
+ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014426"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872558"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>บริการหลักพร้อมด้วย Power BI (ตัวอย่าง)
 
@@ -111,13 +111,15 @@ ms.locfileid: "57014426"
 3. ในฐานะผู้ดูแลระบบ Power BI คุณจำเป็นต้องเปิดใช้งานบริการหลักใน**การตั้งค่านักพัฒนา**ในพอร์ทัลผู้ดูแลระบบ Power BI เพิ่มกลุ่มความปลอดภัยที่คุณสร้างใน Azure AD สำหรับส่วน**กลุ่มความปลอดภัยเฉพาะ**ใน**การตั้งค่านักพัฒนา**
 
    > [!Important]
-   > บริการหลักได้รับสิทธิ์สำหรับการตั้งค่าผู้เช่า Power BI ทั้งหมดจากกลุ่มความปลอดภัยของพวกเขา เมื่อต้องการจำกัดสิทธิ์ ให้สร้างกลุ่มความปลอดภัยเฉพาะสำหรับบริการหลัก และเพิ่มลงในรายการ 'ยกเว้นกลุ่มความปลอดภัยเฉพาะ' สำหรับการตั้งค่า Power BI ที่เกี่ยวข้องที่เปิดใช้งาน
+   > โครงร่างสำคัญของบริการสามารถเข้าถึงการตั้งค่าผู้เช่าที่เปิดใช้งานสำหรับทั้งองค์กร หรือเปิดใช้งานสำหรับกลุ่มความปลอดภัยที่มีโครงร่างสำคัญของบริการเป็นส่วนหนึ่งของกลุ่ม เมื่อต้องจำกัดการเข้าถึงโครงร่างสำคัญของบริการไปยังการตั้งค่าผู้เช่าเฉพาะ อนุญาตให้เข้าถึงกลุ่มความปลอดภัยเฉพาะเท่านั้น หรือสร้างกลุ่มความปลอดภัยเฉพาะสำหรับโครงร่างสำคัญของบริการและแยกมันออก
 
     ![พอร์ทัลผู้ดูแลระบบ](media/embed-service-principal/admin-portal.png)
 
 4. ตั้งค่า[สภาพแวดล้อม Power BI](embed-sample-for-customers.md#set-up-your-power-bi-environment)ุ ของคุณ
 
 5. เพิ่มบริการหลักเป็น**ผู้ดูแลระบบ**ในพื้นที่ทำงานใหม่ที่คุณสร้างขึ้น คุณสามารถจัดการงานนี้ผ่าน[API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)หรือด้วยบริการของ Power BI ได้
+
+    ![เพิ่มโครงร่างสำคัญของบริการไปยังพื้นที่ทำงาน](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. ในตอนนี้ เลือกเพื่อฝังเนื้อหาของคุณภายในแอปพลิเคชันตัวอย่าง หรือภายในแอปพลิเคชันของคุณเอง
 
@@ -171,9 +173,10 @@ ms.locfileid: "57014426"
 * คุณไม่สามารถติดตั้ง หรือจัดการเกตเวย์ข้อมูลภายในองค์กรโดยใช้บริการหลัก
 * แอปพลิเคชัน[แบบฝังตัวสำหรับองค์กรของคุณ](embed-sample-for-your-organization.md)ไม่สามารถใช้บริการหลักได้
 * [Dataflows](../service-dataflows-overview.md) การจัดการไม่ได้รับการสนับสนุน
+* โครงร่างสำคัญของบริการไม่สนับสนุนผู้ดูแลระบบ APIs
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 * [ลงทะเบียนแอป](register-app.md)
 * [Power BI Embedded สำหรับลูกค้าของคุณ](embed-sample-for-customers.md)
-* [แอปพลิเคชันและออบเจ็กต์บริการหลักใน Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+* [แอปพลิเคชันและออบเจ็กต์โครงร่างสำคัญของบริการใน Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
