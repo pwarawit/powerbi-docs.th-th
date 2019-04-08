@@ -596,11 +596,11 @@ items:
         href: service-insights-optimize.md
     - name: ทำงานร่วมกันใน Power BI
       items:
+      - name: สร้างพื้นที่ทำงานใหม่
+        href: service-create-the-new-workspaces.md
       - name: สร้างพื้นที่ทำงานของแอป
         href: service-create-workspaces.md
-      - name: สร้างพื้นที่ทำงานใหม่ (แสดงตัวอย่าง)
-        href: service-create-the-new-workspaces.md
-      - name: สร้างและแชร์แอป
+      - name: เผยแพร่แอปจากพื้นที่ทำงาน
         href: service-create-distribute-apps.md
       - name: จัดการที่เก็บข้อมูลในพื้นที่ทำงาน
         href: service-admin-manage-your-data-storage-in-power-bi.md
@@ -882,18 +882,6 @@ items:
         href: developer/embedding.md
       - name: Power BI อะไรที่ถูกฝังอยู่ใน Azure
         href: developer/azure-pbie-what-is-power-bi-embedded.md
-    - name: การเริ่มต้นใช้งานด่วน
-      items:
-      - name: จัดการกำลังการผลิตใน Azure
-        items:
-        - name: สร้างกำลังการผลิตใน Azure
-          href: developer/azure-pbie-create-capacity.md
-        - name: สร้างกำลังการผลิตโดยใช้ Multi-Geo ใน Azure
-          href: developer/embedded-multi-geo.md
-        - name: ปรับมาตราส่วนกำลังการผลิตใน Azure
-          href: developer/azure-pbie-scale-capacity.md
-        - name: หยุดชั่วคราวและเริ่มกำลังการผลิตใน Azure
-          href: developer/azure-pbie-pause-start.md
     - name: บทช่วยสอน
       items:
       - name: ฝังเนื้อหาสำหรับลูกค้า
@@ -930,6 +918,8 @@ items:
         href: developer/get-azuread-access-token.md
       - name: ถามตอบเกี่ยวกับการฝัง
         href: developer/qanda.md
+      - name: แก้ไขปัญหาแอปพลิเคชันแบบฝังตัวของคุณ
+        href: developer/embedded-troubleshoot.md
       - name: จัดการกำลังการผลิตใน Azure
         items:
         - name: สร้างกำลังการผลิตใน Azure
@@ -940,8 +930,6 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: หยุดชั่วคราวและเริ่มกำลังการผลิตใน Azure
           href: developer/azure-pbie-pause-start.md
-        - name: แก้ไขปัญหาแอปพลิเคชันแบบฝังตัวของคุณ
-          href: developer/embedded-troubleshoot.md
       - name: ย้ายจากคอลเลกชันพื้นที่ทำงาน
         items:
         - name: วิธีการโยกย้ายจากคอลเลกชันพื้นที่ทำงานของ BI Power
@@ -1048,8 +1036,6 @@ items:
       items:
       - name: ส่งข้อมูลลงในชุดข้อมูล
         href: developer/walkthrough-push-data.md
-      - name: ลงทะเบียนแอปด้วย Azure AD
-        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
       - name: รับโทเค็นการเข้าใช้การรับรองความถูกต้อง
         href: developer/walkthrough-push-data-get-token.md
       - name: สร้างชุดข้อมูล
@@ -1345,9 +1331,9 @@ items:
       href: service-admin-governance.md
     - name: ความปลอดภัยของ Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 9790d4bc855411ed54ce12123d03f5ef731d4689
-ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
+ms.openlocfilehash: a804129b06b4eb92e67ae18251cbb9f950fe1beb
+ms.sourcegitcommit: ce59fa2b49658d67a2cbc77f81c53a8266a34e36
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "58914224"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "59053449"
