@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 7f919234f7635c76ce50d0bfffa393498f141da8
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 340b4d26b8beed4dfda5f7af4dc949088f3857ae
+ms.sourcegitcommit: d2805894fd372c35e11d519f724de2be98407fda
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324403"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "59070033"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>สร้างแหล่งข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
 
@@ -22,7 +22,8 @@ ms.locfileid: "56324403"
 
 - ฐานข้อมูล Azure SQL และคลังข้อมูล
 - SQL Server
-- SQL Server Analysis Services 
+- SQL Server Analysis Services
+- Azure Analysis Services
 
 รายงานแบบแบ่งหน้าจะเชื่อมต่อกับแหล่งข้อมูลในองค์กรโดยใช้เกตเวย์ คุณสามารถตั้งค่าเกตเวย์ได้หลังจากที่เผยแพร่รายงานไปยังบริการของ Power BI แล้ว เรียนรู้เพิ่มเติมเกี่ยวกับ [เกตเวย์ของ Power BI](service-gateway-getting-started.md) 
 
@@ -61,4 +62,4 @@ ms.locfileid: "56324403"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [สร้างชุดข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI](paginated-reports-create-embedded-dataset.md)
-- [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร (ตัวอย่าง)](paginated-reports-report-builder-power-bi.md)
+- [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร (แสดงตัวอย่าง)](paginated-reports-report-builder-power-bi.md)
