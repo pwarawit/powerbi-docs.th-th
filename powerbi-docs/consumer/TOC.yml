@@ -61,6 +61,8 @@ items:
         href: ../power-bi-visualizations-arcgis.md
     - name: งานทั่วไป
       items:
+      - name: ส่งออกข้อมูลไปยัง Excel
+        href: end-user-export.md
       - name: ค้นหาเจ้าของเนื้อหาและวันที่รีเฟรช่ล่าสุด
         href: end-user-fresh.md
       - name: วิธีต่างๆ ในการซูมเข้าสู่เนื้อหาโดยใช้โหมดโฟกัสและโหมดเต็มหน้าจอ
@@ -137,6 +139,8 @@ items:
         href: mobile/mobile-tiles-in-the-mobile-apps.md
       - name: รายการโปรดในแอปสำหรับอุปกรณ์เคลื่อนที่
         href: mobile/mobile-apps-favorites.md
+      - name: กำหนดค่าการโต้ตอบรายงานในแอปสำหรับอุปกรณ์เคลื่อนที่ (โทรศัพท์เท่านั้น)
+        href: mobile/mobile-app-single-tap.md
       - name: ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
         href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
       - name: รับการแจ้งเตือนในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
@@ -175,6 +179,8 @@ items:
         href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
       - name: ดูรายงานที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ
         href: mobile/mobile-apps-view-phone-report.md
+      - name: เข้าถึงเนื้อหาจากองค์กรภายนอก
+        href: mobile/mobile-apps-b2b.md
       - name: สแกนคิวอาร์โค้ด Power BI จากโทรศัพท์ของคุณ
         href: mobile/mobile-apps-qr-code.md
       - name: ใส่คำอธิบายประกอบ และแชร์ในแอปสำหรับอุปกรณ์เคลื่อนที่
@@ -195,9 +201,9 @@ items:
     items:
     - name: ภาษาที่สนับสนุนในแอปสำหรับอุปกรณ์เคลื่อนที่
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: e32baf6ff64b485b1be29dea76bcbe864d2cdc59
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 6f9f080de3711a6a1a28f49da0298a67932d87e5
+ms.sourcegitcommit: c0add3d749f7e714e23824a742e105e694e4c129
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248987"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59430293"
