@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/07/2019
+ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: 5af870bfd3cb6f9c925dd3d6268d0a1cb54df09b
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: c0cc6b19e69ebe6400d25b77c15cf577d765c415
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580024"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "65201189"
 ---
 # <a name="whitepapers-for-power-bi"></a>เอกสารทางเทคนิคสำหรับ Power BI
 
@@ -24,12 +24,12 @@ ms.locfileid: "57580024"
 | --- | --- | --- |
 | [Power BI และกระแสข้อมูล](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| เอกสารสรุปนี้อธิบายถึงกระแสข้อมูลในรายละเอียดทางเทคนิค และอธิบายถึงความสามารถและความคิดริเริ่มที่อยู่เบื้องหลังฟีเจอร์และฟังก์ชันของกระแสข้อมูล | พฤศจิกายน 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |อธิบาย Power BI Premium ทั้งตามที่มีอยู่เมื่อเปิดใช้งาน และพัฒนาการของ Power BI Premium | ตุลาคม 2017 |
-| [การใช้งานและการวางแผน Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| เอกสารนี้มีคำแนะนำและแนวทางปฏิบัติที่ดีที่สุดสำหรับการวางแผนและการใช้งานความจุพรีเมียมสำหรับปริมาณงานที่กำหนดไว้อย่างดี| พฤศจิกายน 2017 |
+| [การใช้งานและการวางแผน Power BI Premium](whitepaper-powerbi-premium-deployment.md)| เอกสารนี้มีคำแนะนำและแนวทางปฏิบัติที่ดีที่สุดสำหรับการวางแผนและการใช้งานความจุพรีเมียมสำหรับปริมาณงานที่กำหนดไว้อย่างดี| มีนาคม 2019 |
 | [วางแผนความจุสำหรับการวิเคราะห์แบบฝังตัวด้วย Power BI Premium](https://aka.ms/pbiewhitepaper) |เอกสารนี้ให้คำแนะนำสำหรับนักพัฒนาแอป/ISV เพื่อใช้ในการกำหนดความจุที่เหมาะสมที่สุดสำหรับธุรกิจ | ตุลาคม 2017 |
 | [วางแผนการใช้งาน Power BI Enterprise](https://go.microsoft.com/fwlink/?linkid=2057861) |เอกสารทางเทคนิคนี้สรุปข้อควรพิจารณาสำหรับการใช้งาน Power BI ในระดับองค์กรอย่างปลอดภัยและมีประสิทธิภาพ | กรกฎาคม 2018 |
 | [คำแนะนำในการวางแผนความจุสำหรับเซิร์ฟเวอร์รายงาน Power BI](report-server/capacity-planning.md) |เอกสารนี้มีวัตถุประสงค์เพื่อเสนอคำแนะนำเกี่ยวกับการวางแผนความจุสำหรับเซิร์ฟเวอร์รายงาน Power BI โดยแบ่งปันผลลัพธ์การดำเนินการทดสอบการโหลดจำนวนมากของปริมาณงานต่าง ๆ กับเซิร์ฟเวอร์รายงาน | มีนาคม 2018 |
 | [การรักษาความปลอดภัย](service-admin-power-bi-security.md) |แสดงคำอธิบายโดยละเอียดของการรักษาความปลอดภัยภายใน Power BI | มีนาคม 2019 |
-| [กระจายเนื้อหา Power BI ไปยังผู้ใช้ที่เป็นผู้เยี่ยมชมจากภายนอกโดยใช้ Azure Active Directory B2](whitepaper-azure-b2b-power-bi.md)|เอกสารนี้สรุปวิธีการกระจายเนื้อหาไปยังผู้ใช้ภายนอกองค์กรโดยใช้การรวมกันของ Azure Active Directory Business-to-business (AAD B2B)| มีนาคม 2018 |
+| [กระจายเนื้อหา Power BI ไปยังผู้ใช้ที่เป็นผู้เยี่ยมชมจากภายนอกโดยใช้ Azure Active Directory B2](whitepaper-azure-b2b-power-bi.md)|เอกสารนี้สรุปวิธีการกระจายเนื้อหาไปยังผู้ใช้ภายนอกองค์กรโดยใช้การรวมกันของ Azure Active Directory Business-to-business (AAD B2B)| มีนาคม 2019 |
 | [การวิเคราะห์ขั้นสูงด้วย Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |อธิบายความสามารถในการวิเคราะห์ขั้นสูงของ Power BI รวมถึงการวิเคราะห์เชิงทำนาย การแสดงวิชวลแบบกำหนดเอง R integration และนิพจน์การวิเคราะห์ข้อมูล | กุมภาพันธ์ 2017 |
 | [แนวทางการออกแบบที่ดีที่สุดสำหรับรายงานและวิชวล](visuals/power-bi-visualization-best-practices.md) |มอบแนวทางปฏิบัติที่ดีที่สุดสำหรับการออกแบบรายงานใน Power BI | มิถุนายน 2018 |
 | [การกรองแบบสองทิศทาง](desktop-bidirectional-filtering.md) |อธิบายการกรองไขว้แบบสองทิศทางใน Power BI Desktop (เอกสารทางเทคนิคครอบคลุมถึง SQL Server Analysis Services 2016 ทั้งสองมีลักษณะการทำงานแบบเดียวกัน) | กรกฎาคม 2018 |
