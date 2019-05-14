@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: 3c9fd8877347ad0eebf7db059cc791583c89f353
+ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306515"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "65533702"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>ใช้ Assertion Markup Language (SAML) สำหรับการลงชื่อเข้าระบบครั้งเดียว (SSO) จาก Power BI กับแหล่งข้อมูลภายในองค์กร
 
@@ -75,7 +75,7 @@ openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_
 
     ![กำหนดค่า SAML](media/service-gateway-sso-saml/configure-saml.png)
 
-1. เลือกตัวให้บริการข้อมูลประจำตัวที่คุณสร้างในขั้นตอนที่ 2 สำหรับ **ข้อมูลประจำตัวภายนอก** ให้ป้อน UPN ของผู้ใช้ Power BI แล้วเลือก **เพิ่ม**
+1. เลือกตัวให้บริการข้อมูลประจำตัวที่คุณสร้างในขั้นตอนที่ 2 สำหรับ**ข้อมูลประจำตัวภายนอก**ใส่ UPN ของผู้ใช้ Power BI (โดยทั่วไปแล้วอยู่อีเมลผู้ใช้เข้าสู่ใน Power BI), จาก นั้นเลือก**เพิ่ม** โปรดทราบว่า ถ้าคุณได้กำหนดค่าเกตเวย์ของคุณใช้ตัวเลือกการกำหนดค่า ADUserNameReplacementProperty คุณควรใส่ค่าที่จะแทนของผู้ใช้ Power BI UPN ต้นฉบับ ตัวอย่าง ถ้าคุณตั้งค่าการ ADUserNameReplacementProperty SAMAccountName คุณควรใส่ SAMAccountName ของผู้ใช้
 
     ![เลือกตัวให้บริการข้อมูลประจำตัว](media/service-gateway-sso-saml/select-identity-provider.png)
 
