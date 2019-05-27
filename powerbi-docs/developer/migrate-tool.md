@@ -1,20 +1,20 @@
 ---
 title: เครื่องมือการย้าย Power BI แบบฝัง
 description: เครื่องมือการย้ายนี้สามารถใช้เพื่อคัดลอกรายงานของคุณจากบริการ Azure แบบฝังของ Power BI (PaaS) ไปยังบริการ Power BI (SaaS)
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216389"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61272243"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>เครื่องมือการย้าย Power BI แบบฝัง
 
@@ -272,7 +272,7 @@ ms.locfileid: "56216389"
 
 [การฝังด้วย Power BI](embedding.md)  
 [วิธีการย้ายเนื้อหาคอลเลกชันพื้นที่ทำงานแบบฝัง Power BI ไปยัง Power BI](migrate-from-powerbi-embedded.md)  
-[Power BI Premium คืออะไร](../service-premium.md)  
+[Power BI Premium คืออะไร](../service-premium-what-is.md)  
 [พื้นที่เก็บข้อมูลของ JavaScript API Git](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git repo](https://github.com/Microsoft/PowerBI-CSharp)  
 [ตัวอย่างการฝัง JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

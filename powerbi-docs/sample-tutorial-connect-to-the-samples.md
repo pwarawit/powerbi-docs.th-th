@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 63924dd4769b4ce452d2d8de4252228bb6d37d37
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
+ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275559"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65625076"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>เชื่อมต่อกับตัวอย่างบริการ Power BI
 
@@ -78,7 +78,7 @@ ms.locfileid: "54275559"
     ![หน้ารายงานพร้อมภาพที่เข้ากันถูกไฮไลต์แล้ว](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > ถ้าไทล์ถูกสร้างด้วย[Power BI Q&A](consumer/end-user-q-and-a.md) หน้าถามตอบจะเปิดขึ้นแทน ถ้าไทล์เป็นการ[ปักหมุดจาก Excel](service-dashboard-pin-tile-from-excel.md) จะเปิด Excel Online ขึ้นภายใน Power BI
+   > ถ้าไทล์ถูกสร้างด้วย[Power BI Q&A](power-bi-tutorial-q-and-a.md) หน้าถามตอบจะเปิดขึ้นแทน ถ้าไทล์เป็นการ[ปักหมุดจาก Excel](service-dashboard-pin-tile-from-excel.md) จะเปิด Excel Online ขึ้นภายใน Power BI
    > 
    > 
 1. กลับไปที่แท็บ**ชุดข้อมูล**ของคุณ คุณมีหลายตัวเลือกในการสำรวจชุดข้อมูลของคุณ  คุณจะไม่สามารถเปิดมัน และดูแถวและคอลัมน์ที่มีอยู่ทั้งหมด (เหมือนที่คุณทำได้ใน Power BI Desktop หรือ Excel)  เมื่อมีบางคนแชร์ชุดเนื้อหากับเพื่อนร่วมงาน พวกเขามักต้องการแชร์ข้อมูลเชิงลึก ไม่ได้ให้เพื่อนร่วมงานของพวกเขาเข้าถึงข้อมูลโดยตรง แต่นั่นไม่ได้หมายความว่า คุณไม่สามารถสำรวจชุดข้อมูล  
@@ -129,11 +129,9 @@ ms.locfileid: "54275559"
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[แนวคิดพื้นฐานของ power BI](consumer/end-user-basic-concepts.md)
 
-[ตัวอย่างสำหรับบริการ Power BI](sample-datasets.md)
-
-[แหล่งข้อมูลสำหรับ Power BI](service-get-data.md)
+- [แนวคิดพื้นฐานของ power BI](consumer/end-user-basic-concepts.md)
+- [ตัวอย่างสำหรับบริการ Power BI](sample-datasets.md)
+- [แหล่งข้อมูลสำหรับ Power BI](service-get-data.md)
 
 คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
-

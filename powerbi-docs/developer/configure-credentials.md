@@ -1,20 +1,20 @@
 ---
 title: กำหนดค่าข้อมูลประจำตัวทางโปรแกรมสำหรับ Power BI
 description: วิธีการกำหนดค่าข้อมูลประจำตัวทางโปรแกรมสำหรับ Power BI สำหรับระบบอัตโนมัติ
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/25/2019
-ms.openlocfilehash: 2b4e2f5a4e95b412459dd8fe8d497966e541b389
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: f93119a621330d673fd2cf6035e0416646bd5e6a
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56893134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61380199"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>กำหนดค่าข้อมูลประจำตัวทางโปรแกรมสำหรับ Power BI
 
@@ -54,7 +54,7 @@ ms.locfileid: "56893134"
 
 ### <a name="expired-on-premises-data-source-credentials-flow"></a>โฟลว์ข้อมูลประจำตัวของแหล่งข้อมูลภายในองค์กรหมดอายุแล้ว
 
-1. [ทำตามขั้นตอนที่ 1 และ 2 จากสถานการณ์สมมติก่อนหน้า](#configure-credential-flow-for-data-sources)
+1. [ทำตามขั้นตอนที่ 1 และ 2 จากสถานการณ์สมมติก่อนหน้า](#configure-a-credential-flow-for-data-sources)
 
 2. เรียกใช้ฟังก์ชัน [รับเกตเวย์](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways)เพื่อเรียกใช้คีย์สาธารณะของเกตเวย์
 

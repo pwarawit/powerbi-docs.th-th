@@ -1,7 +1,7 @@
 ---
 title: ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรงในตัวสร้างรายงาน (ดูตัวอย่าง)
 description: ในบทความน ี้คุณจะเห็นว่าคุณสามารถป้อนข้อมูลลงในรายงานแบบแบ่งหน้าในตัวสร้างรายงานโดยตรงได้อย่างไร
-author: markingmyname
+author: maggiesMSFT
 ms.author: maggies
 manager: kfile
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
-ms.openlocfilehash: 27f8434b336c2d1281fb087d4e9acf83958f7329
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61424547"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรงในตัวสร้างรายงาน (ดูตัวอย่าง) - Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "56325001"
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
 - หากต้องการป้อนข้อมูลโดยตรงในรายงานแบบแบ่งหน้า ให้ติดตั้ง [ตัวสร้างรายงานจาก Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53613) เวอร์ชันใหม่ 
-- หากต้องการบันทึกรายงานแบบแบ่งหน้าของคุณไปยังบริการ Power BI คุณต้องใช้ [บัญชี Power BI Pro](service-self-service-signup-for-power-bi.md) และเขียนการเข้าถึงพื้นที่ทำงานใน [ความจุ Power BI Premium](service-premium.md)
+- หากต้องการบันทึกรายงานแบบแบ่งหน้าของคุณไปยังบริการ Power BI คุณต้องใช้ [บัญชี Power BI Pro](service-self-service-signup-for-power-bi.md) และเขียนการเข้าถึงพื้นที่ทำงานใน [ความจุ Power BI Premium](service-premium-what-is.md)
 - หากต้องการบันทึกรายงานแบบแบ่งหน้าของคุณไปยังเซิร์ฟเวอร์รายงาน คุณต้องมีสิทธิ์เพื่อ[แก้ไขไฟล์ RsReportServer.config](#upload-the-paginated-report-to-a-report-server)
 
 ## <a name="get-started"></a>เริ่มใช้งาน

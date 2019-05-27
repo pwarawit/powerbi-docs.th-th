@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 840a4026fcc4843dd4f30424afe95b035fecadc9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3bf974176c7638aa2f1093535e8027ad511deabb
+ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281148"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65454224"
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>นำเข้า และแสดง KPI ใน Power BI
 ด้วย **Power BI Desktop** คุณสามารถนำเข้าและแสดง KPI ในตาราง, เมทริกซ์ และการ์ดได้

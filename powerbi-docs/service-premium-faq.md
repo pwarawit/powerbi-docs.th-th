@@ -1,8 +1,8 @@
 ---
 title: คำถามที่ถามบ่อยสำหรับ Power BI Premium
 description: เรียกดูรายการคำถามที่ถามบ่อยพร้อมคำตอบเกี่ยวกับข้อเสนอของ Power BI Premium
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
+ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383348"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65565383"
 ---
 # <a name="power-bi-premium-faq"></a>คำถามที่ถามบ่อยสำหรับ Power BI Premium
 
-บทความนี้ตอบคำถามที่ถามบ่อยสำหรับ Power BI Premium สำหรับภาพรวม โปรดดู [Power BI Premium คืออะไร?](service-premium.md)
+บทความนี้ตอบคำถามที่ถามบ่อยสำหรับ Power BI Premium สำหรับภาพรวม โปรดดู [Power BI Premium คืออะไร?](service-premium-what-is.md)
 
 * ถ้าคุณมีคำถามอื่น [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 * ยังคงมีปัญหาใช่หรือไม่? โปรดเยี่ยมชม[หน้าการสนับสนุน Power BI](https://powerbi.microsoft.com/support/)
@@ -84,7 +84,7 @@ Power BI Premium พร้อมใช้งานเป็นแบบเพิ
 
 **ขั้นตอนถัดไป**
 
-[Power BI Premium คืออะไร](service-premium.md)
+[Power BI Premium คืออะไร](service-premium-what-is.md)
 [บันทึกย่อประจำรุ่นของ power BI Premium](service-premium-release-notes.md)
 [เอกสารทางเทคนิคของ Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 [เอกสารทางเทคนิคสำหรับการวางแผน Power BI Enterprise Deploymen](https://aka.ms/pbienterprisedeploy)

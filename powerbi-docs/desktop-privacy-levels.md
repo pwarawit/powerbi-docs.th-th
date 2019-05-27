@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: reference
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b3815e6783b612ff52aeb015fdd3b3669b6a2a51
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4c522a9e6c40f4164ee82675c40c3110b174d017
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282984"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513932"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>ระดับความเป็นส่วนตัวของ Power BI Desktop
 ใน**Power BI Desktop** ระดับความเป็นส่วนตัวระบุระดับการแยกที่กำหนดระดับ ซึ่งแหล่งข้อมูลหนึ่งจะถูกแยกจากแหล่งข้อมูลอื่น ๆ แม้ว่าระดับการแยกแบบเข้มงวด จะป้องกันข้อมูลจากการแลกเปลี่ยนระหว่างแหล่งข้อมูล แต่อาจลดทำงานและมีผลกระทบกับประสิทธิภาพ

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
+ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
+ms.sourcegitcommit: c9080e77ab705f1814a352c0dda6b10910a5018e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225971"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "65941434"
 ---
 # <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>ความสัมพันธ์แบบกลุ่ม-ต่อ-กลุ่มคาร์ดินัลลิตี้ใน Power BI Desktop
 
@@ -157,7 +157,7 @@ ms.locfileid: "56225971"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับโมเดลแบบรวมและ DirectQuery โปรดดูบทความต่อไปนี้:
-* [โมเดลแบบรวมใน Power BI Desktop (ตัวอย่าง)](desktop-composite-models.md)
+* [โมเดลแบบรวมใน Power BI Desktop](desktop-composite-models.md)
 * [โหมดที่เก็บข้อมูลใน Power BI Desktop (ตัวอย่าง)](desktop-storage-mode.md)
 * [ใช้ DirectQuery ใน Power BI Desktop](desktop-directquery-about.md)
 * [แหล่งข้อมูลที่ได้รับการรองรับโดย DirectQuery ใน Power BI](desktop-directquery-data-sources.md)

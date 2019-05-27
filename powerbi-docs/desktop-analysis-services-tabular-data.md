@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cdf8613159aa729d7d5b9c9096364e19c48a494e
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 996a65bd001626fd184ac98ee76dc61c22922707
+ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215124"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65239982"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>ใช้ข้อมูล Analysis Services Tabular ใน Power BI Desktop
 ด้วย Power BI Desktop คุณมีสองวิธีที่สามารถเชื่อมต่อ และรับข้อมูลจากแบบจำลอง SQL Server Analysis Services Tabular คือ: สำรวจโดยใช้การเชื่อมต่อกันโดยตรงหรือรายการที่เลือกและนำเข้าลงใน Power BI Desktop
