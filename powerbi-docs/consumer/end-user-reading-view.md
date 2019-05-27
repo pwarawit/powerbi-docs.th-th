@@ -12,23 +12,24 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2018
+ms.date: 05/13/2019
 ms.author: mihart
-ms.openlocfilehash: 84ce069913b1c262ce4e91138f8496cf3f19dddd
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: babdcebcdbc45ce3f7f737785ca4becab50cb3be
+ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280133"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65608269"
 ---
-<!-- once the sample aps are live, change this so consumers can follow along -->
+<!-- once the sample apps are live, change this so consumers can follow along -->
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>เริ่มต้นใช้งานด่วน: เรียนรู้เกี่ยวกับความสามารถ Power BI สำหรับ***ผู้บริโภค***
 ในเริ่มต้นใช้งานด่วนนี้ คุณจะได้เรียนรู้วิธีการโต้ตอบกับ Power BI เพื่อค้นหาข้อมูลธุรกิจเชิงลึก บทความนี้ไม่ได้มีวัตถุประสงค์ที่จะเจาะลึก แต่เป็นการสำรวจแบบรวดเร็วผ่านการดำเนินการหลายอย่างที่พร้อมให้**ผู้บริโภค** Power BI ใช้งาน
 
 ถ้าคุณไม่ได้ลงทะเบียน Power BI ให้[ลงทะเบียนรุ่นทดลองใช้ฟรี](https://app.powerbi.com/signupredirect?pbi_source=web)ก่อนที่คุณจะเริ่มต้นใช้งาน
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-- บริการของ Power BI (app.powerbi.com) <!-- app from AppSource -->
+- บริการ power BI (app.powerbi.com)
+<!-- app from AppSource -->
 
 ## <a name="reading-view"></a>มุมมองการอ่าน
 มุมมองการอ่านพร้อมให้*ผู้บริโภค*ใช้งานในบริการของ Power BI สำหรับรายงาน เมื่อเพื่อนร่วมงานแชร์รายงานกับคุณ คุณสามารถใช้มุมมองการอ่านเพื่อสำรวจและโต้ตอบกับรายงาน 
@@ -185,7 +186,7 @@ ms.locfileid: "53280133"
 1. ในบริการของ Power BI ให้เปิดรายงานแล้วเลือกภาพ  
 2. เมื่อต้องแสดงข้อมูลของภาพ ให้เลือกจุดไข่ปลา (...) แล้วเลือก**แสดงข้อมูล**
    
-   ![เลือกแสดงข้อมูล](./media/end-user-show-data/power-bi-show-data2.png)
+   ![เลือกแสดงข้อมูล](./media/end-user-show-data/power-bi-explore-show-data.png)
 
 สิ่งที่บรรยายข้างต้นเป็นภาพรวมของเพียงบางสิ่งที่**ผู้บริโภค**สามารถทำได้ด้วยบริการของ Power BI  
 

@@ -2,20 +2,20 @@
 title: เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 description: บทความนี้เปรียบเทียบคุณลักษณะของเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 keywords: ''
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 02/06/2019
-ms.openlocfilehash: ba10e13062e4071e5afcc5d395836c96ed1401fd
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.date: 05/22/2019
+ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
+ms.sourcegitcommit: bccbfc278ae85615dcfb7791d89e071a43d1ae23
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327929"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66187689"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
@@ -38,7 +38,7 @@ ms.locfileid: "57327929"
 | กลุ่มการแจกจ่ายรายงานโดยใช้แอป | ไม่ใช่ | ใช่ | [สร้างและเผยแพร่แอปที่มีแดชบอร์ดและรายงาน](../service-create-distribute-apps.md) |
 | ชุดเนื้อหา | ไม่ใช่ | ใช่ | [ชุดเนื้อหาระดับองค์กร: บทนำ](../service-organizational-content-pack-introduction.md) |
 | เชื่อมต่อกับบริการต่าง ๆ เช่น Salesforce | ใช่ | ใช่ | [เชื่อมต่อกับบริการที่คุณใช้](../service-connect-to-services.md)ด้วยชุดเนื้อหาในบริการของ Power BI ใช้ตัวเชื่อมต่อที่ได้รับการรับรองเพื่อเชื่อมต่อกับบริการในเซิร์ฟเวอร์รายงาน Power BI สามารถดูรายละเอียดได้ที่ [แหล่งข้อมูลรายงาน Power BI ในเซิร์ฟเวอร์รายงาน Power BI](data-sources.md) |
-| ถามตอบ | ไม่ใช่ | ใช่ | [ถามตอบในบริการของ Power BI และ Power BI Desktop](../consumer/end-user-q-and-a.md) 
+| ถามตอบ | ไม่ใช่ | ใช่ | [ถามตอบในบริการของ Power BI และ Power BI Desktop](../power-bi-tutorial-q-and-a.md) 
 | ข้อมูลเชิงลึกด่วน | ไม่ใช่ | ใช่ | [สร้างข้อมูลเชิงลึกโดยอัตโนมัติด้วย Power BI](../consumer/end-user-insights.md) |
 | วิเคราะห์ใน Excel | ไม่ใช่ | ใช่ | [วิเคราะห์ใน Excel](../service-analyze-in-excel.md) 
 | รายงานที่มีการแบ่งหน้า | ใช่ | ใช่ | [รายงานที่มีการแบ่งหน้าพร้อมให้ใช้งานในบริการของ Power BI](../paginated-reports-report-builder-power-bi.md)ซึ่งจะอยู่ในตัวอย่างในความจุพรีเมียม |
