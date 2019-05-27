@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 019ee7985c27c72ca41a09c8d13754316fd60232
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ecd58ca21e7fb6c5fb0bc2d3410788e2563efa9b
+ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291659"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65454517"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>เริ่มต้นใช้งานกับ Power BI Desktop
 ยินดีต้อนรับสู่ตัว**แนวทางการเริ่มใช้งาน Power BI Desktop** การทัวร์สั้น ๆ สำหรับ Power BI Desktop นี้ช่วยให้คุณคุ้นเคยกับวิธีการที่ Power BI Desktop ทำงาน สาธิตสิ่งที่ Power BI Desktop สามารถทำได้ และเร่งความสามารถของคุณในการสร้างแบบจำลองข้อมูลอย่างมีประสิทธิภาพ พร้อมกับรายงานที่น่าทึ่ง ที่ช่วยในการทำงานด้านข่าวกรองทางธุรกิจของคุณ 

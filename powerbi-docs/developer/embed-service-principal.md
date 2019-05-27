@@ -1,20 +1,21 @@
 ---
 title: บริการหลักพร้อมด้วย Power BI
 description: เรียนรู้วิธีการลงทะเบียนแอปพลิเคชันภายใน Azure Active Directory โดยใช้บริการหลักสำหรับการใช้งานด้วยการฝังเนื้อหา Power BI
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
-ms.subservice: power-bi-developer
+ms.service: powerbi
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
+ms.openlocfilehash: 5c97eacbdbf89a9ef828dad3a5da01e794952f15
+ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872558"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65710516"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>บริการหลักพร้อมด้วย Power BI (ตัวอย่าง)
 
@@ -179,4 +180,4 @@ ms.locfileid: "58872558"
 
 * [ลงทะเบียนแอป](register-app.md)
 * [Power BI Embedded สำหรับลูกค้าของคุณ](embed-sample-for-customers.md)
-* [แอปพลิเคชันและออบเจ็กต์โครงร่างสำคัญของบริการใน Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+* [แอปพลิเคชันและออบเจ็กต์บริการหลักใน Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)

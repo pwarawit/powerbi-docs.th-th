@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b4aeb04958ef6f4c8454a022198232d94c14b7b6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b8d742e9238d438775115fd1ee2e287cf0ba0388
+ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284253"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65454269"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>ใช้การจัดกลุ่ม และจัดช่องเก็บใน Power BI Desktop
 เมื่อ **Power BI Desktop** สร้างวิชวล จะรวมข้อมูลของคุณให้เป็นส่วน (หรือกลุ่ม) โดยยึดตามค่าที่พบในข้อมูลเบื้องต้น ซึ่งปกติแล้วจะทำงานได้ดี แต่อาจมีบางครั้งเมื่อคุณต้องการปรับวิธีการจัดกลุ่มเหล่านั้น ตัวอย่างเช่น คุณอาจต้องการวางผลิตภัณฑ์สามประเภทเข้าในประเภทที่ใหญ่ขึ้น (ในหนึ่ง*กลุ่ม*) หรือคุณอาจต้องการดูยอดขายตัวเลขในแท่งกราฟขนาด 1,000,000 ดอลลาร์แทนที่จะหารเป็นจำนวนเท่าๆ 923,983 ดอลลาร์

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: c8a96918049f2f1898ab80a9368a8d2f0a8fe53a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 567beb29ecdcaf8a07023c8c8c9b32995623534c
+ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286148"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65454458"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>มุมมองข้อมูลใน Power BI Desktop
 **มุมมองข้อมูล** ช่วยให้คุณตรวจสอบ สำรวจ และทำความเข้าใจข้อมูลแบบจำลอง **Power BI Desktop** ซึ่งจะแตกต่างจากวิธีที่คุณดูตาราง คอลัมน์ และข้อมูลใน**ตัวแก้ไขแบบสอบถาม** ด้วยมุมมองข้อมูล คุณกำลังดูข้อมูลของคุณ*หลังจาก*ที่โหลดเข้ามาในรูปแบบเรียบร้อยแล้ว
