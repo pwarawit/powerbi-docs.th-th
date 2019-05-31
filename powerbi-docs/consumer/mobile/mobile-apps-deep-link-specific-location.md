@@ -7,101 +7,110 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: ccb3b390b0654c7dc850cf66a7f0c9a7ec02f910
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278411"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64906529"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>สร้างการเชื่อมโยงไปยังตำแหน่งที่ตั้งเฉพาะในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
-คุณสามารถสร้างและใช้ Uniform Resource Identifier (URI) เพื่อเชื่อมโยงไปยังตำแหน่งที่ตั้งที่ระบุ (*การเชื่อมโยงโดยตรง*) ภายในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่บนแพลตฟอร์มสำหรับอุปกรณ์เคลื่อนที่ทั้งหมด: iOS อุปกรณ์ Android และ Windows 10
+คุณสามารถใช้การเชื่อมโยงโดยตรงเข้าถึงรายการที่เฉพาะเจาะจงใน Power BI: รายงาน แดชบอร์ด และไทล์
 
-ลิงก์ URI สามารถชี้ตรงไปยังแดชบอร์ด ไทล์ รายงาน
+มีสถานการณ์สองส่วนใหญ่สำหรับการใช้ลิงก์ใน Power BI Mobile: 
 
-ปลายทางของการเชื่อมโยงโดยตรงจะกำหนดรูปแบบของ URI ทำตามขั้นตอนเหล่านี้เพื่อสร้างการเชื่อมโยงโดยตรงไปยังตำแหน่งที่ตั้งต่างๆ 
-
-## <a name="open-the-power-bi-mobile-app"></a>เปิดแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
-ใช้ URI นี้เพื่อเปิดแอป Power BI สำหรับอุปกรณ์เคลื่อนที่บนอุปกรณ์ใดก็ได้:
-
-    mspbi://app/
+* เมื่อต้องเปิด Power BI จาก**ภายนอกแอ**และอยู่บนเนื้อหาที่เฉพาะเจาะจง (รายงาน/แดชบอร์ด/แอ) ซึ่งมักเป็นสถานการณ์การรวม เมื่อคุณต้องการเปิด Power BI Mobile จากแอปอื่น 
+* เมื่อต้องการ**นำทาง**ภายใน Power BI นี่คือโดยปกติแล้วเมื่อคุณต้องการสร้างการนำทางแบบกำหนดเองใน Power BI
 
 
-## <a name="open-to-a-specific-dashboard"></a>เปิดไปยังแดชบอร์ดทีระบุ
-URI นี้จะเปิดแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ไปยังแดชบอร์ดที่ระบุ:
+## <a name="use-links-from-outside-of-power-bi"></a>ใช้การเชื่อมโยงจากภายนอก Power BI
+เมื่อคุณใช้การเชื่อมโยงจากภายนอกแอป Power BI คุณต้องการตรวจสอบให้แน่ใจว่า ได้จะเปิด โดยแอ และ ถ้าแอไม่ได้ติดตั้ง บนอุปกรณ์ จาก นั้น เพื่อให้ผู้ใช้สามารถติดตั้ง เราได้สร้างรูปแบบพิเศษลิงก์เพื่อสนับสนุนว่า รูปแบบนี้เชื่อมโยง จะตรวจสอบ ว่าอุปกรณ์ใช้แอปเพื่อเปิดลิงก์ ถ้าไม่ได้ติดตั้งแอปบนอุปกรณ์ จะมีผู้ใช้ไปยังร้านค้าเพื่อให้
 
-    mspbi://app/OpenDashboard?DashboardObjectId=<36-character-dashboard-id>
+ลิงก์ควรเริ่มต้น ด้วยต่อไปนี้  
+```html
+https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
+```
 
-เพื่อค้นหา ID ออปเจ็กต์ของแดชบอร์ด 36 ตัวอักษร นำทางไปยังแดชบอร์ดนั้นในบริการของ Power BI (https://powerbi.com) ตัวอย่างเช่น ดูส่วนทีมีการไฮไลต์ไว้ของ URL นี้:
+> [!IMPORTANT]
+> ถ้าเนื้อหาของคุณถูกโฮสต์ในศูนย์ข้อมูลพิเศษเช่น Goverment จีน และอื่น ๆ ลิงก์ควรเริ่ม ด้วยที่อยู่ด้านขวาของ Power BI เช่น`app.powerbigov.us`หรือ`app.powerbi.cn`   
+>
 
-`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
-ถ้าแดชบอร์ดอยู่ในกลุ่มอื่นที่ไม่ใช่พื้นที่ทำงานของฉัน ให้เพิ่ม`&GroupObjectId=<36-character-group-id>`ก่อน หรือ หลัง ID แดชบอร์ด ตัวอย่างเช่น 
+การ**PARAMS แบบสอบถาม**คือ:
+* **การดำเนินการ**(บังคับ) = OpenApp / OpenDashboard / OpenTile / OpenReport
+* **appId** =ถ้าคุณต้องการเปิดรายงานหรือแดชบอร์ดที่เป็นส่วนหนึ่งของแอป 
+* **groupObjectId** =ถ้าคุณต้องการเปิดรายงานหรือแดชบอร์ดที่เป็นส่วนหนึ่งของพื้นที่ทำงาน (แต่ไม่ฉันพื้นที่ทำงาน)
+* **dashboardObjectId** = ID ออปเจ็กต์ของแดชบอร์ด (ถ้าการดำเนินการคือ OpenDashboard หรือ OpenTile)
+* **reportObjectId** = ID ออปเจ็กต์ของรายงาน (ถ้าการดำเนินการคือ OpenReport)
+* **tileObjectId** = ID ออบเจ็กต์ไทล์ (ถ้าการดำเนินการคือ OpenTile)
+* **reportPage** =ถ้าคุณต้องการเปิดรายงานเฉพาะส่วน (ถ้าการดำเนินการคือ OpenReport)
+* **ctid** = ID องค์กรรายการ (ที่เกี่ยวข้องสำหรับสถานการณ์สมมติ B2B ซึ่งสามารถละเว้นได้ถ้ารายการอยู่ในองค์กรของผู้ใช้)
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+**ตัวอย่าง:**
 
-โปรดสังเกตเครื่องหมายและ (&) ระหว่างทั้งสอง
+* ลิงก์เปิดแอป 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenApp&appId=appidguid&ctid=organizationid
+  ```
 
-## <a name="open-to-a-specific-tile-in-focus"></a>เปิดไปยังไทล์ที่ระบุในโฟกัส
-URI นี้จะเปิดไทล์ที่ระบุในโฟกัสในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่:
+* เปิดแดชบอร์ดที่เป็นส่วนหนึ่งของแอป 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenDashboard&appId=**appidguid**&dashboardObjectId=**dashboardidguid**&ctid=**organizationid**
+  ```
 
-    mspbi://app/OpenTile?DashboardObjectId=<36-character-dashboard-id>&TileObjectId=<36-character-tile-id>
+* เปิดรายงานที่เป็นส่วนหนึ่งของพื้นที่ทำงาน
+  ```html
+  https://app.powerbi.com/Redirect?Action=OpenReport&reportObjectId=**reportidguid**&groupObjectId=**groupidguid**&reportPage=**ReportSectionName**
+  ```
 
-เพื่อค้นหา ID ออปเจ็กต์ของแดชบอร์ดและไทล์ 36 ตัวอักษร นำทางไปยังแดชบอร์ดนั้นในบริการของ Power BI (https://powerbi.com) และเปิดไทล์ในโหมดโฟกัส ตัวอย่างเช่น ดูส่วนทีมีการไฮไลต์ไว้ของ URL นี้:
+### <a name="how-to-get-the-right-link-format"></a>วิธีการรับรูปแบบลิงก์ด้านขวา
 
-`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
+#### <a name="links-of-apps-and-items-in-app"></a>ลิงก์แอปและรายการในแอป
 
-สำหรับไทล์นี้ URI จะเป็น:
+สำหรับ**แอป และรายงาน และแดชบอร์ดที่เป็นส่วนหนึ่งของแอ**คือวิธีง่ายที่สุดในการรับลิงก์ ไปยังพื้นที่ทำงานแอป และเลือก "อัปเดตแอปฯ" ซึ่งจะเปิดประสบการณ์การใช้งาน "เผยแพร่แอ" และในแท็บ Access คุณจะพบการ**ลิงก์**ส่วน ขยายว่า ส่วนและคุณจะเห็นรายการของแอป และเนื้อหาทั้งหมดลิงก์ที่สามารถใช้เพื่อเข้าถึงได้โดยตรง
 
-    mspbi://app/OpenTile?DashboardObjectId=3784f99f-b460-4d5e-b86c-b6d8f7ec54b7&TileObjectId=565f9740-5131-4648-87f2-f79c4cf9c5f5
+![Power BI เผยแพร่ลิงก์แอป ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
-โปรดสังเกตเครื่องหมายและ (&) ระหว่างทั้งสอง
+#### <a name="links-of-items-not-in-app"></a>ลิงก์รายการไม่ได้อยู่ในแอป 
 
-ถ้าแดชบอร์ดอยู่ในกลุ่มอื่นที่ไม่ใช่พื้นที่ทำงานของฉัน ให้เพิ่ม `&GroupObjectId=<36-character-group-id>`
+สำหรับรายงานและแดชบอร์ดที่ไม่เป็นส่วนหนึ่งของแอป คุณจำเป็นต้องแยกรหัสจาก URL ของรายการ
 
-## <a name="open-to-a-specific-report"></a>เปิดไปยังรายงานที่ระบุ
-URI นี้จะเปิดรายงานที่ระบุในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่:
+ตัวอย่าง เพื่อค้นหาอักขระ 36 **แดชบอร์ด**ID วัตถุ การนำทางไปยังแดชบอร์ดนั้นในบริการ Power BI 
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>
+```html
+https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=**organization id comes here**`
+```
 
-เพื่อค้นหา ID ออปเจ็กต์ของรายงาน 36 ตัวอักษร นำทางไปยังรายงานนั้นในบริการของ Power BI (https://powerbi.com) ตัวอย่างเช่น ดูส่วนทีมีการไฮไลต์ไว้ของ URL นี้:
+เมื่อต้องการค้นหาอักขระ 36 **รายงาน**ID วัตถุ การนำทางไปยังรายงานในบริการ Power BI
+นี่คือตัวอย่างของรายงานจาก "My Workspace"
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
+```
+URL ด้านบนยังประกอบด้วยหน้ารายงานที่ระบุ **"ReportSection3"**
 
-ถ้ารายงานอยู่ในกลุ่มอื่นที่ไม่ใช่พื้นที่ทำงานของฉัน ให้เพิ่ม`&GroupObjectId=<36-character-group-id>`ก่อน หรือ หลัง ID รายงาน ตัวอย่างเช่น 
+นี่คือตัวอย่างของรายงานจากพื้นที่ทำงาน (ไม่ My Workspace)
 
-mspbi://app/OpenReport? ReportObjectId = e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **& GroupObjectId = 8cc900cc-7339-467f-8900-fec82d748248**
+```html
+https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes here**/ReportSection1?ctid=**organizationid comes here**
+```
 
-โปรดสังเกตเครื่องหมายและ (&) ระหว่างทั้งสอง
+## <a name="use-links-inside-power-bi"></a>ใช้การเชื่อมโยงภายใน Power BI
 
-## <a name="open-to-a-specific-report-page"></a>เปิดไปยังหน้ารายงานที่ระบุ
-URI นี้จะเปิดหน้ารายงานที่ระบุในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่:
+ลิงก์ภายใน Power BI กำลังทำงานในแอปสำหรับอุปกรณ์เคลื่อนที่แน่นอนเช่นเดียวกับบริการ Power BI
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>&reportPage=ReportSection<number>
+ถ้าคุณต้องการเพิ่มการเชื่อมโยงกับรายงานของคุณที่ชี้ไปยังอีกรายการ Power BI คุณสามารถเพียงแค่คัดลอกที่รายการ URL จากแถบที่อยู่เบราว์เซอร์ อ่านเพิ่มเติมเกี่ยวกับ[วิธีการเพิ่มไฮเปอร์ลิงก์ไปยังกล่องข้อความในรายงาน](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)
 
-หน้ารายงานจะเรียกว่า "ReportSection" ตามด้วยตัวเลข อีกครั้ง เปิดรายงานในบริการของ Power BI (https://powerbi.com) และนำทางไปยังหน้ารายงานนั้น 
+## <a name="use-report-url-with-filter"></a>ใช้ URL ของรายงาน ด้วยตัวกรอง
+เหมือนกับบริการ Power BI, Power BI Mobile apps ยังสนับสนุน URL รายงานที่ประกอบด้วยพารามิเตอร์แบบสอบถามตัวกรอง คุณสามารถเปิดรายงานในแอป Power BI Mobile และกรองเพื่อระบุสถานะ ตัวอย่าง URL นี้เปิดรายงานยอดขาย และกรองตามเขต
 
-ตัวอย่างเช่น ดูส่วนทีมีการไฮไลต์ไว้ของ URL นี้:
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
+```
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
-
-## <a name="open-in-full-screen-mode"></a>เปิดในโหมดเต็มหน้าจอ
-เพิ่มพารามิเตอร์เป็นตัวหนาเมื่อต้องเปิดการรายงานที่ระบุในโหมดเต็มหน้าจอ:
-
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>**&openFullScreen=true**
-
-ตัวอย่างเช่น: 
-
-mspbi://app/OpenReport?ReportObjectId=500217de-50f0-4af1-b345-b81027224033&openFullScreen=true
-
-## <a name="add-context-optional"></a>เพิ่มบริบท (ไม่บังคับ)
-คุณยังสามารถเพิ่มบริบทในสตริง จากนั้นถ้าคุณต้องการติดต่อเรา เราสามารถใช้บริบทนั้นเพื่อกรองข้อมูลของเราไปยังแอปของคุณ เพิ่ม`&context=<app-name>`ไปยังการเชื่อมโยง
-
-ตัวอย่างเช่น ดูส่วนทีมีการไฮไลต์ไว้ของ URL นี้: 
-
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
+อ่านเพิ่มเติมบน[วิธีการสร้างพารามิเตอร์แบบสอบถามเพื่อกรองรายงาน](https://docs.microsoft.com/power-bi/service-url-filters)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 คำติชมของคุณจะช่วยให้เราตัดสินใจว่าสิ่งใดควรดำเนินการในอนาคต ดังนั้นอย่าลืมลงคะแนนให้กับคุณลักษณะอื่นๆ ที่คุณต้องการเห็นในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ 

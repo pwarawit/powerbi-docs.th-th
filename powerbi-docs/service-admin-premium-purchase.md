@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
-ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/14/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65565284"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>วิธีการซื้อ Power BI Premium
@@ -48,7 +48,7 @@ ms.locfileid: "65565284"
 
 1. ภายใต้**แผนอื่น ๆ**ค้นหาข้อเสนอของ Power BI Premium ซึ่งจะแสดงรายการเป็น P1 ผ่าน P3, EM3 และ P1 (แบบรายเดือน)
 
-1. วางเคอร์เซอร์เหนือ จุดไข่ปลา (**. . .**)แล้ว เลือก**ซื้อทันที**
+1. วางเคอร์เซอร์เหนือ จุดไข่ปลา ( **. . .** )แล้ว เลือก**ซื้อทันที**
 
     ![ซื้อทันที](media/service-admin-premium-purchase/premium-purchase.png)
 

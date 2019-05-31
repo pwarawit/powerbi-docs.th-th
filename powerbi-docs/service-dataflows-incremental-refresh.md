@@ -1,23 +1,23 @@
 ---
 title: การรีเฟรชแบบเพิ่มหน่วยกับกระแสข้อมูล Power BI
 description: เรียนรู้วิธีการกำหนดค่าการรีเฟรชแบบเพิ่มหน่วยสำหรับกระแสข้อมูล
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
-ms.author: davidi
+ms.date: 04/02/2019
+ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 224fc07fccc2b12b0a28c016f427a4d5f4613290
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293729"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136690"
 ---
-# <a name="using-incremental-refresh-with-power-bi-dataflows-preview"></a>การใช้การรีเฟรชแบบเพิ่มหน่วยสำหรับกระแสข้อมูล Power BI (ตัวอย่าง)
+# <a name="using-incremental-refresh-with-power-bi-dataflows"></a>การรีเฟรชแบบเพิ่มหน่วยกับกระแสข้อมูล Power BI
 
 ด้วยกระแสข้อมูล คุณสามารถนำข้อมูลขนาดใหญ่เข้า Power BI ได้เพื่อสร้างรายงานและการวิเคราะห์ที่ดึงดูดความสนใจ อย่างไรก็ตาม ในบางกรณีจะไม่สามารถอัปเดตสำเนาเต็มของข้อมูลต้นทางในการรีเฟรชแต่ละครั้งได้ ทางเลือกที่ดีคือ**การรีเฟรชแบบเพิ่มหน่วย** ซึ่งให้ประโยชน์ต่อไปนี้กับกระแสข้อมูล:
 
@@ -27,13 +27,13 @@ ms.locfileid: "54293729"
 
 ![การรีเฟรชแบบเพิ่มหน่วยสำหรับกระแสข้อมูล](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_03.png)
 
-การใช้การรีเฟรชแบบเพิ่มหน่วยสำหรับกระแสข้อมูล Power BI กำหนดว่าพื้นที่ทำงานที่มีกระแสข้อมูลต้องอยู่ใน[ความจุพรีเมียม](service-premium.md) เพื่อเรียกใช้ได้ และแหล่งข้อมูลที่ย่อยเป็นกระแสข้อมูลต้องมีเขตข้อมูล *datetime* ที่การรีเฟรชแบบเพิ่มหน่วยสามารถกรองได้ 
+การใช้การรีเฟรชแบบเพิ่มหน่วยสำหรับกระแสข้อมูล Power BI กำหนดว่าพื้นที่ทำงานที่มีกระแสข้อมูลต้องอยู่ใน[ความจุพรีเมียม](service-premium-what-is.md) เพื่อเรียกใช้ได้ และแหล่งข้อมูลที่ย่อยเป็นกระแสข้อมูลต้องมีเขตข้อมูล *datetime* ที่การรีเฟรชแบบเพิ่มหน่วยสามารถกรองได้ 
 
 ## <a name="configuring-incremental-refresh-for-dataflows"></a>การกำหนดค่าการรีเฟรชแบบเพิ่มหน่วยสำหรับกระแสข้อมูล
 
 กระแสข้อมูลสามารถมีเอนทิตีหลายตัวได้ การรีเฟรชแบบเพิ่มหน่วยได้รับการตั้งค่าที่ระดับเอนทิตี โดยอนุญาตให้มีกระแสข้อมูลหนึ่งเก็บทั้งเอนทิตีที่รีเฟรชเสร็จแล้วและเอนทิตีที่รีเฟรชแบบเพิ่มหน่วย
 
-เมื่อต้องการตั้งค่าเอนทิตีที่รีเฟรชแบบเพิ่มหน่วย ให้เริ่มโดยการกำหนดค่าเอนทิตีเช่นที่คุณจะกำหนดให้เอนทิตีอื่นๆ สำหรับการเรียนรู้เพิ่มเติมเกี่ยวกับการตั้งค่ากระแสข้อมูล โปรดดู [การเตรียมข้อมูลด้วยตนเองใน Power BI (ตัวอย่าง)](service-dataflows-overview.md)
+เมื่อต้องการตั้งค่าเอนทิตีที่รีเฟรชแบบเพิ่มหน่วย ให้เริ่มโดยการกำหนดค่าเอนทิตีเช่นที่คุณจะกำหนดให้เอนทิตีอื่นๆ เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับตั้งค่า dataflow ดู[เตรียมข้อมูลด้วยตนเองใน Power BI](service-dataflows-overview.md)
 
 เมื่อสร้างและบันทึกกระแสข้อมูลแล้ว ให้คุณเลือกไอคอน**การรีเฟรชแบบเพิ่มหน่วย**ในมุมมองเอนทิตี ดังที่แสดงในรูปต่อไปนี้:
 
@@ -155,9 +155,9 @@ ms.locfileid: "54293729"
 
 
 * [การเตรียมข้อมูลด้วยตัวเองโดยใช้กระแสข้อมูล](service-dataflows-overview.md)
-* [สร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
-* [การใช้กระแสข้อมูลพร้อมแหล่งข้อมูลในองค์กร (ตัวอย่าง)](service-dataflows-on-premises-gateways.md)
-* [แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI (ตัวอย่าง)](service-dataflows-developer-resources.md)
+* [การสร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
+* [ใช้ dataflows กับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
+* [ทรัพยากรสำหรับนักพัฒนาสำหรับ dataflows Power BI](service-dataflows-developer-resources.md)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power Query และการรีเฟรชตามกำหนดการ สามารถดูได้ในบทความเหล่านี้:
 * [ภาพรวมคิวรีใน Power BI Desktop](desktop-query-overview.md)

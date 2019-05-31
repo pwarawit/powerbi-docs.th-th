@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: 4efb4e2c02671671d42d9f66c1f9f57ee028c9a1
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: e7afdddc6d87b9494fa9264bdd253a3f93de6192
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174693"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61383958"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>บทช่วยสอน: การพัฒนาภาพที่กำหนดเองสำหรับ Power BI
 
@@ -559,14 +559,14 @@ ms.locfileid: "58174693"
 
     รายงานนี้กำหนด*มุมมองข้อมูล*กับตัวแปรเพื่อให้เข้าถึงได้ง่าย และยืนยันตัวแปรสำหรับอ้างอิงวัตถุ*dataView*
 
-2. ในวิธี**อัปเดต** ให้แทนที่ .text("Value")** ดังต่อไปนี้
+2. ในการ**อัปเด**วิธี แทน **.text("Value")** ต่อไปนี้
 
     ```typescript
     .text(dataView.single.value as string)
     ```
     ![แทนที่ textValue](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. ในวิธี**อัปเดต** ให้แทนที่ **.text(“Label”)** ดังต่อไปนี้
+3. ในการ**อัปเด**วิธี แทน **.text("Label")** ต่อไปนี้
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)

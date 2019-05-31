@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5afb79f52c4717887ba16d9ca43f913ba3446627
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008384"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61178372"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>เชื่อมต่อกับ AT Internet Bridge ด้วย Power BI
 AT Internet ช่วยให้คุณสามารถแยกค่าใช้ทันทีจากข้อมูลของคุณโดยใช้แพลตฟอร์มการวิเคราะห์ดิจิทัลแบบครบวงจร นั่นคือ ชุดโปรแกรมวิเคราะห์ (Analytics Suit) ชุดเนื้อหา AT Internet Bridge สำหรับ Power BI มีข้อมูลสำหรับการเยี่ยมชม แหล่งที่มา การแปลเป็นภาษาท้องถิ่น และอุปกรณ์สำหรับไซต์ของคุณ

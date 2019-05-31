@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cff8e70e43496b264fd0dd549759f939bf90e33f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271526"
+---
 ในหัวข้อนี้ ก่อนอื่นเราจะมาดูวิธีที่คุณสามารถนำเข้าไฟล์เวิร์กบุ๊ก Excel ซึ่งมี**ตาราง**แบบง่ายๆ จากไดรฟ์ภายในลงใน Power BI จากนั้นคุณจะได้เรียนรู้วิธีที่คุณสามารถเริ่มสำรวจข้อมูลของตารางใน Power BI ด้วยการสร้างรายงาน
 
 ## <a name="make-sure-your-data-is-formatted-as-a-table"></a>ตรวจสอบให้แน่ใจว่าข้อมูลของคุณได้รับการจัดรูปแบบเป็นตารางแล้ว

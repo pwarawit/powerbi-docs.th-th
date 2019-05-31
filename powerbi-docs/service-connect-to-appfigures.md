@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 2a19cc832f7e03acfd224c6ab2409016ce8da770
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008778"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61179878"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>เชื่อมต่อกับ appFigures ด้วย Power BI
 การติดตามสถิติที่สำคัญเกี่ยวกับแอปฯของคุณใช้งานได้ง่าย ด้วย Power BI และชุดเนื้อหา appFigures Power BI เรียกคืนข้อมูลของคุณ รวมถึงแอปฯการขาย ดาวน์โหลด และสถิติโฆษณา จากนั้นสร้างแดชบอร์ดค่าเริ่มต้นและรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลนั้น

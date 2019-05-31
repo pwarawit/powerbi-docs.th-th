@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 587cc5b5d81ca57e809a3973c700c71a214dc045
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426619"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61389842"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>การสร้างภาพ R ในบริการ Power BI
 บริการ Power BI สนับสนุนการดูและโต้ตอบกับภาพที่สร้างขึ้น ด้วยสคริปต์ R ภาพที่สร้างขึ้นด้วยสคริปต์ R มักเรียกว่า*ภาพ R* ซึ่งสามารถนำเสนอการปรับรูปร่างข้อมูลและการวิเคราะห์ขั้นสูง เช่น การทำนายโดยใช้การวิเคราะห์ที่มีข้อมูลเต็มเปี่ยมและพลังของการแสดงภาพ R
@@ -64,7 +64,7 @@ ms.locfileid: "56426619"
 ![](media/service-r-visuals/r-visuals-service_5.png)
 
 ## <a name="licensing"></a>การมอบสิทธิ์การใช้งาน
-ภาพ R จำเป็นต้องมีสิทธิ์การใช้งาน[Power BI Pro](../service-self-service-signup-for-power-bi.md)เพื่อแสดงในรายงาน รีเฟรช ตัวกรอง และตัวกรองข้าม สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสิทธิ์การใช้งาน Power BI Pro และความแตกต่างจากสิทธิ์การใช้งานฟรี ดู[เนื้อหา Power BI Pro - นี่คืออะไร?](../service-premium.md)
+ภาพ R จำเป็นต้องมีสิทธิ์การใช้งาน[Power BI Pro](../service-self-service-signup-for-power-bi.md)เพื่อแสดงในรายงาน รีเฟรช ตัวกรอง และตัวกรองข้าม สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสิทธิ์การใช้งาน Power BI Pro และความแตกต่างจากสิทธิ์การใช้งานฟรี ดู[เนื้อหา Power BI Pro - นี่คืออะไร?](../service-premium-what-is.md)
 
 ผู้ใช้ที่ใช้งาน Power BI ฟรีสามารถใช้ไทล์ที่แชร์กับตนได้เท่านั้นในพื้นที่ทำงานระดับ Premium สำหรับข้อมูลเพิ่มเติม ดู[ซื้อ Power BI Pro](../service-admin-purchasing-power-bi-pro.md)
 

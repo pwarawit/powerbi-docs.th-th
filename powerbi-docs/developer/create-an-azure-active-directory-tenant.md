@@ -1,20 +1,20 @@
 ---
 title: สร้างผู้เช่า Azure Active Directory เพื่อใช้กับ Power BI
 description: เรียนรู้วิธีการสร้างผู้เช่า Azure Active Directory (Azure AD) ใหม่เพื่อใช้งานกับแอปพลิเคชันแบบกำหนดเองของคุณโดยใช้ Power BI REST API
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
-ms.openlocfilehash: ec03ba86fdbf57a9898b127aae9b76990837b5ba
-ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
-ms.translationtype: HT
+ms.openlocfilehash: ae3d15cce7c0beb8122542e3768a0ec10ca0a1ae
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58473855"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61381776"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>สร้างผู้เช่า Azure Active Directory เพื่อใช้กับ Power BI
 

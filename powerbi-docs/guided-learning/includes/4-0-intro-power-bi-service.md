@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8e5755f632a0cfab8b0b4bc79871c96ee9e2aeef
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264077"
+---
 ยินดีต้อนรับสู่ส่วน **สำรวจข้อมูล** ของหลักสูตร **การเรียนรู้ตามคำแนะนำ** สำหรับ Power BI ตอนนี้คุณได้ทราบเกี่ยวกับ Power BI Desktop และวิธีการดูและแสดงข้อมูลแล้ว คุณก็พร้อมที่จะสำรวจข้อมูลในบริการของ BI Power แล้ว
 
 ![](media/4-0-intro-power-bi-service/4-0_2.png)

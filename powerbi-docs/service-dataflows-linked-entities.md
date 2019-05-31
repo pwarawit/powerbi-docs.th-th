@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52876f05eba098466b3f0b8cebc614d10a3cd277
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220919"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136519"
 ---
-# <a name="link-entities-between-dataflows-in-power-bi-preview"></a>เชื่อมโยงเอนทิตีระหว่างกระแสข้อมูลใน Power BI (ตัวอย่าง)
+# <a name="link-entities-between-dataflows-in-power-bi"></a>เชื่อมโยงเอนทิตีระหว่างกระแสข้อมูลใน Power BI
 
 เมื่อมีกระแสข้อมูลใน Power BI คุณอาจมีแหล่งเก็บข้อมูลเดี่ยวระดับองค์กรซึ่งนักวิเคราะห์ธุรกิจสามารถเตรียมและจัดการข้อมูลได้ และสามารถนำกลับมาใช้ใหม่ได้กับแอปเพื่อการวิเคราะห์ขององค์กร 
 
@@ -29,7 +29,7 @@ ms.locfileid: "58220919"
 
 ## <a name="linked-entity-availability"></a>ความพร้อมใช้งานของเอนทิตีที่เชื่อมโยงแล้ว
 
-เอนทิตีที่เชื่อมโยงแล้วต้องใช้การสมัครใช้งานกับ[ Power BI Premium](service-premium.md) ในการรีเฟรช เอนทิตีที่เชื่อมโยงแล้วมีพร้อมใช้งานในกระแสข้อมูลใดก็ตามในพื้นที่ทำงานที่อยู่ในความจุ Power BI Premium ไม่มีข้อจำกัดของกระแสข้อมูลต้นทาง
+เอนทิตีที่เชื่อมโยงแล้วต้องใช้การสมัครใช้งานกับ[ Power BI Premium](service-premium-what-is.md) ในการรีเฟรช เอนทิตีที่เชื่อมโยงแล้วมีพร้อมใช้งานในกระแสข้อมูลใดก็ตามในพื้นที่ทำงานที่อยู่ในความจุ Power BI Premium ไม่มีข้อจำกัดของกระแสข้อมูลต้นทาง
 
 เอนทิตีที่เชื่อมโยงไว้จะทำงานได้ปกติก็ต่อเมื่ออยู่ในพื้นที่ทำงาน Power BI ใหม่ คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับ [พื้นที่ทำงาน Power BI ใหม่](service-create-the-new-workspaces.md) กระแสข้อมูลที่เชื่อมโยงทั้งหมดต้องอยู่ในพื้นที่ทำงานใหม่เพื่อให้ทำงานได้ปกติ
 
@@ -88,11 +88,11 @@ ms.locfileid: "58220919"
 
 บทความต่อไปนี้อาจมีประโยชน์ในการสร้างหรือทำงานกับกระแสข้อมูล 
 
-* [การเตรียมข้อมูลด้วยตนเองใน Power BI (ตัวอย่าง)](service-dataflows-overview.md)
-* [สร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
-* [การใช้เอนทิตีที่คำนวณใน Power BI Premium (ตัวอย่าง)](service-dataflows-computed-entities-premium.md)
-* [การใช้กระแสข้อมูลพร้อมแหล่งข้อมูลในองค์กร (ตัวอย่าง)](service-dataflows-on-premises-gateways.md)
-* [แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI (ตัวอย่าง)](service-dataflows-developer-resources.md)
+* [เตรียมข้อมูลด้วยตนเองใน Power BI](service-dataflows-overview.md)
+* [การสร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
+* [ใช้เอนทิตีที่มีการคำนวณใน Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [ใช้ dataflows กับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
+* [ทรัพยากรสำหรับนักพัฒนาสำหรับ dataflows Power BI](service-dataflows-developer-resources.md)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power Query และการรีเฟรชตามกำหนดการ สามารถดูได้ในบทความเหล่านี้:
 * [ภาพรวมคิวรีใน Power BI Desktop](desktop-query-overview.md)

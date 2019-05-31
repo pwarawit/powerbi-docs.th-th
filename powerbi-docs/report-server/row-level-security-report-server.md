@@ -1,20 +1,20 @@
 ---
 title: การรักษาความปลอดภัยระดับแถว (RLS) ในเซิร์ฟเวอร์รายงาน Power BI
 description: เรียนรู้เกี่ยวกับการใช้การรักษาความปลอดภัยระดับแถว (RLS) ในเซิร์ฟเวอร์รายงาน Power BI
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
-ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
-ms.translationtype: HT
+ms.openlocfilehash: b4a5d11697cff2cae8d137916636907967a7c276
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58489579"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769820"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>การรักษาความปลอดภัยระดับแถว (RLS) ในเซิร์ฟเวอร์รายงาน Power BI
 
@@ -46,7 +46,7 @@ ms.locfileid: "58489579"
  ถ้ารายงานไม่มีบทบาทจำเป็น คุณจำเป็นเมื่อต้องเปิดใน Power BI Desktop เพิ่มหรือปรับเปลี่ยนบทบาท จาก นั้นบันทึกกลับไปยังเซิร์ฟเวอร์รายงาน Power BI 
 
 1. ใน Power BI Desktop บันทึกรายงานไปยังเซิร์ฟเวอร์รายงาน Power BI คุณจะต้องมีเวอร์ชั่น Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
-2. ในบริการ Power BI รายงาน เลือกจุดไข่ปลา (**...** ) ถัดจากรายงาน 
+2. ในบริการ Power BI รายงาน เลือกจุดไข่ปลา ( **...** ) ถัดจากรายงาน 
 
 3. เลือก**จัดการ** > **ความปลอดภัยระดับแถว** 
 

@@ -1,21 +1,21 @@
 ---
 title: การวิเคราะห์ที่ฝังตัวที่ใช้ในการฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ
 description: เรียนรู้วิธีรวมหรือฝังรายงาน, แดชบอร์ด หรือไทล์ เข้าไปในแอปพลิเคชั่นโดยการใช้ Power BI APIs สำหรับการวิเคราะห์ที่ฝังตัวสำหรับลูกค้าของคุณ เรียนรู้วิธีการรวม Power BI เข้ากันกับแอปพลิเคชันของคุณโดยใช้ซอฟต์แวร์การวิเคราะห์แบบฝังตัว, เครื่องมือการวิเคราะห์แบบฝังตัวหรือเครื่องมือข่าวกรองธุรกิจแบบฝังตัว
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.topic: tutorial
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 02/05/2019
-ms.openlocfilehash: 5bb4a739b6a333ecaf0ddc3ee2596fc210033470
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174970"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710947"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ
 
@@ -62,7 +62,7 @@ ms.locfileid: "58174970"
 
 ### <a name="create-an-app-workspace"></a>สร้างพื้นที่ทำงานสำหรับแอป
 
-หากคุณกำลังฝังรายงาน, แดชบอร์ด หรือไทล์สำหรับลูกค้า คุณต้องวางเนื้อหาลงในพื้นที่ทำงานแอป พื้นที่ทำงานมีหลายประเภทที่คุณสามารถตั้งค่า: [พื้นที่ทำงานแบบดั้งเดิม](../service-create-workspaces.md)หรือ[พื้นที่ทำงานใหม่](../service-create-the-new-workspaces.md) ถ้าคุณกำลังใช้บัญชี*หลัก* จากนั้นไม่สำคัญว่าคุณจะพื้นที่ทำงานชนิดใด อย่างไรก็ตาม ถ้าคุณใช้*[บริการหลัก](embed-service-principal.md)* เพื่อเข้าสู่ระบบแอปพลิเคชัน จากนั้นคุณจำเป็นต้องใช้พื้นที่ทำงานใหม่ ในสถานการณ์ใด ๆ ทั้งบัญชี*หลัก* หรือ*บริการหลัก*ต้องเป็นผู้ดูแลระบบของพื้นที่ทำงานแอปที่เกี่ยวข้องกับแอปพลิเคชันของคุณ
+หากคุณกำลังฝังรายงาน, แดชบอร์ด หรือไทล์สำหรับลูกค้า คุณต้องวางเนื้อหาลงในพื้นที่ทำงานแอป พื้นที่ทำงานมีหลายประเภทที่คุณสามารถตั้งค่า: [พื้นที่ทำงานแบบดั้งเดิม](../service-create-workspaces.md)หรือ[พื้นที่ทำงานใหม่](../service-create-the-new-workspaces.md) ถ้าคุณกำลังใช้บัญชี*หลัก* จากนั้นไม่สำคัญว่าคุณจะพื้นที่ทำงานชนิดใด อย่างไรก็ตาม ถ้าคุณใช้ *[บริการหลัก](embed-service-principal.md)* เพื่อเข้าสู่ระบบแอปพลิเคชัน จากนั้นคุณจำเป็นต้องใช้พื้นที่ทำงานใหม่ ในสถานการณ์ใด ๆ ทั้งบัญชี*หลัก* หรือ*บริการหลัก*ต้องเป็นผู้ดูแลระบบของพื้นที่ทำงานแอปที่เกี่ยวข้องกับแอปพลิเคชันของคุณ
 
 ### <a name="create-and-publish-your-reports"></a>สร้าง และเผยแพร่รายงานของคุณ
 
@@ -192,23 +192,19 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 2. ในบานหน้าต่างนำทางซ้ายมือ เลือก **บริการทั้งหมด** และเลือก **การลงทะเบียนแอป**
 
-    ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+    ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
 3. เลือกแอปพลิเคชันที่ต้องใช้ **ApplicationSecret**
 
-    ![เลือกแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![เลือกแอป](media/embed-sample-for-customers/embed-sample-for-customers-0038.png)
 
-4. เลือก **การตั้งค่า**
+4. เลือก**ใบรับรองและความลับ**ภายใต้**จัดการ**
 
-    ![เลือกการตั้งค่า](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
-
-5. เลือก **คีย์**
-
-    ![เลือกคีย์](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+5. เลือก**ข้อมูลลับไคลเอ็นต์ใหม่**
 
 6. ป้อนชื่อในกล่อง **Description** และเลือกระยะเวลา จากนั้นเลือก **บันทึก** เพื่อรับ **ค่า** สำหรับแอปพลิเคชัน เมื่อคุณเลือกบานหน้าต่าง **คีย์** หลังจากการบันทึกค่าคีย์แล้ว ช่องค่าจะถูกซ่อนเท่านั้น ในขั้นตอนนี้คุณจะไม่สามารถเรียกดูค่าคีย์ได้ หากคุณทำค่าคีย์หาย ให้สร้างใหม่ในพอร์ทัล Azure
 
-    ![ค่าคีย์](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![ค่าคีย์](media/embed-sample-for-customers/embed-sample-for-customers-042.png)
 
 ### <a name="tenant"></a>ผู้เช่า
 
