@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: a355f09984bc454f74dfab8ef137e29fd5aed110
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710412"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>ขั้นตอนที่ 5: เพิ่มแถวในตาราง Power BI
@@ -311,7 +311,7 @@ ms.locfileid: "65710412"
     }
 ```
 
-แม้ว่า เราระบุว่าเรา **_//รับ id แรก_** ในรหัสข้างต้น สิ่งที่ต้องทำคือค้นหาชุดข้อมูลตามชื่อ
+แม้ว่า เราระบุว่าเรา ** _//รับ id แรก_** ในรหัสข้างต้น สิ่งที่ต้องทำคือค้นหาชุดข้อมูลตามชื่อ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [พุชข้อมูลลงในแดชบอร์ด Power BI](walkthrough-push-data.md)  
