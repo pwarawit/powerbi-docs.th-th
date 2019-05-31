@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5c4bf7c1e1abb8fd87b97c48bfa94b57d5481b00
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 16114793b190996b3ef9e800e562dd0caf62089c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295869"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514828"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>ถามที่ถามบ่อยสำหรับ Power BI สำหรับลูกค้าระบบคลาวด์ประเทศเยอรมนี
 **บริการ Power BI**มีเวอร์ชันที่พร้อมใช้งานสำหรับลูกค้าสหภาพยุโรป/ข้อตกลงการค้าเสรียุโรป/ยุโรป (EU/EFTA) มักจะอ้างอิงถึงเป็น Deutschland Microsoft Cloud (MCD) **บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้เป็นบริการเฉพาะสำหรับลูกค้า EU/EFTA และแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI** หรือบริการ Power BI ที่จัดหาสำหรับลูกค้าภาครัฐบาล
@@ -32,10 +32,10 @@ ms.locfileid: "54295869"
    บริการ Power BI สำหรับลูกค้าใน EU/EFTA ยังหมายถึง Microsoft Cloud Deutschland (MCD) ซึ่งเป็นระบบคลาวด์ที่เป็นไปตามกฎข้อบังคับ EU/EFTA ด้วยบริการ Power BI ที่จัดส่งจากศูนย์ข้อมูลของประเทศเยอรมนี ข้อมูลทั้งหมดของลูกค้าในบริการ Power BI สำหรับระบบคลาวด์ EU/EFTA จะได้รับการจัดเก็บอยู่ในประเทศเยอรมนีด้วย T-Systems ที่ทำงานเป็นผู้ดูแลข้อมูลอิสระของประเทศเยอรมนี และด้วยการเข้าถึงข้อมูลทั้งทางกายภาพและทางตรรกะที่ควบคุมโดยกฎหมายในประเทศเยอรมนี บริการ Power BI สำหรับระบบคลาวด์ EU/EFTA จำเป็นต้องมีบัญชีที่แตกต่างและแยกต่างหากจากเวอร์ชันเชิงพาณิชย์ของบริการ Power BI เรียนรู้เพิ่มเติมเกี่ยวกับ Microsoft Cloud Deutschland [ที่นี่](https://www.microsoft.com/trustcenter/cloudservices/nationalcloud)
 2. **ฉันสามารถค้นหาราคาและลงทะเบียนข้อมูลบริการ Power BI สำหรับระบบคลาวด์ประเทศเยอรมนี (Germany Cloud) ได้จากที่ใด?**
    
-   คุณจะพบข้อมูลมากมายบน[โฮมเพจ Power BI Germany Cloud ](https://powerbi.microsoft.com/power-bi-germany/)รวมถึงข้อมูลราคา นอกจากนี้ ในหน้านั้นคุณยังสามารถค้นหาลิงก์ไปยังการลงทะเบียนสำหรับ**บริการ Power BI Pro**เวอร์ชันทดลองใช้ 30 วันด้วย 25 สิทธิ์การใช้งานของผู้ใช้ด้วย คุณมีตัวเลือกในการซื้อหรือเพิ่มสิทธิ์การใช้งานเพิ่มเติมตามความจำเป็น โดยเป็นส่วนหนึ่งของการลงทะเบียนทดลองใช้ นอกจากนี้แล้ว เรายังมีข้อเสนอสำหรับ Enterprise Agreement (EA) ภาครัฐ และองค์กรไม่แสวงหาผลกำไรด้วย โปรดติดต่อตัวแทนลูกค้าของ Microsoft ของคุณสำหรับรายละเอียดเพิ่มเติม
+   คุณจะพบข้อมูลมากมายบน[โฮมเพจ Power BI Germany Cloud ](https://powerbi.microsoft.com/power-bi-germany/)รวมถึงข้อมูลราคา บนหน้า คุณยังสามารถค้นหาลิงก์ไปยังลงทะเบียน**บริการ Power BI Pro**เวอร์ชันทดลองใช้ 30 วัน ด้วย 25 สิทธิ์ผู้ใช้ได้ เป็นส่วนหนึ่งของการลงทะเบียนทดลองใช้ คุณมีตัวเลือกการซื้อ หรือเพิ่มสิทธิ์การใช้งานเพิ่มเติมตามความจำเป็น นอกจากนี้แล้ว เรายังมีข้อเสนอสำหรับ Enterprise Agreement (EA) ภาครัฐ และองค์กรไม่แสวงหาผลกำไรด้วย ติดต่อตัวแทนลูกค้า Microsoft ของคุณสำหรับรายละเอียดเพิ่มเติม
 3. **ฉันมีผู้เช่า Germany Cloud เป็นส่วนหนึ่งของการสมัครใช้งาน Azure Germany และ/หรือ Office 365 Germany ฉันสามารถใช้ผู้เช่าที่มีอยู่เพื่อลงทะเบียนสำหรับ Power BI Germany ได้หรือไม่?**
    
-   ใช่ คุณจะมีตัวเลือกในการเข้าสู่ระบบด้วยบัญชีผู้ดูแลระบบผู้เช่า Germany Cloud ที่มีอยู่ และเพิ่มสิทธิ์การใช้งานบริการ Power BI Pro ลงในผู้เช่าปัจจุบันของคุณในระบบ Cloud Germany ซึ่งนี่เป็นส่วนหนึ่งของกระบวนการการลงทะเบียน โปรดทราบว่าผู้เช่า Germany Cloud และบัญชีผู้ใช้จะแตกต่างจากบริการ Power BI สำหรับ Germany Cloud
+   ใช่ คุณจะมีตัวเลือกในการเข้าสู่ระบบด้วยบัญชีผู้ดูแลระบบผู้เช่า Germany Cloud ที่มีอยู่ และเพิ่มสิทธิ์การใช้งานบริการ Power BI Pro ลงในผู้เช่าปัจจุบันของคุณในระบบ Cloud Germany ซึ่งนี่เป็นส่วนหนึ่งของกระบวนการการลงทะเบียน โปรดทราบว่าผู้เช่า Germany Cloud และบัญชีผู้ใช้จะแตกต่างจากบริการ Power BI สำหรับ Germany cloud
 4. **มีบริการฟรีในบริการ Power BI สำหรับ Germany Cloud หรือไม่?**
    
    หมายเลข เราไม่มีเวอร์ชันสิทธิ์การใช้งานฟรีในบริการ Power BI สำหรับ Germany Cloud อย่างไรก็ตาม เราขอแนะนำให้คุณลงทะเบียนสำหรับ[Power BI ฟรีที่นำเสนอในระบบคลาวด์สาธารณะของเรา](https://powerbi.microsoft.com/get-started/)ถ้าความต้องการทางธุรกิจของคุณตอบสนองด้วยข้อเสนอฟรีของ Power BI
@@ -56,7 +56,7 @@ ms.locfileid: "54295869"
    * Power BI Embedded (การให้สิทธิ์ใช้งานแยกต่างหากสำหรับ ISV จะนำเสนอผ่าน[Microsoft Azure Germany](https://azure.microsoft.com/overview/clouds/germany/)ในอนาคต)
 7. **ฉันสามารถหาบริการ Power BI สำหรับข้อมูลการกำหนดค่าเฉพาะ Germany Cloud สำหรับใช้งานและการรวมในแอปพลิเคชันของฉันได้ที่ไหน?**
    
-   เราได้ปรับปรุง[ตัวอย่าง SaaS แบบฝังสำหรับนักพัฒนา](https://github.com/Microsoft/PowerBI-Developer-Samples)ของเราด้วย ข้อมูลการกำหนดค่าเฉพาะของ Germany Cloud และระบบคลาวด์อื่น ๆ ของ Power BI โปรดดูโฟลเดอร์ **Cloud Configs** ในตัวอย่างต่าง ๆ สำหรับจุดสิ้นสุดการกำหนดค่าเฉพาะระบบคลาวด์ ตารางต่อไปนี้แสดงรายการของจุดสิ้นสุดการกำหนดค่าต่าง ๆ สำหรับบริการ Power BI สำหรับ Germany Cloud (และระบบคลาวด์สาธารณะสำหรับการอ้างอิงข้าม)
+   เราได้ปรับปรุง[ตัวอย่าง SaaS แบบฝังสำหรับนักพัฒนา](https://github.com/Microsoft/PowerBI-Developer-Samples)ของเราด้วย ข้อมูลการกำหนดค่าเฉพาะของ Germany Cloud และระบบคลาวด์อื่น ๆ ของ Power BI ดู**Cloud Configs**โฟลเดอร์ในตัวอย่างสำหรับจุดสิ้นสุดการกำหนดค่าเฉพาะระบบคลาวด์ ตารางต่อไปนี้แสดงรายการของจุดสิ้นสุดการกำหนดค่าต่าง ๆ สำหรับบริการ Power BI สำหรับ Germany Cloud (และระบบคลาวด์สาธารณะสำหรับการอ้างอิงข้าม)
 
 | **ชื่อจุดสิ้นสุดและ/หรือการใช้งาน** | **บริการ Power BI สำหรับ URL ระบบคลาวด์ประเทศเยอรมนี (Germany Cloud)** | **URL ที่เทียบเท่าในระบบคลาวด์สาธารณะ (สำหรับการอ้างอิงข้าม)** |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ ms.locfileid: "54295869"
 | Power BI Service Resource Uri |[https://analysis.cloudapi.de/powerbi/api](https://analysis.cloudapi.de/powerbi/api) |[https://analysis.windows.net/powerbi/api](https://analysis.windows.net/powerbi/api) |
 | ไลบรารีการแสดงภาพแบบกำหนดเอง |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | ลงทะเบียนแอปพลิเคชันสำหรับ Power BI (สำหรับฝัง) |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
-| พอร์ทัล Azure (สำหรับฝัง) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
+| พอร์ทัล azure (สำหรับฝัง) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
 | ชุมชน |[https://community.powerbi.com/](https://community.powerbi.com/) |[https://community.powerbi.com/](https://community.powerbi.com/) |
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

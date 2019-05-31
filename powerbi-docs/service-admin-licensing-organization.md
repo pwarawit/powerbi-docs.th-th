@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 003d179902ad3eeb5dc6dea841936a217a292d0c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383249"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65099839"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>การออกใบอนุญาตการใช้งาน Power BI ในองค์กรของคุณ
 
@@ -27,9 +27,15 @@ ms.locfileid: "58383249"
 
 ในฐานะผู้ดูแลระบบคุณสามารถซื้อและมอบใบอนุญาตการใช้งาน Power BI Pro และคุณสามารถลงทะเบียนเพื่อทดลองใช้งาน Power BI Pro สำหรับองค์กรของคุณได้ บุคคลสามารถลงทะเบียนเพื่อทดลองใช้งาน Power BI Pro
 
-### <a name="purchasing-power-bi-pro"></a>การซื้อ Power BI Pro
+### <a name="purchase-power-bi-pro"></a>ซื้อ Power BI Pro
 
 คุณซื้อใบอนุญาตการใช้งาน Power BI Pro ผ่าน Microsoft Office 365 หรือผ่านพันธมิตรของ Microsoft ที่ได้รับการรับรอง หลังจากที่คุณซื้อใบอนุญาตแล้วคุณจะมอบให้กับผู้ใช้แต่ละรายได้ ดูข้อมูลเพิ่มเติมได้ที่ [ซื้อและมอบใบอนุญาตใบอนุญาตการใช้ Power BI Pro](service-admin-purchasing-power-bi-pro.md)
+
+### <a name="power-bi-pro-license-expiration"></a>หมดอายุสิทธิ์การใช้งานของ power BI Pro
+
+ไม่มีช่วงเวลาผ่อนผันหลังจากสิทธิ์การใช้งาน Power BI Pro หมดอายุ สำหรับสิทธิ์ใช้งานที่เป็นส่วนหนึ่งของการซื้อลิขสิทธิ์แบบจำนวนมากระยะเวลาผ่อนผันคือ 90 วัน ถ้าคุณซื้อสิทธิ์การใช้งานโดยตรง ช่วงระยะเวลาผ่อนผันคือ 30 วัน
+
+Power BI Pro มีระยะเวลาการสมัครใช้งานแบบเดียวกับ Office 365 สำหรับข้อมูลเพิ่มเติม ดู[เกิดอะไรขึ้นกับข้อมูลของฉันและการเข้าถึงเมื่อสิ้นสุด Office 365 ของฉันสมัครใช้งานได้อย่างไร](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ### <a name="power-bi-pro-trial-for-individuals"></a>การทดลองใช้งาน Power BI Pro สำหรับบุคคล
 
@@ -57,11 +63,11 @@ ms.locfileid: "58383249"
 
    ![เพิ่มการสมัครใช้งาน](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-06.png)
 
-1. ภายใต้ **แผนอื่น** , เลื่อนเมาส์ไว้เหนือจุดไข่ปลา (**... .**) สำหรับ Power BI Pro และเลือก **เริ่มต้นการทดลองใช้ฟรี** 
+1. ภายใต้ **แผนอื่น** , เลื่อนเมาส์ไว้เหนือจุดไข่ปลา ( **... .** ) สำหรับ Power BI Pro และเลือก **เริ่มต้นการทดลองใช้ฟรี**
 
    ![เริ่มทดลองใช้ฟรี](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-07.png) 
 
-1. ในหน้าจอการยืนยันคำสั่งซื้อ เลือก**ลองใช้เลย** 
+1. ในหน้าจอการยืนยันคำสั่งซื้อ เลือก**ลองใช้เลย**
 
 1. ในใบเสร็จการสั่งซื้อ เลือก **ดำเนินการต่อ**
 
@@ -97,9 +103,9 @@ ms.locfileid: "58383249"
 
 1. ในบานหน้าต่างนำทางด้านซ้าย เลือก **การเรียกเก็บเงิน** > **การสมัครใช้งาน**
 
-1. ทางด้านขวา เลือก **เพิ่มการสมัครใช้งาน +** 
+1. ทางด้านขวา เลือก **เพิ่มการสมัครใช้งาน +**
 
-1. ภายใต้ **แผนอื่นๆ** เลื่อนเมาส์เหนือจุดไข่ปลา (**. . .**) ไปที่ Power BI (ฟรี) และเลือก **ซื้อทันที**
+1. ภายใต้ **แผนอื่นๆ** เลื่อนเมาส์เหนือจุดไข่ปลา ( **. . .** ) ไปที่ Power BI (ฟรี) และเลือก **ซื้อทันที**
 
     ![ซื้อทันที - Power BI (ฟรี)](media/service-admin-licensing-organization/buy-powerbi-free.png)
 
@@ -128,12 +134,12 @@ ms.locfileid: "58383249"
      connect-msolservice -credential $msolcred
     ```
 
-   ![ลงชื่อเข้าใช้ Azure Active Directory](media/service-admin-licensing-organization/aad-signin.png)
+   ![ลงชื่อเข้าใช้ Azure Active Directory](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. เมื่อคุณลงชื่อเข้าใช้ ออกคำสั่งต่อไปนี้เพื่อดูสิ่งที่ผู้เช่าของคุณกำหนดค่าไว้ในขณะนี้
+1. เมื่อคุณลงชื่อเข้าใช้ ออกคำสั่งต่อไปนี้เพื่อดูสิ่งที่ผู้เช่าของคุณกำหนดค่าไว้ในขณะนี้ (โปรดสังเกตว่า 'fl' ด้านล่างใช้ตัวอักษร 'l ไม่หมายเลข 1)
 
     ```powershell
-     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
+     Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 
     ```
 1. ออกคำสั่งต่อไปนี้เพื่อเปิดใช้งาน ($true) หรือปิดใช้งาน ($false) **AllowAdHocSubscriptions**
 

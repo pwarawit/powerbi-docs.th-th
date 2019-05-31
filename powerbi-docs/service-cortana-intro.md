@@ -1,28 +1,31 @@
 ---
-title: ค้นหาและดูรายงานและใช้แดชบอร์ดได้อย่างรวดเร็วโดยใช้ Cortana
+title: ใช้ Cortana เพื่อค้นหา และดูรายงานและแดชบอร์ด - Power BI
 description: ใช้ Cortana กับ Power BI เพื่อรับคำตอบจากข้อมูลของคุณ ขณะนี้ทำงานกับรายงานและแดชบอร์ด
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 26bd41c8fa2d1300a0f9e106c7899777ac5950f7
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
-ms.translationtype: HT
+ms.openlocfilehash: 6d53ddcfc4121e8937810bd6f734f91cd7a9fa39
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482740"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375285"
 ---
-# <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>ค้นหาและดูข้อมูล Power BI ของคุณได้อย่างรวดเร็วโดยใช้ Cortana สำหรับ Power BI
+# <a name="find-and-view-your-power-bi-data-with-cortana-for-power-bi"></a>ค้นหา และดูข้อมูล Power BI ของคุณ ด้วย Cortana สำหรับ Power BI
 ใช้ Cortana ในทุกอุปกรณ์ Windows 10 ของคุณเพื่อให้ได้คำตอบสำหรับคำถามทางธุรกิจที่สำคัญของคุณทันที โดยการรวม Cortana กับ Power BI ทำให้สามารถดึงข้อมูลที่สำคัญได้โดยตรงจากแดชบอร์ดและรายงาน Power BI สิ่งที่ต้องใช้คือ Windows 10 เวอร์ชั่นพฤศจิกายน ปี 2015 หรือเวอร์ชั่นใหม่กว่า Cortana, Power BI และสิทธิ์การเข้าถึงอย่างน้อยหนึ่งชุดข้อมูล
+
+> [!IMPORTANT]
+> ไม่มีการสนับสนุนการรวม Cortana ใน Power BI เริ่มต้นวันที่ 11 มิถุนายน Cortana จะไม่ทำงานสำหรับแดชบอร์ดและรายงาน
 
 ![เขตข้อมูลการค้นหา Cortana](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
 ## <a name="preview-the-new-cortana-dashboard-search-experience-for-windows-10"></a>แสดงตัวอย่างประสบการณ์การใช้งานการค้นหา*แดชบอร์ด* Cortana ใหม่สำหรับ Windows 10
-ตอนนี้คุณสามารถ[ใช้ Cortana เพื่อดึงข้อมูลบางชนิดของหน้ารายงาน](service-cortana-answer-cards.md)ได้แล้ว ตอนนี้เราได้เพิ่ม**ประสบการณ์ใหม่** นั่นคือ ความสามารถในการดึงแดชบอร์ดด้วยเช่นกัน ลองใช้งานดูและ[โปรดส่งคำติชมมายังเราได้ที่ Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi) ในท้ายที่สุด*ประสบการณ์ใหม่*จะขยายผลเพื่อรวมการค้นหาด้วย Cortana สำหรับรายงานด้วย  หนึ่งในประโยชน์สำคัญของประสบการณ์ใหม่นี้คือ คุณไม่จำเป็นต้องทำอะไรพิเศษเพื่อที่จะตั้งค่า ไม่ต้องเปิดใช้งาน Cortana หรือการกำหนดค่า Windows 10 ระบบจะทำงานด้วยตัวเอง
+ตอนนี้คุณสามารถ[ใช้ Cortana เพื่อดึงข้อมูลบางชนิดของหน้ารายงาน](service-cortana-answer-cards.md)ได้แล้ว ตอนนี้เราได้เพิ่ม**ประสบการณ์ใหม่** นั่นคือ ความสามารถในการดึงแดชบอร์ดด้วยเช่นกัน ลองใช้ และ[โปรดส่งคำติชมที่ Power BI คิด](https://ideas.powerbi.com/forums/265200-power-bi) ในท้ายที่สุด*ประสบการณ์ใหม่*จะขยายผลเพื่อรวมการค้นหาด้วย Cortana สำหรับรายงานด้วย  หนึ่งในประโยชน์สำคัญของประสบการณ์ใหม่นี้คือ คุณไม่จำเป็นต้องทำอะไรพิเศษเพื่อที่จะตั้งค่า ไม่ต้องเปิดใช้งาน Cortana หรือการกำหนดค่า Windows 10 ระบบจะทำงานด้วยตัวเอง
 
 > [!NOTE]
 > ถ้าระบบยังไม่ “ทำงาน” อย่างที่กล่าวมา โปรดดู[บทความการแก้ไขปัญหาเบื้องต้น](service-cortana-troubleshoot.md)สำหรับความช่วยเหลือ
@@ -31,20 +34,20 @@ ms.locfileid: "55482740"
 
 เทคโนโลยีพื้นฐานใช้[บริการการค้นหา Azure ของ Microsoft](https://docs.microsoft.com/azure/search/) บริการการค้นหานี้มีความสามารถพิเศษ เช่น การจัดอันดับแบบสมาร์ท แก้ไขข้อผิดพลาด และเติมคำอัตโนมัติ
 
-ทั้งสองประสบการณ์การใช้งาน Cortana จะทำงานไปพร้อมกัน
+ประสบการณ์การใช้งาน Cortana ทั้งสองสามารถมี--เคียงข้างกัน
 
 ## <a name="cortana-for-power-bi-documentation"></a>Cortana สำหรับเอกสารประกอบ Power BI
-เรามีบทความ 4 บทที่จะให้คำแนะนำคุณเกี่ยวกับการตั้งค่าและใช้ Cortana สำหรับ Power BI ชุดบทความนี้จะนำคุณผ่านขั้นตอนไปยัง
+เอกสารสี่แนะนำคุณเกี่ยวกับการตั้งค่า และใช้ Cortana สำหรับ Power BI
 
 **บทความ 1** (บทความนี้): ทำความเข้าใจวิธีการที่ Cortana และ Power BI ทำงานร่วมกัน
 
-**บทความ 2**:[ค้นหารายงาน Power BI: เปิดใช้งานการรวม Cortana - Power BI - Windows สำหรับรายงาน](service-cortana-enable.md)
+**บทความ 2**: [ค้นหารายงาน Power BI: เปิดใช้งานการรวม Cortana - Power BI - Windows สำหรับรายงาน](service-cortana-enable.md)
 
-**บทความ 3**: [ค้นหารายงาน Power BI: สร้าง*บัตรคำตอบ Cortana*](service-cortana-answer-cards.md) พิเศษ
+**บทความ 3**: [ค้นหารายงาน Power BI: สร้างพิเศษ*บัตรคำตอบ Cortana*](service-cortana-answer-cards.md)
 
 **บทความ 4**: [แก้ไขปัญหา](service-cortana-troubleshoot.md)
 
-## <a name="how-do-cortana-and-power-bi-work-together"></a>Cortana และ Power BI ทำงานร่วมกันอย่างไร?
+## <a name="how-cortana-and-power-bi-work-together"></a>วิธีการ Cortana และ Power BI ทำงานร่วมกัน
 เมื่อคุณใช้ Cortana เพื่อถามคำถาม Power BI สามารถเป็นหนึ่งในตำแหน่งที่ Cortana ค้นหาคำตอบ ใน Power BI, Cortana สามารถค้นหาคำตอบที่เต็มไปด้วยข้อมูลจากรายงาน Power BI (ที่ประกอบด้วยหน้ารายงานชนิดพิเศษที่เรียกว่า *บัตรคำตอบ Cortana*) และจากแดชบอร์ด Power BI ได้
 
 ถ้า Cortana พบคำตอบที่ตรงกับคำถาม ระบบจะแสดงชื่อของหน้าแดชบอร์ดหรือรายงานในหน้าจอ Cortana ของคุณ สามารถเปิดหน้าแดชบอร์ดหรือรายงานใน Power BI ได้ คุณสามารถสำรวจหน้ารายงานได้ใน Cortana ซึ่งเป็นหน้ารายงานแบบโต้ตอบ
@@ -58,16 +61,16 @@ Cortana สามารถค้นหาคำตอบในแดชบอร
 
 ถ้าหัวเรื่องแดชบอร์ดของคุณมีมากกว่าหนึ่งคำ Cortana จะส่งกลับแดชบอร์ดนั้นเท่านั้นหากการค้นหาตรงกับคำอย่างน้อยสองคำ หรือหากแดชบอร์ดของคุณตรงกับหนึ่งในคำเหล่านั้นรวมกับชื่อเจ้าของ สำหรับแดชบอร์ดที่ชื่อว่า "ตัวอย่างกำไรจากลูกค้า": 
 
-* "แสดงลูกค้า" จะ*ไม่*ส่งกลับผลลัพธ์แดชบอร์ด Power BI   
-* "เปล่งคำพูด เช่น"แสดงกำไรจากลูกค้า" "ลูกค้า p" "ลูกค้า s" "ตัวอย่างกำไรจาก" "ตัวอย่าง michele hart" "แสดงตัวอย่างกำไรจากลูกค้า" และ "แสดงลูกค้า p ของฉัน" *จะ*ส่งกลับผลลัพธ์ Power BI หนึ่งผลลัพธ์
-* การเพิ่มคำว่า "powerbi" จะนับเป็นหนึ่งคำจากที่กำหนดไว้สองคำ ดังนั้น "powerbi sample" *จะ*ส่งกลับผลลัพธ์ Power BI หนึ่งผลลัพธ์ 
+* "แสดงลูกค้า" *ไม่*ส่งกลับผลลัพธ์ Power BI แดชบอร์ด   
+* "เปล่งคำพูดเช่น"แสดงกำไรจากลูกค้า" "ลูกค้า p" "ลูกค้า s" "ตัวอย่างกำไรจาก" "ตัวอย่าง michele hart" "แสดงลูกค้าตัวอย่างกำไรจาก" และ"แสดงลูกค้า p" *ทำ*ส่งกลับผลลัพธ์ Power BI
+* เพิ่มคำ "ว่า powerbi" นับเป็นหนึ่งในสองจำเป็นต้องมีคำ ดังนั้น "powerbi "ตัวอย่าง*ไม่*ส่งกลับผลลัพธ์ Power BI 
   
     ![ค้นหา Cortana มีอย่างน้อย 2 คำ](media/service-cortana-intro/power-bi-cortana-2-words.png)
 
 ### <a name="cortana-and-reports"></a>Cortana และรายงาน
  Cortana สามารถค้นหาคำตอบในรายงานที่มี[หน้าที่ออกแบบมาโดยเฉพาะสำหรับการแสดงผลโดย Cortana](service-cortana-answer-cards.md)ได้ เพียงแค่ถามคำถามโดยใช้ชื่อเรื่องหรือคำสำคัญจากหนึ่งในหน้ารายงานพิเศษเหล่านี้  
 
-เทคโนโลยีพื้นฐานสำหรับรายงานใช้ [การถามตอบ Microsoft Power BI](consumer/end-user-q-and-a.md)
+เทคโนโลยีพื้นฐานสำหรับการใช้รายงาน[Power BI ถามตอบ](power-bi-tutorial-q-and-a.md)
 
 เมื่อคุณถามคำถามใน Cortana, Power BI ตอบคำถามจากหน้ารายงานที่ออกแบบมาโดยเฉพาะสำหรับ Cortana คำตอบที่เป็นไปได้จะถูกกำหนดโดย Cortana โดยตรงจากใน*บัตรคำตอบ* Cortana ที่สร้างไว้แล้วใน Power BI  เพื่อเป็นการสำรวจคำตอบเพิ่มเติม ให้เปิดผลลัพธ์ใน Power BI
 
@@ -122,7 +125,7 @@ Cortana สามารถค้นหาคำตอบในแดชบอร
      ![เปิดรายงานจาก Cortana](media/service-cortana-intro/power-bi-cortana-open2.png "บัตรคำตอบ Cortana เปิดขึ้นในการค้นหา Cortana")
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
-* Cortana จะไม่สามารถเข้าถึงบัตร Cortana ใด ๆ ที่ไม่ได้[เปิดใช้งานสำหรับ Power BI](service-cortana-enable.md) ได้
+* Cortana ไม่สามารถเข้าถึงบัตร Cortana ใด ๆ ที่ยังไม่ได้ถูก[เปิดใช้งานสำหรับ Power BI](service-cortana-enable.md)
 * ยังคงไม่สามารถทำให้ Cortana ทำงานร่วมกับ Power BI ได้?  ลอง[ตัวแก้ไขปัญหา Cortana](service-cortana-troubleshoot.md)
 * ในขณะนี้ Cortana สำหรับ Power BI ใช้งานได้ในภาษาอังกฤษเท่านั้น
 * Cortana สำหรับ Power BI ใช้งานได้บนอุปกรณ์เคลื่อนที่ Windows เท่านั้น

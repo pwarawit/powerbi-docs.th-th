@@ -1,30 +1,32 @@
 ---
 title: ติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 description: เรียนรู้วิธีการติดตั้งเซิร์ฟเวอร์รายงาน Power BI
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/07/2018
-ms.openlocfilehash: 109c0f98705f81d48811f756c49150c8cb286e27
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014449"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187732"
 ---
 # <a name="install-power-bi-report-server"></a>ติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 
 เรียนรู้วิธีการติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 
- **ดาวน์โหลด** ![ดาวน์โหลด](media/install-report-server/download.png "ดาวน์โหลด")
+## <a name="download-power-bi-report-server"></a>ดาวน์โหลด Power BI Report Server
 
-เมื่อต้องการดาวน์โหลดเซิร์ฟเวอร์รายงาน Power BI ไปที่[การรายงานภายในองค์กรกับเซิร์ฟเวอร์ Power BI](https://powerbi.microsoft.com/report-server/)และเลือก**ดาวน์โหลดเวอร์ชันทดลองใช้ฟรี** 
+[ดาวน์โหลด Power BI Report Server](https://www.microsoft.com/download/details.aspx?id=56722)จากศูนย์ดาวน์โหลด Microsoft
 
-## <a name="before-you-begin"></a>ก่อนที่คุณเริ่มต้น
+ยังมีเวอร์ชันทดลองใช้ฟรี บนการ[ภายในองค์กรด้วยเซิร์ฟเวอร์รายงาน Power BI](https://powerbi.microsoft.com/report-server/)หน้า เลือก**ดาวน์โหลดเวอร์ชันทดลองใช้ฟรี**
+
+## <a name="before-you-install"></a>ก่อนที่คุณติดตั้ง
 
 ก่อนที่คุณจะติดตั้ง Power BI Report Server เราขอแนะนำให้คุณตรวจสอบ [ข้อกำหนดของฮาร์ดแวร์และซอฟต์แวร์สำหรับการติดตั้ง Power BI Report Server](system-requirements.md)
 
@@ -32,6 +34,13 @@ ms.locfileid: "57014449"
  > ในขณะที่คุณสามารถติดตั้งเซิร์ฟเวอร์รายงาน Power BI ในสภาพแวดล้อมที่มีตัวควบคุมโดเมนแบบอ่านอย่างเดียว (RODC), Power BI Report Server จำเป็นต้องเข้าถึงตัวควบคุมโดเมนแบบอ่าน-เขียนเพื่อให้ทำงานได้อย่างถูกต้อง ถ้า Power BI Report Server สามารถเข้าถึง RODC ได้เท่านั้นคุณอาจพบข้อผิดพลาดเมื่อพยายามจัดการบริการ
 
 ### <a name="power-bi-report-server-product-key"></a>คีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI
+
+คุณสามารถรับคีย์ผลิตภัณฑ์สำหรับเซิร์ฟเวอร์รายงาน Power BI จากแหล่งข้อมูลอื่นสอง:
+
+- Power BI Premium
+- SQL Server Enterprise Software Assurance (SA)
+
+อ่านรายละเอียด
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -66,8 +75,8 @@ ms.locfileid: "57014449"
 
     ![รุ่น 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    มิฉะนั้น คุณสามารถป้อนคีย์ผลิตภัณฑ์สำหรับเซิร์ฟเวอร์ที่คุณได้รับมาจากบริการ Power BI หรือศูนย์บริการ Volume License ดูที่ส่วน[ก่อนเริ่มต้น](#before-you-begin)สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการรับคีย์ผลิตภัณฑ์ของคุณ
-4. อ่านและยอมรับเงื่อนไขและข้อกำหนดสิทธิ์การใช้งาน และจากนั้นเลือก**ถัดไป**
+    มิฉะนั้น ใส่คีย์ผลิตภัณฑ์ที่คุณได้รับจากบริการ Power BI หรือศูนย์บริการ Volume License สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการรับคีย์ผลิตภัณฑ์ของคุณ ดู[ก่อนที่คุณติดตั้ง](#before-you-install)ส่วนด้านบน
+4. อ่าน และยอมรับเงื่อนไขและข้อกำหนดสิทธิ์การใช้งาน จาก นั้นเลือก**ถัดไป**
 
     ![ข้อกำหนดสิทธิ์การใช้งาน](media/install-report-server/pbireportserver-eula.png)
 5. คุณจำเป็นต้องมีกลไลจัดการฐานข้อมูลที่พร้อมใช้งานเพื่อจัดเก็บฐานข้อมูลเซิร์ฟเวอร์รายงาน เลือก**ถัดไป**เพื่อติดตั้งเซิร์ฟเวอร์รายงานเท่านั้น
@@ -83,7 +92,7 @@ ms.locfileid: "57014449"
 
     ![กำหนดค่าเซิร์ฟเวอร์รายงาน](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configuring-your-report-server"></a>กำหนดค่าเซิร์ฟเวอร์รายงานของคุณ
+## <a name="configure-your-report-server"></a>กำหนดค่าเซิร์ฟเวอร์รายงานของคุณ
 
 หลังจากที่คุณเลือก**กำหนดค่าเซิร์ฟเวอร์รายงาน**ในการตั้งค่า คุณจะพบ Reporting Services Configuration Manager ดูที่[ตัวจัดการการกำหนดค่าบริการการรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)สำหรับข้อมูลเพิ่มเติม
 

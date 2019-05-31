@@ -2,20 +2,20 @@
 title: เซิร์ฟเวอร์รายงาน Power BI คืออะไร?
 description: ดูภาพรวมของเซิร์ฟเวอร์รายงานของ Power BI เพื่อทำความเข้าใจ ว่าทำงานร่วมกับ SQL Server Reporting Services (SSRS) และส่วนที่เหลือของ Power BI อย่างไร
 keywords: ''
-author: markingmyname
-ms.author: maghan
-ms.date: 11/20/2018
+author: maggiesMSFT
+ms.author: maggies
+ms.date: 05/22/2019
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: cd3dbc21c094c0db3f8d32d8d976339a1d1061f4
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 37751117853c8bca686585992108c006c6c76b70
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325185"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187487"
 ---
 # <a name="what-is-power-bi-report-server"></a>เซิร์ฟเวอร์รายงาน Power BI คืออะไร?
 
@@ -24,10 +24,10 @@ Power BI Report Server เป็นเซิร์ฟเวอร์รายง
 ![พอร์ทัลเว็บของ Power BI Report Server](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI 
-เซิร์ฟเวอร์รายงาน Power BI คล้ายกับทั้ง SQL Server Reporting Services และบริการออนไลน์ของ Power BI แต่ในด้านที่ต่างกัน เซิร์ฟเวอร์รายงาน Power BI โฮสต์รายงาน Power BI (.PBIX) และแฟ้ม Excel ได้เหมือนกับบริการของ Power BI เซิร์ฟเวอร์รายงาน Power BI อยู่ภายในองค์กร และโฮสต์รายงานที่มีการแบ่งหน้า (.RDL) ได้เหมือนกับ Reporting Services เซิร์ฟเวอร์รายงาน Power BI คือเซตใหญ่ของ Reporting Services: ทุกอย่างที่คุณสามารถทำได้ใน Reporting Services คุณสามารถทำได้ในเซิร์ฟเวอร์รายงาน Power BI รวมทั้งเพิ่มการสนับสนุนสำหรับรายงาน Power BI ดู[เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI](compare-report-server-service.md) สำหรับรายละเอียด
+เซิร์ฟเวอร์รายงาน Power BI คล้ายกับทั้ง SQL Server Reporting Services และบริการออนไลน์ของ Power BI แต่ในด้านที่ต่างกัน เช่นบริการ Power BI เซิร์ฟเวอร์รายงาน Power BI โฮสต์รายงาน Power BI ( PBIX) ไฟล์ Excel และรายงานแบบแบ่งหน้า ( RDL) เหมือนกับ Reporting Services เซิร์ฟเวอร์รายงาน Power BI อยู่ภายในองค์กร ลักษณะการทำงานเซิร์ฟเวอร์รายงาน BI power เป็นเซตใหญ่ของ Reporting Services: ทุกอย่างที่คุณสามารถทำได้ใน Reporting Services คุณสามารถทำได้ ด้วยเซิร์ฟเวอร์รายงาน Power BI พร้อมกับการสนับสนุนสำหรับรายงาน Power BI ได้ ดู[เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI](compare-report-server-service.md) สำหรับรายละเอียด
 
 ## <a name="licensing-power-bi-report-server"></a>สิทธิ์การใช้งานเซิร์ฟเวอร์รายงาน Power BI
-เซิร์ฟเวอร์รายงาน power BI จะใช้งานได้เมื่อมีใบอนุญาตให้ใช้งานสองอย่างดังต่อไปนี้: [Power BI Premium](../service-premium.md) และ [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)พร้อมการรับประกันซอฟต์แวร์ ด้วยสิทธิ์การใช้งาน Power BI Premium คุณสามารถสร้างการปรับใช้ที่ผสมผสานระหว่างระบบคลาวด์และภายในองค์กร  
+เซิร์ฟเวอร์รายงาน power BI จะใช้งานได้เมื่อมีใบอนุญาตให้ใช้งานสองอย่างดังต่อไปนี้: [Power BI Premium](../service-premium-what-is.md) และ [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)พร้อมการรับประกันซอฟต์แวร์ ด้วยสิทธิ์การใช้งาน Power BI Premium คุณสามารถสร้างการปรับใช้ที่ผสมผสานระหว่างระบบคลาวด์และภายในองค์กร  
 
 > [!NOTE]
 > สำหรับ Power BI Premium เซิร์ฟเวอร์รายงาน Power BI จะมาพร้อมกับ P SKU ไม่รวมกับ EM SKU
@@ -48,14 +48,14 @@ Power BI Report Server เป็นเซิร์ฟเวอร์รายง
 
 รายงาน Power BI เป็นการดูจากหลายมุมมองเข้าไปในรูปแบบข้อมูล ด้วยการแสดงภาพที่แสดงการค้นพบและข้อมูลเชิงลึกต่าง ๆ ที่ได้จากรูปแบบข้อมูลนั้น  รายงานสามารถมีการแสดงภาพเดียวหรือมีหน้าที่เต็มไปด้วยการแสดงภาพ ขึ้นอยู่กับบทบาทของคุณ คุณอาจอ่านและสำรวจรายงาน หรือคุณอาจสร้างรายงานสำหรับผู้อื่น
 
-ติดตั้ง [Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](quickstart-create-powerbi-report.md)
+อ่านเกี่ยวกับ[ติดตั้ง Microsoft Power BI Desktop](install-powerbi-desktop.md)
 
 ## <a name="paginated-reports"></a>รายงานที่มีการแบ่งหน้า
 รายงานที่มีการแบ่งหน้า (.RDL) เป็นรายงานรูปแบบเอกสารที่มีการแสดงภาพ ที่ตารางขยายตามแนวนอนและแนวตั้งเพื่อแสดงข้อมูลทั้งหมด ต่อเนื่องจากหน้าหนึ่งไปยังอีกหน้าหนึ่งตามความจำเป็น ซึ่งเหมาะมากกับสำหรับเอกสารที่มีเค้าโครงคงที่, พิกเซลสมบูรณ์แบบ ที่ปรับให้เหมาะสมสำหรับการพิมพ์ เช่นไฟล์ PDF และ Word 
 
 ![รายงานที่มีการแบ่งหน้าในเซิร์ฟเวอร์รายงาน Power BI](media/get-started/paginated-reports.png)
 
-คุณสร้างรายงานแบบแบ่งหน้าเหล่านี้ด้วย[ตัวสร้างรายงาน](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)หรือ ตัวออกแบบรายงาน ใน[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt) 
+คุณสามารถสร้างรายงานแบบแบ่งหน้าโดยใช้[Report Builder](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)หรือตัวออก แบบรายงานใน[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt)ได้
 
 ## <a name="reporting-services-mobile-reports"></a>รายงานอุปกรณ์มือถือของ Reporting Services
 รายงานอุปกรณ์มือถือเชื่อมต่อกับข้อมูลภายในองค์กร และมีเค้าโครงแบบตอบสนอง ที่ปรับเข้ากับอุปกรณ์ต่าง ๆ และวิธีที่คุณถือมือถือ คุณสร้างรายงานนั้นด้วย SQL Server Mobile Report Publisher

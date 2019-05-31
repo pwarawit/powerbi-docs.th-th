@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cce99c8a0e0908ef901408cbb19397fa098bac38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d7a8c1600de65ba39b075d89f3c2d95e0b0c7cde
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289612"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051230"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>กำหนดชื่อเรื่องการแสดงภาพ คำอธิบายแผนภูมิ และพื้นหลัง
 ในบทช่วยสอนนี้ คุณจะได้เรียนรู้ถึงวิธีการกำหนดการแสดงภาพของคุณเองสองถึงสามวิธี   มีตัวเลือกมากมายสำหรับการกำหนดการแสดงภาพของคุณ วิธีดีที่สุดเมื่อต้องการเรียนรู้เกี่ยวกับตัวเลือกทั้งหมดคือการสำรวจพื้นที่การจัดรูปแบบ (เลือกไอคอนลูกกลิ้งทาสี)  เพื่อช่วยให้คุณเริ่มต้นใช้งาน บทความนี้แสดงวิธีการกำหนดชื่อเรื่องการแสดงภาพ คำอธิบายแผนภูมิ และพื้นหลัง  
 
 เราไม่สามารถกำหนดค่าได้ทุกการแสดงภาพ [ดูรายการทั้งหมด](#list)ได้  
 
-ดู Amanda กำหนดการแสดงภาพเองในรายงานของเธอ (กรอไปข้างหน้าที่ 4:50 ในวิดีโอนี้) จากนั้นทำตามคำแนะนำในวิดีโอด้านล่างทีละขั้นเพื่อลองทำด้วยตนเองด้วยข้อมูลของคุณเอง
+กรอไปข้างหน้า 4:50 ในวิดีโอสำหรับการสาธิตวิธีการแสดงภาพที่กำหนดด้วยตนเอง จากนั้นทำตามคำแนะนำในวิดีโอด้านล่างทีละขั้นเพื่อลองทำด้วยตนเองด้วยข้อมูลของคุณเอง
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 

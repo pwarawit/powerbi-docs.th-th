@@ -7,25 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: e1748c478f9f58b568b901f3a243e64e4658f6a6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bb0f6febfaee30c3eab3ce8b8aa618eb09c464bf
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54273098"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375241"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>ใช้บริการของ Power BI หรือ Power BI Desktop เพื่อสร้างหน้าคำตอบแบบกำหนดเองสำหรับ Cortana
 ใช้ความสามารถเต็มของ Power BI เพื่อสร้างหน้ารายงานพิเศษ ที่เรียกว่า*หน้าคำตอบ Cortana* (และในบางครั้งเรียกว่า *การ์ดคำตอบ Cortana*) ที่ออกแบบมาโดยเฉพาะเพื่อตอบคำถาม Cortana
 
-![](media/service-cortana-answer-cards/power-bi-cortana.png)
-
 > [!IMPORTANT]
-> ถ้าคุณกำลังลองใช้ Cortana และ**แดชบอร์ด** Power BI ซึ่งยังเป็นคุณสมบัติตัวอย่าง คุณสามารถข้ามส่วนที่เหลือของบทความนี้ได้ ไม่ต้องมีการตั้งค่าใด ๆ เพื่อให้ Cortana สามารถค้นหาแดชบอร์ด Power BI ของคุณได้
-> 
-> 
+> ไม่มีการสนับสนุนการรวม Cortana ใน Power BI เริ่มต้นวันที่ 11 มิถุนายน Cortana จะไม่ทำงานสำหรับแดชบอร์ดและรายงาน
+
+![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
 ## <a name="before-you-begin"></a>ก่อนที่คุณเริ่มต้น
 คุณมี 4 บทความที่แนะนำคุณเกี่ยวกับการตั้งค่า และใช้ Cortana สำหรับ Power BI ถ้าคุณยังไม่ได้อ่าน เริ่มต้นโดยอ่านบทความ 1 ก่อน บทความ 2 มีความสำคัญเป็นพิเศษ เพราะอธิบายขั้นตอนบางอย่างที่คุณจะต้องทำ ก่อนที่คุณสามารถเริ่มใช้หน้าคำตอบ Cortana

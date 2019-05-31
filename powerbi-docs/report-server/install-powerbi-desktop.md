@@ -1,24 +1,22 @@
 ---
 title: ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
 description: เรียนรู้วิธีติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/24/2019
-ms.openlocfilehash: 7abf679c663f9c71c277c74960fe65c9aee6568d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 54713c9c978554521d68aeb7b4c25d681ddb3d69
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324978"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187452"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
-
-เรียนรู้วิธีติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
 
 เมื่อต้องสร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน Power BI คุณจำเป็นต้องดาวน์โหลดและติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI การเผยแพร่นี้จะแตกต่างจาก Power BI Desktop ที่ใช้กับบริการ Power BI ตัวอย่างเช่น เวอร์ชัน Power BI Desktop สำหรับบริการ Power BI จะมีคุณลักษณะตัวอย่างที่ไม่พร้อมใช้งานในเวอร์ชันเซิร์ฟเวอร์รายงาน Power BI จนกระทั่งหลังจากที่มีการเผยแพร่แล้ว การใช้การเผยแพรนี้จะทำให้แน่ใจว่า เซิร์ฟเวอร์รายงานสามารถโต้ตอบกับรายงานและแบบจำลองเวอร์ชันที่ทราบแล้วได้ 
 
@@ -32,7 +30,7 @@ ms.locfileid: "56324978"
 
     ![ดาวน์โหลด Power BI Desktop จากพอร์ทัลของเว็บ](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    หรือไปที่ [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=2055039) (ที่ปรับให้เหมาะกับเซิร์ฟเวอร์รายงาน Power BI - มกราคม 2019) ในศูนย์ดาวน์โหลดของ Microsoft โดยตรง
+    หรือข้ามไป[Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (เหมาะ สำหรับ เซิร์ฟเวอร์รายงาน Power BI - 2019 พฤษภาคม) ในศูนย์ดาวน์โหลด Microsoft
 
 2. ในหน้าศูนย์ดาวน์โหลด เลือก**ดาวน์โหลด**
 
@@ -42,16 +40,16 @@ ms.locfileid: "56324978"
 
     - **PBIDesktopRS_x64.msi** (เวอร์ชัน 64 บิต)
 
-1. หลังจากที่คุณดาวน์โหลดตัวติดตั้งแล้ว ให้เรียกใช้ตัวช่วยติดตั้ง Power BI Desktop (มกราคม 2019)
+1. หลังจากที่คุณดาวน์โหลดตัวติดตั้ง เรียกใช้ตัวช่วยสร้างการตั้งค่า Power BI Desktop (2019 พฤษภาคม)
 
-2. ในตอนท้ายของการติดตั้ง ทำเครื่องหมายที่**เริ่มต้น Power BI Desktop ทันที**
+2. ที่ส่วนท้ายของการติดตั้ง เลือก**เปิดใช้ Power BI Desktop**
 
     จะเริ่มต้นโดยอัตโนมัติ และคุณก็พร้อมที่จะไปต่อ
 
 ## <a name="verify-youre-using-the-correct-version"></a>ตรวจสอบว่าคุณกำลังใช้เวอร์ชันที่ถูกต้อง
 เป็นเรื่องง่ายเมื่อต้องการตรวจสอบว่าคุณกำลังใช้ Power BI Desktop ที่ถูกต้องอยู่: ดูที่เปิดใช้งานหน้าจอหรือแถบชื่อเรื่องภายใน Power BI Desktop แถบชื่อเรื่องจะระบุเดือนและปีที่มีการเผยแพร่ นอกจากนี้ สีโลโก้ Power BI จะกลับกันโดยสีเหลืองจะอยู่บนพื้นดำแทนที่เป็นสีดำบนพื้นเหลือง
 
-![แถบชื่อเรื่องสำหรับ Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](media/install-powerbi-desktop/power-bi-report-server-desktop-jan-2019.png)
+![แถบชื่อเรื่องสำหรับ Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2019.png)
 
 เวอร์ชัน Power BI Desktop สำหรับบริการ Power BI จะไม่มีเดือนและปีในแถบชื่อเรื่อง
 
@@ -62,7 +60,7 @@ ms.locfileid: "56324978"
 
 คุณสามารถเปิด Power BI Desktop เวอร์ชันที่คุณต้องการใช้ก่อนได้เสมอ จากนั้น ให้เปิดไฟล์จากภายใน Power BI Desktop
 
-การแก้ไขรายงาน Power BI จากภายในเซิร์ฟเวอร์รายงาน Power BI หรือการสร้างรายงาน Power BI ใหม่จากพอร์ทัลเว็บมักจะเปิด Power BI Desktop เวอร์ชันที่ถูกต้องเสมอ
+แก้ไขรายงาน Power BI จากภายในเซิร์ฟเวอร์รายงาน Power BI หรือสร้างรายงาน Power BI ใหม่จากพอร์ทัลของเว็บ เสมอเปิด Power BI Desktop เวอร์ชันถูกต้อง
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 
@@ -70,11 +68,7 @@ ms.locfileid: "56324978"
 
 ### <a name="in-a-browser"></a>ในเบราว์เซอร์
 
-รายงานในเซิร์ฟเวอร์รายงาน Power BI สนับสนุนการแสดงภาพทั้งหมด รวมถึง:
-
-* วิชวลแบบกำหนดเอง
-
-รายงานในเซิร์ฟเวอร์รายงาน Power BI ไม่สนับสนุน:
+Power BI เซิร์ฟเวอร์รายงานสนับสนุน แสดงภาพเกือบทั้งหมดรวมถึงวิชวลแบบกำหนดเอง รายงานในเซิร์ฟเวอร์รายงาน Power BI ไม่สนับสนุน:
 
 * วิชวล R
 * แผนที่ ArcGIS
@@ -95,13 +89,13 @@ ms.locfileid: "56324978"
 * แผนที่ ArcGIS
 * การแสดงผลด้วยภาพแบบกำหนดเอง
 * การนำทางแบบแสดงเส้นนำทาง
-* Geofiltering หรือรหัสแท่ง
+* รหัสการกรองหรือแถบทางภูมิศาสตร์
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop สำหรับเซิร์ฟเวอร์รายงาน Power BI เวอร์ชันก่อนหน้านี้
 
-ถ้าเซิร์ฟเวอร์รายงานของคุณเป็นเวอร์ชันก่อนหน้า คุณจำเป็นต้องมี Power BI Desktop เวอร์ชันที่สอดคล้องกัน นี่คือ เวอร์ชันก่อนหน้า
+ถ้าเซิร์ฟเวอร์รายงานของคุณเป็นเวอร์ชันก่อนหน้า คุณจำเป็นต้องมี Power BI Desktop เวอร์ชันที่สอดคล้องกัน นี่คือลิงก์เพื่อดาวน์โหลดเวอร์ชันก่อนหน้า
 
-- Microsoft Power BI Desktop ([ปรับให้เหมาะสมสำหรับเซิร์ฟเวอร์รายงาน Power BI - มิถุนายน 2018](https://www.microsoft.com/download/details.aspx?id=57271))
+- Microsoft Power BI Desktop ([ปรับให้เหมาะสม สำหรับเซิร์ฟเวอร์รายงาน Power BI - 2019 มกราคม](https://go.microsoft.com/fwlink/?linkid=2055039))
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

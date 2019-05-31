@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: af227d2bcbbba2a27804ec74f14003f54aa89dde
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514673"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>ใช้ตัวเชื่อมต่อ SAP BW ใน Power BI Desktop (ตัวอย่าง)
@@ -32,7 +32,7 @@ ms.locfileid: "65514673"
 1. ติดตั้งไลบรารี **SAP NetWeaver** บนเครื่องคอมพิวเตอร์ของคุณ คุณสามารถเรียกดูไลบรารี **SAP Netweaver** จากผู้ดูแลระบบ SAP ของคุณ หรือดูได้โดยตรงจาก[ศูนย์ดาวน์โหลดซอฟต์แวร์ SAP](https://support.sap.com/swdc) เนื่องจาก**ศูนย์ดาวน์โหลดซอฟต์แวร์ SAP**นั้นมีการเปลี่ยนแปลงโครงสร้างบ่อยครั้ง คำแนะนำการนำทางที่เฉพาะเจาะจงมากกว่านี้ในเว็บไซต์ดังกล่าวจึงไม่พร้อมใช้งาน โดยปกติแล้วไลบรารี **SAP NetWeaver** จะรวมอยู่ในการติดตั้งเครื่องมือลูกค้า SAP ด้วย
    
    คุณอาจสามารถค้นหา*บันทึกย่อ SAP #1025361*เพื่อให้ได้ตำแหน่งการดาวน์โหลดสำหรับเวอร์ชันล่าสุดได้ ตรวจสอบให้แน่ใจว่าสถาปัตยกรรมสำหรับไลบรารี**SAP NetWeaver** (32 บิต หรือ 64 บิต) ตรงกับการติดตั้ง**Power BI Desktop**ของคุณ จากนั้นติดตั้งไฟล์ทั้งหมดที่รวมอยู่ใน**SAP NetWeaver RFC SDK** ตามบันทึกย่อ SAP
-2. กล่องโต้ตอบ**การรับข้อมูล**รวมรายการที่ใส่เข้าไปสำหรับ**เซิร์ฟเวอร์แอปพลิเคชันของ SAP Business Warehouse**และ**เซิร์ฟเวอร์ข้อความ SAP Business Warehouse**ในประเภท**ฐานข้อมูล** 
+2. กล่องโต้ตอบ**การรับข้อมูล**รวมรายการที่ใส่เข้าไปสำหรับ**เซิร์ฟเวอร์แอปพลิเคชันของ SAP Business Warehouse**และ**เซิร์ฟเวอร์ข้อความ SAP Business Warehouse**ในประเภท**ฐานข้อมูล**
    
    ![ตัวเลือกการรับข้อมูลสำหรับ SAP](media/desktop-sap-bw-connector/sap_bw_2a.png)
 

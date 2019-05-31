@@ -1,21 +1,21 @@
 ---
 title: กำหนดค่าการรีเฟรชตามกำหนดการ
 description: ซึ่งจะครอบคลุมขั้นตอนในการเลือกเกตเวย์ และกำหนดค่าการรีเฟรชตามกำหนดการ
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7eb09f92be6c49756513b095afbdb9f451753d30
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9df65c4f6872f2141d0047bb8779f490cec9d6c7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289429"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61413904"
 ---
 # <a name="configuring-scheduled-refresh"></a>การกำหนดค่าการรีเฟรชตามกำหนดการ
 

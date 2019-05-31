@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: 31c1cd7a8455232fdaa3bb3d391fb93e87ad5062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430334"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61404540"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>บทช่วยสอน: เรียกแบบจำลอง Machine Learning Studio ใน Power BI (ตัวอย่าง)
 
@@ -90,7 +90,7 @@ ms.locfileid: "58430334"
 
 ในหน้าจอถัดไป คุณจะได้รับพร้อมท์ให้เชื่อมต่อกับแหล่งข้อมูล วางลิงก์ลงในข้อมูลที่คุณใช้เพื่อสร้างแบบจำลอง Azure ML ของคุณ หากคุณใช้ข้อมูล _การกำหนดราคารถยนต์_ คุณสามารถวางลิงก์ต่อไปนี้ลงในกล่อง **เส้นทางของไฟล์หรือ URL** จากนั้นเลือก **ถัดไป**
 
-`https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
+`https://raw.githubusercontent.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/master/Module7/Automobile%20price%20data%20_Raw_.csv`
 
 ![เชื่อมต่อกับแหล่งข้อมูล](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 

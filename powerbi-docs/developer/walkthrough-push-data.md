@@ -1,26 +1,26 @@
 ---
 title: ส่งข้อมูลลงในชุดข้อมูล
 description: ส่งข้อมูลลงในชุดข้อมูล Power BI
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 642a8e7dd118838b5ea12c8758841ee44a8e6595
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762271"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222162"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>ส่งข้อมูลลงในชุดข้อมูล Power BI
 
-โดยใช้ Power BI API คุณสามารถส่งข้อมูลลงในชุดข้อมูล Power BI ตัวอย่างเช่น คุณต้องการขยายลำดับงานทางธุรกิจที่มีอยู่ในการส่งข้อมูลที่สำคัญลงในชุดข้อมูลของคุณ ในกรณีนี้ คุณต้องการส่งชุดข้อมูลการตลาดและการขายซึ่งมีตารางผลิตภัณฑ์อยู่ลงในชุดข้อมูล
+Power BI API ช่วยให้คุณส่งข้อมูลไปยังชุดข้อมูล Power BI ในบทความนี้ เราแสดงวิธีการส่งชุดข้อมูลตลาดยอดขายที่ประกอบด้วยตารางผลิตภัณฑ์ไปยังชุดข้อมูลที่มีอยู่
 
-ก่อนที่คุณเริ่มต้นใช้งานส่งข้อมูลลงในชุดข้อมูล คุณจำเป็นต้องมี Azure Active Directory (Azure AD) และ[บัญชี Power BI](create-an-azure-active-directory-tenant.md)
+ก่อนที่จะเริ่มต้นใช้งาน คุณต้องมี Azure Active Directory (Azure AD) และ[บัญชี Power BI](create-an-azure-active-directory-tenant.md)
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>ขั้นตอนการส่งข้อมูลลงในชุดข้อมูล
 
@@ -34,7 +34,7 @@ ms.locfileid: "55762271"
 
 ## <a name="power-bi-api-operations-to-push-data"></a>การดำเนินการของ BI API power เพื่อส่งข้อมูล
 
-คุณสามารถส่งแหล่งข้อมูลไปยัง Power BI ได้โดยใช้ Power BI REST API เมื่อแอปเพิ่มแถวไปยังชุดข้อมูล ไทล์บนแดชบอร์ดจะได้รับการอัปเดตโดยอัตโนมัติด้วยข้อมูลที่อัปเดตแล้ว เพื่อพุชข้อมูล คุณใช้การดำเนินการ[โพสต์ชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) พร้อมกับการดำเนินการ[โพสต์แถว](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) เมื่อต้องการค้นหาชุดข้อมูล ให้คุณใช้การ[ดำเนินการ](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)รับชุดข้อมูล คุณสามารถส่งรหัสของกลุ่มเพื่อทำงานกับกลุ่มได้จากการดำเนินการเหล่านี้ ใช้การ[ดำเนินการ](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)รับกลุ่มเพื่อรับรายการของรหัสกลุ่ม
+คุณสามารถส่งแหล่งข้อมูลไปยัง Power BI ได้โดยใช้ Power BI REST API เมื่อแอปเพิ่มแถวไปยังชุดข้อมูล แดชบอร์ดไทล์ปรับปรุงโดยอัตโนมัติ ด้วยข้อมูลใหม่ เมื่อต้องส่งข้อมูล ใช้[โพสต์ชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)และ[โพสต์แถว](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)การดำเนินการ เมื่อต้องการค้นหาชุดข้อมูล ใช้[รับชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)ดำเนินการ คุณสามารถส่งรหัสของกลุ่มเพื่อทำงานกับกลุ่มของการดำเนินการเหล่านี้ เมื่อต้องรับรายการ ID กลุ่ม ใช้[รับกลุ่ม](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)ดำเนินการ
 
 ต่อไปนี้เป็นการดำเนินการเพื่อส่งข้อมูลลงในชุดข้อมูล:
 
@@ -59,7 +59,7 @@ ms.locfileid: "55762271"
         ]
     }
 
-สำหรับตัวอย่างชุดข้อมูลการขายและการตลาดของเรา คุณจะผ่านสตริง JSON เช่นตัวอย่างด้านล่าง ในตัวอย่างนี้**การขายและการตลาด**คือชื่อของชุดข้อมูล และ**ผลิตภัณฑ์**คือชื่อของตาราง หลังจากที่คุณกำหนดตาราง จากนั้นกำหนดสคีของตาราง สำหรับชุดข้อมูล **การขายและการตลาด** ตาราง schema มีคอลัมน์เหล่านี้: ProductID ผู้ผลิต ประเภท เซ็กเมนต์ ผลิตภัณฑ์ และ IsCompete
+สำหรับชุดข้อมูลตัวอย่างของเราขายการตลาด คุณจะผ่านสตริง JSON ตามที่แสดงด้านล่าง ในตัวอย่างนี้**ขายและการตลาด**คือชื่อของชุดข้อมูล และ**ผลิตภัณฑ์**คือชื่อของตาราง หลังจากกำหนดตาราง คุณกำหนดรูปแบบตาราง สำหรับชุดข้อมูล **การขายและการตลาด** ตาราง schema มีคอลัมน์เหล่านี้: ProductID ผู้ผลิต ประเภท เซ็กเมนต์ ผลิตภัณฑ์ และ IsCompete
 
 **ตัวอย่างชุดข้อมูลวัตถุ JSON**
 
@@ -107,8 +107,8 @@ ms.locfileid: "55762271"
 | Int64 |Int64.MaxValue และ Int64.MinValue ไม่ได้รับอนุญาต |
 | สองครั้ง |Double.MaxValue และค่า Double.MinValue ไม่ได้รับอนุญาต NaN ที่ไม่ได้รับการสนับสนุน + ค่าอนันต์และ - ค่าอนันต์ที่ไม่ได้รับการสนับสนุนในบางฟังก์ชัน (เช่น Min, Max) |
 | บูลีน |ไม่มี |
-| วันที่เวลา |ในระหว่างการโหลดข้อมูล เราแบ่งนับค่าด้วยเศษส่วนวันให้กับตัวคูณทั้งหมดของ 1/300 วินาที (3.33ms) |
-| สตริง |อนุญาตให้มีอักขระได้ถึง 128K อักขระในขณะนี้ |
+| วันที่เวลา |ในระหว่างการโหลดข้อมูล เรา quantize ค่าที่ มีเศษส่วนวันพหุคูณทั้งหมดของ 1/300 วินาที (3.33 มิลลิวินาที) |
+| สตริง |ในขณะนี้ได้ถึง 128k อักขระ |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>เรียนรู้เพิ่มเติมเกี่ยวกับการส่งข้อมูลลงใน Power BI
 

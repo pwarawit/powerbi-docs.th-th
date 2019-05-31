@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 440874b96b4bf01023c86e3ef053e8c77e9ef289
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.openlocfilehash: a34de25af7febf63b34d7608ff7ef40e8b653fc4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430112"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61285133"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>การใช้ถาม-ตอบใน Power BI Desktop สำหรับคิวรีภาษาธรรมชาติ
 การใช้วลีทั่วไปและภาษาที่เป็นธรรมชาติในการถามคำถามเกี่ยวกับข้อมูลของคุณเป็นการดำเนินการที่มีประสิทธิภาพ และจะยิ่งมีประสิทธิภาพมากขึ้นเมื่อได้รับคำตอบจากข้อมูลของคุณ ซึ่งเป็นสิ่งที่ถาม-ตอบใน **Power BI Desktop** ช่วยให้คุณทำได้
@@ -23,7 +23,7 @@ ms.locfileid: "55430112"
 เมื่อต้องการเปิดใช้งานถาม-ตอบเพื่อแปลคอลเลกชันขนาดใหญ่ของคำถามซึ่งสามารถตอบสนองได้ ถาม-ตอบต้องตั้งสมมติฐานเกี่ยวกับแบบจำลอง ถ้าโครงสร้างของแบบจำลองของคุณไม่ตรงตามสมมติฐานเหล่านี้อย่างน้อยหนึ่งข้อ คุณจะต้องปรับแบบจำลองของคุณ การปรับแบบจำลองสำหรับถาม-ตอบ คือ การเพิ่มประสิทธิภาพที่ดีที่สุดที่เหมือนกับที่ใช้สำหรับแบบจำลองใด ๆ ใน Power BI ไม่ว่าคุณจะใช้ถาม-ตอบหรือไม่ 
 
 > [!NOTE]
-> ถามตอบพร้อมใช้งานเฉพาะเมื่อทำงานกับแบบจำลองที่ประกอบด้วยข้อมูล**นำเข้า** เชื่อมต่อสดไปยังแบบจำลอง SSAS และ DirectQuery ไม่ได้รับการสนับสนุน
+> ถามตอบพร้อมใช้งานเฉพาะเมื่อทำงานกับแบบจำลองที่ประกอบด้วย**นำเข้า**ข้อมูลหรือ การเชื่อมต่อ SSAS แบบสด แบบจำลอง DirectQuery ไม่ได้รับการสนับสนุน
 >
 > ถามตอบต้องมีการอัปเดตรันไทม์ C ต่อไปนี้หากคุณกำลังใช้ Windows เวอร์ชันก่อน Windows 10 คุณสามารถลองติดตั้งโปรแกรมอัปเดตที่สำคัญจาก Windows Update หรือติดตั้งคอมโพเนนต์ที่ต้องการจาก Microsoft (KB2999226) ด้วยตนเอง [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
 >

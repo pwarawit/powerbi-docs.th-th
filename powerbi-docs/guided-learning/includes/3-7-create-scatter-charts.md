@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cab4d5f47c7e0518bae3c11b3f298802cb67f6d7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397940"
+---
 ถ้าคุณต้องการเปรียบเทียบสองหน่วยวัดที่แตกต่างกัน เช่น ยอดขายเป็นหน่วยต่อรายได้ การจัดรูปแบบการแสดงข้อมูลทั่วไปที่จะใช้ได้คือ แผนภูมิกระจาย
 
 ![](media/3-7-create-scatter-charts/3-7_1.png)

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 033436e7078723508d6b9481807ace424c3f109f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397979"
+---
 Power BI มีการจัดรูปแบบการแสดงข้อมูลแผนที่ที่แตกต่างกันอยู่สองชนิดคือ: แผนที่แบบฟองที่วางฟองเหนือจุดทางภูมิศาสตร์ และแผนที่รูปร่างที่แสดงเค้าร่างของพื้นที่ที่คุณต้องการแสดงภาพ
 
 ![](media/3-5-create-map-visualizations/3-5_1.png)

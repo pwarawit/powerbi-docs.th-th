@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dda23e6b41613e76d5507d272e792f9f9130f982
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d900d8622f086ef28f39ee050e9e9f1639dfd53d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282252"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61231612"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>จัดการพื้นที่ทำงานของแอปใน Power BI และ Office 365
 ในฐานะผู้สร้างหรือผู้ดูแลระบบของ[พื้นที่ทำงานของแอปใน Power BI](service-create-distribute-apps.md)หรือใน Office 365 คุณจัดการบางส่วนของพื้นที่ทำงานใน Power BI ลักษณะอื่นๆ คุณจัดการใน Office 365 
@@ -36,10 +36,10 @@ ms.locfileid: "54282252"
 * ดูที่อยู่อีเมลของกลุ่ม
 * ลบกลุ่ม
 
-คุณจำเป็นต้องมี[สิทธิ์การใช้งาน Power BI Pro](service-features-license-type.md) ที่เป็นผู้ดูแลระบบหรือสมาชิกของพื้นที่ทำงานของแอป ผู้ใช้แอปของคุณต้องมสิทธิ์ใช้งาน Power BI Pro เช่นกัน ยกเว้นว่าพื้นที่ทำงานของแอปอยเป็นแบบ Power BI Premium อ่าน[Power BI Premium คืออะไร](service-premium.md)สำหรับรายละเอียด
+คุณจำเป็นต้องมี[สิทธิ์การใช้งาน Power BI Pro](service-features-license-type.md) ที่เป็นผู้ดูแลระบบหรือสมาชิกของพื้นที่ทำงานของแอป ผู้ใช้แอปของคุณต้องมสิทธิ์ใช้งาน Power BI Pro เช่นกัน ยกเว้นว่าพื้นที่ทำงานของแอปอยเป็นแบบ Power BI Premium อ่าน[Power BI Premium คืออะไร](service-premium-what-is.md)สำหรับรายละเอียด
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>แก้ไขพื้นที่ทำงานของแอปใน Power BI
-1. ใน Power BI service เลือกลูกศรถัดจาก**พื้นที่ทำงาน** > เลือกจุดไข่ปลา (**...** ) ถัดจากชื่อพื้นที่ทำงานของคุณ > **แก้ไขพื้นที่ทำงาน** 
+1. ใน Power BI service เลือกลูกศรถัดจาก**พื้นที่ทำงาน** > เลือกจุดไข่ปลา ( **...** ) ถัดจากชื่อพื้นที่ทำงานของคุณ > **แก้ไขพื้นที่ทำงาน** 
    
    ![แก้ไขพื้นที่ทำงานใน Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
@@ -53,14 +53,14 @@ ms.locfileid: "54282252"
 3. เลือก**บันทึก**หรือ**ยกเลิก**
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>แก้ไขคุณสมบัติในพื้นที่ทำงานของแอป Power BI ใน Office 365
-1. ใน Power BI service เลือกลูกศรลงถัดจาก**พื้นที่ทำงาน** > เลือกจุดไข่ปลา (**...** ) ถัดจากชื่อพื้นที่ทำงานของคุณ > **สมาชิก** 
+1. ใน Power BI service เลือกลูกศรลงถัดจาก**พื้นที่ทำงาน** > เลือกจุดไข่ปลา ( **...** ) ถัดจากชื่อพื้นที่ทำงานของคุณ > **สมาชิก** 
    
    ![แก้ไขพื้นที่ทำงานใน Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    สิ่งนี้เปิด Outlook สำหรับกลุ่มมุมมอง Office 365 ของพื้นที่ทำงานของแอป
    
    คุณอาจจำเป็นต้องลงชื่อเข้าใช้บัญชีขององค์กรของคุณ
-2. แตะที่จุดไข่ปลา (**...** ) ถัดจากชื่อของสมาชิกเพื่อทำให้สมาชิกเป็นผู้ดูแลระบบ หรือลบสมาชิกจากพื้นที่ทำงานของแอป 
+2. แตะที่จุดไข่ปลา ( **...** ) ถัดจากชื่อของสมาชิกเพื่อทำให้สมาชิกเป็นผู้ดูแลระบบ หรือลบสมาชิกจากพื้นที่ทำงานของแอป 
    
    ![แก้ไขกลุ่มใน Office 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 

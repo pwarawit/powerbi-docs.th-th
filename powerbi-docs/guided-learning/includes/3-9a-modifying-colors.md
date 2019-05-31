@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d2ba689be99955c649930c1ee4b203b67577619c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397976"
+---
 มีหลายครั้งที่คุณอาจต้องการปรับเปลี่ยนสีที่ใช้ในแผนภูมิหรือการแสดงผลด้วยภาพ Power BI ให้คุณควบคุมการแสดงสีได้อย่างเต็มที่ เมื่อต้องการเริ่มต้น ให้เลือกการแสดงผลด้วยภาพ จากนั้นในบานหน้าต่าง **การจัดรูปแบบการแสดงข้อมูล** ให้คลิกไอคอน **พู่กัน**
 
 ![](media/3-9a-modifying-colors/3-9a_1.png)

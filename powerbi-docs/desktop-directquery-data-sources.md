@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 04/10/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84e40e9fbce07716a2250a58bfcbd396a40d2842
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
-ms.translationtype: HT
+ms.openlocfilehash: 3bb7de9685a1e0fc9fa423328ad9e1e5faa53603
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826571"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61305466"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>แหล่งข้อมูลที่สนับสนุนโดย DirectQuery Power BI
 
@@ -24,26 +24,29 @@ ms.locfileid: "56826571"
 แหล่งข้อมูลต่อไปนี้สนับสนุน DirectQuery ใน Power BI:
 
 * Amazon Redshift
+* AtScale (เบต้า)
 * Azure HDInsight Spark
 * ฐานข้อมูล Azure SQL
 * คลังข้อมูล Azure SQL
 * Google BigQuery
+* คิวรีแบบโต้ตอบ HDInsight
 * ฐานข้อมูล IBM DB2
-* IBM Netezza (Beta)
+* IBM Netezza
 * Impala (รุ่น 2.x)
 * ฐานข้อมูล Oracle (เวอร์ชัน 12 หรือสูงกว่า)
-* เซิร์ฟเวอร์แอปพลิเคชันของ SAP Business Warehouse
-* เซิร์ฟเวอร์ข้อความของ SAP Business Warehouse (Beta)
+* Oracle Essbase
+* เซิร์ฟเวอร์แอปพลิเคชัน SAP Business Warehouse
+* เซิร์ฟเวอร์ข้อความ SAP Business Warehouse
 * SAP HANA
 * Snowflake
-* Spark (รุ่น Beta) (เวอร์ชัน 0.9 หรือสูงกว่า)
-* เซิร์ฟเวอร์ SQL
+* Spark (เวอร์ชัน 0.9 หรือสูงกว่า)
+* SQL Server
 * ฐานข้อมูล Teradata
-* Vertica (เบต้า)
+* Vertica
 
 แหล่งข้อมูลที่มี **(รุ่น Beta)** หรือ **(ตัวอย่าง)** หลังชื่อจะถูกเปลี่ยน และไม่ได้รับการสนับสนุนสำหรับการใช้งานการผลิต นอกจากนี้อาจไม่สนับสนุนหลังจากเผยแพร่รายงานไปยัง**บริการ Power BI**ด้วย ซึ่งหมายความว่าการเปิดรายงานที่เผยแพร่หรือการดูชุดข้อมูลอาจทำให้เกิดข้อผิดพลาดได้
 
-ความแตกต่างเดียวระหว่างแหล่งข้อมูล **(Beta)** และ **(ตัวอย่าง)** คือ แหล่งข้อมูล **(ตัวอย่าง)** ต้องเปิดใช้งานเป็นคุณลักษณะการแสดงตัวอย่างก่อนที่แหล่งข้อมูลเหล่านี้จะพร้อมสำหรับการใช้งาน เมื่อต้องการเปิดใช้งานตัวเชื่อมต่อข้อมูล **(ตัวอย่าง)** ใน**Power BI Desktop**ไปที่**ไฟล์ > ตัวเลือกและการตั้งค่า > ตัวเลือก** แล้วเลือก**คุณลักษณะตัวอย่าง** 
+ความแตกต่างเดียวระหว่างแหล่งข้อมูล **(Beta)** และ **(ตัวอย่าง)** คือ แหล่งข้อมูล **(ตัวอย่าง)** ต้องเปิดใช้งานเป็นคุณลักษณะการแสดงตัวอย่างก่อนที่แหล่งข้อมูลเหล่านี้จะพร้อมสำหรับการใช้งาน เมื่อต้องการเปิดใช้งานตัวเชื่อมต่อข้อมูล **(ตัวอย่าง)** ใน**Power BI Desktop**ไปที่**ไฟล์ > ตัวเลือกและการตั้งค่า > ตัวเลือก** แล้วเลือก**คุณลักษณะตัวอย่าง**
 
 > [!NOTE]
 > คิวรี DirectQuery ไปยัง SQL Server จำเป็นต้องรับรองความถูกต้องโดยใช้ข้อมูลประจำตัวการรับรองความถูกต้อง Windows ปัจจุบัน หรือข้อมูลประจำตัวของฐานข้อมูล เพื่อสร้างเข้าถึง ข้อมูลประจำตัวอื่น ๆ ไม่ได้รับการสนับสนุน

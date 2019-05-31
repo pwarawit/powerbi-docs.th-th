@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/19/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b2b928ea308f546c7cf023c6ef187aa7c516987c
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426642"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61144618"
 ---
-# <a name="creating-and-using-dataflows-in-power-bi-preview"></a>การสร้างและการใช้กระแสข้อมูลใน Power BI (ตัวอย่าง)
+# <a name="creating-and-using-dataflows-in-power-bi"></a>การสร้างและการใช้กระแสข้อมูลใน Power BI
 
 ด้วยการใช้การเตรียมข้อมูลขั้นสูงที่พร้อมใช้งานใน **Power BI** คุณจะสามารถสร้างคอลเลกชันข้อมูลที่เรียกว่ากระแสข้อมูลได้ ซึ่งคุณอาจทำไปใช้เชื่อมต่อข้อมูลธุรกิจจากแหล่งข้อมูลต่างๆ ได้ คุณอาจล้างข้อมูล แปลงแล้วอัปโหลดเข้าที่เก็บข้อมูลของ Power BI ได้
 
@@ -34,9 +34,6 @@ ms.locfileid: "56426642"
 3. ใช้กระแสข้อมูลสร้างชุดข้อมูลโดยใช้ Power BI Desktop 
 
 ในส่วนต่อไปนี้ เราจะดูไปทีละขั้นตอนและทำความคุ้นเคยกับเครื่องมือที่ให้มาเพื่อทำตามขั้นตอนนั้นๆ มาเริ่มกันเลย!
-
-> [!NOTE]
-> ฟังก์ชันของกระแสข้อมูลอยู่ในช่วงตัวอย่าง และสามารถเปลี่ยนและอัปเดตได้ตามความพร้อมใช้งานทั่วไป
 
 ## <a name="creating-a-dataflow"></a>การสร้างกระแสข้อมูล
 เมื่อต้องการสร้างกระแสข้อมูล ให้เปิดใช้บริการของ Power BI ในเบราเซอร์ จากนั้นเลือก **พื้นที่ทำงานของแอป** (กระแสข้อมูลไม่พร้อมใช้งานใน *พื้นที่ทำงานของฉัน* ในบริการของ Power BI) จากแผงนำทางที่อยู่ด้านซ้าย ดังที่แสดงในหน้าจอต่อไปนี้ คุณยังสามารถสร้างพื้นที่ทำงานใหม่ได้ ซึ่งใช้เพื่อสร้างกระแสข้อมูลชุดใหม่ 
@@ -165,9 +162,9 @@ ms.locfileid: "56426642"
 บทความนี้อธิบายวิธีการสร้าง**กระแสข้อมูล** เป็นของตัวเอง และสร้างชุดข้อมูลและรายงานใน **Power BI Desktop** เพื่อใช้ประโยชน์จากสิ่งเหล่านั้น บทความต่อไปนี้มีประโยชน์ในการศึกษาข้อมูลเพิ่มเติมและสถานการณ์ต่างๆ เมื่อใช้กระแสข้อมูล:
 
 * [การเตรียมข้อมูลด้วยตัวเองโดยใช้กระแสข้อมูล](service-dataflows-overview.md)
-* [การใช้เอนทิตีที่คำนวณใน Power BI Premium (ตัวอย่าง)](service-dataflows-computed-entities-premium.md)
-* [การใช้กระแสข้อมูลพร้อมแหล่งข้อมูลในองค์กร (ตัวอย่าง)](service-dataflows-on-premises-gateways.md)
-* [แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI (ตัวอย่าง)](service-dataflows-developer-resources.md)
+* [ใช้เอนทิตีที่มีการคำนวณใน Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [ใช้ dataflows กับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
+* [ทรัพยากรสำหรับนักพัฒนาสำหรับ dataflows Power BI](service-dataflows-developer-resources.md)
 * [ การรวมกระแสข้อมูลและ Azure Data Lake (ตัวอย่าง)](service-dataflows-azure-data-lake-integration.md)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Common Data Model สามารถดูได้ในบทความภาพรวม:

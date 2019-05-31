@@ -7,16 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 2/9/2019
+ms.date: 05/28/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b65acda3ceb8d375cb34393828b74e191b2e5504
-ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
-ms.translationtype: HT
+ms.openlocfilehash: 06ba5835a568b7158a204ea6676e92844d40414d
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58489602"
----
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375261"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
 ตรวจสอบหน้านี้สำหรับปัญหาที่ทราบแล้วและคุณลักษณะที่เผยแพร่ล่าสุดในการ**บริการ Power BI** สำหรับข้อมูล "มีอะไรใหม่" ที่เกี่ยวข้อง ดู:
@@ -31,16 +30,32 @@ ms.locfileid: "58489602"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-
-## <a name="march-2019"></a>มีนาคม 2019
-* ความพร้อมใช้งานทั่วไปของ Multi-Geo สำหรับ Power BI Premium
-* การแก้ไขและจัดการการสนับสนุนเนื้อหา Power BI สำหรับ Azure B2B
+## <a name="may-2019"></a>2019 พฤษภาคม
+* [นำทางแบบกำหนดเอง](service-create-distribute-apps.md)สำหรับแอป Power BI
+* สิ่งที่แนบมาเพิ่มเติมชนิด (PPTX, XLSX, DOCX, CSV, XML) พร้อมใช้งานสำหรับอีเม subcriptions ภายในรายงานแบบแบ่งหน้า
 
 ## <a name="previous-months-2019"></a>เดือนก่อนหน้านี้(2019)
+### <a name="april-2019"></a>2019 เมษายน
+* ความพร้อมใช้งานทั่วไปของ Power BI [dataflows](service-dataflows-overview.md)
+* ความพร้อมใช้งานทั่วไปของประสบการณ์การใช้งานพื้นที่ทำงานใหม่
+* ภูมิภาค Power BI ใหม่ในภาษาฝรั่งเศสและเกาหลี
+* ปรับปรุงประสบการณ์ q&a สำหรับแดชบอร์ด
+* การสนับสนุนสำหรับ Azure Analysis Services ภายใน[แบ่งรายงาน](paginated-reports-report-builder-power-bi.md)
+* รายงานแบบแบ่งหน้าที่ได้รับการสนับสนุนในแอป Power BI
+* [สมัครใช้งานอีเมล](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)กับสิ่งที่แนบมาของ PDF สำหรับรายงานแบบแบ่งหน้า
+* Power BI Premium สรุปและปริมาณงานเมตริกได้รับการสนับสนุนในพอร์ทัลผู้ดูแลระบบ
+* [แบบสอบถามแค](power-bi-query-caching.md)พร้อมใช้งานใน Power BI Premium
+* ความพร้อมใช้งานทั่วไปของ[Power BI Home](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/)
+
+### <a name="march-2019"></a>มีนาคม 2019
+* ความพร้อมใช้งานทั่วไปของ Multi-Geo สำหรับ Power BI Premium
+* การแก้ไขและจัดการการสนับสนุนเนื้อหา Power BI สำหรับ Azure B2B
+* ตัวอย่างสาธารณะของแบบอ่านอย่างเดียว[จุดสิ้นสุด XMLA](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/)
+
 ### <a name="february-2019"></a>กุมภาพันธ์ 2562
 * ปริมาณงานและชุดข้อมูลที่ใช้งานอยู่ขนาดเมตริกใน[แอปควบคุมปริมาตรความจุ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)
 * ส่งออกเป็น PDF สำหรับรายงาน Power BI
-* [การสมัครสมาชิกผ่านอีเมลแบบตามความต้องการ](service-report-subscribe.md)
+* [สมัครใช้งานอีเมลตาม](service-report-subscribe.md)
 * การดำเนินการจำนวนมากในพอร์ทัลผู้ดูแลระบบ
 * การส่งออกที่กรองแล้วสำหรับ PPT และ PDF
 * [การตั้งค่าการสนับสนุนและความช่วยเหลือ](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/) ในพอร์ทัลผู้ดูแลระบบ
@@ -73,8 +88,8 @@ ms.locfileid: "58489602"
 
 ### <a name="september-2018"></a>กันยายน 2018
 * [แสดงข้อคิดเห็นแดชบอร์ด](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)ในบริการของ Power BI
-* แสดงภาพสาธารณะของ[Power BI home และGlobal Search](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)
-* สามารถ[ติดตามคำถาม](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)ใน[แอปควบคุมปริมาตรความจุ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)
+* ตัวอย่างสาธารณะของ[Power BI หน้าแรกและการค้นหา](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)
+* ความสามารถในการ[ตรวจสอบแบบสอบถาม](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)ในการ[ตรวจสอบความจุแอ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)
 
 ### <a name="august-2018"></a>สิงหาคม 2018
 * [แอปตรวจสอบความจุ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)สำหรับ Power BI Premium
@@ -195,7 +210,7 @@ ms.locfileid: "58489602"
 * สำรวจ[ข้อมูลการจัดการโครงการ Jira](https://powerbi.microsoft.com/blog/explore-your-jira-data-with-power-bi/)ของคุณด้วยชุดเนื้อหา Power BI
 * สำรวจ[ข้อมูล Insightcentr](https://powerbi.microsoft.com/blog/explore-your-insightcentr-data-with-power-bi/)ของคุณด้วยชุดเนื้อหา Power BI นี้
 * สร้างกราฟิกแสดงข้อมูล (Infographic) อย่างรวดเร็วด้วย[ภาพการออกแบบกราฟิกแสดงข้อมูลแบบกำหนดเอง](https://powerbi.microsoft.com/blog/quickly-create-infographics-with-the-infographic-designer-custom-visual-for-power-bi/)
-* ตัวอย่างส่วนตัว: [Azure Stream Analytics](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/) จะส่งออกชุดข้อมูลสตรีมมิ่งของ Power BI ซึ่งคุณสามารถสร้างไทล์สตรีมมิ่งได้
+* ตัวอย่าง: [Azure Stream Analytics](https://powerbi.microsoft.com/blog/announcing-private-preview-of-azure-stream-analytics-outputting-to-power-bi-streaming-datasets/) จะส่งออกชุดข้อมูลสตรีมมิ่งของ Power BI ซึ่งคุณสามารถสร้างไทล์สตรีมมิ่งได้
 * ตัวอย่าง: เพิ่ม[การแสดงภาพแผนที่ ESRI ArcGIS](https://powerbi.microsoft.com/blog/arcgis-maps-for-powerbi-available-in-powerbi-service/) ไปยังรายงานและแดชบอร์ดของคุณ
 
 ### <a name="october-2016"></a>ตุลาคม 2016
@@ -223,7 +238,7 @@ ms.locfileid: "58489602"
 สำหรับรายละเอียดทั้งหมด [เยี่ยมชมบล็อกของทีม Power BI](https://powerbi.microsoft.com/blog/power-bi-july-update-for-service-and-mobile/)
 
 ### <a name="june-2016"></a>มิถุนายน 2016
-***ข้อมูลเชิงลึกด่วน***
+***Quick Insights (ข้อมูลเชิงลึกด่วน)***
 
 * ข้อมูลเชิงลึกด่วนทำงานกับตัวกรองที่ซับซ้อน: เรายินดีที่จะประกาศว่าข้อมูลเชิงลึกด่วนที่ครอบคลุมไปไทล์เดียว ตอนนี้เข้าใจตัวกรองที่ซับซ้อนแล้ว
 
@@ -334,9 +349,9 @@ ms.locfileid: "58489602"
 * โหมดเต็มหน้าจอ: ขยายไทล์ของคุณเพื่อเติมพื้นที่ทั้งหมด และลบช่องว่างส่วนเกินออกโดยการเลือก**จัดพอดีกับความกว้าง**
 * ใช้ลำดับไทล์เพื่อจัดแนวไทล์ของคุณไปมุมบนซ้ายของพื้นที่โดยอัตโนมัติ
 
-***ข้อมูลเชิงลึกด่วน***
+***Quick Insights (ข้อมูลเชิงลึกด่วน)***
 
-* ขณะนี้ข้อมูลเชิงลึกสำหรับแนวโน้มและความสัมพันธ์มีเส้นแนวโน้มเพื่อทำให้ง่ายต่อการดูรูปแบบในข้อมูล
+* ข้อมูลเชิงลึกแนวโน้มและความสัมพันธ์ในขณะนี้มีเส้นแนวโน้มเพื่อทำให้ง่ายต่อการดูรูปแบบในข้อมูล
 
 ***ถามตอบ***
 
@@ -488,7 +503,7 @@ ms.locfileid: "58489602"
 * [แสดงภาพข้อมูล VMob ของคุณใน Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
 * [การรวม Ppower BI กับ Cortana](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [แสดงตัวอย่างของเกตเวย์ Power BI สำหรับองค์กร](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* การนำชุดเนื้อหาใหม่มาใช้: [ค้นหาการวิเคราะห์จาก Bing บนแดชบอร์ด Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
+* ขอแนะนำชุดเนื้อหาใหม่: [ค้นหาการวิเคราะห์จาก Bing บนแดชบอร์ด Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
 * การเพิ่มประสิทธิภาพใหม่ ๆ ที่นักพัฒนามุ่งเน้น: [API สองแบบใหม่และการลงทะเบียนแอปที่ง่ายขึ้น](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **24 พฤศจิกายน 2015**
@@ -700,7 +715,7 @@ ms.locfileid: "58489602"
 
 **15 เมษายน 2015**
 
-* ตอนนี้คุณสามารถแสดงภาพข้อมูลและสำรวจข้อมูล**Google Analytics**ของคุณด้วยชุดเนื้อหาใหม่ของเราได้แล้ว! ด้วยชุดเนื้อหา Google Analytics คุณจะได้แดชบอร์ด รายงาน และชุดข้อมูลที่ช่วยให้คุณสามารถรับข้อมูลเชิงลึกลงในการใช้งานของไซต์ของคุณในช่วง 6 เดือนที่ผ่านมา สำหรับข้อมูลเพิ่มเติม คุณสามารถอ่าน[บล็อกโพสต์](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)และ[เอกสารประกอบ](service-connect-to-google-analytics.md)ของเราได้
+* ตอนนี้คุณสามารถแสดงภาพข้อมูลและสำรวจข้อมูล**Google Analytics**ของคุณด้วยชุดเนื้อหาใหม่ของเราได้แล้ว! ด้วยชุดเนื้อหา Google Analytics คุณจะได้แดชบอร์ด รายงาน และชุดข้อมูลที่ช่วยให้คุณสามารถรับข้อมูลเชิงลึกลงในการใช้งานของไซต์ของคุณในช่วง 6 เดือนที่ผ่านมา คุณสามารถอ่าน[โพสต์ในบล็อกของเรา](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)ได้
 * ตอนนี้คุณสามารถ**ปักหมุดบัตรทั้งหมด** โดยคาดหมายบัตรที่ประกอบด้วย KPI และรูปภาพจากการถามตอบและรายงานต่าง ๆ
 * ตอนนี้คุณสามารถ**ใช้บัตรในถามตอบ**โดยใช้วลี 'เป็นบัตร' ที่ส่วนท้ายของการสอบถาม (คิวรี่) ของคุณได้
 

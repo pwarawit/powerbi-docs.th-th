@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 1db5f34ce7a08b32b665409322836eba483be927
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397955"
+---
 Power BI มีคุณสมบัติที่คุณสามารถกำหนดให้กับเขตข้อมูลในรูปแบบของคุณ ซึ่งสามารถช่วยรายงานและแสดงภาพ และนำเสนอข้อมูลในแบบที่ชัดเจนมากขึ้น ตัวอย่างเช่น บางครั้งคุณต้องการเฉลี่ยรายการของกลุ่มตัวเลข แต่ Power BI รวมผลรวมของรายการนั้นโดยอัตโนมัติ ด้วย Power BI คุณสามารถปรับแต่งวิธีสรุปรายการตัวเลขเหล่านั้นได้
 
 ## <a name="numeric-control-over-summarization"></a>การควบคุมตัวเลขในการสรุป

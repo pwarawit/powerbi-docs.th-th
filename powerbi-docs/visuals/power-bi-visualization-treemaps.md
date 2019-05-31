@@ -12,11 +12,11 @@ ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 892e056413212e319815341eb9ae95262ed54d46
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215423"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61276914"
 ---
 # <a name="treemaps-in-power-bi"></a>แผนที่ต้นไม้ใน Power BI
 ทรีแมปจะแสดงข้อมูลแบบลำดับชั้นเป็นชุดของสี่เหลี่ยมผืนผ้าที่วางเรียงต่อๆ กัน  แต่ละระดับของลำดับชั้นจะแสดงเป็นสี่เหลี่ยมผืนผ้าสีต่างๆ (มักจะเรียกว่า "กิ่ง") ซึ่งประกอบด้วยสี่เหลี่ยมผืนผ้าอื่นๆ ("ใบ")  ช่องว่างภายในสี่เหลี่ยมผืนผ้าแต่ละจัดไว้ตามค่าที่วัด และสี่เหลี่ยมผืนผ้าจัดเรียงในขนาดจากด้านบนซ้าย (มากที่สุด) ไปด้านล่างขวา (น้อยที่สุด)

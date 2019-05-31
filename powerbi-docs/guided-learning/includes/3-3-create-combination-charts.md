@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: c7af7eb4a75ebe22416dba74a40c2edcf00c1194
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397982"
+---
 เมื่อคุณต้องการแสดงภาพสองหน่วยวัดที่มีมาตราส่วนแตกต่างกันมาก เช่น รายได้และหน่วย **แผนภูมิผสม** ที่แสดงเส้นและแท่งด้วยมาตราส่วนแกนที่แตกต่างกันจะมีประโยชน์มาก Power BI รองรับแผนภูมิผสมหลายชนิดแตกต่างกันตามค่าเริ่มต้น รวมถึงแผนภูมิ**เส้น**และแผนภูมิ**คอลัมน์แบบเรียงซ้อน**
 
 ![](media/3-3-create-combination-charts/3-3_1.png)

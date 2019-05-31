@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 3a5a84bdb22996fc3b773a861a85e82985cd036c
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: b0a6b3027e548becf56cc5f0d7036e35c9316cd4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220988"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187716"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -22,9 +22,7 @@ ms.locfileid: "58220988"
 
 ## <a name="upcoming-webinars"></a>สัมมนาผ่านเว็บที่กำลังมาถึง
 
-**การบรรลุการได้รับประโยชน์ทั้งสองฝ่ายสำหรับผู้ผลิตและผู้ค้าปลีกผลิตภัณฑ์และสินค้าแก่ผู้บริโภค**
-<br>โดย Liz McCreesh
-<br>[ลงทะเบียนตอนนี้](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
+สัมมนาผ่านเว็บยังไม่จัดกำหนดการ กรุณาตรวจสอบใหม่เพื่อดูงานที่จะจัดในอนาคต
 
 >[การสัมมนาผ่านเว็บที่กำลังมาถึงจากชุมชน Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -80,6 +78,10 @@ ms.locfileid: "58220988"
 <br>โดย Wim Coorevits and Enrique Plaza Garcia
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
+**แนวทางปฏิบัติที่ดีที่สุดสำหรับการจัดการ Power BI Embedded วิเคราะห์สำหรับการปรับใช้แบบหลายผู้เช่า**
+<br>โดย Nimrod Shalit
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
+
 **Power BI: การวิเคราะห์เสร็จสิ้นแล้ว**
 <br>โดย Gohul Shanmugalingam
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
@@ -117,6 +119,10 @@ ms.locfileid: "58220988"
 <br>[ดูเดี๋ยวนี้](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>คู่ค้า ###
+
+**การบรรลุการได้รับประโยชน์ทั้งสองฝ่ายสำหรับผู้ผลิตและผู้ค้าปลีกผลิตภัณฑ์และสินค้าแก่ผู้บริโภค**
+<br>โดย Liz McCreesh จาก Thorogood
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 **แปลงข้อมูลลูกค้าเป็นความสำเร็จทางการค้าปลีกด้วย Power BI**
 <br>โดย Angad Soni จาก Hitachi Solutions

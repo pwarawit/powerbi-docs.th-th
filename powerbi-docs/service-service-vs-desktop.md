@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4e3b465648d5b827d1ed53550207879f555c38f9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d690e8fd19ab988192c2aa36053416d2bb3d45c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284115"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61403453"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>การเปรียบเทียบ Power BI Desktop และบริการ Power BI
 
@@ -48,7 +48,7 @@ ms.locfileid: "54284115"
 
 ## <a name="collaborating-in-the-power-bi-service"></a>ทำงานร่วมกันในบริการ Power BI
 
-หลังจากที่คุณสร้างรายงาน คุณสามารถบันทึกลง *พื้นที่ทำงาน* ใน **บริการ Power BI** ซึ่งคุณและเพื่อนร่วมงานของคุณทำงานร่วมกันได้ คุณสร้าง *แดชบอร์ด* ด้านบนของรายงานเหล่านั้น จากนั้น คุณแชร์แดชบอร์ดและรายงานเหล่านั้นกับผู้ใช้รายงานภายในและภายนอกองค์กรของคุณ ผู้ใช้รายงานของคุณดูรายงานเหล่านั้นในบริการ Power BI ใน [มุมมองการอ่าน](consumer/end-user-reading-view.md) ไม่ใช่มุมมองการแก้ไข พวกเขาไม่มีการเข้าถึงคุณลักษณะทั้งหมดที่พร้อมใช้งานสำหรับผู้สร้างรายงาน 
+หลังจากที่คุณสร้างรายงาน คุณสามารถบันทึกลง *พื้นที่ทำงาน* ใน **บริการ Power BI** ซึ่งคุณและเพื่อนร่วมงานของคุณทำงานร่วมกันได้ คุณสร้าง *แดชบอร์ด* ด้านบนของรายงานเหล่านั้น จากนั้น คุณแชร์แดชบอร์ดและรายงานเหล่านั้นกับผู้ใช้รายงานภายในและภายนอกองค์กรของคุณ ผู้ใช้รายงานของคุณดูรายงานเหล่านั้นในบริการ Power BI ใน [มุมมองการอ่าน](consumer/end-user-reading-view.md) ไม่ใช่มุมมองการแก้ไข พวกเขาไม่สามารถเข้าถึงคุณลักษณะทั้งหมดที่พร้อมใช้งานสำหรับผู้สร้างรายงาน 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

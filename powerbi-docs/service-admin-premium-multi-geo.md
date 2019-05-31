@@ -1,8 +1,8 @@
 ---
 title: การสนับสนุนหลายภาคภูมิศาสตร์สำหรับ Power BI Premium
 description: เรียนรู้วิธีปรับใช้เนื้อหาไปยังศูนย์ข้อมูลในภูมิภาคนอกเหนือจากภูมิภาคเดิมของผู้เช่า Power BI
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
-ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
-ms.translationtype: HT
+ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57571990"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564941"
 ---
-# <a name="multi-geo-support-for-power-bi-premium"></a>การสนับสนุนหลายภาคภูมิศาสตร์สำหรับ Power BI Premium
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>กำหนดค่าสนับสนุนหลายทางภูมิศาสตร์สำหรับ Power BI Premium
 
 Multi-Geo เป็นคุณลักษณะของ Power BI Premium ที่ช่วยให้ลูกค้าข้ามชาติจัดการกับความต้องการด้านถิ่นที่อยู่ของข้อมูลในระดับภูมิภาค เฉพาะธุรกิจ หรือองค์กร ในฐานะลูกค้า Power BI Premium คุณสามารถปรับใช้เนื้อหาไปยังศูนย์ข้อมูลในภูมิภาคนอกเหนือจากภูมิภาคเดิมของผู้เช่า Power BI พิกัด (ภูมิศาสตร์) สามารถมีได้มากกว่าหนึ่งภูมิภาค ตัวอย่างเช่น สหรัฐอเมริกาเป็นพิกัด และสหรัฐอเมริกากลางทางตะวันตกและสหรัฐอเมริกากลางทางใต้เป็นภูมิภาคในสหรัฐอเมริกา คุณอาจเลือกปรับใช้เนื้อหาไปยังพิกัดใดต่อไปนี้:
 
@@ -35,7 +35,7 @@ Multi-Geo ไม่พร้อมให้บริการใน Power BI Ger
 
 Multi-Geo ในขณะนี้พร้อมใช้งานใน Power BI Embedded อ่านเพิ่มเติมที่[การสนับสนุน Multi-Geo ใน Power BI Embedded](developer/embedded-multi-geo.md)
 
-## <a name="using-multi-geo"></a>การใช้งาน Multi-Geo
+## <a name="enable-and-configure"></a>เปิดใช้งาน และกำหนดค่า
 
 เพื่อความจุใหม่ ๆ ให้เปิดใช้งาน Multi-Geo ด้วยการเลือกภูมิภาคนอกเหนือจากภูมิภาคเริ่มต้นจากเมนูแบบหล่นลง  ความจุที่ใช้ได้จะแสดงภูมิภาคที่พิกัดอยู่ อย่างเช่น **สหรัฐอเมริกากลางทางตะวันตก**
 
@@ -68,7 +68,7 @@ Multi-Geo ในขณะนี้พร้อมใช้งานใน Power 
 - สิทธิ์
 - ข้อมูลประจำตัวชุดข้อมูล
 
-## <a name="view-capacity-regions"></a>ดู ภูมิภาคความจุ
+## <a name="view-capacity-regions"></a>มุมมองความจุภูมิภาค
 
 ในพอร์ทัลผู้ดูแล คุณสามารถดูความจุทั้งหมดสำหรับผู้เช่า Power BI และภูมิภาคที่พวกเขาอาศัยอยู่ในปัจจุบัน
 
@@ -98,7 +98,7 @@ Multi-Geo ในขณะนี้พร้อมใช้งานใน Power 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-- [Power BI Premium: นี่คืออะไร](service-premium.md)
+- [Power BI Premium คืออะไร?](service-premium-what-is.md)
 - [Multi-Geo สำหรับความจุ Power BI Embedded](developer/embedded-multi-geo.md)
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)

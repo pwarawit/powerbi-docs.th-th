@@ -1,32 +1,102 @@
 ---
 title: มีอะไรใหม่ใน Power BI Report Server
 description: เรียนรู้ว่ามีอะไรใหม่ใน Power BI Report Server ส่วนนี้จะครอบคลุมถึงพื้นที่คุณลักษณะเฉพาะหลักๆ และถูกอัปเดตเมื่อมีการเผยแพร่รายการใหม่
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/22/2019
-ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662468"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187319"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>มีอะไรใหม่ใน Power BI Report Server
 
-เรียนรู้ว่ามีอะไรใหม่ใน Power BI Report Server บทความนี้เป็นเรื่องพีเจอร์หลัก ๆ และจะได้รับการอัปเดตเมื่อมีการเผยแพร่ฟีเจอร์ใหม่
-
-เมื่อต้องการดาวน์โหลด Power BI Report Server เวอร์ชันล่าสุดและ Power BI Desktop ซึ่งปรับให้เหมาะสมที่สุดกับ Power BI Report Server ไปที่ [การรายงานภายในองค์กรกับ Power BI Report Server](https://powerbi.microsoft.com/report-server/)
+เรียนรู้เกี่ยวกับมีอะไรใหม่ในเซิร์ฟเวอร์รายงาน Power BI และ Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI บทความนี้เป็นเรื่องพีเจอร์หลัก ๆ และจะได้รับการอัปเดตเมื่อมีการเผยแพร่ฟีเจอร์ใหม่
 
 สำหรับข้อมูล "มีอะไรใหม่" ที่เกี่ยวข้อง ดู:
 
 * [มีอะไรใหม่ในบริการ Power BI](../service-whats-new.md)
 * [มีอะไรใหม่ใน Power BI Desktop](../desktop-latest-update.md)
 * [มีอะไรใหม่ในแอปอุปกรณ์เคลื่อนที่สำหรับ Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>2019 พฤษภาคม: Power BI Desktop สำหรับเซิร์ฟเวอร์รายงาน Power BI
+
+ดู[Power BI Report Server 2019 พฤษภาคม](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/)โพสต์ในบล็อกสำหรับรายละเอียดเกี่ยวกับคุณลักษณะใหม่ทั้งหมด
+
+ต่อไปนี้คือประเด็นสำคัญของการเผยแพร่:
+
+### <a name="performance-analyzer"></a>ตัววิเคราะห์ประสิทธิภาพ 
+
+ถ้ารายงานของคุณทำงานช้าลงกว่าที่คุณคาด ลองตัววิเคราะห์ประสิทธิภาพใน Power BI Desktop เมื่อคุณเริ่มใช้งาน จะสร้างไฟล์บันทึก มีข้อมูลเกี่ยวกับทุกการดำเนินการที่คุณใช้ในรายงาน อ่านเพิ่มเติมเกี่ยวกับการ[ตัววิเคราะห์ประสิทธิภาพ](../desktop-performance-analyzer.md)
+
+### <a name="new-modeling-view"></a>สร้างแบบจำลองมุมมองใหม่
+
+ในแบบจำลองมุมมองใหม่ใน Power BI Desktop คุณสามารถดู และทำงานกับชุดข้อมูลที่ซับซ้อนที่ประกอบด้วยหลายตาราง ไฮไลต์รวมหลายเค้าโครงไดอะแกรม และจำนวนมากแก้ไขคอลัมน์ หน่วยวัด และตาราง อ่านเพิ่มเติมเกี่ยวกับ[แบบจำลองมุมมอง](../desktop-modeling-view.md)
+
+### <a name="accessible-visual-interaction"></a>โต้ตอบกับภาพสามารถเข้าถึงได้
+
+คุณสามารถขณะเข้าถึงจุดข้อมูลบนหลายวิชวลมีอยู่แล้วใช้แป้นพิมพ์นำทาง อ่านเพิ่มเติมเกี่ยวกับ[การเข้าถึงในรายงาน Power BI](../desktop-accessibility.md)
+
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>ชื่อเรื่องและการดำเนินการ URL เว็บของการจัดรูปแบบตามเงื่อนไข
+
+รายงาน power BI แบบโต้ตอบได้ ทำความเข้าใจว่า ชื่อเรื่องในรายงานจะเป็นแบบไดนามิก เพื่อแสดงสถานะปัจจุบันของรายงาน คุณสามารถใช้จัดรูปแบบผูกกับนิพจน์เดียวกันเพื่อทำให้ Url ของคุณปุ่ม รูปร่าง และรูปภาพแบบไดนามิก อ่านเพิ่มเติมเกี่ยวกับ[ชื่อเรื่องตามนิพจน์](../desktop-conditional-format-visual-titles.md)
+
+### <a name="cross-highlight-by-axis-labels"></a>เน้นแบบไขว้ โดยป้ายชื่อแกน
+
+เลือกป้ายชื่อแกนประเภทในวิชวลเพื่อไฮไลท์องค์ประกอบอื่น ๆ บนหน้า เหมือนกับที่คุณเลือกจุดข้อมูลในวิชวล อ่านเพิ่มเติมเกี่ยวกับ[ไฮไลต์เชื่อมโยง](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)
+
+### <a name="all-the-new-features"></a>คุณลักษณะใหม่ทั้งหมด
+
+นี่คือรายการของคุณลักษณะใหม่ทั้งหมด:
+
+### <a name="reporting"></a>การรายงาน
+
+- เน้นแบบไขว้ที่จุดเดียวในแผนภูมิเส้น 
+- ตัดคำในชื่อเรื่อง 
+- ปรับปรุงการโต้ตอบกับภาพเริ่มต้นเพื่อกรองแบบไขว้¬
+- มนสำหรับเส้นขอบวิชวล 
+- ตัวแบ่งส่วนข้อมูลเลือกเดียว  
+- สนับสนุนแผนที่คลื่นความร้อนสำหรับแผนที่ Bing  
+- เน้นแบบไขว้ โดยป้ายชื่อแกน  
+- แนะนำเครื่องมือเริ่มต้นที่จัดรูปแบบ  
+- เว็บแบบคงรองรับ URL สำหรับปุ่ม รูปร่าง และรูปภาพ  
+- ตัวเลือกการจัดแนวของหน้า   
+- ปรับปรุงบานหน้าต่างส่วนที่เลือก  
+- โต้ตอบกับภาพสามารถเข้าถึงได้  
+- จัดรูปแบบสำหรับชื่อเรื่องภาพตามเงื่อนไข  
+- URL การกระทำสำหรับปุ่ม รูปร่าง และรูปภาพบนเว็บสำหรับการจัดรูปแบบตามเงื่อนไข
+- บานหน้าต่างตัววิเคราะห์ประสิทธิภาพการทำงาน
+- นำทางคีย์บอร์ดตารางและเมทริกซ์
+- บรรทัดควบคุมตำแหน่งป้ายชื่อข้อมูล
+- ตัวควบคุมขนาดข้อความภาพตัวบ่งชี้ KPI
+
+### <a name="analytics"></a>การวิเคราะห์
+
+- แสดงวันที่เป็นลำดับชั้นในขณะนี้พร้อมใช้งานโดยทั่วไปแล้ว  
+
+### <a name="modeling"></a>การวางรูปแบบ
+
+- สร้างแบบจำลองมุมมองได้ทั่วไป
+- ฟังก์ชัน DAX ใหม่
+- ปรับปรุงไปยังฟังก์ชัน ALLSELECTED DAX
+- ปิดใช้งานตารางวันโดยอัตโนมัติสำหรับรายงานใหม่
+
+## <a name="may-2019-power-bi-report-server"></a>2019 พฤษภาคม: เซิร์ฟเวอร์รายงาน Power BI
+
+### <a name="support-for-trusted-visuals"></a>การสนับสนุนสำหรับวิชวลที่เชื่อถือได้
+
+เราได้เพิ่มการสนับสนุนสำหรับวิชวลที่เชื่อถือได้ไปยังเซิร์ฟเวอร์รายงาน BI Power ในขณะนี้เราสนับสนุน Mapbox และ PowerOn ภาพ ESRI, Visio และ PowerApps ไม่ได้รับการสนับสนุนสำหรับรุ่นนี้)
+
+### <a name="improved-security-features"></a>ฟีเจอร์ความปลอดภัยที่ดียิ่งขึ้น
+
+**RestrictedResourceMimeTypeForUpload**ผู้ดูแลระบบที่สามารถใช้เพื่อระบุรายการคั่นด้วยจุลภาคของชนิด mime ถูกห้าม ตัวอย่างข้อ ความ/html ได้
 
 ## <a name="january-2019"></a>มกราคม 2019
 

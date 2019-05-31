@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2017
+ms.date: 04/30/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 849c377a140cd0dd31f55760987336fc3711bc79
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285886"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65101472"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>ข้อผิดพลาด: เราไม่พบข้อมูลใด ๆ ในสมุดงาน Excel ของคุณ
 
->[!NOTE]
+>[!NOTE]  
 >บทความนี้นำไปใช้กับ Excel 2007 และเวอร์ชันที่ใหม่กว่า
 
 เมื่อคุณนำเข้าสมุดงาน Excel ไปใน Power BI คุณอาจเห็นข้อผิดพลาดต่อไปนี้:
 
-*ข้อผิดพลาด: เราไม่พบข้อมูลใด ๆ ในสมุดงาน Excel ของคุณ ข้อมูลของคุณอาจไม่ถูกจัดรูปแบบอย่างถูกต้อง คุณจำเป็นต้องแก้ไขสมุดงานของคุณใน Excel จากนั้นนำเข้าอีกครั้ง*
+*ข้อผิดพลาด: เราไม่พบข้อมูลใด ๆ ที่จัดรูปแบบเป็นตาราง เมื่อต้องการนำเข้าจาก Excel ไปยังบริการ Power BI คุณต้องจัดรูปแบบข้อมูลเป็นตาราง เลือกข้อมูลทั้งหมดที่คุณต้องการในตาราง แล้วกด Ctrl + T*
 
-![ไม่พบข้อมูลในสมุดงาน](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
+![ไม่พบข้อมูลในสมุดงาน](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 
 ## <a name="quick-solution"></a>แก้ไขปัญหาอย่างรวดเร็ว
 1. แก้ไขมุดงานใน Excel
@@ -47,28 +47,28 @@ ms.locfileid: "54285886"
     >[!NOTE]
     >รูปภาพต่อไปนี้เป็นภาพของ Excel 2013 ถ้าคุณกำลังใช้เวอร์ชันอื่น องค์ประกอบต่าง ๆ อาจแตกต่างกันเล็กน้อย แต่ขั้นตอนต่าง ๆ จะเหมือนกัน
     
-    ![เปิดเวิร์กบุ๊ก](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
+    ![เปิดเวิร์กบุ๊ก](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-1.png)
 2. เลือกช่วงของเซลล์ที่มีข้อมูลของคุณ แถวแรกควรประกอบด้วยส่วนหัวของคอลัมน์ (ชื่อคอลัมน์)
    
-    ![เลือกช่วงของเซลล์](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
+    ![เลือกช่วงของเซลล์](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-2.png)
 3. ใน Ribbon บนแถบ**แทรก** คลิก**ตาราง** (หรือโดยการใช้ทางลัด กด**Ctrl + T**)
    
-    ![ใส่ตาราง](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
+    ![ใส่ตาราง](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-3.png)
 4. คุณจะเห็นกล่องโต้ตอบต่อไปนี้ ตรวจสอบให้แน่ใจว่าได้เลือก**ตารางของฉันมีส่วนหัว** และเลือก**ตกลง**:
    
-    ![สร้างตาราง](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
+    ![สร้างตาราง](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-create-table.png)
 5. ในตอนนี้ ข้อมูลของคุณถูกจัดรูปแบบเป็นตาราง:
    
-    ![ข้อมูลที่จัดรูปแบบเป็นตาราง](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
+    ![ข้อมูลที่จัดรูปแบบเป็นตาราง](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-table.png)
 6. บันทึกสมุดงานของคุณ
 7. กลับไปยัง Power BI เลือกรับข้อมูลที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ
    
-    ![รับข้อมูล](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
+    ![รับข้อมูล](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-data.png)
 8. ในกล่อง**ไฟล์** เลือก**รับ**
    
-    ![รับไฟล์](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
+    ![รับไฟล์](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-files.png)
 9. นำเข้าสมุดงาน Excel ของคุณอีกครั้ง ขณะนี้ การนำเข้าควรพบตารางและดำเนินการสำเร็จ
    
     ถ้าการนำเข้ายังคงล้มเหลว แจ้งให้เราทราบโดยการคลิก ** ชุมชน ** ในเมนูช่วยเหลือ:
    
-    ![ลิงก์ไปยังกลุ่มชุมชน](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)
+    ![ลิงก์ไปยังกลุ่มชุมชน](media/service-admin-troubleshoot-excel-workbook-data/power-bi-question-menu-community.png)
