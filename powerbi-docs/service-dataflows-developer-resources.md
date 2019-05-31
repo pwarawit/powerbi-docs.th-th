@@ -1,5 +1,5 @@
 ---
-title: ทรัพยากรของนักพัฒนาสำหรับกระแสข้อมูล Power BI (ตัวอย่าง)
+title: ทรัพยากรสำหรับนักพัฒนาสำหรับ dataflows Power BI
 description: ค้นหาทรัพยากรสำหรับการพัฒนาและกระแสข้อมูล Power BI
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 20bd8cd06e2a183d284752dc378a8aa1440c3aef
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9a4caed97881e176d075527c90ae8d5eff213676
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274708"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136779"
 ---
-# <a name="developer-resources-for-power-bi-dataflows-preview"></a>ทรัพยากรของนักพัฒนาสำหรับกระแสข้อมูล Power BI (ตัวอย่าง)
+# <a name="developer-resources-for-power-bi-dataflows"></a>ทรัพยากรสำหรับนักพัฒนาสำหรับ dataflows Power BI
 
 มีอยู่หลายวิธีในการใช้กระแสข้อมูลโดยไม่มีรหัส โดยการสร้างหรือเชื่อมต่อเอนทิตีในบริการของ Power BI และการเชื่อมต่อเข้ากับกระแสข้อมูลใน Power BI Desktop มีหลายองค์กรที่ต้องการความยืดหยุ่นในการพัฒนาโซลูชันขึ้นมาเอง บทความนี้ให้ข้อมูลเกี่ยวกับ Power BI REST API และทรัพยากรอื่นๆ ของนักพัฒนา
 
@@ -38,8 +38,8 @@ ms.locfileid: "54274708"
 
 * [การเตรียมข้อมูลด้วยตัวเองโดยใช้กระแสข้อมูล](service-dataflows-overview.md)
 * [การสร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
-* [การใช้เอนทิตีที่คำนวณใน Power BI Premium (ตัวอย่าง)](service-dataflows-computed-entities-premium.md)
-* [การใช้กระแสข้อมูลพร้อมแหล่งข้อมูลในองค์กร (ตัวอย่าง)](service-dataflows-on-premises-gateways.md)
+* [ใช้เอนทิตีที่มีการคำนวณใน Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [ใช้ dataflows กับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการพัฒนา CDM และบทนำสอน สามารถดูได้ตามนี้:
 * [Common Data Model - ภาพรวม](https://docs.microsoft.com/powerapps/common-data-model/overview)

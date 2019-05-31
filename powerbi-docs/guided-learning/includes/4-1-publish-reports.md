@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d39f9a6a974e194c38c2f4e9bf69314ff6d0cec2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257070"
+---
 การเผยแพร่รายงานของคุณไปยังบริการของ Power BI นั้นเร็วและง่ายดาย
 
 เมื่อคุณเสร็จสิ้นการสร้างรายงานของคุณใน **Power BI Desktop** เพียงเลือกปุ่ม **เผยแพร่** บนแท็บ **หน้าหลัก** ใน Power BI Desktop แล้วกระบวนการก็จะเริ่มต้นขึ้น

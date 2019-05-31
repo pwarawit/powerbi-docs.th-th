@@ -11,11 +11,11 @@ ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 12ee21427f06f0bce373adffa7ef336de144a3a4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290578"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61234508"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>โต้ตอบกับรายงานในมุมมองการแก้ไขในบริการ Power BI
 สามารถสร้างและแก้ไขรายงานในบริการ Power BI และ Power BI Desktop ในบริการ Power BI สามารถสร้างและแก้ไขรายงานใน **มุมมองการแก้ไข** และใน Power BI Desktop สามารถสร้างและแก้ไขรายงานใน [**มุมมองรายงาน**](desktop-report-view.md) บทความนี้ครอบคลุมถึงมุมมองการแก้ไขในบริการ Power BI 

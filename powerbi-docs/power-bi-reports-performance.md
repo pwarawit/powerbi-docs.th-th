@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 LocalizationGroup: Reports
 ms.openlocfilehash: f603a733c6c604a89b0b9608904acdf13b66b713
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287795"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61417648"
 ---
 # <a name="power-bi-performance-best-practices"></a>แนวทางปฏิบัติที่ดีที่สุดเพื่อประสิทธิภาพการทำงานของ Power BI
 
@@ -126,7 +126,7 @@ ms.locfileid: "54287795"
 
    - เริ่มตัว SQL Server Profiler จากเมนู**เริ่มต้น**
    - **แฟ้ม** > **การติดตามใหม่**
-   - ชนิดของเซิร์ฟเวอร์: บริการด้านการวิเคราะห์
+   - ชนิดของเซิร์ฟเวอร์: Analysis Services
    - ชื่อเซิร์ฟเวอร์: localhost: [หมายเลขพอร์ตที่พบด้านบน]
    - ที่หน้าจอถัดไป เลือก**เรียกใช้**
    - ในตอนนี้ SQL Profiler ทำงานแล้ว และกำลังโพรไฟล์คิวรีที่ Power BI Desktop กำลังส่ง 

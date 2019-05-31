@@ -1,5 +1,5 @@
 ---
-title: เชื่อมต่อกับไฟล์ PDF ใน Power BI Desktop (ดูตัวอย่าง)
+title: เชื่อมต่อกับไฟล์ PDF ใน Power BI Desktop
 description: เชื่อมต่อและใช้ข้อมูลจากไฟล์ PDF ได้อย่างง่ายดายใน Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,31 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ff61c4d2cc8ec3570e7eee45b7e43ec81f8f7161
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 0c63a62edfce62a5cee13bef3c68014027313e8b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275122"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513970"
 ---
-# <a name="connect-to-a-pdf-file-in-power-bi-desktop-preview"></a>เชื่อมต่อกับไฟล์ PDF ใน Power BI Desktop (ดูตัวอย่าง)
+# <a name="connect-to-a-pdf-file-in-power-bi-desktop"></a>เชื่อมต่อกับไฟล์ PDF ใน Power BI Desktop
 ใน Power BI Desktop คุณสามารถเชื่อมต่อกับ **ไฟล์ PDF** และใช้ข้อมูลที่รวมจากไฟล์เช่นเดียวกับแหล่งข้อมูลอื่น ๆ ใน Power BI Desktop
 
 ![เชื่อมต่อกับข้อมูลในไฟล์ PDF](media/desktop-connect-pdf/connect-pdf_04.png)
 
 หัวข้อต่อไปนี้อธิบายถึงวิธีเชื่อมต่อกับ **ไฟล์ PDF** เลือกข้อมูล และนำข้อมูลดังกล่าวไปวางไว้ที่ **Power BI Desktop**
-
-## <a name="enable-the-pdf-connector"></a>เปิดใช้งานตัวเชื่อมต่อ PDF
-ตัวเชื่อมต่อ PDF อยู่ในรูปแบบตัวอย่างสำหรับ **Power BI Desktop** และต้องเปิดใช้งาน หากต้องการเปิดใช้งานตัวเชื่อมต่อ PDF ให้เลือก **ไฟล์> ตัวเลือกและการตั้งค่า> ตัวเลือก> ดูตัวอย่างคุณลักษณะ** จากนั้นเลือกช่องทำเครื่องหมายด้านข้าง **รับข้อมูลจากไฟล์ PDF**  
-
-![เปิดใช้งานตัวเชื่อมต่อ PDF จาก ตัวเลือก> ดูตัวอย่างคุณลักษณะ](media/desktop-connect-pdf/connect-pdf_01.png)
-
-คุณจะต้องรีสตาร์ท **Power BI Desktop** หลังจากที่คุณทำการเลือกแล้ว
-
-เมื่อคุณใช้ตัวเชื่อมต่อ **PDF (รุ่นเบต้า)** เป็นครั้งแรก คุณจะได้รับคำเตือนว่าตัวเชื่อมต่อ PDF ยังอยู่ในระหว่างการพัฒนาและอาจมีการเปลี่ยนแปลงในอนาคต เลือก **ดำเนินการต่อ** เพื่อใช้ตัวเชื่อมต่อ
 
 เราแนะนำให้อัปเกรดเป็นเวอร์ชันล่าสุด**Power BI Desktop**เสมอ ซึ่งคุณสามารถรับได้จากลิงก์ใน[รับ Power BI Desktop](desktop-get-the-desktop.md) 
 

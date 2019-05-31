@@ -12,11 +12,11 @@ ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 52c0211aea0462e0bf79d7a48808f1f826c09fb6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296098"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60978639"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>ส่วนที่ 1 เพิ่มการแสดงภาพไปยังรายงาน Power BI
 บทความนี้ให้คำแนะนำสั้น ๆ สำหรับการสร้างการแสดงภาพในรายงาน โดยใช้บริการของ Power BI หรือ Power BI Desktop  สำหรับเนื้อหาขั้นสูงขึ้น กรุณา[ดูส่วนที่ II](power-bi-report-add-visualizations-ii.md) ดู Amanda สาธิตสักสองสามวิธีสำหรับ สร้าง แก้ไข และจัดรูปแบบวิชวลบนพื้นที่รายงาน แล้วทดลองด้วยตัวเองโดยใช้[ตัวอย่างการขายและการตลาด](../sample-datasets.md)เพื่อสร้างรายงานของคุณเอง

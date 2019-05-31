@@ -1,21 +1,21 @@
 ---
 title: การรีเฟรชข้อมูลใน Power BI
 description: การรีเฟรชข้อมูลใน Power BI
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/21/2019
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2f5680df2077a306532165c62367fcc09c517227
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.openlocfilehash: 149f6963cc59c70342bee824579f6ae4c97a16d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892493"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60974405"
 ---
 # <a name="data-refresh-in-power-bi"></a>การรีเฟรชข้อมูลใน Power BI
 การทำให้แน่ใจว่า คุณได้รับข้อมูลล่าสุดเสมอมักเป็นเรื่องที่สำคัญอย่างยิ่งต่อการตัดสินใจให้ถูกต้อง คุณอาจเคยใช้ รับข้อมูลใน Power BI เพื่อเชื่อมต่อและอัปโหลดข้อมูลบางอย่าง สร้างรายงานบางอย่างและแดชบอร์ดมาแล้ว ตอนนี้ คุณต้องการจะตรวจสอบให้แน่ใจว่า ข้อมูลของคณเป็นข้อมูลล่าสุดและดีที่สุดจริงๆ

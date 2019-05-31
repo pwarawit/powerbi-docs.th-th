@@ -12,11 +12,11 @@ ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: c8b5728c951bc1a25e71da8885997814c5485cd4
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215998"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61140391"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>แนะนำไทล์แดชบอร์ดสำหรับนักออกแบบ Power BI
 
@@ -43,7 +43,7 @@ ms.locfileid: "56215998"
 * [แดชบอร์ดอื่น](service-pin-tile-to-another-dashboard.md)
 * [สมุดงาน Excel บน OneDrive for Business](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher สำหรับ Excel](publisher-for-excel.md)
-* [ข้อมูลเชิงลึกด่วน](service-insights.md)
+* [Quick Insights (ข้อมูลเชิงลึกด่วน)](service-insights.md)
 * [Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 และเราสามารถสร้างไทล์แบบเดี่ยวสำหรับรูปภาพ กล่องข้อความ วิดีโอ ข้อมูลสตรีมมิ่ง และเนื้อหาบนเว็บได้โดยตรงบนแดชบอร์ดโดยใช้[เพิ่มไทล์](service-dashboard-add-widget.md)

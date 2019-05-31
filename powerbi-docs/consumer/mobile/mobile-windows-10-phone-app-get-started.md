@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: aa41e1e2869ad4d2f77224e3bec99dc00c59c536
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291452"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61337728"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>เริ่มใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
 แอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10 พร้อมให้คุณใช้งาน Power BI บนแท็บเล็ตหรือโทรศัพท์ ด้วยการเข้าถึงข้อมูลทางธุรกิจของคุณแบบผ่านทางอุปกรณ์เคลื่อนที่ระบบสัมผัสที่ทันสมัย ดูและโต้ตอบกับแดชบอร์ดบริษัทของคุณจากที่ใดก็ได้ &#151; บน[หน้าจอเริ่มต้นของ Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)

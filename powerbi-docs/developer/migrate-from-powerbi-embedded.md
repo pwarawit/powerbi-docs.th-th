@@ -1,18 +1,18 @@
 ---
 title: วิธีการย้ายเนื้อหาจาก Power BI Workspace Collection ไปยัง Power BI
 description: เรียนรู้วิธีการโยกย้ายเนื้อหาจาก Power BI Workspace Collection ไปยัง Power BI Embedded และใช้ประโยชน์การพัฒนาเพื่อการฝังในแอป
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 23907633ec92a172a9cdd392ad62b43d367260b3
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223616"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61270484"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>วิธีการย้ายเนื้อหาจาก Power BI Workspace Collection ไปยัง Power BI Embedded
 
@@ -131,7 +131,7 @@ Power BI Workspace Collection รุ่นปัจจุบันจะยั�
 3. บันทึก PBIX
 4. เรียก นำเข้า PBIX ไปยังพื้นที่ทำงาน SaaS
 5. อัปเดตสตริงการเชื่อมต่อโดยการเรียก - โพสต์  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
-6. รับ GW id และ id แหล่งข้อมูลโดยการเรียก - รับ https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
+6. รับตัวระบุ GW และแหล่งข้อมูล โดยเรียก - รับ https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. ปรับปรุงข้อมูลประจำตัวของผู้ใช้โดยการเรียก - โปรแกรมแก้ไข https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
 #### <a name="old-dataset--reports"></a>ชุดข้อมูลและรายงานเก่า
@@ -200,7 +200,7 @@ Power BI Workspace Collection รุ่นปัจจุบันจะยั�
 [เครื่องมือการโยกย้ายเนื้อหาของ Power BI Worksapce Collection](migrate-tool.md)  
 [รหัสชุดย่อยสำหรับการโยกย้ายเนื้อหาจาก Power BI Workspace Collection](migrate-code-snippets.md)  
 [วิธีฝัง แดชบอร์ด รายงาน และไทล์ Power BI ของคุณ](embedding-content.md)  
-[Power BI Premium คืออะไร](../service-premium.md)  
+[Power BI Premium คืออะไร](../service-premium-what-is.md)  
 [พื้นที่เก็บข้อมูลของ JavaScript API Git](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git repo](https://github.com/Microsoft/PowerBI-CSharp)  
 [ตัวอย่างการฝัง JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

@@ -11,11 +11,11 @@ ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 4b4bc6398466b4c603126efed5b6591c9c3ad6c0
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662031"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61059916"
 ---
 # <a name="your-content-is-up-to-date"></a>เนื้อหาของคุณเป็นเวอร์ชันล่าสุด
 ในฐานะ*ผู้ใช้*คุณโต้ตอบกับเนื้อหาที่ถูกสร้างขึ้นโดย*นักออกแบบ*และแชร์กับคุณ คุณอาจสงสัยว่าเนื้อหานั้นเป็นเวอร์ชันล่าสุดหรือไม่ หรือคุณอาจแค่ต้องการทราบว่าเนื้อหานั้นได้รับการรีเฟรชครั้งล่าสุดเมื่อใด เมื่อทราบว่าคุณกำลังทำงานกับเนื้อหาล่าสุด นั่นจะช่วยเพิ่มความมั่นใจให้กับคุณ  

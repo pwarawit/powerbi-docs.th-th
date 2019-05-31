@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: b1658a9351c05a8673c6cc582a4e54ad982791fc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257086"
+---
 Power BI ช่วยให้คุณสามารถตั้งค่าความสัมพันธ์ที่มองเห็นได้ระหว่างตารางและองค์ประกอบ เมื่อต้องการดูมุมมองแผนผังของข้อมูลของคุณ ให้ใช้ **มุมมองความสัมพันธ์** ที่อยู่ทางด้านซ้ายสุดของหน้าจอ ถัดจากพื้นที่ทำงานของรายงาน
 
 ![](media/2-2-manage-data-relationships/2-2_1.png)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3c5b33b4b056a5d2dfeeffd4c72ea878cf7d79c0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6d03097eb886813b934c75b61ddb056b55bde7b8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280297"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61161001"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>เพิ่มโฟลเดอร์ CDM ไปยัง Power BI เป็นกระแสข้อมูล (ตัวอย่าง)
 
@@ -30,9 +30,6 @@ ms.locfileid: "54280297"
 * คุณต้องได้รับอนุญาตให้สามารถอ่านและดำเนินการ กับไฟล์และโฟลเดอร์ในโฟลเดอร์ CDM เพื่อเพิ่มของเหล่านั้นลงใน Power BI ทั้งหมด
 
 ส่วนต่อไปนี้จะอธิบายวิธีการสร้างแบบกระแสข้อมูลจากโฟลเดอร์ CDM
-
-> [!NOTE]
-> ฟังก์ชันของกระแสข้อมูลอยู่ในช่วงตัวอย่าง และสามารถเปลี่ยนและอัปเดตได้ตามความพร้อมใช้งานทั่วไป
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>สร้างกระแสข้อมูลจากโฟลเดอร์ CDM
 
@@ -99,9 +96,9 @@ Power BI Desktop:
 สำหรับข้อมูลเกี่ยวกับกระแสข้อมูลโดยรวม ให้อ่านบทความเหล่านี้:
 
 * [การสร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
-* [การใช้เอนทิตีที่คำนวณใน Power BI Premium (ตัวอย่าง)](service-dataflows-computed-entities-premium.md)
-* [การใช้กระแสข้อมูลพร้อมแหล่งข้อมูลในองค์กร (ตัวอย่าง)](service-dataflows-on-premises-gateways.md)
-* [แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI (ตัวอย่าง)](service-dataflows-developer-resources.md)
+* [ใช้เอนทิตีที่มีการคำนวณใน Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [ใช้ dataflows กับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
+* [ทรัพยากรสำหรับนักพัฒนาสำหรับ dataflows Power BI](service-dataflows-developer-resources.md)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับพื้นที่เก็บข้อมูล Azure คุณสามารถอ่านบทความเหล่านี้:
 * [คู่มือความปลอดภัยการเก็บข้อมูลของ Azure](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

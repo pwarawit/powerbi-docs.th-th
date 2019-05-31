@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 34bb77c84d1813e32421b87e957e24a946f282f7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662008"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61066271"
 ---
 # <a name="view-power-bi-notifications"></a>ดูการแจ้งเตือน Power BI
 ศูนย์การแจ้งเตือนคือ ตัวดึงข้อมูลตามลำดับที่เกี่ยวข้องกับประสบการณ์การใช้งาน Power BI ของคุณ เปิดเพื่อดูข้อความเกี่ยวกับแดชบอร์ดใหม่ที่มีการแชร์กับคุณ การเปลี่ยนแปลงที่ดำเนินการกับพื้นที่กลุ่มของคุณ รายละเอียดเกี่ยวกับเหตุการณ์และการประชุมใน Power BI การแจ้งเตือนที่คุณได้ตั้งค่า และอื่น ๆ คุณสามารถเลือก[ตั้งค่าการแจ้งเตือนในบริการ Power BI](../service-set-data-alerts.md)ได้ รวมถึงในแอปฯมือถือ Power BI ได้เช่นกัน

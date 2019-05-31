@@ -1,20 +1,20 @@
 ---
 title: รายงานที่มีการแบ่งหน้าใน Power BI คำถามที่พบบ่อย (แสดงตัวอย่าง)
 description: บทความนี้จะตอบคำถามที่พบบ่อยเกี่ยวกับรายงานแบบแบ่งหน้า รายงานเหล่านี้คือเอาต์พุตที่มีการจัดรูปแบบสูงและเป็นแบบพิกเซลสมบูรณ์แบบที่เหมาะกับการพิมพ์หรือการสร้าง PDF
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: d248bbf8374b64c947fa872f6294ae0d1195ede9
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: cedf72585d7aa4f2ece39739dc0bdba33ca66e21
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324749"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987796"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>รายงานที่มีการแบ่งหน้าใน Power BI คำถามที่พบบ่อย (แสดงตัวอย่าง)
 
@@ -63,7 +63,7 @@ ms.locfileid: "56324749"
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>ฉันต้องมีสิทธิ์การใช้งาน Pro ในการที่จะสร้างและเผยแพร่รายงานแบบแบ่งหน้าหรือไม่
 
-ใช่ คุณไม่สามารถอัปโหลดรายงานไปยังพื้นที่ทำงานได้หากไม่มีสิทธิ์การใช้งาน Pro คุณอาจดาวน์โหลดตัวสร้างรายงานและลองใช้ได้โดยไม่ต้องมีสิทธิ์การใช้งาน Pro แต่ไม่สามารถเผยแพร่รายงานแบบแบ่งหน้าที่คุณสร้างได้ 
+ใช่ คุณไม่สามารถอัปโหลดรายงานไปยังพื้นที่ทำงานได้หากไม่มีสิทธิ์การใช้งาน Pro เราขอแนะนำให้คุณสามารถดาวน์โหลด และใช้ตัวสร้างรายงานของ Power BI โดยไม่มีสิทธิ์การใช้งาน Pro แต่คุณไม่สามารถเผยแพร่รายงานแบบแบ่งหน้าที่สร้างโดยปราศจาก 
 
 ### <a name="what-if-i-have-a-paginated-report-in-a-workspace-and-the-paginated-report-workload-is-turned-off"></a>ถ้าฉันมีรายงานแบบแบ่งหน้าในพื้นที่ทำงานและปริมาณงานของรายงานแบบแบ่งหน้าปิดอยู่ จะเป็นอย่างไร
 
@@ -85,13 +85,13 @@ ms.locfileid: "56324749"
 
 รายงาน power BI ได้รับการปรับให้เหมาะสำหรับการสำรวจและโต้ตอบ  เมื่อพนักงานขายต้องการแบ่งส่วนข้อมูลในรายงานยอดขายตัวเดียวกันโดยแยกตามเขตพื้นที่/อุตสาหกรรม/ลูกค้า แล้วดูการเปลี่ยนแปลงของตัวเลข การสร้างรายงาน Power BI จะดีที่สุด
 
-### <a name="the-documentation-says-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>เอกสารได้บอกว่าตัวสร้างรายงานเป็นเครื่องมือการเขียนรายงานที่ผู้คนเลือกใช้ ฉันสามารถสร้างรายงานแบบแบ่งหน้าในเครื่องมือข้อมูลเซิร์ฟเวอร์ SQL ได้หรือไม่
+### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>เอกสารที่ระบุว่า ตัวสร้างรายงานของ Power BI คือ เครื่องมือที่คุณต้องการเขียน ฉันสามารถสร้างรายงานแบบแบ่งหน้าในเครื่องมือข้อมูลเซิร์ฟเวอร์ SQL ได้หรือไม่
 
 ได้ แต่บริการของ Power BI จะให้คุณอัปโหลดได้ครั้งละหนึ่งชุดเท่านั้น ดังนั้นในหลายๆ กรณีจึงยังไม่รองรับเครื่องมือข้อมูลเซิร์ฟเวอร์ SQL (SSDT) ให้ผู้เขียนได้ใช้ ดู [รายการฟีเจอร์ที่ไม่ได้รับการรับรอง](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) ฉบับเต็มได้ในภายหลัง ในส่วนคำถามที่พบบ่อยนี้  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>คุณรองรับตัวสร้างรายงานเวอร์ชันใด
 
-โปรดใช้ตัวสร้างรายงาน SQL Server 2016 เวอร์ชันล่าสุดเพื่อเขียนและเผยแพร่รายงานไปยังบริการของ Power BI ติดตั้ง[ตัวสร้างรายงานจากศูนย์ดาวน์โหลด Microsoft](https://www.microsoft.com/download/details.aspx?id=53613)
+เราเพิ่งเผยแพร่ Power BI Report Builder เป็นเครื่องมือการเขียนหลักสำหรับรายงานแบบแบ่งหน้าในบริการ Power BI ติดตั้ง[Power BI Report Builder จากศูนย์ดาวน์โหลด Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>ฉันจะย้ายรายงานที่มีอยู่แล้วและบันทึกไว้ใน SQL Server Reporting Services ไปยัง Power BI ได้อย่างไร
 
@@ -99,7 +99,7 @@ ms.locfileid: "56324749"
 
 ### <a name="can-i-open-reports-and-publish-directly-to-the-service"></a>ฉันสามารถเปิดรายงานและเผยแพร่ไปยังบริการโดยตรงได้เลยหรือไม่
 
-ยังไม่ได้ในตอนนี้ เราจะเพิ่มส่วนสนับสนุนในการเปิดรายงานและเผยแพร่จากตัวสร้างรายงานไปยังบริการโดยตรงในกาลข้างหน้า ดังเช่นที่คุณสามารถทำได้จาก Power BI Desktop
+ยังไม่ได้ในตอนนี้ เราได้เพิ่มการสนับสนุนสำหรับการเปิดรายงาน และเผยแพร่ไปยังบริการโดยตรงจาก Power BI Report Builder ก่อน GA เช่นคุณสามารถทำได้ ด้วย Power BI Desktop
 
 ### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>ฟีเจอร์ของรายงานแบบแบ่งหน้าตัวใดใน SSRS ที่ยังไม่ได้รับการรองรับใน Power BI
 
@@ -118,17 +118,27 @@ ms.locfileid: "56324749"
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>แหล่งข้อมูลใดบ้างที่คุณรับรองสำหรับรายงานแบบแบ่งหน้าในขณะนี้
 
-เรารองรับฐานข้อมูล Azure SQL, SQL Server และทั้งแบบจำลอง SQL Server Analysis Services (SSAS) tabular (DAX) และ multidimensional (MDX) ที่ใช้เกตเวย์ในองค์กร
+เราสนับสนุนแหล่งข้อมูลต่อไปนี้- 
+
+- ชุดข้อมูลที่ power BI Premium
+- Azure Analysis Services (ผ่านหมายเดียว (sso))
+- ฐานข้อมูล Azure SQL
+- SQL Server *
+- ตารางของ SQL Server Analysis Services (SSAS) (DAX) และหลายมิติ (MDX) แบบจำลอง * 
+- Oracle * 
+- Teradata * 
+
+* จำเป็นต้องใช้เกตเวย์ภายในองค์กร
 
 เมื่อเข้าถึง SSAS ผ่านเกตเวย์ ผู้ใช้ที่มีข้อมูลประจำตัวเก็บไว้ต้องมีสิทธิ์ใช้งานที่ยกระดับแล้วใน SSAS เพื่อที่จะทำงานผ่านเกตเวย์
 
 ### <a name="what-authentication-methods-do-you-support"></a>คุณรองรับวิธีการรับรองความถูกต้องแบบใด
 
-ในปัจจุบัน คุณต้องเก็บชื่อผู้ใช้และรหัสผ่านพร้อมแหล่งข้อมูลไว้ในพอร์ทัลหรือเกตเวย์  วิธีการรับรองความถูกต้องเพิ่มเติมเพื่อรองรับ Row-Level Security หรือสิ่งที่คล้ายกันจะตามมาภายหลังในช่วงตัวอย่าง
+เราสนับสนุน SSO สำหรับแหล่งข้อมูลทั้ง Azure Analysis Services และ Power BI Premium  สำหรับแหล่งข้อมูลอื่น ๆ ทั้งหมด คุณในขณะนี้จำเป็นต้องจัดเก็บชื่อผู้ใช้และรหัสผ่านกับแหล่งข้อมูลในพอร์ทัลหรือเกตเวย์  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>ฉันสามารถใช้ชุดข้อมูล Power BI เป็นแหล่งข้อมูลสำหรับรายงานแบบแบ่งหน้าได้หรือไม่
 
-ยังไม่ได้ แต่จะมีการวางแผนส่วนรองรับนี้เร็วๆ นี้
+ใช่ ขณะนี้เราสนับสนุนชุดข้อมูล Power BI Premium เป็นแหล่งข้อมูลสำหรับรายงานของคุณมีการแบ่งหน้า
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>ฉันสามารถใช้ขั้นตอนที่เก็บไว้ผ่านทางเกตเวย์ได้หรือไม่
 
@@ -140,7 +150,7 @@ ms.locfileid: "56324749"
 
 ### <a name="can-i-print-paginated-reports"></a>ฉันสามารถพิมพ์รายงานแบบแบ่งหน้าได้หรือไม่
 
-ใช่ การพิมพ์นั้นพร้อมใช้งานสำหรับรายงานที่มีการแบ่งหน้าแล้ว รวมถึงการแสดงตัวอย่างก่อนพิมพ์ที่ปรับปรุงใหม่ 
+ใช่ พิมพ์จะพร้อมใช้งานสำหรับรายงานแบบแบ่งหน้า รวมถึงประสบการณ์ตัวอย่างก่อนพิมพ์ใหม่ และที่ปรับปรุง 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>การสมัครใช้งานอีเมล์สำหรับรายงานแบบแบ่งหน้าสามารถใช้ได้หรือยัง
 
@@ -168,15 +178,11 @@ ms.locfileid: "56324749"
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>ฉันจะแชร์เนื้อหาของรายงานแบบแบ่งหน้าผ่านแอป Power BI ได้อย่างไร
 
-ในตอนนี้ คุณสามารถแชร์รายงานที่มีการแบ่งหน้ากับผู้ใช้คนอื่นได้โดยแชร์ในพอร์ทัลหรือผ่านแถบเครื่องมือ เรายังไม่รองรับการแชร์ในแอป แต่รออีกไม่นาน 
+ใช่ รายงานแบบแบ่งหน้าได้รับการสนับสนุนการปรับใช้กับแอปจากพื้นที่ทำงานทั้ง v1 และ v2 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>ฟีเจอร์เฉพาะอื่นๆ ของรายงานใน Power BI เช่น การปักหมุดไทล์รายงานไปยังแดชบอร์ด จะใช้งานกับรายงานแบบแบ่งหน้าได้หรือไม่
 
 เรามีแผนที่จะทำให้รายงานรองรับสถานการณ์ส่วนใหญ่ในบริการให้ได้มากที่สุด  ตามหลักการแล้ว แม้ว่าเครื่องมือที่ใช้เขียนรายงานจะต่างกัน แต่เมื่อดูจากมุมของผู้บริโภค จะเห็นว่ามันเป็นเพียงแค่รายงานอีกตัวหนึ่งที่อยู่ในรายการในพอร์ทัล พวกเขาไม่สนใจว่าสร้างอย่างไร พวกเขาสามารถทำสิ่งที่ต้องการได้เลย  ตัวอย่างของแพริตีฟีเจอร์นี้ที่เห็นได้ชัดคือส่วนรองรับข้อคิดเห็นที่ได้วางแผนไว้ แม้ว่าตัวฟีเจอร์จะทำงานต่างกันเล็กน้อยเมื่อใช้กับรายงานแต่ละประเภท แต่คุณจะใช้ส่วนข้อคิดเห็นได้กับทั้งคู่
-
-### <a name="are-you-planning-to-create-a-new-authoring-tool-for-paginated-reports-in-the-power-bi-service--we-cant-do-everything-we-need-to-with-report-builder-today"></a>คุณมีแผนที่จะสร้างเครื่องมือการเขียนตัวใหม่สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI หรือไม่  ในตอนนี้เราไม่สามารถทำตามที่ต้องการได้ทุกอย่างเมื่อใช้ตัวสร้างรายงาน
-
-เรายังคงมองหาตัวเลือกต่าง ๆ ที่นี่สำหรับเรื่องราวการใช้เครื่องมือที่ดีที่สุดสำหรับรายงานที่มีการแบ่งหน้าใน Power BI 
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>มีการวางแผนสำหรับเครื่องมือเคลื่อนย้ายเพื่อให้ลูกค้า SSRS ย้ายรายงานและแอสเซทที่มีอยู่ Power BI ได้หรือไม่
 
@@ -196,5 +202,5 @@ ms.locfileid: "56324749"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-- [ติดตั้งตัวสร้างรายงานจากศูนย์ดาวน์โหลด Microsoft](https://www.microsoft.com/download/details.aspx?id=53613)
+- [ติดตั้ง Power BI Report Builder จากศูนย์ดาวน์โหลด Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [บทช่วยสอน: สร้างรายงานที่มีการแบ่งหน้า](paginated-reports-quickstart-aw.md)

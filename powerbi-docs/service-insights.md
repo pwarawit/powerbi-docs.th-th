@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9e1c4a3942c75f41dc105e424685d32badbf3866
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276433"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61238652"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>สร้างข้อมูลเชิงลึกโดยอัตโนมัติด้วย Power BI
 มีชุดข้อมูลใหม่ และไม่แน่ใจตำแหน่งที่จะเริ่มได้อย่างไร  จำเป็นต้องสร้างแดชบอร์ดอย่างรวดเร็วใช่ไหม  ต้องการค้นหาข้อมูลเชิงลึกที่คุณอาจพลาดไปใช่หรือไม่

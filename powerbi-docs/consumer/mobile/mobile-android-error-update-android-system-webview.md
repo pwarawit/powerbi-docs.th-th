@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: 53d0deaf68c2c0fde4f5243394914a44b9c59feb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274938"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61341146"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>การแก้ไข: "จำเป็นต้องอัปเดต Android System Webview"
 เมื่อลงชื่อเข้าใช้แอป Android สำหรับอุปกรณ์เคลื่อนที่สำหรับ Microsoft Power BIคุณอาจได้รับข้อความว่า คุณจำเป็นต้องอัปเดต Android System Webview 

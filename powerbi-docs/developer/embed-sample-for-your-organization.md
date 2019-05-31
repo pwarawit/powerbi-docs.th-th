@@ -1,21 +1,21 @@
 ---
 title: การวิเคราะห์ที่ฝังตัวที่ใช้ในการฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับองค์กรของคุณ
 description: เรียนรู้วิธีรวมหรือฝัง รายงาน แดชบอร์ด หรือไทล์ เข้าไปในแอปพลิเคชั่นโดยการใช้ Power BI APIs สำหรับการวิเคราะห์แบบฝังตัวสำหรับองค์กรของคุณ เรียนรู้วิธีการรวม Power BI เข้ากันกับแอปพลิเคชันของคุณโดยใช้ซอฟต์แวร์การวิเคราะห์แบบฝังตัว, เครื่องมือการวิเคราะห์แบบฝังตัวหรือเครื่องมือข่าวกรองธุรกิจแบบฝังตัว
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 03/12/2019
-ms.openlocfilehash: 34d7ec423f3d4cb0f7487c78eff68c580ff0489e
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757472"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61355514"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับองค์กรของคุณ
 
@@ -116,17 +116,17 @@ ms.locfileid: "57757472"
 
 2. ในบานหน้าต่างนำทางซ้ายมือ เลือก **บริการทั้งหมด** และเลือก **การลงทะเบียนแอป**
 
-    ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
-
 3. เลือกแอปพลิเคชันที่ต้องใช้ **ApplicationID**
 
-    ![การเลือกแอป](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
+    ![การเลือกแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
 4. มี **ID แอปพลิเคชัน** ที่แสดงในรูปของ GUID ใช้ **ID แอปพลิเคชัน** นี้เป็น **applicationId** สำหรับแอปพลิเคชัน
 
-    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
 ### <a name="application-secret"></a>ข้อมูลลับของแอปพลิเคชัน
+
+แอตทริบิวต์นี้จำเป็นสำหรับ AuthenticationType ของ[บริการหลัก](embed-service-principal.md)เท่านั้น
 
 ป้อนข้อมูล **ApplicationSecret** จากส่วน **คีย์** ของส่วน **การลงทะเบียนแอปพลิเคชัน** ใน **Azure**  แอตทริบิวต์นี้ทำงานเมื่อใช้[บริการหลัก](embed-service-principal.md)
 
@@ -136,23 +136,17 @@ ms.locfileid: "57757472"
 
 2. ในบานหน้าต่างนำทางซ้ายมือ เลือก **บริการทั้งหมด** และเลือก **การลงทะเบียนแอป**
 
-    ![ค้นหาการลงทะเบียนแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
-
 3. เลือกแอปพลิเคชันที่ต้องใช้ **ApplicationSecret**
 
-    ![เลือกแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![เลือกแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-4. เลือก **การตั้งค่า**
+4. เลือก**ใบรับรองและความลับ**ภายใต้**จัดการ**
 
-    ![เลือกการตั้งค่า](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
-
-5. เลือก **คีย์**
-
-    ![เลือกคีย์](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+5. เลือก**ข้อมูลลับไคลเอ็นต์ใหม่**
 
 6. ป้อนชื่อในกล่อง **Description** และเลือกระยะเวลา จากนั้นเลือก **บันทึก** เพื่อรับ **ค่า** สำหรับแอปพลิเคชัน เมื่อคุณเลือกบานหน้าต่าง **คีย์** หลังจากการบันทึกค่าคีย์แล้ว ช่องค่าจะถูกซ่อนเท่านั้น ในขั้นตอนนี้คุณจะไม่สามารถเรียกดูค่าคีย์ได้ หากคุณทำค่าคีย์หาย ให้สร้างใหม่ในพอร์ทัล Azure
 
-    ![ค่าคีย์](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![ค่าคีย์](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
 
 ### <a name="workspace-id"></a>ID พื้นที่ทำงาน
 
@@ -400,7 +394,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>สร้างความจุเฉพาะ
 
-โดยการสร้างความจุเฉพาะ คุณสามารถใช้ประโยชน์จากการมีทรัพยากรเฉพาะสำหรับเนื้อหาในพื้นที่ทำงานแอปของคุณ คุณสามารถสร้างความจุเฉพาะโดยการใช้ [Power BI Premium](../service-premium.md)
+โดยการสร้างความจุเฉพาะ คุณสามารถใช้ประโยชน์จากการมีทรัพยากรเฉพาะสำหรับเนื้อหาในพื้นที่ทำงานแอปของคุณ คุณสามารถสร้างความจุเฉพาะโดยการใช้ [Power BI Premium](../service-premium-what-is.md)
 
 ตารางต่อไปนี้ลงรายการ Power BI Premium SKUs ที่ให้บริการใน [Microsoft Office 365](../service-admin-premium-purchase.md):
 

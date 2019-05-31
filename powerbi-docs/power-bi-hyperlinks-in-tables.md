@@ -1,6 +1,6 @@
 ---
 title: เพิ่มไฮเปอร์ลิงก์ลงในตาราง
-description: ใช้ Power BI Desktop เพื่อสร้างไฮเปอร์ลิงก์ จากนั้น ใช้บริการ Desktop หรือ Power BI เพื่อเพิ่มไฮเปอร์ลิงก์เหล่านั้นไปยังรายงานตารางและเมทริกซ์ของคุณ
+description: ใช้ Power BI Desktop เพื่อสร้างไฮเปอร์ลิงก์ ใช้ Power BI Desktop หรือบริการของ Power BI เพื่อเพิ่มไฮเปอร์ลิงก์เหล่านั้นไปยังรายงานตารางและเมทริกซ์ของคุณแล้ว
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 04/09/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 972abb3781cbaaff8a9617b70988c21f7389d4f9
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
-ms.translationtype: HT
+ms.openlocfilehash: 9611d8cd45eba89854fd6cbb485c52097f77f4c0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406672"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61421686"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>เพิ่มไฮเปอร์ลิงก์ลงในตาราง
 หัวข้อนี้สอนวิธีการใช้ Power BI Desktop เพื่อสร้างไฮเปอร์ลิงก์ จากนั้น ใช้บริการ Desktop หรือ Power BI เพื่อเพิ่มไฮเปอร์ลิงก์เหล่านั้นไปยังรายงานตารางและเมทริกซ์ของคุณ 
@@ -24,11 +24,11 @@ ms.locfileid: "54406672"
 ![ตารางที่มีไฮเปอร์ลิงก์](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
 > [!NOTE]
-> ไฮเปอร์ลิงก์ใน [ไทล์บนแดชบอร์ด](service-dashboard-edit-tile.md) และ [กล่องข้อความบนแดชบอร์ด](service-dashboard-add-widget.md) สามารถสร้างขึ้นในทันทีโดยใช้บริการ Power BI ไฮเปอร์ลิงก์ใน[กล่องข้อความในรายงาน](service-add-hyperlink-to-text-box.md)สามารถสร้างขึ้นในทันทีโดยใช้บริการ Power BI และ Power BI Desktop ได้
+> คุณสามารถสร้างไฮเปอร์ลิงก์ใน[ไทล์บนแดชบอร์ด](service-dashboard-edit-tile.md)และ[กล่องข้อความบนแดชบอร์ด](service-dashboard-add-widget.md)ในทันทีโดยใช้บริการ Power BI ได้ คุณสามารถสร้างไฮเปอร์ลิงก์ใน[กล่องข้อความในรายงาน](service-add-hyperlink-to-text-box.md)ในทันทีโดยใช้บริการ Power BI และ Power BI Desktop ได้
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>เมื่อต้องสร้างไฮเปอร์ลิงก์ในตารางหรือเมทริกซ์โดยใช้ Power BI Desktop
-คุณสามารถสร้างการไฮเปอร์ลิงก์ในตารางและเมทริกซ์ ใน Power BI Desktop ได้ แต่ไม่ใช่จาก บริการ Power BI นอกจากนี้ ไฮเปอร์ลิงก์ยังสามารถสร้างได้ใน Power Pivot ของ Excel ก่อนที่จะนำเข้าสมุดงานใน Power BI ทั้งสองวิธีจะอธิบายไว้ด้านล่าง
+คุณสามารถสร้างไฮเปอร์ลิงก์ในตารางและเมทริกซ์ ใน Power BI Desktop แต่ไม่ได้อยู่ ใน บริการ Power BI คุณยังสามารถสร้างไฮเปอร์ลิงก์ใน Power Pivot ของ Excel ก่อนที่คุณนำเข้าสมุดงานใน Power BI ทั้งสองวิธีจะอธิบายไว้ด้านล่าง
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-power-bi-desktop"></a>สร้างไฮเปอร์ลิงก์ตารางหรือเมทริกซ์ใน Power BI Desktop
 ขั้นตอนสำหรับการเพิ่มไฮเปอร์ลิงก์ขึ้นอยู่กับว่าคุณได้นำเข้าข้อมูลดังกล่าว หรือเชื่อมต่อเข้าโดยใช้ DirectQuery ทั้งสองสถานการณ์มีอธิบายไว้ด้านล่าง
@@ -49,10 +49,15 @@ ms.locfileid: "54406672"
    
 1. ถ้าคุณไม่ต้องการแสดง URL ยาวในตาราง คุณสามารถแสดงเป็นไฮเปอร์ลิงก์แทนได้  ![ไฮเปอร์ลิงก์ไอคอน](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) แทน โปรดทราบว่า คุณไม่สามารถแสดงไอคอนในเมทริกซ์ได้
    
-   * เลือกแผนภูมิเพื่อเปิดใช้งาน
-   * เลือกไอคอนลูกกลิ้งระบายสี ![ไอคอนลูกกลิ้งระบายสี](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) เพื่อเปิดแท็บพื้นที่การจัดรูปแบบ
-   * ขยาย**ค่า** ค้นหา**ไอคอน URL**และเปิดใช้งานเป็น**เปิด**
-6. (เป็นทางเลือก) [เผยแพร่รายงานจากเดสก์ท็อปไปยังบริการ Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2)และเปิดรายงานในบริการ Power BI ไฮเปอร์ลิงก์จะทำงานตรงนั้นได้เช่นกัน
+    เลือกแผนภูมิเพื่อเปิดใช้งาน
+
+    เลือกไอคอนรูปแบบ ![ไอคอนลูกกลิ้งระบายสี](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) เพื่อเปิดแท็บพื้นที่การจัดรูปแบบ
+
+    ขยาย**ค่า** ค้นหา**ไอคอน URL**และเปิดใช้งานเป็น**เปิด**
+
+    ![เปิดไอคอน URL](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
+
+1. (เป็นทางเลือก) [เผยแพร่รายงานจากเดสก์ท็อปไปยังบริการ Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2)และเปิดรายงานในบริการ Power BI ไฮเปอร์ลิงก์จะทำงานตรงนั้นได้เช่นกัน
 
 ### <a name="for-data-connected-with-directquery"></a>สำหรับข้อมูลที่เชื่อมโยงกับ DirectQuery
 คุณไม่สามารถสร้างคอลัมน์ใหม่ในโหมด DirectQuery ได้  แต่ถ้าข้อมูลของคุณมี URL อยู่แล้ว คุณสามารถทำให้ URL เหล่านั้นเป็นไฮเปอร์ลิงก์ได้

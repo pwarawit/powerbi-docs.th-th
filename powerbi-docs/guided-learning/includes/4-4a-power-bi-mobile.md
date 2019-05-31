@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 3548f02e91c6ebc5a2ea985777cdaceda9661185
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257064"
+---
 ถ้าคุณต้องการติดตามข้อมูลของคุณขณะที่คุณเดินทาง คุณสามารถใช้แอปพลิเคชันสำหรับอปุกรณ์เคลื่อนที่ของ Power BI สำหรับอุปกรณ์ iOS, Android และ Windows ได้
 
 เมื่อใช้แอป Power BI ก่อนอื่นให้ลงชื่อเข้าใช้บัญชีของคุณโดยใช้ข้อมูลบัญชีบริการของ Power BI ของคุณ บนอุปกรณ์เคลื่อนที่ Windows (ในกรณีนี้คือแท็บเล็ต) การลงชื่อเข้าใช้จะเป็นดังต่อไปนี้

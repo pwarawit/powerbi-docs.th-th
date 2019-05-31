@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661478"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61054920"
 ---
 # <a name="recent-content-in-power-bi-service"></a>เนื้อหา**ล่าสุด**ในบริการ Power BI
 เนื้อหาล่าสุดคือรายการสุดท้ายที่คุณเข้าชมใน Power BI ไม่เกิน 20 รายการ  ซึ่งรวมถึง แดชบอร์ด รายงาน แอป และเวิร์กบุ๊กทั้งหมดของพื้นที่ทำงานของคุณ
@@ -37,7 +37,7 @@ ms.locfileid: "56661478"
 
 ![แสดงเนื้อหาล่าสุดทั้งหมด](./media/end-user-recent/power-bi-recent-list.png)
 
-จากตรงนี่ คุณสามารถโต้ตอบกับเนื้อหาตามที่คุณต้องการบนแต่ละแทบของ[ **แดชบอร์ด**](end-user-dashboards.md), [ **รายงาน**](end-user-reports.md)และ **สมุดงาน** และบนหน้าจอ<!--[**Apps**](end-user-apps.md)--> แอป 
+จากที่นี่ คุณสามารถโต้ตอบกับเนื้อหา ตามที่คุณต้องการบนแต่ละ[ **แดชบอร์ด**](end-user-dashboards.md), [ **รายงาน**](end-user-reports.md)และ **เวิร์กบุ๊ก**แท็บ และ บนแอป <!--[**Apps**](end-user-apps.md)--> หน้าจอ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 <!--[Power BI service Apps](end-user-apps.md)-->

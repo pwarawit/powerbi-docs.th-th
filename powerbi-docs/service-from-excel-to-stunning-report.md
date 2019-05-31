@@ -11,11 +11,11 @@ ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
 ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290424"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61140789"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>จากสมุดงาน Excel สู่รายงานอันน่าตื่นตาตื่นใจเพียงครู่เดียว
 ผู้จัดการต้องการดูรายงานตัวเลขยอดขายของคุณที่รวมข้อมูลที่น่าประทับใจจากแคมเปญล่าสุดภายในวันนี้ แต่ข้อมูลล่าสุดอยู่ในระบบของบุคคลที่สามต่าง ๆ และบนไฟล์ในคอมพิวเตอร์โน๊ตบุ๊คของคุณ ในอดีตต้องใช้เวลาหลายชั่วโมงในการสร้างภาพและจัดรูปแบบรายงาน คุณเริ่มรู้สึกตื่นตระหนก

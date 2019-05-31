@@ -1,70 +1,91 @@
 ---
 title: เชื่อมต่อกับ GitHub ด้วย Power BI
 description: GitHub สำหรับ Power BI
-author: SarinaJoan
+author: maggiesMSFT
 manager: kfile
-ms.reviewer: maggiesMSFT
+ms.reviewer: sarinas
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
-ms.author: sarinas
+ms.date: 04/26/2019
+ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1683c849a765f5326fbaa06f82979b09f0cd2dcf
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.openlocfilehash: b0f2bd53f1d8b82b70072446723c2ca3723eeacd
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008062"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608434"
 ---
 # <a name="connect-to-github-with-power-bi"></a>เชื่อมต่อกับ GitHub ด้วย Power BI
-ชุดเนื้อหา GitHub สำหรับ Power BI ช่วยให้คุณสามารถรับข้อมูลเชิงลึกลงในจัดเก็บใน GitHub (หรือที่เรียกว่า repo) กับข้อมูล การจัดสรร ปัญหา คำขอการดึง และผู้ใช้ที่ใช้งานอยู่
+บทความนี้แนะนำคุณเกี่ยวกับการดึงข้อมูลของคุณจากบัญชี GitHub ของคุณกับแอป Power BI เทมเพลต แอปเทมเพลสร้างพื้นที่ทำงานกับแดชบอร์ด ชุดของรายงาน และชุดข้อมูลเพื่อให้คุณสามารถสำรวจข้อมูล GitHub ของคุณ แอป GitHub สำหรับ Power BI แสดงข้อมูลเชิงลึกที่เก็บ GitHub ของคุณ เรียกว่า repo กับข้อมูลการจัดสรร ปัญหา คำขอดึงข้อมูล และผู้ใช้ที่ใช้งานอยู่
 
-เชื่อมต่อไปยัง[ชุดเนื้อหา GitHub ](https://app.powerbi.com/getdata/services/github)หรืออ่านเพิ่มเติมเกี่ยวกับการ[รวม GitHub ](https://powerbi.microsoft.com/integrations/github)กับ Power BI
+หลังจากที่คุณติดตั้งแอปเทมเพล คุณสามารถเปลี่ยนแดชบอร์ดและรายงาน จากนั้น คุณสามารถแจกจ่ายเป็นแอปให้เพื่อนร่วมงานในองค์กรของคุณ
+
+เชื่อมต่อกับตัว[ปเทมเพล GitHub](https://app.powerbi.com/getdata/services/github)หรืออ่านเพิ่มเติมเกี่ยวกับการ[รวม GitHub](https://powerbi.microsoft.com/integrations/github)ด้วย Power BI
+
+คุณยังสามารถลองการ[บทช่วยสอน GitHub](service-tutorial-connect-to-github.md)ได้ ซึ่งถูกติดตั้งข้อมูล GitHub จริงเกี่ยวกับ repo สาธารณะสำหรับเอกสารประกอบ Power BI
 
 >[!NOTE]
->ชุดเนื้อหานี้จำเป็นต้องมีบัญชีผู้ใช้ GitHub ที่สามารถเข้าถึง repo ได้ รายละเอียดเพิ่มเติมเกี่ยวกับข้อกำหนดด้านล่าง
+>แอปเทมเพลจำเป็นต้องมีบัญชี GitHub ที่สามารถเข้าถึง repo รายละเอียดเพิ่มเติมเกี่ยวกับข้อกำหนดด้านล่าง
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
-1. เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ
+[!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
    
-   ![](media/service-connect-to-github/pbi_getdata.png) 
-2. ในกล่อง**บริการ** เลือก**รับ**
+3. เลือก**GitHub** \> **รับทันที**
+4. ใน**ติดตั้งแอป Power BI นี้ใช่ไหม**เลือก**ติดตั้ง**
+4. ในการ**แอ**บานหน้าต่าง เลือกแบบ**GitHub**ไทล์
+
+    ![ไทล์ GitHub ใน Power BI](media/service-connect-to-github/power-bi-github-tile.png)
+
+6. ใน**เริ่มต้นใช้งานแอปของคุณใหม่**เลือก**เชื่อมต่อข้อมูล**
+
+    ![เริ่มต้นใช้งานแอปใหม่ของคุณ](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
+
+5. ป้อนชื่อที่เก็บและเจ้าของที่เก็บ Repo ดูรายละเอียดที่ [การค้นหาพารามิเตอร์เหล่านี้](#FindingParams) ด้านล่าง
    
-   ![](media/service-connect-to-github/pbi_get_services.png) 
-3. เลือก**GitHub** \> **รับ**
-   
-   ![](media/service-connect-to-github/github.png)
-4. ป้อนชื่อที่เก็บและเจ้าของที่เก็บ Repo ดูรายละเอียดที่ [การค้นหาพารามิเตอร์เหล่านี้](#FindingParams) ด้านล่าง
-   
-   ![](media/service-connect-to-github/pbi_github1.png)
-5. ใส่ข้อมูลประจำตัว GitHub ของคุณ (คุณอาจข้ามขั้นตอนนี้ ถ้าคุณได้ลงชื่อเข้าใช้ด้วยเบราว์เซอร์ของคุณอยู่แล้ว) 
+    ![ชื่อ Repo GitHub ใน Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
+
+5. ใส่ข้อมูลประจำตัว GitHub ของคุณ (ขั้นตอนนี้อาจถูกข้ามไปถ้าคุณกำลังอยู่แล้วลงชื่อเข้าใช้ ด้วยเบราว์เซอร์ของคุณ) 
 6. สำหรับ **วิธีการรับรองความถูกต้อง** ให้เลือก **oAuth2** \> **ลงชื่อเข้าใช้** 
-7. ทำตามหน้าจอการรับรองความถูกต้องของ GitHub ให้สิทธิ์ GitHub เพื่อขออนุญาตจากชุดเนื้อหา Power BI ไปยังข้อมูล GitHub
+7. ทำตามหน้าจอการรับรองความถูกต้อง GitHub ให้สิทธิ์ GitHub สำหรับสิทธิ์ของแอปเทมเพลต Power BI ไปยังข้อมูล GitHub
    
-   ![](media/service-connect-to-github/github_authorize.png)
+   ![อนุญาต power BI GitHub](media/service-connect-to-github/github_authorize.png)
    
-   ซึ่งเชื่อมต่อ Power BI กับ GitHub และอนุญาตให้ Power BI เพื่อเชื่อมต่อกับข้อมูล  ข้อมูลจะถูกรีเฟรชวันละหนึ่งครั้ง
-8. หลังจากที่คุณเชื่อมต่อกับ repo ของคุณ Power BI จะนำเข้าข้อมูล คุณเห็น[แดชบอร์ด GitHub](https://powerbi.microsoft.com/integrations/github)ใหม่ รายงานและชุดข้อมูลในบานหน้าต่างนำทางด้านซ้าย รายการใหม่จะถูกทำเครื่องหมายด้วยเครื่องหมายดอกจันสีเหลือง\*
-   
-   ![](media/service-connect-to-github/pbi_githubdash.png)
+    Power BI เชื่อมต่อกับ GitHub และข้อมูลของคุณ  ข้อมูลจะถูกรีเฟรชวันละหนึ่งครั้ง หลังจาก Power BI นำเข้าข้อมูล คุณเห็นเนื้อหาของพื้นที่ทำงาน GitHub ของคุณใหม่
 
-**ฉันต้องทำอะไรตอนนี้**
+## <a name="modify-and-distribute-your-app"></a>ปรับเปลี่ยน และแจกจ่ายแอปของคุณ
 
-* ลอง[ถามคำถามในกล่อง Q&A](consumer/end-user-q-and-a.md)ที่ด้านบนของแดชบอร์ด
-* [เปลี่ยนไทล์](service-dashboard-edit-tile.md)ในแดชบอร์ด
-* [เลือกไทล์](consumer/end-user-tiles.md)เพื่อเปิดรายงานด้านใน
-* แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
+คุณติดตั้งแอปเทมเพล GitHub ซึ่งหมายความว่า คุณจะสร้างพื้นที่ทำงานแอป GitHub ในพื้นที่ทำงาน คุณสามารถเปลี่ยนรายงานและแดชบอร์ด และแจกจ่ายเป็นแอ*แอ*ให้เพื่อนร่วมงานในองค์กรของคุณได้ 
 
-## <a name="whats-included"></a>มีอะไรรวมอยู่บ้าง
+1. เลือกลูกศรถัดจากชื่อพื้นที่ทำงานในแถบนำทางด้านซ้าย คุณเห็นพื้นที่ทำงานประกอบด้วยแดชบอร์ดและรายงาน
+
+    ![ในบานหน้าต่างนำทางด้านซ้าย](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+
+8. เลือกใหม่[แดชบอร์ด GitHub](https://powerbi.microsoft.com/integrations/github)    
+    ![แดชบอร์ด GitHub ใน Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
+
+3. เมื่อต้องดูเนื้อหาทั้งหมดของ GitHub พื้นที่ทำงานใหม่ ในแถบนำทางด้านซ้าย เลือก**พื้นที่ทำงาน** > **GitHub**
+ 
+   ![พื้นที่ทำงาน GitHub ในบานหน้าต่างนำทางด้านซ้าย](media/service-connect-to-github/power-bi-github-left-nav.png)
+
+    มุมมองนี้คือ รายการเนื้อหาสำหรับพื้นที่ทำงาน ในมุมขวาบน คุณเห็น**อัปเดตแอปฯ** เมื่อคุณพร้อมที่จะแจกจ่ายแอปของคุณให้เพื่อนร่วมงานของคุณ ที่อยู่ที่คุณจะเริ่มต้น 
+
+    ![รายการเนื้อหา GitHub](media/service-connect-to-github/power-bi-github-content-list.png)
+
+2. เลือก**รายงาน**และ**ชุดข้อมูล**เพื่อดูองค์ประกอบอื่น ๆ ในพื้นที่ทำงาน
+
+    อ่านเกี่ยวกับ[แจกจ่ายแอ](service-create-distribute-apps.md)ให้เพื่อนร่วมงานของคุณ
+
+## <a name="whats-included-in-the-app"></a>มีอะไรบ้างในแอป
 ข้อมูลต่อไปนี้จะพร้อมใช้งานจาก GitHub ใน Power BI     
 
 | ชื่อตาราง | คำอธิบาย |
 | --- | --- |
-| การสนับสนุน |ตารางจัดสรรให้ ผลรวม การเพิ่มเติม การลบและการกระทำที่อนุญาตโดยผู้ให้การสนับสนุนที่เพิ่มแต่ละสัปดาห์ ผู้สนับสนุน 100 อันดับแรกถูกรวมไว้ |
+| การสนับสนุน |ตารางจัดสรรให้เพิ่มทั้งหมด ลบ และยอมรับที่สร้าง โดยผู้ให้การสนับสนุนรวมต่อสัปดาห์ ผู้สนับสนุน 100 อันดับแรกถูกรวมไว้ |
 | ปัญหา |รายการปัญหาทั้งหมดสำหรับ repo ที่เลือก และประกอบด้วยการคำนวณเช่นเวลาเฉลี่ยและเวลารวมเพื่อปิดข้อปัญหา รวมปัญหาที่เปิด รวมปัญหาที่ปิด ตารางนี้จะว่างเปล่าเมื่อไม่มีปัญหาใน repo |
-| คำขอดึงข้อมูล |ตารางนี้ประกอบด้วย Pull Requests ทั้งหมดดึงของ repo และบุคคลที่ขอดึง ซึ่งยังประกอบด้วยคำนวณ จำนวน Pull Requests เปิด ปิด และจำนวนรวม ระยะเวลาของ Pull Requests และระยะเวลาค่าเฉลี่ยของ Pull Requests ตารางนี้จะว่างเปล่าเมื่อไม่มีปัญหาใน repo |
-| ผู้ใช้ |ตารางนี้แสดงรายการของผู้ใช้ GitHub หรือผู้ให้การสนับสนุนที่ได้ทำการจัดสรร ที่เก็บข้อมูลปัญหา หรือได้รับการแก้ไข Pull Requests ของ repo ที่เลือก |
+| คำขอดึงข้อมูล |ตารางนี้ประกอบด้วย Pull Requests ทั้งหมดดึงของ repo และบุคคลที่ขอดึง ซึ่งยังประกอบด้วยคำนวณคำขอดึงข้อมูลเปิด ปิด และผลรวมจำนวน ระยะเวลาของ pull คำขอ และการร้องขอดึงข้อมูลเฉลี่ยใช้เวลานานขึ้น ตารางนี้จะว่างเปล่าเมื่อไม่มีปัญหาใน repo |
+| ผู้ใช้ |ตารางนี้มีรายการของผู้ใช้ GitHub หรือผู้สนับสนุนที่ได้ทำการจัดสรร ที่เก็บข้อมูลปัญหา หรือได้รับการแก้ไขคำขอดึงข้อมูลสำหรับ repo ที่เลือก |
 | หลักเป้าหมาย |มีเหตุการณ์สำคัญทั้งหมดสำหรับ repo ที่เลือก |
 | DateTable |ตารางนี้ประกอบด้วยวันที่จากวันนี้ และปีในอดีตที่ช่วยให้คุณสามารถวิเคราะห์ข้อมูล GitHub ของคุณตามวัน |
 | ContributionPunchCard |ตารางนี้สามารถใช้เป็นการ์ดความสามารถจัดสรรสำหรับ repo ที่เลือก ซึ่งแสดงยอมรับ โดยวันของสัปดาห์และชั่วโมงของวัน ตารางนี้ไม่ได้รับการเชื่อมต่อกับตารางอื่นในแบบจำลอง |
@@ -76,14 +97,13 @@ ms.locfileid: "54008062"
 * มีการเรียกใช้ API เพียงพอที่สามารถดึงและรีเฟรชข้อมูล  
 
 ### <a name="de-authorize-power-bi"></a>ยกเลิกอนุญาต Power BI
-เมื่อต้องการยกเลิกอนุญาต Power BI เนื่องจากได้เชื่อมต่อกับ GitHub repo ของคุณ คุณสามารถยกเลิกการเข้าถึงใน GitHub สำหรับรายละเอียดเพิ่มเติมให้ดูที่นี่ หัวข้อ[ความช่วยเหลือ GitHub](https://help.github.com/articles/keeping-your-ssh-keys-and-application-access-tokens-safe/#reviewing-your-authorized-applications-oauth)
+เมื่อต้องการยกเลิกอนุญาต Power BI จากการเชื่อมต่อกับ repo GitHub ของคุณ คุณสามารถยกเลิกการเข้าถึงใน GitHub ดู[ความช่วยเหลือ GitHub](https://help.github.com/articles/keeping-your-ssh-keys-and-application-access-tokens-safe/#reviewing-your-authorized-applications-oauth)หัวข้อสำหรับรายละเอียด
 
 <a name="FindingParams"></a>
-
 ## <a name="finding-parameters"></a>การค้นหาพารามิเตอร์
 คุณสามารถกำหนดเจ้าของและที่เก็บ โดยด repo ใน GitHub เอง
 
-![](media/service-connect-to-github/github_ownerrepo.png)
+![ชื่อ repo และเจ้าของ](media/service-connect-to-github/github_ownerrepo.png)
 
 ส่วนแรกของ "Azure" คือเจ้าของ และส่วนสอง "azure-sdk-for-php" เป็นส่วนเก็บข้อมูล  คุณเห็นสิ่งเหล่านี้เหมือนกันสองรายการใน URL repo
 
@@ -92,10 +112,15 @@ ms.locfileid: "54008062"
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
 ถ้าจำเป็น คุณสามารถตรวจสอบข้อมูลประจำตัว GitHub ของคุณ  
 
-1. ในหน้าต่างเบราว์เซอร์อื่น ไปที่เว็บไซต์ GitHub และเข้าสู่ระบบ GitHub คุณสามารถเห็นว่าคุณกำลังเข้าสู่ระบบ ที่มุมขวาบนของไซต์ GitHub    
+1. ในหน้าต่างเบราว์เซอร์อื่น ไปเว็บไซต์ GitHub และลงชื่อเข้าใช้ GitHub คุณสามารถเห็นว่าคุณกำลังเข้าสู่ระบบ ที่มุมขวาบนของไซต์ GitHub    
 2. ใน GitHub นำทางไปยัง URL ของ repo ที่คุณวางแผนที่จะเข้าถึงใน Power BI ตัวอย่างเช่น: https://github.com/dotnet/corefx  
 3. กลับไปที่ Power BI ลองเชื่อมต่อกับ GitHub ในกล่องโต้ตอบการกำหนดค่า GitHub ให้ใช้ชื่อของ repo และเจ้าของ repo สำหรับ repo ที่เดียวกัน  
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [Power BI คืออะไร](power-bi-overview.md)
-* [รับข้อมูล](service-get-data.md)
+
+* [บทช่วยสอน: เชื่อมต่อกับ repo GitHub ด้วย Power BI](service-tutorial-connect-to-github.md)
+* [สร้างพื้นที่ทำงานใหม่ใน Power BI](service-create-the-new-workspaces.md)
+* [ติดตั้งและใช้แอปฯใน Power BI](consumer/end-user-apps.md)
+* [เชื่อมต่อกับแอป Power BI สำหรับบริการภายนอก](service-connect-to-services.md)
+* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+

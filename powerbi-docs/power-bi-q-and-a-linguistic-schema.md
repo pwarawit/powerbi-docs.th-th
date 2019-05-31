@@ -11,11 +11,11 @@ ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 760335b0a08156b3c5b594ffc27be4cb0ad12342
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289934"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61420741"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>แก้ไขรูปแบบภาษาและเพิ่มการใช้ถ้อยคำของ Q&A ใน Power BI Desktop 
 การใช้วลีทั่วไปและภาษาที่เป็นธรรมชาติในการถามคำถามเกี่ยวกับข้อมูลของคุณเป็นการดำเนินการที่มีประสิทธิภาพ และจะยิ่งมีประสิทธิภาพมากยิ่งขึ้นเมื่อได้รับคำตอบเกี่ยวกับข้อมูล ซึ่งเป็นสิ่งที่ส่วนถามตอบใน Power BI ช่วยให้คุณทำได้ เมื่อคุณถามคำถามในส่วนถามตอบของ Power BI ส่วนถามตอบจะพยายามอย่างมากที่สุดเพื่อตอบคำถามให้ถูกต้อง 

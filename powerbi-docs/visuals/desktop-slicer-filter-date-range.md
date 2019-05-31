@@ -7,29 +7,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 05/28/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: c29145e4a51821bab284693bc13a508cb9c046c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 3d8057c4d35294dd5e83638b721169e4d54d2adf
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279170"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66374479"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>ใช้ตัวแบ่งส่วนข้อมูลและตัวกรองวันที่แบบสัมพัทธ์ใน Power BI Desktop
+# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>ใช้ตัวแบ่งส่วนข้อมูลวันที่แบบสัมพัทธ์และตัวกรองใน Power BI
 ด้วย**ตัวแบ่งส่วนข้อมูลวันที่ที่สัมพันธ์**หรือ**ตัวกรองวันที่ี่ที่สัมพันธ์** คุณสามารถใช้ตัวกรองที่ยึดตามเวลากับคอลัมน์วันที่ใดก็ตามในแบบจำลองข้อมูลของคุณได้ ตัวอย่างเช่น คุณสามารถใช้**ตัวแบ่งส่วนข้อมูลวันที่ที่เกี่ยวข้อง**เพื่อแสดงข้อมูลยอดขายเฉพาะที่เกิดขึ้นภายใน 30 วันที่ผ่านมา (หรือ เดือน, เดือนตามปฏิทิน ฯลฯ) ได้ และเมื่อคุณรีเฟรชข้อมูล ช่วงเวลาสัมพัทธ์จะถูกปรับให้ใช้วันที่ที่เหมาะสมโดยอัตโนมัติ
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_01.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
 
 ## <a name="using-the-relative-date-range-slicer"></a>การใช้ตัวแบ่งส่วนข้อมูลช่วงวันที่ที่สัมพันธ์
 คุณสามารถใช้ตัวแบ่งส่วนข้อมูลวันที่ที่สัมพันธ์ได้เช่นเดียวกับตัวแบ่งส่วนข้อมูลอื่น ๆ เพียงแค่สร้างวิชวล**ตัวแบ่งส่วนข้อมูล**สำหรับรายงานของคุณ จากนั้นเลือกค่าวันที่สำหรับค่า**เขตข้อมูล** ในรูปต่อไปนี้ จะมีการเลือกช่องข้อมูล*OrderDate*
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_02.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-02.png)
 
-เลือกกะรัตที่มุมบนขวาของ**ตัวแบ่งส่วนข้อมูลวันที่ที่สัมพันธ์**และเมนูจะปรากฏขึ้น
+เลือกตัวแบ่งส่วนข้อมูลบนพื้นที่ทำงานของคุณ และกะรัตที่มุมบนด้านขวาของตัวแบ่งส่วนข้อมูลภาพ ถ้าวิชวลประกอบด้วยข้อมูลวัน เมนูจะแสดงตัวเลือกสำหรับ**สัมพัทธ์** 
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_03.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-03.png)
 
 ตัวแบ่งส่วนข้อมูลวันที่ที่สัมพันธ์ เลือก*สัมพันธ์*
 
@@ -41,7 +41,7 @@ ms.locfileid: "54279170"
 
 ตัวเลือกเหล่านี้จะแสดงในรูปต่อไปนี้
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_04.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
 การตั้งค่า (ตรงกลาง) ถัดไปใน*ตัวแบ่งส่วนข้อมูลวันที่ที่เกี่ยวข้อง* ให้คุณสามารถพิมพ์ตัวเลขเพื่อกำหนดช่วงวันที่สัมพัทธ์ได้
 
@@ -57,7 +57,7 @@ ms.locfileid: "54279170"
 
 ตัวเลือกเหล่านี้จะแสดงในรูปต่อไปนี้
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_05.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
 ถ้าคุณเลือก*เดือน*จากรายการ และป้อน 2 ในการตั้งค่าตรงกลาง สิ่งต่อไปนี้จะเกิดขึ้น: ถ้าวันนี้คือวันที่ 20 กรกฎาคม ข้อมูลที่รวมอยู่ในวิชวลที่จำกัดโดยตัวแบ่งส่วนข้อมูล จะแสดงข้อมูลของสองเดือนก่อนหน้านี้ เริ่มตั้งแต่วันที่ 20 พฤษภาคมจนถึงวันที่ 20 กรกฎาคม (วันที่ของวันนี้)
 
@@ -66,15 +66,15 @@ ms.locfileid: "54279170"
 ## <a name="using-the-relative-date-range-filter"></a>การใช้ตัวกรองข้อมูลช่วงวันที่ที่สัมพันธ์
 คุณยังสามารถสร้างตัวกรองช่วงวันที่สัมพัทธ์สำหรับหน้ารายงานของคุณ หรือทั้งรายงานของคุณได้ ใการทำเช่นนั้น เพียงแค่ลากเขตข้อมูลวันที่ไปยังพื้นที่**ตัวกรองระดับหน้า**หรือ**ตัวกรองระดับรายงาน**ในพื้นที่**เขตข้อมูล** ดังที่แสดงในรูปต่อไปนี้
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_06.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-06.png)
 
 เมื่ออยู่ที่นั่นแล้ว คุณสามารถปรับเปลี่ยนช่วงวันที่สัมพัทธ์ในแบบเดียวกับวิธีการกำหนด**ตัวแบ่งส่วนข้อมูลวันที่ที่เกี่ยวข้อง**เอง เลือก**กรองข้อมูลวันที่ที่สัมพันธ์** จากดรอปดาวน์**ชนิดตัวกรอง**
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_07.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-07.png)
 
 เมื่อเลือก**กรองข้อมูลวันที่ที่สัมพันธ์**แล้ว คุณจะเห็นสามส่วนสำหรับการปรับเปลี่ยน ซึ่งรวมถึงกล่องตัวเลขตรงกลาง เช่นเดียวกับตัวแบ่งส่วนข้อมูล
 
-![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_08.png)
+![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-08.png)
 
 และนั่นคือทั้งหมด สำหรับการใช้ข้อจำกัดวันที่ที่สัมพัทธ์ในรายงานของคุณ
 

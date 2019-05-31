@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a4d51bb3295c2b5512b98fe2ac231ed1b3467c8a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257007"
+---
 *หน่วยวัด*คือการคำนวณที่มีอยู่ในแบบจำลองข้อมูล Power BI ของคุณ เมื่อต้องการสร้างหน่วยวัด ในมุมมอง**รายงาน** ให้เลือก **หน่วยวัดใหม่** จากแท็บ **การวางรูปแบบ**
 
 ![](media/2-5-create-calculated-measures/2-5_1.png)

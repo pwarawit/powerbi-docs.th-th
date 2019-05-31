@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216596"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61053505"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>โหมดการดูรายละเอียดแนวลึกในการแสดงภาพใน Power BI
 
@@ -101,8 +101,8 @@ ms.locfileid: "56216596"
 3. หากต้องการดูรายละเอียดสำรอง ให้เลือกลูกศรชี้ขึ้นที่มุมบนซ้ายของการแสดงภาพ ![ไอคอนดูข้อมูลเลื่อนขึ้นอีกหนึ่งระดับ](./media/end-user-drill/power-bi-drill-icon5.png).
 
 
-## <a name="drill-down-one-field-at-a-time"></a>ดูรายละเอียดแนว﻿ลึกทีละเขตข้อมูล
-วิธีนี้จะใช้ไอคอนดูรายละเอียด﻿แนวลึกบริเวณมุมบนขวาของการแสดงภาพ 
+## <a name="drill-down-one-field-at-a-time"></a>เจาะลึกเขตข้อมูลหนึ่งครั้ง
+วิธีนี้ใช้ไอคอนดูรายละเอียดที่ปรากฏที่มุมบนขวาของการแสดงภาพเอง 
 
 1. เลือกไอคอนดูรายละเอียดเพื่อ ![เปิดใช้งานการดูรายละเอียดแนวลึก](./media/end-user-drill/power-bi-drill-icon2.png) ในตอนนี้คุณมีตัวเลือกที่จะดูรายละเอียด***ทีละเขตข้อมูล*** 
    

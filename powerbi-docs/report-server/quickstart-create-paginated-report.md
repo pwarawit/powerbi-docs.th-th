@@ -1,20 +1,20 @@
 ---
 title: สร้างรายงานแบบแบ่งหน้าสำหรับเซิร์ฟเวอร์รายงาน Power BI
 description: เรียนรู้วิธีการสร้างรายงานแบบแบ่งหน้าสำหรับเซิร์ฟเวอร์รายงาน Power BI ในขั้นตอนง่ายๆไม่กี่ขั้นตอน
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.author: maghan
-ms.openlocfilehash: 135bd3c127135961016b78eb0156d49ec1c1967d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324679"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770511"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>สร้างรายงานแบบแบ่งหน้าสำหรับเซิร์ฟเวอร์รายงาน Power BI
 ตามชื่อแนะนำ รายงานแบบแบ่งหน้าสามารถเรียกใช้งานกับหน้ามากมาย พวกเขากำลังวางเค้าโครงในรูปแบบคงที่ และเสนอการกำหนดค่าอย่างแม่นยำ รายงานแบบแบ่งหน้าคือ ไฟล์ .rdl

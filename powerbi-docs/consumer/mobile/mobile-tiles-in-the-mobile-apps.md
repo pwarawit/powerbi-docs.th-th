@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: aa0827c0be31d65db7bff2c6e2476e5db59b2895
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286415"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60978360"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>สำรวจไทล์ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -36,7 +36,7 @@ ms.locfileid: "54286415"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *ตัวอย่างเช่น ในแผนภูมิเส้นนี้ ค่าที่เลือกคือค่าสำหรับ **ยอดขายของปีนี้** และ **ยอดขายของปีล่าสุด** ใน **เดือนสิงหาคม***   
+   *ตัวอย่างเช่น ในแผนภูมิเส้นนี้ ค่าที่เลือกคือค่าสำหรับ **ยอดขายของปีนี้** และ **ยอดขายของปีล่าสุด** ใน **เดือนสิงหาคม***  
    
    ในแผนภูมิวงกลม ให้แตะชิ้นของแผนภูมิวงกลมเพื่อแสดงค่าชิ้นส่วนที่ด้านบนของวงกลม  
    
@@ -71,7 +71,7 @@ ms.locfileid: "54286415"
    * แตะแผนภูมิเมื่อต้องย้ายแถบในแผนภูมิเส้น แผนภูมิแท่ง แผนภูมิคอลัมน์ หรือแผนภูมิฟอง เมื่อต้องดูค่าสำหรับจุดเฉพาะในการแสดงภาพ  
    * แตะไอคอนแชร์สแนปช็อต![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png)เพื่อ[ใส่คำอธิบายประกอบ และแชร์ไทล์](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)กับผู้อื่น
    * แตะไอคอนเปิดรายงาน![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png)เพื่อ[ดูรายงาน](mobile-reports-in-the-mobile-apps.md)ในแอปสำหรับอุปกรณ์เคลื่อนที่
-3. ในบางครั้งผู้สร้างแดชบอร์ดได้เพิ่มลิงก์ลงในไทล์ ดังนั้น เมื่อคุณแตะที่เอลลิปซิสแนวตั้ง (**...** ) คุณจะเห็น**เปิดลิงก์** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
+3. ในบางครั้งผู้สร้างแดชบอร์ดได้เพิ่มลิงก์ลงในไทล์ ดังนั้น เมื่อคุณแตะที่เอลลิปซิสแนวตั้ง ( **...** ) คุณจะเห็น**เปิดลิงก์** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    

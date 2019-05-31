@@ -1,20 +1,20 @@
 ---
 title: ใช้ OAuth เพื่อเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI และ SSRS
 description: เรียนรู้วิธีการกำหนดค่าสภาพแวดล้อมของคุณ เพื่อสนับสนุนการรับรองความถูกต้อง OAuth ด้วยแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ เพื่อเชื่อมต่อกับ SQL Server Reporting Services 2016 หรือใหม่กว่า
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: 6e0b1c5d4a067925e4898cf23968cc14fd3f8fd6
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383634"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770369"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>ใช้ OAuth เพื่อเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI และ SSRS
 
@@ -25,7 +25,7 @@ ms.locfileid: "58383634"
 คุณสามารถใช้ OAuth เพื่อเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI และ Reporting Services เพื่อแสดงรายงานอุปกรณ์มือถือ หรือ KPI Windows Server 2016 มีการปรับปรุงบทบาท Web Application Proxy (WAP) เพื่ออนุญาตการรับรองความถูกต้องชนิดนี้
 
    > [!NOTE]
-   > การดูรายงาน Power BI ที่โฮสต์อยู่ในเซิร์ฟเวอร์รายงานของ Power BI โดยใช้ WAP เพื่อตรวจสอบสิทธิ์ไม่ได้รับการสนับสนุนอย่างเป็นทางการในขณะนี้
+   > ดูรายงาน Power BI ที่โฮสต์ในเซิร์ฟเวอร์รายงาน Power BI ใช้ WAP เพื่อรับรองความถูกต้องในขณะนี้สนับสนุนเฉพาะในแอป iOS แอป android ไม่อย่างเป็นทางสนับสนุนในขณะนี้
 
 ## <a name="requirements"></a>ข้อกำหนด
 
@@ -118,7 +118,7 @@ SPN เป็นตัวระบุเฉพาะสำหรับบริ�
    > [!NOTE]
    > URL นี้เป็นตัวพิมพ์ใหญ่-เล็ก
 
-   *https://<url to report server>/รายงาน*
+   *https://< url ของเซิร์ฟเวอร์รายงาน > / รายงาน*
 
    ![ตัวช่วยสร้างกลุ่มแอปพลิเคชัน ADFS 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. เลือก**ถัดไป**
@@ -191,7 +191,7 @@ SPN เป็นตัวระบุเฉพาะสำหรับบริ�
 ในขณะที่คุณสามารถเผยแพร่แอปพลิเคชันภายในคอนโซลการจัดการการเข้าถึงรายงาน เราจะต้องสร้างแอปพลิเคชันผ่านทาง PowerShell นี่คือคำสั่งเพื่อเพิ่มแอปพลิเคชัน
 
 ```powershell
-Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/reports/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/reports/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
+Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
 | พารามิเตอร์ | ข้อคิดเห็น |

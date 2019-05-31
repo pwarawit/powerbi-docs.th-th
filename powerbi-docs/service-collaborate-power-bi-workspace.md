@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174579"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61181715"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>ทำงานร่วมกันในพื้นที่ทำงานของกล่มุของแอป Power BI ของคุณ
 แอปพื้นที่ทำงาน Power BI คือตำแหน่งที่ยอดเยี่ยมเพื่อทำงานร่วมกับเพื่อนร่วมงานของคุณบนแดชบอร์ด รายงาน และชุดข้อมูลเพื่อสร้าง*apps* ทำงานร่วมกันไม่ได้จบด้วยพื้นที่ทำงานใน Power BI Office 365 เสนอกลุ่มอื่นๆบริการ เช่นแชร์ไฟล์บน OneDrive สำหรับธุรกิจ การสนทนาใน Exchange ปฏิทินที่ใช้ร่วมกัน และ tasks และอื่น ๆ อ่านเพิ่มเติมเกี่ยวกับ[กลุ่มใน Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)
@@ -43,7 +43,7 @@ ms.locfileid: "58174579"
 ## <a name="collaborate-in-office-365"></a>ทำงานร่วมกันใน Office 365
 ทำงานร่วมกันใน Office 365 เริ่มต้นจากพื้นที่ทำงานของแอปใน Power BI
 
-1. ใน Power BI service เลือกลูกศรอยู่ถัดจากพื้นที่ทำงาน > เลือกจุดไข่ปลา (**...** ) ถัดจากชื่อพื้นที่ทำงานของคุณ 
+1. ใน Power BI service เลือกลูกศรอยู่ถัดจากพื้นที่ทำงาน > เลือกจุดไข่ปลา ( **...** ) ถัดจากชื่อพื้นที่ทำงานของคุณ 
    
    ![เมนูพื้นที่ทำงาน](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. จากเมนูนี้ คุณสามารถทำงานร่วมกันกับกลุ่มของคุณในสองสามวิธี 
@@ -64,7 +64,7 @@ ms.locfileid: "58174579"
 2. อ่านเพิ่มเติมเกี่ยวกับ[กลุ่มการสนทนาใน Outlook สำหรับ Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22)
 
 ## <a name="schedule-an-event-on-the-apps-group-workspace-calendar"></a>กำหนดเหตุการณ์บนปฏิทินของพื้นที่ทำงานของกลุ่มของแอป
-1. เลือกจุดไข่ปลา (**...**) ที่อยู่ถัดจากชื่อพื้นที่ทำงานของชื่อแอปของคุณ\>**ปฏิทิน** 
+1. เลือกจุดไข่ปลา ( **...** ) ที่อยู่ถัดจากชื่อพื้นที่ทำงานของชื่อแอปของคุณ\>**ปฏิทิน** 
    
    ![แท็บปฏิทิน](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

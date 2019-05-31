@@ -12,11 +12,11 @@ ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223317"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61068966"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>คุณสมบัติแกน x และแกน y ที่กำหนดด้วยตนเอง
 ในบทช่วยสอนนี้ คุณจะได้เรียนรู้หลายวิธีในการกำหนดค่าแกน X และแกน Y ของวิชวลคุณ ไม่ใช่วิชวลทั้งหมดที่มีแกน หรือสามารถกำหนดแกนเองได้ ตัวอย่างของวิชวลที่ไม่มีแกน เช่น แผนภูมิวงกลม และตัวเลือกที่กำหนดเองได้ จะแตกต่างกันตามวิชวล มีตัวเลือกอยู่มากมายเกินกว่าที่จะครอบคลุมในบทความเดียว ดังนั้นเราจะดูเฉพาะ การกำหนดค่าแกนที่ใช้บ่อยที่สุดบางค่า เพื่อให้คุณคุ้นเคยกับแท็บการจัดรูปแบบวิชวล บนพื้นที่รายงาน Power BI  

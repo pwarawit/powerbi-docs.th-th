@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279239"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61141640"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>ดูแดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -87,7 +87,7 @@ ms.locfileid: "54279239"
    
    * ดาวสีเหลือง ![ดาวรายการโปรด](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) แสดงแดชบอร์ดที่เป็นรายการโปรด 
    * เครื่องหมายด้านล่างแต่ละชื่อของแดชบอร์ด (ในกรณีนี้ คือ "MBI") ![จัดประเภทข้อมูล](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)แสดงวิธีการจัดประเภทข้อมูลในแต่ละแดชบอร์ด อ่านเพิ่มเติมเกี่ยวกับ[การจัดประเภทข้อมูลใน Power BI](../../service-data-classification.md)
-3. คุณสามารถแชร์แดชบอร์ดจากพื้นที่ทำงานของคุณ แตะจุดไข่ปลา (**...** ) ที่มุมขวาล่างของไทล์แดชบอร์ด และ แตะ**เชิญบุคคลอื่น**
+3. คุณสามารถแชร์แดชบอร์ดจากพื้นที่ทำงานของคุณ แตะจุดไข่ปลา ( **...** ) ที่มุมขวาล่างของไทล์แดชบอร์ด และ แตะ**เชิญบุคคลอื่น**
    
    ![ไอคอนเชิญ](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. คุณยังสามารถแตะแดชบอร์ดเพื่อเปิด และดูไทล์ในแดชบอร์ดนั้น ขณะที่อยู่บนแดชบอร์ด คุณสามารถโต้ตอบกับแดชบอร์ดได้ดังนี้:

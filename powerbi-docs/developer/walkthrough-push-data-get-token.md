@@ -1,20 +1,20 @@
 ---
 title: รับโทเค็นการเข้าถึงการรับรองความถูกต้อง
 description: คำแนะนำการส่งข้อมูล - รับโทเค็นการเข้าถึงการรับรองความถูกต้อง
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 0840d01a53a8d1f2c19ef1d5d263bf9a3d2d8f81
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 4a0b0f5e7d697c137da343576d05fbcc91b4a4f7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216573"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710358"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>ขั้นตอนที่ 2: รับโทเค็นการเข้าใช้การรับรองความถูกต้อง
 
@@ -27,15 +27,13 @@ ms.locfileid: "56216573"
 ## <a name="get-an-authentication-access-token"></a>รับโทเค็นการเข้าใช้การรับรองความถูกต้อง
 
 > **หมายเหตุ**: ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่า คุณดำเนินตามขั้นตอนก่อนหน้านี้ในการฝึกปฏิบัติ[พุชข้อมูลลงในชุดข้อมูล](walkthrough-push-data.md)แล้ว
-> 
-> 
 
-1. สร้าง**โครงการแอปพลิเคชันคอนโซล**ใน Studio Visual 2015
-2. ติดตั้ง[ไลบรารีรับรองความถูกต้อง AD Azure สำหรับแพคเกจ .NET NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) ใช้แพคเกจนี้ หากคุณต้องการรับโทเค็นรักษาความปลอดภัยการรับรองความถูกต้องในแอป .NET นี่คือวิธีการติดตั้งแพคเกจ:
+1. ใน Visual Studio (2015 หรือใหม่กว่า), สร้างเป็น**แอปพลิเคชันคอนโซล**โครงการ
+2. ติดตั้ง[ไลบรารีรับรองความถูกต้อง AD Azure สำหรับแพคเกจ .NET NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) ใช้แพคเกจนี้ หากคุณต้องการรับโทเค็นรักษาความปลอดภัยการรับรองความถูกต้องในแอป .NET นี่คือวิธีการติดตั้งแพคเกจ:
 
-     ก. ใน Studio Visual 2015 เลือก**เครื่องมือ** > **ตัวจัดการแพคเกจ NuGet** > **คอนโซลตัวจัดการแพคเกจ**
+     a. ใน Visual Studio (2015 หรือใหม่กว่า), เลือก**เครื่องมือ** > **Manager แพคเกจ NuGet** > **คอนโซล Manager แพคเกจ**
 
-     ข. ใน**คอนโซลตัวจัดการแพคเกจ**ใส่แพคเกจติดตั้ง Microsoft.IdentityModel.Clients.ActiveDirectory -รุ่น 2.21.301221612.
+     b. ใน**คอนโซลตัวจัดการแพคเกจ**ใส่แพคเกจติดตั้ง Microsoft.IdentityModel.Clients.ActiveDirectory -รุ่น 2.21.301221612.
 3. เพิ่มรหัสด้านล่างลงในคลาสโปรแกรม {...}
 4. แทนที่ "{ClientID }" ด้วย**ID ไคลเอ็นต์**ที่คุณได้รับเมื่อคุณลงทะเบียนแอป ดู[การลงทะเบียนแอปกับ Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)
 5. หลังจากติดตั้งแพคเกจ Microsoft.IdentityModel.Clients.ActiveDirectory แล้ว เพิ่ม**การใช้ Microsoft.IdentityModel.Clients.ActiveDirectory;** ลงใน Program.cs
@@ -152,7 +150,7 @@ namespace walkthrough_push_data
             string resourceUri = "https://analysis.windows.net/powerbi/api";
 
             //OAuth2 authority Uri
-            string authorityUri = "https://login.microsoftonline.net/common/";
+            string authorityUri = "https://login.microsoftonline.com/common/";
 
             //Get access token:
             // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

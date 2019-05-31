@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: mshenhav
 ms.openlocfilehash: 443615a64bee1f4723450c6c8cc3c49feb81989c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275145"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61374060"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI สำหรับแอปความเป็นจริงผสม (แสดงตัวอย่าง)
 ดูแดชบอร์ดและรายงานของคุณใน Power BI สำหรับแอปความเป็นจริงผสม (ตัวอย่าง) ในขณะที่เข้าไปอยู่ในในโลกเสมือน หรือวางไว้ในตำแหน่งที่ตั้งตามบริบทของสภาพแวดล้อมคุณ 

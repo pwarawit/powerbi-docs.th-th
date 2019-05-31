@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: bafab0768df53390d0d36730b66d1221d9012c14
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007878"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61169263"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>เชื่อมต่อกับ tyGraph ด้วย Power BI
 แสดงข้อมูลเป็นภาพและสำรวจข้อมูล tyGraph ของคุณใน Power BI ด้วยชุดเนื้อหา Power BI เริ่มต้นด้วยการเชื่อมต่อกับบัญชี tyGraph ของคุณ และโหลดแดชบอร์ด รายงาน และชุดข้อมูล เนื้อหาแบบใช้งานทันทีมีข้อมูลเชิงลึกเช่น Measure of Active Engagement (MAE score) และผู้สนับสนุนสูงสุด (Top Contributors) ปรับแต่งเพื่อไฮไลท์ข้อมูลเพิ่มเติมสำหรับข้อมูลที่คุณใส่ใจมากที่สุด  ระบบจะรีเฟรชข้อมูลโดยอัตโนมัติตามกำหนดการที่คุณตั้งค่าได้

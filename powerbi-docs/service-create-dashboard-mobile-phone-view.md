@@ -1,5 +1,5 @@
 ---
-title: สร้างมุมมองของแดชบอร์ด Power BI สำหรับโทรศัพท์มือถือ
+title: แดชบอร์ดสำหรับโทรศัพท์มือถือ - Power BI ที่ปรับให้เหมาะสม
 description: เรียนรู้วิธีการสร้างมุมมองแบบกำหนดเองของแดชบอร์ดใน Power BI service โดยเฉพาะสำหรับการดูบนโทรศัพท์มือถือ
 author: maggiesMSFT
 manager: kfile
@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd7df8383ad22d273ebf396fc1cf8297f110dde5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288163"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61158278"
 ---
-# <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>สร้างมุมมองของแดชบอร์ด Power BI ที่ปรับให้เหมาะกับโทรศัพท์มือถือ
-เมื่อคุณดูแดชบอร์ดในแอปมือถือ Power BI บนโทรศัพท์ของคุณ คุณจะสังเกตเห็นแดชบอร์ดที่เป็นแบบซ้อนถัดๆกัน ที่มีขนาดเดียวกันทั้งหมด ใน Power BI service คุณสามารถสร้างมุมมองของแดชบอร์ดโดยเฉพาะสำหรับโทรศัพท์ของคุณ
+# <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>แดชบอร์ดสำหรับโทรศัพท์มือถือ - Power BI ที่ปรับให้เหมาะสม 
+เมื่อคุณดูแดชบอร์ดในโหมดแนวตั้งบนโทรศัพท์ คุณสังเกตเห็นแดชบอร์ดที่มีถัด ๆ อีก ที่มีขนาดเดียว ในบริการ Power BI คุณสามารถสร้างมุมมองแบบกำหนดเองของแดชบอร์ด โดยเฉพาะสำหรับโหมดแนวตั้งบนโทรศัพท์ แม้ว่าคุณสร้างมุมมองโทรศัพท์ เมื่อคุณเปิดโทรศัพท์ข้าง คุณเห็นแดชบอร์ด ตามที่จะถูกแสดงในบริการ
 
-เมื่อคุณเปิดใช้งานทางโทรศัพท์ทางด้านข้าง จากนั้นคุณจะเห็นแดชบอร์ดถูกวางเค้าโครงในบริการ ไม่ เป็นตามที่คุณออกแบบสำหรับโทรศัพท์งาน
+คุณกำลังค้นหาข้อมูลเกี่ยวกับการดูแดชบอร์ดบนอุปกรณ์เคลื่อนที่หรือไม่ ลองเริ่มต้นด่วนนี้[แดชบอร์ดและรายงานในแอปสำหรับอุปกรณ์เคลื่อน Power BI](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)แทน
 
 > [!NOTE]
 > เมื่อคุณแก้ไขมุมมองโทรศัพท์ ทุกคนที่ดูแดชบอร์ดบนโทรศัพท์ของคุณสามารถดูการเปลี่ยนแปลงที่คุณทำในแบบเรียลไทม์ ตัวอย่างเช่น ถ้าคุณถอนหมุดไทล์ทั้งหมดในมุมมองโทรศัพท์ของแดชบอร์ด แดชบอร์ดบนโทรศัพท์จะไม่มีไทล์ทันที 

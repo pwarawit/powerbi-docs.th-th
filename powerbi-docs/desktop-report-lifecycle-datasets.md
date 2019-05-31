@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9a0e87eca537fc8c22dffaad6a725dc949b2b121
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 02beb69148c347847f346c170651ef31ddd1e786
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275582"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60988019"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>เชื่อมต่อกับชุดข้อมูลในบริการ Power BI จาก Power BI Desktop
 คุณสามารถสร้างการเชื่อมต่อสดไปยังชุดข้อมูลที่ใช้ร่วมกันในบริการ Power BI และสร้างรายงานที่แตกต่างกันมากมายจากชุดข้อมูลเดียวกัน ซึ่งหมายความว่า คุณสามารถสร้างโมเดลข้อมูลที่สมบูรณ์แบบที่สุดของคุณใน Power BI Desktop และเผยแพร่ไปยังบริการ Power BI จากนั้นคุณ และผู้อื่นสามารถสร้างรายงานที่แตกต่างกันหลายรายการ (ในไฟล์.pbix ที่แยกต่างหาก) จากโมเดลข้อมูลเดียวกันที่ใช้ทั่วไป คุณลักษณะนี้เรียกว่า**Power BI service Live connection**
@@ -77,9 +77,8 @@ ms.locfileid: "54275582"
 ถัดไป มาดูวิธีที่เพื่อนร่วมทีมอื่น ๆ ที่สามารถเข้าถึงพื้นที่ทำงานที่รายงาน (และชุดข้อมูล) ถูกเผยแพร่แล้ว สามารถทำการเชื่อมต่อกับชุดข้อมูล และสร้างรายงานของเราเองได้
 
 ### <a name="establish-a-power-bi-service-live-connection-to-the-published-dataset"></a>สร้าง Power BI service live connection ไปยังชุดข้อมูลเผยแพร่แล้ว
-ในการที่จะติดตั้งการเชื่อมต่อไปยังรายงานที่เผยแพร่อยู่ และสร้างรายงานของคุณเองตามชุดข้อมูลที่เผยแพร่อยู่นั้น ให้เลือก**รับข้อมูล**จาก**หน้าแรก** แถบข้อมูล ribbon ใน**Power BI Desktop** และเลือก**บริการ Power BI** คุณยังสามารถเลือกจาก**รับข้อมูล > บริการออนไลน์ > บริการ Power BI**ได้ด้วย
+การสร้างการเชื่อมต่อกับรายงานที่เผยแพร่ และสร้างรายงานของคุณเองโดยยึดตามชุดข้อมูลเผยแพร่**รับข้อมูล**จากการ**หน้าแรก** ribbon ใน**Power BI Desktop** เลือก**Power BI**จากบานหน้าต่างด้านซ้าย และจากนั้นเลือก**ชุดข้อมูล Power BI**
 
-![](media/desktop-report-lifecycle-datasets/report-lifecycle_08.png)
 
 คุณไม่ได้ลงชื่อเข้าใช้ใน Power BI จะมีข้อความเตือนให้ลงชื่อเข้าใช้ เมื่อเข้าสู่ระบบแล้ว จะมีหน้าต่างแสดงข้อมูลเกี่ยวกับพื้นที่ทำงานที่คุณเป็นสมาชิก และคุณสามารถเลือกพื้นที่ทำงานที่ประกอบด้วยชุดข้อมูลที่คุณต้องการติดตั้ง**Power BI service live connection**
 

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513690"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>บทช่วยสอน: Facebook analytics กำลังใช้ Power BI Desktop
@@ -23,7 +23,7 @@ ms.locfileid: "65513690"
 
 ## <a name="connect-to-a-facebook-page"></a>เชื่อมต่อไปยังหน้า Facebook
 
-บทช่วยสอนนี้ใช้ข้อมูลจาก[หน้า Facebook ของ Microsoft Power BI](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*) คุณไม่จำเป็นใช้ข้อมูลประจำตัวใด ๆ เป็นพิเศษเพื่อเชื่อมต่อ และนำเข้าข้อมูลจากหน้านี้ ยกเว้นบัญชี Facebook ส่วนบุคคล
+บทช่วยสอนนี้ใช้ข้อมูลจาก[หน้า Facebook ของ Microsoft Power BI](https://www.facebook.com/microsoftbi) ( *https://www.facebook.com/microsoftbi* ) คุณไม่จำเป็นใช้ข้อมูลประจำตัวใด ๆ เป็นพิเศษเพื่อเชื่อมต่อ และนำเข้าข้อมูลจากหน้านี้ ยกเว้นบัญชี Facebook ส่วนบุคคล
 
 1. เปิด Power BI Desktop แล้วเลือก**รับข้อมูล**ในกล่องโต้ตอบ**เริ่มต้นใช้งาน** หรือในแท็บ ribbon **หน้าแรก** เลือก**รับข้อมูล** แล้วเลือก**เพิ่มเติม...**
    

@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
 ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430912"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61338942"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>สำรวจข้อมูลของคุณในแอป Power BI บนมือถือใน Apple Watch ของคุณ
 ด้วยแอป Power BI Apple Watch คุณสามารถดู KPIs และการ์ดไทล์จากแดชบอร์ด Power BI ในนาฬิกาของคุณ KPIs และไทล์การ์ดเหมาะที่สุดในการวัดจังหวะการเต้นของหัวใจบนหน้าจอขนาดเล็ก คุณสามารถรีเฟรชแดชบอร์ดจาก iPhone ของคุณหรือที่ตัวนาฬิกา

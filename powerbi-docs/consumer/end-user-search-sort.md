@@ -12,11 +12,11 @@ ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 2f8c2468b56db190f9e794ed2d81ce86449a970d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661893"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61048279"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>การนำทาง: ค้นหาและการเรียงลำดับเนื้อหาของคุณในบริการ Power BI
 มีหลายวิธีในการนำทางเนื้อหาของคุณในบริการ Power BI เนื้อหาดังกล่าวจะได้รับการจัดการภายในพื้นที่ทำงานของคุณซึ่งแยกตามประเภท: แดชบอร์ด รายงาน สมุดงาน และชุดข้อมูล  นอกจากนี้ยังมีการจัดระเบียบเนื้อหาแยกตามการใช้งาน: รายการโปรด ล่าสุด แอปฯ แชร์กับฉัน และที่แนะนำ สำหรับการนำทางแบบครบวงจร หน้าหลักจัดระเบียบเนื้อหาทั้งหมดในหน้าเดียว เส้นทางที่แตกต่างกันเหล่านี้ที่เข้ามาในเนื้อหาของคุณอนุญาตให้คุณค้นหาสิ่งที่คุณต้องการในบริการ Power BI ได้อย่างรวดเร็ว  

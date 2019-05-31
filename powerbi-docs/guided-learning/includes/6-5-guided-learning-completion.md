@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a0510b9f9bc7303d7ed63a5a1c4c7ee9862d7c85
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256963"
+---
 คุณทำสำเร็จแล้ว! **ยินดีด้วย!** คุณได้จบส่วนแรกของหลักสูตร **การเรียนรู้พร้อมคำแนะนำ** สำหรับ Power BI แล้ว คุณได้วนครบรอบจากการเรียนรู้องค์ประกอบพื้นฐานของ Power BI รับการแนะนำผ่านฟีเจอร์และองค์ประกอบของซอฟต์แวร์ และเรียนรู้วิธีที่สิ่งเหล่านั้นทำงานด้วยกันแล้ว
 
 ![](media/6-5-guided-learning-completion/c0a0_2.png)

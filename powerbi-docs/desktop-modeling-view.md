@@ -1,5 +1,5 @@
 ---
-title: ใช้มุมมองแบบจำลองใน Power BI Desktop (ตัวอย่าง)
+title: ใช้มุมมองแบบจำลองใน Power BI Desktop
 description: ใช้มุมมองแบบจำลองเพื่อดูชุดข้อมูลที่ซับซ้อนในรูปแบบภาพใน Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,30 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ccb78c8d22fdb7b9fecbb202dca488c44d36a15d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 1fdb6058a6306f63f53c770812f85ccd9f9113ea
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216320"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65941339"
 ---
-# <a name="modeling-view-in-power-bi-desktop-preview"></a>มุมมองแบบจำลองใน Power BI Desktop (ตัวอย่าง)
+# <a name="modeling-view-in-power-bi-desktop"></a>มุมมองแบบจำลองใน Power BI Desktop
 
-ด้วย**มุมมองแบบจำลอง**ใน **Power BI Desktop** คุณสามารถดู และทำงานกับชุดข้อมูลที่ซับซ้อนที่ประกอบด้วยหลายตารางได้ ด้วยมุมมองแบบจำลอง คุณสามารถทำสิ่งต่อไปนี้ได้:
+ด้วย**มุมมองแบบจำลอง**ใน **Power BI Desktop** คุณสามารถดู และทำงานกับชุดข้อมูลที่ซับซ้อนที่ประกอบด้วยหลายตารางได้
 
-
-## <a name="enabling-the-modeling-view-preview-feature"></a>เปิดใช้งานคุณลักษณะตัวอย่างมุมมองแบบจำลอง
-
-ฟีเจอร์มุมมองแบบจำลองอยู่ในตัวอย่างและต้องเปิดใช้งานใน**Power BI Desktop** เมื่อต้องการเปิดใช้งานมุมมองแบบจำลอง เลือก**ไฟล์ > ตัวเลือกและการตั้งค่า > ตัวเลือก > ฟีเจอร์ตัวอย่าง**แล้วเลือก**มุมมองแบบจำลอง**กล่องกาเครื่องหมายดังที่แสดงในรูปภาพต่อไปนี้
-
-![เปิดใช้งานฟีเจอร์มุมมองแบบจำลองใน Power BI Desktop](media/desktop-modeling-view/modeling-view_01.png)
-
-คุณจะได้รับพร้อมท์ให้งรีสตาร์ต**Power BI Desktop**สำหรับฟีเจอร์ตัวอย่างเพื่อเปิดใช้งาน 
-
-![รีสตาร์ท Power BI Desktop เพื่อเปิดใช้งานฟีเจอร์ตัวอย่าง](media/desktop-modeling-view/modeling-view_01b.png)
 
 ## <a name="using-modeling-view"></a>ใช้มุมมองแบบจำลอง
 
@@ -66,9 +56,9 @@ ms.locfileid: "56216320"
 บทความต่อไปนี้อธิบายเพิ่มเติมเกี่ยวกับแบบจำลองข้อมูล และยังอธิบายเกี่ยวกับ DirectQuery อย่างละเอียด
 
 * [รวมข้อมูลใน Power BI Desktop (ตัวอย่าง)](desktop-aggregations.md)
-* [โมเดลแบบรวมใน Power BI Desktop (ตัวอย่าง)](desktop-composite-models.md)
+* [โมเดลแบบรวมใน Power BI Desktop](desktop-composite-models.md)
 * [โหมดที่เก็บข้อมูล ใน Power BI Desktop (ตัวอย่าง)](desktop-storage-mode.md)
-* [ความสัมพันธ์แบบกลุ่ม-ต่อ-กลุ่มใน Power BI Desktop (ตัวอย่าง)](desktop-many-to-many-relationships.md)
+* [ความสัมพันธ์แบบกลุ่มต่อกลุ่มใน Power BI Desktop](desktop-many-to-many-relationships.md)
 
 
 บทความ DirectQuery:

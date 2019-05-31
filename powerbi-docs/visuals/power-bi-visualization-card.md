@@ -11,11 +11,11 @@ ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 164385fc232774999a21e1870b02fcb59b74ad50
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430199"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61153273"
 ---
 # <a name="card-visualizations"></a>การแสดงภาพการ์ด
 บางครั้งตัวเลขเพียงตัวเดียวก็เป็นสิ่งสำคัญที่สุดที่คุณต้องการติดตามในแดชบอร์ด Power BI หรือรายงานของคุณ เช่น ยอดขายรวม ส่วนแบ่งตลาดแบบปีต่อปี ตลาดแชร์ปีปี หรือโอกาสทั้งหมด แสดงภาพชนิดนี้จะเรียกว่า*การ์ด* เช่นเดียวกับการแสดงภาพดั้งเดิมของ Power BI แทบจะทุกชนิด คุณสามารถสร้างการ์ดขึ้นได้ โดยใช้ตัวแก้ไขรายงาน หรือการถามตอบ

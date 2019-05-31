@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4b45c6708f2f4c1ec0f8df2a330dcbb683210926
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292096"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222260"
 ---
 # <a name="conditional-formatting-in-tables"></a>การจัดรูปแบบตามเงื่อนไขในตาราง 
 ด้วยการจัดรูปแบบตามเงื่อนไขสำหรับตาราง คุณสามารถระบุสีพื้นหลังของเซลล์ตามค่าของเซลล์ หรือตามค่าอื่นหรือเขตข้อมูลอื่น รวมถึงการไล่ระดับสี คุณยังสามารถแสดงค่าเซลล์ ด้วยแถบข้อมูล 
@@ -129,6 +129,12 @@ ms.locfileid: "54292096"
 ![วิชวลเมทริกซ์ด้วยค่า KPI ตามสี](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
 
 มีหลายรูปแบบเพิ่มเติมที่คุณสามารถสร้าง เพียงแค่ใช้จินตนาการของคุณและ DAX เล็กน้อย
+
+คุณสามารถใช้ค่าแสดงอยู่ในข้อมูลจำเพาะของสี CSS ที่[ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/)สีภาพของคุณ:
+* 3, 8 หรือ 6 หลัก hex รหัสเช่น #3E4AFF ตรวจสอบให้แน่ใจว่า คุณใส่สัญลักษณ์#ที่จุดเริ่มต้นของรหัส ไม่มีการยอมรับ "3E4AFF" 
+* RGB หรือ RGBA ค่าเช่น RGBA (234, 234, 234, 0.5)
+* HSL หรือ HSLA ค่าเช่น HSLA (123, 75%, 75%, 0.5)
+* สีชื่อเช่นเขียว SkyBlue, PeachPuff 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 สำหรับข้อมูลเพิ่มเติม โปรดดูบทความต่อไปนี้:  

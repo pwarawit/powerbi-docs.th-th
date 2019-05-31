@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 57a285b075b17b2229ec4267a476cdd4b86ea7ad
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513589"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>การรักษาความปลอดภัยระดับแถวแบบไดนามิกกับรูปแบบตารางข้อมูล Analysis Services
@@ -32,7 +32,7 @@ ms.locfileid: "65513589"
 * สร้างแดชบอร์ดใหม่จากรายงาน และสุดท้าย
 * แชร์แดชบอร์ดกับเพื่อนร่วมงานของคุณ
 
-ในการทำตามขั้นตอนในบทช่วยสอนนี้ คุณต้องใช้ฐานข้อมูล **AdventureworksDW2012** ซึ่งคุณสามารถดาวน์โหลดได้จาก**[พื้นที่เก็บข้อมูล](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)**
+ในการทำตามขั้นตอนในบทช่วยสอนนี้ คุณต้องใช้ฐานข้อมูล **AdventureworksDW2012** ซึ่งคุณสามารถดาวน์โหลดได้จาก **[พื้นที่เก็บข้อมูล](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)**
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>งานที่ 1: สร้างตารางความปลอดภัยของผู้ใช้และกำหนดความสัมพันธ์ข้อมูล
 มีบทความตีพิมพ์มากมายที่อธิบายถึงวิธีกำหนดระดับการรักษาความปลอดภัยแบบไดนามิกระดับแถวด้วยรูปแบบ**ตาราง SQL Server Analysis Services (SSAS)** สำหรับตัวอย่างของเรา เราทำตามบทความ[ใช้การรักษาความปลอดภัยแบบไดนามิกโดยใช้ตัวกรองแถว](https://msdn.microsoft.com/library/hh479759.aspx) ขั้นตอนต่อไปนี้จะนำคุณไปสู่งานแรกในบทช่วยสอนนี้:
@@ -85,7 +85,7 @@ ms.locfileid: "65513589"
 
 ## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>งานที่ 3: การเพิ่มแหล่งข้อมูลภายในเกตเวย์ข้อมูลในองค์กรของคุณ
 1. เมื่อแบบจำลองแบบตารางของคุณมีการปรับใช้ และพร้อมสำหรับการใช้ คุณต้องเพิ่มการเชื่อมต่อแหล่งข้อมูลไปยังเซิร์ฟเวอร์ Analysis Services แบบตารางในองค์กร ภายในพอร์ทัล Power BI ของคุณ
-2. เพื่อให้**บริการของ Power BI** สามารถเข้าถึงบริการการวิเคราะห์ของคุณในสถานที่ คุณจำเป็นต้องติดตั้ง**[เกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem.md)** และกำหนดค่าในสภาพแวดล้อมของคุณ
+2. เพื่อให้**บริการของ Power BI** สามารถเข้าถึงบริการการวิเคราะห์ของคุณในสถานที่ คุณจำเป็นต้องติดตั้ง **[เกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem.md)** และกำหนดค่าในสภาพแวดล้อมของคุณ
 3. เมื่อเกตเวย์ได้รับการกำหนดค่าอย่างถูกต้อง คุณต้องสร้างการเชื่อมต่อแหล่งข้อมูลสำหรับอินสแตนซ์ของตาราง **Analysis Services** ของคุณ บทความนี้จะช่วยให้คุณ[เพิ่มแหล่งข้อมูลภายในพอร์ทัล Power BI](service-gateway-enterprise-manage-ssas.md)
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)

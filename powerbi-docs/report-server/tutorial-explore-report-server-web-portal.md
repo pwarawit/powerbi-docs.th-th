@@ -1,20 +1,20 @@
 ---
 title: 'บทช่วยสอน: สำรวจ Power BI Report Server ใน VM'
 description: ในบทช่วยสอนนี้ คุณสร้างเครื่องเสมือนที่มีการติดตั้ง Power BI Report Server แล้ว และสำรวจพอร์ทัลเว็บได้
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
-ms.date: 05/18/2018
-ms.author: maghan
-ms.openlocfilehash: 098aa1cd2c031a200e3ce246890a467a6e15149d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.date: 05/06/2019
+ms.author: maggies
+ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325093"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65240096"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>บทช่วยสอน: สำรวจพอร์ทัลเว็บ Power BI Report Server ใน VM
 ในบทช่วยสอนนี้ คุณสร้างเครื่องเสมือน Azure ที่มีการติดตั้ง Power BI Report Server ไว้แล้วได้ ดังนั้นคุณสามารถดู แก้ไข และจัดการตัวอย่าง Power BI และรายงานที่มีการแบ่งหน้า และ KPI ได้
@@ -37,32 +37,38 @@ ms.locfileid: "56325093"
 
 โชคดีที่ทีม Power BI ได้สร้าง VM ที่มาพร้อมกับ Power BI Report Server แบบติดตั้งไว้แล้ว
 
-1. ใน Azure Marketplace เปิด[เซิร์ฟเวอร์รายงาน Power BI](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview)  
+1. ใน Azure Marketplace เลือกเซิร์ฟเวอร์รายงาน Power BI ลิงก์นี้เปิดโดยตรง: [Power BI Report Server](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview)  
 
 2. เลือก**รับทันที**
 3. ในการยอมรับข้อตกลงการใช้งานและนโยบายความเป็นส่วนตัวของผู้ให้บริการ เลือก**ดำเนินการต่อ**
 
-    ![สร้าง Power BI Report Server VM](media/tutorial-explore-report-server-web-portal/power-bi-report-server-virtual-machine-create.png)
+4. เลือก **สร้าง**
 
-4. **ขั้นตอนที่ 1 ข้อมูลพื้นฐาน** สำหรับ**ชื่อ VM** เรียกว่า**reportservervm**
+    ![สร้าง Power BI Report Server VM](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
+
+5. ใน**ขั้นตอนที่ 1 พื้นฐาน**สำหรับ**ชื่อ VM**เรียกว่า**reportservervm**
+
+    ชื่อ VM เซิร์ฟเวอร์รายงาน BI Power ต้องไม่ประกอบด้วยเส้นประ
 
 5. สร้างชื่อผู้ใช้และรหัสผ่าน
 
-6. สำหรับ**กลุ่มทรัพยากร** ใช้งาน**สร้างใหม่**ต่อไป และเรียกว่า**reportserverresourcegroup**
+6. สำหรับ**กลุ่มทรัพยากร**เลือก**สร้างใหม่**และเรียกว่า**reportserverresourcegroup** > **ตกลง**
 
     ถ้าคุณเลื่อนผ่านบทช่วยสอนมากกว่าหนึ่งครั้ง คุณจำเป็นต้องตั้งชื่อกลุ่มทรัพยากรเป็นชื่ออื่นหลังจากครั้งแรก คุณไม่สามารถใช้ชื่อกลุ่มทรัพยากรเดียวกันสองครั้งในการสมัครใช้งานหนึ่ง 
 
-7. ใช้ค่าเริ่มต้นอื่น ๆ ต่อไป > **ตกลง**
-
     ![ตั้งชื่อ VM และกลุ่มทรัพยากร](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create-resource-group.png)
 
-8. **ขั้นตอนที่ 2 การตั้งค่า** ใช้ค่าเริ่มต้นต่อไป > **ตกลง**
+7. ใช้ค่าเริ่มต้นอื่น ๆ ต่อไป > **ตกลง**
 
-9. **ขั้นตอนที่ 3 บทสรุป** > **ตกลง**
+8. ใน**ตั้งค่า 2 ขั้นตอน**ค่าเริ่มต้นต่อ > **ตกลง**
+ 
+    การ**บัญชีเก็บข้อมูล SQL**และ**บัญชีเก็บข้อมูลการวินิจฉัย**ค่ายังต้องไม่ซ้ำกัน ถ้าคุณเลื่อนผ่านบทช่วยสอนมากกว่าหนึ่งครั้ง คุณจำเป็นต้องใส่ชื่ออื่น
 
-10. **ขั้นตอนที่ 4** ตรวจทานข้อกำหนดของนโยบายผู้ใช้และความเป็นส่วนตัว > **สร้าง**
+9. ใน**ขั้นตอนที่ 3 บทสรุป**ตรวจสอบการเลือกของคุณ > **ตกลง**
 
-    กระบวนการ**ส่งการปรับใช้สำหรับเซิร์ฟเวอร์รายงาน Power BI** ใช้เวลาหลายนาที
+10. ใน**ขั้นตอนที่ 4 ซื้อ**ตรวจทานข้อกำหนดของนโยบายผู้ใช้และความเป็นส่วนตัว > **สร้าง**
+
+    การ**ส่งการปรับใช้สำหรับเซิร์ฟเวอร์รายงาน Power BI**กระบวนอาจใช้เวลาหลายนาทีได้
 
 ## <a name="connect-to-your-virtual-machine"></a>เชื่อมต่อกับเครื่องเสมือนของคุณ
 
@@ -78,11 +84,13 @@ ms.locfileid: "56325093"
 
     ![เชื่อมต่อกับเครื่องเสมือน](media/tutorial-explore-report-server-web-portal/power-bi-report-server-connect-to-virtual-machine.png)
 
-5. ในกล่องโต้ตอบการเชื่อมต่อเดสก์ท็อประยะไกล เลือก**เชื่อมต่อ**
+5. ในการ**เชื่อมต่อกับเครื่องเสมือน**บานหน้าต่าง เก็บค่าเริ่มต้น และเลือก**ดาวน์โหลดไฟล์ RDP**
+
+1. ในการ**เชื่อมต่อเดสก์ท็อประยะไกล**กล่องโต้ตอบ เลือก**เชื่อมต่อ**
 
 6. ใส่ชื่อและรหัสผ่านที่คุณสร้างขึ้นสำหรับการ VM > **ตกลง**
 
-7. กล่องโต้ตอบถัดไประบุว่าไม่สามารถระบุข้อมูลประจำตัวของคอมพิวเตอร์ระยะไกลได้ เลือก**ใช่**
+7. ระบุว่า กล่องโต้ตอบถัดไป**ไม่สามารถระบุข้อมูลประจำตัวของคอมพิวเตอร์ระยะไกล**ได้ เลือก**ใช่**
 
    Voila, VM ใหม่ของคุณเปิดขึ้น
 
@@ -90,15 +98,15 @@ ms.locfileid: "56325093"
 
 เมื่อ VM ของคุณเปิดขึ้น ต่อไปนี้คือรายการที่คุณเห็นบนเดสก์ท็อป
 
-![เครื่องเสมือนของเซิร์ฟเวอร์รายงานของ Power BI เริ่มต้นขึ้น](media/tutorial-explore-report-server-web-portal/power-bi-report-server-start-vm-numbered.png)
+![เครื่องเสมือนของเซิร์ฟเวอร์รายงานของ Power BI เริ่มต้นขึ้น](media/tutorial-explore-report-server-web-portal/power-bi-report-server-vm-5-numbers.png)
 
 |ตัวเลข  |คืออะไร  |
 |---------|---------|
-|![เลขที่ 1](media/tutorial-explore-report-server-web-portal/number-1.png) | เริ่มต้นเครื่องมือข้อมูล SQL Server สำหรับสร้างรายงานที่มีการแบ่งหน้า (.RDL) |
-|![เลขที่ 2](media/tutorial-explore-report-server-web-portal/number-2.png) | รายงาน Power BI ตัวอย่าง (.PBIX)  |
-|![เลขที่ 3](media/tutorial-explore-report-server-web-portal/number-3.png) | ลิงก์ไปยังเอกสารประกอบเซิร์ฟเวอร์รายงาน Power BI   |
-|![เลขที่ 4](media/tutorial-explore-report-server-web-portal/number-4.png) | เริ่มต้น Power BI Desktop ที่ปรับให้เหมาะสมสำหรับเซิร์ฟเวอร์รายงาน Power BI (มีนาคม 2018)  |
-|![เลขที่ 5](media/tutorial-explore-report-server-web-portal/number-5.png) | พอร์ทัลเว็บเซิร์ฟเวอร์รายงาน Power BI เปิดขึ้นในเบราว์เซอร์   |
+|![เลขที่ 1](media/tutorial-explore-report-server-web-portal/number-1.png) | รายงาน Power BI ตัวอย่าง (.PBIX) |
+|![เลขที่ 2](media/tutorial-explore-report-server-web-portal/number-2.png) | ลิงก์ไปยังเอกสารประกอบเซิร์ฟเวอร์รายงาน Power BI |
+|![เลขที่ 3](media/tutorial-explore-report-server-web-portal/number-3.png) | เริ่มต้น Power BI Desktop ที่ปรับให้เหมาะสมสำหรับเซิร์ฟเวอร์รายงาน BI Power (2019 มกราคม) |
+|![เลขที่ 4](media/tutorial-explore-report-server-web-portal/number-4.png) | พอร์ทัลเว็บเซิร์ฟเวอร์รายงาน Power BI เปิดขึ้นในเบราว์เซอร์ |
+|![เลขที่ 5](media/tutorial-explore-report-server-web-portal/number-5.png) | เริ่มต้นเครื่องมือข้อมูล SQL Server สำหรับสร้างรายงานที่มีการแบ่งหน้า (.RDL) |
 
 ดับเบิลคลิกที่ไอคอน**พอร์ทัลเว็บเซิร์ฟเวอร์รายงาน** เบราว์เซอร์เปิดขึ้น`http://localhost/reports/browse` ในพอร์ทัลเว็บคุณจะเห็นไฟล์ต่าง ๆ ที่ถูกจัดกลุ่มแยกตามประเภท 
 
@@ -117,7 +125,7 @@ ms.locfileid: "56325093"
 ## <a name="tag-your-favorites"></a>แท็กรายการโปรดของคุณ
 คุณสามารถแท็กรายงานและ KPI ที่คุณต้องการทำให้เป็นรายการโปรด ง่ายต่อการค้นหาเนื่องจากทั้งหมดถูกรวบรวมไว้ในโฟลเดอร์รายการโปรดเดียว ทั้งในพอร์ทัลของเว็บ และในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ 
 
-1. เลือกจุดไข่ปลา (**...** ) ที่มุมขวาบนของ**อัตราผลกำไร** KPI > **เพิ่มไปยังรายการโปรด**
+1. เลือกจุดไข่ปลา ( **...** ) ที่มุมขวาบนของ**อัตราผลกำไร** KPI > **เพิ่มไปยังรายการโปรด**
    
     ![เพิ่มในรายการโปรด](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
 2. เลือก**รายการโปรด**บน Ribbon พอร์ทัลของเว็บเพื่อดูพร้อมกับรายการโปรดอื่นๆ ของคุณบนหน้ารายการโปรดในพอร์ทัลของเว็บ
@@ -155,11 +163,9 @@ ms.locfileid: "56325093"
 
 1. เลือก**อนุญาต** เพื่ออนุญาตให้เว็บไซต์นี้เปิดโปรแกรมบนคอมพิวเตอร์ของคุณ 
 
-     หน้ารายงานเปิดขึ้นใน Power BI Desktop โปรดสังเกตชื่อในแถบด้านบน "Power BI Desktop (2018 มีนาคม)" นี่เป็นเวอร์ชันที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
+     หน้ารายงานเปิดขึ้นใน Power BI Desktop โปรดสังเกตชื่อในแถบด้านบน "Power BI Desktop (2019 มกราคม)" นี่เป็นเวอร์ชันที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
 
-    ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
-
-     ใช้เวอร์ชัน Power BI Desktop ที่ติดตั้งไว้บน VM คุณไม่สามารถอัปโหลดรายงานข้ามโดเมนได้
+    ใช้เวอร์ชัน Power BI Desktop ที่ติดตั้งไว้บน VM คุณไม่สามารถอัปโหลดรายงานข้ามโดเมนได้
 
 3. ในบานหน้าต่างเขตข้อมูล ขยายตารางลูกค้าและลากเขตข้อมูลอาชีพไปยังตัวกรองระดับรายงาน
 

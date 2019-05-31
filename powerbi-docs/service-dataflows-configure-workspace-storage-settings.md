@@ -1,21 +1,21 @@
 ---
 title: การตั้งค่าตัวเลขกระแสข้อมูลในพื้นที่ทำงาน
-description: กำหนดค่าแอปพื้นที่ทำงานใน Power BI ให้สามารถเก็บข้อกำหนดกระแสข้อมูลและไฟล์ข้อมูลใน Azure Data Lake Storage Gen2
+description: กำหนดค่าพื้นที่ทำงานแอปใน Power BI เพื่อจัดเก็บข้อกำหนด dataflow และไฟล์ข้อมูลของตนใน Gen2 เก็บ Lake ข้อมูล Azure
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8c17a7b4ad455077d383eaff9b35a5d1004fce11
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223639"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61168609"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>การตั้งค่าตัวเลขกระแสข้อมูลในพื้นที่ทำงาน (ดูตัวอย่าง)
 
@@ -52,9 +52,6 @@ ms.locfileid: "56223639"
 ![ตั้งค่าขั้นสูงสำหรับพื้นที่ทำงานใหม่](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
 เลือก**บันทึก**เพื่อสร้างพื้นที่ทำงานของคุณใหม่ กระแสข้อมูลใหม่ใด ๆ ที่สร้างขึ้นในพื้นที่ทำงานนี้ตอนนี้จะถูกจัดเก็บตามข้อกำหนดไฟล์ (ไฟล์ Model.json) และข้อมูลในบัญชี Azure Data Lake Storage Gen2 ขององค์กรคุณ 
-
-> [!NOTE]
-> ฟังก์ชันของกระแสข้อมูลอยู่ในช่วงตัวอย่าง และสามารถเปลี่ยนและอัปเดตได้ตามความพร้อมใช้งานทั่วไป
 
 ## <a name="update-dataflow-storage-for-an-existing-workspace"></a>อัปเดตพื้นที่เก็บกระแสข้อมูลสำหรับพื้นที่ทำงานที่มีอยู่
 

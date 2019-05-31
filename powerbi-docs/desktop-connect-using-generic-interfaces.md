@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a0a590f6029d273944f3e1fa9e537eec3e38bf97
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 6ac121ee5154a9d343a912904b20d3244ebee59c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216458"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513753"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>เชื่อมต่อกับข้อมูลโดยใช้อินเทอร์เฟสทั่วไปใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับแหล่งข้อมูลต่าง ๆ ใน **Power BI Desktop** ด้วยตัวเชื่อมต่อข้อมูลอยู่ภายใน ตั้งแต่**ฐานข้อมูล Access** จนถึงทรัพยากร **Zendesk** ตามที่แสดงในหน้าต่าง**รับข้อมูล** คุณยังสามารถเชื่อมต่อกับแหล่งข้อมูล*อื่น ๆ* เพื่อขยายตัวเลือกการเชื่อมต่อของคุณ โดยใช้อินเทอร์เฟสทั่วไป (เช่น **ODBC** หรือ **REST API**) ที่มีอยู่แล้วใน **Power BI Desktop**
@@ -52,7 +52,7 @@ ms.locfileid: "56216458"
 | ODBC |Couchbase DB |[Couchbase และ Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 | ODBC |DynamoDB |[โปรแกรมควบคุม DynamoDB ODBC](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
 | ODBC |Google BigQuery |[โปรแกรมควบคุม BigQuery ODBC](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
-| ODBC |Hbase |[โปรแกรมควบคุม Hbase ODBC](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
+| ODBC |โปรแกรมควบคุม HBase |[โปรแกรมควบคุม HBase odbc](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
 | ODBC |Hive |[โปรแกรมควบคุม Hive ODBC](http://www.simba.com/drivers/hive-odbc-jdbc/) |
 | ODBC |IBM Netezza |[ข้อมูล IBM Netezza](https://www.ibm.com/support/knowledgecenter/SSULQD_7.2.1/com.ibm.nz.datacon.doc/c_datacon_plg_overview.html) |
 | ODBC |Presto |[โปรแกรมควบคุม ODBC Presto](http://www.simba.com/drivers/presto-odbc-jdbc/) |

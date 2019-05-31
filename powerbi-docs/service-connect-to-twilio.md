@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 4537f2845d89361cf06bc93a6a9c435275d9464d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008154"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61171594"
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>เชื่อมต่อกับ Twilio ด้วย Power BI
 ชุดเนื้อหา Microsoft Twilio สำหรับ Power BI ช่วยให้คุณสามารถดึงข้อมูลของคุณลงใน Power BI และกล่อง[แดชบอร์ด Twilio](https://powerbi.microsoft.com/integrations/twilio)แบบไม่ทั่วไป และรายงานที่แสดงข้อมูลเชิงลึกในข้อมูลของคุณ คุณยังสามารถสร้างรายงานแบบกำหนดเองของคุณ และสร้างแดชบอร์ดบนชุดข้อมูล Power BI ข้อมูลจะถูกรีเฟรชวันละครั้งเพื่อ ดังนั้นจะดูที่ข้อมูลล่าสุดเสมอ

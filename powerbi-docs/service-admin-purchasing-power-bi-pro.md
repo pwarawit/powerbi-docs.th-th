@@ -11,11 +11,11 @@ ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 15cd5e021969a050937b9d67eb7695f4fcde07c0
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383097"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61188650"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>ซื้อและมอบใบอนุญาตการใช้งาน Power BI Pro
 
@@ -53,7 +53,7 @@ Power BI Pro เป็นสิทธิ์การใช้งานสำห�
 
     ![การสมัครใช้งาน Power BI](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
 
-5. วางเมาส์เหนือจุดไข่ปลา (**... .**) สำหรับการสมัครรับข้อมูลที่ต้องการและเลือก **ซื้อเลย**
+5. วางเมาส์เหนือจุดไข่ปลา ( **... .** ) สำหรับการสมัครรับข้อมูลที่ต้องการและเลือก **ซื้อเลย**
 
     ![ซื้อตอนนี้](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 

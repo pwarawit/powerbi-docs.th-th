@@ -1,26 +1,26 @@
 ---
 title: สร้างพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
 description: ในบทความนี้ คุณจะได้เรียนวิธีการสร้างพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 2240d2bf622122527d4d052a9d7098be648e368d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: d58d1c84199c698089f4b3abccb26f9dbaea76d6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324633"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987700"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>สร้างพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
 
 ในบทความนี้ คุณจะได้เรียนวิธีการสร้างพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI  พารามิเตอร์ของรายงานให้วิธีการเลือกข้อมูลรายงานและทำให้การนำเสนอรายงานมีความหลากหลาย คุณสามารถให้ค่าเริ่มต้นและรายการค่าพร้อมใช้งานได้ และผู้อ่านรายงานของคุณก็สามารถเปลี่ยนตัวเลือกได้  
 
-ภาพประกอบต่อไปนี้แสดงให้เห็นมุมมองออกแบบในตัวสร้างรายงาน สำหรับรายงานที่มีพารามิเตอร์ @BuyingGroup, @Customer, @FromDate และ @ToDate 
+ภาพประกอบต่อไปนี้แสดงมุมมองออกแบบในตัวสร้างรายงานของ Power BI สำหรับรายงานที่มีพารามิเตอร์@BuyingGroup, @Customer, @FromDateและ@ToDate 
   
 ![พารามิเตอร์ในตัวสร้างรายงาน](media/paginated-reports-parameters/power-bi-paginated-parameters-report-builder.png)
   
@@ -37,7 +37,7 @@ ms.locfileid: "56324633"
   
 ## <a name="create-or-edit-a-report-parameter"></a>สร้างหรือแก้ไขพารามิเตอร์ของรายงาน  
   
-1.  เปิดรายงานแบบแบ่งหน้าในตัวสร้างรายงาน
+1.  เปิดรายงานของคุณมีการแบ่งหน้าในตัวสร้างรายงานของ Power BI
 
 1. ที่แผง**ข้อมูลรายงาน** ให้คุณคลิกขวาที่โหนด**พารามิเตอร์** > **เพิ่มพารามิเตอร์** กล่องโต้ตอบ**คุณสมบัติพารามิเตอร์ของรายงาน**จะเปิดขึ้น  
   

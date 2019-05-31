@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 48cdff67e613093c3ac473b0a505a6f0d57f4f2d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008108"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61171739"
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>เชื่อมต่อกับ SparkPost ด้วย Power BI
 ชุดเนื้อหา Power BI สำหรับ SparkPost ให้คุณสามารถดึงชุดข้อมูลที่มีค่าจากบัญชี SparkPost ของคุณ ลงมาในแดชบอร์ดข้อมูลเชิงลึก ในแดชบอร์ดเดียว ด้วยชุดเนื้อหา SparkPost คุณสามารถแสดงภาพสถิติอีเมลโดยรวม รวมถึงโดเมน แคมเปญ และการมีส่วนร่วม แบ่งตาม ISP

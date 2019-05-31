@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661571"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61049410"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>ดูข้อมูลเชิงลึกบนไทล์แดชบอร์ดด้วย Power BI
 แต่ละไทล์ของการแสดงภาพบนแดชบอร์ดของคุณคือ ประตูไปสู่การสำรวจข้อมูล เมื่อคุณเลือกไทล์ จะเปิดรายงานที่คุณสามารถกรองและจัดเรียง รวมถึงเจาะลึกลงไปในชุดข้อมูลหลังรายงาน และเมื่อคุณเรียกใช้ข้อมูลเชิงลึก Power BI จะสำรวจข้อมูลให้คุณ
@@ -59,7 +59,7 @@ ms.locfileid: "56661571"
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
 - **ดูข้อมูลเชิงลึก** ใช้ไม่ได้กับ DirectQuery - จะใช้ได้กับข้อมูลที่อัปโหลดไปยัง Power BI เท่านั้น
-- **ดูข้อมูลเชิงลึก**ใช้ไม่ได้กับชนิดไทล์ของแดชบอร์ดทั้งหมด ตัวอย่างเช่น ใช้ไม่ได้กับภาพที่กำหนดเอง<!--[custom visuals](end-user-custom-visuals.md)-->
+- **ดูข้อมูลเชิงลึก**ใช้ไม่ได้กับชนิดไทล์ของแดชบอร์ดทั้งหมด ตัวอย่าง ไม่พร้อมใช้งานสำหรับวิชวลแบบกำหนดเอง<!--[custom visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

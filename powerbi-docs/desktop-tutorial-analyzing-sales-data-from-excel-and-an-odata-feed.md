@@ -11,11 +11,11 @@ ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
 ms.openlocfilehash: 94e40681d065591db008f8a9062d851e0bd83f61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285771"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61368790"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>บทช่วยสอน: รวมข้อมูลยอดขายจาก Excel และตัวดึงข้อมูล OData
 
@@ -208,7 +208,7 @@ Power BI Desktop ไม่จำเป็นต้องเรียกร้อ
    
 2. เลือก **ProductName** จาก **Products** ในบานหน้าต่าง**เขตข้อมูล** หรือลากลงบนแผนภูมิ เพื่อแสดงปริมาณของแต่ละผลิตภัณฑ์ที่สั่งซื้อ 
    
-3. เพื่อเรียงลำดับผลิตภัณฑ์ ตามการสั่งซื้อมากที่สุดไปหาน้อยที่สุด เลือก**ตัวเลือกเพิ่มเติม**ที่จุดไข่ปลา (**...** ) ที่มุมบนขวาของการแสดงภาพ จากนั้นเลือก**เรียงลำดับตาม Quantity**
+3. เพื่อเรียงลำดับผลิตภัณฑ์ ตามการสั่งซื้อมากที่สุดไปหาน้อยที่สุด เลือก**ตัวเลือกเพิ่มเติม**ที่จุดไข่ปลา ( **...** ) ที่มุมบนขวาของการแสดงภาพ จากนั้นเลือก**เรียงลำดับตาม Quantity**
    
 4. ใช้จุดจับที่มุมของแผนภูมิเพื่อขยายให้มองเห็นชื่อผลิตภัณฑ์เพิ่มเติม 
    

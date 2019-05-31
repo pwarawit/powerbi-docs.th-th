@@ -1,20 +1,20 @@
 ---
 title: ใช้ความปลอดภัยระดับแถวด้วยเนื้อหา Power BI Embedded
 description: เรียนรู้เกี่ยวกับขั้นตอนที่คุณจำเป็นต้องดำเนินการเพื่อฝังเนื้อหา Power BI ภายในแอปพลิเคชันของคุณ
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: fdc4e90c65ef02f7416ffce9a41b0b2ed028abc8
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.date: 03/27/2019
+ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57328021"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61354139"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>การรักษาความปลอดภัยระดับแถวด้วย Power BI Embedded
 
@@ -214,6 +214,8 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
     ![ตัวอย่างรายงาน PBI](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
 7. ใช้ Power BI API เพื่อใช้ฟีเจอร์ CustomData ในแอปพลิเคชันของคุณ  เมื่อสร้างโทเค็นด้วยคุณลักษณะข้อมูลแบบกำหนดเอง คุณต้องมีชื่อผู้ใช้ ชื่อผู้ใช้ต้องตรงกันกับ UPN ของผู้ใช้หลัก ผู้ใช้หลักต้องเป็นสมาชิกของบทบาทคุณสร้างขึ้น ทุกบทบาทของผู้ใช้หลักที่เข้าเป็นสมาชิกจะถูกประเมินโดย RLS ถ้าไม่มีการกำหนดบทบาทอย่างชัดเจน
+
+    เมื่อทำงานกับการ[บริการหลัก](embed-service-principal.md)คุณยังจำเป็นต้องทำตามขั้นตอนด้านบนแทนที่ใช้บัญชีผู้ใช้หลัก เมื่อสร้างโทเค็นฝัง ใช้[บริการ ID ออบเจ็กต์หลัก](embed-service-principal.md#how-to-get-the-service-principal-object-id)เป็นชื่อผู้ใช้
 
     > [!Note]
     > เมื่อคุณพร้อมที่จะให้แอปพลิเคชันของคุณเข้าสู่กระบวนการผลิต ข้อมูลบัญชีของผู้ใช้หลักจะต้องไม่ให้ผู้ใช้ปลายทางสามารถมองเห็นได้

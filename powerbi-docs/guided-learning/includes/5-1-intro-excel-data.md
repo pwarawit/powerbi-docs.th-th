@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 0e29076a33a17b6097fd3fbf1db411f97ff45818
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271521"
+---
 ยินดีต้อนรับสู่ส่วน **Power BI และ Excel** ของหลักสูตร **การเรียนรู้พร้อมคำแนะนำ** สำหรับ Power BI
 
 มีโอกาสสูงที่คุณเคยใช้ **Excel** มาก่อน คุณอาจใช้ Excel เพื่อสร้างหรือดูรายงาน หรือเพื่อสร้างแผนภูมิวงกลมหรือภาพอื่นๆ หรือคุณอาจใช้ **Power Pivot** หรือ **Power Query** เพื่อสร้างโซลูชันที่เฉพาะทางมากขึ้น ถ้าเป็นเช่นนั้น คุณจะรู้สึกไม่ต่างกันใน Power BI เช่นเดียวกับเวิร์กบุ๊กของคุณ

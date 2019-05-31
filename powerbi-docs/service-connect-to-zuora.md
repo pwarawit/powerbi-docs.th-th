@@ -11,11 +11,11 @@ ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 605cd2f135ff6d8626586abbd503bcb44687931d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008614"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61157023"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>เชื่อมต่อกับ Zuora ด้วย Power BI
 Zuora สำหรับ Power BI อนุญาตให้คุณแสดงภาพข้อมูลรายได้ที่สำคัญ การเรียกเก็บเงิน และสมัครใช้งาน ใช้แดชบอร์ดตามค่าเริ่มต้นและรายงานเพื่อวิเคราะห์แนวโน้มการใช้งาน ติดตามการเรียกเก็บเงินตามและการชำระเงิน และตรวจสอบรายได้ที่เป็นกิจวัตร หรือกำหนดสิ่งเหล่านั้นให้ตรงกับแดชบอร์ดแบบไม่ซ้ำของคุณเองและการรายงานความต้องการ

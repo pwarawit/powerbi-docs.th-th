@@ -11,10 +11,10 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: d28a27d69d6e8799f08ddaa05e734ded62150c8f
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710935"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>กำหนดค่าแอปฯมือถือโดยใช้ Microsoft Intune
@@ -122,7 +122,7 @@ Microsoft Intune สามารถมีร่วมกับการจัด
 
 ### <a name="deploy-for-ios"></a>ปรับใช้สำหรับ iOS
 
-1. บนหน้าจอแอปฯ เลือกแอปฯที่คุณสร้างขึ้น จากนั้นเลือกลิงก์**จัดการการปรับใช้...** 
+1. บนหน้าจอแอปฯ เลือกแอปฯที่คุณสร้างขึ้น จากนั้นเลือกลิงก์**จัดการการปรับใช้...**
 
     ![จัดการการปรับใช้](media/service-admin-mobile-intune/intune-deploy-ios1.png)
 
@@ -144,7 +144,7 @@ Microsoft Intune สามารถมีร่วมกับการจัด
 
 ### <a name="deploy-for-android"></a>ปรับใช้สำหรับ Android
 
-1. บนหน้าจอแอปฯ เลือกแอปฯที่คุณสร้างขึ้น จากนั้นเลือกลิงก์**จัดการการปรับใช้...** 
+1. บนหน้าจอแอปฯ เลือกแอปฯที่คุณสร้างขึ้น จากนั้นเลือกลิงก์**จัดการการปรับใช้...**
 
     ![จัดการการปรับใช้](media/service-admin-mobile-intune/intune-deploy-android1.png)
 1. ที่หน้าจอ**เลือกกลุ่ม** คุณสามารถเลือกกลุ่มที่คุณต้องการปรับใช้แอปฯนี้ เลือก**ถัดไป**

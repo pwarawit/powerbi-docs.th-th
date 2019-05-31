@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 68645069b22163ca7ae2a64310e43f1a801434f5
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256969"
+---
 คุณสามารถอัปเดตรายงานและชุดข้อมูลที่คุณเผยแพร่แล้วจาก Power BI Desktop ไปยังบริการของ Power BI ได้ เมื่อต้องการดำเนินการขั้นตอนดังกล่าว ให้เลือก **เผยแพร่** จากแท็บ **หน้าแรก** ใน Ribbon
 
 ![](media/4-5-manually-republish-reports/4-5_0.png)

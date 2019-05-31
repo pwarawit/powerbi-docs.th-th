@@ -1,20 +1,20 @@
 ---
 title: คุณสมบัติของชุดข้อมูล Power BI
 description: เรียนรู้เกี่ยวกับคุณสมบัติของชุดข้อมูล Power BI APIs
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: d272914fc41c8bd4abc78ae36a46de9e53817c81
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248941"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61386314"
 ---
 # <a name="dataset-properties"></a>คุณสมบัติของชุดข้อมูล
 
@@ -31,7 +31,7 @@ id     |  GUID       | ตัวระบุชุดข้อมูลทั้
 name     | สตริง        | ชุดข้อมูลที่ผู้ใช้กำหนดชื่อเอง        | เป็นเท็จ        | เป็นจริง        
 ตาราง     | ตาราง        | คอลเลกชันของตาราง        |  เป็นเท็จ       | เป็นเท็จ        
 ความสัมพันธ์     | ความสัมพันธ์        | คอลเลกชันของความสัมพันธ์ระหว่างตาราง        | เป็นเท็จ        |  เป็นเท็จ  
-defaultMode     | สตริง        | กำหนดว่า ชุดข้อมูลมีการส่งแบบพุช สตรีม หรือทั้งสองอย่าง ด้วยค่าของ "การส่งแบบพุช" "สตรีมมิ่ง" และ "PushStreaming" หรือไม่         | เป็นเท็จ        |  เป็นเท็จ
+defaultMode     | สตริง        | กำหนดว่า ชุดข้อมูลถูกผลัก สตรีม หรือทั้งสอง อย่าง กับค่า "ส่ง" และ "สตรีม"         | เป็นเท็จ        |  เป็นเท็จ
 
 ## <a name="table"></a>ตาราง
 

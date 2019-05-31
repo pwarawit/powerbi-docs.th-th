@@ -11,11 +11,11 @@ ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
 ms.openlocfilehash: d88a455b5448b92d86719251bfada6bd807a4c91
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223823"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60973745"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>คำแนะนำและเคล็ดลับในการสร้างรายงานในบริการของ Power BI และ Power BI Desktop
 เพื่อให้ได้รับประโยชน์สูงสุดจากข้อมูลของคุณ บางครั้งคุณก็ต้องการความช่วยเหลือเพิ่มเติมเล็กน้อย เราได้รวบรวมคำแนะนำและเคล็ดลับบางประการที่คุณสามารถใช้ในการสร้างรายงานใน Microsoft Power BI Desktop*และ*ใน Microsoft Excel 2016 หรือ Excel 2013 รุ่น Pro-Plus ที่เปิดใช้งาน Power Pivot add-in แล้ว และติดตั้งรวมทั้งเปิดใช้งาน Power Query แล้ว

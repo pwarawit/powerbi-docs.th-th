@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: a12f2821108c5becaf054680e4395295f0979f0b
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008499"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61171713"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>เชื่อมต่อกับ UserVoice ด้วย Power BI
 การติดตามและการสำรวจข้อมูล UserVoice ของคุณด้วย Power BI และชุดเนื้อหา UserVoice นั้นง่ายดาย Power BI ดึงข้อมูลของคุณ รวมทั้งทิ๊กเก็ต คำแนะนำและความพอใจ จากนั้นสร้างแดชบอร์ดแบบคิดนอกกรอบและรายงานที่ยึดตามข้อมูลนั้น

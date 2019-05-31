@@ -1,21 +1,21 @@
 ---
 title: รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel - คลาวด์
 description: รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel ใน OneDrive หรือ SharePoint Online
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 57aa5afe32b8f65805ef4be71ded176f34aefd6e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 2636eb92d3c86268acc19c05a6c791b62a58d43b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296029"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61414552"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel ใน OneDrive หรือ SharePoint Online
 คุณสามารถนำเข้าสมุดงาน Excel ที่เก็บไว้บนเครื่องของคุณ หรือในพื้นที่เก็บข้อมูลบนคลาวด์ เช่น OneDrive สำหรับธุรกิจ หรือ SharePoint Online เราจะดูที่ข้อดีของการใช้พื้นที่เก็บข้อมูลบนคลาวด์สำหรับไฟล์ excel ของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการนำเข้าไฟล์ Excel ลงใน Power BI ดูที่[รับข้อมูลจากไฟล์สมุดงาน Excel](service-excel-workbook-files.md)

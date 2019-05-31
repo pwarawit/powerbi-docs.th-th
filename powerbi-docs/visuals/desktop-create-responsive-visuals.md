@@ -11,11 +11,11 @@ ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4372f37cf6afc8fe51d6650ddd888bd41d3ea678
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280136"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61394939"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>ปรับวิชวล Power BI ให้เหมาะสมกับทุกขนาด
 ตามค่าเริ่มต้น เมื่อคุณสร้างรายงานใหม่ ภาพจะถูกตั้งค่าเป็น*แบบตอบสนอง*: ภาพเปลี่ยนการแสดงผลข้อมูลทั่วไปและข้อมูลเชิงลึกปริมาณมากได้ โดยไม่ขึ้นอยู่กับขนาดของหน้าจอ สำหรับรายงานเก่า คุณสามารถตั้งค่าวิชวลเพื่อปรับขนาดให้ได้มากที่สุดเช่นกัน

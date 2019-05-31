@@ -1,20 +1,20 @@
 ---
 title: เค้าโครงแบบกำหนดเอง ด้วยเนื้อหา Power BI แบบฝังตัว
 description: เรียนรู้เกี่ยวกับเค้าโครงแบบกำหนดเองเมื่อมีการฝังเนื้อหา Power BI ลงในแอปพลิเคชันของคุณ
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.openlocfilehash: e812fde896072762e113c81b1dd728091a8ff190
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: 28d11a30f7998dc63f86b98fd72d18968480e711
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762317"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61344185"
 ---
 # <a name="custom-layouts"></a>เค้าโครงแบบกำหนดเอง
 

@@ -1,20 +1,20 @@
 ---
 title: แหล่งข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
 description: ในบทความนี้ คุณจะได้เรียนรู้วิธีการสร้างและปรับเปลี่ยนแหล่งข้อมูลแบบฝังตัวในรายงานแบบแบ่งหน้า ในบริการของ Power BI
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/05/2018
-ms.openlocfilehash: 340b4d26b8beed4dfda5f7af4dc949088f3857ae
-ms.sourcegitcommit: d2805894fd372c35e11d519f724de2be98407fda
-ms.translationtype: HT
+ms.date: 05/16/2019
+ms.openlocfilehash: 4dd9ad935a9f7b286aa64d977a78364f2aed0e0f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "59070033"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65853383"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>สร้างแหล่งข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
 
@@ -23,13 +23,19 @@ ms.locfileid: "59070033"
 - ฐานข้อมูล Azure SQL และคลังข้อมูล
 - SQL Server
 - SQL Server Analysis Services
+- Oracle 
+- Teradata 
+
+สำหรับแหล่งข้อมูลเหล่านี้ ใช้[เชื่อมต่อ SQL Server Analysis Services](service-premium-connect-tools.md)ตัวเลือก:
+
 - Azure Analysis Services
+- ชุดข้อมูลที่ power BI Premium
 
 รายงานแบบแบ่งหน้าจะเชื่อมต่อกับแหล่งข้อมูลในองค์กรโดยใช้เกตเวย์ คุณสามารถตั้งค่าเกตเวย์ได้หลังจากที่เผยแพร่รายงานไปยังบริการของ Power BI แล้ว เรียนรู้เพิ่มเติมเกี่ยวกับ [เกตเวย์ของ Power BI](service-gateway-getting-started.md) 
 
 ## <a name="create-an-embedded-data-source"></a>สร้างแหล่งข้อมูลแบบฝังตัว
   
-1. เปิดตัวสร้างรายงาน
+1. เปิดตัวสร้างรายงาน BI Power
 
 1. ที่แถบเครื่องมือในแผงข้อมูลรายงาน ให้คุณเลือก**แหล่งข้อมูล** > **ใหม่** กล่องโต้ตอบ**คุณสมบัติแหล่งข้อมูล** จะเปิดขึ้น
 
@@ -62,4 +68,4 @@ ms.locfileid: "59070033"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [สร้างชุดข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI](paginated-reports-create-embedded-dataset.md)
-- [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร (แสดงตัวอย่าง)](paginated-reports-report-builder-power-bi.md)
+- [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร (ตัวอย่าง)](paginated-reports-report-builder-power-bi.md)

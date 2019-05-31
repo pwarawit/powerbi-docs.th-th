@@ -1,20 +1,20 @@
 ---
 title: แก้ไขปัญหาแอปพลิเคชันแบบฝังตัว
 description: บทความนี้อธิบายถึงปัญหาทั่วไปที่คุณอาจพบเมื่อฝังเนื้อหาจาก Power BI
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174832"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770475"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>แก้ไขปัญหาแอปพลิเคชันแบบฝังตัวของคุณ
 
@@ -109,7 +109,7 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>การรับรองความถูกต้องล้มเหลวเนื่องจาก AADSTS70002 หรือ AADSTS50053
 
-**_(AADSTS70002: ข้อมูลประจำตัวผิดพลาด AADSTS50053: คุณได้พยายามลงชื่อเข้าใช้หลายครั้งเกินไปด้วยรหัสผู้ใช้หรือรหัสผ่านที่ไม่ถูกต้อง)_**
+** _(AADSTS70002: ข้อมูลประจำตัวผิดพลาด AADSTS50053: คุณได้พยายามลงชื่อเข้าใช้หลายครั้งเกินไปด้วยรหัสผู้ใช้หรือรหัสผ่านที่ไม่ถูกต้อง)_ **
 
 หากคุณกำลังใช้ Power BI Embedded และการรับรองความถูกต้องโดยตรงของ Azure AD และคุณได้รับข้อความที่เข้าสู่ระบบ เช่น ***ข้อผิดพลาด: unauthorized_client, error_description:AADSTS70002: ข้อมูลประจำตัวที่ตรวจสอบผิดพลาด AADSTS50053: คุณได้พยายามลงชื่อเข้าใช้หลายครั้งเกินไปด้วยรหัสผู้ใช้หรือรหัสผ่านที่ไม่ถูกต้อง*** นั่นเนื่องจากการรับรองความถูกต้องโดยตรงไม่สามารถใช้งานได้อีกต่อไปตั้งแต่วันที่ 14 มิถุนายน 2018 ตามค่าเริ่มต้น
 
@@ -161,7 +161,7 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: การอนุมัติต้องใช้สิทธิของผู้ดูแลระบบ
 
-**_ปัญหา:_**<br>
+**_ปัญหา:_ **<br>
 เมื่อผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบพยายามลงชื่อเข้าใช้แอปพลิเคชันเป็นครั้งแรกในขณะที่ให้การยินยอม จากนั้นจะเกิดข้อผิดพลาดอย่างใดอย่างหนึ่งต่อไปนี้:
 
 * ConsentTest ต้องการสิทธิ์ในการเข้าถึงทรัพยากรในองค์กรของคุณที่ผู้ดูแลระบบเท่านั้นสามารถมอบหมายได้ สอบถามผู้ดูแลระบบเพื่อขอสิทธิการใช้งานแอปนี้ก่อนที่คุณสามารถใช้งาน
@@ -171,10 +171,10 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 
 ผู้ใช้ที่เป็นผู้ดูแลระบบสามารถลงชื่อเข้าใช้ และให้การยินยอมเรียบร้อยแล้ว
 
-**_สาเหตุ:_**<br>
+**_สาเหตุ:_ **<br>
 การอนุมัติของผู้ใช้ถูกปิดใช้งานสำหรับผู้เช่า
 
-**_แก้ไขปัญหาได้ดังนี้้:_**
+**_แก้ไขปัญหาได้ดังนี้้:_ **
 
 *เปิดใช้งานการอนุมัติของผู้ใข้สำหรับผู้เช่าทั้งหมด (ผู้ใช้ทั้งหมด แอปพลิเคชั้นทั้งหมด)*
 
@@ -184,6 +184,10 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
     ![การแก้ไขการทดสอบความยินยอม](media/embedded-troubleshoot/consent-test-02.png)
 
 *ให้สิทธิ*ในแอปพลิเคชันโดยผู้ดูแลระบบบ - สำหรับผู้เช่าทั้งหมดหรือผู้ใช้ที่ระบุ
+
+### <a name="cs1061-error"></a>ข้อผิดพลาด CS1061
+
+ดาวน์โหลด[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)ถ้าคุณพบข้อ " 'AuthenticationContext' ประกอบด้วยข้อกำหนดสำหรับ 'AcquireToken' และไม่สามารถเข้าถึง 'AcquireToken' ยอมรับอาร์กิวเมนต์ตัวแรกของชนิด ' AuthenticationContext' พบ (คุณหายไปโดยการใช้คำสั่งหรือการอ้างอิงแอสเซมบลีหรือไม่) "ข้อผิดพลาดได้
 
 ## <a name="data-sources"></a>แหล่งข้อมูล
 

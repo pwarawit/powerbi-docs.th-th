@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 5c97eacbdbf89a9ef828dad3a5da01e794952f15
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "65710516"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375108"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>บริการหลักพร้อมด้วย Power BI (ตัวอย่าง)
 
@@ -120,7 +120,7 @@ ms.locfileid: "65710516"
 
 5. เพิ่มบริการหลักเป็น**ผู้ดูแลระบบ**ในพื้นที่ทำงานใหม่ที่คุณสร้างขึ้น คุณสามารถจัดการงานนี้ผ่าน[API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)หรือด้วยบริการของ Power BI ได้
 
-    ![เพิ่มโครงร่างสำคัญของบริการไปยังพื้นที่ทำงาน](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![เพิ่มหลักเกณฑ์การบริการเป็นผู้ดูแลระบบพื้นที่ทำงาน](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. ในตอนนี้ เลือกเพื่อฝังเนื้อหาของคุณภายในแอปพลิเคชันตัวอย่าง หรือภายในแอปพลิเคชันของคุณเอง
 
@@ -174,10 +174,11 @@ ms.locfileid: "65710516"
 * คุณไม่สามารถติดตั้ง หรือจัดการเกตเวย์ข้อมูลภายในองค์กรโดยใช้บริการหลัก
 * แอปพลิเคชัน[แบบฝังตัวสำหรับองค์กรของคุณ](embed-sample-for-your-organization.md)ไม่สามารถใช้บริการหลักได้
 * [Dataflows](../service-dataflows-overview.md) การจัดการไม่ได้รับการสนับสนุน
-* โครงร่างสำคัญของบริการไม่สนับสนุนผู้ดูแลระบบ APIs
+* บริการหลักในขณะนี้ไม่สนับสนุนการจัดการ Api ที่
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 * [ลงทะเบียนแอป](register-app.md)
 * [Power BI Embedded สำหรับลูกค้าของคุณ](embed-sample-for-customers.md)
 * [แอปพลิเคชันและออบเจ็กต์บริการหลักใน Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+* [ความปลอดภัยระดับแถวโดยใช้เกตเวย์ข้อมูลภายในองค์กร ด้วยบริการหลัก (ตัวอย่าง)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)

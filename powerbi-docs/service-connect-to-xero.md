@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d09936f2cce1d7835efdb82929d9e8eed2291163
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223363"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61156372"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>เชื่อมต่อกับ Xero ด้วย Power BI
 Xero ใช้งานบัญชีซอฟต์แวร์ online อย่างง่ายดาย ที่ถูกออกแบบมาสำหรับธุรกิจขนาดเล็กโดยเฉพาะ สร้างการแสดงภาพดึงดูดความสนใจที่ยึดตาม financials Xero ของคุณกับชุดเนื้อหา Power BI นี้ แดชบอร์ดเริ่มต้นของคุณรวมเมตริกธุรกิจขนาดเล็กมากมายเช่นฐานะเงินสด รายได้เทียบกับค่าใช้จ่าย แนวโน้มการสูญเสียกำไร วันที่เป็นหนี้ และการคืนทุน

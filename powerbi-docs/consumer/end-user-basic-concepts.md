@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 8172934357c24516a40a670c68e008521bd4d82d
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580116"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61051618"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>แนวคิดพื้นฐานสำหรับ***ลูกค้า***ที่ใช้บริการ Power BI
 
@@ -104,7 +104,7 @@ __________________________________________________________
 
    ![ภาพตัวอย่าง 8 ภาพ](media/end-user-basic-concepts/power-bi-visuals.png)
 
-นอกจากนี้ยังมีการแสดงภาพข้อมูลจากชุมชนและเรียกว่า *ภาพแบบกำหนดเอง* หากคุณได้รับรายงานด้วยภาพที่คุณไม่รู้จัก เป็นไปได้ว่าอาจเป็นภาพแบบกำหนดเอง หากคุณต้องการความช่วยเหลือในการแปลภาพแบบกำหนดเอง <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->ค้นหาชื่อ*ผู้ออกแบบ*ของรายงานหรือแดชบอร์ด และติดต่อเขา
+นอกจากนี้ยังมีการแสดงภาพข้อมูลจากชุมชนและเรียกว่า *ภาพแบบกำหนดเอง* หากคุณได้รับรายงานด้วยภาพที่คุณไม่รู้จัก เป็นไปได้ว่าอาจเป็นภาพแบบกำหนดเอง ถ้าคุณต้องการความช่วยเหลือในการแปลวิชวลแบบกำหนดเอง <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->ค้นหาชื่อของรายงานหรือแดชบอร์ด*designer*และติดต่อเขาหรือเธอ
 
 **หนึ่ง** จากการแสดงภาพในรายงาน...
 

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513892"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>บทช่วยสอน: สร้างหน่วยวัดของคุณเองใน Power BI Desktop
@@ -97,7 +97,7 @@ ms.locfileid: "65513892"
     
     
 5.  เมื่อต้องลบสองคอลัมน์:
-    1. หลังจากวงเล็บปิดในนิพจน์แรก พิมพ์ช่องว่าง ตัวดำเนินการเครื่องหมายลบ (**-**) และช่องว่างอีกช่อง 
+    1. หลังจากวงเล็บปิดในนิพจน์แรก พิมพ์ช่องว่าง ตัวดำเนินการเครื่องหมายลบ ( **-** ) และช่องว่างอีกช่อง 
     2. ใส่ฟังก์ชัน SUM อีกอัน และเริ่มพิมพ์ "DiscountAmount" จนกว่าคุณสามารถเลือกคอลัมน์ **Sales[DiscountAmount]** เป็นอาร์กิวเมนต์ เพิ่มวงเล็บปิด 
     3. พิมพ์ช่องว่าง เครื่องหมายลบเพิ่ม ช่องว่าง ฟังก์ชัน SUM เพิ่ม พร้อมกับ**Sales[ReturnAmount]** ในฐานะอาร์กิวเมนต์ และวงเล็บปิด
     
@@ -164,11 +164,11 @@ ms.locfileid: "65513892"
     
     ![สูตรที่ใช้ยอดขายสุทธิ](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
     
-    คุณยังสามารถอ้างอิงหน่วยวัด โดยเพียงแค่พิมพ์วงเล็บเปิด (**[**) ได้ รายการคำแนะนำจะแสดงเพียงหน่วยวัด เมื่อคุณต้องเพิ่มลงในสูตรของคุณ
+    คุณยังสามารถอ้างอิงหน่วยวัด โดยเพียงแค่พิมพ์วงเล็บเปิด ( **[** ) ได้ รายการคำแนะนำจะแสดงเพียงหน่วยวัด เมื่อคุณต้องเพิ่มลงในสูตรของคุณ
     
     ![วงเล็บเหลี่ยมแสดงหน่วยวัดเท่านั้น](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
     
-3.  ใส่ช่องว่าง เครื่องหมายการหาร (**/**) ช่องว่างอีกอัน ฟังก์ชัน SUM จากนั้น พิมพ์**Quantity** รายการคำแนะนำแสดงคอลัมน์ทั้งหมดทีมี Quantity อยู่ในชื่อ เลือก**Sales[SalesQuantity]** พิมพ์วงเล็บปิด แล้วกด ENTER หรือเลือกเครื่องหมายถูกเพื่อตรวจสอบสูตรของคุณ สูตรควรมีลักษณะดังนี้
+3.  ใส่ช่องว่าง เครื่องหมายการหาร ( **/** ) ช่องว่างอีกอัน ฟังก์ชัน SUM จากนั้น พิมพ์**Quantity** รายการคำแนะนำแสดงคอลัมน์ทั้งหมดทีมี Quantity อยู่ในชื่อ เลือก**Sales[SalesQuantity]** พิมพ์วงเล็บปิด แล้วกด ENTER หรือเลือกเครื่องหมายถูกเพื่อตรวจสอบสูตรของคุณ สูตรควรมีลักษณะดังนี้
     
     `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
     

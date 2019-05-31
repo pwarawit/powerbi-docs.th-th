@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 81449d7a07bec3c142930573154ecd13a0ceff49
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324932"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61141503"
 ---
-# <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>เชื่อมต่อไปยังแหล่งข้อมูลสำหรับกระแสข้อมูล Power BI (ดูตัวอย่าง)
+# <a name="connect-to-data-sources-for-power-bi-dataflows"></a>เชื่อมต่อกับแหล่งข้อมูลสำหรับ dataflows Power BI
 
 ด้วยกระแสข้อมูล Power BI คุณสามารถเชื่อมต่อกับแหล่งข้อมูลต่าง ๆ เพื่อสร้าง กระแสข้อมูลใหม่หรือเพิ่มเอนทิตีใหม่ไปยังกระแสข้อมูลที่มีอยู่ได้
 
 บทความนี้แสดงรายการแหล่งข้อมูลที่มีอยู่มากมายสำหรับการสร้างหรือเพิ่มลงในกระแสข้อมูล และอธิบายถึงวิธีสร้างกระแสข้อมูลเหล่านั้นโดยใช้แหล่งข้อมูลเหล่านี้
 
-สำหรับภาพรวมของวิธีการสร้างและใช้กระแสข้อมูล ให้ดู [การสร้างและการใช้กระแสข้อมูลใน Power BI (ดูตัวอย่าง)](service-dataflows-create-use.md)
+สำหรับภาพรวมของวิธีการสร้าง และใช้ dataflows ดู[สร้าง และใช้ dataflows ใน Power BI](service-dataflows-create-use.md)
 
 ## <a name="create-a-dataflow-from-a-data-source"></a>สร้างกระแสข้อมูลจากแหล่งข้อมูล
 
@@ -176,11 +176,11 @@ ms.locfileid: "56324932"
 
 บทความนี้แสดงให้เห็นว่าแหล่งข้อมูลใดที่คุณสามารถเชื่อมต่อกับกระแสข้อมูลได้ บทความต่อไปนี้จะลงรายละเอียดที่ลึกขึ้นเกี่ยวกับสถานการณ์การใช้งานทั่วไปสำหรับกระแสข้อมูล 
 
-* [การเตรียมข้อมูลด้วยตนเองใน Power BI (ตัวอย่าง)](service-dataflows-overview.md)
-* [สร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
-* [การใช้เอนทิตีที่คำนวณใน Power BI Premium (ตัวอย่าง)](service-dataflows-computed-entities-premium.md)
-* [การใช้กระแสข้อมูลพร้อมแหล่งข้อมูลในองค์กร (ตัวอย่าง)](service-dataflows-on-premises-gateways.md)
-* [แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI (ตัวอย่าง)](service-dataflows-developer-resources.md)
+* [เตรียมข้อมูลด้วยตนเองใน Power BI](service-dataflows-overview.md)
+* [การสร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
+* [ใช้เอนทิตีที่มีการคำนวณใน Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [ใช้ dataflows กับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
+* [ทรัพยากรสำหรับนักพัฒนาสำหรับ dataflows Power BI](service-dataflows-developer-resources.md)
 * [ การรวมกระแสข้อมูลและ Azure Data Lake (ตัวอย่าง)](service-dataflows-azure-data-lake-integration.md)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power Query และการรีเฟรชตามกำหนดการ สามารถดูได้ในบทความเหล่านี้:

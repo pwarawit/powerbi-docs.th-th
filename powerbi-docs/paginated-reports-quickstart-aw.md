@@ -1,24 +1,24 @@
 ---
 title: 'บทช่วยสอน: สร้างรายงานแบบแบ่งหน้าและอัปโหลดไปยังบริการของ Power BI (ดูตัวอย่าง)'
 description: ในบทช่วยสอนนี้ คุณจะได้เชื่อมต่อกับฐานข้อมูลตัวอย่าง Azure SQL จากนั้นคุณจะได้ใช้วิซาร์ดในตัวสร้างรายงานเพื่อสร้างรายงานแบบแบ่งหน้า และคุณจะได้อัปโหลดรายงานแบบแบ่งหน้าไปยังพื้นที่ทำงานในบริการของ Power BI ด้วยความจุพรีเมียม
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 15c7d9e922ef7041c6b0f021382cae8d2aca84e9
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: e7baff9a6427578266e08e7bde91be664e46edb9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325254"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60990115"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>บทช่วยสอน: สร้างรายงานแบบแบ่งหน้าและอัปโหลดไปยังบริการของ Power BI (ดูตัวอย่าง)
 
-ในบทช่วยสอนนี้ คุณจะได้เชื่อมต่อกับฐานข้อมูลตัวอย่าง Azure SQL จากนั้น คุณจะได้ใช้วิซาร์ดในตัวสร้างรายงาน เพื่อสร้างรายงานแบบแบ่งหน้าพร้อมตารางที่ครอบคลุมพื้นที่หลายหน้า และคุณจะได้อัปโหลดรายงานแบบแบ่งหน้าไปยังพื้นที่ทำงานในบริการของ Power BI ด้วยความจุพรีเมียม รายงานแบบแบ่งหน้าในบริการของ Power BI อยู่ในช่วงตัวอย่าง
+ในบทช่วยสอนนี้ คุณจะได้เชื่อมต่อกับฐานข้อมูลตัวอย่าง Azure SQL แล้ว คุณใช้ตัวช่วยสร้างในตัวสร้างรายงานของ Power BI เพื่อสร้างรายงานแบบแบ่งหน้า ด้วยตารางที่ถูกตัดจะหลายหน้า และคุณจะได้อัปโหลดรายงานแบบแบ่งหน้าไปยังพื้นที่ทำงานในบริการของ Power BI ด้วยความจุพรีเมียม รายงานแบบแบ่งหน้าในบริการของ Power BI อยู่ในช่วงตัวอย่าง
 
 ![รายงานแบบแบ่งหน้าในบริการของ Power BI](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
@@ -26,7 +26,7 @@ ms.locfileid: "56325254"
 
 > [!div class="checklist"]
 > * สร้างฐานข้อมูลตัวอย่าง Azure
-> * สร้างเมทริกซ์ในตัวสร้างรายงานโดยใช้วิซาร์ดช่วย
+> * สร้างเมทริกซ์ใน Power BI Report Builder ด้วยความช่วยเหลือของตัวช่วยสร้าง
 > * จัดรูปแบบรายงานให้สวยงามด้วยการเพิ่มชื่อเรื่อง หมายเลขหน้าและหัวคอลัมน์ในแต่ละหน้า
 > * จัดรูปแบบสกุลเงิน
 > * อัปโหลดรายงานเข้าบริการของ Power BI
@@ -37,18 +37,18 @@ ms.locfileid: "56325254"
 
 โปรดดูข้อกำหนดเบื้องต้นในการสร้างรายงานแบบแบ่งหน้า:
 
-- ติดตั้ง[ตัวสร้างรายงานจากศูนย์ดาวน์โหลด Microsoft](http://go.microsoft.com/fwlink/?LinkID=734968) 
+- ติดตั้ง[Power BI Report Builder จากศูนย์ดาวน์โหลด Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513) 
 
 - ทำตามการเริ่มต้นด่วน[สร้างฐานข้อมูลตัวอย่าง Azure SQL ในพอร์ทัล Azure](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal) คัดลอก และบันทึกค่าในกล่อง**ชื่อเซิร์ฟเวอร์**ในแท็บ**ภาพรวม** โปรดจดจำชื่อผู้ใช้และรหัสผ่านที่คุณสร้างใน Azure
 
 โปรดดูข้อกำหนดเบื้องต้นในการอัปโหลดรายงานแบบแบ่งหน้าไปยังบริการของ Power BI:
 
 - คุณต้องมี[สิทธิ์การใช้งาน Power BI Pro](service-admin-power-bi-pro-in-your-organization.md)
-- คุณต้องมีพื้นที่ทำงานของแอปในบริการใน[ความจุ Power BI Premium](service-premium.md) มีไอคอนรูปข้าวหลามตัดที่หมายถึง![ไอคอนรูปข้าวหลามตัดพรีเมียม](media/paginated-reports-quickstart-aw/premium-diamond.png)อยู่ถัดจากชื่อของพื้นที่ทำงาน
+- คุณต้องมีพื้นที่ทำงานของแอปในบริการใน[ความจุ Power BI Premium](service-premium-what-is.md) มีไอคอนรูปข้าวหลามตัดที่หมายถึง![ไอคอนรูปข้าวหลามตัดพรีเมียม](media/paginated-reports-quickstart-aw/premium-diamond.png)อยู่ถัดจากชื่อของพื้นที่ทำงาน
 
 ## <a name="create-the-matrix-with-a-wizard"></a>ใช้วิซาร์ดสร้างเมทริกซ์
   
-1.  เริ่มตัวสร้างรายงานในคอมพิวเตอร์  
+1.  เริ่มตัวสร้างรายงานของ Power BI จากคอมพิวเตอร์ของคุณ  
   
      กล่องโต้ตอบ **เริ่มต้นใช้งาน** จะเปิดขึ้น  
   
@@ -249,7 +249,7 @@ ms.locfileid: "56325254"
 
     ![เลือกเซลล์ที่มีค่าสกุลเงิน](media/paginated-reports-quickstart-aw/power-bi-paginated-select-money-cells.png)
 
-2. ที่แท็บ **หน้าหลัก** ให้คุณเลือกสัญลักษณ์สกุลเงินดอลลาร์ (**$**) จากนั้นเลือกลูกศรข้างๆ **สไตล์พื้นที่ที่สำรองไว้** > **ค่าตัวอย่าง**
+2. ที่แท็บ **หน้าหลัก** ให้คุณเลือกสัญลักษณ์สกุลเงินดอลลาร์ ( **$** ) จากนั้นเลือกลูกศรข้างๆ **สไตล์พื้นที่ที่สำรองไว้** > **ค่าตัวอย่าง**
  
     ![แสดงค่าตัวอย่าง](media/paginated-reports-quickstart-aw/power-bi-paginated-format-currency.png)
 

@@ -1,28 +1,28 @@
 ---
 title: รับรองความถูกต้องของผู้ใช้ และรับโทเค็นการเข้าถึง Azure AD สำหรับแอปพลิเคชันของคุณ
 description: เรียนรู้วิธีการลงทะเบียนแอปพลิเคชันใน Azure Active Directory สำหรับการใช้งานด้วยการฝังเนื้อหา Power BI
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 7b2249964f2fff26bc68fea19fd0010d8990110b
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: a38547807fbbcf3c76366f32caa46945e57ca8bc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762547"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710318"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>รับโทเค็นการเข้าถึง Azure AD สำหรับแอปพลิเคชัน Power BI ของคุณ
 
 รับรองความถูกต้องผู้ใช้ในแอปพลิเคชัน Power BI ของคุณ และเรียกใช้โทเค็นการเข้าถึงการใช้กับ REST API
 
-ก่อนที่คุณจะสามารถโทรหา Power BI REST API คุณจำเป็นต้องรับ Azure Active Directory (Azure AD) **โทเค็นการเข้าถึงการรับรองความถูกต้อง**(โทเค็นการเข้าถึง) โทเค็น**การเข้าถึง**ถูกใช้เพื่ออนุญาตการเข้าถึงแอปในแดชบอร์ด ไทล์ และรายงาน **Power BI** เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ Azure Active Directory **กระบวนการ** โทเค็นการเข้าถึง ดู[กระบวนการอนุญาตรหัสการให้สิทธิ์ Azure AD](https://msdn.microsoft.com/library/azure/dn645542.aspx)
+ก่อนที่คุณจะสามารถโทรหา Power BI REST API คุณจำเป็นต้องรับ Azure Active Directory (Azure AD) **โทเค็นการเข้าถึงการรับรองความถูกต้อง**(โทเค็นการเข้าถึง) โทเค็น**การเข้าถึง**ถูกใช้เพื่ออนุญาตการเข้าถึงแอปในแดชบอร์ด ไทล์ และรายงาน **Power BI** เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ Azure Active Directory **กระบวนการ** โทเค็นการเข้าถึง ดู[กระบวนการอนุญาตรหัสการให้สิทธิ์ Azure AD](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code)
 
-โทเค็นการเข้าถึงจะถูกเรียกใช้แตกต่างกัน ขึ้นอยู่กับวิธีการที่คุณจะฝังเนื้อหา  มีการใช้สองวิธีการที่แตกต่างกันในบทความนี้
+โทเค็นการเข้าถึงจะถูกเรียกใช้แตกต่างกัน ขึ้นอยู่กับวิธีการที่คุณจะฝังเนื้อหา มีการใช้สองวิธีการที่แตกต่างกันในบทความนี้
 
 ## <a name="access-token-for-power-bi-users-user-owns-data"></a>โทเค็นการเข้าถึงสำหรับผู้ใช้ Power BI (ผู้ใช้เป็นเจ้าของข้อมูล)
 
@@ -56,7 +56,7 @@ var @params = new NameValueCollection
 
 หลังจากที่คุณสร้างสตริงแบบสอบถามแล้ว เปลี่ยนเส้นทางไปยัง**Azure AD**เพื่อรับ**รหัสการให้สิทธิ์**  ด้านล่างนี้คือวิธีการ์ C# ที่สมบูรณที่จะสร้าง**รหัสการตรวจสอบ**สตริงค้นหา และเปลี่ยนเส้นทางไปยัง**Azure AD** หลังจากที่คุณมีรหัสการให้สิทธิ์ คุณจะได้รับ**โทเค็นการเข้าถึง**โดยใช้การ**รหัสการให้สิทธิ์**
 
-ภายใน redirect.aspx.cs, จะเรียก [AuthenticationContext.AcquireTokenByAuthorizationCode](https://msdn.microsoft.com/library/azure/dn479531.aspx) เพื่อสร้างโทเค็น
+ภายใน redirect.aspx.cs, จะเรียก [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) เพื่อสร้างโทเค็น
 
 #### <a name="get-authorization-code"></a>รับรหัสการให้สิทธิ์
 
@@ -89,7 +89,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
     //Redirect authority
     //Authority Uri is an Azure resource that takes a client id to get an Access token
-    // AADAuthorityUri = https://login.microsoftonline.net/common/
+    // AADAuthorityUri = https://login.microsoftonline.com/common/
     string authorityUri = Properties.Settings.Default.AADAuthorityUri;
     var authUri = String.Format("{0}?{1}", authorityUri, queryString);
     Response.Redirect(authUri);
@@ -196,6 +196,10 @@ var authenticationContext = new AuthenticationContext(AuthorityUrl);
 
 m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 ```
+
+## <a name="troubleshoot"></a>การแก้ไขปัญหา
+
+* ดาวน์โหลด[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)ถ้าคุณพบข้อ " 'AuthenticationContext' ประกอบด้วยข้อกำหนดสำหรับ 'AcquireToken' และไม่สามารถเข้าถึง 'AcquireToken' ยอมรับอาร์กิวเมนต์ตัวแรกของชนิด ' AuthenticationContext' พบ (คุณหายไปโดยการใช้คำสั่งหรือการอ้างอิงแอสเซมบลีหรือไม่) "ข้อผิดพลาดได้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

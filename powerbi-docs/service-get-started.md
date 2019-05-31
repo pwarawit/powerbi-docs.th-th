@@ -12,11 +12,11 @@ ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147507"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61239075"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>บทช่วยสอน: เริ่มต้นใช้งานบริการ Power BI (app.powerbi.com)
 บทช่วยสอนนี้ช่วยให้คุณเริ่มต้นใช้งาน***บริการ Power BI*** สำหรับทำความเข้าใจว่าบริการ Power BI เหมาะสมกับข้อเสนอ Power BI อื่นๆ อย่างไร เราขอแนะนำให้คุณเริ่มต้นด้วยการอ่าน[Power BI คืออะไร](power-bi-overview.md)

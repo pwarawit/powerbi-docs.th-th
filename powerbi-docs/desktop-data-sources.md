@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2019
+ms.date: 05/15/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
-ms.translationtype: HT
+ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225925"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65853457"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับข้อมูลจากแหล่งต่าง ๆ มากมายด้วย Power BI Desktop รายการทั้งหมดของแหล่งข้อมูลที่พร้อมใช้งานอยู่ที่ด้านล่างของหน้านี้
@@ -51,7 +51,7 @@ ms.locfileid: "56225925"
 * XML
 * JSON
 * โฟลเดอร์
-* PDF (รุ่นเบต้า)
+* PDF
 * โฟลเดอร์ SharePoint
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**ไฟล์**
@@ -79,14 +79,16 @@ ms.locfileid: "56225925"
 * Google BigQuery
 * Vertica
 * Snowflake
-* Essbase (เบต้า)
-* Dremio
-* Exasol
-* MarkLogic (เบต้า)
+* Essbase
 * AtScale cubes (เบต้า)
 * BI Connector
+* Dremio
+* Exasol
+* Indexima (เบต้า)
+* InterSystems IRIS (เบต้า)
 * Jethro (รุ่นเบต้า)
 * วิสาหกิจ Kyligence (เบต้า)
+* MarkLogic (เบต้า)
 
 > [!NOTE]
 > ตัวเชื่อมต่อฐานข้อมูลบางอย่างจำเป็นต้องให้คุณเปิดใช้งานโดยการเลือก**ไฟล์ > ตัวเลือกและการตั้งค่า > ตัวเลือก**จากนั้นเลือก**คุณลักษณะการแสดงตัวอย่าง**และเปิดใช้งานตัวเชื่อมต่อ ถ้าคุณไม่เห็นตัวเชื่อมต่อที่กล่าวถึงด้านบน และต้องการใช้งานตัวเชื่อมต่อเหล่านั้น โปรดตรวจสอบการตั้งค่าของ**คุณลักษณะการแสดงตัวอย่าง** และโปรดทราบว่าแหล่งข้อมูลใด ๆ ที่ได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง*มีการจำกัดการสนับสนุนและฟังก์ชันการทำงาน และไม่ควรใช้ในสภาพแวดล้อมการผลิต
@@ -98,7 +100,7 @@ ms.locfileid: "56225925"
 ประเภท **Power BI** มีการเชื่อมต่อข้อมูลดังต่อไปนี้
 
 * ชุดข้อมูล Power BI
-* กระแสข้อมูล Power BI (รุ่นเบต้า)
+* กระแสข้อมูล Power BI
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ **Power BI**
 
@@ -112,11 +114,12 @@ ms.locfileid: "56225925"
 * พื้นที่เก็บข้อมูล Azure Blob
 * พื้นที่เก็บข้อมูล Azure Table
 * Azure Cosmos DB (เบต้า)
-* Azure Data Lake Storage
+* Azure Data Lake Storage รุ่น 1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * คิวรีแบบโต้ตอบ HDInsight
-* Azure Data Explorer (เบต้า)
+* Azure Data Explorer (Kusto)
+* จัดการค่าใช้จ่าย azure (เบต้า)
 
 แสดงรูปภาพต่อไปนี้**รับข้อมูล**สำหรับ**Azure**
 
@@ -157,9 +160,10 @@ ms.locfileid: "56225925"
 * tyGraph (เบต้า)
 * Webtrends (เบต้า)
 * Zendesk (เบต้า)
-* TeamDesk (เบต้า)
 * แหล่งข้อมูล Emigo (เบต้า)
+* IndustrialAppStore (เบต้า)
 * การรักษาความปลอดภัยของ Microsoft Graph
+* TeamDesk (เบต้า)
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**บริการออนไลน์**
 
@@ -178,12 +182,16 @@ ms.locfileid: "56225925"
 * สคริปต์ Python
 * ODBC
 * OLE DB
-* Workforce Dimensions (เบต้า)
+* BI360 - จัดทำงบประมาณ และการเงินรายงาน (เบต้า)
 * Denado
-* Paxata (เบต้า)
-* SurveyMonkey(เบต้า)
+* ตารางข้อมูล (เบต้า)
+* Paxata 
 * QubolePresto (เบต้า)
 * Quick Base (เบต้า)
+* Roamler (เบต้า)
+* SurveyMonkey(เบต้า)
+* Tenforce (เบต้า)
+* Workforce Dimensions (เบต้า)
 * คิวรีที่ว่างเปล่า
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**อื่น ๆ**

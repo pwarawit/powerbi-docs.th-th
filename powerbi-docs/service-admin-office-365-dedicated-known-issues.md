@@ -12,11 +12,11 @@ ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 9461609b7ecaa674d3ef4d01482752a78071dbe2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295776"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187853"
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>ลูกค้า office 365 มุ่งเน้น - ปัญหาที่ทราบแล้ว
 Power BI ในขณะนี้ได้รับการสนับสนุนแล้ว สำหรับลูกค้า Office 365 Dedicated  ถ้าคุณเป็นลูกค้า O365 Dedicated คุณสามารถลงชื่อเข้าใช้ ด้วยบัญชีจากผู้เช่านั้น และใช้ Power BI มีปัญหาสองข้อที่ทราบแล้วในขณะนี้

@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
-ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "61272243"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>เครื่องมือการย้าย Power BI แบบฝัง
@@ -41,7 +41,7 @@ ms.locfileid: "61272243"
 
 คุณจะต้องการเริ่มต้นโดยการสร้างแผนการย้ายใหม่ เมื่อต้องสร้างแผนการย้ายใหม่ ทำตามขั้นตอนต่อไปนี้
 
-1. เลือก **”ไฟล์”** > **”แผนการย้ายใหม่”**
+1. เลือก **”ไฟล์”**  >  **”แผนการย้ายใหม่”**
 
     ![แผนเครื่องมือ](media/migrate-tool/migrate-tool-plan.png)
 
@@ -76,7 +76,7 @@ ms.locfileid: "61272243"
 
 เมื่อต้องบันทึกแผนการย้ายของคุณ ทำตามขั้นตอนต่อไปนี้
 
-1. เลือก **”ไฟล์”** > **บันทึกแผนการย้าย**
+1. เลือก **”ไฟล์”**  > **บันทึกแผนการย้าย**
 
     ![บันทึกแผน](media/migrate-tool/migrate-tool-save-plan.png)
 

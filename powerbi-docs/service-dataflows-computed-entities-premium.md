@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: ccd8569650bd4f3da1a05c0999ad510029e5ab49
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220965"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61138272"
 ---
-# <a name="using-computed-entities-on-power-bi-premium-preview"></a>การใช้เอนทิตีที่คำนวณใน Power BI Premium (ตัวอย่าง)
+# <a name="using-computed-entities-on-power-bi-premium"></a>การใช้เอนทิตีที่คำนวณใน Power BI Premium
 
 คุณสามารถดำเนินการ**การประมวลผลในที่จัดเก็บ**ได้เมื่อใช้**กระแสข้อมูล**ที่มีการสมัครใช้งาน Power BI Premium ซึ่งจะช่วยให้คุณคำนวณกระแสข้อมูลที่มีอยู่แล้วและส่งผลลัพธ์กลับได้ โดยจะทำให้คุณได้เพ่งความสนใจไปยังการสร้างและการวิเคราะห์รายงาน 
 
@@ -31,10 +31,6 @@ ms.locfileid: "58220965"
 * การใช้กระแสข้อมูลภายนอก
 
 ส่วนต่อไปนี้จะอธิบายวิธีการสร้างเอนทิตีที่คำนวณไว้ในข้อมูลของกระแสข้อมูล
-
-> [!NOTE]
-> ฟังก์ชันของกระแสข้อมูลอยู่ในช่วงตัวอย่าง และสามารถเปลี่ยนและอัปเดตได้ตามความพร้อมใช้งานทั่วไป
-
 
 ## <a name="how-to-create-computed-entities"></a>วิธีการสร้างเอนทิตีที่คำนวณไว้ 
 
@@ -88,9 +84,9 @@ ms.locfileid: "58220965"
 บทความนี้ได้อธิบายเกี่ยวกับเอนทิตีที่คำนวณและกระแสข้อมูลที่พร้อมใช้ในบริการของ Power BI ต่อไปนี้คือบทความเพิ่มเติมที่อาจเป็นประโยชน์
 
 * [การเตรียมข้อมูลด้วยตัวเองโดยใช้กระแสข้อมูล](service-dataflows-overview.md)
-* [สร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
-* [การใช้กระแสข้อมูลพร้อมแหล่งข้อมูลในองค์กร (ตัวอย่าง)](service-dataflows-on-premises-gateways.md)
-* [แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI (ตัวอย่าง)](service-dataflows-developer-resources.md)
+* [การสร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
+* [ใช้ dataflows กับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
+* [ทรัพยากรสำหรับนักพัฒนาสำหรับ dataflows Power BI](service-dataflows-developer-resources.md)
 * [กำหนดการตั้งค่ากระแสข้อมูลพื้นที่ทำงาน (ตัวอย่าง)](service-dataflows-configure-workspace-storage-settings.md)
 * [เพิ่มโฟลเดอร์ CDM ไปยัง Power BI เป็นกระแสข้อมูล (ตัวอย่าง)](service-dataflows-add-cdm-folder.md)
 * [เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับที่เก็บกระแสข้อมูล (ตัวอย่าง)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
