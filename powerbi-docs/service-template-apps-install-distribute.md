@@ -7,26 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/07/2019
+ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: cd3a1f94aa4c965327ea3e5bcb7271326aa3514d
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 2b7b2630e665fca9013920718ff58dd973f01392
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56250047"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578564"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>แจกจ่ายแอปแม่แบบในองค์กรของคุณ - Power BI (ตัวอย่าง)
 
-แอป*แม่แบบ Power BI*ใหม่เปิดให้คู่ค้า Power BI สร้างแอป Power BI ด้วยโค๊ดเพียงเล็กน้อยหรือไม่มีเลย และปรับใช้กับลูกค้า Power BI ทุกท่าน บทความนี้เหมาะสำหรับนักวิเคราะห์ Power BI ซึ่งอธิบายวิธีการติดตั้ง กำหนดเอง และแจกจ่ายแอปแม่แบบที่คู่ค้า Power BIสร้างขึ้น ถ้าคุณสนใจในการสร้างแอปแม่แบบเพื่อกระจายด้วยตนเอง ดู[สร้างแอปแม่แบบใน Power BI](service-template-apps-create.md)
+คุณจะเป็นนักวิเคราะห์ Power BI หรือไม่ ถ้าดังนั้น บทความนี้อธิบายวิธีการติดตั้ง*เทมเพลแอ*เพื่อเชื่อมต่อกับบริการคุณใช้เพื่อเรียกใช้ธุรกิจของคุณ เช่น Salesforce, Microsoft Dynamics และ Google Analytics จำนวนมาก คุณสามารถปรับเปลี่ยนแดชบอร์ดและรายงานตามความต้องการขององค์กรของคุณ และกระจายให้เพื่อนร่วมงานของคุณเป็นแอ*แอ*ได้ 
 
 ![Power BI ได้ติดตั้งแล้ว](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-เมื่อคุณติดตั้งแอปแม่แบบที่คู่ค้าของ Power BI สร้างแล้ว คุณสามารถปรับเปลี่ยนให้ตรงกับความต้องการขององค์กรของคุณ และแจกจ่ายแอปนี้ให้กับเพื่อนร่วมงานของคุณ  
+ถ้าคุณสนใจในการสร้างแอปแม่แบบเพื่อกระจายด้วยตนเอง ดู[สร้างแอปแม่แบบใน Power BI](service-template-apps-create.md) Power BI คู่ค้าสามารถสร้างแอป Power BI ด้วยเพียงเล็กน้อย หรือไม่มีการเข้ารหัส และปรับใช้กับลูกค้า Power BI 
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น  
 
-นี่คือข้อกำหนดสำหรับการติดตั้ง กำหนดเอง และการแจกจ่ายแอปแม่แบบ:  
+นี่คือข้อกำหนดสำหรับการติดตั้ง กำหนดเอง และการแจกจ่ายแอปแม่แบบ: 
 
 - [ใบอนุญาต Power BI pro](service-self-service-signup-for-power-bi.md)
 - ความชำนาญกับ[แนวคิดพื้นฐานของ Power BI ](service-basic-concepts.md)
