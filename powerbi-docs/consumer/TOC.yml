@@ -1,209 +1,208 @@
-items:
 - name: Power BI สำหรับผู้บริโภค
   href: power-bi-consumer-landing.md
 - name: บริการ Power BI สำหรับผู้บริโภค
   items:
-  - name: ภาพรวม
-    items:
-    - name: ผู้ใช้ Power BI คือใคร
-      href: end-user-consumer.md
-    - name: แนวคิดพื้นฐานและคำศัพท์สำหรับผู้ใช้ Power BI
-      href: end-user-basic-concepts.md
-  - name: การเริ่มต้นใช้งานด่วน
-    items:
-    - name: ค้นหาวิธีใช้ใน Power BI
-      href: end-user-experience.md
-    - name: ฉันสามารถใช้ Power BI ทำอะไรได้บ้าง
-      href: end-user-reading-view.md
-    - name: ลงชื่อเข้าใช้เป็นครั้งแรก
-      href: end-user-sign-in.md
-  - name: บทช่วยสอน
-    items:
-    - name: สร้างการแจ้งเตือนแดชบอร์ด
-      href: end-user-alerts.md
-  - name: วิธีการ
-    items:
-    - name: แดชบอร์ด
+    - name: ภาพรวม
       items:
-      - name: แดชบอร์ด
-        href: end-user-dashboards.md
-      - name: ดูแดชบอร์ด
-        href: end-user-dashboard-open.md
-      - name: แดชบอร์ดเด่น
-        href: end-user-featured.md
-      - name: ไทล์แดชบอร์ด
-        href: end-user-tiles.md
-      - name: เพิ่มข้อคิดเห็นหรือเริ่มการสนทนา
-        href: end-user-comment.md
-    - name: รายงาน
+        - name: ผู้ใช้ Power BI คือใคร
+          href: end-user-consumer.md
+        - name: แนวคิดพื้นฐานและคำศัพท์สำหรับผู้ใช้ Power BI
+          href: end-user-basic-concepts.md
+    - name: การเริ่มต้นใช้งานด่วน
       items:
-      - name: รายงาน
-        href: end-user-reports.md
-      - name: ดูรายงาน
-        href: end-user-report-open.md
-      - name: ใช้ตัวกรองในรายงาน
-        href: end-user-report-filter.md
-      - name: เรียนรู้วิธีการทำงานของตัวกรองไขว้ของการแสดงผลด้วยภาพในรายงาน
-        href: end-user-interactions.md
-      - name: ส่งออกรายงานเป็น PDF
-        href: end-user-pdf.md
-    - name: การจัดรูปแบบการแสดงข้อมูล
+        - name: ค้นหาวิธีใช้ใน Power BI
+          href: end-user-experience.md
+        - name: ฉันสามารถใช้ Power BI ทำอะไรได้บ้าง
+          href: end-user-reading-view.md
+        - name: ลงชื่อเข้าใช้เป็นครั้งแรก
+          href: end-user-sign-in.md
+    - name: บทช่วยสอน
       items:
-      - name: ฉันสามารถทำอะไรกับการแสดงภาพได้บ้าง
-        href: end-user-visualizations.md
-      - name: ชนิดของการแสดงภาพ
-        href: end-user-visual-type.md
-      - name: แสดงข้อมูลที่ใช้เพื่อสร้างการแสดงภาพ
-        href: end-user-show-data.md
-      - name: การดูรายละเอียดแนวลึกในการแสดงภาพใน Power BI
-        href: end-user-drill.md
-      - name: โต้ตอบกับ ArcGIS Maps
-        href: ../power-bi-visualizations-arcgis.md
-    - name: งานทั่วไป
+        - name: สร้างการแจ้งเตือนแดชบอร์ด
+          href: end-user-alerts.md
+    - name: วิธีการ
       items:
-      - name: ส่งออกข้อมูลไปยัง Excel
-        href: end-user-export.md
-      - name: ค้นหาเจ้าของเนื้อหาและวันที่รีเฟรช่ล่าสุด
-        href: end-user-fresh.md
-      - name: วิธีต่างๆ ในการซูมเข้าสู่เนื้อหาโดยใช้โหมดโฟกัสและโหมดเต็มหน้าจอ
-        href: end-user-focus.md
-      - name: แดชบอร์ด รายงาน และแอปโปรดใน Power BI
-        href: end-user-favorite.md
-      - name: พิมพ์แดชบอร์ด พิมพ์ไทล์แดชบอร์ด พิมพ์หน้ารายงาน
-        href: end-user-print.md
-      - name: ดูเนื้อหาที่เกี่ยวข้อง
-        href: end-user-related.md
-      - name: ดูเนื้อหาล่าสุด
-        href: end-user-recent.md
-      - name: ดูเนื้อหาในที่เก็บข้อมูลแชร์กับฉัน
-        href: end-user-shared-with-me.md
-      - name: สมัครใช้งานไปยังรายงานหรือแดชบอร์ด
-        href: end-user-subscribe.md
-      - name: ค้นหาและเรียงลำดับเนื้อหาใน Power BI
-        href: end-user-search-sort.md
-      - name: ดูข้อมูลเชิงลึกโดยอัตโนมัติสำหรับไทลแดชบอร์ด
-        href: end-user-insights.md
-    - name: รับข้อมูล
+        - name: แดชบอร์ด
+          items:
+            - name: แดชบอร์ด
+              href: end-user-dashboards.md
+            - name: ดูแดชบอร์ด
+              href: end-user-dashboard-open.md
+            - name: แดชบอร์ดเด่น
+              href: end-user-featured.md
+            - name: ไทล์แดชบอร์ด
+              href: end-user-tiles.md
+            - name: เพิ่มข้อคิดเห็นหรือเริ่มการสนทนา
+              href: end-user-comment.md
+        - name: รายงาน
+          items:
+            - name: รายงาน
+              href: end-user-reports.md
+            - name: ดูรายงาน
+              href: end-user-report-open.md
+            - name: เปลี่ยนวิธีแสดงรายงาน
+              href: end-user-report-view.md
+            - name: ใช้ตัวกรองในรายงาน
+              href: end-user-report-filter.md
+            - name: เรียนรู้วิธีการทำงานของตัวกรองไขว้ของการแสดงผลด้วยภาพในรายงาน
+              href: end-user-interactions.md
+            - name: ส่งออกรายงานเป็น PDF
+              href: end-user-pdf.md
+            - name: เพิ่มบุ๊กมาร์กไปยังรายงาน
+              href: end-user-bookmarks.md
+        - name: การจัดรูปแบบการแสดงข้อมูล
+          items:
+            - name: ฉันสามารถทำอะไรกับการแสดงภาพได้บ้าง
+              href: end-user-visualizations.md
+            - name: ชนิดของการแสดงภาพ
+              href: end-user-visual-type.md
+            - name: แสดงข้อมูลที่ใช้เพื่อสร้างการแสดงภาพ
+              href: end-user-show-data.md
+            - name: การดูรายละเอียดแนวลึกในการแสดงภาพใน Power BI
+              href: end-user-drill.md
+            - name: โต้ตอบกับ ArcGIS Maps
+              href: ../power-bi-visualizations-arcgis.md
+        - name: งานทั่วไป
+          items:
+            - name: ส่งออกข้อมูลไปยัง Excel
+              href: end-user-export.md
+            - name: ค้นหาเจ้าของเนื้อหาและวันที่รีเฟรช่ล่าสุด
+              href: end-user-fresh.md
+            - name: วิธีต่างๆ ในการซูมเข้าสู่เนื้อหาโดยใช้โหมดโฟกัสและโหมดเต็มหน้าจอ
+              href: end-user-focus.md
+            - name: แดชบอร์ด รายงาน และแอปโปรดใน Power BI
+              href: end-user-favorite.md
+            - name: พิมพ์แดชบอร์ด พิมพ์ไทล์แดชบอร์ด พิมพ์หน้ารายงาน
+              href: end-user-print.md
+            - name: ดูเนื้อหาที่เกี่ยวข้อง
+              href: end-user-related.md
+            - name: ดูเนื้อหาล่าสุด
+              href: end-user-recent.md
+            - name: ดูเนื้อหาในที่เก็บข้อมูลแชร์กับฉัน
+              href: end-user-shared-with-me.md
+            - name: สมัครใช้งานไปยังรายงานหรือแดชบอร์ด
+              href: end-user-subscribe.md
+            - name: ค้นหาและเรียงลำดับเนื้อหาใน Power BI
+              href: end-user-search-sort.md
+            - name: ดูข้อมูลเชิงลึกโดยอัตโนมัติสำหรับไทลแดชบอร์ด
+              href: end-user-insights.md
+            - name: เปิดฟีเจอร์แสดงตัวอย่าง
+              href: end-user-preview-features.md
+        - name: รับข้อมูล
+          items:
+            - name: แอปใน Power BI
+              href: end-user-apps.md
+            - name: ติดตั้งและใช้แอป
+              href: end-user-app-view.md
+            - name: เชื่อมต่อกับเซิร์ฟเวอร์
+              href: end-user-connect-to-services.md
+        - name: การถามคำถามเกี่ยวกับข้อมูลของคุณ
+          items:
+            - name: การถามตอบใน Power BI
+              href: end-user-q-and-a.md
+            - name: เคล็ดลับและลูกเล่นสำหรับการถามคำถามด้วย ถามตอบใน Power BI
+              href: end-user-q-and-a-tips.md
+    - name: ทรัพยากร
       items:
-      - name: แอปใน Power BI
-        href: end-user-apps.md
-      - name: ติดตั้งและใช้แอป
-        href: end-user-app-view.md
-      - name: เชื่อมต่อกับเซิร์ฟเวอร์
-        href: end-user-connect-to-services.md
-    - name: การถามคำถามเกี่ยวกับข้อมูลของคุณ
-      items:
-      - name: การถามตอบใน Power BI
-        href: end-user-q-and-a.md
-      - name: เคล็ดลับและลูกเล่นสำหรับการถามคำถามด้วย ถามตอบใน Power BI
-        href: end-user-q-and-a-tips.md
-  - name: ทรัพยากร
-    items:
-    - name: อภิธานศัพท์และคำศัพท์
-      href: end-user-glossary.md
-    - name: เบราว์เซอร์ทีรองรับ
-      href: end-user-browsers.md
-    - name: ชนิดของข้อมูลเชิงลึกด่วนที่ได้รับการสนับสนุนโดย Power BI
-      href: end-user-insight-types.md
+        - name: อภิธานศัพท์และคำศัพท์
+          href: end-user-glossary.md
+        - name: เบราว์เซอร์ทีรองรับ
+          href: end-user-browsers.md
+        - name: ชนิดของข้อมูลเชิงลึกด่วนที่ได้รับการสนับสนุนโดย Power BI
+          href: end-user-insight-types.md
 - name: แอป Power BI สำหรับอุปกรณ์เคลื่อนที่
   items:
-  - name: ภาพรวม
-    items:
-    - name: แอปสำหรับอุปกรณ์เคลื่อนคืออะไร
-      href: mobile/mobile-apps-for-mobile-devices.md
-  - name: การเริ่มต้นใช้งานด่วน
-    items:
-    - name: สำรวจแดชบอร์ดและรายงาน
-      href: mobile/mobile-apps-quickstart-view-dashboard-report.md
-  - name: บทช่วยสอน
-    items:
-    - name: ถามคำถามใน iOS แอปสำหรับอุปกรณ์เคลื่อน
-      href: mobile/tutorial-mobile-apps-ios-qna.md
-  - name: แนวคิด
-    items:
-    - name: มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่
-      href: mobile/mobile-whats-new-in-the-mobile-apps.md
-    - name: รับข้อมูลตามโลกความจริงด้วยแอปสำหรับโทรศัพท์เคลื่อนที่
-      href: mobile/mobile-apps-data-in-real-world-context.md
-    - name: ดูข้อมูลของคุณแบบออฟไลน์ในแอปสำหรับอุปกรณ์เคลื่อนที่
-      href: mobile/mobile-apps-offline-data.md
-    - name: Power BI สำหรับแอปความเป็นจริงผสม (แสดงตัวอย่าง)
-      href: mobile/mobile-mixed-reality-app.md
-  - name: วิธีการ
-    items:
-    - name: แอปทั้งหมดสำหรับอุปกรณ์เคลื่อนที่
+    - name: ภาพรวม
       items:
-      - name: แชร์แดชบอร์ดจากแอป Power BI mobile
-        href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
-      - name: โต้ตอบกับไทล์ในแอปสำหรับอุปกรณ์เคลื่อนที่
-        href: mobile/mobile-tiles-in-the-mobile-apps.md
-      - name: รายการโปรดในแอปสำหรับอุปกรณ์เคลื่อนที่
-        href: mobile/mobile-apps-favorites.md
-      - name: กำหนดค่าการโต้ตอบรายงานในแอปสำหรับอุปกรณ์เคลื่อนที่ (โทรศัพท์เท่านั้น)
-        href: mobile/mobile-app-single-tap.md
-      - name: ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
-        href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
-      - name: รับการแจ้งเตือนในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
-        href: mobile/mobile-apps-notification-center.md
-      - name: สร้างการเชื่อมโยงโดยตรงที่จะไปยังตำแหน่งที่ระบุ
-        href: mobile/mobile-apps-deep-link-specific-location.md
-      - name: กรองรายงานตามตำแหน่งที่ตั้งในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
-        href: mobile/mobile-apps-geographic-filtering.md
-      - name: แดชบอร์ดสำหรับ Power BI สำหรับอุปกรณ์เคลื่อน
-        href: mobile/mobile-apps-view-dashboard.md
-      - name: รายงานในแอปสำหรับอุปกรณ์เคลื่อนที่
-        href: mobile/mobile-reports-in-the-mobile-apps.md
-      - name: ใช้ OAuth เพื่อเชื่อมต่อกับ Reporting Services
-        href: mobile/mobile-oauth-ssrs.md
-    - name: อุปกรณ์ Android
+        - name: แอปสำหรับอุปกรณ์เคลื่อนคืออะไร
+          href: mobile/mobile-apps-for-mobile-devices.md
+    - name: การเริ่มต้นใช้งานด่วน
       items:
-      - name: เริ่มต้นใช้งานแอป Android
-        href: mobile/mobile-android-app-get-started.md
-      - name: กำลังแก้ไข 'ใบรับรอง SSL ขององค์กรของคุณไม่น่าเชื่อถือ'
-        href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
-      - name: 'ข้อผิดพลาด: "จำเป็นต้องอัปเดต Android System Webview"'
-        href: mobile/mobile-android-error-update-android-system-webview.md
-    - name: iOS
+        - name: สำรวจแดชบอร์ดและรายงาน
+          href: mobile/mobile-apps-quickstart-view-dashboard-report.md
+    - name: บทช่วยสอน
       items:
-      - name: เริ่มต้นใช้งานแอป iOS
-        href: mobile/mobile-iphone-app-get-started.md
-      - name: Q&A นักวิเคราะห์เสมือนจริงในแอปสำหรับอุปกรณ์เคลื่อนของ iOS
-        href: mobile/mobile-apps-ios-qna.md
-      - name: แอป Power BI Apple Watch
-        href: mobile/mobile-apple-watch.md
-      - name: สแกนบาร์โค้ดจากแอปบน iPhone ของคุณ
-        href: mobile/mobile-apps-scan-barcode-iphone.md
-    - name: (iOS และ Android)
+        - name: ถามคำถามใน iOS แอปสำหรับอุปกรณ์เคลื่อน
+          href: mobile/tutorial-mobile-apps-ios-qna.md
+    - name: แนวคิด
       items:
-      - name: ดูรายงานในสถานทีสำหรับอุปกรณ์เคลื่อนที่
-        href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-      - name: ดูรายงานที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ
-        href: mobile/mobile-apps-view-phone-report.md
-      - name: เข้าถึงเนื้อหาจากองค์กรภายนอก
-        href: mobile/mobile-apps-b2b.md
-      - name: สแกนคิวอาร์โค้ด Power BI จากโทรศัพท์ของคุณ
-        href: mobile/mobile-apps-qr-code.md
-      - name: ใส่คำอธิบายประกอบ และแชร์ในแอปสำหรับอุปกรณ์เคลื่อนที่
-        href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-    - name: แอป Power BI สำหรับอุปกรณ์ Windows 10
+        - name: มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่
+          href: mobile/mobile-whats-new-in-the-mobile-apps.md
+        - name: รับข้อมูลตามโลกความจริงด้วยแอปสำหรับโทรศัพท์เคลื่อนที่
+          href: mobile/mobile-apps-data-in-real-world-context.md
+        - name: ดูข้อมูลของคุณแบบออฟไลน์ในแอปสำหรับอุปกรณ์เคลื่อนที่
+          href: mobile/mobile-apps-offline-data.md
+        - name: Power BI สำหรับแอปความเป็นจริงผสม (แสดงตัวอย่าง)
+          href: mobile/mobile-mixed-reality-app.md
+    - name: วิธีการ
       items:
-      - name: เริ่มต้นใช้งานแอป Windows 10
-        href: mobile/mobile-windows-10-phone-app-get-started.md
-      - name: ปักหมุดกับแดชบอรที่หน้าจอเริ่มต้น
-        href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-      - name: ดูรายงานอุปกรณ์มือถือของ Reporting Services และ KPI
-        href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-      - name: ดู Power BI บน Surface Hub
-        href: mobile/mobile-windows-10-app-presentation-mode.md
-      - name: ลงชื่อเข้าระบบครั้งเดียวในแอป Windows
-        href: mobile/mobile-windows-10-app-single-sign-on-sso.md
-  - name: ทรัพยากร
-    items:
-    - name: ภาษาที่สนับสนุนในแอปสำหรับอุปกรณ์เคลื่อนที่
-      href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: 6f9f080de3711a6a1a28f49da0298a67932d87e5
-ms.sourcegitcommit: c0add3d749f7e714e23824a742e105e694e4c129
-ms.translationtype: HT
-ms.contentlocale: th-TH
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "59430293"
+        - name: แอปทั้งหมดสำหรับอุปกรณ์เคลื่อนที่
+          items:
+            - name: แดชบอร์ดสำหรับ Power BI สำหรับอุปกรณ์เคลื่อน
+              href: mobile/mobile-apps-view-dashboard.md
+            - name: รายงานในแอปสำหรับอุปกรณ์เคลื่อนที่
+              href: mobile/mobile-reports-in-the-mobile-apps.md
+            - name: โต้ตอบกับไทล์ในแอปสำหรับอุปกรณ์เคลื่อนที่
+              href: mobile/mobile-tiles-in-the-mobile-apps.md
+            - name: แชร์แดชบอร์ดจากแอป Power BI mobile
+              href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
+            - name: รายการโปรดในแอปสำหรับอุปกรณ์เคลื่อนที่
+              href: mobile/mobile-apps-favorites.md
+            - name: กำหนดค่าการโต้ตอบรายงานในแอปสำหรับอุปกรณ์เคลื่อนที่ (โทรศัพท์เท่านั้น)
+              href: mobile/mobile-app-single-tap.md
+            - name: ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+              href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
+            - name: รับการแจ้งเตือนในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+              href: mobile/mobile-apps-notification-center.md
+            - name: สร้างการเชื่อมโยงโดยตรงที่จะไปยังตำแหน่งที่ระบุ
+              href: mobile/mobile-apps-deep-link-specific-location.md
+            - name: กรองรายงานตามตำแหน่งที่ตั้งในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+              href: mobile/mobile-apps-geographic-filtering.md
+            - name: ใช้ OAuth เพื่อเชื่อมต่อกับ Reporting Services
+              href: mobile/mobile-oauth-ssrs.md
+        - name: (iOS และ Android)
+          items:
+            - name: ดูรายงานที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ
+              href: mobile/mobile-apps-view-phone-report.md
+            - name: ดูรายงานในสถานทีสำหรับอุปกรณ์เคลื่อนที่
+              href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: เข้าถึงเนื้อหาจากองค์กรภายนอก (B2B)
+              href: mobile/mobile-apps-b2b.md
+            - name: สแกนคิวอาร์โค้ด Power BI จากโทรศัพท์ของคุณ
+              href: mobile/mobile-apps-qr-code.md
+            - name: ใส่คำอธิบายประกอบ และแชร์ในแอปสำหรับอุปกรณ์เคลื่อนที่
+              href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+        - name: iOS
+          items:
+            - name: เริ่มต้นใช้งานแอป iOS
+              href: mobile/mobile-iphone-app-get-started.md
+            - name: Q&A นักวิเคราะห์เสมือนจริงในแอปสำหรับอุปกรณ์เคลื่อนของ iOS
+              href: mobile/mobile-apps-ios-qna.md
+            - name: แอป Power BI Apple Watch
+              href: mobile/mobile-apple-watch.md
+            - name: สแกนบาร์โค้ดจากแอปบน iPhone ของคุณ
+              href: mobile/mobile-apps-scan-barcode-iphone.md
+        - name: อุปกรณ์ Android
+          items:
+            - name: เริ่มต้นใช้งานแอป Android
+              href: mobile/mobile-android-app-get-started.md
+            - name: กำลังแก้ไข 'ใบรับรอง SSL ขององค์กรของคุณไม่น่าเชื่อถือ'
+              href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: 'ข้อผิดพลาด: "จำเป็นต้องอัปเดต Android System Webview"'
+              href: mobile/mobile-android-error-update-android-system-webview.md
+        - name: แอป Power BI สำหรับอุปกรณ์ Windows 10
+          items:
+            - name: เริ่มต้นใช้งานแอป Windows 10
+              href: mobile/mobile-windows-10-phone-app-get-started.md
+            - name: ปักหมุดกับแดชบอรที่หน้าจอเริ่มต้น
+              href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+            - name: ดูรายงานอุปกรณ์มือถือของ Reporting Services และ KPI
+              href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+            - name: ดู Power BI บน Surface Hub
+              href: mobile/mobile-windows-10-app-presentation-mode.md
+            - name: ลงชื่อเข้าระบบครั้งเดียวในแอป Windows
+              href: mobile/mobile-windows-10-app-single-sign-on-sso.md
+    - name: ทรัพยากร
+      items:
+        - name: ภาษาที่สนับสนุนในแอปสำหรับอุปกรณ์เคลื่อนที่
+          href: mobile/mobile-apps-supported-languages.md
