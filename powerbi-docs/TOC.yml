@@ -681,9 +681,9 @@
               href: service-dataflows-configure-workspace-storage-settings.md
             - name: เพิ่มโฟลเดอร์ CDM ไปยัง Power BI เป็นกระแสข้อมูล (ตัวอย่าง)
               href: service-dataflows-add-cdm-folder.md
-            - name: การเรียนรู้เกี่ยวกับการรวมเข้าด้วยกันกับจักรกลด้วย Power BI (ตัวอย่าง)
+            - name: การเรียนรู้เกี่ยวกับการรวมเข้าด้วยกันกับจักรกลด้วย Power BI
               href: service-machine-learning-integration.md
-            - name: ใช้ Cognitive Services ใน Power BI (ตัวอย่าง)
+            - name: ใช้ Cognitive Services ใน Power BI
               href: service-cognitive-services.md
             - name: การเรียนรู้ของเครื่องอัตโนมัติใน Power BI (ดูตัวอย่าง)
               href: service-machine-learning-automated.md
@@ -745,8 +745,6 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: แก้ไขปัญหาแหล่งข้อมูลไม่รองรับสำหรับรีเฟรช
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-            - name: การแก้ไขปัญหาค่าที่ซ้อนกันกลับคืนเป็นข้อความ
-              href: service-troubleshooting-nested-values.md
             - name: แก้ไขปัญหารีเฟรชตามกำหนดการสำหรับ Azure SQL Database
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: 'ข้อผิดพลาด: เราไม่พบข้อมูลใด ๆ ในเวิร์กบุ๊ก Excel ของคุณ'
@@ -927,6 +925,8 @@
           href: service-premium-incremental-refresh.md
         - name: กำหนดค่าภูมิศาสตร์หลายแห่ง
           href: service-admin-premium-multi-geo.md
+        - name: นำคีย์การเข้ารหัสลับของคุณมาเอง
+          href: service-encryption-byok.md
         - name: รีสตาร์ตความจุแบบพรีเมียม
           href: service-admin-premium-restart.md
         - name: เชื่อมต่อกับชุดข้อมูลที่มีแอปพลิเคชันไคลเอ็นต์และเครื่องมือ

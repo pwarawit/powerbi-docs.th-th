@@ -176,12 +176,20 @@
           items:
             - name: เริ่มต้นใช้งานแอป iOS
               href: mobile/mobile-iphone-app-get-started.md
+            - name: 'ปกป้องด้วย Face ID, Touch ID หรือรหัสผ่าน'
+              href: mobile/mobile-ios-native-secure-access.md
             - name: Q&A นักวิเคราะห์เสมือนจริงในแอปสำหรับอุปกรณ์เคลื่อนของ iOS
               href: mobile/mobile-apps-ios-qna.md
+            - name: การรวมแอปสำหรับอุปกรณ์เคลื่อนที่ของ Power BI ด้วยปุ่มลัด Siri
+              href: mobile/mobile-apps-iOS-siri-Shortcuts.md
+            - name: การรวมการค้นหาอุปกรณ์ iOS
+              href: mobile/mobile-apps-iOS-search-integration.md
             - name: แอป Power BI Apple Watch
               href: mobile/mobile-apple-watch.md
             - name: สแกนบาร์โค้ดจากแอปบน iPhone ของคุณ
               href: mobile/mobile-apps-scan-barcode-iphone.md
+            - name: กำหนดค่าโดยใช้การจัดการอุปกรณ์เคลื่อนที่
+              href: mobile/mobile-app-configuration.md
         - name: อุปกรณ์ Android
           items:
             - name: เริ่มต้นใช้งานแอป Android
