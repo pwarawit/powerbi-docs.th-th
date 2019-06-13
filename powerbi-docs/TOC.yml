@@ -257,8 +257,6 @@
               href: desktop-add-column-from-example.md
             - name: เพิ่มคอลัมน์แบบกำหนดเอง
               href: desktop-add-custom-column.md
-            - name: สร้างภาพแบบตอบสนองใน Power BI
-              href: visuals/desktop-create-responsive-visuals.md
             - name: ใช้ป้ายลำดับชั้นแบบอินไลน์ใน Power BI Desktop
               href: desktop-inline-hierarchy-labels.md
             - name: ใช้ตัวแบ่งส่วนข้อมูลช่วงตัวเลข
@@ -689,24 +687,6 @@
               href: service-machine-learning-automated.md
         - name: รายงานที่มีการแบ่งหน้าใน Power BI
           items:
-            - name: อะไรคือรายงานที่มีการแบ่งหน้า? (แสดงตัวอย่าง)
-              href: paginated-reports-report-builder-power-bi.md
-            - name: คำถามที่พบบ่อยเกี่ยวกับรายงานแบบแบ่งหน้า (ตัวอย่าง)
-              href: paginated-reports-faq.md
-            - name: สร้างรายงานแบบแบ่งหน้าและอัปโหลดรายงาน (ตัวอย่าง)
-              href: paginated-reports-quickstart-aw.md
-            - name: ลองใช้งานมุมมองการออกแบบรายงาน (ตัวอย่าง)
-              href: paginated-reports-report-design-view.md
-            - name: ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรง (ตัวอย่าง)
-              href: paginated-reports-enter-data.md
-            - name: สร้างแหล่งข้อมูลแบบฝังตัว (ตัวอย่าง)
-              href: paginated-reports-embedded-data-source.md
-            - name: สร้างชุดข้อมูลแบบฝังตัว (ตัวอย่าง)
-              href: paginated-reports-create-embedded-dataset.md
-            - name: สร้างพารามิเตอร์ (ตัวอย่าง)
-              href: paginated-reports-parameters.md
-            - name: เผยแพร่รายงานแบบแบ่งหน้า (ตัวอย่าง)
-              href: paginated-reports-save-to-power-bi-service.md
             - name: ดูตัวอย่างรายงานแบบแบ่งหน้า (ตัวอย่าง)
               href: paginated-reports-view-power-bi-service.md
             - name: โต้ตอบกับพารามิเตอร์ (ตัวอย่าง)
@@ -931,6 +911,52 @@
           href: service-admin-premium-restart.md
         - name: เชื่อมต่อกับชุดข้อมูลที่มีแอปพลิเคชันไคลเอ็นต์และเครื่องมือ
           href: service-premium-connect-tools.md
+- name: ตัวสร้างรายงานที่มีการแบ่งหน้า Power BI
+  items:
+    - name: ภาพรวม
+      items:
+        - name: อะไรคือรายงานที่มีการแบ่งหน้า?
+          href: paginated-reports-report-builder-power-bi.md
+        - name: ตัวสร้างรายงานใน Power BI
+          href: report-builder-power-bi.md
+    - name: บทช่วยสอน
+      items:
+        - name: สร้างรายงานที่มีการแบ่งหน้าและอัปโหลดการโต้ตอบ
+          href: paginated-reports-quickstart-aw.md
+    - name: แนวคิด
+      items:
+        - name: ลองใช้งานมุมมองการออกแบบรายงาน
+          href: paginated-reports-report-design-view.md
+        - name: การวางแผนรายงาน
+          href: report-builder-planning-report.md
+        - name: ข้อมูลตัวสร้างรายการ
+          href: report-builder-data.md
+        - name: เคล็ดลับการออกแบบ
+          href: report-builder-design-tips.md
+        - name: ตาราง เมทริกซ์ รายการ
+          href: report-builder-tables-matrices-lists.md
+        - name: พารามิเตอร์
+          href: report-builder-parameters.md
+        - name: นิพจน์
+          href: report-builder-expressions.md
+        - name: ตัวอย่างนิพจน์
+          href: report-builder-expression-examples.md
+        - name: แสดงตัวอย่างรายงาน
+          href: report-builder-previewing-reports.md
+        - name: คำถามที่พบบ่อยเกี่ยวกับรายงานที่มีการแบ่งหน้า
+          href: paginated-reports-faq.md
+    - name: วิธีการ
+      items:
+        - name: ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรง
+          href: paginated-reports-enter-data.md
+        - name: สร้างแหล่งข้อมูลแบบฝังตัว
+          href: paginated-reports-embedded-data-source.md
+        - name: สร้างชุดข้อมูลแบบฝังตัว
+          href: paginated-reports-create-embedded-dataset.md
+        - name: สร้างพารามิเตอร์
+          href: paginated-reports-parameters.md
+        - name: เผยแพร่รายงานที่มีการแบ่งหน้า
+          href: paginated-reports-save-to-power-bi-service.md
 - name: Power BI สำหรับนักพัฒนา
   items:
     - name: นักพัฒนาสามารถทำอะไรกับ Power BI ได้บ้าง
