@@ -1,5 +1,5 @@
 ---
-title: ดูพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
+title: ดูพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI
 description: ในบทความนี้ คุณจะได้เรียนรู้วิธีการโต้ตอบกับพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: ea186b5fa3bbbe7968c386604066f91b90ec5821
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 100d8b5d25f7d844ea4f44d63a4d2cb9737f57a9
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61422221"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839512"
 ---
-# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>ดูพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
+# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>ดูพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI
 
 ในบทความนี้ คุณจะได้เรียนรู้วิธีการโต้ตอบกับพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI  พารามิเตอร์รายงานจะให้วิธีการกรองข้อมูลรายงาน พารามิเตอร์จะให้รายการค่าที่พร้อมใช้ และคุณสามารถเลือกได้หนึ่งค่าหรือหลายค่า บางครั้งพารามิเตอร์จะมีค่าเริ่มต้น และบางครั้งคุณต้องเลือกค่าก่อนที่คุณจะเห็นรายงาน  
 

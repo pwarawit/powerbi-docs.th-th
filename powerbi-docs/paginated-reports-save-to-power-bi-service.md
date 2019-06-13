@@ -1,5 +1,5 @@
 ---
-title: เผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI (ดูตัวอย่าง)
+title: เผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI
 description: ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีการเผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI โดยการอัปโหลดจากคอมพิวเตอร์ของคุณเอง
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 93b712d385b78ea806e57769da72bdf41fbaefc3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1e5f4a4fda8c6d11ead487ce2891e5c085463b75
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61424115"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839614"
 ---
-# <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>เผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI (ดูตัวอย่าง)
+# <a name="publish-a-paginated-report-to-the-power-bi-service"></a>เผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI
 
 ในบทความนี้ คุณจะได้เรียนรู้เกี่ยวกับการเผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI โดยการอัปโหลดจากคอมพิวเตอร์ของคุณเอง คุณสามารถอัปโหลดรายงานแบบแบ่งหน้าไปยัง "พื้นที่ทำงานของฉัน" หรือพื้นที่ทำงานอื่นได้ ตราบเท่าที่พื้นที่ทำงานนั้นอยู่ในความจุ Premium มองหาไอคอนรูปข้าวหลามตัด ![ไอคอนรูปข้าวหลามตัดของความจุ Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ถัดจากชื่อพื้นที่ทำงาน 
 
@@ -89,5 +89,5 @@ ms.locfileid: "61424115"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [ดูรายงานแบบแบ่งหน้าในบริการของ Power BI](paginated-reports-view-power-bi-service.md)
-- [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร (ตัวอย่าง)](paginated-reports-report-builder-power-bi.md)
+- [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](paginated-reports-report-builder-power-bi.md)
 

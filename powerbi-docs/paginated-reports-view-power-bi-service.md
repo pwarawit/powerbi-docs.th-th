@@ -1,5 +1,5 @@
 ---
-title: ดูรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
+title: ดูรายงานแบบแบ่งหน้าในบริการของ Power BI
 description: ในบทช่วยสอนนี้ คุณจะได้เรียนรู้เกี่ยวกับการดูรายงานแบบแบ่งหน้าในบริการของ Power BI
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 8a87cb292da1a1fb3f4fc3e14d569ad8c97c60b6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f80b13ccd1393e98199acbcaabfbf80ad63707c8
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769671"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839581"
 ---
-# <a name="view-a-paginated-report-in-the-power-bi-service-preview"></a>ดูรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
+# <a name="view-a-paginated-report-in-the-power-bi-service"></a>ดูรายงานแบบแบ่งหน้าในบริการของ Power BI
 
 ในบทความนี้ คุณจะได้เรียนรู้เกี่ยวกับการดูรายงานแบบแบ่งหน้าในบริการของ Power BI รายงานแบบแบ่งหน้าคือรายงานที่สร้างไว้ในตัวสร้างรายงาน และอัปโหลดไปยังพื้นที่ทำงานที่อยู่ในความจุพรีเมียม มองหาไอคอนรูปข้าวหลามตัด ![ไอคอนรูปข้าวหลามตัดของความจุ Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ถัดจากชื่อพื้นที่ทำงาน 
 
@@ -55,4 +55,4 @@ ms.locfileid: "64769671"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร (ตัวอย่าง)](paginated-reports-report-builder-power-bi.md)
+[รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](paginated-reports-report-builder-power-bi.md)
