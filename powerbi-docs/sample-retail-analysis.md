@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 04676ee789b90eb09cbed3bafb623e8e9b89e4e4
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61239625"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720874"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการวิเคราะห์ด้านการขายปลีก - Power BI: ชมการแนะนำ
 
@@ -164,6 +164,6 @@ ms.locfileid: "61239625"
 * [ดาวน์โหลดชุดเนื้อหาตัวอย่างการวิเคราะห์ร้านค้าปลีก](sample-tutorial-connect-to-the-samples.md)
 * [ดาวน์โหลดไฟล์ zip ของไฟล์ตัวอย่างทั้งหมด](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [ดาวน์โหลดเวิร์กบุ๊ก Excel สำหรับตัวอย่างนี้ Power BI](http://go.microsoft.com/fwlink/?LinkId=529778)    
-* [รับข้อมูล (สำหรับ Power BI)](service-get-data.md)    
-* [Power BI - แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)    
-* มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+* [รับข้อมูล(Power BI)](service-get-data.md)    
+* [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)    
+* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

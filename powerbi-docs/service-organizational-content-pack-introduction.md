@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f7e8d58e5fd738e5da678723ef239f5303be5070
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: da5a36454e52891df7906b444b29b4df2db44d7f
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61226112"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721194"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>บทนำชุดเนื้อหาองค์กรใน Power BI
 > [!NOTE]
@@ -75,6 +75,6 @@ ms.locfileid: "61226112"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [สร้างและเผยแพร่ชุดเนื้อหาองค์กร](service-organizational-content-pack-create-and-publish.md)
 * [สร้างและกระจายแอปฯใน Power BI](service-create-distribute-apps.md) 
-* [Power BI - แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
-* มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+* [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)
+* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

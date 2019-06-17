@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/10/2019
+ms.date: 05/31/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3bb7de9685a1e0fc9fa423328ad9e1e5faa53603
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dae93a2555101a42f072158f8536319783b3f973
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61305466"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809111"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>แหล่งข้อมูลที่สนับสนุนโดย DirectQuery Power BI
 
@@ -25,9 +25,10 @@ ms.locfileid: "61305466"
 
 * Amazon Redshift
 * AtScale (เบต้า)
+* ตัวสำรวจข้อมูลของ Azure
 * Azure HDInsight Spark
-* ฐานข้อมูล Azure SQL
-* คลังข้อมูล Azure SQL
+* [ฐานข้อมูล Azure SQL](service-azure-sql-database-with-direct-connect.md)
+* [คลังข้อมูล Azure SQL](service-azure-sql-data-warehouse-with-direct-connect.md)
 * Google BigQuery
 * คิวรีแบบโต้ตอบ HDInsight
 * ฐานข้อมูล IBM DB2
@@ -57,22 +58,39 @@ ms.locfileid: "61305466"
 
 | แหล่งที่มา | ต้องมีเกตเวย์หรือไม่? |
 | --- | --- |
-| เซิร์ฟเวอร์ SQL |ใช่ |
+| Amazon Redshift |ไม่ใช่ |
+| Azure HDInsight Spark (Beta) |ไม่ใช่ |
 | ฐานข้อมูล Azure SQL |ไม่ใช่ |
 | คลังข้อมูล Azure SQL |ไม่ใช่ |
-| SAP HANA |ใช่ |
-| ฐานข้อมูล Oracle |ใช่ |
-| ฐานข้อมูล Teradata |ใช่ |
-| Amazon Redshift |ไม่ใช่ |
-| Impala (รุ่น 2.x) |ใช่ |
-| Snowflake |ใช่ |
-| Spark (รุ่น Beta) (เวอร์ชัน 0.9 หรือสูงกว่า) |ใช่ |
-| Azure HDInsight Spark |ไม่ใช่ |
+| Google BigQuery |ไม่ใช่ |
 | IBM Netezza |ใช่ |
+| Impala (รุ่น 2.x) |ใช่ |
+| ฐานข้อมูล Oracle |ใช่ |
 | เซิร์ฟเวอร์แอปพลิเคชัน SAP Business Warehouse |ใช่ |
 | เซิร์ฟเวอร์ข้อความ SAP Business Warehouse |ยังไม่สนับสนุนใน**บริการ Power BI** |
-| Google BigQuery |ไม่ใช่ |
+| SAP HANA |ใช่ |
+| Snowflake |ใช่ |
+| Spark (รุ่น Beta) (เวอร์ชัน 0.9 หรือสูงกว่า) |ใช่ |
+| เซิร์ฟเวอร์ SQL |ใช่ |
+| ฐานข้อมูล Teradata |ใช่ |
 
+## <a name="single-sign-on-sso-for-directquery-sources"></a>การลงชื่อเข้าระบบครั้งเดียว (SSO) สำหรับแหล่งข้อมูล DirectQuery
+
+เมื่อเปิดใช้งานตัวเลือก SSO และผู้ใช้ของคุณจะเข้าถึงรายงานที่สร้างขึ้นบนยอดของแหล่งข้อมูล Power BI จะส่งข้อมูลประจำตัว Azure AD ที่รับรองความถูกต้องของผู้ใช้ในการคิวรีไปยังแหล่งข้อมูลเบื้องต้น ซึ่งจะช่วยให้ Power BI เป็นไปตามการตั้งค่าความปลอดภัยที่มีการกำหนดค่าในระดับแหล่งข้อมูล
+
+ตัวเลือก SSO จะมีผลต่อชุดข้อมูลทั้งหมดที่ใช้แหล่งข้อมูลนี้ แต่จะไม่มีผลต่อวิธีการรับรองความถูกต้องที่ใช้สำหรับสถานการณ์สมมติการนำเข้า แหล่งข้อมูลต่อไปนี้สนับสนุน SSO สำหรับการเชื่อมต่อผ่านทาง DirectQuery:
+
+- ฐานข้อมูล Azure SQL
+- คลังข้อมูล Azure SQL
+- Impala
+- SAP HANA
+- SAP BW
+- Spark
+- SQL Server
+- Teradata
+
+> [!Note]
+> ไม่รองรับ Azure Multi-Factor Authentication (MFA) ผู้ใช้ที่ต้องการใช้ SSO กับDirectQuery ต้องได้รับการยกเว้นจาก MFA
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ DirectQuery โปรดดูที่ทรัพยากรดังต่อไปนี้:

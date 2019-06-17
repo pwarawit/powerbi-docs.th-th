@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b0a6b3027e548becf56cc5f0d7036e35c9316cd4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a2db3f8c88231663ecb115c4609d3af177d96292
+ms.sourcegitcommit: 9da792d470dfe43dc6e15ddef5d471f3f6c50970
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187716"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66453782"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -78,7 +78,7 @@ ms.locfileid: "66187716"
 <br>โดย Wim Coorevits and Enrique Plaza Garcia
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
-**แนวทางปฏิบัติที่ดีที่สุดสำหรับการจัดการ Power BI Embedded วิเคราะห์สำหรับการปรับใช้แบบหลายผู้เช่า**
+**แนวทางปฏิบัติที่ดีที่สุดในการจัดการการวิเคราะห์ Power BI Embedded สำหรับการปรับใช้แบบหลายผู้เช่า**
 <br>โดย Nimrod Shalit
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
 
@@ -118,7 +118,8 @@ ms.locfileid: "66187716"
 <br>โดย Reid Havens
 <br>[ดูเดี๋ยวนี้](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
-### <a name="partners"></a>คู่ค้า ###
+### <a name="partner-solutions-series"></a>รายการชุดโซลูชันคู่ค้า ###
+[ดูรายการชุดนี้](https://info.microsoft.com/ww-landing-PartnerWebinarSeriesPage.html)
 
 **การบรรลุการได้รับประโยชน์ทั้งสองฝ่ายสำหรับผู้ผลิตและผู้ค้าปลีกผลิตภัณฑ์และสินค้าแก่ผู้บริโภค**
 <br>โดย Liz McCreesh จาก Thorogood

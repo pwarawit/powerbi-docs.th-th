@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9a99344438108d2f092220dfa1c66895355aeda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7157ddd66c651519f59eb964f5fcf95eb127943c
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61403019"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721451"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>แชร์แดชบอร์ด Power BI ที่เชื่อมโยงไปยังไฟล์ Excel ใน OneDrive
 ใน Power BI คุณสามารถ[เชื่อมต่อกับเวิร์กบุ๊ก Excel บน OneDrive for Business](service-excel-workbook-files.md)และปักหมุดไทล์ไปยังแดชบอร์ดจากเวิร์กบุ๊กนั้นได้ เมื่อคุณแชร์แดชบอร์ดนั้น หรือสร้างชุดเนื้อหาที่ประกอบด้วยแดชบอร์ดนั้น:
@@ -56,6 +56,6 @@ ms.locfileid: "61403019"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ปักหมุดไทล์ไปที่แดชบอร์ด Power BI จาก Excel](service-dashboard-pin-tile-from-excel.md)
-* [แนวคิดพื้นฐานของ power BI](consumer/end-user-basic-concepts.md)
+* [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
 * มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

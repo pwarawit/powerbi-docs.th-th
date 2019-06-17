@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 6c09392566805f2857c50784f16c0e3f9d4b5697
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 86fab3a760eb8bb12ed1955fd5bf357790090e0e
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61232524"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448338"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi-preview"></a>การรวม Azure Machine Learning ใน Power BI (ตัวอย่าง)
 
@@ -25,7 +25,7 @@ ms.locfileid: "61232524"
 
 ฟังก์ชันนี้จะได้รับการรองรับเฉพาะกระแสข้อมูล Power BI และ Power Query แบบออนไลน์ในบริการของ Power BI
 
-หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับกระแสข้อมูล โปรดดู [การเตรียมข้อมูลด้วยตนเองใน Power BI](service-dataflows-overview.md)
+หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับกระแสข้อมูล โปรดดู [การเตรียมข้อมูลด้วยตนเองใน Power BI](service-dataflows-overview.md) 
 
 หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ Azure Machine Learning โปรดดู:
 
@@ -36,8 +36,8 @@ ms.locfileid: "61232524"
 
 หากต้องการเข้าถึงแบบจำลอง Azure ML จาก Power BI ผู้ใช้จะต้องมีการสมัครใช้งาน Azure ที่มีการเข้าถึงแบบ **อ่าน**  นอกจากนี้:
 
-- แบบจำลอง Machine Learning Studio ต้องใช้การเข้าถึงแบบ **อ่าน** สำหรับบริการบนเว็บ Studio Machine Learning
-- แบบจำลองบริการ Machine Learning ต้องใช้การเข้าถึงแบบ **อ่าน** สำหรับบริการพื้นที่ทำงาน Studio Machine Learning
+- แบบจำลอง Machine Learning Studio ต้องใช้การเข้าถึงแบบ **อ่าน** สำหรับบริการบนเว็บ Studio Machine Learning 
+- แบบจำลองบริการ Machine Learning ต้องใช้การเข้าถึงแบบ **อ่าน** สำหรับบริการพื้นที่ทำงาน Studio Machine Learning 
 
 ขั้นตอนในบทความนี้จะอธิบายวิธีให้สิทธิ์ใช้งานแก่ผู้ใช้ Power BI ในการเข้าถึงแบบจำลองที่โฮสต์บนบริการ Azure ML เพื่อให้ผู้ใช้สามารถเข้าถึงแบบจำลองนี้เป็นฟังก์ชัน Power Query  โปรดดู [จัดการการเข้าถึง RBAC และพอร์ทัล Azure](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal) สำหรับรายละเอียดอื่นๆ
 
@@ -68,7 +68,14 @@ ms.locfileid: "61232524"
 
 นักวิทยาศาสตร์ข้อมูลใช้ Python เป็นหลักเพื่อพัฒนาหรือแม้กระทั่งปรับใช้ แบบจำลอง Machine Learning ของตนเองสำหรับแบบจำลองบริการ Machine Learning  ต่างจาก Machine Learning Studio ซึ่งช่วยให้งานการสร้างไฟล์ Schema สำหรับแบบจำลองเป็นไปโดยอัตโนมัติ ในกรณีของบริการ Machine Learning นักวิทยาศาสตร์ข้อมูลต้องสร้างไฟล์ Schema อย่างชัดเจนโดยใช้ Python
 
-ไฟล์ Schema นี้ต้องรวมอยู่ใน
+ไฟล์ Schema นี้ต้องอยู่ในบริการเว็บที่ปรับใช้สำหรับแบบจำลองบริการ Machine Learning หากต้องการสร้าง Schema สำหรับบริการเว็บโดยอัตโนมัติ คุณต้องใส่ตัวอย่างของอินพุท/เอาท์พุทในสคริปต์รายการสำหรับแบบจำลองที่ปรับใช้ โปรดดูที่หัวข้อย่อยเกี่ยวกับการสร้าง Schema ของ Swagger แบบอัตโนมัติ (ไม่บังคับ) ในแบบจำลองการปรับใช้ด้วยเอกสารบริการ Azure Machine Learning ลิงก์มีสคริปต์รายการตัวอย่างด้วยคำสั่งสำหรับการสร้าง Schema 
+
+โดยเฉพาะ ฟังก์ชัน *@input_schema* และ *@output_schema* ในสคริปต์รายการอ้างอิงค่ารูปแบบตัวอย่างอินพุทและเอาท์พุทในตัวแปร *input_sample*และ *output_sample* และใช้ตัวอย่างเหล่านี้เพื่อสร้างข้อกำหนด OpenAPI (Swagger) สำหรับบริการเว็บในระหว่างการปรับใช้งาน
+
+คำแนะนำเหล่านี้สำหรับการสร้าง Schema โดยการอัปเดตสคริปต์รายการจะต้องนำไปใช้กับแบบจำลองที่สร้างขึ้นโดยใช้การทดสอบการเรียนรู้ของเครื่องอัตโนมัติโดยใช้ Azure Machine Learning SDK
+
+> [!NOTE]
+> แบบจำลองที่สร้างขึ้นโดยใช้อินเทอร์เฟสการแสดงผลด้วยภาพของบริการ Machine Learning Azure (ดูตัวอย่าง) ปัจจุบันไม่รองรับการสร้าง Schema แต่จะรองรับในรุ่นต่อ ๆ มา 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>การเรียกแบบจำลอง Azure ML ใน Power BI
 
@@ -106,9 +113,9 @@ ms.locfileid: "61232524"
 
 คุณสามารถอ่านบทความเหล่านี้สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระแสข้อมูลได้:
 * [การสร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
-* [ใช้เอนทิตีที่มีการคำนวณใน Power BI Premium](service-dataflows-computed-entities-premium.md)
-* [ใช้ dataflows กับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
-* [ทรัพยากรสำหรับนักพัฒนาสำหรับ dataflows Power BI](service-dataflows-developer-resources.md)
+* [การใช้เอนทิตีที่คำนวณใน Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [การใช้กระแสข้อมูลกับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
+* [แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI](service-dataflows-developer-resources.md)
 * [ การรวมกระแสข้อมูลและ Azure Data Lake (ตัวอย่าง)](service-dataflows-azure-data-lake-integration.md)
 
 

@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f03f4933566a8c18510ef0ce07b71db61ecfa8fd
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5365c076b75d0989df8db15c1dc16f4e11bc3f09
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770603"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448389"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database พร้อม DirectQuery
 
@@ -42,28 +42,15 @@ ms.locfileid: "64770603"
 
 เมื่อต้องการเชื่อมต่อกับฐานข้อมูล SQL Azure ที่ใช้ DirectQuery คุณจะต้องใช้ Power BI Desktop แนวทางนี้เพิ่มความยืดหยุ่นและขีดความสามารถให้มากขึ้น รายงานที่สร้างขึ้นโดยใช้ Power BI Desktop จะสามารถเผยแพร่ไปยังบริการ Power BI ได้ คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อ[ฐานข้อมูล SQL Azure ที่ใช้ DirectQuery](desktop-use-directquery.md)ภายใน Power BI Desktop ได้
 
-## <a name="single-sign-on"></a>ลงชื่อเข้าระบบครั้งเดียว
-
-หลังจากที่คุณเผยแพร่ยังชุดข้อมูล Azure SQL DirectQuery ไปยังบริการแล้ว คุณสามารถอนุญาตให้ผู้ใช้งานของคุณลงชื่อเข้าระบบครั้งเดียว (SSO) ได้ผ่าน OAuth2 ของ Azure Active Directory (Azure AD)
-
-เมื่อต้องการเปิดใช้งาน SSO ไปที่การตั้งค่าสำหรับชุดข้อมูล เปิดแท็บ**แหล่งข้อมูล** แล้วเลือกกล่อง SSO
-
-![กำหนดค่ากล่องโต้ตอบ Azure SQL DQ](media/service-azure-sql-database-with-direct-connect/sso-dialog.png)
-
-เมื่อเปิดใช้งานตัวเลือก SSO และผู้ใช้ของคุณเข้าถึงรายงานที่สร้างขึ้นบนยอดของแหล่งข้อมูล Power BI จะส่งข้อมูลประจำตัวที่รับรองความถูกต้อง Azure AD ของผู้ใช้ในการสอบถามไปยังฐานข้อมูล Azure SQL ซึ่งจะช่วยให้ Power BI เป็นไปตามการตั้งค่าความปลอดภัยที่มีการกำหนดค่าในระดับแหล่งข้อมูล
-
-ตัวเลือก SSO จะมีผลต่อชุดข้อมูลทั้งหมดที่ใช้แหล่งข้อมูลนี้ แต่จะไม่มีผลต่อวิธีการรับรองความถูกต้องที่ใช้สำหรับสถานการณ์สมมติการนำเข้า
-
-> [!Note]
-> ไม่รองรับ Azure Multi-Factor Authentication (MFA) ผู้ใช้ที่ต้องการใช้ SSO กับ Azure SQL DirectQuery ต้องได้รับการยกเว้น MFA
-
 ## <a name="finding-parameter-values"></a>ค้นหาค่าพารามิเตอร์
 
-สามารถค้นหาชื่อเซิร์ฟเวอร์และชื่อฐานข้อมูลแบบเต็มของคุณได้ในพอร์ทัล Azure
+สามารถค้นหาชื่อเซิร์ฟเวอร์และชื่อฐานข้อมูลแบบเต็มของคุณได้ในพอร์ทัล Microsoft Azure
 
-![อัปเดพอร์ต Azure ใหม่](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
+![การอัปเดตพอร์ต Azure ใหม่](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
 
-![ปรับปรุงพอร์ทัล azure](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
+![การอัปเดตพอร์ทัล Azure](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

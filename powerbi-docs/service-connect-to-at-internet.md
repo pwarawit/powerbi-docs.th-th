@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5afb79f52c4717887ba16d9ca43f913ba3446627
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 41b390190f8ce3c071f790edcdf86f0e3bd4a0c2
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61178372"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721305"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>เชื่อมต่อกับ AT Internet Bridge ด้วย Power BI
 AT Internet ช่วยให้คุณสามารถแยกค่าใช้ทันทีจากข้อมูลของคุณโดยใช้แพลตฟอร์มการวิเคราะห์ดิจิทัลแบบครบวงจร นั่นคือ ชุดโปรแกรมวิเคราะห์ (Analytics Suit) ชุดเนื้อหา AT Internet Bridge สำหรับ Power BI มีข้อมูลสำหรับการเยี่ยมชม แหล่งที่มา การแปลเป็นภาษาท้องถิ่น และอุปกรณ์สำหรับไซต์ของคุณ
@@ -61,5 +61,5 @@ AT Internet ช่วยให้คุณสามารถแยกค่า�
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [Power BI คืออะไร](power-bi-overview.md)
 
-[Power BI แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
+[แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)
 

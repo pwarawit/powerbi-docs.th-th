@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a113cf75ae238b19cdc54b03ffc049bdcdfb8368
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0e523707caa38c808c777eb29bb8dcbdc6af5ebf
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61150342"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721209"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>เคล็ดลับสำหรับการออกแบบแดชบอร์ด Power BI ที่ยอดเยี่ยม
 หลังจากที่คุณสร้างแดชบอร์ด และเพิ่มไทล์บางตัวเข้าไป ให้คิดเกี่ยวกับวิธีการทำให้แดชบอร์ดของคุณไม่เพียงแค่สวยงามเท่านั้น แต่ยังทำงาน โดยทั่วไป ซึ่งหมายความว่า ทำข้อมูลที่สำคัญที่สุดออกให้โดดเด่น และทำให้สะอาด และเป็นระเบียบ
@@ -81,5 +81,5 @@ ms.locfileid: "61150342"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [สร้างแดชบอร์ดจากรายงาน](service-dashboard-create.md)  
-[Power BI แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)  
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+[แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)  
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

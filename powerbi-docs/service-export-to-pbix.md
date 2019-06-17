@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 5c42b633b3c8746d2e26656eb5310b1f74cb2500
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 296970466505f01ae9ad11f994fe2008563f4884
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61159837"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720202"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>ส่งออกรายงานจากบริการ Power BI ไปยังเดสก์ท็อป (ตัวอย่าง)
 ใน Power BI Desktop คุณสามารถส่งออก (นอกจากนี้ยังเรียกว่า*ดาวน์โหลด*) รายงานไปยังบริการ Power BI โดยการบันทึกรายงาน และเลือก**เผยแพร่**ได้ คุณสามารถส่งออกในทิศทางอื่นเช่น และดาวน์โหลดรายงานจากบริการ Power BI ลงในเดสก์ท็อปได้ นามสกุลสำหรับไฟล์ที่ถูกส่งออกในทิศทางใดก็ตามคือ *.pbix*
@@ -68,9 +68,9 @@ ms.locfileid: "61159837"
 นอกจากนี้ ต่อไปนี้คือบทความเพิ่มเติมที่สามารถช่วยให้คุณเรียนรู้วิธีการใช้**บริการ Power BI**:
 
 * [รายงานใน Power BI](consumer/end-user-reports.md)
-* [Power BI - แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
+* [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)
 
-เมื่อคุณได้ติดตั้ง **Power BI Desktop** เนื้อหาต่อไปนี้สามารถช่วยให้คุณเริ่มต้นและใช้งานได้อย่างรวดเร็ว:
+เมื่อคุณได้ติดตั้ง **Power BI Desktop** แล้ว เนื้อหาต่อไปนี้สามารถช่วยให้คุณเริ่มต้น และใช้งานอย่างรวดเร็ว:
 
 * [เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375108"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720338"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>บริการหลักพร้อมด้วย Power BI (ตัวอย่าง)
 
@@ -120,7 +120,7 @@ ms.locfileid: "66375108"
 
 5. เพิ่มบริการหลักเป็น**ผู้ดูแลระบบ**ในพื้นที่ทำงานใหม่ที่คุณสร้างขึ้น คุณสามารถจัดการงานนี้ผ่าน[API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)หรือด้วยบริการของ Power BI ได้
 
-    ![เพิ่มหลักเกณฑ์การบริการเป็นผู้ดูแลระบบพื้นที่ทำงาน](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![เพิ่มโครงร่างสำคัญของบริการในฐานะผู้ดูแลระบบไปยังพื้นที่ทำงาน](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. ในตอนนี้ เลือกเพื่อฝังเนื้อหาของคุณภายในแอปพลิเคชันตัวอย่าง หรือภายในแอปพลิเคชันของคุณเอง
 
@@ -168,17 +168,17 @@ ms.locfileid: "66375108"
 
 * บริการหลักเท่านั้นจะทำงานร่วมกับ[พื้นที่ทำงานแอปใหม่](../service-create-the-new-workspaces.md)
 * **ความจุเฉพาะของฉัน** ไม่ได้รับการสนับสนุนเมื่อใช้บริการหลัก
-* ความจุ Premium เฉพาะจำเป็นเมื่อย้ายไปยังการผลิต
+* ต้องใช้ความจุเฉพาะเมื่อย้ายไปยังการผลิต
 * คุณไม่สามารถลงชื่อเข้าใช้พอร์ทัล Power BI ด้วยบริการหลัก
 * คุณจำเป็นต้องมีสิทธิ์ของผู้ดูแลระบบ Power BI เพื่อเปิดใช้งานบริการหลักในการตั้งค่านักพัฒนาภายในพอร์ทัลผู้ดูแลระบบของ Power BI
 * คุณไม่สามารถติดตั้ง หรือจัดการเกตเวย์ข้อมูลภายในองค์กรโดยใช้บริการหลัก
 * แอปพลิเคชัน[แบบฝังตัวสำหรับองค์กรของคุณ](embed-sample-for-your-organization.md)ไม่สามารถใช้บริการหลักได้
 * [Dataflows](../service-dataflows-overview.md) การจัดการไม่ได้รับการสนับสนุน
-* บริการหลักในขณะนี้ไม่สนับสนุนการจัดการ Api ที่
+* ปัจจุบัน โครงร่างสำคัญของบริการไม่สนับสนุนผู้ดูแลระบบ APIs
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 * [ลงทะเบียนแอป](register-app.md)
 * [Power BI Embedded สำหรับลูกค้าของคุณ](embed-sample-for-customers.md)
 * [แอปพลิเคชันและออบเจ็กต์บริการหลักใน Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [ความปลอดภัยระดับแถวโดยใช้เกตเวย์ข้อมูลภายในองค์กร ด้วยบริการหลัก (ตัวอย่าง)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [ความปลอดภัยระดับแถวโดยใช้เกตเวย์ข้อมูลภายในองค์กรที่มีโครงร่างสำคัญของบริการ (ดูตัวอย่าง)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)

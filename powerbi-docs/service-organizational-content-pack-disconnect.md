@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4c9e6a925a783d810bc4d097ec18806c3d33d99
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 62bec222a3f948612db63c386e10c0afe9762bb4
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61226569"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721428"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>ลบการเชื่อมต่อของคุณกับชุดเนื้อหา Power BI ขององค์กร
 
@@ -36,6 +36,6 @@ ms.locfileid: "61226569"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [แนะนำชุดเนื้อหาองค์กร](service-organizational-content-pack-introduction.md) 
 * [สร้างและกระจายแอปฯใน Power BI](service-create-distribute-apps.md) 
-* [แนวคิดพื้นฐานของ power BI](consumer/end-user-basic-concepts.md)  
+* [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)  
 * มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

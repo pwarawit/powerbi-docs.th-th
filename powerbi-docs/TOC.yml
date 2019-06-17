@@ -703,6 +703,8 @@
               href: service-template-apps-tips.md
             - name: ติดตั้งและเผยแพร่แอปเทมเพลต
               href: service-template-apps-install-distribute.md
+            - name: อัปเดต ลบ และแยกแอปแม่แบบใน Power BI
+              href: service-template-update-delete-extract.md
         - name: การแก้ไขปัญหา
           items:
             - name: ลืมรหัสผ่านของคุณสำหรับ Power BI ใช่หรือไม่

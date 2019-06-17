@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ab0cbc7b4c882f08d20fdd00516fafcce96cb773
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c1b6f7434724540a9ad5b579030c3ed54b32abed
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61145169"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720581"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>แก้ไขหรือลบแดชบอร์ดไทล์
 
@@ -146,7 +146,7 @@ ms.locfileid: "61145169"
 
 [แดชบอร์ดใน Power BI](consumer/end-user-dashboards.md)
 
-[Power BI แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
+[แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
 

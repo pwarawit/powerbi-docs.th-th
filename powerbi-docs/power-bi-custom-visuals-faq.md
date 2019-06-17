@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0fcb3451249c121281790dca77bd6008c39deaef
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60977213"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66497925"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>คำถามที่ถามบ่อยเกี่ยวกับวิชวลแบบกำหนดเองของ Power BI
 
@@ -84,7 +84,7 @@ ms.locfileid: "60977213"
  
 ### <a name="how-long-does-it-take-to-certify-my-visual"></a>เวลาที่ใช้ในการรับรองวิชวลของฉันนานแค่ไหน
 
-สำหรับเวอร์ชันที่อัปเดตแล้ว อาจใช้เวลาถึง 2 สัปดาห์ สำหรับการยื่นคำขอใหม่ (ใบรับรองครั้งแรก) อาจใช้เวลาสูงสุด 3 สัปดาห์ 
+สำหรับเวอร์ชันที่อัปเดตแล้ว อาจใช้เวลาถึง 3 สัปดาห์ สำหรับการยื่นคำขอใหม่ (ใบรับรองครั้งแรก) อาจใช้เวลาสูงสุด 4 สัปดาห์ 
 
 ### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>กระบวนการออกใบรับรองต้องตรวจสอบให้แน่ใจว่าไม่มีการรั่วไหลของข้อมูลเกิดขึ้นใช่หรือไม่
 

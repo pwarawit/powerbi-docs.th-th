@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 285c22347f049e6b99cb97fa19efc6363d9b57cb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c4ca0332a68686feb22517ff6ac720650ce1c87d
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61163740"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721245"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>เชื่อมต่อกับ ServiceNow ด้วย Power BI สำหรับการรายงานปัญหา
 ServiceNow นำเสนอหลายผลิตภัณฑ์และการแก้ไขปัญหาที่รวมถึงทางด้านธุรกิจ การดำเนินการ และการจัดการ IT เพื่อปรับปรุงธุรกิจของคุณ ชุดเนื้อหานี้ประกอบด้วยหลายรายงานและข้อมูลเชิงลึกเกี่ยวกับการเปิด การแก้ไขล่าสุด และการปิดเหตุการณ์เมื่อเร็วๆนี้ของคุณ  
@@ -63,5 +63,5 @@ ServiceNow นำเสนอหลายผลิตภัณฑ์และก
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [Power BI คืออะไร](power-bi-overview.md)
 
-[Power BI แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
+[แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
 

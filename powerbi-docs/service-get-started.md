@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7eb30d00cdb03c0f0f879d0cb4b0ab152d1dae37
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61239075"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721504"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>บทช่วยสอน: เริ่มต้นใช้งานบริการ Power BI (app.powerbi.com)
 บทช่วยสอนนี้ช่วยให้คุณเริ่มต้นใช้งาน***บริการ Power BI*** สำหรับทำความเข้าใจว่าบริการ Power BI เหมาะสมกับข้อเสนอ Power BI อื่นๆ อย่างไร เราขอแนะนำให้คุณเริ่มต้นด้วยการอ่าน[Power BI คืออะไร](power-bi-overview.md)
@@ -53,7 +53,7 @@ ms.locfileid: "61239075"
 > 
 
 ## <a name="what-is-the-power-bi-service"></a>บริการ Power BI คืออะไร
-บริการ Microsoft Power BI ในบางครั้งเรียกว่า Power BI แบบออนไลน์หรือ app.powerbi.com Power BI ช่วยให้คุณรู้ข้อมูลทันสมัยที่สำคัญสำหรับคุณ  ด้วยบริการ Power BI ***แดชบอร์ด***ช่วยให้คุณสามารถเฝ้าระวังความเสี่ยงของธุรกิจของคุณได้  แดชบอร์ดของคุณแสดง***ไทล์***ที่คุณสามารถคลิกเพื่อเปิด***รายงาน***เพื่อดูเพิ่มเติม  เชื่อมต่อกับหลาย***ชุดข้อมูล***เมื่อต้องการนำข้อมูลเกี่ยวข้องทั้งหมดมารวมกันในที่เดียว ต้องการความช่วยเหลือในการทำความเข้าใจเกี่ยวกับบล็อกที่สร้าง Power BI หรือไม่  ดู[Power BI แนวคิดพื้นฐาน](consumer/end-user-basic-concepts.md)
+บริการ Microsoft Power BI ในบางครั้งเรียกว่า Power BI แบบออนไลน์หรือ app.powerbi.com Power BI ช่วยให้คุณรู้ข้อมูลทันสมัยที่สำคัญสำหรับคุณ  ด้วยบริการ Power BI ***แดชบอร์ด***ช่วยให้คุณสามารถเฝ้าระวังความเสี่ยงของธุรกิจของคุณได้  แดชบอร์ดของคุณแสดง***ไทล์***ที่คุณสามารถคลิกเพื่อเปิด***รายงาน***เพื่อดูเพิ่มเติม  เชื่อมต่อกับหลาย***ชุดข้อมูล***เมื่อต้องการนำข้อมูลเกี่ยวข้องทั้งหมดมารวมกันในที่เดียว ต้องการความช่วยเหลือในการทำความเข้าใจเกี่ยวกับบล็อกที่ประกอบเป็น Power BI หรือไม่?  ดู[แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)
 
 ถ้าคุณมีข้อมูลที่สำคัญในไฟล์ Excel หรือ CSV คุณสามารถสร้างแดชบอร์ด Power BI เพื่อรับข่าวสารที่ใดก็ได้ และแชร์ข้อมูลเชิงลึกกับผู้อื่น  คุณได้การสมัครใช้งานแอปพลิเคชัน SaaS เช่น Salesforce หรือไม่  เริ่มต้นด้วยการเชื่อมต่อกับ Salesforce เพื่อสร้างแดชบอร์ดโดยอัตโนมัติจากข้อมูลนั้น หรือ[ดูแอป SaaS อื่น ๆ ทั้งหมด](service-get-data.md)ที่คุณสามารถเชื่อมต่อได้ ถ้าคุณเป็นส่วนหนึ่งขององค์กร ให้พิจารณาว่า[apps](service-create-distribute-apps.md)ใดเคยเผยแพร่ให้คุณหรือไม่
 

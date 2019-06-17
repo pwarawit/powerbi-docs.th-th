@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 896e58b95f253c403bf7cd4bc3e1c069b3628f69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69b40b81677de8af259f9c8ce871c39f5303c09a
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770245"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448436"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse พร้อม DirectQuery
 
@@ -40,7 +40,7 @@ Azure SQL Data Warehouse พร้อม DirectQuery ช่วยให้คุ
 
 การเคลื่อนย้ายข้อมูลระหว่าง SQL Data Warehouse กับ Power BI ด้วยวิธีที่ง่ายที่สุดคือการใช้ปุ่ม **เปิดใน Power BI**ภายในพอร์ทัล Microsoft Azure ปุ่มนี้ช่วยให้คุณสามารถเริ่มสร้างแดชบอร์ดใหม่ใน Power BI ได้อย่างราบรื่น
 
-1. เมื่อต้องการเริ่มใช้งาน ให้ไปยังอินสแตนซ์ SQL Data Warehouse ในพอร์ทัล Microsoft Azure โปรดสังเกตว่ามีเฉพาะ SQL Data Warehouse เท่านั้นที่ปรากฏในพอร์ทัล Azure Preview ในขณะนี้
+1. เมื่อต้องการเริ่มใช้งาน ให้ไปยังอินสแตนซ์ SQL Data Warehouse ในพอร์ทัล Microsoft Azure โปรดสังเกตว่ามีเฉพาะ SQL Data Warehouse เท่านั้นที่ปรากฏในพอร์ทัล Azure ในขณะนี้
 
 2. คลิกที่ปุ่ม**เปิดใน Power BI**
 
@@ -64,9 +64,9 @@ Azure SQL Data Warehouse พร้อม DirectQuery ช่วยให้คุ
 
 3. เลือก**SQL Data Warehouse** \> **เชื่อมต่อ**
 
-    ![เชื่อมต่อ DW SQL azure โดยตรง](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
+    ![Azure SQL DW ที่มีการเชื่อมต่อโดยตรง](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 
-4. ใส่ข้อมูลที่จำเป็นเพื่อเชื่อมต่อ ส่วน**ค้นหาพารามิเตอร์**ที่ด้านล่างแสดงให้เห็นว่าข้อมูลนี้ที่อยู่ในพอร์ทัล Azure ของคุณอยู่ที่ตำแหน่งใด
+4. ใส่ข้อมูลที่จำเป็นเพื่อเชื่อมต่อ หัวข้อ**การค้นหาพารามิเตอร์**ที่ด้านล่างแสดงให้เห็นว่าข้อมูลนี้อยู่ในตำแหน่งใดของพอร์ทัล Azure
 
     ![ชื่อเซิร์ฟเวอร์](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
 
@@ -87,12 +87,14 @@ Azure SQL Data Warehouse พร้อม DirectQuery ช่วยให้คุ
 
 ## <a name="finding-parameter-values"></a>ค้นหาค่าพารามิเตอร์
 
-สามารถค้นหาชื่อเซิร์ฟเวอร์และชื่อฐานข้อมูลแบบเต็มของคุณได้ในพอร์ทัล Microsoft Azure โปรดสังเกตว่ามีเฉพาะ SQL Data Warehouse เท่านั้นที่ปรากฏในพอร์ทัล Azure Preview ในขณะนี้
+สามารถค้นหาชื่อเซิร์ฟเวอร์และชื่อฐานข้อมูลแบบเต็มของคุณได้ในพอร์ทัล Microsoft Azure โปรดสังเกตว่ามีเฉพาะ SQL Data Warehouse เท่านั้นที่ปรากฏในพอร์ทัล Azure ในขณะนี้
 
 ![พอร์ทัล Azure](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 > [!NOTE]
 > ถ้าผู้เช่า Power BI ของคุณอยู่ในภูมิภาคเดียวกันกับ Azure SQL Data Warehouse จะไม่มีค่าธรรมเนียมขาออก คุณสามารถค้นหาตำแหน่งที่ผู้เช่า Power BI ของคุณอยู่โดยใช้[คำแนะนำเหล่านี้](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located)ได้
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
