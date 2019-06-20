@@ -106,6 +106,8 @@
       items:
         - name: อภิธานศัพท์และคำศัพท์
           href: end-user-glossary.md
+        - name: คำถามที่ถามบ่อย
+          href: end-user-faq.md
         - name: เบราว์เซอร์ทีรองรับ
           href: end-user-browsers.md
         - name: ชนิดของข้อมูลเชิงลึกด่วนที่ได้รับการสนับสนุนโดย Power BI
