@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750988"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389554"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -23,10 +23,6 @@ ms.locfileid: "66750988"
 ## <a name="upcoming-webinars"></a>สัมมนาผ่านเว็บที่กำลังมาถึง
 
 ลงทะเบียนเพื่อรับข่าวสารจากผู้เชี่ยวชาญ Power BI และมีส่วนร่วมในเซสชันการถามตอบแบบออนไลน์
-
-**เรียกใช้ Microsoft บน Power BI: การใช้ Power BI ใน Modern Treasury**
-<br>โดย Pankaj Gudimella และ Guru Kirthigavasan
-<br>[ลงทะเบียนเพื่อดูในวันที่ 25 มิถุนายน เวลา 10:00 – 11:00 น. ตามเวลา PST](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Power BI: วิธีการรับข้อมูลเชิงลึกจากข้อมูล HR เกี่ยวกับวันทำงานของคุณ**
 <br>โดย Iman Eftekhari, Julia Paton จาก Agile Analytics และ Shahram Karimi จาก QBE Insurance
@@ -61,6 +57,10 @@ ms.locfileid: "66750988"
 **Microsoft ทำงานบน Power BI - การวางแผนทางการเงินและการวิเคราะห์ทำได้ง่าย**
 <br>โดย Cory Hrncirik และ Miguel Martinez
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**เรียกใช้ Microsoft บน Power BI: การใช้ Power BI ใน Modern Treasury**
+<br>โดย Pankaj Gudimella และ Guru Kirthigavasan
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **เพิ่มประสิทธิภาพแอปพลิเคชันของคุณโดยใช้ Power BI JavaScript API**
 <br>โดย Nimrod Shalit
@@ -141,17 +141,9 @@ ms.locfileid: "66750988"
 <br>โดย Stephen Cracknell และ Stuart Macanliss จากสหรัฐอเมริกาทางแพทย์ทางด้าน IT
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
-**เพิ่มประสิทธิภาพ BI ของคุณ ด้วยความอัจฉริยะด้านตำแหน่งที่ตั้ง**
-<br>โดยสก็อต บอลล์ จาก Esri และ Enrique Plaza จาก Microsoft
-<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
-
 **ข่าวกรองที่นำไปใช้สำหรับการขายและบริการ**
 <br>โดย Bobrin กระจายจาก Avanade
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
-
-**พฤติกรรม 5 ประการของภัณฑารักษ์ที่มีแนวโน้มประสบความสำเร็จ - Rohit Bhargava**
-<br>โดย Rohit Bhargava จาก Non-Obvious
-<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **ผู้ผลิต: อุตสาหกรรมของคุณจะดำเนินการตามการแปลงแบบดิจิทัล - รักษาความเป็นผู้นำ โดยใช้ประโยชน์จากการวิเคราะห์เมื่อต้องการขยายผลกำไรให้เติบโตยิ่งขึ้น**
 <br>โดย Thompson "นพดล"จากระยะขอบสีน้ำเงินและ Pastor Jim จาก กลุ่ม Fastener Elgin
@@ -160,6 +152,14 @@ ms.locfileid: "66750988"
 **แสดงชุดข้อมูลสาธารณะ หรือส่วนตัว ด้วยตัวเชื่อมต่อใหม่ Power BI และ data.world**
 <br>โดยแพทริก McGarry และ Martinez มิกูเอล
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
+**เพิ่มประสิทธิภาพ BI ของคุณ ด้วยความอัจฉริยะด้านตำแหน่งที่ตั้ง**
+<br>โดยสก็อต บอลล์ จาก Esri และ Enrique Plaza จาก Microsoft
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
+
+**พฤติกรรม 5 ประการของภัณฑารักษ์ที่มีแนวโน้มประสบความสำเร็จ - Rohit Bhargava**
+<br>โดย Rohit Bhargava จาก Non-Obvious
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 ### <a name="community"></a>ชุมชน ###
 
