@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 083d78552c124c3a53d669357678fb473dfcd5f2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0a80a75765d6e25f42163953e28b544171e8fdb2
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514554"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408337"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>การแก้ไขปัญหาการวิเคราะห์ใน Excel
+
 อาจมีบางครั้งที่เมื่อคุณใช้การวิเคราะห์ใน Excel คุณได้รับผลลัพธ์ที่ไม่คาดคิดหรือลักษณะการทำงานไม่ทำงานตามที่คุณคาดไว้ หน้านี้มีโซลูชันสำหรับปัญหาทั่วไปเมื่อใช้การวิเคราะห์ใน Excel
 
 > [!NOTE]
@@ -57,8 +58,6 @@ ms.locfileid: "65514554"
 ถ้าไลบรารีลูกค้าสำหรับผู้ให้บริการ Excel OLE DB ของคุณมีข้อมูลล่าสุด คุณจะเห็นกล่องโต้ตอบที่มีลักษณะดังต่อไปนี้:
 
 ![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
-
-C:\Users\davidi\Desktop\powerbi-content-pr\articles\media\powerbi-desktop-troubleshooting-analyze-in-excel
 
 อีกวิธีหนึ่งคือ ถ้าคุณกำลังติดตั้งเวอร์ชันที่ใหม่กว่าเวอร์ชันบนคอมพิวเตอร์ของคุณ กล่องโต้ตอบต่อไปนี้ปรากฏขึ้น:
 
