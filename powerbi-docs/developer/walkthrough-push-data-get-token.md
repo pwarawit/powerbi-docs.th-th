@@ -1,5 +1,5 @@
 ---
-title: รับโทเค็นการเข้าถึงการรับรองความถูกต้อง
+title: รับโทเค็นการเข้าใช้การรับรองความถูกต้อง
 description: คำแนะนำการส่งข้อมูล - รับโทเค็นการเข้าถึงการรับรองความถูกต้อง
 author: rkarlin
 ms.author: rkarlin
@@ -8,42 +8,49 @@ ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 4a0b0f5e7d697c137da343576d05fbcc91b4a4f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 05/29/2019
+ms.openlocfilehash: 5cb741d194d787014fec39f963e19d04de59a668
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710358"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809098"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>ขั้นตอนที่ 2: รับโทเค็นการเข้าใช้การรับรองความถูกต้อง
 
-บทความนี้เป็นส่วนหนึ่งของคำแนะนำทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
+บทความนี้คือ ขั้นตอนที่สองในชุด[พุชข้อมูลลงในชุดข้อมูล Power BI](walkthrough-push-data.md)
 
-ใน**ขั้นตอนที่ 1**เป็นขั้นตอนของการส่งข้อมูลลงในชุดข้อมูล[ลงทะเบียนแอปกับ Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)คุณลงทะเบียนแอปไคลเอ็นต์ใน Azure AD ในขั้นตอนนี้ คุณจะได้รับโทเค็นการเข้าถึงการรับรองความถูกต้อง แอป Power BI จะรวมกับ**Azure AD**เพื่อให้สามารถเข้าสู่ระบบความปลอดภัยและการตรวจสอบสำหรับแอปของคุณ คุณใช้โทเค็นเพื่อรับรองความถูกต้องในการเข้าถึง**Azure AD**และเพื่อเข้าถึงแหล่งข้อมูลของ Power BI
-
-นี่คือวิธีการรับโทเค็นการเข้าถึงการรับรองความถูกต้อง
+ในขั้นตอนที่ 1 คุณ[ได้ลงทะเบียนแอปไคลเอ็นต์ใน Azure AD แล้ว](walkthrough-push-data-register-app-with-azure-ad.md) ในขั้นตอนนี้ คุณจะได้รับโทเค็นการเข้าถึงการรับรองความถูกต้อง แอป Power BI จะรวมกับ Azure AD Directory เพื่อให้สามารถเข้าสู่ระบบได้อย่างปลอดภัยรวมถึงการตรวจสอบสำหรับแอปของคุณ แอปของคุณใช้โทเค็นเพื่อรับรองความถูกต้องในการเข้าถึง Azure AD และเพื่อเข้าถึงแหล่งข้อมูลของ Power BI
 
 ## <a name="get-an-authentication-access-token"></a>รับโทเค็นการเข้าใช้การรับรองความถูกต้อง
 
-> **หมายเหตุ**: ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่า คุณดำเนินตามขั้นตอนก่อนหน้านี้ในการฝึกปฏิบัติ[พุชข้อมูลลงในชุดข้อมูล](walkthrough-push-data.md)แล้ว
+ก่อนที่จะเริ่ม ตรวจสอบให้แน่ใจว่าคุณได้เสร็จสิ้น[ขั้นตอนก่อนหน้า](walkthrough-push-data-register-app-with-azure-ad.md)ในการ[พุชข้อมูลลงในชุดของชุดข้อมูล Power BI](walkthrough-push-data.md) 
 
-1. ใน Visual Studio (2015 หรือใหม่กว่า), สร้างเป็น**แอปพลิเคชันคอนโซล**โครงการ
-2. ติดตั้ง[ไลบรารีรับรองความถูกต้อง AD Azure สำหรับแพคเกจ .NET NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) ใช้แพคเกจนี้ หากคุณต้องการรับโทเค็นรักษาความปลอดภัยการรับรองความถูกต้องในแอป .NET นี่คือวิธีการติดตั้งแพคเกจ:
+ขั้นตอนนี้จำเป็นต้องใช้ Visual Studio 2015 ขึ้นไป
 
-     a. ใน Visual Studio (2015 หรือใหม่กว่า), เลือก**เครื่องมือ** > **Manager แพคเกจ NuGet** > **คอนโซล Manager แพคเกจ**
+1. สร้างโครงการ **แอปพลิเคชันคอนโซล**C# ใหม่ใน Studio Visual 2015
 
-     b. ใน**คอนโซลตัวจัดการแพคเกจ**ใส่แพคเกจติดตั้ง Microsoft.IdentityModel.Clients.ActiveDirectory -รุ่น 2.21.301221612.
-3. เพิ่มรหัสด้านล่างลงในคลาสโปรแกรม {...}
-4. แทนที่ "{ClientID }" ด้วย**ID ไคลเอ็นต์**ที่คุณได้รับเมื่อคุณลงทะเบียนแอป ดู[การลงทะเบียนแอปกับ Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)
-5. หลังจากติดตั้งแพคเกจ Microsoft.IdentityModel.Clients.ActiveDirectory แล้ว เพิ่ม**การใช้ Microsoft.IdentityModel.Clients.ActiveDirectory;** ลงใน Program.cs
-6. เรียกใช้แอปคอนโซล และเข้าสู่บัญชี Power BI ของคุณ คุณจะเห็นสตริงโทเค็นในหน้าต่างคอนโซล
+2. ติดตั้ง[ไลบรารีรับรองความถูกต้อง AD Azure สำหรับแพคเกจ .NET NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) แอป .Net ของคุณต้องการแพคเกจนี้เพื่อรับโทเค็นรักษาความปลอดภัยการรับรองความถูกต้อง 
+
+     a. เลือก**เครื่องมือ** > **ตัวจัดการแพคเกจ NuGet** > **คอนโซลตัวจัดการแพคเกจ**
+
+     b. ป้อน **Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612**
+
+     c. ใน Program.cs เพิ่ม`using Microsoft.IdentityModel.Clients.ActiveDirectory;`
+
+3. เพิ่มตัวอย่างรหัสที่แสดงขึ้นหลังจากขั้นตอนเหล่านี้ลงใน Program.cs
+
+4. แทนที่ "{ClientID }" ด้วย**ไคลเอ็นต์ ID** ที่คุณได้ใน[บทความชุดก่อนหน้า](walkthrough-push-data-register-app-with-azure-ad.md)เมื่อคุณลงทะเบียนแอปของคุณ
+
+5. เรียกใช้แอปคอนโซล และลงชื่อเข้าใช้บัญชี Power BI ของคุณ 
+
+   สตริงโทเค็นควรปรากฏในหน้าต่างคอนโซล
 
 **ตัวอย่างรหัสเพื่อรับโทเค็นรักษาความปลอดภัยการรับรองความถูกต้อง**
 
 เพิ่มรหัสนี้ลงในโปรแกรม {...}
 
-* ตัวแปรโทเค็นสำหรับเรียกใช้การดำเนินการ:
+* ตัวแปรโทเค็นสำหรับเรียกใช้การดำเนินการ: 
   
   ```csharp
   private static string token = string.Empty;
@@ -104,13 +111,10 @@ ms.locfileid: "65710358"
        #endregion
 ```
 
-หลังจากที่คุณได้รับโทเค็นรับรองความถูกต้อง คุณสามารถเรียกการดำเนินการ Power BI ต่างๆได้ ขั้นตอนถัดไปแสดงวิธีการเรียกใช้การดำเนินการ [โพสต์ชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) เพื่อสร้างชุดข้อมูลให้สามารถพุชข้อมูลลงในแดชบอร์ด
+หลังจากที่คุณได้รับโทเค็นรับรองความถูกต้อง คุณสามารถเรียกการดำเนินการ Power BI ต่างๆได้
 
-ขั้นตอนถัดไปแสดงวิธีการ[สร้างชุดข้อมูลใน Power BI](walkthrough-push-data-create-dataset.md)
+บทความถัดไปในชุดนี้แสดงถึงวิธีการ[สร้างชุดข้อมูลใน Power BI](walkthrough-push-data-create-dataset.md)
 
-ด้านล่างนี้คือ[รายการรหัสที่เสร็จสมบูรณ์](#code)
-
-<a name="code"/>
 
 ## <a name="complete-code-listing"></a>รายการรหัสเสร็จสมบูรณ์
 
@@ -175,14 +179,13 @@ namespace walkthrough_push_data
 }
 ```
 
-[ขั้นตอนถัดไป >](walkthrough-push-data-create-dataset.md)
+
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[สร้างชุดข้อมูลใน Power BI](walkthrough-push-data-create-dataset.md)  
-[ลงทะเบียนแอปกับ Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)  
-[ไลบรารีรับรองความถูกต้อง AD azure สำหรับแพคเกจ .NET NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
-[ส่งข้อมูลลงในชุดข้อมูล Power BI](walkthrough-push-data.md)  
+[บทความถัดไปในชุดนี้ > สร้างชุดข้อมูลใน Power BI](walkthrough-push-data-create-dataset.md)
+
 [ภาพรวมของ Power BI REST API](overview-of-power-bi-rest-api.md)  
-[การอ้างอิง Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
-คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+[Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/)  
+
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

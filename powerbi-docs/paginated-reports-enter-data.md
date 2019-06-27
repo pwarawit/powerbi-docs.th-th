@@ -1,5 +1,5 @@
 ---
-title: ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรงในตัวสร้างรายงาน (ดูตัวอย่าง)
+title: ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรงในตัวสร้างรายงาน
 description: ในบทความน ี้คุณจะเห็นว่าคุณสามารถป้อนข้อมูลลงในรายงานแบบแบ่งหน้าในตัวสร้างรายงานโดยตรงได้อย่างไร
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/19/2018
-ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: fd000ffd0d47935f36e72f6d0000d548623edf0a
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61424547"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839100"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรงในตัวสร้างรายงาน (ดูตัวอย่าง) - Power BI
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรงในตัวสร้างรายงาน - Power BI
 
 ในบทความนี้ คุณจะเรียนรู้เกี่ยวกับคุณลักษณะในตัวสร้างรายงาน SQL Server 2016 เวอร์ชันใหม่ซึ่งช่วยให้คุณสามารถป้อนข้อมูลลงในรายงาน RDL เป็นชุดข้อมูลแบบฝังตัวได้โดยตรง  คุณลักษณะนี้คล้ายกับ Power BI Desktop คุณสามารถพิมพ์ข้อมูลลงในชุดข้อมูลในรายงานได้โดยตรง หรือวางจากโปรแกรมอื่น เช่น Microsoft Excel หลังจากที่คุณสร้างชุดข้อมูลโดยการป้อนข้อมูล คุณสามารถใช้ข้อมูลนี้ได้เช่นเดียวกับข้อมูลแบบฝังตัวอื่น ๆ ที่คุณสร้างขึ้น นอกจากนี้คุณยังสามารถเพิ่มตารางมากกว่าหนึ่งตารางและใช้ตารางหนึ่งเป็นตัวกรองตารางอื่นก็ได้ คุณลักษณะนี้มีประโยชน์อย่างยิ่งสำหรับชุดข้อมูลขนาดเล็กแบบคงที่ซึ่งคุณอาจต้องใช้ในรายงานของคุณ เช่น พารามิเตอร์ของรายงาน
  
@@ -76,7 +76,7 @@ ms.locfileid: "61424547"
 
 ## <a name="upload-the-paginated-report-to-the-power-bi-service"></a>อัปโหลดรายงานแบบแบ่งหน้าไปยังบริการของ Power BI
 
-ขณะนี้รายงานแบบแบ่งหน้าได้รับการสนับสนุนในบริการ BI Power ในการดูตัวอย่างแล้ว คุณสามารถอัปโหลดรายงานแบบแบ่งหน้าของคุณไปยังความจุ Premium โปรดดู [อัปโหลดรายงานแบบแบ่งหน้า](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report) สำหรับรายละเอียด
+ขณะนี้รายงานแบบแบ่งหน้าได้รับการสนับสนุนในบริการของ Power BI คุณสามารถอัปโหลดรายงานแบบแบ่งหน้าของคุณไปยังความจุพรีเมียม โปรดดู [อัปโหลดรายงานแบบแบ่งหน้า](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report) สำหรับรายละเอียด
 
 ## <a name="upload-the-paginated-report-to-a-report-server"></a>อัปโหลดรายงานแบบแบ่งหน้าไปยังเซิร์ฟเวอร์รายงาน
 
@@ -98,5 +98,5 @@ ms.locfileid: "61424547"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-- [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร (ตัวอย่าง)](paginated-reports-report-builder-power-bi.md)
+- [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](paginated-reports-report-builder-power-bi.md)
 - [เซิร์ฟเวอร์รายงาน Power BI คืออะไร](report-server/get-started.md)

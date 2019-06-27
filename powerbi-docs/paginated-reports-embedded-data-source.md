@@ -1,5 +1,5 @@
 ---
-title: แหล่งข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
+title: แหล่งข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI
 description: ในบทความนี้ คุณจะได้เรียนรู้วิธีการสร้างและปรับเปลี่ยนแหล่งข้อมูลแบบฝังตัวในรายงานแบบแบ่งหน้า ในบริการของ Power BI
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 05/16/2019
-ms.openlocfilehash: 4dd9ad935a9f7b286aa64d977a78364f2aed0e0f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: 7b687fd67f844e000811ae00a53772ab9403ab90
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853383"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66838925"
 ---
-# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>สร้างแหล่งข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
+# <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>สร้างแหล่งข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI
 
 ในบทความนี้ คุณจะได้เรียนรู้วิธีการสร้างและปรับเปลี่ยนแหล่งข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI คุณอาจกำหนดแหล่งข้อมูลแบบฝังตัวได้ในรายงาน และใช้เฉพาะในรายงานนั้น ในตอนนี้ รายงานแบบแบ่งหน้าที่เผยแพร่ไปยังบริการของ Power BI ต้องใช้ชุดข้อมูลแบบฝังตัวและแหล่งข้อมูลแบบฝังตัว และสามารถเชื่อมต่อกับแหล่งข้อมูลเหล่านี้ได้:
 
@@ -26,16 +26,18 @@ ms.locfileid: "65853383"
 - Oracle 
 - Teradata 
 
-สำหรับแหล่งข้อมูลเหล่านี้ ใช้[เชื่อมต่อ SQL Server Analysis Services](service-premium-connect-tools.md)ตัวเลือก:
+สำหรับแหล่งข้อมูลต่อไปนี้ ให้ใช้ตัวเลือก[การเชื่อมต่อ SQL Server Analysis Services](service-premium-connect-tools.md):
 
 - Azure Analysis Services
-- ชุดข้อมูลที่ power BI Premium
+- ชุดข้อมูล Power BI Premium
 
-รายงานแบบแบ่งหน้าจะเชื่อมต่อกับแหล่งข้อมูลในองค์กรโดยใช้เกตเวย์ คุณสามารถตั้งค่าเกตเวย์ได้หลังจากที่เผยแพร่รายงานไปยังบริการของ Power BI แล้ว เรียนรู้เพิ่มเติมเกี่ยวกับ [เกตเวย์ของ Power BI](service-gateway-getting-started.md) 
+รายงานแบบแบ่งหน้าจะเชื่อมต่อกับแหล่งข้อมูลในองค์กรโดยใช้[เกตเวย์ของ Power BI](service-gateway-getting-started.md) คุณสามารถตั้งค่าเกตเวย์ได้หลังจากที่เผยแพร่รายงานไปยังบริการของ Power BI แล้ว
+
+ดู[ข้อมูลรายงานในตัวสร้างรายงาน Power BI](report-builder-data.md) สำหรับรายละเอียดเพิ่มเติม
 
 ## <a name="create-an-embedded-data-source"></a>สร้างแหล่งข้อมูลแบบฝังตัว
   
-1. เปิดตัวสร้างรายงาน BI Power
+1. เกิดตัวสร้างรายงาน Power BI
 
 1. ที่แถบเครื่องมือในแผงข้อมูลรายงาน ให้คุณเลือก**แหล่งข้อมูล** > **ใหม่** กล่องโต้ตอบ**คุณสมบัติแหล่งข้อมูล** จะเปิดขึ้น
 
@@ -68,4 +70,4 @@ ms.locfileid: "65853383"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [สร้างชุดข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI](paginated-reports-create-embedded-dataset.md)
-- [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร (ตัวอย่าง)](paginated-reports-report-builder-power-bi.md)
+- [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](paginated-reports-report-builder-power-bi.md)

@@ -1,5 +1,5 @@
 ---
-title: การรวม Azure Machine Learning ใน Power BI (ตัวอย่าง)
+title: การรวม Azure Machine Learning ใน Power BI
 description: เรียนรู้วิธีใช้ Machine Learning ด้วย Power BI
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 86fab3a760eb8bb12ed1955fd5bf357790090e0e
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 10ee974b73372fb2243febdcb4431b5decebdf4b
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448338"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823485"
 ---
-# <a name="azure-machine-learning-integration-in-power-bi-preview"></a>การรวม Azure Machine Learning ใน Power BI (ตัวอย่าง)
+# <a name="azure-machine-learning-integration-in-power-bi"></a>การรวม Azure Machine Learning ใน Power BI
 
 องค์กรมากมายใช้แบบจำลอง **Machine Learning** เพื่อข้อมูลเชิงลึกและการคาดการณ์เกี่ยวกับธุรกิจของตนเองที่ดีกว่า ความสามารถในการแสดงผลด้วยภาพจากแบบจำลองเหล่านี้ในรายงานและแดชบอร์ดรวมถึงการวิเคราะห์อื่นๆ ของคุณสามารถช่วยเผยแพร่ข้อมูลเชิงลึกเหล่านี้ให้แก่ผู้ใช้ทางธุรกิจที่ต้องการมากที่สุดได้  ขณะนี้ Power BI ช่วยให้การรวมข้อมูลเชิงลึกจากแบบจำลองที่โฮสต์บนบริการ Azure Machine Learning โดยใช้ลักษณะการชี้และคลิกโดยตรงได้อย่างง่ายดาย
 
@@ -25,7 +25,7 @@ ms.locfileid: "66448338"
 
 ฟังก์ชันนี้จะได้รับการรองรับเฉพาะกระแสข้อมูล Power BI และ Power Query แบบออนไลน์ในบริการของ Power BI
 
-หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับกระแสข้อมูล โปรดดู [การเตรียมข้อมูลด้วยตนเองใน Power BI](service-dataflows-overview.md) 
+หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับกระแสข้อมูล โปรดดู [การเตรียมข้อมูลด้วยตนเองใน Power BI](service-dataflows-overview.md)
 
 หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ Azure Machine Learning โปรดดู:
 
@@ -36,8 +36,8 @@ ms.locfileid: "66448338"
 
 หากต้องการเข้าถึงแบบจำลอง Azure ML จาก Power BI ผู้ใช้จะต้องมีการสมัครใช้งาน Azure ที่มีการเข้าถึงแบบ **อ่าน**  นอกจากนี้:
 
-- แบบจำลอง Machine Learning Studio ต้องใช้การเข้าถึงแบบ **อ่าน** สำหรับบริการบนเว็บ Studio Machine Learning 
-- แบบจำลองบริการ Machine Learning ต้องใช้การเข้าถึงแบบ **อ่าน** สำหรับบริการพื้นที่ทำงาน Studio Machine Learning 
+- แบบจำลอง Machine Learning Studio ต้องใช้การเข้าถึงแบบ **อ่าน** สำหรับบริการบนเว็บ Studio Machine Learning
+- แบบจำลองบริการ Machine Learning ต้องใช้การเข้าถึงแบบ **อ่าน** สำหรับบริการพื้นที่ทำงาน Studio Machine Learning
 
 ขั้นตอนในบทความนี้จะอธิบายวิธีให้สิทธิ์ใช้งานแก่ผู้ใช้ Power BI ในการเข้าถึงแบบจำลองที่โฮสต์บนบริการ Azure ML เพื่อให้ผู้ใช้สามารถเข้าถึงแบบจำลองนี้เป็นฟังก์ชัน Power Query  โปรดดู [จัดการการเข้าถึง RBAC และพอร์ทัล Azure](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal) สำหรับรายละเอียดอื่นๆ
 
@@ -75,7 +75,7 @@ ms.locfileid: "66448338"
 คำแนะนำเหล่านี้สำหรับการสร้าง Schema โดยการอัปเดตสคริปต์รายการจะต้องนำไปใช้กับแบบจำลองที่สร้างขึ้นโดยใช้การทดสอบการเรียนรู้ของเครื่องอัตโนมัติโดยใช้ Azure Machine Learning SDK
 
 > [!NOTE]
-> แบบจำลองที่สร้างขึ้นโดยใช้อินเทอร์เฟสการแสดงผลด้วยภาพของบริการ Machine Learning Azure (ดูตัวอย่าง) ปัจจุบันไม่รองรับการสร้าง Schema แต่จะรองรับในรุ่นต่อ ๆ มา 
+> แบบจำลองที่สร้างขึ้นโดยใช้อินเทอร์เฟสการแสดงผลด้วยภาพของบริการ Machine Learning Azure ปัจจุบันไม่รองรับการสร้าง Schema แต่จะรองรับในรุ่นต่อ ๆ มา 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>การเรียกแบบจำลอง Azure ML ใน Power BI
 
@@ -107,9 +107,9 @@ ms.locfileid: "66448338"
 
 บทความนี้จะให้ภาพรวมของการรวม Machine Learning ลงในบริการ Power BI บทความต่อไปนี้อาจน่าสนใจและเป็นประโยชน์สำหรับคุณ 
 
-* [บทช่วยสอน: เรียกใช้แบบจำลอง Machine Learning Studio ใน Power BI (ตัวอย่าง)](service-tutorial-invoke-machine-learning-model.md)
+* [บทช่วยสอน: เรียกใช้แบบจำลอง Machine Learning Studio ใน Power BI](service-tutorial-invoke-machine-learning-model.md)
 * [บทช่วยสอน: การใช้ Cognitive Services ใน Power BI](service-tutorial-use-cognitive-services.md)
-* [Cognitive Services ใน Power BI (ตัวอย่าง)](service-cognitive-services.md)
+* [Cognitive Services ใน Power BI](service-cognitive-services.md)
 
 คุณสามารถอ่านบทความเหล่านี้สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระแสข้อมูลได้:
 * [การสร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)

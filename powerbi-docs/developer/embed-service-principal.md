@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720338"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823301"
 ---
-# <a name="service-principal-with-power-bi-preview"></a>บริการหลักพร้อมด้วย Power BI (ตัวอย่าง)
+# <a name="service-principal-with-power-bi"></a>บริการหลักพร้อมด้วย Power BI
 
 ด้วย**บริการหลัก**คุณสามารถฝังเนื้อหา Power BI ลงในแอปพลิเคชัน และใช้ระบบอัตโนมัติด้วย Power BI โดยใช้**โทเค็นเฉพาะแอป**ได้ บริการหลักเป็นประโยชน์เมื่อใช้**Power BI Embedded**หรือเมื่อ**ทำให้งานและกระบวนการ Power BI เป็นอัตโนมัติ**
 
@@ -94,7 +94,7 @@ ms.locfileid: "66720338"
    > [!Important]
    > เมื่อคุณเปิดใช้งานบริการหลักที่จะใช้กับ Power BI สิทธิ์ AD ของแอปพลิเคชันไม่มีผลบังคับใช้อีกต่อไป มีจัดการสิทธิ์ของแอปพลิเคชันแล้วผ่านทางพอร์ทัลผู้ดูแลระบบ Power BI
 
-2. สร้างการ[กลุ่มความปลอดภัยใน Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)และเพิ่มแอปพลิเคชันที่คุณสร้างในกลุ่มความปลอดภัยนั้น คุณสามารถสร้างกลุ่มความปลอดภัย AAD ด้วย[PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)ได้
+2.  **แนะนำ** - สร้าง[กลุ่มความปลอดภัยใน Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) และเพิ่มแอปพลิเคชันที่คุณสร้างในกลุ่มความปลอดภัยนั้น คุณสามารถสร้างกลุ่มความปลอดภัย AAD ด้วย[PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)ได้
 
     ด้านล่างเป็นตัวอย่างสคริปต์ในการสร้างกลุ่มความปลอดภัยใหม่และเพิ่มแอปพลิเคชันในกลุ่มความปลอดภัยนั้น
 
@@ -109,7 +109,7 @@ ms.locfileid: "66720338"
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-3. ในฐานะผู้ดูแลระบบ Power BI คุณจำเป็นต้องเปิดใช้งานบริการหลักใน**การตั้งค่านักพัฒนา**ในพอร์ทัลผู้ดูแลระบบ Power BI เพิ่มกลุ่มความปลอดภัยที่คุณสร้างใน Azure AD สำหรับส่วน**กลุ่มความปลอดภัยเฉพาะ**ใน**การตั้งค่านักพัฒนา**
+3. ในฐานะผู้ดูแลระบบ Power BI คุณจำเป็นต้องเปิดใช้งานบริการหลักใน**การตั้งค่านักพัฒนา**ในพอร์ทัลผู้ดูแลระบบ Power BI เพิ่มกลุ่มความปลอดภัยที่คุณสร้างใน Azure AD สำหรับส่วนกลุ่มความปลอดภัยเฉพาะใน**การตั้งค่านักพัฒนา** คุณยังสามารถเปิดใช้สิทธิ์การเข้าถึงโครงร่างสำคัญของบริการสำหรับทั้งองค์กร ในกรณีดังกล่าว ขั้นตอนที่ 2 ไม่จำเป็น
 
    > [!Important]
    > โครงร่างสำคัญของบริการสามารถเข้าถึงการตั้งค่าผู้เช่าที่เปิดใช้งานสำหรับทั้งองค์กร หรือเปิดใช้งานสำหรับกลุ่มความปลอดภัยที่มีโครงร่างสำคัญของบริการเป็นส่วนหนึ่งของกลุ่ม เมื่อต้องจำกัดการเข้าถึงโครงร่างสำคัญของบริการไปยังการตั้งค่าผู้เช่าเฉพาะ อนุญาตให้เข้าถึงกลุ่มความปลอดภัยเฉพาะเท่านั้น หรือสร้างกลุ่มความปลอดภัยเฉพาะสำหรับโครงร่างสำคัญของบริการและแยกมันออก
@@ -181,4 +181,4 @@ ms.locfileid: "66720338"
 * [ลงทะเบียนแอป](register-app.md)
 * [Power BI Embedded สำหรับลูกค้าของคุณ](embed-sample-for-customers.md)
 * [แอปพลิเคชันและออบเจ็กต์บริการหลักใน Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [ความปลอดภัยระดับแถวโดยใช้เกตเวย์ข้อมูลภายในองค์กรที่มีโครงร่างสำคัญของบริการ (ดูตัวอย่าง)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [ความปลอดภัยระดับแถวโดยใช้เกตเวย์ข้อมูลภายในองค์กรที่มีโครงร่างสำคัญของบริการ](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

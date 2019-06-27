@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 9cf3eea99813d315c72f3210f3938deae94505b0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 554a5de238af650ab4009669d55a2fadedd4a29f
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61234523"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809143"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI สำหรับลูกค้าส่วนราชการสหรัฐอเมริกา
 การ**บริการ Power BI**มีเวอร์ชันพร้อมใช้งานสำหรับลูกค้าส่วนราชการสหรัฐอเมริกา ซึ่งเป็นส่วนหนึ่งของการของการสมัครใช้งาน**ชุมชน Office 365 สำหรับส่วนราชการสหรัฐ** การ**บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้ถูกออกแบบมาโดยเฉพาะสำหรับลูกค้าส่วนราชการสหรัฐและแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI**
@@ -41,7 +41,7 @@ ms.locfileid: "61234523"
 
 ## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>การเชื่อมต่อระหว่างภาครัฐและบริการ Azure Cloud ระดับโลก 
 
-Azure จะถูกกระจายใน cloud หลายตัว ผู้เช่าสามารถตั้งกฎไฟรวอลล์สำหรับ cloud-specific instance ได้ แต่ระบบเครือ cross-cloud networking นั้นต่างออกไปและต้องเปิดกฎไฟร์วอลล์เฉพาะเพื่อสื่อสารระหว่าง service ถ้าคุณเป็นลูกค้า Power BI และคุณมีอินสแตนซ์ SQL ที่จำเป็นต้องเข้าในระบบคลาวด์สาธารณะ คุณต้องเปิดกฎไฟร์วอลล์ที่เฉพาะเจาะจงใน SQL เพื่่อเข้า Azure Government Cloud IP space ตามศูนย์ข้อมูลต่อไปนี้
+Azure จะถูกกระจายใน cloud หลายตัว ตามค่าเริ่มต้น ผู้เช่าสามารถตั้งกฎไฟร์วอลล์สำหรับอินสแตนซ์เฉพาะของระบบคลาวด์ได้ แต่ระบบการวางเครือข่ายบนคลาวด์แบบข้ามนั้นต่างออกไปและจำเป็นต้องเปิดกฎไฟร์วอลล์เฉพาะเพื่อสื่อสารระหว่างบริการต่าง ๆ ถ้าคุณเป็นลูกค้า Power BI และคุณมีอินสแตนซ์ SQL ที่จำเป็นต้องเข้าในระบบคลาวด์สาธารณะ คุณต้องเปิดกฎไฟร์วอลล์ที่เฉพาะเจาะจงใน SQL เพื่่อเข้า Azure Government Cloud IP space ตามศูนย์ข้อมูลต่อไปนี้
 
 * USGov Iowa
 * USGov Virginia

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/20/2017
+ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 201e4e75c9a1ce0d05c85112457191a8d306c596
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c2ccbf8eaa272d6e5a57f88c76c79b5d06bb3892
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61248072"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839678"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>เปลี่ยนชนิดของการแสดงภาพในรายงาน Power BI
 ลองการแสดงภาพชนิดต่าง ๆ ในบริการของ Power BI และ Power BI Desktop เพื่อดูว่าแบบไหนช่วยให้เห็นข้อมูลของคุณได้ดีที่สุด 
@@ -24,7 +24,7 @@ ms.locfileid: "61248072"
 2. เลือกการแสดงภาพเพื่อเปิดใช้งาน การแสดงภาพที่ใช้งานอยู่มีจุดจับและเส้นขอบ    
 3. ในบานหน้าต่างการแสดงภาพ เลือกชนิดของการแสดงภาพใหม่ 
    
-   ![](media/power-bi-report-change-visualization-type/changeviz.gif)
+   ![วิดีโอที่แสดงการเปลี่ยนแผนภูมิคอลัมน์ไปเป็นแผนภูมิเส้น](media/power-bi-report-change-visualization-type/changeviz.gif).
 4. (ตัวเลือก) [ปักหมุดการแสดงภาพของคุณ](../service-dashboard-pin-tile-from-report.md)ไปยังแดชบอร์ดให้เป็นไทล์ได้ 
 
 ถ้าคุณเปลี่ยนชนิดการแสดงภาพในรายงานหลังจากที่คุณปักหมุดไปยังแดชบอร์ด ไทล์จะไม่ถูกอัปเดตโดยอัตโนมัติ ดังนั้น ถ้าคุณปักหมุดการแสดงภาพเป็นแผนภูมิเส้นแล้ว เปลี่ยนในรายงานให้เป็นแผนภูมิแท่ง แผนภูมิที่ปักหมุดไว้แล้วของข้อมูลนี้จะยังคงเป็นแผนภูมิเส้น ปักหมุดแผนภูมิแท่งเพื่อแสดงบนแดชบอร์ดด้วย

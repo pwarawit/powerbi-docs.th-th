@@ -1,5 +1,5 @@
 ---
-title: สร้างพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
+title: สร้างพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI
 description: ในบทความนี้ คุณจะได้เรียนวิธีการสร้างพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI
 author: maggiesMSFT
 ms.author: maggies
@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/05/2018
-ms.openlocfilehash: d58d1c84199c698089f4b3abccb26f9dbaea76d6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: adec7af0032772022a330e3ab25377205de9ace5
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60987700"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66838981"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>สร้างพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI (ดูตัวอย่าง)
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>สร้างพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI
 
 ในบทความนี้ คุณจะได้เรียนวิธีการสร้างพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI  พารามิเตอร์ของรายงานให้วิธีการเลือกข้อมูลรายงานและทำให้การนำเสนอรายงานมีความหลากหลาย คุณสามารถให้ค่าเริ่มต้นและรายการค่าพร้อมใช้งานได้ และผู้อ่านรายงานของคุณก็สามารถเปลี่ยนตัวเลือกได้  
 
-ภาพประกอบต่อไปนี้แสดงมุมมองออกแบบในตัวสร้างรายงานของ Power BI สำหรับรายงานที่มีพารามิเตอร์@BuyingGroup, @Customer, @FromDateและ@ToDate 
+ภาพประกอบต่อไปนี้แสดงให้เห็นมุมมองออกแบบในตัวสร้างรายงาน Power BI สำหรับรายงานที่มีพารามิเตอร์ @BuyingGroup, @Customer, @FromDate และ @ToDate 
   
 ![พารามิเตอร์ในตัวสร้างรายงาน](media/paginated-reports-parameters/power-bi-paginated-parameters-report-builder.png)
   
@@ -37,7 +37,7 @@ ms.locfileid: "60987700"
   
 ## <a name="create-or-edit-a-report-parameter"></a>สร้างหรือแก้ไขพารามิเตอร์ของรายงาน  
   
-1.  เปิดรายงานของคุณมีการแบ่งหน้าในตัวสร้างรายงานของ Power BI
+1.  เปิดรายงานแบบแบ่งหน้าในตัวสร้างรายงาน Power BI
 
 1. ที่แผง**ข้อมูลรายงาน** ให้คุณคลิกขวาที่โหนด**พารามิเตอร์** > **เพิ่มพารามิเตอร์** กล่องโต้ตอบ**คุณสมบัติพารามิเตอร์ของรายงาน**จะเปิดขึ้น  
   
@@ -67,4 +67,4 @@ ms.locfileid: "60987700"
 
 ดูที่ [ดูพารามิเตอร์สำหรับรายงานแบบแบ่งหน้า](paginated-reports-view-parameters.md) เพื่อดูว่าพารามิเตอร์มีหน้าตาอย่างไรในบริการของ Power BI
 
-สำหรับข้อมูลเชิงลึกเกี่ยวกับพารามิเตอร์ในรายงานแบบแบ่งหน้า โปรดดูที่บทความ [พารามิเตอร์ของรายงาน (ตัวสร้างรายงานและตัวออกแบบรายงาน)](https://docs.microsoft.com/sql/reporting-services/report-design/report-parameters-report-builder-and-report-designer) ในเอกสารของ SQL Server Reporting Services  
+สำหรับข้อมูลเชิงลึกเกี่ยวกับพารามิเตอร์ในรายงานที่มีการแบ่งหน้า ดู[พารามิเตอร์ของรายงานในตัวสร้างรายงาน Power BI](report-builder-parameters.md)

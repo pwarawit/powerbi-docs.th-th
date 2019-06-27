@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02d81a4ebb92ec199887109c7f2d9afcb6449eda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe1d2a6f086831a4ae6bd78d8669dce9459bffad
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61393280"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839849"
 ---
 # <a name="basic-area-chart"></a>แผนภูมิพื้นที่พื้นฐาน
 แผนภูมิพื้นที่พื้นฐาน (หรือที่เรียกว่า แผนภูมิพื้นที่แบบชั้น) เป็นไปตามแผนภูมิเส้น พื้นที่ระหว่างแกนและบรรทัดจะถูกเติมด้วยสีเพื่อระบุปริมาณ 
@@ -40,7 +40,7 @@ ms.locfileid: "61393280"
  
 
 1. จากแดชบอร์ด "ตัวอย่างการวิเคราะห์ด้านการขายปลีก" เลือกไทล์**จำนวนร้านค้าทั้งหมด** เพื่อเปิดรายงาน "ตัวอย่างการวิเคราะห์ด้านการขายปลีก"
-2. เลือก**แก้ไขรายงาน** เพื่อเปิดรายงานในมุมมองการแก้ไข
+2. เลือก**แก้ไข** เพื่อเปิดรายงานในมุมมองการแก้ไข
 3. เพิ่มหน้ารายงานใหม่โดยเลือกไอคอนเครื่องหมายบวกสีเหลือง (+) ที่ด้านล่างของรายงาน
 4. สร้างแผนภูมิพื้นที่ที่แสดงยอดขายของปีนี้และยอดขายของปีที่แล้วแยกตามเดือน
    

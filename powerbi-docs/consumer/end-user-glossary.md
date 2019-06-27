@@ -6,15 +6,15 @@ ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: resource
+ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
-ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
-ms.translationtype: MT
+ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66412905"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751006"
 ---
 # <a name="glossary-for-power-bi-service"></a>อภิธานศัพท์สำหรับบริการ Power BI
 บริการ Power BI อาจใช้คำศัพท์ที่ไม่คุ้นเคยหรือสับสน อภิธานศัพท์เป็นที่เหมาะสมในการค้นหาคำศัพท์ คุณอาจต้องการเก็บไว้คั่นหน้า อีกแหล่งข้อมูลหนึ่งที่ยอดเยี่ยมสำหรับการเรียนรู้เกี่ยวกับการสร้างการปิดกั้นใน Power BI คือ [แนวคิดพื้นฐาน](end-user-basic-concepts.md) แนวคิดพื้นฐานเป็นภาพรวมระดับสูงเกี่ยวกับ*ส่วนประกอบ*ของ Power BI และความเกี่ยวข้องกัน
@@ -142,7 +142,7 @@ ms.locfileid: "66412905"
 ## <a name="h"></a>H
 **high-density visuals (การแสดงผลด้วยภาพที่มีความหนาแน่นสูง)** การแสดงผลด้วยภาพมีจุดข้อมูลมากกว่าที่ Power BI สามารถแสดงออกมาได้ Power BI สุ่มตัวอย่างข้อมูลที่จะแสดงรูปร่างและข้อมูลที่ผิดปกติ
 
-**หน้าแรก**อายุสำหรับผู้ใช้บริการ Power BI เริ่มต้นค่าเริ่มต้น ไม่ปรับเปลี่ยนใด ๆ สามารถเรียกใช้ Power BI หน้าแรก หรือเพียงแค่หน้าแรก
+**หน้าแรก** หน้าเริ่มต้นสำหรับผู้ใช้บริการ Power BI ไม่ปรับเปลี่ยนใด ๆ สามารถเรียกใช้หน้าแรกของ Power BI หรือหน้าแรกอย่างเดียวได้
 
 ## <a name="i"></a>I
 

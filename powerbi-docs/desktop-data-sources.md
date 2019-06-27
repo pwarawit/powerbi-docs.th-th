@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b689a4d0718c92608fe7fc0cdb34d27803015269
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853457"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823547"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับข้อมูลจากแหล่งต่าง ๆ มากมายด้วย Power BI Desktop รายการทั้งหมดของแหล่งข้อมูลที่พร้อมใช้งานอยู่ที่ด้านล่างของหน้านี้
@@ -114,12 +114,12 @@ ms.locfileid: "65853457"
 * พื้นที่เก็บข้อมูล Azure Blob
 * พื้นที่เก็บข้อมูล Azure Table
 * Azure Cosmos DB (เบต้า)
-* Azure Data Lake Storage รุ่น 1
+* Azure Data Lake Storage รุ่น1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * คิวรีแบบโต้ตอบ HDInsight
 * Azure Data Explorer (Kusto)
-* จัดการค่าใช้จ่าย azure (เบต้า)
+* Azure Cost Management (เบต้า)
 
 แสดงรูปภาพต่อไปนี้**รับข้อมูล**สำหรับ**Azure**
 
@@ -133,7 +133,7 @@ ms.locfileid: "65853457"
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (ภายในองค์กร)
-* Common Data Service สำหรับแอป (เบต้า)
+* Common Data Service
 * Microsoft Azure Consumption Insights (เบต้า)
 * Azure DevOps (เบต้า)
 * Azure DevOps Server (เบต้า)
@@ -161,8 +161,11 @@ ms.locfileid: "65853457"
 * Webtrends (เบต้า)
 * Zendesk (เบต้า)
 * แหล่งข้อมูล Emigo (เบต้า)
-* IndustrialAppStore (เบต้า)
+* Entersoft Business Suite (เบต้า)
+* Industrial App Store
+* คลังข้อมูล Intune (เบต้า)
 * การรักษาความปลอดภัยของ Microsoft Graph
+* Quick Base
 * TeamDesk (เบต้า)
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**บริการออนไลน์**
@@ -182,15 +185,14 @@ ms.locfileid: "65853457"
 * สคริปต์ Python
 * ODBC
 * OLE DB
-* BI360 - จัดทำงบประมาณ และการเงินรายงาน (เบต้า)
+* BI360 - การรายงานการจัดทำงบประมาณและการเงิน (เบต้า)
 * Denado
 * ตารางข้อมูล (เบต้า)
 * Paxata 
 * QubolePresto (เบต้า)
-* Quick Base (เบต้า)
 * Roamler (เบต้า)
 * SurveyMonkey(เบต้า)
-* Tenforce (เบต้า)
+* Tenforce (Smart)List (เบต้า)
 * Workforce Dimensions (เบต้า)
 * คิวรีที่ว่างเปล่า
 

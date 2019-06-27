@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e28af5a03fd799f088d428f16621358c2a4f7c5
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770475"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823317"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>แก้ไขปัญหาแอปพลิเคชันแบบฝังตัวของคุณ
 
@@ -80,6 +80,7 @@ public static string GetExceptionText(this HttpOperationException exc)
 * โทเค็นรับรองความถูกต้องของ Azure AD หมดอายุแล้ว
 * ผู้ใช้ที่ได้รับการรับรองความถูกต้องไม่เป็นสมาชิกของกลุ่ม (พื้นที่ทำงานของแอปฯ)
 * ผู้ใช้ที่ได้รับการรับรองความถูกต้องไม่เป็นผู้ดูแลระบบของกลุ่ม (พื้นที่ทำงานของแอปฯ)
+* ผู้ใช้ที่ผ่านการรับรองความถูกต้องแล้วไม่มีสิทธิ์ จะสามารถอัปเดตสิทธิ์ได้โดยใช้[refreshUserPermissions API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions)
 * หัวข้อการรับรองความถูกต้องอาจไม่อยู่ในรายการอย่างถูกต้อง ตรวจสอบให้แน่ใจว่าไม่มีการพิมพ์ผิด
 
 ส่วนหลังของแอปพลิเคชันอาจจำเป็นต้องรีเฟรชโทเค็นการรับรองความถูกต้องก่อนที่จะเรียก GenerateToken
@@ -187,7 +188,7 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 
 ### <a name="cs1061-error"></a>ข้อผิดพลาด CS1061
 
-ดาวน์โหลด[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)ถ้าคุณพบข้อ " 'AuthenticationContext' ประกอบด้วยข้อกำหนดสำหรับ 'AcquireToken' และไม่สามารถเข้าถึง 'AcquireToken' ยอมรับอาร์กิวเมนต์ตัวแรกของชนิด ' AuthenticationContext' พบ (คุณหายไปโดยการใช้คำสั่งหรือการอ้างอิงแอสเซมบลีหรือไม่) "ข้อผิดพลาดได้
+ดาวน์โหลด [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) ถ้าคุณพบข้อผิดพลาด "'AuthenticationContext' ไม่มีคำจำกัดความของ 'AcquireToken' และไม่พบการเข้าถึง 'AcquireToken' ที่ยอมรับอาร์กิวเมนต์แรกในประเภท 'AuthenticationContext' (คุณไม่ได้ใช้คำสั่งหรือการอ้างอิงแอสเซมบลีใช่ไหม)"
 
 ## <a name="data-sources"></a>แหล่งข้อมูล
 

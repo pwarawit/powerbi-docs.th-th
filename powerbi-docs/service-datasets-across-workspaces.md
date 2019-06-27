@@ -7,19 +7,21 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/07/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a5e4b41b36dfbf6cca14a348268b96eaad21b00e
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
+ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461867"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66816677"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>ใช้ชุดข้อมูลทั้งพื้นที่ทำงาน (ดูตัวอย่าง)
 
 ข่าวกรองธุรกิจเป็นกิจกรรมการทำงานร่วมกัน เป็นสิ่งสำคัญในการสร้างชุดข้อมูลที่ได้มาตรฐานซึ่งอาจเป็น “แหล่งข้อมูลความจริงแหล่งเดียว” การค้นหาและการนำชุดข้อมูลที่ได้มาตรฐานเหล่านั้นมาใช้ใหม่เป็นสิ่งสำคัญ เมื่อผู้สร้างข้อมูลที่เชี่ยวชาญในองค์กรของคุณจะสร้างและแชร์ชุดข้อมูลที่ปรับแต่งแล้ว ผู้สร้างรายงานสามารถเริ่มต้นใช้ชุดข้อมูลเหล่านั้นเพื่อสร้างรายงานที่ถูกต้อง แล้วองค์กรของคุณจะมีข้อมูลที่สอดคล้องกันสำหรับการตัดสินใจ และการพัฒนาข้อมูลที่สมบูรณ์แบบ
+
+![เลือกชุดข้อมูลที่แชร์](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
 Power BI ทำให้ง่ายสำหรับผู้สร้างชุดข้อมูลในการรับรอง หรือเลื่อนระดับชุดข้อมูลเพื่อให้ผู้อื่นสามารถค้นหาได้ จากนั้นผู้เขียนรายงานจะค้นหาชุดข้อมูลที่มีคุณภาพและเป็นทางการที่พวกเขาสามารถใช้ได้จากทุกที่ใน Power BI เจ้าของชุดข้อมูลสามารถควบคุมผู้ที่สามารถเข้าถึงข้อมูลได้โดยใช้[สิทธิในการสร้าง](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) ผู้ดูแลระบบผู้เช่ามีการตั้งค่าผู้เช่าใหมเป็น[ควบคุมการใช้ชุดข้อมูลทั้งพื้นที่ทำงาน](service-datasets-admin-across-workspaces.md)
 

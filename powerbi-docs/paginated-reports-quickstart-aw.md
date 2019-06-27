@@ -1,5 +1,5 @@
 ---
-title: 'บทช่วยสอน: สร้างรายงานแบบแบ่งหน้าและอัปโหลดไปยังบริการของ Power BI (ดูตัวอย่าง)'
+title: 'บทช่วยสอน: สร้างรายงานแบบแบ่งหน้าและอัปโหลดไปยังบริการของ Power BI'
 description: ในบทช่วยสอนนี้ คุณจะได้เชื่อมต่อกับฐานข้อมูลตัวอย่าง Azure SQL จากนั้นคุณจะได้ใช้วิซาร์ดในตัวสร้างรายงานเพื่อสร้างรายงานแบบแบ่งหน้า และคุณจะได้อัปโหลดรายงานแบบแบ่งหน้าไปยังพื้นที่ทำงานในบริการของ Power BI ด้วยความจุพรีเมียม
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: e7baff9a6427578266e08e7bde91be664e46edb9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60990115"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839749"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>บทช่วยสอน: สร้างรายงานแบบแบ่งหน้าและอัปโหลดไปยังบริการของ Power BI (ดูตัวอย่าง)
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>บทช่วยสอน: สร้างรายงานแบบแบ่งหน้าและอัปโหลดไปยังบริการของ Power BI
 
-ในบทช่วยสอนนี้ คุณจะได้เชื่อมต่อกับฐานข้อมูลตัวอย่าง Azure SQL แล้ว คุณใช้ตัวช่วยสร้างในตัวสร้างรายงานของ Power BI เพื่อสร้างรายงานแบบแบ่งหน้า ด้วยตารางที่ถูกตัดจะหลายหน้า และคุณจะได้อัปโหลดรายงานแบบแบ่งหน้าไปยังพื้นที่ทำงานในบริการของ Power BI ด้วยความจุพรีเมียม รายงานแบบแบ่งหน้าในบริการของ Power BI อยู่ในช่วงตัวอย่าง
+ในบทช่วยสอนนี้ คุณจะได้เชื่อมต่อกับฐานข้อมูลตัวอย่าง Azure SQL จากนั้นคุณจะได้ใช้วิซาร์ดในตัวสร้างรายงาน Power BI เพื่อสร้างรายงานแบบแบ่งหน้าพร้อมตารางที่ครอบคลุมพื้นที่หลายหน้า และคุณจะได้อัปโหลดรายงานแบบแบ่งหน้าไปยังพื้นที่ทำงานในบริการของ Power BI ด้วยความจุพรีเมียม
 
 ![รายงานแบบแบ่งหน้าในบริการของ Power BI](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
@@ -26,7 +26,7 @@ ms.locfileid: "60990115"
 
 > [!div class="checklist"]
 > * สร้างฐานข้อมูลตัวอย่าง Azure
-> * สร้างเมทริกซ์ใน Power BI Report Builder ด้วยความช่วยเหลือของตัวช่วยสร้าง
+> * สร้างเมทริกซ์ในตัวสร้างรายงาน Power BI โดยใช้วิซาร์ดช่วย
 > * จัดรูปแบบรายงานให้สวยงามด้วยการเพิ่มชื่อเรื่อง หมายเลขหน้าและหัวคอลัมน์ในแต่ละหน้า
 > * จัดรูปแบบสกุลเงิน
 > * อัปโหลดรายงานเข้าบริการของ Power BI
@@ -37,7 +37,7 @@ ms.locfileid: "60990115"
 
 โปรดดูข้อกำหนดเบื้องต้นในการสร้างรายงานแบบแบ่งหน้า:
 
-- ติดตั้ง[Power BI Report Builder จากศูนย์ดาวน์โหลด Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513) 
+- ติดตั้ง[ตัวสร้างรายงาน Power BI จากศูนย์ดาวน์โหลด Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513) 
 
 - ทำตามการเริ่มต้นด่วน[สร้างฐานข้อมูลตัวอย่าง Azure SQL ในพอร์ทัล Azure](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal) คัดลอก และบันทึกค่าในกล่อง**ชื่อเซิร์ฟเวอร์**ในแท็บ**ภาพรวม** โปรดจดจำชื่อผู้ใช้และรหัสผ่านที่คุณสร้างใน Azure
 
@@ -48,7 +48,7 @@ ms.locfileid: "60990115"
 
 ## <a name="create-the-matrix-with-a-wizard"></a>ใช้วิซาร์ดสร้างเมทริกซ์
   
-1.  เริ่มตัวสร้างรายงานของ Power BI จากคอมพิวเตอร์ของคุณ  
+1.  เริ่มตัวสร้างรายงาน Power BI จากคอมพิวเตอร์ของคุณ  
   
      กล่องโต้ตอบ **เริ่มต้นใช้งาน** จะเปิดขึ้น  
   
@@ -287,7 +287,7 @@ ms.locfileid: "60990115"
 
 ในตอนนี้คุณได้สร้างรายงานแบบแบ่งหน้าแล้ว ได้เวลาอัปโหลดเข้าบริการของ Power BI
 
-1. ในบริการของ Power BI (http://app.powerbi.com)ในหน้าต่างนำทางด้านซ้าย ให้เลือก **พื้นที่ทำงาน** > **สร้างพื้นที่ทำงานแอป**
+1. ในบริการของ Power BI (http://app.powerbi.com) ในหน้าต่างนำทางด้านซ้าย ให้เลือก **พื้นที่ทำงาน** > **สร้างพื้นที่ทำงานแอป**
 
 2. ตั้งชื่อพื้นที่ทำงานของคุณว่า **Azure AW** หรือชื่อเฉพาะอย่างอื่น ตอนนี้มีเพียงคุณที่เป็นสมาชิก 
 
@@ -329,5 +329,5 @@ ms.locfileid: "60990115"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร (ตัวอย่าง)](paginated-reports-report-builder-power-bi.md)
+[รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](paginated-reports-report-builder-power-bi.md)
 

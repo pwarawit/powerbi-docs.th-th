@@ -8,27 +8,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: a38547807fbbcf3c76366f32caa46945e57ca8bc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/04/2019
+ms.openlocfilehash: f0e8a9931248860e11f783d04fead6172559afc1
+ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710318"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66814265"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>รับโทเค็นการเข้าถึง Azure AD สำหรับแอปพลิเคชัน Power BI ของคุณ
 
-รับรองความถูกต้องผู้ใช้ในแอปพลิเคชัน Power BI ของคุณ และเรียกใช้โทเค็นการเข้าถึงการใช้กับ REST API
+บทความนี้แสดงวิธีที่คุณสามารถรับรองความถูกต้องผู้ใช้ในแอปพลิเคชัน Power BI ของคุณ และค้นคืนโทเค็นการเข้าถึงเพื่อใช้กับ [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
 
-ก่อนที่คุณจะสามารถโทรหา Power BI REST API คุณจำเป็นต้องรับ Azure Active Directory (Azure AD) **โทเค็นการเข้าถึงการรับรองความถูกต้อง**(โทเค็นการเข้าถึง) โทเค็น**การเข้าถึง**ถูกใช้เพื่ออนุญาตการเข้าถึงแอปในแดชบอร์ด ไทล์ และรายงาน **Power BI** เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ Azure Active Directory **กระบวนการ** โทเค็นการเข้าถึง ดู[กระบวนการอนุญาตรหัสการให้สิทธิ์ Azure AD](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code)
+ก่อนที่คุณจะสามารถเรียกใช้ REST API คุณจำเป็นต้องรับ Azure Active Directory (Azure AD) **โทเค็นการเข้าถึงการรับรองความถูกต้อง** แอปของคุณใช้โทเค็นเพื่อเข้าถึงยังแดชบอร์ด ไทล์ และรายงาน Power BI เมื่อต้องการเรียนรู้เพิ่มเติม ดู[ให้สิทธิอนุญาตการเข้าถึง Azure Active Directory โดยใช้โฟลว์ที่อนุญาตให้ใช้รหัส OAuth 2.0](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code)
 
-โทเค็นการเข้าถึงจะถูกเรียกใช้แตกต่างกัน ขึ้นอยู่กับวิธีการที่คุณจะฝังเนื้อหา มีการใช้สองวิธีการที่แตกต่างกันในบทความนี้
+โทเค็นการเข้าถึงจะถูกเรียกใช้แตกต่างกัน ขึ้นอยู่กับวิธีการที่คุณจะฝังเนื้อหา บทความนี้แสดงถึงสองวิธีการที่แตกต่างกัน
 
 ## <a name="access-token-for-power-bi-users-user-owns-data"></a>โทเค็นการเข้าถึงสำหรับผู้ใช้ Power BI (ผู้ใช้เป็นเจ้าของข้อมูล)
 
-ตัวอย่างนี้สำหรับเมื่อผู้ใช้ของคุณจะลงชื่อเข้าใช้ Azure AD ด้วยตนเองโดยเข้าสู่ระบบขององค์กร งานนี้จะใช้เมื่อมีการฝังเนื้อหาสำหรับผู้ใช้ Power BI ที่จะเข้าถึงเนื้อหาที่พวกเขามีสิทธิ์เข้าถึงบริการ Power BI
+ตัวอย่างนี้สำหรับเมื่อผู้ใช้ของคุณลงชื่อเข้าใช้ Azure AD ด้วยตนเองโดยเข้าสู่ระบบขององค์กร จะมีการใช้งานนี้เมื่อมีการฝังเนื้อหาสำหรับผู้ใช้ที่มีสิทธิการเข้าถึงบริการ Power BI
 
-### <a name="get-an-authorization-code-from-azure-ad"></a>รับรหัสการให้สิทธิ์จาก Azure AD
+### <a name="get-an-azure-ad-authorization-code"></a>รับรหัสการให้สิทธิจาก Azure AD
 
 ขั้นตอนแรกในการรับ**โทเค็นการเข้าถึง**คือการรับรหัสการให้สิทธิ์จาก**Azure AD** คุณจะต้องสร้างสตริงแบบสอบถามกับคุณสมบัติต่อไปนี้ และเปลี่ยนเส้นทางไปยัง**Azure AD**
 
@@ -54,7 +54,7 @@ var @params = new NameValueCollection
 };
 ```
 
-หลังจากที่คุณสร้างสตริงแบบสอบถามแล้ว เปลี่ยนเส้นทางไปยัง**Azure AD**เพื่อรับ**รหัสการให้สิทธิ์**  ด้านล่างนี้คือวิธีการ์ C# ที่สมบูรณที่จะสร้าง**รหัสการตรวจสอบ**สตริงค้นหา และเปลี่ยนเส้นทางไปยัง**Azure AD** หลังจากที่คุณมีรหัสการให้สิทธิ์ คุณจะได้รับ**โทเค็นการเข้าถึง**โดยใช้การ**รหัสการให้สิทธิ์**
+หลังจากที่คุณสร้างสตริงแบบสอบถามแล้ว เปลี่ยนเส้นทางไปยัง**Azure AD**เพื่อรับ**รหัสการให้สิทธิ์**  ด้านล่างนี้คือวิธีการ์ C# ที่สมบูรณที่จะสร้าง**รหัสการตรวจสอบ**สตริงค้นหา และเปลี่ยนเส้นทางไปยัง**Azure AD** จากนั้นคุณใช้**รหัสการให้สิทธิ**เพื่อรับ**โทเค็นการเข้าถึง**
 
 ภายใน redirect.aspx.cs, จะเรียก [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) เพื่อสร้างโทเค็น
 
@@ -98,9 +98,9 @@ protected void signInButton_Click(object sender, EventArgs e)
 
 ### <a name="get-an-access-token-from-authorization-code"></a>รับโทเค็นการเข้าถึงจากรหัสการให้สิทธิ์
 
-คุณควรจะได้รับรหัสการให้สิทธิ์จาก Azure AD เมื่อ**Azure AD**เปลี่ยนเส้นทางไปยัง web app ของคุณด้วย**รหัสการให้สิทธิ์**คุณใช้**รหัสการให้สิทธิ์**เพื่อรับโทเค็นการเข้าถึง ด้านล่างนี้คือ C# ตัวอย่างที่คุณสามารถใช้ในหน้าการเปลี่ยนเส้นทางของคุณและเหตุการณ์ Page_Load สำหรับหน้า default.aspx ของคุณ
+เมื่อ**Azure AD**เปลี่ยนเส้นทางกลับไปยังเว็บแอปของคุณด้วย**รหัสการให้สิทธิ**คุณสามารถใช้รหัสการให้สิทธิเพื่อรับโทเค็นการเข้าถึง ด้านล่างนี้คือ ตัวอย่าง C# ที่คุณสามารถใช้ในหน้าการเปลี่ยนเส้นทางของคุณกลับไปยังหน้าและเหตุการณ์ `Page_Load`ของ default.aspx ของคุณ
 
-เนมสเปซ**Microsoft.IdentityModel.Clients.ActiveDirectory** สามารถดึงมาจาก[ไลบรารีการรับรองความถูกต้อง Active Directory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)แพคเกจ NuGet ได้
+คุณสามารถค้นคืนเนมสเปซ**Microsoft.IdentityModel.Clients.ActiveDirectory** จาก [ไลบรารีการรับรองความถูกต้อง Active Directory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) แพคเกจ NuGetได้
 
 ```powershell
 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory
@@ -165,11 +165,11 @@ protected void Page_Load(object sender, EventArgs e)
 
 ## <a name="access-token-for-non-power-bi-users-app-owns-data"></a>โทเค็นการเข้าถึงสำหรับผู้ใช้ที่ไม่ใช่ Power BI (แอปเป็นเจ้าของข้อมูล)
 
-โดยทั่วไปวิธีการนี้จะใช้สำหรับแอปพลิเคชันชนิด ISV ที่แอปเป็นเจ้าของการเข้าถึงข้อมูล ผู้ใช้ไม่จำเป็นต้องเป็นผู้ใช้ Power BI และการรับรองความถูกต้องของตัวควบคุมแอปพลิเคชัน และการเข้าถึงสำหรับผู้ใช้ปลายทาง
+โดยทั่วไปวิธีการนี้จะใช้สำหรับแอปพลิเคชันจากบริษัทพัฒนาซอฟแวร์อิสระ (ISV) ที่แอปเป็นเจ้าของการเข้าถึงข้อมูล ผู้ใช้ไม่จำเป็นต้องเป็นผู้ใช้ Power BI และการรับรองความถูกต้องผู้ใช้ของตัวควบคุมแอปพลิเคชัน และการเข้าถึง
 
 ### <a name="access-token-with-a-master-account"></a>โทเค็นการเข้าถึงด้วยบัญชีหลัก
 
-สำหรับวิธีการนี้ คุณจะใช้บัญชี*หลัก*เดี่ยวที่เป็นผู้ใช้ Power BI Pro ข้อมูลประจำตัวสำหรับบัญชีนี้ถูกเก็บไว้กับแอปพลิเคชัน แอปพลิเคชันจะรับรองความถูกต้องกับ Azure AD ด้วยข้อมูลประจำตัวที่จัดเก็บไว้ รหัสตัวอย่างที่แสดงด้านล่างนี้มาจาก[แอปที่เป็นเจ้าของตัวอย่างข้อมูล](https://github.com/guyinacube/PowerBI-Developer-Samples)
+สำหรับวิธีการนี้ คุณจะใช้บัญชี*หลัก*เดี่ยวที่เป็นผู้ใช้ Power BI Pro ข้อมูลประจำตัวของบัญชีนี้ถูกเก็บไว้กับแอปพลิเคชัน แอปพลิเคชันจะรับรองความถูกต้องกับ Azure AD ด้วยข้อมูลประจำตัวที่จัดเก็บไว้เหล่านี้ รหัสตัวอย่างที่แสดงด้านล่างนี้มาจาก[แอปที่เป็นเจ้าของตัวอย่างข้อมูล](https://github.com/guyinacube/PowerBI-Developer-Samples)
 
 ### <a name="access-token-with-service-principal"></a>โทเค็นการเข้าถึงด้วยบริการหลัก
 
@@ -199,10 +199,12 @@ m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bea
 
 ## <a name="troubleshoot"></a>การแก้ไขปัญหา
 
-* ดาวน์โหลด[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)ถ้าคุณพบข้อ " 'AuthenticationContext' ประกอบด้วยข้อกำหนดสำหรับ 'AcquireToken' และไม่สามารถเข้าถึง 'AcquireToken' ยอมรับอาร์กิวเมนต์ตัวแรกของชนิด ' AuthenticationContext' พบ (คุณหายไปโดยการใช้คำสั่งหรือการอ้างอิงแอสเซมบลีหรือไม่) "ข้อผิดพลาดได้
+ข้อความแสดงข้อผิดพลาด "'AuthenticationContext' ไม่มีคำจำกัดความของ 'AcquireToken' และไม่พบการเข้าถึง 'AcquireToken' ที่ยอมรับอาร์กิวเมนต์แรกในประเภท 'AuthenticationContext' (คุณไม่ได้ใช้คำสั่งหรือการอ้างอิงแอสเซมบลีใช่หรือไม่)"
+
+   ลองดาวน์โหลด[Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727)ถ้าคุณเห็นข้อผิดพลาดนี้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-หลังจากที่คุณมีโทเค็นการเข้าถึง คุณจะสามารถโทรหา Power BI REST API เพื่อฝังเนื้อหา สำหรับข้อมูลเกี่ยวกับวิธีการฝังเนื้อหาของคุณ ดู[วิธีการฝังเนื้อหาของ Power BI ](embed-sample-for-customers.md#embed-content-within-your-application)
+หลังจากที่คุณมีโทเค็นการเข้าถึง คุณจะสามารถโทรหา Power BI REST API เพื่อฝังเนื้อหา สำหรับข้อมูล ดู[วิธีการฝังเนื้อหา Power BI ของคุณ](embed-sample-for-customers.md#embed-content-within-your-application)
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)

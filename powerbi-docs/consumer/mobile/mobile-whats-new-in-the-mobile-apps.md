@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
+ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991039"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67038916"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 สำหรับ "ข้อมูลอะไรใหม่" ที่เกี่ยวข้อง ให้ดู
@@ -23,16 +23,45 @@ ms.locfileid: "65991039"
 * [มีอะไรใหม่ใน Power BI Desktop](../../desktop-latest-update.md)  
 * [มีอะไรใหม่ในบริการ Power BI](../../service-whats-new.md)  
 
-## <a name="april-2019"></a>2019 เมษายน
+## <a name="may-2019"></a>พฤษภาคม 2019
 
-### <a name="key-influencers-visual"></a>คีย์ Influencers ภาพ 
-ขณะนี้พร้อมใช้งานบนแอปสำหรับอุปกรณ์เคลื่อน Influencers คีย์ภาพได้ ภาพนี้ช่วยให้คุณทำการวิเคราะห์ของโปรแกรมควบคุมที่สำคัญกับข้อมูลของคุณ ด้วยการแตะเพียงไม่กี่
+### <a name="siri-shortcuts-support-ios"></a>ฝ่ายสนับสนุนทางลัดของ Siri (iOS)
+ผู้ใช้สามารถสร้างทางลัดของ Siri ในรายงาน Power BI และแดชบอร์ด และเปิดโดยตรงจากอินเทอร์เฟซเสียงของ Siri ได้ [อ่านวิธีการใช้ทางลัดของ Siri ในแอป Power BI ของระบบ iOS](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/)
+
+### <a name="device-search-ios"></a>การค้นหาอุปกรณ์ (iOS)
+การรวม Power BI กับการค้นหาอุปกรณ์ iOS (สปอตไลต์) ขณะนี้ การค้นหาเนื้อหาใน iPhone หรือ iPad จะมีรายการ Power BI ด้วยเช่นกัน เมื่อผู้ใช้ใช้การค้นหาอุปกรณ์แบบเดิม รายงาน Power BI, แดชบอร์ด, แอป, พื้นที่ทำงาน และบุคคลที่ตรงกับเกณฑ์การค้นหา จะแสดงอยู่ในผลลัพธ์ด้วยเช่นกัน [ไปบล็อกโพสต์เพื่อเรียนรู้เพิ่มเติม](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/)
+
+
+### <a name="single-tap-report-interaction---ga"></a>การโต้ตอบรายงานแบบแตะครั้งเดียว - GA
+
+ขณะนี้ การแตะครั้งเดียวคือ GA และจะเป็นการโต้ตอบเริ่มต้นด้วยการแตะสำหรับผู้ใช้รายใหม่ ผู้ใช้จะยังคงไม่สามารถปิดใช้งาน และมีแตะสองครั้งในการตั้งค่าแอป
+
+### <a name="enhanced-conditional-access-protection-ios-android"></a>การป้องกันการเข้าถึงตามเงื่อนไขที่ปรับปรุง (iOS, Android)
+
+เราได้รวมเข้ากับ[ความสามารถในการเข้าถึงตามเงื่อนไขที่มีการป้องกันแอปใหม่](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) ของ AAD เพื่อเพิ่มความปลอดภัย โดยการจำกัดการเข้าถึง Power BI ก่อนที่จะใช้นโยบายเกี่ยวกับแอป
+
+### <a name="device-protection-ios"></a>การป้องกันอุปกรณ์ (iOS)
+
+ผู้ใช้สามารถใช้การป้องกันที่มีอยู่ในอุปกรณ์เพื่อรักษาความปลอดภัยของ Power BI ด้วยการขอ Face ID, Touch ID หรือรหัสผ่านเพื่อการเข้าถึง Power BI ผู้ใช้ที่ใช้การตั้งค่าแอปสามารถควบคุมการดำเนินการนี้ได้ และรวมถึงผู้ดูแลระบบที่ใช้ Intune และเครื่องมือ MDM อื่น ๆ [เรียนรู้เพิ่มเติม](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access)
+
+### <a name="one-page-report-slideshow-windows"></a>การนำเสนอภาพนิ่งรายงานแบบหนึ่งหน้า (Windows)
+
+การสนับสนุนการรีเฟรชโดยอัตโนมัติยังมีไว้สำหรับรายงานแบบหนึ่งหน้าในการนำเสนอภาพนิ่ง ดังนั้น ถ้ามีการอัปเดตแหล่งข้อมูลเบื้องต้น้ของรายงาน เราจะเลือกและอัปเดตข้อมูลในหน้า
+
+
+## <a name="april-2019"></a>เมษายน 2019
+
+### <a name="key-influencers-visual"></a>ภาพผู้ทรงอิทธิพลหลัก 
+
+ขณะนี้ ภาพผู้ทรงอิทธิพลหลักพร้อมใช้งานแล้วบนแอปสำหรับอุปกรณ์เคลื่อนที่ ภาพนี้จะช่วยให้คุณทำการวิเคราะห์ตัวควบคุมหลักกับข้อมูลของคุณด้วยการแตะเพียงไม่กี่ครั้ง
 
 ### <a name="add-comments-to-report-content-android-and-ios"></a>เพิ่มข้อคิดเห็นลงในเนื้อหารายงาน (Android และ iOS)
-ตอนนี้ คุณสามารถใช้ข้อคิดเห็นเพื่อทำงานร่วมกัน และแชร์คำติชมของคุณบนหน้ารายงานและรูปภาพ อ่านเพิ่มเติมเกี่ยวกับรายงานที่แสดงข้อคิดเห็นในบริการ Power BI และ Mobile [ในบล็อกนี้](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/) 
 
-### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>ขยายมุมมองโหมดเต็มหน้าจอ (Android และ iOS)
-เราได้เพิ่มปุ่มใหม่ที่ช่วยให้คุณควบคุมเมื่อการเน้นข้อมูลของคุณ ด้วยการเอารายงานหัวกระดาษและท้ายกระดาษให้พื้นที่สูงสุดสำหรับการดูรายงานของคุณ
+ตอนนี้ คุณสามารถใช้ข้อคิดเห็นเพื่อทำงานร่วมกันและแชร์คำติชมของคุณบนหน้ารายงานและการแสดงผลด้วยภาพ อ่านเพิ่มเติมเกี่ยวกับการแสดงข้อคิดเห็นของรายงานในบริการ Power BI และอุปกรณ์เคลื่อนที่ [ในบล็อกนี้](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/) 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>ขยายมุมมองด้วยโหมดเต็มหน้าจอ (Android และ iOS)
+
+เราได้เพิ่มปุ่มใหม่ที่ช่วยให้คุณสามารถควบคุมเมื่อต้องการเน้นข้อมูลของคุณ โดยการลบส่วนหัวและส่วนท้ายของรายงาน และขยายพื้นที่การดูรายงานของคุณสูงสุด
 
 ## <a name="march-2019"></a>มีนาคม 2019
 
@@ -42,20 +71,20 @@ ms.locfileid: "65991039"
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>การเพิ่มประสิทธิภาพโหมดการนำเสนองาน Windows พร้อมการนำเสนอภาพนิ่ง (Windows)
 
-ด้วย[นำเสนอภาพนิ่ง](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/)คุณสามารถใช้สาธารณะแสดงอยู่ใน office ของคุณเพื่อเรียกใช้รายงาน Power BI แบบเต็มหน้าจอที่จะอัตโนมัติหมุนระหว่างหน้ารายงานได้  
+ด้วย[การนำเสนอภาพนิ่ง](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/)คุณสามารถใช้การแสดงผลแบบสาธารณะในสำนักงานของคุณเพื่อเรียกใช้รายงาน Power BI แบบเต็มหน้าจอซึ่งจะหมุนเองโดยอัตโนมัติระหว่างหน้ารายงาน  
 
-### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>สนับสนุนรายงาน PBI RS เหนือการกำหนดค่า ADFS และ WAP (iOS เท่านั้น)
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>การสนับสนุนรายงาน PBI-RS ในการกำหนดค่า ADFS และ WAP (iOS เท่านั้น)
 
-รายงาน power BI (PBIX) โฮสต์ใน PBI RS เหนือกำหนดค่า ADFS สามารถสามารถเข้าถึงได้จากแอป iOS Power BI
+ขณะนี้ รายงาน Power BI (PBIX) ที่โฮสต์ใน PBI RS ในการกำหนดค่า ADFS สามารถเข้าถึงได้จากแอป Power BI ระบบ iOS
 
-### <a name="enabling-single-tap-interaction-with-report-visuals"></a>เปิดใช้งานการโต้ตอบแตะเดียวกับวิชวลในรายงาน
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>การเปิดใช้งานการโต้ตอบแบบแตะครั้งเดียวกับภาพในรายงาน
 
-เราได้เปลี่ยนการโต้ตอบรายงานดังนั้นคุณจะต้องเดียวเท่านั้นแตะบนภาพ ปุ่ม หรือตัวแบ่งส่วนข้อมูลเพื่อโต้ตอบกับข้อมูลทันที ผู้ใช้จะไม่จำเป็นต้องแตะบนภาพ เพื่อเลือก และแตะอีกครั้งเพื่อใช้งาน แตะเดียวจะทำได้
+เราได้เปลี่ยนการโต้ตอบรายงาน ดังนั้นคุณจะต้องแตะบนภาพ ปุ่ม หรือตัวแบ่งส่วนข้อมูลเพียงครั้งเดียวเท่านั้นเพื่อโต้ตอบกับข้อมูลทันที ผู้ใช้จะไม่จำเป็นต้องแตะบนภาพเพื่อเลือก และแตะอีกครั้งเพื่อโต้ตอบ การแตะครั้งเดียวจะดำเนินการทั้งหมด
 
-![โต้ตอบแตะเดียว](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+![การโต้ตอบแบบแตะครั้งเดียว](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> ผู้ใช้ที่มีอยู่จะต้องเปิดใช้งานลักษณะการทำงานนี้ในการตั้งค่าแอป สำหรับข้อมูลเพิ่มเติม ดู[วิธีการกำหนดค่าการโต้ตอบรายงานแตะเดียว](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap)บทความ
+> ผู้ใช้เดิมจะต้องเปิดใช้งานลักษณะการทำงานนี้ในการตั้งค่าแอป สำหรับข้อมูลเพิ่มเติม ให้ดูที่บทความ[วิธีการกำหนดค่าการโต้ตอบรายงานแบบแตะครั้งเดียว](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap)
 
 ## <a name="january---february-2019"></a>มกราคม - กุมภาพันธ์ 2019
  

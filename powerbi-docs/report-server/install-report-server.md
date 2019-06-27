@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187732"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839431"
 ---
 # <a name="install-power-bi-report-server"></a>ติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 
@@ -22,11 +22,11 @@ ms.locfileid: "66187732"
 
 ## <a name="download-power-bi-report-server"></a>ดาวน์โหลด Power BI Report Server
 
-[ดาวน์โหลด Power BI Report Server](https://www.microsoft.com/download/details.aspx?id=56722)จากศูนย์ดาวน์โหลด Microsoft
+[ดาวน์โหลดเซิร์ฟเวอร์รายงาน Microsoft Power BI](https://www.microsoft.com/download/details.aspx?id=56722) จากศูนย์ดาวน์โหลด Microsoft
 
-ยังมีเวอร์ชันทดลองใช้ฟรี บนการ[ภายในองค์กรด้วยเซิร์ฟเวอร์รายงาน Power BI](https://powerbi.microsoft.com/report-server/)หน้า เลือก**ดาวน์โหลดเวอร์ชันทดลองใช้ฟรี**
+ยังมีรุ่นทดลองใช้ฟรี ในหน้า[การรายงานภายในองค์กรกับเซิร์ฟเวอร์รายงาน Power BI](https://powerbi.microsoft.com/report-server/) เลือก**ดาวน์โหลดรุ่นทดลองใช้ฟรี**
 
-## <a name="before-you-install"></a>ก่อนที่คุณติดตั้ง
+## <a name="before-you-install"></a>ก่อนที่คุณจะติดตั้ง
 
 ก่อนที่คุณจะติดตั้ง Power BI Report Server เราขอแนะนำให้คุณตรวจสอบ [ข้อกำหนดของฮาร์ดแวร์และซอฟต์แวร์สำหรับการติดตั้ง Power BI Report Server](system-requirements.md)
 
@@ -35,7 +35,7 @@ ms.locfileid: "66187732"
 
 ### <a name="power-bi-report-server-product-key"></a>คีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI
 
-คุณสามารถรับคีย์ผลิตภัณฑ์สำหรับเซิร์ฟเวอร์รายงาน Power BI จากแหล่งข้อมูลอื่นสอง:
+คุณสามารถรับคีย์ผลิตภัณฑ์สำหรับเซิร์ฟเวอร์รายงาน Power BI จากแหล่งข้อมูลอื่นสองแห่ง:
 
 - Power BI Premium
 - SQL Server Enterprise Software Assurance (SA)
@@ -75,8 +75,8 @@ ms.locfileid: "66187732"
 
     ![รุ่น 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    มิฉะนั้น ใส่คีย์ผลิตภัณฑ์ที่คุณได้รับจากบริการ Power BI หรือศูนย์บริการ Volume License สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการรับคีย์ผลิตภัณฑ์ของคุณ ดู[ก่อนที่คุณติดตั้ง](#before-you-install)ส่วนด้านบน
-4. อ่าน และยอมรับเงื่อนไขและข้อกำหนดสิทธิ์การใช้งาน จาก นั้นเลือก**ถัดไป**
+    หรือป้อนคีย์ผลิตภัณฑ์ที่คุณได้รับมาจากบริการของ Power BI หรือศูนย์บริการ Volume License ดูที่ส่วน[ก่อนที่คุณจะติดตั้ง](#before-you-install)ข้างต้น สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการรับคีย์ผลิตภัณฑ์ของคุณ
+4. อ่านและยอมรับเงื่อนไขและข้อกำหนดสิทธิ์การใช้งาน จากนั้นเลือก**ถัดไป**
 
     ![ข้อกำหนดสิทธิ์การใช้งาน](media/install-report-server/pbireportserver-eula.png)
 5. คุณจำเป็นต้องมีกลไลจัดการฐานข้อมูลที่พร้อมใช้งานเพื่อจัดเก็บฐานข้อมูลเซิร์ฟเวอร์รายงาน เลือก**ถัดไป**เพื่อติดตั้งเซิร์ฟเวอร์รายงานเท่านั้น
@@ -152,7 +152,7 @@ ms.locfileid: "66187732"
 
 [ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
 [วิธีการค้นหาคีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงานของคุณ](find-product-key.md)  
-[ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](install-powerbi-desktop.md)  
+[ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับ Power BI Report Server](install-powerbi-desktop.md)  
 [ตรวจสอบการติดตั้งบริการการรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 [กำหนดค่าบัญชีผู้ใช้บริการเซิร์ฟเวอร์รายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
 [กำหนดค่า URL ของเซิร์ฟเวอร์รายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  

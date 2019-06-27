@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/10/2019
+ms.openlocfilehash: 6aebc45f2341f098f0f54dad66652967077c2a08
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61354139"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823422"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>การรักษาความปลอดภัยระดับแถวด้วย Power BI Embedded
 
@@ -215,7 +215,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 7. ใช้ Power BI API เพื่อใช้ฟีเจอร์ CustomData ในแอปพลิเคชันของคุณ  เมื่อสร้างโทเค็นด้วยคุณลักษณะข้อมูลแบบกำหนดเอง คุณต้องมีชื่อผู้ใช้ ชื่อผู้ใช้ต้องตรงกันกับ UPN ของผู้ใช้หลัก ผู้ใช้หลักต้องเป็นสมาชิกของบทบาทคุณสร้างขึ้น ทุกบทบาทของผู้ใช้หลักที่เข้าเป็นสมาชิกจะถูกประเมินโดย RLS ถ้าไม่มีการกำหนดบทบาทอย่างชัดเจน
 
-    เมื่อทำงานกับการ[บริการหลัก](embed-service-principal.md)คุณยังจำเป็นต้องทำตามขั้นตอนด้านบนแทนที่ใช้บัญชีผู้ใช้หลัก เมื่อสร้างโทเค็นฝัง ใช้[บริการ ID ออบเจ็กต์หลัก](embed-service-principal.md#how-to-get-the-service-principal-object-id)เป็นชื่อผู้ใช้
+    เมื่อทำงานกับ[โครงร่างสำคัญของบริการ](embed-service-principal.md) คุณยังจำเป็นต้องทำตามขั้นตอนข้างต้นโดยใช้บัญชีผู้ใช้หลัก เมื่อสร้างโทเค็นแบบฝัง ให้ใช้ [ID ออบเจ็กต์โครงร่างสำคัญของบริการ](embed-service-principal.md#how-to-get-the-service-principal-object-id)เป็นชื่อผู้ใช้
 
     > [!Note]
     > เมื่อคุณพร้อมที่จะให้แอปพลิเคชันของคุณเข้าสู่กระบวนการผลิต ข้อมูลบัญชีของผู้ใช้หลักจะต้องไม่ให้ผู้ใช้ปลายทางสามารถมองเห็นได้
@@ -310,7 +310,7 @@ public IdentityBlob(string value);
 
    ![การลงทะเบียนแอปฯ](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
-## <a name="on-premises-data-gateway-with-service-principal-preview"></a>เกตเวย์ข้อมูลภายในองค์กรด้วยบริการหลัก (ตัวอย่าง)
+## <a name="on-premises-data-gateway-with-service-principal"></a>เกตเวย์ข้อมูลภายในองค์กรด้วยโครงร่างสำคัญของบริการ
 
 ลูกค้าที่กำหนดค่าการรักษาความปลอดภัยระดับแถว (RLS) ใช้แหล่งข้อมูลแบบเชื่อมต่อสดภายในองค์กรของ SQL Server Analysis Services (SSAS) สามารถเพลิดเพลินไปกับความจุของ [บริการหลัก](embed-service-principal.md)ใหม่ในการจัดการผู้ใช้และการเข้าถึงข้อมูลใน SSAS ของพวกเขาเมื่อรวมเข้ากับ**Power BI Embedded**
 

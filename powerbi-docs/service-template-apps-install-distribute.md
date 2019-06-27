@@ -5,24 +5,24 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: 2b7b2630e665fca9013920718ff58dd973f01392
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0671dfb324b3d66a9dee9585f94d3cb6825fb5eb
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578564"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751239"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>แจกจ่ายแอปแม่แบบในองค์กรของคุณ - Power BI (ตัวอย่าง)
 
-คุณจะเป็นนักวิเคราะห์ Power BI หรือไม่ ถ้าดังนั้น บทความนี้อธิบายวิธีการติดตั้ง*เทมเพลแอ*เพื่อเชื่อมต่อกับบริการคุณใช้เพื่อเรียกใช้ธุรกิจของคุณ เช่น Salesforce, Microsoft Dynamics และ Google Analytics จำนวนมาก คุณสามารถปรับเปลี่ยนแดชบอร์ดและรายงานตามความต้องการขององค์กรของคุณ และกระจายให้เพื่อนร่วมงานของคุณเป็นแอ*แอ*ได้ 
+คุณเป็นนักวิเคราะห์ Power BI หรือไม่ ถ้าใช่ บทความนี้จะอธิบายวิธีการติดตั้ง*แอปเทมเพลต*เพื่อเชื่อมต่อกับบริการมากมายที่คุณใช้เพื่อดำเนินธุรกิจ เช่น Salesforce, Microsoft Dynamics และ Google Analytics คุณสามารถปรับเปลี่ยนแดชบอร์ดและรายงานตามความต้องการขององค์กรของคุณ และแจกจ่ายให้เพื่อนร่วมงานของคุณเป็น*แอป*ได้ 
 
 ![Power BI ได้ติดตั้งแล้ว](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-ถ้าคุณสนใจในการสร้างแอปแม่แบบเพื่อกระจายด้วยตนเอง ดู[สร้างแอปแม่แบบใน Power BI](service-template-apps-create.md) Power BI คู่ค้าสามารถสร้างแอป Power BI ด้วยเพียงเล็กน้อย หรือไม่มีการเข้ารหัส และปรับใช้กับลูกค้า Power BI 
+ถ้าคุณสนใจในการสร้างแอปแม่แบบเพื่อกระจายด้วยตนเอง ดู[สร้างแอปแม่แบบใน Power BI](service-template-apps-create.md) คู่ค้า Power BI สามารถสร้างแอป Power BI ด้วยโค๊ดเพียงเล็กน้อยหรือไม่มีเลย และปรับใช้กับลูกค้า Power BI ได้ 
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น  
 

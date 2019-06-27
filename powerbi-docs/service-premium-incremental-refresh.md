@@ -1,21 +1,21 @@
 ---
 title: การรีเฟรชแบบเพิ่มหน่วยใน Power BI Premium
 description: เรียนรู้วิธีการเปิดใช้งานชุดข้อมูลขนาดใหญ่ในบริการ Power BI Premium
-author: christianwade
+author: mgblythe
 manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/10/2019
-ms.author: chwade
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b338044433d1d87f07ab38d64c15974a1cfaa173
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ee5ec87e04517ce93589b371e97116acbcb02e87
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65536140"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408584"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>การรีเฟรชแบบเพิ่มหน่วยใน Power BI Premium
 
@@ -41,7 +41,7 @@ ms.locfileid: "65536140"
 
 #### <a name="rangestart-and-rangeend-parameters"></a>พารามิเตอร์ RangeStart และ RangeEnd
 
-เมื่อต้องการใช้ประโยชน์จากการรีเฟรชแบบเพิ่มหน่วยในบริการ Power BI จะต้องกรองโดยใช้พารามิเตอร์วันที่/เวลาของ Power Query ที่มีชื่อที่จองไว้ โดยต้องตรงตามตัวพิมพ์เล็กใหญ่ **RangeStart** และ **RangeEnd** พารามิเตอร์เหล่านี้จะใช้ เพื่อกรองข้อมูลนำเข้าลงใน Power BI Desktop รวม ถึงแบบไดนามิกพาร์ติชันข้อมูลลงในช่วงที่หลังจากเผยแพร่ไปยังบริการ Power BI ค่าพารามิเตอร์จะแทน โดยบริการเพื่อกรองข้อมูลสำหรับแต่ละพาร์ติชัน เมื่อเผยแพร่แล้ว ค่าพารามิเตอร์จะถูกเขียนทับโดยบริการ Power BI โดยอัตโนมัติ ไม่จำเป็นต้องตั้งค่าพารามิเตอร์ในการตั้งค่าชุดข้อมูลในบริการ เมื่อเผยแพร่แล้ว ค่าพารามิเตอร์จะถูกเขียนทับโดยบริการ Power BI โดยอัตโนมัติ 
+เมื่อต้องการใช้ประโยชน์จากการรีเฟรชแบบเพิ่มหน่วยในบริการ Power BI จะต้องกรองโดยใช้พารามิเตอร์วันที่/เวลาของ Power Query ที่มีชื่อที่จองไว้ โดยต้องตรงตามตัวพิมพ์เล็กใหญ่ **RangeStart** และ **RangeEnd** พารามิเตอร์เหล่านี้จะใช้ เพื่อกรองข้อมูลนำเข้าลงใน Power BI Desktop รวม ถึงแบบไดนามิกพาร์ติชันข้อมูลลงในช่วงที่หลังจากเผยแพร่ไปยังบริการ Power BI ค่าพารามิเตอร์จะแทน โดยบริการเพื่อกรองข้อมูลสำหรับแต่ละพาร์ติชัน ไม่จำเป็นต้องตั้งค่าพารามิเตอร์ในการตั้งค่าชุดข้อมูลในบริการ เมื่อเผยแพร่แล้ว ค่าพารามิเตอร์จะถูกเขียนทับโดยบริการ Power BI โดยอัตโนมัติ
 
 เมื่อต้องกำหนดพารามิเตอร์ ด้วยค่าเริ่มต้น ใน Power Query Editor เลือก**จัดการพารามิเตอร์**
 
@@ -163,4 +163,4 @@ in
 
 ## <a name="limitations"></a>ข้อจำกัด
 
-ในปัจจุบัน สำหรับ[โมเดลแบบรวม](desktop-composite-models.md)รีเฟรชแบบเพิ่มหน่วยได้รับการสนับสนุนสำหรับ SQL, Oracle และแหล่งข้อมูล Teradata เท่านั้น
+ในปัจจุบัน สำหรับ[โมเดลแบบรวม](desktop-composite-models.md) รองรับการรีเฟรชแบบเพิ่มสำหรับ SQL, Oracle และแหล่งข้อมูล Teradata เท่านั้น

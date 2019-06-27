@@ -1,20 +1,20 @@
 ---
 title: การสัมมนาออนไลน์ Power BI
 description: การสัมมนาออนไลน์ Power BI
-author: maikelson
+author: v-tatero
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.author: maikelson
-ms.openlocfilehash: a2db3f8c88231663ecb115c4609d3af177d96292
-ms.sourcegitcommit: 9da792d470dfe43dc6e15ddef5d471f3f6c50970
+ms.date: 06/01/2019
+ms.author: v-tatero
+ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66453782"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750988"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -22,7 +22,15 @@ ms.locfileid: "66453782"
 
 ## <a name="upcoming-webinars"></a>สัมมนาผ่านเว็บที่กำลังมาถึง
 
-สัมมนาผ่านเว็บยังไม่จัดกำหนดการ กรุณาตรวจสอบใหม่เพื่อดูงานที่จะจัดในอนาคต
+ลงทะเบียนเพื่อรับข่าวสารจากผู้เชี่ยวชาญ Power BI และมีส่วนร่วมในเซสชันการถามตอบแบบออนไลน์
+
+**เรียกใช้ Microsoft บน Power BI: การใช้ Power BI ใน Modern Treasury**
+<br>โดย Pankaj Gudimella และ Guru Kirthigavasan
+<br>[ลงทะเบียนเพื่อดูในวันที่ 25 มิถุนายน เวลา 10:00 – 11:00 น. ตามเวลา PST](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+
+**Power BI: วิธีการรับข้อมูลเชิงลึกจากข้อมูล HR เกี่ยวกับวันทำงานของคุณ**
+<br>โดย Iman Eftekhari, Julia Paton จาก Agile Analytics และ Shahram Karimi จาก QBE Insurance
+<br>[ลงทะเบียนเพื่อดูในวันที่ 27 มิถุนายน เวลา 13:30 – 14:30 น. ตามเวลา PST](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 >[การสัมมนาผ่านเว็บที่กำลังมาถึงจากชุมชน Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

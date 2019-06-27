@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 79789e4a90167e440f859e73048e5972d2a5aacb
-ms.sourcegitcommit: 2df541facab8a1621953e91dbbee18c7d4e9a3c3
+ms.openlocfilehash: e24218e2a465619fdfbfc279d3cc45370202dd6e
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "64865268"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66814763"
 ---
 ## <a name="sign-in-account"></a>ลงชื่อเข้าใช้บัญชี
 
@@ -23,7 +23,7 @@ ms.locfileid: "64865268"
 
 เกตเวย์สร้างการเชื่อมต่อขาออกไปยัง Azure Service Bus ซึ่งจะสื่อสารบนพอร์ตขาออก: TCP 443 (ค่าเริ่มต้น), 5671, 5672, 9350 ไปจนถึง 9354  เกตเวย์ไม่จำเป็นต้องใช้พอร์ตขาเข้า
 
-เราแนะนำให้คุณอนุญาตที่อยู่ IP สำหรับเขตข้อมูลของคุณไว้ในไฟร์วอลล์ของคุณ คุณสามารถดาวน์โหลด[รายการ IP ของศูนย์ข้อมูล Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653) ได้ โดยมีการอัปเดตทุกสัปดาห์ อีกวิธีหนึ่งคือ คุณสามารถขอรับรายการพอร์ตที่กำหนด โดยทำการ[ทดสอบพอร์ตเครือข่าย](../service-gateway-onprem-tshoot.md#network-ports-test)บนแอปพลิเคชันเกตเวย์ข้อมูลแบบติดตั้งภายในองค์กรได้ เกตเวย์จะสื่อสารกับ Azure Service Bus โดยใช้ที่อยู่ IP พร้อมกับชื่อโดเมนแบบที่มีคุณสมบัติครบถ้วน (FQDN) ถ้าคุณกำลังบังคับให้เกตเวย์สื่อสารโดยใช้ HTTPS เกตเวย์จะใช้ FQDN เท่านั้นและจะไม่มีการสื่อสารโดยใช้ที่อยู่ IP เกิดขึ้น
+เราแนะนำให้คุณเพิ่มที่อยู่ IP ในรายการที่อนุญาตสำหรับเขตข้อมูลของคุณไว้ในไฟร์วอลล์ คุณสามารถดาวน์โหลด[รายการ IP ของศูนย์ข้อมูล Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653) ได้ โดยมีการอัปเดตทุกสัปดาห์ อีกวิธีหนึ่งคือ คุณสามารถขอรับรายการพอร์ตที่กำหนด โดยทำการ[ทดสอบพอร์ตเครือข่าย](../service-gateway-onprem-tshoot.md#network-ports-test)บนแอปพลิเคชันเกตเวย์ข้อมูลแบบติดตั้งภายในองค์กรได้ เกตเวย์จะสื่อสารกับ Azure Service Bus โดยใช้ที่อยู่ IP พร้อมกับชื่อโดเมนแบบที่มีคุณสมบัติครบถ้วน (FQDN) ถ้าคุณกำลังบังคับให้เกตเวย์สื่อสารโดยใช้ HTTPS เกตเวย์จะใช้ FQDN เท่านั้นและจะไม่มีการสื่อสารโดยใช้ที่อยู่ IP เกิดขึ้น
 
 
 > [!NOTE]
@@ -51,7 +51,12 @@ ms.locfileid: "64865268"
 
 ## <a name="forcing-https-communication-with-azure-service-bus"></a>บังคับให้ HTTPS สื่อสารกับ Azure Service Bus
 
-คุณสามารถบังคับให้เกตเวย์สื่อสารกับ Azure Service Bus โดยใช้ HTTPS แทนการใช้ TCP โดยตรง โดยการใช้ HTTPS อาจมีผลกระทบต่อประสิทธิภาพการทำงาน เมื่อต้องการทำเช่นนั้น แก้ไขไฟล์*Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*โดยการเปลี่ยนค่าจาก`AutoDetect`เป็น`Https`ตามที่แสดงในข้อมูลรหัสโดยตรงตามย่อหน้านี้ ไฟล์อยู่ที่ (ตามค่าเริ่มต้น) ที่*C:\Program Files\เกตเวย์ข้อมูลที่ติดตั้งภายในองค์กร*
+คุณสามารถบังคับให้เกตเวย์สื่อสารกับ Azure Service Bus โดยใช้ HTTPS แทนการใช้ TCP โดยตรง
+
+> [!NOTE]
+> การติดตั้งใหม่ (ไม่อัปเดต) ตั้งเป็นค่าเริ่มต้นเป็น HTTPS แทน TCP ตามคำแนะนำจาก Azure Service Bus โดยเริ่มต้นด้วยการเผยแพร่ในเดือนมิถุนายน 2019
+
+เพื่อบังคับใช้การสื่อสารผ่าน HTTPS ให้แก้ไขไฟล์*Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*โดยการเปลี่ยนค่าจาก`AutoDetect`เป็น`Https`ตามที่แสดงในข้อมูลรหัสโดยตรงตามย่อหน้านี้ ไฟล์อยู่ที่ (ตามค่าเริ่มต้น) ที่*C:\Program Files\เกตเวย์ข้อมูลที่ติดตั้งภายในองค์กร*
 
 ```xml
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
@@ -59,7 +64,7 @@ ms.locfileid: "64865268"
 </setting>
 ```
 
-ค่าสำหรับพารามิเตอร์ *ServiceBusSystemConnectivityModeString* ไวต่อตัวอักษรตัวใหญ่-ตัวเล็ก ค่าที่ถูกต้องคือ *AutoDetect* และ *Https* 
+ค่าสำหรับพารามิเตอร์ *ServiceBusSystemConnectivityModeString* ไวต่อตัวอักษรตัวใหญ่-ตัวเล็ก ค่าที่ถูกต้องคือ *AutoDetect* และ *Https*
 
 อีกวิธีหนึ่งคือ คุณสามารถบังคับให้เกตเวย์ปรับใช้ลักษณะการทำงานนี้โดยใช้หน้าจอผู้ใช้เกตเวย์ได้ ในหน้าจอผู้ใช้เกตเวย์ เลือก**เครือข่าย**แล้วสลับโหมดการเชื่อมต่อ **Azure Service Bus**เป็น**เปิดใช้งาน**
 

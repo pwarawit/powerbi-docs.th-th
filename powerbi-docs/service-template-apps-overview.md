@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/26/2019
 ms.author: maggies
-ms.openlocfilehash: 0ea8f19fa36bf1f9ceb5f8f0b92bd53ebdfa2a01
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578530"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751111"
 ---
 # <a name="what-are-power-bi-template-apps-preview"></a>แอปแม่แบบ Power BI คืออะไร (ตัวอย่าง)
 
@@ -24,10 +24,10 @@ ms.locfileid: "64578530"
 
 คุณสร้างแอปแม่แบบที่ช่วยให้ลูกค้าของคุณสามารถเชื่อมต่อและสร้างอินสแตนซ์ด้วยบัญชีของตนเอง ในฐานะเป็นผู้เชี่ยวชาญด้านโดเมน พวกเขาสามารถปลดล็อกข้อมูลในลักษณะที่ผู้ใช้งานทางธุรกิจสามารถใช้งานได้อย่างง่ายดาย  
 
-คุณส่งแอแม่แบบของคุณไปยังพอร์ทัลค้า Cloud แอปพร้อมใช้งานแบบสาธารณะแล้วในแกลเลอรีของอป Power BI (app.powerbi.com/getdata/services) และบน Microsoft AppSource (appsource.microsoft.com) นี่คือเทมเพลสาธารณะแอประสบการณ์ในการสร้างมุมมองระดับสูง  
+คุณส่งแอปเทมเพลตของคุณไปยังพอร์ทัล Cloud Partner แอปพร้อมใช้งานแบบสาธารณะแล้วในแกลเลอรีของอป Power BI (app.powerbi.com/getdata/services) และบน Microsoft AppSource (appsource.microsoft.com) นี่คือภาพรวมระดับสูงที่ประสบการณ์การสร้างแอปเทมเพลตสาธารณะ  
 
 ## <a name="process"></a>กระบวนการ
-กระบวนการพัฒนา และส่งเป็นเทมเพลแอทั่วไปเกี่ยวข้องกับหลายขั้น ขั้นตอนบางอย่างสามารถรวมกิจกรรมมากกว่าหนึ่งรายการในเวลาเดียวกัน
+ขั้นตอนทั่วไปในการพัฒนาและการส่งแอปเทมเพลตที่มีหลายขั้นตอน ขั้นตอนบางอย่างสามารถรวมกิจกรรมมากกว่าหนึ่งรายการในเวลาเดียวกัน
 
 
 | ขั้น | Power BI Desktop |  |บริการ Power BI  |  |พอร์ทัล Cloud Partner  |
