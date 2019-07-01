@@ -417,50 +417,46 @@
           href: service-whats-new.md
         - name: แนวคิดพื้นฐาน
           items:
-            - name: แนวคิดพื้นฐานสำหรับนักออกแบบ
+            - name: 'เข้าใจบริการของ Power BI:'
               href: service-basic-concepts.md
-            - name: ชนิดของข้อมูลใน Power BI
-              href: service-get-data.md
             - name: แนะนำตัวแก้ไขรายงาน
               href: service-the-report-editor-take-a-tour.md
-        - name: เวิร์กโฟลว์ใน Power BI
-          items:
-            - name: การจัดระเบียบงานของคุณ
-              href: service-new-workspaces.md
-            - name: วิธีการแชร์งานของคุณ
-              href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: การปรับปรุงข้อมูลให้ทันสมัยเสมอ
+            - name: แหล่งข้อมูล Power BI
+              href: service-get-data.md
+            - name: การรีเฟรชข้อมูลใน Power BI
               href: refresh-data.md
-            - name: การตรวจสอบการใช้งาน
+        - name: ทำงานร่วมกันใน Power BI
+          items:
+            - name: จัดระเบียบงานของคุณ
+              href: service-new-workspaces.md
+            - name: แชร์งานของคุณ
+              href: service-how-to-collaborate-distribute-dashboards-reports.md
+            - name: จับตาดูการใช้งาน Power BI พรีเมียม
               href: service-usage-metrics.md
         - name: สิทธิ์การใช้งาน
           items:
-            - name: ลงชื่อสมัครใช้บริการด้วยตนเอง
+            - name: ลงทะเบียนใช้งาน Power BI
               href: service-self-service-signup-for-power-bi.md
-            - name: สิทธิการใช้งานในองค์กรของคุณ
+            - name: จัดการใบอนุญาตการใช้งาน Power BI
               href: service-admin-licensing-organization.md
             - name: คุณลักษณะตามประเภทของสิทธิ์การใช้งาน
               href: service-features-license-type.md
-        - name: แนวคิดเพิ่มเติม
+            - name: Power BI สำหรับภาครัฐของประเทศสหรัฐอเมริกา
+              href: service-govus-overview.md
+            - name: ถามที่ถามบ่อยสำหรับลูกค้า Germany Cloud
+              href: service-govde-faq.md
+        - name: ดูวิธีใช้และการสนับสนุน
           items:
-            - name: 10 เคล็ดลับสำหรับการรับความช่วยเหลือ
-              href: service-tips-for-finding-help.md
             - name: ตัวเลือกการสนับสนุนสำหรับ Power BI
               href: service-support-options.md
-            - name: การให้สิทธิการใช้งานกรณีพิเศษ
-              items:
-                - name: การเปิดใช้งานรุ่นทดลองใช้ Pro ถูกขยายเวลา
-                  href: service-extended-pro-trial.md
-                - name: Power BI สำหรับภาครัฐของประเทศสหรัฐอเมริกา
-                  href: service-govus-overview.md
-                - name: ถามที่ถามบ่อยสำหรับลูกค้า Germany Cloud
-                  href: service-govde-faq.md
-            - name: อื่น ๆ
-              items:
-                - name: Microsoft Flow และ Power BI
-                  href: service-flow-integration.md
-                - name: เริ่มใช้งานแอปของบริษัทอื่น
-                  href: service-power-bi-get-started-third-party-apps.md
+            - name: 10 เคล็ดลับสำหรับการรับความช่วยเหลือ
+              href: service-tips-for-finding-help.md
+        - name: ขยาย Power BI
+          items:
+            - name: Microsoft Flow และ Power BI
+              href: service-flow-integration.md
+            - name: ใช้แอปของบุคคลที่สาม
+              href: service-power-bi-get-started-third-party-apps.md
     - name: วิธีการ
       items:
         - name: รับข้อมูลจากไฟล์
@@ -859,14 +855,12 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: ยุติการเชื่อมต่อกับชุดเนื้อหา
                   href: service-organizational-content-pack-disconnect.md
+        - name: การอ้างอิง
+          items:
+            - name: ภาษาที่รองรับและประเทศ/ภูมิภาค
+          href: supported-languages-countries-regions.md
     - name: ทรัพยากร
       items:
-        - name: วิดีโอ
-          href: videos.md
-        - name: สัมมนาผ่านเว็บ
-          href: webinars.md
-        - name: ภาษาที่รองรับและประเทศ/ภูมิภาค
-          href: supported-languages-countries-regions.md
         - name: เอกสารทางเทคนิค
           items:
             - name: ภาพรวมเอกสารทางเทคนิค
@@ -877,6 +871,10 @@
               href: whitepaper-powerbi-premium-deployment.md
             - name: กระจาย Power BI ภายนอกโดยใช้ Azure Active Directory B2B
               href: whitepaper-azure-b2b-power-bi.md
+        - name: วิดีโอ
+          href: videos.md
+        - name: สัมมนาผ่านเว็บ
+          href: webinars.md
 - name: Power BI Premium
   items:
     - name: ภาพรวม

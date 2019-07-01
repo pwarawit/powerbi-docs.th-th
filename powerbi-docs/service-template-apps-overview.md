@@ -1,22 +1,22 @@
 ---
-title: แอปแม่แบบ Power BI คืออะไร (ตัวอย่าง)
+title: แอปแม่แบบ Power BI คืออะไร
 description: บทความนี้คือภาพรวมของโปรแกรมแอปแม่แบบ Power BI เรียนรู้วิธีสร้างแอป Power BI ด้วยโค๊ดเพียงเล็กน้อยหรือไม่มีเลย และปรับใช้กับลูกค้า Power BI ทุกท่าน
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/26/2019
-ms.author: maggies
-ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/24/2019
+ms.author: tebercov
+ms.openlocfilehash: c05b53a5fd61d348b6d304b17123d5f2497ab647
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751111"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408211"
 ---
-# <a name="what-are-power-bi-template-apps-preview"></a>แอปแม่แบบ Power BI คืออะไร (ตัวอย่าง)
+# <a name="what-are-power-bi-template-apps"></a>แอปแม่แบบ Power BI คืออะไร
 
 แอป*แม่แบบ Power BI*ใหม่เปิดให้คู่ค้า Power BI สร้างแอป Power BI ด้วยโค๊ดเพียงเล็กน้อยหรือไม่มีเลย และปรับใช้กับลูกค้า Power BI ทุกท่าน  บทความนี้คือภาพรวมของโปรแกรมแอปแม่แบบ Power BI
 
@@ -37,7 +37,7 @@ ms.locfileid: "66751111"
 | **สาม** | |  | เลื่อนระดับแพคเกจทดสอบเป็นเตรียมการผลิตสำหรับการตรวจสอบนอกผู้เช่า Power BI ของคุณและส่งไปที่ AppSource  |  | แพคเกจเตรียมการผลิตของคุณ สร้างแอปแม่แบบ Power BI และเริ่มกระบวนการตรวจสอบ |
 | **สี่** | |  | เลื่อนระดับแพคเกจเตรียมการผลิตไปเป็นการผลิต |  | ถ่ายทอดสด |
 
-## <a name="requirements"></a>ข้อกำหนด
+## <a name="before-you-begin"></a>ก่อนที่คุณเริ่มต้น
 
 สร้างแอปแม่แบบ คุณต้องมีสิทธิ์เข้าถึงเพื่อสร้างแอปแม่แบบ ดูพอร์ทัลของผู้ดูแลระบบ Power BI การตั้งค่าแอปแม่แบบสำหรับรายละเอียด 
 
@@ -57,7 +57,7 @@ ms.locfileid: "66751111"
 
 1. สร้างแพคเกจทดสอบเพื่อทดสอบแอปแม่แบบด้วยตนเองภายในองค์กรของคุณ 
 
-1. เลื่อนระดับแอปทดสอบเป็นเตรียมการผลิตสำหรับตรวจสอบใน AppSource และทดสอบภายนอกผู้เช่าของคุณเอง 
+1. เลื่อนระดับแอปทดสอบเป็นก่อนเตรียมการผลิตเพื่อส่งแอปสำหรับการตรวจสอบความถูกต้องใน AppSource และเพื่อทำการทดสอบภายนอกผู้เช่าของคุณเอง 
 
 1. ส่งเนื้อหาไปยัง Cloud Platform ของคู่ค้าสำหรับการเผยแพร่ 
 
@@ -66,9 +66,11 @@ ms.locfileid: "66751111"
 
 ## <a name="requirements"></a>ข้อกำหนด
 
-สร้างแอปแม่แบบ คุณต้องมีสิทธิ์เข้าถึงเพื่อสร้างแอปแม่แบบ ดู[พอร์ทัลของผู้ดูแลระบบ Power BI การตั้งค่าแอปแม่แบบ](service-admin-portal.md#template-apps-settings-preview)สำหรับรายละเอียด 
+สร้างแอปแม่แบบ คุณต้องมีสิทธิ์เข้าถึงเพื่อสร้างแอปแม่แบบ ดู[พอร์ทัลของผู้ดูแลระบบ Power BI การตั้งค่าแอปแม่แบบ](service-admin-portal.md#template-apps-settings)สำหรับรายละเอียด 
 
 การเผยแพร่เป็นแอปแม่แบบไปยังบริการ Power BI และ AppSource คุณต้องเป็นไปตามข้อกำหนดสำหรับ[กลายเป็นผู้เผยแพร่ใน Marketplace Cloud](https://docs.microsoft.com/azure/marketplace/become-publisher)
+ > [!NOTE] 
+ > การส่งแอปแม่แบบได้รับการจัดการใน[พอร์ทัล Cloud Partner](https://cloudpartner.azure.com) ใช้บัญชีที่ลงทะเบียนเดียวกันในศูนย์นักพัฒนา Microsoft เพื่อลงชื่อเข้าใช้ คุณควรมีบัญชี Microsoft บัญชีเดียวเท่านั้นสำหรับข้อเสนอ AppSource ของคุณ ไม่ควรมีบัญชีเฉพาะกับแต่ละบริการหรือข้อเสนอ
 
 ## <a name="tips"></a>เคล็ดลับ 
 
@@ -78,7 +80,7 @@ ms.locfileid: "66751111"
 - พิจารณาเสนอชุดเนื้อหามากกว่าหนึ่งชุด สำหรับสถานการณ์ที่แตกต่างกัน 
 - เปิดใช้งานการกำหนดค่าข้อมูล ตัวอย่าง สนับสนุนการเชื่อมต่อแบบกำหนดเองและการกำหนดค่าพารามิเตอร์ ด้วยตัวติดตั้ง
 
-ดู[เคล็ดลับสำหรับการเขียนแอปแม่แบบใน Power BI (ตัวอย่าง)](service-template-apps-tips.md)สำหรับคำแนะนำเพิ่มเติม
+ดู[เคล็ดลับสำหรับการเขียนแอปแม่แบบใน Power BI](service-template-apps-tips.md) สำหรับคำแนะนำเพิ่มเติม
 
 ## <a name="support"></a>การสนับสนุน
 สำหรับการสนับสนุนในระหว่างการพัฒนา กรุณาใช้ [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) เรากำลังตรวจสอบและจัดการไซต์นี้ ปัญหาของลูกค้าจะไปถึงทีมงานที่เกี่ยวข้องได้อย่างรวดเร็ว
