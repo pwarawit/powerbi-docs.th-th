@@ -225,12 +225,14 @@
               href: desktop-analytics-pane.md
             - name: ใช้ข้อมูลเชิงลึกเพื่ออธิบายการเพิ่มขึ้นและการลดลง
               href: desktop-insights.md
-            - name: ใช้ข้อมูลเชิงลึกเพื่อหาว่าการแจกจ่ายมีความแตกต่างกับแผนภูมิอย่างไร
+            - name: ใช้ข้อมูลเชิงลึกเพื่อค้นหาว่าการแจกจ่ายมีความแตกต่างกันในแผนภูมิที่ใด
               href: desktop-insights-find-where-different.md
             - name: บุ๊กมาร์กใน Power BI
               href: desktop-bookmarks.md
             - name: ใช้ชุดรูปแบบรายงาน
               href: desktop-report-themes.md
+            - name: ชนิดตัวกรอง
+              href: power-bi-report-filter-types.md
             - name: ลองใช้งานตัวกรองใหม่
               href: power-bi-report-filter-preview.md
             - name: ใช้หน่วยวัดด่วน
@@ -521,10 +523,8 @@
               href: refresh-excel-file-onedrive.md
             - name: รีเฟรชชุดข้อมูลจากไฟล์ .csv บน OneDrive
               href: refresh-csv-file-onedrive.md
-            - name: การแคชแบบสอบถามใน Power BI Premium
+            - name: การแคชคิวรีใน Power BI Premium
               href: power-bi-query-caching.md
-            - name: การแก้ไขปัญหาสถานการณ์สมมติในการรีเฟรช
-              href: refresh-troubleshooting-refresh-scenarios.md
         - name: แดชบอร์ด
           items:
             - name: แนะนำแดชบอร์ด
@@ -705,6 +705,8 @@
           items:
             - name: ลืมรหัสผ่านของคุณสำหรับ Power BI ใช่หรือไม่
               href: service-admin-forgot-your-password.md
+            - name: ลงชื่อเข้าใช้ไม่ได้ใช่ไหม?
+              href: power-bi-cannot-sign-in.md
             - name: กำลังจับข้อมูลการวินิจฉัยเพิ่มเติมสำหรับ Power BI
               href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
             - name: ที่อยู่อีเมลสำรองสำหรับ Power BI
@@ -713,26 +715,26 @@
               href: service-admin-how-to-use-the-same-account-as-azure.md
             - name: Office 365 มุ่งเน้น - ปัญหาที่ทราบแล้ว
               href: service-admin-office-365-dedicated-known-issues.md
-            - name: แก้ไขปัญหา Cortana
-              href: service-cortana-troubleshoot.md
-            - name: การแก้ไขปัญหาวิเคราะห์ใน Excel
-              href: desktop-troubleshooting-analyze-in-excel.md
-            - name: การแก้ไขปัญหาเกตเวย์ข้อมูลภายในองค์กร
+            - name: แก้ไขปัญหาสถานการณ์สมมติในการรีเฟรช
+              href: refresh-troubleshooting-refresh-scenarios.md
+            - name: แก้ไขปัญหาแหล่งข้อมูลที่ไม่รองรับสำหรับรีเฟรช
+              href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
+            - name: แก้ไขปัญหาการรีเฟรชตามกำหนดเวลาสำหรับ Azure SQL Database
+              href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
+            - name: แก้ไขปัญหาข้อผิดพลาดไทล์
+              href: refresh-troubleshooting-tile-errors.md
+            - name: แก้ไขปัญหาเกตเวย์ข้อมูลภายในองค์กร
               href: service-gateway-onprem-tshoot.md
             - name: แก้ไขปัญหาเกตเวย์ Power BI - ส่วนบุคคล
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
-            - name: แก้ไขปัญหาแหล่งข้อมูลไม่รองรับสำหรับรีเฟรช
-              href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-            - name: แก้ไขปัญหารีเฟรชตามกำหนดการสำหรับ Azure SQL Database
-              href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-            - name: 'ข้อผิดพลาด: เราไม่พบข้อมูลใด ๆ ในเวิร์กบุ๊ก Excel ของคุณ'
+            - name: แก้ไขปัญหาการวิเคราะห์ใน Excel
+              href: desktop-troubleshooting-analyze-in-excel.md
+            - name: 'ข้อผิดพลาด: เราไม่พบข้อมูลใด ๆ ในสมุดงาน Excel ของคุณ'
               href: service-admin-troubleshoot-excel-workbook-data.md
-            - name: แก้ไขปัญหาข้อผิดพลาดไทล์
-              href: refresh-troubleshooting-tile-errors.md
+            - name: แก้ไขปัญหา Cortana
+              href: service-cortana-troubleshoot.md
             - name: วิธีรีเฟรชข้อมูลประจำตัวของชุดเนื้อหา Xero ถ้าการรีเฟรชล้มเหลว
               href: service-refresh-xero-credentials.md
-            - name: ไม่สามารถลงชื่อเข้าใช้ได้
-              href: power-bi-cannot-sign-in.md
         - name: งานอื่น ๆ
           items:
             - name: เปลี่ยนชื่อของเนื้อหาภายใน Power BI
@@ -855,9 +857,9 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: ยุติการเชื่อมต่อกับชุดเนื้อหา
                   href: service-organizational-content-pack-disconnect.md
-        - name: การอ้างอิง
-          items:
-            - name: ภาษาที่รองรับและประเทศ/ภูมิภาค
+    - name: การอ้างอิง
+      items:
+        - name: ภาษาที่รองรับและประเทศ/ภูมิภาค
           href: supported-languages-countries-regions.md
     - name: ทรัพยากร
       items:
@@ -1331,7 +1333,7 @@
           href: service-gateway-personal-mode.md
         - name: ตัวเชื่อมต่อแบบกำหนดเอง
           href: service-gateway-custom-connectors.md
-        - name: การแก้ไขปัญหาเกตเวย์ข้อมูลภายในองค์กร
+        - name: แก้ไขปัญหาเกตเวย์ข้อมูลภายในองค์กร
           href: service-gateway-onprem-tshoot.md
     - name: ทรัพยากร
       items:
