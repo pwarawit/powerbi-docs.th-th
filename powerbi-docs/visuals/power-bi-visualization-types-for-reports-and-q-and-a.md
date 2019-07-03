@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/21/2019
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 202fa85fa930de45f4f6838202733d8d1098256d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c039f4adc196e619dc81af38fb52cd07e89992f0
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61389024"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161183"
 ---
 # <a name="visualization-types-in-power-bi"></a>ชนิดการแสดงภาพใน Power BI
 ## <a name="power-bi-visualizations"></a>การแสดงภาพ Power BI
@@ -27,7 +27,7 @@ ms.locfileid: "61389024"
 การแสดงภาพเหล่านี้ทั้งหมดสามารถถูกเพิ่มลงในรายงาน Power BI ที่ระบุในการถามตอบ และปักหมุดไปยังแดชบอร์ดได้
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>แผนภูมิพื้นที่: พื้นฐาน (เป็นชั้น) และแบบเรียงซ้อน
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
+![แผนภูมิพื้นที่](media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
 
 >[!TIP]
 >แผนภูมิพื้นที่พื้นฐานจะยึดตามแผนภูมิเส้นที่มีพื้นที่ระหว่างแกนและเส้นเป็นบริเวณทึบ
@@ -35,23 +35,23 @@ ms.locfileid: "61389024"
 สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิพื้นที่พื้นฐาน](power-bi-visualization-basic-area-chart.md)
 
 ### <a name="bar-and-column-charts"></a>แผนภูมิแท่งและแผนภูมิคอลัมน์
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
+![แผนภูมิแท่ง](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
 
- ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
+ ![แผนภูมิคอลัมน์](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
 
 >[!TIP]
 >แผนภูมิแท่งเป็นมาตรฐานสำหรับการดูที่ีค่าเฉพาะในแต่ละประเภท
 
 ### <a name="cards-multi-row"></a>การ์ด: หลายแถว
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
+![การ์ดแบบหลายแถว](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
 ### <a name="cards-single-number"></a>การ์ด: หมายเลขเดียว
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
+![หมายเลขบัตร](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
 
 สำหรับข้อมูลเพิ่มเติม ดู[สร้างการ์ด (ไทล์ตัวเลขขนาดใหญ่)](power-bi-visualization-card.md)
 
 ### <a name="combo-charts"></a>แผนภูมิผสม
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
+![แผนภูมิผสม](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
 
 >[!TIP]
 >แผนภูมิผสมรวมแผนภูมิคอลัมน์และแผนภูมิเส้นไว้ด้วยกัน เลือกจาก*เส้นและคอลัมน์แบบเรียงซ้อน*และ*เส้นและแผนภูมิคอลัมน์กลุ่ม*
@@ -59,7 +59,7 @@ ms.locfileid: "61389024"
 สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิผสมใน Power BI](power-bi-visualization-combo-chart.md)
 
 ### <a name="doughnut-charts"></a>แผนภูมิโดนัท
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
+![แผนภูมิโดนัท](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
 
 >[!TIP]
 >แผนภูมิโดนัทจะคล้ายกับแผนภูมิวงกลม  โดยที่จะแสดงความสัมพันธ์ของส่วนต่าง ๆ ต่อส่วนทั้งหมด
@@ -67,7 +67,7 @@ ms.locfileid: "61389024"
 สำหรับข้อมูลเพิ่มเติม ดู [แผนภูมิโดนัทใน Power BI](power-bi-visualization-doughnut-charts.md)
 
 ### <a name="funnel-charts"></a>แผนภูมิกรวย
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
+![แผนภูมิกรวย](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
 
 >[!TIP]
 >แผนภูมิกรวยช่วยในการสร้างภาพของกระบวนการที่มีลำดับขั้น และรายการต่าง ๆ ให้จัดเรียงตามลำดับจากขั้นหนึ่งไปยังอีกขั้น  ใช้แผนภูมิกรวยเมื่อมีโฟลว์ลำดับระหว่างขั้นตอนต่าง ๆ เช่นกระบวนการขายที่เริ่มต้นด้วยลูกค้าเป้าหมาย และลงท้ายด้วยการขาย
@@ -75,7 +75,7 @@ ms.locfileid: "61389024"
 สำหรับข้อมูลเพิ่มเติม ดู [แผนภูมิกรวยใน Power BI](power-bi-visualization-funnel-charts.md)
 
 ### <a name="gauge-charts"></a>แผนภูมิตัววัด
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
+![ตัววัดรัศมี](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
 
 >[!TIP]
 >แสดงสถานะปัจจุบันในบริบทของเป้าหมาย
@@ -90,7 +90,7 @@ ms.locfileid: "61389024"
 สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิผู้มีอิทธิพลหลักใน Power BI](power-bi-visualization-influencers.md)
 
 ### <a name="kpis"></a>KPI
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
+![แผนภูมิ KPI](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
 >[!TIP]
 >แสดงความคืบหน้าของการบรรลุเป้าหมายที่วัดได้
@@ -98,13 +98,13 @@ ms.locfileid: "61389024"
 สำหรับข้อมูลเพิ่มเติม ดู [KPI ใน Power BI](power-bi-visualization-kpi.md)
 
 ### <a name="line-charts"></a>แผนภูมิเส้น
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
+![แผนภูมิเส้น](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
 
 >[!TIP]
 >เน้นรูปร่างโดยรวมของชุดข้อมูลค่าทั้งหมด โดยปกติแล้วจะดูเทียบกับเวลาที่ผ่านไป
 
 ### <a name="maps-basic-maps"></a>แผนที่: แผนที่พื้นฐาน
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
+![แผนที่พื้นฐาน](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
 
 >[!TIP]
 >ใช้เพื่อเชื่อมโยงข้อมูลเชิงหมวดหมู่และข้อมูลเชิงปริมาณเข้ากับตำแหน่งที่ตั้งเชิงพื้นที่
@@ -112,12 +112,12 @@ ms.locfileid: "61389024"
 สำหรับข้อมูลเพิ่มเติม ดู[คำแนะนำและเคล็ดลับสำหรับภาพแผนที่](power-bi-map-tips-and-tricks.md)
 
 ### <a name="maps-arcgis-maps"></a>แผนที่: แผนที่ ArcGIS
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
+![แผนที่ ArcGIS](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 สำหรับข้อมูลเพิ่มเติม ดู [แผนที่ ArcGIS ใน Power BI](power-bi-visualization-arcgis.md)
 
 ### <a name="maps-filled-maps-choropleth"></a>แผนที่: แผนที่แถบสี (Choropleth)
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
+![แผนที่แถบสี](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
 >ยิ่งมีีสีเข้มเท่าไหร่ ค่านั้นยิ่งมากขึ้นเท่านัั้น
@@ -125,7 +125,7 @@ ms.locfileid: "61389024"
 สำหรับข้อมูลเพิ่มเติม ดู [แผนที่แถบสีใน Power BI](power-bi-visualization-filled-maps-choropleths.md)
 
 ### <a name="maps-shape-maps"></a>แผนที่: แผนที่รูปร่าง
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+![แผนที่รูปร่างของเท็กซัส](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]
 >เปรียบเทียบภูมิภาคตามสี
@@ -134,22 +134,37 @@ ms.locfileid: "61389024"
 
 
 ### <a name="matrix"></a>เมทริกซ์
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![เมทริกซ์](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+
+>[!TIP]
+>ตารางสนับสนุนการใช้งานแบบสองมิติ แต่เมทริกซ์ทำให้การแสดงข้อมูลง่ายและมีความหมายในทั้งหลายมิติและเมทริกซ์สนับสนุนการจัดวางอย่างเป็นขั้นเป็นตอน เมทริกซ์จะรวมข้อมูลโดยอัตโนมัติและสามารถเจาะลึกลงไป 
 
 สำหรับข้อมูลเพิ่มเติม ดู [การแสดงผลด้วยภาพแบบเมทริกซ์ใน Power BI](desktop-matrix-visual.md)
 
 ### <a name="pie-charts"></a>แผนภูมิวงกลม
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+![แผนภูมิวงกลม](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
 
-แผนภูมิวงกลมจะแสดงความสัมพันธ์ของส่วนต่าง ๆ ต่อส่วนทั้งหมด 
+>[!TIP]
+>แผนภูมิวงกลมจะแสดงความสัมพันธ์ของส่วนต่าง ๆ ต่อส่วนทั้งหมด 
+
+### <a name="r-script-visuals"></a>ภาพสคริปต์ R
+![วิชวล R](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
+
+>[!TIP]
+>ภาพที่สร้างขึ้นด้วยสคริปต์ R มักเรียกว่า*ภาพ R* ซึ่งสามารถนำเสนอการปรับรูปร่างข้อมูลและการวิเคราะห์ขั้นสูง เช่น การทำนายโดยใช้การวิเคราะห์ที่มีข้อมูลเต็มเปี่ยมและพลังของการแสดงภาพ R ภาพ R สามารถถูกสร้างขึ้นใน Power BI Desktop และเผยแพร่ไปยังบริการ Power BI   
+
+สำหรับข้อมูลเพิ่มเติม ดู[การแสดงผลด้วยภาพแบบ R ใน Power BI](service-r-visuals.md)
 
 ### <a name="ribbon-chart"></a>แผนภูมิริบบอน
 ![แผนภูมิริบบอน](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
 
-แผนภูมิ Ribbon แสดงประเภทข้อมูลที่มีอันดับสูงสุด (ค่ามากที่สุด) แผนภูมิ Ribbon เหมาะกับการแสดงการเปลี่ยนแปลงอันดับ โดยที่ค่าอันดับสูงสุดจะแสดงอยู่ด้านบนสุดของแต่ละช่วงเวลาเสมอ
+>[!TIP]
+>แผนภูมิ Ribbon แสดงประเภทข้อมูลที่มีอันดับสูงสุด (ค่ามากที่สุด) แผนภูมิ Ribbon เหมาะกับการแสดงการเปลี่ยนแปลงอันดับ โดยที่ค่าอันดับสูงสุดจะแสดงอยู่ด้านบนสุดของแต่ละช่วงเวลาเสมอ
+
+สำหรับข้อมูลเพิ่มเติม ดู[การใช้แผนภูมิ Ribbon ใน Power BI](desktop-ribbon-charts.md)
 
 ### <a name="scatter-and-bubble-charts"></a>แผนภูมิกระจายและแผนภูมิฟอง
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)
+![แผนภูมิฟอง](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)
 
 >[!TIP]
 >แสดงความสัมพันธ์ระหว่างหน่วยวัดเชิงปริมาณ 2 หน่วย (กระจาย) หรือ 3 หน่วย (แผนภูมิฟอง) โดยไม่คำนึงถึงลำดับและอื่น ๆ
@@ -157,7 +172,7 @@ ms.locfileid: "61389024"
 สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิกระจายใน Power BI](power-bi-visualization-scatter.md)
 
 ### <a name="scatter-high-density"></a>ความหนาแน่นสูงกระจาย
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+![แผนภูมิกระจายความหนาแน่นสูง](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
 
 >[!TIP]
 >จุดข้อมูลมากเกินไปบนการแสดงผลด้วยภาพสามารถทำให้หยุดชะงักได้ เพื่อใช้อัลกอริทึมการสุ่มตัวอย่างที่ซับซ้อนเพื่อให้แน่ใจความแม่นยำของการแสดงภาพ
@@ -165,17 +180,17 @@ ms.locfileid: "61389024"
 สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิกระจายความหนาแน่นสูงใน Power BI](desktop-high-density-scatter-charts.md)
 
 ### <a name="slicers"></a>ตัวแบ่งส่วนข้อมูล
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
+![ตัวแบ่งส่วนข้อมูล](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
 สำหรับข้อมูลเพิ่มเติม ดู[ตัวแบ่งส่วนข้อมูลใน Power BI](power-bi-visualization-slicers.md)
 
 ### <a name="standalone-images"></a>รูปภาพเดี่ยว
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
+![รูปภาพเดี่ยว](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
 สำหรับข้อมูลเพิ่มเติม ดู[เพิ่มรูปภาพวิดเจ็ตไปยังแดชบอร์ด](../service-dashboard-add-widget.md)
 
 ### <a name="tables"></a>ตาราง
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
+![ภาพตาราง](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
 
 >[!TIP]
 >ทำงานได้ดีกับการเปรียบเทียบเชิงปริมาณระหว่างรายการต่าง ๆ ที่มีหลากลายประเภท
@@ -183,7 +198,7 @@ ms.locfileid: "61389024"
 สำหรับข้อมูลเพิ่มเติม ดู[การทำงานกับตารางใน Power BI](power-bi-visualization-tables.md)
 
 ### <a name="treemaps"></a>แผนภูมิต้นไม้
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![แผนที่ต้นไม้](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิต้นไม้ใน Power BI](power-bi-visualization-treemaps.md)
 
@@ -191,7 +206,7 @@ ms.locfileid: "61389024"
 >แผนภูมิพื้นที่ที่มีสี่เหลี่ยมผืนผ้าเติมสีจะมีค่าที่เป็นตัวแทนขนาด  แผนภูมิเหล่านี้อาจเป็นแบบชั้นโดยที่มีสี่เหลี่ยมผืนผ้าที่ซ้อนกันภายในสี่เหลี่ยมผืนผ้าหลัก
 
 ### <a name="waterfall-charts"></a>แผนภูมิแบบน้ำตก
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/waterfallsmall.png)
+![แผนภูมิน้ำตก](media/power-bi-visualization-types-for-reports-and-q-and-a/waterfallsmall.png)
 
 >[!TIP]
 >แผนภูมิแบบน้ำตกจะแสดงผลรวมสะสมเป็นค่าที่เพิ่มขึ้นหรือลดลง

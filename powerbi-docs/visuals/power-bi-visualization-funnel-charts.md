@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 071b45a4ad9cbd9c753c44de5c55a352767bccbf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b12b2035d7686667535dfdddba42b4b8ca014d96
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61068180"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161122"
 ---
 # <a name="funnel-charts"></a>แผนภูมิกรวย
 แผนภูมิกรวยช่วยให้คุณแสดงกระบวนการเส้นตรง ที่แบ่งเป็นขั้นตอนที่เชื่อมต่อกันตามลำดับ ยกตัวอย่างเช่น ช่วงระยะการขายที่มีการติดตามลูกค้าตามขั้นตอนดังนี้: ลูกค้าที่เป็นเป้าหมาย\>ลูกค้าเป้าหมายที่มีคุณสมบัติ\>ผู้ที่มีแนวโน้มจะเป็นลูกค้า\>ทำสัญญา\>ปิดลูกค้า  มองอย่างรวดเร็ว รูปร่างของกรวยบ่งบอกสุขภาพของกระบวนการที่คุณกำลังติดตาม
@@ -61,7 +61,7 @@ ms.locfileid: "61068180"
 2. [แปลงแผนภูมิ](power-bi-report-change-visualization-type.md)ให้เป็นแผนภูมิกรวย โปรดสังเกตว่า**ขั้นตอนการขาย**อยู่ใน**กลุ่ม** 
 3. จากบานหน้าต่าง**เขตข้อมูล** เลือก**ข้อเท็จจริง** \> **จำนวนโอกาส**
    
-    ![สร้างแผนภูมิกรวย](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![สร้างแผนภูมิกรวย](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. โฮเวอร์เหนือแท่ง จะแสดงข้อมูลจำนวนมากออกมา
    
    * ชื่อของขั้นตอน

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/19/2019
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 587cc5b5d81ca57e809a3973c700c71a214dc045
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0af278171a00c792e466bbd0e21a3efb5ffa8962
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61389842"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389719"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>การสร้างภาพ R ในบริการ Power BI
 บริการ Power BI สนับสนุนการดูและโต้ตอบกับภาพที่สร้างขึ้น ด้วยสคริปต์ R ภาพที่สร้างขึ้นด้วยสคริปต์ R มักเรียกว่า*ภาพ R* ซึ่งสามารถนำเสนอการปรับรูปร่างข้อมูลและการวิเคราะห์ขั้นสูง เช่น การทำนายโดยใช้การวิเคราะห์ที่มีข้อมูลเต็มเปี่ยมและพลังของการแสดงภาพ R
@@ -64,7 +64,7 @@ ms.locfileid: "61389842"
 ![](media/service-r-visuals/r-visuals-service_5.png)
 
 ## <a name="licensing"></a>การมอบสิทธิ์การใช้งาน
-ภาพ R จำเป็นต้องมีสิทธิ์การใช้งาน[Power BI Pro](../service-self-service-signup-for-power-bi.md)เพื่อแสดงในรายงาน รีเฟรช ตัวกรอง และตัวกรองข้าม สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสิทธิ์การใช้งาน Power BI Pro และความแตกต่างจากสิทธิ์การใช้งานฟรี ดู[เนื้อหา Power BI Pro - นี่คืออะไร?](../service-premium-what-is.md)
+ภาพ R จำเป็นต้องมีสิทธิ์การใช้งาน[Power BI Pro](../service-self-service-signup-for-power-bi.md)เพื่อแสดงในรายงาน รีเฟรช ตัวกรอง และตัวกรองข้าม สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสิทธิ์การใช้งาน Power BI Pro และความแตกต่างจากสิทธิ์การใช้งานฟรี ดู[เนื้อหา Power BI Pro - นี่คืออะไร?](../service-admin-purchasing-power-bi-pro.md)
 
 ผู้ใช้ที่ใช้งาน Power BI ฟรีสามารถใช้ไทล์ที่แชร์กับตนได้เท่านั้นในพื้นที่ทำงานระดับ Premium สำหรับข้อมูลเพิ่มเติม ดู[ซื้อ Power BI Pro](../service-admin-purchasing-power-bi-pro.md)
 
@@ -73,7 +73,7 @@ ms.locfileid: "61389842"
 
 |  |ผู้เขียน R วิชวลใน Power BI Desktop  | สร้างรายงานบริการ PBI ด้วยวิชวล R |ดูวิชวล R ในรายงาน  | มุมมองไทล์ R ในแดชบอร์ด |
 |---------|---------|---------|---------|--------|
-|**ผู้เยี่ยมชม** Power BI Embedded     |  ไม่เกี่ยวข้อง|  ไม่เกี่ยวข้อง       | ไม่ได้รับการสนับสนุน  | ไม่เกี่ยวข้อง |
+|**ผู้เยี่ยมชม** Power BI Embedded     |  สนับสนุน|  ไม่ได้รับการสนับสนุน      | ได้รับการสนับสนุนในความจุ Premium/Azure เท่านั้น  | ได้รับการสนับสนุนในความจุ Premium/Azure เท่านั้น |
 |**ผู้เช่าที่ไม่มีการจัดการ**(ไม่ได้ยืนยันโดเมน) | สนับสนุน | ไม่ได้รับการสนับสนุน |  ไม่ได้รับการสนับสนุน |ได้รับการสนับสนุน (สถานการณ์ B2B) |
 |**ผู้เช่าที่ได้รับการจัดการ**ซึ่งมีใบอนุญาตฟรี    |  สนับสนุน       |  ไม่ได้รับการสนับสนุน       |    ได้รับการสนับสนุนในความจุ Premium เท่านั้น    | สนับสนุน |
 **ผู้เช่าที่ได้รับการจัดการ**ซึ่งมีใบอนุญาต Pro     |   สนับสนุน      | สนับสนุน      | สนับสนุน    |สนับสนุน|

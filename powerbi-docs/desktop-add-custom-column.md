@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2412fe72d62549277001b64121ecf9db2ea5502
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5633370259662141296550aa3d5d2343ac4fedaa
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239551"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408557"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>เพิ่มคอลัมน์แบบกำหนดเองใน Power BI Desktop
 คุณสามารถเพิ่มคอลัมน์แบบกำหนดเองใหม่ของข้อมูล ลงในรูปแบบของคุณด้วย**ตัวแก้ไขคิวรี**ใน **Power BI Desktop** ได้ คุณสามารถสร้าง และเปลี่ยนชื่อคอลัมน์แบบกำหนดเองของคุณ โดยใช้ปุ่มเพื่อสร้าง[สูตร M](https://msdn.microsoft.com/library/mt270235.aspx) ที่กำหนดคอลัมน์แบบกำหนดเองของคุณได้อย่างง่าย ๆ สูตร M มี[ชุดเนื้อหา การอ้างอิงฟังก์ชันที่ครอบคลุม](https://msdn.microsoft.com/library/mt779182.aspx) 
@@ -68,6 +68,5 @@ ms.locfileid: "65239551"
 มีวิธีอื่น ๆ ในการสร้างคอลัมน์แบบกำหนดเอง รวมถึงการสร้างคอลัมน์จากตัวอย่างที่คุณให้กับ**ตัวแก้ไขคิวรี** ดูบทความต่อไปนี้สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสร้างคอลัมน์แบบกำหนดเองจากตัวอย่าง:
 
 * [เพิ่มคอลัมน์จากตัวอย่างใน Power BI Desktop](desktop-add-column-from-example.md)
-* [บทนำสู่ภาษาสูตร M](https://msdn.microsoft.com/library/mt270235.aspx)
-* [การอ้างอิงฟังก์ชัน M](https://msdn.microsoft.com/library/mt779182.aspx)  
+* [การอ้างอิง Power Query M](/powerquery-m/power-query-m-reference)  
 

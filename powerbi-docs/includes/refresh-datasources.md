@@ -1,30 +1,30 @@
 ---
-ms.openlocfilehash: 060b193fc195b7f894a799277045b7c4c3260ad0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0bca9134f2be1a1bfe866460305b7c3e302b5863
+ms.sourcegitcommit: 7d52401f50944feaaa112c84113ee47f606dbf68
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60973888"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67124013"
 ---
 ### <a name="on-premises-data-gateway"></a>เกตเวย์ข้อมูลภายในองค์กร
 
-| **แหล่งข้อมูล** |
-| --- |
-| Analysis Services แบบตาราง |
-| Analysis Services หลายมิติ |
-| เซิร์ฟเวอร์ SQL |
-| SAP HANA |
-| Oracle |
-| Teradata |
-| ไฟล์ |
-| โฟลเดอร์ |
-| รายการ SharePoint (ภายในองค์กร) |
-| เว็บ |
-| OData |
-| IBM DB2 |
-| MySQL |
-| Sybase |
-| SAP BW |
-| ฐานข้อมูล IBM Informix |
-| ODBC |
+#### <a name="data-source"></a>แหล่งข้อมูล
+
+* Analysis Services Tabular
+* Analysis Services หลายมิติ
+* เซิร์ฟเวอร์ SQL
+* SAP HANA
+* Oracle
+* Teradata
+* ไฟล์
+* โฟลเดอร์
+* รายการ SharePoint (ภายในองค์กร)
+* เว็บ
+* OData
+* IBM DB2
+* MySQL
+* Sybase
+* SAP BW
+* ฐานข้อมูล IBM Informix
+* ODBC
 

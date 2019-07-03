@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: e7afdddc6d87b9494fa9264bdd253a3f93de6192
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d21a0ab1bada981a563e04ba26815f661664f51a
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61383958"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161220"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>บทช่วยสอน: การพัฒนาภาพที่กำหนดเองสำหรับ Power BI
 
@@ -73,21 +73,15 @@ ms.locfileid: "61383958"
 
 #### <a name="windows"></a>Windows
 
-1. เมื่อต้องการสร้างใบรับรอง ให้ป้อนคำสั่งต่อไปนี้
-
-    ```powershell
-    pbiviz --create-cert
-    ```
-
-  จะเป็นการส่งกลับผลลัพธ์ที่สร้าง *วลีรหัสผ่าน* ในกรณีนี้ *วลีรหัสผ่าน*คือ **_15105661266553327_**
-
-  ![ใบรับรองที่สร้างขึ้นด้วย PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
-
-2. ถึงตอนนี้ เราต้องติดตั้งใบรับรอง ในการติดตั้งใบรับรอง ให้ป้อนคำสั่งต่อไปนี้
+1. เมื่อต้องการสร้างและติดตั้งใบรับรอง ให้ป้อนคำสั่งต่อไปนี้
 
     ```powershell
     pbiviz --install-cert
     ```
+
+  จะเป็นการส่งกลับผลลัพธ์ที่สร้าง *วลีรหัสผ่าน* ในกรณีนี้ *วลีรหัสผ่าน*คือ **_15105661266553327_** เริ่มตัวช่วยสร้างการนำเข้าใบรับรอง
+
+  ![ใบรับรองที่สร้างขึ้นด้วย PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
 
 3. ในตัวช่วยสร้างการนำเข้าใบรับรอง ให้ตรวจสอบยืนยันว่าตำแหน่งที่เก็บอยู่ที่ผู้ใช้ปัจจุบัน จากนั้นเลือก*ถัดไป*
 
@@ -559,14 +553,14 @@ ms.locfileid: "61383958"
 
     รายงานนี้กำหนด*มุมมองข้อมูล*กับตัวแปรเพื่อให้เข้าถึงได้ง่าย และยืนยันตัวแปรสำหรับอ้างอิงวัตถุ*dataView*
 
-2. ในการ**อัปเด**วิธี แทน **.text("Value")** ต่อไปนี้
+2. ในวิธี**อัปเดต** ให้แทนที่ **.text("Value")** ดังต่อไปนี้
 
     ```typescript
     .text(dataView.single.value as string)
     ```
     ![แทนที่ textValue](media/custom-visual-develop-tutorial/text-value-replace.png)
 
-3. ในการ**อัปเด**วิธี แทน **.text("Label")** ต่อไปนี้
+3. ในวิธี**อัปเดต** ให้แทนที่ **.text(“Label”)** ดังต่อไปนี้
 
     ```typescript
     .text(dataView.metadata.columns[0].displayName)
