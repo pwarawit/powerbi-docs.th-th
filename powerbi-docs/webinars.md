@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: ec50369715efdd7bcb9ab764a3240acceb72508e
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389554"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418638"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -22,11 +22,7 @@ ms.locfileid: "67389554"
 
 ## <a name="upcoming-webinars"></a>สัมมนาผ่านเว็บที่กำลังมาถึง
 
-ลงทะเบียนเพื่อรับข่าวสารจากผู้เชี่ยวชาญ Power BI และมีส่วนร่วมในเซสชันการถามตอบแบบออนไลน์
-
-**Power BI: วิธีการรับข้อมูลเชิงลึกจากข้อมูล HR เกี่ยวกับวันทำงานของคุณ**
-<br>โดย Iman Eftekhari, Julia Paton จาก Agile Analytics และ Shahram Karimi จาก QBE Insurance
-<br>[ลงทะเบียนเพื่อดูในวันที่ 27 มิถุนายน เวลา 13:30 – 14:30 น. ตามเวลา PST](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
+สัมมนาผ่านเว็บยังไม่จัดกำหนดการ กรุณาตรวจสอบใหม่เพื่อดูงานที่จะจัดในอนาคต
 
 >[การสัมมนาผ่านเว็บที่กำลังมาถึงจากชุมชน Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -128,6 +124,10 @@ ms.locfileid: "67389554"
 
 ### <a name="partner-solutions-series"></a>รายการชุดโซลูชันคู่ค้า ###
 [ดูรายการชุดนี้](https://info.microsoft.com/ww-landing-PartnerWebinarSeriesPage.html)
+
+**Power BI: วิธีการรับข้อมูลเชิงลึกจากข้อมูล HR เกี่ยวกับวันทำงานของคุณ**
+<br>โดย Iman Eftekhari, Julia Paton จาก Agile Analytics และ Shahram Karimi จาก QBE Insurance
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 **การบรรลุการได้รับประโยชน์ทั้งสองฝ่ายสำหรับผู้ผลิตและผู้ค้าปลีกผลิตภัณฑ์และสินค้าแก่ผู้บริโภค**
 <br>โดย Liz McCreesh จาก Thorogood
