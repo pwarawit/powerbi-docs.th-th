@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
+ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137536"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67498984"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>เริ่มต้นใช้งานแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ IOS
 Microsoft Power BI สำหรับแอป iOS บน iPhone บน iPad หรือบน iPod Touch ให้บริการของ Power BI บริการของเซิร์ฟเวอร์รายงาน Power BI และ บริการการรายงาน ดูและโต้ตอบกับแดชบอร์ดของบริษัทของคุณ ภายในองค์กรและในคลาวด์ จากที่ใดก็ได้ ผ่านอุปกรณ์เคลื่อนที่ ที่รองรับระบบสัมผัสและดูข้อมูลสดได้ สำรวจข้อมูลในแดชบอร์ดและแชร์กับเพื่อนร่วมงานของคุณผ่านอีเมลหรือการส่งข้อความ และอัปเดตอยู่เสมอ ด้วยข้อมูลของคุณมากที่สุดตามระยะเวลาในของคุณ[Apple Watch](mobile-apple-watch.md)  
@@ -33,7 +33,7 @@ Microsoft Power BI สำหรับแอป iOS บน iPhone บน iPad ห
 ## <a name="download-the-app"></a>ดาวน์โหลดแอป
 [ดาวน์โหลดแอป iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "ดาวน์โหลดแอป iOS")จากร้าน Apple App Store ไปยัง iPhone หรือ iPad หรือ iPod Touch ของคุณ
 
-คุณสามารถเรียกใช้ Power BI สำหรับแอป iOS บน iPhone 5 และด้าน บน ด้วย iOS 10 หรือใหม่กว่า คุณยังสามารถเรียกใช้งานบน iPad หรือ iPod Touch ด้วย iOS 10 หรือรุ่นใหม่กว่า 
+คุณสามารถเรียกใช้ Power BI สำหรับแอป iOS บนอุปกรณ์ใด ๆ ที่ใช้ iOS 11 หรือใหม่กว่า 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>ลงชื่อออกจากบริการ Power BI
 ถ้าคุณยังไม่ได้ลงทะเบียน ไปที่ [powerbi.com](https://powerbi.microsoft.com/get-started/) และด้านล่าง **Power BI - การทำงานร่วมกันและการแชร์บนระบบคลาวด์** เลือก **ทดลองใช้ฟรี**

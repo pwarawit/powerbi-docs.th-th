@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
-ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.openlocfilehash: a6718ed8f582150ad8f13d638308700f9004a354
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67038916"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67558990"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 สำหรับ "ข้อมูลอะไรใหม่" ที่เกี่ยวข้อง ให้ดู
@@ -22,6 +22,15 @@ ms.locfileid: "67038916"
 * [บล็อกทีมของ power BI สำหรับแอป mobile](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [มีอะไรใหม่ใน Power BI Desktop](../../desktop-latest-update.md)  
 * [มีอะไรใหม่ในบริการ Power BI](../../service-whats-new.md)  
+
+## <a name="june-2019"></a>มิถุนายน 2019
+
+### <a name="barcode-scanning-is-now-available-in-android"></a>การสแกนบาร์โค้ดพร้อมใช้งานแล้วตอนนี้ใน Android
+ตอนนี้คุณสามารถใช้แอป Power BI บน Android (โทรศัพท์และแท็บเล็ต) เพื่อสแกนบาร์โค้ดที่พิมพ์บนผลิตภัณฑ์หรือชั้นวางที่ร้านค้าของคุณเพื่อแสดงรายงาน Power BI ที่เกี่ยวข้อง ซึ่งกรองโดยค่าที่สแกน อ่านเพิ่มเติมเกี่ยวกับ[กรองข้อมูลของคุณด้วยบาร์โค้ด](mobile-apps-scan-barcode-iphone.md)
+
+### <a name="supporting-pbix-reports-hosted-in-pbi-rs-over-adfs-configuration-ios-android"></a>การสนับสนุนรายงาน PBIX ที่โฮสต์ใน PBI-RS ผ่านการกำหนดค่า ADFS (iOS, Android)
+
+ขณะนี้ รายงาน Power BI (PBIX) ที่โฮสต์ใน PBI RS ผ่านการกำหนดค่า ADFS สามารถเข้าถึงได้จากแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 
 ## <a name="may-2019"></a>พฤษภาคม 2019
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0789d7e77e3ae501cc2aec92c366c9c2608edd52
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 2e0fc8ae6a6d2b01121ffb1c52c29652af21f21e
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839369"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67533074"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>แผนที่รูปร่างใน Power BI Desktop (ตัวอย่าง)
 สร้างภาพ**แผนที่รูปร่าง**เพื่อเปรียบเทียบภูมิภาคบนแผนที่โดยใช้สี ไม่เหมือนกับภาพ**แผนที่** **แผนที่รูปร่าง**ไม่สามารถแสดงตำแหน่งที่ตั้งทางภูมิศาสตร์อย่างแม่นยำของจุดข้อมูลบนแผนที่ได้ แต่วัตถุประสงค์หลักคือการเปรียบเทียบภูมิภาคบนแผนที่โดยการใช้สีแตกต่างกัน
@@ -108,11 +108,12 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 * วิชวล**แผนที่รูปร่าง** จะแสดงจุดข้อมูลได้สูงสุด 1000 จุด
 
 ## <a name="region-keys"></a>คีย์ภูมิภาค
+
 ใช้**คีย์ภูมิภาค**ต่อไปนี้ ในรุ่นตัวอย่างเพื่อทดสอบ**แผนที่รูปร่าง**
 
 ### <a name="australia-states"></a>ออสเตรเลีย: รัฐ
 
-| `id` | `abbr` | `iso` | `name` | `postal` |
+| id | abbr | iso | name | postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -125,7 +126,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="austria-states"></a>ออสเตรีย: รัฐ
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| id | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -139,7 +140,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="brazil-states"></a>บราซิล: รัฐ
 
-| `id` |
+| id |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -175,7 +176,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="canada-provinces"></a>แคนาดา: เขต
 
-| `id` | `iso` | `name` | `postal` |
+| id | iso | name | postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -193,7 +194,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="france-regions"></a>ฝรั่งเศส: ภูมิภาค
 
-| `id` | `name` | `name-en` |
+| id | name | name-en |
 | --- | --- | --- |
 | Alsace |Alsace |Alsace |
 | Rhone-Alpes |Rhône-Alpes |Rhone-Alpes |
@@ -220,7 +221,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="germany-states"></a>เยอรมนี: รัฐ
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| id | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin |BE |
 | de-th |DE-TH |Thüringen |Thuringia |TH |
@@ -241,7 +242,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="ireland-counties"></a>ไอร์แลนด์: เขต
 
-| `id` |
+| id |
 | --- |
 | Wicklow |
 | Wexford |
@@ -272,7 +273,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="italy-regions"></a>อิตาลี: ภูมิภาค
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| id | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aosta Valley |VD |
@@ -297,7 +298,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="mexico-states"></a>เม็กซิโก: รัฐ
 
-| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
+| id | abreviatura | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan |YU |
@@ -334,7 +335,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="netherlands-provinces"></a>เนเธอร์แลนด์: เขต
 
-| `id` | `iso` | `name` | `name-en` |
+| id | iso | name | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
 | nl-ze |NL-ZE |Zeeland |Zeeland |
@@ -351,7 +352,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="uk-countries"></a>สหราชอาณาจักร: ประเทศ
 
-| `id` | `iso` | `name` |
+| id | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Wales |
 | gb-sct |GB-SCT |Scotland |
@@ -360,7 +361,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ### <a name="usa-states"></a>สหรัฐอเมริกา: รัฐ
 
-| `id` | `name` | `postal` |
+| id | name | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -415,6 +416,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | us-wa |Washington |WA |
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[วิชวลเมทริกซ์ใน Power BI](desktop-matrix-visual.md)
 
-[ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [วิชวลเมทริกซ์ใน Power BI](desktop-matrix-visual.md)
+
+* [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

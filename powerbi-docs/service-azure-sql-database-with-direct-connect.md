@@ -9,14 +9,14 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 06/20/2018
+ms.date: 06/13/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 5365c076b75d0989df8db15c1dc16f4e11bc3f09
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 2363b9da3ac46ce9fd49f19a00950a4a3cf23502
+ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448389"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "67468103"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database พร้อม DirectQuery
 
@@ -29,9 +29,9 @@ ms.locfileid: "66448389"
 * ระบุชื่อเซิร์ฟเวอร์ที่มีคุณสมบัติครบถ้วนเมื่อเชื่อมต่อ (ดูด้านล่างสำหรับรายละเอียดเพิ่มเติม)
 * ตรวจสอบให้แน่ใจว่ามีการกำหนดค่ากฎไฟร์วอลล์สำหรับฐานข้อมูลเพื่อ "[อนุญาตการเข้าถึงบริการ Azure](https://msdn.microsoft.com/library/azure/ee621782.aspx)"
 * ทุกการดำเนินการ เช่น การเลือกคอลัมน์หรือการเพิ่มตัวกรอง จะส่งการสอบถามย้อนกลับไปยังฐานข้อมูล
-* ไทล์จะรีเฟรชทุกชั่วโมง (รีเฟรชไม่จำเป็นต้องมีการจัดกำหนดการ) โดยสามารถปรับปรุงได้ในการตั้งค่าขั้นสูงเมื่อคุณเชื่อมต่อ
+* ไทล์จะรีเฟรชทุกชั่วโมง (รีเฟรชไม่จำเป็นต้องมีการจัดกำหนดการ) คุณสามารถปรับความถี่การรีเฟรชในส่วนการตั้งค่าขั้นสูงเมื่อทำการเชื่อมต่อ
 * การถามตอบไม่พร้อมใช้งานสำหรับชุดข้อมูล DirectQuery
-* การเปลี่ยนแปลง schema จะยังไม่มีผลโดยอัตโนมัติ
+* การเปลี่ยนแปลงเค้าร่างจะไม่ถูกเลือกโดยอัตโนมัติ
 
 ข้อจำกัดและบันทึกย่อเหล่านี้อาจเปลี่ยนแปลงขณะที่เราปรับปรุงประสบการณ์การใช้งานขึ้นเรื่อย ๆ ขั้นตอนในการเชื่อมต่อจะมีรายละเอียดดังด้านล่าง
 
@@ -42,11 +42,11 @@ ms.locfileid: "66448389"
 
 เมื่อต้องการเชื่อมต่อกับฐานข้อมูล SQL Azure ที่ใช้ DirectQuery คุณจะต้องใช้ Power BI Desktop แนวทางนี้เพิ่มความยืดหยุ่นและขีดความสามารถให้มากขึ้น รายงานที่สร้างขึ้นโดยใช้ Power BI Desktop จะสามารถเผยแพร่ไปยังบริการ Power BI ได้ คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อ[ฐานข้อมูล SQL Azure ที่ใช้ DirectQuery](desktop-use-directquery.md)ภายใน Power BI Desktop ได้
 
-## <a name="finding-parameter-values"></a>ค้นหาค่าพารามิเตอร์
+## <a name="find-parameter-values"></a>ค้นหาค่าพารามิเตอร์ต่างๆ
 
-สามารถค้นหาชื่อเซิร์ฟเวอร์และชื่อฐานข้อมูลแบบเต็มของคุณได้ในพอร์ทัล Microsoft Azure
+คุณสามารถค้นหาชื่อเซิร์ฟเวอร์และชื่อฐานข้อมูลแบบเต็มได้ในพอร์ทัล Azure
 
-![การอัปเดตพอร์ต Azure ใหม่](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
+![การอัปเดตพอร์ทัล Azure ใหม่](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
 
 ![การอัปเดตพอร์ทัล Azure](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
 

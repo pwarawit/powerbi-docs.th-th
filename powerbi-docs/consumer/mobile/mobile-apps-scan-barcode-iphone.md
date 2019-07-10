@@ -1,5 +1,5 @@
 ---
-title: สแกนบาร์โค้ดด้วย iPhone จากแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+title: สแกนบาร์โค้ดด้วยแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 description: สแกนบาร์โค้ดในโลกแห่งความจริงเพื่อไปยังข้อมูล BI ที่ถูกกรองโดยตรงในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 author: mshenhav
 manager: kfile
@@ -9,21 +9,28 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 3fd2d4888f76490a01c0742e68e6820c7055326e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 432b65f8d7f461ac1942cf8996f9cc67e756fc7f
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137376"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559010"
 ---
-# <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>สแกนบาร์โค้ดด้วย iPhone ของคุณจากแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+# <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>สแกนบาร์โค้ดด้วยอุปกรณ์ของคุณจากแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 สแกนบาร์โค้ดในโลกแห่งความจริงเพื่อไปยังข้อมูล BI ที่ถูกกรองโดยตรงในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 
-![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+
+นำไปใช้กับ:
+
+| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | 
+|:--- |:--- |
+| iPhone | Android (โทรศัพท์, แท็บเล็ต) | 
 
 บอกเพื่อนร่วมงานที่ถูก[แท็กเขตข้อมูลบาร์โค้ดในรายงาน Power BI Desktop](../../desktop-mobile-barcodes.md)และแชร์รายงานกับคุณ 
 
-เมื่อคุณสามารถสแกนบาร์โค้ดผลิตภัณฑด้วยตัวสแกนในแอป Power BI บน iPhone ของคุณ คุณจะเห็นรายงาน (หรือรายการของรายงาน) ด้วยบาร์โค้ดนั้น คุณสามารถเปิดรายงานนั้นบน iPhone ของคุณ ซึ่งถูกกรองไปยังบาร์โค้ดนั้น
+![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+
+เมื่อคุณสามารถสแกนบาร์โค้ดผลิตภัณฑด้วยตัวสแกนในแอป Power BI บนอุปกรณ์ของคุณ คุณจะเห็นรายงาน (หรือรายการของรายงาน) ด้วยบาร์โค้ดนั้น คุณสามารถเปิดรายงานนั้นซึ่งถูกกรองไปยังบาร์โค้ดนั้น
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>สแกนบาร์โค้ดด้วยตัวสแกน Power BI
 1. ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่จะเปิดเมนูการนำทางหลัก![](media/mobile-apps-scan-barcode-iphone/pbi_iph_navmenu.png)ด้านบนซ้าย 
@@ -34,10 +41,10 @@ ms.locfileid: "61137376"
 4. เล็งตัวสแกนไปที่บาร์โค้ดบนผลิตภัณฑ์ 
    
     คุณจะเห็นรายการของรายงานที่เชื่อมโยงกับบาร์โค้ดนั้น
-5. แตะชื่อรายงานเพื่อเปิดบน iPhone ของคุณ ซึ่งถูกกรองโดยอัตโนมัติไปยังบาร์โค้ดนั้น
+5. แตะชื่อรายงานเพื่อเปิดบนอุปกรณ์ของคุณ ซึ่งถูกกรองโดยอัตโนมัติไปยังบาร์โค้ดนั้น
 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>กรองด้วยบาร์โค้ดอื่นๆ ในขณะอยู่ในรายงาน
-ในขณะที่กำลังดูรายงานที่ถูกกรองด้วยบาร์โค้ดบน iPhone ของคุณ คุณอาจต้องการกรองรายงานเดียวกันด้วยบาร์โค้ดที่แตกต่างกัน
+ในขณะที่กำลังดูรายงานที่ถูกกรองด้วยบาร์โค้ดบนอุปกรณ์ของคุณ คุณอาจต้องการกรองรายงานเดียวกันด้วยบาร์โค้ดที่แตกต่างกัน
 
 * ถ้าไอคอนบาร์โค้ดมีตัวกรอง![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png)ตัวกรองจะใช้งานอยู่ และรายงานจะถูกกรองด้วยบาร์โค้ดแล้ว 
 * ถ้าไอคอนไม่มีตัวกรองอยู่![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png)ตัวกรองจะไม่ได้ใช้งานอยู่ และรายงานจะไม่ถูกกรองด้วยบาร์โค้ด 

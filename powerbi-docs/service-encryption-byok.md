@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5c93a50ce481c5fad899c1911b30100dca7cb841
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 96939c3ad29418ad868175dfd8093847ab427187
+ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264493"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67498972"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>นำคีย์การเข้ารหัสลับของคุณเองสำหรับ Power BI (ตัวอย่าง)
 
@@ -103,13 +103,22 @@ BYOK นำไปใช้เฉพาะกับชุดข้อมูลท
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
 ```
 
+เมื่อต้องการเพิ่มหลายคีย์ เรียกใช้`Add-PowerBIEncryptionKey`ด้วยค่าต่าง ๆ สำหรับ -`-Name`และ`-KeyVaultKeyUri` 
+
 cmdlet ยอมรับพารามิเตอร์สลับสองรายการที่ส่งผลต่อการเข้ารหัสลับสำหรับความจุปัจจุบันและในอนาคต ตามค่าเริ่มต้น ไม่มีการตั้งค่าการสลับ:
 
-- `-Activate`: ระบุว่า จะใช้คีย์นี้สำหรับความจุที่มีอยู่ทั้งหมดในผู้เช่าหรือไม่
+- `-Activate`: ระบุว่าจะใช้คีย์นี้สำหรับความจุที่มีอยู่ทั้งหมดในผู้เช่าที่ไม่ได้เข้ารหัสลับ
 
 - `-Default`: ระบุว่า คีย์นี้เป็นค่าเริ่มต้นสำหรับผู้เช่าทั้งหมดในขณะนี้หรือไม่ เมื่อคุณสร้างความจุใหม่ ความจุจะรับคีย์นี้มา
 
-ถ้าคุณระบุ `-Default` ความจุทั้งหมดที่สร้างขึ้นในผู้เช่านี้จากจุดนี้จะถูกเข้ารหัสลับโดยใช้คีย์ที่คุณระบุ (หรือคีย์เริ่มต้นที่อัปเดต) คุณไม่สามารถยกเลิกการดำเนินการเริ่มต้นได้ คุณจึงไม่สามารถสร้างความจุพรีเมียมที่ไม่ได้ใช้ BYOK ในผู้เช่าของคุณ
+> [!IMPORTANT]
+> ถ้าคุณระบุ `-Default` ความจุทั้งหมดที่สร้างขึ้นในผู้เช่าของคุณจากจุดนี้จะถูกเข้ารหัสลับโดยใช้คีย์ที่คุณระบุ (หรือคีย์เริ่มต้นที่อัปเดต) คุณไม่สามารถยกเลิกการดำเนินการเริ่มต้นได้ ดังนั้นคุณจึงไม่สามารถสร้างความจุพรีเมียมในผู้เช่าของคุณที่ไม่ได้ใช้ BYOK
+
+หลังจากที่คุณเปิดใช้งาน BYOK บนผู้เช่าของคุณ ใช้[`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey)เพื่อตั้งค่าคีย์การเข้ารหัสสำหรับความจุ Power BI อย่างน้อยหนึ่งรายการหรือมากกว่า:
+
+```powershell
+Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
+```
 
 คุณสามารถควบคุมวิธีที่คุณใช้ BYOK ในผู้เช่าของคุณ ตัวอย่างเช่น ในการเข้ารหัสลับความจุเดียว เรียกใช้ `Add-PowerBIEncryptionKey` โดยไม่มี `-Activate` หรือ `-Default` จากนั้น เรียกใช้ `Set-PowerBICapacityEncryptionKey` สำหรับความจุที่คุณต้องการเปิดใช้งาน BYOK
 
@@ -136,12 +145,6 @@ Power BI มี cmdlet เพิ่มเติมเพื่อช่วยจ
     ```
 
     โปรดทราบว่ามีการเปิดใช้งานการเข้ารหัสลับที่ระดับความจุ แต่คุณได้รับสถานะการเข้ารหัสลับที่ระดับชุดข้อมูลสำหรับพื้นที่ทำงานที่ระบุ
-
-- ใช้ [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) เพื่ออัปเดตคีย์การเข้ารหัสลับสำหรับความจุ Power BI:
-
-    ```powershell
-    Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
-    ```
 
 - ใช้ [ `Switch-PowerBIEncryptionKey` ](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) เพื่อสลับ (หรือ_หมุน_) เวอร์ชันของคีย์ที่ถูกใช้สำหรับการเข้ารหัสลับ cmdlet เพียงแค่อัปเดต `-KeyVaultKeyUri` สำหรับคีย์ `-Name`:
 

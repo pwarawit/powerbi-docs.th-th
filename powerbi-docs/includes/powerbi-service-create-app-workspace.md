@@ -1,16 +1,37 @@
+---
+title: สร้างพื้นที่ทำงาน - Power BI
+description: วิธีการสร้างพื้นที่ทำงาน - รวม
+services: powerbi
+author: maggiesMSFT
+ms.service: powerbi
+ms.topic: include
+ms.date: 04/04/2019
+ms.author: maggies
+ms.custom: include file
+ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67534736"
+---
 1. เริ่มต้นโดยการสร้างพื้นที่ทำงาน เลือก**พื้นที่ทำงาน** > **สร้างพื้นที่ทำงานแอป** 
    
      ![สร้างพื้นที่ทำงานแอป](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    
-    นี่เป็นตำแหน่งที่จะวางเนื้อหาที่คุณและเพื่อนร่วมงานของคุณทำงานร่วมกัน
+    ที่นี่คุณจะสามารถใส่เนื้อหาที่คุณและเพื่อนร่วมงานของคุณทำงานร่วมกัน
 
-2. ตั้งชื่อพื้นที่ทำงาน ถ้าชื่อ **ID พื้นที่ทำงาน**ที่ตรงกันไม่สามารถใช้ได้ แก้ไขให้ ID ใหม่มีค่าไม่ซ้ำกัน
+2. ในแบนเนอร์ **คุณกำลังสร้างพื้นที่ทำงานที่อัปเกรดแล้ว** คลิก**แปลงกลับเป็นแบบคลาสสิก** 
+
+    ![แปลงกลับเป็นตัวเลือกพื้นที่ทำงานแบบคลาสสิก](media/powerbi-service-create-app-workspace/power-bi-revert-classic-workspace.png)
+
+3. ตั้งชื่อพื้นที่ทำงาน ถ้าชื่อ **ID พื้นที่ทำงาน**ที่ตรงกันไม่สามารถใช้ได้ แก้ไขให้ ID ใหม่มีค่าไม่ซ้ำกัน
    
-     นี่จะเป็นชื่อของแอปด้วย
+     แอปจะมีชื่อเดียวกัน
    
      ![ตั้งชื่อพื้นที่ทำงาน](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-name.png)
 
-3. คุณมีสองสามตัวเลือกที่จะตั้งค่า ถ้าคุณเลือก**สาธารณะ** ทุกคนในองค์กรคุณสามารถดูสิ่งที่อยู่ในพื้นที่ทำงานได้ ในทางกลับกัน **ส่วนตัว** หมายถึง เฉพาะสมาชิกของพื้นที่ทำงานเท่านั้นที่สามารถดูเนื้อหา
+3. คุณมีสองสามตัวเลือกที่จะตั้งค่า ถ้าคุณเลือก**สาธารณะ** ทุกคนในองค์กรคุณสามารถดูสิ่งที่อยู่ในพื้นที่ทำงานได้ **ส่วนตัว** หมายถึงมีเพียงสมาชิกเท่าของพื้นที่ทำงานเท่านั้นที่สามารถเห็นเนื้อหาได้
    
      ![ตั้งค่าส่วนตัวหรือสาธารณะ](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-private-public.png)
    
