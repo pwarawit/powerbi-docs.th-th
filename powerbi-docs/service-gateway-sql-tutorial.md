@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d73d2ea5e21196d4856d2906805e6dec1f7e60b7
-ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
+ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "67468205"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596638"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>รีเฟรชข้อมูลจากฐานข้อมูล SQL Server ภายในองค์กร
 
@@ -35,7 +35,7 @@ ms.locfileid: "67468205"
 
 - ถ้าคุณไม่มี ให้ลงทะเบียนสำหรับ[ทดลองใช้ Power BI ฟรี](https://app.powerbi.com/signupredirect?pbi_source=web)ก่อนที่จะเริ่ม
 - [ติดตั้ง Power BI Desktop](https://powerbi.microsoft.com/desktop/) ภายในคอมพิวเตอร์
-- [ติดตั้ง SQL Server](/sql/database-engine/install-windows/install-sql-server) ภายในคอมพิวเตอร์ และคืนค่า [ฐานข้อมูลตัวอย่างจากการสำรองข้อมูล]((https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ AdventureWorks ให้ดู [การติดตั้งและการกำหนดค่า AdventureWorks](/sql/samples/adventureworks-install-configure)
+- [ติดตั้ง SQL Server](/sql/database-engine/install-windows/install-sql-server) ภายในคอมพิวเตอร์ และคืนค่า [ฐานข้อมูลตัวอย่างจากการสำรองข้อมูล](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ AdventureWorks ให้ดู [การติดตั้งและการกำหนดค่า AdventureWorks](/sql/samples/adventureworks-install-configure)
 - [ติดตั้งเกตเวย์ข้อมูลภายในองค์กร](service-gateway-install.md) ภายในคอมพิวเตอร์เครื่องเดียวกันเป็น SQL Server (แต่ในการใช้งานจริง มักจะเป็นคอมพิวเตอร์คนละเครื่อง)
 
 > [!NOTE]

@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 31c1cd7a8455232fdaa3bb3d391fb93e87ad5062
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e0b2036192ace4404816f5ba64ad07569949452e
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61404540"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596583"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>บทช่วยสอน: เรียกแบบจำลอง Machine Learning Studio ใน Power BI (ตัวอย่าง)
 
@@ -62,7 +62,7 @@ ms.locfileid: "61404540"
 
 ขั้นตอนนี้จะสมมุติว่าคุณมีข้อมูลที่ต้องการให้คะแนนด้วยแบบจำลอง Azure ML ของคุณในรูปแบบ CSV  หากคุณใช้ **การทดลองการกำหนดราคารถยนต์** เพื่อสร้างแบบจำลองใน Machine Learning Studio ชุดข้อมูลจะได้รับการแชร์ในลิงก์ดังต่อไปนี้:
 
-* [แบบจำลองตัวอย่าง Azure Learning Studio](https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv)
+* [แบบจำลองตัวอย่าง Azure Learning Studio](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
 
 ### <a name="create-a-dataflow"></a>สร้างกระแสข้อมูล
 
