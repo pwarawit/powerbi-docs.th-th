@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: c0a70339e8336f3e7b93b40ad8a99dcb87715812
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f7dc84c9c6c84a30417d97f37d984b5f01ec9cd7
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710247"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596474"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>ขั้นตอนที่ 4: รับชุดข้อมูลเพื่อเพิ่มแถวลงในตาราง Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "65710247"
 
 ใน**ขั้นตอนที่ 3**เป็นขั้นตอนการส่งข้อมูลไปยังชุดข้อมูล[สร้างชุดข้อมูลใน Power BI](walkthrough-push-data-create-dataset.md)คุณเรียกใช้การดำเนินการ[สร้างชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/datasets)เพื่อสร้างชุดข้อมูลใน Power BI ในขั้นตอนนี้ ให้คุณใช้การดำเนินการ[รับชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)และ Newtonsoft.Json เพื่อรับรหัสชุดข้อมูล คุณสามารถใช้รหัสชุดข้อมูลในขั้นตอนที่ 4 เพื่อเพิ่มแถวไปยังชุดข้อมูล 
 
-เมื่อต้องส่งข้อมูลไปยังชุดข้อมูล Power BI คุณจำเป็นต้องอ้างอิงตารางในชุดข้อมูล เมื่อต้องการอ้างอิงตารางในชุดข้อมูล ก่อนอื่นคุณต้องได้รับ**รหัสชุดข้อมูล** คุณจะได้รับ**รหัสชุดข้อมูล**โดยใช้การดำเนินการ[รับชุดข้อมูลจากรหัส](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid) การดำเนินการ**รับชุดข้อมูลจากรหัส** จะส่งคืนสตริง JSON ที่ประกอบด้วยรายการของชุดข้อมูลทั้งหมดใน Power BI วิธีแนะนำในการยกเลิกการจัดลำดับสตริง JSON อยู่ใน[Newtonsoft.Json](http://www.newtonsoft.com/json)
+เมื่อต้องส่งข้อมูลไปยังชุดข้อมูล Power BI คุณจำเป็นต้องอ้างอิงตารางในชุดข้อมูล เมื่อต้องการอ้างอิงตารางในชุดข้อมูล ก่อนอื่นคุณต้องได้รับ**รหัสชุดข้อมูล** คุณได้รับ**รหัสชุดข้อมูล**โดยใช้การดำเนินการ[รับชุดข้อมูล](/rest/api/power-bi/datasets/getdatasets) การดำเนินการ**รับชุดข้อมูล**จะส่งคืนสตริง JSON ที่ประกอบด้วยรายการของชุดข้อมูลทั้งหมดใน Power BI วิธีแนะนำในการยกเลิกการจัดลำดับสตริง JSON อยู่ใน[Newtonsoft.Json](http://www.newtonsoft.com/json)
 
 นี่คือวิธีที่คุณได้รับชุดข้อมูล
 
