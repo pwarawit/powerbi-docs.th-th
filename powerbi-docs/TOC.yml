@@ -723,10 +723,6 @@
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: แก้ไขปัญหาข้อผิดพลาดไทล์
               href: refresh-troubleshooting-tile-errors.md
-            - name: แก้ไขปัญหาเกตเวย์ข้อมูลภายในองค์กร
-              href: service-gateway-onprem-tshoot.md
-            - name: แก้ไขปัญหาเกตเวย์ Power BI - ส่วนบุคคล
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: แก้ไขปัญหาการวิเคราะห์ใน Excel
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'ข้อผิดพลาด: เราไม่พบข้อมูลใด ๆ ในสมุดงาน Excel ของคุณ'
@@ -1279,38 +1275,38 @@
   items:
     - name: ภาพรวม
       items:
-        - name: เกตเวย์ Power BI คืออะไร?
-          href: service-gateway-getting-started.md
-    - name: บทช่วยสอน
-      items:
-        - name: เชื่อมต่อกับข้อมูล SQL Server
-          href: service-gateway-sql-tutorial.md
+        - name: เกตเวย์ข้อมูลในองค์กรคืออะไร?
+          href: service-gateway-onprem.md
     - name: แนวคิด
       items:
         - name: คำแนะนำสำหรับการปรับใช้เกตเวย์ข้อมูล
           href: service-gateway-deployment-guidance.md
         - name: คำถามที่ถามบ่อยของเกตเวย์ข้อมูลภายในองค์กร
-          href: service-gateway-onprem-faq.md
+          href: service-gateway-power-bi-faq.md
     - name: วิธีการ
       items:
-        - name: ติดตั้งเกตเวย์
-          href: service-gateway-install.md
-        - name: จัดการเกตเวย์
-          href: service-gateway-manage.md
-        - name: ตรวจสอบประสิทธิภาพของเกตเวย์
-          href: service-gateway-performance-monitoring.md
-        - name: จัดการแหล่งข้อมูลองค์กรของคุณ - Analysis Services
-          href: service-gateway-enterprise-manage-ssas.md
-        - name: จัดการแหล่งข้อมูลองค์กรของคุณ - SAP HANA
-          href: service-gateway-enterprise-manage-sap.md
-        - name: จัดการแหล่งข้อมูลองค์กรของคุณ - SQL
-          href: service-gateway-enterprise-manage-sql.md
-        - name: จัดการแหล่งข้อมูลของคุณ - Oracle
-          href: service-gateway-onprem-manage-oracle.md
-        - name: จัดการแหล่งข้อมูลองค์กรของคุณ - นำเข้า/รีเฟรชตามกำหนดเวลา
-          href: service-gateway-enterprise-manage-scheduled-refresh.md
-        - name: ผนวกแหล่งข้อมูลภายในระบบคลาวด์ในองค์กร
-          href: service-gateway-mashup-on-premises-cloud.md
+        - name: เกตเวย์ข้อมูลภายในองค์กร - เชิงลึก
+          href: service-gateway-onprem-indepth.md
+        - name: เกตเวย์ข้อมูลแบบติดตั้งภายในองค์กร (โหมดส่วนบุคคล)
+          href: service-gateway-personal-mode.md
+        - name: จัดการผู้ใช้และผู้ดูแลระบบ
+          href: service-gateway-manage-admins.md
+        - name: จัดการแหล่งข้อมูล
+          items:
+            - name: จัดการแหล่งข้อมูล
+              href: service-gateway-data-sources.md
+            - name: จัดการแหล่งข้อมูลองค์กรของคุณ - Analysis Services
+              href: service-gateway-enterprise-manage-ssas.md
+            - name: จัดการแหล่งข้อมูลองค์กรของคุณ - SAP HANA
+              href: service-gateway-enterprise-manage-sap.md
+            - name: จัดการแหล่งข้อมูลองค์กรของคุณ - SQL
+              href: service-gateway-enterprise-manage-sql.md
+            - name: จัดการแหล่งข้อมูลของคุณ - Oracle
+              href: service-gateway-onprem-manage-oracle.md
+            - name: จัดการแหล่งข้อมูลองค์กรของคุณ - นำเข้า/รีเฟรชตามกำหนดเวลา
+              href: service-gateway-enterprise-manage-scheduled-refresh.md
+            - name: ผนวกแหล่งข้อมูลภายในระบบคลาวด์ในองค์กร
+              href: service-gateway-mashup-on-premises-cloud.md
         - name: เปิดใช้งานการลงชื่อเข้าระบบครั้งเดียว (SSO)
           items:
             - name: ลงชื่อเข้าระบบครั้งเดียว (SSO) - ภาพรวม
@@ -1321,24 +1317,16 @@
               href: service-gateway-sso-kerberos-resource.md
             - name: ลงชื่อเข้าระบบครั้งเดียว (SSO) - SAML
               href: service-gateway-sso-saml.md
-        - name: การกำหนดค่าพร็อกซี
-          href: service-gateway-proxy.md
-        - name: คลัสเตอร์ของความพร้อมใช้งานสูงสำหรับเกตเวย์ข้อมูลภายในองค์กร
-          href: service-gateway-high-availability-clusters.md
-        - name: เกตเวย์ข้อมูลภายในองค์กร
-          href: service-gateway-onprem.md
-        - name: เกตเวย์ข้อมูลภายในองค์กร - เชิงลึก
-          href: service-gateway-onprem-indepth.md
-        - name: เกตเวย์ข้อมูลแบบติดตั้งภายในองค์กร (โหมดส่วนบุคคล)
-          href: service-gateway-personal-mode.md
-        - name: ตัวเชื่อมต่อแบบกำหนดเอง
-          href: service-gateway-custom-connectors.md
-        - name: แก้ไขปัญหาเกตเวย์ข้อมูลภายในองค์กร
+        - name: แก้ไขปัญหาเกตเวย์
           href: service-gateway-onprem-tshoot.md
+        - name: แก้ไขปัญหาเกตเวย์ (โหมดส่วนตัว)
+          href: service-admin-troubleshooting-power-bi-personal-gateway.md
+        - name: ใช้ตัวเชื่อมต่อที่กำหนดเอง
+          href: service-gateway-custom-connectors.md
     - name: ทรัพยากร
       items:
         - name: อัปเดตเกตเวย์ประจำเดือน
-          href: service-gateway-monthly-updates.md
+          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
 - name: การดูแลระบบ
   items:
     - name: ภาพรวม
