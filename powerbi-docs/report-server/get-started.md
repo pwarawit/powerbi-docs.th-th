@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 37751117853c8bca686585992108c006c6c76b70
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59913e5d17d15dad8729cd5c96582d09f708c30a
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187487"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791832"
 ---
 # <a name="what-is-power-bi-report-server"></a>เซิร์ฟเวอร์รายงาน Power BI คืออะไร?
 
@@ -24,7 +24,7 @@ Power BI Report Server เป็นเซิร์ฟเวอร์รายง
 ![พอร์ทัลเว็บของ Power BI Report Server](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI 
-เซิร์ฟเวอร์รายงาน Power BI คล้ายกับทั้ง SQL Server Reporting Services และบริการออนไลน์ของ Power BI แต่ในด้านที่ต่างกัน เช่นบริการ Power BI เซิร์ฟเวอร์รายงาน Power BI โฮสต์รายงาน Power BI ( PBIX) ไฟล์ Excel และรายงานแบบแบ่งหน้า ( RDL) เหมือนกับ Reporting Services เซิร์ฟเวอร์รายงาน Power BI อยู่ภายในองค์กร ลักษณะการทำงานเซิร์ฟเวอร์รายงาน BI power เป็นเซตใหญ่ของ Reporting Services: ทุกอย่างที่คุณสามารถทำได้ใน Reporting Services คุณสามารถทำได้ ด้วยเซิร์ฟเวอร์รายงาน Power BI พร้อมกับการสนับสนุนสำหรับรายงาน Power BI ได้ ดู[เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI](compare-report-server-service.md) สำหรับรายละเอียด
+เซิร์ฟเวอร์รายงาน Power BI คล้ายกับทั้ง SQL Server Reporting Services และบริการออนไลน์ของ Power BI แต่ในด้านที่ต่างกัน เซิร์ฟเวอร์รายงาน Power BI โฮสต์รายงาน Power BI (.PBIX) ไฟล์ Excel และรายงานที่มีการแบ่งหน้า เหมือนกับบริการของ Power BI เซิร์ฟเวอร์รายงาน Power BI อยู่ภายในองค์กร เหมือนกับ Reporting Services คุณสมบัติเซิร์ฟเวอร์รายงาน Power BI คือชุดใหญ่ของ Reporting Services: ทุกอย่างที่คุณสามารถทำได้ใน Reporting Services คุณสามารถทำได้ในเซิร์ฟเวอร์รายงาน Power BI รวมทั้งเพิ่มการสนับสนุนสำหรับรายงาน Power BI ดู[เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI](compare-report-server-service.md) สำหรับรายละเอียด
 
 ## <a name="licensing-power-bi-report-server"></a>สิทธิ์การใช้งานเซิร์ฟเวอร์รายงาน Power BI
 เซิร์ฟเวอร์รายงาน power BI จะใช้งานได้เมื่อมีใบอนุญาตให้ใช้งานสองอย่างดังต่อไปนี้: [Power BI Premium](../service-premium-what-is.md) และ [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)พร้อมการรับประกันซอฟต์แวร์ ด้วยสิทธิ์การใช้งาน Power BI Premium คุณสามารถสร้างการปรับใช้ที่ผสมผสานระหว่างระบบคลาวด์และภายในองค์กร  
@@ -48,14 +48,14 @@ Power BI Report Server เป็นเซิร์ฟเวอร์รายง
 
 รายงาน Power BI เป็นการดูจากหลายมุมมองเข้าไปในรูปแบบข้อมูล ด้วยการแสดงภาพที่แสดงการค้นพบและข้อมูลเชิงลึกต่าง ๆ ที่ได้จากรูปแบบข้อมูลนั้น  รายงานสามารถมีการแสดงภาพเดียวหรือมีหน้าที่เต็มไปด้วยการแสดงภาพ ขึ้นอยู่กับบทบาทของคุณ คุณอาจอ่านและสำรวจรายงาน หรือคุณอาจสร้างรายงานสำหรับผู้อื่น
 
-อ่านเกี่ยวกับ[ติดตั้ง Microsoft Power BI Desktop](install-powerbi-desktop.md)
+อ่านเกี่ยวกับ[การติดตั้ง Microsoft Power BI Desktop](install-powerbi-desktop.md)
 
 ## <a name="paginated-reports"></a>รายงานที่มีการแบ่งหน้า
 รายงานที่มีการแบ่งหน้า (.RDL) เป็นรายงานรูปแบบเอกสารที่มีการแสดงภาพ ที่ตารางขยายตามแนวนอนและแนวตั้งเพื่อแสดงข้อมูลทั้งหมด ต่อเนื่องจากหน้าหนึ่งไปยังอีกหน้าหนึ่งตามความจำเป็น ซึ่งเหมาะมากกับสำหรับเอกสารที่มีเค้าโครงคงที่, พิกเซลสมบูรณ์แบบ ที่ปรับให้เหมาะสมสำหรับการพิมพ์ เช่นไฟล์ PDF และ Word 
 
 ![รายงานที่มีการแบ่งหน้าในเซิร์ฟเวอร์รายงาน Power BI](media/get-started/paginated-reports.png)
 
-คุณสามารถสร้างรายงานแบบแบ่งหน้าโดยใช้[Report Builder](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)หรือตัวออก แบบรายงานใน[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt)ได้
+คุณสร้างรายงานที่มีการแบ่งหน้าด้วย[ตัวสร้างรายงาน](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)หรือ ตัวออกแบบรายงาน ใน[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt)
 
 ## <a name="reporting-services-mobile-reports"></a>รายงานอุปกรณ์มือถือของ Reporting Services
 รายงานอุปกรณ์มือถือเชื่อมต่อกับข้อมูลภายในองค์กร และมีเค้าโครงแบบตอบสนอง ที่ปรับเข้ากับอุปกรณ์ต่าง ๆ และวิธีที่คุณถือมือถือ คุณสร้างรายงานนั้นด้วย SQL Server Mobile Report Publisher

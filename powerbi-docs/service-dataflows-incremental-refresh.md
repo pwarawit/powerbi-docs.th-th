@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7e9d8779480eb7a00dacfc9fc52fc81987629e7b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136690"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791937"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>การรีเฟรชแบบเพิ่มหน่วยกับกระแสข้อมูล Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "61136690"
 
 กระแสข้อมูลสามารถมีเอนทิตีหลายตัวได้ การรีเฟรชแบบเพิ่มหน่วยได้รับการตั้งค่าที่ระดับเอนทิตี โดยอนุญาตให้มีกระแสข้อมูลหนึ่งเก็บทั้งเอนทิตีที่รีเฟรชเสร็จแล้วและเอนทิตีที่รีเฟรชแบบเพิ่มหน่วย
 
-เมื่อต้องการตั้งค่าเอนทิตีที่รีเฟรชแบบเพิ่มหน่วย ให้เริ่มโดยการกำหนดค่าเอนทิตีเช่นที่คุณจะกำหนดให้เอนทิตีอื่นๆ เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับตั้งค่า dataflow ดู[เตรียมข้อมูลด้วยตนเองใน Power BI](service-dataflows-overview.md)
+เมื่อต้องการตั้งค่าเอนทิตีที่รีเฟรชแบบเพิ่มหน่วย ให้เริ่มโดยการกำหนดค่าเอนทิตีเช่นที่คุณจะกำหนดให้เอนทิตีอื่นๆ สำหรับการเรียนรู้เพิ่มเติมเกี่ยวกับการตั้งค่ากระแสข้อมูล โปรดดู [การเตรียมข้อมูลด้วยตนเองใน Power BI ](service-dataflows-overview.md)
 
 เมื่อสร้างและบันทึกกระแสข้อมูลแล้ว ให้คุณเลือกไอคอน**การรีเฟรชแบบเพิ่มหน่วย**ในมุมมองเอนทิตี ดังที่แสดงในรูปต่อไปนี้:
 
@@ -156,8 +156,8 @@ ms.locfileid: "61136690"
 
 * [การเตรียมข้อมูลด้วยตัวเองโดยใช้กระแสข้อมูล](service-dataflows-overview.md)
 * [การสร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
-* [ใช้ dataflows กับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
-* [ทรัพยากรสำหรับนักพัฒนาสำหรับ dataflows Power BI](service-dataflows-developer-resources.md)
+* [การใช้กระแสข้อมูลกับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
+* [แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI](service-dataflows-developer-resources.md)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power Query และการรีเฟรชตามกำหนดการ สามารถดูได้ในบทความเหล่านี้:
 * [ภาพรวมคิวรีใน Power BI Desktop](desktop-query-overview.md)

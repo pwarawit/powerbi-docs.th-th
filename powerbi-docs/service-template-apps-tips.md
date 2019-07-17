@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 59d581697091df68df827ec699c8999a6993daef
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408356"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791823"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>เคล็ดลับสำหรับการเขียนแอปเทมเพลตใน Power BI
 
@@ -126,6 +126,7 @@ ms.locfileid: "67408356"
 
 * ต้องสร้างแอปเทมเพลตที่มีข้อมูลตัวอย่างที่เกี่ยวข้อง ที่ช่วยให้ตัวติดตั้งเข้าใจถึงสิ่งที่แอปทำได้ (ไม่อนุญาตให้รายงานและแดชบอร์ดว่างเปล่า)
 แอปเทมเพลตสนับสนุนข้อมูลตัวอย่างเฉพาะแอป ตรวจสอบให้แน่ใจว่าทำเครื่องหมายในกล่องกาเครื่องหมายแบบคงที่ [เรียนรู้เพิ่มเติม](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* โดยทั่วไป เฉพาะแอปพลิเคชันที่มีฟังก์ชันการทำงานที่มีค่าเท่านั้นที่สามารถได้รับการอนุมัติสำหรับการใช้งานทั่วไปบน AppSource แอปพลิเคชันที่มีเนื้อหาข้อมูลตัวอย่างเท่านั้นที่ต้องมีคำแนะนำหรือค่าทางสถิติ
 * มีคำแนะนำเพื่อให้ทีมตรวจสอบสามารถติดตามได้ ซึ่งรวมถึงข้อมูลประจำตัวและพารามิเตอร์ที่จำเป็นสำหรับการเชื่อมต่อข้อมูล
 * แอปพลิเคชันต้องมีไอคอนแอป ใน Power BI และในข้อเสนอ CPP ของคุณ [เรียนรู้เพิ่มเติม](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * กำหนดค่าเพจเริ่มต้นแล้ว [เรียนรู้เพิ่มเติม](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
