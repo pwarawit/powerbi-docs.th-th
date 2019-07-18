@@ -1289,8 +1289,6 @@
           href: service-gateway-onprem-indepth.md
         - name: เกตเวย์ข้อมูลแบบติดตั้งภายในองค์กร (โหมดส่วนบุคคล)
           href: service-gateway-personal-mode.md
-        - name: จัดการผู้ใช้และผู้ดูแลระบบ
-          href: service-gateway-manage-admins.md
         - name: จัดการแหล่งข้อมูล
           items:
             - name: จัดการแหล่งข้อมูล
