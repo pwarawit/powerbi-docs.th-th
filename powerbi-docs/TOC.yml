@@ -55,7 +55,7 @@
           href: desktop-latest-update.md
         - name: มุมมองแบบจำลองใน Power BI Desktop
           href: desktop-modeling-view.md
-        - name: การรวมข้อมูลใน Power BI Desktop (ตัวอย่าง)
+        - name: การรวมข้อมูลใน Power BI Desktop
           href: desktop-aggregations.md
         - name: โมเดลแบบรวมใน Power BI Desktop
           href: desktop-composite-models.md
@@ -234,7 +234,7 @@
             - name: ชนิดตัวกรอง
               href: power-bi-report-filter-types.md
             - name: ลองใช้งานตัวกรองใหม่
-              href: power-bi-report-filter-preview.md
+              href: power-bi-report-filter.md
             - name: ใช้หน่วยวัดด่วน
               href: desktop-quick-measures.md
             - name: ใช้พารามิเตอร์ What If
@@ -453,6 +453,8 @@
               href: service-support-options.md
             - name: 10 เคล็ดลับสำหรับการรับความช่วยเหลือ
               href: service-tips-for-finding-help.md
+            - name: การแจ้งเตือนการหยุดชะงักของบริการ
+              href: service-interruption-notifications.md
         - name: ขยาย Power BI
           items:
             - name: Microsoft Flow และ Power BI
@@ -685,6 +687,8 @@
           items:
             - name: ดูรายงานที่มีการแบ่งหน้า
               href: paginated-reports-view-power-bi-service.md
+            - name: แหล่งข้อมูลที่ได้รับการสนับสนุน
+              href: paginated-reports-data-sources.md
             - name: โต้ตอบกับพารามิเตอร์
               href: paginated-reports-view-parameters.md
             - name: สมัครใช้งานตัวคุณเองหรือผู้อื่น
