@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 695d1f219b3438f07125447db04aad3ba971683a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385447"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289848"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>บันทึกการวินิจฉัยสำหรับ Power BI Embedded ใน Azure
 
@@ -22,7 +22,6 @@ ms.locfileid: "61385447"
 ใช้การวินิจฉัยสามารถตอบสถานการณ์จำลองได้ เช่น:
 
 * ตรวจหาคิวรีที่ใช้งานเป็นเวลานานหรือมีปัญหา
-* ตรวจหาข้อผิดพลาดเมื่อถึงขีดจำกัดกำลังการผลิต
 * การจัดประเภทของ [เมตริกความจุ](https://powerbi.microsoft.com/blog/power-bi-developer-community-april-update/)
 * ติดตามการใช้งานของชุดข้อมูลแบบเฉพาะเจาะจง
 
@@ -127,9 +126,6 @@ ms.locfileid: "61385447"
 | JobID | 0 | ID งานสำหรับความคืบหน้า |
 | ObjectID | 464 | ID ของออบเจ็กต์ |
 | ObjectType | 802012 | ObjectType |
-| ObjectName | ลูกค้า SalesLT | ObjectName |
-| ObjectPath | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 ลูกค้า Model.SalesLT | เส้นทางของวัตถุ รายการของพาเรนต์ที่ใช้จุลภาคเป็นตัวคั่น การเริ่มต้นด้วยพาเรนต์ของวัตถุ |
-| ObjectReference | <Object><Table>ลูกค้า SalesLT</Table><Model>Model</Model><Database>5eaa550e-06ac-4adf-aba9-dbf0e8fd1527</Database></Object> | การอ้างอิงวัตถุ เข้ารหัสเป็น XML สำหรับทุกพาเรนต์ การใช้แท็กเพื่ออธิบายวัตถุ |
 | เวลาสิ้นสุด | 2018-04-06T18:30:11.9137358Z | เวลาที่เหตุการณ์สิ้นสุด |
 | ระยะเวลา | 0 | ระยะเวลา (ในหน่วยมิลลิวินาที) ที่ใช้โดยกิจกรรม |
 | SessionType | ผู้ใช้ | ประเภทเซสชัน (เอนทิตีใดที่เป็นเหตุให้เกิดการดำเนินการ) |
@@ -138,7 +134,6 @@ ms.locfileid: "61385447"
 | ความรุนแรง | 0 | ระดับความรุนแรงของข้อยกเว้น |
 | ความสำเร็จ | 1 | 1 = สำเร็จ 0 = ล้มเหลว (ตัวอย่างเช่น 1 หมายถึงการตรวจสอบสิทธิ์เสร็จเรียบร้อยแล้ว และ 0 หมายถึงการตรวจสอบล้มเหลว) |
 | ข้อผิดพลาด | 0 | จำนวนข้อผิดพลาดของกิจกรรมที่ให้ไว้ |
-| TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT Customer (464)].[rowguid (606)] AS [SalesLT Customer (464)$rowguid (606)]  FROM [SalesLT Customer (464)]; [Estimated size (volume marshalling bytes): 850 6800] | ข้อมูลตัวอักษรที่เกี่ยวข้องกับกิจกรรม |
 | ConnectionID | 3 | ID การเชื่อมต่อเฉพาะ |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | ID ของฐานข้อมูลที่คำสั่งของผู้ใช้กำลังทำงานอยู่ |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | GUID เซสชัน |
@@ -146,8 +141,7 @@ ms.locfileid: "61385447"
 | ClientProcessID | null | ID กระบวนการของแอปพลิเคชันไคลเอ็นต์ |
 | ApplicationName | null | ชื่อของแอปพลิเคชันไคลเอ็นต์ที่สร้างการเชื่อมต่อกับเซิร์ฟเวอร์ |
 | CapacityName | pbi641fb41260f84aa2b778a85891ae2d97 | ชื่อของทรัพยากรความจุ Power BI Embedded |
-| RequestParameters |  |  |
-| RequestProperties |  |  |
+
 
 ### <a name="allmetrics"></a>AllMetrics
 
