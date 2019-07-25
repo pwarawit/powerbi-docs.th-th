@@ -73,7 +73,7 @@
           href: desktop-data-source-prerequisites.md
         - name: สมาชิกเริ่มต้นในแบบจำลองหลายมิติใน Power BI
           href: desktop-default-member-multidimensional-models.md
-        - name: คำถามที่พบบ่อยของวิชวลแบบกำหนดเอง
+        - name: คำถามที่พบบ่อยเกี่ยวกับวิชวล
           href: power-bi-custom-visuals-faq.md
     - name: วิธีการ
       items:
@@ -1067,48 +1067,70 @@
       items:
         - name: ภาพรวม
           items:
-            - name: วิชวลแบบกำหนดเองใน Power BI
+            - name: วิชวลใน Power BI
               href: power-bi-custom-visuals.md
         - name: บทช่วยสอน
           items:
-            - name: การพัฒนาภาพที่กำหนดเองสำหรับ Power BI
+            - name: พัฒนาวิชวล Power BI
               href: developer/custom-visual-develop-tutorial.md
             - name: เพิ่มตัวเลือกการจัดรูปแบบ
               href: developer/custom-visual-develop-tutorial-format-options.md
+            - name: เพิ่มการทดสอบหน่วยสำหรับโครงการวิชวล
+              href: developer/visuals/unit-tests-introduction.md
         - name: แนวคิด
           items:
-            - name: การแสดงผลด้วยภาพแบบกำหนดเองสำหรับองค์กรใน Power BI
+            - name: วิชวลสำหรับองค์กรใน Power BI
               href: power-bi-custom-visuals-organization.md
             - name: คำแนะนำสำหรับการแสดงภาพ Power BI
               href: developer/guidelines-powerbi-visuals.md
-            - name: คำถามที่พบบ่อยของวิชวลแบบกำหนดเอง
+            - name: คำถามที่พบบ่อยเกี่ยวกับวิชวล
               href: power-bi-custom-visuals-faq.md
             - name: การใช้ความสามารถ
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/'
-            - name: มุมมองข้อมูลการแมป
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/dataviewmappings/'
-            - name: อ็อบเจกต์และคุณสมบัติ
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/'
+              href: developer/visuals/capabilities.md
+            - name: การแมปมุมมองข้อมูล
+              href: developer/visuals/dataview-mappings.md
+            - name: วัตถุและคุณสมบัติ
+              href: developer/visuals/objects-properties.md
             - name: โหมดแก้ไขขั้นสูง
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/advanced-edit-mode/'
-            - name: การโยกย้ายไปยังคำแนะนำ API ที่มีการกำหนดเวอร์ชัน
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/migrating-to-versioned-api-guide/'
+              href: developer/visuals/advanced-edit-mode.md
         - name: วิธีการ
           items:
-            - name: รับวิชวลแบบกำหนดเองที่ได้รับการรับรอง
+            - name: รับวิชวลที่ได้รับการรับรอง
               href: power-bi-custom-visuals-certified.md
             - name: เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
               href: developer/office-store.md
             - name: ใช้วิชวลแบบกำหนดเองที่ทำงานด้วย R ใน Power BI
               href: desktop-r-powered-custom-visuals.md
-            - name: การแก้ไขปัญหา
-              items:
-                - name: แก้ไขปัญหาการพัฒนาวิชวลแบบกำหนดเอง
-                  href: power-bi-custom-visuals-troubleshoot.md
+            - name: การโต้ตอบวิชวล
+              href: developer/visuals/visuals-interactions.md
+            - name: เพิ่มเคล็ดลับเครื่องมือของวิชวล
+              href: developer/visuals/add-tooltips.md
+            - name: เพิ่มบานหน้าต่างการวิเคราะห์
+              href: developer/visuals/analytics-pane.md
+            - name: กรองวิชวล
+              href: developer/visuals/filter-api.md
+            - name: ดึงข้อมูลเพิ่มเติม
+              href: developer/visuals/fetch-more-data.md
+            - name: เพิ่มการสนับสนุนที่คั่นหน้า
+              href: developer/visuals/bookmarks-support.md
+            - name: เน้นข้อมูลในวิชวล
+              href: developer/visuals/highlight.md
+            - name: เพิ่มการสนับสนุนโหมดความคมชัดสูง
+              href: developer/visuals/high-contrast-support.md
+            - name: เปิดใช้งานตัวแบ่งส่วนข้อมูลการซิงค์
+              href: developer/visuals/enable-sync-slicers.md
+            - name: แก้ปัญหาวิชวล Power BI
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: การอ้างอิง
           items:
-            - name: API
-              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
+            - name: หน้าเริ่มต้น
+              href: developer/visuals/landing-page.md
+            - name: เปิดใช้แอป
+              href: developer/visuals/launch-url.md
+            - name: เหตุการณ์การแสดงผล
+              href: developer/visuals/event-service.md
+            - name: เรียงลำดับ
+              href: developer/visuals/sort-options.md
         - name: ทรัพยากร
           items:
             - name: ศูนย์นักพัฒนา
@@ -1117,6 +1139,8 @@
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
             - name: Git Repo วิชวลแบบกำหนดเอง
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+            - name: การสร้างใบรับรอง SSL
+              href: developer/visuals/create-ssl-certificate.md
     - name: อัตโนมัติ
       items:
         - name: ภาพรวม
