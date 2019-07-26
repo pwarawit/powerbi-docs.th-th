@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
-ms.date: 05/03/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596638"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307397"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>รีเฟรชข้อมูลจากฐานข้อมูล SQL Server ภายในองค์กร
 
@@ -36,7 +36,7 @@ ms.locfileid: "67596638"
 - ถ้าคุณไม่มี ให้ลงทะเบียนสำหรับ[ทดลองใช้ Power BI ฟรี](https://app.powerbi.com/signupredirect?pbi_source=web)ก่อนที่จะเริ่ม
 - [ติดตั้ง Power BI Desktop](https://powerbi.microsoft.com/desktop/) ภายในคอมพิวเตอร์
 - [ติดตั้ง SQL Server](/sql/database-engine/install-windows/install-sql-server) ภายในคอมพิวเตอร์ และคืนค่า [ฐานข้อมูลตัวอย่างจากการสำรองข้อมูล](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ AdventureWorks ให้ดู [การติดตั้งและการกำหนดค่า AdventureWorks](/sql/samples/adventureworks-install-configure)
-- [ติดตั้งเกตเวย์ข้อมูลภายในองค์กร](service-gateway-install.md) ภายในคอมพิวเตอร์เครื่องเดียวกันเป็น SQL Server (แต่ในการใช้งานจริง มักจะเป็นคอมพิวเตอร์คนละเครื่อง)
+- [ติดตั้งเกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem.md) ภายในคอมพิวเตอร์เครื่องเดียวกันเป็น SQL Server (แต่ในการใช้งานจริง มักจะเป็นคอมพิวเตอร์คนละเครื่อง)
 
 > [!NOTE]
 > ถ้าคุณไม่ได้เป็นผู้ดูแลระบบเกตเวย์ และไม่ต้องการติดตั้งเกตเวย์ด้วยตนเอง ติดต่อผู้ดูแลระบบเกตเวย์ในองค์กรของคุณ พวกเขาสามารถสร้างข้อกำหนดแหล่งข้อมูลที่จำเป็นต้องมีการเชื่อมต่อชุดข้อมูลของคุณลงในฐานข้อมูล SQL Server
@@ -202,6 +202,6 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 ในบทช่วยสอนนี้ คุณได้สำรวจวิธีการนำเข้าข้อมูลจากฐานข้อมูล SQL Server ภายในองค์กรไปยังชุดข้อมูล Power BI และวิธีการรีเฟรชชุดข้อมูลนี้ตามกำหนดเวลาและตามความต้องการ เพื่อเก็บรายงานและแดชบอร์ดที่ใช้ชุดข้อมูลนี้ที่อัปเดตใน Power BI ตอนนี้ คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับการจัดการเกตเวย์ข้อมูลและแหล่งข้อมูลใน Power BI นอกจากนี้ คุณยังควรตรวจสอบการรีเฟรชข้อมูลบทความเชิงแนวคิดใน Power BI
 
-- [จัดการเกตเวย์ Power BI ภายในองค์กร](service-gateway-manage.md)
+- [จัดการเกตเวย์ข้อมูลภายในองค์กร](/data-integration/gateway/service-gateway-manage)
 - [จัดการแหล่งข้อมูลของคุณ - นำเข้า/รีเฟรชตามกำหนดการ](service-gateway-enterprise-manage-scheduled-refresh.md)
 - [การรีเฟรชข้อมูลใน Power BI](refresh-data.md)

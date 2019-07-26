@@ -8,15 +8,41 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 03/10/2019
-ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/16/2019
+ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61343156"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271180"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>คำแนะนำสำหรับการแสดงภาพ Power BI
+ก่อนที่คุณ[จะเผยแพร่](https://docs.microsoft.com/power-bi/developer/office-store)การแสดงผลด้วยภาพของคุณไปยัง AppSource สำหรับผู้อื่นเพื่อค้นหาและใช้งาน ตรวจสอบให้แน่ใจว่าคุณได้ทำตามคำแนะนำเพื่อสร้างประสบการณ์ที่ยอดเยี่ยมสำหรับผู้ใช้ของคุณ 
+
+## <a name="context-menu"></a>เมนูบริบท
+เมนูบริบทคือเมนูคลิกขวาที่จะแสดงขึ้นเมื่อผู้ใช้วางเมาส์เหนือการแสดงผลด้วยภาพ
+การแสดงผลด้วยภาพของ Power BI ทั้งหมดควรเปิดใช้งานเมนูบริบทเพื่อนำเสนอประสบการณ์แบบครบวงจร โปรดตรวจสอบ[บทความ](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md)นี้เพื่อเรียนรู้วิธีการเพิ่มเมนูบริบท
+
+
+## <a name="logo-guidelines"></a>หลักเกณฑ์เกี่ยวกับโลโก้
+
+ส่วนนี้จะอธิบายข้อกำหนดสำหรับการเพิ่มโลโก้และรูปแบบโลโก้ในวิชวล
+
+> [!IMPORTANT]
+> โลโก้สามารถใช้ได้เฉพาะใน *โหมดแก้ไขเท่านั้น* โลโก้*ไม่*สามารถแสดงในโหมดมุมมองได้
+
+![คำนิยาม](media/guidelines-powerbi-visuals/definitions.png)
+
+![สิ่งที่ต้องคำนึงถึง](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
+
+![สิ่งที่ต้องหลีกเลี่ยง](media/guidelines-powerbi-visuals/things-to-avoid.png)
+
+![ขนาดและรูปแบบ](media/guidelines-powerbi-visuals/size-and-format.png)
+
+![ระยะขอบและการปรับขนาด](media/guidelines-powerbi-visuals/margins-and-sizes.png)
+
+![โหมดแก้ไข](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
+
 
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>คำแนะนำการใช้วิชวลของ Power BI ที่มีการซื้อเพิ่มเติม
 
@@ -36,31 +62,13 @@ ms.locfileid: "61343156"
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>วิชวล Power BI ที่มีคุณลักษณะ IAP คืออะไร?
 
-วิชวล IAP คือวิชวลแบบ **ฟรี** ที่ให้บริการ **คุณลักษณะแบบฟรี** วิชวล IAP ยังมีคุณลักษณะขั้นสูงบางอย่างสำหรับค่าธรรมเนียมเพิ่มเติมซึ่งอาจถูกนำไปใช้เพื่อให้ใช้งานวิชวล IAP เหล่านั้นได้ ในการอธิบายวิชวล นักพัฒนาต้องแจ้งผู้ใช้ในคำอธิบายของวิชวลเกี่ยวกับคุณลักษณะที่ต้องซื้อเพิ่มเติมเพื่อใช้งาน ปัจจุบัน Microsoft ไม่ได้มี APIs แบบเนทีฟเพื่อสนับสนุนการซื้อเพิ่มภายของแอปและ Add-ins
+วิชวล IAP คือวิชวลแบบ *ฟรี* ที่ให้บริการ *คุณลักษณะแบบฟรี* วิชวล IAP ยังมีคุณลักษณะขั้นสูงบางอย่างสำหรับค่าธรรมเนียมเพิ่มเติมซึ่งอาจถูกนำไปใช้เพื่อให้ใช้งานวิชวล IAP เหล่านั้นได้ ในการอธิบายวิชวล นักพัฒนาต้องแจ้งผู้ใช้ในคำอธิบายของวิชวลเกี่ยวกับคุณลักษณะที่ต้องซื้อเพิ่มเติมเพื่อใช้งาน ปัจจุบัน Microsoft ไม่ได้มี APIs แบบเนทีฟเพื่อสนับสนุนการซื้อเพิ่มภายของแอปและ Add-ins
 
 นักพัฒนาอาจใช้ระบบการชำระเงินอื่นสำหรับการซื้อเหล่านี้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่[นโยบายร้านค้าของเรา](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)
 
 > [!NOTE]
 > ลายน้ำไม่สามารถใช้งานได้กับคุณลักษณะแบบฟรีหรือวิชวลแบบฟรี ลายน้ำสามารถใช้ได้เฉพาะกับคุณลักษณะที่ต้องชำระซึ่งใช้โดยไม่ต้องมีใบอนุญาตที่ถูกต้อง เราขอแนะนำให้แสดงหน้าต่างป๊อปอัปพร้อมข้อมูลสิทธิ์การใช้งานที่เกี่ยวข้องทั้งหมดหากคุณใช้คุณลักษณะแบบชำระเงินขั้นสูงโดยไม่มีสิทธิ์การใช้งานที่ถูกต้อง  
 
-## <a name="logo-guidelines"></a>หลักเกณฑ์เกี่ยวกับโลโก้
-
-ส่วนนี้จะอธิบายข้อกำหนดสำหรับการเพิ่มโลโก้และรูปแบบโลโก้ในวิชวล
-
-> [!IMPORTANT]
-> โลโก้สามารถใช้ได้เฉพาะใน **โหมดแก้ไขเท่านั้น** โลโก้**ไม่**สามารถแสดงในโหมดมุมมองได้
-
-![คำนิยาม](media/guidelines-powerbi-visuals/definitions.png)
-
-![สิ่งที่ต้องคำนึงถึง](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
-
-![สิ่งที่ต้องหลีกเลี่ยง](media/guidelines-powerbi-visuals/things-to-avoid.png)
-
-![ขนาดและรูปแบบ](media/guidelines-powerbi-visuals/size-and-format.png)
-
-![ระยะขอบและการปรับขนาด](media/guidelines-powerbi-visuals/margins-and-sizes.png)
-
-![โหมดแก้ไข](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>แนวทางปฏิบัติที่ดีที่สุด
 

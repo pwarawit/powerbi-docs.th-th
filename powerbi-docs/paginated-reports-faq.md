@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/18/2019
-ms.openlocfilehash: 10ac6ed9f49241103d03f2667ccc8db5d619db6c
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.date: 07/15/2019
+ms.openlocfilehash: 10135e0fa725cd4093802cd1416cab302174e21d
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345511"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270798"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>รายงานที่มีการแบ่งหน้าใน Power BI คำถามที่ถามบ่อย 
 
@@ -119,10 +119,10 @@ ms.locfileid: "67345511"
 
 เราสนับสนุนแหล่งข้อมูลต่อไปนี้ - 
 
-- ชุดข้อมูล Power BI Premium
+- ชุดข้อมูล Power BI (ผ่านการลงชื่อเข้าระบบครั้งเดียว (SSO))
 - Azure Analysis Services (ผ่านการลงชื่อเข้าใช้ครั้งเดียว (sso) และ oAuth)
 - คลังข้อมูล Azure SQL
-- Azure SQL Database (ชื่อผู้ใช้/รหัสผ่านและ oAuth)
+- Azure SQL Database (ชื่อผู้ใช้/รหัสผ่าน, SSO และ oAuth)
 - SQL Server*
 - ตารางของ SQL Server Analysis Services (SSAS) (DAX) และแบบจำลองหลายมิติ (MDX)* 
 - Oracle* 
@@ -134,11 +134,11 @@ ms.locfileid: "67345511"
 
 ### <a name="what-authentication-methods-do-you-support"></a>คุณรองรับวิธีการรับรองความถูกต้องแบบใด
 
-เรารองรับ SSO ทั้งใน Azure Analysis Services และแหล่งข้อมูล Power BI Premium และเรายังรองรับ oAuth และ SSO สำหรับ SQL Azure Database  สำหรับแหล่งข้อมูลอื่น ในตอนนี้ คุณต้องเก็บชื่อผู้ใช้และรหัสผ่านพร้อมแหล่งข้อมูลไว้ในพอร์ทัลหรือเกตเวย์  
+เรารับรอง SSO สำหรับ Azure Analysis Services, Azure SQL Database และแหล่งข้อมูล Power BI  นอกจากนี้ เรายังรองรับ OAuth สำหรับ Azure SQL Database และ Azure Analysis Services  สำหรับแหล่งข้อมูลอื่น ในตอนนี้ คุณต้องเก็บชื่อผู้ใช้และรหัสผ่านพร้อมแหล่งข้อมูลไว้ในพอร์ทัลหรือเกตเวย์  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>ฉันสามารถใช้ชุดข้อมูล Power BI เป็นแหล่งข้อมูลสำหรับรายงานแบบแบ่งหน้าได้หรือไม่
 
-ใช่ เรารองรับชุดข้อมูล Power BI Premium เป็นแหล่งข้อมูลสำหรับรายงานของคุณที่มีการแบ่งหน้า
+ใช่ เรารองรับชุดข้อมูล Power BI เป็นแหล่งข้อมูลสำหรับรายงานของคุณที่มีการแบ่งหน้า
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>ฉันสามารถใช้ขั้นตอนที่เก็บไว้ผ่านทางเกตเวย์ได้หรือไม่
 
@@ -179,10 +179,6 @@ ms.locfileid: "67345511"
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>มีการวางแผนสำหรับเครื่องมือเคลื่อนย้ายเพื่อให้ลูกค้า SSRS ย้ายรายงานและแอสเซทที่มีอยู่ Power BI ได้หรือไม่
 
 เรากำลังประเมินตัวเลือกที่นี่เพื่ออนุญาตให้ย้ายเนื้อหาไปยัง Power BI ในวิธีอัตโนมัติ แต่จะไม่สามารถใช้ได้จนกว่าจะหลังจาก GA
-
-### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>ฉันจะสร้างรายงานแบบแบ่งหน้าและรายงาน Power BI โดยใช้เครื่องมือการเขียนตัวเดียวได้หรือไม่
-
-เราได้ทำการค้นหาวิธีการเปิดใช้งานสถานการณ์ทดลองนี้ แต่เราไม่มีแผนเปิดใช้งานจริงในขณะนี้
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>มีส่วนควบคุมตัวแสดงรายงานสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI หรือไม่
 

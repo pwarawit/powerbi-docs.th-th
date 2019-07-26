@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a6718ed8f582150ad8f13d638308700f9004a354
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
+ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "67558990"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68230207"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 สำหรับ "ข้อมูลอะไรใหม่" ที่เกี่ยวข้อง ให้ดู
@@ -22,6 +22,18 @@ ms.locfileid: "67558990"
 * [บล็อกทีมของ power BI สำหรับแอป mobile](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [มีอะไรใหม่ใน Power BI Desktop](../../desktop-latest-update.md)  
 * [มีอะไรใหม่ในบริการ Power BI](../../service-whats-new.md)  
+
+## <a name="july-2019"></a>กรกฎาคม 2019
+
+### <a name="report-page-tooltips"></a>เคล็ดลับเครื่องมือหน้ารายงาน
+
+ตอนนี้เคล็ดลับเครื่องมือหน้ารายงานไม่ได้รับการสนับสนุนเมื่อดูรายงานในแอปมือถือ เพียงแค่กดค้างบนวิชวลที่มีเคล็ดลับเครื่องมือรายงานและเคล็ดลับนั้นจะแสดงขึ้น  
+
+![เคล็ดลับเครื่องมือของพื้นที่รายงาน](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
+
+> [!NOTE]
+> เคล็ดลับเครื่องมือรายงานได้รับการสนับสนุนสำหรับอุปกรณ์ที่มีขนาดใหญ่กว่า 640 พิกเซลและ 320 มุมมองพื้นที่ทำงาน อุปกรณ์ขนาดเล็กกว่าจะเคล็ดลับเครื่องมือค่าเริ่มต้น
+
 
 ## <a name="june-2019"></a>มิถุนายน 2019
 

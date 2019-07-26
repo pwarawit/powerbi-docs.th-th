@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 07/15/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: cc2c9cbc15240e3dc4d46c7f02ef0b0d82bb36f8
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 55ffc166d5a42e850bc4e2dedf80de1c6b9f8634
+ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823439"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68342150"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -33,6 +33,90 @@ ms.locfileid: "66823439"
 คุณยังสามารถดูวิดีโอ**อัปเดตล่าสุด**เริ่มตั้งแต่แรก จากภายในบทความนี้เลย โดยคลิกที่ไอคอน**เล่น**บนรูปภาพวิดีโอที่อยู่ด้านล่างรายการการอัปเดตได้
 
 ส่วนต่อไปนี้อธิบายวิธีการอัปเดตเดือนก่อนหน้าไปยัง**Power BI Desktop**
+
+
+## <a name="june-2019-update-2705494561"></a>การอัปเดตประจำเดือนมิถุนายน 2019 (2.70.5494.561)
+
+การอัปเดตประจำเดือนมิถุนายนของเราจะกระจายแสงแดดและท้องฟ้าสีครามบนรายงานของคุณ ด้วยการรีเฟรชและโทนสีใหม่ที่สดใสสำหรับ Power BI Desktop ของคุณ และโฮสต์การปรับปรุงอื่น ๆ 
+
+ตอนนี้คุณสามารถ[ดาวน์โหลดเวอร์ชันล่าสุดของ Power BI Desktop](https://powerbi.microsoft.com/desktop)ได้ ถ้าคุณกำลังใช้งาน Windows 10 คุณยังสามารถรับ **Power BI Desktop** ได้จาก Windows Store เวอร์ชันรายเดือนจะเหมือนกันแม้ว่าหมายเลขเวอร์ชันอาจแตกต่างกัน โดยไม่คำนึงถึงวิธีการที่คุณติดตั้ง**Power BI Desktop** ดู[บทความนี้](desktop-get-the-desktop.md)สำหรับข้อมูลเพิ่มเติม 
+
+ลิงก์ที่อยู่ข้างแต่ละอัปเดต มีความหมายดังนี้:
+
+* **[วิดีโอ]** เล่นวิดีโอในแท็บเบราว์เซอร์ใหม่ ตรงจุดที่กำลังพูดถึงคุณลักษณะดังกล่าว
+* บางคุณลักษณะก็มี **[บทความ]** ที่ให้รายละเอียดเพิ่มเติม
+* คุณลักษณะส่วนใหญ่จะอธิบายไว้ใน **[บล็อก]** โพสต์ ที่อัปเดตรายเดือน
+* สุดท้าย คุณลักษณะบางอย่างก็อธิบายได้ด้วยตัวเอง ไม่จำเป็นต้องมีบทความ หรือวิดีโอ
+
+คุณยังสามารถดูวิดีโอ**อัปเดตล่าสุด**เริ่มตั้งแต่แรก จากภายในบทความนี้เลย โดยคลิกที่ไอคอน**เล่น**บนรูปภาพวิดีโอที่อยู่ด้านล่างรายการการอัปเดตได้
+
+การปรับปรุงต่อไปนี้เป็นของใหม่ใน **Power BI Desktop** สำหรับเดือนนี้:
+
+### <a name="reporting"></a>การรายงาน
+* การออกแบบบานหน้าต่างที่อัปเดต [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=8)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#panes) 
+* ตัวกรองระดับภาพสำหรับตัวแบ่งส่วนข้อมูล [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=116)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#slicerFilters)
+* การเรียงลำดับบานหน้าต่างการวิเคราะห์ประสิทธิภาพ [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=237)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#perfAnalyzer)
+* การอัปเดตการจัดรูปแบบตามเงื่อนไขสำหรับตัวเลือกการจัดรูปแบบ [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=311)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#conditionalFormatting)
+* คำแนะนำเครื่องมือของส่วนหัวของภาพ [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=530)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#headerTooltips)
+* การกำหนดค่าป้ายชื่อทั้งหมดของตารางและเมทริกซ์ [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=722)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#totalLabels)
+* ซิงค์การสนับสนุนตัวแบ่งส่วนข้อมูลสำหรับตัวแบ่งส่วนข้อมูลลำดับชั้น [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=859)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#syncSlicer)
+* ขนาดฟอนต์ที่สอดคล้องกันในภาพ [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=962)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#fontSizes)
+
+
+### <a name="analytics"></a>การวิเคราะห์
+* การอัปเดตภาพผู้ทรงอิทธิพลหลัก (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=1064)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#keyInfluencers) 
+    * ผู้ทรงอิทธิพลหลักที่มการเชื่อมต่อทางออนไลน์กับชุดข้อมูล Power BI
+    * สิทธิ์การเข้าถึงของผู้ทรงอิทธิพลหลัก
+    * การสนับสนุนสำหรับ Cloud RLS
+* จัดการการเข้าถึงกล่องโต้ตอบการรวม [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=1213)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#aggregationsAccessibility) 
+
+### <a name="modeling"></a>การวางรูปแบบ
+* ใหม่ == ตัวดำเนินการเปรียบเทียบ DAX [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=1267)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#dax) 
+
+
+### <a name="visuals"></a>การแสดงผลด้วยภาพ
+* บานหน้าต่างภาพส่วนบุคคล (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=1349)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#personalizedVizPane) 
+* ภาพแบบกำหนดเองใหม่สามรายการและการอัปเดต  [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=1391)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
+
+
+### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
+* เชื่อมต่อกับชุดข้อมูลที่แชร์และได้รับการรับรอง [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=1739)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#sharedCertifiedDatasets) 
+* ตอนนี้ตัวเชื่อมต่อ Common Data Service พร้อมใช้งานโดยทั่วไปแล้ว  [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=1807)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cds) 
+* ตอนนี้ตัวเชื่อมต่อ Azure Data Explorer พร้อมใช้งานโดยทั่วไปแล้ว [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=1823)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#azureDataExplorer) 
+* การเพิ่มประสิทธิภาพให้กับตัวเชื่อมต่อ Cosmos DB [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=1835)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#cosmosDB)
+* ตัวเชื่อมต่อข้อมูล Entersoft [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=1851)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#entersoft) 
+
+
+### <a name="data-preparation"></a>การเตรียมข้อมูล
+* การปรับปรุง M Intellisense  [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=1866)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#intellisense) 
+
+
+> [!NOTE]
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+
+ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
+
+
+วิดีโอต่อไปนี้อธิบาย และแสดงการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7k-nP38uHyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
+
+นอกจากนี้คุณยังสามารถดาวน์โหลด Power BI Desktop เวอร์ชันก่อนหน้าหากองค์กรของคุณต้องการใช้ได้ด้วยเช่นกัน เราแนะนำให้คุณใช้เวอร์ชันล่าสุดของ Power BI Desktop มากกว่าเวอร์ชันก่อนหน้าเสมอ เวอร์ชันก่อนหน้าทั้งหมดมีข้อจำกัดดังต่อไปนี้:
+
+* Power BI Desktop รุ่นก่อนหน้าจะไม่มีให้บริการ - คุณควรใช้รุ่นล่าสุดเสมอเพื่อใช้คุณลักษณะและการอัปเดตล่าสุด
+* คุณอาจไม่สามารถเปิดไฟล์ที่สร้างหรือบันทึกใน Power BI Desktop รุ่นใหม่กว่าด้วย Power BI Desktop เวอร์ชันก่อนหน้าได้ 
+* หากคุณได้รับคำเตือนเมื่อโหลดรายงานที่บันทึกใน Power BI Desktop เวอร์ชันที่ใหม่กว่า แล้วบันทึกรายงานนั้นในเวอร์ชันก่อนหน้า คุณจะสูญเสียข้อมูลใดๆ ที่เกี่ยวข้องกับคุณลักษณะใหม่
+* เราจัดเก็บ Power BI Desktop เวอร์ชันภาษาอังกฤษเท่านั้น
+
+เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
+
+* [Power BI Desktop รุ่นเดือนพฤษภาคม 2019 - 32 บิต](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
+* [Power BI Desktop รุ่นเดือนพฤษภาคม 2019 - 64 บิต](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
+
 
 ## <a name="may-2019-update-26954671251"></a>การอัปเดตประจำเดือนพฤษภาคม 2019 (2.69.5467.1251)
 
@@ -130,14 +214,14 @@ ms.locfileid: "66823439"
 การปรับปรุงต่อไปนี้เป็นของใหม่ใน **Power BI Desktop** สำหรับเดือนนี้:
 
 ### <a name="reporting"></a>การรายงาน
-* การปรับปรุงบานหน้าต่างตัวกรอง [[วิดีโอ]](https://youtu.be/vih35kSrEHU?t=9)  [[บทความ]](power-bi-report-filter-preview.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
+* การปรับปรุงบานหน้าต่างตัวกรอง [[วิดีโอ]](https://youtu.be/vih35kSrEHU?t=9)  [[บทความ]](power-bi-report-filter.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
 * การจัดรูปแบบตามเงื่อนไขสำหรับชื่อเรื่องของภาพ [[วิดีโอ]](https://youtu.be/vih35kSrEHU?t=254)  [[บทความ]](desktop-conditional-format-visual-titles.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicTitles)
 * การจัดรูปแบบตามเงื่อนไขสำหรับแอคชัน URL บนเว็บสำหรับปุ่ม รูปร่าง และรูปภาพ [[วิดีโอ]](https://youtu.be/vih35kSrEHU?t=439)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dynamicURLs)
 
 
 ### <a name="analytics"></a>การวิเคราะห์
 * เข้าถึงรายละเอียดเจาะลึกในรายงาน [[วิดีโอ]](https://youtu.be/vih35kSrEHU?t=567)  [[บทความ]](desktop-cross-report-drill-through.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#drillthrough) 
-* ขณะนี้ ภาพผู้ทรงอิทธิพลหลักสนับสนุนการวิเคราะห์เป้าหมายตัวเลขอย่างต่อเนื่อง [วิดีโอ]](https://youtu.be/vih35kSrEHU?t=753)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#keyInfluencers) 
+* ขณะนี้ ภาพผู้ทรงอิทธิพลหลักสนับสนุนการวิเคราะห์เป้าหมายตัวเลขอย่างต่อเนื่อง [[วิดีโอ]](https://youtu.be/vih35kSrEHU?t=753)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#keyInfluencers) 
 * การสนับสนุน Python ไม่พร้อมใช้งานโดยทั่วไป [[วิดีโอ]](https://youtu.be/vih35kSrEHU?t=889)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#python) 
 * คำเหมือนบางส่วนที่ตรงกันสำหรับคำศัพท์ในถามตอบ [[วิดีโอ]](https://youtu.be/vih35kSrEHU?t=912)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#partialMatching) 
 
@@ -1685,7 +1769,7 @@ ms.locfileid: "66823439"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการอัปเดตเหล่านี้ใช่หรือไม่ ลองดูที่[โพสต์บล็อก](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/)ซึ่่งคุณสามารถดูข้อมูลที่มีรายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละคุณลักษณะเหล่านี้ได้ (นี่เป็นการอ้างอิงถึงโพสต์บล็อก บล็อกเดียวกันกับรายการด้านบน)
 

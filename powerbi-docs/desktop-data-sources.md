@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 06/15/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b689a4d0718c92608fe7fc0cdb34d27803015269
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 8d8e77d8fe4ebea5b457ba282014bb8dc738191a
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823547"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324841"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับข้อมูลจากแหล่งต่าง ๆ มากมายด้วย Power BI Desktop รายการทั้งหมดของแหล่งข้อมูลที่พร้อมใช้งานอยู่ที่ด้านล่างของหน้านี้
@@ -114,6 +114,7 @@ ms.locfileid: "66823547"
 * พื้นที่เก็บข้อมูล Azure Blob
 * พื้นที่เก็บข้อมูล Azure Table
 * Azure Cosmos DB (เบต้า)
+* Azure Data Lake Storage Gen2 (Beta)
 * Azure Data Lake Storage รุ่น1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
@@ -167,6 +168,7 @@ ms.locfileid: "66823547"
 * การรักษาความปลอดภัยของ Microsoft Graph
 * Quick Base
 * TeamDesk (เบต้า)
+* Dynamics 365 Customer Insights (Beta)
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**บริการออนไลน์**
 

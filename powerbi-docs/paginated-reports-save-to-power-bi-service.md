@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 1e5f4a4fda8c6d11ead487ce2891e5c085463b75
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 81e079be6c8bec27c006c68eccb3ea1091b813df
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839614"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271222"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>เผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI
 
@@ -79,7 +79,7 @@ ms.locfileid: "66839614"
 
    ![จัดการรายงานแบบแบ่งหน้า](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 
-1. ดูบทความบริการของ Power BI [ติดตั้งเกตเวย์](service-gateway-install.md) สำหรับรายละเอียดและขั้นตอนถัดไป
+1. ดูบทความบริการของ Power BI [เกตเวย์ข้อมูลภายในองค์กรคืออะไร](service-gateway-onprem.md) สำหรับรายละเอียดและขั้นตอนถัดไป
 
 ### <a name="gateway-limitations"></a>ข้อจำกัดเกตเวย์
 
