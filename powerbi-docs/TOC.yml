@@ -933,6 +933,8 @@
           href: report-builder-planning-report.md
         - name: ข้อมูลตัวสร้างรายการ
           href: report-builder-data.md
+        - name: ใช้ชุดข้อมูลที่ใช้ร่วมกันของ Power BI
+          href: report-builder-shared-datasets.md
         - name: เคล็ดลับการออกแบบ
           href: report-builder-design-tips.md
         - name: ตาราง เมทริกซ์ รายการ
@@ -1315,7 +1317,7 @@
       items:
         - name: เกตเวย์ข้อมูลภายในองค์กร - เชิงลึก
           href: service-gateway-onprem-indepth.md
-        - name: เกตเวย์ข้อมูลแบบติดตั้งภายในองค์กร (โหมดส่วนบุคคล)
+        - name: เกตเวย์ข้อมูลภายในองค์กร (โหมดส่วนบุคคล)
           href: service-gateway-personal-mode.md
         - name: จัดการแหล่งข้อมูล
           items:

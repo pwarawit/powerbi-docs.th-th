@@ -8,6 +8,8 @@
           href: end-user-consumer.md
         - name: แนวคิดพื้นฐานและคำศัพท์สำหรับผู้ใช้ Power BI
           href: end-user-basic-concepts.md
+        - name: นำทาง 'รูปลักษณ์ใหม่ '
+          href: ../service-new-look.md
     - name: การเริ่มต้นใช้งานด่วน
       items:
         - name: ค้นหาวิธีใช้ใน Power BI

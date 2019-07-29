@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c074d6aa4fc7bdc530aa52f125f7f3d898b402c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f18ed2b0e370ad4617b7eccae4fbf043233fe4c0
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514522"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590523"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>สร้างคำแนะนำเครื่องมือตามหน้ารายงานใน Power BI Desktop
 คุณสามารถสร้าง**คำแนะนำเครื่องมือรายงาน**ที่สวยงาม ที่ปรากฏเมื่อคุณโฮเวอร์เหนือวิชวล จากหน้ารายงานที่คุณสร้างใน **Power BI Desktop** ได้ โดยการสร้างหน้ารายงานที่เป็นคำแนะนำเครื่องมือของคุณ คำแนะนำเครื่องมือแบบกำหนดเองของคุณสามารถรวม วิชวล รูปภาพ และคอลเลกชันของรายการใด ๆ ที่คุณสร้างไว้ในหน้ารายงาน 
@@ -113,7 +113,6 @@ ms.locfileid: "65514522"
 มีข้อจำกัดและข้อควรพิจารณาบางข้อสำหรับ**คำแนะนำเครื่องมือ**ที่คุณควรทราบ
 
 * เริ่มตั้งแต่เดือนธันวาคม 2018 ที่วางจำหน่าย **Power BI Desktop** วิชวลของปุ่มยังรองรับเคล็ดลับเครื่องมือ
-* คำแนะนำเครื่องมือรายงานไม่สนับสนุนเมื่อดูรายงานในแอปมือถือ 
 * คำแนะนำเครื่องมือรายงาน ไม่สนับสนุนวิชวลแบบกำหนดเอง 
 * คลัสเตอร์ เป็นเขตข้อมูลที่ยังไม่สนับสนุนการแสดงคำแนะนำเครื่องมือรายงานในขณะนี้ 
 * เมื่อต้องการเลือกเขตข้อมูลสำหรับแสดงคำแนะนำเครื่องมือรายงาน เมื่อใช้เขตข้อมูลเมื่อเทียบกับประเภท วิชวลที่มีเขตข้อมูลนั้นจะแสดงคำแนะนำที่ระบุเมื่อ ข้อสรุปของเขตข้อมูลที่เลือกตรงกัน 
