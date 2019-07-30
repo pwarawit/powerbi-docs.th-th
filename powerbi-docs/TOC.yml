@@ -165,6 +165,8 @@
               href: desktop-connect-azure-consumption-insights.md
             - name: ใช้ SAP HANA ใน Power BI Desktop
               href: desktop-sap-hana.md
+            - name: เปิดใช้งานการเข้ารหัสลับสำหรับ SAP HANA
+              href: desktop-sap-hana-encryption.md
             - name: ข้อมูลแบบตารางของ Analysis Services ใน Power BI Desktop
               href: desktop-analysis-services-tabular-data.md
             - name: ใช้ DirectQuery ใน Power BI Desktop
