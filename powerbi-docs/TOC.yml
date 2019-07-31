@@ -947,6 +947,8 @@
           href: report-builder-expressions.md
         - name: ตัวอย่างนิพจน์
           href: report-builder-expression-examples.md
+        - name: การแบ่งหน้ารายงาน
+          href: paginated-reports-pagination.md
         - name: แสดงตัวอย่างรายงาน
           href: report-builder-previewing-reports.md
         - name: คำถามที่พบบ่อยเกี่ยวกับรายงานที่มีการแบ่งหน้า
