@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5e5d143c21ad726e7cdb8a4bc99903238916bb64
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9fa79bc17e87863d094afbc479d664c8bbf9daaf
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454530"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590469"
 ---
 # <a name="get-power-bi-desktop"></a>รับ Power BI Desktop
 **Power BI Desktop** ช่วยให้คุณสร้างคิวรีขั้นสูง รูปแบบข้อมูล และรายงานที่แสดงข้อมูลเป็นภาพ ด้วย **Power BI Desktop** คุณสามารถสร้างรูปแบบข้อมูล สร้างรายงาน และแชร์งานของคุณ โดยการเผยแพร่ไปยังบริการของ Power BI ได้  **Power BI Desktop** มีให้ดาวน์โหลดฟรี
@@ -93,7 +93,7 @@ ms.locfileid: "65454530"
 
 * Windows 7 / Windows Server 2008 R2 หรือใหม่กว่า
 * .NET 4.5
-* Internet Explorer 9 หรือใหม่กว่า
+* Internet Explorer 10 หรือใหม่กว่า
 * **หน่วยความจำ (RAM):** มีหน่วยความจำว่างอย่างน้อย 1 GB, แนะนำ 1.5 GB หรือมากกว่า
 * **จอภาพ:** อย่างน้อย 1440 x 900, แนะนำ 1600 x 900 (16:9) ความละเอียดต่ำกว่า เช่น 1024 x 768 หรือ 1280 x 800 ไม่แนะนำ เพราะตัวควบคุมบางอย่าง (เช่นการปิดหน้าจอเริ่มต้น) จะแสดงเลยหน้าจอ
 * **การตั้งค่าการแสดงผลของ Windows:** ถ้าตั้งค่าการแสดงผล ให้ขนาดของข้อความ แอป และรายการอื่น ๆ มีค่ามากกว่า 100% คุณอาจไม่สามารถเห็นกล่องโต้ตอบบางอย่างที่ต้องปิด หรือตอบกลับเพื่อดำเนินต่อโดยใช้ **Power BI Desktop** ถ้าคุณพบปัญหานี้ ตรวจสอบ**การตั้งค่าการแสดงผล**ของคุณ โดยไปที่**การตั้งค่า > ระบบ > การแสดงผล**ใน Windows และการใช้แถบเลื่อนเพื่อตั้งค่ากลับไปเป็น 100%

@@ -12,15 +12,15 @@ ms.topic: tutorial
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd92374a23a2ee7023c75cfb2612c00d513e9895
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 64da077e079ca3df11ce2a89da546e24865eaf0e
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61065841"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522886"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>บทช่วยสอน: ตั้งค่าการแจ้งเตือนข้อมูลใน Power BI service
-ต้งค่าการแจ้งเตือน เมื่อมีข้อมูลในแดชบอร์ดของคุณเปลี่ยนเกินขีดจำกัดที่คุณตั้งไว 
+ต้งค่าการแจ้งเตือน เมื่อมีข้อมูลในแดชบอร์ดของคุณเปลี่ยนเกินขีดจำกัดที่คุณตั้งไว  
 
 คุณสามารถตั้งค่าการแจ้งเตือนบนไทล์ ถ้าคุณมีสิทธิ์การใช้งาน Power BI Pro หรือถ้ามีการแชร์แดชบอร์ดให้กับคุณจาก[ความจุพรีเมียม](../service-premium-what-is.md) การแจ้งเตือนสามารถตั้งค่าบนหมุดไทล์ที่ปักจากภาพรายงานเท่านั้น และบนหน้าปัดวัด Kpi และการ์ดเท่านั้น การแจ้งเตือนบนภาพถูกสร้างขึ้นจากชุดข้อมูลที่มีการปักหมุดจากรายงานกับแดชบอร์ด แต่ไม่สามารถตั้งค่าแบบสตรีมมิ่งบนไทล์ที่สร้างขึ้นโดยตรงบนแดชบอร์ด โดยใช้การ**เพิ่มไทล์**  >   **ข้อมูลการสตรีมแบบกำหนดเอง** 
 
@@ -44,7 +44,7 @@ ms.locfileid: "61065841"
 ถ้าคุณไม่ได้ลงทะเบียน Power BI ให้[ลงทะเบียนรุ่นทดลองใช้ฟรี](https://app.powerbi.com/signupredirect?pbi_source=web)ก่อนที่คุณจะเริ่มต้นใช้งาน
 
 ## <a name="set-data-alerts-in-power-bi-service"></a>ตั้งค่าการแจ้งเตือนข้อมูลใน Power BI service
-ดู Amanda เพิ่มบางการแจ้งเตือนไปยังไทล์บนแดชบอร์ดของเธอ แล้วทำตามคำแนะนำทีละขั้นตอนด้านล่างวิดีโอเพื่อลองทำด้วยตนเอง
+ดู Amanda เพิ่มการแจ้งเตือนบางอย่างไปยังไทล์บนแดชบอร์ดของเธอ แล้วทำตามคำแนะนำทีละขั้นตอนด้านล่างวิดีโอเพื่อลองทำด้วยตนเอง
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbL2-HJ8clE" frameborder="0" allowfullscreen></iframe>
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 07/25/2019
 ms.author: mblythe
-ms.openlocfilehash: 0bb78e29cc3e9b9792d5916050179703281aa01a
-ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
+ms.openlocfilehash: a33ace000917311cbd060c853e0122034a396ae2
+ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "68366760"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68501728"
 ---
 # <a name="service-interruption-notifications"></a>การแจ้งเตือนการหยุดชะงักของบริการ
 
@@ -28,10 +28,10 @@ ms.locfileid: "68366760"
 - ความน่าเชื่อถือของการรีเฟรชแบบจำลอง
 - ความน่าเชื่อถือของการรีเฟรชคิวรี
 
-หลังจากที่มีการแก้ไขปัญหาแล้ว คุณจะได้รับอีเมลการติดตามผล
+ตัวอย่างของการแจ้งเตือนเหล่านี้รวมถึงเมื่อผู้ใช้ประสบความล่าช้าในการดำเนินงาน เช่น การเปิดรายงาน การรีเฟรชชุดข้อมูล หรือการดำเนินการค้นหา หลังจากที่มีการแก้ไขปัญหาแล้ว คุณจะได้รับอีเมลการติดตามผล
 
 > [!NOTE]
-> ปัจจุบัน คุณลักษณะนี้พร้อมใช้งานสำหรับความจุเฉพาะใน Power BI Premium เท่านั้น ซึ่งไม่พร้อมใช้งานสำหรับความจุที่ใช้ร่วมกัน
+> ปัจจุบัน คุณลักษณะนี้พร้อมใช้งานสำหรับความจุเฉพาะใน Power BI Premium เท่านั้น ซึ่งไม่พร้อมใช้งานสำหรับความจุที่ใช้ร่วมกันหรือฝังไว้
 
 ## <a name="enable-notifications"></a>เปิดใช้งานการแจ้งเตือน
 

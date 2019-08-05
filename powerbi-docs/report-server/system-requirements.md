@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/08/2018
-ms.openlocfilehash: 063ab8083c3091a7a41ca30e9045ce3a791112d2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/23/2019
+ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770014"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415351"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>ข้อกำหนดฮาร์ดแวร์และซอฟต์แวร์สำหรับติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 
@@ -50,6 +50,7 @@ SQL Server ถูกใช้เพื่อโฮสต์ฐานข้อม
 
 เซิร์ฟเวอร์รายงาน Power BI จะติดตั้งค่าเริ่มต้นเป็นการตั้งค่าหลัก ซึ่งจำเป็นในการทำให้เซิร์ฟเวอร์รายงานสามารถใช้งานได้ มีข้อกำหนดดังต่อไปนี้:
 
+* ภาษาที่ได้รับการสนับสนุนสำหรับเซิร์ฟเวอร์รายงาน Power BI คือ-อังกฤษ, เยอรมัน, สเปน, ญี่ปุ่น, อิตาลี, ฝรั่งเศส, รัสเซีย, จีนกลาง, จีนดั้งเดิม, โปรตุเกสบราซิล, เกาหลี
 * กลไกจัดการฐานข้อมูล SQL Server ต้องพร้อมใช้งานหลังจากการติดตั้งและก่อนที่คุณจะกำหนดค่าฐานข้อมูลสำหรับเซิร์ฟเวอร์รายงาน อินสแตนซ์ Database Engine จะโฮสต์ฐานข้อมูลของเซิร์ฟเวอร์รายงานที่ Reporting Services Configuration Manager เป็นผู้สร้าง Database Engine ไม่จำเป็นสำหรับการติดตั้งค่าจริง
 * [ฟีเจอร์ของ Reporting Services ที่รองรับโดยรุ่นต่างๆ ของ SQL Server](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) จะสรุปความแตกต่างระหว่างรุ่นต่างๆ ของ SQL Server เอาไว้
 * บัญชีผู้ใช้ที่เรียกใช้การตั้งค่าต้องเป็นสมาชิกกลุ่มผู้ดูแลระบบของท้องถิ่น

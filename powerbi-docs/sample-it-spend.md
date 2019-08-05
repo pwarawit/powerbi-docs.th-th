@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 75fa566b4b60e9f15e1641a49ea3c5ffa95420a9
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: bc6b35b6401f4424a3a5120cb7c28437da9a2a48
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791913"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462243"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการวิเคราะห์การใช้จ่ายด้าน IT สำหรับ Power BI: ชมการแนะนำ
 
@@ -23,7 +23,7 @@ ms.locfileid: "67791913"
 
 ![แดชบอร์ดตัวอย่างการวิเคราะห์การใช้จ่ายด้าน IT](media/sample-it-spend/it1.png)
 
-ตัวอย่างนี้เป็นส่วนหนึ่งของชุดตัวอย่าง ที่แสดงให้เห็นวิธีการที่คุณสามารถใช้ Power BI กับข้อมูล รายงาน และแดชบอร์ดที่เกี่ยวข้องกับธุรกิจ ตัวอย่างนี้ถูกสร้างขึ้นจากข้อมูลจริงจาก[obviEnce](http://www.obvience.com/) ที่ไม่มีการระบุชื่อ ข้อมูลมีให้ใช้งานหลายรูปแบบ: ชุดเนื้อหา ไฟล์ Power BI Desktop .pbix หรือเวิร์กบุ๊ก Excel ดู [ตัวอย่างสำหรับ Power BI](sample-datasets.md) 
+ตัวอย่างนี้เป็นส่วนหนึ่งของชุดตัวอย่าง ที่แสดงให้เห็นวิธีการที่คุณสามารถใช้ Power BI กับข้อมูล รายงาน และแดชบอร์ดที่เกี่ยวข้องกับธุรกิจ ซึ่งสร้างขึ้นโดย [obviEnce](http://www.obvience.com/) ด้วยข้อมูลจริงที่ไม่มีการระบุชื่อ ข้อมูลมีให้ใช้งานหลายรูปแบบ: ชุดเนื้อหา ไฟล์ Power BI Desktop .pbix หรือเวิร์กบุ๊ก Excel ดู [ตัวอย่างสำหรับ Power BI](sample-datasets.md) 
 
 บทช่วยสอนนี้จะสำรวจชุดเนื้อหาของตัวอย่างการวิเคราะห์การใช้จ่ายด้าน IT ในบริการของ Power BI เนื่องจากประสบการณ์การใช้รายงานจะคล้ายคลึงกันใน Power BI Desktop ดังนั้นคุณสามารถใช้ Power BI Desktop กับไฟล์ .pbix ตัวอย่างใน Power BI Desktop ได้ 
 

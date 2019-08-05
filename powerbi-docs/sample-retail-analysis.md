@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 310afbf845550eaca666543397dd78eb0a0d15dc
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: 5391fee3c5a05d1c34cac4f3a097a0577ce5d191
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791974"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462392"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการวิเคราะห์ด้านการขายปลีก - Power BI: ชมการแนะนำ
 
@@ -23,7 +23,7 @@ ms.locfileid: "67791974"
 
 ![แดชบอร์ดของตัวอย่างการวิเคราะห์การค้าปลีก](media/sample-retail-analysis/retail1.png)
 
-ตัวอย่างนี้เป็นส่วนหนึ่งของชุดตัวอย่าง ที่แสดงให้เห็นวิธีการที่คุณสามารถใช้ Power BI กับข้อมูล รายงาน และแดชบอร์ดที่เกี่ยวข้องกับธุรกิจ ตัวอย่างนี้ถูกสร้างขึ้นจากข้อมูลจริงจาก[obviEnce](http://www.obvience.com/) ที่ไม่มีการระบุชื่อ ข้อมูลมีให้ใช้งานหลายรูปแบบ: ชุดเนื้อหา ไฟล์ Power BI Desktop .pbix หรือเวิร์กบุ๊ก Excel ดู [ตัวอย่างสำหรับ Power BI](sample-datasets.md) 
+ตัวอย่างนี้เป็นส่วนหนึ่งของชุดตัวอย่าง ที่แสดงให้เห็นวิธีการที่คุณสามารถใช้ Power BI กับข้อมูล รายงาน และแดชบอร์ดที่เกี่ยวข้องกับธุรกิจ ซึ่งสร้างขึ้นโดย [obviEnce](http://www.obvience.com/) ด้วยข้อมูลจริงที่ไม่มีการระบุชื่อ ข้อมูลมีให้ใช้งานหลายรูปแบบ: ชุดเนื้อหา ไฟล์ Power BI Desktop .pbix หรือเวิร์กบุ๊ก Excel ดู [ตัวอย่างสำหรับ Power BI](sample-datasets.md) 
 
 บทช่วยสอนนี้จะสำรวจชุดเนื้อหาของตัวอย่างการวิเคราะห์การขายปลีกในบริการของ Power BI เนื่องจากประสบการณ์การใช้รายงานจะคล้ายคลึงกันใน Power BI Desktop ดังนั้นคุณสามารถใช้ Power BI Desktop กับไฟล์ .pbix ตัวอย่างใน Power BI Desktop ได้ 
 

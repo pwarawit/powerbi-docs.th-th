@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6d03097eb886813b934c75b61ddb056b55bde7b8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: bf2f9baff753b71563c9b5075d3b15be7ae833f9
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61161001"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522743"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>เพิ่มโฟลเดอร์ CDM ไปยัง Power BI เป็นกระแสข้อมูล (ตัวอย่าง)
 
@@ -76,7 +76,7 @@ Power BI Desktop:
 
 1.  แอนนาสร้างแอปพื้นที่ทำงานใหม่และกำหนดค่าเพื่อจัดเก็บกระแสข้อมูลจากโฟลเดอร์ CDM
 2.  เบน (สมาชิกคนหนึ่งของพื้นที่ทำงานที่แอนนาสร้าง) ต้องการใช้ Power BI Desktop และตัวเชื่อมต่อกระแสข้อมูลเพื่อรับข้อมูลจากกระแสข้อมูลที่ แอนนาสร้าง
-3.  เบนเจอข้อผิดพลาดเนื่องจากเขาไม่ได้ถูกเพิ่มหรือได้รับอนุญาตไปยังโฟลเดอร์ CDM ของกระแสข้อมูลใน data lake
+3.  เบนเจอข้อผิดพลาดเนื่องจากเบนไม่ได้ถูกเพิ่มหรือได้รับอนุญาตไปยังโฟลเดอร์ CDM ของกระแสข้อมูลใน data lake
 
     ![ข้อผิดพลาดในการพยายามใช้กระแสข้อมูล](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
@@ -96,9 +96,9 @@ Power BI Desktop:
 สำหรับข้อมูลเกี่ยวกับกระแสข้อมูลโดยรวม ให้อ่านบทความเหล่านี้:
 
 * [การสร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
-* [ใช้เอนทิตีที่มีการคำนวณใน Power BI Premium](service-dataflows-computed-entities-premium.md)
-* [ใช้ dataflows กับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
-* [ทรัพยากรสำหรับนักพัฒนาสำหรับ dataflows Power BI](service-dataflows-developer-resources.md)
+* [การใช้เอนทิตีที่คำนวณใน Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [การใช้กระแสข้อมูลกับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
+* [แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI](service-dataflows-developer-resources.md)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับพื้นที่เก็บข้อมูล Azure คุณสามารถอ่านบทความเหล่านี้:
 * [คู่มือความปลอดภัยการเก็บข้อมูลของ Azure](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

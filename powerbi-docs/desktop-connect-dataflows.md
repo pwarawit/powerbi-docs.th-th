@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 967f513502fd85ef28f867bdc5bba199ce51ccbc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 63c10a0507b5e484ac4c104a5a1e83f5dd411d9d
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513878"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523281"
 ---
 # <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>เชื่อมต่อกับข้อมูลที่สร้างขึ้นโดยกระแสข้อมูล Power BI ใน Power BI Desktop (เบต้า)
 ใน **Power BI Desktop** คุณสามารถเชื่อมต่อกับ **กระแสข้อมูล Power BI** เช่นเดียวกับแหล่งข้อมูลอื่นใน Power BI Desktop ได้
@@ -42,7 +42,7 @@ ms.locfileid: "65513878"
 
 1.  แอนนาสร้างแอปพื้นที่ทำงานใหม่และกำหนดค่าเพื่อจัดเก็บกระแสข้อมูลใน data lake ขององค์กร
 2.  เบน (สมาชิกคนหนึ่งของพื้นที่ทำงานที่แอนนาสร้าง) ต้องการใช้ Power BI Desktop และตัวเชื่อมต่อกระแสข้อมูลเพื่อรับข้อมูลจากกระแสข้อมูลที่ แอนนาสร้าง
-3.  เบนเจอข้อผิดพลาดเนื่องจากเขาไม่ได้ถูกเพิ่มหรือได้รับอนุญาตไปยังโฟลเดอร์ CDM ของกระแสข้อมูลใน data lake
+3.  เบนเจอข้อผิดพลาดเนื่องจากไม่ได้ถูกเพิ่มหรือได้รับอนุญาตไปยังโฟลเดอร์ CDM ของกระแสข้อมูลใน data lake
 
     ![ข้อผิดพลาดในการพยายามใช้กระแสข้อมูล](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 

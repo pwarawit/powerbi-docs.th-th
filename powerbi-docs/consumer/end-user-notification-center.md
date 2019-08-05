@@ -12,17 +12,17 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 34bb77c84d1813e32421b87e957e24a946f282f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 68e0a7985997a4512fe26812547f12f1b9be648f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61066271"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522718"
 ---
 # <a name="view-power-bi-notifications"></a>ดูการแจ้งเตือน Power BI
 ศูนย์การแจ้งเตือนคือ ตัวดึงข้อมูลตามลำดับที่เกี่ยวข้องกับประสบการณ์การใช้งาน Power BI ของคุณ เปิดเพื่อดูข้อความเกี่ยวกับแดชบอร์ดใหม่ที่มีการแชร์กับคุณ การเปลี่ยนแปลงที่ดำเนินการกับพื้นที่กลุ่มของคุณ รายละเอียดเกี่ยวกับเหตุการณ์และการประชุมใน Power BI การแจ้งเตือนที่คุณได้ตั้งค่า และอื่น ๆ คุณสามารถเลือก[ตั้งค่าการแจ้งเตือนในบริการ Power BI](../service-set-data-alerts.md)ได้ รวมถึงในแอปฯมือถือ Power BI ได้เช่นกัน
 
-ดู Amanda ตรวจทานการแจ้งเตือนที่เธอได้รับ จัดการการแจ้งเตือนของเธอ และตอบกลับการแจ้งเตือนดังกล่าว จากนั้นทำตามคำแนะนำในวิดีโอด้านล่างทีละขั้นเพื่อลองทำด้วยตนเอง
+ดูการตรวจสอบ การจัดการ และการตอบสนองต่อการแจ้งเตือนของ Amanda จากนั้นทำตามคำแนะนำในวิดีโอด้านล่างทีละขั้นเพื่อลองทำด้วยตนเอง
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZMSv5KAlcE" frameborder="0" allowfullscreen></iframe>
 

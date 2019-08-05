@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/18/2019
+ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
-ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
+ms.openlocfilehash: 4c39cf5a60786f7cc1748155ce7004254d40ad00
+ms.sourcegitcommit: ebac79f8c2871d4a7e54c1e99ce6d2409345b060
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "67235072"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68475637"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>เชื่อมต่อกับชุดข้อมูลด้วยแอปพลิเคชันไคลเอ็นต์และเครื่องมือ (ดูตัวอย่าง)
 
-ชุดข้อมูลและพื้นที่ทำงาน Power BI Premium รองรับการเชื่อมต่อ *แบบอ่านอย่างเดียว* จาก Microsoft และแอปพลิเคชันไคลเอ็นต์ของบุคคลที่สาม และเครื่องมือ 
+ชุดข้อมูลและพื้นที่ทำงาน Power BI Premium รองรับการเชื่อมต่อ *แบบอ่านอย่างเดียว* จาก Microsoft และแอปพลิเคชันไคลเอ็นต์ของบุคคลที่สาม และเครื่องมือ ตามค่าเริ่มต้น การเชื่อมต่อจะเปิดใช้งานอยู่แล้ว
 
 > [!NOTE]
 > บทความนี้มีไว้สำหรับแนะนำการเชื่อมต่อแบบอ่านอย่างเดียวในพื้นที่ทำงานและชุดข้อมูล Power BI Premium เท่านั้น ซึ่ง*ไม่ใช่*มีไว้เพื่อให้ข้อมูลเชิงลึกเกี่ยวกับความสามารถทางโปรแกรม เครื่องมือและแอปพลิเคชันที่เฉพาะเจาะจง สถาปัตยกรรม และการจัดการพื้นที่ทำงานและชุดข้อมูล หัวข้อที่อธิบายในที่นี้ต้องใช้ความเข้าใจอย่างถ่องแท้เกี่ยวกับสถาปัตยกรรมและการดูแลระบบฐานข้อมูลแบบจำลองตารางของ Analysis Services
@@ -104,6 +104,10 @@ Power BI Premium ใช้โพรโทคอล [XML สำหรับกา
 ### <a name="roles-and-role-memberships"></a>บทบาทและบทบาทในฐานะสมาชิก
 
 ตอนนี้ แบบจำลองบทบาทและบทบาทในฐานะของสมาชิกจะไม่สามารถมองเห็นหรือแสดงผลโดยใช้ตำแหน่งข้อมูล XMLA ได้
+
+## <a name="disable-connectivity"></a>ปิดใช้งานการเชื่อมต่อ:
+
+ตามค่าเริ่มต้น การเชื่อมต่อจุดสิ้นสุด XMLA จะเปิดใช้งานสำหรับปริมาณงานชุดข้อมูล คุณสามารถปิดใช้งานการเชื่อมต่อใน[การตั้งค่าปริมาณงาน](service-admin-premium-workloads.md#workload-settings)
 
 ## <a name="audit-logs"></a>บันทึกการตรวจสอบ 
 

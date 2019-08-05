@@ -1,6 +1,6 @@
 ---
 title: การตั้งค่าตัวเลขกระแสข้อมูลในพื้นที่ทำงาน
-description: กำหนดค่าพื้นที่ทำงานแอปใน Power BI เพื่อจัดเก็บข้อกำหนด dataflow และไฟล์ข้อมูลของตนใน Gen2 เก็บ Lake ข้อมูล Azure
+description: กำหนดค่าแอปพื้นที่ทำงานใน Power BI ให้สามารถเก็บข้อกำหนดกระแสข้อมูลและไฟล์ข้อมูลใน Azure Data Lake Storage Gen2
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61168609"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523502"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>การตั้งค่าตัวเลขกระแสข้อมูลในพื้นที่ทำงาน (ดูตัวอย่าง)
 
@@ -105,7 +105,7 @@ ms.locfileid: "61168609"
 
 1.  แอนนาสร้างแอปพื้นที่ทำงานใหม่และกำหนดค่าเพื่อจัดเก็บกระแสข้อมูลใน data lake ขององค์กร
 2.  เบน (สมาชิกคนหนึ่งของพื้นที่ทำงานที่แอนนาสร้าง) ต้องการใช้ Power BI Desktop และตัวเชื่อมต่อกระแสข้อมูลเพื่อรับข้อมูลจากกระแสข้อมูลที่ แอนนาสร้าง
-3.  เบนเจอข้อผิดพลาดเนื่องจากเขาไม่ได้ถูกเพิ่มหรือได้รับอนุญาตไปยังโฟลเดอร์ CDM ของกระแสข้อมูลใน data lake
+3.  เบนเจอข้อผิดพลาดเนื่องจากเบนไม่ได้ถูกเพิ่มให้เป็นผู้ใช้ที่ได้รับอนุญาตให้เข้าถึงโฟลเดอร์ CDM ของกระแสข้อมูลใน data lake
 
     ![ข้อผิดพลาดในการพยายามใช้กระแสข้อมูล](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 

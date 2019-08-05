@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28fe39788dab6f22845d3ffcb7115fb1da5cb268
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826654"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523234"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>การรักษาความปลอดภัยระดับแถวแบบไดนามิกกับรูปแบบตารางข้อมูล Analysis Services
 
@@ -144,7 +144,7 @@ ms.locfileid: "66826654"
    
    ในบทบาทของ **ผู้จัดการฝ่ายขาย** สุมิตรสามารถดูข้อมูลได้จากทุกภูมิภาคการขาย สุมิตรสร้างรายงานนี้ (รายงานที่สร้างขึ้นในขั้นตอนงานก่อนหน้านี้) และเผยแพร่ไปยังบริการของ Power BI
    
-   เมื่อสุมิตรเผยแพร่รายงาน เขาจะสร้างแดชบอร์ดในบริการของ Power BI ซึ่งเรียกว่า **TabularDynamicSec** โดยอิงกับรายงานนั้น ในภาพต่อไปนี้ โปรดสังเกตว่าสุมิตรสามารถดูข้อมูลที่เกี่ยวข้องกับภูมิภาคการขายทั้งหมดได้
+   เมื่อสุมิตรเผยแพร่รายงาน ขั้นตอนต่อไปของพวกเขาคือการสร้างแดชบอร์ดในบริการของ Power BI ซึ่งเรียกว่า **TabularDynamicSec** โดยอิงกับรายงานนั้น ในภาพต่อไปนี้ โปรดสังเกตว่าสุมิตรสามารถดูข้อมูลที่เกี่ยวข้องกับภูมิภาคการขายทั้งหมดได้
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart_1.png)
 
@@ -154,7 +154,7 @@ ms.locfileid: "66826654"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_dashboard.png)
 
-3. เมื่อ Jon Doe ลงชื่อเข้าใช้บริการของ **Power BI** และดูหน้าแดชบอร์ดที่แชร์ซึ่ง Sumit สร้างไว้ เขาควรเห็น**เฉพาะ**ยอดขายจากภูมิภาคของเขา 
+3. เมื่อ Jon Doe ลงชื่อเข้าใช้บริการของ **Power BI** และดูหน้าแดชบอร์ดที่แชร์ซึ่ง Sumit สร้างไว้ เขาควรเห็น**เฉพาะ**ยอดขายจากภูมิภาคของเขาเท่านั้น 
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 
