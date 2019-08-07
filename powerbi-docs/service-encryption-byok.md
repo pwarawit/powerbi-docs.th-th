@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 96939c3ad29418ad868175dfd8093847ab427187
-ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.openlocfilehash: d1a057f56237a0609f3330d4728c7dfcded84a71
+ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67498972"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68391120"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>นำคีย์การเข้ารหัสลับของคุณเองสำหรับ Power BI (ตัวอย่าง)
 
@@ -45,6 +45,9 @@ BYOK นำไปใช้เฉพาะกับชุดข้อมูลท
 
 1. สร้างคีย์ RSA ที่มีความยาว 4096 บิต (หรือใช้คีย์ที่มีอยู่ของชนิดนี้) ด้วยสิทธิ์การครอบและยกเลิกการครอบ
 
+    > [!IMPORTANT]
+    > Power BI BYOK สนับสนุนเฉพาะคีย์ RSA ที่มีความยาว 4096 บิตเท่านั้น
+
 1. แนะนำ: ตรวจสอบว่า Key Vault มีการเปิดใช้งานตัวเลือก_ลบชั่วคราว_หรือไม่
 
 ### <a name="add-the-service-principal"></a>เพิ่มโครงร่างสำคัญของบริการ
@@ -52,6 +55,9 @@ BYOK นำไปใช้เฉพาะกับชุดข้อมูลท
 1. ในพอร์ทัล Azure ใน Key Vault ของคุณ ภายใต้**นโยบายการเข้าถึง** ให้เลือก**เพิ่มใหม่**
 
 1. ภายใต้**เลือกรายการหลัก** ค้นหาและเลือก Microsoft.Azure.AnalysisServices
+
+    > [!NOTE]
+    > หากคุณไม่พบ "Microsoft.Azure.AnalysisServices" อาจเป็นไปได้ว่าการสมัครใช้งาน Azure ที่เชื่อมโยงกับ Azure Key Vault ของคุณไม่เคยมีทรัพยากร Power BI ที่เกี่ยวข้อง ลองค้นหาสตริงต่อไปนี้แทน: 00000009-0000-0000-c000-000000000000
 
 1. ภายใต้**สิทธิ์คีย์** เลือก**ยกเลิกการครอบคีย์**และ**ครอบคีย์**
 

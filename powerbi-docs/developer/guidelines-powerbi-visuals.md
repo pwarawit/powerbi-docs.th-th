@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271180"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380214"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>คำแนะนำสำหรับการแสดงภาพ Power BI
 ก่อนที่คุณ[จะเผยแพร่](https://docs.microsoft.com/power-bi/developer/office-store)การแสดงผลด้วยภาพของคุณไปยัง AppSource สำหรับผู้อื่นเพื่อค้นหาและใช้งาน ตรวจสอบให้แน่ใจว่าคุณได้ทำตามคำแนะนำเพื่อสร้างประสบการณ์ที่ยอดเยี่ยมสำหรับผู้ใช้ของคุณ 
@@ -26,7 +26,7 @@ ms.locfileid: "68271180"
 
 ## <a name="logo-guidelines"></a>หลักเกณฑ์เกี่ยวกับโลโก้
 
-ส่วนนี้จะอธิบายข้อกำหนดสำหรับการเพิ่มโลโก้และรูปแบบโลโก้ในวิชวล
+ส่วนนี้จะอธิบายข้อกำหนดสำหรับการเพิ่มโลโก้และรูปแบบโลโก้ในวิชวล โลโก้ไม่ได้บังคับ ถ้าเพิ่ม จะต้องเป็นไปตามคำแนะนำเหล่านี้ 
 
 > [!IMPORTANT]
 > โลโก้สามารถใช้ได้เฉพาะใน *โหมดแก้ไขเท่านั้น* โลโก้*ไม่*สามารถแสดงในโหมดมุมมองได้
