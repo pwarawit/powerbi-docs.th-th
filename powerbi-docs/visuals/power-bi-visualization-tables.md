@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0525d448d5337c2c1613d8bc8f6d332a05b13e3
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 857db3240385e9bf1b4e0416cc1200d1a029d73e
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67409338"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867210"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>การทำงานกับตารางในรายงานและแดชบอร์ด Power BI
 
@@ -35,9 +35,6 @@ ms.locfileid: "67409338"
 * เพื่อแสดงข้อมูลในรูปแบบตาราง
 
 * เพื่อแสดงข้อมูลตัวเลขตามประเภท
-
-> [!NOTE]
-> ถ้าตารางมีค่ามากเกินไป พิจารณาการแปลงเป็นเมทริกซ์ และ/หรือใช้การเจาะลึกข้อมูลแทน ตารางจะแสดงจุดข้อมูลสูงสุดคือ 3,500
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
