@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269948"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623824"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
 
@@ -22,7 +22,7 @@ ms.locfileid: "61269948"
 
 เมื่อคุณสร้างวิชวลแบบกำหนดเองของคุณเสร็จ คุณอาจต้องการเผยแพร่ลงใน AppSource ให้บุคคลอื่นสามารถค้นหา และใช้งาน มีบางอย่างที่จะต้องเตรียม ก่อนที่คุณจะทำอย่างนั้นได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีสร้างวิชวลแบบกำหนดเอง โปรดดู[การปรับปรุงวิชวลแบบกำหนดเองของ Power BI](custom-visual-develop-tutorial.md)
 
-   ![ที่เก็บ Office](media/office-store/AppSource_01.jpg)
+   ![ที่เก็บ Office](media/office-store/appsource-01.png)
 
 ## <a name="what-is-appsource"></a>AppSource คืออะไร
 
@@ -30,7 +30,7 @@ ms.locfileid: "61269948"
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>การเตรียมเพื่อส่งวิชวลแบบกำหนดเองของคุณ
 
-เมื่อคุณทำเสร็จแล้วอ่านของเรา[แนวทางวิชวล Power BI](guidelines-powerbi-visuals.md)เขียนโค้ด และ[ทดสอบวิชวลแบบกำหนดเองของคุณ](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)และมีบรรจุลงในไฟล์ pbiviz คุณจะต้องเครีพร้อมต่อไปนี้สำหรับข้อมูลที่คุณส่ง
+เมื่อคุณอ่าน [คู่มือวิชวล Power BI ](guidelines-powerbi-visuals.md)ของเราเสร็จแล้ว การเขียนโค้ดและ [ การทดสอบวิชวลแบบกำหนดเอง](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) และบรรจุลงในไฟล์ pbiviz คุณจะต้องเตรียมสิ่งต่อไปนี้ให้พร้อมสำหรับส่งวิชวลของคุณ
 
 | รายการ | จำเป็นต้องมี | คำอธิบาย |
 | --- | --- | --- |
@@ -40,7 +40,7 @@ ms.locfileid: "61269948"
 | ภาพหน้าจอ |ใช่ |คุณต้องมีภาพหน้าจอให้อย่างน้อยหนึ่งภาพ รูปแบบสามารถเป็น .png, .jpg, .jpeg หรือ .gif จะต้องมีขนาด 1366 px (ความกว้าง) x 768 px (ความสูง) ขนาดไฟล์ต้องไม่เกิน 1024kb *เพื่อดึงดูดให้มีคนใช้มากขึ้น เพิ่มข้อความอธิบายลงในภาพหน้าจอเพื่อแสดงความสามารถ และประโยชน์ที่มีให้กับผู้ใช้* |
 | ลิงก์ดาวน์โหลดสนับสนุน |ใช่ |ให้ URL สำหรับให้การสนับสนุนลูกค้าที่มีปัญหากับวิชวลของคุณ ลิงก์นี้ถูกใส่เป็นส่วนหนึ่งของรายการแดชบอร์ดผู้จำหน่ายของคุณ และจะให้ผู้ใช้มองเห็นเมื่อพวกเขาเข้าถึงรายการของวิชวลของคุณบน AppSource รูปแบบของ URL ของคุณควรมี http:// หรือ https:// |
 | ลิงก์ไปยังเอกสารความเป็นส่วนตัว |ใช่ |ให้ลิงก์ไปยังนโยบายความเป็นส่วนตัว สำหรับลูกค้าที่ใช้วิชวลของคุณ ลิงก์นี้ถูกใส่เป็นส่วนหนึ่งของรายการแดชบอร์ดผู้จำหน่ายของคุณ และจะให้ผู้ใช้มองเห็นเมื่อพวกเขาเข้าถึงรายการของวิชวลของคุณบน AppSource รูปแบบของลิงค์ของคุณควรมี http:// หรือ https:// |
-| ข้อตกลงสิทธิ์การใช้งานสำหรับผู้ใช้ (EULA) |ใช่ |คุณต้องอัปโหลดไฟล์ EULA ซึ่งอาจเป็น EULA ของคุณเอง หรือใช้ EULA ค่าเริ่มต้นภายใน Office store สำหรับวิชวลแบบกำหนดเองของ Power BI เมื่อต้องการใช้ EULA ค่าเริ่มต้น ให้วาง URL ต่อไปนี้ในกล่องโต้ตอบการอัปโหลดไฟล์ "ข้อตกลงสิทธิ์การใช้งานสำหรับผู้ใช้" ของแดชบอร์ดผู้ขาย: [ https://visuals.azureedge.net/app-store/PowerBI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) |
+| ข้อตกลงสิทธิ์การใช้งานสำหรับผู้ใช้ (EULA) |ใช่ |คุณต้องอัปโหลดไฟล์ EULA ซึ่งอาจเป็น EULA ของคุณเอง หรือใช้ EULA ค่าเริ่มต้นภายใน Office store สำหรับวิชวลแบบกำหนดเองของ Power BI เมื่อต้องการใช้ EULA ค่าเริ่มต้น ให้วาง URL ต่อไปนี้ในกล่องโต้ตอบการอัปโหลดไฟล์ "ข้อตกลงสิทธิ์การใช้งานสำหรับผู้ใช้" ของแดชบอร์ดผู้ขาย: [ https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) |
 | ลิงก์วิดีโอ |ไม่ใช่ |เพื่อเพิ่มความน่าสนใจของวิชวลแบบกำหนดเองของคุณ เราแนะนำให้มีลิงก์ไปยังวิดีโอเกี่ยวกับวิชวลของคุณ รูปแบบของ URL ของคุณควรมี http:// หรือ https:// |
 | ที่จัดเก็บ GitHub |ไม่ใช่ |จะเป็นการดีมากถ้าคุณมีลิงก์ไปยังที่เก็บ [GitHub](https://www.github.com) สาธารณะที่มีโค้ดต้นฉบับของวิชวลและตัวอย่างข้อมูล เพื่อให้นักพัฒนาอื่น ๆ แนะนำติชม และเสนอการปรับปรุงโค้ดให้กับคุณ |
 
@@ -104,7 +104,7 @@ ms.locfileid: "61269948"
    * ลิงก์วิดีโอ
    * ข้อตกลงสิทธิการใช้งานสำหรับผู้ใช้ (EULA)
 
-       คุณต้องอัปโหลดไฟล์ EULA ซึ่งอาจเป็น EULA ของคุณเอง หรือใช้ EULA ค่าเริ่มต้นภายใน Office store สำหรับวิชวลแบบกำหนดเองของ Power BI เมื่อต้องการใช้ EULA ค่าเริ่มต้น ให้วาง URL ต่อไปนี้ในกล่องโต้ตอบการอัปโหลดไฟล์ "ข้อตกลงสิทธิ์การใช้งานสำหรับผู้ใช้" ของแดชบอร์ดผู้ขาย: [ https://visuals.azureedge.net/app-store/PowerBI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf)
+       คุณต้องอัปโหลดไฟล์ EULA ซึ่งอาจเป็น EULA ของคุณเอง หรือใช้ EULA ค่าเริ่มต้นภายใน Office store สำหรับวิชวลแบบกำหนดเองของ Power BI เมื่อต้องการใช้ EULA ค่าเริ่มต้น ให้วาง URL ต่อไปนี้ในกล่องโต้ตอบการอัปโหลดไฟล์ "ข้อตกลงสิทธิ์การใช้งานสำหรับผู้ใช้" ของแดชบอร์ดผู้ขาย: [ https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf)
 
 8. เลือก**ถัดไป** เพื่อไปต่อยังหน้า**รายละเอียด**
 

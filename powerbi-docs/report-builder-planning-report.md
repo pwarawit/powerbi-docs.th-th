@@ -1,22 +1,23 @@
 ---
 title: วางแผนรายงานในตัวสร้างรายงานใน Power BI
 description: ตัวสร้างรายงานใน Power BI ช่วยให้คุณสร้างรายงานแบบแบ่งหน้าได้หลายรูปแบบ โปรแกรมนี้ช่วยวางแผนในขั้นแรกเพื่อสร้างรายงานที่เป็นประโยชน์และเข้าใจง่าย
-ms.date: 06/06/2019
+ms.date: 07/25/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: fd4a318d7a61f6f2298de6b9d5d23ad2ae063d28
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 33cdb53ab411e0d2f4686f7cc9a41bb3f0fe4cb6
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840521"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623877"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>วางแผนรายงานในตัวสร้างรายงานใน Power BI
-  ตัวสร้างรายงานใน Power BI ช่วยให้คุณสร้างรายงานแบบแบ่งหน้าได้หลายรูปแบบ ตัวอย่างเช่น คุณสามารถสร้างรายงานที่แสดงผลสรุปหรือข้อมูลการขายโดยละเอียด, การตลาดหรือแนวโน้มการขาย, รายงานการปฏิบัติงาน, หรือแดชบอร์ด คุณยังสามารถสร้างรายงานที่ใช้ผลประโยชน์จากเนื้อหาซึ่งจัดรูปแบบสมบูรณ์ได้ เช่น คำสั่งขาย, แคตตาล็อกสินค้า, หรือจดหมายฟอร์ม รายงานทั้งหมดนี้สร้างโดยการใช้การรวมที่หลากหลายของแบบการสร้างพื้นฐานเดียวกันในตัวสร้างรายงาน โปรแกรมนี้ช่วยวางแผนในขั้นแรกเพื่อสร้างรายงานที่เป็นประโยชน์และเข้าใจง่าย ต่อไปนี้เป็นบางสิ่งที่คุณอาจต้องการพิจารณาก่อนเริ่มใช้งาน  
+
+ตัวสร้างรายงานใน Power BI ช่วยให้คุณสร้างรายงานแบบแบ่งหน้าได้หลายรูปแบบ ตัวอย่างเช่น คุณสามารถสร้างรายงานที่แสดงผลสรุปหรือข้อมูลการขายโดยละเอียด, การตลาดหรือแนวโน้มการขาย, รายงานการปฏิบัติงาน, หรือแดชบอร์ด คุณยังสามารถสร้างรายงานที่ใช้ผลประโยชน์จากเนื้อหาซึ่งจัดรูปแบบสมบูรณ์ได้ เช่น คำสั่งขาย, แคตตาล็อกสินค้า, หรือจดหมายฟอร์ม รายงานทั้งหมดนี้สร้างโดยการใช้การรวมที่หลากหลายของแบบการสร้างพื้นฐานเดียวกันในตัวสร้างรายงาน โปรแกรมนี้ช่วยวางแผนในขั้นแรกเพื่อสร้างรายงานที่เป็นประโยชน์และเข้าใจง่าย ต่อไปนี้เป็นบางสิ่งที่คุณอาจต้องการพิจารณาก่อนเริ่มใช้งาน  
   
 ## <a name="in-what-format-do-you-want-the-report-to-appear"></a>คุณต้องการให้รายงานปรากฏในรูปแบบใด
   
@@ -36,7 +37,7 @@ ms.locfileid: "66840521"
   
 ## <a name="do-you-need-to-create-calculations"></a>คุณต้องการสร้างการคำนวณหรือไม่ 
   
-     Sometimes, your data source and datasets do not contain the exact fields that you need for your report. In that situation, you might have to create your own calculated fields. For example, you might want to multiply the price per unit times the quantity to get a line item sales amount. Expressions are also used to provide conditional formatting and other advanced features. For more information, see [Expressions in Power BI Report Builder](report-builder-expressions.md).  
+ในบางครั้ง แหล่งข้อมูลและชุดข้อมูลของคุณไม่มีเขตข้อมูลที่แน่นอนที่คุณต้องการสำหรับรายงานของคุณ ในสถานการณ์ดังกล่าว คุณอาจต้องสร้างเขตข้อมูลที่มีการคำนวณของคุณเอง ตัวอย่างเช่น คุณอาจต้องการคูณราคาต่อจำนวนครั้งของหน่วยคูณปริมาณเพื่อรับจำนวนการขายของรายการในบรรทัด นอกจากนี้ยังมีการใช้นิพจน์ในการจัดรูปแบบตามเงื่อนไขและคุณลักษณะขั้นสูงอื่น ๆ อีกด้วย สำหรับข้อมูลเพิ่มเติม ดู[นิพจน์ในตัวสร้างรายงานใน Power BI](report-builder-expressions.md)  
   
 ## <a name="do-you-want-to-hide-report-items-initially"></a>คุณต้องการซ่อนรายการรายงานในขั้นต้นหรือไม่
   
@@ -44,7 +45,7 @@ ms.locfileid: "66840521"
   
 ## <a name="how-are-you-going-to-deliver-your-report"></a>คุณจะส่งรายงานของคุณอย่างไร  
   
-     You can save your report to your local computer and continue to work on it, or run it locally for your own information. However, to share your report with others, you need to save the report to Power BI. Saving it to Power BI lets others run it whenever they want to. Alternatively, you can set up a subscription and e-mail delivery of the report to other individuals. You can have the report delivered in a specific export format if you prefer. 
+คุณสามารถบันทึกรายงานของคุณไปยังเครื่องคอมพิวเตอร์ภายในของคุณและดำเนินการทำงานต่อไปบนเครื่องคอมพิวเตอร์นั้น หรือเรียกใช้งานได้ในภายในเครื่องสำหรับข้อมูลของคุณเอง อย่างไรก็ตาม หากต้องการแชร์รายงานของคุณกับบุคคลอื่น คุณจำเป็นต้องบันทึกรายงานไปยัง Power BI การบันทึกไปยัง Power BI ช่วยให้บุคคลอื่นสามารถเรียกใช้รายงานเมื่อใดก็ตามที่พวกเขาต้องการได้ อีกวิธีหนึ่งคือ คุณสามารถตั้งค่าการสมัครใช้งานและส่งอีเมลของรายงานให้แก่บุคคลอื่น ๆ ได้ คุณสามารถมีรายงานที่ส่งไปยังรูปแบบการส่งออกเฉพาะไดหากคุณต้องการ 
   
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

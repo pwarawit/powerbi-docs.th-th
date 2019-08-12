@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b1d84e9de9ae6d6fd8306fce4865977a8d273652
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: a240d84b20f63542c33bb7cbbb9a9c97af7db2f7
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289951"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757677"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>ใช้ Assertion Markup Language (SAML) สำหรับการลงชื่อเข้าระบบครั้งเดียว (SSO) จาก Power BI กับแหล่งข้อมูลภายในองค์กร
 
@@ -33,7 +33,7 @@ ms.locfileid: "68289951"
 
 หากต้องการใช้ SAML คุณต้องสร้างความสัมพันธ์ที่เชื่อถือได้ระหว่างเซิร์ฟเวอร์ HANA ที่คุณต้องการเปิดใช้งาน SSO และเกตเวย์ซึ่งทำหน้าที่เป็น SAML Identity Provider (IdP) ในสถานการณ์สมมตินี้ มีแนวทางมากมายในการสร้างความสัมพันธ์นี้ เช่น การนำเข้าใบรับรอง x509 ของ Gateway IdP ไปยังร้านค้าที่เชื่อถือได้ของเซิร์ฟเวอร์ HANA หรือโดยการมีใบรับรอง X509 ของเกตเวย์ที่ลงนามโดยผู้ให้บริการออกใบรับรองลำดับชั้นบนสุด (CA) ที่เซิร์ฟเวอร์ HANA เชื่อถือ) เราอธิบายแนวทางถัดมาในคู่มือนี้ แต่คุณอาจใช้วิธีการอื่นหากสะดวกกว่า
 
-โปรดทราบว่าในขณะที่คู่มือนี้ใช้ OpenSSL เป็นผู้ให้บริการเข้ารหัสของเซิร์ฟเวอร์ HANA แต่ก็เป็นไปได้ที่จะใช้ SAP Cryptographic Library (หรือที่เรียกว่า CommonCryptoLib หรือ sapcrypto) แทน OpenSSL เพื่อทำตามขั้นตอนการตั้งค่าที่เชื่อถือได้ โปรดดูเอกสารประกอบ SAP อย่างเป็นทางการสำหรับข้อมูลเพิ่มเติม
+โปรดทราบว่าในขณะที่คู่มือนี้ใช้ OpenSSL เป็นผู้ให้บริการเข้ารหัสของเซิร์ฟเวอร์ HANA แต่ทว่า SAP ได้แนะนำให้ใช้ SAP Cryptographic Library (หรือที่เรียกว่า CommonCryptoLib หรือ sapcrypto) แทน OpenSSL เพื่อทำตามขั้นตอนการตั้งค่าที่เชื่อถือได้ โปรดดูเอกสารประกอบ SAP อย่างเป็นทางการสำหรับข้อมูลเพิ่มเติม
 
 ขั้นตอนต่อไปนี้อธิบายวิธีการสร้างความสัมพันธ์ที่เชื่อถือได้ระหว่างเซิร์ฟเวอร์ HANA และ Gateway IdP โดยการลงนามใบรับรอง X509 ของ Gateway IdP โดยใช้ CA ลำดับชั้นบนสุดที่เซิร์ฟเวอร์ HANA เชื่อถือ
 
@@ -180,7 +180,7 @@ ms.locfileid: "68289951"
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ**เกตเวย์ข้อมูลภายในองค์กร**และ **DirectQuery** ลองดูแหล่งข้อมูลต่อไปนี้:
 
-* [เกตเวย์ข้อมูลภายในองค์กรคืออะไร](/data-integration/gateway/service-gateway-getting-started)
+* [เกตเวย์ข้อมูลภายในองค์กรคืออะไร](/data-integration/gateway/service-gateway-onprem)
 * [DirectQuery ใน Power BI](desktop-directquery-about.md)
 * [แหล่งข้อมูลที่สนับสนุนโดย DirectQuery](desktop-directquery-data-sources.md)
 * [DirectQuery และ SAP BW](desktop-directquery-sap-bw.md)

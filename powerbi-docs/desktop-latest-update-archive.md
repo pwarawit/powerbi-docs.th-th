@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 55ffc166d5a42e850bc4e2dedf80de1c6b9f8634
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 80bb78d6074fde907fe6b2d3bbb835cdc5e82976
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342150"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623851"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -114,8 +114,8 @@ ms.locfileid: "68342150"
 
 เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
 
-* [Power BI Desktop รุ่นเดือนพฤษภาคม 2019 - 32 บิต](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
-* [Power BI Desktop รุ่นเดือนพฤษภาคม 2019 - 64 บิต](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
+* [Power BI Desktop รุ่นเดือนมิถุนายน 2019 - 32 บิต](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
+* [Power BI Desktop รุ่นเดือนมิถุนายน 2019 - 64 บิต](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
 
 
 ## <a name="may-2019-update-26954671251"></a>การอัปเดตประจำเดือนพฤษภาคม 2019 (2.69.5467.1251)
@@ -516,19 +516,6 @@ ms.locfileid: "68342150"
 > นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
 
 
-นอกจากนี้คุณยังสามารถดาวน์โหลด Power BI Desktop เวอร์ชันก่อนหน้าหากองค์กรของคุณต้องการใช้ได้ด้วยเช่นกัน เราแนะนำให้คุณใช้เวอร์ชันล่าสุดของ Power BI Desktop มากกว่าเวอร์ชันก่อนหน้าเสมอ เวอร์ชันก่อนหน้าทั้งหมดมีข้อจำกัดดังต่อไปนี้:
-
-* Power BI Desktop รุ่นก่อนหน้าจะไม่มีให้บริการ - คุณควรใช้รุ่นล่าสุดเสมอเพื่อใช้คุณลักษณะและการอัปเดตล่าสุด
-* คุณอาจไม่สามารถเปิดไฟล์ที่สร้างหรือบันทึกใน Power BI Desktop รุ่นใหม่กว่าด้วย Power BI Desktop เวอร์ชันก่อนหน้าได้ 
-* หากคุณได้รับคำเตือนเมื่อโหลดรายงานที่บันทึกใน Power BI Desktop เวอร์ชันที่ใหม่กว่า แล้วบันทึกรายงานนั้นในเวอร์ชันก่อนหน้า คุณจะสูญเสียข้อมูลใดๆ ที่เกี่ยวข้องกับคุณลักษณะใหม่
-* เราจัดเก็บ Power BI Desktop เวอร์ชันภาษาอังกฤษเท่านั้น
-
-เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
-
-* [Power BI Desktop - 32 บิต เวอร์ชันธันวาคม 2018](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-12.msi)
-* [Power BI Desktop - 64 บิต เวอร์ชันธันวาคม 2018](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-12_x64.msi)
-
-
 ## <a name="november-2018-update-2645285582"></a>การอัปเดตประจำเดือนพฤศจิกายน 2018 (2.64.5285.582)
 
 อัปเดตประจำเดือนพฤศจิกายน เรามีคุณลักษณะและฟังก์ชันการทำงานใหม่ๆ ดังนั้นคุณแค่เตรียมพร้อมรับชุดของข้อมูลและการวิเคราะห์ที่น่าสนใจ ทำตัวให้สบายและรอการอัปเดตใหม่ของเรา 
@@ -578,20 +565,6 @@ ms.locfileid: "68342150"
 
 > [!NOTE]
 > นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
-
-
-
-นอกจากนี้คุณยังสามารถดาวน์โหลด Power BI Desktop เวอร์ชันก่อนหน้าหากองค์กรของคุณต้องการใช้ได้ด้วยเช่นกัน เราแนะนำให้คุณใช้เวอร์ชันล่าสุดของ Power BI Desktop มากกว่าเวอร์ชันก่อนหน้าเสมอ เวอร์ชันก่อนหน้าทั้งหมดมีข้อจำกัดดังต่อไปนี้:
-
-* Power BI Desktop รุ่นก่อนหน้าจะไม่มีให้บริการ - คุณควรใช้รุ่นล่าสุดเสมอเพื่อใช้คุณลักษณะและการอัปเดตล่าสุด
-* คุณอาจไม่สามารถเปิดไฟล์ที่สร้างหรือบันทึกใน Power BI Desktop รุ่นใหม่กว่าด้วย Power BI Desktop เวอร์ชันก่อนหน้าได้ 
-* หากคุณได้รับคำเตือนเมื่อโหลดรายงานที่บันทึกใน Power BI Desktop เวอร์ชันที่ใหม่กว่า แล้วบันทึกรายงานนั้นในเวอร์ชันก่อนหน้า คุณจะสูญเสียข้อมูลใดๆ ที่เกี่ยวข้องกับคุณลักษณะใหม่
-* เราจัดเก็บ Power BI Desktop เวอร์ชันภาษาอังกฤษเท่านั้น
-
-เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
-
-* [Power BI Desktop - 32 บิต เวอร์ชันพฤศจิกายน 2018](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-11.msi)
-* [Power BI Desktop - 64 บิต เวอร์ชันพฤศจิกายน 2018](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-11_x64.msi)
 
 
 ## <a name="october-2018-update-263327240262"></a>การอัปเดตประจำเดือนตุลาคม 2018 (2.63.3272.40262)
@@ -653,21 +626,6 @@ ms.locfileid: "68342150"
 > นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
 
 
-
-นอกจากนี้คุณยังสามารถดาวน์โหลด Power BI Desktop เวอร์ชันก่อนหน้าหากองค์กรของคุณต้องการใช้ได้ด้วยเช่นกัน เราแนะนำให้คุณใช้เวอร์ชันล่าสุดของ Power BI Desktop มากกว่าเวอร์ชันก่อนหน้าเสมอ เวอร์ชันก่อนหน้าทั้งหมดมีข้อจำกัดดังต่อไปนี้:
-
-* Power BI Desktop รุ่นก่อนหน้าจะไม่มีให้บริการ - คุณควรใช้รุ่นล่าสุดเสมอเพื่อใช้คุณลักษณะและการอัปเดตล่าสุด
-* คุณอาจไม่สามารถเปิดไฟล์ที่สร้างหรือบันทึกใน Power BI Desktop รุ่นใหม่กว่าด้วย Power BI Desktop เวอร์ชันก่อนหน้าได้ 
-* หากคุณได้รับคำเตือนเมื่อโหลดรายงานที่บันทึกใน Power BI Desktop เวอร์ชันที่ใหม่กว่า แล้วบันทึกรายงานนั้นในเวอร์ชันก่อนหน้า คุณจะสูญเสียข้อมูลใดๆ ที่เกี่ยวข้องกับคุณลักษณะใหม่
-* เราจัดเก็บ Power BI Desktop เวอร์ชันภาษาอังกฤษเท่านั้น
-
-เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
-
-* [Power BI Desktop - 32 บิต เวอร์ชันตุลาคม 2018](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-10.msi)
-* [Power BI Desktop - 64 บิต เวอร์ชันตุลาคม 2018](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-10_x64.msi)
-
-
-
 ## <a name="september-2018-update-2625222582"></a>อัปเดตประจำเดือนกันยายน 2018 (2.62.5222.582)
 
 การอัปเดตประจำเดือนกันยายนเปรียบเสมือนได้เข้าไปอยู่ในชั้นเรียนใหม่อันน่าตื่นเต้น หวังว่าการอัปเดตเหล่านี้จะเป็นประโยชน์ต่อคุณเหมือนดินสอเบอร์ 2 ที่เพิ่งเหลาจนคม เบอร์ 2 
@@ -713,20 +671,6 @@ ms.locfileid: "68342150"
 
 > [!NOTE]
 > นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
-
-
-นอกจากนี้คุณยังสามารถดาวน์โหลด Power BI Desktop เวอร์ชันก่อนหน้าหากองค์กรของคุณต้องการใช้ได้ด้วยเช่นกัน เราแนะนำให้คุณใช้เวอร์ชันล่าสุดของ Power BI Desktop มากกว่าเวอร์ชันก่อนหน้าเสมอ เวอร์ชันก่อนหน้าทั้งหมดมีข้อจำกัดดังต่อไปนี้:
-
-* Power BI Desktop รุ่นก่อนหน้าจะไม่มีให้บริการ - คุณควรใช้รุ่นล่าสุดเสมอเพื่อใช้คุณลักษณะและการอัปเดตล่าสุด
-* คุณอาจไม่สามารถเปิดไฟล์ที่สร้างหรือบันทึกใน Power BI Desktop รุ่นใหม่กว่าด้วย Power BI Desktop เวอร์ชันก่อนหน้าได้ 
-* หากคุณได้รับคำเตือนเมื่อโหลดรายงานที่บันทึกใน Power BI Desktop เวอร์ชันที่ใหม่กว่า แล้วบันทึกรายงานนั้นในเวอร์ชันก่อนหน้า คุณจะสูญเสียข้อมูลใดๆ ที่เกี่ยวข้องกับคุณลักษณะใหม่
-* เราจัดเก็บ Power BI Desktop เวอร์ชันภาษาอังกฤษเท่านั้น
-
-เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
-
-* [Power BI Desktop - 32 บิต เวอร์ชันกันยายน 2018](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-09.msi)
-* [Power BI Desktop - 64 บิต เวอร์ชันกันยายน 2018](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-09_x64.msi)
-
 
 
 
@@ -776,21 +720,6 @@ ms.locfileid: "68342150"
 
 > [!NOTE]
 > นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](mobile-whats-new-in-the-mobile-apps.md) ได้
-
-
-
-นอกจากนี้คุณยังสามารถดาวน์โหลด Power BI Desktop เวอร์ชันก่อนหน้าหากองค์กรของคุณต้องการใช้ได้ด้วยเช่นกัน เราแนะนำให้คุณใช้เวอร์ชันล่าสุดของ Power BI Desktop มากกว่าเวอร์ชันก่อนหน้าเสมอ เวอร์ชันก่อนหน้าทั้งหมดมีข้อจำกัดดังต่อไปนี้:
-
-* Power BI Desktop รุ่นก่อนหน้าจะไม่มีให้บริการ - คุณควรใช้รุ่นล่าสุดเสมอเพื่อใช้คุณลักษณะและการอัปเดตล่าสุด
-* คุณอาจไม่สามารถเปิดไฟล์ที่สร้างหรือบันทึกใน Power BI Desktop รุ่นใหม่กว่าด้วย Power BI Desktop เวอร์ชันก่อนหน้าได้ 
-* หากคุณได้รับคำเตือนเมื่อโหลดรายงานที่บันทึกใน Power BI Desktop เวอร์ชันที่ใหม่กว่า แล้วบันทึกรายงานนั้นในเวอร์ชันก่อนหน้า คุณจะสูญเสียข้อมูลใดๆ ที่เกี่ยวข้องกับคุณลักษณะใหม่
-* เราจัดเก็บ Power BI Desktop เวอร์ชันภาษาอังกฤษเท่านั้น
-
-เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
-
-* [Power BI Desktop - 32 บิต เวอร์ชันสิงหาคม 2018](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-08.msi)
-* [Power BI Desktop - 64 บิต เวอร์ชันสิงหาคม 2018](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2018-08_x64.msi)
-
 
 
 

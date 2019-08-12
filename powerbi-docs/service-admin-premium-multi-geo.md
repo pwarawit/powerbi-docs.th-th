@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: fcef4b7bc9feaee0912a8e0e9ea8098d52c66e3a
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: f29ce1ce05db80378eee81293d92484fb4f58f45
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289826"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665408"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>กำหนดค่าการสนับสนุน Multi-Geo สำหรับ Power BI Premium
 
@@ -30,6 +30,7 @@ Multi-Geo เป็นคุณลักษณะของ Power BI Premium ท�
 - อินเดีย
 - เอเชียแปซิฟิก
 - ออสเตรเลีย
+- แอฟริกา
 
 Multi-Geo ไม่พร้อมให้บริการใน Power BI Germany, Power BI China ที่ดำเนินการโดย 21Vianet หรือ Power BI สำหรับรัฐบาลสหรัฐอเมริกา
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: db0ea02237a2279c26f2c47cecd3bae794a5cba4
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840314"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624155"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>ตัวอย่างนิพจน์ในตัวสร้างรายงานใน Power BI
 นิพจน์จะถูกนำมาใช้บ่อยในตัวสร้างรายงานที่มีการแบ่งหน้าของ Power BI เพื่อควบคุมเนื้อหาและลักษณะที่ปรากฏของรายงาน นิพจน์จะถูกเขียนขึ้นใน Microsoft Visual Basic และสามารถใช้ฟังก์ชันที่มีอยู่ในตัว รหัสที่กำหนดเอง รายงานและตัวแปรของกลุ่ม รวมถึงตัวแปรที่ผู้ใช้กำหนด นิพจน์เริ่มต้นด้วยเครื่องหมายเท่ากับ (=)   
@@ -40,7 +40,7 @@ ms.locfileid: "66840314"
 ##  <a name="VisualBasicFunctions"></a> ฟังก์ชัน Visual Basic  
  คุณสามารถใช้ฟังก์ชัน Visual Basic เพื่อจัดการข้อมูลที่แสดงในกล่องข้อความหรือที่ใช้สำหรับพารามิเตอร์ คุณสมบัติหรือพื้นที่อื่นๆ ของรายงาน ส่วนนี้มีตัวอย่างที่แสดงให้เห็นถึงฟังก์ชันบางอย่างเหล่านี้ สำหรับข้อมูลเพิ่มเติม ดูที่[ สมาชิกไลบรารีเวลาเรียกใช้งาน Visual Basic](https://go.microsoft.com/fwlink/?LinkId=198941) บน MSDN  
   
- .NET Framework มีตัวเลือกรูปแบบที่กำหนดเองหลากหลาย ตัวอย่างเช่น สำหรับรูปแบบวันที่ที่เฉพาะเจาะจง สำหรับข้อมูลเพิ่มเติม ดูที่[ชนิดของการจัดรูปแบบ](https://go.microsoft.com/fwlink/?LinkId=112024) บน MSDN  
+ .NET Framework มีตัวเลือกรูปแบบที่กำหนดเองหลากหลาย ตัวอย่างเช่น สำหรับรูปแบบวันที่ที่เฉพาะเจาะจง สำหรับข้อมูลเพิ่มเติม ดูที่[ชนิดของการจัดรูปแบบ](/dotnet/standard/base-types/formatting-types)  
   
 ### <a name="math-functions"></a>ฟังก์ชันทางคณิตศาสตร์  
   

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: de3400989e6d8fe62c03d6b21707559fac0fd7bf
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 7d6948f7b5be25b7027a4aa2adaf244a2cde836a
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271440"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68729967"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>เกตเวย์ข้อมูลในองค์กรในเชิงลึก
 
@@ -55,9 +55,9 @@ ms.locfileid: "68271440"
 
 ดูที่ [ฉันจะทราบได้อย่างไรว่า UPN ของฉันเป็นอะไร](/data-integration/gateway/service-gateway-onprem-indepth#how-do-i-tell-what-my-upn-is)
 
-## <a name="mapping-usernames-for-analysis-services-data-sources"></a>การแมปชื่อผู้ใช้สำหรับแหล่งข้อมูล Analysis Services
+## <a name="map-user-names-for-analysis-services-data-sources"></a>แมปชื่อผู้ใช้สำหรับแหล่งข้อมูล Analysis Services
 
-ดูที่ [การแมปชื่อผู้ใช้สำหรับแหล่งข้อมูล Analysis Services](service-gateway-enterprise-manage-ssas.md#mapping-usernames-for-analysis-services-data-sources)
+ดูที่ [แมปชื่อผู้ใช้สำหรับแหล่งข้อมูล Analysis Services](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources)
 
 ## <a name="synchronize-an-on-premises-active-directory-with-azure-active-directory"></a>รวม Active Directory ภายในองค์กรเข้ากับ Azure Active Directory
 

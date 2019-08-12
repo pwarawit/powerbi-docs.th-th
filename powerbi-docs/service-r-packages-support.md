@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 76361bba2690e0ab6ae8fa49008d7a6accae900e
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 60d97d8b2226e9a3f9aba2bf043bd9c6aade161a
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325063"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665312"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>แพ็คเกจ R ในบริการ Power BI
 คุณสามารถใช้[R ภาษาโปรแกรม](https://www.r-project.org/)ที่มีประสิทธิภาพเพื่อสร้างภาพในบริการ Power BI ได้ แพ็คเกจ R หลายแพ็กเกจได้รับการสนับสนุนในบริการ Power BI (และหลายแพ็คเกจจะได้รับการสนับสนุนตลอดเวลา) และบางแพ็กเกจจะไม่ได้รับการสนับสนุน
@@ -29,6 +29,7 @@ ms.locfileid: "68325063"
 ## <a name="requirements-and-limitations-of-r-packages"></a>แพ็คเกจข้อกำหนดและขีดจำกัดของ R
 มีข้อกำหนดและขีดจำกัดสำหรับแพคเกจ R อยู่เล็กน้อยดังนี้:
 
+* รันไทม์ R ปัจจุบัน: Microsoft R 3.4.4
 * บริการ Power BI ส่วนใหญ่สนับสนุนแพคเกจ R ที่มีใบอนุญาตซอฟต์แวร์แบบเปิดและฟรี เช่น GPL-2 GPL-3 MIT+ และอื่น ๆ
 * บริการ Power BI สนับสนุนแพคเกจที่เผยแพร่ใน CRAN บริการไม่สนับสนุนแพคเกจ R ส่วนตัว หรือแบบกำหนดเอง แนะนำให้ผู้ใช้สร้างแพ็คเกจส่วนตัวของพวกเขาพร้อมใช้งานบน CRAN ก่อนที่จะร้องขอแพ็คเกจมีอยู่ในบริการ Power BI
 * **Power BI Desktop**มีแพ็คเกจ R ที่แตกต่างกันสองแพ็คเกจ

@@ -1,6 +1,6 @@
 ---
 title: การวิเคราะห์ที่ฝังตัวที่ใช้ในการฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับองค์กรของคุณ
-description: เรียนรู้วิธีรวมหรือฝัง รายงาน แดชบอร์ด หรือไทล์ เข้าไปในแอปพลิเคชั่นโดยการใช้ Power BI APIs สำหรับการวิเคราะห์แบบฝังตัวสำหรับองค์กรของคุณ เรียนรู้วิธีการรวม Power BI เข้ากันกับแอปพลิเคชันของคุณโดยใช้ซอฟต์แวร์การวิเคราะห์แบบฝังตัว, เครื่องมือการวิเคราะห์แบบฝังตัวหรือเครื่องมือข่าวกรองธุรกิจแบบฝังตัว
+description: เรียนรู้วิธีรวมหรือฝังรายงาน (Power BI หรือรายงานที่มีการแบ่งหน้า) แดชบอร์ด หรือไทล์เข้าไปในแอปพลิเคชันโดยการใช้ Power BI APIs สำหรับการวิเคราะห์แบบฝังตัวสำหรับองค์กรของคุณ เรียนรู้วิธีการรวม Power BI เข้ากันกับแอปพลิเคชันของคุณโดยใช้ซอฟต์แวร์การวิเคราะห์แบบฝังตัว, เครื่องมือการวิเคราะห์แบบฝังตัวหรือเครื่องมือข่าวกรองธุรกิจแบบฝังตัว
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -9,24 +9,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 53311929aa6277efd621fb2b944ea062ab99999d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/29/2019
+ms.openlocfilehash: 02e11e167d859d3ef23124fed4f9f699766db8fe
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61355514"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665553"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับองค์กรของคุณ
 
-ใน **Power BI** คุณสามารถฝังรายงาน, แดชบอร์ด หรือไทล์ iแอปพลิเคชันโดยการใช้ ผู้ใช้ที่เป็นเจ้าของข้อมูล **ผู้ใช้ที่เป็นเจ้าของข้อมูล** ช่วยให้แอปพลิเคชันของคุณขยายบริการ Power BI เพื่อใช้การวิเคราะห์แบบฝังตัว การสอนนี้จะแสดงวิธีวิธีการรวมรายงานเข้าไปในแอปพลิเคชัน คุณใช้ Power BI .NET SDK กับ Power BI JavaScript API เพื่อฝัง Power BI เข้าไปในแอปพลิเคชันสำหรับองค์กรของคุณ
+ใน **Power BI** คุณสามารถฝังรายงาน (Power BI หรือรายงานที่มีการแบ่งหน้า) แดชบอร์ด หรือไทล์เข้าไปในแอปพลิเคชันโดยการใช้ผู้ใช้ที่เป็นเจ้าของข้อมูล **ผู้ใช้ที่เป็นเจ้าของข้อมูล** ช่วยให้แอปพลิเคชันของคุณขยายบริการ Power BI เพื่อใช้การวิเคราะห์แบบฝังตัว บทช่วยสอนนี้จะแสดงวิธีการรวมรายงาน (Power BI หรือรายงานที่มีการแบ่งหน้า) เข้าไปในแอปพลิเคชัน คุณใช้ Power BI .NET SDK กับ Power BI JavaScript API เพื่อฝัง Power BI เข้าไปในแอปพลิเคชันสำหรับองค์กรของคุณ
 
 ![Power BI ฝังรายงาน](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
 ในการสอนนี้ คุณจะได้เรียนรู้งานต่อไปนี้:
 > [!div class="checklist"]
 > * ลงทะเบียนแอปพลิเคชันใน Azure
-> * ฝังรายงาน Power BI ลงในแอปพลิเคชันโดยใช้ผู้เช่า Power BI ของคุณ
+> * ฝังรายงาน Power BI หรือรายงานที่มีการแบ่งหน้าเข้าไปในแอปพลิเคชันโดยใช้ผู้เช่า Power BI ของคุณ
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
@@ -35,6 +35,7 @@ ms.locfileid: "61355514"
 * [บัญชี Power BI Pro](../service-self-service-signup-for-power-bi.md)
 * การสมัครใช้งาน [Microsoft Azure](https://azure.microsoft.com/)
 * คุณจำเป็นต้องตั้งค่า[ผู้เช่า Azure Active Directory](create-an-azure-active-directory-tenant.md) ของคุณเอง
+* สำหรับการฝังรายงานที่มีการแบ่งหน้า อย่างน้อยคุณจำเป็นต้องมีความจุ A4/P1 [ดูขนาดความจุพรีเมียมใดที่จำเป็นสำหรับรายงานที่มีการแบ่งหน้าของฉัน](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
 ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/pricing/)ก่อนที่คุณจะเริ่ม
 
@@ -44,9 +45,9 @@ ms.locfileid: "61355514"
 
 ก่อนที่คุณจะเริ่มฝังรายการ, แดชบอร์ด หรือไทล์ลงในแอปพลิเคชันของคุณ คุณจำเป็นต้องตรวจสอบให้แน่ใจว่าสภาพแวดล้อมเอื้ออำนวยต่อการฝังด้วย Power BI
 
-คุณสามารถเข้าถึง [เครื่องมือตั้งค่าการฝังตัว](https://aka.ms/embedsetup/UserOwnsData) เพื่อให้คุณสามารถเริ่มต้นใช้งาน และดาวน์โหลดแอปพลิเคชันตัวอย่างที่ช่วยแนะนำคุณไปตามขั้นตอนการสร้างสภาพแวดล้อม และการฝังรายงานได้
+คุณสามารถเข้าถึง [เครื่องมือตั้งค่าการฝังตัว](https://aka.ms/embedsetup/UserOwnsData) เพื่อให้คุณสามารถเริ่มต้นใช้งาน และดาวน์โหลดแอปพลิเคชันตัวอย่างที่ช่วยแนะนำคุณไปตามขั้นตอนการสร้างสภาพแวดล้อม และการฝังรายงานได้ ในกรณีของการฝังรายงานที่มีการแบ่งหน้า อย่างน้อยคุณจำเป็นต้องกำหนดความจุ A4/P1 ให้กับพื้นที่ทำงานของแอปที่สร้างขึ้น
 
-แต่ถ้าคุณเลือกที่จะตั้งค่าสภาพแวดล้อมด้วยตนเอง คุณสามารถดำเนินต่อตามด้านล่าง
+แต่หากคุณเลือกที่จะตั้งค่าสภาพแวดล้อมด้วยตนเอง คุณสามารถดำเนินต่อตามด้านล่าง
 
 ### <a name="register-an-application-in-azure-active-directory"></a>ลงทะเบียนแอปพลิเคชันใน Azure Active Directory
 
@@ -60,7 +61,7 @@ ms.locfileid: "61355514"
 
 หากคุณกำลังฝังรายงาน, แดชบอร์ด หรือไทล์สำหรับลูกค้า คุณต้องวางเนื้อหาลงในพื้นที่ทำงานแอป พื้นที่ทำงานมีหลายประเภทที่คุณสามารถตั้งค่า: [พื้นที่ทำงานแบบดั้งเดิม](../service-create-workspaces.md)หรือ[พื้นที่ทำงานใหม่](../service-create-the-new-workspaces.md)
 
-### <a name="create-and-publish-your-reports"></a>สร้าง และเผยแพร่รายงานของคุณ
+### <a name="create-and-publish-your-power-bi-reports"></a>สร้าง และเผยแพร่รายงาน Power BI ของคุณ
 
 คุณสามารถสร้างรายงานและชุดข้อมูลโดยการใช้ Power BI Desktop จากนั้นคุณสามารถเผยแพร่รายงานเหล่านั้นไปยังพื้นที่ทำงานแอป ผู้ใช้ปลายทางที่เผยแพร่รายงานจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro เพื่อเผยแพร่ไปยังพื้นที่ทำงานแอป
 
@@ -79,7 +80,11 @@ ms.locfileid: "61355514"
     ในตอนนี้ คุณสามารถดูรายงานในบริการของ Power BI แบบออนไลน์
 
    ![ดูรายงาน Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
+   
+### <a name="create-and-publish-your-paginated-reports"></a>สร้าง และเผยแพร่รายงานที่มีการแบ่งหน้าของคุณ
 
+คุณสามารถสร้างรายงานที่มีการแบ่งหน้าของคุณได้โดยใช้ ้[ตัวสร้างรายงาน Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder) จากนั้นคุณสามารถ [อัปโหลดรายงาน](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) ไปยังพื้นที่ทำงานของแอปที่กำหนดให้กับความจุ A4/P1 เป็นอย่างน้อย การอัปโหลดของผู้ใช้ปลายทางจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro เพื่อเผยแพร่ไปยังพื้นที่ดำเนินการของแอป
+   
 ## <a name="embed-your-content-by-using-the-sample-application"></a>ฝังเนื้อหาของคุณโดยการใช้แอปพลิเคชันตัวอย่าง
 
 ตัวอย่างนี้ถูกเก็บไว้อย่างตั้งใจเพื่อวัตถุประสงค์ในการสาธิต
@@ -124,30 +129,6 @@ ms.locfileid: "61355514"
 
     ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
-### <a name="application-secret"></a>ข้อมูลลับของแอปพลิเคชัน
-
-แอตทริบิวต์นี้จำเป็นสำหรับ AuthenticationType ของ[บริการหลัก](embed-service-principal.md)เท่านั้น
-
-ป้อนข้อมูล **ApplicationSecret** จากส่วน **คีย์** ของส่วน **การลงทะเบียนแอปพลิเคชัน** ใน **Azure**  แอตทริบิวต์นี้ทำงานเมื่อใช้[บริการหลัก](embed-service-principal.md)
-
-สำหรับวิธีรับ **ApplicationSecret** ให้ทำตามขั้นตอนต่อไปนี้:
-
-1. ลงชื่อเข้าใช้ไปยัง [พอร์ทัล Azure](https://portal.azure.com)
-
-2. ในบานหน้าต่างนำทางซ้ายมือ เลือก **บริการทั้งหมด** และเลือก **การลงทะเบียนแอป**
-
-3. เลือกแอปพลิเคชันที่ต้องใช้ **ApplicationSecret**
-
-    ![เลือกแอป](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
-
-4. เลือก**ใบรับรองและความลับ**ภายใต้**จัดการ**
-
-5. เลือก**ข้อมูลลับไคลเอ็นต์ใหม่**
-
-6. ป้อนชื่อในกล่อง **Description** และเลือกระยะเวลา จากนั้นเลือก **บันทึก** เพื่อรับ **ค่า** สำหรับแอปพลิเคชัน เมื่อคุณเลือกบานหน้าต่าง **คีย์** หลังจากการบันทึกค่าคีย์แล้ว ช่องค่าจะถูกซ่อนเท่านั้น ในขั้นตอนนี้คุณจะไม่สามารถเรียกดูค่าคีย์ได้ หากคุณทำค่าคีย์หาย ให้สร้างใหม่ในพอร์ทัล Azure
-
-    ![ค่าคีย์](media/embed-sample-for-your-organization/embed-sample-for-your-organization-046.png)
-
 ### <a name="workspace-id"></a>ID พื้นที่ทำงาน
 
 กรอกข้อมูล **workspaceId** ด้วย พื้นที่ทำงานแอป (กลุ่ม) GUID จาก Power BI คุณสามารถดูข้อมูลนี้จาก URL เมื่อลงชื่อเข้าใช้บริการ Power BI หรือโดยการใช้ Powershell
@@ -168,9 +149,17 @@ Get-PowerBIworkspace -name "User Owns Embed Test"
 
 กรอกข้อมูล **reportId** ด้วย GUID รายงานจาก Power BI คุณสามารถดูข้อมูลนี้จาก URL เมื่อลงชื่อเข้าใช้บริการ Power BI หรือโดยการใช้ Powershell
 
-URL <br>
+URL รายงาน Power BI <br>
 
-![reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+![PBI reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+
+URL รายงานที่มีการแบ่งหน้า <br>
+
+
+
+URL รายงานที่มีการแบ่งหน้า<br>
+
+![reportid ที่มีการแบ่งหน้า](media/embed-sample-for-your-organization/paginated-reports-url.png)
 
 PowerShell <br>
 
@@ -214,7 +203,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 ### <a name="get-a-report"></a>รับรายงาน
 
-สำหรับการรับรายงาน Power BI ให้ใช้การดำเนินการ [รับรายงาน](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) ซึ่งจะรับรายการของรายงาน Power BI จากรายการรายงาน คุณสามารถรับ ID รายงาน
+สำหรับการรับรายงาน Power BI หรือรายงานที่มีการแบ่งหน้า คุณสามารถใช้การดำเนินการ [รับรายงาน](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) ซึ่งจะรับรายการของรายงาน Power BI และรายงานที่มีการแบ่งหน้า จากรายการรายงาน คุณสามารถรับ ID รายงาน
 
 ### <a name="get-reports-by-using-an-access-token"></a>รับรายงานโดยการใช้โทเค็นการเข้าถึง
 
@@ -275,6 +264,7 @@ public class PBIReports
 public class PBIReport
 {
     public string id { get; set; }
+    public string reportType { get; set }
     public string name { get; set; }
     public string webUrl { get; set; }
     public string embedUrl { get; set; }
@@ -394,7 +384,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>สร้างความจุเฉพาะ
 
-โดยการสร้างความจุเฉพาะ คุณสามารถใช้ประโยชน์จากการมีทรัพยากรเฉพาะสำหรับเนื้อหาในพื้นที่ทำงานแอปของคุณ คุณสามารถสร้างความจุเฉพาะโดยการใช้ [Power BI Premium](../service-premium-what-is.md)
+โดยการสร้างความจุเฉพาะ คุณสามารถใช้ประโยชน์จากการมีทรัพยากรเฉพาะสำหรับเนื้อหาในพื้นที่ทำงานแอปของคุณ สำหรับรายงานที่มีการแบ่งหน้า คุณจะต้องสำรองพื้นที่ทำงานของแอปด้วยความจุ A4/P1 เป็นอย่างน้อย คุณสามารถสร้างความจุเฉพาะโดยใช้[Power BI Premium](../service-premium-what-is.md)ได้
 
 ตารางต่อไปนี้ลงรายการ Power BI Premium SKUs ที่ให้บริการใน [Microsoft Office 365](../service-admin-premium-purchase.md):
 
@@ -435,7 +425,7 @@ function updateEmbedReport() {
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-ในการสอนนี้ คุณจะได้เรียนรู้วิธีการฝังเนื้อหา Power BI เข้าไปในแอปพลิเคชันโดยการใช้บัญชีองค์กร Power BI คุณสามารถลองฝังเนื้อหา Power BI content เข้าไปในแอปพลิเคชันโดยการใช้แอปได้แล้ว นอกจากนี้คุณยังสามารถลองฝังเนื้อหา Power BI สำหรับลูกค้าได้เช่นกัน:
+ในการสอนนี้ คุณจะได้เรียนรู้วิธีการฝังเนื้อหา Power BI เข้าไปในแอปพลิเคชันโดยการใช้บัญชีองค์กร Power BI คุณสามารถลองฝังเนื้อหา Power BI content เข้าไปในแอปพลิเคชันโดยการใช้แอปได้แล้ว นอกจากนี้คุณยังสามารถลองฝังเนื้อหา Power BI สำหรับลูกค้าของคุณ (ยังไม่ได้รับการสนับสนุนสำหรับการฝังรายงานที่มีการแบ่งหน้า):
 
 > [!div class="nextstepaction"]
 > [ฝังตัวจากแอป](embed-from-apps.md)

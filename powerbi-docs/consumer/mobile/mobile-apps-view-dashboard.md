@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4629b78379ba87d58c31f8102b855e1f62565abd
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61141640"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665445"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>ดูแดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
 
-| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![โทรศัพท์ Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![อุปกรณ์ Windows 10](./media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![โทรศัพท์ Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
-| [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPads](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[โทรศัพท์ android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[แท็บเล็ต android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |[อุปกรณ์ Windows 10](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device) |
+| [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPads](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[โทรศัพท์ android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[แท็บเล็ต android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |
 
 แดชบอร์ดเป็นพอร์ทัลสำหรับวงจรชีวิตและกระบวนการของบริษัทของคุณ แดชบอร์ดคือภาพรวมหรือสถานที่เดียวที่สามารถตรวจสอบสถานะปัจจุบันของธุรกิจได้
 
@@ -57,7 +57,7 @@ ms.locfileid: "61141640"
    > 
    > 
    
-    หรือเพียงแค่หมุนโทรศัพท์ของคุณมาด้านข้าง คุณจะเห็นแดชบอร์ดในโหมดแนวนอนบนโทรศัพท์
+    หรือเพียงแค่หมุนโทรศัพท์ของคุณมาด้านข้างเพื่อดูแดชบอร์ดในโหมดแนวนอนบนโทรศัพท์
    
     ![มุมมองแดชบอร์ดแนวนอน](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
 3. ปัดขึ้นหรือลงเพื่อดูไทล์ทั้งหมดในแดชบอร์ด คุณสามารถ:
@@ -145,45 +145,6 @@ ms.locfileid: "61141640"
     ![แสดงเส้นทาง](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     คุณสามารถใช้รูปแบบการสัมผัส "หุบนิ้ว" เมื่อต้องขยายและย่อบนพื้นที่ต่างๆ ของแดชบอร์ดของคุณ เลื่อนเพื่อนำทางนั้น และคุณยังคงสามารถ[แตะไทล์](mobile-tiles-in-the-mobile-apps.md)เพื่อเปิดไทล์ในโหมดโฟกัส และโต้ตอบกับข้อมูลของคุณ
-
-## <a name="view-dashboards-on-your-windows-10-device"></a>ดูแดชบอร์ดบนอุปกรณ์ Windows 10 ของคุณ
-1. เปิดแอป Power BI บนอุปกรณ์ Windows 10 ของคุณ และลงชื่อเข้าใช้
-   
-   ต้องการ[ดาวน์โหลดแอป](http://go.microsoft.com/fwlink/?LinkID=526478)ก่อนหรือไม่
-2. แตะแดชบอร์ดเพื่อเปิด   
-   
-   ![หน้าแรกของแดชบอร์ด](./media/mobile-apps-view-dashboard/power-bi-windows-10-device-dashboard-home.png)
-   
-   * ดาวสีดำแสดงแดชบอร์ดรายการโปรด 
-   * เครื่องหมายด้านล่างแต่ละชื่อของแดชบอร์ด (ในกรณีนี้ **MBI**) แสดงวิธีการจัดประเภทข้อมูลในแต่ละแดชบอร์ด อ่านเพิ่มเติมเกี่ยวกับ[การจัดประเภทข้อมูลใน Power BI](../../service-data-classification.md)
-   
-   แดชบอร์ด Power BI จะมีลักษณะแตกต่างกันเล็กน้อยบนโทรศัพท์ Windows 10 ของคุณ ไทล์ทั้งหมดจะปรากฏในขนาดเท่ากัน และถูกจัดเรียงทีละอันจากบนลงล่าง
-   
-   ![มุมมองแดชบอร์ดแนวตั้ง](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-0928.png)
-   
-    หรือเพียงแค่หมุนโทรศัพท์ของคุณมาด้านข้าง คุณจะเห็นแดชบอร์ดในโหมดแนวนอนบนโทรศัพท์
-   
-   > [!TIP]
-   > ถ้าคุณเป็นเจ้าของแดชบอร์ด ในบริการของ Power BI คุณจะสามารถ[สร้างมุมมองแดชบอร์ดสำหรับโทรศัพท์](../../service-create-dashboard-mobile-phone-view.md)ในโหมดแนวตั้งได้ 
-   > 
-   > 
-3. ในแดชบอร์ด คุณสามารถ:
-   
-   * [แตะไทล์](mobile-tiles-in-the-mobile-apps.md)เมื่อต้องเปิด และใช้งานไทล์
-   * แตะไอคอน**เต็มหน้าจอ**![ไอคอนเต็มหน้าจอ](./media/mobile-apps-view-dashboard/power-bi-windows-10-full-screen-icon.png)เมื่อต้องการแสดงแดชบอร์ด Power BI ของคุณโดยไม่มีเส้นขอบหรือเมนู เช่น มุมมอง**ภาพนิ่ง**ใน PowerPoint
-   * แตะ**เชิญ**ไอคอน![ไอคอนการเชิญ](./media/mobile-apps-view-dashboard/pbi_andr_inviteicon.png)เมื่อต้องการ[แชร์แดชบอร์ดของคุณ](mobile-share-dashboard-from-the-mobile-apps.md)กับเพื่อนร่วมงาน
-   * แตะรูปดาว![ดาวรายการโปรด](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png)เมื่อต้องการ[ทำให้เป็นรายการโปรด](mobile-apps-favorites.md)
-   * แตะไอคอน**ปักหมุดเพื่อเริ่มต้น**เพื่อ[ปักหมุดแดชบอร์ดของคุณบนหน้าจอเริ่มต้น Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) 
-4. เมื่อต้องการย้อนกลับไปยังหน้าแรกของแดชบอร์ด แตะชื่อแดชบอร์ดเพื่อเปิดบันทึกการแสดงเส้นทาง จากนั้นแตะ**พื้นที่ทำงานของฉัน**
-   
-    ![แสดงเส้นทาง](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-breadcrumb.png)
-
-### <a name="view-dashboards-in-landscape-mode-on-your-windows-10-phone"></a>มองแดชบอร์ดในโหมดแนวนอนบนโทรศัพท์ Windows 10
-คุณยังสามารถดูแดชบอร์ดในโหมดแนวนอน โดยการเปิดใช้งานโทรศัพท์ของคุณ เค้าโครงแดชบอร์ดจะเปลี่ยนแปลงจากชุดของไทล์เป็นมุมมองแดชบอร์ดทั้งหมด &#151;คุณจะเห็นไทล์ของแดชบอร์ดทั้งหมดวางอยู่เหมือนกับที่ไทล์เหล่านี้วางอยู่ในบริการของ Power BI
-
-![แดชบอร์ดแนวนอน](./media/mobile-apps-view-dashboard/pbi_iph_landscape.png)
-
-คุณสามารถใช้รูปแบบการสัมผัส "หุบนิ้ว" เมื่อต้องขยายและย่อบนพื้นที่ต่างๆ ของแดชบอร์ดของคุณ เลื่อนเพื่อนำทางนั้น และคุณยังคงสามารถ[แตะไทล์](mobile-tiles-in-the-mobile-apps.md)เพื่อเปิดไทล์ในโหมดโฟกัส และโต้ตอบกับข้อมูลของคุณ
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>สร้างมุมมองแดชบอร์ดสำหรับโทรศัพท์ในบริการของ Power BI
 ถ้าคุณเป็นเจ้าของแดชบอร์ด ในบริการของ *Power BI คุณจะสามารถสร้างมุมมองแดชบอร์ดสำหรับโทรศัพท์*ในโหมดแนวตั้งได้ 
