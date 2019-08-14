@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 02e11e167d859d3ef23124fed4f9f699766db8fe
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665553"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808245"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับองค์กรของคุณ
 
@@ -83,7 +83,7 @@ ms.locfileid: "68665553"
    
 ### <a name="create-and-publish-your-paginated-reports"></a>สร้าง และเผยแพร่รายงานที่มีการแบ่งหน้าของคุณ
 
-คุณสามารถสร้างรายงานที่มีการแบ่งหน้าของคุณได้โดยใช้ ้[ตัวสร้างรายงาน Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder) จากนั้นคุณสามารถ [อัปโหลดรายงาน](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) ไปยังพื้นที่ทำงานของแอปที่กำหนดให้กับความจุ A4/P1 เป็นอย่างน้อย การอัปโหลดของผู้ใช้ปลายทางจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro เพื่อเผยแพร่ไปยังพื้นที่ดำเนินการของแอป
+คุณสามารถสร้างรายงานที่มีการแบ่งหน้าของคุณได้โดยใช้ ้[ตัวสร้างรายงาน Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder) จากนั้นคุณสามารถ [อัปโหลดรายงาน](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) ไปยังพื้นที่ทำงานของแอปที่กำหนดให้กับความจุ A4/P1 เป็นอย่างน้อย การอัปโหลดของผู้ใช้ปลายทางจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro เพื่อเผยแพร่ไปยังพื้นที่ทำงานแอป
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>ฝังเนื้อหาของคุณโดยการใช้แอปพลิเคชันตัวอย่าง
 

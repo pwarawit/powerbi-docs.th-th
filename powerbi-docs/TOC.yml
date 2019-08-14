@@ -291,7 +291,7 @@
               href: desktop-see-data-see-records.md
             - name: เคล็ดลับสำหรับการสร้างรายงาน
               href: desktop-tips-and-tricks-for-creating-reports.md
-        - name: การจัดรูปแบบการแสดงข้อมูล
+        - name: การแสดงภาพ
           items:
             - name: การแสดงข้อมูลใน Power BI
               href: visuals/power-bi-report-visualizations.md
@@ -593,6 +593,8 @@
               href: service-export-to-pbix.md
             - name: กรองรายงานโดยใช้พารามิเตอร์ใน URL
               href: service-url-filters.md
+            - name: แก้ไขตัวแปร SAP
+              href: service-edit-sap-variables.md
             - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับการสร้างรายงานอย่างรวดเร็วและเชื่อถือได้
               href: power-bi-reports-performance.md
         - name: การถามคำถามเกี่ยวกับข้อมูลของคุณ

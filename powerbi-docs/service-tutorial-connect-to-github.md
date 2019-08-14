@@ -1,5 +1,5 @@
 ---
-title: 'บทช่วยสอน: เชื่อมต่อกับ repo GitHub ด้วย Power BI'
+title: 'บทช่วยสอน: เชื่อมต่อกับพื้นที่เก็บของ GitHub ด้วย Power BI'
 description: ในบทช่วยสอนนี้ คุณจะเชื่อมต่อกับข้อมูลจริงในบริการ GitHub ด้วย Power BI และ Power BI จะสร้างแดชบอร์ดและรายงานโดยอัตโนมัติ
 author: maggiesMSFT
 manager: kfile
@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 04/19/2019
+ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3aeb1fc16ae200399125a2366a8993d45aad34c4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7540083b49e0790bfd9062d28d2655ff024d577f
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578628"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867153"
 ---
-# <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>บทช่วยสอน: เชื่อมต่อกับ repo GitHub ด้วย Power BI
-ในบทช่วยสอนนี้ คุณจะเชื่อมต่อกับข้อมูลจริงในบริการ GitHub ด้วย Power BI และ Power BI จะสร้างแดชบอร์ดและรายงานโดยอัตโนมัติ คุณเชื่อมต่อกับเก็บสาธารณะเนื้อหา Power BI (หรือที่เรียกว่าการ*repo*) และดูคำตอบของคำถามเช่น: มีบุคคลกี่คนให้การสนับสนุนเนื้อหาสาธารณะของ Power BI ใครให้การสนับสนุนมากที่สุด วันใดในสัปดาห์ที่มีการสนับสนุนมากที่สุด และคำถามอื่น ๆ 
+# <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>บทช่วยสอน: เชื่อมต่อกับพื้นที่เก็บของ GitHub ด้วย Power BI
+ในบทช่วยสอนนี้ คุณจะเชื่อมต่อกับข้อมูลจริงในบริการ GitHub ด้วย Power BI และ Power BI จะสร้างแดชบอร์ดและรายงานโดยอัตโนมัติ คุณเชื่อมต่อกับพื้นที่เก็บสาธารณะสำหรับเนื้อหาของ Power BI (หรือที่เรียกว่า *repo*) และดูคำตอบของคำถามเช่น: มีบุคคลกี่คนให้การสนับสนุนเนื้อหาสาธารณะของ Power BI ใครให้การสนับสนุนมากที่สุด วันใดในสัปดาห์ที่มีการสนับสนุนมากที่สุด และคำถามอื่นๆ 
 
 ![รายงาน GitHub ใน Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
@@ -40,7 +40,7 @@ ms.locfileid: "64578628"
 
 เมื่อต้องการเรียนรู้บทช่วยสอนนี้ให้เสร็จสมบูรณ์ คุณต้องมีบัญชี GitHub ถ้าคุณยังไม่มีบัญชี 
 
-- ลงทะเบียนสำหรับการ[บัญชี GitHub](https://docs.microsoft.com/contribute/get-started-setup-github)
+- ลงทะเบียน [บัญชี GitHub](https://docs.microsoft.com/contribute/get-started-setup-github)
 
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
@@ -49,15 +49,15 @@ ms.locfileid: "64578628"
    
    ![รับแอปใน Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
-3. เลือก**แอ**ชนิด**GitHub**ในกล่องค้นหา > **รับทันที**
+3. เลือก **แอป** พิมพ์ **GitHub** ในกล่องค้นหา > **รับทันที**
    
    ![รับ GitHub ใน Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
-4. ใน**ติดตั้งแอป Power BI นี้ใช่ไหม**เลือก**ติดตั้ง**
-5. ใน**แอปของคุณใหม่พร้อม**เลือก**ไปยังแอ**
-6. ใน**เริ่มต้นใช้งานแอปของคุณใหม่**เลือก**เชื่อมต่อข้อมูล**
+4. ใน **ติดตั้งแอป Power BI นี้หรือไม่** เลือก **ติดตั้ง**
+5. ในส่วน **แอปใหม่ของคุณพร้อมแล้ว** เลือก **ไปที่แอป**
+6. ในส่วน **เริ่มต้นใช้งานแอปใหม่ของคุณ** ให้เลือก **เชื่อมต่อ**
 
-    ![เริ่มต้นใช้งานแอปใหม่ของคุณ](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect-data.png)
+    ![เริ่มต้นใช้งานแอปใหม่ของคุณ](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
 
 7. ป้อนชื่อที่เก็บและเจ้าของที่เก็บ Repo URL สำหรับ Repo นี้คือ https://github.com/MicrosoftDocs/powerbi-docs ดังนั้น **เจ้าของที่เก็บ**จะเป็น **MicrosoftDocs** และ**ที่เก็บ**จะเป็น **powerbi-docs** 
    
@@ -65,18 +65,18 @@ ms.locfileid: "64578628"
 
 5. ป้อนข้อมูลประจำตัว GitHub ที่คุณสร้างขึ้น Power BI อาจข้ามขั้นตอนนี้ ถ้าคุรลงชื่อเข้าใช้ GitHub ในเบราว์เซอร์ของคุณ 
 
-6. สำหรับ**วิธีการรับรองความถูกต้อง**เก็บ**oAuth2**เลือก\> **ลงชื่อเข้าใช้**
+6. สำหรับ**วิธีการรับรองความถูกต้อง** ให้เลือก **oAuth2** \> **ลงชื่อเข้าใช้**
 
-7. ทำตามหน้าจอการรับรองความถูกต้อง GitHub มอบสิทธิ์ Power BI ให้กับข้อมูล GitHub
+7. ทำตามหน้าจอการรับรองความถูกต้องของ GitHub มอบสิทธิ์ Power BI ให้กับข้อมูล GitHub
    
    ในตอนนี้ Power BI สามารถเชื่อมต่อกับ GitHub และเชื่อมต่อกับข้อมูล  ข้อมูลจะถูกรีเฟรชวันละหนึ่งครั้ง
 
-8. หลังจาก Power BI นำเข้าข้อมูล คุณเห็นเนื้อหาของพื้นที่ทำงาน GitHub ของคุณใหม่ 
-9. เลือกลูกศรถัดจากชื่อพื้นที่ทำงานในแถบนำทางด้านซ้าย คุณเห็นพื้นที่ทำงานประกอบด้วยแดชบอร์ดและรายงาน 
+8. หลังจากที่ Power BI นำเข้าข้อมูลแล้ว คุณจะเห็นเนื้อหาของพื้นที่ทำงาน GitHub ใหม่ของคุณ 
+9. เลือกลูกศรที่อยู่ถัดจากชื่อพื้นที่ทำงานในแถบนำทางด้านซ้าย คุณเห็นพื้นที่ทำงานประกอบด้วยแดชบอร์ดและรายงาน 
 
-    ![ในบานหน้าต่างนำทางด้านซ้าย](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+    ![แอปในบานหน้าต่างนำทางด้านซ้าย](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. เลือกจุดไข่ปลา (...) ถัดจากชื่อแดชบอร์ด > **เปลี่ยนชื่อ** > ชนิด**แดชบอร์ด GitHub**
+10. เลือกจุดไข่ปลา (...) ที่อยู่ถัดจากชื่อแดชบอร์ด > **เปลี่ยนชื่อ** > พิมพ์ **แดชบอร์ด GitHub**
  
     ![ไทล์ GitHub ใน Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
@@ -84,9 +84,9 @@ ms.locfileid: "64578628"
 
     ![ไอคอนการนำทางส่วนกลาง](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 
-10. เลือกแดชบอร์ด GitHub ของคุณ
+10. เลือกแดชบอร์ด GitHub
     
-    แดชบอร์ด GitHub ประกอบด้วยข้อมูลสด ดังนั้นค่าคุณเห็นอาจแตกต่างกัน
+    แดชบอร์ด GitHub ประกอบด้วยข้อมูลสด ดังนั้นค่าที่คุณเห็นอาจแตกต่างกัน
 
     ![แดชบอร์ด GitHub ใน Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
 
@@ -94,28 +94,28 @@ ms.locfileid: "64578628"
 
 ## <a name="ask-a-question"></a>ถามคำถาม
 
-1. วางเคอร์เซอร์ของคุณ**ถามคำถามเกี่ยวกับข้อมูลของคุณ** Power BI ข้อเสนอ**คำถามเพื่อให้คุณเริ่มต้น** 
+1. วางเคอร์เซอร์ของคุณใน **ถามคำถามเกี่ยวกับข้อมูลของคุณ** Power BI มี **คำถามเพื่อให้คุณเริ่มต้นใช้งาน** 
 
-1. เลือก**จำนวนผู้ใช้มี**
+1. เลือก **จำนวนผู้ใช้ที่มีอยู่**
  
-    ![จำนวนผู้ใช้มี](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
+    ![จำนวนผู้ใช้ที่มีอยู่](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
 
-13. ในระหว่าง**กี่**และ**ผู้ใช้จะมี**ชนิด**ดึงการร้องขอต่อ** 
+13. ในระหว่าง **จำนวน** และ **ผู้ใช้ที่มีอยู่** ให้พิมพ์ **คำขอดึงข้อมูลต่อ** 
 
-     Power BI สร้างแผนภูมิแท่งแสดงจำนวนการร้องขอการดึงข้อมูลสำหรับแต่ละบุคคล
+     Power BI จะสร้างแผนภูมิแท่งที่แสดงจำนวนคำขอดึงข้อมูลต่อบุคคล
 
-    ![จำนวนคำขอดึงข้อมูลต่อผู้ใช้มี](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-prs.png)
+    ![จำนวนคำขอดึงข้อมูลต่อผู้ใช้ที่มีอยู่](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-prs.png)
 
 
-13. เลือกหมุดเพื่อปักหมุดไปยังแดชบอร์ด แล้ว**ออกจากถามตอบ**
+13. เลือกปักหมุดเพื่อปักหมุดไปยังแดชบอร์ดของคุณจากนั้น **ออกจาก Q&A**
 
 ## <a name="view-the-github-report"></a>ดูรายงาน GitHub 
 
-1. ในแดชบอร์ด GitHub เลือกแผนภูมิคอลัมน์**ดึงคำขอตามเดือน**เพื่อเปิดรายงานที่เกี่ยวข้อง
+1. ในแดชบอร์ด GitHub ให้เลือกแผนภูมิคอลัมน์ **ดึงข้อมูลคำขอตามเดือน** เพื่อเปิดรายงานที่เกี่ยวข้อง
 
-    ![คำขอดึงข้อมูลตามเดือนแผนภูมิคอลัมน์](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
+    ![แผนภูมิคอลัมน์คำขอดึงข้อมูลตามเดือน](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
 
-2. เลือกชื่อผู้ใช้ในการ**คำขอดึงข้อมูลทั้งหมดตามผู้ใช้**แผนภูมิ ในตัวอย่างนี้ เราเห็นส่วนใหญ่ของชั่วโมงของพวกเขาได้ในเดือนกุมภาพันธ์
+2. เลือกชื่อผู้ใช้ในแผนภูมิ**คำขอดึงข้อมูลทั้งหมดตามผู้ใช้** ในตัวอย่างนี้ เราเห็นว่าเวลาส่วนใหญ่ของพวกเขาอยู่ในเดือนกุมภาพันธ์
 
     ![การเน้นรายงาน GitHub ใน Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-cross-filter-total-prs.png)
 
@@ -123,7 +123,7 @@ ms.locfileid: "64578628"
  
     ![บัตรเจาะรูของรายงาน GitHub ใน Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tues-3pm.png)
 
-    สวัสดิการวันอังคารเวลา 3 pm คือ เวลาทั่วไปมากที่สุดและวันของสัปดาห์สำหรับ*ยอมรับ*เมื่อผู้ใช้เช็คอินงานของพวกเขา
+    คุณจะเห็นว่าวันอังคารเวลาบ่าย 3 คือเวลาและวันในสัปดาห์ที่มีการ *ยอมรับ* มากที่สุด เมื่อผู้ใช้เช็คอินงานของพวกเขา
 
 ## <a name="clean-up-resources"></a>เพิ่มพื้นที่ทรัพยากร
 

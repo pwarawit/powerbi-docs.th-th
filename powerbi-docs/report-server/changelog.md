@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 031274f4f35ef1e36ec17648c2cbf967f5436020
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 0aa1d964485297c5e0dae3f4a309cc0dd15b92b2
+ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729811"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68940901"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>บันทึกการเปลี่ยนแปลงสำหรับ เซิร์ฟเวอร์รายงาน Power BI
 
@@ -124,7 +124,10 @@ ms.locfileid: "68729811"
 - **Power BI Desktop (ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI)**
     - *เวอร์ชัน: 2.61.5192.641 (สิงหาคม 2018), เผยแพร่: 15 สิงหาคม 2018*
         - ประกอบด้วยการเปลี่ยนแปลงที่จำเป็นสำหรับการเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI (สิงหาคม 2018)         
-        
+    - *เวอร์ชัน: 2.61.5192.7701 (สิงหาคม 2018), เผยแพร่เมื่อ: 8 สิงหาคม 2019* (รุ่นใหม่และเวอร์ชันใหม่)
+        - แก้ไขข้อบกพร่อง
+            - แก้ไขสำหรับรายการบันทึกการวัดและส่งข้อมูลทางไกลที่ไม่ถูกต้อง
+            
 ## <a name="march-2018"></a>มีนาคม 2018
 
 - **เซิร์ฟเวอร์รายงาน Power BI**

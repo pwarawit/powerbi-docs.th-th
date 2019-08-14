@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3a5b6b89984064101b683532cbfb77ae5540c307
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730268"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867054"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>คำถามที่ถามบ่อยเกี่ยวกับเกตเวย์ข้อมูลภายในองค์กร - Power BI
 
@@ -23,9 +23,9 @@ ms.locfileid: "68730268"
 
 ## <a name="power-bi"></a>Power BI
 
-**คำถาม:** ฉันจำเป็นต้องอัปเกรดเกตเวย์ส่วนบุคคลหรือไม่? 
+**คำถาม:** ฉันจำเป็นต้องอัปเกรดเกตเวย์ข้อมูลภายในองค์กร (โหมดส่วนบุคคล) หรือไม่?
 
-**คำตอบ:** ไม่ คุณสามารถใช้เกตเวย์ส่วนบุคคลสำหรับ Power BI ได้
+**คำตอบ:** ไม่ คุณสามารถใช้เกตเวย์ (โหมดส่วนบุคคล) สำหรับ Power BI ได้
 
 **คำถาม:** ต้องมีสิทธิ์พิเศษใด ๆ ในการติดตั้งเกตเวย์และจัดการในบริการของ Power BI หรือไม่
 
@@ -41,7 +41,7 @@ ms.locfileid: "68730268"
 
 **คำถาม:** เหตุใดฉันจึงไม่สามารถเชื่อมต่อเซิร์ฟเวอร์ Oracle ของฉันได้? 
 
-**คำตอบ:** คุณอาจจำเป็นต้องติดตั้ง Oracle Client และกำหนดค่าไฟล์ tnsnames.ora ด้วยข้อมูลเซิร์ฟเวอร์ที่เหมาะสมเพื่อให้สามารถเชื่อมต่อกับเซิร์ฟเวอร์ Oracle ของคุณได้ นี่คือการติดตั้งแยกต่างหากภายนอกเกตเวย์ สำหรับข้อมูลเพิ่มเติม ดู[การติดตั้ง Oracle Client](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client)
+**คำตอบ:** คุณอาจจำเป็นต้องติดตั้ง Oracle Client และกำหนดค่าไฟล์ tnsnames.ora ด้วยข้อมูลเซิร์ฟเวอร์ที่เหมาะสมเพื่อให้สามารถเชื่อมต่อกับเซิร์ฟเวอร์ Oracle ของคุณได้ นี่คือการติดตั้งแยกต่างหากภายนอกเกตเวย์ สำหรับข้อมูลเพิ่มเติม โปรดดู [ติดตั้ง Oracle Client](service-gateway-onprem-manage-oracle.md#install-the-oracle-client)
 
 **คำถาม:** เกตเวย์จะทำงานกับ ExpressRoute ได้หรือไม่? 
 
