@@ -1289,6 +1289,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: กำหนดค่าการเข้าถึงแอปสำหรับอุปกรณ์เคลื่อนจากระยะไกล
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: เข้าถึงอุปกรณ์เคลื่อนที่จากระยะไกลด้วย Azure AD
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: สมุดงาน Excel ของโฮสต์
               href: report-server/excel-oos.md
     - name: การอ้างอิง
@@ -1424,3 +1426,7 @@
           href: service-admin-governance.md
         - name: ความปลอดภัยของ Power BI
           href: service-admin-power-bi-security.md
+- name: คำแนะนำ
+  items:
+    - name: Schema ติดดาวคืออะไร
+      href: guidance/star-schema.md
