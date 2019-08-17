@@ -53,6 +53,8 @@
       items:
         - name: มีอะไรใหม่ในการอัปเดต Power BI Desktop ล่าสุด
           href: desktop-latest-update.md
+        - name: การจัดกลุ่มภาพวิชวลใน Power BI Desktop
+          href: desktop-grouping-visuals.md
         - name: มุมมองแบบจำลองใน Power BI Desktop
           href: desktop-modeling-view.md
         - name: การรวมข้อมูลใน Power BI Desktop
@@ -489,7 +491,7 @@
           items:
             - name: ใช้ชุดข้อมูลทั่วทั้งพื้นที่ทำงาน
               href: service-datasets-across-workspaces.md
-            - name: สร้างและแชร์ชุดข้อมูล (ดูตัวอย่าง)
+            - name: แบ่งปันชุดข้อมูล (ดูตัวอย่าง)
               href: service-datasets-build-permissions.md
             - name: สร้างรายงานที่ยึดตามชุดข้อมูล
               href: service-datasets-discover-across-workspaces.md
@@ -1430,3 +1432,5 @@
   items:
     - name: Schema ติดดาวคืออะไร
       href: guidance/star-schema.md
+    - name: ลดขนาดแบบจำลองข้อมูล
+      href: guidance/import-modeling-data-reduction.md
