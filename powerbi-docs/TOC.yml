@@ -55,6 +55,8 @@
           href: desktop-latest-update.md
         - name: การจัดกลุ่มภาพวิชวลใน Power BI Desktop
           href: desktop-grouping-visuals.md
+        - name: การใช้เทมเพลตใน Power BI Desktop
+          href: desktop-templates.md
         - name: มุมมองแบบจำลองใน Power BI Desktop
           href: desktop-modeling-view.md
         - name: การรวมข้อมูลใน Power BI Desktop
