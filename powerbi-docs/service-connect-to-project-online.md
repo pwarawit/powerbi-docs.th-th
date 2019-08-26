@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a6ada87813593fd0f06d7870fa1727bc35fe7d47
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 0978e87167f96b40082819764d7e3ae35e930a4b
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324934"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023778"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>เชื่อมต่อไปยัง Project Web App ด้วย Power BI
 Microsoft Project Web App เป็นโซลูชันออนไลน์ที่ยืดหยุ่นสำหรับการจัดการพอร์ตโครงการ (PPM) และงานประจำวัน Project Web App ช่วยให้องค์กรสามารถเริ่มต้นและจัดลำดับความสำคัญการลงทุนในพอร์ตโครงการ และส่งมอบมูลค่าทางธุรกิจตามที่ต้องการได้ Project Web App Template App สำหรับ Power BI ช่วยให้คุณสามารถปลดล็อคข้อมูลเชิงลึกจาก Project Web App เพื่อจัดการโครงการ พอร์ตโครงการ และทรัพยากร
@@ -24,41 +24,43 @@ Microsoft Project Web App เป็นโซลูชันออนไลน์
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
 
-   ![](media/service-connect-to-project-online/GetApps.png)
 1. เลือก**แอป**ในบานหน้าต่างนำทางด้านซ้าย > เลือก**รับแอป**ในมุมบนขวา
+
+    ![รับแอป](media/service-connect-to-project-online/GetApps.png)
+
 2. ในกล่อง**บริการ** เลือก**รับ**
    
-   ![](media/service-connect-to-project-online/AppSource.png)
+   ![AppSource](media/service-connect-to-project-online/AppSource.png)
 3. ใน AppSource เลือกแท็บ **Apps** และค้นหา/เลือก**Microsoft Project Web App**
    
 4. คุณจะได้รับข้อความที่บอกว่า - **ติดตั้งแอป Power BI นี้หรือไม่** เลือก**ติดตั้ง** 
 
-   ![](media/service-connect-to-project-online/ProjectTile.png)
+   ![ติดตั้งเว็บโครงการ](media/service-connect-to-project-online/ProjectTile.png)
 5. ในบานหน้าต่าง**แอป** ให้เลือกไทล์ **Microsoft Project Web App** 
    
-   ![](media/service-connect-to-project-online/getstarted.png)
+   ![Microsoft Project Web App](media/service-connect-to-project-online/getstarted.png)
 6. ใน**เริ่มต้นใช้งานแอปใหม่ของคุณ** ให้เลือก**เชื่อมต่อข้อมูล**
    
-   ![](media/service-connect-to-project-online/mproject.png)
+   ![เชื่อมต่อกับข้อมูล](media/service-connect-to-project-online/mproject.png)
 7. ในกล่องข้อความ**Project Web App URL** ใส่ URL สำหรับ Project Web Add (PWA) ที่คุณต้องการเชื่อมต่อ  หมายเหตุ ส่วนนี้อาจแตกต่างจากตัวอย่างดังกล่าวถ้าคุณมีโดเมนแบบกำหนดเอง ในกล่องข้อความ**PWA ไซต์ภาษา**พิมพ์หมายเลขที่แสดงภาษาของไซต์ PWA ของคุณ พิมพ์ตัวเลขหลักเดียว '1' สำหรับภาษาอังกฤษ '2' สำหรับภาษาฝรั่งเศส '3' สำหรับภาษาเยอรมัน '4' สำหรับภาษาโปรตุเกส (บราซิล), ' 5' สำหรับภาษาโปรตุเกส (โปรตุเกส) และ ' 6' สำหรับภาษาสเปน 
    
-   ![](media/service-connect-to-project-online/params.png)
+   ![เชื่อมต่อกับ Microsoft Project Online](media/service-connect-to-project-online/params.png)
 8. สำหรับวิธีการรับรองความถูกต้อง ให้เลือก **oAuth2** \> **ลงชื่อเข้าใช้** เมื่อได้รับข้อความปรากฏขึ้น ให้ใส่ข้อมูลประจำตัวของ Project Web App และทำตามกระบวนการรับรองความถูกต้อง
 
-    
-โปรดทราบว่าคุณจำเป็นต้องมีสิทธิ์การใช้งานสำหรับ Portfolio Viewer (ผู้ดูพอร์ต) Portfolio Manager (ผู้จัดการพอร์ต) หรือ Administrator (ผู้ดูแลระบบ) สำหรับ Project Web App ที่คุณกำลังเชื่อมต่อ
+    > [!NOTE]
+    > คุณจำเป็นต้องมีสิทธิ์การใช้งานสำหรับ Portfolio Viewer (ผู้ดูพอร์ตโครงการ) Portfolio Manager (ผู้จัดการพอร์ต) หรือ Administrator (ผู้ดูแลระบบ) สำหรับ Project Web App ที่คุณกำลังเชื่อมต่อ
 
 9. คุณจะเห็นการแจ้งเตือนที่ระบุว่า กำลังโหลดข้อมูลของคุณ ขึ้นอยู่กับขนาดบัญชีของคุณ ซึ่งอาจใช้เวลาสักครู่ หลังจากที่ Power BI นำเข้าข้อมูลแล้ว คุณจะเห็นเนื้อหาของพื้นที่ทำงานใหม่ของคุณ คุณอาจจำเป็นต้องรีเฟรชชุดข้อมูลเพื่อรับการอัปเดตล่าสุด 
 
-หลังจากที่ Power BI นำเข้าข้อมูลแล้ว คุณจะเห็นรายงานที่มี 13 หน้า และชุดข้อมูลในบานหน้าต่างนำทางด้านซ้ายมือ 
+    หลังจากที่ Power BI นำเข้าข้อมูลแล้ว คุณจะเห็นรายงานที่มี 13 หน้า และชุดข้อมูลในบานหน้าต่างนำทางด้านซ้ายมือ 
 
 10. หลังจากรายงานของคุณพร้อม ดำเนินการต่อและเริ่มการสำรวจข้อมูล Project Web App! Template App มาพร้อมกับรายงาน 13 หน้าที่เป็นภาพรวมการจัดการพอร์ตโครงการ (6 หน้ารายงาน), ภาพรวมทรัพยากร (5 หน้ารายงาน) และ สถานะของโครงการ (2 หน้ารายงาน) 
 
-   ![](media/service-connect-to-project-online/report1.png)
+    ![แดชบอร์ดพอร์ตโครงการ](media/service-connect-to-project-online/report1.png)
    
-   ![](media/service-connect-to-project-online/report3.png)
+    ![ความพร้อมใช้งาน](media/service-connect-to-project-online/report3.png)
    
-   ![](media/service-connect-to-project-online/report2.png)
+    ![สถานะของโครงการ](media/service-connect-to-project-online/report2.png)
 
 **ฉันต้องทำอะไรตอนนี้**
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: 1c110022c27cf0e213484619a750140a63a7d0dc
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808245"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490386"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับองค์กรของคุณ
 
@@ -35,7 +35,7 @@ ms.locfileid: "68808245"
 * [บัญชี Power BI Pro](../service-self-service-signup-for-power-bi.md)
 * การสมัครใช้งาน [Microsoft Azure](https://azure.microsoft.com/)
 * คุณจำเป็นต้องตั้งค่า[ผู้เช่า Azure Active Directory](create-an-azure-active-directory-tenant.md) ของคุณเอง
-* สำหรับการฝังรายงานที่มีการแบ่งหน้า อย่างน้อยคุณจำเป็นต้องมีความจุ A4/P1 [ดูขนาดความจุพรีเมียมใดที่จำเป็นสำหรับรายงานที่มีการแบ่งหน้าของฉัน](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
+* สำหรับการฝังรายงานที่มีการแบ่งหน้า อย่างน้อยคุณจำเป็นต้องมีความ จุ P1 [ดูขนาดความจุพรีเมียมใดที่จำเป็นสำหรับรายงานที่มีการแบ่งหน้าของฉัน](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
 ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/pricing/)ก่อนที่คุณจะเริ่ม
 
@@ -45,7 +45,7 @@ ms.locfileid: "68808245"
 
 ก่อนที่คุณจะเริ่มฝังรายการ, แดชบอร์ด หรือไทล์ลงในแอปพลิเคชันของคุณ คุณจำเป็นต้องตรวจสอบให้แน่ใจว่าสภาพแวดล้อมเอื้ออำนวยต่อการฝังด้วย Power BI
 
-คุณสามารถเข้าถึง [เครื่องมือตั้งค่าการฝังตัว](https://aka.ms/embedsetup/UserOwnsData) เพื่อให้คุณสามารถเริ่มต้นใช้งาน และดาวน์โหลดแอปพลิเคชันตัวอย่างที่ช่วยแนะนำคุณไปตามขั้นตอนการสร้างสภาพแวดล้อม และการฝังรายงานได้ ในกรณีของการฝังรายงานที่มีการแบ่งหน้า อย่างน้อยคุณจำเป็นต้องกำหนดความจุ A4/P1 ให้กับพื้นที่ทำงานของแอปที่สร้างขึ้น
+คุณสามารถเข้าถึง [เครื่องมือตั้งค่าการฝังตัว](https://aka.ms/embedsetup/UserOwnsData) เพื่อให้คุณสามารถเริ่มต้นใช้งาน และดาวน์โหลดแอปพลิเคชันตัวอย่างที่ช่วยแนะนำคุณไปตามขั้นตอนการสร้างสภาพแวดล้อม และการฝังรายงานได้ ในกรณีของการฝังรายงานที่มีการแบ่งหน้า อย่างน้อยคุณจำเป็นต้องกำหนดความจุ P1 ให้กับพื้นที่ทำงานของแอปที่สร้างขึ้น
 
 แต่หากคุณเลือกที่จะตั้งค่าสภาพแวดล้อมด้วยตนเอง คุณสามารถดำเนินต่อตามด้านล่าง
 
@@ -83,7 +83,7 @@ ms.locfileid: "68808245"
    
 ### <a name="create-and-publish-your-paginated-reports"></a>สร้าง และเผยแพร่รายงานที่มีการแบ่งหน้าของคุณ
 
-คุณสามารถสร้างรายงานที่มีการแบ่งหน้าของคุณได้โดยใช้ ้[ตัวสร้างรายงาน Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder) จากนั้นคุณสามารถ [อัปโหลดรายงาน](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) ไปยังพื้นที่ทำงานของแอปที่กำหนดให้กับความจุ A4/P1 เป็นอย่างน้อย การอัปโหลดของผู้ใช้ปลายทางจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro เพื่อเผยแพร่ไปยังพื้นที่ทำงานแอป
+คุณสามารถสร้างรายงานที่มีการแบ่งหน้าของคุณได้โดยใช้[ตัวสร้างรายงาน Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder) จากนั้นคุณสามารถ[อัปโหลดรายงาน](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)ไปยังพื้นที่ทำงานของแอปที่กำหนดให้เป็นความจุ P1 อย่างน้อย การอัปโหลดของผู้ใช้ปลายทางจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro เพื่อเผยแพร่ไปยังพื้นที่ทำงานแอป
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>ฝังเนื้อหาของคุณโดยการใช้แอปพลิเคชันตัวอย่าง
 
@@ -152,9 +152,6 @@ Get-PowerBIworkspace -name "User Owns Embed Test"
 URL รายงาน Power BI <br>
 
 ![PBI reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
-
-URL รายงานที่มีการแบ่งหน้า <br>
-
 
 
 URL รายงานที่มีการแบ่งหน้า<br>
@@ -384,7 +381,7 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>สร้างความจุเฉพาะ
 
-โดยการสร้างความจุเฉพาะ คุณสามารถใช้ประโยชน์จากการมีทรัพยากรเฉพาะสำหรับเนื้อหาในพื้นที่ทำงานแอปของคุณ สำหรับรายงานที่มีการแบ่งหน้า คุณจะต้องสำรองพื้นที่ทำงานของแอปด้วยความจุ A4/P1 เป็นอย่างน้อย คุณสามารถสร้างความจุเฉพาะโดยใช้[Power BI Premium](../service-premium-what-is.md)ได้
+โดยการสร้างความจุเฉพาะ คุณสามารถใช้ประโยชน์จากการมีทรัพยากรเฉพาะสำหรับเนื้อหาในพื้นที่ทำงานแอปของคุณ สำหรับรายงานที่มีการแบ่งหน้า คุณต้องย้อนกลับพื้นที่ทำงานของแอปของคุณด้วยความจุ P1 อย่างน้อย คุณสามารถสร้างความจุเฉพาะโดยการใช้ [Power BI Premium](../service-premium-what-is.md)
 
 ตารางต่อไปนี้ลงรายการ Power BI Premium SKUs ที่ให้บริการใน [Microsoft Office 365](../service-admin-premium-purchase.md):
 

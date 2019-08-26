@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5391fee3c5a05d1c34cac4f3a097a0577ce5d191
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
+ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462392"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68962242"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการวิเคราะห์ด้านการขายปลีก - Power BI: ชมการแนะนำ
 
@@ -92,10 +92,10 @@ ms.locfileid: "68462392"
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>ตรวจทานไทล์ที่สร้างขึ้นด้วย Power BI ถามตอบ
 เรามาดูแบบเฉพาะเจาะจงมากขึ้นกัน
 
-1. เปลี่ยนคำถามเป็น * ยอดขายของปีนี้ ** ตามเขต *** สังเกตผลลัพธ์: ระบบถามตอบจะใส่คำตอบในแผนภูมิแท่งและแนะนำวลีอื่น ๆ โดยอัตโนมัติ:
+1. เปลี่ยนคำถามเป็น_ยอดขายของปีนี้**ตามเขต**_ สังเกตผลลัพธ์: ระบบถามตอบจะใส่คำตอบในแผนภูมิแท่งและแนะนำวลีอื่น ๆ โดยอัตโนมัติ:
 
    ![ยอดขายของปีนี้ตามเขตในถามตอบ](media/sample-retail-analysis/retail8.png)
-2. ตอนนี้เปลี่ยนคำถามเป็น *ยอดขายของปีนี้**แยกตามเขตพื้นที่และเชนธุรกิจ***
+2. ตอนนี้เปลี่ยนคำถามเป็น_ยอดขายของปีนี้**แยกตามเขตพื้นที่และเชนธุรกิจ**_
 
    โปรดสังเกตวิธีการที่ Power BI ตอบคำถามขณะที่คุณพิมพ์และแสดงแผนภูมิที่เหมาะสม
 3. ลองใช้คำถามเพิ่มเติมและดูประเภทของผลลัพธ์ที่คุณได้

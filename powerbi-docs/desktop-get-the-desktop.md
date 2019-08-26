@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2019
+ms.date: 08/15/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 9fa79bc17e87863d094afbc479d664c8bbf9daaf
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 8b92bd2917165cd6dc89e0c9f9a94e83d69f1c2a
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590469"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560851"
 ---
 # <a name="get-power-bi-desktop"></a>รับ Power BI Desktop
 **Power BI Desktop** ช่วยให้คุณสร้างคิวรีขั้นสูง รูปแบบข้อมูล และรายงานที่แสดงข้อมูลเป็นภาพ ด้วย **Power BI Desktop** คุณสามารถสร้างรูปแบบข้อมูล สร้างรายงาน และแชร์งานของคุณ โดยการเผยแพร่ไปยังบริการของ Power BI ได้  **Power BI Desktop** มีให้ดาวน์โหลดฟรี
 
 คุณสามารถรับ **Power BI Desktop** ได้สองวิธี ซึ่งจะอธิบายไว้ในส่วนต่อไป:
 
-* **ดาวน์โหลด**โดยตรง (แพคเกจ MSI ที่คุณดาวน์โหลด และติดตั้งบนคอมพิวเตอร์ของคุณ)
+* **ดาวน์โหลด**โดยตรง (แพคเกจที่คุณดาวน์โหลดและติดตั้งบนคอมพิวเตอร์ของคุณ)
 * ติดตั้งเป็นแอปจาก **Microsoft Store**
 
 ไม่ว่าจะติดตั้งวิธีใด ก็จะได้รับ **Power BI Desktop** เวอร์ชันล่าสุดในคอมพิวเตอร์ของคุณ แต่มีความแตกต่างบางอย่างที่ควรทราบ ซึ่งจะอธิบายในส่วนต่อไปนี้
@@ -30,24 +30,26 @@ ms.locfileid: "68590469"
 ## <a name="download-power-bi-desktop"></a>ดาวน์โหลด Power BI Desktop
 เพื่อดาวน์โหลด **Power BI Desktop** เวอร์ชันล่าสุด คุณสามารถเลือกไอคอนดาวน์โหลดจากมุมบนขวาของบริการของ Power BI และเลือก **Power BI Desktop** ได้
 
-![](media/desktop-get-the-desktop/getpbid_downloads.png)
+![ดาวน์โหลดเวอร์ชันล่าสุดของ Power BI Desktop ได้](media/desktop-get-the-desktop/getpbid_downloads.png)
 
 คุณยังสามารถดาวน์โหลด Power BI Desktop เวอร์ชันล่าสุดจากหน้าการดาวน์โหลดต่อไปนี้:
 
-* [**ดาวน์โหลด Power BI Desktop** (ทั้งเวอร์ชัน 32 และ 64 บิต)](https://powerbi.microsoft.com/desktop)
+* [**ดาวน์โหลด Power BI Desktop** (ทั้งเวอร์ชัน 32 บิตและ 64 บิต)](https://powerbi.microsoft.com/desktop)
   
-  [![](media/service-admin-power-bi-security/PBI_Security_01.png)](https://powerbi.microsoft.com/desktop)
+  [![ดาวน์โหลดเวอร์ชันล่าสุดของ Power BI Desktop](media/service-admin-power-bi-security/PBI_Security_01.png)](https://powerbi.microsoft.com/desktop)
 
 ไม่ว่าคุณจะเลือกดาวน์โหลดด้วยวิธีไหน ทันทีที่ **Power BI Desktop** ถูกดาวน์โหลดแล้ว คุณจะได้รับพร้อมท์ให้เรียกใช้แฟ้มการติดตั้ง:
 
-![](media/desktop-get-the-desktop/getpbid_3.png)
+![เรียกใช้ไฟล์การติดตั้ง Power BI Desktop](media/desktop-get-the-desktop/getpbid_3.png)
 
-**Power BI Desktop** จะติดตั้งแบบแอปพลิเคชัน และทำงานบนเดสก์ท็อปของคุณ
+เริ่มต้นด้วยการเปิดตัวกรกฎาคม 2019 **Power BI Desktop** มาพร้อมกับแพคเกจการติดตั้ง .exe เดียวที่มีภาษาที่รองรับทั้งหมด มีไฟล์ .exe แยกต่างหากสำหรับเวอร์ชัน 32 บิตและ 64 บิต แพคเกจ .msi จะถูกยกเลิกหลังจากรุ่น 2019 กันยายน หลังจากนั้นคุณจะต้องใช ้.exe ที่สามารถใช้สำหรับการติดตั้ง วิธีนี้จะทำให้การแจกจ่าย การอัปเดต และการติดตั้ง (โดยเฉพาะสำหรับผู้ดูแลระบบ) ง่ายและสะดวกยิ่งขึ้น คุณยังสามารถใช้พารามิเตอร์บรรทัดคำสั่งเพื่อกำหนดกระบวนการติดตั้งเองดังที่อธิบายไว้ในตัวเลือก[การใช้บรรทัดคำสั่งระหว่างส่วนการติดตั้ง](#using-command-line-options-during-installation)ในบทความนี้ได้ในภายหลัง
 
-![](media/desktop-get-the-desktop/designer_gsg_install.png)
+เมื่อคุณเปิดใช้งานแพคเกจการติดตั้ง **Power BI Desktop** จะติดตั้งแอปพลิเคชันหนึ่งและทำงานบนเดสก์ท็อปของคุณ
+
+![แอปพลิเคชัน Power BI Desktop จะทำงานบนเดสก์ท็อปของคุณ](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
-> ไม่รองรับการติดตั้งเวอร์ชันดาวน์โหลด (MSI) และเวอร์ชัน **Microsoft Store** ของ **Power BI Desktop** บนคอมพิวเตอร์เครื่องเดียวกัน (ในบางครั้งเรียกว่าการติดตั้ง*ข้างกัน*)
+> ไม่รองรับการติดตั้งเวอร์ชันดาวน์โหลด (MSI) และ **Microsoft Store** ของ **Power BI Desktop** บนคอมพิวเตอร์เครื่องเดียวกัน (ในบางครั้งเรียกว่าการติดตั้ง*ข้างกัน*)
 > 
 > 
 
@@ -56,20 +58,20 @@ ms.locfileid: "68590469"
 
 * [ติดตั้ง **Power BI Desktop** จาก **Microsoft Store**](http://aka.ms/pbidesktopstore)
 
-![](media/desktop-get-the-desktop/getpbid_04.png)
+  ![รับ Power BI Desktop จาก Microsoft Store](media/desktop-get-the-desktop/getpbid_04.png)
 
 มีข้อดีบางประการของ **Power BI Desktop** จาก Microsoft Store:
 
 * **อัปเดตอัตโนมัติ** - Windows จะดาวน์โหลดเวอร์ชันล่าสุดในพื้นหลังโดยอัตโนมัติทันทีที่มี ดังนั้นเวอร์ชันของคุณจะเป็นเวอร์ชันล่าสุดเสมอ
 * **ดาวน์โหลดมีขนาดเล็กกว่า** - **Microsoft Store** ช่วยให้มั่นใจว่า เฉพาะคอมโพเนนต์ที่มีการเปลี่ยนแปลงในการอัปเดตแต่ละครั้ง จะถูกดาวน์โหลดลงเครื่องของคุณ ดาวน์โหลดจึงมีขนาดเล็กกว่าสำหรับแต่ละอัปเดต
-* **ไม่จำเป็นต้องมีสิทธิ์ผู้ดูแลระบบ** - เมื่อคุณดาวน์โหลด MSI โดยตรงและติดตั้ง คุณต้องเป็นผู้ดูแลระบบเพื่อให้การติดตั้งสำเร็จ เมื่อคุณรับ **Power BI Desktop** จาก Microsoft Store สิทธิ์ผู้ดูแลระบบจะ*ไม่*จำเป็น
+* **ไม่จำเป็นต้องมีสิทธิ์ผู้ดูแลระบบ** - เมื่อคุณดาวน์โหลดแพคเกจโดยตรงและติดตั้ง คุณต้องเป็นผู้ดูแลระบบเพื่อให้การติดตั้งสำเร็จ เมื่อคุณรับ **Power BI Desktop** จาก Microsoft Store สิทธิ์ผู้ดูแลระบบจะ*ไม่*จำเป็น
 * **เปิดใช้งานการเผยแพร่ IT** - เวอร์ชัน **Microsoft Store** สามารถปรับใช้ หรือ*เผยแพร่*ให้ทุกคนในองค์กรของคุณ และสามารถทำให้ **Power BI Desktop** มีให้บริการผ่าน **Microsoft Store สำหรับธุรกิจ**
 * **ตรวจหาภาษา** - เวอร์ชัน **Microsoft Store** รวมทุกภาษาที่สนับสนุนทั้งหมด และตรวจว่าภาษาไหนที่ใช้บนคอมพิวเตอร์ทุกครั้งที่เรียกใช้ ซึ่งจะมีผลกับภาษาของรูปแบบที่สร้างขึ้นใน **Power BI Desktop** ตัวอย่างเช่น ลำดับชั้นวันที่ จะตรงกับภาษาที่ **Power BI Desktop** ใช้เมื่อสร้างไฟล์ .pbix
 
 มีข้อพิจารณาและข้อจำกัดสำหรับการติดตั้ง **Power BI Desktop** จาก Microsoft Store ดังต่อไปนี้:
 
 * ถ้าคุณใช้ตัวเชื่อมต่อ SAP คุณอาจต้องย้ายไฟล์โปรแกรมควบคุม SAP ของคุณไปยังโฟลเดอร์ *Windows\System32*
-* การติดตั้ง **Power BI Desktop** จาก Microsoft Store ไม่คัดลอกการตั้งค่าผู้ใช้จากเวอร์ชัน MSI คุณอาจต้องเชื่อมต่อกับแหล่งข้อมูล ที่คุณเชื่อมต่อเมื่อเร็ว ๆ นี้ และใส่ข้อมูลประจำตัวของแหล่งข้อมูลคุณอีกครั้ง 
+* การติดตั้ง **Power BI Desktop** จาก Microsoft Store ไม่คัดลอกการตั้งค่าผู้ใช้จากเวอร์ชัน .exe คุณอาจต้องเชื่อมต่อกับแหล่งข้อมูล ที่คุณเชื่อมต่อเมื่อเร็ว ๆ นี้ และใส่ข้อมูลประจำตัวของแหล่งข้อมูลคุณอีกครั้ง 
 
 > [!NOTE]
 > ไม่รองรับการติดตั้งเวอร์ชันดาวน์โหลด (MSI) และ **Microsoft Store** ของ **Power BI Desktop** บนคอมพิวเตอร์เครื่องเดียวกัน (ในบางครั้งเรียกว่าการติดตั้ง*ข้างกัน*) คุณควรถอนการติดตั้ง **Power BI Desktop** ด้วยตนเอง ก่อนที่จะดาวน์โหลดจาก **Microsoft Store**
@@ -82,7 +84,7 @@ ms.locfileid: "68590469"
 ## <a name="using-power-bi-desktop"></a>การใช้ Power BI Desktop
 เมื่อคุณเรียกใช้ **Power BI Desktop** หน้าจอ*ยินดีต้อนรับ*จะแสดงขึ้นมา
 
-![](media/desktop-get-the-desktop/getpbid_05.png)
+![หน้าจอยินดีต้อนรับสู่ Power BI Desktop](media/desktop-get-the-desktop/getpbid_05.png)
 
 ถ้านี่เป็นครั้งแรกที่คุณใช้ **Power BI Desktop** (ถ้าเป็นติดตั้งใหม่ ไม่ใช่การอัปเกรด) คุณจะได้รับพร้อมท์ให้กรอกแบบฟอร์ม และตอบคำถาม หรือลงชื่อเข้าใช้ใน **บริการของ Power BI** ก่อนที่คุณจะสามารถ สามารถดำเนินต่อ
 
@@ -102,6 +104,25 @@ ms.locfileid: "68590469"
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 
 เราต้องการให้ประสบการณ์การใช้งาน Power BI Desktop ของคุณดีเยี่ยมเสมอ อาจมีโอกาสที่คุณจะประสบปัญหากับ Power BI Desktop ดังนั้นในส่วนนี้จะประกอบด้วยวิธีแก้ไขปัญหาหรือคำแนะนำในการจัดการปัญหาที่อาจเกิดขึ้น 
+
+
+### <a name="using-command-line-options-during-installation"></a>การใช้ตัวเลือกบรรทัดคำสั่งระหว่างการติดตั้ง 
+
+เมื่อติดตั้ง Power BI Desktop คุณสามารถตั้งค่าคุณสมบัติและตัวเลือกด้วยการสลับบรรทัดคำสั่งได้ การดำเนินการนี้จะเป็นประโยชน์โดยเฉพาะอย่างยิ่งสำหรับผู้ดูแลระบบที่จัดการหรืออำนวยความสะดวกในการติดตั้ง Power BI Desktop ในองค์กร ตัวเลือกเหล่านี้นำไปใช้กับการติดตั้ง .msi และ .exe 
+
+
+|ตัวเลือกบรรทัดคำสั่ง  |พฤติกรรม  |
+|---------|---------|
+|-q, -quiet, -s, -silent     |ติดตั้ง silent         |
+|-passive     |แสดงเฉพาะแถบความคืบหน้าในระหว่างการติดตั้ง         |
+|-norestart     |ไม่แสดงข้อกำหนดการรีสตาร์ทคอมพิวเตอร์         |
+|-forcerestart     |รีสตาร์ทคอมพิวเตอร์หลังจากการติดตั้งโดยไม่มีพร้อมท์         |
+|-promptrestart     |แจ้งให้ผู้ใช้ทราบหากจำเป็นต้องรีสตาร์ทคอมพิวเตอร์ (ค่าเริ่มต้น)         |
+|-l<>, -log<>     |บันทึกการติดตั้งไปยังไฟล์ที่เฉพาะเจาะจง ด้วยไฟล์ที่ระบุใน < >         |
+|-uninstall     |ถอนการติดตั้ง Power BI Desktop         |
+|-repair     |ซ่อมแซมการติดตั้ง (หรือติดตั้งถ้าไม่ได้ติดตั้งอยู่ในขณะนี้)         |
+|-package, -update     |ติดตั้ง Power BI Desktop (ค่าเริ่มต้นตราบใดที่ถอนการติดตั้งหรือไม่ได้ระบุ -uninstall หรือ -repair)         |
+
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>ปัญหาจากรุ่นก่อนหน้าของ Power BI Desktop
 

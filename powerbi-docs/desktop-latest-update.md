@@ -7,23 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 08/14/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 33b14b8e89a1ba4433896634b7f48a1fcfb6f80e
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 105fac5bf26ac15e9151d642f3b276ee5b00f87c
+ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324592"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "69023335"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>มีอะไรใหม่ในการอัปเดต Power BI Desktop ล่าสุด 
 
-## <a name="july-2019-update-2715523641"></a>อัปเดตเดือนกรกฎาคม 2019 (2.71.5523.641)
 
-การอัปเดตเดือนกรกฎาคมของเรากำลังพุ่งสูงขึ้นด้วยคุณลักษณะและฟังก์ชั่นใหม่ที่มีสีสันสำหรับ Power BI Desktop ของคุณ 
+## <a name="august-2019-update-2715523641"></a>อัปเดตประจำเดือนสิงหาคม 2019 (2.71.5523.641)
 
-ตอนนี้คุณสามารถ[ดาวน์โหลดเวอร์ชันล่าสุดของ Power BI Desktop](https://powerbi.microsoft.com/desktop)ได้ ถ้าคุณกำลังใช้งาน Windows 10 คุณยังสามารถรับ **Power BI Desktop** ได้จาก Windows Store เวอร์ชันรายเดือนจะเหมือนกันแม้ว่าหมายเลขเวอร์ชันอาจแตกต่างกัน โดยไม่คำนึงถึงวิธีการที่คุณติดตั้ง**Power BI Desktop** ดู[บทความนี้](desktop-get-the-desktop.md)สำหรับข้อมูลเพิ่มเติม 
+การอัปเดตประจำเดือนสิงหาคมของเรานั้นร้อนแรงและเปล่งประกายอย่างสดใสบนรายงานที่คุณสามารถสร้างได้ใน Power BI Desktop 
+
+ตอนนี้คุณสามารถ [ดาวน์โหลด Power BI Desktop รุ่นล่าสุด](https://powerbi.microsoft.com/desktop), ส่งเป็นไฟล์ .exe ไฟล์เดียวที่มีภาษาที่รองรับทั้งหมด ถ้าคุณกำลังใช้งาน Windows 10 คุณยังสามารถรับ **Power BI Desktop** ได้จาก Windows Store เวอร์ชันรายเดือนจะเหมือนกันแม้ว่าหมายเลขเวอร์ชันอาจแตกต่างกัน โดยไม่คำนึงถึงวิธีการที่คุณติดตั้ง**Power BI Desktop** ดู[บทความนี้](desktop-get-the-desktop.md)สำหรับข้อมูลเพิ่มเติม 
 
 ลิงก์ที่อยู่ข้างแต่ละอัปเดต มีความหมายดังนี้:
 
@@ -37,41 +38,40 @@ ms.locfileid: "68324592"
 การปรับปรุงต่อไปนี้เป็นของใหม่ใน **Power BI Desktop** สำหรับเดือนนี้:
 
 ### <a name="reporting"></a>การรายงาน
-* ไอคอนที่ตั้งค่าไว้สำหรับตารางและเมทริกซ์  [[วิดีโอ]](https://youtu.be/l7OMRUF9UYg?t=11)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#iconSets) 
-* เปอร์เซ็นต์การสนับสนุนสำหรับการจัดรูปแบบตามเงื่อนไขโดยกฎ  [[วิดีโอ]](https://youtu.be/l7OMRUF9UYg?t=445)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#percentRules)
-* ตอนนี้บานหน้าต่างตัวกรองใหม่พร้อมใช้งานโดยทั่วไปแล้ว[[วิดีโอ]](https://youtu.be/l7OMRUF9UYg?t=543)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#filterPane)
-* การสนับสนุนสีข้อมูลเมื่อใช้แกนการเล่นในแผนภูมิกระจาย [[วิดีโอ]](https://youtu.be/l7OMRUF9UYg?t=610)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#playAxis)
-* การปรับปรุงประสิทธิภาพการทำงานเมื่อใช้วันที่สัมพัทธ์และตัวแบ่งส่วนข้อมูลแบบหล่นลง [[วิดีโอ]](https://youtu.be/l7OMRUF9UYg?t=669)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#slicers)
+* การจัดกลุ่มวิชวล [[วิดีโอ]](https://youtu.be/sf4n7VXoQHY?t=10)[[บทความ]](desktop-grouping-visuals.md)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#grouping) 
+* การย้ายบานหน้าต่างตัวกรอง [[วิดีโอ]](https://youtu.be/sf4n7VXoQHY?t=360) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#filterPane)
+* ตัวเลือกลักษณะไอคอนสำหรับการจัดรูปแบบตามเงื่อนไขของไอคอน [[วิดีโอ]](https://youtu.be/sf4n7VXoQHY?t=509)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#iconStyles)
+* คำเตือนการจัดรูปแบบตามเงื่อนไข [[วิดีโอ]](https://youtu.be/sf4n7VXoQHY?t=621) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#conditionalFormatting)
 
 
 ### <a name="analytics"></a>การวิเคราะห์
-* จำนวนสำหรับวิชวลผู้ทรงอิทธิพลหลัก (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/l7OMRUF9UYg?t=760)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#keyInfluencers) 
-* การปรับปรุงการรวม [[วิดีโอ]](https://youtu.be/l7OMRUF9UYg?t=870) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#aggregations) 
+* การปรับปรุงวิชวลผู้ทรงอิทธิพลหลัก ความพร้อมใช้งานทั่วไป [[วิดีโอ]](https://youtu.be/sf4n7VXoQHY?t=801)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#keyInfluencers) 
 
 
 ### <a name="visuals"></a>การแสดงผลด้วยภาพ
-* ขณะนี้วิชวลPowerApps ได้รับการรับรองแล้ว  [[วิดีโอ]](https://youtu.be/l7OMRUF9UYg?t=894)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#powerapps) 
-* ภาพแบบกำหนดเองใหม่สามรายการและการอัปเดต  [[วิดีโอ]](https://youtu.be/l7OMRUF9UYg?t=932)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
+* วิชวลแบบกำหนดเองใหม่และการอัปเดต [[วิดีโอ]](https://youtu.be/sf4n7VXoQHY?t=956)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#xviz) 
 
 
 ### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
-* ตัวเชื่อมต่อ Azure Data Lake Storage Gen2 (beta) [[วิดีโอ]](https://youtu.be/l7OMRUF9UYg?t=1203)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#azureDataLake) 
-* ตัวเชื่อมต่อDynamics 365 Customer Insights [[วิดีโอ]](https://youtu.be/l7OMRUF9UYg?t=1250)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#customerInsights) 
+* การสนับสนุนสำหรับคอนเทนเนอร์ของ SAP HANA HDI [[วิดีโอ]](https://youtu.be/sf4n7VXoQHY?t=1502) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#HDIcontainers) 
+* แก้ไขตัวแปร SAP ในบริการของ Power BI (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/sf4n7VXoQHY?t=1522) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#SAPvariables)
+* PostgreSQL DirectQuery [[วิดีโอ]](https://youtu.be/sf4n7VXoQHY?t=1662)   [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#postgresql) 
+* ตัวเชื่อมต่อ MarkLogic พร้อมใช้งานโดยทั่วไปแล้ว [[วิดีโอ]](https://youtu.be/sf4n7VXoQHY?t=1678)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#marklogic) 
+* หมวดหมู่ของแพลตฟอร์ม Power ใหม่ภายในรับข้อมูล [[วิดีโอ]](https://youtu.be/sf4n7VXoQHY?t=1688) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#powerPlatform) 
 
-
-### <a name="data-preparation"></a>การเตรียมข้อมูล
-* เพิ่มการแปลง แยกคอลัมน์ตามตำแหน่ง [[วิดีโอ]](https://youtu.be/l7OMRUF9UYg?t=1321)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#splitColumn) 
+### <a name="template-apps"></a>แอปแม่แบบ
+* หน้า Facebook - การวิเคราะห์เบื้องต้น [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#facebook) 
 
 
 > [!NOTE]
 > คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
 
-ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
+ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
 
 วิดีโอต่อไปนี้อธิบาย และแสดงการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l7OMRUF9UYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sf4n7VXoQHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
 > นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้

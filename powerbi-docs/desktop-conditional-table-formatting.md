@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222260"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69561061"
 ---
 # <a name="conditional-formatting-in-tables"></a>การจัดรูปแบบตามเงื่อนไขในตาราง 
 ด้วยการจัดรูปแบบตามเงื่อนไขสำหรับตาราง คุณสามารถระบุสีพื้นหลังของเซลล์ตามค่าของเซลล์ หรือตามค่าอื่นหรือเขตข้อมูลอื่น รวมถึงการไล่ระดับสี คุณยังสามารถแสดงค่าเซลล์ ด้วยแถบข้อมูล 
@@ -130,11 +130,17 @@ ms.locfileid: "66222260"
 
 มีหลายรูปแบบเพิ่มเติมที่คุณสามารถสร้าง เพียงแค่ใช้จินตนาการของคุณและ DAX เล็กน้อย
 
-คุณสามารถใช้ค่าแสดงอยู่ในข้อมูลจำเพาะของสี CSS ที่[ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/)สีภาพของคุณ:
-* 3, 8 หรือ 6 หลัก hex รหัสเช่น #3E4AFF ตรวจสอบให้แน่ใจว่า คุณใส่สัญลักษณ์#ที่จุดเริ่มต้นของรหัส ไม่มีการยอมรับ "3E4AFF" 
-* RGB หรือ RGBA ค่าเช่น RGBA (234, 234, 234, 0.5)
-* HSL หรือ HSLA ค่าเช่น HSLA (123, 75%, 75%, 0.5)
-* สีชื่อเช่นเขียว SkyBlue, PeachPuff 
+คุณสามารถใช้ค่าใด ๆ ที่แสดงอยู่ในข้อมูลจำเพาะของสี CSS ที่ [https://www.w3.org/TR/css-color-3/](https://www.w3.org/TR/css-color-3/) เพื่อระบายสีวิชวลของคุณ:
+* รหัสเลขฐานสิบหก 3, 6 หรือ 8 เช่น #3E4AFF ตรวจสอบให้แน่ใจว่าคุณได้ใช้สัญลักษณ์ # ที่จุดเริ่มต้นของรหัส "3E4AFF" ไม่ถูกต้อง 
+* ค่า RGB หรือ RGBA เช่น RGBA(234, 234, 234, 0.5)
+* ค่า HSL หรือ HSLA เช่น HSLA(123, 75%, 75%, 0.5)
+* ชื่อสีเช่น Green, SkyBlue, PeachPuff 
+
+## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
+มีข้อควรพิจารณาบางประการที่ควรคำนึงถึงเมื่อทำงานเกี่ยวกับการจัดรูปแบบตารางตามเงื่อนไข:
+
+* การจัดรูปแบบตามเงื่อนไขสามารถใช้ได้เฉพาะกับค่าของวิชวล**เมทริกซ์**เท่านั้น และไม่นำไปใช้กับผลรวมย่อยใด ๆ หรือผลรวมทั้งหมด 
+
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 สำหรับข้อมูลเพิ่มเติม โปรดดูบทความต่อไปนี้:  

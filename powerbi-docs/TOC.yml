@@ -1426,3 +1426,5 @@
       href: guidance/star-schema.md
     - name: ลดขนาดแบบจำลองข้อมูล
       href: guidance/import-modeling-data-reduction.md
+    - name: ฟังก์ชัน DIVIDE เทียบกับตัวดำเนินการหาร (/)
+      href: guidance/dax-divide-function-operator.md

@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bea8b954cb1c0743745ef6d3bf9d48aa8513f2fe
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624049"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655167"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>ใช้ Kerberos สำหรับลงชื่อเข้าใช้ครั้งเดียว (SSO) จาก Power BI ไปยังแหล่งข้อมูลภายในองค์กร
 
@@ -192,7 +192,7 @@ ms.locfileid: "68624049"
 1. ดาวน์โหลด CommonCryptoLib (sapcrypto) เวอร์ชั่น **8.5.25 หรือมากกว่า**จาก SAP Launchpad และคัดลอกไปยังโฟลเดอร์บนเครื่องเกตเวย์ของคุณ ในไดเรกทอรีเดียวกันกับที่คุณคัดลอก sapcrypto สร้างไฟล์ที่ชื่อ sapcrypto ด้วยเนื้อหาต่อไปนี้:
 
     ```
-    ccl/snc/enable\_kerberos\_in\_client\_role = 1
+    ccl/snc/enable_kerberos_in_client_role = 1
     ```
 
     ไฟล์ .ini มีข้อมูลการกำหนดค่าที่จำเป็นโดย CommonCryptoLib เพื่อเปิดใช้งาน SSO ในสถานการณ์เกตเวย์
@@ -242,7 +242,7 @@ ms.locfileid: "68624049"
 
     ```
     ccl/trace/level=5
-    ccl/trace/directory=\\<drive\\>:\logs\sectrace
+    ccl/trace/directory=<drive>:\logs\sectrace
     ```
 
     ตรวจสอบให้แน่ใจเพื่อเปลี่ยนตัวเลือก _ccl/trace/directory_ เป็นสมาชิกในตำแหน่งของกลุ่มผู้ใช้ที่ได้รับการรับรองความถูกต้องสามารถเขียนถึง อีกวิธีหนึ่งคือสร้างไฟล์ .ini ใหม่เพื่อเปลี่ยนลักษณะการทำงานนี้ ในไดเรกทอรีเดียวกันกับ sapcrypto.ini และ sapcrypto.dll ให้สร้างไฟล์ที่ชื่อ sectrace ด้วยเนื้อหาต่อไปนี้  แทนที่ตัวเลือกไดเรกทอรีด้วยตำแหน่งบนเครื่องของคุณที่ผู้ใช้ที่ได้รับการรับรองความถูกต้องสามารถเขียนถึง:
@@ -250,7 +250,7 @@ ms.locfileid: "68624049"
     ```
     LEVEL = 5
     
-    DIRECTORY = \\<drive\\>:\logs\sectrace
+    DIRECTORY = <drive>:\logs\sectrace
     ```
 
     ในตอนนี้สร้างปัญหาขึ้นมาใหม่ และตรวจสอบว่าตำแหน่งที่ชี้ไปตามไดเรกทอรีมีไฟล์การติดตาม ตรวจสอบให้แน่ใจว่าได้ปิดใช้งานการติดตาม CPIC และ CCL เมื่อคุณดำเนินการเสร็จแล้ว
