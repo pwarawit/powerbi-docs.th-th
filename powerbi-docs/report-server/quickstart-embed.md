@@ -1,38 +1,39 @@
 ---
-title: ฝังรายงานโดยใช้ iFrame
-description: ฝังรายงานเซิร์ฟเวอร์รายงาน Power BI ใน iFrame ใน SharePoint Server
+title: ฝังรายงานเซิร์ฟเวอร์รายงาน Power BI โดยใช้ iFrame ใน SharePoint Server
+description: บทความนี้แสดงวิธีการฝังรายงานเซิร์ฟเวอร์รายงาน Power BI ใน iFrame ใน SharePoint Server
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/04/2018
-ms.topic: quickstart
+ms.date: 08/12/2019
+ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: ca26770c652c12573bf28e24b218b214bf1196fa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e1787863d2b5db50cdb9a8d09907fbee6623972f
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769870"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995008"
 ---
-# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>เริ่มต้นใช้งานด่วน: ฝังรายงานเซิร์ฟเวอร์รายงาน Power BI โดยใช้ iFrame ใน SharePoint Server
+# <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>ฝังรายงานเซิร์ฟเวอร์รายงาน Power BI โดยใช้ iFrame ใน SharePoint Server
 
-ในการเริ่มต้นด่วนนี้ คุณจะได้เรียนรู้วิธีการฝังรายงานเซิร์ฟเวอร์รายงาน Power BI โดยใช้ iFrame ในหน้า SharePoint ถ้าคุณกำลังทำงานกับ SharePoint Online เซิร์ฟเวอร์รายงาน Power BI ต้องสามารถเข้าถึงแบบสาธารณะได้ ใน SharePoint Online, Power BI Web Part ที่ทำงานกับบริการของ Power BI ไม่ทำงานกับเซิร์ฟเวอร์รายงาน Power BI 
+ในบทความนี้ คุณจะได้เรียนรู้วิธีการฝังรายงานเซิร์ฟเวอร์รายงาน Power BI โดยใช้ iFrame ในหน้า SharePoint ถ้าคุณกำลังทำงานกับ SharePoint Online เซิร์ฟเวอร์รายงาน Power BI ต้องสามารถเข้าถึงแบบสาธารณะได้ ใน SharePoint Online, Power BI Web Part ที่ทำงานกับบริการของ Power BI ไม่ทำงานกับเซิร์ฟเวอร์รายงาน Power BI  
 
 ![ตัวอย่าง iFrame](media/quickstart-embed/quickstart_embed_01.png)
+
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-* คุณจะต้องมี[เซิร์ฟเวอร์รายงาน Power BI](https://powerbi.microsoft.com/report-server/) ที่ติดตั้งและกำหนดค่าแล้ว
-* คุณจะต้องมี [Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](install-powerbi-desktop.md) ติดตั้งแล้ว
-* คุณจะต้องมีสภาพแวดล้อม [SharePoint](https://docs.microsoft.com/sharepoint/install/install) ที่ติดตั้งและกำหนดค่าแล้ว
+* ติดตั้งและกำหนดค่า [เซิร์ฟเวอร์รายงาน Power BI](https://powerbi.microsoft.com/report-server/) แล้ว
+* ติดตั้ง [Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](install-powerbi-desktop.md) แล้ว
+* ติดตั้งและกำหนดค่า [SharePoint](https://docs.microsoft.com/sharepoint/install/install) แล้ว
 
-## <a name="creating-the-power-bi-report-server-report-url"></a>การสร้าง URL รายงานเซิร์ฟเวอร์รายงาน Power BI
+## <a name="create-the-power-bi-report-url"></a>สร้าง URL ของรายงาน Power BI
 
-1. ดาวน์โหลดตัวอย่างจาก GitHub - [การสาธิตบล็อก](https://github.com/Microsoft/powerbi-desktop-samples)
+1. ดาวน์โหลดตัวอย่างจาก GitHub [การสาธิตบล็อก](https://github.com/Microsoft/powerbi-desktop-samples) เลือก **โคลนหรือดาวน์โหลด**, จากนั้นเลือก **ดาวน์โหลด ZIP**
 
     ![ดาวน์โหลดไฟล์ PBIX ตัวอย่าง](media/quickstart-embed/quickstart_embed_14.png)
 
-2. เปิดไฟล์ PBIX ตัวอย่างจาก GitHub ใน **Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI**
+2. Unzip ไฟล์และเปิดไฟล์ .pbix ตัวอย่างใน Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
 
     ![เครื่องมือ PBI RS Desktop](media/quickstart-embed/quickstart_embed_02.png)
 
@@ -40,19 +41,19 @@ ms.locfileid: "64769870"
 
     ![บันทึก PBI RS](media/quickstart-embed/quickstart_embed_03.png)
 
-4. ดูรายงานใน**พอร์ทัลของเว็บ**
+4. ดูรายงานในพอร์ทัลของเว็บเซิร์ฟเวอร์รายงาน Power BI
 
-    ![พอร์ทัลของเว็บ](media/quickstart-embed/quickstart_embed_04.png)
+    ![เว็บพอร์ทัล](media/quickstart-embed/quickstart_embed_04.png)
 
-### <a name="capturing-the-url-parameter"></a>การจับพารามิเตอร์ URL
+### <a name="capture-the-url-parameter"></a>จับภาพพารามิเตอร์ URL
 
-เมื่อคุณมี URL ของคุณแล้ว คุณสามารถสร้าง iFrame ภายในหน้า SharePoint เพื่อโฮสต์รายงาน สำหรับ URL รายงานเซิร์ฟเวอร์รายงาน Power BI ใด ๆ คุณสามารถเพิ่มพารามิเตอร์ querystring `?rs:embed=true` เพื่อฝังรายงานของคุณลงใน iFrame ได้ 
+หลังจากคุณมี URL ของคุณแล้ว คุณสามารถสร้าง iFrame ภายในหน้า SharePoint เพื่อโฮสต์รายงาน สำหรับ URL ของรายงานเซิร์ฟเวอร์รายงาน Power BI เพิ่มพารามิเตอร์สตริงคิวรีต่อไปนี้เพื่อฝังรายงานของคุณใน SharePoint iFrame: `?rs:embed=true`
 
    ตัวอย่างเช่น:
     ``` 
     http://myserver/reports/powerbi/Sales?rs:embed=true
     ```
-## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>การฝังรายงานเซิร์ฟเวอร์รายงาน Power BI ใน SharePoint iFrame
+## <a name="embed-the-report-in-a-sharepoint-iframe"></a>ฝังรายงานใน SharePoint iFrame
 
 1. นำทางไปยัง SharePoint หน้า**เนื้อหาของไซต์**
 
@@ -62,27 +63,23 @@ ms.locfileid: "64769870"
 
     ![แอปหน้าเนื้อหาของไซต์](media/quickstart-embed/quickstart_embed_06.png)
 
-3. เลือกที่รูปเฟืองด้านบนขวา แล้วเลือก**แก้ไขหน้า**
+3. เลือกที่ไอคอนรูปเฟืองด้านบนขวา แล้วเลือก**แก้ไขหน้า**
 
     ![ตัวเลือกแก้ไขหน้า](media/quickstart-embed/quickstart_embed_07.png)
 
-4. เลือก**เพิ่ม Web Part**
+4. เลือก **เพิ่ม Web Part**
 
-    ![เพิ่ม Web Part](media/quickstart-embed/quickstart_embed_08.png)
+5. ภายใต ้**ประเภท** เลือก **สื่อและเนื้อหา** ภายใต ้**ส่วน** เลือก**ตัวแก้ไขเนื้อหา** แล้วเลือก**เพิ่ม**
 
-5. ภายใต้**ประเภท** เลือก**สื่อและเนื้อหา** ภายใต้**ส่วน** เลือก**ตัวแก้ไขเนื้อหา** แล้วเลือก**เพิ่ม**
-
-    ![เลือกตัวแก้ไขเนื้อหา Web Part](media/quickstart-embed/quickstart_embed_09.png) ![เลือกเพิ่ม](media/quickstart-embed/quickstart_embed_091.png)
+    ![เลือก Web Part ตัวแก้ไขเนื้อหา](media/quickstart-embed/quickstart_embed_09.png)
 
 6. เลือก**คลิกที่นี่เพื่อเพิ่มเนื้อหาใหม่**
 
-    ![เพิ่มเนื้อหาใหม่](media/quickstart-embed/quickstart_embed_10.png)
-
-7. ใน ribbon เลือกแท็บ**รูปแบบข้อความ** แล้วเลือก**แก้ไขแหล่งข้อมูล**
+7. จากเมนูด้านบน เลือก **จัดรูปแบบข้อความ**แล้วเลือก**แก้ไขแหล่งข้อมูล**
 
      ![แก้ไขแหล่งข้อมูล](media/quickstart-embed/quickstart_embed_11.png)
 
-8. ในหน้าต่างแก้ไขแหล่งข้อมูล วางรหัส iFrame ของคุณ แล้วเลือกตกลง
+8. ในหน้าต่าง**แก้ไขแหล่งข้อมูล** วางรหัส iFrame ของคุณใน**HTML Source** แล้วเลือก **ตกลง**
 
     ![รหัส iFrame](media/quickstart-embed/quickstart_embed_12.png)
 
@@ -91,17 +88,17 @@ ms.locfileid: "64769870"
      <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
      ```
 
-9. ใน ribbon เลือกแท็บ**หน้า** และเลือก**หยุดการแก้ไข**
+9. ในเมนูด้านบน เลือก**หน้า**แล้วเลือก**หยุดการแก้ไข**
 
     ![หยุดการแก้ไข](media/quickstart-embed/quickstart_embed_13.png)
 
-10. ตอนนี้ คุณควรจะเห็นรายงานบนหน้า
+    รายงานจะปรากฏขึ้นบนหน้า
 
     ![ตัวอย่าง iFrame](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[เริ่มต้นใช้งานด่วน: สร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน Power BI](quickstart-create-powerbi-report.md)  
-[เริ่มต้นใช้งานด่วน: สร้างรายงานแบบแบ่งหน้าสำหรับเซิร์ฟเวอร์รายงาน Power BI](quickstart-create-paginated-report.md)  
+- [สร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน Power BI](quickstart-create-powerbi-report.md)  
+- [สร้างรายงานที่มีการแบ่งหน้าสำหรับเซิร์ฟเวอร์รายงาน Power BI](quickstart-create-paginated-report.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/) 
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/) 

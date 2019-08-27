@@ -7,29 +7,31 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/15/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8d8e77d8fe4ebea5b457ba282014bb8dc738191a
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 5004b55fa48cdf98aedd019749b738352d68c4cd
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324841"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560872"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับข้อมูลจากแหล่งต่าง ๆ มากมายด้วย Power BI Desktop รายการทั้งหมดของแหล่งข้อมูลที่พร้อมใช้งานอยู่ที่ด้านล่างของหน้านี้
 
 เมื่อต้องการเชื่อมต่อกับข้อมูล ให้เลือก**รับข้อมูล**จาก**ribbon** หน้าแรก เลือกลูกศรชี้ลง หรือเลือกข้อความ**รับข้อมูล**บนปุ่ม แสดงเมนูชนิดข้อมูล**ใช้บ่อยที่สุด**ตามที่แสดงในรูปต่อไปนี้:
 
-![รับข้อมูลใน Power BI Desktop](media/desktop-data-sources/data-sources_01.png)
+![รับข้อมูลใน Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
 
 เลือก**เพิ่มเติม...** จากเมนู**ใช้บ่อยที่สุด**ที่แสดงในหน้าต่าง**รับข้อมูล** คุณสามารถทำให้หน้าต่าง**รับข้อมูล** แสดงขึ้นได้ (และข้ามเมนู**ใช้บ่อยที่สุด**) โดยการเลือกปุ่มไอคอน**รับข้อมูล** **โดยตรง**
 
-![ปุ่มรับข้อมูล](media/desktop-data-sources/data-sources_02.png)
+![ปุ่มรับข้อมูล](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> ทีม Power BI จะขยายแหล่งข้อมูลที่พร้อมใช้งานอย่างต่อเนื่องไปยัง**Power BI Desktop**และ**บริการ Power BI** ดังนั้นคุณมักจะเห็นงานระหว่างแหล่งข้อมูลที่กำลังดำเนินการอยู่ในช่วงเริ่มต้นได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง* แหล่งข้อมูลใด ๆ ที่ได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง*มีการจำกัดการสนับสนุนและฟังก์ชันการทำงาน และไม่ควรใช้ในสภาพแวดล้อมการผลิต
+> ทีม Power BI จะขยายแหล่งข้อมูลที่พร้อมใช้งานอย่างต่อเนื่องไปยัง**Power BI Desktop**และ**บริการ Power BI** ดังนั้นคุณมักจะเห็นงานระหว่างแหล่งข้อมูลที่กำลังดำเนินการอยู่ในช่วงเริ่มต้นได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง* แหล่งข้อมูลใด ๆ ที่ได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง*มีการจำกัดการสนับสนุนและฟังก์ชันการทำงาน และไม่ควรใช้ในสภาพแวดล้อมการผลิต 
+
+> นอกจากนี้ แหล่งข้อมูลใดๆ ที่ทำเครื่องหมายเป็น*เบต้า* หรือ*แสดงตัวอย่าง*สำหรับ **Power BI Desktop** อาจไม่สามารถใช้งานได้ใน**บริการของ Power BI** หรือบริการอื่นๆ ของ Microsoft จนกว่าแหล่งข้อมูลจะพร้อมใช้งานโดยทั่วไป (GA)
 
 ## <a name="data-sources"></a>แหล่งข้อมูล
 ชนิดข้อมูลจะได้รับการจัดระเบียบในประเภทต่อไปนี้:
@@ -56,7 +58,7 @@ ms.locfileid: "68324841"
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**ไฟล์**
 
-![รับข้อมูล > ไฟล์](media/desktop-data-sources/data-sources_03.png)
+![รับข้อมูล > ไฟล์](media/desktop-data-sources/data-sources-03.png)
 
 ประเภท**ฐานข้อมูล**มีการเชื่อมต่อข้อมูลต่อไปนี้:
 
@@ -95,16 +97,18 @@ ms.locfileid: "68324841"
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**ไฟล์**
 
-![รับข้อมูล > ฐานข้อมูล](media/desktop-data-sources/data-sources_04.png)
+![รับข้อมูล > ฐานข้อมูล](media/desktop-data-sources/data-sources-04.png)
 
-ประเภท **Power BI** มีการเชื่อมต่อข้อมูลดังต่อไปนี้
+ประเภท **Power Platform** มีการเชื่อมต่อข้อมูลดังต่อไปนี้
 
 * ชุดข้อมูล Power BI
 * กระแสข้อมูล Power BI
+* Common Data Service
+* กระแสข้อมูล Power Platform (เบต้า)
 
-รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ **Power BI**
+รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ **Power Platform**
 
-![รับข้อมูล > Power BI](media/desktop-data-sources/data-sources_05.png)
+![รับข้อมูล > Power BI](media/desktop-data-sources/data-sources-05.png)
 
 ประเภท **Azure** มีการเชื่อมต่อข้อมูลดังต่อไปนี้
 
@@ -113,7 +117,7 @@ ms.locfileid: "68324841"
 * ฐานข้อมูล Azure Analysis Services
 * พื้นที่เก็บข้อมูล Azure Blob
 * พื้นที่เก็บข้อมูล Azure Table
-* Azure Cosmos DB (เบต้า)
+* Azure Cosmos DB
 * Azure Data Lake Storage Gen2 (Beta)
 * Azure Data Lake Storage รุ่น1
 * Azure HDInsight (HDFS)
@@ -124,7 +128,7 @@ ms.locfileid: "68324841"
 
 แสดงรูปภาพต่อไปนี้**รับข้อมูล**สำหรับ**Azure**
 
-![รับข้อมูล > Azure](media/desktop-data-sources/data-sources_06.png)
+![รับข้อมูล > Azure](media/desktop-data-sources/data-sources-06.png)
 
 ประเภท**บริการออนไลน์**มีการเชื่อมต่อข้อมูลต่อไปนี้:
 
@@ -134,7 +138,6 @@ ms.locfileid: "68324841"
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (ภายในองค์กร)
-* Common Data Service
 * Microsoft Azure Consumption Insights (เบต้า)
 * Azure DevOps (เบต้า)
 * Azure DevOps Server (เบต้า)
@@ -161,6 +164,7 @@ ms.locfileid: "68324841"
 * tyGraph (เบต้า)
 * Webtrends (เบต้า)
 * Zendesk (เบต้า)
+* Dynamics 365 Customer Insights (Beta)
 * แหล่งข้อมูล Emigo (เบต้า)
 * Entersoft Business Suite (เบต้า)
 * Industrial App Store
@@ -168,11 +172,11 @@ ms.locfileid: "68324841"
 * การรักษาความปลอดภัยของ Microsoft Graph
 * Quick Base
 * TeamDesk (เบต้า)
-* Dynamics 365 Customer Insights (Beta)
+
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**บริการออนไลน์**
 
-![รับข้อมูล > บริการออนไลน์](media/desktop-data-sources/data-sources_07.png)
+![รับข้อมูล > บริการออนไลน์](media/desktop-data-sources/data-sources-07.png)
 
 ประเภท**อื่น ๆ**มีการเชื่อมต่อข้อมูลต่อไปนี้:
 
@@ -200,7 +204,7 @@ ms.locfileid: "68324841"
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**อื่น ๆ**
 
-![รับข้อมูล > อื่นๆ](media/desktop-data-sources/data-sources_08.png)
+![รับข้อมูล > อื่นๆ](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > ในขณะนี้คุณไม่สามารถเชื่อมต่อกับแหล่งข้อมูลแบบกำหนดเองที่รักษาความปลอดภัยโดยใช้ Azure Active Directory
@@ -208,15 +212,15 @@ ms.locfileid: "68324841"
 ## <a name="connecting-to-a-data-source"></a>เชื่อมต่อกับแหล่งข้อมูล
 เลือกแหล่งข้อมูลจากหน้าต่าง**รับข้อมูล**และเลือก**เชื่อมต่อ**เพื่อเชื่อมต่อกับแหล่งข้อมูล ในรูปต่อไปนี้**เว็บ**ได้รับการเลือกจากประเภทการเชื่อมต่อข้อมูล**อื่น ๆ**
 
-![เชื่อมต่อกับเว็บ](media/desktop-data-sources/data-sources_08.png)
+![เชื่อมต่อกับเว็บ](media/desktop-data-sources/data-sources-08.png)
 
 หน้าต่างการเชื่อมต่อจะแสดงขึ้นตามชนิดของการเชื่อมต่อข้อมูล คุณจะได้รับพร้อมท์เพื่อแจ้งให้ป้อนข้อมูลประจำตัว หากจำเป็นต้องใช้ รูปต่อไปนี้แสดง URL ที่ป้อนเพื่อเชื่อมต่อกับแหล่งข้อมูลเว็บ
 
-![ป้อน URL เว็บ](media/desktop-data-sources/datasources_fromwebbox.png)
+![ป้อน URL เว็บ](media/desktop-data-sources/datasources-fromwebbox.png)
 
 เมื่อป้อนข้อมูลการเชื่อมต่อ URL หรือทรัพยากรแล้ว ให้เลือก**ตกลง** Power BI Desktop ทำการเชื่อมต่อกับแหล่งข้อมูล และแสดงแหล่งข้อมูลพร้อมใช้งานใน**ตัวนำทาง**
 
-![หน้าจอตัวนำทาง](media/desktop-data-sources/datasources_fromnavigatordialog.png)
+![หน้าจอตัวนำทาง](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
 คุณสามารถโหลดข้อมูลโดยการเลือกปุ่ม**โหลด**ที่ด้านล่างของบานหน้าต่าง**ตัวนำทาง** หรือแก้ไขคิวรีก่อนโหลดข้อมูลโดยการเลือกปุ่ม**แก้ไข**ปุ่ม
 
