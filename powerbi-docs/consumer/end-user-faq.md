@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 6/17/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0e63025c4e8a07e9cd22c82ca7e605042fa65be0
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 5efdb98e0722add361f3b333f773fc03c6ea50a9
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264298"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654147"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>คำถามที่ถามบ่อยเกี่ยวกับ Power BI
 
@@ -29,7 +29,7 @@ ms.locfileid: "67264298"
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>อะไรคือความแตกต่างระหว่าง Power BI Pro กับ Power BI Premium
 
-Power BI Pro มีสิทธิ์สำหรับผู้ใช้งานแต่ละรายในการใช้งานที่อนุญาตให้เข้าถึงเนื้อหาและความสามารถทั้งหมดในบริการ Power BI คุณยังสามารถแชร์เนื้อหา และทำงานร่วมกับผู้ใช้ Pro ได้ เฉพาะผู้ใช้แบบ Pro เท่านั้นที่สามารถเผยแพร่เนื้อหา หรือใช้เนื้อหาจากพื้นที่ทำงานจากแอป, แชร์แดชบอร์ด และสมัครสมาชิกแดชบอร์ดและรายงานได้
+Power BI Pro มีสิทธิ์สำหรับผู้ใช้งานแต่ละรายในการใช้งานที่อนุญาตให้เข้าถึงเนื้อหาและความสามารถทั้งหมดในบริการ Power BI คุณยังสามารถแชร์เนื้อหา และทำงานร่วมกับผู้ใช้ Pro ได้ เฉพาะผู้ใช้แบบ Pro เท่านั้นที่สามารถเผยแพร่เนื้อหาไปยังพื้นที่ทำงานจากแอป แชร์แดชบอร์ด และสมัครสมาชิกแดชบอร์ดและรายงานได้
 
 Premium มอบความสามารถเฉพาะด้านเพื่อให้เกิดประสิทธิภาพที่สม่ำเสมอ Power BI Premium ยังสนับสนุนปริมาณข้อมูลขนาดใหญ่ใน Power BI สำหรับผู้ใช้แต่ละราย Power BI Premium ยังช่วยให้สามารถกระจายเนื้อหาได้อย่างกว้างขวางโดยผู้ใช้ Pro และไม่ต้องมีใบอนุญาตต่อผู้ใช้สำหรับผู้รับที่ดูเนื้อหา
 

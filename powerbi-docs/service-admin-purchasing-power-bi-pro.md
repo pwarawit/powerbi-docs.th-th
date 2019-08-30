@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 15cd5e021969a050937b9d67eb7695f4fcde07c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4778fd8beb1faa30562bcf3dcca6d78bfac5dac4
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61188650"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654814"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>ซื้อและมอบใบอนุญาตการใช้งาน Power BI Pro
 
-Power BI Pro เป็นสิทธิ์การใช้งานสำหรับแต่ละบุคคล ที่ให้การเข้าถึงเนื้อหาและความสามารถทั้งหมดในบริการของ Power BI รวมถึงความสามารถในการแชร์เนื้อหาและทำงานร่วมกับผู้ใช้อื่นที่มีสิทธิ์การใช้งานแบบ Pro ได้ เฉพาะผู้ใช้แบบ Pro เท่านั้นที่สามารถเผยแพร่เนื้อหา หรือใช้เนื้อหาจากพื้นที่ทำงานจากแอป, แชร์แดชบอร์ด และสมัครสมาชิกแดชบอร์ดและรายงานได้ ดูข้อมูลเพิ่มเติมได้ที่ [คุณลักษณะของ Power BI ตามประเภทใบอนุญาตการใช้งาน](service-features-license-type.md)
+Power BI Pro เป็นสิทธิ์การใช้งานสำหรับแต่ละบุคคล ที่ให้การเข้าถึงเนื้อหาและความสามารถทั้งหมดในบริการของ Power BI รวมถึงความสามารถในการแชร์เนื้อหาและทำงานร่วมกับผู้ใช้อื่นที่มีสิทธิ์การใช้งานแบบ Pro ได้ เฉพาะผู้ใช้แบบ Pro เท่านั้นที่สามารถเผยแพร่เนื้อหาไปยังพื้นที่ทำงานจากแอป แชร์แดชบอร์ด และสมัครสมาชิกแดชบอร์ดและรายงานได้ ดูข้อมูลเพิ่มเติมได้ที่ [คุณลักษณะของ Power BI ตามประเภทใบอนุญาตการใช้งาน](service-features-license-type.md)
 
 บทความนี้อธิบายวิธีการซื้อใบอนุญาตการใช้งาน Power BI Pro ใน Office 365 ในตอนแรก จากนั้นบทความนี้จะอธิบายถึงตัวเลือกสองประการที่คุณสามารถใช้ในการกำหนดสิทธิการใช้งานเหล่านี้แก่ผู้ใช้แต่ละราย: Office 365 และ Azure (เลือกหนึ่งตัวเลือก)
 

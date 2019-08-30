@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dee2ff4376242883d30f606e687184c0dde43ffe
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523484"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621255"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับที่เก็บกระแสข้อมูล (ตัวอย่าง)
 
@@ -177,6 +177,7 @@ ms.locfileid: "68523484"
 * เฉพาะเจ้าของกระแสข้อมูลที่ถูกเก็บไว้ใน Azure Data Lake Storage Gen2 เท่านั้นที่สามารถเข้าถึงข้อมูลที่เป็นค่าเริ่มต้นได้ หากคุณต้องการให้ผู้ใช้อื่นสามารถเข้าถึงกระแสข้อมูลที่ถูกเก็บไว้ใน Azure คุณต้องเพิ่มพวกเขาเหล่านั้นลงในกระแสข้อมูลโฟลเดอร์ CDM ก่อน 
 * การสร้างกระแสข้อมูลพร้อมเอนทิตีที่มีการเชื่อมโยงสามารถทำได้เฉพาะเมื่อกระแสข้อมูลนั้นถูกเก็บไว้ในบัญชีเก็บข้อมูลเดียวกัน
 * แหล่งข้อมูลภายในองค์กรที่แชร์ความจุมาจาก Power BI ไม่สามารถเข้ากันได้กับกระแสข้อมูลที่ถูกเก็บไว้ใน data lake ขององค์กรคุณ
+* จะไม่มีการลบสแนปช็อตโดยอัตโนมัติบน ADLS Gen 2 ถ้าคุณต้องการเพิ่มพื้นที่ว่าง คุณสามารถสร้างฟังก์ชัน Azure เพื่อล้างสแนปช็อตเก่าเป็นระยะ ๆ ได้
 
 และยังมีปัญหาอีกสองสามกรณีตามที่ได้อธิบายไว้ในส่วนนี้
 

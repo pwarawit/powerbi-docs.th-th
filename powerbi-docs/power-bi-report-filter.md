@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 148f4881f78b5bba9b6936f5688ba6aaea3a0145
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68346321"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654451"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>การใช้งานตัวกรองใหม่ในรายงาน Power BI
 
@@ -48,6 +48,10 @@ ms.locfileid: "68346321"
 3. ด้านล่าง **ประสบการณ์การกรอง** เลือก **เปิดใช้งานบานบานหน้าต่างตัวกรองที่อัปเดต และแสดงตัวกรองในส่วนหัวภาพสำหรับรายงานนี้**
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>เปิดใช้งานตัวกรองใหม่สำหรับรายงานที่มีอยู่ในบริการ
+
+หากคุณเปิดใช้งาน**รูปลักษณ์ใหม่**ในบริการของ Power BI ![เมื่อรูปลักษณ์ใหม่เปิดทำงาน](media/power-bi-report-filter/power-bi-new-look-on.png) ประสบการณ์การใช้ตัวกรองใหม่จะเปิดทำงานโดยอัตโนมัติ อ่านข้อมูลเพิ่มเติมเกี่ยวกับ [รูปลักษณ์ใหม่ในบริการของ Power BI](service-new-look.md)
+
+ถ้าคุณยังไม่ได้เปิดใช้งานรูปลักษณ์ใหม่ คุณยังคงสามารถดูประสบการณ์การใช้งานตัวกรองใหม่ได้โดยปฏิบัติตามขั้นตอนเหล่านี้
 
 1. ในบริการของ Power BI ให้เลือกแท็บ**รายงาน**ในรายการเนื้อหาสำหรับพื้นที่ทำงาน
 2. ค้นหารายงานที่คุณต้องการเปิดใช้งาน และเลือก**ไอคอน**การตั้งค่า ![ไอคอนการตั้งค่ารายงาน](media/power-bi-report-filter/power-bi-settings-icon.png)สำหรับรายงานนั้น
@@ -121,15 +125,13 @@ ms.locfileid: "68346321"
 1. ในรายงาน คลิกรายงานเอง หรือพื้นหลัง (*รูปพื้นหลัง*), จากนั้นในการ**แสดงภาพ**บานหน้าต่าง เลือก**รูปแบบ** 
     คุณจะเห็นตัวเลือกการจัดรูปแบบหน้ารายงาน รูปพื้น หลัง และยังบานหน้าต่างตัวกรอง และการ์ดตัวกรอง
 
-    ![เลือกไอคอนรูปแบบ](media/power-bi-report-filter/power-bi-filter-format.png)    
-
 1. ขยาย**บานหน้าต่างตัวกรอง**การตั้งค่าสีสำหรับพื้นหลัง ไอคอน และเส้น ขอบด้านซ้าย เพื่อเสริมหน้ารายงาน
 
-    ![ขยายบานหน้าต่างตัวกรอง](media/power-bi-report-filter/power-bi-filter-format-pane-font.png)
+    ![ขยายบานหน้าต่างตัวกรอง](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. ขยาย**การ์ดตัวกรอง**เพื่อตั้งค่าสีและเส้นขอบเป็น**พร้อมใช้งาน**และ**ใช้งานได้** หากคุณสร้างการ์ดที่พร้อมใช้งาน และใช้สีที่ต่างกัน จะเห็นได้ชัดว่าใช้ตัวกรองใหนสามารภใช้ได้ 
   
-    ![ขยายการ์ดตัวกรอง](media/power-bi-report-filter/power-bi-filter-format-card-font.png)
+    ![ขยายการ์ดตัวกรอง](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
 ## <a name="theming-for-filter-pane"></a>ชุดรูปแบบสำหรับบานหน้าต่างตัวกรอง
 ตอนนี้คุณสามารถปรับเปลี่ยนการตั้งค่าเริ่มต้นของบานหน้าต่างตัวกรองกับไฟล์ชุดรูปแบบ นี่คือส่วนย่อยธีมตัวอย่างเพื่อให้คุณเริ่มต้นใช้:
@@ -224,7 +226,7 @@ ms.locfileid: "68346321"
 
 ## <a name="restrict-changes-to-filter-type"></a>จำกัดการเปลี่ยนแปลงสำหรับชนิดตัวกรอง
 
-ภายใต้ส่วนประสบการณ์การกรองของการตั้งค่ารายงาน คุณมีตัวเลือกที่จะควบคุมว่าผู้ใช้จะสามารถเปลี่ยนชนิดการควบคุมได้หรือไม่
+ภายในหัวข้อประสบการณ์ใช้งานการกรองของการตั้งค่ารายงาน คุณมีตัวเลือกในการควบคุมว่าผู้ใช้สามารถเปลี่ยนชนิดตัวกรองได้หรือไม่
 
 ![จำกัดการเปลี่ยนแปลงสำหรับชนิดตัวกรอง](media/power-bi-report-filter/power-bi-filter-restrict-change.png)
 

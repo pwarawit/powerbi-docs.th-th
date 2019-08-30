@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 75e5a6387574c6cc4a9620955a3e7c15479830c2
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391252"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621311"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการวิเคราะห์คุณภาพผู้จัดหาสินค้าสำหรับ Power BI: ชมการแนะนำ
 
@@ -144,7 +144,7 @@ ms.locfileid: "68391252"
     มีข้อบกพร่องที่เกิดจากวัตถุดิบในปี 2014 มากกว่าของปี 2013  
 
     ![คำถาม Q&A: แสดงชนิดวัสดุ ปี และจำนวนข้อบกพร่องรวม](media/sample-supplier-quality/supplier12.png)  
-6. ถัดไป เปลี่ยนคำถามเป็น *แสดงชนิดของวัสดุ ปี และ **เวลาหยุดทำงานรวมเป็นนาที***  
+6. ถัดไป เปลี่ยนคำถามเป็น: _แสดงชนิดของวัสดุ ปี และ**เวลาหยุดทำงานทั้งหมดเป็นนาที**_  
 
    ![คำถาม Q&A: แสดงชนิดวัสดุ ปี และเวลาหยุดทำงานรวมเป็นนาที](media/sample-supplier-quality/supplier13.png)
 

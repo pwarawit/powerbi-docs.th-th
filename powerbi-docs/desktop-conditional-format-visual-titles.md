@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b4e134ef6f8da43a1856c8a5458c8c09b2c42b5
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 7917edc17bd93d96c22641b14c4c70bfe3222e10
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522177"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621277"
 ---
 # <a name="expression-based-titles-in-power-bi-desktop"></a>ชื่อเรื่องตามนิพจน์ใน Power BI Desktop
 
@@ -57,7 +57,7 @@ SWITCH (
 
 หากต้องการเลือกเขตข้อมูลและนำไปใช้ ให้ไปที่บานหน้าต่าง **การแสดงผลด้วยภาพข้อมูล** ในพื้นที่ **รูปแบบ** ให้เลือก **ชื่อ** เพื่อแสดงตัวเลือกชื่อเรื่องสำหรับวิชวล 
 
-เมื่อคุณคลิกขวาที่ **ข้อความหัวเรื่อง** เมนูบริบทจะปรากฏขึ้นเพื่อให้คุณเลือก ***fx*การจัดรูปแบบตามเงื่อนไข** เมื่อคุณเลือกรายการเมนูนั้น กล่องโต้ตอบ**ข้อความชื่อเรื่อง**จะปรากฏขึ้น 
+เมื่อคุณคลิกขวาที่ **ข้อความหัวเรื่อง** เมนูบริบทจะปรากฏขึ้นเพื่อให้คุณเลือก * **<em>fx</em>การจัดรูปแบบตามเงื่อนไข** เมื่อคุณเลือกรายการเมนูนั้น กล่องโต้ตอบ**ข้อความชื่อเรื่อง**จะปรากฏขึ้น 
 
 ![ภาพหน้าจอของกล่องโต้ตอบข้อความชื่อเรื่อง](media/desktop-conditional-formatting-visual-titles/expression-based-title-02b.png)
 

@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 08/16/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0af278171a00c792e466bbd0e21a3efb5ffa8962
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 93b3be374707b3e49f87d0875795d160f4530410
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389719"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655024"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>การสร้างภาพ R ในบริการ Power BI
 บริการ Power BI สนับสนุนการดูและโต้ตอบกับภาพที่สร้างขึ้น ด้วยสคริปต์ R ภาพที่สร้างขึ้นด้วยสคริปต์ R มักเรียกว่า*ภาพ R* ซึ่งสามารถนำเสนอการปรับรูปร่างข้อมูลและการวิเคราะห์ขั้นสูง เช่น การทำนายโดยใช้การวิเคราะห์ที่มีข้อมูลเต็มเปี่ยมและพลังของการแสดงภาพ R
 
 > [!NOTE]
-> [ภาษาการเขียนโปรแกรม R](https://www.r-project.org/)เป็นหนึ่งในภาษาที่ใช้กันอย่างแพร่หลายที่สุดโดยนักสถิติ นักวิทยาศาสตร์ข้อมูล และนักวิเคราะห์ทางธุรกิจในการเขียนโปรแกรม ภาษา R มีชุมชนทรัพยากรเปิดที่นำเสนอแพคเกจที่เพิ่มเข้ามากกว่า 7,000 แพคเกจ รวมถึงแพคเกจที่ใช้งานอย่างแพร่หลายในกลุ่มผู้ใช้ R เวอร์ชัน R ที่ปรับใช้ในบริการ Power BI เป็น*Revolution R Open 3.2.2.*
+> [ภาษาการเขียนโปรแกรม R](https://www.r-project.org/)เป็นหนึ่งในภาษาที่ใช้กันอย่างแพร่หลายที่สุดโดยนักสถิติ นักวิทยาศาสตร์ข้อมูล และนักวิเคราะห์ทางธุรกิจในการเขียนโปรแกรม ภาษา R มีชุมชนทรัพยากรเปิดที่นำเสนอแพคเกจที่เพิ่มเข้ามากกว่า 7,000 แพคเกจ รวมถึงแพคเกจที่ใช้งานอย่างแพร่หลายในกลุ่มผู้ใช้ R เวอร์ชัน R ที่ปรับใช้ในบริการ Power BI เป็น *Microsoft R 3.4.4.*
 > 
 > 
 

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 08/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 747ff7788ce30f5d4f61c48cc70a737bc74cd612
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565383"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654285"
 ---
 # <a name="power-bi-premium-faq"></a>คำถามที่ถามบ่อยสำหรับ Power BI Premium
 
@@ -76,9 +76,9 @@ Power BI Premium พร้อมใช้งานเป็นแบบเพิ
 
 **พอร์ตเซิร์ฟเวอร์ Power BI คืออะไร? นี่หมายถึงคุณกำลังทำให้ Power BI พร้อมใช้งานภายในองค์กรใช่หรือไม่?**
 
-พอร์ตเซิร์ฟเวอร์ Power BI เป็นเซิร์ฟเวอร์ภายในองค์กรที่อนุญาตให้ปรับใช้และกระจายรายงาน Power BI แบบโต้ตอบและรายงานทางไกล โดยสมบูรณ์ภายในขอบเขตไฟร์วอลล์ขององค์กร เซิร์ฟเวอร์รายงาน Power BI จะพร้อมใช้งานผ่าน Power BI Premium หรือ เป็นสิทธิประโยชน์สำหรับลูกค้าที่มี SQL Server Enterprise Edition พร้อมการรับประกันซอฟต์แวร์ ติดต่อตัวแทน Microsoft สำหรับข้อมูลเพิ่มเติม
+พอร์ตเซิร์ฟเวอร์ Power BI เป็นเซิร์ฟเวอร์ภายในองค์กรที่อนุญาตให้ปรับใช้และกระจายรายงาน Power BI แบบโต้ตอบและรายงานทางไกล โดยสมบูรณ์ภายในขอบเขตไฟร์วอลล์ขององค์กร เซิร์ฟเวอร์รายงาน Power BI จะพร้อมใช้งานผ่าน Power BI Premium หรือ เป็นสิทธิประโยชน์สำหรับลูกค้าที่มี SQL Server Enterprise Edition พร้อมการรับประกันซอฟต์แวร์ สำหรับข้อมูลเกี่ยวกับสิทธิ์การใช้งาน กรุณาดูที่ [สิทธิ์การใช้งานเซิร์ฟเวอร์รายงาน Power BI](report-server/get-started.md#licensing-power-bi-report-server) ติดต่อตัวแทน Microsoft ของคุณเพื่อสอบถามข้อมูลเพิ่มเติม
 
-ด้วย Power BI Premium แกนเสมือนจำนวนเดียวกันที่องค์กรเตรียมใช้งานในระบบคลาวด์สามารถปรับใช้ภายในองค์กรผ่านเซิร์ฟเวอร์รายงาน Power BI ได้ โดยไม่จำเป็นต้องแยกความจุ องค์กรต่าง ๆ สามารถเลือก Power BI ในระบบคลาวด์ หรือเลือกที่จะเก็บรายงานภายในองค์กรด้วยเซิร์ฟเวอร์รายงาน Power BI และย้ายไปยังระบบคลาวด์ของตนตามที่ต้องการได้
+ด้วย Power BI Premium แกนประมวลผลเสมือนจำนวนเดียวกันที่องค์กรเตรียมใช้งานในระบบคลาวด์สามารถปรับใช้ภายในองค์กรผ่านเซิร์ฟเวอร์รายงาน Power BI ได้ โดยไม่จำเป็นต้องแยกความจุ องค์กรต่าง ๆ สามารถเลือก Power BI ในระบบคลาวด์ หรือเลือกที่จะเก็บรายงานภายในองค์กรด้วยเซิร์ฟเวอร์รายงาน Power BI และย้ายไปยังระบบคลาวด์ของตนตามที่ต้องการได้
 
 สำหรับข้อมูลเพิ่มเติม ให้ดู[เริ่มต้นใช้งานเซิร์ฟรายงาน Power BI](report-server/get-started.md)
 

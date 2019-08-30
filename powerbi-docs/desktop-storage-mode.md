@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61364404"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654731"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>โหมดที่เก็บข้อมูลใน Power BI Desktop
 
@@ -62,6 +62,10 @@ ms.locfileid: "61364404"
 * **คู่**: ตารางคู่สามารถแคชหรือไม่แคชก็ได้ ขึ้นอยู่กับบริบทของคิวรีที่ส่งไปยังชุดข้อมูล Power BI ในบางกรณี คุณเติมเต็มคิวรีจากข้อมูลที่ถูกแคช ในอีกกรณี คุณเติมเต็มคิวรีโดยการดำเนินการคิวรีตามคำขอไปยังแหล่งข้อมูล
 
 การเปลี่ยนตารางเป็น **นำเข้า** จะเป็นเป็นการดำเนินการที่ *ผันกลับไม่ได้* คุณสมบัตินี้จะไม่สามารถเปลี่ยนกลับไปยังทั้ง DirectQuery หรือ คู่
+
+> [!NOTE]
+> คุณสามารถใช้โหมดที่เก็บข้อมูล*คู่*ใน Power BI Desktop และในบริการของ Power BI ได้
+
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>ข้อจำกัดใน DirectQuery และ ตารางคู่
 
