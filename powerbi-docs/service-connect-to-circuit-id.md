@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c8c17fe5349486d9583b8f44ccee1af36e86c761
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3c8ef3e522c9f20ff9602d29670ccaf28cd92048
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61181036"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185931"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>เชื่อมต่อกับ Circuit ID ด้วย Power BI
 การวิเคราะห์ข้อมูลติดต่อสื่อสารของคุณจาก Circuit ID ทำได้ง่ายขึ้นด้วย Power BI Power BI เรียกคืนข้อมูลของคุณ จากนั้นสร้างแดชบอร์ดค่าเริ่มต้นและรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลนั้น หลังจากที่คุณได้สร้างการเชื่อมต่อแล้ว คุณสามารถสำรวจข้อมูลของคุณและปรับแต่งแดชบอร์ดตามความต้องการของคุณได้ ข้อมูลจะถูกรีเฟรชทุกวันโดยอัตโนมัติ
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 เชื่อมต่อไปยัง[ชุดเนื้อหา Circuit ID](https://app.powerbi.com/getdata/services/circuitid)สำหรับ Power BI
 

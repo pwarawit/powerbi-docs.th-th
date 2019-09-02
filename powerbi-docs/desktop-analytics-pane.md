@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3919d869c696617fa97351f352084e5a57e6b06e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 861a1d43f023e3ceba17fba90bcbc703e3195c84
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239513"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160172"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>การใช้บานหน้าต่างการวิเคราะห์ใน Power BI Desktop
 ด้วยบานหน้าต่าง**การวิเคราะห์**ใน **Power BI Desktop** คุณสามารถเพิ่ม*สายการอ้างอิง*แบบไดนามิกกับวิชวล และเน้นให้เห็นแนวโน้มที่สำคัญหรือข้อมูลเชิงลึกได้ บานหน้าต่าง**การวิเคราะห์** จะอยู่ในบริเวณ**การจัดรูปแบบการแสดงข้อมูล**ของ Power BI Desktop
@@ -84,7 +84,6 @@ ms.locfileid: "65239513"
 * แผนภูมิพื้นที่
 * แผนภูมิเส้น
 * แผนภูมิกระจาย
-* แผนภูมิกลุ่มคอลัมน์
 * แผนภูมิแท่งแบบกลุ่ม
 
 วิชวลต่อไปนี้สามารถใช้เฉพาะ*เส้นคงที่*จากบานหน้าต่าง**การวิเคราะห์**:

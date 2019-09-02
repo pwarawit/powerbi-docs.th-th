@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2a19cc832f7e03acfd224c6ab2409016ce8da770
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 07ba5c79245e4c87acee90c2c7c6a48df7a2d0e0
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61179878"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186100"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>เชื่อมต่อกับ appFigures ด้วย Power BI
 การติดตามสถิติที่สำคัญเกี่ยวกับแอปฯของคุณใช้งานได้ง่าย ด้วย Power BI และชุดเนื้อหา appFigures Power BI เรียกคืนข้อมูลของคุณ รวมถึงแอปฯการขาย ดาวน์โหลด และสถิติโฆษณา จากนั้นสร้างแดชบอร์ดค่าเริ่มต้นและรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลนั้น
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 เชื่อมต่อไปยัง[ชุดเนื้อหา appFigures](https://app.powerbi.com/getdata/services/appfigures)หรืออ่านเพิ่มเติมเกี่ยวกับการ[รวม appFigures](https://powerbi.microsoft.com/integrations/appfigures)กับ Power BI
 

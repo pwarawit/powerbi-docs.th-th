@@ -939,8 +939,8 @@
           href: report-builder-tables-matrices-lists.md
         - name: พารามิเตอร์
           href: report-builder-parameters.md
-        - name: นิพจน์
-          href: report-builder-expressions.md
+        - name: พารามิเตอร์ URL ในรายงานเลขหน้า
+          href: report-builder-url-parameters.md
         - name: ตัวอย่างนิพจน์
           href: report-builder-expression-examples.md
         - name: การแบ่งหน้ารายงาน
@@ -959,6 +959,8 @@
           href: paginated-reports-create-embedded-dataset.md
         - name: สร้างพารามิเตอร์
           href: paginated-reports-parameters.md
+        - name: ส่งพารามิเตอร์รายงานใน URL
+          href: report-builder-url-pass-parameters.md
         - name: เผยแพร่รายงานที่มีการแบ่งหน้า
           href: paginated-reports-save-to-power-bi-service.md
 - name: Power BI สำหรับนักพัฒนา

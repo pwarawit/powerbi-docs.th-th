@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 41b390190f8ce3c071f790edcdf86f0e3bd4a0c2
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: c24a508652b147b6fc684039d2965f9935b624c0
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721305"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186035"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>เชื่อมต่อกับ AT Internet Bridge ด้วย Power BI
 AT Internet ช่วยให้คุณสามารถแยกค่าใช้ทันทีจากข้อมูลของคุณโดยใช้แพลตฟอร์มการวิเคราะห์ดิจิทัลแบบครบวงจร นั่นคือ ชุดโปรแกรมวิเคราะห์ (Analytics Suit) ชุดเนื้อหา AT Internet Bridge สำหรับ Power BI มีข้อมูลสำหรับการเยี่ยมชม แหล่งที่มา การแปลเป็นภาษาท้องถิ่น และอุปกรณ์สำหรับไซต์ของคุณ
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 เชื่อมต่อไปยัง[ชุดเนื้อหา AT Internet Bridge](https://app.powerbi.com/getdata/services/at-internet-bridge)สำหรับ Power BI
 
@@ -61,5 +63,5 @@ AT Internet ช่วยให้คุณสามารถแยกค่า�
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [Power BI คืออะไร](power-bi-overview.md)
 
-[แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)
+[แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
 
