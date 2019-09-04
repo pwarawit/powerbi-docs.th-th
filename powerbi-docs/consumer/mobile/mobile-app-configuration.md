@@ -1,7 +1,7 @@
 ---
 title: การตั้งค่าการกำหนดค่าแอป Power BI ระบบ iOS
 description: วิธีการกำหนดลักษณะการทำงานของ Power BI สำหรับ iOS โดยใช้เครื่องมือ MDM
-author: mshenhav
+author: paulinbar
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: mshenhav
-ms.openlocfilehash: a0883927f3a0a09bbe4d1ed618b7d5f708807464
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: bc9c6dd8cd892ab0304cc5a99a3bb780486f32f0
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66817018"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160153"
 ---
 # <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>กำหนดค่าแอป Power BI ระบบ iOS โดยใช้เครื่องมือจัดการอุปกรณ์เคลื่อนที่ (Mobile device management, MDM) จากระยะไกล
 
@@ -34,7 +34,7 @@ ms.locfileid: "66817018"
 | com.microsoft.powerbi.mobile.ServerURL | สตริง | URL ของรีพอร์ตเซิร์ฟเวอร์<br><br>ควรเริ่มต้นด้วย http/https|
 | com.microsoft.powerbi.mobile.ServerUsername | สตริง | [เป็นทางเลือก]<br><br>ชื่อผู้ใช้เพื่อใช้สำหรับการเชื่อมต่อเซิร์ฟเวอร์<br><br>หากไม่มีชื่ออยู่ แอปจะปรากฏข้อควมให้ผู้ใช้ให้พิมพ์ชื่อผู้ใช้สำหรับการเชื่อมต่อ|
 | com.microsoft.powerbi.mobile.ServerDisplayName | สตริง | [เป็นทางเลือก]<br><br>ค่าเริ่มต้นเป็น "เซิร์ฟเวอร์รายงาน"<br><br>ชื่อที่เรียกง่ายที่ใช้ในแอปเพื่อเป็นตัวแทนเซิร์ฟเวอร์ |
-| com.microsoft.powerbi.mobile.OverrideServerDetails | บูลีน | [เป็นทางเลือก]<br><br>ค่าเริ่มต้นเป็น True เมื่อตั้งค่าเป็น True จะแทนที่ข้อกำหนดของเซิร์ฟเวอร์รายงานใด ๆ ที่อยู่ในอุปกรณ์เคลื่อนที่อยู่แล้ว เซิร์ฟเวอร์ที่มีอยู่ที่ถูกกำหนดค่าไว้จะถูกลบ การแทนการตั้งค่าเป็น True ยังช่วยป้องกันไม่ให้ผู้ใช้ลบการกำหนดค่านั้นด้วย<br><br>การตั้งค่าเป็น False จะเพิ่มค่าที่ส่ง ออกจากการตั้งค่าที่มีอยู่ หากมีการกำหนดค่า URL เซิร์ฟเวอร์เดียวกันในแอปสำหรับอุปกรณ์เคลื่อนที่แล้ว แอปจะปิดการกำหนดค่าดังกล่าวด้วย แอปจะไม่ขอให้ผู้ใช้ตรวจสอบสิทธิ์ซ้ำสำหรับเซิร์ฟเวอร์เดียวกัน |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | บูลีน | [เป็นทางเลือก]<br><br>ค่าเริ่มต้นเป็น True เมื่อตั้งค่าเป็น True จะแทนที่ข้อกำหนดของเซิร์ฟเวอร์รายงานใด ๆ ที่อยู่ในอุปกรณ์เคลื่อนที่อยู่แล้ว เซิร์ฟเวอร์ที่มีอยู่ที่ถูกกำหนดค่าไว้จะถูกลบ การแทนการตั้งค่าเป็น True ยังช่วยป้องกันไม่ให้ผู้ใช้ลบการกำหนดค่านั้นด้วย<br><br>การตั้งค่าเป็น False จะเพิ่มค่าที่ส่ง โดยคงการตั้งค่าที่มีอยู่ไว้ หากมีการกำหนดค่า URL เซิร์ฟเวอร์เดียวกันในแอปสำหรับอุปกรณ์เคลื่อนที่แล้ว แอปจะปิดการกำหนดค่าดังกล่าวด้วย แอปจะไม่ขอให้ผู้ใช้ตรวจสอบสิทธิ์ซ้ำสำหรับเซิร์ฟเวอร์เดียวกัน |
 
 ## <a name="data-protection-setting"></a>การตั้งค่าการป้องกันข้อมูล
 

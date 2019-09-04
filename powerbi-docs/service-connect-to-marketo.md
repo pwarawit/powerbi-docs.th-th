@@ -7,18 +7,21 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 66dcbd76d76de04675204674626c2942aef515fa
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61172851"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70201006"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>เชื่อมต่อกับ Marketo ด้วย Power BI
 ชุดเนื้อหา Power BI สำหรับ Marketo ช่วยคุณรับข้อมูลเชิงลึกลงในบัญชี Marketo ของคุณได้ด้วยข้อมูลสำหรับลูกค้าเป้าหมายและกิจกรรมของพวกลูกค้าเป้าหมายเหล่านี้ การสร้างการเชื่อมต่อนี้จะดึงข้อมูลของคุณและให้แดชบอร์ดและรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลนั้นโดยอัตโนมัติ
+
+>[!IMPORTANT]
+>เราจะเลิกใช้ชุดเนื้อหานี้ในวันที่ 4 กันยายน 2019 หากคุณติดตั้งชุดเนื้อหานี้ก่อนหน้านั้น ชุดดังกล่าวจะยังคงทำงานต่อไป แต่คุณจะไม่สามารถติดตั้งชุดใหม่ได้หลังจากนั้น แอปแม่แบบจะเป็นตัวแทนที่สำหรับชุดเนื้อหาบริการ
 
 เชื่อมต่อไปยัง[ชุดเนื้อหา Marketo](https://app.powerbi.com/getdata/services/marketo)สำหรับ Power BI
 

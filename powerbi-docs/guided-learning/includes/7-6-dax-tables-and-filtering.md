@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: d7f30dd43fe875380939520f3dc54fcbbe2f4c9c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 629c53358f757002f2b3dcda468641bbaaa2f4d4
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273651"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70166791"
 ---
 ข้อแตกต่างหลักอย่างหนึ่งระหว่างภาษาสูตรของ **DAX** และ Excel คือ DAX อนุญาตให้คุณผ่าน*ทั้งตาราง*ได้ระหว่างนิพจน์ แทนที่จะถูกจำกัดอยู่ที่ค่าเดี่ยว ผลกระทบใหญ่อย่างหนึ่งคือ DAX อนุญาตให้คุณกรองตารางในนิพจน์ได้ จากนั้น DAX จะทำงานกับชุดค่าที่ได้รับการกรองแล้ว
 

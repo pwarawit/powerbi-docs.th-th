@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 757a2ca5a88e8ee98aa1c460c30e001f14bc6789
-ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.openlocfilehash: f18dae9ecd0eff0b7f62a3152fc59c81f1292ba4
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66814347"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160381"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>บทช่วยสอน: รวมข้อมูลยอดขายจาก Excel และตัวดึงข้อมูล OData
 
@@ -52,7 +52,7 @@ ms.locfileid: "66814347"
    
 การแสดงตัวอย่างของตารางเปิดขึ้นใน**ตัวแก้ไข Power Query** ที่คุณสามารถใช้การแปลงเพื่อล้างข้อมูล
    
-![ตัวแก้ไข Power Query](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
+![Power Query Editor](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
    
 >[!NOTE]
 >คุณยังสามารถเปิด**ตัวแก้ไข Power Query** โดยการเลือก **แก้ไขคิวรี** > **แก้ไขคิวรี** จาก ribbon **หน้าแรก** ใน Power BI Desktop โดยคลิกขวา หรือเลือก**ตัวเลือกเพิ่มเติม** ถัดจากคิวรีใด ๆ ใน**มุมมองรายงาน** และเลือก**แก้ไขคิวรี**
@@ -119,7 +119,7 @@ ms.locfileid: "66814347"
    
 2. ในกล่องโต้ตอบ**คอลัมน์แบบกำหนดเอง** พิมพ์ **LineTotal** ในเขตข้อมูล**ชื่อคอลัมน์ใหม่**
 
-3. ในเขตข้อมูล**สูตรคอลัมน์แบบกำหนดเอง**หลังจาก the **= ใส่ **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** (คุณยังสามารถเลือกชื่อเขตข้อมูลจากกล่องเลื่อน**คอลัมน์ที่มีให้เลือกใช้งาน** และเลือก **<< แทรก** แทนที่จะพิมพ์ลงไป) 
+3. ในเขตข้อมูล**สูตรคอลัมน์แบบกำหนดเอง**หลังจาก *=* ใส่ **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** (คุณยังสามารถเลือกชื่อเขตข้อมูลจากกล่องเลื่อน**คอลัมน์ที่มีให้เลือกใช้งาน** และเลือก **<< แทรก** แทนที่จะพิมพ์ลงไป) 
 
 4. เลือก**ตกลง**
    

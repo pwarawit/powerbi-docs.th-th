@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621255"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160372"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับที่เก็บกระแสข้อมูล (ตัวอย่าง)
 
@@ -115,19 +115,19 @@ ms.locfileid: "69621255"
 
     ![ค้นหาแอปพลิเคชัน Power](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. เลือกและคัดลอกทั้ง Object ID สำหรับบริการของ Power BI และ Power Query ออนไลน์จากผลลัพธ์การค้นหาของคุณ เตรียมพร้อมที่จะวางค่าตัวเลขเหล่านั้นในขั้นตอนต่อไป
+5. เลือกและคัดลอกทั้ง Object ID สำหรับบริการของ Power BI Premium และ Power Query ออนไลน์จากผลลัพธ์การค้นหาของคุณ เตรียมพร้อมที่จะวางค่าตัวเลขเหล่านั้นในขั้นตอนต่อไป
 
-7. ถัดไป ใช้**Azure Storage Explorer**เพื่อนำทางไปยังไฟล์ระบบ*powerbi*ที่คุณสร้างขึ้นในส่วนก่อนหน้านี้ ทำตามคำแนะนำในบทความ[การจัดการการเข้าถึง](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)ในส่วนของ[ตั้งค่าไฟล์และระดับสิทธิ์การให้อนญาตการเข้าถึงโดยใช้ Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)
+6. ถัดไป ใช้**Azure Storage Explorer**เพื่อนำทางไปยังไฟล์ระบบ*powerbi*ที่คุณสร้างขึ้นในส่วนก่อนหน้านี้ ทำตามคำแนะนำในบทความ[การจัดการการเข้าถึง](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)ในส่วนของ[ตั้งค่าไฟล์และระดับสิทธิ์การให้อนญาตการเข้าถึงโดยใช้ Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)
 
-8. สำหรับ Power BI Object ID แต่ละคู่ที่ถูกเก็บไว้ในขั้นตอนที่ 5 กำหนดให้ **อ่าน**, **เขียน**, **ดำเนินการ** เข้าถึงและตั้งเป็นค่าเริ่มต้น ACL ให้กับไฟล์ระบบ *powerbi* ของคุณ
+7. สำหรับ Object ID ของ Power BI Premium แต่ละคู่ที่เก็บไว้ในขั้นตอนที่ 5 กำหนด **การอ่าน**, **การเขียน**, **การดำเนินการ** การเข้าถึงและการตั้งเป็น ACL ค่าเริ่มต้น สำหรับไฟล์ระบบ *powerbi* ของคุณ
 
    ![สำหรับทั้งคู่ กำหนดทั้งสาม](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. สำหรับ Power Query Online Object ID ที่เก็บไว้ในขั้นตอนที่ 4 กำหนดให้ **เขียน**, **ดำเนินการ** เข้าถึงและตั้งเป็นค่าเริ่มต้น ACL ในระบบไฟล์*powerbi* ของคุณ
+8. สำหรับ Power Query Online Object ID ที่เก็บไว้ในขั้นตอนที่ 4 กำหนดให้ **เขียน**, **ดำเนินการ** เข้าถึงและตั้งเป็นค่าเริ่มต้น ACL ในระบบไฟล์*powerbi* ของคุณ
 
    ![ถัดไป กำหนดให้เขียนและดำเนินการ](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
-10. นอกจากนี้ สำหรับ**อื่น ๆ**, กำหนด**ดำเนินการ** เข้าถึงและตั้งเป็นค่าเริ่มต้น ACL เช่นกัน
+9. นอกจากนี้ สำหรับ**อื่น ๆ**, กำหนด**ดำเนินการ** เข้าถึงและตั้งเป็นค่าเริ่มต้น ACL เช่นกัน
 
     ![สุดท้าย สำหรับกำหนดการดำเนินการอื่น ๆ](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 

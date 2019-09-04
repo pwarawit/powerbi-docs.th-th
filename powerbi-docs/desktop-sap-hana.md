@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/21/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f40ed1b3950ace0b3cb362a22670e98c3ef83112
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.openlocfilehash: 1932848cb2f8ad7d75e841870265cc22308467c2
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985672"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200876"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>ใช้ SAP HANA ใน Power BI Desktop
 ตอนนี้คุณสามารถเข้าถึงฐานข้อมูล**SAP HANA**ได้ด้วย Power BI Desktop ในการใช้**SAP HANA**จะต้องติดตั้งไดรเวอร์ ODBC SAP Hana บนคอมพิวเตอร์ผู้รับบริการท้องถิ่นเพื่อให้การเชื่อมต่อข้อมูล**SAP HANA**ของ Power BI Desktop สามารถทำงานได้อย่างเหมาะสม คุณสามารถดาวน์โหลดไดรเวอร์ ODBC SAP HANA ได้จาก[ศูนย์ดาวน์โหลดซอฟต์แวร์ SAP](https://support.sap.com/swdc) ในศูนย์ดาวโหลดซอฟต์แวร์ ให้ค้นหา SAP HANA CLIENT สำหรับคอมพิวเตอร์ที่ใช้ Windows เนื่องด้วย**ศูนย์ดาวน์โหลดซอฟต์แวร์ SAP**นั้นมีการเปลี่ยนแปลงโครงสร้างบ่อยครั้ง คำแนะนำการนำทางที่เฉพาะเจาะจงมากกว่านี้ในเว็บไซต์ดังกล่าวจึงไม่พร้อมใช้งาน
@@ -25,9 +25,7 @@ ms.locfileid: "69985672"
 
 ![](media/desktop-sap-hana/sap-hana-1.png)
 
-เมื่อทำการเชื่อมต่อกับฐานข้อมูล SAP HANA ให้ระบุชื่อเซิร์ฟเวอร์และพอร์ตในรูปแบบ*เซิร์ฟเวอร์:พอร์ต* รูปต่อไปนี้แสดงตัวอย่างเซิร์ฟเวอร์ชื่อว่า*ServerXYZ*และพอร์ต*30015*
-
-![](media/desktop-sap-hana/sap-hana-2.png)
+เมื่อเชื่อมต่อกับฐานข้อมูล SAP HANA ให้ระบุชื่อเซิร์ฟเวอร์ จากนั้นจากกล่องดรอปดาวน์และป้อนข้อมูล ให้ระบุพอร์ต
 
 ในรุ่นนี้**SAP HANA**ในโหมด[DirectQuery](desktop-directquery-sap-hana.md)ได้รับการสนับสนุนการใช้งานใน Power BI Desktop และ บริการ Power BI และคุณสามารถเผยแพร่การอัปโหลดรายงานที่ใช้**SAP Hana**ใน โหมด DirectQuery ไปยังบริการ Power BI คุณยังสามารถเผยแพร่ และอัปโหลดรายงานไปยังบริการ Power BI เมื่อไม่ได้ใช้**SAP HANA**ในโหมด DirectQuery ได้อีกด้วย
 

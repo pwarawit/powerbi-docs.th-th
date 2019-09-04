@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 08/29/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dae93a2555101a42f072158f8536319783b3f973
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 5455a5f3b4bda6cf6d63825222822c4acfa5f03a
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809111"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159944"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>แหล่งข้อมูลที่สนับสนุนโดย DirectQuery Power BI
 
@@ -34,6 +34,7 @@ ms.locfileid: "66809111"
 * ฐานข้อมูล IBM DB2
 * IBM Netezza
 * Impala (รุ่น 2.x)
+* MarkLogic
 * ฐานข้อมูล Oracle (เวอร์ชัน 12 หรือสูงกว่า)
 * Oracle Essbase
 * เซิร์ฟเวอร์แอปพลิเคชัน SAP Business Warehouse

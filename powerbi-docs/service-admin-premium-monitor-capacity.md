@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b57f444f11c9592d80ffccf7a80be5fa9c7dcf3b
-ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
+ms.openlocfilehash: 9f5e2715af5b3fd898d3c7f0486c8b75463a1c42
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70008116"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030188"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>ตรวจสอบความจุ Premium ด้วยแอป
 
@@ -244,7 +244,7 @@ ms.locfileid: "70008116"
 
 | **ส่วนรายงาน** | **การวัด** |
 | --- | --- |
-| การใช้ CPU |  การใช้งานตามปริมาณงานเป็นเปอร์เซ็นต์ของความจุ CPU ทั้งหมด แสดงเป็นรายชั่วโมงสำหรับช่วงเจ็ดวันก่อนหน้า |
+| การใช้ CPU |  ปริมาณการใช้ CPU สูงสุดในระหว่างชั่วโมงโดยปริมาณงานเป็นเปอร์เซ็นต์ของความจุ CPU ทั้งหมด แสดงเป็นรายชั่วโมงสำหรับช่วงเจ็ดวันก่อนหน้า |
 | การใช้หน่วยความจำ |  ปริมาณการใช้หน่วยความจำสูงสุดระหว่างเวลาทำงานในหน่วย GB ตามปริมาณงาน (เส้นทึบ) ซ้อนทับกับขีดจำกัดปริมาณงาน (เส้นประ) แสดงเป็นรายชั่วโมงสำหรับช่วงเจ็ดวันก่อนหน้า |
 |  |  |
 

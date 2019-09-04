@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d1739d97b0741c67e29ed7ab9a35a70bf4fdc484
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654846"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70201011"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>เริ่มต้นใช้งานกับ Power BI Desktop
 ยินดีต้อนรับสู่ตัว**แนวทางการเริ่มใช้งาน Power BI Desktop** การทัวร์สั้น ๆ สำหรับ Power BI Desktop นี้ช่วยให้คุณคุ้นเคยกับวิธีการที่ Power BI Desktop ทำงาน สาธิตสิ่งที่ Power BI Desktop สามารถทำได้ และเร่งความสามารถของคุณในการสร้างแบบจำลองข้อมูลอย่างมีประสิทธิภาพ พร้อมกับรายงานที่น่าทึ่ง ที่ช่วยในการทำงานด้านข่าวกรองทางธุรกิจของคุณ 
@@ -105,6 +105,9 @@ Power BI Desktop จะติดตั้งแอปพลิเคชันห
  ![](media/desktop-getting-started/designer_gsg_editquery.png)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเชื่อมต่อกับข้อมูล ดู[เชื่อมต่อกับข้อมูลใน Power BI Desktop](desktop-connect-to-data.md)
+
+> [!NOTE]
+> ข้อมูลตารางที่อ้างอิงถึงในบทความนี้อาจเปลี่ยนแปลงได้เมื่อเวลาผ่านไป ดังนั้นขั้นตอนที่คุณต้องทำตามอาจแตกต่างจากรายการต่อไปนี้ ซึ่งจำเป็นต้องใช้ความคิดสร้างสรรค์เกี่ยวกับวิธีการปรับขั้นตอนหรือผลลัพธ์ ซึ่งเป็นส่วนหนึ่งของความสนุกในการเรียนรู้ 
 
 ในส่วนถัดไป เราปรับข้อมูลเพื่อให้เป็นไปตามความต้องการของเรา ขั้นตอนการปรับปรุงที่เชื่อมต่อข้อมูลจะเรียกว่า*การจัดรูปร่าง*
 
