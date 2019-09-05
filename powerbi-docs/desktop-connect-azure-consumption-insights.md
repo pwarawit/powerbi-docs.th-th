@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 80eb366015de3822b9c8c455f1ee386a34e1f457
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: 0474bc4182f77e7084ca8cb78062ba0f2063e7ae
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560994"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160201"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>วิเคราะห์ข้อมูลค่าใช้จ่ายและใช้งาน Azure ใน Power BI desktop
 
@@ -27,6 +27,10 @@ Power BI ในขณะนี้สนับสนุนการเชื่�
 * ผู้ใช ้**Enterprise Agreement** ควรเชื่อมต่อกับ **ตัวเชื่อมต่อข้อมูลรายจ่ายเชิงลึกของ Azure** (ด้านล่าง)
 
 * ผู้ใช้ **Customer Agreement** ควรเชื่อมต่อกับ [**ตัวเชื่อมต่อ Azure Cost Management**](#connect-with-azure-cost-management)
+
+> [!NOTE]
+> ถ้าคุณเป็นลูกค้า Enterprise Agreement โดยใช้ตัวเชื่อมต่อ Azure Cost Management และคุณไม่เห็น*รหัสโปรไฟล์การเรียกเก็บเงิน* ในเบลด Cost Management นั่นหมายความว่าคุณไม่ได้อยู่ในแพลตฟอร์ม Modern Commerce สำหรับกรณีเหล่านั้น ใช้ตัวเชื่อมต่อ Azure Consumption Insights ซึ่งต้องการหมายเลขการลงทะเบียน EA แทน*รหัสโปรไฟล์การเรียกเก็บเงิน*
+
 
 ## <a name="connect-with-azure-consumption-insights"></a>เชื่อมต่อกับ Azure Consumption Insights
 

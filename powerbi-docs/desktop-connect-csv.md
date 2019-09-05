@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f1e02197f36da66a64fac95209fe8fabaa67b6c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8eecbfdaa948163ab6d0623a70f237d479fcdb88
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514180"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200933"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>เชื่อมต่อกับไฟล์ CSV ใน Power BI Desktop
 การเชื่อมต่อกับแฟ้มที่ใช้จุลภาคเป็นตัวคั่น (*CSV*) จาก Power BI Desktop เหมือนการเชื่อมต่อกับเวิร์กบุ๊ก Excel มาก ทั้งสองเป็นเรื่องง่าย และบทความนี้จะพาคุณไปตามขั้นตอน วิธีการเชื่อมต่อกับไฟล์ CSV ใด ๆ ที่คุณสามารถเข้าถึงได้
@@ -44,6 +44,10 @@ ms.locfileid: "65514180"
 นั่นคือทั้งหมดที่คุณต้องทำ – ข้อมูลจากไฟล์ CSV ของคุณในขณะนี้ อยู่ใน Power BI Desktop เรียบร้อยแล้ว
 
 คุณสามารถใช้ข้อมูลดังกล่าวใน Power BI Desktop เพื่อสร้างวิชวล รายงาน หรือโต้ตอบกับข้อมูลอื่น ๆ ที่คุณอาจต้องการเชื่อมต่อและนำเข้า เช่น เวิร์กบุ๊ก Excel, ฐานข้อมูล หรือแหล่งข้อมูลอื่น
+
+> [!IMPORTANT]
+> เมื่อคุณนำเข้าไฟล์ CSV, Power BI Desktop จะสร้าง*คอลัมน์ = x* (โดยที่*x*คือจำนวนคอลัมน์ในไฟล์ CSV ในระหว่างการนำเข้าเริ่มต้น) เป็นขั้นตอนในตัวแก้ไข Power Query หากคุณเพิ่มคอลัมน์เพิ่มเติมในภายหลังและแหล่งข้อมูลถูกตั้งค่าให้รีเฟรช คอลัมน์ใด ๆ ที่เกินจำนวนคอลัมน์ *x* เริ่มต้น จะไม่รีเฟรช 
+
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 มีข้อมูลหลากหลายประเภทที่คุณสามารถเชื่อมต่อโดยใช้ Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแหล่งข้อมูล โปรดดูทรัพยากรต่อไปนี้:
