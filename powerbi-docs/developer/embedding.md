@@ -1,9 +1,9 @@
 ---
 title: การวิเคราะห์แบบฝังตัวด้วย Power BI
 description: Power BI มี API เพื่อใช้การวิเคราะห์แบบฝังตัวสำหรับแดชบอร์ดและรายงานในแอปพลิเคชัน เรียนรู้เพิ่มเติมเกี่ยวกับการฝังด้วย Power BI ทั้งในสภาพแวดล้อม PaaS และสภาพแวดล้อม SaaS โดยใช้ซอฟต์แวร์การวิเคราะห์แบบฝังตัว เครื่องมือการวิเคราะห์แบบฝังตัว หรือเครื่องมือข่าวกรองธุรกิจอัจฉริยะแบบฝังตัว
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
@@ -17,12 +17,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 8154370a78f418148381c201ba0c2bd50d8ae021
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: d2e52ff986bb2bba0caf5168c5038bb55011144a
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497915"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391528"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>การวิเคราะห์แบบฝังตัวด้วย Power BI
 
