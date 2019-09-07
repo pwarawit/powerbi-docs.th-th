@@ -295,7 +295,7 @@
               href: desktop-see-data-see-records.md
             - name: เคล็ดลับสำหรับการสร้างรายงาน
               href: desktop-tips-and-tricks-for-creating-reports.md
-        - name: การแสดงภาพ
+        - name: การแสดงข้อมูลด้วยภาพ
           items:
             - name: การแสดงข้อมูลใน Power BI
               href: visuals/power-bi-report-visualizations.md
@@ -403,6 +403,8 @@
       items:
         - name: Power BI คืออะไร
           href: power-bi-overview.md
+        - name: บริการ Power BI คืออะไร
+          href: power-bi-service-overview.md
         - name: การเปรียบเทียบ Power BI Desktop และการบริการ
           href: service-service-vs-desktop.md
     - name: บทช่วยสอน
