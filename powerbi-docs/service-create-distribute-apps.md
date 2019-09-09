@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ed3a65e25694c23e1852a554742e0f8a6e6ff668
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530589"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751574"
 ---
 # <a name="publish-an-app-in-power-bi"></a>เผยแพร่แอปใน Power BI
 
@@ -127,7 +127,7 @@ ms.locfileid: "69530589"
 เมื่อต้องการเพิ่มลิงก์ในการนำทางแอปและการเลือกตัวเลือกพื้นที่เนื้อหา:
 * ให้แน่ใจว่าสามารถฝังลิงก์ได้ บริการบางอย่างจะบล็อกการฝังเนื้อหาของตนในไซต์ของบริษัทอื่นเช่น Power BI
 * การฝังเนื้อหาบริการของ Power BI เช่น รายงานหรือแดชบอร์ดในพื้นที่ทำงานอื่น ๆ ไม่ได้รับการสนับสนุน 
-* ฝังเนื้อหาเซิร์ฟเวอร์รายงาน Power BI ผ่านเนื้อหา URL แบบฝังอันเดิมจากการปรับใช้งานภายในองค์กร ใช้ขั้นตอนใน[การสร้าง URL ของเซิร์ฟเวอร์รายงาน Power BI](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#creating-the-power-bi-report-server-report-url) เพื่อรับ URL โปรดทราบว่ามีการใช้กฎการตรวจสอบความถูกต้องตามปกติ ดังนั้นการดูเนื้อหาต้องใช้การเชื่อมต่อ VPN กับเซิร์ฟเวอร์ภายในองค์กร 
+* ฝังเนื้อหาเซิร์ฟเวอร์รายงาน Power BI ผ่านเนื้อหา URL แบบฝังอันเดิมจากการปรับใช้งานภายในองค์กร ใช้ขั้นตอนใน[การสร้าง URL ของเซิร์ฟเวอร์รายงาน Power BI](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) เพื่อรับ URL โปรดทราบว่ามีการใช้กฎการตรวจสอบความถูกต้องตามปกติ ดังนั้นการดูเนื้อหาต้องใช้การเชื่อมต่อ VPN กับเซิร์ฟเวอร์ภายในองค์กร 
 * คำเตือนด้านความปลอดภัยจะปรากฏที่ด้านบนของเนื้อหาแบบฝังตัวเพื่อระบุว่าเนื้อหาไม่ได้อยู่ใน Power BI
 
 

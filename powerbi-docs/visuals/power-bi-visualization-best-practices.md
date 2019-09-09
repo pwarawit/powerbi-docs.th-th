@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 53a8847f96d6aa3143e91cab07029a8e0f6afc85
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 5bae8983df58353ea57e073defb001795976591b
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523741"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751705"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>แนวทางปฏิบัติที่ดีที่สุดของการออกแบบสำหรับรายงานและรูปภาพ
 
@@ -823,7 +823,7 @@ Power BI มีภาพหลายชนิดที่อยู่ในร�
 
 สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับแผนภูมิแท่งและแผนภูมิคอลัมน์:
 
-* [การแสดงภาพข้อมูลเบื้องต้น: แผนภูมิแท่ง](http://blog.newscred.com/article/data-visualization-101-bar-charts)
+* [การแสดงภาพข้อมูลเบื้องต้น: แผนภูมิแท่ง](https://insights.newscred.com/data-visualization-101-bar-charts/)
 
 * [แค็ตตาล็อกการแสดงภาพข้อมูล: แผนภูมิแท่ง](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
 

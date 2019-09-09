@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: bbd40173bd10abf312ff382a9452f7636234bc95
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523234"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751673"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>การรักษาความปลอดภัยระดับแถวแบบไดนามิกกับรูปแบบตารางข้อมูล Analysis Services
 
@@ -35,7 +35,7 @@ ms.locfileid: "68523234"
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>งานที่ 1: สร้างตารางความปลอดภัยของผู้ใช้และกำหนดความสัมพันธ์ข้อมูล
 
-คุณสามารถหาบทความมากมายที่อธิบายถึงวิธีกำหนดระดับการรักษาความปลอดภัยแบบไดนามิกระดับแถวด้วยรูปแบบ**ตาราง SQL Server Analysis Services (SSAS)** สำหรับตัวอย่างของเรา เราใช้ [การใช้การรักษาความปลอดภัยแบบไดนามิกโดยใช้ตัวกรองแถว](https://msdn.microsoft.com/library/hh479759.aspx) 
+คุณสามารถหาบทความมากมายที่อธิบายถึงวิธีกำหนดระดับการรักษาความปลอดภัยแบบไดนามิกระดับแถวด้วยรูปแบบ**ตาราง SQL Server Analysis Services (SSAS)** สำหรับตัวอย่างของเรา เราใช้ [การใช้การรักษาความปลอดภัยแบบไดนามิกโดยใช้ตัวกรองแถว](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters) 
 
 ขั้นตอนต่าง ๆ ในส่วนนี้จะต้องใช้ฐานข้อมูลเชิงสัมพันธ์ **AdventureworksDW2012**
 

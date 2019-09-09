@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9f5357056c27d6461ad7f7d7fba1daa27a508868
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391149"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750915"
 ---
 # <a name="optimizing-premium-capacities"></a>การปรับความจุแบบพรีเมียมให้เหมาะสม
 
@@ -257,7 +257,7 @@ ms.locfileid: "68391149"
 
 ถ้าคุณมีความจุและรายงานที่คุณต้องการการทดสอบโหลดแล้ว ให้ใช้ [เครื่องมือการสร้างโหลดของ PowerShell](https://aka.ms/PowerBILoadTestingTool) เพื่อสร้างการทดสอบโหลดอย่างรวดเร็ว เครื่องมือนี้ช่วยให้คุณสามารถประมาณจำนวนอินสแตนซ์ของแต่ละรายงานที่ความจุของคุณสามารถเรียกใช้งานได้ในหนึ่งชั่วโมง คุณสามารถใช้เครื่องมือเพื่อประเมินขีดความสามารถของความจุสำหรับการแสดงรายงานแต่ละครั้ง หรือสำหรับการแสดงรายงานที่แตกต่างกันหลายรายการควบคู่ไป สำหรับข้อมูลเพิ่มเติม ให้ดูวิดีโอ[Microsoft Power BI: ความจุแบบพรีเมียม](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw)
 
-หากต้องสร้างการทดสอบที่ซับซ้อนมากขึ้น ให้ลองพัฒนาแอปพลิเคชันการทดสอบโหลดเพื่อจำลองปริมาณงานจริง สำหรับข้อมูลเพิ่มเติม ให้ดูการสัมมนาผ่านเว็บ [การทดสอบโหลดของแอปพลิเคชัน Power BI ที่มีการทดสอบการโหลด Visual Studio](https://blogs.msdn.microsoft.com/charles_sterling/2018/04/04/webinar-load-testing-power-bi-applications-with-visual-studio-load-test/)
+หากต้องสร้างการทดสอบที่ซับซ้อนมากขึ้น ให้ลองพัฒนาแอปพลิเคชันการทดสอบโหลดเพื่อจำลองปริมาณงานจริง สำหรับข้อมูลเพิ่มเติม ให้ดูการสัมมนาผ่านเว็บ [การทดสอบโหลดของแอปพลิเคชัน Power BI ที่มีการทดสอบการโหลด Visual Studio](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/)
 
 ## <a name="acknowledgements"></a>การรับทราบ
 
