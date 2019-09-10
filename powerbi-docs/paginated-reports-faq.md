@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 07/15/2019
-ms.openlocfilehash: 2e59499b93f4d1b4879cdec5b807f863a80718aa
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.date: 09/04/2019
+ms.openlocfilehash: 2be953c31ba3090e83e58f8e5626bb83e249556e
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665371"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302687"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>รายงานที่มีการแบ่งหน้าใน Power BI คำถามที่ถามบ่อย 
 
@@ -26,11 +26,11 @@ ms.locfileid: "68665371"
 
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>ฉันต้องมีความจุพรีเมียมขนาดเท่าใดสำหรับรายงานแบบแบ่งหน้า
 
-ปริมาณงานของรายงานแบบแบ่งหน้าใช้ได้กับ P1 – P3 SKU  คุณยังอาจใช้กับ  A4 – A6 SKU สำหรับสถานการณ์ SaaS แบบฝัง
+ปริมาณงานของรายงานแบบแบ่งหน้าใช้ได้กับ P1 – P3 SKU  คุณยังสามารถใช้กับ A4 - A6 SKUs สำหรับสถานการณ์การฝังหรือทดสอบ/พัฒนา
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>ขีดจำกัดหน่วยความจำสูงสุดเท่าไรที่ฉันสามารถวางให้รายงานแบบแบ่งหน้าในความจุของฉันได้
 
-คุณอาจใช้หน่วยความจำเป็น 100% สำหรับปริมาณงานนี้ในช่วงปลายเดือนมิถุนายนปี 2019 
+คุณอาจใช้หน่วยความจำเป็น 100% สำหรับปริมาณงานนี้
 
 ### <a name="how-does-user-access-work-for-paginated-reports"></a>ผู้ใช้จะเข้าถึงรายงานแบบแบ่งหน้าได้อย่างไร
 
@@ -152,7 +152,7 @@ ms.locfileid: "68665371"
 
 ใช่ การพิมพ์นั้นพร้อมใช้งานสำหรับรายงานที่มีการแบ่งหน้าแล้ว รวมถึงการแสดงตัวอย่างก่อนพิมพ์ที่ปรับปรุงใหม่ 
 
-### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>การสมัครใช้งานอีเมล์สำหรับรายงานแบบแบ่งหน้าสามารถใช้ได้หรือยัง
+### <a name="are-e-mail-subscriptions-available-for-paginated-reports"></a>การสมัครใช้งานอีเมลสำหรับรายงานแบบแบ่งหน้าสามารถใช้ได้หรือยัง?
 
 ใช่ การสมัครใช้งานอีเมลที่จะรองรับการทำงานในรายงานแบบแบ่งหน้าอย่างเต็มรูปแบบ และรวมการรองรับรูปแบบไฟล์ที่แตกต่างหกรูปแบบและค่าพารามิเตอร์
 
@@ -166,7 +166,7 @@ ms.locfileid: "68665371"
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>ฉันสามารถลงรายละเอียดจากรายงาน Power BI ในรายงานแบบแบ่งหน้าได้หรือไม่
 
-ยังไม่ได้ แต่เรามีแผนที่จะรองรับสถานการณ์นี้อยู่
+ใช่ สามารถทำได้โดยใช้พารามิเตอร์ URL ที่มีรายงานแบบแบ่งหน้าของบคุณ
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>ฉันจะแชร์เนื้อหาของรายงานแบบแบ่งหน้าผ่านแอป Power BI ได้อย่างไร
 
