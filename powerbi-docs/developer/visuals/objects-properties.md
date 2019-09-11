@@ -1,6 +1,6 @@
 ---
-title: วัตถุและคุณสมบัติ
-description: คุณสมบัติแบบปรับแต่งได้ของวิชวล Power BI
+title: ออบเจ็กต์และคุณสมบัติของวิชวล Power BI
+description: บทความนี้อธิบายคุณสมบัติแบบปรับแต่งได้ของวิชวล Power BI
 author: MrMeison
 ms.author: rasala
 manager: rkarlin
@@ -9,20 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c22a1cfb281c9902d490e2320b85c2f6bbb63468
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: e15d80af35ff7c56879dab4380d4ae0c9fdd0e8a
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424619"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236613"
 ---
-# <a name="object-and-properties"></a>วัตถุและคุณสมบัติ
+# <a name="objects-and-properties-of-power-bi-visuals"></a>ออบเจ็กต์และคุณสมบัติของวิชวล Power BI
 
-วัตถุอธิบายคุณสมบัติแบบปรับแต่งได้ที่เชื่อมโยงกับวิชวล
-แต่ละวัตถุสามารถมีคุณสมบัติได้หลายรายการและแต่ละคุณสมบัติมีชนิดที่สัมพันธ์กัน
-ชนิดอ้างอิงถึงสิ่งที่คุณสมบัติจะเป็น โปรดดูด้านล่างสำหรับข้อมูลเพิ่มเติมเกี่ยวกับการ ชนิด
+ออบเจ็กต์อธิบายคุณสมบัติแบบปรับแต่งได้ที่เกี่ยวข้องกับวิชวล ออบเจ็กต์สามารถมีคุณสมบัติได้หลายรายการ และแต่ละคุณสมบัติมีประเภทที่เกี่ยวข้องซึ่งอธิบายถึงคุณสมบัติที่จะเป็น บทความนี้ให้ข้อมูลเกี่ยวกับออบเจ็กต์และชนิดของคุณสมบัติ
 
-`myCustomObject` เป็นชื่อภายในที่ใช้เพื่ออ้างอิงวัตถุภายใน `dataView` และ `enumerateObjectInstances`
+`myCustomObject` เป็นชื่อภายในที่ใช้เพื่ออ้างอิงออบเจ็กต์ภายใน `dataView` และ `enumerateObjectInstances`
 
 ```json
 "objects": {
@@ -33,7 +31,7 @@ ms.locfileid: "68424619"
 }
 ```
 
-## <a name="display-name"></a>ชื่อที่ใช้แสดง
+## <a name="display-name"></a>ชื่อที่แสดง
 
 `displayName` คือชื่อที่จะแสดงในบานหน้าต่างคุณสมบัติ
 
@@ -66,12 +64,13 @@ ms.locfileid: "68424619"
 
 ### <a name="property-types"></a>ชนิดของคุณสมบัติ
 
-มีชนิดคุณสมบัติสองชนิด: `ValueTypeDescriptor` และ `StructuralTypeDescriptor`
+มีชนิดของคุณสมบัติสองชนิด: `ValueTypeDescriptor` และ `StructuralTypeDescriptor`
 
 #### <a name="value-type-descriptor"></a>ตัวอธิบายชนิดค่า
 
-ส่วนใหญ่ `ValueTypeDescriptor` เป็นชนิดข้อมูลพื้นฐานและมักใช้เป็นวัตถุแบบสแตติก
-ต่อไปนี้เป็นส่วนหนึ่งของ `ValueTypeDescriptor` แบบทั่วไป
+ส่วนใหญ่ `ValueTypeDescriptor` เป็นชนิดพื้นฐาน และโดยปกติแล้วจะเป็นออบเจ็กต์แบบสแตติก
+
+ต่อไปนี้เป็นองค์ประกอบส่วนหนึ่งของ `ValueTypeDescriptor` แบบทั่วไป
 
 ```typescript
 export interface ValueTypeDescriptor {
@@ -84,8 +83,8 @@ export interface ValueTypeDescriptor {
 
 #### <a name="structural-type-descriptor"></a>ตัวอธิบายชนิดโครงสร้าง
 
-ส่วนใหญ่ `StructuralTypeDescriptor` จะใช้สำหรับวัตถุที่ผูกกับข้อมูล
-เติมเป็น `StructuralTypeDescriptor` ที่พบบ่อยที่สุด
+ส่วนใหญ่ `StructuralTypeDescriptor` จะใช้สำหรับออบเจ็กต์ที่ผูกกับข้อมูล
+ชนิด `StructuralTypeDescriptor` ที่พบมากที่สุดคือ *การใส่สีพื้นหลัง*
 
 ```typescript
 export interface StructuralTypeDescriptor {
@@ -95,8 +94,9 @@ export interface StructuralTypeDescriptor {
 
 ## <a name="gradient-property"></a>คุณสมบัติการไล่ระดับสี
 
-คุณสมบัติการไล่ระดับสีเป็นคุณสมบัติที่ไม่สามารถตั้งค่าเป็นคุณสมบัติมาตรฐานได้ แต่คุณจำเป็นต้องตั้งค่ากฎสำหรับการแทนที่คุณสมบัติตัวเลือกสี (ชนิดเติม)
-ดูตัวอย่างด้านล่าง:
+คุณสมบัติการไล่ระดับสีเป็นคุณสมบัติที่ไม่สามารถกำหนดเป็นคุณสมบัติมาตรฐานได้ แต่คุณจำเป็นต้องกำหนดกฎสำหรับการแทนที่คุณสมบัติตัวเลือกสี (ชนิด *การใส่สีพื้นหลัง*)
+
+ตัวอย่างจะแสดงในโค้ดต่อไปนี้:
 
 ```json
 "properties": {
@@ -137,13 +137,13 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-โปรดให้ความสนใจกับคุณสมบัติ `"fill"` และ `"fillRule"` อันแรกคือตัวเลือกสี อันที่สองคือกฎการแทนที่สำหรับการไล่ระดับที่จะแทนที่คุณสมบัติ `visually`"เติม" เมื่อตรงตามเงื่อนไขของกฎ
+กรุณาใส่ใจกับคุณสมบัติ *การใส่สีพื้นหลัง* และ *กฎการใส่สีพื้นหลัง* อันดับแรกคือตัวเลือกสี และอันดับที่สองคือกฎการทดแทนสำหรับการไล่ระดับสีที่จะแทนที่ *คุณสมบัติ การใส่สีพื้นหลัง*, `visually` เมื่อเป็นไปตามเงื่อนไขของกฎ
 
-คุณสามารถตั้งค่าการเชื่อมโยงระหว่างคุณสมบัติเติมและกฎการแทนที่ได้ในส่วน`"rule"`->`"output"` ของคุณสมบัติ `"fillRule"`
+คุณสามารถตั้งค่าการเชื่อมโยงระหว่างคุณสมบัติ *การใส่สีพื้นหลัง* และกฎการแทนที่ได้ในส่วน `"rule"`>`"output"` ของคุณสมบัติ *กฎการใส่สีพื้นหลัง*
 
-`"Rule"`->`"InputRole"` ตั้งค่าบทบาทข้อมูลที่ทริกเกอร์กฎ (เงื่อนไข) ในตัวอย่างนี้ ถ้าบทบาทข้อมูล `"Gradient"` มีข้อมูล จากนั้นกฏจะถูกนำไปใช้กับคุณสมบัติ `"fill"`
+คุณสมบัติ `"Rule"`>`"InputRole"` กำหนดบทบาทข้อมูลที่ทริกเกอร์กฎ (เงื่อนไข) ในตัวอย่างนี้ ถ้าบทบาทข้อมูล `"Gradient"` ประกอบด้วยข้อมูลแล้ว กฏจะถูกนำไปใช้กับคุณสมบัติ `"fill"`
 
-ด้านล่าง คุณสามารถดูตัวอย่างของบทบาทข้อมูลที่ทริกเกอร์กฎเติม (`the last item`)
+ตัวอย่างของบทบาทข้อมูลที่ทริกเกอร์กฎ การใส่สีพื้นหลัง (`the last item`) จะแสดงในโค้ดต่อไปนี้:
 
 ```json
 {
@@ -170,9 +170,9 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-## <a name="enumerateobjectinstances-method"></a>เมธอด `enumerateObjectInstances`
+## <a name="the-enumerateobjectinstances-method"></a>เมธอด enumerateObjectInstances
 
-ในการใช้วัตถุอย่างมีประสิทธิภาพ คุณจะต้องมีฟังก์ชันในการแสดงผลด้วยภาพแบบกำหนดเองของคุณที่เรียกว่า `enumerateObjectInstances` ฟังก์ชันนี้จะเติมข้อมูลในบานหน้าต่างคุณสมบัติที่มีวัตถุและจะกำหนดตำแหน่งที่วัตถุของคุณควรถูกผูกไว้ภายใน dataView  
+ในการใช้ออบเจ็กต์อย่างมีประสิทธิภาพ คุณจะต้องมีฟังก์ชันในวิชวลแบบกำหนดเองของคุณที่เรียกว่า `enumerateObjectInstances` ฟังก์ชันนี้จะเติมข้อมูลในบานหน้าต่างคุณสมบัติที่มีออบเจ็กต์และจะกำหนดตำแหน่งที่ออบเจ็กต์ของคุณควรถูกผูกไว้ภายใน dataView  
 
 นี่คือลักษณะการตั้งค่าทั่วไป:
 
@@ -197,15 +197,15 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 
 ### <a name="properties"></a>คุณสมบัติ
 
-คุณสมบัติใน `enumerateObjectInstances` จะสะท้อนคุณสมบัติที่คุณกำหนดไว้ในความสามารถของคุณ ดูตัวอย่างที่ด้านล่างของหน้า
+คุณสมบัติใน `enumerateObjectInstances` จะสะท้อนคุณสมบัติที่คุณกำหนดไว้ในความสามารถของคุณ สำหรับตัวอย่าง ให้ไปที่ส่วนท้ายของบทความนี้
 
 ### <a name="objects-selector"></a>ตัวเลือกวัตถุ
 
-ตัวเลือกใน `enumerateObjectInstances` กำหนดตำแหน่งที่แต่ละวัตถุจะถูกผูกไว้ใน dataView มีสี่ตัวเลือกที่แตกต่างกัน
+ตัวเลือกใน `enumerateObjectInstances` กำหนดตำแหน่งที่แต่ละออบเจ็กต์จะถูกผูกไว้ใน dataView มีสี่ตัวเลือกที่แตกต่างกัน
 
 #### <a name="static"></a>คงที่
 
-วัตถุนี้จะผูกกับเมตาดาต้า `dataviews[index].metadata.objects`
+ออบเจ็กต์นี้ถูกผูกกับเมตาดาต้า `dataviews[index].metadata.objects` ดังที่แสดงไว้ที่นี่
 
 ```typescript
 selector: null
@@ -213,7 +213,7 @@ selector: null
 
 #### <a name="columns"></a>คอลัมน์
 
-วัตถุนี้จะผูกกับคอลัมน์ที่มีการจับคู่ `QueryName`
+ออบเจ็กต์นี้จะผูกกับคอลัมน์ที่มีการจับคู่ `QueryName`
 
 ```typescript
 selector: {
@@ -223,7 +223,7 @@ selector: {
 
 #### <a name="selector"></a>ตัวเลือก
 
-วัตถุนี้จะผูกกับองค์ประกอบที่เราได้สร้าง `selectionID` ขึ้น ในตัวอย่างนี้ เราจะสมมติว่าเราได้สร้าง `selectionID` ขึ้นสำหรับบาง dataPoints และเราจะวนลูปผ่านจุดข้อมูลดังกล่าว
+ออบเจ็กต์นี้จะผูกกับองค์ประกอบที่คุณได้สร้าง `selectionID` ขึ้น ในตัวอย่างนี้ ให้สมมติว่าเราได้สร้าง `selectionID` ขึ้นสำหรับบางจุดข้อมูล และเราจะวนลูปผ่านจุดข้อมูลดังกล่าว
 
 ```typescript
 for (let dataPoint in dataPoints) {
@@ -234,7 +234,7 @@ for (let dataPoint in dataPoints) {
 
 #### <a name="scope-identity"></a>ข้อมูลเฉพาะตัวของขอบเขต
 
-วัตถุนี้จะผูกกับค่าเฉพาะที่จุดตัดของกลุ่ม ตัวอย่างเช่น ถ้าฉันมีข้อมูลจัดกลุ่ม `["Jan", "Feb", "March", ...]`และชุดข้อมูล `["Small", "Medium", "Large"]` ฉันอาจต้องการให้มีวัตถุบนจุดตัดของค่าที่ตรงกับ `Feb` และ `Large` เมื่อต้องการทำเช่นนี้ฉัน`DataViewScopeIdentity`จะได้รับทั้งสองคอลัมน์ให้ส่ง`identities`ไปยังตัวแปรและใช้ไวยากรณ์นี้กับตัวเลือก
+ออบเจ็กต์นี้จะผูกกับค่าเฉพาะที่จุดตัดของกลุ่ม ตัวอย่างเช่น ถ้าคุณมีข้อมูลจัดกลุ่ม `["Jan", "Feb", "March", ...]` และชุดข้อมูล `["Small", "Medium", "Large"]` คุณอาจต้องการให้มีออบเจ็กต์บนจุดตัดของค่าที่ตรงกับ `Feb` และ `Large` เมื่อต้องการทำเช่นนี้ คุณจะได้รับค่า `DataViewScopeIdentity` ทั้งสองคอลัมน์ ให้ส่งค่าเหล่านั้นไปยังตัวแปร `identities` และใช้ไวยากรณ์นี้กับตัวเลือก
 
 ```typescript
 selector: {
@@ -244,7 +244,7 @@ selector: {
 
 ##### <a name="example"></a>ตัวอย่าง:
 
-ในตัวอย่างนี้ เราแสดงให้เห็นว่า objectEnumeration หนึ่งวัตถุจะมองหาวัตถุ customColor ที่มีหนึ่งคุณสมบัติ `fill` หนึ่งค่า เราต้องการให้วัตถุนี้ผูกไว้กับ `dataViews[index].metadata.objects` แบบคงที่
+ตัวอย่างต่อไปนี้แสดงให้เห็นว่า objectEnumeration หนึ่งออบเจ็กต์จะมองหาออบเจ็กต์ customColor ที่มีหนึ่งคุณสมบัติ *การใส่สีพื้นหลัง* หนึ่งค่า เราต้องการให้ออบเจ็กต์นี้ผูกไว้กับ `dataViews[index].metadata.objects` แบบสแตติก ตามที่แสดง:
 
 ```typescript
 objectEnumeration.push({

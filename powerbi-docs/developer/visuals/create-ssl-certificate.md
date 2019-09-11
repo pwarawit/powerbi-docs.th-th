@@ -1,5 +1,5 @@
 ---
-title: การสร้างใบรับรอง SSL
+title: สร้างใบรับรอง SSL
 description: แก้ไขคำแนะนำเพื่อสร้างใบรับรองด้วยตนเองสำหรับเซิร์ฟเวอร์สำหรับนักพัฒนา
 author: zBritva
 ms.author: v-ilgali
@@ -9,127 +9,128 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 3287e8a7eb1c36c3f0d8a1fc24faa0442de2dddf
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 13926603d7a5bfee987439180151d64ef5c456c2
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425447"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237252"
 ---
-# <a name="creating-ssl-certificate"></a>การสร้างใบรับรอง SSL
+# <a name="create-an-ssl-certificate"></a>สร้างใบรับรอง SSL
 
-เรียกใช้คำสั่งต่อไปนี้เพื่อสร้างใบรับรองโดยใช้ cpowershell New-SelfSignedCertificate cmdlet บน Windows 8 หรือสูงกว่า
+บทความนี้อธิบายวิธีการสร้างใบรับรอง SSL
 
-เครื่องมือต้องการการติดตั้ง OpenSSL สำหรับ **Windows** **7** Util `openssll`ต้องพร้อมใช้งานจากบรรทัดคำสั่ง
-
-สำหรับการติดตั้ง OpenSSL เยี่ยมชม [https://www.openssl.org](https://www.openssl.org) หรือ [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries)
+หากต้องการสร้างใบรับรองโดยใช้ PowerShell `New-SelfSignedCertificate` cmdlet บน Windows 8 หรือใหม่กว่า ให้เรียกใช้คำสั่งต่อไปนี้:
 
 ```cmd
 pbiviz --create-cert
 ```
 
-## <a name="create-certificate-mac-os-x"></a>สร้างใบรับรอง (Mac OS X)
+เครื่องมือต้องการการติดตั้ง OpenSSL สำหรับ Windows 7 ยูทิลิตี้ OpenSSL ต้องพร้อมใช้งานจากบรรทัดคำสั่ง (command line)
 
-มักจะพร้อมใช้งาน OpenSSL utils ในระบบปฏิบัติการ Linux หรือ Mac OS X
+หากต้องการติดตั้ง OpenSSL ให้ไปที่เว็บไซต์ [OpenSSL](https://www.openssl.org) หรือ [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries)
 
-มิฉะนั้นคุณสามารถติดตั้งจาก
 
-ตัวจัดการแพ็คเกจ *Brew*
 
-```cmd
-brew install openssl
-brew link openssl --force
-```
+## <a name="create-a-certificate-mac-os-x"></a>สร้างใบรับรอง (Mac OS X)
 
-หรือโดยใช้ *MacPorts*
+โดยทั่วไปแล้วยูทิลิตี้ OpenSSL จะพร้อมใช้งานในระบบปฏิบัติการ Linux หรือ Mac OS X
 
-```cmd
-sudo port install openssl
-```
+คุณยังสามารถติดตั้งยูทิลิตี้นี้ได้โดยการเรียกใช้คำสั่งต่อไปนี้:
+* จากตัวจัดการแพ็คเกจ *Brew*
 
-หลังจากการติดตั้ง OpenSSL สำหรับการสร้างการเรียกใช้ใบรับรองใหม่:
+    ```cmd
+    brew install openssl
+    brew link openssl --force
+    ```
 
-```cmd
-pbiviz --create-cert
-```
+* โดยใช้ *MacPorts*:
 
-## <a name="create-certificate-linux"></a>สร้างใบรับรอง (Linux)
+    ```cmd
+    sudo port install openssl
+    ```
 
-OpenSSL utils ไม่พร้อมใช้งานในระบบปฏิบัติการ Linux ของคุณ คุณสามารถติดตั้งโดยใช้คำสั่งต่อไปนี้
-
-สำหรับตัวจัดการแพ็คเกจ *APT*:
-
-```cmd
-sudo apt-get install openssl
-```
-
-สำหรับ *โปรแกรมอัปเดต Yellowdog*:
-
-```cmd
-yum install openssl
-```
-
-สำหรับ *ตัวจัดการแพ็คเกจ Redhat*:
-
-```cmd
-rpm install openssl
-```
-
-ถ้า OpenSSl มีอยู่แล้วในการเรียกใช้ระบบปฏิบัติการของคุณ
+หลังจากที่คุณติดตั้งยูทิลิตี้ OpenSSL สำหรับสร้างใบรับรองใหม่แล้ว ให้เรียกใช้คำสั่งต่อไปนี้:
 
 ```cmd
 pbiviz --create-cert
 ```
 
-เพื่อสร้างใบรับรองใหม่
+## <a name="create-a-certificate-linux"></a>สร้างใบรับรอง (Linux)
 
-หรือรับจาก [https://www.openssl.org](https://www.openssl.org) หรือ [https://wiki.openssl.org/index.php/Binaries](https://wiki.openssl.org/index.php/Binaries)
+ถ้ายูทิลิตี้ OpenSSL ไม่พร้อมใช้งานในระบบปฏิบัติการ Linux ของคุณ คุณสามารถติดตั้งโดยใช้คำสั่งใดคำสั่งหนึ่งต่อไปนี้:
 
-## <a name="generate-certificate-manually"></a>สร้างใบรับรองด้วยตนเอง
+* สำหรับตัวจัดการแพ็คเกจ *APT*:
 
-คุณสามารถระบุใบรับรองที่สร้างขึ้นโดยเครื่องมือใด ๆ
+    ```cmd
+    sudo apt-get install openssl
+    ```
 
-ถ้าคุณติดตั้ง OpenSSL ในระบบของคุณแล้ว คุณสามารถเรียกใช้คำสั่งต่อไปนี้เพื่อสร้างใบรับรองใหม่
+* สำหรับ *โปรแกรมอัปเดต Yellowdog*:
+
+    ```cmd
+    yum install openssl
+    ```
+
+* สำหรับ *ตัวจัดการแพ็คเกจ Redhat*:
+
+    ```cmd
+    rpm install openssl
+    ```
+
+ถ้ายูทิลิตี้ OpenSSL พร้อมใช้งานในระบบปฏิบัติการของคุณแล้ว ให้สร้างใบรับรองใหม่โดยการเรียกใช้คำสั่งต่อไปนี้:
+
+```cmd
+pbiviz --create-cert
+```
+
+หรือคุณสามารถรับยูทิลิตี้ OpenSSL ได้โดยไปยังเว็บไซต์ [OpenSSL](https://www.openssl.org) หรือ [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries)
+
+## <a name="generate-the-certificate-manually"></a>สร้างใบรับรองด้วยตนเอง
+
+คุณสามารถระบุว่าใบรับรองสร้างขึ้นโดยเครื่องมือใด ๆ
+
+ถ้ามีการติดตั้งยูทิลิตี้ OpenSSL เรียบร้อยแล้วในระบบของคุณ ให้สร้างใบรับรองใหม่โดยการเรียกใช้คำสั่งต่อไปนี้:
 
 ```cmd
 openssl req -x509 -newkey rsa:4096 -keyout PowerBICustomVisualTest_private.key -out PowerBICustomVisualTest_public.crt -days 365
 ```
 
-โดยปกติแล้ว ใบรับรองเซิร์ฟเวอร์เว็บ PowerBI-visuals-tools จะอยู่ที่
+โดยทั่วไปแล้วคุณสามารถค้นหาใบรับรองเว็บเซิร์ฟเวอร์ PowerBI-visuals-tools ได้โดยเรียกใช้คำสั่งใดคำสั่งหนึ่งต่อไปนี้:
 
-```cmd
-%appdata%\npm\node_modules\PowerBI-visuals-tools\certs
-```
+* สำหรับอินสแตนซ์ส่วนกลางของเครื่องมือ:
 
-สำหรับอินสแตนซ์ส่วนกลางของเครื่องมือ
+    ```cmd
+    %appdata%\npm\node_modules\PowerBI-visuals-tools\certs
+    ```
 
-หรือ
+* สำหรับอินสแตนซ์เฉพาะที่ของเครื่องมือ:
 
-```cmd
-<custom visual project root>\node_modules\PowerBI-visuals-tools\certs
-```
+    ```cmd
+    <custom visual project root>\node_modules\PowerBI-visuals-tools\certs
+    ```
 
-สำหรับอินสแตนซ์เฉพาะที่ของเครื่องมือ
+หากคุณใช้รูปแบบ PEM ให้บันทึกไฟล์ใบรับรองเป็น *PowerBICustomVisualTest_public.crt* และบันทึก privateKey เป็น *PowerBICustomVisualTest_public.key*
 
-คุณควรบันทึกไฟล์ใบรับรองเป็น `PowerBICustomVisualTest_public.cer` และคีย์ส่วนตัวตาม`PowerBICustomVisualTest_public.key`ที่คุณใช้รูปแบบ PEM
-บันทึกไฟล์ใบรับรอง `PowerBICustomVisualTest_public.pfx` หากคุณใช้รูปแบบ PFX
+หากคุณใช้รูปแบบ PFX ให้บันทึกไฟล์ใบรับรองเป็น *PowerBICustomVisualTest_public.pfx*
 
-ถ้าไฟล์ใบรับรอง PFX ของคุณจำเป็นต้องใช้วลีรหัสผ่าน คุณควรระบุใน
+หากไฟล์ใบรับรอง PFX ของคุณต้องการวลีรหัสผ่านให้ทำดังนี้:
+1. ในไฟล์กำหนดค่า ให้ระบุว่า:
 
-```cmd
-\PowerBI-visuals-tools\config.json
-```
+    ```cmd
+    \PowerBI-visuals-tools\config.json
+    ```
 
-ที่ส่วนของเซิร์ฟเวอร์:
+1. ในส่วน `server` ระบุวลีรหัสผ่านโดยการแทนที่ข้อความตัวอย่าง "*YOUR PASSPHRASE*":
 
-```cmd
-"server":{
-    "root":"webRoot",
-    "assetsRoute":"/assets",
-    "privateKey":"certs/PowerBICustomVisualTest_private.key",
-    "certificate":"certs/PowerBICustomVisualTest_public.crt",
-    "pfx":"certs/PowerBICustomVisualTest_public.pfx",
-    "port":"8080",
-    "passphrase":"YOUR PASSPHRASE"
-}
-```
+    ```cmd
+    "server":{
+        "root":"webRoot",
+        "assetsRoute":"/assets",
+        "privateKey":"certs/PowerBICustomVisualTest_private.key",
+        "certificate":"certs/PowerBICustomVisualTest_public.crt",
+        "pfx":"certs/PowerBICustomVisualTest_public.pfx",
+        "port":"8080",
+        "passphrase":"YOUR PASSPHRASE"
+    }
+    ```

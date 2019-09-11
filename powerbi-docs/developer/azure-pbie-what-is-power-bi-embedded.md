@@ -1,9 +1,9 @@
 ---
 title: Azure Power BI Embedded และ embedded analytics | Microsoft Docs คืออะไร
 description: Power BI Embedded มีหน้าที่เป็นเครื่องมือวิเคราะห์แบบฝังตัวเพื่อลดความซับซ้อนของวิธีการใช้ความจุ Power BI โดย ISV และนักพัฒนาซอฟต์แวร์ ช่วยให้พวกเขาสามารถเพิ่มภาพ รายงาน และแดชบอร์ดที่สวยงามลงในแอปพลิเคชันของพวกเขาได้อย่างรวดเร็ว เรียนรู้วิธีการใช้ซอฟต์แวร์การวิเคราะห์แบบฝังตัว, เครื่องมือการวิเคราะห์แบบฝังตัวหรือเครื่องมือข่าวกรองธุรกิจแบบฝังตัวโดยใช้ Power BI แบบฝังตัว
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: nishalit
 ms.service: power-bi-embedded
 ms.subservice: ''
@@ -11,16 +11,16 @@ ms.devlang: csharp, javascript
 ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 6e91b2e958a738961255f9ad9b6b0514fed759bb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c74bd97a3323f28ba6d66fad03307f28c1b0c270
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385028"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391486"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>Power BI Embedded ใน Azure คืออะไร
 
-Power BI Embedded มีจุดมุ่งหมายเพื่อลดความซับซ้อนของวิธีการใช้ความจุ Power BI โดย ISV และนักพัฒนาซอฟต์แวร์ด้วยการวิเคราะห์แบบฝังตัว Power BI Embedded ช่วยลดความสามารถของ Power BI ด้วยการช่วยให้คุณสามารถเพิ่มภาพ รายงาน และแดชบอร์ดที่สวยงามลงในแอปพลิเคชันของคุณได้อย่างรวดเร็ว คล้ายกับแอปพลิเคชันที่สร้างขึ้นจาก Microsoft Azure จะใช้บริการ เช่น Machine Learning และ IoT ด้วยการสำรวจข้อมูลที่ใช้งานง่ายในแอปของพวกเขา ISV จะช่วยให้ลูกค้าสามารถตัดสินใจบริบทบนพื้นฐานการใช้ข้อมูลเป็นหลักได้อย่างรวดเร็ว
+Power BI Embedded มีจุดมุ่งหมายเพื่อลดความซับซ้อนของวิธีการใช้ความจุ Power BI โดย ISV และนักพัฒนาซอฟต์แวร์ด้วยการวิเคราะห์แบบฝังตัว Power BI Embedded ลดความยุ่งยากเกี่ยวกับความสามารถของ Power BI ด้วยการช่วยให้คุณสามารถเพิ่มวิชวล รายงาน และแดชบอร์ดที่สวยงามลงในแอปพลิเคชันของคุณได้อย่างรวดเร็ว คล้ายกับแอปพลิเคชันที่สร้างขึ้นจาก Microsoft Azure จะใช้บริการ เช่น Machine Learning และ IoT ด้วยการสำรวจข้อมูลที่ใช้งานง่ายในแอปของพวกเขา ISV จะช่วยให้ลูกค้าสามารถตัดสินใจบริบทบนพื้นฐานการใช้ข้อมูลเป็นหลักได้อย่างรวดเร็ว
 
 > [!VIDEO https://www.youtube.com/embed/iEHfUuoZseo]
 

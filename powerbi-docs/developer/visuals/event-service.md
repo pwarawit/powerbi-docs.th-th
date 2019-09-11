@@ -1,6 +1,6 @@
 ---
-title: เหตุการณ์การแสดงผล
-description: วิชวล Power BI สามารถแจ้ง Power BI ว่าวิชวลเหล่านั้นพร้อมที่จะส่งออกไปยัง Power Point/PDF
+title: แสดงผลเหตุการณ์ในวิชวล Power BI
+description: วิชวล Power BI สามารถแจ้งเตือน Power BI ว่าวิชวลเหล่านั้นพร้อมสำหรับส่งออกไปยัง PowerPoint หรือ PDF แล้ว
 author: Yarovinsky
 ms.author: alexyar
 manager: rkarlin
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 46166b3503a770e033b98474fcf9240235296cc2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: b481ce94e5025045466a05d71e30a00f02be7ead
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425102"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237171"
 ---
-# <a name="event-service"></a>บริการเหตุการณ์
+# <a name="render-events-in-power-bi-visuals"></a>แสดงผลเหตุการณ์ในวิชวล Power BI
 
-API ใหม่ประกอบด้วยสามเมธอด (เริ่มต้น เสร็จสิ้น หรือล้มเหลว) ซึ่งควรถูกเรียกใช้ระหว่างการแสดงผล
+API ใหม่ประกอบด้วยสามเมธอด (`started`, `finished` หรือ `failed`) ซึ่งควรถูกเรียกใช้ระหว่างการแสดงผล
 
-เมื่อเริ่มต้นการแสดงผล รหัสวิชวลแบบกำหนดเองจะเรียกใช้เมธอด renderingStarted เพื่อระบุว่ากระบวนการการแสดงข้อมูลเริ่มต้นแล้ว
+เมื่อการแสดงผลเริ่มต้นขึ้น โค้ดวิชวล Power BI จะเรียกใช้เมธอด `renderingStarted` เพื่อระบุว่ากระบวนการแสดงผลข้อมูลเริ่มต้นแล้ว
 
-ถ้าการแสดงผลเสร็จสมบูรณ์ รหัสวิชวลแบบกำหนดเองจะเรียกใช้เมธอด `renderingFinished` แจ้งเตือนตัวรอรับการติดต่อทราบ (**ส่วนใหญ่ 'ส่งออกเป็น PDF' และ 'ส่งออกไปยัง PowerPoint '** ) ว่ารูปภาพของวิชวลพร้อมใช้งานแล้ว
+ถ้าการแสดงผลเสร็จสมบูรณ์ โค้ดวิชวล Power BI จะเรียกใช้เมธอด `renderingFinished` แจ้งเตือนตัวรอรับการติดต่อให้ทราบทันที (ส่วนใหญ่ *ส่งออกเป็น PDF* และ *ส่งออกเป็น PowerPoint*) ว่ารูปภาพของวิชวลพร้อมสำหรับการส่งออกแล้ว
 
-ในกรณีที่เกิดปัญหาขึ้นระหว่างกระบวนการแสดงผลการป้องกันการแสดงภาพแบบกำหนดเองจากการดำเนินการเสร็จสมบูรณ์ รหัสวิชวลแบบกำหนดเองควรเรียกใช้เมธอด `renderingFailed` ที่แจ้งเตือนตัวรอรับการติดต่อว่ากระบวนการการแสดงข้อมูลยังไม่เสร็จสมบูรณ์ นอกจากนี้ เมธอดนี้ยังมีสตริงที่เลือกได้สำหรับสาเหตุของความล้มเหลว
+ถ้าเกิดปัญหาขึ้นระหว่างกระบวนการ วิชวล Power BI จะถูกป้องกันไม่ให้แสดงผลได้สำเร็จ หากต้องการแจ้งตัวรอรับการติดต่อว่ากระบวนการแสดงผลยังไม่เสร็จสมบูรณ์โค้ดวิชวล Power BI ควรเรียกใช้เมธอด `renderingFailed` นอกจากนี้ เมธอดนี้ยังมีสตริงแบบเลือกได้เพื่อระบุเหตุผลสำหรับความล้มเหลว
 
 ## <a name="usage"></a>การใช้งาน
 
@@ -38,31 +38,31 @@ export interface IVisualHost extends extensibility.IVisualHost {
  */
 export interface IVisualEventService {
     /**
-     * Should be called just before the actual rendering was started. 
-     * Usually at the very start of the update method.
+     * Should be called just before the actual rendering starts, 
+     * usually at the start of the update method
      *
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingStarted(options: VisualUpdateOptions): void;
 
     /**
-     * Shoudl be called immediately after finishing successfull rendering.
+     * Should be called immediately after rendering finishes successfully
      * 
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingFinished(options: VisualUpdateOptions): void;
 
     /**
-     * Called when rendering failed with optional reason string
+     * Called when rendering fails, with an optional reason string
      * 
-     * @param options - the visual update options received as update parameter
-     * @param reason - the option failure reason string
+     * @param options - the visual update options received as an update parameter
+     * @param reason - the optional failure reason string
      */
     renderingFailed(options: VisualUpdateOptions, reason?: string): void;
 }
 ```
 
-### <a name="simple-sample-the-visual-hasnt-any-animations-on-rendering"></a>ตัวอย่างง่าย ๆ วิชวลไม่มีภาพเคลื่อนไหวใด ๆ บนการแสดงผล
+### <a name="sample-the-visual-displays-no-animations"></a>ตัวอย่าง: วิชวลไม่แสดงภาพเคลื่อนไหว
 
 ```typescript
     export class Visual implements IVisual {
@@ -83,9 +83,9 @@ export interface IVisualEventService {
         }
 ```
 
-### <a name="sample-the-visual-with-animation"></a>ตัวอย่าง วิชวลที่มีภาพเคลื่อนไหว
+### <a name="sample-the-visual-displays-animations"></a>ตัวอย่าง: วิชวลแสดงภาพเคลื่อนไหว
 
-หากวิชวลมีภาพเคลื่อนไหวหรือฟังก์ชั่น async สำหรับการแสดงผล เมธอด `renderingFinished` ่ควรจะเรียกว่าหลังจากภาพเคลื่อนไหวหรือฟังก์ชั่น async ภายใน
+หากวิชวลมีภาพเคลื่อนไหวหรือฟังก์ชันอะซิงโครนัสสำหรับการแสดงผล เมธอด `renderingFinished` ควรถูกเรียกหลังจากภาพเคลื่อนไหวหรือภายในฟังก์ชันอะซิงโครนัส
 
 ```typescript
     export class Visual implements IVisual {
@@ -104,7 +104,7 @@ export interface IVisualEventService {
         public update(options: VisualUpdateOptions) {
             this.events.renderingStarted(options);
             ...
-            // read more https://github.com/d3/d3-transition/blob/master/README.md#transition_end
+            // Learn more at https://github.com/d3/d3-transition/blob/master/README.md#transition_end
             d3.select(this.element).transition().duration(100).style("opacity","0").end().then(() => {
                 // renderingFinished called after transition end
                 this.events.renderingFinished(options);
@@ -114,4 +114,4 @@ export interface IVisualEventService {
 
 ## <a name="rendering-events-for-visual-certification"></a>กิจกรรมการแสดงผลสำหรับการรับรองวิชวล
 
-การสนับสนุนของกิจกรรมการแสดงผลด้วยวิชวลเป็นหนึ่งในข้อกำหนดของการรับรองวิชวล อ่านเพิ่มเติมเกี่ยวกับ [ข้อกำหนดการรับรอง](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)
+ข้อกำหนดหนึ่งของใบรับรองวิชวลคือการสนับสนุนการแสดงผลเหตุการณ์ด้วยวิชวล สำหรับข้อมูลเพิ่มเติม โปรดดูหัวข้อ [ข้อกำหนดของใบรับรอง](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)

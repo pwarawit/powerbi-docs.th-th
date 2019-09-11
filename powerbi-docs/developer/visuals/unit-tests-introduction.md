@@ -1,6 +1,6 @@
 ---
-title: บทนำการทดสอบหน่วย
-description: วิธีการเขียนการทดสอบหน่วยสำหรับโครงการวิชวล Power BI
+title: ความรู้เบื้องต้นเกี่ยวกับการทดสอบหน่วยสำหรับโครงการวิชวล Power BI
+description: บทความนี้อธิบายวิธีเขียนการทดสอบการทดสอบหน่วยสำหรับโครงการวิชวล Power BI
 author: zBritva
 ms.author: v-ilgali
 manager: rkarlin
@@ -9,31 +9,29 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 4b16eaad9b541bf6e5d8df49ffda99d9bbd5bbf2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424550"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236721"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>บทช่วยสอน: เพิ่มการทดสอบหน่วยสำหรับโครงการวิชวล Power BI
 
-บทช่วยสอนนี้อธิบายขั้นตอนพื้นฐานในการเขียนการทดสอบหน่วยสำหรับวิชวล Power BI ของคุณ
+บทความนี้อธิบายพื้นฐานของการเขียนการทดสอบหน่วยสำหรับโครงการวิชวล Power BI ของคุณ รวมถึงวิธีการ:
 
-ในบทช่วยสอนนี้ เราจะพิจารณา
-
-* วิธีใช้โปรแกรมรันการทดสอบ karma.js, การทดสอบกรอบการทำงาน - jasmine.js
-* วิธีใช้แพคเกจ powerbi-utils-testutils
-* วิธีการตั้งค่าตัวอย่างทดสอบและการหลอกช่วยให้การทดสอบหน่วยสำหรับวิชวล Power BI ง่ายขึ้นI
+* ตั้งค่าเฟรมเวิร์กการทดสอบสำหรับตัวเรียกใช้การทดสอบ Karma JavaScript และ Jasmine
+* ใช้แพคเกจ powerbi-visuals-utils-testutils
+* ใช้ตัวอย่างทดสอบและการหลอกเพื่อช่วยให้การทดสอบหน่วยสำหรับวิชวล Power BI ทำได้ง่ายขึ้นI
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-* คุณมีโครงการวิชวล Power BI
-* สภาพแวดล้อม Node.JS ที่กำหนดค่าไว้
+* โครงการวิชวล Power BI ที่ติดตั้งแล้ว
+* สภาพแวดล้อม Node.JS ที่กำหนดค่าไว้แล้ว
 
-## <a name="install-and-configure-karmajs-and-jasmine"></a>ติดตั้งและกำหนดค่า karma.js และ jasmine
+## <a name="install-and-configure-the-karma-javascript-test-runner-and-jasmine"></a>ติดตั้งและกำหนดค่าตัวเรียกใช้การทดสอบ Karma JavaScript และ Jasmine
 
-เพิ่มไลบรารีที่จำเป็นลงใน package.json ที่ส่วน `devDependencies`:
+เพิ่มไลบรารีที่จำเป็นเข้ากับไฟล์ *package.json* ในส่วน `devDependencies`:
 
 ```json
 "@babel/polyfill": "^7.2.5",
@@ -67,19 +65,19 @@ ms.locfileid: "68424550"
 "webpack": "4.26.0"
 ```
 
-ดูคำอธิบายด้านล่างเพื่อเรียนรู้เพิ่มเติมเกี่ยวกับแพคเกจ
+ดูหากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับแพคเกจ ให้ดูคำอธิบายที่
 
-บันทึก `package.json` และดำเนินการบนบรรทัดคำสั่งที่ตำแหน่งที่ตั้ง `package.json`:
+บันทึกไฟล์ *package.json* และที่ตำแหน่ง `package.json` ให้เรียกใช้คำสั่งต่อไปนี้:
 
 ```cmd
 npm install
 ```
 
-ตัวจัดการแพคเกจจะติดตั้งแพคเกจใหม่ทั้งหมดที่ถูกเพิ่มไปยัง `package.json`
+ตัวจัดการแพกเกจติดตั้งแพกเกจใหม่ทั้งหมดที่เพิ่มไปยัง *package.json*
 
-สำหรับการรันการทดสอบหน่วย เราจำเป็นต้องกำหนดค่าโปรแกรมรันการทดสอบและ `webpack` config ตัวอย่างของ config ที่คุณสามารถค้นหาได้ที่นี่
+เมื่อต้องการเรียกใช้การทดสอบหน่วย ให้กำหนดค่าตัวเรียกใช้การทดสอบและการกำหนดค่า `webpack`
 
-ตัวอย่างของ `test.webpack.config.js`:
+โค้ดต่อไปนี้เป็นตัวอย่างของไฟล์ *test.webpack.config.js*:
 
 ```typescript
 const path = require('path');
@@ -147,7 +145,7 @@ module.exports = {
 };
 ```
 
-ตัวอย่างของ `karma.conf.ts`
+โค้ดต่อไปนี้เป็นตัวอย่างของไฟล์ *karma.conf.ts*:
 
 ```typescript
 "use strict";
@@ -250,33 +248,31 @@ module.exports = (config: Config) => {
 };
 ```
 
-คุณสามารถปรับเปลี่ยนการกำหนดค่านี้ได้ถ้าจำเป็น
+ถ้าจำเป็น คุณสามารถปรับเปลี่ยนการกำหนดค่านี้ได้
 
-การตั้งค่าบางอย่างของ `karma.conf.js`:
+โค้ดใน *karma.conf.js* ประกอบด้วยตัวแปรดังต่อไปนี้:
 
-* `recursivePathToTests` ตัวแปรค้นหาตำแหน่งที่ตั้งของรหัสการทดสอบ
+* `recursivePathToTests`: ค้นหาตำแหน่งโค้ดทดสอบ
 
-* `srcRecursivePath` ตัวแปรค้นหารหัส JS เอาท์พุทหลังจากการคอมไพล์
+* `srcRecursivePath`: ค้นหาตำแหน่งโค้ด JavaScript ผลลัพธ์หลังจากการคอมไพล์
 
-* `srcCssRecursivePath` ตัวแปรค้นหา CSS เอาท์พุทหลังจากการคอมไพล์ไฟล์น้อยลงด้วยสไตล์
+* `srcCssRecursivePath`: ค้นหาตำแหน่ง CSS ผลลัพธ์หลังจากการคอมไพล์ไฟล์น้อยลงด้วยสไตล์
 
-* `srcOriginalRecursivePath` ตัวแปรค้นหารหัสต้นทางของวิชวล
+* `srcOriginalRecursivePath`: ค้นหาตำแหน่งซอสโค้ดของวิชวลของคุณ
 
-* `coverageFolder` - ตัวแปรกำหนดสถานที่ที่จะสร้างรายงานความครอบคลุม
+* `coverageFolder`: กำหนดตำแหน่งที่จะสร้างรายงานความครอบคลุม
 
-คุณสมบัติบางอย่างของ config:
+ไฟล์การกำหนดค่าประกอบด้วยคุณสมบัติต่อไปนี้:
 
-* `singleRun: true` - การทดสอบทำงานบนระบบ CI และก็เพียงพอสำหรับครั้งเดียว
-คุณสามารถเปลี่ยนแปลงเป็น `false` สำหรับการดีบักการทดสอบ Karma จะยังคงใช้งานเบราว์เซอร์และจะช่วยให้คุณสามารถใช้คอนโซลสำหรับการดีบัก
+* `singleRun: true`: มีการเรียกใช้การทดสอบบนระบบการบูรณาการอย่างต่อเนื่อง (CI) หรือสามารถเรียกใช้ได้ครั้งเดียว คุณสามารถเปลี่ยนการตั้งค่าเป็น *false* สำหรับการดีบักการทดสอบของคุณ Karma ช่วยให้เบราว์เซอร์ทำงานอย่างต่อเนื่องเพื่อให้คุณสามารถใช้คอนโซลสำหรับการดีบักได้
 
-* `files: [...]` -ในอาร์เรย์นี้ คุณสามารถตั้งค่าไฟล์สำหรับการโหลดไปยังเบราว์เซอร์ได้
-โดยทั่วไปแล้ว จะมีไฟล์ต้นฉบับ กรณีการทดสอบ, ไลบรารี (jasmine, test utils) คุณสามารถเพิ่มเพื่อแสดงรายการไฟล์อื่น ๆ ได้ถ้าคุณต้องการ
+* `files: [...]`: ในอาร์เรย์นี้ คุณสามารถระบุไฟล์ที่จะโหลดไปยังเบราว์เซอร์ได้ โดยทั่วไปแล้วจะมีไฟล์ต้นฉบับ กรณีการทดสอบ ไลบรารี (Jasmine, ยูทิลิตี้การทดสอบ) คุณสามารถเพิ่มไฟล์เพิ่มเติมลงในรายการได้ตามความจำเป็น
 
-* `preprocessors` -ส่วนนี้ของ config ที่คุณกำหนดค่าการดำเนินการ ซึ่งดำเนินการก่อนการดำเนินการทดสอบหน่วย มี precompiling ของ typescript ไปยัง JS และจัดเตรียมไฟล์แมปแหล่งที่มาและสร้างรายงานความครอบคลุมของรหัส คุณสามารถปิดใช้งาน `coverage` สำหรับการดีบักการทดสอบ ความครอบคลุมจะสร้างรหัสเพิ่มเติมเพื่อตรวจสอบรหัสสำหรับความครอบคลุมการทดสอบและจะซับซ้อนการทดสอบการดีบัก
+* `preprocessors`: ในส่วนนี้คุณกำหนดค่าการดำเนินการที่เรียกใช้ก่อนที่จะเรียกใช้การทดสอบหน่วย พวกเขาทำการพรีคอมไพล์ typescript ไปยัง JavaScript เตรียมไฟล์แมปต้นฉบับ และสร้างรายงานความครอบคลุมของโค้ด คุณสามารถปิดใช้งาน `coverage` เมื่อคุณดีบักการทดสอบของคุณ ความครอบคลุมจะสร้างโค้ดเพิ่มเติมเพื่อตรวจสอบโค้ดสำหรับความครอบคลุมในการทดสอบ ซึ่งจะทำให้การทดสอบการดีบักซับซ้อน
 
-**คำอธิบายของการกำหนดค่าทั้งหมดที่คุณสามารถค้นหาใน [เอกสารประกอบ](https://karma-runner.github.io/1.0/config/configuration-file.html) ของ karma.js**
+สำหรับคำอธิบายของการกำหนดค่า Karma ทั้งหมดให้ไปที่หน้า[ไฟล์การกำหนดค่า Karma](https://karma-runner.github.io/1.0/config/configuration-file.html)
 
-หากต้องการใช้งานที่สะดวก คุณสามารถเพิ่มคำสั่งทดสอบลงใน `scripts`:
+เพื่อความสะดวกของคุณ คุณสามารถเพิ่มคำสั่งทดสอบลงใน `scripts`:
 
 ```json
 {
@@ -292,15 +288,15 @@ module.exports = (config: Config) => {
 }
 ```
 
-ดังนั้นคุณก็พร้อมที่จะเริ่มเขียนการทดสอบหน่วยของคุณ
+ดังนั้น ตอนนี้คุณก็พร้อมที่จะเริ่มเขียนการทดสอบหน่วยของคุณแล้ว
 
-## <a name="simple-unit-test-for-check-dom-element-of-the-visual"></a>การทดสอบหน่วยอย่างง่ายสำหรับการตรวจสอบองค์ประกอบ DOM ของวิชวล
+## <a name="check-the-dom-element-of-the-visual"></a>ตรวจสอบองค์ประกอบ DOM ของวิชวล
 
-สำหรับการทดสอบวิชวล เราต้องสร้างอินสแตนซ์ของวิชวล
+สำหรับการทดสอบวิชวล เราต้องสร้างอินสแตนซ์ของวิชวลก่อน
 
-### <a name="creating-visual-instance-builder"></a>การสร้างตัวสร้างอินสแตนซ์ของวิชวล
+### <a name="create-a-visual-instance-builder"></a>สร้างตัวสร้างอินสแตนซ์ของวิชวล
 
-เพิ่มไฟล์ `visualBuilder.ts` ลงโฟลเดอร์ `test` ด้วยรหัสถัดไป:
+เพิ่มไฟล์ *visualBuilder.ts* ไปยังโฟลเดอร์ *test* โดยใช้โค้ดดังต่อไปนี้:
 
 ```typescript
 import {
@@ -329,13 +325,13 @@ export class BarChartBuilder extends VisualBuilderBase<VisualClass> {
 }
 ```
 
-มี `build` เมธอดสำหรับการสร้างอินสแตนซ์ของวิชวลของคุณ `mainElement` เป็นเมธอดการรับซึ่งส่งกลับอินสแตนซ์ขององค์ประกอบ DOM "root" ในวิชวลของคุณ Getter เป็นตัวเลือกแต่จะทำให้การเขียนการทดสอบหน่วยง่ายขึ้น
+มี `build` เมธอดสำหรับการสร้างอินสแตนซ์ของวิชวลของคุณ `mainElement` เป็นเมธอดการรับ ซึ่งส่งกลับอินสแตนซ์ขององค์ประกอบแบบจำลองอ็อบเจกต์เอกสาร (DOM) "root" ในวิชวลของคุณ Getter เป็นตัวเลือกที่จะใช้หรือไม่ใช้ก็ได้ แต่จะทำให้การเขียนการทดสอบหน่วยง่ายขึ้น
 
-ดังนั้นเราจึงมีตัวสร้างอินสแตนซ์ของวิชวล ลองเขียนกรณีทดสอบ ซึ่งจะเป็นกรณีทดสอบเพื่อตรวจสอบองค์ประกอบ SVG เหล่านั้นที่สร้างขึ้นเมื่อวิชวลของคุณแสดงผล
+ขณะนี้คุณมีการสร้างอินสแตนซ์ของวิชวลของคุณแล้ว ลองเขียนกรณีทดสอบ กรณีทดสอบจะตรวจสอบองค์ประกอบ SVG ที่สร้างขึ้นเมื่อแสดงวิชวลของคุณ
 
-### <a name="creating-typescript-file-to-write-test-cases"></a>การสร้างไฟล์ typescript เพื่อเขียนกรณีทดสอบ
+### <a name="create-a-typescript-file-to-write-test-cases"></a>สร้างไฟล์ typescript เพื่อเขียนกรณีทดสอบ
 
-เพิ่มไฟล์ `visualTest.ts` สำหรับกรณีทดสอบด้วยรหัสเหล่านี้:
+เพิ่มไฟล์ *visualTest.ts* สำหรับกรณีทดสอบโดยใช้โค้ดดังต่อไปนี้:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -362,40 +358,36 @@ describe("BarChart", () => {
 });
 ```
 
-มีการเรียกใช้หลายเมธอด
+มีการเรียกใช้เมธอดหลายวิธี:
 
-* [`describe`](https://jasmine.github.io/api/2.6/global.html#describe) เมธอดจะอธิบายกรณีทดสอบ ในบริบทของกรอบการทำงานของ jasmine มักเรียกว่าชุดหรือกลุ่มของข้อมูลจำเพาะ
+* [`describe`](https://jasmine.github.io/api/2.6/global.html#describe): อธิบายกรณีทดสอบ ในบริบทของเฟรมเวิร์ก Jasmine ซึ่งมักจะอธิบายชุดหรือกลุ่มของรายละเอียดจำเพาะ
 
-* จะมีการเรียกใช้เมธอด `beforeEach` ก่อนการเรียกใช้แต่ละครั้งของ `it` เมธอดที่กำหนดไว้ภายในใน [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) เมธอด
+* `beforeEach`: ถูกเรียกก่อนการเรียกใช้เมธอด `it` แต่ละครั้งซึ่งกำหนดไว้ในเมธอด [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach)
 
-* `it` กำหนดข้อมูลจำเพาะเดียว [`it`](https://jasmine.github.io/api/2.6/global.html#it) เมธอดต้องมีอย่างน้อยหนึ่งรายการหรือมากกว่า `expectations`
+* [`it`](https://jasmine.github.io/api/2.6/global.html#it): กำหนดรายละเอียดจำเพาะเดียว เมธอด `it` ควรมี `expectations` อย่างน้อยหนึ่งรายการหรือมากกว่า
 
-* [`expect`](https://jasmine.github.io/api/2.6/global.html#expect) - เมธอดจะสร้างความคาดหวังสำหรับข้อมูลจำเพาะ ข้อมูลจำเพาะจะเสร็จสมบูรณ์ถ้าเป็นไปตามความคาดหวังทั้งหมดโดยไม่มีความล้มเหลวใด ๆ
+* [`expect`](https://jasmine.github.io/api/2.6/global.html#expect): สร้างความคาดหวังสำหรับรายละเอียดจำเพาะ รายละเอียดจำเพาะะเสร็จสมบูรณ์ถ้าเป็นไปตามความคาดหวังทั้งหมดโดยไม่มีความล้มเหลวใดเกิดขึ้น
 
-* `toBeInDOM` - เมธอดนี้เป็นหนึ่งในเมธอดของตัวจับคู่ เกี่ยวกับตัวจับคู่ที่มีอยู่ คุณสามารถอ่านใน[เอกสารประกอบของ](https://jasmine.github.io/api/2.6/matchers.html)กรอบการทำงานของ jasmine
+* `toBeInDOM`: หนึ่งในเมธอด *matchers* สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ matchers โปรดดู [Jasmine Namespace: matchers](https://jasmine.github.io/api/2.6/matchers.html)
 
-**อ่านเพิ่มเติมเกี่ยวกับกรอบการทำงานของ jasmine ใน [เอกสารประกอบอย่างเป็นทางการ](https://jasmine.github.io/)**
-
-หลังจากนั้น คุณสามารถเรียกใช้การทดสอบหน่วยโดยการพิมพ์คำสั่งในเครื่องมือบรรทัดคำสั่ง
-
-การทดสอบนี้จะตรวจสอบว่าองค์ประกอบ SVG ระดับสูงของวิชวลถูกสร้างขึ้นหรือไม่
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Jasmine โปรดดูที่หน้า [เอกสารประกอบสำหรับเฟรมเวิร์ก Jasmine](https://jasmine.github.io/)
 
 ### <a name="launch-unit-tests"></a>เปิดใช้งานการทดสอบหน่วย
 
-เมื่อต้องการเรียกใช้การทดสอบหน่วย คุณสามารถพิมพ์คำสั่งนี้ในเครื่องมือบรรทัดคำสั่ง
+การทดสอบนี้จะตรวจสอบว่าองค์ประกอบ SVG ระดับสูงของวิชวลถูกสร้างขึ้นหรือไม่ เมื่อต้องการเรียกใช้การทดสอบหน่วย ให้ป้อนคำสั่งนี้ในเครื่องมือประเภทคอมมานด์ไลน์:
 
 ```cmd
 npm run test
 ```
 
-`karma.js` เรียกใช้เบราว์เซอร์ chrome และจะดำเนินการตามกรณีทดสอบ
+`karma.js` เรียกใช้กรณีทดสอบในเบราว์เซอร์ Chrome
 
-![เปิดใช้งาน KarmaJS ใน Chrome](./media/karmajs-chrome.png)
+![Karma JavaScript เปิดใน Chrome แล้ว](./media/karmajs-chrome.png)
 
 > [!NOTE]
-> ต้องติดตั้ง Google Chrome ภายในเครื่อง
+> คุณต้องติดตั้ง Google Chrome ภายในเครื่อง
 
-ในบรรทัดคำสั่ง คุณจะได้รับผลลัพธ์ต่อไปนี้:
+ในหน้าต่างคอมมานด์ไลน์ (Command Line) คุณจะได้รับผลลัพธ์ต่อไปนี้:
 
 ```cmd
 > karma start
@@ -418,7 +410,7 @@ Lines        : 20.85% ( 44/211 )
 
 ### <a name="how-to-add-static-data-for-unit-tests"></a>วิธีการเพิ่มข้อมูลแบบคงที่สำหรับการทดสอบหน่วย
 
-สร้างไฟล์ `visualData.ts` ในโฟลเดอร์ `test` ด้วยรหัสเหล่านี้:
+สร้างไฟล์ *visualData.ts* ไปยังโฟลเดอร์ *test* โดยใช้โค้ดดังต่อไปนี้:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -458,19 +450,19 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 }
 ```
 
-คลาส`SampleBarChartDataBuilder` จะขยาย `TestDataViewBuilder` และใช้เมธอดที่เป็นนามธรรม`getDataView`
+คลาส `SampleBarChartDataBuilder` จะขยาย `TestDataViewBuilder` และใช้เมธอดที่อยู่ในคลาสนามธรรม `getDataView`
 
-เมื่อคุณใส่ข้อมูลลงในบักเก็ตเขตข้อมูล Power BI สร้างวัตถุ `dataview` ตามประเภทที่ยึดตามข้อมูลของคุณ
+เมื่อคุณใส่ข้อมูลลงในบักเก็ตเขตข้อมูล Power BI สร้างออบเจ็กต์ `dataview` แบบจัดกลุ่มที่ขึ้นอยู่กับข้อมูลของคุณ
 
 ![บักเก็ตเขตข้อมูล](./media/fields-buckets.png)
 
-ในการทดสอบหน่วย คุณไม่มีฟังก์ชันหลักของ Power BI เพื่อที่จะทำซ้ำ แต่คุณจำเป็นต้องแมปข้อมูลแบบคงที่ของคุณไปยัง `dataview` ตามประเภท และคลาส `TestDataViewBuilder` จะช่วยเหลือคุณในนั้น
+ในการทดสอบหน่วย คุณไม่มีฟังก์ชันหลักของ Power BI เพื่อที่จะทำซ้ำข้อมูล แต่คุณจำเป็นต้องแมปข้อมูลแบบสแตติกของคุณไปยัง `dataview` แบบจัดกลุ่ม คลาส `TestDataViewBuilder` สามารถช่วยคุณในการแมปได้
 
-[อ่านเพิ่มเติมเกี่ยวกับ DataViewMapping](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแมปมุมมองข้อมูล โปรดดูที่ [DataViewMappings](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md)
 
-ในเมธอด `getDataView` คุณเพียงแค่เรียกใช้เมธอด `createCategoricalDataViewBuilder` ด้วยข้อมูลของคุณ
+ในเมธอด `getDataView` ให้คุณเรียกใช้เมธอด `createCategoricalDataViewBuilder` ด้วยข้อมูลของคุณ
 
-ใน `sampleBarChart` วิชวล [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2) คุณมีวัตถุ dataRoles และ dataViewMapping:
+ในไฟล์ [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2) ของวิชวล `sampleBarChart` คุณมีออบเจ็กต์ dataRoles และ dataViewMapping:
 
 ```json
 "dataRoles": [
@@ -549,23 +541,23 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 ], columnNames)
 ```
 
-ที่`this.valuesCategory`อาร์เรย์ของประเภท
+โดยที่ `this.valuesCategory` เป็นอาร์เรย์ของหมวดหมู่:
 
 ```ts
 public valuesCategory: string[] = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 ```
 
-และอาร์เรย์ `this.valuesMeasure`ของหน่วยวัดสำหรับแต่ละประเภท ตัวอย่าง:
+และ `this.valuesMeasure` เป็นอาร์เรย์ของหน่วยวัดสำหรับแต่ละหมวดหมู่:
 
 ```ts
 public valuesMeasure: number[] = [742731.43, 162066.43, 283085.78, 300263.49, 376074.57, 814724.34, 570921.34];
 ```
 
-ตอนนี้ คุณสามารถใช้คลาส `SampleBarChartDataBuilder` ในการทดสอบหน่วยของคุณ
+ตอนนี้ คุณสามารถใช้คลาส `SampleBarChartDataBuilder` ในการทดสอบหน่วยของคุณได้แล้ว
 
-กำหนดคลาส `ValueType` ในแพคเกจ `powerbi-visuals-utils-testutils` แล้ว และเมธอด `createCategoricalDataViewBuilder` จำเป็นต้องมีไลบรารี `lodash`
+คลาส `ValueType` จะถูกกำหนดไว้ในแพกเกจ powerbi-visuals-utils-testutils และเมธอด `createCategoricalDataViewBuilder` จำเป็นต้องมีไลบรารี `lodash`
 
-เพิ่มแพคเกจเหล่านี้ในการขึ้นต่อกัน
+เพิ่มแพคเกจเหล่านี้ไปยังการขึ้นต่อกัน (dependencies)
 
 ใน `package.json` ที่ส่วน `devDependencies`
 
@@ -582,7 +574,7 @@ npm install
 
 เพื่อติดตั้งไลบรารี `lodash-es`
 
-ในตอนนี้ คุณสามารถเรียกใช้การทดสอบหน่วยอีกครั้ง คุณต้องได้รับผลลัพธ์นี้
+ในตอนนี้ คุณสามารถเรียกใช้การทดสอบหน่วยอีกครั้ง คุณต้องได้รับผลลัพธ์ต่อไปนี้:
 
 ```cmd
 > karma start
@@ -603,27 +595,25 @@ Lines        : 52.83% ( 112/212 )
 ================================================================================
 ```
 
-และคุณต้องดูการเริ่มต้นใช้งานเบราว์เซอร์ Chrome ด้วยวิชวลของคุณ
+วิชวลของคุณจะเปิดขึ้นในเบราว์เซอร์ Chrome ดังที่แสดง:
 
 ![UT จะเปิดใช้งานใน Chrome](./media/karmajs-chrome-ut-runned.png)
 
-ใส่ใจกับการสรุปความครอบคลุมเพิ่มขึ้น เปิด `coverage\index.html` เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับความครอบคลุมของรหัสปัจจุบัน
+รายงานสรุปแสดงให้เห็นว่าความครอบคลุมได้เพิ่มขึ้น หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับความครอบคลุมของโค้ดในปัจจุบัน ให้เปิด `coverage\index.html`
 
 ![ดัชนีความครอบคลุมของ UT](./media/code-coverage-index.png)
 
-หรือในขอบเขต`src`ของโฟลเดอร์
+หรือดูที่ขอบเขตของโฟลเดอร์ `src`:
 
 ![ความครอบคลุมของโฟลเดอร์ src](./media/code-coverage-src-folder.png)
 
-ในขอบเขตของไฟล์ คุณสามารถดูที่รหัสต้นทาง `Coverage` utils จะทำเครื่องหมายพื้นหลังของแถวเป็นสีแดงถ้าไม่มีการใช้งานรหัสในระหว่างการดำเนินการทดสอบหน่วย
+ในขอบเขตของไฟล์ คุณสามารถดูที่ซอสโค้ดได้ ยูทิลิตี้ `Coverage` จะเน้นแถวเป็นสีแดงหากไม่ได้ดำเนินการโค้ดบางอย่างในระหว่างการทดสอบหน่วย
 
-![ความครอบคลุมของรหัสของไฟล์ visual.ts](./media/code-coverage-visual-src.png)
+![ความครอบคลุมของโค้ดในไฟล์ visual.ts](./media/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
-> แต่ความครอบคลุมของรหัสไม่ได้หมายความว่าคุณมีความครอบคลุมของวิชวลที่มีประสิทธิภาพ หนึ่งการทดสอบหน่วยอย่างง่ายที่กำหนดไว้มากกว่า 96 % ของความครอบคลุมใน `src\visual.ts`
+> การครอบคลุมโค้ดไม่ได้หมายความว่าคุณมีค่าความครอบคลุมฟังก์ชันการทำงานของวิชวลที่มีประสิทธิภาพ การทดสอบหน่วยอย่างหนึ่งครั้งให้ความครอบคลุมมากกว่า 96 เปอร์เซ็นต์ใน `src\visual.ts`
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-เมื่อวิชวลของคุณพร้อมแล้ว คุณสามารถส่งวิชวลไปยังการเผยแพร่ได้
-
-[อ่านเพิ่มเติมเกี่ยวกับการเผยแพร่วิชวลไปยัง AppSource](../office-store.md)
+เมื่อวิชวลของคุณพร้อมแล้ว คุณสามารถส่งวิชวลสำหรับการเผยแพร่ได้ สำหรับข้อมูลเพิ่มเติม โปรดดู[เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource](../office-store.md)

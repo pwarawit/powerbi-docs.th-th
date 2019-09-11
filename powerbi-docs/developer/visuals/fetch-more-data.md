@@ -1,6 +1,6 @@
 ---
-title: ดึงข้อมูลเพิ่มเติม
-description: เปิดใช้งานเซกเมนต์การดึงข้อมูลชุดข้อมูลขนาดใหญ่สำหรับ Power BI Visuals
+title: ดึงข้อมูลเพิ่มเติมจาก Power BI
+description: บทความนี้อธิบายถึงวิธีการเปิดใช้งานการดึงชุดข้อมูลขนาดใหญ่เป็นเซกเมนต์สำหรับวิชวล Power BI
 author: AviSander
 ms.author: asander
 manager: rkarlin
@@ -9,23 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: bc8ff673927fd66bf44164e4e9950c279b98c6c1
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 7e5ecc0e317a21d10e76e9413926822ac4d6760b
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425079"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237144"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>ดึงข้อมูลเพิ่มเติมจาก Power BI
 
-โหลด API ข้อมูลเพิ่มเติมเพื่อเอาชนะขีดจำกัดของจุดข้อมูล 30 K ซึ่งจะนำข้อมูลในแบบกลุ่ม ขนาดของกลุ่มจะได้รับการกำหนดค่าเพื่อปรับปรุงประสิทธิภาพการทำงานตามกรณีที่ใช้  
+บทความนี้อธิบายถึงวิธีการโหลดข้อมูลเพิ่มเติมเพื่อเลี่ยงผ่านขีดจำกัดฮาร์ดของจุดข้อมูล 30 KB แนวทางนี้ให้ข้อมูลเป็นกลุ่ม เพื่อปรับปรุงประสิทธิภาพการทำงาน คุณสามารถกำหนดขนาดกลุ่มเพื่อรองรับกรณีการใช้งานของคุณได้  
 
-## <a name="enable-segmented-fetch-of-large-datasets"></a>เปิดใช้งานการดึงเซกเมนต์ชุดข้อมูลขนาดใหญ่
+## <a name="enable-a-segmented-fetch-of-large-datasets"></a>เปิดใช้งานการดึงชุดข้อมูลขนาดใหญ่เป็นเซกเมนต์
 
-สำหรับโหมดเซกเมนต์ `dataview` ให้กำหนด dataReductionAlgorithm "หน้าต่าง" ในการแสดงผล `capabilities.json` สำหรับ dataViewMapping ที่จำเป็น
-`count` จะกำหนดขนาดหน้าต่างซึ่งจำกัดจำนวนแถวข้อมูลใหม่ที่ผนวกเข้ากับ `dataview` ในแต่ละการอัปเดต
+สำหรับโหมดเซกเมนต์ `dataview` คุณกำหนดขนาดหน้าต่างสำหรับ dataReductionAlgorithm ในไฟล์ *capabilities.json* ของวิชวลสำหรับ dataViewMapping ที่ต้องการ `count` กำหนดขนาดหน้าต่างซึ่งจำกัดจำนวนแถวข้อมูลใหม่ที่สามารถผนวกเข้ากับ `dataview` ในแต่ละการอัปเดต
 
-เพื่อเพิ่มเข้าไปใน capabilities.json
+เพิ่มโค้ดต่อไปนี้ในไฟล์ *capabilities.json*:
 
 ```typescript
 "dataViewMappings": [
@@ -47,9 +46,9 @@ ms.locfileid: "68425079"
 
 เซกเมนต์ใหม่จะถูกผนวกเข้า `dataview` ที่มีอยู่และจัดให้กับการแสดงภาพเป็นการโทร `update`
 
-## <a name="usage-in-the-custom-visual"></a>การใช้ในการแสดงภาพแบบกำหนดเอง
+## <a name="usage-in-the-power-bi-visual"></a>การใช้งานในวิชวลของ Power BI
 
-มีข้อมูลการบ่งชี้หรือไม่สามารถกำหนดได้โดยการตรวจสอบการมีอยู่ของ `dataView.metadata.segment`:
+คุณสามารถตรวจสอบว่ามีข้อมูลอยู่หรือไม่โดยตรวจสอบการมีอยู่ของ `dataView.metadata.segment`:
 
 ```typescript
     public update(options: VisualUpdateOptions) {
@@ -59,11 +58,9 @@ ms.locfileid: "68425079"
     }
 ```
 
-นอกจากนี้ยังเป็นไปได้ที่จะตรวจสอบว่าเป็นการอัปเดตตัวแรกหรือครั้งต่อ ๆ ไปโดยการตรวจสอบ `options.operationKind`
+นอกจากนี้คุณยังสามารถตรวจสอบเพื่อดูว่ามันเป็นการอัปเดตครั้งแรกหรือการอัปเดตที่ตามมาภายหลังโดยการตรวจสอบ `options.operationKind` ในโค้ดต่อไปนี้ `VisualDataChangeOperationKind.Create`อ้างถึงเซกเมนต์แรกและ`VisualDataChangeOperationKind.Append` อ้างถึงเซกเมนต์ที่ตามมาภายหลัง
 
-`VisualDataChangeOperationKind.Create` หมายถึงเซกเมนต์แรกและ `VisualDataChangeOperationKind.Append` หมายถึงเซกเมนต์ต่อมา
-
-ดูส่วนย่อยของโค้ดด้านล่างสำหรับการดำเนินการตัวอย่าง:
+สำหรับตัวอย่างการนำไปใช้งาน โปรดดูข้อมูลโค้ดต่อไปนี้:
 
 ```typescript
 // CV update implementation
@@ -73,7 +70,7 @@ public update(options: VisualUpdateOptions) {
 
     }
 
-    // on second or subesquent segments:
+    // on second or subsequent segments:
     if (options.operationKind == VisualDataChangeOperationKind.Append) {
 
     }
@@ -82,24 +79,24 @@ public update(options: VisualUpdateOptions) {
 }
 ```
 
-เมธอด `fetchMoreData` ยังสามารถเรียกใช้ได้จากตัวจัดการเหตุการณ์ UI
+คุณยังสามารถเรียกใช้เมธอด `fetchMoreData` จากตัวจัดการเหตุการณ์ UI ดังที่แสดงไว้ที่นี่:
 
 ```typescript
 btn_click(){
 {
-    // check if more data is expected for the current dataview
+    // check if more data is expected for the current data view
     if (dataView.metadata.segment) {
-        //request for more data if available, as resopnce Power BI will call update method
+        //request for more data if available; as a response, Power BI will call update method
         let request_accepted: bool = this.host.fetchMoreData();
         // handle rejection
         if (!request_accepted) {
-            // for example when the 100 MB limit has been reached
+            // for example, when the 100 MB limit has been reached
         }
     }
 }
 ```
 
-Power BI จะเรียกเมธอด `update` ของการแสดงผลภาพที่มีเซกเมนต์ใหม่ของข้อมูลเป็นการตอบสนองเมธอดการโทร `this.host.fetchMoreData`
+Power BI เรียกเมธอด `update` ของวิชวลด้วยเซกเมนต์ใหม่ของข้อมูลเพื่อตอบสนองต่อการเรียกใช้เมธอด `this.host.fetchMoreData`
 
 > [!NOTE]
-> Power BI จะจำกัดข้อมูลทั้งหมดที่ได้รับจนถึง  **100 MB** เพื่อหลีกเลี่ยงข้อจำกัดของหน่วยความจำไคลเอ็นต์ คุณสามารถตรวจสอบขีดจำกัดนี้ได้เมื่อ fetchMoreData() ส่งกลับ 'false' *
+> เพื่อหลีกเลี่ยงข้อจำกัดของหน่วยความจำไคลเอนต์ ปัจจุบัน Power BI จำกัดข้อมูลที่ดึงมาทั้งหมดเป็น 100 MB คุณสามารถเห็นว่าถึงขีดจำกัดแล้วเมื่อ fetchMoreData () ส่งกลับ `false`

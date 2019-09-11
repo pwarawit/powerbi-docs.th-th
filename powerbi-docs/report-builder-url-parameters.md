@@ -9,12 +9,12 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.date: 08/29/2019
-ms.openlocfilehash: 4dae849a18bbfc6e85eedc7ae9e338ad205cb436
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: bda35bfb4690d8109f7bd611e3d319278d235f33
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70189357"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302673"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>พารามิเตอร์ URL ในรายงานที่มีการแบ่งหน้าใน Power BI
 
@@ -68,12 +68,12 @@ URL บริการบนเว็บของผู้เช่า Power BI 
 
 ### <a name="report-commands-rdl"></a>คำสั่งรายงาน (`rdl:`) 
 
-**รูปแบบการส่งออก** ระบุรูปแบบที่จะแสดงและส่งออกรายงาน ค่ารวมถึง: 
-- PPTX 
+**รูปแบบการส่งออก** ระบุรูปแบบที่จะแสดงและส่งออกรายงาน ค่าที่ใช้ได้คือ: 
+- PPTX (PowerPoint)
 - MHTML 
 - รูปภาพ 
-- EXCEL 
-- WORD 
+- EXCELOPENXML (EXCEL) 
+- WORDOPENXML (WORD) 
 - CSV 
 - PDF 
 - XML 

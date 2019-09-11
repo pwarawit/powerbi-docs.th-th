@@ -1,7 +1,7 @@
 ---
 title: สแกนคิวอาร์โค้ดของ Power BI จากอุปกรณ์เคลื่อนที่ของคุณ
 description: คิวอาร์โค้ดใน Power BI สามารถเชื่อมต่อทุกอย่างในโลกแห่งความจริง เข้ากับข้อมูลที่เกี่ยวข้องกับ BI ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ได้โดยตรง iPhones โดยที่ไม่จำเป็นต้อง Android ใช้การค้นหา
-author: mshenhav
+author: KesemSharabi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 8b994dfd44a999b877a906571027f5fcb55d9924
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69c0e5279389c186471aa0a6068d88917cf6fc65
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60972983"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236745"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>สแกนคิวอาร์โค้ดของ Power BI จากอุปกรณ์เคลื่อนที่ของคุณ
 นำไปใช้กับ:
@@ -35,8 +35,8 @@ ms.locfileid: "60972983"
 > พวกเขายังสามารถ[สแกนคิวอาร์โค้ดด้วย Power BI สำหรับแอปความเป็นจริงผสม](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)ได้อีกด้วย
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>สแกนรหัส Power BI QR บน iPhone ของคุณกับสแกนเนอร์ Power BI
-1. ในแอป mobile Power BI เปิดเมนูการนำทางส่วนกลาง![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png)ด้านบนซ้าย 
-2. เลื่อนลงไปยัง**สแกนเนอร์**และเลือก 
+1. ในแอป Power BI สำหรับมือถือ ให้เปิดเมนูการนำทางส่วนกลาง ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png) ที่ด้านบนซ้าย 
+2. เลื่อนลงไปยัง**ตัวสแกน**และเลือก 
    
     ![](media/mobile-apps-qr-code/power-bi-iphone-scanner-menu.png)
 3. ถ้ากล้องของคุณไม่ได้เปิดใช้งาน คุณจำเป็นต้องอนุมัติให้แอป Power BI ใช้กล้อง นี่คืออนุมัติครั้งเดียว 

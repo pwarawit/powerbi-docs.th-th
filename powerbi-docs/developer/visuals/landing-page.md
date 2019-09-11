@@ -1,6 +1,6 @@
 ---
-title: หน้าเริ่มต้น
-description: วิธีการเพิ่มหน้าเริ่มต้นไปยังวิชวล Power BI
+title: เพิ่มหน้าเริ่มต้น (landing page) ไปยังวิชวล Power BI ของคุณ
+description: บทความนี้อธิบายวิธีเพิ่มหน้าเริ่มต้นไปยังวิชวล Power BI
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 44cc9314b31803c97d3203d4aab846685d8f88fa
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: d15c52134fe3c8638625e50a1374867a4abed3c1
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424895"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236714"
 ---
-# <a name="landing-page"></a>หน้าเริ่มต้น
+# <a name="add-a-landing-page-to-your-power-bi-visuals"></a>เพิ่มหน้าเริ่มต้น (landing page) ไปยังวิชวล Power BI ของคุณ
 
-ด้วย API 2.3.0 คุณสามารถเพิ่มหน้าเริ่มต้นไปยังวิชวลของคุณ เพื่อทำเช่นนั้น ให้เพิ่ม `supportsLandingPage` ในความสามารถและตั้งค่าเป็นจริง ซึ่งจะเตรียมใช้งานและปรับปรุงวิชวลก่อนที่จะเพิ่มข้อมูลลงไป (หมายความว่าจะไม่แสดงลายน้ำ) ดังนั้นคุณสามารถออกแบบหน้าเริ่มต้นของคุณได้เพื่อแสดงในวิชวลตราบใดที่ไม่มีข้อมูล
+ด้วย API 2.3.0 คุณสามารถเพิ่มหน้าเริ่มต้นไปยังวิชวล Power BI ของคุณได้ เมื่อต้องการทำเช่นนั้น ให้เพิ่ม `supportsLandingPage` ไปยังความสามารถและตั้งค่าเป็น จริง การดำเนินการนี้จะเริ่มต้นและอัปเดตวิชวลของคุณก่อนที่คุณจะเพิ่มข้อมูลลงไป เนื่องจากวิชวลจะไม่แสดงลายน้ำอีกต่อไป คุณสามารถออกแบบหน้าเริ่มต้นของคุณเองเพื่อให้แสดงในวิชวลได้ตราบใดที่ไม่มีข้อมูลอยู่
 
 ```typescript
 export class BarChart implements IVisual {
@@ -57,6 +57,6 @@ export class BarChart implements IVisual {
     }
 ```
 
-ตัวอย่าง
+ตัวอย่างหน้าเริ่มต้นจะแสดงในรูปต่อไปนี้:
 
 ![สกรีนช็อตของหน้าเริ่มต้น](./media/landing-page.png)

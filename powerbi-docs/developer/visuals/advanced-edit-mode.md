@@ -1,6 +1,6 @@
 ---
-title: โหมดแก้ไขขั้นสูง
-description: วิชวล Power BI ที่มีตัวควบคุม UI ขั้นสูง
+title: โหมดการแก้ไขขั้นสูงในวิชวล Power BI
+description: บทความนี้อธิบายถึงวิธีการตั้งค่าการควบคุม UI ขั้นสูงในวิชวล Power BI
 author: shaym83
 ms.author: shaym
 manager: rkarlin
@@ -9,51 +9,46 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 625105aed773bce5cf70932f092faf60ea001c2c
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 54cd9d106132979e5ace71a2617a9e2520363176
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425562"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237338"
 ---
-# <a name="advanced-edit-mode"></a>โหมดการแก้ไขขั้นสูง
+# <a name="advanced-edit-mode-in-power-bi-visuals"></a>โหมดการแก้ไขขั้นสูงในวิชวล Power BI
 
-วิชวลที่จำเป็นต้องใช้ตัวควบคุม UI ขั้นสูงสามารถรับรองการสนับสนุนในโหมดการแก้ไขขั้นสูง
-ถ้าได้รับการสนับสนุนเมื่ออยู่ในโหมดการแก้ไขรายงาน ปุ่ม `Edit` จะปรากฏขึ้นในเมนูของวิชวล
-เมื่อคลิกปุ่ม `Edit` EditMode ถูกตั้งค่าเป็น `Advanced`
-วิชวลสามารถใช้ค่าสถานะ EditMode เพื่อกำหนดว่าควรแสดงตัวควบคุม UI ดังกล่าวหรือไม่
+หากคุณต้องการการควบคุม UI ขั้นสูงในวิชวล Power BI คุณสามารถใช้ประโยชน์จากโหมดแก้ไขขั้นสูงได้ เมื่อคุณอยู่ในโหมดแก้ไขรายงาน ให้คุณเลือกปุ่ม **แก้ไข** เพื่อตั้งโหมดแก้ไขเป็น **ขั้นสูง** ภาพสามารถใช้ค่าสถานะ `EditMode` เพื่อพิจารณาว่าควรแสดงการควบคุม UI นี้หรือไม่
 
-ตามค่าเริ่มต้น วิชวลไม่สนับสนุนโหมดการแก้ไขขั้นสูง
-ถ้าจำเป็นต้องมีลักษณะการทำงานที่แตกต่างกัน ควรระบุไว้อย่างชัดเจนในไฟล์ `capabilities.json` ของวิชวล โดยการตั้งค่าคุณสมบัติ `advancedEditModeSupport`
+ตามค่าเริ่มต้น วิชวลไม่สนับสนุนโหมดการแก้ไขขั้นสูง คุณสามารถระบุสิ่งนี้ได้อย่างชัดเจนในไฟล์ *capabilities.json* ของวิชวลโดยการตั้งค่าคุณสมบัติ `advancedEditModeSupport`
 
 ค่าที่เป็นไปได้คือ:
 
-- 0-NotSupported
+- `0` - NotSupported
 
-- 1 - SupportedNoAction
+- `1` - SupportedNoAction
 
-- 2 - SupportedInFocus
+- `2` - SupportedInFocus
 
-## <a name="entering-advanced-edit-mode"></a>การเข้าสู่โหมดการแก้ไขขั้นสูง
+## <a name="enter-advanced-edit-mode"></a>ป้อนโหมดการแก้ไขขั้นสูง
 
-ปุ่ม `Edit` จะมองเห็นได้ถ้า:
+ปุ่ม**แก้ไข**จะแสดงขึ้นมาถ้า:
 
- 1- ตั้งค่าคุณสมบัติ `advancedEditModeSupport` ใน capabilities.json เป็น `SupportedNoAction` หรือ `SupportedInFocus`
+* คุณสมบัติ `advancedEditModeSupport` ถูกตั้งค่าในไฟล์ *capabilities.json* เป็น `SupportedNoAction` หรือ `SupportedInFocus`
 
- 2- แสดงผลวิชวลในโหมดการแก้ไขรายงาน
+* แสดงผลวิชวลในโหมดการแก้ไขรายงาน
 
-ถ้าคุณสมบัติ `advancedEditModeSupport` หายไปจาก capabilities.json หรือตั้งค่าเป็น `NotSupported` ปุ่ม ' แก้ไข ' จะหายไป
+หากคุณสมบัติ `advancedEditModeSupport` หายไปจากไฟล์ *capabilities.json* หรือตั้งค่าเป็น `NotSupported` ปุ่ม **แก้ไข** จะไม่ปรากฏขึ้น
 
 ![เข้าสู่โหมดการแก้ไข](./media/edit-mode.png)
 
-เมื่อผู้ใช้คลิก`Edit` วิชวลจะมีการเรียกใช้การอัปเดต () ด้วย EditMode ที่ตั้งค่าเป็น `Advanced`
-ตามค่าที่ตั้งไว้ในความสามารถ การดำเนินการต่อไปนี้จะเกิดขึ้น:
+เมื่อคุณเลือก **แก้ไข** วิชวลจะทำการเรียกใช้ update() โดยมีการตั้งค่า EditMode เป็น `Advanced` ขึ้นอยู่กับค่าที่ตั้งไว้ในไฟล์ *capabilities.json* การดำเนินการต่อไปนี้เกิดขึ้น:
 
-* `SupportedNoAction` -ไม่มีการดำเนินการเพิ่มเติมจากโฮสต์
-* `SupportedInFocus` -โฮสต์จะเปิดหน้าต่างวิชวลใหม่ในโหมดโฟกัส
+* `SupportedNoAction`: ไม่ต้องการการดำเนินการเพิ่มเติมจากโฮสต์
+* `SupportedInFocus`: โฮสต์จะเปิดหน้าต่างวิชวลใหม่ในโหมดโฟกัส
 
-## <a name="exiting-advanced-edit-mode"></a>การออกจากโหมดการแก้ไขขั้นสูง
+## <a name="exit-advanced-edit-mode"></a>ออกจากโหมดการแก้ไขขั้นสูง
 
-ปุ่ม `Back to report` จะมองเห็นได้ถ้า:
+ปุ่ม **กลับไปยังรายงาน** จะปรากฏขึ้น ถ้า:
 
-1- ตั้งค่าคุณสมบัติ `advancedEditModeSupport` ใน capabilities.json เป็น `SupportedInFocus`
+* คุณสมบัติ `advancedEditModeSupport` ถูกตั้งค่าในไฟล์ *capabilities.json* เป็น `SupportedInFocus`

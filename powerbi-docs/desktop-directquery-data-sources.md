@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5455a5f3b4bda6cf6d63825222822c4acfa5f03a
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159944"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302660"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>แหล่งข้อมูลที่สนับสนุนโดย DirectQuery Power BI
 
@@ -29,14 +29,16 @@ ms.locfileid: "70159944"
 * Azure HDInsight Spark
 * [ฐานข้อมูล Azure SQL](service-azure-sql-database-with-direct-connect.md)
 * [คลังข้อมูล Azure SQL](service-azure-sql-data-warehouse-with-direct-connect.md)
+* Denodo
 * Google BigQuery
 * คิวรีแบบโต้ตอบ HDInsight
-* ฐานข้อมูล IBM DB2
+* IBM DB2 (Microsoft Provider))
 * IBM Netezza
 * Impala (รุ่น 2.x)
 * MarkLogic
 * ฐานข้อมูล Oracle (เวอร์ชัน 12 หรือสูงกว่า)
 * Oracle Essbase
+* PostgreSQL
 * เซิร์ฟเวอร์แอปพลิเคชัน SAP Business Warehouse
 * เซิร์ฟเวอร์ข้อความ SAP Business Warehouse
 * SAP HANA
@@ -65,15 +67,24 @@ ms.locfileid: "70159944"
 | คลังข้อมูล Azure SQL |ไม่ใช่ |
 | Google BigQuery |ไม่ใช่ |
 | IBM Netezza |ใช่ |
+| IBM DB2 (IBM Provider) |ใช่ |
+| IBM DB2 (Microsoft Provider) |ไม่ใช่ |
+| ฐานข้อมูล IBM Informix |ไม่ใช่ |
 | Impala (รุ่น 2.x) |ใช่ |
+| MySQL |ใช่ |
+| ODBC |ใช่ |
 | ฐานข้อมูล Oracle |ใช่ |
+| PostgreSQL |ใช่ |
 | เซิร์ฟเวอร์แอปพลิเคชัน SAP Business Warehouse |ใช่ |
 | เซิร์ฟเวอร์ข้อความ SAP Business Warehouse |ยังไม่สนับสนุนใน**บริการ Power BI** |
 | SAP HANA |ใช่ |
 | Snowflake |ใช่ |
 | Spark (รุ่น Beta) (เวอร์ชัน 0.9 หรือสูงกว่า) |ใช่ |
 | เซิร์ฟเวอร์ SQL |ใช่ |
+| Sybase |ใช่ |
 | ฐานข้อมูล Teradata |ใช่ |
+| Vertica |ใช่ |
+
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>การลงชื่อเข้าระบบครั้งเดียว (SSO) สำหรับแหล่งข้อมูล DirectQuery
 

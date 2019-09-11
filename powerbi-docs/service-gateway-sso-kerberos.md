@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5445326f302f5ffef39ab387b3a22a336efb6550
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655167"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391879"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>ใช้ Kerberos สำหรับลงชื่อเข้าใช้ครั้งเดียว (SSO) จาก Power BI ไปยังแหล่งข้อมูลภายในองค์กร
 
@@ -377,7 +377,7 @@ ms.locfileid: "69655167"
 
 ### <a name="add-registry-entries-to-the-gateway-machine"></a>เพิ่มรายการรีจิสทรีไปยังเครื่องเกตเวย์
 
-เพิ่มรายการรีจิสทรีที่จำเป็นลงในรีจิสทรีของเครื่องที่ติดตั้งเกตเวย์ไว้ นี่คือคำสั่งเพื่อเรียกใช้:
+เพิ่มรายการรีจิสทรีที่จำเป็นลงในรีจิสทรีของเครื่องที่มีการติดตั้งเกตเวย์ เช่นเดียวกับเครื่องที่ต้องการเชื่อมต่อจาก Power BI Desktop นี่คือคำสั่งเพื่อเรียกใช้:
 
 1. REG ADD HKLM\SOFTWARE\Wow6432Node\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
 
