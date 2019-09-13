@@ -283,6 +283,8 @@
               href: service-add-hyperlink-to-text-box.md
             - name: ไฮเปอร์ลิงก์ในตาราง
               href: power-bi-hyperlinks-in-tables.md
+            - name: แสดงรูปภาพในตาราง
+              href: power-bi-images-tables.md
             - name: สตริงรูปแบบแบบกำหนดเอง
               href: desktop-custom-format-strings.md
             - name: การจัดรูปแบบตารางตามเงื่อนไข
@@ -569,8 +571,6 @@
               href: service-create-dashboard-mobile-phone-view.md
             - name: สร้างคิวอาร์โค้ดสำหรับไทล์
               href: service-create-qr-code-for-tile.md
-            - name: เพิ่มรูปภาพไปยังแดชบอร์ด
-              href: service-dashboard-add-image.md
             - name: การจัดประเภทข้อมูลของแดชบอร์ด
               href: service-data-classification.md
             - name: ไอเท็มของแดชบอร์ด
