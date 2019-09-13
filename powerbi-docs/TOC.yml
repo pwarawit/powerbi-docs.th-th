@@ -283,6 +283,8 @@
               href: service-add-hyperlink-to-text-box.md
             - name: ไฮเปอร์ลิงก์ในตาราง
               href: power-bi-hyperlinks-in-tables.md
+            - name: สตริงรูปแบบแบบกำหนดเอง
+              href: desktop-custom-format-strings.md
             - name: การจัดรูปแบบตารางตามเงื่อนไข
               href: desktop-conditional-table-formatting.md
             - name: นิพจน์เงื่อนไขตามการจัดรูปแบบชื่อเรื่อง
@@ -295,7 +297,7 @@
               href: desktop-see-data-see-records.md
             - name: เคล็ดลับสำหรับการสร้างรายงาน
               href: desktop-tips-and-tricks-for-creating-reports.md
-        - name: การแสดงข้อมูลด้วยภาพ
+        - name: การจัดรูปแบบการแสดงข้อมูล
           items:
             - name: การแสดงข้อมูลใน Power BI
               href: visuals/power-bi-report-visualizations.md
@@ -669,12 +671,14 @@
               href: service-dataflows-computed-entities-premium.md
             - name: เชื่อมต่อกับแหล่งข้อมูลด้วยกระแสข้อมูล
               href: service-dataflows-data-sources.md
-            - name: การใช้กระแสข้อมูลกับแหล่งข้อมูลภายในองค์กร
+            - name: ใช้กระแสข้อมูลกับแหล่งข้อมูลภายในองค์กร
               href: service-dataflows-on-premises-gateways.md
             - name: เอนทิตีลิงก์ระหว่างกระแสข้อมูล
               href: service-dataflows-linked-entities.md
-            - name: การรีเฟรชแบบเพิ่มหน่วยกับกระแสข้อมูล
+            - name: ใช้การรีเฟรชแบบเพิ่มหน่วยกับกระแสข้อมูล
               href: service-dataflows-incremental-refresh.md
+            - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
+              href: service-dataflows-best-practices.md
             - name: นักพัฒนาทรัพยากรเพื่อกระแสข้อมูล
               href: service-dataflows-developer-resources.md
             - name: เชื่อมต่อกระแสข้อมูลกับ Power BI Desktop
@@ -715,6 +719,8 @@
               href: service-template-apps-install-distribute.md
             - name: อัปเดต ลบ และแยกแอปแม่แบบใน Power BI
               href: service-template-update-delete-extract.md
+            - name: ตัวอย่างแอปเทมเพลต
+              href: service-template-apps-samples.md
         - name: การแก้ไขปัญหา
           items:
             - name: ลืมรหัสผ่านของคุณสำหรับ Power BI ใช่หรือไม่
