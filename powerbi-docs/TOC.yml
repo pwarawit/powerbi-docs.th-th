@@ -677,8 +677,6 @@
               href: service-dataflows-linked-entities.md
             - name: ใช้การรีเฟรชแบบเพิ่มหน่วยกับกระแสข้อมูล
               href: service-dataflows-incremental-refresh.md
-            - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
-              href: service-dataflows-best-practices.md
             - name: นักพัฒนาทรัพยากรเพื่อกระแสข้อมูล
               href: service-dataflows-developer-resources.md
             - name: เชื่อมต่อกระแสข้อมูลกับ Power BI Desktop
@@ -1432,6 +1430,8 @@
           href: service-admin-power-bi-security.md
 - name: คำแนะนำ
   items:
+    - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
+      href: service-dataflows-best-practices.md
     - name: Schema ติดดาวคืออะไร
       href: guidance/star-schema.md
     - name: ลดขนาดแบบจำลองข้อมูล
