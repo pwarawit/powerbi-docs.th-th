@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 5a5dca5c3fb4b3b375d3fbb603703e8aaaf91c6c
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: e02d50a7990eb90405d6a864fe294fee8e946e10
+ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023441"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "70936266"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -22,9 +22,7 @@ ms.locfileid: "69023441"
 
 ## <a name="upcoming-webinars"></a>สัมมนาผ่านเว็บที่กำลังมาถึง
 
-**การใช้ Power BI กับ Dynamics 365 Finance และการดำเนินการต่าง ๆ**
-<br>โดย Kevin Horlock
-<br>[ลงทะเบียนเพื่อรับชมในวันที่ 11 กันยายนนี้](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
+สัมมนาผ่านเว็บยังไม่จัดกำหนดการ กรุณาตรวจสอบใหม่เพื่อดูงานที่จะจัดในอนาคต
 
 >[การสัมมนาผ่านเว็บที่กำลังมาถึงจากชุมชน Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -51,6 +49,10 @@ ms.locfileid: "69023441"
 **เสริมสร้างทักษะการสร้างแบบจำลองข้อมูลของคุณด้วย Power BI**
 <br>โดย Kasper de Jonge
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
+**การใช้ Power BI กับ Dynamics 365 Finance และการดำเนินการต่าง ๆ**
+<br>โดย Kevin Horlock
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
 
 **Microsoft ทำงานบน Power BI - การวางแผนทางการเงินและการวิเคราะห์ทำได้ง่าย**
 <br>โดย Cory Hrncirik และ Miguel Martinez
