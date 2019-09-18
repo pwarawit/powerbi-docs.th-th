@@ -4,19 +4,18 @@ description: ดูรายการของเบราว์เซอร์�
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/11/2019
+ms.date: 09/11/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1b47e51ece196d6667363d91f43589c398828ff9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f713ab679f49ca2e3226f9a6c2a7bf9f2588fede
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65608287"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073198"
 ---
 # <a name="supported-browsers-for-power-bi"></a>เบราว์เซอร์ที่สนับสนุนสำหรับ Power BI
 Power BI ทำงานได้ในเบราว์เซอร์เหล่านี้:
@@ -30,6 +29,7 @@ Power BI ทำงานได้ในเบราว์เซอร์เห�
 เบราว์เซอร์เหล่านี้ ได้รับการสนับสนุนบนทุกแพลตฟอร์มที่มีเบราว์เซอร์นั้น
 
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
+* [Power BI คืออะไร](../power-bi-overview.md)
 * ลองถาม[ชุมชน Power BI](http://community.powerbi.com/)
 * ยังคงมีปัญหาหรือไม่? โปรดเยี่ยมชม[หน้าการรองรับของ Power BI](https://powerbi.microsoft.com/support/)
 

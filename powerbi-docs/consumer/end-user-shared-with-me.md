@@ -13,14 +13,14 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4a4cbc152784d7536a5aa179769cf753645c932b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61048796"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>แสดงแดชบอร์ดและรายงานที่ได้แชร์กับฉัน
-## <a name="shared-with-me"></a>แชร์กับฉัน
+## <a name="shared-with-me"></a>แชร์กับฉันแล้ว
 
 เมื่อเพื่อนร่วมงานแชร์เนื้อหากับคุณ ใช้ปุ่ม**แชร์** ซึ่งปรากฏในที่เก็บ**แชร์กับฉัน** สามารถดูแดชบอร์ดหรือรายงานได้จาก **แชร์กับฉัน** และไม่สามารถดูได้จาก **แอป**
 

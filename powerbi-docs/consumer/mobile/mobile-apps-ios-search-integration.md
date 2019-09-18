@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
 ms.openlocfilehash: 8f40781bb15b06f894a53f16d4ec6754d88e6b53
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/10/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "66817087"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>การรวมการค้นหาอุปกรณ์ iOS (สปอตไลต์) ด้วยแอป Power BI บนมือถือระบบ iOS (ตัวอย่าง)
@@ -51,7 +51,7 @@ ms.locfileid: "66817087"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 เรียนรู้เพิ่มเติมเกี่ยวกับแอป Power BI สำหรับอุปกรณ์เคลื่อนที่โดยดำเนินการดังนี้: 
 
-* การดาวน์โหลดแอป [Power BI สำหรับ iPhone](http://go.microsoft.com/fwlink/?LinkId=522062)
+* การดาวน์โหลด [แอป Power BI สำหรับ iPhone](http://go.microsoft.com/fwlink/?LinkId=522062)
 * ติดตาม[@MSPowerBIบน Twitter](https://twitter.com/MSPowerBI)
 * การเข้าร่วมการสนทนาที่[ชุมชน Power BI](http://community.powerbi.com/)
 

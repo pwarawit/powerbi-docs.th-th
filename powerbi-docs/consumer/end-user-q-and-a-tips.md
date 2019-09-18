@@ -12,10 +12,10 @@ ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/27/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67408192"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>เคล็ดลับสำหรับการถามคำถามใน ถามตอบ Power BI
@@ -29,7 +29,7 @@ ms.locfileid: "67408192"
 >  
 
 
-|ประเภท  |คำสำคัญ  |คอลัมน์3  |
+|หมวดหมู่  |คำสำคัญ  |คอลัมน์3  |
 |---------|---------|---------|
 |**การรวมค่า**     | รวม, สุทธิ, จำนวน, ปริมาณ, ใหญ่ที่สุด, เล็กที่สุด, สูงที่สุด, น้อยที่สุด          |
 |     |         |         
