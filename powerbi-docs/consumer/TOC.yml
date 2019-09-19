@@ -1,6 +1,6 @@
 - name: Power BI สำหรับผู้บริโภค
   href: power-bi-consumer-landing.md
-- name: บริการ Power BI สำหรับผู้บริโภค
+- name: บริการของ Power BI สำหรับ ผู้บริโภค
   items:
     - name: ภาพรวม
       items:
@@ -8,6 +8,8 @@
           href: end-user-consumer.md
         - name: แนวคิดพื้นฐานและคำศัพท์สำหรับผู้ใช้ Power BI
           href: end-user-basic-concepts.md
+        - name: ค้นหาเนื้อหาโดยใช้หน้า landing page ของคุณ
+          href: end-user-home.md
         - name: นำทาง 'รูปลักษณ์ใหม่ '
           href: ../service-new-look.md
     - name: การเริ่มต้นใช้งานด่วน
