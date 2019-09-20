@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 8d48f7c42ac88f5a3b659bf4aff2ece65a2010e5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1f7911007d9629c8990fc15ddf7453bafe0e78f5
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61343060"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70841460"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>ใส่คำอธิบายประกอบ และแชร์ไทล์ รายงาน หรือรูปภาพในแอปสำหรับอุปกรณ์เคลื่อนที่ของ Power BI
 ใช้กับ
@@ -29,7 +29,7 @@ ms.locfileid: "61343060"
 
 *รายงานที่มีคำอธิบายประกอบ*
 
-จดหมายที่ มีสแนปช็อตของไทล์ รายงาน หรือรูปภาพที่ยังมีลิงก์ไปยังวัตถุจริงบน Power BI service ([https://powerbi.com](https://powerbi.com)) ผู้รับของคุณสามารถคลิกลิงก์ และไปยังที่ไทล์ รายงาน หรือรูปภาพวิชวล ถ้าคุณและพวกเขามีสิทธิ์การใช้งาน Power BI Pro หรือเนื้อหาในการ[ความจุพรีเมียม](../../service-premium-what-is.md)และคุณได้แชร์รายการกับบุคคลเหล่านั้น 
+จดหมายที่ มีสแนปช็อตของไทล์ รายงาน หรือรูปภาพที่ยังมีลิงก์ไปยังวัตถุจริงบน Power BI service ([https://powerbi.com](https://powerbi.com)) ผู้รับของคุณสามารถคลิกลิงก์ และไปยังที่ไทล์ รายงาน หรือรูปภาพวิชวล ถ้าคุณและพวกเขามีสิทธิ์การใช้งาน Power BI Pro หรือเนื้อหาอยู่ใน[ความจุพรีเมียม](../../service-premium-what-is.md)และคุณได้แชร์รายการกับบุคคลเหล่านั้น 
 
 คุณสามารถ[แชร์ไทล์จากแอป mobile Power BI ให้กับอุปกรณ์ Windows 10](mobile-windows-10-phone-app-get-started.md) แช่นกัน แต่อย่าใส่คำอธิบายประกอบ
 

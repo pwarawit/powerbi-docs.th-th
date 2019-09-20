@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 6d0c4a2dba1dee1c8c40da8fd3371767915729da
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490327"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877812"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>การจัดการ Power BI - คำถามที่ถามบ่อย (FAQ)
 
@@ -119,7 +119,7 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>ฉันจะป้องกันไม่ให้ผู้ใช้ปัจจุบันของฉันเริ่มใช้ Power BI ได้อย่างไร?
 
-การตั้งค่า Azure AD ที่ควบคุมสิ่งนี้คือ **AllowAdHocSubscriptions** ผู้เช่าส่วนใหญ่จะมีการตั้งค่านี้ให้เป็นจริง ซึ่งหมายความว่าถูกเปิดใช้งาน หากคุณซื้อ Power BI ผ่านคู่ค้า อาจมีการตั้งค่าสคริปต์เป็นเท็จ ซึ่งหมายความว่าถูกปิดใช้งาน
+การตั้งค่า Azure AD ที่ควบคุมสิ่งนี้คือ **AllowAdHocSubscriptions** ผู้เช่าส่วนใหญ่จะตั้งค่านี้เป็น*จริง* ซึ่งหมายความว่าถูกเปิดใช้งาน หากคุณซื้อ Power BI ผ่านคู่ค้า อาจมีการตั้งค่าสคริปต์เป็น*เท็จ* ซึ่งหมายความว่าถูกปิดใช้งาน
 
 ใช้สคริปต์ PowerShell ต่อไปนี้เพื่อปิดใช้งานการสมัครใช้งานเฉพาะกิจ ([เรียนรู้เพิ่มเติมเกี่ยวกับ PowerShell][1])
 
@@ -145,7 +145,7 @@ Get-MsolCompanyInformation | fl allow*
     ```
 
 > [!NOTE]
-> ใช้ค่าสถานะ **AllowAdHocSubscriptions** เพื่อควบคุมความสามารถของผู้ใช้มากมายในองค์กรของคุณ รวมถึงความสามารถสำหรับผู้ใช้เพื่อลงทะเบียนสำหรับบริการ Azure Rights Management การเปลี่ยนธงนี้จะมีผลกระทบต่อความสามารถเหล่านี้ทั้งหมด
+> ใช้ค่าสถานะ **AllowAdHocSubscriptions** เพื่อควบคุมความสามารถของผู้ใช้มากมายในองค์กรของคุณ รวมถึงความสามารถสำหรับผู้ใช้เพื่อลงทะเบียนสำหรับบริการ Azure Rights Management การเปลี่ยนธงนี้จะมีผลกระทบต่อความสามารถเหล่านี้ทั้งหมด ผู้ใช้สามารถลงทะเบียนสำหรับการทดลองใช้งานแบบ Pro ได้ด้วยการตั้งค่าเป็น *เท็จ*
 
 ### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>ฉันจะอนุญาตให้ผู้ใช้ปัจจุบันของฉันลงทะเบียนสำหรับ Power BI ได้อย่างไร?
 

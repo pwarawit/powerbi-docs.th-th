@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
-ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
+ms.openlocfilehash: 5697fd79551d238f095696dcc940afb8ea330d11
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/26/2019
-ms.locfileid: "70030157"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70841355"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 สำหรับ "ข้อมูลอะไรใหม่" ที่เกี่ยวข้อง ให้ดู
@@ -25,7 +25,15 @@ ms.locfileid: "70030157"
 
 ## <a name="august-2019"></a>สิงหาคม 2019
 
-### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>การเข้าถึงที่ปลอดภัยด้วยพร็อกซีแอปพลิเคชัน Azure Active Directory (AD)
+### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>การแนะนำ Power BI บนมือถือรูปลักษณ์ใหม่ (ตัวอย่าง) (iOS และ Android)
+
+เราได้รีเฟรชแอปของเราและแนะนำประสบการณ์การใช้งานใหม่ การเพิ่มโฮมเพจที่ช่วยให้สามารถเข้าถึงเนื้อหาที่ใช้บ่อย ๆ ของคุณได้อย่างรวดเร็ว และแถบการนำทางใหม่ที่เสนอวิธีการนำทางผ่านแอปได้อย่างง่ายดาย ด้วยประสบการณ์ใหม่ที่สดใส จะช่วยให้คุณค้นหาสิ่งที่คุณต้องการได้รวดเร็วและง่ายดายยิ่งขึ้นเมื่อคุณต้องการ
+เนื่องจากรูปลักษณ์ใหม่อยู่ในการแสดงตัวอย่าง คุณจะต้องเปิดเพื่อใช้งานอย่างเพลิดเพลิน
+เรียนรู้เพิ่มเติมเกี่ยวกับ [Power BI บนมือถือในรูปลักษณ์ใหม่](https://powerbi.microsoft.com/blog/introducing-power-bi-mobile-apps-new-look-preview/)
+
+![Power BI บนมือถือในรูปลักษณ์ใหม่](./media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-new-look2.gif)
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>การเข้าถึงที่ปลอดภัยด้วยพร็อกซีแอปพลิเคชัน Azure Active Directory (AD) (iOS และ Android)
 
 เราเป็นพันธมิตรกับทีม Azure Active Directory เพื่อรวมแอปพลิเคชัน Power BI สำหรับอุปกรณ์เคลื่อนที่กับพร็อกซีแอปพลิเคชัน Azure Active Directory (AAD) ด้วยการกำหนดค่านี้ คุณสามารถเชื่อมต่อกับเซิร์ฟเวอร์รายงานที่โฮสต์ภายในขอบเขตขององค์กรจากแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ โดยไม่จำเป็นต้องตั้งค่าการกำหนดค่าที่ซับซ้อนภายในองค์กร อ่านเพิ่มเติมเกี่ยวกับ[การรวมพร็อกซีแอปพลิเคชัน Power BI สำหรับอุปกรณ์เคลื่อนที่และ Azure AD](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/) เรียนรู้[วิธีการกำหนดค่าพร็อกซีแอปพลิเคชัน Azure AD และ Power BI](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 
@@ -36,7 +44,7 @@ ms.locfileid: "70030157"
 ตอนนี้เคล็ดลับเครื่องมือหน้ารายงานไม่ได้รับการสนับสนุนเมื่อดูรายงานในแอปมือถือ เพียงแค่กดค้างบนวิชวลที่มีเคล็ดลับเครื่องมือรายงานและเคล็ดลับนั้นจะแสดงขึ้น  
 
 ![เคล็ดลับเครื่องมือของพื้นที่รายงาน](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
-
+ 
 > [!NOTE]
 > เคล็ดลับเครื่องมือรายงานได้รับการสนับสนุนสำหรับอุปกรณ์ที่มีขนาดใหญ่กว่า 640 พิกเซลและ 320 มุมมองพื้นที่ทำงาน อุปกรณ์ขนาดเล็กกว่าจะเคล็ดลับเครื่องมือค่าเริ่มต้น
 

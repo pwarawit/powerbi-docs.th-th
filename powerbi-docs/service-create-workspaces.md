@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0bb8d796af5139cd89f4bdfa0a8da10603acb2ed
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 5385512e534d866a2474fd4e3def10f45d52a1a0
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530559"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903855"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>สร้างพื้นที่ทำงานแบบคลาสสิกใน Power BI
 
@@ -23,53 +23,49 @@ ms.locfileid: "69530559"
 
 **คุณทราบหรือไม่** Power BI มีประสบการณ์ในพื้นที่ทำงานใหม่ซึ่งตอนนี้เป็นค่าเริ่มต้น อ่าน [จัดระเบียบงานในพื้นที่ทำงานใหม่ ](service-new-workspaces.md) สำหรับรายละเอียดเกี่ยวกับพื้นที่ทำงานใหม่ 
 
-เมื่อคุณสร้างพื้นที่ทำงานแบบคลาสสิก คุณกำลังสร้างกลุ่ม Office 365 พื้นฐานที่เกี่ยวข้อง การดูแลระบบพื้นที่ทำงานทั้งหมดอยู่ใน Office 365 คุณสามารถเพิ่มผู้ร่วมงานไปยังพื้นที่ทำงานเหล่านี้ได้ในฐานะเป็นสมาชิกหรือเป็นผู้ดูแลระบบ ในพื้นที่ทำงาน คุณสามารถทำงานร่วมกันทั้งหมดบนแดชบอร์ด รายงาน และบทความอื่นๆ ที่คุณวางแผนที่จะเผยแพร่ไปยังผู้ชมจำนวนมาก ทุกคนที่คุณเพิ่มลงในพื้นที่ทำงานแอปต้องมีสิทธิ์การใช้งาน Power BI Pro 
+เมื่อคุณสร้างพื้นที่ทำงานแบบคลาสสิก คุณกำลังสร้างกลุ่ม Office 365 พื้นฐานที่เกี่ยวข้อง การดูแลระบบพื้นที่ทำงานทั้งหมดอยู่ใน Office 365 คุณสามารถเพิ่มผู้ร่วมงานไปยังพื้นที่ทำงานเหล่านี้ได้ในฐานะเป็นสมาชิกหรือเป็นผู้ดูแลระบบ ในพื้นที่ทำงาน คุณสามารถทำงานร่วมกันทั้งหมดบนแดชบอร์ด รายงาน และบทความอื่นๆ ที่คุณวางแผนที่จะเผยแพร่ไปยังผู้ชมจำนวนมาก ทุกคนที่คุณเพิ่มลงในพื้นที่ทำงานต้องมีสิทธิ์การใช้งาน Power BI Pro 
 
-## <a name="video-apps-and-app-workspaces"></a>วิดีโอ: แอปและพื้นที่ทำงานของแอป
+## <a name="video-apps-and-workspaces"></a>วิดีโอ: แอปและพื้นที่ทำงาน
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-a-classic-app-workspace-based-on-an-office-365-group"></a>สร้างพื้นที่ทำงานแอปแบบคลาสสิกโดยอาศัยกลุ่ม Office 365
+## <a name="create-a-classic-workspace-based-on-an-office-365-group"></a>สร้างพื้นที่ทำงานแบบคลาสสิกโดยอาศัยกลุ่ม Office 365
 
-เมื่อคุณสร้างพื้นที่ทำงานแอป แอปนั้นจะถูกสร้างบนกลุ่ม Office 365
+เมื่อคุณสร้างพื้นที่ทำงาน ก็จะต้องสร้างบนกลุ่ม Office 365
 
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]
 
 เมื่อคุณเริ่มสร้างพื้นที่ทำงานเป็นครั้งแรก คุณอาจต้องรอเป็นเวลาหนึ่งชั่วโมงหรือมากกว่า เพื่อให้พื้นที่ทำงานเผยแพร่ไปยัง Office 365 
 
-### <a name="add-an-image-to-your-office-365-app-workspace-optional"></a>เพิ่มรูปภาพลงในพื้นที่ทำงานแอป Office 365 ของคุณ (เป็นตัวเลือก)
+### <a name="add-an-image-to-your-office-365-workspace-optional"></a>เพิ่มรูปภาพลงในพื้นที่ทำงาน Office 365 ของคุณ (เป็นตัวเลือก)
 ตามค่าเริ่มต้น Power BI สร้างวงกลมสีขนาดเล็กสำหรับแอปฯของคุณด้วยชื่อย่อของแอปฯ แต่คุณอาจต้องการกำหนดด้วยตนเองด้วยรูปภาพหนึ่ง ในการเพิ่มรูปภาพ คุณจำเป็นต้องมีสิทธิ์การใช้งาน Exchange Online
 
 1. เลือก**พื้นที่ทำงาน** เลือกจุดไข่ปลา (...) ที่อยู่ถัดจากชื่อของพื้นที่ทำงาน จากนั้นเลือก**สมาชิก** 
    
-     ![เลือกสมาชิกพื้นที่ทำงาน](media/service-create-distribute-apps/power-bi-apps-workspace-members.png)
+     ![เลือกสมาชิกพื้นที่ทำงาน](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
     บัญชี Office 365 Outlook สำหรับพื้นที่ทำงานเปิดขึ้นในหน้าต่างเบราว์เซอร์ใหม่
-2. เมื่อคุณเลื่อนไปเหนือวงกลมสีที่ด้านบนซ้าย วงกลมนั้นจะเปลี่ยนเป็นไอคอนรูปดินสอ เลือกไอคอนนั้น
+2. เลือกดินสอ **แก้ไข**
    
-     ![ไอคอนรูปดินสอ Office 365](media/service-create-distribute-apps/power-bi-apps-workspace-edit-image.png)
-3. เลือกไอคอนรูปดินสออีกครั้งและค้นหารูปภาพที่คุณต้องการใช้
+     ![ไอคอนรูปดินสอ Office 365](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
+3. เลือกไอคอนกล้องถ่ายรูปอีกครั้งและค้นหารูปภาพที่คุณต้องการใช้
    
-     ![เลือกดินสออีกครั้ง](media/service-create-distribute-apps/power-bi-apps-workspace-edit-group.png)
+     ![เลือกรูปภาพจากกล้องถ่ายรูป](media/service-create-workspaces/power-bi-workspace-old-camera.png)
 
      รูปภาพสามารถเป็นไฟล์ .png, .jpg หรือ .bmp ได้ ขนาดไฟล์สามารถมีขนาดใหญ่ได้สูงสุดถึง 3 เมกะไบต์ 
 
-4. เลือก**บันทึก**
-   
-     ![เลือกบันทึก](media/service-create-distribute-apps/power-bi-apps-workspace-save-image.png)
+4. เลือก **ตกลง** จากนั้นจึงเลือก **บันทึก**
    
     รูปภาพแทนที่วงกลมสีในหน้าต่าง Office 365 Outlook 
    
-     ![ภาพที่กำหนดเอง](media/service-create-distribute-apps/power-bi-apps-workspace-image-in-office-365.png)
+     ![ภาพที่กำหนดเอง](media/service-create-workspaces/power-bi-workspace-old-new-image.png)
    
     ในไม่กี่นาที ภาพจะปรากฏในแอปฯใน Power BI ด้วยเหมือนกัน
-   
-     ![ภาพที่กำหนดเอง](media/service-create-distribute-apps/power-bi-apps-image.png)
 
-## <a name="add-content-to-your-app-workspace"></a>เพิ่มเนื้อหาลงในพื้นที่ทำงานแอป
+## <a name="add-content-to-your-workspace"></a>เพิ่มเนื้อหาไปยังพื้นที่ทำงานของคุณ
 
-หลังจากที่คุณสร้างพื้นที่ทำงานแอป ถึงเวลาเพิ่มเนื้อหา ซึ่งเหมือนกับการเพิ่มเนื้อหาไปยังพื้นที่ทำงานของฉัน เว้นแต่ว่าบุคคลอื่นในพื้นที่ทำงานสามารถดู และทำงานบนแอปนั้นได้ ความแตกต่างอย่างมากเมื่อคุณทำเสร็จแล้วคือ คุณสามารถเผยแพร่เนื้อหาในฐานะเป็นแอปฯ เมื่อคุณดูเนื้อหาในรายการเนื้อหาของพื้นที่ทำงานแอป ชื่อพื้นที่ทำงานแอปจะถูกแสดงในฐานะเป็นเจ้าของ
+หลังจากที่คุณสร้างพื้นที่ทำงาน ก็ถึงเวลาที่จะต้องเพิ่มเนื้อหา ซึ่งเหมือนกับการเพิ่มเนื้อหาไปยังพื้นที่ทำงานของฉัน เว้นแต่ว่าบุคคลอื่นในพื้นที่ทำงานสามารถดู และทำงานบนแอปนั้นได้ ความแตกต่างอย่างมากเมื่อคุณทำเสร็จแล้วคือ คุณสามารถเผยแพร่เนื้อหาในฐานะเป็นแอปฯ เมื่อคุณดูเนื้อหาในรายการเนื้อหาของพื้นที่ทำงาน ชื่อพื้นที่ทำงานจะถูกแสดงในฐานะเป็นเจ้าของ
 
-### <a name="connect-to-third-party-services-in-app-workspaces"></a>เชื่อมต่อกับบริการที่เป็นบุคคลที่สามในพื้นที่ทำงานแอป
+### <a name="connect-to-third-party-services-in-workspaces"></a>เชื่อมต่อกับบริการของบุคคลที่สามในพื้นที่ทำงาน
 
 แอปสามารถใช้บริการที่เป็นบุคคลที่สามที่ Power BI สนับสนุน จึงง่ายสำหรับคุณที่จะได้รับข้อมูลจากบริการที่คุณใช้ เช่น Microsoft Dynamics CRM, Salesforce หรือ Google Analytics คุณสามารถเผยแพร่แอประดับองค์กรเพื่อให้ข้อมูลแก่ผู้ใช้ที่ต้องการข้อมูลนั้น
 
@@ -96,7 +92,7 @@ ms.locfileid: "69530559"
 * เมื่อเวลาผ่านไป เราวางแผนที่จะยกเลิกการสนับสนุนชุดเนื้อหาองค์กร จากนี้ไป เราขอแนะนำให้คุณสร้างแอปฯขึ้น  
 * ด้วยตัวอย่างการใช้งานพื้นที่ทำงานใหม่ เรากำลังดำเนินการขั้นตอนแรกที่จะยุติการสนับสนุนชุดเนื้อหาองค์กร คุณไม่สามารถใช้หรือสร้างชุดเนื้อหาองค์กรในพื้นที่ทำงานตัวอย่าง
 
-ดู[พื้นที่ทำงานแอปใหม่ว่าแตกต่างจากพื้นที่ทำงานแอปที่มีอยู่อย่างไร](service-new-workspaces.md#how-the-new-workspaces-are-different) เพื่อเปรียบเทียบพื้นที่ทำงานทั้งสอง 
+ดู[พื้นที่ทำงานใหม่ว่าแตกต่างจากพื้นที่ทำงานที่มีอยู่อย่างไร](service-new-workspaces.md#how-the-new-workspaces-are-different) เพื่อเปรียบเทียบพื้นที่ทำงานทั้งสอง 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ติดตั้งและใช้แอปฯใน Power BI](service-create-distribute-apps.md)

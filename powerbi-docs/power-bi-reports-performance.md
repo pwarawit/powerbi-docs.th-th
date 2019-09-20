@@ -1,8 +1,8 @@
 ---
 title: แนวทางปฏิบัติที่ดีที่สุดเพื่อประสิทธิภาพการทำงานของ Power BI
 description: บทความนี้มีคำแนะนำสำหรับการสร้างรายงานอย่างรวดเร็ว และเชื่อถือได้ใน Power BI
-author: MarkMcGeeAtAquent
-ms.author: kfile
+author: Bhavik-MSFT
+ms.author: bhmerc
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,20 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: bddd653b5ac8b49a38a69ae79baf2f96824444ed
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665336"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841484"
 ---
 # <a name="power-bi-performance-best-practices"></a>แนวทางปฏิบัติที่ดีที่สุดเพื่อประสิทธิภาพการทำงานของ Power BI
 
 บทความนี้มีคำแนะนำสำหรับการสร้างรายงานอย่างรวดเร็ว และเชื่อถือได้ใน Power BI  
+
+## <a name="choose-an-appropriate-storage-mode-import-directquery"></a>เลือกโหมดที่เก็บข้อมูลที่เหมาะสม: นำเข้า, DirectQuery
+
+ในกรณีส่วนใหญ ่โหมดการนำเข้าเป็นตัวเลือกที่ดีที่สุดเนื่องจากมีความเร็วสูงสุดโดยการใช้ประโยชน์จากข้อมูลในหน่วยความจำแคชที่เก็บไว้ในเครื่อง ซึ่งถูกบีบอัดโดยใช้ที่เก็บแบบคอลัมน์ โหมดการนำเข้าจะช่วยให้สามารถใช้งาน DAX ได้ทั้งหมด พิจารณา DirectQuery (และโมเดลแบบรวม) เมื่อไดรฟ์ข้อมูลต้นทางมีขนาดใหญ่เกินไปเพื่อให้พอดีกับความจุ Power BI ของคุณ DirectQuery ยังเป็นประโยชน์เมื่อคุณต้องการดึงข้อมูลล่าสุดจากแหล่งที่มาแต่ละครั้งที่มีการโหลดรายงาน หากคุณไม่มีข้อกำหนดเหล่านี้และผู้ใช้ต้องเห็นข้อมูลที่อัปเดตไม่กี่ครั้งต่อวันหรือน้อยกว่า (เช่น จากคลังข้อมูลขององค์กร) ขอแนะนำให้นำเข้า ในโหมด DirectQuery ผู้ใช้อาจลองรีเฟรชรายงานโดยไม่รู้ตัวพวกเขากำลังดึงข้อมูลเดียวกันจากแหล่งที่มา      
 
 ## <a name="use-filters-to-limit-report-visuals-to-display-only-whats-needed"></a>ใช้ตัวกรองเพื่อจำกัดวิชวลในรายงานให้แสดงเฉพาะที่จำเป็น 
 
@@ -57,7 +61,7 @@ ms.locfileid: "68665336"
 ## <a name="directquery-best-practices"></a>แนวทางปฏิบัติที่ดีที่สุดสำหรับ DirectQuery
 
 ส่วนต่อไปนี้อธิบายหลักปฏิบัติที่ดีที่สุด สำหรับการเชื่อมต่อผ่านทาง DirectQuery
-  
+
 ### <a name="db-design-guidance"></a>คำแนะนำการออกแบบฐานข้อมูล
 
 - ผลักดันคอลัมน์จากการคำนวณและการวัดไปยังแหล่งหากเป็นไปได้ ยิ่งใกล้แหล่งข้อมูลมาก มีความเป็นไปได้ที่ประสิทธิภาพจะสูงขึ้น

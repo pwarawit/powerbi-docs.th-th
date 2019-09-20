@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/26/2019
+ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: d491ca460d8393e9da308c826e69aad454d0e766
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590437"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841629"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI สำหรับลูกค้าส่วนราชการสหรัฐอเมริกา
 การ**บริการ Power BI**มีเวอร์ชันพร้อมใช้งานสำหรับลูกค้าส่วนราชการสหรัฐอเมริกา ซึ่งเป็นส่วนหนึ่งของการของการสมัครใช้งาน**ชุมชน Office 365 สำหรับส่วนราชการสหรัฐ** การ**บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้ถูกออกแบบมาโดยเฉพาะสำหรับลูกค้าส่วนราชการสหรัฐและแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI**
@@ -48,7 +48,7 @@ Azure จะถูกกระจายใน cloud หลายตัว ตา
 * USGov Texas
 * USGov Arizona
 
-ในระบบคลาวด์สาธารณะมีพื้นที่ IP พร้อมใช้งาน สำหรับระบบคลาวด์ของภาครัฐโปรดดูข้อมูลล่าสุดที่ [เอกสารบริการของรัฐ Azure](https://www.microsoft.com/download/details.aspx?id=57063) ที่สามารถดาวน์โหลดได้
+ในระบบคลาวด์สาธารณะมีพื้นที่ IP พร้อมใช้งาน สำหรับระบบคลาวด์ของภาครัฐ โปรดดูข้อมูลล่าสุดที่ [เอกสารบริการของรัฐ Azure](https://www.microsoft.com/download/details.aspx?id=57063) ที่สามารถดาวน์โหลดได้
 
 ## <a name="limitations-of-power-bi-us-government"></a>ข้อจำกัดของ Power BI US Government
 บางฟีเจอร์ที่มีในเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI**นั้น*ไม่มี*อยู่ใน**บริการ Power BI** สำหรับลูกค้าส่วนราชการสหรัฐ ทีม Power BI กำลังทำงานในการทำใหลูกค้าส่วนราชการสหรัฐใช้ฟีเจอร์เหล่านี้ได้ และจะอัปเดตบทความนี้เมื่อฟีเจอร์เหล่านี้จะพร้อมใช้งาน
@@ -85,13 +85,13 @@ Azure จะถูกกระจายใน cloud หลายตัว ตา
 
 **คำตอบ:** ลงทะเบียน (มักเรียกว่า*onboarding*) อาจแตกต่างกันโดยขึ้นอยู่กับสิทธิ์การใช้งานที่มีอยู่และการสมัครใช้งานของคุณ ดูที่บทความ [ลงทะเบียนสำหรับ Power BI ส่วนราชการสหรัฐ](service-govus-signup.md)สำหรับข้อมูลเพิ่มเติม
 
-**คำถาม:** URL สำหรับการเชื่อมต่อกับ**Power BI**ส่วนราชการสหรัฐแตกต่างจาก URL ของ **Power BI** เชิงพาณิชย์หรือไม่
+**คำถาม:** URL สำหรับการเชื่อมต่อกับ**Power BI**ส่วนราชการสหรัฐแตกต่างจาก URL ของ **Power BI** เชิงพาณิชย์หรือไม่ มี URL ที่แตกต่างกันสำหรับ Government Community Cloud High (GCC High) หรือไม่
 
 **คำตอบ:** ใช่ URL จะแตกต่างกัน ตารางต่อไปนี้แสดง URL แต่ละรายการ
 
-| URL เวอร์ชันเชิงพาณิชย์ | URL เวอร์ชันสำหรับส่วนราชการสหรัฐ |
-| --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+| URL เวอร์ชันเชิงพาณิชย์ | URL เวอร์ชันสำหรับส่วนราชการสหรัฐ | URL ของรัฐบาลสหรัฐอเมริกาสำหรับ GCC High |
+| --- | --- | --- |
+| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 
 **คำถาม:** บัญชีของฉันถูกเตรียมใช้งานในบริการคลาวด์แห่งชาติมากกว่าหนึ่งแห่ง เมื่อใช้ **Power BI Desktop** ฉันจะเลือกคลาวด์ที่จะเชื่อมต่อได้อย่างไร
 

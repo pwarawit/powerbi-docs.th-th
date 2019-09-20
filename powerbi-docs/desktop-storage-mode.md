@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654731"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841310"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>โหมดที่เก็บข้อมูลใน Power BI Desktop
 
@@ -42,6 +42,9 @@ ms.locfileid: "69654731"
 * **ความสัมพันธ์แบบกลุ่มต่อกลุ่ม**: ด้วย *โมเดลแบบรวม* คุณสามารถสร้าง *ความสัมพันธ์แบบกลุ่ม-ต่อ-กลุ่ม* ระหว่างตารางได้ *ความสัมพันธ์แบบกลุ่ม-ต่อ-กลุ่ม* จะลบคำขอสำหรับค่าไม่ซ้ำกันในตาราง นอกจากนี้ยังเอาการแก้ปัญหาชั่วคราวก่อนหน้าออกด้วย เช่น การเริ่มตารางใหม่เพื่อสร้างความสัมพันธ์เท่านั้น สำหรับข้อมูลเพิ่มเติม โปรดดู [ความสัมพันธ์แบบกลุ่ม-ต่อ-กลุ่มใน Power BI Desktop (ตัวอย่าง)](desktop-many-to-many-relationships.md)
 
 * **โหมดการจัดเก็บข้อมูล**: คุณสามารถระบุวิชวลที่ต้องการคิวรีไปยังแหล่งข้อมูลระบบ Back-end ได้ วิชวลที่ไม่ต้องใช้คิวรีจะถูกนำเข้าแม้ว่าจะมาจาก DirectQuery คุณลักษณะนี้จะช่วยปรับปรุงประสิทธิภาพ และลดการโหลดระบบ Back-end ก่อนหน้านี้ แม้กระทั่งวิชวลพื้นฐานอย่างตัวแบ่งส่วนข้อมูล ก็นำคิวรีที่ถูกส่งไปยังแหล่งระบบ Back-end จะมีการอธิบายโหมดที่เก็บข้อมูลต่อไปในบทความนี้
+
+> [!NOTE]
+> คุณสามารถดูโหมดที่เก็บข้อมูลปัจจุบันได้โดยการเลือกมุมมอง**แบบจำลอง** การเลือกตารางที่น่าสนใจ จากนั้นในส่วน**ขั้นสูง**ของบานหน้าต่าง**คุณสมบัติ** ให้ดูค่าโหมด**ที่เก็บข้อมูล**
 
 ## <a name="use-the-storage-mode-property"></a>ใช้คุณสมบัติโหมดที่เก็บข้อมูล
 

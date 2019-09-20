@@ -5,19 +5,19 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 04/04/2019
+ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67534736"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903941"
 ---
-1. เริ่มต้นโดยการสร้างพื้นที่ทำงาน เลือก**พื้นที่ทำงาน** > **สร้างพื้นที่ทำงานแอป** 
+1. เริ่มต้นโดยการสร้างพื้นที่ทำงาน เลือก **พื้นที่ทำงาน** > **สร้างพื้นที่ทำงาน** 
    
-     ![สร้างพื้นที่ทำงานแอป](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
+     ![สร้างพื้นที่ทำงาน](media/powerbi-service-create-app-workspace/power-bi-workspace-create.png)
    
     ที่นี่คุณจะสามารถใส่เนื้อหาที่คุณและเพื่อนร่วมงานของคุณทำงานร่วมกัน
 
@@ -41,7 +41,7 @@ ms.locfileid: "67534736"
    
      ![ตั้งค่าแก้ไขหรือดูเท่านั้น](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-members-edit.png)
    
-     แค่เพิ่มบุคคลลงในพื้นที่ทำงานแอปเพื่อให้พวกเขาสามารถแก้ไขเนื้อหาได้ ถ้าพวกเขาแค่ดูเนื้อหาเท่านั้น ไม่ต้องเพิ่มลงในพื้นที่ทำงาน คุณสามารถเพิ่มพวกเขาเมื่อคุณเผยแพร่แอป
+     แค่เพิ่มบุคคลลงในพื้นที่ทำงานเพื่อให้พวกเขาสามารถแก้ไขเนื้อหาได้ ถ้าพวกเขาแค่ดูเนื้อหาเท่านั้น ไม่ต้องเพิ่มลงในพื้นที่ทำงาน คุณสามารถเพิ่มพวกเขาเมื่อคุณเผยแพร่แอป
 
 5. ใส่ที่อยู่อีเมลของบุคคลที่คุณต้องการให้เข้าถึงพื้นที่ทำงาน และเลือก**เพิ่ม** คุณไม่สามารถเพิ่มนามแฝงของกลุ่ม เพิ่มได้แค่บุคคลอย่างเดียว
 
@@ -55,5 +55,5 @@ ms.locfileid: "67534736"
 
 Power BI จะสร้างพื้นที่ทำงาน และเปิดพื้นที่ทำงานนั้น ซึ่งจะปรากฏขึ้นในรายการของพื้นที่ทำงานที่คุณเป็นสมาชิก เนื่องจากคุณเป็นผู้ดูแล คุณสามารถเลือกจุดไข่ปลา (...) เพื่อกลับมา และทำการเปลี่ยนแปลง เพิ่มสมาชิกใหม่ หรือเปลี่ยนแปลงสิทธิ์ของพวกเขาได้
 
-![แก้ไขพื้นที่ทำงาน](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
+![แก้ไขพื้นที่ทำงาน](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

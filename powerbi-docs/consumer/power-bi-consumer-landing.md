@@ -6,17 +6,17 @@ manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
-ms.date: 05/29/2019
+ms.date: 09/11/2019
 ms.author: mihart
 layout: HubPage
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 7dae9f7a2768a8e9f51d5454019cff740304fe2f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d43d1072c9eafa71d336f71e22ac2d6d68144558
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66270611"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073381"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -26,7 +26,7 @@ ms.locfileid: "66270611"
             <p>หากต้องการดูเอกสารประกอบสำหรับผู้ใช้ Power BI ทั้งหมด เปิด<a href="end-user-consumer.md">สารบัญ</a></p>
             <ul class="pivots">
             <li>
-                <a href="#get-started" data-linktype="self-bookmark">เริ่มใช้งาน</a>
+                <a href="#get-started" data-linktype="self-bookmark">เริ่มต้นใช้งาน</a>
                 <ul id="get-started" class="cardsF">
                     <li>
                         <a data-default="true" href="#getstarted" data-linktype="self-bookmark"></a>
@@ -42,7 +42,7 @@ ms.locfileid: "66270611"
                                             </div>
                                             <div class="cardText">
                                                 <h3>เริ่มใช้งาน</h3>
-                                                <p><a href="/power-bi/service-get-started" data-linktype="absolute-path">ชมการแนะนำบริการของ Power BI</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-reading-view" data-linktype="absolute-path">ชมการแนะนำบริการของ Power BI</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-consumer" data-linktype="absolute-path">ผู้ใช้ Power BI <b><i>คืออะไร</i></b></a></p>
                                                 <p><b>ความแตกต่าง:</b> <a href="/power-bi/consumer/end-user-reports" data-linktype="absolute-path">รายงาน</a>, <a href="/power-bi/consumer/end-user-dashboards" data-linktype="absolute-path">แดชบอร์ด</a>,<a href="/power-bi/consumer/end-user-apps" data-linktype="absolute-path">แอป</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-sign-in" data-linktype="absolute-path">ลงชื่อเข้าใช้และลงชื่อออก</a></p>
@@ -122,7 +122,7 @@ ms.locfileid: "66270611"
                                             </div>
                                             <div class="cardText">
                                                 <h3>รับความช่วยเหลือ</h3>
-                                            <p><a href="https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">การฝึกอบรมตนเรียนรู้ของ Microsoft</a></p>
+                                            <p><a href="https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Microsoft LEARN การฝึกอบรมแบบเรียนรู้ด้วยตนเอง</a></p>
                                                 <p><a href="https://powerbi.microsoft.com/blog/" data-linktype="absolute-path">อ่านบล็อก Power BI</a></p>
                                                 <p><a href="http://community.powerbi.com/" data-linktype="absolute-path">ถามคำถามในฟอรั่ม Power BI</a></p>
                                             </div>
@@ -314,25 +314,6 @@ ms.locfileid: "66270611"
                                                 <div class="cardText">
                                                     <h3>การช่วยสำหรับการเข้าถึง</h3>
                                                     <p>เรียนรู้วิธีการที่ Microsoft ช่วยให้ผู้ทุพพลภาพสามารถใช้งานและโต้ตอบกับ Power BI ได้อย่างง่ายดาย </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>                            
-                            <li>
-                                <a href="/power-bi/consumer/end-user-browsers" data-linktype="absolute-path">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/end-user-consumer/browser-info.svg" alt="Browsers Info" data-linktype="relative-path">
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>ข้อมูลเบราว์เซอร์</h3>
-                                                    <p>ดูรายการของเบราว์เซอร์ที่เหมาะกับ Power BI </p>
                                                 </div>
                                             </div>
                                         </div>

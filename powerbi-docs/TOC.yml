@@ -1347,13 +1347,21 @@
               href: service-gateway-mashup-on-premises-cloud.md
         - name: เปิดใช้งานการลงชื่อเข้าระบบครั้งเดียว (SSO)
           items:
-            - name: ลงชื่อเข้าระบบครั้งเดียว (SSO) - ภาพรวม
+            - name: ภาพรวม SSO
               href: service-gateway-sso-overview.md
-            - name: ลงชื่อเข้าระบบครั้งเดียว (SSO) - Kerberos
-              href: service-gateway-sso-kerberos.md
-            - name: ลงชื่อเข้าระบบครั้งเดียว (SSO) - Kerberos - ตามทรัพยากร
-              href: service-gateway-sso-kerberos-resource.md
-            - name: ลงชื่อเข้าระบบครั้งเดียว (SSO) - SAML
+            - name: ใช้ Kerberos SSO
+              items:
+                - name: กำหนดค่า SSO ที่ใช้ Kerberos
+                  href: service-gateway-sso-kerberos.md
+                - name: การกำหนดค่าเฉพาะแหล่งข้อมูล
+                  items:
+                    - name: SAP HANA
+                      href: service-gateway-sso-kerberos-sap-hana.md
+                    - name: SAP sapcrypto (ไลบรารีการเข้ารหัสลับทั่วไป)
+                      href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                    - name: SAP gx64krb5 และ gsskrb5
+                      href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
+            - name: SSO ที่ยึดตาม SAML
               href: service-gateway-sso-saml.md
         - name: แก้ไขปัญหาเกตเวย์
           href: service-gateway-onprem-tshoot.md

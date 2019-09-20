@@ -13,10 +13,10 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61054920"
 ---
 # <a name="recent-content-in-power-bi-service"></a>เนื้อหา**ล่าสุด**ในบริการ Power BI
@@ -37,7 +37,7 @@ ms.locfileid: "61054920"
 
 ![แสดงเนื้อหาล่าสุดทั้งหมด](./media/end-user-recent/power-bi-recent-list.png)
 
-จากที่นี่ คุณสามารถโต้ตอบกับเนื้อหา ตามที่คุณต้องการบนแต่ละ[ **แดชบอร์ด**](end-user-dashboards.md), [ **รายงาน**](end-user-reports.md)และ **เวิร์กบุ๊ก**แท็บ และ บนแอป <!--[**Apps**](end-user-apps.md)--> หน้าจอ
+จากตรงนี้ คุณสามารถโต้ตอบกับเนื้อหาที่คุณต้องการบนแท็บของ[**แดชบอร์ด**](end-user-dashboards.md) [**รายงาน** ](end-user-reports.md)และ **สมุดงาน**แต่ละแท็บ <!--[**Apps**](end-user-apps.md)--> และจากบนหน้าจอแอปได้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 <!--[Power BI service Apps](end-user-apps.md)-->

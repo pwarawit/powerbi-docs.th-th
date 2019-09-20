@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/08/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 278d631e755c4d484db0788b6c58fca9cfce4616
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 218124542570d313c3d5893a6f1d69c75594f33c
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961938"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903779"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>จัดการพื้นที่ทำงานของแอปใน Power BI และ Office 365
 
@@ -72,7 +72,7 @@ ms.locfileid: "68961938"
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>เพิ่มรูปภาพ และตั้งค่าคุณสมบัติพื้นที่ทำงานอื่นๆ
 
-เมื่อคุณเผยแพร่แอปของคุณจากพื้นที่ทำงานของแอป รูปภาพที่คุณเพิ่มที่นี่จะเป็นรูปภาพสำหรับแอปของคุณ ดูหัวข้อ [เพิ่มรูปภาพในพื้นที่ทำงานของแอป Office 365 (ไม่บังคับ)](service-create-workspaces.md#add-an-image-to-your-office-365-app-workspace-optional) ของบทความ **สร้างพื้นที่ทำงานใหม่**
+เมื่อคุณเผยแพร่แอปของคุณจากพื้นที่ทำงานของแอป รูปภาพที่คุณเพิ่มที่นี่จะเป็นรูปภาพสำหรับแอปของคุณ ดูหัวข้อ [เพิ่มรูปภาพในพื้นที่ทำงานของแอป Office 365](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional) ในบทความ **สร้างพื้นที่ทำงานใหม่**
 
 1. ในมุมมอง Outlook for Office 365 ของพื้นที่ทำงานแอปของคุณ ให้ไปที่แท็บ **เกี่ยวกับ** แล้วเลือก **แก้ไข**
 

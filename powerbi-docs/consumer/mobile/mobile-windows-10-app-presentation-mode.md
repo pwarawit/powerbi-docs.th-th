@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
 ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61338273"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>ดูรายงานและแดชบอร์ดในโหมดงานนำเสนอบน Surface Hub และอุปกรณ์ Windows 10
@@ -43,7 +43,7 @@ ms.locfileid: "61338273"
 1. แตะไอคอนย้อนกลับ ![ไอคอนย้อนกลับ](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) กลับไปยังหน้าก่อนหน้าของคุณ การแตะที่ไอคอนเป็นระยะเวลานานจะปรากฏหน้าต่าง breadcrumbs ช่วยคุณนำทางไปยังโฟลเดอร์ที่มีรายงานหรือแดชบอร์ดของคุณ
 2. ไอคอนหมึก ![ไอคอนหมึก](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) จะช่วยให้สามารถเลือกสีได้เมื่อคุณใช้ปากกา Surface เพื่อวาด และใส่คำอธิบายประกอบบนหน้ารายงานของคุณ 
 3. ใช้ไอคอนหน้า ![ไอคอนการแบ่งหน้า](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) เมื่อต้องแทนหน้ารายงานที่คุณกำลังนำเสนอในปัจจุบัน
-4. ไอคอนเล่น  ![ไอคอนเล่น](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) จะซ่อนแถบการดำเนินการ และเริ่มการนำเสนอสไลด์ ที่แอจะอัตโนมัติหมุนระหว่างหน้ารายงาน 
+4. ไอคอนเล่นสื่อ  ![ไอคอนเล่นสื่อ](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) จะซ่อนแถบการดำเนินการและเริ่มต้นสไลด์โชว์ ซึ่งแอปจะหมุนแนวของแต่ละหน้ารายงานให้โดยอัตโนมัติ 
 5. แตะคอนค้นหา ![ไอคอนค้นหา](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) เมื่อต้องค้นหาสิ่งประดิษฐ์อื่นใน Power BI
 6. เมื่อต้องการออกจากโหมดการนำเสนอ ให้แตะไอคอนที่มีลูกศร 2 อันหันหน้าเข้าหากัน ![ออกจากโหมดเต็มหน้าจอ](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) บนแถบเครื่องมือ
 
