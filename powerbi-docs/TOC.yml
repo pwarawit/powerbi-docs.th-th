@@ -269,6 +269,8 @@
               href: desktop-inline-hierarchy-labels.md
             - name: ใช้ตัวแบ่งส่วนข้อมูลช่วงตัวเลข
               href: desktop-slicer-numeric-range.md
+            - name: ใช้ตัวแบ่งส่วนข้อมูลวันที่ที่เกี่ยวข้อง
+              href: desktop-slicer-filter-date-range.md
             - name: สร้างตัวแบ่งส่วนข้อมูลที่คุณสามารถปรับขนาดได้
               href: power-bi-slicer-filter-responsive.md
             - name: สร้างการ์ดคำตอบของ Power BI แบบกำหนดเองสำหรับ Cortana
