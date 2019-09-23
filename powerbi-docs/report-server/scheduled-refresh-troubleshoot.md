@@ -11,7 +11,7 @@ ms.date: 11/01/2017
 ms.author: mblythe
 ms.openlocfilehash: f4638250cb2ae245dc9ce222e43c7a87de6e395d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61200307"
@@ -144,7 +144,7 @@ C:\Program Files\Microsoft Power BI Report Server\PBIRS\LogFiles\RSPowerBI_*.log
     * **DataRefresh**: เมื่อใดก็ตามที่มีการรีเฟรชข้อมูลจากแหล่งข้อมูลหนึ่งหรือหลายแหล่ง
     * **SaveToCatalog**: เมื่อใดก็ตามตัวที่รูปแบบข้อมูลถูกบันทึกกลับไปยังแค็ตตาล็อก
 
-## <a name="analysis-services"></a>Analysis Services
+## <a name="analysis-services"></a>บริการด้านการวิเคราะห์
 อาจมีบางครั้งที่คุณต้องการปรับแก้ Analysis Services เพื่อวินิจฉัยปัญหา หรือปรับค่าขีดจำกัดหน่วยความจำ
 
 > [!IMPORTANT]

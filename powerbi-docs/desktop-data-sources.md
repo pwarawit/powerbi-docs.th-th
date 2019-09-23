@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5004b55fa48cdf98aedd019749b738352d68c4cd
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: ead5c8f45e102aaeebeed492ecf4646342747fe1
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560872"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142282"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับข้อมูลจากแหล่งต่าง ๆ มากมายด้วย Power BI Desktop รายการทั้งหมดของแหล่งข้อมูลที่พร้อมใช้งานอยู่ที่ด้านล่างของหน้านี้
@@ -192,8 +192,8 @@ ms.locfileid: "69560872"
 * ODBC
 * OLE DB
 * BI360 - การรายงานการจัดทำงบประมาณและการเงิน (เบต้า)
-* Denado
-* ตารางข้อมูล (เบต้า)
+* Denodo
+* เส้นตารางข้อมูล (เบต้า)
 * Paxata 
 * QubolePresto (เบต้า)
 * Roamler (เบต้า)

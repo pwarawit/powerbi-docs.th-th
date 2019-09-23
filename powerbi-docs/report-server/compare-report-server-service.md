@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 08/29/2019
-ms.openlocfilehash: 0755b41fbeef1f62d2722e3529007dc4f8773634
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.date: 09/13/2019
+ms.openlocfilehash: d2c0ab82a3b262a975c461a4414ed7fd3b1bc060
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186088"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075900"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "70186088"
 
 ## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>ลักษณะการทำงานของเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
-| คุณลักษณะ | เซิร์ฟเวอร์รายงาน Power BI | บริการ Power BI | บันทึกย่อ |
+| คุณลักษณะ | เซิร์ฟเวอร์รายงาน Power BI | บริการของ Power BI | บันทึกย่อ |
 |---------|---------|---------|---------|
 | การปรับใช้ | ภายในองค์กร หรือคลาวด์ที่โฮสต์ | ระบบคลาวด์ | สามารถปรับใช้เซิร์ฟเวอร์รายงาน Power BI ใน Azure VMs (คลาวด์ที่โฮสต์) ถ้าได้สิทธิ์การใช้งานผ่านทาง Power BI Premium |
 | ข้อมูลต้นทาง | ระบบคลาวด์ และ/หรือ ภายในองค์กร | ระบบคลาวด์ และ/หรือ ภายในองค์กร |  |
@@ -44,7 +44,7 @@ ms.locfileid: "70186088"
 | รายงานที่มีการแบ่งหน้า | ใช่ | ใช่ | [รายงานที่มีการแบ่งหน้าพร้อมให้ใช้งานในบริการของ Power BI](../paginated-reports-report-builder-power-bi.md)ซึ่งจะอยู่ในตัวอย่างในความจุพรีเมียม |
 | แอป Power BI สำหรับอุปกรณ์เคลื่อนที่ | ใช่ | ใช่ | [ภาพรวมแอป Power BI สำหรับอุปกรณ์เคลื่อนที่](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | แผนที่ ArcGIS | ไม่ใช่ | ใช่ | [แผนที่ ArcGIS ในบริการของ Power BI และ Power BI Desktop ที่ให้บริการโดย Esri](../visuals/power-bi-visualization-arcgis.md) |
-| การสมัครสมาชิกอีเมลสำหรับรายงาน Power BI | ใช่ | ใช่ | [สมัครใช้งาน](../service-report-subscribe.md)ในรายงานหรือแดชบอร์ดในบริการของ Power BI สำหรับตัวคุณเองและผู้อื่น |
+| การสมัครสมาชิกอีเมลสำหรับรายงาน Power BI | ไม่ใช่ | ใช่ | [สมัครใช้งาน](../service-report-subscribe.md)ในรายงานหรือแดชบอร์ดในบริการของ Power BI สำหรับตัวคุณเองและผู้อื่น |
 | การสมัครสมาชิกอีเมลสำหรับรายงานที่มีการแบ่งหน้า | ใช่ | ใช่ | [สมัครใช้งานรายงานที่มีการแบ่งหน้าสำหรับตัวคุณเองและผู้อื่นในบริการของ Power BI](../paginated-reports-subscriptions.md)<br><br>[การจัดส่งอีเมลใน Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
 | การแจ้งเตือนข้อมูล | ไม่ใช่ | ใช่ | [การแจ้งเตือนข้อมูล](../service-set-data-alerts.md)ในบริการของ Power BI
 | รักษาความปลอดภัยระดับแถว (RLS) | ใช่ | ใช่ | มีทั้งใน DirectQuery (แหล่งข้อมูล) และโหมดการนำเข้า <br><br>การรักษาความปลอดภัยระดับแถวใน[บริการของ Power BI](../service-admin-rls.md) <br><br>การรักษาความปลอดภัยระดับแถว (RLS) ใน[เซิร์ฟเวอร์รายงาน Power BI](row-level-security-report-server.md) |
@@ -57,4 +57,4 @@ ms.locfileid: "70186088"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[ติดตั้ง Power BI Report Server](install-report-server.md)  
+[ติดตั้ง Power BI Report Server](install-report-server.md)

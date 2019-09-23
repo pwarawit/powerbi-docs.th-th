@@ -903,6 +903,8 @@
       items:
         - name: ซื้อ Power BI Premium
           href: service-admin-premium-purchase.md
+        - name: กำหนดค่าและจัดการความจุ
+          href: service-admin-premium-manage.md
         - name: กำหนดค่าปริมาณงาน
           href: service-admin-premium-workloads.md
         - name: ตรวจสอบความจุด้วยแอป
