@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 905ef263084cf531e6b38fb4640286e4d78697ce
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61273828"
@@ -22,7 +22,7 @@ ms.locfileid: "61273828"
 
 **ฉันสามารถเปลี่ยนชื่อได้อย่างไร**
 
-| ชนิดเนื้อหา | ฉันเป็นผู้เขียนหรือผู้สร้าง | แชร์กับฉัน |
+| ชนิดเนื้อหา | ฉันเป็นผู้เขียนหรือผู้สร้าง | แชร์กับฉันแล้ว |
 | --- | --- | --- |
 | แดชบอร์ดในพื้นที่ทำงาน |ใช่ |ไม่ใช่ |
 | รายงานในพื้นที่ทำงาน |ใช่ |ไม่ใช่ |

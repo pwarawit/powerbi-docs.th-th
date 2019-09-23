@@ -10,22 +10,19 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 82c8bbb5361730b306cacd14dc9598ca12035027
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 81dfc6961ff0c00b609f98e50da3532a230cf26d
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61136196"
 ---
-# <a name="using-dataflows-with-on-premises-data-sources-preview"></a>การใช้กระแสข้อมูลกับแหล่งข้อมูลในองค์กร (ตัวอย่าง)
+# <a name="using-dataflows-with-on-premises-data-sources"></a>การใช้กระแสข้อมูลกับแหล่งข้อมูลภายในองค์กร
 
 ด้วย**กระแสข้อมูล** คุณสามารถสร้างคอลเลกชันข้อมูลจากแหล่งข้อมูลต่างๆ ได้ รวมทั้งล้างข้อมูล แปลง และโหลดเข้าที่เก็บข้อมูลของ Power BI เมื่อสร้างกระแสข้อมูล คุณควรใช้แหล่งข้อมูลในองค์กร บทความนี้ชี้แจงข้อกำหนดเกี่ยวกับการสร้างกระแสข้อมูล และชี้แจงการกำหนดค่า **เกตเวย์ของบริษัท** เพื่อเปิดใช้การเชื่อมต่อเหล่านั้น
 
 ![กระแสข้อมูลและเกตเวย์](media/service-dataflows-onpremises-gateways/onpremises-gateways_01.png)
 
-> [!NOTE]
-> ฟังก์ชันของกระแสข้อมูลอยู่ในช่วงตัวอย่าง และสามารถเปลี่ยนและอัปเดตได้ตามความพร้อมใช้งานทั่วไป
- 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>การกำหนดค่าเกตเวย์ของบริษัทเพื่อใช้กับกระแสข้อมูล
 
 เมื่อต้องการใช้แหล่งข้อมูลในองค์กรในกระแสข้อมูล ผู้ใช้ที่สร้างกระแสข้อมูลต้องมี **เกตเวย์ของบริษัท** ติดตั้งและกำหนดค่าไว้เรียบร้อยแล้ว ผู้ใช้ที่สร้างกระแสข้อมูลต้องเป็นผู้ดูแลระบบของเกตเวย์ของบริษัท เพื่อใช้งานเกตเวย์สำหรับกระแสข้อมูลได้
@@ -80,8 +77,8 @@ ms.locfileid: "54276479"
 
 * [การเตรียมข้อมูลด้วยตัวเองโดยใช้กระแสข้อมูล](service-dataflows-overview.md)
 * [การสร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
-* [การใช้เอนทิตีที่คำนวณใน Power BI Premium (ตัวอย่าง)](service-dataflows-computed-entities-premium.md)
-* [แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI (ตัวอย่าง)](service-dataflows-developer-resources.md)
+* [การใช้เอนทิตีที่คำนวณใน Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI](service-dataflows-developer-resources.md)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power Query และการรีเฟรชตามกำหนดการ สามารถดูได้ในบทความเหล่านี้:
 * [ภาพรวมคิวรีใน Power BI Desktop](desktop-query-overview.md)

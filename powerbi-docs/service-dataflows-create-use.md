@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61144618"
@@ -151,9 +151,9 @@ ms.locfileid: "61144618"
 
 * **ตัวเชื่อมต่อ Salesforce** - การใช้บัญชีทดลองใช้สำหรับ Salesforce พร้อมผลลัพธ์กระแสข้อมูลเมื่อการเชื่อมต่อผิดพลาดและไม่มีรายละเอียดให้ ในการแก้ปัญหานี้ ให้คุณใช้บัญชีการสร้างของ Salesforce หรือบัญชีนักพัฒนาเพื่อทำการทดสอบ
 
-* **ตัวเชื่อมต่อ SharePoint** - ตรวจสอบให้แน่ใจว่าคุณได้ให้ที่อยู่ต้นของไซต์ SharePoint โดยไม่มีโฟลเดอร์ย่อยหรือเอกสารใด ตัวอย่างเช่น การใช้ลิงก์ที่คล้ายกับต่อไปนี้:[https://microsoft.sharepoint.com/teams/ObjectModel/](https://microsoft.sharepoint.com/teams/ObjectModel/) 
+* **ตัวเชื่อมต่อ SharePoint** - ตรวจสอบให้แน่ใจว่าคุณได้ให้ที่อยู่ต้นของไซต์ SharePoint โดยไม่มีโฟลเดอร์ย่อยหรือเอกสารใด ตัวอย่างเช่น การใช้ลิงก์ที่คล้ายกับต่อไปนี้:[https://microsoft.sharepoint.com/teams/ObjectModel/](https://microsoft.sharepoint.com/teams/ObjectModel/ ) 
 
-* **ตัวเชื่อมต่อไฟล์ JSON** -ในขณะนี้คุณสามารถเชื่อมต่อกับไฟล์ JSON โดยใช้การรับรองความถูกต้องพื้นฐานเท่านั้นได้  เชื่อมต่อกับไฟล์ JSON โดยใช้ข้อมูลประจำตัวภายใน URL (ตัวอย่างเช่น https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg..) ที่**ไม่ได้**รับการสนับสนุน  
+* **ตัวเชื่อมต่อไฟล์ JSON** -ในขณะนี้คุณสามารถเชื่อมต่อกับไฟล์ JSON โดยใช้การรับรองความถูกต้องพื้นฐานเท่านั้นได้  เชื่อมต่อกับไฟล์ JSON โดยใช้ข้อมูลประจำตัวภายใน URL (ตัวอย่างเช่น https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg.. ) ที่**ไม่ได้**รับการสนับสนุน  
 
 * **Azure SQL Data Warehouse** - ขณะนี้ Dataflow ไม่สนับสนุนการรับรองความถูกต้อง Azure Active Directory (AAD) สำหรับ Azure SQL Data Warehouse ใช้การรับรองความถูกต้องพื้นฐานสำหรับสถานการณ์สมมตินี้
 
@@ -162,9 +162,9 @@ ms.locfileid: "61144618"
 บทความนี้อธิบายวิธีการสร้าง**กระแสข้อมูล** เป็นของตัวเอง และสร้างชุดข้อมูลและรายงานใน **Power BI Desktop** เพื่อใช้ประโยชน์จากสิ่งเหล่านั้น บทความต่อไปนี้มีประโยชน์ในการศึกษาข้อมูลเพิ่มเติมและสถานการณ์ต่างๆ เมื่อใช้กระแสข้อมูล:
 
 * [การเตรียมข้อมูลด้วยตัวเองโดยใช้กระแสข้อมูล](service-dataflows-overview.md)
-* [ใช้เอนทิตีที่มีการคำนวณใน Power BI Premium](service-dataflows-computed-entities-premium.md)
-* [ใช้ dataflows กับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
-* [ทรัพยากรสำหรับนักพัฒนาสำหรับ dataflows Power BI](service-dataflows-developer-resources.md)
+* [การใช้เอนทิตีที่คำนวณใน Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [การใช้กระแสข้อมูลกับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
+* [แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI](service-dataflows-developer-resources.md)
 * [ การรวมกระแสข้อมูลและ Azure Data Lake (ตัวอย่าง)](service-dataflows-azure-data-lake-integration.md)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Common Data Model สามารถดูได้ในบทความภาพรวม:

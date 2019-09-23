@@ -11,12 +11,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: c46a5c419c242ae25ecca74428362ec27f234afd
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730222"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164539"
 ---
 # <a name="manage-data-sources"></a>จัดการแหล่งข้อมูล
 
@@ -123,9 +123,9 @@ OAuth เป็นเค้าร่างการรับรองควา�
 | **แหล่งข้อมูล** | **Live/DirectQuery** | **การรีเฟรชด้วยตนเองหรือตามกำหนดการ (ผู้ใช้กำหนดค่า)** |
 | --- | --- | --- |
 | Amazon Redshift |ใช่ |ใช่ |
+| บริการด้านการวิเคราะห์ |ใช่ |ใช่ |
 | คิวบ์ AtScale |ใช่ |ใช่ |
 | Azure Active Directory |ไม่ใช่ |ใช่ |
-| Azure Analysis Services |ใช่ |ใช่ |
 | พื้นที่เก็บข้อมูล Azure Blob |ไม่ใช่ |ใช่ |
 | Azure DevOps Server |ไม่ใช่ |ใช่ |
 | พื้นที่เก็บข้อมูล Azure Table |ไม่ใช่ |ใช่ |

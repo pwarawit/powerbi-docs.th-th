@@ -5,19 +5,18 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/13/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ea81f7c264e4329ae29bb71e0fa8b038604504a1
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b2d658daade3ab1aa2a1c09dc33c0e7d48636910
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608409"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141519"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>เลือกใช้ฟีเจอร์ตัวอย่างของบริการ Power BI
 ## <a name="what-are-preview-features"></a>อะไรคือ*ฟีเจอร์ตัวอย่าง*
@@ -30,7 +29,7 @@ ms.locfileid: "65608409"
    ![เมนูการตั้งค่า](./media/end-user-preview-features/power-bi-settings.png).
 2. เลือกคำแท็บ**ทั่วไป** ถ้ามีการแสดงตัวอย่าง คุณจะเห็นตัวเลือกสำหรับ**ฟีเจอร์ตัวอย่าง**หรือคุณจะเห็นเป็นฟีเจอร์การแสดงตัวอย่างที่แสดงอยู่ทางด้านซ้าย  ในตัวอย่างนี้ ไม่มีการแสดงตัวอย่างที่แสดงรายการของ ArcGIS Maps 
    
-   ![แท็บทั่วไป](./media/end-user-preview-features/power-bi-preview-arcgis.png)
+   ![แท็บทั่วไป](./media/end-user-preview-features/power-bi-preview-esri.png)
 3. เลือกปุ่มตัวเลือก**เปิด** หรือทำเครื่องหมายในกล่อง เพื่อลองใช้ประสบการณ์การใช้งานใหม่ แล้ว เลือก**นำไปใช้**
 4. เมื่อต้องการปิดใช้งานฟีเจอร์ตัวอย่าง ให้ปฏิบัติตามขั้นตอนที่ 1-3 ด้านบน โดยในขั้นตอนที่ 3 เลือก**ปิด**หรือลบเครื่องหมายถูกออกไป แล้วเลือก**ใช้**
 
