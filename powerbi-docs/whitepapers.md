@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: c0cc6b19e69ebe6400d25b77c15cf577d765c415
-ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
-ms.translationtype: HT
+ms.openlocfilehash: d1289a3e030f0a93c5c2ce3b68b7cf92c378a7e0
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "65201189"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194767"
 ---
 # <a name="whitepapers-for-power-bi"></a>เอกสารทางเทคนิคสำหรับ Power BI
 
@@ -22,11 +22,11 @@ ms.locfileid: "65201189"
 
 | เอกสารทางเทคนิค | คำอธิบาย | วันที่ |
 | --- | --- | --- |
+| [วางแผนการใช้งาน Power BI Enterprise](https://go.microsoft.com/fwlink/?linkid=2057861) |เอกสารทางเทคนิคนี้สรุปข้อควรพิจารณาสำหรับการใช้งาน Power BI ในระดับองค์กรอย่างปลอดภัยและมีประสิทธิภาพ | กรกฎาคม 2018 |
 | [Power BI และกระแสข้อมูล](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| เอกสารสรุปนี้อธิบายถึงกระแสข้อมูลในรายละเอียดทางเทคนิค และอธิบายถึงความสามารถและความคิดริเริ่มที่อยู่เบื้องหลังฟีเจอร์และฟังก์ชันของกระแสข้อมูล | พฤศจิกายน 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |อธิบาย Power BI Premium ทั้งตามที่มีอยู่เมื่อเปิดใช้งาน และพัฒนาการของ Power BI Premium | ตุลาคม 2017 |
 | [การใช้งานและการวางแผน Power BI Premium](whitepaper-powerbi-premium-deployment.md)| เอกสารนี้มีคำแนะนำและแนวทางปฏิบัติที่ดีที่สุดสำหรับการวางแผนและการใช้งานความจุพรีเมียมสำหรับปริมาณงานที่กำหนดไว้อย่างดี| มีนาคม 2019 |
 | [วางแผนความจุสำหรับการวิเคราะห์แบบฝังตัวด้วย Power BI Premium](https://aka.ms/pbiewhitepaper) |เอกสารนี้ให้คำแนะนำสำหรับนักพัฒนาแอป/ISV เพื่อใช้ในการกำหนดความจุที่เหมาะสมที่สุดสำหรับธุรกิจ | ตุลาคม 2017 |
-| [วางแผนการใช้งาน Power BI Enterprise](https://go.microsoft.com/fwlink/?linkid=2057861) |เอกสารทางเทคนิคนี้สรุปข้อควรพิจารณาสำหรับการใช้งาน Power BI ในระดับองค์กรอย่างปลอดภัยและมีประสิทธิภาพ | กรกฎาคม 2018 |
 | [คำแนะนำในการวางแผนความจุสำหรับเซิร์ฟเวอร์รายงาน Power BI](report-server/capacity-planning.md) |เอกสารนี้มีวัตถุประสงค์เพื่อเสนอคำแนะนำเกี่ยวกับการวางแผนความจุสำหรับเซิร์ฟเวอร์รายงาน Power BI โดยแบ่งปันผลลัพธ์การดำเนินการทดสอบการโหลดจำนวนมากของปริมาณงานต่าง ๆ กับเซิร์ฟเวอร์รายงาน | มีนาคม 2018 |
 | [การรักษาความปลอดภัย](service-admin-power-bi-security.md) |แสดงคำอธิบายโดยละเอียดของการรักษาความปลอดภัยภายใน Power BI | มีนาคม 2019 |
 | [กระจายเนื้อหา Power BI ไปยังผู้ใช้ที่เป็นผู้เยี่ยมชมจากภายนอกโดยใช้ Azure Active Directory B2](whitepaper-azure-b2b-power-bi.md)|เอกสารนี้สรุปวิธีการกระจายเนื้อหาไปยังผู้ใช้ภายนอกองค์กรโดยใช้การรวมกันของ Azure Active Directory Business-to-business (AAD B2B)| มีนาคม 2019 |
@@ -35,7 +35,6 @@ ms.locfileid: "65201189"
 | [การกรองแบบสองทิศทาง](desktop-bidirectional-filtering.md) |อธิบายการกรองไขว้แบบสองทิศทางใน Power BI Desktop (เอกสารทางเทคนิคครอบคลุมถึง SQL Server Analysis Services 2016 ทั้งสองมีลักษณะการทำงานแบบเดียวกัน) | กรกฎาคม 2018 |
 | [DirectQuery ใน SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |DirectQuery ได้รับการออกแบบใหม่เพื่อปรับปรุงความเร็วและประสิทธิภาพการทำงานให้ดียิ้งขึ้นสำหรับ SQL Server 2016 อย่างไรก็ตาม DirectQuery ยังคงมีความซับซ้อนอย่างมากในการทำความเข้าใจและนำมาใช้ | มกราคม 2017 |
 | [Power BI และ SAP BW](https://aka.ms/powerbiandsapbw)| เอกสารนี้อธิบายถึงวิธีการที่ลูกค้า SAP สามารถใช้ประโยชน์จากการเชื่อมต่อ Power BI ไปยังระบบ SAP Business Warehouse (BW) ที่มีอยู่ของลูกค้า| กุมภาพันธ์ 2018 |
-| [การกำกับดูแลและแนวทางการปรับใช้ Power BI ](http://go.microsoft.com/fwlink/?LinkId=785915&clcid=0x409) | ให้แนวคิด, ตัวเลือก และคำแนะนำสำหรับการกำกับดูแลภายในระบบ Power BI | มีนาคม 2016 |
 | [การรักษาความปลอดภัย Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |เอกสารนี้แนะนำแบบจำลองความปลอดภัยสำหรับ tabular BI semanticและ Power BI คุณจะได้เรียนรู้วิธีการสร้างบทบาท นำความปลอดภัยแบบไดนามิกมาใช้ กำหนดการตั้งค่าการเลียนแบบ จัดการบทบาท และเลือกวิธีการเชื่อมต่อกับแบบจำลองที่ใช้ได้ในบริบทความปลอดภัยของเครือข่ายของคุณ | เมษายน 2016 |
 | [Power BI และ GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| ลิงก์นี้จะนำคุณไปยังรายการเอกสารทางเทคนิคบนพอร์ทัล Service Trust ซึ่งรวมถึงเอกสารทางเทคนิคของ Microsoft Power BI GDPR ด้วย | เมษายน 2018 |
 
