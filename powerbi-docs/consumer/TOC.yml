@@ -92,6 +92,8 @@
               href: end-user-insights.md
             - name: เปิดฟีเจอร์แสดงตัวอย่าง
               href: end-user-preview-features.md
+            - name: รับการแจ้งเตือนในบริการ Power BI
+              href: end-user-notification-center.md
         - name: รับข้อมูล
           items:
             - name: แอปใน Power BI
