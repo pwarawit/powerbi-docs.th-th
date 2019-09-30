@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808216"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71401824"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>แหล่งข้อมูลรายงาน Power BI ใน Power BI Report Server
 รายงาน Power BI สามารถเชื่อมต่อกับหลาย ๆ แหล่งข้อมูลได้ ขึ้นอยู่กับวิธีการใช้ข้อมูล แหล่งข้อมูลที่แตกต่างกันสามารถใช้งานได้ สามารถนำเข้าข้อมูล หรือข้อมูลสามารถถูกคิวรี่ได้โดยตรงโดยใช้ DirectQuery หรือการเชื่อมต่อตรงกับ SQL Server Analysis Services
@@ -71,7 +71,7 @@ ms.locfileid: "68808216"
 | รายการ SharePoint Online |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Snowflake |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | ฐานข้อมูล Sybase |ใช่ |ใช่ |ไม่ใช่ |
-| ฐานข้อมูล Teradata |ใช่ |ใช่ |ใช่ |
+| Teradata |ใช่ |ใช่ |ใช่ |
 | Text/CSV |ใช่ |ใช่ |ไม่ใช่ |
 | เว็บ |ใช่ |ใช่ |ไม่ใช่ |
 | XML |ใช่ |ใช่ |ไม่ใช่ |

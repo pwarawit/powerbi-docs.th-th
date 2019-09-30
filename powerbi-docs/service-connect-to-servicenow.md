@@ -1,21 +1,20 @@
 ---
 title: เชื่อมต่อกับ ServiceNow ด้วย Power BI
 description: ServiceNow สำหรับ Power BI
-author: SarinaJoan
-manager: kfile
-ms.reviewer: maggiesMSFT
+author: KesemSharabi
+ms.author: sarinas
+manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
-ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c4ca0332a68686feb22517ff6ac720650ce1c87d
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 9fc0360ccf2e036cca1c68cf21bb538b30adf7e6
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721245"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71190995"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>เชื่อมต่อกับ ServiceNow ด้วย Power BI สำหรับการรายงานปัญหา
 ServiceNow นำเสนอหลายผลิตภัณฑ์และการแก้ไขปัญหาที่รวมถึงทางด้านธุรกิจ การดำเนินการ และการจัดการ IT เพื่อปรับปรุงธุรกิจของคุณ ชุดเนื้อหานี้ประกอบด้วยหลายรายงานและข้อมูลเชิงลึกเกี่ยวกับการเปิด การแก้ไขล่าสุด และการปิดเหตุการณ์เมื่อเร็วๆนี้ของคุณ  

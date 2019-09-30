@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: fae3af81540e22b961fcb1d2a79de425fdc1cd8c
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791823"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194792"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>เคล็ดลับสำหรับการเขียนแอปเทมเพลตใน Power BI
 
@@ -126,7 +126,6 @@ ms.locfileid: "67791823"
 
 * ต้องสร้างแอปเทมเพลตที่มีข้อมูลตัวอย่างที่เกี่ยวข้อง ที่ช่วยให้ตัวติดตั้งเข้าใจถึงสิ่งที่แอปทำได้ (ไม่อนุญาตให้รายงานและแดชบอร์ดว่างเปล่า)
 แอปเทมเพลตสนับสนุนข้อมูลตัวอย่างเฉพาะแอป ตรวจสอบให้แน่ใจว่าทำเครื่องหมายในกล่องกาเครื่องหมายแบบคงที่ [เรียนรู้เพิ่มเติม](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* โดยทั่วไป เฉพาะแอปพลิเคชันที่มีฟังก์ชันการทำงานที่มีค่าเท่านั้นที่สามารถได้รับการอนุมัติสำหรับการใช้งานทั่วไปบน AppSource แอปพลิเคชันที่มีเนื้อหาข้อมูลตัวอย่างเท่านั้นที่ต้องมีคำแนะนำหรือค่าทางสถิติ
 * มีคำแนะนำเพื่อให้ทีมตรวจสอบสามารถติดตามได้ ซึ่งรวมถึงข้อมูลประจำตัวและพารามิเตอร์ที่จำเป็นสำหรับการเชื่อมต่อข้อมูล
 * แอปพลิเคชันต้องมีไอคอนแอป ใน Power BI และในข้อเสนอ CPP ของคุณ [เรียนรู้เพิ่มเติม](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * กำหนดค่าเพจเริ่มต้นแล้ว [เรียนรู้เพิ่มเติม](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
@@ -135,6 +134,7 @@ ms.locfileid: "67791823"
 * ติดตั้งแอปโดยใช้ลิงก์แอปก่อนส่ง ตรวจสอบให้แน่ใจว่าคุณสามารถเชื่อมต่อชุดข้อมูลและประสบการณ์แอปเป็นไปตามที่คุณวางแผนไว้
 * ก่อนอัปโหลด bpix ลงในพื้นที่ทำงานแอปเทมเพลต ตรวจสอบให้แน่ใจว่าได้ทำการตัดการเชื่อมต่อที่ไม่จำเป็นออกแล้ว
 * ปฏิบัติตาม [แนวทางปฏิบัติที่ดีที่สุดของ Power BI สำหรับรายงานและการแสดงผลด้วยภาพ](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) เพื่อให้ได้ผลลัพธ์ที่ดีที่สุดสำหรับผู้ใช้ของคุณ และได้รับอนุญาตให้แจกจ่าย
+<!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="known-limitations"></a>ข้อจำกัดที่ทราบ
 
@@ -147,7 +147,7 @@ ms.locfileid: "67791823"
 | แหล่งข้อมูล | แหล่งข้อมูลที่สนับสนุนสำหรับระบบคลาวด์ที่ทำกำหนดการรีเฟรชข้อมูลแล้ว <br>ไม่ได้รับการสนับสนุน <li> DirectQuery</li><li>เชื่อมต่อแบบสด (AS Azure ไม่มี)</li> <li>แหล่งข้อมูล (เกตเวย์ส่วนบุคคลและองค์กรไม่ได้รับการสนับสนุน) ในองค์กร</li> <li>แบบเรียลไทม์ (ไม่มีการสนับสนุนสำหรับชุดข้อมูลแบบพุช)</li> <li>โมเดลแบบรวม</li></ul> |
 | ชุดข้อมูล: พื้นที่ทำงานข้าม | ชุดข้อมูลพื้นที่ทำงานข้ามไม่ได้รับอนุญาต  |
 | พารามิเตอรคิวรี่ | ไม่ได้รับการสนับสนุน พารามิเตอร์ของชนิด "ใดๆ" หรือ "ไบนารี" ชนิดบล็อกรีเฟรชสำหรับชุดข้อมูล |
-| ภาพแบบกำหนดเอง | เฉพาะ วิชวลแบบกำหนดเองพร้อมใช้งานแบบสาธารณะได้รับการสนับสนุน [รูปภาพแบบกำหนดเองขององค์กร](power-bi-custom-visuals-organization.md)ไม่ได้รับการสนับสนุน |
+| วิชวลแบบกำหนดเอง | เฉพาะ วิชวลแบบกำหนดเองพร้อมใช้งานแบบสาธารณะได้รับการสนับสนุน [รูปภาพแบบกำหนดเองขององค์กร](power-bi-custom-visuals-organization.md)ไม่ได้รับการสนับสนุน |
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

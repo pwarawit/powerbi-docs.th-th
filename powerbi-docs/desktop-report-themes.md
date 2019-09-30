@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 37304f9d23c514c7223b3eca481bf3b7b2258ac4
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 64be68398ffa2ab8323307b45b5bff09ec511090
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70904232"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327854"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>ใช้ธีมรายงานใน Power BI Desktop
 ด้วย**ธีมรายงาน** คุณสามารถใช้การเปลี่ยนแปลงการออกแบบกับรายงานทั้งหมดของคุณได้ เช่น การใช้สีสำหรับองค์กร การเปลี่ยนชุดไอคอน หรือการใช้การจัดรูปแบบภาพตามค่าเริ่มต้นใหม่ เมื่อคุณใช้**ธีมรายงาน** การแสดงผลด้วยภาพทั้งหมดในรายงานของคุณจะใช้สีและการจัดรูปแบบจากธีมที่คุณเลือก มีข้อยกเว้นบางข้อ ซึ่งจะอธิบายภายหลังในบทความนี้
@@ -113,7 +113,7 @@ ms.locfileid: "70904232"
 
 ส่วน **สีข้อมูล** ของแผง **รูปแบบ** จะสะท้อนให้เห็นธีมรายงานของคุณ ตัวอย่างเช่น หลังจากที่ใช้โทนสีเขียว และสีน้ำตาลจากธีม **วันเซนต์แพทริค** ให้เลือกวิชวล จากนั้นไปที่ **รูปแบบ > สีข้อมูล** และดูข้อมูลต่อไปนี้:
 
-![การจัดรูปแบบการแสดงข้อมูล](media/desktop-report-themes/report-themes_8.png)
+![การแสดงผลข้อมูลด้วยภาพ](media/desktop-report-themes/report-themes_8.png)
 
 เห็นสีเขียวทั้งหมดนั่นไหม? นั่นเป็นเพราะว่าสีเหล่านั้นเป็นส่วนหนึ่งของ **ธีมรายงาน** ที่ถูกนำเข้าและถูกใช้งาน
 
@@ -475,7 +475,8 @@ tableAccent | แทนที่สีกรอบเส้นตารางต
 
 
 ```json
-      "general":
+{
+      "general":{ 
         "responsive": {
           "type": [
             "bool"
@@ -486,7 +487,7 @@ tableAccent | แทนที่สีกรอบเส้นตารางต
           "description": [
             "The visual will adapt to size changes"
           ]
-        }
+        },
         "legend": {
         "show": {
           "type": [
@@ -4378,4 +4379,6 @@ tableAccent | แทนที่สีกรอบเส้นตารางต
          ]
        }
     }
+  }
+}
 ```
