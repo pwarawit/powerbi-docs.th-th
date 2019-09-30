@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: aad02103903837afbb7bbce48ab9607b5dbf62c3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2185d7a9c91ed014cf0bed29d6393be0e40556a8
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65099642"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074512"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>ทำความเข้าใจเกี่ยวกับบทบาทผู้ดูแลระบบบริการของ Power BI
 
@@ -39,7 +39,7 @@ ms.locfileid: "65099642"
 
 หากต้องการกำหนดผู้ใช้ลงในบทบาทผู้ดูแลระบบ Power BI ในศูนย์การจัดการ Microsoft 365 ให้ปฏิบัติตามขั้นตอนเหล่านี้
 
-1. ในการ[ศูนย์การจัดการ Microsoft 365](https://portal.office.com/adminportal/home#/homepage)เลือก**ผู้ใช้** > **ผู้**
+1. ใน[ศูนย์การจัดการ Microsoft 365](https://portal.office.com/adminportal/home#/homepage) **ให้เลือก** >  **ผู้ใช้ผู้ใช้ที่ใช้งานอยู่**
 
     ![ศูนย์การจัดการ Microsoft 365](media/service-admin-role/powerbi-admin-users.png)
 
@@ -61,14 +61,14 @@ ms.locfileid: "65099642"
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>กำหนดบทบาทผู้ดูแลระบบแก่ผู้ใช้ด้วย PowerShell
 
-นอกจากนี้คุณยังสามารถกำหนดบทบาทแก่ผู้ใช้โดยใช้ PowerShell ได้เช่นกัน ผู้ใช้ได้รับการจัดการใน Azure Active Directory (Azure AD) หากคุณยังไม่มีโมดูล Azure AD PowerShell ให้ [ดาวน์โหลด และติดตั้งเวอร์ชันล่าสุด](https://www.powershellgallery.com/packages/AzureAD/)
+นอกจากนี้คุณยังสามารถกำหนดบทบาทแก่ผู้ใช้โดยใช้ PowerShell ได้เช่นกัน จัดการผู้ใช้ใน Azure Active Directory (Azure AD) หากคุณยังไม่มีโมดูล Azure AD PowerShell ให้ [ดาวน์โหลด และติดตั้งเวอร์ชันล่าสุด](https://www.powershellgallery.com/packages/AzureAD/)
 
-1. ก่อนอื่น เชื่อมต่อกับ Azure AD:
+1. ขั้นแรก เชื่อมต่อกับ Azure AD:
    ```
    PS C:\Windows\system32> Connect-AzureAD
    ```
 
-1. รับสอง การ**ObjectId**สำหรับการ**ผู้ดูแลระบบบริการ Power BI**บทบาท คุณสามารถเรียกใช้ [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) เพื่อรับ **ObjectId**
+1. ขั้นต่อไปคุณจะต้องได้รับ **ObjectId** สำหรับบทบาท **ผู้ดูแลบริการของ Power BI** คุณสามารถเรียกใช้ [Get-AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole) เพื่อรับ **ObjectId**
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole

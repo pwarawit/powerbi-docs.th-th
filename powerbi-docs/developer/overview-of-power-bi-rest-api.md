@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 03/25/2019
 ms.openlocfilehash: fd49c69a14d3dac6b1a045f6aba407ec7aac0deb
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61269469"
@@ -24,12 +24,12 @@ ms.locfileid: "61269469"
 
 ต่อไปนี้เป็นตัวอย่าง สิ่งที่คุณสามารถทำได้ด้วย Power BI API
 
-| **เมื่อต้องการเรียนรู้เพิ่มเติม** | **ข้อมูลนี้อ้างอิง** |
+| **เมื่อต้องการเรียนรู้เพิ่มเติม** | **อ้างอิงข้อมูลนี้** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| ฝังรายงาน แดชบอร์ด และไทล์สำหรับผู้ใช้ Power BI และผู้ที่ไม่ใช้ Power BI | [วิธีการฝัง Power BI แดชบอร์ด รายงาน และไทล์ ](embedding-content.md) |
+| ฝังรายงาน แดชบอร์ด และไทล์สำหรับผู้ใช้ Power BI และผู้ที่ไม่ใช้ Power BI | [วิธีฝังแดชบอร์ด รายงานและไทล์ Power BI ของคุณ](embedding-content.md) |
 | ดำเนินการจัดการกับออบเจ็กต์ Power BI | [การอ้างอิง Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) |
-| ขยายเวิร์กโฟลว์ทางธุรกิจที่มีอยู่แล้ว โดยการพุชข้อมูลสำคัญลงในแดชบอร์ด Power BI | [ส่งข้อมูลลงในแดชบอร์ด ](walkthrough-push-data.md) |
-| การรับรองความถูกต้องกับ Power BI | [การรับรองความถูกต้องไปยัง Power BI ](get-azuread-access-token.md) |
+| ขยายเวิร์กโฟลว์ทางธุรกิจที่มีอยู่แล้ว โดยการพุชข้อมูลสำคัญลงในแดชบอร์ด Power BI | [การพุชข้อมูลลงในแดชบอร์ด](walkthrough-push-data.md) |
+| การรับรองความถูกต้องกับ Power BI | [การรับรองความถูกต้องกับ Power BI](get-azuread-access-token.md) |
 
 > [!NOTE]
 > Power BI API ยังคงอ้างอิงถึงพื้นที่ทำงานของแอปเป็นกลุ่ม การอ้างอิงใดๆ ถึงกลุ่มจะหมายความว่า คุณกำลังทำงานอยู่กับพื้นที่ทำงานของแอป
@@ -38,8 +38,8 @@ ms.locfileid: "61269469"
 
 | เครื่องมือ | คำอธิบาย |  |  |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
-| [เครื่องมือ playground](https://microsoft.github.io/PowerBI-JavaScript/demo) | ประสบการณ์การใช้งานตัวอย่าง Power BI JavaScript API แบบเต็ม เครื่องมือนี้คือ วิธีที่รวดเร็วเพื่อลองเล่นกับตัวอย่าง Power BI Embedded ชนิดต่าง ๆ กันอีกด้วย |  |  |
-| [Power BI JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | เพื่อรับข้อมูลเพิ่มเติมเกี่ยวกับ Power BI JavaScript API |  |  |
+| [เครื่องมือ Playground](https://microsoft.github.io/PowerBI-JavaScript/demo) | ประสบการณ์การใช้งานตัวอย่าง Power BI JavaScript API แบบเต็ม เครื่องมือนี้คือ วิธีที่รวดเร็วเพื่อลองเล่นกับตัวอย่าง Power BI Embedded ชนิดต่าง ๆ กันอีกด้วย |  |  |
+| [วิกิสำหรับ Power BI JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki) | เพื่อรับข้อมูลเพิ่มเติมเกี่ยวกับ Power BI JavaScript API |  |  |
 | [Postman](https://www.getpostman.com/) | เรียกใช้คำขอ การทดสอบ แก้จุดบกพร่อง ตรวจสอบ เรียกใช้การทดสอบอัตโนมัติและอื่น ๆ |
 
 ## <a name="push-data-into-power-bi"></a>ส่งข้อมูลไปยัง Power BI
@@ -58,7 +58,7 @@ ms.locfileid: "61269469"
 
 * [การพุชข้อมูลลงในชุดข้อมูล](walkthrough-push-data.md)
 * [พัฒนาภาพแบบกำหนดเองของ Power BI](custom-visual-develop-tutorial.md)
-* [การอ้างอิง REST API BI power](rest-api-reference.md)
+* [การอ้างอิง Power BI REST API](rest-api-reference.md)
 * [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/)
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)

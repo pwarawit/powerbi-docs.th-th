@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6f270c28f643736f07c09ceb3e544e473f831ad9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4991117cfa8b34d9adbbd2dc29082d1e75b6852d
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271847"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100383"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>ภาพรวมของการลงชื่อเข้าใช้ครั้งเดียว (SSO) สำหรับเกตเวย์ใน Power BI
 
-คุณจะได้รับการเชื่อมต่อการลงชื่อเข้าใช้ครั้งเดียวแบบไร้ร้อยต่อซึ่งทำให้รายงาน Power BI และแดชบอร์ดสามารถอัปเดตจากข้อมูลในองค์กรได้โดยการกำหนดเกตเวย์ข้อมูลภายในองค์กรของคุณด้วยการมอบสิทธิ์ที่มีข้อจำกัดของ Kerberos หรือ Security Assertion Markup Language (SAML) เกตเวย์ข้อมูลภายในองค์กรจะช่วยอำนวยความสะดวกในการ SSO โดยใช้ DirectQuery เพื่อเชื่อมต่อกับแหล่งข้อมูลในองค์กร
+คุณจะได้รับการเชื่อมต่อการลงชื่อเข้าใช้ครั้งเดียวแบบไร้ร้อยต่อซึ่งทำให้รายงาน Power BI และแดชบอร์ดสามารถอัปเดตตามเวลาจริงจากข้อมูลในองค์กรได้โดยการกำหนดเกตเวย์ข้อมูลภายในองค์กรของคุณด้วยการมอบสิทธิ์ที่มีข้อจำกัดของ Kerberos หรือ Security Assertion Markup Language (SAML) เกตเวย์ข้อมูลภายในองค์กรจะรองรับการใช้ในการ SSO โดยใช้ DirectQuery เพื่อเชื่อมต่อกับแหล่งข้อมูลในองค์กร
 
 ขณะนี้เราสนับสนุนแหล่งข้อมูลต่อไปนี้:
 
@@ -52,8 +52,7 @@ ms.locfileid: "68271847"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-ตอนนี้คุณเข้าใจพื้นฐานของ SSO แล้ว โปรดอ่านข้อมูลโดยละเอียดเกี่ยวกับ Kerberos และ SAML:
+ตอนนี้คุณเข้าใจพื้นฐานของ SSO ผ่านเกตเวย์แล้ว โปรดอ่านข้อมูลโดยละเอียดเกี่ยวกับ Kerberos และ SAML:
 
 * [การลงชื่อเข้าใช้ครั้งเดียว (SSO) - Kerberos](service-gateway-sso-kerberos.md)
-* [ลงชื่อเข้าระบบครั้งเดียว (SSO) - Kerberos - ตามทรัพยากร](service-gateway-sso-kerberos-resource.md)
 * [การลงชื่อเข้าใช้ครั้งเดียว (SSO) - SAML](service-gateway-sso-saml.md)

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61270484"
@@ -131,7 +131,7 @@ Power BI Workspace Collection รุ่นปัจจุบันจะยั�
 3. บันทึก PBIX
 4. เรียก นำเข้า PBIX ไปยังพื้นที่ทำงาน SaaS
 5. อัปเดตสตริงการเชื่อมต่อโดยการเรียก - โพสต์  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
-6. รับตัวระบุ GW และแหล่งข้อมูล โดยเรียก - รับ https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
+6. รับ GW และตัวระบุแหล่งข้อมูลโดยการเรียก - รับ https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. ปรับปรุงข้อมูลประจำตัวของผู้ใช้โดยการเรียก - โปรแกรมแก้ไข https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
 #### <a name="old-dataset--reports"></a>ชุดข้อมูลและรายงานเก่า

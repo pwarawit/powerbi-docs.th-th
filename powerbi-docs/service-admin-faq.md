@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 4ec7a67b861a747f9f8f654ab9fb3fa5c2951af3
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877812"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175192"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>การจัดการ Power BI - คำถามที่ถามบ่อย (FAQ)
 
@@ -38,6 +38,7 @@ ms.locfileid: "70877812"
 
 * [วิธีนี้จะเปลี่ยนวิธีที่ฉันจัดการข้อมูลประจำตัวสำหรับผู้ใช้ต่าง ๆ ในองค์กรของฉันในปัจจุบันได้อย่างไร?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [เราจะจัดการกับ Power BI ได้อย่างไร?](#how-do-we-manage-power-bi)
+* [อะไรคือกระบวนการจัดการผู้เช่าที่สร้างโดย Microsoft สำหรับผู้ใช้ของฉัน?](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [ถ้าฉันมีหลายโดเมน ฉันสามารถควบคุมผู้เช่า Office 365 ที่มีการเพิ่มผู้ใช้เข้าไปได้อย่างไร?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [ฉันจะลบ Power BI สำหรับผู้ใช้ที่ลงทะเบียนแล้วได้อย่างไร?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [ฉันจะทราบได้อย่างไรเมื่อมีผู้ใช้ใหม่เข้าร่วมในผู้เช่าของฉัน?](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -172,6 +173,14 @@ Get-MsolCompanyInformation | fl allow*
 Power BI มีพอร์ทัลผู้ดูแลระบบที่ช่วยให้คุณสามารถดูสถิติการใช้งาน, มีลิงก์ไปยังศูนย์การดูแลระบบ Microsoft 365 เพื่อจัดการผู้ใช้และกลุ่มต่าง ๆ และมีความสามารถในการควบคุมการตั้งค่าที่หลากหลายสำหรับผู้เช่า
 
 หากต้องการใช้พอร์ทัลผู้ดูแลระบบของ Power BI บัญชีของคุณจำเป็นต้องได้รับการทำเครื่องหมายให้เป็น **ผู้ดูแลระบบส่วนกลาง** ภายใน Office 365 หรือ Azure Active Directory หรือใครบางคนต้องได้รับการกำหนดบทบาทให้เป็นผู้ดูแลระบบบริการของ Power BI ในบัญชีของคุณ ดูข้อมูลเพิ่มเติมได้ที่ [การทำความเข้าใจเกี่ยวกับบทบาทผู้ดูแลระบบ Power BI](service-admin-role.md) และ [พอร์ทัลผู้ดูแลระบบ Power BI](service-admin-portal.md)
+
+### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>อะไรคือกระบวนการจัดการผู้เช่าที่สร้างโดย Microsoft สำหรับผู้ใช้ของฉัน?
+
+เมื่อผู้ใช้แบบบริการตนเองลงทะเบียนเข้าใช้บริการระบบคลาวด์บน Azure AD บริการจะเพิ่มพวกเขาลงไปในไดเรกทอรี Azure AD แบบไม่มีการจัดการตามโดเมนอีเมลของตน คุณสามารถอ้างสิทธิ์ และจัดการผู้เช่าที่ใครบางคนสร้างขึ้นโดยใช้กระบวนการที่เรียกว่า *การครอบครองของผู้ดูแลระบบ*ได้ สำหรับรายละเอียดเพิ่มเติม สามารถเข้าไปดูได้ที่ [การครอบครองไดเรกทอรีที่ยังไม่มีการจัดการในฐานะผู้ดูแลระบบใน Azure Active Directory](/azure/active-directory/users-groups-roles/domains-admin-takeover) รูปแบบการครอบครองของคุณจะขึ้นอยู่กับว่าคนที่เป็นผู้เช่าอยู่มีความเชื่อมโยงกับโดเมนของคุณ:
+
+* Power BI สนับสนุนการควบคุมจากผู้ดูแลภายใน เมื่อคุณดำเนิน ผ่านการควบคุม_ภายใน_ของผู้ดูแลที่ไม่มีการจัดการ Azure active directory คุณจะได้รับการเพิ่มเป็นผู้ดูแลระบบส่วนกลางของไดเรกทอรีที่ไม่มีการจัดการ ไม่มีผู้ใช้ โดเมนหรือแผนบริการจะถูกย้ายไปยังไดเรกทอรีอื่นๆ ที่คุณดูแล
+
+* Power BI ไม่รองรับการปฏิวัติผู้ดูแลภายนอกอีกต่อไป เมื่อคุณดำเนิน เข้ามาแทนที่ผู้ดูแล_ภายนอก_ที่ไม่ได้รับการจัดการ Azure active directory คุณสามารถเพิ่มชื่อโดเมน DNS ของไดเรกทอรีที่ไม่มีการจัดการไปยัง Azure active directory ของคุณ เมื่อคุณเพิ่มชื่อโดเมนการแมปของผู้ใช้ไปยังแหล่งข้อมูลจะถูกสร้างขึ้นใน Azure active directory ของคุณเพื่อให้ผู้ใช้สามารถเข้าถึงบริการได้โดยไม่ติดขัด
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>ถ้าฉันมีหลายโดเมน ฉันสามารถควบคุมผู้เช่า Office 365 ที่มีการเพิ่มผู้ใช้เข้าไปได้อย่างไร?
 

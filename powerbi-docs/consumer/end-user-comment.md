@@ -5,19 +5,18 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d09ada0d3309a9cb2b93a8cd4fa3d6740e69ba77
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: f9979a852028e929b626e76534fef073feca3fd8
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073551"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100729"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>เพิ่มความคิดเห็นในแดชบอร์ดหรือรายงาน
 เพิ่มข้อคิดเห็นส่วนบุคคล หรือเริ่มการสนทนาเกี่ยวกับแดชบอร์ดหรือรายงานกับเพื่อนร่วมงานของคุณ คุณลักษณะ**ข้อคิดเห็น**มีเพียงหนึ่งในหลายวิธีการที่*ผูบริโภค*สามารถทำงานร่วมกับผู้อื่นได้ 
@@ -29,7 +28,7 @@ ms.locfileid: "71073551"
 
 เมื่อคุณเพิ่มข้อคิดเห็นไปยังรายงาน Power BI จับภาพฟิลเตอร์ปัจจุบันและค่าตัวแบ่งส่วนข้อมูล ซึ่งหมายความว่าเมื่อคุณเลือกหรือตอบกลับข้อคิดเห็นหน้ารายงานหรือภาพรายงานอาจเปลี่ยนแปลงเพื่อแสดงตัวเลือกและตัวแบ่งส่วนข้อมูลที่ใช้งานอยู่เมื่อมีการเพิ่มข้อคิดเห็นครั้งแรก  
 
-![รายงานด้วยวิดีโอตัวกรอง](media/end-user-comment/comment-reports-with-filters/comment-reports-with-filters.gif)
+![รายงานด้วยวิดีโอตัวกรอง](media/end-user-comment/power-bi-comment.gif)
 
 ทำไมจึงเป็นสิ่งสำคัญ? บอกให้เพื่อนร่วมงานใช้ตัวกรองที่เปิดเผยข้อมูลเชิงลึกที่น่าสนใจที่พวกเขาต้องการแชร์กับทีม หากไม่มีตัวกรองที่เลือกไว้ข้อคิดเห็นอาจไม่เป็นที่เข้าใจ
 
@@ -40,49 +39,50 @@ ms.locfileid: "71073551"
 
 1. เปิดแดชบอร์ด Power BI หรือรายงาน และเลือกไอคอน **ความคิดเห็น** ซึ่งเปิดกล่องโต้ตอบความคิดเห็น
 
-    ![ไอคอนความคิดเห็น](media/end-user-comment/power-bi-comment-icon.png)
+    ![ไอคอนความคิดเห็น](media/end-user-comment/power-bi-comment-menu.png)
 
     ที่นี่เราเห็นว่าผู้สร้างแดชบอร์ดได้เพิ่มความคิดเห็นทั่วไปแล้ว  ทุกคนที่สามารถเข้าถึงแดชบอร์ดนี้สามารถเห็นความคิดเห็นนี้
 
-    ![ไอคอนความคิดเห็น](media/end-user-comment/power-bi-dash-comment.png)
+    ![ไอคอนความคิดเห็น](media/end-user-comment/power-bi-first-comments.png)
 
 2. เมื่อต้องตอบกลับ เลือก **ตอบกลับ** พิมพ์การตอบกลับของคุณ และเลือก **โพสต์**  
 
     ![ไอคอนตอบกลับข้อคิดเห็น](media/end-user-comment/power-bi-comment-reply.png)
 
-    ตามค่าเริ่มต้น Power BI นำการตอบกลับของคุณไปยังเพื่อนร่วมงานที่เริ่มเธรดความคิดเห็นในกรณีนี้ Aaron F. 
+    ตามค่าเริ่มต้น Power BI นำการตอบกลับของคุณไปยังเพื่อนร่วมงานที่เริ่มเธรดความคิดเห็นในกรณีนี้ Aaron. 
 
-    ![แสดงความคิดเห็นพร้อมการตอบกลับ](media/end-user-comment/power-bi-response.png)
+    ![แสดงความคิดเห็นพร้อมการตอบกลับ](media/end-user-comment/power-bi-respond.png)
 
  3. หากคุณต้องการเพิ่มความคิดเห็นแดชบอร์ดที่ไม่ได้เป็นส่วนหนึ่งของเธรดที่มีอยู่ ให้ป้อนความคิดเห็นของคุณในฟิลด์ข้อความด้านบน
 
-    ![ไอคอนตอบกลับข้อคิดเห็น](media/end-user-comment/power-bi-new-comment.png)
+    ![ไอคอนตอบกลับข้อคิดเห็น](media/end-user-comment/power-bi-new-comments.png)
 
     ตอนนี้ความคิดเห็นสำหรับแดชบอร์ดนี้มีลักษณะดังนี้
 
-    ![การสนทนาข้อคิดเห็น](media/end-user-comment/power-bi-comment-conversation.png)
+    ![การสนทนาข้อคิดเห็น](media/end-user-comment/power-bi-conversation.png)
 
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>เพิ่มข้อคิดเห็นไปยังการแสดงผลภาพแดชบอร์ดหรือรายงานที่เฉพาะเจาะจง
 นอกเหนือจากการเพิ่มข้อคิดเห็นไปยังแดชบอร์ดทั้งหมดหรือไปยังหน้ารายงานทั้งหมด คุณสามารถเพิ่มข้อคิดเห็นไปยังไทล์แดชบอร์ดแต่ละรายการและการแสดงผลด้วยภาพของแต่ละรายงานได้ กระบวนการนี้จะคล้ายกันและในตัวอย่างนี้เรากำลังใช้รายงาน
 
 1. เลื่อนเคอร์เซอร์เหนือภาพและเลือกจุดไข่ปลา (...)    
-2. จากรายการแบบเลื่อนลง เลือก**เพิ่มข้อคิดเห็น**
+2. จากรายการแบบดรอบดาวน์ เลือก**เปิดการแสดงข้อคิดเห็น**
 
-    ![เพิ่มข้อคิดเห็นเป็นตัวเลือกแรก](media/end-user-comment/power-bi-comment-report.png)  
+    ![เพิ่มข้อคิดเห็นเป็นตัวเลือกแรก](media/end-user-comment/power-bi-report-comment.png)  
 
 3.  กล่องโต้ตอบ **ข้อคิดเห็น** เปิดขึ้นและการแสดงผลภาพอื่นๆ บนหน้าจะเป็นสีเทา ภาพนี้ยังไม่มีความคิดเห็นใด ๆ 
 
-    ![เพิ่มข้อคิดเห็นถึงตนเอง](media/end-user-comment/power-bi-comment-bar.png)  
+    ![เพิ่มข้อคิดเห็นถึงตนเอง](media/end-user-comment/power-bi-comment-column.png)  
 
 4. เพิมพ์ข้อคิดเห็นของคุณ และเลือก**โพสต์**
 
-    ![เพิ่มข้อคิดเห็นถึงตนเอง](media/end-user-comment/power-bi-comment-june.png)  
+    ![เพิ่มข้อคิดเห็นถึงตนเอง](media/end-user-comment/power-bi-comment-logistics.png)  
 
     - บนหน้ารายงาน ให้เลือกข้อคิดเห็นที่สร้างขึ้นด้วยการแสดงผลภาพ ไฮไลต์ภาพแสดงผลภาพนั้น (ดูข้างบน)
 
     - บนแดชบอร์ด ไอคอนแผนภูมิ ![แสดงความคิดเห็นด้วยไอคอนแผนภูมิ](media/end-user-comment/power-bi-comment-chart-icon.png) ช่วยให้เราทราบว่าความคิดเห็นนี้เชื่อมโยงกับการแสดงภาพเฉพาะ ข้อคิดเห็นที่นำไปใช้กับทั้งแดชบอร์ดไม่มีไอคอนพิเศษ การเลือกไอคอนแผนภูมิจะไฮไลท์การแสดงผลด้วยภาพที่เกี่ยวข้องบนแดชบอร์ด
+    
 
-        ![เน้นภาพที่เกี่ยวข้อง](media/end-user-comment/power-bi-comment-highlight2.png)
+    ![เน้นภาพที่เกี่ยวข้อง](media/end-user-comment/power-bi-highlight.png)
 
 5. เลือก**ปิด**เพื่อกลับไปยังแดชบอร์ดหรือรายงาน
 

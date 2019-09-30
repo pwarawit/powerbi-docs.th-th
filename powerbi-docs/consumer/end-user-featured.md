@@ -5,21 +5,20 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5251bf34d7467c2727cdac83c6f6f9faf59aa888
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608683"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141277"
 ---
-# <a name="featured-dashboards-in-power-bi-service"></a>แดชบอร์ดแนะนำใน Power BI service
+# <a name="featured-dashboards-in-the-power-bi-service"></a>แดชบอร์ดแนะนำใน Power BI service
 ## <a name="create-a-featured-dashboard"></a>สร้างแดชบอร์ดแนะนำ
 พวกเราหลายคนมีแดชบอร์ดหนึ่งที่เราเยี่ยมชมมากกว่าผู้อื่น  อาจเป็นแดชบอร์ดที่เราใช้เพื่อดำเนินธุรกิจ หรืออาจเป็นแดชบอร์ดที่ประกอบด้วยการรวมของไทล์จากรายงานและแดชบอร์ดมากมาย
 
@@ -52,7 +51,7 @@ ms.locfileid: "65608683"
 1. ทำตามขั้นตอนที่ 1 และ 2 จากด้านบน
    
     ![เปลี่ยนหน้าต่างแดชบอร์ดแนะนำ](./media/end-user-featured/power-bi-change-feature.png)
-2. เลือก**ตั้งเป็นฟีเจอร์** เลิกแดชบอร์ดไม่ลบออกจากพื้นที่ทำงานของคุณ  
+2. เลือก**ตั้งเป็นฟีเจอร์** เลิกแดชบอร์ดไม่ลบออกจาก Power BI  
    
     ![ข้อความแสดงความสำเร็จ](./media/end-user-featured/power-bi-unfeature-new.png)
 

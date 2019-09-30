@@ -9,18 +9,18 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.cunstom: ''
-ms.date: 08/10/2017
+ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 11afe27ffbca295eec67fd07731cc646bcca56dc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3de0b5473c6d00013bdf109f262dc0577c3bf290
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769701"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073519"
 ---
 # <a name="get-started-with-third-party-apps"></a>เริ่มใช้งานแอปของบริษัทอื่น
 
-ด้วย Power BI คุณสามารถใช้แอปที่สร้างขึ้นโดยบริษัท หรือบุคคลอื่น นอกเหนือจาก Microsoft ตัวอย่าง คุณอาจใช้แอของบุคคลสามซึ่งเอารวมไทล์ Power BI ลงในโปรแกรมประยุกต์เว็บ custom-built เมื่อคุณใช้แอบริษัท คุณจะถูกขอให้อนุญาตให้แอปพลิเคชันนั้นสิทธิ์บางอย่างลงในบัญชี Power BI และแหล่งข้อมูลของคุณ สิ่งสำคัญคื่อ คุณให้สิทธิ์แก่แอปพลิเคชันที่คุณรู้จักและเชื่อถือเท่านั้น คุณสามารถเพิกถอนสิทธิ์ที่อนุญาตให้แอปพลิเคชันสได้ทุกเมื่อ ดู[เพิกถอนสิทธิ์แอปของบุคคลที่สาม](#revoke)
+ด้วย Power BI คุณสามารถใช้แอปที่สร้างขึ้นโดยบริษัท หรือบุคคลอื่น นอกเหนือจาก Microsoft ตัวอย่างเช่น คุณอาจใช้แอปของบุคคลที่สาม ซึ่งเอารวมไทล์ Power BI ลงไปในเว็บแอปพลิเคชันที่สร้างขึ้นเอง เมื่อคุณใช้แอปของบุคคลที่สาม คุณจะถูกร้องขอให้อนุญาตให้แอปพลิเคชันนั้น ได้สิทธิเกี่ยวกับบัญชี และแหล่งข้อมูล Power BI ของคุณ สิ่งสำคัญคื่อ คุณให้สิทธิ์แก่แอปพลิเคชันที่คุณรู้จักและเชื่อถือเท่านั้น คุณสามารถเพิกถอนสิทธิ์ที่อนุญาตให้แอปพลิเคชันสได้ทุกเมื่อ ดู[เพิกถอนสิทธิ์แอปของบุคคลที่สาม](#revoke)
 
 ต่อไปนี้คือ ชนิดของการเข้าถึง ที่แอปพลิเคชันสามารถร้องขอได้
 
@@ -47,16 +47,16 @@ ms.locfileid: "64769701"
 
 <a name="revoke"/>
 
-## <a name="revoke-third-party-app-permissions"></a>เพิกถอนสิทธิ์แอปของบริษัท
+## <a name="revoke-third-party-app-permissions"></a>เพิกถอนสิทธิ์ของแอปของบุคคลที่สาม
 
-คุณยกเลิกสิทธิ์สำหรับแอปบุคคลสาม โดยไปไซต์ Office 365 My Apps
+คุณยกเลิกสิทธิ์สำหรับแอปของบุคคลที่สาม โดยไปที่ไซต์ของ Office 365 My Apps
 
-บนการ**Office 365 My apps**ไซต์ นี่คือวิธีการยกเลิกสิทธิ์ของบุคคลสาม:
+บนไซต์ **Office 365 My Apps** นี่คือวิธีการยกเลิกสิทธิ์ของบุคคลที่สาม:
 
 1. ไปยัง[ไซต์ Office 365 My Apps](https://portal.office.com/myapps)
 
-2. บนการ**แอปของฉัน**หน้า ค้นหาแอปของบริษัท
+2. บนหน้า**แอปของฉัน** ค้นหาแอปของบุคคลที่สาม
 
 3. โฮเวอร์เหนือไทล์ขอวแอป คลิกที่ปุ่ม **(...)**  แล้วคลิก**เอาออก**
 
-   ![เอาออก](media/service-power-bi-get-started-third-party-apps/remove.png)
+   ![ลบออก](media/service-power-bi-get-started-third-party-apps/remove.png)

@@ -8,20 +8,20 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f50fa577cace62adadd0dfc29216445c6c8f269
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 10586d0fa685bb947b27a5c243117596517bdb52
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454352"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142230"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>ใส่ข้อมูลโดยตรงลงใน Power BI Desktop
 ด้วย Power BI Desktop คุณก็สามารถใส่ข้อมูลได้โดยตรง และใช้ข้อมูลนั้นในรายงานและการแสดงภาพของคุณ ตัวอย่างเช่น คุณสามารถคัดลอกเวิร์กบุ๊กหรือเว็บเพจบางส่วน จากนั้นวางลงใน Power BI Desktop
 
-เมื่อต้องการใส่ข้อมูลโดยตรง ให้เลือก**ป้อนข้อมูล**จาก ribbon ของ**หน้าแรก**
+เมื่อต้องการใส่ข้อมูลลงใน Power BI Desktop โดยตรงในรูปแบบของตารางใหม่ให้**เลือกป้อนข้อมูล**จาก ribbon **หน้าแรก**
 
 ![](media/desktop-enter-data-directly-into-desktop/enter-data-directly_1.png)
 

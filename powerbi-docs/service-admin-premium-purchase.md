@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6e37885c5e15dbaaa28fc5cb693089fda747c9e
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565284"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175249"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>วิธีการซื้อ Power BI Premium
 
@@ -101,9 +101,10 @@ ms.locfileid: "65565284"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[หน้าการกำหนดราคา Power BI](https://powerbi.microsoft.com/pricing/)   
-[เครื่องคิดเลข Power BI Premium](https://powerbi.microsoft.com/calculator/)   
-[คำถามที่ถามบ่อยสำหรับ Power BI Premium](service-premium-faq.md)   
+[กำหนดค่าและจัดการความจุใน Power BI Premium](service-admin-premium-manage.md)\
+[หน้าการกำหนดราคา Power BI](https://powerbi.microsoft.com/pricing/)\
+[เครื่องคิดเลข Power BI Premium](https://powerbi.microsoft.com/calculator/)\
+[คำถามที่ถามบ่อยสำหรับ Power BI Premium](service-premium-faq.md)\
 [เอกสารทางเทคนิคเรื่องการวางแผนการใช้ Power BI สำหรับองค์กร](https://aka.ms/pbienterprisedeploy)
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)

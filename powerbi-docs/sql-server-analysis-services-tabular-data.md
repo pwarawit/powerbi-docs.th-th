@@ -13,7 +13,7 @@ ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 51efec6c78dbb29b9c3dc760284c7bb3c8711bdc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769939"
@@ -31,7 +31,7 @@ ms.locfileid: "64769939"
 
 1. ใน**พื้นที่ทำงานของฉัน** เลือก**รับข้อมูล** คุณยังสามารถเปลี่ยนไปยังพื้นที่ทำงานกลุ่ม ถ้ามี
 
-   ![เชื่อมต่อกับปุ่มรับข้อมูล](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
+   ![เชื่อมต่อเพื่อรับปุ่มข้อมูล](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
 2. เลือก**ฐานข้อมูลและเพิ่มเติม**
 

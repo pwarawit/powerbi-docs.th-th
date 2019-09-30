@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e735d45a7a49c4a0365e35d5bb95957c6145f934
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6424180dde3dac0d6d2b66c8a9303810b6aa0dc6
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903751"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100098"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi-desktop"></a>ใช้การดูรายละเอียดแบบเจาะลึกข้ามรายงานใน Power BI Desktop
 
@@ -32,7 +32,7 @@ ms.locfileid: "70903751"
 
 
 > [!NOTE]
-> คุณสามารถเข้าถึงรายงานแต่ละรายการที่ใช้ร่วมกันภายใน*พื้นที่ทำงานของฉัน* ซึ่งเป็นรายงานที่ปรากฎในสถานะ *[ใช้ร่วมงานกับฉัน](service-share-dashboards.md#share-a-dashboard-or-report)* ได้ในพื้นที่ทำงานจากจุดแรกเริ่มที่มีการใช้งานร่วมกัน 
+> ด้วยคุณลักษณะการดูรายละเอียดแบบเจาะลึกข้ามรายงานใน Power BI Desktop คุณสามารถข้ามจากรายงานหนึ่งไปยังรายงานอื่นได้ตามเนื้อหา ซึ่งเป็นจริง ตราบใดที่รายงานอยู่ในพื้นที่ทำงานเดียวกันหรือแอปในบริการของ Power BI ซึ่งไม่สามารถใช้ได้เมื่อเข้าถึงรายงานที่แชร์เฉพาะ*ภายในพื้นที่ทำงานของฉัน* ([แชร์กับรายงานฉัน](service-share-dashboards.md#share-a-dashboard-or-report)); แทนคุณจะต้องเข้าถึงรายงานในพื้นที่ทำงานที่เป็นต้นฉบับจากต้นทางที่เริ่มแชร์มา
 
 
 ## <a name="enable-cross-report-drillthrough"></a>เปิดใช้งานการดูรายละเอียดแบบเจาะลึกข้ามรายงาน

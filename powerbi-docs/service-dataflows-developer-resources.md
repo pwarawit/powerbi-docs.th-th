@@ -1,5 +1,5 @@
 ---
-title: ทรัพยากรสำหรับนักพัฒนาสำหรับ dataflows Power BI
+title: แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI
 description: ค้นหาทรัพยากรสำหรับการพัฒนาและกระแสข้อมูล Power BI
 author: davidiseminger
 manager: kfile
@@ -12,12 +12,12 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 9a4caed97881e176d075527c90ae8d5eff213676
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136779"
 ---
-# <a name="developer-resources-for-power-bi-dataflows"></a>ทรัพยากรสำหรับนักพัฒนาสำหรับ dataflows Power BI
+# <a name="developer-resources-for-power-bi-dataflows"></a>แหล่งข้อมูลของนักพัฒนาสำหรับกระแสข้อมูล Power BI
 
 มีอยู่หลายวิธีในการใช้กระแสข้อมูลโดยไม่มีรหัส โดยการสร้างหรือเชื่อมต่อเอนทิตีในบริการของ Power BI และการเชื่อมต่อเข้ากับกระแสข้อมูลใน Power BI Desktop มีหลายองค์กรที่ต้องการความยืดหยุ่นในการพัฒนาโซลูชันขึ้นมาเอง บทความนี้ให้ข้อมูลเกี่ยวกับ Power BI REST API และทรัพยากรอื่นๆ ของนักพัฒนา
 
@@ -38,8 +38,8 @@ ms.locfileid: "61136779"
 
 * [การเตรียมข้อมูลด้วยตัวเองโดยใช้กระแสข้อมูล](service-dataflows-overview.md)
 * [การสร้างและใช้กระแสข้อมูลใน Power BI](service-dataflows-create-use.md)
-* [ใช้เอนทิตีที่มีการคำนวณใน Power BI Premium](service-dataflows-computed-entities-premium.md)
-* [ใช้ dataflows กับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
+* [การใช้เอนทิตีที่คำนวณใน Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [การใช้กระแสข้อมูลกับแหล่งข้อมูลภายในองค์กร](service-dataflows-on-premises-gateways.md)
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการพัฒนา CDM และบทนำสอน สามารถดูได้ตามนี้:
 * [Common Data Model - ภาพรวม](https://docs.microsoft.com/powerapps/common-data-model/overview)

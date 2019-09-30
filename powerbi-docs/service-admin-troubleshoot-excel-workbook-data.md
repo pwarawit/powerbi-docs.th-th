@@ -13,7 +13,7 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65101472"
@@ -25,7 +25,7 @@ ms.locfileid: "65101472"
 
 เมื่อคุณนำเข้าสมุดงาน Excel ไปใน Power BI คุณอาจเห็นข้อผิดพลาดต่อไปนี้:
 
-*ข้อผิดพลาด: เราไม่พบข้อมูลใด ๆ ที่จัดรูปแบบเป็นตาราง เมื่อต้องการนำเข้าจาก Excel ไปยังบริการ Power BI คุณต้องจัดรูปแบบข้อมูลเป็นตาราง เลือกข้อมูลทั้งหมดที่คุณต้องการในตาราง แล้วกด Ctrl + T*
+*ข้อผิดพลาด: เราไม่พบข้อมูลใดๆ ที่จัดรูปแบบเป็นตาราง เมื่อต้องการนำเข้าจากโปรแกรม Excel ลงในบริการของ Power BI คุณต้องจัดรูปแบบข้อมูลเป็นตาราง เลือกข้อมูลทั้งหมดที่คุณต้องการในตารางและกด Ctrl + T*
 
 ![ไม่พบข้อมูลในสมุดงาน](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 

@@ -1,21 +1,21 @@
 ---
 title: บริการหลักพร้อมด้วย Power BI
 description: เรียนรู้วิธีการลงทะเบียนแอปพลิเคชันภายใน Azure Active Directory โดยใช้บริการหลักสำหรับการใช้งานด้วยการฝังเนื้อหา Power BI
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823301"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073103"
 ---
 # <a name="service-principal-with-power-bi"></a>บริการหลักพร้อมด้วย Power BI
 
@@ -67,7 +67,7 @@ ms.locfileid: "66823301"
 
 ## <a name="get-started-with-a-service-principal"></a>เริ่มต้นใช้งานด้วยบริการหลัก
 
-การใช้บริการหลัก (โทเค็นเฉพาะแอป) จำเป็นต้องมีสองสามชิ้นแตกต่างกันเมื่อต้องตั้งค่า ซึ่งแตกต่างจากการใช้บัญชีหลักแบบดั้งเดิม เมื่อต้องเริ่มต้นใช้งานด้วยบริการหลัก (โทเค็นเฉพาะแอป) คุณต้องตั้งค่าสภาพแวดล้อมที่เหมาะสม
+ใกล้เคียงกับการใช้บริการหลัก (โทเค็นเฉพาะแอป) จำเป็นต้องมีสองสามชิ้นแตกต่างกันเมื่อต้องตั้งค่า ซึ่งแตกต่างจากการใช้บัญชีหลักแบบดั้งเดิม เมื่อต้องเริ่มต้นใช้งานด้วยบริการหลัก (โทเค็นเฉพาะแอป) คุณต้องตั้งค่าสภาพแวดล้อมที่เหมาะสม
 
 1. [ลงทะเบียนแอปพลิเคชันเว็บฝั่งเซิร์ฟเวอร์](register-app.md)ใน Azure Active Directory (AAD) เพื่อใช้กับ Power BI คุณสามารถจับภาพ ID แอปพลิเคชัน ข้อมูลลับของแอปพลิเคชัน และ ID ออบเจ็กต์หลักของบริการหลักเพื่อเข้าถึงเนื้อหา Power BI ของคุณหลังจากลงทะเบียนแอปพลิเคชัน คุณสามารถสร้างบริการหลักด้วย[PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)ได้
 

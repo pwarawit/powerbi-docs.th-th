@@ -11,16 +11,16 @@ ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 52b7748b6b634caf87de01ddc965576339a04b8b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61175074"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>เชื่อมต่อกับไฟล์ที่จัดเก็บใน OneDrive สำหรับพื้นที่ทำงานของแอป Power BI
-หลังจากที่คุณได้[สร้างพื้นที่ทำงานของแอปใน Power BI](service-create-distribute-apps.md)คุณสามารถจัดเก็บ Excel, CSV และไฟล์ Power BI Desktop ของคุณบน OneDrive for Business สำหรับพื้นที่ทำงานแอป Power BI ของคุณ คุณสามารถปรับปรุงแฟ้มคุณจัดเก็บใน OneDrive อัปเดตเหล่านั้นจะมีผลในรายงาน Power BI และแดชบอร์ดที่ยึดไฟล์โดยอัตโนมัติ 
+หลังจากที่คุณได้[สร้างพื้นที่ทำงานของแอปใน Power BI](service-create-distribute-apps.md)คุณสามารถจัดเก็บ Excel, CSV และไฟล์ Power BI Desktop ของคุณบน OneDrive for Business สำหรับพื้นที่ทำงานแอป Power BI ของคุณ คุณสามารถปรับปรุงแฟ้มที่คุณเก็บไว้ใน OneDrive การอัปเดตเหล่านั้นมีผลในรายงาน Power BI และแดชบอร์ดที่ยึดตามไฟล์เหล่านั้นโดยอัตโนมัติ 
 
 > [!NOTE]
-> ประสบการณ์การใช้งานพื้นที่ทำงานใหม่การเปลี่ยนแปลงความสัมพันธ์ระหว่างพื้นที่ทำงาน Power BI และกลุ่ม Office 365 คุณไม่สร้างกลุ่ม Office 365 โดยอัตโนมัติทุกครั้งที่คุณสร้างหนึ่งพื้นที่ทำงานใหม่ อ่านเกี่ยวกับ[สร้างพื้นที่ทำงานใหม่](service-create-the-new-workspaces.md)
+> ประสบการณ์พื้นที่ทำงานใหม่จะเปลี่ยนความสัมพันธ์ระหว่างพื้นที่ทำงาน Power BI และกลุ่ม Office 365 คุณจะไม่สามารถสร้างกลุ่ม Office 365 โดยอัตโนมัติทุกครั้งที่คุณสร้างพื้นที่ทำงานใหม่ อ่านเกี่ยวกับ [สร้างพื้นที่ทำงานใหม่](service-create-the-new-workspaces.md)
 
 เพิ่มไฟล์ลงในพื้นที่ทำงานของแอปเป็นกระบวนการสองขั้นตอน 
 
@@ -48,7 +48,7 @@ ms.locfileid: "61175074"
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 นำเข้าไฟล์ Excel ในฐานะชุดข้อมูลหรือในฐานะสมุดงาน Excel Online
 ขณะนี้ไฟล์ของคุณอยู่ใน OneDrive for Business สำหรับพื้นที่ทำงานของแอป คุณมีตัวเลือก คุณสามารถ 
 
-* [นำเข้าข้อมูลจากสมุดงาน Excel เป็นชุดข้อมูล](service-get-data-from-files.md) แล้ว ใช้ข้อมูลเพื่อสร้างรายงานและแดชบอร์ดคุณสามารถดู ในเว็บเบราว์เซอร์ และอุปกรณ์เคลื่อนที่
+* [นำเข้าข้อมูลจากเวิร์กบุ๊ก Excel เป็นชุดข้อมูล](service-get-data-from-files.md) จากนั้นใช้ข้อมูลเพื่อสร้างรายงานและแดชบอร์ดที่คุณสามารถดูในเว็บเบราว์เซอร์ และบนอุปกรณ์มือถือ
 * หรือ[เชื่อมต่อกับเวิร์กบุ๊ก Excel เต็มใน Power BI](service-excel-workbook-files.md)และแสดงไว้เหมือนกับที่จะปรากฏขึ้นใน Excel Online
 
 ### <a name="import-or-connect-to-the-files-in-your-app-workspace"></a>นำเข้า หรือเชื่อมต่อกับไฟล์ในพื้นที่ทำงานของแอป
@@ -64,7 +64,7 @@ ms.locfileid: "61175074"
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
 5. เลือกไฟล์คุณต้อง > **เชื่อมต่อ**
    
-    ในตอนนี้ คุณตัดสินใจว่า จะ[นำเข้าข้อมูลจากสมุดงาน Excel](service-get-data-from-files.md)หรือ[เชื่อมต่อกับเวิร์กบุ๊ก Excel ทั้งหมด](service-excel-workbook-files.md)
+    ในจุดนี้คุณตัดสินใจว่า จะ[นำเข้าข้อมูลจากสมุดงาน Excel](service-get-data-from-files.md)หรือ[เชื่อมต่อไปยังเวิร์กบุ๊ก Excel ทั้งหมด](service-excel-workbook-files.md)
 6. เลือก**นำเข้า**หรือ**เชื่อมต่อ**
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)

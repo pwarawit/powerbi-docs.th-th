@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b0dc84d7b2d8da0df8a9e61a43f35898d197c188
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: th-TH
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513732"
@@ -30,16 +30,16 @@ ms.locfileid: "65513732"
 3. เลือก**ตัวดึงข้อมูล OData** และเลือก**เชื่อมต่อ**
 4. ใส่ที่อยู่ของตัวดึงข้อมูล OData ของคุณในกล่อง URL แล้ว คลิกตกลง
    
-   ถ้าอยู่สำหรับไซต์ Project Web App ของคุณคล้ายกับ*https://\<tenantname\>.sharepoint.com/sites/pwa*จาก นั้นคุณจะใส่สำหรับตัวดึงข้อมูล OData ของคุณอยู่*https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*
+   ถ้าที่อยู่สำหรับไซต์ Project Web App ของคุณเป็นรูปแบบ *https://\<tenantname\>.sharepoint.com/sites/pwa* ที่อยู่ที่คุณจะใส่สำหรับตัวดึงข้อมูล OData ของคุณคือ *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*
    
    สำหรับตัวอย่าง เรากำลังใช้ https://contoso.sharepoint.com/sites/pwa/default.aspx
 5. Power BI Desktop จะพร้อมท์ให้คุณรับรองสิทธิ์กับบัญชี Office 365 ของคุณ เลือกบัญชีผู้ใช้ขององค์กร แล้วใส่ข้อมูลประจำตัวของคุณ
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 
-บัญชีคุณใช้เพื่อเชื่อมต่อกับ OData ตัวดึงข้อมูลต้องมีอย่างน้อยพอร์ตโครงการเพื่อข้าถึงไซต์ Project Web App 
+บัญชีที่คุณใช้เพื่อเชื่อมต่อกับตัวดึงข้อมูล OData อย่างน้อยต้องมีตัวแสดงพอร์ตโครงการเพื่อข้าถึงไซต์ Project Web App 
 
-จากที่นี่ คุณสามารถเลือกตารางที่คุณต้องการจะเชื่อมต่อและสร้างแบบสอบถาม  อยากทราบวิธีการเริ่มต้นใช้งานใช่หรือไม่  โพสต์ในบล็อกต่อไปนี้แสดงวิธีการสร้างเขียนลงในแผนภูมิจากข้อมูล Project Online ของคุณ  โพสต์ในบล็อกจะอ้างอิงเกี่ยวกับการใช้ Power Query เพื่อเชื่อมต่อกับ Project Online แต่ยังสามารถใช้กับ Power BI Desktop ได้เช่นกัน
+จากที่นี่ คุณสามารถเลือกตารางที่คุณต้องการจะเชื่อมต่อและสร้างแบบสอบถาม  อยากทราบวิธีการเริ่มต้นใช้งานใช่หรือไม่  โพสต์ในบล็อกต่อไปนี้จะแสดงวิธีการสร้างแผนภูมิการวัดความก้าวหน้าจากข้อมูล Project Online ของคุณ  โพสต์ในบล็อกจะอ้างอิงเกี่ยวกับการใช้ Power Query เพื่อเชื่อมต่อกับ Project Online แต่ยังสามารถใช้กับ Power BI Desktop ได้เช่นกัน
 
-[สร้างเขียนลงในแผนภูมิสำหรับโครงการโดยใช้ Power Pivot และ Power Query](http://blogs.office.com/2014/03/24/creating-burndown-charts-for-project-using-power-pivot-and-power-query/)
+[สร้างแผนภูมิการวัดความก้าวหน้าสำหรับโครงการโดยใช้ Power Pivot และ Power Query](http://blogs.office.com/2014/03/24/creating-burndown-charts-for-project-using-power-pivot-and-power-query/)
 

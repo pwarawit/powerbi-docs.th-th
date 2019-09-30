@@ -3,20 +3,19 @@ title: แดชบอร์ดคืออะไร และฉันสาม
 description: แดชบอร์ดเป็นคุณลักษณะสำคัญของบริการ Power BI
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cad6aeeb156534052241d5183a575b222736230a
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608334"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141919"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>แดชบอร์ดสำหรับผู้บริโภคบริการของ Power BI
 
@@ -54,8 +53,8 @@ ms.locfileid: "65608334"
 | สามารถดูตารางชุดข้อมูลพื้นฐานและพื้นที่ข้อมูลได้ |หมายเลข สามารถส่งออกข้อมูล แต่ไม่สามารถมองเห็นตารางและช่องข้อมูลในแดชบอร์ด |ใช่ สามารถดูตารางชุดข้อมูล ช่องข้อมูล และค่าได้ |
 
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>สำหรับผู้สร้างแดชบอร์ดและผู้บริโภคแดชบอร์ด
-ในฐานะที่เป็น ***ลูกค้า*** ของ Power BI คุณได้รับแดชบอร์ดจาก*ผู้สร้าง* สามารถเรียนรู้เกี่ยวกับแดชบอร์ดตที่มีหัวข้อเหล่านี้:
+## <a name="dashboard-designers-and-dashboard-consumers"></a>สำหรับผู้ออกแบบแดชบอร์ดและผู้บริโภคแดชบอร์ด
+ในฐานะที่เป็น ***ลูกค้า*** ของ Power BI คุณได้รับแดชบอร์ดจาก*ผู้ออกแบบ* สามารถเรียนรู้เกี่ยวกับแดชบอร์ดตที่มีหัวข้อเหล่านี้:
 
 * [ดูแดชบอร์ด](end-user-dashboard-open.md)
 * เรียนรู้เกี่ยวกับ[ไทล์แดชบอร์ด](end-user-tiles.md)และสิ่งที่จะเกิดขึ้นเมื่อคุณเลือกหนึ่งแดชบอร์ด
