@@ -301,7 +301,7 @@
               href: desktop-see-data-see-records.md
             - name: เคล็ดลับสำหรับการสร้างรายงาน
               href: desktop-tips-and-tricks-for-creating-reports.md
-        - name: การจัดรูปแบบการแสดงข้อมูล
+        - name: การแสดงผลข้อมูลด้วยภาพ
           items:
             - name: การแสดงข้อมูลใน Power BI
               href: visuals/power-bi-report-visualizations.md
@@ -1442,11 +1442,13 @@
           href: service-admin-power-bi-security.md
 - name: คำแนะนำ
   items:
-    - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
-      href: service-dataflows-best-practices.md
+    - name: ภาพรวม
+      href: guidance/overview.md
     - name: Schema ติดดาวคืออะไร
       href: guidance/star-schema.md
     - name: ลดขนาดแบบจำลองข้อมูล
       href: guidance/import-modeling-data-reduction.md
-    - name: ฟังก์ชัน DIVIDE เทียบกับตัวดำเนินการหาร (/)
+    - name: ฟังก์ชันการแบ่งเทียบกับตัวดำเนินการหาร (/)
       href: guidance/dax-divide-function-operator.md
+    - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
+      href: service-dataflows-best-practices.md
