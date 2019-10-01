@@ -1,22 +1,22 @@
 ---
 title: การเพิ่มตัวเลือกการจัดรูปแบบให้กับวิชวลแบบกำหนดเองของ Power BI
 description: บทช่วยสอนวิธีการพัฒนาตัวเลือกการจัดรูปแบบวิชวลแบบกำหนดเองของ Power BI
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5fa14e3aa8a303206d52359d04db05850e096d81
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61380457"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194580"
 ---
-# <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>บทช่วยสอน: การเพิ่มตัวเลือกการจัดรูปแบบให้กับวิชวลแบบกำหนดเองของ Power BI
+# <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>บทช่วยสอน: การเพิ่มตัวเลือกการจัดรูปแบบให้กับวิชวลแบบกำหนดเองของ Power BI
 
 ในบทช่วยสอนนี้ เราจะได้ดูวิธีการเพิ่มคุณสมบัติทั่วไปให้กับวิชวล
 

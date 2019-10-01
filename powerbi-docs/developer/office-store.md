@@ -1,22 +1,22 @@
 ---
 title: เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
 description: เรียนรู้วิธีที่คุณสามารถเผยแพร่วิชวลแบบกำหนดเองของคุณไปยัง AppSource ให้บุคคลอื่นค้นหาและใช้งาน
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 3cbc2c6fcb70d6298c9d2ade3e3f2cd10cd8a834
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623824"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194503"
 ---
-# <a name="publish-custom-visuals-to-appsource"></a>เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
+# <a name="publish-power-bi-visuals-to-appsource"></a>เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
 
 เรียนรู้วิธีที่คุณสามารถเผยแพร่วิชวลแบบกำหนดเองของคุณไปยัง AppSource ให้บุคคลอื่นค้นหาและใช้งาน
 
@@ -46,7 +46,7 @@ ms.locfileid: "68623824"
 
 ## <a name="submitting-to-power-bi"></a>การส่งไปยัง Power BI
 
-การส่งจะเริ่มต้น ด้วยการส่งอีเมลไปยังทีมที่ดูแลการส่งวิชวลแบบกำหนดเองของ Power BI คุณสามารถส่งอีเมลไปที่ [ pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com)
+การส่งเริ่มต้นด้วยการส่งอีเมลไปยังทีมส่งภาพ Power BI Power BI คุณสามารถส่งอีเมลไปที่ [ pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com)
 
 > [!IMPORTANT]
 > คุณต้องกรอกข้อมูลต่อไปนี้ในไฟล์ pbiviz.json: "description", "supportUrl", "author", "name" และ "email" ก่อนที่คุณจะสร้างแพคเกจ .pbiviz
@@ -89,7 +89,7 @@ ms.locfileid: "68623824"
    * *ชื่อที่ส่ง:* คุณจะใช้ชื่อแอปของคุณว่าอะไรในศูนย์นักพัฒนา
    * *เวอร์ชัน:* หมายเลขเวอร์ชันของคุณ จะถูกใส่ให้โดยอัตโนมัติจาก add-in ในแพคเกจแอปของคุณ
    * *วันที่เผยแพร่ (UTC):* เลือกวันที่ที่แอปของคุณจะเผยแพร่ในร้านค้า ถ้าคุณเลือกวันที่ในอนาคต แอปของคุณจะยังไม่ให้บริการในร้านค้าจนกว่าจะถึงวันที่ระบุ
-   * *ประเภท:* จะมีการใส่ค่าประเภท "Data Visualization + BI" ให้โดยอัตโนมัติ นั้นเป็นวิธีการแท็กวิชวลแบบกำหนดเองของ Power BI คุณสามารถใส่ประเภทได้เพิ่มเติมได้อีก 2 ประเภท เพื่อช่วยให้ผู้ใช้ค้นหาวิชวลของคุณได้ง่ายขึ้น
+   * *ประเภท:* จะมีการใส่ค่าประเภท "Data Visualization + BI" ให้โดยอัตโนมัติ นั้นเป็นวิธีการแท็กวิชวล Power BI ของ Power BI คุณสามารถใส่ประเภทได้เพิ่มเติมได้อีก 2 ประเภท เพื่อช่วยให้ผู้ใช้ค้นหาวิชวลของคุณได้ง่ายขึ้น
    * *หมายเหตุสำหรับผู้ทดสอบ:* ไม่บังคับ ถ้าคุณส่งขั้นตอนบางอย่างสำหรับนักทดสอบที่ Microsoft
    * *แอปของฉันเรียกใช้ สนับสนุน ประกอบด้วย หรือใช้การเข้ารหัสหรือการเข้ารหัสลับ:* ปล่อยไว้ไม่ต้องเลือก
    * *ทำให้ add-in นี้อยู่ในแค็ตตาล็อก add-in ของ Office บน iPad:* ปล่อยไว้ไม่ต้องเลือก

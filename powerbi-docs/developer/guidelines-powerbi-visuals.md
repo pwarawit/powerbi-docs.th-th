@@ -1,20 +1,20 @@
 ---
 title: แนวทางสำหรับวิชวล Power BI
 description: เรียนรู้วิธีที่คุณสามารถเผยแพร่วิชวลแบบกำหนดเองของคุณไปยัง AppSource เพื่อให้บุคคลอื่นสามารถค้นหาและใช้งานผ่านการซื้อได้
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
-ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
+ms.openlocfilehash: 71752a635c69e6712befbb00e942189fa4dacc36
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68380214"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327734"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>คำแนะนำสำหรับการแสดงภาพ Power BI
 ก่อนที่คุณ[จะเผยแพร่](https://docs.microsoft.com/power-bi/developer/office-store)การแสดงผลด้วยภาพของคุณไปยัง AppSource สำหรับผู้อื่นเพื่อค้นหาและใช้งาน ตรวจสอบให้แน่ใจว่าคุณได้ทำตามคำแนะนำเพื่อสร้างประสบการณ์ที่ยอดเยี่ยมสำหรับผู้ใช้ของคุณ 
@@ -25,11 +25,14 @@ ms.locfileid: "68380214"
 
 
 ## <a name="logo-guidelines"></a>หลักเกณฑ์เกี่ยวกับโลโก้
+> [!NOTE]
+> โลโก้คำในบทความนี้ อ้างอิงถึงไอคอน comercial ใดๆของบริษัทตามที่อธิบายไว้ในรูปภาพด้านล่าง 
 
 ส่วนนี้จะอธิบายข้อกำหนดสำหรับการเพิ่มโลโก้และรูปแบบโลโก้ในวิชวล โลโก้ไม่ได้บังคับ ถ้าเพิ่ม จะต้องเป็นไปตามคำแนะนำเหล่านี้ 
 
 > [!IMPORTANT]
 > โลโก้สามารถใช้ได้เฉพาะใน *โหมดแก้ไขเท่านั้น* โลโก้*ไม่*สามารถแสดงในโหมดมุมมองได้
+
 
 ![คำนิยาม](media/guidelines-powerbi-visuals/definitions.png)
 
@@ -43,6 +46,8 @@ ms.locfileid: "68380214"
 
 ![โหมดแก้ไข](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
+
+ไอคอนข้อมูลถ้า exsit ในโหมดการอ่านควรสอดคล้องกับสีขนาดและตำแหน่งที่ตั้งเป็นโลโก้ด้านบน
 
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>คำแนะนำการใช้วิชวลของ Power BI ที่มีการซื้อเพิ่มเติม
 
