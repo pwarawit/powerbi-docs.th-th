@@ -54,7 +54,7 @@
               href: end-user-pdf.md
             - name: เพิ่มบุ๊กมาร์กไปยังรายงาน
               href: end-user-bookmarks.md
-        - name: การจัดรูปแบบการแสดงข้อมูล
+        - name: การแสดงผลข้อมูลด้วยภาพ
           items:
             - name: ฉันสามารถทำอะไรกับการแสดงภาพได้บ้าง
               href: end-user-visualizations.md
@@ -102,6 +102,8 @@
               href: end-user-app-view.md
             - name: เชื่อมต่อกับเซิร์ฟเวอร์
               href: end-user-connect-to-services.md
+            - name: รับแอปตัวอย่างจาก AppSource
+              href: end-user-app-marketing.md
         - name: การถามคำถามเกี่ยวกับข้อมูลของคุณ
           items:
             - name: การถามตอบใน Power BI
