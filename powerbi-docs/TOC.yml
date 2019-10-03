@@ -697,6 +697,8 @@
               href: service-cognitive-services.md
             - name: การเรียนรู้ของเครื่องอัตโนมัติใน Power BI (ดูตัวอย่าง)
               href: service-machine-learning-automated.md
+        - name: การติดตามการใช้งานข้อมูล
+          href: service-data-lineage.md
         - name: รายงานที่มีการแบ่งหน้าใน Power BI
           items:
             - name: ดูรายงานที่มีการแบ่งหน้า
@@ -867,6 +869,8 @@
       items:
         - name: ภาษาที่รองรับและประเทศ/ภูมิภาค
           href: supported-languages-countries-regions.md
+        - name: เบราว์เซอร์ทีรองรับ
+          href: power-bi-browsers.md
     - name: ทรัพยากร
       items:
         - name: เอกสารทางเทคนิค
