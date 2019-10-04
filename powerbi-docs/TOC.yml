@@ -873,16 +873,6 @@
           href: power-bi-browsers.md
     - name: ทรัพยากร
       items:
-        - name: เอกสารทางเทคนิค
-          items:
-            - name: ภาพรวมเอกสารทางเทคนิค
-              href: whitepapers.md
-            - name: เอกสารทางเทคนิคเรื่องความปลอดภัย Power BI
-              href: whitepaper-powerbi-security.md
-            - name: การปรับใช้ Power BI premium
-              href: whitepaper-powerbi-premium-deployment.md
-            - name: กระจาย Power BI ภายนอกโดยใช้ Azure Active Directory B2B
-              href: whitepaper-azure-b2b-power-bi.md
         - name: วิดีโอ
           href: videos.md
         - name: สัมมนาผ่านเว็บ
@@ -1456,3 +1446,13 @@
       href: guidance/dax-divide-function-operator.md
     - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
       href: service-dataflows-best-practices.md
+    - name: เอกสารทางเทคนิค
+      items:
+        - name: ภาพรวมเอกสารทางเทคนิค
+          href: whitepapers.md
+        - name: เอกสารทางเทคนิคเรื่องความปลอดภัย Power BI
+          href: whitepaper-powerbi-security.md
+        - name: การปรับใช้ Power BI premium
+          href: whitepaper-powerbi-premium-deployment.md
+        - name: กระจาย Power BI ภายนอกโดยใช้ Azure Active Directory B2B
+          href: whitepaper-azure-b2b-power-bi.md
