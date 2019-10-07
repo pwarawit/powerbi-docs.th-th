@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.openlocfilehash: 9b7f3adfc7702dee36c43308b227baf72328935a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71401824"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945836"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>แหล่งข้อมูลรายงาน Power BI ใน Power BI Report Server
 รายงาน Power BI สามารถเชื่อมต่อกับหลาย ๆ แหล่งข้อมูลได้ ขึ้นอยู่กับวิธีการใช้ข้อมูล แหล่งข้อมูลที่แตกต่างกันสามารถใช้งานได้ สามารถนำเข้าข้อมูล หรือข้อมูลสามารถถูกคิวรี่ได้โดยตรงโดยใช้ DirectQuery หรือการเชื่อมต่อตรงกับ SQL Server Analysis Services
@@ -157,7 +157,7 @@ ms.locfileid: "71401824"
 | รายการ SharePoint Online |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Snowflake |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | ฐานข้อมูล Sybase |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |
-| ฐานข้อมูล Teradata |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |
+| Teradata |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |
 | appFigures (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure Analysis Services database (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure Cosmos DB (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
@@ -204,7 +204,7 @@ ms.locfileid: "71401824"
 | ฐานข้อมูล Oracle |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |ใช่ |
 | เซิร์ฟเวอร์ SAP Business Warehouse |ไม่ใช่ |ไม่ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | ฐานข้อมูล SAP HANA |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |ไม่ใช่ |
-| ฐานข้อมูล Teradata |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |ใช่ |
+| Teradata |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |ใช่ |
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

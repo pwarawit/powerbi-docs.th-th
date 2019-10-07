@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 61fc821e63889951aefd0ef815f885ffa8a880cf
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994822"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715183"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>ดาวน์โหลดรายงานจากบริการของ Power BI ไปยังไฟล์ Power BI Desktop (ตัวอย่าง)
 ใน Power BI Desktop คุณสามารถเผยแพร่รายงาน (ไฟล์ *.pbix*) จากคอมพิวเตอร์ในเครื่องของคุณไปยังบริการของ Power BI ได้ รายงาน Power BI สามารถไปยังทิศทางอื่น ๆ ได้เช่นกัน: คุณสามารถดาวน์โหลดรายงานจากบริการของ Power BI ไปยังไฟล์ Power BI Desktop ส่วนขยายสำหรับรายงาน Power BI ในกรณีใดก็ตามคือ .pbix
@@ -26,7 +26,7 @@ ms.locfileid: "68994822"
 
 ## <a name="download-the-report-as-a-pbix-file"></a>ดาวน์โหลดรายงานเป็นแบบ ไฟล์ .pbix
 
-คุณสามารถดาวน์โหลดได้เฉพาะรายงาน [ที่สร้างขึ้นด้วย Power BI Desktop ](guided-learning/publishingandsharing.yml?tutorial-step=2) หลังจากวันที่ 23 พฤศจิกายน 2016 และได้รับการปรับปรุงนับตั้งแต่จากนั้น ถ้ามีการสร้างก่อน ตัวเลือกเมนู**ดาวน์โหลดรายงาน**ในบริการของ Power BI จะเป็นสีเทา
+คุณสามารถดาวน์โหลดได้เฉพาะรายงาน [ที่สร้างขึ้นด้วย Power BI Desktop ](/learn/modules/publish-share-power-bi/2-publish-reports) หลังจากวันที่ 23 พฤศจิกายน 2016 และได้รับการปรับปรุงนับตั้งแต่จากนั้น ถ้ามีการสร้างก่อน ตัวเลือกเมนู**ดาวน์โหลดรายงาน**ในบริการของ Power BI จะเป็นสีเทา
 
 การดาวน์โหลดไฟล์ .pbix ให้ทำตามขั้นตอนเหล่านี้:
 

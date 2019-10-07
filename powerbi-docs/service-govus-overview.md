@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d491ca460d8393e9da308c826e69aad454d0e766
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 748594dcf9f71677057b8641e44f1408bebd1b89
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841629"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715348"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI สำหรับลูกค้าส่วนราชการสหรัฐอเมริกา
 การ**บริการ Power BI**มีเวอร์ชันพร้อมใช้งานสำหรับลูกค้าส่วนราชการสหรัฐอเมริกา ซึ่งเป็นส่วนหนึ่งของการของการสมัครใช้งาน**ชุมชน Office 365 สำหรับส่วนราชการสหรัฐ** การ**บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้ถูกออกแบบมาโดยเฉพาะสำหรับลูกค้าส่วนราชการสหรัฐและแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI**
@@ -103,7 +103,7 @@ Azure จะถูกกระจายใน cloud หลายตัว ตา
 
 * [ลงทะเบียน Power BI สำหรับส่วนราชการสหรัฐ](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">สาธิตการใช้ Power BI สำหรับส่วนราชการสหรัฐ</a>
-* [Guided learning สำหรับ Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
+* [Guided learning สำหรับ Power BI](guided-learning/index.md)
 * [เริ่มต้นใช้งาน Power BI service](service-get-started.md)
 * [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
 

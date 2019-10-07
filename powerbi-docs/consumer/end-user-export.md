@@ -3,7 +3,7 @@ title: ส่งออกข้อมูลจาก Power BI visual
 description: ส่งออกข้อมูลจากการแสดงผลด้วยภาพของรายงานและการแสดงผลด้วยภาพของแดชบอร์ด และดูข้อมูลนั้นใน Excel
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 3ab3b7a96fb629b303263b1ccf5c2f31603300b4
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6aec9f569f657c58eb1dc0b807bbceefc62ab01a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073146"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943869"
 ---
 # <a name="export-data-from-a-visual"></a>ส่งออกข้อมูลจากการแสดงผลด้วยภาพ
 ถ้าคุณต้องการดูข้อมูลที่ใช้ในการสร้างการแสดงผลด้วยภาพ [คุณสามารถแสดงข้อมูลนั้นใน Power BI](end-user-show-data.md) หรือส่งออกข้อมูลนั้นไปยัง Excel ได้ ตัวเลือกในการส่งออกข้อมูลต้องมีประเภทเฉพาะบางอย่างหรือสิทธิ์การใช้งาน และแก้ไขสิทธิ์ในชุดข้อมูลและรายงาน หากคุณไม่ต้องการส่งออก ให้ตรวจสอบกับผู้ดูแลระบบ Power BI ของคุณ 

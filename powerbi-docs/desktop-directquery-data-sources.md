@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 75b7a606e588ca7f6d1393c5b6e0dd9041f6d63e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302660"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945200"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>แหล่งข้อมูลที่สนับสนุนโดย DirectQuery Power BI
 
@@ -31,7 +31,7 @@ ms.locfileid: "70302660"
 * [คลังข้อมูล Azure SQL](service-azure-sql-data-warehouse-with-direct-connect.md)
 * Denodo
 * Google BigQuery
-* คิวรีแบบโต้ตอบ HDInsight
+* HDInsight Interactive Query
 * IBM DB2 (Microsoft Provider))
 * IBM Netezza
 * Impala (รุ่น 2.x)
@@ -45,7 +45,7 @@ ms.locfileid: "70302660"
 * Snowflake
 * Spark (เวอร์ชัน 0.9 หรือสูงกว่า)
 * SQL Server
-* ฐานข้อมูล Teradata
+* Teradata
 * Vertica
 
 แหล่งข้อมูลที่มี **(รุ่น Beta)** หรือ **(ตัวอย่าง)** หลังชื่อจะถูกเปลี่ยน และไม่ได้รับการสนับสนุนสำหรับการใช้งานการผลิต นอกจากนี้อาจไม่สนับสนุนหลังจากเผยแพร่รายงานไปยัง**บริการ Power BI**ด้วย ซึ่งหมายความว่าการเปิดรายงานที่เผยแพร่หรือการดูชุดข้อมูลอาจทำให้เกิดข้อผิดพลาดได้
@@ -82,7 +82,7 @@ ms.locfileid: "70302660"
 | Spark (รุ่น Beta) (เวอร์ชัน 0.9 หรือสูงกว่า) |ใช่ |
 | เซิร์ฟเวอร์ SQL |ใช่ |
 | Sybase |ใช่ |
-| ฐานข้อมูล Teradata |ใช่ |
+| Teradata |ใช่ |
 | Vertica |ใช่ |
 
 

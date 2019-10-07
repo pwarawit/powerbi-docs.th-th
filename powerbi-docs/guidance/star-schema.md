@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f44c83613f874aec84a389ac5034ebde193467c2
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 4af7a6305ace9113e912f0ad1527064c505f0ca8
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70840611"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715516"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>ทำความเข้าใจกับแบบจำลองมิติที่มีลักษณะคล้ายดาวและความสำคัญที่มีต่อ Power BI
 
@@ -205,6 +205,6 @@ ms.locfileid: "70840611"
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการออกแบบแบบจำลองมิติที่มีลักษณะคล้ายดาวและการออกแบบแบบจำลอง Power BI ให้ดูบทความต่อไปนี้:
 
 - [บทความของวิกิพีเดียเกี่ยวกับการทำแบบจำลองเชิงมิติ](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [สร้างและจัดการความสัมพันธ์ใน Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships)
-- [ความสัมพันธ์กับคาร์ดินัลลิตี้แบบกลุ่ม-ต่อ-กลุ่มใน Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)
-- [ประสบการณ์การเรียนรู้ที่แนะนำการทำแบบจำลอง](https://docs.microsoft.com/power-bi/guided-learning/modeling)
+- [สร้างและจัดการความสัมพันธ์ใน Power BI Desktop](../desktop-create-and-manage-relationships.md)
+- [ความสัมพันธ์กับคาร์ดินัลลิตี้แบบกลุ่ม-ต่อ-กลุ่มใน Power BI Desktop](../desktop-many-to-many-relationships.md)
+- [ประสบการณ์การเรียนรู้ที่แนะนำการทำแบบจำลอง](/learn/modules/model-data-power-bi/)

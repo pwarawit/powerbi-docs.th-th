@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ead5c8f45e102aaeebeed492ecf4646342747fe1
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 417238550f68a1c244bab33b8343712f02242eae
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142282"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945281"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับข้อมูลจากแหล่งต่าง ๆ มากมายด้วย Power BI Desktop รายการทั้งหมดของแหล่งข้อมูลที่พร้อมใช้งานอยู่ที่ด้านล่างของหน้านี้
@@ -72,7 +72,7 @@ ms.locfileid: "71142282"
 * ฐานข้อมูล MySQL
 * ฐานข้อมูล PostgreSQL
 * ฐานข้อมูล Sybase
-* ฐานข้อมูล Teradata
+* Teradata
 * ฐานข้อมูล SAP HANA
 * เซิร์ฟเวอร์แอปพลิเคชัน SAP Business Warehouse
 * เซิร์ฟเวอร์ข้อความ SAP Business Warehouse
@@ -118,11 +118,11 @@ ms.locfileid: "71142282"
 * พื้นที่เก็บข้อมูล Azure Blob
 * พื้นที่เก็บข้อมูล Azure Table
 * Azure Cosmos DB
-* Azure Data Lake Storage Gen2 (Beta)
-* Azure Data Lake Storage รุ่น1
+* Azure Data Lake Storage Gen2 (เบต้า)
+* Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
-* คิวรีแบบโต้ตอบ HDInsight
+* HDInsight Interactive Query
 * Azure Data Explorer (Kusto)
 * Azure Cost Management (เบต้า)
 
