@@ -11,23 +11,28 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8b0db9aebe72d54aa464ec012e614ae0ec5bc723
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 020d7edcf6bc499623df93a9def30285a37cffc6
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390493"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194191"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>แผนภูมิหน้าปัดความเร็วใน Power BI
 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 แผนภูมิหน้าปัดความเร็วมีโค้งวงกลมและแสดงเป็นค่าเดียวที่วัดความคืบหน้าตามเพื่อไปสู่เป้าหมาย Key Performance Indicator (KPI) เส้น (หรือ*เข็ม*) แทนค่าเป้าหมายหรือปลายทาง การแรเงาแทนด้วยความคืบหน้าสู่เป้าหมาย ค่าภายในส่วนโค้งแทนค่าความคืบหน้า Power BI แพร่ค่าที่เป็นไปได้ทั้งหมดจะกระจายเท่าๆ กันตามส่วนโค้ง จากค่าต่ำสุด (ค่าซ้ายสุด) ไปสู่ค่าสูงสุด (ค่าขวาสุด)
 
-![สกรีนช็อตของตัววัดรัศมี](media/power-bi-visualization-radial-gauge-charts/gauge_m.png)
+![สกรีนช็อตของตัววัดรัศมี](media/power-bi-visualization-radial-gauge-charts/gauge-m.png)
 
 ในตัวอย่างนี้ เรามีผู้ค้าปลีกรถยนต์ที่กำลังติดตามการขายเฉลี่ยของทีมขายต่อเดือน เข็มแสดงเป้าหมายทางการขายรถยนต์ให้ได้ 140 คัน การขายเฉลี่ยที่เป็นไปได้น้อยที่สุดคือ 0 และสูงสุดเป็น 200 คัน  การแรเงาสีน้ำเงินแสดงว่า ตอนนี้เราประมาณการว่ามีการขาย 120 คันในเดือนนี้ โชคดี มีสัปดาห์อื่นยังที่สามารถไปถึงเป้าหมายได้
 
-หรือดู วิธีที่คุณสามารถสร้างภาพการวัดตัวเดียว: ตัวประเมิน บัตร และ KPI
-
+ดูวิธีที่คุณสามารถสร้างภาพการวัดตัวเดียว: ตัวประเมิน บัตร และ KPI
+   > [!NOTE]
+   > วิดีโอนี้ใช้ Power BI Desktop เวอร์ชั่นเก่า
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-radial-gauge"></a>เมื่อต้องการใช้แผนภูมิหน้าปัดความเร็ว
@@ -44,43 +49,39 @@ ms.locfileid: "67390493"
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-* บริการ Power BI หรือ Power BI Desktop
+บทช่วยสอนนี้ใช้[ไฟล์ Excel ตัวอย่างทางการเงิน](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
-* เวิร์กบุ๊ก Excel ตัวอย่างด้านการเงิน: [ดาวน์โหลดตัวอย่างโดยตรง](http://go.microsoft.com/fwlink/?LinkID=521962)
+1. จากด้านบนซ้ายของแถบเมนู ให้เลือก **รับข้อมูล** > **Excel**
+   
+2. ค้นหาสำเนา**ไฟล์ Excel ตัวอย่างด้านการเงินของคุณ**
+
+1. เปิด **ไฟล์ Excel ตัวอย่างด้านการเงิน**ในมุมมองรายงาน![ ภาพหน้าจอของไอคอนมุมมองรายงาน](media/power-bi-visualization-kpi/power-bi-report-view.png)
+
+1. เลือก **การเงิน** และ **Sheet1**
+
+1. คลิก **โหลด**
+
+1. เลือก ![สกรีนช็อตของแท็บสีเหลือง](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) หากต้องการเพิ่มหน้าใหม่
+
+
 
 ## <a name="create-a-basic-radial-gauge"></a>สร้างแผนภูมิหน้าปัดความเร็วแบบพื้นฐาน
 
-คำแนะนำเหล่านี้ใช้ Power BI service เพื่อติดตาม ลงชื่อเข้าใช้ Power BI และเปิดไฟล์ตัวอย่าง Excel เกี่ยวกับการเงิน
+### <a name="step-1-create-a-gauge-to-track-gross-sales"></a>ขั้นตอนที่ 1: สร้างตัววัดแบบหน้าปัดความเร็วเพื่อติดตามยอดขายรวม
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>ขั้นตอนที่ 1: เปิดไฟล์ Excel ตัวอย่างการเงิน
-
-1. ถ้าคุณยังไมได้โหลด ให้ดาวน์โหลด[ตัวอย่างไฟล์ Excel เกี่ยวกับการเงิน](../sample-financial-download.md) จดจำตำแหน่งที่คุณบันทึกไว้
-
-1. ในบริการ Power BI เลือก**ไฟล์** > **รับข้อมูล**
-
-1. เลือก**ไฟล์ภายในเครื่อง**และเรียกดูตำแหน่งที่ตั้งของไฟล์ตัวอย่าง
-
-1. เลือก**นำเข้า** Power BI ตัวอย่างทางการเงินจะถูกเพิ่มในพื้นที่ทำงานของคุณในฐานะชุดข้อมูล
-
-1. จากรายการเนื้อหา**ชุดข้อมูล** เลือกไอคอน**สร้างรายงาน**สำหรับ**ตัวอย่างการเงิน**
-
-    ![สกรีนช็อตของรายการชุดข้อมูลที่มีลูกศรชี้ไปยังไอคอนสร้างรายงานสำหรับตัวอย่างการเงิน](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
-
-### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>ขั้นตอนที่ 2: สร้างตัววัดแบบหน้าปัดความเร็วเพื่อติดตามยอดขายรวม
-
-ในส่วนสุดท้าย เมื่อคุณเลือกไอคอน**สร้างรายงาน** Power BI จะสร้างรายงานว่างเปล่าในมุมมองการแก้ไข
+1. เริ่มต้นบน หน้ารายงานเปล่า
 
 1. ในบานหน้าต่างของ**เขตข้อมูล** ให้เลือก**ยอดขายรวม**
 
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue_new.png)
+   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
 1. เปลี่ยนการรวมข้อมูลเป็น**หาค่าเฉลี่ย**
 
-   ![สกรีนช็อตของการเรียกบานหน้าต่างเขตข้อมูลที่มียอดขายรวมและผลรวมค่าเฉลี่ยออกมา](media/power-bi-visualization-radial-gauge-charts/changetoaverage_new.png)
+   ![สกรีนช็อตของการเรียกบานหน้าต่างเขตข้อมูลที่มียอดขายรวมและผลรวมค่าเฉลี่ยออกมา](media/power-bi-visualization-radial-gauge-charts/changetoaverage-new.png)
 
-1. เลือกไอคอนตัววัด ![สกรีนช็อตของไอคอนตัววัด](media/power-bi-visualization-radial-gauge-charts/gaugeicon_new.png) การแปลงแผนภูมิคอลัมน์ให้เป็นแผนภูมิตัววัด
+1. เลือกไอคอนตัววัด ![สกรีนช็อตของไอคอนตัววัด](media/power-bi-visualization-radial-gauge-charts/gaugeicon-new.png) การแปลงแผนภูมิคอลัมน์ให้เป็นแผนภูมิตัววัด
 
-    ![สกรีนช็อตของแผนภูมิตัววัด](media/power-bi-visualization-radial-gauge-charts/gauge_no_target.png)
+    ![สกรีนช็อตของแผนภูมิตัววัด](media/power-bi-visualization-radial-gauge-charts/gauge-no-target.png)
 
     ขึ้นอยู่กับเมื่อคุณดาวน์โหลดไฟล์**ตัวอย่างการเงิน** คุณอาจเห็นตัวเลขที่ไม่ตรงกับตัวเลขเหล่านี้ได้
 
@@ -95,7 +96,7 @@ ms.locfileid: "67390493"
 
    Power BI เพิ่มเข็มเพื่อแสดงค่าเป้าหมาย **$145.48K**ของเรา
 
-   ![เพิ่มสกรีนช็อตของแผนภูมิตัววัดกับการเฉลี่ยของ COGS](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress_new.png)
+   ![เพิ่มสกรีนช็อตของแผนภูมิตัววัดกับการเฉลี่ยของ COGS](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress-new.png)
 
     โปรดสังเกตว่าเราได้เกินเป้าหมายของเราแล้ว
 
@@ -110,7 +111,7 @@ ms.locfileid: "67390493"
 
 1. เปลี่ยนการรวมข้อมูลเป็น**หาค่าสูงสุด**
 
-   ![สกรีนช็อตของการเรียกบานหน้าต่างเขตข้อมูลที่มียอดขายรวมและผลรวมสูงสุดออกมา](media/power-bi-visualization-radial-gauge-charts/setmaximum_new.png)
+   ![สกรีนช็อตของการเรียกบานหน้าต่างเขตข้อมูลที่มียอดขายรวมและผลรวมสูงสุดออกมา](media/power-bi-visualization-radial-gauge-charts/setmaximum-new.png)
 
    รูปฟน้าปัดวัดถูกวาดอีกครั้ง ด้วยค่าสุดท้ายใหม่ คือ 1.21 ล้านของยอดขายรวม
 
@@ -119,8 +120,6 @@ ms.locfileid: "67390493"
 ### <a name="step-5-save-your-report"></a>ขั้นตอนที่ 5: บันทึกรายงานของคุณ
 
 1. [บันทึกรายงาน](../service-report-save.md)
-
-1. [เพิ่มแผนภูมิแบบหน้าปัดความเร็วเป็นแดชบอร์ดไทล์](../service-dashboard-pin-tile-from-report.md) 
 
 ## <a name="use-manual-format-options-to-set-minimum-maximum-and-target-values"></a>ใช้ตัวเลือกของการจัดรูปแบบเพื่อตั้งค่าต่ำสุด สูงสุด และค่าเป้าหมาย
 
@@ -136,7 +135,7 @@ ms.locfileid: "67390493"
 
 1. ล้างตัวเลือก**COGS**ในบานหน้าต่าง**เขตข้อมูล**เพื่อนำค่าเป้าหมายออก
 
-    ![สกรีนช็อตของตัวเลือกการล้าง COGS](media/power-bi-visualization-radial-gauge-charts/pbi_remove_target.png)
+    ![สกรีนช็อตของตัวเลือกการล้าง COGS](media/power-bi-visualization-radial-gauge-charts/pbi-remove-target.png)
 
 1. เมื่อเขตข้อมูล**เป้าหมาย**ปรากฏภายใต้**แกนตัววัด** ให้ใส่ค่า
 

@@ -1,6 +1,6 @@
 ---
 title: ทำความเข้าใจเกี่ยวกับบทบาทผู้ดูแลระบบ Power BI
-description: วิธีการกำหนดค่าความปลอดภัยระดับแถว สำหรับชุดข้อมูลที่นำเข้า และ DirectQuery ภายในบริการ Power BI
+description: บทความนี้ระบุเกี่ยวกับบทบาทของผู้ดูแลระบบบริการ Power BI และการใช้งานกับหน่วยงานของคุณ
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,18 +10,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2185d7a9c91ed014cf0bed29d6393be0e40556a8
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 8b4d2382f89c48f20767cf72bc0468589c366cfe
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074512"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256440"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>ทำความเข้าใจเกี่ยวกับบทบาทผู้ดูแลระบบบริการของ Power BI
 
 เรียนรู้วิธีการใช้บทบาทผู้ดูแลระบบบริการของ Power BI ในองค์กรของคุณ ผู้ใช้ที่ได้รับบทบาทนี้สามารถควบคุมผู้เช่า และคุณลักษณะการจัดการผู้เช่าใน Power BI แบบเต็มรูปแบบ ยกเว้นสิทธิ์การใช้งาน
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/PQRbdJgEm3k?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 บทบาทผู้ดูแลระบบบริการของ Power BI สามารถกำหนดให้แก่ผู้ใช้ ที่จำเป็นต้องเข้าถึงพอร์ทัลผู้ดูแล Power BI ได้โดยไม่ต้องให้สิทธิ์เข้าถึงการจัดการทั้งหมดของ Office 365
 

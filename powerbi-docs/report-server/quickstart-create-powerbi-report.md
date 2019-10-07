@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
+ms.date: 09/26/2019
 ms.author: maggies
-ms.openlocfilehash: 2401064f1f7f3be63c23d72e79987784e1ec7049
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ec1aab13955a4c34861a3f0d8dd39b6c77607696
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187509"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325662"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>สร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน Power BI
 คุณสามารถจัดเก็บ และจัดการรายงาน Power BI ภายในองค์กร ในพอร์ทัลของเว็บเซิร์ฟเวอร์รายงาน Power BI เช่นเดียวกับที่คุณสามารถจัดเก็บรายงาน Power BI ในระบบคลาวด์ในบริการของ Power BI (https://powerbi.com) ได้ คุณสร้างและแก้ไขรายงานใน Power BI Desktop แล้วเผยแพร่ไปยังพอร์ทัลของเว็บ จากนั้น ผู้อ่านรายงานในองค์กรของคุณ สามารถดูรายงานได้ในเบราว์เซอร์ หรือในแอปมือถือ Power BI บนอุปกรณ์เคลื่อนที่ของพวกเขา
@@ -31,7 +31,7 @@ ms.locfileid: "66187509"
 
     ![ดาวน์โหลด Power BI Desktop จากพอร์ทัลของเว็บ](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    หรือข้ามไป[Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (เหมาะ สำหรับ เซิร์ฟเวอร์รายงาน Power BI - 2019 พฤษภาคม) ในศูนย์ดาวน์โหลด Microsoft
+    หรือไปที่หน้าหลัก [เซิร์ฟเวอร์รายงาน Power BI](https://powerbi.microsoft.com/report-server/) แล้วเลือก **ตัวเลือกการดาวน์โหลดขั้นสูง**
 
 2. ในหน้าศูนย์ดาวน์โหลด เลือก**ดาวน์โหลด**
 
@@ -41,13 +41,13 @@ ms.locfileid: "66187509"
 
     - **PBIDesktopRS_x64.msi** (เวอร์ชัน 64 บิต)
 
-4. หลังจากที่คุณดาวน์โหลดตัวติดตั้ง เรียกใช้ตัวช่วยสร้างการตั้งค่า Power BI Desktop (2019 พฤษภาคม)
+4. หลังจากดาวน์โหลดตัวติดตั้ง ให้เรียกใช้ตัวช่วยติดตั้ง Power BI Desktop (กันยายน 2019)
 
 2. ในตอนท้ายของการติดตั้ง ทำเครื่องหมายที่**เริ่มต้น Power BI Desktop ทันที**
    
-    จะเริ่มต้นโดยอัตโนมัติ และคุณก็พร้อมที่จะไปต่อ คุณสามารถบอกคุณมีเวอร์ชันเหมาะสมเนื่องจาก "Power BI Desktop (2019 พฤษภาคม)" อยู่ในแถบชื่อเรื่อง
+    จะเริ่มต้นโดยอัตโนมัติ และคุณก็พร้อมที่จะไปต่อ คุณสามารถแจ้งว่าคุณมีเวอร์ชั่นที่ถูกต้อง เนื่องจาก **Power BI Desktop (กันยายน 2019)** อยู่ในแถบรายการแจ้งชื่อ
 
-    ![Power BI Desktop เวอร์ชัน 2019 พฤษภาคม](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2019.png)
+    ![Power BI Desktop กันยายน 2019](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-sept-2019.png)
 
 3. ถ้าคุณไม่คุ้นเคยกับ Power BI Desktop ลองดูวิดีโอบนหน้าจอยินดีต้อนรับ
    
@@ -61,7 +61,7 @@ ms.locfileid: "66187509"
     หรือบนการแท็บ**หน้าแรก** เลือก**รับข้อมูล**
 2. เลือกแหล่งข้อมูลของคุณ - ในตัวอย่างนี้เป็น **Analysis Services**
    
-    ![เลือกแหล่งข้อมูล](media/quickstart-create-powerbi-report/report-server-get-data-ssas.png)
+    ![เลือกแหล่งข้อมูล](media/quickstart-create-powerbi-report/power-bi-report-server-get-data-ssas.png)
 3. กรอกค่า**เซิร์ฟเวอร์** และใส่**ฐานข้อมูล**ถ้าจำเป็น ตรวจสอบให้แน่ใจว่าตัวเลือก**เชื่อมต่อแบบไลฟ์**ถูกเลือก > **ตกลง**
    
     ![ชื่อเซิร์ฟเวอร์](media/quickstart-create-powerbi-report/report-server-ssas-server-name.png)

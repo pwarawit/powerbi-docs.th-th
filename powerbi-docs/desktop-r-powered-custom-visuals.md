@@ -1,37 +1,37 @@
 ---
-title: ใช้วิชวลแบบกำหนดเองที่ทำงานด้วย R ใน Power BI
-description: ใช้วิชวลแบบกำหนดเองที่ทำงานด้วย R ใน Power BI
-author: sranins
-ms.author: rasala
-manager: kfile
+title: ใช้ส่วนแสดงผล Power BI จาก R ใน Power BI
+description: ใช้ส่วนแสดงผล Power BI จาก R ใน Power BI
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: d79164ea5b66fe003f913742436a817d76d798e0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b5f8677b3207122831e3d2cae6c07aa5bbcb9983
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61278743"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194598"
 ---
-# <a name="use-r-powered-custom-visuals-in-power-bi"></a>ใช้วิชวลแบบกำหนดเองที่ทำงานด้วย R ใน Power BI
+# <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>ใช้ส่วนแสดงผล Power BI จาก R ใน Power BI
 
-ใน **Power BI Desktop** และ **บริการของ Power BI** คุณสามารถใช้วิชวลแบบกำหนดเองที่ทำงานด้วย R โดยไม่มีความรู้ใด ๆ เกี่ยวกับ R และไม่ต้องเขียนสคริปต์ R ได้ ซึ่งช่วยให้คุณนำความสามารถการวิเคราะห์ และการแสดงผลของวิชวล R และสคริปต์ R มาใช้งาน โดยไม่ต้องการเรียนรู้ R หรือเขียนโปรแกรมเอง
+ใน **Power BI Desktop** และ **บริการของ Power BI** คุณสามารถใช้ส่วนการแสดงผล Power BI ที่ทำงานด้วย R โดยไม่มีความรู้ใด ๆ เกี่ยวกับ R และไม่ต้องเขียนสคริปต์ R ได้ ซึ่งช่วยให้คุณนำความสามารถการวิเคราะห์ และการแสดงผลของวิชวล R และสคริปต์ R มาใช้งาน โดยไม่ต้องการเรียนรู้ R หรือเขียนโปรแกรมเอง
 
-เพื่อใช้วิชวลแบบกำหนดเองที่ทำงานด้วย R คุณเร่ิมจากการเลือกและดาวน์โหลดวิชวล R แบบกำหนดเอง ที่คุณสนใจจะใช้จากแกลเลอรี**วิชวลแบบกำหนดเอง**สำหรับ Power BI ใน [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1)
+เพื่อใช้ส่วนการแสดงผล Power BI ที่ทำงานด้วย R คุณเร่ิมจากการเลือกและดาวน์โหลดวิชวล R แบบกำหนดเอง ที่คุณสนใจจะใช้จากแกลเลอรี**ส่วนการแสดงผล Power BI** สำหรับ Power BI ใน [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1)
 
 ![วิชวล R 1a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_1a.png)
 
 ส่วนต่อไปนี้อธิบายวิธีการเลือก โหลด และใช้วิชวล R ใน**Power BI Desktop**
 
-## <a name="use-r-custom-visuals"></a>ใช้วิชวล R แบบกำหนดเอง
+## <a name="use-r-power-bi-visuals"></a>ใช้ส่วนการแสดงผล Power BI จาก R
 
-เพื่อใช้วิชวล R แบบกำหนดเอง ดาวน์โหลดแต่ละวิชวลจากไลบรารี**วิชวลแบบกำหนดเอง** จากนั้นใช้วิชวลได้เช่นเดียวกับวิชวลชนิดอื่น ๆ ใน **Power BI Desktop** มีสองวิธีในการรับวิชวลแบบกำหนดเอง: คุณสามารถดาวน์โหลดจากไซต์ออนไลน์ **AppSource** หรือเรียกดูและรับจากภายใน **Power BI Desktop** 
+เพื่อใช้สว่นการแสดงผล Power BI จาก R ดาวน์โหลดแต่ละวิชวลจากไลบรารี**ส่วนการแสดงผล Power BI** จากนั้นใช้วิชวลได้เช่นเดียวกับวิชวลชนิดอื่น ๆ ใน **Power BI Desktop** มีสองวิธีในการรับส่วนการแสดงผล Power BI: คุณสามารถดาวน์โหลดจากไซต์ออนไลน์ **AppSource** หรือเรียกดูและรับจากภายใน **Power BI Desktop** 
 
-### <a name="get-custom-visuals-from-appsource"></a>รับวิชวลแบบกำหนดเองจาก AppSource
+### <a name="get-power-bi-visuals-from-appsource"></a>รับส่วนการแสดงผล Power BI จาก AppSource
 
 ต่อไปนี้คือขั้นตอนในการเรียกดู และเลือกวิชวลจากไซต์ออนไลน์ **AppSource**:
 
@@ -50,7 +50,7 @@ ms.locfileid: "61278743"
 
    ![วิชวล R 3a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3a.png)
 
-   คุณไม่จำเป็นต้องติดตั้ง R เพื่อใช้วิชวล R แบบกำหนดเองใน**บริการของ Power BI** แต่ถ้าคุณต้องการใช้วิชวล R แบบกำหนดเองใน **Power BI Desktop** คุณ*ต้อง*ติดตั้ง R บนเครื่อง คุณสามารถดาวน์โหลด R จากที่ต่อไปนี้:
+   คุณไม่จำเป็นต้องติดตั้ง R เพื่อใช้ส่วนการแสดงผล Power BI จาก R ใน**บริการของ Power BI** แต่ถ้าคุณต้องการใช้ส่วนการแสดงผล Power BI จาก R ใน **Power BI Desktop** คุณ*ต้อง*ติดตั้ง R บนเครื่อง คุณสามารถดาวน์โหลด R จากที่ต่อไปนี้:
 
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
@@ -79,25 +79,25 @@ ms.locfileid: "61278743"
 
     ตรวจสอบไลบรารีบ่อย ๆ เพราะมีวิชวลใหม่ ๆ เพิ่มเข้ามาตลอดเวลา
 
-### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>รับวิชวลแบบกำหนดเองจากภายใน **Power BI Desktop**
+### <a name="get-power-bi-visuals-from-within-power-bi-desktop"></a>รับส่วนการแสดงผล Power BI จากใน **Power BI Desktop**
 
-1. คุณยังสามารถรับวิชวลแบบกำหนดเองได้จากภายใน **Power BI Desktop** ได้ ใน **Power BI Desktop** คลิกที่จุดไข่ปลา (...) ในบานหน้าต่าง**การจัดรูปแบบการแสดงข้อมูล** แล้วเลือก**นำเข้าจาก marketplace**
+1. นอกจากนี้คุณยังสามารถใช้ส่วนการแสดงผล Power BI จากใน **Power BI Desktop** ใน **Power BI Desktop** คลิกที่จุดไข่ปลา (...) ในบานหน้าต่าง**การจัดรูปแบบการแสดงข้อมูล** แล้วเลือก**นำเข้าจาก marketplace**
 
    ![วิชวล R 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 
-2. เมื่อเลือกแล้ว กล่องโต้ตอบ**วิชวล BI Power** จะปรากฏขึ้น ให้คุณสามารถเลื่อนดูวิชวลแบบกำหนดเองที่มีให้ใช้งาน และเลือกวิชวลที่คุณต้องการ คุณสามารถค้นหาตามชื่อ เลือกประเภท หรือเพียงเลื่อนผ่านวิชวลที่มี เมื่อคุณพร้อมแล้ว เลือก**เพิ่ม**เพื่อเพิ่มวิชวลแบบกำหนดเองไปยัง **Power BI Desktop**
+2. เมื่อเลือกแล้ว กล่องโต้ตอบ**วิชวล BI Power** จะปรากฏขึ้น ให้คุณสามารถเลื่อนดูส่วนการแสดงผล Power BI ที่มีให้ใช้งาน และเลือกวิชวลที่คุณต้องการ คุณสามารถค้นหาตามชื่อ เลือกประเภท หรือเพียงเลื่อนผ่านวิชวลที่มี เมื่อคุณพร้อมแล้ว เลือก**เพิ่ม**เพื่อเพิ่มวิชวลแบบกำหนดเองไปยัง **Power BI Desktop**
 
    ![วิชวล R 12](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
 
-## <a name="contribute-r-powered-custom-visuals"></a>บริจาควิชวล R แบบกำหนดเอง
+## <a name="contribute-r-powered-power-bi-visuals"></a>จัดส่วนการแสดงผล Power BI ผ่าน R
 
-ถ้าคุณสร้างวิชวล R ของคุณเองสำหรับการใช้ในรายงานของคุณ คุณสามารถแชร์วิชวลเหล่านั้นให้กับทุกคน โดยการแจกจ่ายวิชวลแบบกำหนดเองของคุณไปยัง**แกลเลอรีวิชวลแบบกำหนดเอง** การบริจาคทำผ่าน GitHub และขั้นตอนมีการระบุเค้าโครงที่ตำแหน่งต่อไปนี้:
+ถ้าคุณสร้างวิชวล R ของคุณเองสำหรับการใช้ในรายงานของคุณ คุณสามารถแชร์วิชวลเหล่านั้นให้กับทุกคน โดยการแจกจ่ายวิชวลแบบกำหนดเองของคุณไปยัง**แกลเลอรีส่วนการแสดงผล Power BI** การบริจาคทำผ่าน GitHub และขั้นตอนมีการระบุเค้าโครงที่ตำแหน่งต่อไปนี้:
 
-* [บริจาคให้แกลเลอรีวิชวลแบบกำหนดเองที่ทำงานด้วย R](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
+* [บริจาคให้แกลเลอส่วนการแสดงผล Power BI ผ่าน R](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
-## <a name="troubleshoot-r-powered-custom-visuals"></a>แก้ไขปัญหาวิชวลแบบกำหนดเองที่ทำงานด้วย R
+## <a name="troubleshoot-r-powered-power-bi-visuals"></a>แก้ไขปัญหาส่วนการจัดแสดง Power BI ผ่าน R
 
-วิชวลแบบกำหนดเองที่ทำงานด้วย R มีการพึ่งพาบางโปรแกรม เพื่อให้วิชวลทำงานได้อย่างถูกต้อง เมื่อวิชวลแบบกำหนดเองที่ทำงานด้วย R ไม่ทำงาน หรือโหลดไม่ถูกต้อง มักเกิดจากปัญหาใดปัญหาหนึ่งต่อไปนี้:
+ส่วนการจัดแสดง Power BI จาก R ที่ทำงานด้วย R มีการพึ่งพาบางโปรแกรม เพื่อให้วิชวลทำงานได้อย่างถูกต้อง เมื่อส่วนการจัดแสดง Power BI จาก R ไม่ทำงาน หรือโหลดไม่ถูกต้อง มักเกิดจากปัญหาใดปัญหาหนึ่งต่อไปนี้:
 
 * โปรแกรม R ขาดหายไป
 * ข้อผิดพลาดในสคริปต์ R ที่วิชวลใช้
@@ -150,7 +150,7 @@ ms.locfileid: "61278743"
 
 ดูข้อมูลเพิ่มเติมเกี่ยวกับ R ใน Power BI ได้ในบทความต่อไปนี้
 
-* [แกลเลอรีวิชวลแบบกำหนดเองสำหรับ Power BI](https://app.powerbi.com/visuals/)
+* [แกลเลอรี Power BI ส่วนการจัดแสดง Power BI](https://app.powerbi.com/visuals/)
 * [การเรียกใช้สคริปต์ R ใน Power BI Desktop](desktop-r-scripts.md)
 * [สร้างวิชวล R ใน Power BI Desktop](desktop-r-visuals.md)
 * [ใช้ R IDE ภายนอกกับ Power BI](desktop-r-ide.md)

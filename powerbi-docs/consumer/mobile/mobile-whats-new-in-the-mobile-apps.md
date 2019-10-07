@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: e74bdacc1b8ee40ec6628337e9e78528e8fdee29
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: fe8f21bbbd0886b8ff4046f744884e53f8822912
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164501"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327758"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 สำหรับ "ข้อมูลอะไรใหม่" ที่เกี่ยวข้อง ให้ดู
@@ -22,6 +22,13 @@ ms.locfileid: "71164501"
 * [บล็อกทีมของ power BI สำหรับแอป mobile](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [มีอะไรใหม่ใน Power BI Desktop](../../desktop-latest-update.md)  
 * [มีอะไรใหม่ในบริการ Power BI](../../service-whats-new.md)  
+
+## <a name="september-2019"></a>กันยายน 2019
+
+### <a name="support-for-custom-app-navigation-ios-and-android"></a>การสนับสนุนสำหรับการนำทางแอปแบบกำหนดเอง (iOS และ Android)
+
+เราได้เพิ่มการรองรับสำหรับส่วนการสืบค้นแอปแบบกำหนดเอง ตอนนี้ หากคุณเปิดแอปใน Power BI Mobile ส่วนการสืบค้นเนื้อหากำหนดเองที่จัดทำผ่านระบบจัดทำแอปจะพร้อมใช้งาน ส่วนการสืบค้นแอปสามารถจัดเรียงได้จากเนื้อหา และสามารถรวมรายการใหม่ เช่น ลิงค์และหัวข้อแบบยุบได้
+อ่านรายละเอียดเพิ่มเติมเกี่ยวกับ[ส่วนการสืบค้นกำหนดเอง](https://powerbi.microsoft.com/en-us/blog/designing-custom-navigation-for-power-bi-apps-is-now-available/)
 
 ## <a name="august-2019"></a>สิงหาคม 2019
 

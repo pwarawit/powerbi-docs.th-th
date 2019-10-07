@@ -1,0 +1,93 @@
+### YamlMime:Landing
+title: เอกสาร Power BI สำหรับนักพัฒนา
+summary: เอกสาร Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+metadata:
+  title: Power BI สำหรับนักพัฒนา
+  description: เอกสาร Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 10/02/2019
+  ms.openlocfilehash: 11e9bc6d2e848fcc1b827f52985c573cba382415
+  ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 10/04/2019
+  ms.locfileid: "71951036"
+landingContent:
+- title: เกี่ยวกับ Power BI สำหรับนักพัฒนา
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: นักพัฒนาสามารถทำอะไรกับ Power BI ได้บ้าง
+      url: what-can-you-do.md
+    - text: วิชวลใน Power BI
+      url: ../power-bi-custom-visuals.md
+    - text: กำลังฝังอะไรกับ Power BI
+      url: embedding.md
+    - text: Power BI API คืออะไร
+      url: overview-of-power-bi-rest-api.md
+  - linkListType: reference
+    links:
+    - text: ศูนย์นักพัฒนา Power BI
+      url: https://powerbi.microsoft.com/developers/
+    - text: ตัวอย่างสำหรับนักพัฒนา Power BI
+      url: https://github.com/Microsoft/PowerBI-Developer-Samples
+    - text: วิกิสำหรับ Power BI JavaScript
+      url: https://github.com/Microsoft/powerbi-javascript/wiki
+    - text: Power BI REST APIs
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Azure Resource Manager REST APIs
+      url: https://docs.microsoft.com/rest/api/power-bi-embedded/
+- title: การแสดงภาพ Power BI
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: พัฒนาวิชวล Power BI
+      url: custom-visual-develop-tutorial.md
+  - linkListType: concept
+    links:
+    - text: คำถามที่พบบ่อยเกี่ยวกับการแสดงผลด้วยภาพของ Power BI
+      url: ../power-bi-custom-visuals-faq.md
+    - text: คำแนะนำสำหรับการแสดงภาพ Power BI
+      url: guidelines-powerbi-visuals.md
+    - text: โหมดการแก้ไขขั้นสูงในการแสดงผลด้วยภาพ
+      url: /advanced-edit-mode.md
+  - linkListType: how-to-guide
+    links:
+    - text: รับวิชวลที่ได้รับการรับรอง
+      url: ../power-bi-custom-visuals-certified.md
+    - text: เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
+      url: office-store.md
+- title: การวิเคราะห์แบบฝังตัว
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: ฝังเนื้อหาสำหรับลูกค้า
+      url: embed-sample-for-customers.md
+    - text: เนื้อหาแบบฝังตัวสำหรับองค์กรของคุณ
+      url: embed-sample-for-your-organization.md
+  - linkListType: concept
+    links:
+    - text: รักษาความปลอดภัยระดับแถว
+      url: embedded-row-level-security.md
+    - text: จัดการการเช่าแบบหลายรายการ
+      url: embed-multi-tenancy.md
+    - text: คำถามที่พบบ่อยแบบฝังตัว
+      url: embedded-faq.md
+    - text: สิทธิ์ของ Power BI
+      url: power-bi-permissions.md
+  - linkListType: how-to-guide
+    links:
+    - text: ฝังตัวจากแอป
+      url: embed-from-apps.md
+    - text: สร้างผู้เช่า Azure Active Directory
+      url: create-an-azure-active-directory-tenant.md
+    - text: รับโทเค็นการเข้าถึง Azure AD
+      url: get-azuread-access-token.md
+    - text: ถามตอบใน Power BI Embedded
+      url: qanda.md

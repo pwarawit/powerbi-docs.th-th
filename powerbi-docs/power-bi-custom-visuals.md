@@ -1,21 +1,21 @@
 ---
 title: วิชวลใน Power BI
 description: การแสดงข้อมูลแบบกำหนดเองใน Power BI
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 68048968bf6a3f85f2bc24e55fd1288073be1d56
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: fde213e29b5168ed990f297e5ace9895bfd44020
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415409"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195732"
 ---
 # <a name="visuals-in-power-bi"></a>วิชวลใน Power BI
 
@@ -23,11 +23,11 @@ ms.locfileid: "68415409"
 
 ![การจัดรูปแบบการแสดงข้อมูล](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
-อย่างไรก็ตาม คุณไม่ได้ถูกจำกัดเฉพาะภาพชุดนี้ ถ้าคุณเลือกจุดไข่ปลา (...) ที่ด้านล่าง แหล่งข้อมูลอื่นของภาพในรายงานจะพร้อมใช้งาน -*ภาพแบบกำหนดเอง*
+อย่างไรก็ตาม คุณไม่ได้ถูกจำกัดเฉพาะภาพชุดนี้ ถ้าคุณเลือกจุดไข่ปลา (...) ที่ด้านล่าง แหล่งข้อมูลอื่นของภาพในรายงานจะพร้อมใช้งาน -*ส่วนแสดงผล Power BI*
 
-นักพัฒนาสร้างภาพแบบกำหนดเองโดยใช้ SDK ภาพแบบกำหนดเอง ภาพเหล่านี้ช่วยให้ผู้ใช้ทางธุรกิจสามารถดูข้อมูลในแบบที่เหมาะกับธุรกิจของพวกเขามากที่สุด ผู้เขียนรายงานสามารถนำเข้าไฟล์ภาพแบบกำหนดเองลงใส่ในรายงานและใช้งานได้เช่นเดียวกับภาพอื่น ๆ ใน Power BI ภาพแบบกำหนดเองเป็นส่วนประกอบอันดับแรกใน Power BI และสามารถกรอง เน้น แก้ไข แชร์ และอื่น ๆ ได้
+นักพัฒนาจะจัดทำส่วนแสดงผล Power BI โดยใช้ SKD ส่วนแสดงผล Power BI ภาพเหล่านี้ช่วยให้ผู้ใช้ทางธุรกิจสามารถดูข้อมูลในแบบที่เหมาะกับธุรกิจของพวกเขามากที่สุด ผู้เขียนรายงานสามารถนำเข้าไฟล์ภาพแบบกำหนดเองลงใส่ในรายงานและใช้งานได้เช่นเดียวกับภาพอื่น ๆ ใน Power BI ส่วนแสดงผล Power BI เป็นส่วนประกอบอันดับแรกใน Power BI และสามารถกรอง เน้น แก้ไข แชร์ และอื่น ๆ ได้
 
-ภาพแบบกำหนดเองสามารถนำไปปรับใช้ได้สามวิธี:
+ส่วนแสดงผล Power BI สามารถนำไปปรับใช้ได้สามวิธี:
 
 * ไฟล์วิชวลแบบกำหนดเอง
 * การแสดงผลด้วยภาพขององค์กร
@@ -35,29 +35,29 @@ ms.locfileid: "68415409"
 
 ## <a name="custom-visual-files"></a>ไฟล์วิชวลแบบกำหนดเอง
 
-ภาพแบบกำหนดเองเป็นแพคเกจที่รวมเอาโค้ดสำหรับการนำเสนอข้อมูลที่ให้บริการในภาพ ทุกคนสามารถสร้างภาพแบบกำหนดเองและรวมภาพนั้นเป็นไฟล์ `.pbiviz` เดียวที่สามารถนำเข้าไปในรายงาน Power BI
+ส่วนแสดงผล Power BI เป็นแพคเกจที่รวมเอาโค้ดสำหรับการนำเสนอข้อมูลที่ให้บริการในภาพ ทุกคนสามารถสร้างภาพแบบกำหนดเองและรวมภาพนั้นเป็นไฟล์ `.pbiviz` เดียวที่สามารถนำเข้าไปในรายงาน Power BI
 
 > [!WARNING]
 > ภาพแบบกำหนดเองสามารถมีโค้ด ซึ่งมีความเสี่ยงด้านความปลอดภัยหรือความเป็นส่วนตัว ตรวจสอบให้แน่ใจว่าคุณเชื่อถือผู้เขียนและแหล่งข้อมูลภาพแบบกำหนดเองก่อนที่จะนำเข้าไปยังรายงานของคุณ
 
 ## <a name="organizational-visuals"></a>การแสดงผลด้วยภาพขององค์กร
 
-ผู้ดูแลระบบ Power BI อนุมัติ และปรับใช้ภาพแบบกำหนดเองลงในองค์กรของพวกเขา ซึ่งผู้เขียนรายงานสามารถค้นหา ปรับปรุง และใช้ได้อย่างง่ายดาย ผู้ดูแลระบบสามารถจัดการ (ตัวอย่าง อัปเดตเวอร์ชัน ปิดใช้งาน/เปิดใช้งาน) ภาพเหล่านี้ได้อย่างง่ายดาย
+ผู้ดูแลระบบ Power BI อนุมัติ และปรับใช้ส่วนแสดงผล Power BI ลงในองค์กรของพวกเขา ซึ่งผู้เขียนรายงานสามารถค้นหา ปรับปรุง และใช้ได้อย่างง่ายดาย ผู้ดูแลระบบสามารถจัดการ (ตัวอย่าง อัปเดตเวอร์ชัน ปิดใช้งาน/เปิดใช้งาน) ภาพเหล่านี้ได้อย่างง่ายดาย
 
  [อ่านเพิ่มเติมเกี่ยวกับการแสดงผลด้วยภาพขององค์กร](power-bi-custom-visuals-organization.md)
 
 ## <a name="marketplace-visuals"></a>วิชวลจาก Marketplace
 
-สมาชิกในชุมชนและ Microsoft ได้มอบภาพแบบกำหนดเองของพวกเขาเพื่อประโยชน์สาธารณะ และเผยแพร่ทางตลาดการค้า [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) คุณสามารถดาวน์โหลดภาพเหล่านี้และเพิ่มลงในรายงาน Power BI ของคุณได้ Microsoft ได้รับการทดสอบและอนุมัติภาพแบบกำหนดเองเหล่านี้ทั้งหมด ทั้งฟังก์ชันการใช้งานและคุณภาพ
+สมาชิกในชุมชนและ Microsoft ได้มอบส่วนแสดงผล Power BI ของพวกเขาเพื่อประโยชน์สาธารณะ และเผยแพร่ทางตลาดการค้า [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) คุณสามารถดาวน์โหลดภาพเหล่านี้และเพิ่มลงในรายงาน Power BI ของคุณได้ Microsoft ได้รับการทดสอบและอนุมัติส่วนแสดงผล Power BI เหล่านี้ทั้งหมด ทั้งฟังก์ชันการใช้งานและคุณภาพ
 
 AppSource [คืออะไร?](developer/office-store.md) ซึ่งเป็นที่ที่คุณสามารถค้นหาแอป add-in และส่วนขยายสำหรับซอฟต์แวร์ Microsoft ของคุณ AppSource เชื่อมต่อผู้ใช้ของผลิตภัณฑ์ เช่น Office 365, Azure, Dynamics 365, Cortana และ Power BI นับล้านคน ไปยังโซลูชันที่ช่วยให้พวกเขาทำงานสำเร็จได้อย่างมีประสิทธิภาพขึ้น เข้าใจได้ลึกซึ้งขึ้น หรือสวยงามขึ้นกว่าที่เคย
 
 ### <a name="certified-visuals"></a>วิชวลที่ผ่านการรับรองแล้ว
 
 ภาพของ Power BI ที่ผ่านการรับรอง เป็นภาพจากตลาดการค้าที่ผ่านการทดสอบที่เข้มงวดเรื่องคุณภาพ และรองรับการใช้งานเพิ่มเติม เช่น[การสมัครใช้งานทางอีเมล](service-report-subscribe.md)และ[การส่งออกไปยัง PowerPoint](service-publish-to-powerpoint.md)
-เมื่อต้องการดูรายการของวิชวลแบบกำหนดเองได้ที่ผ่านการรับรอง หรือต้องการส่งวิชวลของคุณเอง ให้ดู [วิชวลแบบกำหนดเองที่ผ่านการรับรองแล้ว](power-bi-custom-visuals-certified.md)
+เมื่อต้องการดูรายการของส่วนแสดงผล Power BI ที่ผ่านการรับรอง หรือต้องการส่งวิชวลของคุณเอง ให้ดู [ส่วนแสดงผล Power BI ที่ผ่านการรับรองแล้ว](power-bi-custom-visuals-certified.md)
 
-คุณเป็นนักพัฒนาเว็บ และสนใจสร้างวิชวลของคุณเอง และเพิ่มเข้าไปใน AppSource หรือไม่ ดู[การพัฒนาวิชวลแบบกำหนดเองสำหรับ Power BI](developer/custom-visual-develop-tutorial.md) และเรียนรู้วิธีการ[เผยแพร่วิชวลแบบกำหนดเองไปยัง AppSource](developer/office-store.md)
+คุณเป็นนักพัฒนาเว็บ และสนใจสร้างวิชวลของคุณเอง และเพิ่มเข้าไปใน AppSource หรือไม่ ดู[การพัฒนาวิชวลแบบกำหนดเองสำหรับ Power BI](developer/custom-visual-develop-tutorial.md) และเรียนรู้วิธีการ[เผยแพรส่วนการแสดงผล Power BI ไปยัง AppSource](developer/office-store.md)
 
 ### <a name="import-a-custom-visual-from-a-file"></a>นำเข้าภาพที่กำหนดเองจากไฟล์
 
@@ -95,11 +95,11 @@ AppSource [คืออะไร?](developer/office-store.md) ซึ่งเป
 
     ![แสดงภาพองค์กร 5](media/power-bi-custom-visuals/power-bi-visual-org-05.png)
 
-## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>ดาวน์โหลด หรือนำเข้าวิชวลแบบกำหนดเองจาก Microsoft AppSource
+## <a name="download-or-import-power-bi-visuals-from-microsoft-appsource"></a>ดาวน์โหลด หรือนำเข้าส่วนการแสดงผล Power BI จาก Microsoft AppSource
 
-คุณมีสองตัวเลือกสำหรับการดาวน์โหลด และการนำเข้าภาพแบบกำหนดเอง โดยสามารถทำจากใน Power BI และจากเว็บไซต์ [AppSource](https://appsource.microsoft.com/)
+คุณมีสองตัวเลือกสำหรับการดาวน์โหลด และการนำเข้าส่วนการแสดงผล Power BI โดยสามารถทำจากใน Power BI และจากเว็บไซต์ [AppSource](https://appsource.microsoft.com/)
 
-### <a name="import-custom-visuals-from-within-power-bi"></a>นำเข้าวิชวลแบบกำหนดเองจากภายใน Power BI
+### <a name="import-power-bi-visuals-from-within-power-bi"></a>นำเข้าส่วนการแสดงผล Power BI จากใน Power BI
 
 1. เลือกจุดไข่ปลาจากด้านล่างของบานหน้าต่าง **การจัดรูปแบบการแสดงข้อมูล**
 
@@ -129,13 +129,13 @@ AppSource [คืออะไร?](developer/office-store.md) ซึ่งเป
 
     ![วิชวลที่นำเข้า](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
-### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>ดาวน์โหลด และนำเข้าวิชวลแบบกำหนดเองจาก Microsoft AppSource
+### <a name="download-and-import-power-bi-visuals-from-microsoft-appsource"></a>ดาวน์โหลดและนำเข้าส่วนการแสดงผล Power BI จาก Microsoft AppSource
 
 1. เริ่มจาก [Microsoft AppSource](https://appsource.microsoft.com) และเลือกแท็บสำหรับ**แอป**
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. ไปยัง[หน้าผลลัพธ์แอป](https://appsource.microsoft.com/marketplace/apps) คุณสามารถดูแอปอันดับต้น ๆ ในแต่ละประเภท รวมถึง *แอป Power BI* เราจะค้นหาภาพแบบกำหนดเองโดยเลือก **ภาพ Power BI** จากรายการนำทางด้านซ้ายมือเพื่อจำกัดผลลัพธ์ให้แคบลง
+2. ไปยัง[หน้าผลลัพธ์แอป](https://appsource.microsoft.com/marketplace/apps) คุณสามารถดูแอปอันดับต้น ๆ ในแต่ละประเภท รวมถึง *แอป Power BI* เราจะค้นหาส่วนการแสดงผล Power BI โดยเลือก **ภาพ Power BI** จากรายการนำทางด้านซ้ายมือเพื่อจำกัดผลลัพธ์ให้แคบลง
 
     ![วิชวล AppSource](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 
@@ -165,15 +165,15 @@ AppSource [คืออะไร?](developer/office-store.md) ซึ่งเป
 
 * วิชวลแบบกำหนดเองจะถูกเพิ่มเฉพาะในรายงานที่นำเข้า ถ้าคุณต้องการใช้วิชวลในรายงานอื่น คุณจำเป็นต้องนำเข้าในรายงานนั้นด้วยเช่นกัน เมื่อรายงานที่มีวิชวลแบบกำหนดเอง ถูกบันทึกโดยใช้ตัวเลือก **บันทึกเป็น** สำเนาของวิชวลแบบกำหนดเองจะถูกบันทึกไปกับรายงานใหม่
 
-* ถ้าคุณไม่เห็นบานหน้าต่าง **การจัดรูปแบบการแสดงข้อมูล** แสดงว่าคุณไม่มีสิทธิการแก้ไขรายงาน  คุณสามารถเพิ่มภาพแบบกำหนดเองได้เฉพาะเมื่อคุณสามารถแก้ไขรายงานเท่านั้น ไม่ใช่เมื่อรายงานนั้นได้ถูกแชร์ให้คุณ
+* ถ้าคุณไม่เห็นบานหน้าต่าง **การจัดรูปแบบการแสดงข้อมูล** แสดงว่าคุณไม่มีสิทธิการแก้ไขรายงาน  คุณสามารถเพิ่มส่วนการแสดงผล Power BI ได้เฉพาะเมื่อคุณสามารถแก้ไขรายงานเท่านั้น ไม่ใช่เมื่อรายงานนั้นได้ถูกแชร์ให้คุณ
 
 ## <a name="troubleshoot"></a>การแก้ไขปัญหา
 
-สำหรับการแก้ไขปัญหา ดู [การแก้ไขปัญหาภาพแบบกำหนดเองของ Power BI](power-bi-custom-visuals-troubleshoot.md)
+แก้ไขปัญหาได้ตามหัวข้อ [การแก้ไขปัญหาส่วนการแสดงผล Power BI ของคุณ](power-bi-custom-visuals-troubleshoot.md)
 
 ## <a name="faq"></a>คำถามที่ถามบ่อย
 
-สำหรับข้อมูลเพิ่มเติมและคำตอบที่คุณอยากรู้ โปรดเยี่ยมชม[คำถามที่ถามบ่อยเกี่ยวกับวิชวลแบบกำหนดเองของ Power BI](power-bi-custom-visuals-faq.md#organizational-custom-visuals)
+สำหรับข้อมูลเพิ่มเติมและคำตอบที่คุณอยากรู้ โปรดเยี่ยมชม[คำถามที่ถามบ่อยเกี่ยวกับ Power BI ส่วนการแสดงผล Power BI](power-bi-custom-visuals-faq.md#organizational-visuals)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751574"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305761"
 ---
 # <a name="publish-an-app-in-power-bi"></a>เผยแพร่แอปใน Power BI
 
@@ -190,6 +190,13 @@ ms.locfileid: "70751574"
 เมื่อผู้ใช้แอปเปิดแอปของคุณ พวกเขาเห็นการนำทางที่คุณสร้างขึ้น แทนบานหน้าต่างนำทางด้านซ้ายของ Power BI มาตรฐาน การนำทางของแอปจะแสดงรายการรายงานและแดชบอร์ดในส่วนที่คุณกำหนดไว้ นอกจากนี้ยังแสดงรายการแต่ละหน้าในแต่ละรายงานแทนที่ชื่อรายงาน
 
 ![แอปที่มีการนำทาง](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
+สิ่งที่ควรจดจำเกี่ยวกับการเผยแพร่แอป:
+
+* คุณมีผู้ใช้หรือกลุ่มได้สูงสุด 100 รายการในรายชื่อสำหรับเข้าใช้งานแอปนี้ ทั้งนี้คุณสามารถให้สิทธิ์ใช้งานแอปนี้แก่ผู้ใช้มากกว่า 100 ราย ทำได้โดยใช้กลุ่มผู้ใช้หนึ่งกลุ่มขึ้นไปที่มีผู้ใช้ทั้งหมดที่ต้องการ
+* สำหรับประสบการณ์ใหม่สำหรับพื้นที่ทำงาน หากผู้ใช้ที่ถูกเพิ่มไปยังรายการสิทธิ์ใช้งานแอปมีสิทธิ์ใช้งานแอปอยู่แล้วผ่านพื้นที่ทำงานดังกล่าว ผู้ใช้จะไม่ปรากฏขึ้นในรายการใช้งานแอปนี้ในส่วนนี้  
+
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [สร้างพื้นที่ทำงาน](service-create-workspaces.md)
