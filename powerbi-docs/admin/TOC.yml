@@ -1,0 +1,65 @@
+- name: การดูแล Power BI
+  items:
+    - name: ภาพรวม
+      expanded: true
+      items:
+        - name: การดูแล Power BI คืออะไร?
+          href: ../service-admin-administering-power-bi-in-your-organization.md
+    - name: แนวคิด
+      expanded: true
+      items:
+        - name: บทบาทการดูแลระบบใน Office 365
+          href: ../service-admin-role.md
+        - name: คำถามที่พบบ่อย (FAQ)
+          href: ../service-admin-faq.md
+        - name: FAQ เกี่ยวกับความพร้อมใช้งานสูงและการย้ายโหนดเมื่อเกิดข้อผิดพลาด
+          href: ../service-admin-failover.md
+    - name: วิธีการ
+      items:
+        - name: การใช้สิทธิ์และลงทะเบียน
+          items:
+            - name: การให้สิทธิ์สำหรับองค์กรของคุณ
+              href: ../service-admin-licensing-organization.md
+            - name: ซื้อ Power BI Pro
+              href: ../service-admin-purchasing-power-bi-pro.md
+            - name: ลงทะเบียนสำหรับการทดลองใช้งาน Office 365
+              href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+            - name: เพิ่ม Power BI กับคู่ค้า Office 365
+              href: ../service-admin-syndication-partner.md
+        - name: การใช้พอร์ทัลผู้ดูแลระบบ
+          href: ../service-admin-portal.md
+        - name: ผู้เช่าของฉันอยู่ที่ไหน
+          href: ../service-admin-where-is-my-tenant-located.md
+        - name: ค้นหาผู้ใช้ที่มีการลงชื่อเข้าใช้
+          href: ../service-admin-access-usage.md
+        - name: กำลังตรวจสอบ Power BI
+          href: ../service-admin-auditing.md
+        - name: ติดตามสถานภาพบริการ
+          href: ../service-admin-health.md
+        - name: ปิดบัญชี Power BI ของคุณ
+          href: ../service-admin-closing-your-account.md
+        - name: Power BI และ ExpressRoute
+          href: ../service-admin-power-bi-expressroute.md
+        - name: ใช้ Azure AD B2B
+          href: ../service-admin-azure-ad-b2b.md
+        - name: ความปลอดภัยระดับแถวด้วย Power BI
+          href: ../service-admin-rls.md
+        - name: พื้นที่ทำงานที่เก็บถาวรของ Power BI
+          href: ../service-admin-power-bi-archived-workspace.md
+        - name: กำหนดค่าแอปสำหรับอุปกรณ์เคลื่อนที่ด้วย Intune
+          href: ../service-admin-mobile-intune.md
+    - name: การอ้างอิง
+      items:
+        - name: 'PowerShell, REST Api และ .NET SDK'
+          href: ../service-admin-reference.md
+        - name: cmdlet Power BI สำหรับ PowerShell
+          href: 'https://docs.microsoft.com/powershell/power-bi/'
+          maintainContext: true
+        - name: การอ้างอิง URL บริการ
+          href: ../power-bi-whitelist-urls.md
+    - name: ทรัพยากร
+      items:
+        - name: แนวทางการกำกับดูแลและการปรับใช้ Power BI
+          href: ../service-admin-governance.md
+        - name: ความปลอดภัยของ Power BI
+          href: ../service-admin-power-bi-security.md

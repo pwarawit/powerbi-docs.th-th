@@ -1,0 +1,61 @@
+### YamlMime:Landing
+title: Power BI สำหรับผู้ดูแลระบบ
+summary: เอกสาร Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+metadata:
+  title: Power BI สำหรับผู้ดูแลระบบ
+  description: เอกสาร Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-service
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 10/04/2019
+  ms.openlocfilehash: 8209cc755b33887c533e9f90b9b1cd7a5021490e
+  ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 10/10/2019
+  ms.locfileid: "72245661"
+landingContent:
+- title: เกี่ยวกับ Power BI สำหรับผู้ดูแลระบบ
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: การดูแล Power BI คืออะไร?
+      url: ../service-admin-administering-power-bi-in-your-organization.md
+  - linkListType: concept
+    links:
+    - text: บทบาทการดูแลระบบใน Office 365
+      url: ../service-admin-role.md
+- title: เริ่มใช้งาน
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: การให้สิทธิ์สำหรับองค์กรของคุณ
+      url: ../service-admin-licensing-organization.md
+    - text: การใช้พอร์ทัลผู้ดูแลระบบ
+      url: ../service-admin-portal.md
+  - linkListType: how-to-guide
+    links:
+    - text: ซื้อ Power BI Pro
+      url: ../service-admin-purchasing-power-bi-pro.md
+    - text: ลงทะเบียนสำหรับการทดลองใช้งาน Office 365
+      url: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+    - text: เพิ่ม Power BI กับคู่ค้า Office 365
+      url: ../service-admin-syndication-partner.md
+- title: ผู้เช่า
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: ผู้เช่าของฉันอยู่ที่ไหน
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: ค้นหาผู้ใช้ที่มีการลงชื่อเข้าใช้
+      url: ../service-admin-access-usage.md
+    - text: กำลังตรวจสอบ Power BI
+      url: ../service-admin-auditing.md
+    - text: ติดตามสถานภาพบริการ
+      url: ../service-admin-health.md
+    - text: ปิดบัญชี Power BI ของคุณ
+      url: ../service-admin-closing-your-account.md

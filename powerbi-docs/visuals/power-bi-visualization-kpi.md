@@ -11,19 +11,24 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8fa39c7cc57e24f0c19e1a484c0e925bfeec94f7
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 508da47272313d9781fdd66c2ca367dcf9e433e5
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389571"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715230"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>ภาพตัวบ่งชี้ประสิทธิภาพหลัก (KPI)
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 ดัชนีประสิทธิภาพหลัก (KPI) เป็นภาพสัญลักษณ์ที่แสดงปริมาณความก้าวหน้าของงานที่ทำเพื่อมุ่งไปยังเป้าหมายที่วัดผลได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ KPI โปรดดู [ตัวบ่งชี้ประสิทธิภาพหลัก (KPI) ใน PowerPivot](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110))
 
 ดูวิธีที่คุณสามารถสร้างภาพการวัดตัวเดียว: ตัวประเมิน บัตร และ KPI
-
+   > [!NOTE]
+   > วิดีโอนี้ใช้ Power BI Desktop เวอร์ชันเก่า
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-kpi"></a>เมื่อต้องการใช้ KPI
@@ -42,19 +47,19 @@ KPI เป็นตัวเลือกที่ดีที่สุด:
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-ถ้าคุณไม่ได้ลงทะเบียน Power BI ให้[ลงทะเบียนรุ่นทดลองใช้ฟรี](https://app.powerbi.com/signupredirect?pbi_source=web)ก่อนที่คุณจะเริ่มต้นใช้งาน
+บทช่วยสอนนี้ใช้[ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
-* [Power BI Desktop](https://powerbi.microsoft.com/get-started/) - ฟรี!
+1. จากด้านบนซ้ายของแถบเมนู เลือก **ไฟล์** > **เปิด**
+   
+2. ค้นหาสำเนา**ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก**
 
-* [ไฟล์ PBIX ตัวอย่างการวิเคราะห์การขายปลีก](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+1. เปิด**ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก**ในมุมมองรายงาน ![ภาพหน้าจอไอคอนมุมมองรายงาน](media/power-bi-visualization-kpi/power-bi-report-view.png)
+
+1. เลือก ![สกรีนช็อตของแท็บสีเหลือง](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) หากต้องการเพิ่มหน้าใหม่
 
 ## <a name="how-to-create-a-kpi"></a>วิธีการสร้าง KPI
 
-เมื่อต้องการทำตามขั้นตอน เปิด[ไฟล์ .PBIX วิเคราะห์การค้าปลีก](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)ใน Power BI Desktop คุณจะสร้าง KPI ที่วัดความคืบหน้าที่คุณได้ทำเพื่อบรรลุเป้าหมายยอดขาย
-
-1. เปิด **ตัวอย่างการวิเคราะห์ร้านค้าปลีก** ในสกรีนช็อตมุมมองรายงาน![ ของไอคอนมุมมองรายงาน](media/power-bi-visualization-kpi/power-bi-report-view.png)
-
-1. เลือก ![สกรีนช็อตของแท็บสีเหลือง](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) หากต้องการเพิ่มหน้าใหม่
+ในตัวอย่างนี้ คุณจะสร้าง KPI เพื่อวัดความคืบหน้าที่คุณได้ทำเพื่อบรรลุเป้าหมายยอดขาย
 
 1. จากบานหน้าต่าง **เขตข้อมูล** ให้เลือก **ยอดขาย > หน่วยรวมปีนี้**  ค่านี้จะเป็นตัวดัชนี
 

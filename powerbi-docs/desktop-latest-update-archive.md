@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0dcc5e3aac4b43a6975a9faa5dd23faa2888b324
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 1ccf5dd3a84bbbaca7019f8943cf0ab974e4bd06
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142216"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71944878"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -368,7 +368,7 @@ ms.locfileid: "71142216"
 ### <a name="modeling"></a>การวางรูปแบบ
 * ฟังก์ชัน DAX ใหม่ - ALLCROSSFILTERED [[วิดีโอ]](https://youtu.be/vih35kSrEHU?t=970)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dax) 
 
-### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
 * ภาพแบบกำหนดเองใหม่หนึ่งรายการ [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#rainbowGauge) 
 
 
@@ -459,7 +459,7 @@ ms.locfileid: "71142216"
 * ในขณะนี้ มุมมองการสร้างแบบจำลองใหม่พร้อมใช้งานโดยทั่วไป [[วิดีโอ]](https://youtu.be/rBPGH6eYlT0?t=417) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#modellingView) 
 * ฟังก์ชัน DAX ใหม่[[วิดีโอ]](https://youtu.be/rBPGH6eYlT0?t=560)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#DAX) 
 
-### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
 * การตั้งค่าการแสดงผลด้วยภาพแบบกำหนดเองที่ได้รับการรับรองใหม่ในพอร์ทัลผู้ดูแลระบบ [[วิดีโอ]](https://youtu.be/rBPGH6eYlT0?t=624) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#certifiedAdminSetting) 
 * วิชวลแบบกำหนดเองใหม่สองวิชวล [[วิดีโอ]](https://youtu.be/rBPGH6eYlT0?t=693) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#customVisuals) 
 
@@ -531,7 +531,7 @@ ms.locfileid: "71142216"
 * สร้างโดยอัตโนมัติที่แนะนำคำถามสำหรับถามตอบ explorer [[วิดีโอ]](https://youtu.be/dMD25wfElLg?t=1121)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#autoSuggestions) 
 * ปรับปรุงตัวแก้ไข Python & R script [[วิดีโอ]](https://youtu.be/dMD25wfElLg?t=1282)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#scriptEditor) 
 
-### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
 * วิชวลแบบกำหนดเองใหม่ คุณลักษณะการแสดงผลด้วยภาพแบบกำหนดเองใหม่สิบ[[วิดีโอ]](https://youtu.be/dMD25wfElLg?t=1324)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
@@ -607,7 +607,7 @@ ms.locfileid: "71142216"
 * การสนับสนุนสำหรับการเข้าถึงการดูข้อมูล [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=1253) [[บทความ]](desktop-composite-models.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#dataView) 
 
 
-### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
 
 * วิชวลแบบกำหนดเองอันใหม่หนึ่งวิชวล [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=1370) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#customVisuals) 
 
@@ -668,7 +668,7 @@ ms.locfileid: "71142216"
 * ปรับปรุงการเข้าถึงการสร้างโมเดล[[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=2023)[[บทความ]](desktop-accessibility.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
 * ฟังก์ชัน DAX ใหม่[[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=2066)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
 
-### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
 
 * ห้าวิชวลใหม่แบบกำหนดเอง[[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=2108)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
 
@@ -715,7 +715,7 @@ ms.locfileid: "71142216"
 * โมเดลแบบรวมและการสนับสนุนการรวมในบริการ Power BI (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/8E6UokaDtc0)  [[บทความ - การรวม]](desktop-aggregations.md) [[บทความ - โมเดลแบบรวม]](desktop-composite-models.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23compositeModels) 
 * อธิบายการเพิ่มขึ้นของตัววัดแบบไม่บวกสะสม [[วิดีโอ]](https://youtu.be/8E6UokaDtc0?t=107)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23Insights) 
 
-### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
 
 * ห้าวิชวลใหม่แบบกำหนดเอง[[วิดีโอ]](https://youtu.be/ZfJSSG17SEY)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23customVisuals) 
 
@@ -770,7 +770,7 @@ ms.locfileid: "71142216"
 
 * การรวม (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/Rzw2WyI09kY?t=11m37s)  [[บทความ]](desktop-aggregations.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
 
-### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
 
 * ห้าวิชวลใหม่แบบกำหนดเอง[[วิดีโอ]](https://youtu.be/Rzw2WyI09kY?t=23m8s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
 
@@ -825,7 +825,7 @@ ms.locfileid: "71142216"
 * การรวม Python [[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=11m14s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
 * การปรับปรุงการถามตอบ[[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=13m1s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
 
-### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
 
 * ห้าวิชวลใหม่แบบกำหนดเอง[[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=19m48s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
 
@@ -879,7 +879,7 @@ ms.locfileid: "71142216"
 
 * ข้อมูลเชิงลึกปัจจัยการกระจาย  [[วิดีโอ]](https://youtu.be/Mtig3rmIUe0?t=37m)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
 
-### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
 
 * ประเภทที่ได้รับการรับรองโดย Power BI  [[วิดีโอ]](https://youtu.be/Mtig3rmIUe0?t=41m13s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals) 
 * การปิดภาพเกี่ยวกับองค์กรที่เฉพาะเจาะจง  [[วิดีโอ]](https://youtu.be/Mtig3rmIUe0?t=42m32s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals) 
@@ -921,7 +921,7 @@ ms.locfileid: "71142216"
 * จัดรูปแบบป้ายชื่อข้อมูลแยกจากกัน สำหรับแต่ละหน่วยวัดในแผนภูมิผสม [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=9m29s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
 * รายงานโทรศัพท์ที่ยาวขึ้น [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=11m26s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#phoneReports) 
 
-### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
 
 * วิชวลแบบกำหนดเองใหม่สองวิชวล [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=17m42s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
 
@@ -976,7 +976,7 @@ ms.locfileid: "71142216"
 
 * การรีเฟรชแบบเพิ่มหน่วย (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/-_GMCE1TLvQ?t=7m42s) [[บทความ]](service-premium-incremental-refresh.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#incrementalRefresh) 
 
-### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
 
 * วิชวลแบบกำหนดเองใหม่มากมาย [[วิดีโอ]](https://youtu.be/-_GMCE1TLvQ?t=9m44s)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
 
@@ -1028,7 +1028,7 @@ ms.locfileid: "71142216"
 * ปรับปรุงรูปแบบภาษา [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=22m)[[บทความ]](power-bi-custom-visuals-organization.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * ฟังก์ชัน DAX ใหม่: COMBINEVALUES()  [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=23m37s)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
 
-### <a name="custom-visuals"></a>ภาพแบบกำหนดเอง
+### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
 
 * สามารถใช้ วิชวลองค์กร ได้ทั่วไป [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=26m11s)[[บทความ]](power-bi-custom-visuals-organization.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
 * วิชวลแบบกำหนดเองใหม่มากมาย [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=28m8s)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
@@ -2290,8 +2290,8 @@ ms.locfileid: "71142216"
 
 ### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล:
 
--   การสนับสนุน **DirectQuery**สำหรับฐานข้อมูล Oracle และ Teradata
--   **DirectQuery** การสนับสนุนสำหรับการสร้างคอลัมน์ที่คำนวณแล้ว
+-   การสนับสนุน **DirectQuery** สำหรับ Oracle และ Teradata
+-   การสนับสนุน **DirectQuery** สำหรับการสร้างคอลัมน์ที่คำนวณแล้ว
 -   สนับสนุนสำหรับการเผยแพร่รายงานสดของ Analysis Service
 -   ตัวเชื่อมต่อไฟล์ JSON
 -   ตัวเชื่อมต่อ SQL Sentry

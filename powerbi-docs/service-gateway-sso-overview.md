@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4991117cfa8b34d9adbbd2dc29082d1e75b6852d
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: a99aad87763edce54996f0a485fde5498fb1df11
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100383"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968616"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>ภาพรวมของการลงชื่อเข้าใช้ครั้งเดียว (SSO) สำหรับเกตเวย์ใน Power BI
 
@@ -30,6 +30,8 @@ ms.locfileid: "71100383"
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
 * Impala ([Kerberos](service-gateway-sso-kerberos.md))
 
+ขณะนี้เราไม่สนับสนุน SSO สำหรับ[นามสกุลไฟล์ M](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md)
+
 เมื่อผู้ใช้โต้ตอบกับ รายงาน DirectQuery ในบริการของ Power BI การดำเนินงานเกี่ยวกับ ตัวกรองข้าม ชิ้น การเรียงลำดับ และการแก้ไขรายงาน อาจดำเนินการด้วยคิวรีสด กับแหล่งข้อมูลพื้นฐานภายในองค์กร เมื่อแหล่งข้อมูลมีการกำหนดค่า SSO คิวรีจะถูกดำเนินการด้วย ข้อมูลประจำตัวของผู้ใช้ที่โต้ตอบกับ Power BI (นั่นคือ เมื่อทำผ่านเว็บ หรือแอป Power BI บนมือถือ) ดังนั้น ผู้ใช้แต่ละรายมองเห็นได้เพียงข้อมูลที่พวกเขามีสิทธิ์ในแหล่งข้อมูลพื้นฐาน – เมื่อมีการกำหนดค่า SSO จะไม่มีการแชร์แคชข้อมูลระหว่างผู้ใช้
 
 ## <a name="query-steps-when-running-sso"></a>ขั้นตอนการคิวรีเมื่อเรียกใช้ SSO
@@ -40,13 +42,13 @@ ms.locfileid: "71100383"
 
 นี่เป็นรายละเอียดเพิ่มเติมเกี่ยวกับขั้นตอนดังกล่าว:
 
-1. สำหรับแต่ละคิวรี **บริการของ Power BI**จะบรรจุ*ชื่อหลักผู้ใช้* (UPN) เมื่อคุณส่งการร้องขอคิวรีไปยังเกตเวย์ที่กำหนดไว้
+1. สำหรับการสอบถามแต่ละครั้ง **บริการของ Power BI** จะรวม*ชื่อผู้ใช้หลัก* (UPN คือชื่อผู้ใช้แบบเต็มของผู้ใช้ที่เข้าสู่ระบบบริการของ Power BI ในปัจจุบัน) เมื่อส่งการร้องขอการสอบถามไปยังเกตเวย์ที่กำหนดค่าไว้
 
 2. เกตเวย์ต้องแมปค่า UPN ของ Azure Active Directory ไปยัง ข้อมูลประจำตัวใน Active Directory ในเครื่อง
 
    a.  ถ้า Azure AD DirSync (หรือที่เรียกว่า*Azure AD Connect*) มีการกำหนดค่าแล้ว การแมปจะทำงานโดยอัตโนมัติในเกตเวย์
 
-   b.  มิฉะนั้น เกตเวย์สามารถค้นหา และแมป Azure AD UPN ไปยังผู้ใช้ภายในเครื่อง โดยการค้นหากับโดเมน Active Directory ในเครื่อง
+   b.  มิฉะนั้น เกตเวย์สามารถค้นหาและแมป Azure AD UPN ไปยังผู้ใช้ AD ภายในเครื่อง โดยการค้นหากับโดเมน Active Directory ในเครื่อง
 
 3. บริการของเกตเวย์จะเลียนแบบเป็นผู้ใช้ภายในเครื่องที่ถูกแมป เปิดการเชื่อมต่อกับฐานข้อมูลเบื้องต้น และส่งคิวรี เกตเวย์ไม่จำเป็นต้องติดตั้งบนคอมพิวเตอร์เครื่องเดียวกับฐานข้อมูล
 

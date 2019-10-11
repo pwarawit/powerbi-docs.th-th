@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4584ad0f8c083a765b1a1a9943496b40a3ed4bdf
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: cfae856cf80027a92fb7d19c27b990aa659d992d
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342163"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968751"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>ตัวกรองและการไฮไลท์ในรายงาน Power BI
  บทความนี้ทำการแนะนำการใช้ตัวกรองและการไฮไลท์ในบริการของ Power BI ประสบการณ์การใช้งานนั้นแทบจะเหมือนกับใน Power BI Desktop *ตัวกรอง*ให้ลบออกทั้งหมดยกเว้นข้อมูลที่คุณต้องการวิเคราะห์ *การไฮไลต์* ไม่ใช่การกรอง โดยจะไม่ลบข้อมูลออก แต่จะไฮไลต์เซตย่อยของข้อมูลที่สามารถมองเห็นได้แทน ซึ่งข้อมูลที่ไม่ได้ไฮไลต์ยังคงสามารถจะมองเห็นได้แต่จะเป็นสีจาง
@@ -28,7 +28,7 @@ ms.locfileid: "68342163"
 * รายละเอียดของตัวควบคุม[ตัวกรองและการไฮไลต์](power-bi-report-add-filter.md)ที่พร้อมใช้งานในมุมมองการแก้ไขใน Power BI Desktop และบริการของ Power BI บทความนี้จะศึกษาเชิงลึกเกี่ยวกับประเภทของตัวกรองเช่น วันที่และเวลา ตัวเลข และข้อความ นอกจากนี้ยังครอบคลุมความแตกต่างระหว่างตัวเลือกพื้นฐานและขั้นสูง
 * หลังจากที่ได้เรียนรู้วิธีการทำงานของตัวกรองและไฮไลท์ตามค่าเริ่มต้นแล้ว ลองเรียนรู้การ [เปลี่ยนวิธีที่การจัดรูปแบบการแสดงข้อมูลบนตัวกรองหน้าและไฮไลต์ซึ่งกันและกัน](service-reports-visual-interactions.md)
 
-**คุณทราบหรือไม่** Power BI มีการใช้งานตัวกรองใหม่อยู่ในตัวอย่าง อ่านเพิ่มเติมเกี่ยวกับ[การใช้งานตัวกรองใหม่ในรายงาน Power BI](power-bi-report-filter.md)
+**คุณทราบหรือไม่** Power BI มีการใช้งานตัวกรองใหม่ อ่านเพิ่มเติมเกี่ยวกับ[การใช้งานตัวกรองใหม่ในรายงาน Power BI](power-bi-report-filter.md)
 
 ![ประสบการณ์ใช้งานตัวกรองใหม่](media/power-bi-reports-filters-and-highlighting/power-bi-filter-reading.png)
 

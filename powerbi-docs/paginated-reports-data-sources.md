@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.openlocfilehash: f055cd27f25af399b63336e66aaad526ed740de2
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: f0cc7563fc59a6c1ceeceefcf4b65b0cc1a3aa80
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462312"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968649"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>แหล่งข้อมูลที่ได้รับการสนับสนุนสำหรับรายงานที่มีการแบ่งหน้าของ Power BI
 
@@ -27,6 +27,7 @@ ms.locfileid: "68462312"
 | แหล่งข้อมูล | การรับรองความถูกต้อง | บันทึกย่อ |
 | --- | --- | --- |
 | ฐานข้อมูล Azure SQL <br>คลังข้อมูล Azure SQL | ลงชื่อเข้าระบบครั้งเดียว (SSO) เบื้องต้น, OAuth2 |   |
+| อินสแตนซ์ที่จัดการแล้วของ Azure SQL | พื้นฐาน | ผ่านจุดสิ้นสุดสาธารณะโดยใช้นามสกุลไฟล์ฐานข้อมูล Azure SQL  |
 | Azure Analysis Services | SSO, OAuth2 |   |
 | ชุดข้อมูล Power BI | SSO | ชุดข้อมูล Power BI แบบพรีเมียมและแบบไม่พรีเมี่ยม |
 | ชุดข้อมูล Power BI แบบพรีเมียม (XMLA) | SSO |   |

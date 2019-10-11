@@ -301,7 +301,7 @@
               href: desktop-see-data-see-records.md
             - name: เคล็ดลับสำหรับการสร้างรายงาน
               href: desktop-tips-and-tricks-for-creating-reports.md
-        - name: การแสดงผลข้อมูลด้วยภาพ
+        - name: การจัดรูปแบบการแสดงข้อมูล
           items:
             - name: การแสดงข้อมูลใน Power BI
               href: visuals/power-bi-report-visualizations.md
@@ -1253,7 +1253,7 @@
                       href: service-gateway-sso-kerberos-sap-hana.md
                     - name: SAP sapcrypto (ไลบรารีการเข้ารหัสลับทั่วไป)
                       href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
-                    - name: SAP gx64krb5 และ gsskrb5
+                    - name: SAP BW - gx64krb5.dll
                       href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
             - name: SSO ที่ยึดตาม SAML
               href: service-gateway-sso-saml.md
