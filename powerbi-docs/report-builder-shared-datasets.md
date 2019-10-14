@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 50f78709ce7ce302ce79df5eb383af25f55d539a
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 1a46c1fb8e9f31bd5199fccfaecb16cece144b5a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471594"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72021026"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>ใช้ชุดข้อมูลที่ใช้ร่วมกันในตัวสร้างรายงาน Power BI
 
@@ -20,14 +20,14 @@ ms.locfileid: "68471594"
 
 ![Power BI Desktop ไปเป็นรายงานแบบแบ่งหน้าจากตัวสร้างรายงาน Power BI](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-ชุดข้อมูลไม่จำเป็นต้องอยู่ในพื้นที่ทำงานในความจุแบบพรีเมียมและคุณไม่จำเป็นต้องเป็นสมาชิกของพื้นที่ทำงานนั้น คุณเพียงแค่ต้องมี[สิทธิ์ในการสร้าง](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)ชุดข้อมูล ในการเผยแพร่รายงานแบบแบ่งหน้า คุณจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro นอกจากนี้คุณยังต้องมีบทบาทผู้สนับสนุนสำหรับพื้นที่ทำงานในความจุพรีเมียมด้วยเป็นอย่างน้อย
+ชุดข้อมูลไม่จำเป็นต้องอยู่ในพื้นที่ทำงานในความจุแบบพรีเมียมและคุณไม่จำเป็นต้องเป็นสมาชิกของพื้นที่ทำงานนั้น คุณเพียงแค่ต้องมี[สิทธิ์ในการสร้าง](service-datasets-build-permissions.md)ชุดข้อมูล ในการเผยแพร่รายงานแบบแบ่งหน้า คุณจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro นอกจากนี้คุณยังต้องมีบทบาทผู้สนับสนุนสำหรับพื้นที่ทำงานในความจุพรีเมียมด้วยเป็นอย่างน้อย
 
 ## <a name="what-you-need"></a>สิ่งที่คุณจำเป็นต้องมี
 
 ต่อไปนี้คือรายการของสิ่งที่คุณจำเป็นต้องและไม่จำเป็นต้องใช้ชุดข้อมูลที่ใช้ร่วมกันในตัวสร้างรายงาน Power BI
 
 - ตัวสร้างรายงานใน Power BI [ดาวน์โหลดและติดตั้งตัวสร้างรายงานใน Power BI](https://go.microsoft.com/fwlink/?linkid=2086513)
-- หากต้องการเข้าถึงชุดข้อมูล Power BI คุณจะต้องมีสิทธิ์ในการสร้างชุดข้อมูล อ่านเกี่ยวกับ[สิทธิ์ในการสร้าง](service-datasets-build-permissions.md#build-permissions-for-shared-datasets)
+- หากต้องการเข้าถึงชุดข้อมูล Power BI คุณจะต้องมีสิทธิ์ในการสร้างชุดข้อมูล อ่านเกี่ยวกับ[สิทธิ์ในการสร้าง](service-datasets-build-permissions.md)
 - คุณไม่จำเป็นต้องมีใบอนุญาต Power BI Pro เพื่อสร้างรายงานแบบแบ่งหน้าในตัวสร้างรายงาน 
 - คุณจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro เพื่อเผยแพร่รายงานแบบแบ่งหน้าของคุณ นอกจากนี้คุณยังต้องมีบทบาทผู้สนับสนุนสำหรับพื้นที่ทำงานในความจุพรีเมียมด้วยเป็นอย่างน้อย 
 - ทางเลือก: ถ้าคุณต้องการทำตามบทความนี้ให้ดาวน์โหลดไฟล์ .pbix [ตัวอย่างการวิเคราะห์ด้านการขายปลีก](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)ของ Power BI Desktop จากนั้นเปิดไฟล์ใน Power BI Desktop และเพิ่มตารางที่มีคอลัมน์จำนวนมาก ในบานหน้าต่าง **รูปแบบ** ให้ปิด **ผลรวม** จากนั้นเผยแพร่ไปยังพื้นที่ทำงานในบริการของ Power BI

@@ -1,20 +1,20 @@
 ---
 title: สายข้อมูล (ตัวอย่าง)
 description: ในโครงการระบบธุรกิจอัจฉริยะที่ทันสมัย (BI) การทำความเข้าใจการไหลของข้อมูลจากแหล่งข้อมูลไปยังจุดหมายปลายทางเป็นความท้าทายที่สำคัญสำหรับลูกค้าหลายราย
-author: maggiesMSFT
+author: paulinbar
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 10/03/2019
-ms.author: maggies
+ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 87f0fe20a88077d58ee5d44c748d86264b2be536
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: e91f1d5084957ee7266161b9a34f916e2902d1f4
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968867"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72019591"
 ---
 # <a name="data-lineage-preview"></a>สายข้อมูล (ตัวอย่าง)
 ในโครงการระบบธุรกิจอัจฉริยะที่ทันสมัย (BI) การทำความเข้าใจการไหลของข้อมูลจากแหล่งข้อมูลไปยังจุดหมายปลายทางเป็นความท้าทาย ความท้าทายจะยิ่งเพิ่มมากขึ้นหากคุณสร้างโครงการวิเคราะห์ขั้นสูงซึ่งครอบคุลมแหล่งข้อมูล สิ่งประดิษฐ์ และการอ้างอิงจำนวนมาก  คำถามเช่น "จะเกิดอะไรขึ้นหากฉันเปลี่ยนแปลงข้อมูลนี้" หรือ "เพราะเหตุใดรายงานนี้จึงไม่มีข้อมูลล่าสุด" เป็นคำถามที่ตอบยาก จึงอาจจำเป็นต้องมีทีมผู้เชี่ยวชาญหรือการตรวจสอบอย่างลึกซึ้งเพื่อทำความเข้าใจ เราออกแบบมุมมองสายข้อมูลเพื่อช่วยเหลือคุณในการตอบคำถามเหล่านี้
