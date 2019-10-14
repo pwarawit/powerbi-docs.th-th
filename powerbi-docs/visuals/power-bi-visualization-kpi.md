@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 508da47272313d9781fdd66c2ca367dcf9e433e5
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 8ecec706c281b2a36c342ea852eebb4a8559a6fd
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715230"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239929"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>ภาพตัวบ่งชี้ประสิทธิภาพหลัก (KPI)
 
@@ -50,12 +50,12 @@ KPI เป็นตัวเลือกที่ดีที่สุด:
 บทช่วยสอนนี้ใช้[ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 1. จากด้านบนซ้ายของแถบเมนู เลือก **ไฟล์** > **เปิด**
-   
-2. ค้นหาสำเนา**ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก**
 
-1. เปิด**ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก**ในมุมมองรายงาน ![ภาพหน้าจอไอคอนมุมมองรายงาน](media/power-bi-visualization-kpi/power-bi-report-view.png)
+1. ค้นหาสำเนา**ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก**
 
-1. เลือก ![สกรีนช็อตของแท็บสีเหลือง](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) หากต้องการเพิ่มหน้าใหม่
+1. เปิด**ไฟล์ PBIX ตัวอย่างการวิเคราะห์ด้านการขายปลีก**ในมุมมองรายงาน ![สกรีนช็อตของไอคอนมุมมองรายงาน](media/power-bi-visualization-kpi/power-bi-report-view.png)
+
+1. เลือ **+** เพื่อเพิ่มหน้าใหม่ ![สกรีนช็อตของแท็บสีเหลือง](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
 
 ## <a name="how-to-create-a-kpi"></a>วิธีการสร้าง KPI
 
