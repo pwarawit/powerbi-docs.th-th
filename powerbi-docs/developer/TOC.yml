@@ -15,9 +15,9 @@
         - name: บทช่วยสอน
           items:
             - name: พัฒนาวิชวล Power BI
-              href: custom-visual-develop-tutorial.md
+              href: visuals/custom-visual-develop-tutorial.md
             - name: เพิ่มตัวเลือกการจัดรูปแบบ
-              href: custom-visual-develop-tutorial-format-options.md
+              href: visuals/custom-visual-develop-tutorial-format-options.md
             - name: เพิ่มการทดสอบหน่วยสำหรับโครงการวิชวล
               href: visuals/unit-tests-introduction.md
         - name: แนวคิด
