@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cbca162348092d9d03bef03199c63113ec487165
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 86b7a5e93183c06d6cac1445cb1702edde5d4bc9
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61226345"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020592"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>จัดการ อัปเดต และลบชุดเนื้อหาองค์กร
 > [!NOTE]
-> คุณไม่สามารถสร้างชุดเนื้อหาระดับองค์กร หรือติดตั้งชุดเนื้อหาดังกล่าวในตัวอย่างการใช้งานพื้นที่ทำงานใหม่ ตอนนี้ คือเวลาดีที่จะอัปเกรดชุดเนื้อหาของคุณไปยังแอป ถ้าคุณยังไม่ได้เริ่มต้น เรียนรู้[เพิ่มเติมเกี่ยวกับการใช้งานพื้นที่ทำงานใหม่](service-create-the-new-workspaces.md)
+> คุณไม่สามารถสร้างชุดเนื้อหาขององค์กร หรือติดตั้งชุดเนื้อหาดังกล่าวในประสบการณ์ในพื้นที่ทำงานใหม่ ตอนนี้ คือเวลาดีที่จะอัปเกรดชุดเนื้อหาของคุณไปยังแอป ถ้าคุณยังไม่ได้เริ่มต้น เรียนรู้[เพิ่มเติมเกี่ยวกับการใช้งานพื้นที่ทำงานใหม่](service-create-the-new-workspaces.md)
 > 
 
 อ่านเกี่ยวกับการรวมชุดแดชบอร์ด รายงาน เวิร์กบุ๊ก Excel และชุดข้อมูลของคุณลงใน[ชุดเนื้อหาองค์กร](service-organizational-content-pack-introduction.md) เพื่อนร่วมงานของคุณสามารถใช้งานได้แบบเป็น หรือพวกเขาสามารถสร้างสำเนาของตนเองได้

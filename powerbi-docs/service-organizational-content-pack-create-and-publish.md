@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d48214cffcc17da9c105f7277b721c03946d5c2
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961748"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020656"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>บทช่วยสอน: สร้าง และเผยแพร่ชุดเนื้อหาองค์กร Power BI
 
@@ -26,7 +26,7 @@ ms.locfileid: "68961748"
 สร้างแพ็คเนื้อหาขององค์กรต้องมี[บัญชี Power BI Pro](https://powerbi.microsoft.com/pricing)สำหรับคุณและเพื่อนร่วมงานของคุณ
 
 > [!NOTE]
-> คุณไม่สามารถสร้าง หรือติดตั้งชุดเนื้อหาระดับองค์กรในตัวอย่างการใช้งานพื้นที่ทำงานใหม่ ตอนนี้เป็นเวลาที่เหมาะสมในการอัปเกรดชุดเนื้อหาของคุณไปยังแอป ถ้าคุณยังไม่ได้เริ่มต้น เรียนรู้[เพิ่มเติมเกี่ยวกับการใช้งานพื้นที่ทำงานใหม่](service-create-the-new-workspaces.md)
+> คุณไม่สามารถสร้างหรือติดตั้งชุดเนื้อหาขององค์กรในประสบการณ์ในพื้นที่ทำงานใหม่ได้ ตอนนี้เป็นเวลาที่เหมาะสมในการอัปเกรดชุดเนื้อหาของคุณไปยังแอป ถ้าคุณยังไม่ได้เริ่มต้น เรียนรู้[เพิ่มเติมเกี่ยวกับการใช้งานพื้นที่ทำงานใหม่](service-create-the-new-workspaces.md)
 
 ## <a name="create-and-publish-a-content-pack"></a>สร้างและเผยแพร่ชุดเนื้อหา
 

@@ -2,20 +2,20 @@
 title: การแคชคิวรีใน Power BI Premium
 description: การแคชคิวรีใน Power BI Premium
 author: KesemSharabi
-ms.author: maggies
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/16/2019
+ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 489069df43d2c09f6f5551987a61353e095aff7a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6e68f515581d62b544f1c6b17144e73ea709a62d
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076179"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020503"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>การแคชคิวรีใน Power BI Premium/แบบฝังตัว
 
@@ -26,13 +26,13 @@ ms.locfileid: "71076179"
 
 ผลลัพธ์คิวรีที่แคชไว้จะใช้เฉพาะกับผู้ใช้และบริบทชุดข้อมูล และควรคำนึงถึงกฎความปลอดภัยเสมอ ในปัจจุบัน มีบริการแคชคิวรีสำหรับหน้าเริ่มต้นที่คุณไปถึง กล่าวคือ คิวรีไม่ได้ถูกแคชเมื่อคุณโต้ตอบกับรายงาน แคชของคิวรีมีความสำคัญกับ[บุ๊กมาร์กส่วนบุคคล](consumer/end-user-bookmarks.md#personal-bookmarks)และ[ตัวกรองแบบถาวร](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) ดังนั้นคิวรีที่สร้างขึ้นโดยรายงานส่วนบุคคลจะถูกแคช [ไทล์แดชบอร์ด](service-dashboard-tiles.md)ที่ขับเคลื่อนโดยคิวรีเดียวกันจะได้ประโยชน์เมื่อมีการแคชคิวรี โดยเฉพาะอย่างยิ่งประสิทธิภาพจะได้รับประโยชน์เมื่อชุดข้อมูลมีการเข้าถึงบ่อยครั้ง และไม่จำเป็นต้องรีเฟรชบ่อยครั้ง การแคชคิวรียังสามารถลดการโหลดความจุแบบ Premium/แบบฝังตัว ของคุณโดยการลดจำนวนคิวรีโดยรวมได้
 
-คุณสามารถควบคุมพฤติกรรมการแคชคิวรี่ได้ที่หน้า**การตั้งค่า** สำหรับชุดข้อมูลในบริการ Power BI การตั้งค่าที่เป็นไปได้มีอยู่สองวิธีด้วยกัน:
+คุณสามารถควบคุมพฤติกรรมการแคชคิวรี่ได้ที่หน้า**การตั้งค่า** สำหรับชุดข้อมูลในบริการ Power BI การตั้งค่าที่เป็นไปได้มีอยู่สามวิธีด้วยกัน:
 
+- **ค่าเริ่มต้นความจุ**: ปิดการแคชแบบสอบถาม
 - **ปิด**: อย่าใช้การแคชคิวรี่สำหรับชุดข้อมูลนี้
-
 - **เปิด**: ใช้การแคชคิวรี่สำหรับชุดข้อมูลนี้
 
-![กล่องโต้ตอบการแคชคิวรี](media/power-bi-query-caching/power-bi-query-caching.png)
+    ![กล่องโต้ตอบการแคชคิวรี](media/power-bi-query-caching/power-bi-query-3-options.png)
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 

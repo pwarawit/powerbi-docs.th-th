@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c60c3c29bbf87d7a5e18838dac0baa6157de6437
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530610"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020823"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>คัดลอกรายงานจากพื้นที่ทำงานอื่น ๆ (ดูตัวอย่าง)
 
@@ -32,7 +32,7 @@ ms.locfileid: "69530610"
 
     ![บันทึกสำเนาของรายงาน](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
-    คุณจะเห็นเฉพาะไอคอน **บันทึกสำเนา**ถ้ารายงานอยู่ในพื้นที่ทำงานประสบการณ์ใหม่ และคุณมี[สิทธิในการสร้าง](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) แม้ว่าคุณสามารถเข้าถึงพื้นที่ทำงานได้ แต่คุณจะต้องมีสิทธิในการสร้างสำหรับชุดข้อมูล
+    คุณจะเห็นเฉพาะไอคอน**บันทึกสำเนา** หากรายงานอยู่ในพื้นที่ทำงานประสบการณ์ใหม่ และคุณได้รับ[สิทธิ์ในการสร้าง](service-datasets-build-permissions.md) แม้ว่าคุณสามารถเข้าถึงพื้นที่ทำงานได้ แต่คุณจะต้องมีสิทธิ์ในการสร้างสำหรับชุดข้อมูล
 
 3. ใน**บันทึกสำเนาของรายงานนี้** ให้ตั้งชื่อรายงานและเลือกพื้นที่ทำงานปลายทาง
 

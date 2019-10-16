@@ -1,25 +1,25 @@
 ---
 title: Power BI สำหรับผู้ออกแบบที่รายงาน
-description: คุณเชื่อมต่อกับข้อมูล ออกแบบรายงาน และสร้างแดชบอร์ดใน Power BI หรือไม่? คุณเป็นนักพัฒนาซอฟต์แวร์ที่สร้างแอปของคุณเองหรือผู้ดูแลระบบ Power BI หรือไม่?
+description: คุณเชื่อมต่อกับข้อมูล ออกแบบรายงาน และสร้างแดชบอร์ดใน Power BI หรือไม่? คุณเป็นผู้ดูแลระบบ Power BI หรือไม่
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: landing-page
-ms.date: 03/20/2019
+ms.date: 10/07/2019
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 2ec8f0813807e2b92983398a74a02d46e6d4f280
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4defed78228805a3f61447def82b3c3d406103d3
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271783"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239895"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI สำหรับรายงานผู้ออกแบบ
 
-คุณเชื่อมต่อกับข้อมูล ออกแบบรายงาน และสร้างแดชบอร์ดใน Power BI หรือไม่? คุณเป็นนักพัฒนาซอฟต์แวร์ที่สร้างแอปของคุณเองหรือไม่? คุณบริหารจัดการ Power BI หรือไม่? แหล่งข้อมูลเหล่านี้จะช่วยให้คุณทำได้เร็วขึ้น ยินดีต้อนรับ!
+คุณเชื่อมต่อกับข้อมูล ออกแบบรายงาน และสร้างแดชบอร์ดใน Power BI หรือไม่? คุณบริหารจัดการ Power BI หรือไม่? แหล่งข้อมูลเหล่านี้จะช่วยให้คุณทำได้เร็วขึ้น ยินดีต้อนรับ!
 
 คุณเป็นผู้บริโภค Power BI เพิ่มเติมหรือไม่? ยินดีต้อนรับคุณด้วยเช่นกัน เราแนะนำให้เริ่มต้นด้วย[Power BI สำหรับผู้บริโภค](consumer/power-bi-consumer-landing.md)
 
@@ -157,46 +157,6 @@ ms.locfileid: "68271783"
                                           <p></p>
                                                 <a href="service-how-to-collaborate-distribute-dashboards-reports.md">ฉันควรเข้าร่วมงานและแชร์อย่างไร?</a><br/>
                                                 <a href="service-create-workspaces.md">พื้นที่ทำงานของแอปในบริการ Power BI</a> 
-                                    </div> 
-                              </div> 
-                        </div> 
-                  </div> 
-            </li>
-            <li> 
-                  <div class="cardSize"> 
-                        <div class="cardPadding"> 
-                              <div class="card"> 
-                                    <div class="cardImageOuter">
-                                          <div class="cardImage">
-                                                <img alt="Develop for Power BI" src="media/power-bi-creator-landing/power-bi-designer-develop-power-bi.svg" data-linktype="relative-path">
-                                          </div>
-                                    </div>
-                                    <div class="cardText"> 
-                                          <h3>พัฒนาสำหรับ Power BI</h3> 
-                                          <p></p>
-                                                <a href="developer/embedding.md">การฝังด้วย Power BI</a><br/> 
-                                                <a href="developer/custom-visual-develop-tutorial.md">พัฒนาวิชวลแบบกำหนดเอง</a><br/> 
-                                                <a href="https://docs.microsoft.com/rest/api/power-bi">Power BI REST API</a>
-                                    </div> 
-                              </div> 
-                        </div> 
-                  </div> 
-            </li>
-            <li> 
-                  <div class="cardSize"> 
-                        <div class="cardPadding"> 
-                              <div class="card"> 
-                                    <div class="cardImageOuter">
-                                          <div class="cardImage">
-                                                <img alt="Administer Power BI" src="media/power-bi-creator-landing/power-bi-designer-administer-power-bi.svg" data-linktype="relative-path">
-                                          </div>
-                                    </div>
-                                    <div class="cardText"> 
-                                          <h3>ผู้ดูแลระบบ Power BI</h3> 
-                                          <p></p>
-                                                <a href="service-admin-administering-power-bi-in-your-organization.md">การดูแลระบบ Power BI คืออะไร?</a><br/> 
-                                                <a href="service-admin-purchasing-power-bi-pro.md">ซื้อสิทธิ์การใช้งาน Power BI Pro</a><br/>
-                                                <a href="service-admin-reference.md">PowerShell cmdlets, REST APs และ .NET SDK</a>
                                     </div> 
                               </div> 
                         </div> 
