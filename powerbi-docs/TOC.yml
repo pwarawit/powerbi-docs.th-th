@@ -177,8 +177,6 @@
               href: desktop-analysis-services-tabular-data.md
             - name: ใช้ DirectQuery ใน Power BI Desktop
               href: desktop-use-directquery.md
-            - name: DirectQuery สำหรับ Oracle และ Teradata
-              href: desktop-directquery-for-oracle-teradata.md
             - name: DirectQuery และ SAP Business Warehouse (BW)
               href: desktop-directquery-sap-bw.md
             - name: DirectQuery และ SAP HANA
