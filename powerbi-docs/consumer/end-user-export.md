@@ -8,17 +8,20 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/11/2019
+ms.date: 10/11/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 6aec9f569f657c58eb1dc0b807bbceefc62ab01a
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 80033cafbe66303a1d6f55bba61f7d19449dc45b
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71943869"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589529"
 ---
 # <a name="export-data-from-a-visual"></a>ส่งออกข้อมูลจากการแสดงผลด้วยภาพ
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 ถ้าคุณต้องการดูข้อมูลที่ใช้ในการสร้างการแสดงผลด้วยภาพ [คุณสามารถแสดงข้อมูลนั้นใน Power BI](end-user-show-data.md) หรือส่งออกข้อมูลนั้นไปยัง Excel ได้ ตัวเลือกในการส่งออกข้อมูลต้องมีประเภทเฉพาะบางอย่างหรือสิทธิ์การใช้งาน และแก้ไขสิทธิ์ในชุดข้อมูลและรายงาน หากคุณไม่ต้องการส่งออก ให้ตรวจสอบกับผู้ดูแลระบบ Power BI ของคุณ 
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>จากการแสดงผลด้วยภาพบนแดชบอร์ด Power BI

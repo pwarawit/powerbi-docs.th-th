@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a782726e34bec4d6a5b8557c88178d469f7987b6
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a8b1be9157fa34e9ed4c987628f0b67624b4c826
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946203"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307471"
 ---
 # <a name="visuals-in-power-bi"></a>วิชวลใน Power BI
 
@@ -57,7 +57,7 @@ AppSource [คืออะไร?](developer/office-store.md) ซึ่งเป
 ภาพของ Power BI ที่ผ่านการรับรอง เป็นภาพจากตลาดการค้าที่ผ่านการทดสอบที่เข้มงวดเรื่องคุณภาพ และรองรับการใช้งานเพิ่มเติม เช่น[การสมัครใช้งานทางอีเมล](service-report-subscribe.md)และ[การส่งออกไปยัง PowerPoint](service-publish-to-powerpoint.md)
 เมื่อต้องการดูรายการของส่วนแสดงผล Power BI ที่ผ่านการรับรอง หรือต้องการส่งวิชวลของคุณเอง ให้ดู [ส่วนแสดงผล Power BI ที่ผ่านการรับรองแล้ว](power-bi-custom-visuals-certified.md)
 
-คุณเป็นนักพัฒนาเว็บ และสนใจสร้างวิชวลของคุณเอง และเพิ่มเข้าไปใน AppSource หรือไม่ ดู[การพัฒนาวิชวลแบบกำหนดเองสำหรับ Power BI](developer/custom-visual-develop-tutorial.md) และเรียนรู้วิธีการ[เผยแพรส่วนการแสดงผล Power BI ไปยัง AppSource](developer/office-store.md)
+คุณเป็นนักพัฒนาเว็บ และสนใจสร้างวิชวลของคุณเอง และเพิ่มเข้าไปใน AppSource หรือไม่ ดู[การพัฒนาวิชวลแบบกำหนดเองสำหรับ Power BI](developer/visuals/custom-visual-develop-tutorial.md) และเรียนรู้วิธีการ[เผยแพร่วิชวลแบบกำหนดเองไปยัง AppSource](developer/office-store.md)
 
 ### <a name="import-a-custom-visual-from-a-file"></a>นำเข้าภาพที่กำหนดเองจากไฟล์
 
