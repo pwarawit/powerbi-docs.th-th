@@ -353,6 +353,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: การแสดงผลด้วยภาพแบบเมทริกซ์
               href: visuals/desktop-matrix-visual.md
+            - name: วิชวลถามตอบ
+              href: visuals/power-bi-visualization-q-and-a.md
             - name: สร้างการวิเคราะห์ขั้นสูงและแสดงข้อมูลโดยใช้สคริปต์ R ใน Power BI
               href: visuals/service-r-visuals.md
             - name: แผนภูมิหน้าปัดความเร็วใน Power BI
@@ -375,6 +377,22 @@
               href: visuals/power-bi-visualization-waterfall-charts.md
             - name: สร้างสายการอ้างอิงแบบไดนามิก
               href: service-analytics-pane.md
+        - name: ภาษาธรรมชาติ
+          items:
+            - name: บทนำถามตอบ
+              href: natural-language/q-and-a-intro.md
+            - name: วิชวลถามตอบ
+              href: visuals/power-bi-visualization-q-and-a.md
+            - name: บทนำเครื่องมือถามตอบ
+              href: natural-language/q-and-a-tooling-intro.md
+            - name: เครื่องมือถามตอบที่สอนเกี่ยวกับถามตอบ
+              href: natural-language/q-and-a-tooling-teach-q-and-a.md
+            - name: เครื่องมือถามตอบขั้นสูง
+              href: natural-language/q-and-a-tooling-advanced.md
+            - name: แนวทางปฏิบัติที่ดีที่สุดของการถามตอบ
+              href: natural-language/q-and-a-best-practices.md
+            - name: ข้อจำกัดของการถามตอบ
+              href: natural-language/q-and-a-limitations.md
         - name: การแก้ไขปัญหา
           items:
             - name: แก้ไขปัญหาการนำเข้าฐานข้อมูล Access และสเปรดชีต Excel ใน Power BI Desktop และ Power Query
