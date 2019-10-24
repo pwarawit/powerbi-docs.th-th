@@ -443,7 +443,7 @@
           href: service-tutorial-use-cognitive-services.md
         - name: การบูรณาการการเรียนรู้ของเครื่อง
           href: service-tutorial-invoke-machine-learning-model.md
-        - name: สร้างแบบจำลองการเรียนรู้ของเครื่อง (ดูตัวอย่าง)
+        - name: สร้างแบบจำลองการเรียนรู้ของเครื่อง
           href: service-tutorial-build-machine-learning-model.md
         - name: รีเฟรชข้อมูลจาก SQL Server
           href: service-gateway-sql-tutorial.md
@@ -717,7 +717,7 @@
               href: service-machine-learning-integration.md
             - name: ใช้ Cognitive Services ใน Power BI
               href: service-cognitive-services.md
-            - name: การเรียนรู้ของเครื่องอัตโนมัติใน Power BI (ดูตัวอย่าง)
+            - name: การเรียนรู้ของเครื่องอัตโนมัติใน Power BI
               href: service-machine-learning-automated.md
         - name: การติดตามการใช้งานข้อมูล
           href: service-data-lineage.md
@@ -1161,6 +1161,8 @@
       href: guidance/import-modeling-data-reduction.md
     - name: ฟังก์ชันการแบ่งเทียบกับตัวดำเนินการหาร (/)
       href: guidance/dax-divide-function-operator.md
+    - name: ความสำคัญของการพับคิวรี
+      href: guidance/power-query-folding.md
     - name: การใช้ฟังก์ชันข้อผิดพลาดที่เหมาะสม
       href: guidance/dax-error-functions.md
     - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
