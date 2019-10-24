@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020351"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543306"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>สร้างแดชบอร์ด Power BI จากรายงาน
 คุณได้อ่าน[บทนำเกี่ยวกับแดชบอร์ดใน Power BI](service-dashboards.md) แล้วและตอนนี้ คุณต้องการสร้างของคุณเอง มีหลายวิธีในการสร้างแดชบอร์ด ตัวอย่างเช่น คุณสามารถสร้างจากรายงาน จาก scratch จากชุดข้อมูล หรือโดยการทำซ้ำแดชบอร์ดที่มีอยู่แล้ว  
@@ -68,9 +68,9 @@ ms.locfileid: "72020351"
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>เปิดรายงานและปักหมุดไทล์ไปยังแดชบอร์ดของคุณ
 1. ในพื้นที่ทำงานเดียวกัน เลือกแท็บ **รายงาน** จากนั้นเลือก **ตัวอย่างการวิเคราะห์การจัดซื้อ** เพื่อเปิดรายงาน
 
-    ![แท็บรายงาน](media/service-dashboard-create/power-bi-reports.png) รายงานเปิดขึ้นในมุมมองการอ่าน โปรดสังเกตว่ามีสองแถบที่ด้านล่าง: **การวิเคราะห์ส่วนลด** และ **ภาพรวมการใช้จ่าย** แต่ละแถบจะแสดงหน้าของรายงานนั้น ๆ
+    ![แท็บรายงาน](media/service-dashboard-create/power-bi-reports.png) รายงานเปิดขึ้นในมุมมองการอ่าน โปรดสังเกตว่ามีสองแถบที่ด้านซ้าย: **การวิเคราะห์ส่วนลด** และ **ภาพรวมการใช้จ่าย** แต่ละแถบจะแสดงหน้าของรายงานนั้น ๆ
 
-2. เลือก**แก้ไขรายงาน**เพื่อเปิดรายงานในมุมมองการแก้ไข
+2. เลือก**ตัวเลือกอื่นๆ (...)**  > **แก้ไขรายงาน**เพื่อเปิดรายงานในมุมมองการแก้ไข
 
     ![รายงานในมุมมองการอ่าน](media/service-dashboard-create/power-bi-reading-view.png)
 3. เลื่อนไปเหนือการแสดงภาพเพื่อดูตัวเลือกที่พร้อมใช้งาน เมื่อต้องการเพิ่มการแสดงภาพลงในแดชบอร์ด เลือกไอคอนเข็มหมุด ![ปักหมุดไอคอน](media/service-dashboard-create/power-bi-pin-icon.png).

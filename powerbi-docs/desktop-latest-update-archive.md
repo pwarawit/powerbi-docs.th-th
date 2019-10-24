@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 1ccf5dd3a84bbbaca7019f8943cf0ab974e4bd06
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: b43408ef91e79d9489480d795329f2e80d0bb1be
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944878"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307735"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -33,6 +33,83 @@ ms.locfileid: "71944878"
 คุณยังสามารถดูวิดีโอ**อัปเดตล่าสุด**เริ่มตั้งแต่แรก จากภายในบทความนี้เลย โดยคลิกที่ไอคอน**เล่น**บนรูปภาพวิดีโอที่อยู่ด้านล่างรายการการอัปเดตได้
 
 ส่วนต่อไปนี้อธิบายวิธีการอัปเดตเดือนก่อนหน้าไปยัง**Power BI Desktop**
+
+## <a name="september-2019-update-2735586561"></a>อัปเดตประจำเดือนกันยายน 2019 (2.73.5586.561)
+
+การอัปเดตประจำเดือนกันยายนของเราเป็นเหมือนการเปิดเทอมใหม่ เช่น มีสิ่งใหม่ ๆ ให้เรียนรู้ อัปเดตข่าวสารไปยังเพื่อน ๆ ที่เราพลาดในช่วงฤดูร้อน และเปิดโอกาสในการใช้สิ่งที่เราได้เรียนเพื่อปรับปรุงรายงานในอนาคตให้ดีขึ้น 
+
+ตอนนี้คุณสามารถ [ดาวน์โหลด Power BI Desktop รุ่นล่าสุด](https://powerbi.microsoft.com/desktop), ส่งเป็นไฟล์ .exe ไฟล์เดียวที่มีภาษาที่รองรับทั้งหมด ถ้าคุณกำลังใช้งาน Windows 10 คุณยังสามารถรับ **Power BI Desktop** ได้จาก Windows Store เวอร์ชันรายเดือนจะเหมือนกันแม้ว่าหมายเลขเวอร์ชันอาจแตกต่างกัน โดยไม่คำนึงถึงวิธีการที่คุณติดตั้ง**Power BI Desktop** ดู[บทความนี้](desktop-get-the-desktop.md)สำหรับข้อมูลเพิ่มเติม 
+
+> [!IMPORTANT]
+> เริ่มตั้งแต่รุ่น 2019 กันยายน Power BI Desktop จะวางจำหน่ายเป็นไฟล์. exe เดียวที่มีภาษาที่รองรับทั้งหมด ไม่มีการเผยแพร่เวอร์ชัน .msi อีกต่อไป
+
+
+ลิงก์ที่อยู่ข้างแต่ละอัปเดต มีความหมายดังนี้:
+
+* **[วิดีโอ]** เล่นวิดีโอในแท็บเบราว์เซอร์ใหม่ ตรงจุดที่กำลังพูดถึงคุณลักษณะดังกล่าว
+* บางคุณลักษณะก็มี **[บทความ]** ที่ให้รายละเอียดเพิ่มเติม
+* คุณลักษณะส่วนใหญ่จะอธิบายไว้ใน **[บล็อก]** โพสต์ ที่อัปเดตรายเดือน
+* สุดท้าย คุณลักษณะบางอย่างก็อธิบายได้ด้วยตัวเอง ไม่จำเป็นต้องมีบทความ หรือวิดีโอ
+
+คุณยังสามารถดูวิดีโอ**อัปเดตล่าสุด**เริ่มตั้งแต่แรก จากภายในบทความนี้เลย โดยคลิกที่ไอคอน**เล่น**บนรูปภาพวิดีโอที่อยู่ด้านล่างรายการการอัปเดตได้
+
+การปรับปรุงต่อไปนี้เป็นของใหม่ใน **Power BI Desktop** สำหรับเดือนนี้:
+
+### <a name="reporting"></a>การรายงาน
+* ประเภทสีและข้อความในธีม [[วิดีโอ]](https://youtu.be/neq0THnRJzo?t=11)  [[บทความ]](desktop-report-themes.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#themeJSON) 
+* ธีมค่าเริ่มต้นใหม่  [[วิดีโอ]](https://youtu.be/neq0THnRJzo?t=334)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#newThemes)
+* การปรับปรุงบานหน้าต่างภาพส่วนบุคคล (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/neq0THnRJzo?t=601)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#vizPane)
+
+
+### <a name="analytics"></a>การวิเคราะห์
+* สตริงรูปแบบแบบกำหนดเอง [[วิดีโอ]](https://youtu.be/neq0THnRJzo?t=731)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#customFormatStrings) 
+* การจัดรูปแบบตามเงื่อนไขสำหรับตัวเลือกการจัดรูปแบบวิชวลเพิ่มเติม [[วิดีโอ]](https://youtu.be/neq0THnRJzo?t=813)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#conditionalFormatting) 
+* การปรับปรุงความสามารถในการดูรายละเอียดแนวลึก [[วิดีโอ]](https://youtu.be/neq0THnRJzo?t=959)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#drillThrough) 
+* นิพจน์ DAX ใหม่ REMOVEFILTERS และ CONVERT [[วิดีโอ]](https://youtu.be/neq0THnRJzo?t=1048)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#dax) 
+
+
+### <a name="visuals"></a>การแสดงผลด้วยภาพ
+* วิชวล PowerApps พร้อมใช้งานโดยทั่วไปแล้ว [[วิดีโอ]](https://youtu.be/neq0THnRJzo?t=1063)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#powerApps) 
+
+
+### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
+* การปรับปรุงตัวเชื่อมต่อ PostgreSQL [[วิดีโอ]](https://youtu.be/neq0THnRJzo?t=1112)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#postgreSQL) 
+
+### <a name="data-preparation"></a>การเตรียมข้อมูล
+* คัดลอกไปยังคลิปบอร์ดจากการสร้างโปรไฟล์ข้อมูล [[วิดีโอ]](https://youtu.be/neq0THnRJzo?t=1146)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#copyProfiling) 
+
+
+### <a name="template-apps"></a>แอปแม่แบบ
+* รายงาน Google Analytics [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#googleAnalytics) 
+
+### <a name="other"></a>อื่นๆ
+* การปรับปรุงประสิทธิภาพการทำงานสำหรับแบบจำลองหลายมิติ [[วิดีโอ]](https://youtu.be/neq0THnRJzo?t=1208)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfMultiDiminsional) 
+* การปรับปรุงประสิทธิภาพการทำงานของคิวรีสำหรับแบบจำลอง DirectQuery  [[วิดีโอ]](https://youtu.be/neq0THnRJzo?t=1272)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfDirectQuery) https://youtu.be/neq0THnRJzo?t=1208
+
+> [!NOTE]
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+
+ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
+
+วิดีโอต่อไปนี้อธิบาย และแสดงการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/neq0THnRJzo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
+
+นอกจากนี้คุณยังสามารถดาวน์โหลด Power BI Desktop เวอร์ชันก่อนหน้าหากองค์กรของคุณต้องการใช้ได้ด้วยเช่นกัน เราแนะนำให้คุณใช้เวอร์ชันล่าสุดของ Power BI Desktop มากกว่าเวอร์ชันก่อนหน้าเสมอ เวอร์ชันก่อนหน้าทั้งหมดมีข้อจำกัดดังต่อไปนี้:
+
+* Power BI Desktop รุ่นก่อนหน้าจะไม่มีให้บริการ - คุณควรใช้รุ่นล่าสุดเสมอเพื่อใช้คุณลักษณะและการอัปเดตล่าสุด
+* คุณอาจไม่สามารถเปิดไฟล์ที่สร้างหรือบันทึกใน Power BI Desktop รุ่นใหม่กว่าด้วย Power BI Desktop เวอร์ชันก่อนหน้าได้ 
+* หากคุณได้รับคำเตือนเมื่อโหลดรายงานที่บันทึกใน Power BI Desktop เวอร์ชันที่ใหม่กว่า แล้วบันทึกรายงานนั้นในเวอร์ชันก่อนหน้า คุณจะสูญเสียข้อมูลใดๆ ที่เกี่ยวข้องกับคุณลักษณะใหม่
+* เราจัดเก็บ Power BI Desktop เวอร์ชันภาษาอังกฤษเท่านั้น
+
+เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
+
+* [Power BI Desktop - 32 บิต เวอร์ชันกันยายน 2019](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09.msi)
+* [Power BI Desktop - 64 บิต เวอร์ชันกันยายน 2019](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09_x64.msi)
+
 
 ## <a name="august-2019-update-2725556801"></a>อัปเดตประจำเดือนสิงหาคม 2019 (2.72.5556.801)
 
@@ -209,7 +286,7 @@ ms.locfileid: "71944878"
     * การสนับสนุนสำหรับ Cloud RLS
 * จัดการการเข้าถึงกล่องโต้ตอบการรวม [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=1213)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#aggregationsAccessibility) 
 
-### <a name="modeling"></a>การวางรูปแบบ
+### <a name="modeling"></a>การสร้างแบบจำลอง
 * ใหม่ == ตัวดำเนินการเปรียบเทียบ DAX [[วิดีโอ]](https://youtu.be/7k-nP38uHyQ?t=1267)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#dax) 
 
 
@@ -289,7 +366,7 @@ ms.locfileid: "71944878"
     * การสนับสนุนอุปกรณ์เคลื่อนที่
 
 
-### <a name="modeling"></a>การวางรูปแบบ
+### <a name="modeling"></a>การสร้างแบบจำลอง
 * ปิดใช้งานตารางกำหนดวันโดยอัตโนมัติสำหรับรายงานใหม่ [[วิดีโอ]](https://youtu.be/O8GlHDz8xUQ?t=984)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#autoDate) 
 * อัปเดตไปยังฟังก์ชัน ALLSELECTED DAX [[วิดีโอ]](https://youtu.be/O8GlHDz8xUQ?t=1080)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#dax) 
 
@@ -365,7 +442,7 @@ ms.locfileid: "71944878"
 * คำเหมือนบางส่วนที่ตรงกันสำหรับคำศัพท์ในถามตอบ [[วิดีโอ]](https://youtu.be/vih35kSrEHU?t=912)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#partialMatching) 
 
 
-### <a name="modeling"></a>การวางรูปแบบ
+### <a name="modeling"></a>การสร้างแบบจำลอง
 * ฟังก์ชัน DAX ใหม่ - ALLCROSSFILTERED [[วิดีโอ]](https://youtu.be/vih35kSrEHU?t=970)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dax) 
 
 ### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
@@ -455,7 +532,7 @@ ms.locfileid: "71944878"
 * แสดงวันที่เป็นลำดับชั้นพร้อมใช้งานโดยทั่วไปแล้วในขณะนี้ [[วิดีโอ]](https://youtu.be/rBPGH6eYlT0?t=397) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#dateHierarchy) 
 
 
-### <a name="modeling"></a>การวางรูปแบบ
+### <a name="modeling"></a>การสร้างแบบจำลอง
 * ในขณะนี้ มุมมองการสร้างแบบจำลองใหม่พร้อมใช้งานโดยทั่วไป [[วิดีโอ]](https://youtu.be/rBPGH6eYlT0?t=417) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#modellingView) 
 * ฟังก์ชัน DAX ใหม่[[วิดีโอ]](https://youtu.be/rBPGH6eYlT0?t=560)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#DAX) 
 
@@ -485,18 +562,6 @@ ms.locfileid: "71944878"
 > [!NOTE]
 > นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
 
-
-นอกจากนี้คุณยังสามารถดาวน์โหลด Power BI Desktop เวอร์ชันก่อนหน้าหากองค์กรของคุณต้องการใช้ได้ด้วยเช่นกัน เราแนะนำให้คุณใช้เวอร์ชันล่าสุดของ Power BI Desktop มากกว่าเวอร์ชันก่อนหน้าเสมอ เวอร์ชันก่อนหน้าทั้งหมดมีข้อจำกัดดังต่อไปนี้:
-
-* Power BI Desktop รุ่นก่อนหน้าจะไม่มีให้บริการ - คุณควรใช้รุ่นล่าสุดเสมอเพื่อใช้คุณลักษณะและการอัปเดตล่าสุด
-* คุณอาจไม่สามารถเปิดไฟล์ที่สร้างหรือบันทึกใน Power BI Desktop รุ่นใหม่กว่าด้วย Power BI Desktop เวอร์ชันก่อนหน้าได้ 
-* หากคุณได้รับคำเตือนเมื่อโหลดรายงานที่บันทึกใน Power BI Desktop เวอร์ชันที่ใหม่กว่า แล้วบันทึกรายงานนั้นในเวอร์ชันก่อนหน้า คุณจะสูญเสียข้อมูลใดๆ ที่เกี่ยวข้องกับคุณลักษณะใหม่
-* เราจัดเก็บ Power BI Desktop เวอร์ชันภาษาอังกฤษเท่านั้น
-
-เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
-
-* [Power BI Desktop รุ่นเดือนมีนาคม 2019 - 32 บิต](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03.msi)
-* [Power BI Desktop รุ่นเดือนมีนาคม 2019 - 64 บิต](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-03_x64.msi)
 
 
 ## <a name="february-2019-update-26653761681"></a>การอัปเดตประจำเดือนกุมภาพันธ์ 2019 (2.66.5376.1681)
@@ -601,7 +666,7 @@ ms.locfileid: "71944878"
 * การสนับสนุนการเชื่อมต่อสดสำหรับการถามตอบ (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=1037) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#liveConnectQA) 
 
 
-### <a name="modeling"></a>การวางรูปแบบ
+### <a name="modeling"></a>การสร้างแบบจำลอง
 
 * การอัปเดตแถบสูตร DAX [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=1132) [[บทความ]](desktop-modeling-view.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#daxFormulaBar) 
 * การสนับสนุนสำหรับการเข้าถึงการดูข้อมูล [[วิดีโอ]](https://youtu.be/AHNlkjRFdYI?t=1253) [[บทความ]](desktop-composite-models.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#dataView) 
@@ -661,7 +726,7 @@ ms.locfileid: "71944878"
 * ติดตามคำถามในถามตอบ explorer [[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=1429)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
 
 
-### <a name="modeling"></a>การวางรูปแบบ
+### <a name="modeling"></a>การสร้างแบบจำลอง
 
 * สร้างมุมมองแบบจำลอง (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=1642)[[บทความ]](desktop-modeling-view.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
 * สีผสมแบบจำลองในขณะนี้พร้อมใช้งานแล้วสำหรับ[[วิดีโอ]](https://youtu.be/1xsXXoyTxfk?t=1941)[[บทความ]](desktop-composite-models.md)[[บล็อก] ](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23compositeModels) 
@@ -706,7 +771,7 @@ ms.locfileid: "71944878"
 * การปรับปรุงสมรรถภาพสำหรับแผนที่ ArcGIS [[วิดีโอ]](https://youtu.be/cT3L2VzgBRU?t=333)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
 
 
-### <a name="modeling"></a>การวางรูปแบบ
+### <a name="modeling"></a>การสร้างแบบจำลอง
 
 * การปรับปรุงตัวแก้ไข DAX [[วิดีโอ]](https://youtu.be/GO1dhDJhSDY)  [[บทความ]](desktop-formula-editor.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23daxEditor) 
 
@@ -806,7 +871,7 @@ ms.locfileid: "71944878"
 
 การอัปเดตใหม่ต่อไปนี้จะถูกอัปเดตไปยัง**Power BI Desktop**ในเดือนสิงหาคม:
 
-### <a name="modeling"></a>การวางรูปแบบ
+### <a name="modeling"></a>การสร้างแบบจำลอง
 
 * ประเภทข้อมูลสำหรับหน่วยวัด  [[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=15m27s)  [[บทความ]](desktop-measures.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dataCategory)
 * ฟังก์ชัน DAX ทางสถิติ  [[วิดีโอ]](https://youtu.be/dgv5HhHxxe8?t=18m56s)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#dax)
@@ -855,7 +920,7 @@ ms.locfileid: "71944878"
 
 การอัปเดตใหม่ต่อไปนี้จะถูกอัปเดตไปยัง**Power BI Desktop**ในเดือนกรกฏาคม:
 
-### <a name="modeling"></a>การวางรูปแบบ
+### <a name="modeling"></a>การสร้างแบบจำลอง
 
 * โมเดลแบบรวม (ตัวอย่าง)  [[วิดีโอ]](https://youtu.be/Mtig3rmIUe0?t=15s)  [[บทความ]](desktop-composite-models.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
 * ความสัมพันธ์แบบกลุ่ม-ต่อ-กลุ่ม (ตัวอย่าง) (เชื่อมโยงกับโมเดลแบบรวม)   [[วิดีโอ]](https://youtu.be/Mtig3rmIUe0?t=4m53s)  [[บทความ]](desktop-many-to-many-relationships.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#compositeModels)
@@ -925,7 +990,7 @@ ms.locfileid: "71944878"
 
 * วิชวลแบบกำหนดเองใหม่สองวิชวล [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=17m42s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
 
-### <a name="modeling"></a>การวางรูปแบบ
+### <a name="modeling"></a>การสร้างแบบจำลอง
 * การกรองและเรียงลำดับในมุมมองข้อมูล [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=13m11s) [[บทความ]](desktop-data-view.md#filtering-in-data-view) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
 * ปรับปรุงการกรองตามตำแหน่งที่ตั้ง [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=15m35s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#locale) 
 

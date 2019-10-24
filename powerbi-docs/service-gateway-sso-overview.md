@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: a99aad87763edce54996f0a485fde5498fb1df11
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: b1379bb783b090362215eaf7c317bbea435d1eec
+ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968616"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "72259930"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>ภาพรวมของการลงชื่อเข้าใช้ครั้งเดียว (SSO) สำหรับเกตเวย์ใน Power BI
 
@@ -25,7 +25,9 @@ ms.locfileid: "71968616"
 
 * SQL Server ([Kerberos](service-gateway-sso-kerberos.md))
 * SAP HANA ([Kerberos](service-gateway-sso-kerberos.md) และ [SAML](service-gateway-sso-saml.md))
-* SAP BW ([Kerberos](service-gateway-sso-kerberos.md))
+* เซิร์ฟเวอร์แอปพลิเคชัน SAP BW([Kerberos ](service-gateway-sso-kerberos.md))
+* เซิร์ฟเวอร์ข้อความของ SAP BW ([Kerberos ](service-gateway-sso-kerberos.md))-การแสดงตัวอย่างสาธารณะ
+* Oracle ([Kerberos ](service-gateway-sso-kerberos.md))-การแสดงตัวอย่างสาธารณะ
 * Teradata ([Kerberos](service-gateway-sso-kerberos.md))
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
 * Impala ([Kerberos](service-gateway-sso-kerberos.md))

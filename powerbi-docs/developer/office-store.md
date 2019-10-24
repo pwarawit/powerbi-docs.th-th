@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: 44534f2adbc4f1f39a0c65e11d646fd8fd67be71
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944819"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307655"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
 
 เรียนรู้วิธีที่คุณสามารถเผยแพร่วิชวลแบบกำหนดเองของคุณไปยัง AppSource ให้บุคคลอื่นค้นหาและใช้งาน
 
-เมื่อคุณสร้างวิชวลแบบกำหนดเองของคุณเสร็จ คุณอาจต้องการเผยแพร่ลงใน AppSource ให้บุคคลอื่นสามารถค้นหา และใช้งาน มีบางอย่างที่จะต้องเตรียม ก่อนที่คุณจะทำอย่างนั้นได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีสร้างวิชวลแบบกำหนดเอง โปรดดู[การปรับปรุงวิชวลแบบกำหนดเองของ Power BI](custom-visual-develop-tutorial.md)
+เมื่อคุณสร้างวิชวลแบบกำหนดเองของคุณเสร็จ คุณอาจต้องการเผยแพร่ลงใน AppSource ให้บุคคลอื่นสามารถค้นหา และใช้งาน มีบางอย่างที่จะต้องเตรียม ก่อนที่คุณจะทำอย่างนั้นได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีสร้างวิชวลแบบกำหนดเอง โปรดดู[การปรับปรุงวิชวลแบบกำหนดเองของ Power BI](visuals/custom-visual-develop-tutorial.md)
 
    ![ที่เก็บ Office](media/office-store/appsource-01.png)
 
@@ -147,7 +147,7 @@ ms.locfileid: "71944819"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[พัฒนาภาพแบบกำหนดเองของ Power BI](custom-visual-develop-tutorial.md)  
+[พัฒนาภาพแบบกำหนดเองของ Power BI](visuals/custom-visual-develop-tutorial.md)  
 [จัดรูปแบบข้อมูลใน Power BI](../visuals/power-bi-report-visualizations.md)  
 [การแสดงข้อมูลแบบกำหนดเองใน Power BI](../power-bi-custom-visuals.md)  
 [การนำวิชวลแบบกำหนดเอง*เข้ารับการรับรอง*](../power-bi-custom-visuals-certified.md)

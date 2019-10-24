@@ -1,5 +1,5 @@
 ---
-title: วิเคราะห์ข้อมูลค่าใช้จ่ายและใช้งาน Azure ใน Power BI desktop
+title: เชื่อมต่อกับ Microsoft Azure Consumption Insights ใน Power BI desktop
 description: เชื่อมต่อกับ Azure และรับข้อมูลเชิงลึกเกี่ยวกับปริมาณการใช้และการใช้งานโดยใช้ Power BI Desktop ได้อย่างง่ายดาย
 author: davidiseminger
 manager: kfile
@@ -8,29 +8,22 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0474bc4182f77e7084ca8cb78062ba0f2063e7ae
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 44a9e361a1f5031963ba5ce33ee44c7b21f5459b
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160201"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307559"
 ---
-# <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>วิเคราะห์ข้อมูลค่าใช้จ่ายและใช้งาน Azure ใน Power BI desktop
+# <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>เชื่อมต่อกับ Microsoft Azure Consumption Insights ใน Power BI desktop
 
 คุณสามารถใช้ Power BI Desktop เพื่อเชื่อมต่อกับ Azure และรับข้อมูลเชิงลึกเกี่ยวกับการใช้บริการ Azure ขององค์กรของคุณ ด้วยสิ่งนี้ คุณสามารถสร้างรายงานแบบกำหนดเองและหน่วยวัดที่ทำให้เข้าใจมากขึ้นและวิเคราะห์การใช้จ่ายของ Azure ของคุณ
 
-Power BI ในขณะนี้สนับสนุนการเชื่อมต่อกับบัญชีการเรียกเก็บเงิน Enterprise Agreement และข้อตกลงของลูกค้า
-
-* ผู้ใช ้**Enterprise Agreement** ควรเชื่อมต่อกับ **ตัวเชื่อมต่อข้อมูลรายจ่ายเชิงลึกของ Azure** (ด้านล่าง)
-
-* ผู้ใช้ **Customer Agreement** ควรเชื่อมต่อกับ [**ตัวเชื่อมต่อ Azure Cost Management**](#connect-with-azure-cost-management)
-
 > [!NOTE]
-> ถ้าคุณเป็นลูกค้า Enterprise Agreement โดยใช้ตัวเชื่อมต่อ Azure Cost Management และคุณไม่เห็น*รหัสโปรไฟล์การเรียกเก็บเงิน* ในเบลด Cost Management นั่นหมายความว่าคุณไม่ได้อยู่ในแพลตฟอร์ม Modern Commerce สำหรับกรณีเหล่านั้น ใช้ตัวเชื่อมต่อ Azure Consumption Insights ซึ่งต้องการหมายเลขการลงทะเบียน EA แทน*รหัสโปรไฟล์การเรียกเก็บเงิน*
-
+> มีการจำกัดการสนับสนุนสำหรับข้อมูลรายจ่ายเชิงลึกของ Microsoft Azure (รุ่นเบต้า) ในฟังก์ชั่นใหม่ ให้ใช้[การจัดการค่าใช้จ่ายของ Azure สำหรับ Power BI](desktop-connect-azure-cost-management.md)
 
 ## <a name="connect-with-azure-consumption-insights"></a>เชื่อมต่อกับ Azure Consumption Insights
 
@@ -236,112 +229,12 @@ Azure ยังบริการ[ **Azure Consumption and Insights (ACI) API**]
 | SubscriptionId |SubscriptionId |SubscriptionId |ใช่ |
 | SubscriptionGuid |SubscriptionGuid |SubscriptionGuid |ไม่ใช่ |
 
-## <a name="connect-with-azure-cost-management"></a>เชื่อมต่อไปยังการจัดการค่าใช้จ่ายของ Azure
-
-ในส่วนนี้ คุณจะได้เรียนรู้วิธีการเชื่อมต่อกับบัญช Customer Agreement billing ของคุณ
-
-> [!NOTE]
-> ตัวเชื่อมต่อ Azure Cost Management ในขณะนี้สนับสนุนลูกค้าเกี่ยวกับ **Customer Agreement**  ลูกค้า **Enterprise Agreement** ควรเชื่อมต่อกับตัวเชื่อมต่อ Microsoft Azure Consumption Insights
->
->
-
-ในการใช้ตัวเชื่อมต่อ**การจัดการค่าใช้จ่ายของ Azure**ใน **Power BI Desktop**:
-
-1. จากริบบอน **หน้าแรก** เลือก **รับข้อมูล**
-
-1. จากหมวดหมู่ทางด้านซ้าย เลือก **Azure**
-
-1. เลือก**การจัดการค่าใช้จ่ายของ Azure (เบต้า)** ทางด้านขวา
-
-1. เลือก **เชื่อมต่อ**
-
-
-   ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
-
-   ในกล่องโต้ตอบที่ปรากฏขึ้น ป้อนค่า**รหัสโปรไฟล์เรียกเก็บเงิน**ของคุณ
-
-   ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-01.png)
-
-คุณสามารถรับรหัสของคุณจาก[พอร์ทัล Azure](https://portal.azure.com)ได้
-
-1. นำทางไปยัง **การจัดการค่าใช้จ่าย + การเรียกเก็บเงิน**
-
-1. เลือกบัญชีสำหรับการเรียกเก็บเงินของคุณ
-
-1. เลือก**โปรไฟล์การเรียกเก็บเงิน** ในแถบด้านข้าง
-
-1. เลือกโปรไฟลการ์เรียกเก็บเงินของคุณ
-
-1. เลือก **คุณสมบัติ** ในแถบด้านข้าง
-
-1. คัดลอกรหัสโปรไฟล์เรียกเก็บเงินของคุณ
-
-   ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-02.png)
-
-   คุณจะได้รับแจ้งให้ลงชื่อเข้าใช้ด้วยอีเมล Azure ของคุณและรหัสผ่าน  เมื่อคุณรับรองความถูกต้อง คุณจะเห็นการหน้าต่าง**ตัวนำทาง** ที่มีตารางที่พร้อมใช้งาน 12 ตาราง:
-
-| ตาราง        | คำอธิบาย |
-|-------------------- | -------------------------------------------------------------|
-| **กิจกรรมในการเรียกเก็บเงิน** | แฟ้มบันทึกเหตุการณ์ของใบแจ้งหนี้ใหม่ ซื้อเครดิต และอื่น ๆ |
-| **งบประมาณ** | รายละเอียดงบประมาณเพื่อดูค่าใช้จ่ายจริงหรือการใช้งานกับเป้าหมายงบประมาณที่มีอยู่ |
-| **ค่าธรรมเนียม** | สรุปการใช้งาน Azure ระดับเดือน ค่าธรรมเนียม Market Place และค่าธรรมเนียมที่เรียกเก็บเงินแยกต่างหาก |
-| **เครดิตทั้งหมด** | รายละเอียดการสั่งซื้อเครดิต Azure ทั้งหมดสำหรับโปรไฟล์การเรียกเก็บเงินที่ระบุ |
-| **สรุปเครดิต** | สรุปเครดิตสำหรับโปรไฟล์การเรียกเก็บเงินที่ระบุ |
-| **Marketplace** | ค่าธรรมเนียม Azure Marketplace ยึดตามการใช้งานจริง |
-| **ใบราคา** | อัตราการใช้โดยตัววัดสำหรับโปรไฟล์การเรียกเก็บเงินที่ระบุ |
-| **ค่าใช้จ่าย RI** | ค่าใช้จ่ายที่เชื่อมโยงกับอินสแตนซ์ที่สงวนไว้ของคุณมากกว่า 24 เดือนที่ผ่านมา |
-| **คำแนะนำ RI (เดียว)** | คำแนะนำในการซื้อมีอินสแตนซ์ที่สงวนไว้ยึดตามแนวโน้มการใช้งานของคุณในการสมัครใช้งานครั้งเดียวในช่วง 7, 30 หรือ 60 วัน |
-| **คำแนะนำ RI (ใช้ร่วมกัน)** | คำแนะนำในการซื้อมีอินสแตนซ์ที่สงวนไว้ยึดตามแนวโน้มการใช้งานของคุณในการสมัครใช้งานทั้งหมดในช่วง 7, 30 หรือ 60 วัน |
-| **การใช้งาน RI** | รายละเอียดของปริมาณการใช้สำหรับอินสแตนซ์ที่สงวนไว้ของคุณที่มีอยู่ในช่วงเดือนที่ผ่านมา |
-| **รายละเอียดการใช้งาน** | การแบ่งรายละเอียดของปริมาณการใช้และค่าธรรมเนียมโดยประมาณสำหรับรหัสโปรไฟล์การเรียกเก็บเงินที่ให้ไว้ |
-
-คุณสามารถเลือกกล่องกาเครื่องหมายตารางเพื่อดูตัวอย่าง  คุณสามารถเลือกโดยการติ๊กกล่องด้านข้างชื่อของพวกเขาอย่างน้อยหนึ่งตาราง จาก นั้นเลือก**การโหลด**
-
-![](media/desktop-connect-azure-consumption-insights/azure-cost-management-03.png)
-
-เมื่อคุณเลือก**โหลด**ข้อมูลจะถูกโหลดลงใน **Power BI Desktop**
-
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
-
-เมื่อข้อมูลที่คุณเลือกถูกโหลด ตารางและเขตข้อมูลที่คุณเลือก สามารถเห็นได้ในบานหน้าต่าง**เขตข้อมูล**
-
-![](media/desktop-connect-azure-consumption-insights/azure-cost-management-05.png)
-
-ดู [วิธีการวิเคราะห์ค่าใช้จ่ายใน Power BI ด้วยข้อมูลรายจ่ายเชิงลึกของ Azure](https://www.youtube.com/watch?v=QKBMXXrlpEk) วิดีโอนี้อธิบายถึงการตรวจสอบข้อมูลค่าใช้จ่ายของคุณใน Power BI Desktop โดยใช้ตัวเชื่อมต่อข้อมูลรายจ่ายเชิงลึกของ Azure
-
-## <a name="writing-custom-queries"></a>เขียนคิวรีแบบกำหนดเอง
-
-คุณสามารถสร้าง [คิวรี M](/powerquery-m/power-query-m-reference) แบบกำหนดเองเพื่อกำหนดจำนวนเดือน เปลี่ยนเวอร์ชัน API หรือทำตรรกะขั้นสูงเพิ่มเติมบนข้อมูลที่ส่งกลับด้วยตัวเองได้
-
-ใน **Power BI Desktop**:
-
-1. เลือกริบบอน **หน้าแรก**
-2. เลือก **รับข้อมูล** > **คิวรีว่างเปล่า**
-
-หรือใน **ตัวแก้ไขคิวรี**:
-
-1. คลิกขวาในบานหน้าต่าง **คิวรี** ที่อยู่ทางด้านซ้าย
-2. เลือก **คิวรีใหม่ > เมนูว่างเปล่า** จากเมนูที่ปรากฏขึ้น
-
-ในการ**แถบสูตร**พิมพ์ต่อไปนี้ แทน`billingProfileId`กับ ID จริง และ "ค่าใช้จ่าย" ด้วยชื่อตารางที่ถูกต้องใด ๆ (รายการด้านบน)
-
-```
-let
-    Source = AzureCostManagement.Tables(billingProfileId, [ numberOfMonths = 3 ]),
-    charges = Source{[Key="charges"]}[Data]
-in
-    charges
-```
-
-นอกจากการปรับเปลี่ยน `numberOfMonths`ไปยังค่าใด ๆ ระหว่าง 1 และ 36 คุณยังสามารถใส่:
-
-* `apiVersion` เพื่อกำหนดเวอร์ชัน API ที่เรียกใช้คิวรี
-* `lookbackWindow`สำหรับคำแนะนำ RI (เดียวหรือแชร์), การปรับเปลี่ยนหน้าต่างที่จะสร้างคำแนะนำจาก (ตัวเลือกที่ถูกต้อง: 7, 30 หรือ 60 วัน)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 คุณสามารถเชื่อมต่อไปยังแหล่งข้อมูลต่าง ๆ มากมายโดยใช้ Power BI Desktop สำหรับข้อมูลเพิ่มเติม ให้ดูบทความต่อไปนี้:
 
+* [เชื่อมต่อไปยังข้อมูล Azure Cost Management ใน Power BI Desktop](desktop-connect-azure-cost-management.md)
 * [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
 * [จัดรูปทรงและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 10/16/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 75b7a606e588ca7f6d1393c5b6e0dd9041f6d63e
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a9e8d2aaab7c0b3ed1daea32486260d09bc6f6a2
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945200"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511635"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>แหล่งข้อมูลที่สนับสนุนโดย DirectQuery Power BI
 
@@ -76,7 +76,7 @@ ms.locfileid: "71945200"
 | ฐานข้อมูล Oracle |ใช่ |
 | PostgreSQL |ใช่ |
 | เซิร์ฟเวอร์แอปพลิเคชัน SAP Business Warehouse |ใช่ |
-| เซิร์ฟเวอร์ข้อความ SAP Business Warehouse |ยังไม่สนับสนุนใน**บริการ Power BI** |
+| เซิร์ฟเวอร์ข้อความ SAP Business Warehouse |ใช่ |
 | SAP HANA |ใช่ |
 | Snowflake |ใช่ |
 | Spark (รุ่น Beta) (เวอร์ชัน 0.9 หรือสูงกว่า) |ใช่ |
@@ -97,6 +97,7 @@ ms.locfileid: "71945200"
 - Impala
 - SAP HANA
 - SAP BW
+- เซิร์ฟเวอร์ข้อความของ SAP แบนด์วิดท์ (ตัวอย่าง)
 - Spark
 - SQL Server
 - Teradata

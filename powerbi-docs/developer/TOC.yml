@@ -129,6 +129,8 @@
               href: register-app.md
             - name: รับโทเค็นการเข้าถึง Azure AD
               href: get-azuread-access-token.md
+            - name: ผูกพันแบบไดนามิก
+              href: embed-dynamic-binding.md
             - name: ถามตอบเกี่ยวกับการฝัง
               href: qanda.md
             - name: แก้ไขปัญหาแอปพลิเคชันแบบฝังตัวของคุณ

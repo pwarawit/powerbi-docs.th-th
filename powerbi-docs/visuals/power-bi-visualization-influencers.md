@@ -10,14 +10,17 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e88d853f59a0e9a188d6d6796559ad2d9059a9
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995288"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544059"
 ---
 # <a name="key-influencers-visualization"></a>การแสดงภาพข้อมูลผู้มีอิทธิพลหลัก
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 ภาพวิชวลของผู้มีอิทธิพลหลักช่วยให้คุณเข้าใจปัจจัยที่มีผลต่อเมตริกที่คุณสนใจ ซึ่งช่วยวิเคราะห์ข้อมูลของคุณ จัดอันดับปัจจัยที่มีความสำคัญ และแสดงพวกเขาในฐานะที่เป็นผู้มีอิทธิพลหลัก ตัวอย่างเช่น สมมติว่าคุณต้องการค้นหาว่าสิ่งที่มีผลต่อการลาออกของพนักงาน ซึ่งเรียกอีกอย่างว่าการลาออก ปัจจัยหนึ่งอาจมาจากระยะเวลาของสัญญาจ้างงาน และอีกปัจจัยหนึ่งอาจเป็นอายุของพนักงาน 
  
 ## <a name="when-to-use-key-influencers"></a>เมื่อใดที่ควรใช้ผู้มีอิทธิพลหลัก 
@@ -49,6 +52,10 @@ ms.locfileid: "68995288"
  
 ดูวิดีโอนี้เพื่อเรียนรู้วิธีการสร้างภาพวิชวลของผู้มีอิทธิพลหลักด้วยเมตริกแบบจัดกลุ่ม แล้วทำตามขั้นตอนเหล่านี้เพื่อสร้างภาพวิชวล 
 
+   > [!NOTE]
+   > วิดีโอนี้ใช้ Power BI Desktop เวอร์ชันก่อนหน้านี้
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ผู้จัดการผลิตภัณฑ์ของคุณต้องการให้คุณค้นหาว่าปัจจัยใดที่ทำให้ลูกค้าต้องแสดงความคิดเห็นเชิงลบเกี่ยวกับบริการคลาวด์ของคุณ หากต้องการทำตาม ให้เปิด [ไฟล์ PBIX คำติชมของลูกค้า](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) ใน Power BI Desktop คุณยังสามารถดาวน์โหลด [ไฟล์ Excel คำติชมของลูกค้าสำหรับบริการ Power BI หรือ Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx) 
