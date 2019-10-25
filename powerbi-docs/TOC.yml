@@ -211,8 +211,6 @@
               href: desktop-calculated-tables.md
             - name: หน่วยวัดใน Power BI Desktop
               href: desktop-measures.md
-            - name: แก้ไขรูปแบบภาษาของ ถามตอบ
-              href: power-bi-q-and-a-linguistic-schema.md
             - name: นำเข้า และแสดง KPI (ตัวอย่าง)
               href: desktop-import-and-display-kpis.md
         - name: สร้างรายงาน
@@ -227,8 +225,6 @@
               href: desktop-tooltips.md
             - name: ส่งออกเป็น PDF และพิมพ์รายงาน
               href: desktop-export-to-pdf.md
-            - name: การถามตอบใน Power BI Desktop
-              href: desktop-qna-in-reports.md
             - name: บานหน้าต่างการวิเคราะห์ใน Power BI Desktop
               href: desktop-analytics-pane.md
             - name: ใช้ข้อมูลเชิงลึกเพื่ออธิบายการเพิ่มขึ้นและการลดลง
