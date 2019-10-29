@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Power BI สำหรับผู้ดูแลระบบ
-summary: เอกสาร Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+title: เอกสารกำกับผู้ดูแลระบบ Power BI
+summary: เอกสารกำกับผู้ดูแลระบบ Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
 metadata:
-  title: Power BI สำหรับผู้ดูแลระบบ
-  description: เอกสาร Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+  title: เอกสารกำกับผู้ดูแลระบบ Power BI
+  description: เอกสารกำกับผู้ดูแลระบบ Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -11,13 +11,13 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/04/2019
-  ms.openlocfilehash: 8209cc755b33887c533e9f90b9b1cd7a5021490e
-  ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+  ms.date: 10/25/2019
+  ms.openlocfilehash: 533b8dc4ccc800e3120f3a01c6069e224c2df27e
+  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
   ms.translationtype: HT
   ms.contentlocale: th-TH
-  ms.lasthandoff: 10/10/2019
-  ms.locfileid: "72245661"
+  ms.lasthandoff: 10/26/2019
+  ms.locfileid: "72959502"
 landingContent:
 - title: เกี่ยวกับ Power BI สำหรับผู้ดูแลระบบ
   linkLists:

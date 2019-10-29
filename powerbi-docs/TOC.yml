@@ -1047,6 +1047,8 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=849021'
             - name: เข้าถึงชุดข้อมูลที่แชร์เป็นตัวดึงข้อมูล OData
               href: report-server/access-dataset-odata.md
+            - name: เปลี่ยนแปลงชุดอักขระการเชื่อมต่อต้นทางของข้อมูลผ่าน PowerShell
+              href: report-server/connect-data-source-apis.md
             - name: กำหนดค่าการรีเฟรชตามกำหนดเวลา
               href: report-server/configure-scheduled-refresh.md
             - name: เพิ่มข้อคิดเห็นในรายงาน

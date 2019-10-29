@@ -1,8 +1,8 @@
 ### YamlMime:Landing
-title: เอกสาร Power BI สำหรับนักพัฒนา
+title: เอกสารสำหรับนักพัฒนา Power BI
 summary: เอกสาร Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
 metadata:
-  title: Power BI สำหรับนักพัฒนา
+  title: เอกสารสำหรับนักพัฒนา Power BI
   description: เอกสาร Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
   services: powerbi
   ms.service: powerbi
@@ -11,49 +11,49 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/02/2019
-  ms.openlocfilehash: 04cbb872183f589ad37e39c0dd132a1a17662ce4
-  ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+  ms.date: 10/25/2019
+  ms.openlocfilehash: ac0d2e2955846d7b67e94af923b41c8b5f476996
+  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
   ms.translationtype: HT
   ms.contentlocale: th-TH
-  ms.lasthandoff: 10/14/2019
-  ms.locfileid: "72307636"
+  ms.lasthandoff: 10/26/2019
+  ms.locfileid: "72959522"
 landingContent:
 - title: เกี่ยวกับ Power BI สำหรับนักพัฒนา
   linkLists:
   - linkListType: overview
     links:
-    - text: นักพัฒนาสามารถทำอะไรกับ Power BI ได้บ้าง
+    - text: นักพัฒนาสามารถทำอะไรได้บ้าง
       url: what-can-you-do.md
     - text: วิชวลใน Power BI
       url: ../power-bi-custom-visuals.md
-    - text: กำลังฝังอะไรกับ Power BI
+    - text: การฝังคืออะไร
       url: embedding.md
     - text: Power BI API คืออะไร
       url: overview-of-power-bi-rest-api.md
   - linkListType: reference
     links:
-    - text: ศูนย์นักพัฒนา Power BI
+    - text: ศูนย์นักพัฒนา
       url: https://powerbi.microsoft.com/developers/
-    - text: ตัวอย่างสำหรับนักพัฒนา Power BI
+    - text: ตัวอย่างสำหรับนักพัฒนา
       url: https://github.com/Microsoft/PowerBI-Developer-Samples
-    - text: วิกิสำหรับ Power BI JavaScript
+    - text: JavaScript wiki
       url: https://github.com/Microsoft/powerbi-javascript/wiki
-    - text: Power BI REST APIs
+    - text: REST API
       url: https://docs.microsoft.com/rest/api/power-bi/
     - text: Azure Resource Manager REST APIs
       url: https://docs.microsoft.com/rest/api/power-bi-embedded/
-- title: การแสดงภาพ Power BI
+- title: การแสดงผลด้วยภาพ
   linkLists:
   - linkListType: tutorial
     links:
-    - text: พัฒนาวิชวล Power BI
+    - text: พัฒนาการแสดงผลด้วยภาพ
       url: visuals/custom-visual-develop-tutorial.md
   - linkListType: concept
     links:
-    - text: คำถามที่พบบ่อยเกี่ยวกับการแสดงผลด้วยภาพของ Power BI
+    - text: คำถามที่พบบ่อยเกี่ยวกับวิชวล
       url: ../power-bi-custom-visuals-faq.md
-    - text: คำแนะนำสำหรับการแสดงภาพ Power BI
+    - text: คำแนะนำสำหรับการแสดงผลด้วยภาพ
       url: guidelines-powerbi-visuals.md
     - text: โหมดการแก้ไขขั้นสูงในการแสดงผลด้วยภาพ
       url: /advanced-edit-mode.md
@@ -79,7 +79,7 @@ landingContent:
       url: embed-multi-tenancy.md
     - text: คำถามที่พบบ่อยแบบฝังตัว
       url: embedded-faq.md
-    - text: สิทธิ์ของ Power BI
+    - text: การอนุญาตสิทธิ์
       url: power-bi-permissions.md
   - linkListType: how-to-guide
     links:
@@ -89,5 +89,5 @@ landingContent:
       url: create-an-azure-active-directory-tenant.md
     - text: รับโทเค็นการเข้าถึง Azure AD
       url: get-azuread-access-token.md
-    - text: ถามตอบใน Power BI Embedded
+    - text: Q&A ฟังก์ชันการทำงานใน Power BI Embedded
       url: qanda.md

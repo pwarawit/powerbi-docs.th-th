@@ -1,4 +1,5 @@
-- name: Power BI สำหรับนักพัฒนา
+- name: เอกสารสำหรับนักพัฒนา Power BI
+  href: index.yml
   items:
     - name: ภาพรวม
       expanded: true

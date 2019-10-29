@@ -1,4 +1,6 @@
-- name: การดูแล Power BI
+- name: เอกสารกำกับผู้ดูแลระบบ Power BI
+  href: index.yml
+  expanded: true
   items:
     - name: ภาพรวม
       expanded: true
@@ -8,7 +10,7 @@
     - name: แนวคิด
       expanded: true
       items:
-        - name: บทบาทการดูแลระบบใน Office 365
+        - name: บทบาทการจัดการใน Microsoft 365
           href: ../service-admin-role.md
         - name: คำถามที่พบบ่อย (FAQ)
           href: ../service-admin-faq.md
@@ -22,9 +24,9 @@
               href: ../service-admin-licensing-organization.md
             - name: ซื้อ Power BI Pro
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: ลงทะเบียนสำหรับการทดลองใช้งาน Office 365
+            - name: สมัครผ่าน Microsoft 365 Trial
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-            - name: เพิ่ม Power BI กับคู่ค้า Office 365
+            - name: เพิ่ม Power BI ผ่านพันธมิตรของ Microsoft 365
               href: ../service-admin-syndication-partner.md
         - name: การใช้พอร์ทัลผู้ดูแลระบบ
           href: ../service-admin-portal.md
@@ -32,19 +34,19 @@
           href: ../service-admin-where-is-my-tenant-located.md
         - name: ค้นหาผู้ใช้ที่มีการลงชื่อเข้าใช้
           href: ../service-admin-access-usage.md
-        - name: กำลังตรวจสอบ Power BI
+        - name: การตรวจสอบ
           href: ../service-admin-auditing.md
         - name: ติดตามสถานภาพบริการ
           href: ../service-admin-health.md
-        - name: ปิดบัญชี Power BI ของคุณ
+        - name: กำลังปิดบัญชีของคุณ
           href: ../service-admin-closing-your-account.md
-        - name: Power BI และ ExpressRoute
+        - name: ExpressRoute
           href: ../service-admin-power-bi-expressroute.md
         - name: ใช้ Azure AD B2B
           href: ../service-admin-azure-ad-b2b.md
-        - name: ความปลอดภัยระดับแถวด้วย Power BI
+        - name: รักษาความปลอดภัยระดับแถว
           href: ../service-admin-rls.md
-        - name: พื้นที่ทำงานที่เก็บถาวรของ Power BI
+        - name: พื้นที่ทำงานที่จัดเก็บแยกไว้
           href: ../service-admin-power-bi-archived-workspace.md
         - name: กำหนดค่าแอปสำหรับอุปกรณ์เคลื่อนที่ด้วย Intune
           href: ../service-admin-mobile-intune.md
