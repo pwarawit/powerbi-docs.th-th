@@ -424,11 +424,11 @@
     - name: ภาพรวม
       items:
         - name: Power BI คืออะไร
-          href: power-bi-overview.md
+          href: fundamentals/power-bi-overview.md
         - name: บริการ Power BI คืออะไร
           href: power-bi-service-overview.md
         - name: การเปรียบเทียบ Power BI Desktop และการบริการ
-          href: service-service-vs-desktop.md
+          href: designer/service-service-vs-desktop.md
     - name: บทช่วยสอน
       items:
         - name: เริ่มใช้งานด้วย Power BI
