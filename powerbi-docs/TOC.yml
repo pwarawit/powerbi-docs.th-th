@@ -415,10 +415,20 @@
           href: desktop-latest-update-archive.md
         - name: Power BI Desktop ส่งนโยบายความเป็นส่วนตัวในการส่งรอยยิ้ม
           href: desktop-send-smile-privacy-statement.md
-        - name: การเข้าถึงในรายงาน Power BI
-          href: desktop-accessibility.md
         - name: จัดการแบบฟอร์มการลงชื่อเข้าใช้ Power BI Desktop
           href: desktop-admin-sign-in-form.md
+        - name: การช่วยสำหรับการเข้าถึง
+          items:
+            - name: ข้อมูลทั่วไปเกี่ยวกับการเข้าถึงใน Power BI
+              href: desktop-accessibility-overview.md
+            - name: การสร้างรายงาน Power BI ที่สามารถเข้าถึงได้
+              href: desktop-accessibility-creating-reports.md
+            - name: การใช้รายงาน Power BI ด้วยเครื่องมือการเข้าถึง
+              href: desktop-accessibility-consuming-tools.md
+            - name: การสร้างรายงาน Power BI ด้วยเครื่องมือการเข้าถึง
+              href: desktop-accessibility-creating-tools.md
+            - name: แป้นพิมพ์ลัดการเข้าถึงสำหรับรายงาน Power BI
+              href: desktop-accessibility-keyboard-shortcuts.md
 - name: บริการ Power BI
   items:
     - name: ภาพรวม
