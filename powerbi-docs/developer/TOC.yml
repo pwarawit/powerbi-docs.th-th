@@ -71,6 +71,8 @@
               href: visuals/landing-page.md
             - name: เปิดใช้แอป
               href: visuals/launch-url.md
+            - name: API ที่เก็บข้อมูลภายใน
+              href: visuals/local-storage.md
             - name: เหตุการณ์การแสดงผล
               href: visuals/event-service.md
             - name: เรียงลำดับ

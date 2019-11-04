@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b43408ef91e79d9489480d795329f2e80d0bb1be
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 24ff0748a57df5b76d8a559781cf9326764450e3
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307735"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429723"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -107,8 +107,8 @@ ms.locfileid: "72307735"
 
 เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
 
-* [Power BI Desktop - 32 บิต เวอร์ชันกันยายน 2019](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09.msi)
-* [Power BI Desktop - 64 บิต เวอร์ชันกันยายน 2019](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09_x64.msi)
+* [Power BI Desktop - 32 บิต เวอร์ชันกันยายน 2019](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09.exe)
+* [Power BI Desktop - 64 บิต เวอร์ชันกันยายน 2019](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09_x64.exe)
 
 
 ## <a name="august-2019-update-2725556801"></a>อัปเดตประจำเดือนสิงหาคม 2019 (2.72.5556.801)
@@ -767,7 +767,7 @@ ms.locfileid: "72307735"
 ### <a name="reporting"></a>การรายงาน
 
 * ค้นหาในบัตรกรอง [[วิดีโอ]](https://youtu.be/cT3L2VzgBRU?t=56)  [[บทความ]](power-bi-reports-filters-and-highlighting.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23search) 
-* การปรับปรุงความสามารถในการเข้าถึงสำหรับประสบการณ์การเขียน [[วิดีโอ]](https://youtu.be/cT3L2VzgBRU?t=118)  [[บทความ]](desktop-accessibility.md#arranging-items-in-field-buckets)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
+* การปรับปรุงความสามารถในการเข้าถึงสำหรับประสบการณ์การเขียน [[วิดีโอ]](https://youtu.be/cT3L2VzgBRU?t=118)  [[บทความ]](desktop-accessibility-overview.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
 * การปรับปรุงสมรรถภาพสำหรับแผนที่ ArcGIS [[วิดีโอ]](https://youtu.be/cT3L2VzgBRU?t=333)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
 
 
@@ -980,7 +980,7 @@ ms.locfileid: "72307735"
 
 ### <a name="reporting"></a>การรายงาน
 
-* สนับสนุนความคมชัดสูงสำหรับรายงาน [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=13s) [[บทความ]](desktop-accessibility.md#high-contrast-support-for-reports) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
+* สนับสนุนความคมชัดสูงสำหรับรายงาน [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=13s) [[บทความ]](desktop-accessibility-overview.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
 * ตัวควบคุมรัศมีของโดนัท [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=6m1s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
 * การควบคุมตำแหน่งป้ายชื่อรายละเอียดของแผนภูมิวงกลมและแผนภูมิโดนัท [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=7m19s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
 * จัดรูปแบบป้ายชื่อข้อมูลแยกจากกัน สำหรับแต่ละหน่วยวัดในแผนภูมิผสม [[วิดีโอ]](https://youtu.be/4VpGtWSrssE?t=9m29s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
