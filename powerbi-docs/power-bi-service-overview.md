@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a4d8b094fe10b674d315b1982e1dc34148ba6d1d
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: b8a01839da68a276ff136d7068dafac0ce82f102
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70775751"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060851"
 ---
 # <a name="what-is-the-power-bi-service"></a>บริการ Power BI คืออะไร
 **Power BI** คือคอลเลกชันของบริการซอฟต์แวร์ แอป และตัวเชื่อมต่อซึ่งทำงานร่วมกันเพื่อช่วยให้คุณสามารถสร้าง แชร์ และใช้ข้อมูลเชิงลึกทางธุรกิจในลักษณะที่สามารถตอบสนองต่อคุณและธุรกิจของคุณได้อย่างมีประสิทธิภาพที่สุด ในบางครั้ง*บริการ Microsoft Power BI* (app.powerbi.com) ที่หมายถึง Power BI ออนไลน์ ก็คือ SaaS (*Software as a Service*) ซึ่งเป็นส่วนหนึ่งของ Power BI ด้วยการใช้บริการ Power BI *แดชบอร์ด*ช่วยให้คุณสามารถเฝ้่าระหวังความเสี่ยงของธุรกิจของคุณได้ แดชบอร์ดแสดง*ไทล์*ที่คุณสามารถเลือกเพื่อเปิด*รายงาน*สำหรับการสำรวจเพิ่มเติม แดชบอร์ดและรายงานเชื่อมต่อกับ*ชุดข้อมูล*ต่าง ๆ ซึ่งนำข้อมูลที่เกี่ยวข้องทั้งหมดมารวมกันในที่เดียว 
@@ -26,7 +26,7 @@ ms.locfileid: "70775751"
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-คอมโพเนนต์หลักอื่น ๆ ของ Power BI คือแอปพลิเคชัน Windows สำหรับเดสก์ท็อป **Power BI Desktop** และ**แอปสำหรับอุปกรณ์เคลื่อนที่** Power BI สำหรับอุปกรณ์ Windows, iOS และ Android คุณและเพื่อนร่วมงานของคุณสามารถใช้องค์ประกอบทั้งสาม ได้แก่ &mdash;Power BI Desktop, บริการ และแอปสำหรับอุปกรณ์เคลื่อนที่&mdash; เพื่อสร้าง แชร์ และใช้ข้อมูลเชิงลึกทางธุรกิจ อ่านภาพรวมเรื่อง [Power BI คืออะไร](power-bi-overview.md)
+คอมโพเนนต์หลักอื่น ๆ ของ Power BI คือแอปพลิเคชัน Windows สำหรับเดสก์ท็อป **Power BI Desktop** และ**แอปสำหรับอุปกรณ์เคลื่อนที่** Power BI สำหรับอุปกรณ์ Windows, iOS และ Android คุณและเพื่อนร่วมงานของคุณสามารถใช้องค์ประกอบทั้งสาม ได้แก่ &mdash;Power BI Desktop, บริการ และแอปสำหรับอุปกรณ์เคลื่อนที่&mdash; เพื่อสร้าง แชร์ และใช้ข้อมูลเชิงลึกทางธุรกิจ อ่านภาพรวมเรื่อง [Power BI คืออะไร](fundamentals/power-bi-overview.md)
 
 ## <a name="creating-reports-in-the-service"></a>การสร้างรายงานในบริการ
 ในเวิร์กโฟลว์ Power BI ทั่วไป คุณเริ่มต้นโดยการสร้างรายงานใน Power BI Desktop จากนั้นจึงเผยแพร่รายงานไปยังบริการของ Power BI  

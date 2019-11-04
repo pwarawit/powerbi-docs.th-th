@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 9f6139376a713c85500a2e6bd430d5ee52f5b7ad
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9068c522d2aedf95fc65e9bc4bece04531db478d
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514882"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060333"
 ---
 # <a name="power-bi-videos"></a>วิดีโอ Power BI
 เรามีแชนเนล YouTube สำหรับ Power BI! คุณสามารถเยี่ยมชม[แชนเนลของเรา](https://www.youtube.com/user/mspowerbi/videos)และคุณไม่คุ้นเคยกับ Power BI คุณควรเริ่มต้นกับการ[วิเคราะห์และแสดงภาพข้อมูลด้วย “เพลย์ลิสต์ของ Power BI”](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)
@@ -47,7 +47,7 @@ ms.locfileid: "65514882"
 * [Guy ในแชนเนล Cube](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)- วิดีโอใหม่เกี่ยวกับความสามารถและคุณลักษณะของ Power BI
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[Power BI คืออะไร](power-bi-overview.md)
+[Power BI คืออะไร](fundamentals/power-bi-overview.md)
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

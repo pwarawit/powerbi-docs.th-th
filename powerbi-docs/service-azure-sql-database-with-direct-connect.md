@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: a80c549ab3aa61e377b657ad426d240a6a485fdd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: f2d175896876bd6ea6f76b58b0eda0e5100dcfe1
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074251"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060902"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database พร้อม DirectQuery
 
@@ -55,7 +55,7 @@ ms.locfileid: "71074251"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 * [ใช้ DirectQuery ใน Power BI Desktop](desktop-use-directquery.md)  
-* [Power BI คืออะไร](power-bi-overview.md)  
+* [Power BI คืออะไร](fundamentals/power-bi-overview.md)  
 * [รับข้อมูลสำหรับ Power BI](service-get-data.md)  
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

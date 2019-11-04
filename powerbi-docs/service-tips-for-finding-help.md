@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a7baa8284d90242584aa529fb66bc6446402924
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715430"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060297"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 เคล็ดลับสำหรับการรับความช่วยเหลือเกี่ยวกับคำถาม Power BI ของคุณ
 คุณเคยรู้สึกอึดอัดเมื่อใช้ Power BI หรือพบปัญหาเนื่องจากคุณไม่เจอคำตอบของคำถามเกี่ยวกับ Power BI ในเวลาที่คุณต้องการ เช่น "just-in-time" หรือไม่ 
@@ -69,6 +69,6 @@ ms.locfileid: "71715430"
 ตัวอย่าง ถ้าคุณกำลังสงสัยว่าคุณจะสามารถแชร์แดชบอร์ดกับกลุ่มความปลอดภัยได้หรือไม่ เพื่อตอบคำถาม ให้ไปยังกล่องโต้ตอบแชร์และลองเพิ่มกลุ่มความปลอดภัย อะไรก็ดี คุณจะได้คำตอบหลังจากการทดสอบนี้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [Power BI คืออะไร](power-bi-overview.md)
+* [Power BI คืออะไร](fundamentals/power-bi-overview.md)
 * ลองถาม[ชุมชน Power BI](http://community.powerbi.com/)
 * ยังคงมีปัญหาหรือไม่? โปรดเยี่ยมชม[หน้าการรองรับของ Power BI](https://powerbi.microsoft.com/support/)

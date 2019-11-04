@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3c8ef3e522c9f20ff9602d29670ccaf28cd92048
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 843d7769685c8ad960d4a4bc496bb7f8180da3da
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185931"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060586"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>เชื่อมต่อกับ Circuit ID ด้วย Power BI
 การวิเคราะห์ข้อมูลติดต่อสื่อสารของคุณจาก Circuit ID ทำได้ง่ายขึ้นด้วย Power BI Power BI เรียกคืนข้อมูลของคุณ จากนั้นสร้างแดชบอร์ดค่าเริ่มต้นและรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลนั้น หลังจากที่คุณได้สร้างการเชื่อมต่อแล้ว คุณสามารถสำรวจข้อมูลของคุณและปรับแต่งแดชบอร์ดตามความต้องการของคุณได้ ข้อมูลจะถูกรีเฟรชทุกวันโดยอัตโนมัติ
@@ -49,7 +49,7 @@ ms.locfileid: "70185931"
 * แม้ว่าชุดข้อมูลของคุณจะถูกกำหนดให้รีเฟรชรายวัน แต่คุณสามารถเปลี่ยนกำหนดการรีเฟรช หรือลองรีเฟรชตามความต้องการได้โดยใช้**รีเฟรชเดี๋ยวนี้**
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[Power BI คืออะไร](power-bi-overview.md)
+[Power BI คืออะไร](fundamentals/power-bi-overview.md)
 
 [รับข้อมูลสำหรับ Power BI](service-get-data.md)
 

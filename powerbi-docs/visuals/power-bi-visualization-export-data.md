@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21fa3c5c3907e8c1aa4d40bd3e6332c77ff62b98
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: be85769d8ae2340843a4ebdeb5c88ffc2ca86920
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730081"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431093"
 ---
 # <a name="export-data-from-visualizations"></a>ส่งออกข้อมูลจากการแสดงภาพ
 
@@ -181,8 +181,6 @@ ms.locfileid: "68730081"
 - ถ้าการแสดงภาพใช้ข้อมูลจากตารางข้อมูลมากกว่าหนึ่งตาราง และไม่มีความสัมพันธ์ระหว่างตารางเหล่านั้นในรูปแบบข้อมูล Power BI จะทำได้เพียงส่งออกข้อมูลสำหรับตารางแรก
 
 - วิชลแบบกำหนดเองและวิชวล R ยังไม่สนับสนุนในขณะนี้
-
-- การส่งออกข้อมูลไม่พร้อมใช้งานสำหรับผู้ใช้ภายนอกองค์กรของคุณที่กำลังใช้แดชบอร์ดที่แชร์ข้อมูลของผู้ใช้ภายในกับพวกเขา
 
 - ใน Power BI คุณสามารถตั้งชื่อใหม่ให้กับเขตข้อมูล (คอลัมน์) โดยการดับเบิลคลิกที่เขตข้อมูล แล้วพิมพ์ชื่อใหม่ Power BI จะอ้างอิงข้อมูลชื่อใหม่เป็นในฐานะ*นามแฝง* อาจเป็นไปได้ว่า รายงาน Power BI สุดท้ายแล้วมีชื่อเขตข้อมูลที่ซ้ำกัน แต่ Excel ไม่อนุญาตให้มีชื่อที่ซ้ำกัน ดังนั้น เมื่อPower BI ส่งออกข้อมูลไปยัง Excel นามแฝงของเขตข้อมูลถูกแปลงกลับไปเป็นชื่อเขตข้อมูล (คอลัมน์) เดิม  
 

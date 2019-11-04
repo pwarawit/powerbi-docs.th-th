@@ -395,6 +395,8 @@
               href: desktop-access-database-errors.md
             - name: แก้ไขปัญหาเมื่อเริ่มต้น Power BI Desktop
               href: desktop-error-launching-desktop.md
+            - name: การแก้ไขปัญหาแบบจำลอง DirectQuery ใน Power BI Desktop
+              href: desktop-directquery-troubleshoot.md
     - name: การอ้างอิง
       items:
         - name: ชนิดข้อมูลใน Power BI Desktop
@@ -661,7 +663,7 @@
           items:
             - name: สร้างพื้นที่ทำงานใหม่
               href: service-create-the-new-workspaces.md
-            - name: สร้างพื้นที่ทำงานของแอป
+            - name: สร้างพื้นที่ทำงาน
               href: service-create-workspaces.md
             - name: เผยแพร่แอปจากพื้นที่ทำงาน
               href: service-create-distribute-apps.md
@@ -1175,6 +1177,8 @@
       href: guidance/dax-error-functions.md
     - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
       href: service-dataflows-best-practices.md
+    - name: คำแนะนำแบบจำลอง DirectQuery ใน Power BI Desktop
+      href: guidance/directquery-model-guidance.md
     - name: เอกสารทางเทคนิค
       items:
         - name: ภาพรวมเอกสารทางเทคนิค

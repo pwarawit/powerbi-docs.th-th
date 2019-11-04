@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 98c76fd5903a44c8cc1ef5b175f235f1ec4382e9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 114cf65e8abb072ab3f0254cbd4041a43a31d1dc
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61340904"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059649"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>ดรายงานอุปกรณ์มือถือของ Reporting Services (SSRS) และ KPI ในแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI สำหรับ Windows 10
 แอปสำหรับอุปกรณ์เคลื่อนที่ Power BI สำหรับ Windows 10 มีคุณลักษณะการเข้าถึงผ่านอุปกรณ์เคลื่อนที่แบบสดและรองรับระบบสัมผัส เพื่อเข้าใช้งานข้อมูลทางธุรกิจที่สำคัญภายในองค์กรของคุณใน SQL Server 2016 Reporting Services 
@@ -110,6 +110,6 @@ KPI และรายงานอุปกรณ์มือถือของ 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [เริ่มต้นใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10](mobile-windows-10-phone-app-get-started.md)  
-* [Power BI คืออะไร](../../power-bi-overview.md)  
+* [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)  
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 
