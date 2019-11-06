@@ -102,6 +102,8 @@
               href: embed-sample-for-customers.md
             - name: เนื้อหาแบบฝังตัวสำหรับองค์กรของคุณ
               href: embed-sample-for-your-organization.md
+            - name: รายงานที่มีการแบ่งหน้าแบบฝังตัวสำหรับลูกค้า
+              href: embed-paginated-reports-customers.md
             - name: เนื้อหาแบบฝังตัวสำหรับระบบคลาวด์แห่งชาติ
               href: embed-sample-for-customers-national-clouds.md
         - name: แนวคิด
@@ -112,6 +114,8 @@
               href: embed-service-principal.md
             - name: รักษาความปลอดภัยระดับแถว
               href: embedded-row-level-security.md
+            - name: ความปลอดภัยระดับแถวของรายงานที่มีการแบ่งหน้า
+              href: paginated-reports-row-level-security.md
             - name: จัดการผู้เช่าจำนวนมาก
               href: embed-multi-tenancy.md
             - name: บันทึกการวินิจฉัย Azure สำหรับ Power BI Embedded

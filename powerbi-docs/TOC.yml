@@ -327,7 +327,9 @@
               href: visuals/power-bi-map-tips-and-tricks.md
             - name: คุณสมบัติแกน x และแกน y ที่กำหนดด้วยตนเอง
               href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-            - name: แผนที่ ArcGIS
+            - name: สร้าง ArcGIS Maps สำหรับวิชวล Power BI
+              href: visuals/power-bi-visualizations-arcgis.md
+            - name: โต้ตอบกับ ArcGIS Maps สำหรับวิชวล Power BI
               href: visuals/power-bi-visualization-arcgis.md
             - name: แผนภูมิพื้นที่พื้นฐาน
               href: visuals/power-bi-visualization-basic-area-chart.md
@@ -727,6 +729,12 @@
               href: service-cognitive-services.md
             - name: การเรียนรู้ของเครื่องอัตโนมัติใน Power BI
               href: service-machine-learning-automated.md
+        - name: ปกป้องข้อมูลของคุณ
+          items:
+            - name: ภาพรวมเกี่ยวกับการป้องกันข้อมูล
+              href: admin/service-security-data-protection-overview.md
+            - name: ใช้ป้ายชื่อระดับความลับของข้อมูล
+              href: designer/service-security-apply-data-sensitivity-labels.md
         - name: การติดตามการใช้งานข้อมูล
           href: service-data-lineage.md
         - name: รายงานที่มีการแบ่งหน้าใน Power BI
@@ -929,6 +937,8 @@
           href: service-admin-premium-monitor-portal.md
         - name: คิวรีการรีเฟรชแบบเพิ่มหน่วย
           href: service-premium-incremental-refresh.md
+        - name: กำหนดค่าแบบจำลองขนาดใหญ่ (ตัวอย่าง)
+          href: service-premium-large-models.md
         - name: กำหนดค่าภูมิศาสตร์หลายแห่ง
           href: service-admin-premium-multi-geo.md
         - name: นำคีย์การเข้ารหัสลับของคุณมาเอง

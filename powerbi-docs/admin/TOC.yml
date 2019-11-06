@@ -44,6 +44,14 @@
           href: ../service-admin-power-bi-expressroute.md
         - name: ใช้ Azure AD B2B
           href: ../service-admin-azure-ad-b2b.md
+        - name: การป้องกันข้อมูล
+          items:
+            - name: ภาพรวมเกี่ยวกับการป้องกันข้อมูล
+              href: service-security-data-protection-overview.md
+            - name: เปิดใช้งานการติดป้ายชื่อระดับความลับของข้อมูล
+              href: service-security-enable-data-sensitivity-labels.md
+            - name: ใช้ Microsoft Cloud App Security กับ Power BI
+              href: service-security-using-microsoft-cloud-app-security-controls.md
         - name: รักษาความปลอดภัยระดับแถว
           href: ../service-admin-rls.md
         - name: พื้นที่ทำงานที่จัดเก็บแยกไว้
