@@ -1109,6 +1109,8 @@
       items:
         - name: เอกสารทางเทคนิคเรื่องการวางแผนกำลังการผลิต
           href: report-server/capacity-planning.md
+        - name: ความสอดคล้องของการสร้างภาพให้เป็นรูปแบบไฟล์ PDF
+          href: report-server/rendering-extension-support.md
 - name: เกตเวย์
   items:
     - name: ภาพรวม
