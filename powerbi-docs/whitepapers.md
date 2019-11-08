@@ -2,19 +2,19 @@
 title: เอกสารทางเทคนิคสำหรับ Power BI
 description: คุณสามารถสำรวจหัวข้อต่าง ๆ ของ Power BI ในระดับที่ลึกยิ่งกว่าด้วยเอกสารทางเทคนิค
 author: maggiesMSFT
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: b7fe09857d7f9d61745dd263353d3467c9cf6fb4
-ms.sourcegitcommit: e4b28c237c6e0dc16239b161a41a4c30a4b534dd
+ms.openlocfilehash: e88e6753df091fb7f046d475df59fa4344da5d98
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: th-TH
 ms.lasthandoff: 11/07/2019
-ms.locfileid: "73710779"
+ms.locfileid: "73787299"
 ---
 # <a name="whitepapers-for-power-bi"></a>เอกสารทางเทคนิคสำหรับ Power BI
 
@@ -34,9 +34,9 @@ ms.locfileid: "73710779"
 | [การกรองแบบสองทิศทาง](desktop-bidirectional-filtering.md) |อธิบายการกรองไขว้แบบสองทิศทางใน Power BI Desktop (เอกสารทางเทคนิคครอบคลุมถึง SQL Server Analysis Services 2016 ทั้งสองมีลักษณะการทำงานแบบเดียวกัน) | กรกฎาคม 2018 |
 | [DirectQuery ใน SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |DirectQuery ได้รับการออกแบบใหม่เพื่อปรับปรุงความเร็วและประสิทธิภาพการทำงานให้ดียิ้งขึ้นสำหรับ SQL Server 2016 อย่างไรก็ตาม DirectQuery ยังคงมีความซับซ้อนอย่างมากในการทำความเข้าใจและนำมาใช้ | มกราคม 2017 |
 | [Power BI และ SAP BW](https://aka.ms/powerbiandsapbw)| เอกสารนี้อธิบายถึงวิธีการที่ลูกค้า SAP สามารถใช้ประโยชน์จากการเชื่อมต่อ Power BI ไปยังระบบ SAP Business Warehouse (BW) ที่มีอยู่ของลูกค้า| กุมภาพันธ์ 2018 |
-| [การรักษาความปลอดภัย Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |เอกสารนี้แนะนำแบบจำลองความปลอดภัยสำหรับ tabular BI semanticและ Power BI คุณจะได้เรียนรู้วิธีการสร้างบทบาท นำความปลอดภัยแบบไดนามิกมาใช้ กำหนดการตั้งค่าการเลียนแบบ จัดการบทบาท และเลือกวิธีการเชื่อมต่อกับแบบจำลองที่ใช้ได้ในบริบทความปลอดภัยของเครือข่ายของคุณ | เมษายน 2016 |
+| [การรักษาความปลอดภัย Tabular BI Semantic Model](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |เอกสารนี้แนะนำแบบจำลองความปลอดภัยสำหรับ tabular BI semanticและ Power BI คุณจะได้เรียนรู้วิธีการสร้างบทบาท นำความปลอดภัยแบบไดนามิกมาใช้ กำหนดการตั้งค่าการเลียนแบบ จัดการบทบาท และเลือกวิธีการเชื่อมต่อกับแบบจำลองที่ใช้ได้ในบริบทความปลอดภัยของเครือข่ายของคุณ | เมษายน 2016 |
 | [Power BI และ GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| ลิงก์นี้จะนำคุณไปยังรายการเอกสารทางเทคนิคบนพอร์ทัล Service Trust ซึ่งรวมถึงเอกสารทางเทคนิคของ Microsoft Power BI GDPR ด้วย | เมษายน 2018 |
 
 [!INCLUDE [GDPR-related guidance](includes/gdpr-hybrid-note.md)]
 
-ถ้าคุณมีคำถามเพิ่มเติม [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+ถ้าคุณมีคำถามเพิ่มเติม [ลองถามชุมชน Power BI](https://community.powerbi.com/)
