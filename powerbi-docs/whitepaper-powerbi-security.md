@@ -3,19 +3,18 @@ title: เอกสารทางเทคนิคเรื่องควา�
 description: เอกสารทางเทคนิคที่อธิบายถึง ละอธิบายสถาปัตยกรรมด้านความปลอดภัยและการใช้งานสำหรับ Power BI
 author: davidiseminger
 ms.author: davidi
-manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 8cbb1c4b25cacae5cb025f85790be6a1657b0482
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 075d4ea0c243f77ebf0d29020f25bbca6567c6c0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73787762"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870784"
 ---
 # <a name="power-bi-security-whitepaper"></a>เอกสารทางเทคนิคเรื่องความปลอดภัยของPower BI
 
