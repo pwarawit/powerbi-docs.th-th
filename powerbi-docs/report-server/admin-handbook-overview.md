@@ -2,19 +2,18 @@
 title: ภาพรวมของการดูแลระบบ เซิร์ฟเวอร์รายงาน Power BI
 description: บทความนี้เป็นภาพรวมของการดูแลระบบเซิร์ฟเวอร์รายงาน Power BI ที่ตั้งอยู่ภายในองค์กรสำหรับจัดเก็บและจัดการ รายงาน Power BI, Power BI สำหรับอุปกรณ์เคลื่อนที่ และรายงานที่มีการแบ่งหน้า
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: c670c78b03a1cd3fd6ce1ad3aeaa0003ce794eec
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187362"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860225"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>ภาพรวมของการดูแลระบบ เซิร์ฟเวอร์รายงาน Power BI
 บทความนี้เป็นภาพรวมของการดูแลระบบเซิร์ฟเวอร์รายงาน Power BI ที่ตั้งอยู่ภายในองค์กรสำหรับจัดเก็บและจัดการ รายงาน Power BI, Power BI สำหรับอุปกรณ์เคลื่อนที่ และรายงานที่มีการแบ่งหน้า บทความนี้แนะนำแนวคิดของการวางแผน การปรับใช้ และการจัดการเซิร์ฟเวอร์รายงาน Power BI ของคุณ พร้อมลิงก์ไปยังข้อมูลเพิ่มเติม
@@ -49,7 +48,7 @@ ms.locfileid: "66187362"
 [ค้นหาคีย์ผลิตภัณฑ์ของเซิร์ฟเวอร์รายงานคุณ](find-product-key.md)  
 [ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับ Power BI Report Server](install-powerbi-desktop.md)  
 [ดาวน์โหลดตัวสร้างรายงาน](https://www.microsoft.com/download/details.aspx?id=53613)  
-[ดาวน์โหลด SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[ดาวน์โหลด SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: บันทึกรายงานใน Power BI
 description: จัดลำดับหน้าในรายงานในบริการ Power BI และ Power BI Desktop
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d5237ebbaf1be6aac7fcde252754436067ae932e
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 1dfb75595de939f99bf269d67bf9c29a2f0db249
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720828"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871636"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>จัดลำดับหน้าในรายงานในบริการ Power BI และ Power BI Desktop
 หลังจากที่คุณทำการเปลี่ยนแปลงไปยังรายงานใน Power BI คุณสามารถบันทึก บันทึก ด้วยชื่อใหม่ หรือเพียงแค่ปิดโดยไม่บันทึกการเปลี่ยนแปลงของคุณ เช่น คุณเปิดรายงาน สร้างภาพ และปักหมุดลงในแดชบอร์ดของคุณ ถ้าคุณปิดเดี๋ยวนี้โดยไม่บันทึกการเปลี่ยนแปลงของคุณ ไทล์จะยังคงดำรงอยู่บนแดชบอร์ด แต่การแสดงภาพไม่ถูกบันทึกในรายงาน เมื่อคุณคลิกที่ไทล์ในแดชบอร์ด รายงานเปิดขึ้น แต่การแสดงภาพไม่มีข้อมูลในรายงาน
@@ -39,7 +38,7 @@ ms.locfileid: "66720828"
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
 อ่านข้อมูลเพิ่มเติมเกี่ยวกับ[รายงานใน Power BI](consumer/end-user-reports.md)
 
-[แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)
+[แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

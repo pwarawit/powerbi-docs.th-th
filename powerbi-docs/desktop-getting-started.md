@@ -2,7 +2,6 @@
 title: เริ่มต้นใช้งานกับ Power BI Desktop
 description: เริ่มต้นใช้งานกับ Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e533313e20c4e1f994c2ae3d1e552170aef2cbd2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70201011"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868022"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>เริ่มต้นใช้งานกับ Power BI Desktop
 ยินดีต้อนรับสู่ตัว**แนวทางการเริ่มใช้งาน Power BI Desktop** การทัวร์สั้น ๆ สำหรับ Power BI Desktop นี้ช่วยให้คุณคุ้นเคยกับวิธีการที่ Power BI Desktop ทำงาน สาธิตสิ่งที่ Power BI Desktop สามารถทำได้ และเร่งความสามารถของคุณในการสร้างแบบจำลองข้อมูลอย่างมีประสิทธิภาพ พร้อมกับรายงานที่น่าทึ่ง ที่ช่วยในการทำงานด้านข่าวกรองทางธุรกิจของคุณ 
 
-ต้องการดูการสาธิตแทนการอ่าน? อย่าลังเลที่จะ[ดูวิดีโอการเริ่มต้นใช้งาน](desktop-videos.md) และถ้าคุณต้องการติดตามพร้อมดูวิดีโอที่มีข้อมูลตัวอย่างที่ตรงกัน คุณสามารถ[ดาวน์โหลดตัวอย่างสมุดงาน Excel นี้](http://go.microsoft.com/fwlink/?LinkID=521962)ได้
+ต้องการดูการสาธิตแทนการอ่าน? อย่าลังเลที่จะ[ดูวิดีโอการเริ่มต้นใช้งาน](desktop-videos.md) และถ้าคุณต้องการติดตามพร้อมดูวิดีโอที่มีข้อมูลตัวอย่างที่ตรงกัน คุณสามารถ[ดาวน์โหลดตัวอย่างสมุดงาน Excel นี้](https://go.microsoft.com/fwlink/?LinkID=521962)ได้
 
 ![](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
 
@@ -88,7 +87,7 @@ Power BI Desktop จะติดตั้งแอปพลิเคชันห
 
 ไม่ว่าด้วยวิธีใด แหล่งข้อมูลบนเว็บดังต่อไปนี้มีข้อมูลที่น่าสนใจเกี่ยวกับหัวข้อเหล่านั้น และหัวข้ออื่น ๆ อีกมากมาย
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 คุณเลือก**รับข้อมูล \>เว็บ**และวางที่อยู่นั้น
 
@@ -158,7 +157,7 @@ Power BI Desktop จะติดตั้งแอปพลิเคชันห
 
 เราโชคดีที่ยังมีแหล่งข้อมูลสาธารณะอื่นดำเนินการเช่นนี้ แต่จำเป็นต้องมีการปรับรูปสมควรก่อนที่เราจะสามารถเชื่อมโยงข้อมูลดังกล่าวเข้ากับตารางข้อมูลการเกษียณของเราได้ นี่คือแหล่งข้อมูลเว็บที่เกี่ยวกับตัวอักษรย่อของรัฐ:
 
-<http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
+<https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
 จาก Ribbon**หน้าแรก** ใน**ตัวแก้ไขการสอบถาม**เราเลือก**รับข้อมูล\>เว็บ**และพิมพ์ที่อยู่ เลือก**ตกลง** และหน้าต่าง **ตัวนำทาง**จะแสดงสิ่งที่พบบนหน้าเว็บ
 

@@ -2,7 +2,6 @@
 title: แผนที่แถบสี (Choropleths) ใน Power BI
 description: เอกสารประกอบเรื่องการสร้างแผนที่แถบสี (Choropleths) ใน Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2befce7914fc295ff4a6124be10183d5ff20106d
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 9c35e97fba55230277f9f144a5155071656b6add
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544298"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870964"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>แผนที่แถบสี (Choropleths) ใน Power BI
 
@@ -47,7 +46,7 @@ Power BI รวมเข้ากับ Bing เพื่อให้มีพ�
 * เมื่อต้องดูภาพรวมของการกระจายทั่วทั้งตำแหน่งที่ตั้งทางภูมิศาสตร์
 
 ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-บทช่วยสอนนี้ใช้[ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+บทช่วยสอนนี้ใช้[ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
 1. จากด้านบนซ้ายของแถบเมนู เลือก **ไฟล์** > **เปิด**
    
 2. ค้นหาสำเนา**ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก**

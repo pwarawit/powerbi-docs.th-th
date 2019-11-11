@@ -2,7 +2,6 @@
 title: บริการ Power BI คืออะไร
 description: ภาพรวมของบริการของ Power BI และบริการนี้่เหมาะสมกับส่วนอื่นๆ ของ Power BI อย่างไร
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 featuredvideoid: B2vd4MQrz4M
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: b8a01839da68a276ff136d7068dafac0ce82f102
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 22446936f36074379242bd54af15c9bb2864e4a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060851"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874987"
 ---
 # <a name="what-is-the-power-bi-service"></a>บริการ Power BI คืออะไร
 **Power BI** คือคอลเลกชันของบริการซอฟต์แวร์ แอป และตัวเชื่อมต่อซึ่งทำงานร่วมกันเพื่อช่วยให้คุณสามารถสร้าง แชร์ และใช้ข้อมูลเชิงลึกทางธุรกิจในลักษณะที่สามารถตอบสนองต่อคุณและธุรกิจของคุณได้อย่างมีประสิทธิภาพที่สุด ในบางครั้ง*บริการ Microsoft Power BI* (app.powerbi.com) ที่หมายถึง Power BI ออนไลน์ ก็คือ SaaS (*Software as a Service*) ซึ่งเป็นส่วนหนึ่งของ Power BI ด้วยการใช้บริการ Power BI *แดชบอร์ด*ช่วยให้คุณสามารถเฝ้่าระหวังความเสี่ยงของธุรกิจของคุณได้ แดชบอร์ดแสดง*ไทล์*ที่คุณสามารถเลือกเพื่อเปิด*รายงาน*สำหรับการสำรวจเพิ่มเติม แดชบอร์ดและรายงานเชื่อมต่อกับ*ชุดข้อมูล*ต่าง ๆ ซึ่งนำข้อมูลที่เกี่ยวข้องทั้งหมดมารวมกันในที่เดียว 

@@ -2,7 +2,6 @@
 title: ประมาณการตั้งค่า referential integrity ใน Power BI Desktop
 description: ด้วย DirectQuery เรียนรู้วิธีการใช้ Power BI Desktop ประมาณ referential integrity
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e4e13ddf098d68d48fcbe968c325e9a9458b3df
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5af9c2e5979121054e51b928c58f49477c19a7d0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239868"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878802"
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>ประมาณการตั้งค่า referential integrity ใน Power BI Desktop
 เมื่อเชื่อมต่อกับแหล่งข้อมูลโดยใช้ **DirectQuery** คุณสามารถใช้การเลือก **ประมาณ Referential Integrity** เพื่อเปิดใช้งานการเรียกใช้แบบสอบถามที่มีปะสิทธิภาพมากยิ่งขึ้นกับแหล่งข้อมูลของคุณได้ คุณลักษณะนี้มีข้อกำหนดบางอย่างเกี่ยวกับข้อมูลต้นแบบ และจะพร้อมใช้งานเมื่อใช้ **DirectQuery**

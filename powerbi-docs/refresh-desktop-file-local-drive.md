@@ -2,7 +2,6 @@
 title: รีเฟรชชุดข้อมูลที่สร้างจากไฟล์ Power BI Desktop ภายในเครื่อง
 description: รีเฟรชชุดข้อมูลที่สร้างจากไฟล์ Power BI Desktop ภายในไดรฟ์ของเครื่อง
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/04/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 58727627656a3cb22ad7fce626d0c7e6ce746440
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: b96163b433998ad92860ad6c234aac4126cf5486
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816486"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874376"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>รีเฟรชชุดข้อมูลที่สร้างจากไฟล์ Power BI Desktop ภายในไดรฟ์ของเครื่อง
 
@@ -68,5 +67,5 @@ ms.locfileid: "66816486"
 - [การแก้ไขปัญหาเกตเวย์ข้อมูลในองค์กร](service-gateway-onprem-tshoot.md)
 - [แก้ไขปัญหาเกตเวย์ Power BI - ส่วนบุคคล](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

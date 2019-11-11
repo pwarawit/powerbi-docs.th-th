@@ -2,19 +2,18 @@
 title: ตั้งค่าตัวกรองทางภูมิศาสตร์ใน Power BI Desktop สำหรับแอปบนอุปกรณ์เคลื่อนที่
 description: เมื่อคุณตั้งค่าการกรองทางภูมิศาสตร์ในรูปแบบข้อมูลของคุณใน Power BI Desktop คุณสามารถกรองข้อมูลตามตำแหน่งของคุณได้โดยอัตโนมัติในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: b8887ba39d3c6d3123d3308eddba2994fbfe6485
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c054bc933cb1eaac7475ac0c7649c7e0f77f503b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61296156"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878085"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>ตั้งค่าตัวกรองทางภูมิศาสตร์ใน Power BI Desktop สำหรับแอปบนอุปกรณ์เคลื่อนที่
 ใน Power BI Desktop คุณสามารถ[จัดประเภทข้อมูลทางภูมิศาสตร์](desktop-data-categorization.md)สำหรับคอลัมน์ เพื่อให้ Power BI Desktop ทราบว่าควรทำอย่างไรกับค่าในวิชวลในรายงานได้ ประโยชน์เพิ่มเติมคือ เมื่อคุณหรือเพื่อนร่วมงานของคุณดูรายงานนั้นในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ Power BI ใช้ตัวกรองทางภูมิศาสตร์ที่ตรงกับตำแหน่งของคุณโดยอัตโนมัติ 
@@ -61,5 +60,5 @@ ms.locfileid: "61296156"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [จัดประเภทข้อมูลใน Power BI Desktop](desktop-data-categorization.md)  
-* คำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* คำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 
