@@ -113,6 +113,8 @@
           href: visuals/power-bi-visualization-customize-title-background-and-legend.md
         - name: แสดงรายการที่ไม่มีหน่วยข้อมูลใน Power BI
           href: desktop-show-items-no-data.md
+        - name: วันที่ / เวลาอัตโนมัติใน Power BI Desktop
+          href: desktop-auto-date-time.md
         - name: เชื่อมต่อกับข้อมูล
           items:
             - name: แหล่งข้อมูลใน Power BI Desktop
