@@ -2,19 +2,18 @@
 title: การตั้งค่าการกำหนดค่าแอป Power BI ระบบ iOS
 description: วิธีการกำหนดลักษณะการทำงานของ Power BI สำหรับ iOS โดยใช้เครื่องมือ MDM
 author: paulinbar
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: mshenhav
-ms.openlocfilehash: bc9c6dd8cd892ab0304cc5a99a3bb780486f32f0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c2d619489b042e523c559a16dab249b268389cd5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70160153"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879429"
 ---
 # <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>กำหนดค่าแอป Power BI ระบบ iOS โดยใช้เครื่องมือจัดการอุปกรณ์เคลื่อนที่ (Mobile device management, MDM) จากระยะไกล
 
@@ -61,6 +60,6 @@ ms.locfileid: "70160153"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-* ดาวน์โหลดแอป [Power BI สำหรับ iPhone](http://go.microsoft.com/fwlink/?LinkId=522062)
+* ดาวน์โหลดแอป [Power BI สำหรับ iPhone](https://go.microsoft.com/fwlink/?LinkId=522062)
 * ติดตาม[ @MSPowerBIบน Twitter](https://twitter.com/MSPowerBI)
-* เข้าร่วมการสนทนาที่[ชุมชน Power BI](http://community.powerbi.com/)
+* เข้าร่วมการสนทนาที่[ชุมชน Power BI](https://community.powerbi.com/)

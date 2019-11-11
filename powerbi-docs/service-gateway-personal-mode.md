@@ -2,7 +2,6 @@
 title: ใช้เกตเวย์ส่วนบุคคลใน Power BI
 description: มีข้อมูลเกี่ยวกับเกตเวย์ข้อมูลภายในองค์กร (โหมดส่วนบุคคล) สำหรับ Power BI ที่บุคคลสามารถใช้สำหรับการเชื่อมต่อกับข้อมูลภายในองค์กร
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b910f20935c76f8723d8ca876cb57d811976772b
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 5138536fca255638e2cef802b885be1f5dfcbef9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729944"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881527"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>ใช้เกตเวย์ส่วนบุคคลใน Power BI
 
@@ -102,4 +101,4 @@ ms.locfileid: "68729944"
 
 * [การกำหนดค่าการตั้งค่าพร็อกซีสำหรับเกตเวย์ข้อมูลภายในองค์กร](/data-integration/gateway/service-gateway-proxy)  
 
-มีคำถามเพิ่มเติมหรือไม่? ลองไปที่[ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? ลองไปที่ [ชุมชน Power BI](https://community.powerbi.com/)

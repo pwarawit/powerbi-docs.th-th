@@ -2,19 +2,18 @@
 title: คำแนะนำสำหรับ Power BI
 description: เอกสารคำแนะนำมีแนวทางปฏิบัติที่แนะนำให้ดำเนินการเมื่อใช้ Power BI
 author: guyinacube
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2019
 ms.author: asaxton
-ms.openlocfilehash: 3e8a4a92ce3a1e5cbc9459732cdd12225ae901e1
-ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
+ms.openlocfilehash: e3aeff47e585d9a54edf46f7001f4686e9a76c3a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "71691263"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875565"
 ---
 # <a name="guidance-for-power-bi"></a>คำแนะนำสำหรับ Power BI
 
@@ -37,6 +36,6 @@ ms.locfileid: "71691263"
 
 | คำแนะนำ | คำอธิบาย |
 | --- | --- |
-| [แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล](/service-dataflows-best-practices.md) | อธิบายเกี่ยวกับแนวทางปฏิบัติที่ดีที่สุดสำหรับการออกแบบกระแสข้อมูลใน Power BI |
+| [แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล](../service-dataflows-best-practices.md) | อธิบายเกี่ยวกับแนวทางปฏิบัติที่ดีที่สุดสำหรับการออกแบบกระแสข้อมูลใน Power BI |
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

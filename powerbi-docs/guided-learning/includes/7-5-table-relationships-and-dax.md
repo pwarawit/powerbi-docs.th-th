@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: cd6ea6fd52f929e2cd254214cf0e8c96e858f6c2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 679c3e8c3d94c93899e9dcfae1e57f4b678fb218
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273629"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73800170"
 ---
 Power BI ให้คุณสร้างความสัมพันธ์ระหว่างหลายตาราง รวมถึงตารางที่มาจากแหล่งข้อมูลที่แตกต่างกันโดยสิ้นเชิง คุณสามารถดูความสัมพันธ์เหล่านั้นสำหรับรูปแบบข้อมูลใดๆ ได้ในมุมมอง **ความสัมพันธ์** ของ Power BI Desktop
 
@@ -23,7 +23,7 @@ DAX มี**ฟังก์ชันความสัมพันธ์**ที
 
 คุณสามารถใช้ฟังก์ชันความสัมพันธ์เพื่อสร้างนิพจน์ที่มีค่าในหลายตารางได้ DAX จะส่งกลับผลลัพธ์ด้วยฟังก์ชันเหล่านี้ไม่ว่าห่วงโซ่ความสัมพันธ์จะยาวเพียงใด
 
-> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](http://www.sqlbi.com/learning-dax)
+> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](https://www.sqlbi.com/learning-dax)
 > 
 > 
 

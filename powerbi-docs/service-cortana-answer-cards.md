@@ -2,7 +2,6 @@
 title: สร้างหน้าคำตอบของ Power BI แบบกำหนดเองสำหรับ Cortana
 description: สร้างหน้าคำตอบแบบกำหนดเองสำหรับ Cortana ใน Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: bb0f6febfaee30c3eab3ce8b8aa618eb09c464bf
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 06f155676dffa7b5f87ce61a8b342708793ef2c6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375241"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853739"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>ใช้บริการของ Power BI หรือ Power BI Desktop เพื่อสร้างหน้าคำตอบแบบกำหนดเองสำหรับ Cortana
 ใช้ความสามารถเต็มของ Power BI เพื่อสร้างหน้ารายงานพิเศษ ที่เรียกว่า*หน้าคำตอบ Cortana* (และในบางครั้งเรียกว่า *การ์ดคำตอบ Cortana*) ที่ออกแบบมาโดยเฉพาะเพื่อตอบคำถาม Cortana
 
 > [!IMPORTANT]
-> ไม่มีการสนับสนุนการรวม Cortana ใน Power BI เริ่มต้นวันที่ 11 มิถุนายน Cortana จะไม่ทำงานสำหรับแดชบอร์ดและรายงาน
+> การรวม Cortana กำลังจะถูกยกเลิกใน Power BI เริ่มต้น11มิถุนายน Cortana จะไม่สามารถใช้งานได้สำหรับแดชบอร์ดและรายงานใด ๆ อีกต่อไป
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
@@ -96,5 +95,5 @@ ms.locfileid: "66375241"
 
 ยังคงไม่สามารถทำให้ Cortana ทำงานร่วมกับ Power BI ได้?  ลอง[ตัวแก้ไขปัญหา Cortana](service-cortana-troubleshoot.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

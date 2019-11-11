@@ -2,7 +2,6 @@
 title: บริการ Power BI - แนวคิดพื้นฐานสำหรับผู้บริโภค
 description: พื้นที่ทำงาน แดชบอร์ด รายงาน ชุดข้อมูล และเวิร์กบุ๊กของแอปบริการ Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 902bfe11ba3dfa4047ab5918de7081ae05fb9a09
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 24e5a06d3e835f7ff5114cbf17b772bc7efd00bb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060346"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852219"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>แนวคิดพื้นฐานสำหรับลูกค้าที่ใช้บริการ Power BI
 

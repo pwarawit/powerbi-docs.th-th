@@ -2,7 +2,6 @@
 title: ใช้การจัดกลุ่มใน Power BI Desktop
 description: เรียนรู้วิธีการจัดกลุ่มใน Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6b6266547704077769174c2ae0a9675503f10dca
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: d67fbacece27ab75a3add89541dad77ce51a91f8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69029591"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867494"
 ---
 # <a name="use-grouping-in-power-bi-desktop"></a>ใช้การจัดกลุ่มใน Power BI Desktop
 ด้วยคุณลักษณะ**การจัดกลุ่ม**ใน **Power BI Desktop**คุณสามารถจัดกลุ่มวิชวลเข้าด้วยกันในรายงานของคุณได้ เช่น ปุ่ม กล่องข้อความ ภาพรูปทรง และวิชวลที่คุณสร้างเช่นเดียวกับที่คุณจัดกลุ่มรายการใน PowerPoint การจัดกลุ่มวิชวลในรายงานช่วยให้คุณปฏิบัติต่อกลุ่มเช่นเดียวกับวัตถุเดี่ยว ทำให้เคลื่อนไหว ปรับขนาด และทำงานกับเลเยอร์ในรายงานของคุณได้ง่ายขึ้นเร็วขึ้น และทันใจขึ้น

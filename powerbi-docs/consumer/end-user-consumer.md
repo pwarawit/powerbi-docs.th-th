@@ -2,7 +2,6 @@
 title: ผู้บริโภคของ Power BI คืออะไร
 description: ภาพรวมของ Power BI สำหรับผู้บริโภค (หรือที่เรียกว่าผู้ใช้ปลายทางหรือผู้ใช้ทางธุรกิจ)
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b1876d0990cc21d854ac96329e5ab4a5632f22d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430268"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863801"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>บริการของ Power BI สำหรับ ผู้บริโภค
 
@@ -59,6 +58,6 @@ Power BI ทำให้งานของคุณง่ายขึ้นแ�
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 [ชมการแนะนำบริการของ Power BI สำหรับผู้บริโภค](end-user-reading-view.md)    
-[การฝึกอบรมบริการของ Power BI สำหรับผู้บริโภค](https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/)    
+[การฝึกอบรมบริการของ Power BI สำหรับผู้บริโภค](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/)    
 [คำศัพท์และแนวคิดสำหรับ*ลูกค้า Power BI*](end-user-basic-concepts.md)    
 

@@ -3,19 +3,18 @@ title: วิธีการแชร์งานของคุณใน Power 
 description: ใน Power BI คุณสามารถทำงานร่วมกัน และแชร์แดชบอร์ด รายงาน ไทล์ และแอป ด้วยวิธีต่าง ๆ กัน แต่ละวิธีมีข้อดีของมันเอง
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/06/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 31310900b91924e639ce10a13aef3da996598502
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841743"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881347"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>วิธีการแชร์งานของคุณใน Power BI
 
@@ -135,4 +134,4 @@ Power BI มีประสบการณ์การใช้งานพื�
 
 มีคำติชมหรือไม่? ไปที่[ไซต์ชุมชน Power BI](https://community.powerbi.com/) พร้อมกับคำแนะนำของคุณ
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

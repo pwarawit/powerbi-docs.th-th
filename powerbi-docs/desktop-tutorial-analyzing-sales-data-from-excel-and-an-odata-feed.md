@@ -2,7 +2,6 @@
 title: 'บทช่วยสอน: รวมข้อมูลจาก Excel และตัวดึงข้อมูล OData ใน Power BI Desktop'
 description: 'บทช่วยสอน: รวมข้อมูลจาก Excel และตัวดึงข้อมูล OData'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f18dae9ecd0eff0b7f62a3152fc59c81f1292ba4
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160381"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866085"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>บทช่วยสอน: รวมข้อมูลยอดขายจาก Excel และตัวดึงข้อมูล OData
 
@@ -35,7 +34,7 @@ ms.locfileid: "70160381"
 
 ก่อนอื่น นำเข้าข้อมูลผลิตภัณฑ์จากสมุดงาน Excel Products.xlsx ลงใน Power BI Desktop
 
-1. [ดาวน์โหลดเวิร์กบุ๊ก Excel Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx) และบันทึกเป็น **Products.xlsx**
+1. [ดาวน์โหลดเวิร์กบุ๊ก Excel Products.xlsx](https://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx) และบันทึกเป็น **Products.xlsx**
    
 2. เลือกลูกศรดรอปดาวน์ที่อยู่ถัดจาก**รับข้อมูล** ในแท็บ**หน้าแรก**ของริบบิ้น Power BI Desktop แล้วเลือก **Excel** จากรายการแบบดรอปดาวน์**ส่วนใหญ่โดยทั่วไป** 
    
@@ -52,7 +51,7 @@ ms.locfileid: "70160381"
    
 การแสดงตัวอย่างของตารางเปิดขึ้นใน**ตัวแก้ไข Power Query** ที่คุณสามารถใช้การแปลงเพื่อล้างข้อมูล
    
-![Power Query Editor](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
+![ตัวแก้ไข Power Query](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
    
 >[!NOTE]
 >คุณยังสามารถเปิด**ตัวแก้ไข Power Query** โดยการเลือก **แก้ไขคิวรี** > **แก้ไขคิวรี** จาก ribbon **หน้าแรก** ใน Power BI Desktop โดยคลิกขวา หรือเลือก**ตัวเลือกเพิ่มเติม** ถัดจากคิวรีใด ๆ ใน**มุมมองรายงาน** และเลือก**แก้ไขคิวรี**
@@ -76,7 +75,7 @@ ms.locfileid: "70160381"
    
    ![รับ OData](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
    
-2. ในกล่องโต้ตอบ**ตัวดึงข้อมูล OData** วาง URL ตัวดึงข้อมูล Northwind OData`http://services.odata.org/V3/Northwind/Northwind.svc/` เลือก**ตกลง**
+2. ในกล่องโต้ตอบ**ตัวดึงข้อมูล OData** วาง URL ตัวดึงข้อมูล Northwind OData`https://services.odata.org/V3/Northwind/Northwind.svc/` เลือก**ตกลง**
    
    ![กล่องโต้ตอบตัวดึงข้อมูล OData](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
    
@@ -179,7 +178,7 @@ ms.locfileid: "70160381"
 
 เมื่อคุณพอใจกับข้อมูลของคุณที่ถูกแปลงแล้ว และพร้อมที่จะนำเข้าข้อมูลลงในมุมมองรายงาน Power BI Desktop เลือก **ปิด & กำหนดใช้** > **ปิด & กำหนดใช้** ในกลุ่ม**ปิด**ของแท็บริบบิ้น **หน้าแรก** 
 
-![ปิดและกำหนดใช้](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
+![ปิดและนำไปใช้](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
 
 เมื่อข้อมูลถูกโหลดแล้ว คิวรีจะปรากฏในรายการ**เขตข้อมูล** ในมุมมองรายงานของ Power BI Desktop
 
@@ -271,7 +270,7 @@ Power BI Desktop ไม่จำเป็นต้องเรียกร้อ
 รายงานที่เสร็จสมบูรณ์ของคุณได้รวมข้อมูลจากไฟล์ Excel Products.xlsx และตัวดึงข้อมูล OData ของ Northwind ในวิชวลเพื่อช่วยคุณวิเคราะห์ข้อมูลคำสั่งซื้อสำหรับประเทศ กรอบเวลา และผลิตภัณฑ์ที่แตกต่างกัน เมื่อรายงานของคุณพร้อมแล้ว คุณสามารถ[อัปโหลดไปยังบริการของ Power BI](desktop-upload-desktop-files.md) เพื่อแชร์ให้กับผู้ใช้ Power BI อื่นได้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [อ่านบทช่วยสอนอื่น ๆ ของ Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [ดูวิดีโอ Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [เยี่ยมชมกระดานสนทนา Power BI](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [อ่านบล็อก Power BI](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [อ่านบทช่วยสอนอื่น ๆ ของ Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [ดูวิดีโอ Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [เยี่ยมชมกระดานสนทนา Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [อ่านบล็อก Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)

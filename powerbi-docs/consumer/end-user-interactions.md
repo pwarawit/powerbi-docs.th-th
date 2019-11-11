@@ -2,7 +2,6 @@
 title: ทำความเข้าใจวิธีการที่การแสดงผลด้วยภาพโต้ตอบในรายงาน
 description: เอกสารสำหรับผู้ใช้ Power BI ที่อธิบายวิธีการที่ภาพโต้ตอบในหน้ารายงาน
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 3a73656d8de462dfc7d1d9e7ac742d588cc8c810
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 28e6cea55b02fabddd0b2f118631a09c0344b66f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71943887"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863087"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>วิธีการใช้วิชวลกรองข้ามกันในรายงาน Power BI
 คุณลักษณะยอดเยี่ยมประการหนึ่งของ Power BI คือแนวทางที่ภาพทั้งหมดในหน้ารายงานเชื่อมโยงถึงกัน หากคุณเลือกจุดข้อมูลในภาพภาพหนึ่ง ภาพอื่นทั้งหมดบนหน้าที่มีข้อมูลที่เปลี่ยนไปนั้นตามการเลือกนั้น 

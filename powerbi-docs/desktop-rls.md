@@ -3,7 +3,6 @@ title: ทำความเข้าใจเกี่ยวกับการ�
 description: วิธีการกำหนดค่าความปลอดภัยระดับแถวสำหรับชุดข้อมูลที่นำเข้า และ DirectQuery ภายใน Power BI Desktop
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 08/14/2019
 LocalizationGroup: Create reports
-ms.openlocfilehash: 91f2da65764480a0cf9cf298a052436b27e18c83
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: d3c3310b6fd60d0e6f30eabd4c5136af5b8c54ff
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560940"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866010"
 ---
 # <a name="row-level-security-rls-with-power-bi-desktop"></a>รักษาความปลอดภัยระดับแถว (RLS) ด้วย Power BI Desktop
 
@@ -41,4 +40,4 @@ ms.locfileid: "69560940"
 
 [รักษาความปลอดภัยระดับแถว (RLS) ด้วยบริการของ Power BI](service-admin-rls.md)  
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: สร้างตัวแบ่งส่วนข้อมูล คุณสามารถปรับขนาดใน Power BI ได้
 description: เรียนรู้วิธีการสร้างตัวแบ่งส่วนข้อมูลแบบตอบสนองที่คุณสามารถปรับขนาดเพื่อให้เหมาะกับรายงานของคุณ
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/04/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: fed4119946cb762fb4d9aee3b5300be225a6e379
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61419911"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877579"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>สร้างตัวแบ่งส่วนข้อมูล คุณสามารถปรับขนาดใน Power BI ได้
 
@@ -81,4 +80,4 @@ ms.locfileid: "61419911"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [ตัวแบ่งส่วนข้อมูลในบริการ Power BI](visuals/power-bi-visualization-slicers.md)
-- มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+- มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

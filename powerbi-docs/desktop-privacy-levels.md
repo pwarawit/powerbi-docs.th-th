@@ -2,7 +2,6 @@
 title: ทำความเข้าใจเกี่ยวกับระดับความเป็นส่วนตัว Power BI Desktop
 description: ระดับความเป็นส่วนตัวของ Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: reference
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d3405a434c8b3add7bb39f20d5aa65e066e4b73d
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: b28c56433e27794798f2907f0d780002db96b2f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841330"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878078"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>ระดับความเป็นส่วนตัวของ Power BI Desktop
 ใน**Power BI Desktop** ระดับความเป็นส่วนตัวระบุระดับการแยกที่กำหนดระดับ ซึ่งแหล่งข้อมูลหนึ่งจะถูกแยกจากแหล่งข้อมูลอื่น ๆ แม้ว่าระดับการแยกแบบเข้มงวด จะป้องกันข้อมูลจากการแลกเปลี่ยนระหว่างแหล่งข้อมูล แต่อาจลดทำงานและมีผลกระทบกับประสิทธิภาพ

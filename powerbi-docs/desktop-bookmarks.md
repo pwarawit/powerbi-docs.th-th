@@ -2,7 +2,6 @@
 title: การใช้บุ๊กมาร์กใน Power BI
 description: บุ๊กมาร์กใน Power BI Desktop ให้คุณบันทึกมุมมองและการตั้งค่าในรายงานของคุณ และสร้างงานนำเสนอที่เป็นเรื่องราว
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b25c09e7dc24445b5ad2ba5263542bc62891b28f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61326233"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876690"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>ใช้บุ๊กมาร์กเพื่อแชร์ข้อมูลเชิงลึก และสร้างเรื่องราวใน Power BI 
 การใช้**บุ๊กมาร์ก**ใน Power BI ช่วยให้คุณจับภาพมุมมองที่กำหนดค่าไว้ในปัจจุบันของหน้ารายงาน รวมถึงการกรองและสถานะของวิชวล และช่วยให้คุณกลับไปยังสถานะดังกล่าวในภายหลัง เพียงแค่เลือกบุ๊กมาร์กที่บันทึกไว้ 

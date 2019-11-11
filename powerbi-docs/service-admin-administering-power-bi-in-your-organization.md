@@ -2,7 +2,6 @@
 title: การดูแล Power BI คืออะไร?
 description: เรียนรู้เกี่ยวกับการกำหนดค่านโยบายการกำกับดูแล Power BI, การตรวจสอบการใช้งาน และการเตรียมสิทธิ์การใช้งาน, ความจุ และแหล่งข้อมูลขององค์กร
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 779dba9262752a4030eb263002822d0186f3e470
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: d33aad1d52a7074873e4b2bb7f5e2f93e2b8ab0e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075814"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873733"
 ---
 # <a name="what-is-power-bi-administration"></a>การดูแล Power BI คืออะไร?
 
@@ -87,4 +86,4 @@ Power BI ถูกออกแบบมาสำหรับข่าวกร�
 
 [การดูแล Power BI คำถามที่ถามบ่อย](service-admin-faq.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

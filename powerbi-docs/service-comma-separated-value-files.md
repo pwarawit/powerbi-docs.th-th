@@ -2,7 +2,6 @@
 title: รับข้อมูลจากไฟล์ Comma Separated Value (.CSV) (ใช้จุลภาคเป็นตัวคั่น)
 description: เรียนรู้วิธีการรับข้อมูลจากไฟล์ CSV ลงใน Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1a150c2cb4eb819b78b2b08a492087eb98bf6363
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a33c8a45f4f32efb0a47df82b8af23d42c281ae9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513336"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855526"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>รับข้อมูลจากไฟล์ Comma Separated Value (.CSV) (ใช้จุลภาคเป็นตัวคั่น)
 ![](media/service-comma-separated-value-files/csv_icon.png)
 
-ไฟล์ค่าที่ใช้จุลภาคเป็นตัวคั่นเป็นที่รู้จักกันในรูปแบบ .CSV ซึ่งเป็นไฟล์ข้อความอย่างง่ายที่มีแถวของข้อมูล โดยที่แต่ละค่าจะถูกคั่นด้วยเครื่องหมายจุลภาค ชนิดของไฟล์เหล่านี้อาจประกอบด้วยข้อมูลจำนวนมากภายในขนาดไฟล์ค่อนข้างเล็ก ทำให้ไฟล์เหล่านี้เป็นแหล่งข้อมูลที่เหมาะสมที่สุดสำหรับ Power BI คุณสามารถดาวน์โหลดตัวอย่างไฟล์ .CSV [ที่นี่](http://go.microsoft.com/fwlink/?LinkID=619356)
+ไฟล์ค่าที่ใช้จุลภาคเป็นตัวคั่นเป็นที่รู้จักกันในรูปแบบ .CSV ซึ่งเป็นไฟล์ข้อความอย่างง่ายที่มีแถวของข้อมูล โดยที่แต่ละค่าจะถูกคั่นด้วยเครื่องหมายจุลภาค ชนิดของไฟล์เหล่านี้อาจประกอบด้วยข้อมูลจำนวนมากภายในขนาดไฟล์ค่อนข้างเล็ก ทำให้ไฟล์เหล่านี้เป็นแหล่งข้อมูลที่เหมาะสมที่สุดสำหรับ Power BI คุณสามารถดาวน์โหลดตัวอย่างไฟล์ .CSV [ที่นี่](https://go.microsoft.com/fwlink/?LinkID=619356)
 
 ถ้าคุณมu .CSV ถึงเวลาไปที่ไซต์ Power BI ของคุณในฐานเป็นชุดข้อมูล ซึ่งคุณสามารถเริ่มการสำรวจข้อมูล สร้างแดชบอร์ดบางรายการ และแชร์ข้อมูลเชิงลึกของคุณกับผู้อื่นได้
 

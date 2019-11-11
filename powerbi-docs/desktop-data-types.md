@@ -2,7 +2,6 @@
 title: ชนิดข้อมูลใน Power BI Desktop
 description: ชนิดข้อมูลใน Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ccde7f01968a9fdcdd74903819b7083a552479b0
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391773"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868515"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>ชนิดข้อมูลใน Power BI Desktop
 บทความนี้อธิบายถึงชนิดข้อมูลที่ใช้ใน Power BI Desktop และนิพจน์การวิเคราะห์ข้อมูล (DAX) 
@@ -71,7 +70,7 @@ Power BI Desktop สนับสนุนชนิดข้อมูลวัน
 **True/False** – เป็นค่าบูลีนที่เป็น จริง หรือ เท็จ
 
 ### <a name="blanksnulls-type"></a>ชนิด ช่องว่าง/ค่า null
-**ช่องว่าง** - เป็นชนิดข้อมูลใน DAX ที่แสดงและแทนค่า SQL null คุณสามารถสร้างช่องว่างโดยใช้ฟังก์ชัน[ว่างเปล่า](http://msdn.microsoft.com/library/ee634820.aspx)และทดสอบช่องว่างโดยใช้ฟังก์ชันทางตรรกะ [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx)
+**ช่องว่าง** - เป็นชนิดข้อมูลใน DAX ที่แสดงและแทนค่า SQL null คุณสามารถสร้างช่องว่างโดยใช้ฟังก์ชัน[ว่างเปล่า](https://msdn.microsoft.com/library/ee634820.aspx)และทดสอบช่องว่างโดยใช้ฟังก์ชันทางตรรกะ [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx)
 
 ### <a name="table-data-type"></a>ชนิดข้อมูลตาราง
 DAX ใช้ชนิดข้อมูลตารางในฟังก์ชันมากมาย เช่น การรวมและการคำนวณเวลา ฟังก์ชันบางอย่างจำเป็นต้องมีการอ้างอิงถึงตาราง ฟังก์ชันอื่นๆ ส่งค่าตารางที่สามารถนำไปใช้เป็นข้อมูลป้อนเข้าไปยังฟังก์ชันอื่นๆ ในบางฟังก์ชันที่จำเป็นต้องใช้ตารางเป็นข้อมูลป้อนเข้า คุณสามารถระบุนิพจน์ที่ทำการประเมินใส่ลงในตาราง สำหรับบางฟังก์ชัน ต้องมีการอ้างอิงถึงตารางฐาน สำหรับข้อมูลเกี่ยวกับข้อกำหนดของฟังก์ชันบางอย่าง ดู[การอ้างอิงฟังก์ชัน DAX](https://msdn.microsoft.com/library/ee634396.aspx)

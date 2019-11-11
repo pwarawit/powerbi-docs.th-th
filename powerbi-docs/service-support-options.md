@@ -2,19 +2,18 @@
 title: ตัวเลือกการสนับสนุน Power BI Pro และ Power BI Premium
 description: บทความนี้อธิบายตัวเลือกการสนับสนุนที่มีให้สำหรับลูกค้าของ Power BI Pro และ Power BI Premium
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: mblythe
-ms.openlocfilehash: df14bf127ed6935f9bec445709153a87088f8af0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 4cd007467b2ebd7f08dbb9d9bd3447194aad1f37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305818"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871391"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>ตัวเลือกการสนับสนุน Power BI Pro และ Power BI Premium
 
@@ -55,4 +54,4 @@ ms.locfileid: "71305818"
 
   - **WorkshopPLUS - Data AI: การวิเคราะห์ข้อมูลขั้นสูงด้วย Power BI** หลักสูตรนี้จะช่วยให้คุณมีความรู้ในการทำความเข้าใจและนำหลักการที่สำคัญเกี่ยวกับด้านของการสร้างแบบจำลองข้อมูลใน Power BI ไปใช้ผ่านการใช้งานเครื่องมือเช่น Power BI Desktop และมาพร้อมกับบริการคลาวด์สำหรับการเผยแพร่และการใช้สินทรัพย์ BI หลักสูตรนี้จะครอบคลุมพื้นฐานของการพัฒนารายงาน การวิเคราะห์แบบฝังใน Power BI เพื่อฝังเนื้อหาลงในแอปพลิเคชันที่กำหนดเอง แดชบอร์ดแบบเรียลไทม์ และการวิเคราะห์ขั้นสูงที่เกี่ยวข้องกับวิทยาศาสตร์ข้อมูลและการพัฒนาใน Power BI
 
-ติดต่อผู้จัดการบัญชีทางเทคนิคของ Microsoft สำหรับรายละเอียด ถ้าคุณไม่มีสัญญาการสนับสนุน Microsoft Premier โปรดเรียนรู้เพิ่มเติมที่ [ฝ่ายสนับสนุนสำหรับ Premier](https://support.microsoft.com/en-us/premier)
+ติดต่อผู้จัดการบัญชีทางเทคนิคของ Microsoft สำหรับรายละเอียด ถ้าคุณไม่มีสัญญาการสนับสนุน Microsoft Premier โปรดเรียนรู้เพิ่มเติมที่ [ฝ่ายสนับสนุนสำหรับ Premier](https://support.microsoft.com/premier)

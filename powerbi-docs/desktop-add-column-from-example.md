@@ -2,7 +2,6 @@
 title: เพิ่มคอลัมน์จากตัวอย่างใน Power BI Desktop
 description: สร้างคอลัมน์ใหม่ใน Power BI Desktop ที่ใช้คอลัมน์ที่มีอยู่เป็นตัวอย่างได้อย่างรวดเร็ว
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c172ca90a849ca83a1faeed5dbab3bda96698c1a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d07cfda18f44a0872c8c9567aa29ac49a98622a7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239798"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869439"
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>เพิ่มคอลัมน์จากตัวอย่างใน Power BI Desktop
 เริ่มตั้งแต่การเผยแพร่ เดือนเมษายน 2017 ของ **Power BI Desktop** คุณสามารถเพิ่มคอลัมน์ใหม่ของข้อมูลคุณด้วย**ตัวแก้ไขคิวรี** โดยการให้ค่าตัวอย่างหนึ่งหรือหลายค่า สำหรับคอลัมน์ใหม่ของคุณได้ คุณสามารถสร้างตัวอย่างคอลัมน์ใหม่ในตาราง จากการเลือกปัจจุบัน หรือจากการป้อนค่า ที่มีค่าตามคอลัมน์ทั้งหมด (หรือที่ถูกเลือก)

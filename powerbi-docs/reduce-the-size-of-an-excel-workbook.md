@@ -2,7 +2,6 @@
 title: ลดขนาดของเวิร์กบุ๊ก Excel เพื่อดูใน Power BI
 description: ลดขนาดของเวิร์กบุ๊ก Excel เพื่อดูใน Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 111e38fd37bcdfa2a72986bb08a37d89345bbe69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8c58c85ea46f9884586e1ff73f1ef9f7b1db9cdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60972623"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860573"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>ลดขนาดของเวิร์กบุ๊ก Excel เพื่อดูใน Power BI
 คุณสามารถอัปโหลดเวิร์กบุ๊ก Excel ต่างๆ ที่มีขนาดเล็กกว่า 1 GB ไปยัง Power BI ได้ เวิร์กบุ๊ก Excel สามารถมีส่วนประกอบสองส่วน ได้แก่: รูปแบบข้อมูล และส่วนเหลือของรายงาน ซึ่งเป็นเนื้อหาหลักของเวิร์กชีต ถ้ารายงานมีขนาดที่ตรงตามขีดจำกัดด้านขนาดต่อไปนี้ คุณก็สามารถบันทึกไปยัง**OneDrive for Business** ให้เชื่อมต่อจาก Power BI แล้วดูใน Excel Online:

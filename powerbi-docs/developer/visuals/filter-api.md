@@ -3,18 +3,17 @@ title: API ตัวกรองวิชวลในวิชวล Power BI
 description: บทความนี้อธิบายถึงวิธีการที่วิชวล Power BI สามารถกรองวิชวลอื่น ๆ ได้อย่างไร
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 98ebc87cf5a6b7bf8f0b8b88d4ff498edfd5bf9a
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: ee4ac2db9d27129172797db9743790b5175dcd89
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194025"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880081"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>API ตัวกรองวิชวลในวิชวล Power BI
 
@@ -188,7 +187,7 @@ interface ITupleFilter extends IFilter {
 
   ตัวกรองสามารถระบุที่อยู่ของคอลัมน์จากตารางต่างๆ
 
-* `$schema` คือ http://powerbi.com/product/schema#tuple
+* `$schema` คือ https://powerbi.com/product/schema#tuple
 
 * `filterType` คือ *FilterType.Tuple*
 
@@ -240,7 +239,7 @@ let values = [
 ];
 
 let filter: ITupleFilter = {
-    $schema: "http://powerbi.com/product/schema#tuple",
+    $schema: "https://powerbi.com/product/schema#tuple",
     filterType: FilterType.Tuple,
     operator: "In",
     target: target,

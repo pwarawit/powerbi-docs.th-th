@@ -3,18 +3,17 @@ title: เพิ่มการรองรับบุ๊กมาร์กส�
 description: วิชวล Power BI สามารถจัดการกับการสลับบุ๊กมาร์กได้
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c19b67a59d0ecb4cbfbcf5ad8dd18886f440e164
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: aed8317c36cdd118b03bff2db93788f493ac9ad2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194438"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880251"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>เพิ่มการรองรับบุ๊กมาร์กสำหรับวิชวล Power BI
 

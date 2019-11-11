@@ -2,7 +2,6 @@
 title: งานคิวรีที่ใช้บ่อยใน Power BI Desktop
 description: งานคิวรีที่ใช้บ่อยใน Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239441"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878674"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>งานคิวรีที่ใช้บ่อยใน Power BI Desktop
 เมื่อทำงานในหน้าต่าง **ตัวแก้ไขคิวรี** ของ Power BI Desktop มีงานอยู่ไม่กี่อย่างที่ใช้งานบ่อย ๆ เอกสารนี้ สาธิตงานที่ใช้บ่อยเหล่านั้น และมีลิงก์ให้สำหรับข้อมูลเพิ่มเติม 
@@ -31,9 +30,9 @@ ms.locfileid: "65239441"
 
 เราจะใช้การเชื่อมต่อข้อมูลบางตัวเพื่อทำงานเหล่านี้ให้สำเร็จ เรามีข้อมูลให้คุณดาวน์โหลดหรือการเชื่อมต่อ กรณีที่คุณต้องการลองขั้นตอนเหล่านี้ด้วยตนเอง
 
-การเชื่อมต่อข้อมูลแรกคือ สมุดงาน Excel ซึ่งคุณสามารถดาวน์โหลดได้จาก[ลิงก์นี้](http://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx) อีกแหล่งข้อมูลหนึ่ง เป็นทรัพยากรบนเว็บ (ซึ่งอยู่ในเนื้อหาความช่วยเหลือของ Power BI Desktop หน้าอื่นด้วย) ซึ่งสามารถเข้าถึงได้จากที่นี่:
+การเชื่อมต่อข้อมูลแรกคือ สมุดงาน Excel ซึ่งคุณสามารถดาวน์โหลดได้จาก[ลิงก์นี้](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx) อีกแหล่งข้อมูลหนึ่ง เป็นทรัพยากรบนเว็บ (ซึ่งอยู่ในเนื้อหาความช่วยเหลือของ Power BI Desktop หน้าอื่นด้วย) ซึ่งสามารถเข้าถึงได้จากที่นี่:
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 ขั้นตอนที่จำเป็นเพื่อเชื่อมต่อกับแหล่งข้อมูลทั้งสองคือ จุดเริ่มต้นของการคิวรีที่เราจะเริ่มกัน
 
@@ -142,7 +141,7 @@ ms.locfileid: "65239441"
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-นี่คือตัวอย่างของ**ตัวแก้ไขขั้นสูง** ที่แสดงขั้นตอนคิวรีที่ใช้กับ **USA\_StudentEnrollment** ขั้นตอนเหล่านี้จะถูกสร้างขึ้นในภาษา Power Query Formula Language ซึ่งมักเรียกว่า **M** สำหรับข้อมูล ดูที่[เรียนรู้เกี่ยวกับสูตร Power Query](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f) เมื่อต้องการดูข้อกำหนดของตัวภาษาเอง ดูที่[ข้อกำหนด Microsoft Power Query for Excel Formula Language](http://go.microsoft.com/fwlink/?linkid=320633)
+นี่คือตัวอย่างของ**ตัวแก้ไขขั้นสูง** ที่แสดงขั้นตอนคิวรีที่ใช้กับ **USA\_StudentEnrollment** ขั้นตอนเหล่านี้จะถูกสร้างขึ้นในภาษา Power Query Formula Language ซึ่งมักเรียกว่า **M** สำหรับข้อมูล ดูที่[เรียนรู้เกี่ยวกับสูตร Power Query](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f) เมื่อต้องการดูข้อกำหนดของตัวภาษาเอง ดูที่[ข้อกำหนด Microsoft Power Query for Excel Formula Language](/powerquery-m/excel-workbook)
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

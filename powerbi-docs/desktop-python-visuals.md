@@ -2,7 +2,6 @@
 title: สร้างภาพของ Power BI โดยใช้ Python
 description: สร้างภาพของ Power BI โดยใช้ Python
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: b41a50ae7c4aaf8f70c9d7745ea4767b7644a62f
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 567b775cb7323dbd343f2a26d4abc0d60885ab7a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70303117"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877976"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>สร้างภาพของ Power BI โดยใช้ Python
 ด้วย **Power BI Desktop** คุณสามารถใช้ **Python** เพื่อแสดงภาพข้อมูลของคุณได้
@@ -158,7 +157,7 @@ plt.show()
 * เเอกสารประกอบที่เว็บไซต์ [Matplotlib](https://matplotlib.org/) 
 * [บทช่วยสอน Matplotlib: คำแนะนำพื้นฐานในการใช้ Matplotlib ด้วยภาษา Python](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) 
 * [บทช่วยสอน Matplotlib – ไลบรารี Matplotlib ของภาษา Python พร้อมตัวอย่าง](https://www.edureka.co/blog/python-matplotlib-tutorial/) 
-* [การอ้างอิง API ของ Pandas](http://pandas.pydata.org/pandas-docs/stable/reference/index.html) 
+* [การอ้างอิง API ของ Pandas](https://pandas.pydata.org/pandas-docs/stable/reference/index.html) 
 * [การแสดงผลข้อมูลด้วยภาพด้วยภาษา Python ในบริการ Power BI](https://powerbi.microsoft.com/blog/python-visualizations-in-power-bi-service/) 
 * [การใช้วิชวล Python ใน Power BI](https://www.absentdata.com/how-to-user-python-and-power-bi/)
 

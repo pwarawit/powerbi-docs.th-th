@@ -2,7 +2,6 @@
 title: Power BI สำหรับผู้บริโภค
 description: เริ่มต้นใช้งาน Power BI? ทำความเข้าใจคุณลักษณะและความสามารถของบริการของ Power BI และดูว่าคุณสามารถทำอะไรได้บ้างในฐานะผู้ใช้ Power BI หรือผู้ใช้ปลายทาง
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
@@ -10,12 +9,12 @@ ms.date: 10/01/2019
 ms.author: mihart
 layout: HubPage
 LocalizationGroup: Get started
-ms.openlocfilehash: ec123c29bc6cf942c096ffb78b8bfab10be3bc14
-ms.sourcegitcommit: e371690159f69a72410abc97ff1c2a2bb9c841f5
+ms.openlocfilehash: ad6f9f0bc231f54c35501be24bb03a47e205a27e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "71829617"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876706"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -122,9 +121,9 @@ ms.locfileid: "71829617"
                                             </div>
                                             <div class="cardText">
                                                 <h3>รับความช่วยเหลือ</h3>
-                                            <p><a href="https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Microsoft LEARN การฝึกอบรมแบบเรียนรู้ด้วยตนเอง</a></p>
+                                            <p><a href="https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Microsoft LEARN การฝึกอบรมแบบเรียนรู้ด้วยตนเอง</a></p>
                                                 <p><a href="https://powerbi.microsoft.com/blog/" data-linktype="absolute-path">อ่านบล็อก Power BI</a></p>
-                                                <p><a href="http://community.powerbi.com/" data-linktype="absolute-path">ถามคำถามในฟอรั่ม Power BI</a></p>
+                                                <p><a href="https://community.powerbi.com/" data-linktype="absolute-path">ถามคำถามในฟอรั่ม Power BI</a></p>
                                             </div>
                                         </div>
                                     </div>

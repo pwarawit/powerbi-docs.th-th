@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 5c2b254f20bd1eba97840a464a1b554cc4fe1238
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f22c12ec0ad5bd413f3658704132143c878df1aa
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273604"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73800174"
 ---
 การใช้**ตัวแปร**คือจุดที่มีประสิทธิภาพของนิพจน์ DAX
 
@@ -18,7 +18,7 @@ ms.locfileid: "61273604"
 
 โปรดจำไว้ว่าเมื่อคุณอ้างอิงตัวแปรในนิพจน์ DAX ทุกครั้ง Power BI จะต้องคำนวณค่าของตัวเองใหม่ให้ตรงตามข้อกำหนดของคุณ เนื่องด้วยเหตุนี้ การหลีกเลี่ยงตัวแปรที่ซ้ำกันในฟังก์ชันของคุณจึงเป็นสิ่งที่ดี
 
-> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](http://www.sqlbi.com/learning-dax)
+> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](https://www.sqlbi.com/learning-dax)
 > 
 > 
 

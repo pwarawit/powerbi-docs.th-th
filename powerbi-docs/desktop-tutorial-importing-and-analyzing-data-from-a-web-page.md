@@ -2,7 +2,6 @@
 title: 'บทช่วยสอน: นำเข้าและวิเคราะห์ข้อมูลจากเว็บเพจ'
 description: 'บทช่วยสอน: นำเข้าและวิเคราะห์ข้อมูลจากเว็บเพจโดยใช้ Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e4a805db851e63a725a866065a774ef8ecc23c24
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514636"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879594"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>บทช่วยสอน: วิเคราะห์ข้อมูลเว็บเพจโดยใช้ Power BI Desktop
 
@@ -29,7 +28,7 @@ ms.locfileid: "65514636"
 
 ## <a name="connect-to-a-web-data-source"></a>เชื่อมต่อกับแหล่งข้อมูลบนเว็บ
 
-คุณสามารถรับข้อมูลแชมป์ UEFA จากตารางผลลัพธ์บนหน้า UEFA European Football Championship ของวิกิพีเดียที่ http://en.wikipedia.org/wiki/UEFA_European_Football_Championship ได้ 
+คุณสามารถรับข้อมูลแชมป์ UEFA จากตารางผลลัพธ์บนหน้า UEFA European Football Championship ของวิกิพีเดียที่ https://en.wikipedia.org/wiki/UEFA_European_Football_Championship ได้ 
 
 ![ตารางผลลัพธ์วิกิพีเดีย](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
@@ -44,7 +43,7 @@ ms.locfileid: "65514636"
    >[!NOTE]
    >คุณยังสามารถเลือกรายการ**รับข้อมูล**โดยตรง หรือเลือก**รับข้อมูล**จากกล่องโต้ตอบ**เริ่มต้นใช้งาน**ใน Power BI แล้วเลือก**เว็บ** จากส่วน**ทั้งหมด**หรือ**อื่นๆ**ของกล่องโต้ตอบ**รับข้อมูล** จากนั้นเลือก**เชื่อมต่อ**
    
-2. ในกล่องโต้ตอบ**จากเว็บ** วาง URL `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship`ลงในกล่องข้อความ **URL** จากนั้นเลือก**ตกลง**
+2. ในกล่องโต้ตอบ**จากเว็บ** วาง URL `https://en.wikipedia.org/wiki/UEFA_European_Football_Championship`ลงในกล่องข้อความ **URL** จากนั้นเลือก**ตกลง**
    
     ![รับข้อมูลจากกล่องโต้ตอบ](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
    
@@ -120,7 +119,7 @@ ms.locfileid: "65514636"
 
 2. เลือก**ปิด & กำหนดใช้** > **ปิด & กำหนดใช้** จากแท็บ**หน้าแรก**ของ ribbon
    
-   ![ปิดและกำหนดใช้](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
+   ![ปิดและนำไปใช้](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
    
 คิวรีจะโหลดลงใน**มุมมองรายงาน** Power BI Desktop ซึ่งคุณสามารถเห็นได้ในบานหน้าต่าง**เขตข้อมูล** 
    
@@ -186,8 +185,8 @@ ms.locfileid: "65514636"
 Power BI Desktop ให้ประสบการณ์ที่ราบรื่น ตั้งแต่การรับข้อมูลจากแหล่งข้อมูลต่าง ๆ และจัดรูปทรงให้ตรงกับความต้องการการวิเคราะห์ของคุณ ไปจนถึงการแสดงข้อมูลนี้ในแบบที่สวยงามและโต้ตอบได้ เมื่อรายงานของคุณพร้อมแล้ว คุณสามารถ[อัปโหลดไปยัง Power BI](desktop-upload-desktop-files.md)ได้ และสร้างแดชบอร์ดโดยยึดตามรายงานดังกล่าวที่คุณสามารถใช้ร่วมกันกับผู้ใช้ Power BI อื่นได้
 
 ## <a name="see-also"></a>ดูเพิ่มเติม
-* [อ่านบทช่วยสอนอื่น ๆ Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [ดูวิดีโอ Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [เยี่ยมชมกระดานสนทนา Power BI](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [อ่านบล็อก Power BI](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [อ่านบทช่วยสอนอื่น ๆ Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [ดูวิดีโอ Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [เยี่ยมชมกระดานสนทนา Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [อ่านบล็อก Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)
 

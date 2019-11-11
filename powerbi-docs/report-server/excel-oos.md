@@ -3,18 +3,17 @@ title: โฮสต์เวิร์กบุ๊ก Excel โดยใช้ Of
 description: นอกเหนือจากการดูรายงาน Power BI ในพอร์ทัลของเว็บแล้ว เซิร์ฟเวอร์รายงาน Power BI สามารถโฮสต์เวิร์กบุ๊ก Excel โดยใช้ Office Online Server (OOS)
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 5585750fcd5e6237f3cb00591cf5841f91393b84
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 907e65635424b709ec2c0850e4d0d759f4ba6dd3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769595"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874086"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>กำหนดค่าเซิร์ฟเวอร์รายงานของคุณเพื่อโฮสต์ เวิร์กบุ๊ก Excel โดยใช้ Office Online Server (OOS)
 
@@ -54,7 +53,7 @@ ms.locfileid: "64769595"
 
 ถ้าคุณวางแผนที่จะใช้คุณลักษณะใด ๆ ของ Excel Online ที่ใช้การเข้าถึงข้อมูลภายนอก (เช่น Power Pivot) โปรดทราบว่า Office Online Server ต้องอยู่ในฟอเรสต์ Active Directory เดียวกับของผู้ใช้ เช่นเดียวกับแหล่งข้อมูลภายนอกใด ๆ ที่คุณวางแผนที่จะเข้าถึง โดยใช้การรับรองความถูกต้องด้วย Windows
 
-1. ดาวน์โหลด Office Online Server จาก [Volume Licensing Service Center (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) การดาวน์โหลดจะอยู่ภายใต้ผลิตภัณฑ์ Office เหล่านั้นบนพอร์ทัล VLSC สำหรับการพัฒนา คุณสามารถดาวน์โหลด OOS จากดาวน์โหลดสำหรับสมาชิกของ MSDN
+1. ดาวน์โหลด Office Online Server จาก [Volume Licensing Service Center (VLSC)](https://go.microsoft.com/fwlink/p/?LinkId=256561) การดาวน์โหลดจะอยู่ภายใต้ผลิตภัณฑ์ Office เหล่านั้นบนพอร์ทัล VLSC สำหรับการพัฒนา คุณสามารถดาวน์โหลด OOS จากดาวน์โหลดสำหรับสมาชิกของ MSDN
 2. เรียกใช้ Setup.exe
 3. บนหน้า**อ่านข้อกำหนดสิทธิ์การใช้งานซอฟต์แวร์ของ Microsoft** เลือก**ฉันยอมรับเงื่อนไขของข้อตกลงนี้** แล้วเลือก**ดำเนินการต่อ**
 4. บนหน้า**เลือกตำแหน่งที่ตั้งไฟล์** เลือกโฟลเดอร์ที่คุณต้องการติดตั้งไฟล์ Office Online Server (ตัวอย่างเช่น C:\Program Files\Microsoft Office Web Apps\*) และเลือก **ติดตั้งทันที** ถ้าโฟลเดอร์ที่คุณระบุไม่มีอยู่จริง โปรแกรมติดตั้งจะสร้างให้คุณ
@@ -69,7 +68,7 @@ ms.locfileid: "64769595"
 
 เมื่อต้องการติดตั้งชุดภาษา ทำตามขั้นตอนเหล่านี้
 
-1. ดาวน์โหลดชุดภาษา Online Server Office จาก[ศูนย์ดาวน์โหลด Microsoft](http://go.microsoft.com/fwlink/p/?LinkId=798136)
+1. ดาวน์โหลดชุดภาษา Online Server Office จาก[ศูนย์ดาวน์โหลด Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=798136)
 2. เรียกใช้ **wacserverlanguagepack.exe**
 3. ในตัว Office Online Server Language Pack Wizard บนหน้า**อ่านข้อกำหนดสิทธิ์การใช้งานซอฟต์แวร์ของ Microsoft** เลือก**ฉันยอมรับเงื่อนไขของข้อตกลงนี้** และเลือก**ดำเนินการต่อ**
 4. เมื่อโปรแกรมติดตั้ง Office Online Server ติดตั้งเสร็จ เลือก**ปิด**
@@ -86,7 +85,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **พารามิเตอร์**
 
-* **–InternalURL** คือชื่อโดเมนแบบเต็ม (FQDN) ของเซิร์ฟเวอร์ที่เรียกใช้ Office Online Server เช่น `http://servername.contoso.com`
+* **–InternalURL** คือชื่อโดเมนแบบเต็ม (FQDN) ของเซิร์ฟเวอร์ที่เรียกใช้ Office Online Server เช่น `https://servername.contoso.com`
 * **–ExternalURL** คือ FQDN ที่สามารถเข้าถึงได้บนอินเทอร์เน็ต
 * **–CertificateName** คือชื่อที่เข้าใจง่ายของใบรับรอง
 
@@ -95,12 +94,12 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 ใช้คำสั่ง New-OfficeWebAppsFarm เพื่อสร้างฟาร์มสำหรับ Office Online Server ใหม่ที่ประกอบด้วยเซิร์ฟเวอร์เดียว ดังที่แสดงในตัวอย่างต่อไปนี้
 
 ```powershell
-New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
+New-OfficeWebAppsFarm -InternalURL "https://servername" -AllowHttp
 ```
 
 **พารามิเตอร์**
 
-* **–InternalURL** คือชื่อของเซิร์ฟเวอร์ที่เรียกใช้ Office Online Server เช่น `http://servername`
+* **–InternalURL** คือชื่อของเซิร์ฟเวอร์ที่เรียกใช้ Office Online Server เช่น `https://servername`
 * **–AllowHttp** กำหนดค่าฟาร์มให้ใช้ HTTP
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>ตรวจสอบว่าฟาร์มของ Office Online Server ถูกสร้างขึ้นเรียบร้อยแล้ว
@@ -168,7 +167,7 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 
 ## <a name="configure-power-bi-report-server-to-use-the-oos-server"></a>กำหนดค่าเซิร์ฟเวอร์รายงาน Power BI เพื่อใช้เซิร์ฟเวอร์ OOS
 
-บนหน้า**ทั่วไป** ของ**การตั้งค่าไซต์** ใส่ url ของการค้นพบ OOS Url ของการค้นพบ OOS คือ *InternalUrl* ตามด้วย */hosting/discovery* ใช้เมื่อมีการปรับใช้เซิร์ฟเวอร์ OOS ตัวอย่างเช่น `http://servername/hosting/discovery` สำหรับ HTTP และ `https://server.contoso.com/hosting/discovery` สำหรับ HTTPS
+บนหน้า**ทั่วไป** ของ**การตั้งค่าไซต์** ใส่ url ของการค้นพบ OOS Url ของการค้นพบ OOS คือ *InternalUrl* ตามด้วย */hosting/discovery* ใช้เมื่อมีการปรับใช้เซิร์ฟเวอร์ OOS ตัวอย่างเช่น `https://servername/hosting/discovery` สำหรับ HTTP และ `https://server.contoso.com/hosting/discovery` สำหรับ HTTPS
 
 เมื่อต้องเข้าถึง**การตั้งค่าไซต์** เลือก**ไอคอนรูปเฟือง**ที่มุมบนขวา แล้วเลือก**การตั้งค่าไซต์**
 
@@ -187,6 +186,6 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 [ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
 [ติดตั้ง Power BI Report Server](install-report-server.md)  
 [ดาวน์โหลดตัวสร้างรายงาน](https://www.microsoft.com/download/details.aspx?id=53613)  
-[ดาวน์โหลด SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[ดาวน์โหลด SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

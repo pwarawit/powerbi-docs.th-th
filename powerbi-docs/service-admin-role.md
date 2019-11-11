@@ -2,7 +2,6 @@
 title: ทำความเข้าใจเกี่ยวกับบทบาทผู้ดูแลระบบ Power BI
 description: บทความนี้ระบุเกี่ยวกับบทบาทของผู้ดูแลระบบบริการ Power BI และการใช้งานกับหน่วยงานของคุณ
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b4d2382f89c48f20767cf72bc0468589c366cfe
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 900734a027a0f1af76f93709f80eec8d8e8b3108
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256440"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856731"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>ทำความเข้าใจเกี่ยวกับบทบาทผู้ดูแลระบบบริการของ Power BI
 
@@ -111,4 +110,4 @@ ms.locfileid: "71256440"
 [การดูแล Power BI ในองค์กรของคุณ](service-admin-administering-power-bi-in-your-organization.md)  
 [พอร์ทัลผู้ดูแล Power BI](service-admin-portal.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 06ee6ad7ade46d811c6340d905150c6dd3810c55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273626"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73800172"
 ---
 ด้วย DAX คุณจะมีฟังก์ชันมากมายพร้อมให้ใช้งานสำหรับการสร้างรูปร่าง สร้างฟอร์ม หรือวิเคราะห์ข้อมูลของคุณ ฟังก์ชันเหล่านี้สามารถถูกจัดกลุ่มเป็นประเภทได้ดังนี้:
 
@@ -97,7 +97,7 @@ DAX ใช้ฟังก์ชัน **MAX** และ **MIN** เพื่อ*
 
 แม้ฟังก์ชันเหล่านี้จะมีประโยชน์ในการคำนวณและดึงข้อมูลจากค่า*วันที่* แต่ฟังก์ชันเหล่านี้ใช้กับตัวแสดงเวลาที่ใช้ตารางวันที่ไม่ได้
 
-> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](http://www.sqlbi.com/learning-dax)
+> เนื้อหาวิดีโอโดย [Alberto Ferrari, SQBI](https://www.sqlbi.com/learning-dax)
 > 
 > 
 

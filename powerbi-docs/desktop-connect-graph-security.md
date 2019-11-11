@@ -2,7 +2,6 @@
 title: เชื่อมต่อกับ Microsoft Graph Security API ใน Power BI Desktop
 description: เชื่อมต่อกับ Microsoft Graph Security API ใน Power BI Desktop ได้อย่างง่ายดาย
 author: preetikr
-manager: kfile
 ms.reviewer: ''
 ms.custom: seojan19
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9c265a5d8ad1a08396e0bb4fb553a87a134472fd
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e5374397dc9b89df7b7cbd86cfca5a44631b94e4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61317985"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876484"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>เชื่อมต่อกับ Microsoft Graph Security API ใน Power BI Desktop
 
@@ -59,7 +58,7 @@ Microsoft Graph Security API เชื่อมต่อ [โซลูชัน�
     
 5. ลงชื่อเข้าใช้บัญชี Azure Active Directory เมื่อคุณได้รับพร้อมต์แจ้ง บัญชีนี้ต้องมีบทบาท *ตัวอ่านระบบความปลอดภัย* หรือ *ผู้ดูแลระบบความปลอดภัย* ดังที่กล่าวไว้ในส่วนก่อนหน้า
 
-    ![เข้าสู่ระบบ](media/desktop-connect-graph-security/SignIn.PNG) 
+    ![ลงชื่อเข้าใช้](media/desktop-connect-graph-security/SignIn.PNG) 
     
 6. ถ้าคุณเป็นผู้ดูแลระบบผู้เช่า *และ* คุณยังไม่ได้ให้ความยินยอมกับตัวเชื่อมต่อ Microsoft Graph Security Power BI (แอปพลิเคชัน) คุณจะเห็นกล่องโต้ตอบต่อไปนี้ โปรดเลือก **ให้ความยินยอมในนามขององค์กรของคุณ**
 

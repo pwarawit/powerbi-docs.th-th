@@ -2,7 +2,6 @@
 title: รับรองชุดข้อมูล (ดูตัวอย่าง) - Power BI
 description: เรียนรู้วิธีการแนะนำผู้ใช้ในองค์กรไปยังชุดข้อมูลที่เชื่อถือได้ คุณภาพสูง
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 915fb9d10b69142621554f29a7fd77e7a41932e5
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: bdce9ec797d00b34f657ed66df6b7a5ce373334d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567338"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877158"
 ---
 # <a name="certify-datasets-preview"></a>รับรองชุดข้อมูล (ดูตัวอย่าง)
 
@@ -43,4 +42,4 @@ ms.locfileid: "67567338"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 * อ่านเกี่ยวกับ[การใช้ชุดข้อมูลทั้งพื้นที่ทำงาน](service-datasets-across-workspaces.md)
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

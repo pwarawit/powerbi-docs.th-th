@@ -2,7 +2,6 @@
 title: แสดงรูปภาพต่าง ๆ ในตารางหรือเมทริกซ์ในรายงาน
 description: ใน Power BI Desktop ให้คุณสร้างคอลัมน์ที่มีไฮเปอร์ลิงก์ไปยังรูปภาพ จากนั้นจึงเพิ่มไฮเปอร์ลิงก์ดังกล่าวไปยังตารางรายงาน เมทริกซ์ ตัวแบ่งส่วนข้อมูล หรือการ์ดแบบหลายแถวเพื่อแสดงรูปภาพใน Power BI Desktop หรือบริการของ Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cbb04057c8065e998068dd6520539c830a659f72
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 95b1dc1be3421f19fa8220629ca2003469658480
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715547"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874480"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>แสดงรูปภาพต่าง ๆ ในตาราง เมทริกซ์ หรือตัวแบ่งส่วนข้อมูลในรายงาน
 
@@ -48,5 +47,5 @@ ms.locfileid: "71715547"
 
 [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

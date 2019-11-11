@@ -3,19 +3,18 @@ title: Power BI ส่วนจัดแสดง Power BI ที่ผ่าน
 description: ข้อกำหนดและกระบวนการที่จะส่งวิชวลแบบกำหนดเองเพื่อผ่านการรับรอง และรายการของส่วนการจัดแสดง Power BI ที่ผ่านการรับรองแล้ว
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: d0372af2727861a4af0f4ebb983cb447b020b821
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 8b119f0f3b0dfb67dc2f9cb1dfd6f19d72593d66
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021354"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874584"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>รับการรับรองส่วนการจัดแสดง Power BI
 
@@ -202,4 +201,4 @@ Microsoft สามารถลบวิชวลออกจาก [ราย�
 * [แสดงภาพแบบกำหนดเองใน Power BI](power-bi-custom-visuals.md)  
 * [การเผยแพร่ส่วนการจัดแสดง Power BI ไปยัง Microsoft AppSource](developer/office-store.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: ใช้ Q&A กับการเชื่อมต่อแบบสดใน Power BI
 description: เอกสารสำหรับการใช้คิวรีภาษาธรรมชาติในการถามตอบของ Power BI ที่มีการเชื่อมต่อแบบสดกับข้อมูล Analysis Services และเกตเวย์ข้อมูลภายในองค์กร
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 59c9488def297537cc2ea944f6c0fc4f59ba29ba
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 8bb3597d2877376431a2249428e88d56bee2c0a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720890"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871807"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>เปิดใช้งาน Q&A กับการเชื่อมต่อแบบสดใน Power BI
 ## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>อะไรคือเกตเวย์ข้อมูลภายในองค์กร  เชื่อมแบบไลฟ์คืออะไร
@@ -66,5 +65,5 @@ ms.locfileid: "66720890"
 - [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)  
 - [ภาพรวม Power BI Q&A](consumer/end-user-q-and-a.md)  
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

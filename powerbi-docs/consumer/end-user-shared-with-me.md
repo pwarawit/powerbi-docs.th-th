@@ -2,7 +2,6 @@
 title: แสดงแดชบอร์ดและรายงานที่ได้แชร์กับฉัน
 description: เอกสารสำหรับแชร์กับฉันใน Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0f7926e536ba80549e8a6e1cdce5a7cf609efaba
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 6fdb336faaceee21347f426beb6fdefc0bdb70f4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716707"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861696"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>แสดงแดชบอร์ดและรายงานที่ได้แชร์กับฉัน
 

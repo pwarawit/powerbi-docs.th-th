@@ -2,7 +2,6 @@
 title: เลือกใช้ฟีเจอร์ตัวอย่าง
 description: วิธีการเปิดใช้งาน (และปิด) ฟีเจอร์ Power BI ที่มีในตัวอย่าง
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b2d658daade3ab1aa2a1c09dc33c0e7d48636910
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 5189c92c9da29b38d9ffaa4bf59e271e08fc4b2c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141519"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862720"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>เลือกใช้ฟีเจอร์ตัวอย่างของบริการ Power BI
 ## <a name="what-are-preview-features"></a>อะไรคือ*ฟีเจอร์ตัวอย่าง*
@@ -34,5 +33,5 @@ ms.locfileid: "71141519"
 4. เมื่อต้องการปิดใช้งานฟีเจอร์ตัวอย่าง ให้ปฏิบัติตามขั้นตอนที่ 1-3 ด้านบน โดยในขั้นตอนที่ 3 เลือก**ปิด**หรือลบเครื่องหมายถูกออกไป แล้วเลือก**ใช้**
 
 
-มีคำถามหรือคำติชมหรือไม่ [เยี่ยมชมฟอรั่มชุมชน Power BI](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview)
+มีคำถามหรือคำติชมหรือไม่ [เยี่ยมชมฟอรั่มชุมชน Power BI](https://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview)
 

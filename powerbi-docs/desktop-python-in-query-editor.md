@@ -2,7 +2,6 @@
 title: การใช้ Python ใน Power BI Query Editor
 description: ใช้ Python ในตัวแก้ไขคิวรีของ Power BI Desktop สำหรับการวิเคราะห์ขั้นสูง
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 371779df3aaf7cf08d96f61f49039a6383eeda9c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61287845"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878018"
 ---
 # <a name="using-python-in-query-editor"></a>การใช้ Python ใน Query Editor
 คุณสามารถใช้ **Python** ซึ่งเป็นภาษาการเขียนโปรแกรมที่นักสถิติ นักวิทยาศาสตร์ข้อมูล และนักวิเคราะห์ข้อมูลใช้กันอย่างกว้างขวางใน **ตัวแก้ไขคิวรีของ** Power BI Desktop การรวม Python ใน **ตัวแก้ไขคิวรี** ช่วยให้คุณดำเนินการทำความสะอาดข้อมูลโดยใช้ Python  และดำเนินการวิเคราะห์และการจัดรูปทรงข้อมูลขั้นสูงในชุดข้อมูล รวมทั้งการเติมเต็มข้อมูลที่คาดหาย การคาดการณ์ และการทำคลัสเตอร์ และอื่นๆ **Python** เป็นภาษาที่มีประสิทธิภาพ และสามารถใช้ได้ใน **ตัวแก้ไขคิวรี** เพื่อเตรียมแบบจำลองข้อมูลของคุณ และสร้างรายงาน
@@ -24,7 +23,7 @@ ms.locfileid: "61287845"
 เมื่อต้องใช้ **Python** ใน **ตัวแก้ไขคิวรี** ของ Power BI Desktop คุณจำเป็นต้องติดตั้ง **Python** บนเครื่องคอมพิวเตอร์ของคุณ คุณสามารถดาวน์โหลดและติดตั้ง **Python** ได้ฟรีจากตำแหน่งที่ตั้งต่าง ๆ ซึ่งรวมถึง[หน้าดาวน์โหลด Official Python](https://www.python.org/) และ [Anaconda](https://anaconda.org/anaconda/python/)
 
 ## <a name="using-python-in-query-editor"></a>การใช้ Python ใน Query Editor
-เพื่อแสดงวิธีการใช้ **Python** ใน **ตัวแก้ไขคิวรี** ลองใช้ตัวอย่างนี้จากชุดข้อมูลตลาดโดยพิจารณาจากไฟล์ CSV ที่คุณสามารถ[ดาวน์โหลดได้จากที่นี่](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)และทำตามขั้นตอน ขั้นตอนสำหรับตัวอย่างนี้มีดังนี้:
+เพื่อแสดงวิธีการใช้ **Python** ใน **ตัวแก้ไขคิวรี** ลองใช้ตัวอย่างนี้จากชุดข้อมูลตลาดโดยพิจารณาจากไฟล์ CSV ที่คุณสามารถ[ดาวน์โหลดได้จากที่นี่](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv)และทำตามขั้นตอน ขั้นตอนสำหรับตัวอย่างนี้มีดังนี้:
 
 1. ก่อนอื่น โหลดข้อมูลของคุณลงใน **Power BI Desktop** ในตัวอย่างนี้ โหลดไฟล์ *EuStockMarkets_NA.csv* และเลือก**รับข้อมูล > CSV** จาก ribbon ของ **Home** ใน **Power BI Desktop**
    
@@ -77,7 +76,7 @@ ms.locfileid: "61287845"
 เมื่อวิชวลดังกล่าวเสร็จสมบูรณ์ และภาพอื่นๆ ที่คุณอาจต้องการสร้างโดยใช้ **Power BI Desktop** คุณสามารถบันทึกไฟล์ของ **Power BI Desktop** (ซึ่งจะบันทึกเป็นไฟล์ .pbix) และจากนั้น ใช้แบบจำลองข้อมูลที่รวมถึงสคริปต์ Python ที่เป็นส่วนหนึ่งของแบบจำลองนั้นในบริการของ Power BI
 
 > [!NOTE]
-> ต้องการดูไฟล์ .pbix ที่เสร็จสมบูรณ์ด้วยขั้นตอนเหล่านี้หรือไม่ คุณโชคดี - คุณสามารถดาวน์โหลดไฟล์ของ **Power BI Desktop** ที่เสร็จสมบูรณ์ในตัวอย่างเหล่านี้[ที่นี่](http://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix)
+> ต้องการดูไฟล์ .pbix ที่เสร็จสมบูรณ์ด้วยขั้นตอนเหล่านี้หรือไม่ คุณโชคดี - คุณสามารถดาวน์โหลดไฟล์ของ **Power BI Desktop** ที่เสร็จสมบูรณ์ในตัวอย่างเหล่านี้[ที่นี่](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix)
 
 เมื่อคุณอัปโหลดไฟล์ .pbix ไปยังบริการของ Power BI จำเป็นต้องทำขั้นตอนเพิ่มเติมเพื่อให้สามารถรีเฟรชข้อมูล (ในบริการ) และเพื่อให้ปรับปรุงภาพที่แสดงข้อมูลในบริการได้ (ข้อมูลต้องเข้าถึง Python เพื่อปรับปรุงการแสดงผลด้วยภาพ) ขั้นตอนเพิ่มเติมมีดังนี้:
 

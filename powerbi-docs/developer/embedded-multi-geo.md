@@ -3,18 +3,17 @@ title: การสนับสนุนหลายภูมิภาคสำ�
 description: เรียนรู้วิธีปรับใช้เนื้อหาไปยังศูนย์ข้อมูลในภูมิภาคนอกเหนือจากภูมิภาคที่อยู่ของ Power BI Embedded
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 57f01a458bad36c73a01adb1bc62bfd5a055a337
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 093b1e430d59a6060829b63a5bcfe17a7bb43928
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61345004"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875785"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>การสนับสนุนหลายภูมิภาคสำหรับ Power BI Embedded
 
@@ -92,4 +91,4 @@ ms.locfileid: "61345004"
 
 * [Multi-Geo ในความจุ Power BI Premium](../service-admin-premium-multi-geo.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

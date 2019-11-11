@@ -3,18 +3,17 @@ title: มีอะไรใหม่ใน Power BI Report Server
 description: เรียนรู้ว่ามีอะไรใหม่ใน Power BI Report Server ส่วนนี้จะครอบคลุมถึงพื้นที่คุณลักษณะเฉพาะหลักๆ และถูกอัปเดตเมื่อมีการเผยแพร่รายการใหม่
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/26/2019
-ms.openlocfilehash: 26dde078ce0b237779660c44b2843a645e4d1a47
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 526a971817c50599bf77ae085f3d5ff07294b25b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325571"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858741"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>มีอะไรใหม่ใน Power BI Report Server
 
@@ -136,7 +135,7 @@ ms.locfileid: "71325571"
 
 - ปัจจุบันสามารถแสดงวันที่เป็นโครงสร้างได้โดยทั่วถึงกันแล้ว  
 
-### <a name="modeling"></a>การวางรูปแบบ
+### <a name="modeling"></a>การสร้างแบบจำลอง
 
 - มุมมองโมเดลใหม่สามารถใช้งานได้โดยทั่วถึงกันแล้ว
 - ฟังก์ชัน DAX ใหม่
@@ -272,7 +271,7 @@ ms.locfileid: "71325571"
 - [จัดรูปแบบตามเงื่อนไขด้วยเขตข้อมูลอื่น](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingField)
 - [จัดรูปแบบตามเงื่อนไขด้วยค่า](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingValue)
 
-### <a name="modeling"></a>การวางรูปแบบ
+### <a name="modeling"></a>การสร้างแบบจำลอง
 
 - [กรองและเรียงลำดับในมุมมองข้อมูล](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#filterAndSort)
 - [ปรับปรุงตำแหน่งการจัดรูปแบบ](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#locale)

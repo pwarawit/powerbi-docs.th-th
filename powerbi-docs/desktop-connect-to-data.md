@@ -2,7 +2,6 @@
 title: เชื่อมต่อกับข้อมูลใน Power BI Desktop
 description: เชื่อมต่อกับข้อมูลใน Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,15 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a582eb5c160685784c6db497353f92d2dd3d2cf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b9e006cb14d391b82c7a1f48ba760ad9c363062c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514093"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878484"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>เชื่อมต่อกับข้อมูลใน Power BI Desktop
-ด้วย Power BI Desktop คุณสามารถเชื่อมต่อไปทั่วโลกแห่งข้อมูลที่กำลังขยายตัวได้อย่างง่ายดาย ถ้าคุณไม่มี Power BI Desktop คุณสามารถ[ดาวน์โหลด](http://go.microsoft.com/fwlink/?LinkID=521662)และติดตั้งได้
+ด้วย Power BI Desktop คุณสามารถเชื่อมต่อไปทั่วโลกแห่งข้อมูลที่กำลังขยายตัวได้อย่างง่ายดาย ถ้าคุณไม่มี Power BI Desktop คุณสามารถ[ดาวน์โหลด](https://go.microsoft.com/fwlink/?LinkID=521662)และติดตั้งได้
 
 ใน Power BI Desktop จะมีแหล่งข้อมูลต่าง ๆ *ทุกประเภท*ที่พร้อมใช้งาน รูปต่อไปนี้แสดงวิธีการเชื่อมต่อกับข้อมูล โดยการเลือก**ไฟล์** แถบ ribbon จากนั้น**รับข้อมูล\>เพิ่มเติม**
 
@@ -32,7 +31,7 @@ ms.locfileid: "65514093"
 
 ไม่ว่าวิธีใด คุณจะพบแหล่งข้อมูลบนเว็บที่มีข้อมูลที่น่าสนใจเกี่ยวกับหัวข้อเหล่านั้น และอื่น ๆ อีกมาก
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 คุณเลือก**รับข้อมูล\>เว็บ**และพิมพ์อยู่
 
@@ -75,7 +74,7 @@ ms.locfileid: "65514093"
 * [ปรับข้อมูลให้เป็นรูปร่าง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [งานแบบสอบถามทั่วไปใน Power BI Desktop](desktop-common-query-tasks.md)   
 
-ต้องการส่งคำติชมถึงเราหรือไม่ ยอดเยี่ยม – ใช้เมนู**ส่งความคิดเห็น**ใน Power BI Desktop หรือเยี่ยมชม[คำติชมชุมชน](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) เราหวังว่าจะได้รับคำติชมจากคุณ!
+ต้องการส่งคำติชมถึงเราหรือไม่ ยอดเยี่ยม – ใช้เมนู**ส่งความคิดเห็น**ใน Power BI Desktop หรือเยี่ยมชม[คำติชมชุมชน](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) เราหวังว่าจะได้รับคำติชมจากคุณ!
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

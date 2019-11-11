@@ -2,7 +2,6 @@
 title: คำแนะนำสำหรับการปรับใช้เกตเวย์ข้อมูลจาก Power BI
 description: เรียนรู้หลักปฏิบัติและข้อควรพิจารณาที่ดีที่สุดในการการปรับใช้เกตเวย์สำหรับ Power BI
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5a0c29f04e7329373eec5f60af840e503ec22b3c
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d4a02ccc759f78a4243f34fb59115fb9084ea90d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729990"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881690"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>คำแนะนำสำหรับการปรับใช้เกตเวย์ข้อมูลจาก Power BI
 
@@ -69,5 +68,5 @@ Power BI มีชนิดของการเชื่อมต่อสอ�
 * [แก้ไขปัญหาเกตเวย์-Power BI](service-gateway-onprem-tshoot.md)  
 * [คำถามที่ถามบ่อยเกี่ยวกับเกตเวย์ข้อมูลภายในองค์กร - Power BI](service-gateway-power-bi-faq.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? ลองไปที่[ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? ลองไปที่ [ชุมชน Power BI](https://community.powerbi.com/)
 

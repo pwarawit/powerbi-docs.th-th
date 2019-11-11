@@ -2,19 +2,18 @@
 title: การรวมการค้นหาอุปกรณ์ iOS ด้วย Power BI
 description: ใช้การค้นหาอุปกรณ์ (สปอตไลต์) เพื่อค้นหาและเข้าถึงเนื้อหาที่คุณต้องการ
 author: michalfo
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 8f40781bb15b06f894a53f16d4ec6754d88e6b53
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f89895650bb0b81533aeddbc149f225742dc9d3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "66817087"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879227"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>การรวมการค้นหาอุปกรณ์ iOS (สปอตไลต์) ด้วยแอป Power BI บนมือถือระบบ iOS (ตัวอย่าง)
 ใช้การค้นหาอุปกรณ์เพื่อค้นหาและเข้าถึงเนื้อหาที่คุณต้องการ
@@ -51,7 +50,7 @@ ms.locfileid: "66817087"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 เรียนรู้เพิ่มเติมเกี่ยวกับแอป Power BI สำหรับอุปกรณ์เคลื่อนที่โดยดำเนินการดังนี้: 
 
-* การดาวน์โหลด [แอป Power BI สำหรับ iPhone](http://go.microsoft.com/fwlink/?LinkId=522062)
+* การดาวน์โหลด [แอป Power BI สำหรับ iPhone](https://go.microsoft.com/fwlink/?LinkId=522062)
 * ติดตาม[@MSPowerBIบน Twitter](https://twitter.com/MSPowerBI)
-* การเข้าร่วมการสนทนาที่[ชุมชน Power BI](http://community.powerbi.com/)
+* การเข้าร่วมการสนทนาที่[ชุมชน Power BI](https://community.powerbi.com/)
 

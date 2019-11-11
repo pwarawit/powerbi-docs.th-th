@@ -2,7 +2,6 @@
 title: การสุ่มตัวอย่างเส้นแบบความหนาแน่นสูงใน Power BI
 description: การสุ่มตัวอย่างเส้นแบบความหนาแน่นสูงใน Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 357611d36fd59be1b674f06ce72c5aba8d020822
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 40e11f6423df12355800a2c62876e5de1f8b3f82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454333"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867461"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>การสุ่มตัวอย่างเส้นแบบความหนาแน่นสูงใน Power BI
 เริ่มตั้งแต่ **Power BI Desktop** ที่เผยแพร่เดือนมิถุนายน 2017 และการอัปเดตใน**บริการของ Power BI** มีอัลกอริทึมการสุ่มตัวอย่างใหม่ ซึ่งช่วยปรับปรุงวิชวลที่สุ่มตัวอย่างข้อมูลที่มีความหนาแน่นสูง ตัวอย่างเช่น คุณอาจสร้างแผนภูมิเส้นจากผลลัพธ์ยอดขายของร้านค้าปลีกของคุณ แต่ละร้านค้ามีมากกว่าหนึ่งหมื่นใบเสร็จการขายสินค้าต่อปี แผนภูมิเส้นของข้อมูลดังกล่าวจะสุ่มตัวอย่างข้อมูล (เลือกตัวแทนของข้อมูลที่สื่อความหมาย ให้เห็นว่าการขายเกิดขึ้นตามเวลาอย่างไร) จากข้อมูลของแต่ละร้านค้า และสร้างแผนภูมิเส้นแบบหลายชุดข้อมูลที่แทนข้อมูลเบื้องต้น นี่คือแนวทางปฏิบัติทั่วไปในการแสดงภาพความหนาแน่นสูง Power BI Desktop ได้ปรับปรุงการสุ่มตัวอย่างของข้อมูลที่หนาแน่นสูง รายละเอียดนั้นจะอธิบายไว้ในบทความนี้

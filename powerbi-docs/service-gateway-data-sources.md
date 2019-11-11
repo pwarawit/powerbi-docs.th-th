@@ -2,7 +2,6 @@
 title: จัดการแหล่งข้อมูล
 description: เรียนรู้วิธีการจัดการแหล่งข้อมูลใน Power BI
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -11,12 +10,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164539"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881776"
 ---
 # <a name="manage-data-sources"></a>จัดการแหล่งข้อมูล
 
@@ -178,4 +177,4 @@ OAuth เป็นเค้าร่างการรับรองควา�
 * [จัดการแหล่งข้อมูลของคุณ - นำเข้า/รีเฟรชตามกำหนดการ](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [คำแนะนำสำหรับการปรับใช้เกตเวย์ข้อมูล](service-gateway-deployment-guidance.md)
 
-มีคำถามเพิ่มเติมหรือไม่? ลองไปที่ [ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? ลองไปที่ [ชุมชน Power BI](https://community.powerbi.com/)

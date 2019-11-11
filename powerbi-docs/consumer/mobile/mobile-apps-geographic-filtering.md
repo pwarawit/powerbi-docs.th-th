@@ -2,18 +2,17 @@
 title: ตัวกรองรายงานตามตำแหน่งที่ตั้งทางภูมิศาสตร์ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 description: เรียนรู้วิธีที่คุณสามารถกรองรายงานตามตำแหน่งที่ตั้งทางภูมิศาสตร์ในแอป Microsoft Power BI สำหรับอุปกรณ์เคลื่อนที่ ถ้าเจ้าของรายงานกำหนดแท็กที่ตั้งทางภูมิศาสตร์
 author: mshenhav
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/25/2019
 ms.author: mshenhav
-ms.openlocfilehash: 9a4950a1d52451764c3c62413bf4ecbd036f06c8
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 1079b624ebab827b41f4da55095028796319fdcd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305771"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870629"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>กรองรายงานตามตำแหน่งที่ตั้งทางภูมิศาสตร์ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 ใช้ได้กับ:
@@ -51,5 +50,5 @@ ms.locfileid: "71305771"
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
 * [เชื่อมต่อกับข้อมูล Power BI จากโลกแห่งความจริง](mobile-apps-data-in-real-world-context.md)ด้วยแอปสำหรับอุปกรณ์เคลื่อนที่
 * [จัดประเภทข้อมูลใน Power BI Desktop](../../desktop-data-categorization.md) 
-* คำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* คำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

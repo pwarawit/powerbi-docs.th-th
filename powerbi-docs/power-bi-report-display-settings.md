@@ -2,7 +2,6 @@
 title: การตั้งค่าการแสดงหน้าในรายงาน Power BI
 description: การตั้งค่าการแสดงหน้าและการตั้งค่ามุมมองหน้าสำหรับรายงาน
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 97df2d6910f0215bd01875c88ea5d81d5dcc2c7c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 183ce793342253775f641406620447e7b0f44020
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720857"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875118"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>การตั้งค่าการแสดงหน้าในรายงาน Power BI
 เราเข้าใจดีว่าการรักษาให้พิกเซลของการจัดหน้ารายงานสมบูรณ์เป็นเรื่องสำคัญ บางครั้ง การทำดังกล่าวเป็นไปได้ยากเนื่องจากคุณและเพื่อนร่วมงานของคุณอาจดูรายงานเหล่านั้นบนหน้าจอด้วยอัตราส่วนกว้างยาวและขนาดแตกต่างกัน 
@@ -80,5 +79,5 @@ ms.locfileid: "66720857"
 
 [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

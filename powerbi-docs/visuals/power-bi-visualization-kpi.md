@@ -2,7 +2,6 @@
 title: ภาพตัวบ่งชี้ประสิทธิภาพหลัก (KPI)
 description: สร้างภาพตัวบ่งชี้ประสิทธิภาพหลัก (KPI) ใน Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6EpqaO0
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ecec706c281b2a36c342ea852eebb4a8559a6fd
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 42a9f2c641a0cdac9b7a129ffc5ecc6f7fb8cf8d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239929"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870864"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>ภาพตัวบ่งชี้ประสิทธิภาพหลัก (KPI)
 
@@ -47,7 +46,7 @@ KPI เป็นตัวเลือกที่ดีที่สุด:
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-บทช่วยสอนนี้ใช้[ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+บทช่วยสอนนี้ใช้[ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 1. จากด้านบนซ้ายของแถบเมนู เลือก **ไฟล์** > **เปิด**
 
@@ -106,4 +105,4 @@ KPI ยังมีให้บริการในบริการของ 
 
 * [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

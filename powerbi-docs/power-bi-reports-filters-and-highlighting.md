@@ -2,7 +2,6 @@
 title: ตัวกรองและการไฮไลท์ในรายงาน Power BI
 description: เกี่ยวกับตัวกรองและการไฮไลท์ในรายงาน Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 53bca7d1c0fd4d8592ec694d67148a7e3ccd46ff
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: f1722690ff974a9d4fac6e94243e1024bfbfc12e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891874"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877611"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>ตัวกรองและการไฮไลท์ในรายงาน Power BI
  บทความนี้ทำการแนะนำการใช้ตัวกรองและการไฮไลท์ในบริการของ Power BI ประสบการณ์การใช้งานนั้นแทบจะเหมือนกับใน Power BI Desktop *ตัวกรอง*ให้ลบออกทั้งหมดยกเว้นข้อมูลที่คุณต้องการวิเคราะห์ *การไฮไลต์* ไม่ใช่การกรอง โดยจะไม่ลบข้อมูลออก แต่จะไฮไลต์เซตย่อยของข้อมูลที่สามารถมองเห็นได้แทน ซึ่งข้อมูลที่ไม่ได้ไฮไลต์ยังคงสามารถจะมองเห็นได้แต่จะเป็นสีจาง
@@ -100,5 +99,5 @@ ms.locfileid: "72891874"
 
 [เปลี่ยนวิธีที่่ภาพรายงานกรองแบบไขว้ และข้ามไฮไลท์ของแต่ละตัว](consumer/end-user-interactions.md)
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

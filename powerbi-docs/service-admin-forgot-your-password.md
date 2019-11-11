@@ -2,7 +2,6 @@
 title: ลืมรหัสผ่านของคุณสำหรับ Power BI ใช่หรือไม่
 description: ถ้าคุณลืมรหัสผ่านของคุณ คุณสามารถใช้ลิงก์เพื่อขอรีเซ็ตรหัสผ่าน
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6b3e75b9674a8b22948bdee1b8f8b9086eb2b691
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: c4e13871e7ebf432e1478eb8d524f466bed9f0bc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075179"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873607"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>ลืมรหัสผ่านของคุณสำหรับ Power BI ใช่หรือไม่
 
@@ -34,4 +33,4 @@ ms.locfileid: "71075179"
 > [!NOTE]
 > Power BI ให้การสนับสนุนในช่วงเวลาทำการปกติในโซน time แบบมาตรฐานของตะวันออก (EST) ขณะนี้การรองรับมีเฉพาะในภาษาอังกฤษเท่านั้น
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

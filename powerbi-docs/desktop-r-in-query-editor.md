@@ -2,7 +2,6 @@
 title: ใช้ R ในตัวแก้ไข Power Query
 description: ใช้ R ในตัวแก้ไขคิวรีของ Power BI Desktop สำหรับการวิเคราะห์ขั้นสูง
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: d2ba33e18701ad147cb38072461804b4528101ea
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841514"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877943"
 ---
 # <a name="use-r-in-query-editor"></a>ใช้ R ในตัวแก้ไขคิวรี
 
@@ -50,7 +49,7 @@ ms.locfileid: "70841514"
 
 เพื่อสาธิตการใช้ **R** ใน**ตัวแก้ไขคิวรี** เราจะใช้ตัวอย่างชุดข้อมูลตลาดหุ้นที่มีอยู่ในไฟล์ .csv และทำงานผ่านขั้นตอนต่อไปนี้:
 
-1. [ดาวน์โหลดไฟล์ **EuStockMarkets_NA.csv**](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) จดจำตำแหน่งที่คุณบันทึกไว้
+1. [ดาวน์โหลดไฟล์ **EuStockMarkets_NA.csv**](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) จดจำตำแหน่งที่คุณบันทึกไว้
 
 1. โหลดไฟล์ลงใน **Power BI Desktop**: จากริบบอน **หน้าแรก** เลือก **รับข้อมูล > Text/CSV**
 
@@ -108,7 +107,7 @@ ms.locfileid: "70841514"
 คุณสามารถบันทึกวิชวลที่สมบูรณ์ทั้งหมดในไฟล์ .pbix ของ **Power BI Desktop** ไฟล์เดียวและใช้แบบจำลองข้อมูล รวมถึงสคริปต์ R ในบริการของ Power BI
 
 > [!NOTE]
-> คุณสามารถ[ดาวน์โหลดไฟล์ .pbix ](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix)ด้วยขั้นตอนที่สมบูรณ์เหล่านี้
+> คุณสามารถ[ดาวน์โหลดไฟล์ .pbix ](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix)ด้วยขั้นตอนที่สมบูรณ์เหล่านี้
 
 หลังจากที่คุณอัปโหลดไฟล์ .pbix ไปยังบริการของ Power BI แล้ว คุณจำเป็นต้องดำเนินการขั้นตอนเพิ่มเติมเพื่อเปิดใช้งานการรีเฟรชข้อมูลบริการและวิชวลที่อัปเดต:  
 

@@ -2,7 +2,6 @@
 title: ใช้ Drillthrough ใน Power BI Desktop
 description: เรียนรู้วิธีการดูรายละเอียดอย่างเจาะลึกในข้อมูลในหน้าใหม่ของรายงานใน Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7c9d400b196366609caebe9f79bb9a8130a4ad11
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: e093788683d10bc11c09d63ba327611a67f311c0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375175"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879918"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>ใช้ Drillthrough ใน Power BI Desktop
 ด้วย **Drillthrough** ใน **Power BI Desktop** คุณสามารถสร้างหน้าในรายงานของคุณ ที่มุ่งเน้นไปยังรายการเฉพาะ เช่น ผู้จัดหา, ลูกค้า หรือผู้ผลิต ผู้ใช้สามารถคลิกขวาบนจุดข้อมูลในหน้ารายงานอื่น ๆ จากนั้นผู้ใช้สามารถดูรายละเอียดผ่านหน้าที่สนใจเพื่อรับรายละเอียดที่ถูกกรองไปยังบริบทนั้น
@@ -81,6 +80,6 @@ ms.locfileid: "66375175"
 
 คุณอาจสนใจบทความต่อไปนี้:
 
-* [ใช้การเข้าถึงรายละเอียดข้ามรายงานใน Power BI Desktop](desktop-cross-report-drill-through.md)
+* [ใช้ตัวเจาะเข้าถึงรายละเอียดข้ามรายงานใน Power BI Desktop](desktop-cross-report-drill-through.md)
 * [การใช้ตัวแบ่งส่วนข้อมูล Power BI Desktop](visuals/power-bi-visualization-slicers.md)
 

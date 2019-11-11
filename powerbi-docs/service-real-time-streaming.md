@@ -2,7 +2,6 @@
 title: การสตรีมในเวลาจริงใน Power BI
 description: รับการสตรีมข้อมูลและวิชวลในเวลาจริง ใน Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f88d1e0458e6a1b3abe20c0b4dd889c037ede612
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 9415365c3846329d5bcf707ec7f41d0bd2cc6f92
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307350"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871733"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>การสตรีมในเวลาจริงใน Power BI
 ด้วยการสตรีมในเวลาจริงใน Power BI คุณสามารถสตรีมข้อมูล และปรับปรุงแดชบอร์ดในเวลาจริง วิชวลหรือแดชบอร์ดใด ๆ ที่สามารถสร้างใน Power BI ยังสามารถสร้างเพื่อแสดงและปรับปรุง ข้อมูลและวิชวลในเวลาจริง อุปกรณ์และแหล่งข้อมูลการสตรีมอาจเป็น เซนเซอร์โรงงาน แหล่งข้อมูลจากสื่อทางสังคม เมตริกการใช้บริการ และข้อมูลอื่น ๆ ที่สามารถรวบรวมหรือส่งข้อมูลที่ไวต่อเวลาได้

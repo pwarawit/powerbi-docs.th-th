@@ -2,7 +2,6 @@
 title: เชื่อมต่อกับ Snowflake Computing Warehouse ใน Power BI Desktop
 description: เชื่อมต่อและใช้งาน Snowflake Computing Warehouse ใน Power BI Desktop ได้อย่างง่ายดาย
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c02eda44ec81fe31972055548996ae357bc4c4b9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2bb44498b6123eadffe86c7eb9bfb93bb0db5e14
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513825"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876426"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>เชื่อมต่อกับ Snowflake ใน Power BI Desktop
 ใน Power BI Desktop คุณสามารถเชื่อมต่อไปยัง **Snowflake** Computing Warehouse และใช้ข้อมูลพื้นฐานได้เช่นเดียวกับแหล่งข้อมูลอื่นๆ ใน Power BI Desktop 
 
 > [!NOTE]
-> คุณยัง*ต้อง*ติดตั้ง**ไดรฟ์เวอร์ Snowflake ODBC** บนคอมพิวเตอร์ที่ใช้ตัวเชื่อมต่อ **Snowflake** โดยใช้สถาปัตยกรรมที่ตรงกับการติดตั้ง  **Power BI Desktop** 32 บิตหรือ 64 บิต ไปยังลิงก์ต่อไปนี้แล้ว[ดาวน์โหลดไดรฟ์เวอร์ Snowflake ODBC ที่เหมาะสม](http://go.microsoft.com/fwlink/?LinkID=823762)
+> คุณยัง*ต้อง*ติดตั้ง**ไดรฟ์เวอร์ Snowflake ODBC** บนคอมพิวเตอร์ที่ใช้ตัวเชื่อมต่อ **Snowflake** โดยใช้สถาปัตยกรรมที่ตรงกับการติดตั้ง  **Power BI Desktop** 32 บิตหรือ 64 บิต ไปยังลิงก์ต่อไปนี้แล้ว[ดาวน์โหลดไดรฟ์เวอร์ Snowflake ODBC ที่เหมาะสม](https://go.microsoft.com/fwlink/?LinkID=823762)
 > 
 > 
 

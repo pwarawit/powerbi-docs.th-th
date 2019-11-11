@@ -3,19 +3,18 @@ title: วิชวลขององค์กรใน Power BI
 description: ใช้ จัดการ และสร้างวิชวลองค์กรใน Power BI
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b10a856a98c892b32e873bd01105c52777d2b413
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 8c28c5ee89ffee37c09db8dc6ffcd6fb90274786
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946160"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875225"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>วิชวลองค์กรใน Power BI
 
@@ -62,4 +61,4 @@ ms.locfileid: "71946160"
 
 สำหรับข้อมูลเพิ่มเติมและคำตอบที่คุณอยากรู้ โปรดเยี่ยมชม[คำถามที่ถามบ่อยเกี่ยวกับ Power BI ส่วนการแสดงผล Power BI](power-bi-custom-visuals-faq.md#organizational-visuals)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

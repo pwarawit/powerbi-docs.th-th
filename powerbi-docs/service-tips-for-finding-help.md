@@ -2,7 +2,6 @@
 title: 10 เคล็ดลับสำหรับการรับความช่วยเหลือเกี่ยวกับคำถาม Power BI ของคุณ
 description: ต่อไปนี้คือ 10 วิธีรับความช่วยเหลือเมื่อคุณมีคำถามเกี่ยวกับวิธีการทำงานของ Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: ee272f32dbce4630f8b834187e05fda5739df7be
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060297"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876944"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 เคล็ดลับสำหรับการรับความช่วยเหลือเกี่ยวกับคำถาม Power BI ของคุณ
 คุณเคยรู้สึกอึดอัดเมื่อใช้ Power BI หรือพบปัญหาเนื่องจากคุณไม่เจอคำตอบของคำถามเกี่ยวกับ Power BI ในเวลาที่คุณต้องการ เช่น "just-in-time" หรือไม่ 
@@ -55,7 +54,7 @@ ms.locfileid: "73060297"
 * ค้นหารอบการฝึกอบรม "**แดชบอร์ดในหนึ่งวัน**"
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>7 ถามหรือค้นหาในชุมชน Power BI
-ถามคำถามและค้นหาคำตอบในการ[ชุมชน Power BI](http://community.powerbi.com) ผู้เชี่ยวชาญ BI ทั่วโลกอยู่ในชุมชน ตรวจสอบให้แน่ใจว่าคุณได้รับประโยชน์จากความรู้ของพวกเขา โดยใช้ทรัพยากรนี้
+ถามคำถามและค้นหาคำตอบในการ[ชุมชน Power BI](https://community.powerbi.com) ผู้เชี่ยวชาญ BI ทั่วโลกอยู่ในชุมชน ตรวจสอบให้แน่ใจว่าคุณได้รับประโยชน์จากความรู้ของพวกเขา โดยใช้ทรัพยากรนี้
 
 ## <a name="8-join-or-create-a-power-bi-user-group"></a>8 เข้าร่วมหรือสร้างกลุ่มผู้ใช้ Power BI
 เข้าร่วมใน[กลุ่มผู้ใช้ Power BI](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups)และขอความช่วยเหลือให้กลุ่มตอบคำถามของคุณ หรือคุณเริ่มต้นกลุ่มผู้ใช้และสร้างชุมชนของบุคคลที่ช่วยเหลือกัน โดยมุ่งเน้นความต้องการของคุณ ในพื้นที่ของคุณ สำหรับข้อมูลของคุณ ในโซนเวลาของคุณ
@@ -70,5 +69,5 @@ ms.locfileid: "73060297"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [Power BI คืออะไร](fundamentals/power-bi-overview.md)
-* ลองถาม[ชุมชน Power BI](http://community.powerbi.com/)
+* ลองถาม[ชุมชน Power BI](https://community.powerbi.com/)
 * ยังคงมีปัญหาหรือไม่? โปรดเยี่ยมชม[หน้าการรองรับของ Power BI](https://powerbi.microsoft.com/support/)

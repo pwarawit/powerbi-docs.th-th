@@ -2,7 +2,6 @@
 title: คำถามที่ถามบ่อยเกี่ยวกับเกตเวย์ข้อมูลภายในองค์กร - Power BI
 description: บทความนี้เป็นบทความเกี่ยวกับคำถามที่พบบ่อยสำหรับเกตเวย์ข้อมูลภายในองค์กรสำหรับ Power BI บทความนี้รวบรวมคำถามที่พบบ่อยสำหรับเกตเวย์ที่ใช้ใน Power BI ไว้ในที่เดียว
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 45a645227a5d7a18fd05738559ed0bccc0e1f7c9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867054"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872406"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>คำถามที่ถามบ่อยเกี่ยวกับเกตเวย์ข้อมูลภายในองค์กร - Power BI
 
@@ -73,5 +72,5 @@ ms.locfileid: "68867054"
 
 * [การแก้ไขปัญหาเกตเวย์ข้อมูลภายในองค์กร](/data-integration/gateway/service-gateway-tshoot)
 
-มีคำถามเพิ่มเติมหรือไม่? ลองไปที่ [ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? ลองไปที่ [ชุมชน Power BI](https://community.powerbi.com/)
 

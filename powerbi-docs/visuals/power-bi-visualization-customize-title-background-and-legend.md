@@ -2,7 +2,6 @@
 title: เริ่มต้นใช้งานการจัดรูปแบบการแสดงภาพ Power BI
 description: กำหนดชื่อเรื่องการแสดงภาพ พื้นหลัง และคำอธิบายแผนภูมิ
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6228ed70dd78ffca6cd3c8803518b2b27674576f
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 011e2b6d3bf5cc998f7db76e96536d2ddab09888
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389815"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880848"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>กำหนดชื่อเรื่องการแสดงภาพ คำอธิบายแผนภูมิ และพื้นหลัง
 
@@ -167,4 +166,4 @@ ms.locfileid: "67389815"
 
 - [แนวคิดพื้นฐานสำหรับลูกค้าที่ใช้บริการ Power BI](../consumer/end-user-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

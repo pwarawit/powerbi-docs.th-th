@@ -2,7 +2,6 @@
 title: ปรับแดชบอร์ดให้เหมาะสมสำหรับโทรศัพท์มือถือ-Power BI
 description: เรียนรู้วิธีการสร้างมุมมองแบบกำหนดเองของแดชบอร์ดใน Power BI service โดยเฉพาะสำหรับการดูบนโทรศัพท์มือถือ
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 75152d546bc2dc622210d5b9e5933ee44fbdc0b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61158278"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872862"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>ปรับแดชบอร์ดให้เหมาะสมสำหรับโทรศัพท์มือถือ-Power BI 
 เมื่อคุณดูแดชบอร์ดในโหมดแนวตั้งบนโทรศัพท์ของคุณ คุณจะสังเกตเห็นแดชบอร์ดที่เป็นแบบซ้อนถัดๆกัน ที่มีขนาดเดียวกันทั้งหมด ใน Power BI service คุณสามารถสร้างมุมมองของแดชบอร์ดโดยเฉพาะสำหรับโหมดแนวตั้งของคุณ เมื่อคุณเปิดใช้งานมุมมองทางโทรศัพท์เมื่อคุณหันโทรศัพท์ไปทางทางด้านข้าง คุณจะเห็นแดชบอร์ดถูกวางไว้ในบริการ
@@ -59,5 +58,5 @@ ms.locfileid: "61158278"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [สร้างรายงานที่ปรับให้เหมาะสมสำหรับแอปมือถือ Power BI](desktop-create-phone-report.md)
 * [สร้างภาพแบบตอบสนองที่ปรับให้เหมาะสมกับทุกขนาด](visuals/desktop-create-responsive-visuals.md)
-* มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

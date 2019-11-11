@@ -2,7 +2,6 @@
 title: การแก้ไขปัญหาค่าที่ซ้อนกันกลับคืนเป็นข้อความใน Power BI Service
 description: เรียนรู้เกี่ยวกับวิธีแก้ไขปัญหาค่าที่ซ้อนกันที่ถูกแปลงเป็นสตริเมื่อใช้การตั้งค่าความเป็นส่วนตัวของแหล่งข้อมูลที่ไม่เหมาะสม
 author: cpopell
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: 61181f9317718b6a4fb1cd73a767e4002b5b27f5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: ab40ca9c415dacf52f4d82eb2c157d57aef92f93
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544264"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871284"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>การแก้ไขปัญหาค่าที่ซ้อนกันกลับคืนเป็นข้อความในบริการ Power BI
 
@@ -24,7 +23,7 @@ ms.locfileid: "72544264"
 
 ในอดีต มีกรณีที่รายงาน Power BI รีเฟรชได้เป็นอย่างดีบนเดสก์ท็อป แต่ล้มเหลวบนบริการ Power BI ที่มีข้อผิดพลาดเช่น "เราไม่สามารถแปลงค่า "[ตาราง]" เพื่อพิมพ์ตาราง" หนึ่งในสาเหตุของข้อผิดพลาดนี้คือว่า เมื่อไฟร์วอลล์ความเป็นส่วนตัวของข้อมูล บัฟเฟอร์แหล่งข้อมูล ค่าที่ไม่ใช่สเกลที่ซ้อนกัน (เช่น ตาราง ระเบียน รายการ และฟังก์ชัน) จะถูกแปลงเป็นค่าข้อความ (เช่น "[ตาราง]" หรือ "[ระเบียน]") โดยอัตโนมัติ
 
-หลังจากที่บริการ Power BI สนับสนุนการตั้งค่าระดับความเป็นส่วนตัว (หรือปิดไฟร์วอลล์ทั้งหมด) คุณสามารถหลีกเลี่ยงข้อผิดพลาดดังกล่าวโดย[การกำหนดค่าการตั้งค่าความเป็นส่วนตัวของแหล่งข้อมูล](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/)ในบริการ Power BI เป็นแบบที่ไม่ใช่ส่วนตัวได้
+หลังจากที่บริการ Power BI สนับสนุนการตั้งค่าระดับความเป็นส่วนตัว (หรือปิดไฟร์วอลล์ทั้งหมด) คุณสามารถหลีกเลี่ยงข้อผิดพลาดดังกล่าวโดย[การกำหนดค่าการตั้งค่าความเป็นส่วนตัวของแหล่งข้อมูล](https://powerbi.microsoft.com/blog/privacy-levels-for-cloud-data-sources/)ในบริการ Power BI เป็นแบบที่ไม่ใช่ส่วนตัวได้
 
 เริ่มต้นด้วย June Power BI เมื่อไฟร์วอลล์บัฟเฟอร์การตาราง/ระเบียน/รายการ/ฯลฯ ที่ซ้อนกันแทนการแปลงค่าดังกล่าวเป็นค่าข้อความโดยอัตโนมัติซึ่งข้อผิดพลาดต่อไปนี้จะเกิดขึ้น: 
 
@@ -57,4 +56,4 @@ ms.locfileid: "72544264"
 `if [MyColumn] is table then "[Table]" else if [MyColumn] is record then "[Record]" else if [MyColumn] is list then "[List]" else if [MyColumn] is function then "[Function]" else [MyColumn]`
 
 เกิดปัญหาซ้ำขึ้นใน Power BI Desktop หรือไม่ถ้าคุณตั้งค่าการตั้งค่าความเป็นส่วนตัวของแหล่งข้อมูลทั้งหมดของคุณเป็นส่วนบุคคล
-ถ้าเป็นเช่นนั้น คุณควรสามารถแก้ไขข้อผิดพลาดโดย[กำหนดค่าการตั้งค่าความเป็นส่วนตัวของแหล่งข้อมูล](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/)ในบริการ Power BI ให้เป็นแบบที่ไม่ใช่ส่วนบุคคล
+ถ้าเป็นเช่นนั้น คุณควรสามารถแก้ไขข้อผิดพลาดโดย[กำหนดค่าการตั้งค่าความเป็นส่วนตัวของแหล่งข้อมูล](https://powerbi.microsoft.com/blog/privacy-levels-for-cloud-data-sources/)ในบริการ Power BI ให้เป็นแบบที่ไม่ใช่ส่วนบุคคล

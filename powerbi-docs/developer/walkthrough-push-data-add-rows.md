@@ -3,18 +3,17 @@ title: เพิ่มแถวลงในตาราง
 description: คำแนะนำในการส่งข้อมูล - เพิ่มแถวลงในตาราง Power BI
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: a355f09984bc454f74dfab8ef137e29fd5aed110
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 39bf8ec92fba25c6097cf663bdb6572705938a42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710412"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879850"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>ขั้นตอนที่ 5: เพิ่มแถวในตาราง Power BI
 
@@ -317,4 +316,4 @@ ms.locfileid: "65710412"
 [พุชข้อมูลลงในแดชบอร์ด Power BI](walkthrough-push-data.md)  
 [ภาพรวมของ Power BI REST API](overview-of-power-bi-rest-api.md)  
 [การอ้างอิง Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
-คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: ใช้ตัวแบ่งส่วนข้อมูลช่วงตัวเลขใน Power BI Desktop
 description: เรียนรู้วิธีการใช้ตัวแบ่งส่วนข้อมูลสำหรับกำหนดข้อจำกัดไปยังช่วงตัวเลขใน Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fa1311f93cd6b543d552070b990f1bada551a699
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 535dbe2b1765d788e59d928f7303ce4696aa163b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68306928"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879672"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>ใช้ตัวแบ่งส่วนข้อมูลช่วงตัวเลขใน Power BI Desktop
 ด้วยตัวแบ่งส่วนข้อมูลช่วงตัวเลข คุณสามารถใช้ตัวกรองทุกประเภทในคอลัมน์ตัวเลขใดก็ตามในแบบจำลองข้อมูลของคุณได้ มีสามตัวเลือกสำหรับการกรองข้อมูลตัวเลขของคุณ: ระหว่างตัวเลขน้อยกว่าหรือเท่ากับตัวเลข หรือมากกว่าหรือเท่ากับตัวเลข การดำเนินการนี้อาจเป็นเรื่องง่ายแต่เป็นวิธีที่มีประสิทธิภาพในการกรองข้อมูลของคุณ

@@ -2,7 +2,6 @@
 title: ชนิดของวิชวลใน Power BI สำหรับผู้ใช้งาน
 description: ชนิดของวิชวลในบริการ Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302507"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861327"
 ---
 # <a name="visual-types-in-power-bi"></a>ชนิดของวิชวลใน Power BI
 คุณจะพบวิชวลในรายงาน แดชบอร์ด และถามตอบ (Q&A) ชนิดของวิชวลเหล่านี้บางส่วนถูกรวมเป็นแพคเกจเข้ากับ Power BI และบางส่วนเป็น *วิชวลแบบกำหนดเอง* วิชวลแบบกำหนดเองถูกสร้างขึ้นนอก Power BI และในแนวทางที่อนุญาตให้ *ผู้ออกแบบ* รายงานเพิ่มลงในรายงานและแดชบอร์ด Power BI ได้ 
@@ -232,4 +231,4 @@ KPI เป็นตัวเลือกที่ดีที่สุด:
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [โต้ตอบกับวิชวลในรายงาน แดชบอร์ด และแอป](end-user-visualizations.md)    
-[อ้างอิงภาพที่ถูกต้องจาก sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[อ้างอิงภาพที่ถูกต้องจาก sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

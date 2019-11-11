@@ -2,19 +2,18 @@
 title: Power BI สำหรับแอปความเป็นจริงผสม (แสดงตัวอย่าง)
 description: ดูแดชบอร์ดและรายงานใน Power BI สำหรับแอปความเป็นจริงผสม (ตัวอย่าง) โดยเข้าไปอยู่ในโลกเสมือน หรือในบริบทของสภาพแวดล้อมคุณ
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 443615a64bee1f4723450c6c8cc3c49feb81989c
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 04a77aa9a5a464baf0ce1c9a88604d84ad0feb53
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61374060"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879124"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI สำหรับแอปความเป็นจริงผสม (แสดงตัวอย่าง)
 ดูแดชบอร์ดและรายงานของคุณใน Power BI สำหรับแอปความเป็นจริงผสม (ตัวอย่าง) ในขณะที่เข้าไปอยู่ในในโลกเสมือน หรือวางไว้ในตำแหน่งที่ตั้งตามบริบทของสภาพแวดล้อมคุณ 

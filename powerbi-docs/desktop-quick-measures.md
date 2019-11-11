@@ -2,7 +2,6 @@
 title: ใช้การวัดผลด่วนเพื่อการคำนวณที่ใช้บ่อยและทรงพลัง
 description: การวัดผลด่วนมีสูตร DAX ที่เตรียมให้สำเร็จรูป ที่ช่วยให้การคำนวนที่ใช้บ่อยทำได้อย่างรวดเร็ว
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4c37f3bb8f84c6ab40dceb3327f2b244559e9170
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 755ef6ab515244a2b7613ee7007caf3c3e6d1ed8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513991"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877958"
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>ใช้การวัดผลด่วนเพื่อการคำนวณที่ใช้บ่อยและทรงพลังได้อย่างง่ายดาย
 คุณสามารถใช้**การวัดผลด่วน** ทำการคำนวณที่ใช้บ่อยและทรงพลัง ได้อย่างรวดเร็วและง่ายดาย **การวัดผลด่วน**เรียกใช้ชุดคำสั่ง DAX ในเบื้องหลัง (คุณไม่จำเป็นต้องเขียน DAX เอง – ทั้งหมดทำให้คุณเรียบร้อยแล้ว) ตามที่คุณป้อนเข้าในกล่องโต้ตอบ จากนั้นแสดงผลลัพธ์เพื่อให้คุณได้ใช้ในรายงานของคุณ ยิ่งไปกว่านั้น คุณสามารถดู DAX ที่ดำเนินการโดยการวัดผลด่วน และเริ่มต้นหรือขยายความรู้ DAX ของคุณเอง

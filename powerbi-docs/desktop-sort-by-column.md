@@ -2,7 +2,6 @@
 title: เรียงลำดับตามคอลัมน์ใน Power BI Desktop
 description: เรียงลำดับตามคอลัมน์ใน Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 53fc561e2f8dcb4869eff6e6fd172c8a3663840d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: daf4f2c4aaa010516f90cae54c1e8b6784fb0f64
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514010"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879700"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>เรียงลำดับตามคอลัมน์ใน Power BI Desktop
 ใน**Power BI Desktop**และ**Power BI service** คุณสามารถเปลี่ยนลักษณะของรูปภาพ โดยเรียงลำดับตามเขตข้อมูลที่แตกต่างกันได้ โดยการเปลี่ยนวิธีการเรียงลำดับวิชวล คุณสามารถเน้นข้อมูลที่คุณต้องการสื่อ และทำให้แน่ใจว่า วิชวลสะท้อนแนวโน้ม (หรือเน้นให้เห็น)

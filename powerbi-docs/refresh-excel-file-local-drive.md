@@ -2,7 +2,6 @@
 title: รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel - ภายในเครื่อง
 description: รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel บนไดรฟ์ภายในเครื่อง
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: a71631c0ac8e45c7e268eb11a0539fa8305dfcd7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b69e908e378605facbdaea79618aaf5167ff7739
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61414776"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874390"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel บนไดรฟ์ภายในเครื่อง
 ## <a name="whats-supported"></a>อะไรบ้างที่ได้รับการสนับสนุน
@@ -80,5 +79,5 @@ ms.locfileid: "61414776"
 [การแก้ไขปัญหา Power BI Gateway - ส่วนบุคคล](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

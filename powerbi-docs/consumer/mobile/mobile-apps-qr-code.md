@@ -2,19 +2,18 @@
 title: สแกนคิวอาร์โค้ดของ Power BI จากอุปกรณ์เคลื่อนที่ของคุณ
 description: คิวอาร์โค้ดใน Power BI สามารถเชื่อมต่อทุกอย่างในโลกแห่งความจริง เข้ากับข้อมูลที่เกี่ยวข้องกับ BI ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ได้โดยตรง iPhones โดยที่ไม่จำเป็นต้อง Android ใช้การค้นหา
 author: KesemSharabi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 69c0e5279389c186471aa0a6068d88917cf6fc65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ba810bf416a913ddb41ab02c0afe7373e5c107f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236745"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879206"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>สแกนคิวอาร์โค้ดของ Power BI จากอุปกรณ์เคลื่อนที่ของคุณ
 นำไปใช้กับ:
@@ -50,7 +49,7 @@ ms.locfileid: "70236745"
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-iphone"></a>สแกนคิวอาร์โค้ดจากสแกนเนอร์ภายนอกบน iPhone ของคุณ
 1. สแกนเนอร์ใดก็ได้ที่ติดตั้งบนโทรศัพท์ของคุณสามารถนำมาวางให้ตรงตำแหน่งคิวอาร์โค้ดสแกนเนอร์ Power BI ที่เกี่ยวข้องเพื่อการเข้าถึงไปยังไทล์หรือรายงานอย่างทันที 
-2. ถ้าคุณไม่ได้ติดตั้งแอป Power BI คุณจะถูกนำไปยัง[Apple App Store เพื่อดาวน์โหลด](http://go.microsoft.com/fwlink/?LinkId=522062)บน iPhone ของคุณ
+2. ถ้าคุณไม่ได้ติดตั้งแอป Power BI คุณจะถูกนำไปยัง[Apple App Store เพื่อดาวน์โหลด](https://go.microsoft.com/fwlink/?LinkId=522062)บน iPhone ของคุณ
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>สแกนคิวอาร์โค้ด Power BI บน ของคุณกับสแกนเนอร ์Android Power BI
 1. ในแอป mobile Power BI ให้เปิดเมนูการนำทางส่วนกลาง![](media/mobile-apps-qr-code/power-bi-android-global-nav-icon.png)ด้านบนซ้าย 
@@ -67,12 +66,12 @@ ms.locfileid: "70236745"
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-android-device"></a>สแกนคิวอาร์โค้ดจากสแกนเนอร์ภายนอกบน Android ของคุณ
 1. สแกนเนอร์ใดก็ได้ที่ติดตั้งบนโทรศัพท์แอนดรอยด์ของคุณ Android สามารถนำมาวางให้ตรงตำแหน่งคิวอาร์โค้ดสแกนเนอร์ Power BI ที่เกี่ยวข้องเพื่อการเข้าถึงไปยังไทล์หรือรายงานอย่างทันที 
-2. ถ้าคุณไม่ได้ติดตั้งแอป Power BI คุณจะถูกนำไปยัง[Google Play เพื่อดาวน์โหลดแอป](http://go.microsoft.com/fwlink/?LinkID=544867) 
+2. ถ้าคุณไม่ได้ติดตั้งแอป Power BI คุณจะถูกนำไปยัง[Google Play เพื่อดาวน์โหลดแอป](https://go.microsoft.com/fwlink/?LinkID=544867) 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [เชื่อมต่อกับข้อมูล Power BI จากโลกแห่งความจริง](mobile-apps-data-in-real-world-context.md)ด้วยแอปโทรศัพท์เคลื่อนที่
 * [สร้างคิวอาร์โค้ดสำหรับไทล์ในบริการ Power BI](../../service-create-qr-code-for-tile.md)
 * [สร้างคิวอาร์โค้ดสำหรับรายงานในบริการ Power BI](../../service-create-qr-code-for-report.md)
 * คุณยังสามารถ[สแกนคิวอาร์โค้ดด้วย Power BI สำหรับแอปความเป็นจริงผสม](mobile-mixed-reality-app.md)ได้อีกด้วย
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

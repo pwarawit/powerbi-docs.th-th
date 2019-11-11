@@ -2,7 +2,6 @@
 title: รับ Power BI Desktop
 description: ดาวน์โหลด และติดตั้ง Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7c99b00427ffe742511c0029da79b6ebde02d916
-ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
+ms.openlocfilehash: 9f503ad8d5ae7b26a87da4e1d6664315b6119652
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72511690"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878222"
 ---
 # <a name="get-power-bi-desktop"></a>รับ Power BI Desktop
 **Power BI Desktop** ช่วยให้คุณสร้างคิวรีขั้นสูง รูปแบบข้อมูล และรายงานที่แสดงข้อมูลเป็นภาพ ด้วย **Power BI Desktop** คุณสามารถสร้างรูปแบบข้อมูล สร้างรายงาน และแชร์งานของคุณ โดยการเผยแพร่ไปยังบริการของ Power BI ได้  **Power BI Desktop** มีให้ดาวน์โหลดฟรี
@@ -56,7 +55,7 @@ ms.locfileid: "72511690"
 ## <a name="install-as-an-app-from-the-microsoft-store"></a>ติดตั้งเป็นแอปจาก Microsoft Store
 คุณยังสามารถรับ **Power BI Desktop** จาก Microsoft Store โดยใช้ลิงก์ต่อไปนี้:
 
-* [ติดตั้ง **Power BI Desktop** จาก **Microsoft Store**](http://aka.ms/pbidesktopstore)
+* [ติดตั้ง **Power BI Desktop** จาก **Microsoft Store**](https://aka.ms/pbidesktopstore)
 
   ![รับ Power BI Desktop จาก Microsoft Store](media/desktop-get-the-desktop/getpbid_04.png)
 

@@ -2,7 +2,6 @@
 title: ใช้การรวมข้อมูลใน Power BI Desktop
 description: ดำเนินการวิเคราะห์แบบโต้ตอบกับข้อมูลขนาดใหญ่ใน Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325213"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876740"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>การรวมข้อมูลใน Power BI Desktop
 
@@ -60,7 +59,7 @@ ms.locfileid: "68325213"
 ![ตารางการรวมในแบบจำลอง](media/desktop-aggregations/aggregations_03.jpg)
 
 > [!NOTE]
-> ตาราง **Sales Agg** เป็นเพียงตารางอีกตาราง ดังนั้นจึงมีความยืดหยุ่นในการโหลดด้วยวิธีการต่างๆ ตัวอย่างเช่น การรวมสามารถทำได้ในฐานข้อมูลต้นทางโดยใช้กระบวนการ ETL/ELT หรือโดย [นิพจน์ M](https://msdn.microsoft.com/query-bi/m/power-query-m-reference) สำหรับตาราง ซึ่งสามารถใช้โหมดพื้นที่เก็บข้อมูลการนำเข้าที่มีหรือไม่มี [การรีเฟรชแบบเพิ่มหน่วยในบริการ Power BI Premium](service-premium-incremental-refresh.md) หรืออาจเป็น DirectQuery และเพิ่มประสิทธิภาพสำหรับการคิวรี่อย่างรวดเร็วโดยใช้ [ดัชนี columnstore](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview) ความยืดหยุ่นนี้จะช่วยให้สถาปัตยกรรมที่สมดุลสามารถกระจายโหลดคิวรี่เพื่อหลีกเลี่ยงปัญหาคอขวดได้
+> ตาราง **Sales Agg** เป็นเพียงตารางอีกตาราง ดังนั้นจึงมีความยืดหยุ่นในการโหลดด้วยวิธีการต่างๆ ตัวอย่างเช่น การรวมสามารถทำได้ในฐานข้อมูลต้นทางโดยใช้กระบวนการ ETL/ELT หรือโดย [นิพจน์ M](/powerquery-m/power-query-m-function-reference) สำหรับตาราง ซึ่งสามารถใช้โหมดพื้นที่เก็บข้อมูลการนำเข้าที่มีหรือไม่มี [การรีเฟรชแบบเพิ่มหน่วยในบริการ Power BI Premium](service-premium-incremental-refresh.md) หรืออาจเป็น DirectQuery และเพิ่มประสิทธิภาพสำหรับการคิวรี่อย่างรวดเร็วโดยใช้ [ดัชนี columnstore](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview) ความยืดหยุ่นนี้จะช่วยให้สถาปัตยกรรมที่สมดุลสามารถกระจายโหลดคิวรี่เพื่อหลีกเลี่ยงปัญหาคอขวดได้
 
 ### <a name="storage-mode"></a>โหมดการจัดเก็บข้อมูล 
 ลองดำเนินการต่อไปกับตัวอย่างที่เรากำลังใช้ เราตั้งค่าโหมดพื้นที่จัดเก็บข้อมูลของ **Sales Agg** เป็น **การนำเข้า** เพื่อเพิ่มความเร็วในการคิวรี่

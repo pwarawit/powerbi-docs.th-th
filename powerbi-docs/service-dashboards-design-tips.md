@@ -2,7 +2,6 @@
 title: เคล็ดลับสำหรับการออกแบบแดชบอร์ด Power BI ที่ยอดเยี่ยม
 description: เคล็ดลับสำหรับการออกแบบแดชบอร์ด Power BI ที่ยอดเยี่ยม
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2083fa0d197010ca770422f11c7f1e4b83d0184b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023751"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877402"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>เคล็ดลับสำหรับการออกแบบแดชบอร์ด Power BI ที่ยอดเยี่ยม
 หลังจากที่คุณสร้างแดชบอร์ด และเพิ่มไทล์บางตัวเข้าไป ให้คิดเกี่ยวกับวิธีการทำให้แดชบอร์ดของคุณไม่เพียงแค่สวยงามเท่านั้น แต่ยังทำงาน โดยทั่วไปหมายถึงการทำข้อมูลที่สำคัญมากสุดให้ออกมาโดดเด่น และทำให้สะอาด และเป็นระเบียบ
@@ -24,8 +23,6 @@ ms.locfileid: "69023751"
 
 > [!TIP]
 > ชอบแดชบอร์ดนี้ไหม? คุณสามารถดาวน์โหลดแดชบอร์ดและรายงานที่เกี่ยวข้องจาก AppSource ไปที่ **รับข้อมูล** > **บริการ** ค้นหา **ตัวอย่างของ Microsoft - การขายและการตลาด**  > **รับทันที**
-
-หลักการออกแบบสำหรับรายงานจำนวนมากนำไปใช้กับแดชบอร์ดได้เช่นกัน อ่านเอกสารทางเทคนิคของเราเรื่อง [หลักการออกแบบที่ดีที่สุดสำหรับรายงานและการแสดงข้อมูลด้วยภาพ](visuals/power-bi-visualization-best-practices.md) สำหรับรายละเอียดเพิ่มเติม
 
 ต่อไปนี้คือเคล็ดลับบางอย่างสำหรับแดชบอร์ด
 
@@ -85,4 +82,4 @@ ms.locfileid: "69023751"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [สร้างแดชบอร์ดจากรายงาน](service-dashboard-create.md)  
 [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)  
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

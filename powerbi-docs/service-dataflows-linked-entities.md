@@ -2,7 +2,6 @@
 title: เชื่อมโยงเอนทิตีระหว่างกระแสข้อมูลใน Power BI
 description: เรียนรู้วิธีการเชื่อมโยงเอนทิตีในกระแสข้อมูลใน Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 31e2e681bc4309e5dce31583e70e669bce5e466f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136519"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877234"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>เชื่อมโยงเอนทิตีระหว่างกระแสข้อมูลใน Power BI
 

@@ -2,7 +2,6 @@
 title: ควบคุมการใช้ชุดข้อมูลทั้งพื้นที่ทำงาน (ดูตัวอย่าง) - Power BI
 description: เรียนรู้วิธีการจำกัดการไหลของข้อมูลในผู้เช่า Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 363bf9b107722b3993ed7ac43138c73da03f410a
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: d1ad29bebc148d9f30e8d22240dd149787251a0a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461798"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872582"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces-preview"></a>ควบคุมการใช้ชุดข้อมูลทั้งพื้นที่ทำงาน (ดูตัวอย่าง)
 
@@ -40,4 +39,4 @@ ms.locfileid: "66461798"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [ใช้ชุดข้อมูลทั้งพื้นที่ทำงาน (ดูตัวอย่าง)](service-datasets-across-workspaces.md)
-- มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+- มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 3f1e02c880d737998afd7c84c4259e4de8582da9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: befe57bd0c3441a44f4db745e3af73bd9afed933
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70391493"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73783545"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>การใช้ปุ่มลัด Siri ใน Power BI Mobile iOS แอป (การแสดงตัวอย่าง)
 
@@ -66,7 +66,7 @@ ms.locfileid: "70391493"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 เรียนรู้เพิ่มเติมเกี่ยวกับแอป Power BI สำหรับอุปกรณ์เคลื่อนที่โดยดำเนินการดังนี้: 
 
-* การดาวน์โหลด [แอป Power BI สำหรับ iPhone](http://go.microsoft.com/fwlink/?LinkId=522062)
+* การดาวน์โหลด [แอป Power BI สำหรับ iPhone](https://go.microsoft.com/fwlink/?LinkId=522062)
 * ติดตาม[@MSPowerBIบน Twitter](https://twitter.com/MSPowerBI)
-* การเข้าร่วมการสนทนาที่[ชุมชน Power BI](http://community.powerbi.com/)
+* การเข้าร่วมการสนทนาที่[ชุมชน Power BI](https://community.powerbi.com/)
 

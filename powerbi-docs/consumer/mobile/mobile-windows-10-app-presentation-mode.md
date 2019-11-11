@@ -2,19 +2,18 @@
 title: ดูโหมดงานนำเสนอบน Surface Hub, Windows 10 - Power BI
 description: อ่านเกี่ยวกับการแสดงรายงาน Power BI ใน Surface Hub และการแสดงแดชบอร์ด รายงาน และไทล์ Power BI ในโหมดเต็มหน้าจอบนอุปกรณ์ Windows 10
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
-ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: abd7fd34cf2dbdc2f8f12a7f3c6de6228941af5a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61338273"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869546"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>ดูรายงานและแดชบอร์ดในโหมดงานนำเสนอบน Surface Hub และอุปกรณ์ Windows 10
 คุณสามารถใช้โหมดการนำเสนอเพื่อแสดงรายงานและแดชบอร์ดแบบเต็มหน้าจอบนอุปกรณ์ Windows 10 และ Surface Hub 
@@ -54,5 +53,5 @@ ms.locfileid: "61338273"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [แสดงแดชบอร์ดและรายงานในโหมดเต็มหน้าจอจากบริการของ Power BI](../end-user-focus.md)
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

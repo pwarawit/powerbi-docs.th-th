@@ -3,18 +3,17 @@ title: แนวทางสำหรับวิชวล Power BI
 description: เรียนรู้วิธีที่คุณสามารถเผยแพร่วิชวลแบบกำหนดเองของคุณไปยัง AppSource เพื่อให้บุคคลอื่นสามารถค้นหาและใช้งานผ่านการซื้อได้
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: 4e17406b0b4e616a9857cf40298a7931e2b65427
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 84c873c925c7e733c70b309d5cc2476dff2e553b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944858"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863940"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>คำแนะนำสำหรับการแสดงภาพ Power BI
 ก่อนที่คุณ[จะเผยแพร่](https://docs.microsoft.com/power-bi/developer/office-store)การแสดงผลด้วยภาพของคุณไปยัง AppSource สำหรับผู้อื่นเพื่อค้นหาและใช้งาน ตรวจสอบให้แน่ใจว่าคุณได้ทำตามคำแนะนำเพื่อสร้างประสบการณ์ที่ยอดเยี่ยมสำหรับผู้ใช้ของคุณ 

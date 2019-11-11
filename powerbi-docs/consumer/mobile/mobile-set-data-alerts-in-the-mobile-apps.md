@@ -2,19 +2,18 @@
 title: ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 description: เรียนรู้วิธีการตั้งค่าการแจ้งเตือนในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่เพื่อแจ้งเตือนคุณเมื่อข้อมูลในแดชบอร์ดเปลี่ยนแปลงเกินขีดจำกัดที่คุณตั้งค่าไว้
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: mshenhav
-ms.openlocfilehash: 65e6414cb31c2b8234bb1f5426c7bff295263308
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c843a3ef8ddfde591dec27ea523cb73857d1a289
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61381466"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870113"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -168,5 +167,5 @@ ms.locfileid: "61381466"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [จัดการการแจ้งเตือนของคุณในบริการของ Power BI](../../service-set-data-alerts.md)
 * [ศูนย์การแจ้งเตือนอุปกรณ์เคลื่อนที่ power BI](mobile-apps-notification-center.md)
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 
