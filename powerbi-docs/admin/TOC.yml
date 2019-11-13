@@ -40,8 +40,6 @@
           href: ../service-admin-health.md
         - name: กำลังปิดบัญชีของคุณ
           href: ../service-admin-closing-your-account.md
-        - name: ExpressRoute
-          href: ../service-admin-power-bi-expressroute.md
         - name: ใช้ Azure AD B2B
           href: ../service-admin-azure-ad-b2b.md
         - name: การป้องกันข้อมูล
