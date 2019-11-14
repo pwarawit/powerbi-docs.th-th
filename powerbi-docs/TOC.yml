@@ -381,8 +381,6 @@
               href: visuals/power-bi-visualization-treemaps.md
             - name: แผนภูมิแบบน้ำตกใน Power BI
               href: visuals/power-bi-visualization-waterfall-charts.md
-            - name: สร้างสายการอ้างอิงแบบไดนามิก
-              href: service-analytics-pane.md
         - name: ภาษาธรรมชาติ
           items:
             - name: บทนำถามตอบ
