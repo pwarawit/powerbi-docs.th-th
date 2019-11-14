@@ -119,6 +119,8 @@
           items:
             - name: แหล่งข้อมูลใน Power BI Desktop
               href: desktop-data-sources.md
+            - name: เชื่อมต่อไปยังตัวนำทางการขาย LinkedIn (ตัวอย่าง)
+              href: desktop-connect-linkedin-sales-navigator.md
             - name: เชื่อมต่อไปยังเว็บเพจตามตัวอย่าง (ตัวอย่าง)
               href: desktop-connect-to-web-by-example.md
             - name: เชื่อมต่อกับชุดข้อมูลในบริการ Power BI
@@ -201,6 +203,8 @@
           items:
             - name: รวมไบนารี
               href: desktop-combine-binaries.md
+            - name: ใช้ข้อมูลเชิงลึก AI ใน Power BI Desktop (ตัวอย่าง)
+              href: desktop-ai-insights.md
         - name: จำลองแบบข้อมูลของคุณ
           items:
             - name: การจัดประเภทข้อมูลใน Power BI Desktop
@@ -339,6 +343,8 @@
               href: visuals/power-bi-visualization-card.md
             - name: แผนภูมิผสมใน Power BI
               href: visuals/power-bi-visualization-combo-chart.md
+            - name: โครงข่ายของข้อมูลใน Power BI (ตัวอย่าง)
+              href: visuals/power-bi-visualization-decomposition-tree.md
             - name: แผนภูมิโดนัทใน Power BI
               href: visuals/power-bi-visualization-doughnut-charts.md
             - name: แผนที่แถบสี (Choropleths) ใน Power BI
@@ -405,6 +411,8 @@
       items:
         - name: ชนิดข้อมูลใน Power BI Desktop
           href: desktop-data-types.md
+        - name: ใช้ Ribbon ที่ปรับปรุงแล้วใน Power BI Desktop (ตัวอย่าง)
+          href: desktop-ribbon.md
         - name: ทางลัดตัวแก้ไขสูตรสำหรับ Power BI Desktop
           href: desktop-formula-editor.md
         - name: ระดับความเป็นส่วนตัวของ Power BI Desktop
