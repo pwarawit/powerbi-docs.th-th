@@ -45,8 +45,10 @@
               href: office-store.md
             - name: ใช้วิชวลแบบกำหนดเองที่ทำงานด้วย R ใน Power BI
               href: ../desktop-r-powered-custom-visuals.md
-            - name: การโต้ตอบวิชวล
+            - name: อนุญาตการโต้ตอบกับวิชวล
               href: visuals/visuals-interactions.md
+            - name: เพิ่มการเลือก
+              href: visuals/selection-api.md
             - name: เพิ่มเคล็ดลับเครื่องมือของวิชวล
               href: visuals/add-tooltips.md
             - name: เพิ่มบานหน้าต่างการวิเคราะห์
@@ -57,6 +59,8 @@
               href: visuals/fetch-more-data.md
             - name: เพิ่มการสนับสนุนที่คั่นหน้า
               href: visuals/bookmarks-support.md
+            - name: เพิ่มการสนับสนุนเมนูบริบท
+              href: visuals/context-menu.md
             - name: เน้นข้อมูลในวิชวล
               href: visuals/highlight.md
             - name: เพิ่มการสนับสนุนโหมดความคมชัดสูง
@@ -65,6 +69,8 @@
               href: visuals/enable-sync-slicers.md
             - name: แก้ปัญหาวิชวล Power BI
               href: ../power-bi-custom-visuals-troubleshoot.md
+            - name: โยกย้ายไปยังเครื่องมือ powerbi-visuals-tools ใหม่
+              href: visuals/migrate-to-new-tools.md
         - name: การอ้างอิง
           items:
             - name: หน้าเริ่มต้น
@@ -77,6 +83,8 @@
               href: visuals/event-service.md
             - name: เรียงลำดับ
               href: visuals/sort-options.md
+            - name: การโต้ตอบ.utils
+              href: visuals/utils-interactivity-selections.md
         - name: ทรัพยากร
           items:
             - name: ศูนย์นักพัฒนา
