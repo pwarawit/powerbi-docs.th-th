@@ -12,7 +12,7 @@
         - name: ภาพรวม
           items:
             - name: วิชวลใน Power BI
-              href: ../power-bi-custom-visuals.md
+              href: power-bi-custom-visuals.md
         - name: บทช่วยสอน
           items:
             - name: พัฒนาวิชวล Power BI
@@ -24,11 +24,11 @@
         - name: แนวคิด
           items:
             - name: วิชวลสำหรับองค์กรใน Power BI
-              href: ../power-bi-custom-visuals-organization.md
+              href: power-bi-custom-visuals-organization.md
             - name: คำแนะนำสำหรับการแสดงภาพ Power BI
               href: guidelines-powerbi-visuals.md
             - name: คำถามที่พบบ่อยเกี่ยวกับวิชวล
-              href: ../power-bi-custom-visuals-faq.md
+              href: power-bi-custom-visuals-faq.md
             - name: การใช้ความสามารถ
               href: visuals/capabilities.md
             - name: การแมปมุมมองข้อมูล
@@ -40,12 +40,12 @@
         - name: วิธีการ
           items:
             - name: รับวิชวลที่ได้รับการรับรอง
-              href: ../power-bi-custom-visuals-certified.md
+              href: power-bi-custom-visuals-certified.md
             - name: เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
               href: office-store.md
             - name: ใช้วิชวลแบบกำหนดเองที่ทำงานด้วย R ใน Power BI
-              href: ../desktop-r-powered-custom-visuals.md
-            - name: อนุญาตการโต้ตอบกับวิชวล
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+            - name: การโต้ตอบวิชวล
               href: visuals/visuals-interactions.md
             - name: เพิ่มการเลือก
               href: visuals/selection-api.md
@@ -68,9 +68,7 @@
             - name: เปิดใช้งานตัวแบ่งส่วนข้อมูลการซิงค์
               href: visuals/enable-sync-slicers.md
             - name: แก้ปัญหาวิชวล Power BI
-              href: ../power-bi-custom-visuals-troubleshoot.md
-            - name: โยกย้ายไปยังเครื่องมือ powerbi-visuals-tools ใหม่
-              href: visuals/migrate-to-new-tools.md
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: การอ้างอิง
           items:
             - name: หน้าเริ่มต้น
