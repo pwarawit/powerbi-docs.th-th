@@ -15,6 +15,9 @@
         - name: การเรียนรู้ตามคำแนะนำ
           tocHref: /power-bi/guided-learning/
           topicHref: /power-bi/guided-learning/
-        - name: เซิร์ฟเวอร์รายงาน
+        - name: เซิร์ฟเวอร์รายงาน Power BI
           tocHref: /power-bi/report-server/
           topicHref: /power-bi/report-server/get-started
+        - name: คำแนะนำ
+          tocHref: /power-bi/guidance/
+          topicHref: /power-bi/guidance/index
