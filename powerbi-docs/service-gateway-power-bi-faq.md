@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 45a645227a5d7a18fd05738559ed0bccc0e1f7c9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4aa3d46741044498846865278db51859980a19b9
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872406"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010819"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>คำถามที่ถามบ่อยเกี่ยวกับเกตเวย์ข้อมูลภายในองค์กร - Power BI
 
@@ -41,10 +41,6 @@ ms.locfileid: "73872406"
 **คำถาม:** เหตุใดฉันจึงไม่สามารถเชื่อมต่อเซิร์ฟเวอร์ Oracle ของฉันได้? 
 
 **คำตอบ:** คุณอาจจำเป็นต้องติดตั้ง Oracle Client และกำหนดค่าไฟล์ tnsnames.ora ด้วยข้อมูลเซิร์ฟเวอร์ที่เหมาะสมเพื่อให้สามารถเชื่อมต่อกับเซิร์ฟเวอร์ Oracle ของคุณได้ นี่คือการติดตั้งแยกต่างหากภายนอกเกตเวย์ สำหรับข้อมูลเพิ่มเติม โปรดดู [ติดตั้ง Oracle Client](service-gateway-onprem-manage-oracle.md#install-the-oracle-client)
-
-**คำถาม:** เกตเวย์จะทำงานกับ ExpressRoute ได้หรือไม่? 
-
-**คำตอบ:** ใช่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Power BI และ ExpressRoute ดู[Power BI และ ExpressRoute](service-admin-power-bi-expressroute.md)
 
 **คำถาม:** ฉันกำลังใช้สคริปต์ R ระบบจะรองรับหรือไม่
 

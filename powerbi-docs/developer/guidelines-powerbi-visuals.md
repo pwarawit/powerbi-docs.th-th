@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 84c873c925c7e733c70b309d5cc2476dff2e553b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e650b1eb8fd05db54b9d0bf9021eaa881d28832e
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863940"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128186"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>คำแนะนำสำหรับการแสดงภาพ Power BI
 ก่อนที่คุณ[จะเผยแพร่](https://docs.microsoft.com/power-bi/developer/office-store)การแสดงผลด้วยภาพของคุณไปยัง AppSource สำหรับผู้อื่นเพื่อค้นหาและใช้งาน ตรวจสอบให้แน่ใจว่าคุณได้ทำตามคำแนะนำเพื่อสร้างประสบการณ์ที่ยอดเยี่ยมสำหรับผู้ใช้ของคุณ 
@@ -52,7 +52,7 @@ ms.locfileid: "73863940"
 
 จนกระทั่งเมื่อไม่นานมานี้  Marketplace (AppSource) ยอมรับเฉพาะวิชวล Power BI ที่ฟรีเท่านั้น นโยบายนี้มีการเปลี่ยนแปลง (ธันวาคม '18) เพื่อให้คุณสามารถส่งวิชวลไปยัง AppSource ที่มีแท็กราคาเขียนว่า "อาจจำเป็นที่ต้องซื้อเพิ่ม" 
 
-วิชวลที่อาจจำเป็นต้องซื้อเพิ่มเติมมีลักษณะคล้ายกับ Add-in ที่ซื้อเพิ่มภายในแอป (IAP) ในร้านสำนักงาน นักพัฒนาสามารถส่งวิชวลเหล่านี้เพื่อขอการรับรองหลังจากทีมงาน AppSource อนุมัติและหลังจากตรวจสอบให้แน่ใจว่าสอดคล้องกับข้อกำหนดการรับรอง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อกำหนดการรับรอง ให้ดูที่[รับรองวิชวลแบบกำหนดเอง](../power-bi-custom-visuals-certified.md)
+วิชวลที่อาจจำเป็นต้องซื้อเพิ่มเติมมีลักษณะคล้ายกับ Add-in ที่ซื้อเพิ่มภายในแอป (IAP) ในร้านสำนักงาน นักพัฒนาสามารถส่งวิชวลเหล่านี้เพื่อขอการรับรองหลังจากทีมงาน AppSource อนุมัติและหลังจากตรวจสอบให้แน่ใจว่าสอดคล้องกับข้อกำหนดการรับรอง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อกำหนดการรับรอง ให้ดูที่[รับรองวิชวลแบบกำหนดเอง](../developer/power-bi-custom-visuals-certified.md)
 
 > [!NOTE]
 > สำหรับวิชวลที่ผ่านการรับรอง จะต้องไม่เข้าถึงบริการหรือแหล่งข้อมูลภายนอก

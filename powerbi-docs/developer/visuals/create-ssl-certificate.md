@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: d24135cc55ebc8cdfd2a1279cb2a2a46f8f0bc3e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 224b6db8fa04a471a1ce7d1fff2b34a838d6fb9d
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880177"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060354"
 ---
 # <a name="create-an-ssl-certificate"></a>สร้างใบรับรอง SSL
 
@@ -22,20 +22,19 @@ ms.locfileid: "73880177"
 หากต้องการสร้างใบรับรองโดยใช้ PowerShell `New-SelfSignedCertificate` cmdlet บน Windows 8 หรือใหม่กว่า ให้เรียกใช้คำสั่งต่อไปนี้:
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 เครื่องมือต้องการการติดตั้ง OpenSSL สำหรับ Windows 7 ยูทิลิตี้ OpenSSL ต้องพร้อมใช้งานจากบรรทัดคำสั่ง (command line)
 
 หากต้องการติดตั้ง OpenSSL ให้ไปที่เว็บไซต์ [OpenSSL](https://www.openssl.org) หรือ [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries)
 
-
-
 ## <a name="create-a-certificate-mac-os-x"></a>สร้างใบรับรอง (Mac OS X)
 
 โดยทั่วไปแล้วยูทิลิตี้ OpenSSL จะพร้อมใช้งานในระบบปฏิบัติการ Linux หรือ Mac OS X
 
 คุณยังสามารถติดตั้งยูทิลิตี้นี้ได้โดยการเรียกใช้คำสั่งต่อไปนี้:
+
 * จากตัวจัดการแพ็คเกจ *Brew*
 
     ```cmd
@@ -52,7 +51,7 @@ pbiviz --create-cert
 หลังจากที่คุณติดตั้งยูทิลิตี้ OpenSSL สำหรับสร้างใบรับรองใหม่แล้ว ให้เรียกใช้คำสั่งต่อไปนี้:
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 ## <a name="create-a-certificate-linux"></a>สร้างใบรับรอง (Linux)
@@ -80,7 +79,7 @@ pbiviz --create-cert
 ถ้ายูทิลิตี้ OpenSSL พร้อมใช้งานในระบบปฏิบัติการของคุณแล้ว ให้สร้างใบรับรองใหม่โดยการเรียกใช้คำสั่งต่อไปนี้:
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 หรือคุณสามารถรับยูทิลิตี้ OpenSSL ได้โดยไปยังเว็บไซต์ [OpenSSL](https://www.openssl.org) หรือ [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries)
