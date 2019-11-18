@@ -2,7 +2,6 @@
 title: เพิ่มเป็น Power BI service รายการโปรด (แดชบอร์ด รายงาน แอป)
 description: เอกสารประกอบเกี่ยวกับวิธีการตั้งค่าแดชบอร์ด รายงาน และแอปที่เป็นรายการโปรดใน Power BI service
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 165f958cabf3eb6f3cc5c0e61b62667f891d1d48
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256386"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852654"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>เพิ่มรายการโปรด แดชบอร์ด รายงาน และแอปใน Power BI service
 เมื่อคุณกำหนดเนื้อหาให้เป็น*รายการโปรด*แล้ว คุณจะสามารถเข้าถึงเนื้อหานั้นได้อย่างรวดเร็วจากรายการเนื้อหาของ**รายการโปรด**และจาก > **รายการโปรด + รายการที่ใช้บ่อย**ที่**่หน้าแรกของ Power BI** รายการโปรดมักจะเป็นเนื้อหาที่คุณเยี่ยมชมบ่อยที่สุดและมีดาวสีเหลืองแสดงบอกไว้
@@ -41,7 +40,7 @@ ms.locfileid: "71256386"
 
 ## <a name="add-an-app-as-a-favorite"></a>เพิ่มแอปเป็นแบบรายการโปรด
 
-1. จากหน้าต่างนำทาง เลือก**แอป**
+1. จากบานหน้าต่างนำทาง ให้เลือก**Apps**
 
    ![แดชบอร์ด](./media/end-user-favorite/power-bi-app.png)
 
@@ -53,7 +52,7 @@ ms.locfileid: "71256386"
 1. เมื่อต้องการเข้าไปยังรายการโปรดของคุณ ให้เลือกลูกศรลอยทางด้านขวาของ**รายการโปรด** จากที่นี่ คุณสามารถเลือกเปิดรายการโปรด มากกว่าห้ารายการโปรดจะอยู่ในรายการตามตัวอักษร ถ้าคุณมีมากกว่าห้า ให้เลือก**ดูทั้งหมด**เพื่อเปิดรายการเนื้อหาของรายการโปรด 
    
    ![เมนูลอยที่ชื่นชอบ](./media/end-user-favorite/power-bi-favorite-flyout.png)
-2. ดูเนื้อหาทั้งหมดที่คุณเพิ่มเป็นรายการโปรดโดยจากแถบคำสั่งการสืบค้นเนื้อหา ให้เลือก **รายการโปรด** หรือ![ไอคอนรูปดอกจัน](./media/end-user-favorite/power-bi-favorites-icon.png)สำหรับรายการโปรด 
+2. หากต้องการดูเนื้อหาทั้งหมดที่คุณเพิ่มไว้ในรายการโปรดในบานหน้าต่างนำทาง ให้เลือก **รายการโปรด** หรือ![ไอคอนรูปดอกจัน](./media/end-user-favorite/power-bi-favorites-icon.png) สำหรับรายการโปรด 
    
     ![หน้าต่างรายการโปรด](./media/end-user-favorite/power-bi-fav-screen.png)
    
@@ -62,7 +61,7 @@ ms.locfileid: "71256386"
 ## <a name="unfavorite-content"></a>ยกเลิกเนื้อหาโปรด
 หากคุณไม่ได้ใช้รายงานบ่อยเท่าที่เคย สามารถยกเลิกรายการโปรดนี้ได้ เมื่อคุณยกเลิกเนื้อหาโปรด มันจะถูกเอาออกจากรายการโปรดของคุณ แต่ไม่ใชออกจาก Power BI
 
-1. ในบานหน้าต่างนำทางด้านซ้าย ให้เลือก**รายการโปรด**เพื่อเปิดจอ**รายการโปรด**
+1. ในบานหน้าต่างนำทาง ให้เลือก**รายการโปรด**เพื่อเปิดจอ**รายการโปรด**
    
    ![เพิ่มหน้าจอรายการโปรด](./media/end-user-favorite/power-bi-un-favorite.png)
 2. เลือกรูปดาวสีเหลืองอยู่ถัดจากเนื้อหาเพื่อยกเลิกรายการโปรด
@@ -76,5 +75,5 @@ ms.locfileid: "71256386"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 - [Power BI: แนวคิดพื้นฐาน](end-user-basic-concepts.md)
-- มีคำถามเพิ่มเติมหรือไม่? ลองไปที่ [ชุมชน Power BI](http://community.powerbi.com/)
+- มีคำถามเพิ่มเติมหรือไม่? ลองไปที่ [ชุมชน Power BI](https://community.powerbi.com/)
 

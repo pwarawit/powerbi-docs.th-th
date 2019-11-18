@@ -2,7 +2,6 @@
 title: สร้างและเผยแพร่ชุดเนื้อหาขององค์กร Power BI
 description: ในบทเรียนนี้ คุณสร้างชุดเนื้อหาองค์กร จำกัดการเข้าถึงกลุ่มระบุ และเผยแพร่ลงในไลบรารีชุดเนื้อหาขององค์กรของคุณใน Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020656"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872008"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>บทช่วยสอน: สร้าง และเผยแพร่ชุดเนื้อหาองค์กร Power BI
 
@@ -34,9 +33,9 @@ ms.locfileid: "72020656"
 
 คุณต้องการทำตามหรือไม่ ใน[บริการของ Power BI](https://powerbi.com) ไปที่**พื้นที่ทำงานของฉัน** จากนั้นไปที่**รับข้อมูล** > **ตัวอย่าง** >  **ตัวอย่างการวิเคราะห์โอกาส** > **เชื่อมต่อ** เพื่อรับสำเนาของคุณเอง
 
-1. ในบานหน้าต่างนำทางด้านซ้าย เลือก **พื้นที่ทำงาน** > **พื้นที่ทำงานของฉัน**
+1. ในบานหน้าต่างนำทาง ให้เลือก **พื้นที่ทำงาน** > **พื้นที่ทำงานของฉัน**
 
-1. จากแถบนำทางด้านบน เลือกไอคอนรูปเฟือง ![สกรีนช็อตของไอคอนรูปเฟือง](media/service-organizational-content-pack-create-and-publish/cog.png) > **สร้างชุดเนื้อหา**
+1. จากบานหน้าต่างนำทางด้านบน ให้เลือกไอคอนรูปเฟือง ![สกรีนช็อตของไอคอนรูปเฟือง](media/service-organizational-content-pack-create-and-publish/cog.png) > **สร้างชุดเนื้อหา**
 
    ![สกีนซ็อตของ UI ที่มีความสำคัญกับไอคอนรูปเฟืองและตัวเลือกสร้างชุดเนื้อหา](media/service-organizational-content-pack-create-and-publish/pbi_create_contpk.png)
 
@@ -100,4 +99,4 @@ ms.locfileid: "72020656"
 
 * [อะไรคือ OneDrive สำหรับธุรกิจ](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 
-* มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

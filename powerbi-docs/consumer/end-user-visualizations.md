@@ -2,7 +2,6 @@
 title: การใช้งานการแสดงผลด้วยภาพ (วิชวล) ในฐานะที่เป็นลูกค้า
 description: แนวคิดและคำศัพท์สำหรับ Power BI -การแสดงภาพ ภาพ อะไรคือการแสดงภาพและภาพของ Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7f72e53fe9f017f5f12893711858cc9179b883dd
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379975"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860986"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>โต้ตอบกับการแสดงผลด้วยภาพในรายงาน แดชบอร์ด และแอป
 
@@ -52,7 +51,7 @@ ms.locfileid: "72379975"
 |[ขอให้ Power BI ค้นหาข้อเท็จจริงที่น่าสนใจหรือมีแนวโน้ม](end-user-insights.md)ในข้อมูลของวิชวลสำหรับคุณ  ภาพที่สร้างโดยอัตโนมัติเหล่านี้เรียกว่า *ข้อมูลเชิงลึก*     |    ใช่     |  สำหรับรายงานทั้งหมด ไม่ใช่ต่อการแสดงภาพ       | ไม่   |
 |[ดูวิชวลเดียวเมื่อใช้*โหมด*โฟกัส](end-user-focus.md)     | ใช่        |   ใช่      | ไม่ระบุ  |
 |[ค้นหาการรีเฟรชภาพครั้งล่าสุด](end-user-fresh.md)     |  ใช่       |    ใช่     | ไม่ระบุ  |
-|[ดูการแสดงภาพทีละภาพโดยไม่มีขอบหรือแถบนำทาง](end-user-focus.md) โดยใช้โหมด*เต็มหน้าจอ* หรือโหมด*โฟกัส*     |   ใช่      |  ใช่       | ตามค่าเริ่มต้น  |
+|[ดูครั้งละหนึ่งวิชวล โดยไม่มีขอบหรือบานหน้าต่างนำทาง โดยใช้](end-user-focus.md)โหมด*เต็มหน้าจอ* หรือโหมด*โฟกัส*     |   ใช่      |  ใช่       | ตามค่าเริ่มต้น  |
 |[พิมพ์](end-user-print.md)     |  ใช่       |   ใช่      | ไม่  |
 |[เจาะลึกลงในวิชวล โดยการเพิ่ม และปรับเปลี่ยนตัวกรองวิชวล](end-user-report-filter.md)     |    ไม่     |   ใช่      | ไม่  |
 |โฮเวอร์เหนือวิชวลเพื่อเปิดเผยรายละเอียดเพิ่มเติมและคำแนะนำเกี่ยวกับเครื่องมือ     |    ใช่     |   ใช่      | ใช่  |

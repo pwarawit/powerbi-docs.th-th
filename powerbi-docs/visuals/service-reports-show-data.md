@@ -2,20 +2,19 @@
 title: แสดงข้อมูลที่ถูกใช้เพื่อสร้างการแสดงภาพ Power BI
 description: เอกสารนี้อธิบายวิธีการแสดงข้อมูลที่ใช้เพื่อสร้างภาพใน Power BI และวิธีการส่งออกข้อมูลนั้นไปยังไฟล์ .csv
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/26/2018
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0ffb0a2e7bee17d71ca2037c8a233c2443ff1120
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5417511b12c85cb467c3613671a1e101541c9609
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61389854"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880619"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>แสดงข้อมูลที่ใช้เพื่อสร้างการแสดงภาพ
 ## <a name="show-data"></a>แสดงข้อมูล
@@ -28,17 +27,20 @@ ms.locfileid: "61389854"
 > 
 > 
 
-## <a name="using-show-data-in-power-bi-service"></a>การใช้*แสดงข้อมูล*ในบริการ Power BI
-1. ในบริการ Power BI เปิดรายงานใน[มุมมองการอ่านหรือมุมมองการแก้ไข](../service-interact-with-a-report-in-editing-view.md)และเลือกภาพหนึ่ง  ใน Power BI Desktop เปิดมุมมองรายงาน
-2. การแสดงข้อมูลหลังภาพ ให้เลือก**สำรวจ** > **แสดงข้อมูล**
-   
-   ![เลือกแสดงข้อมูล](media/service-reports-show-data/power-bi-show-data.png)
+## <a name="using-show-data"></a>ใช้*แสดงข้อมูล* 
+1. ใน Power BI Desktop ให้เลือกการแสดงผลข้อมูลด้วยภาพเพื่อเปิดใช้งาน
+
+2. เลือก **การดำเนินการเพิ่มเติม** (...) และเลือก **แสดงข้อมูล** 
+    ![ตัวเลือกการแสดงสำหรับแสดงข้อมูล](media/service-reports-show-data/power-bi-more-action.png)
+
+
 3. ตามค่าเริ่มต้น ข้อมูลจะแสดงที่ด้านล่างภาพ
    
-   ![ข้อมูลและภาพแสดงในแนวตั้ง](media/service-reports-show-data/power-bi-explore-show-data.png)
-4. เมื่อต้องการเปลี่ยนแนวการวาง ให้เลือกเค้าโครงในแนวตั้ง![](media/service-reports-show-data/power-bi-vertical-icon-new.png)จากมุมบนขวาของการแสดงภาพ
+   ![ข้อมูลและภาพแสดงในแนวตั้ง](media/service-reports-show-data/power-bi-show-data-below.png)
+
+4. หากต้องการเปลี่ยนการวางแนว โปรดเลือกเค้าโครงแนวตั้ง ![ภาพหน้าจอขนาดเล็กของไอคอนที่ใช้ในการเปลี่ยนเป็นเค้าโครงแนวตั้ง](media/service-reports-show-data/power-bi-vertical-icon-new.png) บริเวณมุมบนขวาของการแสดงผลภาพ
    
-   ![ภาพและข้อมูลแสดงในแนวนอน](media/service-reports-show-data/power-bi-explore-show-data2.png)
+   ![ภาพและข้อมูลแสดงในแนวนอน](media/service-reports-show-data/power-bi-show-data-side.png)
 5. เมื่อต้องการส่งออกข้อมูลไปยังไฟล์ .csv เลือกจุดไข่ปลาแล้วเลือก**ส่งออกข้อมูล**
    
     ![เลือกส่งออกข้อมูล](media/service-reports-show-data/power-bi-export-data-new.png)
@@ -46,9 +48,30 @@ ms.locfileid: "61389854"
     สำหรับข้อมูลเพิ่มเติมในการส่งออกข้อมูลไปยัง Exel ดู[ส่งออกข้อมูลจากการแสดงภาพ Power BI](power-bi-visualization-export-data.md)
 6. เมื่อต้องซ่อนข้อมูล ยกเลิกเลือก**สำรวจ** > **แสดงข้อมูล**
 
+## <a name="using-show-records"></a>ใช้แสดงเรกคอร์ด
+คุณยังสามารถโฟกัสไปที่ข้อมูลหนึ่งระเบียนในวิชวล และเจาะลึกลงข้อมูลข้างใน 
+
+1. หากต้องการใช้ **ดูเรกคอร์ด** ให้เลือกการแสดงผลข้อมูลด้วยภาพเพื่อเปิดใช้งาน 
+
+2. ในริบบอน Desktop ให้เลือกแท็บสำหรับ **เครื่องมือวิชวล** > **ข้อมูล/เจาะรายละเอียด** > **ดูเรกคอร์ด** 
+
+    ![ภาพหน้าจอที่มีการเลือกดูเรกคอร์ด](media/service-reports-show-data/power-bi-see-record.png)
+
+3. เลือกจุดข้อมูลหรือแถวบนการแสดงผลข้อมูลด้วยภาพ ในตัวอย่างนี้ เราได้เลือกคอลัมน์ที่สี่จากด้านซ้าย Power BI แสดงเรกคอร์ดชุดข้อมูลสำหรับจุดข้อมูลนี้ให้เรา
+
+    ![ภาพหน้าจอของเรกคอร์ดเดี่ยวจากชุดข้อมูล](media/service-reports-show-data/power-bi-row.png)
+
+4. เลือก **กลับไปยังรายงาน** เพื่อกลับไปยังพื้นที่รายงานบน Desktop 
+
+## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
+
+- ถ้าปุ่ม **ดูเรกคอร์ด** ในริบบอนถูกปิดใช้งาน และแสดงเป็นสีเทา แสดงว่า การแสดงผลข้อมูลด้วยภาพที่เลือกไม่สนับสนุน ดูเรกคอร์ด
+- คุณไม่สามารถเปลี่ยนข้อมูลในมุมมอง ดูเรกคอร์ด และบันทึกกลับไปยังรายงานได้
+- คุณไม่สามารถใช้ ดูเรกคอร์ด เมื่อวิชวลของคุณใช้หน่วยวัดจากการคำนวณ
+- คุณไม่สามารถใช้ ดูเรกคอร์ด เมื่อคุณเชื่อมต่อกับแบบจำลองสดแบบหลายมิติ (MD)  
+
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[ส่งออกข้อมูลจากการแสดงภาพ Power BI](power-bi-visualization-export-data.md)    
-[แสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)    
-[รายงาน Power BI](../consumer/end-user-reports.md)    
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+[ส่งออกข้อมูลจากการแสดงผลข้อมูลด้วยภาพของ Power BI](power-bi-visualization-export-data.md)    
+
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

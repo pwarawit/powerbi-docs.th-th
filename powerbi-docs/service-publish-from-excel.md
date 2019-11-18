@@ -2,7 +2,6 @@
 title: เผยแพร่ไปยัง Power BI จาก Excel 2016
 description: เรียนรู้วิธีการเผยแพร่สมุดงาน Excel ไปยังไซต์ Power BI ของคุณ
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb9ff3ae6b08111156616a84ee795131c708f42c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 81bc53bae43cb16af92a9ecaf20c26c594a24368
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514797"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881131"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>เผยแพร่ไปยัง Power BI จาก Excel 2016
 ด้วย Excel 2016 คุณสามารถเผยแพร่สมุดงาน Excel ของคุณไปยังไซต์[Power BI](https://powerbi.microsoft.com) ได้ทันที ซึ่งเป็นที่ที่คุณสามารถสร้างรายงานและแดชบอร์ดแบบโต้ตอบสูงตามข้อมูลของสมุดงานของคุณได้ จากนั้นคุณสามารถแชร์ข้อมูลเชิงลึกของคุณกับผู้อื่นในองค์กรของคุณได้
@@ -63,7 +62,7 @@ ms.locfileid: "65514797"
 
 คุณไม่สามารถแก้ไขสมุดงานของคุณได้เมื่อเปิดใน Power BI แต่ถ้าคุณจำเป็นต้องทำการเปลี่ยนแปลงบางอย่าง คุณสามารถเลือก**แก้ไข** แล้วเลือกแก้ไขสมุดงานของคุณใน Excel Online หรือเปิดใน Excel บนคอมพิวเตอร์ของคุณ การเปลี่ยนแปลงใด ๆ ที่คุณดำเนินการจะถูกบันทึกไปยังสมุดงานบน OneDrive
 
-เมื่อคุณอัปโหลด จะไม่มีการสร้างชุดข้อมูลขึ้นใน Power BI สมุดงานของคุณจะปรากฏในรายงานในพื้นที่นำทางพื้นที่ทำงานของคุณ สมุดงานที่อัปโหลดไปยัง Power BI มี Excel ไอคอนพิเศษ ระบุสมุดงานเหล่านั้นเป็นสมุดงาน Excel ที่มีการอัปโหลด
+เมื่อคุณอัปโหลด จะไม่มีการสร้างชุดข้อมูลขึ้นใน Power BI สมุดงานของคุณจะปรากฏในรายงาน ในบานหน้าต่างนำทางของพื้นที่ทำงานของคุณ สมุดงานที่อัปโหลดไปยัง Power BI มี Excel ไอคอนพิเศษ ระบุสมุดงานเหล่านั้นเป็นสมุดงาน Excel ที่มีการอัปโหลด
 
 เลือกตัวเลือกนี้ถ้าคุณมีข้อมูลในแผ่นงานเท่านั้น หรือคุณมี PivotTable และแผนภูมิที่คุณต้องการดูใน Power BI
 การใช้การอัปโหลดจาก เผยแพร่ ไปยัง Power BI ใน Excel จะค่อนข้างเหมือนกันกับการใช้ รับข้อมูล > ไฟล์ > OneDrive สำหรับธุรกิจ > เชื่อมต่อ, จัดการและดู Excel ใน Power BI จาก Power BI ในเบราว์เซอร์ของคุณ
@@ -88,5 +87,5 @@ ms.locfileid: "65514797"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [ข้อมูล Excel ใน Power BI](service-excel-workbook-files.md)  
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

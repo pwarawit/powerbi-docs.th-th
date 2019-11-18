@@ -2,7 +2,6 @@
 title: เชื่อมต่อกับ Office365Mon ด้วย Power BI
 description: Office365Mon for Power BI
 author: teddybercovitz
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 8/29/2019
 ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5d31eccd52164bb4d1ff37532d89dc7e147693d3
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 64e8365a6d4e0c01911de9e69998af4d58d59202
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060826"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854721"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>เชื่อมต่อกับ Office365Mon ด้วย Power BI
 การวิเคราะห์การหยุดการทำงานและข้อมูลสมรรถนะการทำงานของ Office 365 ของคุณทำได้ง่ายด้วย Power BI และแอปแม่แบบ Office365Mon Power BI ดึงข้อมูลของคุณ ทั้งการหยุดทำงานและปัญหาด้านสุขภาพ จากนั้นสร้างแดชบอร์ดแบบคิดนอกกรอบและรายงานที่ยึดตามข้อมูลนั้น
@@ -26,7 +25,7 @@ ms.locfileid: "73060826"
 >จำเป็นต้องมีบัญชีผู้ดูแลระบบ Office365Mon เพื่อเชื่อมต่อและโหลดแอปแม่แบบ Power BI
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
-1. เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ
+1. เลือก**รับข้อมูล**ที่ด้านล่างของบานหน้าต่างนำทาง
    
    ![](media/service-connect-to-office365mon/pbi_getdata.png)
 2. ในกล่อง**บริการ** เลือก**รับ**
@@ -42,7 +41,7 @@ ms.locfileid: "73060826"
    ![](media/service-connect-to-office365mon/creds.png)
    
    ![](media/service-connect-to-office365mon/creds2.png)
-5. หลังจากที่ Power BI นำเข้าข้อมูลแล้ว คุณจะเห็นแดชบอร์ด รายงาน และชุดข้อมูลใหม่ ในบานหน้าต่างนำทางด้านซ้ายมือ รายการใหม่ถูกทำเครื่องหมายด้วยเครื่องหมายดอกจันสีเหลือง \* เลือกกรอก Office365Mon
+5. หลังจากที่ Power BI นำเข้าข้อมูลแล้ว คุณจะเห็นแดชบอร์ด รายงาน และชุดข้อมูลใหม่ในบานหน้าต่างนำทาง รายการใหม่ถูกทำเครื่องหมายด้วยเครื่องหมายดอกจันสีเหลือง \* เลือกกรอก Office365Mon
    
    ![](media/service-connect-to-office365mon/dashboard4.png)
 

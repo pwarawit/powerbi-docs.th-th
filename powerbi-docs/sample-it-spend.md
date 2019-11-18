@@ -2,7 +2,6 @@
 title: 'ตัวอย่างการวิเคราะห์การใช้จ่ายด้าน IT สำหรับ Power BI: ชมการแนะนำ'
 description: 'ตัวอย่างการวิเคราะห์การใช้จ่ายด้าน IT สำหรับ Power BI: ชมการแนะนำ'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: bc6b35b6401f4424a3a5120cb7c28437da9a2a48
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6f39f8b5c288c1dbff3cd87c7beee27683cfeae2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462243"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873908"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการวิเคราะห์การใช้จ่ายด้าน IT สำหรับ Power BI: ชมการแนะนำ
 
@@ -54,11 +53,11 @@ ms.locfileid: "68462243"
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>รับไฟล์ .pbix สำหรับตัวอย่างนี้
 
-อีกทางเลือกหนึ่งคือ คุณสามารถดาวน์โหลดตัวอย่างการวิเคราะห์การใช้จ่ายด้าน IT เป็น[ไฟล์ .pbix](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix) ซึ่งถูกออกแบบมาสำหรับใช้กับ Power BI Desktop
+อีกทางเลือกหนึ่งคือ คุณสามารถดาวน์โหลดตัวอย่างการวิเคราะห์การใช้จ่ายด้าน IT เป็น[ไฟล์ .pbix](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix) ซึ่งถูกออกแบบมาสำหรับใช้กับ Power BI Desktop
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>รับเวิร์กบุ๊ก Excel สำหรับตัวอย่างนี้
 
-ถ้าคุณต้องการดูแหล่งข้อมูลสำหรับตัวอย่างนี้ ตัวอย่างนี้ยังมีให้ในรูปแบบ[เวิร์กบุ๊ก Excel](http://go.microsoft.com/fwlink/?LinkId=529783) เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน หากต้องการดูข้อมูลดิบ ให้เปิดใช้งาน add-in การวิเคราะห์ข้อมูล แล้วจากนั้นเลือก**Power Pivot > จัดการ** หากต้องการเปิดใช้งาน Power View และ Power Pivot add-in โปรดดทีู่[ดูตัวอย่าง Excel จากใน Excel เอง](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)สำหรับรายละเอียด
+ถ้าคุณต้องการดูแหล่งข้อมูลสำหรับตัวอย่างนี้ ตัวอย่างนี้ยังมีให้ในรูปแบบ[เวิร์กบุ๊ก Excel](https://go.microsoft.com/fwlink/?LinkId=529783) เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน หากต้องการดูข้อมูลดิบ ให้เปิดใช้งาน add-in การวิเคราะห์ข้อมูล แล้วจากนั้นเลือก**Power Pivot > จัดการ** หากต้องการเปิดใช้งาน Power View และ Power Pivot add-in โปรดดทีู่[ดูตัวอย่าง Excel จากใน Excel เอง](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)สำหรับรายละเอียด
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>แดชบอร์ดตัวอย่างการวิเคราะห์การใช้จ่ายด้าน IT
 ไทล์ตัวเลขสองไทล์ที่อยู่บนด้านซ้ายของแดชบอร์ด **%แปรปรวน แผน**และ **%แปรปรวน ประเมินล่าสุด ไตรมาสที่ 3** บอกภาพรวมว่าเราดำเนินไปอย่างไร เทียบกับแผน และเทียบกับการประเมินในไตรมาสล่าสุด (LE3 =ประเมินล่าสุดไตรมาส 3) โดยรวมแล้ว เราผิดไปจากแผนประมาณ 6% เราลองมาสำรวจสาเหตุของความแปรปรวนนี้ – เมื่อไร ที่ไหน และในประเภทใด
@@ -78,7 +77,7 @@ ms.locfileid: "68462243"
     ต่อไปเรามาสำรวจว่าส่วนไหนในสหรัฐอเมริกาที่ทำให้เกิดความแปรปรวน
 
 ## <a name="ask-questions-of-the-data"></a>ถามคำถามจากข้อมูล
-1. เลือก**ตัวอย่างการวิเคราะห์การใช้จ่ายด้าน IT** ในตัวอย่างแถบนำทางด้านบนเพื่อกลับไปยังแดชบอร์ด
+1. เลือก**ตัวอย่างการวิเคราะห์การใช้จ่ายด้าน IT** ในบานหน้าต่างนำทางด้านบนเพื่อกลับไปยังตัวอย่างแดชบอร์ด
 2. เลือก**ถามคำถามเกี่ยวกับข้อมูลของคุณ**
 3. จากรายการ**คำถามเพื่อเริ่มต้นใช้**ทางด้านซ้าย เลือก**อะไรคือแผนตามพื้นที่ไอที**
 

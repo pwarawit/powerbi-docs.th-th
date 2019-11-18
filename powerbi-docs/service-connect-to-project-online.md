@@ -2,7 +2,6 @@
 title: เชื่อมต่อกับ Project Online ด้วย Power BI
 description: Project Online สำหรับ Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0978e87167f96b40082819764d7e3ae35e930a4b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 941981e1f84cf3d7a74a156e4f1c88f57e061ad2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023778"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854662"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>เชื่อมต่อไปยัง Project Web App ด้วย Power BI
 Microsoft Project Web App เป็นโซลูชันออนไลน์ที่ยืดหยุ่นสำหรับการจัดการพอร์ตโครงการ (PPM) และงานประจำวัน Project Web App ช่วยให้องค์กรสามารถเริ่มต้นและจัดลำดับความสำคัญการลงทุนในพอร์ตโครงการ และส่งมอบมูลค่าทางธุรกิจตามที่ต้องการได้ Project Web App Template App สำหรับ Power BI ช่วยให้คุณสามารถปลดล็อคข้อมูลเชิงลึกจาก Project Web App เพื่อจัดการโครงการ พอร์ตโครงการ และทรัพยากร
@@ -24,7 +23,7 @@ Microsoft Project Web App เป็นโซลูชันออนไลน์
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
 
-1. เลือก**แอป**ในบานหน้าต่างนำทางด้านซ้าย > เลือก**รับแอป**ในมุมบนขวา
+1. เลือก**แอป**ในบานหน้าต่างนำทาง > เลือก**รับแอป**ในมุมบนขวา
 
     ![รับแอป](media/service-connect-to-project-online/GetApps.png)
 
@@ -52,7 +51,7 @@ Microsoft Project Web App เป็นโซลูชันออนไลน์
 
 9. คุณจะเห็นการแจ้งเตือนที่ระบุว่า กำลังโหลดข้อมูลของคุณ ขึ้นอยู่กับขนาดบัญชีของคุณ ซึ่งอาจใช้เวลาสักครู่ หลังจากที่ Power BI นำเข้าข้อมูลแล้ว คุณจะเห็นเนื้อหาของพื้นที่ทำงานใหม่ของคุณ คุณอาจจำเป็นต้องรีเฟรชชุดข้อมูลเพื่อรับการอัปเดตล่าสุด 
 
-    หลังจากที่ Power BI นำเข้าข้อมูลแล้ว คุณจะเห็นรายงานที่มี 13 หน้า และชุดข้อมูลในบานหน้าต่างนำทางด้านซ้ายมือ 
+    หลังจากที่ Power BI นำเข้าข้อมูลแล้ว คุณจะเห็นรายงานที่มี 13 หน้า และชุดข้อมูลในบานหน้าต่างนำทาง 
 
 10. หลังจากรายงานของคุณพร้อม ดำเนินการต่อและเริ่มการสำรวจข้อมูล Project Web App! Template App มาพร้อมกับรายงาน 13 หน้าที่เป็นภาพรวมการจัดการพอร์ตโครงการ (6 หน้ารายงาน), ภาพรวมทรัพยากร (5 หน้ารายงาน) และ สถานะของโครงการ (2 หน้ารายงาน) 
 

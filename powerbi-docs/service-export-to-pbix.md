@@ -2,7 +2,6 @@
 title: ดาวน์โหลดรายงานจากบริการของ Power BI ไปยังไฟล์ Power BI Desktop (ตัวอย่าง)
 description: ดาวน์โหลดรายงานจากบริการ Power BI ไปยังไฟล์ Power BI Desktop
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715183"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881820"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>ดาวน์โหลดรายงานจากบริการของ Power BI ไปยังไฟล์ Power BI Desktop (ตัวอย่าง)
 ใน Power BI Desktop คุณสามารถเผยแพร่รายงาน (ไฟล์ *.pbix*) จากคอมพิวเตอร์ในเครื่องของคุณไปยังบริการของ Power BI ได้ รายงาน Power BI สามารถไปยังทิศทางอื่น ๆ ได้เช่นกัน: คุณสามารถดาวน์โหลดรายงานจากบริการของ Power BI ไปยังไฟล์ Power BI Desktop ส่วนขยายสำหรับรายงาน Power BI ในกรณีใดก็ตามคือ .pbix
@@ -32,7 +31,7 @@ ms.locfileid: "71715183"
 
 1. ในบริการของ Power BI เปิดรายงานที่คุณต้องการดาวน์โหลดใน[มุมมองการแก้ไข](https://docs.microsoft.com/power-bi/service-interact-with-a-report-in-editing-view)
 
-2. จากแถบนำทางด้านบน เลือก**ไฟล์ > ดาวน์โหลดรายงาน**
+2. จากบานหน้าต่างนำทางด้านบน ให้เลือก**ไฟล์ > ดาวน์โหลดรายงาน**
    
 3. ในขณะที่กำลังดาวน์โหลดรายงาน แบนเนอร์สถานะจะแสดงความคืบหน้า เมื่อไฟล์พร้อม คุณจะถูกขอให้เปิดหรือบันทึกไฟล์ .pbix ชื่อค่าเริ่มต้นของไฟล์ตรงกับชื่อเรื่องของรายงาน
    
@@ -71,5 +70,5 @@ ms.locfileid: "71715183"
 
 * [เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

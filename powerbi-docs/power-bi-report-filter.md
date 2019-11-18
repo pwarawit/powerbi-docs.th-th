@@ -2,7 +2,6 @@
 title: การใช้งานตัวกรองใหม่ในรายงาน Power BI
 description: ตัวกรองใน Power BI ได้รับการออกแบบใหม่และมีฟังก์ชันการทำงานใหม่
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841267"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875145"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>การใช้งานตัวกรองใหม่ในรายงาน Power BI
 
@@ -44,7 +43,7 @@ ms.locfileid: "70841267"
 ### <a name="turn-on-new-filters-for-an-existing-report-in-power-bi-desktop"></a>เปิดใช้งานตัวกรองใหม่สำหรับรายงานที่มีอยู่ใน Power BI Desktop
 
 1. ใน Power BI Desktop ในรายงานที่มีอยู่ ให้เลือก**แฟ้ม** > **ตัวเลือกและการตั้งค่า** > **ตัวเลือก**
-2. ในแถบนำทางด้านซ้าย ภายใต้ **แฟ้มปัจจุบัน** เลือก **ตั้งค่ารายงาน**
+2. ในบานหน้าต่างนำทาง ภายใต้**ไฟล์ปัจจุบัน** ให้เลือก**การตั้งค่ารายงาน**
 3. ด้านล่าง **ประสบการณ์การกรอง** เลือก **เปิดใช้งานบานบานหน้าต่างตัวกรองที่อัปเดต และแสดงตัวกรองในส่วนหัวภาพสำหรับรายงานนี้**
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>เปิดใช้งานตัวกรองใหม่สำหรับรายงานที่มีอยู่ในบริการ
@@ -238,5 +237,5 @@ ms.locfileid: "70841267"
 - [ตัวกรองและการทำไฮไลท์ในรายงาน](power-bi-reports-filters-and-highlighting.md)
 - [ตัวกรองประเภทต่างๆ ใน Power BI](power-bi-report-filter-types.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

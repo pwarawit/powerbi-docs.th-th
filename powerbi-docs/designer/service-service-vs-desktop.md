@@ -2,7 +2,6 @@
 title: การเปรียบเทียบ Power BI Desktop และบริการ Power BI
 description: Power BI Desktop เป็นการวิเคราะห์ข้อมูลและเครื่องมือสร้างรายงานที่สมบูรณ์ บริการ Power BI เป็นบริการออนไลน์บนคลาวด์สำหรับการแก้ไขรายงานและความร่วมมือกับทีมและองค์กร
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e2985f4a27d8471bcfce80d40f2263e2be07d38c
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73064364"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879017"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>การเปรียบเทียบ Power BI Desktop และบริการ Power BI
 
@@ -38,7 +37,7 @@ ms.locfileid: "73064364"
 
 เครื่องมือแก้ไขรายงานใน Power BI Desktop และในบริการมีความคล้ายคลึงกัน โดยมีการสร้างขึ้นจากสามส่วน:  
 
-1. แถบการนำทางด้านบนแตกต่างกันใน Power BI Desktop และบริการ    
+1. บานหน้าต่างนำทางด้านบนแตกต่างกันใน Power BI Desktop และบริการ    
 2. พื้นที่รายงาน     
 3. **ช่องข้อมูล** **การแสดงภาพ**และพื้นที่**ตัวกรอง**
 

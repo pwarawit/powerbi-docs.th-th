@@ -2,7 +2,6 @@
 title: ตัดการเชื่อมต่อจากชุดเนื้อหาขององค์กร - Power BI
 description: อ่านเกี่ยวกับการลบการเชื่อมต่อกับชุดเนื้อหาขององค์กรโดยการลบชุดข้อมูลใน Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d83a57b2b1f8e2ca0887f2432f2de43647900b81
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 3936ebfedb1e4e51fe93b948a49de0b9fb133c52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020641"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881293"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>ลบการเชื่อมต่อของคุณกับชุดเนื้อหา Power BI ขององค์กร
 
@@ -27,7 +26,7 @@ ms.locfileid: "72020641"
 
 ในการลบชุดเนื้อหาหนึ่ง คุณจะลบชุดข้อมูลของชุดเนื้อหานั้น  
 
-* ที่แผงนำทางด้านซ้าย เลือกจุดไข่ปลาทางด้านขวาของชุดข้อมูล แล้วเลือก**ลบ\>ใช่**  
+* ในบานหน้าต่างนำทาง ให้เลือกจุดไข่ปลาทางด้านขวาของชุดข้อมูล แล้วเลือก**ลบ\>ใช่**  
   
   ![ลบชุดเนื้อหา](media/service-organizational-content-pack-disconnect/power-bi-remove-organizational-content-pack-dataset.png)
 
@@ -37,5 +36,5 @@ ms.locfileid: "72020641"
 * [แนะนำชุดเนื้อหาองค์กร](service-organizational-content-pack-introduction.md) 
 * [สร้างและกระจายแอปฯใน Power BI](service-create-distribute-apps.md) 
 * [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)  
-* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

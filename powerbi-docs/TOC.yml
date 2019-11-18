@@ -80,7 +80,7 @@
         - name: สมาชิกเริ่มต้นในแบบจำลองหลายมิติใน Power BI
           href: desktop-default-member-multidimensional-models.md
         - name: คำถามที่พบบ่อยเกี่ยวกับวิชวล
-          href: power-bi-custom-visuals-faq.md
+          href: developer/power-bi-custom-visuals-faq.md
     - name: วิธีการ
       items:
         - name: รับ Power BI Desktop
@@ -673,6 +673,8 @@
           items:
             - name: สร้างพื้นที่ทำงานใหม่
               href: service-create-the-new-workspaces.md
+            - name: อัปเกรดพื้นที่ทำงานแบบคลาสสิก
+              href: designer/service-upgrade-workspaces.md
             - name: สร้างพื้นที่ทำงาน
               href: service-create-workspaces.md
             - name: เผยแพร่แอปจากพื้นที่ทำงาน

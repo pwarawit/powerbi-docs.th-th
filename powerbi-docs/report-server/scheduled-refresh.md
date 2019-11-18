@@ -2,19 +2,18 @@
 title: รายงาน Power BI รีเฟรชตามกำหนดการในเซิร์ฟเวอร์รายงาน Power BI
 description: รายงาน Power BI สามารถเชื่อมต่อกับแหล่งข้อมูลต่างที่แตกต่างกันได้ ขึ้นอยู่กับวิธีการใช้ข้อมูล แหล่งข้อมูลที่แตกต่างกันพร้อมใช้งาน
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: mblythe
-ms.openlocfilehash: ca2c37a93652bf0f622c7154fe8438faf4c70ac1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ede44316d9dd188787381b26ee3352af13775c0f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051021"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873992"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>รายงาน Power BI รีเฟรชตามกำหนดการในเซิร์ฟเวอร์รายงาน Power BI
 การรีเฟรชตามกำหนดการสำหรับรายงาน Power BI จะช่วยให้ข้อมูลสำหรับรายงานได้รับการอัปเดตอยู่เสมอ
@@ -34,7 +33,7 @@ ms.locfileid: "66051021"
 * โหลดแบบจำลองข้อมูลภายในอินสแตนซ์ Analysis Services
 * สำหรับบางแหล่งข้อมูล กลไกจัดการโต้ตอบกับผู้ใช้ Power Query ถูกใช้เพื่อเชื่อมต่อกับแหล่งข้อมูล และแปลงข้อมูล แหล่งข้อมูลอื่นๆอาจเชื่อมต่อโดยตรงจากบริการ Analysis Services ที่ใช้สำหรับการโฮสต์แบบจำลองข้อมูลสำหรับเซิร์ฟเวอร์รายงาน Power BI
 * โหลดข้อมูลใหม่ลงในแบบจำลองข้อมูลภายใน Analysis Services
-* ในการกำหนดค่าแบบแนวกว้าง สามารถจำลองแบบจำลองข้อมูลบนโหนด
+* ในการกำหนดค่าการขยายขนาดความจุ แบบจำลองข้อมูลสามารถทำซ้ำข้ามโหนดได้
 * Analysis Services ประมวลผลข้อมูล และดำเนินการการคำนวณที่จำเป็นต่างๆ
 
 เซิร์ฟเวอร์รายงาน power BI จะรักษาคิวของเหตุการณ์สำหรับการดำเนินการที่กำหนดไว้ทั้งหมด ซึ่งจะทำการสำรวจคิวตามเวลาปกติเพื่อตรวจสอบเหตุการณ์ใหม่ ตามค่าเริ่มต้น คิวจะได้รับการสแกนที่ช่วงเวลา 10 วินาที คุณสามารถเปลี่ยนช่วงเวลาโดยการปรับเปลี่ยน**PollingInterval**, **IsNotificationService**และ**IsEventService**ตั้งค่าการกำหนดค่าในตัวไฟล์ RSReportServer.config **IsDataModelRefreshService**ยังสามารถใช้เพื่อตั้งค่าว่ากระบวนการของเซิร์ฟเวอร์รายงานกำหนดเหตุการณ์ไว้หรือไม่

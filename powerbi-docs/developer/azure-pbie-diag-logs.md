@@ -3,17 +3,16 @@ title: บันทึกการวินิจฉัยสำหรับบ�
 description: เรียนรู้เกี่ยวกับการตั้งค่าบันทึกการวินิจฉัยสำหรับบริการ Power BI Embedded ใน Azure
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: 9065feef76050c6a04e1ecf8ec7907b74be4b0ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289848"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875983"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>บันทึกการวินิจฉัยสำหรับ Power BI Embedded ใน Azure
 
@@ -29,7 +28,7 @@ ms.locfileid: "68289848"
 
 ### <a name="azure-portal"></a>พอร์ทัล Azure
 
-1. ใน[พอร์ทัล Azure](https://portal.azure.com) > ทรัพยากร Power BI Embedded เลือก**บันทึกการวินิจฉัย**ในการนำทางด้านซ้าย แล้วเลือก**เปิดใช้งานการวินิจฉัย**
+1. ใน[พอร์ทัล Azure](https://portal.azure.com) > ทรัพยากร Power BI Embedded ให้เลือก**บันทึกการวินิจฉัย**ในบานหน้าต่างนำทาง แล้วเลือก**เปิดใช้งานการวินิจฉัย**
 
     ![เปิดใช้งานบันทึกการวินิจฉัยสำหรับ Power BI Embedded ในพอร์ทัล Azure](media/azure-pbie-diag-logs/azure-pbie-diag-logs-01.png)
 

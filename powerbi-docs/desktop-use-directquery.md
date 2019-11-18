@@ -2,7 +2,6 @@
 title: ใช้ DirectQuery ใน Power BI Desktop
 description: ใช้ DirectQuery หรือที่เรียกว่า การเชื่อมต่อสด ใน Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6664924a10b89e057765d70499208aede2d7fdad
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 08b739c5be01efed5abf8258540b5ab66b3b390b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654781"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876065"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>ใช้ DirectQuery ใน Power BI Desktop
 ด้วย **Power BI Desktop** เมื่อคุณเชื่อมต่อกับแหล่งข้อมูลของคุณ คุณสามารถนำเข้าสำเนาของข้อมูลลงใน **Power BI Desktop** ได้ สำหรับบางแหล่งข้อมูล คุณสามารถเลือกวิธีการอื่นได้: เชื่อมต่อโดยตรงกับแหล่งข้อมูลโดยใช้ **DirectQuery**
@@ -70,7 +69,7 @@ ms.locfileid: "69654781"
       The resultset of a query to external data source has exceeded
   
   สถานการณ์นี้อาจเกิดขึ้นได้กับแผนภูมิแบบง่ายๆ ที่มีแถวในคอลัมน์หนึ่งๆ อย่างมาก โดยมีตัวเลือกการรวมกำหนดเป็น*อย่าสรุป* ภาพจะมีคอลัมน์ที่มีแถวต่ำกว่า 1 ล้านหรือต้องมีการใช้ตัวกรองที่เหมาะสม
-* **ความปลอดภัย** – ผู้ใช้ทั้งหมดที่ใช้รายงานที่เผยแพร่จะเชื่อมต่อกับแหล่งข้อมูล backend โดยใช้ข้อมูลประจำตัวที่ถูกป้อนหลังจากการเผยแพร่ไปยังบริการ Power BI นี่คือสถานการณ์เดียวกับข้อมูลที่นำเข้า: ผู้ใช้ทุกคนเห็นข้อมูลเดียวกันโดยไม่คำนึงถึงกฎความปลอดภัยใดๆ ที่กำหนดไว้ในแหล่งข้อมูล backend ลูกค้าที่ต้องการความปลอดภัยสำหรับผู้ใช้ในการใช้งานแหล่งข้อมูล DirectQuery ควรใช้ RLS [เรียนรู้เพิ่มเติมเกี่ยวกับ RLS](service-admin-rls.md)
+* **ความปลอดภัย** – ตามค่าเริ่มต้น ผู้ใช้ทั้งหมดที่ใช้รายงานที่เผยแพร่จะเชื่อมต่อกับแหล่งข้อมูล backend โดยใช้ข้อมูลประจำตัวที่ถูกป้อนหลังจากการเผยแพร่ไปยังบริการ Power BI นี่คือสถานการณ์เดียวกับข้อมูลที่นำเข้า: ผู้ใช้ทุกคนเห็นข้อมูลเดียวกันโดยไม่คำนึงถึงกฎความปลอดภัยใดๆ ที่กำหนดไว้ในแหล่งข้อมูล backend ลูกค้าที่ต้องการนำความปลอดภัยต่อผู้ใช้ไปใช้กับแหล่งข้อมูล DirectQuery ควรใช้ RLS หรือกำหนดค่าการรับรองความถูกต้องแบบจำกัดของ Kerberos กับแหล่งข้อมูล Kerberos ไม่สามารถใช้ได้กับทุกแหล่งข้อมูล [เรียนรู้เพิ่มเติมเกี่ยวกับ RLS](service-admin-rls.md) [เรียนรู้เพิ่มเติมเกี่ยวกับ Kerberos ใน DirectQuery](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos) 
 * **ฟีเจอร์ที่ได้รับการสนับสนุน** - ฟีเจอร์บางอย่างเท่านั้นใน **Power BI Desktop** ได้รับการสนับสนุนในโหมด **DirectQuery** หรือมีข้อจำกัดบางอย่าง นอกจากนี้ ยังมีความสามารถบางอย่างในบริการของ Power BI (เช่น *ข้อมูลเชิงลึกอย่างรวดเร็ว*) ที่ไม่มีให้ใช้กับชุดข้อมูลที่ใช้ **DirectQuery** ดังนั้น ควรคำนึงถึงข้อจำกัดของฟีเจอร์ดังกล่าวเมื่อใช้ **DirectQuery** เมื่อพิจารณาว่าควรใช้ **DirectQuery** หรือไม่   
 
 ## <a name="publish-to-the-power-bi-service"></a>เผยแพร่ไปยังบริการ Power BI
@@ -88,7 +87,7 @@ Power BI แสดงหน้าต่าง**การตั้งค่า** 
 
 จนกว่าจะมีการให้ข้อมูลประจำตัว จะไม่สามารถเปิดรายงานที่เผยแพร่หรือทำการสำรวจชุดข้อมูลที่ถูกสร้างขึ้นโดยการเชื่อมต่อของ **DirectQuery** กับแหล่งข้อมูลดังกล่าว
 
-สำหรับแหล่งข้อมูลอื่นที่ไม่ใช่ **Azure SQL Database**, **Azure SQL Data Warehouse** และ **Redshift** ที่ใช้ DirectQuery ต้องติดตั้ง**เกตเวย์ข้อมูลภายในองค์กร**และต้องลงทะเบียนแหล่งข้อมูลเพื่อสร้างการเชื่อมต่อข้อมูล คุณสามารถ[เรียนรู้เพิ่มเติมเกี่ยวกับเกตเวย์ข้อมูลภายในองค์กร](http://go.microsoft.com/fwlink/p/?LinkID=627094)ได้
+สำหรับแหล่งข้อมูลอื่นที่ไม่ใช่ **Azure SQL Database**, **Azure SQL Data Warehouse** และ **Redshift** ที่ใช้ DirectQuery ต้องติดตั้ง**เกตเวย์ข้อมูลภายในองค์กร**และต้องลงทะเบียนแหล่งข้อมูลเพื่อสร้างการเชื่อมต่อข้อมูล คุณสามารถ[เรียนรู้เพิ่มเติมเกี่ยวกับเกตเวย์ข้อมูลภายในองค์กร](https://go.microsoft.com/fwlink/p/?LinkID=627094)ได้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ **DirectQuery** โปรดดูทรัพยากรต่อไปนี้:

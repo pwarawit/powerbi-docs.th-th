@@ -2,7 +2,6 @@
 title: ส่งออกรายงานจาก Power BI ไปยัง PowerPoint
 description: แสดงตัวอย่างส่งออกรายงาน Power BI ไปยัง PowerPoint
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3215dfab54d1537ec5f7ca32ee4bd39b9ef997e5
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 840f2462ea9fc6b2d748b3803445c5ee4b155bdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72717009"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862893"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>ส่งออกรายงานจาก Power BI ไปยัง PowerPoint
 
@@ -31,7 +30,7 @@ ms.locfileid: "72717009"
 รับ**รายงาน Power BI**ของคุณ ที่ถูกส่งออกเป็น**PowerPoint**อย่างรวดเร็ว ทำตามขั้นตอนที่แสดงในส่วนถัดไป
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>ส่งออกรายงาน Power BI ของคุณไปยัง PowerPoint
-ในบริการ Power BI เลือกรายงานที่จะแสดงบนพื้นที่ คุณยังสามารถเลือกรายงานจาก**หน้าแรก** หน้าเพจ **แอป** หรือคอนเทนเนอร์อื่น ๆ จากบนแถบคำสั่งสำหรับสืบค้นเนื้อหาด้านซ้าย
+ในบริการ Power BI เลือกรายงานที่จะแสดงบนพื้นที่ คุณยังสามารถเลือกรายงานจาก**หน้าแรก** หน้าเพจ **แอป** หรือคอนเทนเนอร์อื่นจากบนบานหน้าต่างนำทางได้
 
 ขณะที่รายงานที่คุณต้องการส่งออกเป็น PowerPoint ปรากฏขึ้น ให้เลือก **ส่งออก** > **PowerPoint** จากแถบเมนู
 
@@ -60,7 +59,7 @@ ms.locfileid: "72717009"
 
 1. หน้าแรกของชุดสไลด์มีชื่อของรายงานของคุณ และลิงก์เพื่อให้คุณสามารถดูรายงาน  **Power BI** ที่ยึดตามชุดสไลด์
 2. คุณจะได้รับข้อมูลที่เป็นประโยชน์เกี่ยวกับรายงานนี้ด้วยเช่นกัน **รีเฟรชข้อมูลล่าสุด** ใช้เพื่อแสดงวันที่และเวลาสำหรับรายงานที่ส่งออก **ดาวน์โหลดที่** ใช้เพื่อแสดงวันที่และเวลาเมื่อส่งออกรายงาน Power BI เป็นไฟล์ PowerPoint
-3. แต่ละหน้ารายงานคือ สไลด์แยกต่างหาก ดังที่แสดงในบานหน้าต่างนำทางด้านซ้าย 
+3. แต่ละหน้ารายงานเป็นสไลด์แยกต่างหาก ดังที่แสดงในบานหน้าต่างนำทาง 
 4. รายงานที่คุณเผยแพร่แล้วจะแสดงในภาษาตามการตั้งค่า Power BI ของคุณ หรือจากการตั้งค่าตำแหน่งที่ตั้งของเบราว์เซอร์ของคุณ ดูหรือตั้งค่าภาษาของคุณโดยเลือกไอคอนรูปเฟือง ![ไอคอนรูปเฟือง](media/end-user-powerpoint/power-bi-settings-icon.png) > **การตั้งค่า** > **ทั่วไป** > **ภาษา** สำหรับข้อมูลของพื้นที่ ให้ดู[ภาษาที่รองรับและประเทศหรือภูมิภาคสำหรับ Power BI](../supported-languages-countries-regions.md)
 5. งานนำเสนอ PowerPoint มีภาพนิ่งรวมทั้งปกกับเวลาส่งออกในโซนเวลาถูกต้อง
 

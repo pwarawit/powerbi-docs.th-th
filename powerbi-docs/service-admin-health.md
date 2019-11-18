@@ -2,7 +2,6 @@
 title: ติดตามสถานภาพบริการ Power BI ใน Office 365
 description: เรียนรู้วิธีการดูสถานภาพบริการปัจจุบันและในอดีตในศูนย์การจัดการ Microsoft 365
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 579950320c3193e9cc1921a06d5b121ff0b58ae0
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 0e944dfa34bec1e1c1816cf80d7dc2df7252b65a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075356"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857680"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>ติดตามสถานภาพบริการ Power BI ใน Office 365
 
@@ -29,7 +28,7 @@ ms.locfileid: "71075356"
 
 1. ลงชื่อเข้าใช้ [ศูนย์การจัดการ Microsoft 365](https://portal.office.com/adminportal)
 
-1. จากแถบนำทางด้านซ้ายเลือก**แสดง** > **บริการสุขภาพ** > **ทั้งหมด** หน้าบริการสุขภาพจะปรากฏ:
+1. จากบานหน้าต่างนำทาง ให้เลือก**แสดง** > **บริการสุขภาพ** > **ทั้งหมด** หน้าบริการสุขภาพจะปรากฏ:
 
     ![สกรีนช็อตของศูนย์การเรียกตัวจัดการ Microsoft 365 ด้วยตัวเลือกสุขภาพและความสมบูรณ์ของบริการออกมา](media/service-admin-health/service-health-tile.png)
 

@@ -2,7 +2,6 @@
 title: เชื่อมต่อกับ Salesforce ด้วย Power BI
 description: Salesforce สำหรับ Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b351ba2151937b62002dc0cfca849cff58985581
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 6fedd3994a9e6a14ea89637a0c12aa8dd47928a9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060812"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854624"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>เชื่อมต่อกับ Salesforce ด้วย Power BI
 ด้วย Power BI คุณสามารถเชื่อมต่อกับบัญชี Salesforce.com ของคุณได้อย่างง่ายดาย ด้วยการเชื่อมต่อนี้ คุณสามารถค้นคืนข้อมูล Salesforce ของคุณ และมีแดชบอร์ดและรายงานโดยอัตโนมัติที่ให้มา
@@ -23,7 +22,7 @@ ms.locfileid: "73060812"
 อ่านเพิ่มเติมเกี่ยวกับ[การรวม Salesforce ](https://powerbi.microsoft.com/integrations/salesforce)ด้วย Power BI
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
-1. ใน Power BI เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ
+1. ใน Power BI ให้เลือก**รับข้อมูล**ที่ด้านล่างของบานหน้าต่างนำทาง
    
    ![](media/service-connect-to-salesforce/pbi_getdata.png) 
 2. ในกล่อง**บริการ** เลือก**รับ**
@@ -53,7 +52,7 @@ ms.locfileid: "73060812"
      
      ถ้าคุณไม่เห็นรายงานใดๆ ให้เพิ่มหรือสร้าบัญชี Salesforce ของคุณ แล้วลองเชื่อมต่ออีกครั้ง
 
-7. คลิก **เชื่อมต่อ** เพื่อเริ่มกระบวนการนำเข้า ในระหว่างการนำเข้า คุณเห็นการแจ้งเตือนที่แสดงว่าการนำเข้ากำลังดำเนินการอยู่ เมื่อการนำเข้าเสร็จสมบูรณ์ คุณเห็นแดชบอร์ด รายงาน และชุดข้อมูลสำหรับข้อมูล Salesforce ของที่คุณแสดงอยู่ในพื้นที่นำทางด้านซ้ายมือ
+7. คลิก **เชื่อมต่อ** เพื่อเริ่มกระบวนการนำเข้า ในระหว่างการนำเข้า คุณเห็นการแจ้งเตือนที่แสดงว่าการนำเข้ากำลังดำเนินการอยู่ เมื่อนำเข้าเสร็จสมบูรณ์ คุณจะเห็นแดชบอร์ด รายงาน และชุดข้อมูลสำหรับข้อมูล Salesforce ของคุณที่แสดงอยู่ในบานหน้าต่างนำทาง
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 

@@ -2,19 +2,18 @@
 title: 'บทช่วยสอน: ถามคำถามกับ Q&A นักวิเคราะห์เสมือนในแอป iOS'
 description: ในบทช่วยสอนนี้ ถามคำถามเกี่ยวกับข้อมูลตัวอย่างในคำพูดของคุณเอง กับนักวิเคราะห์เสมือนของถามตอบ ในแอปมือถือ Power BI บนอุปกรณ์ iOS ของคุณ
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c7fd216d50f918d96392532ccb82f80d619ce8a3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61337778"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869653"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>บทช่วยสอน: ถามเกี่ยวกับข้อมูลของคุณกับ Q&A นักวิเคราะห์เสมือนในแอป Power BI iOS
 
@@ -42,7 +41,7 @@ ms.locfileid: "61337778"
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
 ### <a name="install-the-power-bi-for-ios-app"></a>ติดตั้งแอป Power BI สำหรับ iOS
-[ดาวน์โหลดแอป iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "ดาวน์โหลดแอป iPhone") จาก Apple App Store ไปยัง iPad, iPhone หรือ iPod Touch ของคุณ
+[ดาวน์โหลดแอป iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "ดาวน์โหลดแอป iPhone") จากร้าน Apple App Store ไปยัง iPad, iPhone หรือ iPod Touch ของคุณ
 
 เวอร์ชันเหล่านี้สนับสนุนแอป Power BI สำหรับ iOS:
 - iPad ที่มี iOS 10 หรือใหม่กว่า
@@ -54,11 +53,11 @@ ms.locfileid: "61337778"
 
 1. เปิดบริการของ Power BI ในเบราว์เซอร์ของคุณ (app.powerbi.com) และลงชื่อเข้าใช้
 
-1. เลือกที่ไอคอนนำทางส่วนกลาง เพื่อเปิดการนำทางด้านซ้าย
+1. เลือกที่ไอคอนนำทางส่วนกลาง เพื่อเปิดบานหน้าต่างนำทาง
 
     ![ไอคอนนำทางส่วนกลาง](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
 
-2. ในบานหน้าต่างนำทางด้านซ้าย เลือก **พื้นที่ทำงาน** > **พื้นที่ทำงานของฉัน**
+2. ในบานหน้าต่างนำทาง ให้เลือก **พื้นที่ทำงาน** > **พื้นที่ทำงานของฉัน**
 
     ![พื้นที่ทำงานของฉัน](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
 
@@ -72,7 +71,7 @@ ms.locfileid: "61337778"
 
 4. เลือก **ตัวอย่างการวิเคราะห์โอกาสทางการขาย**
  
-    ![ตัวอย่างการวิเคราะห์โอกาสทางการขาย](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
+    ![ตัวอย่างการวิเคราะห์โอกาส](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
  
 8. เลือก **เชื่อมต่อ**  
   
@@ -115,9 +114,9 @@ ms.locfileid: "61337778"
 
 เมื่อคุณจบบทช่วยสอนนี้แล้ว คุณสามารถลบแดชบอร์ด, รายงาน และชุดข้อมูลของตัวอย่างการวิเคราะห์โอกาสทางการขายได้
 
-1. เปิดบริการของ Power BI (app.powerbi.com) และลงชื่อเข้าใช้
+1. เปิดบริการ Power BI (app.powerbi.com) และลงชื่อเข้าใช้
 
-2. ในบานหน้าต่างนำทางด้านซ้าย เลือก **พื้นที่ทำงาน** > **พื้นที่ทำงานของฉัน**
+2. ในบานหน้าต่างนำทาง ให้เลือก **พื้นที่ทำงาน** > **พื้นที่ทำงานของฉัน**
 
 3. บนแท็บ**แดชบอร์ด** เลือกที่ไอคอนถังขยะ **ลบ** ถัดจากแดชบอร์ดการวิเคราะห์โอกาสทางการขาย
 

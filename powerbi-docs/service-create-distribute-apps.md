@@ -2,19 +2,18 @@
 title: เผยแพร่แอปใน Power BI
 description: เรียนรู้วิธีการเผยแพร่แอปใหม่ ซึ่งเป็นคอลเลกชันของแดชบอร์ดและรายงานที่มีการนำทางอยู่ภายในตัว
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020226"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853643"
 ---
 # <a name="publish-an-app-in-power-bi"></a>เผยแพร่แอปใน Power BI
 
@@ -115,7 +114,7 @@ ms.locfileid: "72020226"
 * การเปลี่ยนชื่อรายการใน**รายละเอียดรายงาน** **รายละเอียดแดชบอร์ด** และ**รายละเอียดสมุดงาน**
 * การซ่อนรายการบางอย่างจากการนำทาง
 * การใช้ตัวเลือก**ใหม่**เพื่อเพิ่ม**หัวข้อ**ในกลุ่มเนื้อหาที่เกี่ยวข้อง
-* การใช้ตัวเลือก**ใหม่**เพื่อเพิ่ม**ลิงก์**ไปยังทรัพยากรภายนอกเพื่อนำทางด้านซ้าย 
+* การใช้ตัวเลือก**ใหม่**เพื่อเพิ่ม**ลิงก์**ไปยังทรัพยากรภายนอกสำหรับบานหน้าต่างนำทาง 
 
 เมื่อคุณเพิ่ม**ลิงก์** ใน**รายละเอียดลิงก์**คุณสามารถเลือกที่จะเปิดลิงก์ ตามค่าเริ่มต้น ลิงก์จะเปิดใน**แท็บปัจจุบัน**แต่คุณสามารถเลือก**แท็บใหม่**หรือ**พื้นที่เนื้อหา** 
 
@@ -187,7 +186,7 @@ ms.locfileid: "72020226"
 
 ## <a name="view-your-published-app"></a>ดูแอปที่เผยแพร่
 
-เมื่อผู้ใช้แอปเปิดแอปของคุณ พวกเขาเห็นการนำทางที่คุณสร้างขึ้น แทนบานหน้าต่างนำทางด้านซ้ายของ Power BI มาตรฐาน การนำทางของแอปจะแสดงรายการรายงานและแดชบอร์ดในส่วนที่คุณกำหนดไว้ นอกจากนี้ยังแสดงรายการแต่ละหน้าในแต่ละรายงานแทนที่ชื่อรายงาน
+เมื่อผู้ใช้แอปเปิดแอปของคุณ พวกเขาเห็นการนำทางที่คุณสร้างขึ้น แทนบานหน้าต่างนำทางของ Power BI มาตรฐาน การนำทางของแอปจะแสดงรายการรายงานและแดชบอร์ดในส่วนที่คุณกำหนดไว้ นอกจากนี้ยังแสดงรายการแต่ละหน้าในแต่ละรายงานแทนที่ชื่อรายงาน
 
 ![แอปที่มีการนำทาง](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
@@ -203,4 +202,4 @@ ms.locfileid: "72020226"
 * [ติดตั้งและใช้แอปฯใน Power BI](consumer/end-user-apps.md)
 * [แอปฯ Power BI สำหรับบริการภายนอก](service-connect-to-services.md)
 * [พอร์ทัลผู้ดูแล Power BI](https://docs.microsoft.com/power-bi/service-admin-portal)
-* มีคำถามหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

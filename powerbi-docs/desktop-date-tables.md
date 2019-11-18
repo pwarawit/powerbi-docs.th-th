@@ -2,7 +2,6 @@
 title: ตั้งค่า และใช้งานตารางวันที่ใน Power BI Desktop
 description: เรียนรู้วิธีการตั้งค่าตารางเป็นตารางวันที่ และความหมายของมันใน Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,16 +9,18 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9bbe302c7187419abae556bb34f991efa1fdae00
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b2a7f4434ac82a125352eaefdd2417d9039b710f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454380"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868625"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>ตั้งค่า และใช้งานตารางวันที่ใน Power BI Desktop
 
 **Power BI Desktop** กำหนดคอลัมน์ที่แสดงวันที่อยู่เบื้องหลัง แล้วสร้างลำดับชั้นของวันที่ และเปิดให้ใช้เมตาดาต้าสำหรับรูปแบบข้อมูลของคุณ โดยอัตโนมัติ คุณสามารถใช้ลำดับชั้นที่มีอยู่แล้วเหล่านี้ตอนสร้างรายงาน เช่นวิชวล ตาราง การวัดผลด่วน ตัวแบ่งส่วนข้อมูล และอื่น ๆ Power BI Desktop ทำงานโดยการสร้างตารางที่ซ่อนอยู่ภายในให้กับคุณ ที่คุณสามารถนำไปใช้ต่อในรายงานและนิพจน์ DAX ของคุณ
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลักษณะการทำงานอัตโนมัตินี้ ให้อ่านบทความ [วันที่/เวลาอัตโนมัติใน Power BI Desktop](desktop-auto-date-time.md)
 
 นักวิเคราะห์ข้อมูลหลายคนต้องการสร้างตารางวันที่ของพวกเขาเองมากกว่า ซึ่งก็สามารถทำได้ ใน **Power BI Desktop** คุณสามารถระบุตารางที่คุณต้องการใช้เป็น**ตารางวันที่** และสร้างวิชวล ตาราง การวัดผลด่วน ฯลฯ ที่เกี่ยวกับวันที่ โดยใช้ข้อมูลของตารางดังกล่าว เมื่อคุณระบุตารางวันที่ของคุณเอง คุณควบคุมลำดับชั้นของวันที่ ที่สร้างขึ้นในรูปแบบของคุณ และใช้งานใน**การวัดผลด่วน**และการดำเนินการอื่น ๆ ที่ใช้ตารางวันที่ของรูปแบบคุณ 
 
@@ -73,8 +74,7 @@ ms.locfileid: "65454380"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-คุณอาจสนใจบทความต่อไปนี้
+คุณอาจสนใจบทความต่อไปนี้:
 
+* [วันที่/เวลาอัตโนมัติใน Power BI Desktop](desktop-auto-date-time.md)
 * [ชนิดข้อมูลใน Power BI Desktop](desktop-data-types.md)
-
- 

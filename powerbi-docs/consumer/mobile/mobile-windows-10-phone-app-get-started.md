@@ -2,19 +2,18 @@
 title: เริ่มใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
 description: แอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10 ช่วยให้คุณเข้าถึงข้อมูลทางธุรกิจของตนเองแบบผ่านทางอุปกรณ์เคลื่อนที่ระบบสัมผัสที่ทันสมัยบนแท็บเล็ตหรือโทรศัพท์
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 3aff2b6a939a53a6246ed69ac5bd76dfe4f0dfe4
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: b2bfe6157653459c2d7b60b85c9f7e8a3e465e23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059698"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879071"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>เริ่มใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
 แอป Power BI สำหรับอุปกรณ์เคลื่อนที่บน Windows 10 นำ Power BI ไปยังแท็บเล็ตหรือโทรศัพท์ของคุณ คุณจะได้รับการเข้าถึงข้อมูลทางธุรกิจของคุณที่มีการปรับปรุงล่าสุดผ่านทางอุปกรณ์เคลื่อนที่ที่เปิดใช้งานระบบสัมผัส ดูและโต้ตอบกับแดชบอร์ดบริษัทของคุณจากที่ใดก็ได้บน [หน้าจอเริ่มต้นของ Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)
@@ -26,16 +25,16 @@ ms.locfileid: "73059698"
 จากนั้น โต้ตอบกับแดชบอร์ดและรายงานของคุณ สำรวจข้อมูล บันทึก แล้วแชร์ ทั้งหมดจากแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
 
 ## <a name="first-things-first"></a>สิ่งแรกที่ต้องทำ
-* [**ดาวน์โหลดแอป Power BI บนอุปกรณ์เคลื่อนที่สำหรับ Windows 10**](http://go.microsoft.com/fwlink/?LinkID=526478) จาก Windows Store
+* [**ดาวน์โหลดแอป Power BI บนอุปกรณ์เคลื่อนที่สำหรับ Windows 10**](https://go.microsoft.com/fwlink/?LinkID=526478) จาก Windows Store
   
   อุปกรณ์ของคุณต้องทำงานบน Windows 10 แอปสามารถใช้งานได้บนอุปกรณ์ที่มี RAM อย่างน้อย 3 GB และพื้นที่เก็บข้อมูลภายใน 8 GB
    
 * ดูว่า[มีอะไรใหม่ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่](mobile-whats-new-in-the-mobile-apps.md)
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>ลงทะเบียนสำหรับบริการของ Power BI บนเว็บ
-ถ้าคุณยังไม่ได้ลงทะเบียน ให้ไปยัง[บริการของ Power BI](http://powerbi.com/) ลงทะเบียนสำหรับบัญชีของคุณเองเพื่อสร้างและจัดเก็บแดชบอร์ดและรายงานและนำข้อมูลของคุณมารวมเข้าด้วยกัน จากนั้น ลงชื่อเข้าใช้ Power BI จากอุปกรณ์ Windows 10 ของคุณเพื่อดูแดชบอร์ดของคุณเองจากที่ไหนก็ได้
+ถ้าคุณยังไม่ได้ลงทะเบียน ให้ไปยัง[บริการของ Power BI](https://powerbi.com/) ลงทะเบียนสำหรับบัญชีของคุณเองเพื่อสร้างและจัดเก็บแดชบอร์ดและรายงานและนำข้อมูลของคุณมารวมเข้าด้วยกัน จากนั้น ลงชื่อเข้าใช้ Power BI จากอุปกรณ์ Windows 10 ของคุณเพื่อดูแดชบอร์ดของคุณเองจากที่ไหนก็ได้
 
-1. ในบริการของ Power BI แตะ [ลงทะเบียน](http://go.microsoft.com/fwlink/?LinkID=513879) เพื่อสร้างบัญชี Power BI
+1. ในบริการของ Power BI แตะ [ลงทะเบียน](https://go.microsoft.com/fwlink/?LinkID=513879) เพื่อสร้างบัญชี Power BI
 2. เริ่มต้น[สร้างแดชบอร์ดและรายงานของคุณเอง](../../service-get-started.md)
 
 ## <a name="get-started-with-the-power-bi-app"></a>เริ่มต้นใช้งานแอป Power BI
@@ -89,7 +88,7 @@ ms.locfileid: "73059698"
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>ค้นหาเนื้อหาของคุณในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 แดชบอร์ดและรายงานของคุณได้รับการจัดเก็บไว้คนละแห่งในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ ขึ้นอยู่กับว่ามาจากที่ใด อ่านเกี่ยวกับ[การค้นหาเนื้อหาของคุณในแอปสำหรับอุปกรณ์เคลื่อนที่](mobile-apps-quickstart-view-dashboard-report.md) นอกจากนี้ คุณสามารถค้นหาสิ่งต่างๆ ที่คุณมีในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ 
 
-![การนำทางด้านซ้ายของ Power BI](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
+![บานหน้าต่างนำทางของ Power BI](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>ดูแดชบอร์ด KPI และรายงานโปรดของคุณ
 ดูแดชบอร์ด Power BI โปรดทั้งหมดของคุณ ร่วมกับ KPI และรายงานอุปกรณ์มือถือของ Reporting Services ในหน้ารายการโปรดในแอปสำหรับอุปกรณ์เคลื่อนที่ เมื่อคุณทำให้แดชบอร์ดเป็น*รายการโปรด*ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ คุณสามารถเข้าถึงแดชบอร์ดดังกล่าวได้จากทุกอุปกรณ์ของคุณ รวมถึงบริการของ Power BI ในเบราว์เซอร์ของคุณได้ 
@@ -120,7 +119,7 @@ ms.locfileid: "73059698"
 * [สร้างรายงานอุปกรณ์มือถือของคุณเองด้วย SQL Server Mobile Report Publisher](https://msdn.microsoft.com/library/mt652547.aspx) และเผยแพร่ไปยังพอร์ทัลเว็บ Reporting Services
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [ดาวน์โหลดแอป Power BI](http://go.microsoft.com/fwlink/?LinkID=526478) จาก Windows Store  
+* [ดาวน์โหลดแอป Power BI](https://go.microsoft.com/fwlink/?LinkID=526478) จาก Windows Store  
 * [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: ปักหมุดไทล์ไปยังแดชบอร์ด Power BI จากรายงาน
 description: ปักหมุดไทล์ไปยังแดชบอร์ด Power BI จากรายงาน
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b27cf80985dc1789fff5797430e4592fe361b533
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 24d706108bab274ef6aae8733f1fc11d212f13eb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624098"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852631"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>ปักหมุดไทล์ไปยังแดชบอร์ด Power BI จากรายงาน
 
@@ -52,7 +51,7 @@ ms.locfileid: "68624098"
    ข้อความว่าสำเร็จแล้ว (ใกล้กับมุมบนขวา) ช่วยให้คุณทราบว่าได้เพิ่มการแสดงข้อมูลด้วยภาพเป็นไทล์ลงในแดชบอร์ดของคุณแล้ว
    
    ![ข้อความแสดงความสำเร็จ](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
-5. จากบานหน้าต่างนำทาง เลือกแดชบอร์ดที่ มีไทล์ใหม่ [แก้ไขการแสดงไทล์และลักษณะการทำงาน](service-dashboard-edit-tile.md)หรือเลือกไทล์เพื่อกลับไปยังรายงาน
+5. จากบานหน้าต่างนำทาง ให้เลือกแดชบอร์ดที่มีไทล์ใหม่ [แก้ไขการแสดงไทล์และลักษณะการทำงาน](service-dashboard-edit-tile.md)หรือเลือกไทล์เพื่อกลับไปยังรายงาน
 
 ## <a name="pin-an-entire-report-page"></a>ปักหมุดทั้งหน้ารายงาน
 อีกหนึ่งตัวเลือกก็คือ การปักหมุดหน้ารายงานทั้งหมดไปยังแดชบอร์ด ซึ่งเป็นวิธีง่าย ๆ ในการปักหมุดการแสดงข้อมูลด้วยภาพมากกว่าหนึ่งรายการในแต่ละครั้ง เมื่อคุณปักหมุดหน้ารายงานทั้งหน้า ไทล์จะเป็นแบบ*สด* นั่นก็คือ คุณสามารถโต้ตอบกับไทล์บนแดชบอร์ดได้ การเปลี่ยนแปลงที่คุณทำกับการแสดงข้อมูลลด้วยภาพในตัวแก้ไขรายงาน เช่นการเพิ่มตัวกรองหรือการเปลี่ยนแปลงเขตข้อมูลที่ใช้ในแผนภูมิ จะปรากฏในไทล์แดชบอร์ดด้วยเช่นกัน  
@@ -66,5 +65,5 @@ ms.locfileid: "68624098"
 - [การรีเฟรชข้อมูลใน Power BI](refresh-data.md)
 - [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

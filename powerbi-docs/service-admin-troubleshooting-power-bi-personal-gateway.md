@@ -2,7 +2,6 @@
 title: แก้ไขปัญหาเกตเวย์ Power BI (โหมดส่วนตัว)
 description: แก้ไขปัญหาเกตเวย์ Power BI (โหมดส่วนตัว)
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8916d92eef86be601ceb21112209ab7daa736c11
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 32413c8ae860f5c9e376f8be46290047f67231fc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543541"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873371"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>แก้ไขปัญหาเกตเวย์ Power BI (โหมดส่วนตัว)
 
@@ -111,7 +110,7 @@ ms.locfileid: "72543541"
 ### <a name="refresh-history"></a>รีเฟรชประวัติ
 **ประวัติการรีเฟรช**จะช่วยให้คุณเห็นข้อผิดพลาดที่เกิดขึ้น และพบข้อมูลที่เป็นประโยชน์ถ้าคุณต้องการสร้างคำขอการสนับสนุน คุณสามารถดูการรีเฟรชได้ทั้งตามกำหนดการ และตามต้องการ ต่อไปนี้เป็นวิธีนำพาคุณไปยัง **ประวัติการรีเฟรช**
 
-1. ในบานหน้าต่างการนำทางของ Power BI ใน**ชุดข้อมูล** เลือกชุดข้อมูล เปิดเมนู และเลือก **การรีเฟรชตามกำหนดการ**
+1. ในบานหน้าต่างการนำทางของ Power BI ใน**ชุดข้อมูล** ให้เลือกชุดข้อมูล เปิดเมนู และเลือก **การรีเฟรชตามกำหนดการ**
 
    ![เลือก การรีเฟรชตามกำหนดการ](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)
 1. ใน**การตั้งค่าสำหรับ ...**  ให้เลือก **ประวัติการรีเฟรช** 
@@ -128,7 +127,7 @@ ms.locfileid: "72543541"
 ![การจัดการเกตเวย์ข้อมูลและบันทึก PowerBIGateway](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>ติดตาม Fiddler
-[Fiddler](http://www.telerik.com/fiddler) เป็นเครื่องมือฟรีจาก Telerik ที่ใช้ตรวจดูการรับส่งข้อมูลใน HTTP คุณสามารถดูการสื่อสารได้ด้วยบริการของ Power BI จากเครื่องไคลเอ็นต์ การสื่อสารนี้อาจจะแสดงข้อผิดพลาดและข้อมูลอื่นที่เกี่ยวข้อง
+[Fiddler](https://www.telerik.com/fiddler) เป็นเครื่องมือฟรีจาก Telerik ที่ใช้ตรวจดูการรับส่งข้อมูลใน HTTP คุณสามารถดูการสื่อสารได้ด้วยบริการของ Power BI จากเครื่องไคลเอ็นต์ การสื่อสารนี้อาจจะแสดงข้อผิดพลาดและข้อมูลอื่นที่เกี่ยวข้อง
 
 ![ติดตาม Fiddler](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
@@ -154,5 +153,5 @@ ms.locfileid: "72543541"
 - [แก้ไขปัญหาข้อผิดพลาดไทล์](refresh-troubleshooting-tile-errors.md)  
 - [การแก้ไขปัญหาเกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem-tshoot.md) 
  
-มีคำถามเพิ่มเติมหรือไม่? ลองถาม[ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? ลองถาม[ชุมชน Power BI](https://community.powerbi.com/)
 

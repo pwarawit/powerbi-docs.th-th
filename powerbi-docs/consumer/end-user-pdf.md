@@ -2,7 +2,6 @@
 title: ส่งออกรายงานเป็น PDF
 description: เรียนรู้วิธีการส่งออกรายงาน Power BI เป็น PDF
 author: mihart
-manager: kvivek
 ms.custom: ''
 ms.reviewer: cmfinlan
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1d6ddcd11118e0eb9894002c5c97edda134d4635
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 376ecd007e774a153b47df75417621d4233cc4ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716992"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862867"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>ส่งออกรายงานจาก Power BI เป็น PDF
 
@@ -25,7 +24,7 @@ ms.locfileid: "72716992"
 ขณะใช้ Power BI คุณสามารถเผยแพร่รายงานของคุณเป็นเอกสาร PDF และจัดทำเอกสารได้ง่าย ๆ ตามรายงาน Power BI ของคุณ เมื่อคุณส่งออกเป็น PDF แต่ละหน้าในรายงาน Power BI จะกลายเป็นหน้าใดหน้าหนึ่งในเอกสาร PDF ของคุณ
 
 ## <a name="export-your-power-bi-report-to-pdf"></a>ส่งออกรายงาน Power BI ของคุณเป็น PDF
-ในบริการ Power BI เลือกรายงานที่จะแสดงบนพื้นที่ คุณยังสามารถเลือกรายงานจาก**หน้าแรก** หน้าเพจ **แอป** หรือคอนเทนเนอร์อื่น ๆ จากบนแถบคำสั่งสำหรับสืบค้นเนื้อหาด้านซ้าย
+ในบริการ Power BI เลือกรายงานที่จะแสดงบนพื้นที่ คุณยังสามารถเลือกรายงานจาก**หน้าแรก** หน้าเพจ **แอป** หรือคอนเทนเนอร์อื่นจากบนบานหน้าต่างนำทางได้
 
 1. เลือก**ส่งออก** > **PDFจาก**แถบเมนู
 

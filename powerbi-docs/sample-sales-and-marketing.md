@@ -2,7 +2,6 @@
 title: 'ตัวอย่างการขายและการตลาดสำหรับ Power BI: ชมการแนะนำ'
 description: 'ตัวอย่างการขายและการตลาดสำหรับ Power BI: ชมการแนะนำ'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 31f42d7f53b3322717677d586266668fb2c0f26b
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 8085a6c8f5d0e7a2797ef6c5961b6083eb98f346
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391358"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873811"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการขายและการตลาดสำหรับ Power BI: ชมการแนะนำ
 
@@ -56,11 +55,11 @@ VanArsdel มีคู่แข่งหลายราย แต่ก็เป
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>รับไฟล์ .pbix สำหรับตัวอย่างนี้
 
-อีกทางเลือกหนึ่งคือ คุณสามารถดาวน์โหลดตัวอย่างการขายและการตลาดเป็น [ไฟล์ .pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) ซึ่งถูกออกแบบมาสำหรับใช้กับ Power BI Desktop
+อีกทางเลือกหนึ่งคือ คุณสามารถดาวน์โหลดตัวอย่างการขายและการตลาดเป็น [ไฟล์ .pbix](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) ซึ่งถูกออกแบบมาสำหรับใช้กับ Power BI Desktop
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>รับเวิร์กบุ๊ก Excel สำหรับตัวอย่างนี้
 
-ถ้าคุณต้องการดูแหล่งข้อมูลสำหรับตัวอย่างนี้ ตัวอย่างนี้ยังมีให้ในรูปแบบ[เวิร์กบุ๊ก Excel](http://go.microsoft.com/fwlink/?LinkId=529785) เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน หากต้องการดูข้อมูลดิบ ให้เปิดใช้งาน add-in การวิเคราะห์ข้อมูล แล้วจากนั้นเลือก**Power Pivot > จัดการ** หากต้องการเปิดใช้งาน Power View และ Power Pivot add-in โปรดดทีู่[ดูตัวอย่าง Excel จากใน Excel เอง](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)สำหรับรายละเอียด
+ถ้าคุณต้องการดูแหล่งข้อมูลสำหรับตัวอย่างนี้ ตัวอย่างนี้ยังมีให้ในรูปแบบ[เวิร์กบุ๊ก Excel](https://go.microsoft.com/fwlink/?LinkId=529785) เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน หากต้องการดูข้อมูลดิบ ให้เปิดใช้งาน add-in การวิเคราะห์ข้อมูล แล้วจากนั้นเลือก**Power Pivot > จัดการ** หากต้องการเปิดใช้งาน Power View และ Power Pivot add-in โปรดดทีู่[ดูตัวอย่าง Excel จากใน Excel เอง](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)สำหรับรายละเอียด
 
 ## <a name="what-is-our-dashboard-telling-us"></a>แดชบอร์ดกำลังบอกอะไรแก่เรา
 มาเริ่มต้นการสำรวจของเราที่แดชบอร์ด และดูไทล์ที่ CMO เลือกมาปักหมุด เราเห็นข้อมูลเกี่ยวกับส่วนแบ่งทางการตลาด ยอดขาย และความคิดเห็นต่อผลิตภัณฑ์ และเราเห็นข้อมูลที่แบ่งย่อยตามภูมิภาค เวลา และการแข่งขัน
@@ -82,7 +81,7 @@ VanArsdel มีคู่แข่งหลายราย แต่ก็เป
 
    ![คำถาม Q&A: ผลรวมหน่วยตามส่วนสำหรับ VanArsdel](media/sample-sales-and-marketing/sales2.png)
 3. ส่วนแบ่งของเราในหมวดหมู่ **การดูแล** และ **ความสะดวก** สูง ส่วนเหล่านี้เป็นหนึ่งในสิ่งที่เราแข่งขัน
-4. กลับไปยังแดชบอร์ดโดยการเลือก **ตัวอย่างการขายและการตลาด** ในแถบนำทางด้านบน
+4. กลับไปยังแดชบอร์ดโดยการเลือก **ตัวอย่างการขายและการตลาด** ในบานหน้าต่างนำทางด้านบน
 
 ### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>ส่วนแบ่งทางการตลาดของจำนวนหน่วยรวมเป็นอย่างไร ในแต่ละประเภท (เทียบกับภูมิภาค)
 1. สังเกตไทล์ **ผลรวมหน่วย YTD ตามผู้ผลิต ภูมิภาค** ผลรวมหน่วยส่วนแบ่งตลาดตามประเภท่คืออะไร

@@ -3,18 +3,17 @@ title: ติดตั้งเซิร์ฟเวอร์รายงาน 
 description: เรียนรู้วิธีการติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839431"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874133"
 ---
 # <a name="install-power-bi-report-server"></a>ติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 
@@ -46,11 +45,11 @@ ms.locfileid: "66839431"
 
 ถ้าคุณซื้อ Power BI Premium ภายในแท็บ**การตั้งค่า Premium**  ของพอร์ทัลผู้ดูแลระบบ Power BI คุณสามารถเข้าถึงคีย์ผลิตภัณฑ์ของเซิร์ฟเวอร์รายงาน Power BI ซึ่งใช้ได้เฉพาะผู้ดูแลระบบส่วนกลาง หรือผู้ใช้ที่ได้รับการกำหนดบทบาทเป็นผู้ดูแลระบบบริการของ Power BI เท่านั้น
 
-![การตั้งค่า Premium](../report-server/media/install-report-server/pbirs-product-key.png "คีย์เซิร์ฟเวอร์รายงาน Power BI ในการตั้งค่า Premium")
+![การตั้งค่า Premium](../report-server/media/install-report-server/pbirs-product-key.png "คีย์เซิร์ฟเวอร์รายงาน Power BI ภายในการตั้งค่าขั้นสูง")
 
 การเลือก**คีย์เซิร์ฟเวอร์รายงาน Power BI** จะแสดงกล่องโต้ตอบที่มีคีย์ผลิตภัณฑ์ของคุณ คุณสามารถคัดลอกและใช้กับการติดตั้ง
 
-![คีย์ผลิตภัณฑ์](../report-server/media/install-report-server/pbirs-product-key-dialog.png "คีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI ")
+![คีย์ผลิตภัณฑ์](../report-server/media/install-report-server/pbirs-product-key-dialog.png "คีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>SQL Server Enterprise Software Assurance (SA)
 
@@ -127,14 +126,14 @@ ms.locfileid: "66839431"
 | ส่วน | คำอธิบาย |
 | --- | --- |
 | คำนำหน้า |คำนำหน้าเริ่มต้นคือ HTTP ถ้าคุณติดตั้งใบรับรอง Secure Sockets Layer (SSL) ไว้แล้วก่อนหน้านี้ “การตั้งค่า” จะพยายามสร้างการจอง URL ที่ใช้คำนำหน้าเป็น HTTPS |
-| ชื่อโฮสต์ |ชื่อโฮสต์เริ่มต้นคือ สัญลักษณ์ที่คาดเดายาก (+) ซึ่งระบุว่าเซิร์ฟเวอร์รายงานยอมรับคำขอ HTTP ใด ๆ บนพอร์ตที่กำหนดไว้สำหรับชื่อโฮสต์ที่แก้ไขไปยังคอมพิวเตอร์ รวมถึง`http://<computername>/reportserver`,`http://localhost/reportserver`หรือ `http://<IPAddress>/reportserver.` |
+| ชื่อโฮสต์ |ชื่อโฮสต์เริ่มต้นคือ สัญลักษณ์ที่คาดเดายาก (+) ซึ่งระบุว่าเซิร์ฟเวอร์รายงานยอมรับคำขอ HTTP ใด ๆ บนพอร์ตที่กำหนดไว้สำหรับชื่อโฮสต์ที่แก้ไขไปยังคอมพิวเตอร์ รวมถึง`https://<computername>/reportserver`,`https://localhost/reportserver`หรือ `https://<IPAddress>/reportserver.` |
 | พอร์ต |พอร์ตเริ่มต้นคือ 80 ถ้าคุณใช้พอร์ตใด ๆ นอกเหนือจากพอร์ต 80 คุณต้องเพิ่มพอร์ตนั้นลงใน URL อย่างชัดเจนเมื่อคุณเปิดเว็บพอร์ทัลในหน้าต่างเบราเซอร์ |
 | ไดเรกทอรีเสมือน |ตามค่าเริ่มต้น ไดเรกทอรีเสมือนได้รับการสร้างขึ้นในรูปแบบของ ReportServer สำหรับ Web Service เซิร์ฟเวอร์รายงาน และรายงานสำหรับพอร์ทัลเว็บ ไดเรกทอรีเสมือนเริ่มต้นคือ**reportserver**สำหรับ Web Service เซิร์ฟเวอร์รายงาน ไดเรกทอรีเสมือนเริ่มต้นคือ**รายงาน**สำหรับพอร์ทัลเว็บ |
 
 ตัวอย่างของสตริงที่ URL สมบูรณ์อาจเป็นดังนี้:
 
-* `http://+:80/reportserver`มอบการเข้าถึงไปยังเซิร์ฟเวอร์รายงาน
-* `http://+:80/reports`มอบการเข้าถึงพอร์ทัลเว็บ
+* `https://+:80/reportserver`มอบการเข้าถึงไปยังเซิร์ฟเวอร์รายงาน
+* `https://+:80/reports`มอบการเข้าถึงพอร์ทัลเว็บ
 
 ## <a name="firewall"></a>ไฟร์วอลล์
 

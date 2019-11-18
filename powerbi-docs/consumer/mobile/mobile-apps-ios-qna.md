@@ -2,19 +2,18 @@
 title: นักวิเคราะห์เสมือนของถามตอบ ในแอป iOS - Power BI
 description: ถามคำถามเกี่ยวกับข้อมูลตัวอย่างด้วยคำพูดของคุณเอง กับนักวิเคราะห์เสมือนของถามตอบ ในแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ในอุปกรณ์ iOS ของคุณ
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60977572"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879379"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>นักวิเคราะห์เสมือนของถามตอบ ในแอป iOS - Power BI
 
@@ -35,7 +34,7 @@ ms.locfileid: "60977572"
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
 ### <a name="install-the-power-bi-for-ios-app"></a>ติดตั้งแอป Power BI สำหรับ iOS
-[ดาวน์โหลดแอป iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "ดาวน์โหลดแอป iPhone") จาก Apple App Store ไปยัง iPad, iPhone หรือ iPod Touch ของคุณ
+[ดาวน์โหลดแอป iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "ดาวน์โหลดแอป iPhone") จากร้าน Apple App Store ไปยัง iPad, iPhone หรือ iPod Touch ของคุณ
 
 เวอร์ชันเหล่านี้สนับสนุนแอป Power BI สำหรับ iOS:
 - iPad ที่มี iOS 10 หรือใหม่กว่า
@@ -49,9 +48,9 @@ ms.locfileid: "60977572"
 
 1. เปิดบริการ Power BI (app.powerbi.com) และลงชื่อเข้าใช้
 
-2. ในบานหน้าต่างนำทางด้านซ้าย เลือก**พื้นที่ทำงาน**, **พื้นที่ทำงานของฉัน**
+2. ในบานหน้าต่างนำทาง ให้เลือก **พื้นที่ทำงาน**, **พื้นที่ทำงานของฉัน**
 
-3. ในมุมล่างซ้าย เลือก**รับข้อมูล**
+3. ที่มุมล่างซ้าย เลือก**รับข้อมูล**
    
     ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
 

@@ -1,0 +1,53 @@
+### YamlMime:Landing
+title: เอกสารคำแนะนำของ Power BI
+summary: เอกสารคำแนะนำของ Power BI ให้ข้อมูลแนวทางปฏิบัติที่ดีที่สุดจากทีมที่สร้าง Power BI และผู้ใช้ที่ทำงานกับลูกค้าองค์กรของเรา ที่นี่คุณจะพบการเรียนรู้เพื่อปรับปรุงประสิทธิภาพการทำงานและประสบความสำเร็จกับ Power BI เราจะอัปเดตและข้อมูลใหม่ที่พร้อมใช้งานเข้าไปในเอกสารคำแนะนำนี้
+metadata:
+  title: เอกสารคำแนะนำของ Power BI
+  description: เอกสารคำแนะนำของ Power BI ให้ข้อมูลแนวทางปฏิบัติที่ดีที่สุดจากทีมที่สร้าง Power BI และผู้ใช้ที่ทำงานกับลูกค้าองค์กรของเรา ที่นี่คุณจะพบการเรียนรู้เพื่อปรับปรุงประสิทธิภาพการทำงานและประสบความสำเร็จกับ Power BI เราจะอัปเดตและข้อมูลใหม่ที่พร้อมใช้งานเข้าไปในเอกสารคำแนะนำนี้
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 11/14/2019
+  ms.openlocfilehash: de1ea8bbc35bc1d2ecc42a8deffc54fd9ac01bc1
+  ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 11/16/2019
+  ms.locfileid: "74133853"
+landingContent:
+- title: คำแนะนำ Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: คำแนะนำสำหรับ Power BI
+      url: overview.md
+    - text: ภาพรวมเอกสารทางเทคนิค
+      url: ../whitepapers.md
+- title: การสร้างแบบจำลองข้อมูล
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Schema ติดดาวคืออะไร
+      url: star-schema.md
+    - text: เทคนิคการลดข้อมูล
+      url: import-modeling-data-reduction.md
+    - text: ความสำคัญของการพับคิวรี
+      url: power-query-folding.md
+- title: DAX
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: ฟังก์ชันการแบ่งเทียบกับตัวดำเนินการหาร
+      url: dax-divide-function-operator.md
+    - text: การใช้ฟังก์ชันข้อผิดพลาดที่เหมาะสม
+      url: dax-error-functions.md
+- title: กระแสข้อมูล
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
+      url: ../service-dataflows-best-practices.md

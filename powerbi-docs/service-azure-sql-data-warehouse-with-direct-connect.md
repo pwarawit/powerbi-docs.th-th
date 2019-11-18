@@ -6,17 +6,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: aaeda4c2f7c50e41d9b149e33ba49f5eba76eba8
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 2e96b88963250d7ac11cf9690c63b431279d585a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060691"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873245"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse พร้อม DirectQuery
 
@@ -54,7 +53,7 @@ Azure SQL Data Warehouse พร้อม DirectQuery ช่วยให้คุ
 
 นอกจากนี้ SQL Data Warehouse ยังอยู่ในรายการบนหน้า Power BI Get Data ด้วย 
 
-1. เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ  
+1. เลือก**รับข้อมูล**ที่ด้านล่างของบานหน้าต่างนำทาง  
 
     ![ปุ่มรับข้อมูล](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
@@ -102,4 +101,4 @@ Azure SQL Data Warehouse พร้อม DirectQuery ช่วยให้คุ
 * [รับข้อมูลสำหรับ Power BI](service-get-data.md)  
 * [คลังข้อมูล Azure SQL](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

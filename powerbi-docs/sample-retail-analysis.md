@@ -2,7 +2,6 @@
 title: 'ตัวอย่างการวิเคราะห์ด้านการขายปลีก - Power BI: ชมการแนะนำ'
 description: 'ตัวอย่างการวิเคราะห์ด้านการขายปลีก - Power BI: ชมการแนะนำ'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962242"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858572"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการวิเคราะห์ด้านการขายปลีก - Power BI: ชมการแนะนำ
 
@@ -54,11 +53,11 @@ ms.locfileid: "68962242"
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>รับไฟล์ .pbix สำหรับตัวอย่างนี้
 
-อีกทางเลือกหนึ่งคือ คุณสามารถดาวน์โหลดตัวอย่างการวิเคราะห์การขายปลีกเป็น[ไฟล์ .pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) ซึ่งได้รับการออกแบบมาสำหรับใช้กับ Power BI Desktop 
+อีกทางเลือกหนึ่งคือ คุณสามารถดาวน์โหลดตัวอย่างการวิเคราะห์การขายปลีกเป็น[ไฟล์ .pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) ซึ่งได้รับการออกแบบมาสำหรับใช้กับ Power BI Desktop 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>รับเวิร์กบุ๊ก Excel สำหรับตัวอย่างนี้
 
-ถ้าคุณต้องการดูแหล่งข้อมูลสำหรับตัวอย่างนี้ ตัวอย่างนี้ยังมีให้ในรูปแบบ[เวิร์กบุ๊ก Excel](http://go.microsoft.com/fwlink/?LinkId=529778) เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน หากต้องการดูข้อมูลดิบ ให้เปิดใช้งาน add-in การวิเคราะห์ข้อมูล แล้วจากนั้นเลือก**Power Pivot > จัดการ** หากต้องการเปิดใช้งาน Power View และ Power Pivot add-in โปรดดทีู่[ดูตัวอย่าง Excel จากใน Excel เอง](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)สำหรับรายละเอียด
+ถ้าคุณต้องการดูแหล่งข้อมูลสำหรับตัวอย่างนี้ ตัวอย่างนี้ยังมีให้ในรูปแบบ[เวิร์กบุ๊ก Excel](https://go.microsoft.com/fwlink/?LinkId=529778) เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน หากต้องการดูข้อมูลดิบ ให้เปิดใช้งาน add-in การวิเคราะห์ข้อมูล แล้วจากนั้นเลือก**Power Pivot > จัดการ** หากต้องการเปิดใช้งาน Power View และ Power Pivot add-in โปรดดทีู่[ดูตัวอย่าง Excel จากใน Excel เอง](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)สำหรับรายละเอียด
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>เริ่มต้นที่แดชบอร์ดและเปิดรายงาน
 
@@ -78,7 +77,7 @@ ms.locfileid: "68962242"
 
    เขต **FD-01** มี **ยอดขายเฉลี่ยต่อตารางฟุตสูงสุด** ส่วน FD-02 มี **ค่าความแปรปรวนของยอดขายรวม**ต่ำสุด เมื่อเปรียบเทียบกับปีที่แล้ว FD-03 และ FD-04 มีผลประกอบการโดยรวมแย่ที่สุด
 4. เลือกแต่ละฟองหรือแผนภูมิอื่น ๆ เพื่อดูการไฮไลท์ข้าม ซึ่งเผยให้เห็นผลกระทบของการเลือกของคุณ
-5. เลือก**ตัวอย่างการวิเคราะห์การขายปลีก** จากแถบนำทางด้านบนเพื่อกลับไปยังแดชบอร์ด
+5. เลือก**ตัวอย่างการวิเคราะห์การขายปลีก** จากบานหน้าต่างนำทางด้านบนเพื่อกลับไปยังแดชบอร์ด
 
    ![แถบนำทาง](media/sample-retail-analysis/power-bi-breadcrumbs.png)
 6. บนแดชบอร์ด เลือกไทล์ **ร้านค้าที่มีอยู่และร้านค้าใหม่ของปีนี้** ซึ่งมีค่าเท่ากับการพิมพ์*ยอดขายของปีนี้*ในกล่องคำถามถามตอบ

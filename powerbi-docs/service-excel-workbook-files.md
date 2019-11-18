@@ -2,7 +2,6 @@
 title: รับข้อมูลจากไฟล์สมุดงาน Excel
 description: เรียนรู้วิธีการรับข้อมูลจากไฟล์สมุดงาน Excel ลงใน Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a98ccf3477a6e8e996efb0b8cb1ccf2c6728c594
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70840962"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877064"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>รับข้อมูลจากไฟล์สมุดงาน Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -83,7 +82,7 @@ Power BI รองรับประเภทข้อมูลต่อไป�
 ใน Excel 2016 คุณยังสามารถใช้เผยแพร่ > อัปโหลดได้ ซึ่งเป็นลักษณะเดียวกัน เมื่อต้องการเรียนรู้เพิ่มเติม ดู[เผยแพร่ไปยัง Power BI จาก Excel 2016](service-publish-from-excel.md)
 
 ## <a name="import-or-connect-to-an-excel-workbook-from-power-bi"></a>นำเข้าหรือเชื่อมต่อกับสมุดงาน Excel จาก Power BI
-1. ใน Power BI ในพื้นที่ตัวนำทาง คลิก **รับข้อมูล**
+1. ใน Power BI ที่บานหน้าต่างนำทาง ให้คลิก **รับข้อมูล**
    
    ![](media/service-excel-workbook-files/excel_get_data_button.png)
 2. ในไฟล์ คลิก**รับ**

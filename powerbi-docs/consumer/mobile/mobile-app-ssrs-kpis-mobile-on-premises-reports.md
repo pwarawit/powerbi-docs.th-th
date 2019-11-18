@@ -2,19 +2,18 @@
 title: ดูรายงานและ KPI ภายในองค์กรในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 description: แอป Power BI สำหรับอุปกรณ์เคลื่อนที่เสนอการใช้งานระบบสัมผัสที่เชื่อมต่อแบบสดเพื่อเข้าถึงข้อมูลทางธุรกิจภายในองค์กรของคุณใน SQL Server Reporting Services และเซิร์ฟเวอร์รายงาน Power BI
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 01ee3cf9be3a0d6b4350925d4ecb9e57b668457a
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 50d44b99d8efea848588ab4c460a469ef6dc780b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060232"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879450"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>ดูรายงานจากรีพอร์ตเซิร์ฟเวอร์ภายในองค์กรและ KPI ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 
@@ -67,7 +66,7 @@ ms.locfileid: "73060232"
 
 1. กรอกที่อยู่เซิร์ฟเวอร์ และชื่อผู้ใช้และรหัสผ่านของคุณ ใช้รูปแบบนี้สำหรับที่อยู่ของเซิร์ฟเวอร์:
    
-     `http://<servername>/reports`
+     `https://<servername>/reports`
    
      หรือ
    
@@ -77,9 +76,9 @@ ms.locfileid: "73060232"
    
     ![เชื่อมต่อกับกล่องโต้ตอบของเซิร์ฟเวอร์](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (ไม่บังคับ) ภายใต้**ตัวเลือกขั้นสูง**คุณสามารถตั้งชื่อเซิร์ฟเวอร์ด้วยชื่อที่เรียกง่าย ถ้าคุณต้องการ
-6. ในตอนนี้ คุณเห็นเซิร์ฟเวอร์ในแถบนำทางด้านซ้าย - ในตัวอย่างนี้ เรียกว่า "เซิร์ฟเวอร์รายงาน Power BI"
+6. ในตอนนี้ คุณเห็นเซิร์ฟเวอร์ในบานหน้าต่างนำทาง--ในตัวอย่างนี้ เรียกว่า "Power BI Report Server"
    
-   ![รีพอร์ตเซิร์ฟเวอร์ในบานหน้าต่างนำทางด้านซ้าย](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
+   ![เซิร์ฟเวอร์รายงานในบานหน้าต่างนำทาง](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
 ## <a name="connect-to-an-on-premises-report-server-in-ios"></a>เชื่อมต่อกับเซิร์ฟเวอร์รายงานภายในองค์กรใน iOS
 
@@ -118,20 +117,20 @@ ms.locfileid: "73060232"
 ## <a name="view-your-favorite-kpis-and-reports"></a>ดู KPI และรายงานที่เป็นรายการโปรดของคุณ
 คุณสามารถเพิ่ม KPIs และรายงานให้เป็นรายการโปรดบนพอร์ทัลเว็บ จากนั้น ดูข้อมูลดังกล่าวได้ในโฟลเดอร์หนึ่งที่สะดวกบนอุปกรณ์เคลื่อนที่ พร้อมกับแดชบอร์ดโปรด Power BI ของคุณ
 
-* แตะ**รายการโปรด**
+* แตะ **รายการโปรด**
   
-   ![รายการโปรดในบานหน้าต่างนำทางด้านซ้าย](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
+   ![รายการโปรดในบานหน้าต่างนำทาง](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
    KPI และรายงานโปรดจากพอร์ทัลเว็บของคุณจะอยู่บนหน้านี้ทั้งหมด พร้อมกับแดชบอร์ด Power BI ในบริการของ Power BI:
   
    ![รายงาน Power BI และแดชบอร์ดในหน้ารายการโปรด](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-favorites.png)
 
 ## <a name="remove-a-connection-to-a-report-server"></a>ยุติการเชื่อมต่อกับรีพอร์ตเซิร์ฟเวอร์
-1. ที่ด้านล่างของแถบนำทางด้านซ้าย แตะ**ตั้งค่า**
+1. ที่ด้านล่างของบานหน้าต่างนำทาง ให้แตะ **การตั้งค่า**
 2. แตะชื่อเซิร์ฟเวอร์ที่คุณไม่ต้องการเชื่อมต่อ
 3. แตะ**ถอดเซิร์ฟเวอร์**
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)  
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

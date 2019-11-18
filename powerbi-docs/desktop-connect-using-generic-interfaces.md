@@ -2,7 +2,6 @@
 title: เชื่อมต่อกับข้อมูลโดยใช้อินเทอร์เฟสทั่วไปใน Power BI Desktop
 description: เรียนรู้วิธีการเชื่อมต่อแหล่งข้อมูลต่าง ๆ ด้วยอินเทอร์เฟสทั่วไปใน Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ac121ee5154a9d343a912904b20d3244ebee59c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b553d9341723c9b44abce57a384d4c7ba76e00a2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513753"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868972"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>เชื่อมต่อกับข้อมูลโดยใช้อินเทอร์เฟสทั่วไปใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับแหล่งข้อมูลต่าง ๆ ใน **Power BI Desktop** ด้วยตัวเชื่อมต่อข้อมูลอยู่ภายใน ตั้งแต่**ฐานข้อมูล Access** จนถึงทรัพยากร **Zendesk** ตามที่แสดงในหน้าต่าง**รับข้อมูล** คุณยังสามารถเชื่อมต่อกับแหล่งข้อมูล*อื่น ๆ* เพื่อขยายตัวเลือกการเชื่อมต่อของคุณ โดยใช้อินเทอร์เฟสทั่วไป (เช่น **ODBC** หรือ **REST API**) ที่มีอยู่แล้วใน **Power BI Desktop**
@@ -48,16 +47,16 @@ ms.locfileid: "65513753"
 
 | ตัวเชื่อมต่อทั่วไปของ Power BI Desktop | แหล่งข้อมูลภายนอก | ลิงก์สำหรับข้อมูลเพิ่มเติม |
 | --- | --- | --- |
-| ODBC |Cassandra |[โปรแกรมควบคุม Cassandra ODBC](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
+| ODBC |Cassandra |[โปรแกรมควบคุม Cassandra ODBC](https://www.simba.com/drivers/cassandra-odbc-jdbc/) |
 | ODBC |Couchbase DB |[Couchbase และ Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
-| ODBC |DynamoDB |[โปรแกรมควบคุม DynamoDB ODBC](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
-| ODBC |Google BigQuery |[โปรแกรมควบคุม BigQuery ODBC](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
-| ODBC |โปรแกรมควบคุม HBase |[โปรแกรมควบคุม HBase odbc](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
-| ODBC |Hive |[โปรแกรมควบคุม Hive ODBC](http://www.simba.com/drivers/hive-odbc-jdbc/) |
+| ODBC |DynamoDB |[โปรแกรมควบคุม DynamoDB ODBC](https://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
+| ODBC |Google BigQuery |[โปรแกรมควบคุม BigQuery ODBC](https://www.simba.com/drivers/bigquery-odbc-jdbc/) |
+| ODBC |HBase |[โปรแกรมควบคุม Hbase ODBC](https://www.simba.com/drivers/hbase-odbc-jdbc/) |
+| ODBC |Hive |[โปรแกรมควบคุม Hive ODBC](https://www.simba.com/drivers/hive-odbc-jdbc/) |
 | ODBC |IBM Netezza |[ข้อมูล IBM Netezza](https://www.ibm.com/support/knowledgecenter/SSULQD_7.2.1/com.ibm.nz.datacon.doc/c_datacon_plg_overview.html) |
-| ODBC |Presto |[โปรแกรมควบคุม ODBC Presto](http://www.simba.com/drivers/presto-odbc-jdbc/) |
+| ODBC |Presto |[โปรแกรมควบคุม ODBC Presto](https://www.simba.com/drivers/presto-odbc-jdbc/) |
 | ODBC |Project Online |[บทความ Project Online](desktop-project-online-connect-to-data.md) |
-| ODBC |Progress OpenEdge |[บล็อกโพสต์โปรแกรมควบคุม Progress OpenEdge ODBC](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.progress.com%2Fblogs%2Fconnect-microsoft-power-bi-to-openedge-via-odbc-driver&data=02%7C01%7CMatt.Masson%40microsoft.com%7C5e63742e6c454308b58a08d4034b5923%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636137069555329811&sdata=gSu2Rq3vZ0uBVOgjaXxd8Y3uBf%2B8DidX6PG33jwAduY%3D&reserved=0) |
+| ODBC |Progress OpenEdge |[บล็อกโพสต์โปรแกรมควบคุม Progress OpenEdge ODBC](https://www.progress.com/blogs/connect-microsoft-power-bi-to-openedge-via-odbc-driver) |
 
 ## <a name="data-sources-accessible-through-ole-db"></a>แหล่งข้อมูลที่สามารถเข้าถึงผ่าน OLE DB
 ตัวเชื่อมต่อ **OLE DB** ใน **Power BI Desktop** ให้คุณนำเข้าข้อมูลจากโปรแกรมควบคุม OLE DB บุคคลที่สามใด ๆ โดยการระบุเพียงแค่*สตริงการเชื่อมต่อ* อีกทางเลือกคือ คุณยังสามารถระบุคำสั่ง SQL เพื่อดำเนินการกับโปรแกรมควบคุม OLE DB

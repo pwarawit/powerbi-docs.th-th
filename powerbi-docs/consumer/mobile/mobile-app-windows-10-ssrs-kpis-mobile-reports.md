@@ -2,19 +2,18 @@
 title: ดูรายงานอุปกรณ์มือถือของ SSRS, KPI ในแอปสำหรับอุปกรณ์เคลื่อนที่ของ Windows 10 - Power BI
 description: แอปสำหรับอุปกรณ์เคลื่อนที่ Power BI สำหรับ Windows 10 มีคุณลักษณะการเข้าถึงผ่านอุปกรณ์เคลื่อนที่แบบสดและรองรับระบบสัมผัส เพื่อเข้าใช้งานข้อมูลทางธุรกิจที่สำคัญภายในองค์กรของคุณ
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 114cf65e8abb072ab3f0254cbd4041a43a31d1dc
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 4666e7c0e4901a99867ea72ab404df4cbffe110b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059649"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879353"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>ดรายงานอุปกรณ์มือถือของ Reporting Services (SSRS) และ KPI ในแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI สำหรับ Windows 10
 แอปสำหรับอุปกรณ์เคลื่อนที่ Power BI สำหรับ Windows 10 มีคุณลักษณะการเข้าถึงผ่านอุปกรณ์เคลื่อนที่แบบสดและรองรับระบบสัมผัส เพื่อเข้าใช้งานข้อมูลทางธุรกิจที่สำคัญภายในองค์กรของคุณใน SQL Server 2016 Reporting Services 
@@ -46,11 +45,11 @@ ms.locfileid: "73059649"
 เรียกดูตัวอย่าง เพื่อโต้ตอบกับ KPI และรายงานอุปกรณ์มือถือ
 
 ## <a name="connect-to-a-reporting-services-report-server"></a>เชื่อมต่อกับรีพอร์ตเซิร์ฟเวอร์ของ Reporting Services
-1. ที่ด้านล่างของแถบนำทางด้านซ้าย ให้แตะ **การตั้งค่า** ![ไอคอนการตั้งค่า](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)
+1. ที่ด้านล่างของบานหน้าต่างนำทาง ให้แตะ **การตั้งค่า** ![ไอคอนการตั้งค่า](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)
 2. แตะ **เชื่อมต่อกับเซิร์ฟเวอร์**
 3. กรอกที่อยู่เซิร์ฟเวอร์ รวมทั้งชื่อผู้ใช้และรหัสผ่านของคุณ ใช้รูปแบบนี้สำหรับที่อยู่เซิร์ฟเวอร์:
    
-     `http://<servername>/reports` OR   `https://<servername>/reports`
+     `https://<servername>/reports` OR   `https://<servername>/reports`
    
    > [!NOTE]
    > ใส่ **http**หรือ**https** ที่ด้านหน้าของสตริงการเชื่อมต่อ
@@ -60,9 +59,9 @@ ms.locfileid: "73059649"
     แตะ **ตัวเลือกขั้นสูง** เพื่อตั้งชื่อให้เซิร์ฟเวอร์ ถ้าต้องการ
 4. แตะเครื่องหมายถูก เพื่อเชื่อมต่อ 
    
-   ในตอนนี้ คุณจะเห็นเซิร์ฟเวอร์อยู่ในแถบนำทางด้านซ้าย
+   ในตอนนี้ คุณจะเห็นเซิร์ฟเวอร์อยู่ในบานหน้าต่างนำทาง
    
-   ![เซิร์ฟเวอร์ในแถบนำทางด้านซ้าย](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
+   ![เซิร์ฟเวอร์ในบานหน้าต่างนำทาง](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
    
    >[!TIP]
    >แตะปุ่มการนำทางส่วนกลาง ![ปุ่มการนำทางส่วนกลาง](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) ได้ตลอดเวลา เพื่อสลับไปมาระหว่างรายงานอุปกรณ์มือถือของ Reporting Services ของคุณกับแดชบอร์ดของคุณในบริการของ Power BI 
@@ -96,7 +95,7 @@ KPI และรายงานอุปกรณ์มือถือของ 
 ## <a name="remove-a-connection-to-a-report-server"></a>ยุติการเชื่อมต่อกับรีพอร์ตเซิร์ฟเวอร์
 คุณสามารถเชื่อมต่อกับรีพอร์ตเซิร์ฟเวอร์จากแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ได้เพียงครั้งละหนึ่งเซิร์ฟเวอร์เท่านั้น ถ้าคุณต้องการเชื่อมต่อกับเซิร์ฟเวอร์อื่น ก็จะต้องยกเลิกการเชื่อมต่อกับเซิร์ฟเวอร์ที่ใช้งานอยู่ในปัจจุบันก่อน
 
-1. ที่ด้านล่างของแถบนำทางด้านซ้าย ให้แตะ **การตั้งค่า** ![ไอคอนการตั้งค่า](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)
+1. ที่ด้านล่างของบานหน้าต่างนำทาง ให้แตะ **การตั้งค่า** ![ไอคอนการตั้งค่า](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)
 2. แตะค้างที่ชื่อเซิร์ฟเวอร์ที่คุณไม่ต้องการเชื่อมต่อ
 3. แตะ **ลบเซิร์ฟเวอร์**
    
@@ -111,5 +110,5 @@ KPI และรายงานอุปกรณ์มือถือของ 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [เริ่มต้นใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10](mobile-windows-10-phone-app-get-started.md)  
 * [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)  
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

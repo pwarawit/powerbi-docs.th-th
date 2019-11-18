@@ -2,7 +2,6 @@
 title: สร้างแดชบอร์ด Power BI จากรายงาน
 description: สร้างแดชบอร์ด Power BI จากรายงาน
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d67e7acf4309595e8bccac86119ea38f1a97797f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543306"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853405"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>สร้างแดชบอร์ด Power BI จากรายงาน
 คุณได้อ่าน[บทนำเกี่ยวกับแดชบอร์ดใน Power BI](service-dashboards.md) แล้วและตอนนี้ คุณต้องการสร้างของคุณเอง มีหลายวิธีในการสร้างแดชบอร์ด ตัวอย่างเช่น คุณสามารถสร้างจากรายงาน จาก scratch จากชุดข้อมูล หรือโดยการทำซ้ำแดชบอร์ดที่มีอยู่แล้ว  
@@ -44,11 +43,11 @@ ms.locfileid: "72543306"
 ## <a name="import-a-dataset-with-a-report"></a>นำเข้าชุดข้อมูลที่มีรายงาน
 ในคำแนะนำทีละขั้นตอนนี้ เราจะนำเข้าหนึ่งในชุดข้อมูลตัวอย่าง Power BI และใช้ในการสร้างแดชบอร์ดใหม่ของเรา ตัวอย่างที่เราใช้คือสมุดงาน Excel ที่มีแผ่นงาน PowerView สองแผ่น เมื่อ Power BI นำเข้าสมุดงาน โปรแกรมจะเพิ่มชุดข้อมูลและรายงานไปยังพื้นที่ทำงานของคุณ จากนั้น รายงานจะถูกสร้างขึ้นจากแผ่นงาน PowerView โดยอัตโนมัติ
 
-1. ดาวน์โหลด[ไฟล์ Excel](http://go.microsoft.com/fwlink/?LinkId=529784) ตัวอย่างการวิเคราะห์การจัดซื้อ เราขอแนะนำให้บันทึกไฟล์ใน OneDrive for Business ของคุณ
+1. ดาวน์โหลด[ไฟล์ Excel](https://go.microsoft.com/fwlink/?LinkId=529784) ตัวอย่างการวิเคราะห์การจัดซื้อ เราขอแนะนำให้บันทึกไฟล์ใน OneDrive for Business ของคุณ
 2. บริการ Power BI ในเบราว์เซอร์ของคุณ (app.powerbi.com)
-3. จากแผงนำทางด้านซ้าย เลือก **พื้นที่ทำงานของฉัน** จากนั้นเลือก **รับข้อมูล**
+3. จากบานหน้าต่างนำทาง ให้เลือก **พื้นที่ทำงานของฉัน** จากนั้นเลือก **รับข้อมูล**
 
-    ![บานหน้าต่างนำทางด้านซ้าย](media/service-dashboard-create/power-bi-get-data-new-look.png)
+    ![บานหน้าต่างนำทาง](media/service-dashboard-create/power-bi-get-data-new-look.png)
 5. ภายใต้**ไฟล์** ให้เลือก**รับ**
 
    ![รับไฟล์](media/service-dashboard-create/power-bi-select-files.png)
@@ -63,7 +62,7 @@ ms.locfileid: "72543306"
    ![ข้อความแสดงความสำเร็จ](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
-> คุณทราบหรือไม่ คุณสามารถจำกัดแถบนำทางด้านซ้ายได้โดยการเลือกไอคอนที่มีสามเส้นที่อยู่ด้านบนของ![บานหน้าต่างการนำทางแสดงหรือซ่อนไอคอน](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png) ซึ่งช่วยให้คุณมีพื้นที่มากขึ้นในการรายงาน
+> คุณทราบหรือไม่ คุณสามารถทำให้บานหน้าต่างนำทางแคบลงได้โดยเลือกไอคอนที่มีสามบรรทัดที่ ![ไอคอนแสดงหรือซ่อนบานหน้าต่างนำทาง](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)ด้านบน ซึ่งช่วยให้คุณมีพื้นที่มากขึ้นในการรายงาน
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>เปิดรายงานและปักหมุดไทล์ไปยังแดชบอร์ดของคุณ
 1. ในพื้นที่ทำงานเดียวกัน เลือกแท็บ **รายงาน** จากนั้นเลือก **ตัวอย่างการวิเคราะห์การจัดซื้อ** เพื่อเปิดรายงาน
@@ -118,4 +117,4 @@ ms.locfileid: "72543306"
 * [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
 * [เคล็ดลับสำหรับการออกแบบแดชบอร์ด ที่ยอดเยี่ยม](service-dashboards-design-tips.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

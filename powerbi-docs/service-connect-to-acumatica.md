@@ -2,7 +2,6 @@
 title: เชื่อมต่อไปยัง Acumatica ด้วย Power BI
 description: Acumatica สำหรับ Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d2ee7a338f34e4c29fdbefae6518bede9e94badb
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 09e55aef3a1167143694c8e26a342cb1b8f0875c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186147"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873197"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>เชื่อมต่อไปยัง Acumatica ด้วย Power BI
 ชุดเนื้อหา Acumatica BI Power ช่วยให้คุณรับข้อมูลเชิงลึกลงในข้อมูลโอกาสการขายของคุณได้อย่างรวดเร็ว Power BI ดึงข้อมูลของคุณ รวมถึงโอกาส บัญชีผู้ใช้ และ ลูกค้า จากรุ่นแดชบอร์ดเริ่มต้นและรายงานที่เกี่ยวข้องที่ยึดตามข้อมูลที่เกี่ยวข้อง
@@ -28,7 +27,7 @@ ms.locfileid: "70186147"
 >ชุดเนื้อหานี้จำเป็นต้องใช้ Acumatica v5.2 หรือใหม่กว่า
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
-1. เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ
+1. เลือก**รับข้อมูล**ที่ด้านล่างของบานหน้าต่างนำทาง
    
    ![](media/service-connect-to-acumatica/getdata3.png)
 2. ในกล่อง**บริการ** เลือก**รับ**
@@ -47,7 +46,7 @@ ms.locfileid: "70186147"
 5. สำหรับวิธีการรับรองตัวตน ให้เลือก**พื้นฐาน** ใส่ชื่อผู้ใช้และรหัสผ่านของคุณจากบัญชี Acumatica ของคุณ จากนั้นคลิก**ลงชื่อเข้าใช้**
    
     ![](media/service-connect-to-acumatica/creds2.png)
-6. หลังจากที่ Power BI นำเข้าข้อมูลแล้ว คุณจะเห็นแดชบอร์ด รายงาน และชุดข้อมูลใหม่ ในบานหน้าต่างนำทางด้านซ้ายมือ รายการใหม่ถูกทำเครื่องหมาย ด้วยเครื่องหมายดอกจันสีเหลือง\*ซึ่งหายไปเมื่อถูกเลือก ตอนเลือกแดชบอร์ดที่จะแสดงเค้าโครงคล้ายกับด้านล่างนี้
+6. หลังจากที่ Power BI นำเข้าข้อมูลแล้ว คุณจะเห็นแดชบอร์ด รายงาน และชุดข้อมูลใหม่ในบานหน้าต่างนำทาง รายการใหม่ถูกทำเครื่องหมาย ด้วยเครื่องหมายดอกจันสีเหลือง\*ซึ่งหายไปเมื่อถูกเลือก ตอนเลือกแดชบอร์ดที่จะแสดงเค้าโครงคล้ายกับด้านล่างนี้
    
     ![](media/service-connect-to-acumatica/dashboard.png)
 

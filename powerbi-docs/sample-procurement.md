@@ -2,7 +2,6 @@
 title: 'ตัวอย่างการวิเคราะห์ด้านการจัดซื้อ: ชมการแนะนำ'
 description: 'ตัวอย่างการวิเคราะห์การจัดซื้อสำหรับ Power BI: ชมการแนะนำ'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 9e27d09414167f9625e046204c14a5fb57112cd9
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462275"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873853"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการวิเคราะห์การจัดซื้อสำหรับ Power BI: ชมการแนะนำ
 
@@ -58,11 +57,11 @@ ms.locfileid: "68462275"
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>รับไฟล์ .pbix สำหรับตัวอย่างนี้
 
-อีกทางเลือกหนึ่งคือ คุณสามารถดาวน์โหลดตัวอย่างการวิเคราะห์การจัดซื้อเป็น[ไฟล์ .pbix](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix) ซึ่งถูกออกแบบมาสำหรับใช้กับ Power BI Desktop 
+อีกทางเลือกหนึ่งคือ คุณสามารถดาวน์โหลดตัวอย่างการวิเคราะห์การจัดซื้อเป็น[ไฟล์ .pbix](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix) ซึ่งถูกออกแบบมาสำหรับใช้กับ Power BI Desktop 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>รับเวิร์กบุ๊ก Excel สำหรับตัวอย่างนี้
 
-ถ้าคุณต้องการดูแหล่งข้อมูลสำหรับตัวอย่างนี้ ตัวอย่างนี้ยังมีให้ในรูปแบบ[เวิร์กบุ๊ก Excel](http://go.microsoft.com/fwlink/?LinkId=529784) เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน หากต้องการดูข้อมูลดิบ ให้เปิดใช้งาน add-in การวิเคราะห์ข้อมูล แล้วจากนั้นเลือก**Power Pivot > จัดการ** หากต้องการเปิดใช้งาน Power View และ Power Pivot add-in โปรดดทีู่[ดูตัวอย่าง Excel จากใน Excel เอง](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)สำหรับรายละเอียด
+ถ้าคุณต้องการดูแหล่งข้อมูลสำหรับตัวอย่างนี้ ตัวอย่างนี้ยังมีให้ในรูปแบบ[เวิร์กบุ๊ก Excel](https://go.microsoft.com/fwlink/?LinkId=529784) เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน หากต้องการดูข้อมูลดิบ ให้เปิดใช้งาน add-in การวิเคราะห์ข้อมูล แล้วจากนั้นเลือก**Power Pivot > จัดการ** หากต้องการเปิดใช้งาน Power View และ Power Pivot add-in โปรดดทีู่[ดูตัวอย่าง Excel จากใน Excel เอง](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)สำหรับรายละเอียด
 
 
 ## <a name="spending-trends"></a>แนวโน้มค่าใช้จ่าย
@@ -99,7 +98,7 @@ ms.locfileid: "68462275"
       ![ดูรายละเอียดแนวลึกของสินค้าและบริการทางอ้อมสำหรับเม็กซิโก](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. เลือกลูกศรขึ้นที่มุมบนซ้ายของแผนภูมิเพื่อกลับขึ้นไปข้างบน
 4. เลือกลูกศรดูรายละเอียดแนวลึกอีกครั้งเพื่อปิดการใช้รายละเอียดแนวลึก  
-5. เลือก**ตัวอย่างการวิเคราะห์การซื้อ** เพื่อกลับไปยังแดชบอร์ด
+5. ในบานหน้าต่างนำทางด้านบน ให้เลือก**ตัวอย่างการวิเคราะห์การจัดซื้อ** เพื่อกลับไปยังแดชบอร์ด
 
 ## <a name="evaluate-different-cities"></a>ประเมินเมืองต่าง ๆ
 เราสามารถใช้การไฮไลต์ เพื่อประเมินค่าเมืองต่าง ๆ กัน

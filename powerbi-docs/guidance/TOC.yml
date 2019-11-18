@@ -1,0 +1,36 @@
+- name: เอกสารคำแนะนำของ Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: ภาพรวม
+      expanded: true
+      items:
+        - name: ภาพรวม
+          href: overview.md
+    - name: แนวคิด
+      expanded: true
+      items:
+        - name: Schema ติดดาวคืออะไร
+          href: star-schema.md
+        - name: ลดขนาดแบบจำลองข้อมูล
+          href: import-modeling-data-reduction.md
+        - name: ฟังก์ชันการแบ่งเทียบกับตัวดำเนินการหาร (/)
+          href: dax-divide-function-operator.md
+        - name: ความสำคัญของการพับคิวรี
+          href: power-query-folding.md
+        - name: การใช้ฟังก์ชันข้อผิดพลาดที่เหมาะสม
+          href: dax-error-functions.md
+        - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
+          href: ../service-dataflows-best-practices.md
+        - name: คำแนะนำแบบจำลอง DirectQuery ใน Power BI Desktop
+          href: directquery-model-guidance.md
+    - name: เอกสารทางเทคนิค
+      items:
+        - name: ภาพรวมเอกสารทางเทคนิค
+          href: ../whitepapers.md
+        - name: เอกสารทางเทคนิคเรื่องความปลอดภัย Power BI
+          href: ../whitepaper-powerbi-security.md
+        - name: การปรับใช้ Power BI premium
+          href: ../whitepaper-powerbi-premium-deployment.md
+        - name: กระจาย Power BI ภายนอกโดยใช้ Azure Active Directory B2B
+          href: ../whitepaper-azure-b2b-power-bi.md
