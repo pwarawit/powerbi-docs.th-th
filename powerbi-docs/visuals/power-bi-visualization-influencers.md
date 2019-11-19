@@ -2,20 +2,19 @@
 title: บทช่วยสอนสำหรับการแสดงภาพข้อมูลผู้มีอิทธิพลหลัก
 description: 'บทช่วยสอน: สร้างการแสดงภาพข้อมูลผู้มีอิทธิพลหลักใน Power BI'
 author: mihart
-manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 05/22/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544059"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871000"
 ---
 # <a name="key-influencers-visualization"></a>การแสดงภาพข้อมูลผู้มีอิทธิพลหลัก
 
@@ -58,7 +57,7 @@ ms.locfileid: "72544059"
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-ผู้จัดการผลิตภัณฑ์ของคุณต้องการให้คุณค้นหาว่าปัจจัยใดที่ทำให้ลูกค้าต้องแสดงความคิดเห็นเชิงลบเกี่ยวกับบริการคลาวด์ของคุณ หากต้องการทำตาม ให้เปิด [ไฟล์ PBIX คำติชมของลูกค้า](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) ใน Power BI Desktop คุณยังสามารถดาวน์โหลด [ไฟล์ Excel คำติชมของลูกค้าสำหรับบริการ Power BI หรือ Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx) 
+ผู้จัดการผลิตภัณฑ์ของคุณต้องการให้คุณค้นหาว่าปัจจัยใดที่ทำให้ลูกค้าต้องแสดงความคิดเห็นเชิงลบเกี่ยวกับบริการคลาวด์ของคุณ หากต้องการทำตาม ให้เปิด [ไฟล์ PBIX คำติชมของลูกค้า](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) ใน Power BI Desktop คุณยังสามารถดาวน์โหลด [ไฟล์ Excel คำติชมของลูกค้าสำหรับบริการ Power BI หรือ Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx) เลือกลิงก์ใดก็ได้จากนั้นเลือก **ดาวน์โหลด** จากหน้า GitHub ที่เปิดขึ้น
 
 > [!NOTE]
 > ชุดข้อมูลคำติชมของลูกค้าขึ้นอยู่กับ [Moro et al., 2014] S. Moro, P. Cortez และ P. Rita “แนวทางการขับเคลื่อนด้วยข้อมูลเพื่อทำนายความสำเร็จของการตลาดทางโทรศัพท์ของธนาคาร” *ระบบสนับสนุนการตัดสินใจ*, Elsevier, 62:22-31, มิถุนายน 2014 
@@ -240,7 +239,7 @@ ms.locfileid: "72544059"
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>วิเคราะห์เมตริกที่เป็นคอลัมน์หน่วยวัดหรือคอลัมน์สรุป
 
-ในกรณีของคอลัมน์หน่วยวัดหรือคอลัมน์สรุปการวิเคราะห์ที่เป็นค่าเริ่มต้นเป็น**ชนิดการวิเคราะห์อย่างต่อเนื่อง**ดังที่อธิบายไว้ [ด้านบน](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) ซึ่งไม่สามารถเปลี่ยนแปลงได้ ความแตกต่างที่ใหญ่ที่สุดระหว่างการวิเคราะห์คอลัมน์หน่วยวัด/คอลัมน์สรุปและคอลัมน์ตัวเลขที่ไม่ได้สรุปคือ ระดับที่มีการเรียกใช้การวิเคราะห์
+ในกรณีของคอลัมน์หน่วยวัดหรือคอลัมน์สรุปการวิเคราะห์ที่เป็นค่าเริ่มต้นเป็น**ชนิดการวิเคราะห์อย่างต่อเนื่อง**ดังที่อธิบายไว้ [ด้านบน](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) ซึ่งไม่สามารถเปลี่ยนแปลงได้ ความแตกต่างที่ใหญ่ที่สุดระหว่างการวิเคราะห์คอลัมน์หน่วยวัด/คอลัมน์สรุปและคอลัมน์ตัวเลขที่ไม่ได้สรุปคือ ระดับที่มีการเรียกใช้การวิเคราะห์
 
 ในกรณีของคอลัมน์ที่ไม่ได้สรุป การวิเคราะห์จะเรียกใช้ในระดับตารางเสมอ ในตัวอย่างราคาบ้านข้างต้น เราวิเคราะห์เมตริก**ราคาบ้าน** เพื่อดูว่าสิ่งใดที่มีอิทธิพลต่อการเพิ่มขึ้น/ลดลงของราคาบ้าน การวิเคราะห์จะเรียกใช้ในระดับตารางโดยอัตโนมัติ ตารางของเรามี ID ที่ไม่ซ้ำกันสำหรับบ้านแต่ละหลังเพื่อให้การวิเคราะห์เรียกใช้ ณ ระดับบ้าน
 
@@ -254,7 +253,7 @@ ms.locfileid: "72544059"
 
 การวิเคราะห์นี้ได้รับการสรุปมากมายและดังนั้นจึงเป็นเรื่องยากสำหรับแบบจำลองการถดถอยเพื่อค้นหารูปแบบใด ๆ ในข้อมูลที่แบบจำลองสามารถเรียนรู้ได้ เราควรเรียกใช้การวิเคราะห์ที่ระดับที่มีรายละเอียดมากขึ้นเพื่อให้ได้ผลลัพธ์ที่ดีขึ้น หากเราต้องการวิเคราะห์ราคาบ้านที่ระดับบ้าน เราจะต้องเพิ่มเขตข้อมูล**ID**ลงในการวิเคราะห์อย่างชัดเจน อย่างไรก็ตาม เราไม่ต้องการพิจารณาให้ ID ของบ้านเป็นผู้มีอิทธิพล ซึ่งไม่มีประโยชน์ที่จะเรียนรู้ว่าขณะที่ ID ของบ้านเพิ่มชึ้น ราคาของบ้านก็เพิ่มขึ้นด้วย นี่คือ ที่ ๆ ตัวเลือกแหล่งเขตข้อมูล**ขยายโดย** มาพร้อมประโยชน์ คุณสามารถใช้ **ขยายโดย** เพื่อเพิ่มเขตข้อมูลที่คุณต้องการใช้ในการตั้งค่าระดับของการวิเคราะห์โดยไม่ต้องค้นหาผู้มีอิทธิพลใหม่
 
-ลองดูที่การแสดงภาพข้อมูลที่มีลักษณะเช่นเดียวกับครั้งที่เราเพิ่ม**ID**ไปยัง**ขยายโดย** หลังจากที่คุณได้กำหนดระดับที่คุณต้องการให้มีการประเมินผลหน่วยวัดของคุณ การแปลคำสั่งผู้มีอิทธิพลจะเหมือนกับ[คอลัมนตัวเลขที่ไม่ได้สรุป](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) อย่างชัดเจน
+ลองดูที่การแสดงภาพข้อมูลที่มีลักษณะเช่นเดียวกับครั้งที่เราเพิ่ม**ID**ไปยัง**ขยายโดย** หลังจากที่คุณได้กำหนดระดับที่คุณต้องการให้มีการประเมินผลหน่วยวัดของคุณ การแปลคำสั่งผู้มีอิทธิพลจะเหมือนกับ[คอลัมนตัวเลขที่ไม่ได้สรุป](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) อย่างชัดเจน
 
 ![ตารางหน่วยวัด](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

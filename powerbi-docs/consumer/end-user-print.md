@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4e211677026d66b89631063cf07e38ce1e46ee10
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 928b69bc1f7e8210f66bd1b99e211a7fe28a5a00
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100194"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019579"
 ---
 # <a name="printing-from-the-power-bi-service"></a>การพิมพจากบริการของ Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 พิมพ์ทั้งแดชบอร์ด ไทล์ของแดชบอร์ หน้ารายงาน หรือภาพรายงานจากบริการของ Power BI รายงานสามารถพิมพ์ออกมาทีละหน้าในแต่ละครั้งเท่านั้น -- คุณไม่สามารถพิมพ์รายงานทั้งหมดในครั้งเดียว
 
    > [!NOTE]
@@ -37,7 +40,7 @@ ms.locfileid: "71100194"
 
 ## <a name="print-a-dashboard-tile"></a>พิมพ์แดชบอร์ดไทล์
 1. เปิดแดชบอร์ดใน[โหมดเต็มหน้าจอ](end-user-focus.md)โดยการเลือกไอคอนเต็มหน้าจอ![ไอคอนเต็มหน้าจอ](./media/end-user-print/power-bi-full-screen-icon.png)จากแถบเมนูด้านบน
-3. [เปิดไทล์ในโหมดโฟกัส](end-user-focus.md)โดยการเลื่อนเมาส์ลอยไว้ด้านบนเพื่อเผยวงรี (...) แล้วเลือก**เปิดในโหมดโฟกัส**หรือเลือกไอคอนโฟกัส![ไอคอนโฟกัส](./media/end-user-print/power-bi-focus-icon.png)
+3. [เปิดไทล์ในโหมดโฟกัส](end-user-focus.md)โดยการเลื่อนเมาส์ลอยไว้ด้านบนเพื่อเผย**ตัวเลือกเพิ่มเติม** (...) แล้วเลือก**เปิดในโหมดโฟกัส** หรือเลือกไอคอนโฟกัส![ไอคอนโฟกัส](./media/end-user-print/power-bi-focus-icon.png)
    
     ![เมนูจุดไข่ปลา](./media/end-user-print/power-bi-menu-options.png)
 4. ลากเคอร์เซอร์เหนือไทล์เพื่อเปิดเมนูตัวเลือก

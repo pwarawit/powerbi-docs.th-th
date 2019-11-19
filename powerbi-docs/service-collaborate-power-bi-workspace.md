@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41aaf33602fc8a895d54666736d775ac53d5aaef
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 860aa1de5a91d98e6a50773250e89581fc1d9801
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832427"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021329"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>ร่วมมือทำงานในพื้นที่ทำงานดั้งเดิม
 พื้นที่ทำงาน Power BI คือตำแหน่งที่ยอดเยี่ยมเพื่อทำงานร่วมกับเพื่อนร่วมงานของคุณบนแดชบอร์ด รายงาน และชุดข้อมูลเพื่อสร้าง*แอป* บทความนี้เกี่ยวกับพื้นที่ทำงานดั้งเดิมแบบ*ดั้งเดิม*  
@@ -45,7 +45,7 @@ ms.locfileid: "68832427"
 ## <a name="collaborate-in-office-365"></a>ทำงานร่วมกันใน Office 365
 ทำงานร่วมกันใน Office 365 เริ่มต้นจากพื้นที่ทำงานแบบดั้งเดิมใน Power BI
 
-1. ใน Power BI service เลือกลูกศรอยู่ถัดจาก**พื้นที่ทำงาน** > เลือกจุดไข่ปลา (... ) ถัดจากชื่อพื้นที่ทำงานของคุณ 
+1. ในบริการของ Power BI เลือกลูกศรอยู่ถัดจาก**พื้นที่ทำงาน** > เลือก **ตัวเลือกเพิ่มเติม** (... ) ถัดจากชื่อพื้นที่ทำงานของคุณ 
    
    ![เมนูพื้นที่ทำงาน](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. จากเมนูนี้ คุณสามารถทำงานร่วมกันกับกลุ่มของคุณในสองสามวิธี 
@@ -56,7 +56,7 @@ ms.locfileid: "68832427"
    ครั้งแรกที่คุณไปยังพื้นที่ทำงานของกลุ่มคุณใน Office 365 ซึ่งอาจใช้เวลาสักครู่ รอ 15 ถึง 30 นาที จากนั้นรีเฟรชเบราว์เซอร์ของคุณ
 
 ## <a name="have-a-group-conversation-in-office-365"></a>มีกลุ่มการสนทนาใน Office 365
-1. เลือกจุดไข่ปลา (...) ที่อยู่ถัดจากชื่อพื้นที่ทำงานของคุณ\> **การสนทนา** 
+1. เลือก**ตัวเลือกเพิ่มเติม** (...) ที่อยู่ถัดจากชื่อพื้นที่ทำงานของคุณ \>**การสนทนา** 
    
     ![แท็บการสนทนา](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -66,7 +66,7 @@ ms.locfileid: "68832427"
 2. อ่านเพิ่มเติมเกี่ยวกับ[กลุ่มการสนทนาใน Outlook สำหรับ Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22)
 
 ## <a name="schedule-an-event-on-the-group-workspace-calendar"></a>กำหนดเหตุการณ์บนปฏิทินของพื้นที่ทำงานของกลุ่ม
-1. เลือกจุดไข่ปลา (...) ที่อยู่ถัดจากชื่อพื้นที่ทำงาน\> **ปฏิทิน** 
+1. เลือก**ตัวเลือกเพิ่มเติม** (...) ที่อยู่ถัดจากชื่อพื้นที่ทำงาน \>**ปฏิทิน** 
    
    ![แท็บปฏิทิน](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

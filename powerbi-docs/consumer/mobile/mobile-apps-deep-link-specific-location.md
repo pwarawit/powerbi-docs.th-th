@@ -2,19 +2,18 @@
 title: สร้างการเชื่อมโยงไปยังตำแหน่งที่ตั้งเฉพาะในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 description: เรียนรู้วิธีการสร้างการเชื่อมโยงโดยตรงไปยังแดชบอร์ด ไทล์ หรือรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ที่ระบุด้วย Uniform Resource Identifier (URI)
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 427019d831aa02723f17efd3de78081c368717c2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "64906529"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879295"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>สร้างการเชื่อมโยงไปยังตำแหน่งที่ตั้งเฉพาะในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 คุณสามารถใช้ลิงก์เพื่อเข้าใช้งานรายการเฉพาะใน Power BI ได้โดยตรง: รายงาน แดชบอร์ด และไทล์
@@ -69,7 +68,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 
 #### <a name="links-of-apps-and-items-in-app"></a>ลิงก์ของแอปและหน่วยข้อมูลในแอป
 
-สำหรับ**แอปและรายงานและแดชบอร์ดที่เป็นส่วนหนึ่งของแอป**วิธีที่ง่ายที่สุดในการขอลิงก์คือไปยังพื้นที่ทำงานของแอปแล้วเลือก "อัปเดตแอป" ซึ่งจะเปิด "การเผยแพร่แอป" ขึ้นมา ซึ่งคุณจะพบส่วน **ลิงก์**อยู่ในแท็บการเข้าถึง เมื่อขยายส่วนดังกล่าว คุณจะเห็นรายการแอปและลิงก์เนื้อหาทั้งหมดที่สามารถใช้เพื่อเข้าถึงข้อมูลต่าง ๆ ได้โดยตรง
+สำหรับ**แอปและรายงานและแดชบอร์ดที่เป็นส่วนหนึ่งของแอป** วิธีที่ง่ายที่สุดในการขอลิงก์คือไปยังพื้นที่ทำงาน แล้วเลือก "อัปเดตแอป" ซึ่งจะเปิด "การเผยแพร่แอป" ขึ้นมา ซึ่งคุณจะพบส่วน **ลิงก์**อยู่ในแท็บการเข้าถึง เมื่อขยายส่วนดังกล่าว คุณจะเห็นรายการแอปและลิงก์เนื้อหาทั้งหมดที่สามารถใช้เพื่อเข้าถึงข้อมูลต่าง ๆ ได้โดยตรง
 
 ![ลิงก์เผยแพร่แอป Power BI ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
@@ -117,6 +116,6 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 
 * [แอป Power BI สำหรับอุปกรณ์เคลื่อนที่](mobile-apps-for-mobile-devices.md)
 * ติดตาม@MSPowerBIบน Twitter
-* เข้าร่วมการสนทนาที่[ชุมชน Power BI](http://community.powerbi.com/)
-* [Power BI คืออะไร](../../power-bi-overview.md)
+* เข้าร่วมการสนทนาที่[ชุมชน Power BI](https://community.powerbi.com/)
+* [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)
 

@@ -477,6 +477,10 @@
               href: service-the-report-editor-take-a-tour.md
             - name: แหล่งข้อมูล Power BI
               href: service-get-data.md
+            - name: ทำความเข้าใจกับชุดข้อมูล Power BI
+              href: service-datasets-understand.md
+            - name: ทำความเข้าใจกับโหมดชุดข้อมูล Power BI
+              href: service-dataset-modes-understand.md
             - name: การรีเฟรชข้อมูลใน Power BI
               href: refresh-data.md
         - name: ทำงานร่วมกันใน Power BI
@@ -1125,31 +1129,3 @@
       items:
         - name: อัปเดตเกตเวย์ประจำเดือน
           href: /data-integration/gateway/service-gateway-monthly-updates
-- name: คำแนะนำ
-  items:
-    - name: ภาพรวม
-      href: guidance/overview.md
-    - name: Schema ติดดาวคืออะไร
-      href: guidance/star-schema.md
-    - name: ลดขนาดแบบจำลองข้อมูล
-      href: guidance/import-modeling-data-reduction.md
-    - name: ฟังก์ชันการแบ่งเทียบกับตัวดำเนินการหาร (/)
-      href: guidance/dax-divide-function-operator.md
-    - name: ความสำคัญของการพับคิวรี
-      href: guidance/power-query-folding.md
-    - name: การใช้ฟังก์ชันข้อผิดพลาดที่เหมาะสม
-      href: guidance/dax-error-functions.md
-    - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
-      href: service-dataflows-best-practices.md
-    - name: คำแนะนำแบบจำลอง DirectQuery ใน Power BI Desktop
-      href: guidance/directquery-model-guidance.md
-    - name: เอกสารทางเทคนิค
-      items:
-        - name: ภาพรวมเอกสารทางเทคนิค
-          href: whitepapers.md
-        - name: เอกสารทางเทคนิคเรื่องความปลอดภัย Power BI
-          href: whitepaper-powerbi-security.md
-        - name: การปรับใช้ Power BI premium
-          href: whitepaper-powerbi-premium-deployment.md
-        - name: กระจาย Power BI ภายนอกโดยใช้ Azure Active Directory B2B
-          href: whitepaper-azure-b2b-power-bi.md

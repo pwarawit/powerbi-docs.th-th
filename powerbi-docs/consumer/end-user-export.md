@@ -2,21 +2,20 @@
 title: ส่งออกข้อมูลจาก Power BI visual
 description: ส่งออกข้อมูลจากการแสดงผลด้วยภาพของรายงานและการแสดงผลด้วยภาพของแดชบอร์ด และดูข้อมูลนั้นใน Excel
 author: mihart
-manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/11/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 80033cafbe66303a1d6f55bba61f7d19449dc45b
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 0e8a3ce01356804aa5dcca21895fa01b5908ebd0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589529"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851310"
 ---
 # <a name="export-data-from-a-visual"></a>ส่งออกข้อมูลจากการแสดงผลด้วยภาพ
 
@@ -26,11 +25,11 @@ ms.locfileid: "72589529"
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>จากการแสดงผลด้วยภาพบนแดชบอร์ด Power BI
 
-1. เริ่มต้นที่จากแดชบอร์ด Power BI ในส่วนนี้เราใช้แดชบอร์ดจากแอป***ตัวอย่างการตลาดและการขาย*** คุณสามารถ[ดาวน์โหลดแอปนี้ได้จาก AppSource.com](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282)
+1. เริ่มต้นที่จากแดชบอร์ด Power BI ในส่วนนี้เราใช้แดชบอร์ดจากแอป***ตัวอย่างการตลาดและการขาย*** คุณสามารถ[ดาวน์โหลดแอปนี้ได้จาก AppSource.com](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282)
 
     ![เพิ่มแดชบอร์ด](media/end-user-export/power-bi-dashboards.png)
 
-2. วางเมาส์เหนือการแสดงผลด้วยภาพเพื่อแสดงจุดไข่ปลา (...) แล้วคลิกเพื่อแสดงเมนูการดำเนินการ
+2. วางเมาส์เหนือวิชวลเพื่อแสดง**ตัวเลือกเพิ่มเติม** (...) แล้วคลิกเพื่อแสดงเมนูการดำเนินการ
 
     ![เมนูที่ปรากฏขึ้นมาเมื่อเลือกจุดไข่ปลา](media/end-user-export/power-bi-action-menu.png)
 

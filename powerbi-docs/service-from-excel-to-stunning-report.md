@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ed4bc9d10e3e1512aba559d77ba8729a39cb8a84
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 6c393611851e05c7c76983674f2e1de7b5454898
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995060"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020995"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>จากสมุดงาน Excel สู่รายงานอันน่าตื่นตาตื่นใจในบริการ Power BI
 ผู้จัดการต้องการดูรายงานตัวเลขยอดขายของคุณที่รวมข้อมูลที่น่าประทับใจจากแคมเปญล่าสุดภายในวันนี้ แต่ข้อมูลล่าสุดอยู่ในระบบของบุคคลที่สามและไฟล์ต่าง ๆ ในคอมพิวเตอร์โน๊ตบุ๊คของคุณ ในอดีตต้องใช้เวลาหลายชั่วโมงในการสร้างภาพและจัดรูปแบบรายงาน และคุณเริ่มที่จะรู้สึกกังวล
@@ -111,7 +111,7 @@ ms.locfileid: "68995060"
 
 2. เปลี่ยนชนิดของแผนภูมิโดยการเลือกไอคอนใดไอคอนหนึ่งในเมนู**การแสดงข้อมูลด้วยภาพ** เช่น เปลี่ยนเป็น**แผนภูมิคอลัมน์แบบเรียงซ้อนกัน** 
 
-3. เมื่อต้องการเรียงลำดับแผนภูมิ ให้เลือกจุดไข่ปลา (...) > **เรียงลำดับตาม**
+3. เมื่อต้องการเรียงลำดับแผนภูมิ เลือก **ตัวเลือกเพิ่มเติม** (...) > **เรียงลำดับตาม**
 
    ![แผนภูมิคอลัมน์แบบเรียงซ้อนในตัวแก้ไขรายงาน](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
 

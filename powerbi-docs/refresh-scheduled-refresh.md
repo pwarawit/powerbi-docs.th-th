@@ -2,7 +2,6 @@
 title: กำหนดค่าการรีเฟรชตามกำหนดการ
 description: ซึ่งจะครอบคลุมขั้นตอนในการเลือกเกตเวย์ และกำหนดค่าการรีเฟรชตามกำหนดการ
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 46f61d2fcce21e3f8e6dae83c32457414928faee
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 89f8b3d609b9433cc85d8af709eec828f924ad8e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816599"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860702"
 ---
 # <a name="configure-scheduled-refresh"></a>กำหนดค่าการรีเฟรชตามกำหนดเวลา
 
@@ -30,7 +29,7 @@ ms.locfileid: "66816599"
 
 เมื่อต้องการไปยังหน้าจอ **การรีเฟรชตามกำหนดการ** คุณสามารถทำตามต่อไปนี้
 
-1. เลือก**จุดไข่ปลา (...)** ถัดจากชุดข้อมูลที่ระบุภายใต้**ชุดข้อมูล**
+1. เลือก**ตัวเลือกเพิ่มเติม** (...) ถัดจากชุดข้อมูลที่ระบุภายใต้**ชุดข้อมูล**
 2. เลือก**กำหนดเวลารีเฟรช**
 
     ![กำหนดตารางเวลาการรีเฟรช](media/refresh-scheduled-refresh/dataset-menu.png)
@@ -127,5 +126,5 @@ ms.locfileid: "66816599"
 - [การแก้ไขปัญหาเกตเวย์ข้อมูลในองค์กร](service-gateway-onprem-tshoot.md)  
 - [แก้ไขปัญหาเกตเวย์ Power BI - ส่วนบุคคล](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

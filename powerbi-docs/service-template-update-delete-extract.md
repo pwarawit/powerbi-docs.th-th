@@ -2,19 +2,18 @@
 title: อัปเดต ลบ และแยกแอปแม่แบบใน Power BI
 description: วิธีการอัปเดต ลบ และแยกแอปแม่แบบ
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: 2cf655c25bb58ec001bac52b55aea74f887f08d9
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207631"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871379"
 ---
 # <a name="update-delete-and-extract-template-app"></a>อัปเดต ลบ และแยกแอปแม่แบบ
 
@@ -65,7 +64,7 @@ ms.locfileid: "71207631"
 รีเซ็ตการกำหนดรุ่นของพื้นที่ทำงานใหม่ของคุณ คุณสามารถพัฒนาและกระจายแอปเทมเพลตจากพื้นที่ทำงานใหม่แยกออกมา
 
 ## <a name="delete-template-app-version"></a>ลบเวอรชันแอปเทมเพลต
-เทมแพลตพื้นที่ทำงานแอปเป็นแหล่งข้อมูลของแอแม่แบบกระจายที่ใช้งานอยู่ เพื่อปกป้องผู้ใช้แอปเทมเพลต ผู้ใช้จะไม่สามารถลบพื้นที่ทำงานโดยไม่ต้องลบเวอร์ชันแอปที่สร้างขึ้นทั้งหมดในพื้นที่ทำงานก่อนหน้านี้ได้
+เทมแพลตพื้นที่ทำงานเป็นแหล่งข้อมูลของแอปเทมเพลตแบบกระจายที่ใช้งานอยู่ เพื่อปกป้องผู้ใช้แอปเทมเพลต ผู้ใช้จะไม่สามารถลบพื้นที่ทำงานโดยไม่ต้องลบเวอร์ชันแอปที่สร้างขึ้นทั้งหมดในพื้นที่ทำงานก่อนหน้านี้ได้
 การลบเวอร์ชันแอปยังเป็นการลบลบ URL ของแอปที่ไม่ทำงานอีกแล้วไปด้วย
 
 1. ในบานหน้าต่างการจัดการเผยแพร่ กดเลือกจุดไข่ปลา **(...)** จากนั้น**ลบ**

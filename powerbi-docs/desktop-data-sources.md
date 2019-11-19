@@ -2,20 +2,19 @@
 title: แหล่งข้อมูลใน Power BI Desktop
 description: แหล่งข้อมูลใน Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56583c796a8f6e32bed67629dee4fe3bea677bee
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: c363e63a7354c2a8c66099a98cb441ce2c94becf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307842"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878364"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 คุณสามารถเชื่อมต่อกับข้อมูลจากแหล่งต่าง ๆ มากมายด้วย Power BI Desktop รายการทั้งหมดของแหล่งข้อมูลที่พร้อมใช้งานอยู่ที่ด้านล่างของหน้านี้
@@ -234,7 +233,7 @@ ms.locfileid: "72307842"
 
 เมื่อผู้สร้างเปิดขึ้น Power BI Desktop ไฟล์ PBIDS จะเปิดขึ้นและแสดงพร้อมท์ผู้ใช้สำหรับข้อมูลประจำตัวในการรับรองความถูกต้องและเชื่อมต่อกับแหล่งข้อมูลที่ระบุไว้ในไฟล์ กล่องโต้ตอบการนำทางจะปรากฏขึ้นและผู้ใช้ต้องเลือกตารางจากแหล่งข้อมูลดังกล่าวเพื่อโหลดลงในแบบจำลอง นอกจากนี้ผู้ใช้อาจจำเป็นต้องเลือกฐานข้อมูลถ้าไม่ได้ระบุหนึ่งใน ไฟล์ PBIDS 
 
-จากจุดนั้นไปข้างหน้าผู้ใช้สามารถเริ่มสร้างการจัดรูปแบบการแสดงข้อมูลหรือกลับมาใหม่ * sourcesU เมื่อเร็วๆนี้เพื่อโหลดชุดตารางใหม่ลงในแบบจำลอง 
+จากจุดนั้นไปข้างหน้า ผู้ใช้สามารถเริ่มสร้างการจัดรูปแบบการแสดงข้อมูล หรือเยี่ยมชม*แหล่งข้อมูลล่าสุด*ใหม่เพื่อโหลดชุดตารางใหม่ลงในแบบจำลอง 
 
 ในขณะนี้ ไฟล์ PBIDS สนับสนุนสนับสนุนแหล่งข้อมูลเดียวในหนึ่งไฟล์เท่านั้น การระบุแหล่งข้อมูลมากกว่าหนึ่งผลลัพธ์ในข้อผิดพลาด 
 
@@ -364,21 +363,20 @@ URL ต้องชี้ไปยังไซต์ SharePoint เองแล�
 **SQL Server**
 ```
 { 
-  “version”: “0.1”, 
-  “connections”: [ 
+  "version": "0.1", 
+  "connections": [ 
     { 
-      “details”: { 
-        “protocol”: “tds”, 
-        “address”: { 
-          “server”: “server-name-here”, 
-          “database”: “db-name-here (optional)” 
+      "details": { 
+        "protocol": "tds", 
+        "address": { 
+          "server": "server-name-here", 
+          "database": "db-name-here (optional) "
         } 
       }, 
-      “options”: {}, 
-      “mode”: “DirectQuery” 
+      "options": {}, 
+      "mode": "DirectQuery" 
     } 
   ] 
-} 
 } 
 ```
  
@@ -419,6 +417,24 @@ URL ต้องชี้ไปยังไซต์ SharePoint เองแล�
 ```
  
 
+**กระแสข้อมูล**
+```
+{
+  "version": "0.1",
+  "connections": [
+    {
+      "details": {
+        "protocol": "powerbi-dataflows",
+        "address": {
+          "workspace":"workspace id (Guid)",
+          "dataflow":"optional dataflow id (Guid)",
+          "entity":"optional entity name"
+        }
+       }
+    }
+  ]
+}
+```
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 689d86029150fa66daa90c4f93b71ed15750b095
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841402"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73018085"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>บทช่วยสอน: Facebook analytics กำลังใช้ Power BI Desktop
 
@@ -147,7 +147,7 @@ ms.locfileid: "70841402"
    
    ![แผนภูมิแท่ง](media/desktop-tutorial-facebook-analytics/barchart1.png)
    
-4. เลือกจุดไข่ปลา (...) ที่มุมบนขวาของการแสดงภาพ แล้วเลือก**เรียงตาม Number of comments** เพื่อเรียงลำดับตารางตามจำนวนความคิดเห็น จากมากไปหาน้อย 
+4. เลือก**ตัวเลือกเพิ่มเติม** (...) ที่มุมบนขวาของการแสดงภาพ แล้วเลือก**เรียงตามจำนวนความคิดเห็น**เพื่อเรียงลำดับตารางตามจำนวนความคิดเห็น จากมากไปหาน้อย 
    
    ![เรียงลำดับตามจำนวนความคิดเห็น](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
@@ -184,7 +184,7 @@ ms.locfileid: "70841402"
 
 นั่นดีขึ้นแล้ว แต่มีป้ายชื่อข้อมูลทั้งหมดมีจุดทศนิยม **.0** ซึ่งดูขัดตาและไม่ถูกต้อง เพราะ**จำนวนความคิดเห็น**จะต้องเป็นจำนวนเต็ม คุณจำเป็นต้องเปลี่ยนชนิดข้อมูลของคอลัมน์**จำนวนความคิดเห็น**ให้เป็นจำนวนเต็ม
 
-1. เพื่อแก้ไขชนิดของข้อมูล คลิกขวา **Query1** ในรายการเขตข้อมูล หรือโฮเวอร์เหนือคิวรีแล้วเลือกจุดไข่ปลา (...) **ตัวเลือกเพิ่มเติม** จากนั้นเลือก**แก้ไขคิวรี** คุณยังสามารถเลือก**แก้ไขคิวรี**จากบริเวณ**ข้อมูลภายนอก** ของแท็บหน้าแรกใน ribbon จากนั้นเลือก**แก้ไขคิวรี**จากดรอปดาวน์ Power BI Desktop เปิด **ตัวแก้ไข Power Query** เป็นอีกหน้าต่าง
+1. ในการแก้ไขชนิดข้อมูล ให้คลิกขวา **Query1** ในรายการเขตข้อมูล หรือวางเมาส์เหนือคิวรีแล้วเลือก **ตัวเลือกเพิ่มเติม** (...) จากนั้นเลือก**แก้ไขคิวรี** คุณยังสามารถเลือก**แก้ไขคิวรี**จากบริเวณ**ข้อมูลภายนอก** ของแท็บหน้าแรกใน ribbon จากนั้นเลือก**แก้ไขคิวรี**จากดรอปดาวน์ Power BI Desktop เปิด **ตัวแก้ไข Power Query** เป็นอีกหน้าต่าง
    
    ![แก้ไขคิวรีจากรายการเขตข้อมูล](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![แก้ไขคิวรีจาก ribbon](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
    

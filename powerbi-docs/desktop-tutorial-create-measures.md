@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59567b62c44a386b3890f68de49b9f7aed76aa45
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513892"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019348"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>บทช่วยสอน: สร้างหน่วยวัดของคุณเองใน Power BI Desktop
 คุณสามารถสร้างโซลูชันของการวิเคราะห์ข้อมูลมีประสิทธิภาพที่สุดบางอย่างใน Power BI Desktop โดยใช้หน่วยวัด หน่วยวัดที่ช่วยคุณด้วยการคำนวนบนข้อมูลของคุณ ตามที่คุณโต้ตอบกับรายงานของคุณ บทเรียนนี้จะแนะนำคุณโดยผ่านการทำความเข้าใจเกี่ยวกับหน่วยวัด และสร้างหน่วยวัดพื้นฐานของคุณเองใน Power BI Desktop
@@ -60,7 +60,7 @@ ms.locfileid: "65513892"
 
 คุณต้องการวิเคราะห์ยอดขายสุทธิของคุณ โดยลบส่วนลดและส่งกลับจากยอดขายรวม สำหรับบริบทใดก็ตามที่อยู่ในการแสดงภาพของคุณ คุณจำเป็นต้องมีหน่วยวัดที่ลบผลรวมของ DiscountAmount และ ReturnAmount จากผลรวมของ SalesAmount ไม่มีฟิลด์สำหรับยอดขายในรายการของเขตข้อมูล แต่คุณต้องมีบล๊อกเพื่อสร้างหน่วยวัดของคุณเองเพื่อคำนวณยอดขายสุทธิ 
 
-1.  คลิกขวาตาราง**Sales**ในเขตข้อมูล well หรือวางเคอร์เซอร์เหนือตารางและเลือกจุดไข่ปลา (...)**ตัวเลือกเพิ่มเติม** จากนั้นเลือก**หน่วยวัดใหม่** จะบันทึกหน่วยวัดใหม่ของคุณในตาราง Sales ตำแหน่งที่จะหาได้ง่ายขึ้น
+1.  คลิกขวาตาราง**ยอดขาย**ในพื้นที่เขตข้อมูล หรือวางเมาส์เหนือตาราง และเลือก**ตัวเลือกเพิ่มเติม** (...) จากนั้นเลือก**หน่วยวัดใหม่** จะบันทึกหน่วยวัดใหม่ของคุณในตาราง Sales ตำแหน่งที่จะหาได้ง่ายขึ้น
     
     ![การวัดใหม่](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     

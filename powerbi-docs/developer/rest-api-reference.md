@@ -1,24 +1,28 @@
 ---
 title: ข้อมูลอ้างอิง Power BI REST API
 description: ข้อมูลอ้างอิง Power BI REST API
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 7677bbc71f141b0ca64bfa9d10d8c5b3c884904c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 38e04049ad7fb4f2bc9a59f9680d257800e77148
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61270150"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019127"
 ---
 # <a name="power-bi-rest-api-reference"></a>ข้อมูลอ้างอิง Power BI REST API
 
-Power BI เป็นบริการบนระบบคลาวด์ที่คุณสามารถใช้เพื่อสร้างแอปพลิเคชันแดชบอร์ดแบบกำหนดเอง Power BI REST API คือ REST-based API ที่มอบสิทธิ์การเข้าถึงทางโปรแกรม**แหล่งข้อมูลแดชบอร์ด**เช่น**ชุดข้อมูล** **ตาราง**และ**แถว**ใน Power BI
+Power BI เป็นบริการบนระบบคลาวด์ที่คุณสามารถใช้เพื่อสร้างแอปพลิเคชันแดชบอร์ดแบบกำหนดเอง Power BI REST API คือ API ที่ใช้ REST ซึ่งมีการเข้าถึงทางโปรแกรมไปยังอาร์ทิแฟกต์ทั้งหมดที่บริการกำลังใช้อยู่ เช่น:
+* ชุดข้อมูล
+* แดชบอร์ด
+* รายงาน
+* เกตเวย์
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 

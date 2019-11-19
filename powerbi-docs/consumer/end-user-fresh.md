@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141810"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019775"
 ---
 # <a name="your-content-is-up-to-date"></a>เนื้อหาของคุณเป็นเวอร์ชันล่าสุด
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 ในฐานะ*ผู้ใช้*คุณโต้ตอบกับเนื้อหาที่ถูกสร้างขึ้นโดย*นักออกแบบ*และแชร์กับคุณ คุณอาจสงสัยว่าเนื้อหานั้นเป็นเวอร์ชันล่าสุดหรือไม่ หรือคุณอาจแค่ต้องการทราบว่าเนื้อหานั้นได้รับการรีเฟรชครั้งล่าสุดเมื่อใด เมื่อทราบว่าคุณกำลังทำงานกับเนื้อหาล่าสุด นั่นจะช่วยเพิ่มความมั่นใจให้กับคุณ  
  
 ![แดชบอร์ด Power BI](media/end-user-fresh/power-bi-dashboards.png)
@@ -63,7 +66,7 @@ ms.locfileid: "71141810"
 ### <a name="dashboard-tiles"></a>ไทล์แดชบอร์ด
 สำหรับไทล์แดชบอร์ด ดูไทล์ในโหมดโฟกัสเพื่อดูการประทับเวลาการรีเฟรชล่าสุด
 
-1. บนไทล์แดชบอร์ด เลือกจุดไข่ปลา (...) แล้วเลือก **เปิดในโหมดโฟกัส**
+1. บนไทล์แดชบอร์ด เลือก**ตัวเลือกเพิ่มเติม** (...) แล้วเลือก **เปิดในโหมดโฟกัส**
 
     ![เมนูที่ปรากฏขึ้นหลังจากเลือกจุดไข่ปลา](media/end-user-fresh/power-bi-focus-mode.png)
 
@@ -72,7 +75,7 @@ ms.locfileid: "71141810"
     ![เบราว์เซอร์ที่กว้างแสดงถึงการรีเฟรชล่าสุด](media/end-user-fresh/power-bi-last-refresh2.png)
 
 ### <a name="dashboards-and-reports"></a>แดชบอร์ดและรายงาน
-อีกวิธีในการค้นหาวันที่รีเฟรชล่าสุดคือ การใช้**ดูรายการที่เกี่ยวข้อง**  **ดูรายการที่เกี่ยวข้อง**พร้อมใช้งานโดยการเลือกจุดไข่ปลา (...) จากแถบเมนูด้านบนของ Power BI
+อีกวิธีในการค้นหาวันที่รีเฟรชล่าสุดคือ การใช้**ดูรายการที่เกี่ยวข้อง**  **ดูรายการที่เกี่ยวข้อง**สามารถใช้ได้โดยการเลือก**ตัวเลือกเพิ่มเติม** (...) จากแถบเมนูด้านบนของ Power BI
 
 ![เลือกดูรายการที่เกี่ยวข้องจากเมนู](media/end-user-fresh/power-bi-view-related-dropdown.png)
 

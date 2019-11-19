@@ -1,20 +1,19 @@
 ---
 title: ลงทะเบียนแอปเพื่อฝังเนื้อหา Power BI
 description: เรียนรู้วิธีการลงทะเบียนแอปพลิเคชันภายใน Azure Active Directory สำหรับการใช้งานด้วยการฝังเนื้อหา Power BI
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: 73cca097ce6693c3bbee538eb1518a2ede19beab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a2aa135bfa5720763485579b012c13c722637db
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269799"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009797"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>ลงทะเบียนแอปพลิเคชัน Azure AD เพื่อใช้กับ Power BI
 
@@ -83,7 +82,7 @@ ms.locfileid: "61269799"
 
 3. เลือกผู้เช่า Azure AD ของคุณ โดยการเลือกบัญชีของคุณในมุมบนขวาของหน้า
 
-4. ในบานหน้าต่างนำทางซ้ายมือ ไปยัง**บริการทั้งหมด** จากนั้นเลือก**การลงทะเบียนแอป** แล้วเลือก **ลงทะเบียนใหม่**
+4. ในบานหน้าต่างนำทางด้านซ้ายมือ ไปยัง**บริการทั้งหมด** จากนั้นเลือก**การลงทะเบียนแอป** แล้วเลือก **ลงทะเบียนใหม่**
 
 5. ทำตามพร้อมท์และสร้างแอปพลิเคชัน์ใหม่
 
@@ -105,7 +104,7 @@ ms.locfileid: "61269799"
 
 ### <a name="using-the-azure-ad-portal"></a>ใช้พอร์ทัล Azure AD
 
-1. เรียกดู [การลงทะเบียนแอป](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) ภายในพอร์ทัล Azure และเลือกแอปที่คุณกำลังใช้เพื่อการฝังตัว
+1. เรียกดู [การลงทะเบียนแอป](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType//sourceType/) ภายในพอร์ทัล Azure และเลือกแอปที่คุณกำลังใช้เพื่อการฝังตัว
 
 2. เลือก**สิทธิ์ API** ภายใต้หัวข้อ **จัดการ**
 
@@ -199,4 +198,4 @@ ms.locfileid: "61269799"
 
 หลังจากที่คุณลงทะเบียนแอปพลิเคชันของคุณภายใน Azure AD แล้ว คุณต้องรับรองความถูกต้องของผู้ใช้ภายในแอปพลิเคชันของคุณ ดูที่[รับรองความถูกต้องผู้ใช้ และรับโทเค็นการเข้าถึง Azure AD สำหรับแอป Power BI ของคุณ](get-azuread-access-token.md)เมื่อต้องการเรียนรู้เพิ่มเติม
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

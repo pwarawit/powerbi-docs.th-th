@@ -3,18 +3,17 @@ title: การพัฒนาวิชวลสำหรับ Power BI
 description: บทช่วยสอนวิธีพัฒนาวิชวลแบบกำหนดเองของ Power BI
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
+ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: 1aa269bc738b873ac36498e2ecf52f2cf06c209d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 5bf3fee0f3df7b5be04b99e16a8a4043e8fcf30e
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72308708"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128016"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>บทช่วยสอน: การพัฒนาวิชวลสำหรับ Power BI
 
@@ -238,7 +237,7 @@ ms.locfileid: "72308708"
 
     ![รับข้อมูล](media/custom-visual-develop-tutorial/get-data.png)![ไฟล์ภายในเครื่อง](media/custom-visual-develop-tutorial/local-file.png)
 
-    เมื่อต้องการดูรายงานในตอนนี้ ให้เลือก **US_Sales_Analysis** จากส่วน**รายงาน**ในแผงนำทางด้านซ้าย
+    เมื่อต้องการดูรายงานในตอนนี้ ให้เลือก **US_Sales_Analysis** จากส่วน**รายงาน** ในบานหน้าต่างนำทางด้านซ้าย
 
     ![ตัวอย่าง Desktop วิชวลแบบกำหนดเอง](media/custom-visual-develop-tutorial/custom-visual-sample.png)
 

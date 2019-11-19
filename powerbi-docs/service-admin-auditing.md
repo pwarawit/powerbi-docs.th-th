@@ -2,7 +2,6 @@
 title: ใช้การตรวจสอบภายในองค์กรของคุณ
 description: เรียนรู้วิธีการใช้การตรวจสอบภายในด้วย Power BI เพื่อตรวจติดตามและตรวจสอบการกระทำต่าง ๆ ที่ดำเนินการ คุณสามารถใช้ศูนย์การรักษาความปลอดภัยและการปฏิบัติตามนโยบายได้ หรือใช้ PowerShell
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: aef5a8861a42e566086198c924c99d0b73406f60
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 76de629f1579289ea3b702013583911d05f08408
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325461"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873768"
 ---
 # <a name="use-auditing-within-your-organization"></a>ใช้การตรวจสอบภายในองค์กรของคุณ
 
@@ -162,7 +161,9 @@ Remove-PSSession $Session
 | ผู้ดูแลระบบแนบบัญชีเก็บข้อมูลกระแสข้อมูลไปยังผู้เช่า | AdminAttachedDataflowStorageAccountToTenant | ยังไม่ได้ใช้ในปัจจุบัน                       |
 | ชุดข้อมูล Power BI ที่วิเคราะห์แล้ว                         | AnalyzedByExternalApplication               |                                          |
 | วิเคราะห์รายงาน Power BI แล้ว                          | AnalyzeInExcel                              |                                          |
+| แนบบัญชีที่จัดก็บข้อมูลกระแสข้อมูลแล้ว                 | AttachedDataflowStorageAccount              |                                          |
 | ผูกชุดข้อมูล Power BI ไปยังเกตเวย์แล้ว                | BindToGateway                               |                                          |
+| ยกเลิกการรีเฟรชกระแสข้อมูลแล้ว                        | CancelDataflowRefresh                       |                                          |
 | เปลี่ยนแปลงสถานะความจุแล้ว                            | ChangeCapacityState                         |                                          |
 | เปลี่ยนแปลงการกำหนดผู้ใช้ความจุแล้ว                  | UpdateCapacityUsersAssignment               |                                          |
 | เปลี่ยนแปลงการเชื่อมต่อชุดข้อมูล Power BI แล้ว              | SetAllConnections                           |                                          |
@@ -194,6 +195,7 @@ Remove-PSSession $Session
 | ลบรายงาน Power BI แล้ว                           | DeleteReport                                |                                          |
 | ค้นพบแหล่งข้อมูลสำหรับชุดข้อมูล Power BI แล้ว          | GetDatasources                              |                                          |
 | รายงาน Power BI ที่ดาวน์โหลด                        | DownloadReport                              |                                          |
+| แก้ไขคุณสมบัติของกระแสข้อมูลแล้ว                        | EditDataflowProperties                      |                                          |
 | แก้ไขการให้สิทธิ์ใบรับรอง Power BI แล้ว          | EditCertificationPermission                 | ยังไม่ได้ใช้ในปัจจุบัน                       |
 | แก้ไขแดชบอร์ด Power BI แล้ว                         | EditDashboard                               | ยังไม่ได้ใช้ในปัจจุบัน                       |
 | แก้ไขชุดข้อมูล Power BI แล้ว                           | EditDataset                                 |                                          |
@@ -213,7 +215,7 @@ Remove-PSSession $Session
 | พิมพ์แดชบอร์ด Power BI แล้ว                        | PrintDashboard                              |                                          |
 | พิมพ์หน้ารายงาน Power BI แล้ว                      | PrintReport                                 |                                          |
 | เผยแพร่รายงาน Power BI ไปยังเว็บแล้ว                  | PublishToWebReport                          |                                          |
-| ได้รับข้อมูลลับสำหรับกระแสข้อมูล Power BI จาก Key Vault แล้ว  | ReceiveDataflowSecretFromKeyVault           | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| ได้รับข้อมูลลับสำหรับกระแสข้อมูล Power BI จาก Key Vault แล้ว  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | ลบแหล่งข้อมูลออกจากเกตเวย์ Power BI แล้ว         | RemoveDatasourceFromGateway                 |                                          |
 | ลบสมาชิกกลุ่ม Power BI แล้ว                    | DeleteGroupMembers                          |                                          |
 | ลบพื้นที่ทำงานออกจากความจุแล้ว                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -221,6 +223,7 @@ Remove-PSSession $Session
 | ร้องขอการรีเฟรชกระแสข้อมูล Power BI แล้ว               | RequestDataflowRefresh                      | ยังไม่ได้ใช้ในปัจจุบัน                       |
 | ร้องขอการรีเฟรชชุดข้อมูล Power BI แล้ว                | RefreshDataset                              |                                          |
 | เรียกคืนพื้นที่ทำงาน Power BI แล้ว                     | GetWorkspaces                               |                                          |
+| ตั้งค่าตำแหน่งที่จัดเก็บกระแสข้อมูลสำหรับพื้นที่ทำงาน     | SetDataflowStorageLocationForWorkspace      |                                          |
 | ตั้งค่าการรีเฟรชตามกำหนดเวลาบนกระแสข้อมูล Power BI        | SetScheduledRefreshOnDataflow               |                                          |
 | ตั้งค่าการรีเฟรชตามกำหนดเวลาบนชุดข้อมูล Power BI         | SetScheduledRefresh                         |                                          |
 | แชร์แดชบอร์ด Power BI แล้ว                         | ShareDashboard                              |                                          |
@@ -229,10 +232,12 @@ Remove-PSSession $Session
 | เริ่มต้นใช้งานเวอร์ชันทดลองของ Power BI แล้ว                            | OptInForProTrial                            |                                          |
 | เข้าควบคุมแหล่งข้อมูล Power BI แล้ว                   | TakeOverDataset                          |                                          |
 | เข้าควบคุมชุดข้อมูล Power BI แล้ว                        | TakeOverDataset                             |                                          |
+| เข้าควบคุมกระแสข้อมูล Power BI แล้ว                     | TookOverDataflow                             |                                          |
 | ยกเลิกเผยแพร่แอป Power BI แล้ว                          | UnpublishApp                                |                                          |
 | อัปเดตการตั้งค่าการกำกับดูแลทรัพยากรความจุ      | UpdateCapacityResourceGovernanceSettings    | ปัจจุบันไม่อยู่ในศูนย์การจัดการ Microsoft 365 |
 | อัปเดตผู้ดูแลความจุแล้ว                            | UpdateCapacityAdmins                        |                                          |
 | อัปเดตชื่อที่แสดงความจุแล้ว                     | UpdateCapacityDisplayName                   |                                          |
+| ปรับปรุงสิทธิ์การกำหนดที่จัดเก็บกระแสข้อมูลแล้ว   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | อัปเดตการตั้งค่า Power BI ขององค์กรแล้ว          | UpdatedAdminFeatureSwitch                   |                                          |
 | อัปเดตแอป Power BI แล้ว                              | UpdateApp                                   |                                          |
 | อัปเดตกระแสข้อมูล Power BI แล้ว                         | UpdateDataflow                              |                                          |
@@ -255,4 +260,4 @@ Remove-PSSession $Session
 
 [พอร์ทัลผู้ดูแล Power BI](service-admin-portal.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

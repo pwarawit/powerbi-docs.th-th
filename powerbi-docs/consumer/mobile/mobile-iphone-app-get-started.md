@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cc239ad33d8789d679fccd21339740af71155336
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67498984"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059461"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>เริ่มต้นใช้งานแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ IOS
 Microsoft Power BI สำหรับแอป iOS บน iPhone บน iPad หรือบน iPod Touch ให้บริการของ Power BI บริการของเซิร์ฟเวอร์รายงาน Power BI และ บริการการรายงาน ดูและโต้ตอบกับแดชบอร์ดของบริษัทของคุณ ภายในองค์กรและในคลาวด์ จากที่ใดก็ได้ ผ่านอุปกรณ์เคลื่อนที่ ที่รองรับระบบสัมผัสและดูข้อมูลสดได้ สำรวจข้อมูลในแดชบอร์ดและแชร์กับเพื่อนร่วมงานของคุณผ่านอีเมลหรือการส่งข้อความ และอัปเดตอยู่เสมอ ด้วยข้อมูลของคุณมากที่สุดตามระยะเวลาในของคุณ[Apple Watch](mobile-apple-watch.md)  
@@ -31,7 +31,7 @@ Microsoft Power BI สำหรับแอป iOS บน iPhone บน iPad ห
 ดูว่า[มีอะไรใหม่ในแอป Power BI](mobile-whats-new-in-the-mobile-apps.md) สำหรับอุปกรณ์เคลื่อนที่
 
 ## <a name="download-the-app"></a>ดาวน์โหลดแอป
-[ดาวน์โหลดแอป iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "ดาวน์โหลดแอป iOS")จากร้าน Apple App Store ไปยัง iPhone หรือ iPad หรือ iPod Touch ของคุณ
+[ดาวน์โหลดแอป iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "ดาวน์โหลดแอป iOS") จาก Apple App Store ไปยัง iPhone หรือ iPad หรือ iPod Touch ของคุณ
 
 คุณสามารถเรียกใช้ Power BI สำหรับแอป iOS บนอุปกรณ์ใด ๆ ที่ใช้ iOS 11 หรือใหม่กว่า 
 
@@ -109,7 +109,7 @@ Microsoft Intune ช่วยให้องค์กรควบคุมรา
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-* [Power BI คืออะไร](../../power-bi-overview.md)
+* [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 
 

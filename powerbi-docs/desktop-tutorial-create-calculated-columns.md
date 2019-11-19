@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 92cd402c394fc2f03a9bba3149260c022116e9d7
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514542"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017801"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>บทช่วยสอน: สร้างคอลัมน์จากการคำนวณใน Power BI Desktop
 
@@ -36,7 +36,7 @@ ms.locfileid: "65514542"
 
  ![คอลัมน์ในรายการเขตข้อมูล](media/desktop-tutorial-create-calculated-columns/create1.png)
 
-1.  เลือกจุดไข่ปลา (...) **ตัวเลือกเพิ่มเติม** หรือคลิกขวาบนตาราง **ProductSubcategory** ในรายการเขตข้อมูล จากนั้นเลือก**คอลัมน์ใหม่** ซึ่งจะสร้างคอลัมน์ใหม่ของคุณในตาราง ProductSubcategory
+1.  เลือก **ตัวเลือกเพิ่มเติม** (...) หรือคลิกขวาบนตาราง **ProductSubcategory** ในรายการเขตข้อมูล จากนั้นเลือก**คอลัมน์ใหม่** ซึ่งจะสร้างคอลัมน์ใหม่ของคุณในตาราง ProductSubcategory
     
     ![คอลัมน์ใหม่](media/desktop-tutorial-create-calculated-columns/create2.png)
     

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195196"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432346"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>ติดตั้งและแจกจ่ายแอปแม่แบบในองค์กรของคุณ - Power BI (ตัวอย่าง)
 
@@ -57,7 +57,7 @@ ms.locfileid: "71195196"
 
 4. ในกล่องโต้ตอบ ให้เลือก **ติดตั้ง**
 
-    ![ติดตั้งแอป](media/service-template-apps-install-distribute/power-install-dialog.png)ถ้าคุณมีสิทธิ์ในการเข้าใช้งาน Power BI Pro จะมีการติดตั้งแอปพร้อมกับพื้นที่ทำงานของแอปที่เกี่ยวข้อง คุณกำหนดค่าแอปในพื้นที่ทำงานเกี่ยวข้อง
+    ![ติดตั้งแอป](media/service-template-apps-install-distribute/power-install-dialog.png)ถ้าคุณมีสิทธิ์ในการเข้าใช้งาน Power BI Pro จะมีการติดตั้งแอปพร้อมกับพื้นที่ทำงานที่เกี่ยวข้อง คุณกำหนดค่าแอปในพื้นที่ทำงานเกี่ยวข้อง
 
     เมื่อการติดตั้งสำเร็จ คุณจะเห็นการแจ้งเตือนว่า แอปใหม่ของคุณพร้อมแล้ว
 4. เลือก**ไปยังแอป**
@@ -71,7 +71,7 @@ ms.locfileid: "71195196"
 
     หรือข้ามกล่องโต้ตอบนี้ และเข้าถึงพื้นที่ทำงานที่เกี่ยวข้องโดยตรงผ่านทาง**พื้นที่ทำงาน**ในบานหน้าต่างนำทางด้านซ้าย
     >[!NOTE]
-    >กำลังติดตั้งแอปเทมเพลตซึ่งติดตั้งทั้ง *แอปองค์กร*และ*พื้นที่ทำงานแอป* อ่านเพิ่มเติมเกี่ยวกับ [กระจายแอปใน Power BI](service-create-distribute-apps.md)
+    >การติดตั้งแอปแม่แบบที่ติดตั้งทั้ง *แอปองค์กร*และ*พื้นที่ทำงาน* อ่านเพิ่มเติมเกี่ยวกับ [กระจายแอปใน Power BI](service-create-distribute-apps.md)
  
 6. ก่อนที่คุณแชร์กับเพื่อนร่วมงานของคุณ คุณจะต้องเชื่อมต่อกับข้อมูลของคุณเองก่อน คุณอาจต้องการปรับเปลี่ยนรายงานหรือแดชบอร์ดเพื่อทำให้ทำงานสำหรับองค์กรของคุณ คุณยังสามารถเพิ่มรายงานหรือแดชบอร์ดอื่นๆ ในตอนนี้
 

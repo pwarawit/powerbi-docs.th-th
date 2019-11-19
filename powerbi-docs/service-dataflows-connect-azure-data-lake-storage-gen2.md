@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160372"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432021"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับที่เก็บกระแสข้อมูล (ตัวอย่าง)
 
@@ -183,7 +183,7 @@ ms.locfileid: "70160372"
 
 ลูกค้า Power BI Desktop ไม่สามารถเข้าถึงกระแสข้อมูลที่เก็บไว้ในบัญชี **Azure Data Lake Storage Gen2** ได้จนกว่าพวกเขาจะเป็นเจ้าของกระแสข้อมูลเองหรือได้รับอนุญาตให้เข้าถึงโฟลเดอร์ CDM ใน data lake ได้ ต่อไปนี้คือสถานการณ์สมมติ:
 
-1. แอนนาสร้างแอปพื้นที่ทำงานใหม่และกำหนดค่าเพื่อจัดเก็บกระแสข้อมูลใน data lake ขององค์กร 
+1. แอนนาสร้างพื้นที่ทำงานใหม่และกำหนดค่าเพื่อจัดเก็บกระแสข้อมูลใน data lake ขององค์กร 
 2. เบน (สมาชิกคนหนึ่งของพื้นที่ทำงานที่แอนนาสร้าง) ต้องการใช้ Power BI Desktop และตัวเชื่อมต่อกระแสข้อมูลเพื่อรับข้อมูลจากกระแสข้อมูลที่ แอนนาสร้าง
 3. เบนเจอข้อผิดพลาดคล้ายกันกับรูปดังต่อไปนี้เนื่องจากเบนไม่ได้รับอนุญาตไปยังโฟลเดอร์ CDM ของกระแสข้อมูลใน lake
 

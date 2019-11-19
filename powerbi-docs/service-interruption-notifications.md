@@ -2,19 +2,18 @@
 title: การแจ้งเตือนการหยุดชะงักของบริการ
 description: เรียนรู้เกี่ยวกับวิธีการรับการแจ้งเตือนทางอีเมลเมื่อบริการของ Power BI หยุดทำงานหรือลดประสิทธิภาพ
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/16/2019
 ms.author: mblythe
-ms.openlocfilehash: 677e2b96da533b62cafc724a2f4498591d91057a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 90ab6c48465a9b7dc5eecca457953f77c727304c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073574"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872157"
 ---
 # <a name="service-interruption-notifications"></a>การแจ้งเตือนการหยุดชะงักของบริการ
 
@@ -28,7 +27,7 @@ ms.locfileid: "71073574"
 - ความน่าเชื่อถือของการรีเฟรชแบบจำลอง
 - ความน่าเชื่อถือของการรีเฟรชคิวรี
 
-ตัวอย่างของการแจ้งเตือนเหล่านี้รวมถึงเมื่อผู้ใช้ประสบความล่าช้าในการดำเนินงาน เช่น การเปิดรายงาน การรีเฟรชชุดข้อมูล หรือการดำเนินการค้นหา หลังจากที่มีการแก้ไขปัญหาแล้ว คุณจะได้รับอีเมลการติดตามผล
+การแจ้งเตือนจะถูกส่งไปเมื่อมี_ความล่าช้าที่ขยายออกไป_ในการดำเนินงาน เช่น การเปิดรายงาน การรีเฟรชชุดข้อมูล หรือการดำเนินการคิวรี หลังจากที่มีการแก้ไขปัญหาแล้ว คุณจะได้รับอีเมลการติดตามผล
 
 > [!NOTE]
 > ปัจจุบัน คุณลักษณะนี้พร้อมใช้งานสำหรับความจุเฉพาะใน Power BI Premium เท่านั้น ซึ่งไม่พร้อมใช้งานสำหรับความจุที่ใช้ร่วมกันหรือฝังไว้
@@ -52,4 +51,4 @@ ms.locfileid: "71073574"
 
 [ตัวเลือกการสนับสนุน Power BI Pro และ Power BI Premium](service-support-options.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

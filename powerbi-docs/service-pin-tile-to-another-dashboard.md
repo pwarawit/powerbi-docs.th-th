@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d4e9c095dc0114ec3b5fe2fdd6d52fd25aa76d97
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61225906"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020126"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>ปักหมุดไทล์จากแดชบอร์ดหนึ่งไปยังอีกแดชบอร์ด
 วิธีหนึ่งในการเพิ่ม[แดชบอร์ดไทล์](consumer/end-user-tiles.md)ใหม่คือ การคัดลอกจากแดชบอร์ดอื่น แต่ละไทล์เหล่านี้ เป็นลิงก์กลับไปยังตำแหน่งที่ถูกสร้างขึ้นเมื่อคลิก ใน Q&A หรือรายงาน 
@@ -26,7 +26,7 @@ ms.locfileid: "61225906"
 ## <a name="pin-a-tile-to-another-dashboard"></a>ปักหมุดไทล์ไปยังแดชบอร์ดอื่น
 1. [รับข้อมูล](service-get-data.md) ตัวอย่างนี้จะใช้[ตัวอย่างการวิเคราะห IT Spend Analysis ](sample-it-spend.md)
 2. เปิด[แดชบอร์ด](consumer/end-user-dashboards.md)
-3. วางเคอร์เซอร์เหนือที่ไทล์คุณต้องการปักหมุด เลือกจุดไข่ปลา (...) และเลือก**ปักหมุดไทล์**  
+3. วางเมาส์เหนือที่ไทล์คุณต้องการปักหมุด เลือก**ตัวเลือกเพิ่มเติม** (...) และเลือก**ปักหมุดไทล์**  
    
    ![เมนูจุดไข่ปลา](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. ปักหมุดไทล์ลงในแดชบอร์ดที่มีอยู่ หรือแดชบอร์ดใหม่ 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020247"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021086"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>สร้างพื้นที่ทำงานแบบคลาสสิกใน Power BI
 
@@ -39,7 +39,7 @@ ms.locfileid: "72020247"
 ### <a name="add-an-image-to-your-office-365-workspace-optional"></a>เพิ่มรูปภาพลงในพื้นที่ทำงาน Office 365 ของคุณ (เป็นตัวเลือก)
 ตามค่าเริ่มต้น Power BI สร้างวงกลมสีขนาดเล็กสำหรับแอปฯของคุณด้วยชื่อย่อของแอปฯ แต่คุณอาจต้องการกำหนดด้วยตนเองด้วยรูปภาพหนึ่ง ในการเพิ่มรูปภาพ คุณจำเป็นต้องมีสิทธิ์การใช้งาน Exchange Online
 
-1. เลือก**พื้นที่ทำงาน** เลือกจุดไข่ปลา (...) ที่อยู่ถัดจากชื่อของพื้นที่ทำงาน จากนั้นเลือก**สมาชิก** 
+1. เลือก**พื้นที่ทำงาน** เลือก**ตัวเลือกเพิ่มเติม** (...) ที่อยู่ถัดจากชื่อของพื้นที่ทำงาน จากนั้นเลือก**สมาชิก** 
    
      ![เลือกสมาชิกพื้นที่ทำงาน](media/service-create-workspaces/power-bi-workspace-old-members.png)
    

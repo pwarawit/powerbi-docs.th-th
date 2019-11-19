@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3577c19342d9f2dc5b0e3ab9908f47f82430e6db
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391499"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020626"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>เชื่อมต่อกับตัวอย่างบริการ Power BI
 
@@ -91,7 +91,7 @@ ms.locfileid: "68391499"
      
    ![สร้างรายงานใหม่](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
 
-1. อีกวิธีหนึ่งในการสำรวจชุดข้อมูล คือการเรียกใช้ [ข้อมูลเชิงลึกด่วน](consumer/end-user-insights.md) เลือกจุดไข่ปลา (...) แล้วเลือก **รับข้อมูลเชิงลึก** เมื่อข้อมูลเชิงลึกพร้อมแล้ว เลือก**ดูข้อมูลเชิงลึก**
+1. อีกวิธีหนึ่งในการสำรวจชุดข้อมูล คือการเรียกใช้ [ข้อมูลเชิงลึกด่วน](consumer/end-user-insights.md) เลือก**ตัวเลือกเพิ่มเติม** (...) แล้วเลือก **รับข้อมูลเชิงลึกด่วน** เมื่อข้อมูลเชิงลึกพร้อมแล้ว เลือก**ดูข้อมูลเชิงลึก**
      
     ![รายงานข้อมูลเชิงลึก](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 

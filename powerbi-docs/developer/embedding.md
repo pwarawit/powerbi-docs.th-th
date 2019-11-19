@@ -17,16 +17,16 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: d2e52ff986bb2bba0caf5168c5038bb55011144a
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 501b43b7a17d60bbb277cd68c1a5d13e09b14bd5
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391528"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430730"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>การวิเคราะห์แบบฝังตัวด้วย Power BI
 
-บริการ Power BI (SaaS) และบริการ Power BI Embedded ใน Azure (PaaS) มี API สำหรับการฝังสำหรับแดชบอร์ดและรายงาน เมื่อทำการฝังเนื้อหา คุณจะสามารถเข้าถึงคุณสมบัติล่าสุดของ Power BI เช่น แดชบอร์ด เกตเวย์ และพื้นที่ทำงานแอป
+บริการ Power BI (SaaS) และบริการ Power BI Embedded ใน Azure (PaaS) มี API สำหรับการฝังสำหรับแดชบอร์ดและรายงาน เมื่อทำการฝังเนื้อหา คุณจะสามารถเข้าถึงคุณลักษณะล่าสุดของ Power BI เช่น แดชบอร์ด เกตเวย์ และพื้นที่ทำงาน
 
 คุณสามารถเข้าถึง[เครื่องมือตั้งค่าการฝังตัว](https://aka.ms/embedsetup)เพื่อเริ่มต้นใช้งานได้อย่างรวดเร็ว และดาวน์โหลดแอปพลิเคชันตัวอย่างได้
 
@@ -85,7 +85,7 @@ Power BI Embedded มีประโยชน์สำหรับ ISV นัก
 > [!IMPORTANT]
 > ในขณะที่การฝังจำเป็นต้องใช้บริการของ Power BI ลูกค้าของคุณไม่จำเป็นต้องมีบัญชี Power BI เพื่อดูเนื้อหาแบบฝังตัวของแอปพลิเคชั่น 
 
-เมื่อคุณพร้อมที่จะย้ายไปยังการผลิต ต้องกำหนดความจุเฉพาะให้กับพื้นที่ทำงานของแอป Power BI Embedded ใน Microsoft Azure มี [ความจุเฉพาะ](azure-pbie-create-capacity.md)ให้ใช้กับแอปพลิเคชันของคุณ
+เมื่อคุณพร้อมที่จะย้ายไปยังการผลิต ต้องกำหนดความจุเฉพาะให้กับพื้นที่ทำงาน Power BI Embedded ใน Microsoft Azure มี [ความจุเฉพาะ](azure-pbie-create-capacity.md)ให้ใช้กับแอปพลิเคชันของคุณ
 
 สำหรับรายละเอียดการฝัง ดู[วิธีการฝังเนื้อหา Power BI](embed-sample-for-customers.md)
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839749"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431674"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>บทช่วยสอน: สร้างรายงานแบบแบ่งหน้าและอัปโหลดไปยังบริการของ Power BI
 
@@ -44,7 +44,7 @@ ms.locfileid: "66839749"
 โปรดดูข้อกำหนดเบื้องต้นในการอัปโหลดรายงานแบบแบ่งหน้าไปยังบริการของ Power BI:
 
 - คุณต้องมี[สิทธิ์การใช้งาน Power BI Pro](service-admin-power-bi-pro-in-your-organization.md)
-- คุณต้องมีพื้นที่ทำงานของแอปในบริการใน[ความจุ Power BI Premium](service-premium-what-is.md) มีไอคอนรูปข้าวหลามตัดที่หมายถึง![ไอคอนรูปข้าวหลามตัดพรีเมียม](media/paginated-reports-quickstart-aw/premium-diamond.png)อยู่ถัดจากชื่อของพื้นที่ทำงาน
+- คุณต้องมีพื้นที่ทำงานบนบริการใน[ความจุ Power BI Premium](service-premium-what-is.md) มีไอคอนรูปข้าวหลามตัดที่หมายถึง![ไอคอนรูปข้าวหลามตัดพรีเมียม](media/paginated-reports-quickstart-aw/premium-diamond.png)อยู่ถัดจากชื่อของพื้นที่ทำงาน
 
 ## <a name="create-the-matrix-with-a-wizard"></a>ใช้วิซาร์ดสร้างเมทริกซ์
   
@@ -137,7 +137,7 @@ ms.locfileid: "66839749"
 
     - OrderQty
     - UnitPrice
-    - ยอดรวมรายการทั้งหมด
+    - LineTotal
 
     ตัวสร้างรายงานได้สร้างเขตข้อมูลเหล่านี้ไว้ในผลรวมกล่อง**ค่า** โดยอัตโนมัติ
 
@@ -287,7 +287,7 @@ ms.locfileid: "66839749"
 
 ในตอนนี้คุณได้สร้างรายงานแบบแบ่งหน้าแล้ว ได้เวลาอัปโหลดเข้าบริการของ Power BI
 
-1. ในบริการของ Power BI (http://app.powerbi.com) ในหน้าต่างนำทางด้านซ้าย ให้เลือก **พื้นที่ทำงาน** > **สร้างพื้นที่ทำงานแอป**
+1. ในบริการของ Power BI (http://app.powerbi.com) ในหน้าต่างนำทางด้านซ้าย ให้เลือก **พื้นที่ทำงาน** > **สร้างพื้นที่ทำงาน**
 
 2. ตั้งชื่อพื้นที่ทำงานของคุณว่า **Azure AW** หรือชื่อเฉพาะอย่างอื่น ตอนนี้มีเพียงคุณที่เป็นสมาชิก 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fa7a7845686fd46e9d58ea138bdddd47a0a097
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 605f942f2d19c7701d7146829e75fa282efcb0a5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019622"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020131"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>ชุดเนื้อหาระดับองค์กร: คัดลอก รีเฟรช และเข้าถึง
 
@@ -30,7 +30,7 @@ ms.locfileid: "72019622"
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>สร้างสำเนาของข้อแพ็คเนื้อหาขององค์กร
 สร้างสำเนาของคุณเองของชุดเนื้อหา ที่ผู้อื่นไม่สามารถมองเห็น
 
-1. เลือกจุดไข่ปลา (...) ที่อยู่ถัดจากแดชบอร์ดชุดเนื้อหา > ทำสำเนา
+1. เลือก**ตัวเลือกเพิ่มเติม** (...) ที่อยู่ถัดจากแดชบอร์ดชุดเนื้อหา > ทำสำเนา
 
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. เลือก**บันทึก**  

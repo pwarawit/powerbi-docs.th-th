@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: fae3af81540e22b961fcb1d2a79de425fdc1cd8c
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 57d8da8bafb62f1f24598f5f0ef4cb5e3facd59b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194792"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432127"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>เคล็ดลับสำหรับการเขียนแอปเทมเพลตใน Power BI
 
@@ -132,7 +132,7 @@ ms.locfileid: "71194792"
 * ตรวจสอบให้แน่ใจว่าปฏิบัติตามเอกสารใน [ข้อเสนอแอป Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)
 * ในกรณีที่แดชบอร์ดเป็นส่วนหนึ่งในแอปของคุณ ตรวจสอบให้แน่ใจว่าแดชบอร์ดไม่ว่างเปล่า
 * ติดตั้งแอปโดยใช้ลิงก์แอปก่อนส่ง ตรวจสอบให้แน่ใจว่าคุณสามารถเชื่อมต่อชุดข้อมูลและประสบการณ์แอปเป็นไปตามที่คุณวางแผนไว้
-* ก่อนอัปโหลด bpix ลงในพื้นที่ทำงานแอปเทมเพลต ตรวจสอบให้แน่ใจว่าได้ทำการตัดการเชื่อมต่อที่ไม่จำเป็นออกแล้ว
+* ก่อนอัปโหลด bpix ลงในพื้นที่ทำงานของเทมเพลต ตรวจสอบให้แน่ใจว่าได้ทำการตัดการเชื่อมต่อที่ไม่จำเป็นออกแล้ว
 * ปฏิบัติตาม [แนวทางปฏิบัติที่ดีที่สุดของ Power BI สำหรับรายงานและการแสดงผลด้วยภาพ](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) เพื่อให้ได้ผลลัพธ์ที่ดีที่สุดสำหรับผู้ใช้ของคุณ และได้รับอนุญาตให้แจกจ่าย
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 

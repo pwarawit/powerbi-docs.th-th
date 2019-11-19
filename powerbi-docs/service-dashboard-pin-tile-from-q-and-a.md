@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 33598798104d88f3044a6689effa54e9b4256274
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e75c9b86b20eda2de630f2b27caa6b88a687fbb4
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139712"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432087"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>ปักหมุดไทล์ที่แดชบอร์ดจาก Q&A
 ## <a name="how-to-pin-a-tile-from-qa"></a>วิธีการปักหมุดไทล์จาก Q&A
@@ -52,7 +52,7 @@ Q&A คือเครื่องมือราย Power BI แบบเฉพ
    ![แดชบอร์ดพร้อมไทล์](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
-* เมื่อคุณเริ่มพิมพ์คำถาม Q&Aจะเริ่มค้นหาคำตอบที่ดีที่สุดจากชุดข้อมูลทั้งหมดที่เชื่อมโยงกับแดชบอร์ดปัจจุบันทันที  "แดชบอร์ดปัจจุบัน" เป็นแดชบอร์ดที่แสดงอยู่ในแถบนำทางด้านบน ตัวอย่างเช่น การถามคำถามนี้ในแดชบอร์ด**ตัวอย่างการวิเคราะห์ร้านค้าปลีก**ที่เป็นส่วนหนึ่งของพื้นที่ทำงานแอป**mihart**
+* เมื่อคุณเริ่มพิมพ์คำถาม Q&Aจะเริ่มค้นหาคำตอบที่ดีที่สุดจากชุดข้อมูลทั้งหมดที่เชื่อมโยงกับแดชบอร์ดปัจจุบันทันที  "แดชบอร์ดปัจจุบัน" เป็นแดชบอร์ดที่แสดงอยู่ในแถบนำทางด้านบน ตัวอย่างเช่น คำถามนี้จะถูกถามในแดชบอร์ด**ตัวอย่างการวิเคราะห์ร้านค้าปลีก**ที่เป็นส่วนหนึ่งของพื้นที่ทำงาน**mihart**
 
   ![การนำทางแบบแสดงเส้นนำทาง](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **Q&A รู้ว่าจะใช้ข้อมูลชุดไหนได้อย่างไร**  Q&A มีสิทธิ์เข้าถึงชุดข้อมูลทั้งหมดที่มีการแสดงภาพอย่างน้อยหนึ่งที่ ที่ปักหมุดที่แดชบอร์ดนั้น

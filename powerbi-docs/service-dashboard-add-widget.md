@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 042fee1a55728884b3f4d5792a82973b3ea9fcc4
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 93301625efda52aa69af172b29e7fbcd94b2a4dd
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832561"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020440"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>เพิ่มรูปภาพ วิดีโอ การสตรีมข้อมูลไปยังแดชบอร์ดของคุณ
 
@@ -232,7 +232,7 @@ ms.locfileid: "68832561"
 ## <a name="edit-a-tile"></a>แก้ไขไทล์
 เมื่อต้องการทำการเปลี่ยนแปลงไปยังไทล์ที่มีอยู่:
 
-1. วางเมาส์เหนือมุมขวาบนของไทล์แล้วเลือกจุดไข่ปลา (...)
+1. วางเมาส์เหนือมุมขวาบนของไทล์แล้วเลือก **ตัวเลือกเพิ่มเติม** (...)
    
     ![เลือกจุดไข่ปลาไทล์](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. เลือก **แก้ไขรายละเอียด** เพื่อแสดงหน้าต่าง **รายละเอียดไทล์** และทำการเปลี่ยนแปลง

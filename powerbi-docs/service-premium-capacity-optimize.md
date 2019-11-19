@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: fc983fe9027f6d94c5394d524a6417a64719a8ac
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750915"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431689"
 ---
 # <a name="optimizing-premium-capacities"></a>การปรับความจุแบบพรีเมียมให้เหมาะสม
 
@@ -33,7 +33,7 @@ ms.locfileid: "70750915"
 
 เพื่อให้สามารถใช้ประโยชน์ได้สูงสุดและมีประสิทธิภาพมากที่สุด มีแนวทางปฏิบัติที่ดีที่สุดที่แนะนำบางอย่าง ซึ่งรวมถึง:
 
-- การใช้พื้นที่ทำงานของแอปแทนพื้นที่ทำงานส่วนบุคคล
+- การใช้พื้นที่ทำงานแทนพื้นที่ทำงานส่วนบุคคล
 - การแยกความสำคัญทางธุรกิจและ Self-Service BI (SSBI) ลงในความจุอื่น
 
   ![การแยกความสำคัญทางธุรกิจและ Self-Service BI ลงในความจุอื่น](media/service-premium-capacity-optimize/separate-capacities.png)

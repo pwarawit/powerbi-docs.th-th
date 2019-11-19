@@ -1,6 +1,6 @@
 ---
 title: เพิ่มโฟลเดอร์ CDM ไปยัง Power BI เป็นกระแสข้อมูล
-description: กำหนดค่าแอปพื้นที่ทำงานเพื่อจัดเก็บไฟล์ข้อกำหนดและกระแสข้อมูลใน Azure Data Lake Storage Gen2
+description: กำหนดค่าพื้นที่ทำงานเพื่อจัดเก็บไฟล์ข้อกำหนดและกระแสข้อมูลใน Azure Data Lake Storage รุ่น2
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bf2f9baff753b71563c9b5075d3b15be7ae833f9
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 3adc642d539ab8e1c1f1f60981a61fdc58a460ab
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522743"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432048"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>เพิ่มโฟลเดอร์ CDM ไปยัง Power BI เป็นกระแสข้อมูล (ตัวอย่าง)
 
@@ -33,7 +33,7 @@ ms.locfileid: "68522743"
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>สร้างกระแสข้อมูลจากโฟลเดอร์ CDM
 
-เพื่อเริ่มการสร้างกระแสข้อมูลจากโฟลเดอร์ CDM ให้เรียกใช้**บริการ Power BI**และเลือก**แอปพื้นที่ทำงาน**จากบานหน้าต่างนำทางด้านซ้าย คุณยังสามารถสร้างพื้นที่ทำงานใหม่ได้ซึ่งคุณสามารถสร้างกระแสข้อมูลชุดใหม่
+ในการเริ่มต้นการสร้างกระแสข้อมูลจากโฟลเดอร์ CDM ให้เรียกใช้**บริการของ Power BI**และเลือก**พื้นที่ทำงาน**จากบานหน้าต่างการนำทางด้านซ้าย คุณยังสามารถสร้างพื้นที่ทำงานใหม่ได้ซึ่งคุณสามารถสร้างกระแสข้อมูลชุดใหม่
 
 ![สร้างกระแสข้อมูลในบริการ Power BI](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
@@ -74,9 +74,9 @@ Power BI Desktop:
 
 ลูกค้าของ**Power BI Desktop**ไม่สามารถเข้าถึงกระแสข้อมูล ที่จัดเก็บในบัญชี Azure Data Lake Storage Gen2 เว้นแต่ว่าพวกเขาเป็นเจ้าของกระแสข้อมูล หรือได้รับอนุญาตอย่างถูกต้องให้เข้าถึงโฟลเดอร์ CDM ของ กระแสข้อมูลได้ พิจารณาสถานการณ์ต่อไปนี้:
 
-1.  แอนนาสร้างแอปพื้นที่ทำงานใหม่และกำหนดค่าเพื่อจัดเก็บกระแสข้อมูลจากโฟลเดอร์ CDM
+1.  แอนนาสร้างพื้นที่ทำงานใหม่และกำหนดค่าเพื่อจัดเก็บกระแสข้อมูลจากโฟลเดอร์ CDM
 2.  เบน (สมาชิกคนหนึ่งของพื้นที่ทำงานที่แอนนาสร้าง) ต้องการใช้ Power BI Desktop และตัวเชื่อมต่อกระแสข้อมูลเพื่อรับข้อมูลจากกระแสข้อมูลที่ แอนนาสร้าง
-3.  เบนเจอข้อผิดพลาดเนื่องจากเบนไม่ได้ถูกเพิ่มหรือได้รับอนุญาตไปยังโฟลเดอร์ CDM ของกระแสข้อมูลใน data lake
+3.  เบนเจอข้อผิดพลาดเนื่องจากเบนไม่ได้ถูกเพิ่มให้เป็นผู้ใช้ที่ได้รับอนุญาตให้เข้าถึงโฟลเดอร์ CDM ของกระแสข้อมูลใน data lake
 
     ![ข้อผิดพลาดในการพยายามใช้กระแสข้อมูล](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 

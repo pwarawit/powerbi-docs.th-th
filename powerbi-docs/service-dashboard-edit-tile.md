@@ -2,7 +2,6 @@
 title: แก้ไขไทล์แดชบอร์ด
 description: บทเรียนนี้นำพาคุณจากการสร้างไทล์ และปักหมุดไปยังแดชบอร์ด เพื่อเรียนรู้วิธีการแก้ไขแดชบอร์ดไทล์ปรับขนาด ย้าย เปลี่ยนชื่อ ปักหมุด ลบ เพิ่มไฮเปอร์ลิงก์
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c1b6f7434724540a9ad5b579030c3ed54b32abed
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720581"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877464"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>แก้ไขหรือลบแดชบอร์ดไทล์
 
@@ -80,12 +79,12 @@ ms.locfileid: "66720581"
 ## <a name="resize-the-tile"></a>ปรับขนาดไทล์
 คุณสามารถสร้างไทล์ได้หลายขนาด จาก 1 x 1 หน่วยไทล์จนถึง 5 x 5 เลือกและลากหูหิ้ว(ที่มุมล่างขวา) เพื่อปรับขนาดไทล์
 
-![video](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
+![วิดีโอ](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
-## <a name="the-ellipses--menu"></a>เมนูจุดไข่ปลา (...)
+## <a name="more-options--menu"></a>เมนู **ตัวเลือกเพิ่มเติม** (...)
 
-1. เลือกจุดไข่ปลา (...) ในมุมขวาบนของไทล์ 
+1. เลือก**ตัวเลือกเพิ่มเติม** (...) ในมุมขวาบนของไทล์ 
    
    ![ไทล์จุดไข่ปลา](media/service-dashboard-edit-tile/power-bi-tile.png)
 
@@ -148,5 +147,5 @@ ms.locfileid: "66720581"
 
 [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

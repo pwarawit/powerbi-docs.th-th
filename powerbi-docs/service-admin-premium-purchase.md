@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a6e37885c5e15dbaaa28fc5cb693089fda747c9e
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 1d2ff47fdbc31598524986742319ab36c8f3e957
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175249"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442896"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>วิธีการซื้อ Power BI Premium
 
@@ -26,21 +26,21 @@ ms.locfileid: "71175249"
 
 ผู้เขียนเนื้อหาจะยังคงต้องมีสิทธิ์การใช้งาน Power BI Pro แม้ว่าองค์กรของคุณจะใช้ Power BI Premium ก็ตาม ตรวจสอบให้แน่ใจว่าคุณซื้อสิทธิ์การใช้งาน Power BI Pro อย่างน้อยหนึ่งใบสำหรับองค์กรของคุณ
 
-ถ้าการสมัครใช้งานระดับ Premium หมดอายุ คุณมีเวลา 30 วันของการเข้าถึงความจุแบบเต็มของคุณ หลังจากนั้น เนื้อหาของคุณจะเปลี่ยนเป็นความจุที่ใช้ร่วมกัน แบบจำลองที่มีความจุมากกว่า 1 GB จะไม่ได้รับการรับรองในความจุที่ใช้ร่วมกัน
+ถ้าการสมัครใช้งานระดับ Premium หมดอายุ คุณมีเวลา 30 วันของการเข้าถึงความจุแบบเต็มของคุณ หลังจากนั้น เนื้อหาของคุณจะเปลี่ยนเป็นความจุที่ใช้ร่วมกัน แบบจำลองที่มีความจุมากกว่า 1 GB ไม่ได้รับการรับรองในความจุที่ใช้ร่วมกัน
 
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>สร้างลูกค้าใหม่ด้วย Power BI Premium P1
 
-ถ้าคุณไม่มีผู้เช่าและต้องการสร้างหนึ่งรายการ คุณสามารถซื้อ Power BI Premium ได้ในเวลาเดียวกัน ลิงก์ต่อไปนี้จะนำคุณไปสู่กระบวนการสร้างผู้เช่ารายใหม่และช่วยให้คุณสามารถซื้อ Power BI Premium: [ข้อเสนอ Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1) เมื่อคุณสร้างผู้เช่า คุณจะได้รับมอบหมายให้ทำหน้าที่เป็นผู้ดูแลระบบสากลของ Office 365 โดยอัตโนมัติสำหรับผู้เช่ารายนั้น
+ถ้าคุณไม่มีผู้เช่าและต้องการสร้างหนึ่งรายการ คุณสามารถซื้อ Power BI Premium ได้ในเวลาเดียวกัน ลิงก์ต่อไปนี้จะนำคุณไปสู่กระบวนการสร้างผู้เช่ารายใหม่และช่วยให้คุณสามารถซื้อ Power BI Premium: [ข้อเสนอ Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1) เมื่อคุณสร้างผู้เช่า คุณจะได้รับมอบหมายให้ทำหน้าที่เป็นผู้ดูแลระบบส่วนกลางของ Microsoft 365 โดยอัตโนมัติสำหรับผู้เช่ารายนั้น
 
 ## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>ซื้อความจุ Power BI Premium สำหรับองค์กรที่มีอยู่
 
-ถ้าคุณมีองค์กรที่มีอยู่แล้ว (ผู้เช่า) คุณต้องอยู่ในบทบาทผู้ดูแลระบบส่วนกลางของ Office 365 หรือบทบาทของผู้ดูแลระบบการเรียกเก็บเงินเพื่อซื้อการสมัครรับข้อมูลและสิทธิ์การใช้งาน สำหรับข้อมูลเพิ่มเติม ให้ดู[เกี่ยวกับบทบาทผู้ดูแลระบบ Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
+ถ้าคุณมีองค์กรที่มีอยู่แล้ว (ผู้เช่า) คุณต้องอยู่ในบทบาทผู้ดูแลระบบส่วนกลางของ Microsoft 365 หรือบทบาทของผู้ดูแลระบบการเรียกเก็บเงินเพื่อซื้อการสมัครรับข้อมูลและสิทธิ์การใช้งาน สำหรับข้อมูลเพิ่มเติม ให้ดู[เกี่ยวกับบทบาทผู้ดูแลระบบ Microsoft 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
 
 เมื่อต้องการซื้อความจุระดับพรีเมี่ยม ให้ทำตามขั้นตอนต่อไปนี้
 
-1. จากภายใน Power BI service เลือก ตัวเลือกแอป Office 365 จากนั้นเลือก **ผู้ดูแลระบบ**
+1. จากภายใน Power BI service เลือกตัวเลือกแอป Microsoft 365 จากนั้นเลือก **ผู้ดูแลระบบ**
 
-    ![ตัวเลือกแอป office 365](media/service-admin-premium-purchase/o365-app-picker.png)
+    ![ตัวเลือกแอป Microsoft 365](media/service-admin-premium-purchase/o365-app-picker.png)
 
     อีกวิธีหนึ่งคือ คุณสามารถเรียกดูศูนย์การจัดการ Microsoft 365 คุณสามารถไปที่นั่นได้ โดยไปที่ https://portal.office.com และเลือก**ผู้ดูแลระบบ**
 
@@ -66,7 +66,7 @@ ms.locfileid: "71175249"
 
 1. ค้นหารายการ Power BI Premium ที่คุณต้องการซื้อหนึ่งภายใต้**แผนอื่นๆ**
 
-1. วางเคอร์เซอร์เหนือ**จุดไข่ปลา (...)** แล้วเลือก**เปลี่ยนจำนวนสิทธิ์การใช้งาน**
+1. วางเมาส์เหนือ**ตัวเลือกเพิ่มเติม** (...) แล้วเลือก**เปลี่ยนจำนวนสิทธิ์การใช้งาน**
 
     ![เปลี่ยนจำนวนสิทธิ์การใช้งาน](media/service-admin-premium-purchase/premium-purchase-more.png)
 

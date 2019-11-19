@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b4c81e1c83ef53dcb16153b4e9996b259e9eb886
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654626"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059797"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>ดูแดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -118,7 +118,7 @@ ms.locfileid: "69654626"
 
     ถ้าคุณเป็นเจ้าของแดชบอร์ด ในบริการของ Power BI คุณจะสามารถ[สร้างมุมมองแดชบอร์ดสำหรับโทรศัพท์](../../service-create-dashboard-mobile-phone-view.md)ในโหมดแนวตั้งได้ 
 
-1. ในขณะที่อยู่บนแดชบอร์ด คุณสามารถแตะจุดไข่ปลาแนวตั้ง (...) ถัดจากชื่อที่ใช้เชิญเพื่อนร่วมงาน รีเฟรช หรือรับข้อมูลเกี่ยวกับแดชบอร์ด:
+1. ในขณะที่อยู่บนแดชบอร์ด คุณสามารถแตะที่ปุ่ม**ตัวเลือกเพิ่มเติม**แนวตั้ง (...) ถัดจากชื่อเพื่อเชิญเพื่อนร่วมงาน รีเฟรช หรือรับข้อมูลเกี่ยวกับแดชบอร์ด:
    
    ![เมนูจุดไข่ปลา](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. ปัดขึ้นหรือลงเพื่อดู[ไทล์ทั้งหมดในแดชบอร์ด](mobile-tiles-in-the-mobile-apps.md) 
@@ -134,7 +134,7 @@ ms.locfileid: "69654626"
    
    * ดาวสีเหลือง ![ดาวรายการโปรด](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) แสดงแดชบอร์ดที่เป็นรายการโปรด 
    * เครื่องหมายด้านล่างแต่ละชื่อของแดชบอร์ด (ในกรณีนี้ คือ "MBI") ![จัดประเภทข้อมูล](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)แสดงวิธีการจัดประเภทข้อมูลในแต่ละแดชบอร์ด อ่านเพิ่มเติมเกี่ยวกับ[การจัดประเภทข้อมูลใน Power BI](../../service-data-classification.md)
-3. ในขณะที่อยู่บนแดชบอร์ด คุณสามารถแตะจุดไข่ปลาแนวตั้ง (...) ถัดจากชื่อที่ใช้เชิญเพื่อนร่วมงาน รีเฟรช หรือรับข้อมูลเกี่ยวกับแดชบอร์ด:
+3. ในขณะที่อยู่บนแดชบอร์ด คุณสามารถแตะที่ปุ่ม**ตัวเลือกเพิ่มเติม**แนวตั้ง (...) ถัดจากชื่อเพื่อเชิญเพื่อนร่วมงาน รีเฟรช หรือรับข้อมูลเกี่ยวกับแดชบอร์ด:
    
    ![เมนูจุดไข่ปลา](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. ปัดขึ้นหรือลงเพื่อดู[ไทล์ทั้งหมดในแดชบอร์ด](mobile-tiles-in-the-mobile-apps.md) 
@@ -156,6 +156,6 @@ ms.locfileid: "69654626"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ดาวน์โหลดแอป Android](http://go.microsoft.com/fwlink/?LinkID=544867)จาก Google play  
 * [เริ่มต้นใช้งานแอป Android สำหรับ Power BI](mobile-android-app-get-started.md)  
-* [Power BI คืออะไร](../../power-bi-overview.md)
+* [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

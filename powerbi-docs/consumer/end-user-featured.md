@@ -2,7 +2,6 @@
 title: เลือกแดชบอร์ดที่จะแสดงเมื่อคุณเปิดหน้าบริการ Power BI
 description: เอกสารประกอบเกี่ยวกับวิธีการสร้างแดชบอร์ดแนะนำใน Power BI service
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7f7f488891ddbdac1f377d25cf32c2eb0468c291
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 412bcf397d550e002957e7379bf41381e8e3eea8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256304"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852532"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>แดชบอร์ดแนะนำใน Power BI service
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 พวกเราหลายคนมีแดชบอร์ดหนึ่งที่เราเยี่ยมชมมากกว่าผู้อื่น อาจเป็นแดชบอร์ดที่เราใช้เพื่อรองรับธุรกิจของเรา หรืออาจเป็นแดชบอร์ดที่ประกอบด้วยการรวมของไทล์จากรายงานและแดชบอร์ดมากมาย
 
 ## <a name="create-a-featured-dashboard"></a>สร้างแดชบอร์ดแนะนำ
@@ -37,7 +39,7 @@ ms.locfileid: "71256304"
 
 
 1. เปิดแดชบอร์ดที่คุณต้องการนำเสนอ 
-2. ในแถบเมนูด้านบนสุด เลือกวงรี (...) แล้วเลือก**ตั้งเป็นแดชบอร์ดเด่น** 
+2. ในแถบเมนูด้านบนสุด เลือก**ตัวเลือกเพิ่มเติม** (...) แล้วเลือก**ตั้งเป็นรายการที่แนะนำ** 
    
     ![ตั้งเป็นไอคอนแนะนำ](./media/end-user-featured/power-bi-dropdown.png)
 3. ยืนยันการเลือกของคุณ
@@ -58,11 +60,11 @@ ms.locfileid: "71256304"
 ถ้าคุณตัดสินใจว่า คุณไม่ต้องการแดชบอร์ดใดๆ เมื่อต้องได้รับการมอบหมายเป็นแบบี่แนะนำ นี่คือวิธีการยกเลิกการแนะนำแดชบอร์ด
 
 1. เปิดแดชบอร์ดที่นำเสนอในปัจจุบัน
-2. ในแถบเมนูด้านบนสุด เลือกวงรี (...) แล้วเลือก**ปิดการนำเสนอ**
+2. ในแถบเมนูด้านบนสุด เลือก**ตัวเลือกเพิ่มเติม** (...) แล้วเลือก **ปิดใช้งานรายการที่แนะนำ**
 
     ![ปิดใช้งานแดชบอร์ดเด่นที่เลือกไว้](./media/end-user-featured/power-bi-unfeature-newer.png)
    
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 - [เพิ่มแดชบอร์ดรายการโปรด](end-user-favorite.md)
-- มีคำถามเพิ่มเติมหรือไม่? ลองไปที่ [ชุมชน Power BI](http://community.powerbi.com/)
+- มีคำถามเพิ่มเติมหรือไม่? ลองไปที่ [ชุมชน Power BI](https://community.powerbi.com/)
 

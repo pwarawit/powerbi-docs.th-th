@@ -2,7 +2,6 @@
 title: เริ่มต้นใช้งานด่วน เชื่อมต่อกับข้อมูล
 description: เชื่อมต่อกับแหล่งข้อมูลใน Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 253ecbad775a2f4aa7dd1974c534fdcaa222676c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514452"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876207"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>เริ่มต้นใช้งานด่วน: เชื่อมต่อกับข้อมูลใน Power BI Desktop
 
@@ -28,12 +27,12 @@ ms.locfileid: "65514452"
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
 เพื่อทำตามขั้นตอนในบทความนี้ คุณต้องการสิ่งต่อไปนี้:
-* ดาวน์โหลด และติดตั้ง **Power BI Desktop** ซึ่งเป็นแอปพลิเคชันฟรีที่ทำงานบนคอมพิวเตอร์ของคุณ คุณสามารถ[ดาวน์โหลด **Power BI Desktop**](https://powerbi.microsoft.com/desktop) ได้โดยตรง หรือคุณ[สามารถได้รับจาก **Microsoft Store**](http://aka.ms/pbidesktopstore) ได้
-* [ดาวน์โหลดเวิร์กบุ๊ก Excel ตัวอย่างนี้](http://go.microsoft.com/fwlink/?LinkID=521962) และสร้างโฟลเดอร์ที่ชื่อว่า *C:\PBID-qs* ซึ่งคุณสามารถเก็บไฟล์ Excel ขั้นตอนต่อ ๆ ไปถือว่า นั่นคือตำแหน่งที่ตั้งไฟล์สำหรับเวิร์กบุ๊ก Excel ที่ดาวน์โหลด
+* ดาวน์โหลด และติดตั้ง **Power BI Desktop** ซึ่งเป็นแอปพลิเคชันฟรีที่ทำงานบนคอมพิวเตอร์ของคุณ คุณสามารถ[ดาวน์โหลด **Power BI Desktop**](https://powerbi.microsoft.com/desktop) ได้โดยตรง หรือคุณ[สามารถได้รับจาก **Microsoft Store**](https://aka.ms/pbidesktopstore) ได้
+* [ดาวน์โหลดเวิร์กบุ๊ก Excel ตัวอย่างนี้](https://go.microsoft.com/fwlink/?LinkID=521962) และสร้างโฟลเดอร์ที่ชื่อว่า *C:\PBID-qs* ซึ่งคุณสามารถเก็บไฟล์ Excel ขั้นตอนต่อ ๆ ไปถือว่า นั่นคือตำแหน่งที่ตั้งไฟล์สำหรับเวิร์กบุ๊ก Excel ที่ดาวน์โหลด
 
 ## <a name="launch-power-bi-desktop"></a>เปิดใช้ Power BI Desktop
 
-เมื่อคุณติดตั้ง **Power BI Desktop** แล้ว เปิดใช้แอปพลิเคชันเพื่อให้ทำงานบนคอมพิวเตอร์ของคุณ คุณจะเห็นพื้นที่ว่างเปล่า ซึ่งเป็นที่ที่คุณสร้างวิชวลและรายงานจากข้อมูลที่คุณเชื่อมต่อ 
+เมื่อคุณติดตั้ง **Power BI Desktop** แล้ว เปิดใช้แอปพลิเคชันเพื่อให้ทำงานบนคอมพิวเตอร์ของคุณ คุณจะเห็นบทช่วยสอน Power BI ทำตามบทช่วยสอนหรือคลิกทำต่อไปและเริ่มต้นด้วยพื้นที่ว่างเปล่า ซึ่งเป็นพื้นที่ที่คุณสร้างวิชวลและรายงานจากข้อมูลที่คุณเชื่อมต่อ 
 
 ![Power BI Desktop - พื้นที่ว่างเปล่า](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 

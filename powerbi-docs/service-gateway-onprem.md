@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 883d5c83019df293628d096f5834c9b5c6d425b6
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 8ca43232cdc5781900dd7cf8b9f72c510dab2e37
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730293"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442806"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>เกตเวย์ข้อมูลในองค์กรคืออะไร?
 
@@ -42,13 +42,13 @@ ms.locfileid: "68730293"
 มีสี่ขั้นตอนหลักสำหรับการใช้เกตเวย์
 
 1. [ดาวน์โหลดและติดตั้งเกตเวย์](/data-integration/gateway/service-gateway-install)บนคอมพิวเตอร์เฉพาะที่
-2. [กำหนดค่า](/data-integration/gateway/service-gateway-app)เกตเวย์ที่ยึดตามไฟร์วอลล์ของคุณและข้อกำหนดของเครือข่ายอื่นๆ
-3. [เพิ่มผู้ดูแลระบบเกตเวย์](/data-integration/gateway/service-gateway-manage) ซึ่งสามารถจัดการและดูแลข้อกำหนดของเครือข่ายอื่น ๆ ได้ด้วย
-4. [แก้ไขปัญหา](service-gateway-onprem-tshoot.md)เกตเวย์ในกรณีของข้อผิดพลาด
+1. [กำหนดค่า](/data-integration/gateway/service-gateway-app)เกตเวย์ที่ยึดตามไฟร์วอลล์ของคุณและข้อกำหนดของเครือข่ายอื่นๆ
+1. [เพิ่มผู้ดูแลระบบเกตเวย์](/data-integration/gateway/service-gateway-manage) ซึ่งสามารถจัดการและดูแลข้อกำหนดของเครือข่ายอื่น ๆ ได้ด้วย
+1. [ใช้เกตเวย์](service-gateway-sql-tutorial.md) เพื่อรีเฟรชแหล่งข้อมูลภายในองค์กร
+1. [แก้ไขปัญหา](service-gateway-onprem-tshoot.md)เกตเวย์ในกรณีของข้อผิดพลาด
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 * [ติดตั้งเกตเวย์ข้อมูลภายในองค์กร](/data-integration/gateway/service-gateway-install)
-
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)

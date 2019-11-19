@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: d8e1edc7d9d474911e7e7a58c2c7da728358845c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073103"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429251"
 ---
 # <a name="service-principal-with-power-bi"></a>บริการหลักพร้อมด้วย Power BI
 
@@ -58,8 +58,8 @@ ms.locfileid: "71073103"
 |------------------------------------------------------|---------------------|-------------------|
 | สามารถลงชื่อเข้าใช้บริการ Power BI  | ใช่ | ไม่ใช่ |
 | เปิดใช้งานพอร์ทัลผู้ดูแลระบบของ Power BI แล้ว | ไม่ใช่ | ใช่ |
-| [ทำงานร่วมกับพื้นที่ทำงานแอป (v1)](../service-create-workspaces.md) | ใช่ | ไม่ใช่ |
-| [ทำงานร่วมกับพื้นที่ทำงานแอปใหม่ (v2)](../service-create-the-new-workspaces.md) | ใช่ | ใช่ |
+| [ทำงานร่วมกับพื้นที่ทำงาน (v1)](../service-create-workspaces.md) | ใช่ | ไม่ใช่ |
+| [ทำงานร่วมกับพื้นที่ทำงานใหม่ (v2)](../service-create-the-new-workspaces.md) | ใช่ | ใช่ |
 | ต้องเป็นผู้ดูแลระบบพื้นที่ทำงานถ้าใช้กับ Power BI Embedded | ใช่ | ใช่ |
 | สามารถใช้ Power BI REST API | ใช่ | ใช่ |
 | ต้องเป็นผู้ดูแลระบบส่วนกลางเพื่อสร้าง | ใช่ | ไม่ใช่ |
@@ -141,7 +141,7 @@ ms.locfileid: "71073103"
 
 ### <a name="how-to-get-the-service-principal-object-id"></a>วิธีการขอรับ ID ออบเจ็กต์ของบริการหลัก
 
-เมื่อต้องการกำหนดบริการหลักในพื้นที่ทำงานแอปใหม่ คุณต้องใช้[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) เมื่อต้องการอ้างอิงบริการหลักสำหรับการดำเนินการ หรือทำการเปลี่ยนแปลงที่คุณใช้ **ID ออบเจ็กต์ของบริการหลัก**— เช่น การใช้บริการหลักเป็นผู้ดูแลระบบในพื้นที่ทำงาน
+เมื่อต้องการกำหนดบริการหลักสำหรับพื้นที่ทำงานใหม่ คุณต้องใช้[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) เมื่อต้องการอ้างอิงบริการหลักสำหรับการดำเนินการ หรือทำการเปลี่ยนแปลงที่คุณใช้ **ID ออบเจ็กต์ของบริการหลัก**— เช่น การใช้บริการหลักเป็นผู้ดูแลระบบในพื้นที่ทำงาน
 
 ด้านล่างนี้คือขั้นตอนการขอรับ ID ออบเจ็กต์ของบริการหลักจากพอร์ทัล Azure
 
@@ -166,7 +166,7 @@ ms.locfileid: "71073103"
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 
-* บริการหลักเท่านั้นจะทำงานร่วมกับ[พื้นที่ทำงานแอปใหม่](../service-create-the-new-workspaces.md)
+* บริการหลักจะทำงานร่วมกับ[พื้นที่ทำงานใหม่](../service-create-the-new-workspaces.md)เท่านั้น
 * **ความจุเฉพาะของฉัน** ไม่ได้รับการสนับสนุนเมื่อใช้บริการหลัก
 * ต้องใช้ความจุเฉพาะเมื่อย้ายไปยังการผลิต
 * คุณไม่สามารถลงชื่อเข้าใช้พอร์ทัล Power BI ด้วยบริการหลัก

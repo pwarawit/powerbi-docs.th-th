@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b200ec86db339e42a708c3db042df06b9513cc6e
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 24dbce4d825e51d40fc9a42384561d4608f18035
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589508"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019896"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>โหมดการดูข้อมูลแบบเจาะลึกของภาพใน Power BI
 
@@ -128,7 +128,7 @@ ms.locfileid: "72589508"
 ## <a name="show-the-data-as-you-drill"></a>แสดงข้อมูลขณะที่คุณดูข้อมูลแบบเจาะลึก
 ใช้ตัวเลือก **แสดงข้อมูล** เพื่อดูเบื้องหลังฉาก แต่ละครั้งที่คุณดูข้อมูลแบบเจาะลึกหรือขยาย **แสดงข้อมูล**จะแสดงผลข้อมูลที่ใช้ในการสร้างการแสดงภาพ ซึ่งอาจช่วยให้คุณเข้าใจวิธีการทำงานของลำดับชั้น การดูข้อมูลแบบเจาะลึก และขยายการทำงานร่วมกันเพื่อสร้างการแสดงภาพ 
 
-ที่มุมขวาบน ให้เลือกจุดไข่ปลา (...) จากนั้นจึงเลือก **แสดงข้อมูล** 
+ในมุมขวาบนเลือก **ตัวเลือกเพิ่มเติม** (...), แล้วเลือก **แสดงข้อมูล** 
 
 ![ภาพหน้าจอของเมนูจุดไข่ปลา](./media/end-user-drill/power-bi-ellipses.png)
 

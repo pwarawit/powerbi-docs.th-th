@@ -1,6 +1,6 @@
 ---
 title: ฟีเจอร์การบริการ Power BI ตามประเภทของใบอนุญาต
-description: 'ในบริการ Power BI ผู้ใช้มีการกำหนดความสามารถตามใบอนุญาตสองประเภท: แบบต่อผู้ใช้ (free และ Pro) และตามขนาดความจุ'
+description: ในบริการของ Power BI ผู้ใช้มีความสามารถที่กำหนดขึ้นตามชนิดของสิทธิ์การใช้งานที่ผู้ใช้มี (ฟรีหรือ Pro) และเนื้อหาที่พวกเขากำลังโต้ตอบด้วยอยู่ในพื้นที่ทำงานที่กำหนดไว้สำหรับความจุ Power BI Premium หรือไม่
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -11,12 +11,12 @@ ms.date: 12/06/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 6f44f4b382dacf3850cc5b3aa67f712a607468a6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 38bf9acb76faa3c2d5d04d247edbdc46455d22e1
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65554444"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442792"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>ฟีเจอร์การบริการ Power BI ตามประเภทของใบอนุญาต
 
@@ -26,7 +26,7 @@ ms.locfileid: "65554444"
 
 ต่อไปนี้เป็นรายการฟีเจอร์ที่ได้รับการสนับสนุนประเภทต่อสิทธิการใช้งานของผู้ใช้
 
-|  | Free | Pro |
+|  | ฟรี | Pro |
 | --- | --- | --- |
 | **เชื่อมต่อกับแหล่งข้อมูลจำนวน 70 +** |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
 | **เผยแพร่บนเว็บ** |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
@@ -37,7 +37,7 @@ ms.locfileid: "65554444"
 | API และส่วนควบคุมแบบฝัง |![คุณลักษณะที่ไม่พร้อมใช้งาน](media/features-license-type/not-available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
 | **การทำงานร่วมกัน** | | |
 | การใช้งานร่วมกันแบบเพียร์ทูเพียร์ |![คุณลักษณะที่ไม่พร้อมใช้งาน](media/features-license-type/not-available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
-| พื้นที่ทำงานบนแอป |![คุณลักษณะที่ไม่พร้อมใช้งาน](media/features-license-type/not-available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
+| พื้นที่ทำงาน |![คุณลักษณะที่ไม่พร้อมใช้งาน](media/features-license-type/not-available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
 | วิเคราะห์ใน Excel วิเคราะห์ใน Power BI Desktop |![คุณลักษณะที่ไม่พร้อมใช้งาน](media/features-license-type/not-available.png) |![คุณลักษณะที่พร้อมใช้งาน](media/features-license-type/available.png) |
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

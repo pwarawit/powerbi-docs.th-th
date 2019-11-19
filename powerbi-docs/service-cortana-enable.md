@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: b1792abeed1a4a03cb8e3f49acb4ed8aa53b1be0
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375152"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020498"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>เปิดใช้งาน Cortana เพื่อเข้าถึงรายงาน Power BI (และชุดข้อมูลภายในของพวกเขา)
 คุณได้อ่าน[บทนำสู่ Cortana และ Power BI](service-cortana-intro.md) (ถ้าไม่ คุณอาจต้องการอ่านก่อน จากนั้นค่อยกลับมา) และตอนนี้คุณต้องการลองใช้ด้วยตนเอง  ก่อนที่คุณสามารถถามคำถามภาษาธรรมชาติใน Cortana และค้นหาคำตอบจากข้อมูลที่จัดเก็บไว้ใน***รายงาน*** Power BI มีความต้องการเพียงไม่กี่ตัว โดยเฉพาะ คุณจะต้องทำสิ่งต่อไปนี้
 
 > [!IMPORTANT]
-> ไม่มีการสนับสนุนการรวม Cortana ใน Power BI เริ่มต้นวันที่ 11 มิถุนายน Cortana จะไม่ทำงานสำหรับแดชบอร์ดและรายงาน
+> การรวม Cortana กำลังจะถูกยกเลิกใน Power BI เริ่มต้น11มิถุนายน Cortana จะไม่สามารถใช้งานได้สำหรับแดชบอร์ดและรายงานใด ๆ อีกต่อไป
 
 ใน Power BI service
 
@@ -42,7 +42,7 @@ ms.locfileid: "66375152"
 2. ชุดข้อมูลเกี่ยวข้องกับรายงานนี้คือ**ยอดขายของ Contoso**
    
     ![ชุดข้อมูลยอดขายของ Contoso](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. ทางด้านขวาของชื่อชุดข้อมูล เลือก**จุดไข่ปลา (...) > ตั้งค่า**  
+3. ทางด้านขวาของชื่อชุดข้อมูล ให้เลือก **ตัวเลือกเพิ่มเติม** (... )> การตั้งค่า**  
    
     ![เลือกการตั้งค่า](media/service-cortana-enable/power-bi-settings-cortana.png)
 4. เลือก**Q&A และ Cortana** > **อนุญาตให้ Cortana เข้าถึงชุดข้อมูลนี้** > **นำไปใช้**

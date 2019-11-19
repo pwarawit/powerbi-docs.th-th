@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/28/2019
+ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 7d45b63d3cd97185ce9be9e0592565a491cf195f
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: a6595389a95cbf434bc9deb9f1560f6157910ceb
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655032"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060990"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
 ตรวจสอบหน้านี้สำหรับปัญหาที่ทราบแล้วและคุณลักษณะที่เผยแพร่ล่าสุดในการ**บริการ Power BI** สำหรับข้อมูล "มีอะไรใหม่" ที่เกี่ยวข้อง ดู:
@@ -30,11 +30,43 @@ ms.locfileid: "69655032"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2019"></a>พฤษภาคม 2019
-* [การนำทางแบบกำหนดเอง](service-create-distribute-apps.md)สำหรับแอป Power BI
-* ประเภทไฟล์แนบเพิ่มเติม (PPTX, XLSX, DOCX, CSV, XML) ที่พร้อมใช้งานสำหรับการสมัครใช้งานอีเมลภายในรายงานที่มีการแบ่งหน้า
+### <a name="october-2019"></a>ตุลาคม 2019
+* การดำเนินการใหม่ของ Microsoft Flow เพื่อรีเฟรชชุดข้อมูล Power BI
+* [รายการผู้ติดต่อ](https://powerbi.microsoft.com/en-us/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) สำหรับรายงานและแดชบอร์ดในบริการของ Power BI
 
 ## <a name="previous-months-2019"></a>เดือนก่อนหน้านี้(2019)
+### <a name="september-2019"></a>กันยายน 2019
+* อัปเดตการกำหนดค่าการเชื่อมต่อสำหรับ [แอปเทมเพลต](service-template-apps-overview.md)
+
+### <a name="august-2019"></a>สิงหาคม 2019
+* การตั้งค่าความจุใหม่สำหรับ Power BI Premium
+* [การสร้างแบรนด์แบบกำหนดเอง](https://powerbi.microsoft.com/en-us/blog/announcing-custom-branding-for-your-organization/) สำหรับองค์กรของคุณ
+* การส่งออกข้อมูลสรุปพร้อมสิทธิ์ในการสร้าง
+* สนับสนุนพารามิเตอร์ URL สำหรับ [รายงานที่มีการแบ่งหน้า](paginated-reports-report-builder-power-bi.md)
+* สนับสนุนการสมัครใช้งานแบบรายเดือนผ่านอีเมล 
+
+### <a name="july-2019"></a>กรกฎาคม 2019
+* สนับสนุนชุดข้อมูลที่ไม่ใช่ระดับพรีเมียมสำหรับ [รายงานที่มีการแบ่งหน้า](paginated-reports-report-builder-power-bi.md)
+* ความพร้อมใช้งานทั่วไปของ[การรวม](desktop-aggregations.md) Power BI
+* ส่งการแจ้งเตือนรีเฟรชให้กับผู้อื่น
+* [เครื่องมือทดสอบ](https://powerbi.microsoft.com/en-us/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) สำหรับความจุ Power BI Premium
+* การแสดงตัวอย่างทั่วไปของ [การแจ้งเตือนความพร้อมใช้งานของบริการ](https://powerbi.microsoft.com/en-us/blog/power-bi-introduces-service-availability-notifications/)
+* การแสดงตัวอย่างทั่วไปของ [รูปลักษณ์ใหม่](https://powerbi.microsoft.com/en-us/blog/introducing-the-new-look-for-power-bi-service/) สำหรับรายงาน Power BI
+* ภูมิภาคใหม่ของ Power BI ในแอฟริกาใต้
+
+### <a name="june-2019"></a>มิถุนายน 2019
+* การแสดงตัวอย่างทั่วไปของ [ชุดข้อมูลที่ใช้ร่วมกันและได้รับการรับรอง](service-datasets-across-workspaces.md)
+* เมตริก AI ที่พร้อมใช้งานใน [แอปเมตริกความจุพรีเมียม](service-admin-premium-monitor-capacity.md)
+* ความพร้อมใช้งานทั่วไปของ[แอปเทมเพลต](service-template-apps-overview.md) Power BI
+* ความพร้อมใช้งานทั่วไปของ[รายงานที่มีการแบ่งหน้า](paginated-reports-report-builder-power-bi.md)ใน Power BI
+* การแสดงตัวอย่างทั่วไปของ Bring Your Own Key ([BYOK](service-encryption-byok.md)) สำหรับ Power BI Premium
+* บทบาทของผู้ชมสำหรับ [ประสบการณ์การใช้งานในพื้นที่ทำงานใหม่](service-new-workspaces.md)
+
+### <a name="may-2019"></a>พฤษภาคม 2019
+* [การนำทางแบบกำหนดเอง](service-create-distribute-apps.md)สำหรับแอป Power BI
+* ประเภทไฟล์แนบเพิ่มเติม (PPTX, XLSX, DOCX, CSV, XML) ที่พร้อมใช้งานสำหรับการสมัครใช้งานอีเมลภายในรายงานที่มีการแบ่งหน้า
+* [การแสดงข้อคิดเห็น](https://powerbi.microsoft.com/en-us/blog/announcing-report-commenting-for-power-bi-service-and-mobile/) สำหรับรายงาน Power BI เกี่ยวกับบริการ
+
 ### <a name="april-2019"></a>เมษายน 2019
 * ความพร้อมใช้งานทั่วไปของ[กระแสข้อมูล](service-dataflows-overview.md) Power BI
 * ความพร้อมใช้งานทั่วไปของประสบการณ์ใช้งานพื้นที่ทำงานใหม่
@@ -732,7 +764,7 @@ ms.locfileid: "69655032"
 * ความน่าเชื่อถือของการรีเฟรชด้วย OneDrive ได้รับการปรับปรุง  สถานการณ์บางอย่างที่เวิร์กบุ๊กไม่รีเฟรชจาก OneDrive ได้รับการแก้ไข
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[Power BI คืออะไร](power-bi-overview.md)  
+[Power BI คืออะไร](fundamentals/power-bi-overview.md)  
 
 มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
 

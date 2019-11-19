@@ -2,21 +2,20 @@
 title: ตั้งค่าการแจ้งเตือนข้อมูลใน Power BI service
 description: เรียนการตั้งค่าการแจ้งเตือน เมื่อมีข้อมูลในแดชบอร์ดของคุณเปลี่ยนเกินขีดจำกัดที่คุณตั้งไว้ใน Microsoft Power BI service
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/08/2019
+ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c87a54a0e991af3faa53b9ac4ac6c92893b2ed0a
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962685"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871560"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>การแจ้งเตือนข้อมูลในบริการของ Power BI
 
@@ -24,7 +23,7 @@ ms.locfileid: "68962685"
 
 คุณสามารถตั้งค่าการแจ้งเตือนบนไทล์ถ้าคุณมีสิทธิ์การใช้งาน Power BI Pro คุณยังสามารถตั้งค่าการแจ้งเตือนถ้ามีคนแชร์แดชบอร์ดที่อยู่ใน[ความจุพรีเมียม](service-premium-what-is.md) การแจ้งเตือนสามารถตั้งค่าบนหมุดไทล์ที่ปักหมุดจากวิชวลรายงานเท่านั้น และบนหน้าปัดวัด Kpi และการ์ดเท่านั้น คุณสามารถตั้งค่าการแจ้งเตือนบนวิชวลที่สร้างขึ้นจากชุดข้อมูลการสตรีมที่คุณปักหมุดจากรายงานไปยังแดชบอร์ดได้ ไม่สามารถตั้งค่าการแจ้งเตือนบนไทล์การสตรีมที่สร้างขึ้นโดยตรงบนแดชบอร์ดโดยใช้**เพิ่มไทล์** > **ข้อมูลการสตรีมแบบกำหนเอง**
 
-มีเพียงคุณที่สามารถดูการแจ้งเตือนที่คุณตั้งไว้ แม้ว่าคุณได้แชร์แดชบอร์ดของคุณ การแจ้งเตือนข้อมูลจะถูกซิงโครไนซ์เต็มรูปแบบข้ามแพลตฟอร์ม ตั้งค่าและดูการแจ้งเตือนข้อมูลได้[ในแอป mobile Power BI](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)และใน Power BI service ไม่สามารถใช้กับ Power BI Desktop ได้ คุณสามารถทำให้เป็นอัตโนมัติและรวมการแจ้งเตือนด้วย Microsoft Flow คุณสามารถลองใช้งานด้วยตัวคุณเองในบทความ [Microsoft Flow และ Power BI ](service-flow-integration.md)นี้ได้
+มีเพียงคุณที่สามารถดูการแจ้งเตือนที่คุณตั้งไว้ แม้ว่าคุณได้แชร์แดชบอร์ดของคุณ แม้แต่เจ้าของแดชบอร์ดก็มองไม่เห็นการแจ้งเตือนที่คุณตั้งไว้ในมุมมองแดชบอร์ดของพวกเขาได้ การแจ้งเตือนข้อมูลจะถูกซิงโครไนซ์เต็มรูปแบบข้ามแพลตฟอร์ม ตั้งค่าและดูการแจ้งเตือนข้อมูลได้[ในแอป mobile Power BI](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)และใน Power BI service ไม่สามารถใช้กับ Power BI Desktop ได้ คุณสามารถทำให้เป็นอัตโนมัติและรวมการแจ้งเตือนด้วย Microsoft Flow คุณสามารถลองใช้งานด้วยตัวคุณเองในบทความ [Microsoft Flow และ Power BI ](service-flow-integration.md)นี้ได้
 
 ![ไทล์](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -116,15 +115,13 @@ ms.locfileid: "68962685"
 
 1. จากที่นี่ คุณสามารถเปิดหรือปิดข้อความแจ้งเตือน เปิดตัว**จัดการการแจ้งเตือน**เพื่อทำการเปลี่ยนแปลง หรือลบการแจ้งเตือนได้
 
-## <a name="tips-and-troubleshooting"></a>เคล็ดลับและการแก้ไขปัญหา
+## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
 
 * การแจ้งเตือนไม่ได้สนับสนุนไทล์การ์ดที่มีหน่วยวัดวันที่/เวลา
-
 * การแจ้งเตือนจะทำงานกับข้อมูลตัวเลขเท่านั้น
-
 * การแจ้งเตือนจะทำงานกับข้อมูลที่รีเฟรชเท่านั้น ข้อความแจ้งเตือนจะไม่ทำงานกับข้อมูลแบบคงที่
-
 * การแจ้งเตือนจะทำงานกับชุดข้อมูลสตรีมมิ่งถ้าคุณสร้างวิชวลของรายงาน KPI, การ์ด หรือหน่วยวัด และปักหมุดวิชวลนั้นในแดชบอร์ด
+
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
@@ -132,6 +129,6 @@ ms.locfileid: "68962685"
 
 * [ตั้งค่าการแจ้งเตือนข้อมูลบนอุปกรณ์เคลื่อนที่ของคุณ](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 
-* [Power BI คืออะไร](power-bi-overview.md)
+* [Power BI คืออะไร](fundamentals/power-bi-overview.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

@@ -3,20 +3,19 @@ title: กรองรายงานโดยใช้พารามิเต�
 description: กรองรายงานโดยใช้พารามิเตอร์สตริงของแบบสอบถาม URL หรือแมกระทั่งกรองบนเขตข้อมูลมากกว่าหนึ่งรายการ
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 9e2b1132e48e824b70ddb0e0d86bfed4efedff2f
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623891"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876928"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>กรองรายงานโดยใช้พารามิเตอร์สตริงของแบบสอบถามใน URL
 
@@ -153,7 +152,7 @@ Power BI สนับสนุน OData V3 และ V4 สำหรับชน
 |---------|---------|---------|
 |**ชื่อตาราง**     | ช่องว่าง คือ 0x20        |  Table_x0020_Name       |
 |**Column**@**Number**     |   @ คือ 0x40     |  Column_x0040_Number       |
-|**[Column]**     |  [คือ 0x0058] คือ 0x0050       |  _x0058_Column_x0050_       |
+|**[Column]**     |  [ คือ 0x005B ] คือ 0x005D       |  _x005B_Column_x005D_       |
 |**Column+Plus**     | + คือ 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3![ ภาพตารางแสดงอักขระพิเศษ](media/service-url-filters/power-bi-special-characters1.png)
@@ -195,4 +194,4 @@ TerritoryChain = [Territory] & "-" & [Chain]
 [ปักหมุดการแสดงภาพไปยังแดชบอร์ด](service-dashboard-pin-tile-from-report.md)  
 [ลงทะเบียนเพื่อขอรับรุ่นทดลองใช้ฟรี](https://powerbi.microsoft.com/get-started/)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

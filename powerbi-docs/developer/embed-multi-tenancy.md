@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 3940f677cadc5844cfac9c32781a5586bde0607a
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 3b33e2479ad114a2224c16c9d43e7797784624fc
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621294"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429653"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>จัดการการเช่าหลายรายการด้วยการวิเคราะห์ของ Power BI Embedded
 
@@ -37,7 +37,7 @@ ms.locfileid: "69621294"
 
 **ผู้เช่า** - ลูกค้ารายเดียว (องค์กร) ที่ใช้แอปพลิเคชัน SaaS และทรัพยากรหรือแหล่งข้อมูลใด ๆ ที่ลูกค้านำมาใช้กับแอปพลิเคชัน SaaS
 
-**[Power BI](../power-bi-overview.md)** - บริการ Cloud ของ Power BI ที่ให้บริการเป็นแพลตฟอร์มสำหรับ Power BI Embedded
+**[Power BI](../fundamentals/power-bi-overview.md)** - บริการ Cloud ของ Power BI ที่ให้บริการเป็นแพลตฟอร์มสำหรับ Power BI Embedded
 
 **ผู้เช่า power BI** - คือชุดทรัพยากร Power BI ที่เกี่ยวข้องกับผู้เช่า AAD รายเดียว
 
@@ -55,7 +55,7 @@ ms.locfileid: "69621294"
 
 **กำลังการผลิต** - ชุดของทรัพยากรที่ใช้ไปกับการให้บริการ Power BI [กำลังการผลิตแบบพรีเมียมของ Power BI](../service-premium-what-is.md) มีไว้สำหรับ บริษัทองค์กรที่ใช้ Power BI แบบภายใน ส่วน[ความจุ Power BI Embedded](azure-pbie-create-capacity.md) มีไว้สำหรับนักพัฒนาแอปพลิเคชันเพื่อพัฒนาแอปพลิเคชัน SaaS ให้กับบุคคลที่สาม
 
-**[สิทธิ์การใช้งาน Power BI Pro](../service-admin-purchasing-power-bi-pro.md)** - สิทธิ์การใช้งานตามผู้ใช้ ซึ่งจะมอบสิทธิ์เพื่อเผยแพร่เนื้อหาไปยังพื้นที่ทำงานบนแอป ใช้แอปโดยไม่ต้องมีกำลังการผลิตแบบพรีเมียม แชร์แดชบอร์ด และสมัครใช้งานแดชบอร์ดและรายงานได้
+**[สิทธิ์การใช้งาน Power BI Pro](../service-admin-purchasing-power-bi-pro.md)** - สิทธิ์การใช้งานตามผู้ใช้ ซึ่งจะมีสิทธิ์ในการเผยแพร่เนื้อหาไปยังพื้นที่ทำงาน ใช้แอปโดยไม่ต้องมีความจุแบบพรีเมียม แชร์แดชบอร์ด และสมัครใช้งานแดชบอร์ดและรายงานได้
 
 **[โหมดการเชื่อมต่อข้อมูล](../desktop-directquery-about.md)** - เชื่อมต่อแหล่งข้อมูลไปยัง Power BI ที่สามารถทำได้ในโหมดที่แตกต่างกัน:
 

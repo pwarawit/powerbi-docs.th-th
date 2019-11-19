@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3c6dc26ee1cf806ff85a9452c024e7ccbd210a25
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: d140e39cdd30f5e2078f24c55fda5ea7040e0ad4
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867112"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431885"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>ฝังรายงานในพอร์ทัลความปลอดภัยหรือเว็บไซต์
 
@@ -49,7 +49,7 @@ ms.locfileid: "68867112"
 
 ตัวเลือก**ฝังตัว**ตัวไม่อนุญาตให้ผู้ใช้ดูรายงานโดยอัตโนมัติ คุณสามารถตั้งค่าสิทธิ์ในการดูได้ในบริการของ Power BI
 
-ในบริการของ Power BI คุณสามารถแชร์รายงานแบบฝังกับผู้ใช้ที่ต้องการการเข้าถึง หากคุณกำลังใช้กลุ่ม Office 365 คุณสามารถแสดงรายชื่อผู้ใช้ในฐานะสมาชิกของพื้นที่ทำงานของแอป สำหรับข้อมูลเพิ่มเติม โปรดดูวิธีการ [จัดการพื้นที่ทำงานของแอปคุณใน Power BI และ Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md)
+ในบริการของ Power BI คุณสามารถแชร์รายงานแบบฝังกับผู้ใช้ที่ต้องการการเข้าถึง หากคุณกำลังใช้ Office 365 Group คุณสามารถแสดงรายชื่อผู้ใช้ในฐานะสมาชิกของพื้นที่ทำงาน สำหรับข้อมูลเพิ่มเติม โปรดดูวิธีการ [จัดการพื้นที่ทำงานใน Power BI และ Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md)
 
 ## <a name="licensing"></a>สิทธิ์การใช้งาน
 

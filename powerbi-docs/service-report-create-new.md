@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f2d9046c907b78ce2c1bb2754007c34199877a08
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 1993ac0b300bb582d7b8a1946ff63cf6316c2d52
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523078"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432203"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>สร้างรายงานในบริการของ Power BI โดยการนำเข้าชุดข้อมูล
 คุณได้อ่าน[รายงานใน Power BI](consumer/end-user-reports.md)และตอนนี้ คุณต้องการสร้างรายงานของคุณเอง มีหลายวิธีในการสร้างรายงาน ในบทความนี้เราจะเริ่มต้นด้วยการสร้างรายงานพื้นฐานในบริการของ Power BI จากชุดข้อมูล Excel เมื่อคุณทำความเข้าใจพื้นฐานของการสร้างรายงาน ตรวจดู[ขั้นตอนถัดไป](#next-steps)ที่ด้านล่างสำหรับหัวข้อการรายงานขั้นสูงเพิ่มเติม  
@@ -29,7 +29,7 @@ ms.locfileid: "68523078"
 
 1. เราจะสร้างรายงานในพื้นที่ทำงานบริการของ Power BI ดังนั้นให้เลือกพื้นที่ทำงานมีอยู่หรือสร้างขึ้นใหม่
    
-   ![รายการพื้นที่ทำงานแอป](media/service-report-create-new/power-bi-workspaces2.png)
+   ![รายการพื้นที่ทำงาน](media/service-report-create-new/power-bi-workspaces2.png)
 2. จากด้านล่างของบานหน้าต่างพื้นที่นำทางด้านซ้าย เลือก **รับข้อมูล**
    
    ![รับข้อมูล](media/service-report-create-new/power-bi-get-data3.png)

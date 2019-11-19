@@ -2,21 +2,20 @@
 title: เพิ่มไฮเปอร์ลิงก์ (URL) ในตาราง
 description: หัวข้อนี้สอนวิธีการเพิ่มไฮเปอร์ลิงก์ (URL) ในตาราง คุณใช้ Power BI Desktop เพื่อเพิ่มไฮเปอร์ลิงก์ (URL) ในตารางหรือเมทริกซ์ จากนั้น ไม่ว่าจะในบริการของ Power BI Desktop หรือ Power BI คุณสามารถพิ่มไฮเปอร์ลิงก์เหล่านั้นไปยังรายงานตารางและเมทริกซ์ของคุณได้
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/30/2019
+ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: e8cad7035e752e5e344d78a22ad5fd8ea0a072ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715293"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874498"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>เพิ่มไฮเปอร์ลิงก์ (URL) ในตาราง
 หัวข้อนี้สอนวิธีการเพิ่มไฮเปอร์ลิงก์ (URL) ในตาราง คุณใช้ Power BI Desktop เพื่อเพิ่มไฮเปอร์ลิงก์ (URL) ในตารางหรือเมทริกซ์ จากนั้น ไม่ว่าจะในบริการของ Power BI Desktop หรือ Power BI คุณสามารถพิ่มไฮเปอร์ลิงก์เหล่านั้นไปยังรายงานตารางและเมทริกซ์ของคุณได้ 
@@ -44,7 +43,7 @@ ms.locfileid: "71715293"
     ![ลิงก์สีน้ำเงินและขีดเส้นใต้](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
 
     > [!NOTE]
-    > URL ต้องเริ่มต้นด้วย**http://, https://** หรือ**www**
+    > URL ต้องเริ่มต้นด้วยเลขนำหน้าบางอย่าง โปรดดู [ข้อควรพิจารณาและการแก้ไขปัญหา](#considerations-and-troubleshooting) สำหรับรายการทั้งหมด
     >
    
 1. ถ้าคุณไม่ต้องการแสดง URL ยาวในตาราง คุณสามารถแสดงเป็นไฮเปอร์ลิงก์แทนได้  ![ไฮเปอร์ลิงก์ไอคอน](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) แทน โปรดทราบว่า คุณไม่สามารถแสดงไอคอนในเมทริกซ์ได้
@@ -80,8 +79,9 @@ ms.locfileid: "71715293"
 4. วางเคอร์เซอร์ในคอลัมน์ที่ประกอบด้วย URL ที่คุณต้องการเปลี่ยนเป็นไฮเปอร์ลิงก์ในตาราง Power BI
    
    > [!NOTE]
-   > URL ต้องเริ่มต้นด้วย**http://, https://** หรือ**www**
+   > URL ต้องเริ่มต้นด้วยเลขนำหน้าบางอย่าง โปรดดู [ข้อควรพิจารณาและการแก้ไขปัญหา](#considerations-and-troubleshooting) สำหรับรายการทั้งหมด
    > 
+   
 5. ในกลุ่ม**รายงานคุณสมบัติ** เลือก**ประเภทข้อมูล**แบบเลื่อนลง แล้วเลือก**URL เว็บ** 
    
    ![ดรอปดาวน์ประเภทข้อมูลใน Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
@@ -92,7 +92,17 @@ ms.locfileid: "71715293"
    ![สร้างตารางใน Power BI ด้วย URL เขตข้อมูล](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
-คำถาม: ฉันสามารถใช้ URL ที่กำหนดเองเป็นไฮเปอร์ลิงก์ในตารางหรือเมทริกซ์ได้หรือไม่?    
+
+URL ต้องเริ่มต้นด้วยหนึ่งในรายการต่อไปนี้:
+- http
+- https
+- -mailto
+- file
+- ftp
+- news
+- telnet
+
+Q: ฉันสามารถใช้ URL ที่กำหนดเองเป็นไฮเปอร์ลิงก์ในตารางหรือเมทริกซ์ได้หรือไม่?    
 คำตอบ: หมายเลข คุณสามารถใช้ไอคอนลิงก์หนึ่งได้ ถ้าคุณต้องการข้อความแบบกำหนดเองสำหรับไฮเปอร์ลิงก์ของคุณ และรายการของ URL เป็นรายการที่สั้น ให้พิจารณาการใช้กล่องข้อความแทน
 
 
@@ -101,5 +111,5 @@ ms.locfileid: "71715293"
 
 [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

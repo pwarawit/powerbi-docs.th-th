@@ -11,12 +11,12 @@ ms.author: mblythe
 ms.date: 09/09/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 04a8c8a08d885427e9de43b719674fce4ac2ebbd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 7d2bfbfb53914fea43014c78d88ac0c66559466c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074846"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431348"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Row-level security (RLS) กับ Power BI
 
@@ -70,7 +70,7 @@ Row-level security (RLS) ด้วย Power BI สามารถใช้เพ
 
 คุณสามารถตรวจสอบว่าบทบาทที่คุณกำหนดทำงานถูกต้องหรือไม่ได้โดยการทดสอบบทบาท 
 
-1. เลือก**จุดไข่ปลา (...)** ถัดจากบทบาท
+1. เลือก **ตัวเลือกเพิ่มเติม** (...) ที่อยู่ถัดจากบทบาท
 2. เลือก**ทดสอบข้อมูลแบบเป็นบทบาท**
 
 ![ทดสอบในฐานะบทบาท](media/service-admin-rls/rls-test-role.png)
@@ -89,12 +89,12 @@ Row-level security (RLS) ด้วย Power BI สามารถใช้เพ
 
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
-## <a name="using-rls-with-app-workspaces-in-power-bi"></a>ใช้ RLS กับพื้นที่ทำงานแอปใน Power BI
+## <a name="using-rls-with-workspaces-in-power-bi"></a>ใช้ RLS กับพื้นที่ทำงานใน Power BI
 
-ถ้าคุณเผยแพร่รายงาน Power BI Desktop ของคุณไปยังพื้นที่ทำงานแอปภายใน Power BI service บทบาทจะได้รับการปรับใช้กับสมาชิกแบบอ่านอย่างเดียว คุณจะต้องระบุว่าสมาชิกสามารถดูเนื้อหา Power BI ภายในการตั้งค่าพื้นที่ทำงานแอปได้หรือไม่
+ถ้าคุณเผยแพร่รายงาน Power BI Desktop ของคุณไปยังพื้นที่ทำงานภายในบริการ Power BI บทบาทดังกล่าวจะถูกนำไปใช้กับสมาชิกแบบอ่านอย่างเดียว คุณจะต้องระบุว่าเฉพาะสมาชิกเท่านั้นที่สามารถดูเนื้อหา Power BI ภายในการตั้งค่าพื้นที่ทำงาน
 
 > [!WARNING]
-> ถ้าคุณกำหนดค่าพื้นที่ทำงานแอปเพื่อให้สมาชิกมีสิทธิ์ในการแก้ไข จะไม่สามารถใช้บทบาท RLS กับพื้นที่ทำงานแอปนั้นได้ ผู้ใช้จะสามารถดูข้อมูลทั้งหมด
+> ถ้าคุณกำหนดค่าพื้นที่ทำงานเพื่อให้สมาชิกมีสิทธิ์ในการแก้ไข บทบาท RLS จะไม่ถูกนำไปใช้กับพื้นที่ทำงานนั้นได้ ผู้ใช้จะสามารถดูข้อมูลทั้งหมด
 
 ![การตั้งค่ากลุ่ม](media/service-admin-rls/rls-group-settings.png)
 

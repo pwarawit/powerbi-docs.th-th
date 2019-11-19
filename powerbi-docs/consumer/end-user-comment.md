@@ -2,7 +2,6 @@
 title: เพิ่มข้อคิดเห็นไปยังแดชบอร์ดและรายงาน
 description: เอกสารนี้แสดงวิธีการเพิ่มข้อคิดเห็นลงในแดชบอร์ด รายงาน หรือแสดงผลภาพ และวิธีการใช้ข้อคิดเห็นในการสนทนากับผู้ทำงานร่วมกัน
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: f9979a852028e929b626e76534fef073feca3fd8
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: da941de8b44f3833a5f80bba648f4a185f35b36e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100729"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852031"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>เพิ่มความคิดเห็นในแดชบอร์ดหรือรายงาน
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 เพิ่มข้อคิดเห็นส่วนบุคคล หรือเริ่มการสนทนาเกี่ยวกับแดชบอร์ดหรือรายงานกับเพื่อนร่วมงานของคุณ คุณลักษณะ**ข้อคิดเห็น**มีเพียงหนึ่งในหลายวิธีการที่*ผูบริโภค*สามารถทำงานร่วมกับผู้อื่นได้ 
 
 ![วิดีโอข้อคิดเห็น](media/end-user-comment/comment.gif)
@@ -64,7 +66,7 @@ ms.locfileid: "71100729"
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>เพิ่มข้อคิดเห็นไปยังการแสดงผลภาพแดชบอร์ดหรือรายงานที่เฉพาะเจาะจง
 นอกเหนือจากการเพิ่มข้อคิดเห็นไปยังแดชบอร์ดทั้งหมดหรือไปยังหน้ารายงานทั้งหมด คุณสามารถเพิ่มข้อคิดเห็นไปยังไทล์แดชบอร์ดแต่ละรายการและการแสดงผลด้วยภาพของแต่ละรายงานได้ กระบวนการนี้จะคล้ายกันและในตัวอย่างนี้เรากำลังใช้รายงาน
 
-1. เลื่อนเคอร์เซอร์เหนือภาพและเลือกจุดไข่ปลา (...)    
+1. วางเมาส์เหนือวิชวล และเลือก**ตัวเลือกเพิ่มเติม** (...)    
 2. จากรายการแบบดรอบดาวน์ เลือก**เปิดการแสดงข้อคิดเห็น**
 
     ![เพิ่มข้อคิดเห็นเป็นตัวเลือกแรก](media/end-user-comment/power-bi-report-comment.png)  

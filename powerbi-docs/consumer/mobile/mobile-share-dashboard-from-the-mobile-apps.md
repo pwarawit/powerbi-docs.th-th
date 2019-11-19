@@ -2,19 +2,18 @@
 title: แชร์แดชบอร์ดหรือรายงานจากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI
 description: เชิญบุคคลอื่นเพื่อดูแดชบอร์ดและรายงานของคุณ โดยการแชร์ลิงก์จากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI เรียนรู้วิธีการ
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 232d311e876a5fe01eb6c8091eb7a83669592cbf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61274659"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879078"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>แชร์แดชบอร์ดหรือรายงานจากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI
 นำไปใช้กับ:
@@ -86,7 +85,7 @@ ms.locfileid: "61274659"
 3. เมื่อต้องการยกเลิกการแชร์ แตะที่วงกลมสีแดงถัดจากชื่อ และแตะ**ลบ**
 
 ## <a name="share-from-your-android-device"></a>แชร์จากอุปกรณ์ Android ของคุณ
-1. บนหน้าแรกของแดชบอร์ดหรือรายงาน แตะที่จุดไข่ปลา (...) แล้วแตะ**เชิญเพื่อนร่วมงาน**
+1. บนหน้าแรกของแดชบอร์ดหรือรายงาน แตะที่**ตัวเลือกเพิ่มเติม** (...) แล้วแตะ**เชิญเพื่อนร่วมงาน**
    
    ![เชิญเพื่อนร่วมงาน](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
 2. หรือ ในแดชบอร์ดหรือรายงาน แตะไอคอนเชิญ ![ไอคอนเชิญ](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
@@ -147,5 +146,5 @@ ms.locfileid: "61274659"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ใส่คำอธิบายประกอบ และแชร์สแนปช็อตของไทล์ รายงาน หรือภาพในแอปสำหรับอุปกรณ์เคลื่อนที่](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [แชร์แดชบอร์ดหรือรายงานใน Power BI](../../service-share-dashboards.md)
-* คำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* คำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

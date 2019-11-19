@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/04/2019
-ms.openlocfilehash: 97b9d68a8fa17a3ce1758eeaa16d2503a38a4743
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 513c6a4a3f5041b7af06e5c1713de3bd417a1354
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968492"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431585"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>รายงานที่มีการแบ่งหน้าใน Power BI คำถามที่ถามบ่อย 
 
 บทความนี้จะตอบคำถามที่พบบ่อยเกี่ยวกับรายงานแบบแบ่งหน้า รายงานเหล่านี้คือเอาต์พุตที่มีการจัดรูปแบบสูงและเป็นแบบพิกเซลสมบูรณ์แบบที่เหมาะกับการพิมพ์หรือการสร้าง PDF ที่เรียกว่า "แบบแบ่งหน้า" เนื่องจากมีการจัดรูปแบบให้พอดีกับหน้าหลายหน้า รายงานแบบแบ่งหน้านั้นมาจากเทคโนโลยีรายงาน RDL ใน SQL Server Reporting Services 
 
-บทความนี้ตอบคำถามทั่วไปที่ผู้คนสงสัยเกี่ยวกับรายงานแบบแบ่งหน้าใน Power BI Premium และเกี่ยวกับตัวสร้างรายงาน อันเป็นเครื่องมือเดี่ยวสำหรับเขียนรายงานแบบแบ่งหน้า คุณต้องมีสิทธิ์การใช้งาน Power BI Pro ในการที่จะเผยแพร่รายงานไปยังบริการ คุณสามารถเผยแพร่และแบ่งปันรายงานแบบแบ่งหน้าได้ใน "พื้นที่ทำงานของฉัน" หรือในพื้นที่ทำงานของแอป ตราบเท่าที่พื้นที่ทำงานอยู่ในความจุ Power BI Premium 
+บทความนี้ตอบคำถามทั่วไปที่ผู้คนสงสัยเกี่ยวกับรายงานแบบแบ่งหน้าใน Power BI Premium และเกี่ยวกับตัวสร้างรายงาน อันเป็นเครื่องมือเดี่ยวสำหรับเขียนรายงานแบบแบ่งหน้า คุณต้องมีสิทธิ์การใช้งาน Power BI Pro ในการที่จะเผยแพร่รายงานไปยังบริการ คุณสามารถเผยแพร่และแบ่งปันรายงานที่มีการแบ่งหน้าได้ในพื้นที่ทำงานของฉัน หรือในพื้นที่ทำงาน ตราบใดที่พื้นที่ทำงานอยู่ในความจุ Power BI Premium 
 
 ## <a name="administration"></a>การดูแลระบบ
 
@@ -163,7 +163,7 @@ ms.locfileid: "71968492"
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>ฉันสามารถใช้ Power BI Embedded เพื่อฝังรายงานแบบแบ่งหน้าในแอปที่ฉันโฮสต์อยู่ได้หรือไม่
 
-รองรับการฝัง SaaS แล้ว ยังไม่รองรับการฝัง PaaS ในขณะนี้
+การฝัง SaaS ซึ่งรวมถึงการสนับสนุนแบบฝังตัวที่ปลอดภัยพร้อมใช้งานแล้ว  การสนับสนุนการฝัง PaaS มีการวางแผนในช่วงปลายปีนี้
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>ฉันสามารถลงรายละเอียดจากรายงาน Power BI ในรายงานแบบแบ่งหน้าได้หรือไม่
 
@@ -179,7 +179,7 @@ ms.locfileid: "71968492"
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>มีการวางแผนสำหรับเครื่องมือเคลื่อนย้ายเพื่อให้ลูกค้า SSRS ย้ายรายงานและแอสเซทที่มีอยู่ Power BI ได้หรือไม่
 
-เรากำลังประเมินตัวเลือกที่นี่เพื่ออนุญาตให้ย้ายเนื้อหาไปยัง Power BI ในวิธีอัตโนมัติ แต่จะไม่สามารถใช้ได้จนกว่าจะหลังจาก GA
+ขณะนี้โครงการบน GitHub สนับสนุนการย้ายเนื้อหาจาก SQL Server Reporting Services ไปยัง Power BI  ดูรายละเอียดและดาวน์โหลดเครื่องมือที่นี่: [https://github.com/microsoft/RdlMigration](https://github.com/microsoft/RdlMigration)
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>มีส่วนควบคุมตัวแสดงรายงานสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI หรือไม่
 

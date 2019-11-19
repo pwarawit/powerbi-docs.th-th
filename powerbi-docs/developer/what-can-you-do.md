@@ -3,18 +3,17 @@ title: นักพัฒนาสามารถทำอะไรกับ Pow
 description: Power BI มีหลากหลายตัวเลือกสำหรับนักพัฒนา ซึ่งมีช่วงตั้งแต่การฝังเพื่อกำหนดวิชวลเองและการสตรีมชุดข้อมูล
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 0d4f79714be7d354c26a7bd63adbe8bce07ed4ef
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 9105edd88e83f17f4d6e75a7e45dc123a6789713
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307466"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875688"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>นักพัฒนาสามารถทำอะไรกับ Power BI ได้บ้าง
 
@@ -22,7 +21,7 @@ ms.locfileid: "72307466"
 
 ## <a name="embedding-power-bi-content"></a>ฝังเนื้อหา Power BI
 
-บริการ Power BI (SaaS) และบริการ Power BI Embedded ใน Azure (PaaS) มี API สำหรับการฝังสำหรับแดชบอร์ดและรายงาน ฟีเจอร์นี้หมายความว่า คุณสามารถเข้าถึงฟีเจอร์ล่าสุด Power BI – เช่น แดชบอร์ด เกตเวย์ และพื้นที่ทำงานแอป – เมื่อมีการฝังเนื้อหาของคุณ
+บริการ Power BI (SaaS) และบริการ Power BI Embedded ใน Azure (PaaS) มี API สำหรับการฝังสำหรับแดชบอร์ดและรายงาน คุณลักษณะนี้หมายความว่าคุณสามารถเข้าถึงคุณลักษณะล่าสุดของ Power BI เช่น แดชบอร์ด เกตเวย์ และพื้นที่ทำงานแอป เมื่อมีการฝังเนื้อหาของคุณ
 
 คุณสามารถเข้าถึง[เครื่องมือตั้งค่าการฝังตัว](https://aka.ms/embedsetup)เพื่อเริ่มต้นใช้งานได้อย่างรวดเร็ว และดาวน์โหลดแอปพลิเคชันตัวอย่างได้
 

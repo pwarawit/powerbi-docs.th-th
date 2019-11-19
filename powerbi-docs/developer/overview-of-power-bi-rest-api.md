@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: cc180c2e9d5275172ad9da75c502ef53d9d7ee66
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: d52dcb640c0140baad2d3d5d20a1afd56aac7c4d
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307628"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430688"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>นักพัฒนาสามารถใช้ Power BI API ทำอะไรได้บ้าง
 
@@ -32,7 +32,7 @@ ms.locfileid: "72307628"
 | การรับรองความถูกต้องกับ Power BI | [การรับรองความถูกต้องกับ Power BI](get-azuread-access-token.md) |
 
 > [!NOTE]
-> Power BI API ยังคงอ้างอิงถึงพื้นที่ทำงานของแอปเป็นกลุ่ม การอ้างอิงใดๆ ถึงกลุ่มจะหมายความว่า คุณกำลังทำงานอยู่กับพื้นที่ทำงานของแอป
+> Power BI API ยังคงอ้างอิงถึงพื้นที่ทำงานเป็นกลุ่ม การอ้างอิงใด ๆ ถึงกลุ่มจะหมายความว่าคุณกำลังทำงานอยู่กับพื้นที่ทำงาน
 
 ## <a name="api-developer-tools"></a>เครื่องมือสำหรับนักพัฒนา API
 

@@ -1,6 +1,6 @@
 ---
 title: เชื่อมต่อไปยังข้อมูล Azure Cost Management ใน Power BI Desktop
-description: เชื่อมต่อกับ Azure และรับข้อมูลเชิงลึกเกี่ยวกับการจัดการค่าใช้จ่ายโดยใช้ Power BI Desktop ได้อย่างง่ายดาย
+description: เชื่อมต่อไปยัง Azure และรับข้อมูลเชิงลึกเกี่ยวกับค่าใช้จ่ายและการใช้งาน Azure ของคุณด้วย Power BI Desktop ได้อย่างง่ายดาย
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -11,21 +11,21 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1ef9deac169873d7faee33abdae9f8f38aa09c6d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: dccae9f8f9519495da9056599939169e7157873c
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72308018"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891752"
 ---
-# <a name="connect-to-azure-cost-management-data-in-power-bi-desktop"></a>เชื่อมต่อไปยังข้อมูล Azure Cost Management ใน Power BI Desktop
+# <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>เชื่อมต่อไปยัง Azure Cost Management ใน Power BI Desktop
 
 คุณสามารถใช้ตัวเชื่อมต่อการจัดการค่าใช้จ่ายของ Azure สำหรับ Power BI Desktop เพื่อสร้างการแสดงภาพและรายงานแบบกำหนดเองที่ทรงพลังซึ่งช่วยให้คุณเข้าใจการใช้งาน Azure ของคุณได้ดียิ่งขึ้น ตัวเชื่อมต่อ Azure Cost Management ในขณะนี้สนับสนุนลูกค้าด้วย[Microsoft Customer Agreement](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/) หรือ [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/)  
 
-ตัวเชื่อมต่อการจัดการต้นทุน Azure ใช้ OAuth 2.0สำหรับการรับรองความถูกต้องกับ Azure หากต้องการเชื่อมต่อคุณต้องใช้บัญชี[ผู้ดูแล Enterprise](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) สำหรับข้อตกลงขององค์กรหรือ[เจ้าของบัญชีเรียกเก็บเงิน](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles) สำหรับข้อตกลงลูกค้าของ Microsoft 
+ตัวเชื่อมต่อ Azure Cost Management ใช้ OAuth 2.0 สำหรับการรับรองความถูกต้องกับ Azure และระบุตัวตนผู้ใช้ที่กำลังจะใช้ตัวเชื่อมต่อ โทเค็นที่สร้างขึ้นในกระบวนการนี้จะใช้ได้สำหรับช่วงเวลาที่ระบุ Power BI เก็บรักษาโทเค็นสำหรับการเข้าสู่ระบบครั้งถัดไป OAuth 2.0 เป็นมาตรฐานสำหรับกระบวนการที่อยู่เบื้องหลังเพื่อให้แน่ใจว่าการจัดการสิทธิ์เหล่านี้มีความปลอดภัย หากต้องการเชื่อมต่อคุณต้องใช้บัญชี[ผู้ดูแล Enterprise](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) สำหรับข้อตกลงขององค์กรหรือ[เจ้าของบัญชีเรียกเก็บเงิน](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles) สำหรับข้อตกลงลูกค้าของ Microsoft 
 
 > [!NOTE]
-> ตัวเชื่อมต่อนี้จะแทนที่การเชื่อมต่อ  [การจัดการต้นทุน Azure (Beta)](desktop-connect-azure-consumption-insights.md) ที่มีอยู่ก่อนหน้านี้ รายงานใดๆ ที่สร้างขึ้นด้วยตัวเชื่อมต่อก่อนหน้านี้จะต้องได้รับการจัดรูปแบบใหม่โดยใช้การเชื่อมต่อนี้
+> ตัวเชื่อมต่อนี้จะแทนที่ตัวเชื่อมต่อ [Azure Consumption Insights และ Azure Cost Management (Beta)](desktop-connect-azure-consumption-insights.md) ที่มีอยู่ก่อนหน้านี้ รายงานใดๆ ที่สร้างขึ้นด้วยตัวเชื่อมต่อก่อนหน้านี้จะต้องได้รับการจัดรูปแบบใหม่โดยใช้การเชื่อมต่อนี้
 
 ## <a name="connect-using-azure-cost-management"></a>เชื่อมต่อโดยใช้ยังการจัดการค่าใช้จ่ายของ Azure
 

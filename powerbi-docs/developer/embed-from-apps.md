@@ -1,6 +1,6 @@
 ---
 title: ฝังรายงานหรือแดชบอร์ดจากแอป
-description: เรียนรู้วิธีการรวม หรือ ฝัง รายงานหรือแดชบอร์ด จากแอป Power BI และไม่ใช่ จากพื้นที่ทำงานแอป
+description: เรียนรู้วิธีการรวมหรือฝังรายงานหรือแดชบอร์ดจากแอป Power BI และไม่ใช่จากพื้นที่ทำงาน
 author: rkarlin
 ms.author: rkarlin
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.custom: mvc
 manager: kfile
 ms.date: 11/27/2018
-ms.openlocfilehash: 5a988eb160ce772d2c2e70e8cba2c01d3f0a36a9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 1883d82b47c32f3c7f03e55a177429d09ce337a2
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750896"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430859"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>ฝังรายงานหรือแดชบอร์ดจากแอป
 
@@ -42,7 +42,7 @@ ms.locfileid: "66750896"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-นอกจากนี้ ยังตรวจสอบวิธีการฝังตัวจากพื้นที่ทำงานแอปสำหรับลูกค้าของบริษัทอื่นและองค์กรของคุณ:
+ตรวจสอบวิธีการฝังตัวจากพื้นที่ทำงานสำหรับลูกค้าของบริษัทอื่นและองค์กรของคุณ:
 
 > [!div class="nextstepaction"]
 >[แบบฝังตัวสำหรับลูกค้าของบริษัทอื่น](embed-sample-for-customers.md)

@@ -11,14 +11,16 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a52fdbefabf84df22c89b0e933d56352fedf5da1
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327797"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019822"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>แสดงเนื้อหาในรายละเอียดที่มากขึ้น: โหมดโฟกัสและโหมดเต็มหน้าจอ
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -97,11 +99,11 @@ ms.locfileid: "71327797"
 
 1. เปิดแดชบอร์ดในบริการของ Power BI
 
-2. เลื่อนเคอร์เซอร์ไปไว้เหนือแดชบอร์ดไทล์หรือการแสดงภาพวิชวลของรายงาน เลือกจุดไข่ปลา (...) แล้วเลือก **เปิดในโหมดโฟกัส**
+2. วางเมาส์เหนือไทล์แดชบอร์ดหรือการแสดงภาพวิชวลของรายงาน เลือก**ตัวเลือกเพิ่มเติม** (...) แล้วเลือก **เปิดในโหมดโฟกัส**
 
     ![เมนูจุดไข่ปลาสำหรับชื่อ](media/end-user-focus/power-bi-dashboard-focus.png).
 
-2. ไทล์เปิดขึ้น และเติมสีพื้นที่รายงานทั้งหมด คุณยังมีแถบคำสั่ง **ตัวกรอง** ที่คุณสามารถใช้เพื่อโต้ตอบกับส่วนการแสดงผล แถบคำสั่ง **ตัวกรอง** สามารถยุบได้ 
+2. ไทล์เปิดขึ้น และเติมสีพื้นที่รายงานทั้งหมด คุณยังมีแถบคำสั่ง **ตัวกรอง** ที่คุณสามารถใช้เพื่อโต้ตอบกับส่วนการแสดงผล แถบคำสั่ง **ตัวกรอง** สามารถยุบได้
 
    ![ไทล์เติมพื้นที่รายงาน](media/end-user-focus/power-bi-focus-filter.png)
 

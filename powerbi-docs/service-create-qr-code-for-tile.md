@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cab65ad12255b7a5ff2e37902684437f0e191723
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e08d37f3db6156de21f00813a90b1c7544345abe
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61169079"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021184"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>สร้างคิวอาร์โค้ด ให้แก่รายงานที่ใช้ในแอปสำหรับอุปกรณ์เคลื่อนที่ของ Power BI
 คิวอาร์โค้ดใน Power BI สามารถเชื่อมต่อทุกอย่างในโลกแห่งความจริง เข้ากับข้อมูลที่เกี่ยวข้องกับ BI่ได้โดยตรง &#151; โดยที่ไม่จำเป็นต้องใช้การค้นหา
@@ -27,8 +27,8 @@ ms.locfileid: "61169079"
 
 ## <a name="create-a-qr-code-for-a-tile"></a>สร้างคิวอาร์โค้ดสำหรับไทล์
 1. เปิดแดชบอร์ดในบริการ Power BI
-2. เลือกจุดไข่ปลา (...) ที่มุมขวาบน แล้วเลือก**โหมดโฟกัส**![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg)
-3. เลือกจุดไข่ปลา (...) ที่มุมขวาบน แล้วเลือก**สร้างคิวอาร์โค้ด** 
+2. เลือก **ตัวเลือกเพิ่มเติม** (...) ที่มุมขวาบนของไทล์ แล้วเลือก**โหมดโฟกัส** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg)
+3. เลือก **ตัวเลือกเพิ่มเติม** (...) ที่มุมขวาบน แล้วเลือก**สร้างคิวอาร์โค้ด** 
    
     ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
 4. กล่องโต้ตอบที่มีคิวอาร์โค้ดจะปรากฏขึ้น 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c157a486b66180de1299144e670210559a53258a
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: e3e360a47d258c6103377fa26a16c10eb2c8d4d5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207578"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019626"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>ดูข้อมูลเชิงลึกบนไทล์แดชบอร์ดด้วย Power BI
 [ไทล์](end-user-tiles.md)การแสดงผลแต่ละส่วนที่แดชบอร์ดของคุณจะเป็นช่องทางไปสู่การสืบค้นข้อมูล เมื่อคุณเลือกไทล์ รายงานจะถูกเปิดขึ้นมา หรือเป็นการ[เปิดส่วนถามตอบ](end-user-q-and-a.md)เพื่อให้คุณสามารถกรอกและจัดเรียงและเจาะรายละเอียดชุดข้อมูลในรายงานดังกล่าว และเมื่อคุณเรียกใช้ข้อมูลเชิงลึก Power BI จะสำรวจข้อมูลให้คุณ
@@ -31,7 +31,7 @@ ms.locfileid: "71207578"
 เมื่อคุณเรียกใช้ข้อมูลเชิงลึกบนไทล์ของแดชบอร์ด Power BI จะค้นหาเฉพาะข้อมูลที่ใช้ในการสร้างไทล์ของแดชบอร์ดเดียว 
 
 1. [เปิดแดชบอร์ด](end-user-dashboards.md)
-2. เลื่อนไปเหนือไทล์ เลือกจุดไข่ปลา (...) แล้วเลือก**ดูข้อมูลเชิงลึก** 
+2. เลื่อนไปเหนือไทล์ เลือก**ตัวเลือกเพิ่มเติม** (...) และเลือก**ดูข้อมูลเชิงลึก** 
 
     ![โหมดเมนูจุดไข่ปลา](./media/end-user-insights/power-bi-hovers.png)
 

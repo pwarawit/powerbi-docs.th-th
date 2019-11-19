@@ -9,14 +9,17 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903836"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019472"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>ดูรายงานในบริการของ Power BI สำหรับ*ผู้บริโภค*
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 รายงานเป็นภาพอย่างน้อยหนึ่งหน้า รายงานจะถูกสร้างขึ้นโดย*นักออกแบบ* Power BI และ[แบ่งปันกับ*ผู้บริโภค*โดยตรง](end-user-shared-with-me.md)หรือในฐานะเป็นส่วนหนึ่งของ[แอป](end-user-apps.md) 
 
 มีหลายวิธีในการเปิดรายงาน และเราจะแสดงให้คุณเห็นสองวิธี: เปิดจากหน้าหลักและเปิดจากแดชบอร์ด 
@@ -52,7 +55,7 @@ ms.locfileid: "70903836"
 
 6. โปรดสังเกตบานหน้าต่าง**ตัวกรอง**ทางด้านขวา ตัวกรองที่ถูกนำไปใช้กับหน้ารายงานนี้หรือรายงานทั้งหมดจะแสดงที่นี่
 
-7. การวางเมาส์เหนือภาพรายงานจะแสดงไอคอนหลายรายการและจุดไข่ปลา (...) เมื่อต้องการดูตัวกรองที่ใช้กับวิชวลที่ระบุ ให้เลือกไอคอนตัวกรอง ที่นี่เราได้เลือกไอคอนตัวกรองสำหรับแผนภูมิเส้น *หน่วยรวมตามช่วงเวลาที่ไม่แน่นอนและภูมิภาค*
+7. การวางเมาส์เหนือวิชวลรายงานจะแสดงไอคอนหลายรายการและ **ตัวเลือกเพิ่มเติม** (...) เมื่อต้องการดูตัวกรองที่ใช้กับวิชวลที่ระบุ ให้เลือกไอคอนตัวกรอง ที่นี่เราได้เลือกไอคอนตัวกรองสำหรับแผนภูมิเส้น *หน่วยรวมตามช่วงเวลาที่ไม่แน่นอนและภูมิภาค*
 
    ![แท็บหน้ารายงาน](./media/end-user-report-open/power-bi-visual-filters.png)
 
@@ -102,6 +105,7 @@ ms.locfileid: "70903836"
 - ใช้[เนื้อหาที่เกี่ยวข้องกับมุมมอง](end-user-related.md)    
 - ในอีเมล เมื่อมีใคร[แชร์กับคุณ](../service-share-reports.md) หรือคุณ[ตั้งค่าการแจ้งเตือน](end-user-alerts.md)    
 - จาก[ศูนย์การแจ้งเตือน](end-user-notification-center.md)ของคุณ    
+- จากพื้นที่ทำงาน
 - และอื่น ๆ อีกมากมาย
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

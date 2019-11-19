@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 08d66df2456917c09b6b0c1d9c40e2de47f53fa5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 5b9a0de8a3a9301219c15e5566854b591e79ba5e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543906"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429332"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>แก้ไขปัญหาแอปพลิเคชันแบบฝังตัวของคุณ
 
@@ -78,8 +78,8 @@ public static string GetExceptionText(this HttpOperationException exc)
 
 * ผู้ใช้มีจำนวนโทเค็นแบบฝังเกินจำนวนที่สามารถสร้างขึ้นได้ในความจุที่ใช้ร่วมกัน ซื้อความจุ Azure เพื่อสร้างโทเค็นแบบฝัง และกำหนดพื้นที่ทำงานให้กับขีดความจุนั้น ดู[ขีดความสามารถในการสร้าง Power BI แบบฝังในพอร์ทัล Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)
 * โทเค็นรับรองความถูกต้องของ Azure AD หมดอายุแล้ว
-* ผู้ใช้ที่ได้รับการรับรองความถูกต้องไม่เป็นสมาชิกของกลุ่ม (พื้นที่ทำงานของแอปฯ)
-* ผู้ใช้ที่ได้รับการรับรองความถูกต้องไม่เป็นผู้ดูแลระบบของกลุ่ม (พื้นที่ทำงานของแอปฯ)
+* ผู้ใช้ที่ได้รับการรับรองความถูกต้องไม่เป็นสมาชิกของกลุ่ม (พื้นที่ทำงาน)
+* ผู้ใช้ที่ได้รับการรับรองความถูกต้องไม่เป็นผู้ดูแลระบบของกลุ่ม (พื้นที่ทำงาน)
 * ผู้ใช้ที่ผ่านการรับรองความถูกต้องแล้วไม่มีสิทธิ์ จะสามารถอัปเดตสิทธิ์ได้โดยใช้[refreshUserPermissions API](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions)
 * หัวข้อการรับรองความถูกต้องอาจไม่อยู่ในรายการอย่างถูกต้อง ตรวจสอบให้แน่ใจว่าไม่มีการพิมพ์ผิด
 

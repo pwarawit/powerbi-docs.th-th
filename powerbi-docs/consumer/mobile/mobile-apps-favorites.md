@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 433bfc6298632eb9b999a23fe4b54417add507a3
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 53ea3444be75b32390789205ab96c87fa8ff2ce6
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61339574"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017829"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>สร้างและดูรายการโปรดในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -44,7 +44,7 @@ ms.locfileid: "61339574"
   ![หน้ารายการโปรด](./media/mobile-apps-favorites/power-bi-ipad-favorites.png)
 
 ## <a name="make-an-app-a-favorite"></a>เพิ่มแอปให้เป็นรายการโปรด
-1. ในรายการแอปในแอปอุปกรณ์เคลื่อนที่ แตะจุดไข่ปลา (...) ที่อยู่ถัดจากแอป > **รายการโปรด**
+1. ในรายการแอปในแอปสำหรับอุปกรณ์เคลื่อนที่ ให้แตะ **ตัวเลือกเพิ่มเติม** (...) ที่อยู่ถัดจากแอป > **รายการโปรด**
    
     ![เมนูแอปรายการโปรด](./media/mobile-apps-favorites/power-bi-android-favorite-app-ellipsis.png)
    
@@ -65,7 +65,7 @@ ms.locfileid: "61339574"
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>สร้างแดชบอร์ดหรือรายงานเป็นรายการโปรดในแอปสำหรับอุปกรณ์เคลื่อนที่ Android
 คุณสามารถสร้างแดชบอร์ดหรือรายงานเป็นรายการโปรดจากรายการของแดชบอร์ดหรือรายงาน หรือ จากแดชบอร์ดหรือรายงานนั้นๆ
 
-* ในรายการของแดชบอร์ดหรือรายงานในแอปอุปกรณ์เคลื่อนที่ แตะจุดไข่ปลาแนวตั้ง (...) ที่อยู่ถัดจากชื่อ จากนั้น แตะ**รายการโปรด** คุณจะเห็นรูปดาวสีเหลืองอยู่ถัดจากชื่อ![ไอคอนรายการโปรด](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)
+* ในรายการของแดชบอร์ดหรือรายงานในแอปสำหรับอุปกรณ์เคลื่อนที่ ให้แตะที่ปุ่ม **ตัวเลือกเพิ่มเติม** (...) ที่อยู่ถัดจากชื่อ จากนั้นแตะ **รายการโปรด** คุณจะเห็นรูปดาวสีเหลืองอยู่ถัดจากชื่อ![ไอคอนรายการโปรด](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)
   
     ![เมนูรายการโปรด Android](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 * บนแดชบอร์ดหรือรายงาน แตะดาวว่างเปล่าใน ribbon ![ไอคอนไม่ใช่รายการโปรด](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). ดาวเปลี่ยนเป็นสีเทาเข้ม ![ไอคอนรายการโปรด](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).

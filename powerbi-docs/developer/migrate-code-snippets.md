@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 83c3257fb9aaaee01efdfceaac93c1d32aeebba0
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269240"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429168"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>โค้ดสำหรับการโยกย้ายเนื้อหาจากคอลเลกชันพื้นที่ทำงานของ Power BI
 
@@ -167,7 +167,7 @@ using System.Threading.Tasks;
 
 คุณจะต้องสร้างรายงานสำหรับชุดข้อมูลสร้างขึ้น
 
-ในส่วนย่อยนี้ เราคาดว่าชุดข้อมูลที่ผลักได้นั้นอยู่ในพื้นที่ทำงานของแอปภายในสภาพแวดล้อม SaaS อยู่แล้ว สำหรับข้อมูลเกี่ยวกับ push API ดูที่[ผลักข้อมูลลงในชุดข้อมูล Power BI](walkthrough-push-data.md)
+ในส่วนย่อยนี้ เราคาดว่าชุดข้อมูลที่สามารถผลักได้นั้นอยู่ในพื้นที่ทำงานภายในสภาพแวดล้อม SaaS อยู่แล้ว สำหรับข้อมูลเกี่ยวกับ push API ดูที่[ผลักข้อมูลลงในชุดข้อมูล Power BI](walkthrough-push-data.md)
 
 ```csharp
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");

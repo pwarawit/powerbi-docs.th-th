@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 564c3d03a7879cd7788e19055d8c11e4de46013f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 7e66cbf11c8177a12dbbf825873adb4cef5f26fd
+ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543857"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73169067"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>การแก้ไขปัญหาสถานการณ์สมมติในการรีเฟรช
 
@@ -25,6 +25,12 @@ ms.locfileid: "72543857"
 > ถ้าคุณพบกับสถานการณ์สมมติที่ไม่ได้แสดงอยู่ในรายการด้านล่างนี้ และทำให้เกิดปัญหากับคุณ คุณสามารถขอความช่วยเหลือเพิ่มเติมได้ใน[เว็บไซต์ชุมชน](http://community.powerbi.com/) หรือคุณสามารถสร้าง[ตั๋วสนับสนุน](https://powerbi.microsoft.com/support/)ได้
 >
 >
+
+## <a name="email-notifications"></a>การแจ้งเตือนทางอีเมล
+
+หากคุณเข้ามาในบทความนี้จากการแจ้งเตือนทางอีเมล และคุณไม่ต้องการรับอีเมลเกี่ยวกับปัญหาการรีเฟรชอีกต่อไป ให้ติดต่อผู้ดูแลระบบ Power BI ของคุณ ขอให้พวกเขาลบอีเมลของคุณหรือรายชื่ออีเมลที่คุณสมัครใช้งานจากชุดข้อมูลที่เหมาะสมใน Power BI พวกเขาสามารถทำสิ่งนี้ได้จากพื้นที่ต่อไปนี้ในพอร์ทัลผู้ดูแลระบบ Power BI
+
+![อีเมลสำหรับการแจ้งเตือนการรีเฟรช](media/refresh-troubleshooting-refresh-scenarios/refresh-email.png)
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>รีเฟรชโดยการใช้ตัวเชื่อมต่อเว็บ ไม่ทำงานอย่างถูกต้อง
 

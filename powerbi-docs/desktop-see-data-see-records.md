@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6e425f146228d0139b9eec914a44ed5dc732fe98
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 667b6eac288d3be35eac619b669498b6d7381dc3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514764"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019246"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>ใช้ดูข้อมูลและระเบียนดูใน Power BI Desktop
 ใน **Power BI Desktop** คุณสามารถเจาะลึกรายละเอียดของการแสดงผลใด ๆ และดูข้อมูลพื้นฐานหรือระเบียนข้อมูลสำหรับวิชวลที่เลือก ให้อยู่ในรูปข้อความได้ คุณลักษณะเหล่านี้ บางครั้งเรียกว่าการ*คลิกผ่าน*หรือ*ดูรายละเอียด*หรือ*เข้าถึงรายละเอียด*
@@ -41,7 +41,7 @@ ms.locfileid: "65514764"
 
 ![ดูข้อมูลใน ribbon](media/desktop-see-data-see-records/see-data1.png)
 
-คุณยังสามารถดูข้อมูลได้ โดยการคลิกขวาบนการแสดงภาพ แล้ว เลือก**แสดงข้อมูล**จากเมนูที่ปรากฏ หรือ โดยการเลือก**ตัวเลือกเพิ่มเติม**จุดไข่ปลา (...) ในมุมขวาบนของการ แสดงภาพ และจากนั้นเลือก**แสดงข้อมูล**
+นอกจากนี้ คุณยังสามารถดูข้อมูลได้โดยการคลิกขวาบนการแสดงภาพ แล้ว เลือก**แสดงข้อมูล**จากเมนูที่ปรากฏ หรือ ดยการเลือก**ตัวเลือกเพิ่มเติม** (...) ในมุมขวาบนของการแสดงข้อมูลด้วยภาพ และจากนั้นเลือก**แสดงข้อมูล**
 
 ![แสดงข้อมูลจากคลิกขวา](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![แสดงข้อมูลจากตัวเลือกเพิ่มเติม](media/desktop-see-data-see-records/see-data3.png)
 
