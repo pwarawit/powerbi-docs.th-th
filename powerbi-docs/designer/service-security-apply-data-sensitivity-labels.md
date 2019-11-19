@@ -2,7 +2,6 @@
 title: การใช้ป้ายชื่อระดับความลับใน Power BI
 description: เรียนรู้วิธีการใช้ป้ายชื่อระดับความลับของข้อมูลใน Power BI
 author: paulinbar
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 71b716e202a6715963d8350f3416aa5d7dc3e5e2
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 09f3a3e2dce7fd3462c5a21f014bf630bfc7c83e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432944"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879041"
 ---
 # <a name="apply-data-sensitivity-labels-in-power-bi-preview"></a>ใช้ป้ายชื่อระดับความลับใน Power BI (ตัวอย่าง)
 
@@ -72,13 +71,13 @@ ms.locfileid: "73432944"
 * การดูหรือใช้ป้ายชื่อระดับความลับ Microsoft Information Protection ใน Power BI ต้องมีสิทธิ์การใช้งานของ Azure Information Protection แบบ Premium P1 หรือ Premium P2 คุณสามารถซื้อ Microsoft Azure Information Protection แบบสแตนด์อโลนหรือผ่านหนึ่งในชุดโปรแกรมการอนุญาตให้ใช้สิทธิของ Microsoft ได้ โปรดดู [การกำหนดราคา Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) สำหรับรายละเอียด
 * ป้ายชื่อระดับความลับสามารถใช้ได้เฉพาะบนแดชบอร์ด รายงาน ชุดข้อมูล และกระแสข้อมูลเท่านั้น
 * การบังคับใช้ตัวควบคุมการป้องกันและป้ายชื่อบนไฟล์ที่ส่งออกจะรองรับเฉพาะไฟล์ Excel, PowerPoint และ PDF เท่านั้น การป้องกันและป้ายชื่อไม่ได้มีการบังคับใช้เมื่อมีการส่งออกข้อมูลเป็นไฟล์ CSV สมัครใช้งานอีเมล วิชวลแบบฝังตัว และการพิมพ์
-* ผู้ใช้ที่ส่งออกไฟล์จาก Power BI มีสิทธิ์ในการเข้าถึงและแก้ไขไฟล์นั้นตามการตั้งค่าป้ายชื่อระดับความลับ ผู้ใช้ที่ส่งออกข้อมูลไม่ได้รับสิทธิ์การเป็นเจ้าของสำหรับไฟล์ดังกล่าว 
-* ในขณะนี้ ป้ายชื่อระดับความลับยังไม่สามารถใช้งานได้สำหรับ [รายงานที่มีการแบ่งหน้า]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi) และสมุดงาน 
+* ผู้ใช้ที่ส่งออกไฟล์จาก Power BI มีสิทธิ์ในการเข้าถึงและการแก้ไขไฟล์นั้นตามการตั้งค่าป้ายชื่อระดับความลับ ผู้ใช้ที่ส่งออกข้อมูลไม่ได้รับสิทธิ์การเป็นเจ้าของสำหรับไฟล์ดังกล่าว 
+* ในขณะนี้ ป้ายชื่อระดับความลับยังไม่สามารถใช้ได้สำหรับ [รายงานที่มีการแบ่งหน้า]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi) และสมุดงาน 
 * ในขณะนี้ คุณไม่สามารถลบป้ายชื่อจากแอสเซท Power BI ได้เมื่อมีการนำไปใช้
 * ป้ายชื่อระดับความลับบนแอสเซท Power BI สามารถมองเห็นได้เฉพาะในรายการพื้นที่ทำงานและมุมมองสายข้อมูลเท่านั้น ในขณะนี้ป้ายชื่อจะไม่สามารถมองเห็นได้ในรายการโปรด ที่แชร์กับฉัน ล่าสุด หรือมุมมองแอป อย่างไรก็ตาม โปรดทราบว่าป้ายชื่อที่ใช้กับแอสเซท Power BI แม้ว่าจะไม่สามารถมองเห็นได้ จะยังคงอยู่ในข้อมูลที่ส่งออกไปเป็นไฟล์ Excel, PowerPoint และ PDF เสมอ
 * *การตั้งค่าการเข้ารหัสไฟล์* ของป้ายชื่อระดับความลับ ที่กำหนดค่าใน [ศูนย์การรักษาความปลอดภัย Microsoft 365](https://security.microsoft.com/) หรือ [ศูนย์การปฏิบัติตามข้อบังคับ Microsoft 365](https://compliance.microsoft.com/) นำไปใช้เฉพาะกับไฟล์ที่ *ส่งออกจาก* Power BI เท่านั้น ซึ่งไม่ได้บังคับใช้ *ภายใน* Power BI
 * [การป้องกัน HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) ไม่ได้รับการรองรับสำหรับป้ายชื่อที่ใช้ใน Power BI
-* การดูและการใช้ป้ายชื่อในแอป Office มี[ข้อกำหนดเรื่องสิทธิ์การใช้งาน](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#common-requirements)
+* การดูและการใช้ป้ายชื่อในแอป Office มี[ข้อกำหนดเรื่องสิทธิ์การใช้งาน](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)
 * ป้ายชื่อระดับความลับได้รับการรองรับสำหรับผู้เช่าในระบบคลาวด์ (สาธารณะ) ส่วนกลางเท่านั้น ป้ายชื่อระดับความลับไม่ได้รับการรองรับสำหรับผู้เช่าในระบบคลาวด์อื่นๆ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

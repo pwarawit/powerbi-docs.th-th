@@ -2,7 +2,6 @@
 title: ดูข้อมูลและระเบียนในวิชวล Power BI Desktop
 description: ใช้คุณลักษณะการดูข้อมูลและดูระเบียนของ Power BI Desktop เพื่อเจาะลึกในรายละเอียด
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 667b6eac288d3be35eac619b669498b6d7381dc3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019246"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877766"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>ใช้ดูข้อมูลและระเบียนดูใน Power BI Desktop
 ใน **Power BI Desktop** คุณสามารถเจาะลึกรายละเอียดของการแสดงผลใด ๆ และดูข้อมูลพื้นฐานหรือระเบียนข้อมูลสำหรับวิชวลที่เลือก ให้อยู่ในรูปข้อความได้ คุณลักษณะเหล่านี้ บางครั้งเรียกว่าการ*คลิกผ่าน*หรือ*ดูรายละเอียด*หรือ*เข้าถึงรายละเอียด*

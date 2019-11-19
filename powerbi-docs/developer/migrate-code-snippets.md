@@ -3,18 +3,17 @@ title: โค้ดสำหรับการโยกย้ายเนื้�
 description: ต่อไปนี้คือโค้ดบางอย่างของการดำเนินงานพื้นฐานที่จำเป็นสำหรับการโยกย้ายเนื้อหา
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 83c3257fb9aaaee01efdfceaac93c1d32aeebba0
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 95c249fe2326d9075d920a415c707811d19e5387
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429168"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880516"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>โค้ดสำหรับการโยกย้ายเนื้อหาจากคอลเลกชันพื้นที่ทำงานของ Power BI
 
@@ -240,4 +239,4 @@ using System.Threading.Tasks;
 [ตัวอย่างการฝัง JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [เอกสารบรรยายแนวความคิดของ Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

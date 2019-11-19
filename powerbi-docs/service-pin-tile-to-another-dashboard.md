@@ -2,7 +2,6 @@
 title: ปักหมุดไทล์จากแดชบอร์ดหนึ่งไปยังอีกแดชบอร์ด
 description: ปักหมุดไทล์จากแดชบอร์ดหนึ่งไปยังอีกแดชบอร์ด
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4e9c095dc0114ec3b5fe2fdd6d52fd25aa76d97
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 8e0c598d02b808e997bf0c1f47322e132860100c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020126"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881217"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>ปักหมุดไทล์จากแดชบอร์ดหนึ่งไปยังอีกแดชบอร์ด
 วิธีหนึ่งในการเพิ่ม[แดชบอร์ดไทล์](consumer/end-user-tiles.md)ใหม่คือ การคัดลอกจากแดชบอร์ดอื่น แต่ละไทล์เหล่านี้ เป็นลิงก์กลับไปยังตำแหน่งที่ถูกสร้างขึ้นเมื่อคลิก ใน Q&A หรือรายงาน 
@@ -44,5 +43,5 @@ ms.locfileid: "73020126"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [เปิด ใน Power BI](consumer/end-user-tiles.md)  
 [แดชบอร์ดใน Power BI](consumer/end-user-dashboards.md)  
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

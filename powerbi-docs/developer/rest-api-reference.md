@@ -3,18 +3,17 @@ title: ข้อมูลอ้างอิง Power BI REST API
 description: ข้อมูลอ้างอิง Power BI REST API
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 38e04049ad7fb4f2bc9a59f9680d257800e77148
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 0a42400c41d215a0cbe31bbb5fa0324abe4f6084
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019127"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880361"
 ---
 # <a name="power-bi-rest-api-reference"></a>ข้อมูลอ้างอิง Power BI REST API
 
@@ -35,4 +34,4 @@ Power BI REST API มีการดำเนินการต่อไปน�
 
 เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ Power BI REST API ดูที่ [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

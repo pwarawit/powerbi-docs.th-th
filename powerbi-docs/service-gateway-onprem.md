@@ -3,19 +3,18 @@ title: เกตเวย์ข้อมูลภายในองค์กร
 description: บทความนี้คือภาพรวมของเกตเวย์ข้อมูลภายในองค์กรสำหรับ Power BI คุณสามารถใช้เกตเวย์นี้เพื่อทำงานกับแหล่งข้อมูล DirectQuery คุณยังสามารถใช้เกตเวย์นี้เพื่อรีเฟรชชุดข้อมูลบนระบบคลาวด์กับข้อมูลภายในองค์กร
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 8ca43232cdc5781900dd7cf8b9f72c510dab2e37
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: b01a3ef5832541822aa9311df14289285f601b2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442806"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872437"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>เกตเวย์ข้อมูลในองค์กรคืออะไร?
 
@@ -51,4 +50,4 @@ ms.locfileid: "73442806"
 
 * [ติดตั้งเกตเวย์ข้อมูลภายในองค์กร](/data-integration/gateway/service-gateway-install)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

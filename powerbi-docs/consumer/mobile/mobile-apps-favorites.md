@@ -2,19 +2,18 @@
 title: รายการโปรดในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 description: อ่านเกี่ยวกับการสร้างและดูแดชบอร์ด รายงาน และแอป Power BI ที่เป็นรายการโปรดของคุณ รวมถึงเซิร์ฟเวอร์รายงาน Power BI และ Reporting Services report และ KPI ในแอปสำหรับอุปกรณ์เคลื่อนที่
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 53ea3444be75b32390789205ab96c87fa8ff2ce6
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c4fcf7bea8bf458231533efbc88e307d8d9ba2ab
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017829"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870684"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>สร้างและดูรายการโปรดในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -77,5 +76,5 @@ ms.locfileid: "73017829"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [แดชบอร์ดรายการโปรดในบริการของ Power BI](../end-user-favorite.md) 
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

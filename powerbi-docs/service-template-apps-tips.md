@@ -2,19 +2,18 @@
 title: เคล็ดลับสำหรับการเขียนแอปเทมเพลตใน Power BI
 description: เคล็ดลับเกี่ยวกับการเขียนคิวรี่ แบบจำลองข้อมูล รายงาน และแดชบอร์ดสำหรับการทำให้แอแม่ดี
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 57d8da8bafb62f1f24598f5f0ef4cb5e3facd59b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432127"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099754"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>เคล็ดลับสำหรับการเขียนแอปเทมเพลตใน Power BI
 
@@ -147,7 +146,7 @@ ms.locfileid: "73432127"
 | แหล่งข้อมูล | แหล่งข้อมูลที่สนับสนุนสำหรับระบบคลาวด์ที่ทำกำหนดการรีเฟรชข้อมูลแล้ว <br>ไม่ได้รับการสนับสนุน <li> DirectQuery</li><li>เชื่อมต่อแบบสด (AS Azure ไม่มี)</li> <li>แหล่งข้อมูล (เกตเวย์ส่วนบุคคลและองค์กรไม่ได้รับการสนับสนุน) ในองค์กร</li> <li>แบบเรียลไทม์ (ไม่มีการสนับสนุนสำหรับชุดข้อมูลแบบพุช)</li> <li>โมเดลแบบรวม</li></ul> |
 | ชุดข้อมูล: พื้นที่ทำงานข้าม | ชุดข้อมูลพื้นที่ทำงานข้ามไม่ได้รับอนุญาต  |
 | พารามิเตอรคิวรี่ | ไม่ได้รับการสนับสนุน พารามิเตอร์ของชนิด "ใดๆ" หรือ "ไบนารี" ชนิดบล็อกรีเฟรชสำหรับชุดข้อมูล |
-| วิชวลแบบกำหนดเอง | เฉพาะ วิชวลแบบกำหนดเองพร้อมใช้งานแบบสาธารณะได้รับการสนับสนุน [รูปภาพแบบกำหนดเองขององค์กร](power-bi-custom-visuals-organization.md)ไม่ได้รับการสนับสนุน |
+| วิชวลแบบกำหนดเอง | เฉพาะ วิชวลแบบกำหนดเองพร้อมใช้งานแบบสาธารณะได้รับการสนับสนุน [รูปภาพแบบกำหนดเองขององค์กร](developer/power-bi-custom-visuals-organization.md)ไม่ได้รับการสนับสนุน |
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

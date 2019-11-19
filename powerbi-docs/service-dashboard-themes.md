@@ -2,7 +2,6 @@
 title: ใช้ธีมแดชบอร์ดในบริการของ Power BI
 description: เรียนรู้วิธีการใช้ชุดสีแบบกำหนดเอง และนำไปใช้กับทั้งแดชบอร์ดในบริการของ Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3021ee4df1ba4456f86c3deb5e7a3c247dbc13fe
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: e2793fe56df462fd5f1bd1c266b75ad14fd9b375
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020396"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877447"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>ใช้ธีมแดชบอร์ดในบริการของ Power BI
 ด้วย**ธีมแดชบอร์ด** คุณสามารถใช้ธีมสีกับทั้งแดชบอร์ดของคุณ เช่นสีขององค์กร การกำหนดสีตามฤดูกาล หรือธีมสีอื่นๆ ที่คุณอาจต้องการนำไปใช้ เมื่อคุณนำ**ธีมแดชบอร์ด**ไปใช้งาน วิชวลทั้งหมดบนแดชบอร์ดของคุณจะใช้สีจากธีมที่คุณเลือก (มีข้อยกเว้นบางข้อ ซึ่งจะอธิบายภายหลังในบทความนี้)

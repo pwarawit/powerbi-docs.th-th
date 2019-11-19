@@ -2,7 +2,6 @@
 title: สร้างข้อมูลเชิงลึกโดยอัตโนมัติด้วย Power BI
 description: เรียนรู้วิธีการรับข้อมูลเชิงลึกเกี่ยวกับไทล์ของชุดข้อมูลและแดชบอร์ดของคุณ
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 428e392994a1b6934bf78d9cccbee1821744a622
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020223"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872243"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>สร้างข้อมูลเชิงลึกโดยอัตโนมัติด้วย Power BI
 คุณมีชุดข้อมูลใหม่ และไม่แน่ใจว่าจะเริ่มใช้งานจากจุดไหนใช่หรือไม่  จำเป็นต้องสร้างแดชบอร์ดอย่างรวดเร็วใช่ไหม  ต้องการค้นหาข้อมูลเชิงลึกที่คุณอาจพลาดไปใช่หรือไม่
@@ -96,5 +95,5 @@ ms.locfileid: "73020223"
 - ถ้าคุณเป็นเจ้าของชุดข้อมูล[ปรับให้เหมาะสมสำหรับข้อมูลเชิงลึกด่วน](service-insights-optimize.md)
 - เรียนรู้เกี่ยวกับ[ชนิดของข้อมูลเชิงลึกด่วนที่พร้อมใช้งาน](service-insight-types.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

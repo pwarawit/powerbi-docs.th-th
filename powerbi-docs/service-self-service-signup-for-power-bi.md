@@ -2,7 +2,6 @@
 title: ลงทะเบียนใช้งาน Power BI เป็นรายบุคคล
 description: เรียนรู้วิธีการลงทะเบียนสำหรับ Power BI และเริ่มต้นใช้งานสำหรับความต้องการในการวิเคราะห์ข้อมูลและการแสดงภาพของคุณ
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/31/2019
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 785aad2cb7fe369805d8562eb8e493fb65036ef0
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: b7dae4c3b4ce35ec6af82ae59c374ab31937881a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442855"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871542"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>ลงทะเบียนใช้งาน Power BI เป็นรายบุคคล
 
@@ -88,4 +87,4 @@ Power BI สามารถเป็นเครื่องมือการ�
 [ซื้อ Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [บริการข้อตกลง Power BI สำหรับผู้ใช้แต่ละราย](https://powerbi.microsoft.com/terms-of-service/)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

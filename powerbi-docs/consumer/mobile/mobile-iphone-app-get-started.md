@@ -2,19 +2,18 @@
 title: เริ่มต้นใช้งานแอปอุปกรณ์เคลื่อนที่ Power BI บน iOS
 description: เรียนรู้วิธีการที่แอปอุปกรณ์เคลื่อนที่ Microsoft Power BI บน iOS ทำให้คุณสามารถพกพา Power BI ไปได้ทุกที่ พร้อมการเข้าถึงข้อมูลทางธุรกิจภายในองค์กรและในระบบคลาวด์ผ่านอุปกรณ์เคลื่อนที่
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: cc239ad33d8789d679fccd21339740af71155336
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: dd43df2a01175657b39c1e3dcebe5ae6a9433e42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059461"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870182"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>เริ่มต้นใช้งานแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ IOS
 Microsoft Power BI สำหรับแอป iOS บน iPhone บน iPad หรือบน iPod Touch ให้บริการของ Power BI บริการของเซิร์ฟเวอร์รายงาน Power BI และ บริการการรายงาน ดูและโต้ตอบกับแดชบอร์ดของบริษัทของคุณ ภายในองค์กรและในคลาวด์ จากที่ใดก็ได้ ผ่านอุปกรณ์เคลื่อนที่ ที่รองรับระบบสัมผัสและดูข้อมูลสดได้ สำรวจข้อมูลในแดชบอร์ดและแชร์กับเพื่อนร่วมงานของคุณผ่านอีเมลหรือการส่งข้อความ และอัปเดตอยู่เสมอ ด้วยข้อมูลของคุณมากที่สุดตามระยะเวลาในของคุณ[Apple Watch](mobile-apple-watch.md)  
@@ -31,7 +30,7 @@ Microsoft Power BI สำหรับแอป iOS บน iPhone บน iPad ห
 ดูว่า[มีอะไรใหม่ในแอป Power BI](mobile-whats-new-in-the-mobile-apps.md) สำหรับอุปกรณ์เคลื่อนที่
 
 ## <a name="download-the-app"></a>ดาวน์โหลดแอป
-[ดาวน์โหลดแอป iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "ดาวน์โหลดแอป iOS") จาก Apple App Store ไปยัง iPhone หรือ iPad หรือ iPod Touch ของคุณ
+[ดาวน์โหลดแอป iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "ดาวน์โหลดแอป iOS") จาก Apple App Store ไปยัง iPhone หรือ iPad หรือ iPod Touch ของคุณ
 
 คุณสามารถเรียกใช้ Power BI สำหรับแอป iOS บนอุปกรณ์ใด ๆ ที่ใช้ iOS 11 หรือใหม่กว่า 
 
@@ -73,20 +72,20 @@ Microsoft Power BI สำหรับแอป iOS บน iPhone บน iPad ห
    ![ตัวอย่าง Reporting Service ในแอปโทรศัพท์เคลื่อนที่ Power BI](./media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>ค้นหาเนื้อหาของคุณในแอปโทรศัพท์เคลื่อนที่ Power BI
-แดชบอร์ดและรายงานของคุณได้รับการจัดเก็บไว้คนละแห่งในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ ขึ้นอยู่กับว่ามาจากที่ใด อ่านเกี่ยวกับ[การค้นหาเนื้อหาของคุณในแอปสำหรับอุปกรณ์เคลื่อนที่](mobile-apps-quickstart-view-dashboard-report.md) นอกจากนี้ คุณสามารถค้นหาสิ่งต่าง ๆ ที่คุณมีในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ 
+แดชบอร์ดและรายงานของคุณได้รับการจัดเก็บไว้คนละแห่งในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ ขึ้นอยู่กับว่ามาจากที่ใด อ่านเกี่ยวกับ[การค้นหาเนื้อหาของคุณในแอปสำหรับอุปกรณ์เคลื่อนที่](mobile-apps-quickstart-view-dashboard-report.md) นอกจากนี้ คุณสามารถค้นหาสิ่งต่างๆ ที่คุณมีในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ 
 
-![แผงระบบนำทางด้านซ้าย](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
+![บานหน้าต่างนำทาง](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
 อ่านเกี่ยวกับ[การค้นหาเนื้อหาของคุณในแอปโทรศัพท์เคลื่อนที่](mobile-apps-quickstart-view-dashboard-report.md)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>ดูแดชบอร์ดโปรด KPI และรายงานของคุณ
 บนหน้ารายการโปรดในแอปอุปกรณ์เคลื่อนที่ คุณเห็นแดชบอร์ด Power BI โปรดทั้งหมดของคุณ รวมไปถึง KPI และรายงาน เซิร์ฟเวอร์รายงาน Power BI และ Reporting Services เมื่อคุณทำให้แดชบอร์ดเป็น*รายการโปรด*ในแอปอุปกรณ์เคลื่อนที่ Power BI คุณสามารถเข้าถึงแดชบอร์ดดังกล่าวได้จากทุกอุปกรณ์ของคุณ รวมถึงบริการของ Power BI ในเบราว์เซอร์ของคุณได้ 
 
-* แตะ**รายการโปรด**
+* แตะ **รายการโปรด**
   
-   ![รายการโปรดในพื้นที่นำทางด้านซ้าย](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
+   ![รายการโปรดในบานหน้าต่างนำทาง](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
   
-   คุณเห็นรายการโปรดทั้งหมดของคุณร่วมกันบนหน้านี้
+   คุณจะเห็นรายการโปรดทั้งหมดของคุณรวมกันบนหน้านี้
   
    ![หน้ารายการโปรด](./media/mobile-iphone-app-get-started/power-bi-iphone-faves-report-server-number-callouts.png)
   
@@ -110,6 +109,6 @@ Microsoft Intune ช่วยให้องค์กรควบคุมรา
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 * [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 
 

@@ -2,7 +2,6 @@
 title: เชื่อมต่อกับชุดข้อมูลในบริการ Power BI จาก Power BI Desktop
 description: ใช้ชุดข้อมูลที่ใช้ทั่วไปเพื่อจัดการรายงาน Power BI Desktop หลายชิ้นในพื้นที่ทำงานหลายแห่ง พร้อมจัดการวงจรชีวิตรายงานของคุณ
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: de72cab51a4d43d1a07d6ada0bd77888952817ab
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d7d48b78ecced3e26a52df12bc8850ab8fed4c1e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429802"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877898"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>เชื่อมต่อกับชุดข้อมูลในบริการ Power BI จาก Power BI Desktop
 คุณสามารถสร้างการเชื่อมต่อสดไปยังชุดข้อมูลที่ใช้ร่วมกันในบริการ Power BI และสร้างรายงานที่แตกต่างกันมากมายจากชุดข้อมูลเดียวกัน ซึ่งหมายความว่า คุณสามารถสร้างรูปแบบข้อมูลที่สมบูรณ์แบบได้ใน Power BI Desktop เผยแพร่ไปยังบริการของ Power BI จากนั้น คุณและผู้อื่นสามารถสร้างรายงานต่าง ๆ ได้หลายรายการ (ในไฟล์ .pbix ที่แยกต่างหาก) จากรูปแบบข้อมูลทั่วไปแบบเดียวกัน และบันทึกไปยังพื้นที่ทำงานต่าง ๆ คุณลักษณะนี้เรียกว่า**Power BI service Live connection**

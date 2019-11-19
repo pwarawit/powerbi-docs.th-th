@@ -2,7 +2,6 @@
 title: 'บทช่วยสอน: Facebook analytics กำลังใช้ Power BI Desktop'
 description: 'บทช่วยสอน: Facebook analytics กำลังใช้ Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 689d86029150fa66daa90c4f93b71ed15750b095
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73018085"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876268"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>บทช่วยสอน: Facebook analytics กำลังใช้ Power BI Desktop
 
@@ -241,8 +240,8 @@ ms.locfileid: "73018085"
 Power BI Desktop ให้ประสบการณ์ที่ราบรื่น ตั้งแต่การรับข้อมูลจากแหล่งข้อมูลต่าง ๆ และจัดรูปทรงให้ตรงกับความต้องการการวิเคราะห์ของคุณ ไปจนถึงการแสดงข้อมูลนี้ในแบบที่สวยงามและโต้ตอบได้ เมื่อรายงานของคุณพร้อมแล้ว คุณสามารถ[อัปโหลดไปยังบริการของ Power BI](desktop-upload-desktop-files.md) และสร้างแดชบอร์ดจากรายงาน ซึ่งคุณสามารถแชร์ให้กับผู้ใช้ Power BI อื่นได้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [อ่านบทช่วยสอนอื่น ๆ ของ Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [ดูวิดีโอ Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [เยี่ยมชมกระดานสนทนา Power BI](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [อ่านบล็อก Power BI](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [อ่านบทช่วยสอนอื่น ๆ ของ Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [ดูวิดีโอ Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [เยี่ยมชมกระดานสนทนา Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [อ่านบล็อก Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)
 

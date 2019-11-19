@@ -3,19 +3,18 @@ title: ใช้ Kerberos สำหรับลงชื่อเข้าระ
 description: กำหนดค่าเซิร์ฟเวอร์ SAP Hana ของคุณเพื่อเปิดใช้งาน SSO จากบริการของ Power BI
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4985e241811558c90298e72cf82cbec634e23eaa
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: bf255e97bbce8360de6fba314ac181b7633e6db3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020834"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872343"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-hana"></a>ใช้ Kerberos สำหรับลงชื่อเข้าระบบครั้งเดียว (SSO) ไปยัง SAP HANA
 
@@ -55,7 +54,7 @@ ms.locfileid: "73020834"
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเกตเวย์ข้อมูลภายในองค์กรและ DirectQuery ให้ดูแหล่งข้อมูลต่อไปนี้:
 
-* [เกตเวย์ข้อมูลภายในองค์กรคืออะไร](/data-integration/gateway/service-gateway-getting-started)
+* [เกตเวย์ข้อมูลภายในองค์กรคืออะไร](/data-integration/gateway/service-gateway-onprem)
 * [DirectQuery ใน Power BI](desktop-directquery-about.md)
 * [แหล่งข้อมูลที่สนับสนุนโดย DirectQuery](desktop-directquery-data-sources.md)
 * [DirectQuery และ SAP BW](desktop-directquery-sap-bw.md)

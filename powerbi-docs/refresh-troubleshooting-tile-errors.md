@@ -2,7 +2,6 @@
 title: แก้ไขปัญหาข้อผิดพลาดไทล์
 description: ข้อผิดพลาดทั่วไปที่อาจพบเมื่อพยายามรีเฟรชไทล์ใน Power BI
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: dbae4c82fb350242ed0fefadeeec217666fc3005
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021528"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877505"
 ---
 # <a name="troubleshooting-tile-errors"></a>แก้ไขปัญหาข้อผิดพลาดไทล์
 ด้านล่างนี้คือข้อผิดพลาดทั่วไปที่คุณอาจประสบกับไทล์พร้อมกับคำอธิบาย
 
 > [!NOTE]
-> ถ้าคุณพบกับข้อผิดพลาดที่ไม่ได้แสดงอยู่ในรายการด้านล่างนี้และทำให้เกิดปัญหากับคุณ คุณสามารถขอความช่วยเหลือพิ่่มเติมได้ใน[เว็บไซต์ชุมชน](http://community.powerbi.com/) หรือคุณสามารถสร้าง[ตั๋วสนับสนุน](https://powerbi.microsoft.com/support/)ได้
+> ถ้าคุณพบกับข้อผิดพลาดที่ไม่ได้แสดงอยู่ในรายการด้านล่างนี้และทำให้เกิดปัญหากับคุณ คุณสามารถขอความช่วยเหลือพิ่่มเติมได้ใน[เว็บไซต์ชุมชน](https://community.powerbi.com/) หรือคุณสามารถสร้าง[ตั๋วสนับสนุน](https://powerbi.microsoft.com/support/)ได้
 > 
 > 
 
@@ -38,7 +37,7 @@ ms.locfileid: "73021528"
 
 **วิชวลแบบกำหนดเองถูกผู้ดูแลระบบของคุณปิดใช้งาน**
 
-ผู้ดูแลระบบ Power BI ของคุณได้ปิดใช้งานการใช้วิชวลแบบกำหนดเองสำหรับองค์กรของคุณหรือกลุ่มความปลอดภัยของคุณ คุณจะไม่สามารถใช้วิชวลแบบกำหนดเองจาก[Microsoft Marketplace](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals)หรือนำเข้าวิชวลส่วนตัวจากไฟลได้ คุณสามารถใช้ได้เฉพาะชุดของวิชวลที่รวบรวมไว้ล่วงหน้าเท่านั้น
+ผู้ดูแลระบบ Power BI ของคุณได้ปิดใช้งานการใช้วิชวลแบบกำหนดเองสำหรับองค์กรของคุณหรือกลุ่มความปลอดภัยของคุณ คุณจะไม่สามารถใช้วิชวลแบบกำหนดเองจาก[Microsoft Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)หรือนำเข้าวิชวลส่วนตัวจากไฟลได้ คุณสามารถใช้ได้เฉพาะชุดของวิชวลที่รวบรวมไว้ล่วงหน้าเท่านั้น
 
 
 **รูปทรงข้อมูลจะต้องประกอบด้วยอย่างน้อยหนึ่งกลุ่มหรือการคำนวณซึ่งให้ข้อมูลเอาท์พุท โปรดติดต่อเจ้าของแดชบอร์ด**
@@ -82,5 +81,5 @@ ms.locfileid: "73021528"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [การแก้ไขปัญหาเกตเวย์ข้อมูลในองค์กร](service-gateway-onprem-tshoot.md)  
 [แก้ไขปัญหาเกตเวย์ Power BI - ส่วนบุคคล](service-admin-troubleshooting-power-bi-personal-gateway.md)  
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

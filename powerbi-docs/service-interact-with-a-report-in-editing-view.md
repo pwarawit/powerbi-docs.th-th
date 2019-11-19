@@ -2,7 +2,6 @@
 title: ทำงานกับรายงานในมุมมองการแก้ไข
 description: โต้ตอบกับรายงานในรายงานมุมมองการแก้ไขในบริการ Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 786357d2861b05c46ffb3c7b827d5c797fb5ea20
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9ae34a354d41987f291aa891b713542901180eb6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431790"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872181"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>โต้ตอบกับรายงานในมุมมองการแก้ไขในบริการ Power BI
 สามารถสร้างและแก้ไขรายงานในบริการ Power BI และ Power BI Desktop ในบริการ Power BI สามารถสร้างและแก้ไขรายงานใน **มุมมองการแก้ไข** และใน Power BI Desktop สามารถสร้างและแก้ไขรายงานใน [**มุมมองรายงาน**](desktop-report-view.md) บทความนี้ครอบคลุมถึงมุมมองการแก้ไขในบริการ Power BI 
@@ -45,5 +44,5 @@ ms.locfileid: "73431790"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 กลับไปยัง[มุมมองการอ่านและมุมมองแก้ไขในบริการ Power BI](consumer/end-user-reading-view.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

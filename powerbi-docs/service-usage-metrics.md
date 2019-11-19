@@ -3,7 +3,6 @@ title: เฝ้าติดตามเมตริกการใช้งา�
 description: วิธีการดู บันทึก และใช้เมตริกการใช้งานสำหรับแดชบอร์ด Power BI และรายงาน
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6b34fc07afb082115ef5fb537badbae989e21cec
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432290"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871207"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>เฝ้าติดตามเมตริกการใช้งานสำหรับแดชบอร์ดและรายงานของ Power BI
 
@@ -195,4 +194,4 @@ Power BI มีอยู่ในระบบคลาวด์ของชา�
 
 [การดูแล Power BI ในพอร์ทัลผู้ดูแลระบบ](service-admin-portal.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

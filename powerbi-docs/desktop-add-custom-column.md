@@ -2,7 +2,6 @@
 title: เพิ่มคอลัมน์แบบกำหนดเองใน Power BI Desktop
 description: สร้างคอลัมน์แบบกำหนดเองใหม่ใน Power BI Desktop ได้อย่างรวดเร็ว
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,16 +9,16 @@ ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 25295447736ddb674d23a7b4ac34aa04f44887ba
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 443053bc973005d3e2a655b1222d049a4251e7d7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922508"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878871"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>เพิ่มคอลัมน์แบบกำหนดเองใน Power BI Desktop
 
-ใน Power BI Desktop คุณสามารถเพิ่มคอลัมน์ของข้อมูลแบบกำหนดเองใหม่ลงในแบบจำลองของคุณได้อย่างง่ายดายโดยใช้ตัวแก้ไขคิวรี ด้วยตัวแก้ไขคิวรี คุณสามารถสร้างและเปลี่ยนชื่อคอลัมน์แบบกำหนดเองของคุณเพื่อสร้าง[คิวรีสูตร PowerQuery M](https://docs.microsoft.com/en-us/powerquery-m/quick-tour-of-the-power-query-m-formula-language) สำหรับกำหนดคอลัมน์แบบกำหนดเองของคุณ คิวรีสูตร PowerQuery M มี[ชุดเนื้อหาการอ้างอิงฟังก์ชันที่ครอบคลุม](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference) 
+ใน Power BI Desktop คุณสามารถเพิ่มคอลัมน์ของข้อมูลแบบกำหนดเองใหม่ลงในแบบจำลองของคุณได้อย่างง่ายดายโดยใช้ตัวแก้ไขคิวรี ด้วยตัวแก้ไขคิวรี คุณสามารถสร้างและเปลี่ยนชื่อคอลัมน์แบบกำหนดเองของคุณเพื่อสร้าง[คิวรีสูตร PowerQuery M](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language) สำหรับกำหนดคอลัมน์แบบกำหนดเองของคุณ คิวรีสูตร PowerQuery M มี[ชุดเนื้อหาการอ้างอิงฟังก์ชันที่ครอบคลุม](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference) 
 
 เมื่อคุณสร้างคอลัมน์แบบกำหนดเองในตัวแก้ไขคิวรีแล้ว Power BI Desktop จะเพิ่มคอลัมน์เป็น **ขั้นตอนที่ใช้** ใน **การตั้งค่าคิวรี** ของคิวรี ซึ่งสามารถเปลี่ยนแปลง ย้าย หรือแก้ไขได้ตลอดเวลา
 
@@ -50,7 +49,7 @@ ms.locfileid: "72922508"
 
 - ชื่อเริ่มต้นของคอลัมน์แบบกำหนดเองของคุณ ในกล่อง **ชื่อคอลัมน์ใหม่** คุณสามารถเปลี่ยนชื่อคอลัมน์นี้ได้
 
-- [คิวรีสูตร PowerQuery M](https://docs.microsoft.com/en-us/powerquery-m/power-query-m-function-reference) ในกล่อง**สูตรคอลัมน์แบบกำหนดเอง** คุณสามารถสร้างคิวรีเหล่านี้ด้วยการสร้างสูตรบนคอลัมน์แบบกำหนดเองที่คุณกำหนดขึ้นใหม่ 
+- [คิวรีสูตร PowerQuery M](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference) ในกล่อง**สูตรคอลัมน์แบบกำหนดเอง** คุณสามารถสร้างคิวรีเหล่านี้ด้วยการสร้างสูตรบนคอลัมน์แบบกำหนดเองที่คุณกำหนดขึ้นใหม่ 
 
    ![หน้าเพิ่มคอลัมน์แบบกำหนดเอง](media/desktop-add-custom-column/add-custom-column_03.png)
 

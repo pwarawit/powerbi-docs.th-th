@@ -2,7 +2,6 @@
 title: สิทธิ์ในการสร้างสำหรับชุดข้อมูลที่แชร์ (ตัวอย่าง)
 description: เรียนรู้วิธีควบคุมผู้ที่สามารถเข้าถึงข้อมูลได้โดยใช้สิทธิ์ในการสร้าง
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 363f75305b4c0f7f698442ce4503ad3220627c71
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020301"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872557"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>สิทธิ์ในการสร้างสำหรับชุดข้อมูลที่แชร์ (ตัวอย่าง)
 
@@ -103,4 +102,4 @@ Power BI เปิดตัวสิทธิ์ในการสร้าง�
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [ใช้ชุดข้อมูลทั้งพื้นที่ทำงาน (ดูตัวอย่าง)](service-datasets-across-workspaces.md)
-- มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+- มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

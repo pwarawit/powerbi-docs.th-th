@@ -2,7 +2,6 @@
 title: เพิ่มรูปภาพ วิดีโอ การสตรีมข้อมูลไปยังแดชบอร์ดของคุณ
 description: เอกสารประกอบเกี่ยวกับวิธีการใช้วิดเจ็ตไทล์เพิ่มเพื่อเพิ่มรูปภาพ วิดีโอ กล่องข้อความ โค้ดของเว็บ และไทล์ข้อมูลการสตรีมไปยังแดชบอร์ด
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93301625efda52aa69af172b29e7fbcd94b2a4dd
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: a012320a12d2516cb24dc92f2472e3c49ce9081e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020440"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853537"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>เพิ่มรูปภาพ วิดีโอ การสตรีมข้อมูลไปยังแดชบอร์ดของคุณ
 
@@ -246,5 +245,5 @@ ms.locfileid: "73020440"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [แนะนำไทล์แดชบอร์ดสำหรับนักออกแบบ Power BI](service-dashboard-tiles.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

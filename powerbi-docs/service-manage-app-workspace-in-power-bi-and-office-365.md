@@ -2,7 +2,6 @@
 title: จัดการพื้นที่ทำงานของคุณใน Power BI และ Office 365
 description: พื้นที่ทำงานใน Power BI เป็นประสบการณ์การทำงานร่วมกันภายในกลุ่ม Office 365 จัดการพื้นที่ทำงานใน Power BI และใน Office 365 ด้วย
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1317d11b11624ca6187eb91d5350a698bf164f63
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 7f1d86dd3da6665eb985db17ac3641768ff56947
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431806"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872070"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>จัดการพื้นที่ทำงานของคุณใน Power BI และ Office 365
 
@@ -87,4 +86,4 @@ ms.locfileid: "73431806"
 
 * [เผยแพร่แอปใน Power BI](service-create-distribute-apps.md)
 
-* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

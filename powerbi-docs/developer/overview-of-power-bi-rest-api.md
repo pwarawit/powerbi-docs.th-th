@@ -3,18 +3,17 @@ title: ฉันสามารถใช้ Power BI API ทำอะไรไ�
 description: ฉันสามารถใช้ Power BI API ทำอะไรได้บ้าง
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: d52dcb640c0140baad2d3d5d20a1afd56aac7c4d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 8a231a426823d40be34e900a32d06e5d5f77108b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430688"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880484"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>นักพัฒนาสามารถใช้ Power BI API ทำอะไรได้บ้าง
 
@@ -61,4 +60,4 @@ ms.locfileid: "73430688"
 * [การอ้างอิง Power BI REST API](rest-api-reference.md)
 * [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

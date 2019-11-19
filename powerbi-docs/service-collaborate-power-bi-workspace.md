@@ -2,7 +2,6 @@
 title: ร่วมมือทำงานในพื้นที่ทำงานดั้งเดิม
 description: อ่านเกี่ยวกับการทำงานร่วมกันบนไฟล์ Power BI Desktop ในพื้นที่ทำงาน และกับ Office 365 services เช่นการแชร์ไฟล์บน OneDrive สำหรับธุรกิจ การสนทนาใน Exchange ปฏิทิน และ tasks
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 860aa1de5a91d98e6a50773250e89581fc1d9801
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: cddb55ab85cfd6d8d6a5e49d81b83a80df2f81da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021329"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873171"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>ร่วมมือทำงานในพื้นที่ทำงานดั้งเดิม
 พื้นที่ทำงาน Power BI คือตำแหน่งที่ยอดเยี่ยมเพื่อทำงานร่วมกับเพื่อนร่วมงานของคุณบนแดชบอร์ด รายงาน และชุดข้อมูลเพื่อสร้าง*แอป* บทความนี้เกี่ยวกับพื้นที่ทำงานดั้งเดิมแบบ*ดั้งเดิม*  
@@ -80,6 +79,6 @@ ms.locfileid: "73021329"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [เผยแพร่แอปใน Power BI](service-create-distribute-apps.md)
-* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 * มีคำติชมหรือไม่ เยี่ยมชม[แนวคิด Power BI](https://ideas.powerbi.com/forums/265200-power-bi)
 

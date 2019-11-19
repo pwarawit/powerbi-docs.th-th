@@ -2,7 +2,6 @@
 title: แก้ไขปัญหา Cortana สำหรับ Power BI
 description: ถ้าคุณกำลังมีปัญหาในการใช้ Cortana ด้วย Power BI ให้ลองใช้คำแนะนำเหล่านี้
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 02e79522baa7580b019cec6956593d88260fb95b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9d6241659eaa5e6ff9c98b5c25dbfacb0bbac34d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432107"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872874"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>แก้ไขปัญหา Cortana สำหรับ Power BI
 บทความนี้เป็นส่วนหนึ่งของชุดบทความต่อเนื่อง 
@@ -96,4 +95,4 @@ ms.locfileid: "73432107"
 * ตามการออกแบบ คิวรี่ต้องมีอย่างน้อย 2 คำ  ถ้าคิวรี่ของคุณสั้นเกินไป ให้เพิ่มคำว่า "แสดง"
 * สตริงคิวรี่บางสตริงที่มีคำบุพบทอยู่ด้วยอาจไม่ทำงาน (ตัวอย่างเช่น ยอดขายตามรายการสินค้า) ลองใช้คำศัพท์อื่นสำหรับคิวรี่ที่ไม่มีคำบุพบท และเป็นคำที่มีความหมาย/ไม่ซ้ำ
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

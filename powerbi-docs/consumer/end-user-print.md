@@ -2,7 +2,6 @@
 title: พิมพ์ข้อมูลจากบริการของ Power BI
 description: การพิมพ์แดชบอร์ด ไทล์ หรือหน้ารายงานจากบริการของ Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 928b69bc1f7e8210f66bd1b99e211a7fe28a5a00
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ec633b5e41936363663736807979dc08f50820b1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019579"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862766"
 ---
 # <a name="printing-from-the-power-bi-service"></a>การพิมพจากบริการของ Power BI
 
@@ -82,5 +81,5 @@ ms.locfileid: "73019579"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [แชร์แดชบอร์ดและรายงานกับเพื่อนร่วมงานและผู้อื่น](../service-share-dashboards.md)
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

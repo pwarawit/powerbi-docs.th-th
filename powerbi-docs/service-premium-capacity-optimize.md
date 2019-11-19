@@ -3,7 +3,6 @@ title: ปรับความจุแบบพรีเมียมของ 
 description: อธิบายกลยุทธ์การปรับให้เหมาะสมสำหรับความจุ Power BI Premium
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: fc983fe9027f6d94c5394d524a6417a64719a8ac
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d2e8ede356ed015c4c35b311ca58d35366324b9a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431689"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871914"
 ---
 # <a name="optimizing-premium-capacities"></a>การปรับความจุแบบพรีเมียมให้เหมาะสม
 
@@ -257,7 +256,7 @@ ms.locfileid: "73431689"
 
 ถ้าคุณมีความจุและรายงานที่คุณต้องการการทดสอบโหลดแล้ว ให้ใช้ [เครื่องมือการสร้างโหลดของ PowerShell](https://aka.ms/PowerBILoadTestingTool) เพื่อสร้างการทดสอบโหลดอย่างรวดเร็ว เครื่องมือนี้ช่วยให้คุณสามารถประมาณจำนวนอินสแตนซ์ของแต่ละรายงานที่ความจุของคุณสามารถเรียกใช้งานได้ในหนึ่งชั่วโมง คุณสามารถใช้เครื่องมือเพื่อประเมินขีดความสามารถของความจุสำหรับการแสดงรายงานแต่ละครั้ง หรือสำหรับการแสดงรายงานที่แตกต่างกันหลายรายการควบคู่ไป สำหรับข้อมูลเพิ่มเติม ให้ดูวิดีโอ[Microsoft Power BI: ความจุแบบพรีเมียม](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw)
 
-หากต้องสร้างการทดสอบที่ซับซ้อนมากขึ้น ให้ลองพัฒนาแอปพลิเคชันการทดสอบโหลดเพื่อจำลองปริมาณงานจริง สำหรับข้อมูลเพิ่มเติม ให้ดูการสัมมนาผ่านเว็บ [การทดสอบโหลดของแอปพลิเคชัน Power BI ที่มีการทดสอบการโหลด Visual Studio](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/)
+หากต้องสร้างการทดสอบที่ซับซ้อนมากขึ้น ให้ลองพัฒนาแอปพลิเคชันการทดสอบโหลดเพื่อจำลองปริมาณงานจริง สำหรับข้อมูลเพิ่มเติม ให้ดูการสัมมนาผ่านเว็บ [การทดสอบโหลดของแอปพลิเคชัน Power BI ที่มีการทดสอบการโหลด Visual Studio](https://powerbi.microsoft.com/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/)
 
 ## <a name="acknowledgements"></a>การรับทราบ
 

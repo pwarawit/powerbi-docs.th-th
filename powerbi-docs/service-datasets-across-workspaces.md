@@ -2,7 +2,6 @@
 title: บทนำชุดข้อมูลทั้งพื้นที่ทำงาน (ดูตัวอย่าง)
 description: เรียนรู้วิธีที่คุณสามารถแชร์ชุดข้อมูลกับผู้ใช้ทั้งองค์กร จากนั้นพวกเขาสามารถสร้างรายงานที่ยึดตามชุดข้อมูลของคุณในพื้นที่ทำงานของตนเอง
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5e445f24f78d4171c0c2c12ccbe4a1bf55b9825d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431927"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877194"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>บทนำชุดข้อมูลทั้งพื้นที่ทำงาน (ดูตัวอย่าง)
 
@@ -73,4 +72,4 @@ ms.locfileid: "73431927"
 - [เลื่อนระดับชุดข้อมูล](service-datasets-promote.md)
 - [รับรองชุดข้อมูล](service-datasets-certify.md)
 - [ควบคุมการใช้ชุดข้อมูลทั้งพื้นที่ทำงาน](service-datasets-admin-across-workspaces.md)
-- มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+- มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

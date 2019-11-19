@@ -2,7 +2,6 @@
 title: 'บทช่วยสอน: สร้างคอลัมน์จากการคำนวณใน Power BI Desktop'
 description: 'บทช่วยสอน: สร้างคอลัมน์จากการคำนวณใน Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 92cd402c394fc2f03a9bba3149260c022116e9d7
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 4c1f6985a2ff88fa9ca595ad68456eed7a55c82e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017801"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876147"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>บทช่วยสอน: สร้างคอลัมน์จากการคำนวณใน Power BI Desktop
 
@@ -28,7 +27,7 @@ ms.locfileid: "73017801"
 ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 - บทเรียนนี้มีไว้สำหรับผู้ใช้ Power BI ที่คุณคุ้นเคยกับการใช้ Power BI Desktop เพื่อสร้างแบบจำลองที่ขั้นสูงขึ้น คุณควรจะทราบวิธีใช้การ**รับข้อมูล**และ**ตัวแก้ไข Power Query** เพื่อนำเข้าข้อมูล, ทำงานกับตารางที่เกี่ยวข้องหลายตาราง และเพิ่มเขตข้อมูลไปยังพื้นที่ของรายงานแล้ว ถ้าคุณยังไม่คุ้นเคยกับ Power BI Desktop ให้ตรวจดู[เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
   
-- บทช่วยสอนนี้ใช้[ตัวอย่างการขาย Contoso สำหรับ Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) ซึ่งเป็นตัวอย่างเดียวกับที่ใช้ในบทช่วยสอน[สร้างหน่วยวัดของคุณเองใน Power BI Desktop](desktop-tutorial-create-measures.md) ข้อมูลยอดขายจากบริษัทที่สมมุติขึ้นที่ชื่อ Contoso, Inc. ถูกนำเข้าจากฐานข้อมูล ดังนั้นคุณจะไม่สามารถเชื่อมต่อกับแหล่งข้อมูล หรือดูในตัวแก้ไข Power Query ได้ ดาวน์โหลด และแยกไฟล์บนคอมพิวเตอร์ของคุณ จากนั้นเปิดใน Power BI Desktop
+- บทช่วยสอนนี้ใช้[ตัวอย่างการขาย Contoso สำหรับ Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) ซึ่งเป็นตัวอย่างเดียวกับที่ใช้ในบทช่วยสอน[สร้างหน่วยวัดของคุณเองใน Power BI Desktop](desktop-tutorial-create-measures.md) ข้อมูลยอดขายจากบริษัทที่สมมุติขึ้นที่ชื่อ Contoso, Inc. ถูกนำเข้าจากฐานข้อมูล ดังนั้นคุณจะไม่สามารถเชื่อมต่อกับแหล่งข้อมูล หรือดูในตัวแก้ไข Power Query ได้ ดาวน์โหลด และแยกไฟล์บนคอมพิวเตอร์ของคุณ จากนั้นเปิดใน Power BI Desktop
 
 ## <a name="create-a-calculated-column-with-values-from-related-tables"></a>สร้างคอลัมน์จากการคำนวณ ด้วยค่าจากตารางที่เกี่ยวข้อง
 

@@ -3,19 +3,18 @@ title: วิธีการซื้อ Power BI Premium
 description: เรียนรู้วิธีการซื้อ Power BI Premium และเปิดใช้งานการเข้าถึงเนื้อหาให้ทั้งองค์กรของคุณ
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 1d2ff47fdbc31598524986742319ab36c8f3e957
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: b9681b15b0eef4415849b59e903440f9d904b1f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442896"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856878"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>วิธีการซื้อ Power BI Premium
 
@@ -107,4 +106,4 @@ ms.locfileid: "73442896"
 [คำถามที่ถามบ่อยสำหรับ Power BI Premium](service-premium-faq.md)\
 [เอกสารทางเทคนิคเรื่องการวางแผนการใช้ Power BI สำหรับองค์กร](https://aka.ms/pbienterprisedeploy)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

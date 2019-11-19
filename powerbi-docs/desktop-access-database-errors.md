@@ -2,7 +2,6 @@
 title: แก้ไขปัญหาการนำเข้า Access และ XLS ใน Power BI Desktop
 description: แก้ไขปัญหาการนำเข้าฐานข้อมูล Access และสเปรดชีต Excel ใน Power BI Desktop และ Power Query
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 085a21404fefe214656f31d077c6cba401b8219e
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 83a3cc769ea9451ffa5320710bd0f04934d51393
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922542"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879003"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>แก้ไขปัญหาการนำเข้าไฟล์ Access และ .XLS ใน Power BI Desktop
 
@@ -24,7 +23,7 @@ ms.locfileid: "72922542"
 
 ## <a name="situation-1-no-access-database-engine-is-installed"></a>สถานการณ์ที่ 1: ไม่ติดตั้งกลไกจัดการฐานข้อมูล Access
 
-ถ้าข้อความแสดงความผิดพลาดของ Power BI Desktop ระบุว่าไม่ได้ติดตั้งกลไกจัดการฐานข้อมูล Access คุณต้องติดตั้งกลไกจัดการฐานข้อมูล Access แบบ 32 บิต หรือ 64 บิต ที่ตรงกับเวอร์ชัน Power BI Desktop ของคุณ คุณสามารถติดตั้งกลไกจัดการฐานข้อมูล Access จาก[หน้าดาวน์โหลด](http://www.microsoft.com/download/details.aspx?id=13255)ได้
+ถ้าข้อความแสดงความผิดพลาดของ Power BI Desktop ระบุว่าไม่ได้ติดตั้งกลไกจัดการฐานข้อมูล Access คุณต้องติดตั้งกลไกจัดการฐานข้อมูล Access แบบ 32 บิต หรือ 64 บิต ที่ตรงกับเวอร์ชัน Power BI Desktop ของคุณ คุณสามารถติดตั้งกลไกจัดการฐานข้อมูล Access จาก[หน้าดาวน์โหลด](https://www.microsoft.com/download/details.aspx?id=13255)ได้
 
 >[!NOTE]
 >ถ้าเวอร์ชันบิตของกลไกจัดการฐานข้อมูล Access ที่ติดตั้งแตกต่างจากเวอร์ชันบิตของ Microsoft Office ที่คุณติดตั้ง แอปพลิเคชัน Office จะไม่สามารถใช้กลไกจัดการฐานข้อมูล Access
@@ -72,7 +71,7 @@ ms.locfileid: "72922542"
 
 หากต้องการติดตั้งกลไกจัดการฐานข้อมูล Access ทั้งสองเวอร์ชันบิต ให้ทำตามขั้นตอนเหล่านี้:
 
-1. ติดตั้งกลไกจัดการฐานข้อมูล Access ทั้งสองเวอร์ชันบิตจาก [หน้าดาวน์โหลด](http://www.microsoft.com/download/details.aspx?id=13255) 
+1. ติดตั้งกลไกจัดการฐานข้อมูล Access ทั้งสองเวอร์ชันบิตจาก [หน้าดาวน์โหลด](https://www.microsoft.com/download/details.aspx?id=13255) 
 
 1. เรียกใช้กลไกจัดการฐานข้อมูล Access แต่ละเวอร์ชันโดยใช้สวิตช์ */passive* ตัวอย่างเช่น:
    
@@ -84,7 +83,7 @@ ms.locfileid: "72922542"
 
 ถ้าคุณกำลังใช้ Office 365 แบบสมัครใช้งานไม่ว่าจะเป็น **Office 2013** หรือ **Office 2016** ตัวให้บริการของกลไกจัดการฐานข้อมูล Access จะได้รับการลงทะเบียนในตำแหน่งที่ตั้งของรีจิสทรีเสมือนจริงที่สามารถเข้าถึงได้*เฉพาะ*กระบวนการต่าง ๆ ของ Microsoft Office เท่านั้น เป็นผลให้กลไกจัดการ Mashup (ซึ่งรับผิดชอบในการเรียกใช้งาน Excel ที่ไม่ใช่ Office 365 และ Power BI Desktop และไม่ใช่กระบวนการ Office) ไม่สามารถใช้งานตัวให้บริการของกลไกจัดการฐานข้อมูล Access ได้
 
-เพื่อแก้ไขสถานการณ์นี้ ให้[ดาวน์โหลดและติดตั้งกลไกจัดการฐานข้อมูล Access ชนิดสามารถเผยแพร่ต่อ](http://www.microsoft.com/download/details.aspx?id=13255)ที่เข้ากับเวอร์ชันบิตของ Power BI Desktop ที่ติดตั้งของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเวอร์ชันบิต ให้ดูส่วนก่อนหน้าในบทความนี้
+เพื่อแก้ไขสถานการณ์นี้ ให้[ดาวน์โหลดและติดตั้งกลไกจัดการฐานข้อมูล Access ชนิดสามารถเผยแพร่ต่อ](https://www.microsoft.com/download/details.aspx?id=13255)ที่เข้ากับเวอร์ชันบิตของ Power BI Desktop ที่ติดตั้งของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเวอร์ชันบิต ให้ดูส่วนก่อนหน้าในบทความนี้
 
 ## <a name="other-situations-that-can-cause-import-issues"></a>สถานการณ์อื่น ๆ ที่อาจทำให้เกิดปัญหาการนำเข้า
 

@@ -2,19 +2,18 @@
 title: ดูแดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 description: สร้างหรือเชื่อมต่อกับแดชบอร์ดและรายงานในบริการของ Power BI จากนั้น ดูข้อมูลได้ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: b4c81e1c83ef53dcb16153b4e9996b259e9eb886
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059797"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870668"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>ดูแดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -40,7 +39,7 @@ ms.locfileid: "73059797"
 ## <a name="view-dashboards-on-your-iphone"></a>ดูแดชบอร์ดบน iPhone ของคุณ
 1. เปิดแอป Power BI บน iPhone ของคุณ และลงชื่อเข้าใช้
    
-   ต้องการ[ดาวน์โหลดแอป iPhone](http://go.microsoft.com/fwlink/?LinkId=522062) จาก Apple App Store หรือไม่
+   ต้องการ[ดาวน์โหลดแอป iPhone](https://go.microsoft.com/fwlink/?LinkId=522062) จาก Apple App Store หรือไม่
 2. แตะแดชบอร์ดเพื่อเปิด  
    
     ![แตะแดชบอร์ด](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
@@ -80,7 +79,7 @@ ms.locfileid: "73059797"
 ## <a name="view-dashboards-on-your-ipad"></a>ดูแดชบอร์ดบน iPad ของคุณ
 1. เปิดแอป Power BI
    
-   ต้องการ[ดาวน์โหลดแอป iPad](http://go.microsoft.com/fwlink/?LinkId=522062) จาก Apple App Store ก่อนหรือไม่
+   ต้องการ[ดาวน์โหลดแอป iPad](https://go.microsoft.com/fwlink/?LinkId=522062) จาก Apple App Store ก่อนหรือไม่
 2. แตะ**แดชบอร์ด**ด้านบนของแอป  
    
    ![หน้าแรกของแดชบอร์ด](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -103,7 +102,7 @@ ms.locfileid: "73059797"
 ## <a name="view-dashboards-on-your-android-phone"></a>ดูแดชบอร์ดบนโทรศัพท์ Android ของคุณ
 1. เปิดแอป Power BI บน Android ของคุณ และลงชื่อเข้าใช้
    
-   ต้องการ[ดาวน์โหลดแอป Android](http://go.microsoft.com/fwlink/?LinkID=544867) ก่อนหรือไม่
+   ต้องการ[ดาวน์โหลดแอป Android](https://go.microsoft.com/fwlink/?LinkID=544867) ก่อนหรือไม่
 2. แตะแดชบอร์ดเพื่อเปิด   
    
    ![หน้าแรกของแดชบอร์ด](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -127,7 +126,7 @@ ms.locfileid: "73059797"
 ## <a name="view-dashboards-on-your-android-tablet"></a>ดูแดชบอร์ดบนแท็บเล็ต์ Android ของคุณ
 1. เปิดแอป Power BI บนแท็บเบล็ต Android ของคุณ และลงชื่อเข้าใช้
    
-   ต้องการ[ดาวน์โหลดแอป Android](http://go.microsoft.com/fwlink/?LinkID=544867) ก่อนหรือไม่
+   ต้องการ[ดาวน์โหลดแอป Android](https://go.microsoft.com/fwlink/?LinkID=544867) ก่อนหรือไม่
 2. แตะแดชบอร์ดเพื่อเปิด   
    
    ![หน้าแรกของแดชบอร์ด](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
@@ -154,8 +153,8 @@ ms.locfileid: "73059797"
 อ่านเพิ่มเติมเกี่ยวกับ[สร้างมุมมองแดชบอร์ด](../../service-create-dashboard-mobile-phone-view.md)สำหรับโทรศัพท์
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [ดาวน์โหลดแอป Android](http://go.microsoft.com/fwlink/?LinkID=544867)จาก Google play  
+* [ดาวน์โหลดแอป Android](https://go.microsoft.com/fwlink/?LinkID=544867)จาก Google play  
 * [เริ่มต้นใช้งานแอป Android สำหรับ Power BI](mobile-android-app-get-started.md)  
 * [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

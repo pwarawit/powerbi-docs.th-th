@@ -10,16 +10,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: 8fd87174a1f94ac8a6472238164298c47aa5691e
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: e35f4f7bd870e51810d49c43a058e467bd724e6e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391808"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429671"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ
 
-ด้วย **Power BI Embedded ใน Azure** คุณสามารถฝังรายงาน, แดชบอร์ด หรือไทล์ลงในการใช้แอปพลิเคชันโดยใช้แอปเป็นเจ้าของข้อมูลได้ **แอปเป็นเจ้าของข้อมูล** เกี่ยวกับแอปพลิเคชันที่ใช้ Power BI เป็นแพลตฟอร์มการวิเคราะห์แบบฝังตัว ในฐานะเป็น**นักพัฒนาของผู้จำหน่ายซอฟท์แวร์อิสระ (ISV)** คุณสามารถสร้างเนื้อหา Power BI ที่แสดงรายงาน, แดชบอร์ด หรือไทล์ในแอปพลิเคชันที่รวมงานทั้งหมดไว้ด้วยกันและที่โต้ตอบได้ โดยผู้ใช้ไม่ต้องมีสิทธิ์การใช้งาน Power BI บทช่วยสอนนี้สาธิตวิธีการรวมรายงานลงในแอปพลิเคชัน โดยใช้ Power BI SDK .NET กับ Power BI JavaScript API โดยใช้ **Power BI Embedded ใน Azure** สำหรับลูกค้าของคุณ
+ด้วย **Power BI Embedded ใน Azure** หรือ**การฝัง Power BI ใน Office**คุณสามารถฝังรายงาน, แดชบอร์ด หรือไทล์ลงในการใช้แอปพลิเคชันโดยใช้แอปเป็นเจ้าของข้อมูลได้ **แอปเป็นเจ้าของข้อมูล** เกี่ยวกับแอปพลิเคชันที่ใช้ Power BI เป็นแพลตฟอร์มการวิเคราะห์แบบฝังตัว ในฐานะเป็น**ISV** หรือ**นักพัฒนา** คุณสามารถสร้างเนื้อหา Power BI ที่แสดงรายงาน, แดชบอร์ด หรือไทล์ในแอปพลิเคชันที่รวมงานทั้งหมดไว้ด้วยกันและที่โต้ตอบได้ โดยผู้ใช้ไม่ต้องมีสิทธิ์การใช้งาน Power BI บทช่วยสอนนี้สาธิตวิธีการรวมรายงานลงในแอปพลิเคชัน โดยใช้ Power BI SDK .NET กับ Power BI JavaScript API.
 
 ![Power BI ฝังรายงาน](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
@@ -33,12 +33,9 @@ ms.locfileid: "70391808"
 เมื่อต้องเริ่มต้นใช้งาน คุณจำเป็นต้องมี:
 
 * [บัญชี Power BI Pro](../service-self-service-signup-for-power-bi.md) (บัญชีหลักที่มีชื่อผู้ใช้และรหัสผ่านเพื่อลงชื่อเข้าใช้บัญชี Power BI Pro), หรือ[บริการหลัก (โทเค็นเฉพาะแอปเท่านั้น)](embed-service-principal.md)
-* การสมัครใช้งาน [Microsoft Azure](https://azure.microsoft.com/)
 * คุณจำเป็นต้องตั้งค่า[ผู้เช่า Azure Active Directory](create-an-azure-active-directory-tenant.md) ของคุณเอง
 
 ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/pricing/)ก่อนที่คุณจะเริ่ม
-
-ถ้าคุณยังไม่มีการสมัครใช้งาน Azure สร้าง[บัญชีฟรี](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)ก่อนที่คุณจะเริ่ม
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>ตั้งค่าสภาพแวดล้อมการพัฒนาการวิเคราะห์แบบฝังตัวของคุณ
 
@@ -60,13 +57,13 @@ ms.locfileid: "70391808"
 
 ## <a name="set-up-your-power-bi-environment"></a>ตั้งค่าสภาพแวดล้อม Power BI ของคุณ
 
-### <a name="create-an-app-workspace"></a>สร้างพื้นที่ทำงานสำหรับแอป
+### <a name="create-a-workspace"></a>สร้างพื้นที่ทำงาน
 
-หากคุณกำลังฝังรายงาน, แดชบอร์ด หรือไทล์สำหรับลูกค้า คุณต้องวางเนื้อหาลงในพื้นที่ทำงานแอป พื้นที่ทำงานมีหลายประเภทที่คุณสามารถตั้งค่า: [พื้นที่ทำงานแบบดั้งเดิม](../service-create-workspaces.md)หรือ[พื้นที่ทำงานใหม่](../service-create-the-new-workspaces.md) ถ้าคุณกำลังใช้บัญชี*หลัก* จากนั้นไม่สำคัญว่าคุณจะพื้นที่ทำงานชนิดใด อย่างไรก็ตาม ถ้าคุณใช้ *[บริการหลัก](embed-service-principal.md)* เพื่อเข้าสู่ระบบแอปพลิเคชัน จากนั้นคุณจำเป็นต้องใช้พื้นที่ทำงานใหม่ ในสถานการณ์ใด ๆ ทั้งบัญชี*หลัก* หรือ*บริการหลัก*ต้องเป็นผู้ดูแลระบบของพื้นที่ทำงานแอปที่เกี่ยวข้องกับแอปพลิเคชันของคุณ
+หากคุณกำลังฝังรายงาน, แดชบอร์ด หรือไทล์สำหรับลูกค้า คุณต้องวางเนื้อหาลงในพื้นที่ทำงาน พื้นที่ทำงานมีหลายประเภทที่คุณสามารถตั้งค่า: [พื้นที่ทำงานแบบดั้งเดิม](../service-create-workspaces.md)หรือ[พื้นที่ทำงานใหม่](../service-create-the-new-workspaces.md) ถ้าคุณกำลังใช้บัญชี*หลัก* จากนั้นไม่สำคัญว่าคุณจะพื้นที่ทำงานชนิดใด อย่างไรก็ตาม ถ้าคุณใช้ *[บริการหลัก](embed-service-principal.md)* เพื่อเข้าสู่ระบบแอปพลิเคชัน จากนั้นคุณจำเป็นต้องใช้พื้นที่ทำงานใหม่ ในสถานการณ์ใด ๆ ทั้งบัญชี*หลัก* หรือ*บริการหลัก*ต้องเป็นผู้ดูแลระบบของพื้นที่ทำงานที่เกี่ยวข้องกับแอปพลิเคชันของคุณ
 
 ### <a name="create-and-publish-your-reports"></a>สร้าง และเผยแพร่รายงานของคุณ
 
-คุณสามารถสร้างรายงานและชุดข้อมูลของคุณโดยใช้ Power BI Desktop แล้วจึงเผยแพร่รายงานเหล่านั้นไปยังพื้นที่ทำงานของแอป คุณมีสองวิธีในการทำงานนี้ ได้แก่ ในฐานะที่เป็นผู้ใช้ปลายทาง คุณสามารถเผยแพร่รายงานไปยังพื้นที่ทำงานแอปแบบดั้งเดิมด้วยบัญชีหลัก (ใบอนุญาต Power BI Pro) ถ้าคุณกำลังใช้บริการหลัก คุณสามารถเผยแพร่รายงานไปยังพื้นที่ทำงานใหม่ที่ใช้ใน[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup)ได้
+คุณสามารถสร้างรายงานและชุดข้อมูลของคุณโดยใช้ Power BI Desktop แล้วจึงเผยแพร่รายงานเหล่านั้นไปยังพื้นที่ทำงาน คุณมีสองวิธีในการทำงานนี้ ได้แก่ ในฐานะที่เป็นผู้ใช้ปลายทาง คุณสามารถเผยแพร่รายงานไปยังพื้นที่ทำงานดั้งเดิมด้วยบัญชีหลัก (สิทธิ์การใช้งาน Power BI Pro) ถ้าคุณกำลังใช้บริการหลัก คุณสามารถเผยแพร่รายงานไปยังพื้นที่ทำงานใหม่ที่ใช้ใน[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup)ได้
 
 ขั้นตอนด้านล่างแนะนำวิธีการเผยแพร่รายงาน PBIX ของคุณไปยังพื้นที่ทำงาน Power BI
 
@@ -78,7 +75,7 @@ ms.locfileid: "70391808"
 
    ![รายงาน PBI บนเดสก์ท็อป](media/embed-sample-for-customers/embed-sample-for-customers-027.png)
 
-3. เผยแพร่ไปยัง**พื้นที่ทำงานแอป** กระบวนการนี้แตกต่างกันขึ้นอยู่กับว่าคุณกำลังใช้บัญชีหลัก (ใบอนุญาต Power Pro), หรือบริการหลัก ถ้าคุณกำลังใช้บัญชีหลัก จากนั้นคุณสามารถเผยแพร่รายงานของคุณผ่านทาง Power BI Desktop  ในตอนนี้ถ้าคุณกำลังใช้บริการหลัก คุณต้องใช้ Power BI REST API
+3. เผยแพร่ไปยัง**พื้นที่ทำงาน** กระบวนการนี้แตกต่างกันขึ้นอยู่กับว่าคุณกำลังใช้บัญชีหลัก (ใบอนุญาต Power Pro), หรือบริการหลัก ถ้าคุณกำลังใช้บัญชีหลัก จากนั้นคุณสามารถเผยแพร่รายงานของคุณผ่านทาง Power BI Desktop  ในตอนนี้ถ้าคุณกำลังใช้บริการหลัก คุณต้องใช้ Power BI REST API
 
 ## <a name="embed-content-using-the-sample-application"></a>ฝังเนื้อหาโดยใช้แอปพลิเคชันตัวอย่าง
 
@@ -139,7 +136,7 @@ ms.locfileid: "70391808"
 
 แอตทริบิวต์นี้จำเป็นสำหรับ AuthenticationTypes ทั้งสอง (บัญชีหลัก และ[บริการหลัก](embed-service-principal.md))
 
-กรอกข้อมูล **workspaceId** ด้วย พื้นที่ทำงานแอป (กลุ่ม) GUID จาก Power BI คุณสามารถดูข้อมูลนี้จาก URL เมื่อลงชื่อเข้าใช้บริการ Power BI หรือโดยการใช้ Powershell
+กรอกข้อมูล**workspaceId**ด้วย GUID พื้นที่ทำงาน (กลุ่ม) จาก Power BI คุณสามารถดูข้อมูลนี้จาก URL เมื่อลงชื่อเข้าใช้บริการ Power BI หรือโดยการใช้ Powershell
 
 URL <br>
 
@@ -268,11 +265,23 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>สร้างโทเค็นแบบฝังตัว
+สร้างโทเค็นแบบฝังตัวซึ่งสามารถใช้ได้จาก JavaScript API มี API สองประเภท กลุ่มแรกมีห้า API โดยแต่ละตัวจะสร้างโทเค็นแบบฝังตัวสำหรับรายการเฉพาะ กลุ่มที่สองซึ่งประกอบด้วย API เดียวเท่านั้นจะสร้างโทเค็นที่สามารถใช้เพื่อฝังหลายรายการ
 
-สร้างโทเค็นแบบฝังตัวซึ่งสามารถใช้ได้จาก JavaScript API โทเค็นแบบฝังตัวจะเป็นแบบเฉพาะเจาะจงกับรายการที่คุณจะฝัง ซึ่งหมายความว่า ทุกครั้งที่คุณต้องการฝังเนื้อหาของ Power BI ชิ้นหนึ่ง คุณต้องสร้างโทเค็นการฝังใหม่ขึ้นมา สำหรับข้อมูลเพิ่มเติม รวมไปถึง **accessLevel** ที่จะใช้ ดู[GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx)
+**API สำหรับการสร้างโทเค็นแบบฝังตัวในรายการเฉพาะ**
 
-*ตัวอย่างของการสร้างโทเค็นฝังตัวสำหรับรายงาน แดชบอร์ด หรือไทล์จะมีให้ในไฟล์  Services\EmbedService.cs ใน [แอปพลิเคชันตัวอย่าง](https://github.com/Microsoft/PowerBI-Developer-Samples)*
+โทเค็นแบบฝังตัวที่สร้างด้วย API เหล่านี้เป็นรายการเฉพาะที่คุณกำลังฝัง ทุกครั้งที่คุณฝังรายการ Power BI (เช่น รายงาน แดชบอร์ด หรือไทล์) ด้วย API เหล่านี้ คุณจำเป็นต้องสร้างโทเค็นแบบฝังตัวใหม่
+* [แดชบอร์ด GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
+* [ชุดข้อมูล GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
+* [รายงาน GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+* [รายงาน GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
+* [ไทล์ GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
 
+ตัวอย่างของการสร้างโทเค็นแบบฝังตัวสำหรับรายงาน แดชบอร์ด หรือไทล์จะพร้อมใช้งานจากไฟล์ต่อไปนี้ใน[แอปพลิเคชันตัวอย่าง](https://github.com/Microsoft/PowerBI-Developer-Samples).
+* Services\EmbedService.cs
+* Models\EmbedConfig.cs
+* Models\TileEmbedConfig.cs
+
+ด้านล่างนี้คือตัวอย่างรหัสสำหรับการใช้งาน API ของโทเค็นแบบฝังตัวสำหรับรายงาน GenerateTokenInGroup
 ```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
@@ -290,7 +299,55 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-คลาสถูกสร้างให้สำหรับ **EmbedConfig** และ **TileEmbedConfig** ตัวอย่างมีให้ในไฟล์ **Models\EmbedConfig.cs** และไฟล์ **Models\TileEmbedConfig.cs**
+**API สำหรับการสร้างโทเค็นแบบฝังตัวในหลายรายการ**<a id="multiEmbedToken"></a>
+
+API แบบฝังตัวสำหรับ[สร้างโทเค็น](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) จะสร้างโทเค็นที่สามารถใช้สำหรับการฝังหลายรายการ
+
+นอกจากนี้ยังสามารถใช้สำหรับการเลือกชุดข้อมูลแบบไดนามิกในขณะที่ฝังรายงาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการใช้ API นี้ ให้ดู[การเชื่อมโยงแบบไดนามิก](embed-dynamic-binding.md).
+
+
+ด้านล่างนี้คือตัวอย่างของการใช้ API นี้
+ 
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+var reports = new List<GenerateTokenRequestV2Report>()
+{ 
+    new GenerateTokenRequestV2Report()
+    {
+        AllowEdit = false,
+        Id = report1.Id
+    },
+    new GenerateTokenRequestV2Report()
+    {
+        AllowEdit = true,
+        Id = report2.Id
+    }
+};
+
+var datasets= new List<GenerateTokenRequestV2Dataset>()
+{
+    new GenerateTokenRequestV2Dataset(dataset1.Id),
+    new GenerateTokenRequestV2Dataset(dataset2.Id),
+    new GenerateTokenRequestV2Dataset(dataset3.Id),
+};
+
+var targetWorkspaces = new List<GenerateTokenRequestV2TargetWorkspace>()
+{
+    new GenerateTokenRequestV2TargetWorkspace(workspace1.Id),
+    new GenerateTokenRequestV2TargetWorkspace(workspace2.Id),
+};
+
+var request = new GenerateTokenRequestV2()
+{
+    Datasets = datasetsRequestDetails ?? null,
+    Reports = reportsRequestDetails,
+    TargetWorkspaces = targetWSRequestdetials ?? null,
+};
+
+var token = client.GetClient().EmbedToken.GenerateToken(request);
+```
 
 ### <a name="load-an-item-using-javascript"></a>โหลดเนื้อหาโดยใช้ JavaScript
 
@@ -345,35 +402,40 @@ var embedConfig = new EmbedConfig()
 
 ## <a name="move-to-production"></a>ย้ายไปยังการผลิต
 
-เมื่อคุณเสร็จสิ้นการพัฒนาแอปพลิเคชันของคุณ ถัดไปคือการสนับสนุนพื้นที่ทำงานแอปด้วยความจุเฉพาะ 
+ตอนนี้คุณได้พัฒนาแอปพลิเคชันของคุณเรียบร้อยแล้ว ก็ถึงเวลาที่จะต้องสนับสนุนพื้นที่ทำงานของคุณด้วยความจุเฉพาะ 
 
 > [!Important]
-> ความจุเฉพาะ จำเป็นสำหรับการย้ายไปยังการผลิต
+> ความจุเฉพาะ จำเป็นสำหรับการย้ายไปยังการผลิต พื้นที่ทำงานทั้งหมด (ที่มีรายงานหรือแดชบอร์ดและที่มีชุดข้อมูล) จะต้องกำหนดไว้สำหรับความจุ
 
 ### <a name="create-a-dedicated-capacity"></a>สร้างความจุเฉพาะ
 
-เมื่อสร้างความจุเฉพาะ คุณสามารถใช้ประโยชน์จากการมีทรัพยากรเฉพาะที่จัดสรรไว้สำหรับลูกค้าของคุณ คุณสามารถซื้อความจุเฉพาะภายใน[พอร์ทัล Microsoft Azure](https://portal.azure.com) ได้ สำหรับรายละเอียดเกี่ยวกับวิธีการสร้างความจุ Power BI Embedded โปรดดู[สร้างความจุ Power BI Embedded ในพอร์ทัล Azure](azure-pbie-create-capacity.md)
+เมื่อสร้างความจุเฉพาะ คุณสามารถใช้ประโยชน์จากการมีทรัพยากรเฉพาะที่จัดสรรไว้สำหรับลูกค้าของคุณ มีความจุสองชนิดที่คุณสามารถเลือกได้จาก:
+* **Power BI Premium** - การสมัครใช้งาน Office 356 ระดับผู้เช่าที่มีอยู่สองกลุ่ม SKU ได้แก่ *EM* และ *P* เมื่อมีการฝังเนื้อหา Power BI โซลูชันนี้จะเรียกว่า *การฝัง Power BI* สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสมัครใช้งานนี้ ให้ดู [Power BI Premium คืออะไร?](../service-premium-what-is.md)
+* **Azure Power BI Embedded** - คุณสามารถซื้อความจุเฉพาะได้จาก [พอร์ทัล Microsoft Azure](https://portal.azure.com) การสมัครใช้งานนี้ใช้ *A* SKU สำหรับรายละเอียดเกี่ยวกับวิธีการสร้างความจุ Power BI Embedded โปรดดู[สร้างความจุ Power BI Embedded ในพอร์ทัล Azure](azure-pbie-create-capacity.md)
+> [!NOTE]
+> ด้วย A SKU คุณไม่สามารถเข้าถึงเนื้อหา Power BI ที่มีสิทธิ์การใช้งาน Power BI ฟรี
 
-ใช้ตารางด้านล่างเพื่อกำหนดความจุ Power BI Embedded ที่เหมาะกับความต้องการของคุณที่สุด
+ตารางด้านล่างอธิบายแหล่งข้อมูลและขีดจำกัดของแต่ละ SKU หากต้องการตรวจสอบความจุที่เหมาะสมที่สุดกับความต้องการของคุณ ให้ดูตาราง [SKU ใดที่ฉันควรซื้อสำหรับสถานการณ์ของฉัน](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario)
 
-| โหนดของความจุ | แกนทั้งหมด<br/>*(Backend + frontend)* | Backend Cores | Frontend Cores | การจำกัดการเชื่อมต่อ DirectQuery/live|
-| --- | --- | --- | --- | --- | --- |
-| A1 |1 v-core(s) |0.5 core(s), 3-GB RAM |0.5 cores |0 5 per second |
-| A2 |2 v-core(s) |1 core(s), 5-GB RAM |1 cor(e) | 10 ต่อวินาที |
-| A3 |4 v-core(s) |2 core(s), 10-GB RAM |2 core(s) | 15 ต่อวินาที |
-| A4 |8 v-core(s) |4 core(s), 25-GB RAM |4 core(s) |30 ต่อวินาที |
-| A5 |16 v-core(s) |8 core(s), 50-GB RAM |8 core(s) |60 ต่อวินาที |
-| A6 |32 v-core(s) |16 core(s), 100-GB RAM |16 core(s) |120 ต่อวินาที |
+| โหนดความจุ | วี-คอร์รวม | Backend v-cores | RAM (GB) | Frontend v-cores | DirectQuery/Live Connection (ต่อวินาที) | การรีเฟรชแบบจำลองแบบคู่ขนาน |
+| --- | --- | --- | --- | --- | --- | --- |
+| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3.75 | 1 |
+| EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
+| EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
+| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
+| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| | | | | | | |
 
-**_ด้วย A SKU คุณไม่สามารถเข้าถึงเนื้อหา Power BI ที่มีสิทธิ์การใช้งาน Power BI ฟรี_**
+### <a name="development-testing"></a>การทดสอบการพัฒนา
 
-โทเค็นฝังตัวที่มีใบอนุญาต PRO มีไว้สำหรับทดสอบการพัฒนา ดังนั้น บัญชีหลัก Power BI หรือบริการหลักจึงสามารถสร้างจำนวนโทเค็นฝังตัวได้อย่างจำกัด ความจุเฉพาะจำเป็นสำหรับการฝังตัวในสภาพแวดล้อมการผลิต ไม่มีข้อจำกัดในจำนวนโทเค็นแบบฝังตัวที่คุณสามารถสร้างด้วยความจุเฉพาะ ไปยัง[คุณลักษณะที่มี](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) เพื่อตรวจสอบค่าการใช้งาน ที่สามารถบอกได้ว่าปัจจุบันมีการใช้งานฝังตัวแล้วกี่เปอร์เซ็นต์ ปริมาณการใช้งานขึ้นอยู่กับบัญชีผู้ใช้หลัก
+โทเค็นแบบฝังตัวที่มีสิทธิ์การใช้งาน PRO มีไว้สำหรับทดสอบการพัฒนา ดังนั้นจำนวนของโทเค็นแบบฝังตัวที่บัญชีหลัก Power BI หรือบริการหลักสามารถสร้างได้จึงมีจำนวนจำกัด ความจุเฉพาะจำเป็นสำหรับการฝังตัวในสภาพแวดล้อมการผลิต ไม่มีข้อจำกัดในจำนวนโทเค็นแบบฝังตัวที่คุณสามารถสร้างด้วยความจุเฉพาะ ไปยัง[คุณลักษณะที่มี](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) เพื่อตรวจสอบค่าการใช้งาน ที่สามารถบอกได้ว่าปัจจุบันมีการใช้งานฝังตัวแล้วกี่เปอร์เซ็นต์ ปริมาณการใช้งานขึ้นอยู่กับบัญชีผู้ใช้หลัก
 
 สำหรับรายละเอียดเพิ่มเติม ดูได้ที่ [เอกสารทางเทคนิคเรื่องการวางแผนความจุวิเคราะห์แบบฝัง](https://aka.ms/pbiewhitepaper)
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>กำหนดพื้นที่ทำงานของแอปให้กับความจุเฉพาะ
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>กำหนดพื้นที่ทำงานสำหรับความจุเฉพาะ
 
-เมื่อคุณสร้างความจุเฉพาะแล้ว คุณสามารถกำหนดพื้นที่ทำงานแอปไปยังความจุเฉพาะนั้นได้
+เมื่อคุณสร้างความจุเฉพาะแล้ว คุณสามารถกำหนดพื้นที่ทำงานสำหรับความจุเฉพาะดังกล่าวได้
 
 เมื่อต้องกำหนดความจุเฉพาะกับพื้นที่ทำงานโดยใช้[บริการหลัก](embed-service-principal.md) ให้ใช้[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity) เมื่อคุณกำลังใช้ Power BI REST API ทำให้แน่ใจว่าใช้[ ID ออบเจ็กต์ของบริการหลัก](embed-service-principal.md#how-to-get-the-service-principal-object-id)
 
@@ -387,9 +449,9 @@ var embedConfig = new EmbedConfig()
 
     ![กำหนดความจุเฉพาะ](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. หลังจากเลือก **บันทึก** คุณควรจะเห็น **รูปข้าวหลามตัด** ถัดจากชื่อพื้นที่ทำงานแอพลิเคชัน
+3. หลังจากเลือก **บันทึก** คุณควรจะเห็น**รูปข้าวหลามตัด**ถัดจากชื่อพื้นที่ทำงาน
 
-    ![เชื่อมโยงพื้นที่ทำงานของแอปไปยังความจุ](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
+    ![พื้นที่ทำงานที่เชื่อมโยงกับความจุ](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

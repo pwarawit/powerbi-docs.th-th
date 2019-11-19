@@ -2,7 +2,6 @@
 title: การตั้งค่าตัวเลขกระแสข้อมูลในพื้นที่ทำงาน
 description: กำหนดค่าพื้นที่ทำงานใน Power BI ให้สามารถเก็บข้อกำหนดกระแสข้อมูลและไฟล์ข้อมูลใน Azure Data Lake Storage รุ่น2
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 54c0936510c3d383df32fd8b1f99816726f74d9f
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: fa448dac3e7788639377ce2d73d9c0ed68952fb3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431985"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877345"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>การตั้งค่าตัวเลขกระแสข้อมูลในพื้นที่ทำงาน (ดูตัวอย่าง)
 
@@ -138,4 +137,4 @@ ms.locfileid: "73431985"
 * [โฟลเดอร์ CDM ](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [นิยามของ ไฟล์รูปแบบ CDM](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-และคุณสามารถลอง[ถามคำถามในชุมชนของ Power BI](http://community.powerbi.com/) ได้เสมอ
+และคุณสามารถลอง[ถามคำถามในชุมชนของ Power BI](https://community.powerbi.com/) ได้เสมอ

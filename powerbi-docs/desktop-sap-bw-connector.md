@@ -2,7 +2,6 @@
 title: ใช้ตัวเชื่อมต่อ SAP BW ใน Power BI Desktop (ตัวอย่าง)
 description: ใช้ตัวเชื่อมต่อ SAP BW ใน Power BI Desktop (ตัวอย่าง)
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e7952093c333d517792c9cd44d78d8c5538f2b22
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: f55245fc037f48622bb636e961f59c796f267646
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891746"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879776"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>ใช้ตัวเชื่อมต่อ SAP BW ใน Power BI Desktop (ตัวอย่าง)
 ด้วย Power BI Desktop คุณสามารถเข้าถึงข้อมูล **SAP Business Warehouse (BW)** ได้
