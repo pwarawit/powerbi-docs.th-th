@@ -1,0 +1,171 @@
+### YamlMime:Landing
+metadata:
+  title: การเรียนรู้ Microsoft Power BI พร้อมคำแนะนำ
+  description: เริ่มการเรียนรู้ของคุณด้วยคอลเลกชันหลักสูตรที่เป็นลำดับนี้ และทำความเข้าใจความสามารถที่กว้างขวางและมีประสิทธิภาพของ Microsoft Power BI
+  layout: LandingPage
+  ms.service: powerbi
+  ms.author: davidiseminger
+  ms.date: 09/20/2019
+  ms.openlocfilehash: bd094c8a4568c7fb05ca49996fb0c8f409c668d3
+  ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 11/19/2019
+  ms.locfileid: "74178340"
+title: การเรียนรู้ Microsoft Power BI พร้อมคำแนะนำ
+summary: เริ่มการเรียนรู้ของคุณด้วยคอลเลกชันหลักสูตรที่เป็นลำดับนี้ และทำความเข้าใจความสามารถที่กว้างขวางและมีประสิทธิภาพของ Microsoft Power BI
+landingContent:
+- title: สำรวจว่า Power BI สามารถทำอะไรให้คุณได้บ้าง
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: ฉันสามารถทำอะไรกับบริการของ Power BI ในฐานะผู้บริโภคได้บ้าง? - 12 นาที
+      url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/1-why-power-bi
+    - text: ดูเนื้อหาในบริการ Power BI - 10 นาที
+      url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/2-find-content
+    - text: สำรวจด้วยแดชบอร์ด รายงาน และแอปใน Power BI - 15 นาที
+      url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/3-navigate-content
+    - text: การทำงานร่วมกันและแชร์ใน Power BI - 15 นาที
+      url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/4-collaborate-and-share
+    - text: ค้นหา และดูแดชบอร์ดและรายงาน - 7 นาที
+      url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/5-lab-1
+- title: วิเคราะห์ข้อมูลด้วย Power BI
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: กรองข้อมูลด้วย Power BI - 15 นาที
+      url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/1-filtering-data
+    - text: ดูข้อมูลของคุณ - 5 นาที
+      url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/2-exploring-with-numbers
+    - text: การถามคำถามเกี่ยวกับข้อมูลของคุณ - 5 นาที
+      url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/3-asking-questions-data
+    - text: นำตัวกรองไปใช้กับรายงาน - 25 นาที
+      url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/4-lab-2
+- title: เริ่มสร้างด้วย Power BI
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: บทนำ - 6 นาที
+      url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/1-introduction
+    - text: ใช้ Power BI - 2 นาที
+      url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/2-using-power-bi
+    - text: โครงสร้างของ Power BI - 12 นาที
+      url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/3-building-blocks-of-power-bi
+    - text: สำรวจและใช้บริการ Power BI - 12 นาที
+      url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/4-exercise-touring-and-using-power-bi
+- title: รับข้อมูลด้วย Power BI Desktop
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: ภาพรวมของ Power BI Desktop - 5 นาที
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/1-overview-power-bi-desktop
+    - text: สำรวจ Power BI Desktop - 10 นาที
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop
+    - text: เชื่อมต่อกับแหล่งข้อมูล - 10 นาที
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/3-connect-data-sources-power-bi-desktop
+    - text: รับข้อมูลจาก Excel - 5 นาที
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/3b-data-from-excel
+    - text: แปลงข้อมูลเพื่อรวมเข้าไว้ในรายงาน - 10 นาที
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/4-clean-data-query-editor
+    - text: รวมข้อมูลจากหลายแหล่งที่มา - 10 นาที
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/5-advanced-data-sources-transformation
+    - text: ทำควาสะอาดข้อมูลเพื่อรวมเข้าไว้ในรายงาน - 10 นาที
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/6-cleaning-data
+- title: ข้อมูลแบบจำลองใน Power BI
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: แนะนำการสร้างแบบจำลองข้อมูลของคุณ - 5 นาที
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/1-overview-power-bi
+    - text: วิธีการจัดการความสัมพันธ์ของข้อมูลของคุณ - 8 นาที
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/2-how-to-manage-data-relationships
+    - text: สร้างคอลัมน์จากการคำนวณ - 7 นาที
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/3-create-calculated-columns
+    - text: ปรับแบบจำลองข้อมูลให้เหมาะสม - 8 นาที
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4-optimize-data-models
+    - text: สร้างหน่วยวัดจากการคำนวณ - 15 นาที
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4b-create-calculated-measures
+    - text: สร้างตารางจากการคำนวณ - 4 นาที
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/5-create-calculated-tables
+    - text: สำรวจข้อมูลตามเวลา - 5 นาที
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/6-explore-time-based-data
+- title: ใช้วิชวลใน Power BI
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: แนะนำวิชวลใน Power BI - 3 นาที
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/1-intro-visuals
+    - text: สร้างและปรับแต่งค่าการแสดงผลข้อมูลด้วยภาพอย่างง่าย - 9 นาที
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/2-create-simple-visuals
+    - text: สร้างตัวแบ่งส่วนข้อมูล - 9 นาที
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/4-create-slicers
+    - text: การแสดงผลข้อมูลด้วยภาพแบบแผนที่ - 5 นาที
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/5-map-visualizations
+    - text: เมทริกซ์และตาราง - 8 นาที
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/6-create-matrixes-tables
+    - text: สร้างแผนภูมิแบบกระจาย น้ำตก และกรวย - 9 นาที
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/7-create-scatter-charts
+    - text: ปรับเปลี่ยนสีในแผนภูมิและวิชวล - 6 นาที
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/10-modify-colors
+    - text: เค้าโครงและการจัดรูปแบบหน้า - 12 นาที
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/12-formatting
+- title: สำรวจข้อมูลใน Power BI
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: แนะนำบริการ Power BI - 6 นาที
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/1-introduction-power-bi-service
+    - text: ข้อมูลเชิงลึกด่วนใน Power BI - 7 นาที
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/2-quick-insights
+    - text: สร้างและกำหนดค่าแดชบอร์ด - 5 นาที
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/3-create-configure-dashboard
+    - text: ถามคำถามเกี่ยวกับข้อมูลของคุณด้วยภาษาธรรมชาติ - 5 นาที
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/4-ask-questions
+    - text: สร้างคำแนะนำ Q&A แบบกำหนดเอง - 4 นาที
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/5-custom-qa
+    - text: แชร์แดชบอร์ดกับองค์กรของคุณ - 5 นาที
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/6-share-dashboards
+    - text: แสดงวิชวลและไทล์แบบเต็มหน้าจอ - 3 นาที
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/7-display-full-screen
+    - text: แก้ไขรายละเอียดไทล์ และเพิ่มวิดเจ็ต - 5 นาที
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/8-edit-tile-details
+    - text: เพิ่มพื้นที่บนแดชบอร์ดของคุณ - 3 นาที
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/9-get-more-space-on-dashboard
+- title: เผยแพร่และแชร์ใน Power BI
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: แนะนำชุดเนื้อหา การรักษาความปลอดภัย และกลุ่ม - 5 นาที
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/1-introduction-content-packs
+    - text: เผยแพร่รายงาน Power BI Desktop - 6 นาที
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/2-publish-reports
+    - text: พิมพ์และส่งออกแดชบอร์ดและรายงาน - 7 นาที
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/3-print-export-reports
+    - text: แนะนำ Power BI Mobile - 5 นาที
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/5-power-bi-mobile
+    - text: สร้างพื้นที่ทำงานใน Power BI - 6 นาที
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/6-create-groups
+    - text: สร้างแอป - 7 นาที
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/7-build-apps
+    - text: ใช้แอป - 6 นาที
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/8-use-apps
+    - text: บูรณาการรวม OneDrive for Business เข้ากับ Power BI - 7 นาที
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/10-integrate-onedrive
+    - text: เผยแพร่ไปยังเว็บ - 5 นาที
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/11-publish-web
+- title: แนะนำ DAX
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: แนะนำ DAX - 9 นาที
+      url: introductiontodax.yml?tutorial-step=1
+    - text: ชนิดการคำนวณของ DAX - 22 นาที
+      url: introductiontodax.yml?tutorial-step=2
+    - text: ฟังก์ชันของ DAX - 17 นาที
+      url: introductiontodax.yml?tutorial-step=3
+    - text: การใช้ตัวแปรในนิพจน์ DAX - 4 นาที
+      url: introductiontodax.yml?tutorial-step=4
+    - text: ความสัมพันธ์ของตารางและ DAX - 13 นาที
+      url: introductiontodax.yml?tutorial-step=5
+    - text: ตารางของ DAX และการกรอง - 32 นาที
+      url: introductiontodax.yml?tutorial-step=6

@@ -142,7 +142,7 @@
               href: register-app.md
             - name: รับโทเค็นการเข้าถึง Azure AD
               href: get-azuread-access-token.md
-            - name: ผูกพันแบบไดนามิก
+            - name: เชื่อมต่อรายงานโดยใช้การผูกแบบไดนามิก
               href: embed-dynamic-binding.md
             - name: ถามตอบเกี่ยวกับการฝัง
               href: qanda.md
