@@ -2,18 +2,17 @@
 title: แก้ไขรูปแบบภาษาและเพิ่มการใช้ถ้อยคำของ Q&A ใน Power BI Desktop
 description: วิธีการใช้ Power BI Desktop ในการแก้ไขชุดภาษาที่ส่วนถามตอบของ Power BI ใช้งานอยู่
 author: mohaali
-manager: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: 3bd5902227742a89402218b99ef8a024681be416
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: d1ae995c3e98befe776ac091a0312e281e97022e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891525"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875325"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>แก้ไขรูปแบบภาษาและเพิ่มการใช้ถ้อยคำของ Q&A ใน Power BI Desktop 
 การใช้วลีทั่วไปและภาษาที่เป็นธรรมชาติในการถามคำถามเกี่ยวกับข้อมูลของคุณเป็นการดำเนินการที่มีประสิทธิภาพ มีประสิทธิภาพยิ่งขึ้นหากข้อมูลของคุณสามารถตอบคำถามได้ เมื่อคุณถามคำถามในส่วนถามตอบของ Power BI ส่วนถามตอบจะพยายามอย่างมากที่สุดเพื่อตอบคำถามให้ถูกต้อง แต่คุณสามารถปรับปรุงการโต้ตอบของส่วนถามตอบได้ดียิ่งขึ้น คุณก็จะสามารถปรับปรุงคำตอบได้ วิธีหนึ่งคือโดยการแก้ไขรูปแบบภาษา 
@@ -80,10 +79,10 @@ ms.locfileid: "72891525"
 ### <a name="export-then-import-a-yaml-file"></a>ส่งออกจากนั้นนำเข้าไฟล์ .yaml
 
 1. เปิดชุดข้อมูลในมุมมองแบบจำลองใน Power BI Desktop 
-2. บนแท็บ **การสร้างแบบจำลอง** ให้เลือก **รูปแบบภาษา** > **ส่งออกรูปแบบภาษา**
+2. บนแท็บ**การสร้างแบบจำลอง** ให้เลือก **รูปแบบภาษา** > **ส่งออกรูปแบบภาษา**
 3. บันทึกไว้ ชื่อไฟล์ลงท้ายด้วย .lsdl.yaml
 4. เลือกใน Visual Code หรือตัวแก้ไขอื่น
-4. ในมุมมองแบบจำลองใน Power BI Desktop บนแท็บ **การสร้างแบบจำลอง** เลือก**รูปแบบภาษา** > **นำเข้ารูปแบบภาษา** 
+4. ในมุมมองแบบจำลองใน Power BI Desktop บนแท็บ**การสร้างแบบจำลอง** เลือก**รูปแบบภาษา** > **นำเข้ารูปแบบภาษา** 
 6. นำทางไปยังตำแหน่งที่ตั้งที่คุณบันทึกไฟล์ .yaml ที่แก้ไขแล้ว และเลือก ข้อความแสดงความสำเร็จจะแจ้งให้คุณทราบว่านำเข้าไฟล์ .yaml ของรูปแบบภาษาเรียบร้อยแล้ว
 
     ![ข้อความแสดงความสำเร็จ](media/q-and-a-tooling-advanced/power-bi-success.png)
@@ -338,4 +337,4 @@ Binding: {Table: Customers}
 
 ![ไฟล์ yaml แสดงข้อผิดพลาด](media/q-and-a-tooling-advanced/power-bi-yaml-errors.png)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
