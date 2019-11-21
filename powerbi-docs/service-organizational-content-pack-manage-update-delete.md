@@ -2,7 +2,6 @@
 title: 'ชุดเนื้อหาระดับองค์กร: จัดการและอัปเดต'
 description: อ่านเกี่ยวกับการจัดการ ปรับปรุง และการลบเนื้อหาขององค์กรคภายใน Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f2a80b075a56cdeccfa4c3675cdf31504b6a7e5d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 975c219a98f3d03f59df4d1c2a0551718bf213f0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431764"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881267"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>จัดการ อัปเดต และลบชุดเนื้อหาองค์กร
 > [!NOTE]
@@ -87,5 +86,5 @@ ms.locfileid: "73431764"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [แนะนำชุดเนื้อหาองค์กร](service-organizational-content-pack-introduction.md)
 * [สร้างและกระจายแอปฯใน Power BI](service-create-distribute-apps.md) 
-* มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

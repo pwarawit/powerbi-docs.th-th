@@ -2,7 +2,6 @@
 title: ลบแดชบอร์ด รายงาน เวิร์กบุ๊ก ชุดข้อมูล หรือพื้นที่ทำงาน
 description: เรียนรู้วิธีการลบเกือบทุกสิ่งจาก Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b010cfafc15c905cd792b9693777af94149cb1fe
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 0ccc32a18098673034e7f37b92f8edb5636ef21d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431968"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872541"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>ลบเกือบทุกสิ่งในบริการ Power BI
 บทความนี้สอนวิธีการลบแดชบอร์ด รายงาน เวิร์กบุ๊ก ชุดข้อมูล แอปฯ การแสดงภาพ และพื้นที่ทำงานในบริการ Power BI
@@ -90,7 +89,7 @@ ms.locfileid: "73431968"
 ในฐานะผู้สร้างพื้นที่ทำงาน คุณสามารถลบพื้นที่ทำงานได้ เมื่อคุณลบพื้นที่ทำงานแอปฯ แอปฯที่เชื่อมโยงสำหรับสมาชิกของกลุ่มทั้งหมดจะถูกลบไปด้วย และจะลบออกจาก AppSource ของคุณหากคุณได้เผยแพร่แอปฯไปยังทั้งองค์กรของคุณ การลบพื้นที่ทำงานจะแตกต่างจากการออกจากพื้นที่ทำงาน
 
 ### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>วิธีการลบพื้นที่ทำงาน ในกรณีที่คุณเป็นผู้ดูแลระบบ
-1. จากการนำทางด้านซ้าย เลือก**พื้นที่ทำงาน**
+1. จากบานหน้าต่างนำทาง ให้เลือก**พื้นที่ทำงาน**
 
 2. เลือก **ตัวเลือกเพิ่มเติม** (...) ทางด้านขวาของพื้นที่ทำงานเพื่อลบ และเลือก**แก้ไขพื้นที่ทำงาน**
 
@@ -125,7 +124,7 @@ ms.locfileid: "73431968"
 ### <a name="remove-an-app-from-your-app-list-page"></a>การลบแอปฯออกจากหน้ารายการแอปฯของคุณ
 การลบแอปฯจากหน้ารายการแอปฯของคุณจะไม่ลบแอฯปสำหรับสมาชิกคนอื่น ๆ
 
-1. ในการนำทางด้านซ้าย เลือก**Apps**เมื่อต้องเปิดหน้ารายการแอปฯ
+1. ในหน้าต่างนำทาง เลือก**Apps**เมื่อต้องเปิดหน้ารายการแอปฯ
 2. เลื่อนไปยังแอปฯที่ต้องการลบ แล้วเลือกไอคอน![](media/service-delete/power-bi-delete-report2.png)ลบ
 
    ![เลือกแอปฯ](media/service-delete/power-bi-delete-app.png)
@@ -141,4 +140,4 @@ ms.locfileid: "73431968"
 * [ลบแผ่นแดชบอร์ดหนึ่ง](service-dashboard-edit-tile.md)
 * [ลบภาพการแสดงภาพรายงาน](service-delete.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: วิธีการที่ Power BI ช่วยให้แน่ใจว่าเนื้อหาของคุณเป็นเวอร์ชันล่าสุด
 description: เรียนรู้วิธี Power BI ช่วยให้แน่ใจว่าคุณกำลังทำงานกับเวอร์ชันล่าสุดของข้อมูล รายงาน แดชบอร์ด และแอป
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 92f031ff43bc4d3bd5840e69fec166606b14eb73
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019775"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863881"
 ---
 # <a name="your-content-is-up-to-date"></a>เนื้อหาของคุณเป็นเวอร์ชันล่าสุด
 
@@ -43,9 +42,9 @@ ms.locfileid: "73019775"
 
 หน้าจอแอปแสดงทั้งสองชื่อของผู้ออกแบบตลอดจนวันที่อัปเดตแอปล่าสุด  
 
-1. จากแถบนำทางด้านซ้าย ให้เลือก**Apps**
+1. จากบานหน้าต่างนำทาง ให้เลือก**Apps**
 
-    ![แถบนำทางด้านซ้าย](media/end-user-fresh/power-bi-nav-app.png)
+    ![บานหน้าต่างนำทาง](media/end-user-fresh/power-bi-nav-app.png)
 
 
 

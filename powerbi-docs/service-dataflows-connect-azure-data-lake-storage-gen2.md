@@ -2,7 +2,6 @@
 title: เรียนรู้การเชื่อมต่อ Azure Data Lake Storage Gen2 กับ Power BI สำหรับที่เก็บกระแสข้อมูล
 description: นำข้อมูลของคุณขึ้นมาทำเป็นกระแสข้อมูลด้วยตัวเองโดยใช้ Azure Data Lake Storage Gen2
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432021"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872709"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับที่เก็บกระแสข้อมูล (ตัวอย่าง)
 
@@ -105,7 +104,7 @@ ms.locfileid: "73432021"
 
 ในการหาผู้เช่าบนแอปพลิเคชั่นให้ทำตามขั้นตอนต่อไปนี้:
 
-1. ใน [พอร์ทัล Azure](https://portal.azure.com/) เลือก **Azure Active Directory**จากบานหน้าต่างนำทางที่อยู่ด้านซ้าย
+1. ใน [พอร์ทัล Azure](https://portal.azure.com/) เลือก **Azure Active Directory**จากบานหน้าต่างนำทาง
 2. ใน Azure **Active Directory** blade เลือก**แอปพลิเคชันขององค์กร**
 3. จากเมนูดรอปดาวน์**ชนิดแอปพลิเคชัน** เลือก**แอปพลิเคชันทั้งหมด**แล้วเลือก**นำไปใช้** ตัวอย่างของแอปพลิเคชันผู้เช่าของคุณที่ปรากฏมีความคล้ายกันกับรูปต่อไปนี้
 
@@ -223,4 +222,4 @@ ms.locfileid: "73432021"
 * [โฟลเดอร์ CDM ](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [นิยามของ ไฟล์รูปแบบ CDM](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-และคุณสามารถลอง[ถามคำถามในชุมชนของ Power BI](http://community.powerbi.com/) ได้เสมอ
+และคุณสามารถลอง[ถามคำถามในชุมชนของ Power BI](https://community.powerbi.com/) ได้เสมอ

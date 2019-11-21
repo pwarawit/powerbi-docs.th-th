@@ -2,7 +2,6 @@
 title: ข้อมูลทั่วไปเกี่ยวกับการเข้าถึงใน Power BI
 description: คุณลักษณะและคำแนะนำสำหรับการสร้างรายงาน Power BI Desktop ที่สามารถเข้าถึงได้
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 13017fed9a7cd54cde624424894341dc2ced0d9b
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: e61df101d26dd95a771a64ce7633e40fcd9c9123
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73180987"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878894"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>ข้อมูลทั่วไปเกี่ยวกับการเข้าถึงใน Power BI
 เมื่อทำงานกับ Power BI คุณจำเป็นต้องพิจารณาผู้ใช้ประเภทต่าง ๆ ที่อาจมีการโต้ตอบกับรายงานของคุณ การสร้างและการนำเสนอรายงานที่สำรวจและเข้าใจได้ง่ายโดยผู้ใช้แป้นพิมพ์หรือโปรแกรมอ่านหน้าจอทำให้ผู้ใช้ที่อาจมีความบกพร่องทางสายตาหรือทางกายภาพได้รับข้อมูลเดียวกัน
@@ -30,10 +29,10 @@ ms.locfileid: "73180987"
 
 ## <a name="accessibility-standards"></a>มาตรฐานการช่วยสำหรับการเข้าถึง
 
-Power BI จะสอดคล้องกับมาตรฐานการช่วยสำหรับการเข้าถึงต่อไปนี้  การดำเนินการนี้จะช่วยให้แน่ใจว่าประสบการณ์การใช้งาน Power BI สามารถเข้าถึงได้หลายคนเท่าที่เป็นไปได้
+Power BI จะปฏิบัติตามมาตรฐานการช่วยสำหรับการเข้าถึงต่อไปนี้  การดำเนินการนี้จะช่วยให้แน่ใจว่าประสบการณ์การใช้งาน Power BI สามารถเข้าถึงได้หลายคนเท่าที่เป็นไปได้
 
 ### <a name="wcag-21"></a>WCAG 2.1
-Power BI ปฏิบัติตามแนวทางต่าง ๆ ของ Web Content Accessibility (WCAG) 2.1 มีสามหลักการหลักของ WCAG:
+การเข้าถึงเนื้อหาเว็บ (WCAG) ช่วยให้เนื้อหาบนเว็บสามารถเข้าถึงบุคคลที่มีความบกพร่องได้ มีสามหลักการหลักของ WCAG:
 
 1. **สามารถรับรู้ได้**- ข้อมูลและคอมโพเนนต์ส่วนติดต่อผู้ใช้จะต้องแสดงให้ผู้ใช้เห็นวิธีการที่พวกเขาสามารถรับรู้ได้
 2. **สามารถใช้งานได้**- คอมโพเนนต์ส่วนติดต่อผู้ใช้และการนำทางต้องเป็นสามารถใช้งานได้

@@ -2,7 +2,6 @@
 title: จัดการที่เก็บข้อมูลในพื้นที่ทำงานของคุณ
 description: เรียนรู้วิธีที่คุณสามารถจัดการที่เก็บข้อมูลของคุณ หรือของพื้นที่ทำงาน เพื่อให้แน่ใจว่าคุณสามารถเผยแพร่รายงานและชุดข้อมูลต่อไปได้
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: ea187de55eec2667abe2eed017481180910b7619
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431371"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873656"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>ladakจัดการที่เก็บข้อมูลในพื้นที่ทำงานบน Power BI
 
@@ -46,7 +45,7 @@ ms.locfileid: "73431371"
 
 ดูว่าคุณกำลังใช้พื้นที่จัดเก็บข้อมูลเท่าไรในบัญชีของคุณ Power BI และจัดการบัญชีของคุณ
 
-1. เพื่อจัดการที่เก็บข้อมูลของคุณเอง ไปที่ **พื้นที่งานของฉัน** ในบานหน้าต่างนำทางด้านซ้าย
+1. เพื่อจัดการที่เก็บข้อมูลของคุณเอง ไปที่ **พื้นที่งานของฉัน** ในบานหน้าต่างนำทาง
    
     ![พื้นที่ทำงานของฉัน](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 2. เลือกไอคอนรูปเฟือง![ไอคอนรูปเฟือง](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ในมุมบนขวา\>**จัดการที่เก็บข้อมูลส่วนตัว**
@@ -104,5 +103,5 @@ ms.locfileid: "73431371"
 
  ![เกินขีดจำกัดที่จัดเก็บของคุณ](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
- มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+ มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

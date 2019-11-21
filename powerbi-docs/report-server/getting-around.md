@@ -2,19 +2,18 @@
 title: จัดการเนื้อหาในพอร์ทัลของเว็บเซิร์ฟเวอร์รายงาน Power BI
 description: อ่านเกี่ยวกับการจัดการเนื้อหาในพอร์ทัลของเว็บเซิร์ฟเวอร์รายงาน Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 8a5b04c5b3325a9fd4d3bb11aa1943e62cf2c90c
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021476"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859480"
 ---
 # <a name="manage-content-in-the-web-portal"></a>จัดการเนื้อหาในพอร์ทัลของเว็บ 
 พอร์ทัลของเว็บเซิร์ฟเวอร์รายงาน Power BI คือ ตำแหน่งที่ตั้งภายในองค์กรสำหรับการดู การจัดเก็บ และการจัดการ Power BI ของคุณ รายงานสำหรับอุปกรณ์เคลื่อนที่และที่มีการแบ่งหน้า และ KPI
@@ -38,9 +37,9 @@ ms.locfileid: "73021476"
     ดูรายการของ[เว็บเบราว์เซอร์และรุ่นที่ได้รับการสนับสนุน](browser-support.md)
 2. ในแถบที่อยู่ พิมพ์ URL พอร์ทัลของเว็บ
    
-    ตามค่าเริ่มต้น URL คือ<em>http://[ComputerName]/reports</em>
+    ตามค่าเริ่มต้น URL คือ<em>https://[ComputerName]/reports</em>
    
-    เซิร์ฟเวอร์รายงานอาจถูกกำหนดค่าให้ใช้พอร์ตที่เจาะจง ตัวอย่างเช่น<em>http://[ComputerName]:80/reports</em>หรือ<em>http://[ComputerName]:8080/reports</em>
+    เซิร์ฟเวอร์รายงานอาจถูกกำหนดค่าให้ใช้พอร์ตที่เจาะจง ตัวอย่างเช่น<em>https://[ComputerName]:80/reports</em>หรือ<em>https://[ComputerName]:8080/reports</em>
    
     คุณเห็นว่า พอร์ทัลของเว็บจัดกลุ่มรายการลงในหมวดหมู่เหล่านี้:
    

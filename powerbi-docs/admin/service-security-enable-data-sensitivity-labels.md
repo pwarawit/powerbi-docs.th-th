@@ -2,7 +2,6 @@
 title: เปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI
 description: เรียนรู้วิธีการเปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI
 author: paulinbar
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: a53e06f65f5ef8328a0c27b48f2020228a0570ed
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 024e04bd309080b5b31e43bde7c783255bfc3dba
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432888"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851066"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>เปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI (แสดงตัวอย่าง)
 
@@ -73,4 +72,4 @@ Power BI ใช้ป้ายชื่อระดับความลับ M
 
 * [ภาพรวมของการป้องกันข้อมูลใน Power BI](service-security-data-protection-overview.md)
 * [ใช้ป้ายชื่อระดับความลับของข้อมูลใน Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
-* [การใช้ตัวควบคุม Microsoft Cloud App Security ใน Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
+* [ใช้ตัวควบคุม Microsoft Cloud App Security ใน Power BI](service-security-using-microsoft-cloud-app-security-controls.md)

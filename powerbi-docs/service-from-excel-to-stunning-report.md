@@ -2,7 +2,6 @@
 title: จากสมุดงาน Excel สู่รายงานอันน่าตื่นตาตื่นใจในบริการ Power BI
 description: บทความนี้แสดงให้เห็นว่าคุณสามารถสร้างรายงานอันน่าตื่นตาตื่นใจจากสมุดงาน Excel อย่างรวดเร็วได้อย่างไร
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6c393611851e05c7c76983674f2e1de7b5454898
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020995"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872514"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>จากสมุดงาน Excel สู่รายงานอันน่าตื่นตาตื่นใจในบริการ Power BI
 ผู้จัดการต้องการดูรายงานตัวเลขยอดขายของคุณที่รวมข้อมูลที่น่าประทับใจจากแคมเปญล่าสุดภายในวันนี้ แต่ข้อมูลล่าสุดอยู่ในระบบของบุคคลที่สามและไฟล์ต่าง ๆ ในคอมพิวเตอร์โน๊ตบุ๊คของคุณ ในอดีตต้องใช้เวลาหลายชั่วโมงในการสร้างภาพและจัดรูปแบบรายงาน และคุณเริ่มที่จะรู้สึกกังวล
@@ -57,7 +56,7 @@ ms.locfileid: "73020995"
 
    ![สร้างรายการแบบเลื่อนลง](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
 
-4. ที่ด้านล่างของพื้นที่นำทางด้านซ้าย เลือก**รับข้อมูล** 
+4. เลือก **รับข้อมูล** ที่ด้านล่างของบานหน้าต่างนำทาง 
 
 5. บนหน้า **รับข้อมูล** ในกล่อง **ไฟล์** ภายใต้ **สร้างเนื้อหาใหม่** เลือก **รับ**
 
@@ -140,5 +139,5 @@ ms.locfileid: "73020995"
 * [เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
 * [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

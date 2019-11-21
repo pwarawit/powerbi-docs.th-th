@@ -2,19 +2,18 @@
 title: สร้างแอปแม่แบบใน Power BI
 description: วิธีการสร้างแอปแม่แบบใน Power BI ที่คุณสามารถแจกจ่ายให้กับลูกค้าทุกคน Power BI
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432164"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871498"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>สร้างแอปแม่แบบใน Power BI
 
@@ -86,7 +85,7 @@ ms.locfileid: "73432164"
 
     **การสืบค้นเนื้อหา**
 
-    เปิดใช้งาน **ระบบจัดทำส่วนการสืบค้นใหม่**โดยคุณสามารถกำหนดรายละเอียดแถบการสืบค้นด้านซ้ายของแอป (ดูรายละเอียดในหัวข้อ [ออกแบบรูปแบบการสืบค้น](service-create-distribute-apps.md#design-the-navigation-experience) ในบทความนี้)
+    เปิดใช้งาน **ระบบจัดทำส่วนการสืบค้นใหม่**โดยคุณสามารถกำหนดรายละเอียดหน้าต่างนำทางของแอป (ดูรายละเอียดในหัวข้อ [ออกแบบรูปแบบการสืบค้น](service-create-distribute-apps.md#design-the-navigation-experience) ในบทความนี้)
 
    ![ตั้งค่าหน้าเริ่มต้นของแอป](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
     

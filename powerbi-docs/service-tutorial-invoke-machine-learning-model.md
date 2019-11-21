@@ -2,7 +2,6 @@
 title: 'บทช่วยสอน: เรียกแบบจำลอง Machine Learning Studio ใน Power BI (ตัวอย่าง)'
 description: ในบทช่วยสอนนี้ คุณจะได้เรียกแบบจำลอง Machine Learning Studio ใน Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 368f860ed064cf3b4ff73496db1fa993fd3b716a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432234"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876963"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>บทช่วยสอน: เรียกแบบจำลอง Machine Learning Studio ใน Power BI (ตัวอย่าง)
 
@@ -44,7 +43,7 @@ ms.locfileid: "73432234"
 
 ขั้นตอนต่อไปนี้จะสมมุติว่าคุณเป็นผู้ดูแลร่วมของการสมัครใช้งาน Azure และกลุ่มทรัพยากรที่เผยแพร่แบบจำลอง
 
-ลงชื่อเข้าใช้ [พอร์ทัล Azure](https://portal.azure.com) และนำทางไปยังหน้า **การสมัครใช้งาน** ที่สามารถพบได้โดยใช้รายการ **บริการทั้งหมด** ในเมนูนำทาง
+ลงชื่อเข้าใช้ [พอร์ทัล Azure](https://portal.azure.com) และนำทางไปยังหน้า **การสมัครใช้งาน** ที่สามารถพบได้โดยใช้รายการ **บริการทั้งหมด** ในบานหน้าต่างเมนูนำทาง
 
 ![พอร์ทัล Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
@@ -135,7 +134,7 @@ ms.locfileid: "73432234"
 
 ![แก้ไข](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_16.png)
 
-เลือกปุ่ม **ข้อมูลเชิงลึก AI** ใน Ribbon จากนั้นเลือกโฟลเดอร์ _แบบจำลอง Azure Machine Learning_ จากเมนูการนำทางด้านซ้าย
+เลือกปุ่ม **ข้อมูลเชิงลึกของ AI** ในริบบอน จากนั้นเลือกโฟลเดอร์ _แบบจำลอง Azure Machine Learning_ จากเมนูบานหน้าต่างนำทาง
 
 ระบบจะแสดงรายการแบบจำลอง Azure ML ที่คุณได้รับสิทธิ์เข้าถึงอยู่เป็นฟังก์ชัน Power Query ด้วยคำนำหน้า *AzureML*  เมื่อคุณคลิกที่ฟังก์ชันที่สัมพันธ์กับแบบจำลอง _AutomobilePricePrediction_ พารามิเตอร์สำหรับบริการบนเว็บของแบบจำลองจะแสดงเป็นพารามิเตอร์ฟังก์ชัน
 

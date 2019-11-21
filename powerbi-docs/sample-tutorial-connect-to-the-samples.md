@@ -2,7 +2,6 @@
 title: เชื่อมต่อกับตัวอย่างบริการ Power BI
 description: เรียนรู้วิธีการติดตั้งและสำรวจตัวอย่างการบริการ Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020626"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873851"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>เชื่อมต่อกับตัวอย่างบริการ Power BI
 
@@ -38,7 +37,7 @@ ms.locfileid: "73020626"
 
     ถ้าคุณไม่มีสิทธิการใช้งาน Power BI Pro คุณสามารถบันทึกตัวอย่างไปยังพื้นที่ทำงานของฉัน
 
-2. เลือกปุ่ม**รับข้อมูล**ที่ด้านล่างของพื้นที่นำทางด้านซ้ายมือ 
+2. เลือก**รับข้อมูล**ที่ด้านล่างของบานหน้าต่างนำทาง 
 
    ![เลือกรับข้อมูล](media/sample-datasets/power-bi-get-data.png)
 
@@ -100,7 +99,7 @@ ms.locfileid: "73020626"
 
 ซึ่งต่างจากการแก้ไขในบริการ Power BI ใน Power BI Desktop คุณสามารถทำงานกับคิวรีของคุณ และสร้างแบบจำลองข้อมูลของคุณ เพื่อให้แน่ใจว่า ข้อมูลรองรับข้อมูลเชิงลึกที่ดีที่สุดในรายงานของคุณ จากนั้นคุณสามารถบันทึกไฟล์ Power BI Desktop ของคุณเมื่อใดก็ตามที่คุณต้องการ ไม่ว่าจะบันทึกลงไดรฟ์ในเครื่อง หรือคลาวด์
 
-1. ดาวน์โหลดไฟล์ [Retail Analysis sample .pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) แล้วเปิดใน Power BI Desktop 
+1. ดาวน์โหลดไฟล์ [Retail Analysis sample .pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) แล้วเปิดใน Power BI Desktop 
 
     ![ตัวอย่างในมุมมองรายงาน Power BI](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
@@ -138,4 +137,4 @@ ms.locfileid: "73020626"
 - [ตัวอย่างสำหรับบริการ Power BI](sample-datasets.md)
 - [แหล่งข้อมูลสำหรับ Power BI](service-get-data.md)
 
-คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

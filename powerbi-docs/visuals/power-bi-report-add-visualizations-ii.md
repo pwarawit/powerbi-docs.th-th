@@ -2,7 +2,6 @@
 title: ส่วนที่ 2 เพิ่มการแสดงภาพไปยังรายงาน Power BI
 description: ส่วนที่ 2 เพิ่มการแสดงภาพไปยังรายงาน Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc50c54f826dd695b0aab459bd3d68d0da792abe
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: e9759f69668780b450117e5e6255e7f5cb7e67f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73049070"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881012"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>ส่วนที่ 2 เพิ่มการแสดงภาพไปยังรายงาน Power BI
 
@@ -29,7 +28,7 @@ ms.locfileid: "73049070"
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-บทช่วยสอนนี้ใช้ [ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+บทช่วยสอนนี้ใช้ [ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
 1. จากด้านบนซ้ายของแถบเมนู Power BI Desktop เลือก **ไฟล์** > **เปิด**
    
@@ -59,7 +58,7 @@ ms.locfileid: "73049070"
 
 5. [ปรับขนาดการแสดงภาพ](power-bi-visualization-move-and-resize.md)โดยเลือกการแสดงภาพ จับที่เค้าร่างวงกลมหนึ่งวงและลาก ทำให้กว้างพอที่จะกำจัดแถบเลื่อน และเล็กพอที่จะมีพื้นที่ให้เราเพิ่มการแสดงภาพแบบอื่นได้
    
-   ![](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
+   ![สกรีนช็อตของวิชวลแผนภูมิพื้นที่](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
 6. [บันทึกรายงาน](../service-report-save.md)
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>เพิ่มการแสดงภาพของแผนที่ท่ี่ดูยอดขายตามตำแหน่งที่ตั้ง
@@ -68,9 +67,9 @@ ms.locfileid: "73049070"
    ![แผนภูมิพื้นที่](media/power-bi-report-add-visualizations-ii/power-bi-map1.png)
 
 2. เพิ่มคำอธิบายแผนภูมิ  เมื่อต้องการดูข้อมูลตามชื่อร้านค้า ให้ลาก **Store** > **Chain** ไปยังพื้นที่คำอธิบายแผนภูมิ  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
+   ![พื้นที่รายงานที่มีลูกศรจากเชนในรายการเขตข้อมูลไปยังเชนในกลุ่มคำอธิบายแผนภูมิ](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * อ่านเพิ่มเติมเกี่ยวกับ[การแสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)  
-* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

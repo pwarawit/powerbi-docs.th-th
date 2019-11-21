@@ -2,19 +2,18 @@
 title: แจกจ่ายแอปแม่แบบในองค์กรของคุณ - Power BI
 description: เรียนรู้เกี่ยวกับการติดตั้ง กำหนดเอง และการแจกจ่ายแอปแม่แบบในองค์กรของคุณใน Power BI
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432346"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871420"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>ติดตั้งและแจกจ่ายแอปแม่แบบในองค์กรของคุณ - Power BI (ตัวอย่าง)
 
@@ -45,7 +44,7 @@ ms.locfileid: "73432346"
 
 ### <a name="search-appsource-from-the-power-bi-service"></a>ค้นหา AppSource จากบริการ Power BI
 
-1. ในบานหน้าต่างนำทางด้านซ้ายของบริการ Power BI เลือก**แอป** > **รับแอป**
+1. ในบานหน้าต่างนำทางของบริการ Power BI เลือก**แอป** > **รับแอป**
 
     ![รับแอป](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
@@ -69,7 +68,7 @@ ms.locfileid: "73432346"
     - **เชื่อมต่อข้อมูล**: เปลี่ยนแหล่งข้อมูลจากข้อมูลตัวอย่างไปเป็นแหล่งข้อมูลของคุณเอง คุณสามารถกำหนดชุดข้อมูลพารามิเตอร์และแหล่งข้อมูลประจำตัวใหม่ได้ ดู[ข้อจำกัดที่ทราบแล้ว](service-template-apps-tips.md#known-limitations)ในบทความเคล็ดลับของแอปแม่แบบ 
     - **ไปยังพื้นที่ทำงาน**(ตัวเลือกที่ทันสมัยที่สุด): คุณสามารถอนุญาตให้มีการเปลี่ยนแปลงใดๆ ก็ได้โดยตัวสร้างแอป
 
-    หรือข้ามกล่องโต้ตอบนี้ และเข้าถึงพื้นที่ทำงานที่เกี่ยวข้องโดยตรงผ่านทาง**พื้นที่ทำงาน**ในบานหน้าต่างนำทางด้านซ้าย
+    หรือข้ามกล่องโต้ตอบนี้ และเข้าถึงพื้นที่ทำงานที่เกี่ยวข้องโดยตรงผ่านทาง**พื้นที่ทำงาน**ในบานหน้าต่างนำทาง
     >[!NOTE]
     >การติดตั้งแอปแม่แบบที่ติดตั้งทั้ง *แอปองค์กร*และ*พื้นที่ทำงาน* อ่านเพิ่มเติมเกี่ยวกับ [กระจายแอปใน Power BI](service-create-distribute-apps.md)
  

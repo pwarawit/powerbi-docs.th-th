@@ -2,7 +2,6 @@
 title: 'บทช่วยสอน: เชื่อมต่อกับพื้นที่เก็บของ GitHub ด้วย Power BI'
 description: ในบทช่วยสอนนี้ คุณจะเชื่อมต่อกับข้อมูลจริงในบริการ GitHub ด้วย Power BI และ Power BI จะสร้างแดชบอร์ดและรายงานโดยอัตโนมัติ
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7f7fde7fcabc29238d9558739eff02519ef9cca3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020014"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871252"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>บทช่วยสอน: เชื่อมต่อกับพื้นที่เก็บของ GitHub ด้วย Power BI
 ในบทช่วยสอนนี้ คุณจะเชื่อมต่อกับข้อมูลจริงในบริการ GitHub ด้วย Power BI และ Power BI จะสร้างแดชบอร์ดและรายงานโดยอัตโนมัติ คุณเชื่อมต่อกับพื้นที่เก็บสาธารณะสำหรับเนื้อหาของ Power BI (หรือที่เรียกว่า *repo*) และดูคำตอบของคำถามเช่น: มีบุคคลกี่คนให้การสนับสนุนเนื้อหาสาธารณะของ Power BI ใครให้การสนับสนุนมากที่สุด วันใดในสัปดาห์ที่มีการสนับสนุนมากที่สุด และคำถามอื่นๆ 
@@ -45,7 +44,7 @@ ms.locfileid: "73020014"
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
 1. ลงชื่อเข้าใช้บริการ Power BI (https://app.powerbi.com) 
-2. ในบานหน้าต่างนำทางด้านซ้าย ให้เลือก **แอป** แล้วเลือก **รับแอป**
+2. ในบานหน้าต่างนำทาง > เลือก**แอป** จากนั้นเลือก **รับแอป**
    
    ![รับแอปใน Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
@@ -72,15 +71,15 @@ ms.locfileid: "73020014"
    ในตอนนี้ Power BI สามารถเชื่อมต่อกับ GitHub และเชื่อมต่อกับข้อมูล  ข้อมูลจะถูกรีเฟรชวันละหนึ่งครั้ง
 
 8. หลังจากที่ Power BI นำเข้าข้อมูลแล้ว คุณจะเห็นเนื้อหาของพื้นที่ทำงาน GitHub ใหม่ของคุณ 
-9. เลือกลูกศรที่อยู่ถัดจากชื่อพื้นที่ทำงานในแถบนำทางด้านซ้าย คุณเห็นพื้นที่ทำงานประกอบด้วยแดชบอร์ดและรายงาน 
+9. เลือกลูกศรที่อยู่ถัดจากชื่อพื้นที่ทำงานในหน้าต่างนำทาง คุณเห็นพื้นที่ทำงานประกอบด้วยแดชบอร์ดและรายงาน 
 
-    ![แอปในบานหน้าต่างนำทางด้านซ้าย](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+    ![แอปในบานหน้าต่างนำทาง](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
 10. เลือก**ตัวเลือกเพิ่มเติม** (...) ที่อยู่ถัดจากชื่อแดชบอร์ด > **เปลี่ยนชื่อ** > พิมพ์ **แดชบอร์ด GitHub**
  
     ![ไทล์ GitHub ใน Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
-8. เลือกไอคอนนำทางส่วนกลางเพื่อลดการนำทางด้านซ้าย เพื่อให้มีพื้นที่ว่างเพิ่มเติม
+8. เลือกไอคอนนำทางส่วนกลางเพื่อลดหน้าต่างนำทาง เพื่อให้มีพื้นที่ว่างเพิ่มเติม
 
     ![ไอคอนการนำทางส่วนกลาง](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 
@@ -129,7 +128,7 @@ ms.locfileid: "73020014"
 
 ในตอนนี้ คุณสำเร็จบทช่วยสอนแล้ว คุณสามารถลบแอป GitHub ได้ 
 
-1. ในแถบนำทางด้านซ้าย ให้เลือก **แอป**
+1. ในบานหน้าต่างนำทาง ให้เลือก**Apps**
 2. วางเมาส์เหนือไทล์ GitHub และเลือกถังขยะ **ลบ**
 
     ![ลบแอป GitHub](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-delete.png)

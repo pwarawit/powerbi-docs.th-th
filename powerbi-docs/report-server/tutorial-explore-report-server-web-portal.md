@@ -2,19 +2,18 @@
 title: 'บทช่วยสอน: สำรวจ Power BI Report Server ใน VM'
 description: ในบทช่วยสอนนี้ คุณสร้างเครื่องเสมือนที่มีการติดตั้ง Power BI Report Server แล้ว และสำรวจพอร์ทัลเว็บได้
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: cd3e032375c5edaba2b0f90f982d0dbe5591c913
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021623"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859254"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>บทช่วยสอน: สำรวจพอร์ทัลเว็บ Power BI Report Server ใน VM
 ในบทช่วยสอนนี้ คุณสร้างเครื่องเสมือน Azure ที่มีการติดตั้ง Power BI Report Server ไว้แล้วได้ ดังนั้นคุณสามารถดู แก้ไข และจัดการตัวอย่าง Power BI และรายงานที่มีการแบ่งหน้า และ KPI ได้
@@ -72,7 +71,7 @@ ms.locfileid: "73021623"
 
 ## <a name="connect-to-your-virtual-machine"></a>เชื่อมต่อกับเครื่องเสมือนของคุณ
 
-1. ในแผงนำทางด้านซ้าย Azure ให้เลือก**เครื่องเสมือน** 
+1. ในแผงนำทาง Azure ให้เลือก**เครื่องเสมือน** 
 
 2. ในกล่อง**กรองตามชื่อ** พิมพ์ "รายงาน" 
 
@@ -108,7 +107,7 @@ ms.locfileid: "73021623"
 |![เลขที่ 4](media/tutorial-explore-report-server-web-portal/number-4.png) | พอร์ทัลเว็บเซิร์ฟเวอร์รายงาน Power BI เปิดขึ้นในเบราว์เซอร์ |
 |![เลขที่ 5](media/tutorial-explore-report-server-web-portal/number-5.png) | เริ่มต้นเครื่องมือข้อมูล SQL Server สำหรับสร้างรายงานที่มีการแบ่งหน้า (.RDL) |
 
-ดับเบิลคลิกที่ไอคอน**พอร์ทัลเว็บเซิร์ฟเวอร์รายงาน** เบราว์เซอร์เปิดขึ้น`http://localhost/reports/browse` ในพอร์ทัลเว็บคุณจะเห็นไฟล์ต่าง ๆ ที่ถูกจัดกลุ่มแยกตามประเภท 
+ดับเบิลคลิกที่ไอคอน**พอร์ทัลเว็บเซิร์ฟเวอร์รายงาน** เบราว์เซอร์เปิดขึ้น`https://localhost/reports/browse` ในพอร์ทัลเว็บคุณจะเห็นไฟล์ต่าง ๆ ที่ถูกจัดกลุ่มแยกตามประเภท 
 
 ![พอร์ทัลเว็บของ Power BI Report Server](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

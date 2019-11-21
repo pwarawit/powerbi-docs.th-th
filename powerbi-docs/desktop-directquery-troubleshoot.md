@@ -2,19 +2,18 @@
 title: การแก้ไขปัญหาแบบจำลอง DirectQuery ใน Power BI Desktop
 description: แก้ไขปัญหาแบบจำลอง DirectQuery
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ac585aef180bb852f79ad5135778cec20f35cf2d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 623a0bbd187a997003ce7b82cc76d5c4fbe9ce44
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73433141"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868070"
 ---
 # <a name="directquery-model-troubleshooting-in-power-bi-desktop"></a>การแก้ไขปัญหาแบบจำลอง DirectQuery ใน Power BI Desktop
 
@@ -92,7 +91,7 @@ ms.locfileid: "73433141"
 - เปิดตัวสร้างโพรไฟล์ของ SQL Server และตรวจสอบการติดตาม ตามที่อธิบายไว้ก่อนหน้านี้ โปรดทราบว่าไฟล์การติดตามจะถูกลบเมื่อปิด Power BI Desktop นอกจากนี้ การดำเนินการเพิ่มเติมใน Power BI Desktop จะไม่ปรากฏทันที ควรจะปิดไฟล์การติดตามและเปิดใหม่อีกครั้งเพื่อดูเหตุการณ์ใหม่
 - เก็บแต่ละเซสชันให้มีขนาดค่อนขนาดเล็ก (สิบวินาทีของการดำเนินการ ไม่ใช่หลายร้อย) เพื่อทำให้ง่ายต่อการแปลไฟล์การติดตาม (และเนื่องจากมีขีดจำกัดเกี่ยวกับขนาดของไฟล์การติดตาม ดังนั้นสำหรับเซสชันที่มีความยาวมาก จึงมีโอกาสที่เหตุการณ์ในช่วงแรกจะถูกทิ้งไป)
 
-## <a name="understand-the-form-of-query-sent-by-power-bi-desktop"></a>ทำความเข้าใจเกี่ยวกับรูปแบบของคิวรีที่ส่งโดย Power BI Desktop
+## <a name="understand-queries-sent-to-the-source"></a>ทำความเข้าใจแบบสอบถามที่ส่งไปยังแหล่งข้อมูล
 
 รูปแบบทั่วไปของคิวรีที่สร้างและส่งโดย Power BI Desktop จะใช้การคิวรีย่อยสำหรับแต่ละตารางแบบจำลองที่อ้างอิง โดยที่การคิวรีย่อยจะถูกกำหนดขึ้นโดยคิวรี Power Query ตัวอย่างเช่น สมมติว่าตาราง TPC DS ต่อไปนี้อยู่ในฐานข้อมูลเชิงสัมพันธ์ของ SQL Server
 

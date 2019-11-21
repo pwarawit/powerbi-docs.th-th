@@ -2,7 +2,6 @@
 title: สร้างพื้นที่ทำงานแบบคลาสสิกใน Power BI
 description: เรียนรู้วิธีการสร้างพื้นที่ทำงาน คอลเลกชันของแดชบอร์ด รายงาน และรายงานที่มีการแบ่งหน้าที่สร้างขึ้นเพื่อนำเสนอเมตริกหลักสำหรับองค์กรของคุณ
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 3153e63685e21a29687c33e702c4ade55324e05c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021086"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853552"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>สร้างพื้นที่ทำงานแบบคลาสสิกใน Power BI
 
@@ -75,7 +74,7 @@ ms.locfileid: "73021086"
 
 ถ้าคุณต้องการแจกจ่ายเนื้อหาอย่างเป็นทางการไปยังผู้ชมจำนวนมากภายในองค์กรของคุณ คุณสามารถเผยแพร่แอปจากพื้นที่ทำงานของคุณได้  เมื่อเนื้อหาพร้อมแล้ว คุณสามารถเลือกได้ว่าแดชบอร์ดและรายงานใดที่คุณต้องการจะเผยแพร่ จากนั้นเผยแพร่ในฐานะเป็น*แอป* คุณสามารถสร้างแอปหนึ่งจากแต่ละพื้นที่ทำงาน
 
-รายการแอปในการนำทางด้านซ้ายจะแสดงแอปทั้งหมดที่คุณติดตั้ง เพื่อนร่วมงานของคุณสามารถรับแอปของคุณด้วยสองสามวิธีที่แตกต่างกัน 
+รายการแอปในหน้าต่างนำทางจะแสดงแอปทั้งหมดที่คุณติดตั้ง เพื่อนร่วมงานของคุณสามารถรับแอปของคุณด้วยสองสามวิธีที่แตกต่างกัน 
 - พวกเขาสามารถค้นหาและติดตั้งแอปจาก Microsoft AppSource ได้
 - คุณสามารถส่งลิงก์โดยตรงให้กับพวกเขาได้ 
 - คุณสามารถติดตั้งแอปโดยอัตโนมัติในบัญชี Power BI ของเพื่อนร่วมงานของคุณถ้าผู้ดูแลระบบ Power BI ของคุณให้สิทธิ์คุณ 
@@ -97,4 +96,4 @@ ms.locfileid: "73021086"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ติดตั้งและใช้แอปฯใน Power BI](service-create-distribute-apps.md)
 - [สร้างพื้นที่ทำงานใหม่](service-create-the-new-workspaces.md)
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

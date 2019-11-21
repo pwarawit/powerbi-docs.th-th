@@ -2,7 +2,6 @@
 title: เพิ่มโฟลเดอร์ CDM ไปยัง Power BI เป็นกระแสข้อมูล
 description: กำหนดค่าพื้นที่ทำงานเพื่อจัดเก็บไฟล์ข้อกำหนดและกระแสข้อมูลใน Azure Data Lake Storage รุ่น2
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3adc642d539ab8e1c1f1f60981a61fdc58a460ab
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432048"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872691"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>เพิ่มโฟลเดอร์ CDM ไปยัง Power BI เป็นกระแสข้อมูล (ตัวอย่าง)
 
@@ -33,7 +32,7 @@ ms.locfileid: "73432048"
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>สร้างกระแสข้อมูลจากโฟลเดอร์ CDM
 
-ในการเริ่มต้นการสร้างกระแสข้อมูลจากโฟลเดอร์ CDM ให้เรียกใช้**บริการของ Power BI**และเลือก**พื้นที่ทำงาน**จากบานหน้าต่างการนำทางด้านซ้าย คุณยังสามารถสร้างพื้นที่ทำงานใหม่ได้ซึ่งคุณสามารถสร้างกระแสข้อมูลชุดใหม่
+ในการเริ่มต้นการสร้างกระแสข้อมูลจากโฟลเดอร์ CDM ให้เรียกใช้**บริการของ Power BI**และเลือก**พื้นที่ทำงาน**จากบานหน้าต่างการนำทาง คุณยังสามารถสร้างพื้นที่ทำงานใหม่ได้ซึ่งคุณสามารถสร้างกระแสข้อมูลชุดใหม่
 
 ![สร้างกระแสข้อมูลในบริการ Power BI](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
@@ -110,5 +109,5 @@ Power BI Desktop:
 * [โฟลเดอร์ CDM ](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [นิยามของ ไฟล์รูปแบบ CDM](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-และคุณสามารถลอง[ถามคำถามในชุมชนของ Power BI](http://community.powerbi.com/) ได้เสมอ
+และคุณสามารถลอง[ถามคำถามในชุมชนของ Power BI](https://community.powerbi.com/) ได้เสมอ
 
