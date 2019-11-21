@@ -279,8 +279,6 @@
               href: desktop-slicer-filter-date-range.md
             - name: สร้างตัวแบ่งส่วนข้อมูลที่คุณสามารถปรับขนาดได้
               href: power-bi-slicer-filter-responsive.md
-            - name: สร้างการ์ดคำตอบของ Power BI แบบกำหนดเองสำหรับ Cortana
-              href: service-cortana-answer-cards.md
             - name: รักษาความปลอดภัยระดับแถว
               href: desktop-rls.md
             - name: คำแนะนำเครื่องมือสำหรับกำหนดเอง
@@ -665,10 +663,6 @@
               href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
             - name: ใช้ ถามตอบ ที่มีการเชื่อมต่อสด
               href: service-q-and-a-direct-query.md
-            - name: บทนำ Cortana สำหรับ Power BIower BI
-              href: service-cortana-intro.md
-            - name: เปิดใช้งาน Cortana สำหรับ Power BI
-              href: service-cortana-enable.md
             - name: ข้อมูลเชิงลึกด่วนใน Power BI
               href: service-insights.md
             - name: ปรับข้อมูลให้เหมาะสมสำหรับข้อมูลเชิงลึกด่วน
@@ -801,8 +795,6 @@
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'ข้อผิดพลาด: เราไม่พบข้อมูลใด ๆ ในสมุดงาน Excel ของคุณ'
               href: service-admin-troubleshoot-excel-workbook-data.md
-            - name: แก้ไขปัญหา Cortana
-              href: service-cortana-troubleshoot.md
             - name: วิธีรีเฟรชข้อมูลประจำตัวของชุดเนื้อหา Xero ถ้าการรีเฟรชล้มเหลว
               href: service-refresh-xero-credentials.md
         - name: งานอื่น ๆ

@@ -44,7 +44,7 @@
             - name: เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
               href: office-store.md
             - name: ใช้วิชวลแบบกำหนดเองที่ทำงานด้วย R ใน Power BI
-              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
             - name: การโต้ตอบวิชวล
               href: visuals/visuals-interactions.md
             - name: เพิ่มการเลือก
