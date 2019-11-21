@@ -7,15 +7,14 @@ ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: 877d3590fab67f0aed3c3ab6dc9de9a96ade5dc9
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: a36499863346244bb3830e7ba4733045c4ddf8ba
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431472"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128294"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
@@ -27,7 +26,7 @@ ms.locfileid: "73431472"
 |---------|---------|---------|---------|
 | การปรับใช้ | ภายในองค์กร หรือคลาวด์ที่โฮสต์ | ระบบคลาวด์ | สามารถปรับใช้เซิร์ฟเวอร์รายงาน Power BI ใน Azure VMs (คลาวด์ที่โฮสต์) ถ้าได้สิทธิ์การใช้งานผ่านทาง Power BI Premium |
 | ข้อมูลต้นทาง | ระบบคลาวด์ และ/หรือ ภายในองค์กร | ระบบคลาวด์ และ/หรือ ภายในองค์กร |  |
-| สิทธิ์การใช้งาน | Power BI Premium หรือ SQL Server EE with SA | Power BI Pro และ/หรือ Power BI Premium | |  
+| สิทธิ์การใช้งาน | Power BI Premium หรือ SQL Server EE ที่มีการประกันซอฟแวร์ (SA) | Power BI Pro และ/หรือ Power BI Premium | |  
 | วงจรชีวิต | นโยบายวงจรชีวิตสมัยใหม่ | บริการที่มีการจัดการอย่างสมบูรณ์ |  |
 | รอบการเผยแพร่ | สามครั้งต่อปี (มกราคม, พฤษภาคม, กันยายน) | เดือนละครั้ง | คุณลักษณะล่าสุดและการแก้ไข มาที่บริการของ Power BI ก่อน ความสามารถหลักส่วนใหญ่ มาถึงเซิร์ฟเวอร์รายงาน Power BI ในการเผยแพร่ไม่กี่ครั้งถัดไป บางคุณลักษณะมีไว้สำหรับบริการของ Power BI เท่านั้น |
 | สร้างรายงาน Power BI ใน Power BI Desktop | ใช่ | ใช่ |  |
@@ -51,10 +50,10 @@ ms.locfileid: "73431472"
 | โหมดเต็มหน้าจอ | ไม่ใช่ | ใช่ | [โหมดเต็มหน้าจอ](../consumer/end-user-focus.md)ในบริการของ Power BI |
 | ทำงานร่วมกับ Office 365 ขั้นสูง | ไม่ใช่ | ใช่ | [ทำงานร่วมกันในพื้นที่ทำงาน](../service-collaborate-power-bi-workspace.md)ด้วย Office 365 |
 | วิชวล R | ไม่ใช่ | ใช่ | [สร้างการแสดงผลด้วยภาพ R](../desktop-r-visuals.md) ใน Power BI Desktop และเผยแพร่ไปยังบริการของ Power BI คุณไม่สามารถบันทึกรายงาน Power BI กับการแสดงผลด้วยภาพ R ไปยังเซิร์ฟเวอร์รายงาน Power BI ได้  |
-| แสดงตัวอย่างฟีเจอร์ | ไม่ใช่ | ใช่ | [ยินยอมเข้าร่วม สำหรับคุณลักษณะตัวอย่างในบริการของ Power BI](../consumer/end-user-preview-features.md) |
-| วิชวลแบบกำหนดเอง | ใช่ | ใช่ | [วิชวลแบบกำหนดเองใน Power BI](../power-bi-custom-visuals.md) |
+| คุณลักษณะแสดงตัวอย่าง | ไม่ใช่ | ใช่ | [ยินยอมเข้าร่วม สำหรับคุณลักษณะตัวอย่างในบริการของ Power BI](../consumer/end-user-preview-features.md) |
+| วิชวลแบบกำหนดเอง | ใช่ | ใช่ | [วิชวลแบบกำหนดเองใน Power BI](../developer/power-bi-custom-visuals.md) |
 | โมเดลแบบรวม | ไม่ใช่ | ใช่ |
-| Power BI Desktop | เวอร์ชันที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน มีให้ดาวน์โหลดสำหรับเซิร์ฟเวอร์รายงาน | เวอร์ชันที่ปรับให้เหมาะสมสำหรับบริการของ Power BI มีที่ Windows Store | [Power BI Desktop สำหรับเซิร์ฟเวอร์รายงาน](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop สำหรับบริการของ Power BI](http://aka.ms/pbidesktopstore) |
+| Power BI Desktop | เวอร์ชันที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน มีให้ดาวน์โหลดสำหรับเซิร์ฟเวอร์รายงาน | เวอร์ชันที่ปรับให้เหมาะสมสำหรับบริการของ Power BI มีที่ Windows Store | [Power BI Desktop สำหรับเซิร์ฟเวอร์รายงาน](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop สำหรับบริการของ Power BI](https://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

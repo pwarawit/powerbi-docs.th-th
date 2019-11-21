@@ -2,26 +2,25 @@
 title: ชนิดการแสดงภาพใน Power BI
 description: ชนิดการแสดงภาพใน Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72775969"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099938"
 ---
 # <a name="visualization-types-in-power-bi"></a>ชนิดการแสดงภาพใน Power BI
 ## <a name="power-bi-visualizations"></a>การแสดงภาพ Power BI
 เราจะเพิ่มการแสดงภาพใหม่ โปรดติดตามต่อไป!
 
-และดูที่[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) ซึ่งคุณจะพบรายการ[ภาพแบบกำหนดเอง](../power-bi-custom-visuals.md)ที่ขยายเพิ่มขึ้นเรื่อย ๆ คุณสามารถดาวน์โหลดและใช้ในแดชบอร์ดและรายงานของคุณเองได้ รู้สึกมีความคิดสร้างสรรค์? [เรียนรู้วิธีการสร้างและเพิ่มภาพของคุณเองไปยังเว็บไซต์ชุมชนนี้](../developer/office-store.md)  
+และดูที่[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) ซึ่งคุณจะพบรายการ[ภาพแบบกำหนดเอง](../developer/power-bi-custom-visuals.md)ที่ขยายเพิ่มขึ้นเรื่อย ๆ คุณสามารถดาวน์โหลดและใช้ในแดชบอร์ดและรายงานของคุณเองได้ รู้สึกมีความคิดสร้างสรรค์? [เรียนรู้วิธีการสร้างและเพิ่มภาพของคุณเองไปยังเว็บไซต์ชุมชนนี้](../developer/office-store.md)  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>รายการของการแสดงภาพที่พร้อมใช้งานใน Power BI
 การแสดงภาพเหล่านี้ทั้งหมดสามารถถูกเพิ่มลงในรายงาน Power BI ที่ระบุในการถามตอบ และปักหมุดไปยังแดชบอร์ดได้
@@ -226,8 +225,8 @@ ms.locfileid: "72775969"
 
 "***ยอดขายตามรัฐเป็นแผนผังต้นไม้***"
 
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
+![กล่องคำถาม Q&A ที่แสดงชนิดการแสดงผลข้อมูลด้วยภาพตามที่ระบุ](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [การแสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)    
-[อ้างอิงภาพที่ถูกต้องจาก sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[อ้างอิงภาพที่ถูกต้องจาก sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

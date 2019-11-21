@@ -2,7 +2,6 @@
 title: มีอะไรใหม่ในบริการ Power BI
 description: มีอะไรใหม่ในบริการ Power BI
 author: NikhilGaekwad-MSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a6595389a95cbf434bc9deb9f1560f6157910ceb
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: c470eba3998e04fde8c00c619077d5d8db444b42
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060990"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099733"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
 ตรวจสอบหน้านี้สำหรับปัญหาที่ทราบแล้วและคุณลักษณะที่เผยแพร่ล่าสุดในการ**บริการ Power BI** สำหรับข้อมูล "มีอะไรใหม่" ที่เกี่ยวข้อง ดู:
@@ -32,7 +31,7 @@ ms.locfileid: "73060990"
 
 ### <a name="october-2019"></a>ตุลาคม 2019
 * การดำเนินการใหม่ของ Microsoft Flow เพื่อรีเฟรชชุดข้อมูล Power BI
-* [รายการผู้ติดต่อ](https://powerbi.microsoft.com/en-us/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) สำหรับรายงานและแดชบอร์ดในบริการของ Power BI
+* [รายการผู้ติดต่อ](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) สำหรับรายงานและแดชบอร์ดในบริการของ Power BI
 
 ## <a name="previous-months-2019"></a>เดือนก่อนหน้านี้(2019)
 ### <a name="september-2019"></a>กันยายน 2019
@@ -40,7 +39,7 @@ ms.locfileid: "73060990"
 
 ### <a name="august-2019"></a>สิงหาคม 2019
 * การตั้งค่าความจุใหม่สำหรับ Power BI Premium
-* [การสร้างแบรนด์แบบกำหนดเอง](https://powerbi.microsoft.com/en-us/blog/announcing-custom-branding-for-your-organization/) สำหรับองค์กรของคุณ
+* [การสร้างแบรนด์แบบกำหนดเอง](https://powerbi.microsoft.com/blog/announcing-custom-branding-for-your-organization/) สำหรับองค์กรของคุณ
 * การส่งออกข้อมูลสรุปพร้อมสิทธิ์ในการสร้าง
 * สนับสนุนพารามิเตอร์ URL สำหรับ [รายงานที่มีการแบ่งหน้า](paginated-reports-report-builder-power-bi.md)
 * สนับสนุนการสมัครใช้งานแบบรายเดือนผ่านอีเมล 
@@ -49,9 +48,9 @@ ms.locfileid: "73060990"
 * สนับสนุนชุดข้อมูลที่ไม่ใช่ระดับพรีเมียมสำหรับ [รายงานที่มีการแบ่งหน้า](paginated-reports-report-builder-power-bi.md)
 * ความพร้อมใช้งานทั่วไปของ[การรวม](desktop-aggregations.md) Power BI
 * ส่งการแจ้งเตือนรีเฟรชให้กับผู้อื่น
-* [เครื่องมือทดสอบ](https://powerbi.microsoft.com/en-us/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) สำหรับความจุ Power BI Premium
-* การแสดงตัวอย่างทั่วไปของ [การแจ้งเตือนความพร้อมใช้งานของบริการ](https://powerbi.microsoft.com/en-us/blog/power-bi-introduces-service-availability-notifications/)
-* การแสดงตัวอย่างทั่วไปของ [รูปลักษณ์ใหม่](https://powerbi.microsoft.com/en-us/blog/introducing-the-new-look-for-power-bi-service/) สำหรับรายงาน Power BI
+* [เครื่องมือทดสอบ](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) สำหรับความจุ Power BI Premium
+* การแสดงตัวอย่างทั่วไปของ [การแจ้งเตือนความพร้อมใช้งานของบริการ](https://powerbi.microsoft.com/blog/power-bi-introduces-service-availability-notifications/)
+* การแสดงตัวอย่างทั่วไปของ [รูปลักษณ์ใหม่](https://powerbi.microsoft.com/blog/introducing-the-new-look-for-power-bi-service/) สำหรับรายงาน Power BI
 * ภูมิภาคใหม่ของ Power BI ในแอฟริกาใต้
 
 ### <a name="june-2019"></a>มิถุนายน 2019
@@ -65,7 +64,7 @@ ms.locfileid: "73060990"
 ### <a name="may-2019"></a>พฤษภาคม 2019
 * [การนำทางแบบกำหนดเอง](service-create-distribute-apps.md)สำหรับแอป Power BI
 * ประเภทไฟล์แนบเพิ่มเติม (PPTX, XLSX, DOCX, CSV, XML) ที่พร้อมใช้งานสำหรับการสมัครใช้งานอีเมลภายในรายงานที่มีการแบ่งหน้า
-* [การแสดงข้อคิดเห็น](https://powerbi.microsoft.com/en-us/blog/announcing-report-commenting-for-power-bi-service-and-mobile/) สำหรับรายงาน Power BI เกี่ยวกับบริการ
+* [การแสดงข้อคิดเห็น](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/) สำหรับรายงาน Power BI เกี่ยวกับบริการ
 
 ### <a name="april-2019"></a>เมษายน 2019
 * ความพร้อมใช้งานทั่วไปของ[กระแสข้อมูล](service-dataflows-overview.md) Power BI
@@ -74,15 +73,15 @@ ms.locfileid: "73060990"
 * ประสบการณ์ใช้งานการถามตอบที่อัปเดตแล้วสำหรับแดชบอร์ด
 * การสนับสนุนสำหรับ Azure Analysis Services ภายใน[รายงานที่มีการแบ่งหน้า](paginated-reports-report-builder-power-bi.md)
 * แอป Power BI รองรับรายงานที่มีการแบ่งหน้า
-* [การสมัครใช้งานอีเมล](https://powerbi.microsoft.com/en-us/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)ที่มีไฟล์แนบ PDF สำหรับรายงานที่มีการแบ่งหน้า
+* [การสมัครใช้งานอีเมล](https://powerbi.microsoft.com/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)ที่มีไฟล์แนบ PDF สำหรับรายงานที่มีการแบ่งหน้า
 * พอร์ทัลผู้ดูแลระบบรองรับบทสรุปและเมทริกซ์ปริมาณงานของ Power BI Premium
 * [การแคชแบบสอบถาม](power-bi-query-caching.md)สามารถดำเนินการได้ใน Power BI Premium
-* ความพร้อมใช้งานทั่วไปของ[หน้าแรกของ Power BI](https://powerbi.microsoft.com/en-us/blog/announcing-power-bi-home-general-availability-ga-roadmap/)
+* ความพร้อมใช้งานทั่วไปของ[หน้าแรกของ Power BI](https://powerbi.microsoft.com/blog/announcing-power-bi-home-general-availability-ga-roadmap/)
 
 ### <a name="march-2019"></a>มีนาคม 2019
 * ความพร้อมใช้งานทั่วไปของ Multi-Geo สำหรับ Power BI Premium
 * การแก้ไขและจัดการการสนับสนุนเนื้อหา Power BI สำหรับ Azure B2B
-* การแสดงตัวอย่างสาธารณะของ[จุดสิ้นสุด XMLA](https://powerbi.microsoft.com/en-us/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/) แบบอ่านอย่างเดียว
+* การแสดงตัวอย่างสาธารณะของ[จุดสิ้นสุด XMLA](https://powerbi.microsoft.com/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/) แบบอ่านอย่างเดียว
 
 ### <a name="february-2019"></a>กุมภาพันธ์ 2562
 * ปริมาณงานและชุดข้อมูลที่ใช้งานอยู่ขนาดเมตริกใน[แอปควบคุมปริมาตรความจุ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)
@@ -90,20 +89,20 @@ ms.locfileid: "73060990"
 * [การสมัครใช้งานอีเมลแบบตามความต้องการ](service-report-subscribe.md)
 * การดำเนินการจำนวนมากในพอร์ทัลผู้ดูแลระบบ
 * การส่งออกที่กรองแล้วสำหรับ PPT และ PDF
-* [การตั้งค่าการสนับสนุนและความช่วยเหลือ](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/) ในพอร์ทัลผู้ดูแลระบบ
+* [การตั้งค่าการสนับสนุนและความช่วยเหลือ](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/) ในพอร์ทัลผู้ดูแลระบบ
 * ประสบการณ์การติดตามการใช้งานข้อมูลสำหรับ[กระแสข้อมูล](service-dataflows-overview.md)
 * การตั้งค่าการแสดงผลด้วยภาพแบบกำหนดเองที่ได้รับการรับรองใหม่ในพอร์ทัลผู้ดูแลระบบ
 
 ### <a name="january-2019"></a>มกราคม 2019
 * [ฝังรายงาน secure Power BI](service-embed-secure.md)ในพอร์ทัลภายในหรือเว็บไซต์
 * การอัปเดตใน[ตัวแก้ไขdataflows](service-dataflows-overview.md)ด้วยตัวเชื่อมต่อใหม่ และการสนับสนุนสำหรับคำถาม SQL ดั้งเดิมและแปลง Power Query ออนไลน์
-* [bookmarkส่วนบุคคล](https://powerbi.microsoft.com/en-us/blog/announcing-personal-bookmarks-in-the-power-bi-service/)ในการบริการ Power BI
+* [bookmarkส่วนบุคคล](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/)ในการบริการ Power BI
 * การตั้งเวลาตามตารางเวลาด้วยการสมัครสมาชิกอีเมล
 
 ## <a name="2018"></a>2018
 ### <a name="december-2018"></a>ธันวาคม 2018
-* AI-powered[แนะนำแอป](https://powerbi.microsoft.com/en-us/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/)ใน Power BI Home
-* [จัดการพื้นที่ทำงาน](https://powerbi.microsoft.com/en-us/blog/workspace-management-in-the-admin-portal/)ในพอร์ทัลผู้ดูแล
+* AI-powered[แนะนำแอป](https://powerbi.microsoft.com/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/)ใน Power BI Home
+* [จัดการพื้นที่ทำงาน](https://powerbi.microsoft.com/blog/workspace-management-in-the-admin-portal/)ในพอร์ทัลผู้ดูแล
 * แสดงตัวอย่างของ Power BI Dataflows และ Azure Lake เก็บ Gen2 รวมข้อมูลใน[dataflows](service-dataflows-overview.md)
 * เทมเพลตโซลูชันของ power BI จะเปิดแหล่งที่มา
 
@@ -120,8 +119,8 @@ ms.locfileid: "73060990"
 
 ### <a name="september-2018"></a>กันยายน 2018
 * [แสดงข้อคิดเห็นแดชบอร์ด](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/)ในบริการของ Power BI
-* การแสดงตัวอย่างสาธารณะของ[หน้าแรกของ Power BI และการค้นหาทั่วโลก](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search/)
-* ความสามารถในการ[ตรวจสอบแบบสอบถาม](https://powerbi.microsoft.com/en-us/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)ใน[แอปตรวจสอบความจุ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)
+* การแสดงตัวอย่างสาธารณะของ[หน้าแรกของ Power BI และการค้นหาทั่วโลก](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search/)
+* ความสามารถในการ[ตรวจสอบแบบสอบถาม](https://powerbi.microsoft.com/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/)ใน[แอปตรวจสอบความจุ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)
 
 ### <a name="august-2018"></a>สิงหาคม 2018
 * [แอปตรวจสอบความจุ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)สำหรับ Power BI Premium
@@ -145,7 +144,7 @@ ms.locfileid: "73060990"
 * Azure B2B เชิญปรับปรุงเวิร์กโฟลว์สำหรับรายงาน
 
 ### <a name="april-2018"></a>เมษายน 2018
-* [รายงานบทสรุป Power BI เกี่ยวกับการป้องกันข้อมูล](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+* [รายงานบทสรุป Power BI เกี่ยวกับการป้องกันข้อมูล](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * [แฟ้มบันทึกการตรวจสอบ](service-admin-auditing.md) บริการของ Power BI จะเปิดตามค่าเริ่มต้นสำหรับผู้เช่า Office 365
 
 ### <a name="march-2018"></a>มีนาคม 2018
@@ -155,7 +154,7 @@ ms.locfileid: "73060990"
 ### <a name="february-2018"></a>กุมภาพันธ์ 2018
 * ติดตั้ง [Power BI Apps](service-create-distribute-apps.md) โดยอัตโนมัติสำหรับผู้ใช้ปลายทาง
 * ความจุ P4 และ P5 บน Power BI Premium
-* แสดงตัวอย่างของ[ภาพแบบกำหนดเองสำหรับองค์กร](power-bi-custom-visuals-organization.md)
+* แสดงตัวอย่างของ[ภาพแบบกำหนดเองสำหรับองค์กร](developer/power-bi-custom-visuals-organization.md)
 
 ### <a name="january-2018"></a>มกราคม 2018
 *   รายงาน Power BI ที่แชร์และเป็นรายการโปรด
@@ -325,7 +324,6 @@ ms.locfileid: "73060990"
 
 ***องค์กร***
 
-* [ExpressRoute](service-admin-power-bi-expressroute.md): ใช้เพื่อสร้างการเชื่อมต่อส่วนตัวที่มีการจัดการไปยัง Power BI
 * [การสนับสนุนชุดเนื้อหาสำหรับ RLS](service-admin-rls.md) (ตัวอย่าง): หากมีการกำหนด RLS สำหรับแดชบอร์ดและรายงานที่มีการกระจายโดยเป็นส่วนหนึ่งของชุดเนื้อหาหนึ่ง ดังนั้น ระบบจะปฏิบัติตามกฎการรักษาความปลอดภัยสำหรับชุดเนื้อหานั้น
 
 ***แดชบอร์ด***
@@ -437,7 +435,7 @@ ms.locfileid: "73060990"
 
 **6 มกราคม 2016**
 
-ทีม Power BI ได้ทำงานอย่างหนักในช่วงวันหยุด สำหรับรายละเอียดทั้งหมด [เยี่ยมชมบล็อกของทีม Power BI](http://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx)
+ทีม Power BI ได้ทำงานอย่างหนักในช่วงวันหยุด สำหรับรายละเอียดทั้งหมด [เยี่ยมชมบล็อกของทีม Power BI](https://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx)
 
 ***แดชบอร์ด***
 
@@ -472,12 +470,12 @@ ms.locfileid: "73060990"
 * Power BI ในบราซิล
 * สนับสนุนภาษาอาหรับและภาษาฮิบรู
 
-สำหรับรายละเอียดทั้งหมด [เยี่ยมชมบล็อกของทีม Power BI](http://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx)
+สำหรับรายละเอียดทั้งหมด [เยี่ยมชมบล็อกของทีม Power BI](https://blogs.msdn.com/b/powerbi/archive/2016/01/06/power-bi-service-update-0106.aspx)
 
 ## <a name="2015"></a>2015
 **16 ธันวาคม 2015**
 
-มีการอัปเดตค่อนข้างมากในสัปดาห์นี้ ส่วนใหญ่นำไปใช้กับ Power BI Desktop และมีหลายอัปเดตที่สำคัญดำเนินการในเขียนรายงานและการแสดงภาพด้วยเช่นกัน [บล็อกของทีม Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)ประกอบด้วยคำอธิบายแบบเต็มและวิดีโออธิบายอัปเดตต่าง ๆ   
+มีการอัปเดตค่อนข้างมากในสัปดาห์นี้ ส่วนใหญ่นำไปใช้กับ Power BI Desktop และมีหลายอัปเดตที่สำคัญดำเนินการในเขียนรายงานและการแสดงภาพด้วยเช่นกัน [บล็อกของทีม Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)ประกอบด้วยคำอธิบายแบบเต็มและวิดีโออธิบายอัปเดตต่าง ๆ   
 
 [ดาวน์โหลด Power BI Desktop](https://powerbi.microsoft.com/desktop?WT.mc_id=Blog_Desktop_Update)
 
@@ -514,7 +512,7 @@ ms.locfileid: "73060990"
   6. ตัวเชื่อมต่อ ODBC: การสนับสนุนสำหรับการเลือกผู้ใช้/DSN ระบบ
   7. ตัวเชื่อมต่อ CSV: ความสามารถในการระบุตัวคั่นคอลัมน์ในกล่องโต้ตอบแหล่งข้อมูล
 
-สำหรับรายละเอียดทั้งหมด รวมทั้งวิดีโอที่สาธิตการอัปเดตทั้งหลายเหล่านี้ ไปยัง[บล็อก Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)
+สำหรับรายละเอียดทั้งหมด รวมทั้งวิดีโอที่สาธิตการอัปเดตทั้งหลายเหล่านี้ ไปยัง[บล็อก Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)
 
 **10 ธันวาคม 2015**
 
@@ -523,20 +521,20 @@ ms.locfileid: "73060990"
 * ใช้รูปภาพในตัวแบ่งส่วนข้อมูล
 * เปลี่ยนการโต้ตอบระหว่างภาพรายงาน
   
-  สำหรับรายละเอียดทั้งหมด ไปที่[Power BI บล็อก](http://blogs.msdn.com/b/powerbi/archive/2015/12/10/power-bi-weekly-service-update-1210.aspx)
+  สำหรับรายละเอียดทั้งหมด ไปที่[Power BI บล็อก](https://blogs.msdn.com/b/powerbi/archive/2015/12/10/power-bi-weekly-service-update-1210.aspx)
 
 **8 ธันวาคม 2015**
 
-* [รหัส QR ใน Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)
+* [รหัส QR ใน Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)
 
 **3 ธันวาคม 2015**
 
-* ค้นหาแนวโน้มโดยอัตโนมัติและเผยให้เห็นรูปแบบในชุดข้อมูลด้วยข้อมูลเชิงลึกด่วน: [วิดีโอ](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)หรือ[บทความ](consumer/end-user-insights.md)
-* [แสดงภาพข้อมูล VMob ของคุณใน Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
-* [การรวม Ppower BI กับ Cortana](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
-* [แสดงตัวอย่างของเกตเวย์ Power BI สำหรับองค์กร](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
-* การแนะนำชุดเนื้อหาใหม่: [ค้นหาการวิเคราะห์จาก Bing บนแดชบอร์ด Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
-* การเพิ่มประสิทธิภาพใหม่ ๆ ที่นักพัฒนามุ่งเน้น: [API สองแบบใหม่และการลงทะเบียนแอปที่ง่ายขึ้น](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
+* ค้นหาแนวโน้มโดยอัตโนมัติและเผยให้เห็นรูปแบบในชุดข้อมูลด้วยข้อมูลเชิงลึกด่วน: [วิดีโอ](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)หรือ[บทความ](consumer/end-user-insights.md)
+* [แสดงภาพข้อมูล VMob ของคุณใน Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
+* [การรวม Ppower BI กับ Cortana](https://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
+* [แสดงตัวอย่างของเกตเวย์ Power BI สำหรับองค์กร](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
+* การแนะนำชุดเนื้อหาใหม่: [ค้นหาการวิเคราะห์จาก Bing บนแดชบอร์ด Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
+* การเพิ่มประสิทธิภาพใหม่ ๆ ที่นักพัฒนามุ่งเน้น: [API สองแบบใหม่และการลงทะเบียนแอปที่ง่ายขึ้น](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **24 พฤศจิกายน 2015**
 
@@ -548,7 +546,7 @@ ms.locfileid: "73060990"
 * ปรับปรุงประสบการณ์การใช้งานตัวเชื่อมต่อ Google Analytics
 * ปิดบัญชี Power BI ของคุณ
 
-สำหรับรายละเอียดทั้งหมด เยี่ยมชม[Power BI บล็อก](http://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-weekly-service-update-1124.aspx)
+สำหรับรายละเอียดทั้งหมด เยี่ยมชม[Power BI บล็อก](https://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-weekly-service-update-1124.aspx)
 
 **18 พฤศจิกายน 2015**
 
@@ -558,7 +556,7 @@ ms.locfileid: "73060990"
 * ประสบการณ์การใช้งานที่ดียิ่งขึ้นเมื่อเชิญเพื่อนร่วมงานจากองค์กรของคุณไปยังกลุ่ม Power BI
 * ปรับปรุงข้อผิดพลาดสำหรับไทล์
 
-สำหรับรายละเอียดทั้งหมด เยี่ยมชม[Power BI บล็อก](http://blogs.msdn.com/b/powerbi/archive/2015/11/17/power-bi-weekly-service-update-1117.aspx)
+สำหรับรายละเอียดทั้งหมด เยี่ยมชม[Power BI บล็อก](https://blogs.msdn.com/b/powerbi/archive/2015/11/17/power-bi-weekly-service-update-1117.aspx)
 
 **11 พฤศจิกายน 2015**
 
@@ -568,7 +566,7 @@ ms.locfileid: "73060990"
 * สถานะสุขภาพ power BI ในศูนย์การจัดการ Microsoft 365
 * KPI และรูปภาพในตาราง เมทริกซ์ และการ์ด
 
-สำหรับรายละเอียดทั้งหมด เยี่ยมชม[Power BI บล็อก](http://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx)
+สำหรับรายละเอียดทั้งหมด เยี่ยมชม[Power BI บล็อก](https://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx)
 
 **3 พฤศจิกายน 2015**
 
@@ -576,16 +574,16 @@ ms.locfileid: "73060990"
 * แต่ละบุคคลสามารถซื้อ Power BI Pro ได้
 * หน้ารายงานซ้ำ
 
-สำหรับรายละเอียดทั้งหมด เยี่ยมชม[Power BI บล็อก](http://blogs.msdn.com/b/powerbi/archive/2015/11/03/power-bi-weekly-service-update-1103.aspx)
+สำหรับรายละเอียดทั้งหมด เยี่ยมชม[Power BI บล็อก](https://blogs.msdn.com/b/powerbi/archive/2015/11/03/power-bi-weekly-service-update-1103.aspx)
 
 **28 ตุลาคม 2015**
 
 * แชร์แดชบอร์ดกับกลุ่มความปลอดภัย Active Directory
 * ตัวเลือกบุคคล
 * แชร์ไปยังที่อยู่อีเมลจำนวนมาก
-* ย่อแผงนำทางผ่าน URL ที่เป็นพารามิเตอร์
+* ยุบบานหน้าต่างนำทางผ่าน URL ที่มีการกำหนดพารามิเตอร์
 
-สำหรับรายละเอียดทั้งหมด เยี่ยมชม[Power BI บล็อก](http://blogs.msdn.com/b/powerbi/archive/2015/10/28/power-bi-weekly-service-update-1027.aspx)
+สำหรับรายละเอียดทั้งหมด เยี่ยมชม[Power BI บล็อก](https://blogs.msdn.com/b/powerbi/archive/2015/10/28/power-bi-weekly-service-update-1027.aspx)
 
 **20 ตุลาคม 2015**
 
@@ -593,7 +591,7 @@ ms.locfileid: "73060990"
 * คำถามที่น่าสนใจในการถามตอบ
 * โหมดแบบปรากฏขึ้นเต็มหน้าจอสำหรับการแสดงภาพรายงาน
 
-สำหรับรายละเอียดทั้งหมด เยี่ยมชม[Power BI บล็อก](http://blogs.msdn.com/b/powerbi/archive/2015/10/20/power-bi-weekly-service-update-1020.aspx)
+สำหรับรายละเอียดทั้งหมด เยี่ยมชม[Power BI บล็อก](https://blogs.msdn.com/b/powerbi/archive/2015/10/20/power-bi-weekly-service-update-1020.aspx)
 
 **13 ตุลาคม 2015**
 
@@ -604,7 +602,7 @@ ms.locfileid: "73060990"
 * ความสามารถในการดูแหล่งข้อมูลสำหรับแต่ละไทล์
 * Planview Enterprise เป็นพอร์ตจากต้นจนจบและเป็นโซลูชันการจัดการทรัพยากรที่เชื่อมต่อกลยุทธ์เข้ากับการดำเนินการ ปรับปรุงความสามารถในการตัดสินใจของทั่วทั้งองค์กร ชุดเนื้อหา Planview Enterprise สำหรับ Power BI ช่วยให้คุณสามารถมองเห็นภาพทรัพยากรของคุณ และทำงานเพื่อจัดการข้อมูลในวิธีการใหม่ทั้งกระบวนการ เพียงแค่ลงชื่อเข้าใช้ด้วยข้อมูลประจำตัวของคุณ และเริ่มต้นสำรวจเงินลงทุนในพอร์ตของคุณไปพร้อมกับการโต้ตอบ สถานะงบประมาณ และเพื่อดูว่าโครงการของคุณสอดคล้องกับระดับความสำคัญเชิงกลยุทธ์มากน้อยเพียงใด
 
-ดู[บล็อก](http://blogs.msdn.com/b/powerbi/archive/2015/10/13/power-bi-weekly-service-update-1013.aspx)และ[เอกสารประกอบออนไลน์](service-get-started.md)ของเราเพื่อเรียนรู้เพิ่มเติม
+ดู[บล็อก](https://blogs.msdn.com/b/powerbi/archive/2015/10/13/power-bi-weekly-service-update-1013.aspx)และ[เอกสารประกอบออนไลน์](service-get-started.md)ของเราเพื่อเรียนรู้เพิ่มเติม
 
 **6 ตุลาคม 2015**
 
@@ -613,17 +611,17 @@ ms.locfileid: "73060990"
 * เราได้เพิ่มตัวเลือกในการปิดการแจ้งเตือนทางอีเมลเมื่อคุณแชร์แดชบอร์ดแล้ว เพียงแค่ยกเลิกเลือกกล่องข้อความ "ส่งอีเมลแจ้งเตือนไปยังผู้รับ" ในกล่องโต้ตอบแชร์ Power BI คุณจะเห็น URL หนึ่ง ให้คัดลอกและแชร์ URL นี้กับเพื่อนร่วมงานของคุณเพื่อให้พวกเขาสามารถเข้าถึงแดชบอร์ดได้
 * Microsoft Dynamics NAV คือ โซลูชันการจัดการธุรกิจสำหรับองค์กรขนาดเล็กและขนาดกลาง โดยนำเสนอลูกค้าด้วยโซลูชันสำหรับธุรกิจแบบเต็มรูปแบบด้วยการควบคุมกระบวนการทางการเงินและทางธุรกิจของตนได้ดียิ่งกว่า ชุดเนื้อหา Power BI ให้ผู้ใช้ได้รายงานที่ใช้ได้ทันทีสำหรับผู้ใช้ Dynamics NAV เช่น ยอดขายและกำไร ช่องทางสำหรับโอกาส การทำกำไร และอื่น ๆ เมตริกเหล่านี้จะจัดระเบียบบนแดชบอร์ดที่สามารถกำหนดเองได้เต็มที่ ช่วยให้คุณสามารถเชื่อมต่อได้อย่างง่ายดายและเริ่มการสำรวจข้อมูลของคุณทันที
 
-ลองดู[บล็อก](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-service-weekly-update-10-06.aspx)และ[เอกสารประกอบออนไลน์](service-get-started.md)สำหรับข้อมูลเพิ่มเติม
+ลองดู[บล็อก](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-service-weekly-update-10-06.aspx)และ[เอกสารประกอบออนไลน์](service-get-started.md)สำหรับข้อมูลเพิ่มเติม
 
 **29 กันยายน 2015**
 
 * ด้วยอัปเดตบริการของสัปดาห์นี้ เมื่อสร้างรายงานใหม่ คุณสามารถเลือกจากหลายขนาดหน้ากระดาษได้ รวมถึงกำหนดขนาดหน้าของคุณเองได้ ซึ่งจะควบคุมขนาดและอัตราส่วนกว้างยาวของแต่ละหน้าในรายงาน
 * เราได้เพิ่มการสนับสนุนการจัดรูปแบบภาพเพิ่มเติมสำหรับรูปภาพและแผนภูมิฟอง คุณสามารถล็อกอัตราได้ขณะที่ปรับขนาดรูปภาพเพื่อหลีกเลี่ยงความบิดเบี้ยวของรูปภาพ ส่วนแผนภูมิกระจายและแผนภูมิฟองคุณสามารถกำหนดค่าที่จะเติมหรือไม่ก็ได้
 * วันนี้ Power BI จะส่งคำเชิญการแชร์ร่วมกันไปยังที่อยู่อีเมลสำรอง เมื่อมีการแชร์แดชบอร์ดกับคุณ เราจะส่งลิงก์เชิญการแชร์ไปยังทั้งที่อยู่อีเมต้นฉบับของคุณและไปยังที่อยู่อีเมลสำรองของคุณ (ถ้าคุณมีการกำหนดค่าไว้)
-* Power BI จะพร้อมใช้งานสำหรับลูกค้าทั้งหมดรวมทั้งลูกค้าที่ใช้งาอยู่บนสถาปัตยกรรม Dedicated on Multitenant (DonMT) O365 คุณจะใช้ Power BI เป็นบริการที่ใช้ร่วมกันในโหมดหลายผู้เช่า ในกรณีส่วนใหญ่ คุณสามารถลงทะเบียนสำหรับ Power BI โดยทำตามอย่างง่าย ๆ[กระบวนการสมัครใช้บริการด้วยตนเอง](https://powerbi.microsoft.com/) เพียงแค่ใส่ที่อยู่อีเมลที่ทำงานของคุณ จากนั้นใส่ชื่อและรหัสผ่านเพื่อเริ่มต้นใช้งาน ถ้าคุณเป็นผู้ดูแลระบบผู้เช่า คุณสามารถกำหนดสิทธิ์การใช้งานให้ผู้ใช้ของคุณโดยใช้คำแนะนำ[ที่นี่](http://go.microsoft.com/fwlink/?LinkId=627174)ได้
-* บันทึกการตรวจสอบ Azure ช่วยให้คุณสามารถดูบันทึกการดำเนินงานเพลนตัวควบคุมในการสมัครใช้งาน Azure ชุดเนื้อหาบันทึกการตรวจสอบ Azure ของ Power BI สามารถช่วยให้คุณวิเคราะห์และแสดงภาพข้อมูลที่มีอยู่จำนวนมากมายที่อยู่ในบันทึกเหล่านี้ได้อย่างง่ายดาย ชุดเนื้อหานี้ช่วยให้คุณสามารถเชื่อมต่อกับข้อมูลของคุณ และเริ่มการค้นพบข้อมูลเชิงลึกด้วยแดชบอร์ดและรายงานที่ใช้ได้ทันที อ่าน[บล็อก](http://blogs.msdn.com/b/powerbi/archive/2015/09/30/monitor-azure-audit-logs-with-power-bi.aspx)และ[เอกสารประกอบออนไลน์](service-connect-to-azure-audit-logs.md)ของเราสำหรับข้อมูลเพิ่มเติม
+* Power BI จะพร้อมใช้งานสำหรับลูกค้าทั้งหมดรวมทั้งลูกค้าที่ใช้งาอยู่บนสถาปัตยกรรม Dedicated on Multitenant (DonMT) O365 คุณจะใช้ Power BI เป็นบริการที่ใช้ร่วมกันในโหมดหลายผู้เช่า ในกรณีส่วนใหญ่ คุณสามารถลงทะเบียนสำหรับ Power BI โดยทำตามอย่างง่าย ๆ[กระบวนการสมัครใช้บริการด้วยตนเอง](https://powerbi.microsoft.com/) เพียงแค่ใส่ที่อยู่อีเมลที่ทำงานของคุณ จากนั้นใส่ชื่อและรหัสผ่านเพื่อเริ่มต้นใช้งาน ถ้าคุณเป็นผู้ดูแลระบบผู้เช่า คุณสามารถกำหนดสิทธิ์การใช้งานให้ผู้ใช้ของคุณโดยใช้คำแนะนำ[ที่นี่](https://go.microsoft.com/fwlink/?LinkId=627174)ได้
+* บันทึกการตรวจสอบ Azure ช่วยให้คุณสามารถดูบันทึกการดำเนินงานเพลนตัวควบคุมในการสมัครใช้งาน Azure ชุดเนื้อหาบันทึกการตรวจสอบ Azure ของ Power BI สามารถช่วยให้คุณวิเคราะห์และแสดงภาพข้อมูลที่มีอยู่จำนวนมากมายที่อยู่ในบันทึกเหล่านี้ได้อย่างง่ายดาย ชุดเนื้อหานี้ช่วยให้คุณสามารถเชื่อมต่อกับข้อมูลของคุณ และเริ่มการค้นพบข้อมูลเชิงลึกด้วยแดชบอร์ดและรายงานที่ใช้ได้ทันที อ่าน[บล็อก](https://blogs.msdn.com/b/powerbi/archive/2015/09/30/monitor-azure-audit-logs-with-power-bi.aspx)และ[เอกสารประกอบออนไลน์](service-connect-to-azure-audit-logs.md)ของเราสำหรับข้อมูลเพิ่มเติม
 
-[เรียนรู้เพิ่มเติมในบล็อกของเรา](http://blogs.msdn.com/b/powerbi/archive/2015/09/30/power-bi-weekly-service-update-0929.aspx)
+[เรียนรู้เพิ่มเติมในบล็อกของเรา](https://blogs.msdn.com/b/powerbi/archive/2015/09/30/power-bi-weekly-service-update-0929.aspx)
 
 **22 กันยายน 2015**
 
@@ -632,46 +630,46 @@ ms.locfileid: "73060990"
 * เราได้เพิ่ม 5 [ตัวอย่างที่เกี่ยวข้องกับอุตสาหกรรม](sample-datasets.md)เพิ่มเติมไปยัง Power BI: ความสามารถในการทำกำไรสำหรับลูกค้า ทรัพยากรบุคคล การวิเคราะห์โอกาส การวิเคราะห์ด้านการจัดซื้อ และตัวอย่างการขายและการตลาด
 * Stripe คือแพลตฟอร์การชำระเงินขั้นสูงสำหรับธุรกิจแบบออนไลน์ ตั้งแต่บริษัทสตาร์ทอัพไปจนถึง Fortune 500 ธุรกิจหลายพันธุรกิจใช้ Stripe รับการชำระเงินกว่า 130 สกุลเงินจากทั่วทุกมุมโลก ด้วยการเชื่อมต่อ Power BI กับบัญชี Stripe ปัจจุบันของ คุณจะสามารถ[ใช้ชุดเนื้อหา Power BI Stripe เพื่อตรวจติดตาม สำรวจ และดูกิจกรรม Stripe ของคุณได้](service-connect-to-stripe.md)
 
-[เรียนรู้เพิ่มเติมในบล็อกของเรา](http://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx)
+[เรียนรู้เพิ่มเติมในบล็อกของเรา](https://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx)
 
 **15 กันยายน 2015**
 
 * ตอนนี้คุณสามารถเลือกแดชบอร์ดที่คุณต้องการปักหมุดภาพของคุณลงไปได้แล้ว! คุณสามารถเลือกแดชบอร์ดเป้าหมายจากแดชบอร์ดที่มีอยู่ของคุณ หรือสร้างแดชบอร์ดใหม่ขึ้นมาและปักหมุดภาพลงไปได้ในหนึ่งครั้ง
 * นอกจากนี้ คุณสามารถควบคุมสีภาพของคุณในแดชบอร์ด ถ้ารายงานของคุณใช้ธีมที่แตกต่างจากธีมแดชบอร์ด คุณสามารถควบคุมได้ว่าภาพของคุณยังคงใช้ธีมปัจจุบันหรือไม่ หรือใช้ธีมแดชบอร์ดตามค่าเริ่มต้นเพื่อให้สอดคล้องกันในทุกภาพจากแหล่งข้อมูลต่าง ๆ
 * ตอนนี้คุณเพียงแค่ปักหมุดไทล์จากแดชบอร์ดหนึ่งไปยังอีกแดชบอร์ดเช่นเดียวกับที่คุณปักหมุดภาพรายงานไปยังแดชบอร์ด
-* ถ้าระยะเวลาการทดลองใช้ 60 วันสำหรับ Power BI Pro ของคุณใกล้หมดเวลา คุณสามารถ[ติดต่อเรา](http://go.microsoft.com/fwlink/?LinkID=624573&clcid=0x409now)เพื่อขอส่วนขยายการทดลองใช้ของคุณได้ ถ้าได้รับการอนุมัติ เวอร์ชันทดลองใช้ของคุณอาจขยายเวลาเพิ่มเป็น 60 วัน
-* comScore Digital Analytix เป็นโซลูชันออนไลน์ที่ให้ข้อมูลเชิงลึกกับผู้ใช้ของคุณตามการวิเคราะห์ข้อมูลประชากรและผู้ชมที่ดีสุด ด้วยชุดเนื้อหา comScore Power BI คุณสามารถเชื่อมต่อได้อย่างรวดเร็วและเริ่มรับข้อมูลเชิงลึกข้อมูลไปในข้อมูลการวิเคราะห์บนเว็บของคุณได้ ชุดเนื้อหานี้รวมถึงแดชบอร์ดที่ใช้ได้ทันที ชุดของรายงาน และชุดข้อมูลที่รวบรวมเพื่อช่วยให้คุณสำรวจและเจาะลึกข้อมูลของคุณได้ เรียนรู้เพิ่มเติมเกี่ยวกับชุดเนื้อหาในของเรา[บล็อก](http://blogs.msdn.com/b/powerbi/archive/2015/09/16/visualize-and-explore-your-comscore-data-with-power-bi.aspx)และ[หัวข้อวิธีใช้](service-connect-to-connect-to.md) 
+* ถ้าระยะเวลาการทดลองใช้ 60 วันสำหรับ Power BI Pro ของคุณใกล้หมดเวลา คุณสามารถ[ติดต่อเรา](https://go.microsoft.com/fwlink/?LinkID=624573&clcid=0x409now)เพื่อขอส่วนขยายการทดลองใช้ของคุณได้ ถ้าได้รับการอนุมัติ เวอร์ชันทดลองใช้ของคุณอาจขยายเวลาเพิ่มเป็น 60 วัน
+* comScore Digital Analytix เป็นโซลูชันออนไลน์ที่ให้ข้อมูลเชิงลึกกับผู้ใช้ของคุณตามการวิเคราะห์ข้อมูลประชากรและผู้ชมที่ดีสุด ด้วยชุดเนื้อหา comScore Power BI คุณสามารถเชื่อมต่อได้อย่างรวดเร็วและเริ่มรับข้อมูลเชิงลึกข้อมูลไปในข้อมูลการวิเคราะห์บนเว็บของคุณได้ ชุดเนื้อหานี้รวมถึงแดชบอร์ดที่ใช้ได้ทันที ชุดของรายงาน และชุดข้อมูลที่รวบรวมเพื่อช่วยให้คุณสำรวจและเจาะลึกข้อมูลของคุณได้ เรียนรู้เพิ่มเติมเกี่ยวกับชุดเนื้อหาในของเรา[บล็อก](https://blogs.msdn.com/b/powerbi/archive/2015/09/16/visualize-and-explore-your-comscore-data-with-power-bi.aspx)และ[หัวข้อวิธีใช้](service-connect-to-connect-to.md) 
 
 **8 กันยายน 2015**
 
 * ไฮเปอร์ลิงก์ที่เข้าใจง่ายในตอนนี้ช่วยให้คุณมีลิงก์สำหรับผู้ใช้ของคุณโดยไม่จำเป็นต้องมีการแสดงทั้ง URL ในกล่องข้อความ
 * ได้เพิ่มการสนับสนุนการเจาะลึกเพื่อดูรายละเอียดลงในรายงาน Power BI คุณสามารถสร้างเส้นทางดูรายละเอียดที่ช่วยให้ผู้ใช้สามารถนำทางจากระดับหนึ่งของข้อมูลไปยังข้อมูลที่เกี่ยวข้องได้
 * ได้มีการเพิ่มตัวอย่างใหม่ที่เกี่ยวข้องกับอุตสาหกรรม่สองตัวอย่าง นั่นคือ การวิเคราะห์การใช้จ่าย และการวิเคราะห์คุณภาพผู้ขาย ใต้หัวข้อตัวอย่างของประสบการณ์การรับข้อมูล ตัวอย่างเหล่านี้เป็นตัวอย่างที่ยอดเยี่ยมสำหรับวิธีการที่คุณสามารถใช้ข้อมูลของคุณเพื่อสร้างรายงานข้อมูลเชิงลึกและแดชบอร์ด
-* เรามีชุดเนื้อหาใหม่สำหรับ tyGraph ซึ่งช่วยให้คุณรับข้อมูลเชิงลึกยิ่งขึ้นลงในข้อมูล Yammer ของคุณได้อย่างง่ายดาย ชุดเนื้อหารวมถึง แดชบอร์ด ชุดรายงาน และชุดข้อมูลที่รวบรวมไว้เพื่อการสำรวจและให้ข้อมูลเชิงลึก เช่น การวัดความมุ่งมั่นในการทำงาน (Measure of Active Engagement: The MAE Score) และเมตริกการใช้งานเนื้อหา เช่น มุมมองไฟล์และการดาวน์โหลดไฟล์ เรียนรู้เพิ่มเติมใน[บล็อก](http://blogs.msdn.com/b/powerbi/archive/2015/09/09/analyze-and-monitor-your-tygraph-data-with-power-bi.aspx)และ[หัวข้อวิธีใช้](service-connect-to-tygraph.md)ของเรา
+* เรามีชุดเนื้อหาใหม่สำหรับ tyGraph ซึ่งช่วยให้คุณรับข้อมูลเชิงลึกยิ่งขึ้นลงในข้อมูล Yammer ของคุณได้อย่างง่ายดาย ชุดเนื้อหารวมถึง แดชบอร์ด ชุดรายงาน และชุดข้อมูลที่รวบรวมไว้เพื่อการสำรวจและให้ข้อมูลเชิงลึก เช่น การวัดความมุ่งมั่นในการทำงาน (Measure of Active Engagement: The MAE Score) และเมตริกการใช้งานเนื้อหา เช่น มุมมองไฟล์และการดาวน์โหลดไฟล์ เรียนรู้เพิ่มเติมใน[บล็อก](https://blogs.msdn.com/b/powerbi/archive/2015/09/09/analyze-and-monitor-your-tygraph-data-with-power-bi.aspx)และ[หัวข้อวิธีใช้](service-connect-to-tygraph.md)ของเรา
 
 **1 กันยายน 2015**
 
-* Webtrends ช่วยให้บริษัทต่าง ๆ เข้าใจข้อมูลของลูกค้าของตนเพื่อขับเคลื่อนความสำเร็จทางการตลาดดิจิทัล ผู้ใช้มีความสามารถในการสังเกต วิเคราะห์ และนำเสนอข้อมูลเชิงลึกในเส้นทางผู้เยี่ยมชมผ่านทางเว็บ สังคมออนไลน์ อุปกรณ์เคลื่อนที่ และช่องทาง SharePoint ด้วยการวางจำหน่าย[ชุดเนื้อหา Webtrends](http://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx) ผู้ใช้จะสามารถใช้ Power BI เพื่อตรวจติดตาม วิเคราะห์ และแสดงผลข้อมูลการวิเคราะห์ Webtrends ของตนได้ [หน้าความช่วยเหลือ](service-connect-to-webtrends.md)ชุดเนื้อหา Webtrends สำหรับ Power BI มีข้อมูลเพิ่มเติม
+* Webtrends ช่วยให้บริษัทต่าง ๆ เข้าใจข้อมูลของลูกค้าของตนเพื่อขับเคลื่อนความสำเร็จทางการตลาดดิจิทัล ผู้ใช้มีความสามารถในการสังเกต วิเคราะห์ และนำเสนอข้อมูลเชิงลึกในเส้นทางผู้เยี่ยมชมผ่านทางเว็บ สังคมออนไลน์ อุปกรณ์เคลื่อนที่ และช่องทาง SharePoint ด้วยการวางจำหน่าย[ชุดเนื้อหา Webtrends](https://blogs.msdn.com/b/powerbi/archive/2015/09/01/visualize-and-explore-your-webtrends-data-in-power-bi.aspx) ผู้ใช้จะสามารถใช้ Power BI เพื่อตรวจติดตาม วิเคราะห์ และแสดงผลข้อมูลการวิเคราะห์ Webtrends ของตนได้ [หน้าความช่วยเหลือ](service-connect-to-webtrends.md)ชุดเนื้อหา Webtrends สำหรับ Power BI มีข้อมูลเพิ่มเติม
 * การใช้งานถามตอบทำได้ง่ายยิ่งขึ้น ณ เวลาที่คุณวางเคอร์เซอร์ของคุณภายในกล่องข้อความถามตอบ เราแสดงรายการของคำถามและเมตริกหลักที่เกี่ยวข้องกับข้อมูลของคุณในทันที  ในเมนูแบบเลื่อนลง ตามค่าเริ่มต้นคุณจะเห็นคำถามสำหรับไทล์ที่ปักหมุดกับแดชบอร์ดแล้ว รวมถึงรายการสำหรับแต่ละตารางที่คุณมีในชุดข้อมูลของคุณ
 * ขนาดพื้นที่ทำงานแบบไดนามิกเราแสดงตามค่าเริ่มต้น โดยแสดงรายการรายงานทั้งหมดของเราด้วยขนาดที่เหมาะสมสำหรับขนาดหน้าต่างเบราว์เซอร์ ถ้าคุณต้องการล็อกในอัตราส่วนกว้างยาว หรือต้องการให้พอดีกับรายงานของคุณ ด้วยวิธีอื่น ขณะนี้เราสนับสนุนอีกสามตัวเลือกสำหรับคุณ: จัดพอดีกับหน้า จัดพอดีกับความกว้าง และขนาดตามจริง
 * นอกจากนี้ เรายังเพิ่มขีดจำกัดจำนวนชุดข้อมูลและรายงานที่คุณสามารถมีได้ ตอนนี้คุณสามารถมีได้สูงสุด 200 ชุดข้อมูลและ 200 รายงานสำหรับแต่ละชุดข้อมูลในบัญชี Power BI ของคุณ
 
 **18 สิงหาคม 2015**
 
-* Azure Mobile Engagement เป็นบริการวิเคราะห์แอปฯที่ช่วยให้นักพัฒนาติดตามประสิทธิภาพการทำงานของแอปพลิเคชันของตน ช่วยให้สามารถเพิ่มการสงวนและการใช้งานแอปฯ การใช้[ชุดเนื้อหา Power BI Azure Mobile Engagement](http://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx) คุณสามารถเชื่อมต่อกับแดชบอร์ดแบบใช้งานทันที ชุดรายงาน และชุดข้อมูลที่รวบรวมได้อย่างรวดเร็ว และรับข้อมูลเชิงลึกสำหรับประสิทธิภาพการทำงานของแอปฯของคุณได้ทันที สำหรับข้อมูลเพิ่มเติม โปรดดู[ชุดเนื้อหา Azure Mobile Engagement สำหรับหน้าวิธีใช้ Power BI](service-connect-to-azure-mobile.md)
+* Azure Mobile Engagement เป็นบริการวิเคราะห์แอปฯที่ช่วยให้นักพัฒนาติดตามประสิทธิภาพการทำงานของแอปพลิเคชันของตน ช่วยให้สามารถเพิ่มการสงวนและการใช้งานแอปฯ การใช้[ชุดเนื้อหา Power BI Azure Mobile Engagement](https://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx) คุณสามารถเชื่อมต่อกับแดชบอร์ดแบบใช้งานทันที ชุดรายงาน และชุดข้อมูลที่รวบรวมได้อย่างรวดเร็ว และรับข้อมูลเชิงลึกสำหรับประสิทธิภาพการทำงานของแอปฯของคุณได้ทันที สำหรับข้อมูลเพิ่มเติม โปรดดู[ชุดเนื้อหา Azure Mobile Engagement สำหรับหน้าวิธีใช้ Power BI](service-connect-to-azure-mobile.md)
 
 **11 สิงหาคม 2015**
 
-* Mandrill เป็นบริการโครงสร้างพื้นฐานอีเมลทีี่พัฒนาขึ้นโดย MailChimp ที่ช่วยให้คุณวิเคราะห์แคมเปญอีเมลของคุณจากข้อมูลที่หลากหลายได้ ด้วย[ชุดเนื้อหา Power BI Mandrill](http://blogs.msdn.com/b/powerbi/archive/2015/08/12/explore-and-analyze-your-mandrill-data-in-power-bi.aspx) คุณสามารถเชื่อมต่อกับข้อมูล Mandrill ของคุณได้อย่างรวดเร็ว และรับข้อมูลเชิงลึกสู่จดหมายข่าวของคุณหรือแคมเปญการตลาดของคุณได้ทันที สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการเริ่มต้นใช้งาน โปรดดู[หน้าวิธีใช้ชุดเนื้อหา Mandrill สำหรับ Power BI](service-connect-to-mandrill.md)
+* Mandrill เป็นบริการโครงสร้างพื้นฐานอีเมลทีี่พัฒนาขึ้นโดย MailChimp ที่ช่วยให้คุณวิเคราะห์แคมเปญอีเมลของคุณจากข้อมูลที่หลากหลายได้ ด้วย[ชุดเนื้อหา Power BI Mandrill](https://blogs.msdn.com/b/powerbi/archive/2015/08/12/explore-and-analyze-your-mandrill-data-in-power-bi.aspx) คุณสามารถเชื่อมต่อกับข้อมูล Mandrill ของคุณได้อย่างรวดเร็ว และรับข้อมูลเชิงลึกสู่จดหมายข่าวของคุณหรือแคมเปญการตลาดของคุณได้ทันที สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการเริ่มต้นใช้งาน โปรดดู[หน้าวิธีใช้ชุดเนื้อหา Mandrill สำหรับ Power BI](service-connect-to-mandrill.md)
 
 **4 สิงหาคม 2015**
 
-* ตอนนี้ Power BI นำเสนอ [Circuit ID](http://blogs.msdn.com/b/powerbi/archive/2015/08/04/circuit-id-data-with-power-bi.aspx)สำหรับผู้ใช้เพื่อให้มีความสามารถในการติดตามและตรวจสอบ Circuit ID บริการระบบคลาวด์สำหรับการติดต่อสื่อสารทั้งหมด ซึ่งช่วยเพิ่มศักยภาพให้ผู้ใช้สามารถทำการตัดสินใจทางธุรกิจที่ถูกต้อง สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการเริ่มต้นใช้งาน โปรดดูหน้าความช่วยเหลือชุดเนื้อหา Circuit ID สำหรับ[ Power BI](service-connect-to-circuit-id.md)
-* วันนี้เราได้เผยแพร่การปรับปรุงคุณลักษณะการแชร์แดชบอร์ดที่ง่ายต่อการใช้งานยิ่งขึ้น  ถ้าองค์กรของคุณใช้ Office 365 สำหรับอีเมล ขณะนี้คุณสามารถ[แชร์กับกลุ่มการกระจายอีเมล](http://blogs.msdn.com/b/powerbi/archive/2015/08/04/easier-dashboard-sharing-with-distribution-groups.aspx)ได้ด้วยวิธีเดียวกันกับที่ีคุณจะส่งอีเมลใน Outlook  เพียงแค่ใส่ที่อยู่ของกลุ่มการกระจายและคลิกแชร์  สมาชิกทั้งหมดของกลุ่มการกระจายจะได้รับอีเมลเชิญให้เข้าดูแดชบอร์ด
+* ตอนนี้ Power BI นำเสนอ [Circuit ID](https://blogs.msdn.com/b/powerbi/archive/2015/08/04/circuit-id-data-with-power-bi.aspx)สำหรับผู้ใช้เพื่อให้มีความสามารถในการติดตามและตรวจสอบ Circuit ID บริการระบบคลาวด์สำหรับการติดต่อสื่อสารทั้งหมด ซึ่งช่วยเพิ่มศักยภาพให้ผู้ใช้สามารถทำการตัดสินใจทางธุรกิจที่ถูกต้อง สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการเริ่มต้นใช้งาน โปรดดูหน้าความช่วยเหลือชุดเนื้อหา Circuit ID สำหรับ[ Power BI](service-connect-to-circuit-id.md)
+* วันนี้เราได้เผยแพร่การปรับปรุงคุณลักษณะการแชร์แดชบอร์ดที่ง่ายต่อการใช้งานยิ่งขึ้น  ถ้าองค์กรของคุณใช้ Office 365 สำหรับอีเมล ขณะนี้คุณสามารถ[แชร์กับกลุ่มการกระจายอีเมล](https://blogs.msdn.com/b/powerbi/archive/2015/08/04/easier-dashboard-sharing-with-distribution-groups.aspx)ได้ด้วยวิธีเดียวกันกับที่ีคุณจะส่งอีเมลใน Outlook  เพียงแค่ใส่ที่อยู่ของกลุ่มการกระจายและคลิกแชร์  สมาชิกทั้งหมดของกลุ่มการกระจายจะได้รับอีเมลเชิญให้เข้าดูแดชบอร์ด
 
 **28 กรกฎาคม 2015**
 
-* เรารู้สึกตื่นเต้นที่จะประกาศการอัปเดตไปยัง Power BI ในสัปดาห์นี้ ที่ตอนนี้ Power BI นำเสนอการติดตามประสิทธิภาพของฐานข้อมูลด้วย[ชุดเนื้อหา SQL Sentry](http://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx) ชุดเนื้อหานี้รวมถึงแดชบอร์ดและรายงานซึ่งช่วยคุณตรวจสอบการปรับใช้ SQL Server ที่คุณติดตามโดยใช้ SQL Sentry Cloud สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการเริ่มต้นใช้งาน โปรดดู[หน้าความช่วยเหลือ](service-connect-to-sql-sentry.md)ชุดเนื้อหา SQL Sentry สำหรับ Power BI
+* เรารู้สึกตื่นเต้นที่จะประกาศการอัปเดตไปยัง Power BI ในสัปดาห์นี้ ที่ตอนนี้ Power BI นำเสนอการติดตามประสิทธิภาพของฐานข้อมูลด้วย[ชุดเนื้อหา SQL Sentry](https://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx) ชุดเนื้อหานี้รวมถึงแดชบอร์ดและรายงานซึ่งช่วยคุณตรวจสอบการปรับใช้ SQL Server ที่คุณติดตามโดยใช้ SQL Sentry Cloud สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการเริ่มต้นใช้งาน โปรดดู[หน้าความช่วยเหลือ](service-connect-to-sql-sentry.md)ชุดเนื้อหา SQL Sentry สำหรับ Power BI
 
 **24 กรกฎาคม 2015**
 
@@ -682,47 +680,47 @@ ms.locfileid: "73060990"
 * [นำเข้าไฟล์ Excel ทั้งหมด](service-excel-workbook-files.md): คุณสามารถนำเข้าเวิร์กบุ๊ก Excel ใด ๆ ที่จัดเก็บบน OneDrive for Business ลงใน Power BI และดูทั้งเวิร์กบุ๊กได้ เหมือนกับที่คุณดำเนินการใน Excel Online
 * [นำไฟล์ CSV เข้ามา](service-get-data-from-files.md): เช่นเดียวกับไฟล์ Excel หรือไฟล์ Power BI Desktop ไฟล์ข้อความค่าที่คั่นด้วยเครื่องหมายจุลภาค (CSV) ยังเป็นชุดข้อมูลสำหรับแดชบอร์ด Power BI และรายงานของคุณได้
 * แทนที่ไฟล์ Excel, Power BI Desktop และ CSV: คุณสามารถอัปโหลดไฟล์เวอร์ชั่นที่อัปเดตแล้วไปยัง Power BI ได้ และไฟล์นั้นจะแทนที่ชุดข้อมูลที่มีอยู่ในปัจจุบัน รายงานและแดชบอร์ดทั้งหมดที่เชื่อมต่อกับชุดข้อมูลนี้ ขณะนี้ใช้เวอร์ชันใหม่โดยอัตโนมัติทั้งหมด
-* เรารู้สึกตื่นเต้นอย่างยิ่งที่จะประกาศเกี่ยวกับการอัปเดตไปยัง Power BI ในสัปดาห์นี้ โดยที่ตอนนี้ Power BI เสนอการติดตามรายการที่ทำงานใน[ชุดเนื้อหา Visual Studio Online](http://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx) อัปเดตนี้รวมถึงแดชบอร์ดใหม่ รายงาน และชุดข้อมูลที่ปรับปรุงแล้วที่นำเสนอข้อมูลเชิงลึกเกี่ยวกับรายการงานของคุณ เพิ่มเติมจากเมทริกซ์ที่สำคัญเกี่ยวกับ Git จัดเก็บของคุณ การคำขอ และเนื้อหาการควบคุมเวอร์ชันที่รวมอยู่ในรุ่นเริ่มต้น สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการเริ่มต้นใช้งาน โปรดดู[ชุดเนื้อหา Visual Studio Online สำหรับหน้าวิธีใช้ Power BI](service-connect-to-quickbooks-online.md)
+* เรารู้สึกตื่นเต้นอย่างยิ่งที่จะประกาศเกี่ยวกับการอัปเดตไปยัง Power BI ในสัปดาห์นี้ โดยที่ตอนนี้ Power BI เสนอการติดตามรายการที่ทำงานใน[ชุดเนื้อหา Visual Studio Online](https://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx) อัปเดตนี้รวมถึงแดชบอร์ดใหม่ รายงาน และชุดข้อมูลที่ปรับปรุงแล้วที่นำเสนอข้อมูลเชิงลึกเกี่ยวกับรายการงานของคุณ เพิ่มเติมจากเมทริกซ์ที่สำคัญเกี่ยวกับ Git จัดเก็บของคุณ การคำขอ และเนื้อหาการควบคุมเวอร์ชันที่รวมอยู่ในรุ่นเริ่มต้น สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการเริ่มต้นใช้งาน โปรดดู[ชุดเนื้อหา Visual Studio Online สำหรับหน้าวิธีใช้ Power BI](service-connect-to-quickbooks-online.md)
 
 **14 กรกฎาคม 2015**
 
-* Acumatica Cloud ERP ส่งมอบชุดของแอปพลิเคชันการจัดการธุรกิจที่รวมเข้าด้วยกันอย่างสมบูรณ์ เช่น Financials, Distribution, CRM และ Project Accounting ที่ขับเคลื่อนโดยแพลตฟอร์มที่มีความยืดหยุ่นและมีประสิทธิภาพ ด้วยชุดเนื้อหา Power BI [ Acumatica](http://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx) คุณสามารถเชื่อมต่อได้อย่างรวดเร็วและรับข้อมูลเชิงลึกลงในข้อมูลโอกาสทางการขายของคุณได้ทันที เนื้อหานี้รวมถึงแดชบอร์ดแบบใช้ได้ทันที ชุดรายงาน และชุดข้อมูลที่รวบรวมเพื่อการสำรวจและให้รายละเอียด เช่น ผลรวมโอกาสที่คุณอาจชนะตามวัน อ่านเพิ่มเติม[ที่นี่](service-connect-to-acumatica.md) 
-* ในตอนนี้ [Azure HDInsight](http://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) มีการบริการ Spark ที่มีการจัดการเต็มรูปแบบ ความสามารถนี้ช่วยให้สถานการณ์เช่นการเรียนรู้ของเครื่อง (Machine learning) ในแบบซ้ำ ๆ และการวิเคราะห์ข้อมูลแบบโต้ตอบได้ Power BI ช่วยให้คุณสามารถเชื่อมต่อโดยตรงไปยังข้อมูลใน Spark บน HDInsight นำเสนอการสำรวจที่ง่ายและสำรวจต่อเนื่อง สำหรับข้อมูลเพิ่มเติม อ่าน[เอกสารวิธีใช้](spark-on-hdinsight-with-direct-connect.md)ของเรา
-* [การรวมการนำทาง Office 365 และตัวเปิดใช้แอปพลิเคชัน](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher) ด้วยการคลิกครั้งเดียว ตอนนี้คุณสามารถไปยังแอปพลิเคชัน Office 365 ทั้งหมดของคุณได้
-* [การระบุ URL ที่กำหนดเอง](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url)ที่ ผู้ใช้นำทางไปยังเมื่อผู้ใช้คลิกไทล์หนึ่ง ตอนนี้คุณมีความสามารถในการควบคุมตรงตำแหน่งที่ผู้ใช้ไป: รายงานเฉพาะ แดชบอร์ดอื่น รายงาน SSRS หรือยังเว็บไซต์ภายนอก 
-* [การมองเห็นและการจัดการการเก็บข้อมูล](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)ที่คุณกำลังใช้งานใน Power BI
-* [การกำหนดค่าภาพและเขตข้อมูลที่แสดงในถามตอบ](http://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#visual)
+* Acumatica Cloud ERP ส่งมอบชุดของแอปพลิเคชันการจัดการธุรกิจที่รวมเข้าด้วยกันอย่างสมบูรณ์ เช่น Financials, Distribution, CRM และ Project Accounting ที่ขับเคลื่อนโดยแพลตฟอร์มที่มีความยืดหยุ่นและมีประสิทธิภาพ ด้วยชุดเนื้อหา Power BI [ Acumatica](https://blogs.msdn.com/b/powerbi/archive/2015/07/13/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi.aspx) คุณสามารถเชื่อมต่อได้อย่างรวดเร็วและรับข้อมูลเชิงลึกลงในข้อมูลโอกาสทางการขายของคุณได้ทันที เนื้อหานี้รวมถึงแดชบอร์ดแบบใช้ได้ทันที ชุดรายงาน และชุดข้อมูลที่รวบรวมเพื่อการสำรวจและให้รายละเอียด เช่น ผลรวมโอกาสที่คุณอาจชนะตามวัน อ่านเพิ่มเติม[ที่นี่](service-connect-to-acumatica.md) 
+* ในตอนนี้ [Azure HDInsight](https://blogs.msdn.com/b/powerbi/archive/2015/07/14/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight.aspx) มีการบริการ Spark ที่มีการจัดการเต็มรูปแบบ ความสามารถนี้ช่วยให้สถานการณ์เช่นการเรียนรู้ของเครื่อง (Machine learning) ในแบบซ้ำ ๆ และการวิเคราะห์ข้อมูลแบบโต้ตอบได้ Power BI ช่วยให้คุณสามารถเชื่อมต่อโดยตรงไปยังข้อมูลใน Spark บน HDInsight นำเสนอการสำรวจที่ง่ายและสำรวจต่อเนื่อง สำหรับข้อมูลเพิ่มเติม อ่าน[เอกสารวิธีใช้](spark-on-hdinsight-with-direct-connect.md)ของเรา
+* [การรวมการนำทาง Office 365 และตัวเปิดใช้แอปพลิเคชัน](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#launcher) ด้วยการคลิกครั้งเดียว ตอนนี้คุณสามารถไปยังแอปพลิเคชัน Office 365 ทั้งหมดของคุณได้
+* [การระบุ URL ที่กำหนดเอง](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#url)ที่ ผู้ใช้นำทางไปยังเมื่อผู้ใช้คลิกไทล์หนึ่ง ตอนนี้คุณมีความสามารถในการควบคุมตรงตำแหน่งที่ผู้ใช้ไป: รายงานเฉพาะ แดชบอร์ดอื่น รายงาน SSRS หรือยังเว็บไซต์ภายนอก 
+* [การมองเห็นและการจัดการการเก็บข้อมูล](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#storage)ที่คุณกำลังใช้งานใน Power BI
+* [การกำหนดค่าภาพและเขตข้อมูลที่แสดงในถามตอบ](https://blogs.msdn.com/b/powerbi/archive/2015/07/15/new-capabilities-added-to-power-bi.aspx#visual)
 
 **7 กรกฎาคม 2015**
 
-* หนึ่งในคุณลักษณะที่มีการรอคอยและร้องขอมากที่สุดจะพร้อมใช้งานใน Power BI เริ่มต้นในวันนี้ ใน Power BI คุณจะสามารถ[รีเฟรชชุดข้อมูล](http://blogs.msdn.com/b/powerbi/archive/2015/07/07/refresh-for-on-premises-sources-is-here.aspx)ที่เชื่อมต่อกับแหล่งข้อมูลภายในองค์กรของคุณ เช่น SQL Server ได้ คุณสามารถรีเฟรชชุดข้อมูลที่มีการสร้างจากไฟล์ Power BI Designer หรือเวิร์กบุ๊ก Excel ได้ด้วยข้อมูลที่นำเข้าลงในเวิร์กบุ๊กโดยใช้ Power Query หรือ Power Pivot 
+* หนึ่งในคุณลักษณะที่มีการรอคอยและร้องขอมากที่สุดจะพร้อมใช้งานใน Power BI เริ่มต้นในวันนี้ ใน Power BI คุณจะสามารถ[รีเฟรชชุดข้อมูล](https://blogs.msdn.com/b/powerbi/archive/2015/07/07/refresh-for-on-premises-sources-is-here.aspx)ที่เชื่อมต่อกับแหล่งข้อมูลภายในองค์กรของคุณ เช่น SQL Server ได้ คุณสามารถรีเฟรชชุดข้อมูลที่มีการสร้างจากไฟล์ Power BI Designer หรือเวิร์กบุ๊ก Excel ได้ด้วยข้อมูลที่นำเข้าลงในเวิร์กบุ๊กโดยใช้ Power Query หรือ Power Pivot 
 
 **30 มิถุนายน 2015**
 
-* เราได้นำ[ชุดเนื้อหา Power BI UserVoice](http://blogs.msdn.com/b/powerbi/archive/2015/07/01/monitor-and-visualize-your-uservoice-data-with-power-bi.aspx) ใหม่ออกสู่ตลาดที่สามารถช่วยคุณตรวจสอบและแสดงภาพข้อมูล UserVoice ของคุณ และรับข้อมูลเชิงลึกลงในชุดเนื้อหาได้ทันทีด้วยแดชบอร์ดและรายงานที่พร้อมใช้งาน
+* เราได้นำ[ชุดเนื้อหา Power BI UserVoice](https://blogs.msdn.com/b/powerbi/archive/2015/07/01/monitor-and-visualize-your-uservoice-data-with-power-bi.aspx) ใหม่ออกสู่ตลาดที่สามารถช่วยคุณตรวจสอบและแสดงภาพข้อมูล UserVoice ของคุณ และรับข้อมูลเชิงลึกลงในชุดเนื้อหาได้ทันทีด้วยแดชบอร์ดและรายงานที่พร้อมใช้งาน
 
 **23 มิถุนายน 2015**
 
-* ไฟล์ Power BI Desktop สามารถ[รีเฟรช](http://blogs.msdn.com/b/powerbi/archive/2015/06/22/announcing-refresh-support-for-power-bi-designer-files-in-the-power-bi-service.aspx)(รีเฟรชตามกำหนดการและรีเฟรชทันที) เมื่ออัปโหลดไปยังบริการ Power BI ได้
-* เรากำลังเผยแพร่การเปลี่ยนภาพครั้งใหญ่ที่สุดไปยัง Power BI นับตั้งแต่เดือนธันวาคม: ประสบการณ์ที่สะอาดตาขึ้นและง่ายขึ้นเมื่อต้องการ[รับข้อมูล](http://blogs.msdn.com/b/powerbi/archive/2015/06/23/the-new-get-data-experience.aspx)  เมื่อคุณคลิกที่รับข้อมูล ระบบจะแสดงหน้าจอเดียวที่มีชุดของประเภทต่าง ๆ ให้สามารถเลือกได้ ซึ่งจะทำให้ง่ายต่อการค้นหาเนื้อหาที่สำคัญกับคุณ
-* [Azure SQL Data Warehouse](http://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx)มอบระดับที่ยืดหยุ่นและการประมวลผลแบบขนานขนาดใหญ่ ด้วยตัวอย่างสาธารณะที่จำกัดที่ประกาศในวันนี้ Power BI ช่วยให้คุณสามารถเชื่อมต่อโดยตรงกับข้อมูลที่เก็บไว้ในคลังข้อมูล SQL Azure นำเสนอการสำรวจที่ทำได้ง่ายและทำได้อย่างต่อเนื่อง หลังจากการสร้างการเชื่อมต่อกับคลังข้อมูลของคุณแล้ว ระบบจะสร้างการสอบถาม (คิวรี่) ขึ้นในแบบเรียลไทม์และส่งกลับไปยังแหล่งข้อมูลขณะที่คุณสำรวจข้อมูล ขั้นตอนนี้กำจัดความจำเป็นในการสร้างและอัปโหลดแบบจำลองข้อมูลแบบกำหนดเอง และนำเสนอการสำรวจแบบโต้ตอบของข้อมูลของคุณ
+* ไฟล์ Power BI Desktop สามารถ[รีเฟรช](https://blogs.msdn.com/b/powerbi/archive/2015/06/22/announcing-refresh-support-for-power-bi-designer-files-in-the-power-bi-service.aspx)(รีเฟรชตามกำหนดการและรีเฟรชทันที) เมื่ออัปโหลดไปยังบริการ Power BI ได้
+* เรากำลังเผยแพร่การเปลี่ยนภาพครั้งใหญ่ที่สุดไปยัง Power BI นับตั้งแต่เดือนธันวาคม: ประสบการณ์ที่สะอาดตาขึ้นและง่ายขึ้นเมื่อต้องการ[รับข้อมูล](https://blogs.msdn.com/b/powerbi/archive/2015/06/23/the-new-get-data-experience.aspx)  เมื่อคุณคลิกที่รับข้อมูล ระบบจะแสดงหน้าจอเดียวที่มีชุดของประเภทต่าง ๆ ให้สามารถเลือกได้ ซึ่งจะทำให้ง่ายต่อการค้นหาเนื้อหาที่สำคัญกับคุณ
+* [Azure SQL Data Warehouse](https://blogs.msdn.com/b/powerbi/archive/2015/06/24/exploring-azure-sql-data-warehouse-with-power-bi.aspx)มอบระดับที่ยืดหยุ่นและการประมวลผลแบบขนานขนาดใหญ่ ด้วยตัวอย่างสาธารณะที่จำกัดที่ประกาศในวันนี้ Power BI ช่วยให้คุณสามารถเชื่อมต่อโดยตรงกับข้อมูลที่เก็บไว้ในคลังข้อมูล SQL Azure นำเสนอการสำรวจที่ทำได้ง่ายและทำได้อย่างต่อเนื่อง หลังจากการสร้างการเชื่อมต่อกับคลังข้อมูลของคุณแล้ว ระบบจะสร้างการสอบถาม (คิวรี่) ขึ้นในแบบเรียลไทม์และส่งกลับไปยังแหล่งข้อมูลขณะที่คุณสำรวจข้อมูล ขั้นตอนนี้กำจัดความจำเป็นในการสร้างและอัปโหลดแบบจำลองข้อมูลแบบกำหนดเอง และนำเสนอการสำรวจแบบโต้ตอบของข้อมูลของคุณ
 
 **16 มิถุนายน 2015**
 
-* SweetIQ ช่วยให้คุณติดตามรายการภายในเครื่องของคุณได้อย่างง่ายดาย โดยระบุตำแหน่งที่ตั้ง และตรวจทานข้อมูลจากระบบการค้นหาภายในของคุณ Power BI ช่วยให้คุณสามารถวิเคราะห์และตรวจติดตามข้อมูลนั้น โดยการเสนอ[เนื้อหาแบบใช้ทันที](http://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx)ซึ่งสร้างขึ้นจากข้อมูล SweetIQ ของคุณ สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการเริ่มต้นใช้งาน โปรดดู[หน้าความช่วยเหลือ](service-connect-to-sweetiq.md)ชุดเนื้อหา SweetIQ สำหรับ Power BI
+* SweetIQ ช่วยให้คุณติดตามรายการภายในเครื่องของคุณได้อย่างง่ายดาย โดยระบุตำแหน่งที่ตั้ง และตรวจทานข้อมูลจากระบบการค้นหาภายในของคุณ Power BI ช่วยให้คุณสามารถวิเคราะห์และตรวจติดตามข้อมูลนั้น โดยการเสนอ[เนื้อหาแบบใช้ทันที](https://blogs.msdn.com/b/powerbi/archive/2015/06/16/analyze-and-monitor-your-sweetiq-data-with-power-bi.aspx)ซึ่งสร้างขึ้นจากข้อมูล SweetIQ ของคุณ สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการเริ่มต้นใช้งาน โปรดดู[หน้าความช่วยเหลือ](service-connect-to-sweetiq.md)ชุดเนื้อหา SweetIQ สำหรับ Power BI
 
 **2 มิถุนายน 2015**
 
-* ในตอนนี้การติดตามสถิติที่สำคัญเกี่ยวกับแอปฯของคุณใช้งานได้ง่าย ด้วย Power BI และ[ชุดเนื้อหา appFigures](http://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx) สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อและเริ่มต้นใช้งาน ดู[เอกสารประกอบ](service-connect-to-appfigures.md)สำหรับชุดเนื้อหา appFigures สำหรับ Power BI
+* ในตอนนี้การติดตามสถิติที่สำคัญเกี่ยวกับแอปฯของคุณใช้งานได้ง่าย ด้วย Power BI และ[ชุดเนื้อหา appFigures](https://blogs.msdn.com/b/powerbi/archive/2015/06/02/explore-and-analyze-your-appfigures-data-with-power-bi.aspx) สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อและเริ่มต้นใช้งาน ดู[เอกสารประกอบ](service-connect-to-appfigures.md)สำหรับชุดเนื้อหา appFigures สำหรับ Power BI
 
 **28 พฤษภาคม 2015**
 
-* รับข้อมูลเชิงลึกด่วนลงในข้อมูลบัญชีผู้ใช้ QuickBooks Online ของคุณโดยใช้[ชุดเนื้อหา](http://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx)ของเรา สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อและเริ่มต้นใช้งาน ดู[เอกสารประกอบ](service-connect-to-quickbooks-online.md)สำหรับชุดเนื้อหา QuickBooks Online สำหรับ Power BI
+* รับข้อมูลเชิงลึกด่วนลงในข้อมูลบัญชีผู้ใช้ QuickBooks Online ของคุณโดยใช้[ชุดเนื้อหา](https://blogs.msdn.com/b/powerbi/archive/2015/05/28/get-quick-insights-into-your-quickbooks-online-account-data.aspx)ของเรา สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการเชื่อมต่อและเริ่มต้นใช้งาน ดู[เอกสารประกอบ](service-connect-to-quickbooks-online.md)สำหรับชุดเนื้อหา QuickBooks Online สำหรับ Power BI
 
 
 **13 พฤษภาคม 2015**
 
-* คุณสามารถเชื่อมต่อได้โดยตรงกับข้อมูลที่จัดเก็บไว้ใน**ฐานข้อมูล Azure SQL**ของคุณได้ เราสร้างการสอบถามและส่งการสอบถามไปยังแหล่งข้อมูลอย่างต่อเนื่อง ช่วยให้คุณสามารถสร้างรายงานแบบโต้ตอบโดยตรงผ่านฐานข้อมูลของคุณ สำหรับข้อมูลเพิ่มเติม คุณสามารถอ่าน[บล็อกโพสต์](http://blogs.msdn.com/b/powerbi/archive/2015/05/13/using-power-bi-to-visualize-and-explore-azure-sql-databases.aspx)และ[เอกสารประกอบ](service-azure-sql-database-with-direct-connect.md)ได้
+* คุณสามารถเชื่อมต่อได้โดยตรงกับข้อมูลที่จัดเก็บไว้ใน**ฐานข้อมูล Azure SQL**ของคุณได้ เราสร้างการสอบถามและส่งการสอบถามไปยังแหล่งข้อมูลอย่างต่อเนื่อง ช่วยให้คุณสามารถสร้างรายงานแบบโต้ตอบโดยตรงผ่านฐานข้อมูลของคุณ สำหรับข้อมูลเพิ่มเติม คุณสามารถอ่าน[บล็อกโพสต์](https://blogs.msdn.com/b/powerbi/archive/2015/05/13/using-power-bi-to-visualize-and-explore-azure-sql-databases.aspx)และ[เอกสารประกอบ](service-azure-sql-database-with-direct-connect.md)ได้
 
 **7 พฤษภาคม 2015**
 
@@ -730,15 +728,15 @@ ms.locfileid: "73060990"
 
 **28 เมษายน 2015**
 
-* ขณะนี้ Power BI พร้อมใช้งานใน**44 ภาษา** อ่าน[บล็อกโพสต์](http://blogs.msdn.com/b/powerbi/archive/2015/04/28/power-bi-preview-now-available-in-your-language.aspx)ของเราเพื่อดูรายการทั้งหมด
+* ขณะนี้ Power BI พร้อมใช้งานใน**44 ภาษา** อ่าน[บล็อกโพสต์](https://blogs.msdn.com/b/powerbi/archive/2015/04/28/power-bi-preview-now-available-in-your-language.aspx)ของเราเพื่อดูรายการทั้งหมด
 
 **23 เมษายน 2015**
 
-* ตอนนี้คุณสามารถแสดงภาพข้อมูลและสำรวจข้อมูล**Microsoft Dynamics Marketing**ของคุณด้วยชุดเนื้อหาใหม่ของเราได้แล้ว! สำหรับข้อมูลเพิ่มเติม คุณสามารถอ่าน[บล็อกโพสต์](http://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx)ของเราได้
+* ตอนนี้คุณสามารถแสดงภาพข้อมูลและสำรวจข้อมูล**Microsoft Dynamics Marketing**ของคุณด้วยชุดเนื้อหาใหม่ของเราได้แล้ว! สำหรับข้อมูลเพิ่มเติม คุณสามารถอ่าน[บล็อกโพสต์](https://blogs.msdn.com/b/powerbi/archive/2015/04/23/monitor-and-explore-your-microsoft-dynamics-marketing-data-with-power-bi.aspx)ของเราได้
 
 **15 เมษายน 2015**
 
-* ตอนนี้คุณสามารถแสดงภาพข้อมูลและสำรวจข้อมูล**Google Analytics**ของคุณด้วยชุดเนื้อหาใหม่ของเราได้แล้ว! ด้วยชุดเนื้อหา Google Analytics คุณจะได้แดชบอร์ด รายงาน และชุดข้อมูลที่ช่วยให้คุณสามารถรับข้อมูลเชิงลึกลงในการใช้งานของไซต์ของคุณในช่วง 6 เดือนที่ผ่านมา คุณสามารถอ่าน[บล็อกโพสต์ของเรา](http://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)ได้
+* ตอนนี้คุณสามารถแสดงภาพข้อมูลและสำรวจข้อมูล**Google Analytics**ของคุณด้วยชุดเนื้อหาใหม่ของเราได้แล้ว! ด้วยชุดเนื้อหา Google Analytics คุณจะได้แดชบอร์ด รายงาน และชุดข้อมูลที่ช่วยให้คุณสามารถรับข้อมูลเชิงลึกลงในการใช้งานของไซต์ของคุณในช่วง 6 เดือนที่ผ่านมา คุณสามารถอ่าน[บล็อกโพสต์ของเรา](https://blogs.msdn.com/b/powerbi/archive/2015/04/15/visualize-and-explore-your-google-analytics-data-with-power-bi.aspx)ได้
 * ตอนนี้คุณสามารถ**ปักหมุดบัตรทั้งหมด** โดยคาดหมายบัตรที่ประกอบด้วย KPI และรูปภาพจากการถามตอบและรายงานต่าง ๆ
 * ตอนนี้คุณสามารถ**ใช้บัตรในถามตอบ**โดยใช้วลี 'เป็นบัตร' ที่ส่วนท้ายของการสอบถาม (คิวรี่) ของคุณได้
 
@@ -766,5 +764,5 @@ ms.locfileid: "73060990"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [Power BI คืออะไร](fundamentals/power-bi-overview.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

@@ -2,25 +2,24 @@
 title: เชื่อมต่อกับบริการที่คุณใช้กับ Power BI
 description: เชื่อมต่อกับบริการที่คุณใช้จำนวนมาก เพื่อเรียกใช้ธุรกิจของคุณ เช่น Salesforce, Microsoft Dynamics CRM และ Google Analytics
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: abecc9b0c5e450d24f29230ad75417b1494e6ce9
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159996"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925829"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>เชื่อมต่อกับบริการที่คุณใช้กับ Power BI
 ด้วย Power BI คุณสามารถเชื่อมต่อกับบริการที่คุณใช้จำนวนมาก เพื่อเรียกใช้ธุรกิจของคุณ เช่น Salesforce, Microsoft Dynamics CRM และ Google Analytics Power BI เริ่มต้นโดยใช้ข้อมูลประจำตัวของคุณเพื่อเชื่อมต่อกับบริการ และจากนั้นสร้าง*พื้นที่ทำงาน* Power BI ด้วยแดชบอร์ดและชุดของรายงาน Power BI ที่แสดงข้อมูลของคุณและให้ข้อมูลภาพเชิงลึกเกี่ยวกับธุรกิจของคุณโดยอัตโนมัติ
 
 >[!IMPORTANT]
->เราจะเลิกใช้ชุดเนื้อหาหลายชุดในวันที่ 25 กันยายน 2019 ชุดเนื้อหาใด ๆ ที่ติดตั้งไว้จะทำงานต่อไป แต่คุณจะไม่สามารถติดตั้งใหม่ได้หลังจากนั้น [แอปแม่แบบ](https://docs.microsoft.com/power-bi/service-template-apps-overview)จะเป็นตัวแทนที่ของชุดเนื้อหาบริการ
+>ชุดเนื้อหาของบริการจะถูกแทนที่ด้วย [แอปเทมเพลต](https://docs.microsoft.com/power-bi/service-template-apps-overview) ตั้งแต่วันที่ 25 กันยายน 2019 มีชุดเนื้อหาจำนวนหนึ่งที่เลิกใช้แล้ว ชุดเนื้อหาที่เลิกใช้แล้วที่คุณเคยติดตั้งจะยังคงอยู่ในบัญชีของคุณ แต่จะไม่มีเอกสารประกอบหรือการสนับสนุน และจะไม่สามารถติดตั้งได้อีก
 
 เข้าสู่ระบบ Power BI เพื่อดู[บริการที่คุณสามารถเชื่อมต่อ](https://app.powerbi.com/getdata/services)ทั้งหมด 
 
@@ -36,7 +35,7 @@ ms.locfileid: "70159996"
 ## <a name="edit-the-dashboard-and-reports"></a>แก้ไขแดชบอร์ดและรายงาน
 เมื่อการนำเข้าเสร็จสมบูรณ์ แอปใหม่จะปรากฏบนหน้าแอป
 
-1. เลือก**Apps**ในบานหน้าต่างนำทางด้านซ้าย > เลือกแอป
+1. เลือก**แอป**ในบานหน้าต่างนำทาง > เลือกแอป
    
      ![หน้าแอป](media/service-connect-to-services/power-bi-service-apps-open-app.png)
 2. คุณสามารถถามคำถามโดยการพิมพ์ในกล่อง Q&A หรือคลิกที่ไทล์เพื่อเปิดรายงานด้านใน 
@@ -71,6 +70,6 @@ ms.locfileid: "70159996"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [แจกจ่ายแอปไปยังเพื่อนร่วมงานของคุณ](service-create-distribute-apps.md)
 * [สร้างพื้นที่ทำงานใหม่ใน Power BI](service-create-the-new-workspaces.md)
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](http://community.powerbi.com/)
-* มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](http://community.powerbi.com/)
+* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 
