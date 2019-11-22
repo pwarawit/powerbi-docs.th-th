@@ -14,8 +14,8 @@
           topicHref: /power-bi/developer/index
           items:
             - name: ใช้ส่วนแสดงผล Power BI จาก R ใน Power BI
-              tocHref: /power-bi/desktop-r-powered-custom-visuals/
-              topicHref: /power-bi/developer/index
+              tocHref: /power-bi/developer/
+              topicHref: /power-bi/desktop-r-powered-custom-visuals/
         - name: การเรียนรู้ตามคำแนะนำ
           tocHref: /power-bi/guided-learning/
           topicHref: /power-bi/guided-learning/
