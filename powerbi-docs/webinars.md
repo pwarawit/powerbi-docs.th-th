@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 289e6490d2449bdcbca68e6acba85cf4466b315f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bd6270731f79ac5a1e270ac36699470a0e6df978
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880556"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060446"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -21,7 +21,13 @@ ms.locfileid: "73880556"
 
 ## <a name="upcoming-webinars"></a>สัมมนาผ่านเว็บที่กำลังมาถึง
 
-สัมมนาผ่านเว็บยังไม่จัดกำหนดการ กรุณาตรวจสอบใหม่เพื่อดูงานที่จะจัดในอนาคต
+**การวิเคราะห์ในเหตุการณ์เสมือนใน  Azure เร่งเวลาเพื่อดูข้อมูลเชิงลึกด้วย  Azure Synapse Analytics**
+<br>โดย Gayle Sheppard และ John Macintyre
+<br>[ลงทะเบียนตอนนี้](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
+
+**วิธีการที่ Microsoft เปลี่ยนแปลงการป้องกันข้อมูล BI**
+<br>โดย Anton Fritz และ Adi Regev
+<br>[ลงทะเบียนเพื่อรับชมในวันที่ 4 ธันวาคมนี้](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 >[การสัมมนาผ่านเว็บที่กำลังมาถึงจากชุมชน Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e775d5c4cf0ad1c24765368681134f5d4e865ad3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8ae5e8e348c982c7e1dffd469e180f4353910bf3
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866968"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099505"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -32,6 +32,98 @@ ms.locfileid: "73866968"
 คุณยังสามารถดูวิดีโอ**อัปเดตล่าสุด**เริ่มตั้งแต่แรก จากภายในบทความนี้เลย โดยคลิกที่ไอคอน**เล่น**บนรูปภาพวิดีโอที่อยู่ด้านล่างรายการการอัปเดตได้
 
 ส่วนต่อไปนี้อธิบายวิธีการอัปเดตเดือนก่อนหน้าไปยัง**Power BI Desktop**
+
+
+## <a name="october-2019-update-2745619621"></a>การอัปเดตประจำเดือนตุลาคม 2019 (2.74.5619.621)
+
+การอัปเดตประจำเดือนตุลาคมในช่วงฮาโลวีนของเรามีความน่าตื่นตาตื่นใจกับการทำงานของโปรแกรมและน่าตื่นเต้นกว่าทัวร์ผ่านคฤหาสน์ผีสิงในตอนเที่ยงตืน 
+
+ตอนนี้คุณสามารถ [ดาวน์โหลด Power BI Desktop รุ่นล่าสุด](https://powerbi.microsoft.com/desktop), ส่งเป็นไฟล์ .exe ไฟล์เดียวที่มีภาษาที่รองรับทั้งหมด ถ้าคุณกำลังใช้งาน Windows 10 คุณยังสามารถรับ **Power BI Desktop** ได้จาก Windows Store เวอร์ชันรายเดือนจะเหมือนกันแม้ว่าหมายเลขเวอร์ชันอาจแตกต่างกัน โดยไม่คำนึงถึงวิธีการที่คุณติดตั้ง**Power BI Desktop** ดู[บทความนี้](desktop-get-the-desktop.md)สำหรับข้อมูลเพิ่มเติม 
+
+> [!IMPORTANT]
+> เริ่มตั้งแต่รุ่น 2019 กันยายน Power BI Desktop จะวางจำหน่ายเป็นไฟล์. exe เดียวที่มีภาษาที่รองรับทั้งหมด ไม่มีการเผยแพร่เวอร์ชัน .msi อีกต่อไป
+
+
+ลิงก์ที่อยู่ข้างแต่ละอัปเดต มีความหมายดังนี้:
+
+* **[วิดีโอ]** เล่นวิดีโอในแท็บเบราว์เซอร์ใหม่ ตรงจุดที่กำลังพูดถึงคุณลักษณะดังกล่าว
+* บางคุณลักษณะก็มี **[บทความ]** ที่ให้รายละเอียดเพิ่มเติม
+* คุณลักษณะส่วนใหญ่จะอธิบายไว้ใน **[บล็อก]** โพสต์ ที่อัปเดตรายเดือน
+* สุดท้าย คุณลักษณะบางอย่างก็อธิบายได้ด้วยตัวเอง ไม่จำเป็นต้องมีบทความ หรือวิดีโอ
+
+คุณยังสามารถดูวิดีโอ**อัปเดตล่าสุด**เริ่มตั้งแต่แรก จากภายในบทความนี้เลย โดยคลิกที่ไอคอน**เล่น**บนรูปภาพวิดีโอที่อยู่ด้านล่างรายการการอัปเดตได้
+
+การปรับปรุงต่อไปนี้เป็นของใหม่ใน **Power BI Desktop** สำหรับเดือนนี้:
+
+### <a name="reporting"></a>การรายงาน
+* รีเฟรชเพจอัตโนมัติสำหรับ DirectQuery [[video]](https://youtu.be/A8A9baUQsXQ?t=12) [[article]](desktop-automatic-page-refresh.md) [ [blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#automaticPageRefresh) 
+
+
+### <a name="analytics"></a>การวิเคราะห์
+* คำถามใหม่ & การแสดงผลด้วยภาพ [[video]](https://youtu.be/A8A9baUQsXQ?t=144) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaVisual) 
+* ปรับปรุงประสบการณ์ของผู้ใช้สำหรับถามตอบ[[video]](https://youtu.be/A8A9baUQsXQ?t=144) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#improvedExperience) 
+    * ปรับปรุงตัวควบคุมดรอปดาวน์แล้ว
+    * ขีดเส้นใต้สีแดงและสีน้ำเงิน
+    * ปรับปรุงผลลัพธ์การแสดงผล
+* การปรับปรุงภาษาธรรมชาติสำหรับถามตอบ[[video]](https://youtu.be/A8A9baUQsXQ?t=322) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#nlImprovements) 
+    * การรวมเข้ากับพจนานุกรมคำพ้อง Office/Bing
+    * สนับสนุนสำหรับตารางหน่วยวัดและการจัดการชื่อของตารางและความคลุมเครือให้ดียิ่งขึ้น
+* ถามตอบเกี่ยวกับเครื่องมือ (ตัวอย่าง) [[video]](https://youtu.be/A8A9baUQsXQ?t=376) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#qnaTooling) 
+    * ตรวจสอบคำถาม
+    * สอนเกี่ยวกับการ "ถามตอบ"
+    * ตรวจสอบการเปลี่ยนแปลงทั้งหมดที่ทำ
+* การสนับสนุนสำหรับ SSAS และ Azure รวมถึง RLS [[video]](https://youtu.be/A8A9baUQsXQ?t=480) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#supportAS) 
+
+
+### <a name="visuals"></a>การแสดงผลด้วยภาพ
+* ขณะนี้ภาพ PowerApps ถูกรวมไว้ตามค่าเริ่มต้น [[video]](https://youtu.be/A8A9baUQsXQ?t=505) [ [blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#powerApps) 
+* ภาพ xViz ใหม่ [[video]](https://youtu.be/A8A9baUQsXQ?t=538)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#xViz) 
+
+### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
+* ตัวเชื่อมต่อ Sagra Emigo พร้อมใช้งานโดยทั่วไป[[video]](https://youtu.be/A8A9baUQsXQ?t=778)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#sagraEmigo) 
+* ตัวเชื่อมต่อการจัดการค่าใช้จ่ายของ Azure ได้รับการอัปเดต [[video]](https://youtu.be/A8A9baUQsXQ?t=805) [[article]](desktop-connect-azure-cost-management.md) [ [blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#azureCostManagement) 
+* ตัวเชื่อมต่อrพื้นที่ทำงาน  Adobe Analytics [[video]](https://youtu.be/A8A9baUQsXQ?t=830)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#workplaceAnalytics) 
+
+
+### <a name="data-preparation"></a>การเตรียมข้อมูล
+* การวินิจฉัยแบบสอบถาม [[video]](https://youtu.be/A8A9baUQsXQ?t=907) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#queryDiagnostics) 
+* การเพิ่มประสิทธิภาพการสร้างโปรไฟล์ข้อมูล [[video]](https://youtu.be/A8A9baUQsXQ?t=953) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#dataProfiling) 
+
+
+### <a name="template-apps"></a>แอปแม่แบบ
+* Project Web App [[video]](https://youtu.be/A8A9baUQsXQ?t=850)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#projectWebApp) 
+
+### <a name="other"></a>อื่นๆ
+* รูปแบบไฟล์ใหม่: PBIDS [[video]](https://youtu.be/A8A9baUQsXQ?t=2455) [[article]](desktop-data-sources.md#pbids-file-examples) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#pbids) 
+* การปรับปรุงประสิทธิภาพการทำงานของการสร้างแบบจำลอง [[video]](https://youtu.be/A8A9baUQsXQ?t=2583) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#performance) 
+
+> [!NOTE]
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+
+ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
+
+
+วิดีโอต่อไปนี้อธิบาย และแสดงการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
+
+> [!VIDEO https://www.youtube.com/embed/A8A9baUQsXQ]
+
+> [!NOTE]
+> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
+
+นอกจากนี้คุณยังสามารถดาวน์โหลด Power BI Desktop เวอร์ชันก่อนหน้าหากองค์กรของคุณต้องการใช้ได้ด้วยเช่นกัน เราแนะนำให้คุณใช้เวอร์ชันล่าสุดของ Power BI Desktop มากกว่าเวอร์ชันก่อนหน้าเสมอ เวอร์ชันก่อนหน้าทั้งหมดมีข้อจำกัดดังต่อไปนี้:
+
+* Power BI Desktop รุ่นก่อนหน้าจะไม่มีให้บริการ - คุณควรใช้รุ่นล่าสุดเสมอเพื่อใช้คุณลักษณะและการอัปเดตล่าสุด
+* คุณอาจไม่สามารถเปิดไฟล์ที่สร้างหรือบันทึกใน Power BI Desktop รุ่นใหม่กว่าด้วย Power BI Desktop เวอร์ชันก่อนหน้าได้ 
+* หากคุณได้รับคำเตือนเมื่อโหลดรายงานที่บันทึกใน Power BI Desktop เวอร์ชันที่ใหม่กว่า แล้วบันทึกรายงานนั้นในเวอร์ชันก่อนหน้า คุณจะสูญเสียข้อมูลใดๆ ที่เกี่ยวข้องกับคุณลักษณะใหม่
+* เราจัดเก็บ Power BI Desktop เวอร์ชันภาษาอังกฤษเท่านั้น
+
+เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
+
+* [Power BI Desktop - 32 บิต เวอร์ชันตุลาคม 2018](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-10.exe)
+* [Power BI Desktop - 64 บิต เวอร์ชันตุลาคม 2018](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-10_x64.exe)
+
+
+
 
 ## <a name="september-2019-update-2735586561"></a>อัปเดตประจำเดือนกันยายน 2019 (2.73.5586.561)
 
@@ -489,6 +581,12 @@ ms.locfileid: "73866968"
 * คุณอาจไม่สามารถเปิดไฟล์ที่สร้างหรือบันทึกใน Power BI Desktop รุ่นใหม่กว่าด้วย Power BI Desktop เวอร์ชันก่อนหน้าได้ 
 * หากคุณได้รับคำเตือนเมื่อโหลดรายงานที่บันทึกใน Power BI Desktop เวอร์ชันที่ใหม่กว่า แล้วบันทึกรายงานนั้นในเวอร์ชันก่อนหน้า คุณจะสูญเสียข้อมูลใดๆ ที่เกี่ยวข้องกับคุณลักษณะใหม่
 * เราจัดเก็บ Power BI Desktop เวอร์ชันภาษาอังกฤษเท่านั้น
+
+เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
+
+* [Power BI Desktop รุ่นเดือนเมษายน 2019 - 32 บิต](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04.msi)
+* [Power BI Desktop รุ่นเดือนเมษายน 2019 - 64 บิต](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04_x64.msi)
+
 
 ## <a name="march-2019-update-2675404581"></a>การอัปเดตประจำเดือนมีนาคม 2019 (2.67.5404.581)
 
@@ -1083,12 +1181,12 @@ ms.locfileid: "73866968"
 
 ### <a name="analytics"></a>การวิเคราะห์
 
-* ปรับปรุงรูปแบบภาษา [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=22m)[[บทความ]](power-bi-custom-visuals-organization.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
+* ปรับปรุงรูปแบบภาษา [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=22m)[[บทความ]](developer/power-bi-custom-visuals-organization.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * ฟังก์ชัน DAX ใหม่: COMBINEVALUES()  [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=23m37s)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
 
 ### <a name="custom-visuals"></a>วิชวลแบบกำหนดเอง
 
-* สามารถใช้ วิชวลองค์กร ได้ทั่วไป [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=26m11s)[[บทความ]](power-bi-custom-visuals-organization.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
+* สามารถใช้ วิชวลองค์กร ได้ทั่วไป [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=26m11s)[[บทความ]](developer/power-bi-custom-visuals-organization.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
 * วิชวลแบบกำหนดเองใหม่มากมาย [[วิดีโอ]](https://youtu.be/W_Nb73Od_AI?t=28m8s)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
 
 ### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
@@ -1128,7 +1226,7 @@ ms.locfileid: "73866968"
 
 ### <a name="custom-visuals"></a>การแสดงผลด้วยภาพแบบกำหนดเอง
 
-* ภาพที่กำหนดเองใหม่ ๆ[[วิดีโอ]](https://youtu.be/kuI6MMzDh34?t=15m43s)[[บทความ]](power-bi-custom-visuals-organization.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
+* ภาพที่กำหนดเองใหม่ ๆ[[วิดีโอ]](https://youtu.be/kuI6MMzDh34?t=15m43s)[[บทความ]](developer/power-bi-custom-visuals-organization.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
 
@@ -1187,7 +1285,7 @@ ms.locfileid: "73866968"
 
 ### <a name="custom-visuals"></a>การแสดงผลด้วยภาพแบบกำหนดเอง
 
-* ภาพที่กำหนดเองขององค์กร (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/KeVB5RwMzJo?t=19m23s)[[บทความ]](power-bi-custom-visuals-organization.md)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
+* ภาพที่กำหนดเองขององค์กร (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/KeVB5RwMzJo?t=19m23s)[[บทความ]](developer/power-bi-custom-visuals-organization.md)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
 
 ### <a name="analytics"></a>การวิเคราะห์
