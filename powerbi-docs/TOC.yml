@@ -407,6 +407,8 @@
       items:
         - name: ชนิดข้อมูลใน Power BI Desktop
           href: desktop-data-types.md
+        - name: แหล่งข้อมูล Power BI
+          href: power-bi-data-sources.md
         - name: ใช้ Ribbon ที่ปรับปรุงแล้วใน Power BI Desktop (ตัวอย่าง)
           href: desktop-ribbon.md
         - name: ทางลัดตัวแก้ไขสูตรสำหรับ Power BI Desktop
