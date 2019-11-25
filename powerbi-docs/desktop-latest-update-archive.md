@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8ae5e8e348c982c7e1dffd469e180f4353910bf3
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 228bc9a7c6d02b5c2cdf34178c7b023c78fa23ea
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099505"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74310818"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -1503,7 +1503,7 @@ ms.locfileid: "74099505"
 ### <a name="reporting"></a>การรายงาน:
 
 -   บุ๊กมาร์ก (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/jksjtR8GnBE?t=1m47s) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#bookmarking) [[บทความ]](desktop-bookmarks.md)
--   บานหน้าต่างการเลือกและตัวควบคุมการแสดงภาพ[[วิดีโอ]](https://youtu.be/jksjtR8GnBE?t=7m26s)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[บทความ]  ](desktop-bookmarks.md#visibility---using-the-selection-pane) 
+-   บานหน้าต่างการเลือกและตัวควบคุมการแสดงภาพ[[วิดีโอ]](https://youtu.be/jksjtR8GnBE?t=7m26s)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[บทความ]  ](desktop-bookmarks.md#visibility-using-the-selection-pane) 
 -   ลิงก์บุ๊กมาร์กสำหรับรูปร่างและรูปภาพ[[วิดีโอ]](https://youtu.be/jksjtR8GnBE?t=8m54s)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#links) [[บทความ]  ](desktop-bookmarks.md#bookmarks-for-shapes-and-images)
 -   สปอตไลต์[[วิดีโอ]](https://youtu.be/jksjtR8GnBE?t=5m39s)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#spotlight) [[บทความ]  ](desktop-bookmarks.md#using-spotlight)
 -   ตัวทำเครื่องหมายแบบกระจายและแผนภูมิฟอง[[วิดีโอ]](https://youtu.be/jksjtR8GnBE?t=17m20s)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#markers) [[บทความ]  ](desktop-accessibility.md)

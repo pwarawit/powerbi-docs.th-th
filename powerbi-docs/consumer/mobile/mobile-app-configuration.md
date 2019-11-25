@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: 7ed763d6c87e4b93ebecc474c9059ba83245368a
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.openlocfilehash: a517ee4edce6e18eadcbe2b1b6765684f8121b21
+ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "73925786"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74199438"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>กำหนดค่าแอป Power BI โดยใช้เครื่องมือจัดการอุปกรณ์เคลื่อนที่  MDM) จากระยะไกล
 
@@ -56,6 +56,6 @@ ms.locfileid: "73925786"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-* ดาวน์โหลดแอป Power BI สำหรับอุปกรณ์เคลื่อนที่จาก [App store]("https://apps.apple.com/app/microsoft-power-bi/id929738808) และ [Google play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409)
+* ดาวน์โหลดแอป Power BI สำหรับอุปกรณ์เคลื่อนที่จาก [App store](https://apps.apple.com/app/microsoft-power-bi/id929738808) และ [Google play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409)
 * ติดตาม[ @MSPowerBIบน Twitter](https://twitter.com/MSPowerBI)
 * เข้าร่วมการสนทนาที่[ชุมชน Power BI](https://community.powerbi.com/)

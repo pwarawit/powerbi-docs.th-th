@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ee272f32dbce4630f8b834187e05fda5739df7be
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 10540ed49064b9e28543ce46b43d8bb2d9ca6cf7
+ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876944"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "74178271"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 เคล็ดลับสำหรับการรับความช่วยเหลือเกี่ยวกับคำถาม Power BI ของคุณ
 คุณเคยรู้สึกอึดอัดเมื่อใช้ Power BI หรือพบปัญหาเนื่องจากคุณไม่เจอคำตอบของคำถามเกี่ยวกับ Power BI ในเวลาที่คุณต้องการ เช่น "just-in-time" หรือไม่ 
@@ -44,7 +44,7 @@ ms.locfileid: "73876944"
 ## <a name="6-attend-training"></a>6 เข้าฝึกอบรม
 ตัวเลือกการฝึกอบรมมีมากมาย จากการฝึกอบรมตัวต่อตัวในแล็บถึงวิดีโอสั้น ๆ
 
-* [Guided learning](guided-learning/index.md)บนไซต์ Power BI
+* [Guided learning](guided-learning/index.yml)บนไซต์ Power BI
 * [สัมมนา Power BI ฟรีผ่านเว็บ](webinars.md)แบบสดและแบบตามความ บนเว็บไซต์ Power BI
 
 คุณสามารถค้นหาตัวเลือกแบบออนไลน์เพิ่มเติมเช่น

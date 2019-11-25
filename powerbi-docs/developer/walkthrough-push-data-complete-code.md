@@ -1,19 +1,19 @@
 ---
 title: รายการรหัสเสร็จสมบูรณ์
 description: คำแนะนำในการส่งข้อมูล - รายการรหัสที่เสร็จสมบูรณ์
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: ac534946b5f7e6fb5bb0164a1144523fa8f2aa94
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 49b25a1a5bed092927e1e62888b28a5c9a3fc2d6
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875500"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265571"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>ส่งข้อมูลไปยังชุดข้อมูลรายการรหัสที่สร็จสมบูรณ์
 

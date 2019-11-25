@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 32a93a881a801ec5dd335f167e69a5b76f53d694
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 668665bcdbbb4b06a6fd1a2ee6d4af2437be77b3
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73764725"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264857"
 ---
 # <a name="glossary-for-power-bi-service"></a>อภิธานศัพท์สำหรับบริการ Power BI
 บริการ Power BI อาจใช้คำศัพท์ที่ไม่คุ้นเคยหรือสับสน อภิธานศัพท์เป็นที่เหมาะสมในการค้นหาคำศัพท์ คุณอาจต้องการเก็บไว้คั่นหน้า อีกแหล่งข้อมูลหนึ่งที่ยอดเยี่ยมสำหรับการเรียนรู้เกี่ยวกับการสร้างการปิดกั้นใน Power BI คือ [แนวคิดพื้นฐาน](end-user-basic-concepts.md) แนวคิดพื้นฐานเป็นภาพรวมระดับสูงเกี่ยวกับ*ส่วนประกอบ*ของ Power BI และความเกี่ยวข้องกัน
@@ -34,8 +34,6 @@ ms.locfileid: "73764725"
 **alert, alerts (แจ้งเตือน การแจ้งเตือน)** คุณลักษณะที่จะแจ้งให้ผู้ใช้เปลี่ยนแปลงข้อมูลตามขีดจำกัดที่ตั้งไว้ สามารถตั้งค่าการแจ้งเตือนบนไทล์ที่ปักหมุดจากภาพรายงาน ผู้ใช้ได้รับการแจ้งเตือนบนบริการ และแอปสำหรับอุปกรณ์เคลื่อน
 
 **annotate (คำอธิบายประกอบ)** เขียนข้อความในบรรทัด ข้อความ หรือสแตมป์บนสำเนาสแนปช็อตของไทล์ รายงาน หรือภาพบนแอป Power BI บนอุปกรณ์เคลื่อนที่สำหรับอุปกรณ์ iOS และ Android
-
-**answer card, answer page (บัตรคำตอบ หน้าคำตอบ)** ดูบัตรคำตอบของ Cortana
 
 **app, apps (แอป แอป)** 
 
@@ -77,10 +75,6 @@ ms.locfileid: "73764725"
 **content pack (ชุดเนื้อหา)** คอลเลกชันของชุดข้อมูลแพคเกจล่วงหน้า รายงาน และแดชบอร์ด **แอป**เรียนรู้[เกี่ยวกับการใช้งานพื้นที่ทำงานใหม่](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces) เลยเดี๋ยวนี้ 
 
 **content view (มุมมองเนื้อหา)**
-
-**Cortana answer card (บัตรคำตอบของ Cortana)** หน้ารายงานเฉพาะที่จะรวมไว้ในรายงาน Power BI เพื่อให้สามารถสร้างคำตอบของ Cortana แบบกำหนดเอง
-
-**Cortana answer page (หน้าคำตอบของ Cortana)** ชื่อสำหรับหน้าของ Cortana ที่แสดงต่อลูกค้า
 
 **cross filter, cross highlight (ตัวกรองข้าม การเน้นข้าม)**
 

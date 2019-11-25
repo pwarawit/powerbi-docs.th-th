@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128380"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265887"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>ดูแล Power BI ในพอร์ทัลผู้ดูแลระบบ
 
@@ -278,13 +278,6 @@ ms.locfileid: "74128380"
 
 ## <a name="integration-settings"></a>การตั้งค่าการรวม
 
-### <a name="ask-questions-about-data-using-cortana"></a>ถามคำถามเกี่ยวกับข้อมูลโดยใช้ Cortana
-
-ผู้ใช้ในองค์กรสามารถถามคำถามเกี่ยวกับข้อมูลของตนเองได้โดยใช้ Cortana [เรียนรู้เพิ่มเติม](service-cortana-enable.md)
-
-> [!NOTE]
-> การตั้งค่านี้จะนำไปใช้กับทั้งองค์กร และไม่สามารถจำกัดให้กับเฉพาะกลุ่มได้
-
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>ใช้การวิเคราะห์ใน Excel กับชุดข้อมูลภายในองค์กร
 
 ผู้ใช้ในองค์กรสามารถใช้ Excel เพื่อดู และโต้ตอบกับชุดข้อมูล Power BI ภายในองค์กร [เรียนรู้เพิ่มเติม](service-analyze-in-excel.md)
@@ -298,7 +291,7 @@ ms.locfileid: "74128380"
 
 ### <a name="use-global-search-for-power-bi-preview"></a>ใช้การค้นหาทั้งหมดสำหรับ Power BI (ตัวอย่าง)
 
-ผู้ใช้ในองค์กรสามารถใช้คุณลักษณะการค้นหาภายนอกที่อาศัยการค้นหา Azure ตัวอย่างเช่น ผู้ใช้สามารถใช้ Cortana เพื่อเรียกข้อมูลสำคัญได้โดยตรงจากแดชบอร์ดและรายงาน Power BI [เรียนรู้เพิ่มเติม](service-cortana-intro.md)
+ผู้ใช้ในองค์กรสามารถใช้คุณลักษณะการค้นหาภายนอกที่อาศัยการค้นหา Azure
 
 ## <a name="custom-visuals-settings"></a>การตั้งค่าวิชวลแบบกำหนดเอง
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 225c21693c9f100d9abbfc310b957bee7a909061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881359"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265455"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI สำหรับลูกค้าส่วนราชการสหรัฐอเมริกา
 การ**บริการ Power BI**มีเวอร์ชันพร้อมใช้งานสำหรับลูกค้าส่วนราชการสหรัฐอเมริกา ซึ่งเป็นส่วนหนึ่งของการของการสมัครใช้งาน**ชุมชน Office 365 สำหรับส่วนราชการสหรัฐ** การ**บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้ถูกออกแบบมาโดยเฉพาะสำหรับลูกค้าส่วนราชการสหรัฐและแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI**
@@ -55,7 +55,6 @@ Azure จะถูกกระจายใน cloud หลายตัว ตา
 * **ฝังใน SharePoint Online** ไม่สามารถฝังเนื้อหาใน SharePoint Online โดยใช้ Web Part ของ Power BI อย่างไรก็ตาม ความปลอดภัยที่ฝังอยู่นั้นทำงานได้โดยใช้ [*ส่วนของเว็บที่ฝังตัว* อยู่](https://docs.microsoft.com/power-bi/service-embed-secure) คุณต้องเพิ่ม *app.powerbigov.us* ไปยังรายการข้อยกเว้น ซึ่งสามารถทำได้ โดยทำตามคำแนะนำในบทความ [อนุญาต หรือจำกัดความสามารถในการฝังเนื้อหาบนหน้า SharePoint](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b)
 * **Power BI US Government**สามารถใช้งานไดใน้แบบ **Pro** เท่านั้น การอ้างอิงไปยังสิทธิ์การใช้งาน Power BI (ฟรี) ในพอร์ทัลของผู้ดูแลระบบ (หรือเป็นผู้ใช้) ที่กำลังทำงานอยู่ใน cloud ของบริการ Power BI เชิงพาณิชย์
 * **การตรวจสอบ** - การตรวจสอบทำได้แล้วผ่านทางพอร์ทัล ศูนย์การรักษาความปลอดภัยและการปฏิบัติตามนโยบายของ Office 365 ตั้งแต่เดือนมิถุนายน 2018
-* **เนื้อหาของ Power BI ใน Cortana** ผลลัพธ์ของ Power BI จะไม่แสดงขึ้นในผลลัพธ์การค้นหาของ Cortana ซึ่งรวมถึงผลลัพธ์สำหรับเนื้อหา Power BI ของคุณ (แดชบอร์ด รายงาน แอป) เช่นเดียวกับผลลัพธ์ที่แสดงในหน้ารายงานสำหรับคำสำคัญแบบเฉพาะที่ปรับแล้วของ Cortana
 * **การแชร์ผู้ใช้ภายนอก** - อนุญาตให้แชร์ภายในผู้เช่า Power BI และตั้งแต่เดือนมิถุนายน 2018 เป็นต้นไป สามารถแชร์กับผู้ใช้ภายนอกผู้เช่า Power BI ของคุณได้แล้ว ดู [กระจายเนื้อหา Power BI ไปยังผู้ใช้ที่เป็นผู้เยี่ยมชมจากภายนอกด้วย Azure AD B2B](service-admin-azure-ad-b2b.md)
 * **เมตริกการใช้งานสำหรับแดชบอร์ดและรายงาน** - เมตริกการใช้งานยังไม่มีสำหรับรายงานและแดชบอร์ด ลูกค้าสามารถใช้ข้อมูลบันทึกการตรวจสอบ เพื่อดูข้อมูลการใช้งานสำหรับเนื้อหาในองค์กรของพวกเขา
 * **กระแสข้อมูล** - กระแสข้อมูลไม่พร้อมใช้งาน
@@ -103,7 +102,7 @@ Azure จะถูกกระจายใน cloud หลายตัว ตา
 
 * [ลงทะเบียน Power BI สำหรับส่วนราชการสหรัฐ](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">สาธิตการใช้ Power BI สำหรับส่วนราชการสหรัฐ</a>
-* [Guided learning สำหรับ Power BI](guided-learning/index.md)
+* [Guided learning สำหรับ Power BI](guided-learning/index.yml)
 * [เริ่มต้นใช้งาน Power BI service](service-get-started.md)
 * [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
 

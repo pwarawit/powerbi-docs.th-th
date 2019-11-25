@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c24ed4b605b0e0d8176fc5428d6c30aa2dd131cd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7edfe46173b1d9b2537c5fd980b245af09fd1f53
+ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872255"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "74178288"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>ลงทะเบียนหน่วยราชการสหรัฐของคุณใน Power BI service
 การ**บริการ Power BI**มีเวอร์ชันพร้อมใช้งานสำหรับลูกค้าส่วนราชการสหรัฐอเมริกา ซึ่งเป็นส่วนหนึ่งของการของการสมัครใช้งาน**ชุมชน Office 365 สำหรับส่วนราชการสหรัฐ** การ**บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้ถูกออกแบบมาสำหรับลูกค้าส่วนราชการสหรัฐและแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI**
@@ -122,7 +122,7 @@ ms.locfileid: "73872255"
 มีหลากหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI สำหรับข้อมูลและการเรียนรู้เพิ่มเติม รวมถึงบทความที่แสดงวิธีการลงทะเบียนใช้บริการ ให้ดูทรัพยากรต่อไปนี้
 
 * [ภาพรวมของ Power BI สำหรับส่วนราชการสหรัฐ](service-govus-overview.md)
-* [Guided learning สำหรับ Power BI](guided-learning/index.md)
+* [Guided learning สำหรับ Power BI](guided-learning/index.yml)
 * [เริ่มต้นใช้งาน Power BI service](service-get-started.md)
 * [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
 

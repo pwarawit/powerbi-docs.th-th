@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 183ce793342253775f641406620447e7b0f44020
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875118"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265870"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>การตั้งค่าการแสดงหน้าในรายงาน Power BI
 เราเข้าใจดีว่าการรักษาให้พิกเซลของการจัดหน้ารายงานสมบูรณ์เป็นเรื่องสำคัญ บางครั้ง การทำดังกล่าวเป็นไปได้ยากเนื่องจากคุณและเพื่อนร่วมงานของคุณอาจดูรายงานเหล่านั้นบนหน้าจอด้วยอัตราส่วนกว้างยาวและขนาดแตกต่างกัน 
@@ -66,7 +66,6 @@ ms.locfileid: "73875118"
 
 * อัตราส่วน 4:3
 * อัตราส่วน 16:9 (ค่าเริ่มต้น)
-* Cortana
 * จดหมาย
 * แบบกำหนดเอง (ความสูงและความกว้างเป็นพิกเซล)
 
