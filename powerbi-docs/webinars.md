@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: bd6270731f79ac5a1e270ac36699470a0e6df978
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060446"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164246"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
@@ -28,6 +28,10 @@ ms.locfileid: "74060446"
 **วิธีการที่ Microsoft เปลี่ยนแปลงการป้องกันข้อมูล BI**
 <br>โดย Anton Fritz และ Adi Regev
 <br>[ลงทะเบียนเพื่อรับชมในวันที่ 4 ธันวาคมนี้](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**เก้าแนวโน้มในการกำหนดรูปแบบการวิเคราะห์ข้อมูลขนาดใหญ่ในอนาคต**
+<br>โดย Vijay Gopalakrishnan
+<br>[ลงทะเบียนเพื่อรับชมในวันที่ 18 ธันวาคมนี้](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 >[การสัมมนาผ่านเว็บที่กำลังมาถึงจากชุมชน Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -87,7 +91,7 @@ ms.locfileid: "74060446"
 
 ### <a name="getting-started"></a>เริ่มต้นใช้งาน
 
-**ทำให้กระบวนการทางธุรกิจประจำวันดำเนินการแบบอัตโนมัติด้วย Power BI, PowerApps, และ Microsoft Flow**
+**ทำให้กระบวนการทางธุรกิจประจำวันเป็นแบบอัตโนมัติด้วย Power BI, PowerApps และ Power Automate**
 <br>โดย Wim Coorevits and Enrique Plaza Garcia
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
@@ -107,7 +111,7 @@ ms.locfileid: "74060446"
 <br>โดย Charles Sterling
 <br>[ดูเดี๋ยวนี้](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-**ผลกระทบโดยรวมทางเศรษฐกิจของ Microsoft Flow และ PowerApps**
+**ผลกระทบโดยรวมทางเศรษฐกิจของ Power Automate และ PowerApps**
 <br>โดยคุณ Jonathan Lipsitz และ Enrique Plaza Garcia
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 

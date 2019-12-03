@@ -1,5 +1,5 @@
 ---
-title: ฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันของคุณสำหรับลูกค้าของคุณ
+title: ฝังรายงานที่มีการแบ่งหน้าในแอปพลิเคชันสำหรับลูกค้าของคุณ
 description: เรียนรู้วิธีการรวม หรือฝังรายงานที่มีการแบ่งหน้าของ Power BI ลงในแอปพลิเคชัน โดยใช้ API ของ Power BI
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 11/04/2019
-ms.openlocfilehash: 5611d65ab800c14b2570a12078c08cce5dc58147
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877733"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311427"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>บทช่วยสอน: ฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันสำหรับลูกค้าของคุณ (ตัวอย่าง)
 
@@ -37,6 +37,11 @@ ms.locfileid: "73877733"
 * [ความจุ](#create-a-dedicated-capacity)อย่างน้อย A4 หรือ P1 โดยมีการเปิดใช้งานปริมาณงาน [รายงานที่มีการแบ่งหน้า](../service-admin-premium-workloads.md#paginated-reports)
 
 ถ้าคุณยังไม่มีการสมัครใช้งาน Azure สร้าง[บัญชีฟรี](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)ก่อนที่คุณจะเริ่ม
+
+> [!IMPORTANT]
+> * คุณต้องใช้**โครงร่างสำคัญของบริการ** ผู้ใช้หลักไม่ได้รับการสนับสนุน
+> * แหล่งข้อมูลที่จำเป็นต้องมีการลงชื่อเข้าระบบครั้งเดียว (SSO) ไม่ได้รับการสนับสนุน
+> * ชุดข้อมูล Power BI ไม่ได้รับการสนับสนุนเป็น[แหล่งข้อมูล](../service-get-data.md)
 
 ## <a name="set-up-your-power-bi-environment"></a>ตั้งค่าสภาพแวดล้อม Power BI ของคุณ
 
