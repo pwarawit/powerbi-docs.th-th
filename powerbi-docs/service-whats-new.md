@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: c470eba3998e04fde8c00c619077d5d8db444b42
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099733"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265334"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
 ตรวจสอบหน้านี้สำหรับปัญหาที่ทราบแล้วและคุณลักษณะที่เผยแพร่ล่าสุดในการ**บริการ Power BI** สำหรับข้อมูล "มีอะไรใหม่" ที่เกี่ยวข้อง ดู:
@@ -30,7 +30,7 @@ ms.locfileid: "74099733"
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 ### <a name="october-2019"></a>ตุลาคม 2019
-* การดำเนินการใหม่ของ Microsoft Flow เพื่อรีเฟรชชุดข้อมูล Power BI
+* การดำเนินการใหม่ของ Power Automate เพื่อรีเฟรชชุดข้อมูล Power BI
 * [รายการผู้ติดต่อ](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) สำหรับรายงานและแดชบอร์ดในบริการของ Power BI
 
 ## <a name="previous-months-2019"></a>เดือนก่อนหน้านี้(2019)
@@ -228,7 +228,7 @@ ms.locfileid: "74099733"
 * [บันทึกการตรวจสอบ Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) ในพอร์ทัลการตรวจสอบ Office 365 พร้อมใช้งานทั่วโลก
 * เวอร์ชัน 1.4 ของ[เครื่องมือสำหรับนักพัฒนาและ API ภาพแบบกำหนด](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/)ออกสู่ตลาดแล้ว
 * [ชุดคุณลักษณะสตรีมมิ่งแบบเรียลไทม์](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)นำออกสู่ตลาดเพื่อพร้อมใช้งานทั่วไปแล้ว
-* [ส่งข้อมูลไปยัง Power BI โดยใช้ Microsoft Flow](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)โดยไม่ต้องเขียนโค้ดใด ๆ
+* [ส่งข้อมูลไปยัง Power BI โดยใช้ Power Automate](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)โดยไม่ต้องเขียนโค้ดใด ๆ
 * ตัวอย่าง: [สมัครใช้งานหน้ารายงาน](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)เพื่อติดตามข้อมูลของคุณ
 * ใช้ชุดเนื้อหา Azure AD นี้เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับวิธีที่พนักงานและคู่ค้าของคุณกำลังใช้ Azure AD
 
@@ -531,7 +531,6 @@ ms.locfileid: "74099733"
 
 * ค้นหาแนวโน้มโดยอัตโนมัติและเผยให้เห็นรูปแบบในชุดข้อมูลด้วยข้อมูลเชิงลึกด่วน: [วิดีโอ](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx)หรือ[บทความ](consumer/end-user-insights.md)
 * [แสดงภาพข้อมูล VMob ของคุณใน Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
-* [การรวม Ppower BI กับ Cortana](https://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [แสดงตัวอย่างของเกตเวย์ Power BI สำหรับองค์กร](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
 * การแนะนำชุดเนื้อหาใหม่: [ค้นหาการวิเคราะห์จาก Bing บนแดชบอร์ด Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
 * การเพิ่มประสิทธิภาพใหม่ ๆ ที่นักพัฒนามุ่งเน้น: [API สองแบบใหม่และการลงทะเบียนแอปที่ง่ายขึ้น](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)

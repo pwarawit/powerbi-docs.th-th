@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 3/27/2019
-ms.openlocfilehash: 8d320b5fa1387ebf21ecd8c3c1db70b9892154e7
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: f8ca6aae805ae3184a1c54d8707fcb9a3cfd32e7
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128059"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265250"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
 
@@ -25,7 +25,7 @@ ms.locfileid: "74128059"
 
 ## <a name="what-is-appsource"></a>AppSource คืออะไร
 
-สามารถหาแอป SaaS และ add-in สำหรับผลิตภัณฑ์และบริการของ Microsoft ได้ใน **AppSource** [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) เชื่อมต่อผู้ใช้ Office 365, Dynamics 365, Cortana Intelligence ฯลฯ นับล้านคน ไปยังโซลูชันที่ช่วยให้พวกเขาทำงานสำเร็จ ได้อย่างมีประสิทธิภาพขึ้น เข้าใจได้ลึกซึ้งขึ้น หรือสวยงามขึ้นกว่าที่เคย
+สามารถหาแอป SaaS และ add-in สำหรับผลิตภัณฑ์และบริการของ Microsoft ได้ใน **AppSource** [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) เชื่อมต่อผู้ใช้ Office 365, Dynamics 365, และอื่น ๆ นับล้านคน ไปยังโซลูชันที่ช่วยให้พวกเขาสามารถทำงานสำเร็จได้อย่างมีประสิทธิภาพขึ้น เข้าใจได้ลึกซึ้งขึ้น หรือสวยงามขึ้นกว่าที่เคย
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>การเตรียมเพื่อส่งวิชวลแบบกำหนดเองของคุณ
 

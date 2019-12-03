@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 9bbba47456d9c5bed5c8cd77858b6dbaeefce5a1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877655"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264186"
 ---
 # <a name="service-principal-with-power-bi"></a>บริการหลักพร้อมด้วย Power BI
 
@@ -93,7 +93,7 @@ ms.locfileid: "73877655"
    > [!Important]
    > เมื่อคุณเปิดใช้งานบริการหลักที่จะใช้กับ Power BI สิทธิ์ AD ของแอปพลิเคชันไม่มีผลบังคับใช้อีกต่อไป มีจัดการสิทธิ์ของแอปพลิเคชันแล้วผ่านทางพอร์ทัลผู้ดูแลระบบ Power BI
 
-2.  **แนะนำ** - สร้าง[กลุ่มความปลอดภัยใน Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) และเพิ่มแอปพลิเคชันที่คุณสร้างในกลุ่มความปลอดภัยนั้น คุณสามารถสร้างกลุ่มความปลอดภัย AAD ด้วย[PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)ได้
+2.  **แนะนำ** - สร้างกลุ่มความปลอดภัยใน Azure Active Directory (AAD) และเพิ่ม[แอปพลิเคชัน](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)ที่คุณสร้างในกลุ่มความปลอดภัยนั้น คุณสามารถสร้างกลุ่มความปลอดภัย AAD ด้วย[PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)ได้
 
     ด้านล่างเป็นตัวอย่างสคริปต์ในการสร้างกลุ่มความปลอดภัยใหม่และเพิ่มแอปพลิเคชันในกลุ่มความปลอดภัยนั้น
 

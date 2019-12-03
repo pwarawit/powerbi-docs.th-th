@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f28ffa89647272306dc9cecb5c93928d36805d2a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880472"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311509"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>การใช้การรักษาความปลอดภัยระดับแถวในรายงานที่มีการแบ่งหน้าแบบฝัง (ตัวอย่าง)
 
@@ -30,7 +30,7 @@ ms.locfileid: "73880472"
 
 หลังจากกำหนดพารามิเตอร์เป็น **UserID** แล้ว ให้ใช้ API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) เพื่อรับโทเค็นแบบฝัง
 
-## <a name="use-uderid-as-a-filter-at-report-or-query-level"></a>ใช้ UderID เป็นตัวกรองที่ระดับรายงานหรือคิวรี
+## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>ใช้ UserID เป็นตัวกรองที่ระดับรายงานหรือคิวรี
 
 คุณสามารถใช้ **UserId** เป็น *ตัวกรอง* หรือใน *คิวรี* กับแหล่งข้อมูลใน [ตัวช่วยสร้างรายงานที่มีการแบ่งหน้าของ Power BI](../report-builder-power-bi.md)
 
@@ -66,7 +66,7 @@ ms.locfileid: "73880472"
 
     ![พารามิเตอร์ของตัวช่วยสร้างรายงานของ Power BI](media/embedded-paginated-reports-secure-data/parameters.png)
 
-2. ใน **ชื่อพารามิเตอร์** ให้ป้อน **@UserID** และใน**ค่าพารามิเตอร์** ให้เพิ่ม **[&UserID]**
+2. ใน **ชื่อพารามิเตอร์** ให้ป้อน **\@UserID** และใน**ค่าพารามิเตอร์** ให้เพิ่ม **[&UserID]**
 
     ![ชื่อพารามิเตอร์ของตัวช่วยสร้างรายงานของ Power BI](media/embedded-paginated-reports-secure-data/parameter-name.png) 
 

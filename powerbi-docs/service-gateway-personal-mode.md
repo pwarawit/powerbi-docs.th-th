@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5138536fca255638e2cef802b885be1f5dfcbef9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e6adb5c07c18a72d278b17e70fa7f06d1f6fd5f
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881527"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164169"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>ใช้เกตเวย์ส่วนบุคคลใน Power BI
 
@@ -31,7 +31,7 @@ ms.locfileid: "73881527"
 
 |   |เกตเวย์ข้อมูลภายในองค์กร | เกตเวย์ข้อมูลภายในองค์กร (โหมดส่วนบุคคล) |
 | ---- | ---- | ---- |
-|บริการระบบคลาวด์ที่ได้รับการสนับสนุน |Power BI, PowerApps, Azure Logic Apps, Microsoft Flow, Azure Analysis Services, Data Flows |Power BI |
+|บริการระบบคลาวด์ที่ได้รับการสนับสนุน |Power BI, PowerApps, Azure Logic Apps, Power Automate, Azure Analysis Services, Data Flows |Power BI |
 |เรียกใช้ |ตามที่กำหนดค่าโดยผู้ใช้ที่มีสิทธิ์เข้าถึงเกตเวย์ |เช่นเดียวกับคุณสำหรับการรับรองความถูกต้องของ Windows และการกำหนดค่าโดยคุณสำหรับชนิดการรับรองความถูกต้องอื่นๆ |
 |สามารถติดตั้งได้เฉพาะในฐานะผู้ดูแลระบบคอมพิวเตอร์เท่านั้น |ใช่ |ไม่ใช่ |
 |เกตเวย์ส่วนกลางและการจัดการแหล่งข้อมูล |ใช่ |ไม่ใช่ |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8f5d11b53526c5d266b96a8f21c42fecc66d3795
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871560"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74163769"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>การแจ้งเตือนข้อมูลในบริการของ Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "73871560"
 
 คุณสามารถตั้งค่าการแจ้งเตือนบนไทล์ถ้าคุณมีสิทธิ์การใช้งาน Power BI Pro คุณยังสามารถตั้งค่าการแจ้งเตือนถ้ามีคนแชร์แดชบอร์ดที่อยู่ใน[ความจุพรีเมียม](service-premium-what-is.md) การแจ้งเตือนสามารถตั้งค่าบนหมุดไทล์ที่ปักหมุดจากวิชวลรายงานเท่านั้น และบนหน้าปัดวัด Kpi และการ์ดเท่านั้น คุณสามารถตั้งค่าการแจ้งเตือนบนวิชวลที่สร้างขึ้นจากชุดข้อมูลการสตรีมที่คุณปักหมุดจากรายงานไปยังแดชบอร์ดได้ ไม่สามารถตั้งค่าการแจ้งเตือนบนไทล์การสตรีมที่สร้างขึ้นโดยตรงบนแดชบอร์ดโดยใช้**เพิ่มไทล์** > **ข้อมูลการสตรีมแบบกำหนเอง**
 
-มีเพียงคุณที่สามารถดูการแจ้งเตือนที่คุณตั้งไว้ แม้ว่าคุณได้แชร์แดชบอร์ดของคุณ แม้แต่เจ้าของแดชบอร์ดก็มองไม่เห็นการแจ้งเตือนที่คุณตั้งไว้ในมุมมองแดชบอร์ดของพวกเขาได้ การแจ้งเตือนข้อมูลจะถูกซิงโครไนซ์เต็มรูปแบบข้ามแพลตฟอร์ม ตั้งค่าและดูการแจ้งเตือนข้อมูลได้[ในแอป mobile Power BI](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)และใน Power BI service ไม่สามารถใช้กับ Power BI Desktop ได้ คุณสามารถทำให้เป็นอัตโนมัติและรวมการแจ้งเตือนด้วย Microsoft Flow คุณสามารถลองใช้งานด้วยตัวคุณเองในบทความ [Microsoft Flow และ Power BI ](service-flow-integration.md)นี้ได้
+มีเพียงคุณที่สามารถดูการแจ้งเตือนที่คุณตั้งไว้ แม้ว่าคุณได้แชร์แดชบอร์ดของคุณ แม้แต่เจ้าของแดชบอร์ดก็มองไม่เห็นการแจ้งเตือนที่คุณตั้งไว้ในมุมมองแดชบอร์ดของพวกเขาได้ การแจ้งเตือนข้อมูลจะถูกซิงโครไนซ์เต็มรูปแบบข้ามแพลตฟอร์ม ตั้งค่าและดูการแจ้งเตือนข้อมูลได้[ในแอป mobile Power BI](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)และใน Power BI service ไม่สามารถใช้กับ Power BI Desktop ได้ คุณสามารถทำให้เป็นอัตโนมัติและรวมการแจ้งเตือนด้วย Power Automate คุณสามารถลองใช้งานด้วยตัวคุณเองในบทความ [Power Automate และ Power BI ](service-flow-integration.md)นี้ได้
 
 ![ไทล์](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -125,7 +125,7 @@ ms.locfileid: "73871560"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-* [สร้าง Microsoft Flow ที่มีการแจ้งเตือนข้อมูล](service-flow-integration.md)
+* [สร้าง Power Automate ที่มีการแจ้งเตือนข้อมูล](service-flow-integration.md)
 
 * [ตั้งค่าการแจ้งเตือนข้อมูลบนอุปกรณ์เคลื่อนที่ของคุณ](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 

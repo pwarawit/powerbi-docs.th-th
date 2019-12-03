@@ -1,5 +1,5 @@
 ---
-title: การรวม Power BI ด้วย Microsoft Flow
+title: การรวม Power BI กับ Power Automate
 description: เรียนรู้วิธีสร้างโฟลวที่์ถูกทริกเกอร์ ด้วยการแจ้งเตือนข้อมูล Power BI
 author: mgblythe
 ms.reviewer: ''
@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: a5b5a34e7cd61ac9d197faa0ef4410cd9558f597
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c8d768e1d02846eca10c6100aa8ec30dbb7f704b
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881838"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164323"
 ---
-# <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow และ Power BI
+# <a name="power-automate-and-power-bi"></a>Power Automate และ Power BI
 
-[Microsoft Flow](https://flow.microsoft.com/documentation/getting-started)คือ SaaS ที่นำเสนอสำหรับการทำงานอัตโนมัติสำหรับเวิร์กโฟลว์ในแอปพลิเคชันที่หลากหลายและบริการ SaaS ที่ผู้ใช้ทางธุรกิจใช้อยู่ ด้วยโฟลว์ คุณสามารถทำงานโดยอัตโนมัติ โดยการรวมแอปโปรดของคุณและบริการที่ (รวมถึง Power BI) เพื่อรับการแจ้งเตือน การซิงโครไนซ์ไฟล์ การเก็บรวบรวมข้อมูล และอื่น ๆ การทำงานซ้ำ ๆ กลายเป็นเรื่องง่าย ด้วยเวิร์คโฟลว์อัตโนมัติ
+[Power Automate](https://flow.microsoft.com/documentation/getting-started) เป็นบริการ SaaS ที่นำเสนอสำหรับการจัดการเวิร์กโฟลว์อัตโนมัติในแอปพลิเคชันและบริการ SaaS ที่ผู้ใช้ทางธุรกิจใช้อยู่ ด้วยโฟลว์ คุณสามารถทำงานโดยอัตโนมัติ โดยการรวมแอปโปรดของคุณและบริการที่ (รวมถึง Power BI) เพื่อรับการแจ้งเตือน การซิงโครไนซ์ไฟล์ การเก็บรวบรวมข้อมูล และอื่น ๆ การทำงานซ้ำ ๆ กลายเป็นเรื่องง่าย ด้วยเวิร์คโฟลว์อัตโนมัติ
 
 [เริ่มต้นใช้งานโฟลว์ตอนนี้เลย](https://flow.microsoft.com/documentation/getting-started)
 
@@ -30,12 +30,12 @@ ms.locfileid: "73881838"
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>สร้างโฟลว์ที่ทริกเกอร์ โดยข้อมูลการแจ้งเตือนของ Power BI
 
 ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-บทเรียนนี้จะแสดงวิธีการสร้างโฟลว์ที่แตกต่างกันสองโฟลว์ หนึ่งโฟลว์จากเทมเพลตและอีกหนึ่งทำมาจากเริ่มต้น เพื่อทำตาม[สร้างการแจ้งเตือนข้อมูลใน Power BI](service-set-data-alerts.md)สร้างบัญชีผู้ใช้ฟรีของ Slack และ[ลงชื่อเข้าใช้ Microsoft Flow](https://flow.microsoft.com/#home-signup) (ซึ่งใช้ฟรี)
+บทเรียนนี้จะแสดงวิธีการสร้างโฟลว์ที่แตกต่างกันสองโฟลว์ หนึ่งโฟลว์จากเทมเพลตและอีกหนึ่งทำมาจากเริ่มต้น เพื่อทำตาม[สร้างการแจ้งเตือนข้อมูลใน Power BI](service-set-data-alerts.md)สร้างบัญชีผู้ใช้ฟรีของ Slack และ[ลงชื่อเข้าใช้ Power Automate](https://flow.microsoft.com/#home-signup) (ซึ่งใช้ฟรี)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>สร้างโฟลว์ที่ใช้ Power BI จากเทมเพลต
 ในงานนี้ เราจะใช้เทมเพลตเพื่อสร้างโฟลว์อย่างง่ายที่จะถูกทริกเกอร์ โดยการแจ้งเตือนข้อมูล Power BI (notification)
 
-1. ลงชื่อเข้าใช้ Microsoft Flow (flow.microsoft.com)
+1. ลงชื่อเข้าใช้ Power Automate (flow.microsoft.com)
 2. ให้เลือก**โฟลว์ของฉัน**
    
    ![แถบเมนโฟลว์](media/service-flow-integration/power-bi-my-flows.png)
@@ -80,7 +80,7 @@ ms.locfileid: "73881838"
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>สร้างโฟลว์ที่ใช้ Power BI แบบตั้งแต่เริ่มต้น (ว่าง)
 ในงานนี้ เราจะสร้างโฟลว์ง่ายๆ ตั้งแต่เริ่มต้น ซึ่งจะถูกทริกเกอร์โดยการแจ้งเตือนข้อมูล Power BI (notification)
 
-1. ลงชื่อเข้าใช้ Microsoft Flow
+1. ลงชื่อเข้าใช้ Power Automate
 2. ให้เลือก**โฟลว์ของฉัน** > **สร้างจากเอกสารเปล่า**
    
    ![แถบเมนูด้านบนของโฟลว์](media/service-flow-integration/power-bi-my-flows.png)
@@ -107,7 +107,7 @@ ms.locfileid: "73881838"
     ![โฟลว์ทริกเกอร์การแจ้งเตือนใน Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [เริ่มต้นใช้งาน Microsoft Flow](https://flow.microsoft.com/documentation/getting-started/)
+* [เริ่มต้นใช้งาน Power Automate](https://flow.microsoft.com/documentation/getting-started/)
 * [ตั้งค่าการแจ้งเตือนข้อมูลใน Power BI service](service-set-data-alerts.md)
 * [ตั้งค่าการแจ้งเตือนข้อมูลบน iPhone ของคุณ](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

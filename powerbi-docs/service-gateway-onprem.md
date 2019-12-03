@@ -9,18 +9,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: b01a3ef5832541822aa9311df14289285f601b2b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f149b816f7489b6a26e86af6360062d86083a7e5
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872437"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164287"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>เกตเวย์ข้อมูลในองค์กรคืออะไร?
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-เกตเวย์ข้อมูลภายในองค์กรทำหน้าที่เป็นสะพาน โดยให้บริการการถ่ายโอนข้อมูลที่รวดเร็วและปลอดภัยระหว่างข้อมูลภายในองค์กร (ข้อมูลที่ไม่ได้อยู่ในระบบคลาวด์) และบริการคลาวด์ของ Microsoft อีกหลายบริการ บริการคลาวด์เหล่านี้ประกอบรวมด้วย Power BI, PowerApps, Microsoft Flow, Azure Analysis Services และ Azure Logic Apps โดยการใช้เกตเวย์ องค์กรสามารถเก็บฐานข้อมูลและแหล่งข้อมูลอื่น ๆ บนเครือข่ายภายในองค์กรของตนได้ และยังใช้ข้อมูลภายในองค์กรในบริการคลาวด์ได้อย่างปลอดภัย
+เกตเวย์ข้อมูลภายในองค์กรทำหน้าที่เป็นสะพาน โดยให้บริการการถ่ายโอนข้อมูลที่รวดเร็วและปลอดภัยระหว่างข้อมูลภายในองค์กร (ข้อมูลที่ไม่ได้อยู่ในระบบคลาวด์) และบริการคลาวด์ของ Microsoft อีกหลายบริการ บริการคลาวด์เหล่านี้ประกอบรวมด้วย Power BI, PowerApps, Power Automate, Azure Analysis Services และ Azure Logic Apps โดยการใช้เกตเวย์ องค์กรสามารถเก็บฐานข้อมูลและแหล่งข้อมูลอื่น ๆ บนเครือข่ายภายในองค์กรของตนได้ และยังใช้ข้อมูลภายในองค์กรในบริการคลาวด์ได้อย่างปลอดภัย
 
 ## <a name="how-the-gateway-works"></a>วิธีการทำงานของเกตเวย์
 

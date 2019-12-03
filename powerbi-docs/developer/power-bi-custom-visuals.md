@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a45566d6fe9f4833ebed91e7c10656a8ca1c6961
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: e68d886564552d1b1cb2dc9e7c018c65a5cca039
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102076"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265211"
 ---
 # <a name="visuals-in-power-bi"></a>วิชวลใน Power BI
 
@@ -49,7 +49,7 @@ ms.locfileid: "74102076"
 
 สมาชิกในชุมชนและ Microsoft ได้มอบส่วนแสดงผล Power BI ของพวกเขาเพื่อประโยชน์สาธารณะ และเผยแพร่ทางตลาดการค้า [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) คุณสามารถดาวน์โหลดภาพเหล่านี้และเพิ่มลงในรายงาน Power BI ของคุณได้ Microsoft ได้รับการทดสอบและอนุมัติส่วนแสดงผล Power BI เหล่านี้ทั้งหมด ทั้งฟังก์ชันการใช้งานและคุณภาพ
 
-AppSource [คืออะไร?](office-store.md) ซึ่งเป็นที่ที่คุณสามารถค้นหาแอป add-in และส่วนขยายสำหรับซอฟต์แวร์ Microsoft ของคุณ AppSource เชื่อมต่อผู้ใช้ของผลิตภัณฑ์ เช่น Office 365, Azure, Dynamics 365, Cortana และ Power BI นับล้านคน ไปยังโซลูชันที่ช่วยให้พวกเขาทำงานสำเร็จได้อย่างมีประสิทธิภาพขึ้น เข้าใจได้ลึกซึ้งขึ้น หรือสวยงามขึ้นกว่าที่เคย
+AppSource [คืออะไร?](office-store.md) ซึ่งเป็นที่ที่คุณสามารถค้นหาแอป add-in และส่วนขยายสำหรับซอฟต์แวร์ Microsoft ของคุณ AppSource เชื่อมต่อผู้ใช้ของผลิตภัณฑ์ เช่น Office 365, Azure, Dynamics 365 และ Power BI นับล้านคน ไปยังโซลูชันที่ช่วยให้พวกเขาทำงานสำเร็จได้อย่างมีประสิทธิภาพขึ้น เข้าใจได้ลึกซึ้งขึ้น หรือสวยงามขึ้นกว่าที่เคย
 
 ### <a name="certified-visuals"></a>วิชวลที่ผ่านการรับรองแล้ว
 
