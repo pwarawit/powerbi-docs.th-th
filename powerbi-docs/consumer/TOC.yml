@@ -58,6 +58,8 @@
               href: end-user-pdf.md
             - name: เพิ่มบุ๊กมาร์กไปยังรายงาน
               href: end-user-bookmarks.md
+            - name: รายงานที่มีการแบ่งหน้า
+              href: end-user-paginated-report.md
         - name: การแสดงผลข้อมูลด้วยภาพ
           items:
             - name: ฉันสามารถทำอะไรกับการแสดงภาพได้บ้าง
