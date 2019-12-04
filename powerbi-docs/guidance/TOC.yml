@@ -16,10 +16,18 @@
           href: import-modeling-data-reduction.md
         - name: ฟังก์ชันการแบ่งเทียบกับตัวดำเนินการหาร (/)
           href: dax-divide-function-operator.md
+        - name: ใช้ SELECTEDVALUE แทน VALUES
+          href: dax-selectedvalue.md
         - name: ความสำคัญของการพับคิวรี
           href: power-query-folding.md
         - name: การใช้ฟังก์ชันข้อผิดพลาดที่เหมาะสม
           href: dax-error-functions.md
+        - name: ใช้ตัวแปรเพื่อปรับปรุงสูตร
+          href: dax-variables.md
+        - name: COUNTROWS แทน COUNT
+          href: dax-countrows.md
+        - name: หลีกเลี่ยงการแปลง BLANK ไปเป็นค่า
+          href: dax-avoid-converting-blank.md
         - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
           href: ../service-dataflows-best-practices.md
         - name: คำแนะนำแบบจำลอง DirectQuery ใน Power BI Desktop
