@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/26/2019
+ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874133"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565774"
 ---
 # <a name="install-power-bi-report-server"></a>ติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 
@@ -21,9 +21,9 @@ ms.locfileid: "73874133"
 
 ## <a name="download-power-bi-report-server"></a>ดาวน์โหลด Power BI Report Server
 
-[ดาวน์โหลดเซิร์ฟเวอร์รายงาน Microsoft Power BI](https://www.microsoft.com/download/details.aspx?id=56722) จากศูนย์ดาวน์โหลด Microsoft
+ในหน้า[การรายงานภายในองค์กรกับเซิร์ฟเวอร์รายงาน Power BI](https://powerbi.microsoft.com/report-server/) เลือก**ดาวน์โหลดรุ่นทดลองใช้ฟรี**
 
-ยังมีรุ่นทดลองใช้ฟรี ในหน้า[การรายงานภายในองค์กรกับเซิร์ฟเวอร์รายงาน Power BI](https://powerbi.microsoft.com/report-server/) เลือก**ดาวน์โหลดรุ่นทดลองใช้ฟรี**
+เมื่อคุณเรียกใช้ไฟล์ PowerBIReportServer.exe คุณจะเลือกรุ่นทดลองใช้ฟรีหรือป้อนรหัสผลิตภัณฑ์ของคุณ อ่านรายละเอียด
 
 ## <a name="before-you-install"></a>ก่อนที่คุณจะติดตั้ง
 
@@ -43,7 +43,7 @@ ms.locfileid: "73874133"
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
-ถ้าคุณซื้อ Power BI Premium ภายในแท็บ**การตั้งค่า Premium**  ของพอร์ทัลผู้ดูแลระบบ Power BI คุณสามารถเข้าถึงคีย์ผลิตภัณฑ์ของเซิร์ฟเวอร์รายงาน Power BI ซึ่งใช้ได้เฉพาะผู้ดูแลระบบส่วนกลาง หรือผู้ใช้ที่ได้รับการกำหนดบทบาทเป็นผู้ดูแลระบบบริการของ Power BI เท่านั้น
+ถ้าคุณซื้อ Power BI Premium แล้ว ภายในแท็บ **การตั้งค่า Premium** ของพอร์ทัลผู้ดูแลระบบ Power BI คุณสามารถเข้าถึงคีย์ผลิตภัณฑ์ของเซิร์ฟเวอร์รายงาน Power BI พอร์ทัลผู้ดูแลระบบพร้อมใช้งานสำหรับผู้ดูแลระบบส่วนกลาง หรือผู้ใช้ที่ได้รับการกำหนดบทบาทเป็นผู้ดูแลระบบบริการของ Power BI เท่านั้น
 
 ![การตั้งค่า Premium](../report-server/media/install-report-server/pbirs-product-key.png "คีย์เซิร์ฟเวอร์รายงาน Power BI ภายในการตั้งค่าขั้นสูง")
 
@@ -70,7 +70,7 @@ ms.locfileid: "73874133"
 
     ![เลือกรุ่น](media/install-report-server/pbireportserver-choose-edition.png)
 
-    คุณสามารถเลือก “รุ่นการประเมิน” หรือ “รุ่นนักพัฒนา” จากรายการดรอปดาวน์
+    เลือก “รุ่นการประเมิน” หรือ “รุ่นนักพัฒนา”
 
     ![รุ่น 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
@@ -78,7 +78,7 @@ ms.locfileid: "73874133"
 4. อ่านและยอมรับเงื่อนไขและข้อกำหนดสิทธิ์การใช้งาน จากนั้นเลือก**ถัดไป**
 
     ![ข้อกำหนดสิทธิ์การใช้งาน](media/install-report-server/pbireportserver-eula.png)
-5. คุณจำเป็นต้องมีกลไลจัดการฐานข้อมูลที่พร้อมใช้งานเพื่อจัดเก็บฐานข้อมูลเซิร์ฟเวอร์รายงาน เลือก**ถัดไป**เพื่อติดตั้งเซิร์ฟเวอร์รายงานเท่านั้น
+5. คุณต้องมีกลไลจัดการฐานข้อมูลที่พร้อมใช้งานเพื่อจัดเก็บฐานข้อมูลเซิร์ฟเวอร์รายงาน เลือก**ถัดไป**เพื่อติดตั้งเซิร์ฟเวอร์รายงานเท่านั้น
 
     ![ติดตั้งไฟล์เท่านั้น](media/install-report-server/pbireportserver-install-files-only.png)
 6. ระบุตำแหน่งการติดตั้งสำหรับเซิร์ฟเวอร์รายงาน เลือก**ติดตั้ง**เพื่อดำเนินการต่อ
@@ -95,11 +95,11 @@ ms.locfileid: "73874133"
 
 หลังจากที่คุณเลือก**กำหนดค่าเซิร์ฟเวอร์รายงาน**ในการตั้งค่า คุณจะพบ Reporting Services Configuration Manager ดูที่[ตัวจัดการการกำหนดค่าบริการการรายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)สำหรับข้อมูลเพิ่มเติม
 
-คุณจำเป็นต้อง[สร้างฐานข้อมูลเซิร์ฟเวอร์รายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database)เพื่อดำเนินการกำหนดค่าเริ่มต้นของ “บริการการรายงาน” ให้เสร็จสิ้น เซิร์ฟเวอร์ฐานข้อมูล SQL Server จะต้องทำตามขั้นตอนต่อไปนี้
+เพื่อดำเนินการกำหนดค่าเริ่มต้นของ “บริการการรายงาน” ให้เสร็จสิ้น คุณต้อง[สร้างฐานข้อมูลเซิร์ฟเวอร์รายงาน](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) เซิร์ฟเวอร์ฐานข้อมูล SQL Server จะต้องทำตามขั้นตอนต่อไปนี้
 
 ### <a name="creating-a-database-on-a-different-server"></a>สร้างฐานข้อมูลในเซิร์ฟเวอร์อื่น
 
-ถ้าคุณกำลังสร้างฐานข้อมูลเซิร์ฟเวอร์รายงานในเซิร์ฟเวอร์ฐานข้อมูลบนคอมพิวเตอร์เครื่องอื่น คุณจำเป็นต้องเปลี่ยนบัญชีบริการสำหรับเซิร์ฟเวอร์รายงานให้เป็นข้อมูลประจำตัวที่เซิร์ฟเวอร์ฐานข้อมูลจดจำได้ 
+ถ้าคุณกำลังสร้างฐานข้อมูลเซิร์ฟเวอร์รายงานในเซิร์ฟเวอร์ฐานข้อมูลบนคอมพิวเตอร์เครื่องอื่น ให้เปลี่ยนบัญชีบริการสำหรับเซิร์ฟเวอร์รายงานให้เป็นข้อมูลประจำตัวที่เซิร์ฟเวอร์ฐานข้อมูลจดจำได้ 
 
 ตามค่าเริ่มต้น เซิร์ฟเวอร์รายงานใช้บัญชีผู้ใช้บริการเสมือน ถ้าคุณพยายามที่จะสร้างฐานข้อมูลบนเซิร์ฟเวอร์อื่น คุณอาจได้รับข้อผิดพลาดต่อไปนี้ในขั้นตอนการใช้สิทธิ์การเชื่อมต่อที่นำมาปรับใช้
 
@@ -137,9 +137,9 @@ ms.locfileid: "73874133"
 
 ## <a name="firewall"></a>ไฟร์วอลล์
 
-ถ้าคุณกำลังเข้าถึงเซิร์ฟเวอร์รายงานจากเครื่องระยะไกล คุณต้องการตรวจสอบให้แน่ใจว่า หากมีไฟร์วอลล์ คุณกำหนดค่ากฎไฟร์วอลล์แล้วใช่หรือไม่
+ถ้าคุณกำลังเข้าถึงเซิร์ฟเวอร์รายงานจากเครื่องระยะไกล กรุณาตรวจสอบให้แน่ใจว่าคุณได้กำหนดกฎไฟร์วอลล์แล้วใช่หรือไม่ หากมีไฟร์วอลล์อยู่
 
-คุณจำเป็นต้องเปิดพอร์ต TCP ที่คุณกำหนดค่าสำหรับ Web Service URL และ Web Portal URL ของคุณ ซึ่งจะได้รับการกำหนดค่าบนพอร์ต TCP 80 ตามค่าเริ่มต้น
+เปิดพอร์ต TCP ที่คุณกำหนดค่าสำหรับ Web Service URL และ Web Portal URL ของคุณ ซึ่งจะกำหนดค่าบนพอร์ต TCP 80 ตามค่าเริ่มต้น
 
 ## <a name="additional-configuration"></a>การกำหนดค่าเพิ่มเติม
 

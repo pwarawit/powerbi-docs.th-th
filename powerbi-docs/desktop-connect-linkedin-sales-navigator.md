@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5631e4144cf202591e202fd46405815b38ceb42d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016261"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565637"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>เชื่อมต่อ LinkedIn Sales Navigator ใน Power BI Desktop
 
@@ -111,6 +111,10 @@ ms.locfileid: "74016261"
 แอปแม่แบบ จากนั้นรีเฟรชข้อมูลในแอปด้วยข้อมูลข้องคุณ คุณยังตั้งค่าการรีเฟรชตามกำหนดการได้เพื่อให้ข้อมูลในแอปเป็นปัจจุบันตามความถี่การรีเฟรชที่คุณระบุ 
 
 เมื่อข้อมูลอัปเดต คุณจะเห็นข้อมูลของคุณปรากฎในแอป
+
+## <a name="getting-help"></a>การขอความช่วยเหลือ
+
+หากคุณประสบปัญหาเมื่อเชื่อมต่อกับข้อมูลของคุณ คุณสามารถติดต่อฝ่ายสนับสนุน LinkedIn Sales Navigator ได้ที่ https://www.linkedin.com/help/sales-navigator 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 มีข้อมูลหลากหลายประเภทที่คุณสามารถเชื่อมต่อโดยใช้ Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแหล่งข้อมูล โปรดดูทรัพยากรต่อไปนี้:

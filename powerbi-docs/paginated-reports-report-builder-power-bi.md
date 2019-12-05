@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 09/24/2019
-ms.openlocfilehash: 9e49e8e70e7bc499fbcfe0c263bdd8315f2c7dbe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/27/2019
+ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874707"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565702"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร
 
@@ -21,9 +21,9 @@ ms.locfileid: "73874707"
 
 รายงานแบบแบ่งหน้าสามารถมีหลายหน้าได้ ตัวอย่าง รายงานฉบับนี้มี 563 หน้า แต่ละหน้ามีรูปแบบเหมือนกัน โดยใช้หนึ่งหน้าต่อใบแจ้งหนี้หนึ่งใบ และมีส่วนหัวกับส่วนท้ายหน้าซ้ำกัน
 
-![มีการแบ่งหน้า](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+ลองใช้[ห้องปฏิบัติการแบบลงมือทำ: สร้างรายงานที่มีการแบ่งหน้า Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 
-![รายงานแบบแบ่งหน้าในบริการของ Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
+![มีการแบ่งหน้า](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 คุณสามารถดูตัวอย่างรายงานของคุณในตัวสร้างรายงาน แล้วเผยแพร่ไปยังบริการของ Power BI ได้ https://app.powerbi.com คุณต้องมีสิทธิ์การใช้งาน Power BI Pro ในการที่จะเผยแพร่รายงานไปยังบริการ คุณสามารถเผยแพร่และแบ่งปันรายงานที่มีการแบ่งหน้าได้ในพื้นที่ทำงานของฉัน หรือในพื้นที่ทำงาน ตราบเท่าที่พื้นที่ทำงานอยู่ในความจุ Power BI Premium นอกจากนี้ ผู้ดูแลระบบ Power BI ต้องเปิดใช้งานรายงานที่มีการแบ่งหน้าใน[ส่วนความจุแบบพรีเมียม](service-admin-premium-workloads.md#paginated-reports)ของพอร์ทัลผู้ดูแลของ Power BI 
 
@@ -87,6 +87,6 @@ ms.locfileid: "73874707"
 - [ติดตั้งตัวสร้างรายงาน Power BI จากศูนย์ดาวน์โหลด Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [บทช่วยสอน: สร้างรายงานที่มีการแบ่งหน้า](paginated-reports-quickstart-aw.md)
 - [ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรง](paginated-reports-enter-data.md)
-
+- [ห้องปฏิบัติการแบบลงมือทำ: สร้างรายงานที่มีการแบ่งหน้า Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
   
 
