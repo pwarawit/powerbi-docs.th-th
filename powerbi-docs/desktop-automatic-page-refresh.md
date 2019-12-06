@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9f7c745ad251fdb81c7898130cd3ca6c5d32af9
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164160"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548562"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>การรีเฟรชหน้าอัตโนมัติใน Power BI Desktop (ตัวอย่าง)
 
@@ -83,7 +83,7 @@ ms.locfileid: "74164160"
 
 คุณยังสามารถตั้งค่าช่วงการรีเฟรชหน้าอัตโนมัติสำหรับรายงานที่ถูกสร้างขึ้นใน Power BI Desktop และเผยแพร่ไปยังบริการของ Power BI 
 
-การรีเฟรชหน้าอัตโนมัติสำหรับรายงานในบริการของ Power BI ได้รับการกำหนดค่าด้วยขั้นตอนที่คล้ายกับการกำหนดค่าใน Power BI Desktop รูปภาพต่อไปนี้แสดงการกำหนดค่า **การรีเฟรชหน้า**  สำหรับบริการของ Power BI:
+การรีเฟรชหน้าอัตโนมัติสำหรับรายงานในบริการของ Power BI ได้รับการกำหนดค่าด้วยขั้นตอนที่คล้ายกับการกำหนดค่าใน Power BI Desktop เมื่อกำหนดค่าในบริการของ Power BI การรีเฟรชหน้าโดยอัตโนมัติยังสนับสนุนเนื้อหา [Power BI แบบฝังตัว](developer/embedding.md) รูปภาพต่อไปนี้แสดงการกำหนดค่า **การรีเฟรชหน้า**  สำหรับบริการของ Power BI:
 
 ![การรีเฟรชหน้าอัตโนมัติใน Power BI Desktop (ตัวอย่าง)](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 
