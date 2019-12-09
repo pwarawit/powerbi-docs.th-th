@@ -1,20 +1,20 @@
 ---
 title: แก้ไขปัญหาเกตเวย์ - Power BI
 description: บทความนี้มีข้อมูลวิธีการหลาย ๆ วิธีที่คุณสามารถใช้แก้ไขปัญหาที่พบในเกตเวย์ข้อมูลภายในองค์กร และยังให้วิธีแก้ไขปัญหาที่เกิดจากปัญหาที่รู้จักแล้ว รวมถึงเครื่องมือต่าง ๆ ที่มาช่วยคุณแก้ไขปัญหา
-author: mgblythe
-ms.author: mblythe
+author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b420c827df3c18796d0d46514f81170f202eafbd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 73e2c923500a2d78072a711bc7662a5923811bba
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881572"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699348"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>แก้ไขปัญหาเกตเวย์ - Power BI
 

@@ -1,20 +1,20 @@
 ---
 title: จัดการแหล่งข้อมูลของคุณ - SAP HANA
 description: วิธีการจัดการเกตเวย์ข้อมูลภายในองค์กร และแหล่งข้อมูลของเกตเวย์นั้นๆ บทความนี้มีไว้สำหรับ SAP HANA โดยเฉพาะ
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 577f0b26052ecc5fbe5f4e5b4da624da2b6e06c4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6c944b52deb72e556506d88f4358af2c816b46fc
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881729"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698175"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>จัดการแหล่งข้อมูลของคุณ - SAP HANA
 
