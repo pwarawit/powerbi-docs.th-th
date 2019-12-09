@@ -1,20 +1,20 @@
 ---
 title: เกตเวย์ข้อมูลในองค์กรในเชิงลึก
 description: บทความนี้จะดูที่เกตเวย์ภายในองค์กรแบบเชิงลึก ซึ่งจะดูวิธีการทำงานของบริการกับ Azure Active Directory และ Active Directory ภายในเครื่องของคุณเมื่อทำงานกับ Analysis Services
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: e8807feeccccebab8837ac571ae4340c5c0c9b1a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c277c21ffd3546307f9c38dfc06364324702986f
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881601"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699394"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>เกตเวย์ข้อมูลในองค์กรในเชิงลึก
 

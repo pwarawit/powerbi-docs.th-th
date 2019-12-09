@@ -2,20 +2,20 @@
 title: การแสดงภาพตารางในรายงานและแดชบอร์ด Power BI
 description: บทช่วยสอนสำหรับการทำงานกับการแสดงภาพตารางในรายงานและแดชบอร์ด Power BI รวมถึงวิธีการปรับขนาดความกว้างของคอลัมน์
 author: mihart
-ms.reviewer: ''
+ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2bb20b9ecc43e73e85d798416fe0ddaabb98e12b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870807"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74830888"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>การทำงานกับตารางในรายงานและแดชบอร์ด Power BI
 
@@ -130,7 +130,7 @@ ms.locfileid: "73870807"
 
 1. ในกล่องโต้ตอบที่ปรากฏขึ้น ตั้งค่าสีสำหรับ**แถบค่าบวก** และ **แถบค่าลบ** เลือกตัวเลือก **แสดงแถบเท่านั้น** และทำการเปลี่ยนแปลงอื่นๆ ที่คุณต้องการ
 
-    ![เครื่องหมายถูกสำหรับการแสดงแถบอย่างเดียว](media/power-bi-visualization-tables/power-bi-data-bars.png)
+    ![เครื่องหมายถูกสำหรับการแสดงแถบอย่างเดียว](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
 1. เลือก**ตกลง**
 

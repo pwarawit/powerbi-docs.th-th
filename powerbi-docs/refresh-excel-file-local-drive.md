@@ -1,20 +1,20 @@
 ---
 title: รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel - ภายในเครื่อง
 description: รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel บนไดรฟ์ภายในเครื่อง
-author: mgblythe
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: mblythe
+ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: b69e908e378605facbdaea79618aaf5167ff7739
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf007dfe70b5bfb7be9fa8c00865663b07210367
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874390"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698773"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>รีเฟรชชุดข้อมูลที่สร้างขึ้นจากสมุดงาน Excel บนไดรฟ์ภายในเครื่อง
 ## <a name="whats-supported"></a>อะไรบ้างที่ได้รับการสนับสนุน

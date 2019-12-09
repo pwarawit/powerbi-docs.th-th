@@ -1,20 +1,20 @@
 ---
 title: รีเฟรชชุดข้อมูลที่สร้างจากไฟล์ Power BI Desktop ภายในเครื่อง
 description: รีเฟรชชุดข้อมูลที่สร้างจากไฟล์ Power BI Desktop ภายในไดรฟ์ของเครื่อง
-author: mgblythe
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/04/2019
-ms.author: mblythe
+ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: b96163b433998ad92860ad6c234aac4126cf5486
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 63d49a439d10acc5d7cda10b76b04a26fcdb085a
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874376"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698819"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>รีเฟรชชุดข้อมูลที่สร้างจากไฟล์ Power BI Desktop ภายในไดรฟ์ของเครื่อง
 

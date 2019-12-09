@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 35f50f57f3874bbb87fcdd5fbcf7da987fea1d1a
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565702"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831152"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร
 
@@ -70,7 +70,7 @@ ms.locfileid: "74565702"
 
 ขณะนี้คุณสามารถตั้งค่าการสมัครใช้งานอีเมลสำหรับตัวคุณเองและผู้อื่นสำหรับรายงานที่มีการแบ่งหน้าในบริการของ Power BI โดยทั่วไป กระบวนการจะเหมือนกับการสมัครใช้งานรายงานและแดชบอร์ดในบริการของ Power BI ในการตั้งค่าการสมัครใช้งาน คุณเลือกจำนวนครั้งที่คุณต้องการรับอีเมล: รายวัน รายสัปดาห์ หรือรายชั่วโมง การสมัครใช้งานประกอบด้วยเอกสารแนบเป็น PDF ของผลลัพธ์รายงานทั้งหมด
 
-สำหรับรายละเอียด โปรดดูบทความ [สมัครใช้งานรายงานที่มีการแบ่งหน้าสำหรับตัวคุณเองและผู้อื่นในบริการของ Power BI](paginated-reports-subscriptions.md) 
+สำหรับรายละเอียด โปรดดูบทความ [สมัครใช้งานรายงานที่มีการแบ่งหน้าสำหรับตัวคุณเองและผู้อื่นในบริการของ Power BI](consumer/paginated-reports-subscriptions.md) 
 
 ## <a name="limitations-and-considerations"></a>ข้อจำกัดและข้อควรพิจารณา
 

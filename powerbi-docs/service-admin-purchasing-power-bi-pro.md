@@ -1,20 +1,20 @@
 ---
 title: ซื้อและมอบใบอนุญาตการใช้งาน Power BI Pro
 description: เรียนรู้วิธีการซื้อและมอบสิทธิ์การใช้งานผู้ใช้ Power BI Pro เพื่อให้ผู้ใช้ของคุณสามารถเข้าถึงเนื้อหาและทำงานร่วมกับเพื่อนร่วมงานในบริการของ Power BI ได้
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: quickstart
 ms.date: 10/29/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 72a158e2dca32d2199fcd48e2cc37bf4c90778ea
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ebaf32bbf84dcbb8efd8516fd0a1ab01011f2d63
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873540"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698497"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>ซื้อและมอบสิทธิ์การใช้งานผู้ใช้ Power BI Pro
 

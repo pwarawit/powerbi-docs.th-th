@@ -1,20 +1,20 @@
 ---
 title: แก้ไขปัญหาเกตเวย์ Power BI (โหมดส่วนตัว)
 description: แก้ไขปัญหาเกตเวย์ Power BI (โหมดส่วนตัว)
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
 ms.date: 5/06/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 32413c8ae860f5c9e376f8be46290047f67231fc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 910f52466b4700e4d0cc4168ef80ea5ee0164364
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873371"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698405"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>แก้ไขปัญหาเกตเวย์ Power BI (โหมดส่วนตัว)
 
