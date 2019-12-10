@@ -56,6 +56,8 @@
               href: end-user-interactions.md
             - name: ส่งออกรายงานเป็น PDF
               href: end-user-pdf.md
+            - name: ส่งออกรายงานไปยัง PowerPoint
+              href: end-user-powerpoint.md
             - name: เพิ่มบุ๊กมาร์กไปยังรายงาน
               href: end-user-bookmarks.md
             - name: รายงานที่มีการแบ่งหน้าใน Power BI
