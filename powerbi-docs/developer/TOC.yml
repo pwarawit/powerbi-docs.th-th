@@ -6,7 +6,7 @@
       items:
         - name: นักพัฒนาสามารถทำอะไรกับ Power BI ได้บ้าง
           href: what-can-you-do.md
-    - name: การแสดงภาพ Power BI
+    - name: วิชวล Power BI
       expanded: true
       items:
         - name: ภาพรวม
@@ -41,13 +41,13 @@
               href: visuals/advanced-edit-mode.md
         - name: วิธีการ
           items:
-            - name: รับวิชวลที่ได้รับการรับรอง
+            - name: รับการรับรองส่วนการจัดแสดง Power BI
               href: power-bi-custom-visuals-certified.md
             - name: เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
               href: office-store.md
-            - name: ใช้วิชวลแบบกำหนดเองที่ทำงานด้วย R ใน Power BI
+            - name: ใช้ส่วนแสดงผล Power BI จาก R ใน Power BI
               href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
-            - name: การโต้ตอบวิชวล
+            - name: การโต้ตอบกับวิชวล
               href: visuals/visuals-interactions.md
             - name: เพิ่มการเลือก
               href: visuals/selection-api.md
@@ -69,8 +69,6 @@
               href: visuals/high-contrast-support.md
             - name: เปิดใช้งานตัวแบ่งส่วนข้อมูลการซิงค์
               href: visuals/enable-sync-slicers.md
-            - name: เพิ่มการสนับสนุนการดูรายละเอียดแนวลึก
-              href: visuals/drill-down-support.md
             - name: แก้ปัญหาวิชวล Power BI
               href: power-bi-custom-visuals-troubleshoot.md
         - name: การอ้างอิง
@@ -85,14 +83,8 @@
               href: visuals/event-service.md
             - name: เรียงลำดับ
               href: visuals/sort-options.md
-            - name: การแปลเป็นภาษาท้องถิ่น
-              href: visuals/localization.md
-            - name: ยูทิลิตี้ Power BI Visual
-              items:
-                - name: การโต้ตอบ.utils
-                  href: visuals/utils-interactivity-selections.md
-                - name: ยูทิลิตี้การจัดรูปแบบ
-                  href: visuals/utils-formatting.md
+            - name: การโต้ตอบ.utils
+              href: visuals/utils-interactivity-selections.md
         - name: ทรัพยากร
           items:
             - name: ศูนย์นักพัฒนา
