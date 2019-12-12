@@ -32,10 +32,14 @@
           href: ../service-dataflows-best-practices.md
         - name: คำแนะนำแบบจำลอง DirectQuery ใน Power BI Desktop
           href: directquery-model-guidance.md
+        - name: การอ้างอิงคิวรี Power Query
+          href: power-query-referenced-queries.md
         - name: การขยายวิชวลด้วยคำแนะนำเครื่องมือของหน้ารายงาน
           href: report-page-tooltips.md
         - name: การดูรายละเอียดหน้ารายงานแบบเจาะลึก
           href: report-drillthrough.md
+        - name: คำแนะนำวันที่/เวลาอัตโนมัติใน Power BI Desktop
+          href: auto-date-time.md
     - name: เอกสารทางเทคนิค
       items:
         - name: ภาพรวมเอกสารทางเทคนิค
