@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/14/2019
+ms.date: 11/27/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8041fee4689c6319f219c26f20701c6062601a64
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: 9e00e68e0a5f6df62072a1d9744276bffbd3beb4
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164210"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791665"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>ส่งออกรายงานจาก Power BI เป็น PDF
 
@@ -62,6 +62,7 @@ ms.locfileid: "74164210"
 * บริการของ Power BI ใช้การตั้งค่าภาษาของ Power BI เป็นภาษาสำหรับการส่งออกเป็น PDF ดูหรือตั้งค่าภาษาของคุณโดยเลือกไอคอนรูปเฟือง ![ไอคอนรูปเฟือง](media/end-user-powerpoint/power-bi-settings-icon.png) > **การตั้งค่า** > **ทั่วไป** > **ภาษา**
 * ตัวกรอง URL จะไม่ถูกนำมาพิจารณาหากคุณเลือก **ค่าปัจจุบัน** สำหรับการส่งออกของคุณ
 * รายงานที่มีขนาดหน้ากระดาษแบบกำหนดเองที่ไม่ปกติอาจประสบปัญหาในสถานการณ์การส่งออก เพื่อให้ได้ผลลัพธ์ที่ดีที่สุด ให้ลองสลับไปยังขนาดหน้ากระดาษมาตรฐานสำหรับรายงานของคุณ
+* เมื่อส่งออกเป็น PDF แล้ว รายงานที่ใช้ธีมที่มีแบบอักษรที่กำหนดเองจะมีการแทนที่แบบอักษรที่กำหนดเองด้วยแบบอักษรเริ่มต้น
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [พิมพ์หน้ารายงาน](end-user-print.md)

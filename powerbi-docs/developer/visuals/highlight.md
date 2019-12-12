@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: ed1a67168a386838049ec2ca047ec0cd971408fc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf5cd8d8ae649071b3c9cc7243f87ac3cc316c3b
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880035"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695415"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>ไฮไลต์จุดข้อมูลใน Power BI Visuals
 
@@ -26,6 +26,9 @@ ms.locfileid: "73880035"
 ![' dataview ' สนับสนุนการไฮไลต์](./media/highlight-dataview-supports.png)
 
 ในตัวอย่าง คุณจะสังเกตเห็นว่ามี 1 แถบที่ถูกเลือก และเป็นเฉพาะค่าในอาร์เรย์ไฮไลต์ นอกจากนี้ สิ่งสำคัญคือต้องทราบว่าอาจมีตัวเลือกหลายรายการและการไฮไลต์บางส่วนด้วย ค่าที่ไฮไลต์ไว้จะแสดงในมุมมองข้อมูล
+
+> [!Note]
+> การแมปมุมมองข้อมูลแบบตารางไม่สนับสนุนคุณลักษณะการไฮไลท์
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>ไฮไลต์จุดข้อมูลด้วยการแมปมุมมองข้อมูลตามประเภท
 

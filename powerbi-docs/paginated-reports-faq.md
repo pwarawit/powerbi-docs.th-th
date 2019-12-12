@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 10/04/2019
-ms.openlocfilehash: d8fd8490bda3be4217440a984e8b6da6fca7c5cf
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: c1f8a274a17d85cf8f86d2e33ff63f3e9b686742
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874805"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831234"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>รายงานที่มีการแบ่งหน้าใน Power BI คำถามที่ถามบ่อย 
 
@@ -116,21 +116,7 @@ ms.locfileid: "73874805"
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>แหล่งข้อมูลใดบ้างที่คุณรับรองสำหรับรายงานแบบแบ่งหน้าในขณะนี้
 
-เราสนับสนุนแหล่งข้อมูลต่อไปนี้ - 
-
-- ชุดข้อมูล Power BI (ผ่านการลงชื่อเข้าระบบครั้งเดียว (SSO))
-- Azure Analysis Services (ผ่านการลงชื่อเข้าใช้ครั้งเดียว (sso) และ oAuth)
-- คลังข้อมูล Azure SQL
-- Azure SQL Database (ชื่อผู้ใช้/รหัสผ่าน, SSO และ oAuth)
-- อินสแตนซ์ที่จัดการแล้วของ Azure SQL ผ่านจุดสิ้นสุดสาธารณะ (ชื่อผู้ใช้/รหัสผ่าน)
-- SQL Server*
-- ตารางของ SQL Server Analysis Services (SSAS) (DAX) และแบบจำลองหลายมิติ (MDX)* 
-- Oracle* 
-- Teradata* 
-
-* จำเป็นต้องใช้เกตเวย์ภายในองค์กร
-
-เมื่อเข้าถึง SSAS ผ่านเกตเวย์ ผู้ใช้ที่มีข้อมูลประจำตัวเก็บไว้ต้องมีสิทธิ์ใช้งานที่ยกระดับแล้วใน SSAS เพื่อที่จะทำงานผ่านเกตเวย์
+ดูบทความ [แหล่งข้อมูลที่ได้รับการสนับสนุนสำหรับรายงานที่มีการแบ่งหน้าใน Power BI](paginated-reports-data-sources.md) สำหรับรายการของแหล่งข้อมูล 
 
 ### <a name="what-authentication-methods-do-you-support"></a>คุณรองรับวิธีการรับรองความถูกต้องแบบใด
 

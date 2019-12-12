@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 2d8fc35383aa427d8e5c9fd37c6c35f4f3d0a6bb
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 0e1f3361abfc4f45f71edaf82a197cfa3ea8cad3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565313"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695438"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>บทช่วยสอน: ฝังเนื้อหาของ Power BI ลงในแอปพลิเคชันสำหรับบริการคลาวด์แห่งชาติ
 
@@ -54,7 +54,7 @@ Power BI ยังสนับสนุน[บริการคลาวด์�
 * ชุมชน Cloud สำหรับส่วนราชการ (GCC):
 
     > [!NOTE]
-    > การฝังเนื้อหา Power BI จากชุมชน Cloud สำหรับส่วนราชการ (GCC) สามารถทำได้ด้วย Office 356 SKU เท่านั้น ลูกค้า GCC High สามารถใช้ [Office 356 หรือ Azure SKU](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365) ได้
+    > การฝังเนื้อหา Power BI จากชุมชน Cloud สำหรับส่วนราชการ (GCC) สามารถทำได้ด้วย Office 356 SKU เท่านั้น ลูกค้าคลาวด์ระดับชาติอื่น ๆ สามารถใช้ [Office 356 หรือ Azure SKU](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365) ได้
 
 1. เขียนทับแฟ้ม Cloud.config ด้วยเนื้อหา GCCCloud.config
 

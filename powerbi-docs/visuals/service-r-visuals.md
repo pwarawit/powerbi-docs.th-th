@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: efbeda396217c1a715f9a5d7ae4827c5f8d09a25
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099817"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699003"
 ---
 # <a name="r-visuals-in-power-bi"></a>วิชวล R ใน Power BI
 ในปัจจุบันสามารถสร้างภาพ R ได้ใน **Power BI Desktop**เท่านั้น จากนั้นเผยแพร่ไปยังบริการ Power BI สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสร้างวิชวล R โปรดดู [สร้างวิชวล Power BI โดยใช้ภาษา R ](../desktop-r-visuals.md)
@@ -94,6 +94,11 @@ ms.locfileid: "74099817"
 * ภาพ R ไม่แสดงเมื่อใช้**เผยแพร่ไปยังเว็บ**
 * ในขณะนี้ ภาพ R ไม่สามารถพิมพ์ได้ด้วยการพิมพ์แดชบอร์ดหรือรายงาน
 * ภาพ R ไม่สนับสนุนสำหรับโหมด DirectQuery ของ Analysis Services
+* วิชวล R มีความสามารถในการแปลงป้ายชื่อข้อความเป็นองค์ประกอบกราฟิก การทำเช่นนี้ในบริการ Power BI ต้องการขั้นตอนเพิ่มเติมต่อไปนี้:
+  
+  * เพิ่มบรรทัดต่อไปนี้ที่ตอนต้นของสคริปต์ R:
+    
+        powerbi_rEnableShowText =  1
 * ฟอนต์ภาษาจีน ญี่ปุ่น และภาษาเกาหลีจำเป็นต้องดำเนินการตามขั้นตอนต่อไปนี้ทั้งหมดเพื่อให้สามารถทำงานได้อย่างถูกต้องในบริการ Power BI:
   
   * ก่อนอื่น ติดตั้งแพคเกจ R *showtext*และอ้างอิงที่เกี่ยวเนื่องทั้งหมด คุณสามารถดำเนินการนี้ได้โดยการเรียกใช้สคริปต์ต่อไปนี้:

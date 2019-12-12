@@ -1,21 +1,21 @@
 ---
 title: พอร์ทัลผู้ดูแลระบบของ power BI
 description: พอร์ทัลผู้ดูแลอนุญาตให้มีการบริหารจัดการผู้เช่าของ Power BI ในองค์กรของคุณ ซึ่งประกอบด้วยหน่วยข้อมูลต่างๆ เช่น เมตริกการใช้งาน การเข้าถึงศูนย์การจัดการ Microsoft 365 และการตั้งค่า
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265887"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882896"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>ดูแล Power BI ในพอร์ทัลผู้ดูแลระบบ
 
@@ -176,7 +176,7 @@ ms.locfileid: "74265887"
 
 กลุ่มความปลอดภัยที่เปิดใช้งานจดหมายจะได้รับการแจ้งเตือนทางอีเมลถ้าผู้เช่ารายนี้ได้รับผลกระทบจากการหยุดทำงานหรือเหตุการณ์ที่เกิดขึ้น เรียนรู้เพิ่มเติมเกี่ยวกับ [การแจ้งเตือนการหยุดชะงักของบริการ](service-interruption-notifications.md)
 
-## <a name="workspace-settings"></a>ตั้งค่าพื้นที่ทำงาน
+## <a name="workspace-settings"></a>การตั้งค่าพื้นที่ทำงาน
 
 ### <a name="create-workspaces"></a>สร้างพื้นที่ทำงาน
 
@@ -247,11 +247,14 @@ ms.locfileid: "74265887"
 ![พิมพ์รายงาน](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>อนุญาตให้ผู้ใช้ที่เป็นผู้เยี่ยมชมภายนอกแก้ไขและจัดการเนื้อหาในองค์กร
-ผู้ใช้ที่เป็นผู้เยี่ยมชมของ Azure B2B สามารถแก้ไขและจัดการเนื้อหาในองค์กร [เรียนรู้เพิ่มเติม](service-admin-azure-ad-b2b.md)
+ผู้ใช้ที่เป็นผู้เยี่ยมชมของ Azure Active Directory B2B สามารถแก้ไขและจัดการเนื้อหาในองค์กร [เรียนรู้เพิ่มเติม](service-admin-azure-ad-b2b.md)
 
 รูปภาพต่อไปนี้แสดงตัวเลือกเพื่ออนุญาตให้ผู้ใช้ที่เป็นผู้เยี่ยมชมภายนอกแก้ไขและจัดการเนื้อหาในองค์กร
 
 ![อนุญาตให้ผู้ใช้ที่เป็นผู้เยี่ยมชมภายนอกแก้ไขและจัดการเนื้อหาในองค์กร](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+> [!IMPORTANT]
+> เมื่อคุณเพิ่มผู้ใช้ภายนอกไปยังผู้เช่า Azure AD ของคุณ (ไม่ว่าจะด้วยตนเองหรือโดยการแชร์รายงานกับผู้ใช้นั้น) ตอนนี้บัญชีผู้ใช้ดังกล่าวจะสามารถมองเห็นได้ในบัญชีภายใน ผู้ใช้ภายในสามารถแชร์สิ่งอื่น ๆ กับผู้ใช้ภายนอกได้แม้ว่าบัญชีภายในจะไม่มีสิทธิ์การแชร์ภายนอก
 
 ### <a name="email-subscriptions"></a>การสมัครใช้งานอีเมล
 ผู้ใช้ในองค์กรสามารถสร้างการสมัครใช้งานอีเมลได้ เรียนรู้เพิ่มเติมเกี่ยวกับ [การสมัครใช้งาน](service-report-subscribe.md)

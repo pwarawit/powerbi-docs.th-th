@@ -1,22 +1,24 @@
 ---
 title: กำหนดคุณสมบัติแกน X และแกน Y ด้วยตนเอง
-description: กำหนดคุณสมบัติแกน X และแกน Y ด้วยตนเอง
+description: คุณสมบัติแกน x และแกน y ที่กำหนดด้วยตนเอง
 author: mihart
 ms.reviewer: ''
 featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 393f6f25fedddd9ff17d635ae67ce473ab57eea4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bafcf3a754c58a040595279f93d885e8f317195e
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880921"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791776"
 ---
+- เส้นอัตราส่วนกำไรขั้นต้นสำหรับปี % อยู่ที่ไหน? ฉันสามารถสร้างแผนภูมิแท่งได้หลายอัน แต่ไม่สามารถสร้างได้หลายเส้น
+
 # <a name="customize-x-axis-and-y-axis-properties"></a>คุณสมบัติแกน x และแกน y ที่กำหนดด้วยตนเอง
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
@@ -171,7 +173,7 @@ ms.locfileid: "73880921"
 
 ### <a name="create-a-chart-with-two-y-axes"></a>สร้างแผนภูมิที่มีแกน Y สองแกน
 
-1. เลือกแผนภูมิคอลัมน์และเปลี่ยนเป็นแผนภูมิ *เส้นและคอลัมน์แบบเรียงซ้อน* 
+1. เลือกแผนภูมิคอลัมน์และเปลี่ยนเป็นแผนภูมิ *เส้นและคอลัมน์แบบเรียงซ้อน* วิชวลชนิดนี้รองรับค่าแผนภูมิเส้นเดียว และค่าคอลัมน์แบบเรียงซ้อนหลายอัน 
 
     ![สกรีนช็อตของการเรียกบานหน้าต่างการแสดงภาพเส้นและไอคอนแผนภูมิคอลัมน์แบบเรียงซ้อนออกมา](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo.png)
    
@@ -185,7 +187,7 @@ ms.locfileid: "73880921"
 
    ![บานหน้าต่างแผนภูมิผสมและรูปแบบที่มีขนาดแบบอักษรลดลงเป็น 12](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-font-size.png)
 
-   Power BI สร้างแกน Y สองแกน ช่วยให้แต่ละแกนมีค่ามาตราส่วนที่แตกต่างกันได้ แกนซ้ายวัดดอลลาร์และแกนขวาวัดเปอร์เซ็นต์
+   Power BI สร้างแกน Y สองแกน ช่วยให้แต่ละแกนมีค่ามาตราส่วนที่แตกต่างกันได้ แกนซ้ายวัดยอดขายเป็นดอลลาร์ และแกนขวาวัดเปอร์เซ็นต์อัตรากำไรขั้นต้น
 
 ### <a name="format-the-second-y-axis"></a>จัดรูปแบบแกน Y ที่สอง
 เนื่องจากเราเริ่มต้นจากการแสดงผลข้อมูลด้วยภาพที่มีการจัดรูปแบบแกน Y หนึ่งแกนแล้ว ดังนั้น Power BI จึงได้สร้างแกน Y ที่สองโดยใช้การตั้งค่าเดียวกัน แต่เราสามารถเปลี่ยนแปลงได้ 

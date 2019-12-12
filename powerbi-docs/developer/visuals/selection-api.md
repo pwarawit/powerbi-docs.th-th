@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5f5e4769c750406a02ead656af551133fbceb738
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 94a1af90cc7ed08947f65f4ed0d55e981558d049
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061902"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696453"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>เพิ่มการโต้ตอบลงในภาพด้วยการเลือกภาพ Power BI
 
 Power BI มีสองวิธีในการโต้ตอบระหว่างภาพคือ - การเลือกและการกรอง ตัวอย่างด้านล่างแสดงให้เห็นถึงวิธีการเลือกรายการใดๆ ในภาพเดียวและแจ้งภาพอื่นๆ ในรายงานเกี่ยวกับสถานะการเลือกใหม่
 
-`Selection` วัตถุที่สอดคล้องกับอินเตอร์เฟซ:
+`Selection` ออบเจ็กต์ที่สอดคล้องกับอินเตอร์เฟซ:
 
 ```typescript
 export interface ISelectionId {
@@ -35,11 +35,11 @@ export interface ISelectionId {
 
 ## <a name="how-to-use-selectionmanager-to-select-data-points"></a>วิธีใช้ SelectionManager เพื่อเลือกจุดข้อมูล
 
-วัตถุโฮสต์ภาพให้วิธีการในการสร้างอินสแตนซ์ของเครื่องมือจัดการการเลือก ตัวจัดการการเลือกที่รับผิดชอบในการเลือก เพื่อล้างการเลือกเพื่อแสดงเมนูบริบทเพื่อจัดเก็บการเลือกปัจจุบันและตรวจสอบสถานะการเลือก และตัวจัดการการเลือกมีวิธีการที่สอดคล้องกันสำหรับการดำเนินการดังกล่าว
+ออบเจ็กต์โฮสต์วิชวลให้เมธอดในการสร้างอินสแตนซ์ของเครื่องมือจัดการการเลือก ตัวจัดการการเลือกที่รับผิดชอบในการเลือก ล้างการเลือก แสดงเมนูบริบท จัดเก็บการเลือกปัจจุบันและตรวจสอบสถานะการเลือก และตัวจัดการการเลือกมีเมธอดที่สอดคล้องกันสำหรับการดำเนินการดังกล่าว
 
-### <a name="create-instance-of-selection-manager"></a>สร้างอินสแตนซ์ของตัวจัดการการเลือก
+### <a name="create-an-instance-of-the-selection-manager"></a>สร้างอินสแตนซ์ของตัวจัดการการเลือก
 
-สำหรับการใช้ตัวจัดการการเลือก คุณจะต้องสร้างอินสแตนซ์ของตัวจัดการการเลือก โดยทั่วไป การแสดงผลด้วยภาพจะสร้างตัวจัดการการเลือกตัวอย่างใน `constructor` ของวัตถุการแสดงผลด้วยภาพ
+สำหรับการใช้ตัวจัดการการเลือก คุณจะต้องสร้างอินสแตนซ์ของตัวจัดการการเลือก โดยทั่วไป วิชวลจะสร้างอินสแตนซ์ตัวจัดการการเลือกใน `constructor` ของออบเจ็กต์ของวิชวล
 
 ```typescript
 export class Visual implements IVisual {
@@ -56,9 +56,9 @@ export class Visual implements IVisual {
 }
 ```
 
-### <a name="create-instance-of-selection-builder"></a>สร้างอินสแตนซ์ของตัวสร้างการเลือก
+### <a name="create-an-instance-of-the-selection-builder"></a>สร้างอินสแตนซ์ของตัวสร้างการเลือก
 
-เมื่อมีการสร้างอินสแตนซ์ตัวจัดการการเลือก คุณจะต้องสร้าง `selections` สำหรับแต่ละจุดข้อมูลของภาพ วัตถุโฮสต์ภาพมีวิธีการ `createSelectionIdBuilder` ในการสร้างการเลือกสำหรับแต่ละจุดข้อมูล วิธีนี้ส่งกลับอินสแตนซ์ของวัตถุที่มีอินเทอร์เฟซ `powerbi.visuals.ISelectionIdBuilder`:
+เมื่อมีการสร้างอินสแตนซ์ตัวจัดการการเลือก คุณจะต้องสร้าง `selections` สำหรับแต่ละจุดข้อมูลของภาพ วัตถุโฮสต์ภาพมีวิธีการ `createSelectionIdBuilder` ในการสร้างการเลือกสำหรับแต่ละจุดข้อมูล เมธอดนี้ส่งกลับอินสแตนซ์ของออบเจ็กต์ที่มีอินเทอร์เฟซ `powerbi.visuals.ISelectionIdBuilder`:
 
 ```typescript
 export interface ISelectionIdBuilder {
@@ -71,15 +71,15 @@ export interface ISelectionIdBuilder {
 }
 ```
 
-วัตถุนี้มีวิธีการที่สอดคล้องกับวิธีการสร้าง `selections` สำหรับการแมปมุมมองข้อมูลชนิดต่างๆ
+ออบเจ็กต์นี้มีเมธอดที่สอดคล้องเพื่อสร้าง `selections` สำหรับการแมปมุมมองข้อมูลชนิดต่างๆ
 
 > [!NOTE]
-> วิธีการ`withTable`,`withMatrixNode` ได้รับการแนะนำใน  API 2.5.0 ของการแสดงผลด้วยภาพ Power BI
-> ถ้าคุณจำเป็นต้องใช้ตัวเลือกสำหรับการแมปมุมมองข้อมูลของตารางหรือเมทริกซ์ที่ คุณจำเป็นต้องอัปเดต API ไปยัง 2.5.0 หรือใหม่กว่า
+> มีการนำเมธอด `withTable` และ `withMatrixNode` มาใช้ใน API 2.5.0 ของวิชวล Power BI
+> ถ้าคุณจำเป็นต้องใช้ตัวเลือกสำหรับการแมปมุมมองข้อมูลแบบตารางหรือเมทริกซ์ คุณจำเป็นต้องอัปเดต API ไปเป็นเวอร์ชัน 2.5.0 หรือใหม่กว่า
 
 ### <a name="create-selections-for-categorical-data-view-mapping"></a>สร้างการเลือกสำหรับการแมปมุมมองข้อมูลประเภท
 
-มาดูกันว่าการเลือกจะแสดงบนประเภทมุมมองข้อมูลการแมปสำหรับชุดตัวอย่างอย่างไร:
+มาดูกันว่าการเลือกจะแสดงถึงการแมปมุมมองข้อมูลแบบจัดกลุ่มสำหรับชุดข้อมูลตัวอย่างได้อย่างไร:
 
 | ผู้ผลิต | ชนิด | ค่า |
 | - | - | - |
@@ -108,7 +108,7 @@ export interface ISelectionIdBuilder {
 | โตโยต้า | รถนำเข้า | 20799 |
 | โตโยต้า | รถบรรทุกนำเข้า | 23614 |
 
-และการแสดงผลด้วยภาพใช้การแมปมุมมองข้อมูลต่อไปนี้:
+และวิชวลใช้การแมปมุมมองข้อมูลต่อไปนี้:
 
 ```json
 {
@@ -155,11 +155,11 @@ export interface ISelectionIdBuilder {
 }
 ```
 
-ในตัวอย่าง `Manafacturer`คือ `columns` และ `Type` คือ `rows` มีชุดข้อมูลที่สร้างขึ้นโดยการจัดกลุ่มค่าโดย `rows` (`Type`)
+ในตัวอย่าง `Manufacturer`คือ `columns` และ `Type` คือ `rows` มีชุดข้อมูลที่สร้างขึ้นโดยการจัดกลุ่มค่าโดย `rows` (`Type`)
 
-และการแสดงผลด้วยภาพควรสามารถแบ่งข้อมูลด้วย `Manafacturer` และ `Type` ด้วย
+และการแสดงผลด้วยภาพควรสามารถแบ่งข้อมูลด้วย `Manufacturer` และ `Type` ด้วย
 
-ตัวอย่างเช่น เมื่อผู้ใช้เลือก `Chrysler` โดย `Manafacturer` ภาพอื่นๆ ควรแสดงข้อมูลต่อไปนี้:
+ตัวอย่างเช่น เมื่อผู้ใช้เลือก `Chrysler` โดย `Manufacturer` ภาพอื่นๆ ควรแสดงข้อมูลต่อไปนี้:
 
 | ผู้ผลิต | ชนิด | ค่า |
 | - | - | - |
@@ -185,10 +185,10 @@ export interface ISelectionIdBuilder {
 
 ![ตะกร้าข้อมูลของภาพที่มีการเลือก](media/visual-selections-databuckets.png)
 
-มี `Manafacturer` เป็นประเภท (คอลัมน์) `Type` เป็นชุดข้อมูล (แถว) และ `Value` เป็น `Values` สำหรับชุดข้อมูล
+มี `Manufacturer` เป็นประเภท (คอลัมน์) `Type` เป็นชุดข้อมูล (แถว) และ `Value` เป็น `Values` สำหรับชุดข้อมูล
 
 > [!NOTE]
-> จำเป็นต้องมี `Values` สำหรับชุดข้อมูลเนื่องจากการแมปมุมมองข้อมูลตามการแสดงผลด้วยภาพคาดหวังว่า `Values` จะพบโดยข้อมูล `Rows`
+> จำเป็นต้องมี `Values` สำหรับชุดข้อมูลเนื่องจากการแมปมุมมองข้อมูลตามวิชวลคาดหวังว่า `Values` จะถูกจัดกลุ่มตามข้อมูล `Rows`
 
 #### <a name="create-selections-for-categories"></a>สร้างการเลือกสำหรับประเภท
 
@@ -196,7 +196,7 @@ export interface ISelectionIdBuilder {
 // categories
 const categories = dataView.categorical.categories;
 
-// create label for 'Manafacturer' column
+// create label for 'Manufacturer' column
 const p = document.createElement("p") as HTMLParagraphElement;
 p.innerText = categories[0].source.displayName.toString();
 this.target.appendChild(p);
@@ -209,7 +209,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
     const categoryValue: powerbi.PrimitiveValue = categories[0].values[categoryIndex];
 
     const categorySelectionId = this.host.createSelectionIdBuilder()
-        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manafacturer` column)
+        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manufacturer` column)
         .createSelectionId();
     this.dataPoints.push({
         value: categoryValue,
@@ -229,9 +229,9 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
 }
 ```
 
-ในโค้ดตัวอย่างคุณจะเห็นว่าเราซ้ำทุกหมวดหมู่ และในแต่ละการวนซ้ำเราเรียก `createSelectionIdBuilder` เพื่อสร้างการเลือกถัดไปสำหรับแต่ละหมวดหมู่โดยการเรียกวิธี `withCategory` ของตัวสร้างการเลือก วิธีการ `createSelectionId` ถูกใช้เป็นวิธีการสุดท้ายในการส่งกลับวัตถุ `selection` ที่สร้างขึ้น
+ในโค้ดตัวอย่าง คุณจะเห็นว่าเราวนซ้ำทุกหมวดหมู่ และในแต่ละการวนซ้ำ เราเรียกใช้ `createSelectionIdBuilder` เพื่อสร้างการเลือกถัดไปสำหรับแต่ละหมวดหมู่โดยการเรียกเมธอด `withCategory` ของตัวสร้างการเลือก เมธอด `createSelectionId` ถูกใช้เป็นเมธอดสุดท้ายในการส่งกลับออบเจ็กต์ `selection` ที่สร้างขึ้น
 
-ในวิธีการ `withCategory` เราผ่านคอลัมน์ของ `category` ในตัวอย่าง `Manafacturer` และดัชนีขององค์ประกอบประเภท
+ในเมธอด `withCategory` เราส่งผ่านคอลัมน์ของ `category` ในตัวอย่าง ซึ่งคือ `Manufacturer` และดัชนีขององค์ประกอบหมวดหมู่
 
 #### <a name="create-selections-for-series"></a>สร้างการเลือกสำหรับชุดข้อมูล
 
@@ -295,7 +295,7 @@ series.forEach( (ser: powerbi.DataViewValueColumnGroup) => {
 }
 ```
 
-ในการสร้างการเลือกสำหรับการแมปมุมมองตารางข้อมูลแต่ละแถวคุณต้องเรียกใช้วิธี `withTable` ของเครื่องมือสร้างสิ่งที่เลือก
+หากต้องการสร้างการเลือกสำหรับการแมปมุมมองข้อมูลแบบตารางแต่ละแถว คุณต้องเรียกใช้เมธอด `withTable` ของตัวสร้างการเลือก
 
 ```typescript
 public update(options: VisualUpdateOptions) {
@@ -309,7 +309,7 @@ public update(options: VisualUpdateOptions) {
 }
 ```
 
-รหัสที่มองเห็นจะวนซ้ำแถวของตารางและแต่ละแถวเรียกวิธีตาราง `withTable` พารามิเตอร์ของวิธีการ `withTable` คือวัตถุ `table` และดัชนีของแถวตาราง
+โค้ดของวิชวลจะวนซ้ำแถวของตาราง และแต่ละแถวเรียกเมธอดตาราง `withTable` พารามิเตอร์ของวิธีการ `withTable` คือวัตถุ `table` และดัชนีของแถวตาราง
 
 ### <a name="create-selections-for-matrix-data-view-mapping"></a>สร้างการเลือกสำหรับการแมปมุมมองข้อมูลเมทริกซ์
 
@@ -336,13 +336,13 @@ public update(options: VisualUpdateOptions) {
 }
 ```
 
-ในตัวอย่าง `nodeWalker` เรียกซ้ำสำหรับแต่ละโหนดย่อย
+ในตัวอย่าง `nodeWalker` เรียกซ้ำสำหรับแต่ละโหนดและโหนดย่อย
 
 `nodeWalker` สร้างวัตถุ `nodeSelection` ในการโทรแต่ละครั้ง และแต่ละ `nodeSelection` เป็นตัวแทน `selection` ของโหนดที่ตรงกัน
 
 ## <a name="select-datapoints-to-slice-other-visuals"></a>เลือกจุดข้อมูลเพื่อแบ่งภาพอื่นๆ
 
-ในรหัสตัวอย่างของการเลือกสำหรับการแมปมุมมองข้อมูลเด็ดขาด คุณเห็นว่าเราได้สร้างตัวจัดการการคลิกสำหรับองค์ประกอบปุ่ม ตัวจัดการเรียกวิธีการ `select` ของตัวจัดการการเลือกและส่งผ่านวัตถุที่เลือก
+ในตัวอย่าง โค้ดของการเลือกสำหรับการแมปมุมมองข้อมูลแบบจัดกลุ่ม คุณเห็นว่าเราได้สร้างตัวจัดการการคลิกสำหรับองค์ประกอบปุ่ม ตัวจัดการเรียกเมธอด `select` ของตัวจัดการการเลือกและส่งผ่านออบเจ็กต์การเลือก
 
 ```typescript
 button.addEventListener("click", () => {
@@ -361,7 +361,7 @@ interface ISelectionManager {
 }
 ```
 
-คุณสามารถดู `select` สามารถยอมรับอาร์เรย์ของการเลือกได้ ซึ่งหมายความว่าภาพของคุณสามารถเลือกหลายจุดข้อมูลได้ พารามิเตอร์ตัวที่สอง `multiSelect` รับผิดชอบการเลือกหลายรายการ ถ้าค่าเป็นจริง Power BI จะไม่ล้างสถานะการเลือกก่อนหน้าและใช้การเลือกปัจจุบันมิฉะนั้นการเลือกก่อนหน้าจะรีเซ็ต
+คุณสามารถดู `select` สามารถยอมรับอาร์เรย์ของการเลือกได้ ซึ่งหมายความว่าภาพของคุณสามารถเลือกหลายจุดข้อมูลได้ พารามิเตอร์ตัวที่สอง `multiSelect` รับผิดชอบการเลือกหลายรายการ ถ้าค่าเป็นจริง Power BI จะไม่ล้างสถานะการเลือกก่อนหน้าและใช้การเลือกปัจจุบัน มิฉะนั้นการเลือกก่อนหน้าจะรีเซ็ต
 
 สถานการณ์โดยทั่วไปของการใช้การจัดการ `multiSelect` ของปุ่ม CTRL สำหรับการคลิกเหตุการณ์
 
@@ -374,7 +374,7 @@ button.addEventListener("click", (mouseEvent) => {
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-* [อ่านวิธีการใช้ตัวเลือกสำหรับการผูกคุณสมบัติการแสดงผลด้วยภาพกับจุดข้อมูล](objects-properties.md#objects-selector)
+* [อ่านวิธีการใช้การเลือกสำหรับการผูกคุณสมบัติวิชวลกับจุดข้อมูล](objects-properties.md#objects-selector)
 
 * [อ่านวิธีการจัดการกับการเลือกในการสลับบุ๊กมาร์ก](bookmarks-support.md#visuals-with-selection)
 

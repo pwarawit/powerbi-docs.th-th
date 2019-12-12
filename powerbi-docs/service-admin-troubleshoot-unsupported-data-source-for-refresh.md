@@ -1,21 +1,21 @@
 ---
 title: แก้ไขปัญหาแหล่งข้อมูลไม่รองรับสำหรับการรีเฟรช
 description: แก้ไขปัญหาแหล่งข้อมูลไม่รองรับสำหรับการรีเฟรช
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
 ms.date: 12/06/2017
-ms.author: mblythe
+ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: b44dbc06c15a576174277695583f3afebb0f298a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856264"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791998"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>แก้ไขปัญหาแหล่งข้อมูลไม่รองรับสำหรับการรีเฟรช
 คุณอาจเห็นข้อผิดพลาดเมื่อพยายามที่จะกำหนดค่าชุดข้อมูลสำหรับรีเฟรชตามกำหนดการ
@@ -35,7 +35,7 @@ ms.locfileid: "73856264"
    ![ตัวแก้ไขขั้นสูง](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. สร้างบันทึกย่อของผู้ให้บริการที่อยู่ในรายการสำหรับแหล่งข้อมูล  ในตัวอย่างนี้ ผู้ให้บริการคือ ActiveDirectory  
    ![ตัวให้บริการแหล่งข้อมูล](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
-5. เปรียบเทียบผู้ให้บริการด้วยรายการของแหล่งข้อมูลที่สนับสนุนที่พบใน[รีเฟรชข้อมูลใน Power BI](refresh-data.md)  คุณจะพบว่า Active Directory ไม่ใช่แหล่งข้อมูลที่สนับสนุนสำหรับรีเฟรช  
+5. เปรียบเทียบผู้ให้บริการด้วยรายการของแหล่งข้อมูลที่สนับสนุนซึ่งพบได้ใน [แหล่งข้อมูล Power BI](power-bi-data-sources.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [รีเฟรชข้อมูล](refresh-data.md)  
