@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e09b3f8579b65bc242cda1dbdb54f187ab6b47d0
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791605"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958413"
 ---
 # <a name="configure-scheduled-refresh"></a>กำหนดค่าการรีเฟรชตามกำหนดเวลา
 
@@ -75,7 +75,7 @@ ms.locfileid: "74791605"
 ตั้งค่าแถบ**อัปเดตข้อมูลของคุณอยู่เสมอ**โดยเลื่อนไปที่**เปิด**เพื่อกำหนดค่าการตั้งค่า
 
 > [!NOTE]
-> บริการ Power BI ตั้งเป้าหมายเริ่มต้นการรีเฟรชข้อมูลภายใน**15 นาที** ของเวลาการรีเฟรชตามกำหนดการ
+> เป้าหมายคือการเริ่มต้นการรีเฟรชภายใน 15 นาทีของช่วงเวลาที่กำหนดไว้ แต่อาจเกิดความล่าช้าได้ถึงหนึ่งชั่วโมงหากบริการไม่สามารถจัดสรรทรัพยากรที่ต้องการได้เร็วขึ้น
 
 ![กล่องโต้ตอบการรีเฟรชตามกำหนดการ](media/refresh-scheduled-refresh/scheduled-refresh.png)
 
