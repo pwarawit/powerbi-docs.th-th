@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5374397dc9b89df7b7cbd86cfca5a44631b94e4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef8e874c1f1a47d65845b87dccd441746651a68b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876484"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999801"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>เชื่อมต่อกับ Microsoft Graph Security API ใน Power BI Desktop
 
@@ -40,7 +40,7 @@ Microsoft Graph Security API เชื่อมต่อ [โซลูชัน�
 
 * ตอบสนองต่อการร้องขอที่แอปลอจิกของคุณส่งในระหว่างการเรียกใช้ครั้งแรกผ่าน [ประสบการณ์ความยินยอมของแอปพลิเคชัน](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)
    
-บัญชีผู้ใช้ที่ลงชื่อเข้าใช้ตัวเชื่อมต่อ Microsoft Graph Security ต้องเป็นสมาชิกของบทบาทผู้ดูแลระบบตัวอ่านระบบความปลอดภัยแบบจำกัดใน Azure AD *ตัวอ่านระบบความปลอดภัย* หรือ *ผู้ดูแลระบบความปลอดภัย* โปรดดู [กำหนดบทบาท Azure AD ให้ผู้ใช้](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users)
+บัญชีผู้ใช้ที่ลงชื่อเข้าใช้ตัวเชื่อมต่อ Microsoft Graph Security ต้องได้รับการมอบหมายจากใน Azure AD **ถ้า**ตัวอ่านระบบความปลอดภัย หรือ *ผู้ดูแลระบบความปลอดภัย* โปรดดู [กำหนดบทบาท Azure AD ให้ผู้ใช้](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users)
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>ใช้ตัวเชื่อมต่อ Microsoft Graph Security
 

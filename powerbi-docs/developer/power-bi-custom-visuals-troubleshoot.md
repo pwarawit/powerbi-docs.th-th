@@ -1,5 +1,5 @@
 ---
-title: การแก้ปัญหาวิธีพัฒนา Power BI ส่วนการแสดงผล Power BI
+title: การแก้ปัญหาวิธีพัฒนาการแสดงผล Power BI
 description: บทความนี้อธิบายถึงปัญหาทั่วไปที่คุณอาจพบเมื่อพัฒนาหรือสร้าง Power BI แบบกำหนดเอง
 author: KesemSharabi
 ms.author: kesharab
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.topic: troubleshooting
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
-ms.openlocfilehash: e28df5035e057d485a8122853f6ae88327e3045f
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: c2680a5818488a7822f38b8286a3e5a1782a487a
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74127765"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999778"
 ---
-# <a name="troubleshoot-power-bi-power-bi-visuals"></a>แก้ไขปัญหา Power BI ส่วนการแสดงผล Power BI
+# <a name="troubleshoot-power-bi-visuals"></a>แก้ปัญหาวิชวล Power BI
 
 ## <a name="debug"></a>ข้อบกพร่อง
 
@@ -42,4 +42,4 @@ ms.locfileid: "74127765"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-สำหรับข้อมูลเพิ่มเติม โปรดเยี่ยมชม[คำถามที่ถามบ่อยเกี่ยวกับ Power BI ส่วนการแสดงผล Power BI](power-bi-custom-visuals-faq.md#organizational-visuals)
+สำหรับข้อมูลเพิ่มเติม โปรดเยี่ยมชม[คำถามที่ถามบ่อยเกี่ยวกับการแสดงผล Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)

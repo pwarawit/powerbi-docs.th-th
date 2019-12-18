@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/22/2019
 ms.author: kfollis
-ms.openlocfilehash: a45cfb20907c96995adf8618cd6dd8ff32194bea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699739"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958505"
 ---
 # <a name="power-bi-data-sources"></a>แหล่งข้อมูล Power BI
 
-ตารางต่อไปนี้แสดงแหล่งข้อมูลที่ Power BI สนับสนุน รวมถึงข้อมูลเกี่ยวกับ DirectQuery และเกตเวย์ข้อมูลภายในองค์กร
+ตารางต่อไปนี้แสดงแหล่งข้อมูลที่ Power BI สนับสนุนสำหรับชุดข้อมูล รวมถึงข้อมูลเกี่ยวกับ DirectQuery และเกตเวย์ข้อมูลภายในองค์กร สำหรับข้อมูลเกี่ยวกับกระแสข้อมูล ให้ดูที่ [เชื่อมต่อกับแหล่งข้อมูลสำหรับ Power BI กระแสข้อมูล](service-dataflows-data-sources.md)
 
 | แหล่งข้อมูล | เชื่อมต่อจากเดสก์ท็อป | เชื่อมต่อและรีเฟรชจากบริการ | DirectQuery/Live Connection | เกตเวย์ (ที่รองรับ) | เกตเวย์ (จำเป็น) |
 |---|---|---|---|---|---|---|---|
@@ -95,7 +95,7 @@ ms.locfileid: "74699739"
 | Planview Enterprise One - CMT | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Planview Enterprise One - PRM | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Planview Projectplace | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
-| PostgreSQL | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ใช่ |
+| PostgreSQL | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
 | กระแสข้อมูล Power BI | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | ชุดข้อมูล Power BI | ใช่ | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ |
 | กระแสข้อมูล Power Platform | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |

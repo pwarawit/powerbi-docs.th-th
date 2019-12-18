@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 10e7ab035f17715bba858fc3b055c5bf47af1331
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565388"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000100"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>คำแนะนำสำหรับการแสดงภาพ Power BI
 ก่อนที่คุณจะ[เผยแพร่](https://docs.microsoft.com/power-bi/developer/office-store)วิชวล Power BI ของคุณไปยัง Microsoft AppSource เพื่อให้ผู้อื่นสามารถค้นหาและใช้งานได้ ต้องตรวจสอบให้แน่ใจว่าคุณได้ทำตามคำแนะนำเพื่อสร้างประสบการณ์ที่ยอดเยี่ยมสำหรับผู้ใช้ของคุณแล้ว
@@ -50,7 +50,12 @@ ms.locfileid: "74565388"
 
 ### <a name="submission-process"></a>กระบวนการส่ง
 
-นักพัฒนาอัปโหลดวิชวล IAP Power BI ไปยัง Microsoft AppSource ผ่านแดชบอร์ดของผู้ขายตามที่ได้กำหนดไว้สำหรับวิชวลฟรี เพื่อแสดงให้เห็นว่าวิชวล Power BI ที่ส่งมามีคุณลักษณะ IAP นักพัฒนาต้องเขียนไว้ในบันทึกย่อบนแดชบอร์ดผู้ขายว่า: "วิชวลที่มีการซื้อเพิ่มภายในแอป" นอกจากนี้นักพัฒนาจำเป็นต้องแจ้งคีย์ใบอนุญาตและโทเค็นเพื่อให้ทีมงานตรวจสอบสามารถตรวจสอบคุณลักษณะ IAP ได้ หลังจากตรวจสอบและอนุมัติวิชวล Power BI แล้ว การลงรายการ Microsoft AppSource สำหรับวิชวล IAP Power BI จะระบุว่า 'อาจจำเป็นต้องซื้อเพิ่ม' ภายใต้ตัวเลือกการกำหนดราคา
+ทำตาม [กระบวนการส่งคำร้อง](office-store.md#submitting-to-appsource) และระบบจะพาไปยังแท็บ *การตั้งค่าผลิตภัณฑ์* และตรวจสอบกล่องกาเครื่องหมาย *ผลิตภัณฑ์ของฉันที่ต้องการบริการซื้อ*
+
+หลังจากตรวจสอบและอนุมัติวิชวล Power BI แล้ว การลงรายการ Microsoft AppSource สำหรับวิชวล IAP Power BI จะระบุว่า 'อาจจำเป็นต้องซื้อเพิ่ม' ภายใต้ตัวเลือกการกำหนดราคา
+
+>[!NOTE]
+>ถ้าวิชวล Power BI ของคุณพร้อมส่งโดยใช้ [แดชบอร์ดผู้ขาย](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) aและคุณต้องการเพิ่มคุณลักษณะ IAP คุณสามารถเขียนโน๊ตไว้ในแดชบอร์ดผู้ขายได้ว่า  "วิชวลในแอปการซื้อ" คุณอาจจำเป็นต้องแจ้งคีย์ใบอนุญาตและโทเค็นเพื่อให้ทีมงานตรวจสอบสามารถตรวจสอบคุณลักษณะ IAP ได้
 
 ## <a name="context-menu"></a>เมนูบริบท
 เมนูบริบทคือเมนูคลิกขวาที่จะแสดงขึ้นเมื่อผู้ใช้วางเมาส์เหนือการแสดงผลด้วยภาพ
@@ -75,7 +80,7 @@ ms.locfileid: "74565388"
 
 * **สัญลักษณ์** - กราฟิกที่ไม่มีข้อความ
 
-    ![สัญลักษณ์ Microsoft](media/guidelines-powerbi-visuals/microsoft-symbol.png)
+    ![คำโลโก้ Microsoft](media/guidelines-powerbi-visuals/microsoft-symbol.png)
 
 * **คำโลโก้** - โลโก้ที่ไม่มีไอคอน แต่ประกอบด้วยข้อความเท่านั้น
 

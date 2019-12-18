@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.date: 10/29/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ebaf32bbf84dcbb8efd8516fd0a1ab01011f2d63
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 55cdfad221aef276c790e98de83dd844bc13aafe
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698497"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958732"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>ซื้อและมอบสิทธิ์การใช้งานผู้ใช้ Power BI Pro
 
-Power BI Pro เป็นสิทธิ์การใช้งานสำหรับผู้ใช้แต่ละรายที่อนุญาตให้ผู้ใช้อ่านและโต้ตอบกับรายงานและแดชบอร์ดที่ผู้ใช้รายอื่นเผยแพร่ในบริการของ Power BI และแบ่งปันเนื้อหาและทำงานร่วมกับผู้ใช้ Power BI Pro รายอื่น เฉพาะผู้ใช้ที่มีสิทธิ์การใช้งานผู้ใช้ Power BI Pro เท่านั้นที่สามารถเผยแพร่หรือแบ่งปันเนื้อหากับผู้ใช้รายอื่นหรือใช้เนื้อหาที่สร้างโดยผู้ใช้รายอื่น ยกเว้นว่าเนื้อหานั้นถูกโฮสต์อยู่ในความจุ Power BI Premium ดูข้อมูลเพิ่มเติมได้ที่ [คุณลักษณะของ Power BI ตามประเภทใบอนุญาตการใช้งาน](service-features-license-type.md)
+Power BI Pro เป็นสิทธิ์การใช้งานสำหรับผู้ใช้แต่ละรายที่อนุญาตให้ผู้ใช้อ่านและโต้ตอบกับรายงานและแดชบอร์ดที่ผู้ใช้รายอื่นเผยแพร่ในบริการของ Power BI และแบ่งปันเนื้อหาและทำงานร่วมกับผู้ใช้ Power BI Pro รายอื่น เฉพาะผู้ใช้ที่มีสิทธิ์การใช้งานผู้ใช้ Power BI Pro เท่านั้นที่สามารถเผยแพร่หรือแบ่งปันเนื้อหากับผู้ใช้รายอื่นหรือใช้เนื้อหาที่สร้างโดยผู้ใช้รายอื่น ยกเว้นว่าเนื้อหานั้นถูกโฮสต์อยู่ในความจุ Power BI Premium สำหรับข้อมูลเพิ่มเติมให้ดูส่วนการเปรียบเทียบคุณลักษณะ _Power BI_ ของ [ราคา Power BI](https://powerbi.microsoft.com/pricing/)
 
 ## <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>ซื้อและมอบสิทธิ์การใช้งานผู้ใช้ Power BI Pro
 

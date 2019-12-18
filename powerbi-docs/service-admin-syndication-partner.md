@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 98a1fc1c394a81f743e622ec1756e6501a497fa3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: cc85fb07f50a42952e9b293908a797b1cbac023f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699854"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958367"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>ไม่สามารถเพิ่ม Power BI กับ Office 365 ที่สมัครผ่านคู่ค้า
 
@@ -48,7 +48,7 @@ Office 365 อนุญาตให้บริษัทสามารถขา
 
 ## <a name="sign-up-for-a-free-trial"></a>ลงทะเบียนเพื่อทดลองใช้งานฟรี
 
-คุณสามารถลงทะเบียนเพื่อทดลองใช้งาน Power BI Pro โดยไม่เสียค่าใช้จ่าย หากคุณไม่ซื้อ Power BI Pro ในตอนท้ายของช่วงทดลองใช้งาน คุณจะยังคงมีสิทธิ์ใช้งานฟรีที่มีคุณลักษณะมากมายของ Power BI ดูข้อมูลเพิ่มเติมได้ที่ [คุณลักษณะของ Power BI ตามประเภทสิทธิ์การใช้งาน](service-features-license-type.md)
+คุณสามารถลงทะเบียนเพื่อทดลองใช้งาน Power BI โดยไม่เสียค่าใช้จ่าย หากคุณไม่ซื้อ Power BI Pro ในตอนท้ายของช่วงทดลองใช้งาน คุณจะยังคงมีสิทธิ์ใช้งานฟรีที่มีคุณลักษณะมากมายของ Power BI ดูข้อมูลเพิ่มเติมได้ที่ [การสมัคร Power BI รายบุคคล](service-self-service-signup-for-power-bi.md)
 
 ### <a name="enable-ad-hoc-subscriptions"></a>เปิดใช้งานการสมัครใช้งานแบบเฉพาะกิจ
 

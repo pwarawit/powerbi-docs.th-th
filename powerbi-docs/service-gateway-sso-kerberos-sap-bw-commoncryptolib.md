@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6c098a187b7f0d0d4828500cd6c5995a7c82ab42
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 02c8ac991fbf84051ae795ef4a80f2b3dc07a1ce
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697646"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000192"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>ใช้การลงชื่อเข้าระบบแบบครั้งเดียวของ Kerberos สำหรับ SSO ไปยัง SAP เท่ากับการใช้ CommonCryptoLib (sapcrypto.dll)
 
@@ -89,7 +89,7 @@ ms.locfileid: "74697646"
 
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
 
-ถ้าคุณไม่สามารถรีเฟรชรายงานในบริการของ Power BI คุณสามารถใช้การติดตามเกตเวย์ การติดตาม CPIC และการติดตาม CommonCryptoLib เพื่อวินิจฉัยปัญหาได้ เนื่องจากการติดตาม CPIC และ CommonCryptoLib เป็นผลิตภัณฑ์ของ SAP ดังนั้น Microsoft จึงไม่สามารถให้การสนับสนุนได้ สำหรับผู้ใช้ Active Directory ที่ได้รับสิทธิ์การเข้าถึงแบบ SSO ใน BW การกำหนดค่า Active Directory บางอย่างอาจจำเป็นต้องมีผู้ใช้ที่เป็นสมาชิกของกลุ่มผู้ดูแลระบบบนเครื่องที่มีการติดตั้งเกตเวย์
+ถ้าคุณไม่สามารถรีเฟรชรายงานในบริการของ Power BI คุณสามารถใช้การติดตามเกตเวย์ การติดตาม CPIC และการติดตาม CommonCryptoLib เพื่อวินิจฉัยปัญหาได้ เนื่องจากการติดตาม CPIC และ CommonCryptoLib เป็นผลิตภัณฑ์ของ SAP ดังนั้น Microsoft จึงไม่สามารถให้การสนับสนุนได้
 
 ### <a name="gateway-logs"></a>รายการบันทึกเกตเวย์
 
@@ -109,7 +109,49 @@ ms.locfileid: "74697646"
 
    ![การติดตาม CPIC](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
- 3. สร้างปัญหาขึ้นมาใหม่และตรวจสอบว่า **CPIC\_TRACE\_DIR** มีไฟล์การติดตาม
+3. สร้างปัญหาขึ้นมาใหม่และตรวจสอบว่า **CPIC\_TRACE\_DIR** มีไฟล์การติดตามอยู่ด้วย
+ 
+    การติดตาม CPIC สามารถวินิจฉันปัญหาระดับสูง อย่างเช่นการไม่สามารถโหลดไลบราลี่ sapcrypto.dll ยกตัวอย่างเช่น,ตรงนี้การติดตามไฟล์  CPIC ที่การโหลด a .dll เกิดข้อผิดพลาดขึ้น:
+
+    ```
+    [Thr 7228] *** ERROR => DlLoadLib()==DLENOACCESS - LoadLibrary("C:\Users\test\Desktop\sapcrypto.dll")
+    Error 5 = "Access is denied." [dlnt.c       255]
+    ```
+
+    หากคุณเจอปัญหาเช่นนี้แต่คุณได้ตั้งค่าขออนุญาต Read & Execute บน sapcrypto.dll และ sapcrypto.ini ตามที่ได้อธิบายไว้ใน [ส่วนด้านบนนี้](#configure-sap-bw-to-enable-sso-using-commoncryptolib)ลองตั้งค่า Read & Execute permissions ในโฟลเดอร์ที่มีไฟล์อยู่
+
+    หากยังไม่สามารถโหลด .dll ได้ให้ลองเปิด[การตรวจสอบไฟล์](/windows/security/threat-protection/auditing/apply-a-basic-audit-policy-on-a-file-or-folder). การตรวจสอบผลของการตรวจสอบไฟล์ใน Windows Event Viewer อาจช่วยให้คุณรู้ได้ว่าทำไมไฟล์จึงไม่สามารถโหลดได้ ลองมองหาเอ็นทิตี้ที่ผิดพลาดโดยผู้ใช้งาน  Active Directory ยกตัวอย่างเช่นผู้ใช้งานที่ดำเนินการ`MYDOMAIN\mytestuser` ล้มเหลวอาจมองหาข้อผิดพลาดแบบนี้:
+
+    ```
+    A handle to an object was requested.
+
+    Subject:
+        Security ID:        MYDOMAIN\mytestuser
+        Account Name:       mytestuser
+        Account Domain:     MYDOMAIN
+        Logon ID:       0xCF23A8
+
+    Object:
+        Object Server:      Security
+        Object Type:        File
+        Object Name:        <path information>\sapcrypto.dll
+        Handle ID:      0x0
+        Resource Attributes:    -
+
+    Process Information:
+        Process ID:     0x2b4c
+        Process Name:       C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe
+
+    Access Request Information:
+        Transaction ID:     {00000000-0000-0000-0000-000000000000}
+        Accesses:       ReadAttributes
+                
+    Access Reasons:     ReadAttributes: Not granted
+                
+    Access Mask:        0x80
+    Privileges Used for Access Check:   -
+    Restricted SID Count:   0
+    ```
 
 ### <a name="commoncryptolib-tracing"></a>การติดตาม CommonCryptoLib 
 
