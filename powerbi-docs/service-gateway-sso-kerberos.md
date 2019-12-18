@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/03/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4ce5eab22538b7abdded2759a4a072fd500575ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699233"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000123"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>ใช้ Kerberosสำหรับ SSO จากPower BI ไปยังแหล่งข้อมูลภายในองค์กร
 
@@ -66,6 +66,22 @@ ms.locfileid: "74699233"
    ```setspn -a gateway/MyGatewayMachine Contoso\GatewaySvc```
 
    คุณสามารถตั้งค่า SPN ได้โดยใช้สแนปอิน **Active Directory Users and Computers** MMC
+   
+### <a name="add-gateway-service-account-to-windows-authorization-and-access-group-if-required"></a>เพิ่มบัญชีผู้ใช้บริการเกตเวย์ไปยัง Windows Authorization และ Access Group ถ้าจำเป็น
+
+ในบางกรณีบัญชีผู้ใช้บริการเกตเวย์จะต้องถูกเพิ่มเข้าไปใน Windows Authorization และ Access Group ซึ่งกรณีนี้รวมถึงการรักษาความปลอดภัยของ Active Directory environment และเมื่อบัญชีผู้ใช้บริการเกตเวย์และผู้ใช้เกตเวย์นั้นต้องเลียนแบบโดเมนหรือฟอเรสต์ที่แยกกัน คุณยังสามารถเพิ่มบัญชีผู้ใช้บริการเกตเวย์ไปยัง Windows Authorization และ Access Group ในสถานการณ์ที่โดเมนและฟอเรสต์ไม่ได้ทำงานหนักมาก (ไม่บังคับ)
+
+สำหรับข้อมูลเพิ่มเติมให้ดู [การอนุมัติของ Windows และกลุ่มการเข้าถึง](/windows/security/identity-protection/access-control/active-directory-security-groups#bkmk-winauthaccess)
+
+ในการดำเนินการขั้นตอนการกำหนดค่านี้ให้เสร็จสมบูรณ์สำหรับแต่ละโดเมนที่มีผู้ใช้ Active Directory ที่คุณต้องการให้บัญชีบริการเกตเวย์สามารถเลียนแบบได้:
+1. ลงชื่อเข้าใช้คอมพิวเตอร์ในโดเมนและเปิดใช้งาน Active Directory และคอมพิวเตอร์ MMC snap-in
+2. ค้นหากลุ่ม **การอนุญาตของ Windows และการเข้าถึงกลุ่ม**ซึ่งโดยทั่วไปแล้วจะพบได้ในคอนเทนเนอร์ **บิวท์อิน** 
+3. ดับเบิลคลิกที่กลุ่มและคลิกที่แท็บ **สมาชิก** 
+4. คลิก **เพิ่ม**และเปลี่ยนตำแหน่งที่ตั้งโดเมนไปยังโดเมนที่บัญชีผู้ใช้บริการเกตเวย์อาศัยอยู่ใน
+5. พิมพ์ชื่อบัญชีผู้ใช้บริการเกตเวย์และคลิก **ตรวจสอบชื่อ** เพื่อตรวจสอบว่าบัญชีบริการเกตเวย์สามารถเข้าถึงได้
+6. คลิก**ตกลง**
+7. คลิก**ใช้**
+8. รีสตาร์ทบริการเกตเวย์
 
 ### <a name="decide-on-the-type-of-kerberos-constrained-delegation-to-use"></a>ตัดสินใจเลือกประเภทของการมอบสิทธิ์แบบจำกัดของ Kerberos ที่จะใช้
 
@@ -173,7 +189,7 @@ ms.locfileid: "74699233"
 
 1. บนเครื่องเกตเวย์ ให้เรียกใช้ **gpedit.msc**
 
-2. ไปยัง **นโยบายคอมพิวเตอร์ภายใน** &gt;  **การกำหนดค่าคอมพิวเตอร์** &gt; **การตั้งค่า Windows** &gt; **การตั้งค่าความปลอดภัย** &gt; **นโยบายภายในเครื่อง** &gt; **การกำหนดสิทธิ์ของผู้ใช้**
+2. ไปยัง **นโยบายคอมพิวเตอร์ภายใน** &gt; **การกำหนดค่าคอมพิวเตอร์** &gt; **การตั้งค่า Windows** &gt; **การตั้งค่าความปลอดภัย** &gt; **นโยบายภายในเครื่อง** &gt; **การกำหนดสิทธิ์ของผู้ใช้**
 
     ![โครงสร้างโฟลเดอร์นโยบายคอมพิวเตอร์ภายใน](media/service-gateway-sso-kerberos/user-rights-assignment.png)
 
