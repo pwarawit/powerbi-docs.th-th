@@ -142,6 +142,8 @@
       items:
         - name: แอปสำหรับอุปกรณ์เคลื่อนคืออะไร
           href: mobile/mobile-apps-for-mobile-devices.md
+        - name: พบหน้าโฮมเพจ
+          href: mobile/mobile-apps-home-page.md
     - name: การเริ่มต้นใช้งานด่วน
       items:
         - name: สำรวจแดชบอร์ดและรายงาน
@@ -198,7 +200,7 @@
               href: mobile/mobile-apps-qr-code.md
             - name: ใส่คำอธิบายประกอบ และแชร์ในแอปสำหรับอุปกรณ์เคลื่อนที่
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: สแกนบาร์โค้ดจากแอปบน iPhone ของคุณ
+            - name: สแกนบาร์โค้ดด้วยแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
               href: mobile/mobile-apps-scan-barcode-iphone.md
             - name: กำหนดค่าโดยใช้การจัดการอุปกรณ์เคลื่อนที่
               href: mobile/mobile-app-configuration.md

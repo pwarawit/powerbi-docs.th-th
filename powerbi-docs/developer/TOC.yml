@@ -83,8 +83,22 @@
               href: visuals/event-service.md
             - name: เรียงลำดับ
               href: visuals/sort-options.md
-            - name: การโต้ตอบ.utils
-              href: visuals/utils-interactivity-selections.md
+            - name: การแปลเป็นภาษาท้องถิ่น
+              href: visuals/localization.md
+            - name: ยูทิลิตี้ Power BI Visual
+              items:
+                - name: การโต้ตอบ.utils
+                  href: visuals/utils-interactivity-selections.md
+                - name: ยูทิลิตี้การจัดรูปแบบ
+                  href: visuals/utils-formatting.md
+                - name: ยูทิลิตี้แผนภูมิ
+                  href: visuals/utils-chart.md
+                - name: ยูทิลิตี้ SVG
+                  href: visuals/utils-svg.md
+                - name: ยูทิลิตี้ชนิด
+                  href: visuals/utils-type.md
+                - name: ยูทิลิตี้มุมมองข้อมูล
+                  href: visuals/utils-dataview.md
         - name: ทรัพยากร
           items:
             - name: ศูนย์นักพัฒนา

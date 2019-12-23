@@ -40,6 +40,8 @@
           href: report-drillthrough.md
         - name: คำแนะนำวันที่/เวลาอัตโนมัติใน Power BI Desktop
           href: auto-date-time.md
+        - name: คำแนะนำความสัมพันธ์แบบกลุ่มต่อกลุ่ม
+          href: relationships-many-to-many.md
     - name: เอกสารทางเทคนิค
       items:
         - name: ภาพรวมเอกสารทางเทคนิค

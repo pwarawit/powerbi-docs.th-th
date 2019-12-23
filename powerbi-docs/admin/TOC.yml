@@ -7,6 +7,10 @@
       items:
         - name: การดูแล Power BI คืออะไร?
           href: ../service-admin-administering-power-bi-in-your-organization.md
+        - name: ผู้เช่าของฉันอยู่ที่ไหน
+          href: ../service-admin-where-is-my-tenant-located.md
+        - name: โยกย้ายเพื่อไปยังภูมิภาคเยอรมนีในท้องถิ่น
+          href: service-admin-migrate-data-germany.md
     - name: แนวคิด
       expanded: true
       items:
@@ -30,8 +34,6 @@
               href: ../service-admin-syndication-partner.md
         - name: การใช้พอร์ทัลผู้ดูแลระบบ
           href: ../service-admin-portal.md
-        - name: ผู้เช่าของฉันอยู่ที่ไหน
-          href: ../service-admin-where-is-my-tenant-located.md
         - name: ค้นหาผู้ใช้ที่มีการลงชื่อเข้าใช้
           href: ../service-admin-access-usage.md
         - name: การตรวจสอบ
