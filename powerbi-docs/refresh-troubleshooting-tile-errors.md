@@ -11,10 +11,10 @@ ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 04ee1386547ed888531ea139227969d49629863d
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74699555"
 ---
 # <a name="troubleshooting-tile-errors"></a>แก้ไขปัญหาข้อผิดพลาดไทล์
@@ -46,7 +46,7 @@ ms.locfileid: "74699555"
 
 **ไม่สามารถแสดงข้อมูลได้เพราะ Power BI ไม่สามารถกำหนดความสัมพันธ์ระหว่างช่องข้อมูลสองรายการหรือมากกว่าได้**
 
-คุณกำลังพยายามใช้อย่างน้อยสองช่องข้อมูลจากตารางที่เกี่ยวข้อง คุณจำเป็นต้องลบช่องข้อมูลที่ไม่เกี่ยวข้องออกจากภาพ จากนั้นสร้างความสัมพันธ์ระหว่างตาราง เมื่อทำการเปลี่ยนแปลงนี้เสร็จแล้ว คุณสามารถเพิ่มช่องข้อมูลกลับไปยังวิชวลได้ ซึ่งสามารถทำได้ใน Power BI Desktop หรือ Power Pivot สำหรับ Excel [เรียนรู้เพิ่มเติม](desktop-create-and-manage-relationships.md)
+คุณกำลังพยายามใช้อย่างน้อยสองช่องข้อมูลจากตารางที่เกี่ยวข้อง คุณจำเป็นต้องลบช่องข้อมูลที่ไม่เกี่ยวข้องออกจากภาพ จากนั้นสร้างความสัมพันธ์ระหว่างตาราง เมื่อทำการเปลี่ยนแปลงนี้เสร็จแล้ว คุณสามารถเพิ่มช่องข้อมูลกลับไปยังวิชวลได้ ซึ่งสามารถทำได้ใน Power BI Desktop หรือ Power Pivot สำหรับ Excel [ศึกษาเพิ่มเติม](desktop-create-and-manage-relationships.md)
 
 **กลุ่มในแกนหลักและแกนรองซ้อนทับกัน กลุ่มในแกนหลักไม่สามารถมีคีย์เดียวกันกับกลุ่มในแกนรองได้**
 
@@ -81,5 +81,5 @@ ms.locfileid: "74699555"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [การแก้ไขปัญหาเกตเวย์ข้อมูลในองค์กร](service-gateway-onprem-tshoot.md)  
 [แก้ไขปัญหาเกตเวย์ Power BI - ส่วนบุคคล](service-admin-troubleshooting-power-bi-personal-gateway.md)  
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

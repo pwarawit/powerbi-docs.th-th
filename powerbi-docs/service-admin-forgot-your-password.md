@@ -10,10 +10,10 @@ ms.date: 09/13/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 7f5f24273b05666098376a2ef04a5dcaada6461b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74700061"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>ลืมรหัสผ่านของคุณสำหรับ Power BI ใช่หรือไม่
@@ -33,4 +33,4 @@ ms.locfileid: "74700061"
 > [!NOTE]
 > Power BI ให้การสนับสนุนในช่วงเวลาทำการปกติในโซน time แบบมาตรฐานของตะวันออก (EST) ขณะนี้การรองรับมีเฉพาะในภาษาอังกฤษเท่านั้น
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

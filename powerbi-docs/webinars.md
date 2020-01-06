@@ -8,26 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 73b439b870a4f931c2db680c0067a6ea2fdf54ff
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882751"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548563"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 
 ลงทะเบียนสำหรับการสัมมนาผ่านเว็บสดของเรากำลังเกิดขึ้น หรือดูของเราเซสชันที่บันทึกไว้ตามความต้องการ
 
-## <a name="upcoming-webinars"></a>สัมมนาผ่านเว็บที่กำลังมาถึง
-
-**การวิเคราะห์ในเหตุการณ์เสมือนใน  Azure เร่งเวลาเพื่อดูข้อมูลเชิงลึกด้วย  Azure Synapse Analytics**
-<br>โดย Gayle Sheppard และ John Macintyre
-<br>[ลงทะเบียนตอนนี้](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**เก้าแนวโน้มในการกำหนดรูปแบบการวิเคราะห์ข้อมูลขนาดใหญ่ในอนาคต**
-<br>โดย Vijay Gopalakrishnan
-<br>[ลงทะเบียนเพื่อรับชมในวันที่ 18 ธันวาคมนี้](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
+## <a name="upcoming-webinars"></a>การสัมมนาผ่านเว็บที่กำลังจะมาถึง
 
 **AI สามวิธีกำลังเปลี่ยนเป็น BI**
 <br>โดย Justyna Lucznik
@@ -39,6 +31,10 @@ ms.locfileid: "74882751"
 
 เริ่มต้นใช้งานสัมมนาผ่านเว็บตามความต้องการเหล่านี้ได้รับความนิยม
 
+**การวิเคราะห์ในเหตุการณ์เสมือนใน  Azure เร่งเวลาเพื่อดูข้อมูลเชิงลึกด้วย  Azure Synapse Analytics**
+<br>โดย Gayle Sheppard และ John Macintyre
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-On-Demand-Registration.html)
+
 **วิธีการที่ Microsoft เปลี่ยนแปลงการป้องกันข้อมูล BI**
 <br>โดย Anton Fritz และ Adi Regev
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
@@ -46,6 +42,10 @@ ms.locfileid: "74882751"
 **Power BI และอนาคตของยุคใหม่และองค์กร BI**
 <br>โดย Arun Ulag and Amir Netz
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
+
+**เก้าแนวโน้มในการกำหนดรูปแบบการวิเคราะห์ข้อมูลขนาดใหญ่ในอนาคต**
+<br>โดย Vijay Gopalakrishnan
+<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **เริ่มต้นใช้งาน Power BI**
 <br>โดย Miguel Martinez
@@ -252,7 +252,7 @@ ms.locfileid: "74882751"
 
 - [Power BI คืออะไร](fundamentals/power-bi-overview.md)
 
-- ติดตาม[ @MSPowerBIบน Twitter](https://twitter.com/mspowerbi)
+- ติดตาม[@MSPowerBIบน Twitter](https://twitter.com/mspowerbi)
 
 - สมัครใช้งานของเรา[แชนเนล YouTube](https://www.youtube.com/mspowerbi)
 

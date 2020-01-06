@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265705"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>บันทึกการวินิจฉัยสำหรับ Power BI Embedded ใน Azure
@@ -26,7 +26,7 @@ ms.locfileid: "74265705"
 
 ## <a name="set-up-diagnostics-logging"></a>ตั้งค่าการบันทึกการวินิจฉัย
 
-### <a name="azure-portal"></a>พอร์ทัล Azure
+### <a name="azure-portal"></a>พอร์ทัล Microsoft Azure
 
 1. ใน[พอร์ทัล Azure](https://portal.azure.com) > ทรัพยากร Power BI Embedded ให้เลือก**บันทึกการวินิจฉัย**ในบานหน้าต่างนำทาง แล้วเลือก**เปิดใช้งานการวินิจฉัย**
 
@@ -123,7 +123,7 @@ ms.locfileid: "74265705"
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | เวลาที่เหตุการณ์เริ่มต้นเมื่อพร้อมใช้งาน |
 | startTime | 2018-04-06T18:30:11.9137358Z | เวลาที่เหตุการณ์เริ่มต้นเมื่อพร้อมใช้งาน |
 | JobID | 0 | ID งานสำหรับความคืบหน้า |
-| ObjectID | 464 | ID ของออบเจ็กต์ |
+| ObjectID | 464 | รหัสออบเจ็กต์ |
 | ObjectType | 802012 | ObjectType |
 | เวลาสิ้นสุด | 2018-04-06T18:30:11.9137358Z | เวลาที่เหตุการณ์สิ้นสุด |
 | ระยะเวลา | 0 | ระยะเวลา (ในหน่วยมิลลิวินาที) ที่ใช้โดยกิจกรรม |
@@ -131,7 +131,7 @@ ms.locfileid: "74265705"
 | ProgressTotal | 0 | ความคืบหน้าทั้งหมด |
 | IntegerData | 0 | ข้อมูลจำนวนเต็ม |
 | ความรุนแรง | 0 | ระดับความรุนแรงของข้อยกเว้น |
-| ความสำเร็จ | 1 | 1 = สำเร็จ 0 = ล้มเหลว (ตัวอย่างเช่น 1 หมายถึงการตรวจสอบสิทธิ์เสร็จเรียบร้อยแล้ว และ 0 หมายถึงการตรวจสอบล้มเหลว) |
+| สำเร็จ | 1 | 1 = สำเร็จ 0 = ล้มเหลว (ตัวอย่างเช่น 1 หมายถึงการตรวจสอบสิทธิ์เสร็จเรียบร้อยแล้ว และ 0 หมายถึงการตรวจสอบล้มเหลว) |
 | ข้อผิดพลาด | 0 | จำนวนข้อผิดพลาดของกิจกรรมที่ให้ไว้ |
 | ConnectionID | 3 | ID การเชื่อมต่อเฉพาะ |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | ID ของฐานข้อมูลที่คำสั่งของผู้ใช้กำลังทำงานอยู่ |

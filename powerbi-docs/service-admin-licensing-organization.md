@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 7a2cc9a1deb87e94c0887b1ae00174d6791cf712
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74700038"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>การออกใบอนุญาตการใช้งาน Power BI ในองค์กรของคุณ
@@ -155,4 +155,4 @@ Power BI Pro มีระยะเวลาการสมัครใช้ง�
 
 [ซื้อและะมอบใบอนุญาตการใช้งาน Power BI Pro](service-admin-purchasing-power-bi-pro.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

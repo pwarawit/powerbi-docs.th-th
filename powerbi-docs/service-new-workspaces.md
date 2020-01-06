@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bdaac078fa106565f7c11b3cc323840b5d10b579
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565335"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622436"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>จัดการงานในพื้นที่ทำงานใหม่ใน Power BI
 
@@ -111,18 +111,19 @@ ms.locfileid: "74565335"
 Power BI จะไม่เชื่อมสิทธิ์ของผู้ใช้หรือกลุ่มผู้ใช้ที่มีการกำหนดค่าการเข้าถึงพื้นที่ทำงานเข้ากับสมาชิกกลุ่มผู้เป็นสมาชิกของ Office 365 วิธีที่ดีที่สุดคือการจัดการการเข้าถึงพื้นที่ทำงานผ่านทางเดี่ยวกับกลุ่ม Office 365 ที่คุณกำหนดค่าจัดเก็บไฟล์ในการตั้งค่านี้ 
 
 อ่านเกี่ยวกับวิธีการ[ตั้งค่าและเข้าถึงพื้นที่ทำงานของ OneDrive](service-create-the-new-workspaces.md#workspace-onedrive)  
-   
+
 ## <a name="auditing"></a>การตรวจสอบ
+
 กิจกรรมดังต่อไปนี้จะเป็นการตรวจสอบโดย Power BI สำหรับประสบการณ์การใช้งานพื้นที่ทำงานใหม่
 
-| ชื่อที่เรียกง่าย |   ชื่อการดำเนินการ |
+| ชื่อที่เรียกง่าย | ชื่อการดำเนินการ |
 |---|---|
 | สร้างโฟลเดอร์ Power BI แล้ว | CreateFolder |
 | ลบโฟลเดอร์ Power BI แล้ว | DeleteFolder |
 | อัปเดตโฟลเดอร์ Power BI แล้ว | UpdateFolder |
 | อัปเดตการเข้าถึงโฟลเดอร์ Power BI แล้ว| UpdateFolderAccess |
 
-เรียนรู้เพิ่มเติมเกี่ยวกับ [รายงานการตรวจสอบ Power BI](service-admin-auditing.md#activities-audited-by-power-bi)
+เรียนรู้เพิ่มเติมเกี่ยวกับ [รายงานการตรวจสอบ Power BI](service-admin-auditing.md)
 
 ## <a name="limitations-and-considerations"></a>ข้อจำกัดและข้อควรพิจารณา
 

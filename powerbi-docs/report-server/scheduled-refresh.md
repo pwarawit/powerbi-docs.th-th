@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maggies
 ms.openlocfilehash: 90f08abd119e7dfc0bf639eeb2ed8334fbdfa234
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74699026"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>รายงาน Power BI รีเฟรชตามกำหนดการในเซิร์ฟเวอร์รายงาน Power BI
@@ -38,7 +38,7 @@ ms.locfileid: "74699026"
 
 เซิร์ฟเวอร์รายงาน power BI จะรักษาคิวของเหตุการณ์สำหรับการดำเนินการที่กำหนดไว้ทั้งหมด ซึ่งจะทำการสำรวจคิวตามเวลาปกติเพื่อตรวจสอบเหตุการณ์ใหม่ ตามค่าเริ่มต้น คิวจะได้รับการสแกนที่ช่วงเวลา 10 วินาที คุณสามารถเปลี่ยนช่วงเวลาโดยการปรับเปลี่ยน**PollingInterval**, **IsNotificationService**และ**IsEventService**ตั้งค่าการกำหนดค่าในตัวไฟล์ RSReportServer.config **IsDataModelRefreshService**ยังสามารถใช้เพื่อตั้งค่าว่ากระบวนการของเซิร์ฟเวอร์รายงานกำหนดเหตุการณ์ไว้หรือไม่
 
-### <a name="analysis-services"></a>Analysis Services
+### <a name="analysis-services"></a>บริการด้านการวิเคราะห์
 สร้างรายงาน Power BI รวมถึงการดำเนินการรีเฟรชตามกำหนดการ จำเป็นต้องโหลดแบบจำลองข้อมูลของรายงาน Power BI ใน Analysis Services กระบวนการ Analysis Services จะทำงานร่วมกับเซิร์ฟเวอร์รายงาน Power BI Report
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
@@ -64,5 +64,5 @@ ms.locfileid: "74699026"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 กำหนดค่า[การรีเฟรชตามกำหนดการ](configure-scheduled-refresh.md)ในรายงาน Power BI
 
-คุณมีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

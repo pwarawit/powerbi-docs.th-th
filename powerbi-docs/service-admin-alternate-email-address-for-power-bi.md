@@ -10,10 +10,10 @@ ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 3a6f1f692d615da14be9092290fd7c8c9e6bf168
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74698658"
 ---
 # <a name="use-an-alternate-email-address"></a>ใช้ที่อยู่อีเมลสำรอง
@@ -69,4 +69,4 @@ Power BI จะเลือกว่าจะใช้อีเมลใดจ�
 
 1. หากไม่ตรงกับเงื่อนไขทั้งหมดดังกล่าว ผู้ใช้ Power BI จะใช้ที่อยู่ UPN
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

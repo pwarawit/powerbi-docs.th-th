@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: bb4e177ff813c332c8b60b490ead1f6d97a03935
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73867109"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>ใช้ข้อมูลเชิงลึกใน Power BI Desktop เพื่อหาว่าการกระจาย่แตกต่างกันที่ไหน (ตัวอย่าง)
@@ -43,7 +43,7 @@ ms.locfileid: "73867109"
 
 **Power BI Desktop** จะเรียกใช้อัลกอริทึมการเรียนรู้ กับข้อมูล และเพิ่มวิชวลและคำอธิบายลงในหน้าต่าง ที่ใช้อธิบายว่าหมวดหมู่ใด (คอลัมน์) และค่าใดของคอลัมน์เหล่านี้ทำให้เกิดการกระจายที่แตกต่างกันมากที่สุดอย่างมีนัยสำคัญ ข้อมูลเชิงลึกจะแสดงด้วยแผนภูมิคอลัมน์ ดังแสดงในรูปภาพต่อไปนี้ 
 
-![แผนภูมิคอลัมน์](media/desktop-insights-find-where-different/find-where-different_04.png)
+![Column chart](media/desktop-insights-find-where-different/find-where-different_04.png)
 
 ค่าที่ใช้ตัวกรองที่เลือกจะแสดงโดยใช้สีเริ่มต้นปกติ ค่าค่าโดยรวมตามที่เห็นในภาพเริ่มต้นดั่งเดิมจะแสดงเป็นสีเทาเพื่อให้เปรียบเทียบได้ง่าย คุณสามารถเลือกตัวกรองที่แตกต่างกันได้ถึงสามตัว (*จักรยานทัวร์ริ่ง* *จักรยานเสือภูเขา* *จักรยานเสือหมอบ* สำหรับตัวอย่างนี้) และสามารถเลือกตัวกรองที่แตกต่างกันโดยคลิกที่ตัวกรองเหล่านั้น (หรือใช้ ctrl-click เพื่อเลือกหลายรายการ)
 

@@ -11,10 +11,10 @@ ms.date: 09/19/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73852654"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>เพิ่มรายการโปรด แดชบอร์ด รายงาน และแอปใน Power BI service
@@ -75,5 +75,5 @@ ms.locfileid: "73852654"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 - [Power BI: แนวคิดพื้นฐาน](end-user-basic-concepts.md)
-- มีคำถามเพิ่มเติมหรือไม่? ลองไปที่ [ชุมชน Power BI](https://community.powerbi.com/)
+- มีคำถามเพิ่มเติมหรือไม่ ลองไปที่ [ชุมชน Power BI](https://community.powerbi.com/)
 

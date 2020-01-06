@@ -10,10 +10,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: de842b95c8f6e023a5207c07abb2525c5fe45878
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871716"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>เปลี่ยนชื่อเกือบทุกสิ่งใน Power BI service
@@ -86,5 +86,5 @@ ms.locfileid: "73871716"
 * ถ้ารายการที่ถูกเปลี่ยนชื่อได้แชร์กับคุณ หรือเป็นส่วนหนึ่งของชุดเนื้อหา คุณจะไม่เห็นไอคอนรูปเฟือง และคุณจะไม่สามารถเข้าถึงการตั้งค่า
 * บนแท็บ**ชุดข้อมูล** ถ้าคุณไม่เห็น**ตัวเลือกเพิ่มเติม** (...) ให้ขยายหน้าต่างเบราว์เซอร์ของคุณ
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

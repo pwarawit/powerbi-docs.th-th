@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
 ms.openlocfilehash: 31db6725c027ed09e900dac7036778004e9e3ff3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73870728"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>สำรวจข้อมูลของคุณในแอป Power BI บนมือถือใน Apple Watch ของคุณ
@@ -86,6 +86,6 @@ Power BI จะแสดงตัวบ่งชี้ว่าแดชบอ�
 คำติชมของคุณจะช่วยให้เราตัดสินใจสิ่งที่ต้องปรับปรุงในอนาคต ดังนั้นโปรดอย่าลืมให้คะแนนให้กับคุณลักษณะอื่นๆ ที่คุณต้องการจะเจอในแอปสำหรับอุปกรณ์เคลื่อน Power BI 
 
 * ดาวน์โหลดแอป [Power BI สำหรับ iPhone](https://go.microsoft.com/fwlink/?LinkId=522062)
-* ติดตาม[ @MSPowerBIบน Twitter](https://twitter.com/MSPowerBI)
+* ติดตาม[@MSPowerBIบน Twitter](https://twitter.com/MSPowerBI)
 * เข้าร่วมการสนทนาที่[ชุมชน Power BI](https://community.powerbi.com/)
 
