@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: db4b6d4915e97aaee65806b0bca7801bf4ce951e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4440db5888eeeab638eab4ea3819107d37bdbdbd
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876230"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223466"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>ใช้ R IDE ภายนอกกับ Power BI
 ด้วย**Power BI Desktop**คุณสามารถใช้ R IDE ภายนอกของคุณ (สภาพแวดล้อมรวมเพื่อการพัฒนา) เพื่อสร้าง และปรับปรุงสคริปต์ R จาก แล้วจะใช้สคริปต์เหล่านั้นใน Power BI ได้
@@ -27,11 +27,11 @@ ms.locfileid: "73876230"
 
 ตั้งแต่ **Power BI Desktop** ที่วางจำหน่ายในเดือนกันยายน 2016(รุ่น 2.39.4526.362) คุณสามารถระบุ R IDE ที่คุณต้องการใช้ และได้เปิดใช้งานโดยอัตโนมัติจากภายใน**Power BI Desktop**
 
-### <a name="requirements"></a>ความต้องการ
+### <a name="requirements"></a>ข้อกำหนด
 เมื่อต้องใช้คุณลักษณะนี้ คุณจำเป็นต้องติดตั้ง**R IDE**บนเครื่องคอมพิวเตอร์ของคุณ **Power BI Desktop**ไม่รวมการนำเข้าใช้หรือการติดตั้ง R engine ดังนั้นคุณต้องติดตั้ง**R**แบบบนเครื่องคอมพิวเตอร์ของคุณแบบแยกต่างหาก คุณสามารถเลือก R IDE ที่จะใช้ ด้วยตัวเลือกต่อไปนี้
 
 * คุณสามารถติดตั้ง R IDE ตัวโปรดของคุณ ซึ่งมีจำนวนมากที่ใช้งานฟรี เช่น[Revolution Open download page](https://mran.revolutionanalytics.com/download/)และ[CRAN Repository](https://cran.r-project.org/bin/windows/base/) ได้
-* **Power BI Desktop**ยัง สนับสนุน[R Studio](https://www.rstudio.com/)และ**Visual Studio 2015**กับ[ *เครื่องมือ R สำหรับ Visual Studio* ](https://beta.visualstudio.com/vs/rtvs/)editor
+* **Power BI Desktop**ยัง สนับสนุน[R Studio](https://www.rstudio.com/)และ**Visual Studio 2015**กับ[*เครื่องมือ R สำหรับ Visual Studio*](/visualstudio/rtvs)editor
 * นอกจากนี้คุณสามารถติดตั้ง R IDE ที่แตกต่างกัน และมี**Power BI Desktop**เปิดใช้งานที่**R IDE**โดยทำอย่างใดอย่างหนึ่งต่อไปนี้
   
   * คุณสามารถเชื่อมโยงไฟล์ **.R** จาก IDE ภายนอกที่คุณต้องการให้**Power BI Desktop**เพื่อเปิดใช้งาน
@@ -74,7 +74,7 @@ ms.locfileid: "73876230"
    > **Power BI Desktop**เพิ่มสามบรรทัดแรกของสคริปต์ แล้วจึงค่อยสามารถนำเข้าข้อมูลของคุณจาก**Power BI Desktop**เมื่อคุณเรียกใช้สคริปต์
    > 
    > 
-7. สคริปต์ใด ๆ ที่คุณสร้างขึ้นใน**บานหน้าต่างตัวแก้ไขสคริปต์ R**ของ**Power BI Desktop**จะปรากฏเริ่มต้นในบรรทัดที่ 4 ใน R IDE ของคุณ ในตอนนี้ คุณสามารถสร้างสคริปต์ R ของคุณใน R IDE เมื่อสคริปต์ R ของคุณนั้สร้างเสร็จสมบูรณ์แล้วใน R IDE ของคุณ คุณจำเป็นต้องคัดลอก และวางไว้**ตัวแก้ไขสคริปต์ R**บานหน้าต่างใน**Power BI Desktop** *ยกเว้น*สามบรรทัดแรกของตัว สคริปต์ที่**Power BI Desktop**สร้างขึ้นโดยอัตโนมัติ ห้ามคัดลอกสามบรรทัดแรกของสคริปต์กลับเข้าไปใน**Power BI Desktop**บรรทัดเหล่านั้นถูกใช้เพื่อนำเข้าข้อมูลของคุณไปยัง R IDE ของคุณจากเท่านั้น**Power BI Desktop**
+7. สคริปต์ใด ๆ ที่คุณสร้างขึ้นใน**บานหน้าต่างตัวแก้ไขสคริปต์ R**ของ**Power BI Desktop**จะปรากฏเริ่มต้นในบรรทัดที่ 4 ใน R IDE ของคุณ ในตอนนี้ คุณสามารถสร้างสคริปต์ R ของคุณใน R IDE เมื่อสคริปต์ R ของคุณนั้สร้างเสร็จสมบูรณ์แล้วใน R IDE ของคุณ คุณจำเป็นต้องคัดลอก และวางไว้**ตัวแก้ไขสคริปต์ R**บานหน้าต่างใน**Power BI Desktop***ยกเว้น*สามบรรทัดแรกของตัว สคริปต์ที่**Power BI Desktop**สร้างขึ้นโดยอัตโนมัติ ห้ามคัดลอกสามบรรทัดแรกของสคริปต์กลับเข้าไปใน**Power BI Desktop**บรรทัดเหล่านั้นถูกใช้เพื่อนำเข้าข้อมูลของคุณไปยัง R IDE ของคุณจากเท่านั้น**Power BI Desktop**
 
 ### <a name="known-limitations"></a>ข้อจำกัดที่ทราบ
 เปิดใช้งาน R IDE ได้โดยตรงจาก Power BI Desktop มีข้อจำกัดบางอย่าง
@@ -85,6 +85,6 @@ ms.locfileid: "73876230"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 ดูข้อมูลเพิ่มเติมเกี่ยวกับ R ใน Power BI
 
-* [กำลังเรียกใช้สคริปต์ R ใน Power BI Desktop](desktop-r-scripts.md)
+* [การเรียกใช้สคริปต์ R ใน Power BI Desktop](desktop-r-scripts.md)
 * [สร้างภาพ Power BI ที่ใช้ R](desktop-r-visuals.md)
 
