@@ -10,10 +10,10 @@ ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73876268"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>บทช่วยสอน: Facebook analytics กำลังใช้ Power BI Desktop
@@ -120,7 +120,7 @@ ms.locfileid: "73876268"
 
 เมื่อคุณพอใจกับข้อมูลแล้ว เลือก**ปิด & กำหนดใช้** > **ปิด & กำหนดใช้** ในแท็บหน้าแรกของ ribbon เพื่อนำเข้าไปใน Power BI Desktop 
    
-   ![ปิดและกำหนดใช้](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
+   ![ปิดและนำไปใช้](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
    
    กล่องโต้ตอบจะแสดงความคืบหน้าของการโหลดข้อมูลลงในรูปแบบข้อมูล Power BI Desktop 
    
@@ -229,7 +229,7 @@ ms.locfileid: "73876268"
 
 ทดลองตัวเลือกจัดรูปแบบและการตั้งค่าอื่น ๆ เพื่อปรับเปลี่ยนการแสดงภาพของคุณ 
 
-![การแสดงภาพ](media/desktop-tutorial-facebook-analytics/vis-1.png)
+![การแสดงผลข้อมูลด้วยภาพ](media/desktop-tutorial-facebook-analytics/vis-1.png)
 
 ## <a name="create-more-visualizations"></a>สร้างการแสดงภาพเพิ่มเติม
 

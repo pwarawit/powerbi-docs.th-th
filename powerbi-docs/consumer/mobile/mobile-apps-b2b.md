@@ -1,19 +1,19 @@
 ---
 title: ดูเนื้อหา Power BI ในฐานะผู้ใช้ที่เป็นผู้เยี่ยมชมภายนอก (Azure AD B2B)
 description: ใช้แอป Power BI สำหรับอุปกรณ์เคลื่อนที่เพื่อดูเนื้อหาที่แชร์กับคุณจากองค์กรภายนอก
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.author: mshenhav
-ms.openlocfilehash: f0db77a69bd8845b9448b7c15fedea7663683ec0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879339"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219923"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>ดูเนื้อหา Power BI ที่แชร์กับคุณจากองค์กรภายนอก
 
@@ -30,18 +30,18 @@ Power BI บูรณาการรวมเข้ากับ Azure Active Dir
 
 **ก่อนอื่น คุณต้องการใครสักคนจากองค์กรภายนอกเพื่อแชร์รายการกับคุณ** เมื่อมีคน [แชร์รายการกับคุณ](../../service-share-dashboards.md) ไม่ว่าจะเป็นจากองค์กรเดียวกันหรือจากองค์กรภายนอก คุณจะได้รับอีเมลพร้อมลิงก์ไปยังรายการที่แชร์นั้น การกดเข้าลิงก์ในอุปกรณ์มือถือของคุณจะเปิดแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ หากแอปตระหนักว่ารายการนั้นแชร์จากองค์กรภายนอก แอปจะเชื่อมต่อกับองค์กรนั้นอีกครั้งด้วยข้อมูลประจำตัวของคุณ หลังจากนั้นแอปจะโหลดรายการทั้งหมดที่แชร์กับคุณจากองค์กรนั้น
 
-![Power BI เปิดรายการที่แชร์จากอีเมล ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![Power BI เปิดรายการที่แชร์จากอีเมล ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 
 > [!NOTE]
 > หากนี่เป็นรายการแรกที่แชร์กับคุณในฐานะผู้ใช้ที่เป็นผู้เยี่ยมชมภายนอก คุณจะต้องอ้างสิทธิ์การเชิญในเบราว์เซอร์ก่อน คุณไม่สามารถอ้างสิทธิ์คำเชิญในแอป Power BI ได้
 
 ตราบใดที่คุณเชื่อมต่อกับองค์กรภายนอก ส่วนหัวสีดำจะปรากฏขึ้นในแอป ส่วนหัวนี้บ่งชี้ว่าคุณไม่ได้เชื่อมต่อกับองค์กรหลักของคุณ หากต้องการเชื่อมต่อกลับไปยังองค์กรหลักของคุณ ให้ออกจากโหมดผู้เยี่ยมชม
 
-![ส่วนหัวของผู้ใช้ที่เป็นผู้เยี่ยมชม Power BI](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
+![ส่วนหัวของผู้ใช้ที่เป็นผู้เยี่ยมชม Power BI](./media/mobile-apps-b2b/mobile-b2b-exit-home-new.png)
 
 แม้ว่าคุณจะต้องมีลิงก์วัตถุ Power BI เพื่อเชื่อมต่อกับองค์กรภายนอก แต่เมื่อมีการสลับแอปของคุณ คุณสามารถเข้าถึงรายการทั้งหมดที่แชร์กับคุณได้ (ไม่เฉพาะรายการที่คุณเปิดจากอีเมลเท่านั้น) หากต้องการดูรายการทั้งหมดที่คุณสามารถเข้าถึงได้ในองค์กรภายนอก ให้ไปที่เมนูแอปและเลือก **แบ่งปันกับฉัน** ภายใต้ **แอป** คุณจะพบแอปที่คุณสามารถใช้ได้เช่นกัน
 
-![เมนูแอป Power BI ในฐานะผู้ใช้ที่เป็นผู้เยี่ยมชมภายนอก](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![เมนูแอป Power BI ในฐานะผู้ใช้ที่เป็นผู้เยี่ยมชมภายนอก](./media/mobile-apps-b2b/mobile-b2b-menu-new.png)
 
 ## <a name="limitations"></a>ข้อจำกัด
 

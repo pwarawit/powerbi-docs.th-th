@@ -10,10 +10,10 @@ ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5417511b12c85cb467c3613671a1e101541c9609
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73880619"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>แสดงข้อมูลที่ใช้เพื่อสร้างการแสดงภาพ
@@ -23,7 +23,7 @@ ms.locfileid: "73880619"
 นอกจากนี้ คุณยังสามารถส่งออกข้อมูลที่กำลังมีการใช้งานเพื่อสร้างการแสดงภาพเป็นไฟล์ .xlsx หรือ .csv และดูใน Excel สำหรับข้อมูลเพิ่มเติม ดู[ส่งออกข้อมูลจากการแสดงภาพ Power BI](power-bi-visualization-export-data.md)
 
 > [!NOTE]
-> ทั้ง*แสดงข้อมูล*และ*ส่งออกข้อมูล*มีใช้งานในบริการ Power BI และ Power BI Desktop อย่างไรก็ตาม Power BI Desktop มีรายละเอียดเพิ่มเติมอีกหนึ่งขั้น [ *แสดงบันทึก*จะแสดงแถวจริงจากชุดข้อมูล](../desktop-see-data-see-records.md)
+> ทั้ง*แสดงข้อมูล*และ*ส่งออกข้อมูล*มีใช้งานในบริการ Power BI และ Power BI Desktop อย่างไรก็ตาม Power BI Desktop มีรายละเอียดเพิ่มเติมอีกหนึ่งขั้น [*แสดงบันทึก*จะแสดงแถวจริงจากชุดข้อมูล](../desktop-see-data-see-records.md)
 > 
 > 
 
@@ -73,5 +73,5 @@ ms.locfileid: "73880619"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [ส่งออกข้อมูลจากการแสดงผลข้อมูลด้วยภาพของ Power BI](power-bi-visualization-export-data.md)    
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 738ae599e116beaf5ff80098e4965ee3ed958b04
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699693"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223781"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate และ Power BI
 
-[Power Automate](https://flow.microsoft.com/documentation/getting-started) เป็นบริการ SaaS ที่นำเสนอสำหรับการจัดการเวิร์กโฟลว์อัตโนมัติในแอปพลิเคชันและบริการ SaaS ที่ผู้ใช้ทางธุรกิจใช้อยู่ ด้วยโฟลว์ คุณสามารถทำงานโดยอัตโนมัติ โดยการรวมแอปโปรดของคุณและบริการที่ (รวมถึง Power BI) เพื่อรับการแจ้งเตือน การซิงโครไนซ์ไฟล์ การเก็บรวบรวมข้อมูล และอื่น ๆ การทำงานซ้ำ ๆ กลายเป็นเรื่องง่าย ด้วยเวิร์คโฟลว์อัตโนมัติ
+[Power Automate](https://docs.microsoft.com/power-automate/getting-started) เป็นบริการ SaaS ที่นำเสนอสำหรับการจัดการเวิร์กโฟลว์อัตโนมัติในแอปพลิเคชันและบริการ SaaS ที่ผู้ใช้ทางธุรกิจใช้อยู่ ด้วยโฟลว์ คุณสามารถทำงานโดยอัตโนมัติ โดยการรวมแอปโปรดของคุณและบริการที่ (รวมถึง Power BI) เพื่อรับการแจ้งเตือน การซิงโครไนซ์ไฟล์ การเก็บรวบรวมข้อมูล และอื่น ๆ การทำงานซ้ำ ๆ กลายเป็นเรื่องง่าย ด้วยเวิร์คโฟลว์อัตโนมัติ
 
-[เริ่มต้นใช้งานโฟลว์ตอนนี้เลย](https://flow.microsoft.com/documentation/getting-started)
+[เริ่มต้นใช้งานโฟลว์ตอนนี้เลย](https://docs.microsoft.com/power-automate/getting-started)
 
-ดู Sirui สร้างโฟลว์ที่ส่งอีเมลที่มีลายละเอียดให้เพื่อนร่วมงาน เมื่อการแจ้งเตือนของ Power BI ถูกทริกเกอร์ แล้ว ทำตามคำแนะนำทีละขั้นตอนด้านล่างวิดีโอเพื่อลองทำด้วยตนเอง
+ดู Sirui สร้างโฟลว์ที่ส่งอีเมลที่มีลายละเอียดให้เพื่อนร่วมงาน เมื่อการแจ้งเตือนของ Power BI ถูกทริกเกอร์ แล้วทำตามคำแนะนำทีละขั้นตอนด้านล่างวิดีโอเพื่อลองทำด้วยตนเอง
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
@@ -107,9 +107,9 @@ ms.locfileid: "74699693"
     ![โฟลว์ทริกเกอร์การแจ้งเตือนใน Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [เริ่มต้นใช้งาน Power Automate](https://flow.microsoft.com/documentation/getting-started/)
+* [เริ่มต้นใช้งาน Power Automate](https://docs.microsoft.com/power-automate/getting-started/)
 * [ตั้งค่าการแจ้งเตือนข้อมูลใน Power BI service](service-set-data-alerts.md)
 * [ตั้งค่าการแจ้งเตือนข้อมูลบน iPhone ของคุณ](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

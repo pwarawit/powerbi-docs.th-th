@@ -10,10 +10,10 @@ ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 08b739c5be01efed5abf8258540b5ab66b3b390b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73876065"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>ใช้ DirectQuery ใน Power BI Desktop
@@ -96,5 +96,5 @@ Power BI แสดงหน้าต่าง**การตั้งค่า** 
 * [แหล่งข้อมูลที่สนับสนุนโดย DirectQuery](desktop-directquery-data-sources.md)
 * [DirectQuery และ SAP BW](desktop-directquery-sap-bw.md)
 * [DirectQuery และ SAP HANA](desktop-directquery-sap-hana.md)
-* [เกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem.md)
+* [On-premises data gateway (เกตเวย์ข้อมูลภายในองค์กร)](service-gateway-onprem.md)
 

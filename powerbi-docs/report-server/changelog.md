@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/25/2019
 ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874267"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>บันทึกการเปลี่ยนแปลงสำหรับ เซิร์ฟเวอร์รายงาน Power BI
@@ -274,7 +274,7 @@ ms.locfileid: "73874267"
         - คุณลักษณะ
             - ประกอบด้วยการเปลี่ยนแปลงที่จำเป็นสำหรับการเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI (ตุลาคม 2017)
 
-## <a name="june-2017"></a>มิถุนายน 2017
+## <a name="june-2017"></a>มิถุนายน ค.ศ. 2017
 
 - **เซิร์ฟเวอร์รายงาน Power BI**
     - *รุ่น 14.0.600.309 เผยแพร่: 10 มกราคม 2018*
@@ -306,4 +306,4 @@ ms.locfileid: "73874267"
 [ดาวน์โหลดตัวสร้างรายงาน](https://www.microsoft.com/download/details.aspx?id=53613)  
 [ดาวน์โหลด SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

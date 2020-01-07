@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c3f703bfe2685166ce575b37c053b2a9603a799f
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872709"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223875"
 ---
-# <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับที่เก็บกระแสข้อมูล (ตัวอย่าง)
+# <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับการเก็บกระแสข้อมูล
 
 คุณสามารถกำหนดค่าให้พื้นที่ทำงาน Power BI จัดการจัดเก็บข้อมูลของกระแสข้อมูลไว้ในบัญชี Azure Data Lake Storage รุ่น 2 ขององค์กรได้ ภายในบทความนี้จะอธิบายขั้นตอนทั่วไปที่จำเป็นต้องปฏิบัติ และให้คำแนะนำพร้อมแนวทางปฏิบัติที่ดีที่สุด มีข้อดีหลายประการสำหรับการกำหนดค่าพื้นที่ทำงานเพื่อจัดเก็บข้อกำหนดกระแสข้อมูลและไฟล์ข้อมูลใน data lake ของคุณ ดังเช่นต่อไปนี้:
 

@@ -11,10 +11,10 @@ ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74831107"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>สมัครใช้งานรายงานและแดชบอร์ดในบริการ Power BI สำหรับตัวคุณเองและผู้อื่น
@@ -72,7 +72,7 @@ ms.locfileid: "74831107"
    
 ## <a name="email-languages"></a>ภาษาของอีเมล
 
-อีเมลและสแนปช็อตจะใช้ภาษาที่ถูกตั้งในการตั้งค่า Power BI (ดู[ภาษาที่รองรับและประเทศ/ภูมิภาคสำหรับ Power BI](supported-languages-countries-regions.md)) ถ้าไม่กำหนดภาษา Power BI จะใช้ภาษาตามการตั้งค่าตำแหน่งที่ตั้งในเบราว์เซอร์ปัจจุบันของคุณ เมื่อต้องการดู หรือตั้งค่าการกำหนดลักษณะภาษาของคุณ ให้เลือกไอคอนรูปเฟือง ![ไอคอนรูปเฟือง](media/service-report-subscribe/power-bi-settings-icon.png)  >  **ตั้งค่า > ทั่วไป > ภาษา** 
+อีเมลและสแนปช็อตจะใช้ภาษาที่ถูกตั้งในการตั้งค่า Power BI (ดู[ภาษาที่รองรับและประเทศ/ภูมิภาคสำหรับ Power BI](supported-languages-countries-regions.md)) ถ้าไม่กำหนดภาษา Power BI จะใช้ภาษาตามการตั้งค่าตำแหน่งที่ตั้งในเบราว์เซอร์ปัจจุบันของคุณ เมื่อต้องการดู หรือตั้งค่าการกำหนดลักษณะภาษาของคุณ ให้เลือกไอคอนรูปเฟือง ![ไอคอนรูปเฟือง](media/service-report-subscribe/power-bi-settings-icon.png) >  **ตั้งค่า > ทั่วไป > ภาษา** 
 
 ![ดรอปดาวน์ภาษา](media/service-report-subscribe/power-bi-language.png)
 
@@ -108,5 +108,5 @@ ms.locfileid: "74831107"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [สมัครใช้งานในรายงานที่มีการแบ่งหน้าสำหรับตัวคุณเองและผู้อื่นในบริการของ Power BI](consumer/paginated-reports-subscriptions.md)
-- มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)    
+- มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)    
 - [อ่านโพสต์ในบล็อก](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

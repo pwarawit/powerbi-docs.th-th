@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478621"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223635"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>คำแนะนำแบบจำลอง DirectQuery ใน Power BI Desktop
 
@@ -87,7 +87,7 @@ ms.locfileid: "74478621"
 
     การเพิ่มค่า**การเชื่อมต่อสูงสุดต่อแหล่งข้อมูล** ช่วยให้มั่นใจได้ว่าจะสามารถส่งคิวรีไปยังแหล่งข้อมูลต้นแบบได้มากขึ้น (ถึงจำนวนสูงสุดตามที่ระบุ) ซึ่งเป็นประโยชน์เมื่อมีวิชวลจำนวนมากในหน้าเดียวหรือมีผู้ใช้หลายคนที่เข้าถึงรายงานในเวลาเดียวกัน เมื่อถึงขีดจำกัดจำนวนสูงสุดของการเชื่อมต่อ เพิ่มเติมคิวรีอยู่ในคิวจนกว่าการเชื่อมต่อจะพร้อมใช้งาน การเพิ่มขีดจำกัดนี้จะทำให้เกิดการโหลดในแหล่งข้อมูลต้นแบบ ดังนั้นการตั้งค่าจึงไม่ได้รับการรับประกันการปรับปรุงประสิทธิภาพการทำงานโดยรวม
     
-    เมื่อมีการเผยแพร่แบบจำลองไปยัง Power BI จำนวนสูงสุดของคิวรีที่เกิดขึ้นพร้อมกันที่ส่งไปยังแหล่งข้อมูลต้นแบบจะขึ้นอยู่กับสภาพแวดล้อมด้วย สภาพแวดล้อมต่าง ๆ (เช่น Power BI, Power BI Premium หรือ เซิร์ฟเวอร์รายงาน Power BI) แต่ละรายการสามารถกำหนดขีดจำกัดอัตราความเร็วที่แตกต่างกัน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อจำกัดของทรัพยากรความจุ Power BI Premium ให้ดู [การปรับใช้และการจัดการความจุ Power BI Premium](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment#premium-capacities)
+    เมื่อมีการเผยแพร่แบบจำลองไปยัง Power BI จำนวนสูงสุดของคิวรีที่เกิดขึ้นพร้อมกันที่ส่งไปยังแหล่งข้อมูลต้นแบบจะขึ้นอยู่กับสภาพแวดล้อมด้วย สภาพแวดล้อมต่าง ๆ (เช่น Power BI, Power BI Premium หรือ เซิร์ฟเวอร์รายงาน Power BI) แต่ละรายการสามารถกำหนดขีดจำกัดอัตราความเร็วที่แตกต่างกัน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับข้อจำกัดของทรัพยากรความจุ Power BI Premium ให้ดู [การปรับใช้และการจัดการความจุ Power BI Premium](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment)
 
 ## <a name="optimize-report-designs"></a>ปรับการออกแบบรายงานให้เหมาะสม
 

@@ -10,10 +10,10 @@ ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: b766cc4eae71b94a28e12ba989f85542fec2ab83
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871992"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>บทนำชุดเนื้อหาองค์กรใน Power BI
@@ -74,6 +74,6 @@ ms.locfileid: "73871992"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [สร้างและเผยแพร่ชุดเนื้อหาองค์กร](service-organizational-content-pack-create-and-publish.md)
 * [สร้างและกระจายแอปฯใน Power BI](service-create-distribute-apps.md) 
-* [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)
-* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+* [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
+* มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

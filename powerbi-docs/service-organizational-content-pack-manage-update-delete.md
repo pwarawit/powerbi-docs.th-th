@@ -10,10 +10,10 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 975c219a98f3d03f59df4d1c2a0551718bf213f0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73881267"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>จัดการ อัปเดต และลบชุดเนื้อหาองค์กร
@@ -46,7 +46,7 @@ ms.locfileid: "73881267"
    ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
    
    โปรดสังเกตไอคอนคำเตือน![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png)  ซึ่งช่วยให้คุณทราบว่าคุณได้ปรับเปลี่ยนชุดเนื้อหาด้วยวิธีบางอย่างและไม่ตรงกับสิ่งที่คุณได้เผยแพร่ไป
-3. เลือก**แก้ไข**  
+3. เลือก **แก้ไข**  
 4. ทำการเปลี่ยนแปลงที่จำเป็นในการ**อัปเดตชุดเนื้อหา**และเลือก**อัปเดต** ข้อความ**ประสบความสำเร็จ**ปรากฏขึ้น
    
    * สำหรับสมาชิกกลุ่มที่ยังไม่ได้ปรับชุดเนื้อหา การอัพเดตจะเป็นโดยอัตโนมัติ

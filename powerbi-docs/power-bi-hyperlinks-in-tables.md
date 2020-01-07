@@ -11,10 +11,10 @@ ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: e8cad7035e752e5e344d78a22ad5fd8ea0a072ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874498"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>เพิ่มไฮเปอร์ลิงก์ (URL) ในตาราง
@@ -109,7 +109,7 @@ Q: ฉันสามารถใช้ URL ที่กำหนดเองเ
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [การแสดงภาพในรายงาน Power BI](visuals/power-bi-report-visualizations.md)
 
-[แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)
+[แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
 ms.openlocfilehash: b2bfe6157653459c2d7b60b85c9f7e8a3e465e23
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73879071"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>เริ่มใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
@@ -55,7 +55,7 @@ ms.locfileid: "73879071"
 คุณสามารถดูและโต้ตอบกับตัวอย่างแดชบอร์ด Power BI ได้ แต่มีบางสิ่งที่คุณไม่สามารถทำได้กับแดชบอร์ดดังกล่าว คุณไม่สามารถเปิดรายงานเบื้องหลังแดชบอร์ด แชร์ตัวอย่างกับผู้อื่น หรือทำให้เป็นรายการโปรดของคุณ
 
 1. แตะปุ่มการนำทางส่วนกลาง ![ปุ่มการนำทางส่วนกลาง](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) ในมุมบนซ้าย
-2. แตะไอคอน **การตั้งค่า** ![ไอคอนการตั้งค่า](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) แตะชื่อของคุณ จากนั้นแตะ **ดูตัวอย่าง**
+2. แตะไอคอน **การตั้งค่า**![ไอคอนการตั้งค่า](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) แตะชื่อของคุณ จากนั้นแตะ **ดูตัวอย่าง**
    
    ![ดูตัวอย่าง](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-view-samples.png)
 3. เลือกบทบาท และสำรวจแดชบอร์ดตัวอย่างสำหรับบทบาทนั้น  
@@ -64,7 +64,7 @@ ms.locfileid: "73879071"
 
 ### <a name="reporting-services-mobile-report-samples"></a>ตัวอย่างรายงานอุปกรณ์มือถือของ Reporting Services
 1. แตะปุ่มการนำทางส่วนกลาง ![ปุ่มการนำทางส่วนกลาง](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) ในมุมบนซ้าย
-2. แตะไอคอน **การตั้งค่า** ![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) คลิกขวาหรือแตะ **เชื่อมต่อกับเซิร์ฟเวอร์** ค้างไว้ จากนั้นแตะ **ดูตัวอย่าง**
+2. แตะไอคอน **การตั้งค่า**![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) คลิกขวาหรือแตะ **เชื่อมต่อกับเซิร์ฟเวอร์** ค้างไว้ จากนั้นแตะ **ดูตัวอย่าง**
    
    ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. เปิดโฟลเดอร์รายงานการขายปลีกหรือรายงานการขาย เพื่อสำรวจ KPI และรายงานอุปกรณ์มือถือของโฟลเดอร์เหล่านี้

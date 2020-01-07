@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b674c621c30491a00c529af7f2fcd9eb87f3ecfa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834781"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223625"
 ---
 # <a name="report-page-drillthrough"></a>การดูรายละเอียดหน้ารายงานแบบเจาะลึก
 
@@ -63,7 +63,7 @@ ms.locfileid: "74834781"
 - **ค้นพบ:** ช่วยส่งเสริมการรับรู้ของหน้าการดูรายละเอียดแบบเจาะลึกโดยการตั้งค่าข้อความไอคอนส่วนหัวของวิชวล หรือการเพิ่มคำแนะนำลงในกล่องข้อความ คุณยังสามารถออกแบบภาพซ้อนทับ ตามที่อธิบายไว้ใน [บล็อกโพสต์นี้](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/)
 
 > [!TIP]
-> นอกจากนี้ยังสามารถกำหนดค่าการดูรายละเอียดแบบเจาะลึกให้กับรายงานที่มีการแบ่งหน้าใน Power BI ของคุณได้อีกด้วย คุณสามารถทำสิ่งนี้ได้โดยการเพิ่มลิงก์ไปยังรายงาน Power BI ลิงก์สามารถกำหนด [พารามิเตอร์ URL](/blog/url-parameters-for-paginated-reports-are-now-available/)
+> นอกจากนี้ยังสามารถกำหนดค่าการดูรายละเอียดแบบเจาะลึกให้กับรายงานที่มีการแบ่งหน้าใน Power BI ของคุณได้อีกด้วย คุณสามารถทำสิ่งนี้ได้โดยการเพิ่มลิงก์ไปยังรายงาน Power BI ลิงก์สามารถกำหนด [พารามิเตอร์ URL](https://powerbi.microsoft.com/blog/url-parameters-for-paginated-reports-are-now-available/)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

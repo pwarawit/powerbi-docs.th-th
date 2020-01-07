@@ -10,10 +10,10 @@ ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 8d5923c111debb14aab46977d42f3357837d9399
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73878295"
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery และ SAP HANA
@@ -134,7 +134,7 @@ ms.locfileid: "73878295"
 * **การสนับสนุนสำหรับวัตถุแค็ตตาล็อก** - Power BI จะไม่สามารถเชื่อมต่อกับวัตถุแค็ตตาล็อกได้
 * **การเปลี่ยนแปลงของตัวแปรหลังจากเผยแพร่** - คุณไม่สามารถเปลี่ยนแปลงค่าสำหรับตัวแปร SAP HANA ใด ๆ ได้โดยตรงในบริการ Power BI หลังจากที่มีการเผยแพร่รายงาน 
  
-## <a name="known-issues"></a>ปัญหาที่ทราบแล้ว 
+## <a name="known-issues"></a>รับทราบปัญหาแล้ว 
 รายการต่อไปนี้จะอธิบายถึงปัญหาที่ทราบแล้วทั้งหมดเมื่อเชื่อมต่อกับ SAP HANA (DirectQuery) โดยใช้ Power BI 
 
 * **ปัญหา SAP HANA ในกรณีแบบสอบถามสำหรับตัวนับและหน่วยวัดอื่น ๆ** - ข้อมูลที่ไม่ถูกต้องจะถูกส่งกลับจาก SAP HANA ถ้าเชื่อมต่อกับมุมมองการวิเคราะห์ และหน่วยวัดตัวนับและหน่วยวัดอัตราส่วนอื่น ๆ รวมอยู่ในการแสดงผลด้วยภาพเดียวกัน ซึ่งจะครอบคลุมโดย SAP Note 2128928 (ผลลัพธ์ที่ไม่คาดคิดในกรณีที่สอบถามคอลัมน์จากคำนวณและตัวนับ) หน่วยวัดอัตราส่วนจะไม่ถูกต้องในกรณีนี้ 
@@ -148,5 +148,5 @@ ms.locfileid: "73878295"
 * [DirectQuery ใน Power BI](desktop-directquery-about.md)
 * [แหล่งข้อมูลที่สนับสนุนโดย DirectQuery](desktop-directquery-data-sources.md)
 * [DirectQuery และ SAP BW](desktop-directquery-sap-bw.md)
-* [เกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem.md)
+* [On-premises data gateway (เกตเวย์ข้อมูลภายในองค์กร)](service-gateway-onprem.md)
 

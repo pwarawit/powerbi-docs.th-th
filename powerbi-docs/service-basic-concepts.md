@@ -12,10 +12,10 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74128361"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI
@@ -162,7 +162,7 @@ ms.locfileid: "74128361"
 * [สร้างมุมมองโทรศัพท์ของแดชบอร์ด](service-create-dashboard-mobile-phone-view.md)
 
 
-## <a name="workbooks"></a>สมุดงาน
+## <a name="workbooks"></a>เวิร์กบุ๊ก
 เวิร์กบุ๊กเป็นชุดข้อมูลชนิดพิเศษ ถ้าคุณได้อ่านในหัวข้อ**ชุดข้อมูล**ที่ด้านบน คุณจะทราบเกือบทั้งหมดที่คุณจำเป็นต้องทราบเกี่ยวกับเวิร์กบุ๊ก แต่คุณอาจสงสัยว่าทำไมในบางครั้ง Power BI แยกประเภทเวิร์กบุ๊ก Excel เป็นแบบ**ชุดข้อมูล**และในบางครั้งเป็นการ**สมุดงาน (Workbook)**
 
 เมื่อคุณใช้**รับข้อมูล**กับไฟล์ Excel คุณสามารถเลือกที่จะ*นำเข้า*หรือ*เชื่อมต่อ*ไปยังไฟล์ได้ เมื่อคุณเลือกตัวเลือกนี้ เวิร์กบุ๊กของคุณจะปรากฏใน Power BI เช่นเดียวกับที่ปรากฏใน Excel Online แต่ไม่เหมือนกับ Excel Online เนื่องจากคุณจะมีคุณลักษณะบางอย่างที่ช่วยให้คุณสามารถปักหมุดองค์ประกอบต่าง ๆ จากแผ่นงานของคุณไปยังแดชบอร์ดได้ทันที
@@ -247,4 +247,4 @@ ms.locfileid: "74128361"
 - [Power BI คืออะไร](fundamentals/power-bi-overview.md)  
 - [วิดีโอ Power BI](videos.md)  
 - [ตัวแก้ไขรายงาน... ชมการแนะนำ](service-the-report-editor-take-a-tour.md)
-- มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+- มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
