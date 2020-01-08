@@ -28,6 +28,8 @@
           href: dax-countrows.md
         - name: หลีกเลี่ยงการแปลง BLANK ไปเป็นค่า
           href: dax-avoid-converting-blank.md
+        - name: การอ้างอิงคอลัมน์และหน่วยวัด
+          href: dax-column-measure-references.md
         - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
           href: ../service-dataflows-best-practices.md
         - name: คำแนะนำแบบจำลอง DirectQuery ใน Power BI Desktop
@@ -42,6 +44,8 @@
           href: auto-date-time.md
         - name: คำแนะนำความสัมพันธ์แบบกลุ่มต่อกลุ่ม
           href: relationships-many-to-many.md
+        - name: ปิดใช้งานการรีเฟรชพื้นหลังของ Power Query
+          href: power-query-background-refresh.md
     - name: เอกสารทางเทคนิค
       items:
         - name: ภาพรวมเอกสารทางเทคนิค

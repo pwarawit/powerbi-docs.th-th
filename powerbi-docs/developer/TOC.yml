@@ -15,8 +15,6 @@
               href: power-bi-custom-visuals.md
         - name: บทช่วยสอน
           items:
-            - name: แนวคิดของวิชวล
-              href: visuals/power-bi-visuals-concept.md
             - name: พัฒนาวิชวล Power BI
               href: visuals/custom-visual-develop-tutorial.md
             - name: เพิ่มตัวเลือกการจัดรูปแบบ
@@ -25,6 +23,10 @@
               href: visuals/unit-tests-introduction.md
         - name: แนวคิด
           items:
+            - name: โครงสร้างของโครงการวิชวล Power BI
+              href: visuals/visual-project-structure.md
+            - name: แนวคิดของวิชวล
+              href: visuals/power-bi-visuals-concept.md
             - name: วิชวลสำหรับองค์กรใน Power BI
               href: power-bi-custom-visuals-organization.md
             - name: คำแนะนำสำหรับการแสดงภาพ Power BI
@@ -63,6 +65,8 @@
               href: visuals/bookmarks-support.md
             - name: เพิ่มการสนับสนุนเมนูบริบท
               href: visuals/context-menu.md
+            - name: เพิ่มการสนับสนุนการดูรายละเอียดแนวลึก
+              href: visuals/drill-down-support.md
             - name: เน้นข้อมูลในวิชวล
               href: visuals/highlight.md
             - name: เพิ่มการสนับสนุนโหมดความคมชัดสูง
