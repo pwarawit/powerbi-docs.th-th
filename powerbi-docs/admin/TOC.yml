@@ -36,7 +36,7 @@
           href: ../service-admin-portal.md
         - name: ค้นหาผู้ใช้ที่มีการลงชื่อเข้าใช้
           href: ../service-admin-access-usage.md
-        - name: การตรวจสอบ
+        - name: ติดตามกิจกรรมของผู้ใช้
           href: ../service-admin-auditing.md
         - name: ติดตามสถานภาพบริการ
           href: ../service-admin-health.md
