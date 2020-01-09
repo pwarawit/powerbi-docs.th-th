@@ -30,6 +30,8 @@
           href: dax-avoid-converting-blank.md
         - name: การอ้างอิงคอลัมน์และหน่วยวัด
           href: dax-column-measure-references.md
+        - name: หลีกเลี่ยงการใช้ตัวกรองเป็นอาร์กิวเมนต์ตัวกรอง
+          href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
           href: ../service-dataflows-best-practices.md
         - name: คำแนะนำแบบจำลอง DirectQuery ใน Power BI Desktop

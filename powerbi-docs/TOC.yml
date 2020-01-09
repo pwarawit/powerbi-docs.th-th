@@ -831,7 +831,7 @@
       items:
         - name: ภาษาที่รองรับและประเทศ/ภูมิภาค
           href: supported-languages-countries-regions.md
-        - name: เบราว์เซอร์ทีรองรับ
+        - name: เบราว์เซอร์ที่สนับสนุน
           href: power-bi-browsers.md
     - name: ทรัพยากร
       items:
@@ -903,8 +903,6 @@
           href: report-builder-data.md
         - name: แหล่งข้อมูลที่ได้รับการสนับสนุน
           href: paginated-reports-data-sources.md
-        - name: ใช้ชุดข้อมูลที่ใช้ร่วมกันของ Power BI
-          href: report-builder-shared-datasets.md
         - name: เคล็ดลับการออกแบบ
           href: report-builder-design-tips.md
         - name: ตาราง เมทริกซ์ รายการ
@@ -929,6 +927,8 @@
           href: paginated-reports-embedded-data-source.md
         - name: สร้างชุดข้อมูลแบบฝังตัว
           href: paginated-reports-create-embedded-dataset.md
+        - name: สร้างรายงานด้วย Power BI ในการแบ่งปันชุดข้อมูล
+          href: report-builder-shared-datasets.md
         - name: สร้างพารามิเตอร์
           href: paginated-reports-parameters.md
         - name: ส่งพารามิเตอร์รายงานใน URL
@@ -989,6 +989,8 @@
       items:
         - name: ติดตั้ง Power BI Desktop
           href: report-server/install-powerbi-desktop.md
+        - name: ติดตั้งตัวสร้างข้อมูลรายงาน
+          href: report-server/install-report-builder.md
         - name: ข้อมูลพื้นฐานเกี่ยวกับเซิร์ฟเวอร์รายงาน
           items:
             - name: สร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน
