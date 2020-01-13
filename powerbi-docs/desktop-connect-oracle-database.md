@@ -6,62 +6,62 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 11/20/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7c91095cf321fed56a0cb1c3c6bd1113f380a524
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c2290963db54f150eed8176c2820c59f8f138666
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878512"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223331"
 ---
 # <a name="connect-to-an-oracle-database"></a>เชื่อมต่อกับฐานข้อมูล Oracle
-เมื่อต้องการเชื่อมต่อกับฐานข้อมูล Oracle ด้วย**Power BI Desktop** ซอฟต์แวร์ไคลเอ็นต์ Oracle ที่ถูกต้องต้องติดตั้งบนคอมพิวเตอร์ที่ใช้งาน Power BI Desktop ซึ่งซอฟต์แวร์ไคลเอ็นต์ Oracle ที่คุณใช้ขึ้นอยู่กับเวอร์ชันของ Power BI Desktop ที่คุณได้ติดตั้ง เวอร์ชัน**32 บิต**หรือ**เวอร์ชัน 64 บิต**
+การเชื่อมต่อกับฐานข้อมูล Oracle ด้วย Power BI Desktop นั้น ต้องติดตั้งซอฟต์แวร์ไคลเอ็นต์ Oracle ที่ถูกต้องบนคอมพิวเตอร์ที่ใช้งาน Power BI Desktop ซอฟต์แวร์ไคลเอ็นต์ Oracle ที่คุณใช้ขึ้นอยู่กับเวอร์ชันของ Power BI Desktop ที่คุณได้ติดตั้ง: 32 บิต หรือ 64 บิต
 
-**เวอร์ชันที่รองรับ**: Oracle 9 และรุ่นใหม่กว่า ซอฟต์แวร์ไคลเอ็นต์ Oracle 8.1.7 และภายหลัง
+เวอร์ชัน Oracle ที่รองรับ: 
+- Oracle 9 และเวอร์ชันที่ใหม่กว่า
+- ซอฟต์แวร์ไคลเอ็นต์ Oracle 8.1.7 และเวอร์ชันที่ใหม่กว่า
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>หา Power BI Desktop ที่ติดตั้งอยู่เวอร์ชันใด
-เมื่อต้องการตรวจสอบเวอร์ชันของ Power BI Desktop ที่ถูกติดตั้ง ให้เลือก**ไฟล์ > วิธีใช้ > เกี่ยวกับ**แล้ว ตรวจสอบการบรรทัด**เวอร์ชัน:** ในรูปต่อไปนี้ Power BI Desktop เวอร์ชัน 64 บิตถูกติดตั้ง
+เมื่อต้องการตรวจสอบเวอร์ชันของ Power BI Desktop ที่ถูกติดตั้ง ให้เลือก **ไฟล์** > **วิธีใช้** > **เกี่ยวกับ** จากนั้นให้ตรวจสอบบรรทัด **เวอร์ชัน** ในรูปต่อไปนี้ Power BI Desktop เวอร์ชัน 64 บิตถูกติดตั้ง
 
-![](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
+![เวอร์ชัน Power BI Desktop](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
-## <a name="installing-the-oracle-client"></a>ติดตั้งไคลเอ็นต์ Oracle
-สำหรับเวอร์ชัน**32 บิต**ของ Power BI Desktop ใช้ลิงก์ต่อไปนี้เพื่อดาวน์โหลดและติดตั้ง Oracle Client**32 บิต**
+## <a name="installing-the-oracle-client"></a>ติดตั้ง Oracle Client
+- สำหรับ Power BI Desktop เวอร์ชัน 32 บิต [ดาวน์โหลดและติดตั้งไคลเอ็นต์ Oracle 32 บิต](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html).
 
-* [32-bit Oracle Data Access Components (ODAC) with Oracle Developer Tools for Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
-
-สำหรับเวอร์ชัน**64 บิต**ของ Power BI Desktop ใช้ลิงก์ต่อไปนี้เพื่อดาวน์โหลด และติดตั้งไคลเอนต์ Oracle**64 บิต**
-
-* [64-bit ODAC 12c Release 4 (12.1.0.2.4) for Windows x64](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
+- สำหรับ Power BI Desktop เวอร์ชัน 64 บิต [ดาวน์โหลดและติดตั้งไคลเอ็นต์ Oracle 64 บิต](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html).
 
 ## <a name="connect-to-an-oracle-database"></a>เชื่อมต่อกับฐานข้อมูล Oracle
-เมื่อติดตั้งโปรแกรมควบคุมไคลเอ็นต์ Oracle ที่ตรงกัน คุณสามารถเชื่อมต่อกับฐานข้อมูล Oracle เมื่อต้องทำการเชื่อมต่อ ให้ทำตามขั้นตอนต่อไปนี้
+หลังจากที่คุณติดตั้งไคลเอ็นต์ไดร์ฟเวอร์ Oracle ที่ตรงกัน คุณสามารถเชื่อมต่อกับฐานข้อมูล Oracle เมื่อต้องทำการเชื่อมต่อ ให้ทำตามขั้นตอนต่อไปนี้
 
-1. จากหน้าต่างการรับข้อมูล เลือก**ฐานข้อมูล > ฐานข้อมูล Oracle**
+1. จากแท็บ **หน้าแรก** ให้เลือก **รับข้อมูล** 
+
+2. จากหน้าต่าง **รับข้อมูล** ที่ปรากฏขึ้น ให้เลือก **เพิ่มเติม** (ถ้าจำเป็น) เลือก **ฐานข้อมูล** > **ฐานข้อมูล Oracle**และจากนั้นเลือก **เชื่อมต่อ**
    
-   ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. ในกล่องโต้ตอบ**ฐานข้อมูล Oracle**ที่ปรากฏขึ้น ให้ใส่ชื่อของเซิร์ฟเวอร์ และเลือก**เชื่อมต่อ** ถ้าจำเป็นต้องมี SID คุณสามารถระบด้วยรูปแบบ: *ServerName/SID*ที่ SID เป็นชื่อที่ไม่ซ้ำของฐานข้อมูล ถ้ารูปแบบ *ServerName/SID* ไม่ทำงาน ลองใช้ *ServerName/ServiceName* โดยที่ ServiceName เป็นนามแฝงที่ใช้เมื่อเชื่อมต่อ
+   ![เชื่อมต่อฐานข้อมูล Oracle](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
+2. ในกล่องโต้ตอบ **ฐานข้อมูล Oracle** ที่ปรากฏขึ้น ให้ใส่ชื่อของ **เซิร์ฟเวอร์** และเลือก **ตกลง** หากกำหนดให้มี SID ให้ระบุโดยใช้รูปแบบ: *ServerName/SID* โดยที่ *SID* เป็นชื่อที่ไม่ซ้ำกันของฐานข้อมูล ถ้ารูปแบบ *ServerName/SID* ไม่ทำงาน ให้ใช้ *ServerName/ServiceName* โดยที่ *ServiceName* เป็นนามแฝงที่คุณใช้เพื่อเชื่อมต่อ
 
 
-   ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
+   ![ใส่ชื่อเซิร์ฟเวอร์ Oracle](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 
    > [!TIP]
-   > ถ้าคุณกำลังประสบกับปัญหาในการเชื่อมต่อในขั้นตอนนี้ ลองใช้รูปแบบต่อไปนี้ในเขตข้อมูลชื่อเซิร์ฟเวอร์: (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=host_name)(PORT=port_num))(CONNECT_DATA=(SERVICE_NAME=service_name)))
+   > ถ้าคุณกำลังประสบกับปัญหาในการเชื่อมต่อในขั้นตอนนี้ ลองใช้รูปแบบต่อไปนี้ในเขตข้อมูล **เซิร์ฟเวอร์**: *(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=host_name)(PORT=port_num))(CONNECT_DATA=(SERVICE_NAME=service_name)))*
    
-3. ถ้าคุณต้องการนำเข้าข้อมูลโดยใชคิวรี่ของฐานข้อมูลแบบเนทีฟ คุณสามารถใส่คิวรีของคุณในกล่อง**คำสั่ง SQL** ที่สามารถขยายตัวส่วน**ตัวเลือกขั้นสูง**ของกล่องโต้ตอบ**ฐานข้อมูล Oracle**
+3. ถ้าคุณต้องการนำเข้าข้อมูลโดยใชคิวรี่ของฐานข้อมูลแบบเนทีฟ ให้ใส่คิวรีของคุณในกล่อง **คำสั่ง SQL** ที่ปรากฏขึ้นเมื่อคุณขยายส่วน **ตัวเลือกขั้นสูง** ของกล่องโต้ตอบ **ฐานข้อมูล Oracle**
    
-   ![](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
-4. เมื่อมีป้อนข้อมูลของฐานข้อมูล Oracle ของคุณลงในกล่องโต้ตอบฐานข้อมูล Oracle (รวมถึงข้อมูลประกอบใดๆ เช่น SID หรือคิวรี่ฐานข้อมูลเนทีฟ) ให้เลือก**ตกลง**เพื่อเชื่อมต่อ
+   ![ขยายตัวเลือกขั้นสูง](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
+4. หลังจากที่คุณป้อนข้อมูลของฐานข้อมูล Oracle ของคุณลงในกล่องโต้ตอบฐานข้อมูล **Oracle** (รวมถึงข้อมูลประกอบใดๆ เช่น SID หรือคิวรี่ฐานข้อมูลเนทีฟ) ให้เลือก **ตกลง** เพื่อเชื่อมต่อ
 5. ถ้าฐานข้อมูล Oracle ต้องใช้ข้อมูลประจำตัวผู้ใช้ฐานข้อมูล ให้ป้อนข้อมูลประจำตัวเหล่านั้นในกล่องโต้ตอบเมื่อได้รับการขอจากระบบ
 
 
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
 
-ถ้าคุณดาวน์โหลด Power BI Desktop จาก Microsoft Store คุณอาจไม่สามารถเชื่อมต่อกับฐานข้อมูล Oracle เนื่องจากปัญหาโปรแกรมควบคุม Oracle ถ้าคุณพบปัญหานี้ ข้อความแสดงข้อผิดพลาดที่ส่งคืนคือ "ไม่ได้ตั้งค่าการอ้างอิงวัตถุ" เมื่อต้องแก้ไขปัญหา ให้ทำหนึ่งในข้อต่อไปนี้:
+ถ้าคุณดาวน์โหลด Power BI Desktop จาก Microsoft Store คุณอาจไม่สามารถเชื่อมต่อกับฐานข้อมูล Oracle เนื่องจากปัญหาโปรแกรมควบคุม Oracle ถ้าคุณพบปัญหานี้ ข้อความแสดงข้อผิดพลาดที่ส่งคืนคือ: *ไม่ได้ตั้งค่าการอ้างอิงอ็อปเจ็กต์* การแก้ไขปัญหา ให้ทำหนึ่งในขั้นตอนเหล่านี้:
 
-* ดาวน์โหลด Power BI Desktop จาก https://powerbi.microsoft.com/desktop แทน
+* ดาวน์โหลด Power BI Desktop จาก [ศูนย์ดาวน์โหลด](https://www.microsoft.com/download/details.aspx?id=58494) แทนที่จะเป็น Microsoft Store
 
-* ถ้าคุณต้องการใช้เวอร์ชันจาก Microsoft Store: บนคอมพิวเตอร์ของคุณ ให้คัดลอก oraons.dll จาก_12.X.X\client_X_ลงใน_12.X.X\client_X\bin_ X แสดงหมายเลขเวอร์ชันและไดเรกทอรี
+* ถ้าคุณต้องการใช้เวอร์ชันจาก Microsoft Store: บนคอมพิวเตอร์ของคุณ ให้คัดลอก oraons.dll จาก_12.X.X\client_X_ ลงใน _12.X.X\client_X\bin_ โดยที่ _X_ แสดงเวอร์ชันและหมายเลขไดเรกทอรี่
 
-หากคุณเห็นข้อความแสดงข้อผิดพลาด*การอ้างอิงวัตถุไม่ได้ตั้งค่า*ใน Power BI Gateway เมื่อเชื่อมต่อกับฐานข้อมูล Oracle คุณอาจสามารถแก้ไขปัญหาได้โดยทำตามคำแนะนำที่พบในบทความ[จัดการแหล่งข้อมูลของคุณ - Oracle](service-gateway-onprem-manage-oracle.md)
+หากคุณเห็นข้อความแสดงข้อผิดพลาด *ไม่ได้ตั้งค่าการอ้างอิงอ็อปเจ็กต์* ใน Power BI Gateway เมื่อคุณเชื่อมต่อกับฐานข้อมูล Oracle ให้ทำตามคำแนะนำใน [จัดการแหล่งข้อมูลของคุณ - Oracle](service-gateway-onprem-manage-oracle.md)
