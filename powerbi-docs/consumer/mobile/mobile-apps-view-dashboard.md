@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870668"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218389"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>ดูแดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -63,7 +63,7 @@ ms.locfileid: "73870668"
    
    * [แตะไทล์](mobile-tiles-in-the-mobile-apps.md)เพื่อเปิดในโหมดโฟกัส และโต้ตอบกับข้อมูล
    * แตะรูปดาว![ดาวรายการโปรด](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png)เมื่อต้องการ[ทำให้เป็นรายการโปรด](mobile-apps-favorites.md)
-   * แตะ**เชิญ** ![ไอคอนการเชิญ](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png)เพื่อ[เชิญเพื่อนร่วมงาน](mobile-share-dashboard-from-the-mobile-apps.md)ดูแดชบอร์ดของคุณ
+   * แตะ **เชิญ** ![ไอคอนการเชิญ](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) เพื่อ [เชิญเพื่อนร่วมงาน](mobile-share-dashboard-from-the-mobile-apps.md) ดูแดชบอร์ดของคุณ
    * [ซิงค์แดชบอร์ดกับ Apple Watch ของคุณ](mobile-apple-watch.md)
 4. เมื่อต้องการกลับไปยังรายการของแดชบอร์ด แตะลูกศรที่อยู่ถัดจากชื่อแดชบอร์ด จากนั้นแตะ**พื้นที่ทำงานของฉัน**
    

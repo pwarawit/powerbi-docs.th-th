@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b400f429ef1e65a40caea717ab18bc06300f9d76
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870031"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221218"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>สำรวจไทล์ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -40,11 +40,14 @@ ms.locfileid: "73870031"
    ในแผนภูมิวงกลม ให้แตะชิ้นของแผนภูมิวงกลมเพื่อแสดงค่าชิ้นส่วนที่ด้านบนของวงกลม  
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-pie.png)
-3. ในแผนผัง ให้แตะไอคอน**จัดกึ่งกลางแผนผัง** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png)เพื่อจัดกึ่งกลางแผนผังกับตำแหน่งที่ตั้งปัจจุบันของคุณ
-   
-     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
-4. แตะไอคอนแชร์![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png)เพื่อ[ใส่คำอธิบายประกอบ และแชร์ไทล์](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)กับผู้อื่น
+3. ในแผนผัง ให้แตะไอคอน**จัดกึ่งกลางแผนผัง**![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png)เพื่อจัดกึ่งกลางแผนผังกับตำแหน่งที่ตั้งปัจจุบันของคุณ
+
+   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
+
+4. แตะไอคอนดินสอ ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) เพื่อ [ใส่คำอธิบายไทล์](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) และจากนั้นแตะไอคอนแชร์![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) เพื่อ [แชร์ให้กับผู้อื่น](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)
+
 5. [เพิ่มการแจ้งเตือนไปยังไทล์](mobile-set-data-alerts-in-the-mobile-apps.md) Power BI จะแจ้งให้คุณทราบ ถ้าค่าสูงกว่าหรือต่ำกว่าเป้าหมาย
+
 6. ในบางครั้งผู้สร้างแดชบอร์ดได้เพิ่มลิงก์ลงในไทล์ ดังนั้น จะมีไอคอนลิงก์![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)เมื่ออยู่ในโหมดโฟกัส:
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
@@ -68,9 +71,9 @@ ms.locfileid: "73870031"
     ในโหมดโฟกัสคุณสามารถ:
    
    * แตะแผนภูมิเมื่อต้องย้ายแถบในแผนภูมิเส้น แผนภูมิแท่ง แผนภูมิคอลัมน์ หรือแผนภูมิฟอง เมื่อต้องดูค่าสำหรับจุดเฉพาะในการแสดงภาพ  
-   * แตะไอคอนแชร์สแนปช็อต![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png)เพื่อ[ใส่คำอธิบายประกอบ และแชร์ไทล์](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)กับผู้อื่น
+   * แตะไอคอนดินสอ ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) เพื่อ [ใส่คำอธิบายไทล์](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) และจากนั้นแตะไอคอนแชร์สแนปช็อต![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) เพื่อ [แชร์](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) ให้กับผู้อื่น
    * แตะไอคอนเปิดรายงาน![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png)เพื่อ[ดูรายงาน](mobile-reports-in-the-mobile-apps.md)ในแอปสำหรับอุปกรณ์เคลื่อนที่
-3. ในบางครั้งผู้สร้างแดชบอร์ดได้เพิ่มลิงก์ลงในไทล์ ดังนั้น เมื่อคุณแตะที่เอลลิปซิสแนวตั้ง ( **...** ) คุณจะเห็น**เปิดลิงก์** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
+3. ในบางครั้งผู้สร้างแดชบอร์ดได้เพิ่มลิงก์ลงในไทล์ ดังนั้น เมื่อคุณแตะที่เอลลิปซิสแนวตั้ง ( **...** ) คุณจะเห็น**เปิดลิงก์**![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
@@ -89,10 +92,10 @@ ms.locfileid: "73870031"
    
     [แชร์สแนปช็อตของไทล์](mobile-windows-10-phone-app-get-started.md)
    
-    แตะ**เปิดรายงาน** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)เพื่อ[ดูรายงานที่สำคัญ](mobile-reports-in-the-mobile-apps.md)
+    แตะ **เปิดรายงาน** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)เพื่อ[ ดูรายงานที่ซ่อนอยู่](mobile-reports-in-the-mobile-apps.md)
    
     [เปิดลิงก์](../../service-dashboard-edit-tile.md#hyperlink)ถ้ามีลิงก์ ลิงก์สามารถไปที่แดชบอร์ด Power BI อื่น หรือ URL ภายนอกได้
-3. แตะ**ขยายไทล์** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png) ซึ่งจะเปิดขึ้นในโหมดโฟกัส โดยสามารถดูและสำรวจข้อมูลของไทล์ได้ง่ายขึ้น ในโหมดโฟกัสคุณสามารถ:
+3. แตะ **ขยายไทล์** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png) ซึ่งจะเปิดขึ้นในโหมดโฟกัส โดยสามารถดูและสำรวจข้อมูลของไทล์ได้ง่ายขึ้น ในโหมดโฟกัสคุณสามารถ:
    
    หมุนแผนภูมิวงกลมเพื่อแสดงค่าชิ้นส่วนที่ด้านบนของวงกลม  
    
@@ -104,14 +107,14 @@ ms.locfileid: "73870031"
    
    *ในแผนภูมิแท่งนี้ ค่าสำหรับแถบ **Decor** จะแสดงที่ด้านบนของแผนภูมิ*
    
-   แตะไอคอน**เต็มหน้าจอ** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)เพื่อเปิดไทล์ในโหมดเต็มหน้าจอ โดยไม่มีแถบนำทางและเมนู
+   แตะไอคอน**เต็มหน้าจอ**![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)เพื่อเปิดไทล์ในโหมดเต็มหน้าจอ โดยไม่มีแถบนำทางและเมนู
    
    > [!NOTE]
    > คุณยังสามารถ[ดูแดชบอร์ดและรายงานในโหมดเต็มหน้าจอ](mobile-windows-10-app-presentation-mode.md)ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10 ได้
    > 
    > 
    
-   ในแผนผัง ให้แตะไอคอน**จัดกึ่งกลางแผนผัง** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png)เพื่อจัดกึ่งกลางแผนผังกับตำแหน่งที่ตั้งปัจจุบันของคุณ
+   ในแผนผัง ให้แตะไอคอน**จัดกึ่งกลางแผนผัง**![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png)เพื่อจัดกึ่งกลางแผนผังกับตำแหน่งที่ตั้งปัจจุบันของคุณ
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    

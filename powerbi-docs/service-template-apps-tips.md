@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099754"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622452"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>เคล็ดลับสำหรับการเขียนแอปเทมเพลตใน Power BI
 
@@ -124,10 +124,10 @@ ms.locfileid: "74099754"
 สามารถเผยแพร่แอปเทมเพลตบน AppSource ปฏิบัติตามแนวทางเหล่านี้ก่อนส่งแอปของคุณไปยัง AppSource
 
 * ต้องสร้างแอปเทมเพลตที่มีข้อมูลตัวอย่างที่เกี่ยวข้อง ที่ช่วยให้ตัวติดตั้งเข้าใจถึงสิ่งที่แอปทำได้ (ไม่อนุญาตให้รายงานและแดชบอร์ดว่างเปล่า)
-แอปเทมเพลตสนับสนุนข้อมูลตัวอย่างเฉพาะแอป ตรวจสอบให้แน่ใจว่าทำเครื่องหมายในกล่องกาเครื่องหมายแบบคงที่ [เรียนรู้เพิ่มเติม](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+แอปเทมเพลตสนับสนุนข้อมูลตัวอย่างเฉพาะแอป ตรวจสอบให้แน่ใจว่าทำเครื่องหมายในกล่องกาเครื่องหมายแบบคงที่ [ศึกษาเพิ่มเติม](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * มีคำแนะนำเพื่อให้ทีมตรวจสอบสามารถติดตามได้ ซึ่งรวมถึงข้อมูลประจำตัวและพารามิเตอร์ที่จำเป็นสำหรับการเชื่อมต่อข้อมูล
-* แอปพลิเคชันต้องมีไอคอนแอป ใน Power BI และในข้อเสนอ CPP ของคุณ [เรียนรู้เพิ่มเติม](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* กำหนดค่าเพจเริ่มต้นแล้ว [เรียนรู้เพิ่มเติม](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* แอปพลิเคชันต้องมีไอคอนแอป ใน Power BI และในข้อเสนอ CPP ของคุณ [ศึกษาเพิ่มเติม](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* กำหนดค่าเพจเริ่มต้นแล้ว [ศึกษาเพิ่มเติม](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * ตรวจสอบให้แน่ใจว่าปฏิบัติตามเอกสารใน [ข้อเสนอแอป Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)
 * ในกรณีที่แดชบอร์ดเป็นส่วนหนึ่งในแอปของคุณ ตรวจสอบให้แน่ใจว่าแดชบอร์ดไม่ว่างเปล่า
 * ติดตั้งแอปโดยใช้ลิงก์แอปก่อนส่ง ตรวจสอบให้แน่ใจว่าคุณสามารถเชื่อมต่อชุดข้อมูลและประสบการณ์แอปเป็นไปตามที่คุณวางแผนไว้

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/29/2019
+ms.date: 12/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 934f045e2546893c48211729402a773b4bbe2aa0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696772"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223707"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>แบบจำลองขนาดใหญ่ใน Power BI Premium (ตัวอย่าง)
 
@@ -118,23 +118,4 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 - **การสนับสนุน Multi-geo** : ชุดข้อมูลที่เปิดใช้งานสำหรับ Premium Files จะล้มเหลวในความจุที่มีการเปิดใช้งาน [Multi-geo](service-admin-premium-multi-geo.md)
 
 - **ดาวน์โหลดไปยัง Power BI Desktop** : ถ้ามีการจัดเก็บชุดข้อมูลบน Premium Files [การดาวน์โหลดเป็นไฟล์ .pbix](service-export-to-pbix.md) จะล้มเหลว
-- **ภูมิภาคที่ได้รับการสนับสนุน**: มีการสนับสนุนแบบจำลองขนาดใหญ่ในภูมิภาคดังต่อไปนี้
-  - ออสเตรเลียตะวันออก
-  - ออสเตรเลียตะวันออกเฉียงใต้
-  - สหรัฐอเมริกาตอนกลาง
-  - เอเชียตะวันออก
-  - สหรัฐอเมริกาฝั่งตะวันออก
-  - สหรัฐอเมริกาฝั่งตะวันออก 2
-  - ญี่ปุ่นฝั่งตะวันออก
-  - ญี่ปุ่นตะวันตก
-  - เกาหลีตอนกลาง
-  - เกาหลีตอนใต้
-  - สหรัฐอเมริกาตอนกลางทางเหนือ
-  - ยุโรปตอนเหนือ
-  - สหรัฐอเมริกาตอนกลางทางใต้
-  - เอเชียตะวันออกเฉียงใต้
-  - สหราชอาณาจักรตอนใต้
-  - สหราชอาณาจักรตะวันตก
-  - ยุโรปตะวันตก
-  - สหรัฐอเมริกาตะวันตก
-  - สหรัฐอเมริกาตะวันตก 2
+- **ภูมิภาคที่ได้รับการสนับสนุน**: รุ่นขนาดใหญ่ได้รับการสนับสนุนในภูมิภาค Azure ทั้งหมดที่สนับสนุนการจัดเก็บไฟล์ Premium หากต้องการเรียนรู้เพิ่มเติม ดู [ผลิตภัณฑ์ที่มีจำหน่ายตามภูมิภาค](https://azure.microsoft.com/global-infrastructure/services/?products=storage)

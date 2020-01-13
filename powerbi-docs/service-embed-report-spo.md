@@ -1,21 +1,21 @@
 ---
 title: ฝังด้วยส่วนเว็บรายงานใน SharePoint Online
 description: ด้วยส่วยรายงานเว็บ Power BI ใหม่ สำหรับ SharePoint Online คุณสามารถฝังรายงาน Power BI แบบโต้ตอบได้อย่างง่ายดายในหน้า SharePoint Online
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 05/16/2019
-ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/18/2019
+ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881879"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75221723"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>ฝังด้วยส่วนเว็บรายงานใน SharePoint Online
 
@@ -29,6 +29,7 @@ ms.locfileid: "73881879"
 
 * สิทธิการใช้งาน Power BI Pro หรือความจุ [Power BI Premium (EM หรือ P SKU)](service-premium-what-is.md) พร้อมสิทธิการใช้งาน Power BI
 * Power BI web part สำหรับ SharePoint Online จำเป็นต้องใช้[หน้าที่ทันสมัย](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)
+* ในการใช้รายงานแบบฝัง ผู้ใช้ต้องลงชื่อเข้าใช้ในบริการของ Power BI เพื่อเปิดใช้สิทธิ์การใช้งาน Power BI ของพวกเขา
 
 ## <a name="embed-your-report"></a>ฝังรายงานของคุณ
 ในการฝังรายงานของคุณลงใน SharePoint Online คุณจะต้องได้รับ URL ของรายงานและใช้กับ Web Part ของ Power BI ของ SharePoint Online
@@ -172,4 +173,4 @@ ms.locfileid: "73881879"
 * [Power BI Premium คืออะไร?](service-premium-what-is.md)
 * [ฝังรายงานในพอร์ทัลความปลอดภัยหรือเว็บไซต์](service-embed-secure.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

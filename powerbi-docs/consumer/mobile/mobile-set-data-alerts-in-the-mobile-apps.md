@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/18/2017
-ms.author: mshenhav
-ms.openlocfilehash: c843a3ef8ddfde591dec27ea523cb73857d1a289
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/11/2019
+ms.author: painbar
+ms.openlocfilehash: 7668df00d63fc1bdb8bb0e113fa9ad7e0f029147
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870113"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221547"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -62,7 +62,8 @@ ms.locfileid: "73870113"
 
 1. ในแดชบอร์ด แตะตัวเลขหรือไทล์ตัวประเมินที่มีข้อความแจ้งเตือน  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
+   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+
 2. แตะไอคอน bell ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png)  
 3. แตะชื่อของการแจ้งเตือนเพื่อแก้ไข แตะตัวเลื่อนเพื่อปิดการแจ้งเตือนทางอีเมล์ หรือแตะถังขยะเพื่อลบการแจ้งเตือน
    
@@ -145,13 +146,15 @@ ms.locfileid: "73870113"
 1. Power BI จะตรวจสอบเพื่อดูว่าเกินหนึ่งชั่วโมงหรือ 24 ชั่วโมงแล้วหรือไม่ (ขึ้นอยู่กับตัวเลือกที่คุณเลือก) นับตั้งแต่มีการส่งการแจ้งเตือนล่าสุด
    
    ตราบใดที่ข้อมูลเกินค่าเกณฑ์ คุณจะได้รับการแจ้งเตือนทุกชั่วโมงหรือทุกๆ 24 ชั่วโมง
-2. ถ้าคุณได้ตั้งค่าการแจ้งเตือนให้ส่งอีเมล์ คุณจะพบสิ่งที่เหมือนสิ่งนี้้ในกล่องขาเข้าของคุณ
+2. ถ้าคุณได้ตั้งค่าการแจ้งเตือนให้ส่งอีเมล์ คุณจะพบสิ่งที่เหมือนสิ่งนี้้ในกล่องอีเมลเข้าของคุณ
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
-3. Power BI จะส่งข้อความไปยัง**ศูนย์การแจ้งเตือน**ของคุณและเพิ่มไอคอนการแจ้งเตือนใหม่ใหักับไทล์ที่เกี่ยวข้อง![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png)
-4. แตะปุ่มนำทางส่วนกลาง![](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)เมื่อต้องการ[เปิด**ศูนย์การแจ้งเตือน**ของคุณ ](mobile-apps-notification-center.md)และดูรายละเอียดการแจ้งเตือน
+3. Power BI จะเพิ่มข้อความไปยัง [ศูนย์การแจ้งเตือน](mobile-apps-notification-center.md) ของคุณ และเพิ่มจุดสีเหลืองลงในไอคอนระฆัง ![ไอคอนระฆัง](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) บนแถบชื่อเรื่อง (iOS และ Android) หรือปุ่มการนำทางส่วนกลาง ![ปุ่มนำทางส่วนกลาง](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (อุปกรณ์ Windows 10)
+
+
+4. แตะไอคอนระฆัง ![ไอคอนระฆัง](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) หรือปุ่มการนำทางส่วนกลาง ![ปุ่มการนำทางส่วนกลาง](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) เพื่อ [เปิด **ศูนย์การแจ้งเตือน**](mobile-apps-notification-center.md) ของคุณ และดูรายละเอียดการแจ้งเตือน
    
-     ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-notifications.png) 
+     
 
 > [!NOTE]
 > ข้อความแจ้งเตือนทำงานกับข้อมูลที่ได้รับการรีเฟรชเท่านั้น เมื่อมีการรีเฟรชข้อมูล Power BI จะค้นหาเพื่อดูว่าข้อความแจ้งเตือนถูกตั้งค่าสำหรับข้อมูลนั้นหรือไม่ ถ้าข้อมูลได้ถึงค่าเกณฑ์การแจ้งเตือน ข้อความแจ้งเตือนจะถูกเริ่ม

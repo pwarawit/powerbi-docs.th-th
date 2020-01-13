@@ -1,23 +1,23 @@
 ---
 title: 'บทช่วยสอน: ถามคำถามกับ Q&A นักวิเคราะห์เสมือนในแอป iOS'
 description: ในบทช่วยสอนนี้ ถามคำถามเกี่ยวกับข้อมูลตัวอย่างในคำพูดของคุณเอง กับนักวิเคราะห์เสมือนของถามตอบ ในแอปมือถือ Power BI บนอุปกรณ์ iOS ของคุณ
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
-ms.date: 11/16/2018
-ms.author: mshenhav
-ms.openlocfilehash: c7fd216d50f918d96392532ccb82f80d619ce8a3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/26/2019
+ms.author: painbar
+ms.openlocfilehash: f946c3b10f9d4922c227dd92a748af91266c040e
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869653"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75221820"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>บทช่วยสอน: ถามเกี่ยวกับข้อมูลของคุณกับ Q&A นักวิเคราะห์เสมือนในแอป Power BI iOS
 
-วิธีง่ายที่สุดในการเรียนรู้เกี่ยวกับข้อมูลของคุณ คือ การถามคำถามเกี่ยวกับข้อมูลของคุณโดยใช้ถ้อยคำของคุณเอง ในบทความนี้ คุณจะถามคำถาม และดูข้อมูลเชิงลึกที่แนะนำเกี่ยวกับข้อมูลตัวอย่าง กับนักวิเคราะห์เสมือนของถามตอบ ในแอปมือถือ Microsoft Power BI บน iPad, iPhone และ iPod Touch ของคุณ 
+วิธีง่ายที่สุดในการเรียนรู้เกี่ยวกับข้อมูลของคุณ คือ การถามคำถามเกี่ยวกับข้อมูลของคุณโดยใช้ถ้อยคำของคุณเอง ในบทช่วยสอนนี้ คุณถามคำถามและดูข้อมูลเชิงลึกที่แนะนำเกี่ยวกับข้อมูลตัวอย่าง กับนักวิเคราะห์เสมือนของถามตอบ ในแอปมือถือ Microsoft Power BI บน iPad หรือ iPhone ของคุณ 
 
 นำไปใช้กับ:
 
@@ -25,7 +25,7 @@ ms.locfileid: "73869653"
 |:--- |:--- |
 | iPhone |iPad |
 
-นักวิเคราะห์เสมือนของถามตอบ เป็นประสบการณ์การสนทนาข่าวกรองธุรกิจ ที่เข้าถึงข้อมูลการถามตอบเบื้องต้นในบริการของ Power BI [(https://powerbi.com)](https://powerbi.com) ซึ่งแนะนำข้อมูลเชิงลึก และคุณสามารถพิมพ์ หรือพูดคำถามของคุณเอง
+นักวิเคราะห์เสมือนของถามตอบ เป็นประสบการณ์การสนทนาข่าวกรองธุรกิจ ที่เข้าถึงข้อมูลการถามตอบเบื้องต้นใน [บริการของ Power BI](https://powerbi.com) ซึ่งแนะนำข้อมูลเชิงลึก และคุณสามารถพิมพ์ หรือพูดคำถามของคุณเอง
 
 ![นักวิเคราะห์เสมือนของถามตอบสำหรับยอดขายสูงสุด](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-intro.png)
 
@@ -36,100 +36,72 @@ ms.locfileid: "73869653"
 > * ดาวน์โหลดรายงานและแดชบอร์ดตัวอย่าง Power BI
 > * ดูข้อมูลเชิงลึกที่แนะนำโดยแอปสำหรับอุปกรณ์เคลื่อนที่
 
-ถ้าคุณไม่ได้ลงทะเบียน Power BI ให้[ลงทะเบียนรุ่นทดลองใช้ฟรี](https://app.powerbi.com/signupredirect?pbi_source=web)ก่อนที่คุณจะเริ่มต้นใช้งาน
-
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-### <a name="install-the-power-bi-for-ios-app"></a>ติดตั้งแอป Power BI สำหรับ iOS
-[ดาวน์โหลดแอป iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "ดาวน์โหลดแอป iPhone") จากร้าน Apple App Store ไปยัง iPad, iPhone หรือ iPod Touch ของคุณ
+* **ลงทะเบียนใช้งาน Power BI**: ถ้าคุณไม่ได้ลงทะเบียน Power BI ให้[ลงทะเบียนรุ่นทดลองใช้ฟรี](https://app.powerbi.com/signupredirect?pbi_source=web)ก่อนที่คุณจะเริ่มต้นใช้งาน
+* **ติดตั้งแอป Power BI สำหรับ iOS**: [ดาวน์โหลดแอป iOS](https://apps.apple.com/app/microsoft-power-bi/id929738808) จาก Apple App Store ไปยัง iPad, iPhone หรือ iPod Touch ของคุณ เวอร์ชันต่อไปนี้รองรับแอป Power BI สำหรับ iOS:
+  * iPad ที่มี iOS 11 หรือใหม่กว่า
+  * iPhone 5 และสูงกว่า ที่มี iOS 11 หรือใหม่กว่า 
+  * iPod Touch ที่มี iOS 11 หรือใหม่กว่า
+* **ดาวน์โหลดข้อมูลตัวอย่าง**: ขั้นตอนแรกคือดาวน์โหลด **ตัวอย่างการวิเคราะห์โอกาส** ไปยังบริการ Power BI ดู [การดาวน์โหลดตัวอย่างไปยังพื้นที่ทำงานของฉันในบริการ Power BI](./mobile-apps-download-samples.md) สำหรับคำแนะนำเกี่ยวกับวิธีการดำเนินการนี้
 
-เวอร์ชันเหล่านี้สนับสนุนแอป Power BI สำหรับ iOS:
-- iPad ที่มี iOS 10 หรือใหม่กว่า
-- iPhone 5 และสูงกว่า ที่มี iOS 10 หรือใหม่กว่า 
-- iPod Touch ที่มี iOS 10 หรือใหม่กว่า
 
-### <a name="download-the-opportunity-analysis-sample"></a>ดาวน์โหลดตัวอย่างการวิเคราะห์โอกาสทางการขาย
-ขั้นตอนแรกในบทช่วยสอน คือ ดาวน์โหลดตัวอย่างการวิเคราะห์โอกาสทางการขายในบริการของ Power BI
-
-1. เปิดบริการของ Power BI ในเบราว์เซอร์ของคุณ (app.powerbi.com) และลงชื่อเข้าใช้
-
-1. เลือกที่ไอคอนนำทางส่วนกลาง เพื่อเปิดบานหน้าต่างนำทาง
-
-    ![ไอคอนนำทางส่วนกลาง](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
-
-2. ในบานหน้าต่างนำทาง ให้เลือก **พื้นที่ทำงาน** > **พื้นที่ทำงานของฉัน**
-
-    ![พื้นที่ทำงานของฉัน](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
-
-3. ที่มุมล่างซ้าย เลือก**รับข้อมูล**
-   
-    ![รับข้อมูล](./media/tutorial-mobile-apps-ios-qna/power-bi-get-data.png)
-
-3. บนหน้า รับข้อมูล เลือกไอคอน**ตัวอย่าง**
-   
-   ![ไอคอนตัวอย่าง](./media/tutorial-mobile-apps-ios-qna/power-bi-samples-icon.png)
-
-4. เลือก **ตัวอย่างการวิเคราะห์โอกาสทางการขาย**
- 
-    ![ตัวอย่างการวิเคราะห์โอกาส](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
- 
-8. เลือก **เชื่อมต่อ**  
-  
-   ![ตัวอย่างการวิเคราะห์โอกาสทางการขาย - เชื่อมต่อ](./media/tutorial-mobile-apps-ios-qna/opportunity-connect.png)
-   
-5. Power BI นำเข้าตัวอย่าง เพิ่มแดชบอร์ดใหม่, รายงาน และชุดข้อมูลลงในพื้นที่ทำงานของฉัน
-   
-   ![แดชบอร์ดตัวอย่างการวิเคราะห์โอกาสทางการขาย](./media/tutorial-mobile-apps-ios-qna/power-bi-service-opportunity-sample.png)
-
-คุณพร้อมที่จะดูตัวอย่างบนอุปกรณ์ iOS ของคุณแล้ว
+เมื่อคุณดำเนินการข้อกำหนดเบื้องต้นเสร็จสิ้นและดาวน์โหลดข้อมูลตัวอย่างแล้ว คุณก็พร้อมที่จะดูตัวอย่างบนอุปกรณ์ iOS ของคุณ
 
 ## <a name="try-featured-insights"></a>ลองใช้ข้อมูลเชิงลึกที่แนะนำ
 1. บน iPhone หรือ iPad ของคุณ เปิดแอป Power BI แล้วลงชื่อเข้าใช้ด้วยข้อมูลประจำตัวของบัญชีผู้ใช้ Power BI ของคุณ ซึ่งเป็นบัญชีเดียวกันกับที่คุณใช้ในบริการของ Power BI ในเบราว์เซอร์
 
-1.  แตะที่ปุ่มนำทางส่วนกลาง ![ปุ่มนำทางส่วนกลาง](./media/tutorial-mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > **พื้นที่ทำงาน** > **พื้นที่ทำงานของฉัน** และเปิดแดชบอร์ดตัวอย่างการวิเคราะห์โอกาสทางการขาย
+2. บนแถบนำทางของหน้าหลัก ให้แตะไอคอน **พื้นที่ทำงาน**
 
-2. แตะไอคอนนักวิเคราะห์เสมือนของถามตอบ ![ไอคอนนักวิเคราะห์เสมือนของถามตอบ](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) จากเมนูการดำเนินการที่ด้านล่างของหน้า (ที่ด้านบนของหน้าใน iPad)
+    ![เปิดพื้นที่ทำงานของฉัน](./media/tutorial-mobile-apps-ios-qna/power-bi-qna-open-myworkspace.png)
 
-     ![แดชบอร์ดตัวอย่างการวิเคราะห์โอกาสทางการขาย](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-opportunity-analysis.png)
+3. เมื่อเปิดหน้าพื้นที่ทำงานแล้ว ให้แตะ **พื้นที่ทำงานของฉัน** จากนั้นแดชบอร์ด **ตัวอย่างการวิเคราะห์โอกาส** เพื่อเปิด
 
-     นักวิเคราะห์เสมือนของถามตอบสำหรับ Power BI จะมีตัวอย่างคำแนะนำ เพื่อเริ่มต้นใช้งาน
 
-     ![ปุ่มข้อมูลเชิงลึกที่แนะนำ](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insights.png)
+3. บนแดชบอร์ดตัวอย่างการวิเคราะห์โอกาส ให้แตะไอคอนนักวิเคราะห์เสมือนของถามตอบในเมนูการดำเนินการ
+
+    ![เปิดนักวิเคราะห์เสมือนของถามตอบ](./media/tutorial-mobile-apps-ios-qna/power-bi-qna-open-qna.png)
+
+    นักวิเคราะห์เสมือนของถามตอบจะมีตัวอย่างคำแนะนำ เพื่อเริ่มต้นใช้งาน
+
+    ![ข้อเสนอแนะนักวิเคราะห์เสมือนของถามตอบ](./media/tutorial-mobile-apps-ios-qna/power-bi-qna-suggestions.png)
+
 3. แตะ **ข้อมูลเชิงลึกที่แนะนำ**
 
-     นักวิเคราะห์เสมือนของถามตอบจะแนะนำตัวอย่างข้อมูลเชิงลึกให้คุณทราบ
-4. เลื่อนไปทางขวา แล้วแตะ**ข้อมูลเชิงลึก 2**
+4. นักวิเคราะห์เสมือนของถามตอบจะแนะนำตัวอย่างข้อมูลเชิงลึกให้คุณทราบ เลื่อนไปทางขวา แล้วแตะ**ข้อมูลเชิงลึก 2**
 
-    ![ปุ่มข้อมูลเชิงลึก 2](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insight-2.png)
+    ![ข้อมูลเชิงลึกที่แนะนำ](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insight-2.png)
 
-     นักวิเคราะห์เสมือนของถามตอบจะแสดงข้อมูลเชิงลึก 2
+   นักวิเคราะห์เสมือนของถามตอบจะแสดงข้อมูลเชิงลึก 2
 
-    ![ข้อมูลเชิงลึก 2](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-show-insight-2.png)
+    ![แสดงข้อมูลเชิงลึกที่แนะนำ](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-show-insight-2.png)
+
 5. แตะแผนภูมิเพื่อเปิดในโหมดโฟกัส
 
-    ![แผนภูมิของข้อมูลเชิงลึก 2 ในโหมดโฟกัส](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-open-insight-2.png)
+    ![เปิดแผนภูมิในโหมดโฟกัส](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-open-insight-2.png)
+
 6. แตะลูกศรที่มุมซ้ายบน เพื่อกลับไปยังประสบการการใช้งานของนักวิเคราะห์เสมือนของถามตอบ
 
-## <a name="clean-up-resources"></a>เพิ่มพื้นที่ทรัพยากร
+## <a name="clean-up-resources"></a>ล้างแหล่งข้อมูล
 
 เมื่อคุณจบบทช่วยสอนนี้แล้ว คุณสามารถลบแดชบอร์ด, รายงาน และชุดข้อมูลของตัวอย่างการวิเคราะห์โอกาสทางการขายได้
 
-1. เปิดบริการ Power BI (app.powerbi.com) และลงชื่อเข้าใช้
+1. เปิดบริการ Power BI ([บริการ Power BI](https://app.powerbi.com)) และลงชื่อเข้าใช้
 
-2. ในบานหน้าต่างนำทาง ให้เลือก **พื้นที่ทำงาน** > **พื้นที่ทำงานของฉัน**
+2. ในบานหน้าต่างการนำทาง ให้เลือก **พื้นที่ทำงานของฉัน**
 
-3. บนแท็บ**แดชบอร์ด** เลือกที่ไอคอนถังขยะ **ลบ** ถัดจากแดชบอร์ดการวิเคราะห์โอกาสทางการขาย
+3. คลิกที่แท็บแดชบอร์ด จากนั้นบนบรรทัดตัวอย่างการวิเคราะห์โอกาส ให้คลิกที่ถังขยะ
 
-    ![ลบแดชบอร์ดตัวอย่าง](./media/tutorial-mobile-apps-ios-qna/power-bi-service-delete-opportunity-sample.png)
+    ![เลือกไอคอนลบ](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
 
-4. เลือกแท็บ**รายงาน** และทำสิ่งเดียวกันสำหรับรายงานการวิเคราะห์โอกาสทางการขาย
+    เวลานี้ให้เลือกแท็บรายงานและทำแบบเดียวกัน
 
-5. เลือกแท็บ**ชุดข้อมูล** และทำสิ่งเดียวกันสำหรับชุดข้อมูลการวิเคราะห์โอกาสทางการขาย
+4. เวลานี้ให้เลือกแท็บชุดข้อมูล คลิก **ตัวเลือกเพิ่มเติม** (...) จากนั้นเลือก **ลบ**
 
+    ![เลือกไอคอนลบ](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 คุณได้ลอง นักวิเคราะห์เสมือนของถามตอบ ในแอปมือถือ Power BI สำหรับ iOS แล้ว เรียนรู้เพิ่มเติมเกี่ยวกับ ถามตอบในบริการของ Power BI
 > [!div class="nextstepaction"]
 > [การถามตอบในบริการ Power BI](../end-user-q-and-a.md)
-

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: bbb0584843f79445c4e5cca073f9c4b953d346aa
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74699371"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>ใช้ Assertion Markup Language (SAML) สำหรับการลงชื่อเข้าระบบครั้งเดียว (SSO) จาก Power BI กับแหล่งข้อมูลภายในองค์กร
@@ -68,7 +68,7 @@ ms.locfileid: "74699371"
 
 นำเข้าใบรับรองของ IdP ใน HANA Studio เพื่อสร้างตัวให้บริการข้อมูลประจำตัว SAM ใหม่
 
-1. ใน SAP HANA Studio คลิกขวาที่ชื่อเซิร์ฟเวอร์ SAP HANA จากนั้นไปที่ **การรักษาความปลอดภัย** &gt; **เปิดคอนโซลการรักษาความปลอดภัย** &gt; **ตัวให้บริการข้อมูลประจำตัว SAML** &gt; **ไลบรารีเข้ารหัสลับ OpenSSL**
+1. ใน SAP HANA Studio คลิกขวาที่ชื่อเซิร์ฟเวอร์ SAP HANA จากนั้นไปที่ **การรักษาความปลอดภัย**&gt;**เปิดคอนโซลการรักษาความปลอดภัย**&gt;**ตัวให้บริการข้อมูลประจำตัว SAML**&gt;**ไลบรารีเข้ารหัสลับ OpenSSL**
 
     ![ตัวให้บริการข้อมูลประจำตัว](media/service-gateway-sso-saml/identity-providers.png)
 
@@ -122,7 +122,7 @@ ms.locfileid: "74699371"
 
     1. เลือก **ใบรับรอง** &gt; **เพิ่ม** จากนั้นจึงเลือก **บัญชีตัวคำนวณ** &gt; **ถัดไป**
 
-    1. เลือก **คอมพิวเตอร์เฉพาะที่** &gt; **เสร็จสิ้น** &gt; **ตกลง**
+    1. เลือก **คอมพิวเตอร์เฉพาะที่** &gt; **สิ้นสุด** &gt; **ตกลง**
 
     1. ขยาย **ใบรับรอง** &gt; **ส่วนบุคคล** &gt; **ใบรับรอง** และค้นหาใบรับรอง
 

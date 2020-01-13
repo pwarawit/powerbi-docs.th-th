@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: 5bf3fee0f3df7b5be04b99e16a8a4043e8fcf30e
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 6a481681801b580b9eec47c5c704d8bdea8835f1
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128016"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75222114"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>บทช่วยสอน: การพัฒนาวิชวลสำหรับ Power BI
 
@@ -36,9 +36,9 @@ ms.locfileid: "74128016"
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-* ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/pricing/)ก่อนที่คุณจะเริ่ม
+* ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro**[ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/pricing/)ก่อนที่คุณจะเริ่ม
 * คุณต้องใช้[รหัส Visual Studio](https://www.visualstudio.com/)ที่ติดตั้งแล้ว
-* คุณจำเป็นต้องมี [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6)เวอร์ชัน 4 หรือใหม่กว่าสำหรับผู้ใช้ windows หรือ[เทอร์มินัล](https://macpaw.com/how-to/use-terminal-on-mac)สำหรับผู้ใช้ OSX
+* คุณจำเป็นต้องมี [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6)เวอร์ชัน 4 หรือใหม่กว่าสำหรับผู้ใช้ windows หรือ[เทอร์มินัล](https://macpaw.com/how-to/use-terminal-on-mac)สำหรับผู้ใช้ OSX
 
 ## <a name="setting-up-the-developer-environment"></a>การตั้งค่าสภาพแวดล้อมสำหรับนักพัฒนา
 
@@ -235,7 +235,7 @@ ms.locfileid: "74128016"
 
     คุณสามารถ[ดาวน์โหลด](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/images/US_Sales_Analysis.pbix)รายงาน Power BI Desktop ตัวอย่างได้ ถ้าคุณไม่ได้สร้างไว้ก่อนแล้ว
 
-    ![รับข้อมูล](media/custom-visual-develop-tutorial/get-data.png)![ไฟล์ภายในเครื่อง](media/custom-visual-develop-tutorial/local-file.png)
+    ![รับข้อมูล](media/custom-visual-develop-tutorial/get-data.png) ![ไฟล์ภายในเครื่อง](media/custom-visual-develop-tutorial/local-file.png)
 
     เมื่อต้องการดูรายงานในตอนนี้ ให้เลือก **US_Sales_Analysis** จากส่วน**รายงาน** ในบานหน้าต่างนำทางด้านซ้าย
 
@@ -398,6 +398,9 @@ ms.locfileid: "74128016"
     import IVisual = powerbi.extensibility.IVisual;
     import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions;
     import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions;
+    import EnumerateVisualObjectInstancesOptions = powerbi.EnumerateVisualObjectInstancesOptions;
+    import VisualObjectInstanceEnumeration = powerbi.VisualObjectInstanceEnumeration;
+    import IVisualHost = powerbi.extensibility.visual.IVisualHost;
 
     import * as d3 from "d3";
     type Selection<T extends d3.BaseType> = d3.Selection<T, any,any, any>;

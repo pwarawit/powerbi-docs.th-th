@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: fac23cf5814513c488a3403be420a2273992bae5
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831181"
+ms.lasthandoff: 01/04/2020
+ms.locfileid: "75657178"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>สร้างพารามิเตอร์สำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI
 
@@ -61,7 +61,12 @@ ms.locfileid: "74831181"
     -   เลือก**ภายใน** เพื่อซ่อนพารามิเตอร์และปกป้องไว้จากการถูกดัดแปลงในเซิร์ฟเวอร์รายงานหลังจากที่เผยแพร่รายงานแล้ว จากนั้นพารามิเตอร์ของรายงานจะเห็นได้ในข้อกำหนดของรายงาน สำหรับตัวเลือกนี้ คุณต้องตั้งค่าเป็นค่าเริ่มต้นหรืออนุญาตให้พารามิเตอร์มีค่า Null ได้  
   
 9. เลือก**ตกลง** 
-  
+
+## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
+
+- ถ้าคุณกำลังใช้ชุดข้อมูล Power BI หรือโมเดล Analysis Services เป็นแหล่งข้อมูลของคุณ คุณจะไม่สามารถส่งผ่านค่าพารามิเตอร์มากกว่า 1,000 ค่าในคำขอเดียวได้เนื่องจากข้อจำกัด DAX 
+
+ 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 ดูที่ [ดูพารามิเตอร์สำหรับรายงานแบบแบ่งหน้า](consumer/paginated-reports-view-parameters.md) เพื่อดูว่าพารามิเตอร์มีหน้าตาอย่างไรในบริการของ Power BI

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: cd252572c3080f300592b52ddc0f25cefcf7f084
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: ec0f98dfe56b6d2a6efe038622541f9f19d3899d
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478676"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223384"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>การรักษาความปลอดภัยระดับแถวด้วย Power BI Embedded
 
@@ -130,6 +130,9 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 ข้อมูลประจำตัวที่มีผลบังคับใช้ที่ระบุไว้สำหรับพร็อพเพอร์ตี้ชื่อผู้ใช้จะต้องเป็นผู้ใช้ Windows ที่มีสิทธิ์บนเซิร์ฟเวอร์ Analysis Services
 
+>[!NOTE]
+> เมื่อใช้โครงร่างสำคัญของบริการด้วยแหล่งข้อมูล [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) โครงร่างสำคัญของบริการจะต้องมีสิทธิ์อินสแตนซ์ Azure Analysis Services การใช้กลุ่มความปลอดภัยที่ประกอบด้วยโครงร่างสำคัญของบริการสำหรับวัตถุประสงค์นี้ไม่ได้ผล
+
 ### <a name="on-premises-data-gateway-configuration"></a>การกำหนดค่าเกตเวย์ข้อมูลภายในองค์กร
 
 [เกตเวย์ข้อมูลภายในองค์กร](../service-gateway-onprem.md)จะถูกใช้เมื่อทำงานกับการเชื่อมต่อแบบสดของ Analysis Services เมื่อสร้างโทเค็นที่ฝังด้วยข้อมูลประจำตัวที่อยู่ในรายการ บัญชีผู้ใช้หลักจำเป็นต้องอยู่ในรายการในฐานะผู้ดูแลระบบเกตเวย์ ถ้าบัญชีผู้ใช้หลักไม่ได้อยู่ในรายการ จะไม่ใช้ความปลอดภัยระดับแถวกับคุณสมบัติของข้อมูล ผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบเกตเวย์สามารถระบุบทบาทได้ แต่ต้องระบุชื่อผู้ใช้ของตนเองสำหรับข้อมูลประจำตัวที่มีผลบังคับใช้
@@ -144,7 +147,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 ฟีเจอร์ CustomData อนุญาตให้คุณเพิ่มตัวกรองแถวเมื่อดูข้อมูล Power BI ในแอปพลิเคชันของคุณเมื่อใช้**Azure Analysis Services**เป็นแหล่งข้อมูลของคุณ (ดูข้อมูล Power BI ที่เชื่อมต่อกับ Azure Analysis Services ในแอปพลิเคชันของคุณ ).
 
-ฟีเจอร์ CustomData อนุญาตให้ส่งข้อความอิสระ (สตริง) โดยใช้พร็อพเพอร์ตี้สตริงการเชื่อมต่อ CustomData Analysis Services ใช้ค่านี้ผ่านการฟังก์ชัน*CUSTOMDATA()*
+ฟีเจอร์ CustomData อนุญาตให้ส่งข้อความอิสระ (สตริง) โดยใช้พร็อพเพอร์ตี้สตริงการเชื่อมต่อ CustomData Analysis Services ใช้ค่านี้ผ่านทางฟังก์ชัน *CUSTOMDATA()*
 
 วิธีเดียวที่จะมี RLS แบบไดนามิกได้ (ซึ่งใช้การประเมินค่าไดนามิกตัวกรอง) ใน**Azure Analysis Services**คือต้องใช้ฟังก์ชัน*CUSTOMDATA()*
 
@@ -336,4 +339,4 @@ public IdentityBlob(string value);
 * คุณสามารถใช้ RLS ได้เฉพาะในกรณีที่คุณมีความจุเฉพาะเท่านั้น
 * RLS จะใช้ไม่ได้กับ SQL Server ภายในองค์กร
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6feba420e5bdc25651176be67e6f86f1dafc9ef6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879379"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219603"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>นักวิเคราะห์เสมือนของถามตอบ ในแอป iOS - Power BI
 
@@ -33,63 +33,26 @@ ms.locfileid: "73879379"
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-### <a name="install-the-power-bi-for-ios-app"></a>ติดตั้งแอป Power BI สำหรับ iOS
-[ดาวน์โหลดแอป iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "ดาวน์โหลดแอป iPhone") จากร้าน Apple App Store ไปยัง iPad, iPhone หรือ iPod Touch ของคุณ
+* **ติดตั้งแอป Power BI สำหรับ iOS**: [ดาวน์โหลดแอป iOS](https://go.microsoft.com/fwlink/?LinkId=522062) ไปยัง iPhone หรือ iPad ของคุณ
+เวอร์ชันเหล่านี้รองรับแอป Power BI สำหรับ iOS:
+    * iPad ที่มี iOS 11 หรือใหม่กว่า
+    * iPhone 5 และสูงกว่า ที่มี iOS 11 หรือใหม่กว่า
+* **ดาวน์โหลดตัวอย่างการวิเคราะห์ด้านการขายปลีกและการวิเคราะห์โอกาสทางการขาย**: ขั้นตอนแรกในเริ่มต้นใช้งานนี้คือ การดาวน์โหลดตัวอย่างการวิเคราะห์การค้าปลีก และตัวอย่างการวิเคราะห์โอกาสทางการขายในบริการของ Power BI [เรียนรู้วิธีการดาวน์โหลดตัวอย่าง](./mobile-apps-download-samples.md) ลงในบัญชี Power BI ของคุณเพื่อเริ่มต้นใช้งาน ตรวจสอบให้แน่ใจว่าได้เลือกตัวอย่างการวิเคราะห์ร้านค้าปลีกและตัวอย่างการวิเคราะห์โอกาสทางการขาย
 
-เวอร์ชันเหล่านี้สนับสนุนแอป Power BI สำหรับ iOS:
-- iPad ที่มี iOS 10 หรือใหม่กว่า
-- iPhone 5 และสูงกว่า ที่มี iOS 10 หรือใหม่กว่า 
-- iPod Touch ที่มี iOS 10 หรือใหม่กว่า
-
-### <a name="download-samples"></a>ดาวน์โหลดตัวอย่าง
-ขั้นตอนแรกคือ ดาวน์โหลดตัวอย่างการวิเคราะห์ด้านการขายปลีก และตัวอย่างการวิเคราะห์โอกาสทางการขาย ในบริการของ Power BI
-
-**รับตัวอย่างการวิเคราะห์ด้านการขายปลีก**
-
-1. เปิดบริการ Power BI (app.powerbi.com) และลงชื่อเข้าใช้
-
-2. ในบานหน้าต่างนำทาง ให้เลือก **พื้นที่ทำงาน**, **พื้นที่ทำงานของฉัน**
-
-3. ที่มุมล่างซ้าย เลือก**รับข้อมูล**
-   
-    ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
-
-3. บนหน้ารับข้อมูล เลือกไอคอน**ตัวอย่าง**
-   
-   ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
-
-4. เลือก**ตัวอย่างการวิเคราะห์ด้านการขายปลีก**
- 
-    ![ตัวอย่างการวิเคราะห์การค้าปลีก](./media/mobile-apps-ios-qna/power-bi-rs.png)
- 
-8. เลือก **เชื่อมต่อ**  
-  
-   ![ตัวอย่างการวิเคราะห์การค้าปลีก](./media/mobile-apps-ios-qna/retail16.png)
-   
-5. Power BI นำเข้าชุดเนื้อหา และเพิ่มแดชบอร์ด รายงาน และชุดข้อมูลใหม่ไปยังพื้นที่ทำงานปัจจุบันของคุณ
-   
-   ![ตัวอย่างการวิเคราะห์การค้าปลีก](./media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
-
-**รับตัวอย่างการวิเคราะห์โอกาสทางการขาย**
-
-- ทำตามขั้นตอนเดียวกันกับที่คุณรับตัวอย่างการวิเคราะห์ด้านการขายปลีก แต่ในขั้นตอนที่ 4 เลือก**ตัวอย่างการวิเคราะห์โอกาสทางการขาย**
-
-    ![ตัวอย่างการวิเคราะห์การค้าปลีก](./media/mobile-apps-ios-qna/power-bi-oa.png)
-  
-คุณพร้อมที่จะดูตัวอย่างบนอุปกรณ์ iOS ของคุณแล้ว
+เมื่อคุณทำข้อกำหนดเบื้องต้นเสร็จสมบูรณ์แล้ว คุณพร้อมที่จะลองใช้นักวิเคราะห์เสมือนของถามตอบ
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>ลองถามคำถามผ่าน iPhone หรือ iPad ของคุณ
-1. บน iPhone หรือ iPad ของคุณ แตะที่ปุ่มนำทางส่วนกลาง ![ปุ่มการนำทางส่วนกลาง](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > **พื้นที่ทำงาน** > **พื้นที่ทำงานของฉัน** และเปิดแดชบอร์ดตัวอย่างการวิเคราะห์ด้านการขายปลีก
+1. ที่แถบนำทางด้านล่างบน iPhone หรือ iPad ของคุณ ให้แตะปุ่มพื้นที่ทำงาน ![ปุ่มพื้นที่ทำงาน](./media/mobile-apps-ios-qna/power-bi-iphone-workspaces-button.png)ไปที่ พื้นที่ทำงานของฉัน แล้วเปิดแดชบอร์ดตัวอย่างการวิเคราะห์ด้านการขายปลีก
 
 2. แตะไอคอนนักวิเคราะห์เสมือนของถามตอบ ![ไอคอนนักวิเคราะห์เสมือนของถามตอบ](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) จากเมนูการดำเนินการที่ด้านล่างของหน้า (ที่ด้านบนของหน้าใน iPad)
      นักวิเคราะห์เสมือนของถามตอบจะมีตัวอย่างคำแนะนำ เพื่อเริ่มต้นใช้งาน
-3. พิมพ์ **แสดง** แตะ**ยอดขาย** จากรายการคำแนะนำ > **ส่ง** ![ไอคอนส่ง](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
+3. พิมพ์ **แสดง** แตะที่ **ยอดขาย** จากรายการแนะนำ > **ส่ง** ![ไอคอนส่ง](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
 
     ![แสดงยอดขาย](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. แตะ **โดย** จากคำสำคัญ แล้วแตะ**รายการสินค้า**จากรายการคำแนะนำ > **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
+4. แตะที่ **โดย** จากคำสำคัญ จากนั้นแตะที่ **รายการ** จากรายการแนะนำ > **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
 
     ![ยอดขายตามรายการสินค้า](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. แตะ **เป็น** จากคำสำคัญ แตะไอคอนแผนภูมิคอลัมน์![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) แล้วแตะ **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
+5. แตะ **เป็น** จากคำสำคัญ แตะไอคอนแผนภูมิคอลัมน์ ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) แล้วแตะ **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
 6. แตะแผนภูมิผลลัพธ์ค้างไว้ แล้วแตะ **ขยาย**
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -99,7 +62,7 @@ ms.locfileid: "73879379"
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. แตะลูกศรที่มุมซ้ายบน เพื่อกลับไปยังหน้าต่างการสนทนาสำหรับนักวิเคราะห์เสมือนของถามตอบ
 8. แตะ X ที่ด้านขวาของกล่องข้อความ เพื่อลบข้อความ แล้วเริ่มต้นอีกครั้ง
-9. ลองตั้งคำถามใหม่: แตะ **ด้านบน** ในส่วนคำสำคัญ ให้แตะ **ยอดขายโดยเฉลี่ย $/ หน่วย/ปี** > **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
+9. ลองตั้งคำถามใหม่: แตะที่ **ด้านบน** จากส่วนคำสำคัญ ให้แตะ **ยอดขายโดยเฉลี่ย $/หน่วย/ปี** > **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
 10. เลือก **โดย** ในส่วนคำสำคัญ ให้แตะ **เวลา**จากรายการคำแนะนำด้านบน > **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)

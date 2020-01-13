@@ -11,10 +11,10 @@ ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
 ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73873656"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>ladakจัดการที่เก็บข้อมูลในพื้นที่ทำงานบน Power BI
@@ -48,7 +48,7 @@ ms.locfileid: "73873656"
 1. เพื่อจัดการที่เก็บข้อมูลของคุณเอง ไปที่ **พื้นที่งานของฉัน** ในบานหน้าต่างนำทาง
    
     ![พื้นที่ทำงานของฉัน](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
-2. เลือกไอคอนรูปเฟือง![ไอคอนรูปเฟือง](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ในมุมบนขวา\>**จัดการที่เก็บข้อมูลส่วนตัว**
+2. เลือกไอคอนรูปเฟือง ![ไอคอนรูปเฟือง](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ในมุมบนขวา \> **จัดการที่เก็บข้อมูลส่วนตัว**
    
     แถบด้านบนแสดงให้เห็นว่า คุณได้ใช้ที่เก็บข้อมูลมากแค่ไหน
    
@@ -63,10 +63,10 @@ ms.locfileid: "73873656"
 โปรดทราบว่า คุณหรือบุคคลอื่นอาจมีรายงานและแดชบอร์ดที่ขึ้นกับชุดข้อมูลหนึ่ง ๆ ถ้าคุณลบชุดข้อมูล รายงานและแดชบอร์ดเหล่านั้นจะไม่ทำงานอีกต่อไป
 
 ## <a name="manage-your-workspace"></a>จัดการพื้นที่ทำงานของคุณ
-1. เลือกลูกศรที่อยู่ถัดจาก**พื้นที่ทำงาน** \> เลือกชื่อของพื้นที่ทำงาน
+1. เลือกลูกศรที่อยู่ถัดจาก **พื้นที่ทำงาน** \> เลือกชื่อของพื้นที่ทำงาน
    
     ![เลือกพื้นที่ทำงาน](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. เลือกไอคอนรูปเฟือง![ไอคอนรูปเฟือง](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ในมุมบนขวา\>**จัดการที่เก็บข้อมูลส่วนตัว**
+2. เลือกไอคอนรูปเฟือง ![ไอคอนรูปเฟือง](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ในมุมบนขวา \> **จัดการที่เก็บข้อมูลกลุ่ม**
    
     แถบด้านบนแสดงให้เห็นว่า มีการใช้ที่เก็บข้อมูลกลุ่มมากแค่ไหน
    
@@ -103,5 +103,5 @@ ms.locfileid: "73873656"
 
  ![เกินขีดจำกัดที่จัดเก็บของคุณ](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
- มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+ มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

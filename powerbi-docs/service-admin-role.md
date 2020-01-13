@@ -1,60 +1,59 @@
 ---
-title: ทำความเข้าใจเกี่ยวกับบทบาทผู้ดูแลระบบ Power BI
-description: บทความนี้ระบุเกี่ยวกับบทบาทของผู้ดูแลระบบบริการ Power BI และการใช้งานกับหน่วยงานของคุณ
+title: ทำความเข้าใจเกี่ยวกับบทบาทผู้ดูแลระบบบริการของ Power BI
+description: บทความนี้อธิบายถึงผู้ดูแลระบบบริการของ Power BI และบทบาทเฉพาะที่มีสิทธิ์ระดับผู้ดูแล
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a6121ca16250de9765557b9c9acbf73b513723ee
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 04ffeb01efeaa714b30b2246174584f2caf90468
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699923"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75622283"
 ---
-# <a name="understanding-the-power-bi-service-administrator-role"></a>ทำความเข้าใจเกี่ยวกับบทบาทผู้ดูแลระบบบริการของ Power BI
+# <a name="understanding-power-bi-service-administrator-roles"></a>ทำความเข้าใจเกี่ยวกับบทบาทผู้ดูแลระบบบริการของ Power BI
 
-เรียนรู้วิธีการใช้บทบาทผู้ดูแลระบบบริการของ Power BI ในองค์กรของคุณ ผู้ใช้ที่ได้รับบทบาทนี้สามารถควบคุมผู้เช่า และคุณลักษณะการจัดการผู้เช่าใน Power BI แบบเต็มรูปแบบ ยกเว้นสิทธิ์การใช้งาน
+ในการดูแลระบบผู้เช่า Power BI คุณต้องเป็นหนึ่งในบทบาทต่อไปนี้: ผู้ดูแลระบบ Power BI ผู้ดูแลระบบ Power Platform หรือผู้ดูแลระบบส่วนกลาง Microsoft 365 ผู้ดูแลระบบการจัดการผู้ใช้ Microsoft 365 กำหนดผู้ใช้ไปยังบทบาทผู้ดูแลระบบ Power BI หรือผู้ดูแลระบบ Power Platform ในศูนย์การจัดการ Microsoft 365 หรือโดยใช้สคริปต์ PowerShell
 
-บทบาทผู้ดูแลระบบบริการของ Power BI สามารถกำหนดให้แก่ผู้ใช้ ที่จำเป็นต้องเข้าถึงพอร์ทัลผู้ดูแล Power BI ได้โดยไม่ต้องให้สิทธิ์เข้าถึงการจัดการทั้งหมดของ Office 365
+ผู้ใช้ในบทบาทผู้ดูแลระบบ Power BI และผู้ดูแลระบบ Power Platform สามารถควบคุมผู้เช่า และคุณลักษณะการจัดการผู้เช่าใน Power BI ได้เต็มรูปแบบ ยกเว้นสิทธิ์การใช้งาน ทันทีที่ผู้ใช้ถูกกำหนดสิทธิ์ ผู้ใช้จะสามารถเข้าถึง [พอร์ทัลผู้ดูแล Power BI](service-admin-portal.md) ได้ ในส่วนนั้น ผู้ใช้จะสามารถเข้าถึงการวัดปริมาณการใช้งานของผู้เช่า และสามารถควบคุมการใช้งานคุณลักษณะ Power BI ของผู้เช่าอีกได้ด้วย บทบาทผู้ดูแลระบบเหล่านี้เหมาะสำหรับผู้ใช้ที่จำเป็นต้องเข้าถึงพอร์ทัลผู้ดูแลระบบ Power BI โดยไม่ต้องให้สิทธิ์เข้าถึงการจัดการทั้งหมดของ Microsoft 365 แก่ผู้ใช้เหล่านั้น
 
-ผู้ดูแลระบบการจัดการผู้ใช้ office 365 กำหนดผู้ใช้ไปยังบทบาทผู้ดูแลระบบบริการของ Power BI ในศูนย์การจัดการ Microsoft 365 หรือโดยใช้สคริปต์ PowerShell ทันทีที่ผู้ใช้ถูกกำหนดสิทธิ์ ผู้ใช้จะสามารถเข้าถึง [พอร์ทัลผู้ดูแล Power BI](service-admin-portal.md) ได้ ในส่วนนั้น ผู้ใช้จะสามารถเข้าถึงการวัดปริมาณการใช้งานของผู้เช่า และสามารถควบคุมการใช้งานคุณลักษณะ Power BI ของผู้เช่าอีกได้ด้วย
+> [!NOTE]
+> ในเอกสารประกอบของ Power BI "ผู้ดูแลระบบ Power BI" หมายถึงผู้ใช้ในบทบาทผู้ดูแลระบบ Power BI หรือ Power Platform อย่างใดอย่างหนึ่ง เอกสารประกอบจะทำให้ชัดเจนขึ้นเมื่อจำเป็นต้องมีบทบาทผู้ดูแลระบบส่วนกลางของ Microsoft 365 สำหรับงาน
 
 ## <a name="limitations-and-considerations"></a>ข้อจำกัดและข้อควรพิจารณา
 
-บทบาทผู้ดูแลบริการของ Power BI ไม่มีความสามารถดังต่อไปนี้:
+บทบาทผู้ดูแลระบบบริการของ Power BI และผู้ดูแลระบบ Power Platform ไม่มีความสามารถดังต่อไปนี้:
 
-* ความสามารถในการปรับเปลี่ยนผู้ใช้และสิทธิ์การใช้งานภายในศูนย์การจัดการ Microsoft 365
+* ความสามารถในการแก้ไขผู้ใช้และสิทธิการใช้งานภายในศูนย์การจัดการ Microsoft 365
 
-* การเข้าถึงบันทึกการตรวจสอบ สำหรับข้อมูลเพิ่มเติม ดู[การตรวจสอบภายในองค์กรของคุณ](service-admin-auditing.md)
+* การเข้าถึงบันทึกการตรวจสอบ สำหรับข้อมูลเพิ่มเติมดู [ติดตามกิจกรรมของผู้ใช้ใน Power BI](service-admin-auditing.md)
 
-## <a name="assign-users-to-the-admin-role-in-office-365"></a>กำหนดบทบาทผู้ดูแลระบบแก่ผู้ใช้ใน Office 365
+ความสามารถเหล่านี้จำเป็นต้องมีบทบาทผู้ดูแลระบบส่วนกลาง Microsoft 365
 
-หากต้องการกำหนดผู้ใช้ลงในบทบาทผู้ดูแลระบบ Power BI ในศูนย์การจัดการ Microsoft 365 ให้ปฏิบัติตามขั้นตอนเหล่านี้
+## <a name="assign-users-to-an-admin-role-in-the-microsoft-365-admin-center"></a>กำหนดผู้ใช้ให้กับบทบาทผู้ดูแลระบบในศูนย์การจัดการ Microsoft 365
 
-1. ใน[ศูนย์การจัดการ Microsoft 365](https://portal.office.com/adminportal/home#/homepage) **ให้เลือก** >  **ผู้ใช้ผู้ใช้ที่ใช้งานอยู่**
+หากต้องการกำหนดผู้ใช้ลงในบทบาทผู้ดูแลระบบในศูนย์การจัดการ Microsoft 365 ให้ปฏิบัติตามขั้นตอนเหล่านี้
+
+1. ใน[ศูนย์การจัดการ Microsoft 365](https://portal.office.com/adminportal/home#/homepage)**ให้เลือก** >  **ผู้ใช้ผู้ใช้ที่ใช้งานอยู่**
 
     ![ศูนย์การจัดการ Microsoft 365](media/service-admin-role/powerbi-admin-users.png)
 
 1. เลือกผู้ใช้ที่คุณต้องการกำหนดบทบาทให้
 
-1. ใต้ **บทบาท** เลือก **แก้ไข**
+1. ภายใต้ **บทบาท** เลือก **จัดการบทบาท**
 
-    ![แก้ไขบทบาท](media/service-admin-role/powerbi-admin-edit-roles.png)
+    ![จัดการบทบาท](media/service-admin-role/powerbi-admin-edit-roles.png)
 
-1. เลือก **ผู้ดูแลระบบที่กำหนดเอง** > **ผู้ดูแลบริการของ Power BI**
+1. ขยาย **แสดงทั้งหมดตามประเภท** จากนั้นเลือก **ผู้ดูแลระบบ Power BI** หรือ **ผู้ดูแลระบบ Power Platform**
 
-    ![ผู้ดูแลระบบบริการ Power BI](media/service-admin-role/powerbi-admin-role.png)
+    ![เลือกบทบาทผู้ดูแลระบบ](media/service-admin-role/powerbi-admin-role.png)
 
-1. เลือก **บันทึก** จากนั้น **ปิด**
-
-คุณควรเห็น**ผู้ดูแลบริการของ Power BI** อยู่ในรายการบทบาทของผู้ใช้รายนั้น
-
-![บทบาท](media/service-admin-role/powerbi-admin-role-set.png)
+1. เลือก **บันทึกการเปลี่ยนแปลง**
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>กำหนดบทบาทผู้ดูแลระบบแก่ผู้ใช้ด้วย PowerShell
 
@@ -110,4 +109,4 @@ ms.locfileid: "74699923"
 [การดูแล Power BI ในองค์กรของคุณ](service-admin-administering-power-bi-in-your-organization.md)  
 [พอร์ทัลผู้ดูแล Power BI](service-admin-portal.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

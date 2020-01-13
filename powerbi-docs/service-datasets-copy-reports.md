@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2fc33c8adcaed35dab8fc9d81ab28fa314f42e3b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9c7cbd895a913b76a9c0b87155f7800c5538ab28
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881942"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223859"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>คัดลอกรายงานจากพื้นที่ทำงานอื่น ๆ (ดูตัวอย่าง)
 
@@ -37,7 +37,7 @@ ms.locfileid: "73881942"
 
     ![บันทึกกล่องโต้ตอบการทำสำเนา](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 
-    คุณสามารถบันทึกรายงานไว้ในพื้นที่ทำงานปัจจุบันหรือที่อื่นในบริการของ Power BI คุณเห็นเฉพาะพื้นที่ทำงานที่เป็นพื้นที่ทำงานประสบการณ์ใหม่ ซึ่งคุณเป็นสมาชิกเท่านั้น
+    พื้นที่ทำงานที่คุณสามารถบันทึกนั้นขึ้นอยู่กับว่าคุณคัดลอกมาจากไหน เมื่อคัดลอกจากพื้นที่ทำงาน คุณสามารถบันทึกรายงานไว้ในพื้นที่ทำงานปัจจุบันหรือพื้นที่ทำงานอื่นในบริการ Power BI คุณเห็นเฉพาะพื้นที่ทำงานที่เป็นพื้นที่ทำงานประสบการณ์ใหม่ ซึ่งคุณเป็นสมาชิกเท่านั้น เมื่อกำลังคัดลอกจากแอป คุณสามารถบันทึกรายงานไปยังพื้นที่ทำงานของฉันได้
   
 4. เลือก**บันทึก**
 

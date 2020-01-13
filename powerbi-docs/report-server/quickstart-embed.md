@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 195be0766e135dcccc2124a998fb5a32e8703d5b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fe91de89e7eec601c516895089e3dcc03eff14ea
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875013"
+ms.lasthandoff: 01/04/2020
+ms.locfileid: "75657224"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>ฝังรายงานเซิร์ฟเวอร์รายงาน Power BI โดยใช้ iFrame ใน SharePoint Server
 
@@ -25,6 +25,7 @@ ms.locfileid: "73875013"
 * ติดตั้งและกำหนดค่า [เซิร์ฟเวอร์รายงาน Power BI](https://powerbi.microsoft.com/report-server/) แล้ว
 * ติดตั้ง [Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](install-powerbi-desktop.md) แล้ว
 * ติดตั้งและกำหนดค่า [SharePoint](https://docs.microsoft.com/sharepoint/install/install) แล้ว
+* รองรับ Internet Explorer 11 เฉพาะเมื่อใช้ SharePoint Online  คุณอาจใช้เบราว์เซอร์อื่นๆ ที่รองรับในสถานการณ์อย่างใดอย่างหนึ่ง
 
 ## <a name="create-the-power-bi-report-url"></a>สร้าง URL ของรายงาน Power BI
 
@@ -100,4 +101,4 @@ ms.locfileid: "73875013"
 - [สร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน Power BI](quickstart-create-powerbi-report.md)  
 - [สร้างรายงานที่มีการแบ่งหน้าสำหรับเซิร์ฟเวอร์รายงาน Power BI](quickstart-create-paginated-report.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/) 
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/) 

@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/29/2019
-ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 12/12/2019
+ms.openlocfilehash: dec23aaa4fd54761c62507b8c7a5a36c45c75afd
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264186"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223374"
 ---
 # <a name="service-principal-with-power-bi"></a>บริการหลักพร้อมด้วย Power BI
 
@@ -150,7 +150,7 @@ ms.locfileid: "74264186"
 
    ![แอปพลิเคชันในไดเรกทอรีภายในเครื่องที่มีการจัดการ](media/embed-service-principal/managed-application-in-local-directory.png)
 
-    > [!Note]
+    > [!NOTE]
     > Id ออบเจ็กต์ในรูปด้านบนไม่ใช่ออบเจ็กต์ที่ใช้กับบริการหลัก
 
 3. เลือก**คุณสมบัติ**เพื่อดู ID ของออบเจ็กต์
@@ -174,6 +174,7 @@ ms.locfileid: "74264186"
 * แอปพลิเคชัน[แบบฝังตัวสำหรับองค์กรของคุณ](embed-sample-for-your-organization.md)ไม่สามารถใช้บริการหลักได้
 * [Dataflows](../service-dataflows-overview.md) การจัดการไม่ได้รับการสนับสนุน
 * ปัจจุบัน โครงร่างสำคัญของบริการไม่สนับสนุนผู้ดูแลระบบ APIs
+* เมื่อใช้โครงร่างสำคัญของบริการด้วยแหล่งข้อมูล [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) โครงร่างสำคัญของบริการจะต้องมีสิทธิ์อินสแตนซ์ Azure Analysis Services การใช้กลุ่มความปลอดภัยที่ประกอบด้วยโครงร่างสำคัญของบริการสำหรับวัตถุประสงค์นี้ไม่ได้ผล
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

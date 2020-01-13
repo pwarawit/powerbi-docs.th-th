@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 85b21d95cb992449d3b7a910c619d049237fc9d8
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.date: 12/12/2019
+ms.openlocfilehash: e27789ca28d86a53b7d8340b3d766a73a04645cb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311094"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223406"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ
 
@@ -34,7 +34,7 @@ ms.locfileid: "74311094"
 * [บัญชี Power BI Pro](../service-self-service-signup-for-power-bi.md) (บัญชีหลักที่มีชื่อผู้ใช้และรหัสผ่านเพื่อลงชื่อเข้าใช้บัญชี Power BI Pro), หรือ[บริการหลัก (โทเค็นเฉพาะแอปเท่านั้น)](embed-service-principal.md)
 * คุณจำเป็นต้องตั้งค่า[ผู้เช่า Azure Active Directory](create-an-azure-active-directory-tenant.md) ของคุณเอง
 
-ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/pricing/)ก่อนที่คุณจะเริ่ม
+ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro**[ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/pricing/)ก่อนที่คุณจะเริ่ม
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>ตั้งค่าสภาพแวดล้อมการพัฒนาการวิเคราะห์แบบฝังตัวของคุณ
 
@@ -78,7 +78,7 @@ ms.locfileid: "74311094"
 
 ## <a name="embed-content-using-the-sample-application"></a>ฝังเนื้อหาโดยใช้แอปพลิเคชันตัวอย่าง
 
-ตัวอย่างนี้ถูกเก็บไว้อย่างตั้งใจเพื่อวัตถุประสงค์ในการสาธิต ซึ่งขึ้นกับคุณหรือนักพัฒนาของคุณเพื่อปกป้องความลับของแอปพลิเคชันหรือข้อมูลประจำตัวของบัญชีหลัก
+ตัวอย่างนี้ถูกเก็บไว้อย่างตั้งใจเพื่อวัตถุประสงค์ในการสาธิต ทั้งนี้ขึ้นอยู่กับคุณหรือนักพัฒนาของคุณในการปกป้องความลับของแอปพลิเคชันหรือข้อมูลบัญชีมาสเตอร์
 
 ทำตามขั้นตอนด้านล่างเพื่อเริ่มการฝังเนื้อหาของคุณโดยใช้แอปพลิเคชันตัวอย่าง
 
@@ -436,6 +436,8 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
 เมื่อคุณสร้างความจุเฉพาะแล้ว คุณสามารถกำหนดพื้นที่ทำงานสำหรับความจุเฉพาะดังกล่าวได้
 
+พื้นที่ทำงานทั้งหมดที่ประกอบด้วยแหล่งข้อมูล Power BI ที่เกี่ยวข้องกับเนื้อหาแบบฝังตัว (รวมถึงชุดข้อมูล รายงานและแดชบอร์ด) จะต้องได้รับมอบหมายไปยังความจุที่กำหนด ตัวอย่างเช่น หากรายงานแบบฝังและชุดข้อมูลที่ผูกไว้อยู่ในพื้นที่ทำงานที่ต่างกันสองแห่ง ต้องมอบหมายพื้นที่ทำงานทั้งสองแห่งเป็นความจุที่กำหนด
+
 เมื่อต้องกำหนดความจุเฉพาะกับพื้นที่ทำงานโดยใช้[บริการหลัก](embed-service-principal.md) ให้ใช้[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity) เมื่อคุณกำลังใช้ Power BI REST API ทำให้แน่ใจว่าใช้[ ID ออบเจ็กต์ของบริการหลัก](embed-service-principal.md#how-to-get-the-service-principal-object-id)
 
 ทำตามขั้นตอนด้านล่างเพื่อกำหนดความจุเฉพาะสำหรับพื้นที่ทำงานโดยใช้**บัญชีหลัก**
@@ -459,4 +461,4 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 > [!div class="nextstepaction"]
 >[ฝังตัวสำหรับองค์กรของคุณ](embed-sample-for-your-organization.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

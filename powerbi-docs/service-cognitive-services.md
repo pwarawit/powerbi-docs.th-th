@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 3965a21ff2ab53fd46667658f7cfa21fa4a3b916
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cf927e94726f33e8d88c25c6d09f6f0ca2226e05
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73855603"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75224119"
 ---
 # <a name="cognitive-services-in-power-bi"></a>Cognitive Services ใน Power BI 
 
 ด้วย Cognitive Services ใน Power BI คุณสามารถใช้อัลกอริทึมต่างๆ ได้จาก [Azure Cognitive Services](https://azure.microsoft.com/services/cognitive-services/) เพื่อเติมแต่งข้อมูลของคุณในการเตรียมข้อมูลด้วยตนเองสำหรับกระแสข้อมูล
 
-บริการที่ได้รับการรองรับประจำวันนี้ได้แก่ [การวิเคราะห์ความคิดเห็น](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis) [การแยกวลีหลัก](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction) [การตรวจหาภาษา](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) และ [การแท็กรูปภาพ](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images). การแปลงข้อมูลจะดำเนินการบนบริการของ Power BI และไม่จำเป็นต้องสมัครใช้งาน Azure Cognitive Services คุณลักษณะนี้ต้องใช้ Power BI Premium
+บริการที่ได้รับการรองรับประจำวันนี้ได้แก่ [การวิเคราะห์ความคิดเห็น](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)[การแยกวลีหลัก](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)[การตรวจหาภาษา](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) และ [การแท็กรูปภาพ](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images). การแปลงข้อมูลจะดำเนินการบนบริการของ Power BI และไม่จำเป็นต้องสมัครใช้งาน Azure Cognitive Services คุณลักษณะนี้ต้องใช้ Power BI Premium
 
 ## <a name="enabling-ai-features"></a>**เปิดการใช้งานคุณลักษณะ AI**
 
@@ -94,7 +94,7 @@ Cognitive Services ได้รับการรองรับโดยโห�
 
 บทความนี้จะให้ภาพรวมของการใช้ Cognitive Services กับบริการของ Power BI บทความต่อไปนี้อาจน่าสนใจและเป็นประโยชน์สำหรับคุณ 
 
-* [บทช่วยสอน: เรียกใช้แบบจำลอง Machine Learning Studio ใน Power BI](service-tutorial-invoke-machine-learning-model.md)
+* [บทช่วยสอน: เรียกใช้แบบจำลอง Machine Learning Studio (คลาสสิก) ใน Power BI](service-tutorial-invoke-machine-learning-model.md)
 * [การรวม Azure Machine Learning ใน Power BI](service-machine-learning-integration.md)
 * [บทช่วยสอน: การใช้ Cognitive Services ใน Power BI](service-tutorial-use-cognitive-services.md)
 

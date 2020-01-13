@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 22988b08209865e9f1f2c583a30aa40e48c249bc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7b0a8b1f8b77ba1ee636bc92bb230b7c51e2935b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879243"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219404"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>รับการแจ้งเตือนในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -34,27 +34,23 @@ ms.locfileid: "73879243"
    
    ![แบนเนอร์การแจ้งเตือน](./media/mobile-apps-notification-center/power-bi-mobile-notification-banner.png)
    
-   หรือ บน iPad:
-   
-   ![การแจ้งเตือน](./media/mobile-apps-notification-center/power-bi-ipad-notifications.png)
-   
+
    คุณสามารถ[เปลี่ยนวิธีที่ Power BI จะแจ้งเตือนคุณ](mobile-apps-notification-center.md#change-or-turn-off-notifications-on-your-mobile-device)ได้
-2. ถ้าคุณได้รับการแจ้งเตือน เมื่อคุณลงชื่อเข้าใช้ Power BI บนอุปกรณ์เคลื่อนที่ของคุณ คุณจะเห็นจุดสีเหลืองบนปุ่มนำทางส่วนกลางที่เรียกว่า![จุดแจ้งเตือน](./media/mobile-apps-notification-center/power-bi-android-menu-notifications-icon.png) (Android) หรือบนไอคอน**การแจ้งเตือน** 
-   
-   ![จุดการแจ้งเตือน](./media/mobile-apps-notification-center/power-bi-windows-10-notifications.png)
-3. เลือกไอคอนการแจ้งเตือน ![ไอคอนการแจ้งเตือน](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10)
+2. ถ้าคุณได้รับการแจ้งเตือนแล้ว เมื่อคุณลงชื่อเข้าใช้ Power BI บนอุปกรณ์เคลื่อนที่ของคุณ คุณจะเห็นจุดสีเหลืองบนไอคอนระฆังการแจ้งเตือน ![ระฆังการแจ้งเตือน](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS และ Android) หรือบนปุ่มนำทางสากล ![จุดการแจ้งเตือน](./media/mobile-apps-notification-center/power-bi-iphone-alert-global-nav-button.png) (อุปกรณ์ Windows 10) 
+
+3. หากต้องการดูการแจ้งเตือนในศูนย์การแจ้งเตือน ให้แตะระฆังการแจ้งเตือน ![ระฆังการแจ้งเตือน](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS และ Android) หรือไอคอนศูนย์การแจ้งเตือน ![ไอคอนการแจ้งเตือน](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (อุปกรณ์ Windows 10)
    
     การแจ้งเตือนจะแสดงรายการล่าสุดที่ด้านบนสุด รวมถึงไฮไลท์ข้อความที่ยังไม่ได้อ่าน การแจ้งเตือนจะถูกเก็บไว้เป็น 90 วัน เว้นแต่ว่าคุณลบทิ้งเร็วกว่านั้น หรือเมื่อถึงขีดจำกัดสูงสุดที่ 100 การแจ้งเตือน
    
    ![รายการการแจ้งเตือน iOS](./media/mobile-apps-notification-center/power-bi-iphone-notifications-list.png)
-4. เมื่อต้องละเว้นการแจ้งเตือน แตะ และกดค้างไว้ และเลือก**ยกเลิก**
+4. หากต้องการยกเลิกการแจ้งเตือนบนอุปกรณ์ iOS และ Android ให้แตะค้างไว้แล้วปัดนิ้ว บนอุปกรณ์ Windows 10 ให้คลิกขวาและเลือก **ปิดเสียงเตือน**
 
 ## <a name="change-or-turn-off-notifications-on-your-mobile-device"></a>เปลี่ยน หรือปิดการแจ้งเตือนบนอุปกรณ์เคลื่อนที่ของคุณ
 คุณสามารถเปลี่ยนวิธีที่ Power BI แจ้งเตือนคุณได้
 
 1. บนอุปกรณ์ iOS ไปที่**ตั้งค่า** > **การแจ้งเตือน** 
    
-    บนโทรศัพท์ Android ไปที่**ตั้งค่าการแจ้งเตือน**
+    บนโทรศัพท์ Android ไปที่ **ตั้งค่า** > **การแจ้งเตือน**
    
     บนอุปกรณ์ Windows ใน**ตั้งค่า**ไปยัง**ระบบ** > **การแจ้งเตือนและการดำเนินการ**
 2. ในรายการแอป เลือก**Power BI** 

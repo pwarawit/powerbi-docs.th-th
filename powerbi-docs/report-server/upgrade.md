@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
 ms.openlocfilehash: eac019bc31396359b7520e057f2384adce386a96
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73873959"
 ---
 # <a name="upgrade-power-bi-report-server"></a>อัปเกรด Power BI Report Server
@@ -24,7 +24,7 @@ ms.locfileid: "73873959"
 
 เมื่อต้องการดาวน์โหลด Power BI Report Server และ Power BI Desktop ซึ่งปรับให้เหมาะสมที่สุดกับ Power BI Report Server ไปที่ [การรายงานภายในองค์กรกับ Power BI Report Server](https://powerbi.microsoft.com/report-server/)
 
-## <a name="before-you-begin"></a>ก่อนเริ่มต้น
+## <a name="before-you-begin"></a>ก่อนที่คุณเริ่มต้น
 
 ก่อนอัปเกรดเซิร์ฟเวอร์รายงาน ขอแนะนำให้คุณดำเนินการขั้นตอนต่อไปนี้เมื่อต้องสำรองข้อมูลเซิร์ฟเวอร์รายงานของคุณ
 
