@@ -1,6 +1,6 @@
 ---
-title: 'บทช่วยสอน: เรียกแบบจำลอง Machine Learning Studio ใน Power BI (ตัวอย่าง)'
-description: ในบทช่วยสอนนี้ คุณจะได้เรียกแบบจำลอง Machine Learning Studio ใน Power BI
+title: 'บทช่วยสอน: เรียกใช้แบบจำลอง Machine Learning Studio (คลาสสิก) ใน Power BI (ตัวอย่าง)'
+description: ในบทช่วยสอนนี้ คุณจะได้เรียกแบบจำลอง Machine Learning Studio (คลาสสิค) ใน Power BI
 author: davidiseminger
 ms.reviewer: SarinaJoan
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3a7d4fa73caa718cec905d8f511ae94b077f7e2b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876963"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224249"
 ---
-# <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>บทช่วยสอน: เรียกแบบจำลอง Machine Learning Studio ใน Power BI (ตัวอย่าง)
+# <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>บทช่วยสอน: เรียกใช้แบบจำลอง Machine Learning Studio (คลาสสิก) ใน Power BI (ตัวอย่าง)
 
-ในบทช่วยสอนนี้ เราแนะนำผ่านประสบการณ์การรวมข้อมูลเชิงลึกจากแบบจำลอง **Azure Machine Learning Studio** ลงใน Power BI บทช่วยสอนนี้มีคำแนะนำสำหรับการให้สิทธิ์เข้าถึงแก่ผู้ใช้ Power BI ไปยังแบบจำลอง Azure ML การสร้างกระแสข้อมูล และการใช้ข้อมูลเชิงลึกจากแบบจำลอง Azure ML ไปยังกระแสข้อมูลของคุณ นอกจากนี้ยังอ้างอิงถึงคู่มือเริ่มต้นด่วนสำหรับการสร้างแบบจำลอง Azure ML กรณีที่คุณไม่มีแบบจำลองอีกด้วย
+ในบทช่วยสอนนี้ เราแนะนำผ่านประสบการณ์การรวมข้อมูลเชิงลึกจากแบบจำลอง **Azure Machine Learning Studio(คลาสสิก)** ลงใน Power BI บทช่วยสอนนี้มีคำแนะนำสำหรับการให้สิทธิ์เข้าถึงแก่ผู้ใช้ Power BI ไปยังแบบจำลอง Azure ML การสร้างกระแสข้อมูล และการใช้ข้อมูลเชิงลึกจากแบบจำลอง Azure ML ไปยังกระแสข้อมูลของคุณ นอกจากนี้ยังอ้างอิงถึงคู่มือเริ่มต้นด่วนสำหรับการสร้างแบบจำลอง Azure ML กรณีที่คุณไม่มีแบบจำลองอีกด้วย
 
 บทช่วยสอนจะแนะนำคุณผ่านขั้นตอนดังต่อไปนี้:
 
@@ -31,21 +31,21 @@ ms.locfileid: "73876963"
 
 ## <a name="create-and-publish-an-azure-ml-model"></a>สร้างและเผยแพร่แบบจำลอง Azure ML
 
-ทำตามคำแนะนำได้ที่ [คำแนะนำขั้นตอนที่ 1: สร้างพื้นที่ทำงาน Machine Learning Studio](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace) เพื่อสร้างพื้นที่ทำงาน **Machine Learning**
+ทำตามคำแนะนำได้ที่ [คำแนะนำขั้นตอนที่ 1: สร้างพื้นที่ทำงาน Machine Learning Studio (คลาสสิก)](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace) เพื่อสร้างพื้นที่ทำงาน **Machine Learning**
 
-คุณสามารถใช้ขั้นตอนเหล่านี้กับแบบจำลอง Azure ML  หรือชุดข้อมูลใดๆ ที่คุณมีอยู่แล้ว หากคุณไม่มีแบบจำลองที่เผยแพร่ คุณสามารถสร้างแบบจำลองได้ในไม่กี่นาที โดยอ้างอิง [สร้างการทดลองทางวิทยาศาสตร์ข้อมูลแรกของคุณใน Azure Machine Learning Studio](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment) ซึ่งตั้งค่าแบบจำลอง Azure ML สำหรับการคาดคะเนราคายนต์
+คุณสามารถใช้ขั้นตอนเหล่านี้กับแบบจำลอง Azure ML  หรือชุดข้อมูลใดๆ ที่คุณมีอยู่แล้ว หากคุณไม่มีแบบจำลองที่เผยแพร่ คุณสามารถสร้างแบบจำลองได้ในไม่กี่นาที โดยอ้างอิง [สร้างการทดลองทางวิทยาศาสตร์ข้อมูลแรกของคุณใน Azure Machine Learning Studio (คลาสสิก)](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment) ซึ่งตั้งค่าแบบจำลอง Azure ML สำหรับการคาดคะเนราคายนต์
 
-ทำตามขั้นตอนได้ที่ [ปรับใช้บริการบนเว็บ Azure Machine Learning Studio](https://docs.microsoft.com/azure/machine-learning/studio/publish-a-machine-learning-web-service) เพื่อเผยแพร่แบบจำลอง Azure ML เป็นบริการบนเว็บ
+ทำตามขั้นตอนได้ที่ [ปรับใช้บริการบนเว็บ Azure Machine Learning Studio (คลาสสิก)](https://docs.microsoft.com/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy) เพื่อเผยแพร่แบบจำลอง Azure ML เป็นบริการบนเว็บ
 
 ## <a name="grant-a-power-bi-user-access"></a>ให้สิทธิ์การเข้าถึงแก่ผู้ใช้ Power BI
 
-เมื่อต้องการเข้าถึงแบบจำลอง Azure ML จาก Power BI คุณต้องมีการสมัครใช้งาน Azure ที่มีการเข้าถึงแบบ **อ่าน** และกลุ่มทรัพยากร รวมถึงการเข้าถึงแบบ **อ่าน** ไปยังบริการบนเว็บ Azure สำหรับแบบจำลอง Machine Learning Studio  สำหรับแบบจำลองบริการ Azure Machine Learning คุณจำเป็นต้องมีการเข้าถึงแบบ **อ่าน** สำหรับพื้นที่ทำงานบริการ Machine Learning
+เมื่อต้องการเข้าถึงแบบจำลอง Azure ML จาก Power BI คุณต้องมีการสมัครใช้งาน Azure ที่มีการเข้าถึงแบบ **อ่าน** และกลุ่มทรัพยากร รวมถึงการเข้าถึงแบบ **อ่าน** ไปยังบริการบนเว็บ Azure Machine Learning Studio (คลาสสิก) สำหรับแบบจำลอง Machine Learning Studio (คลาสสิก)  สำหรับแบบจำลอง Azure Machine Learning คุณจำเป็นต้องมีการเข้าถึงแบบ **อ่าน** สำหรับพื้นที่ทำงานบริการ Machine Learning
 
 ขั้นตอนต่อไปนี้จะสมมุติว่าคุณเป็นผู้ดูแลร่วมของการสมัครใช้งาน Azure และกลุ่มทรัพยากรที่เผยแพร่แบบจำลอง
 
 ลงชื่อเข้าใช้ [พอร์ทัล Azure](https://portal.azure.com) และนำทางไปยังหน้า **การสมัครใช้งาน** ที่สามารถพบได้โดยใช้รายการ **บริการทั้งหมด** ในบานหน้าต่างเมนูนำทาง
 
-![พอร์ทัล Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
+![พอร์ทัล Microsoft Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
 เลือกการสมัครใช้งาน Azure ที่คุณใช้สำหรับการเผยแพร่แบบจำลอง และเลือก **ควบคุมการเข้าถึง (IAM)** จากนั้นเลือก **เพิ่มการกำหนดบทบาท** แล้วเลือบทบาทกการ **อ่าน** จากนั้นเลือกผู้ใช้ Power BI เลือก **บันทึก** เมื่อเสร็จสิ้น รูปภาพต่อไปนี้จะแสดงการเลือก
 
@@ -59,9 +59,9 @@ ms.locfileid: "73876963"
 
 ลงชื่อเข้าใช้บริการของ Power BI ด้วยข้อมูลประจำตัวผู้ใช้ที่คุณให้สิทธิ์การเข้าถึงแบบจำลอง Azure ML ในขั้นตอนก่อนหน้านี้
 
-ขั้นตอนนี้จะสมมุติว่าคุณมีข้อมูลที่ต้องการให้คะแนนด้วยแบบจำลอง Azure ML ของคุณในรูปแบบ CSV  หากคุณใช้ **การทดลองการกำหนดราคารถยนต์** เพื่อสร้างแบบจำลองใน Machine Learning Studio ชุดข้อมูลจะได้รับการแชร์ในลิงก์ดังต่อไปนี้:
+ขั้นตอนนี้จะสมมุติว่าคุณมีข้อมูลที่ต้องการให้คะแนนด้วยแบบจำลอง Azure ML ของคุณในรูปแบบ CSV  หากคุณใช้ **การทดลองการกำหนดราคารถยนต์** เพื่อสร้างแบบจำลองใน Machine Learning Studio (คลาสสิค) ชุดข้อมูลจะได้รับการแชร์ในลิงก์ดังต่อไปนี้:
 
-* [แบบจำลองตัวอย่าง Azure Learning Studio](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
+* [แบบจำลองตัวอย่าง Azure Learning Studio (คลาสสิค)](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
 
 ### <a name="create-a-dataflow"></a>สร้างกระแสข้อมูล
 
@@ -95,7 +95,7 @@ ms.locfileid: "73876963"
 
 ตัวแก้ไข Power Query จะแสดงตัวอย่างของข้อมูลจากไฟล์ CSV เลือก **แปลงข้อมูลตาราง** จาก Ribbon คำสั่ง จากนั้นเลือก **ใช้แถวแรกเป็นส่วนหัว**  ซึ่งจะเพิ่มขั้นตอนคิวรี _ส่วนหัวที่เลื่อนระดับ_ ลงในบานหน้าต่าง **ใช้ขั้นตอน** ทางด้านขวา นอกจากนี้คุณยังสามารถเปลี่ยนชื่อคิวรีให้เป็นชื่อที่เข้าใจง่าย เช่น _การกำหนดราคารถยนต์_ โดยใช้บานหน้าต่างทางด้านขวาได้
 
-![พอร์ทัล Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
+![พอร์ทัล Microsoft Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
 ชุดข้อมูลแหล่งของเราตั้งค่าที่ไม่รู้จักเป็น '?'  หากต้องการแก้ไข เราสามารถแทนที่ '?' ด้วย '0' เพื่อหลีกเลี่ยงข้อผิดพลาดภายหลังเพื่อความสะดวกได้  คุณสามารถทำได้โดยเลือกคอลัมน์ *ค่าสินไหมทดแทนมาตรฐาน* *กระบอกสูบ* *ระยะชัก* *อัตราส่วนการอัด* *แรงม้า* *รอบต่อนาทีสูงสุด* และ *ราคา* โดยคลิกที่ชื่อในส่วนหัวของคอลัมน์ จากนั้นคลิกที่ 'แปลงข้อมูลคอลัมน์' แล้วเลือก 'แทนค่า'  แทนที่ '?' ด้วย '0'
 
@@ -167,13 +167,13 @@ ms.locfileid: "73876963"
 
 เมื่อบันทึกกระแสข้อมูลของคุณแล้ว ระบบจะเรียกแบบจำลอง Azure ML โดยอัตโนมัติเมื่อรีเฟรชกระแสข้อมูลสำหรับแถวใหม่หรือแถวที่ได้รับการอัปเดตใดๆ ในตารางเอนทิตีเสร็จสิ้น
 
-## <a name="clean-up-resources"></a>เพิ่มพื้นที่ทรัพยากร
+## <a name="clean-up-resources"></a>ล้างแหล่งข้อมูล
 
 หากคุณไม่ต้องการทรัพยากร Azure ที่สร้างขึ้นโดยใช้บทความนี้อีกต่อไป ให้ลบออกเพื่อหลีกเลี่ยงการเกิดค่าธรรมเนียม  นอกจากนี้คุณยังสามารถลบกระแสข้อมูลที่สร้างไว้หากไม่ต้องการใช้แล้วได้ด้วยเช่นกัน
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-ในบทช่วยสอนนี้ คุณจะสร้างการทดลองอย่างง่ายโดยใช้ Azure Machine Learning Studio ที่ใช้ชุดข้อมูลอย่างง่ายโดยทำตามขั้นตอนเหล่านี้:
+ในบทช่วยสอนนี้ คุณจะสร้างการทดลองอย่างง่ายโดยใช้ Azure Machine Learning Studio (คลาสสิค) ที่ใช้ชุดข้อมูลอย่างง่ายโดยทำตามขั้นตอนเหล่านี้:
 
 - สร้างและเผยแพร่แบบจำลอง Azure Machine Learning
 - ให้สิทธิ์เข้าถึงแก่ผู้ใช้ Power BI เพื่อใช้แบบจำลอง

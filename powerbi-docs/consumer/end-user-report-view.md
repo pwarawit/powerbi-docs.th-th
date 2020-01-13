@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 12/10/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6e64ab2730b73339d6d22ba356cce6e644af52c5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48efc58c7428961b70fb31a96f404139a75a1ac3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861846"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217922"
 ---
 # <a name="change-the-display-of-a-report-page"></a>เปลี่ยนการแสดงหน้ารายงาน
 
@@ -52,6 +52,26 @@ ms.locfileid: "73861846"
     ![รายงานจะแสดงเต็มหน้าจอ](media/end-user-report-view/power-bi-full-screen.png)
 
 เมื่อคุณออกจากรายงาน การตั้งค่า**มุมมอง**ของคุณจะไม่ถูกบันทึก แต่แปลงกลับเป็นค่าเริ่มต้น ถ้าเป็นสิ่งสำคัญสำหรับคุณในการบันทึกการตั้งค่าเหล่านี้ ให้ใช้[บุ๊กมาร์ก](end-user-bookmarks.md)
+
+## <a name="use-your-browser-to-change-page-display"></a>ใช้เบราว์เซอร์ของคุณเพื่อเปลี่ยนการแสดงหน้าเพจ
+
+ตัวควบคุมการย่อ/ขยายในเบราว์เซอร์ของคุณเพิ่มและลดพื้นที่พื้นที่ทำงานที่มีอยู่ การลดการย่อ/ขยายทำให้พื้นที่ทำงานเพิ่มขึ้นเพื่อขยายและในทางกลับกัน 
+
+![วิดีโอสั้นแสดงตัวควบคุมการย่อ/ขยายของเบราว์เซอร์](media/end-user-report-view/power-bi-zoom.png)
+
+การเปลี่ยนแปลงขนาดของเบราว์เซอร์ของคุณเป็นอีกหนึ่งวิธีการเปลี่ยนแปลงขนาดการแสดงผลรายงานของคุณ 
+
+![วิดีโอสั้นแสดงการเปลี่ยนแปลงขนาดเบราว์เซอร์](media/end-user-report-view/power-bi-resize-browser.gif)
+
+## <a name="zoom-in-on-a-visual"></a>ขยายการแสดงผลด้วยภาพ
+บางครั้งก็ยากที่จะเห็นรายละเอียดการแสดงผลด้วยภาพ คุณสามารถทำให้การแสดงผลใหญ่ขึ้นด้วยตนเอง สำหรับข้อมูลเพิ่มเติมดูโหมดโฟกัส ศึกษา [โหมดโฟกัสและโหมดเต็มหน้าจอ](end-user-focus.md)
+
+### <a name="a-visual-in-focus-mode"></a>การแสดงผลในโหมด*โฟกัส*
+
+![ภาพถ่ายหน้าจอของการแสดงผลในโหมดโฟกัส](media/end-user-report-view/power-bi-focus.png)
+
+### <a name="a-visual-in-full-screen-mode"></a>การแสดงผลในโหมด*เต็มหน้าจอ*
+![ภาพถ่ายหน้าจอการแสดงผลในโหมดเต็มหน้าจอ](media/end-user-report-view/power-bi-full-screen.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

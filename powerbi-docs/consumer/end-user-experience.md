@@ -12,10 +12,10 @@ ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73851531"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>เริ่มต้นใช้งานด่วน - ทำความรู้จักบริการของ Power BI
@@ -91,7 +91,7 @@ ms.locfileid: "73851531"
    
    ![ทำเครื่องหมายให้เป็นรายการโปรด](./media/end-user-experience/power-bi-report-favorite.png)
 
-3. เปิด *บานหน้าต่าง* **รายการโปรด** โดยเลือก **รายการโปรด** จากบานหน้าต่างนำทาง หรือโดยเลือกไอคอนรูปดาว ![ภาพหน้าจอแสดงไอคอนรูปดาวสีเหลือง](media/end-user-experience/powerbi-star-icon.png)
+3. เปิด *หน้าต่าง***รายการโปรด** โดยเลือก **รายการโปรด** จากหน้าต่างนำทาง หรือโดยเลือกไอคอนรูปดาว ![ภาพถ่ายหน้าจอแสดงไอคอนรูปดาวสีเหลือง](media/end-user-experience/powerbi-star-icon.png)
    
    ![เปิดหน้าจอรายการโปรด](./media/end-user-experience/power-bi-favorite-pane.png)
    
@@ -133,7 +133,7 @@ ms.locfileid: "73851531"
 
 เมื่อต้องการเรียนรู้เพิ่มเติม ให้ดู [การนำทางใน Power BI: ค้นหาและจัดเรียง](end-user-search-sort.md)
 
-## <a name="clean-up-resources"></a>เพิ่มพื้นที่ทรัพยากร
+## <a name="clean-up-resources"></a>ล้างแหล่งข้อมูล
 หลังจากที่คุณเสร็จการเริ่มต้นด่วนนี้ คุณสามารถลบแดชบอร์ด, รายงาน และชุดข้อมูลตัวอย่างการวิเคราะห์ด้านการขายปลีก ถ้าคุณต้องการ
 
 1. เปิดบริการ Power BI (app.powerbi.com) และลงชื่อเข้าใช้    

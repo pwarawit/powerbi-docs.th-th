@@ -8,16 +8,16 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: a517ee4edce6e18eadcbe2b1b6765684f8121b21
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: ccc7e3864590145309709d27774951c281b3ebdd
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199438"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622351"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>กำหนดค่าแอป Power BI โดยใช้เครื่องมือจัดการอุปกรณ์เคลื่อนที่  MDM) จากระยะไกล
 
-แอป Power BI บนมือถือสำหรับ iOS และ Android จะสนับสนุนการตั้งค่าแอปที่จะช่วยให้ผู้ดูแลระบบ Office 365 และการจัดการอุปกรณ์เคลื่อนที่ ( MDM) เช่น Intune เพื่อกำหนดลักษณะการทำงานของแอปเอง
+แอป Power BI บนมือถือสำหรับ iOS และ Android จะสนับสนุนการตั้งค่าแอปที่จะช่วยให้ผู้ดูแลระบบ Office 365 และการจัดการอุปกรณ์เคลื่อนที่ (MDM) เช่น Intune เพื่อกำหนดลักษณะการทำงานของแอปเอง
 
 แอป Power BI บนมือถือจะสนับสนุนสถานการณ์การกำหนดค่าดังต่อไปนี้:
 
@@ -57,5 +57,5 @@ ms.locfileid: "74199438"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 * ดาวน์โหลดแอป Power BI สำหรับอุปกรณ์เคลื่อนที่จาก [App store](https://apps.apple.com/app/microsoft-power-bi/id929738808) และ [Google play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409)
-* ติดตาม[ @MSPowerBIบน Twitter](https://twitter.com/MSPowerBI)
+* ติดตาม[@MSPowerBIบน Twitter](https://twitter.com/MSPowerBI)
 * เข้าร่วมการสนทนาที่[ชุมชน Power BI](https://community.powerbi.com/)

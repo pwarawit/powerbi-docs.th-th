@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 49615e1b6c205d9b894df0bcca7ef4979f153ba7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f5fa262c01767ba934a10300e321796845d47c5f
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872122"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223810"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>การเรียนรู้ของเครื่องอัตโนมัติใน Power BI
 
@@ -32,7 +32,7 @@ AutoML ใน Power BI ช่วยนักวิเคราะห์ข้อ
 
 AutoML สนับสนุนการสร้างแบบจำลอง **การทำนายแบบไบนารี** **การจำแนกประเภท** และ **การถดถอย** สำหรับกระแสข้อมูล แบบจำลองเหล่านี้เป็นประเภทของเทคนิคการเรียนรู้ของเครื่องแบบมีผู้สอน ซึ่งหมายความว่าแบบจำลองได้เรียนรู้จากผลลัพธ์ที่ทราบในการสังเกตการณ์ที่ผ่านมาเพื่อทำนายผลลัพธ์ของการสังเกตการณ์อื่นๆ ชุดข้อมูลป้อนเข้าสำหรับการฝึกแบบจำลอง AutoML คือชุดของระเบียนที่มี**ป้ายชื่อ**ที่มีผลลัพธ์ที่ทราบ
 
-AutoML ใน Power BI รวม [MLอัตโนมัติ](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml)จาก[Azure Machine Learning service](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)เพื่อสร้างรูปแบบ ML ของคุณ อย่างไรก็ตามคุณไม่จำเป็นต้องมีการสมัครใช้งาน Azure เพื่อให้ AutoML ใน Power BI กระบวนการของการฝึกและโฮสต์รูปแบบ ML ได้รับการจัดการทั้งหมดโดยบริการของ Power BI
+AutoML ใน Power BI รวม [ML อัตโนมัติ](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml)จาก[Azure Machine Learning service](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)เพื่อสร้างรูปแบบ ML ของคุณ อย่างไรก็ตามคุณไม่จำเป็นต้องมีการสมัครใช้งาน Azure เพื่อให้ AutoML ใน Power BI กระบวนการของการฝึกและโฮสต์รูปแบบ ML ได้รับการจัดการทั้งหมดโดยบริการของ Power BI
 
 หลังจากแบบจำลอง ML ได้รับการฝึก AutoML ให้สร้างรายงาน Power BI โดยอัตโนมัติที่อธิบายประสิทธิภาพการทำงานของรูปแบบ ML ของคุณ AutoML ให้ความสำคัญกับความสามารถในการอธิบายโดยการเน้นที่ปัจจัยหลักที่มีอิทธิพลในอินพุทของคุณที่มีผลต่อการทำนายที่ส่งคืนจากแบบจำลองของคุณ รายงานยังรวมถึงเมตริกหลักสำหรับแบบจำลองด้วย
 
@@ -282,7 +282,7 @@ AutoML สร้างรายงาน Power BI ที่สรุปประ
 
 - [บทช่วยสอน: สร้างแบบจำลองการเรียนรู้ของเครื่องใน Power BI](service-tutorial-build-machine-learning-model.md)
 - [บทช่วยสอน: การใช้ Cognitive Services ใน Power BI](service-tutorial-use-cognitive-services.md)
-- [บทช่วยสอน: เรียกใช้แบบจำลอง Machine Learning Studio ใน Power BI (ตัวอย่าง)](service-tutorial-invoke-machine-learning-model.md)
+- [บทช่วยสอน: เรียกใช้แบบจำลอง Machine Learning Studio (คลาสสิก) ใน Power BI (ตัวอย่าง)](service-tutorial-invoke-machine-learning-model.md)
 - [Cognitive Services ใน Power BI](service-cognitive-services.md)
 - [การรวม Azure Machine Learning ใน Power BI](service-machine-learning-integration.md)
 

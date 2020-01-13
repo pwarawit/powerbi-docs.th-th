@@ -1,103 +1,107 @@
 ---
 title: มีอะไรใหม่ในการอัปเดต Power BI Desktop ล่าสุด
-description: มีอะไรใหม่ในการอัปเดต Power BI Desktop ล่าสุด
+description: บทความนี้อธิบายรายละเอียดการอัปเดตประจำเดือนล่าสุดสำหรับ Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 101c735ab48c2596d2cd24ebef56bc4e0c4cad54
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 75b3c370e6b17c5a5a4937da6db989f814a0ebd9
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009937"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221999"
 ---
-# <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>มีอะไรใหม่ในการอัปเดต Power BI Desktop ล่าสุด 
+# <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>มีอะไรใหม่ในการอัปเดต Power BI Desktop ล่าสุด
 
 
-## <a name="november-2019-update-2755649341"></a>อัปเดตเดือนพฤศจิกายน 2019 (2.75.5649.341)
+## <a name="december-2019-update-2765678661"></a>การอัปเดตประจำเดือนธันวาคม 2019 (2.76.5678.661)
 
-เรารู้สึกตื่นเต้นเกี่ยวกับการอัปเดตประจำเดือนพฤศจิกายนซึ่งเป็นการต้อนรับในฐานะการชุมนุมครอบครัวที่มีความสุข 
+การอัปเดตประจำเดือนธันวาคมของเราเป็นเรื่องสนุกเท่า ๆ กับการนั่งเลื่อนเนินเขาที่ปกคลุมด้วยหิมะ 
 
-ตอนนี้คุณสามารถ [ดาวน์โหลด Power BI Desktop รุ่นล่าสุด](https://powerbi.microsoft.com/desktop), ส่งเป็นไฟล์ .exe ไฟล์เดียวที่มีภาษาที่รองรับทั้งหมด ถ้าคุณกำลังใช้งาน Windows 10 คุณยังสามารถรับ **Power BI Desktop** ได้จาก Windows Store เวอร์ชันรายเดือนจะเหมือนกันแม้ว่าหมายเลขเวอร์ชันอาจแตกต่างกัน โดยไม่คำนึงถึงวิธีการที่คุณติดตั้ง**Power BI Desktop** ดู[บทความนี้](desktop-get-the-desktop.md)สำหรับข้อมูลเพิ่มเติม 
+สามารถรับเวอร์ชันล่าสุดของ Power BI Desktop จาก[ศูนย์ดาวน์โหลด](https://www.microsoft.com/download/details.aspx?id=58494) ถ้าคุณกำลังใช้งาน Windows 10 คุณสามารถรับ Power BI Desktop ได้จาก Windows Store ใน Windows 10 เวอร์ชันรายเดือนจะเหมือนกันแม้ว่าหมายเลขเวอร์ชันอาจแตกต่างกัน โดยไม่คำนึงถึงวิธีการที่คุณติดตั้ง Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการดาวน์โหลดและติดตั้ง Power BI Desktop ดู [Get Power BI Desktop](desktop-get-the-desktop.md) 
 
 > [!IMPORTANT]
-> เริ่มตั้งแต่รุ่น 2019 กันยายน Power BI Desktop จะวางจำหน่ายเป็นไฟล์. exe เดียวที่มีภาษาที่รองรับทั้งหมด ไม่มีการเผยแพร่เวอร์ชัน .msi อีกต่อไป
+> เริ่มต้นด้วยการปล่อยออกมาในกันยายน 2019 Power BI Desktop มาพร้อมกับแพคเกจการติดตั้ง .exe เดียวที่มีภาษาที่รองรับทั้งหมด ไม่มีการเผยแพร่เวอร์ชัน .msi อีกต่อไป
 
 
-ลิงก์ที่อยู่ข้างแต่ละอัปเดต มีความหมายดังนี้:
+ลิงก์ที่อยู่ข้าง ๆ แต่ละคุณลักษณะในรายการอัปเดต Power BI Desktop จะถูกแปลเป็นดังนี้:
 
-* **[วิดีโอ]** เล่นวิดีโอในแท็บเบราว์เซอร์ใหม่ ตรงจุดที่กำลังพูดถึงคุณลักษณะดังกล่าว
-* บางคุณลักษณะก็มี **[บทความ]** ที่ให้รายละเอียดเพิ่มเติม
-* คุณลักษณะส่วนใหญ่จะอธิบายไว้ใน **[บล็อก]** โพสต์ ที่อัปเดตรายเดือน
-* สุดท้าย คุณลักษณะบางอย่างก็อธิบายได้ด้วยตัวเอง ไม่จำเป็นต้องมีบทความ หรือวิดีโอ
+* [blog]: Most features are explained in a section in the monthly update blog post.
+* [video]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
+* [article]: Some features have an article that provides more detail.
+* คุณลักษณะบางอย่างจะอธิบายในตัวเองและไม่จำเป็นต้องมีบทความหรือวิดีโอ
 
-คุณยังสามารถดูวิดีโอ**อัปเดตล่าสุด**เริ่มตั้งแต่แรก จากภายในบทความนี้เลย โดยคลิกที่ไอคอน**เล่น**บนรูปภาพวิดีโอที่อยู่ด้านล่างรายการการอัปเดตได้
+นอกจากนี้คุณยังสามารถดู[การอัปเดตประจำเดือนทั้งหมดของ Power BI Desktop](#power-bi-desktop-monthly-update-video) ได้
 
-การปรับปรุงต่อไปนี้เป็นของใหม่ใน **Power BI Desktop** สำหรับเดือนนี้:
-
-### <a name="user-experience"></a>ประสบการณ์ผู้ใช้
-* ริบบิ้นที่ปรับปรุงแล้ว (ตัวอย่าง) [[video]](https://youtu.be/kVli3Vm_kDo?t=13)  [[article]](desktop-ribbon.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#ribbon) 
+การอัปเดตใหม่ต่อไปนี้จะถูกอัปเดตไปยัง Power BI Desktop ในเดือนนี้:
 
 
 ### <a name="reporting"></a>การรายงาน
-* ภาพต้นไม้กำลังสลาย (ตัวอย่าง) [[video]](https://youtu.be/kVli3Vm_kDo?t=464)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#decompTree) 
+* การอัปเดตธีม[[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=10)[[บทความ]](desktop-report-themes.md#customize-report-themes-preview)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
+* ส่งออกธีมปัจจุบัน (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=242)[[บทความ]](desktop-report-themes.md#customize-report-themes-preview)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
+* ตั้งค่าคอลัมน์ตารางหรือค่าเมทริกซ์เป็น URL ที่กำหนดเอง [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=277)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
+* การตั้งค่าการจัดรูปแบบการแสดงผลด้วยภาพ KPI [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=354)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
+* การจัดรูปแบบการแยกย่อยต้นไม้ใหม่ [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=442)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 
+* ปุ่มสลับหน้าต่างตัวกรองใน ribbon ใหม่ [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=599)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#filterToggle) 
+* รายละเอียดแบบสอบถามรีเฟรชหน้าอัตโนมัติ [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=717)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#APR) 
 
 
 ### <a name="analytics"></a>การวิเคราะห์
-* การจัดรูปแบบปุ่มตามเงื่อนไข [[video]](https://youtu.be/kVli3Vm_kDo?t=834)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#button) 
+* โหลดเพิ่มเติมสำหรับการวิเคราะห์ [ข้อมูลเชิงลึก [วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=831)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#moreAI) 
+* ฟังก์ชัน DAX ใหม่: Quarter [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=855)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#quarter) 
 
 
 ### <a name="visuals"></a>การแสดงผลด้วยภาพ
-* อัปเดต ArcGIS  Maps สำหรับ Power BI [[video]](https://youtu.be/kVli3Vm_kDo?t=1024)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#arcGIS) 
-* ภาพ xViz ใหม่ [[video]](https://youtu.be/kVli3Vm_kDo?t=1071)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#xViz) 
-* ภาพ ZoomCharts Drill-Down Waterfall  [[video]](https://youtu.be/kVli3Vm_kDo?t=1405)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#zoomCharts) 
-* เมทริกซ์การรายงานทางการเงินโดย Profitbase [[video]](https://youtu.be/kVli3Vm_kDo?t=1575)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#financialReporting) 
-* การกระจาย [[video]](https://youtu.be/kVli3Vm_kDo?t=1661)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#distribution) 
-* ต้นไม้ [[video]](https://youtu.be/kVli3Vm_kDo?t=1733)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#tree) 
-
+* การปรับแต่งหน้าต่างวิชวล (ความพร้อมใช้งานโดยทั่วไป) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=865)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#personalizeViz) 
+* วิชวลแบบกำหนดเองใหม่ [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=886)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
 
 
 ### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
-* ตัวเชื่อมต่อ LinkedIn Sales Navigator [[video]](https://youtu.be/kVli3Vm_kDo?t=1808)  [[article]](desktop-connect-linkedin-sales-navigator.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#linkedInSalesNavigator) 
-* แก้ไขการทำงานของตัวแปร SAP (ความพร้อมใช้งานทั่วไป) [[video]](https://youtu.be/kVli3Vm_kDo?t=1839)  [[article]](service-edit-sap-variables.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#sapVariables) 
-* ตัวเชื่อมต่อ Product Insights [[video]](https://youtu.be/A8A9baUQsXQ?t=830)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#productInsights) 
+* ตัวเชื่อมต่อ Azure Data Lake Storage รุ่น 2 (ความพร้อมใช้งานโดยทั่วไป) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2151)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/) 
+* ตัวเชื่อมต่อ Power Platform กระแสข้อมูล (การใช้งานโดยทั่วไป) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2180)[[บทความ]](service-edit-sap-variables.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ADLS) 
+* ขณะนี้ตัวเชื่อมต่อ PostgreSQL มีในผู้ให้บริการ Npgsql [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2220)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#PostgreSQL) 
+* ตัวเชื่อมต่อ AtScale (ความใช้งานโดยทั่วไป) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2245)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AtScale) 
+* ตัวเชื่อมต่อ Azure Time Series Insights [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2261)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ATS) 
+* ตัวเชื่อมต่อเสมือนข้อมูล [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2294)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#DataVirt) 
+* [การเชื่อมต่อ Zucchetti HR Infinity [วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2345)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Zucchetti) 
 
 
-### <a name="data-transformation"></a>การแปลงข้อมูล
-* ฟังก์ชั่น AI ใน Power Query (ดูตัวอย่าง) [[video]](https://youtu.be/kVli3Vm_kDo?t=1976)  [[article]](desktop-ai-insights.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#aiFunctions) 
-* เว็บโดยตัวเชื่อมต่อตัวอย่าง -รองรับการแยกลิงก์ [[video]](https://youtu.be/kVli3Vm_kDo?t=1861)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#webConnector) 
+### <a name="data-preparation"></a>การเตรียมข้อมูล
+* อัปเดตฟังก์ชันข้อมูลเชิงลึกของ AI (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2366)[[บทความ]](desktop-ai-insights.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AIfunc) 
 
 
 ### <a name="template-apps"></a>แอปแม่แบบ
-* LinkedIn Sales Navigator สำหรับฝ่ายขาย  [[video]](https://youtu.be/kVli3Vm_kDo?t=2039)  [[article]](desktop-connect-linkedin-sales-navigator.md#using-the-linkedin-sales-navigator-template-app)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/#linkedInTemplateApp) 
+* Omnichannel insights สำหรับ Dynamics 365 [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2416)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Omni) 
+* การวิเคราะห์บริการลูกค้าสำหรับ Dynamics 365 [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2500)  [[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#CS)
+* Microsoft Forms Pro สำหรับบริการลูกค้า [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2525)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Forms) 
 
 
+สำหรับข้อมูลโดยละเอียดเกี่ยวกับแต่ละคุณลักษณะใหม่เหล่านี้ดู [สรุปคุณลักษณะของ Power BI Desktop เดือนพฤศจิกายน 2019](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/)
 
-> [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
-
-ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2019-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
-
-
-วิดีโอต่อไปนี้อธิบาย และแสดงการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
-
-> [!VIDEO https://www.youtube.com/embed/kVli3Vm_kDo]
+นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
 
 > [!NOTE]
-> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
+> ดูแหล่งข้อมูล [ที่พร้อมใช้งานสำหรับ Power BI Desktop](desktop-data-sources.md) รายการของเรามีการความก้าวหน้าเสมอ โปรดตรวจสอบให้บ่อยครั้ง
+
+
+## <a name="power-bi-desktop-monthly-update-video"></a>วิดีโออัปเดตประจำเดือน Power BI Desktop
+วิดีโอต่อไปนี้อธิบายการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์:
+
+> [!VIDEO https://youtu.be/eCEwgZsVUOs]
+
 
 ## <a name="more-videos"></a>วิดีโอเพิ่มเติม
 
 อยากจะเรียนรู้เกี่ยวกับ Power BI ผ่านวิดีโอและเนื้อหาอื่น ๆ ที่น่าดึงดูดหรือไม่ ลองดูแหล่งวิดีโอและเนื้อหาที่รวบรวมไว้ต่อไปนี้
 
--   [ช่อง Power BI](https://www.youtube.com/user/mspowerbi) - Power BI บน YouTube
+-   [ช่องสัญญาณ Power BI](https://www.youtube.com/user/mspowerbi): คอลเลกชันของวิดีโอ Power BI บน YouTube
 -   [Guided Learning for Power BI](https://powerbi.microsoft.com/guided-learning/) - ทัวร์การเรียนรู้ Power BI เป็นลำดับขั้นตอน และเป็นตอนสั้น ๆ
 
-## <a name="previous-months-updates"></a>ปรับปรุงของเดือนก่อน ๆ
+## <a name="updates-for-previous-months"></a>การปรับปรุงของเดือนก่อน
 
-ต้องการมองหาการปรับปรุงของเดือนก่อน ๆ หรือไม่ คุณสามารถหาได้จากบทความ [ที่เก็บถาวรสำหรับ การปรับปรุงรายเดือนของ Power BI Desktop](desktop-latest-update-archive.md)
+กำลังค้นหาการอัปเด Power BI Desktop สำหรับเดือนก่อนหน้าหรือไม่ คุณสามารถหาได้จาก [ที่เก็บถาวรสำหรับการปรับปรุงรายเดือนของ Power BI Desktop](desktop-latest-update-archive.md)

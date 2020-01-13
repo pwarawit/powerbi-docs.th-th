@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 10c6f9f512c1b8c837842247d9dc928e8e065451
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4178dd37acf12efbe8dd00baed4f6b72ab549841
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876631"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762059"
 ---
-# <a name="using-calculated-columns-in-power-bi-desktop"></a>ใช้คอลัมน์จากการคำนวณใน Power BI Desktop
+# <a name="create-calculated-columns-in-power-bi-desktop"></a>สร้างคอลัมน์จากการคำนวณใน Power BI Desktop
 คุณสามารถใช้คอลัมน์จากการคำนวณเพื่อเพิ่มข้อมูลใหม่ลงในตารางที่มีอยู่แล้วในแบบจำลองของคุณ แต่แทนที่จะทำแบบสอบถามและโหลดค่าลงในคอลัมน์ใหม่ของคุณจากแหล่งข้อมูล คุณสามารถสร้างสูตรนิพจน์การวิเคราะห์ข้อมูล (DAX) ที่กำหนดค่าของคอลัมน์ได้ ใน Power BI Desktop คอลัมน์จากการคำนวณถูกสร้างขึ้นโดยใช้คุณลักษณะคอลัมน์ใหม่ในมุมมองรายงาน
 
 ต่างจากคอลัมน์แบบกำหนดเองที่สร้างขึ้นเป็นส่วนหนึ่งของแบบสอบถามโดยเพิ่มคอลัมน์แบบกำหนดเองในตัวแก้ไขแบบสอบถาม คอลัมน์จากการคำนวณที่สร้างขึ้นในมุมมองรายงานหรือมุมมองข้อมูลจะอิงตามข้อมูลที่คุณได้โหลดลงในแบบจำลองแล้ว ตัวอย่างเช่น คุณอาจเลือกเชื่อมค่าจากคอลัมน์ที่แตกต่างกันสองคอลัมน์ในตารางที่เกี่ยวข้องเข้าด้วยกันในตารางสองตารางที่แตกต่างกันแต่เกี่ยวข้องกัน ดำเนินการบวกเพิ่มหรือแยกสตริงย่อย
@@ -50,7 +50,7 @@ Jeff คลิกขวาที่ตารางภูมิศาสตร์
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
-## <a name="learn-more"></a>ศึกษาเพิ่มเติม
+## <a name="learn-more"></a>เรียนรู้เพิ่มเติม
 ในที่นี้ เราเพียงแค่แนะนำคอลัมน์จากการคำนวณอย่างรวดเร็วเท่านั้น ลองไปดูที่ [บทช่วยสอน: สร้างคอลัมน์จากการคำนวณใน Power BI Desktop](desktop-tutorial-create-calculated-columns.md) ที่คุณสามารถดาวน์โหลดไฟล์ตัวอย่างและได้รับบทเรียนทีละขั้นตอนเกี่ยวกับวิธีการสร้างคอลัมน์เพิ่มเติมแล้ว 
 
 เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ DAX โปรดดูที่ [พื้นฐาน DAX ใน Power BI Desktop](desktop-quickstart-learn-dax-basics.md)

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
-ms.openlocfilehash: ef1608f35b1d038322e1c2aa5a6a3e41f47f8d02
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 01/03/2020
+ms.openlocfilehash: 204e1cdb83c02582e6181cf6addcbfdf8355054d
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873975"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691452"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>การสนับสนุนเบราว์เซอร์สำหรับ Power BI Report Server
 
@@ -30,13 +30,13 @@ Power BI Report Server เผยแพร่เพียงไม่กี่ค
 
 | **เวอร์ชัน** | **วันที่พร้อมใช้งาน** | **วันที่สิ้นสุดการสนับสนุน** |
 | --- | --- | --- |
-| มิถุนายน 2017 |12 มิถุนายน 2017 |ไม่สนับสนุนอีกต่อไป |
+| มิถุนายน ค.ศ. 2017 |12 มิถุนายน 2017 |ไม่สนับสนุนอีกต่อไป |
 | ตุลาคม 2017 |31 ตุลาคม 2017 | ไม่สนับสนุนอีกต่อไป |
 | มีนาคม 2018 | 19 มีนาคม 2018 | ไม่สนับสนุนอีกต่อไป |
 | สิงหาคม 2018 | 15 สิงหาคม 2018 | ไม่สนับสนุนอีกต่อไป |
 | มกราคม 2019 | 23 มกราคม 2019 | 23 มกราคม 2020 |
 | พฤษภาคม 2019 | 22 พฤษภาคม 2019 | 22 พฤษภาคม 2020 |
-| กันยายน 2019 | กันยายน 2020 | กันยายน 2021 
+| กันยายน 2019 | กันยายน 2019 | กันยายน 2020 
 
 เมื่อต้องการดาวน์โหลด Power BI Report Server และ Power BI Desktop ซึ่งปรับให้เหมาะสมที่สุดกับ Power BI Report Server ไปที่ [การรายงานภายในองค์กรกับ Power BI Report Server](https://powerbi.microsoft.com/report-server/)
 
@@ -46,4 +46,4 @@ Power BI Report Server เผยแพร่เพียงไม่กี่ค
 [ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
 [ติดตั้ง Power BI Report Server](install-report-server.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

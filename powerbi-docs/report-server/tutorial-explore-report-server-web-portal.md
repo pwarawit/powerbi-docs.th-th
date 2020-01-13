@@ -9,10 +9,10 @@ ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
 ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73859254"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>บทช่วยสอน: สำรวจพอร์ทัลเว็บ Power BI Report Server ใน VM
@@ -206,7 +206,7 @@ ms.locfileid: "73859254"
 
     คุณสามารถเปลี่ยนพารามิเตอร์ได้ที่นี่พร้อมกับพารามิเตอร์อื่น ๆ โดยไม่ต้องเปลี่ยนค่าเริ่มต้น
 
-1. เลือก**คำสั่งซื้อ** **SO48339** > **ดูรายงาน**
+1. เลือก **คำสั่ง** **SO48339** > **ดูรายงาน**
 
 4. คุณจะเห็นว่านี่คือหน้า 1 จาก 2 หน้า เลือกลูกศรขวาเพื่อดูหน้าที่สอง ตารางมีต่อไปยังหน้านั้น
 
@@ -244,7 +244,7 @@ ms.locfileid: "73859254"
 
 1. เลือก**เรียกดู** เพื่อกลับไปยังพอร์ทัลเว็บ
 
-## <a name="clean-up-resources"></a>เพิ่มพื้นที่ทรัพยากร
+## <a name="clean-up-resources"></a>ล้างแหล่งข้อมูล
 
 ตอนนี้คุณได้เรียนรู้บทช่วยสอนนี้เสร็จสิ้นแล้ว ลบกลุ่มทรัพยากร เครื่องเสมือน และแหล่งข้อมูลทั้งหมดที่เกี่ยวข้อง 
 

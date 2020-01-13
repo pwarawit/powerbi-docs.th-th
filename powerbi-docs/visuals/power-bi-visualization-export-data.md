@@ -11,14 +11,14 @@ ms.topic: conceptual
 ms.date: 11/13/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b2474cd5cc82e1736790f4a352b216dcc8013a6f
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 5c2f448ff705f00bc443a6a27fa80e1b5164a901
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060456"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757818"
 ---
-# <a name="export-data-from-visualizations"></a>ส่งออกข้อมูลจากการแสดงภาพ
+# <a name="export-the-data-that-was-used-to-create-a-visualization"></a>ส่งออกข้อมูลที่ใช้เพื่อสร้างการแสดงผลข้อมูลด้วยภาพ
 
 ถ้าคุณต้องการดูข้อมูลที่ Power BI ใช้ในการสร้างการแสดงภาพ [คุณสามารถแสดงข้อมูลนั้นใน Power BI](service-reports-show-data.md) คุณยังสามารถส่งออกข้อมูลไปยัง Excel ในฐานะไฟล? *.xlsx*หรือ *.csv*ได้ ตัวเลือกในการส่งออกข้อมูลต้องมีสิทธิ์การใช้งานระดับ Pro หรือ Premium และแก้ไขสิทธิ์ในชุดข้อมูลและรายงาน <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
 
@@ -194,4 +194,4 @@ ms.locfileid: "74060456"
 
 - ผู้ดูแลระบบ Power BI สามารถปิดการส่งออกข้อมูลได้
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

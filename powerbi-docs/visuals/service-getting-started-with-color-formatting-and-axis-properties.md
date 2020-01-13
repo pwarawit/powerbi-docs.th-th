@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a01598bda6520bbf0bf82175ab4256cf7d529e84
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7eded3d17e0db5894bd2f1a03fae49357eb27c69
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880702"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762266"
 ---
-# <a name="getting-started-with-color-formatting-and-axis-properties"></a>เริ่มใช้งานด้วยคุณสมบัติแกนและการจัดรูปแบบสี
+# <a name="get-started-with-color-formatting-and-axis-properties"></a>เริ่มใช้งานด้วยคุณสมบัติแกนและการจัดรูปแบบสี
 ใน**Power BI** คุณก็สามารถเปลี่ยนสีของชุดข้อมูล จุดข้อมูล และแม้แตพื้นหลังของการแสดงภาพได้ คุณยังสามารถเปลี่ยนวิธีการนำเสนอข้อมูลที่แกน X และแกน Y ซึ่งจะช่วยให้คุณสามารถจัดการลักษณะที่ปรากฏของแดชบอร์ดและรายงานของคุณได้อย่างเต็มที่
 
 เมื่อต้องการเริ่มต้นใช้งาน ให้เลือก**รายงาน**จากบานหน้าต่าง **พื้นที่งานของฉัน** จากนั้นในส่วนพื้นที่เมนูด้านบน ให้เลือก**แก้ไขรายงาน**  
@@ -42,7 +42,7 @@ ms.locfileid: "73880702"
 * พื้นที่การลงจุด
 * ชื่อเรื่อง
 * พื้นหลัง
-* ล็อกอัตราส่วนกว้างยาว
+* ล็อกอัตราส่วน
 * เส้นขอบ
 
 > [!NOTE]

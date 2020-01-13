@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 11/04/2019
 ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/22/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74311427"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>บทช่วยสอน: ฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันสำหรับลูกค้าของคุณ (ตัวอย่าง)
@@ -203,7 +203,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 แม้ว่าขั้นตอนในการฝังรายงานที่มีการแบ่งหน้าของคุณอาจทำได้ด้วย [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) แต่ตัวอย่างรหัสที่อธิบายในบทความนี้ถูกสร้างด้วย **.NET SDK**
 
-การฝังรายงานที่มีการแบ่งหน้าของ Power BI สำหรับลูกค้าของคุณภายในแอปพลิเคชันของคุณ คุณจะต้องมี **Azure AD** [องค์ประกอบหลักของบริการ](embed-service-principal.md) และได้รับ [โทเค็นการเข้าถึง Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) สำหรับแอปพลิเคชัน Power BI ของคุณ ก่อนที่คุณจะทำการเรียกใช้ [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/)
+การฝังรายงานที่มีการแบ่งหน้าของ Power BI สำหรับลูกค้าของคุณภายในแอปพลิเคชันของคุณ คุณจะต้องมี **Azure AD**[องค์ประกอบหลักของบริการ](embed-service-principal.md) และได้รับ [โทเค็นการเข้าถึง Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) สำหรับแอปพลิเคชัน Power BI ของคุณ ก่อนที่คุณจะทำการเรียกใช้ [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/)
 
 หากต้องการสร้าง Power BI Client ด้วย **โทเค็นการเข้าถึง** ให้สร้างออบเจ็กต์ไคลเอ็นต์ Power BI ซึ่งช่วยให้คุณสามารถติดต่อกับ [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/) ได้ คุณสร้างวัตถุไคลเอ็นต์ Power BI ได้โดยการคลุม **AccessToken** ด้วยวัตถุ ***Microsoft.Rest.TokenCredentials***
 
@@ -273,4 +273,4 @@ var embedConfig = new EmbedConfig()
 
 ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันสำหรับลูกค้าของคุณ คุณยังสามารถทดลองฝังเนื้อหา Power BI สำหรับองค์กรของคุณ
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

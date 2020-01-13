@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9e006cb14d391b82c7a1f48ba760ad9c363062c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 61af482ca5a035325a6c3f6c5a661aa8c3fc0985
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878484"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761599"
 ---
-# <a name="connect-to-data-in-power-bi-desktop"></a>เชื่อมต่อกับข้อมูลใน Power BI Desktop
+# <a name="connect-to-data-sources-in-power-bi-desktop"></a>เชื่อมต่อกับแหล่งข้อมูลใน Power BI Desktop
 ด้วย Power BI Desktop คุณสามารถเชื่อมต่อไปทั่วโลกแห่งข้อมูลที่กำลังขยายตัวได้อย่างง่ายดาย ถ้าคุณไม่มี Power BI Desktop คุณสามารถ[ดาวน์โหลด](https://go.microsoft.com/fwlink/?LinkID=521662)และติดตั้งได้
 
 ใน Power BI Desktop จะมีแหล่งข้อมูลต่าง ๆ *ทุกประเภท*ที่พร้อมใช้งาน รูปต่อไปนี้แสดงวิธีการเชื่อมต่อกับข้อมูล โดยการเลือก**ไฟล์** แถบ ribbon จากนั้น**รับข้อมูล\>เพิ่มเติม**

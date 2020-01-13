@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 4d7f02d9f78eee4cf287e0bb83acb93a7b1b0355
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: f1a1bfc161fe163a4c4680dbcc90e6ad28b80a90
+ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696864"
+ms.lasthandoff: 12/27/2019
+ms.locfileid: "75498484"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>บทช่วยสอน: การเพิ่มตัวเลือกการจัดรูปแบบให้กับวิชวลแบบกำหนดเองของ Power BI
 
@@ -124,10 +124,12 @@ ms.locfileid: "74696864"
 
 8. ในไฟล์ **visual.ts**
 
-    นำเข้า`VisualSettings`คลาส
+    นำเข้า `VisualSettings`, `VisualObjectInstanceEnumeration` และ `EnumerateVisualObjectInstancesOptions`:
 
     ```typescript
     import { VisualSettings } from "./settings";
+    import VisualObjectInstanceEnumeration = powerbi.VisualObjectInstanceEnumeration;
+    import EnumerateVisualObjectInstancesOptions = powerbi.EnumerateVisualObjectInstancesOptions;
     ```
 
     และเพิ่มคุณสมบัติต่อไปนี้ในคลาส **วิชวล**:
@@ -218,23 +220,34 @@ ms.locfileid: "74696864"
 
     *แสดงค่าการวัดที่จัดรูปแบบแล้วภายในวงกลม*
 
-5. อีกทางหนึ่งคือ ในวัตถุ **ผู้เขียน** ให้ใส่รายละเอียดของคุณ
+5. กรอห **supportUrl** และ **gitHubUrl** สำหรับการแสดงผลด้วยภาพ
 
-6. บันทึกไฟล์ **pbiviz.json**
+    ตัวอย่าง:
 
-7. ในวัตถุ **แอสเซท** โปรดสังเกตว่า ส่วนเอกสารจะกำหนดเส้นทางให้กับไอคอน ไอคอนนั้นคือรูปภาพที่ปรากฏในแผง **_การแสดงภาพ_** โดยต้องเป็นไฟล์**PNG** *20 พิกเซล คูณ 20 พิเซล*
+    ```json
+    {
+        "supportUrl": "https://community.powerbi.com",
+        "gitHubUrl": "https://github.com/microsoft/PowerBI-visuals-circlecard"
+    }
+    ```
 
-8. ใน Windows Explorer ให้คัดลอกไฟล์ icon.png และวาง เพื่อแทนที่ไฟล์เริ่มต้นที่อยู่ในโฟลเดอร์แอสเซท
+6. กรอกรายละเอียดของคุณในวัตถุ **ผู้เขียน**
 
-9. ในรหัส Visual Studio ในแผง Explorer ให้ขยายโฟลเดอร์แอสเซท จากนั้น เลือกไฟล์ icon.png
+7. บันทึกไฟล์ **pbiviz.json**
 
-10. ตรวจทานไอคอน
+8. ในวัตถุ **แอสเซท** โปรดสังเกตว่า ส่วนเอกสารจะกำหนดเส้นทางให้กับไอคอน ไอคอนนั้นคือรูปภาพที่ปรากฏในแผง **_การแสดงภาพ_** โดยต้องเป็นไฟล์**PNG***20 พิกเซล คูณ 20 พิเซล*
+
+9. ใน Windows Explorer ให้คัดลอกไฟล์ icon.png และวาง เพื่อแทนที่ไฟล์เริ่มต้นที่อยู่ในโฟลเดอร์แอสเซท
+
+10. ในรหัส Visual Studio ในแผง Explorer ให้ขยายโฟลเดอร์แอสเซท จากนั้น เลือกไฟล์ icon.png
+
+11. ตรวจทานไอคอน
 
     ![รูปภาพแผง Viz](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
-11. ในรหัส Visual Studio ให้ยืนยันว่าไฟล์ทั้งหมดได้รับการบันทึกแล้ว
+12. ในรหัส Visual Studio ให้ยืนยันว่าไฟล์ทั้งหมดได้รับการบันทึกแล้ว
 
-12. เมื่อต้องการแพคเกจวิชวลแบบกำหนดเอง ใน PowerShell ให้ป้อนคำสั่งต่อไปนี้
+13. เมื่อต้องการแพคเกจวิชวลแบบกำหนดเอง ใน PowerShell ให้ป้อนคำสั่งต่อไปนี้
 
     ```powershell
     pbiviz package

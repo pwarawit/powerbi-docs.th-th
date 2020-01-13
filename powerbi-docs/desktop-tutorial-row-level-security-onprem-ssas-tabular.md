@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 64a7cc62f319162b653742be776a9aa9549f8659
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 09e4a9cc3e6a5c16f23532f0a4589fdcb1906549
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311453"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759531"
 ---
-# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>การรักษาความปลอดภัยระดับแถวแบบไดนามิกกับรูปแบบตารางข้อมูล Analysis Services
+# <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>ใช้การรักษาความปลอดภัยระดับแถวในแบบจำลองตาราง Analysis Services
 
-ใช้ชุดข้อมูลตัวอย่างเพื่อทำงานผ่านขั้นตอนด้านล่าง บทช่วยสอนนี้จะแสดงวิธีใช้[ **ความปลอดภัยระดับแถว** ](service-admin-rls.md)ใน**รูปแบบตาราง Analysis Services**และใช้ในรายงาน Power BI 
+ใช้ชุดข้อมูลตัวอย่างเพื่อทำงานผ่านขั้นตอนด้านล่าง บทช่วยสอนนี้จะแสดงวิธีใช้[**ความปลอดภัยระดับแถว**](service-admin-rls.md)ใน**รูปแบบตาราง Analysis Services**และใช้ในรายงาน Power BI 
 
 * สร้างตารางความปลอดภัยใหม่ในฐานข้อมูล [**AdventureworksDW2012**](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)
 * สร้างแบบจำลองแบบตารางด้วยตารางที่มีข้อเท็จจริงและมิติข้อมูลที่จำเป็น
@@ -157,7 +157,7 @@ ms.locfileid: "74311453"
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 
-    ขอแสดงความยินดี! **บริการของ Power BI** จะแสดงความปลอดภัยระดับแถวแบบไดนามิกแบบจำลองแบบตาราง **Analysis Services** ในองค์กร Power BI ใช้คุณสมบัติ **effectiveusername** เพื่อส่งข้อมูลประจำตัวผู้ใช้ Power BI ปัจจุบันไปยังแหล่งข้อมูลในองค์กรเพื่อเรียกใช้คิวรี
+    ยินดีด้วย! **บริการของ Power BI** จะแสดงความปลอดภัยระดับแถวแบบไดนามิกแบบจำลองแบบตาราง **Analysis Services** ในองค์กร Power BI ใช้คุณสมบัติ **effectiveusername** เพื่อส่งข้อมูลประจำตัวผู้ใช้ Power BI ปัจจุบันไปยังแหล่งข้อมูลในองค์กรเพื่อเรียกใช้คิวรี
 
 ## <a name="task-6-understand-what-happens-behind-the-scenes"></a>งานที่ 6: ทำความเข้าใจกับสิ่งที่เกิดขึ้นเบื้องหลัง
 

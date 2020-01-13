@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 88a49af62a26b64d8b913b6df03c82841f31a489
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410955"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75222179"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 
@@ -24,14 +24,12 @@ ms.locfileid: "74410955"
 
 ![รับข้อมูลใน Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
 
-เลือก**เพิ่มเติม...** จากเมนู**ใช้บ่อยที่สุด**ที่แสดงในหน้าต่าง**รับข้อมูล** คุณสามารถทำให้หน้าต่าง**รับข้อมูล** แสดงขึ้นได้ (และข้ามเมนู**ใช้บ่อยที่สุด**) โดยการเลือกปุ่มไอคอน**รับข้อมูล** **โดยตรง**
+เลือก**เพิ่มเติม...** จากเมนู**ใช้บ่อยที่สุด**ที่แสดงในหน้าต่าง**รับข้อมูล** คุณสามารถทำให้หน้าต่าง**รับข้อมูล** แสดงขึ้นได้ (และข้ามเมนู**ใช้บ่อยที่สุด**) โดยการเลือก**ปุ่มไอคอน** **รับข้อมูล**โดยตรง
 
 ![ปุ่มรับข้อมูล](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> ทีม Power BI จะขยายแหล่งข้อมูลที่พร้อมใช้งานอย่างต่อเนื่องไปยัง**Power BI Desktop**และ**บริการ Power BI** ดังนั้นคุณมักจะเห็นงานระหว่างแหล่งข้อมูลที่กำลังดำเนินการอยู่ในช่วงเริ่มต้นได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง* แหล่งข้อมูลใด ๆ ที่ได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง*มีการจำกัดการสนับสนุนและฟังก์ชันการทำงาน และไม่ควรใช้ในสภาพแวดล้อมการผลิต 
-
-> นอกจากนี้ แหล่งข้อมูลใดๆ ที่ทำเครื่องหมายเป็น*เบต้า* หรือ*แสดงตัวอย่าง*สำหรับ **Power BI Desktop** อาจไม่สามารถใช้งานได้ใน**บริการของ Power BI** หรือบริการอื่นๆ ของ Microsoft จนกว่าแหล่งข้อมูลจะพร้อมใช้งานโดยทั่วไป (GA)
+> ทีม Power BI จะขยายแหล่งข้อมูลที่พร้อมใช้งานอย่างต่อเนื่องไปยัง**Power BI Desktop**และ**บริการ Power BI** ดังนั้นคุณมักจะเห็นงานระหว่างแหล่งข้อมูลที่กำลังดำเนินการอยู่ในช่วงเริ่มต้นได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง* แหล่งข้อมูลใด ๆ ที่ได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง*มีการจำกัดการสนับสนุนและฟังก์ชันการทำงาน และไม่ควรใช้ในสภาพแวดล้อมการผลิต นอกจากนี้ แหล่งข้อมูลใดๆ ที่ทำเครื่องหมายเป็น*เบต้า* หรือ*แสดงตัวอย่าง*สำหรับ **Power BI Desktop** อาจไม่สามารถใช้งานได้ใน**บริการของ Power BI** หรือบริการอื่นๆ ของ Microsoft จนกว่าแหล่งข้อมูลจะพร้อมใช้งานโดยทั่วไป (GA)
 
 ## <a name="data-sources"></a>แหล่งข้อมูล
 ชนิดข้อมูลจะได้รับการจัดระเบียบในประเภทต่อไปนี้:
@@ -67,7 +65,7 @@ ms.locfileid: "74410955"
 * ฐานข้อมูล SQL Server Analysis Services
 * ฐานข้อมูล Oracle
 * ฐานข้อมูล IBM DB2
-* ฐานข้อมูล IBM Informix
+* ฐานข้อมูล IBM Informix (รุ่นเบต้า)
 * IBM Netezza
 * ฐานข้อมูล MySQL
 * ฐานข้อมูล PostgreSQL
@@ -82,7 +80,7 @@ ms.locfileid: "74410955"
 * Vertica
 * Snowflake
 * Essbase
-* AtScale cubes (เบต้า)
+* คิวบ์ AtScale
 * BI Connector
 * Dremio
 * Exasol
@@ -104,7 +102,7 @@ ms.locfileid: "74410955"
 * ชุดข้อมูล Power BI
 * กระแสข้อมูล Power BI
 * Common Data Service
-* กระแสข้อมูล Power Platform (เบต้า)
+* กระแสข้อมูล Power Platform
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ **Power Platform**
 
@@ -118,13 +116,14 @@ ms.locfileid: "74410955"
 * พื้นที่เก็บข้อมูล Azure Blob
 * พื้นที่เก็บข้อมูล Azure Table
 * Azure Cosmos DB
-* Azure Data Lake Storage Gen2 (เบต้า)
+* Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Interactive Query
 * Azure Data Explorer (Kusto)
-* Azure Cost Management (เบต้า)
+* Azure Cost Management
+* Azure Time Series Insights (เบต้า)
 
 แสดงรูปภาพต่อไปนี้**รับข้อมูล**สำหรับ**Azure**
 
@@ -182,7 +181,7 @@ ms.locfileid: "74410955"
 
 * เว็บ
 * รายการ SharePoint
-* ฟีด OData
+* ตัวดึงข้อมูล OData
 * Active Directory
 * Microsoft Exchange
 * ไฟล์ Hadoop (HDFS)

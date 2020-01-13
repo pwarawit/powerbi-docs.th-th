@@ -48,6 +48,10 @@
           href: relationships-many-to-many.md
         - name: ปิดใช้งานการรีเฟรชพื้นหลังของ Power Query
           href: power-query-background-refresh.md
+        - name: เมื่อใช้รายงานที่มีการแบ่งหน้าใน Power BI
+          href: report-paginated-or-power-bi.md
+        - name: โยกย้ายรายงานบริการรายงานเซิร์ฟเวอร์ SQL ไปยัง Power BI
+          href: migrate-ssrs-reports-to-power-bi.md
     - name: เอกสารทางเทคนิค
       items:
         - name: ภาพรวมเอกสารทางเทคนิค

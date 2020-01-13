@@ -10,16 +10,14 @@ ms.topic: conceptual
 ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bafcf3a754c58a040595279f93d885e8f317195e
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791776"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758117"
 ---
-- เส้นอัตราส่วนกำไรขั้นต้นสำหรับปี % อยู่ที่ไหน? ฉันสามารถสร้างแผนภูมิแท่งได้หลายอัน แต่ไม่สามารถสร้างได้หลายเส้น
-
-# <a name="customize-x-axis-and-y-axis-properties"></a>คุณสมบัติแกน x และแกน y ที่กำหนดด้วยตนเอง
+# <a name="customize-x-axis-and-y-axis-properties"></a>ปรับแต่งคุณสมบัติแกน X และแกน Y ด้วยตนเอง
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -230,4 +228,4 @@ ms.locfileid: "74791776"
 
 - [การแสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

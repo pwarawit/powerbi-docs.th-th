@@ -10,10 +10,10 @@ ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 92c473b5df6c21509ba32e41d88dd43c265fa3a0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73861409"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>ไทล์แดชบอร์ดใน Power BI
@@ -51,17 +51,17 @@ ms.locfileid: "73861409"
    
     จากตรงนี้คุณสามารถ:
    
-   * [เปิดรายงานที่ถูกใช้เพื่อสร้างไทล์นี้](end-user-reports.md) ![ไอคอนรายงาน](./media/end-user-tiles/chart-icon.jpg)  
+   * [เปิดรายงานที่ถูกใช้เพื่อสร้างไทล์นี้](end-user-reports.md)![ไอคอนรายงาน](./media/end-user-tiles/chart-icon.jpg)  
    
    * [เปิดคำถามของ Q&A ที่ถูกใช้เพื่อสร้างไทล์](end-user-reports.md)![ไอคอน Q&A](./media/end-user-tiles/qna-icon.png)  
    
 
-   * [เปิดสมุดงานที่ถูกใช้เพื่อสร้างไทล์นี้](end-user-reports.md) ![ไอคอนแผ่นงาน](./media/end-user-tiles/power-bi-open-worksheet.png)  
-   * [ดูไทล์ในโหมดโฟกัส](end-user-focus.md) ![ไอคอนโฟกัส](./media/end-user-tiles/fullscreen-icon.jpg)  
-   * [ดูข้อมูลเชิงลึก](end-user-insights.md) ![ไอคอนข้อมูลเชิงลึก](./media/end-user-tiles/power-bi-insights.png)
+   * [เปิดสมุดงานที่ถูกใช้เพื่อสร้างไทล์นี้](end-user-reports.md)![ไอคอนแผ่นงาน](./media/end-user-tiles/power-bi-open-worksheet.png)  
+   * [ดูไทล์ในโหมดโฟกัส](end-user-focus.md)![ไอคอนโฟกัส](./media/end-user-tiles/fullscreen-icon.jpg)  
+   * [ดูข้อมูลเชิงลึก](end-user-insights.md)![ไอคอนข้อมูลเชิงลึก](./media/end-user-tiles/power-bi-insights.png)
    * [เพิ่มข้อคิดเห็นและเริ่มการอภิปราย](end-user-comment.md) ![ไอคอนข้อคิดเห็น ](./media/end-user-tiles/comment-icons.png)
-   * ![ไอคอนการแจ้งเตือน](./media/end-user-tiles/power-bi-alert-icon.png)[จัดการการแจ้งเตือนที่ตั้งค่าบนไทล์ของแดชบอร์ด](end-user-alerts.md)
-   * [เปิดข้อมูลใน Excel](end-user-export.md)![การส่งออกไอคอน](./media/end-user-tiles/power-bi-export-icon.png)
+   * [จัดการการแจ้งเตือนที่ตั้งค่าบนไทล์ของแดชบอร์ด](end-user-alerts.md) ![ไอคอนการแจ้งเตือน](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [เปิดข้อมูลใน Excel](end-user-export.md)![ไอคอนการส่งออก](./media/end-user-tiles/power-bi-export-icon.png)
 
 
 3. เมื่อต้องปิดเมนูการดำเนินการ เลือกพื้นที่ว่างในพื้นที่ใช้งาน

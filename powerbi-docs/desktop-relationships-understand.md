@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8562d0fd5acee2f18576f0a6b6f2e3d613354f92
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 0029d275e5180c29e8653f549d8450014362b59b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009637"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75304246"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>ความสัมพันธ์ของแบบจำลองใน Power BI Desktop
 
@@ -73,7 +73,7 @@ ms.locfileid: "74009637"
 
 ความสัมพันธ์แบบ**หนึ่งต่อหนึ่ง** หมายถึง ทั้งสองคอลัมน์มีประกอบด้วยค่าที่ไม่ซ้ำกัน ประเภทของคาร์ดินาลลิตี้นี้ไม่ใช่ประเภทปกติ และมีแนวโน้มที่แสดงถึงการออกแบบแบบจำลองที่ต่ำกว่าจุดเหมาะสมเนื่องจากการจัดเก็บข้อมูลซ้ำซ้อน<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
 
-ความสัมพันธ์แบบ**กลุ่มต่อกลุ่ม** หมายถึง ทั้งสองคอลัมน์สามารถมีค่าซ้ำกันได้ ประเภทของคาร์ดินาลลิตี้นี้มีการใช้งานไม่บ่อยนัก โดยทั่วไปแล้วจะมีประโยชน์เมื่อออกแบบข้อกำหนดแบบจำลองที่ซับซ้อน<!-- For guidance on using this cardinality type, see the [Many-to-many relationship guidance](guidance/relationships-many-to-many) article.-->
+ความสัมพันธ์แบบ**กลุ่มต่อกลุ่ม** หมายถึง ทั้งสองคอลัมน์สามารถมีค่าซ้ำกันได้ ประเภทของคาร์ดินาลลิตี้นี้มีการใช้งานไม่บ่อยนัก โดยทั่วไปแล้วจะมีประโยชน์เมื่อออกแบบข้อกำหนดแบบจำลองที่ซับซ้อน สำหรับคำแนะนำในการใช้ประเภทของคาร์ดินาลลิตี้ ศึกษา[คำแนะนำความสัมพันธ์แบบกลุ่มต่อกลุ่ม](guidance/relationships-many-to-many.md)
 
 > [!NOTE]
 > ในขณะนี้ ประเภทของคาร์ดินาลลิตี้แบบกลุ่มต่อกลุ่มยังไม่ได้รับการสนับสนุนสำหรับแบบจำลองที่พัฒนาขึ้นสำหรับ Power BI Report Server
@@ -226,4 +226,5 @@ ms.locfileid: "74009637"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [ทำความเข้าใจแบบจำลองมิติที่มีลักษณะคล้ายดาวและความสำคัญที่มีต่อ Power BI](guidance/star-schema.md)
+- [คำแนะนำความสัมพันธ์แบบกลุ่มต่อกลุ่ม](guidance/relationships-many-to-many.md)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

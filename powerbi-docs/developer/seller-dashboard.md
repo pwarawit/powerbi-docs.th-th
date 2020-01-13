@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/03/2019
-ms.openlocfilehash: 12ecde787bb268190f9b94a2db5992d5840080ac
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 73a6a3d16ae2515af41a3232a37579e18876f38b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "75002546"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223664"
 ---
 # <a name="submit-a-power-bi-visual-to-appsource-using-seller-dashboard"></a>ส่งวิชวล  Power BI ไปยัง AppSource โดยใช้แดชบอร์ดการขาย
 
@@ -62,7 +62,7 @@ ms.locfileid: "75002546"
    * ลิงก์วิดีโอ
    * ข้อตกลงสิทธิการใช้งานสำหรับผู้ใช้ (EULA)
 
-       คุณต้องอัปโหลดไฟล์ EULA ซึ่งอาจเป็น EULA ของคุณเอง หรือใช้ EULA ค่าเริ่มต้นภายใน Office store สำหรับวิชวลPower BI แบบกำหนดเอง เมื่อต้องการใช้ EULA ค่าเริ่มต้น ให้วาง URL ต่อไปนี้ในกล่องโต้ตอบการอัปโหลดไฟล์ "ข้อตกลงสิทธิ์การใช้งานสำหรับผู้ใช้" ของแดชบอร์ดผู้ขาย: [ https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf)
+       คุณต้องอัปโหลดไฟล์ EULA ซึ่งอาจเป็น EULA ของคุณเอง หรือใช้ EULA ค่าเริ่มต้นภายใน Office store สำหรับวิชวลPower BI แบบกำหนดเอง เมื่อต้องการใช้ EULA ค่าเริ่มต้น ให้วาง URL ต่อไปนี้ในกล่องโต้ตอบการอัปโหลดไฟล์ "ข้อตกลงสิทธิ์การใช้งานสำหรับผู้ใช้" ของแดชบอร์ดผู้ขาย: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf)
 
 9. เลือก**ถัดไป** เพื่อไปต่อยังหน้า**รายละเอียด**
 
@@ -103,7 +103,7 @@ ms.locfileid: "75002546"
     * [ยึดตามข้อกำหนดที่ให้](power-bi-custom-visuals-certified.md#certification-requirements)
     * ผ่านการตรวจทานโค้ด
 
-2. ทีมงานส่วนการจัดแสดง Power BI ของ Microsoft จะแจ้งให้คุณทราบเมื่อวิชวล Power BI ของคุณได้รับการรับรอง และถูกเพิ่มลงใน[รายการวิชวลที่ผ่านการรับรองแล้ว](power-bi-custom-visuals-certified.md#list-of-power-bi-visuals-that-have-been-certified) หรือถูกปฏิเสธพร้อมกับรายงานปัญหาที่ต้องแก้ไข เป็นความรับผิดชอบของนักพัฒนาที่ต้องเปิดช่องทางการติดต่อสื่อสารกับ Microsoft และปรับปรุงวิชวลที่ผ่านการรับรองแล้ว ถ้าจำเป็น
+2. ทีมงานส่วนการจัดแสดง Power BI ของ Microsoft จะแจ้งให้คุณทราบเมื่อวิชวล Power BI ของคุณได้รับการรับรอง และถูกเพิ่มลงในรายการ[วิชวล Power BI ที่ผ่านการรับรองแล้ว](power-bi-custom-visuals-certified.md#certified-power-bi-visuals) หรือถูกปฏิเสธพร้อมกับรายงานปัญหาที่ต้องแก้ไข เป็นความรับผิดชอบของนักพัฒนาที่ต้องเปิดช่องทางการติดต่อสื่อสารกับ Microsoft และปรับปรุงวิชวลที่ผ่านการรับรองแล้ว ถ้าจำเป็น
 
 ## <a name="tracking-submission-status-and-usage"></a>การติดตามสถานะการส่งและการใช้งาน
 
@@ -122,4 +122,4 @@ ms.locfileid: "75002546"
 [แสดงภาพแบบกำหนดเองใน Power BI](../developer/power-bi-custom-visuals.md)  
 [การรับรองส่วนการจัดแสดง Power BI](../developer/power-bi-custom-visuals-certified.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

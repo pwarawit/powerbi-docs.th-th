@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6bf933203f8dc76d4ede2d25683981cbdf6755f5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 131101d6e7a23b7c6d8571c89097036f1149a2f3
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73869060"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761553"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example"></a>รับข้อมูลจากหน้าเว็บโดยให้ตัวอย่าง
+# <a name="get-webpage-data-by-providing-examples"></a>รับข้อมูลเว็บเพจโดยให้ตัวอย่าง
 
 การรับข้อมูลจากเว็บเพจ ให้ผู้ใช้สามารถแยกข้อมูลจากเว็บเพจ และนำเข้าข้อมูลนั้นลงใน **Power BI Desktop** ได้อย่างง่ายดาย แต่ข้อมูลบนเว็บเพจมักจะไม่ได้อยู่ในตารางที่เรียบร้อย ง่ายต่อการแยก ดังนั้นการรับข้อมูลจากหน้าดังกล่าวอาจเป็นเรื่องท้าทาย แม้ว่าหน้ามีการจัดโครงสร้าง และมีความสอดคล้องกัน 
 
