@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 23d66994e88204f56ee937a4f7887225e48a5e2f
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: a62d1cf6d21df822265c3c41d4e74e74181b7051
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75304288"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885186"
 ---
-# <a name="connect-to-snowflake-in-power-bi-desktop"></a>เชื่อมต่อกับ Snowflake ใน Power BI Desktop
+# <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>เชื่อมต่อกับ Snowflake Computing Warehouse ใน Power BI Desktop
 ใน Power BI Desktop คุณสามารถเชื่อมต่อไปยัง **Snowflake** Computing Warehouse และใช้ข้อมูลพื้นฐานได้เช่นเดียวกับแหล่งข้อมูลอื่นๆ ใน Power BI Desktop 
 
 > [!NOTE]
@@ -35,7 +35,7 @@ ms.locfileid: "75304288"
 
 เมื่อได้รับพร้อมท์ ให้ใส่ชื่อผู้ใช้และรหัสผ่านของคุณ
 
-![](media/desktop-connect-snowflake/connect_snowflake_4.png)
+![](media/desktop-connect-snowflake/connect-snowflake-4.png)
 
 > [!NOTE]
 > เมื่อคุณใส่ชื่อผู้ใช้และรหัสผ่านสำหรับเซิร์ฟเวอร์ **Snowflake** ที่เฉพาะเจาะจงแล้ว Power BI Desktop จะใช้ข้อมูลประจำตัวเดียวกันนั้นเพื่อพยายามเชื่อมต่ออีกครั้ง คุณสามารถปรับเปลี่ยนข้อมูลประจำตัวเหล่านั้นได้โดยไปที่ **ไฟล์ > ตัวเลือกและการตั้งค่า > การตั้งค่าแหล่งข้อมูล**
