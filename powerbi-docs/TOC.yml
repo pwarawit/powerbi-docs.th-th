@@ -709,6 +709,8 @@
               href: service-dataflows-overview.md
             - name: สร้างและใช้กระแสข้อมูล
               href: service-dataflows-create-use.md
+            - name: ใช้โปรแกรมการคำนวณขั้นสูงที่มีกระแสข้อมูล
+              href: service-dataflows-enhanced-compute-engine.md
             - name: เอนทิตีที่มีการคำนวณ ด้วย Power BI Premium
               href: service-dataflows-computed-entities-premium.md
             - name: เชื่อมต่อกับแหล่งข้อมูลด้วยกระแสข้อมูล
@@ -801,6 +803,8 @@
               items:
                 - name: เชื่อมต่อกับเซิร์ฟเวอร์ด้วยแอป
                   href: service-connect-to-services.md
+                - name: เครื่องคำนวณคาร์บอน Azure
+                  href: service-connect-to-azure-carbon-calculator.md
                 - name: GitHub
                   href: service-connect-to-github.md
                 - name: Office365Mon
