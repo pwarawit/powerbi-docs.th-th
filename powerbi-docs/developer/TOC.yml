@@ -23,9 +23,9 @@
               href: visuals/unit-tests-introduction.md
         - name: แนวคิด
           items:
-            - name: โครงสร้างของโครงการวิชวล Power BI
+            - name: โครงสร้างของโครงการแสดงผล Power BI
               href: visuals/visual-project-structure.md
-            - name: แนวคิดของวิชวล
+            - name: แนวคิดแบบแสดงผลด้วยภาพ
               href: visuals/power-bi-visuals-concept.md
             - name: วิชวลสำหรับองค์กรใน Power BI
               href: power-bi-custom-visuals-organization.md

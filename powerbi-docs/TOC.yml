@@ -871,6 +871,8 @@
           href: service-admin-premium-workloads.md
         - name: ตรวจสอบความจุด้วยแอป
           href: service-admin-premium-monitor-capacity.md
+        - name: ตรวจสอบเมตริกปริมาณงานแบบพรีเมียม
+          href: service-premium-metrics-app.md
         - name: ตรวจสอบความจุในพอร์ทัลผู้ดูแลระบบ
           href: service-admin-premium-monitor-portal.md
         - name: คิวรีการรีเฟรชแบบเพิ่มหน่วย
