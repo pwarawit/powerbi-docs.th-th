@@ -10,48 +10,56 @@
     - name: แนวคิด
       expanded: true
       items:
-        - name: Schema ติดดาวคืออะไร
-          href: star-schema.md
-        - name: ลดขนาดแบบจำลองข้อมูล
-          href: import-modeling-data-reduction.md
-        - name: ฟังก์ชันการแบ่งเทียบกับตัวดำเนินการหาร (/)
-          href: dax-divide-function-operator.md
-        - name: ใช้ SELECTEDVALUE แทน VALUES
-          href: dax-selectedvalue.md
-        - name: ความสำคัญของการพับคิวรี
-          href: power-query-folding.md
-        - name: การใช้ฟังก์ชันข้อผิดพลาดที่เหมาะสม
-          href: dax-error-functions.md
-        - name: ใช้ตัวแปรเพื่อปรับปรุงสูตร
-          href: dax-variables.md
-        - name: COUNTROWS แทน COUNT
-          href: dax-countrows.md
-        - name: หลีกเลี่ยงการแปลง BLANK ไปเป็นค่า
-          href: dax-avoid-converting-blank.md
-        - name: การอ้างอิงคอลัมน์และหน่วยวัด
-          href: dax-column-measure-references.md
-        - name: หลีกเลี่ยงการใช้ตัวกรองเป็นอาร์กิวเมนต์ตัวกรอง
-          href: dax-avoid-avoid-filter-as-filter-argument.md
-        - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
-          href: ../service-dataflows-best-practices.md
-        - name: คำแนะนำแบบจำลอง DirectQuery ใน Power BI Desktop
-          href: directquery-model-guidance.md
-        - name: การอ้างอิงคิวรี Power Query
-          href: power-query-referenced-queries.md
-        - name: การขยายวิชวลด้วยคำแนะนำเครื่องมือของหน้ารายงาน
-          href: report-page-tooltips.md
-        - name: การดูรายละเอียดหน้ารายงานแบบเจาะลึก
-          href: report-drillthrough.md
-        - name: คำแนะนำวันที่/เวลาอัตโนมัติใน Power BI Desktop
-          href: auto-date-time.md
-        - name: คำแนะนำความสัมพันธ์แบบกลุ่มต่อกลุ่ม
-          href: relationships-many-to-many.md
-        - name: ปิดใช้งานการรีเฟรชพื้นหลังของ Power Query
-          href: power-query-background-refresh.md
-        - name: เมื่อใช้รายงานที่มีการแบ่งหน้าใน Power BI
-          href: report-paginated-or-power-bi.md
-        - name: โยกย้ายรายงานบริการรายงานเซิร์ฟเวอร์ SQL ไปยัง Power BI
-          href: migrate-ssrs-reports-to-power-bi.md
+        - name: แปลงและทำข้อมูลให้เป็นรูปร่าง
+          items:
+            - name: ความสำคัญของการพับคิวรี
+              href: power-query-folding.md
+            - name: การอ้างอิงคิวรี Power Query
+              href: power-query-referenced-queries.md
+            - name: ปิดใช้งานการรีเฟรชพื้นหลังของ Power Query
+              href: power-query-background-refresh.md
+            - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
+              href: ../service-dataflows-best-practices.md
+        - name: การสร้างแบบจำลองข้อมูล
+          items:
+            - name: Schema ติดดาวคืออะไร
+              href: star-schema.md
+            - name: ลดขนาดแบบจำลองข้อมูล
+              href: import-modeling-data-reduction.md
+            - name: คำแนะนำวันที่/เวลาอัตโนมัติใน Power BI Desktop
+              href: auto-date-time.md
+            - name: คำแนะนำความสัมพันธ์แบบกลุ่มต่อกลุ่ม
+              href: relationships-many-to-many.md
+            - name: คำแนะนำแบบจำลอง DirectQuery ใน Power BI Desktop
+              href: directquery-model-guidance.md
+        - name: DAX
+          items:
+            - name: ฟังก์ชันการแบ่งเทียบกับตัวดำเนินการหาร (/)
+              href: dax-divide-function-operator.md
+            - name: การใช้ฟังก์ชันข้อผิดพลาดที่เหมาะสม
+              href: dax-error-functions.md
+            - name: ใช้ SELECTEDVALUE แทน VALUES
+              href: dax-selectedvalue.md
+            - name: COUNTROWS แทน COUNT
+              href: dax-countrows.md
+            - name: ใช้ตัวแปรเพื่อปรับปรุงสูตร
+              href: dax-variables.md
+            - name: หลีกเลี่ยงการแปลง BLANK ไปเป็นค่า
+              href: dax-avoid-converting-blank.md
+            - name: การอ้างอิงคอลัมน์และหน่วยวัด
+              href: dax-column-measure-references.md
+            - name: หลีกเลี่ยงการใช้ตัวกรองเป็นอาร์กิวเมนต์ตัวกรอง
+              href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: การสร้างรายงาน
+          items:
+            - name: การขยายวิชวลด้วยคำแนะนำเครื่องมือของหน้ารายงาน
+              href: report-page-tooltips.md
+            - name: การดูรายละเอียดหน้ารายงานแบบเจาะลึก
+              href: report-drillthrough.md
+            - name: เมื่อใช้รายงานที่มีการแบ่งหน้าใน Power BI
+              href: report-paginated-or-power-bi.md
+            - name: โยกย้ายรายงานบริการรายงานเซิร์ฟเวอร์ SQL ไปยัง Power BI
+              href: migrate-ssrs-reports-to-power-bi.md
     - name: เอกสารทางเทคนิค
       items:
         - name: ภาพรวมเอกสารทางเทคนิค

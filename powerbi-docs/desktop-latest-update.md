@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 75b3c370e6b17c5a5a4937da6db989f814a0ebd9
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ab98463f6dc1defd9ee3f2a97b322fefbe582779
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221999"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761053"
 ---
-# <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>มีอะไรใหม่ในการอัปเดต Power BI Desktop ล่าสุด
+# <a name="whats-new-in-power-bi-desktop"></a>มีอะไรใหม่ใน Power BI Desktop บ้าง
 
 
 ## <a name="december-2019-update-2765678661"></a>การอัปเดตประจำเดือนธันวาคม 2019 (2.76.5678.661)
@@ -42,8 +42,8 @@ ms.locfileid: "75221999"
 
 
 ### <a name="reporting"></a>การรายงาน
-* การอัปเดตธีม[[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=10)[[บทความ]](desktop-report-themes.md#customize-report-themes-preview)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
-* ส่งออกธีมปัจจุบัน (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=242)[[บทความ]](desktop-report-themes.md#customize-report-themes-preview)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
+* กำหนดธีมปัจจุบัน (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=10)  [[บทความ]](desktop-report-themes.md#create-and-customize-a-theme-in-power-bi-desktop-preview)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
+* ส่งออกธีมปัจจุบัน (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=242) [[บทความ]](desktop-report-themes.md#export-report-themes-preview) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
 * ตั้งค่าคอลัมน์ตารางหรือค่าเมทริกซ์เป็น URL ที่กำหนดเอง [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=277)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
 * การตั้งค่าการจัดรูปแบบการแสดงผลด้วยภาพ KPI [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=354)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
 * การจัดรูปแบบการแยกย่อยต้นไม้ใหม่ [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=442)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 

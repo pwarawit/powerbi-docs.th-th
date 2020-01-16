@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: fe91de89e7eec601c516895089e3dcc03eff14ea
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 4e7616ec3ce6552130848bc0508bf8b9ac8ac965
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/04/2020
-ms.locfileid: "75657224"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762611"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>ฝังรายงานเซิร์ฟเวอร์รายงาน Power BI โดยใช้ iFrame ใน SharePoint Server
 
@@ -25,7 +25,7 @@ ms.locfileid: "75657224"
 * ติดตั้งและกำหนดค่า [เซิร์ฟเวอร์รายงาน Power BI](https://powerbi.microsoft.com/report-server/) แล้ว
 * ติดตั้ง [Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](install-powerbi-desktop.md) แล้ว
 * ติดตั้งและกำหนดค่า [SharePoint](https://docs.microsoft.com/sharepoint/install/install) แล้ว
-* รองรับ Internet Explorer 11 เฉพาะเมื่อใช้ SharePoint Online  คุณอาจใช้เบราว์เซอร์อื่นๆ ที่รองรับในสถานการณ์อย่างใดอย่างหนึ่ง
+* สามารถรองรับ Internet Explorer 11 ได้เฉพาะเมื่อมีการตั้งค่าโหมดเอกสารเป็นโหมด IE11 (Edge) หรือเมื่อใช้ SharePoint Online คุณอาจใช้เบราว์เซอร์อื่นๆ ที่รองรับกับ SharePoint ภายในองค์กรและ SharePoint Online
 
 ## <a name="create-the-power-bi-report-url"></a>สร้าง URL ของรายงาน Power BI
 

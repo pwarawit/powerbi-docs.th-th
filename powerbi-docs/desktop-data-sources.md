@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/25/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: fd25e4ca6357dbfa5954eeabe0bf97fb6ccb8a1c
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75222179"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761375"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 
@@ -30,6 +30,10 @@ ms.locfileid: "75222179"
 
 > [!NOTE]
 > ทีม Power BI จะขยายแหล่งข้อมูลที่พร้อมใช้งานอย่างต่อเนื่องไปยัง**Power BI Desktop**และ**บริการ Power BI** ดังนั้นคุณมักจะเห็นงานระหว่างแหล่งข้อมูลที่กำลังดำเนินการอยู่ในช่วงเริ่มต้นได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง* แหล่งข้อมูลใด ๆ ที่ได้รับการทำเครื่องหมายเป็น*เบต้า*หรือ*แสดงตัวอย่าง*มีการจำกัดการสนับสนุนและฟังก์ชันการทำงาน และไม่ควรใช้ในสภาพแวดล้อมการผลิต นอกจากนี้ แหล่งข้อมูลใดๆ ที่ทำเครื่องหมายเป็น*เบต้า* หรือ*แสดงตัวอย่าง*สำหรับ **Power BI Desktop** อาจไม่สามารถใช้งานได้ใน**บริการของ Power BI** หรือบริการอื่นๆ ของ Microsoft จนกว่าแหล่งข้อมูลจะพร้อมใช้งานโดยทั่วไป (GA)
+
+> [!NOTE]
+> มีตัวเชื่อมต่อข้อมูลจำนวนมากสำหรับ Power BI Desktop ที่จำเป็นต้องใช้ Internet Explorer 10 (หรือใหม่กว่า) สำหรับการรับรองความถูกต้อง 
+
 
 ## <a name="data-sources"></a>แหล่งข้อมูล
 ชนิดข้อมูลจะได้รับการจัดระเบียบในประเภทต่อไปนี้:
