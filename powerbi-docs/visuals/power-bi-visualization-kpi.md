@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 42a9f2c641a0cdac9b7a129ffc5ecc6f7fb8cf8d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f477c21a337838fb275087f744eef02eb7fd57ce
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870864"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762381"
 ---
-# <a name="key-performance-indicator-kpi-visuals"></a>ภาพตัวบ่งชี้ประสิทธิภาพหลัก (KPI)
+# <a name="create-key-performance-indicator-kpi-visualizations"></a>สร้างการแสดงภาพตัวบ่งชี้ประสิทธิภาพหลัก (KPI)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -97,7 +97,7 @@ KPI ยังมีให้บริการในบริการของ 
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
 
-ถ้า KPI ของคุณไม่มีลักษณะคล้ายกับด้านบน อาจเป็นเพราะคุณไม่ได้จัดเรียงตาม **เดือนงบประมาณ** KPI ไม่มีตัวเลือกการจัดเรียง คุณจะต้องเริ่มต้นใหม่อีกครั้งและจัดเรียงตาม **เดือนงบประมาณ** *ก่อนที่* คุณจะแปลงการแสดงภาพของคุณเป็น KPI
+ถ้า KPI ของคุณไม่มีลักษณะคล้ายกับด้านบน อาจเป็นเพราะคุณไม่ได้จัดเรียงตาม **เดือนงบประมาณ** KPI ไม่มีตัวเลือกการจัดเรียง คุณจะต้องเริ่มต้นใหม่อีกครั้งและจัดเรียงตาม **FiscalMonth** *ก่อน*ที่คุณจะแปลงการแสดงภาพของคุณเป็น KPI
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
@@ -105,4 +105,4 @@ KPI ยังมีให้บริการในบริการของ 
 
 * [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

@@ -1,6 +1,6 @@
 ---
-title: เชื่อมต่อไปยังหน้าเว็บจาก Power BI Desktop
-description: เชื่อมต่อและใช้ข้อมูลหน้าเว็บได้อย่างง่ายดายใน Power BI Desktop
+title: เชื่อมต่อหน้าเว็บจาก Power BI Desktop
+description: เชื่อมต่อและใช้งานข้อมูลบนหน้าเว็บได้อย่างง่ายดายใน Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
@@ -10,15 +10,16 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 139cdcfe9629afb25a78bf50ae7714db670721e3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f76d3e61c3817d3e5ab4480c935abe4dc7346e54
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878434"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761530"
 ---
-# <a name="connect-to-a-web-page-from-power-bi-desktop"></a>เชื่อมต่อไปยังหน้าเว็บจาก Power BI Desktop
-คุณสามารถเชื่อมต่อไปยังหน้าเว็บ และนำเข้าข้อมูลหน้าเว็บลงใน Power BI Desktop เพื่อนำไปใช้ในภาพ และโมเดลข้อมูลของคุณ
+# <a name="connect-to-webpages-from-power-bi-desktop"></a>เชื่อมต่อหน้าเว็บจาก Power BI Desktop
+
+คุณสามารถเชื่อมต่อกับหน้าเว็บและนำเข้าข้อมูลไปยัง Power BI Desktop สำหรับใช้ในวิชวลและแบบจำลองข้อมูลของคุณ
 
 ใน Power BI Desktop เลือก**รับข้อมูล > เว็บ**จาก**หน้าหลัก** แถบข้อมูล ribbon
 

@@ -1,6 +1,6 @@
 ---
 title: เริ่มต้นใช้งานการจัดรูปแบบการแสดงภาพ Power BI
-description: กำหนดชื่อเรื่องการแสดงภาพ พื้นหลัง และคำอธิบายแผนภูมิ
+description: กำหนดชื่อภาพ พื้นหลัง และคำอธิบายแผนภูมิ
 author: mihart
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 252e83a543640ec47fbadd00012bf1a4d8074f84
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 1e2465273368c6b76e602e5ffbdf4ec3a1d121a3
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831426"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757844"
 ---
-# <a name="customize-visualization-titles-legends-and-backgrounds"></a>กำหนดชื่อเรื่องการแสดงภาพ คำอธิบายแผนภูมิ และพื้นหลัง
+# <a name="customize-visualization-titles-backgrounds-and-legends"></a>กำหนดชื่อเรื่องการแสดงภาพ พื้นหลัง และคำอธิบายแผนภูมิ
 
 ในบทช่วยสอนนี้ คุณจะได้เรียนรู้ถึงวิธีการกำหนดการแสดงภาพของคุณเองสองถึงสามวิธี มีตัวเลือกมากมายสำหรับการกำหนดการแสดงภาพของคุณ วิธีดีที่สุดในการเรียนรู้เกี่ยวกับทั้งหมดคือการสำรวจบานหน้าต่าง **รูปแบบ** (เลือกไอคอนลูกกลิ้งทาสี) เพื่อช่วยให้คุณเริ่มต้นใช้งาน บทความนี้แสดงวิธีการกำหนดชื่อเรื่องการแสดงภาพ คำอธิบายแผนภูมิ พื้นหลัง และเพิ่มธีม
 
@@ -166,4 +166,4 @@ ms.locfileid: "74831426"
 
 - [เริ่มใช้งานด้วยคุณสมบัติแกนและการจัดรูปแบบสี](service-getting-started-with-color-formatting-and-axis-properties.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

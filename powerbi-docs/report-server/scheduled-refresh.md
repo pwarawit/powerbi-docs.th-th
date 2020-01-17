@@ -6,14 +6,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 90f08abd119e7dfc0bf639eeb2ed8334fbdfa234
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699026"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837612"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>รายงาน Power BI รีเฟรชตามกำหนดการในเซิร์ฟเวอร์รายงาน Power BI
 การรีเฟรชตามกำหนดการสำหรับรายงาน Power BI จะช่วยให้ข้อมูลสำหรับรายงานได้รับการอัปเดตอยู่เสมอ
@@ -61,8 +61,10 @@ ms.locfileid: "74699026"
 
 สำหรับข้อมูลเกี่ยวกับการตั้งค่าหน่วยความจำภายใน Analysis Services ดู[คุณสมบัติหน่วยความจำ](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)
 
+### <a name="data-model-size-limit"></a>ขีดจำกัดขนาดของแบบจำลองข้อมูล
+แบบจำลองข้อมูลที่โหลดลงในกลไก Analysis Services ภายในระหว่างการรีเฟรชตามกำหนดการมีขนาดสูงสุด 2,000 MB (2GB) ซึ่งคุณไม่สามารถกำหนดค่าขนาดสูงสุดนี้ได้ ถ้าแบบจำลองข้อมูลของคุณขยายขนาดใหญ่กว่า 2GB คุณจะได้รับข้อผิดพลาดการรีเฟรชเป็น "ความยาวของผลลัพธ์เกินขีดจำกัดความยาว (2GB) ของประเภทเป้าหมายขนาดใหญ่" ในกรณีนี้ เราขอแนะนำให้โฮสต์แบบจำลองในอินสแตนซ์ Analysis Services และใช้การเชื่อมต่อแบบสดกับแบบจำลองในรายงาน
+
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 กำหนดค่า[การรีเฟรชตามกำหนดการ](configure-scheduled-refresh.md)ในรายงาน Power BI
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-

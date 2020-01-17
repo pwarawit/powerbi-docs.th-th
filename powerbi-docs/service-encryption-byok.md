@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 4cddf01dd57191b5d3e707589e6d8a78e106259f
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958482"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762128"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>นำคีย์การเข้ารหัสลับของคุณเองสำหรับ Power BI (ตัวอย่าง)
 
@@ -105,6 +105,8 @@ BYOK นำไปใช้เฉพาะกับชุดข้อมูลท
 
 - คุณไม่สามารถย้ายพื้นที่ทำงานที่ใช้ BYOK ได้_โดยตรง_จากความจุเฉพาะใน Power BI Premium ไปยังความจุที่แชร์ ก่อนอื่น คุณต้องย้ายพื้นที่ทำงานไปยังความจุเฉพาะที่ไม่ได้เปิดใช้งาน BYOK
 
+- ถ้าคุณย้ายพื้นที่ทำงานที่ใช้ BYOK จากกำลังการผลิตเฉพาะใน Power BI Premium ไปยังรายการที่ใช้ร่วมกัน รายงานและชุดข้อมูลจะไม่สามารถเข้าถึงได ้เนื่องจากมีการจัดรูปแบบด้วยคีย์ เพื่อหลีกเลี่ยงไม่ให้เกิดสถานการณ์เช่นนี้ คุณต้องย้ายพื้นที่ทำงานไปยังกำลังการผลิตเฉพาะที่ไม่ได้เปิดใช้งาน BYOK ก่อน
+
 ### <a name="enable-byok"></a>เปิดใช้งาน BYOK
 
 หากต้องการเปิดใช้งาน BYOK คุณต้องเป็นผู้ดูแลระบบของผู้เช่าสหรับบริการของ Power BI ลงชื่อเข้าใช้โดยใช้ cmdlet`Connect-PowerBIServiceAccount` จากนั้น ใช ้[`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) เพื่อเปิดใช้งาน BYOK ดังที่แสดงในตัวอย่างต่อไปนี้:
@@ -176,7 +178,7 @@ Power BI มี cmdlet เพิ่มเติมเพื่อช่วยจ
 
     โปรดทราบว่ามีการเปิดใช้งานการเข้ารหัสลับที่ระดับความจุ แต่คุณได้รับสถานะการเข้ารหัสลับที่ระดับชุดข้อมูลสำหรับพื้นที่ทำงานที่ระบุ
 
-- ใช้ [ `Switch-PowerBIEncryptionKey` ](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) เพื่อสลับ (หรือ_หมุน_) เวอร์ชันของคีย์ที่ถูกใช้สำหรับการเข้ารหัสลับ cmdlet เพียงแค่อัปเดต `-KeyVaultKeyUri` สำหรับคีย์ `-Name`:
+- ใช้ [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) เพื่อสลับ (หรือ_หมุน_) เวอร์ชันของคีย์ที่ถูกใช้สำหรับการเข้ารหัสลับ cmdlet เพียงแค่อัปเดต `-KeyVaultKeyUri` สำหรับคีย์ `-Name`:
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

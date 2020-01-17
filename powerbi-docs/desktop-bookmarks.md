@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d22ac09ac357f3060e4fd79a4e9344a059dace53
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 08d222f03991bdf605f8e465ff0152d40d07d815
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311329"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761898"
 ---
-# <a name="use-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>ใช้บุ๊กมาร์ก Power BI Desktop เพื่อแชร์ข้อมูลเชิงลึก และสร้างเรื่องราว
+# <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>สร้างบุ๊กมาร์ก Power BI Desktop เพื่อแชร์ข้อมูลเชิงลึก และสร้างเรื่องราว
 ด้วย*บุ๊กมาร์ก*ใน Power BI Desktop คุณสามารถจับภาพมุมมองที่กำหนดค่าไว้ในปัจจุบันของหน้ารายงาน รวมถึงการกรองและสถานะของวิชวล หลังจากนั้น คุณสามารถกลับไปยังสถานะดังกล่าวโดยการเลือกบุ๊กมาร์กที่บันทึกไว้ 
 
 นอกจากนี้คุณยังสามารถสร้างคอลเลกชันของบุ๊กมาร์ก จัดเรียงรายการต่าง ๆ ในลำดับที่คุณต้องการ และหลังจากนั้น คุณสามารถไปยังทีละบุ๊กมาร์กในงานนำเสนอเพื่อไฮไลต์ชุดข้อมูลเชิงลึก หรือเรื่องราวที่คุณต้องการบอกด้วยวิชวลและรายงานของคุณได้ 

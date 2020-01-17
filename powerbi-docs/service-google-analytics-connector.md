@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da7d4de1aa356c9df5004ecc07d479188d9e3a9e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4b279ebb1ae4ae34f1b9832883ddde5d804a7ace
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881413"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762404"
 ---
-# <a name="google-analytics-connector-for-power-bi-desktop"></a>ตัวเชื่อมต่อ Google Analytics สำหรับ Power BI Desktop
+# <a name="use-the-google-analytics-connector-for-power-bi-desktop"></a>ใช้ตัวเชื่อมต่อ Google Analytics สำหรับ Power BI Desktop
 > [!NOTE]
 > ชุดเนื้อหา Google Analytics และตัวเชื่อมต่อใน Power BI Desktop พึ่งพา Google Analytics Core Reporting API ด้วยเหตุนี้ คุณลักษณะและความพร้อมใช้งาน อาจแตกต่างกันไปตามเวลา
 

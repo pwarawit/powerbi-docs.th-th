@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 31caf34b9167c282dc36afd5322458f76e7a7614
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c63b84b506b872831c1a5ce00f6ef0e79f993849
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878583"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761668"
 ---
-# <a name="connect-to-excel-in-power-bi-desktop"></a>เชื่อมต่อไปยัง Excel ใน Power BI Desktop
+# <a name="connect-to-excel-workbooks-in-power-bi-desktop"></a>เชื่อมต่อกับเวิร์กบุ๊ก Excel ใน Power BI Desktop
 การเชื่อมต่อกับเวิร์กบุ๊ก Excel จาก Power BI Desktop เป็นเรื่องตรงไปตรงมา และบทความนี้จะแนะนำทีละขั้นตอนให้กับคุณ
 
 ใน Power BI Desktop เลือก**รับข้อมูล > Excel** จาก ribbon **หน้าแรก**
@@ -50,7 +50,7 @@ Power BI Desktop แสดงตารางของข้อมูลอื่
 
 * [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
-* [จัดรูปทรง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [จัดรูปร่างและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [เชื่อมต่อกับไฟล์ CSV ใน Power BI Desktop](desktop-connect-csv.md)   
 * [ใส่ข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
 

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4dd6f185ea7d4f4664626586f1374f67bd34f784
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0e870163552e64594e574669ed8dea6937633282
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870927"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757733"
 ---
-# <a name="doughnut-charts-in-power-bi"></a>แผนภูมิโดนัทใน Power BI
+# <a name="create-and-use-doughnut-charts-in-power-bi"></a>สร้างและใช้แผนภูมิโดนัทใน Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -37,13 +37,13 @@ ms.locfileid: "73870927"
 
 ## <a name="create-a-doughnut-chart"></a>สร้างแผนภูมิโดนัท
 
-1. เริ่มต้นหน้ารายงานเปล่า และจากแถบรายการ เขตข้อมูล ให้เลือก **การขาย** \> **การขายปีก่อนหน้า**  
+1. เริ่มต้นที่หน้ารายงานเปล่า และจากบานหน้าต่างเขตข้อมูล เลือก **ยอดขาย** \> **ยอดขายปีล่าสุด**  
    
 3. ในส่วนบานหน้าต่างการแสดงภาพ ให้เลือกไอคอนสำหรับแผนภูมิโดนัท![ไอคอนแผนภูมิโดนัท](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) เพื่อแปลงแผนภูมิแท่งของคุณให้กลายเป็นแผนภูมิโดนัท ถ้า**ยอดขายปีล่าสุด**ไม่อยู่ในพื้นที่**ค่า** ให้ลากไปไว้ในส่วนนั้น
      
    ![บานหน้าต่างการแสดงภาพที่เลือกแผนภูมิโดนัทแล้ว](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 
-4. เลือก**สินค้า** \> **ประเภท** ที่จะเพิ่มไปยังพื้นที่**คำอธิบายแผนภูมิ** 
+4. เลือก **หน่วยข้อมูล** \> **หมวดหมู่** เพิ่มเพิ่มรายการไปยังพื้นที่ **คำอธิบายแผนภูมิ** 
      
     ![โดนัทถัดจากบานหน้าต่างเขตข้อมูล](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
 

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d67fbacece27ab75a3add89541dad77ce51a91f8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ced98b8290059b3098ce83efdd05bb2a20e2d5ee
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867494"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761145"
 ---
-# <a name="use-grouping-in-power-bi-desktop"></a>ใช้การจัดกลุ่มใน Power BI Desktop
+# <a name="group-visuals-in-power-bi-desktop-reports"></a>จัดกลุ่มวิชวลในรายงาน Power BI Desktop
 ด้วยคุณลักษณะ**การจัดกลุ่ม**ใน **Power BI Desktop**คุณสามารถจัดกลุ่มวิชวลเข้าด้วยกันในรายงานของคุณได้ เช่น ปุ่ม กล่องข้อความ ภาพรูปทรง และวิชวลที่คุณสร้างเช่นเดียวกับที่คุณจัดกลุ่มรายการใน PowerPoint การจัดกลุ่มวิชวลในรายงานช่วยให้คุณปฏิบัติต่อกลุ่มเช่นเดียวกับวัตถุเดี่ยว ทำให้เคลื่อนไหว ปรับขนาด และทำงานกับเลเยอร์ในรายงานของคุณได้ง่ายขึ้นเร็วขึ้น และทันใจขึ้น
 
 ![ใช้งานการจัดกลุ่ม](media/desktop-grouping-visuals/grouping-visuals-01.png)

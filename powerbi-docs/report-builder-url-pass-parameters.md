@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 08/29/2019
-ms.openlocfilehash: 44e56613a69069351f21aa7d515fc2bb296e6728
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b8301ca17559b81d4db132fbeaa0955ce68a4c6e
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74128255"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762151"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>ส่งผ่านพารามิเตอร์รายงานใน URL สำหรับรายงานที่มีการแบ่งหน้าใน Power BI 
 
@@ -64,6 +64,8 @@ rp:SalesOrderNumber:isnull=true
 
 > [!NOTE]
 > ถ้ารายงานของคุณมีพารามิเตอร์รายงานที่มีค่าเริ่มต้นและค่าของคุณสมบัติ **พร้อมท์** เป็น **false** (นั่นคือ**ผู้ใช้พร้อมท์** ไม่ได้เลือกคุณสมบัติในโปรแกรมจัดการรายงาน) จากนั้นคุณจะไม่สามารถส่งค่าสำหรับพารามิเตอร์รายงานนั้นได้ภายใน URL ซึ่งช่วยให้ผู้ดูแลระบบมีตัวเลือกในการป้องกันผู้ใช้ปลายมิให้เพิ่มหรือแก้ไขค่าของพารามิเตอร์รายงานบางอย่าง
+
+> Power BI ไม่สนับสนุนสตริงการคิวรีมากกว่า 900 ตัวอักขระ  ค่านี้สามารถเกินได้ถ้าคุณกำลังใช้พารามิเตอร์ url เพื่อดูรายงานที่มีการแบ่งหน้าของคุณ  ซึ่งเป็นจริงโดยเฉพาะอย่างยิ่งถ้าคุณกำลังใช้พารามิเตอร์แบบหลายค่า
 
 ## <a name="additional-examples"></a>ตัวอย่างเพิ่มเติม 
 

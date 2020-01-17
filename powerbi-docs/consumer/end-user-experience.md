@@ -91,7 +91,7 @@ ms.locfileid: "73851531"
    
    ![ทำเครื่องหมายให้เป็นรายการโปรด](./media/end-user-experience/power-bi-report-favorite.png)
 
-3. เปิด *หน้าต่าง***รายการโปรด** โดยเลือก **รายการโปรด** จากหน้าต่างนำทาง หรือโดยเลือกไอคอนรูปดาว ![ภาพถ่ายหน้าจอแสดงไอคอนรูปดาวสีเหลือง](media/end-user-experience/powerbi-star-icon.png)
+3. เปิด *หน้าต่าง* **รายการโปรด** โดยเลือก **รายการโปรด** จากหน้าต่างนำทาง หรือโดยเลือกไอคอนรูปดาว ![ภาพถ่ายหน้าจอแสดงไอคอนรูปดาวสีเหลือง](media/end-user-experience/powerbi-star-icon.png)
    
    ![เปิดหน้าจอรายการโปรด](./media/end-user-experience/power-bi-favorite-pane.png)
    

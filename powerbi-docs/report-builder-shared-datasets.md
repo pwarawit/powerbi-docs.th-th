@@ -1,20 +1,20 @@
 ---
-title: ใช้ชุดข้อมูลที่ใช้ร่วมกันในตัวสร้างรายงานแบบแบ่งหน้า Power BI
-description: เชื่อมต่อกับชุดข้อมูลที่ใช้ร่วมกันจากตัวสร้างรายงานแบบแบ่งหน้า Power BI
-ms.date: 07/23/2019
+title: สร้างรายงานแบบแบ่งหน้าด้วยชุดข้อมูลที่ใช้ร่วมกันของ Power BI - ตัวสร้างรายงาน Power BI
+description: สร้างรายงานแบบแบ่งหน้าในตัวสร้างรายงาน Power BI โดยอ้างอิงจากชุดข้อมูลที่ใช้ร่วมกันของ Power BI
+ms.date: 01/03/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73791268"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691462"
 ---
-# <a name="use-shared-datasets-in-power-bi-report-builder"></a>ใช้ชุดข้อมูลที่ใช้ร่วมกันในตัวสร้างรายงาน Power BI
+# <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>สร้างรายงานแบบแบ่งหน้าโดยอ้างอิงจากชุดข้อมูลที่ใช้ร่วมกันของ Power BI
 
 คุณสามารถใช้ชุดข้อมูลที่คุณสร้างใน Power BI Desktop เป็นแหล่งข้อมูลสำหรับรายงานแบบแบ่งหน้าจากตัวสร้างรายงาน Power BI นึกภาพสถานการณ์สมมตินี้: คุณได้สร้างรายงาน Power BI ใน Power BI Desktop คุณใช้เวลามากมายในการออกแบบแบบจำลองข้อมูล จากนั้นสร้างรายงาน Power BI ที่สวยงามพร้อมวิชวลที่ยอดเยี่ยมทุกประเภท รายงานของคุณมีเมทริกซ์ที่มีหลายแถว ดังนั้นคุณต้องเลื่อนเพื่อดูทั้งหมด ผู้อ่านรายงานของคุณต้องการรายงานที่พวกเขาสามารถพิมพ์ออกมาได้ ซึ่งจะแสดงแถวทั้งหมดในเมทริกซ์นั้น รายงานแบบแบ่งหน้าของ Power BI จะสามารถทำได้: พิมพ์ตารางหรือเมทริกซ์ที่รันไปหลายหน้า ด้วยส่วนหัวและส่วนท้ายของหน้าและเค้าโครงหน้าที่สมบูรณ์แบบที่คุณออกแบบ ซึ่งจะเติมเต็มรายงาน Power BI Desktop คุณต้องการให้รายงานยึดตามข้อมูลเดียวกันอย่างแม่นยำ ไม่มีความขัดแย้ง ดังนั้นคุณต้องใช้ชุดข้อมูลเดียวกัน
 

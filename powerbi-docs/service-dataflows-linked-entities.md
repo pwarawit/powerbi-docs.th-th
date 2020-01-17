@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 31e2e681bc4309e5dce31583e70e669bce5e466f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 3e6de89f66d6f6282fcde25a1d2be445e2721817
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877234"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762197"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>เชื่อมโยงเอนทิตีระหว่างกระแสข้อมูลใน Power BI
 
@@ -81,6 +81,7 @@ ms.locfileid: "73877234"
 * วงจรอ้างอิงของเเอนทิตี้ที่เชื่อมโยงไม่ได้รับอนุญาตให้ใช้
 * กระแสข้อมูลต้องอยู่ใน[พื้นที่ทำงาน Power BI ใหม่](service-create-the-new-workspaces.md)
 * คุณไม่สามารถเชื่อมโยงเอนทิตีที่เชื่อมโยงแล้วกับเอนทิตีปกติที่ได้รับข้อมูลจากแหล่งข้อมูลในองค์กรได้
+* เมื่อมีการใช้คิวรี (ตัวอย่างเช่น คิวรี A) ในการคำนวณของคิวรีอื่น (คิวรี B) ในกระแสข้อมูล คิวรี B จะกลายเป็นเอนทิตีที่มีการคำนวณ คิวรีที่คำนวณไม่สามารถอ้างอิงไปยังแหล่งข้อมูลภายในองค์กรได้
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

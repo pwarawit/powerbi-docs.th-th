@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 116575898812e82f2f15126d0fee640902367ace
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878674"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761760"
 ---
-# <a name="common-query-tasks-in-power-bi-desktop"></a>งานคิวรีที่ใช้บ่อยใน Power BI Desktop
+# <a name="perform-common-query-tasks-in-power-bi-desktop"></a>ใช้งานคิวรีที่ใช้บ่อยใน Power BI Desktop
 เมื่อทำงานในหน้าต่าง **ตัวแก้ไขคิวรี** ของ Power BI Desktop มีงานอยู่ไม่กี่อย่างที่ใช้งานบ่อย ๆ เอกสารนี้ สาธิตงานที่ใช้บ่อยเหล่านั้น และมีลิงก์ให้สำหรับข้อมูลเพิ่มเติม 
 
 งานคิวรีที่ใช้บ่อย ที่จะสาธิตให้ดู มีดังนี้:
 
 * เชื่อมต่อกับข้อมูล
-* จัดรูปร่าง และรวมข้อมูล
+* จัดรูปร่างและรวมข้อมูล
 * จัดกลุ่มแถว
 * Pivot คอลัมน์
 * สร้างคอลัมน์แบบกำหนดเอง

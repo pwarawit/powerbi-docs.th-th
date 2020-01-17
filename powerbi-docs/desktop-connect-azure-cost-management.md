@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1a09bd706a69156066f077bfb1668dd27448bd40
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf83df157738621116eb9e5461876eee8faf0863
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878603"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761691"
 ---
-# <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>เชื่อมต่อไปยัง Azure Cost Management ใน Power BI Desktop
+# <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>สร้างวิชวลและรายงานด้วยตัวเชื่อมต่อ Azure Cost Management ใน Power BI Desktop
 
 คุณสามารถใช้ตัวเชื่อมต่อการจัดการค่าใช้จ่ายของ Azure สำหรับ Power BI Desktop เพื่อสร้างการแสดงภาพและรายงานแบบกำหนดเองที่ทรงพลังซึ่งช่วยให้คุณเข้าใจการใช้งาน Azure ของคุณได้ดียิ่งขึ้น ตัวเชื่อมต่อ Azure Cost Management ในขณะนี้สนับสนุนลูกค้าด้วย[Microsoft Customer Agreement](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/) หรือ [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/)  
 
@@ -36,7 +36,7 @@ ms.locfileid: "73878603"
 
     ![รับข้อมูล](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
 
-4. ในกล่องโต้ตอบที่ปรากฏขึ้นให้ใส่**ID โปรไฟล์การชำระเงินของคุณ**  **ข้อตกลงของลูกค้า Microsoft**  หรือ **หมาขเลขการสมัครเข้า** ของคุณสำหรับ **ข้อตกลงองค์กร (EA)** 
+4. ในกล่องโต้ตอบที่ปรากฏขึ้นให้ใส่**ID โปรไฟล์การชำระเงินของคุณ** **ข้อตกลงของลูกค้า Microsoft**  หรือ **หมาขเลขการสมัครเข้า** ของคุณสำหรับ **ข้อตกลงองค์กร (EA)** 
 
 
 ## <a name="connect-to-a-microsoft-customer-agreement-account"></a>เชื่อมต่อกับบัญชีข้อตกลงลูกค้าของ Microsoft 

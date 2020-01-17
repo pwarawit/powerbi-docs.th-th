@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69b6cd3200627c5b0523fce914eae5899e594c27
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 925d63f0abf92bd7a9c0d5fdd2ff6eff5b88b961
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867235"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761168"
 ---
-# <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>ใช้ข้อมูลเชิงลึกใน Power BI Desktop เพื่ออธิบายการเพิ่มและลดลงที่เห็นในภาพ (ตัวอย่าง)
+# <a name="apply-insights-in-power-bi-desktop-to-explain-fluctuations-in-visuals-preview"></a>ปรับใช้ข้อมูลเชิงลึกใน Power BI Desktop เพื่ออธิบายการผันผวนของวิชวล (ตัวอย่าง)
 
 บ่อยครั้งในการแสดงผลด้วยภาพ คุณเห็นการเพิ่มอย่างมาก จากนั้นค่าจะลดลงอย่างรวดเร็ว และสงสัยเกี่ยวกับสาเหตุของความผันผวนดังกล่าว คุณสามารถเรียนรู้สาเหตุด้วยการคลิกเพียงไม่กี่ครั้งด้วย**ข้อมูลเชิงลึก**ใน**Power BI Desktop**
 

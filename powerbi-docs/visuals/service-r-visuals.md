@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: efbeda396217c1a715f9a5d7ae4827c5f8d09a25
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 837412a85eff14c8eaa72fbf1625cadde524cc76
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699003"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762224"
 ---
-# <a name="r-visuals-in-power-bi"></a>วิชวล R ใน Power BI
+# <a name="create-and-use-r-visuals-in-power-bi"></a>สร้างและใช้วิชวล R ใน Power BI
 ในปัจจุบันสามารถสร้างภาพ R ได้ใน **Power BI Desktop**เท่านั้น จากนั้นเผยแพร่ไปยังบริการ Power BI สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสร้างวิชวล R โปรดดู [สร้างวิชวล Power BI โดยใช้ภาษา R ](../desktop-r-visuals.md)
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>การดูวิชวล R ในบริการ Power BI
@@ -87,6 +87,7 @@ ms.locfileid: "74699003"
 
 * การสนับสนุนวิชวล R จะถูกจำกัดสำหรับแพคเกจที่ระบุ [ในการเรียนรู้เรื่อง แพคเกจ R ตัวใดบ้างที่ได้รับการสนับสนุน](../service-r-packages-support.md) ในขณะนี้ยังไม่สนับสนุนสำหรับแพคเกจแบบกำหนดเอง
 * ข้อจำกัดของขนาดข้อมูล – ข้อมูลที่ใช้โดยภาพ R สำหรับการลงจุดจะถูกจำกัดไว้ที่ 150,000 แถว ถ้าเลือกมากกว่า 150,000 แถว จะมีการใช้งานเฉพาะ 150,000 แถวบนสุด และข้อความจะแสดงบนรูปภาพ
+* ความละเอียด - วิชวล R ทั้งหมดจะแสดงที่ 72 DPI
 * ข้อจำกัดด้านเวลาคำนวณ – ถ้าการคำนวณภาพ R เกิน 60 วินาทีซึ่งหมดเวลาการดำเนินการสคริปต์ จะส่งผลให้เกิดข้อผิดพลาด
 * ภาพ R ได้รับการรีเฟรชเมื่อมีการปรับปรุงข้อมูล การกรอง และการทำไฮไลท์ อย่างไรก็ตาม รูปภาพนั้นไม่ได้เป็นแบบโต้ตอบและไม่สนับสนุนเคล็ดลับเครื่องมือ
 * ภาพ R ตอบสนองต่อการทำไฮไลท์ภาพอื่น ๆ แต่คุณไม่สามารถคลิกที่องค์ประกอบในภาพ R เพื่อกรองข้ามองค์ประกอบอื่น ๆ ได้

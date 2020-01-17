@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 567b775cb7323dbd343f2a26d4abc0d60885ab7a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 21ec26182efe2d0b08b2a64227264d5b80756962
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877976"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760738"
 ---
-# <a name="create-power-bi-visuals-using-python"></a>สร้างภาพของ Power BI โดยใช้ Python
+# <a name="create-power-bi-visuals-by-using-python"></a>สร้างภาพของ Power BI โดยใช้ Python
 ด้วย **Power BI Desktop** คุณสามารถใช้ **Python** เพื่อแสดงภาพข้อมูลของคุณได้
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
@@ -167,6 +167,7 @@ plt.show()
 วิชวล Python ใน **Power BI Desktop** มีข้อจำกัดสองถึงสามประการ:
 
 * ข้อจำกัดของขนาดข้อมูล – ข้อมูลที่ใช้โดยวิชวล Python สำหรับการลงจุดจะถูกจำกัดไว้ที่ 150,000 แถว ถ้าเลือกมากกว่า 150,000 แถว จะมีการใช้งานเฉพาะ 150,000 แถวบนสุด และข้อความจะแสดงบนรูปภาพ
+* ความละเอียด - วิชวล Python ทั้งหมดจะแสดงที่ 72 DPI
 * ข้อจำกัดเวลาคำนวณ – ถ้าการคำนวณวิชวล Python นานเกิน 5 นาที การดำเนินการจะหมดเวลา ส่งผลให้เกิดข้อผิดพลาด
 * ความสัมพันธ์ – เช่นเดียวกับภาพอื่น ๆ ของ Power BI Desktop ถ้ามีการเลือกเขตข้อมูลจากตารางต่าง ๆ โดยไม่มีความสัมพันธ์ที่กำหนดระหว่างกัน จะเกิดข้อผิดพลาดขึ้น
 * วิชวล Python จะถูกรีเฟรชเมื่อมีการปรับปรุงข้อมูล การกรอง และการทำไฮไลท์ อย่างไรก็ตาม รูปภาพนั้นไม่ได้มีการโต้ตอบและไม่สามารถแหล่งที่มาของการกรองข้ามได้

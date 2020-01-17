@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 03a426947787cbd2720661267cac4601a4b9b13a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 11be774515552d10846b51863eda6c155b92b57f
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880941"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758094"
 ---
-# <a name="combo-chart-in-power-bi"></a>แผนภูมิผสมใน Power BI
+# <a name="create-and-use-combo-charts-in-power-bi"></a>สร้างและใช้แผนภูมิผสมใน Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -50,7 +50,7 @@ ms.locfileid: "73880941"
 ## <a name="create-a-basic-single-axis-combo-chart"></a>สร้างแผนภูมิผสมแบบพื้นฐานที่มีแกนเดียว
 ดู Will สร้างแผนภูมิผสมโดยใช้ตัวอย่างการวิเคราะห์ด้านการขายปลีก
    > [!NOTE]
-   > วิดีโอนี้ใช้ Power BI Desktop เวอร์ชั่นเก่า
+   > วิดีโอนี้ใช้ Power BI Desktop เวอร์ชันเก่า
    > 
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>  
@@ -59,11 +59,11 @@ ms.locfileid: "73880941"
 
 1. เริ่มจากหน้ารายงานเปล่าและจัดทำแผนภูมิแท่งที่แสดงยอดขายต่อปีและกำไรเบื้องต้นต่อเดือน
 
-    a.  จากบานหน้าต่างเขตข้อมูล เลือก**ยอดขาย** \> **ยอดขายปีนี้** > **ค่า**
+    a.  จากบานหน้าต่างเขตข้อมูล เลือก**ยอดขาย**\>**ยอดขายปีนี้** > **ค่า**
 
-    b.  ลาก**ยอดขาย** \> **กำไรขั้นต้นปีนี้** ไปยัง**ค่า**
+    b.  ลาก **ยอดขาย** \> **กำไรขั้นต้นปีนี้** ไปยัง **ค่า**
 
-    c. เลือก**เวลา** \> **เดือนทางบัญชี**เพื่อเพิ่มไปยัง**แกน**
+    c. เลือก **เวลา** \> **FiscalMonth** เพื่อเพิ่มไปยัง **แกน**
 
     ![ตัวอย่างบทช่วยสอนแบบผสมผสาน](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. เลือก **ตัวเลือกเพิ่มเติม** (...) ที่มุมบนขวาของการแสดงภาพและเลือก **เรียงลำดับตาม > FiscalMonth** เมื่อต้องเปลี่ยนลำดับการจัดเรียง เลือกจุดไข่ปลาอีกครั้ง แล้วคลิก**เรียงลำดับจากน้อยไปมาก**หรือ**เรียงลำดับจากมากไปน้อย** ในตัวอย่างนี้เราจะใช้ **เรียงลำดับจากน้อยไปมาก**
@@ -71,7 +71,7 @@ ms.locfileid: "73880941"
 6. แปลงแผนภูมิคอลัมน์ให้เป็นแผนภูมิผสม มีแผนภูมิผสมสองแผนภูมิที่สามารถใช้งานได้: **เส้นกับคอลัมน์แบบเรียงซ้อน**และ**เส้นกับแผนภูมิคอลัมน์กลุ่ม** เมื่อยังเลือกแผนภูมิคอลัมน์นี้อยู่ ในบานหน้าต่าง**แสดงภาพ** เลือก**แผนภูมิเส้นและแผนภูมิกลุ่มคอลัมน์**
 
     ![ตัวอย่างการแปลงแผนภูมิผสมผสาน](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
-7. จากบานหน้าต่าง**เขตข้อมูล** ลาก**ยอดขาย** \> **ยอดขายปีที่แล้ว** ไปยังบักเก็ต**ค่าเส้นตรง**
+7. จากบานหน้าต่าง**เขตข้อมูล** ลาก **ยอดขาย** \> **ยอดขายปีล่าสุด** ไปยังบักเก็ต**ค่าเส้นตรง**
 
    ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 

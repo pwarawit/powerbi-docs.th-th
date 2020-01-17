@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 16af5a6c8b5341067c458329c68da0a1a0fe14a5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2dca4094ed0c21c421aa2fef89353e6f210b3ea4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311487"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761490"
 ---
-# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>ปรับรายงานให้เหมาะสมสำหรับแอป Power BI ในมือถือ
+# <a name="optimize-power-bi-reports-for-the-mobile-app"></a>ปรับรายงาน Power BI ให้เหมาะสมสำหรับแอปมือถือ
 คุณสามารถเพิ่มประสบการณ์การดูรายงานของคุณในรูปแบบแอปมือถือด้วยการสร้างเค้าโครงแนวตั้ง ใน Power BI Desktop และบริการของ Power BI คุณสามารถจัดเรียงใหม่และปรับขนาดรายงานวิชวลสำหรับประสบการณ์ใช้งานที่ดีที่สุดในโหมดแนวตั้ง  
 
 กำลังค้นหาข้อมูลเกี่ยวกับการดูรายงานบนอุปกรณ์เคลื่อนที่แทนใช่หรือไม่ ลองใช้การเริ่มต้นใช้งานด่วน[ แดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md)

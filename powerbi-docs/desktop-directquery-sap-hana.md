@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8d5923c111debb14aab46977d42f3357837d9399
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 86307a871503dd42e565099b810cb82efa109417
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73878295"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761237"
 ---
-# <a name="directquery-and-sap-hana"></a>DirectQuery และ SAP HANA
+# <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>เชื่อมต่อกับแหล่งข้อมูล SAP HANA ได้โดยตรงโดยใช้ DirectQuery ใน Power BI
 คุณสามารถเชื่อมต่อกับแหล่งข้อมูล **SAP HANA** ได้โดยตรงโดยใช้ **DirectQuery** มีตัวเลือกสองตัวเลือกในการเชื่อมต่อกับ SAP HANA:
 
 * **ถือว่า SAP HANA เป็นแหล่งข้อมูลหลายมิติ (ค่าเริ่มต้น):**  ในกรณีนี้ ลักษณะการทำงานจะคล้ายกับกรณีที่ Power BI ่เชื่อมต่อกับแหล่งข้อมูลหลายมิติอื่นๆ เช่น SAP Business Warehouse หรือ Analysis Services เมื่อเชื่อมต่อกับ SAP HANA ที่ใช้การตั้งค่านี้ มุมมองการวิเคราะห์หรือการคำนวณเดียวจะถูกเลือก และหน่วยวัด ลำดับชั้นและแอตทริบิวต์ทั้งหมดของมุมมองนั้นจะพร้อมใช้งานในรายการเขตข้อมูล เมื่อสร้างการแสดงผลด้วยภาพแล้ว ข้อมูลรวมจะถูกเรียกใช้จาก SAP HANA เสมอ วิธีนี้เป็นวิธีที่แนะนำ และเป็นค่าเริ่มต้นสำหรับรายงาน DirectQuery ใหม่ผ่าน SAP HANA

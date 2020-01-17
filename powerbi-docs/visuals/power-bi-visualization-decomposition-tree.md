@@ -7,17 +7,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/13/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d653bb0193351e2ecb38c09e6b34d02eea5cce67
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060631"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885267"
 ---
-# <a name="use-the-decomposition-tree-visual-in-power-bi-preview"></a>ใช้โครงข่ายของข้อมูลใน Power BI (ตัวอย่าง)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>สร้างวิชวลโครงข่ายของข้อมูลใน Power BI (ตัวอย่าง)
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 การแสดงผลด้วยภาพโครงข่ายของข้อมูลใน Power BI ช่วยให้คุณสามารถแสดงภาพข้อมูลข้ามหลายมิติได้ โดยจะรวมข้อมูลและช่วยให้เจาะลึกลงในมิติของคุณในลำดับใดก็ได้ นอกจากนี้ยังเป็นการแสดงภาพข่าวกรอง (AI) แบบเทียมเพื่อให้คุณสามารถขอให้ค้นหามิติถัดไปเพื่อดูรายละเอียดแนวลึกตามเกณฑ์บางอย่าง ซึ่งทำให้เป็นเครื่องมือที่มีประโยชน์สำหรับการสำรวจแบบเฉพาะกิจและการดำเนินการวิเคราะห์สาเหตุหลัก
@@ -131,6 +131,8 @@ vs
 ![การล็อกโครงข่ายของข้อมูล](media/power-bi-visualization-decomposition-tree/tree-locking.png)
 
 ## <a name="known-limitations"></a>ข้อจำกัดที่ทราบ
+
+จำนวนสูงสุดของระดับสำหรับทรีคือ 50 จำนวนสูงสุดของจุดข้อมูลที่สามารถแสดงภาพได้ในหนึ่งครั้งบนทรีคือ 5,000 เราตัดทอนระดับเพื่อแสดง Top n ในปัจจุบัน Top n ต่อระดับจะถูกตั้งค่าเป็น 10 
 
 โครงข่ายของข้อมูลไม่สนับสนุนสถานการณ์ต่อไปนี้:  
 -   ไม่สามารถเข้าถึงบริการการวิเคราะห์ภายในองค์กรได้

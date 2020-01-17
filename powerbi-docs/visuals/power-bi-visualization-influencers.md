@@ -6,17 +6,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 10/22/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 413e30c04ac02e6b957f03494bf6a488edeacac0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871000"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885333"
 ---
-# <a name="key-influencers-visualization"></a>การแสดงภาพข้อมูลผู้มีอิทธิพลหลัก
+# <a name="create-key-influencers-visualizations"></a>สร้างการแสดงผลข้อมูลด้วยภาพของผู้มีอิทธิพลหลัก
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -57,7 +57,7 @@ ms.locfileid: "73871000"
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-ผู้จัดการผลิตภัณฑ์ของคุณต้องการให้คุณค้นหาว่าปัจจัยใดที่ทำให้ลูกค้าต้องแสดงความคิดเห็นเชิงลบเกี่ยวกับบริการคลาวด์ของคุณ หากต้องการทำตาม ให้เปิด [ไฟล์ PBIX คำติชมของลูกค้า](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) ใน Power BI Desktop คุณยังสามารถดาวน์โหลด [ไฟล์ Excel คำติชมของลูกค้าสำหรับบริการ Power BI หรือ Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx) เลือกลิงก์ใดก็ได้จากนั้นเลือก **ดาวน์โหลด** จากหน้า GitHub ที่เปิดขึ้น
+ผู้จัดการผลิตภัณฑ์ของคุณต้องการให้คุณค้นหาว่าปัจจัยใดที่ทำให้ลูกค้าต้องแสดงความคิดเห็นเชิงลบเกี่ยวกับบริการคลาวด์ของคุณ หากต้องการทำตาม ให้เปิด [ไฟล์ PBIX คำติชมของลูกค้า](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix) ใน Power BI Desktop คุณยังสามารถดาวน์โหลด [ไฟล์ Excel คำติชมของลูกค้าสำหรับบริการ Power BI หรือ Power BI Desktop](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx) เลือกลิงก์ใดก็ได้จากนั้นเลือก **ดาวน์โหลด** จากหน้า GitHub ที่เปิดขึ้น
 
 > [!NOTE]
 > ชุดข้อมูลคำติชมของลูกค้าขึ้นอยู่กับ [Moro et al., 2014] S. Moro, P. Cortez และ P. Rita “แนวทางการขับเคลื่อนด้วยข้อมูลเพื่อทำนายความสำเร็จของการตลาดทางโทรศัพท์ของธนาคาร” *ระบบสนับสนุนการตัดสินใจ*, Elsevier, 62:22-31, มิถุนายน 2014 
@@ -267,6 +267,8 @@ ms.locfileid: "73871000"
  
 วิชวลของผู้มีอิทธิพลหลักมีข้อจำกัดบางอย่าง:
 
+
+
 - ไม่สนับสนุน Direct Query
 - การเชื่อมต่อสดไปยัง Azure Analysis Services และ SQL Server Analysis Services ไม่ได้รับการสนับสนุน
 - ไม่รองรับการเผยแพร่บนเว็บ
@@ -357,6 +359,9 @@ ms.locfileid: "73871000"
 เหตุผลในการพิจารณานี้คือการแสดงภาพข้อมูลนั้นคำนึงถึงจำนวนของจุดข้อมูลด้วยเมื่อค้นหาผู้มีอิทธิพล ตัวอย่างต่อไปนี้มีลูกค้ามากกว่า 29,000 คน และมีผู้ดูแลระบบน้อยกว่า 10 เท่า ประมาณ 2,900 คน มีเพียง 390 คนเท่านั้นที่ให้คะแนนต่ำ ภาพวิชวลนั้นไม่มีข้อมูลเพียงพอที่จะพิจารณาว่าเป็นรูปแบบที่มีการให้คะแนนโดยผู้ดูแลระบบหรือเป็นเพียงการค้นหาโอกาสเท่านั้น 
 
 ![วิธีการกำหนดผู้มีอิทธิพล](media/power-bi-visualization-influencers/power-bi-error5.png)
+
+**ขีดจำกัดจุดข้อมูลสำหรับผู้มีอิทธิพลหลักคืออะไร**
+เราเรียกใช้การวิเคราะห์เกี่ยวกับตัวอย่างของจุดข้อมูล 10,000 รายการ ฟองอากาศด้านหนึ่งแสดงถึงผู้มีอิทธิพลทั้งหมดที่พบ แผนภูมิคอลัมน์และ scatterplots ในอีกด้านหนึ่งจะปฏิบัติตามกลยุทธ์การสุ่มตัวอย่างสำหรับวิชวลหลักเหล่านั้น
 
 **คุณจะคำนวณผู้มีอิทธิพลหลักสำหรับการวิเคราะห์ตามประเภทได้อย่างไร**
 

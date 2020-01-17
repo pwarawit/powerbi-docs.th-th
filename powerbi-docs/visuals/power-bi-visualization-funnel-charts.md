@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1394d71a5a2e811da23e18b9ee0d98f171f19083
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 356d738795f8bf99ba1e2f8dfc705b23f52a6d5e
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880837"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762450"
 ---
-# <a name="funnel-charts"></a>แผนภูมิกรวย
+# <a name="create-and-use-funnel-charts"></a>สร้างและใช้แผนภูมิกรวย
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -71,13 +71,13 @@ ms.locfileid: "73880837"
 
 ตอนนี้ ลองสร้างแผนภูมิของคุณเอง ที่แสดงจำนวนโอกาสที่เรามีในแต่ละของขั้นตอนการขายของเรา
 
-1. เริ่มต้นจาก**หน้ารายงานเปล่า** และเลือกเขตข้อมูลขั้นตอนการขาย\> **ขั้นตอนการขาย**
+1. เริ่มต้นที่หน้ารายงานที่ว่างเปล่า แล้วเลือกเขตข้อมูล **SalesStage** \> **ขั้นตอนการขาย**
    
     ![เลือกขั้นตอนการขาย](media/power-bi-visualization-funnel-charts/funnelselectfield-new.png)
 
 1. เลือกไอคอนกรวย ![ไอคอนแผนภูมิกรวย](media/power-bi-visualization-funnel-charts/power-bi-funnel-icon.png) การแปลงแผนภูมิคอลัมน์ให้เป็นแผนภูมิกรวย
 
-2. จากบานหน้าต่าง**เขตข้อมูล** เลือก**ข้อเท็จจริง** \> **จำนวนโอกาส**
+2. จากบานหน้าต่าง **เขตข้อมูล** เลือก **ข้อเท็จจริง** \> **จำนวนโอกาส**
    
     ![สร้างแผนภูมิกรวย](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. โฮเวอร์เหนือแท่ง จะแสดงข้อมูลจำนวนมากออกมา

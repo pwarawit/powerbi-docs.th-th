@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e4a805db851e63a725a866065a774ef8ecc23c24
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7d4aaa613ac2d79a08ed6bbc03ba47dd296942de
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879594"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759600"
 ---
-# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>บทช่วยสอน: วิเคราะห์ข้อมูลเว็บเพจโดยใช้ Power BI Desktop
+# <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>บทช่วยสอน: วิเคราะห์ข้อมูลเว็บเพจโดยใช้ Power BI Desktop
 
 ในฐานะที่เป็นแฟนฟุตบอลมานาน คุณต้องการรายงานของแชมป์ ฟุตบอลชิงแชมป์แห่งชาติยุโรป (ถ้วยฟุตบอลยูโร) ในแต่ละปี ด้วย Power BI Desktop คุณสามารถนำเข้าข้อมูลนี้จากเว็บเพจลงในรายงาน และสร้างการแสดงภาพที่แสดงข้อมูล ในบทช่วยสอนนี้ คุณจะเรียนรู้วิธีการใช้ Power BI Desktop เพื่อ:
 
@@ -184,7 +184,7 @@ ms.locfileid: "73879594"
 
 Power BI Desktop ให้ประสบการณ์ที่ราบรื่น ตั้งแต่การรับข้อมูลจากแหล่งข้อมูลต่าง ๆ และจัดรูปทรงให้ตรงกับความต้องการการวิเคราะห์ของคุณ ไปจนถึงการแสดงข้อมูลนี้ในแบบที่สวยงามและโต้ตอบได้ เมื่อรายงานของคุณพร้อมแล้ว คุณสามารถ[อัปโหลดไปยัง Power BI](desktop-upload-desktop-files.md)ได้ และสร้างแดชบอร์ดโดยยึดตามรายงานดังกล่าวที่คุณสามารถใช้ร่วมกันกับผู้ใช้ Power BI อื่นได้
 
-## <a name="see-also"></a>ดูเพิ่มเติม
+## <a name="see-also"></a>อาจดูได้จาก
 * [อ่านบทช่วยสอนอื่น ๆ Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521937)
 * [ดูวิดีโอ Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=519322)
 * [เยี่ยมชมกระดานสนทนา Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)

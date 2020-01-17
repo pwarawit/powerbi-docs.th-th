@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 37cbea42d530f05df1d9f1003554680b80c5b5c3
-ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
+ms.openlocfilehash: ba9c11004099b1e11d935cd0b178463e542bea9a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/07/2019
-ms.locfileid: "74907969"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761806"
 ---
-# <a name="aggregations-in-power-bi-desktop"></a>การรวมข้อมูลใน Power BI Desktop
+# <a name="manage-aggregations-in-power-bi-desktop"></a>จัดการการรวมข้อมูลใน Power BI Desktop
 
 การใช้**การรวม**ใน Power BI ช่วยให้สามารถวิเคราะห์แบบโต้ตอบกับข้อมูลขนาดใหญ่ในรูปแบบที่ก่อนหน้านี้ไม่สามารถทำได้ **การรวม**สามารถลดค่าใช้จ่ายในการปลดล็อกชุดข้อมูลขนาดใหญ่เพื่อการตัดสินใจได้อย่างมาก
 
@@ -115,7 +115,7 @@ ms.locfileid: "74907969"
 เมนูแบบเลื่อนลง การสรุป มีค่าต่อไปนี้สำหรับการเลือก
 * จำนวน
 * GroupBy
-* สูงสุด
+* Max
 * ต่ำสุด
 * ผลรวม
 * นับแถวของตาราง

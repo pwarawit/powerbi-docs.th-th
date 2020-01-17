@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 12/03/2019
-ms.openlocfilehash: a7f0e6f08f25d47cd50789a3c8f296ae20c4cab0
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.date: 01/03/2020
+ms.openlocfilehash: 5f77e17eccf4c99e7a391ea310a34848c604e01d
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831193"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732095"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>เผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI
 
 ในบทความนี้ คุณจะได้เรียนรู้เกี่ยวกับการเผยแพร่รายงานแบบแบ่งหน้าไปยังบริการของ Power BI โดยการอัปโหลดจากคอมพิวเตอร์ของคุณเอง คุณสามารถอัปโหลดรายงานแบบแบ่งหน้าไปยัง "พื้นที่ทำงานของฉัน" หรือพื้นที่ทำงานอื่นได้ ตราบเท่าที่พื้นที่ทำงานนั้นอยู่ในความจุ Premium มองหาไอคอนรูปข้าวหลามตัด ![ไอคอนรูปข้าวหลามตัดของความจุ Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ถัดจากชื่อพื้นที่ทำงาน 
 
-ถ้าแหล่งข้อมูลของรายงานของคุณอยู่ในองค์กร คุณต้อง[สร้างเกตเวย์](#create-a-gateway)หลังจากที่อัปโหลดรายงานแล้ว
+หากแหล่งข้อมูลของรายงานของคุณอยู่ในองค์กร คุณต้องสร้างเกตเวย์หลังจากที่อัปโหลดรายงานแล้ว ดูที่ส่วน [สร้างเกตเวย์](#create-a-gateway) ในภายหลังในบทความนี้
 
 ## <a name="add-a-workspace-to-a-premium-capacity"></a>เพิ่มพื้นที่ทำงานไปยังความจุพรีเมียม
 
@@ -35,8 +35,33 @@ ms.locfileid: "74831193"
 
    คุณอาจไม่สามารถเปลี่ยนได้ ถ้าเปลี่ยนไม่ได้ โปรดติดต่อผู้ดูแลความจุ Power BI Premium เพื่อให้สิทธิ์ในการกำหนดกับคุณ เพื่อเพิ่มพื้นที่ทำงานไปยังความจุพรีเมียม
 
+## <a name="from-report-builder-publish-a-paginated-report"></a>จากตัวสร้างรายงาน เผยแพร่รายงานที่มีการแบ่งหน้า
 
-## <a name="upload-a-paginated-report"></a>อัปโหลดรายงานแบบแบ่งหน้า
+1. สร้างรายงานแบบแบ่งหน้าในตัวสร้างรายงานและบันทึกลงคอมพิวเตอร์ของคุณ
+
+1. บนเมนู **ไฟล์** ของตัวสร้างรายงาน เลือก **บันทึกเป็น**
+
+    ![เมนู ไฟล์ > บันทึก > บันทึกเป็น](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
+
+    ถ้าคุณยังไม่ได้ลงชื่อเข้าใช้ Power BI คุณจำเป็นต้องลงชื่อเข้าใช้หรือสร้างบัญชีตอนนี้ ในมุมขวาบนของตัวสร้างรายงาน เลือก **ลงชื่อเข้าใช้** และดำเนินการตามขั้นตอนให้เสร็จสมบูรณ์
+
+2. ในรายการของพื้นที่ทำงานทางด้านซ้าย ให้เลือกพื้นที่ทำงานที่มีไอคอนรูปเพชร ![ไอคอนรูปเพชรความจุของ Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) ที่อยู่ถัดจากชื่อ พิมพ์**ชื่อไฟล์** ในกล่อง > **บันทึก** 
+
+    ![เลือกพื้นที่ทำงานแบบ Premium](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-workspace.png)
+
+4. เปิดบริการของ Power BI ในเบราว์เซอร์และเรียกดูไปที่พื้นที่ทำงานแบบ Premium ซึ่งคุณสามารถเผยแพร่รายงานที่มีการแบ่งหน้าได้ บนแท็บ **รายงาน** คุณจะมองเห็นรายงานของคุณ
+
+    ![รายงานแบบแบ่งหน้าในรายการรายงาน](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
+
+5. เลือกรายงานที่มีการแบ่งหน้าเพื่อเปิดในบริการของ Power BI ถ้ามีพารามิเตอร์ คุณต้องเลือกก่อนที่คุณจะสามารถดูรายงานได้
+
+    ![เลือกพารามิเตอร์](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-parameters.png)
+
+6. หากแหล่งข้อมูลรายงานของคุณอยู่ภายในองค์กร ให้อ่านเกี่ยวกับวิธีการ[สร้างเกตเวย์](#create-a-gateway)ในบทความนี้ เพื่อเข้าถึงแหล่งข้อมูล
+
+## <a name="from-the-power-bi-service-upload-a-paginated-report"></a>จากบริการของ Power BI อัปโหลดรายงานที่มีการแบ่งหน้า
+
+นอกจากนี้ คุณยังสามารถเริ่มต้นจากบริการของ Power BI และอัปโหลดรายงานที่มีการแบ่งหน้า
 
 1. สร้างรายงานแบบแบ่งหน้าในตัวสร้างรายงานและบันทึกลงคอมพิวเตอร์ของคุณ
 
@@ -62,13 +87,15 @@ ms.locfileid: "74831193"
 
     ![แก้ไขข้อมูลประจำตัว](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 
-   คุณจะเห็นรายงานของคุณอยู่ในรายการรายงาน
+   บนแท็บ **รายงาน** คุณจะมองเห็นรายงานของคุณ
 
     ![รายงานแบบแบ่งหน้าในรายการรายงาน](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
 
 1. เลือกเพื่อเปิดในบริการของ Power BI ถ้ามีพารามิเตอร์ คุณต้องเลือกก่อนที่คุณจะสามารถดูรายงานได้
  
     ![เลือกพารามิเตอร์](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-parameters.png)
+
+6. หากแหล่งข้อมูลรายงานของคุณอยู่ภายในองค์กร ให้อ่านเกี่ยวกับวิธีการ[สร้างเกตเวย์](#create-a-gateway)ในบทความนี้ เพื่อเข้าถึงแหล่งข้อมูล
 
 ## <a name="create-a-gateway"></a>สร้างเกตเวย์
 
@@ -89,4 +116,5 @@ ms.locfileid: "74831193"
 
 - [ดูรายงานแบบแบ่งหน้าในบริการของ Power BI](consumer/paginated-reports-view-power-bi-service.md)
 - [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](paginated-reports-report-builder-power-bi.md)
+- [บทช่วยสอน: ฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันสำหรับลูกค้าของคุณ](developer/embed-paginated-reports-customers.md)
 

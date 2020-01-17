@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53124f2b1ede9d8a9c3a9866416f713af1fd2061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: efd110ad73b1bd72813d418a1f641613c88dc0d5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877267"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762588"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>การใช้กระแสข้อมูลกับแหล่งข้อมูลภายในองค์กร
 
@@ -24,7 +24,8 @@ ms.locfileid: "73877267"
 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>การกำหนดค่าเกตเวย์ของบริษัทเพื่อใช้กับกระแสข้อมูล
 
-เมื่อต้องการใช้แหล่งข้อมูลในองค์กรในกระแสข้อมูล ผู้ใช้ที่สร้างกระแสข้อมูลต้องมี **เกตเวย์ของบริษัท** ติดตั้งและกำหนดค่าไว้เรียบร้อยแล้ว ผู้ใช้ที่สร้างกระแสข้อมูลต้องเป็นผู้ดูแลระบบของเกตเวย์ของบริษัท เพื่อใช้งานเกตเวย์สำหรับกระแสข้อมูลได้
+เมื่อต้องการสร้างกระแสข้อมูลโดยใช้เกตเวย์ ผู้ใช้จ้องเป็นผู้ดูแลระบบของ Enterprise Gateway หรือผู้ดูแลระบบจะต้องแบ่งปันแหล่งข้อมูลที่พวกเขาวางแผนที่จะใช้กับผู้ใช้ 
+
 
 > [!NOTE]
 > กระแสข้อมูลได้รับการรองรับเมื่อใช้เกตเวย์ของบริษัทเท่านั้น
@@ -35,7 +36,7 @@ ms.locfileid: "73877267"
 
 ![เลือกแหล่งข้อมูลในองค์กร](media/service-dataflows-onpremises-gateways/onpremises-gateways_02a.png)
 
-เมื่อคุณเลือก คุณจะได้รับแจ้งเตือนให้ระบุรายละเอียดการเชื่อมต่อสำหรับเกตเวย์ของบริษัทที่จะใช้ในการเข้าถึงข้อมูลในองค์กร คุณต้องเลือกเกตเวย์ แล้วให้ข้อมูลประจำตัวเกตเวย์ที่เลือก จะมีเฉพาะเกตเวย์ที่ผู้ใช้เป็นผู้ดูแลระบบเท่านั้นที่แสดงในรายการดรอปดาวน์
+เมื่อคุณเลือก คุณจะได้รับแจ้งเตือนให้ระบุรายละเอียดการเชื่อมต่อสำหรับเกตเวย์ของบริษัทที่จะใช้ในการเข้าถึงข้อมูลในองค์กร คุณต้องเลือกเกตเวย์ แล้วให้ข้อมูลประจำตัวเกตเวย์ที่เลือก
 
 ![ระบุรายละเอียดการเชื่อมต่อ](media/service-dataflows-onpremises-gateways/onpremises-gateways_03.png)
 

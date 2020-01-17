@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ca2f1cd4908f99d47519f2dfca42bf2afae5fbed
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c006d35baa14e68cca7009aabf79438321396802
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73878948"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761944"
 ---
-# <a name="consuming-reports-in-power-bi-with-accessibility-tools"></a>การใช้รายงานใน Power BI ด้วยเครื่องมือช่วยสำหรับการเข้าถึง
+# <a name="consume-power-bi-reports-by-using-accessibility-features"></a>ใช้รายงาน Power BI ด้วยคุณลักษณะการเข้าถึง
 Power BI มีคุณลักษณะที่อยู่ภายในจำนวนมากที่ช่วยให้ผู้ทุพพลภาพสามารถใช้ และโต้ตอบกับรายงาน Power BI ได้อย่างง่ายขึ้น เครื่องมือเหล่านี้ช่วยให้ผู้ใช้ได้รับข้อมูลเดียวกันจากรายงานเหมือนกับผู้ที่ไม่ได้ใช้เทคโนโลยีช่วยเหลือ
 
 ![การตั้งค่าความคมชัดสูงใน Windows](media/desktop-accessibility/accessibility-consuming-tools-01.png)

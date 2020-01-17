@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ffff443716f11101347debd97f28349afc3904bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876329"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761191"
 ---
-# <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery และ SAP Business Warehouse (BW)
+# <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>เชื่อมต่อกับ SAP Business Warehouse โดยใช้ DirectQuery ใน Power BI
 คุณสามารถเชื่อมต่อกับแหล่งข้อมูล **SAP Business Warehouse (BW)** ได้โดยตรงโดยใช้ **DirectQuery** เนื่องจากลักษณะแบบ OLAP/หลายมิติของ SAP BW ซึ่งมีความแตกต่างกันมากกว่าระหว่าง DirectQuery กับ SAP BW เมื่อเทียบกับแหล่งข้อมูลเชิงสัมพันธ์เช่น SQL Server ความแตกต่างเหล่านี้จะสรุปได้ดังนี้
 
 * เมืื่อเทียบ**DirectQuery**กับแหล่งข้อมูลเชิงสัมพันธ์ มีชุดของคิวรี่ (ตามที่กำหนดไว้ในการ**รับข้อมูล**หรือกล่องโต้ตอบ**ตัวแก้ไขคิวรี**) ที่กำหนดข้อมูลที่ใช้งานในรายการเขตข้อมูล นี่*ไมใช่่*กรณีเมื่อเชื่อมต่อกับแหล่งข้อมูล OLAP เช่น SAP BW แทนที่จะทำอย่างนั้น เมื่อเชื่อมต่อกับ SAP server โดยใช้**รับข้อมูล**เพียงแค่ Infocube หรือคิวรี่ BEx ถูกเลือกไว้ จากนั้น ตัวเลขคีย์และขนาดของคิวรี่ Infocube/BEx ที่เลือกทั้งหมดจะไม่มีอยู่ในรายการเขตข้อมูล   

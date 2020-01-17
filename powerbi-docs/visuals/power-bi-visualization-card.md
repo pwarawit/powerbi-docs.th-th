@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37b7a85534e1ad8f1f301994dea895e098758d1b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2b584c0664623f62b6d1d77cce74eaa51b0e9041
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870993"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758048"
 ---
-# <a name="card-visualizations"></a>การแสดงภาพการ์ด
+# <a name="create-card-visualizations"></a>สร้างการแสดงภาพการ์ด
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,7 +28,7 @@ ms.locfileid: "73870993"
 
 บทช่วยสอนนี้ใช้ [ไฟล์ PBIX ตัวอย่าง การวิเคราะห์การขายปลีก](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
-1. จากด้านซ้ายบนของแถบเมนู เลือก **ไฟล์** \> **เปิด**
+1. จากส่วนซ้ายบนของแถบเมนู เลือก **ไฟล์** \> **เปิด**
    
 2. ค้นหาสำเนา**ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก**
 
@@ -40,7 +40,7 @@ ms.locfileid: "73870993"
 
 วิธีแรกในการจัดทำการ์ดคือใช้ Report Editor จาก Power BI Desktop
 
-1. เริ่มต้นจากหน้ารายงานว่างแล้วเลือก**ร้านค้า** เปิดเขตข้อมูล\> **จำนวนร้านค้า**
+1. เริ่มที่หน้ารายงานว่าง และเลือก **ร้านค้า** \> เขตข้อมูล**เปิดจำนวนร้านค้า**
 
     Power BI จะสร้างแผนภูมิคอลัมน์ที่มีตัวเลขเพียงตัวเลขเดียว
 

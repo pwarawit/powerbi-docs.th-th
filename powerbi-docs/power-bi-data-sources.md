@@ -6,18 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/22/2019
+ms.date: 01/08/2020
 ms.author: kfollis
-ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: 2578f8621140a64b85e6765d80d860c1489a5900
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958505"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762565"
 ---
 # <a name="power-bi-data-sources"></a>แหล่งข้อมูล Power BI
 
 ตารางต่อไปนี้แสดงแหล่งข้อมูลที่ Power BI สนับสนุนสำหรับชุดข้อมูล รวมถึงข้อมูลเกี่ยวกับ DirectQuery และเกตเวย์ข้อมูลภายในองค์กร สำหรับข้อมูลเกี่ยวกับกระแสข้อมูล ให้ดูที่ [เชื่อมต่อกับแหล่งข้อมูลสำหรับ Power BI กระแสข้อมูล](service-dataflows-data-sources.md)
+
+> [!NOTE]
+> มีตัวเชื่อมต่อข้อมูลจำนวนมากสำหรับ Power BI Desktop ที่จำเป็นต้องใช้ Internet Explorer 10 (หรือใหม่กว่า) สำหรับการรับรองความถูกต้อง 
+
 
 | แหล่งข้อมูล | เชื่อมต่อจากเดสก์ท็อป | เชื่อมต่อและรีเฟรชจากบริการ | DirectQuery/Live Connection | เกตเวย์ (ที่รองรับ) | เกตเวย์ (จำเป็น) |
 |---|---|---|---|---|---|---|---|
@@ -28,19 +32,19 @@ ms.locfileid: "74958505"
 | appFigures | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | คิวบ์ AtScale | ใช่ | ใช่ | ใช่ | ใช่ | ไม่ใช่ |
 | Azure Analysis Services | ใช่ | ใช่ | ใช่ | ใช่ <sup>2</sup> | ไม่ใช่ |
-| Azure Blob Storage | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
+| พื้นที่เก็บข้อมูล Azure Blob | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
 | Azure Cosmos DB | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Azure Cost Management | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Azure Data Explorer (Kusto) | ใช่ | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Azure Data Lake Storage Gen1 | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
-| Azure Data Lake Storage Gen2 | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
+| Azure Data Lake Storage Gen2 | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
 | Azure DevOps | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Azure DevOps Server | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ใช่ |
 | Azure HDInsight (HDFS) | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Azure HDInsight Spark | ใช่ | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ |
 | ฐานข้อมูล Azure SQL | ใช่ | ใช่ | ใช่ | ใช่ <sup>2</sup> | ไม่ใช่ |
 | คลังข้อมูล Azure SQL | ใช่ | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ |
-| Azure Table Storage | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
+| พื้นที่เก็บข้อมูล Azure Table | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
 | BI Connector | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
 | BI360 - การรายงานการจัดทำงบประมาณและการเงิน | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Common Data Service | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
@@ -65,8 +69,8 @@ ms.locfileid: "74958505"
 | Google BigQuery | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | ไฟล์ Hadoop (HDFS) | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | HDInsight Interactive Query | ใช่ | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ |
-| IBM DB2 | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
-| ฐานข้อมูล IBM Informix | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ใช่ |
+| IBM DB2 | ใช่ | ใช่ | ใช่ | ใช่ | ไม่ใช่ |
+| ฐานข้อมูล IBM Informix | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
 | IBM Netezza | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
 | Impala | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
 | Indexima | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
@@ -95,7 +99,7 @@ ms.locfileid: "74958505"
 | Planview Enterprise One - CMT | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Planview Enterprise One - PRM | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Planview Projectplace | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
-| PostgreSQL | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
+| PostgreSQL | ใช่ | ใช่ | ใช่ | ใช่ | ไม่ใช่ |
 | กระแสข้อมูล Power BI | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | ชุดข้อมูล Power BI | ใช่ | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ |
 | กระแสข้อมูล Power Platform | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
@@ -105,7 +109,7 @@ ms.locfileid: "74958505"
 | QuickBooks Online | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | สคริปต์ R | ใช่ | ใช่ <sup>5</sup> | ไม่ใช่ | ใช่ <sup>5</sup> | ไม่ใช่ |
 | Roamler | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
-| Salesforce Objects | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
+| ออบเจ็กต์ Salesforce | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | รายงาน Salesforce | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | เซิร์ฟเวอร์ข้อความ SAP Business Warehouse | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
 | เซิร์ฟเวอร์ SAP Business Warehouse | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
@@ -114,7 +118,7 @@ ms.locfileid: "74958505"
 | รายการ SharePoint | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ <sup>4</sup> |
 | รายการ SharePoint Online | ใช่ | ใช่ | ไม่ใช่ | ใช่ <sup>2</sup> | ไม่ใช่ |
 | Smartsheet | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
-| Snowflake | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
+| Snowflake | ใช่ | ใช่ | ใช่ | ใช่ | ไม่ใช่ |
 | Spark | ใช่ | ใช่ | ใช่ | ใช่ | ไม่ใช่ |
 | SparkPost | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | SQL Server | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
