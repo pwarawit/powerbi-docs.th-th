@@ -357,6 +357,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: สร้างและใช้วิชวลเมทริกซ์
               href: visuals/desktop-matrix-visual.md
+            - name: สร้างและใช้ภาพ Power Apps
+              href: visuals/power-bi-visualization-powerapp.md
             - name: เกี่ยวกับวิชวลถามตอบของ Power BI
               href: visuals/power-bi-visualization-q-and-a.md
             - name: สร้างและใช้วิชวล R
@@ -1035,6 +1037,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: กำหนดค่าการเข้าถึงแอปสำหรับอุปกรณ์เคลื่อนจากระยะไกล
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: กำหนดค่า WAP และ AD FS
+              href: report-server/connect-adfs-wap-report-server.md
             - name: เข้าถึงอุปกรณ์เคลื่อนที่จากระยะไกลด้วย Azure AD
               href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: สมุดงาน Excel ของโฮสต์
