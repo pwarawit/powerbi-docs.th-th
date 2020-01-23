@@ -26,11 +26,11 @@
               href: star-schema.md
             - name: ลดขนาดแบบจำลองข้อมูล
               href: import-modeling-data-reduction.md
-            - name: คำแนะนำวันที่/เวลาอัตโนมัติใน Power BI Desktop
+            - name: คำแนะนำวันที่/เวลาอัตโนมัติ
               href: auto-date-time.md
             - name: คำแนะนำความสัมพันธ์แบบกลุ่มต่อกลุ่ม
               href: relationships-many-to-many.md
-            - name: คำแนะนำแบบจำลอง DirectQuery ใน Power BI Desktop
+            - name: คำแนะนำแบบจำลอง DirectQuery
               href: directquery-model-guidance.md
         - name: DAX
           items:
@@ -58,9 +58,11 @@
               href: report-drillthrough.md
             - name: เมื่อใช้รายงานที่มีการแบ่งหน้าใน Power BI
               href: report-paginated-or-power-bi.md
+            - name: ใช้พารามิเตอร์แบบซ้อนในรายงานเลขหน้า
+              href: paginated-report-cascading-parameter.md
             - name: หลีกเลี่ยงหน้าเปล่าเมื่อพิมพ์รายงานที่ระบุเลขหน้า
               href: report-paginated-blank-page.md
-            - name: โยกย้ายรายงานบริการรายงานเซิร์ฟเวอร์ SQL ไปยัง Power BI
+            - name: ย้ายรายงาน SSRS ไปยัง Power BI
               href: migrate-ssrs-reports-to-power-bi.md
     - name: เอกสารทางเทคนิค
       items:
