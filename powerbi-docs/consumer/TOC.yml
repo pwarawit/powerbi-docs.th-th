@@ -132,7 +132,7 @@
           href: end-user-glossary.md
         - name: คำถามที่ถามบ่อย
           href: end-user-faq.md
-        - name: เบราว์เซอร์ทีรองรับ
+        - name: เบราว์เซอร์ที่สนับสนุน
           href: end-user-browsers.md
         - name: ชนิดของข้อมูลเชิงลึกด่วนที่ได้รับการสนับสนุนโดย Power BI
           href: end-user-insight-types.md
@@ -176,8 +176,8 @@
               href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
             - name: รายการโปรดในแอปสำหรับอุปกรณ์เคลื่อนที่
               href: mobile/mobile-apps-favorites.md
-            - name: กำหนดค่าการโต้ตอบรายงานในแอปสำหรับอุปกรณ์เคลื่อนที่ (โทรศัพท์เท่านั้น)
-              href: mobile/mobile-app-single-tap.md
+            - name: กำหนดการตั้งค่าการโต้ตอบ (เฉพาะโทรศัพท์)
+              href: mobile/mobile-app-interaction-settings.md
             - name: ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
               href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
             - name: รับการแจ้งเตือนในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่

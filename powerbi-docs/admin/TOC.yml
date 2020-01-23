@@ -52,6 +52,8 @@
               href: service-security-enable-data-sensitivity-labels.md
             - name: ใช้ Microsoft Cloud App Security กับ Power BI
               href: service-security-using-microsoft-cloud-app-security-controls.md
+            - name: รายงานเมตริกการป้องกันข้อมูล
+              href: service-security-data-protection-metrics-report.md
         - name: รักษาความปลอดภัยระดับแถว
           href: ../service-admin-rls.md
         - name: กำหนดค่าแอปสำหรับอุปกรณ์เคลื่อนที่ด้วย Intune
