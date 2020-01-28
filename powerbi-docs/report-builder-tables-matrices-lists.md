@@ -1,6 +1,6 @@
 ---
 title: ตาราง เมทริกซ์ และรายการในตัวสร้างรายงานใน Power BI
-description: ในตัวสร้างรายงานที่มีการแบ่งหน้าใน Power BI ตาราง เมทริกซ์ และรายการเป็นขอบเขตข้อมูลที่แสดงผลข้อมูลรายงานที่มีการแบ่งหน้าในเซลล์ที่ถูกจัดเป็นแถวและคอลัมน์
+description: ในตัวสร้างรายงานของ Power BI  ตาราง เมทริกซ์ และรายการเป็น ขอบเขตข้อมูล ที่แสดงผลข้อมูลรายงานที่มีการแบ่งหน้าในเซลล์ที่ถูกจัดเป็นแถวและคอลัมน์
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 9dcf3fc8-bf9c-4a14-a03d-e78254aa4098
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: f48187edc3d955b3b87f902a3056e86a933817e1
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 02ac131325dab59590cb88c524ace68a1226fc69
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840222"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953843"
 ---
 # <a name="tables-matrixes-and-lists-in-power-bi-report-builder"></a>ตาราง เมทริกซ์ และรายการในตัวสร้างรายงานใน Power BI
  ในตัวสร้างรายงาน ตาราง เมทริกซ์ และรายการเป็น *ขอบเขตข้อมูล* ที่แสดงผลข้อมูลรายงานที่มีการแบ่งหน้าในเซลล์ที่ถูกจัดเป็นแถวและคอลัมน์ โดยทั่วไปแล้วเซลล์จะมีข้อมูลข้อความเช่น ข้อความ วันที่ และหมายเลข แต่เซลล์ก็ยังมีเกจ์ แผนภูมิ หรือรายการการรายงาน เช่น รูปภาพ ตาราง เมทริกซ์ และรายการมักจะถูกเรียกรวมกันว่า  *ขอบเขตข้อมูล* tablix  

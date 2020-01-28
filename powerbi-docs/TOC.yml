@@ -961,16 +961,18 @@
       items:
         - name: มีอะไรใหม่
           href: report-server/whats-new.md
+        - name: ภาพรวมของผู้ดูแลระบบ
+          href: report-server/admin-handbook-overview.md
         - name: บันทึกการเปลี่ยนแปลง
           href: report-server/changelog.md
         - name: ไทม์ไลน์ฝ่ายสนับสนุน
           href: report-server/support-timeline.md
+        - name: การสนับสนุนแบบเข้ารหัสเสมอ
+          href: report-server/always-encrypted-support.md
         - name: ข้อกำหนดของฮาร์ดแวร์และซอฟต์แวร์
           href: report-server/system-requirements.md
         - name: การสนับสนุนเบราว์เซอร์
           href: report-server/browser-support.md
-        - name: ภาพรวมของผู้ดูแลระบบ
-          href: report-server/admin-handbook-overview.md
         - name: ข้อมูลพื้นฐานเกี่ยวกับเซิร์ฟเวอร์รายงาน
           items:
             - name: การรีเฟรชตามกำหนดการรีพอร์ตเซิร์ฟเวอร์ของ Power BI

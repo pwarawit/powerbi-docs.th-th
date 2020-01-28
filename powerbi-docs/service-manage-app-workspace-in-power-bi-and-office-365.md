@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7f1d86dd3da6665eb985db17ac3641768ff56947
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: d4be5aa246b6e58b9a6234f30754e16a39341abe
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73872070"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160592"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>จัดการพื้นที่ทำงานของคุณใน Power BI และ Office 365
 
 ในฐานะผู้สร้างหรือผู้ดูแลระบบของ[พื้นที่ทำงานใน Power BI](service-create-distribute-apps.md)หรือใน Office 365 คุณสามารถจัดการบางส่วนของพื้นที่ทำงานใน Power BI ลักษณะอื่นๆ คุณจัดการใน Office 365
 
 > [!NOTE]
-> ประสบการณ์พื้นที่ทำงานใหม่จะเปลี่ยนความสัมพันธ์ระหว่างพื้นที่ทำงาน Power BI และกลุ่ม Office 365 คุณไม่สามารถสร้างกลุ่ม Office 365 โดยอัตโนมัติทุกครั้งที่คุณสร้างในพื้นที่ทำงานใหม่ อ่านเกี่ยวกับ [สร้างพื้นที่ทำงานใหม่](service-create-the-new-workspaces.md)
+> ประสบการณ์พื้นที่ทำงานใหม่จะเปลี่ยนความสัมพันธ์ระหว่างพื้นที่ทำงาน Power BI และกลุ่ม Office 365 คุณจะไม่สามารถสร้างกลุ่ม Office 365 โดยอัตโนมัติทุกครั้งที่คุณสร้างพื้นที่ทำงานใหม่ อ่านเกี่ยวกับ [สร้างพื้นที่ทำงานใหม่](service-create-the-new-workspaces.md)
 
 ใน **Power BI** คุณสามารถ:
 

@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ba911361ad2837a10f28358cbd1510effc1dd7eb
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837643"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76038546"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>รีเฟรชชุดข้อมูลที่จัดเก็บบน OneDrive หรือ SharePoint Online
 การนำเข้าไฟล์จาก OneDrive หรือ SharePoint Online ลงในบริการ Power BI คือวิธียอดเยี่ยมที่แน่ใจได้ว่างานของคุณในPower BI Desktopยังคงซิงค์กับบริการของ Power BI
@@ -37,7 +37,7 @@ ms.locfileid: "75837643"
 ในการสนับสนุนของ Power BI **รีเฟรช** และ **กำหนดการรีเฟรช** ใช้กับชุดข้อมูลที่สร้างจากไฟล์ Power BI Desktop ที่นำเข้าจากไดรฟ์ภายในเครื่องที่มีการใช้ **รับข้อมูล**หรือ**ตัวแก้ไขคิวรี** เพื่อเชื่อมต่อและโหลดข้อมูลจากแหล่งข้อมูลหนึ่งจากหลาย ๆ แหล่งต่อไปนี้
 
 > [!NOTE]
-> ไฟล์ที่นำเข้าบน OneDrive ได้รับการสนับสนุน แต่ชุดข้อมูลที่เชื่อมต่อสดใน OneDrive ไม่ได้รับการสนับสนุนเป็นสถานการณ์สมมติการรีเฟรช OneDrive
+> การรีเฟรชใน Onedrive refresh สำหรับการเชื่อมต่อชุดข้อมูลที่สนับสนุน อย่างไรก็ตาม การเปลี่ยนการเชื่อมต่อชุดข้อมูลจากชุดข้อมูลหนึ่งไปยังอกีที่หนึ่งในรายงานที่เผยแพร่แล้ว จะไม่สนับสนุนในเหตุการณ์การรีเฟรชใน OneDrive
 
 ### <a name="power-bi-gateway---personal"></a>Power BI Gateway - ส่วนบุคคล
 * แหล่งข้อมูลออนไลน์ทั้งหมดที่แสดงใน **รับข้อมูล** และ**ตัวแก้ไขคิวรี**ของ Power BI Desktop

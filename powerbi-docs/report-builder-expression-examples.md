@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
-ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
+ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72728541"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953977"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>ตัวอย่างนิพจน์ในตัวสร้างรายงานใน Power BI
 นิพจน์จะถูกนำมาใช้บ่อยในตัวสร้างรายงานที่มีการแบ่งหน้าของ Power BI เพื่อควบคุมเนื้อหาและลักษณะที่ปรากฏของรายงาน นิพจน์จะถูกเขียนขึ้นใน Microsoft Visual Basic และสามารถใช้ฟังก์ชันที่มีอยู่ในตัว รหัสที่กำหนดเอง รายงานและตัวแปรของกลุ่ม รวมถึงตัวแปรที่ผู้ใช้กำหนด นิพจน์เริ่มต้นด้วยเครื่องหมายเท่ากับ (=)   

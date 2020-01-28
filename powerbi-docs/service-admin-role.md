@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 04ffeb01efeaa714b30b2246174584f2caf90468
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: fc1a0c524a3cb4a713cbaf049c259a4b96714131
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75622283"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160822"
 ---
 # <a name="understanding-power-bi-service-administrator-roles"></a>ทำความเข้าใจเกี่ยวกับบทบาทผู้ดูแลระบบบริการของ Power BI
 
-ในการดูแลระบบผู้เช่า Power BI คุณต้องเป็นหนึ่งในบทบาทต่อไปนี้: ผู้ดูแลระบบ Power BI ผู้ดูแลระบบ Power Platform หรือผู้ดูแลระบบส่วนกลาง Microsoft 365 ผู้ดูแลระบบการจัดการผู้ใช้ Microsoft 365 กำหนดผู้ใช้ไปยังบทบาทผู้ดูแลระบบ Power BI หรือผู้ดูแลระบบ Power Platform ในศูนย์การจัดการ Microsoft 365 หรือโดยใช้สคริปต์ PowerShell
+ในการดูแลระบบผู้เช่า Power BI คุณต้องเป็นหนึ่งในบทบาทต่อไปนี้: ผู้ดูแลระบบ Power BI ผู้ดูแลระบบ Power Platform หรือผู้ดูแลระบบส่วนกลาง Microsoft 365 ผู้ดูแลระบบการจัดการผู้ใช้ Microsoft 365 กำหนดผู้ใช้ไปยังบทบาทผู้ดูแลระบบ Power BI หรือผู้ดูแลระบบ Power Platform ในศูนย์การจัดการ Microsoft 365 หรือโดยใช้สคริปต์ PowerShell สำหรับข้อมูลเพิ่มเติม โปรดดู [การกำหนดบทบาทให้กับบัญชีผู้ใช้ด้วย Office 365 PowerShell](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)
 
 ผู้ใช้ในบทบาทผู้ดูแลระบบ Power BI และผู้ดูแลระบบ Power Platform สามารถควบคุมผู้เช่า และคุณลักษณะการจัดการผู้เช่าใน Power BI ได้เต็มรูปแบบ ยกเว้นสิทธิ์การใช้งาน ทันทีที่ผู้ใช้ถูกกำหนดสิทธิ์ ผู้ใช้จะสามารถเข้าถึง [พอร์ทัลผู้ดูแล Power BI](service-admin-portal.md) ได้ ในส่วนนั้น ผู้ใช้จะสามารถเข้าถึงการวัดปริมาณการใช้งานของผู้เช่า และสามารถควบคุมการใช้งานคุณลักษณะ Power BI ของผู้เช่าอีกได้ด้วย บทบาทผู้ดูแลระบบเหล่านี้เหมาะสำหรับผู้ใช้ที่จำเป็นต้องเข้าถึงพอร์ทัลผู้ดูแลระบบ Power BI โดยไม่ต้องให้สิทธิ์เข้าถึงการจัดการทั้งหมดของ Microsoft 365 แก่ผู้ใช้เหล่านั้น
 

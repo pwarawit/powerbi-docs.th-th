@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2010
+ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bb98f7bbb92b72512f880513ec94ccb55d64fc67
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7ed0920f66c178c23e6c4db22ff6acd998619522
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872153"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160569"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>ตั้งค่าข้อมูลติดต่อสำหรับรายงานและแดชบอร์ดในบริการของ Power BI
 บทความนี้สอนวิธีการตั้งค่าข้อมูลติดต่อสำหรับแดชบอร์ดหรือรายงานในบริการของ Power BI
@@ -60,8 +60,9 @@ ms.locfileid: "73872153"
 ## <a name="limitations-and-considerations"></a>ข้อจำกัดและข้อควรพิจารณา
 * ผู้ติดต่อจะถูกตั้งค่าโดยอัตโนมัติสำหรับรายการใหม่ที่สร้างขึ้นในบริการของ Power BI รายการที่มีอยู่จะแสดงค่าเริ่มต้นของพื้นที่ทำงาน
 * คุณสามารถตั้งค่าผู้ใช้หรือกลุ่มใด ๆ ในรายการผู้ติดต่อ แต่จะไม่ได้รับสิทธิ์กับรายการโดยอัตโนมัติ ใช้การแชร์หรือให้ผู้ใช้ที่ต้องการเข้าถึงพื้นที่ทำงานผ่านบทบาท 
+* รายการผู้ติดต่อระดับรายการจะไม่ได้รับการส่งไปยังแอปเมื่อมีการเผยแพร่ ประสบการณ์การนำทางในแอปใหม่มี URL การสนับสนุนที่คุณกำหนดค่าเพื่อช่วยจัดการคำติชมจากผู้ใช้แอปจำนวนมาก
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 12/03/2019
-ms.openlocfilehash: 88df45a95e485695a9a2f36358c1fcca9670f258
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/16/2020
+ms.openlocfilehash: f7f163a8930d8bd90d6270f59e8afa602e89dd57
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74831140"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160845"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
@@ -31,6 +31,7 @@ ms.locfileid: "74831140"
 | รอบการเผยแพร่ | สามครั้งต่อปี (มกราคม, พฤษภาคม, กันยายน) | เดือนละครั้ง | คุณลักษณะล่าสุดและการแก้ไข มาที่บริการของ Power BI ก่อน ความสามารถหลักส่วนใหญ่ มาถึงเซิร์ฟเวอร์รายงาน Power BI ในการเผยแพร่ไม่กี่ครั้งถัดไป บางคุณลักษณะมีไว้สำหรับบริการของ Power BI เท่านั้น |
 | สร้างรายงาน Power BI ใน Power BI Desktop | ใช่ | ใช่ |  |
 | สร้างรายงาน Power BI ในเบราว์เซอร์ | ไม่ใช่ | ใช่ |  |
+| โฮสต์และเชื่อมต่อกับชุดข้อมูลที่ใช้ร่วมกันใน Power BI | ไม่ใช่ | ใช่ | [บทนำชุดข้อมูลทั้งพื้นที่ทำงาน](../service-datasets-across-workspaces.md) |
 | จำเป็นต้องใช้เกตเวย์ | ไม่ใช่ | ใช่สำหรับแหล่งข้อมูลภายในองค์กร |  |
 | การสตรีมในเวลาจริง | ไม่ใช่ | ใช่ | [การสตรีมในเวลาจริงใน Power BI](../service-real-time-streaming.md) |
 | แดชบอร์ด | ไม่ใช่ | ใช่ | [แดชบอร์ดในบริการของ Power BI](../consumer/end-user-dashboards.md) |

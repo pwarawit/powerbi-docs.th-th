@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 704e073299f89859c507b3ddc6ccba0b4be03d76
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877378"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040446"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>การสร้างและการใช้กระแสข้อมูลใน Power BI
 
@@ -155,6 +155,14 @@ ms.locfileid: "73877378"
 * **ตัวเชื่อมต่อไฟล์ JSON** -ในขณะนี้คุณสามารถเชื่อมต่อกับไฟล์ JSON โดยใช้การรับรองความถูกต้องพื้นฐานเท่านั้นได้  เชื่อมต่อกับไฟล์ JSON โดยใช้ข้อมูลประจำตัวภายใน URL (ตัวอย่างเช่น https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg.. ) ที่**ไม่ได้**รับการสนับสนุน  
 
 * **Azure SQL Data Warehouse** - ขณะนี้ Dataflow ไม่สนับสนุนการรับรองความถูกต้อง Azure Active Directory (AAD) สำหรับ Azure SQL Data Warehouse ใช้การรับรองความถูกต้องพื้นฐานสำหรับสถานการณ์สมมตินี้
+
+## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
+
+มีข้อจำกัดที่เป็นที่รู้กันหลายประการในเรื่องของกระแสข้อมูลซึ่งจะอธิบายไว้ในรายการต่อไปนี้
+
+* กระแสข้อมูลต้องแสดงผลลัพธ์หนึ่งในชนิดต่อไปนี้: *วันที่/เวลา จำนวนทศนิยม ข้อความ จำนวนเต็ม วันที่/เวลา/โซน จริง/เท็จ วันที่ เวลา*
+* ฟังก์ชันไดนามิกไม่ได้รับการรองรับภายในกระแสข้อมูล
+
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

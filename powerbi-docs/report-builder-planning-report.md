@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 33cdb53ab411e0d2f4686f7cc9a41bb3f0fe4cb6
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 30ab632d11befd34ff9a234e441b345c696fb54d
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623877"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953813"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>วางแผนรายงานในตัวสร้างรายงานใน Power BI
 

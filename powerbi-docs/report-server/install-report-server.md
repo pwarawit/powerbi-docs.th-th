@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/26/2019
-ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/16/2020
+ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74565774"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160615"
 ---
 # <a name="install-power-bi-report-server"></a>ติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 
@@ -47,7 +47,7 @@ ms.locfileid: "74565774"
 
 ![การตั้งค่า Premium](../report-server/media/install-report-server/pbirs-product-key.png "คีย์เซิร์ฟเวอร์รายงาน Power BI ภายในการตั้งค่าขั้นสูง")
 
-การเลือก**คีย์เซิร์ฟเวอร์รายงาน Power BI** จะแสดงกล่องโต้ตอบที่มีคีย์ผลิตภัณฑ์ของคุณ คุณสามารถคัดลอกและใช้กับการติดตั้ง
+การเลือก**คีย์เซิร์ฟเวอร์รายงาน Power BI** จะแสดงบทสนทนาที่มีคีย์ผลิตภัณฑ์ของคุณ คุณสามารถคัดลอกและใช้กับการติดตั้ง
 
 ![คีย์ผลิตภัณฑ์](../report-server/media/install-report-server/pbirs-product-key-dialog.png "คีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI")
 
@@ -146,6 +146,7 @@ ms.locfileid: "74565774"
 * ดูที่[รวมกับบริการ Power BI](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager)เพื่อกำหนดค่าการรวมกับบริการ Power BI เมื่อต้องการให้คุณสามารถปักหมุดรายการรายงานไปยังแดชบอร์ด Power BI
 * ดูที่[ตั้งค่าอีเมล์](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager)และ[อีเมลที่ส่งในเซิร์ฟเวอร์รายงาน](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)เมื่อต้องการกำหนดค่าอีเมลสำหรับการประมวลผลการสมัครใช้งาน
 * ดูที่[กำหนดค่าไฟร์วอลล์สำหรับการเข้าถึงเซิร์ฟเวอร์รายงาน](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access)และ[การกำหนดค่าเซิร์ฟเวอร์รายงานสำหรับการดูแลระบบระยะไกล](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration) เมื่อต้องการกำหนดค่าพอร์ทัลเว็บเพื่อให้คุณสามารถเข้าถึงได้ผ่านคอมพิวเตอร์รายงานเพื่อดูและจัดการรายงาน
+* สำหรับรายละเอียดเกี่ยวกับการตั้งค่าคุณสมบัติระบบของเซิร์ฟเวอร์รายงานใน SQL Server Management Studio ดู [หน้าคุณสมบัติของเซิร์ฟเวอร์ขั้นสูง](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services) ถ้าไม่กำหนด ตัวเลือกจะใช้กับเซิร์ฟเวอร์รายงาน Power BI และ SQL Server Reporting Services ทั้งสอง
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

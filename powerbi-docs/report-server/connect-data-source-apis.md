@@ -8,16 +8,20 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: maggies
-ms.openlocfilehash: 77716514ffbb6dc8d3f128ada85276b46bf7af05
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 5cdf29c71ef3e5f8dc02799945cf76ccc518dabe
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72923676"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953751"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>เปลี่ยนสตริงการเชื่อมต่อแหล่งข้อมูลในรายงาน Power BI ด้วย PowerShell - เซิร์ฟเวอร์รายงาน Power BI
 
+
 คุณสามารถเปลี่ยนสตริงการเชื่อมต่อแหล่งข้อมูลในรายงาน Power BI ในเซิร์ฟเวอร์รายงาน Power BI โดยใช้ API ใน PowerShell 
+
+> [!NOTE]
+> ตอนนี้ฟังก์ชันนี้ทำงานเพียงกับ DirectQuery การสนับสนุนสำหรับการนำเข้าและการรีเฟรชข้อมูลกำลังจะมา
 
 1. ติดตั้งแอปเพล็ตคำสั่ง PowerShell ของเซิร์ฟเวอร์รายงาน Power BI ค้นหาคำแนะนำเกี่ยวกับแอปเพล็ตคำสั่งและการติดตั้งที่ [https://github.com/Microsoft/ReportingServicesTools](https://github.com/Microsoft/ReportingServicesTools) 
 
@@ -66,5 +70,4 @@ ms.locfileid: "72923676"
 
 [แหล่งข้อมูลรายงานที่มีการแบ่งหน้าในเซิร์ฟเวอร์รายงาน Power BI](connect-data-sources.md) 
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

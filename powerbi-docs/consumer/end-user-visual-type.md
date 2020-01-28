@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 01/15/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861327"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039100"
 ---
 # <a name="visual-types-in-power-bi"></a>ชนิดของวิชวลใน Power BI
 คุณจะพบวิชวลในรายงาน แดชบอร์ด และถามตอบ (Q&A) ชนิดของวิชวลเหล่านี้บางส่วนถูกรวมเป็นแพคเกจเข้ากับ Power BI และบางส่วนเป็น *วิชวลแบบกำหนดเอง* วิชวลแบบกำหนดเองถูกสร้างขึ้นนอก Power BI และในแนวทางที่อนุญาตให้ *ผู้ออกแบบ* รายงานเพิ่มลงในรายงานและแดชบอร์ด Power BI ได้ 
@@ -139,6 +139,19 @@ KPI เป็นตัวเลือกที่ดีที่สุด:
 ![แผนภูมิวงกลม](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
 แผนภูมิวงกลมจะแสดงความสัมพันธ์ของส่วนต่าง ๆ ต่อส่วนทั้งหมด 
+
+### <a name="power-apps-visual"></a>วิชวล Power Apps
+![วิชวล Power Apps](media/end-user-visual-type/power-bi-powerapps-visual.png)
+
+นักออกแบบรายงานสามารถสร้าง Power App และฝังลงในรายงาน Power BI ได้ ลูกค้าสามารถโต้ตอบกับวิชวลด้วยรายงาน Power BI ได้ 
+
+### <a name="qa-visual"></a>วิชวลถามตอบ
+![วิชวลถามตอบ](media/end-user-visual-type/power-bi-q-and-a.png)
+
+>[!TIP]
+>คล้ายกับ [ประสบการณ์ถามตอบเกี่ยวกับแดชบอร์ด](../power-bi-tutorial-q-and-a.md) วิชวลถามตอบช่วยให้คุณสามารถถามคำถามเกี่ยวกับข้อมูลของคุณโดยใช้ภาษาธรรมชาติ 
+
+สำหรับข้อมูลเพิ่มเติม โปรดดู[วิชวลถามตอบใน Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 ### <a name="ribbon-chart"></a>แผนภูมิริบบอน
 ![แผนภูมิริบบอน](media/end-user-visual-type/power-bi-ribbon.png)

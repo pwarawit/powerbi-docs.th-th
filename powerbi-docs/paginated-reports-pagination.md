@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: fced83abab1898724e165154fbc177ccf50ca061
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 5c2dc39f05609da8a460ac7575498c0df6a96c55
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831257"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160891"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>การแบ่งหน้าในรายงานที่มีการแบ่งหน้าของ Power BI
 
@@ -87,6 +87,6 @@ ms.locfileid: "74831257"
   
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[ดูรายงานแบบแบ่งหน้าในบริการของ Power BI](consumer/paginated-reports-view-power-bi-service.md)
-
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+- [ดูรายงานแบบแบ่งหน้าในบริการของ Power BI](consumer/paginated-reports-view-power-bi-service.md)
+- [หลีกเลี่ยงหน้าเปล่าเมื่อพิมพ์รายงานแบบแบ่งหน้า](guidance/report-paginated-blank-page.md)
+- มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311509"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953761"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>การใช้การรักษาความปลอดภัยระดับแถวในรายงานที่มีการแบ่งหน้าแบบฝัง (ตัวอย่าง)
 
@@ -32,7 +32,7 @@ ms.locfileid: "74311509"
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>ใช้ UserID เป็นตัวกรองที่ระดับรายงานหรือคิวรี
 
-คุณสามารถใช้ **UserId** เป็น *ตัวกรอง* หรือใน *คิวรี* กับแหล่งข้อมูลใน [ตัวช่วยสร้างรายงานที่มีการแบ่งหน้าของ Power BI](../report-builder-power-bi.md)
+คุณสามารถใช้ **UserId** เป็น *ตัวกรอง* หรือใน *แบบสอบถาม* กับแหล่งข้อมูลใน [ตัวช่วยสร้างรายของ Power BI](../report-builder-power-bi.md)
 
 ### <a name="using-the-filter"></a>ใช้ตัวกรอง
 

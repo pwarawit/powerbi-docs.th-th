@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ab98463f6dc1defd9ee3f2a97b322fefbe582779
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 016b83e983f2b3139eb040a1f1d8d48d70b44a52
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761053"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953487"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>มีอะไรใหม่ใน Power BI Desktop บ้าง
 
@@ -23,7 +23,7 @@ ms.locfileid: "75761053"
 
 การอัปเดตประจำเดือนธันวาคมของเราเป็นเรื่องสนุกเท่า ๆ กับการนั่งเลื่อนเนินเขาที่ปกคลุมด้วยหิมะ 
 
-สามารถรับเวอร์ชันล่าสุดของ Power BI Desktop จาก[ศูนย์ดาวน์โหลด](https://www.microsoft.com/download/details.aspx?id=58494) ถ้าคุณกำลังใช้งาน Windows 10 คุณสามารถรับ Power BI Desktop ได้จาก Windows Store ใน Windows 10 เวอร์ชันรายเดือนจะเหมือนกันแม้ว่าหมายเลขเวอร์ชันอาจแตกต่างกัน โดยไม่คำนึงถึงวิธีการที่คุณติดตั้ง Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการดาวน์โหลดและติดตั้ง Power BI Desktop ดู [Get Power BI Desktop](desktop-get-the-desktop.md) 
+สามารถรับเวอร์ชันล่าสุดของ Power BI Desktop จาก[ศูนย์ดาวน์โหลด](https://www.microsoft.com/download/details.aspx?id=58494) ถ้าคุณกำลังใช้งาน Windows 10 คุณสามารถรับ Power BI Desktop ได้จาก [Windows Store ](https://aka.ms/pbidesktopstore) เวอร์ชันรายเดือนจะเหมือนกันแม้ว่าหมายเลขเวอร์ชันอาจแตกต่างกัน โดยไม่คำนึงถึงวิธีการที่คุณติดตั้ง Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการดาวน์โหลดและติดตั้ง Power BI Desktop ดู [Get Power BI Desktop](desktop-get-the-desktop.md) 
 
 > [!IMPORTANT]
 > เริ่มต้นด้วยการปล่อยออกมาในกันยายน 2019 Power BI Desktop มาพร้อมกับแพคเกจการติดตั้ง .exe เดียวที่มีภาษาที่รองรับทั้งหมด ไม่มีการเผยแพร่เวอร์ชัน .msi อีกต่อไป
@@ -92,7 +92,7 @@ ms.locfileid: "75761053"
 ## <a name="power-bi-desktop-monthly-update-video"></a>วิดีโออัปเดตประจำเดือน Power BI Desktop
 วิดีโอต่อไปนี้อธิบายการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์:
 
-> [!VIDEO https://youtu.be/eCEwgZsVUOs]
+> [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
 
 
 ## <a name="more-videos"></a>วิดีโอเพิ่มเติม
