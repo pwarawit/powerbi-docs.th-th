@@ -1,126 +1,179 @@
 ---
 title: โครงสร้างของโครงการแสดงผล Power BI
-description: บทความนี้อธิบายโครงสร้างของโครงการแสดงผล
-author: zBritva
-ms.author: v-ilgali
+description: บทความนี้อธิบายเกี่ยวกับโฟลเดอร์และโครงสร้างไฟล์ของโครงการวิชวล Power BI
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: tutorial
+ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/15/2019
-ms.openlocfilehash: 728aba749f80710fdc0bb1e180b3318e63caa88c
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.date: 01/12/2020
+ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75542104"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925533"
 ---
 # <a name="power-bi-visual-project-structure"></a>โครงสร้างของโครงการแสดงผล Power BI
 
-หลังจากดำเนินการใหม่ .pbiviz `<visual project name>`เครื่องมือจะสร้างโครงสร้างพื้นฐานของไฟล์และโฟลเดอร์ใน`<visual project name>`โฟลเดอร์
+วิธีที่ดีที่สุดในการเริ่มต้นสร้างวิชวล Power BI ใหม่คือการใช้เครื่องมือวิชวล Power BI [.pbiviz](https://www.npmjs.com/package/powerbi-visuals-tools)
 
-## <a name="visual-project-structure"></a>โครงสร้างของโครงการแสดงผล
+ในการสร้างวิชวลใหม่ ให้นำทางไปยังไดเรกทอรีที่คุณต้องการให้วิชวล Power BI เข้าไปอยู่ และเรียกคำสั่งใช้งาน:
 
-![โครงสร้างของโครงการแสดงผล](./media/visual-project-structure.png)
+`pbiviz new <visual project name>`
 
-* `.vscode` -มีการตั้งค่าของโครงการสำหรับ VS Code เพื่อกำหนดค่าพื้นที่ทำงานแก้ไขไฟล์ `.vscode/settings.json` ของคุณ อ่านเพิ่มเติม [เกี่ยวกับการตั้งค่า VS Code ในเอกสารประกอบ](https://code.visualstudio.com/docs/getstarted/settings)
+เรียกใช้งานคำสั่งนี้สร้างโฟลเดอร์วิชวล Power BI ที่ประกอบด้วยไฟล์ต่อไปนี้:
 
-* โฟลเดอร์ `assets` มีเฉพาะไฟล์ `icon.png` เครื่องมือจะใช้ไฟล์นี้เป็นไอคอนของการแสดงผลในหน้าต่างการแสดงภาพของ Power BI
+```markdown
+project
+├───.vscode
+│   ├───launch.json
+│   └───settings.json
+├───assets
+│   └───icon.png
+├───node_modules
+├───src
+│   ├───settings.ts
+│   └───visual.ts
+├───style
+│   └───visual.less
+├───capabilities.json
+├───package-lock.json
+├───package.json
+├───pbiviz.json
+├───tsconfig.json
+└───tslint.json
+```
 
-    ![หน้าต่างการแสดงผล](./media/visualization-pane-analytics-tab.png)
+## <a name="folder-and-file-description"></a>คำอธิบายโฟลเดอร์และไฟล์
 
-* โฟลเดอร์ `node_modules` มีแพคเกจทั้งหมด [ ถูกติดตั้งโดยตัวจัดการแพคเกจโหนด](https://docs.npmjs.com/files/folders.html)
+ส่วนนี้แสดงข้อมูลสำหรับแต่ละโฟลเดอร์และไฟล์ในไดเรกทอรีที่เครื่องมือวิชวล Power BI  **pbiciz** สร้าง  
 
-* โฟลเดอร์ `src` มีรหัสแหล่งที่มาของวิชวล ตามค่าเริ่มต้นเครื่องมือจะสร้างสองไฟล์:
+### <a name="vscode"></a>.vscode
 
-  * `visual.ts` -รหัสแหล่งที่มาหลักของการแสดงผล
+โฟลเดอร์นี้ประกอบด้วยการตั้งค่าโปรเจคโค้ด VS
 
-  * `settings.ts` -รหัสของการตั้งค่าสำหรับการแสดงผลด้วยภาพ คลาสในไฟล์ทำงานได้ง่ายขึ้น [ด้วยคุณสมบัติวิชวล](./objects-properties.md#properties)
+ในการกำหนดค่าพื้นที่ทำงานของคุณ แก้ไขไฟล์ `.vscode/settings.json`
 
-* โฟลเดอร์ `style` มีไฟล์ `visual.less` ที่มีลักษณะสำหรับการแสดงผลด้วยภาพ
+สำหรับข้อมูลเพิ่มเติม ดู [การตั้งค่าผู้ใช้และพื้นที่ทำงาน](https://code.visualstudio.com/docs/getstarted/settings)
 
-* ไฟล์ `capabilities.json` ประกอบด้วยคุณสมบัติหลักและการตั้งค่าสำหรับการแสดงผลด้วยภาพ ซึ่งช่วยให้การแสดงผลด้วยภาพเพื่อประกาศคุณลักษณะ วัตถุ คุณสมบัติ และการแมปมุมมองข้อมูลที่ได้รับการสนับสนุน
+### <a name="assets"></a>สินทรัพย์
 
-    อ่านเพิ่มเติม[เกี่ยวกับความสามารถในการจัดทำเอกสาร](./capabilities.md)
+โฟลเดอร์นี้ประกอบด้วยไฟล์ `icon.png`
 
-* `package-lock.json` ถูกสร้างขึ้นโดยอัตโนมัติสำหรับการดำเนินการใดๆที่ npm ปรับเปลี่ยนทรี `node_modules` หรือ `package.json`
+เครื่องมือวิชวล Power BI ใช้ไฟล์นี้เป็นไอคอนวิชวล Power BI ใหม่ ในแผงการแสดงภาพของ Power BI
 
-    อ่านเพิ่มเติม[เกี่ยวกับ`package-lock.json` ในเอกสารที่เป็นทางการของ NPM](https://docs.npmjs.com/files/package-lock.json)
+<!--- ![Visualization pane](./media/visualization-pane-analytics-tab.png) --->
 
-* `package.json` อธิบายแพคเกจโครงการ โดยทั่วไปแล้วจะมีข้อมูลเกี่ยวกับโครงการผู้เขียนคำอธิบายและการขึ้นต่อกันของโครงการ
+### <a name="src"></a>src
 
-    อ่านเพิ่มเติม[เกี่ยวกับ`package.json` ในเอกสารที่เป็นทางการของ NPM](https://docs.npmjs.com/files/package.json.html)
+โฟลเดอร์นี้ประกอบด้วยโค้ดแหล่งที่มาของวิชวล
 
-* `pbiviz.json` ประกอบด้วยเมตาดาต้าวิชวล ระบุเมตาดาต้าของวิชวลในไฟล์นี้
+ในโฟลเดอร์นี้เครื่องมือวิชวล Power BI จะสร้างไฟล์ต่อไปนี้:
+* `visual.ts` - โค้ดแหล่งที่มาหลักของวิชวล
+* `settings.ts` - โค้ดการตั้งค่าของวิชวล คลาสในไฟล์มีอินเทอร์เฟซสำหรับการกำหนด [คุณสมบัติของวิชวล](./objects-properties.md#properties)ของคุณ
 
-    เนื้อหาทั่วไปของไฟล์:
+### <a name="style"></a>ลักษณะ
 
-  ```json
-    {
-        "visual": {
-            "name": "<visual project name>",
-            "displayName": "<visual project name>",
-            "guid": "<visual project name>23D8B823CF134D3AA7CC0A5D63B20B7F",
-            "visualClassName": "Visual",
-            "version": "1.0.0",
-            "description": "",
-            "supportUrl": "",
-            "gitHubUrl": ""
-        },
-        "apiVersion": "2.6.0",
-        "author": { "name": "", "email": "" },
-        "assets": { "icon": "assets/icon.png" },
-        "externalJS": null,
-        "style": "style/visual.less",
-        "capabilities": "capabilities.json",
-        "dependencies": null,
-        "stringResources": []
-    }
-  ```
+โฟลเดอร์นี้ประกอบด้วยไฟล์ `visual.less` ซึ่งมีลักษณะของวิชวล
 
-    ที่ซึ่ง
+### <a name="capabilitiesjson"></a>capabilities.json
 
-  * `name` -ชื่อภายในของการแสดงผล
+ไฟล์นี้ประกอบด้วยคุณสมบัติและการตั้งค่าหลัก (หรือ [ความสามารถ](./capabilities.md)) สำหรับวิชวล อนุญาตให้วิชวลทำการสนับสนุนฟีเจอร์ วัตถุ คุณสมบัติ และ [มุมมองการดูข้อมูล](./dataview-mappings.md)
 
-  * `displayName` -ชื่อของวิชวลในอินเทอร์เฟซ UI ของ Power BI
+### <a name="package-lockjson"></a>package-lock.json
 
-  * `guid` -ID ที่ไม่ซ้ำกันของการแสดงผล
+ไฟล์นี้สร้างขึ้นมาโดยอัตโนมัติสำหรับการดำเนินการใดๆ ที่ *npm* ปรับเปลี่ยน `node_modules` แผนผังต้นไม้หรือ `package.json` ไฟล์
 
-  * `visualClassName` -ชื่อของระดับชั้นหลักสำหรับการแสดงผลด้วยภาพ Power BI สร้างตัวอย่างของคลาสนี้เพื่อเริ่มใช้การแสดงผลด้วยภาพในรายงาน Power BI
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับไฟล์นี้ ให้ดูเอกสารกำกับโปรแกรมทางการของ [npm-package-lock.json](https://docs.npmjs.com/files/package-lock.json)
 
-  * `version` - หมายเลขเวอร์ชันของการแสดงผล
+### <a name="packagejson"></a>package.json
 
-  * `author` - มีชื่อของผู้สร้างและอีเมลติดต่อ
+ไฟล์นี้อธิบายเกี่ยวกับแพคเกจโครงการ สิ่งนี้ประกอบด้วยข้อมูลเกี่ยวกับโครงการ เช่น ผู้เขียน คำอธิบายและการขึ้นต่อกันของโครงการ
 
-  * `icon` ใน `assets`-เส้นทางไปยังแฟ้มไอคอนสำหรับการแสดงผล
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับไฟล์นี้ ให้ดูเอกสารกำกับโปรแกรมทางการของ [npm-package-lock.json](https://docs.npmjs.com/files/package.json.html)
 
-  * `externalJS` มีเส้นทางสำหรับไลบรารี JS ที่ใช้ในการแสดงผล
+### <a name="pbivizjson"></a>pbiviz.json
 
-    > [!IMPORTANT]
-    > เครื่องมือ3.x รุ่นล่าสุดหรือสูงกว่าไม่ได้ใช้ `externalJS` อีกต่อไป
+ไฟล์นี้ประกอบด้วยเมตาดาต้าวิชวล
 
-  * `style` เป็นเส้นทางไปยังไฟล์ลักษณะ
+ในการดูตัวอย่าง `pbiviz.json` ไฟล์ที่มีข้อคิดเห็นที่อธิบายรายการเมตาดาต้า ให้ดูที่ส่วน[รายการเมตาดาต้า](#metadata-entries)
 
-  * `capabilities` เป็นเส้นทางไปยังไฟล์ `capabilities.json`
+### <a name="tsconfigjson"></a>tsconfig.json
 
-  * `dependencies` เป็นเส้นทางไปยังไฟล์ `dependencies.json` `dependencies.json` ประกอบด้วยข้อมูลเกี่ยวกับแพคเกจ R ที่ใช้ในการแสดงผลด้วยภาพตาม R
+ไฟล์การกำหนดค่าสำหรับ [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
-  * `stringResources` เป็นอาร์เรย์ของเส้นทางไปยังไฟล์ที่มีการระบุตำแหน่ง
+ไฟล์นี้ต้องประกอบด้วยเส้นทางไปยังแฟ้ม **\*.ts** ที่มีชั้นหลักของวิชวลตั้งอยู่ ที่ระบุเฉพาะใน `visualClassName` คุณสมบัติใน `pbiviz.json` ไฟล์
 
-  อ่านเพิ่มเติ่ม[เกี่ยวกับการระบุตำแหน่งในการแสดงผลในเอกสาร](./localization.md)
+### <a name="tslintjson"></a>tslint.json
 
-* `tsconfig.json` ไฟล์การกำหนดค่าสำหรับ TypeScript
+ไฟล์นี้ประกอบด้วย [การกำหนดค่า TSLint](https://palantir.github.io/tslint/usage/configuration/)
 
-    อ่านเพิ่มเติม[เกี่ยวกับการกำหนดค่า TypeScript ในเอกสารที่เป็นทางการ](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+## <a name="metadata-entries"></a>รายการเมตาดาต้า
 
-    ส่วน `tsconfig.json` ใน `files` ต้องประกอบด้วยเส้นทางไปยังแฟ้ม * ts ที่มีการระบุระดับชั้นหลักของวิชวลในคุณสมบัติ `visualClassName` ของไฟล์ `pbiviz.json`
+ข้อคิดเห็นในคำบรรยายโค้ดต่อไปนี้จากไฟล์ `pbiviz.json`ที่อธิบายรายการเมตาดาต้า
 
-* ไฟล์ `tslint.json` มีการกำหนดค่า TSLint
+> [!NOTE]
+> * จากรุ่น 3.x.x ของ **เครื่องมือ** pbiciz`externalJS` ไม่ได้รับการสนับสนุน
+> * การสนับสนุนตามท้องถิ่น [ให้เพิ่ม Power BI ที่ระบุวิชวลของคุณ](./localization.md)
 
-    อ่านเพิ่มเติม[เกี่ยวกับการกำหนดค่า TSLint ในเอกสารที่เป็นทางการ](https://palantir.github.io/tslint/usage/configuration/)
+```json
+{
+  "visual": {
+     // The visual's internal name.
+    "name": "<visual project name>",
+
+    // The visual's display name.
+    "displayName": "<visual project name>",
+
+    // The visual's unique ID.
+    "guid": "<visual project name>23D8B823CF134D3AA7CC0A5D63B20B7F",
+
+    // The name of the visual's main class. Power BI creates the instance of this class to start using the visual in a Power BI report.
+    "visualClassName": "Visual",
+
+    // The visual's version number.
+    "version": "1.0.0",
+    
+    // The visual's description (optional)
+    "description": "",
+
+    // A URL linking to the visual's support page (optional).
+    "supportUrl": "",
+
+    // A link to the source code available from GitHub (optional).
+    "gitHubUrl": ""
+  },
+  // The version of the Power BI API the visual is using.
+  "apiVersion": "2.6.0",
+
+  // The name of the visual's author and email.
+  "author": { "name": "", "email": "" },
+
+  // 'icon' holds the path to the icon file in the assets folder; the visual's display icon.
+  "assets": { "icon": "assets/icon.png" },
+
+  // Contains the paths for JS libraries used in the visual.
+  // Note: externalJS' isn't used in the Power BI visuals tool version 3.x.x or higher.
+  "externalJS": null,
+
+  // The path to the 'visual.less' style file.
+  "style": "style/visual.less",
+
+  // The path to the `capabilities.json` file.
+  "capabilities": "capabilities.json",
+
+  // The path to the `dependencies.json` file which contains information about R packages used in R based visuals.
+  "dependencies": null,
+
+  // An array of paths to files with localizations.
+  "stringResources": []
+}
+```
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-* อ่านเพิ่มเติม[เกี่ยวกับแนวคิดการแสดงผลด้วยภาพ](./power-bi-visuals-concept.md) เพื่อทำความเข้าใจวิธีการแสดงผลด้วยภาพผู้ใช้และ Power BI โต้ตอบกับแต่ละอื่นๆได้ดียิ่งขึ้น
+* ในการเข้าใจการโต้ตอบระหว่างวิชวล ผู้ใช้และ Power BI ดู [แนวคิดวิชวลของ Power BI](./power-bi-visuals-concept.md)
 
-* เริ่มต้นการพัฒนาการแสดงผลของ Power BI ของคุณเองตั้งแต่เริ่มต้น [ด้วยคำแนะนำทีละขั้นตอน](./custom-visual-develop-tutorial.md)
+* เริ่มต้นการพัฒนาวิชวล Power BI ของคุณเองตั้งแต่เริ่มต้น โดยใช้ [ด้วยคำแนะนำทีละขั้นตอน](./custom-visual-develop-tutorial.md)

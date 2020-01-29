@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 935b453dabeaa731a218175526ddddeb980a2b92
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 6abcb77e3eb534e8b5d20c1d5567c117cbb97ffe
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75692470"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161443"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: หลีกเลี่ยงการใช้ตัวกรองเป็นอาร์กิวเมนต์ตัวกรอง
 
@@ -36,13 +36,13 @@ CALCULATE(
 
 ฟังก์ชันการคำนวณจะยอมรับนิพจน์ตารางที่ส่งกลับโดยฟังก์ชัน [FILTER](/dax/filter-function-dax) DAX ซึ่งประเมินนิพจน์ตัวกรองสำหรับแต่ละแถวของตาราง**ผลิตภัณฑ์** ซึ่งเป็นผลลัพธ์ที่ถูกต้อง–ผลการขายสำหรับผลิตภัณฑ์สีแดง อย่างไรก็ตาม อาจมีประสิทธิภาพมากขึ้นด้วยการใช้นิพจน์บูลีน
 
-ข้อกำหนดนี้เป็นข้อกำหนดหน่วยวัดที่ได้รับการปรับปรุง ซึ่งใช้นิพจน์บูลีนแทนที่จะเป็นนิพจน์ตาราง
+ข้อกำหนดนี้เป็นข้อกำหนดหน่วยวัดที่ได้รับการปรับปรุง ซึ่งใช้นิพจน์บูลีนแทนที่จะเป็นนิพจน์ตาราง ฟังก์ชัน [KEEPFILTERS](/dax/keepfilters-function-dax) DAX ช่วยให้แน่ใจว่าตัวกรองใดๆ ที่มีอยู่ที่ใช้กับคอลัมน์ **สี** ได้รับการรักษาไว้และไม่ได้เขียนทับ
 
 ```dax
 Red Sales =
 CALCULATE(
     [Sales],
-    'Product'[Color] = "Red"
+    KEEPFILTERS('Product'[Color] = "Red")
 )
 ```
 

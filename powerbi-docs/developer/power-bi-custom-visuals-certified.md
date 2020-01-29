@@ -1,6 +1,6 @@
 ---
 title: ส่วนจัดแสดง Power BI ที่ผ่านการรับรอง
-description: ข้อกำหนดและกระบวนการที่จะส่งวิชวลแบบกำหนดเองเพื่อผ่านการรับรอง และรายการของส่วนการจัดแสดง Power BI ที่ผ่านการรับรอง
+description: ข้อกำหนดและกระบวนการที่จะส่งวิชวลแบบกำหนดเองสำหรับการรับรองและรายการของวิชวล Power BI ที่ผ่านการรับรอง
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,73 +8,94 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 12/02/2019
-ms.openlocfilehash: c39b96122016746905ea09c0983adf50356f0c77
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/12/2019
+ms.openlocfilehash: 04954397a16fecddabca63067c903dee742873ef
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221976"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925574"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>รับการรับรองส่วนการจัดแสดง Power BI
 
-ส่วนการจัดแสดง Power BI ที่ได้รับการรับรองคือวิชวลใน *Marketplace* ที่ตรงตามข้อกำหนดรหัส*ที่ระบุไว้* ซึ่งผ่านการทดสอบและได้รับอนุมัติจาก*ทีม Microsoft Power BI team* แล้ว มีการออกแบบการทดสอบที่ทำขึ้นเพื่อตรวจสอบวิชวลที่ไม่ได้เข้าถึงบริการหรือทรัพยากรภายนอก
+ได้รับการรับรองวิชวล Power BI เป็นวิชวล Power BI ใน [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) ที่ตรงตามข้อกำหนดของ Microsoft Power BI team [code](#certification-requirements) วิชวลเหล่านี้จะได้รับการทดสอบเพื่อตรวจสอบว่าไม่สามารถเข้าถึงบริการภายนอกหรือแหล่งข้อมูล และทำตามรูปแบบการเขียนโค้ดที่ปลอดภัยและแนวทาง
 
-ส่วนการจัดแสดง Power BI ที่ได้รับการรับรองและ[ส่วนการจัดแสดง Power BI มาตรฐาน](power-bi-custom-visuals.md)ใช้งานเหมือนกัน คุณสามารถเพิ่มวิชวลแบบกำหนดเองที่ได้รับการรับรองไปยัง[Power BI Desktop](../desktop-what-is-desktop.md), [บริการ Power BI ](../power-bi-service-overview.md) และดูด้วย [Power BI mobile](../consumer/mobile/mobile-apps-for-mobile-devices.md) และ [Power BI Embedded ](embedding.md) ได้
+เมื่อการจัดแสดง Power BI ได้รับการรับรองแล้ว จะมีคุณลักษณะเพิ่มเติม เช่น คุณสามารถ[ส่งออกไปยัง PowerPoint](../consumer/end-user-powerpoint.md) หรือแสดงวิชวลในอีเมลเมื่อผู้ใช้[สมัครใช้งานในหน้ารายงาน](../consumer/end-user-subscribe.md)
 
-การรับรองเป็นกระบวนการที่ไม่บังคับให้ดำเนินการ ขึ้นอยู่กับนักพัฒนาจะเป็นผู้ตัดสินใจว่าพวกเขาต้องการให้การจัดแสดง Power BI ใน Marketplace ได้รับการรับรองหรือไม่ เมื่อการจัดแสดง Power BI ได้รับการรับรองแล้ว จะมีคุณลักษณะเพิ่มเติม เช่น คุณสามารถ[ส่งออกไปยัง PowerPoint](../consumer/end-user-powerpoint.md) หรือแสดงวิชวลในอีเมลเมื่อผู้ใช้[สมัครใช้งานในหน้ารายงาน](../consumer/end-user-subscribe.md)
-
-ส่วนจัดแสดง Power BI ที่ยังไม่ได้รับการรับรองไม่จำเป็นต้องหมายถึงวิชวลที่ไม่ปลอดภัย วิชวลบางอันไม่ผ่านการรับรองเนื่องจากไม่สอดคล้องกับ [ข้อกำหนดในการรับรอง](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) ตัวอย่างเช่น การเชื่อมต่อกับบริการภายนอก เช่น วิชวลแผนที่หรือวิชวลที่ใช้ไลบรารีเชิงพาณิชย์
-
-หากคุณเป็นนักพัฒนาเว็บที่สนใจในการสร้างวิชวล Power BI ของคุณเองและต้องการเพิ่มงานของคุณไปยัง [Microsoft AppSource](https://appsource.microsoft.com) คุณสามารถเริ่มต้นใช้งานได้ในบทช่วยสอน  [Developing a Power BI visual](visuals/custom-visual-develop-tutorial.md)
+กระบวนการการรับรองที่เป็นทางเลือก วิชวล power BI ที่ไม่ได้รับการรับรองไม่จำเป็นต้องใช้วิชวล Power BI ที่ไม่ปลอดภัย วิชวล Power BI บางอันไม่ผ่านการรับรองเนื่องจากไม่สอดคล้องกับ [ข้อกำหนดในการรับรอง](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)หนึ่งรายการหรือมากกว่านั้น สำหรับตัวอย่าง เช่น แผนที่วิชวล Power BI ที่เชื่อมต่อกับบริการภายนอกหรือวิชวล Power BI ที่ใช้ไลบรารีเชิงพาณิชย์
 
 > [!NOTE]
-> **Microsoft***ไม่ใช่*บริษัทบุคคลที่สามที่สร้าง Power BI วิชวล เพื่อยืนยันการใช้งานอย่างเต็มประสิทธิภาพจากวิชวลบุคคลที่สามเราแนะนำให้ลูกค้าติดต่อผู้เขียนโดยตรงเพื่อยืนยันการทำงานของวิชวลดังกล่าว
-
-> [!IMPORTANT]
-> Microsoft สามารถลบการแสดง Power BI ออกจากรายการ [การแสดง Power BI ที่ผ่านการรับรอง](#certified-power-bi-visuals) ตามดุลพินิจของ Microsoft
+> Microsoftไม่ใช่บริษัทบุคคลที่สามที่สร้าง Power BI วิชวล เพื่อยืนยันการใช้งานอย่างเต็มประสิทธิภาพจากวิชวลบุคคลที่สาม แนะนำให้ลูกค้าติดต่อผู้เขียนของวิชวลโดยตรง
 
 ## <a name="certification-requirements"></a>ข้อบังคับสำหรับการรับรอง
 
-เพื่อที่จะได้รับ[การรับรอง](#get-a-power-bi-visual-certified) Power BI visual ต้องแน่ใจว่าวิชวล Power BI ของคุณเป็นไปตามกฏและข้อกำหนดที่มีรายการในส่วนนี้แล้ว 
+ในการรับ[การรับรอง](#get-a-power-bi-visual-certified) วิชวล Power BI ของคุณ ต้องแน่ใจว่าวิชวล Power BI ของคุณเป็นไปตามรายการข้อกำหนดในส่วนนี้แล้ว 
 
-> [!TIP]
-> เราขอแนะนำให้คุณใช้ EsLint กับชุดกฎความปลอดภัยเริ่มต้น เพื่อทำการตรวจสอบรหัสของคุณก่อนส่งมาให้เรา
+### <a name="general-requirements"></a>ข้อกำหนดทั่วไป
 
-* Microsoft Seller Dashboard หรือได้รับการอนุมัติแล้วจาก Partner Center การแสดง Power BI ของคุณควรอยู่ใน [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) ของเรา
-* วิชวล Power BI ต้องเขียนด้วย *API รุ่น 2.5* หรือสูงกว่า
-* ที่เก็บโค้ดพรัอมตรวจสอบโดยทีมงาน Power BI ยกตัวอย่างเช่น รูปแบบโค้ดต้นทางที่สามารถอ่านได้ (JavaScript or TypeScript) ต้องมีพร้อมให้เราใน GitHub.
+วิชวล Power BI ของคุณต้องได้รับการอนุมัติจากแดชบอร์ดของผู้ขายหรือศูนย์คู่ค้า เราขอแนะนำให้วิชวล Power BI ของคุณอยู่ใน [AppSource](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) แล้ว ในการเรียนสิธีเผยแพร่วิชวล Power BI ไปยัง AppSource ดู[การเผยแพร่วิชวล Power BI ไปยังศูนย์คู่ค้า](office-store.md)
 
-    >[!NOTE]
-    > คุณไม่ต้องแชร์โค้ดของคุณกับ Github ในรูปแบบสาธารณะ
+ก่อนที่จะส่งวิชวล Power BI ของคุณเพื่อรับรองความถูกต้อง ตรวจสอบว่าเป็นไปตาม [แนวทางสำหรับวิชวล Power BI](./guidelines-powerbi-visuals.md)
 
-* ข้อกำหนดของที่เก็บรหัส:
-  * ต้องมีไฟล์นามสกุลเหล่านี้รวมอยู่ในนั้นด้วย:
-    * .gitignore
-    * capabilities.json
-    * pbiviz.json
-    * package.json
-    * package-lock.json
-    * tsconfig.json
-  * ต้องไม่มีโฟลเดอร์ *node_modules* (เพิ่ม *node_modules* ไฟล์ gitingore)
-  * *ติดตั้ง npm* คำสั่งต้องไม่ส่งข้อผิดพลาดใดๆ กลับมา
-  * *การตรวจสอบ npm*  คำสั่งต้องไม่ส่งกลับคำเตือนใดๆ ที่มีระดับสูงหรือระดับปานกลาง
-  * *pbiviz package*คำสั่งต้องไม่ส่งข้อผิดพลาดใดๆ กลับมา
-  * ต้องมีไฟล์ [TSlint จาก Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) ที่ไม่มีการตั้งค่าแทนที่ คำสั่งนี้ต้องไม่ส่งข้อ lint ผิดพลาดใดๆ กลับมา
-   * แพคเกจที่มีการคอมไพล์ของวิชวล Power BI จะต้องตรงกับแพคเกจที่ส่ง
-* ข้อกำหนดของ Source Code:
-   * วิชวลPower BI ต้องสนับสนุน [การเรนเดอร์อีเวนท์ API](./visuals/event-service.md)
-   * ตรวจสอบให้แน่ใจว่าไม่มีการเรียกใช้โค้ดตามอำเภอใจ/dynamic (bad: eval () ไม่ปลอดภัยในการใช้ settimeout (), requestAnimationFrame (), setinterval (ฟังก์ชันบางอย่างที่มีการป้อนข้อมูลของผู้ใช้), เรียกใช้การป้อนข้อมูล/ข้อมูลผู้ใช้)
-   * ตรวจสอบให้แน่ใจว่ามีการจัดการ DOM อย่างปลอดภัย (bad: innerHTML, D3. html (< การป้อนข้อมูลผู้ใช้/data > บางรายการ) ให้จัดการให้ถูกต้องสำหรับการป้อนข้อมูลของผู้ใช้ก่อนที่จะเพิ่มลงใน DOM
-   * ตรวจสอบให้แน่ใจว่าไม่มีข้อผิดพลาดหรือข้อยกเว้น javascript ในคอนโซลของเบราว์เซอร์สำหรับข้อมูลป้อนเข้าใดๆ ผู้ใช้อาจใข้งานวิชวล Power BI ในขอบเขตข้อมูลที่ต่างกัน ดังนั้นวิชวลจะไม่สามารถล้มเหลวได้ คุณสามารถใช้ [รายงานอย่างง่าย](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) นี้เป็นตัวทดสอบชุดข้อมูล
+เมื่อส่งวิชวล Power BI ให้ตรวจสอบให้แน่ใจว่าแพคเกจที่แปลแล้วตรงกับแพคเกจที่ส่งเข้าไป
 
-* ถ้ามีคุณสมบัติใดใน *capabilities.json* ถูกเปลี่ยน ต้องแน่ใจว่าการเปลี่ยนแปลงนั้นจะไม่กระทบต่อผู้ใช้งานคนอื่นๆ
+### <a name="code-repository-requirements"></a>ข้อกำหนดของที่เก็บโค้ด:
 
-* ต้องแน่ใจว่าวิชวล Power BI ต้องเป็นไปตาม [คู่มือสำหรับวิชวล Power BI](./guidelines-powerbi-visuals.md)
-    
-* โค้ดของคุณสามารถใช้องค์ประกอบ OSS ที่ตรวจสอบแล้วเท่านั้นเช่น Javascript หรือไลบราลี่ TypeScript โค้ดต้นทางจะต้องพร้อมสำหรับการตรวจสอบและต้องไม่มีค่าผิดปกติเข้ามา เราไม่สามารถยืนยันความถูกต้องของวิชวลแบบกำหนดเองโดยใช้องค์ประกอบเชิงพาณิชย์ได้
+แม้ว่าคุณจะไม่จำเป็นต้องแชร์รหัสของคุณใน GitHub แบบสาธารณะ การเก็บโค้ดก็จะพร้อมใช้งานสำหรับการตรวจทานโดยทีม Power BI วิธีที่ดีที่สุดในการทำเช่นนี้คือการให้แหล่งโค้ด (JavaScript หรือ TypeScript) ใน GitHub
 
-* วิชวล Power BI ต้องไม่เข้าถึงบริการหรือแหล่งข้อมูลภาพนอก ยกตัวอย่างเช่น ไม่มีการใช้ HTTP/S หรือ WebSocket ที่สามารถออกไปจาก Power BI เพื่อไปยังบริการอื่นได้ 
+ที่เก็บต้องมีโค้ดสำหรับวิชวล Power BI เดียวเท่านั้น ซึ่งไม่สามารถมีโค้ดสำหรับวิชวล Power BI หลายหรือรหัสที่ไม่เกี่ยวข้อง
+
+ที่เก็บต้องมี **ใบรับรอง** ชื่อสาขา แหล่งโค้ดในสาขานี้ต้องตรงกับแพคเกจที่ส่งไป โค้ดนี้สามารถอัปเดตได้ระหว่างขั้นตอนการส่งครั้งถัดไป ถ้าคุณกำลังส่งวิชวล Power BI ของคุณใหม่
+
+ถ้าวิชวล Power BI ของคุณใช้แพคเกจ npm แบบส่วนตัวหรือโมดูลย่อย git คุณต้องให้การเข้าถึงที่เก็บข้อมูลเพิ่มเติมที่มีโค้ดนี้
+
+### <a name="file-requirements"></a>ข้อกำหนดไฟล์
+
+ใช้ API รุ่นล่าสุดเพื่อเขียนวิชวล Power BI
+
+ที่เก็บต้องมีไฟล์ต่อไปนี้:
+* **gitignore**-เพิ่ม `node_modules` ไปยังแฟ้มนี้ โค้ดไม่สามารถรวมโฟลเดอร์ *node_modules* ได้
+* **capabilities.json** - ถ้าคุณกำลังส่งเวอร์ชันที่ใหม่กว่าของวิชวล Power BI ของคุณด้วยการเปลี่ยนแปลงคุณสมบัติในไฟล์นี้ โปรดตรวจสอบว่าไฟล์นั้นไม่ได้แบ่งแยกรายงานสำหรับผู้ใช้ที่มีอยู่
+* **pbiviz.json**
+* **pbiviz.json**
+* **pbiviz.json**
+* **pbiviz.json**
+
+### <a name="command-requirements"></a>ข้อกำหนดคำสั่ง
+
+ตรวจสอบให้แน่ใจว่าคำสั่งต่อไปนี้ไม่ได้ส่งกลับข้อผิดพลาดใดๆ
+
+* `npm install`
+* `pbiviz package`
+* `npm audit` - ต้องไม่ส่งกลับคำเตือนใดๆ ที่มีระดับสูงหรือระดับปานกลาง
+* [TSlint จาก Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) ที่ไม่มีการตั้งค่าแทนที่ คำสั่งนี้ต้องไม่ส่งข้อ lint ผิดพลาดใดๆ กลับมา
+
+### <a name="compiling-requirements"></a>ข้อกำหนดตัวแปลโปรแกรม
+
+ใช้ [เครื่องมือ-วิชวล-powerbi](https://www.npmjs.com/package/powerbi-visuals-tools) รุ่นล่าสุดเพื่อเขียนวิชวล Power BI
+
+คุณต้องคอมไพล์วิชวล Power BI ของคุณด้วย `pbiviz package` ถ้าคุณกำลังใช้สคริปต์การสร้างของคุณเองให้  `npm run package`คำสั่งสร้างแบบกำหนดเอง
+
+
+
+### <a name="source-code-requirements"></a>ข้อกำหนดของแหล่งโค้ด
+
+ตรวจสอบว่าคุณได้ทำตามรายการนโยบาย [ การรับรองความถูกต้องของ Power BI](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification) หากการส่งของคุณไม่เป็นไปตามหลักเกณฑ์เหล่านี้ อีเมลที่ใช้ในการปฏิเสธจากศูนย์คู่ค้าจะรวมถึงหมายเลขนโยบายที่แสดงรายการอยู่ในลิงก์นี้
+
+ปฏิบัติตามข้อกำหนดของโค้ดที่แสดงด้านล่างเพื่อตรวจสอบให้แน่ใจว่าโค้ดของคุณอยู่ในแนวทางด้วยนโยบายการรับรอง Power BI  
+
+**ที่จำเป็น**
+* มีเพียงการใช้องค์ประกอบ OSS ที่ตรวจสอบแล้วเท่านั้น เช่น Javascript หรือไลบราลี่ TypeScript
+* โค้ดต้องสนับสนุน [การเรนเดอร์อีเวนท์ API](./visuals/event-service.md)
+* ตรวจสอบให้แน่ใจว่า DOM ได้รับการจัดการอย่างปลอดภัย ใช้สุขอนามัยสำหรับการข้อมูลที่ป้อนเข้าหรือข้อมูลของผู้ใช้ก่อนที่จะเพิ่มลงใน DOM
+* สามารถใช้ [รายงานตัวอย่าง](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) นี้เป็นตัวทดสอบชุดข้อมูล
+
+**ไม่ได้รับอนุญาต**
+* การเข้าถึงบริการหรือแหล่งข้อมูลภายนอก ยกตัวอย่างเช่น ไม่มีการใช้ HTTP/S หรือ WebSocket ที่สามารถออกไปจาก Power BI เพื่อไปยังบริการอื่นได้
+* ใช้ `innerHTML`หรือ `D3.html(user data or user input)`
+* ข้อผิดพลาด JavaScript หรือข้อยกเว้นในคอนโซลของเบราว์เซอร์สำหรับข้อมูลที่ป้อนเข้าใดๆ
+* รหัสที่กำหนดเองหรือแบบไดนามิก เช่น `eval()`การใช้ที่ไม่ปลอดภัยของ `settimeout()` `requestAnimationFrame()` `setinterval(user input function)`และข้อมูลที่ป้อนเข้าหรือข้อมูลของผู้ใช้
+* ทำให้ JavaScript files หรือโครงการเล็กลง
 
 ## <a name="submitting-a-power-bi-visual-for-certification"></a>การยื่นใบรับรองวิชวล Power BI
 
@@ -212,6 +233,7 @@ ms.locfileid: "75221976"
 * [รายการเพลย์ลิสต์ วิชวลแบบกำหนดเองของ Microsoft บน YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [จัดรูปแบบข้อมูลใน Power BI](../visuals/power-bi-report-visualizations.md)  
 * [แสดงภาพแบบกำหนดเองใน Power BI](power-bi-custom-visuals.md)  
-* [การเผยแพร่ส่วนการจัดแสดง Power BI ไปยัง Microsoft AppSource](../developer/office-store.md)  
+* [การเผยแพร่ส่วนการจัดแสดง Power BI ไปยัง Microsoft AppSource](../developer/office-store.md) 
+* หากคุณเป็นนักพัฒนาเว็บที่สนใจในการสร้างวิชวล Power BI ของคุณเองและต้องการเพิ่มงานของคุณไปยัง [Microsoft AppSource](https://appsource.microsoft.com) คุณสามารถเริ่มต้นใช้งานได้ในบทช่วยสอน  [Developing a Power BI visual](visuals/custom-visual-develop-tutorial.md) 
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
