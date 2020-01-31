@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 1/22/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0b581b9c45cb75d12eea974c0895474015634eb1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 0733e726512ff52c5b51ba2d25cea18f8857f1e8
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73851286"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537630"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>ติดตั้งและใช้แอปกับแดชบอร์ดและรายงาน
 
@@ -48,12 +48,13 @@ ms.locfileid: "73851286"
 1. เลือก**แอป**  >  **รับแอป** 
    
     ![ไอคอนรับแอป](./media/end-user-app-view/power-bi-get-app2.png)    
-2. ใน AppSource ภายใต้**องค์กรของฉัน**คุณสามารถค้นหาเพื่อจำกัดขอบเขตผลลัพธ์ และค้นหาแอปที่คุณกำลังค้นหาได้
+2. ใน AppSource ภายใต้ **องค์กรของฉัน** ค้นหาผลให้แคบลงและหาแอปที่คุณกำลังมองหา
    
     ![ใน AppSource ภายใต้องค์กรของฉัน](./media/end-user-app-view/power-bi-opportunity-app.png)
 3. เลือก**รับทันที**เพื่อเพิ่มลงในรายการเนื้อหาแอปของคุณ 
 
-## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>รับแอปจากเว็บไซต์ Microsoft AppSource (https://appsource.microsoft.com)
+## <a name="get-an-app-from-the-microsoft-appsource-website"></a>ดาวน์โหลดแอปจากเว็บไซต์ Microsoft AppSource 
+
 ในตัวอย่างนี้ เราจะเปิดหนึ่งในแอปตัวอย่างของ Microsoft บน AppSource คุณจะพบแอปสำหรับบริการหลายอย่างที่คุณใช้เพื่อเรียกใช้ธุรกิจของคุณ  บริการเช่น Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo และอื่น ๆ อีกมากมาย เมื่อต้องการเรียนรู้เพิ่มเติม ดู[แอปสำหรับบริการที่คุณใช้กับ Power BI](../service-connect-to-services.md) 
 
 1. ในเบราว์เซอร์ เปิด https://appsource.microsoft.com และเลือก**แอป Power BI**
@@ -92,12 +93,36 @@ ms.locfileid: "73851286"
     ![สำรวจด้วยข้อมูลตัวอย่าง](./media/end-user-apps/power-bi-new-app.png)
 
 
-
-
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>โต้ตอบกับแดชบอร์ดและรายงานในแอป
 ใช้เวลาสักครู่เพื่อสำรวจข้อมูลในแดชบอร์ดและรายงานที่สร้างแอป คุณสามารถเข้าถึงการโต้ตอบของ Power BI แบบมาตรฐานทั้งหมดเช่น การกรอง การเน้น การเรียงลำดับ และการดูรายละเอียดแนวลึก  ยังสับสนเล็กน้อยจากความแตกต่างระหว่างแดชบอร์ดและรายงานหรือไม่  อ่าน[บทความเกี่ยวกับแดชบอร์ด](end-user-dashboards.md)และ[บทความเกี่ยวกับรายงาน](end-user-reports.md)  
 
+## <a name="update-an-app"></a>อัปเดตแอป 
 
+ในบางครั้ง ผู้สร้างแอปอาจเผยแพร่แอปเวอร์ชันใหม่ของพวกเขา การค้นหาเวอร์ชันใหม่จะขึ้นอยู่กับวิธีการที่คุณได้รับเวอร์ชันเดิม 
+
+* หากคุณได้รับแอปมาจากองค์กรของคุ การอัปเดตเป็นเวอร์ชันใหม่จะเป็นไปอย่างโปร่งใสอย่างยิ่ง และคุณไม่จำเป็นต้องทำอะไรเลย 
+
+* ถ้าคุณมีแอปจาก AppSource ในครั้งถัดไปที่คุณเปิดแอปคุณจะเห็นแบนเนอร์การแจ้งเตือน การแจ้งเตือนช่วยให้คุณทราบว่าเวอร์ชันใหม่พร้อมใช้งานแล้ว 
+
+    1. เลือก**รับทันที**เพื่ออัปเดต  
+
+        <!--![App update notification](./media/end-user-app-view/power-bi-new-app-version-notification.png) -->
+
+    2. เมื่อได้รับพร้อมท์ ให้ติดตั้งแอปที่อัปเดตแล้วเลือก **ติดตั้ง** 
+
+        ![ติดตั้งการอัปเดต](./media/end-user-app-view/power-bi-install.png) 
+
+    3. เนื่องจากคุณมีเวอร์ชันของแอปนี้อยู่แล้ว ให้ตัดสินใจว่าจะแทนที่เวอร์ชันที่มีอยู่หรือจะติดตั้งแอปที่อัปเดตแล้วในพื้นที่ทำงานใหม่   
+
+        ![เขียนทับแอปเวอร์ชันเดิม](./media/end-user-app-view/power-bi-already-installed.png) 
+
+
+    > [!NOTE] 
+    > การติดตั้งเวอร์ชั่นใหม่จะเป็นการเขียนทับการเปลี่ยนแปลงใด ๆ ที่คุณมีกับรายงานดังกล่าวและแดชบอร์ด เพื่อให้คุณได้เก็บรายงานและแดชบอร์ดล่าสุด คุณจะสามารถบันทึกไว้ในชื่อหรือตำแหน่งอื่นก่อนทำการติดตั้ง 
+
+    4. เมื่อคุณติดตั้งเวอร์ชันอัปเดตแล้ว ให้เลือก**อัปเดตแอป** เพื่อดำเนินกระบวนการอัปเดตให้เสร็จสมบูรณ์ 
+
+    <!--![Update app](./media/end-user-app-view/power-bi-new-app-version-update-app.png) -->
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

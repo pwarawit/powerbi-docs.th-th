@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 01/14/2020
+ms.date: 01/16/2020
 ms.author: mblythe
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d9549364f9129ee4ddc6e90fb973cb73c241e4a9
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: bbca812644b82f8a0b848dc16e450f880ccb596c
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76042129"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539911"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>บทช่วยสอน: ฝังวิชวล Power App ในรายงาน Power BI
 
 ในการแนะนำวิธีการใช้นี้ คุณใช้วิชวล Power Apps สร้างแอปใหม่ที่ถูกฝังในตัวอย่างรายงาน Power BI แอปนี้โต้ตอบกับวิชวลอื่นในรายงานดังกล่าว
 
-หากคุณไม่มีการสมัครสมาชิก Power Apps [สร้างบัญชีฟรี](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps) ก่อนที่คุณจะเริ่มใช้งาน
+หากคุณไม่มีการสมัครสมาชิก Power Apps [สร้างบัญชีฟรี](https://web.powerapps.com/signup?redirect=marketing&email=) ก่อนที่คุณจะเริ่มใช้งาน
 
 ในบทช่วยสอนนี้ คุณจะเรียนรู้วิธีการ:
 > [!div class="checklist"]
@@ -33,12 +33,12 @@ ms.locfileid: "76042129"
 
 * เบราว์เซอร์ [Google Chrome](https://www.google.com/chrome/browser/) หรือ [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)
 * [การสมัครใช้งาน Power BI](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi) ที่ติดตั้ง [ตัวอย่างการวิเคราะห์โอกาสทางการขาย](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)
-* การเข้าใจวิธีการ [สร้างแอปใน Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch.md) และวิธีการ [แก้ไขรายงาน Power BI](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
+* การเข้าใจวิธีการ [สร้างแอปใน Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch) และวิธีการ [แก้ไขรายงาน Power BI](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
 
 
 
 ## <a name="create-a-new-app"></a>สร้างแอปใหม่
-เมื่อคุณเพิ่มวิชวล Power Apps ไปยังรายงานของคุณ มันจะเปิดใช้งาน PowerApps Studio ด้วยการเชื่อมต่อข้อมูลระหว่าง Power Apps และ Power BI
+เมื่อคุณเพิ่มวิชวล Power Apps ไปยังรายงานของคุณ ระบบจะเปิดใช้งาน Power Apps Studio ด้วยการเชื่อมต่อข้อมูลสดระหว่าง Power Apps และ Power BI
 
 1. เปิดตัวอย่างรายงานตัวอย่างการวิเคราะห์โอกาสทางการขายและเลือกหน้า *โอกาสที่จะเข้ามาถึง* 
 
@@ -49,7 +49,7 @@ ms.locfileid: "76042129"
 
 2. จากแผงการแสดงผลด้วยภาพ เลือกไอคอน Power Apps แล้วรปับขนาดวิชวลให้พอดีกับช่องว่างที่คุณสร้าง
 
-    ![แผงการแสดงผลด้วยภาพกับไอคอน PowerApps ทีเลือก](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
+    ![บานหน้าต่างการแสดงผลด้วยภาพพร้อมกับไอคอน Power Apps ที่เลือก](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
 3. ในบานหน้าต่าง **เขตข้อมูล** ให้เลือก **ชื่อ** **รหัสผลิตภัณฑ์** และ **ขั้นตอนการขาย** 
 

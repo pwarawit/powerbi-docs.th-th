@@ -7,20 +7,25 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 01/17/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5189c92c9da29b38d9ffaa4bf59e271e08fc4b2c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ad7e2133d531abcbb2165dc2be9846a6a70f4fc0
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862720"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537448"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>เลือกใช้ฟีเจอร์ตัวอย่างของบริการ Power BI
 ## <a name="what-are-preview-features"></a>อะไรคือ*ฟีเจอร์ตัวอย่าง*
 ขณะที่เราปรับปรุงบริการของ Power BI เราจะปล่อยฟังก์ชันใหม่บางอย่างที่เป็น *ฟีเจอร์ตัวอย่าง* ฟีเจอร์ตัวอย่างสามารถเปิดและปิด ทำให้คุณมีโอกาสในการลองได้
 
+ฟีเจอร์ตัวอย่างบางอย่างสามารถสลับเปิดและปิดจากแดชบอร์ด Power BI ของคุณ หน้าแรก หรือรายงาน
+
+   ![สลับรูปลักษณ์ใหม่](./media/end-user-preview-features/power-bi-toggle.png)
+
+ในขณะที่ฟีเจอร์ตัวอย่างอื่น ๆ จะสามารถใช้งานได้จากเมน *การตั้งค่า* ของคุณ บทความนี้จะแสดงวิธีการเข้าถึงฟีเจอร์ตัวอย่างผ่านเมนูการตั้งค่า
 
 ## <a name="find-previews-and-turn-them-on-and-off"></a>แสดงตัวอย่างการค้นหา และเปิดใช้งาน(และปิด)
 1. เปิดเมนูการตั้งค่าของคุณ โดยการเลือกไอคอนรูปเฟืองที่มุมขวาบนของหน้าจอ Power BI ของคุณ แล้วเลือก**ตั้งค่า**

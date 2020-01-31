@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 024e04bd309080b5b31e43bde7c783255bfc3dba
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851066"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537243"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>เปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI (แสดงตัวอย่าง)
 
@@ -73,3 +73,4 @@ Power BI ใช้ป้ายชื่อระดับความลับ M
 * [ภาพรวมของการป้องกันข้อมูลใน Power BI](service-security-data-protection-overview.md)
 * [ใช้ป้ายชื่อระดับความลับของข้อมูลใน Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
 * [ใช้ตัวควบคุม Microsoft Cloud App Security ใน Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
+* [รายงานเมตริกการป้องกันข้อมูล](service-security-data-protection-metrics-report.md)

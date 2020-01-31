@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866424"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709772"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>ใช้ตัววิเคราะห์ประสิทธิภาพในการตรวจสอบประสิทธิภาพขององค์ประกอบรายงาน
 
@@ -58,6 +58,9 @@ ms.locfileid: "73866424"
 * **การแสดงวิชวล** - เวลาที่ต้องใช้ในการวาดวิชวลลงบนหน้าจอ รวมถึงเวลาที่ต้องใช้เพื่อดึงรูปภาพของเว็บหรือการเข้ารหัสภูมิศาสตร์ 
 * **อื่น ๆ** - เวลาที่วิชวลต้องการสำหรับการจัดเตรียมคิวรี รอให้วิชวลอื่นเสร็จสมบูรณ์ หรือดำเนินการประมวลผลเบื้องหลังอื่น ๆ
 
+ค่า**ช่วงเวลา (ms)** แสดงความแตกต่างระหว่างประทับเวลา *เริ่มต้น* และ *สิ้นสุด* สำหรับแต่ละการดำเนินการ พื้นที่ทำงานและการดำเนินการวิชวลส่วนใหญ่ทำงานตามลำดับบนเธรดอินเทอร์เฟซผู้ใช้เดียว ซึ่งใช้ร่วมกันหลายการดำเนินการ ช่วงเวลาที่รายงานรวมประกอบด้วยที่อยู่ในคิวขณะที่การดำเนินการอื่นเสร็จสมบูรณ์ [ตัวอย่างตัววิเคราะห์ประสิทธิภาพ](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)บน GitHub และ[เอกสาร](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)ที่เกี่ยวข้องให้รายละเอียดเกี่ยวกับวิธีการสร้างวิชวลข้อมูลคิวรี และวิธีการแสดงผลข้อมูลดังกล่าว
+
+
 ![องค์ประกอบของข้อมูลบันทึก](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
 หลังจากที่คุณโต้ตอบกับองค์ประกอบของรายงานที่คุณต้องการวัดผลด้วยตัววิเคราะห์ประสิทธิภาพ แล้วคุณสามารถเลือกปุ่ม **หยุด** ข้อมูลประสิทธิภาพยังคงอยู่ในบานหน้าต่างหลังจากคุณเลือก **หยุด** เพื่อให้คุณนำไปวิเคราะห์
@@ -89,3 +92,7 @@ ms.locfileid: "73866424"
 * [จัดรูปร่างและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [งานคิวรี่ที่ใช้บ่อยใน Power BI Desktop](desktop-common-query-tasks.md)   
 
+สำหรับข้อมูลเกี่ยวกับตัวอย่างตัววิเคราะห์ประสิทธิภาพ ให้ดูแหล่งข้อมูลต่อไปนี้
+
+* [ตัวอย่างตัววิเคราะห์ประสิทธิภาพ](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
+* [เอกสารตัวอย่างตัววิเคราะห์ประสิทธิภาพ](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

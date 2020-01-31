@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 1/16/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9e00e68e0a5f6df62072a1d9744276bffbd3beb4
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 4570fea58a19acb4f35a5c24d0a5bfa93beba215
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791665"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537565"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>ส่งออกรายงานจาก Power BI เป็น PDF
 
@@ -63,6 +63,7 @@ ms.locfileid: "74791665"
 * ตัวกรอง URL จะไม่ถูกนำมาพิจารณาหากคุณเลือก **ค่าปัจจุบัน** สำหรับการส่งออกของคุณ
 * รายงานที่มีขนาดหน้ากระดาษแบบกำหนดเองที่ไม่ปกติอาจประสบปัญหาในสถานการณ์การส่งออก เพื่อให้ได้ผลลัพธ์ที่ดีที่สุด ให้ลองสลับไปยังขนาดหน้ากระดาษมาตรฐานสำหรับรายงานของคุณ
 * เมื่อส่งออกเป็น PDF แล้ว รายงานที่ใช้ธีมที่มีแบบอักษรที่กำหนดเองจะมีการแทนที่แบบอักษรที่กำหนดเองด้วยแบบอักษรเริ่มต้น
+* ในขณะที่เรากำลังมองหาประสบการณ์ที่สอดคล้องกัน เราไม่สามารถรับประกันว่า PDF ที่ส่งออกจากบริการของ Power BI จะตรงกับ PDF ที่ส่งออกจากไฟล์ Power BI Desktop ภายในเครื่องเสมอ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [พิมพ์หน้ารายงาน](end-user-print.md)

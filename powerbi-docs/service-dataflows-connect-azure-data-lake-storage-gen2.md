@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c3f703bfe2685166ce575b37c053b2a9603a799f
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: e91900632b7cf470cd91923ca9ec871247c154ba
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223875"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710188"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับการเก็บกระแสข้อมูล
 
@@ -45,7 +45,7 @@ ms.locfileid: "75223875"
 1. ต้องสร้างบัญชีเก็บข้อมูลในพื้นที่เดียวกันกับที่เช่า AADในฐานะผู้เช่า Power BI ของคุณ
 2. ต้องสร้างบัญชีเก็บข้อมูลในภูมิภาคเดียวกันกับผู้เช่า Power BI ของคุณ เมื่อต้องการกำหนดว่าผู้เช่า Power BI ของคุณอยู่ที่ใด ให้ดูที่ [ผู้เช่า Power BI ของฉันอยู่ที่ไหน](service-admin-where-is-my-tenant-located.md)
 3. บัญชีเก็บข้อมูลต้องให้ฟีเจอร์*พื้นที่เก็บชื่อตามลำดับชั้น*เปิดใช้งาน
-4. บริการ power BI ต้องมอบบทบาท*ผู้อ่าน*ให้กับบัญชีเก็บข้อมูล
+4. บริการ Power BI ต้องมอบบทบาท *ผู้อ่าน* และ *การเข้าถึงข้อมูล* บนบัญชีเก็บข้อมูล
 5. ระบบไฟล์ชื่อว่า**powerbi**ต้องถูกสร้างขึ้น
 6. บริการ Power BI ต้องได้รับอนุญาตจากระบบไฟล์**powerbi**ที่คุณสร้าง
 
@@ -59,16 +59,13 @@ ms.locfileid: "75223875"
 2. ให้แน่ใจว่า คุณเปิดใช้งานฟีเจอร์พื้นที่เก็บชื่อตามลำดับชั้น
 3. แนะนำว่าให้ตั้งค่าการจำลองแบบเป็น**Read-access geo-redundant storage (RA-GRS)**
 
-### <a name="grant-the-power-bi-service-a-reader-role"></a>อนุญาตให้บริการ Power BI เป็นบทบาทผู้อ่าน
+### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>มอบบทบาทการเข้าถึงข้อมูลและผู้อ่านบริการ Power BI
 
-ขั้นตอนถัดไป คุณต้องให้สิทธิ์บริการ Power BI เป็น บทบาทผู้อ่านในการสร้างบัญชีสำหรับเก็บข้อมูล เนื่องจากมีการกำหนดบทบาทมาในตัวอยู่แล้ว ดังนั้นขั้นตอนจึงไม่มีความซับซ้อน 
+หลังจากนั้น คุณจะต้องมอบบทบาทการเข้าถึงข้อมูลและผู้อ่านบริการ Power BI เนื่องจากมีการกำหนดบทบาทมาในตัวอยู่แล้ว ดังนั้นขั้นตอนจึงไม่มีความซับซ้อน 
 
 ทำตามขั้นตอนใน [กำหนดบทบาท RBAC ภายใน](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)
 
-ในหน้าต่าง**เพิ่มการกำหนดบทบาท** เลือกบทบาท**ผู้อ่าน**เพื่อกำหนดค่าการบริการ Power BI จากนั้นใช้การค้นหาเพื่อกำหนดที่ตั้ง**บริการ Power BI** รูปภาพต่อไปนี้แสดงบทบาทของ**ผุ้อ่าน**ที่ได้รับมอบหมายให้กับบริการ Power BI
-
-![บริการ power BI ที่ถูกกำหนดให้กับบทบาทผู้อ่าน](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
-
+ในหน้าต่าง **เพิ่มการกำหนดบทบาท** เลือกบทบาท **ผู้อ่าน** และ **การเข้าถึงข้อมูล** สำหรับกำหนดบทบาทไปยังบริการ Power BI จากนั้นใช้การค้นหาเพื่อกำหนดที่ตั้ง**บริการ Power BI** 
 
 > [!NOTE]
 > มีเวลาอย่างน้อย 30 นาทีสำหรับสิทธิ์ในการเผยแพร่ไปยัง Power BI จากพอร์ทัล ทุกครั้งที่คุณเปลี่ยนสิทธิ์ในพอร์ทัล จะมีเวลา 30 นาทีสำหรับสิทธิ์เหล่านั้นเพื่อให้ปรากฏใน Power BI 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 01/21/2020
 ms.author: maggies
-ms.openlocfilehash: 019cbc489ae6433629898e44088e689767ef12ae
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874184"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540601"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>แหล่งข้อมูลรายงาน Power BI ใน Power BI Report Server
 รายงาน Power BI สามารถเชื่อมต่อกับหลาย ๆ แหล่งข้อมูลได้ ขึ้นอยู่กับวิธีการใช้ข้อมูล แหล่งข้อมูลที่แตกต่างกันสามารถใช้งานได้ สามารถนำเข้าข้อมูล หรือข้อมูลสามารถถูกคิวรี่ได้โดยตรงโดยใช้ DirectQuery หรือการเชื่อมต่อตรงกับ SQL Server Analysis Services
@@ -38,12 +38,12 @@ ms.locfileid: "73874184"
 | ฐานข้อมูล Access |ใช่ |ใช่ |ไม่ใช่ |
 | Active Directory |ใช่ |ใช่ |ไม่ใช่ |
 | Amazon Redshift |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Azure Blob Storage |ใช่ |ใช่ |ไม่ใช่ |
+| พื้นที่เก็บข้อมูล Azure Blob |ใช่ |ใช่ |ไม่ใช่ |
 | Azure Data Lake Store |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure HDInsight (HDFS) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure HDInsight (Spark) |ใช่ |ใช่ |ไม่ใช่ |
-| Azure Table Storage |ใช่ |ใช่ |ไม่ใช่ |
-| Dynamics 365 (online) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| พื้นที่เก็บข้อมูล Azure Table |ใช่ |ใช่ |ไม่ใช่ |
+| Dynamics 365 (ออนไลน์) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Facebook |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | โฟลเดอร์ |ใช่ |ใช่ |ไม่ใช่ |
 | Google Analytics |ใช่ |ไม่ใช่ |ไม่ใช่ |
@@ -53,15 +53,15 @@ ms.locfileid: "73874184"
 | JSON |ใช่ |ใช่ |ไม่ใช่ |
 | Microsoft Exchange |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Microsoft Exchange Online |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| ฐานข้อมูล MySql |ใช่ |ใช่ |ไม่ใช่ |
-| OData Feed |ใช่ |ใช่ |ไม่ใช่ |
+| ฐานข้อมูล MySQL |ใช่ |ใช่ |ไม่ใช่ |
+| ตัวดึงข้อมูล OData |ใช่ |ใช่ |ไม่ใช่ |
 | ODBC |ใช่ |ใช่ |ไม่ใช่ |
 | OLE DB |ใช่ |ใช่ |ไม่ใช่ |
 | ฐานข้อมูล Oracle |ใช่ |ใช่ |ใช่ |
 | ฐานข้อมูล PostgreSQL |ใช่ |ใช่ |ไม่ใช่ |
 | Power BI service |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
-| R Script |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Salesforce Objects |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| สคริปต์ R |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| ออบเจ็กต์ Salesforce |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | รายงาน Salesforce |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | เซิร์ฟเวอร์ SAP Business Warehouse |ใช่ |ใช่ |ใช่ |
 | ฐานข้อมูล SAP HANA |ใช่ |ใช่ |ใช่ |
@@ -74,38 +74,38 @@ ms.locfileid: "73874184"
 | Text/CSV |ใช่ |ใช่ |ไม่ใช่ |
 | เว็บ |ใช่ |ใช่ |ไม่ใช่ |
 | XML |ใช่ |ใช่ |ไม่ใช่ |
-| appFigures (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| appFigures (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | ฐานข้อมูล Azure Analysis Services |ใช่ |ไม่ใช่ |ใช่ |
-| Azure Cosmos DB (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Azure HDInsight Spark (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Common Data Service (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| comScore Digital Analytix (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Dynamics 365 for Customer Insights (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Dynamics 365 for Financials (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| GitHub (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Google BigQuery (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Azure Cosmos DB (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Azure HDInsight Spark |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Common Data Service (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| comScore Digital Analytix (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Dynamics 365 for Customer Insights (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Dynamics 365 สำหรับ Financials (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| GitHub (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Google BigQuery |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | ฐานข้อมูล IBM Informix (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | IBM Netezza (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Kusto (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| MailChimp (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Microsoft Azure Consumption Insights (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Mixpanel (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Kusto (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| MailChimp (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Microsoft Azure Consumption Insights (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Mixpanel (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Planview Enterprise (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Projectplace (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| QuickBooks Online (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| QuickBooks Online (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Smartsheet |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Spark (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| SparkPost (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Spark (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| SparkPost (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | SQL Sentry (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Stripe (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| SweetIQ (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Stripe (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| SweetIQ (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Troux (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Twilio (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| tyGraph (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Vertica (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Visual Studio Team Services (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Webtrends (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Zendesk (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Twilio (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| tyGraph (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Vertica (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Visual Studio Team Services (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Webtrends (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Zendesk (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 
 > [!IMPORTANT]
 > รักษาความปลอดภัยระดับแถวที่ถูกตั้งในระดับแหล่งข้อมูลควรทำงานกับ DirectQuery (SQL Server, Azure SQL Database, Oracle and Teradata) และเชื่อมต่อแบบตรงนั้นเข้าใจว่า Kerberos ได้ถูกตั้งค่าค่าอย่างถูกต้องสภาพแวดล้อมของระบบของคุณ
@@ -125,11 +125,11 @@ ms.locfileid: "73874184"
 | คลังข้อมูล Azure SQL |ไม่ใช่ |ไม่ใช่ |ใช่ |ไม่ใช่ |
 | Active Directory |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |
 | Amazon Redshift |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Azure Blob Storage |ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| พื้นที่เก็บข้อมูล Azure Blob |ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure Data Lake Store |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure HDInsight (HDFS) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure HDInsight (Spark) |ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Azure Table Storage |ไม่ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| พื้นที่เก็บข้อมูล Azure Table |ไม่ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Dynamics 365 (online) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Facebook |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | โฟลเดอร์ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ใช่ |
@@ -202,12 +202,12 @@ ms.locfileid: "73874184"
 | คลังข้อมูล Azure SQL |ไม่ใช่ |ไม่ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | ฐานข้อมูล Oracle |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |ใช่ |
 | เซิร์ฟเวอร์ SAP Business Warehouse |ไม่ใช่ |ไม่ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| ฐานข้อมูล SAP HANA |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |ไม่ใช่ |
+| ฐานข้อมูล SAP HANA |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |ใช่** |
 | Teradata |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |ใช่ |
 
+** SAP Hana สนับสนุน DirectQuery ด้วยการรับรองความถูกต้องของ Windows แบบรวมเท่านั้นเมื่อใช้เป็นฐานข้อมูลเชิงสัมพันธ์ในไฟล์ Power BI Desktop ที่เผยแพร่ (.pbix)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 ตอนนี้ คุณได้เชื่อมต่อกับแหล่งข้อมูลของคุณแล้ว [สร้างรายงาน Power BI](quickstart-create-powerbi-report.md) โดยใช้ข้อมูลจากแหล่งข้อมูลนั้น
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
