@@ -1,20 +1,20 @@
 ---
 title: บทนำสู่การใช้ยูทิลิตี้การจัดรูปแบบในวิชวล Power BI
 description: บทความนี้อธิบายวิธีการใช้ยูทิลิตี้การจัดรูปแบบเพื่อจัดรูปแบบค่าและใช้การแปลเป็นภาษาท้องถิ่นกับค่าในวิชวล Power BI
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 manager: rkarlin
-ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 425a872c395df1b69297ae799e7059de687f8fb0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 9ae7e4b976cef2217c3742ef808a9a7063695cbc
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700351"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819479"
 ---
 # <a name="formatting-utils"></a>ยูทิลิตี้การจัดรูปแบบ
 
@@ -48,7 +48,7 @@ interface TextProperties {
 function measureSvgTextWidth(textProperties: TextProperties, text?: string): number;
 ```
 
-ตัวอย่างของการใช้ `measureSvgTextWidth`:
+Example of using `measureSvgTextWidth`:
 
 ```typescript
 import { textMeasurementService } from "powerbi-visuals-utils-formattingutils";
@@ -74,7 +74,7 @@ textMeasurementService.measureSvgTextWidth(textProperties);
 function measureSvgTextRect(textProperties: TextProperties, text?: string): SVGRect;
 ```
 
-ตัวอย่างของการใช้ `measureSvgTextRect`:
+Example of using `measureSvgTextRect`:
 
 ```typescript
 import { textMeasurementService } from "powerbi-visuals-utils-formattingutils";
@@ -100,7 +100,7 @@ textMeasurementService.measureSvgTextRect(textProperties);
 function measureSvgTextHeight(textProperties: TextProperties, text?: string): number;
 ```
 
-ตัวอย่างของการใช้ `measureSvgTextHeight`:
+Example of using `measureSvgTextHeight`:
 
 ```typescript
 import { textMeasurementService } from "powerbi-visuals-utils-formattingutils";
@@ -153,7 +153,7 @@ textMeasurementService.estimateSvgTextBaselineDelta(textProperties);
 function estimateSvgTextHeight(textProperties: TextProperties, tightFightForNumeric?: boolean): number;
 ```
 
-ตัวอย่างของการใช้ `estimateSvgTextHeight`:
+Example of using `estimateSvgTextHeight`:
 
 ```typescript
 import { textMeasurementService } from "powerbi-visuals-utils-formattingutils";
@@ -215,7 +215,7 @@ textMeasurementService.measureSvgTextElementWidth(textElement.node());
 function getMeasurementProperties(element: Element): TextProperties;
 ```
 
-ตัวอย่างของการใช้ `getMeasurementProperties`:
+Example of using `getMeasurementProperties`:
 
 ```typescript
 import { textMeasurementService } from "powerbi-visuals-utils-formattingutils";
@@ -256,7 +256,7 @@ textMeasurementService.getMeasurementProperties(element.get(0));
 function getSvgMeasurementProperties(svgElement: SVGTextElement): TextProperties;
 ```
 
-ตัวอย่างของการใช้ `getSvgMeasurementProperties`:
+Example of using `getSvgMeasurementProperties`:
 
 ```typescript
 import { textMeasurementService } from "powerbi-visuals-utils-formattingutils";
@@ -296,7 +296,7 @@ textMeasurementService.getSvgMeasurementProperties(textElement.node());
 function getDivElementWidth(element: JQuery): string;
 ```
 
-ตัวอย่างของการใช้ `getDivElementWidth`:
+Example of using `getDivElementWidth`:
 
 ```typescript
 import { textMeasurementService } from "powerbi-visuals-utils-formattingutils";
@@ -323,7 +323,7 @@ textMeasurementService.getDivElementWidth(svg)
 function getTailoredTextOrDefault(textProperties: TextProperties, maxWidth: number): string;
 ```
 
-ตัวอย่างของการใช้ `getTailoredTextOrDefault`:
+Example of using `getTailoredTextOrDefault`:
 
 ```typescript
 import { textMeasurementService } from "powerbi-visuals-utils-formattingutils";
@@ -353,7 +353,7 @@ textMeasurementService.getTailoredTextOrDefault(textProperties, 100);
 function endsWith(str: string, suffix: string): boolean;
 ```
 
-ตัวอย่างของการใช้ `endsWith`:
+Example of using `endsWith`:
 
 ```typescript
 import { stringExtensions } from "powerbi-visuals-utils-formattingutils";

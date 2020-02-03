@@ -32,6 +32,8 @@
               href: relationships-many-to-many.md
             - name: คำแนะนำแบบจำลอง DirectQuery
               href: directquery-model-guidance.md
+            - name: คำแนะนำโมเดลแบบรวม
+              href: composite-model-guidance.md
         - name: DAX
           items:
             - name: ฟังก์ชันการแบ่งเทียบกับตัวดำเนินการหาร (/)
@@ -50,8 +52,6 @@
               href: dax-column-measure-references.md
             - name: หลีกเลี่ยงการใช้ตัวกรองเป็นอาร์กิวเมนต์ตัวกรอง
               href: dax-avoid-avoid-filter-as-filter-argument.md
-        - name: การสร้างรายงาน
-          items:
             - name: ขยายภาพด้วยคำแนะนำเครื่องมือของหน้ารายงาน
               href: report-page-tooltips.md
             - name: ใช้การดูหน้ารายงานแบบเจาะลึก
@@ -64,6 +64,10 @@
               href: report-paginated-blank-page.md
             - name: ย้ายรายงาน SSRS ไปยัง Power BI
               href: migrate-ssrs-reports-to-power-bi.md
+        - name: ผู้ดูแลระบบและการปรับใช้
+          items:
+            - name: ขนาดเกตเวย์ข้อมูลภายในองค์กร
+              href: gateway-onprem-sizing.md
     - name: เอกสารทางเทคนิค
       items:
         - name: ภาพรวมเอกสารทางเทคนิค

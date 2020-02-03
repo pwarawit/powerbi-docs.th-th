@@ -1,20 +1,20 @@
 ---
 title: บทนำสู่การใช้ยูทิลิตีชนิดในการแสดงผลด้วย Power BI
 description: บทความนี้อธิบายวิธีการใช้ยูทิลิตี SVG เพื่อขยายชนิดพื้นฐานสำหรับการแสดงผลด้วย Power BI
-author: vtkalek
-ms.author: asander
-manager: asander
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 16645dc70cc236f809a2f2977a2b2fc1a048c254
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 206fda4e64dd13782753bfd067c962b3079bb4ff
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75308559"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76818743"
 ---
 # <a name="type-utils"></a>ยูทิลิตี้ชนิด
 
