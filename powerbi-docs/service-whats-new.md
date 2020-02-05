@@ -10,10 +10,10 @@ ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
 ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265334"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
@@ -195,7 +195,7 @@ ms.locfileid: "74265334"
 
 ### <a name="june-2017"></a>มิถุนายน 2017
 * [Power BI Premium](https://powerbi.microsoft.com/blog/power-bi-premium-generally-available/)พร้อมใช้งานโดยทั่วไปแล้ว
-* ปรับปรุง API ให้ดีขึ้นหลายจุดสำหรับ[การรีเฟรชตามกำหนดการโดยอัตโนมัติ](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/) [โคลนและรวมรายงานอีกครั้ง](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1) [อัปเดตการรวมเกตเวย์](https://msdn.microsoft.com/library/mt784650.aspx)และอื่น ๆ อีกมากมาย
+* ปรับปรุง API ให้ดีขึ้นหลายจุดสำหรับ[การรีเฟรชตามกำหนดการโดยอัตโนมัติ](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/)[โคลนและรวมรายงานอีกครั้ง](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1)[อัปเดตการรวมเกตเวย์](https://msdn.microsoft.com/library/mt784650.aspx)และอื่น ๆ อีกมากมาย
 * ลิงก์ที่เกี่ยวข้องในแอปฯ Power BI จากไทล์แดชบอร์ดไปยังแดชบอร์ดและรายงานอื่น ๆ
 * [ตัวเชื่อมต่อ Impala](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)พร้อมใช้งานโดยทั่วไปแล้วบน Power BI Desktop
 * ขยายความสามารถในการแสดงภาพของ Power BI ด้วย[ภาพ R แบบโต้ตอบและกำหนดเอง](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/)
@@ -763,5 +763,5 @@ ms.locfileid: "74265334"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [Power BI คืออะไร](fundamentals/power-bi-overview.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

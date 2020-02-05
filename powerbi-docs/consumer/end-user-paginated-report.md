@@ -10,10 +10,10 @@ ms.date: 12/02/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: a66189707bc6b688be012eeb59881ce4a8517ea1
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/05/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74830474"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>รายงานที่มีการแบ่งหน้าในบริการ Power BI
@@ -94,5 +94,5 @@ ms.locfileid: "74830474"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 - [รายงาน Power BI](end-user-reports.md)
-- มีคำถามเพิ่มเติมหรือไม่? ลองไปที่ [ชุมชน Power BI](https://community.powerbi.com/)
+- มีคำถามเพิ่มเติมหรือไม่ ลองไปที่ [ชุมชน Power BI](https://community.powerbi.com/)
 

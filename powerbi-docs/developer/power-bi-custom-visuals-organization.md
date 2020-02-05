@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
 ms.openlocfilehash: f11636de003aaab2d10d595b3c2b0230e373410c
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999847"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>วิชวลองค์กรใน Power BI
@@ -61,4 +61,4 @@ ms.locfileid: "74999847"
 
 สำหรับข้อมูลเพิ่มเติมและคำตอบที่คุณอยากรู้ โปรดเยี่ยมชม[คำถามที่ถามบ่อยเกี่ยวกับส่วนการแสดงผล Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73925829"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975044"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>เชื่อมต่อกับบริการที่คุณใช้กับ Power BI
 ด้วย Power BI คุณสามารถเชื่อมต่อกับบริการที่คุณใช้จำนวนมาก เพื่อเรียกใช้ธุรกิจของคุณ เช่น Salesforce, Microsoft Dynamics CRM และ Google Analytics Power BI เริ่มต้นโดยใช้ข้อมูลประจำตัวของคุณเพื่อเชื่อมต่อกับบริการ และจากนั้นสร้าง*พื้นที่ทำงาน* Power BI ด้วยแดชบอร์ดและชุดของรายงาน Power BI ที่แสดงข้อมูลของคุณและให้ข้อมูลภาพเชิงลึกเกี่ยวกับธุรกิจของคุณโดยอัตโนมัติ
@@ -55,7 +55,7 @@ ms.locfileid: "73925829"
 **ไทล์ที่ว่างเปล่า**  
 ขณะที่ Power BI เชื่อมต่อไปยังบริการครั้งแรก คุณอาจเห็นชุดที่ว่างเปล่าของไทล์บนแดชบอร์ดของคุณ ถ้าคุณยังคงเห็นแดชบอร์ดว่างเปล่าหลังจากชั่วโมง 2 อาจเป็นได้ว่าการเชื่อมต่อล้มเหลว ถ้าคุณไม่เห็นข้อความแสดงข้อผิดพลาดที่มีรายละเอียดในการแก้ไขปัญหา ให้ยื่นตั๋วการสนับสนุน
 
-* เลือกไอคอนเครื่องหมายคำถาม ( **?** ) ที่มุมบนขวา > **รับความช่วยเหลือ**
+* เลือกไอคอนเครื่องหมายคำถาม (**?**) ที่มุมบนขวา > **รับความช่วยเหลือ**
   
     ![ไอคอนรับความช่วยเหลือ](media/service-connect-to-services/power-bi-service-get-help.png)
 
@@ -71,5 +71,4 @@ ms.locfileid: "73925829"
 * [แจกจ่ายแอปไปยังเพื่อนร่วมงานของคุณ](service-create-distribute-apps.md)
 * [สร้างพื้นที่ทำงานใหม่ใน Power BI](service-create-the-new-workspaces.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-* มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

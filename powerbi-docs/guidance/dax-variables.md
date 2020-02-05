@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
 ms.openlocfilehash: f352cbbd7c42aa54ae876e73c0ed821eccda59c8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74700719"
 ---
 # <a name="dax-use-variables-to-improve-your-formulas"></a>DAX: ใช้ตัวแปรเพื่อปรับปรุงสูตรของคุณ
@@ -93,9 +93,9 @@ COUNTROWS(
 ) + 1
 ```
 
-ฟังก์ชัน EARLIER ถูกใช้เพื่ออ้างถึงค่าคอลัมน์ **Subcategory Sales** _ในบริบทแถวปัจจุบัน_
+ฟังก์ชัน EARLIER ถูกใช้เพื่ออ้างถึงค่าคอลัมน์ **Subcategory Sales**_ในบริบทแถวปัจจุบัน_
 
-คุณสามารถปรับปรุงคำจำกัดความคอลัมน์จากการคำนวณให้ดีขึ้นได้โดยใช้ตัวแปรแทนฟังก์ชัน EARLIER ตัวแปร **CurrentSubcategorySales** เก็บค่าคอลัมน์ **Subcategory Sales** _ในบริบทแถวปัจจุบัน_ และนิพจน์ RETURN จะใช้ตัวแปรดังกล่าวภายในบริบทตัวกรองที่ปรับเปลี่ยนแล้ว
+คุณสามารถปรับปรุงคำจำกัดความคอลัมน์จากการคำนวณให้ดีขึ้นได้โดยใช้ตัวแปรแทนฟังก์ชัน EARLIER ตัวแปร **CurrentSubcategorySales** เก็บค่าคอลัมน์ **Subcategory Sales**_ในบริบทแถวปัจจุบัน_ และนิพจน์ RETURN จะใช้ตัวแปรดังกล่าวภายในบริบทตัวกรองที่ปรับเปลี่ยนแล้ว
 
 ```dax
 Subcategory Sales Rank =

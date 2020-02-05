@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 6c8b62cf798d2fbbd09dab0603d216448d04487c
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75000146"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>ใช้ Kerberos สำหรับลงชื่อเข้าระบบครั้งเดียว (SSO) ไปยัง SAP BW โดยใช้ gx64krb5
@@ -49,7 +49,7 @@ ms.locfileid: "75000146"
 ดำเนินการในส่วนนี้ให้เสร็จสมบูรณ์ถ้าคุณยังไม่ได้กำหนดค่าเซิร์ฟเวอร์ SAP BW ของคุณสำหรับการสื่อสาร (ตัวอย่างเช่น SSO) โดยใช้ gx64krb5
 
 > [!NOTE]
-> ส่วนนี้ถือว่าคุณได้สร้างผู้ใช้บริการสำหรับ BW และผูกโยง SPN ที่เหมาะสมเข้าด้วยแล้ว (นั่นคือชื่อที่ขึ้นต้นด้วย *SAP/* )
+> ส่วนนี้ถือว่าคุณได้สร้างผู้ใช้บริการสำหรับ BW และผูกโยง SPN ที่เหมาะสมเข้าด้วยแล้ว (นั่นคือชื่อที่ขึ้นต้นด้วย *SAP/*)
 
 1. ให้ผู้ใช้บริการเข้าถึง SAP BW Application Server ของคุณ:
 
@@ -152,7 +152,7 @@ ms.locfileid: "75000146"
 
 ## <a name="add-a-new-sap-bw-application-server-data-source-to-the-power-bi-service-or-edit-an-existing-one"></a>เพิ่มแหล่งข้อมูล SAP BW Application Server ใหม่ลงในบริการ Power BI หรือแก้ไขตัวที่มีอยู่
 
-1. ในหน้าต่างการกำหนดค่าแหล่งข้อมูล ให้ป้อน **ชื่อโฮสต์** **หมายเลขระบบ** และ **ID ไคลเอ็นต์** ของ SAP BW Application Server ตามที่คุณต้องการเพื่อลงชื่อเข้าใช้เซิร์ฟเวอร์ SAP BW จาก Power BI Desktop
+1. ในหน้าต่างการกำหนดค่าแหล่งข้อมูล ให้ป้อน **ชื่อโฮสต์****หมายเลขระบบ** และ **ID ไคลเอ็นต์** ของ SAP BW Application Server ตามที่คุณต้องการเพื่อลงชื่อเข้าใช้เซิร์ฟเวอร์ SAP BW จาก Power BI Desktop
 
 1. ในเขตข้อมูล **ชื่อหุ้นส่วน SNC** ให้ใส่ *p:&lt;SPN ที่คุณแมปไปยังผู้ใช้บริการ SAP BW ของคุณ&gt;* ตัวอย่างเช่นถ้า SPN คือ SAP/BWServiceUser\@MYDOMAIN.COM ให้ป้อน *p:SAP/BWServiceUser\@MYDOMAIN.COM* ในเขตข้อมูล **ชื่อหุ้นส่วน SNC**
 
