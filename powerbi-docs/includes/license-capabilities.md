@@ -5,10 +5,10 @@ ms.topic: include
 ms.date: 12/03/2019
 ms.author: kfollis
 ms.openlocfilehash: e046ad861f65a0a1b7d0a704fded822038438d85
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74958618"
 ---
 ในบริการของ Power BI ผู้ใช้มีความสามารถที่กำหนดขึ้นตามชนิดของสิทธิ์การใช้งานที่ผู้ใช้มี และเนื้อหาที่พวกเขากำลังใช้งานอยู่ในพื้นที่ทำงานที่กำหนดไว้สำหรับความจุ Power BI Premium หรือไม่

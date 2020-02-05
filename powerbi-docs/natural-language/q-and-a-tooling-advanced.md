@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
 ms.openlocfilehash: 64a6294ca30901c61928eca068ab4ebbb3d39638
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/10/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74958528"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>แก้ไขรูปแบบภาษาและเพิ่มการใช้ถ้อยคำของ Q&A ใน Power BI Desktop 
@@ -337,4 +337,4 @@ Binding: {Table: Customers}
 
 ![ไฟล์ yaml แสดงข้อผิดพลาด](media/q-and-a-tooling-advanced/power-bi-yaml-errors.png)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
