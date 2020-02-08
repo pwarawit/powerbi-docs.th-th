@@ -11,10 +11,10 @@ ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
 ms.openlocfilehash: ef8e874c1f1a47d65845b87dccd441746651a68b
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999801"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>เชื่อมต่อกับ Microsoft Graph Security API ใน Power BI Desktop
@@ -74,7 +74,7 @@ Microsoft Graph Security API เชื่อมต่อ [โซลูชัน�
     
 9. ถ้าคุณต้องการใช้งานคิวรีขั้นสูงกับ Microsoft Graph Security API ให้เลือก**ระบุ URL ของ Microsoft Graph Security แบบกำหนดเองเพื่อกรองผลลัพธ์** ใช้ฟังก์ชันนี้เพื่อส่งคิวรี [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) ไปยัง Microsoft Graph Security API ด้วยสิทธิ์ที่จำเป็น
 
-   ตัวอย่างต่อไปนี้ใช้ `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'`*serviceUri* เมื่อต้องการดูวิธีสร้างคิวรีเพื่อกรอง เรียงลำดับ หรือดึงผลลัพธ์ล่าสุดให้ดูที่ [ตัวเลือกคิวรีระบบ OData](https://docs.microsoft.com/graph/query-parameters)
+   ตัวอย่างต่อไปนี้ใช้ `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` *serviceUri* เมื่อต้องการดูวิธีสร้างคิวรีเพื่อกรอง เรียงลำดับ หรือดึงผลลัพธ์ล่าสุดให้ดูที่ [ตัวเลือกคิวรีระบบ OData](https://docs.microsoft.com/graph/query-parameters)
 
    ![ตัวอย่าง OdataFeed](media/desktop-connect-graph-security/ODataFeed.PNG)
     

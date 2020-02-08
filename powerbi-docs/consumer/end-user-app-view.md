@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 1/22/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0733e726512ff52c5b51ba2d25cea18f8857f1e8
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 08a58bd725b8a8da3ff54b5bb670eb70af458dc7
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537630"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819272"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>ติดตั้งและใช้แอปกับแดชบอร์ดและรายงาน
 
@@ -57,7 +57,7 @@ ms.locfileid: "76537630"
 
 ในตัวอย่างนี้ เราจะเปิดหนึ่งในแอปตัวอย่างของ Microsoft บน AppSource คุณจะพบแอปสำหรับบริการหลายอย่างที่คุณใช้เพื่อเรียกใช้ธุรกิจของคุณ  บริการเช่น Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo และอื่น ๆ อีกมากมาย เมื่อต้องการเรียนรู้เพิ่มเติม ดู[แอปสำหรับบริการที่คุณใช้กับ Power BI](../service-connect-to-services.md) 
 
-1. ในเบราว์เซอร์ เปิด https://appsource.microsoft.com และเลือก**แอป Power BI**
+1. ในเบราว์เซอร์ เปิด [https://appsource.microsoft.com](https://appsource.microsoft.com) และเลือก **แอป Power BI**
 
     ![เว็บไซต์ AppSource ที่มีแอป Power BI ที่เลือก  ](./media/end-user-apps/power-bi-appsource.png)
 

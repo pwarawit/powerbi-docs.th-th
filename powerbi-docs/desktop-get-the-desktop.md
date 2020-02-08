@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 444a6978b0fcf841f0d0a3b2d50cc70062389cba
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222092"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888373"
 ---
 # <a name="get-power-bi-desktop"></a>รับ Power BI Desktop
 Power BI Desktop ช่วยให้คุณสร้างแบบสอบถามขั้นสูง โมเดล และรายงานที่แสดงข้อมูลเป็นภาพ เมื่อใช้ Power BI Desktop คุณสามารถสร้างโมเดลข้อมูล สร้างรายงาน และแชร์งานของคุณโดยการเผยแพร่ไปยังบริการของ Power BI ได้ Power BI Desktop มีให้ดาวน์โหลดฟรี
@@ -132,6 +132,8 @@ Power BI Desktop ช่วยให้คุณสร้างแบบสอบ
 |INSTALLLOCATION     |พาธของไฟล์ไปยังตำแหน่งที่คุณต้องการติดตั้ง         |
 |LANGUAGE     |รหัสตำแหน่งที่ตั้ง (ตัวอย่างเช่น en-US, de-DE, pr-BR) เพื่อใช้ภาษาตามการตั้งค่าเริ่มต้นของแอปพลิเคชัน หากคุณไม่ได้ระบุภาษา ทาง Power BI Desktop จะแสดงภาษาของ Windows OS คุณสามารถเปลี่ยนการตั้งค่านี้ได้ในกล่องโต้ตอบ **ตัวเลือก**         |
 |REG_SHOWLEADGENDIALOG     |ค่า 0 ปิดใช้งานการแสดงกล่องโต้ตอบที่ปรากฏขึ้นมา ก่อนที่คุณจะลงชื่อเข้าใช้ Power BI Desktop         |
+|DISABLE_UPDATE_NOTIFICATION     |ค่า 1 ปิดใช้งานการแจ้งเตือนการอัปเดต         |
+
 
 ตัวอย่างเช่น คุณสามารถใช้งาน Power BI Desktop ด้วยตัวเลือกและพารามิเตอร์ต่อไปนี้เพื่อติดตั้งโดยไม่ต้องมีอินเทอร์เฟซผู้ใช้ โดยใช้ภาษาเยอรมัน: 
 

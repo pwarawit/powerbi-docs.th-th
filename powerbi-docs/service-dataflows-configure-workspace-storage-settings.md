@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fa448dac3e7788639377ce2d73d9c0ed68952fb3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 516d3a682b669400a015aaec101c7e79c14dbb44
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877345"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889362"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>การตั้งค่าตัวเลขกระแสข้อมูลในพื้นที่ทำงาน (ดูตัวอย่าง)
 
@@ -75,7 +75,7 @@ ms.locfileid: "73877345"
 
 ![รับ URL ของไฟล์กระแสข้อมูล](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_07.jpg)
 
-ในข้อมูลที่ถูกแสดง ตำแหน่งที่ตั้งกระแสข้อมูลของโฟลเดอร์CDM ปรากฏอยู่ใต้**ตำแหน่งที่เก็บกระแสข้อมูล**ดังที่แสดงในรูปต่อไปนี้
+ในข้อมูลที่แสดงนั้น ตำแหน่งโฟลเดอร์ CDM ของกระแสข้อมูลจะปรากฏภายใต้ **ตำแหน่งที่เก็บกระแสข้อมูล** ดังแสดงในภาพต่อไปนี้
 
 ![ตำแหน่งของไฟล์กระแสข้อมูล](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 

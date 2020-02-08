@@ -1,20 +1,20 @@
 ---
 title: ฝังรายงานในพอร์ทัลความปลอดภัยหรือเว็บไซต์
 description: ฟีเจอร์การฝัง Power BI ช่วยให้ผู้ใช้สามารถฝังรายงานในพอร์ทัลเว็บภายในได้อย่างง่ายดายและปลอดภัย
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4495a2021f008326d76c7fd9ff686d639827e90
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565756"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913611"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>ฝังรายงานในพอร์ทัลความปลอดภัยหรือเว็บไซต์
 
@@ -129,7 +129,11 @@ report.src = newUrl;
 
 * เบราว์เซอร์บางตัวต้องการให้คุณรีเฟรชหน้าเว็บหลังจากลงชื่อเข้าใช้โดยเฉพาะเมื่อใช้โหมด InPrivate หรือไม่ระบุตัวตน
 
-* เพื่อให้ได้รับประสบการณ์การลงชื่อเข้าใช้เพียงครั้งเดียวให้ใช้ตัวเลือกฝังใน SharePoint Online หรือสร้างการบูรณาการแบบกำหนดเองโดยวิธีการฝังตัวแบบ [ผู้ใช้เป็นเจ้าของข้อมูล](developer/embed-sample-for-your-organization.md) 
+* คุณอาจพบปัญหาหากใช้เบราว์เซอร์รุ่นที่ไม่สนับสนุน Power BI รองรับ [เบราว์เซอร์ต่อไปนี้](power-bi-browsers.md)
+
+* เซิร์ฟเวอร์ SharePoint แบบคลาสสิกไม่ได้รับการสนับสนุน เนื่องจากจำเป็นต้องมี Internet Explorer เวอร์ชันเก่ากว่า 11 หรือเปิดใช้งานโหมดมุมมองที่เข้ากันได้
+
+* เพื่อให้ได้รับประสบการณ์การลงชื่อเข้าใช้เพียงครั้งเดียว ให้ใช้ [ตัวเลือกฝังใน SharePoint Online](service-embed-report-spo.md) หรือสร้างการบูรณาการแบบกำหนดเองโดยวิธีการฝังตัวแบบ [ผู้ใช้เป็นเจ้าของข้อมูล](developer/embed-sample-for-your-organization.md) 
 
 * ความสามารถในการรับรองความถูกต้องโดยอัตโนมัติที่มาพร้อมกับการ**ฝัง**ตัวเลือกที่ไม่ทำงานกับ Power BI JavaScript API สำหรับ Power BI JavaScript API ให้ใช้วิธีการฝังตัวแบบ [ผู้ใช้เป็นเจ้าของข้อมูล](developer/embed-sample-for-your-organization.md) 
 

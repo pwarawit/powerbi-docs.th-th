@@ -1,34 +1,49 @@
 ---
-title: สองวิธีการในการแชร์รายงาน Power BI ที่กรองแล้ว
-description: เรียนรู้เกี่ยวกับสองวิธีการในการกรองรายงาน Power BI และแชร์รายงานกับเพื่อนร่วมงานในองค์กรของคุณ
+title: กรองและแชร์รายงาน Power BI
+description: เรียนรู้วิธีการกรองรายงาน Power BI และแชร์รายงานกับเพื่อนร่วมงานในองค์กรของคุณ
 author: maggiesMSFT
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 79f09b5018efcdae88d74ae26f099ff095fb161a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 16041ebc9ba293ab166178e008b12277d94e89c3
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871444"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894916"
 ---
-# <a name="two-ways-to-share-a-filtered-power-bi-report"></a>สองวิธีการในการแชร์รายงาน Power BI ที่กรองแล้ว
-*แชร์*เป็นวิธีที่ดีเมื่อต้องให้บางคนสามารถเข้าถึงแดชบอร์ดและรายงานของคุณ จะเกิดอะไรขึ้นถ้าคุณต้องการแชร์รายงานที่ถูกกรอง อาจรายงานที่แสดงเฉพาะข้อมูลสำหรับเมือง หรือพนักงานขาย หรือปีที่เฉพาะเจาะจง ลองกรองรายงานและแชร์ หรือสร้าง URL แบบกำหนดเอง รายงานถูกกรองเมื่อผู้รับเปิดเป็นครั้งแรก ผู้รับสามารถลบตัวกรองโดยการปรับเปลี่ยน URL 
+# <a name="filter-and-share-a-power-bi-report"></a>กรองและแชร์รายงาน Power BI
+*แชร์*เป็นวิธีที่ดีเมื่อต้องให้บางคนสามารถเข้าถึงแดชบอร์ดและรายงานของคุณ จะเกิดอะไรขึ้นถ้าคุณต้องการแชร์รายงานที่ถูกกรอง คุณอาจต้องการให้รายงานแสดงเฉพาะข้อมูลสำหรับเมือง หรือพนักงานขาย หรือปีที่เฉพาะเจาะจง บทความนี้อธิบายวิธีการกรองรายงานและการแชร์เวอร์ชันที่กรองแล้วของรายงาน อีกวิธีหนึ่งในการแชร์รายงานที่กรองแล้วคือการ [เพิ่มพารามิเตอร์คิวรีไปยัง URL ของรายงาน](service-url-filters.md) ในทั้งสองกรณี รายงานจะถูกกรองเมื่อผู้รับเปิดเป็นครั้งแรก พวกเขาสามารถล้างตัวเลือกตัวกรองในรายงานได้
 
 ![กรองรายงานแล้ว](media/service-share-reports/power-bi-share-filter-pane-report.png)
 
 Power BI ยังนำเสนอ[วิธีอื่นๆ เพื่อที่จะทำงานร่วมกันและเผยแพร่แดชบอร์ดและรายงาน](service-how-to-collaborate-distribute-dashboards-reports.md) ด้วยการแชร์ คุณและผู้รับของคุณต้องมี[สิทธิ์การใช้งาน Power BI Pro](service-features-license-type.md)หรือเนื้อหาจำเป็นต้องเป็นแบบ[ความจุพรีเมียม](service-premium-what-is.md) 
 
-## <a name="two-ways-to-filter-a-report"></a>สองวิธีการในการกรองรายงาน
+## <a name="follow-along-with-sample-data"></a>ติดตามพร้อมด้วยข้อมูลตัวอย่าง
 
-สำหรับเทคนิคการกรองทั้งสองวิธี เราจะใช้แอปแม่แบบตัวอย่างการตลาดและการขาย ต้องการลองใช้หรือไม่ คุณสามารถติดตั้ง[แอปแม่แบบตัวอย่างการตลาดและการขาย](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview)ได้เช่นกัน
+บทความนี้ใช้แอปแม่แบบตัวอย่างการตลาดและการขาย ต้องการลองใช้หรือไม่ 
 
-### <a name="set-a-filter"></a>ตั้งค่าตัวกรอง
+1. ติดตั้ง [แอปแม่แบบตัวอย่างการตลาดและการขาย](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview)
+2. เลือกแอปและเลือก **สำรวจแอป**
+
+   ![สำรวจข้อมูลตัวอย่าง](media/service-share-reports/power-bi-sample-explore-data.png)
+
+3. เลือกไอคอนรูปดินสอเพื่อเปิดพื้นที่ทำงานที่คุณติดตั้งด้วยแอป
+
+    ![ดินสอแก้ไขแอป](media/service-share-reports/power-bi-edit-pencil-app.png)
+
+4. ในรายการเนื้อหาพื้นที่ทำงาน ให้เลือก **รายงาน** จากนั้นเลือกรายงาน **ตัวอย่าง PBIX การขายและการตลาด**
+
+    ![เปิดรายงานตัวอย่าง](media/service-share-reports/power-bi-open-sample-report.png)
+
+    ในตอนนี้คุณก็พร้อมที่จะติดตามไปด้วยแล้ว
+
+## <a name="set-a-filter-in-the-report"></a>ตั้งค่าตัวกรองในรายงาน
 
 เปิดรายงานใน[มุมมองการแก้ไข](consumer/end-user-reading-view.md)และใช้ตัวกรอง
 
@@ -38,37 +53,30 @@ Power BI ยังนำเสนอ[วิธีอื่นๆ เพื่อ
 
 บันทึกรายงาน
 
-### <a name="create-a-filter-in-the-url"></a>สร้างตัวกรองใน URL
-
-เมื่อคุณเพิ่มตัวกรองลงในส่วนท้ายของ URL หน้ารายงาน ลักษณะการทำงานนั้นจะแตกต่างกันไปเล็กน้อย หน้าที่กรองแล้วมีลักษณะเหมือนกัน อย่างไรก็ตาม Power BI จะเพิ่มตัวกรองไปยังรายงานทั้งหมด และลบค่าอื่น ๆ ออกจากบานหน้าต่างตัวกรอง  
-
-เพิ่มต่อไปนี้ลงในส่วนท้ายของ URL ของหน้ารายงาน
-   
-    ?filter=*tablename*/*fieldname* eq *value*
-   
-เขตข้อมูลต้องเป็นประเภทตัวเลข วันที่เวลา หรือสตริง ค่าใน *tablename* หรือ *fieldname* ไม่สามารถประกอบด้วยช่องว่างได้
-   
-ในตัวอย่างของเรา ชื่อของตารางคือ **Geo** ชื่อของเขตข้อมูลคือ **Region** และค่าที่เราต้องการกรองคือ **Central**:
-   
-    ?filter=Geo/Region eq 'Central'
-
-เบราว์เซอร์ของคุณเพิ่มอักขระพิเศษเพื่อแสดงเครื่องหมายทับ ช่องว่าง และเครื่องหมายบุพบท ดังนั้นคุณต้องลงท้ายด้วย:
-   
-    app.powerbi.com/groups/xxxx/reports/xxxx/ReportSection4d00c3887644123e310e?filter=Geo~2FRegion%20eq%20'Central'
-
-![รายงานที่มีตัวกรอง URL](media/service-share-reports/power-bi-share-report-filter-url.png)
-
-บันทึกรายงาน
-
-ดูรายละเอียดเพิ่มมากขึ้นได้ในบทความ [กรองรายงานโดยใช้พารามิเตอร์ของสตริงคิวรีใน URL](service-url-filters.md)
-
 ## <a name="share-the-filtered-report"></a>แชร์รายงานี่กรองแล้ว
 
-1. เมื่อคุณ[แชร์รายงาน](service-share-dashboards.md) และล้างกล่องกาเครื่องหมาย **ส่งอีเมลแจ้งเตือนไปยังผู้รับ**
+1. เลือก **แชร์**
 
-    ![กล่องโต้ตอบรายงานใช้ร่วมกัน](media/service-share-reports/power-bi-share-report-dialog.png)
+   ![เลือก แชร์](media/service-share-reports/power-bi-share.png)
 
-4. ส่งลิงค์กับตัวกรองที่คุณสร้างไว้ก่อนหน้านี้
+2. ล้าง **ส่งการแจ้งเตือนทางอีเมลไปยังผู้รับ** เพื่อที่คุณจะสามารถส่งการเชื่อมโยงที่ถูกกรองแล้วไปแทน เลือก **แชร์รายงานด้วยตัวกรองและตัวแบ่งส่วนข้อมูลปัจจุบัน**จากนั้นเลือก **แชร์**
+
+    ![แชร์รายงานด้วยตัวกรอง](media/service-share-reports/power-bi-share-with-filters.png)
+
+4. เลือก **แชร์** อีกครั้ง
+
+   ![เลือก แชร์](media/service-share-reports/power-bi-share.png)
+
+5. เลือกแท็บ **การเข้าถึง** จากนั้นเลือก **จัดการมุมมองรายงานที่แชร์**
+
+    ![จัดการมุมมองรายงานที่แชร์](media/service-share-reports/power-bi-manage-shared-report-views.png)
+
+6. คลิกขวาที่ URL ที่คุณต้องการ แล้วเลือก **คัดลอกลิงก์**
+
+    ![คัดลอกลิงก์ที่กรองแล้ว](media/service-share-reports/power-bi-copy-filtered-link.png)
+
+7. เมื่อคุณแชร์ลิงก์นี้ ผู้รับจะเห็นรายงานที่กรองแล้วของคุณ 
+
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [วิธีการแชร์งานของคุณใน Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)

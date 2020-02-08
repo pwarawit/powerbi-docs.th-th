@@ -1,6 +1,6 @@
 ---
-title: ความสอดคล้องของส่วนขยายการแสดงผล PDF กับ ISO 14289-1 - Power BI Report Server
-description: เอกสารนี้อธิบายเกี่ยวกับความสอดคล้องของส่วนขยายการแสดงผล PDF ใน Power BI Report Server และ SQL Reporting Services กับข้อกำหนด ISO 14289-1 (PDF/UA)
+title: ความสอดคล้องของส่วนขยายการแสดงผล PDF กับ ISO 14289-1 - Power BI Report Server และ SSRS
+description: เอกสารนี้อธิบายเกี่ยวกับความสอดคล้องของส่วนขยายการแสดงผล PDF ใน Power BI Report Server และ SQL Server Reporting Services กับข้อกำหนด ISO 14289-1 (PDF/UA)
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,18 +8,18 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: maggies
-ms.openlocfilehash: c800ee995bc3c03b3cbcda91503e6dea9495f6b5
-ms.sourcegitcommit: 721cf375627b010e8ad12c4c668295f38d450a17
+ms.openlocfilehash: bfefcef18b8cd92a5c3b15c2dcbd4653a6c7c9cd
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73638091"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819525"
 ---
-# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server"></a>ความสอดคล้องของส่วนขยายการแสดงผล PDF กับ ISO 14289-1 - Power BI Report Server 
+# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server--ssrs"></a>ความสอดคล้องของส่วนขยายการแสดงผล PDF กับ ISO 14289-1 - Power BI Report Server และ SSRS
 
-นำไปใช้กับ: Power BI Report Server และ SQL Reporting Services
+นำไปใช้กับ: Power BI Report Server และ SQL Server Reporting Services (SSRS)
 
-เอกสารนี้อธิบายเกี่ยวกับความสอดคล้องของส่วนขยายการแสดงผล PDF ใน Power BI Report Server และ SQL Reporting Services กับข้อกำหนด [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/)
+เอกสารนี้อธิบายเกี่ยวกับความสอดคล้องของส่วนขยายการแสดงผล PDF ใน Power BI Report Server และ SQL Server Reporting Services กับข้อกำหนด [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/)
 
 > [!NOTE]
 > คุณสามารถบันทึกหรือพิมพ์เอกสารทางเทคนิคนี้ได้โดยเลือก **พิมพ์** จากเบราว์เซอร์ของคุณ แล้วเลือก**บันทึกเป็น PDF**
@@ -112,5 +112,5 @@ This document is for informational purposes only. MICROSOFT MAKES NO WARRANTIES,
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

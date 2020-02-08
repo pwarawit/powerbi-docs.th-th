@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/10/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74958458"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>รีเฟรชข้อมูลจากฐานข้อมูล SQL Server ภายในองค์กร
@@ -44,7 +44,7 @@ ms.locfileid: "74958458"
 
 ใช้ขั้นตอนต่อไปนี้เพื่อสร้างรายงาน Power BI พื้นฐานโดยใช้ฐานข้อมูลตัวอย่าง AdventureWorksDW เผยแพร่รายงานไปยังบริการของ Power BI เพื่อให้คุณรับชุดข้อมูลใน Power BI ซึ่งคุณสามารถกำหนดค่าแล้ว และรีเฟรชในขั้นตอนต่อไป
 
-1. ใน Power BI Desktop บนแท็บ**หน้าแรก** เลือก **รับข้อมูล**\>**SQL Server**
+1. ใน Power BI Desktop บนแท็บ**หน้าแรก** ให้เลือก **รับข้อมูล** \> **SQL Server**
 
 2. ในกล่องโต้ตอบ**ฐานข้อมูล SQL Server** ให้ใส่ชื่อ **เซิร์ฟเวอร์**และ**ฐานข้อมูล (ไม่บังคับ)** ชื่อ ให้แน่ใจว่า**โหมดการเชื่อมต่อข้อมูล** เป็น**นำเข้า**แล้ว เลือก**ตกลง**
 
@@ -85,7 +85,7 @@ ms.locfileid: "74958458"
 
 6. บันทึกรายงานโดยใช้ชื่อ "AdventureWorksProducts.pbix"
 
-7. บนแท็บ **หน้าแรก** เลือก **เผยแพร่** \> **พื้นที่ทำงานของฉัน** \> **เลือก** ลงชื่อเข้าใช้ไปยังบริการของ Power BI ถ้าคุณถูกขอให้ทำเช่นนั้น
+7. บนแท็บ **หน้าแรก** ให้เลือก **เผยแพร่** \> **พื้นที่ทำงานของฉัน** \> **เลือก** ลงชื่อเข้าใช้ไปยังบริการของ Power BI ถ้าคุณถูกขอให้ทำเช่นนั้น
 
 8. บนหน้าจอ **สำเร็จ** เลือก**เปิด 'TestGatewayDocs.pbix' ใน Power BI**
 
@@ -197,7 +197,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
     > [!NOTE]
     > แท็บ OneDrive จะเกี่ยวข้องกับชุดข้อมูลที่เชื่อมต่อกับไฟล์ Power BI Desktop เวิร์กบุ๊ก Excel หรือไฟล์ CSV ใน OneDrive หรือ SharePoint Online ตามที่อธิบายไว้ในรายละเอียดเพิ่มเติมใน [รีเฟรชข้อมูลใน Power BI](refresh-data.md)
 
-## <a name="clean-up-resources"></a>เพิ่มพื้นที่ทรัพยากร
+## <a name="clean-up-resources"></a>ล้างแหล่งข้อมูล
 
 ถ้าคุณไม่ต้องการใช้ข้อมูลตัวอย่างอีกต่อไป วางฐานข้อมูลใน SQL Server Management Studio (SSMS) ถ้าคุณไม่ต้องการใช้แหล่งข้อมูล SQL Server ให้ลบแหล่งข้อมูลออกจากเกตเวย์ข้อมูลของคุณ นอกจากนี้ ให้พิจารณาถอนการติดตั้งเกตเวย์ข้อมูลถ้าคุณเพียงแค่ติดตั้งไว้เพื่อวัตถุประสงค์ในการทำให้บทช่วยสอนนี้สมบูรณ์ คุณยังควรลบชุดข้อมูล AdventureWorksProducts และรายงาน AdventureWorksProducts ที่ Power BI สร้างขึ้นเมื่อคุณอัปโหลดไฟล์ AdventureWorksProducts.pbix
 

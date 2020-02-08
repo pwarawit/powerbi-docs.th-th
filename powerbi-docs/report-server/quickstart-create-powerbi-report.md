@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: cfb83ae8b005744098261c6973a87fb929a864dd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858951"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975022"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>สร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน Power BI
 คุณสามารถจัดเก็บ และจัดการรายงาน Power BI ภายในองค์กร ในพอร์ทัลของเว็บเซิร์ฟเวอร์รายงาน Power BI เช่นเดียวกับที่คุณสามารถจัดเก็บรายงาน Power BI ในระบบคลาวด์ในบริการของ Power BI (https://powerbi.com) ได้ คุณสร้างและแก้ไขรายงานใน Power BI Desktop แล้วเผยแพร่ไปยังพอร์ทัลของเว็บ จากนั้น ผู้อ่านรายงานในองค์กรของคุณ สามารถดูรายงานได้ในเบราว์เซอร์ หรือในแอปมือถือ Power BI บนอุปกรณ์เคลื่อนที่ของพวกเขา
@@ -90,6 +90,9 @@ ms.locfileid: "73858951"
 2. ตอนนี้ คุณสามารถดูรายงานได้ในพอร์ทัลของเว็บ
    
     ![ดูรายงานในพอร์ทัลของเว็บ](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
+    
+> [!NOTE]
+> หากคุณเลือกที่จะแก้ไขรายงานในอนาคต ข้อมูลรายงานที่คุณเห็นในเดสก์ท็อปจะเป็นข้อมูลที่แคชเสมอเมื่อสร้างรายงานครั้งแรก  หากต้องการดูข้อมูลล่าสุดเมื่อแก้ไขรายงาน คุณต้องรีเฟรชข้อมูลในแอปพลิเคชัน Power BI Desktop ของคุณ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 ### <a name="power-bi-desktop"></a>Power BI Desktop
@@ -102,4 +105,4 @@ ms.locfileid: "73858951"
 * [ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับ Power BI Report Server](install-powerbi-desktop.md)  
 * [เซิร์ฟเวอร์รายงาน Power BI คืออะไร](get-started.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cfde935b2cec6e86b56b4f70865ff2d02b5ce27a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75759210"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889293"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>ใช้ DirectQuery ใน Power BI Desktop
 ด้วย *Power BI Desktop* เมื่อคุณเชื่อมต่อกับแหล่งข้อมูลของคุณ คุณสามารถนำเข้าสำเนาของข้อมูลลงใน Power BI Desktop ได้ สำหรับบางแหล่งข้อมูล คุณสามารถเลือกวิธีการอื่นได้: เชื่อมต่อโดยตรงกับแหล่งข้อมูลโดยใช้ DirectQuery
@@ -55,9 +55,9 @@ ms.locfileid: "75759210"
 
 - ข้อจำกัดจะถูกใส่ไว้ในนิพจน์ DAX ที่ได้รับอนุญาตในหน่วยวัดเพื่อให้แน่ใจว่าคิวรีที่ส่งไปยังแหล่งข้อมูลเบื้องต้นมีประสิทธิภาพที่ยอมรับได้
 
-- มีข้อจำกัดของแถวที่ 1 ล้านแถวสำหรับการส่งคืนข้อมูลเมื่อใช้ DirectQuery ข้อจำกัดนี้ไม่มีผลต่อการรวมหรือการคำนวณที่ใช้ในการสร้างชุดข้อมูลที่ DirectQuery ส่งค่ากลับคืน เฉพาะแถวเท่านั้นที่จะถูกส่งคืน
+- มีข้อจำกัดของแถวที่ 1 ล้านแถวสำหรับการส่งคืนข้อมูลเมื่อใช้ DirectQuery หากไม่ได้ใช้ความจุแบบ Premium ข้อจำกัดนี้ไม่มีผลต่อการรวมหรือการคำนวณที่ใช้ในการสร้างชุดข้อมูลที่ DirectQuery ส่งค่ากลับคืน เฉพาะแถวเท่านั้นที่จะถูกส่งคืน ความจุแบบ Premium สามารถตั้งค่าขีดจำกัดแถวสูงสุดตามที่อธิบายไว้ใน [โพสต์นี้](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/) 
 
-    ตัวอย่างเช่น คุณสามารถรวมแถว 10,000,000 แถวกับคิวรีของคุณที่เปิดใช้งานบนแหล่งข้อมูลของคุณได้ คิวรีจะแสดงผลลัพธ์ของการรวมดังกล่าวไปยัง Power BI อย่างถูกต้องแม่นยำโดยใช้ DirectQuery หากข้อมูล Power BI ที่แสดงน้อยกว่า 1,000,000 แถว หากมีการแสดงแถวมากกว่า 1,000,000 แถวจาก DirectQuery Power BI จะแสดงข้อผิดพลาด
+    ตัวอย่างเช่น คุณสามารถรวมแถว 10,000,000 แถวกับคิวรีของคุณที่เปิดใช้งานบนแหล่งข้อมูลของคุณได้ คิวรีจะแสดงผลลัพธ์ของการรวมดังกล่าวไปยัง Power BI อย่างถูกต้องแม่นยำโดยใช้ DirectQuery หากข้อมูล Power BI ที่แสดงน้อยกว่า 1,000,000 แถว ถ้าแถวมากกว่าหนึ่งล้านแถวถูกส่งกลับจาก DirectQuery Power BI จะส่งกลับข้อผิดพลาด (เว้นแต่ในความจุแบบ Premium และจำนวนแถวอยู่ภายใต้ขีดจำกัดการตั้งค่าของผู้ดูแลระบบ)
 
 ## <a name="important-considerations-when-using-directquery"></a>ข้อควรพิจารณาเมื่อใช้ DirectQuery
 ควรคำนึงถึงสามข้อต่อไปนี้เมื่อใช้ DirectQuery:

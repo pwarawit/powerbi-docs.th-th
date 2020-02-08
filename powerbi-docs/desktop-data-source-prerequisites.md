@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d118cae8cd4b6fbd95066b15819b1e798c8bbe0f
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: c3ccbe6ad87a813185943845431fa1a859b09a76
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761329"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888442"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>ข้อกำหนดเบื้องต้นของแหล่งข้อมูล Power BI
 สำหรับตัวให้บริการข้อมูลแต่ละตัว Power BI รองรับเวอร์ชันตัวให้บริการที่เจาะจงกับวัตถุ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแหล่งข้อมูลที่มีใน Power BI โปรดดูที่[แหล่งข้อมูล](desktop-data-sources.md) ตารางต่อไปนี้แสดงข้อกำหนดเหล่านี้
@@ -28,7 +28,7 @@ ms.locfileid: "75761329"
 | | System.Data.OracleClient (มีอยู่แล้วใน .NET Framework) |.NET Framework 3.5 |9.x+ |ตาราง/มุมมอง |รวมอยู่ใน .NET Framework 3.5 หรือใหม่กว่า |
 | IBM DB2 |ไคลเอ็นต์ ADO.Net จาก IBM (ส่วนหนึ่งของแพคเกจโปรแกรมควบคุมเซิร์ฟเวอร์ข้อมูล IBM) |10.1 |9.1+ |ตาราง/มุมมอง |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |
 | MySQL |Connector/Net |6.6.5 |5.1 |ตาราง/มุมมอง, ฟังก์ชันสเกลา |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=278885&clcid=0x409) |
-| PostgreSQL |ตัวให้บริการ NPGSQL ADO.NET |2.0.12 |7.4 |ตาราง/มุมมอง |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
+| PostgreSQL |ตัวให้บริการ NPGSQL ADO.NET |2.0.12 |9.4 |ตาราง/มุมมอง |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
 | Teradata |.NET Data Provider for Teradata |14+ |12+ |ตาราง/มุมมอง |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=278886&clcid=0x409) |
 | SAP SQL Sybase Anywhere |iAnywhere.Data.SQLAnywhere for .NET 3.5 |16+ |16+ |ตาราง/มุมมอง |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=324846) |
 

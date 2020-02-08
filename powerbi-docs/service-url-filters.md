@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 2d564b22ecf02c0d8593ed5676e46f2eb4168964
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836719"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913550"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>กรองรายงานโดยใช้พารามิเตอร์สตริงของแบบสอบถามใน URL
 
@@ -33,7 +33,7 @@ ms.locfileid: "75836719"
 
 ด้วยพารามิเตอร์ คุณสามารถกรองรายงานด้วยค่าอย่างน้อยหนึ่งค่าหรือมากกว่า แม้ว่าค่าเหล่านั้นประกอบด้วยเว้นวรรคหรืออักขระพิเศษ ไวยากรณ์พื้นฐานจะค่อนข้างตรงไปตรงมา เริ่มต้นด้วย URL ของรายงาน เพิ่มเครื่องหมายคำถาม และจากนั้น เพิ่มไวยากรณ์ตัวกรองของคุณ
 
-URL?filter=***ตาราง***/***เขตข้อมูล*** eq '***ค่า***'
+*URL*?filter=*Table*/*Field* eq '*value*'
 
 ![URL ที่มีตัวกรอง](media/service-url-filters/power-bi-filter-urls7b.png)
 
@@ -84,6 +84,18 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 ![รายงานที่กรองแล้วสำหรับ North Carolina](media/service-url-filters/power-bi-report4.png)
 
+## <a name="filter-on-more-than-one-value-in-a-field"></a>กรองมากกว่าหนึ่งค่าในเขตข้อมูลเดียว
+
+เมื่อต้องการกรองมากกว่าหนึ่งค่าในเขตข้อมูลเดียว คุณใช้ตัวดำเนินการ **ใน** แทนที่จะเป็นตัวดำเนินการ **และ** ไวยากรณ์คือ:
+
+*URL*?filter=*Table*/*Field* **in** ('*value1*', '*value2*')
+
+ใช้ตัวอย่างลักษณะเดียวกันเพื่อกรองรายงานสำหรับแสดงข้อมูลสำหรับร้านค้าใน "NC" (North Carolina) หรือ "TN" (Tennessee) เท่านั้น โดยให้เพิ่มข้อมูลต่อไปนี้ลงใน URL:
+
+?filter=Store/Territory in ('NC', 'TN')
+
+ดูตาราง [ตัวดำเนินการ](#operators) ในภายหลังในบทความสำหรับรายการของตัวดำเนินการอื่นๆที่มีประโยชน์
+
 ## <a name="filter-on-multiple-fields"></a>ตัวกรองบนหลายเขตข้อมูล
 
 คุณยังสามารถกรองบนเขตข้อมูลหลายรายการได้โดยการเพิ่มพารามิเตอร์เพิ่มเติมไปยัง URL ของคุณ ลองย้อนกลับไปยังพารามิเตอร์ตัวกรองต้นฉบับของเรา
@@ -97,8 +109,6 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 ```
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/0sDGKxOaC8w?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="operators"></a>ตัวดำเนินการ
 

@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74699116"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>การสตรีมในเวลาจริงใน Power BI
@@ -82,7 +82,7 @@ ms.locfileid: "74699116"
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>การใช้ Power BI REST API เพื่อพุชข้อมูล
 **Power BI REST API** สามารถใช้สร้างและส่งข้อมูลไปยังชุดข้อมูลการ**พุช** และชุดข้อมูลการ**สตรีม**ได้ เมื่อคุณสร้างชุดข้อมูลด้วย Power BI REST API ค่าสถานะ *defaultMode* ระบุว่าเป็นชุดข้อมูลการพุช หรือการสตรีม ถ้าไม่มีมีค่าสถานะ *defaultMode* ค่าเริ่มต้นของชุดข้อมูลเป็นชุดข้อมูลการ**พุช**
 
-ถ้า *defaultMode* ตั้งค่าเป็น *pushStreaming* ชุดข้อมูลจะเป็นทั้งการ**พุช***และการ***สตรีม** ทำให้ได้ประโยชน์ของทั้งสองชนิด 
+ถ้า *defaultMode* ตั้งค่าเป็น *pushStreaming* ชุดข้อมูลจะเป็นทั้งการ**พุช** *และการ* **สตรีม** ทำให้ได้ประโยชน์ของทั้งสองชนิด 
 
 > [!NOTE]
 > เมื่อใช้ชุดข้อมูลที่มีค่าสถานะ *defaultMode* เป็น *pushStreaming* ถ้าคำขอมีขนาดเกินขีดจำกัด 15Kb สำหรับชุดข้อมูลการ**สตรีม** แต่จะน้อยกว่าขีดจำกัด 16MB ของชุดข้อมูลการ**พุช** คำขอจะประสบผลสำเร็จ และข้อมูลจะถูกปรับปรุงในชุดข้อมูลการพุช อย่างไรก็ตาม ไทล์การสตรีมใด ๆ จะล้มเหลวชั่วคราว

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 512ef5058fdb586a893c5ff9406abf6902ccc4e2
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75303878"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888511"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>วิธีการใช้วิชวลกรองข้ามกันในรายงาน Power BI
 คุณลักษณะยอดเยี่ยมประการหนึ่งของ Power BI คือแนวทางที่ภาพทั้งหมดในหน้ารายงานเชื่อมโยงถึงกัน หากคุณเลือกจุดข้อมูลในภาพภาพหนึ่ง ภาพอื่นทั้งหมดบนหน้าที่มีข้อมูลที่เปลี่ยนไปนั้นตามการเลือกนั้น 
@@ -45,7 +45,8 @@ ms.locfileid: "75303878"
 
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
-- หากรายงานของคุณมีภาพที่สนับสนุน[การดูข้อมูลแบบเจาะลึก](end-user-drill.md)ตามค่าเริ่มต้น การเข้าถึงรายละเอียดของภาพหนึ่งจะไม่มีผลกระทบต่อภาพอื่น ๆ บนหน้ารายงานดังกล่าว     
+- หากรายงานของคุณมีภาพที่สนับสนุน[การดูข้อมูลแบบเจาะลึก](end-user-drill.md)ตามค่าเริ่มต้น การเข้าถึงรายละเอียดของภาพหนึ่งจะไม่มีผลกระทบต่อภาพอื่น ๆ บนหน้ารายงานดังกล่าว อย่างไรก็ตาม *ผู้ออกแบบ* รายงาน สามารถเปลี่ยนลักษณะการทำงานนี้ได้ ดังนั้นให้ตรวจสอบภาพที่สามารถเจ้าได้ของคุณเพื่อดูว่า **ตัวกรองภาพที่เจาะได้อื่นๆ** ได้รับการเปิดใช้งานโดย *ผู้ออกแบบ* รายงาน
+    
 - ตัวกรองระดับวิชวลจะถูกเก็บรักษาไว้เมื่อกรองแบบข้ามและไฮไลต์แบบเชื่อมโยงในการแสดงผลอื่นในหน้ารายงาน ดังนั้นหาก VisualA มีฟิลเตอร์ระดับวิชวลที่ใช้โดยนักออกแบบรายงานหรือโดยคุณ และคุณใช้ visualA เพื่อตอบโต้กับ visualB ฟิลเตอร์ระดับวิชวลจาก visualA จะใช้กับ visualB
 
     ![หน้ารายงานหลังจากส่วนควบคุมของแผนภูมิโดนัทที่เลือก](media/end-user-interactions/power-bi-visual-filters.png)

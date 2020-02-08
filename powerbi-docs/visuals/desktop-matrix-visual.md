@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/14/2020
+ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fa097489fcf81ec1bb1df2162465e6413bd116c0
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040412"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895545"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>สร้างการแสดงข้อมูลเมทริกซ์ใน Power BI
 
@@ -41,25 +41,24 @@ ms.locfileid: "76040412"
 
 เมื่อคุณดูผลรวมและผลรวมย่อย จำไว้ว่าค่าเหล่านั้นจะยึดตามข้อมูลเบื้องต้น ค่าเหล่านั้นไม่ได้ยึดตามตัวเลขที่มองเห็นเพียงอย่างเดียว
 
-<!-- use Nov blog post video
 
-## Expanding and collapsing row headers
-There are two ways you can expand row headers. The first is through the right-click menu. You’ll see options to expand the specific row header you clicked on, the entire level or everything down to the very last level of the hierarchy. You have similar options for collapsing row headers as well.
+## <a name="expanding-and-collapsing-row-headers"></a>การขยายและการยุบส่วนหัวของแถว
+มีสองวิธีที่คุณสามารถขยายส่วนหัวของแถวได้ ขั้นตอนแรกคือการคลิกขวาที่เมนู คุณจะเห็นตัวเลือกเพื่อขยายส่วนหัวของแถวนั้นๆ ที่คุณเลือก ระดับทั้งหมด หรือทุกอย่างไปจนถึงระดับสุดท้ายของลำดับชั้น คุณมีตัวเลือกที่คล้ายกันสำหรับการยุบส่วนหัวของแถวเช่นกัน
 
 ![](media/desktop-matrix-visual/power-bi-expand1.png)
 
-You can also add +/- buttons to the row headers through the formatting pane under the row headers card. By default, the icons will match the formatting of the row header, but you can customize the icons’ color and size separately if you want. 
-Once the icons are turned on, they work similarly to the icons from PivotTables in Excel.
+คุณยังสามารถเพิ่มปุ่ม +/- ไปยังส่วนหัวของแถวผ่านบานหน้าต่างการจัดรูปแบบภายใต้การ์ด**ส่วนหัวของแถว** ได้ ตามค่าเริ่มต้น ไอคอนจะตรงกับการจัดรูปแบบของส่วนหัวของแถว แต่คุณสามารถกำหนดสีและขนาดของไอคอนแยกต่างหากได้ถ้าคุณต้องการ
+
+เมื่อเปิดไอคอนแล้ว จะทำงานคล้ายกับไอคอน PivotTable ใน Excel
 
 ![](media/desktop-matrix-visual/power-bi-expand2.png)
 
-The expansion state of the matrix will save with your report. It can be pinned to dashboards as well, but consumers will need to open up the report to change the state. Conditional formatting will only apply to the inner most visible level of the hierarchy. Note that this expand/collapse experience is not currently supported when connecting to AS servers older than 2016 or MD servers.
+สถานะการขยายของเมทริกซ์จะบันทึกกับรายงานของคุณ คุณสามารถปักหมุดเมทริกซ์ไปยังแดชบอร์ดที่ขยายหรือยุบได้ เมื่อเลือกไทล์แดชบอร์ดและรายงานเปิดอยู่ ยังสามารถเปลี่ยนแปลงสถานะการขยายในรายงานได้ 
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-Watch the following video to learn more about expand/collapse in the matrix:
 
--->
+
 ## <a name="using-drill-down-with-the-matrix-visual"></a>การดูรายละเอียดแนวลึกในภาพเมทริกซ์
 ด้วยภาพเมทริกซ์คุณสามารถทำกิจกรรมดูรายละเอียดแนวลึกที่ไม่เคยมีให้บริการมาก่อนได้ ซึ่งรวมถึงความสามารถในการดูรายละเอียดแนวลึกที่ระดับแถว คอลัมน์ และแม้แต่ส่วนและเซลล์ ลองมาดูวิธีการดูรายละเอียดแนวลึก
 
@@ -183,6 +182,16 @@ Watch the following video to learn more about expand/collapse in the matrix:
 * สำเนาจะเป็นการจัดรูปแบบการแสดงข้อมูลเมทริกซ์อื่น แต่มีเพียงข้อมูลที่เป็นสำเนาของคุณเท่านั้น
 
     ![สกรีนช็อตที่แสดงตัวอย่างวิชวลสำเนา](media/desktop-matrix-visual/power-bi-copy-visual-example.png)
+
+## <a name="setting-a-matrix-value-as-a-custom-url"></a>ตั้งค่าเมทริกซ์เป็น URL ที่กำหนดเอง
+
+หากคุณมีคอลัมน์หรือหน่วยวัดที่ประกอบด้วย URL เว็บไซต์ คุณสามารถใช้การจัดรูปแบบตามเงื่อนไขเพื่อใช้ URL เหล่านั้นกับเขตข้อมูลเป็นลิงก์ที่ใช้งานอยู่ได้ คุณจะพบตัวเลือกนี้ภายใต้การ์ด **การจัดรูปแบบตามเงื่อนไข** ในแถบการจัดรูปแบบ
+
+![บัตรตัวกรองแสดงแถวที่ถูกเลือก](media/desktop-matrix-visual/power-bi-web-url.png)
+
+เปิด  **URL ของเว็บ** และเลือกเขตข้อมูลที่จะใช้เป็น URL สำหรับคอลัมน์ เมื่อนำไปใช้แล้ว ค่าในเขตข้อมูลนั้น (คอลัมน์) จะกลายเป็นลิงก์ที่ใช้งานอยู่ เลื่อนวางเม้าส์เพื่อดูลิงก์และเลือกเพื่อข้ามไปยังหน้านั้น 
+
+สำหรับข้อมูลเพิ่มเติม ดูที่ [การจัดรูปแบบตารางแบบมีเงื่อนไข](../desktop-conditional-table-formatting.md)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>การแรเงาและสีแบบอักษร กับวิชวลเมทริกซ์
 ด้วยวิชวลเมทริกซ์ คุณสามารถใช้การจัดรูปแบบตามเงื่อนไข (สี แรเงา และแถบข้อมูล) ในพื้นหลังของเซลล์ภายในเมทริกซ์ และคุณสามารถใช้การจัดรูปแบบตามเงื่อนไขกับข้อความและค่า
