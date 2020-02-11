@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2019
-ms.openlocfilehash: 04954397a16fecddabca63067c903dee742873ef
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925574"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026680"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>รับการรับรองส่วนการจัดแสดง Power BI
 
-ได้รับการรับรองวิชวล Power BI เป็นวิชวล Power BI ใน [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) ที่ตรงตามข้อกำหนดของ Microsoft Power BI team [code](#certification-requirements) วิชวลเหล่านี้จะได้รับการทดสอบเพื่อตรวจสอบว่าไม่สามารถเข้าถึงบริการภายนอกหรือแหล่งข้อมูล และทำตามรูปแบบการเขียนโค้ดที่ปลอดภัยและแนวทาง
+วิชวล Power BI ที่ได้รับการรับรองคือวิชวล Power BI ใน [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) ที่ตรงตามข้อกำหนดโค้ดทีม Microsoft Power BI team [แล้ว](#certification-requirements) วิชวลเหล่านี้จะได้รับการทดสอบเพื่อตรวจสอบว่าไม่สามารถเข้าถึงบริการภายนอกหรือแหล่งข้อมูล และทำตามรูปแบบการเขียนโค้ดที่ปลอดภัยและแนวทาง
 
 เมื่อการจัดแสดง Power BI ได้รับการรับรองแล้ว จะมีคุณลักษณะเพิ่มเติม เช่น คุณสามารถ[ส่งออกไปยัง PowerPoint](../consumer/end-user-powerpoint.md) หรือแสดงวิชวลในอีเมลเมื่อผู้ใช้[สมัครใช้งานในหน้ารายงาน](../consumer/end-user-subscribe.md)
 
@@ -45,7 +45,7 @@ ms.locfileid: "75925574"
 
 ที่เก็บต้องมีโค้ดสำหรับวิชวล Power BI เดียวเท่านั้น ซึ่งไม่สามารถมีโค้ดสำหรับวิชวล Power BI หลายหรือรหัสที่ไม่เกี่ยวข้อง
 
-ที่เก็บต้องมี **ใบรับรอง** ชื่อสาขา แหล่งโค้ดในสาขานี้ต้องตรงกับแพคเกจที่ส่งไป โค้ดนี้สามารถอัปเดตได้ระหว่างขั้นตอนการส่งครั้งถัดไป ถ้าคุณกำลังส่งวิชวล Power BI ของคุณใหม่
+ที่เก็บต้องมี **ใบรับรอง** ชื่อสาขา (ต้องการตัวพิมพ์เล็ก) แหล่งโค้ดในสาขานี้ต้องตรงกับแพคเกจที่ส่งไป โค้ดนี้สามารถอัปเดตได้ระหว่างขั้นตอนการส่งครั้งถัดไป ถ้าคุณกำลังส่งวิชวล Power BI ของคุณใหม่
 
 ถ้าวิชวล Power BI ของคุณใช้แพคเกจ npm แบบส่วนตัวหรือโมดูลย่อย git คุณต้องให้การเข้าถึงที่เก็บข้อมูลเพิ่มเติมที่มีโค้ดนี้
 

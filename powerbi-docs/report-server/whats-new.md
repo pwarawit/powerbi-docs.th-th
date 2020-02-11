@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/23/2020
-ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819571"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026726"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>มีอะไรใหม่ใน Power BI Report Server
 
@@ -160,7 +160,7 @@ ms.locfileid: "76819571"
 
 #### <a name="custom-headers"></a>ส่วนหัวแบบกำหนดเอง
 
-ตั้งค่าส่วนหัวของ URL ทั้งหมดที่ตรงกับรูปแบบ regex ที่ระบุ ผู้ใช้สามารถอัปเดตค่าส่วนหัวแบบกำหนดเองด้วย XML ที่ถูกต้องเพื่อตั้งค่าส่วนหัวสำหรับ URL คำขอที่เลือก ผู้ดูแลระบบสามารถเพิ่มตัวเลขใดก็ได้ให้กับส่วนหัวใน XML ดู [ส่วนหัวแบบกำหนดเอง](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers) ในบทความการรายงานบริการ **หน้าขั้นสูงของคุณสมบัติเซิร์ฟเวอร์** สำหรับรายละเอียด
+ตั้งค่าส่วนหัวของ URL ทั้งหมดที่ตรงกับรูปแบบ regex ที่ระบุ ผู้ใช้สามารถอัปเดตค่าส่วนหัวแบบกำหนดเองด้วย XML ที่ถูกต้องเพื่อตั้งค่าส่วนหัวสำหรับ URL คำขอที่เลือก ผู้ดูแลระบบสามารถเพิ่มตัวเลขใดก็ได้ให้กับส่วนหัวใน XML ดู [ CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders) ในบทความ Reporting Services  **Server Properties Advanced Page** บทความเพื่อดูรายละเอียด
 
 #### <a name="transparent-database-encryption"></a>การเข้ารหัสฐานข้อมูลโปร่งใส
 
