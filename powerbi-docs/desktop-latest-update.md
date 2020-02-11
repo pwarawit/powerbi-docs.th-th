@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 016b83e983f2b3139eb040a1f1d8d48d70b44a52
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: c6f1a04f7178719eb68bcd54674ea0312c97ef3e
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953487"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076593"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>มีอะไรใหม่ใน Power BI Desktop บ้าง
 
@@ -31,9 +31,9 @@ ms.locfileid: "75953487"
 
 ลิงก์ที่อยู่ข้าง ๆ แต่ละคุณลักษณะในรายการอัปเดต Power BI Desktop จะถูกแปลเป็นดังนี้:
 
-* [blog]: Most features are explained in a section in the monthly update blog post.
-* [video]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
-* [article]: Some features have an article that provides more detail.
+* \[บล็อก\]: คุณลักษณะส่วนใหญ่จะอธิบายไว้ในส่วนของบล็อคโพสต์ ที่อัปเดตรายเดือน
+* \[วิดีโอ\]: คุณลักษณะบางอย่างมีการตัดตอนจากวิดีโอที่ได้กล่าวถึงคุณลักษณะ ซึ่งจะเล่นในแท็บเบราว์เซอร์ใหม่
+* \[บทความ\]: บางคุณลักษณะมีบทความที่ให้รายละเอียดเพิ่มเติม
 * คุณลักษณะบางอย่างจะอธิบายในตัวเองและไม่จำเป็นต้องมีบทความหรือวิดีโอ
 
 นอกจากนี้คุณยังสามารถดู[การอัปเดตประจำเดือนทั้งหมดของ Power BI Desktop](#power-bi-desktop-monthly-update-video) ได้

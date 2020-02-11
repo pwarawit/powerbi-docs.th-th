@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913550"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076639"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>กรองรายงานโดยใช้พารามิเตอร์สตริงของแบบสอบถามใน URL
 
@@ -193,7 +193,7 @@ TerritoryChain = [Territory] & "-" & [Chain]
 มีบางสิ่งที่ควรระวังเมื่อใช้พารามิเตอร์สตริงของแบบสอบถาม
 
 * เมื่อใช้ตัวดำเนินการ *in* ค่าทางด้านขวาของ *in* ต้องเป็นรายการที่คั่นด้วยจุลภาคที่อยู่ในวงเล็บ    
-* ในเซิร์ฟเวอร์รายงาน Power BI คุณสามารถ[ผ่านพารามิเตอร์รายงาน](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md)ได้โดยการรวมพารามเตอร์เหล่านั้นใน URL รายงานได้ พารามิเตอร์ URL เหล่านี้ไม่มีคำนำหน้าเนื่องจากถูกส่งผ่านโดยตรงไปยังกลไกการประมวลผลรายงาน
+* เซิร์ฟเวอร์รายงาน Power BI ยังรองรับความสามารถในการระบุตัวกรองเพิ่มเติมโดยใช้พารามิเตอร์ URL "ตัวกรอง"  ตัวอย่างเช่น ในเซิร์ฟเวอร์รายงาน Power BI URL อาจมีลักษณะดังต่อไปนี้: https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 * การกรองสตริงคิวรีไม่สามารถใช้ได้กับ [เผยแพร่บนเว็บ](service-publish-to-web.md)หรือ [ส่งออกเป็น PDF](consumer/end-user-pdf.md)
 * [ฝังด้วยส่วนเว็บรายงานใน SharePoint Online](service-embed-report-spo.md) จะไม่รองรับตัวกรอง URL
 * ชนิดข้อมูล long คือ (2^53-1) เนื่องจากข้อจำกัดของ Javascript
