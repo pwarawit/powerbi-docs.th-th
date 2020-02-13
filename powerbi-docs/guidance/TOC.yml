@@ -66,6 +66,8 @@
               href: migrate-ssrs-reports-to-power-bi.md
         - name: ผู้ดูแลระบบและการปรับใช้
           items:
+            - name: การตั้งค่าผู้ดูแลระบบของผู้เช่า
+              href: admin-tenant-settings.md
             - name: ขนาดเกตเวย์ข้อมูลภายในองค์กร
               href: gateway-onprem-sizing.md
     - name: เอกสารทางเทคนิค
