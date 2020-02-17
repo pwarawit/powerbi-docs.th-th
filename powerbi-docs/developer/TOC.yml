@@ -134,6 +134,8 @@
               href: embed-sample-for-customers-national-clouds.md
         - name: แนวคิด
           items:
+            - name: ความจุและ SKU ในการวิเคราะห์แบบฝังตัวของ Power BI
+              href: embedded-capacity.md
             - name: แนวทางปฏิบัติที่ดีที่สุดของประสิทธิภาพการทำงาน
               href: embedded-performance-best-practices.md
             - name: โครงร่างสำคัญของบริการ
