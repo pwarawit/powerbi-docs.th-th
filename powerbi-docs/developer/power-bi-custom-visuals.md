@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 897590324040a69dbaa1ac549dcee80de8da76a5
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 56958d59e52065f3553a60ce49bd988b4869a646
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75691392"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77153970"
 ---
 # <a name="visuals-in-power-bi"></a>วิชวลใน Power BI
 
@@ -80,4 +80,4 @@ Power BI มาพร้อมกับวิชวล Power BI แบบนอ�
 
 * สำรวจ [คำแนะนำสำหรับวิชวล Power BI](guidelines-powerbi-visuals.md)
 
-มีคำถามเพิ่มเติมหรือไม่ ลองเยี่ยมชมหน้า [คำถามที่ถามบ่อยเกี่ยวกับ Power BI และวิชวล Power BI](power-bi-custom-visuals-faq.md) หรือ [ชุมชน Power BI](http://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ ลองเยี่ยมชมหน้า [คำถามที่ถามบ่อยเกี่ยวกับ Power BI และวิชวล Power BI](power-bi-custom-visuals-faq.md) หรือ [ชุมชน Power BI](https://community.powerbi.com/)

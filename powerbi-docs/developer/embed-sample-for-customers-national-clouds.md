@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 0e1f3361abfc4f45f71edaf82a197cfa3ea8cad3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 53432a0b3e6f09a558a189ef152c9d10645db546
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74695438"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259675"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>บทช่วยสอน: ฝังเนื้อหาของ Power BI ลงในแอปพลิเคชันสำหรับบริการคลาวด์แห่งชาติ
 
@@ -54,7 +54,7 @@ Power BI ยังสนับสนุน[บริการคลาวด์�
 * ชุมชน Cloud สำหรับส่วนราชการ (GCC):
 
     > [!NOTE]
-    > การฝังเนื้อหา Power BI จากชุมชน Cloud สำหรับส่วนราชการ (GCC) สามารถทำได้ด้วย Office 356 SKU เท่านั้น ลูกค้าคลาวด์ระดับชาติอื่น ๆ สามารถใช้ [Office 356 หรือ Azure SKU](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365) ได้
+    > การฝังเนื้อหา Power BI จากชุมชน Cloud สำหรับส่วนราชการ (GCC) สามารถทำได้ด้วย Office 356 SKU เท่านั้น ลูกค้าคลาวด์ระดับชาติอื่น ๆ สามารถใช้ [Office 356 หรือ Azure SKU](embedded-capacity.md) ได้
 
 1. เขียนทับแฟ้ม Cloud.config ด้วยเนื้อหา GCCCloud.config
 
