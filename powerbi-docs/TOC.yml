@@ -429,6 +429,8 @@
           href: desktop-send-smile-privacy-statement.md
         - name: 'ผู้ดูแลระบบ: จัดการแบบฟอร์มการลงชื่อเข้าใช้ Power BI Desktop'
           href: desktop-admin-sign-in-form.md
+        - name: การแก้ไขปัญหาการลงชื่อเข้าใช้ใน Power BI Desktop
+          href: desktop-troubleshooting-sign-in.md
         - name: การช่วยสำหรับการเข้าถึง
           items:
             - name: เกี่ยวกับการเข้าถึง Power BI
@@ -827,6 +829,8 @@
                   href: service-connect-to-xero.md
                 - name: Zendesk
                   href: service-connect-to-zendesk.md
+                - name: คลังข้อมูลเกล็ดหิมะ
+                  href: service-connect-snowflake.md
             - name: ชุดเนื้อหาระดับองค์กร
               items:
                 - name: บทนำชุดเนื้อหาองค์กร
