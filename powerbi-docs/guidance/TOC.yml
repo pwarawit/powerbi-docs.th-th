@@ -52,15 +52,19 @@
               href: dax-column-measure-references.md
             - name: หลีกเลี่ยงการใช้ตัวกรองเป็นอาร์กิวเมนต์ตัวกรอง
               href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: รายงาน Power BI
+          items:
             - name: ขยายภาพด้วยคำแนะนำเครื่องมือของหน้ารายงาน
               href: report-page-tooltips.md
             - name: ใช้การดูหน้ารายงานแบบเจาะลึก
               href: report-drillthrough.md
-            - name: เมื่อใช้รายงานที่มีการแบ่งหน้าใน Power BI
+        - name: Power BI รายงานเลขหน้า
+          items:
+            - name: ควรใช้รายงานหน้าเมื่อใด
               href: report-paginated-or-power-bi.md
-            - name: ใช้พารามิเตอร์แบบซ้อนในรายงานเลขหน้า
+            - name: ใช้พารามิเตอร์แบบเรียงซ้อน
               href: paginated-report-cascading-parameter.md
-            - name: หลีกเลี่ยงหน้าเปล่าเมื่อพิมพ์รายงานที่ระบุเลขหน้า
+            - name: หลีกเลี่ยงหน้าเปล่าเมื่อพิมพ์
               href: report-paginated-blank-page.md
             - name: ย้ายรายงาน SSRS ไปยัง Power BI
               href: migrate-ssrs-reports-to-power-bi.md
