@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 01/29/2020
 ms.author: painbar
-ms.openlocfilehash: caed3a107b8f7a57d2fb3da92073cb8a5f5331cd
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 7aa31d9c6eadd4c7c9c88c9006a360a6089f28e2
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538416"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259832"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 สำหรับ "ข้อมูลอะไรใหม่" ที่เกี่ยวข้อง ให้ดู
@@ -21,6 +21,12 @@ ms.locfileid: "76538416"
 * [บล็อกทีมของ power BI สำหรับแอป mobile](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [มีอะไรใหม่ใน Power BI Desktop](../../desktop-latest-update.md)  
 * [มีอะไรใหม่ในบริการ Power BI](../../service-whats-new.md)  
+
+## <a name="january-2020"></a>มกราคม 2020
+
+### <a name="share-annotations-created-in-presentation-mode-windows"></a>แชร์คำอธิบายประกอบที่สร้างในโหมดการนำเสนอผลงาน (Windows)
+
+คำอธิบายประกอบที่คุณสร้างในงานนำเสนอ จะกลายเป็นส่วนหนึ่งของงานนำเสนอ และเป็นส่วนประกอบสำคัญของการอภิปราย ในตอนนี้ เมื่อคุณใส่คำอธิบายประกอบรายงานในโหมดการนำเสนอคุณสามารถแชร์สแนปช็อตของหน้ารายงานกับเพื่อนร่วมงานของคุณได้ [ศึกษาเพิ่มเติม](./mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
 
 ## <a name="december-2019"></a>ธันวาคม 2019
 
