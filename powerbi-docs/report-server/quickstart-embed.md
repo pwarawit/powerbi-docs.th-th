@@ -25,7 +25,7 @@ ms.locfileid: "75762611"
 * ติดตั้งและกำหนดค่า [เซิร์ฟเวอร์รายงาน Power BI](https://powerbi.microsoft.com/report-server/) แล้ว
 * ติดตั้ง [Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](install-powerbi-desktop.md) แล้ว
 * ติดตั้งและกำหนดค่า [SharePoint](https://docs.microsoft.com/sharepoint/install/install) แล้ว
-* สามารถรองรับ Internet Explorer 11 ได้เฉพาะเมื่อมีการตั้งค่าโหมดเอกสารเป็นโหมด IE11 (Edge) หรือเมื่อใช้ SharePoint Online คุณอาจใช้เบราว์เซอร์อื่นๆ ที่รองรับกับ SharePoint ภายในองค์กรและ SharePoint Online
+* สามารถรองรับ Internet Explorer 11 ได้เฉพาะเมื่อมีการตั้งค่าโหมดเอกสารเป็นโหมด IE11 (Microsoft Edge) หรือเมื่อใช้ SharePoint Online คุณอาจใช้เบราว์เซอร์อื่นๆ ที่รองรับกับ SharePoint ภายในองค์กรและ SharePoint Online
 
 ## <a name="create-the-power-bi-report-url"></a>สร้าง URL ของรายงาน Power BI
 
