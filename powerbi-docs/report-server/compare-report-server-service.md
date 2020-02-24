@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 01/16/2020
-ms.openlocfilehash: f7f163a8930d8bd90d6270f59e8afa602e89dd57
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.date: 02/13/2020
+ms.openlocfilehash: c760450319f5ca32856520bce9c9f9b67a8616d6
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76160845"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427771"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
@@ -45,7 +45,7 @@ ms.locfileid: "76160845"
 | แอป Power BI สำหรับอุปกรณ์เคลื่อนที่ | ใช่ | ใช่ | [ภาพรวมแอป Power BI สำหรับอุปกรณ์เคลื่อนที่](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | แผนที่ ArcGIS | ไม่ใช่ | ใช่ | [แผนที่ ArcGIS ในบริการของ Power BI และ Power BI Desktop ที่ให้บริการโดย Esri](../visuals/power-bi-visualization-arcgis.md) |
 | การสมัครสมาชิกอีเมลสำหรับรายงาน Power BI | ไม่ใช่ | ใช่ | [สมัครใช้งาน](../service-report-subscribe.md)ในรายงานหรือแดชบอร์ดในบริการของ Power BI สำหรับตัวคุณเองและผู้อื่น |
-| การสมัครสมาชิกอีเมลสำหรับรายงานที่มีการแบ่งหน้า | ใช่ | ใช่ | [สมัครใช้งานรายงานที่มีการแบ่งหน้าสำหรับตัวคุณเองและผู้อื่นในบริการของ Power BI](../consumer/paginated-reports-subscriptions.md)<br><br>[การจัดส่งอีเมลใน Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
+| การสมัครสมาชิกอีเมลสำหรับรายงานที่มีการแบ่งหน้า | ใช่ | ใช่ | [สมัครใช้งานรายงานที่มีการแบ่งหน้าสำหรับตัวคุณเองและผู้อื่นในบริการของ Power BI](../consumer/paginated-reports-subscriptions.md)<br><br>[การจัดส่งอีเมลใน Reporting Services](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | การแจ้งเตือนข้อมูล | ไม่ใช่ | ใช่ | [การแจ้งเตือนข้อมูล](../service-set-data-alerts.md)ในบริการของ Power BI
 | รักษาความปลอดภัยระดับแถว (RLS) | ใช่ | ใช่ | มีทั้งใน DirectQuery (แหล่งข้อมูล) และโหมดการนำเข้า <br><br>การรักษาความปลอดภัยระดับแถวใน[บริการของ Power BI](../service-admin-rls.md) <br><br>การรักษาความปลอดภัยระดับแถว (RLS) ใน[เซิร์ฟเวอร์รายงาน Power BI](row-level-security-report-server.md) |
 | โหมดเต็มหน้าจอ | ไม่ใช่ | ใช่ | [โหมดเต็มหน้าจอ](../consumer/end-user-focus.md)ในบริการของ Power BI |

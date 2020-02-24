@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: f8c3bdf3e3f92d570205551a97389def2921fe98
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 1c6c4faa9f5cff46695ddd9d30869103d7bf482b
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77260468"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427218"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>ความจุและ SKU ในการวิเคราะห์แบบฝังตัวของ Power BI
 
@@ -165,7 +165,7 @@ Power BI premium นำเสนอ SKU สองแบบคือ *P* แล�
 <tr>
 <td><p><strong>ข้อผูกมัด</strong></td>
 <td style="text-align: center;">ไม่มี</td>
-<td style="text-align: center;">รายเดือนหรือรายปี</td>
+<td style="text-align: center;">รายปี</td>
 <td style="text-align: center;">รายเดือนหรือรายปี</td>
 </tr>
 <tr>
