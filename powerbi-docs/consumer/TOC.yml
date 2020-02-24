@@ -8,24 +8,24 @@
           href: end-user-consumer.md
         - name: แนวคิดพื้นฐานและคำศัพท์สำหรับผู้ใช้ Power BI
           href: end-user-basic-concepts.md
+        - name: ชมการแนะนำบริการของ Power BI
+          href: end-user-reading-view.md
+    - name: เริ่มใช้งาน
+      items:
+        - name: ค้นหาวิธีใช้ใน Power BI
+          href: end-user-experience.md
         - name: ค้นหาเนื้อหาโดยใช้หน้า landing page ของคุณ
           href: end-user-home.md
+        - name: เรียนรู้วิธีการถามคำถามโดยใช้ภาษาธรรมชาติ
+          href: end-user-q-and-a.md
+        - name: ลงชื่อเข้าใช้เป็นครั้งแรก
+          href: end-user-sign-in.md
+        - name: ค้นหาประเภทสิทธิการใช้งานของคุณ
+          href: end-user-license.md
         - name: นำทาง 'รูปลักษณ์ใหม่ '
           href: ../service-new-look.md
         - name: '''รูปลักษณ์ใหม่ '' การดำเนินการไปที่ไหน'
           href: ../service-new-look-where-actions.md
-    - name: การเริ่มต้นใช้งานด่วน
-      items:
-        - name: ค้นหาวิธีใช้ใน Power BI
-          href: end-user-experience.md
-        - name: ฉันสามารถใช้ Power BI ทำอะไรได้บ้าง
-          href: end-user-reading-view.md
-        - name: ลงชื่อเข้าใช้เป็นครั้งแรก
-          href: end-user-sign-in.md
-    - name: บทช่วยสอน
-      items:
-        - name: สร้างการแจ้งเตือนแดชบอร์ด
-          href: end-user-alerts.md
     - name: วิธีการ
       items:
         - name: แดชบอร์ด
@@ -40,6 +40,10 @@
               href: end-user-tiles.md
             - name: เพิ่มข้อคิดเห็นหรือเริ่มการสนทนา
               href: end-user-comment.md
+            - name: ดูข้อมูลเชิงลึกโดยอัตโนมัติสำหรับไทลแดชบอร์ด
+              href: end-user-insights.md
+            - name: สร้างการแจ้งเตือนแดชบอร์ด
+              href: end-user-alerts.md
         - name: รายงาน
           items:
             - name: รายงาน
@@ -78,7 +82,7 @@
               href: end-user-visual-type.md
             - name: แสดงข้อมูลที่ใช้เพื่อสร้างการแสดงภาพ
               href: end-user-show-data.md
-            - name: การดูรายละเอียดแนวลึกในการแสดงภาพใน Power BI
+            - name: การเจาะดูข้อมูลลึกในวิชวล
               href: end-user-drill.md
             - name: โต้ตอบกับ ArcGIS Maps
               href: ../power-bi-visualizations-arcgis.md
@@ -104,8 +108,6 @@
               href: end-user-subscribe.md
             - name: ค้นหาและเรียงลำดับเนื้อหาใน Power BI
               href: end-user-search-sort.md
-            - name: ดูข้อมูลเชิงลึกโดยอัตโนมัติสำหรับไทลแดชบอร์ด
-              href: end-user-insights.md
             - name: เปิดฟีเจอร์แสดงตัวอย่าง
               href: end-user-preview-features.md
             - name: รับการแจ้งเตือนในบริการ Power BI
@@ -134,7 +136,7 @@
           href: end-user-faq.md
         - name: เบราว์เซอร์ที่สนับสนุน
           href: end-user-browsers.md
-        - name: ชนิดของข้อมูลเชิงลึกด่วนที่ได้รับการสนับสนุนโดย Power BI
+        - name: ประเภทข้อมูลเชิงลึกด่วน
           href: end-user-insight-types.md
 - name: แอป Power BI สำหรับอุปกรณ์เคลื่อนที่
   items:

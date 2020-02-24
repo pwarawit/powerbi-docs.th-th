@@ -1,0 +1,101 @@
+### YamlMime:Landing
+title: เอกสาร Power BI สำหรับผู้ใช้งาน
+summary: ในฐานะผู้ใช้งาน คุณจะได้รับแดชบอร์ดและรายงานจากเพื่อนร่วมงาน คุณใช้งาน Power BI เพื่อตรวจทาน และโต้ตอบกับเนื้อหานี้เพื่อทำการตัดสินใจทางธุรกิจ
+metadata:
+  title: Power BI สำหรับผู้บริโภค
+  description: เริ่มต้นใช้งาน Power BI? ทำความเข้าใจคุณลักษณะและความสามารถของบริการของ Power BI และดูว่าคุณสามารถทำอะไรได้บ้างในฐานะผู้ใช้ Power BI หรือผู้ใช้ปลายทาง
+  ms.service: powerbi
+  ms.subservice: powerbi-consumer
+  ms.topic: landing-page
+  author: mihart
+  ms.author: mihart
+  ms.date: 01/10/2020
+  ms.openlocfilehash: d08520a7ee3526323111de91c4dfb67e139a8813
+  ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 02/20/2020
+  ms.locfileid: "77497804"
+landingContent:
+- title: เกี่ยวกับ Power BI สำหรับผู้ใช้งาน
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: ผู้ใช้ Power BI คือใคร
+      url: end-user-consumer.md
+    - text: ชมการแนะนำบริการของ Power BI
+      url: end-user-reading-view.md
+    - text: ตรวจทานแนวคิดและเนื้อหา
+      url: end-user-basic-concepts.md
+- title: เริ่มใช้งาน
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: ลงชื่อเข้าใช้
+      url: end-user-sign-in.md
+  - linkListType: concept
+    links:
+    - text: เรียนรู้เกี่ยวกับรายงาน
+      url: end-user-reports.md
+    - text: เรียนรู้เกี่ยวกับแดชบอร์ด
+      url: end-user-dashboards.md
+    - text: เรียนรู้เกี่ยวกับแอป
+      url: end-user-apps.md
+- title: ดูเนื้อหา
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: ดูรายงาน
+      url: end-user-report-view.md
+    - text: แสดงเนื้อหาใหญ่ขึ้นหรือเพียงอย่างเดียว
+      url: end-user-focus.md
+    - text: แสดงข้อมูลที่ใช้ในการสร้างวิชวล
+      url: end-user-show-data.md
+    - text: ส่งออกข้อมูลไปยัง Excel
+      url: end-user-export.md
+- title: โต้ตอบและวิเคราะห์
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: ทำสิ่งต่างๆ ได้อย่างอิสระใน Power BI
+      url: end-user-experience.md
+    - text: การดูรายละเอียดแนวลึกในวิชวล
+      url: end-user-drill.md
+    - text: เปลี่ยนแปลงวิธีการจัดเรียงวิชวล
+      url: end-user-change-sort.md
+    - text: ใช้ตัวกรองรายงาน
+      url: end-user-report-filter.md
+    - text: ถามคำถามโดยใช้ภาษาธรรมชาติ
+      url: end-user-q-and-a.md
+- title: ร่วมงานและแชร์
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: เผยแพร่รายงานไปยัง PowerPoint
+      url: end-user-powerpoint.md
+    - text: ส่งออกรายงานเป็น PDF
+      url: end-user-pdf.md
+    - text: สมัครเพื่อรับเนื้อหา
+      url: end-user-subscribe.md
+- title: หัวข้อขั้นสูง
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: สร้างและใช้บุ๊กมาร์ก
+      url: end-user-bookmarks.md
+    - text: ดูข้อมูลเชิงลึกอัตโนมัติ
+      url: end-user-insights.md
+    - text: ดูรายงานที่มีการแบ่งหน้า
+      url: paginated-reports-view-power-bi-service.md
+- title: ทรัพยากร
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: อภิธานศัพท์
+      url: end-user-glossary.md
+    - text: คำถามที่ถามบ่อย
+      url: end-user-faq.md
+    - text: ประเภทข้อมูลเชิงลึก
+      url: end-user-insight-types.md
+    - text: ประเภทวิชวล
+      url: end-user-visual-type.md

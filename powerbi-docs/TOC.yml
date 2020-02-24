@@ -579,6 +579,8 @@
           items:
             - name: กำหนดค่าการรีเฟรชตามกำหนดเวลา
               href: refresh-scheduled-refresh.md
+            - name: คิวรีการรีเฟรชแบบเพิ่มหน่วย
+              href: service-premium-incremental-refresh.md
             - name: รีเฟรชชุดข้อมูลจากไฟล์ Power BI Desktop ภายในเครื่อง
               href: refresh-desktop-file-local-drive.md
             - name: รีเฟรชชุดข้อมูลจากไฟล์ Power BI Desktop ในระบบคลาวด์
@@ -701,6 +703,8 @@
               href: service-url-filters.md
             - name: สมัครใช้งานตัวคุณเองและผู้อื่น
               href: service-report-subscribe.md
+            - name: รายงานที่ฝังใน Microsoft Teams
+              href: service-embed-report-microsoft-teams.md
             - name: รายงานที่ฝังใน SharePoint Online
               href: service-embed-report-spo.md
             - name: รายงานที่ฝังในพอร์ทัลหรือเว็บไซต์ที่ปลอดภัย
@@ -885,8 +889,6 @@
           href: service-premium-metrics-app.md
         - name: ตรวจสอบความจุในพอร์ทัลผู้ดูแลระบบ
           href: service-admin-premium-monitor-portal.md
-        - name: คิวรีการรีเฟรชแบบเพิ่มหน่วย
-          href: service-premium-incremental-refresh.md
         - name: กำหนดค่าแบบจำลองขนาดใหญ่ (ตัวอย่าง)
           href: service-premium-large-models.md
         - name: กำหนดค่าภูมิศาสตร์หลายแห่ง
