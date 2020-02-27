@@ -7,6 +7,8 @@
       items:
         - name: ภาพรวม
           href: overview.md
+        - name: คำแนะนำการปรับให้เหมาะสมสำหรับ Power BI
+          href: power-bi-optimization.md
     - name: แนวคิด
       expanded: true
       items:
@@ -78,6 +80,8 @@
               href: admin-tenant-settings.md
             - name: ขนาดเกตเวย์ข้อมูลภายในองค์กร
               href: gateway-onprem-sizing.md
+            - name: ตรวจดูประสิทธิภาพของรายงาน
+              href: monitor-report-performance.md
     - name: เอกสารทางเทคนิค
       items:
         - name: ภาพรวมเอกสารทางเทคนิค
