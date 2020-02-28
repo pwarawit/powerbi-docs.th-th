@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4b17ed5458a6245ab5796edcf15f6dee5f885358
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871379"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77497207"
 ---
 # <a name="update-delete-and-extract-template-app"></a>อัปเดต ลบ และแยกแอปแม่แบบ
 
@@ -36,15 +36,21 @@ ms.locfileid: "73871379"
 
    คุณเห็นว่าคุณมีสองเวอร์ชันในขณะนี้: เวอร์ชันในผลิต รวมถึงเวอร์ชันใหม่ในการทดสอบ
 
-    ![ทั้งสองเวอร์ชันของแอปแม่แบบ](media/service-template-apps-update-extract-delete/power-bi-template-app-update.png)
+    ![ทั้งสองเวอร์ชันของแอปแม่แบบ](media/service-template-apps-update-extract-delete/power-bi-template-app-update1.png)
 
-5. เมื่อคุณพร้อมที่จะเลื่อนระดับแอปของคุณไปยังการผลิตล่วงหน้าสำหรับการทดสอบภายนอกผู้เช่าของคุณเพิ่มเติม **ย้อนกลับไปที่บานหน้าต่างการจัดการวางจำหน่าย** **และเลือก เลื่อนแอป ถัดจากการทดสอบ**
-6. ขณะนี้ลิงก์ของคุณได้ออนไลน์แล้ว ส่งไปยังพอร์ทัล Cloud Partner (CPP) อีกครั้งโดยทำตามขั้นตอนที่ [การอัปเดตข้อเสนอของแอป Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)
-7. จากไซต์ Cloud Parnter คุณจะต้อง**เผยแพร่**ข้อเสนอของคุณอีกครั้งเพื่อให้มีการยืนยัน
+1. เมื่อคุณพร้อมที่จะเลื่อนระดับแอปของคุณไปยังการผลิตล่วงหน้าสำหรับการทดสอบภายนอกผู้เช่าของคุณเพิ่มเติม **ย้อนกลับไปที่บานหน้าต่างการจัดการวางจำหน่าย** **และเลือก เลื่อนแอป ถัดจากการทดสอบ**
 
-   >[!NOTE]
-   >เลื่อนระดับแอปของคุณไปเป็นขั้นตอนการผลิตเฉพาะหลังจากที่แอปของคุณจะได้รับอนุมัติโดยพอร์ทัล Cloud Partner และคุณเผยแพร่แล้วเท่านั้น
+   ขณะนี้คุณมีเวอร์ชันในการผลิตและเวอร์ชันในการผลิตล่วงหน้า
 
+   ![ปุ่มเลื่อนระดับทั้งสองเวอร์ชันของแอปแม่แบบจะเป็นสีเทา](media/service-template-apps-update-extract-delete/power-bi-template-app-update2.png)
+
+   ขณะนี้ลิงก์ของคุณได้ออนไลน์แล้ว **โปรดทราบว่าปุ่มเลื่อนระดับแอปในระยะก่อนการผลิตจะเป็นสีเทา** นี่คือเพื่อป้องกันการเขียนทับลิงก์การผลิตแบบสดไปยังเวอร์ชันแอปปัจจุบันโดยไม่ตั้งใจก่อนที่ Cloud Partner Portal จะตรวจสอบและอนุมัติเวอร์ชันแอปใหม่
+
+1. ส่งลิงก์ของคุณไปยังพอร์ทัล Cloud Partner (CPP) อีกครั้งโดยทำตามขั้นตอนที่ [การอัปเดตข้อเสนอของแอป Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer) จากพอร์ทัล Cloud Parnter คุณจะต้อง**เผยแพร่**ข้อเสนอของคุณอีกครั้ง และผ่านการตรวจสอบและอนุมัติแล้ว
+
+   เมื่อข้อเสนอของคุณได้รับอนุมัติแล้ว ปุ่มเลื่อนระดับแอปจะเปิดใช้งานอีกครั้ง 
+1. เลื่อนระดับแอปของคุณไปยังขั้นตอนการผลิต
+   
 ### <a name="update-behavior"></a>อัปเดตพฤติกรรม
 
 1. การอัปเดตแอปจะช่วยให้ผู้ติดตั้งแอปเทมเพลตสามารถ[อัปเดตแอปเทมเพลต](service-template-apps-install-distribute.md#update-a-template-app)ในพื้นที่ทำงานที่ติดตั้งไว้แล้วโดยที่การกำหนดค่าการเชื่อมต่อไม่หายไป
@@ -58,7 +64,7 @@ ms.locfileid: "73871379"
 
 1. ในบานหน้าต่างการจัดการแผยแพร่ กด **(...)** เพิ่มจากนั้น**แยก**
 
-    ![แยกเวอร์ชันแอปเทมเพล](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png) ![แยกเวอร์ชันแอปเทมเพลต](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
+    ![แยกเวอร์ชันแอปแม่แบบ](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png)![แยกเวอร์ชันแอปแม่แบบ](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
 2. ในกล่องโต้ตอบ ใส่ชื่อสำหรับพื้นที่ทำงานที่จะแยกออกมา พื้นที่ทำงานใหม่จะถูกเพิ่ม
 
 รีเซ็ตการกำหนดรุ่นของพื้นที่ทำงานใหม่ของคุณ คุณสามารถพัฒนาและกระจายแอปเทมเพลตจากพื้นที่ทำงานใหม่แยกออกมา
@@ -69,7 +75,7 @@ ms.locfileid: "73871379"
 
 1. ในบานหน้าต่างการจัดการเผยแพร่ กดเลือกจุดไข่ปลา **(...)** จากนั้น**ลบ**
  ![ลบเวอร์ชันแอปเทมเพลต](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
-  ![ลบเวอร์ชันแอปเทมเพลต](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
+ ![ลบเวอร์ชันแอปเทมเพลต](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
 
 >[!NOTE]
 >ต้องแน่ใจว่าจะไม่ลบเวอร์ชันแอปหรือ**AppSource**ที่ลูกค้ากำลังใช้งานอยู่หรือแอปเหล่านั้นไม่สามารถใช้งานได้อีกต่อไป

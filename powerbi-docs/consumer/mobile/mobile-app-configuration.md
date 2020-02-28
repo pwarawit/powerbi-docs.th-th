@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538278"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496747"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>กำหนดค่าแอป Power BI โดยใช้เครื่องมือจัดการอุปกรณ์เคลื่อนที่  MDM) จากระยะไกล
 
@@ -51,7 +51,7 @@ ms.locfileid: "76538278"
 | คีย์ | ชนิด | ค่า | คำอธิบาย |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | สตริง |  <nobr>แตะครั้งเดียว</nobr><br><nobr>แตะสองครั้ง</nobr> | กำหนดค่าว่าการแตะบนวิชวลจะเป็นการเลือกจุดข้อมูลด้วยหรือไม่ |
-| ccom.microsoft.powerbi.mobile.RefreshAction | สตริง |  <nobr>ดึงเพื่อรีเฟรช</nobr><br>ปุ่ม | กำหนดค่าว่าผู้ใช้จะมีปุ่มสำหรับรีเฟรชรายงานหรือควรใช้การดึงเพื่อรีเฟรช |
+| com.microsoft.powerbi.mobile.RefreshAction | สตริง |  <nobr>ดึงเพื่อรีเฟรช</nobr><br>ปุ่ม | กำหนดค่าว่าผู้ใช้จะมีปุ่มสำหรับรีเฟรชรายงานหรือควรใช้การดึงเพื่อรีเฟรช |
 | com.microsoft.powerbi.mobile.FooterAppearance | สตริง |  ชิด<br>ไดนามิก | กำหนดค่าว่าส่วนท้ายของรายงานจะเทียบชิดขอบด้านล่างของรายงานหรือซ่อนโดยอัตโนมัติ |
 
 ## <a name="deploying-app-configuration-settings"></a>การปรับใช้การตั้งค่าการกำหนดค่าแอป

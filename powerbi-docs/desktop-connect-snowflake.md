@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a62d1cf6d21df822265c3c41d4e74e74181b7051
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: e7534fd0da2039a2dafaf3ca80ee6957fa8d8754
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885186"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464312"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>เชื่อมต่อกับ Snowflake Computing Warehouse ใน Power BI Desktop
 ใน Power BI Desktop คุณสามารถเชื่อมต่อไปยัง **Snowflake** Computing Warehouse และใช้ข้อมูลพื้นฐานได้เช่นเดียวกับแหล่งข้อมูลอื่นๆ ใน Power BI Desktop 
@@ -27,13 +27,13 @@ ms.locfileid: "75885186"
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>เชื่อมต่อกับ Snowflake Computing Warehouse
 เมื่อต้องการเชื่อมต่อกับ **Snowflake** Computing Warehouse ให้เลือก**เรียกใช้ข้อมูล**จากแถบ**หน้าหลัก**ใน Power BI Desktop เลือก**ฐานข้อมูล**จากประเภททางด้านซ้าย จากนั้นคุณจะเห็น **Snowflake**
 
-![](media/desktop-connect-snowflake/connect_snowflake_2b.png)
+![](media/desktop-connect-snowflake/connect-snowflake-2b.png)
 
-ในหน้าต่าง **Snowflake** ที่ปรากฏขึ้น ให้พิมพ์หรือวางชื่อ Snowflake Computing Warehouse ลงในกล่อง แล้วเลือก**ตกลง** โปรดทราบว่าคุณสามารถเลือก**นำเข้า**ข้อมูลได้โดยตรงใน Power BI หรือจะใช้ **DirectQuery** ก็ได้ เรียนรู้เพิ่มเติมเกี่ยวกับ[การใช้ DirectQuery](desktop-use-directquery.md)
+ในหน้าต่าง **Snowflake** ที่ปรากฏขึ้น ให้พิมพ์หรือวางชื่อ Snowflake Computing Warehouse ลงในกล่อง แล้วเลือก**ตกลง** โปรดทราบว่าคุณสามารถเลือก**นำเข้า**ข้อมูลได้โดยตรงใน Power BI หรือจะใช้ **DirectQuery** ก็ได้ เรียนรู้เพิ่มเติมเกี่ยวกับ[การใช้ DirectQuery](desktop-use-directquery.md) โปรดทราบว่า AAD SSO สนับสนุนเฉพาะ DirectQuery เท่านั้น
 
-![](media/desktop-connect-snowflake/connect_snowflake_3.png)
+![](media/desktop-connect-snowflake/connect-snowflake-3.png)
 
-เมื่อได้รับพร้อมท์ ให้ใส่ชื่อผู้ใช้และรหัสผ่านของคุณ
+เมื่อได้รับการถาม ให้ใส่ชื่อผู้ใช้และรหัสผ่านของคุณ
 
 ![](media/desktop-connect-snowflake/connect-snowflake-4.png)
 
@@ -42,14 +42,14 @@ ms.locfileid: "75885186"
 > 
 > 
 
-หากคุณต้องการใช้บัญชี Microsoft โปรดให้ผู้ดูแลระบบ Snowflake เข้าถึง Snowflake ในการรวมตัวอย่างส่วนตัวสำหรับคุณลักษณะนี้
+ถ้าคุณต้องการใช้ตัวเลือกบัญชี Microsoft จะต้องมีการกำหนดค่าการรวม Snowflake AAD ในฝั่ง Snowflake เมื่อต้องการทำเช่นนี้ ให้อ่านส่วนเริ่มต้นใช้งานของ [เอกสารประกอบ Snowflake บนหัวข้อนั้น](https://docs.snowflake.net/manuals/user-guide/oauth-powerbi.html#power-bi-sso-to-snowflake)
 
 ![ชนิดการรับรองความถูกต้องของบัญชี Microsoft ในตัวเชื่อมต่อ Snowflake](media/desktop-connect-snowflake/connect-snowflake-6.png)
 
 
 เมื่อเชื่อมต่อเสร็จเรียบร้อยแล้ว หน้าต่าง**ตัวนำทาง**จะปรากฏขึ้น และแสดงข้อมูลที่พร้อมใช้งานบนเซิร์ฟเวอร์ ซึ่งคุณสามารถเลือกองค์ประกอบหนึ่งรายการหรือหลายรายการเพื่อนำเข้าและใช้ใน**Power BI Desktop** ได้
 
-![ODBC Error 28000 ทำให้เกิดความผิดพลาดในการเชื่อมต่อ](media/desktop-connect-snowflake/connect_snowflake_5.png)
+![ODBC Error 28000 ทำให้เกิดความผิดพลาดในการเชื่อมต่อ](media/desktop-connect-snowflake/connect-snowflake-5.png)
 
 คุณสามารถ**โหลด**ตารางที่เลือก ซึ่งจะนำทั้งตารางลงใน **Power BI Desktop** หรือคุณสามารถ**แก้ไข**คิวรี ซึ่งจะเปิด**ตัวแก้ไขคิวรี**เพื่อให้คุณสามารถกรองและปรับปรุงชุดข้อมูลที่ต้องการใช้ จากนั้นจึงโหลดชุดข้อมูลที่ปรับปรุงแล้วลงใน **Power BI Desktop**
 

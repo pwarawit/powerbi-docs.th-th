@@ -8,21 +8,25 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/16/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 2c8a8356fe20136d0325efe51934a7db3d4b113e
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77260128"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496902"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>แนวคิดพื้นฐานสำหรับลูกค้าที่ใช้บริการ Power BI
+
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 บทความนี้อนุมานว่าคุณได้อ่าน [ภาพรวม Power BI](../fundamentals/power-bi-overview.md) และได้ระบุว่าตัวเองเป็น[ลูกค้า**ของ _Power BI_** ](end-user-consumer.md) ลูกค้าได้รับเนื้อหา Power BI เช่น แดชบอร์ดและรายงานจากเพื่อนร่วมงาน ลูกค้าใช้บริการ Power BI ซึ่งเป็น Power BI เวอร์ชันที่ทำงานบนเว็บไซต์
+
+การรับเนื้อหาจากผู้อื่นจำเป็นต้องมีสิทธิการใช้งานสำหรับผู้ใช้ Power BI Pro หรือสิทธิการใช้งานสำหรับความจุ Power BI Premium [ค้นหาประเภทสิทธิการใช้งานของคุณ](end-user-license.md)
 
 คุณจะได้ยินคำว่า "Power BI Desktop" หรือแค่ "Desktop" เป็นเครื่องมือแบบสแตนด์อโลนใช้งานโดย*นักออกแบบ*ที่สร้างและแชร์แดชบอร์ดและรายงานกับคุณ สิ่งสำคัญคือต้องทราบว่ายังมีเครื่องมือ Power BI อื่นๆ อีก ตราบใดที่คุณเป็นผู้บริโภค คุณจะทำงานกับเฉพาะบริการ Power BI เท่านั้น บทความนี้นำไปใช้กับบริการ Power BI เท่านั้น
 
@@ -38,7 +42,7 @@ ms.locfileid: "77260128"
 
 ![สกรีนช็อตของหน้าจอยินดีต้อนรับสำหรับบริการ Power BI](media/end-user-basic-concepts/power-bi-home.png)
 
-เมื่อคุณใช้ Power BI คุณจะต้องปรับเปลี่ยนสิ่งที่คุณเห็นเมื่อเปิดเว็บไซต์ในแต่ละครั้ง ตัวอย่างเช่น บางคนชอบ Power BI เพื่อเปิดไปยัง**หน้าแรก**ในขณะที่คนอื่นมีแดชบอร์ดที่ชื่นชอบที่พวกเขาต้องการเห็นเป็นอันดับแรก ไม่ต้องกังวล บทความนี้จะสอนวิธีการปรับแต่งประสบการณ์การใช้งานของคุณ
+เมื่อคุณใช้ Power BI คุณจะต้องปรับเปลี่ยนสิ่งที่คุณเห็นเมื่อเปิดเว็บไซต์ในแต่ละครั้ง ตัวอย่างเช่น บางคนชอบ Power BI เพื่อเปิดไปยัง**หน้าแรก** ในขณะที่คนอื่นมีแดชบอร์ดที่ชื่นชอบที่พวกเขาต้องการเห็นเป็นอันดับแรก ไม่ต้องกังวล บทความนี้จะสอนวิธีการปรับแต่งประสบการณ์การใช้งานของคุณ
 
 - [ขอแนะนำหน้าแรกของ Power BI และการค้นหาในส่วนกลาง](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)
 
@@ -179,6 +183,9 @@ _______________________________________________________
 ## <a name="apps"></a>แอป
 
 คอลเลกชันเหล่านี้ของแดชบอร์ดและรายงานจัดระเบียบเนื้อหาที่เกี่ยวข้องเข้าด้วยกันเป็นแพคเกจเดียว *ผู้ออกแบบ* Power BI สร้างและแชร์ให้กับบุคคล กลุ่ม บริษัท ทั้งองค์กรหรือประชาชน ในฐานะลูกค้า คุณสามารถมั่นใจได้ว่าคุณและเพื่อนร่วมงานของคุณกำลังทำงานกับข้อมูลเดียวกัน เวอร์ชันของความจริงที่เชื่อถือได้เพียงเวอร์ชันเดียว
+
+> [!NOTE]
+> การใช้งานแอปจะต้องมีสิทธิการใช้งาน Power BI Pro หรือ Premium 
 
 ![สกรีนช็อตของแอปที่เลือกในบานหน้าต่างด้านซ้ายของ Power BI](media/end-user-basic-concepts/power-bi-apps.png)
 

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/03/2019
-ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/13/2020
+ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874122"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426667"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
 
@@ -89,15 +89,19 @@ ms.locfileid: "73874122"
 
 * วิชวล R
 * แผนที่ ArcGIS
-* การแสดงผลด้วยภาพแบบกำหนดเอง
+* วิชวลแบบกำหนดเอง
 * การนำทางแบบแสดงเส้นนำทาง
 * การกรองพรมแดนหรือบาร์โค้ด
+
+### <a name="custom-security"></a>การรักษาความปลอดภัยแบบกำหนดเอง
+
+Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI ไม่รองรับการรักษาความปลอดภัยแบบกำหนดเอง ถ้ามีการกำหนดค่าเซิร์ฟเวอร์รายงาน Power BI ของคุณด้วยส่วนขยายการรักษาความปลอดภัยแบบกำหนดเอง คุณจะไม่สามารถบันทึกรายงาน Power BI จาก Power BI Desktop (ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI) ไปยังอินสแตนซ์เซิร์ฟเวอร์รายงาน Power BI ได้ คุณจำเป็นต้องบันทึกไฟล์รายงานนามสกุล .pbix จาก Power BI Desktop และอัปโหลดไปยังไซต์พอร์ทัลเซิร์ฟเวอร์รายงาน Power BI
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop สำหรับเซิร์ฟเวอร์รายงาน Power BI เวอร์ชันก่อนหน้านี้
 
 ถ้าเซิร์ฟเวอร์รายงานของคุณเป็นเวอร์ชันก่อนหน้า คุณจำเป็นต้องมี Power BI Desktop เวอร์ชันที่สอดคล้องกัน นี่คือลิงก์สำหรับดาวน์โหลดเวอร์ชันก่อนหน้านี้
 
-- Microsoft Power BI Desktop ([ปรับให้เหมาะสมสำหรับ เซิร์ฟเวอร์รายงาน Power BI - มกราคม 2019](https://go.microsoft.com/fwlink/?linkid=2055039))
+- Microsoft Power BI Desktop ([ปรับให้เหมาะสมสำหรับ เซิร์ฟเวอร์รายงาน Power BI - กันยายน 2019](https://go.microsoft.com/fwlink/?linkid=2103723))
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
@@ -106,4 +110,4 @@ ms.locfileid: "73874122"
 [สร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน Power BI](quickstart-create-powerbi-report.md)  
 [เซิร์ฟเวอร์รายงาน Power BI คืออะไร](get-started.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0cf9d6acd4fe5f729dafb575a2ab736b9e8db7bb
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76039849"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427564"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 
@@ -89,8 +89,8 @@ ms.locfileid: "76039849"
 * Vertica
 * Snowflake
 * Essbase
-* AtScale cubes (เบต้า)
-* BI Connector
+* คิวบ์ AtScale
+* BI Connector Data Virtuality LDW (เบต้า)
 * Denodo
 * Dremio
 * Exasol
@@ -162,7 +162,6 @@ ms.locfileid: "76039849"
 * Adobe Analytics
 * appFigures (เบต้า)
 * Data.World - รับชุดข้อมูล (เบต้า)
-* Facebook
 * GitHub (เบต้า)
 * ผู้นำทางการขาย LinkedIn (เบต้า)
 * MailChimp (เบต้า)
@@ -182,6 +181,7 @@ ms.locfileid: "76039849"
 * Dynamics 365 Customer Insights (Beta)
 * แหล่งข้อมูล Emigo
 * Entersoft Business Suite (เบต้า)
+* การวิเคราะห์ FactSet (เบต้า)
 * Industrial App Store
 * คลังข้อมูล Intune (เบต้า)
 * การรักษาความปลอดภัยของ Microsoft Graph
@@ -210,7 +210,10 @@ ms.locfileid: "76039849"
 * ODBC
 * OLE DB
 * BI360 - การรายงานการจัดทำงบประมาณและการเงิน (เบต้า)
+* FHIR
 * เส้นตารางข้อมูล (เบต้า)
+* Jamf Pro (เบต้า)
+* MicroStrategy สำหรับ Power BI
 * Paxata
 * QubolePresto (เบต้า)
 * Roamler (เบต้า)
@@ -219,6 +222,7 @@ ms.locfileid: "76039849"
 * Tenforce (Smart)List (เบต้า)
 * Vena (เบต้า)
 * Workforce Dimensions (เบต้า)
+* Zucchetti HR Infinity (เบต้า)
 * คิวรีที่ว่างเปล่า
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**อื่น ๆ**

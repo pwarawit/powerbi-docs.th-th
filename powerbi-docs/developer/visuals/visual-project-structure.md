@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 58c226fd66c2551565f85ee75bd06469a46c4128
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925533"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427081"
 ---
 # <a name="power-bi-visual-project-structure"></a>โครงสร้างของโครงการแสดงผล Power BI
 
@@ -115,7 +115,7 @@ project
 ข้อคิดเห็นในคำบรรยายโค้ดต่อไปนี้จากไฟล์ `pbiviz.json`ที่อธิบายรายการเมตาดาต้า
 
 > [!NOTE]
-> * จากรุ่น 3.x.x ของ **เครื่องมือ** pbiciz`externalJS` ไม่ได้รับการสนับสนุน
+> * จากเวอร์ชัน 3.x.x ของเครื่องมือ **pbiviz** `externalJS` ไม่ได้รับการรองรับ
 > * การสนับสนุนตามท้องถิ่น [ให้เพิ่ม Power BI ที่ระบุวิชวลของคุณ](./localization.md)
 
 ```json

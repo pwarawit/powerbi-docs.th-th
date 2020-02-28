@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e6e66a4459abefbc66ec4e70b882cddc4771facf
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 96f78ff87dc4f955e134815e6237e4fb5a1ca1e7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565655"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426690"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>แชร์แดชบอร์ด Power BI และรายงานกับเพื่อนร่วมงานและคนอื่นๆ
 *แชร์*เป็นวิธีที่ดีเมื่อต้องให้บางคนสามารถเข้าถึงแดชบอร์ดและรายงานของคุณ Power BI ยังมี[หลายวิธีอื่นๆ เพื่อที่จะทำงานร่วมกันและเผยแพร่แดชบอร์ดและรายงาน](service-how-to-collaborate-distribute-dashboards-reports.md)
@@ -70,7 +70,7 @@ ms.locfileid: "74565655"
 ## <a name="see-who-has-access-to-a-dashboard-or-report"></a>ดูว่าใครสามารถเข้าถึงแดชบอร์ดหรือรายงานที่คุณแชร์ได้บ้าง
 ในบางครั้งคุณจำเป็นต้องดูบุคคลที่คุณได้แชร์ และดูว่าพวกเขาได้แชร์กับใครบ้าง
 
-1. ในรายการของแดชบอร์ดและรายงาน หรือในแดชบอร์ดหรือรายงานเอง ให้เลือก**แชร์** ![ไอคอนแชร์](media/service-share-dashboards/power-bi-share-icon.png) 
+1. ในรายการของแดชบอร์ดหรือรายงาน หรือในแดชบอร์ดหรือรายงานที่เปิด ให้เลือก**แชร์** ![ไอคอนแชร์](media/service-share-dashboards/power-bi-share-icon.png) 
 2. ในกล่องโต้ตอบ **แชร์แดชบอร์ด** หรือ **รายงาน** ให้เลือก **เข้าถึง**
    
     ![แชร์กล่องโต้ตอบแดชบอร์ด แท็บการเข้าถึง](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -90,6 +90,8 @@ ms.locfileid: "74565655"
 
 บุคคลภายนอกองค์กรของคุณไม่สามารถมองเห็นข้อมูลใดเลย ถ้าการรักษาความปลอดภัยระดับแถวหรือระดับบทบาทหรือระดับบทบาทถูกเปิดใช้ในแบบจำลองแบบตาราง Analysis Services ภายในองค์กร
 
+ใช้กลุ่มความปลอดภัย ไม่ใช่กลุ่มการแจกจ่ายเพื่อแชร์กับกลุ่มที่มีบุคคลที่มีที่อยู่อีเมลภายนอก บุคคลที่มีอีเมลภายนอกในกลุ่มการแจกจ่ายไม่สามารถดูเนื้อหาที่คุณแชร์ เว้นแต่ว่าพวกเขาจะเป็นผู้ใช้ประเภทผู้เยี่ยมชมแบบ B2B สำหรับ Azure Active Directory (Azure AD) เรียนรู้เพิ่มเติมเกี่ยวกับการ [ผู้ใช้ประเภทผู้เยี่ยมชมแบบ B2B สำหรับ Azure AD](service-admin-azure-ad-b2b.md)
+
 ถ้าคุณส่งลิงก์จากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ไปยังบุคคลภายนอกองค์กร การคลิกลิงก์จะเปิดในเบราว์เซอร์ ไม่ใช่แอปสำหรับอุปกรณ์เคลื่อนที่ Power BI
 
 ### <a name="allow-external-users-to-edit-content"></a>อนุญาตให้ผู้ใช้ภายนอกแก้ไขเนื้อหาได้
@@ -103,7 +105,7 @@ ms.locfileid: "74565655"
 * ยกเลิกการทำเครื่องหมาย**อนุญาตให้ผู้รับแชร์แดชบอร์ด (หรือรายงาน)** ที่ด้านล่างของคำเชิญก่อนที่จะส่ง
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>ถ้าคุณเคยแชร์แดชบอร์ดหรือรายงาน
-1. ในรายการของแดชบอร์ดและรายงาน หรือในแดชบอร์ดหรือรายงานเอง ให้เลือก**แชร์** ![ไอคอนแชร์](media/service-share-dashboards/power-bi-share-icon.png) 
+1. ในรายการของแดชบอร์ดหรือรายงาน หรือในแดชบอร์ดหรือรายงานที่เปิด ให้เลือก**แชร์** ![ไอคอนแชร์](media/service-share-dashboards/power-bi-share-icon.png) 
 2. ในกล่องโต้ตอบ **แชร์แดชบอร์ด** หรือ **รายงาน** ให้เลือก **เข้าถึง**
    
     ![แชร์กล่องโต้ตอบแดชบอร์ด แท็บการเข้าถึง](media/service-share-dashboards/power-bi-share-dialog-access.png)

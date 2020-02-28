@@ -6,20 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dcfc695d0371cce21a827ddfe71b3b4b05863935
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 882cddf7728a27e78056a35c14fde20f00678e33
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762427"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527713"
 ---
 # <a name="use-the-facebook-connector-for-power-bi-desktop"></a>ใช้ตัวเชื่อมต่อ Facebook สำหรับ Power BI Desktop
 ตัวเชื่อมต่อ Facebook ใน**Power BI Desktop**อาศัย Facebook Graph API ด้วยเหตุนี้ คุณลักษณะและความพร้อมใช้งานอาจแตกต่างกันเมื่อเวลาผ่านไป
 
 คุณสามารถดู[บทช่วยสอนเกี่ยวกับตัวเชื่อมต่อ Facebook สำหรับ Power BI Desktop](desktop-tutorial-facebook-analytics.md)ได้
+
+> [!IMPORTANT]
+> **การยกเลิกการสนับสนุนของประกาศตัวเชื่อมต่อข้อมูล Facebook:** การนำเข้าและรีเฟรชข้อมูลจาก Facebook ใน Excel จะไม่สามารถทำงานได้อย่างถูกต้องอีกต่อไปโดยเริ่มในเดือนเมษายน 2020 คุณสามารถใช้ตัวเชื่อมต่อ *Get & Transform (Power Query)* ของ Facebook ได้จนกว่าจะถึงเวลานั้น หลังจากวันที่ดังกล่าว คุณจะไม่สามารถเชื่อมต่อกับ Facebook และจะได้รับข้อความข้อผิดพลาด เราขอแนะนำให้คุณปรับเปลี่ยนหรือลบคิวรี *Get & Transform (Power Query)* ที่มีอยู่ ที่ใช้ตัวเชื่อมต่อ Facebook โดยเร็วที่สุดเพื่อหลีกเลี่ยงผลลัพธ์ที่ไม่คาดคิด
+
 
 Facebook v1.0 ของ Graph API หมดอายุเมื่อวันที่ 30 เมษายน 2015 Power BI ใช้ API Graph เบื้องหลังสำหรับตัวเชื่อมต่อ Facebook ช่วยให้คุณสามารถเชื่อมต่อและวิเคราะห์ข้อมูลของคุณได้
 

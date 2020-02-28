@@ -1,31 +1,31 @@
 ---
-title: 'บทช่วยสอน: ใช้การวิเคราะห์ใน Excel'
-description: ในบทช่วยสอนนี้คุณจะใช้หน้าชุดข้อมูล Power BI เพื่อนำเข้าชุดข้อมูลลงใน Excel
+title: 'บทช่วยสอน: ใช้ Power BI Analyze ใน Excel โดยเริ่มต้นใน Excel'
+description: ในบทช่วยสอนนี้ คุณจะเริ่มต้นใน Excel และเชื่อมต่อกับหน้าชุดข้อมูล Power BI เพื่อนำเข้าชุดข้อมูลไปยัง Excel
 author: tejaskulkarni
 ms.reviewer: davidiseminger
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 01/27/2020
+ms.date: 02/13/2020
 ms.author: tekulkar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a68adccec019e64e554d199d23d7dddd782f56a2
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: d3795c34e477c593af4afefbe5cc01040026bfa4
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76921496"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426552"
 ---
-# <a name="tutorial-use-analyze-in-excel"></a>บทช่วยสอน: ใช้การวิเคราะห์ใน Excel
+# <a name="tutorial-use-power-bi-analyze-in-excel-starting-in-excel"></a>บทช่วยสอน: ใช้ Power BI Analyze ใน Excel โดยเริ่มต้นใน Excel
 
-องค์กรของคุณใช้ประโยชน์จาก Power BI เพื่อแชร์การเข้าถึงข้อมูล ใช้คุณลักษณะวิเคราะห์ใน Excel เพื่อสร้าง PivotTable และ Pivotchart เพื่อนำบริบทเพิ่มเติมไปยังการวิเคราะห์ของคุณหรือเพื่อลดเวลาที่ใช้ในการค้นหาและนำเข้าชุดข้อมูลที่เกี่ยวข้อง
+องค์กรของคุณใช้ประโยชน์จาก Power BI เพื่อแชร์การเข้าถึงข้อมูล คุณเริ่มคุณลักษณะ Power BI Analyze ใน Excel จาก Excel เพื่อสร้าง PivotTables และ PivotCharts ใน Excel คุณลักษณะดังกล่าวสามารถนำบริบทเพิ่มเติมมาสู่การวิเคราะห์ของคุณหรือลดเวลาในการค้นหาและนำเข้าชุดข้อมูลที่เกี่ยวข้อง
 
-หากต้องการเริ่มต้นเลือกชุดข้อมูล เลือก 'การวิเคราะห์ใน Excel' คุณจะได้รับคำแนะนำในการสร้าง PivotTable ที่ใช้ข้อมูล  
+หากต้องการเริ่มต้นใช้งานชุดข้อมูล Power BI ใน Excel เลือก "Analyze ใน Excel" คุณได้รับคำแนะนำให้สร้าง PivotTable ที่ใช้ข้อมูล  
 
 คุณสามารถค้นหาชุดข้อมูลเพิ่มเติมที่องค์กรของคุณแชร์ได้โดยการกลับไปยังหน้าชุดข้อมูล
 
-ถ้าคุณพบปัญหาที่จุดใดก็ตาม ให้เลือก ไม่ ในขั้นตอนที่เหมาะสมในโฟลว์ด้านล่างและให้คำติชมในแบบฟอร์มที่เชื่อมโยงอยู่  
+ถ้าคุณพบปัญหาที่จุดใดก็ตาม ให้เลือก **ไม่** ในขั้นตอนที่เหมาะสมในโฟลว์ด้านล่างและให้คำติชมในแบบฟอร์มที่เชื่อมโยงอยู่  
 
 ในบทช่วยสอนนี้ คุณจะเรียนรู้วิธีการ:
 

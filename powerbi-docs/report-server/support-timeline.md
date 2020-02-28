@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/03/2020
-ms.openlocfilehash: 204e1cdb83c02582e6181cf6addcbfdf8355054d
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 3546254c8bff56ac4caefbdd0b5f8df901256a59
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691452"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527579"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>การสนับสนุนเบราว์เซอร์สำหรับ Power BI Report Server
 
@@ -34,9 +34,10 @@ Power BI Report Server เผยแพร่เพียงไม่กี่ค
 | ตุลาคม 2017 |31 ตุลาคม 2017 | ไม่สนับสนุนอีกต่อไป |
 | มีนาคม 2018 | 19 มีนาคม 2018 | ไม่สนับสนุนอีกต่อไป |
 | สิงหาคม 2018 | 15 สิงหาคม 2018 | ไม่สนับสนุนอีกต่อไป |
-| มกราคม 2019 | 23 มกราคม 2019 | 23 มกราคม 2020 |
+| มกราคม 2019 | 23 มกราคม 2019 | ไม่สนับสนุนอีกต่อไป |
 | พฤษภาคม 2019 | 22 พฤษภาคม 2019 | 22 พฤษภาคม 2020 |
 | กันยายน 2019 | กันยายน 2019 | กันยายน 2020 
+| มกราคม 2020 | มกราคม 2020 | มกราคม 2021
 
 เมื่อต้องการดาวน์โหลด Power BI Report Server และ Power BI Desktop ซึ่งปรับให้เหมาะสมที่สุดกับ Power BI Report Server ไปที่ [การรายงานภายในองค์กรกับ Power BI Report Server](https://powerbi.microsoft.com/report-server/)
 

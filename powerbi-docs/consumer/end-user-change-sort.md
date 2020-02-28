@@ -6,21 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 76370e2b633e21674ba878e70b5ecfc333453c96
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76889224"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496475"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>เปลี่ยนวิธีการเรียงลำดับแผนภูมิในรายงาน Power BI
 
-
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 
 > [!IMPORTANT]
@@ -32,7 +30,7 @@ ms.locfileid: "76889224"
 
 ## <a name="get-started"></a>เริ่มใช้งาน
 
-หากต้องการเริ่มต้นใช้งาน ให้เลือกวิชวลรายงานใดก็ได้และเลือก **การดำเนินการเพิ่มเติม** (...)  มีตัวเลือกสำหรับการเรียงลำดับสามตัวเลือก: **เรียงลำดับจากมากไปหาน้อย** **เรียงลำดับจากน้อยไปหามาก** และ **เรียงลำดับตาม** 
+เมื่อต้องการเริ่มต้นใช้งาน ให้เปิดรายงานใดก็ตามที่ได้แชร์กับคุณ เลือกวิชวล (ที่สามารถเรียงลำดับได้) และเลือก **การดำเนินการเพิ่มเติม** (...)  มีตัวเลือกสำหรับการเรียงลำดับสามตัวเลือก: **เรียงลำดับจากมากไปหาน้อย** **เรียงลำดับจากน้อยไปหามาก** และ **เรียงลำดับตาม** 
     
 
 ![แผนภูมิแท่ง alpha ที่เรียงลำดับตามแกน X](media/end-user-change-sort/power-bi-more-actions.png)
@@ -70,9 +68,9 @@ ms.locfileid: "76889224"
 
 เฉพาะผู้ที่ออกแบบรายงานเท่านั้นที่สามารถทำการเปลี่ยนแปลงเหล่านี้ให้คุณได้ คุณสามารถค้นหาข้อมูลการติดต่อสำหรับ*ผู้ออกแบบ*ได้โดยการเลือกชื่อรายงานจากแถบส่วนหัว
 
-ถ้าคุณเป็น*ผู้ออกแบบ* และมีสิทธิ์ในการแก้ไขเนื้อหา ให้อ่าน [เรียงลำดับตามคอลัมน์ใน Power BI Desktop](../desktop-sort-by-column.md) เพื่อเรียนรู้วิธีการอัปเดตชุดข้อมูลและเปิดใช้งานการเรียงลำดับชนิดนี้
-
 ![เมนูดรอปดาวน์ที่แสดงข้อมูลการติดต่อ](media/end-user-change-sort/power-bi-contact.png)
+
+ถ้าคุณเป็น*ผู้ออกแบบ* และมีสิทธิ์ในการแก้ไขเนื้อหา ให้อ่าน [เรียงลำดับตามคอลัมน์ใน Power BI Desktop](../desktop-sort-by-column.md) เพื่อเรียนรู้วิธีการอัปเดตชุดข้อมูลและเปิดใช้งานการเรียงลำดับชนิดนี้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 อ่านเพิ่มเติมเกี่ยวกับ[การแสดงภาพในรายงาน Power BI](end-user-visualizations.md)

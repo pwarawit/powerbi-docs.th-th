@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: d8432ae10afab6cbf12c017a8f315fd55825212d
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889293"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427242"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>ใช้ DirectQuery ใน Power BI Desktop
 ด้วย *Power BI Desktop* เมื่อคุณเชื่อมต่อกับแหล่งข้อมูลของคุณ คุณสามารถนำเข้าสำเนาของข้อมูลลงใน Power BI Desktop ได้ สำหรับบางแหล่งข้อมูล คุณสามารถเลือกวิธีการอื่นได้: เชื่อมต่อโดยตรงกับแหล่งข้อมูลโดยใช้ DirectQuery
@@ -46,8 +46,6 @@ ms.locfileid: "76889293"
 
 ## <a name="limitations-of-directquery"></a>ขีดจำกัดของ DirectQuery
 ปัจจุบัน มีข้อจำกัดบางประการในการใช้ DirectQuery ดังนี้:
-
-- ตารางทั้งหมดต้องมาจากฐานข้อมูลเดียว เว้นแต่ว่าใช้ [โมเดลแบบรวม](desktop-composite-models.md)
 
 - ถ้าคิวรีของ**ตัวแก้ไขคิวรี**ซับซ้อนเกินไป จะเกิดข้อผิดพลาด เมื่อต้องแก้ไขข้อผิดพลาด คุณต้องลบในขั้นตอนที่มีปัญหาใน**ตัวแก้ไขคิวรี**หรือ*นำเข้า*ข้อมูลแทนที่จะใช้ DirectQuery สำหรับแหล่งข้อมูลหลายมิติ เช่น SAP Business Warehouse ไม่มี**ตัวแก้ไขคิวรี**
 
@@ -94,7 +92,7 @@ ms.locfileid: "76889293"
 
 4. เพิ่มข้อมูลประจำตัว มิฉะนั้น ข้อผิดพลาดจะเกิดขึ้นเมื่อคุณเปิดรายงานที่เผยแพร่หรือสำรวจชุดข้อมูลที่สร้างขึ้นด้วยการเชื่อมต่อ DirectQuery
 
-เมื่อต้องการทำการเชื่อมต่อข้อมูลสำหรับแหล่งข้อมูลอื่นที่ไม่ใช่ **Azure SQL Database**, **Azure SQL Data Warehouse** และ **Redshift** ที่ใช้ DirectQuery ต้องติดตั้ง**เกตเวย์ข้อมูลภายในองค์กร**และต้องลงทะเบียนแหล่งข้อมูล สำหรับข้อมูลเพิ่มเติม ดูที่ [เกตเวย์ข้อมูลภายในองค์กรคืออะไร](service-gateway-onprem.md)
+เมื่อต้องการทำการเชื่อมต่อข้อมูลสำหรับแหล่งข้อมูลอื่นที่ไม่ใช่ **Azure SQL Database**, **Azure SQL Data Warehouse** และ **Redshift** หรือ **Snowflake Data Warehouse** ที่ใช้ DirectQuery คุณต้องติดตั้ง**เกตเวย์ข้อมูลภายในองค์กร**และต้องลงทะเบียนแหล่งข้อมูล สำหรับข้อมูลเพิ่มเติม ดูที่ [เกตเวย์ข้อมูลภายในองค์กรคืออะไร](service-gateway-onprem.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ DirectQuery โปรดดูที่ทรัพยากรดังต่อไปนี้:

@@ -3,21 +3,22 @@ title: แอป Power BI คืออะไร?
 description: ใน Power BI แอปรวมรายงานและแดชบอร์ดที่เกี่ยวข้องเข้าด้วยกัน ทั้งหมดในที่เดียว
 author: mihart
 ms.reviewer: lukaszp
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 784c0ed368a12951220ccf719c70ac7d8d3db040
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851017"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496707"
 ---
 # <a name="apps-in-power-bi"></a>แอปใน Power BI
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -29,9 +30,9 @@ ms.locfileid: "73851017"
 ![แอปใน Power BI](./media/end-user-apps/power-bi-apps.png)
 
 > [!NOTE]
-> การใช้ฟีเจอร์แอปจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro <!-- add link to how to figure out your license -->
+> การใช้ฟีเจอร์แอปจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro [ค้นหาประเภทสิทธิการใช้งานของคุณ](end-user-license.md)
 
-## <a name="app-designers-and-app-consumers"></a>***นักออกแบบ***แอป และ***ผู้บริโภค***แอป
+## <a name="app-designers-and-app-consumers"></a>*นักออกแบบ*แอป และ*ผู้บริโภค*แอป
 คุณอาจเป็นผู้ที่สร้างแอป (*นักออกแบบ*) เพื่อใช้งานด้วยตนเอง หรือเพื่อแชร์กับเพื่อนร่วมงาน ทั้งนี้ขึ้นอยู่กับบทบาทของคุณ หรือคุณอาจเป็นคนที่รับและดาวน์โหลดแอป (*ผู้บริโภค*) ที่สร้างโดยผู้อื่น บทความนี้เหมาะสำหรับ*ลูกค้า*ของคุณ!
 
 ## <a name="advantages-of-apps"></a>ข้อดีของแอป

@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d56e329d5331403c0ed0ce4da28bf73aea65d9a6
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819594"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427886"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>ดูแล Power BI ในพอร์ทัลผู้ดูแลระบบ
 
@@ -233,14 +233,14 @@ ms.locfileid: "76819594"
 
 ### <a name="export-data"></a>ส่งออกข้อมูล
 
-ผู้ใช้ในองค์กรสามารถส่งออกข้อมูลจากไทล์หรือการแสดงวิชวล [ศึกษาเพิ่มเติม](visuals/power-bi-visualization-export-data.md)
+ผู้ใช้ในองค์กรสามารถส่งออกข้อมูลจากไทล์หรือการแสดงวิชวล เรียนรู้เพิ่มเติมเกี่ยวกับการ [การส่งออกข้อมูลจากไทล์หรือวิชวล](visuals/power-bi-visualization-export-data.md)
 
 รูปต่อไปนี้แสดงให้เห็นตัวเลือกในการส่งข้อมูลออกจากไทล์
 
 ![ส่งข้อมูลออกจากไทล์](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
-> ปิดใช้งาน**ส่งออกข้อมูล**ยัง ช่วยป้องกันผู้ใช้จากการใช้ฟีเจอร์การ**วิเคราะห์ใน Excel**ตลอดจนการใช้เชื่อมต่อสดของบริการ Power BI ฃ
+> ปิดใช้งาน**ส่งออกข้อมูล**ยัง ช่วยป้องกันผู้ใช้จากการใช้ฟีเจอร์การ[วิเคราะห์ใน Excel](service-analyze-in-excel.md)ตลอดจนการใช้เชื่อมต่อสดของบริการ Power BI ฃ
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>ส่งออกรายงานในรูปแบบงานนำเสนอ PowerPoint หรือเอกสาร PDF
 

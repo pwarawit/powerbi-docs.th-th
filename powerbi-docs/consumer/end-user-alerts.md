@@ -7,17 +7,19 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 10/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f7ebc459379dbf292603a605db8d3f9c7162e92f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851283"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496518"
 ---
-# <a name="tutorial-set-dashboard-alerts-on-power-bi-dashboards"></a>บทช่วยสอน: ตั้งค่าการแจ้งเตือนของแดชบอร์ดบนแดชบอร์ด Power BI
+# <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>บทช่วยสอน: ตั้งค่าการแจ้งเตือนบนแดชบอร์ด Power BI
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -112,9 +114,10 @@ ms.locfileid: "73851283"
 * สามารถตั้งค่าการแจ้งเตือนได้เฉพาะบนตัววัด KPI และการ์ดเท่านั้น
 * ถ้าคุณไม่สามารถตั้งค่าการแจ้งเตือนสำหรับตัววัด KPI หรือการ์ดได้ ให้ติดต่อผู้ดูแลระบบของคุณเพื่อขอความช่วยเหลือ บางครั้งการแจ้งเตือนจะถูกปิดหรือไม่พร้อมใช้งานสำหรับแดชบอร์ดของคุณหรือสำหรับไทล์แดชบอร์ดบางชนิด
 * ข้อความแจ้งเตือนทำงานกับข้อมูลที่ได้รับการรีเฟรชเท่านั้น การแจ้งเตือนจะไม่ทำงานกับข้อมูลแบบคงที่ ส่วนใหญ่ของตัวอย่างที่ Microsoft กำหนดเป็นค่าคงที่ 
+* *ผู้บริโภค* อย่าสร้างแดชบอร์ดของตัวเอง *ผู้ออกแบบ* สร้างแดชบอร์ดและแชร์กับผู้บริโภค ความสามารถในการรับและดูเนื้อหาที่แชร์ต้องใช้สิทธิการใช้งาน Power BI Pro หรือ Premium สำหรับข้อมูลเพิ่มเติม ให้อ่าน [ฉันมีสิทธิการใช้งานใดอยู่บ้าง](end-user-license.md) 
 
 
-## <a name="clean-up-resources"></a>เพิ่มพื้นที่ทรัพยากร
+## <a name="clean-up-resources"></a>ล้างแหล่งข้อมูล
 คำแนะนำสำหรับการลบการแจ้งเตือนจะอธิบายไว้ข้างต้น โดยย่อคือเลือกไอคอนรูปเฟืองจากแถบเมนู Power BI ภายใต้**การตั้งค่า**เลือก**แจ้งเตือน**และลบการแจ้งเตือน
 
 > [!div class="nextstepaction"]

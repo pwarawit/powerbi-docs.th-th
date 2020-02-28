@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: e65dd42e8ec787d0c6edba534f79cdb06e5ba14c
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889247"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527303"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>โยกย้ายรายงานบริการรายงานเซิร์ฟเวอร์ SQL ไปยัง Power BI
 
@@ -41,16 +41,16 @@ ms.locfileid: "76889247"
 
 ### <a name="supported-versions"></a>เวอร์ชันที่รองรับ
 
-คุณสามารถโยกย้ายอินสแตนซ์ SSRS ที่ทำงานภายในองค์กร หรือบนเครื่องเสมือนที่โฮสต์โดยผู้ให้บริการบนระบบคลาวด์ เช่น Azure ได้ 
+คุณสามารถโยกย้ายอินสแตนซ์ SSRS ที่ทำงานภายในองค์กร หรือบนเครื่องเสมือนที่โฮสต์โดยผู้ให้บริการบนระบบคลาวด์ เช่น Azure ได้
 
 รายการต่อไปนี้อธิบายถึงเวอร์ชันของ SQL Server ที่รองรับสำหรับการโยกย้ายไปยัง Power BI:
 
 > [!div class="checklist"]
-> * SQL Server 2012
-> * SQL Server 2014
-> * SQL Server 2016
-> * SQL Server 2017
-> * SQL Server 2019
+> - SQL Server 2012
+> - SQL Server 2014
+> - SQL Server 2016
+> - SQL Server 2017
+> - SQL Server 2019
 
 การโยกย้ายจากเซิร์ฟเวอร์รายงาน Power BI สามารถทำได้เช่นกัน
 
@@ -60,11 +60,11 @@ ms.locfileid: "76889247"
 
 เครื่องมือนี้จะทำงานต่อไปนี้โดยอัตโนมัติ:
 
-* ตรวจสอบ [แหล่งข้อมูลที่ไม่สนับสนุน](../paginated-reports-data-sources.md) และ [คุณลักษณะรายงานที่ไม่สนับสนุน](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)
-* แปลงทรัพยากร _ที่ใช้ร่วมกัน_ เป็น _ทรัพยากร_ แบบฝังตัว:
-  * **แหล่งข้อมูล** ที่ใช้ร่วมกันกลายเป็นแหล่งข้อมูลแบบฝังตัว
-  * **ชุดข้อมูล** ที่ใช้ร่วมกันกลายเป็นชุดข้อมูลแบบฝังตัว
-* เผยแพร่รายงาน (ที่ผ่านการตรวจสอบ) ในรูปแบบรายงานที่มีการแบ่งหน้า ไปยังพื้นที่ทำงาน Power BI ที่ระบุ (บนความจุ Premium)
+- ตรวจสอบ [แหล่งข้อมูลที่ไม่สนับสนุน](../paginated-reports-data-sources.md) และ [คุณลักษณะรายงานที่ไม่สนับสนุน](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)
+- แปลงทรัพยากร _ที่ใช้ร่วมกัน_ เป็น _ทรัพยากร_ แบบฝังตัว:
+  - **แหล่งข้อมูล** ที่ใช้ร่วมกันกลายเป็นแหล่งข้อมูลแบบฝังตัว
+  - **ชุดข้อมูล** ที่ใช้ร่วมกันกลายเป็นชุดข้อมูลแบบฝังตัว
+- เผยแพร่รายงาน (ที่ผ่านการตรวจสอบ) ในรูปแบบรายงานที่มีการแบ่งหน้า ไปยังพื้นที่ทำงาน Power BI ที่ระบุ (บนความจุ Premium)
 
 ไม่มีการปรับเปลี่ยนหรือลบรายงานที่มีอยู่ของคุณ เมื่อเสร็จสิ้น เครื่องมือจะแสดงบทสรุปของการดำเนินการทั้งหมดที่เสร็จสิ้นว่า สำเร็จหรือไม่สำเร็จ
 
@@ -92,13 +92,13 @@ ms.locfileid: "76889247"
 
 อย่างไรก็ตาม ประเภทหน่วยข้อมูล SSRS ต่อไปนี้ ไม่สามารถโยกย้ายไปยัง Power BI ได้:
 
-* แหล่งข้อมูลที่ใช้ร่วมกัน <sup>1</sup>
-* ชุดข้อมูลที่ใช้ร่วมกัน <sup>1</sup>
-* ทรัพยากรต่าง ๆ เช่น ไฟล์รูปภาพ
-* KPI (SSRS 2016 หรือใหม่กว่า— เฉพาะรุ่นสำหรับองค์กรเท่านั้น)
-* รายงานบนมือถือ (SSRS 2016 หรือใหม่กว่า— เฉพาะรุ่นสำหรับองค์กรเท่านั้น)
-* แบบจำลองรายงาน (ไม่สนับสนุน)
-* ส่วนของรายงาน (ไม่สนับสนุน)
+- แหล่งข้อมูลที่ใช้ร่วมกัน <sup>1</sup>
+- ชุดข้อมูลที่ใช้ร่วมกัน <sup>1</sup>
+- ทรัพยากรต่าง ๆ เช่น ไฟล์รูปภาพ
+- KPI (SSRS 2016 หรือใหม่กว่า— เฉพาะรุ่นสำหรับองค์กรเท่านั้น)
+- รายงานบนมือถือ (SSRS 2016 หรือใหม่กว่า— เฉพาะรุ่นสำหรับองค์กรเท่านั้น)
+- แบบจำลองรายงาน (ไม่สนับสนุน)
+- ส่วนของรายงาน (ไม่สนับสนุน)
 
 <sup>1</sup> [เครื่องมือการถ่ายโอน RDL](https://github.com/microsoft/RdlMigration) แปลงแหล่งข้อมูลและชุดข้อมูลที่ใช้ร่วมกันโดยอัตโนมัติ ในกรณีที่ใช้แหล่งข้อมูลที่ได้รับการสนับสนุน
 
@@ -120,6 +120,7 @@ ms.locfileid: "76889247"
 1. ใช้ [Power BI Desktop](../desktop-what-is-desktop.md) เพื่อพัฒนารายงานที่ปรับให้เหมาะสมสำหรับอุปกรณ์เคลื่อนที่ ซึ่งอาจใช้ [วิชวลแบบกำหนดเอง Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) แทน KPI และรายงานบนมือถือ SSRS ของคุณ
 1. ประเมินการใช้เขตข้อมูลที่มีอยู่ภายใน **UserID** ในรายงานของคุณอีกครั้ง ถ้าคุณอาศัย **UserID** ในการรักษาความปลอดภัยข้อมูลรายงาน โปรดทำความเข้าใจว่าสำหรับรายงานที่มีการแบ่งหน้า (เมื่อโฮสต์ในบริการของ Power BI) จะส่งชื่อผู้ใช้หลัก (UPN) กลับมา ดังนั้น แทนที่จะส่งกลับชื่อบัญชี NT ตัวอย่างเช่น _AW\mblythe_ เขตข้อมูลที่มีอยู่ภายในจะส่งบางอย่างกลับมา เช่น _m blythe&commat;adventureworks.com_ คุณจำเป็นจะต้องทบทวนข้อกำหนดชุดข้อมูลของคุณและอาจรวมถึงแหล่งข้อมูล เมื่อได้รับการทบทวนและเผยแพร่แล้ว เราขอแนะนำให้คุณทดสอบรายงานของคุณอย่างละเอียดเพื่อให้แน่ใจว่าสิทธิ์ของข้อมูลทำงานตามที่คาดไว้
 1. ประเมินการใช้เขตข้อมูลที่มีอยู่ภายใน **ExecutionTime** ในรายงานของคุณอีกครั้ง สำหรับรายงานที่มีการแบ่งหน้า (เมื่อโฮสต์ในบริการของ Power BI) เขตข้อมูลที่มีอยู่ภายในจะส่งกลับวันที่/เวลา _ในรูปแบบเวลามาตรฐานสากล (หรือ UTC)_ ซึ่งอาจส่งผลกระทบต่อค่าเริ่มต้นของพารามิเตอร์รายงานและป้ายชื่อเวลาการดำเนินการรายงาน (โดยทั่วไปแล้วจะถูกเพิ่มไปยังส่วนท้ายของรายงาน)
+1. ถ้าแหล่งข้อมูลของคุณเป็น SQL Server (ภายในองค์กร) ให้ตรวจสอบว่ารายงานไม่ได้ใช้การแสดงข้อมูลด้วยภาพแบบแผนที่ การแสดงข้อมูลด้วยภาพแบบแผนที่จะขึ้นอยู่กับชนิดข้อมูลเชิงพื้นที่ของ SQL Server และเกตเวย์เหล่านี้ไม่ได้รับการสนับสนุน สำหรับข้อมูลเพิ่มเติม โปรดดู [คำแนะนำการเรียกข้อมูลสำหรับรายงานที่มีการแบ่งหน้า (ชนิดข้อมูลที่ซับซ้อนของ SQL Server)](report-paginated-data-retrieval.md#sql-server-complex-data-types)
 1. ตรวจสอบให้แน่ใจว่าผู้เขียนรายงานของคุณได้ติดตั้ง [ตัวสร้างรายงาน Power BI](../report-builder-power-bi.md) และสามารถกระจายรุ่นใหม่ได้อย่างง่ายดายทั่วทั้งองค์กรของคุณ
 
 ## <a name="migration-stage"></a>ระยะโยกย้าย
@@ -146,8 +147,8 @@ ms.locfileid: "76889247"
 
 การโยกย้ายแบบอัตโนมัติมีสองตัวเลือก คุณสามารถใช้:
 
-* เครื่องมือการโยกย้าย RDL
-* API ที่พร้อมใช้งานสาธารณะสำหรับ SSRS และ Power BI
+- เครื่องมือการโยกย้าย RDL
+- API ที่พร้อมใช้งานสาธารณะสำหรับ SSRS และ Power BI
 
 [เครื่องมือการโยกย้าย RDL](#migration-tool) ถูกอธิบายไว้แล้วในบทความนี้
 
@@ -155,8 +156,8 @@ ms.locfileid: "76889247"
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ API ดูที่:
 
-* [การอ้างอิง Power BI REST API](../developer/rest-api-reference.md)
-* [SQL Server Reporting Services REST API](/sql/reporting-services/developer/rest-api)
+- [การอ้างอิง Power BI REST API](../developer/rest-api-reference.md)
+- [SQL Server Reporting Services REST API](/sql/reporting-services/developer/rest-api)
 
 ## <a name="post-migration-stage"></a>ขั้นหลังโยกย้าย
 
@@ -182,20 +183,21 @@ ms.locfileid: "76889247"
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับปัญหาเหล่านี้ รวมถึงขั้นตอนที่ระบุเพื่อทำความเข้าใจและโยกย้ายปัญหา โปรดดูที่บทความต่อไปนี้:
 
-* [การปรับความจุแบบพรีเมียมให้เหมาะสม](../service-premium-capacity-optimize.md)
-* [ตรวจสอบความจุแบบพรีเมียมภายในแอป](../service-admin-premium-monitor-capacity.md)
+- [การปรับความจุแบบพรีเมียมให้เหมาะสม](../service-premium-capacity-optimize.md)
+- [ตรวจสอบความจุแบบพรีเมียมภายในแอป](../service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
-* [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](../paginated-reports-report-builder-power-bi.md)
-* วิดีโอ Guy in a cube: [การแนะนำรายงานที่มีการแบ่งหน้าใน Power BI](https://www.youtube.com/watch?v=wfqn45XNK3M)
-* [เมื่อใช้รายงานที่มีการแบ่งหน้าใน Power BI](report-paginated-or-power-bi.md)
-* [รายงานที่มีการแบ่งหน้าใน Power BI: คำถามที่พบบ่อย](../paginated-reports-faq.md)
-* [Power BI Premium คำถามที่พบบ่อย](../service-premium-faq.md)
-* [เครื่องมือการโยกย้าย RDL](https://github.com/microsoft/RdlMigration)
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-* มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com)
+- [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](../paginated-reports-report-builder-power-bi.md)
+- [คำแนะนำการเรียกข้อมูลสำหรับรายงานที่มีการแบ่งหน้า](report-paginated-data-retrieval.md)
+- วิดีโอ Guy in a cube: [การแนะนำรายงานที่มีการแบ่งหน้าใน Power BI](https://www.youtube.com/watch?v=wfqn45XNK3M)
+- [เมื่อใช้รายงานที่มีการแบ่งหน้าใน Power BI](report-paginated-or-power-bi.md)
+- [รายงานที่มีการแบ่งหน้าใน Power BI: คำถามที่พบบ่อย](../paginated-reports-faq.md)
+- [Power BI Premium คำถามที่พบบ่อย](../service-premium-faq.md)
+- [เครื่องมือการโยกย้าย RDL](https://github.com/microsoft/RdlMigration)
+- มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+- มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com/)
 
 พันธมิตรของ Power BI พร้อมช่วยให้องค์กรของคุณประสบความสำเร็จในกระบวนการโยกย้าย หากต้องการตรวจสอบรายชื่อของพันธมิตรของ Power BI ไปที่[พอร์ทัลของพันธมิตรของ Power BI](https://powerbi.microsoft.com/partners/)

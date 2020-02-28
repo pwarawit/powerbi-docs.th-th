@@ -1,5 +1,5 @@
 ---
-title: นำคีย์การเข้ารหัสลับของคุณเองสำหรับ Power BI (ตัวอย่าง)
+title: นำคีย์การเข้ารหัสลับของคุณเองมาใช้กับ Power BI
 description: เรียนรู้วิธีการใช้คีย์การเข้ารหัสลับของคุณเองใน Power BI Premium
 author: davidiseminger
 ms.author: davidi
@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 02/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 133d807d26ba6571eeb614852f3f651a749a369f
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75762128"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527782"
 ---
-# <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>นำคีย์การเข้ารหัสลับของคุณเองสำหรับ Power BI (ตัวอย่าง)
+# <a name="bring-your-own-encryption-keys-for-power-bi"></a>นำคีย์การเข้ารหัสลับของคุณเองมาใช้กับ Power BI
 
 Power BI เข้ารหัสลับข้อมูล_ที่พัก_และ_ระหว่างดำเนินการ_ ตามค่าเริ่มต้น Power BI ใช้คีย์ที่จัดการโดย Microsoft เพื่อเข้ารหัสลับข้อมูลของคุณ ใน Power BI Premium คุณยังสามารถใช้คีย์ของคุณเองสำหรับข้อมูลที่พักไว้ที่นำเข้าลงในชุดข้อมูล (ดู[ข้อควรพิจารณาเกี่ยวกับแหล่งข้อมูลและที่เก็บข้อมูล](#data-source-and-storage-considerations)สำหรับข้อมูลเพิ่มเติม) ได้ วิธีนี้จะอธิบายไว้มักจะเป็น_การนำคีย์ของคุณมาใช้เอง_(Bring Your Own Key, BYOK)
 
 ## <a name="why-use-byok"></a>เหตุใดจึงใช้ BYOK
 
-BYOK ทำให้ง่ายต่อการปฏิบัติตามข้อกำหนดที่ระบุการจัดการคีย์ด้วย Cloud Service Provider (ในกรณีนี้คือ Microsoft) ด้วย BYOK คุณจะสามารถระบุและควบคุมคีย์การเข้ารหัสลับสำหรับข้อมูล Power BI ที่พักไว้ในระดับแอปพลิเคชัน ดังนั้น คุณสามารถควบคุมและยกเลิกคีย์ขององค์กรของคุณ คุณควรตัดสินใจเพื่อออกจากบริการ เมื่อยกเลิกคีย์ ข้อมูลจะไม่สามารถอ่านได้ในบริการ
+BYOK ทำให้ง่ายต่อการปฏิบัติตามข้อกำหนดที่ระบุการจัดการคีย์ด้วย Cloud Service Provider (ในกรณีนี้คือ Microsoft) ด้วย BYOK คุณจะสามารถระบุและควบคุมคีย์การเข้ารหัสลับสำหรับข้อมูล Power BI ที่พักไว้ในระดับแอปพลิเคชัน ดังนั้น คุณสามารถควบคุมและยกเลิกคีย์ขององค์กรของคุณ คุณควรตัดสินใจเพื่อออกจากบริการ เมื่อยกเลิกคีย์ ข้อมูลจะไม่สามารถอ่านได้ในบริการภายใน 30 นาที
 
 ## <a name="data-source-and-storage-considerations"></a>ข้อควรพิจารณาเกี่ยวกับแหล่งข้อมูลและที่เก็บข้อมูล
 
@@ -34,7 +34,12 @@ BYOK ทำให้ง่ายต่อการปฏิบัติตาม
 - [ชุดข้อมูลการสตรีม](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [แบบจำลองขนาดใหญ่](service-premium-large-models.md)
 
-BYOK นำไปใช้เฉพาะกับชุดข้อมูลที่เกี่ยวข้องกับไฟล์ PBIX ไม่ใช่แคชผลลัพธ์คิวรีสำหรับไทล์และรูปภาพ
+BYOK ใช้กับชุดข้อมูลเท่านั้น Push ชุดข้อมูล ไฟล์ Excel และไฟล์ CSV ที่ผู้ใช้สามารถอัปโหลดไปยังบริการไม่ได้รับการเข้ารหัสโดยใช้คีย์ของคุณเอง เมื่อต้องระบุอาร์ทิแฟกต์ที่จัดเก็บไว้ในพื้นที่ทำงานของคุณ ให้ใช้คำสั่ง PowerShell ต่อไปนี้:
+
+```PS C:\> Get-PowerBIWorkspace -Scope Organization -Include All```
+
+> [!NOTE]
+> cmdlet นี้ต้องการโมดูลการจัดการ Power BI เวอร์ชัน 1.0.840 คุณสามารถดูเวอร์ชันที่คุณมีอยู่โดยการเรียกใช้ Get-InstalledModule -Name MicrosoftPowerBIMgmt ติดตั้งเวอร์ชันล่าสุดโดยการเรียกใช้ Install-Module -Name MicrosoftPowerBIMgmt คุณสามารถรับข้อมูลเพิ่มเติมเกี่ยวกับ cmdlet ของ Power BI และพารามิเตอร์ของคำสั่งดังกล่าวใน[โมดูล cmdlet ของ Power BI PowerShell](https://docs.microsoft.com/powershell/power-bi/overview)
 
 ## <a name="configure-azure-key-vault"></a>กำหนดค่า Azure Key Vault
 
@@ -53,7 +58,7 @@ BYOK นำไปใช้เฉพาะกับชุดข้อมูลท
 
 ### <a name="add-the-service-principal"></a>เพิ่มโครงร่างสำคัญของบริการ
 
-1. ในพอร์ทัล Azure ใน Key Vault ของคุณ ภายใต้**นโยบายการเข้าถึง** ให้เลือก**เพิ่มใหม่**
+1. ที่พอร์ทัล Azure ใน Key Vault ของคุณ ภายใต้**นโยบายการเข้าถึง** ให้เลือก**เพิ่มใหม่**
 
 1. ภายใต้**เลือกรายการหลัก** ค้นหาและเลือก Microsoft.Azure.AnalysisServices
 
@@ -64,7 +69,7 @@ BYOK นำไปใช้เฉพาะกับชุดข้อมูลท
 
     ![คอมโพเนนต์ไฟล์ PBIX](media/service-encryption-byok/service-principal.png)
 
-1. เลือก**ตกลง** แล้ว**บันทึก**
+1. เลือก **ตกลง** จากนั้นจึงเลือก **บันทึก**
 
 > [!NOTE]
 > หากคุณต้องการยกเลิกการเข้าถึง Power BI ไปยังข้อมูลของคุณในอนาคต ให้ลบสิทธิ์การเข้าถึงบริการหลักจาก Azure Key Vault ของคุณ
@@ -183,3 +188,17 @@ Power BI มี cmdlet เพิ่มเติมเพื่อช่วยจ
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
     ```
+
+
+
+## <a name="next-steps"></a>ขั้นตอนถัดไป
+
+* [โมดูล cmdlet ของ PowerShell Power BI](https://docs.microsoft.com/powershell/power-bi/overview) 
+
+* [วิธีการแชร์งานของคุณใน Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
+
+* [กรองรายงานโดยใช้พารามิเตอร์ของสตริงคิวรีใน URL](service-url-filters.md)
+
+* [ฝังด้วยส่วนเว็บรายงานใน SharePoint Online](service-embed-report-spo.md)
+
+* [เผยแพร่บนเว็บจาก Power BI](service-publish-to-web.md)

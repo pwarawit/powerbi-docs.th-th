@@ -1,29 +1,37 @@
 ---
-ms.openlocfilehash: eb7cba03daee47f6772fc46be50419731b41765e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8dc488a47ac2b5b4e7980b7404b2722b1120b6ab
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61194132"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464417"
 ---
 ## <a name="validate-the-roles-within-power-bi-desktop"></a>ตรวจสอบบทบาทภายใน Power BI Desktop
 คุณสามารถทดสอบผลลัพธ์ของบทบาทภายใน Power BI Desktop ได้หลังจากที่คุณสร้างบทบาทของตัวเองแล้ว
 
-1. เลือก **มุมมองในฐานะบทบาท** 
+1. จากแท็บ **การวางรูปแบบ** เลือก **ดูในฐานะบทบาท** 
 
-    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
+    ![เลือกดูในฐานะบทบาท](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
 
-    ใน **ดูในฐานะบทบาท** คุณสามารถดูบทบาทที่คุณสร้างขึ้นได้
+    หน้าต่าง **ดูในฐานะบทบาท** จะปรากฏขึ้นเมื่อคุณมองเห็นบทบาทที่สร้าง
 
-    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
+    ![หน้าต่างดูในฐานะบทบาท](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
 
-3. เลือกบทบาทที่คุณสร้าง >**ตกลง** เพื่อใช้บทบาทนั้น รายงานจะแสดงข้อมูลที่เกี่ยวข้องกับบทบาทนั้น 
+3. เลือกบทบาทที่คุณสร้าง จากนั้นเลือก **ตกลง** เพื่อนำไปใช้กับบทบาทดังกล่าว 
 
-4. นอกจากนี้คุณยังสามารถเลือก **ผู้ใช้อื่น** และใส่ผู้ใช้ที่กำหนด การใส่ชื่อผู้ใช้หลัก (UPN) เป็นสิ่งบริการ Power BI และเซิร์ฟเวอร์รายงาน Power BI จะใช้เป็นสิ่งที่ดีที่สุด
+   รายงานจะแสดงข้อมูลที่เกี่ยวข้องกับบทบาทนั้น
 
-    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
+4. นอกจากนี้คุณยังสามารถเลือก **ผู้ใช้อื่น** และใส่ผู้ใช้ที่กำหนด 
 
-1. เลือก **ตกลง** และรายงานจะแสดงตามสิ่งที่ผู้ใช้สามารถดู 
+    ![เลือกผู้ใช้อื่น](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
 
-หากคุณกำลังใช้การรักษาความปลอดภัยแบบไดนามิกที่ยึดตามนิพจน์ DAX ของคุณ ใน Power BI Desktop ซึ่ง**ผู้ใช้อื่น** จะแสดงผลลัพธ์ที่แตกต่างกันเท่านั้น 
+   การใส่ชื่อผู้ใช้หลัก (UPN) เป็นสิ่งบริการ Power BI และเซิร์ฟเวอร์รายงาน Power BI จะใช้เป็นสิ่งที่ดีที่สุด
+
+   ภายใน Power BI Desktop **ผู้ใช้อื่น** จะแสดงผลลัพธ์ที่แตกต่างกันในกรณีที่คุณใช้การรักษาความปลอดภัยแบบไดนามิก โดยยึดตามนิพจน์ DAX ของคุณ 
+
+5. เลือก**ตกลง** 
+
+   รายงานจะแสดงผลตามสิ่งที่ผู้ใช้นั้นสามารถมองเห็นได้
+
+
 

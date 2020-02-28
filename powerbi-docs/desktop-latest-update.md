@@ -6,22 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 02/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c6f1a04f7178719eb68bcd54674ea0312c97ef3e
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 4fc4144b5436fd451280e7189484d9cc01ce69b5
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076593"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496690"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>มีอะไรใหม่ใน Power BI Desktop บ้าง
 
+## <a name="february-2020-update-2785740642"></a>การอัปเดตประจำเดือนกุมภาพันธ์ 2020 (2.78.5740.642)
 
-## <a name="december-2019-update-2765678661"></a>การอัปเดตประจำเดือนธันวาคม 2019 (2.76.5678.661)
-
-การอัปเดตประจำเดือนธันวาคมของเราเป็นเรื่องสนุกเท่า ๆ กับการนั่งเลื่อนเนินเขาที่ปกคลุมด้วยหิมะ 
+เรารักการอัปเดตประจำเดือนกุมภาพันธ์ของเรา และเชื่อว่าคุณลักษณะใหม่ของเราจะดีกว่ากล่องช็อคโกแลตรูปหัวใจ 
 
 สามารถรับเวอร์ชันล่าสุดของ Power BI Desktop จาก[ศูนย์ดาวน์โหลด](https://www.microsoft.com/download/details.aspx?id=58494) ถ้าคุณกำลังใช้งาน Windows 10 คุณสามารถรับ Power BI Desktop ได้จาก [Windows Store ](https://aka.ms/pbidesktopstore) เวอร์ชันรายเดือนจะเหมือนกันแม้ว่าหมายเลขเวอร์ชันอาจแตกต่างกัน โดยไม่คำนึงถึงวิธีการที่คุณติดตั้ง Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการดาวน์โหลดและติดตั้ง Power BI Desktop ดู [Get Power BI Desktop](desktop-get-the-desktop.md) 
 
@@ -40,48 +39,39 @@ ms.locfileid: "77076593"
 
 การอัปเดตใหม่ต่อไปนี้จะถูกอัปเดตไปยัง Power BI Desktop ในเดือนนี้:
 
+### <a name="data-management"></a>การจัดการข้อมูล
+* ตอนนี้ การรีเฟรชแบบเพิ่มหน่วยพร้อมให้บริการโดยทั่วไปแล้ว [[วิดีโอ]](https://youtu.be/TN61JvbUAxk?t=16) [[บทความ]](service-premium-incremental-refresh.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Incremental_refresh) 
 
 ### <a name="reporting"></a>การรายงาน
-* กำหนดธีมปัจจุบัน (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=10)  [[บทความ]](desktop-report-themes.md#create-and-customize-a-theme-in-power-bi-desktop-preview)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
-* ส่งออกธีมปัจจุบัน (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=242) [[บทความ]](desktop-report-themes.md#export-report-themes-preview) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
-* ตั้งค่าคอลัมน์ตารางหรือค่าเมทริกซ์เป็น URL ที่กำหนดเอง [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=277)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
-* การตั้งค่าการจัดรูปแบบการแสดงผลด้วยภาพ KPI [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=354)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
-* การจัดรูปแบบการแยกย่อยต้นไม้ใหม่ [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=442)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 
-* ปุ่มสลับหน้าต่างตัวกรองใน ribbon ใหม่ [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=599)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#filterToggle) 
-* รายละเอียดแบบสอบถามรีเฟรชหน้าอัตโนมัติ [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=717)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#APR) 
+* ตัวแบ่งส่วนข้อมูลแบบลำดับชั้น (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/TN61JvbUAxk?t=207) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Hierarchical_slicer) 
+* อัปเดตเป็นริบบิ้นใหม่(ตัวอย่าง) [[วิดีโอ]](https://youtu.be/TN61JvbUAxk?t=424) [[บทความ]](desktop-ribbon.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Ribbon) 
 
 
-### <a name="analytics"></a>การวิเคราะห์
-* โหลดเพิ่มเติมสำหรับการวิเคราะห์ [ข้อมูลเชิงลึก [วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=831)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#moreAI) 
-* ฟังก์ชัน DAX ใหม่: Quarter [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=855)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#quarter) 
-
+### <a name="modeling"></a>การสร้างแบบจำลอง
+* ฟังก์ชัน DAX ใหม่: FirstNonBlankValue, LastNonBlankValue [[วิดีโอ]](https://youtu.be/TN61JvbUAxk?t=716)  [[บทความ]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax)   [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_New_DAX_Functions) 
 
 ### <a name="visuals"></a>การแสดงผลด้วยภาพ
-* การปรับแต่งหน้าต่างวิชวล (ความพร้อมใช้งานโดยทั่วไป) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=865)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#personalizeViz) 
-* วิชวลแบบกำหนดเองใหม่ [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=886)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
-
-
-### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
-* ตัวเชื่อมต่อ Azure Data Lake Storage รุ่น 2 (ความพร้อมใช้งานโดยทั่วไป) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2151)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/) 
-* ตัวเชื่อมต่อ Power Platform กระแสข้อมูล (การใช้งานโดยทั่วไป) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2180)[[บทความ]](service-edit-sap-variables.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ADLS) 
-* ขณะนี้ตัวเชื่อมต่อ PostgreSQL มีในผู้ให้บริการ Npgsql [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2220)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#PostgreSQL) 
-* ตัวเชื่อมต่อ AtScale (ความใช้งานโดยทั่วไป) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2245)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AtScale) 
-* ตัวเชื่อมต่อ Azure Time Series Insights [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2261)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ATS) 
-* ตัวเชื่อมต่อเสมือนข้อมูล [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2294)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#DataVirt) 
-* [การเชื่อมต่อ Zucchetti HR Infinity [วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2345)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Zucchetti) 
-
-
-### <a name="data-preparation"></a>การเตรียมข้อมูล
-* อัปเดตฟังก์ชันข้อมูลเชิงลึกของ AI (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2366)[[บทความ]](desktop-ai-insights.md)[[บล็อก]    ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AIfunc) 
+* วิชวลแบบกำหนดเองใหม่ [[วิดีโอ]](https://youtu.be/TN61JvbUAxk?t=835)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Visualizations) 
 
 
 ### <a name="template-apps"></a>แอปแม่แบบ
-* Omnichannel insights สำหรับ Dynamics 365 [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2416)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Omni) 
-* การวิเคราะห์บริการลูกค้าสำหรับ Dynamics 365 [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2500)  [[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#CS)
-* Microsoft Forms Pro สำหรับบริการลูกค้า [[วิดีโอ]](https://youtu.be/eCEwgZsVUOs?t=2525)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Forms) 
+* การวิเคราะห์ผู้ใช้ Microsoft 365 [[วิดีโอ]](https://youtu.be/TN61JvbUAxk?t=910)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Microsoft_365_usage) 
+* การวิเคราะห์ NFL โดย P3 [[วิดีโอ]](https://youtu.be/TN61JvbUAxk?t=928) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_NFL)
+* Acterys สำหรับ Quickbooks, Zero และ WorkflowMax [[วิดีโอ]](https://youtu.be/TN61JvbUAxk?t=932) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Acterys) 
 
 
-สำหรับข้อมูลโดยละเอียดเกี่ยวกับแต่ละคุณลักษณะใหม่เหล่านี้ดู [สรุปคุณลักษณะของ Power BI Desktop เดือนพฤศจิกายน 2019](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/)
+### <a name="data-preparation"></a>การเตรียมข้อมูล
+* การวินิจฉัยคิวรี - การสนับสนุนสำหรับผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบ [[วิดีโอ]](https://youtu.be/TN61JvbUAxk?t=938) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_non_admin_support) 
+
+
+### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
+* ตัวเชื่อมต่อ MicroStrategy (ความพร้อมใช้งานโดยทั่วไป) [[วิดีโอ]](https://youtu.be/TN61JvbUAxk?t=962) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_MicroStrategy_connector) 
+* ตัวเชื่อมต่อ FHIR (ความพร้อมใช้งานโดยทั่วไป) [[วิดีโอ]](https://youtu.be/TN61JvbUAxk?t=962) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_FHIR) 
+* ตัวเชื่อมต่อเพิ่มเติม: Factset, TIBCO, Jamf Pro, Asana [[วิดีโอ]](https://youtu.be/TN61JvbUAxk?t=978) [บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Factset_connector) 
+
+
+
+สำหรับข้อมูลโดยละเอียดเกี่ยวกับคุณลักษณะใหม่เหล่านี้แต่ละตัว โปรดดู [บล็อกโพสต์สรุปคุณลักษณะของ Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/)
 
 นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
 
@@ -92,7 +82,8 @@ ms.locfileid: "77076593"
 ## <a name="power-bi-desktop-monthly-update-video"></a>วิดีโออัปเดตประจำเดือน Power BI Desktop
 วิดีโอต่อไปนี้อธิบายการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์:
 
-> [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
+> [!VIDEO https://www.youtube.com/embed/TN61JvbUAxk]
+
 
 
 ## <a name="more-videos"></a>วิดีโอเพิ่มเติม

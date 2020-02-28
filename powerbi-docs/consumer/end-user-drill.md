@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851458"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496407"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>โหมดการดูข้อมูลแบบเจาะลึกของภาพใน Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -32,6 +34,7 @@ ms.locfileid: "73851458"
 ไม่แน่ใจว่าการแสดงภาพ Power BI ภาพใดที่มีลำดับชั้นใช่หรือไม่? เลื่อนเมาส์ไปบนภาพ หากคุณเห็นชุดข้อมูลการควบคุมการดูข้อมูลแบบเจาะลึกเหล่านี้ที่ด้านบน แสดงว่าภาพของคุณมีลำดับชั้น
 
 ![ภาพหน้าจอของไอคอนการดูข้อมูลแบบเจาะลึก](./media/end-user-drill/power-bi-drill-icons.png)  
+
 
 ## <a name="learn-how-to-drill-down-and-up"></a>เรียนรู้วิธการดูข้อมูลแบบเจาะลึกและข้อมูลสรุป
 
@@ -108,7 +111,7 @@ ms.locfileid: "73851458"
 
 การมีแผนภูมิต้นไม้ที่แสดงเพียงรหัสไปรษณีย์ไม่ได้ให้ข้อมูลมากเท่าไหร่  ดังนั้นเรามา*ขยาย*ลำดับชั้นลงไปอีกหนึ่งระดับ  
 
-1. ด้วยแผนที่ต้นไม้ที่ถูกเลือกไว้ก่อนแล้ว เลือกไอคอน*ขยายลง* ![สกรีนช็อตของไอคอนขยายลง](./media/end-user-drill/power-bi-drill-icon6.png) แผนภูมิต้นไม้ของคุณตอนนี้จะแสดง 2 ลำดับชั้น: คือ รหัสไปรษณีย์ และชื่อร้านค้า
+1. ด้วยแผนที่ต้นไม้ที่ถูกเลือกไว้ก่อนแล้ว เลือกไอคอน*ขยายลง*![สกรีนช็อตของไอคอนขยายลง](./media/end-user-drill/power-bi-drill-icon6.png) แผนภูมิต้นไม้ของคุณตอนนี้จะแสดง 2 ลำดับชั้น: คือ รหัสไปรษณีย์ และชื่อร้านค้า
 
     ![สกรีนช็อตของแผนที่ต้นไม้ที่แสดงข้อมูลรหัสไปรษณีย์และชื่อร้านค้า](./media/end-user-drill/power-bi-expand-one.png)
 
@@ -116,7 +119,7 @@ ms.locfileid: "73851458"
 
     ![สกรีนช็อตของแผนที่ต้นไม้ที่แสดงข้อมูลสำหรับ TN](media/end-user-drill/power-bi-expand-two.png)
 
-1. ตรวจสอบให้แน่ใจว่าการดูรายละเอียดแนวลึกยังคงเปิดใช้งานอยู่![ไอคอนสกรีนช็อตของลึก เปิด/ปิดที่เปิดใช้งาน](./media/end-user-drill/power-bi-drill-icon2.png) เลือกไอคอน*ขยายลง* ![สกรีนช็อตของไอคอนขยายลง](./media/end-user-drill/power-bi-drill-icon6.png) ในตอนนี้แผนที่ต้นไม้ของคุณแสดงจำนวนใบไม้ (กล่อง) เท่ากัน แต่ใบไม้แต่ละใบนั้นมีรายละเอียดเพิ่มเติม นอกจากการแสดงผลแค่เมืองและรัฐแล้ว ยังแสดงรหัสไปรษณีย์อีกด้วย
+1. ตรวจสอบให้แน่ใจว่าการดูรายละเอียดแนวลึกยังคงเปิดใช้งานอยู่![ไอคอนสกรีนช็อตของลึก เปิด/ปิดที่เปิดใช้งาน](./media/end-user-drill/power-bi-drill-icon2.png) เลือกไอคอน*ขยายลง*![สกรีนช็อตของไอคอนขยายลง](./media/end-user-drill/power-bi-drill-icon6.png) ในตอนนี้แผนที่ต้นไม้ของคุณแสดงจำนวนใบไม้ (กล่อง) เท่ากัน แต่ใบไม้แต่ละใบนั้นมีรายละเอียดเพิ่มเติม นอกจากการแสดงผลแค่เมืองและรัฐแล้ว ยังแสดงรหัสไปรษณีย์อีกด้วย
 
     ![สกรีนช็อตของการแสดงภาพเมือง สถานะ และรหัสไปรษณีย์](./media/end-user-drill/power-bi-expand-three.png)
 
@@ -141,15 +144,17 @@ ms.locfileid: "73851458"
 
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
-ตามค่าเริ่มต้น การดูรายละเอียดจะไม่กรองวิชวลอื่น ๆ ในรายงาน อย่างไรก็ตาม ผู้ออกแบบรายงานสามารถเปลี่ยนลักษณะการทำงานเริ่มต้นนี้ได้ ในขณะที่คุณดูข้อมูลแบบเจาะลึก ให้ดูว่าการแสดงภาพอื่น ๆ บนหน้านั้นมีการกรองข้ามหรือไฮไลท์ข้ามหรือไม่
+- ตามค่าเริ่มต้น การดูรายละเอียดจะไม่กรองวิชวลอื่น ๆ ในรายงาน อย่างไรก็ตาม ผู้ออกแบบรายงานสามารถเปลี่ยนลักษณะการทำงานเริ่มต้นนี้ได้ ในขณะที่คุณดูข้อมูลแบบเจาะลึก ให้ดูว่าการแสดงภาพอื่น ๆ บนหน้านั้นมีการกรองข้ามหรือไฮไลท์ข้ามหรือไม่
+
+- การดูรายงานที่มีการแชร์กับคุณต้องมีสิทธิการใช้งาน Power BI Pro หรือ Premium [ฉันมีสิทธิการใช้งานใดอยู่บ้าง](end-user-license.md)
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[การแสดงผลด้วยภาพในรายงาน Power BI](../visuals/power-bi-report-visualizations.md)
+[วิชวลในรายงาน Power BI](../visuals/power-bi-report-visualizations.md)
 
 [รายงาน Power BI](end-user-reports.md)
 
-[Power BI - แนวคิดพื้นฐาน](end-user-basic-concepts.md)
+[Power BI แนวคิดพื้นฐาน](end-user-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

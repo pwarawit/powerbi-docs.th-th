@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
-ms.openlocfilehash: 7b8c106f13df381152b6323cf1263747a3064709
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/20/2020
+ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540578"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558565"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>ข้อกำหนดฮาร์ดแวร์และซอฟต์แวร์สำหรับติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "76540578"
 
 | คอมโพเนนต์ | ข้อกำหนด |
 | --- | --- |
-| .NET framework |4.6<br><br>คุณสามารถติดตั้ง.NET Framework จาก[Microsoft.NET Framework 4.6 (ตัวติดตั้งเว็บ) สำหรับ Windows](https://support.microsoft.com/kb/3045560)ได้ด้วยตนเอง<br/><br/> สำหรับข้อมูลเพิ่มเติมและคำแนะนำเกี่ยวกับ .NET Framework 4.6 ดู[คู่มือ .NET Framework Deployment สำหรับนักพัฒนา](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)<br/><br/>Windows 8.1 และ Windows Server 2012 R2 จำเป็นต้องมี[KB2919355](https://support.microsoft.com/kb/2919355) ก่อนติดตั้ง.NET Framework 4.6 |
+| .NET Framework |4.7<br><br>คุณสามารถติดตั้ง .NET Framework จาก [Microsoft.NET Framework 4.7 (ตัวติดตั้งบนเว็บ) สำหรับ Windows](https://support.microsoft.com/en-us/kb/3186500) ได้ด้วยตนเอง<br/><br/> สำหรับข้อมูลเพิ่มเติม คำแนะนำ และแนวทางเกี่ยวกับ .NET Framework 4.7 โปรดดู[คู่มือ .NET Framework Deployment สำหรับนักพัฒนา](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers)<br/><br/>Windows 8.1 และ Windows Server 2012 R2 จำเป็นต้องมี [KB2919355](https://support.microsoft.com/kb/2919355) ก่อนติดตั้ง .NET Framework 4.7 |
 | ฮาร์ดดิสก์ |เซิร์ฟเวอร์รายงาน Power BI จำเป็นต้องมีเนื้อที่บนฮาร์ดดิสก์อย่างน้อย 1 กิกะไบต์<br><br>จะต้องเพิ่มเนื้อที่ว่างบนเซิร์ฟเวอร์ฐานข้อมูลที่โฮสต์ฐานข้อมูลของเซิร์ฟเวอร์รายงาน |
 | หน่วยความจำ |**ขั้นต่ำ:** 1 GB<br/><br/> **แนะนำ:** อย่างน้อย 4 GB |
 | ความเร็วในการประมวลผล |**ค่าต่ำสุด:** x64 ตัวประมวลผล: 1.4 GHz<br/><br/> **แนะนำ:** 2.0 GHz หรือเร็วกว่า |
@@ -38,6 +38,7 @@ ms.locfileid: "76540578"
 
 SQL Server ถูกใช้เพื่อโฮสต์ฐานข้อมูลของเซิร์ฟเวอร์รายงาน สามารถมีอินสแตนซ์ของเครื่องมือฐานข้อมูล SQL Server ภายในเครื่องหรือระยะไกล ต่อไปนี้เป็นรุ่นของเครื่องมือฐานข้อมูล SQL Server ที่สามารถใช้โฮสต์ฐานข้อมูลของเซิร์ฟเวอร์รายงาน:
 
+* อินสแตนซ์ที่มีการจัดการของ Azure SQL (เซิร์ฟเวอร์รายงาน Power BI เวอร์ชันมกราคม 2020 และเวอร์ชันที่ใหม่กว่า)
 * SQL Server 2019
 * SQL Server 2017
 * SQL Server 2016
