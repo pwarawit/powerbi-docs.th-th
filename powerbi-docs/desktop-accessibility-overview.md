@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 02/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8604ed2c737b7d2a75b3af052878ecb157ffacf1
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a8bf446174cc16d95842022416352f538dca69ec
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538623"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609851"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>ข้อมูลทั่วไปเกี่ยวกับการเข้าถึงใน Power BI
 
@@ -30,7 +30,7 @@ ms.locfileid: "76538623"
 
 ## <a name="accessibility-standards"></a>มาตรฐานการช่วยสำหรับการเข้าถึง
 
-Power BI จะปฏิบัติตามมาตรฐานการช่วยสำหรับการเข้าถึงต่อไปนี้ มาตรฐานนี้จะช่วยให้แน่ใจว่าประสบการณ์การใช้งาน Power BI สามารถเข้าถึงได้หลายคนเท่าที่เป็นไปได้ แอปพลิเคชัน Power BI บนมือถือได้รับการรับรองสำหรับความสามารถในการเข้าถึงเกรด c เมื่อคุณสร้างรายงานหรือแดชบอร์ดที่สามารถเข้าถึงได้ เนื้อหานั้นจะสามารถเข้าถึงได้สำหรับทุกคนที่ดูรายงานดังกล่าวผ่าน Power BI บนมือถือ
+Power BI จะปฏิบัติตามมาตรฐานการช่วยสำหรับการเข้าถึงต่อไปนี้ มาตรฐานนี้จะช่วยให้แน่ใจว่าประสบการณ์การใช้งาน Power BI สามารถเข้าถึงได้หลายคนเท่าที่เป็นไปได้ เมื่อคุณสร้างรายงานหรือแดชบอร์ดที่สามารถเข้าถึงได้ เนื้อหานั้นจะสามารถเข้าถึงได้สำหรับทุกคนที่ดูรายงานดังกล่าวผ่าน Power BI บนมือถือ
 
 ### <a name="wcag-21"></a>WCAG 2.1
 

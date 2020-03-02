@@ -655,8 +655,6 @@
               href: service-export-to-pbix.md
             - name: แก้ไขตัวแปร SAP
               href: service-edit-sap-variables.md
-            - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับการสร้างรายงานอย่างรวดเร็วและเชื่อถือได้
-              href: power-bi-reports-performance.md
         - name: การถามคำถามเกี่ยวกับข้อมูลของคุณ
           items:
             - name: ใช้การถามตอบเพื่อสำรวจข้อมูลของคุณ
