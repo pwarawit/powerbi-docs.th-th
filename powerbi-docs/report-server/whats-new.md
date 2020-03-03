@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/23/2020
-ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/27/2020
+ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026726"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782451"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>มีอะไรใหม่ใน Power BI Report Server
 
@@ -165,6 +165,10 @@ ms.locfileid: "77026726"
 #### <a name="transparent-database-encryption"></a>การเข้ารหัสฐานข้อมูลโปร่งใส
 
 ขณะนี้เซิร์ฟเวอร์รายงานของ Power BI สนับสนุนการเข้ารหัสฐานข้อมูลโปร่งใสสำหรับฐานข้อมูลแค็ตตาล็อกเซิร์ฟเวอร์รายงานของ Power BI สำหรับองค์กรและรุ่นมาตรฐาน
+
+#### <a name="power-bi-visuals-api"></a>API การแสดงผลด้วยภาพของ Power BI
+
+เวอร์ชันของ API ที่ส่งไปพร้อมกับรุ่นนี้คือ 2.6.
 
 #### <a name="microsoft-report-builder-update"></a>การอัปเดตตัวสร้างรายงานของ Microsoft
 
@@ -446,34 +450,34 @@ ms.locfileid: "77026726"
 
 จากฟีเจอร์ใหม่หลายตัวที่มีให้บริการทั้งหมด ฟีเจอร์เหล่านี้มีความโดดเด่นเป็นที่น่าสนใจโดยเฉพาะ
 
-#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[การจัดรูปแบบตามเงื่อนไขตามกฏสำหรับตารางและเมทริกซ์](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+#### <a name="rule-based-conditional-formatting-for-table-and-matrix"></a>[การจัดรูปแบบตามเงื่อนไขตามกฏสำหรับตารางและเมทริกซ์](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
 
 สร้างกฎเพื่อใส่สีีพื้นหลังหรือแบบอักษรของคอลัมน์ตามเงื่อนไขโดยเป็นไปตามตรรกะธุรกิจเฉพาะในตารางหรือเมทริกซ์ของคุณ
 
-#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[แสดงหรือซ่อนหน้า](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+#### <a name="show-and-hide-pages"></a>[แสดงหรือซ่อนหน้า](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
 
 คุณต้องการให้ผู้อ่านสามารถเข้าถึงรายงานของคุณ แต่มีบางหน้ายังไม่ค่อยเสร็จสมบูรณ์ ในตอนนี้ คุณสามารถซ่อนหน้าเหล่านี้ไว้จนกว่าจะพร้อม หรือคุณสามารถซ่อนหน้าเหล่านี้จากการนำทางปกติ และผู้อ่านสามารถเข้าถึงหน้าโดยการสร้างบุ๊กมาร์กหรือเข้าถึงรายละเอียด
 
-#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[การสร้างบุ๊กมาร์ก](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+#### <a name="bookmarking"></a>[การสร้างบุ๊กมาร์ก](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
 
 เมื่อพูดถึงการสร้างบุ๊กมาร์ก จะมีการสร้างบุ๊กมาร์กเพื่อบอกเล่าเรื่องราวพร้อมกับข้อมูลในรายงานของคุณ
 
 - [การเน้นไขว้สำหรับบุ๊กมาร์ก](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): บุ๊กมาร์กจะรักษาและแสดงสถานะเน้นไขว้ของหน้ารายงานในเวลาที่คุณสร้างบุ๊กมาร์ก
 - [ความยืดหยุ่นของบุ๊กมาร์กเพิ่มเติม](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): บุ๊กมาร์กสะท้อนให้เห็นคุณสมบัติที่คุณตั้งค่าในรายงานและมีผลต่อการแสดงผลด้วยภาพที่เลือกเท่านั้น
 
-#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[จุดข้อมูลที่เลือกได้หลายจุดในหลายแผนภูมิ](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+#### <a name="multi-select-data-points-across-multiple-charts"></a>[จุดข้อมูลที่เลือกได้หลายจุดในหลายแผนภูมิ](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
 
 เลือกจุดข้อมูลหลายจุดในหลายแผนภูมิและมีการใช้การกรองแบบไขว้กับทั้งหน้า
 
-#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[ซิงค์ตัวแบ่งส่วนข้อมูลในหลาย ๆ หน้ารายงานของคุณ](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+#### <a name="sync-slicers-across-multiple-pages-of-your-report"></a>[ซิงค์ตัวแบ่งส่วนข้อมูลในหลาย ๆ หน้ารายงานของคุณ](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
 
 ตัวแบ่งส่วนข้อมูลสามารถนำไปใช้กับรายงานหนึ่งหน้า สองหน้าหรือมากกว่านั้น
 
-#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[หน่วยวัดด่วน](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+#### <a name="quick-measures"></a>[หน่วยวัดด่วน](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
 
 สร้างหน่วยวัดใหมตามหน่วยวัดที่มีอยู่แล้วและคอลัมน์ตัวเลขในตาราง
 
-#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[การใช้ตัวกรองเจาะลึกลงในการแสดงผลด้วยภาพอื่น ๆ ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+#### <a name="drilling-down-filters-other-visuals"></a>[การใช้ตัวกรองเจาะลึกลงในการแสดงผลด้วยภาพอื่น ๆ ](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 
 เมื่อคุณเจาะลึกลงไปในประเภททกำหนดในการแสดงผลด้วยแบบหนึ่ง คุณจะสามารถกรองการแสดงผลด้วยภาพทั้งหมดบนหน้าตามประเภทเดียวกันนั้น
 

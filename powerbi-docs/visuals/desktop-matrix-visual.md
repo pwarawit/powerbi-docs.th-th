@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154443"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576845"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>สร้างการแสดงข้อมูลเมทริกซ์ใน Power BI
 
@@ -218,6 +218,10 @@ ms.locfileid: "77154443"
 การเลือก*การควบคุมขั้นสูง* จะแสดงกล่องโต้ตอบที่สามารถให้คุณทำการปรับปรุง ตัวอย่างนี้แสดงกล่องโต้ตอบสำหรับ**แถบข้อมูล**
 
 ![บานหน้าต่างแถบข้อมูล](media/desktop-matrix-visual/power-bi-data-bars.png)
+
+## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
+
+* หากข้อมูลข้อความในเซลล์หรือส่วนหัวของตารางของคุณมีอักขระบรรทัดใหม่ อักขระเหล่านั้นจะถูกละเว้นถ้าคุณสลับตัวเลือก 'การตัดคำ' ในการ์ดบานหน้าต่างการจัดรูปแบบที่เกี่ยวข้องขององค์ประกอบ 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

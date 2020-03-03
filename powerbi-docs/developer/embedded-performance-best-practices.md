@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c3e2327131ae82fa025236c9242476466b6d9074
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a0f4808aaf267e3cdb822e8778005c2eca247cb5
+ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73864057"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78199015"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>แนวทางปฏิบัติที่ดีที่สุดเพื่อประสิทธิภาพการทำงานของ Power BI Embedded
 
 บทความนี้มีคำแนะนำสำหรับการแสดงรายงาน แดชบอร์ด และไทล์ในแอปพลิเคชันของคุณได้เร็วขึ้น
 
 > [!Note]
-> โปรดจำไว้ว่าเวลาการโหลดส่วนใหญ่จะขึ้นอยู่กับองค์ประกอบที่เกี่ยวข้องกับรายงานและข้อมูลของตัวเองรวมถึงภาพขนาดของข้อมูลและความซับซ้อนของคิวรีและหน่วยวัดที่คำนวณ สำหรับข้อมูลเพิ่มเติมดูได้ที่[แนวทางปฏิบัติที่ดีที่สุดสำหรับประสิทธิภาพการทำงานของ Power BI](../power-bi-reports-performance.md)
+> โปรดจำไว้ว่าเวลาการโหลดส่วนใหญ่จะขึ้นอยู่กับองค์ประกอบที่เกี่ยวข้องกับรายงานและข้อมูลของตัวเองรวมถึงภาพขนาดของข้อมูลและความซับซ้อนของคิวรีและหน่วยวัดที่คำนวณ สำหรับข้อมูลเพิ่มเติม โปรดดู[คำแนะนำการปรับให้เหมาะสมสำหรับ Power BI](../guidance/power-bi-optimization.md)
 
 ## <a name="update-tools-and-sdk-packages"></a>เครื่องมืออัปเดตและแพคเกจ SDK
 
@@ -106,6 +106,6 @@ ms.locfileid: "73864057"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-* [แนวทางปฏิบัติที่ดีที่สุดเพื่อประสิทธิภาพรายงานของ Power BI](../power-bi-reports-performance.md)
+* [คำแนะนำการปรับให้เหมาะสมสำหรับ Power BI](../guidance/power-bi-optimization.md)
 * [วิธีการแก้ไขปัญหา Power BI Embedded](embedded-troubleshoot.md)
 * [คำถามที่พบบ่อยสำหรับ Power BI Embedded](embedded-faq.md)
