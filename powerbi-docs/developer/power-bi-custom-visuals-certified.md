@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 01/12/2019
-ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/17/2020
+ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026680"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782409"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>รับการรับรองส่วนการจัดแสดง Power BI
 
@@ -43,11 +43,13 @@ ms.locfileid: "77026680"
 
 แม้ว่าคุณจะไม่จำเป็นต้องแชร์รหัสของคุณใน GitHub แบบสาธารณะ การเก็บโค้ดก็จะพร้อมใช้งานสำหรับการตรวจทานโดยทีม Power BI วิธีที่ดีที่สุดในการทำเช่นนี้คือการให้แหล่งโค้ด (JavaScript หรือ TypeScript) ใน GitHub
 
-ที่เก็บต้องมีโค้ดสำหรับวิชวล Power BI เดียวเท่านั้น ซึ่งไม่สามารถมีโค้ดสำหรับวิชวล Power BI หลายหรือรหัสที่ไม่เกี่ยวข้อง
-
-ที่เก็บต้องมี **ใบรับรอง** ชื่อสาขา (ต้องการตัวพิมพ์เล็ก) แหล่งโค้ดในสาขานี้ต้องตรงกับแพคเกจที่ส่งไป โค้ดนี้สามารถอัปเดตได้ระหว่างขั้นตอนการส่งครั้งถัดไป ถ้าคุณกำลังส่งวิชวล Power BI ของคุณใหม่
+ที่เก็บต้องมีสิ่งต่อไปนี้:
+* รหัสสำหรับการแสดงผลด้วยภาพของ Power BI เดียวเท่านั้น ซึ่งไม่สามารถมีโค้ดสำหรับวิชวล Power BI หลายหรือรหัสที่ไม่เกี่ยวข้อง
+* สาขาที่ชื่อว่า**ใบรับรอง** (จำเป็นต้องใช้ตัวพิมพ์เล็ก) แหล่งโค้ดในสาขานี้ต้องตรงกับแพคเกจที่ส่งไป โค้ดนี้สามารถอัปเดตได้ระหว่างขั้นตอนการส่งครั้งถัดไป ถ้าคุณกำลังส่งวิชวล Power BI ของคุณใหม่
 
 ถ้าวิชวล Power BI ของคุณใช้แพคเกจ npm แบบส่วนตัวหรือโมดูลย่อย git คุณต้องให้การเข้าถึงที่เก็บข้อมูลเพิ่มเติมที่มีโค้ดนี้
+
+เพื่อทำความเข้าใจวิธีการดูที่เก็บข้อมูลการแสดงผลด้วยภาพของ Power BI ให้ตรวจสอบที่เก็บ GitHub สำหรับ [แผนภูมิแท่งตัวอย่างของ Power BI](https://github.com/microsoft/PowerBI-visuals-sampleBarChartgi)
 
 ### <a name="file-requirements"></a>ข้อกำหนดไฟล์
 
@@ -113,6 +115,18 @@ ms.locfileid: "77026680"
 
 >[!NOTE]
 > ถ้าคุณยังอยู่ระหว่างขั้นตอนการยื่นคำร้องวิชวล Power BI และคุณต้องใช้ [แดชบอร์ดผู้ขาย](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (เครื่องมือการจัดการรุ่นเก่า) ให้ตรวจสอบขั้นตอน [กระบวนการยื่นคำร้องขอใบรับรองแดชบอร์ดผู้ขาย](seller-dashboard.md#seller-dashboard-certification-submission-process)
+
+### <a name="private-repository-submission-process"></a>กระบวนการส่งที่เก็บแบบส่วนตัว
+
+หากคุณกำลังใช้ที่เก็บส่วนตัวเช่น GitHub เพื่อส่งการแสดงผลด้วยภาพของ Power BI สำหรับใบรับรอง ให้ทำตามคำแนะนำในส่วนนี้
+1. สร้างบัญชีใหม่สำหรับทีมการตรวจสอบความถูกต้อง
+2. กำหนดค่า[การรับรองความถูกต้องแบบสองปัจจัย](https://help.github.com/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa)สำหรับบัญชีของคุณ
+3. [สร้างชุดรหัสการกู้คืนใหม่](https://help.github.com/github/authenticating-to-github/configuring-two-factor-authentication-recovery-methods#generating-a-new-set-of-recovery-codes)
+4. เมื่อส่งการแสดงผลด้วยภาพของ Power BI ของคุณ ให้ป้อนข้อมูลต่อไปนี้:
+    * ลิงก์ไปยังที่เก็บ
+    * ข้อมูลประจำตัวสำหรับเข้าสู่ระบบ (รวมถึงรหัสผ่าน)
+    * รหัสการกู้คืน
+    * สิทธิ์แบบอ่านเท่านั้นไปยังบัญชีของเรา ([pbicvsupport](https://github.com/pbicvsupport))
 
 ## <a name="certified-power-bi-visuals"></a>ส่วนจัดแสดง Power BI ที่ผ่านการรับรอง
 

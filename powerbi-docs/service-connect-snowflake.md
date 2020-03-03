@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 03e6e8efae5cd4a5f61e3d07bc0b3c524b3b0a46
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77429360"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576868"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>การเชื่อมต่อกับ Snowflake ในบริการ Power BI
 
@@ -49,7 +49,7 @@ ms.locfileid: "77429360"
 
 * ถ้าคุณกำลังใช้เฉพาะแหล่งข้อมูล Snowflake ในแบบจำลองข้อมูลของคุณ คุณสามารถใช้ SSO ได้ถ้าคุณเลือกที่จะไม่ใช้เกตเวย์ข้อมูลภายในองค์กร
 * หากคุณกำลังใช้แหล่งข้อมูล Snowflake กับแหล่งอื่น คุณสามารถใช้ SSO ได้หากไม่มีแหล่งข้อมูลใดที่ใช้เกตเวย์ข้อมูลภายในองค์กร
-* หากคุณกำลังใช้แหล่งข้อมูล Snowflake ผ่านเกตเวย์ข้อมูลภายในองค์กร คุณสามารถใช้ข้อมูลประจำตัว AAD ได้ แต่ไม่ใช่ SSO ซึ่งอาจเกี่ยวข้องกับกรณีที่คุณกำลังพยายามเข้าถึง VNet จาก IP เดียวกับเกตเวย์ที่ติดตั้งอยู่ในนั้น แทนที่จะเป็นจากช่วง IP ทั้งหมดของ Power BI
+* หากคุณกำลังใช้แหล่งข้อมูล Snowflake ผ่านเกตเวย์ข้อมูลภายในองค์กร โปรดทราบว่าข้อมูลประจำตัว AAD ยังไม่รองรับในขณะนี้ ซึ่งอาจเกี่ยวข้องกับกรณีที่คุณกำลังพยายามเข้าถึง VNet จาก IP เดียวกับเกตเวย์ที่ติดตั้งอยู่ในนั้น แทนที่จะเป็นจากช่วง IP ทั้งหมดของ Power BI
 * หากคุณกำลังใช้แหล่งข้อมูล Snowflake กับแหล่งอื่นที่ต้องการเกตเวย์ คุณจะต้องใช้ Snowflake ผ่านเกตเวย์ข้อมูลภายในองค์กรเช่นกัน และจะไม่สามารถใช้ SSO ได้
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้เกตเวย์ข้อมูลภายในองค์กร ให้ดูบทความ [เกตเวย์ข้อมูลภายในองค์กรคืออะไร](https://docs.microsoft.com/power-bi/service-gateway-onprem)

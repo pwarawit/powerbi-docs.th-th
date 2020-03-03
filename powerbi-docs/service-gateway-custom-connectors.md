@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 78ac4f3280125fb522661a63f679981b3cda34e3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 51d03582ec91b926526a075a356323eb4f95a84b
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699484"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609884"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>ใช้ตัวเชื่อมต่อข้อมูลแบบกำหนดเองกับเกตเวย์ข้อมูลภายในองค์กร
 
@@ -46,6 +46,7 @@ ms.locfileid: "74699484"
 
 * ตรวจสอบให้แน่ใจว่าโฟลเดอร์ที่คุณสร้างจะสามารถเข้าถึงบริการเกตเวย์พื้นหลัง โดยทั่วไปแล้ว โฟลเดอร์ภายใต้โฟลเดอร์ Windows หรือโฟลเดอร์ระบบของผู้ใช้ของคุณจะไม่สามารถเข้าถึงได้ แอปเกตเวย์ข้อมูลภายในองค์กรจะแสดงข้อความถ้าไม่สามารถเข้าถึงโฟลเดอร์ได้ คำแนะนำนี้ใช้ไม่ได้กับเกตเวย์ข้อมูลภายในองค์กร (โหมดส่วนบุคคล)
 * สำหรับตัวเชื่อมต่อแบบกำหนดเองเพื่อทำงานกับเกตเวย์ข้อมูลภายในองค์กร พวกเขาจำเป็นต้องใช้ส่วน "TestConnection" ในรหัสของตัวเชื่อมต่อแบบกำหนดเอง ส่วนนี้ไม่จำเป็นเมื่อคุณใช้ตัวเชื่อมต่อแบบกำหนดเองกับ Power BI Desktop ด้วยเหตุผลนี้ คุณสามารถมีตัวเชื่อมต่อที่ใช้งานได้กับ Power BI Desktop แต่ไม่ใช่กับเกตเวย์ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้งาน TestConnection โปรดดู [เอกสารนี้](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support)
+* OAuth สำหรับตัวเชื่อมต่อแบบกำหนดเองผ่านเกตเวย์ได้รับการรองรับเฉพาะสำหรับผู้ดูแลเกตเวย์แต่ไม่ใช่แหล่งข้อมูลอื่นๆ ในขณะนี้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
@@ -57,4 +58,4 @@ ms.locfileid: "74699484"
 * [กำหนดค่าการตั้งค่าพร็อกซีสำหรับเกตเวย์ข้อมูลภายในองค์กร](/data-integration/gateway/service-gateway-proxy)
 * [ใช้ Kerberos สำหรับลงชื่อเข้าใช้ครั้งเดียว (SSO) จาก Power BI ไปยังแหล่งข้อมูลภายในองค์กร](service-gateway-sso-kerberos.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? ลองถาม[ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ ลองถาม[ชุมชน Power BI](https://community.powerbi.com/)
