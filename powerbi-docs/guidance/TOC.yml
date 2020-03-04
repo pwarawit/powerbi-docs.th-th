@@ -60,6 +60,16 @@
               href: report-page-tooltips.md
             - name: ใช้การดูหน้ารายงานแบบเจาะลึก
               href: report-drillthrough.md
+            - name: เคล็ดลับในการจัดการแกน
+              href: report-design-tips-axes.md
+            - name: เคล็ดลับในการควบคุมเส้นตารางแผนภูมิ
+              href: report-tips-chart-gridlines.md
+            - name: เคล็ดลับในการปรับใช้ป้ายชื่อให้เหมาะสม
+              href: report-tips-labels.md
+            - name: เคล็ดลับในการจัดรูปแบบและใช้คำอธิบายแผนภูมิ
+              href: report-tips-legends.md
+            - name: เคล็ดลับเพื่อปรับสีของภาพให้เหมาะสม
+              href: report-tips-visual-colors.md
         - name: Power BI รายงานเลขหน้า
           items:
             - name: ควรใช้รายงานหน้าเมื่อใด
