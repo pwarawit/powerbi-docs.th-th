@@ -102,4 +102,4 @@ qna.on("visualRendered", function(event) {
 
 ถ้าต้องการทดลองการฝังตัวถามตอบ ดู[ตัวอย่างการฝังตัวด้วย JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)
 
-คำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

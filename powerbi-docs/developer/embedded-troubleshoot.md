@@ -21,9 +21,9 @@ ms.locfileid: "74264107"
 
 ## <a name="tools-to-troubleshoot"></a>เครื่องมือการแก้ไขปัญหา
 
-### <a name="fiddler-trace"></a>ติดตาม Fiddler
+### <a name="fiddler-trace"></a>ติดตาม fiddler
 
-[Fiddler](https://www.telerik.com/fiddler) เป็นเครื่องมือฟรีจาก Telerik ที่ใช้ตรวจดูการรับส่งข้อมูลใน HTTP  คุณสามารถดูปริมาณการใช้งานได้ด้วย Power BI API จากเครื่องของลูกค้า ซึ่งอาจจะแสดงข้อผิดพลาดและข้อมูลอื่น ๆ ที่เกี่ยวข้อง
+[Fiddler](https://www.telerik.com/fiddler)เป็นเครื่องมือฟรีจาก Telerik ที่ติดตามการส่งข้อมูล HTTP  คุณสามารถดูปริมาณการใช้งานได้ด้วย Power BI API จากเครื่องของลูกค้า ซึ่งอาจจะแสดงข้อผิดพลาดและข้อมูลอื่น ๆ ที่เกี่ยวข้อง
 
 ![ติดตาม Fiddler](media/embedded-troubleshoot/fiddler.png)
 
@@ -255,7 +255,7 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 
 ตรวจสอบว่าคุณผ่านข้อกำหนดเบื้องต้นทั้งหมด ก่อนที่จะใช้เครื่องมือตั้งค่าการฝังตัว คุณต้องมีบัญชี **Power BI Pro** และการสมัครใช้งาน **Microsoft Azure**
 
-* ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro** [ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/pricing/)ก่อนที่คุณจะเริ่ม
+* ถ้าคุณยังไม่ได้ลงทะเบียนสำหรับ **Power BI Pro**[ลงทะเบียนทดลองใช้ฟรี](https://powerbi.microsoft.com/pricing/)ก่อนที่คุณจะเริ่ม
 * ถ้าคุณยังไม่มีการสมัครใช้งาน Azure สร้าง[บัญชีฟรี](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)ก่อนที่คุณจะเริ่ม
 * คุณจำเป็นต้องตั้งค่า[ผู้เช่า Azure Active Directory](create-an-azure-active-directory-tenant.md) ของคุณเอง
 * คุณต้องติดตั้ง [Visual Studio](https://www.visualstudio.com/) (เวอร์ชัน 2013 หรือใหม่กว่า)
@@ -304,7 +304,7 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [คำถามที่ถามบ่อยของ Power BI Embedded](embedded-faq.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 
 หากคุณต้องการความช่วยเหลือเพิ่มเติม โปรด [ติดต่อฝ่ายสนับสนุน](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded) หรือ [สร้างตั๋วการสนับสนุนผ่านพอร์ทัล Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) และระบุข้อความแสดงข้อผิดพลาดที่คุณพบ
 
@@ -312,4 +312,4 @@ GenerateToken สามารถล้มเหลวได้เมื่อใ
 
 สำหรับข้อมูลเพิ่มเติม ให้ดู [คำถามที่พบบ่อย](embedded-faq.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

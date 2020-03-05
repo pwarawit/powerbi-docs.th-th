@@ -187,4 +187,4 @@ namespace walkthrough_push_data
 [ภาพรวมของ Power BI REST API](overview-of-power-bi-rest-api.md)  
 [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

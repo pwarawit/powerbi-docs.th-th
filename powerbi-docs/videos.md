@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 03/03/2020
 ms.author: davidi
-ms.openlocfilehash: a33efaf4e0ecd871170873df072f24bf8f824cdc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 41a0d100817f23d3a395f05cefbe60a0214bfb59
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871171"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260864"
 ---
 # <a name="power-bi-videos"></a>วิดีโอ Power BI
 เรามีแชนเนล YouTube สำหรับ Power BI! คุณสามารถเยี่ยมชม[แชนเนลของเรา](https://www.youtube.com/user/mspowerbi/videos)และคุณไม่คุ้นเคยกับ Power BI คุณควรเริ่มต้นกับการ[วิเคราะห์และแสดงภาพข้อมูลด้วย “เพลย์ลิสต์ของ Power BI”](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)
@@ -42,11 +42,10 @@ ms.locfileid: "73871171"
 ## <a name="more-videos"></a>วิดีโอเพิ่มเติม
 ดูคอลเลกชันของแหล่งข้อมูลต่อไปนี้และเนื้อหาสำหรับวิดีโอเพิ่มเติม
 
-* [คำแนะนำสำหรับการเรียนรู้ Power BI](https://powerbi.microsoft.com/guided-learning/) - คำแนะนำการเรียนรู้ของ Power BI แบบเป็นลำดับในไม่กี่ขั้นตอน
-* [Guy ในแชนเนล Cube](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)- วิดีโอใหม่เกี่ยวกับความสามารถและคุณลักษณะของ Power BI
+* [Guided Learning for Power BI](https://powerbi.microsoft.com/guided-learning/) - ทัวร์การเรียนรู้ Power BI เป็นลำดับขั้นตอน และเป็นตอนสั้น ๆ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [Power BI คืออะไร](fundamentals/power-bi-overview.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

@@ -46,5 +46,5 @@ ms.locfileid: "73863033"
 * [การแจ้งเตือนข้อมูลในบริการของ Power BI](end-user-alerts.md)
 * [ตั้งค่าการแจ้งเตือนข้อมูลในแอปบน iPhone (Power BI สำหรับ iOS)](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [ตั้งค่าการแจ้งเตือนข้อมูลในแอปฯมือถือ Power BI สำหรับ Windows 10](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

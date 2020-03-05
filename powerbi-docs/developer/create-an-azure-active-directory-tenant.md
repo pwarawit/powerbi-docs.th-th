@@ -97,4 +97,4 @@ ms.locfileid: "74265132"
  
 [เริ่มต้นใช้งานด่วน: ตั้งค่าเครื่องมือที่ช่วยในการพัฒนาโปรแกรม](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
