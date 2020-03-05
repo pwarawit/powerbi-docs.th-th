@@ -30,8 +30,16 @@
               href: import-modeling-data-reduction.md
             - name: คำแนะนำวันที่/เวลาอัตโนมัติ
               href: auto-date-time.md
-            - name: คำแนะนำความสัมพันธ์แบบกลุ่มต่อกลุ่ม
+            - name: ความสัมพันธ์หนึ่งต่อหนึ่ง
+              href: relationships-one-to-one.md
+            - name: ความสัมพันธ์แบบกลุ่มต่อกลุ่ม
               href: relationships-many-to-many.md
+            - name: ความสัมพันธ์ระหว่างที่ใช้ได้และใช้ไม่ได้
+              href: relationships-active-inactive.md
+            - name: ความสัมพันธ์แบบสองทิศทาง
+              href: relationships-bidirectional-filtering.md
+            - name: การแก้ปัญหาความสัมพันธ์
+              href: relationships-troubleshoot.md
             - name: คำแนะนำแบบจำลอง DirectQuery
               href: directquery-model-guidance.md
             - name: คำแนะนำโมเดลแบบรวม

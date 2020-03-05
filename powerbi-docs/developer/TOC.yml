@@ -73,6 +73,8 @@
               href: visuals/high-contrast-support.md
             - name: เปิดใช้งานตัวแบ่งส่วนข้อมูลการซิงค์
               href: visuals/enable-sync-slicers.md
+            - name: แก้จุดบกพร่องวิชวล
+              href: visuals/visuals-how-to-debug.md
             - name: แก้ปัญหาวิชวล Power BI
               href: power-bi-custom-visuals-troubleshoot.md
         - name: การอ้างอิง
@@ -101,6 +103,8 @@
                   href: visuals/utils-svg.md
                 - name: ยูทิลิตี้ชนิด
                   href: visuals/utils-type.md
+                - name: คำแนะนำเครื่องมือ
+                  href: visuals/utils-tooltip.md
                 - name: ยูทิลิตี้มุมมองข้อมูล
                   href: visuals/utils-dataview.md
         - name: ทรัพยากร
@@ -156,6 +160,8 @@
           items:
             - name: ฝังตัวจากแอป
               href: embed-from-apps.md
+            - name: ส่งออกรายงานไปยังไฟล์
+              href: export-to.md
             - name: แอปติดตั้งอัตโนมัติ
               href: embed-auto-install-app.md
             - name: สร้างผู้เช่า Azure Active Directory
@@ -257,8 +263,6 @@
           items:
             - name: กำหนดค่าข้อมูลประจำตัว
               href: configure-credentials.md
-            - name: เข้ารหัสข้อมูลประจำตัว
-              href: encrypt-credentials.md
         - name: การอ้างอิง
           items:
             - name: REST API
