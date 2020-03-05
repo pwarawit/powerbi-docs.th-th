@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 826af7b224b901b6dc9f3926260b1d920836a792
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040354"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290624"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>ขยายภาพด้วยคำแนะนำเครื่องมือของหน้ารายงาน
 
@@ -88,5 +88,5 @@ ms.locfileid: "76040354"
 - [สร้างคำแนะนำเครื่องมือตามหน้ารายงานใน Power BI Desktop](../desktop-tooltips.md)
 - [การกำหนดค่าคำแนะนำเครื่องมือเองใน Power BI Desktop](../desktop-custom-tooltips.md)
 - [ใช้องค์ประกอบภาพเพื่อปรับปรุงรายงาน Power BI](../desktop-visual-elements-for-reports.md)
-- วิดีโอ Guy in a cube: [คำแนะนำเครื่องมือหน้าของหน้ารายงาน Power BI - วิธีการสร้างคำแนะนำเครื่องมือใน Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+- มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com/)

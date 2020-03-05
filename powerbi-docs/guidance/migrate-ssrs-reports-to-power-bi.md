@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e65dd42e8ec787d0c6edba534f79cdb06e5ba14c
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: f8b7cc302cd4a26aa099f723f47865723dccb7c9
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527303"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290647"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>โยกย้ายรายงานบริการรายงานเซิร์ฟเวอร์ SQL ไปยัง Power BI
 
@@ -192,7 +192,6 @@ ms.locfileid: "77527303"
 
 - [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](../paginated-reports-report-builder-power-bi.md)
 - [คำแนะนำการเรียกข้อมูลสำหรับรายงานที่มีการแบ่งหน้า](report-paginated-data-retrieval.md)
-- วิดีโอ Guy in a cube: [การแนะนำรายงานที่มีการแบ่งหน้าใน Power BI](https://www.youtube.com/watch?v=wfqn45XNK3M)
 - [เมื่อใช้รายงานที่มีการแบ่งหน้าใน Power BI](report-paginated-or-power-bi.md)
 - [รายงานที่มีการแบ่งหน้าใน Power BI: คำถามที่พบบ่อย](../paginated-reports-faq.md)
 - [Power BI Premium คำถามที่พบบ่อย](../service-premium-faq.md)
