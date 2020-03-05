@@ -37,7 +37,7 @@ ms.locfileid: "73871023"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 อ่านข้อมูลเพิ่มเติมเกี่ยวกับ[การแสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)
 
-[Power BI - แนวคิดพื้นฐาน](../consumer/end-user-basic-concepts.md)
+[Power BI แนวคิดพื้นฐาน](../consumer/end-user-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

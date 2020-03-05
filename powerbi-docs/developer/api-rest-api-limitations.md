@@ -30,7 +30,7 @@ ms.locfileid: "74265651"
 * สามารถเก็บแถวได้สูงสุด 5,000,000 แถวต่อ 1 ตารางในชุดข้อมูลที่ชื่อ ' ไม่มีข้อบังคับสำหรับการเก็บข้อมูล'  
 * ขั้นตอนการโพสต์แถวอนุญาตให้มีเพียง 4000 ตัวอักษรต่อค่าตัวเลขในสตริงคอลัมน์
   
-## <a name="see-also"></a>ดูเพิ่มเติม
+## <a name="see-also"></a>อาจดูได้จาก
 
 [ข้อจำกัดและข้อปฏิบัติของบริการ Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-service-limits-restrictions)   
 [ภาพรวมของ Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)

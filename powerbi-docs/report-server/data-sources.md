@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
+ms.date: 03/02/2020
 ms.author: maggies
-ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540601"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237534"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>แหล่งข้อมูลรายงาน Power BI ใน Power BI Report Server
 รายงาน Power BI สามารถเชื่อมต่อกับหลาย ๆ แหล่งข้อมูลได้ ขึ้นอยู่กับวิธีการใช้ข้อมูล แหล่งข้อมูลที่แตกต่างกันสามารถใช้งานได้ สามารถนำเข้าข้อมูล หรือข้อมูลสามารถถูกคิวรี่ได้โดยตรงโดยใช้ DirectQuery หรือการเชื่อมต่อตรงกับ SQL Server Analysis Services
@@ -41,7 +41,7 @@ ms.locfileid: "76540601"
 | พื้นที่เก็บข้อมูล Azure Blob |ใช่ |ใช่ |ไม่ใช่ |
 | Azure Data Lake Store |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure HDInsight (HDFS) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Azure HDInsight (Spark) |ใช่ |ใช่ |ไม่ใช่ |
+| Azure HDInsight (Spark) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | พื้นที่เก็บข้อมูล Azure Table |ใช่ |ใช่ |ไม่ใช่ |
 | Dynamics 365 (ออนไลน์) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Facebook |ใช่ |ไม่ใช่ |ไม่ใช่ |
@@ -128,7 +128,7 @@ ms.locfileid: "76540601"
 | พื้นที่เก็บข้อมูล Azure Blob |ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure Data Lake Store |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure HDInsight (HDFS) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Azure HDInsight (Spark) |ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Azure HDInsight (Spark) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | พื้นที่เก็บข้อมูล Azure Table |ไม่ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Dynamics 365 (online) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Facebook |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |

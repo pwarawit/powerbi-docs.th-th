@@ -38,5 +38,5 @@ ms.locfileid: "74265684"
   
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับมาตรฐานแบบจำลองข้อมูล OData ให้ดูที่[OData เวอร์ชัน 4.0 ส่วนที่ 1: Protocol Plus Errata 02](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)  
   
-## <a name="see-also"></a>ดูเพิ่มเติม
+## <a name="see-also"></a>อาจดูได้จาก
 [ภาพรวมของ Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  

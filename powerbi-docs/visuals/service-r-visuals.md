@@ -16,7 +16,7 @@ ms.contentlocale: th-TH
 ms.lasthandoff: 02/29/2020
 ms.locfileid: "78199084"
 ---
-# <a name="create-and-use-r-visuals-in-power-bi"></a>สร้างและใช้วิชวล R ใน Power BI 
+# <a name="create-and-use-r-visuals-in-power-bi"></a>สร้างและใช้วิชวล R ใน Power BI
 ในปัจจุบันสามารถสร้างภาพ R ได้ใน **Power BI Desktop**เท่านั้น จากนั้นเผยแพร่ไปยังบริการ Power BI สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสร้างวิชวล R โปรดดู [สร้างวิชวล Power BI โดยใช้ภาษา R ](../desktop-r-visuals.md)
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>การดูวิชวล R ในบริการ Power BI

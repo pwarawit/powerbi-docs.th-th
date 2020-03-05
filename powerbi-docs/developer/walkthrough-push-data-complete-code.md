@@ -234,4 +234,4 @@ ms.locfileid: "74265571"
 [การอ้างอิง Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
 [ภาพรวมของ Power BI REST API](overview-of-power-bi-rest-api.md)  
 
-คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

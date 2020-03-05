@@ -15,7 +15,7 @@ ms.contentlocale: th-TH
 ms.lasthandoff: 11/21/2019
 ms.locfileid: "74265531"
 ---
-# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>ขั้นตอนที่ 4: รับชุดข้อมูลเพื่อเพิ่มแถวลงในตาราง Power BI
+# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>ขั้นที่ 4: รับชุดข้อมูลเพื่อเพิ่มแถวลงในตาราง Power BI
 
 บทความนี้เป็นส่วนหนึ่งของคำแนะนำทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
 

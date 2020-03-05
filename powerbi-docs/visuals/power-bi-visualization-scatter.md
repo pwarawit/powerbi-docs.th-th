@@ -25,7 +25,7 @@ ms.locfileid: "74311616"
 
 ดูวิดีโอนี้เพื่อดูการสร้างแผนภูมิกระจาย จากนั้น ทำตามขั้นตอนด้านล่างเพื่อสร้างด้วยตนเอง
    > [!NOTE]
-   > วิดีโอนี้ใช้ Power BI Desktop เวอร์ชั่นเก่า
+   > วิดีโอนี้ใช้ Power BI Desktop เวอร์ชันเก่า
    > 
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
@@ -188,4 +188,4 @@ ms.locfileid: "74311616"
 
 * [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
