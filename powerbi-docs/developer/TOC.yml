@@ -140,6 +140,8 @@
           items:
             - name: ความจุและ SKU ในการวิเคราะห์แบบฝังตัวของ Power BI
               href: embedded-capacity.md
+            - name: การวางแผนความจุ
+              href: embedded-capacity-planning.md
             - name: แนวทางปฏิบัติที่ดีที่สุดของประสิทธิภาพการทำงาน
               href: embedded-performance-best-practices.md
             - name: โครงร่างสำคัญของบริการ
