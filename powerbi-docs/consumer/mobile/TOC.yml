@@ -1,0 +1,112 @@
+- name: แอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+  href: index.yml
+  expanded: true
+  items:
+    - name: ภาพรวม
+      expanded: true
+      items:
+        - name: แอปสำหรับอุปกรณ์เคลื่อนคืออะไร
+          href: mobile-apps-for-mobile-devices.md
+        - name: พบหน้าโฮมเพจ
+          href: mobile-apps-home-page.md
+    - name: การเริ่มต้นใช้งานด่วน
+      expanded: true
+      items:
+        - name: สำรวจแดชบอร์ดและรายงาน
+          href: mobile-apps-quickstart-view-dashboard-report.md
+    - name: บทช่วยสอน
+      expanded: true
+      items:
+        - name: ถามคำถามใน iOS แอปสำหรับอุปกรณ์เคลื่อน
+          href: tutorial-mobile-apps-ios-qna.md
+    - name: แนวคิด
+      expanded: true
+      items:
+        - name: มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่
+          href: mobile-whats-new-in-the-mobile-apps.md
+        - name: รับข้อมูลตามโลกความจริงด้วยแอปสำหรับโทรศัพท์เคลื่อนที่
+          href: mobile-apps-data-in-real-world-context.md
+        - name: ดูข้อมูลของคุณแบบออฟไลน์ในแอปสำหรับอุปกรณ์เคลื่อนที่
+          href: mobile-apps-offline-data.md
+        - name: Power BI สำหรับแอปความเป็นจริงผสม (แสดงตัวอย่าง)
+          href: mobile-mixed-reality-app.md
+    - name: วิธีการ
+      items:
+        - name: แอปทั้งหมดสำหรับอุปกรณ์เคลื่อนที่
+          items:
+            - name: แดชบอร์ดสำหรับ Power BI สำหรับอุปกรณ์เคลื่อน
+              href: mobile-apps-view-dashboard.md
+            - name: รายงานในแอปสำหรับอุปกรณ์เคลื่อนที่
+              href: mobile-reports-in-the-mobile-apps.md
+            - name: โต้ตอบกับไทล์ในแอปสำหรับอุปกรณ์เคลื่อนที่
+              href: mobile-tiles-in-the-mobile-apps.md
+            - name: แชร์แดชบอร์ดจากแอป Power BI mobile
+              href: mobile-share-dashboard-from-the-mobile-apps.md
+            - name: รายการโปรดในแอปสำหรับอุปกรณ์เคลื่อนที่
+              href: mobile-apps-favorites.md
+            - name: กำหนดการตั้งค่าการโต้ตอบ (เฉพาะโทรศัพท์)
+              href: mobile-app-interaction-settings.md
+            - name: ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+              href: mobile-set-data-alerts-in-the-mobile-apps.md
+            - name: รับการแจ้งเตือนในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+              href: mobile-apps-notification-center.md
+            - name: สร้างการเชื่อมโยงโดยตรงที่จะไปยังตำแหน่งที่ระบุ
+              href: mobile-apps-deep-link-specific-location.md
+            - name: กรองรายงานตามตำแหน่งที่ตั้งในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+              href: mobile-apps-geographic-filtering.md
+            - name: ใช้ OAuth เพื่อเชื่อมต่อกับ Reporting Services
+              href: mobile-oauth-ssrs.md
+        - name: (iOS และ Android)
+          items:
+            - name: ดูรายงานที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ
+              href: mobile-apps-view-phone-report.md
+            - name: ดูรายงานในสถานทีสำหรับอุปกรณ์เคลื่อนที่
+              href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: เข้าถึงเนื้อหาจากองค์กรภายนอก (B2B)
+              href: mobile-apps-b2b.md
+            - name: สแกนคิวอาร์โค้ด Power BI จากโทรศัพท์ของคุณ
+              href: mobile-apps-qr-code.md
+            - name: ใส่คำอธิบายประกอบ และแชร์ในแอปสำหรับอุปกรณ์เคลื่อนที่
+              href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+            - name: สแกนบาร์โค้ดด้วยแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+              href: mobile-apps-scan-barcode-iphone.md
+            - name: กำหนดค่าโดยใช้การจัดการอุปกรณ์เคลื่อนที่
+              href: mobile-app-configuration.md
+        - name: iOS
+          items:
+            - name: เริ่มต้นใช้งานแอป iOS
+              href: mobile-iphone-app-get-started.md
+            - name: 'ปกป้องด้วย Face ID, Touch ID หรือรหัสผ่าน'
+              href: mobile-ios-native-secure-access.md
+            - name: Q&A นักวิเคราะห์เสมือนจริงในแอปสำหรับอุปกรณ์เคลื่อนของ iOS
+              href: mobile-apps-ios-qna.md
+            - name: การรวมแอปสำหรับอุปกรณ์เคลื่อนที่ของ Power BI ด้วยปุ่มลัด Siri
+              href: mobile-apps-iOS-siri-Shortcuts.md
+            - name: การรวมการค้นหาอุปกรณ์ iOS
+              href: mobile-apps-iOS-search-integration.md
+            - name: แอป Power BI Apple Watch
+              href: mobile-apple-watch.md
+        - name: อุปกรณ์ Android
+          items:
+            - name: เริ่มต้นใช้งานแอป Android
+              href: mobile-android-app-get-started.md
+            - name: กำลังแก้ไข 'ใบรับรอง SSL ขององค์กรของคุณไม่น่าเชื่อถือ'
+              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: 'ข้อผิดพลาด: "จำเป็นต้องอัปเดต Android System Webview"'
+              href: mobile-android-error-update-android-system-webview.md
+        - name: แอป Power BI สำหรับอุปกรณ์ Windows 10
+          items:
+            - name: เริ่มต้นใช้งานแอป Windows 10
+              href: mobile-windows-10-phone-app-get-started.md
+            - name: ปักหมุดกับแดชบอรที่หน้าจอเริ่มต้น
+              href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+            - name: ดูรายงานอุปกรณ์มือถือของ Reporting Services และ KPI
+              href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+            - name: ดู Power BI บน Surface Hub
+              href: mobile-windows-10-app-presentation-mode.md
+            - name: ลงชื่อเข้าระบบครั้งเดียวในแอป Windows
+              href: mobile-windows-10-app-single-sign-on-sso.md
+    - name: ทรัพยากร
+      items:
+        - name: ภาษาที่สนับสนุนในแอปสำหรับอุปกรณ์เคลื่อนที่
+          href: mobile-apps-supported-languages.md
