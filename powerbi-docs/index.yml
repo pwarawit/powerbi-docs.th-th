@@ -1,0 +1,243 @@
+### YamlMime:Hub
+title: การเตรียมเอกสาร Power BI
+summary: Power BI เน้นความแข็งแกร่งข้อมูลเชิงลึกของคุณและค่าของข้อมูลของคุณ ด้วยเอกสารประกอบ Power BI คุณจะได้รับข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+brand: power-bi
+metadata:
+  title: การเตรียมเอกสาร Power BI
+  description: Power BI เน้นความแข็งแกร่งข้อมูลเชิงลึกของคุณและค่าของข้อมูลของคุณ ค้นหาข้อมูลระดับผู้เชี่ยวชาญและคำตอบที่นี่ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+  services: service
+  ms.service: powerbi
+  ms.subservice: subservice
+  ms.topic: hub-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: ad1e273947744f2d7611f6a4a03940e52f2a64fa
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924310"
+highlightedContent:
+  items:
+  - title: เริ่มต้นใช้งาน Power BI Desktop
+    itemType: get-started
+    url: desktop-getting-started.md
+  - title: ลงชื่อออกจากบริการ Power BI
+    itemType: how-to-guide
+    url: service-self-service-signup-for-power-bi.md
+  - title: แนวทางในการทำงานร่วมกันและแชร์
+    itemType: concept
+    url: service-how-to-collaborate-distribute-dashboards-reports.md
+conceptualContent:
+  items:
+  - title: 'Power BI: เริ่มใช้งาน'
+    links:
+    - url: power-bi-overview.md
+      itemType: overview
+      text: Power BI คืออะไร
+    - url: desktop-what-is-desktop.md
+      itemType: overview
+      text: Power BI Desktop คืออะไร
+    - url: power-bi-service-overview.md
+      itemType: overview
+      text: บริการ Power BI คืออะไร
+    footerLink:
+      url: fundamentals/index.yml
+      text: ดูเพิ่มเติม
+  - title: Power BI สำหรับผู้บริโภค
+    links:
+    - url: consumer/end-user-consumer.md
+      itemType: get-started
+      text: ฉันเป็นผู้บริโภคของ Power BI หรือไม่
+    - url: consumer/end-user-experience.md
+      itemType: get-started
+      text: สำรวจบริการ Power BI
+    - url: consumer/end-user-dashboards.md
+      itemType: concept
+      text: แดชบอร์ดคืออะไร
+    footerLink:
+      url: consumer/index.yml
+      text: ดูเพิ่มเติม
+  - title: ผู้ดูแลระบบ Power BI
+    links:
+    - url: service-admin-administering-power-bi-in-your-organization.md
+      itemType: overview
+      text: การดูแล Power BI คืออะไร?
+    - url: service-admin-licensing-organization.md
+      itemType: concept
+      text: สิทธิการใช้งานในองค์กรของคุณ
+    - url: service-admin-portal.md
+      itemType: concept
+      text: พอร์ทัลผู้ดูแลระบบ
+    footerLink:
+      url: admin/index.yml
+      text: ดูเพิ่มเติม
+  - title: พัฒนาใน Power BI
+    links:
+    - url: developer/what-can-you-do.md
+      itemType: overview
+      text: นักพัฒนาใดบ้างที่สามารถทำได้
+    - url: power-bi-custom-visuals.md
+      itemType: overview
+      text: นักพัฒนาและวิชวล
+    - url: developer/embedding.md
+      itemType: overview
+      text: การวิเคราะห์แบบฝังตัว
+    footerLink:
+      url: developer/index.yml
+      text: ดูเพิ่มเติม
+  - title: เชื่อมต่อกับข้อมูล
+    links:
+    - url: desktop-quickstart-connect-to-data.md
+      itemType: tutorial
+      text: เชื่อมต่อกับข้อมูล
+    - url: service-gateway-onprem.md
+      itemType: concept
+      text: เกตเวย์ข้อมูลภายในองค์กร
+    - url: refresh-data.md
+      itemType: concept
+      text: การรีเฟรชข้อมูล
+    footerLink:
+      url: connect-data/index.yml
+      text: ดูเพิ่มเติม
+  - title: แปลงและทำข้อมูลให้เป็นรูปร่าง
+    links:
+    - url: desktop-analytics-pane.md
+      itemType: how-to-guide
+      text: การใช้บานหน้าต่างการวิเคราะห์
+    - url: desktop-common-query-tasks.md
+      itemType: concept
+      text: งานคิวรีแบบทั่วไป
+    - url: desktop-shape-and-combine-data.md
+      itemType: tutorial
+      text: จัดรูปร่างและรวมข้อมูล
+    footerLink:
+      url: transform-model/index.yml
+      text: ดูเพิ่มเติม
+  - title: ข้อมูลแบบจำลอง
+    links:
+    - url: desktop-add-custom-column.md
+      itemType: how-to-guide
+      text: เพิ่มคอลัมน์แบบกำหนดเอง
+    - url: desktop-tutorial-create-calculated-columns.md
+      itemType: tutorial
+      text: สร้างคอลัมน์จากการคำนวณ
+    - url: desktop-create-and-manage-relationships.md
+      itemType: how-to-guide
+      text: สร้างและจัดการความสัมพันธ์
+    footerLink:
+      url: transform-model/index.yml
+      text: ดูเพิ่มเติม
+  - title: สร้างรายงานและแดชบอร์ด
+    links:
+    - url: desktop-report-themes.md
+      itemType: concept
+      text: ธีมรายงาน
+    - url: desktop-conditional-table-formatting.md
+      itemType: concept
+      text: อะไรคือรายงานที่มีการแบ่งหน้า?
+    - url: paginated-reports/paginated-reports-report-builder-power-bi.md
+      itemType: how-to-guide
+      text: สร้างแดชบอร์ด
+    footerLink:
+      url: create-reports/index.yml
+      text: ดูเพิ่มเติม
+  - title: ร่วมงานและแชร์
+    links:
+    - url: service-share-dashboards.md
+      itemType: concept
+      text: แชร์แดชบอร์ดและรายงาน
+    - url: service-create-the-new-workspaces.md
+      itemType: how-to-guide
+      text: สร้างพื้นที่ทำงานใหม่
+    - url: service-datasets-across-workspaces.md
+      itemType: concept
+      text: แนะนำชุดข้อมูลที่แชร์
+    footerLink:
+      url: collaborate-share/index.yml
+      text: ดูเพิ่มเติม
+  - title: รวมผลิตภัณฑ์ทั้งหมดเข้าด้วยกัน
+    links:
+    - url: service-azure-and-power-bi.md
+      itemType: concept
+      text: Azure และ Power BI
+    - url: service-analyze-in-excel.md
+      itemType: concept
+      text: วิเคราะห์ใน Excel
+    - url: service-embed-report-spo.md
+      itemType: concept
+      text: ฝังใน SharePoint Online
+    footerLink:
+      url: collaborate-share/index.yml
+      text: ดูเพิ่มเติม
+  - title: Power BI ในแอปสำหรับอุปกรณ์เคลื่อนที่
+    links:
+    - url: consumer/mobile/mobile-apps-for-mobile-devices.md
+      itemType: get-started
+      text: แอปสำหรับอุปกรณ์เคลื่อนคืออะไร
+    - url: consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md
+      itemType: quickstart
+      text: สำรวจแดชบอร์ดและรายงาน
+    - url: consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      itemType: how-to-guide
+      text: ดูรายงานภายในองค์กร
+    footerLink:
+      url: consumer/mobile/index.yml
+      text: ดูเพิ่มเติม
+  - title: องค์กร
+    links:
+    - url: service-premium-what-is.md
+      itemType: overview
+      text: Power BI Premium คืออะไร?
+    - url: service-admin-power-bi-security.md
+      itemType: concept
+      text: ความปลอดภัย
+    - url: admin/service-security-data-protection-overview.md
+      itemType: concept
+      text: การป้องกันข้อมูล
+    footerLink:
+      url: admin/index.yml
+      text: ดูเพิ่มเติม
+  - title: แนวทางปฏิบัติที่ดีที่สุด
+    links:
+    - url: guidance/overview.md
+      itemType: overview
+      text: ภาพรวมของคำแนะนำ
+    - url: guidance/star-schema.md
+      itemType: concept
+      text: โครงสร้างแบบดาว
+    - url: guidance/import-modeling-data-reduction.md
+      itemType: concept
+      text: ลดขนาดแบบจำลองข้อมูล
+    footerLink:
+      url: guidance/index.yml
+      text: ดูเพิ่มเติม
+  - title: เรียนรู้
+    links:
+    - url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/
+      itemType: learn
+      text: สำรวจว่า Power BI สามารถทำอะไรให้คุณได้บ้าง
+    - url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/
+      itemType: learn
+      text: วิเคราะห์ข้อมูล
+    - url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/
+      itemType: learn
+      text: เริ่มต้นสร้าง
+    footerLink:
+      url: guided-learning/index.yml
+      text: ดูเพิ่มเติม
+additionalContent:
+  sections:
+  - title: เครื่องมือที่เกี่ยวข้อง
+  - items:
+    - title: เซิร์ฟเวอร์รายงาน Power BI
+      summary: สำรวจเซิร์ฟเวอร์รายงาน Power BI เซิร์ฟเวอร์รายงานในองค์กรที่มีพอร์ทัลเว็บที่คุณแสดงและจัดการรายงาน Power BI รายงานที่มีการแบ่งหน้า และ KPI
+      url: report-server/index.yml
+    - title: Power BI REST APIs
+      summary: Power BI REST APIs จัดเตรียมจุดสิ้นสุดการบริการสำหรับการฝัง การจัดการ และทรัพยากรผู้ใช้
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - title: เอกสารประกอบ Power Platform
+      summary: เรียนรู้ว่า Power BI, Power Apps, Power Automate และ Power Virtual Agent ทำงานร่วมกันเพื่อส่งเสริมประสิทธิภาพซึ่งกันและกันอย่างไร
+      url: https://docs.microsoft.com/power-platform/

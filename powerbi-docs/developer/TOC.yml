@@ -93,12 +93,18 @@
               href: visuals/localization.md
             - name: ยูทิลิตี้ Power BI Visual
               items:
+                - name: การเพิ่มไลบรารีภายนอก
+                  href: visuals/adding-external-libraries.md
                 - name: การโต้ตอบ.utils
                   href: visuals/utils-interactivity-selections.md
                 - name: ยูทิลิตี้การจัดรูปแบบ
                   href: visuals/utils-formatting.md
+                - name: ยูทิลิตี้มุมมองข้อมูล
+                  href: visuals/utils-dataview.md
                 - name: ยูทิลิตี้แผนภูมิ
                   href: visuals/utils-chart.md
+                - name: ยูทิลิตี้สี
+                  href: visuals/utils-color.md
                 - name: ยูทิลิตี้ SVG
                   href: visuals/utils-svg.md
                 - name: ยูทิลิตี้ชนิด

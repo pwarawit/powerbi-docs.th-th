@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: เอกสารประกอบเริ่มต้นใช้งาน Power BI
+summary: เอกสารประกอบ Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+metadata:
+  title: เอกสารประกอบเริ่มต้นใช้งาน Power BI
+  description: เอกสารประกอบ Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/05/2020
+  ms.openlocfilehash: ec79ce7ca7d7e50f5a3a806ad14de50b786483f5
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924379"
+landingContent:
+- title: Power BI คืออะไร
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI คืออะไร
+      url: ../power-bi-overview.md
+    - text: Power BI Desktop คืออะไร
+      url: ../desktop-what-is-desktop.md
+    - text: บริการ Power BI คืออะไร
+      url: ../power-bi-service-overview.md
+    - text: การเปรียบเทียบ Power BI Desktop และการบริการ
+      url: ../service-service-vs-desktop.md
+- title: มีอะไรใหม่บ้าง?
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: มีอะไรใหม่ใน Power BI Desktop บ้าง
+      url: ../desktop-latest-update.md
+    - text: มีอะไรใหม่ในบริการ
+      url: ../service-whats-new.md
+- title: เริ่มต้นใช้งานด้วย Learn
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: สร้างและใช้รายงานการวิเคราะห์
+      url: https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/
+    - text: รับข้อมูลใน Power BI Desktop
+      url: https://docs.microsoft.com/power-bi/guided-learning/gettingdata?tutorial-step=1
+- title: สิทธิ์การใช้งาน
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: ลงทะเบียนใช้งาน Power BI
+      url: ../service-self-service-signup-for-power-bi.md
+    - text: คุณลักษณะตามประเภทของสิทธิ์การใช้งาน
+      url: ../service-features-license-type.md
+- title: ทรัพยากร
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: วิดีโอ Power BI
+      url: ../videos.md
+    - text: วิดีโอ Power BI Desktop
+      url: ../desktop-videos.md
+    - text: สัมมนาผ่านเว็บ
+      url: ../webinars.md

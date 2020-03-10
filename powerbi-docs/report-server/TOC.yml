@@ -1,0 +1,124 @@
+- name: เซิร์ฟเวอร์รายงาน Power BI
+  expanded: true
+  items:
+    - name: ภาพรวม
+      expanded: true
+      items:
+        - name: เซิร์ฟเวอร์รายงาน Power BI คืออะไร?
+          href: get-started.md
+        - name: เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และเซอร์วิซ
+          href: compare-report-server-service.md
+    - name: บทช่วยสอน
+      expanded: true
+      items:
+        - name: สำรวจ Power BI Report Server ใน VM
+          href: tutorial-explore-report-server-web-portal.md
+    - name: แนวคิด
+      expanded: true
+      items:
+        - name: มีอะไรใหม่
+          href: whats-new.md
+        - name: ภาพรวมของผู้ดูแลระบบ
+          href: admin-handbook-overview.md
+        - name: บันทึกการเปลี่ยนแปลง
+          href: changelog.md
+        - name: ไทม์ไลน์ฝ่ายสนับสนุน
+          href: support-timeline.md
+        - name: การสนับสนุนแบบเข้ารหัสเสมอ
+          href: always-encrypted-support.md
+        - name: ข้อกำหนดของฮาร์ดแวร์และซอฟต์แวร์
+          href: system-requirements.md
+        - name: การสนับสนุนเบราว์เซอร์
+          href: browser-support.md
+        - name: ข้อมูลพื้นฐานเกี่ยวกับเซิร์ฟเวอร์รายงาน
+          items:
+            - name: การรีเฟรชตามกำหนดการรีพอร์ตเซิร์ฟเวอร์ของ Power BI
+              href: scheduled-refresh.md
+            - name: แหล่งข้อมูลรายงาน Power BI
+              href: data-sources.md
+            - name: แหล่งข้อมูลรายงานที่แบ่งเป็นหน้า
+              href: connect-data-sources.md
+            - name: การสมัครใช้งาน
+              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
+            - name: การใช้แอปมือถือ
+              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
+            - name: แก้ไขปัญหาการรีเฟรชตามกำหนดการ
+              href: scheduled-refresh-troubleshoot.md
+        - name: เซิร์ฟเวอร์รายงานสำหรับนักพัฒนา
+          items:
+            - name: เซิร์ฟเวอร์รายงานสำหรับนักพัฒนา
+              href: developer-handbook-overview.md
+            - name: ตัวควบคุมตัวดูรายงาน
+              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
+            - name: พัฒนาส่วนขยาย
+              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+            - name: ฝังรายงาน
+              href: quickstart-embed.md
+    - name: วิธีการ
+      items:
+        - name: ติดตั้ง Power BI Desktop
+          href: install-powerbi-desktop.md
+        - name: ติดตั้งตัวสร้างข้อมูลรายงาน
+          href: install-report-builder.md
+        - name: ข้อมูลพื้นฐานเกี่ยวกับเซิร์ฟเวอร์รายงาน
+          items:
+            - name: สร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน
+              href: quickstart-create-powerbi-report.md
+            - name: จัดการเนื้อหาในเซิร์ฟเวอร์รายงาน
+              href: getting-around.md
+            - name: การรักษาความปลอดภัยระดับแถว (RLS) ในเซิร์ฟเวอร์รายงาน
+              href: row-level-security-report-server.md
+            - name: สร้างรายงานที่แบ่งเป็นหน้า Power BI สำหรับเซิร์ฟเวอร์รายงาน
+              href: quickstart-create-paginated-report.md
+            - name: ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรง
+              href: ../paginated-reports/paginated-reports-enter-data.md
+            - name: ทำงานกับ Kpi
+              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
+            - name: เข้าถึงชุดข้อมูลที่แชร์เป็นตัวดึงข้อมูล OData
+              href: access-dataset-odata.md
+            - name: เปลี่ยนแปลงชุดอักขระการเชื่อมต่อต้นทางของข้อมูลผ่าน PowerShell
+              href: connect-data-source-apis.md
+            - name: กำหนดค่าการรีเฟรชตามกำหนดเวลา
+              href: configure-scheduled-refresh.md
+            - name: เพิ่มข้อคิดเห็นในรายงาน
+              href: add-comments.md
+        - name: เซิร์ฟเวอร์รายงานสำหรับผู้ดูแลระบบ
+          items:
+            - name: ติดตั้งเซิร์ฟเวอร์รายงาน
+              href: install-report-server.md
+            - name: ค้นหาคีย์ผลิตภัณฑ์ของคุณ
+              href: find-product-key.md
+            - name: อัปเกรดเซิร์ฟเวอร์รายงาน
+              href: upgrade.md
+            - name: ย้ายเซิร์ฟเวอร์รายงาน
+              href: migrate-report-server.md
+            - name: กำหนดค่า Kerberos เพื่อใช้รายงาน Power BI
+              href: configure-kerberos-powerbi-reports.md
+            - name: กำหนดค่าการเข้าถึงแอปสำหรับอุปกรณ์เคลื่อนจากระยะไกล
+              href: configure-powerbi-mobile-apps-remote.md
+            - name: กำหนดค่า WAP และ AD FS
+              href: connect-adfs-wap-report-server.md
+            - name: กำหนดค่าเซิร์ฟเวอร์รายงานด้วย Azure Application Proxy
+              href: azure-application-proxy.md
+            - name: เข้าถึงอุปกรณ์เคลื่อนที่จากระยะไกลด้วย Azure AD
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
+            - name: สมุดงาน Excel ของโฮสต์
+              href: excel-oos.md
+    - name: การอ้างอิง
+      items:
+        - name: REST API
+          href: rest-api.md
+        - name: WMI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
+        - name: SOAP API
+          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
+        - name: เข้าถึง URL
+          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
+        - name: ส่วนขยาย
+          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+    - name: ทรัพยากร
+      items:
+        - name: เอกสารทางเทคนิคเรื่องการวางแผนกำลังการผลิต
+          href: capacity-planning.md
+        - name: ความสอดคล้องของการสร้างภาพให้เป็นรูปแบบไฟล์ PDF
+          href: rendering-extension-support.md

@@ -1,0 +1,87 @@
+### YamlMime:Landing
+title: เอกสารประกอบเซิร์ฟเวอร์รายงาน Power BI
+summary: เอกสารประกอบเซิร์ฟเวอร์รายงาน Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+metadata:
+  title: เอกสารประกอบเซิร์ฟเวอร์รายงาน Power BI
+  description: เอกสารประกอบเซิร์ฟเวอร์รายงาน Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: f727b8832c29c4bfca448a03898620c183eb13a2
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924632"
+landingContent:
+- title: เกี่ยวกับเซิร์ฟเวอร์รายงาน Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: เซิร์ฟเวอร์รายงาน Power BI คืออะไร?
+      url: get-started.md
+  - linkListType: concept
+    links:
+    - text: เปรียบเทียบเซิร์ฟเวอร์รายงานและบริการ
+      url: compare-report-server-service.md
+    - text: มีอะไรใหม่ใน Power BI Report Server
+      url: whats-new.md
+- title: เริ่มใช้งาน
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: สำรวจ Power BI Report Server ใน VM
+      url: tutorial-explore-report-server-web-portal.md
+  - linkListType: concept
+    links:
+    - text: ภาพรวมของผู้ดูแลระบบ
+      url: admin-handbook-overview.md
+    - text: ภาพรวมของนักพัฒนา
+      url: developer-handbook-overview.md
+  - linkListType: how-to-guide
+    links:
+    - text: ติดตั้ง Power BI Desktop
+      url: install-powerbi-desktop.md
+    - text: ติดตั้งตัวสร้างข้อมูลรายงาน
+      url: install-report-builder.md
+- title: เซิร์ฟเวอร์รายงานสำหรับผู้ดูแลระบบ
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: ข้อกำหนดของฮาร์ดแวร์และซอฟต์แวร์
+      url: system-requirements.md
+  - linkListType: how-to-guide
+    links:
+    - text: ติดตั้งเซิร์ฟเวอร์รายงาน
+      url: install-report-server.md
+    - text: ค้นหาคีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน
+      url: find-product-key.md
+    - text: ย้ายการติดตั้งเซิร์ฟเวอร์รายงาน
+      url: migrate-report-server.md
+    - text: กำหนดค่า Kerberos
+      url: configure-kerberos-powerbi-reports.md
+- title: เซิร์ฟเวอร์รายงานสำหรับผู้สร้างรายงาน
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: การรีเฟรชตามกำหนดการรีพอร์ตเซิร์ฟเวอร์ของ Power BI
+      url: scheduled-refresh.md
+    - text: แหล่งข้อมูลรายงาน Power BI
+      url: data-sources.md
+    - text: แหล่งข้อมูลรายงานที่แบ่งเป็นหน้า
+      url: connect-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: สร้างรายงาน Power BI
+      url: quickstart-create-powerbi-report.md
+    - text: จัดการเนื้อหาในพอร์ทัลของเว็บ
+      url: getting-around.md
+    - text: เข้าถึงชุดข้อมูลที่แชร์เป็นตัวดึงข้อมูล OData
+      url: access-dataset-odata.md
+    - text: รักษาความปลอดภัยระดับแถว
+      url: row-level-security-report-server.md

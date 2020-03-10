@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: เอกสารประกอบแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+summary: เอกสารประกอบ Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+metadata:
+  title: เอกสารประกอบแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+  description: เอกสารประกอบ Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/11/2020
+  ms.openlocfilehash: 96881ecb03132579643517679aaab3c87b7a977f
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78923919"
+landingContent:
+- title: เกี่ยวกับแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: แอปสำหรับอุปกรณ์เคลื่อนคืออะไร
+      url: mobile-apps-for-mobile-devices.md
+    - text: มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่บ้าง
+      url: mobile-whats-new-in-the-mobile-apps.md
+    - text: หน้าหลักของแอปสำหรับอุปกรณ์เคลื่อนที่
+      url: mobile-apps-home-page.md
+- title: เริ่มใช้งาน
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: เริ่มต้นใช้งาน Android
+      url: mobile-android-app-get-started.md
+    - text: เริ่มต้นใช้งาน iOS
+      url: mobile-iphone-app-get-started.md
+    - text: เริ่มต้นใช้งาน Windows 10
+      url: mobile-windows-10-phone-app-get-started.md
+  - linkListType: quickstart
+    links:
+    - text: สำรวจแดชบอร์ดและรายงาน
+      url: mobile-apps-quickstart-view-dashboard-report.md
+- title: สำรวจ
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: ถามคำถามเกี่ยวกับข้อมูลของคุณ
+      url: tutorial-mobile-apps-ios-qna.md
+  - linkListType: how-to-guide
+    links:
+    - text: ดูข้อมูลแบบออฟไลน์
+      url: mobile-apps-offline-data.md
+    - text: แชร์แดชบอร์ดหรือรายงาน
+      url: mobile-share-dashboard-from-the-mobile-apps.md
+    - text: ตั้งค่าการแจ้งเตือนข้อมูล
+      url: mobile-set-data-alerts-in-the-mobile-apps.md
+- title: รายงานภายในองค์กร
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: ดูรายงาน & Kpi ภายในองค์กร
+      url: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+    - text: เชื่อมต่อ OAuth กับรายงานภายในองค์กร
+      url: mobile-oauth-ssrs.md

@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: เอกสารประกอบรายงานที่มีการแบ่งหน้าของ Power BI
+summary: เอกสารประกอบรายงานที่มีการแบ่งหน้าของ Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+metadata:
+  title: เอกสารประกอบรายงานที่มีการแบ่งหน้าของ Power BI
+  description: เอกสารประกอบรายงานที่มีการแบ่งหน้าของ Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 47a77e156c6b59440e0de500a3f2ab9dede01c85
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924609"
+landingContent:
+- title: เกี่ยวกับรายงานที่มีการแบ่งหน้าของ Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: รายงานที่มีการแบ่งหน้าของ Power BI คืออะไร
+      url: paginated-reports-report-builder-power-bi.md
+    - text: ตัวสร้างรายงานใน Power BI
+      url: report-builder-power-bi.md
+- title: เริ่มใช้งาน
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: สร้างรายงานที่มีการแบ่งหน้าและอัปโหลดรายงาน
+      url: paginated-reports-quickstart-aw.md
+  - linkListType: concept
+    links:
+    - text: สำรวจดูรอบ ๆ  ในมุมมองการออกแบบรายงาน
+      url: paginated-reports-report-design-view.md
+    - text: การวางแผนรายงานที่มีการแบ่งหน้า
+      url: report-builder-planning-report.md
+- title: เชื่อมต่อกับข้อมูล
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: ข้อมูลในตัวสร้างรายงาน
+      url: report-builder-data.md
+    - text: แหล่งข้อมูลที่ได้รับการสนับสนุน
+      url: paginated-reports-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: สร้างแหล่งข้อมูลแบบฝังตัว
+      url: paginated-reports-embedded-data-source.md
+    - text: สร้างชุดข้อมูลแบบฝังตัว
+      url: paginated-reports-create-embedded-dataset.md
+- title: สร้างรายงาน
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: ตาราง เมทริกซ์ และรายการ
+      url: report-builder-tables-matrices-lists.md
+  - linkListType: how-to-guide
+    links:
+    - text: สร้างรายงานบนชุดข้อมูล SharePoint
+      url: report-builder-shared-datasets.md
+    - text: สร้างพารามิเตอร์
+      url: paginated-reports-parameters.md
+- title: ปรับแต่งและเผยแพร่รายงาน
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: ตัวอย่างนิพจน์
+      url: report-builder-expression-examples.md
+    - text: การแบ่งหน้ารายงาน
+      url: paginated-reports-pagination.md
+  - linkListType: how-to-guide
+    links:
+    - text: ส่งพารามิเตอร์รายงานใน URL
+      url: report-builder-url-pass-parameters.md
+    - text: เผยแพร่รายงานที่มีการแบ่งหน้า
+      url: paginated-reports-save-to-power-bi-service.md

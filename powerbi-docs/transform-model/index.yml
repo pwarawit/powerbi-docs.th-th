@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: แปลง จัดรูปแบบ และสร้างแบบจำลองข้อมูลใน Power BI - เอกสารประกอบ
+summary: เอกสารประกอบ Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+metadata:
+  title: แปลง จัดรูปแบบ และสร้างแบบจำลองข้อมูลใน Power BI - เอกสารประกอบ
+  description: เอกสารประกอบ Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: 738bc26097120b0075f3ca1ffb0787f241aec982
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924540"
+landingContent:
+- title: แปลงและทำข้อมูลให้เป็นรูปร่าง
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: ภาพรวมตัวแก้ไขคิวรี
+      url: ../desktop-query-overview.md
+  - linkListType: tutorial
+    links:
+    - text: จัดรูปร่างและรวมข้อมูล
+      url: ../desktop-shape-and-combine-data.md
+  - linkListType: concept
+    links:
+    - text: งานคิวรีแบบทั่วไป
+      url: ../desktop-common-query-tasks.md
+  - linkListType: how-to-guide
+    links:
+    - text: รวมไฟล์ (ไบนารี)
+      url: ../desktop-combine-binaries.md
+- title: ข้อมูลแบบจำลอง
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: มุมมองการสร้างแบบจำลอง
+      url: ../desktop-modeling-view.md
+    - text: ความสัมพันธ์แบบกลุ่มต่อกลุ่ม
+      url: ../desktop-many-to-many-relationships.md
+  - linkListType: how-to-guide
+    links:
+    - text: สร้างและจัดการความสัมพันธ์
+      url: ../desktop-create-and-manage-relationships.md
+    - text: ใช้การจัดหมวดหมู่ข้อมูล
+      url: ../desktop-data-categorization.md
+- title: การคำนวณ
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: เรียนรู้พื้นฐานของ DAX
+      url: ../desktop-quickstart-learn-dax-basics.md
+    - text: สร้างคอลัมน์จากการคำนวณ
+      url: ../desktop-tutorial-create-calculated-columns.md
+  - linkListType: concept
+    links:
+    - text: ตารางที่ได้รับการคำนวณ
+      url: ../desktop-calculated-tables.md
+  - linkListType: how-to-guide
+    links:
+    - text: ใช้หน่วยวัดด่วน
+      url: ../desktop-quick-measures.md
+- title: บริการเตรียมข้อมูลด้วยตนเอง
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: การเตรียมข้อมูลด้วยตนเองใน Power BI
+      url: ../desktop-quickstart-connect-to-data.md
+  - linkListType: concept
+    links:
+    - text: 'กระแสข้อมูล: บริการเตรียมข้อมูลด้วยตนเอง'
+      url: ../service-dataflows-overview.md
+    - text: สร้างและใช้กระแสข้อมูล
+      url: ../service-dataflows-create-use.md
