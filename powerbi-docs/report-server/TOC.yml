@@ -1,4 +1,5 @@
-- name: เซิร์ฟเวอร์รายงาน Power BI
+- name: เอกสารประกอบเซิร์ฟเวอร์รายงาน Power BI
+  href: index.yml
   expanded: true
   items:
     - name: ภาพรวม
