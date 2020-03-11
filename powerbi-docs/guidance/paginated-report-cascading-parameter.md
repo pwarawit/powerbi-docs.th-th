@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2a8dca43077fe12e4903585e3926cc67fe864136
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76162422"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920792"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>ใช้พารามิเตอร์การเรียงในรายงานที่มีเลขหน้า
 
-บทความนี้มุ่งไปที่คุณเช่นเดียวกับผู้เขียนรายงานที่ออกแบบ Power BI [รายงานที่มีเลขหน้า](../paginated-reports-report-builder-power-bi.md). มันมีเหตุการณ์สำหรับพารามิเตอร์การเรียงที่ออกแบบ พารามิเตอร์การเรียงคือพารามิเตอร์รายงานด้วยความเชื่อมโยง เมื่อผู้ใช้การรายงานเลือกค่าพารามิเตอร์ (หรือค่า) มันถูกใช้เพื่อตั้งค่าที่มีอยู่สำหรับพารามิเตอร์อื่นๆ
+บทความนี้มุ่งไปที่คุณเช่นเดียวกับผู้เขียนรายงานที่ออกแบบ Power BI [รายงานที่มีเลขหน้า](../paginated-reports/paginated-reports-report-builder-power-bi.md). มันมีเหตุการณ์สำหรับพารามิเตอร์การเรียงที่ออกแบบ พารามิเตอร์การเรียงคือพารามิเตอร์รายงานด้วยความเชื่อมโยง เมื่อผู้ใช้การรายงานเลือกค่าพารามิเตอร์ (หรือค่า) มันถูกใช้เพื่อตั้งค่าที่มีอยู่สำหรับพารามิเตอร์อื่นๆ
 
 > [!NOTE]
 > บทนำสู่พารามิเตอร์การเรียงและวิธีปรับ ไม่ได้ครอบคลุมในบทความนี้ หากคุณไม่ได้คุ้นเคยทั้งหมดกับพารามิเตอร์การเรียง เราแนะนำให้คุณอ่าน [เพิ่มพารามิเตอร์การเรียงไปยังรายงาน (Report Builder และ SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)
@@ -281,7 +281,7 @@ WHERE
 
 สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
-- [พารามิเตอร์รายงานในตัวสร้างรายงานของ Power BI ](../report-builder-parameters.md)
+- [พารามิเตอร์รายงานในตัวสร้างรายงานของ Power BI ](../paginated-reports/report-builder-parameters.md)
 - [เพิ่มพารามิเตอร์การเรียงลงในรายงาน (ตัวสร้างรายงานและ SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 - มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com)

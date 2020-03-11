@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913611"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78919793"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>ฝังรายงานในพอร์ทัลความปลอดภัยหรือเว็บไซต์
 
@@ -119,7 +119,7 @@ report.src = newUrl;
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 
-* สนับสนุนรายงานที่มีการแบ่งหน้าพร้อมสถานการณ์การฝังที่ปลอดภัย และยังสนับสนุนรายงานที่มีการแบ่งหน้าพร้อมพารามิเตอร์ URL ด้วย อ่านเพิ่มเติมเกี่ยวกับ [การส่งผ่านพารามิเตอร์รายงานใน URL สำหรับรายงานที่มีการแบ่งหน้า](report-builder-url-pass-parameters.md)
+* สนับสนุนรายงานที่มีการแบ่งหน้าพร้อมสถานการณ์การฝังที่ปลอดภัย และยังสนับสนุนรายงานที่มีการแบ่งหน้าพร้อมพารามิเตอร์ URL ด้วย อ่านเพิ่มเติมเกี่ยวกับ [การส่งผ่านพารามิเตอร์รายงานใน URL สำหรับรายงานที่มีการแบ่งหน้า](paginated-reports/report-builder-url-pass-parameters.md)
 
 * ไม่สนับสนุนผู้เยี่ยมชมภายนอก ด้วย Azure เพื่อธุรกิจ (B2B)
 

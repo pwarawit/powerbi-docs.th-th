@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 09fd2197cca31e083c0242b187d7e242244235eb
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: d2f3f36911c72df1b95ceb5bd90043870559cc62
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530383"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920701"
 ---
 # <a name="image-use-guidance-for-paginated-reports"></a>คำแนะนำการใช้รูปภาพสำหรับรายงานที่มีการแบ่งหน้า
 
-บทความนี้มุ่งไปที่คุณเช่นเดียวกับผู้เขียนรายงานที่ออกแบบ Power BI [รายงานที่มีเลขหน้า](../paginated-reports-report-builder-power-bi.md). โดยให้คำแนะนำเกี่ยวกับการทำงานกับรูปภาพต่างๆ โดยทั่วไป รูปภาพในเค้าโครงรายงานจะสามารถแสดงผลเป็นภาพกราฟิก เช่น โลโก้บริษัท หรือรูปภาพต่างๆ ได้
+บทความนี้มุ่งไปที่คุณเช่นเดียวกับผู้เขียนรายงานที่ออกแบบ Power BI [รายงานที่มีเลขหน้า](../paginated-reports/paginated-reports-report-builder-power-bi.md). โดยให้คำแนะนำเกี่ยวกับการทำงานกับรูปภาพต่างๆ โดยทั่วไป รูปภาพในเค้าโครงรายงานจะสามารถแสดงผลเป็นภาพกราฟิก เช่น โลโก้บริษัท หรือรูปภาพต่างๆ ได้
 
 การจัดเก็บรูปภาพสามารถทำได้ในตำแหน่งที่ตั้งที่แตกต่างกันสามแห่ง:
 
@@ -53,6 +53,6 @@ ms.locfileid: "77530383"
 
 สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
-- [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](../paginated-reports-report-builder-power-bi.md)
+- [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 - มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com/)

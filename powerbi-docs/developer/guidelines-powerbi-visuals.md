@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 0203c191965bd2a496c1a5062b85af64d22b3b76
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75000100"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78400426"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>คำแนะนำสำหรับการแสดงภาพ Power BI
 ก่อนที่คุณจะ[เผยแพร่](https://docs.microsoft.com/power-bi/developer/office-store)วิชวล Power BI ของคุณไปยัง Microsoft AppSource เพื่อให้ผู้อื่นสามารถค้นหาและใช้งานได้ ต้องตรวจสอบให้แน่ใจว่าคุณได้ทำตามคำแนะนำเพื่อสร้างประสบการณ์ที่ยอดเยี่ยมสำหรับผู้ใช้ของคุณแล้ว
@@ -28,7 +28,7 @@ ms.locfileid: "75000100"
 
 วิชวล IAP Power BI เป็นวิชวลแบบ *ฟรี* ที่ให้บริการ *คุณลักษณะแบบฟรี* นอกจากนี้ยังมีคุณลักษณะขั้นสูงบางอย่างที่อาจมีค่าธรรมเนียมเพิ่มเติม ในการอธิบายวิชวล Power BI นักพัฒนาต้องแจ้งผู้ใช้ถึงคำอธิบายของวิชวลเกี่ยวกับคุณลักษณะที่ต้องซื้อเพิ่มเติมเพื่อใช้งาน ปัจจุบัน Microsoft ไม่ได้มี APIs แบบเนทีฟเพื่อสนับสนุนการซื้อเพิ่มภายของแอปและ Add-ins
 
-นักพัฒนาอาจใช้ระบบการชำระเงินอื่นสำหรับการซื้อเหล่านี้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่[นโยบายร้านค้าของเรา](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads)
+นักพัฒนาอาจใช้ระบบการชำระเงินอื่นสำหรับการซื้อเหล่านี้ สำหรับข้อมูลเพิ่มเติม ให้ดูที่[นโยบายร้านค้าของเรา](https://docs.microsoft.com/legal/marketplace/certification-policies#11002-displaying-ads)
 
 
 >[!IMPORTANT]  

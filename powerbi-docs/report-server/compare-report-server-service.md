@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: a48f9c5938c93376cc5dcdbe3491ee2a7e6813c0
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 4c48b9c2695c7feab5897527c9ff2fbf2a2d0455
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290670"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920943"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
@@ -41,7 +41,7 @@ ms.locfileid: "78290670"
 | ถามตอบ | ไม่ใช่ | ใช่ | [ถามตอบในบริการของ Power BI และ Power BI Desktop](../power-bi-tutorial-q-and-a.md) 
 | ข้อมูลเชิงลึกด่วน | ไม่ใช่ | ใช่ | [สร้างข้อมูลเชิงลึกโดยอัตโนมัติด้วย Power BI](../consumer/end-user-insights.md) |
 | วิเคราะห์ใน Excel | ไม่ใช่ | ใช่ | [วิเคราะห์ใน Excel](../service-analyze-in-excel.md) 
-| รายงานที่มีการแบ่งหน้า | ใช่ | ใช่ | [รายงานที่มีการแบ่งหน้าพร้อมให้ใช้งานในบริการของ Power BI](../paginated-reports-report-builder-power-bi.md)ซึ่งจะอยู่ในตัวอย่างในความจุพรีเมียม |
+| รายงานที่มีการแบ่งหน้า | ใช่ | ใช่ | [รายงานที่มีการแบ่งหน้าพร้อมให้ใช้งานในบริการของ Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md)ซึ่งจะอยู่ในตัวอย่างในความจุพรีเมียม |
 | แอป Power BI สำหรับอุปกรณ์เคลื่อนที่ | ใช่ | ใช่ | [ภาพรวมแอป Power BI สำหรับอุปกรณ์เคลื่อนที่](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | แผนที่ ArcGIS | ไม่ใช่ | ใช่ | [แผนที่ ArcGIS ในบริการของ Power BI และ Power BI Desktop ที่ให้บริการโดย Esri](../visuals/power-bi-visualization-arcgis.md) |
 | การสมัครสมาชิกอีเมลสำหรับรายงาน Power BI | ไม่ใช่ | ใช่ | [สมัครใช้งาน](../service-report-subscribe.md)ในรายงานหรือแดชบอร์ดในบริการของ Power BI สำหรับตัวคุณเองและผู้อื่น |

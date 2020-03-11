@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: 09471cdacacc8d0b1067598cefac41915b0ef0d7
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953761"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920925"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>การใช้การรักษาความปลอดภัยระดับแถวในรายงานที่มีการแบ่งหน้าแบบฝัง (ตัวอย่าง)
 
@@ -26,13 +26,13 @@ ms.locfileid: "75953761"
 
 ## <a name="configuring-a-parameter-to-filter-the-dataset"></a>กำหนดค่าพารามิเตอร์เพื่อกรองชุดข้อมูล
 
-เมื่อใช้การรักษาความปลอดภัยระดับแถวกับรายงานที่มีการแบ่งหน้าของ Power BI คุณจำเป็นต้องกำหนดแอตทริบิวต์ [พารามิเตอร์](../report-builder-parameters.md) เป็น **UserID** พารามิเตอร์นี้จะจำกัดข้อมูลที่ดึงมาจากชุดข้อมูล ก่อนทำการฝังรายงาน
+เมื่อใช้การรักษาความปลอดภัยระดับแถวกับรายงานที่มีการแบ่งหน้าของ Power BI คุณจำเป็นต้องกำหนดแอตทริบิวต์ [พารามิเตอร์](../paginated-reports/report-builder-parameters.md) เป็น **UserID** พารามิเตอร์นี้จะจำกัดข้อมูลที่ดึงมาจากชุดข้อมูล ก่อนทำการฝังรายงาน
 
 หลังจากกำหนดพารามิเตอร์เป็น **UserID** แล้ว ให้ใช้ API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) เพื่อรับโทเค็นแบบฝัง
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>ใช้ UserID เป็นตัวกรองที่ระดับรายงานหรือคิวรี
 
-คุณสามารถใช้ **UserId** เป็น *ตัวกรอง* หรือใน *แบบสอบถาม* กับแหล่งข้อมูลใน [ตัวช่วยสร้างรายของ Power BI](../report-builder-power-bi.md)
+คุณสามารถใช้ **UserId** เป็น *ตัวกรอง* หรือใน *แบบสอบถาม* กับแหล่งข้อมูลใน [ตัวช่วยสร้างรายของ Power BI](../paginated-reports/report-builder-power-bi.md)
 
 ### <a name="using-the-filter"></a>ใช้ตัวกรอง
 

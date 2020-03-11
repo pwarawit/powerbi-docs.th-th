@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871498"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041734"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>สร้างแอปแม่แบบใน Power BI
 
@@ -58,7 +58,7 @@ ms.locfileid: "73871498"
 
 เช่นเดียวกับพื้นที่ทำงานของ Power BI ขั้นตอนต่อไปของคุณคือการสร้างเนื้อหาในพื้นที่ทำงาน  
 
-- [สร้างเนื้อหา Power BI ](power-bi-creator-landing.md)ในพื้นที่ทำงาน
+- [สร้างเนื้อหา Power BI ](index.yml)ในพื้นที่ทำงาน
 
 ถ้าคุณกำลังใช้พารามิเตอร์ใน Power Query ตรวจสอบว่า พวกเขามีชนิดที่กำหนดไว้อย่างดี (ตัวอย่าง ข้อความ) ชนิดใด ๆ และไบนารีไม่รองรับ
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539794"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946856"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>ส่งออกข้อมูลที่ใช้เพื่อสร้างการแสดงผลข้อมูลด้วยภาพ
 
@@ -166,7 +166,7 @@ ms.locfileid: "76539794"
 
 - เจ้าของชุดข้อมูลสามารถตั้งค่าการรักษาความปลอดภัยระดับแถว (RLS) ได้ RLS จะจำกัดการเข้าถึงผู้ใช้แบบอ่านอย่างเดียว ถ้าคุณกำหนดค่าพื้นที่ทำงานแอปและให้สมาชิกมีสิทธิ์ในการแก้ไข จะไม่สามารถใช้บทบาท RLS กับพื้นที่ทำงานแอปนั้นได้ สำหรับข้อมูลเพิ่มเติม โปรดดู [การรักษาความปลอดภัยระดับแถว](../service-admin-rls.md)
 
-- ผู้ออกแบบรายงานสามารถซ่อนคอลัมน์ เพื่อไม่ให้แสดงในรายการ**เขตข้อมูล** สำหรับข้อมูลเพิ่มเติม ดู [คุณสมบัติของชุดข้อมูล](../developer/api-dataset-properties.md)
+- ผู้ออกแบบรายงานสามารถซ่อนคอลัมน์ เพื่อไม่ให้แสดงในรายการ**เขตข้อมูล** สำหรับข้อมูลเพิ่มเติม ดู [คุณสมบัติของชุดข้อมูล](../developer/automation/api-dataset-properties.md)
 
 - ผู้ดูแลระบบ Power BI สามารถเพิ่ม[ป้ายกำกับระดับความอ่อนไหว](../admin/service-security-data-protection-overview.md) ไปยังแดชบอร์ด รายงาน ชุดข้อมูล และกระแสข้อมูล จากนั้น พวกเขาจะสามารถบังคับใช้การตั้งค่าการป้องกัน เช่น การเข้ารหัส หรือลายน้ำเมื่อส่งออกข้อมูล 
 

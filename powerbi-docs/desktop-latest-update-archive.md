@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f22b235ddb1918bda5284f72759485d01c4ceab9
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: a15b309cd2e50eb47242895c808eaa4386c53a4b
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496726"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401281"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -425,12 +425,6 @@ ms.locfileid: "77496726"
 * หากคุณได้รับคำเตือนเมื่อโหลดรายงานที่บันทึกใน Power BI Desktop เวอร์ชันที่ใหม่กว่า แล้วบันทึกรายงานนั้นในเวอร์ชันก่อนหน้า คุณจะสูญเสียข้อมูลใดๆ ที่เกี่ยวข้องกับคุณลักษณะใหม่
 * เราจัดเก็บ Power BI Desktop เวอร์ชันภาษาอังกฤษเท่านั้น
 
-เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
-
-* [Power BI Desktop - 32 บิต เวอร์ชันสิงหาคม 2019](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08.msi)
-* [Power BI Desktop - 64 บิต เวอร์ชันสิงหาคม 2019](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08_x64.msi)
-
-
 ## <a name="july-2019-update-2715523641"></a>อัปเดตเดือนกรกฎาคม 2019 (2.71.5523.641)
 
 การอัปเดตเดือนกรกฎาคมของเรากำลังพุ่งสูงขึ้นด้วยคุณลักษณะและฟังก์ชั่นใหม่ที่มีสีสันสำหรับ Power BI Desktop ของคุณ 
@@ -495,12 +489,6 @@ ms.locfileid: "77496726"
 * คุณอาจไม่สามารถเปิดไฟล์ที่สร้างหรือบันทึกใน Power BI Desktop รุ่นใหม่กว่าด้วย Power BI Desktop เวอร์ชันก่อนหน้าได้ 
 * หากคุณได้รับคำเตือนเมื่อโหลดรายงานที่บันทึกใน Power BI Desktop เวอร์ชันที่ใหม่กว่า แล้วบันทึกรายงานนั้นในเวอร์ชันก่อนหน้า คุณจะสูญเสียข้อมูลใดๆ ที่เกี่ยวข้องกับคุณลักษณะใหม่
 * เราจัดเก็บ Power BI Desktop เวอร์ชันภาษาอังกฤษเท่านั้น
-
-เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
-
-* [Power BI Desktop รุ่นเดือนกรกฎาคม 2019 - 32 บิต](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07.msi)
-* [Power BI Desktop รุ่นเดือนกรกฎาคม 2019 - 64 บิต](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07_x64.msi)
-
 
 ## <a name="june-2019-update-2705494561"></a>การอัปเดตประจำเดือนมิถุนายน 2019 (2.70.5494.561)
 

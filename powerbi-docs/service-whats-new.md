@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74265334"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920960"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
 ตรวจสอบหน้านี้สำหรับปัญหาที่ทราบแล้วและคุณลักษณะที่เผยแพร่ล่าสุดในการ**บริการ Power BI** สำหรับข้อมูล "มีอะไรใหม่" ที่เกี่ยวข้อง ดู:
@@ -41,11 +41,11 @@ ms.locfileid: "74265334"
 * การตั้งค่าความจุใหม่สำหรับ Power BI Premium
 * [การสร้างแบรนด์แบบกำหนดเอง](https://powerbi.microsoft.com/blog/announcing-custom-branding-for-your-organization/) สำหรับองค์กรของคุณ
 * การส่งออกข้อมูลสรุปพร้อมสิทธิ์ในการสร้าง
-* สนับสนุนพารามิเตอร์ URL สำหรับ [รายงานที่มีการแบ่งหน้า](paginated-reports-report-builder-power-bi.md)
+* สนับสนุนพารามิเตอร์ URL สำหรับ [รายงานที่มีการแบ่งหน้า](paginated-reports/paginated-reports-report-builder-power-bi.md)
 * สนับสนุนการสมัครใช้งานแบบรายเดือนผ่านอีเมล 
 
 ### <a name="july-2019"></a>กรกฎาคม 2019
-* สนับสนุนชุดข้อมูลที่ไม่ใช่ระดับพรีเมียมสำหรับ [รายงานที่มีการแบ่งหน้า](paginated-reports-report-builder-power-bi.md)
+* สนับสนุนชุดข้อมูลที่ไม่ใช่ระดับพรีเมียมสำหรับ [รายงานที่มีการแบ่งหน้า](paginated-reports/paginated-reports-report-builder-power-bi.md)
 * ความพร้อมใช้งานทั่วไปของ[การรวม](desktop-aggregations.md) Power BI
 * ส่งการแจ้งเตือนรีเฟรชให้กับผู้อื่น
 * [เครื่องมือทดสอบ](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) สำหรับความจุ Power BI Premium
@@ -57,7 +57,7 @@ ms.locfileid: "74265334"
 * การแสดงตัวอย่างทั่วไปของ [ชุดข้อมูลที่ใช้ร่วมกันและได้รับการรับรอง](service-datasets-across-workspaces.md)
 * เมตริก AI ที่พร้อมใช้งานใน [แอปเมตริกความจุพรีเมียม](service-admin-premium-monitor-capacity.md)
 * ความพร้อมใช้งานทั่วไปของ[แอปเทมเพลต](service-template-apps-overview.md) Power BI
-* ความพร้อมใช้งานทั่วไปของ[รายงานที่มีการแบ่งหน้า](paginated-reports-report-builder-power-bi.md)ใน Power BI
+* ความพร้อมใช้งานทั่วไปของ[รายงานที่มีการแบ่งหน้า](paginated-reports/paginated-reports-report-builder-power-bi.md)ใน Power BI
 * การแสดงตัวอย่างทั่วไปของ Bring Your Own Key ([BYOK](service-encryption-byok.md)) สำหรับ Power BI Premium
 * บทบาทของผู้ชมสำหรับ [ประสบการณ์การใช้งานในพื้นที่ทำงานใหม่](service-new-workspaces.md)
 
@@ -71,7 +71,7 @@ ms.locfileid: "74265334"
 * ความพร้อมใช้งานทั่วไปของประสบการณ์ใช้งานพื้นที่ทำงานใหม่
 * Power BI ใหม่ในภูมิภาคต่าง ๆ ของประเทศฝรั่งเศสและเกาหลี
 * ประสบการณ์ใช้งานการถามตอบที่อัปเดตแล้วสำหรับแดชบอร์ด
-* การสนับสนุนสำหรับ Azure Analysis Services ภายใน[รายงานที่มีการแบ่งหน้า](paginated-reports-report-builder-power-bi.md)
+* การสนับสนุนสำหรับ Azure Analysis Services ภายใน[รายงานที่มีการแบ่งหน้า](paginated-reports/paginated-reports-report-builder-power-bi.md)
 * แอป Power BI รองรับรายงานที่มีการแบ่งหน้า
 * [การสมัครใช้งานอีเมล](https://powerbi.microsoft.com/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/)ที่มีไฟล์แนบ PDF สำหรับรายงานที่มีการแบ่งหน้า
 * พอร์ทัลผู้ดูแลระบบรองรับบทสรุปและเมทริกซ์ปริมาณงานของ Power BI Premium
@@ -108,7 +108,7 @@ ms.locfileid: "74265334"
 
 ### <a name="november-2018"></a>พฤศจิกายน 2018
 * Power BI data prepสามารถใช้งานกับ[dataflows](service-dataflows-overview.md) public preview
-* แสดงตัวอย่างสาธารณะของ[รายงานเลขหน้า](paginated-reports-report-builder-power-bi.md)ใน Power BI Premium
+* แสดงตัวอย่างสาธารณะของ[รายงานเลขหน้า](paginated-reports/paginated-reports-report-builder-power-bi.md)ใน Power BI Premium
 * ข้อมูลขนาดและการนับจำนวนของชุดข้อมูลในหน่วยความจำใน[
 แอปควบคุมปริมาตรความจุ](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)
 

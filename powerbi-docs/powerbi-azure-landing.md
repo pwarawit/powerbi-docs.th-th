@@ -9,18 +9,18 @@ ms.author: willthom
 author: MI77
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: c2eeca81cb3c43c04ef649fb1228be7e25073069
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.openlocfilehash: f5b2de4f7da2ac7af368d969b2f2fef2d9ae7678
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75523015"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041711"
 ---
 # <a name="power-bi-for-microsoft-azure-users"></a>Power BI สำหรับผู้ใช้ Microsoft Azure 
 
 คุณทำงานกับข้อมูล จัดการโครงสร้างพื้นฐาน หรือสร้างแอปพลิเคชันใน Microsoft Azure หรือไม่ คุณต้องการรับค่าจากข้อมูลหรือแอปพลิเคชันของคุณโดยใช้ Power BI หรือไม่ แหล่งข้อมูลเหล่านี้จะช่วยให้คุณทำได้เร็วขึ้น ยินดีต้อนรับ!
 
-คุณเป็นผู้บริโภค Power BI เพิ่มเติมหรือไม่? ยินดีต้อนรับคุณด้วยเช่นกัน เราแนะนำให้เริ่มต้นด้วย[Power BI สำหรับผู้บริโภค](consumer/power-bi-consumer-landing.md)
+คุณเป็นผู้บริโภค Power BI เพิ่มเติมหรือไม่? ยินดีต้อนรับคุณด้วยเช่นกัน เราแนะนำให้เริ่มต้นด้วย[Power BI สำหรับผู้บริโภค](consumer/index.yml)
 
 <ul class="panelContent cardsF"> 
             <li> 

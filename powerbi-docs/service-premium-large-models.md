@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 2c984abaec40028fb01affa8ff7bf0bf87cdd616
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: 007ff786fcee5d2a7b7237ad578a202cfcf25b69
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260887"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401937"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>แบบจำลองขนาดใหญ่ใน Power BI Premium (ตัวอย่าง)
 
@@ -123,7 +123,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="availability-in-regions"></a>ความพร้อมใช้งานในแต่ละภูมิภาค
 
-แบบจำลองขนาดใหญ่ใน Power BI สามารถใช้งานได้ในเฉพาะในภูมิภาคของ Azure ที่รองรับ[ที่เก็บข้อมูลไฟล์ Azure Premium](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+แบบจำลองขนาดใหญ่ใน Power BI สามารถใช้งานได้ในเฉพาะในภูมิภาคของ Azure ที่รองรับ[ที่เก็บข้อมูลไฟล์ Azure Premium](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
 
 รายการต่อไปนี้แสดงภูมิภาคที่มีโมเดลขนาดใหญ่ใน Power BI ภูมิภาคที่ไม่ได้อยู่ในรายการต่อไปนี้ไม่ได้รับการรองรับสำหรับโมเดลที่มีขนาดใหญ่:
 
@@ -156,7 +156,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ลิงก์ต่อไปนี้จะให้ข้อมูลที่มีประโยชน์สำหรับการทำงานกับโมเดลขนาดใหญ่:
 
-* [ที่เก็บไฟล์ Azure Premium](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [ที่เก็บไฟล์ Azure Premium](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
 * [กำหนดค่าการรองรับ Multi-Geo สำหรับ Power BI Premium](service-admin-premium-multi-geo.md)
 * [นำคีย์การเข้ารหัสลับของคุณเองมาใช้กับ Power BI](service-encryption-byok.md)
 * [วิธีการทำงานของความจุ](service-premium-what-is.md#how-capacities-function)

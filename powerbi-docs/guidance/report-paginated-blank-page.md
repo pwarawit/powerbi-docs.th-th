@@ -8,23 +8,23 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 76d1631b95c30d5ae56ced5d64e5174f6f9db759
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76041876"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920834"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>หลีกเลี่ยงหน้าเปล่าเมื่อพิมพ์รายงานที่ระบุเลขหน้า
 
-บทความนี้มุ่งเป้ามาที่คุณในฐานะผู้เขียนรายงานที่ออกแบบ [รายงานแบบแบ่งหน้า](../paginated-reports-report-builder-power-bi.md) ใน Power BI โดยมีคำแนะนำเพื่อช่วยให้คุณหลีกเลี่ยงหน้าเปล่าเมื่อรายงานของคุณถูกส่งออกไปในรูปแบบตัวแสดงผลแบบบังคับ เช่น PDF หรือ Microsoft Word หรือเมื่อพิมพ์รายงาน
+บทความนี้มุ่งเป้ามาที่คุณในฐานะผู้เขียนรายงานที่ออกแบบ [รายงานแบบแบ่งหน้า](../paginated-reports/paginated-reports-report-builder-power-bi.md) ใน Power BI โดยมีคำแนะนำเพื่อช่วยให้คุณหลีกเลี่ยงหน้าเปล่าเมื่อรายงานของคุณถูกส่งออกไปในรูปแบบตัวแสดงผลแบบบังคับ เช่น PDF หรือ Microsoft Word หรือเมื่อพิมพ์รายงาน
 
 ## <a name="page-setup"></a>การตั้งค่าหน้ากระดาษ
 
 คุณสมบัติขนาดของหน้ารายงานจะกำหนดการวางแนวหน้ากระดาษ มิติ และระยะขอบ เข้าถึงคุณสมบัติของรายงานเหล่านี้โดย:
 
 - ใช้ **หน้าคุณสมบัติ** ของรายงาน: คลิกขวาที่พื้นที่สีเทาเข้มภายนอกพื้นที่ทำงานของรายงาน จากนั้นเลือก _คุณสมบัติรายงาน_
-- ใช้ [**คุณสมบัติ**ในบานหน้าต่าง](../paginated-reports-report-design-view.md#4-properties-pane) คลิกขวาที่พื้นที่สีเทาเข้มภายนอกพื้นที่ทำงานของรายงาน เพื่อเลือกวัตถุของรายงาน ตรวจสอบให้แน่ใจว่ามีการเปิดบานหน้าต่าง **คุณสมบัติ**
+- ใช้ [**คุณสมบัติ**ในบานหน้าต่าง](../paginated-reports/paginated-reports-report-design-view.md#4-properties-pane) คลิกขวาที่พื้นที่สีเทาเข้มภายนอกพื้นที่ทำงานของรายงาน เพื่อเลือกวัตถุของรายงาน ตรวจสอบให้แน่ใจว่ามีการเปิดบานหน้าต่าง **คุณสมบัติ**
 
 หน้า **การตั้งค่าหน้ากระดาษ** ของ**หน้าคุณสมบัติ**ของรายงาน  มีอินเทอร์เฟซที่ง่ายต่อการดูและอัปเดตคุณสมบัติการตั้งค่าหน้ากระดาษ
 
@@ -91,7 +91,7 @@ ms.locfileid: "76041876"
 
 สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
-- [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](../paginated-reports-report-builder-power-bi.md)
-- [การแบ่งหน้าในรายงานแบบแบ่งหน้าของ Power BI](../paginated-reports-pagination.md)
+- [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](../paginated-reports/paginated-reports-report-builder-power-bi.md)
+- [การแบ่งหน้าในรายงานแบบแบ่งหน้าของ Power BI](../paginated-reports/paginated-reports-pagination.md)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 - มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com)

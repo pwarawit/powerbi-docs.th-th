@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
-ms.openlocfilehash: 1cf8797939eafb69734ecd0f4be752926d1994a1
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: a18e0a094c5bc42f7a77a045ac7b552e458e5628
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953931"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78919844"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>ติดตั้งตัวสร้างรายงาน - เซิร์ฟเวอร์รายงาน Power BI
 
 ตัวสร้างรายงานเป็นแอปแบบสแตนด์อโลนที่ติดตั้งบนคอมพิวเตอร์ของคุณโดยคุณหรือผู้ดูแลระบบ คุณสามารถติดตั้งจากศูนย์ดาวน์โหลด Microsoft หรือจากเซิร์ฟเวอร์รายงาน Power BI  
 
-กำลังมองหาความช่วยเหลือเกี่ยวกับการติดตั้งตัวสร้างรายงานสำหรับบริการ Power BI ดู [ตัวสร้างรายงานใน Power BI](../report-builder-power-bi.md) แทน
+กำลังมองหาความช่วยเหลือเกี่ยวกับการติดตั้งตัวสร้างรายงานสำหรับบริการ Power BI ดู [ตัวสร้างรายงานใน Power BI](../paginated-reports/report-builder-power-bi.md) แทน
   
 โดยทั่วไป ผู้ดูแลระบบจะติดตั้งและกำหนดค่าเซิร์ฟเวอร์รายงาน Power BI อนุญาตการดาวน์โหลดตัวสร้างรายงานจากพอร์ทัลเว็บ และจัดการโฟลเดอร์และสิทธิ์อนุญาตต่างๆ ไปยังรายงาน และชุดข้อมูลที่ใช้ร่วมกันที่บันทึกไปยังเซิร์ฟเวอร์รายงาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการดูแลระบบเซิร์ฟเวอร์รายงาน Power BI ดู [ภาพรวมผู้ดูแลระบบ, เซิร์ฟเวอร์รายงาน Power BI](admin-handbook-overview.md)  
   
