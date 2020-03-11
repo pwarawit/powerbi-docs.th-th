@@ -22,7 +22,7 @@ ms.locfileid: "73869864"
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-live-tile"></a>ปักหมุดแดชบอร์ดเป็นไทล์รายงานสดลงในหน้าจอเริ่มต้นของคุณ
 1. เปิดแดชบอร์ด
-2. แตะ**ปักหมุดเพื่อเริ่มต้น** ![ปักหมุดเพื่อเริ่มต้นไอคอน](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png)
+2. แตะ**ปักหมุดเพื่อเริ่มต้น**![ปักหมุดเพื่อเริ่มต้นไอคอน](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-icon.png)
    
    ![แถบด้านบนของแอปบนอุปกรณ์เคลื่อนที่สำหรับ Windows 10](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start.png)
    

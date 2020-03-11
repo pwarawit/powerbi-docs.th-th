@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 02/17/2020
-ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.date: 03/01/2020
+ms.openlocfilehash: 8aea9041665de69b2c5be954dc8f13a6402a06e0
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782409"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260772"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>รับการรับรองส่วนการจัดแสดง Power BI
 
@@ -56,10 +56,14 @@ ms.locfileid: "77782409"
 ใช้ API รุ่นล่าสุดเพื่อเขียนวิชวล Power BI
 
 ที่เก็บต้องมีไฟล์ต่อไปนี้:
-* **gitignore**-เพิ่ม `node_modules` ไปยังแฟ้มนี้ โค้ดไม่สามารถรวมโฟลเดอร์ *node_modules* ได้
+* **gitignore**-เพิ่ม `node_modules` `.tmp` `dist` ไปยังแฟ้มนี้ รหัสไม่สามารถมี *node_modules* *. tmp* หรือ*โฟลเดอร์  beta.dist* ได้
 * **capabilities.json** - ถ้าคุณกำลังส่งเวอร์ชันที่ใหม่กว่าของวิชวล Power BI ของคุณด้วยการเปลี่ยนแปลงคุณสมบัติในไฟล์นี้ โปรดตรวจสอบว่าไฟล์นั้นไม่ได้แบ่งแยกรายงานสำหรับผู้ใช้ที่มีอยู่
-* **pbiviz.json**
-* **pbiviz.json**
+* **pbiviz.json** 
+* **pbiviz.json** การแสดงผลด้วยภาพต้องมีการติดตั้งแพคเกจต่อไปนี้:
+   * ["tslint"](https://www.npmjs.com/package/tslint): "5.18.0" หรือสูงกว่า
+   * ["typescript"](https://www.npmjs.com/package/typescript): "3.0.0" หรือสูงกว่า
+   * ["tslint-microsoftcontrib"](https://www.npmjs.com/package/tslint-microsoft-contrib): "6.2.0" หรือสูงกว่า
+   * ไฟล์ต้องประกอบด้วยคำสั่งสำหรับการเรียกใช้ linter:  "lint": "tslint -c tslint.json -p tsconfig.json"
 * **pbiviz.json**
 * **pbiviz.json**
 
@@ -70,7 +74,7 @@ ms.locfileid: "77782409"
 * `npm install`
 * `pbiviz package`
 * `npm audit` - ต้องไม่ส่งกลับคำเตือนใดๆ ที่มีระดับสูงหรือระดับปานกลาง
-* [TSlint จาก Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) ที่ไม่มีการตั้งค่าแทนที่ คำสั่งนี้ต้องไม่ส่งข้อ lint ผิดพลาดใดๆ กลับมา
+* [TSlint จาก Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) ที่มี[กำหนดค่าที่จำเป็น](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/master/tslint.json) คำสั่งนี้ต้องไม่ส่งข้อ lint ผิดพลาดใดๆ กลับมา
 
 ### <a name="compiling-requirements"></a>ข้อกำหนดตัวแปลโปรแกรม
 

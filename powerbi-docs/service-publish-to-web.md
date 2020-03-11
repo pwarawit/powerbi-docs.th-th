@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609924"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237994"
 ---
 # <a name="publish-to-web-from-power-bi"></a>เผยแพร่บนเว็บจาก Power BI
 
@@ -134,6 +134,7 @@ ms.locfileid: "77609924"
 
 - รายงานการใช้ความปลอดภัยระดับแถว
 - รายงานที่ใช้แหล่งข้อมูลแบบไลฟ์ใดๆ รวมถึง Analysis Services Tabular ที่โฮสต์ภายในองค์กร Analysis Services Multidimensional และ Azure Analysis Services
+- รายงานที่ใช้[ชุดข้อมูลที่ใช้ร่วมกัน](service-datasets-across-workspaces.md) ซึ่งจัดเก็บไว้ในพื้นที่ทำงานจากรายงานที่แตกต่างกัน
 - รายงานทีแชร์กับคุณโดยตรง หรือผ่าแพ็คเนื้อหาขององค์กร
 - รายงานในกลุ่มที่คุณไม่ใช่สมาชิกที่มีสิทธิ์แก้ไข
 - ภาพ " R " จะไม่ได้รับการรองรับในรายงานที่ **การเผยแพร่บนเว็บ**
@@ -201,7 +202,7 @@ ms.locfileid: "77609924"
 
 เมื่อต้องการเปลี่ยนแปลง [การตั้งค่าการเผยแพร่ไปยังผู้เช่าบนเว็บ](#tenant-setting) คุณจะต้องทำงานกับ[ผู้ดูแลระบบ Power BI ](service-admin-role.md)ขององค์กรของคุณ
 
-สำหรับองค์กรที่มีขนาดเล็กกว่าหรือบุคคลที่ลงทะเบียนสำหรับ Power BI คุณอาจยังไม่มีผู้ดูแลระบบ Power BI  คุณจะต้องทำตาม [กระบวนการสำหรับการเข้าครองผู้ดูแลระบบของผู้เช่า](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover) ของเรา เมื่อคุณมีผู้ดูแลระบบ Power BI แล้ว พวกเขาสามารถเปิดใช้งานการสร้างโค้ดฝังตัวให้คุณได้
+สำหรับองค์กรที่มีขนาดเล็กกว่าหรือบุคคลที่ลงทะเบียนสำหรับ Power BI คุณอาจยังไม่มีผู้ดูแลระบบ Power BI คุณจะต้องทำตาม [กระบวนการสำหรับการเข้าครองผู้ดูแลระบบของผู้เช่า](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover) ของเรา เมื่อคุณมีผู้ดูแลระบบ Power BI แล้ว พวกเขาสามารถเปิดใช้งานการสร้างโค้ดฝังตัวให้คุณได้
 
 องค์กรที่สร้างขึ้นมักจะมีผู้ดูแลระบบ Power BI อยู่แล้ว บุคคลในบทบาทต่อไปนี้สามารถทำหน้าที่เป็นผู้ดูแลระบบ Power BI ได้:
 

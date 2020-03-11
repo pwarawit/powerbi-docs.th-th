@@ -27,7 +27,7 @@ ms.locfileid: "74099096"
 
 ![บานหน้าต่างที่มีไอคอนสำหรับการจัดรูปแบบการแสดงข้อมูลแต่ละชนิด](media/power-bi-report-visualizations/power-bi-icons.png)
 
-และสำหรับตัวเลือกเพิ่มเติม โปรดไปที่[ไซต์ชุมชน Microsoft AppSource](https://appsource.microsoft.com) เพื่อค้นหา และ[ดาวน์โหลด](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)[การแสดงผลด้วยภาพแบบกำหนดเอง](../developer/visuals/custom-visual-develop-tutorial.md) จาก Microsoft และชุมชน
+และสำหรับตัวเลือกเพิ่มเติมยิ่งขึ้นไปอีก โปรดไป[ไซต์ชุมชน Microsoft AppSource](https://appsource.microsoft.com) เพื่อค้นหา และดาวน์โหลด[วิชวลแบบกำหนดเอง](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)จาก Microsoft และชุมชน
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 

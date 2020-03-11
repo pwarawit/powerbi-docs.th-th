@@ -42,10 +42,10 @@ ms.locfileid: "73861696"
 
 ### <a name="actions-available-from-the-shared-with-me-container"></a>ดูการดำเนินการได้จากที่เก็บ**แชร์กับฉัน**
 การดำเนินการที่คุณสามารถใช้ได้จะขึ้นอยู่กับค่าปรับตั้งที่กำหนดโดย*ผู้ออกแบบ*เนื้อหา ตัวเลือกบางส่วนของคุณอาจได้แก่
-* เลือกไอคอนรูปดาวเพื่อ[ทำรายการโปรดแดชบอร์ดหรือรายงาน](end-user-favorite.md) ![ไอคอนรูปดาว](./media/end-user-shared-with-me/power-bi-star-icon.png)
+* เลือกไอคอนรูปดาวเพื่อ[ทำรายการโปรดแดชบอร์ดหรือรายงาน](end-user-favorite.md)![ไอคอนรูปดาว](./media/end-user-shared-with-me/power-bi-star-icon.png)
 * ลบแดชบอร์ดหรือรายงาน  ![ไอคอนถังขยะ](./media/end-user-shared-with-me/power-bi-delete-icon.png).
 * สามารถแชร์แดชบอร์ดหรือรายงานบางอย่างได้อีก  ![ไอคอนแชร์](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
-* [เปิดรายงานใน](end-user-export.md) ![ไอคอนส่งออกไป Excel](./media/end-user-shared-with-me/power-bi-excel.png) ของ Excel 
+* [เปิดรายงานในไอคอนส่งออก Excel](end-user-export.md)![ไปยัง Excel](./media/end-user-shared-with-me/power-bi-excel.png) 
 * [ดูข้อมูลเชิงลึก](end-user-insights.md)ที่ Power BI พบใน![ไอคอนข้อมูลเชิงลึก](./media/end-user-shared-with-me/power-bi-insights.png)สำหรับข้อมูลดังกล่าว
   
   > [!NOTE]

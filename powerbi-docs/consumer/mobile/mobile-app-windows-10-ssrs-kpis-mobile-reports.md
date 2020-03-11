@@ -35,7 +35,7 @@ ms.locfileid: "73879353"
 
 1. ในอุปกรณ์ที่ใช้งาน Windows 10 ของคุณ ให้เปิดแอป Power BI
 2. แตะปุ่มการนำทางส่วนกลาง ![ปุ่มการนำทางส่วนกลาง](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) ในมุมบนซ้าย
-3. แตะไอคอน **การตั้งค่า** ![ไอคอนการตั้งค่า](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) คลิกขวา หรือแตะค้าง **เชื่อมต่อกับเซิร์ฟเวอร์** แล้วแตะ **ดูตัวอย่าง**
+3. แตะไอคอน **การตั้งค่า**![ไอคอนการตั้งค่า](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) คลิกขวา หรือแตะค้าง **เชื่อมต่อกับเซิร์ฟเวอร์** แล้วแตะ **ดูตัวอย่าง**
    
    ![ดูตัวอย่างของ SSRS](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-connect-ssrs-samples.png)
 4. เปิดโฟลเดอร์รายงานการขายปลีกหรือรายงานการขาย เพื่อสำรวจ KPI และรายงานอุปกรณ์มือถือของโฟลเดอร์เหล่านี้
@@ -45,7 +45,7 @@ ms.locfileid: "73879353"
 เรียกดูตัวอย่าง เพื่อโต้ตอบกับ KPI และรายงานอุปกรณ์มือถือ
 
 ## <a name="connect-to-a-reporting-services-report-server"></a>เชื่อมต่อกับรีพอร์ตเซิร์ฟเวอร์ของ Reporting Services
-1. ที่ด้านล่างของบานหน้าต่างนำทาง ให้แตะ **การตั้งค่า** ![ไอคอนการตั้งค่า](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)
+1. ที่ด้านล่างของบานหน้าต่างนำทาง ให้แตะ**การตั้งค่า** ![ไอคอนการตั้งค่า](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)
 2. แตะ **เชื่อมต่อกับเซิร์ฟเวอร์**
 3. กรอกที่อยู่เซิร์ฟเวอร์ รวมทั้งชื่อผู้ใช้และรหัสผ่านของคุณ ใช้รูปแบบนี้สำหรับที่อยู่เซิร์ฟเวอร์:
    
@@ -95,7 +95,7 @@ KPI และรายงานอุปกรณ์มือถือของ 
 ## <a name="remove-a-connection-to-a-report-server"></a>ยุติการเชื่อมต่อกับรีพอร์ตเซิร์ฟเวอร์
 คุณสามารถเชื่อมต่อกับรีพอร์ตเซิร์ฟเวอร์จากแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ได้เพียงครั้งละหนึ่งเซิร์ฟเวอร์เท่านั้น ถ้าคุณต้องการเชื่อมต่อกับเซิร์ฟเวอร์อื่น ก็จะต้องยกเลิกการเชื่อมต่อกับเซิร์ฟเวอร์ที่ใช้งานอยู่ในปัจจุบันก่อน
 
-1. ที่ด้านล่างของบานหน้าต่างนำทาง ให้แตะ **การตั้งค่า** ![ไอคอนการตั้งค่า](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)
+1. ที่ด้านล่างของบานหน้าต่างนำทาง ให้แตะ**การตั้งค่า** ![ไอคอนการตั้งค่า](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)
 2. แตะค้างที่ชื่อเซิร์ฟเวอร์ที่คุณไม่ต้องการเชื่อมต่อ
 3. แตะ **ลบเซิร์ฟเวอร์**
    

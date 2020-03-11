@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 02/13/2020
-ms.openlocfilehash: c760450319f5ca32856520bce9c9f9b67a8616d6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.date: 03/04/2020
+ms.openlocfilehash: a48f9c5938c93376cc5dcdbe3491ee2a7e6813c0
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427771"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290670"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
@@ -24,11 +24,11 @@ ms.locfileid: "77427771"
 
 | คุณลักษณะ | เซิร์ฟเวอร์รายงาน Power BI | บริการของ Power BI | บันทึกย่อ |
 |---------|---------|---------|---------|
-| การปรับใช้ | ภายในองค์กร หรือคลาวด์ที่โฮสต์ | ระบบคลาวด์ | สามารถปรับใช้เซิร์ฟเวอร์รายงาน Power BI ใน Azure VMs (คลาวด์ที่โฮสต์) ถ้าได้สิทธิ์การใช้งานผ่านทาง Power BI Premium |
+| การปรับใช้ | ภายในองค์กร หรือคลาวด์ที่โฮสต์ | ระบบคลาวด์ | เซิร์ฟเวอร์รายงาน Power BI สามารถปรับใช้ใน Azure VM (โฮสต์บนคลาวด์) หากได้รับสิทธิการใช้งานผ่าน Power BI Premium หรือ SQL Server Enterprise ด้วยการรับประกันซอฟท์แวร์|
 | ข้อมูลต้นทาง | ระบบคลาวด์ และ/หรือ ภายในองค์กร | ระบบคลาวด์ และ/หรือ ภายในองค์กร |  |
 | สิทธิ์การใช้งาน | Power BI Premium หรือ SQL Server EE ที่มีการประกันซอฟแวร์ (SA) | Power BI Pro และ/หรือ Power BI Premium | |  
 | วงจรชีวิต | นโยบายวงจรชีวิตสมัยใหม่ | บริการที่มีการจัดการอย่างสมบูรณ์ |  |
-| รอบการเผยแพร่ | สามครั้งต่อปี (มกราคม, พฤษภาคม, กันยายน) | เดือนละครั้ง | คุณลักษณะล่าสุดและการแก้ไข มาที่บริการของ Power BI ก่อน ความสามารถหลักส่วนใหญ่ มาถึงเซิร์ฟเวอร์รายงาน Power BI ในการเผยแพร่ไม่กี่ครั้งถัดไป บางคุณลักษณะมีไว้สำหรับบริการของ Power BI เท่านั้น |
+| รอบการเผยแพร่ | สามครั้งต่อปี (มกราคม, พฤษภาคม, กันยายน) | เดือนละครั้ง | คุณลักษณะล่าสุดและการแก้ไข มาที่บริการของ Power BI ก่อน การยกเลิกฟีเจอร์จาก Power BI Desktop สำหรับบริการ Power BI Report Server ในแต่ละรุ่น คุณสมบัติอื่นๆ ส่วนใหญ่มีไว้สำหรับบริการ Power BI เท่านั้น |
 | สร้างรายงาน Power BI ใน Power BI Desktop | ใช่ | ใช่ |  |
 | สร้างรายงาน Power BI ในเบราว์เซอร์ | ไม่ใช่ | ใช่ |  |
 | โฮสต์และเชื่อมต่อกับชุดข้อมูลที่ใช้ร่วมกันใน Power BI | ไม่ใช่ | ใช่ | [บทนำชุดข้อมูลทั้งพื้นที่ทำงาน](../service-datasets-across-workspaces.md) |

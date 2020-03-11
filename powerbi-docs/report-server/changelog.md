@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/27/2020
-ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.date: 03/02/2020
+ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819548"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237971"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>บันทึกการเปลี่ยนแปลงสำหรับ เซิร์ฟเวอร์รายงาน Power BI
 
@@ -24,6 +24,14 @@ ms.locfileid: "76819548"
 
 ## <a name="january-2020"></a>มกราคม 2020
 - **เซิร์ฟเวอร์รายงาน Power BI**
+    - *เวอร์ชัน: 1.6.7364.4075 (รุ่น 15.0.1102.777) เผยแพร่เมื่อ: 2 มีนาคม 2020*
+         - แก้ไขข้อบกพร่อง
+           -  การแก้ไขสำหรับรายงาน Power BI ไม่สามารถอัปโหลดได้สำหรับแหล่งข้อมูลบางแหล่ง
+           -  การแก้ไขตำแหน่งลิงก์ดาวน์โหลด Power BI Report Server Desktop จากพอร์ทัล
+           -  การแก้ไขสำหรับ DynamicImageDPI สำหรับการแสดงภาพ Excel
+           -  การแก้ไขสำหรับการเชื่อมต่อ Oracle โดยใช้วัฒนธรรมของเธรดที่ไม่ถูกต้องในบางสถานการณ์ของผู้ใช้หลายคน
+           -  การแก้ไขสำหรับค่าเริ่มต้น CustomHeaders ที่ทำให้การฝังรายงานไม่สำเร็จ
+           -  การแก้ไขสำหรับชื่อพารามิเตอร์ SQL ที่ถูกสร้างขึ้นอย่างไม่ถูกต้องในบางกรณี
     - *เวอร์ชัน: 1.6.7327.3007 (รุ่น 15.0.1102.759) เผยแพร่เมื่อ: 23 มกราคม 2020*
          - คุณลักษณะ
             -  ส่งออกไปยัง Excel จากรายงาน Power BI

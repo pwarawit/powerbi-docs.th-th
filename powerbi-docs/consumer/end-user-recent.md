@@ -40,9 +40,9 @@ ms.locfileid: "73862424"
 
 ## <a name="actions-available-from-the-recent-content-list"></a>การดำเนินการจากรายการเนื้อหา**ล่าสุด**
 การดำเนินการที่คุณสามารถใช้ได้จะขึ้นอยู่กับค่าปรับตั้งที่กำหนดโดย*ผู้ออกแบบ*เนื้อหา ตัวเลือกบางส่วนของคุณอาจได้แก่
-* เลือกไอคอนรูปดาวเพื่อ[ทำรายการโปรดแดชบอร์ด รายงานหรือแอป](end-user-favorite.md) ![ไอคอนรูปดาว](./media/end-user-shared-with-me/power-bi-star-icon.png)
+* เลือกไอคอนรูปดาวเพื่อ[ทำรายการโปรดแดชบอร์ด รายงานหรือแอป](end-user-favorite.md)![ไอคอนรูปดาว](./media/end-user-shared-with-me/power-bi-star-icon.png)
 * สามารถแชร์แดชบอร์ดหรือรายงานบางอย่างได้อีก  ![ไอคอนแชร์](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
-* [เปิดรายงานใน](end-user-export.md) ![ไอคอนส่งออกไป Excel](./media/end-user-shared-with-me/power-bi-excel.png) ของ Excel 
+* [เปิดรายงานในไอคอนส่งออก Excel](end-user-export.md)![ไปยัง Excel](./media/end-user-shared-with-me/power-bi-excel.png) 
 * [ดูข้อมูลเชิงลึก](end-user-insights.md)ที่ Power BI พบใน![ไอคอนข้อมูลเชิงลึก](./media/end-user-shared-with-me/power-bi-insights.png)สำหรับข้อมูลดังกล่าว
 * นอกจากนี้ หากคุณมีรายการยาว [ใช้เขตข้อมูลค้นหาและการจัดเรียงเพื่อหาสิ่งที่คุณต้องการ](end-user-search-sort.md) ค้นหาว่าคอลัมน์ใดที่สามารถจัดเรียงได้โดยเลื่อนไปด้านบนเพื่อดูว่ามีลูกศรปรากฏขึ้นหรือไม่ จากตัวอย่างนี้ การเลื่อนไปที่ **เข้าใช้งานล่าสุด** จะเป็นการแสดงลูกศรขึ้นมา - ซึ่งเป็นเนื้อหาล่าสุดที่คุณสามารถจัดเรียงได้จากวันที่ใช้งาน (สืบค้น) 
 
@@ -52,5 +52,5 @@ ms.locfileid: "73862424"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [แอปบริการของ power BI](end-user-apps.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

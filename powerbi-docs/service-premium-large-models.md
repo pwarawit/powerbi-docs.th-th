@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/25/2020
+ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 4f256d9b0cbecf76ff002cc0214155b8b36014ee
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 2c984abaec40028fb01affa8ff7bf0bf87cdd616
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609907"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260887"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>แบบจำลองขนาดใหญ่ใน Power BI Premium (ตัวอย่าง)
 
@@ -123,7 +123,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="availability-in-regions"></a>ความพร้อมใช้งานในแต่ละภูมิภาค
 
-แบบจำลองขนาดใหญ่ยังไม่พร้อมใช้งานในทุกภูมิภาคที่มีการใช้งาน Power BI แบบจำลองขนาดใหญ่ใน Power BI สามารถใช้งานได้ในเฉพาะในภูมิภาคของ Azure ที่รองรับ[ที่เก็บข้อมูลไฟล์ Azure Premium](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+แบบจำลองขนาดใหญ่ใน Power BI สามารถใช้งานได้ในเฉพาะในภูมิภาคของ Azure ที่รองรับ[ที่เก็บข้อมูลไฟล์ Azure Premium](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
 
 รายการต่อไปนี้แสดงภูมิภาคที่มีโมเดลขนาดใหญ่ใน Power BI ภูมิภาคที่ไม่ได้อยู่ในรายการต่อไปนี้ไม่ได้รับการรองรับสำหรับโมเดลที่มีขนาดใหญ่:
 
