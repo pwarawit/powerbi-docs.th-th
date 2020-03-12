@@ -9,14 +9,16 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c182639e97bcaf272c656d2ee2e002e7470efc40
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 1aaacfae3c9af4517f6b028852e46059884dd3d5
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888535"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113842"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>โต้ตอบกับการแสดงผลด้วยภาพในรายงาน แดชบอร์ด และแอป
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 ที่คุณสมบัติพื้นฐานที่สุด ***การแสดงภาพ*** (หรือ*ภาพ*) เป็นแผนภูมิชนิดที่สร้างขึ้น โดย*ตัวออกแบบ*ของ Power BI โดยใช้ข้อมูลในรายงานและชุดข้อมูล 
 

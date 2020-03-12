@@ -1,19 +1,19 @@
 ---
 title: แชร์แดชบอร์ดหรือรายงานจากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI
 description: เชิญบุคคลอื่นเพื่อดูแดชบอร์ดและรายงานของคุณ โดยการแชร์ลิงก์จากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI เรียนรู้วิธีการ
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/20/2018
-ms.author: mshenhav
-ms.openlocfilehash: 70ecd56f2823e608aa62deb4a5033f53272d3382
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 07ddf82b120e0e4b77b7545863b536282f849de3
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221058"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114422"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>แชร์แดชบอร์ดหรือรายงานจากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI
 นำไปใช้กับ:

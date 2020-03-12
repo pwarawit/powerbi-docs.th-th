@@ -1,19 +1,19 @@
 ---
 title: ปักหมุดแดชบอร์ดลงในหน้าจอเริ่มต้นของ Windows 10 - แอป Power BI บนอุปกรณ์เคลื่อนที่
 description: เรียนรู้วิธีการปักหมุดแดชบอร์ด Power BI ลงในหน้าจอเริ่มต้นของ Windows 10 จากแอป Power BI บนอุปกรณ์เคลื่อน เพื่อให้คุณสามารถดูเมตริกที่สำคัญอย่างรวดเร็ว
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: 556ca293458c6874097a4733aaed453130778848
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 6abeb9244b4ced7cf0b56d4f01686f570c474989
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869864"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114925"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>ปักหมุดแดชบอร์ดลงในหน้าจอเริ่มต้นของ Windows 10 ของคุณจากแอป Power BI บนอุปกรณ์เคลื่อนที่
 คุณสามารถปักหมุดแดชบอร์ด Power BI ลงในหน้าจอเริ่มต้นของ Windows จากแอป Power BI บนอุปกรณ์เคลื่อนที่สำหรับ Windows 10 สิ่งเหล่านั้นจะกลายเป็น*ไทล์รายงานสด* เมื่อคุณแตะไทล์บนหน้าจอเริ่มต้น แดชบอร์ดจะที่เปิดขึ้นในแอป Power BI บนอุปกรณ์เคลื่อนที่สำหรับ Windows 10

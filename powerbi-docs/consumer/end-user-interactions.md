@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 512ef5058fdb586a893c5ff9406abf6902ccc4e2
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: fb7bf439cdf2f7ebd6058aba6b147f800b9cf258
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888511"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113057"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>วิธีการใช้วิชวลกรองข้ามกันในรายงาน Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 คุณลักษณะยอดเยี่ยมประการหนึ่งของ Power BI คือแนวทางที่ภาพทั้งหมดในหน้ารายงานเชื่อมโยงถึงกัน หากคุณเลือกจุดข้อมูลในภาพภาพหนึ่ง ภาพอื่นทั้งหมดบนหน้าที่มีข้อมูลที่เปลี่ยนไปนั้นตามการเลือกนั้น 
 
 ![วิดีโอการตอบโต้ด้วยภาพ](media/end-user-interactions/interactions.gif)
