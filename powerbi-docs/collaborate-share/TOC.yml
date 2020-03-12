@@ -31,6 +31,8 @@
               href: ../service-create-distribute-apps.md
             - name: จัดการที่เก็บข้อมูลในพื้นที่ทำงาน
               href: ../service-admin-manage-your-data-storage-in-power-bi.md
+            - name: การติดตามการใช้งานข้อมูล
+              href: service-data-lineage.md
             - name: เชื่อมต่อกับไฟล์บน OneDrive ของกลุ่มของคุณ
               href: ../service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: ร่วมมือทำงานในพื้นที่ทำงานดั้งเดิม

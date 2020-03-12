@@ -313,8 +313,6 @@
               href: ../desktop-accessibility-consuming-tools.md
             - name: แป้นพิมพ์ลัดใน Power BI Desktop
               href: ../desktop-accessibility-keyboard-shortcuts.md
-        - name: การติดตามการใช้งานข้อมูล
-          href: ../service-data-lineage.md
         - name: รายงานที่มีการแบ่งหน้า
           items:
             - name: ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรง
