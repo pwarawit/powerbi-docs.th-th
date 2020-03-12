@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1da75b14f628c8c765ea89a34dd2a2665cdf9a4b
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1e69c7eefe25da771ecc4d9602d6a21081f2c052
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530452"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920752"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>คำแนะนำการเรียกข้อมูลสำหรับรายงานที่มีการแบ่งหน้า
 
-บทความนี้มุ่งไปที่คุณเช่นเดียวกับผู้เขียนรายงานที่ออกแบบ Power BI [รายงานที่มีเลขหน้า](../paginated-reports-report-builder-power-bi.md). ซึ่งจะให้คำแนะนำเพื่อช่วยให้คุณสามารถออกแบบการเรียกข้อมูลที่มีประสิทธิภาพและมีประสิทธิผล
+บทความนี้มุ่งไปที่คุณเช่นเดียวกับผู้เขียนรายงานที่ออกแบบ Power BI [รายงานที่มีเลขหน้า](../paginated-reports/paginated-reports-report-builder-power-bi.md). ซึ่งจะให้คำแนะนำเพื่อช่วยให้คุณสามารถออกแบบการเรียกข้อมูลที่มีประสิทธิภาพและมีประสิทธิผล
 
 ## <a name="data-source-types"></a>ชนิดแหล่งข้อมูล
 
@@ -101,18 +101,18 @@ ms.locfileid: "77530452"
 
 ## <a name="non-native-data-sources"></a>แหล่งข้อมูลที่ไม่ใช่แบบดั้งเดิม
 
-หากคุณต้องการพัฒนารายงานที่มีการแบ่งหน้าตามแหล่งข้อมูลที่ไม่ได้[รองรับตามรายงานที่มีการแบ่งหน้าแบบดั้งเดิม](../paginated-reports-data-sources.md) คุณจะสามารถพัฒนาแบบจำลองข้อมูล Power BI Desktop ได้เป็นอันดับแรก ด้วยวิธีการนี้ คุณจะสามารถเชื่อมต่อกับ [แหล่งข้อมูลของ Power BI](../power-bi-data-sources.md) ได้มากกว่า 100 รายการ หลังจากเผยแพร่ไปยังบริการของ Power BI คุณจะสามารถพัฒนารายงานที่มีการแบ่งหน้าที่เชื่อมต่อกับชุดข้อมูลของ Power BI
+หากคุณต้องการพัฒนารายงานที่มีการแบ่งหน้าตามแหล่งข้อมูลที่ไม่ได้[รองรับตามรายงานที่มีการแบ่งหน้าแบบดั้งเดิม](../paginated-reports/paginated-reports-data-sources.md) คุณจะสามารถพัฒนาแบบจำลองข้อมูล Power BI Desktop ได้เป็นอันดับแรก ด้วยวิธีการนี้ คุณจะสามารถเชื่อมต่อกับ [แหล่งข้อมูลของ Power BI](../power-bi-data-sources.md) ได้มากกว่า 100 รายการ หลังจากเผยแพร่ไปยังบริการของ Power BI คุณจะสามารถพัฒนารายงานที่มีการแบ่งหน้าที่เชื่อมต่อกับชุดข้อมูลของ Power BI
 
 ## <a name="data-integration"></a>การรวมข้อมูล
 
 หากคุณต้องการรวมข้อมูลจากแหล่งข้อมูลหลายรายการ คุณมีสองตัวเลือก:
 
-- **รวมชุดข้อมูลรายงาน**: หากแหล่งข้อมูล [รองรับตามรายงานที่มีการแบ่งหน้าแบบดั้งเดิม](../paginated-reports-data-sources.md) คุณจะสามารถลองสร้างเขตข้อมูลที่คำนวณ ซึ่งใช้ฟังก์ชันของตัวสร้างรายงานคือ [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) หรือ [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function)
+- **รวมชุดข้อมูลรายงาน**: หากแหล่งข้อมูล [รองรับตามรายงานที่มีการแบ่งหน้าแบบดั้งเดิม](../paginated-reports/paginated-reports-data-sources.md) คุณจะสามารถลองสร้างเขตข้อมูลที่คำนวณ ซึ่งใช้ฟังก์ชันของตัวสร้างรายงานคือ [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) หรือ [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function)
 - **พัฒนาแบบจำลอง Power BI Desktop**: อย่างไรก็ตาม มีแนวโน้มที่จะมีประสิทธิภาพมากกว่าหากคุณพัฒนาแบบจำลองข้อมูลใน Power BI Desktop คุณสามารถใช้ Power Query ในการรวมคิวรีต่างๆ ตาม [แหล่งข้อมูลที่รองรับ](../power-bi-data-sources.md) หลังจากเผยแพร่ไปยังบริการของ Power BI คุณจะสามารถพัฒนารายงานที่มีการแบ่งหน้าที่เชื่อมต่อกับชุดข้อมูลของ Power BI
 
 ## <a name="sql-server-complex-data-types"></a>ประเภทข้อมูลที่ซับซ้อนของ SQL Server
 
-เนื่องจาก SQL Server เป็นแหล่งข้อมูลภายในองค์กร Power BI จะต้องเชื่อมต่อผ่านทางเกตเวย์ อย่างไรก็ตาม เกตเวย์จะไม่รองรับการเรียกดูข้อมูลสำหรับประเภทข้อมูลที่ซับซ้อน ประเภทข้อมูลที่ซับซ้อนหมายรวมถึงประเภทภายในอย่างประเภทข้อมูลเชิงพื้นที่ GEOMETRY และ GEOGRAPHY [](/sql/relational-databases/spatial/spatial-data-sql-server) และ [hierarchyid](/sql/t-sql/data-types/hierarchyid-data-type-method-reference) นอกจากนี้ ประเภทข้อมูลนี้ยังสามารถรวมประเภทที่กำหนดของผู้ใช้ที่ดำเนินการผ่านระดับชั้นของแอสเซมบลีในรันไทม์ภาษาทั่วไป (CLR) ของ Microsoft.NET Framework
+เนื่องจาก SQL Server เป็นแหล่งข้อมูลภายในองค์กร Power BI จะต้องเชื่อมต่อผ่านทางเกตเวย์ อย่างไรก็ตาม เกตเวย์จะไม่รองรับการเรียกดูข้อมูลสำหรับประเภทข้อมูลที่ซับซ้อน ประเภทข้อมูลที่ซับซ้อนหมายรวมถึงประเภทภายในอ[ย่างประเภทข้อมูลเชิงพื้นที่ GEOMETRY และ GEOGRAPHY ](/sql/relational-databases/spatial/spatial-data-sql-server) และ [hierarchyid](/sql/t-sql/data-types/hierarchyid-data-type-method-reference) นอกจากนี้ ประเภทข้อมูลนี้ยังสามารถรวมประเภทที่กำหนดของผู้ใช้ที่ดำเนินการผ่านระดับชั้นของแอสเซมบลีในรันไทม์ภาษาทั่วไป (CLR) ของ Microsoft.NET Framework
 
 การพล็อตข้อมูลเชิงพื้นที่และการวิเคราะห์ในการแสดงภาพแมปจำเป็นต้องใช้ข้อมูลเชิงพื้นที่ของ SQL Server ดังนั้น จึงไม่สามารถทำงานกับการแสดงภาพของแมป เมื่อ SQL Server เป็นแหล่งข้อมูลของคุณ เพื่อให้ชัดเจน จะสามารถทำงานได้ หากแหล่งข้อมูลของคุณคือฐานข้อมูล Azure SQL เนื่องจาก Power BI ไม่ได้เชื่อมต่อผ่านเกตเวย์
 
@@ -143,6 +143,6 @@ ms.locfileid: "77530452"
 
 สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
-- [แหล่งข้อมูลที่ได้รับการสนับสนุนสำหรับรายงานที่มีการแบ่งหน้าของ Power BI](../paginated-reports-data-sources.md)
+- [แหล่งข้อมูลที่ได้รับการสนับสนุนสำหรับรายงานที่มีการแบ่งหน้าของ Power BI](../paginated-reports/paginated-reports-data-sources.md)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 - มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com/)
