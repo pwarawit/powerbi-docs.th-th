@@ -7,6 +7,8 @@
       items:
         - name: แอปสำหรับอุปกรณ์เคลื่อนคืออะไร
           href: mobile-apps-for-mobile-devices.md
+        - name: มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่
+          href: mobile-whats-new-in-the-mobile-apps.md
         - name: พบหน้าโฮมเพจ
           href: mobile-apps-home-page.md
     - name: การเริ่มต้นใช้งานด่วน
@@ -22,8 +24,6 @@
     - name: แนวคิด
       expanded: true
       items:
-        - name: มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่
-          href: mobile-whats-new-in-the-mobile-apps.md
         - name: รับข้อมูลตามโลกความจริงด้วยแอปสำหรับโทรศัพท์เคลื่อนที่
           href: mobile-apps-data-in-real-world-context.md
         - name: ดูข้อมูลของคุณแบบออฟไลน์ในแอปสำหรับอุปกรณ์เคลื่อนที่
@@ -44,8 +44,6 @@
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: รายการโปรดในแอปสำหรับอุปกรณ์เคลื่อนที่
               href: mobile-apps-favorites.md
-            - name: กำหนดการตั้งค่าการโต้ตอบ (เฉพาะโทรศัพท์)
-              href: mobile-app-interaction-settings.md
             - name: ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
               href: mobile-set-data-alerts-in-the-mobile-apps.md
             - name: รับการแจ้งเตือนในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
@@ -70,6 +68,8 @@
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
             - name: สแกนบาร์โค้ดด้วยแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
               href: mobile-apps-scan-barcode-iphone.md
+            - name: กำหนดการตั้งค่าการโต้ตอบ
+              href: mobile-app-interaction-settings.md
             - name: กำหนดค่าโดยใช้การจัดการอุปกรณ์เคลื่อนที่
               href: mobile-app-configuration.md
         - name: iOS
@@ -100,7 +100,7 @@
               href: mobile-windows-10-phone-app-get-started.md
             - name: ปักหมุดกับแดชบอรที่หน้าจอเริ่มต้น
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: ดูรายงานอุปกรณ์มือถือของ Reporting Services และ KPI
+            - name: ดูรายงานและ KPIs ภายในองค์กร
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
             - name: ดู Power BI บน Surface Hub
               href: mobile-windows-10-app-presentation-mode.md

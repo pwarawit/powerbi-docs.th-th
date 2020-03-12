@@ -19,7 +19,7 @@
     - name: แนวคิด
       expanded: true
       items:
-        - name: สร้างความสัมพันธ์ของแบบจำลอง
+        - name: ทำความเข้าใจกับความสัมพันธ์ของแบบจำลอง
           href: ../desktop-relationships-understand.md
         - name: ทำงานกับมุมมองการสร้างแบบจำลอง
           href: ../desktop-modeling-view.md

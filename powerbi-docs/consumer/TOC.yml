@@ -66,6 +66,8 @@
               href: end-user-powerpoint.md
             - name: เพิ่มบุ๊กมาร์กไปยังรายงาน
               href: end-user-bookmarks.md
+            - name: เพิ่มสปอตไลต์สำหรับรายงาน
+              href: end-user-spotlight.md
             - name: รายงานที่มีการแบ่งหน้าใน Power BI
               items:
                 - name: รายงานที่มีการแบ่งหน้า
@@ -116,6 +118,8 @@
               href: end-user-notification-center.md
         - name: รับข้อมูล
           items:
+            - name: พื้นที่ทำงานใน Power BI
+              href: end-user-workspaces.md
             - name: แอปใน Power BI
               href: end-user-apps.md
             - name: ติดตั้งและใช้แอป

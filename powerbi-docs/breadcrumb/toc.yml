@@ -2,26 +2,41 @@
   href: /
   topicHref: /
   items:
-    - name: Power BI
-      tocHref: /power-bi/
-      topicHref: /power-bi/
+    - name: Power Platform
+      href: /power-platform/
+      topicHref: /power-platform/
       items:
-        - name: ผู้บริโภค
-          tocHref: /power-bi/consumer/
-          topicHref: /power-bi/consumer/power-bi-consumer-landing
-        - name: นักพัฒนา
-          tocHref: /power-bi/developer/
-          topicHref: /power-bi/developer/index
+        - name: Power BI
+          tocHref: /power-bi/
+          topicHref: /power-bi/
           items:
-            - name: ใช้ส่วนแสดงผล Power BI จาก R ใน Power BI
+            - name: ผู้บริโภค
+              tocHref: /power-bi/consumer/
+              topicHref: /power-bi/consumer/index
+            - name: นักพัฒนา
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
-        - name: การเรียนรู้ตามคำแนะนำ
-          tocHref: /power-bi/guided-learning/
-          topicHref: /power-bi/guided-learning/
-        - name: เซิร์ฟเวอร์รายงาน Power BI
-          tocHref: /power-bi/report-server/
-          topicHref: /power-bi/report-server/get-started
-        - name: คำแนะนำ
-          tocHref: /power-bi/guidance/
-          topicHref: /power-bi/guidance/index
+            - name: การเรียนรู้ตามคำแนะนำ
+              tocHref: /power-bi/guided-learning/
+              topicHref: /power-bi/guided-learning/
+            - name: เซิร์ฟเวอร์รายงาน Power BI
+              tocHref: /power-bi/report-server/
+              topicHref: /power-bi/report-server/index
+            - name: คำแนะนำ
+              tocHref: /power-bi/guidance/
+              topicHref: /power-bi/guidance/index
+            - name: ทำงานร่วมกัน แชร์ รวมเข้าด้วยกัน
+              tocHref: /power-bi/collaborate-share/
+              topicHref: /power-bi/collaborate-share/index
+            - name: สร้างรายงานและแดชบอร์ด
+              tocHref: /power-bi/create-reports/
+              topicHref: /power-bi/create-reports/index
+            - name: เชื่อมต่อกับข้อมูล
+              tocHref: /power-bi/connect-data/
+              topicHref: /power-bi/connect-data/index
+            - name: เริ่มใช้งาน
+              tocHref: /power-bi/fundamentals/
+              topicHref: /power-bi/fundamentals/index
+            - name: แปลง จัดรูปร่าง และสร้างแบบจำลองข้อมูล
+              tocHref: /power-bi/transform-model/
+              topicHref: /power-bi/transform-model/index
