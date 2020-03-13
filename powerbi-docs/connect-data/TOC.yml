@@ -46,6 +46,8 @@
           href: ../power-bi-data-sources.md
         - name: ข้อกำหนดเบื้องต้นของแหล่งข้อมูล Power BI
           href: ../desktop-data-source-prerequisites.md
+        - name: การใช้เมตาดาต้าชุดข้อมูลที่ปรับปรุงใน Power BI Desktop (ตัวอย่าง)
+          href: ../desktop-enhanced-dataset-metadata.md
         - name: ทำงานกับแบบจำลองหลายมิติใน Power BI
           href: ../desktop-default-member-multidimensional-models.md
         - name: เกี่ยวกับการใช้ DirectQuery ใน Power BI
