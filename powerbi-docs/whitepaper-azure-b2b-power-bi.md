@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79213614"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488602"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>กระจายเนื้อหา Power BI ให้กับผู้ใช้ที่เป็นผู้เยี่ยมชมภายนอก โดยใช้ Azure Active Directory B2B
 
@@ -336,7 +336,7 @@ Power BI รวมเข้ากับ Azure AD B2B โดยทำงานก
 Contoso สามารถเลือกหนึ่งในสามวิธีในการให้สิทธิ์การใช้งานแก่ผู้ใช้ที่เป็นผู้เยี่ยมชมจากซัพพลายเออร์และองค์กรคู่ค้าเพื่อให้สามารถเข้าถึงเนื้อหา Power BI
 
 > [!NOTE]
-> _AZURE Ad B2B's ฟรีในระดับที่เพียงพอที่จะใช้ POWER BI ด้วย AZURE AD B2B คุณลักษณะบางอย่างของ Azure AD B2B ที่ทันสมัยเช่นกลุ่มแบบไดนามิกจำเป็นต้องมีสิทธิ์การใช้งานเพิ่มเติม โปรดดูเอกสารประกอบของ Azure AD B2B สำหรับข้อมูลเพิ่มเติม:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _AZURE Ad B2B's ฟรีในระดับที่เพียงพอที่จะใช้ POWER BI ด้วย AZURE AD B2B คุณลักษณะบางอย่างของ Azure AD B2B ที่ทันสมัยเช่นกลุ่มแบบไดนามิกจำเป็นต้องมีสิทธิ์การใช้งานเพิ่มเติม โปรดดูเอกสารประกอบของ Azure AD B2B สำหรับข้อมูลเพิ่มเติม:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>วิธีที่ 1: Contoso ใช้ Power BI Premium
 
@@ -490,7 +490,7 @@ Contoso สามารถอนุญาตให้ผู้ใช้ภาย
 
 เพื่อช่วยให้ผู้ใช้เหล่านี้ลงชื่อเข้าใช้ใน Power BI ให้จัดเตรียม URL ผู้เช่าให้แก่พวกเขา เมื่อต้องการค้นหา URL ของผู้เช่า กรุณาทำตามขั้นตอนเหล่านี้
 
-1. ในบริการของ Power BI ที่เมนูด้านบน ให้เลือกความช่วยเหลือ (**?** ) จากนั้น **เกี่ยวกับ Power BI**
+1. ในบริการของ Power BI ที่เมนูด้านบน ให้เลือกความช่วยเหลือ ( **?** ) จากนั้น **เกี่ยวกับ Power BI**
 2. ค้นหาค่าที่อยู่ถัดจาก **URL ผู้เช่า** นี่คือ URL ของผู้เช่าที่คุณสามารถแบ่งปันกับผู้ใช้ที่เป็นผู้เยี่ยมชมของคุณได้
 
     ![URL ผู้เช่า](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
@@ -576,7 +576,7 @@ Contoso สามารถบังคับใช้นโยบายการ
 
 ### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>ตัวเลือกสำรองที่ 2: สร้างแอปพลิเคชัน Power BI Embedded แบบกำหนดเองโดยใช้การรับรองความถูกต้องแบบกำหนดเอง
 
-อีกทางเลือกสำหรับ Contoso คือ สร้างแอปพลิเคชัน Power BI แบบฝังตัวที่กำหนดเองด้วยการรับรองความถูกต้องแบบกำหนดเอง (['แอปเป็นเจ้าของข้อมูล'](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers)) ในขณะที่องค์กรจำนวนมากไม่มีเวลาหรือแหล่งข้อมูลเพื่อสร้างแอปพลิเคชันแบบกำหนดเองเพื่อแจกจ่ายเนื้อหา Power BI ให้กับคู่ค้าภายนอกของพวกเขา สำหรับบางองค์กรนี่จึงเป็นวิธีดีที่สุด และสมควรต่อการพิจารณาอย่างจริงจัง
+อีกทางเลือกสำหรับ Contoso คือ สร้างแอปพลิเคชัน Power BI แบบฝังตัวที่กำหนดเองด้วยการรับรองความถูกต้องแบบกำหนดเอง (['แอปเป็นเจ้าของข้อมูล'](https://docs.microsoft.com/power-bi/developer/embedded/embed-sample-for-customers)) ในขณะที่องค์กรจำนวนมากไม่มีเวลาหรือแหล่งข้อมูลเพื่อสร้างแอปพลิเคชันแบบกำหนดเองเพื่อแจกจ่ายเนื้อหา Power BI ให้กับคู่ค้าภายนอกของพวกเขา สำหรับบางองค์กรนี่จึงเป็นวิธีดีที่สุด และสมควรต่อการพิจารณาอย่างจริงจัง
 
 บ่อยครั้งที่องค์กรมีพอร์ทัลคู่ค้าที่มีอยู่ที่รวมการเข้าถึงทรัพยากรขององค์กรทั้งหมดสำหรับคู่ค้า โดยแยกออกจากแหล่งข้อมูลขององค์กรภายใน และมอบประสบการณ์การใช้งานที่ราบรื่นสำหรับคู่ค้าเพื่อสนับสนุนคู่ค้าจำนวนมาก และผู้ใช้แต่ละรายการ
 
