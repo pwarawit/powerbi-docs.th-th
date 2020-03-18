@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 0364fae1648e6155cc5e5a92850861c3bedbabdc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: aaafaa5b2822e3e17fdc92b43bf7b745330a547b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871882"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946841"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>เชื่อมต่อกับชุดข้อมูลด้วยแอปพลิเคชันไคลเอ็นต์และเครื่องมือ (ดูตัวอย่าง)
 
@@ -104,20 +104,16 @@ Power BI Premium ใช้โพรโทคอล [XML สำหรับกา
 
 ตอนนี้ แบบจำลองบทบาทและบทบาทในฐานะของสมาชิกจะไม่สามารถมองเห็นหรือแสดงผลโดยใช้ตำแหน่งข้อมูล XMLA ได้
 
-## <a name="disable-connectivity"></a>ปิดใช้งานการเชื่อมต่อ:
-
-ตามค่าเริ่มต้น การเชื่อมต่อจุดสิ้นสุด XMLA จะเปิดใช้งานสำหรับปริมาณงานชุดข้อมูล คุณสามารถปิดใช้งานการเชื่อมต่อใน[การตั้งค่าปริมาณงาน](service-admin-premium-workloads.md#workload-settings)
-
 ## <a name="audit-logs"></a>บันทึกการตรวจสอบ 
 
 เมื่อแอปพลิเคชันไคลเอ็นต์และเครื่องมือเชื่อมต่อกับพื้นที่ทำงาน การเข้าถึงผ่านตำแหน่งข้อมูล XMLA ถูกบันทึกไว้ในบันทึกการตรวจสอบ Power BI ภายใต้การดำเนินการ **GetWorkspaces** เมื่อต้องการเรียนรู้เพิ่มเติม ดู[การตรวจสอบ Power BI](service-admin-auditing.md)
 
-## <a name="see-also"></a>ดูเพิ่มเติม
+## <a name="see-also"></a>อาจดูได้จาก
 
-[การอ้างอิงของ Analysis Services](https://docs.microsoft.com/bi-reference/#pivot=home&panel=home-all)   
+[การอ้างอิงของ Analysis Services](https://docs.microsoft.com/bi-reference/?pivot=home&panel=home-all)   
 [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)   
 [โพรโทคอลแบบตารางของ SQL Server Analysis Services ](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
 [มุมมองการจัดการแบบไดนามิก (DMV)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services)   
 
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

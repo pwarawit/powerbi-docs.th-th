@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c3ccbe6ad87a813185943845431fa1a859b09a76
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 498636d61f61764cfaef29db32454f55f1328243
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888442"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401217"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>ข้อกำหนดเบื้องต้นของแหล่งข้อมูล Power BI
 สำหรับตัวให้บริการข้อมูลแต่ละตัว Power BI รองรับเวอร์ชันตัวให้บริการที่เจาะจงกับวัตถุ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแหล่งข้อมูลที่มีใน Power BI โปรดดูที่[แหล่งข้อมูล](desktop-data-sources.md) ตารางต่อไปนี้แสดงข้อกำหนดเหล่านี้
@@ -28,7 +28,7 @@ ms.locfileid: "76888442"
 | | System.Data.OracleClient (มีอยู่แล้วใน .NET Framework) |.NET Framework 3.5 |9.x+ |ตาราง/มุมมอง |รวมอยู่ใน .NET Framework 3.5 หรือใหม่กว่า |
 | IBM DB2 |ไคลเอ็นต์ ADO.Net จาก IBM (ส่วนหนึ่งของแพคเกจโปรแกรมควบคุมเซิร์ฟเวอร์ข้อมูล IBM) |10.1 |9.1+ |ตาราง/มุมมอง |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |
 | MySQL |Connector/Net |6.6.5 |5.1 |ตาราง/มุมมอง, ฟังก์ชันสเกลา |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=278885&clcid=0x409) |
-| PostgreSQL |ตัวให้บริการ NPGSQL ADO.NET |2.0.12 |9.4 |ตาราง/มุมมอง |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
+| PostgreSQL |ผู้ให้บริการ NPGSQL ADO.NET (จัดส่งด้วย Power BI Desktop) |4.0.10 |9.4 |ตาราง/มุมมอง |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
 | Teradata |.NET Data Provider for Teradata |14+ |12+ |ตาราง/มุมมอง |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=278886&clcid=0x409) |
 | SAP SQL Sybase Anywhere |iAnywhere.Data.SQLAnywhere for .NET 3.5 |16+ |16+ |ตาราง/มุมมอง |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=324846) |
 

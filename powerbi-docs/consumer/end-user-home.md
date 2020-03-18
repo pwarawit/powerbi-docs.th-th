@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/28/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dd83388c00b2415c43355bb57c271b430a9abc53
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888890"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113304"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>ค้นหาแดชบอร์ด รายงาน และแอปของคุณ
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 ใน Power BI คำว่า*เนื้อหา*หมายถึงแอป แดชบอร์ด และรายงาน *ผู้ออกแบบ* Power BI จะสร้างเนื้อหาขึ้น ซึ่งจะใช้งานร่วมกับเพื่อนร่วมงานเช่นคุณ เนื้อหาของคุณสามารถเข้าถึงได้และดูได้จากบริการของ Power BI ซึ่งสถานที่ที่ดีที่สุดในการเริ่มต้นทำงานใน Power BI ก็คือจาก **หน้าแรก** ของ Power BI
 
 ## <a name="explore-power-bi-home"></a>สำรวจหน้าแรกของ Power BI

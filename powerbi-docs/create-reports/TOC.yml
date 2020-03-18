@@ -129,6 +129,8 @@
               href: ../desktop-insights-find-where-different.md
             - name: สร้างปุ่ม
               href: ../desktop-buttons.md
+            - name: สร้างปุ่มดูรายละเอียดแนวลึก
+              href: ../desktop-drill-through-buttons.md
             - name: สร้างบุ๊กมาร์กเพื่อบันทึกและแชร์ข้อมูลเชิงลึก
               href: ../desktop-bookmarks.md
             - name: ทำงานกับธีมรายงาน

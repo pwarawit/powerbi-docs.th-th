@@ -1,19 +1,19 @@
 ---
 title: ลงชื่อเข้าระบบครั้งเดียวในแอปมือถือ Power BI สำหรับ Windows
 description: อ่านเกี่ยวกับการลงชื่อเข้าระบบครั้งเดียว (SSO) ในแอปมือถือ Power BI สำหรับ Windows SSO หมายความว่าคุณเข้าถึงแอปพลิเคชันและทรัพยากรทั้งหมดที่คุณต้องทำธุรกิจโดยลงชื่อเข้าใช้เพียงครั้งเดียวโดยใช้บัญชีผู้ใช้คนเดียว
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 09/17/2018
-ms.author: mshenhav
-ms.openlocfilehash: 4ec2e43843d37f0966070d39e08ae0ab6160dbf8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 767ea586ce35d60c99742ada6f90fe342bd59313
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876674"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114724"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>ลงชื่อเข้าระบบครั้งเดียวในแอปมือถือ Power BI สำหรับ Windows
 

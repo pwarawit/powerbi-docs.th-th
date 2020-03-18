@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: 261d800dac9b65747e648bc76944a0b8a5077b73
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427104"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041688"
 ---
 # <a name="power-bi-data-sources"></a>แหล่งข้อมูล Power BI
 
@@ -43,7 +43,7 @@ ms.locfileid: "77427104"
 | Azure HDInsight (HDFS) | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Azure HDInsight Spark | ใช่ | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ |
 | ฐานข้อมูล Azure SQL | ใช่ | ใช่ | ใช่ | ใช่ <sup>2</sup> | ไม่ใช่ |
-| คลังข้อมูล Azure SQL | ใช่ | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ |
+| คลังข้อมูล Azure SQL | ใช่ | ใช่ | ใช่ | ใช่ <sup>2</sup> | ไม่ใช่ |
 | พื้นที่เก็บข้อมูล Azure Table | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
 | BI Connector | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
 | BI360 - การรายงานการจัดทำงบประมาณและการเงิน | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
@@ -134,7 +134,7 @@ ms.locfileid: "77427104"
 | Twilio | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | tyGraph | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Vertica | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
-| เว็บ | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ใช่ |
+| เว็บ | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ใช่ <sup>6</sup> |
 | Webtrends | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Workforce Dimensions | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
 | XML | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ <sup>4</sup> |
@@ -143,13 +143,15 @@ ms.locfileid: "77427104"
 
 <sup>1</sup> ได้รับการสนับสนุนกับ[ตัวให้บริการ ACE OLEDB](https://www.microsoft.com/download/details.aspx?id=54920)ที่ติดตั้งอยู่บนเครื่องเดียวกันเป็นเกตเวย์
 
-<sup>2</sup> ได้รับการสนับสนุนด้วยฟังก์ชัน M เดียวเป็นรุ่นภายในองค์กร
+<sup>2</sup> ได้รับการรองรับด้วยฟังก์ชัน M เดียวกับรุ่นในองค์กรที่ทำให้เกิดตัวเลือกการรับรองความถูกต้องแบบจำกัด (เกตเวย์ไม่สนับสนุน OAuth)
 
 <sup>3</sup> ไฟล์ Excel 1997-2003 (.xls) จำเป็นต้องใช้[ตัวให้บริการ ACE OLEDB](https://www.microsoft.com/download/details.aspx?id=54920)
 
 <sup>4</sup>จำเป็นสำหรับรุ่นภายในองค์กรของเทคโนโลยี
 
 <sup>5</sup> ได้รับการสนับสนุนเฉพาะด้วย[เกตเวย์ส่วนบุคคล](service-gateway-personal-mode.md)เท่านั้น
+
+<sup>6</sup> จำเป็นสำหรับฐานข้อมูล .html .xls และ Access
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>การลงชื่อเข้าระบบครั้งเดียว (SSO) สำหรับแหล่งข้อมูล DirectQuery
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 1d61723b08c26197d94b53188b741fd01d47a620
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888373"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401199"
 ---
 # <a name="get-power-bi-desktop"></a>รับ Power BI Desktop
 Power BI Desktop ช่วยให้คุณสร้างแบบสอบถามขั้นสูง โมเดล และรายงานที่แสดงข้อมูลเป็นภาพ เมื่อใช้ Power BI Desktop คุณสามารถสร้างโมเดลข้อมูล สร้างรายงาน และแชร์งานของคุณโดยการเผยแพร่ไปยังบริการของ Power BI ได้ Power BI Desktop มีให้ดาวน์โหลดฟรี
@@ -158,6 +158,7 @@ Power BI Desktop ช่วยให้คุณสร้างแบบสอบ
 
     โฟลเดอร์ผลลัพธ์จะมีโฟลเดอร์ที่ชื่อว่า*AttachedContainer* ที่มีไฟล์ .msi อยู่
 
+การอัปเกรดการติดตั้งจาก .exe เป็น .msi ที่คุณได้แยกออกจาก .exe ไม่ได้รับการรองรับ   เพื่อที่จะทำการอัปเกรดนี้ก่อนอื่นคุณจะต้องถอนการติดตั้ง Power BI Desktop เวอร์ชันเก่าที่คุณมี
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>ปัญหาจากรุ่นก่อนหน้าของ Power BI Desktop
 

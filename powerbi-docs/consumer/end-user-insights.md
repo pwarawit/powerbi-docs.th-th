@@ -7,17 +7,20 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/22/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e86e8c87ca7942e74ff2f16e299304f56f4a2aa3
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863403"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113088"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>ดูข้อมูลเชิงลึกบนไทล์แดชบอร์ดด้วย Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 [ไทล์](end-user-tiles.md)การแสดงผลแต่ละส่วนที่แดชบอร์ดของคุณจะเป็นช่องทางไปสู่การสืบค้นข้อมูล เมื่อคุณเลือกไทล์ รายงานจะถูกเปิดขึ้นมา หรือเป็นการ[เปิดส่วนถามตอบ](end-user-q-and-a.md)เพื่อให้คุณสามารถกรอกและจัดเรียงและเจาะรายละเอียดชุดข้อมูลในรายงานดังกล่าว และเมื่อคุณเรียกใช้ข้อมูลเชิงลึก Power BI จะสำรวจข้อมูลให้คุณ
 
 ![โหมดเมนูจุดไข่ปลา](./media/end-user-insights/power-bi-insight.png)

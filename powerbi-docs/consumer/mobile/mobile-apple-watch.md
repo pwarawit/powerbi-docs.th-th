@@ -1,19 +1,19 @@
 ---
 title: สำรวจข้อมูล Power BI ในแอปมือบนถือใน Apple Watch ของคุณ
 description: แอป Power BI Apple Watch
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: mshenhav
-ms.openlocfilehash: 31db6725c027ed09e900dac7036778004e9e3ff3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: e2014f359d4085ab0dcb85135f7436c9e403eaab
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73870728"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114515"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>สำรวจข้อมูลของคุณในแอป Power BI บนมือถือใน Apple Watch ของคุณ
 ด้วยแอป Power BI Apple Watch คุณสามารถดู KPIs และการ์ดไทล์จากแดชบอร์ด Power BI ในนาฬิกาของคุณ KPIs และไทล์การ์ดเหมาะที่สุดในการวัดจังหวะการเต้นของหัวใจบนหน้าจอขนาดเล็ก คุณสามารถรีเฟรชแดชบอร์ดจาก iPhone ของคุณหรือที่ตัวนาฬิกา

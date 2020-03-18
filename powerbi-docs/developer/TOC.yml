@@ -12,7 +12,7 @@
         - name: ภาพรวม
           items:
             - name: วิชวลใน Power BI
-              href: power-bi-custom-visuals.md
+              href: visuals/power-bi-custom-visuals.md
         - name: บทช่วยสอน
           items:
             - name: พัฒนาวิชวล Power BI
@@ -28,11 +28,11 @@
             - name: แนวคิดแบบแสดงผลด้วยภาพ
               href: visuals/power-bi-visuals-concept.md
             - name: วิชวลสำหรับองค์กรใน Power BI
-              href: power-bi-custom-visuals-organization.md
+              href: visuals/power-bi-custom-visuals-organization.md
             - name: คำแนะนำสำหรับการแสดงภาพ Power BI
-              href: guidelines-powerbi-visuals.md
+              href: visuals/guidelines-powerbi-visuals.md
             - name: คำถามที่พบบ่อยเกี่ยวกับวิชวล
-              href: power-bi-custom-visuals-faq.md
+              href: visuals/power-bi-custom-visuals-faq.md
             - name: การใช้ความสามารถ
               href: visuals/capabilities.md
             - name: การแมปมุมมองข้อมูล
@@ -44,9 +44,9 @@
         - name: วิธีการ
           items:
             - name: รับการรับรองส่วนการจัดแสดง Power BI
-              href: power-bi-custom-visuals-certified.md
+              href: visuals/power-bi-custom-visuals-certified.md
             - name: เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
-              href: office-store.md
+              href: visuals/office-store.md
             - name: ใช้ส่วนแสดงผล Power BI จาก R ใน Power BI
               href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
             - name: การโต้ตอบกับวิชวล
@@ -76,7 +76,7 @@
             - name: แก้จุดบกพร่องวิชวล
               href: visuals/visuals-how-to-debug.md
             - name: แก้ปัญหาวิชวล Power BI
-              href: power-bi-custom-visuals-troubleshoot.md
+              href: visuals/power-bi-custom-visuals-troubleshoot.md
         - name: การอ้างอิง
           items:
             - name: หน้าเริ่มต้น
@@ -119,7 +119,7 @@
               href: 'https://powerbi.microsoft.com/developers/'
             - name: ตัวอย่าง
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-            - name: Git Repo วิชวลแบบกำหนดเอง
+            - name: Power BI Visuals Git repo
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
             - name: การสร้างใบรับรอง SSL
               href: visuals/create-ssl-certificate.md

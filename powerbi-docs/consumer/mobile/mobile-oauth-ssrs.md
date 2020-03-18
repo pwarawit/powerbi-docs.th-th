@@ -1,19 +1,19 @@
 ---
 title: ใช้ OAuth เพื่อเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI และ SSRS
 description: เรียนรู้วิธีการกำหนดค่าสภาพแวดล้อมของคุณ เพื่อสนับสนุนการรับรองความถูกต้อง OAuth ด้วยแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ เพื่อเชื่อมต่อกับ SQL Server Reporting Services 2016 หรือใหม่กว่า
-author: maggiesMSFT
-ms.author: maggies
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2019
-ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220619"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114962"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>ใช้ OAuth เพื่อเชื่อมต่อกับเซิร์ฟเวอร์รายงาน Power BI และ SSRS
 
@@ -54,7 +54,7 @@ https://fs.contoso.com
 
 ## <a name="reporting-services-configuration"></a>การกำหนดค่า Reporting Services
 
-ไม่มีอะไรมากที่ต้องกำหนดค่าทางด้าน Reporting Services เราต้องการตรวจสอบให้แน่ใจว่า เรามีชื่อบริการหลักที่ถูกต้อง (SPN) เพื่อเปิดใช้งานการรับรองความถูกต้อง Kerberos ที่เหมาะสมให้เกิดขึ้น และเซิร์ฟเวอร์ Reporting Services จะถูกเปิดใช้งานสำหรับการรับรองความถูกต้องในการเจรจา
+ไม่มีอะไรมากที่ต้องกำหนดค่าทางด้านบริการรายงาน เราต้องการตรวจสอบให้แน่ใจว่า เรามีชื่อบริการหลักที่ถูกต้อง (SPN) เพื่อเปิดใช้งานการรับรองความถูกต้อง Kerberos ที่เหมาะสมให้เกิดขึ้น และเซิร์ฟเวอร์ Reporting Services จะถูกเปิดใช้งานสำหรับการรับรองความถูกต้องในการเจรจา
 
 ### <a name="service-principal-name-spn"></a>ชื่อบริการหลัก (SPN)
 
@@ -207,7 +207,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 หลังจากที่คุณเพิ่มแอปพลิเคชัน WAP คุณต้องตั้งค่า BackendServerAuthenticationMode เพื่อใช้ IntegratedWindowsAuthentication คุณต้องใช้ ID จากแอปพลิเคชัน WAP เพื่อตั้งค่า
 
 ```powershell
-Get-WebApplicationProxyApplication “Contoso Reports” | fl
+Get-WebApplicationProxyApplication "Contoso Reports" | fl
 ```
 
 ![เพิ่มกลุ่มแอปพลิเคชัน](media/mobile-oauth-ssrs/wap-application-id.png)

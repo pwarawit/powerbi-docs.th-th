@@ -7,21 +7,24 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 27128618fc594a8b7259a3de3862c6766eaecd86
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 811eaa9769a099122597d7132de80cbc2d22a51b
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537538"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040166"
 ---
 # <a name="export-data-from-a-visual"></a>ส่งออกข้อมูลจากการแสดงผลด้วยภาพ
 
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-ถ้าคุณต้องการดูข้อมูลที่ใช้ในการสร้างการแสดงผลด้วยภาพ [คุณสามารถแสดงข้อมูลนั้นใน Power BI](end-user-show-data.md) หรือส่งออกข้อมูลนั้นไปยัง Excel ได้ ตัวเลือกในการส่งออกข้อมูลต้องมีประเภทเฉพาะบางอย่างหรือสิทธิ์การใช้งาน และแก้ไขสิทธิ์ในชุดข้อมูลและรายงาน หากคุณไม่ต้องการส่งออก ให้ตรวจสอบกับผู้ดูแลระบบ Power BI ของคุณ 
+ถ้าคุณต้องการดูข้อมูลที่ใช้ในการสร้างการแสดงผลด้วยภาพ [คุณสามารถแสดงข้อมูลนั้นใน Power BI](end-user-show-data.md) หรือส่งออกข้อมูลนั้นไปยัง Excel ได้ ตัวเลือกในการส่งออกข้อมูลต้องมีประเภทเฉพาะบางอย่างหรือสิทธิ์การใช้งาน และแก้ไขสิทธิ์ในชุดข้อมูลและรายงาน หากคุณไม่ต้องการส่งออก ให้ตรวจสอบกับผู้ดูแลระบบ Power BI ของคุณ การส่งออกข้อมูลจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro สิทธิ์การใช้งาน Pro ต่อผู้ใช้หรือสิทธิ์การใช้งานแบบ Pro ต่อผู้ใช้ภายในองค์กรที่มีสิทธิ์การใช้งานความจุพรีเมียม โดยทั่วไปแล้วจะมีการใช้สิทธิ์การใช้งานชนิดนี้โดยรายงาน*นักออกแบบ* ไม่ใช่*ผู้บริโภค* หากต้องการเรียนรู้เพิ่มเติม โปรดดูหัวข้อ[ฉันมีสิทธิ์การใช้งานประเภทใดบ้าง](end-user-license.md)
+
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>จากการแสดงผลด้วยภาพบนแดชบอร์ด Power BI
 

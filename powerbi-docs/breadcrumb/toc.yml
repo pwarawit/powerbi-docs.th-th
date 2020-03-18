@@ -13,6 +13,9 @@
             - name: ผู้บริโภค
               tocHref: /power-bi/consumer/
               topicHref: /power-bi/consumer/index
+            - name: อุปกรณ์เคลื่อนที่
+              tocHref: /power-bi/consumer/mobile/
+              topicHref: /power-bi/consumer/mobile/index
             - name: นักพัฒนา
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index

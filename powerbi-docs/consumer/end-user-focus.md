@@ -7,17 +7,19 @@ featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f2114d8d4be2e5f9c3b3f34589adc901a0ef4ebb
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 0e7d46711502b75c9d0fedb8b1a0792a11f102bd
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537768"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040229"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>แสดงเนื้อหาในรายละเอียดที่มากขึ้น: โหมดโฟกัสและโหมดเต็มหน้าจอ
+
+[!INCLUDE [consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
 
@@ -54,7 +56,7 @@ ms.locfileid: "76537768"
 
 ![โหมดโฟกัสไทล์ของแดชบอร์ดก่อนและหลัง](media/end-user-focus/power-bi-compare-dash.png)
 
-ขณะที่อยู่ในโหมดโฟกัส *ลูกค้า*ของ Power BI สามารถโต้ตอบกับตัวกรองที่ใช้งานได้เมื่อวิชวลนี้สร้างขึ้นมา  ในบริการของ Power BI คุณสามารถใช้โหมดโฟกัสกับแดชบอร์ดไทล์หรือวิชวลของรายงานได้
+ขณะที่อยู่ในโหมดโฟกัส *ลูกค้า*ของ Power BI สามารถโต้ตอบกับตัวกรองที่ใช้งานได้เมื่อวิชวลนี้สร้างขึ้นมา  ในบริการของ Power BI คุณสามารถใช้โหมดโฟกัสกับแดชบอร์ดไทล์หรือการแสดงผลด้วยภาพของรายงานได้
 
 ## <a name="working-in-full-screen-mode"></a>การทำงานในโหมดเต็มหน้าจอ
 

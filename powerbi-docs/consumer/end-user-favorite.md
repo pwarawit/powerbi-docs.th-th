@@ -7,24 +7,25 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bb69d1ecc4e91912b947a2120607e1a0502d8162
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852654"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040515"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>เพิ่มรายการโปรด แดชบอร์ด รายงาน และแอปใน Power BI service
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 เมื่อคุณกำหนดเนื้อหาให้เป็น*รายการโปรด*แล้ว คุณจะสามารถเข้าถึงเนื้อหานั้นได้อย่างรวดเร็วจากรายการเนื้อหาของ**รายการโปรด**และจาก > **รายการโปรด + รายการที่ใช้บ่อย**ที่**่หน้าแรกของ Power BI** รายการโปรดมักจะเป็นเนื้อหาที่คุณเยี่ยมชมบ่อยที่สุดและมีดาวสีเหลืองแสดงบอกไว้
 
    ![ไอคอนรายการโปรด](./media/end-user-favorite/power-bi-favorite-nav.png)
 
    ![ไอคอนรายการโปรด + รายการที่ใช้งานบ่อย](./media/end-user-favorite/power-bi-home.png)
-
-และคุณยังสามารถเลือกแดชบอร์ดเดี่ยวให้เป็น[แดชบอร์ดที่นำเสนอ](end-user-featured.md)ในบริการของ Power BI ได้
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>เพิ่มแดชบอร์ด หรือรายงานเป็นแบบรายการโปรด
 
@@ -67,7 +68,7 @@ ms.locfileid: "73852654"
 2. เลือกรูปดาวสีเหลืองอยู่ถัดจากเนื้อหาเพื่อยกเลิกรายการโปรด
 
 > [!NOTE]
-> คุณยังสามารถยกเลิกแดชบอร์ดรายการโปรด ส่งรายงาน หรือแอปได้เช่นกัน เพียงแค่เปิดและยกเลิกการเลือกไอคอนสีเหลือง 
+> คุณยังสามารถยกเลิกแดชบอร์ดรายการโปรด ส่งรายงาน หรือแอปได้เช่นกัน เพียงแค่เปิดและเลือกดาวสีเหลืองเพื่อเปลี่ยนกลับเป็นดาวสีขาว 
 > 
 > 
 ## <a name="limitations-and-considerations"></a>ข้อจำกัดและข้อควรพิจารณา
