@@ -145,7 +145,7 @@
               href: ../desktop-grouping-and-binning.md
             - name: สร้างวิชวลของ Power BI ด้วย R
               href: ../desktop-r-visuals.md
-            - name: ดาวน์โหลดและใช้วิชวลแบบกำหนดเองที่ทำงานด้วย R
+            - name: ดาวน์โหลดและใช้วิชวล Power BI ที่ทำงานด้วย R
               href: ../desktop-r-powered-custom-visuals.md
             - name: ปรับใช้เส้นตารางและจัดชิดกับเส้นตาราง
               href: ../desktop-gridlines-snap-to-grid.md
