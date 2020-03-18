@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496747"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205561"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>กำหนดค่าแอป Power BI โดยใช้เครื่องมือจัดการอุปกรณ์เคลื่อนที่  MDM) จากระยะไกล
 
@@ -22,8 +22,8 @@ ms.locfileid: "77496747"
 แอป Power BI บนมือถือจะสนับสนุนสถานการณ์การกำหนดค่าดังต่อไปนี้:
 
 * การกำหนดค่าของรีพอร์ตเซิร์ฟเวอร์ (iOS และ Android)
-* การตั้งค่าการป้องกันข้อมูล (iOS และ Android)
-* การตั้งค่าการโต้ตอบ (Android)
+* การตั้งค่าการป้องกันข้อมูล (iOS)
+* การตั้งค่าการโต้ตอบ (iOS และ Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>การกำหนดค่าของรีพอร์ตเซิร์ฟเวอร์ (iOS และ Android)
 
@@ -38,19 +38,23 @@ ms.locfileid: "77496747"
 
 ## <a name="data-protection-settings-ios"></a>การตั้งค่าการป้องกันข้อมูล (iOS)
 
-แอป Power BI สำหรับ iOS และ Android จะช่วยให้ผู้ดูแลระบบสามารถกำหนดค่าเริ่มต้นสำหรับความปลอดภัยและการตั้งค่าความเป็นส่วนตัวได้เอง คุณสามารถบังคับให้ผู้ใช้ใช้ Face ID, Touch ID หรือรหัสผ่านเมื่อเข้าถึงแอป Power BI
+แอป Power BI สำหรับ iOS จะช่วยให้ผู้ดูแลระบบสามารถกำหนดค่าเริ่มต้นสำหรับความปลอดภัยและการตั้งค่าความเป็นส่วนตัวได้เอง คุณสามารถบังคับให้ผู้ใช้ใช้ Face ID, Touch ID หรือรหัสผ่านเมื่อเข้าถึงแอป Power BI
 
 | คีย์ | ชนิด | คำอธิบาย |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | บูลีน | ค่าเริ่มต้นเป็น False <br><br>ข้อมูลไบโอเมตริก เช่น TouchID หรือ FaceID อาจจำเป็นสำหรับผู้ใช้เพื่อเข้าถึงแอปบนอุปกรณ์ของพวกเขา หากจำเป็น ข้อมูลไบโอเมตริกจะใช้เพิ่มเติมนอกเหนือจากการรับรองความถูกต้อง<br><br>ถ้าใช้นโยบายการป้องกันแอป Microsoft ขอแนะนำให้ปิดใช้งานการตั้งค่านี้เพื่อป้องกันพร้อมท์คำสั่งการเข้าถึงสองครั้ง |
 
-## <a name="interaction-settings-android"></a>การตั้งค่าการโต้ตอบ (Android)
+## <a name="interaction-settings-ios-and-android"></a>การตั้งค่าการโต้ตอบ (iOS และ Android)
 
-แอป Power BI สำหรับ Android จะช่วยให้ผู้ดูแลระบบสามารถกำหนดค่าการโต้ตอบในกรณีที่ต้องตัดสินใจว่า จำเป็นต้องเปลี่ยนแปลงการตั้งค่าการโต้ตอบเริ่มต้นสำหรับกลุ่มผู้ใช้ที่แตกต่างกันในองค์กรหรือไม่ 
+แอป Power BI สำหรับ  iOS และ Android จะช่วยให้ผู้ดูแลระบบสามารถกำหนดค่าการโต้ตอบในกรณีที่ต้องตัดสินใจว่าจำเป็นต้องเปลี่ยนแปลงการตั้งค่าการโต้ตอบเริ่มต้นสำหรับกลุ่มผู้ใช้ที่แตกต่างกันในองค์กรหรือไม่
+
+>[!NOTE]
+>การโต้ตอบทั้งหมดบางรายการไม่รองรับบนอุปกรณ์ทั้งหมดในขณะนี้ ดู [กำหนดค่าการตั้งค่าการโต้ตอบรายงาน](mobile-app-interaction-settings.md) สำหรับแผนภูมิที่แสดงความพร้อมใช้งานในขณะนี้ในอุปกรณ์
 
 | คีย์ | ชนิด | ค่า | คำอธิบาย |
 |---|---|---|---|
-| com.microsoft.powerbi.mobile.ReportTapInteraction | สตริง |  <nobr>แตะครั้งเดียว</nobr><br><nobr>แตะสองครั้ง</nobr> | กำหนดค่าว่าการแตะบนวิชวลจะเป็นการเลือกจุดข้อมูลด้วยหรือไม่ |
+| com.microsoft.powerbi.mobile.ReportTapInteraction | สตริง |  <nobr>แตะครั้งเดียว</nobr><br><nobr>แตะสองครั้ง</nobr> | กำหนดค่าว่าการแตะที่การแสดงผลด้วยภาพจะเลือกจุดข้อมูลหรือไม่ |
+| com.microsoft.powerbi.mobile.EnableMultiSelect | บูลีน |  <nobr>จริง</nobr><br><nobr>เท็จ</nobr> | กำหนดค่าว่าการแตะบนจุดข้อมูลจะแทนที่การเลือกปัจจุบันหรือถูกเพิ่มไปยังการเลือกปัจจุบัน |
 | com.microsoft.powerbi.mobile.RefreshAction | สตริง |  <nobr>ดึงเพื่อรีเฟรช</nobr><br>ปุ่ม | กำหนดค่าว่าผู้ใช้จะมีปุ่มสำหรับรีเฟรชรายงานหรือควรใช้การดึงเพื่อรีเฟรช |
 | com.microsoft.powerbi.mobile.FooterAppearance | สตริง |  ชิด<br>ไดนามิก | กำหนดค่าว่าส่วนท้ายของรายงานจะเทียบชิดขอบด้านล่างของรายงานหรือซ่อนโดยอัตโนมัติ |
 

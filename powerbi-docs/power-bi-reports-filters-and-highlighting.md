@@ -10,11 +10,11 @@ ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: f1722690ff974a9d4fac6e94243e1024bfbfc12e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877611"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207079"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>ตัวกรองและการไฮไลท์ในรายงาน Power BI
  บทความนี้ทำการแนะนำการใช้ตัวกรองและการไฮไลท์ในบริการของ Power BI ประสบการณ์การใช้งานนั้นแทบจะเหมือนกับใน Power BI Desktop *ตัวกรอง*ให้ลบออกทั้งหมดยกเว้นข้อมูลที่คุณต้องการวิเคราะห์ *การไฮไลต์* ไม่ใช่การกรอง โดยจะไม่ลบข้อมูลออก แต่จะไฮไลต์เซตย่อยของข้อมูลที่สามารถมองเห็นได้แทน ซึ่งข้อมูลที่ไม่ได้ไฮไลต์ยังคงสามารถจะมองเห็นได้แต่จะเป็นสีจาง

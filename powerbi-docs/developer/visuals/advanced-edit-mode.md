@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 19714db2d1307ac9d7eb8861955870ba9988539e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 97242883fe90c8f5e115818a24e4bb1c49f69b77
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880328"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380580"
 ---
 # <a name="advanced-edit-mode-in-power-bi-visuals"></a>โหมดการแก้ไขขั้นสูงในวิชวล Power BI
 
@@ -39,7 +39,7 @@ ms.locfileid: "73880328"
 
 หากคุณสมบัติ `advancedEditModeSupport` หายไปจากไฟล์ *capabilities.json* หรือตั้งค่าเป็น `NotSupported` ปุ่ม **แก้ไข** จะไม่ปรากฏขึ้น
 
-![เข้าสู่โหมดการแก้ไข](./media/edit-mode.png)
+![เข้าสู่โหมดการแก้ไข](media/advanced-edit-mode/edit-mode.png)
 
 เมื่อคุณเลือก **แก้ไข** วิชวลจะทำการเรียกใช้ update() โดยมีการตั้งค่า EditMode เป็น `Advanced` ขึ้นอยู่กับค่าที่ตั้งไว้ในไฟล์ *capabilities.json* การดำเนินการต่อไปนี้เกิดขึ้น:
 

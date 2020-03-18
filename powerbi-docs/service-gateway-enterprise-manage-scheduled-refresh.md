@@ -10,11 +10,11 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 13d8cd9838cdcb035e7dd30a1180ac77957441ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699440"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207424"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>จัดการแหล่งข้อมูลของคุณ - นำเข้า/รีเฟรชตามกำหนดการ
 
@@ -74,4 +74,4 @@ OAuth ไม่ใช่เค้าร่างการรับรองค�
 * [การแก้ไขปัญหาเกตเวย์ข้อมูลภายในองค์กร](/data-integration/gateway/service-gateway-tshoot)
 * [แก้ไขปัญหาเกตเวย์-Power BI](service-gateway-onprem-tshoot.md)
 
-มีคำถามเพิ่มเติมหรือไม่? ลองไปที่ [ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ ลองไปที่ [ชุมชน Power BI](https://community.powerbi.com/)

@@ -10,11 +10,11 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 5641e42d380458bd1ddcdb316c56e17fafe2d71f
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697761"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207286"
 ---
 # <a name="manage-your-data-source---oracle"></a>จัดการแหล่งข้อมูลของคุณ - Oracle
 
@@ -131,5 +131,5 @@ CONTOSO =
 * [แก้ไขปัญหาเกตเวย์-Power BI](service-gateway-onprem-tshoot.md)
 * [Power BI Premium](service-premium.md)
 
-มีคำถามเพิ่มเติมหรือไม่? ลองถาม[ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ ลองถาม[ชุมชน Power BI](https://community.powerbi.com/)
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 96f1fd217a59ee95aed05b790800024dc9f72be9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75925589"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378165"
 ---
 # <a name="visuals-in-power-bi"></a>วิชวลใน Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "75925589"
 
 รูปภาพต่อไปนี้แสดงการดำเนินการทั่วไปโดยใช้วิชวลที่ผู้ใช้ใช้ เช่น การเลือกที่คั่นหน้าและที่ดำเนินการใน Power BI
 
-![ไดอะแกรมการดำเนินการวิชวลของ Power BI](./media/visual-concept.svg)
+![ไดอะแกรมการดำเนินการวิชวลของ Power BI](media/power-bi-visuals-concept/visual-concept.svg)
 
 ## <a name="visuals-get-updates-from-power-bi"></a>วิชวลรับการอัปเดตจาก Power BI
 
@@ -131,4 +131,4 @@ ms.locfileid: "75925589"
 สนใจในการสร้างการแสดงด้วยภาพและเพิ่มสิ่งเหล่านั้นไปยัง Microsoft AppSource หรือไม่ ดูบทความเหล่านี้:
 
 * [พัฒนาวิชวล Power BI](./custom-visual-develop-tutorial.md)
-* [เผยแพร่วิชวล Power BI ให้กับ Partner Center](../office-store.md)
+* [เผยแพร่วิชวล Power BI ให้กับ Partner Center](office-store.md)

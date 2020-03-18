@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 055878988a197b80a8e4842a6567966f75af2ce5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 88e7e4b83f303f2b366f276b5020194f55f21f25
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880143"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380741"
 ---
 # <a name="sync-slicers-in-power-bi-visuals"></a>ซิงค์ตัวแบ่งส่วนข้อมูลในวิชวล Power BI
 
@@ -38,6 +38,6 @@ ms.locfileid: "73880143"
 > [!NOTE]
 > คุณลักษณะซิงค์ตัวแบ่งส่วนข้อมูลไม่สนับสนุนเขตข้อมูลมากกว่าหนึ่งรายการ ถ้าตัวแบ่งส่วนข้อมูลของคุณมีเขตข้อมูลมากกว่าหนึ่งรายการ (**หมวดหมู่** หรือ **หน่วยวัด**) คุณลักษณะนี้จะถูกปิดใช้งาน
 
-![แสดงบานหน้าต่าง "ซิงค์ตัวแบ่งส่วนข้อมูล"](./media/sync-slicers-panel.png)
+![แสดงบานหน้าต่าง "ซิงค์ตัวแบ่งส่วนข้อมูล"](media/enable-sync-slicers/sync-slicers-panel.png)
 
 ในบานหน้าต่าง **ซิงค์ตัวแบ่งส่วนข้อมูล** คุณจะเห็นว่าการแสดงผลของตัวแบ่งส่วนข้อมูลของคุณและการกรองสามารถนำไปใช้กับหน้ารายงานหลายหน้าได้

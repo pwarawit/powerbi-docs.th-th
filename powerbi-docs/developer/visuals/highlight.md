@@ -6,28 +6,28 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/31/2019
-ms.openlocfilehash: 0c1263760157371f9f4d9fc0f122d6e37d73d720
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d406396db64b52326bbd8ea2aa485cd3d7451294
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819180"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380080"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>ไฮไลต์จุดข้อมูลใน Power BI Visuals
 
 โดยค่าเริ่มต้นเมื่อใดก็ตามที่มีการเลือกองค์ประกอบ อาร์เรย์ `values` ในวัตถุ `dataView` จะถูกกรองให้เป็นเพียงค่าที่เลือกเท่านั้น ซึ่งจะทำให้วิชวลอื่น ๆ ทั้งหมดในหน้าแสดงเป็นเพียงข้อมูลที่เลือกเท่านั้น
 
-![ไฮไลต์ `dataview` ในลักษณะตามค่าเริ่มต้น](./media/highlight-dataview.png)
+![ไฮไลต์ `dataview` ในลักษณะตามค่าเริ่มต้น](media/highlight/highlight-dataview.png)
 
 หากคุณตั้งค่าคุณสมบัติ `supportsHighlight` ใน `capabilities.json` เป็น `true` คุณจะได้รับอาร์เรย์ `values` แบบไม่มีการกรองเต็มรูปแบบพร้อมกับอาร์เรย์ `highlights` อาร์เรย์ `highlights` จะมีความยาวเท่ากับอาร์เรย์ค่าและค่าที่ไม่ได้เลือกจะถูกตั้งค่าเป็น `null` เมื่อเปิดใช้งานคุณสมบัตินี้แล้ว จึงเป็นความรับผิดชอบของวิชวลในการไฮไลต์ข้อมูลที่เหมาะสมโดยการเปรียบเทียบอาร์เรย์ `values` กับอาร์เรย์ `highlights`
 
-![' dataview ' สนับสนุนการไฮไลต์](./media/highlight-dataview-supports.png)
+![' dataview ' สนับสนุนการไฮไลต์](media/highlight/highlight-dataview-supports.png)
 
 ในตัวอย่าง คุณจะสังเกตเห็นว่ามี 1 แถบที่ถูกเลือก และเป็นเฉพาะค่าในอาร์เรย์ไฮไลต์ นอกจากนี้ สิ่งสำคัญคือต้องทราบว่าอาจมีตัวเลือกหลายรายการและการไฮไลต์บางส่วนด้วย ค่าที่ไฮไลต์ไว้จะแสดงในมุมมองข้อมูล
 
-> [!Note]
+> [!NOTE]
 > การแมปมุมมองข้อมูลแบบตารางไม่สนับสนุนคุณลักษณะการไฮไลท์
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>ไฮไลต์จุดข้อมูลด้วยการแมปมุมมองข้อมูลตามประเภท
@@ -187,7 +187,7 @@ public update(options: VisualUpdateOptions) {
 
 โดยที่ `categoryValues` คืออาร์เรย์ของค่าหมวดหมู่ `measureValues` เป็นอาร์เรย์ของหน่วยวัดและ `measureHighlights` คือส่วนที่ไฮไลต์ของค่า
 
-> [!Note]
+> [!NOTE]
 > ค่าของคุณสมบัติ `measureHighlights` อาจน้อยกว่าค่าของคุณสมบัติ `categoryValues`
 > หมายความว่ามีการไฮไลต์ค่าบางส่วน
 
@@ -271,7 +271,7 @@ div.value {
 
 ในผลลัพธ์ คุณควรมีมุมมองของวิชวลดังต่อไปนี้
 
-![วิชวลที่มีการแมปมุมมองข้อมูลตามประเภทและการไฮไลต์](./media/dev-categorical-visual-highlight-demo.gif)
+![วิชวลที่มีการแมปมุมมองข้อมูลตามประเภทและการไฮไลต์](media/highlight/dev-categorical-visual-highlight-demo.gif)
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>ไฮไลต์จุดข้อมูลด้วยการแมปมุมมองข้อมูลแบบเมทริกซ์
 
@@ -582,7 +582,7 @@ JSON.stringify(options.dataViews[0].matrix.rows.root.children[0].children[0].chi
 
 โดยที่คุณสมบัติ `value` แสดงค่าของโหนดโดยไม่ต้องใช้ตัวเลือกจากวิชวลอื่น ๆ และคุณสมบัติการไฮไลต์แสดงให้เห็นว่าเป็นส่วนหนึ่งของข้อมูลที่ถูกไฮไลต์
 
-> [!Note]
+> [!NOTE]
 > ค่าของคุณสมบัติ `highlight` อาจน้อยกว่าค่าของคุณสมบัติ `value`
 > หมายความว่ามีการไฮไลต์ค่าบางส่วน
 
@@ -643,7 +643,7 @@ public update(options: VisualUpdateOptions) {
 
 ด้วยเหตุนี้ คุณจะได้รับวิชวลที่มีปุ่มและค่า `highlighted value/default value`
 
-![วิชวลที่มีการแมปและการไฮไลต์มุมมองข้อมูลแบบเมทริกซ์](./media/dev-matrix-visual-highlight-demo.gif)
+![วิชวลที่มีการแมปและการไฮไลต์มุมมองข้อมูลแบบเมทริกซ์](media/highlight/dev-matrix-visual-highlight-demo.gif)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

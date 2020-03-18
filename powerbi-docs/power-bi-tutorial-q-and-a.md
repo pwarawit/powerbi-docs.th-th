@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 183ce11457069612f84bb834d7060a047cae1866
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 71a727d1d7e39661ed86a4fdf574e3f1fa8fb595
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875091"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488878"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>ใช้ Power BI Q&A เพื่อสำรวจข้อมูลของคุณและสร้างวิชวล
 
 ในบางครั้ง วิธีที่เร็วที่สุดในการให้ได้คำตอบจากข้อมูลของคุณคือ การถามคำถามโดยใช้ภาษาธรรมชาติ คุณลักษณะถามตอบ (Q&A) ใน Power BI ช่วยให้คุณสามารถสำรวจข้อมูลของคุณด้วยคำพูดของคุณเอง  ส่วนแรกของบทความนี้แสดงวิธีการใช้ถามตอบ (Q&A) ในแดชบอร์ดในบริการ Power BI ส่วนที่สองแสดงสิ่งที่คุณสามารถทำได้ด้วยถามตอบ (Q&A) เมื่อสร้างรายงานในบริการ Power BI หรือไม่ก็ Power BI Desktop สำหรับพื้นหลังเพิ่มเติม ดูบทความ [ถามตอบ (Q&A) สำหรับผู้บริโภค](consumer/end-user-q-and-a.md) 
 
-[Q&A ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ ](consumer/mobile/mobile-apps-ios-qna.md)และ[ Q&A ที่มี Power BI Embedded](developer/qanda.md) ครอบคลุมในบทความต่างหาก 
+[Q&A ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ ](consumer/mobile/mobile-apps-ios-qna.md)และ[ Q&A ที่มี Power BI Embedded](developer/embedded/qanda.md) ครอบคลุมในบทความต่างหาก 
 
 ระบบถามตอบ (Q&A) เป็นระบบแบบโต้ตอบ แถมยังสนุกด้วย บ่อยครั้งที่คำถามหนึ่งนำไปสู่อีกคำถามหนึ่งเนื่องจากการแสดงผลข้อมูลด้วยภาพแสดงให้เห็นเส้นทางที่น่าสนใจในการติดตาม ดู Amanda สาธิตการใช้ถามตอบ เพื่อสร้างการแสดงภาพ เจาะลึกลงในวิชวลเหล่านั้น และปักหมุดวิชวลไปยังแดชบอร์ด
 

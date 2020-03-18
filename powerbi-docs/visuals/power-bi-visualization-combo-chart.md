@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11be774515552d10846b51863eda6c155b92b57f
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758094"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436099"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>สร้างและใช้แผนภูมิผสมใน Power BI
 
@@ -98,8 +98,7 @@ ms.locfileid: "75758094"
    ![ตัวอย่างแผนภูมิผสมผสานแบบคลัสเตอร์](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>เพิ่มหัวข้อให้กับแกน
-1. เลือกไอคอนลูกกลิ้งระบายสี 
-1. ![ไอคอนลูกกลิ้งระบายสี](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) ในการเปิดพื้นที่การจัดรูปแบบ
+1. เลือกไอคอนลูกกลิ้งระบายสี ![ไอคอนลูกกลิ้งระบายสี](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) ในการเปิดพื้นที่การจัดรูปแบบ
 1. เลือกลูกศรลงเพื่อขยายตัวเลือกของ **แกน Y**
 1. สำหรับ **แกน Y (คอลัมน์)** ตั้งค่า**ตำแหน่ง**ไปเป็น**ซ้าย**, ตั้งค่า**หัวข้อ**เป็น**เปิด**, **สไตล์**เป็น**แสดงเฉพาะหัวข้อ** และ**แสดง**ในหน่วย**ล้าน**
 

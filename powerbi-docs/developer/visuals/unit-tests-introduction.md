@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 590f11f23a04a698459cc4db99efe5308ccc0ce3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879965"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379584"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>บทช่วยสอน: เพิ่มการทดสอบหน่วยสำหรับโครงการวิชวล Power BI
 
@@ -381,7 +381,7 @@ npm run test
 
 `karma.js` เรียกใช้กรณีทดสอบในเบราว์เซอร์ Chrome
 
-![Karma JavaScript เปิดใน Chrome แล้ว](./media/karmajs-chrome.png)
+![Karma JavaScript เปิดใน Chrome แล้ว](media/unit-tests-introduction/karmajs-chrome.png)
 
 > [!NOTE]
 > คุณต้องติดตั้ง Google Chrome ภายในเครื่อง
@@ -453,7 +453,7 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 
 เมื่อคุณใส่ข้อมูลลงในบักเก็ตเขตข้อมูล Power BI สร้างออบเจ็กต์ `dataview` แบบจัดกลุ่มที่ขึ้นอยู่กับข้อมูลของคุณ
 
-![บักเก็ตเขตข้อมูล](./media/fields-buckets.png)
+![บักเก็ตเขตข้อมูล](media/unit-tests-introduction/fields-buckets.png)
 
 ในการทดสอบหน่วย คุณไม่มีฟังก์ชันหลักของ Power BI เพื่อที่จะทำซ้ำข้อมูล แต่คุณจำเป็นต้องแมปข้อมูลแบบสแตติกของคุณไปยัง `dataview` แบบจัดกลุ่ม คลาส `TestDataViewBuilder` สามารถช่วยคุณในการแมปได้
 
@@ -596,23 +596,23 @@ Lines        : 52.83% ( 112/212 )
 
 วิชวลของคุณจะเปิดขึ้นในเบราว์เซอร์ Chrome ดังที่แสดง:
 
-![UT จะเปิดใช้งานใน Chrome](./media/karmajs-chrome-ut-runned.png)
+![UT จะเปิดใช้งานใน Chrome](media/unit-tests-introduction/karmajs-chrome-ut-runned.png)
 
 รายงานสรุปแสดงให้เห็นว่าความครอบคลุมได้เพิ่มขึ้น หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับความครอบคลุมของโค้ดในปัจจุบัน ให้เปิด `coverage\index.html`
 
-![ดัชนีความครอบคลุมของ UT](./media/code-coverage-index.png)
+![ดัชนีความครอบคลุมของ UT](media/unit-tests-introduction/code-coverage-index.png)
 
 หรือดูที่ขอบเขตของโฟลเดอร์ `src`:
 
-![ความครอบคลุมของโฟลเดอร์ src](./media/code-coverage-src-folder.png)
+![ความครอบคลุมของโฟลเดอร์ src](media/unit-tests-introduction/code-coverage-src-folder.png)
 
 ในขอบเขตของไฟล์ คุณสามารถดูที่ซอสโค้ดได้ ยูทิลิตี้ `Coverage` จะเน้นแถวเป็นสีแดงหากไม่ได้ดำเนินการโค้ดบางอย่างในระหว่างการทดสอบหน่วย
 
-![ความครอบคลุมของโค้ดในไฟล์ visual.ts](./media/code-coverage-visual-src.png)
+![ความครอบคลุมของโค้ดในไฟล์ visual.ts](media/unit-tests-introduction/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
 > การครอบคลุมโค้ดไม่ได้หมายความว่าคุณมีค่าความครอบคลุมฟังก์ชันการทำงานของวิชวลที่มีประสิทธิภาพ การทดสอบหน่วยอย่างหนึ่งครั้งให้ความครอบคลุมมากกว่า 96 เปอร์เซ็นต์ใน `src\visual.ts`
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-เมื่อวิชวลของคุณพร้อมแล้ว คุณสามารถส่งวิชวลสำหรับการเผยแพร่ได้ สำหรับข้อมูลเพิ่มเติม โปรดดู[เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource](../office-store.md)
+เมื่อวิชวลของคุณพร้อมแล้ว คุณสามารถส่งวิชวลสำหรับการเผยแพร่ได้ สำหรับข้อมูลเพิ่มเติม โปรดดู[เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource](office-store.md)

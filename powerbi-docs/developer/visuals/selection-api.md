@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 6854dad244636854cc8b77ddf1ffc15342281771
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a631e6f5baf7942b81ce22a238d80f4aea40d022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76818904"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379728"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>เพิ่มการโต้ตอบลงในภาพด้วยการเลือกภาพ Power BI
 
@@ -179,11 +179,11 @@ export interface ISelectionIdBuilder {
 | นิสสัน | **รถนำเข้า** | 5485 |
 | โตโยต้า | **รถนำเข้า** | 20799 |
 
-![การแสดงผลด้วยภาพที่เลือกสำหรับประเภทและชุดข้อมูล](media/visual-selections-sample.png)
+![การแสดงผลด้วยภาพที่เลือกสำหรับประเภทและชุดข้อมูล](media/selection-api/visual-selections-sample.png)
 
 จำเป็นต้องเติมตะกร้าข้อมูลด้วยภาพ
 
-![ตะกร้าข้อมูลของภาพที่มีการเลือก](media/visual-selections-databuckets.png)
+![ตะกร้าข้อมูลของภาพที่มีการเลือก](media/selection-api/visual-selections-databuckets.png)
 
 มี `Manufacturer` เป็นประเภท (คอลัมน์) `Type` เป็นชุดข้อมูล (แถว) และ `Value` เป็น `Values` สำหรับชุดข้อมูล
 

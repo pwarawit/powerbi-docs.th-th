@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: 4b1c890a69863f3e05dee052efe9529b174f0874
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079128"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488280"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>ขั้นตอนที่ 2: รับโทเค็นการเข้าใช้การรับรองความถูกต้อง
 
 บทความนี้คือ ขั้นตอนที่สองในชุด[พุชข้อมูลลงในชุดข้อมูล Power BI](walkthrough-push-data.md)
 
-ในขั้นตอนที่ 1 คุณ[ได้ลงทะเบียนแอปไคลเอ็นต์ใน Azure AD แล้ว](../register-app.md) ในขั้นตอนนี้ คุณจะได้รับโทเค็นการเข้าถึงการรับรองความถูกต้อง แอป Power BI จะรวมกับ Azure AD Directory เพื่อให้สามารถเข้าสู่ระบบได้อย่างปลอดภัยรวมถึงการตรวจสอบสำหรับแอปของคุณ แอปของคุณใช้โทเค็นเพื่อรับรองความถูกต้องในการเข้าถึง Azure AD และเพื่อเข้าถึงแหล่งข้อมูลของ Power BI
+ในขั้นตอนที่ 1 คุณ[ได้ลงทะเบียนแอปไคลเอ็นต์ใน Azure AD แล้ว](../embedded/register-app.md) ในขั้นตอนนี้ คุณจะได้รับโทเค็นการเข้าถึงการรับรองความถูกต้อง แอป Power BI จะรวมกับ Azure AD Directory เพื่อให้สามารถเข้าสู่ระบบได้อย่างปลอดภัยรวมถึงการตรวจสอบสำหรับแอปของคุณ แอปของคุณใช้โทเค็นเพื่อรับรองความถูกต้องในการเข้าถึง Azure AD และเพื่อเข้าถึงแหล่งข้อมูลของ Power BI
 
 ## <a name="get-an-authentication-access-token"></a>รับโทเค็นการเข้าใช้การรับรองความถูกต้อง
 
-ก่อนที่จะเริ่ม ตรวจสอบให้แน่ใจว่าคุณได้เสร็จสิ้น[ขั้นตอนก่อนหน้า](../register-app.md)ในการ[พุชข้อมูลลงในชุดของชุดข้อมูล Power BI](walkthrough-push-data.md) 
+ก่อนที่จะเริ่ม ตรวจสอบให้แน่ใจว่าคุณได้เสร็จสิ้น[ขั้นตอนก่อนหน้า](../embedded/register-app.md)ในการ[พุชข้อมูลลงในชุดของชุดข้อมูล Power BI](walkthrough-push-data.md) 
 
 ขั้นตอนนี้จำเป็นต้องใช้ Visual Studio 2015 ขึ้นไป
 
@@ -39,7 +39,7 @@ ms.locfileid: "79079128"
 
 3. เพิ่มตัวอย่างรหัสที่แสดงขึ้นหลังจากขั้นตอนเหล่านี้ลงใน Program.cs
 
-4. แทนที่ "{ClientID }" ด้วย**ไคลเอ็นต์ ID** ที่คุณได้ใน[บทความชุดก่อนหน้า](../register-app.md)เมื่อคุณลงทะเบียนแอปของคุณ
+4. แทนที่ "{ClientID }" ด้วย**ไคลเอ็นต์ ID** ที่คุณได้ใน[บทความชุดก่อนหน้า](../embedded/register-app.md)เมื่อคุณลงทะเบียนแอปของคุณ
 
 5. เรียกใช้แอปคอนโซล และลงชื่อเข้าใช้บัญชี Power BI ของคุณ 
 

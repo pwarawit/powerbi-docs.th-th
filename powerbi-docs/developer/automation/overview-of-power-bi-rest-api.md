@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 3ff7eb4a771ed8c65d18262f61170f312049a898
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079427"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488443"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>นักพัฒนาสามารถใช้ Power BI API ทำอะไรได้บ้าง
 
@@ -25,10 +25,10 @@ ms.locfileid: "79079427"
 
 | **เมื่อต้องการเรียนรู้เพิ่มเติม** | **อ้างอิงข้อมูลนี้** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| ฝังรายงาน แดชบอร์ด และไทล์สำหรับผู้ใช้ Power BI และผู้ที่ไม่ใช้ Power BI | [วิธีฝังแดชบอร์ด รายงานและไทล์ Power BI ของคุณ](../embed-sample-for-customers.md) |
+| ฝังรายงาน แดชบอร์ด และไทล์สำหรับผู้ใช้ Power BI และผู้ที่ไม่ใช้ Power BI | [วิธีฝังแดชบอร์ด รายงานและไทล์ Power BI ของคุณ](../embedded/embed-sample-for-customers.md) |
 | ดำเนินการจัดการกับออบเจ็กต์ Power BI | [การอ้างอิง Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) |
 | ขยายเวิร์กโฟลว์ทางธุรกิจที่มีอยู่แล้ว โดยการพุชข้อมูลสำคัญลงในแดชบอร์ด Power BI | [การพุชข้อมูลลงในแดชบอร์ด](walkthrough-push-data.md) |
-| การรับรองความถูกต้องกับ Power BI | [การรับรองความถูกต้องกับ Power BI](../get-azuread-access-token.md) |
+| การรับรองความถูกต้องกับ Power BI | [การรับรองความถูกต้องกับ Power BI](../embedded/get-azuread-access-token.md) |
 
 > [!NOTE]
 > Power BI API ยังคงอ้างอิงถึงพื้นที่ทำงานเป็นกลุ่ม การอ้างอิงใด ๆ ถึงกลุ่มจะหมายความว่าคุณกำลังทำงานอยู่กับพื้นที่ทำงาน

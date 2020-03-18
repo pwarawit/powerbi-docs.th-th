@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: c5530767d37e9c9dfaf5270037d873fc4d1a58ec
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 43fcc0873006cfd42c97a287c7bff66f5995bfef
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880273"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380971"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>บานหน้าต่างการวิเคราะห์ในวิชวล Power BI
 
 บานหน้าต่าง**การวิเคราะห์**ถูกนำมาใช้สำหรับ[วิชวลแบบเนทีฟ](https://docs.microsoft.com/power-bi/desktop-analytics-pane) ในเดือนพฤศจิกายน 2018
 บทความนี้อธิบายถึงวิธีการที่วิชวล Power BI ที่มี API v2.5.0 สามารถแสดงและจัดการคุณสมบัติได้ในบานหน้าต่าง **การวิเคราะห์**
 
-![บานหน้าต่างการวิเคราะห์](./media/visualization-pane-analytics-tab.png)
+![บานหน้าต่างการวิเคราะห์](media/analytics-pane/visualization-pane-analytics-tab.png)
 
 ## <a name="manage-the-analytics-pane"></a>จัดการบานหน้าต่างการวิเคราะห์
 

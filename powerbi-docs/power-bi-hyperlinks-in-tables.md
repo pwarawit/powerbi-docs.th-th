@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f8a49780804449296194d7adb8091f7f0c5748fe
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 021aeafab4deb5afb39cd3986b3fb68b62b483f0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427817"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381272"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>เพิ่มไฮเปอร์ลิงก์ (URL) ไปยังตารางหรือเมทริกซ์
 หัวข้อนี้จะสอนวิธีเพิ่มไฮเปอร์ลิงก์ (URL) ไปยังตาราง คุณใช้ Power BI Desktop เพื่อเพิ่มไฮเปอร์ลิงก์ (URL) ไปยังชุดข้อมูล คุณสามารถเพิ่มไฮเปอร์ลิงก์เหล่านั้นไปยังตารางหรือเมทริกซ์รายงานของคุณได้ในทั้ง Power BI Desktop หรือบริการ Power BI จากนั้น คุณสามารถแสดงไอคอนของ URL หรือลิงก์ หรือจัดรูปแบบคอลัมน์อื่นเป็นข้อความลิงก์ได้
@@ -125,7 +125,7 @@ ms.locfileid: "77427817"
    
    ![ดรอปดาวน์ประเภทข้อมูลใน Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
 
-6. จากบริการของ Power BI หรือ Power BI Desktop เชื่อมต่อไปยัง หรือนำเข้าสมุดงานนี้
+6. จากบริการ Power BI หรือ Power BI Desktop เชื่อมต่อไปยัง หรือนำเข้าสมุดงานนี้
 7. สร้างการแสดงภาพตารางที่มีเขตข้อมูล URL
    
    ![สร้างตารางใน Power BI ด้วย URL เขตข้อมูล](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)

@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 021040706ff34f43c6a7772849f2e27181041bc9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 56ebfeb8c1c52b83f5be0ca9e9db6f312986dd57
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880047"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380185"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>การรองรับโหมดความคมชัดสูงในวิชวล Power BI
 
@@ -82,9 +82,9 @@ constructor(options: VisualConstructorOptions) {
 
 ในแผนภูมิแท่งตัวอย่างต่อไปนี้ ตัวอย่างเช่น แถบทั้งหมดจะถูกวาดด้วยโครงร่างเบื้องหน้าที่หนาขนาดสองพิกเซลและการเติมพื้นหลัง เปรียบเทียบลักษณะที่ปรากฏกับสีเริ่มต้นและธีมสองแบบที่มีความคมชัดสูง:
 
-![แผนภูมิแท่งตัวอย่างโดยใช้สีมาตรฐาน ](./media/hc-samplebarchart-standard.png)
-![ แผนภูมิแท่งตัวอย่างโดยใช้ธีมสี *Dark #2* ](./media/hc-samplebarchart-dark2.png)
-![แผนภูมิแท่งสีตัวอย่างโดยใช้ธีมสี *White*](./media/hc-samplebarchart-white.png)
+![แผนภูมิแท่งตัวอย่างโดยใช้สีมาตรฐาน ](media/high-contrast-support/hc-samplebarchart-standard.png)
+![ แผนภูมิแท่งตัวอย่างโดยใช้ธีมสี *Dark #2* ](media/high-contrast-support/hc-samplebarchart-dark2.png)
+![แผนภูมิแท่งสีตัวอย่างโดยใช้ธีมสี *White*](media/high-contrast-support/hc-samplebarchart-white.png)
 
 ส่วนถัดไปแสดงตำแหน่งเดียวในฟังก์ชัน `visualTransform` ที่มีการเปลี่ยนแปลงเพื่อรองรับความคมชัดสูง ซึ่งเรียกว่าเป็นส่วนหนึ่งของการแสดงผลระหว่างการอัปเดต
 
