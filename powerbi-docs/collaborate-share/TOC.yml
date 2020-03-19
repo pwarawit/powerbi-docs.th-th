@@ -51,6 +51,8 @@
               href: ../service-url-filters.md
             - name: สมัครใช้งานตัวคุณเองและผู้อื่น
               href: ../service-report-subscribe.md
+            - name: เนื้อหาคุณลักษณะในหน้าหลัก
+              href: service-featured-content.md
             - name: รายงานที่ฝังใน Microsoft Teams
               href: ../service-embed-report-microsoft-teams.md
             - name: รายงานที่ฝังใน SharePoint Online
