@@ -12,6 +12,8 @@
     - name: บทช่วยสอน
       expanded: true
       items:
+        - name: หลักสูตรออนไลน์
+          href: paginated-reports-online-course.md
         - name: ห้องปฏิบัติการแบบลงมือทำ สร้างรายงานที่มีการแบ่งหน้า
           href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
         - name: สร้างรายงานที่มีการแบ่งหน้าและอัปโหลด
