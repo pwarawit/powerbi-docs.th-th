@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 767ea586ce35d60c99742ada6f90fe342bd59313
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: e9156e539ee9f1a344b89f7814c148829498e5fc
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114724"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435938"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>ลงชื่อเข้าระบบครั้งเดียวในแอปมือถือ Power BI สำหรับ Windows
 
@@ -21,7 +21,10 @@ ms.locfileid: "79114724"
 
 เนื่องจากแอป Power BI Windows ถูกรวมเข้ากับ Azure Active Directory คุณจึงสามารถใช้บัญชีองค์กรหลักของคุณได้ไม่เพียงแต่จะลงชื่อเข้าใช้อุปกรณ์ที่ใช้โดเมนร่วมกันเท่านั้น แต่ยังลงชื่อเข้าใช้บริการ Power BI ด้วย หากคุณกำลังดูแอป Power BI บนวินโดว์โฟน คุณต้องตรวจสอบให้แน่ใจว่าบัญชีที่คุณใช้สำหรับ Power BI ได้รับการกำหนดค่าเป็นบัญชีงานหรือบัญชีโรงเรียนในการตั้งค่าอุปกรณ์  
 
-SSO จะเปิดใช้งานสำหรับอุปกรณ์ Windows ที่จัดการโดย Windows Azure Active Directory เท่านั้น 
+SSO จะเปิดใช้งานสำหรับอุปกรณ์ Windows ที่จัดการโดย Windows Azure Active Directory เท่านั้น
+
+>[!NOTE]
+>การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ **โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="sign-in-with-sso"></a>ลงชื่อเข้าใช้ด้วย SSO
 

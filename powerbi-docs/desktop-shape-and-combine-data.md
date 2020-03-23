@@ -10,11 +10,11 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: d6a36f8ef3ef5d668fe8d6021758b651cdbf7fd5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877821"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206780"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>บทช่วยสอน: จัดรูปร่างและรวมข้อมูลใน Power BI Desktop
 
@@ -251,7 +251,7 @@ ms.locfileid: "73877821"
 - เมื่อคุณมีหนึ่งหรือสองคอลัมน์ที่คุณต้องการเพิ่มลงในคิวรี่อื่น คุณทำการ*ผสาน*คิวรี่ 
 - เมื่อคุณมีแถวของข้อมูลเพิ่มเติมที่คุณต้องการเพิ่มลงในคิวรี่ที่มีอยู่ คุณทำการ*ผนวก*คิวรี่
 
-ในกรณีนี้ เราต้องการผสานคิวรี ในการทำเช่นนั้น ทำตามขั้นตอนเหล่านี้:
+ในกรณีนี้ เราต้องการผสานคิวรี โดยทำตามขั้นตอนเหล่านี้:
  
 1. จากบานหน้าต่างด้านซ้ายของตัวแก้ไขคิวรี ให้เลือกคิวรี*ที่*คุณต้องการผสานกับคิวรีอื่น ในกรณีนี้ จะเป็น **RetirementStats** 
 

@@ -11,11 +11,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877464"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207608"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>แก้ไขหรือลบแดชบอร์ดไทล์
 
@@ -126,7 +126,7 @@ ms.locfileid: "73877464"
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>ปักหมุดแดชบอร์ดไทล์ที่แตกต่างกัน
-1. จากเมนูดรอปดาวน์จุดไข่ปลา ให้เลือก**ปักหมุดไทล์** ![ไอคอนหมุด](media/service-dashboard-edit-tile/pinnooutline.png)
+1. จากเมนูจุดไข่ปลาแบบหล่นลง ให้เลือก**ปักหมุดไทล์** ![ไอคอนหมุด](media/service-dashboard-edit-tile/pinnooutline.png)
 2. ให้ตัดสินใจว่าจะปักหมุดรายการซ้ำของไทล์นี้กับแดชบอร์ดที่มีอยแล้วหรือแดชบอร์ดใหม่ 
    
    ![ปักหมุดกล่องข้อความแดชบอร์ด](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
@@ -135,7 +135,7 @@ ms.locfileid: "73877464"
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>ลบไทล์
-1. เพื่อลบไทล์ออกอย่างถาวรจากแดชบอร์ด ให้เลือก**ลบไทล์** ![ลบไอคอน](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png)จากเมนูดรอปดาวน์จุดไข่ปลา 
+1. หากต้องการลบไทล์ออกอย่างถาวรจากแดชบอร์ด ให้เลือก**ลบไทล์** ![ไอคอนลบ](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) จากเมนูจุดไข่ปลาแบบหล่นลง 
 
 2. การลบไทล์ไม่ลบการแสดงภาพแบบพื้นฐาน เปิดรายงานพื้นฐาน โดยเลือกไทล์ "Amount" เปิดหน้าสุดท้ายในรายงานของคุณ เพื่อดูว่าการแสดงภาพต้นฉบับไม่ถูกลบจากรายงานหรือไม่ 
 
@@ -147,5 +147,5 @@ ms.locfileid: "73877464"
 
 [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

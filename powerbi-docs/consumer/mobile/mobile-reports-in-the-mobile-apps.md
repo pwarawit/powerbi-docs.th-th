@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/18/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538159"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435777"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>สำรวจรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI
 นำไปใช้กับ:
@@ -21,6 +21,9 @@ ms.locfileid: "76538159"
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![โทรศัพท์ Android](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![แท็บเล็ต Android](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![อุปกรณ์ Windows 10](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
 |:---: |:---: |:---: |:---: |:---: |
 | iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |อุปกรณ์ Windows 10 |
+
+>[!NOTE]
+>การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ **โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 รายงาน Power BI คือมุมมองแบบโต้ตอบของข้อมูลของคุณ ที่มีการแสดงผลด้วยภาพที่แสดงการค้นพบและข้อมูลเชิงลึกแตกต่างจากข้อมูลนั้น การดูรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI เป็นขั้นตอนที่สามในกระบวนการแบบสามขั้นตอน
 
@@ -59,6 +62,14 @@ ms.locfileid: "76538159"
 ถ้าคุณต้องการ คุณสามารถสลับไปยังการโต้ตอบแบบแตะสองครั้งได้ ด้วยการแตะสองครั้ง การแตะครั้งแรกที่วิชวลเพื่อเลือก และจากนั้นแตะอีกครั้งในวิชวลเพื่อดำเนินการตามที่คุณต้องการ
 
 เมื่อต้องการสลับไปยังการโต้ตอบแบบสองครั้งแตะหรือสลับกลับไปยังการโต้ตอบแบบแตะครั้งเดียว ให้ไปที่[การตั้งค่าการโต้ตอบของแอป](./mobile-app-interaction-settings.md)
+
+### <a name="single-select-versus-multi-select-mode-for-data-point-selection"></a>เลือกแบบครั้งเดียวเมื่อเทียบกับโหมดเลือกแบบหลายรายการสำหรับการเลือกจุดข้อมูล
+
+ในรายงาน คุณสามารถแตะที่จุดข้อมูลเพื่อเลือก คุณสามารถเลือกว่าคุณต้องการใช้โหมดเลือกแบบครั้งเดียวหรือเลือกแบบหลายรายการ ในโหมดเลือกแบบครั้งเดียว เมื่อคุณแตะจุดข้อมูลเพื่อเลือก การเลือกนั้นจะแทนที่การเลือกก่อนหน้าใดๆ ที่คุณได้ทำไว้ ในโหมดเลือกแบบหลายรายการ เมื่อคุณแตะจุดข้อมูลเพื่อเลือก การเลือกของคุณจะถูก*เพิ่ม*ไปยังการเลือกใดๆ ที่คุณมีอยู่ในขณะนี้และผลลัพธ์รวมของการเลือกทั้งหมดของคุณจะได้รับการเน้นในภาพทั้งหมดของรายงาน
+
+หากต้องการยกเลิกการเลือกจุดข้อมูล เพียงแค่แตะอีกครั้ง
+
+เมื่อต้องการสลับไปมาระหว่างโหมดการเลือกแบบครั้งเดียวและเลือกแบบหลายรายการ ให้ไปที่[การตั้งค่าการโต้ตอบแอป](./mobile-app-interaction-settings.md)
 
 ### <a name="using-tap-and-long-tap"></a>การใช้การแตะและการแตะแบบยาว
 การแตะจะเหมือนกับการคลิกเมาส์ ดังนั้นถ้าคุณต้องการไฮไลท์รายงานแบบเชื่อมโยงตามจุดข้อมูล ให้แตะจุดข้อมูลนั้น

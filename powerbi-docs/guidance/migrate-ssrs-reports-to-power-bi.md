@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: cf11b98d7eacd7b1e245fb0aed62d0f14e7f4c4c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: b87848953722d33235a11729a3643c627cca7234
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041342"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525625"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>โยกย้ายรายงานบริการรายงานเซิร์ฟเวอร์ SQL ไปยัง Power BI
 
@@ -194,6 +194,7 @@ ms.locfileid: "79041342"
 - [คำแนะนำการเรียกข้อมูลสำหรับรายงานที่มีการแบ่งหน้า](report-paginated-data-retrieval.md)
 - [เมื่อใช้รายงานที่มีการแบ่งหน้าใน Power BI](report-paginated-or-power-bi.md)
 - [รายงานที่มีการแบ่งหน้าใน Power BI: คำถามที่พบบ่อย](../paginated-reports/paginated-reports-faq.md)
+- [หลักสูตรออนไลน์: รายงานแบบแบ่งหน้าในหนึ่งวัน ](../paginated-reports/paginated-reports-online-course.md)
 - [Power BI Premium คำถามที่พบบ่อย](../service-premium-faq.md)
 - [เครื่องมือการโยกย้าย RDL](https://github.com/microsoft/RdlMigration)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

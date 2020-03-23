@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2020
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427564"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207263"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 
@@ -90,7 +90,8 @@ ms.locfileid: "77427564"
 * Snowflake
 * Essbase
 * คิวบ์ AtScale
-* BI Connector Data Virtuality LDW (เบต้า)
+* BI Connector 
+* Data Virtuality LDW (Beta)
 * Denodo
 * Dremio
 * Exasol
@@ -127,6 +128,7 @@ ms.locfileid: "77427564"
 * ฐานข้อมูล Azure SQL
 * คลังข้อมูล Azure SQL
 * ฐานข้อมูล Azure Analysis Services
+* ฐานข้อมูล Azure สำหรับ PostgreSQL
 * พื้นที่เก็บข้อมูล Azure Blob
 * พื้นที่เก็บข้อมูล Azure Table
 * Azure Cosmos DB
@@ -154,8 +156,8 @@ ms.locfileid: "77427564"
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (ภายในองค์กร)
 * Microsoft Azure Consumption Insights (เบต้า)
-* Azure DevOps (เบต้า)
-* Azure DevOps Server (เบต้า)
+* Azure DevOps (เฉพาะบอร์ดเท่านั้น)
+* Azure DevOps Server (เฉพาะบอร์ดเท่านั้น)
 * ออบเจ็กต์ Salesforce
 * รายงาน Salesforce
 * Google Analytics
@@ -164,7 +166,6 @@ ms.locfileid: "77427564"
 * Data.World - รับชุดข้อมูล (เบต้า)
 * GitHub (เบต้า)
 * ผู้นำทางการขาย LinkedIn (เบต้า)
-* MailChimp (เบต้า)
 * Marketo (เบต้า)
 * Mixpanel (เบต้า)
 * Planview Enterprise One - PRM (เบต้า)
@@ -178,6 +179,7 @@ ms.locfileid: "77427564"
 * tyGraph (เบต้า)
 * Webtrends (เบต้า)
 * Zendesk (เบต้า)
+* Asana (Beta)
 * Dynamics 365 Customer Insights (Beta)
 * แหล่งข้อมูล Emigo
 * Entersoft Business Suite (เบต้า)
@@ -205,6 +207,7 @@ ms.locfileid: "77427564"
 * Microsoft Exchange
 * ไฟล์ Hadoop (HDFS)
 * Spark
+* Hive LLAP (เบต้า)
 * สคริปต์ R
 * สคริปต์ Python
 * ODBC
@@ -220,6 +223,7 @@ ms.locfileid: "77427564"
 * Siteimprove (เบต้า)
 * SurveyMonkey(เบต้า)
 * Tenforce (Smart)List (เบต้า)
+* TIBCO(R) Data Virtualization (เบต้า)
 * Vena (เบต้า)
 * Workforce Dimensions (เบต้า)
 * Zucchetti HR Infinity (เบต้า)

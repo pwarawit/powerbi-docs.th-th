@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 0f3aa67ea3d8a1cdf34503a833fad42b2d258859
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114683"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435915"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>สำรวจไทล์ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -85,6 +85,10 @@ ms.locfileid: "79114683"
 4. แตะลูกศรที่มุมบนซ้ายเพื่อปิดไทล์ และกลับไปยังแดชบอร์ด
 
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>ไทล์ในแอปสำหรับอุปกรณ์เคลื่อนที่ Windows 10
+
+>[!NOTE]
+>การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ**โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
+
 1. เปิด[แดชบอร์ดในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่](mobile-apps-view-dashboard.md)สำหรับ Windows 10
 2. แตะเอลลิปซิสแนวตั้งบนไทล์ จากตรงนี้คุณสามารถ: 
    

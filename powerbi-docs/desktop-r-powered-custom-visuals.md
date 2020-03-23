@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cc5c40328955f54cb0f37567d7ff91d37a302ce
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 020967948e3f0551de50e4485be0dde450a4f18b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128233"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378696"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>ใช้ส่วนแสดงผล Power BI จาก R ใน Power BI
 
@@ -129,7 +129,7 @@ ms.locfileid: "74128233"
 
    b.  จากคอนโซล R เรียกใช้คำสั่งต่อไปนี้:
 
-       source(“C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R”)
+       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
 
    ตำแหน่งที่ติดตั้งตามค่าเริ่มต้น โดยทั่วไปมีดังนี้:
 
@@ -149,7 +149,7 @@ ms.locfileid: "74128233"
 
 ดูข้อมูลเพิ่มเติมเกี่ยวกับ R ใน Power BI ได้ในบทความต่อไปนี้
 
-* [แกลเลอรี Power BI ส่วนการจัดแสดง Power BI](https://app.powerbi.com/visuals/)
+* [แกลเลอรีวิชวล Power BI](https://app.powerbi.com/visuals/)
 * [การเรียกใช้สคริปต์ R ใน Power BI Desktop](desktop-r-scripts.md)
 * [สร้างวิชวล R ใน Power BI Desktop](desktop-r-visuals.md)
 * [ใช้ R IDE ภายนอกกับ Power BI](desktop-r-ide.md)

@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 01/31/2020
-ms.openlocfilehash: fb4846a777dda4787e1ed0be7de869367a616ea5
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.date: 03/12/2020
+ms.openlocfilehash: fe8b5ed0e3cdf0003986ffe6eab18e97e83f3dec
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530498"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381245"
 ---
 # <a name="embed-report-with-the-power-bi-tab-for-microsoft-teams"></a>ฝังรายงานด้วยแท็บ Power BI สำหรับ Microsoft Teams
 
@@ -69,10 +69,22 @@ ms.locfileid: "77530498"
 
 วิธีหนึ่งในการตรวจสอบให้แน่ใจว่าทุกคนในทีมของคุณมีสิทธิ์เข้าถึงรายงานที่คุณฝังคือการวางพวกเขาเหล่านั้นไว้ในพื้นที่ทำงานแบบเดี่ยวใน Power BI และให้ Office 365 Group แก่ทีมของคุณเข้าถึงพื้นที่ทำงาน
 
+## <a name="start-a-conversation"></a>เริ่มการสนทนา
+
+เมื่อคุณเพิ่มแท็บรายงาน Power BI ไปยัง Teams แล้ว Teams จะสร้างการสนทนาแบบแท็บโดยอัตโนมัติเพื่อร่วมกับรายงาน 
+
+- เลือก **แสดงการสนทนาแบบแท็บ** ในมุมบนขวา
+
+    ![แสดงไอคอนการสนทนาแบบแท็บ](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
+
+    ข้อคิดเห็นแรกคือการเชื่อมโยงไปยังรายงาน ทุกคนในช่องของ Teams นั้นสามารถดูและพูดคุยเกี่ยวกับรายงานในการสนทนาได้
+
+    ![การสนทนาแบบแท็บ](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-tab.png)
+
 ## <a name="known-issues-and-limitations"></a>ปัญหาและขีดจำกัดที่ทราบแล้ว
 
 - Power BI ไม่รองรับภาษาที่แปลเป็นภาษาท้องถิ่นเช่นเดียวกับที่ Microsoft Teams รองรับ ผลที่ได้คือคุณอาจไม่เห็นการแปลที่เหมาะสมภายในรายงานแบบฝังตัว
-- คุณไม่สามารถฝังแดชบอร์ด Power BI ในแท็บ Power BI สำหรับ Microsoft Teams ได้
+- คุณไม่สามารถฝังแดชบอร์ด Power BI ใน Power BI Tab สำหรับ Microsoft Teams ได้
 - ผู้ใช้ที่ไม่มีสิทธิการใช้งาน Power BI หรือสิทธิการใช้งานในรายงานจะเห็นข้อความ "เนื้อหาไม่พร้อมใช้งาน"
 - คุณอาจพบปัญหาถ้าใช้ Internet Explorer 10 <!--You can look at the [browsers support for Power BI](consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - ไม่สนับสนุน[ตัวกรอง URL](service-url-filters.md) กับแท็บ Power BI สำหรับ Microsoft Teams

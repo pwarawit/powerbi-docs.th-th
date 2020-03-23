@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8737a0e9b2dd8ba17d28962ed51e24ec0c5cefc4
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040465"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381433"
 ---
 # <a name="visualization-types-in-power-bi"></a>ชนิดการแสดงภาพใน Power BI
 ## <a name="power-bi-visualizations"></a>การแสดงภาพ Power BI
 เราจะเพิ่มการแสดงภาพใหม่ โปรดติดตามต่อไป!
 
-และดูที่[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) ซึ่งคุณจะพบรายการ[ภาพแบบกำหนดเอง](../developer/power-bi-custom-visuals.md)ที่ขยายเพิ่มขึ้นเรื่อย ๆ คุณสามารถดาวน์โหลดและใช้ในแดชบอร์ดและรายงานของคุณเองได้ รู้สึกมีความคิดสร้างสรรค์? [เรียนรู้วิธีการสร้างและเพิ่มภาพของคุณเองไปยังเว็บไซต์ชุมชนนี้](../developer/office-store.md)  
+และดูที่ [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) ซึ่งคุณจะพบรายการ[วิชวล Power BI](../developer/visuals/power-bi-custom-visuals.md) ที่เพิ่มจำนวนขึ้นเรื่อย ๆ คุณสามารถดาวน์โหลดและใช้ในแดชบอร์ดและรายงานของคุณเองได้ รู้สึกมีความคิดสร้างสรรค์? [เรียนรู้วิธีการสร้างและเพิ่มภาพของคุณเองไปยังเว็บไซต์ชุมชนนี้](../developer/visuals/office-store.md)  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>รายการของการแสดงภาพที่พร้อมใช้งานใน Power BI
 การแสดงภาพเหล่านี้ทั้งหมดสามารถถูกเพิ่มลงในรายงาน Power BI ที่ระบุในการถามตอบ และปักหมุดไปยังแดชบอร์ดได้

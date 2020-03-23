@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: d688e54607283a6bcb67f895a89ca991f68bc01b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922493"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379363"
 ---
 # <a name="color-utils"></a>ยูทิลิตี้สี
 บทความนี้จะช่วยให้คุณสามารถติดตั้ง นำเข้า และใช้คำแนะนำเครื่องมือยูทิลิตี้สี บทความนี้อธิบายวิธีการใช้ยูทิลิตี้สี ทำให้ง่ายต่อการใช้ชุดรูปแบบและจานสีบนจุดข้อมูลของการแสดงผลด้วยภาพของ Power BI
@@ -40,7 +40,7 @@ npm install powerbi-visuals-utils-colorutils --save
 import { ColorHelper } from "powerbi-visuals-utils-colorutils";
 ```
 
-เรียนรู้วิธีการติดตั้งและใช้ ColorUtils ในการแสดงผลด้วยภาพแบบกำหนดเองของคุณ:
+เรียนรู้วิธีการติดตั้งและใช้ ColorUtils ในวิชวล Power BI ของคุณ:
 
 * [คำแนะนำการใช้งาน] คำแนะนำการใช้งานนี้จะอธิบาย API สาธารณะของแพคเกจ คุณจะพบคำอธิบายและตัวอย่างสำหรับแต่ละอินเทอร์เฟซสาธารณะของแพคเกจ
 

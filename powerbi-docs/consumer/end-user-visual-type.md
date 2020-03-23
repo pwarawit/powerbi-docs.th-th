@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114183"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377201"
 ---
 # <a name="visual-types-in-power-bi"></a>ชนิดของวิชวลใน Power BI
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-คุณจะพบวิชวลในรายงาน แดชบอร์ด และถามตอบ (Q&A) ชนิดของวิชวลเหล่านี้บางส่วนถูกรวมเป็นแพคเกจเข้ากับ Power BI และบางส่วนเป็น *วิชวลแบบกำหนดเอง* วิชวลแบบกำหนดเองถูกสร้างขึ้นนอก Power BI และในแนวทางที่อนุญาตให้ *ผู้ออกแบบ* รายงานเพิ่มลงในรายงานและแดชบอร์ด Power BI ได้ 
+คุณจะพบวิชวลในรายงาน แดชบอร์ด และถามตอบ (Q&A) ชนิดของวิชวลเหล่านี้บางส่วนถูกรวมเป็นแพคเกจเข้ากับ Power BI และบางส่วนเป็น *วิชวล Power BI* วิชวลแบบกำหนดเองถูกสร้างขึ้นนอก Power BI และในแนวทางที่อนุญาตให้ *ผู้ออกแบบ* รายงานเพิ่มลงในรายงานและแดชบอร์ด Power BI ได้ 
 
 บทความนี้เป็นภาพรวมของวิชวลที่ถูกรวมเป็นแพคเกจเข้ากับบริการ Power BI  นี่คือวิชวลที่คุณจะพบบ่อยที่สุด สำหรับข้อมูลเชิงลึกเกี่ยวกับวิชวลเหล่านี้ โปรดดูเอกสารประกอบของ[ผู้ออกแบบรายงาน *Power BI* เกี่ยวกับชนิดของวิชวล](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 > [!NOTE]
-> หากต้องการเรียนรู้เกี่ยวกับวิชวลแบบกำหนดเอง ให้ค้นหาวิชวลเหล่านั้นในส่วน **วิชวล Power BI** ของ [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) สำหรับแต่ละวิชวล คุณจะพบคำอธิบาย ข้อมูลผู้สร้าง และภาพหน้าจอหรือวิดีโอ 
+> หากต้องการเรียนรู้เกี่ยวกับวิชวล Power BI ให้ค้นหาวิชวลเหล่านั้นในส่วน **วิชวล Power BI** ของ [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) สำหรับแต่ละวิชวล คุณจะพบคำอธิบาย ข้อมูลผู้สร้าง และภาพหน้าจอหรือวิดีโอ 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>รายการวิชวลที่พร้อมใช้งานใน Power BI
 คุณสามารถพบวิชวลเหล่านี้ทั้งหมดได้ในแดชบอร์ดและรายงาน Power BI และ [ที่ระบุในถามตอบ (Q&A)](end-user-q-and-a.md) หากต้องการเรียนรู้วิธีการโต้ตอบกับวิชวล โปรดดูหัวข้อ [โต้ตอบกับวิชวลในรายงาน แดชบอร์ด และแอป](end-user-visualizations.md)
@@ -237,7 +237,7 @@ KPI เป็นตัวเลือกที่ดีที่สุด:
 - เมื่อต้องการแสดงจำนวนพนักงานตอนต้นปีและปลายปีในบริษัทของคุณในหนึ่งปี
 - เมื่อต้องการแสดงภาพจำนวนเงินที่หาได้และใช้จ่ายในแต่ละเดือน และยอดคงเหลือสะสมสำหรับบัญชีของคุณ
 
-## <a name="qna"></a>บอกถามตอบ (Q&A) ว่าต้องใช้วิชวลแบบไหน
+## <a name="tell-qa-which-visual-to-use"></a><a name="qna"></a>บอกถามตอบ (Q&A) ว่าต้องใช้วิชวลแบบไหน
 เมื่อพิมพ์คิวรีด้วยภาษาธรรมชาติในการถามตอบของ Power BI คุณสามารถระบุชนิดของวิชวลในคิวรีของคุณได้  ตัวอย่างเช่น:
 
 

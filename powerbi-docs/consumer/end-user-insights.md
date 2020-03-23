@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e86e8c87ca7942e74ff2f16e299304f56f4a2aa3
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113088"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377302"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>ดูข้อมูลเชิงลึกบนไทล์แดชบอร์ดด้วย Power BI
 
@@ -61,7 +61,7 @@ ms.locfileid: "79113088"
 กลับไปที่รายงานของคุณ โดยเลือก **ออกจากโหมดโฟกัส**จากมุมด้านซ้ายบน
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
-- **ดูข้อมูลเชิงลึก**ใช้ไม่ได้กับชนิดไทล์ของแดชบอร์ดทั้งหมด เช่น ไม่สามารถใช้ได้กับการแสดงผลด้วยภาพที่กำหนดเอง<!--[custom visuals](end-user-custom-visuals.md)-->
+- **ดูข้อมูลเชิงลึก**ใช้ไม่ได้กับชนิดไทล์ของแดชบอร์ดทั้งหมด เช่น ไม่สามารถใช้ได้กับวิชวล Power BI<!--[Power BI visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

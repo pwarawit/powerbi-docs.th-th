@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: d37e9530b56d577ae4f4a32780a46ba00ede8107
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 23291659a12bb08becf0d9a4f57a41a93eadbc5e
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114817"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435593"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>รับการแจ้งเตือนในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -21,6 +21,9 @@ ms.locfileid: "79114817"
 | ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![โทรศัพท์ Android](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |อุปกรณ์ Windows 10 |
+
+>[!NOTE]
+>การสนับสนุนแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ **เครื่องที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 การแจ้งเตือนจะนำข้อมูลที่เกี่ยวข้องกับประสบการณ์ Power BI ให้คุณ ในบริการของ Power BI หรือบนอุปกรณ์เคลื่อนที่ของคุณ เมื่อคุณเปิดการแจ้งเตือน คุณจะเห็นตัวดึงข้อมูลเรียงเป็นลำดับเกี่ยวกับ[การแจ้งเตือนที่คุณได้ตั้งค่า](mobile-set-data-alerts-in-the-mobile-apps.md)แดชบอร์ดใหม่ที่มีการแชร์กับคุณ การเปลี่ยนแปลงพื้นที่การทำงานกลุ่มของคุณ รายละเอียดเกี่ยวกับเหตุการณ์ใน Power BI และการประชุม และอื่นๆ
 

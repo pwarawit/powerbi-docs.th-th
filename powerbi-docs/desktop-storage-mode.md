@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e3a7130cf24fb4fb3f4a61c22f2a3874afc53d45
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.openlocfilehash: 6ba03c90e8d0da1b07821001834e04b681e9cc99
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "77464584"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201320"
 ---
 # <a name="manage-storage-mode-in-power-bi-desktop"></a>จัดการโหมดที่เก็บข้อมูลใน Power BI Desktop
 
@@ -157,7 +157,7 @@ ms.locfileid: "77464584"
 * ชุดข้อมูล Power BI
 * Azure Analysis Services
 
-เมื่อทำการเชื่อมต่อกับแหล่งที่มาหลายขนาดเหล่านี้โดยใช้ DirectQuery คุณจะไม่สามารถเชื่อมต่อกับแหล่งที่มา DirectQuery อีกแห่ง หรือรวมเข้ากับข้อมูลที่นำเข้าได้
+เมื่อทำการเชื่อมต่อกับแหล่งที่มาหลายขนาดเหล่านี้โดยใช้ DirectQuery คุณจะไม่สามารถเชื่อมต่อกับแหล่งที่มา DirectQuery อีกแห่งหรือรวมเข้ากับข้อมูลที่นำเข้าได้
 
 ข้อจำกัดของการใช้ DirectQuery ที่มีจะยังคงมีผลเมื่อคุณใช้โมเดลแบบรวม โดยข้อจำกัดมากมายมีผลขึ้นอยู่กับแต่ละตาราง ซึ่งขึ้นอยู่กับโหมดที่เก็บข้อมูลของตารางนั้นๆ ตัวอย่างเช่น คอลัมน์ที่ได้รับการคำนวณบนตารางที่นำเข้าสามารถอ้างอิงไปยังตารางอื่น แต่ตารางที่ได้รับการคำนวณบนตาราง DirectQuery จะยังคงถูกจำกัดให้อ้างอิงไปยังคอลัมน์บนตารางเดียวกันเท่านั้น ข้อจำกัดอื่น ๆ มีผลกับโมเดลทั้งหมด หากมีตารางใดภายในโมเดลที่เป็น DirectQuery ตัวอย่างเช่น คุณลักษณะ QuickInsights และ Q&A จะไม่สามารถใช้งานได้บนโมเดลหากมีตารางใดภายในโมเดลมีโหมดที่เก็บข้อมูลของ DirectQuery 
 

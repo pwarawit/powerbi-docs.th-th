@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: 8703bfa60116b7e60f1e6bec931b0f6183f7dd31
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 0313dc2014130ded9b9ed4ad112aa26803d92d28
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75218735"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435731"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>เริ่มต้นใช้งานด่วน: สำรวจแดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 ในการเริ่มต้นใช้งานด่วนนี้ คุณจะได้เข้าชมแอป Power BI สำหรับอุปกรณ์เคลื่อนที่และสำรวจตัวอย่างแดชบอร์ดและรายงานได้อย่างรวดเร็ว แอป Power BI สำหรับ iOS จะแสดงขึ้นมาแต่คุณสามารถทำตามบนอุปกรณ์อื่นๆ ได้อย่างง่ายดาย
@@ -24,7 +24,10 @@ ms.locfileid: "75218735"
 |:--- |:--- |:--- |:--- |
 | iPhone | iPad | Android | Windows 10 |
 
-แดชบอร์ดเป็นพอร์ทัลสำหรับวงจรชีวิตและกระบวนการของบริษัทของคุณ คือภาพรวมหรือสถานที่เดียวที่สามารถตรวจสอบสถานะปัจจุบันของธุรกิจได้ รายงาน คือ มุมมองแบบโต้ตอบของข้อมูลของคุณที่มีการแสดงผลด้วยภาพที่แสดงการค้นพบและข้อมูลเชิงลึกที่แตกต่างจากข้อมูลนั้น 
+>[!NOTE]
+>การสนับสนุนแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ **เครื่องที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+แดชบอร์ดเป็นพอร์ทัลสำหรับอายุงานและกระบวนการของบริษัทของคุณ คือภาพรวมหรือสถานที่เดียวที่สามารถตรวจสอบสถานะปัจจุบันของธุรกิจได้ รายงาน คือ มุมมองแบบโต้ตอบของข้อมูลของคุณที่มีการแสดงผลด้วยภาพที่แสดงการค้นพบและข้อมูลเชิงลึกที่แตกต่างจากข้อมูลนั้น 
 
 ![รายงานในโหมดแนวนอน](././media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report.png)
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 3af0470e29b4f71cf8948bff4c1b317304533ac8
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114650"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435823"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -103,6 +103,10 @@ ms.locfileid: "79114650"
 5. เมื่อต้องลบการแจ้งเตือนทั้งหมด แตะไอคอนถังขยะ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png)
 
 ## <a name="data-alerts-on-a-windows-device"></a>การแจ้งเตือนข้อมูลบนอุปกรณ์ Windows
+
+>[!NOTE]
+>การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ **โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
+
 ### <a name="set-data-alerts-on-a-windows-device"></a>ตั้งค่าการแจ้งเตือนข้อมูลบนอุปกรณ์ Windows
 1. แตะหมายเลขหรือไทล์ตัวประเมินในแดชบอร์ดเพื่อเปิด  
 2. แตะไอคอน bell![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png)เพื่อเพิ่มข้อความแจ้งเตือน  

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78919793"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488832"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>ฝังรายงานในพอร์ทัลความปลอดภัยหรือเว็บไซต์
 
@@ -40,7 +40,7 @@ ms.locfileid: "78919793"
 
     ![รายงานฝังตัว](media/service-embed-secure/secure-embed-report.png)
 
-5. เมื่อใช้ iFrame คุณอาจต้องแก้ไข **ความสูง** และ **ความกว้าง** เพื่อให้พอดีกับหน้าเว็บพอร์ทัลของคุณ
+5. เมื่อใช้ iFrame คุณอาจต้องแก้ไข**ความสูง**และ**ความกว้าง** เพื่อปรับให้พอดีกับหน้าเว็บพอร์ทัลของคุณ
 
     ![ตั้งค่าความสูงและความกว้าง](media/service-embed-secure/secure-embed-size.png)
 
@@ -104,7 +104,7 @@ newUrl += "&$filter=Industries/Industry eq '" + filterValue + "'";
 
 }
 
-//Assumes there’s an iFrame on the page with id=”iFrame”
+//Assumes there's an iFrame on the page with id="iFrame"
 
 var report = document.getElementById("iFrame")
 
@@ -115,7 +115,7 @@ report.src = newUrl;
 
 ![ตัวกรอง](media/service-embed-secure/secure-embed-filter.png)
 
-คุณสามารถเพิ่มปุ่มได้มากเท่าที่คุณต้องการเพื่อสร้างประสบการณ์ที่กำหนดเองแบบรหัสต่ำ 
+คุณสามารถเพิ่มปุ่มได้มากเท่าที่คุณต้องการเพื่อสร้างประสบการณ์แบบกำหนดเองด้วยการใช้รหัสต่ำ 
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 
@@ -133,9 +133,9 @@ report.src = newUrl;
 
 * เซิร์ฟเวอร์ SharePoint แบบคลาสสิกไม่ได้รับการสนับสนุน เนื่องจากจำเป็นต้องมี Internet Explorer เวอร์ชันเก่ากว่า 11 หรือเปิดใช้งานโหมดมุมมองที่เข้ากันได้
 
-* เพื่อให้ได้รับประสบการณ์การลงชื่อเข้าใช้เพียงครั้งเดียว ให้ใช้ [ตัวเลือกฝังใน SharePoint Online](service-embed-report-spo.md) หรือสร้างการบูรณาการแบบกำหนดเองโดยวิธีการฝังตัวแบบ [ผู้ใช้เป็นเจ้าของข้อมูล](developer/embed-sample-for-your-organization.md) 
+* เพื่อให้ได้รับประสบการณ์การลงชื่อเข้าใช้เพียงครั้งเดียว ให้ใช้ [ตัวเลือกฝังใน SharePoint Online](service-embed-report-spo.md) หรือสร้างการบูรณาการแบบกำหนดเองโดยวิธีการฝังตัวแบบ [ผู้ใช้เป็นเจ้าของข้อมูล](developer/embedded/embed-sample-for-your-organization.md) 
 
-* ความสามารถในการรับรองความถูกต้องโดยอัตโนมัติที่มาพร้อมกับการ**ฝัง**ตัวเลือกที่ไม่ทำงานกับ Power BI JavaScript API สำหรับ Power BI JavaScript API ให้ใช้วิธีการฝังตัวแบบ [ผู้ใช้เป็นเจ้าของข้อมูล](developer/embed-sample-for-your-organization.md) 
+* ความสามารถในการรับรองความถูกต้องโดยอัตโนมัติที่มาพร้อมกับการ**ฝัง**ตัวเลือกที่ไม่ทำงานกับ Power BI JavaScript API สำหรับ Power BI JavaScript API ให้ใช้วิธีการฝังตัวแบบ [ผู้ใช้เป็นเจ้าของข้อมูล](developer/embedded/embed-sample-for-your-organization.md) 
 
 * อายุการใช้งานโทเค็นการรับรองความถูกต้องจะถูกควบคุมตามการตั้งค่า AAD ของคุณ เมื่อโทเค็นการรับรองความถูกต้องหมดอายุ ผู้ใช้จะต้องรีเฟรชเบราว์เซอร์เพื่อรับโทเค็นการรับรองความถูกต้องที่อัปเดตแล้ว อายุการใช้งานเริ่มต้นคือหนึ่งชั่วโมง แต่อาจมีความยาวน้อยกว่าหรือนานกว่าในองค์กรของคุณ
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: ff2f22620cf062dcc342323e71dc7401b5991cd7
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6b2876ca78e07cf7c3c2b778ef9c571745baa1e5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697048"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488671"
 ---
 # <a name="power-bi-premium-faq"></a>คำถามที่ถามบ่อยสำหรับ Power BI Premium
 
@@ -73,9 +73,9 @@ Power BI Premium จะมีจำหน่ายในศูนย์การ
 **Power BI Premium พร้อมใช้งานกับ Office 365 E5 หรือไม่?**  
 Power BI Premium พร้อมใช้งานเป็นแบบเพิ่มเข้าไปสำหรับ Power BI Pro Office 365 E5 ประกอบด้วย Power BI Pro ลูกค้า E5 สามารถซื้อ Premium เป็นแบบ add-on (เพิ่มเข้าไป) กับสิทธิ์การใช้งาน Pro ที่มีอยู่แล้วได้
 
-**พอร์ตเซิร์ฟเวอร์ Power BI คืออะไร? นี่หมายถึงคุณกำลังทำให้ Power BI พร้อมใช้งานภายในองค์กรใช่หรือไม่?**
+**พอร์ตเซิร์ฟเวอร์ Power BI คืออะไร? หมายความว่าคุณกำลังทำให้ Power BI พร้อมใช้งานภายในองค์กรใช่หรือไม่?**
 
-พอร์ตเซิร์ฟเวอร์ Power BI เป็นเซิร์ฟเวอร์ภายในองค์กรที่อนุญาตให้ปรับใช้และกระจายรายงาน Power BI แบบโต้ตอบและรายงานทางไกล โดยสมบูรณ์ภายในขอบเขตไฟร์วอลล์ขององค์กร เซิร์ฟเวอร์รายงาน Power BI จะพร้อมใช้งานผ่าน Power BI Premium หรือ เป็นสิทธิประโยชน์สำหรับลูกค้าที่มี SQL Server Enterprise Edition พร้อมการรับประกันซอฟต์แวร์ สำหรับข้อมูลเกี่ยวกับสิทธิ์การใช้งาน กรุณาดูที่ [สิทธิ์การใช้งานเซิร์ฟเวอร์รายงาน Power BI](report-server/get-started.md#licensing-power-bi-report-server) ติดต่อตัวแทน Microsoft ของคุณเพื่อสอบถามข้อมูลเพิ่มเติม
+เซิร์ฟเวอร์ Power BI Report เป็นเซิร์ฟเวอร์ภายในองค์กรที่อนุญาตให้ปรับใช้และกระจายรายงาน Power BI แบบโต้ตอบและรายงานที่ระบุหมายเลขหน้าโดยสมบูรณ์ภายในขอบเขตไฟร์วอลล์ขององค์กร เซิร์ฟเวอร์รายงาน Power BI จะพร้อมใช้งานผ่าน Power BI Premium หรือ เป็นสิทธิประโยชน์สำหรับลูกค้าที่มี SQL Server Enterprise Edition พร้อมการรับประกันซอฟต์แวร์ สำหรับข้อมูลเกี่ยวกับสิทธิ์การใช้งาน กรุณาดูที่ [สิทธิ์การใช้งานเซิร์ฟเวอร์รายงาน Power BI](report-server/get-started.md#licensing-power-bi-report-server) ติดต่อตัวแทน Microsoft ของคุณเพื่อสอบถามข้อมูลเพิ่มเติม
 
 ด้วย Power BI Premium แกนประมวลผลเสมือนจำนวนเดียวกันที่องค์กรเตรียมใช้งานในระบบคลาวด์สามารถปรับใช้ภายในองค์กรผ่านเซิร์ฟเวอร์รายงาน Power BI ได้ โดยไม่จำเป็นต้องแยกความจุ องค์กรต่าง ๆ สามารถเลือก Power BI ในระบบคลาวด์ หรือเลือกที่จะเก็บรายงานภายในองค์กรด้วยเซิร์ฟเวอร์รายงาน Power BI และย้ายไปยังระบบคลาวด์ของตนตามที่ต้องการได้
 
@@ -88,6 +88,6 @@ Power BI Premium พร้อมใช้งานเป็นแบบเพิ
 [เอกสารทางเทคนิคของ Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 [เอกสารทางเทคนิคสำหรับการวางแผน Power BI Enterprise Deploymen](https://aka.ms/pbienterprisedeploy)
 [การเปิดใช้งาน Pro Extended](service-extended-pro-trial.md)
-[คำถามที่พบบ่อยเกี่ยวกับ Power BI Embedded](developer/embedded-faq.md)
+[คำถามที่พบบ่อยเกี่ยวกับ Power BI Embedded](developer/embedded/embedded-faq.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

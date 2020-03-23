@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 2c7ae8180f51592319c9aaca85272553480cd283
-ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
+ms.openlocfilehash: bad6b507e970319003a8d338ecf29a2afc948e9c
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/27/2019
-ms.locfileid: "75498518"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435570"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>สร้างและดูรายการโปรดในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -21,6 +21,9 @@ ms.locfileid: "75498518"
 | ![iPhone](./media/mobile-apps-favorites/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-favorites/ipad-logo-50-px.png) | ![โทรศัพท์ Android](./media/mobile-apps-favorites/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-apps-favorites/android-tablet-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-apps-favorites/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |อุปกรณ์ Windows 10 |
+
+>[!NOTE]
+>การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ**โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 อ่านเกี่ยวกับการสร้างและดูแดชบอร์ด รายงาน และแอป Power BI รายการโปรด รวมถึง KPI และเซิร์ฟเวอร์รายงาน Power BI และ Reporting Services ภายในองค์กรของคุณที่เป็นรายการโปรดในแอปสำหรับอุปกรณ์เคลื่อนที่
 

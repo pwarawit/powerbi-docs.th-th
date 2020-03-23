@@ -6,20 +6,20 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 8829cb8af41611fb29cd4fc22da7706e80ef3210
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4379fbfe051b69a2c9502a033ba462c1dded2022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880356"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380670"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>คำแนะนำเครื่องมือในวิชวล Power BI
 
-ขณะนี้วิชวลสามารถใช้ประโยชน์จากการสนับสนุนคำแนะนำเครื่องมือของ Power BI ได้แล้ว คำแนะนำเครื่องมือ Power BI จะจัดการการโต้ตอบต่อไปนี้:
+ขณะนี้วิชวลสามารถใช้ประโยชน์จากการสนับสนุนคำแนะนำเครื่องมือของ Power BI ได้แล้ว คำแนะนำเครื่องมือ Power BI จะจัดการการโต้ตอบต่อไปนี้:'''
 
-* แสดงคำแนะนำเครื่องมือ
+* แสดงคำแนะนำเครื่องมือ'''
 * ซ่อนคำแนะนำเครื่องมือ
 * ย้ายคำแนะนำเครื่องมือ
 
@@ -27,7 +27,7 @@ ms.locfileid: "73880356"
 
 คำแนะนำเครื่องมือในแผนภูมิแท่งตัวอย่างจะแสดงในรูปภาพต่อไปนี้:
 
-![คำแนะนำเครื่องมือแผนภูมิแท่งตัวอย่าง](./media/tooltips-in-samplebarchart.png)
+![คำแนะนำเครื่องมือแผนภูมิแท่งตัวอย่าง](media/add-tooltips/tooltips-in-samplebarchart.png)
 
 คำแนะนำเครื่องมือก่อนหน้านี้แสดงหมวดหมู่และค่าของแท่งเดียว คุณสามารถขยายคำแนะนำเครื่องมือเดียวเพื่อแสดงหลายค่าได้
 
@@ -209,7 +209,7 @@ ms.locfileid: "73880356"
 
 คุณสามารถกำหนดคำแนะนำเครื่องมือของหน้ารายงานในบานหน้าต่าง**รูปแบบ**ได้
 
-![คำแนะนำเครื่องมือของหน้ารายงาน](media/report-page-tooltip.png)
+![คำแนะนำเครื่องมือของหน้ารายงาน](media/add-tooltips/report-page-tooltips.png)
 
 * `supportedTypes`: การกำหนดค่าคำแนะนำเครื่องมือที่วิชวลรองรับและจะปรากฏบนช่องเขตข้อมูลดังกล่าว 
    * `default`: ระบุว่ามีการสนับสนุนการผูกคำแนะนำเครื่องมือ "อัตโนมัติ" ผ่านเขตข้อมูลหรือไม่ 

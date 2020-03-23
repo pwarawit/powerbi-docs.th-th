@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: d4e8ab0effef52071f592902a6c2fdb2649ff52d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114780"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435340"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>กรองรายงานตามตำแหน่งที่ตั้งทางภูมิศาสตร์ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 ใช้ได้กับ:
@@ -25,8 +25,9 @@ ms.locfileid: "79114780"
 
 > [!NOTE]
 > คุณสามารถกรองตามตำแหน่ง ถ้าชื่อทางภูมิศาสตร์ในรายงานเป็นภาษาอังกฤษเท่านั้น ตัวอย่างเช่น "New York City" หรือ "Germany" แท็บเล็ต Windows 10 และพีซีไม่สนับสนุนการกรองทางภูมิศาสตร์ แต่มือถือ Windows 10 ทำได้
-> 
-> 
+
+>[!NOTE]
+>การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ **โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="filter-your-report-by-your-geographic-location"></a>กรองรายงานของคุณตามที่ตั้งทางภูมิศาสตร์ของคุณ
 1. เปิดรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที บนอุปกรณ์เคลื่อนที่ของคุณ

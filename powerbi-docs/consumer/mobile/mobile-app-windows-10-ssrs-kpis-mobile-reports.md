@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 010513ec8ca908167bbc99255a6fd207ca0ccfba
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79040920"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435386"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>ดูรายงานและ KPI ภายในองค์กรในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 แอป Power BI สำหรับ Windows 10 มีการเข้าถึงแบบไลฟ์, touch ที่เปิดใช้งานการเชื่อมต่อกับข้อมูลทางธุรกิจภายในองค์กรที่สำคัญของคุณในReporting Services SQL Server 2016 
@@ -26,8 +26,9 @@ ms.locfileid: "79040920"
 
 > [!NOTE]
 > อุปกรณ์ของคุณจะต้องสามารถใช้งาน Windows 10 ได้ แอปสามารถทำงานได้เต็มประสิทธิภาพในอุปกรณ์ที่มี RAM อย่างน้อย 1 GB และที่เก็บข้อมูลภายใน 8 GB
-> 
-> 
+
+>[!NOTE]
+>การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ**โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="explore-samples-without-a-sql-server-2016-reporting-services-server"></a>สำรวจตัวอย่างโดยไม่มีเซิร์ฟเวอร์ SQL Server 2016 Reporting Services
 แม้ว่าคุณไม่สามารถเข้าถึงพอร์ทัลของเว็บ Reporting Services ได้ แต่ยังสามารถสำรวจดูคุณลักษณะต่างๆ ในรายงานอุปกรณ์มือถือของ Reporting Services ได้

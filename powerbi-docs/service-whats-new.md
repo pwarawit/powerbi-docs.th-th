@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920960"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488855"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
 ตรวจสอบหน้านี้สำหรับปัญหาที่ทราบแล้วและคุณลักษณะที่เผยแพร่ล่าสุดในการ**บริการ Power BI** สำหรับข้อมูล "มีอะไรใหม่" ที่เกี่ยวข้อง ดู:
@@ -91,7 +91,7 @@ ms.locfileid: "78920960"
 * การส่งออกที่กรองแล้วสำหรับ PPT และ PDF
 * [การตั้งค่าการสนับสนุนและความช่วยเหลือ](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/) ในพอร์ทัลผู้ดูแลระบบ
 * ประสบการณ์การติดตามการใช้งานข้อมูลสำหรับ[กระแสข้อมูล](service-dataflows-overview.md)
-* การตั้งค่าการแสดงผลด้วยภาพแบบกำหนดเองที่ได้รับการรับรองใหม่ในพอร์ทัลผู้ดูแลระบบ
+* การตั้งค่าวิชวล Power BI ที่ได้รับการรับรองใหม่ในพอร์ทัลผู้ดูแลระบบ
 
 ### <a name="january-2019"></a>มกราคม 2019
 * [ฝังรายงาน secure Power BI](service-embed-secure.md)ในพอร์ทัลภายในหรือเว็บไซต์
@@ -127,7 +127,7 @@ ms.locfileid: "78920960"
 * การปรับปรุง [ตัวกรอง URL รายงาน](service-url-filters.md) สำหรับ Power BI
 
 ### <a name="july-2018"></a>กรกฎาคม 2018
-* สนับสนุนวิชวลแบบกำหนดเองสำหรับ[ตัวกรองแบบถาวร](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)
+* สนับสนุนวิชวล Power BI สำหรับ[ตัวกรองแบบถาวร](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)
 * [cmdlet ของ PowerShell และ API](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/) สำหรับผู้ดูแลระบบ Power BI
 * [การสนับสนุนหลายภาคภูมิศาสตร์](service-admin-premium-multi-geo.md)สำหรับ Power BI Premium
 
@@ -154,20 +154,20 @@ ms.locfileid: "78920960"
 ### <a name="february-2018"></a>กุมภาพันธ์ 2018
 * ติดตั้ง [Power BI Apps](service-create-distribute-apps.md) โดยอัตโนมัติสำหรับผู้ใช้ปลายทาง
 * ความจุ P4 และ P5 บน Power BI Premium
-* แสดงตัวอย่างของ[ภาพแบบกำหนดเองสำหรับองค์กร](developer/power-bi-custom-visuals-organization.md)
+* ตัวอย่างของ[วิชวล Power BI ของหน่วยงาน](developer/visuals/power-bi-custom-visuals-organization.md)
 
 ### <a name="january-2018"></a>มกราคม 2018
-*   รายงาน Power BI ที่แชร์และเป็นรายการโปรด
-*   OAuth2 และ DirectQuery Single Sign-on Support (SSO) สำหรับฐานข้อมูล Azure SQL และคลังข้อมูล (Data Warehouse)
-*   การตรวจสอบในภูมิภาค: บันทึกการตรวจสอบจะถูกเก็บไว้ใน Office 365 ภูมิภาคเดียวกันกับผู้เช่าของตน
-*   GA ของ SharePoint Online [ส่วนเว็บของรายงาน Power BI](https://go.microsoft.com/fwlink/p/?LinkId=825698)
-*   ผู้ดูแลระบบควบคุมเพื่อปิดการดูภาพแบบกำหนดเองสำหรับผู้ใช้ทั้งหมดในผู้เช่าหนึ่ง
-*   การรีเฟรชตามกำหนดการสนับสนุนสำหรับ Azure Analysis Services (AAS)
+*    รายงาน Power BI ที่แชร์และเป็นรายการโปรด
+*    OAuth2 และ DirectQuery Single Sign-on Support (SSO) สำหรับฐานข้อมูล Azure SQL และคลังข้อมูล (Data Warehouse)
+*    การตรวจสอบในภูมิภาค: บันทึกการตรวจสอบจะถูกเก็บไว้ใน Office 365 ภูมิภาคเดียวกันกับผู้เช่าของตน
+*    GA ของ SharePoint Online [ส่วนเว็บของรายงาน Power BI](https://go.microsoft.com/fwlink/p/?LinkId=825698)
+*    ผู้ดูแลระบบควบคุมเพื่อปิดการดูวิชวล Power BI สำหรับผู้ใช้ทั้งหมดในผู้เช่าหนึ่ง
+*    การรีเฟรชตามกำหนดการสนับสนุนสำหรับ Azure Analysis Services (AAS)
 
 ## <a name="previous-months-2017"></a>เดือนก่อน ๆ (2017)
 ### <a name="october-and-november-2017"></a>เดือนตุลาคมและพฤศจิกายน 2017
-*   เนื้อหาที่คัดเลือกเพื่อเผยแพร่กับ [Power BI Apps](service-create-distribute-apps.md)
-*   การกระจายไปยังผู้ใช้ภายนอกด้วย[Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/)
+*    เนื้อหาที่คัดเลือกเพื่อเผยแพร่กับ [Power BI Apps](service-create-distribute-apps.md)
+*    การกระจายไปยังผู้ใช้ภายนอกด้วย[Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/)
 * คำแนะนำแอปฯที่ขับเคลื่อนด้วย AI
 * อัปเดต UI บนไทล์แดชบอร์ด
 * การสมัครใช้งานอีเมลที่สนับสนุนสำหรับแอปฯ 
@@ -184,8 +184,8 @@ ms.locfileid: "78920960"
 * รู้จักผู้ชมของคุณด้วย[เมตริกการใช้งานต่อผู้ใช้](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/)
 * เริ่มต้นใช้งานด้วยแอปฯ[บริการ Power BI](service-connect-to-services.md) สำหรับบริการออนไลน์
 * เชื่อมต่อกับ IBM Netezza ด้วยเกตเวย์ข้อมูลในองค์กรผ่านทั้งโหมดนำเข้าและโหมดการเชื่อมต่อ DirectQuery
-* [RLS แบบไดนามิก](developer/embedded-row-level-security.md)ตอนนี้สนับสนุนสำหรับ Power BI Embedded แล้ว
-* ตอนนี้ได้มีการเพิ่ม[การกรอง API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) ขั้นสูงสำหรับรุ่น 1.7 ของภาพ API แบบกำหนดเอง
+* [RLS แบบไดนามิก](developer/embedded/embedded-row-level-security.md)ตอนนี้สนับสนุนสำหรับ Power BI Embedded แล้ว
+* ตอนนี้ได้มีการเพิ่ม [API การกรอง](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) ขั้นสูงสำหรับรุ่น 1.7 ของ API ของวิชวล Power BI
 
 ### <a name="july-2017"></a>กรกฎาคม 2017
 * สนับสนุนสำหรับ[การสมัครใช้งานอีเมล](consumer/end-user-subscribe.md)บนแดชบอร์ด
@@ -198,7 +198,7 @@ ms.locfileid: "78920960"
 * ปรับปรุง API ให้ดีขึ้นหลายจุดสำหรับ[การรีเฟรชตามกำหนดการโดยอัตโนมัติ](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/)[โคลนและรวมรายงานอีกครั้ง](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1)[อัปเดตการรวมเกตเวย์](https://msdn.microsoft.com/library/mt784650.aspx)และอื่น ๆ อีกมากมาย
 * ลิงก์ที่เกี่ยวข้องในแอปฯ Power BI จากไทล์แดชบอร์ดไปยังแดชบอร์ดและรายงานอื่น ๆ
 * [ตัวเชื่อมต่อ Impala](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)พร้อมใช้งานโดยทั่วไปแล้วบน Power BI Desktop
-* ขยายความสามารถในการแสดงภาพของ Power BI ด้วย[ภาพ R แบบโต้ตอบและกำหนดเอง](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/)
+* ขยายความสามารถในวิชวลของ Power BI ด้วย[วิชวล Power BI แบบโต้ตอบในภาษา R](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/)
 
 ### <a name="april-and-may-2017"></a>เดือนเมษายนและเดือนพฤษภาคม 2017
 * วัดและขยายผลกระทบของคุณด้วย[เมตริกการใช้งานสำหรับผู้สร้างแดชบอร์ดและรายงาน](service-usage-metrics.md)
@@ -214,7 +214,7 @@ ms.locfileid: "78920960"
 * ปรับปรุง[การแก้ไขปัญหาข้อความสำหรับคิวรี่ DAX](https://powerbi.microsoft.com/blog/power-bi-service-march-feature-summary/#DAXtroubleshooting)
 * ใช้การควบคุมชุดข้อมูลของคุณมากยิ่งขึ้นด้วย[กำหนดการรีเฟรชแคชแบบกำหนดเอง](https://powerbi.microsoft.com/blog/announcing-custom-cache-refresh-schedules-in-the-power-bi-service/)
 * เชื่อมต่อกับ[Amazon Redshift](https://powerbi.microsoft.com/blog/announcing-support-for-amazon-redshift-reports-in-the-power-bi-service/)
-* เรียกดู[ภาพของ Power BI แบบกำหนดเองใน Office Store](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/)
+* เรียกดู[วิชวล Power BI ใน Office Store](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/)
 * ตัวอย่าง: [สมัครใช้งานหน้ารายงาน](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)เพื่อติดตามข้อมูลของคุณ
 * ใช้ชุดเนื้อหา Azure AD นี้เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับวิธีที่พนักงานและคู่ค้าของคุณกำลังใช้ Azure AD
 
@@ -226,7 +226,7 @@ ms.locfileid: "78920960"
 ### <a name="january-2017"></a>มกราคม 2017
 * จัดการ Power BI โดยใช้[บทบาทผู้ดูแลระบบ Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole)
 * [บันทึกการตรวจสอบ Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) ในพอร์ทัลการตรวจสอบ Office 365 พร้อมใช้งานทั่วโลก
-* เวอร์ชัน 1.4 ของ[เครื่องมือสำหรับนักพัฒนาและ API ภาพแบบกำหนด](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/)ออกสู่ตลาดแล้ว
+* เวอร์ชัน 1.4 ของ[เครื่องมือสำหรับนักพัฒนาและ API ของวิชวล Power BI](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) ออกสู่ตลาดแล้ว
 * [ชุดคุณลักษณะสตรีมมิ่งแบบเรียลไทม์](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)นำออกสู่ตลาดเพื่อพร้อมใช้งานทั่วไปแล้ว
 * [ส่งข้อมูลไปยัง Power BI โดยใช้ Power Automate](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)โดยไม่ต้องเขียนโค้ดใด ๆ
 * ตัวอย่าง: [สมัครใช้งานหน้ารายงาน](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)เพื่อติดตามข้อมูลของคุณ
@@ -507,7 +507,7 @@ ms.locfileid: "78920960"
   1. สนับสนุน SSAS หลายมิติ - สนับสนุนลำดับชั้น (คุณลักษณะการแสดงตัวอย่าง)
   2. ตัวเชื่อมต่อ Stripe
   3. ตัวเชื่อมต่อ Smartsheet
-  4. "ป้อนข้อมูล": วางหรือป้อนข้อมูลเพื่อสร้างตาราง
+  4. “ป้อนข้อมูล” วางหรือป้อนข้อมูลเพื่อสร้างตาราง
   5. การปรับปรุง DirectQuery:  การสนับสนุนสำหรับข้อมูลทุกประเภทของ T-SQL และ SAP HANA ทำให้ประสิทธิภาพการทำงานเพิ่มขึ้น
   6. ตัวเชื่อมต่อ ODBC: การสนับสนุนสำหรับการเลือกผู้ใช้/DSN ระบบ
   7. ตัวเชื่อมต่อ CSV: ความสามารถในการระบุตัวคั่นคอลัมน์ในกล่องโต้ตอบแหล่งข้อมูล
@@ -595,7 +595,7 @@ ms.locfileid: "78920960"
 **13 ตุลาคม 2015**
 
 * โหมดเต็มหน้าจอเพื่อแสดงแดชบอร์ดและรายงานของคุณบนหน้าจอโทรทัศน์ขนาดใหญj
-* 'พอดีกับหน้าจอ' สนับสนุนในโหมดเต็มหน้าจอเพื่อแสดงทั้งแดชบอร์ดของคุณในช่องว่างที่พร้อมใช้งาน
+* 'พอดีกับหน้าจอ' สนับสนุนการทำงานในโหมดเต็มหน้าจอเพื่อแสดงทั้งแดชบอร์ดของคุณในช่องว่างที่พร้อมใช้งาน
 * โหมดในโฟกัสเพื่อให้ได้รายละเอียดเพิ่มเติมเกี่ยวกับแดชบอร์ด
 * ความสามารถในการดูเวลาที่อัปเดตล่าสุดสำหรับแต่ละไทล์
 * ความสามารถในการดูแหล่งข้อมูลสำหรับแต่ละไทล์
@@ -605,16 +605,16 @@ ms.locfileid: "78920960"
 
 **6 ตุลาคม 2015**
 
-* ด้วยการถามตอบของ Power BI (Power BI Q&A) คุณสามารถสำรวจข้อมูลของคุณโดยใช้คำถามง่าย ๆ และใช้งานง่าย เพื่อรับคำตอบในรูปแบบของแผนภูมิและกราฟแบบโต้ตอบ ด้วยการเผยแพร่นี้ เราได้เพิ่มคุณลักษณะหนึ่งเพื่อช่วยให้คุณเริ่มต้นใช้งานการถามตอบ Power BI แม่ว่าคุณไม่ทราบอะไรเลยเกี่ยวกับข้อมูลนั้น ในการเริ่มต้นใช้งาน [นำทางไปยังแดชบอร์ดใด ๆ และคลิกที่ลิงก์ "วิธีการถาม" ใกล้กล่องคำถามสำหรับการถามตอบ](power-bi-tutorial-q-and-a.md) Power BI แสดงคำแนะนำมากมายตามข้อมูลของคุณ
+* ด้วยการถามตอบของ Power BI (Power BI Q&A) คุณสามารถสำรวจข้อมูลของคุณโดยใช้คำถามง่าย ๆ และใช้งานง่าย เพื่อรับคำตอบในรูปแบบของแผนภูมิและกราฟแบบโต้ตอบ ด้วยการเผยแพร่นี้ เราได้เพิ่มคุณลักษณะหนึ่งเพื่อช่วยให้คุณเริ่มต้นใช้งานการถามตอบ Power BI แม่ว่าคุณไม่ทราบอะไรเลยเกี่ยวกับข้อมูลนั้น หากต้องการเริ่มต้นใช้งานนี้ ให้[นำทางไปยังแดชบอร์ดใด ๆ และคลิกที่ลิงก์ "วิธีการถาม" ใกล้กล่องคำถามสำหรับการถามตอบ](power-bi-tutorial-q-and-a.md) Power BI แสดงคำแนะนำมากมายตามข้อมูลของคุณ
 * เมื่อสองสัปดาห์ก่อน เราแนะนำการสนับสนุนสำหรับการแทรกรูปร่างลงในพื้นที่รายงานใน Power BI Desktop สัปดาห์นี้ เรายินดีที่จะประกาศว่า ตอนนี้คุณสามารถเพิ่มรูปร่างไปยังพื้นที่รายงานของคุณได้แล้วเมื่อคุณเขียน และ/หรือแก้ไขรายงานในแอปฯเว็บ Power BI
-* เราได้เพิ่มตัวเลือกในการปิดการแจ้งเตือนทางอีเมลเมื่อคุณแชร์แดชบอร์ดแล้ว เพียงแค่ยกเลิกเลือกกล่องข้อความ "ส่งอีเมลแจ้งเตือนไปยังผู้รับ" ในกล่องโต้ตอบแชร์ Power BI คุณจะเห็น URL หนึ่ง ให้คัดลอกและแชร์ URL นี้กับเพื่อนร่วมงานของคุณเพื่อให้พวกเขาสามารถเข้าถึงแดชบอร์ดได้
+* เราได้เพิ่มตัวเลือกในการปิดการแจ้งเตือนทางอีเมลเมื่อคุณแชร์แดชบอร์ดแล้ว เพียงแค่ยกเลิกการเลือกกล่องกาเครื่องหมาย "ส่งอีเมลแจ้งเตือนไปยังผู้รับ" ในกล่องโต้ตอบแชร์ Power BI คุณจะเห็น URL หนึ่ง ให้คัดลอกและแชร์ URL นี้กับเพื่อนร่วมงานของคุณเพื่อให้พวกเขาสามารถเข้าถึงแดชบอร์ดได้
 * Microsoft Dynamics NAV คือ โซลูชันการจัดการธุรกิจสำหรับองค์กรขนาดเล็กและขนาดกลาง โดยนำเสนอลูกค้าด้วยโซลูชันสำหรับธุรกิจแบบเต็มรูปแบบด้วยการควบคุมกระบวนการทางการเงินและทางธุรกิจของตนได้ดียิ่งกว่า ชุดเนื้อหา Power BI ให้ผู้ใช้ได้รายงานที่ใช้ได้ทันทีสำหรับผู้ใช้ Dynamics NAV เช่น ยอดขายและกำไร ช่องทางสำหรับโอกาส การทำกำไร และอื่น ๆ เมตริกเหล่านี้จะจัดระเบียบบนแดชบอร์ดที่สามารถกำหนดเองได้เต็มที่ ช่วยให้คุณสามารถเชื่อมต่อได้อย่างง่ายดายและเริ่มการสำรวจข้อมูลของคุณทันที
 
 ลองดู[บล็อก](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-service-weekly-update-10-06.aspx)และ[เอกสารประกอบออนไลน์](service-get-started.md)สำหรับข้อมูลเพิ่มเติม
 
 **29 กันยายน 2015**
 
-* ด้วยอัปเดตบริการของสัปดาห์นี้ เมื่อสร้างรายงานใหม่ คุณสามารถเลือกจากหลายขนาดหน้ากระดาษได้ รวมถึงกำหนดขนาดหน้าของคุณเองได้ ซึ่งจะควบคุมขนาดและอัตราส่วนกว้างยาวของแต่ละหน้าในรายงาน
+* ด้วยการอัปเดตบริการของสัปดาห์นี้ เมื่อสร้างรายงานใหม่ คุณสามารถเลือกจากหลายขนาดหน้ากระดาษได้ รวมถึงกำหนดขนาดหน้าของคุณเองได้ ซึ่งจะควบคุมขนาดและอัตราส่วนกว้างยาวของแต่ละหน้าในรายงาน
 * เราได้เพิ่มการสนับสนุนการจัดรูปแบบภาพเพิ่มเติมสำหรับรูปภาพและแผนภูมิฟอง คุณสามารถล็อกอัตราได้ขณะที่ปรับขนาดรูปภาพเพื่อหลีกเลี่ยงความบิดเบี้ยวของรูปภาพ ส่วนแผนภูมิกระจายและแผนภูมิฟองคุณสามารถกำหนดค่าที่จะเติมหรือไม่ก็ได้
 * วันนี้ Power BI จะส่งคำเชิญการแชร์ร่วมกันไปยังที่อยู่อีเมลสำรอง เมื่อมีการแชร์แดชบอร์ดกับคุณ เราจะส่งลิงก์เชิญการแชร์ไปยังทั้งที่อยู่อีเมต้นฉบับของคุณและไปยังที่อยู่อีเมลสำรองของคุณ (ถ้าคุณมีการกำหนดค่าไว้)
 * Power BI จะพร้อมใช้งานสำหรับลูกค้าทั้งหมดรวมทั้งลูกค้าที่ใช้งาอยู่บนสถาปัตยกรรม Dedicated on Multitenant (DonMT) O365 คุณจะใช้ Power BI เป็นบริการที่ใช้ร่วมกันในโหมดหลายผู้เช่า ในกรณีส่วนใหญ่ คุณสามารถลงทะเบียนสำหรับ Power BI โดยทำตามอย่างง่าย ๆ[กระบวนการสมัครใช้บริการด้วยตนเอง](https://powerbi.microsoft.com/) เพียงแค่ใส่ที่อยู่อีเมลที่ทำงานของคุณ จากนั้นใส่ชื่อและรหัสผ่านเพื่อเริ่มต้นใช้งาน ถ้าคุณเป็นผู้ดูแลระบบผู้เช่า คุณสามารถกำหนดสิทธิ์การใช้งานให้ผู้ใช้ของคุณโดยใช้คำแนะนำ[ที่นี่](https://go.microsoft.com/fwlink/?LinkId=627174)ได้
@@ -627,7 +627,7 @@ ms.locfileid: "78920960"
 * มีความยืดหยุ่นในแดชบอร์ดของคุณมากขึ้น เพื่อปรับแต่งแดชบอร์ดตามที่คุณต้องการด้วยขนาดไทล์เพิ่มเติมตั้งแต่ 1 x 1 ถึง 5 x 5
 * ตอนนี้คุณสามารถ[แชร์ (และยกเลิกแชร์) แดชบอร์ดจากพื้นที่กลุ่ม](service-collaborate-power-bi-workspace.md) ในวิธีการเช่นเดียวกับที่คุณดำเนินการในพื้นที่ของคุณเอง เมื่อเพื่อนร่วมงานยอมรับคำเชิญการแชร์ของคุณแล้ว แดชบอร์ดที่แชร์นั้น (และรายงานที่เกี่ยวข้องของแดชบอร์ดเหล่านั้น) จะถูกเพิ่มในพื้นที่ของตนด้วยสิทธิ์แบบอ่านอย่างเดียว
 * เราได้เพิ่ม 5 [ตัวอย่างที่เกี่ยวข้องกับอุตสาหกรรม](sample-datasets.md)เพิ่มเติมไปยัง Power BI: ความสามารถในการทำกำไรสำหรับลูกค้า ทรัพยากรบุคคล การวิเคราะห์โอกาส การวิเคราะห์ด้านการจัดซื้อ และตัวอย่างการขายและการตลาด
-* Stripe คือแพลตฟอร์การชำระเงินขั้นสูงสำหรับธุรกิจแบบออนไลน์ ตั้งแต่บริษัทสตาร์ทอัพไปจนถึง Fortune 500 ธุรกิจหลายพันธุรกิจใช้ Stripe รับการชำระเงินกว่า 130 สกุลเงินจากทั่วทุกมุมโลก ด้วยการเชื่อมต่อ Power BI กับบัญชี Stripe ปัจจุบันของ คุณจะสามารถ[ใช้ชุดเนื้อหา Power BI Stripe เพื่อตรวจติดตาม สำรวจ และดูกิจกรรม Stripe ของคุณได้](service-connect-to-stripe.md)
+* Stripe คือแพลตฟอร์การชำระเงินขั้นสูงสำหรับธุรกิจแบบออนไลน์ ตั้งแต่บริษัทสตาร์ทอัพไปจนถึง Fortune 500 ธุรกิจหลายพันธุรกิจใช้ Stripe รับการชำระเงินกว่า 130 สกุลเงินจากทั่วทุกมุมโลก ด้วยการเชื่อมต่อ Power BI กับบัญชี Stripe ปัจจุบันของคุณ คุณจะสามารถ[ใช้ชุดเนื้อหา Power BI Stripe เพื่อตรวจสอบ สำรวจ และดูกิจกรรม Stripe ของคุณได้](service-connect-to-stripe.md)
 
 [เรียนรู้เพิ่มเติมในบล็อกของเรา](https://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx)
 
@@ -655,7 +655,7 @@ ms.locfileid: "78920960"
 
 **18 สิงหาคม 2015**
 
-* Azure Mobile Engagement เป็นบริการวิเคราะห์แอปฯที่ช่วยให้นักพัฒนาติดตามประสิทธิภาพการทำงานของแอปพลิเคชันของตน ช่วยให้สามารถเพิ่มการสงวนและการใช้งานแอปฯ การใช้[ชุดเนื้อหา Power BI Azure Mobile Engagement](https://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx) คุณสามารถเชื่อมต่อกับแดชบอร์ดแบบใช้งานทันที ชุดรายงาน และชุดข้อมูลที่รวบรวมได้อย่างรวดเร็ว และรับข้อมูลเชิงลึกสำหรับประสิทธิภาพการทำงานของแอปฯของคุณได้ทันที สำหรับข้อมูลเพิ่มเติม โปรดดู[ชุดเนื้อหา Azure Mobile Engagement สำหรับหน้าวิธีใช้ Power BI](service-connect-to-azure-mobile.md)
+* Azure Mobile Engagement เป็นบริการวิเคราะห์แอปที่ช่วยให้นักพัฒนาติดตามประสิทธิภาพการทำงานของแอปพลิเคชันของตน ช่วยให้สามารถเพิ่มการสงวนและการใช้งานแอป การใช้[ชุดเนื้อหา Power BI Azure Mobile Engagement](https://blogs.msdn.com/b/powerbi/archive/2015/08/17/monitor-and-analyze-your-azure-mobile-engagement-data-in-power-bi.aspx) คุณสามารถเชื่อมต่อกับแดชบอร์ดแบบใช้งานทันที ชุดรายงาน และชุดข้อมูลที่รวบรวมได้อย่างรวดเร็ว และรับข้อมูลเชิงลึกสำหรับประสิทธิภาพการทำงานของแอปฯของคุณได้ทันที สำหรับข้อมูลเพิ่มเติม โปรดดู[ชุดเนื้อหา Azure Mobile Engagement สำหรับหน้าวิธีใช้ Power BI](service-connect-to-azure-mobile.md)
 
 **11 สิงหาคม 2015**
 

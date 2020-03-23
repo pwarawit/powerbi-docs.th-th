@@ -7,15 +7,15 @@ featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 28d142ae92353f415f3cf29db959b24a8040c50b
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.openlocfilehash: e5c89a8089929b7d87d2a1291ef2c5d3a5b012b7
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "77558590"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525924"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>เคล็ดลับและลูกเล่นในการแสดงข้อมูลแผนที่ Power BI
 Power BI รวมเข้ากับ Bing Maps เพื่อให้ได้ค่าเริ่มต้นพิกัดแมป (กระบวนการที่เรียกว่า การกำหนดรหัสทางภูมิศาสตร์) เพื่อให้คุณสร้างแผนที่ได้ เมื่อทำงานร่วมกัน ส่วนเหล่านี้ใช้อัลกอริทึมในการระบุตำแหน่งที่ถูกต้อง แต่บางครั้งจะเป็นค่าคาดเดาที่ดีที่สุด หาก Power BI ลองทำแล้วไม่สามารถสร้างการแสดงภาพของแผนที่ได้ด้วยตนเอง ระบบจะแสดงรายการความช่วยเหลือของ Bing Maps 

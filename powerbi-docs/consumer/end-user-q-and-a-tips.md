@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: d97ff72c385edd4c59c6eb72ce1eb873656923c9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114290"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376833"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>เคล็ดลับสำหรับการถามคำถามใน ถามตอบ Power BI
 
@@ -67,7 +67,7 @@ ms.locfileid: "79114290"
 |  |  |
 |**N อันดับแรก**     |     (เรียงลำดับ, จัดอันดับ): บนสุด, ล่างสุด, สูงสุด, ต่ำสุด, แรกสุด, ท้ายสุด, ถัดไป, ล่าสุด, แก่สุด, ช้าสุด            |
 |        |         |
-|**รูปแบบการแสดงผลด้วยภาพ**     |  ทุกประเภทของรูปแบบการแสดงผลด้วยภาพแบบดั้งเดิมใน Power BI  ถ้าเป็นตัวเลือกในบานหน้าต่างการแสดงภาพ คุณสามารถรวมไว้ในคำถามของคุณได้  แต่มีข้อยกเว้นสำหรับกฎข้อนี้คือ[วิชวลแบบกำหนดเอง](../developer/power-bi-custom-visuals.md) ที่คุณได้เพิ่มไปยังบานหน้าต่างการแสดงภาพด้วยตนเอง  |
+|**รูปแบบการแสดงผลด้วยภาพ**     |  ทุกประเภทของรูปแบบการแสดงผลด้วยภาพแบบดั้งเดิมใน Power BI  ถ้าเป็นตัวเลือกในบานหน้าต่างการแสดงภาพ คุณสามารถรวมไว้ในคำถามของคุณได้  ข้อยกเว้นสำหรับกฎข้อนี้คือ[วิชวล Power BI](../developer/visuals/power-bi-custom-visuals.md) ที่คุณได้เพิ่มไปยังบานหน้าต่างการแสดงภาพด้วยตนเอง  |
 |  |  ตัวอย่าง: show districts by month and sales total as bar chart               |
 |        |         |
 |**คำถาม (ความสัมพันธ์ คุณสมบัติ)**  | อะไร, ใคร, เมื่อไหร่, ที่ไหน, อันไหน, ผู้ใด, มากเท่าไหร่, นานแค่ไหน, บ่อยแค่ไหน, ปริมาณ, จำนวน, ยาวแค่ไหน                |

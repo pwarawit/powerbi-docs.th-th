@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/08/2020
 ms.author: painbar
-ms.openlocfilehash: f900a329ccbfa2a6e80883baec9694ddeaf3833a
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 3be0ab1eb45716d0b9b7736d3e5bf5b8bfc25891
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259838"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436007"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>ดูรายงานและแดชบอร์ดในโหมดงานนำเสนอบน Surface Hub และอุปกรณ์ Windows 10
 คุณสามารถใช้โหมดการนำเสนอเพื่อแสดงรายงานและแดชบอร์ดแบบเต็มหน้าจอบนอุปกรณ์ Windows 10 และ Surface Hub 
@@ -28,8 +28,9 @@ ms.locfileid: "77259838"
 
 > [!NOTE]
 > โหมดการนำเสนอจะแตกต่างจาก[โหมดโฟกัสสำหรับไทล์](mobile-tiles-in-the-mobile-apps.md)
-> 
-> 
+
+>[!NOTE]
+>การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ **โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="use-presentation-mode"></a>ใช้โหมดการนำเสนอ
 ในแอปมือถือ Power BI แตะไอคอน**เต็มหน้าจอ**เพื่อไปยังโหมดเต็มหน้าจอ

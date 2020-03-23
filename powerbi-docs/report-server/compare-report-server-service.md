@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: 4c48b9c2695c7feab5897527c9ff2fbf2a2d0455
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 7762ace1da913713567b79a9650b3f07aa71146d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920943"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381065"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
@@ -52,7 +52,7 @@ ms.locfileid: "78920943"
 | ทำงานร่วมกับ Office 365 ขั้นสูง | ไม่ใช่ | ใช่ | [ทำงานร่วมกันในพื้นที่ทำงาน](../service-collaborate-power-bi-workspace.md)ด้วย Office 365 |
 | วิชวล R | ไม่ใช่ | ใช่ | [สร้างการแสดงผลด้วยภาพ R](../desktop-r-visuals.md) ใน Power BI Desktop และเผยแพร่ไปยังบริการของ Power BI คุณไม่สามารถบันทึกรายงาน Power BI กับการแสดงผลด้วยภาพ R ไปยังเซิร์ฟเวอร์รายงาน Power BI ได้  |
 | คุณลักษณะแสดงตัวอย่าง | ไม่ใช่ | ใช่ | [ยินยอมเข้าร่วม สำหรับคุณลักษณะตัวอย่างในบริการของ Power BI](../consumer/end-user-preview-features.md) |
-| วิชวลแบบกำหนดเอง | ใช่ | ใช่ | [วิชวลแบบกำหนดเองใน Power BI](../developer/power-bi-custom-visuals.md) |
+| วิชวล Power BI | ใช่ | ใช่ | [วิชวล Power BI](../developer/visuals/power-bi-custom-visuals.md) |
 | โมเดลแบบรวม | ไม่ใช่ | ใช่ |
 | Power BI Desktop | เวอร์ชันที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน มีให้ดาวน์โหลดสำหรับเซิร์ฟเวอร์รายงาน | เวอร์ชันที่ปรับให้เหมาะสมสำหรับบริการของ Power BI มีที่ Windows Store | [Power BI Desktop สำหรับเซิร์ฟเวอร์รายงาน](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop สำหรับบริการของ Power BI](https://aka.ms/pbidesktopstore) |
 

@@ -6,18 +6,18 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 01/21/2019
-ms.openlocfilehash: 7665f0c8e3c909263f194a0fd54a54ed2a752c8c
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: e2cb11ea9be85916e6b5557e7933f6a6b5a7159a
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819111"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380605"
 ---
 # <a name="local-storage-api"></a>API ที่เก็บข้อมูลภายใน
 
-API ที่เก็บข้อมูลภายในคือ API ที่วิชวลแบบกำหนดเองสามารถใช้เพื่อร้องขอการโฮสต์ในการบันทึกหรือโหลดข้อมูลจากที่จัดเก็บของอุปกรณ์ ซึ่งแยกออกมาในแง่ที่ว่ามีการแยกการเข้าถึงที่เก็บข้อมูลระหว่างวิชวลชนิดที่แตกต่างกัน
+API ที่เก็บข้อมูลภายในคือ API ที่วิชวลแบบกำหนดเองสามารถใช้เพื่อร้องขอให้โฮสต์ทำการบันทึกหรือโหลดข้อมูลจากที่จัดเก็บของอุปกรณ์ ซึ่งแยกจากกันได้โดยการแยกการเข้าถึงพื้นที่เก็บข้อมูลระหว่างวิชวลชนิดที่แตกต่างกัน
 
 ## <a name="sample"></a>ตัวอย่าง
 
@@ -59,5 +59,5 @@ export class Visual implements IVisual {
 
 ## <a name="known-limitations-and-issues"></a>ข้อจำกัดและปัญหาที่ทราบ
 
-API ที่เก็บข้อมูลภายในจะไม่ถูกเปิดใช้งานสำหรับวิชวลแบบกำหนดเองตามค่าเริ่มต้น ถ้าคุณต้องการเปิดใช้งานสำหรับวิชวลแบบกำหนดเอง โปรดส่งคำขอไปยังฝ่ายสนับสนุนวิชวลแบบกำหนดเองของ Power BI `pbicvsupport@microsoft.com`  
+API ที่เก็บข้อมูลภายในจะไม่ถูกเปิดใช้งานสำหรับวิชวล Power BI ตามค่าเริ่มต้น ถ้าคุณต้องการเปิดใช้งานสำหรับวิชวล Power BI ของคุณ โปรดส่งคำขอไปยังฝ่ายสนับสนุนวิชวล Power BI `pbicvsupport@microsoft.com`  
 **โปรดทราบว่าวิชวลของคุณควรมีอยู่ใน [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals) และ [ได้รับการรับรอง](https://powerbi.microsoft.com/en-us/documentation/powerbi-custom-visuals-certified/)**

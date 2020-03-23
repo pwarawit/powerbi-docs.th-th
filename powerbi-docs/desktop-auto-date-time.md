@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 01996f3460b7c7a507796bd3f071f7887a69854e
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6ec4e5afe63fbdf754fcb20ec8cd12379740d33d
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154223"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201550"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>ใช้วันที่/เวลาอัตโนมัติใน Power BI Desktop
 
@@ -33,7 +33,7 @@ ms.locfileid: "77154223"
 อันที่จริงแล้ว ตารางวันที่/เวลาอัตโนมัติเป็น [ตารางจากการคำนวณ](desktop-calculated-tables.md) ที่สร้างแถวของข้อมูลโดยใช้ฟังก์ชัน [CALENDAR](/dax/calendar-function-dax) DAX แต่ละตารางประกอบด้วยคอลัมน์จากการคำนวณ 6 คอลัมน์: **Day**, **MonthNo**, **Month**, **QuarterNo**, **Quarter** และ **Year**
 
 > [!NOTE]
-> Power BI แปลและจัดรูปแบบชื่อคอลัมน์และค่าตาม[ภาษาของแบบจำลอง](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop)
+> Power BI แปลและจัดรูปแบบชื่อคอลัมน์และค่าต่าง ๆ ตาม[ภาษาของแบบจำลอง](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop) ตัวอย่างเช่น หากแบบจำลองถูกสร้างขึ้นโดยใช้ภาษาอังกฤษ แบบจำลองดังกล่าวจะยังคงแสดงชื่อเดือนและอื่น ๆ ในภาษาอังกฤษ แม้ว่าจะดูด้วยไคลเอ็นต์ภาษาเกาหลีก็ตาม
 
 นอกจากนี้ Power BI Desktop ยังสร้างความสัมพันธ์ระหว่างคอลัมน์**วันที่**ของตารางวันที่/เวลาอัตโนมัติ และคอลัมน์วันที่ของแบบจำลองด้วย
 

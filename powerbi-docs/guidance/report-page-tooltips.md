@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290624"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377753"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>ขยายภาพด้วยคำแนะนำเครื่องมือของหน้ารายงาน
 
@@ -31,7 +31,7 @@ ms.locfileid: "78290624"
 >
 > คำแนะนำเครื่องมือของหน้าไม่สนับสนุนการโต้ตอบ หากคุณต้องการให้ผู้ใช้โต้ตอบกับรายงานของคุณ ให้สร้าง [หน้าการดูรายละเอียดแบบเจาะลึก](../desktop-drillthrough.md) แทน
 >
-> วิชวลแบบกำหนดเองไม่สนับสนุนคำแนะนำเครื่องมือของหน้า
+> วิชวล Power BI ไม่สนับสนุนคำแนะนำเครื่องมือของหน้า
 
 ต่อไปนี้คือสถานการณ์จำลองการออกแบบที่แนะนำบางส่วน:
 

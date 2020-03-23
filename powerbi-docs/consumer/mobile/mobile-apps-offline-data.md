@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 9c38aef858d723e548529f450e34d0480de5f8b2
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75219099"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435455"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>ดูข้อมูลของคุณแบบออฟไลน์ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -21,6 +21,9 @@ ms.locfileid: "75219099"
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![โทรศัพท์ Android](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |อุปกรณ์ Windows 10 |
+
+>[!NOTE]
+>การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ**โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ข้อดีประการหนึ่งของการดู Power BI ในแอปสำหรับอุปกรณ์เคลื่อนแทนในเบราว์เซอร์บนมือถือคือ คุณสามารถดูข้อมูลของคุณแม้ในขณะที่คุณไม่ได้เชื่อมต่อกับเครือข่ายได้ 
 
@@ -34,7 +37,7 @@ ms.locfileid: "75219099"
 นอกจากนี้ คุณยังสามารถเข้าถึงรายงาน Power BI แบบอ่านอย่างเดียวที่คุณเคยเข้าถึงก่อนหน้านี้จากแอปสำหรับอุปกรณ์เคลื่อนที่ คุณสามารถดูรายงานฉบับเต็ม แต่ไม่กรอง กรองแบบไขว้ เรียงลำดับ หรือใช้ตัวแบ่งส่วนข้อมูลได้
 
 ## <a name="background-data-refresh"></a>การรีเฟรชข้อมูลพื้นหลัง
-การรีเฟรชพื้นหลังจะอัปเดตแดชบอร์ดรายการโปรดของคุณ รวมถึงแดชบอร์ดแลรายงานที่คุณเคยดูในสองสัปดาห์ที่ผ่านมา โดยมีข้อมูลบนบริการของ Power BI (ไม่ใช่แหล่งข้อมูล) หากคุณเชื่อมต่อกับ wi-fi การรีเฟรชพื้นหลังจะอัปเดตทุก ๆ 2 ชั่วโมง หรือหากคุณอยู่บนเครือข่าย 3G, Power BI จะอัปเดตเนื้อหาทุกๆ 24 ชั่วโมง
+การรีเฟรชพื้นหลังจะอัปเดตแดชบอร์ดรายการโปรดของคุณ รวมถึงแดชบอร์ดแลรายงานที่คุณเคยดูในสองสัปดาห์ที่ผ่านมา โดยมีข้อมูลบนบริการของ Power BI (ไม่ใช่แหล่งข้อมูล) หากคุณเชื่อมต่อกับ wi-fi การรีเฟรชพื้นหลังจะอัปเดตทุก ๆ 2 ชั่วโมง หรือหากคุณอยู่บนเครือข่าย 3G, Power BI จะอัปเดตเนื้อหาทุก ๆ 24 ชั่วโมง
 
 คุณสามารถปิดการรีเฟรชพื้นหลัง ตัวอย่างเช่น เมื่อต้องการหลีกเลี่ยงการใช้งานเครือข่าย ตรวจสอบการตั้งค่าบนอุปกรณ์ของคุณ
 

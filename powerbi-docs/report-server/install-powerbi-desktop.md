@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426667"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381134"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
 
@@ -70,7 +70,7 @@ ms.locfileid: "77426667"
 
 ### <a name="report-visuals-in-a-browser"></a>การแสดงภาพรายงานในเบราว์เซอร์
 
-รายงานของเซิร์ฟเวอร์รายงาน Power BI รองรับส่วนการแสดงผลเกือบทั้งหมด รวมทั้งส่วนการแสดงผลกำหนดเอง รายงานในเซิร์ฟเวอร์รายงาน Power BI ไม่สนับสนุน:
+รายงานของเซิร์ฟเวอร์รายงาน Power BI รองรับส่วนการแสดงผลเกือบทั้งหมด รวมทั้งส่วนวิชวล Power BI รายงานในเซิร์ฟเวอร์รายงาน Power BI ไม่สนับสนุน:
 
 * วิชวล R
 * แผนที่ ArcGIS
@@ -89,7 +89,7 @@ ms.locfileid: "77426667"
 
 * วิชวล R
 * แผนที่ ArcGIS
-* วิชวลแบบกำหนดเอง
+* วิชวล Power BI
 * การนำทางแบบแสดงเส้นนำทาง
 * การกรองพรมแดนหรือบาร์โค้ด
 

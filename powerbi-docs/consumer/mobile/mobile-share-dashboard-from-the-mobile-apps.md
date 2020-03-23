@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 07ddf82b120e0e4b77b7545863b536282f849de3
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114422"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435800"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>แชร์แดชบอร์ดหรือรายงานจากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI
 นำไปใช้กับ:
@@ -21,6 +21,9 @@ ms.locfileid: "79114422"
 | ![iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![โทรศัพท์ Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |อุปกรณ์ Windows 10 |
+
+>[!NOTE]
+>การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ**โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ด้วย[สิทธิ์การใช้งาน Power BI Pro](../../service-features-license-type.md) คุณสามารถเชิญบุคคลอื่นเพื่อดูแดชบอร์ดและรายงานของคุณ โดยการแชร์ลิงก์จากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ได้ คุณสามารถแชร์กับทุกคน ทั้งในและนอกองค์กรของคุณ ทั้งมีหรือไม่มีบัญชีอีเมลขององค์กร พวกเขาจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro ด้วย หรือเนื้อหาจำเป็นต้องอยู่ใน[ความจุพรีเมียม](../../service-premium-what-is.md)
 

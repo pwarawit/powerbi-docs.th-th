@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1e69c7eefe25da771ecc4d9602d6a21081f2c052
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 067171f7ec74beccdb5a312c1cac5bbc6c87541f
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920752"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377661"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>คำแนะนำการเรียกข้อมูลสำหรับรายงานที่มีการแบ่งหน้า
 
@@ -112,7 +112,7 @@ ms.locfileid: "78920752"
 
 ## <a name="sql-server-complex-data-types"></a>ประเภทข้อมูลที่ซับซ้อนของ SQL Server
 
-เนื่องจาก SQL Server เป็นแหล่งข้อมูลภายในองค์กร Power BI จะต้องเชื่อมต่อผ่านทางเกตเวย์ อย่างไรก็ตาม เกตเวย์จะไม่รองรับการเรียกดูข้อมูลสำหรับประเภทข้อมูลที่ซับซ้อน ประเภทข้อมูลที่ซับซ้อนหมายรวมถึงประเภทภายในอ[ย่างประเภทข้อมูลเชิงพื้นที่ GEOMETRY และ GEOGRAPHY ](/sql/relational-databases/spatial/spatial-data-sql-server) และ [hierarchyid](/sql/t-sql/data-types/hierarchyid-data-type-method-reference) นอกจากนี้ ประเภทข้อมูลนี้ยังสามารถรวมประเภทที่กำหนดของผู้ใช้ที่ดำเนินการผ่านระดับชั้นของแอสเซมบลีในรันไทม์ภาษาทั่วไป (CLR) ของ Microsoft.NET Framework
+เนื่องจาก SQL Server เป็นแหล่งข้อมูลภายในองค์กร Power BI จะต้องเชื่อมต่อผ่านทางเกตเวย์ อย่างไรก็ตาม เกตเวย์จะไม่รองรับการเรียกดูข้อมูลสำหรับประเภทข้อมูลที่ซับซ้อน ประเภทข้อมูลที่ซับซ้อนหมายรวมถึงประเภทภายในอย่า [งประเภทข้อมูลเชิงพื้นที](/sql/relational-databases/spatial/spatial-data-sql-server)่ GEOMETRY และ GEOGRAPHY และ [hierarchyid](/sql/t-sql/data-types/hierarchyid-data-type-method-reference) นอกจากนี้ ประเภทข้อมูลนี้ยังสามารถรวมประเภทที่กำหนดของผู้ใช้ที่ดำเนินการผ่านระดับชั้นของแอสเซมบลีในรันไทม์ภาษาทั่วไป (CLR) ของ Microsoft.NET Framework
 
 การพล็อตข้อมูลเชิงพื้นที่และการวิเคราะห์ในการแสดงภาพแมปจำเป็นต้องใช้ข้อมูลเชิงพื้นที่ของ SQL Server ดังนั้น จึงไม่สามารถทำงานกับการแสดงภาพของแมป เมื่อ SQL Server เป็นแหล่งข้อมูลของคุณ เพื่อให้ชัดเจน จะสามารถทำงานได้ หากแหล่งข้อมูลของคุณคือฐานข้อมูล Azure SQL เนื่องจาก Power BI ไม่ได้เชื่อมต่อผ่านเกตเวย์
 

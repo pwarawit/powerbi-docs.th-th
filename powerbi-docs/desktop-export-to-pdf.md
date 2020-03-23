@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 28116a4e2b89fe5f8fe719f8d6c0d9eca28310eb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6e468ac429c26f3b1880501914816ac60f8b7858
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867692"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378742"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>ส่งออกรายงานเป็น PDF จาก Power BI Desktop
 ใน**Power BI Desktop**หรือ บริการ Power BI คุณสามารถส่งออกรายงานไปยังไฟล์ PDF และดังนั้นจึงได้อย่างง่ายดายแชร์ หรือพิมพ์รายงานของคุณจาก PDF นั้นได้
@@ -34,7 +34,7 @@ ms.locfileid: "73867692"
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 มีข้อควรพิจารณาสองสามอย่างที่ควรคำนึงถึงกับคุณลักษณะ**การส่งออกเป็น PDF**:
 
-* คุณลักษณะจะส่งออกวิชวลแบบกำหนดเอง แต่*ไม่*ส่งออกรูปพื้นหลังใด ๆ ที่คุณอาจใช้กับรายงาน
+* คุณลักษณะจะส่งออกวิชวล Power BI แต่*ไม่*ส่งออกรูปพื้นหลังใด ๆ ที่คุณอาจใช้กับรายงาน
 
 เนื่องจากรูปพื้นหลังจะถูกส่งออกเป็น PDF คุณควรใส่ใจรายงานที่ใช้รูปพื้นหลังสีเข้มเป็นพิเศษ ถ้าข้อความในรายงานของคุณเป็นสีขาวหรือสีอ่อนเพื่อให้โดดเด่นกับรูปพื้นหลังสีเข้มของคุณ จะสามารถอ่านได้ยากหรือไม่สามารถอ่านได้ในกระบวนการส่งออกเป็น PDF เนื่องจากรูปพื้นหลังจะไม่ถูกส่งออกไปกับรายงานที่เหลือ 
 

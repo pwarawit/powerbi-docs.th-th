@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 03/12/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: adfa99a3e973108d65a06361ed967bef2ce37eb3
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: fa373fca782a582ec2ac2ef60cb36322efaff327
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537220"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205285"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>การป้องกันข้อมูลใน Power BI (ตัวอย่าง)
 
@@ -105,9 +105,6 @@ ms.locfileid: "76537220"
 * [การป้องกัน HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) ไม่ได้รับการรองรับสำหรับป้ายชื่อที่ใช้ใน Power BI
 * การดูและการใช้ป้ายชื่อในแอป Office มี[ข้อกำหนดเรื่องสิทธิ์การใช้งาน](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)
 * ป้ายชื่อระดับความลับได้รับการรองรับสำหรับผู้เช่าในระบบคลาวด์ (สาธารณะ) ส่วนกลางเท่านั้น ป้ายชื่อระดับความลับไม่ได้รับการรองรับสำหรับผู้เช่าในระบบคลาวด์อื่นๆ
-* ป้ายชื่อระดับความลับไม่ได้รับการสนับสนุนสำหรับ[ผู้ใช้ภายนอก (ผู้ใช้ที่เป็นผู้เยี่ยมชม Azure Active Directory B2B)](../service-admin-azure-ad-b2b.md) ซึ่งหมายความว่าผู้ใช้ภายนอกไม่สามารถดูป้ายชื่อ และจะถูกบล็อกจากการส่งออกข้อมูลไปเป็นไฟล์ Excel, PDF และ PPTX [ลบป้ายชื่อออก](../designer/service-security-apply-data-sensitivity-labels.md#removing-sensitivity-labels) เพื่อเปิดใช้งานผู้ใช้ภายนอกเพื่อส่งออกข้อมูลไปยังประเภทไฟล์เหล่านั้น
-
-
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

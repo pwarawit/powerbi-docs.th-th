@@ -7,18 +7,18 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819249"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380500"
 ---
 # <a name="add-drill-down-support"></a>เพิ่มการสนับสนุนการดูรายละเอียดแนวลึก
 
-วิชวลแบบกำหนดเองสามารถใช้การดูรายละเอียดแนวลึกของ Power BI
+วิชวล Power BI สามารถใช้การดูรายละเอียดแนวลึกของ Power BI
 
 เรียนรู้เพิ่มเติมเกี่ยวกับการดูรายละเอียดแนวลึกของ Power BI ได้[ที่นี่](./../../consumer/end-user-drill.md)
 
@@ -205,38 +205,38 @@ button {
 
 เตรียมข้อมูลตัวอย่างเพื่อทดสอบวิชวล:
 
-|   H1  |   H2    | H3  |   ค่า  |
+|   H1  |   H2    | H3  |   VALUES  |
 |-----|-----|------|-------|
-|   A   |   A1  |   A11 |   1   |
-|   A   |   A1  |   A12 |   2   |
-|   A   |   A2  |   A21 |   3   |
-|   A   |   A2  |   A22 |   4   |
-|   A   |   A3  |   A31 |   5   |
-|   A   |   A3  |   A32 |   6   |
-|   B   |   B1  |   B11 |   7   |
-|   B   |   B1  |   B12 |   8   |
-|   B   |   B2  |   B21 |   9   |
-|   B   |   B2  |   B22 |   10  |
-|   B   |   B3  |   B31 |   11  |
-|   B   |   B3  |   B32 |   12  |
+|   A   |    A1  |    A11 |    1   |
+|   A    |    A1    |    A12    |    2    |
+|   A    |    A2    |    A21    |    3    |
+|   A    |    A2    |    A22    |    4    |
+|   A    |    A3    |    A31    |    5    |
+|   A    |    A3    |    A32    |    6    |
+|   B    |    B1    |    B11    |    7    |
+|   B    |    B1    |    B12    |    8    |
+|   B    |    B2    |    B21    |    9    |
+|   B    |    B2    |    B22    |    10    |
+|   B    |    B3    |    B31    |    11    |
+|   B    |    B3    |    B32    |    12    |
 
 และสร้างลำดับชั้นใน Power BI Desktop:
 
-![สร้างลำดับชั้นใหม่](./media/create-new-hierarchy.png)
+![สร้างลำดับชั้นใหม่](media/drill-down-support/create-new-hierarchy.png)
 
 รวมคอลัมน์หมวดหมู่ทั้งหมด (H1, H2, H3) ไปยังลำดับชั้นใหม่:
 
-![สร้างลำดับชั้นใหม่](./media/new-hierarchy.png)
+![สร้างลำดับชั้นใหม่](media/drill-down-support/new-hierarchy.png)
 
 หลังจากขั้นตอนเหล่านั้นคุณควรได้รับวิชวลต่อไปนี้:
 
-![วิชวล Dev พร้อมปุ่ม](./media/dev-visual-drilldown1.png)
+![วิชวล Dev พร้อมปุ่ม](media/drill-down-support/dev-visual-drilldown1.png)
 
 ## <a name="add-context-menu-to-visual-elements"></a>เพิ่มเมนูบริบทไปยังองค์ประกอบวิชวล
 
 ในขั้นตอนนี้ คุณจะเพิ่มเมนูบริบทลงในปุ่มบนวิชวล:
 
-![เมนูบริบทในวิชวล](./media/dev-visual-drilldown-context-menu.png)
+![เมนูบริบทในวิชวล](media/drill-down-support/dev-visual-drilldown-context-menu.png)
 
 หากต้องการสร้างเมนูบริบท ให้บันทึกออบเจ็กต์ `host` ในคุณสมบัติของวิชวล และเรียกเมธอด `createSelectionManager` เพื่อสร้างตัวจัดการการเลือกสำหรับแสดงเมนูบริบทโดยใช้ Power BI Visuals API
 
@@ -305,11 +305,11 @@ export class Visual implements IVisual {
 
 นำข้อมูลไปใช้กับวิชวล:
 
-![วิชวลที่มีข้อมูล](./media/dev-visual-drilldown-data.png)
+![วิชวลที่มีข้อมูล](media/drill-down-support/dev-visual-drilldown-data.png)
 
 ในขั้นตอนสุดท้าย คุณควรได้รับวิชวลที่มีการเลือกและเมนูบริบท:
 
-![วิชวลที่มีการสนับสนุนการดูรายละเอียดแนวลึก](./media/dev-visual-drilldown-demo.gif)
+![วิชวลที่มีการสนับสนุนการดูรายละเอียดแนวลึก](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>เพิ่มการสนับสนุนการดูรายละเอียดแนวลึกสำหรับการแมปมุมมองข้อมูลแบบเมทริกซ์
 
@@ -389,7 +389,7 @@ export class Visual implements IVisual {
 
 นำข้อมูลไปใช้กับวิชวล:
 
-![วิชวลที่มีข้อมูล](./media/dev-matrix-visual-drilldown-data.png)
+![วิชวลที่มีข้อมูล](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 นำเข้าอินเทอร์เฟสที่จำเป็นเพื่อประมวลผลการแมปมุมมองข้อมูลแบบเมทริกซ์:
 
@@ -614,7 +614,7 @@ public update(options: VisualUpdateOptions) {
 
 ในขั้นตอนสุดท้าย คุณควรได้รับวิชวลที่มีเมนูบริบท:
 
-![วิชวลที่มีการสนับสนุนการดูรายละเอียดแนวลึก](./media/dev-matrix-visual-drilldown-demo.gif)
+![วิชวลที่มีการสนับสนุนการดูรายละเอียดแนวลึก](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

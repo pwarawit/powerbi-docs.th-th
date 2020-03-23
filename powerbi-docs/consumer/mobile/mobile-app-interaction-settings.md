@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: c7280b2b6bb34b070e7ced3785959d61c74cd165
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 58ef9c6760194e3f11374bdb0663552fd11ce285
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041294"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377386"
 ---
 # <a name="configure-report-interaction-settings"></a>กำหนดค่าการตั้งค่าการโต้ตอบของรายงาน
 
@@ -49,7 +49,7 @@ ms.locfileid: "79041294"
 หากต้องการยกเลิกการเลือกจุดข้อมูลให้แตะอีกครั้ง
 
 >[!NOTE]
->การเลือกหลายรายการไม่ได้รับการสนับสนุนในการแสดงผลด้วยภาพแบบกำหนดเอง
+>การเลือกหลายรายการไม่ได้รับการสนับสนุนในวิชวล Power BI
 >
 >โหมดการเลือกได้หลายจุดข้อมูลจะได้รับการรองรับบนเซิร์ฟเวอร์รายงาน Power BI ในรุ่นเซิร์ฟเวอร์รายงานถัดไป
 

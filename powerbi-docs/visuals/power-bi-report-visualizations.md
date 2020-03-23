@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099096"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381479"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>การแสดงภาพในรายงาน Power BI
 
@@ -27,7 +27,7 @@ ms.locfileid: "74099096"
 
 ![บานหน้าต่างที่มีไอคอนสำหรับการจัดรูปแบบการแสดงข้อมูลแต่ละชนิด](media/power-bi-report-visualizations/power-bi-icons.png)
 
-และสำหรับตัวเลือกเพิ่มเติมยิ่งขึ้นไปอีก โปรดไป[ไซต์ชุมชน Microsoft AppSource](https://appsource.microsoft.com) เพื่อค้นหา และดาวน์โหลด[วิชวลแบบกำหนดเอง](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)จาก Microsoft และชุมชน
+และสำหรับตัวเลือกเพิ่มเติมยิ่งขึ้นไปอีก โปรดไปที่ [ไซต์ชุมชน Microsoft AppSource](https://appsource.microsoft.com) เพื่อค้นหา และ[ดาวน์โหลด](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [วิชวล Power BI](../developer/visuals/custom-visual-develop-tutorial.md) จาก Microsoft และชุมชน
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -40,7 +40,7 @@ ms.locfileid: "74099096"
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>อัปโหลดการแสดงภาพแบบกำหนดเอง และใช้ใน Power BI
 
-เพิ่มการแสดงภาพแบบกำหนดเอง ที่คุณสร้างขึ้นด้วยตัวเอง หรือว่าคุณพบใน[ไซต์ชุมชน Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) รู้สึกมีความคิดสร้างสรรค์? เจาะลึกลงในโค้ดต้นฉบับของเรา และใช้[เครื่องมือสำหรับนักพัฒนา](../developer/visuals/custom-visual-develop-tutorial.md)เพื่อสร้างการแสดงภาพชนิดใหม่ และ[แชร์กับชุมชน](../developer/office-store.md) หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการพัฒนาการแสดงภาพแบบกำหนดเอง โปรดไปที่ [การพัฒนาภาพแบบกำหนดเองสำหรับ Power BI](../developer/visuals/custom-visual-develop-tutorial.md)
+เพิ่มการแสดงภาพแบบกำหนดเอง ที่คุณสร้างขึ้นด้วยตัวเอง หรือว่าคุณพบใน[ไซต์ชุมชน Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) รู้สึกมีความคิดสร้างสรรค์? เจาะลึกลงในโค้ดต้นฉบับของเรา และใช้[เครื่องมือสำหรับนักพัฒนา](../developer/visuals/custom-visual-develop-tutorial.md)เพื่อสร้างการแสดงภาพชนิดใหม่ และ[แชร์กับชุมชน](../developer/visuals/office-store.md) หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการพัฒนาการแสดงภาพแบบกำหนดเอง โปรดไปที่ [การพัฒนาภาพแบบกำหนดเองสำหรับ Power BI](../developer/visuals/custom-visual-develop-tutorial.md)
 
 ## <a name="personalize-your-visualization-pane-preview"></a>ปรับแต่งบานหน้าต่างการแสดงภาพของคุณ (ตัวอย่าง)
 
@@ -70,4 +70,4 @@ ms.locfileid: "74099096"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 * [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-* [การแสดงผลด้วยภาพแบบกำหนดเอง](../developer/power-bi-custom-visuals.md)
+* [วิชวล Power BI](../developer/visuals/power-bi-custom-visuals.md)
