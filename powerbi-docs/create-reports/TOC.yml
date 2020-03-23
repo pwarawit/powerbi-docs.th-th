@@ -11,8 +11,8 @@
     - name: บทช่วยสอน
       expanded: true
       items:
-        - name: ห้องปฏิบัติการแบบลงมือทำ สร้างรายงานที่มีการแบ่งหน้า
-          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: 'หลักสูตรออนไลน์: รายงานที่มีการแบ่งหน้า'
+          href: ../paginated-reports/paginated-reports-online-course.md
         - name: สร้างรายงานที่มีการแบ่งหน้าและอัปโหลด
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: ตัวอย่าง
@@ -99,18 +99,6 @@
               href: ../paginated-reports/paginated-reports-faq.md
     - name: คำแนะนำวิธีการ
       items:
-        - name: เผยแพร่ชุดข้อมูลและรายงาน
-          href: ../desktop-upload-desktop-files.md
-        - name: เพิ่มวิชวลไปยังรายงาน Power BI (ตอนที่ 1)
-          href: ../visuals/power-bi-report-add-visualizations-i.md
-        - name: เพิ่มวิชวลไปยังรายงาน Power BI (ตอนที่ 2)
-          href: ../visuals/power-bi-report-add-visualizations-ii.md
-        - name: ปรับแต่งชื่อวิชวล พื้นหลัง และคำอธิบายใต้ภาพ
-          href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-        - name: แสดงรายการที่ไม่มีหน่วยข้อมูลใน Power BI
-          href: ../desktop-show-items-no-data.md
-        - name: ปรับใช้วันที่/เวลาอัตโนมัติ
-          href: ../desktop-auto-date-time.md
         - name: รายงาน Power BI
           items:
             - name: เปิดใช้งานการรีเฟรชหน้าแบบอัตโนมัติ (ตัวอย่าง)
@@ -211,12 +199,22 @@
               href: ../service-create-qr-code-for-report.md
             - name: ส่งออกรายงานไปยัง Power BI Desktop (ตัวอย่าง)
               href: ../service-export-to-pbix.md
+            - name: เผยแพร่ชุดข้อมูลและรายงาน
+              href: ../desktop-upload-desktop-files.md
         - name: การแสดงผลข้อมูลด้วยภาพ
           items:
+            - name: เพิ่มวิชวลไปยังรายงาน Power BI (ตอนที่ 1)
+              href: ../visuals/power-bi-report-add-visualizations-i.md
+            - name: เพิ่มวิชวลไปยังรายงาน Power BI (ตอนที่ 2)
+              href: ../visuals/power-bi-report-add-visualizations-ii.md
             - name: เพิ่มวิชวลไปยังรายงาน Power BI
               href: ../visuals/power-bi-report-visualizations.md
             - name: เปลี่ยนวิชวลในรายงาน Power BI
               href: ../visuals/power-bi-report-change-visualization-type.md
+            - name: ปรับแต่งชื่อวิชวล พื้นหลัง และคำอธิบายใต้ภาพ
+              href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
+            - name: แสดงรายการที่ไม่มีหน่วยข้อมูลใน Power BI
+              href: ../desktop-show-items-no-data.md
             - name: ปรับใช้ข้อจำกัดของจุดข้อมูลและกลยุทธ์ตามรูปแบบการแสดงผลด้วยภาพ
               href: ../visuals/power-bi-data-points.md
             - name: แสดงข้อมูลเบื้องต้นของวิชวล
@@ -317,6 +315,8 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: รายงานที่มีการแบ่งหน้า
           items:
+            - name: ห้องปฏิบัติการแบบลงมือทำ สร้างรายงานที่มีการแบ่งหน้า
+              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรง
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: สร้างแหล่งข้อมูลแบบฝังตัว
