@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: ad7c0dab0c4390326eea157351735802d12b3795
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4b30e2fbf4ec3607b3ee155749a1ddeeb9f76cad
+ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488579"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80147365"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>กำหนดค่าการสนับสนุน Multi-Geo สำหรับ Power BI Premium
 
@@ -93,7 +93,7 @@ Multi-Geo ในขณะนี้พร้อมใช้งานใน Power 
 - ยืนยันว่าการเคลื่อนย้ายใด ๆ ที่คุณทำระหว่างภูมิภาคได้ปฏิบัติตามข้อกำหนดของรัฐบาลและบริษัทก่อนที่จะทำการโอนย้ายข้อมูล
 - คิวรีที่ได้รับการแคชที่เก็บอยู่ในภูมิภาคระยะไกลจะพักอยู่ในภูมิภาคนั้น อย่างไรก็ตาม ข้อมูลอื่นที่อยู่ในระหว่างการส่งต่ออาจเดินทางกลับไปกลับมาระหว่างเขตภูมิศาสตร์หลายเขต
 - เมื่อทำการย้ายข้อมูลจากภูมิภาคหนึ่งไปยังอีกภูมิภาคหนึ่งในสภาพแวดล้อม Multi-Geo ข้อมูลต้นทางอาจยังอยู่ในภูมิภาคที่ย้ายออกมานานถึง 30 วัน ในระหว่างนั้นผู้ใช้ปลายทางจะไม่มีสิทธิ์เข้าถึงข้อมูล ข้อมูลจะถูกลบออกจากภูมิภาคและทำลายในระยะเวลา 30 วันนั้น
-- Multi-Geo ไม่ได้ส่งผลให้เกิดประสิทธิภาพที่ดีขึ้นโดยทั่วไป การโหลดรายงานและแดชบอร์ดจะยังคงเกี่ยวข้องกับการส่งคำร้องขอไปยังภูมิภาคเดิมของ Metadata
+
 - คุณลักษณะ[กระแสข้อมูล](service-dataflows-overview.md) ไม่ได้รับการสนับสนุนบน Multi-GEO ในขณะนี้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

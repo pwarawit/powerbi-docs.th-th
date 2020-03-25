@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/30/2020
-ms.openlocfilehash: 1f27d05f2de5cdc8e04b6fabb48b7625fc45ce2a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: ec299ceb5862be3f1e121e0e7d67eca6447f2da6
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78921918"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113749"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>แหล่งข้อมูลที่ได้รับการสนับสนุนสำหรับรายงานที่มีการแบ่งหน้าของ Power BI
 
@@ -27,7 +27,7 @@ ms.locfileid: "78921918"
 | --- | --- | --- |
 | ฐานข้อมูล Azure SQL <br>คลังข้อมูล Azure SQL | ลงชื่อเข้าระบบครั้งเดียว (SSO) เบื้องต้น, OAuth2 |   |
 | อินสแตนซ์ที่จัดการแล้วของ Azure SQL | พื้นฐาน | ผ่านจุดสิ้นสุดสาธารณะโดยใช้นามสกุลไฟล์ฐานข้อมูล Azure SQL  |
-| Azure Analysis Services | SSO, OAuth2 | ไฟร์วอลล์ AAS ต้องปิดใช้งานหรือกำหนดค่าเพื่ออนุญาตช่วง IP ทั้งหมด  การใช้นามแฝงไม่ได้รับการสนับสนุน  |
+| Azure Analysis Services | SSO, OAuth2 | ไฟร์วอลล์ AAS ต้องปิดใช้งานหรือกำหนดค่าเพื่ออนุญาตช่วง IP ทั้งหมด|
 | ชุดข้อมูล Power BI | SSO | ชุดข้อมูล Power BI แบบพรีเมียมและแบบไม่พรีเมี่ยม ต้องมีสิทธิ์ในการอ่าน |
 | ชุดข้อมูล Power BI แบบพรีเมียม (XMLA) | SSO |   |
 | ป้อนข้อมูล | N/A | ข้อมูลถูกฝังไว้ในรายงาน |
