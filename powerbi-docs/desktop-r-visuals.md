@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69295657702f995786379b18d3ad1ed3641bcbb8
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 729a50e251a9c2ae083375e187ff133022f3ce91
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729821"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114876"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>สร้างภาพของ Power BI โดยใช้ R
 ด้วย Power BI Desktop คุณสามารถใช้กลไก *R* เพื่อแสดงภาพข้อมูลของคุณได้ [R](https://mran.revolutionanalytics.com/documents/what-is-r) คือภาษาและสภาพแวดล้อมสำหรับการประมวลผลเชิงสถิติและกราฟิก
@@ -130,6 +130,8 @@ ms.locfileid: "75729821"
 * ขนาดข้อมูล: ข้อมูลที่ใช้โดยวิชวล R สำหรับการลงจุดจะถูกจำกัดไว้ที่ 150,000 แถว ถ้าเลือกมากกว่า 150,000 แถว จะมีการใช้งานเฉพาะ 150,000 แถวบนสุด และข้อความจะแสดงบนรูปภาพ
 
 * ความละเอียด: วิชวล R ทั้งหมดจะแสดงที่ 72 DPI
+
+* อุปกรณ์การลงจุด: รองรับเฉพาะการลงจุดไปยังอุปกรณ์เริ่มต้นเท่านั้น 
 
 * เวลาการคำนวณ: ถ้าการคำนวณวิชวล R เกินห้านาที จะทำให้เกิดข้อผิดพลาดเนื่องจากหมดเวลา
 

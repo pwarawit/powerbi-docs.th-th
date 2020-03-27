@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 02/28/2020
-ms.openlocfilehash: d9d97715853ab87ac507ff41117ab176b8620e2e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.date: 03/18/2020
+ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205262"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113632"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>รายงานที่มีการแบ่งหน้าใน Power BI คำถามที่ถามบ่อย 
 
@@ -68,13 +68,17 @@ ms.locfileid: "79205262"
 
 คุณจะได้รับข้อความข้อผิดพลาด และคุณจะไม่สามารถดูรายงานของคุณได้จนกว่าจะเปิดปริมาณงาน คุณยังสามารถลบรายงานจากพื้นที่ทำงานได้
 
-### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-supported-for-paginated-reports"></a>ความจำเริ่มต้นของ Premium SKU แต่ละตัวที่รองรับสำหรับรายงานแบบแบ่งหน้าคือเท่าไร
+### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-that-support-paginated-reports"></a>ความจำเริ่มต้นของ Premium SKU แต่ละตัวที่รองรับสำหรับรายงานแบบแบ่งหน้าคือเท่าไร
 
 ความจำเริ่มต้นใน Premium SKU แต่ละตัวสำหรับรายงานแบบแบ่งหน้า:
 
 - **P1/A4**: ค่าเริ่มต้น 20% ค่าต่ำสุด 10%
 - **P2/A5**: ค่าเริ่มต้น 20% ค่าต่ำสุด 5%
 - **P3/A6**: ค่าเริ่มต้น 20% ค่าต่ำสุด 2.5%
+
+ผู้ดูแลผู้เช่า Power BI สามารถปรับเปลี่ยนเปอร์เซ็นต์หน่วยความจำสูงสุดตามค่าเริ่มต้นในพอร์ทัลผู้ดูแลระบบ ดูส่วนปริมาณงาน **รายงานที่มีการแบ่งหน้า** ภายใต้ **Power BI Premium** บนแท็บ **การตั้งค่าความจุ**
+
+:::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="แท็บการตั้งค่าความจุรายงานที่มีการแบ่งหน้า":::
 
 ## <a name="general"></a>ทั่วไป
 

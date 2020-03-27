@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ae33d7aac0eb42e925e78b8b76a9d7106cdf9d20
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b603ced5775d72c09419ea5e18b2eb03b2680e95
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867440"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273374"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>การสุ่มตัวอย่างความหนาแน่นสูงในแผนภูมิกราฟจุด Power BI
 เริ่มตั้งแต่การเผยแพร่เดือนกันยายน 2017 ของ **Power BI Desktop** และการอัปเดตของ**บริการของ Power BI** อัลกอริทึมการสุ่มตัวอย่างใหม่ มีให้ใช้งานซึ่งช่วยปรับปรุงวิธีที่แผนภูมิกระจายแสดงข้อมูลที่มีความหนาแน่นสูง
@@ -85,7 +85,8 @@ ms.locfileid: "73867440"
 * อัลกอริทึมการ**สุ่มตัวอย่างความหนาแน่นสูง** ทำงานกับการเชื่อมต่อสดไปยังแบบจำลอง Power BI แบบจำลองที่นำเข้าหรือ DirectQuery
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสุ่มตัวอย่างความหนาแน่นสูงในแผนภูมิอื่นๆ ให้ดูบทความต่อไปนี้
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสุ่มตัวอย่างความหนาแน่นสูง ให้ดูบทความต่อไปนี้:
 
 * [การสุ่มตัวอย่างเส้นแบบความหนาแน่นสูงใน Power BI](desktop-high-density-sampling.md)
-
+* [เคล็ดลับในการเรียงลำดับและเผยแพร่แผนพลอตข้อมูลในรายงาน Power BI](guidance/report-tips-sort-distribute-data-plots.md)

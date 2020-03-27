@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/26/2020
+ms.date: 03/17/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f4dbbdd30b403c8ac14db069b826f26af0bce24a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 8dfc6e872b67605a262c7390b91703649a2cfb0f
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201948"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114091"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>ทำงานกับตัวกรองในรายงาน Power BI
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 ตัวกรองใน Power BI มีฟังก์ชันการทำงานใหม่และการออกแบบใหม่ เมื่อคุณเข้าร่วมประสบการณ์การใช้งานตัวกรองใหม่ คุณสามารถจัดรูปแบบบานหน้าต่างตัวกรองให้มีลักษณะเหมือนกับส่วนเหลือของรายงาน คุณสามารถล็อก และแม้แต่ซ่อนตัวกรอง เมื่อคุณออกแบบรายงานของคุณ คุณจะไม่เห็นบานหน้าต่างตัวกรองเก่าในพื้นที่การแสดงภาพ คุณสามารถกำเนินการแก้ไขตัวกรองและการจัดรูปแบบในบานหน้าต่างตัวกรองเดียว 
 
@@ -85,7 +87,7 @@ ms.locfileid: "79201948"
 
 1. ตามค่าเริ่มต้น ผู้บริโภครายงานของคุณสามารถดูบานหน้าต่างตัวกรอง หากไม่ต้องการให้มองเห็น ให้เลือกไอคอนรูปตาที่อยูถัดจาก **ตัวกรอง**
 
-    ![ไอคอนรูปตาของตัวกรอง Power BI](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
+    ![ไอคอนรูปตาของตัวกรอง Power BI ](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
 
 2. เมื่อต้องเริ่มสร้างบานหน้าต่างตัวกรองของคุณใหม่ ลากเขตข้อมูลที่สนใจไปยังบานหน้าต่างตัวกรองใหม่ เช่น ภาพ หน้า หรือตัวกรองระดับรายงาน
 

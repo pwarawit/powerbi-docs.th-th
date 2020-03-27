@@ -10,12 +10,12 @@ ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488717"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114506"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>ดูแล Power BI ในพอร์ทัลผู้ดูแลระบบ
 
@@ -233,7 +233,12 @@ ms.locfileid: "79488717"
 
 ### <a name="export-data"></a>ส่งออกข้อมูล
 
-ผู้ใช้ในองค์กรสามารถส่งออกข้อมูลจากไทล์หรือการแสดงวิชวล เรียนรู้เพิ่มเติมเกี่ยวกับการ [การส่งออกข้อมูลจากไทล์หรือวิชวล](visuals/power-bi-visualization-export-data.md)
+ผู้ใช้ในองค์กรสามารถส่งออกข้อมูลจากไทล์หรือการแสดงวิชวล สิ่งนี้จะควบคุม Analyze ใน Excel ส่งออกเป็น .csv ดาวน์โหลดชุดข้อมูล (.pbix) และคุณลักษณะ Power BI Service Live Connect เรียนรู้เพิ่มเติมเกี่ยวกับการ [การส่งออกข้อมูลจากไทล์หรือวิชวล](visuals/power-bi-visualization-export-data.md)
+
+>[!NOTE]
+> ก่อนที่จะแนะนำการตั้งค่าส่งออกไปยัง Excel การตั้งค่านี้จะควบคุมการส่งออกข้อมูลไปยังไฟล์ Excel โปรดดู [หมายเหตุภายใต้ส่งออกไปยัง Excel](#export-to-excel) สำหรับรายละเอียด
+
+![การตั้งค่าส่งออกข้อมูล](media/service-admin-portal/powerbi-admin-portal-export-data-setting.png)
 
 รูปต่อไปนี้แสดงให้เห็นตัวเลือกในการส่งข้อมูลออกจากไทล์
 
@@ -241,6 +246,15 @@ ms.locfileid: "79488717"
 
 > [!NOTE]
 > ปิดใช้งาน**ส่งออกข้อมูล**ยัง ช่วยป้องกันผู้ใช้จากการใช้ฟีเจอร์การ[วิเคราะห์ใน Excel](service-analyze-in-excel.md)ตลอดจนการใช้เชื่อมต่อสดของบริการ Power BI ฃ
+
+### <a name="export-to-excel"></a>ส่งออกไปยัง Excel
+
+ผู้ใช้ในองค์กรสามารถส่งออกข้อมูลจากการแสดงภาพไปยังไฟล์ Excel ได้
+
+![การตั้งค่าส่งออกไปยัง Excel](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
+
+>[!IMPORTANT]
+> ก่อนที่จะแนะนำการตั้งค่าการส่งออกไปยัง Excel การส่งออกไปยังไฟล์ Excel ถูกควบคุมโดยการตั้งค่าข้อมูลการส่งออก ดังนั้นสำหรับผู้เช่าที่มีอยู่ก่อนที่จะแนะนำการตั้งค่าส่งออกไปยัง Excel ผู้ดูแลระบบผู้เช่ารายแรกจะดูการตั้งค่าส่งออกเป็น Excel พวกเขาจะเห็นว่ามี *การเปลี่ยนแปลงที่ไม่ได้ใช้* พวกเขาจะต้องใช้การเปลี่ยนแปลงเหล่านี้เพื่อให้การตั้งค่าใหม่มีผล มิฉะนั้น การส่งออกไปยังไฟล์ Excel จะถูกควบคุมโดยการตั้งค่าส่งออกข้อมูล
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>ส่งออกรายงานในรูปแบบงานนำเสนอ PowerPoint หรือเอกสาร PDF
 

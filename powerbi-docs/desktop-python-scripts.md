@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5693e75ff186c3edb95eeaa92d26823e0e0d3a60
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039065"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273351"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>เรียกใช้สคริปต์ Python ใน Power BI Desktop
 
@@ -109,6 +109,14 @@ print (df)
 หากไม่มีการติดตั้งหรือระบุ Python คำเตือนจะปรากฏขึ้น คุณยังสามารถเห็นคำเตือนหากคุณมีการติดตั้งภายในเครื่องหลายเครื่อง เยี่ยมชมและทบทวนส่วนการติดตั้ง Python และเปิดใช้งานการเขียนสคริปต์ภาษา Python ก่อนหน้า
 
 ![คำเตือนว่ายังไม่ได้ติดตั้ง Python](media/desktop-python-scripts/python-scripts-3.png)
+
+#### <a name="using-custom-python-distributions"></a>ใช้ Python distribution แบบกำหนดเอง
+
+Power BI เรียกใช้งานสคริปต์โดยตรงโดยใช้ python.exe ที่สามารถเรียกทำงานได้จากไดเรกทอรีที่ผู้ใช้จัดหา (มีอยู่ผ่านหน้าการตั้งค่า) Distribution ที่ต้องใช้ขั้นตอนพิเศษในการเตรียมสภาพแวดล้อม (ตัวอย่างเช่น Conda) อาจพบปัญหาที่การดำเนินการล้มเหลว
+
+เราขอแนะนำให้ใช้ Python distribution อย่างเป็นทางการจาก https://www.python.org/ เพื่อหลีกเลี่ยงปัญหาที่เกี่ยวข้อง
+
+ในฐานะที่อาจเป็นโซลูชัน คุณสามารถเริ่มต้น Power BI Desktop จากพร้อมท์สภาพแวดล้อม Python ที่กำหนดเอง
 
 ### <a name="refresh"></a>รีเฟรช
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 03/24/2020
 ms.author: tebercov
-ms.openlocfilehash: dcb7ba5dabbbb0387b92908f7e299d61f2145d44
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 92d5a5177b0fa03af583e9e89ce574c0197f3f7a
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376603"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273236"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>เคล็ดลับสำหรับการเขียนแอปเทมเพลตใน Power BI
 
@@ -150,7 +150,7 @@ ms.locfileid: "79376603"
 
 | ฟีเจอร์ | ข้อจำกัดที่ทราบ |
 |---------|---------|
-|เนื้อหา:  ชุดข้อมูล   | ควรมีชุดข้อมูลหนึ่งชุด อนุญาตเฉพาะชุดข้อมูลที่สร้างขึ้นใน Power BI Desktop (ไฟล์.pbix) <br>ไม่ได้รับการสนับสนุน ชุดข้อมูลจากอื่น ๆ แอปแม่แบบ ชุดข้อมูลพื้นที่ทำงานข้าม รายงานแบบแบ่งหน้า (ไฟล์.rdl) เวิร์กบุ๊ก Excel |
+|เนื้อหา:  ชุดข้อมูล   | ควรมีชุดข้อมูลหนึ่งชุด อนุญาตเฉพาะชุดข้อมูลที่สร้างขึ้นใน Power BI Desktop (ไฟล์.pbix) <br>ไม่ได้รับการสนับสนุน ชุดข้อมูลจากอื่น ๆ แอปแม่แบบ ชุดข้อมูลพื้นที่ทำงานข้าม รายงานแบบแบ่งหน้า (ไฟล์.rdl) เวิร์กบุ๊ก Excel เมตาดาต้าชุดข้อมูลที่ปรับปรุง |
 |เนื้อหา: แดชบอร์ด | ไม่อนุญาตให้ใช้ไทล์แบบเรียลไทม์ (หรืออีกนัยหนึ่งก็คือ ไม่มีการสนับสนุนสำหรับพุชหรือชุดข้อมูลการสตรีม) |
 |เนื้อหา: กระแสข้อมูล | ไม่ได้รับการสนับสนุน กระแสข้อมูล |
 |เนื้อหาจากไฟล์ | สนับสนุนเฉพาะไฟล์ .pbix <br>ไม่ได้รับการสนับสนุน: แฟ้ม.rdl (รายงานแบบแบ่งหน้า) เวิร์กบุ๊ก Excel   |
