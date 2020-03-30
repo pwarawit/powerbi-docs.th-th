@@ -100,7 +100,7 @@
               href: ../service-encryption-byok.md
             - name: รีสตาร์ตความจุแบบพรีเมียม
               href: ../service-admin-premium-restart.md
-            - name: เชื่อมต่อกับชุดข้อมูลที่มีแอปพลิเคชันไคลเอ็นต์และเครื่องมือ
+            - name: การเชื่อมต่อชุดข้อมูลที่มีตำแหน่งข้อมูล XMLA (ตัวอย่าง)
               href: ../service-premium-connect-tools.md
     - name: การอ้างอิง
       items:

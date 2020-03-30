@@ -102,12 +102,12 @@
               href: end-user-favorite.md
             - name: พิมพ์แดชบอร์ด พิมพ์ไทล์แดชบอร์ด พิมพ์หน้ารายงาน
               href: end-user-print.md
+            - name: ดูเนื้อหาที่แชร์กับฉัน
+              href: end-user-shared-with-me.md
             - name: ดูเนื้อหาที่เกี่ยวข้อง
               href: end-user-related.md
             - name: ดูเนื้อหาล่าสุด
               href: end-user-recent.md
-            - name: ดูเนื้อหาในที่เก็บข้อมูลแชร์กับฉัน
-              href: end-user-shared-with-me.md
             - name: สมัครใช้งานไปยังรายงานหรือแดชบอร์ด
               href: end-user-subscribe.md
             - name: ค้นหาและเรียงลำดับเนื้อหาใน Power BI
