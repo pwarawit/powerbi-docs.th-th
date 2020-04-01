@@ -18,10 +18,8 @@
     - name: ตัวอย่าง
       expanded: true
       items:
-        - name: รับข้อมูลตัวอย่างสำหรับ Power BI
+        - name: รับตัวอย่างสำหรับ Power BI
           href: ../sample-datasets.md
-        - name: นำเข้าและเปิดชุดตัวอย่าง
-          href: ../sample-tutorial-connect-to-the-samples.md
         - name: ตัวอย่างความสามารถในการทำกำไรสำหรับลูกค้า
           href: ../sample-customer-profitability.md
         - name: ตัวอย่างการวิเคราะห์ค่าใช้จ่ายในด้านไอที...
@@ -34,6 +32,8 @@
           href: ../sample-procurement.md
         - name: ตัวอย่างการวิเคราะห์การค้าปลีก
           href: ../sample-retail-analysis.md
+        - name: สำรวจตัวอย่างการวิเคราะห์การค้าปลีก
+          href: ../sample-tutorial-connect-to-the-samples.md
         - name: ตัวอย่างการขายและการตลาด
           href: ../sample-sales-and-marketing.md
         - name: ตัวอย่างการวิเคราะห์คุณภาพของซัพพลายเออร์
