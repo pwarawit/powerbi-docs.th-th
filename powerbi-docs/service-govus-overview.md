@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 349b4d51c1649b714c67e61ac42ddcc49b2eeb12
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 14c01eb3041964a858b1aeeaeaa471f0d839898e
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114899"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404803"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI สำหรับลูกค้าส่วนราชการสหรัฐอเมริกา
 บทความนี้สำหรับลูกค้าส่วนราชการสหรัฐอเมริกาที่มีการปรับใช้ Power BI เป็นส่วนหนึ่งของแผนสำหรับหน่วยงานรัฐใน Office 365 แผนสำหรับหน่วยงานรัฐได้รับการออกแบบมาเพื่อความต้องการเฉพาะขององค์กรที่ต้องเป็นไปตามมาตรฐานการปฏิบัติตามข้อบังคับและความปลอดภัยของสหรัฐอเมริกา บริการของ Power BI ที่ได้รับการออกแบบมาสำหรับลูกค้าส่วนราชการสหรัฐอเมริกามีความแตกต่างจากเวอร์ชันเชิงพาณิชย์ของบริการของ Power BI ความต่างในคุณลักษณะและความสามารถเหล่านี้จะอธิบายไว้ในส่วนถัดไป
@@ -56,7 +56,7 @@ Office 365 มีสภาพแวดล้อมที่แตกต่าง
 
 | URL เวอร์ชันสำหรับเชิงพาณิชย์ | URL เวอร์ชันสำหรับ US Government | URL ของรัฐบาลสหรัฐอเมริกาสำหรับ GCC High |
 | --- | --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
+| `https://app.powerbi.com/` |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 
 บัญชีของคุณอาจได้รับการเตรียมใช้งานไปยังระบบคลาวด์มากกว่าหนึ่งรายการ ในกรณีดังกล่าว ในการใช้งาน Power BI Desktop คุณสามารถเลือกระบบคลาวด์ที่ต้องการเชื่อมต่อได้ เมื่อคุณลงชื่อเข้าใช้
 

@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 20546e0c9251f39ca49f6d713d5db48401937505
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114416"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404055"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>วิธีการย้ายเนื้อหาจาก Power BI Workspace Collection ไปยัง Power BI Embedded
 
@@ -126,13 +126,13 @@ Power BI Workspace Collection รุ่นปัจจุบันจะยั�
 
 **โฟลว์**
 
-1. เรียก รับ https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources และบันทึกสตริงการเชื่อมต่อที่ได้รับ
+1. เรียก รับ `https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources` และบันทึกสตริงการเชื่อมต่อที่ได้รับ
 2. เรียก ดาวน์โหลด PBIX API จากพื้นที่ทำงาน PaaS
 3. บันทึก PBIX
 4. เรียก นำเข้า PBIX ไปยังพื้นที่ทำงาน SaaS
-5. อัปเดตสตริงการเชื่อมต่อโดยการเรียก - โพสต์  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
-6. รับ GW และตัวระบุแหล่งข้อมูลโดยการเรียก - รับ https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
-7. ปรับปรุงข้อมูลประจำตัวของผู้ใช้โดยการเรียก - โปรแกรมแก้ไข https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
+5. อัปเดตสตริงการเชื่อมต่อโดยการเรียก - โพสต์  `https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections`
+6. รับ GW และตัวระบุแหล่งข้อมูลโดยการเรียก - รับ `https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources`
+7. ปรับปรุงข้อมูลประจำตัวของผู้ใช้โดยการเรียก - โปรแกรมแก้ไข `https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}`
 
 #### <a name="old-dataset--reports"></a>ชุดข้อมูลและรายงานเก่า
 
