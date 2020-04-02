@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: a13e48e413f047812d9b00fe67c2ee2b69bbc2dc
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404579"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551113"
 ---
 # <a name="power-bi-security-whitepaper"></a>เอกสารทางเทคนิคเรื่องความปลอดภัย Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "80404579"
 
 **Power BI**คือบริการซอฟต์แวร์ออนไลน์ (_SaaS_หรือซอฟต์แวร์ตามที่ให้บริการ) ที่เปิดให้บริการจาก Microsoft ที่ช่วยให้คุณสร้างแดชบอร์ดข่าวกรองธุรกิจ รายงาน ชุดข้อมูล และการแสดงภาพแบบบริการตนเอง ด้วย Power BI คุณสามารถเชื่อมต่อกับแหล่งข้อมูลที่หลากหลาย รวบรวมและจัดรูปแบบข้อมูลจากการเชื่อมต่อนั้นๆ จากนั้นก็สร้างรายงานและแดชบอร์ดที่สามารถใช้ร่วมกับผู้อื่นได้
 
-บริการ Power BI ถูกควบคุมโดย[เงื่อนไขบริการออนไลน์ของ Microsoft ](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)และ[คำชี้แจ้งสิทธิส่วนบุคคลขององค์ของ Microsoft](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx) สำหรับตำแหน่งที่ตั้งของการประมวลผลข้อมูล โปรดอ้างอิงเงื่อนไขตำแหน่งที่ตั้งของข้อมูลในเงื่อนไขบริการออนไลน์ของ Microsoft สำหรับข้อมูลการปฏิบัติตามกฎระเบียบ [ศูนย์ความเชื่อถือของ Microsoft](https://www.microsoft.com/trustcenter)เป็นทรัพยากรหลักสำหรับ Power BI ทีมงาน Power BI จะทำงานอย่างหนักเพื่อให้ลูกค้าได้เข้าถึงนวัตกรรมและการปรับปรุงประสิทธิภาพการทำงานล่าสุด Power BI อยู่ในระดับ D ของโครงสร้างการ[ปฏิบัติตามกฎระเบียบของ Office ๓๖๕](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)
+บริการ Power BI ถูกควบคุมโดย[เงื่อนไขบริการออนไลน์ของ Microsoft ](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)และ[คำชี้แจ้งสิทธิส่วนบุคคลขององค์ของ Microsoft](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx) สำหรับตำแหน่งที่ตั้งของการประมวลผลข้อมูล โปรดอ้างอิงเงื่อนไขตำแหน่งที่ตั้งของข้อมูลในเงื่อนไขบริการออนไลน์ของ Microsoft สำหรับข้อมูลการปฏิบัติตามกฎระเบียบ [ศูนย์ความเชื่อถือของ Microsoft](https://www.microsoft.com/trustcenter)เป็นทรัพยากรหลักสำหรับ Power BI ทีมงาน Power BI จะทำงานอย่างหนักเพื่อให้ลูกค้าได้เข้าถึงนวัตกรรมและการปรับปรุงประสิทธิภาพการทำงานล่าสุด Power BI อยู่ในระดับ D ของโครงสร้างการ[ปฏิบัติตามกฎระเบียบของ Office ๓๖๕](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 บทความนี้อธิบายความปลอดภัย Power BI โดยให้คำอธิบายของสถาปัตยกรรมPower BI นั้นอธิบายว่าผู้ใช้รับรองความถูกต้อง Power BI และข้อมูลการเชื่อมต่อถูกสร้างขึ้น และอธิบายวิธีที่ Power BI จัดเก็บ และย้ายข้อมูลผ่านทาง service แล้ว ส่วนสุดท้ายมุ่งเน้นการคำถามเกี่ยวกับความปลอดภัย ด้วยคำตอบที่ระบุไว้สำหรับแต่ละรายการ
 
