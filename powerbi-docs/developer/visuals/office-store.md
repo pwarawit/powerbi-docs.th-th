@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: f357c3ee937c75afcbf2095c6cbd586f9748420e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: bfdac85b50851f840db04d2b3d8e88d434ab7b7e
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114209"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550892"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>เผยแพร่วิชวลแบบกำหนดเองไปยัง Partner Canter
 
@@ -100,8 +100,6 @@ ms.locfileid: "80114209"
 10. เลือก **การตั้งค่าผลิตภัณฑ์** และคลิก **ตรวจสอบและเผยแพร่**
 
 ## <a name="tracking-submission-status-and-usage"></a>การติดตามสถานะการส่งและการใช้งาน
-
-คุณสามารถตรวจดู[นโยบายการตรวจสอบ](https://dev.office.com/officestore/docs/validation-policies#13-power-bi-custom-visuals)ได้
 
 หลังจากส่งแล้ว คุณจะสามารถดูสถานะการส่งได้ใน[แดชบอร์ดแอป](https://sellerdashboard.microsoft.com/Application/Summary/)
 
