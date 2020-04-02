@@ -1,0 +1,110 @@
+- name: เอกสารประกอบการใช้งานการวิเคราะห์ใน Power BI embedded
+  href: index.yml
+  expanded: true
+  items:
+    - name: ภาพรวม
+      expanded: true
+      items:
+        - name: กำลังฝังอะไรกับ Power BI
+          href: embedding.md
+        - name: Power BI อะไรที่ถูกฝังอยู่ใน Azure
+          href: azure-pbie-what-is-power-bi-embedded.md
+    - name: บทช่วยสอน
+      expanded: true
+      items:
+        - name: ฝังเนื้อหาสำหรับลูกค้า
+          href: embed-sample-for-customers.md
+        - name: เนื้อหาแบบฝังตัวสำหรับองค์กรของคุณ
+          href: embed-sample-for-your-organization.md
+        - name: รายงานที่มีการแบ่งหน้าแบบฝังตัวสำหรับลูกค้า
+          href: embed-paginated-reports-customers.md
+        - name: เนื้อหาแบบฝังตัวสำหรับระบบคลาวด์แห่งชาติ
+          href: embed-sample-for-customers-national-clouds.md
+    - name: แนวคิด
+      items:
+        - name: ความจุและ SKU ในการวิเคราะห์แบบฝังตัวของ Power BI
+          href: embedded-capacity.md
+        - name: การวางแผนความจุ
+          href: embedded-capacity-planning.md
+        - name: แนวทางปฏิบัติที่ดีที่สุดของประสิทธิภาพการทำงาน
+          href: embedded-performance-best-practices.md
+        - name: โครงร่างสำคัญของบริการ
+          href: embed-service-principal.md
+        - name: รักษาความปลอดภัยระดับแถว
+          href: embedded-row-level-security.md
+        - name: ความปลอดภัยระดับแถวของรายงานที่มีการแบ่งหน้า
+          href: paginated-reports-row-level-security.md
+        - name: จัดการผู้เช่าจำนวนมาก
+          href: embed-multi-tenancy.md
+        - name: บันทึกการวินิจฉัย Azure สำหรับ Power BI Embedded
+          href: azure-pbie-diag-logs.md
+        - name: คำถามที่พบบ่อยของการฝังตัว
+          href: embedded-faq.md
+        - name: สิทธิ์ของ Power BI
+          href: power-bi-permissions.md
+    - name: วิธีการ
+      items:
+        - name: ฝังตัวจากแอป
+          href: embed-from-apps.md
+        - name: ส่งออกรายงานไปยังไฟล์
+          href: export-to.md
+        - name: แอปติดตั้งอัตโนมัติ
+          href: embed-auto-install-app.md
+        - name: สร้างผู้เช่า Azure Active Directory
+          href: create-an-azure-active-directory-tenant.md
+        - name: ลงทะเบียนแอปพลิเคชัน
+          href: register-app.md
+        - name: รับโทเค็นการเข้าถึง Azure AD
+          href: get-azuread-access-token.md
+        - name: เชื่อมต่อรายงานโดยใช้การผูกแบบไดนามิก
+          href: embed-dynamic-binding.md
+        - name: ถามตอบเกี่ยวกับการฝัง
+          href: qanda.md
+        - name: แก้ไขปัญหาแอปพลิเคชันแบบฝังตัวของคุณ
+          href: embedded-troubleshoot.md
+        - name: จัดการกำลังการผลิตใน Azure
+          items:
+            - name: สร้างกำลังการผลิตใน Azure
+              href: azure-pbie-create-capacity.md
+            - name: สร้างกำลังการผลิตโดยใช้ Multi-Geo ใน Azure
+              href: embedded-multi-geo.md
+            - name: ปรับมาตราส่วนกำลังการผลิตใน Azure
+              href: azure-pbie-scale-capacity.md
+            - name: หยุดชั่วคราวและเริ่มกำลังการผลิตใน Azure
+              href: azure-pbie-pause-start.md
+        - name: ย้ายจากคอลเลกชันพื้นที่ทำงาน
+          items:
+            - name: วิธีการโยกย้ายจากคอลเลกชันพื้นที่ทำงานของ BI Power
+              href: migrate-from-powerbi-embedded.md
+            - name: เครื่องมือสำหรับการโยกย้าย
+              href: migrate-tool.md
+            - name: โยกย้ายส่วนย่อยของโค้ด
+              href: migrate-code-snippets.md
+    - name: การอ้างอิง
+      items:
+        - name: API
+          items:
+            - name: จัดการทรัพยากร azure REST APIs
+              href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+            - name: Power BI REST APIs
+              href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+        - name: ไลบรารี Power BI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+        - name: ฝังเค้าโครงแบบกำหนดเองลงในแอป
+          href: embedded-custom-layout.md
+    - name: ทรัพยากร
+      items:
+        - name: ศูนย์นักพัฒนา
+          href: 'https://powerbi.microsoft.com/en-us/developers/'
+        - name: เครื่องมือตั้งค่าการฝังตัว
+          href: 'https://aka.ms/embedsetup'
+        - name: ตัวอย่าง JavaScript Playground
+          href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+        - name: วิกิสำหรับ Power BI JavaScript
+          href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+        - name: ตัวอย่างและสคริปต์ของนักพัฒนา
+          href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+        - name: ชุมชน Power BI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+        - name: ข้อมูลเกินสแตก
+          href: 'https://go.microsoft.com/fwlink/?linkid=848281'

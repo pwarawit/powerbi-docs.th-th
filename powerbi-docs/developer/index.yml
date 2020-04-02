@@ -1,93 +1,110 @@
-### YamlMime:Landing
+### YamlMime:Hub
 title: เอกสารสำหรับนักพัฒนา Power BI
-summary: เอกสาร Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+summary: ในฐานะนักพัฒนา Power BI คุณสามารถฝังเนื้อหา Power BI พัฒนาวิชวล Power BI และทำให้กระบวนการ Power BI เป็นอัตโนมัติได้
+brand: power-bi
 metadata:
   title: เอกสารสำหรับนักพัฒนา Power BI
-  description: เอกสาร Power BI แสดงข้อมูลระดับผู้เชี่ยวชาญและคำตอบเพื่อจัดการกับความต้องการของคุณ ไม่ว่าคุณจะใช้ Power BI อย่างไรก็ตาม
+  description: ในฐานะนักพัฒนา Power BI คุณสามารถฝังเนื้อหา Power BI พัฒนาวิชวล Power BI และทำให้กระบวนการ Power BI เป็นอัตโนมัติได้
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-developer
-  ms.topic: landing-page
+  ms.topic: hub-page
   ms.collection: collection
-  author: maggiesMSFT
-  ms.author: maggies
-  ms.date: 10/25/2019
-  ms.openlocfilehash: b03678dba371ed26a8965c2ebbcd26453689cea2
-  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
   ms.translationtype: HT
   ms.contentlocale: th-TH
-  ms.lasthandoff: 03/18/2020
-  ms.locfileid: "79487774"
-landingContent:
-- title: เกี่ยวกับ Power BI สำหรับนักพัฒนา
-  linkLists:
-  - linkListType: overview
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80487792"
+highlightedContent:
+  items:
+  - title: การวิเคราะห์แบบฝังตัวด้วย Power BI
+    itemType: overview
+    url: embedded/embedding.md
+  - title: Power BI Embedded ใน Azure คืออะไร
+    itemType: overview
+    url: embedded/azure-pbie-what-is-power-bi-embedded.md
+  - title: วิชวลใน Power BI
+    itemType: overview
+    url: visuals/power-bi-custom-visuals.md
+  - title: นักพัฒนาสามารถใช้ Power BI API ทำอะไรได้บ้าง
+    itemType: overview
+    url: automation/overview-of-power-bi-rest-api.md
+conceptualContent:
+  items:
+  - title: การวิเคราะห์แบบฝังตัว
     links:
-    - text: นักพัฒนาสามารถทำอะไรได้บ้าง
-      url: what-can-you-do.md
-    - text: วิชวลใน Power BI
-      url: visuals/power-bi-custom-visuals.md
-    - text: การฝังคืออะไร
-      url: embedded/embedding.md
-    - text: Power BI API คืออะไร
-      url: automation/overview-of-power-bi-rest-api.md
-  - linkListType: reference
+    - url: embedded/embedding.md
+      itemType: overview
+      text: การวิเคราะห์แบบฝังตัวด้วย Power BI
+    - url: embedded/azure-pbie-what-is-power-bi-embedded.md
+      itemType: overview
+      text: Power BI Embedded ใน Azure คืออะไร
+    - url: embedded/embedded-capacity.md
+      itemType: concept
+      text: ความจุและ SKU
+    footerLink:
+      url: embedded/index.yml
+      text: ดูเพิ่มเติม
+  - title: วิชวล Power BI
     links:
-    - text: ศูนย์นักพัฒนา
-      url: https://powerbi.microsoft.com/developers/
-    - text: ตัวอย่างสำหรับนักพัฒนา
-      url: https://github.com/Microsoft/PowerBI-Developer-Samples
-    - text: JavaScript wiki
-      url: https://github.com/Microsoft/powerbi-javascript/wiki
-    - text: REST API
+    - url: visuals/power-bi-custom-visuals.md
+      itemType: overview
+      text: วิชวลใน Power BI
+    - url: visuals/custom-visual-develop-tutorial.md
+      itemType: tutorial
+      text: พัฒนาวิชวล Power BI
+    - url: visuals/office-store.md
+      itemType: how-to-guide
+      text: เผยแพร่วิชวลแบบกำหนดเองไปยัง Partner Canter
+    footerLink:
+      url: visuals/index.yml
+      text: ดูเพิ่มเติม
+  - title: อัตโนมัติ
+    links:
+    - url: automation/overview-of-power-bi-rest-api.md
+      itemType: overview
+      text: นักพัฒนาสามารถใช้ Power BI API ทำอะไรได้บ้าง
+    - url: automation/walkthrough-push-data.md
+      itemType: tutorial
+      text: ส่งข้อมูลลงในชุดข้อมูล Power BI
+    - url: automation/configure-credentials.md
+      itemType: how-to-guide
+      text: กำหนดค่าข้อมูลประจำตัว
+    footerLink:
+      url: automation/index.yml
+      text: ดูเพิ่มเติม
+additionalContent:
+  sections:
+  - title: เครื่องมือที่เกี่ยวข้อง
+  - items:
+    - title: Power BI REST APIs
+      summary: Power BI REST APIs จัดเตรียมจุดสิ้นสุดการบริการสำหรับการฝัง การจัดการ และทรัพยากรผู้ใช้
       url: https://docs.microsoft.com/rest/api/power-bi/
-    - text: Azure Resource Manager REST APIs
+    - title: Azure Resource Manager REST API
+      summary: API ที่มีชุดของบริการเว็บ RESTful ช่วยให้คุณสามารถสร้าง ดึง อัปเดต และลบความจุเฉพาะของ Power BI ได้
       url: https://docs.microsoft.com/rest/api/power-bi-embedded/
-- title: การแสดงผลด้วยภาพ
-  linkLists:
-  - linkListType: tutorial
-    links:
-    - text: พัฒนาการแสดงผลด้วยภาพ
-      url: visuals/custom-visual-develop-tutorial.md
-  - linkListType: concept
-    links:
-    - text: คำถามที่พบบ่อยเกี่ยวกับวิชวล
-      url: visuals/power-bi-custom-visuals-faq.md
-    - text: คำแนะนำสำหรับการแสดงผลด้วยภาพ
-      url: visuals/guidelines-powerbi-visuals.md
-    - text: โหมดการแก้ไขขั้นสูงในการแสดงผลด้วยภาพ
-      url: visuals/advanced-edit-mode.md
-  - linkListType: how-to-guide
-    links:
-    - text: รับวิชวลที่ได้รับการรับรอง
-      url: visuals/power-bi-custom-visuals-certified.md
-    - text: เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
-      url: visuals/office-store.md
-- title: การวิเคราะห์แบบฝังตัว
-  linkLists:
-  - linkListType: tutorial
-    links:
-    - text: ฝังเนื้อหาสำหรับลูกค้า
-      url: embedded/embed-sample-for-customers.md
-    - text: เนื้อหาแบบฝังตัวสำหรับองค์กรของคุณ
-      url: embedded/embed-sample-for-your-organization.md
-  - linkListType: concept
-    links:
-    - text: รักษาความปลอดภัยระดับแถว
-      url: embedded/embedded-row-level-security.md
-    - text: จัดการการเช่าแบบหลายรายการ
-      url: embedded/embed-multi-tenancy.md
-    - text: คำถามที่พบบ่อยแบบฝังตัว
-      url: embedded/embedded-faq.md
-    - text: การอนุญาต
-      url: embedded/power-bi-permissions.md
-  - linkListType: how-to-guide
-    links:
-    - text: ฝังตัวจากแอป
-      url: embedded/embed-from-apps.md
-    - text: สร้างผู้เช่า Azure Active Directory
-      url: embedded/create-an-azure-active-directory-tenant.md
-    - text: รับโทเค็นการเข้าถึง Azure AD
-      url: embedded/get-azuread-access-token.md
-    - text: Q&A ฟังก์ชันการทำงานใน Power BI Embedded
-      url: embedded/qanda.md
+    - title: เอกสารประกอบ Power Platform
+      summary: เรียนรู้ว่า Power BI, Power Apps, Power Automate และ Power Virtual Agent ทำงานร่วมกันเพื่อส่งเสริมประสิทธิภาพซึ่งกันและกันอย่างไร
+      url: https://docs.microsoft.com/power-platform/
+    - title: ศูนย์นักพัฒนา Power BI
+      summary: สร้างด้วย Power BI
+      url: https://powerbi.microsoft.com/developers/
+    - title: ตัวอย่างสำหรับวิชวล Power BI
+      summary: คอลเลกชันของตัวอย่าง Power BI และไลบรารีโค้ด
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - title: ไลบรารี Power BI
+      summary: ไลบรารี Power BI (NuGets)
+      url: https://www.nuget.org/profiles/powerbi
+    - title: เครื่องมือตั้งค่าการฝังตัว
+      summary: ตั้งค่าสภาพแวดล้อมการฝัง Power BI ของคุณ
+      url: https://app.powerbi.com/embedsetup
+    - title: เครื่องมือ Playground
+      summary: ลองคุณลักษณะและสำรวจ Api
+      url: https://aka.ms/pbieplayground
+    - title: JavaScript wiki
+      summary: สำรวจฐานความรู้ JavaScript
+      url: https://github.com/Microsoft/powerbi-javascript/wiki

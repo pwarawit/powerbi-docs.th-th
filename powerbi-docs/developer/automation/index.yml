@@ -1,0 +1,65 @@
+### YamlMime:Landing
+title: เอกสารประกอบการใช้งาน Power BI automation
+summary: ด้วย Power BI automation คุณสามารถดำเนินการจัดการกับออบเจ็กต์ Power BI เช่น รายงาน ชุดข้อมูล และพื้นที่ทำงาน
+metadata:
+  title: เอกสารประกอบการใช้งาน Power BI automation
+  description: ด้วย Power BI automation คุณสามารถดำเนินการจัดการกับออบเจ็กต์ Power BI เช่น รายงาน ชุดข้อมูล และพื้นที่ทำงาน
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 33f3caa20bc29c41b9d2c43f6727947ce9b7d446
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516410"
+landingContent:
+- title: เริ่มใช้งาน
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: เรียนรู้สิ่งที่คุณสามารถทำได้ด้วย API ของ Power BI
+      url: overview-of-power-bi-rest-api.md
+  - linkListType: tutorial
+    links:
+    - text: 'บทช่วยสอน: ส่งข้อมูลลงในชุดข้อมูล'
+      url: walkthrough-push-data.md
+    - text: 'บทช่วยสอน: รับโทเค็นการเข้าใช้การรับรองความถูกต้อง'
+      url: walkthrough-push-data-get-token.md
+    - text: 'บทช่วยสอน: สร้างชุดข้อมูล'
+      url: walkthrough-push-data-create-dataset.md
+    - text: รับชุดข้อมูลเมื่อต้องเพิ่มแถว
+      url: walkthrough-push-data-get-datasets.md
+    - text: เพิ่มแถวในตาราง Power BI
+      url: walkthrough-push-data-add-rows.md
+- title: ทำงานกับข้อมูล
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: นโยบายการเก็บข้อมูลโดยอัตโนมัติสำหรับข้อมูลแบบเรียลไทม์
+      url: api-automatic-retention-policy-for-real-time-data.md
+    - text: ข้อจำกัดของ Power BI REST API
+      url: api-rest-api-limitations.md
+    - text: คุณสมบัติของชุดข้อมูล
+      url: api-dataset-properties.md
+  - linkListType: how-to-guide
+    links:
+    - text: กำหนดค่าข้อมูลประจำตัว
+      url: configure-credentials.md
+- title: เอกสารอ้างอิงและทรัพยากร
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI REST APIs
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: ข้อมูลอ้างอิง Power BI REST API
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: ศูนย์นักพัฒนา
+      url: https://powerbi.microsoft.com/developers/
+    - text: ไลบรารี Power BI
+      url: https://www.nuget.org/profiles/powerbi

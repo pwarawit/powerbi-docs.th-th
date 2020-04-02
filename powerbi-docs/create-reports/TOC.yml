@@ -20,6 +20,8 @@
       items:
         - name: รับตัวอย่างสำหรับ Power BI
           href: ../sample-datasets.md
+        - name: ตัวอย่าง COVID-19 ในสหรัฐอเมริกา
+          href: sample-covid-19-us.md
         - name: ตัวอย่างความสามารถในการทำกำไรสำหรับลูกค้า
           href: ../sample-customer-profitability.md
         - name: ตัวอย่างการวิเคราะห์ค่าใช้จ่ายในด้านไอที...

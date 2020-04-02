@@ -1,0 +1,83 @@
+### YamlMime:Landing
+title: เอกสารประกอบการใช้งานการวิเคราะห์ใน Power BI embedded
+summary: เรียนรู้วิธีการใช้โซลูชันการวิเคราะห์แบบฝังสองตัว ได้แก่ Power BI Embedded และการฝังโดยใช้ Power BI Premium
+metadata:
+  title: เอกสารประกอบการใช้งานการวิเคราะห์ใน Power BI embedded
+  description: เรียนรู้วิธีการใช้โซลูชันการวิเคราะห์แบบฝังสองตัว ได้แก่ Power BI Embedded และการฝังโดยใช้ Power BI Premium
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 3f7bf1ebb51e7f9e5916e16280a2e10d7339df73
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516272"
+landingContent:
+- title: เริ่มใช้งาน
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: การฝังด้วย Power BI คืออะไร
+      url: embedding.md
+    - text: Power BI Embedded ใน Azure คืออะไร
+      url: azure-pbie-what-is-power-bi-embedded.md
+    - text: คำถามที่ถามบ่อย
+      url: embedded-faq.md
+- title: ฝังรายงานหรือแดชบอร์ด
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 'บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ'
+      url: embed-sample-for-customers.md
+    - text: 'บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับองค์กรของคุณ'
+      url: embed-sample-for-your-organization.md
+    - text: 'บทช่วยสอน: ฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันสำหรับลูกค้าของคุณ'
+      url: embed-paginated-reports-customers.md
+    - text: 'บทช่วยสอน: ฝังเนื้อหาของ Power BI ลงในแอปพลิเคชันสำหรับบริการคลาวด์แห่งชาติ'
+      url: embed-sample-for-customers-national-clouds.md
+  - linkListType: reference
+    links:
+    - text: เครื่องมือตั้งค่าการฝังตัว
+      url: https://app.powerbi.com/embedsetup
+    - text: ตัวอย่างและสคริปต์ของนักพัฒนา
+      url: https://github.com/Microsoft/PowerBI-Developer-Samples
+- title: แผนสำหรับการผลิต
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: ความจุและ SKU
+      url: embedded-capacity.md
+    - text: การวางแผนความจุ
+      url: embedded-capacity-planning.md
+  - linkListType: concept
+    links:
+    - text: แนวทางปฏิบัติที่ดีที่สุดของประสิทธิภาพการทำงาน
+      url: embedded-performance-best-practices.md
+    - text: สิทธิ์ของ Power BI
+      url: power-bi-permissions.md
+    - text: คำถามและคำตอบ
+      url: qanda.md
+    - text: แก้ไขปัญหาแอปพลิเคชันแบบฝังตัวของคุณ
+      url: embedded-troubleshoot.md
+- title: เอกสารอ้างอิงและทรัพยากร
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI REST APIs
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: ข้อมูลอ้างอิง Power BI REST API
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: ศูนย์นักพัฒนา
+      url: https://powerbi.microsoft.com/developers/
+    - text: ไลบรารี Power BI
+      url: https://www.nuget.org/profiles/powerbi
+    - text: เครื่องมือ Playground
+      url: https://microsoft.github.io/PowerBI-JavaScript/demo/v2-demo/index.html
+    - text: JavaScript wiki
+      url: https://github.com/Microsoft/powerbi-javascript/wiki

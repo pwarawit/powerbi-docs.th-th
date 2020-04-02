@@ -1,0 +1,59 @@
+### YamlMime:Landing
+title: เอกสารประกอบการใช้งานวิชวล Power BI
+summary: พัฒนาวิชวล Power BI ของคุณเองเพื่อใช้โดยคุณ องค์กรของคุณ หรือชุมชน Power BI ทั้งหมดได้ เอกสารประกอบของเราให้ข้อมูลที่คุณต้องการ
+metadata:
+  title: เอกสารประกอบการใช้งานวิชวล Power BI
+  description: พัฒนาวิชวล Power BI ของคุณเองเพื่อใช้โดยคุณ องค์กรของคุณ หรือชุมชน Power BI ทั้งหมดได้ เอกสารประกอบของเราให้ข้อมูลที่คุณต้องการ
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516249"
+landingContent:
+- title: เริ่มใช้งาน
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: วิชวลใน Power BI
+      url: power-bi-custom-visuals.md
+    - text: โครงสร้างของโครงการแสดงผล Power BI
+      url: visual-project-structure.md
+    - text: คำถามที่ถามบ่อย
+      url: power-bi-custom-visuals-faq.md
+- title: พัฒนาวิชวล Power BI
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 'บทช่วยสอน: พัฒนาวิชวล Power BI'
+      url: custom-visual-develop-tutorial.md
+    - text: 'บทช่วยสอน: การเพิ่มตัวเลือกการจัดรูปแบบให้กับวิชวลแบบกำหนดเองของ Power BI'
+      url: custom-visual-develop-tutorial-format-options.md
+  - linkListType: concept
+    links:
+    - text: คำแนะนำสำหรับการแสดงภาพ Power BI
+      url: guidelines-powerbi-visuals.md
+- title: เผยแพร่วิชวล Power BI
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: เผยแพร่วิชวลแบบกำหนดเองไปยัง Partner Canter
+      url: office-store.md
+    - text: รับการรับรองส่วนการจัดแสดง Power BI
+      url: power-bi-custom-visuals-certified.md
+- title: เอกสารอ้างอิงและทรัพยากร
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: ตัวอย่างสำหรับวิชวล Power BI
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - text: ที่เก็บ Git
+      url: https://github.com/Microsoft/PowerBI-visuals

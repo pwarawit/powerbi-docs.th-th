@@ -1,0 +1,120 @@
+- name: เอกสารประกอบการใช้งานวิชวล Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: ภาพรวม
+      expanded: true
+      items:
+        - name: วิชวลใน Power BI
+          href: power-bi-custom-visuals.md
+    - name: บทช่วยสอน
+      expanded: true
+      items:
+        - name: พัฒนาวิชวล Power BI
+          href: custom-visual-develop-tutorial.md
+        - name: เพิ่มตัวเลือกการจัดรูปแบบ
+          href: custom-visual-develop-tutorial-format-options.md
+        - name: เพิ่มการทดสอบหน่วยสำหรับโครงการวิชวล
+          href: unit-tests-introduction.md
+    - name: แนวคิด
+      items:
+        - name: โครงสร้างของโครงการแสดงผล Power BI
+          href: visual-project-structure.md
+        - name: แนวคิดแบบแสดงผลด้วยภาพ
+          href: power-bi-visuals-concept.md
+        - name: วิชวลสำหรับองค์กรใน Power BI
+          href: power-bi-custom-visuals-organization.md
+        - name: คำแนะนำสำหรับการแสดงภาพ Power BI
+          href: guidelines-powerbi-visuals.md
+        - name: คำถามที่พบบ่อยเกี่ยวกับวิชวล
+          href: power-bi-custom-visuals-faq.md
+        - name: การใช้ความสามารถ
+          href: capabilities.md
+        - name: การแมปมุมมองข้อมูล
+          href: dataview-mappings.md
+        - name: วัตถุและคุณสมบัติ
+          href: objects-properties.md
+        - name: โหมดแก้ไขขั้นสูง
+          href: advanced-edit-mode.md
+    - name: วิธีการ
+      items:
+        - name: รับการรับรองส่วนการจัดแสดง Power BI
+          href: power-bi-custom-visuals-certified.md
+        - name: เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
+          href: office-store.md
+        - name: ใช้ส่วนแสดงผล Power BI จาก R ใน Power BI
+          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+        - name: การโต้ตอบกับวิชวล
+          href: visuals-interactions.md
+        - name: เพิ่มการเลือก
+          href: selection-api.md
+        - name: เพิ่มเคล็ดลับเครื่องมือของวิชวล
+          href: add-tooltips.md
+        - name: เพิ่มบานหน้าต่างการวิเคราะห์
+          href: analytics-pane.md
+        - name: กรองวิชวล
+          href: filter-api.md
+        - name: ดึงข้อมูลเพิ่มเติม
+          href: fetch-more-data.md
+        - name: เพิ่มการสนับสนุนที่คั่นหน้า
+          href: bookmarks-support.md
+        - name: เพิ่มการสนับสนุนเมนูบริบท
+          href: context-menu.md
+        - name: เพิ่มการสนับสนุนการดูรายละเอียดแนวลึก
+          href: drill-down-support.md
+        - name: เน้นข้อมูลในวิชวล
+          href: highlight.md
+        - name: เพิ่มการสนับสนุนโหมดความคมชัดสูง
+          href: high-contrast-support.md
+        - name: เปิดใช้งานตัวแบ่งส่วนข้อมูลการซิงค์
+          href: enable-sync-slicers.md
+        - name: แก้จุดบกพร่องวิชวล
+          href: visuals-how-to-debug.md
+        - name: แก้ปัญหาวิชวล Power BI
+          href: power-bi-custom-visuals-troubleshoot.md
+    - name: การอ้างอิง
+      items:
+        - name: หน้าเริ่มต้น
+          href: landing-page.md
+        - name: เปิดใช้แอป
+          href: launch-url.md
+        - name: API ที่เก็บข้อมูลภายใน
+          href: local-storage.md
+        - name: เหตุการณ์การแสดงผล
+          href: event-service.md
+        - name: เรียงลำดับ
+          href: sort-options.md
+        - name: การแปลเป็นภาษาท้องถิ่น
+          href: localization.md
+        - name: ยูทิลิตี้ Power BI Visual
+          items:
+            - name: การเพิ่มไลบรารีภายนอก
+              href: adding-external-libraries.md
+            - name: การโต้ตอบ.utils
+              href: utils-interactivity-selections.md
+            - name: ยูทิลิตี้การจัดรูปแบบ
+              href: utils-formatting.md
+            - name: ยูทิลิตี้มุมมองข้อมูล
+              href: utils-dataview.md
+            - name: ยูทิลิตี้แผนภูมิ
+              href: utils-chart.md
+            - name: ยูทิลิตี้สี
+              href: utils-color.md
+            - name: ยูทิลิตี้ SVG
+              href: utils-svg.md
+            - name: ยูทิลิตี้ชนิด
+              href: utils-type.md
+            - name: คำแนะนำเครื่องมือ
+              href: utils-tooltip.md
+            - name: ยูทิลิตี้มุมมองข้อมูล
+              href: utils-dataview.md
+    - name: ทรัพยากร
+      items:
+        - name: ศูนย์นักพัฒนา
+          href: 'https://powerbi.microsoft.com/developers/'
+        - name: ตัวอย่างสำหรับวิชวล Power BI
+          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+        - name: Power BI Visuals Git repo
+          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+        - name: การสร้างใบรับรอง SSL
+          href: create-ssl-certificate.md
