@@ -317,8 +317,6 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: รายงานที่มีการแบ่งหน้า
           items:
-            - name: ห้องปฏิบัติการแบบลงมือทำ สร้างรายงานที่มีการแบ่งหน้า
-              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรง
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: สร้างแหล่งข้อมูลแบบฝังตัว
