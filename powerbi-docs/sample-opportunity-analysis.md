@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d871fa15c999e5b6c83b0334d6c978b2ba3c9870
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4863bfe3d99a63fbf4ad49834e66ecb8fcaf5525
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858704"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404147"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการวิเคราะห์โอกาสทางการขายสำหรับ Power BI: ชมการแนะนำ
 
@@ -22,8 +22,8 @@ ms.locfileid: "73858704"
 
 ตัวอย่างนี้อาศัยตัววัดรายได้สองตัว:
 
-* รายได้: ยอดประเมินจากเจ้าหน้าที่ฝ่ายขายเกี่ยวกับรายได้ที่จะได้รับ
-* รายได้ตามปัจจัย: คำนวณจากรายได้ X % ความน่าจะเป็น และเป็นที่ยอมรับว่าค่านี้เป็นค่าที่ใช้คาดการณ์ยอดขายจริงได้แม่นยำกว่า ความน่าเป็นกำหนดจาก*ขั้นตอนการขาย*ปัจจุบันของข้อตกลง
+* รายได้: ยอดประเมินของเจ้าหน้าที่ฝ่ายขายเกี่ยวกับรายได้ที่จะได้รับ
+* รายได้ตามปัจจัย: คำนวณจากรายได้ X % ความน่าจะเป็น และเป็นที่ยอมรับว่าค่านี้เป็นค่าที่ใช้คาดการณ์ยอดขายจริงได้แม่นยำกว่า ความน่าเป็นกำหนดจาก *ขั้นตอนการขาย* ปัจจุบันของข้อตกลง:
   * ลูกค้าเป้าหมาย: 10%  
   * คุณสมบัติ: 20%  
   * วิธีการแก้ไข: 40%  
@@ -40,7 +40,7 @@ ms.locfileid: "73858704"
 
 ## <a name="get-the-sample"></a>รับตัวอย่าง
 
-ก่อนที่คุณสามารถใช้ตัวอย่าง คุณต้องดาวน์โหลดในรูปแบบ[ชุดเนื้อหา](#get-the-content-pack-for-this-sample) [ไฟล์ .pbix](#get-the-pbix-file-for-this-sample) หรือ[เวิร์กบุ๊ก Excel](#get-the-excel-workbook-for-this-sample)
+ก่อนที่คุณสามารถใช้ตัวอย่าง คุณต้องดาวน์โหลดในรูปแบบ[ชุดเนื้อหา](#get-the-content-pack-for-this-sample)[ไฟล์ .pbix](#get-the-pbix-file-for-this-sample) หรือ[เวิร์กบุ๊ก Excel](#get-the-excel-workbook-for-this-sample)
 
 ### <a name="get-the-content-pack-for-this-sample"></a>รับชุดเนื้อหาสำหรับตัวอย่างนี้
 
@@ -66,7 +66,7 @@ ms.locfileid: "73858704"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>รับเวิร์กบุ๊ก Excel สำหรับตัวอย่างนี้
 
-ถ้าคุณต้องการดูแหล่งข้อมูลสำหรับตัวอย่างนี้ ตัวอย่างนี้ยังมีให้ในรูปแบบ[เวิร์กบุ๊ก Excel](https://go.microsoft.com/fwlink/?LinkId=529782) เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน หากต้องการดูข้อมูลดิบ ให้เปิดใช้งาน add-in การวิเคราะห์ข้อมูล แล้วจากนั้นเลือก**Power Pivot > จัดการ** หากต้องการเปิดใช้งาน Power View และ Power Pivot add-in โปรดดทีู่[ดูตัวอย่าง Excel จากใน Excel เอง](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)สำหรับรายละเอียด
+ถ้าคุณต้องการดูแหล่งข้อมูลสำหรับตัวอย่างนี้ ตัวอย่างนี้ยังมีให้ในรูปแบบ[เวิร์กบุ๊ก Excel](https://go.microsoft.com/fwlink/?LinkId=529782) เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน หากต้องการดูข้อมูลดิบ ให้เปิดใช้งาน add-in การวิเคราะห์ข้อมูล แล้วจากนั้นเลือก**Power Pivot > จัดการ** หากต้องการเปิดใช้งาน Power View และ Power Pivot add-in โปรดดู [สำรวจตัวอย่าง Excel ใน Excel ](sample-datasets.md#explore-excel-samples-inside-excel)สำหรับรายละเอียด
 
 ## <a name="what-is-our-dashboard-telling-us"></a>แดชบอร์ดกำลังบอกอะไรแก่เรา
 ผู้จัดการฝ่ายขายของเราได้สร้างแดชบอร์ดเพื่อติดตามเมตริกที่สำคัญที่สุดสำหรับพวกเขา เมื่อพวกเขาเห็นสิ่งใดที่น่าสนใจ พวกเขาสามารถเลือกไทล์เพื่อค้นหาข้อมูลนั้นได้:

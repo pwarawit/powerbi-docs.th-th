@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: aa916afbf439beb7019bd6f0af30cc56ad903704
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207240"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404884"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>บทช่วยสอน: สร้างรายงานแบบแบ่งหน้าและอัปโหลดไปยังบริการของ Power BI
 
@@ -286,7 +286,7 @@ ms.locfileid: "79207240"
 
 ในตอนนี้คุณได้สร้างรายงานแบบแบ่งหน้าแล้ว ได้เวลาอัปโหลดเข้าบริการของ Power BI
 
-1. ในบริการของ Power BI (https://app.powerbi.com) ในหน้าต่างนำทาง ให้เลือก **พื้นที่ทำงาน** > **สร้างพื้นที่ทำงาน**
+1. ในบริการ Power BI (`https://app.powerbi.com`) ในหน้าต่างนำทาง ให้เลือก **พื้นที่ทำงาน** > **สร้างพื้นที่ทำงาน**
 
 2. ตั้งชื่อพื้นที่ทำงานของคุณว่า **Azure AW** หรือชื่อเฉพาะอย่างอื่น ตอนนี้มีเพียงคุณที่เป็นสมาชิก 
 
