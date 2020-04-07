@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/30/2020
-ms.openlocfilehash: ec299ceb5862be3f1e121e0e7d67eca6447f2da6
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b4ed632d6106fa552cebf9837ba238bdc7a4d3f1
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113749"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404833"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>แหล่งข้อมูลที่ได้รับการสนับสนุนสำหรับรายงานที่มีการแบ่งหน้าของ Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "80113749"
 | ชุดข้อมูล Power BI แบบพรีเมียม (XMLA) | SSO |   |
 | ป้อนข้อมูล | N/A | ข้อมูลถูกฝังไว้ในรายงาน |
 
-ยกเว้นสำหรับ Azure SQL Database แหล่งข้อมูลทั้งหมดจะพร้อมใช้งานหลังจากที่คุณอัปโหลดรายงานไปยังบริการของ Power BI แหล่งข้อมูลสามารถข้ามการใช้การลงชื่อเข้าระบบครั้งเดียว (SSO) ได้ตามความเหมาะสม สำหรับ Azure Analysis Services คุณสามารถเปลี่ยนชนิดการรับรองความถูกต้องเป็น OAuth2 ได้
+ยกเว้นสำหรับ Azure SQL Database แหล่งข้อมูลทั้งหมดจะพร้อมใช้งานหลังจากที่คุณอัปโหลดรายงานไปยังบริการของ Power BI แหล่งข้อมูลสามารถข้ามการใช้การลงชื่อเข้าระบบครั้งเดียว (SSO) ได้ตามความเหมาะสม สำหรับ Azure Analysis Services คุณสามารถเปลี่ยนชนิดการรับรองความถูกต้องเป็น OAuth2 ได้ อย่างไรก็ตามเมื่อมีการเปลี่ยนแปลงประเภทการรับรองความถูกต้องสำหรับแหล่งข้อมูลที่กำหนดเป็น OAuth2 จะไม่สามารถแปลงกลับกลับไปใช้ SSO ได้  นอกจากนี้ การเปลี่ยนแปลงนี้ใช้กับรายงานทั้งหมดที่ใช้แหล่งข้อมูลนั้นๆ ในพื้นที่ทำงานทั้งหมดสำหรับผู้เช่าที่กำหนด  การรักษาความปลอดภัยระดับแถวในรายงานแบบแบ่งหน้าจะไม่ทำงานเว้นแต่ว่าผู้ใช้เลือก SSO เป็นประเภทการรับรองความถูกต้อง
 
 สำหรับแหล่งข้อมูล Azure SQL Database คุณจำเป็นต้องใส่ข้อมูลเพิ่มเติมตามที่อธิบายไว้ในส่วน [การรับรองความถูกต้องของ Azure SQL Database](#azure-sql-database-authentication)
 

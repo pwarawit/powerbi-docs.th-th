@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: db988dfd360aae00fed1f6d917376a6ba54f9089
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6b2b457c2df8e37b4fac3108061a325261f5574b
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873221"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487773"
 ---
 # <a name="azure-and-power-bi"></a>Azure และ Power BI
 
@@ -58,7 +58,7 @@ Power BI มีการเชื่อมต่อ Azure ที่พร้อ�
 
 มีข้อมูลจำนวนมากเกี่ยวกับ Power BI API ใน[พอร์ทัลนักพัฒนา Power BI](https://dev.powerbi.com)
 
-สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [นักพัฒนาใช้ Power BI ทำอะไรได้บ้าง](developer/what-can-you-do.md)
+สำหรับข้อมูลเพิ่มเติมดู [Power BI Embedded อะไรใน Azure](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
 
 ## <a name="embed-your-power-bi-data-within-your-app"></a>ฝังข้อมูล Power BI ของคุณไว้ภายในแอป
 

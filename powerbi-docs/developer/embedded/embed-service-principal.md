@@ -1,167 +1,191 @@
 ---
 title: บริการหลักพร้อมด้วย Power BI
-description: เรียนรู้วิธีการลงทะเบียนแอปพลิเคชันภายใน Azure Active Directory โดยใช้บริการหลักสำหรับการใช้งานด้วยการฝังเนื้อหา Power BI
+description: เรียนรู้วิธีการลงทะเบียนแอปพลิเคชันภายใน Azure Active Directory โดยใช้บริการหลักและความลับของแอปพลิเคชัน สำหรับการใช้งานด้วยการฝังเนื้อหา Power BI
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: nishalit
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 12/12/2019
-ms.openlocfilehash: ce72abc3f3b60423344c2b28f39d9bdbfbcee7cd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.date: 03/30/2020
+ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493514"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403452"
 ---
-# <a name="service-principal-with-power-bi"></a>บริการหลักพร้อมด้วย Power BI
+# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>การฝังเนื้อหา Power BI ด้วยบริการหลักและความลับของแอปพลิเคชัน
 
-ด้วย**บริการหลัก**คุณสามารถฝังเนื้อหา Power BI ลงในแอปพลิเคชัน และใช้ระบบอัตโนมัติด้วย Power BI โดยใช้**โทเค็นเฉพาะแอป**ได้ บริการหลักเป็นประโยชน์เมื่อใช้**Power BI Embedded**หรือเมื่อ**ทำให้งานและกระบวนการ Power BI เป็นอัตโนมัติ**
+บริการหลักคือวิธีการรับรองความถูกต้องที่สามารถใช้เพื่ออนุญาตให้แอปพลิเคชัน  Azure AD เข้าถึงเนื้อหาบริการของ Power BI และ API
 
-เมื่อทำงานกับ Power BI Embedded มีประโยชน์เมื่อใช้บริการหลัก ประโยชน์หลักคือ คุณไม่จำเป็นต้องใช้บัญชีหลัก (ใบอนุญาต Power BI ที่จะเป็นเพียงแค่ชื่อผู้ใช้และรหัสผ่านสำหรับลงชื่อเข้าใช้) เพื่อรับรองความถูกต้องในแอปพลิเคชันของคุณ บริการหลักใช้ ID แอปพลิเคชันและข้อมูลลับของแอปพลิเคชันเพื่อรับรองความถูกต้องของแอปพลิเคชัน
+เมื่อคุณสร้างแอป Azure Active Directory (Azure AD)  [วัตถุบริการหลัก](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) จะถูกสร้างขึ้น วัตถุบริการหลัก ซึ่งเป็นที่รู้จักกันว่า *บริการหลัก* จะช่วยให้ Azure AD รับรองความถูกต้องของแอปของคุณ เมื่อรับรองความถูกต้องแล้ว แอปจะสามารถเข้าถึงแหล่งข้อมูลผู้เช่า Azure AD
 
-หากต้องการทำให้ Power BI เป็นอัตโนมัติ คุณสามารถสคริปต์วิธีการประมวลผล และการจัดการบริการหลักเพื่อที่จะปรับขนาด
+ในการรับรองความถูกต้อง บริการหลักจะใช้ *รหัส แอปพลิเคชัน* ของแอป Azure AD และหนึ่งในรายการต่อไปนี้:
+* ข้อมูลลับของแอปพลิเคชัน
+* ใบรับรอง
 
-## <a name="application-and-service-principal-relationship"></a>ความสัมพันธ์ของแอปพลิเคชันและบริการหลัก
+บทความนี้อธิบายการรับรองความถูกต้องของบริการหลักโดยใช้ *รหัสแอปพลิเคชัน* และ *ความลับของแอปพลิเคชัน* ในการรับรองความถูกต้องโดยใช้บริการหลักที่มีใบรับรอง โปรดดู [การรับรองตัวตนยึดตามใบรับรองของ Power BI]()
 
-เมื่อต้องการเข้าถึงแหล่งข้อมูลที่รักษาความปลอดภัยของผู้เช่า Azure AD เอนทิตีที่จำเป็นต้องเข้าถึงจะแสดงหลักเกณฑ์ความปลอดภัย การดำเนินการนี้จะเป็นจริงสำหรับทั้งผู้ใช้ (ผู้ใช้หลัก) และแอปพลิเคชัน (บริการหลัก)
+## <a name="method"></a>วิธี
 
-หลักเกณฑ์ความปลอดภัยจะกำหนดนโยบายการเข้าถึงและสิทธิ์สำหรับผู้ใช้และแอปพลิเคชันในผู้เช่า Azure AD นโยบายการเข้าถึงนี้จะเปิดใช้งานคุณลักษณะหลักเช่น การรับรองความถูกต้องของผู้ใช้และแอปพลิเคชันในระหว่างการลงชื่อเข้าใช้ และการรับรองความถูกต้องในระหว่างการเข้าถึงทรัพยากร สำหรับข้อมูลเพิ่มเติม อ้างอิง[แอปพลิเคชันและบริการหลักใน Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+เมื่อต้องการใช้บริการหลักและรหัสแอปพลิเคชันที่มีการวิเคราะห์แบบฝังตัว ให้ทำตามขั้นตอนเหล่านี้:
 
-เมื่อคุณลงทะเบียนแอปพลิเคชัน Azure AD ในพอร์ทัล Azure จะมีสองออบเจ็กต์ถูกสร้างขึ้นในผู้เช่า Azure AD ของคุณ ได้แก่
+1. สร้าง [แอป Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management)
 
-* [ออบเจ็กต์แอปพลิเคชัน](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#application-object)
-* [ออบเจ็กต์บริการหลัก](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)
+    1. สร้างความลับของแอป Azure AD
+    
+    2. รับ *รหัสแอปพลิเคชัน* และ *ความลับของแอปพลิเคชัน* ของแอป
 
-กำหนดให้ออบเจ็กต์แอปพลิเคชันเป็นงานการนำเสนอ*ทั่วไป*ของแอปพลิเคชันของคุณสำหรับการใช้ข้ามผู้เช่าทั้งหมด และออบเจ็กต์บริการหลักเป็นงานการนำเสนอ*เฉพาะ*สำหรับใช้ในผู้เช่าเฉพาะ
+    >[!NOTE]
+    >ขั้นตอนเหล่านี้จะอธิบายไว้ใน **ขั้นตอนที่ 1** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสร้างแอป Azure AD โปรดดูบทความ [สร้างแอป Azure AD](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
 
-ออบเจ็กต์แอปพลิเคชันทำหน้าที่เป็นเทมเพลตจากที่คุณสมบัติทั่วไปและคุณสมบัติเริ่มต้น*ได้มา*สำหรับใช้ในการสร้างออบเจ็กต์บริการหลักที่สอดคล้องกัน
+2. สร้างกลุ่มความปลอดภัย Azure AD
 
-บริการหลักจำเป็นต้องมีสำหรับผู้เช่าที่มีใช้แอปพลิเคชัน ซึ่งช่วยให้สามารถสร้างข้อมูลประจำตัวสำหรับการเข้าสู่ระบบและการเข้าถึงแหล่งข้อมูลที่มีการรักษาความปลอดภัยโดยผู้เช่า แอปพลิเคชันผู้เช่าเดียวมีเพียงหนึ่งบริการหลัก (ในผู้เช่าหลักของแอปพลิเคชัน) สร้าง และอนุญาตให้ทำสำหรับใช้ระหว่างการลงทะเบียนแอปพลิเคชัน
+3. เปิดใช้งานการตั้งค่าการจัดการบริการของ Power BI
 
-## <a name="service-principal-with-power-bi-embedded"></a>บริการหลักพร้อมด้วย Power BI Embedded
+4. เพิ่มบริการหลักไปยังพื้นที่ทำงานของคุณ
 
-ด้วยบริการหลัก คุณสามารถซ่อนดังกล่าวข้อมูลบัญชีหลักในแอปพลิเคชันของคุณโดยใช้ ID แอปพลิเคชันและข้อมูลลับของแอปพลิเคชัน คุณไม่จำเป็นต้องเข้ารหัสบัญชีหลักตายตัวในแอปพลิเคชันของคุณเพื่อรับรองความถูกต้อง
+5. ฝังเนื้อหาของคุณ
 
-เนื่องจากขณะนี้**Power BI API**และ**Power BI .NET SDK**สนับสนุนการเรียกใช้บริการหลัก คุณสามารถใช้การ[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)ด้วยบริการหลัก ตัวอย่าง คุณสามารถทำการเปลี่ยนแปลงพื้นที่ทำงานเช่น สร้างพื้นที่ทำงาน เพิ่ม หรือเอาผู้ใช้ออกจากพื้นที่ทำงาน และนำเข้าเนื้อหาลงในพื้นที่ทำงาน
+> [!IMPORTANT]
+> เมื่อคุณเปิดใช้งานบริการหลักที่จะใช้กับ Power BI สิทธิ์ AD ของแอปพลิเคชันไม่มีผลบังคับใช้อีกต่อไป มีจัดการสิทธิ์ของแอปพลิเคชันแล้วผ่านทางพอร์ทัลผู้ดูแลระบบ Power BI
 
-คุณสามารถใช้บริการหลักเท่านั้นถ้าอาร์ทิแฟกต์ Power BI และแหล่งข้อมูลของคุณถูกเก็บไว้ใน[พื้นที่ทำงาน Power BI ใหม่](../../service-create-the-new-workspaces.md)ได้
+## <a name="step-1---create-an-azure-ad-app"></a>ขั้นตอนที่ 1 - สร้าง แอป Azure AD
 
-## <a name="service-principal-vs-master-account"></a>บริการหลักเทียบกับบัญชีหลัก
+สร้างแอป Azure AD โดยใช้วิธีใดวิธีหนึ่งต่อไปนี้:
+* สร้างแอปใน [พอร์ทัล Microsoft Azure](https://ms.portal.azure.com/#allservices)
+* สร้างแอปโดยใช้ [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1)
 
-มีความแตกต่างระหว่างการใช้บริการหลักและบัญชีหลักมาตรฐาน (ใบอนุญาต Power BI Pro) สำหรับการรับรองความถูกต้อง ตารางด้านล่างเน้นความแตกต่างที่สำคัญบางอย่าง
+### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>การสร้างแอป Azure AD ในพอร์ทัล Microsoft Azure
 
-| ฟังก์ชัน | บัญชีผู้ใช้หลัก <br> (ใบอนุญาต Power BI Pro) | บริการหลัก <br> (โทเค็นเฉพาะแอปเท่านั้น) |
-|------------------------------------------------------|---------------------|-------------------|
-| สามารถลงชื่อเข้าใช้บริการ Power BI  | ใช่ | ไม่ใช่ |
-| เปิดใช้งานพอร์ทัลผู้ดูแลระบบของ Power BI แล้ว | ไม่ใช่ | ใช่ |
-| [ทำงานร่วมกับพื้นที่ทำงาน (v1)](../../service-create-workspaces.md) | ใช่ | ไม่ใช่ |
-| [ทำงานร่วมกับพื้นที่ทำงานใหม่ (v2)](../../service-create-the-new-workspaces.md) | ใช่ | ใช่ |
-| ต้องเป็นผู้ดูแลระบบพื้นที่ทำงานถ้าใช้กับ Power BI Embedded | ใช่ | ใช่ |
-| สามารถใช้ Power BI REST API | ใช่ | ใช่ |
-| ต้องเป็นผู้ดูแลระบบส่วนกลางเพื่อสร้าง | ใช่ | ไม่ใช่ |
-| สามารถติดตั้งและจัดการเกตเวย์ข้อมูลภายในองค์กร | ใช่ | ไม่ใช่ |
+1. ลงชื่อเข้าใช้ใน [Microsoft Azure](https://ms.portal.azure.com/#allservices)
 
-## <a name="get-started-with-a-service-principal"></a>เริ่มต้นใช้งานด้วยบริการหลัก
+2. ค้นหา **การลงทะเบียนแอป** และคลิกลิงก์ **การลงทะเบียนแอป**
 
-ใกล้เคียงกับการใช้บริการหลัก (โทเค็นเฉพาะแอป) จำเป็นต้องมีสองสามชิ้นแตกต่างกันเมื่อต้องตั้งค่า ซึ่งแตกต่างจากการใช้บัญชีหลักแบบดั้งเดิม เมื่อต้องเริ่มต้นใช้งานด้วยบริการหลัก (โทเค็นเฉพาะแอป) คุณต้องตั้งค่าสภาพแวดล้อมที่เหมาะสม
+    ![ลงทะเบียนแอป azure](media/embed-service-principal/azure-app-registration.png)
 
-1. [ลงทะเบียนแอปพลิเคชันเว็บฝั่งเซิร์ฟเวอร์](register-app.md)ใน Azure Active Directory (AAD) เพื่อใช้กับ Power BI คุณสามารถจับภาพ ID แอปพลิเคชัน ข้อมูลลับของแอปพลิเคชัน และ ID ออบเจ็กต์หลักของบริการหลักเพื่อเข้าถึงเนื้อหา Power BI ของคุณหลังจากลงทะเบียนแอปพลิเคชัน คุณสามารถสร้างบริการหลักด้วย[PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)ได้
+3. คลิก **การลงทะเบียนใหม่**
 
-    ด้านล่างนี้คือตัวอย่างสคริปต์ที่จะสร้างแอปพลิเคชัน Azure Active Directory ใหม่
+    ![การลงทะเบียนใหม่](media/embed-service-principal/new-registration.png)
 
-    ```powershell
-    # The app id - $app.appid
-    # The service principal object id - $sp.objectId
-    # The app key - $key.value
+4. ระบุข้อมูลที่จำเป็น:
+    * **ชื่อ** - กรอกชื่อสำหรับแอปพลิเคชันของคุณ
+    * **ชนิดบัญชีที่ได้รับการสนับสนุน** - เลือกประเภทบัญชีที่ได้รับการสนับสนุน
+    * (ไม่บังคับ) **เปลี่ยนเส้นทาง URI** - กรอก URI ถ้าจำเป็น
 
-    # Sign in as a user that is allowed to create an app.
-    Connect-AzureAD
+5. คลิก **ลงทะเบียน**
 
-    # Create a new AAD web application
-    $app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
+6. หลังจากลงทะเบียนแล้ว *รหัสแอปพลิเคชัน* จะพร้อมใช้งานจากแท็บ **ภาพรวม** คัดลอกและบันทึก *รหัสแอปพลิเคชัน* สำหรับใช้งานในภายหลัง
 
-    # Creates a service principal
-    $sp = New-AzureADServicePrincipal -AppId $app.AppId
+    ![รหัสแอปพลิเคชัน](media/embed-service-principal/application-id.png)
 
-    # Get the service principal key.
-    $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
-    ```
+7. คลิกแท็บ **ใบรับรองและความลับ**
 
-   > [!Important]
-   > เมื่อคุณเปิดใช้งานบริการหลักที่จะใช้กับ Power BI สิทธิ์ AD ของแอปพลิเคชันไม่มีผลบังคับใช้อีกต่อไป มีจัดการสิทธิ์ของแอปพลิเคชันแล้วผ่านทางพอร์ทัลผู้ดูแลระบบ Power BI
+     ![รหัสแอปพลิเคชัน](media/embed-service-principal/certificates-and-secrets.png)
 
-2.  **แนะนำ** - สร้างกลุ่มความปลอดภัยใน Azure Active Directory (AAD) และเพิ่ม[แอปพลิเคชัน](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)ที่คุณสร้างในกลุ่มความปลอดภัยนั้น คุณสามารถสร้างกลุ่มความปลอดภัย AAD ด้วย[PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)ได้
+8. คลิก **ความลับของไคลเอ็นต์ใหม่**
 
-    ด้านล่างเป็นตัวอย่างสคริปต์ในการสร้างกลุ่มความปลอดภัยใหม่และเพิ่มแอปพลิเคชันในกลุ่มความปลอดภัยนั้น
+    ![ความลับของไคลเอ็นต์ใหม่](media/embed-service-principal/new-client-secret.png)
 
-    ```powershell
-    # Required to sign in as a tenant admin
-    Connect-AzureAD
+9. ในหน้าต่าง *เพิ่มความลับของไคลเอ็นต์* กรอกคำอธิบาย ระบุเวลาที่คุณต้องการให้ความลับของไคลเอ็นต์หมดอายุ จากนั้นคลิก **เพิ่ม**
 
-    # Create an AAD security group
-    $group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
+10. คัดลอกและบันทึกค่า *ความลับของไคลเอ็นต์*
 
-    # Add the service principal to the group
-    Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
-    ```
+    ![ความลับของไคลเอ็นต์](media/embed-service-principal/client-secret-value.png)
 
-3. ในฐานะผู้ดูแลระบบ Power BI คุณจำเป็นต้องเปิดใช้งานบริการหลักใน**การตั้งค่านักพัฒนา**ในพอร์ทัลผู้ดูแลระบบ Power BI เพิ่มกลุ่มความปลอดภัยที่คุณสร้างใน Azure AD สำหรับส่วนกลุ่มความปลอดภัยเฉพาะใน**การตั้งค่านักพัฒนา** คุณยังสามารถเปิดใช้สิทธิ์การเข้าถึงโครงร่างสำคัญของบริการสำหรับทั้งองค์กร ในกรณีดังกล่าว ขั้นตอนที่ 2 ไม่จำเป็น
+    >[!NOTE]
+    >หลังจากที่คุณออกจากหน้าต่างนี้ ค่าความลับของไคลเอ็นต์จะถูกซ่อนอยู่และคุณจะไม่สามารถดูหรือคัดลอกอีกครั้งได้
 
-   > [!Important]
-   > โครงร่างสำคัญของบริการสามารถเข้าถึงการตั้งค่าผู้เช่าที่เปิดใช้งานสำหรับทั้งองค์กร หรือเปิดใช้งานสำหรับกลุ่มความปลอดภัยที่มีโครงร่างสำคัญของบริการเป็นส่วนหนึ่งของกลุ่ม เมื่อต้องจำกัดการเข้าถึงโครงร่างสำคัญของบริการไปยังการตั้งค่าผู้เช่าเฉพาะ อนุญาตให้เข้าถึงกลุ่มความปลอดภัยเฉพาะเท่านั้น หรือสร้างกลุ่มความปลอดภัยเฉพาะสำหรับโครงร่างสำคัญของบริการและแยกมันออก
+### <a name="creating-an-azure-ad-app-using-powershell"></a>การสร้างแอป Azure AD โดยใช้ PowerShell
 
-    ![พอร์ทัลผู้ดูแลระบบ](media/embed-service-principal/admin-portal.png)
+ส่วนนี้จะประกอบด้วยสคริปต์ตัวอย่างในการสร้างแอป Azure AD ใหม่โดยใช้ [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0)
 
-4. ตั้งค่า[สภาพแวดล้อม Power BI](embed-sample-for-customers.md#set-up-your-power-bi-environment)ุ ของคุณ
+```powershell
+# The app ID - $app.appid
+# The service principal object ID - $sp.objectId
+# The app key - $key.value
 
-5. เพิ่มบริการหลักเป็น**ผู้ดูแลระบบ**ในพื้นที่ทำงานใหม่ที่คุณสร้างขึ้น คุณสามารถจัดการงานนี้ผ่าน[API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)หรือด้วยบริการของ Power BI ได้
+# Sign in as a user that's allowed to create an app
+Connect-AzureAD
 
-    ![เพิ่มโครงร่างสำคัญของบริการในฐานะผู้ดูแลระบบไปยังพื้นที่ทำงาน](media/embed-service-principal/add-service-principal-in-the-UI.png)
+# Create a new Azure AD web application
+$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
 
-6. ในตอนนี้ เลือกเพื่อฝังเนื้อหาของคุณภายในแอปพลิเคชันตัวอย่าง หรือภายในแอปพลิเคชันของคุณเอง
+# Creates a service principal
+$sp = New-AzureADServicePrincipal -AppId $app.AppId
 
-    * [ฝังเนื้อหาโดยใช้แอปพลิเคชันตัวอย่าง](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-    * [ฝังเนื้อหาภายในแอปพลิเคชันของคุณ](embed-sample-for-customers.md#embed-content-within-your-application)
+# Get the service principal key
+$key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
+```
 
-7. ในตอนนี้คุณพร้อมที่จะ[ย้ายไปยังการผลิต](embed-sample-for-customers.md#move-to-production)แล้ว
+## <a name="step-2---create-an-azure-ad-security-group"></a>ขั้นตอนที่ 2 - สร้างกลุ่มความปลอดภัย Azure AD
 
-## <a name="migrate-to-service-principal"></a>โยกย้ายไปยังบริการหลัก
+บริการหลักของคุณไม่มีสิทธิ์ในการเข้าถึงเนื้อหา Power BI และ API ของคุณ ในการให้สิทธิ์การเข้าถึงบริการหลัก ให้สร้างกลุ่มความปลอดภัยใน Azure AD และเพิ่มบริการหลักที่คุณสร้างไว้ในกลุ่มความปลอดภัยนั้น
 
-คุณสามารถโยกย้ายไปใช้บริการหลักถ้าคุณกำลังใช้บัญชีหลักที่มี Power BI หรือ Power BI Embedded
+มีสองวิธีในการสร้างกลุ่มความปลอดภัยใน Azure AD:
+* ด้วยตนเอง (ใน Azure)
+* ใช้ PowerShell
 
-ทำตามสามขั้นตอนแรกในส่วน[เริ่มต้นใช้งานด้วยบริการหลัก ](#get-started-with-a-service-principal)และเมื่อเสร็จสมบูรณ์ ทำตามข้อมูลด้านล่าง
+### <a name="create-a-security-group-manually"></a>สร้างกลุ่มความปลอดภัยด้วยตนเอง
 
-ถ้าคุณใช้งานอยู่ใน[พื้นที่ทำงานใหม่](../../service-create-the-new-workspaces.md)ใน Power BI แล้ว เพิ่มบริการหลักเป็น**ผู้ดูแลระบบ** ในพื้นที่ทำงานด้วยอาร์ทิแฟกต์ Power BI ของคุณ อย่างไรก็ตาม ถ้าคุณกำลังใช้[พื้นที่ทำงานแบบดั้งเดิม](../../service-create-workspaces.md) คัดลอก หรือย้ายออบเจ็กต์ Power BI และแหล่งข้อมูลของคุณไปยังพื้นที่ทำงานใหม่ และจากนั้นเพิ่มบริการหลักเป็น**ผู้ดูแลระบบ**ในพื้นที่ทำงานเหล่านั้น
+หากต้องการสร้างกลุ่มความปลอดภัยใน Azure ด้วยตนเอง ให้ทำตามคำแนะนำในบทความ [สร้างกลุ่มพื้นฐานและเพิ่มสมาชิกโดยใช้ Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) 
 
-ไม่มีคุณลักษณะ UI ที่จะย้ายอาร์ทิแฟกต์ Power BI และแหล่งข้อมูลจากพื้นที่ทำงานหนึ่งไปอีกที่หนึ่ง ดังนั้นคุณจำเป็นต้องใช้[API](https://powerbi.microsoft.com/pt-br/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/)ในการทำงานนี้ เมื่อใช้ API ด้วยบริการหลัก คุณจำเป็นต้องมี ID ออบเจ็กต์ของบริการหลัก
+### <a name="create-a-security-group-using-powershell"></a>สร้างกลุ่มความปลอดภัยโดยใช้ PowerShell
 
-### <a name="how-to-get-the-service-principal-object-id"></a>วิธีการขอรับ ID ออบเจ็กต์ของบริการหลัก
+ในด้านล่างจะแสดงสคริปต์ตัวอย่างในการสร้างกลุ่มความปลอดภัยใหม่ และการเพิ่มแอปไปยังกลุ่มความปลอดภัยนั้น
 
-เมื่อต้องการกำหนดบริการหลักสำหรับพื้นที่ทำงานใหม่ คุณต้องใช้[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) เมื่อต้องการอ้างอิงบริการหลักสำหรับการดำเนินการ หรือทำการเปลี่ยนแปลงที่คุณใช้ **ID ออบเจ็กต์ของบริการหลัก**— เช่น การใช้บริการหลักเป็นผู้ดูแลระบบในพื้นที่ทำงาน
+>[!NOTE]
+>หากคุณต้องการเปิดใช้สิทธิ์การเข้าถึงบริการหลักสำหรับทั้งองค์กร โปรดข้ามขั้นตอนนี้
 
-ด้านล่างนี้คือขั้นตอนการขอรับ ID ออบเจ็กต์ของบริการหลักจากพอร์ทัล Azure
+```powershell
+# Required to sign in as a tenant admin
+Connect-AzureAD
 
-1. สร้างการลงทะเบียนแอปใหม่ในพอร์ทัล Azure  
+# Create an Azure AD security group
+$group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
 
-2. จากนั้นภายใต้**แอปพลิเคชันที่ได้รับการจัดการในไดเรกทอรีภายในเครื่อง** เลือกชื่อของแอปพลิเคชันที่คุณสร้างขึ้น
+# Add the service principal to the group
+Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
+```
 
-   ![แอปพลิเคชันในไดเรกทอรีภายในเครื่องที่มีการจัดการ](media/embed-service-principal/managed-application-in-local-directory.png)
+## <a name="step-3---enable-the-power-bi-service-admin-settings"></a>ขั้นตอนที่ 3 - เปิดใช้งานการตั้งค่าการจัดการบริการของ Power BI
 
-    > [!NOTE]
-    > Id ออบเจ็กต์ในรูปด้านบนไม่ใช่ออบเจ็กต์ที่ใช้กับบริการหลัก
+เพื่อให้แอป Azure AD สามารถเข้าถึงเนื้อหา Power BI และ API ได้ ผู้ดูแลระบบ Power BI จำเป็นต้องเปิดใช้งานการเข้าถึงบริการหลักในพอร์ทัลผู้ดูแลระบบของ Power BI
 
-3. เลือก**คุณสมบัติ**เพื่อดู ID ของออบเจ็กต์
+เพิ่มกลุ่มความปลอดภัยที่คุณสร้างใน Azure AD สำหรับส่วนกลุ่มความปลอดภัยเฉพาะใน **การตั้งค่านักพัฒนา**
 
-    ![คุณสมบัติของ ID ออบเจ็กต์ของบริการหลัก](media/embed-service-principal/service-principal-object-id-properties.png)
+>[!IMPORTANT]
+>บริการหลักมีสิทธิ์เข้าถึงการตั้งค่าผู้เช่าใดๆ ที่เปิดใช้งานอยู่ โดยจะรวมถึงกลุ่มความปลอดภัยเฉพาะหรือทั้งองค์กร ขึ้นอยู่กับการตั้งค่าผู้ดูแลระบบของคุณ
+>
+>เพื่อจำกัดการเข้าถึงบริการหลักของการตั้งค่าผู้เช่าเฉพาะ จะมีการอนุญาตให้เข้าถึงเพียงกลุ่มความปลอดภัยเฉพาะเท่านั้น อีกวิธีหนึ่งคือคุณสามารถสร้างกลุ่มความปลอดภัยเฉพาะสำหรับบริการหลัก และแยกออกไปจากการตั้งค่าผู้เช่าที่ต้องการได้
 
-ด้านล่างคือตัวอย่างสคริปต์ที่จะเรียกใช้ ID ออบเจ็กต์ของบริการหลักด้วย PowerShell
+![พอร์ทัลผู้ดูแลระบบ](media/embed-service-principal/admin-portal.png)
 
-   ```powershell
-   Get-AzureADServicePrincipal -Filter "DisplayName eq '<application name>'"
-   ```
+## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>ขั้นตอนที่ 4 - เพิ่มบริการหลักเป็นผู้ดูแลระบบในพื้นที่ทำงานของคุณ
+
+ในการเปิดใช้งานการเข้าถึงแอป Azure AD ของคุณ เช่น รายงาน แดชบอร์ด และชุดข้อมูลในบริการ Power BI ให้เพิ่มเอนทิตีบริการหลักเป็นสมาชิกหรือผู้ดูแลระบบในพื้นที่ทำงานของคุณ
+
+>[!NOTE]
+>ส่วนนี้แสดงคำแนะนำของ UI คุณยังสามารถเพิ่มบริการหลักให้กับพื้นที่ทำงานโดยใช้ [กลุ่ม - เพิ่ม API ของผู้ใช้กลุ่ม](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)
+
+1. เลื่อนไปยังพื้นที่ทำงานที่คุณต้องการเปิดใช้งานการเข้าถึง และจากเมนู **เพิ่มเติม** เลือก **การเข้าถึงพื้นที่ทำงาน**
+
+    ![การตั้งค่าพื้นที่ทำงาน](media/embed-service-principal/workspace-access.png)
+
+2. เพิ่มบริการหลักเป็น **ผู้ดูแลระบบ** หรือ **สมาชิก** ในพื้นที่ทำงาน
+
+    ![ผู้ดูแลระบบพื้นที่ทำงาน](media/embed-service-principal/add-service-principal-in-the-UI.png)
+
+## <a name="step-5---embed-your-content"></a>ขั้นตอนที่ 5 - ฝังเนื้อหาของคุณ
+
+คุณสามารถฝังเนื้อหาของคุณภายในแอปพลิเคชันตัวอย่าง หรือภายในแอปพลิเคชันของคุณเอง
+
+* [ฝังเนื้อหาโดยใช้แอปพลิเคชันตัวอย่าง](embed-sample-for-customers.md#embed-content-using-the-sample-application)
+* [ฝังเนื้อหาภายในแอปพลิเคชันของคุณ](embed-sample-for-customers.md#embed-content-within-your-application)
+
+หลังจากที่มีการฝังเนื้อหาของคุณแล้ว คุณก็พร้อมที่จะ [ย้ายไปยังการผลิต](embed-sample-for-customers.md#move-to-production)
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 
@@ -171,14 +195,15 @@ ms.locfileid: "79493514"
 * คุณไม่สามารถลงชื่อเข้าใช้พอร์ทัล Power BI ด้วยบริการหลัก
 * คุณจำเป็นต้องมีสิทธิ์ของผู้ดูแลระบบ Power BI เพื่อเปิดใช้งานบริการหลักในการตั้งค่านักพัฒนาภายในพอร์ทัลผู้ดูแลระบบของ Power BI
 * คุณไม่สามารถติดตั้ง หรือจัดการเกตเวย์ข้อมูลภายในองค์กรโดยใช้บริการหลัก
-* แอปพลิเคชัน[แบบฝังตัวสำหรับองค์กรของคุณ](embed-sample-for-your-organization.md)ไม่สามารถใช้บริการหลักได้
+* แอปพลิเคชัน [แบบฝังตัวสำหรับองค์กรของคุณ](embed-sample-for-your-organization.md) ไม่สามารถใช้บริการหลักได้
 * [Dataflows](../../service-dataflows-overview.md) การจัดการไม่ได้รับการสนับสนุน
 * ปัจจุบัน โครงร่างสำคัญของบริการไม่สนับสนุนผู้ดูแลระบบ APIs
 * เมื่อใช้โครงร่างสำคัญของบริการด้วยแหล่งข้อมูล [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) โครงร่างสำคัญของบริการจะต้องมีสิทธิ์อินสแตนซ์ Azure Analysis Services การใช้กลุ่มความปลอดภัยที่ประกอบด้วยโครงร่างสำคัญของบริการสำหรับวัตถุประสงค์นี้ไม่ได้ผล
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-* [ลงทะเบียนแอป](register-app.md)
 * [Power BI Embedded สำหรับลูกค้าของคุณ](embed-sample-for-customers.md)
-* [แอปพลิเคชันและออบเจ็กต์บริการหลักใน Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
 * [ความปลอดภัยระดับแถวโดยใช้เกตเวย์ข้อมูลภายในองค์กรที่มีโครงร่างสำคัญของบริการ](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+* [การฝังเนื้อหา Power BI ด้วยบริการหลักและใบรับรอง]()

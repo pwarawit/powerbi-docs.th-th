@@ -1,37 +1,37 @@
 ---
-title: เชื่อมต่อกับตัวอย่างบริการ Power BI
-description: เรียนรู้วิธีการติดตั้งและสำรวจตัวอย่างการบริการ Power BI
+title: สำรวจตัวอย่างการวิเคราะห์ด้านการขายปลีก
+description: เรียนรู้วิธีการติดตั้งและสำรวจตัวอย่างการวิเคราะห์ด้านการขายปลีกในบริการของ Power BI และใน Power BI Desktop
 author: maggiesMSFT
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f18ec650167b7872cb332bc9ccd606f7ea1f7500
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762174"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404607"
 ---
-#  <a name="import-and-open-sample-packs-for-power-bi"></a>นำเข้าและเปิดชุดตัวอย่างสำหรับ Power BI
+# <a name="explore-the-retail-analysis-sample"></a>สำรวจตัวอย่างการวิเคราะห์ด้านการขายปลีก
 
 บทช่วยสอนนี้สอนให้คุณรู้จักวิธี: 
 - นำเข้าชุดเนื้อหาตัวอย่าง เพิ่มไปยังบริการ Power BI และเปิดดูเนื้อหา *ชุดเนื้อหา*คือตัวอย่างชนิดหนึ่ง ที่มีการรวมชุดข้อมูลกับแดชบอร์ดและรายงาน 
-- เปิดไฟล์ .pbix ตัวอย่างใน Power BI Desktop
+- เปิดไฟล์ .pbix ตัวอย่างการวิเคราะห์ด้านการขายปลีกใน Power BI Desktop
 
 ถ้าคุณต้องการข้อมูลพื้นหลังเพิ่มเติม ดู [ตัวอย่างชุดข้อมูลสำหรับ Power BI](sample-datasets.md) ในบทความดังกล่าว คุณจะได้เรียนรู้เกี่ยวกับตัวอย่าง วิธีรับตัวอย่างเหล่านั้น พื้นที่ที่จะบันทึก วิธีการใช้งาน และเรื่องราวจากแต่ละตัวอย่าง 
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
-มีตัวอย่างให้สำหรับบริการ Power BI และ Power BI Desktop สำหรับผู้ที่ต้องการทำตาม เราจะใช้ตัวอย่างการวิเคราะห์ด้านการขายปลีก
+มีตัวอย่างให้สำหรับบริการ Power BI และ Power BI Desktop เรากำลังใช้ตัวอย่างการวิเคราะห์ด้านการขายปลีกถ้าคุณต้องการทำตาม
 
 ชุดเนื้อหาตัวอย่างการ*วิเคราะห์ด้านการขายปลีก*ที่ใช้ในบทช่วยสอนนี้ประกอบด้วยแดชบอร์ด รายงาน และชุดข้อมูล
 ทำความคุ้นเคยกับชุดเนื้อหานี้ และสถานการณ์ คุณอาจต้องการชม [ตัวอย่างการวิเคราะห์ด้านการขายปลีกสำหรับ Power BI: ชมการแนะนำ ](sample-retail-analysis.md) ก่อนที่คุณจะเริ่มต้น
 
-## <a name="samples-in-the-power-bi-service"></a>ตัวอย่างในบริการของ Power BI
+## <a name="import-the-sample-in-the-power-bi-service"></a>นำเข้าตัวอย่างในบริการของ Power BI
 
 1. เปิดบริการ Power BI (app.powerbi.com) ลงชื่อเข้าใช้ และเปิดพื้นที่ทำงานที่คุณต้องการบันทึกตัวอย่าง 
 
@@ -94,7 +94,7 @@ ms.locfileid: "75762174"
      
     ![รายงานข้อมูลเชิงลึก](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
-## <a name="samples-in-power-bi-desktop"></a>ตัวอย่างใน Power BI Desktop: 
+## <a name="download-the-sample-in-power-bi-desktop"></a>ดาวน์โหลดตัวอย่างใน Power BI Desktop 
 เมื่อคุณเริ่มเปิดไฟล์ .pbix ตัวอย่าง ใน Power BI Desktop จะแสดงในมุมมองรายงาน ที่คุณสามารถสำรวจ สร้าง และปรับเปลี่ยนตัวเลขใด ๆ ของหน้ารายงานที่มีการแสดงผลเป็นภาพ มุมมองรายงาน ออกแบบให้ได้ประสบการณ์แบบเดียวกับ มุมมองการแก้ไขรายงาน ในบริการ Power BI คุณสามารถย้ายการแสดงภาพไปรอบ ๆ คัดลอกและวาง ผสาน และอื่น ๆ 
 
 ซึ่งต่างจากการแก้ไขในบริการ Power BI ใน Power BI Desktop คุณสามารถทำงานกับคิวรีของคุณ และสร้างแบบจำลองข้อมูลของคุณ เพื่อให้แน่ใจว่า ข้อมูลรองรับข้อมูลเชิงลึกที่ดีที่สุดในรายงานของคุณ จากนั้นคุณสามารถบันทึกไฟล์ Power BI Desktop ของคุณเมื่อใดก็ตามที่คุณต้องการ ไม่ว่าจะบันทึกลงไดรฟ์ในเครื่อง หรือคลาวด์

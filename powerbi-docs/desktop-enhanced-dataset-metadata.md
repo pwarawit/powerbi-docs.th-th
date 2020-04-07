@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3812f16489d304912ec9574352897e1effb29d4a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201412"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464634"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>การใช้เมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้ว (ตัวอย่าง)
 
@@ -24,6 +24,8 @@ ms.locfileid: "79201412"
 
 
 คุณลักษณะ**เมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้ว**เป็นข้อมูลเชิงกลยุทธ์และพื้นฐาน เนื่องจากฟังก์ชัน Power BI ในอนาคตจะสร้างขึ้นตามเมตาดาต้าของฟังก์ชันดังกล่าว ความสามารถเพิ่มเติมบางอย่างที่จะได้รับประโยชน์จากเมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้วรวมถึง [อ่าน/เขียน XMLA](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite) สำหรับการจัดการของชุดข้อมูล Power BI และการย้ายปริมาณงาน Analysis Services ไปยัง Power BI เพื่อให้ได้ประโยชน์จากคุณลักษณะที่พัฒนาขึ้นใหม่
+
+
 
 ## <a name="enable-enhanced-dataset-metadata"></a>เปิดใช้งานเมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้ว
 
@@ -36,6 +38,9 @@ ms.locfileid: "79201412"
 ![พร้อมท์แจ้งให้รีสตาร์ท](media/desktop-enhanced-dataset-metadata/enhanced-dataset-metadata-02.png)
 
 เมื่อเปิดใช้งานคุณลักษณะตัวอย่าง Power BI Desktop พยายามอัปเกรดไฟล์ PBIX และ PBIT ที่ใช้รูปแบบเมตาดาต้าก่อนหน้า 
+
+> [!IMPORTANT]
+> การเปิดใช้งานคุณลักษณะ **เมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้ว** ส่งผลในการอัปเกรดที่ย้อนกลับไม่ได้ในรายงาน รายงาน Power BI ใดๆ ที่โหลดหรือสร้างขึ้นด้วย Power BI Desktop เมื่อมีการเปิดใช้งาน **เมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้ว** รายงานนั้นจะถูกแปลงกลับไปเป็นเมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้ว
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 

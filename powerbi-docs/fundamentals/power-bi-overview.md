@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114971"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487747"
 ---
 # <a name="what-is-power-bi"></a>Power BI คืออะไร
 **Power BI** คือคอลเลกชันของบริการซอฟต์แวร์ แอป และตัวเชื่อมต่อที่ทำงานร่วมกันเพื่อเปลี่ยนแหล่งข้อมูลที่ไม่เกี่ยวข้องของคุณให้เป็นข้อมูลเชิงลึกที่สอดคล้องกัน แสดงข้อมูลได้ และโต้ตอบได้ ข้อมูลของคุณอาจเป็นสเปรดชีต Excel หรือคอลเลกชันของระบบ Cloud และคลังข้อมูลแบบไฮบริดภายในองค์กร Power BI ช่วยให้คุณเชื่อมต่อกับแหล่งข้อมูลของคุณ แสดงภาพและค้นพบเรื่องสำคัญ รวมถึงแชร์สิ่งเหล่านั้นกับบุคคลหรือทุกคนที่คุณต้องการได้อย่างง่ายดาย
@@ -44,8 +44,12 @@ Power BI ประกอบด้วย:
 สำรวจเอกสารประกอบที่เหมาะสมกับบทบาทของคุณ:
 - Power BI Desktop สำหรับ[*นักออกแบบ*](../desktop-what-is-desktop.md)
 - Power BI สำหรับ [*ผู้บริโภค*](../consumer/end-user-consumer.md)
-- Power BI สำหรับ [*นักพัฒนา*](../developer/what-can-you-do.md)
 - Power BI สำหรับ [*ผู้ดูแลระบบ*](../service-admin-administering-power-bi-in-your-organization.md)
+- Power BI สำหรับ *นักพัฒนา*
+    * [การวิเคราะห์แบบฝังตัวด้วย Power BI](../developer/embedded/embedding.md)
+    * [Power BI อะไรที่ถูกฝังอยู่ใน Azure?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
+    * [วิชวลใน Power BI](../developer/visuals/power-bi-custom-visuals.md)
+    * [นักพัฒนาสามารถทำอะไรด้วย API ของ Power BI ได้บ้าง](../developer/automation/overview-of-power-bi-rest-api.md)
 
 ## <a name="the-flow-of-work-in-power-bi"></a>ลำดับการทำงานใน Power BI
 ลำดับการทำงานทั่วไปใน Power BI เริ่มจากการเชื่อมต่อกับแหล่งข้อมูล และสร้างรายงานใน Power BI Desktop จากนั้นคุณจึงเผยแพร่รายงานนั้นจาก Power BI Desktop ไปยัง บริการของ Power BI และแชร์เพื่อให้ผู้ใช้ปลายทางในบริการของ Power BI และอุปกรณ์เคลื่อนที่ สามารถดู และโต้ตอบกับรายงานได้

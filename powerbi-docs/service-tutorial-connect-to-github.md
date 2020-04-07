@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871252"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403407"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>บทช่วยสอน: เชื่อมต่อกับพื้นที่เก็บของ GitHub ด้วย Power BI
 ในบทช่วยสอนนี้ คุณจะเชื่อมต่อกับข้อมูลจริงในบริการ GitHub ด้วย Power BI และ Power BI จะสร้างแดชบอร์ดและรายงานโดยอัตโนมัติ คุณเชื่อมต่อกับพื้นที่เก็บสาธารณะสำหรับเนื้อหาของ Power BI (หรือที่เรียกว่า *repo*) และดูคำตอบของคำถามเช่น: มีบุคคลกี่คนให้การสนับสนุนเนื้อหาสาธารณะของ Power BI ใครให้การสนับสนุนมากที่สุด วันใดในสัปดาห์ที่มีการสนับสนุนมากที่สุด และคำถามอื่นๆ 
@@ -43,7 +43,7 @@ ms.locfileid: "73871252"
 
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
-1. ลงชื่อเข้าใช้บริการ Power BI (https://app.powerbi.com) 
+1. ลงชื่อเข้าใช้บริการ Power BI (`https://app.powerbi.com`) 
 2. ในบานหน้าต่างนำทาง > เลือก**แอป** จากนั้นเลือก **รับแอป**
    
    ![รับแอปใน Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
@@ -64,7 +64,7 @@ ms.locfileid: "73871252"
 
 5. ป้อนข้อมูลประจำตัว GitHub ที่คุณสร้างขึ้น Power BI อาจข้ามขั้นตอนนี้ ถ้าคุรลงชื่อเข้าใช้ GitHub ในเบราว์เซอร์ของคุณ 
 
-6. สำหรับ**วิธีการรับรองความถูกต้อง** ให้เลือก **oAuth2** \> **ลงชื่อเข้าใช้**
+6. สำหรับ**วิธีการรับรองความถูกต้อง** ให้เลือก **oAuth2**\>**ลงชื่อเข้าใช้**
 
 7. ทำตามหน้าจอการรับรองความถูกต้องของ GitHub มอบสิทธิ์ Power BI ให้กับข้อมูล GitHub
    
@@ -124,7 +124,7 @@ ms.locfileid: "73871252"
 
     คุณจะเห็นว่าวันอังคารเวลาบ่าย 3 คือเวลาและวันในสัปดาห์ที่มีการ *ยอมรับ* มากที่สุด เมื่อผู้ใช้เช็คอินงานของพวกเขา
 
-## <a name="clean-up-resources"></a>เพิ่มพื้นที่ทรัพยากร
+## <a name="clean-up-resources"></a>ล้างแหล่งข้อมูล
 
 ในตอนนี้ คุณสำเร็จบทช่วยสอนแล้ว คุณสามารถลบแอป GitHub ได้ 
 

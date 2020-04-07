@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: eac1c22ba23f7a1a67b2cc120fe38d4c396d864a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207493"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404705"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการวิเคราะห์ด้านการขายปลีก - Power BI: ชมการแนะนำ
 
-ชุดเนื้อหาตัวอย่างการวิเคราะห์การขายปลีกประกอบด้วยแดชบอร์ด รายงาน และชุดข้อมูลที่วิเคราะห์ข้อมูลการขายปลีกของสินค้าที่ขายในหลายร้านค้าและเขต เมตริกจะเปรียบเทียบประสิทธิภาพของปีนี้กับปีที่แล้วในด้านยอดขาย อัตราส่วนกำไรขั้นต้น และผลต่าง และการวิเคราะห์ร้านค้าใหม่ 
+ชุดเนื้อหาตัวอย่างการวิเคราะห์การขายปลีกประกอบด้วยแดชบอร์ด รายงาน และชุดข้อมูลที่วิเคราะห์ข้อมูลการขายปลีกของสินค้าที่ขายในหลายร้านค้าและเขต The metrics compare this year's performance to last year's for sales, units, gross margin, and variance, as well as new-store analysis. 
 
 ![แดชบอร์ดของตัวอย่างการวิเคราะห์การค้าปลีก](media/sample-retail-analysis/retail1.png)
 
@@ -57,7 +57,7 @@ ms.locfileid: "79207493"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>รับเวิร์กบุ๊ก Excel สำหรับตัวอย่างนี้
 
-ถ้าคุณต้องการดูแหล่งข้อมูลสำหรับตัวอย่างนี้ ตัวอย่างนี้ยังมีให้ในรูปแบบ[เวิร์กบุ๊ก Excel](https://go.microsoft.com/fwlink/?LinkId=529778) เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน หากต้องการดูข้อมูลดิบ ให้เปิดใช้งาน add-in การวิเคราะห์ข้อมูล แล้วจากนั้นเลือก**Power Pivot > จัดการ** หากต้องการเปิดใช้งาน Power View และ Power Pivot add-in โปรดดทีู่[ดูตัวอย่าง Excel จากใน Excel เอง](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)สำหรับรายละเอียด
+ถ้าคุณต้องการดูแหล่งข้อมูลสำหรับตัวอย่างนี้ ตัวอย่างนี้ยังมีให้ในรูปแบบ[เวิร์กบุ๊ก Excel](https://go.microsoft.com/fwlink/?LinkId=529778) เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน หากต้องการดูข้อมูลดิบ ให้เปิดใช้งาน add-in การวิเคราะห์ข้อมูล แล้วจากนั้นเลือก**Power Pivot > จัดการ** หากต้องการเปิดใช้งาน Power View และ Power Pivot add-in โปรดดู [สำรวจตัวอย่าง Excel ใน Excel ](sample-datasets.md#explore-excel-samples-inside-excel)สำหรับรายละเอียด
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>เริ่มต้นที่แดชบอร์ดและเปิดรายงาน
 
@@ -136,7 +136,7 @@ ms.locfileid: "79207493"
 
    ![Allan Guinot และ Womens-10 ที่เลือก](media/sample-retail-analysis/power-bi-allan.png)
 
-   โปรดสังเกตว่าสำหรับหมวดหมู่ Womens-10 เขตของ Allan ไม่ตรงกับปริมาณของปีที่แล้ว
+   Notice that for the Womens-10 category, Allan's district didn't meet last year's volume.
 3. สำรวจผู้จัดการเขตอื่นและสินค้าหมวดอื่น ข้อมูลเชิงลึกอื่น ๆ ที่คุณสามารถค้นหาได้ มีอะไรบ้าง?
 4. เมื่อคุณพร้อมแล้ว ให้ย้อนกลับไปยังแดชบอร์ด
 

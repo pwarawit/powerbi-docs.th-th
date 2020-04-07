@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873853"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404663"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>ตัวอย่างการวิเคราะห์การจัดซื้อสำหรับ Power BI: ชมการแนะนำ
 
-ชุดเนื้อหาตัวอย่างการวิเคราะห์การจัดซื้อประกอบด้วยแดชบอร์ด รายงาน และชุดข้อมูลที่วิเคราะห์ค่าใช้จ่ายเกี่ยวกับผู้จัดจำหน่ายของบริษัทผลิตตามประเภทและตำแหน่งที่ตั้ง ในตัวอย่าง เราสำรวจด้านต่าง ๆ เหล่านี้:
+ชุดเนื้อหาตัวอย่างการวิเคราะห์การจัดซื้อประกอบด้วยแดชบอร์ด รายงาน และชุดข้อมูลที่วิเคราะห์ค่าใช้จ่ายเกี่ยวกับผู้จัดจำหน่ายของบริษัทผู้ผลิตตามประเภทและตำแหน่งที่ตั้ง ในตัวอย่าง เราสำรวจด้านต่าง ๆ เหล่านี้:
 
 * ใครคือผู้จัดจำหน่ายที่ติดอันดับสูงสุด
 * ค่าใช้จ่ายประเภทใดที่เราจ่ายมากที่สุด
@@ -61,7 +61,7 @@ ms.locfileid: "73873853"
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>รับเวิร์กบุ๊ก Excel สำหรับตัวอย่างนี้
 
-ถ้าคุณต้องการดูแหล่งข้อมูลสำหรับตัวอย่างนี้ ตัวอย่างนี้ยังมีให้ในรูปแบบ[เวิร์กบุ๊ก Excel](https://go.microsoft.com/fwlink/?LinkId=529784) เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน หากต้องการดูข้อมูลดิบ ให้เปิดใช้งาน add-in การวิเคราะห์ข้อมูล แล้วจากนั้นเลือก**Power Pivot > จัดการ** หากต้องการเปิดใช้งาน Power View และ Power Pivot add-in โปรดดทีู่[ดูตัวอย่าง Excel จากใน Excel เอง](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)สำหรับรายละเอียด
+ถ้าคุณต้องการดูแหล่งข้อมูลสำหรับตัวอย่างนี้ ตัวอย่างนี้ยังมีให้ในรูปแบบ[เวิร์กบุ๊ก Excel](https://go.microsoft.com/fwlink/?LinkId=529784) เวิร์กบุ๊กประกอบด้วยแผ่นงาน Power View ที่คุณสามารถดู และปรับเปลี่ยน หากต้องการดูข้อมูลดิบ ให้เปิดใช้งาน add-in การวิเคราะห์ข้อมูล แล้วจากนั้นเลือก**Power Pivot > จัดการ** หากต้องการเปิดใช้งาน Power View และ Power Pivot add-in โปรดดู [สำรวจตัวอย่าง Excel ใน Excel ](sample-datasets.md#explore-excel-samples-inside-excel)สำหรับรายละเอียด
 
 
 ## <a name="spending-trends"></a>แนวโน้มค่าใช้จ่าย

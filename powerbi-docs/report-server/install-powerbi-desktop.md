@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381134"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404176"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
 
@@ -62,7 +62,7 @@ ms.locfileid: "79381134"
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 
-รายงาน Power BI ในเซิร์ฟเวอร์รายงาน Power BI ในบริการของ Power BI (https://app.powerbi.com) และในแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ทำงานได้เกือบจะเหมือนกัน แต่จะมีบางคุณลักษณ์ที่แตกต่างกัน
+รายงาน Power BI ในเซิร์ฟเวอร์รายงาน Power BI ในบริการของ Power BI (`https://app.powerbi.com`) และในแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ทำงานในลักษณะที่ใกล้เคียงกัน  แต่จะมีบางคุณลักษณ์ที่แตกต่างกัน
 
 ### <a name="selecting-a-language"></a>การเลือกภาษา
 
