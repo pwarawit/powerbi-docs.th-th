@@ -9,18 +9,16 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 5ef6068135e8adcbfd242ca4a6491396101d214e
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78923022"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621529"
 ---
 # <a name="power-bi-report-builder"></a>ตัวสร้างรายงานใน Power BI
 
  ตัวสร้างรายงานใน Power BI เป็นเครื่องมือสำหรับเขียนรายงานแบบแบ่งหน้า  เมื่อคุณออกแบบรายงานที่มีการแบ่งหน้า คุณกำลังสร้างข้อกำหนดของรายงานที่ระบุว่าจะเรียกใช้ข้อมูลใด สถานที่เรียก และวิธีแสดงข้อมูลดังกล่าว เมื่อคุณเรียกดูรายงาน ตัวประมวลผลรายงานจะใช้ข้อกำหนดของรายงานที่คุณได้ระบุไว้ ดึงเอาข้อมูลนั้นมา แล้วรวมเข้ากับเค้าโครงรายงานเพื่อสร้างรายงานขึ้น คุณดูรายงานของคุณได้ก่อนในตัวสร้างรายงาน จากนั้น คุณจะเผยแพร่รายงานไปยังบริการของ Power BI
-
-ลองใช้[ห้องปฏิบัติการแบบลงมือทำ: สร้างรายงานที่มีการแบ่งหน้า Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 
 คุณอยากเรียนรู้จากวิดิโอมากกว่าใช่ไหม ตรวจสอบรายงานที่มีเลขหน้าซีรี่ส์วิดีโอของ Power BI บน ยูปทูปโดยคริส ฟินแลน ผู้จัดการโครงการ Power BI
 
@@ -30,13 +28,13 @@ ms.locfileid: "78923022"
 
 ![รายงานแบบแบ่งหน้าในบริการของ Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-##  <a name="JumpStartReptCreation"></a> การสร้างรายงานอย่างรวดเร็ว  
+##  <a name="jump-start-report-creation"></a><a name="JumpStartReptCreation"></a> การสร้างรายงานอย่างรวดเร็ว  
  
 -   **เริ่มต้นด้วยตาราง, เมทริกซ์หรือตัวช่วยสร้างแผนภูมิ** สร้างการเชื่อมต่อแหล่งข้อมูล ลากฟิลด์และวางลงเพื่อสร้างคิวรีชุดข้อมูล เลือกเค้าโครงและสไตล์ แล้วปรับแต่งรายงานของคุณ  
   
 -   **เริ่มด้วยตัวช่วยสร้างแผนที่** คุณสามารถสร้างรายงานที่แสดงข้อมูลรวมกับพื้นหลังทางภูมิศาสตร์หรือเรขาคณิตได้ ข้อมูลแผนที่อาจเป็นข้อมูลเชิงพื้นที่ที่ได้จากคิวรี Transact-SQL หรือจาก Environmental Systems Research Institute, Inc. แฟ้มเชปไฟล์ (ESRI) คุณยังสามารถเพิ่มพื้นหลังไทล์แผนที่ของ Microsoft Bing ได้  
 
-##  <a name="DesignRept"></a> ออกแบบรายงานของคุณ  
+##  <a name="design-your-report"></a><a name="DesignRept"></a> ออกแบบรายงานของคุณ  
   
 -   **สร้างรายงานแบบแบ่งหน้าด้วยตาราง เมทริกซ์ แผนภูมิ และเค้าโครงรายงานแบบอิสระ** สร้างรายงานแบบตารางสำหรับข้อมูลจากคอลัมน์ รายงายเมทริกซ์ (เช่น รายงานแบบตารางไขว้หรือ PivotTable) สำหรับข้อมูลสรุป รายงานแผนภูมิสำหรับข้อมูลกราฟิก และรายงานแบบอิสระสำหรับข้อมูลอย่างอื่น รายงานสามารถฝังรายงานและแผนภูมิอื่นๆ พร้อมด้วยรายการ กราฟิก และการควบคุมสำหรับโปรแกรมประยุกต์บนเว็บแบบไดนามิก  
   
@@ -52,7 +50,7 @@ ms.locfileid: "78923022"
   
 -   **รูปภาพฝังหรือรูปภาพอ้างอิง**และทรัพยากรอื่นๆ รวมทั้งเนื้อหาจากภายนอก  
   
-##  <a name="ManageRpt"></a> จัดการรายงานของคุณ  
+##  <a name="manage-your-report"></a><a name="ManageRpt"></a> จัดการรายงานของคุณ  
   
 -   **บันทึกคำอธิบายของรายงาน** ลงบนคอมพิวเตอร์ของคุณ หรือเซิร์ฟเวอร์รายงาน ที่คุณสามารถจัดการได้และแบ่งปันกับผู้อื่น  
   
@@ -63,5 +61,4 @@ ms.locfileid: "78923022"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](paginated-reports-report-builder-power-bi.md)
-- ลองใช้[ห้องปฏิบัติการแบบลงมือทำ: สร้างรายงานที่มีการแบ่งหน้า Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 - ชม [รายงานที่มีเลขหน้า Power BI ](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) บนยูธูป โดยผู้จัดการโปรแกรมหลัก Power BI คริส ฟินแลน

@@ -1,19 +1,19 @@
 ---
 title: คำแนะนำในการวางแผนความจุสำหรับเวอร์รายงาน Power BI
 description: เอกสารนี้มีคำแนะนำเกี่ยวกับการวางแผนความจุสำหรับเวอร์รายงาน Power BI โดยการแชร์ผลลัพธ์ของการโหลดทดสอบมีการดำเนินการของปริมาณงานต่าง ๆ
-author: parthsha
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 3/5/2018
-ms.author: parshah
-ms.openlocfilehash: 8b30089fe04c832734bd418cc58fabb7b574a082
-ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
+ms.date: 04/02/2020
+ms.author: maggies
+ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
+ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80361775"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80647665"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>คำแนะนำในการวางแผนความจุสำหรับเวอร์รายงาน Power BI
 เซิร์ฟเวอรรายงาน์ power BI เป็นแบบบริการตนเอง BI และเป็นโซลูชันการรายงานสำหรับองค์กรธุรกิจ ซึ่งลูกค้าสามารถปรับใช้ภายในองค์กรหลังไฟร์วอลล์ของพวกเขา ได้ จะรวมความสามารถในการรายงานแบบโต้ตอบของ Power BI Desktop ด้วยแพลตฟอร์มที่เซิร์ฟเวอร์ภายในองค์กรของ SQL Server Reporting Services ด้วยน้ำหนักและการเติบโตของการใช้งานของการวิเคราะห์และการรายงานภายในองค์กร การจัดทำงบประมาณฮาร์ดแวร์โครงสร้างพื้นฐานและลิขสิทธิ์ซอฟต์แวร์จึงถูกใช้งาน เพื่อขยายไปยังฐานผู้ใช้แบบองค์กร ซึ่งเป็นเรื่องท้าทายยิ่งนัก เอกสารนี้มีวัตถุประสงค์เพื่อเสนอคำแนะนำเกี่ยวกับการวางแผนความจุสำหรับเซิร์ฟเวอร์รายงาน Power BI โดยแบ่งปันผลลัพธ์การดำเนินการทดสอบการโหลดจำนวนมากของปริมาณงานต่าง ๆ กับเซิร์ฟเวอร์รายงาน ในขณะที่รายงาน คิวรี และการใช้รูปแบบขององค์กรแตกต่างกันอย่างกว้างขวาง ผลลัพธที่์แสดงอยู่ในเอกสารนี้ พร้อมกับการทดสอบจริงที่ใช้และอธิบายโดยละเอียดเกี่ยวกับวิธี่ดำเนินการ ทำหน้าที่เป็นจุดอ้างอิงสำหรับทุกคน ในช่วงต้นของขั้นตอนการวางแผนเพื่อใช้เซิร์ฟเวอร์รายงาน Power BI
@@ -90,22 +90,6 @@ ms.locfileid: "80361775"
 | --- | --- | --- |
 | **Power BI Report Heavy** |ผู้ใช้ 1000 ราย |ผู้ใช้ 3000 ราย |
 | **Paginated Report Heavy** |ผู้ใช้ 2000 ราย |ผู้ใช้ 3,200 ราย |
-
-### <a name="view-results"></a>ดูผลลัพธ์
-เลือกรายงานเพื่อดูผลลัพธ์ของการทดสอบการโหลด
-
-| ปริมาณงาน | 8 Core/32 GB | 16 Core/64 GB |
-| --- | --- | --- |
-| **Power BI Report Heavy** |[มุมมอง 8 core](https://msit.powerbi.com/view?r=eyJrIjoiMDhhNGY4NGQtNGRhYy00Yzk4LTk2MzAtYzFlNWI5NjBkMGFiIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |[มุมมอง 16 core](https://msit.powerbi.com/view?r=eyJrIjoiNDBiODk1OGUtYTAyOC00MzVhLThmZmYtNzVjNTFjNzMwYzkwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |
-| **Paginated Report Heavy** |[มุมมอง 8 core](https://msit.powerbi.com/view?r=eyJrIjoiNDFiZWYzMTktZGIxNS00MzcwLThjODQtMmJkMGRiZWEzNjhlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |[มุมมอง 16 core](https://msit.powerbi.com/view?r=eyJrIjoiOTU0YjJkYTgtNDg4Yy00NzlhLWIwMGYtMzg4YWI2MjNmOTZjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiMDhhNGY4NGQtNGRhYy00Yzk4LTk2MzAtYzFlNWI5NjBkMGFiIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiNDBiODk1OGUtYTAyOC00MzVhLThmZmYtNzVjNTFjNzMwYzkwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiNDFiZWYzMTktZGIxNS00MzcwLThjODQtMmJkMGRiZWEzNjhlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiOTU0YjJkYTgtNDg4Yy00NzlhLWIwMGYtMzg4YWI2MjNmOTZjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
 
 ## <a name="summary"></a>สรุป
 สำหรับแต่ละทดสอบการโหลดที่ทำ CPU ใช้ทรัพยากรมากที่สุดตรงจุดโหลดสูงสุดบนเครื่องเซิร์ฟเวอร์รายงาน Power BI เนื่องจากนี่ ทรัพยากรแรกที่ต้องการเพิ่มคือจำนวนของ core อีกวิธีหนึ่งคือ คุณสามารถพิจารณาขยาย โดยการเพิ่มโฮสต์เซิร์ฟเวอร์รายงาน Power BI ในโทโพโลยีของคุณ

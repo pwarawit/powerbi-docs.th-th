@@ -8,20 +8,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 7ab9ac60e416502f69401fcea87a697f53176448
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 924c2850efe1e9e09a8f6f350be616695ab061ea
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404783"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621548"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร
 
 รายงานแบบแบ่งหน้า ในรูปแบบรายงานมาตรฐานใน SQL Server Reporting Services พร้อมใช้งานในบริการของ Power BI แล้ว รายงานเหล่านี้สามารถพิมพ์หรือแชร์ได้ ซึ่งเรียกว่า "แบบแบ่งหน้า" เนื่องจากมีการจัดรูปแบบให้พอดีกับหน้า โดยกำหนดให้แสดงข้อมูลทั้งหมดในตาราง แม้ว่าตารางนั้นต้องใช้พื้นที่หลายหน้า บางครั้งก็เรียกว่า "พิกเซลสมบูรณ์แบบ" เพราะคุณสามารถควบคุมเค้าโครงหน้าของรายงานได้เต็มที่ รายงานแบบแบ่งหน้านั้นมาจากเทคโนโลยีรายงาน RDL ใน SQL Server Reporting Services ตัวสร้างรายงานเป็นเครื่องมือแบบเดี่ยวเพื่อใช้เขียนรายงานแบบแบ่งหน้า 
 
 รายงานแบบแบ่งหน้าสามารถมีหลายหน้าได้ ตัวอย่าง รายงานฉบับนี้มี 563 หน้า แต่ละหน้ามีรูปแบบเหมือนกัน โดยใช้หนึ่งหน้าต่อใบแจ้งหนี้หนึ่งใบ และมีส่วนหัวกับส่วนท้ายหน้าซ้ำกัน
-
-ลองใช้[ห้องปฏิบัติการแบบลงมือทำ: สร้างรายงานที่มีการแบ่งหน้า Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 
 ![มีการแบ่งหน้า](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
@@ -87,5 +85,4 @@ ms.locfileid: "80404783"
 - [ติดตั้งตัวสร้างรายงาน Power BI จากศูนย์ดาวน์โหลด Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [บทช่วยสอน: สร้างรายงานที่มีการแบ่งหน้า](paginated-reports-quickstart-aw.md)
 - [ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรง](paginated-reports-enter-data.md)
-- [ห้องปฏิบัติการแบบลงมือทำ: สร้างรายงานที่มีการแบ่งหน้า Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 - [บทช่วยสอน: ฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันสำหรับลูกค้าของคุณ](../developer/embed-paginated-reports-customers.md)

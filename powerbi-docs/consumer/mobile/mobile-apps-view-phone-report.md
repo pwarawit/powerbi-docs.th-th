@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 1db56c2844d217bf6bff633609893e5a97a6dae5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114883"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802150"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>ดูรายงาน Power BI ที่ปรับให้เหมาะสมกับมือถือของคุณ
 
@@ -39,10 +39,11 @@ ms.locfileid: "79114883"
 ## <a name="filter-the-report-page-on-a-phone"></a>กรองหน้ารายงานบนมือถือของคุณ
 ถ้ารายงานที่ปรับให้เหมาะสมกับมือถือ มีตัวกรองกำหนดไว้ เมื่อคุณดูรายงานนั้นบนมือถือของคุณ คุณสามารถใช้ตัวกรองเหล่านั้น ระบบจะเปิดรายงานในมือถือของคุณโดยกรองรายงานตามค่าของรายงานในเว็บ คุณจะเห็นข้อความที่บอกว่า มีตัวกรองที่ใช้งานอยู่บนหน้านั้น คุณสามารถเปลี่ยนตัวกรองบนมือถือของคุณ
 
-1. แตะไอคอนตัวกรอง ![ไอคอนตัวกรองมือถือ](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) ที่ด้านล่างของหน้า 
+1. แตะไอคอนตัวกรอง ![ไอคอนตัวกรองมือถือ](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) ที่ด้านล่างของหน้า
+
 2. ใช้การกรองพื้นฐานหรือขั้นสูง เพื่อดูผลลัพธ์ที่คุณสนใจ
    
-    ![ตัวกรองขั้นสูงของรายงานบนมือถือของ Power BI](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
+    ![ตัวกรองขั้นสูงของรายงานบนมือถือของ Power BI](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.png)
 
 ## <a name="cross-highlight-visuals"></a>การไฮไลต์เชื่อมโยงวิชวล
 การไฮไลต์เชื่อมโยงการแสดงผลด้วยภาพในมุมมองแนวตั้งจะทำงานเช่นเดียวกันกับในบริการของ Power BI และบนมือถือในมุมมองแนวนอน: เมื่อคุณเลือกข้อมูลในวิชวลหนึ่ง วิชวลจะเน้นข้อมูลที่เกี่ยวข้องกันในวิชวลอื่นบนหน้านั้น
