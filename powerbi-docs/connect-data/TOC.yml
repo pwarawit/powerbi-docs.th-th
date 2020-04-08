@@ -254,8 +254,14 @@
           items:
             - name: เชื่อมต่อกับเซิร์ฟเวอร์ด้วยแอป
               href: ../service-connect-to-services.md
+            - name: รายงานการติดตาม COVID-19 ในสหรัฐอเมริกา
+              href: service-connect-to-covid-19-tracking.md
+            - name: รายงานสภาพการณ์การสื่อสารในภาวะวิกฤติ
+              href: service-connect-to-crisis-communication-presence-report.md
             - name: GitHub
               href: ../service-connect-to-github.md
+            - name: แดชบอร์ดการสนับสนุนการตัดสินใจเกี่ยวกับการตอบสนองต่อสภาวะฉุกเฉินของโรงพยาบาล
+              href: service-connect-to-health-emergency-response.md
             - name: เครื่องคำนวณความยั่งยืนของ Microsoft
               href: ../service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon
