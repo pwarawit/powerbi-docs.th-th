@@ -60,6 +60,8 @@
               href: mobile-apps-view-phone-report.md
             - name: ดูรายงานในสถานทีสำหรับอุปกรณ์เคลื่อนที่
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: 'ปกป้องด้วย Face ID, Touch ID, รหัสผ่าน หรือ Fingerprint ID'
+              href: mobile-native-secure-access.md
             - name: เข้าถึงเนื้อหาจากองค์กรภายนอก (B2B)
               href: mobile-apps-b2b.md
             - name: สแกนคิวอาร์โค้ด Power BI จากโทรศัพท์ของคุณ
@@ -76,8 +78,6 @@
           items:
             - name: เริ่มต้นใช้งานแอป iOS
               href: mobile-iphone-app-get-started.md
-            - name: 'ปกป้องด้วย Face ID, Touch ID หรือรหัสผ่าน'
-              href: mobile-ios-native-secure-access.md
             - name: Q&A นักวิเคราะห์เสมือนจริงในแอปสำหรับอุปกรณ์เคลื่อนของ iOS
               href: mobile-apps-ios-qna.md
             - name: การรวมแอปสำหรับอุปกรณ์เคลื่อนที่ของ Power BI ด้วยปุ่มลัด Siri
@@ -90,6 +90,10 @@
           items:
             - name: เริ่มต้นใช้งานแอป Android
               href: mobile-android-app-get-started.md
+            - name: ใช้ทางลัดแอป Android
+              href: mobile-app-quick-access-shortcuts.md
+            - name: ค้นหาและเข้าถึงเนื้อหาด้วย Google Search
+              href: mobile-app-find-access-google-search.md
             - name: กำลังแก้ไข 'ใบรับรอง SSL ขององค์กรของคุณไม่น่าเชื่อถือ'
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
             - name: 'ข้อผิดพลาด: "จำเป็นต้องอัปเดต Android System Webview"'
