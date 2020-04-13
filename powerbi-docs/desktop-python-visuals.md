@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 04/03/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 72c285fd57af21fcb3d1a4568a5ff2e83016072f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609824"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979879"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>สร้างภาพของ Power BI โดยใช้ Python
 
@@ -54,7 +54,7 @@ print (df)
 
     - **ตัวแก้ไขสคริปต์ Python** ปรากฏขึ้นทางด้านล่างของบานหน้าต่างกลาง
 
-    ![เรียกใช้สคริปต์ในตัวแก้ไขสคริปต์ Python ](media/desktop-python-visuals/python-visuals-3.png)
+    ![เรียกใช้สคริปต์ในตัวแก้ไขสคริปต์ Python](media/desktop-python-visuals/python-visuals-3.png)
 
 1. จากนั้น ลากเขตข้อมูล**อายุ** **เด็ก** **Fname** **เพศ** **สัตว์เลี้ยง** **รัฐ** และ **น้ำหนัก** ไปยังส่วน **ค่า** ที่มีการระบุว่า **เพิ่มเขตข้อมูลที่นี่**
 
@@ -155,9 +155,9 @@ plt.show()
 > **ความปลอดภัยของสคริปต์ Python:** ภาพ Python ถูกสร้างขึ้นจากสคริปต์ Python ซึ่งประกอบด้วยโค้ดที่มีความเสี่ยงต่อความปลอดภัยหรือความเป็นส่วนตัว เมื่อพยายามที่จะดูหรือโต้ตอบกับวิชวล Python เป็นครั้งแรก ผู้ใช้จะได้รับข้อความเตือนเรื่องความปลอดภัย เปิดใช้งานวิชวล Python ในกรณีที่คุณเชื่อถือผู้เขียนและแหล่งที่มาเท่านั้น หรือหลังจากที่คุณตรวจทานและทำความเข้าใจสคริปต์ Python แล้ว
 >  
 
-## <a name="more-information-about-plotting-with-matprolib-pandas-and-python"></a>ข้อมูลเพิ่มเติมเกี่ยวกับการลงจุดด้วย Matprolib, Pandas และ Python
+## <a name="more-information-about-plotting-with-matplotlib-pandas-and-python"></a>ข้อมูลเพิ่มเติมเกี่ยวกับการลงจุดด้วย Matplotlib, Pandas และ Python
 
-บทช่วยสอนนี้ได้รับการออกแบบมาเพื่อช่วยให้คุณเริ่มต้นสร้างวิชวล Python ใน Power BI Desktop ซึ่งแทบจะไม่ต้องรู้หรือเข้าใจเกี่ยวกับตัวเลือกและความสามารถที่มีมากมายสำหรับการสร้างรายงานวิชวลเลย โดยใช้ไลบรารี Python, Pandas และ Matprolib ยังมีข้อมูลให้ค้นหาอีกมากมาย และนี่เป็นลิงก์เพียงสองถึงสามลิงก์เพื่อให้คุณเริ่มต้นใช้งานได้
+บทช่วยสอนนี้ได้รับการออกแบบมาเพื่อช่วยให้คุณเริ่มต้นสร้างวิชวล Python ใน Power BI Desktop ซึ่งแทบจะไม่ต้องรู้หรือเข้าใจเกี่ยวกับตัวเลือกและความสามารถที่มีมากมายสำหรับการสร้างรายงานวิชวลเลย โดยใช้ไลบรารี Python, Pandas และ Matplotlib ยังมีข้อมูลให้ค้นหาอีกมากมาย และนี่เป็นลิงก์เพียงสองถึงสามลิงก์เพื่อให้คุณเริ่มต้นใช้งานได้
 
 - เเอกสารประกอบที่เว็บไซต์ [Matplotlib](https://matplotlib.org/) 
 - [บทช่วยสอน Matplotlib: คำแนะนำพื้นฐานในการใช้ Matplotlib ด้วยภาษา Python](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) 
@@ -177,6 +177,7 @@ plt.show()
 - วิชวล Python จะถูกรีเฟรชเมื่อมีการปรับปรุงข้อมูล การกรอง และการทำไฮไลท์ อย่างไรก็ตาม รูปภาพนั้นไม่ได้มีการโต้ตอบและไม่สามารถแหล่งที่มาของการกรองข้ามได้
 - วิชวล Python ตอบสนองต่อการทำไฮไลท์วิชวลอื่น ๆ แต่คุณไม่สามารถคลิกที่องค์ประกอบในวิชวล Python เพื่อกรองข้ามองค์ประกอบอื่น ๆ ได้
 - เฉพาะการลงจุดที่ถูกลงจุดไปยังอุปกรณ์แสดงผลเริ่มต้น Python เท่านั้นจะแสดงผลอย่างถูกต้องบนพื้นที่ทำงาน หลีกเลี่ยงการใช้อุปกรณ์แสดงผล Python ที่แตกต่างกันอย่างชัดเจน
+- การแสดงผลด้วยภาพของ Python ไมรองรับการเปลี่ยนชื่อคอลัมน์ช่องป้อนข้อมูล คอลัมน์จะถูกอ้างอิงโดยใช้ชื่อเดิมของคอลัมน์นั้นในระหว่างการประมวลผลสคริปต์
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435984"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802106"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 สำหรับ "ข้อมูลอะไรใหม่" ที่เกี่ยวข้อง ให้ดู
@@ -24,6 +24,20 @@ ms.locfileid: "79435984"
 
 >[!NOTE]
 >การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ**โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="march-2020"></a>มีนาคม 2020
+
+### <a name="use-shortcuts-and-google-search-to-launch-your-content-android"></a>ใช้ทางลัดและ Google Search เพื่อเปิดใช้เนื้อหาของคุณ (แอนดรอยด์)
+เราได้ผสานทั้ง้ทางลัดและ Google Search เข้าไว้ในแอป Power BI เพื่อให้คุณสามารถค้นหาและเปิดใช้ข้อมูลของคุณได้อย่างง่ายดาย สร้างทางลัดเพื่อเข้าถึงรายงานและแดชบอร์ดที่คุณชื่นชอบได้โดยตรงจากหน้าจอหลักของอุปกรณ์ของคุณได้อย่างง่ายดาย แล้วใช้ Google Search เพื่อค้นหาและเปิดเนื้อหา Power BI ของคุณได้อย่างรวดเร็ว เรียนรู้เพิ่มเติมเกี่ยวกับ [ทางลัดของแอปแอนดรอยด์](mobile-app-quick-access-shortcuts.md)และ [Google Search](mobile-app-find-access-google-search.md)!
+
+### <a name="enhanced-security-using-device-protection-preview-android"></a>ความปลอดภัยขั้นสูงที่ใช้การป้องกันอุปกรณ์ (ตัวอย่าง) (แอนดรอยด์)
+ใช้ความสามารถในการป้องกันที่อุปกรณ์ของคุณมีอยู่แล้วเพื่อปกป้องแอป Power BI ของคุณและรับสิทธิส่วนบุคคลที่คุณต้องการ การใช้การรับรองความถูกต้องทางชีวมิติ (รหัสลายนิ้วมือ) เพื่อเข้าถึงแอป Power BI ที่ช่วยให้คุณมั่นใจว่าระบบจะเก็บข้อมูลของคุณไว้เป็นส่วนตัวเฉพาะคุณและคุณจะสามารถมองเห็นได้แต่เพียงผู้เดียวเท่านั้น [เรียนรู้เกี่ยวกับการเข้าถึงที่ปลอดภัยอย่างง่ายดาย](mobile-native-secure-access.md)
+
+### <a name="scanning-is-now-available-on-ipad"></a>การสแกนพร้อมใช้งานบน iPad แล้วในขณะนี้
+ในขณะนี้ คุณสามารถสแกนบาร์โค้ดจาก iPad ของคุณเพื่อกรองรายงานของคุณและใช้คิวอาร์โค้ดเพื่อเปิดรายงานอย่างรวดเร็ว  
+
+### <a name="updated-filtering-experience"></a>ประสบการณ์การกรองที่อัปเดตใหม่
+ตัวกรองในแอป Power BI มีฟังก์ชันทำงานใหม่และการออกแบบใหม่ ซึ่งรวมถึงการมองเห็นตัวกรองที่นำไปใช้กับการแสดงรายงานได้ดียิ่งขึ้นและความสามารถในการล็อกและซ่อนตัวกรอง การเปลี่ยนแปลงเหล่านี้ยังให้ความเข้ากันได้ที่ดียิ่งขึ้นด้วยการกรองในบริการของ Power BI
 
 ## <a name="february-2020"></a>กุมภาพันธ์ 2562
 

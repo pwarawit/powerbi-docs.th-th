@@ -49,15 +49,15 @@
           items:
             - name: ทำงานกับมุมมองรายงาน
               href: ../desktop-report-view.md
-            - name: ชนิดของตัวกรองในรายงาน Power BI
+            - name: ชนิดของตัวกรองในรายงาน
               href: ../power-bi-report-filter-types.md
             - name: ตัวกรองและการทำไฮไลท์ในรายงาน
               href: ../power-bi-reports-filters-and-highlighting.md
             - name: การสุ่มตัวอย่างเส้นความหนาแน่นสูง
               href: ../desktop-high-density-sampling.md
-            - name: เกี่ยวกับวิชวลถามตอบของ Power BI
+            - name: เกี่ยวกับวิชวลถามตอบ
               href: ../visuals/power-bi-visualization-q-and-a.md
-            - name: เกี่ยวกับการเข้าถึง Power BI
+            - name: เกี่ยวกับความสามารถในการเข้าถึง
               href: ../desktop-accessibility-overview.md
             - name: ถามตอบภาษาธรรมชาติ
               items:
@@ -125,7 +125,7 @@
               href: ../desktop-bookmarks.md
             - name: ทำงานกับธีมรายงาน
               href: ../desktop-report-themes.md
-            - name: ทำงานกับตัวกรองในรายงาน Power BI
+            - name: ทำงานกับตัวกรองในรายงาน
               href: ../power-bi-report-filter.md
             - name: ใช้คุณลักษณะดูรายละเอียดเจาะลึก
               href: ../desktop-drillthrough.md
@@ -139,7 +139,7 @@
               href: ../desktop-r-powered-custom-visuals.md
             - name: ปรับใช้เส้นตารางและจัดชิดกับเส้นตาราง
               href: ../desktop-gridlines-snap-to-grid.md
-            - name: ใช้การตั้งค่าการแสดงหน้าในรายงาน Power BI
+            - name: ปรับใช้การตั้งค่าการแสดงหน้าในรายงาน
               href: ../power-bi-report-display-settings.md
             - name: เพิ่มคอลัมน์จากตัวอย่าง
               href: ../desktop-add-column-from-example.md
@@ -147,12 +147,16 @@
               href: ../desktop-add-custom-column.md
             - name: ใช้ป้ายลำดับชั้นแบบอินไลน์
               href: ../desktop-inline-hierarchy-labels.md
-            - name: ใช้ตัวแบ่งส่วนข้อมูลช่วงตัวเลข
+            - name: ตัวแบ่งส่วนข้อมูล
+              href: ../visuals/power-bi-visualization-slicers.md
+            - name: ตัวแบ่งส่วนข้อมูลช่วงตัวเลข
               href: ../desktop-slicer-numeric-range.md
-            - name: ใช้ตัวแบ่งส่วนข้อมูลและตัวกรองวันที่แบบสัมพัทธ์
-              href: ../desktop-slicer-filter-date-range.md
+            - name: ตัวแบ่งส่วนข้อมูลวันที่แบบสัมพัทธ์และตัวกรอง
+              href: ../visuals/desktop-slicer-filter-date-range.md
             - name: สร้างตัวแบ่งส่วนข้อมูลที่คุณสามารถปรับขนาดได้
               href: ../power-bi-slicer-filter-responsive.md
+            - name: เพิ่มเขตข้อมูลหลายรายการในตัวแบ่งส่วนข้อมูล
+              href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: จำกัดการเข้าถึงข้อมูลด้วยการรักษาความปลอดภัยระดับแถว
               href: ../desktop-rls.md
             - name: ปรับแต่งคำแนะนำเครื่องมือ
@@ -205,17 +209,17 @@
               href: ../desktop-upload-desktop-files.md
         - name: การแสดงผลข้อมูลด้วยภาพ
           items:
-            - name: เพิ่มวิชวลไปยังรายงาน Power BI (ตอนที่ 1)
+            - name: เพิ่มวิชวลไปยังรายงาน (ตอนที่ 1)
               href: ../visuals/power-bi-report-add-visualizations-i.md
-            - name: เพิ่มวิชวลไปยังรายงาน Power BI (ตอนที่ 2)
+            - name: เพิ่มวิชวลไปยังรายงาน (ตอนที่ 2)
               href: ../visuals/power-bi-report-add-visualizations-ii.md
-            - name: เพิ่มวิชวลไปยังรายงาน Power BI
+            - name: เพิ่มวิชวลไปยังรายงาน
               href: ../visuals/power-bi-report-visualizations.md
-            - name: เปลี่ยนวิชวลในรายงาน Power BI
+            - name: เปลี่ยนวิชวลในรายงาน
               href: ../visuals/power-bi-report-change-visualization-type.md
             - name: ปรับแต่งชื่อวิชวล พื้นหลัง และคำอธิบายใต้ภาพ
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-            - name: แสดงรายการที่ไม่มีหน่วยข้อมูลใน Power BI
+            - name: แสดงรายการโดยไม่มีข้อมูล
               href: ../desktop-show-items-no-data.md
             - name: ปรับใช้ข้อจำกัดของจุดข้อมูลและกลยุทธ์ตามรูปแบบการแสดงผลด้วยภาพ
               href: ../visuals/power-bi-data-points.md
@@ -233,7 +237,7 @@
               href: ../visuals/power-bi-visualization-move-and-resize.md
             - name: เปลี่ยนวิธีการที่การแสดงผลด้วยภาพโต้ตอบในรายงาน
               href: ../service-reports-visual-interactions.md
-            - name: เคล็ดลับและลูกเล่นในการแสดงข้อมูลแผนที่ Power BI
+            - name: เคล็ดลับและลูกเล่นในการแสดงข้อมูลแผนที่
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: ปรับแต่งคุณสมบัติแกน X และแกน Y ด้วยตนเอง
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
@@ -241,47 +245,45 @@
               href: ../visuals/power-bi-visualizations-arcgis.md
             - name: สร้าง ArcGIS Maps สำหรับวิชวล Power BI
               href: ../visuals/power-bi-visualization-arcgis.md
-            - name: สร้างและใช้แผนภูมิพื้นที่แบบพื้นฐาน
+            - name: แผนภูมิพื้นที่พื้นฐาน
               href: ../visuals/power-bi-visualization-basic-area-chart.md
             - name: สร้างวิชวลของการ์ด (ไทล์จำนวนมาก)
               href: ../visuals/power-bi-visualization-card.md
-            - name: สร้างและใช้แผนภูมิผสม
+            - name: แผนภูมิผสม
               href: ../visuals/power-bi-visualization-combo-chart.md
-            - name: สร้างและใช้วิชวลสำหรับโครงข่ายของข้อมูล (ตัวอย่าง)
+            - name: วิชวลสำหรับโครงข่ายของข้อมูล (ตัวอย่าง)
               href: ../visuals/power-bi-visualization-decomposition-tree.md
-            - name: สร้างและใช้แผนภูมิโดนัท
+            - name: แผนภูมิโดนัท
               href: ../visuals/power-bi-visualization-doughnut-charts.md
-            - name: สร้างและใช้แผนที่แถบสี (choropleths)
+            - name: แผนที่แถบสี (Choropleth)
               href: ../visuals/power-bi-visualization-filled-maps-choropleths.md
-            - name: สร้างและใช้แผนภูมิกรวย
+            - name: แผนภูมิกรวย
               href: ../visuals/power-bi-visualization-funnel-charts.md
-            - name: สร้างและใช้ภาพวิชวลของผู้มีอิทธิพลหลัก
+            - name: ภาพผู้ทรงอิทธิพลหลัก
               href: ../visuals/power-bi-visualization-influencers.md
-            - name: สร้างและใช้วิชวล KPI
+            - name: วิชวล KPI
               href: ../visuals/power-bi-visualization-kpi.md
-            - name: สร้างและใช้วิชวลเมทริกซ์
+            - name: วิชวลเมทริกซ์
               href: ../visuals/desktop-matrix-visual.md
-            - name: สร้างและใช้ภาพ Power Apps
+            - name: วิชวล Power Apps
               href: ../visuals/power-bi-visualization-powerapp.md
-            - name: สร้างและใช้วิชวล R
+            - name: วิชวล R
               href: ../visuals/service-r-visuals.md
-            - name: สร้างและใช้แผนภูมิมาตรวัดเรเดียล
+            - name: แผนภูมิตัววัดรัศมี
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
-            - name: สร้างและใช้แผนภูมิริบบอน
+            - name: แผนภูมิ Ribbon
               href: ../visuals/desktop-ribbon-charts.md
-            - name: สร้างและใช้แผนภูมิกระจาย แผนภูมิฟองอากาศ และแผนภูมิลงจุด
+            - name: แผนภูมิกระจาย แผนภูมิฟองอากาศ และแผนภูมิลงจุด
               href: ../visuals/power-bi-visualization-scatter.md
             - name: ใช้แผนภูมิกระจายความหนาแน่นสูง
               href: ../visuals/desktop-high-density-scatter-charts.md
-            - name: สร้างและใช้วิชวลแผนที่รูปร่าง (ตัวอย่าง)
+            - name: จัดรูปร่างภาพแผนที่ (ตัวอย่าง)
               href: ../visuals/desktop-shape-map.md
-            - name: สร้างและใช้ตัวแบ่งส่วนข้อมูล
-              href: ../visuals/power-bi-visualization-slicers.md
-            - name: สร้างและใช้ตารางในรายงานและแดชบอร์ด Power BI
+            - name: ตารางในรายงานและแดชบอร์ด
               href: ../visuals/power-bi-visualization-tables.md
-            - name: สร้างและใช้แผนภูมิต้นไม้
+            - name: แผนภูมิต้นไม้
               href: ../visuals/power-bi-visualization-treemaps.md
-            - name: สร้างและใช้แผนภูมิน้ำตก
+            - name: แผนภูมิแบบน้ำตก
               href: ../visuals/power-bi-visualization-waterfall-charts.md
         - name: ถามตอบภาษาธรรมชาติ
           items:
@@ -301,17 +303,17 @@
               href: ../service-q-and-a-create-featured-questions.md
             - name: ใช้ ถามตอบ ที่มีการเชื่อมต่อสด
               href: ../service-q-and-a-direct-query.md
-            - name: ข้อมูลเชิงลึกด่วนใน Power BI
+            - name: ข้อมูลเชิงลึกด่วน
               href: ../service-insights.md
             - name: ปรับข้อมูลให้เหมาะสมสำหรับข้อมูลเชิงลึกด่วน
               href: ../service-insights-optimize.md
         - name: การช่วยสำหรับการเข้าถึง
           items:
-            - name: ออกแบบรายงาน Power BI ที่สามารถเข้าถึงได้
+            - name: ออกแบบรายงานที่สามารถเข้าถึงได้
               href: ../desktop-accessibility-creating-reports.md
-            - name: สร้างรายงาน Power BI ด้วยเครื่องมือช่วยสำหรับการเข้าถึง
+            - name: สร้างรายงานที่มีเครื่องมือช่วยสำหรับการเข้าถึง
               href: ../desktop-accessibility-creating-tools.md
-            - name: ใช้รายงาน Power BI ด้วยคุณลักษณะการช่วยสำหรับการเข้าถึง
+            - name: ใช้รายงานด้วยคุณลักษณะการช่วยสำหรับการเข้าถึง
               href: ../desktop-accessibility-consuming-tools.md
             - name: แป้นพิมพ์ลัดใน Power BI Desktop
               href: ../desktop-accessibility-keyboard-shortcuts.md
@@ -351,7 +353,7 @@
               href: ../service-dashboard-pin-tile-from-q-and-a.md
             - name: ปักหมุดทั้งหน้ารายงานไปยังแดชบอร์ด
               href: ../service-dashboard-pin-live-tile-from-report.md
-            - name: แจ้งเตือนข้อมูลใน Power BI service
+            - name: การแจ้งเตือนข้อมูลในบริการ
               href: ../service-set-data-alerts.md
             - name: เพิ่มรูปภาพ กล่องข้อความ วิดีโอ หรือโค้ดลงในแดชบอร์ด
               href: ../service-dashboard-add-widget.md
@@ -369,9 +371,9 @@
               href: ../service-dashboard-themes.md
         - name: งานอื่น ๆ
           items:
-            - name: เปลี่ยนชื่อของเนื้อหาภายใน Power BI
+            - name: เปลี่ยนชื่อเนื้อหา
               href: ../service-rename.md
             - name: ตั้งค่าผู้ติดต่อของรายการ
               href: ../service-item-contact.md
-            - name: ลบเกือบทุกรายการในบริการ Power BI
+            - name: ลบเกือบทุกรายการ
               href: ../service-delete.md

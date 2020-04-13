@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 09/10/2019
-ms.openlocfilehash: 35df214da19d5f35130408ce8128643f52682428
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.date: 04/02/2020
+ms.openlocfilehash: df59d09a1e8557842904b46eded0a83c86448224
+ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922240"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80647715"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>พารามิเตอร์ URL ในรายงานที่มีการแบ่งหน้าใน Power BI
 
@@ -78,6 +78,14 @@ URL บริการบนเว็บของผู้เช่า Power BI 
 - CSV 
 - PDF 
 - XML 
+
+**สถานะแผงพารามิเตอร์**จะแสดงให้คุณเห็นว่าแผงพารามิเตอร์นั้นปิดหรือเปิดอยู่เมื่อโหลดรายงาน หรือว่าซ่อนเอาไว้ทั้งหมด
+
+-   rdl:parameterPanelState
+
+    - 'ยุบ': โหลดรายงานโดยปิดแผงพารามิเตอร์ไว้ ปุ่มพารามิเตอร์จะแสดงขึ้นเพื่อให้ผู้ใช้สามารถคลิกปุ่มเพื่อขยายพารามิเตอร์ได้
+    - 'ซ่อน': โหลดรายงานโดยปิดแผงพารามิเตอร์ไว้และปิดใช้งานปุ่มพารามิเตอร์ด้วย
+    - 'ขยาย': โหลดรายงานโดยเปิดแผงพารามิเตอร์ไว้และเปิดใช้งานปุ่มพารามิเตอร์ด้วย
 
 **Device Info (ข้อมูลอุปกรณ์)** คุณอาจระบุพารามิเตอร์ผลลัพธ์เพิ่มเติมที่เฉพาะเจาะจงสำหรับรูปแบบการส่งออกต่อไปนี้ได้ 
 

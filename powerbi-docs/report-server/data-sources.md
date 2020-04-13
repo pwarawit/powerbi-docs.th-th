@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
+ms.date: 04/08/2020
 ms.author: maggies
-ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237534"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979856"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>แหล่งข้อมูลรายงาน Power BI ใน Power BI Report Server
 รายงาน Power BI สามารถเชื่อมต่อกับหลาย ๆ แหล่งข้อมูลได้ ขึ้นอยู่กับวิธีการใช้ข้อมูล แหล่งข้อมูลที่แตกต่างกันสามารถใช้งานได้ สามารถนำเข้าข้อมูล หรือข้อมูลสามารถถูกคิวรี่ได้โดยตรงโดยใช้ DirectQuery หรือการเชื่อมต่อตรงกับ SQL Server Analysis Services
@@ -156,8 +156,8 @@ ms.locfileid: "78237534"
 | รายการ SharePoint Online |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Snowflake |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | ฐานข้อมูล Sybase |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |
-| Teradata |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |
-| appFigures (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Teradata |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่** |
+| appFigures (เบต้า) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure Analysis Services database (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure Cosmos DB (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure HDInsight Spark (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
@@ -189,6 +189,8 @@ ms.locfileid: "78237534"
 | Visual Studio Team Services (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Webtrends (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Zendesk (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
+
+**การรีเฟรชโมเดลไม่รองรับการรับรองความถูกต้องแบบ LDAP กับ Teradata (เปิดใช้งานใน Power BI Desktop ได้โดยใช้คำสั่ง Command Prompt ว่า 'setx PBI_EnableTeradataLdap true')
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>รายการของวิธีการรับรองตัวตนได้รับการรองรับสำหรับ DirectQuery
 

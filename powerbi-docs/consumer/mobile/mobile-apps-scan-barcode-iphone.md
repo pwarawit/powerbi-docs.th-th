@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ee3cfec0c735ad52f9a036e75f61c1ab0400567b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 043f27a2fb695811ac867689b4a63efdefded2e6
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75217834"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802060"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>สแกนบาร์โค้ดด้วยอุปกรณ์ของคุณจากแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 สแกนบาร์โค้ดในโลกแห่งความจริงเพื่อไปยังข้อมูล BI ที่ถูกกรองโดยตรงในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
@@ -21,9 +21,9 @@ ms.locfileid: "75217834"
 
 นำไปใช้กับ:
 
-| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | 
-|:--- |:--- |
-| iPhone | Android (โทรศัพท์, แท็บเล็ต) | 
+| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPad](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![โทรศัพท์ Android](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![แท็บเล็ต Android](././media/mobile-apps-qr-code/android-logo-40-px.png) |
+|:--- |:--- |:--- |:--- |
+|iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |
 
 บอกเพื่อนร่วมงานที่ถูก[แท็กเขตข้อมูลบาร์โค้ดในรายงาน Power BI Desktop](../../desktop-mobile-barcodes.md)และแชร์รายงานกับคุณ 
 
@@ -44,7 +44,7 @@ ms.locfileid: "75217834"
 ในขณะที่กำลังดูรายงานที่ถูกกรองด้วยบาร์โค้ดบนอุปกรณ์ของคุณ คุณอาจต้องการกรองรายงานเดียวกันด้วยบาร์โค้ดที่แตกต่างกัน
 
 * ถ้าไอคอนบาร์โค้ดมีตัวกรอง![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png)ตัวกรองจะใช้งานอยู่ และรายงานจะถูกกรองด้วยบาร์โค้ดแล้ว 
-* ถ้าไอคอนไม่มีตัวกรองอยู่![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png)ตัวกรองจะไม่ได้ใช้งานอยู่ และรายงานจะไม่ถูกกรองด้วยบาร์โค้ด 
+* ถ้าไอคอนไม่มีตัวกรองอยู่ ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png)ตัวกรองจะไม่พร้อมใช้งานและระบบจะไม่กรองรายงานตามบาร์โค้ด 
 
 ไม่ว่าวิธีใด ให้แตะไอคอนเพื่อเปิดเมนูขนาดเล็กที่มีตัวสแกนแบบลอยตัวอยู่
 
@@ -58,15 +58,15 @@ ms.locfileid: "75217834"
 ### <a name="couldnt-filter-report"></a>“ไม่สามารถกรองรายงานได้...”
 รายงานที่คุณเลือกที่จะกรองจะยึดตามรูปแบบข้อมูลที่ไม่ได้รวมค่าบาร์โค้ดนี้ ตัวอย่างเช่น ผลิตภัณฑ์ “น้ำแร่” ไม่ได้รวมอยู่ในรายงาน  
 
-### <a name="allsome-of-the-visuals-in-the-report-dont-contain-any-value"></a>ทั้งหมด/บางรายการของภาพในรายงานไม่ประกอบด้วยค่าใดๆ
-ค่าบาร์โค้ดที่คุณสแกนที่อยู่ในรูปแบบของคุณ แต่ทั้งหมด/บางรายการของภาพบนรายงานของคุณไม่ประกอบด้วยค่านี้ และดังนั้นการกรองจะคืนค่าสถานะว่าง ลองค้นหาหน้ารายงานอื่นๆ หรือแก้ไขรายงานของคุณใน Power BI Desktop ให้ประกอบด้วยค่านี้ 
+### <a name="allsome-of-the-visuals-in-the-report-dont-contain-any-value"></a>รายการของภาพทั้งหมด/บางรายการในรายงานไม่มีค่าใด ๆ อยู่
+ค่าบาร์โค้ดที่คุณสแกนมีอยู่ในแบบจำลองของคุณ แต่รายการของภาพทั้งหมด/บางรายการในรายงานไม่มีค่าใด ๆ อยู่ ดังนั้นการกรองจะแสดงสถานะเป็นว่าง ลองค้นหาหน้ารายงานอื่นๆ หรือแก้ไขรายงานของคุณใน Power BI Desktop ให้ประกอบด้วยค่านี้ 
 
-### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>“ดูเหมือนว่าคุณไม่มีรายงานใดๆ ที่สามารถกรองได้ด้วยบาร์โค้ด”
+### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>“ดูเหมือนว่าคุณไม่มีรายงานใด ๆ ที่สามารถใช้บาร์โค้ดกรองได้”
 ซึ่งหมายความว่า คุณไม่มีรายงานใดๆ ที่เปิดใช้งานบาร์โค้ด ตัวสแกนบาร์โค้ดสามารถกรองรายงานที่มีคอลัมน์ที่ทำเครื่องหมายเป็น**บาร์โค้ด**ได้เท่านั้น  
 
 ตรวจสอบให้แน่ใจว่าคุณ หรือเจ้าของรายงานได้แท็กคอลัมน์เป็น**บาร์โค้ด**ใน Power BI Desktop เรียนรู้เพิ่มเติมเกี่ยวกับ[การแท็กเขตข้อมูลบาร์โค้ดใน Power BI Desktop](../../desktop-mobile-barcodes.md)
 
-### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>"ไม่สามารถกรองรายงานได้ - ดูเหมือนว่าจะไม่มีบาร์โค้ดนี้อยู่ในข้อมูลรายงาน"
+### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>"ไม่สามารถกรองรายงานได้ ดูเหมือนว่าจะไม่มีบาร์โค้ดนี้อยู่ในข้อมูลรายงาน"
 รายงานที่คุณเลือกที่จะกรองจะยึดตามรูปแบบข้อมูลที่ไม่ได้รวมค่าบาร์โค้ดนี้ ตัวอย่างเช่น ผลิตภัณฑ์ “น้ำแร่” ไม่ได้รวมอยู่ในรายงาน คุณสามารถสแกนผลิตภัณฑ์ต่างๆ เลือกรายงานที่แตกต่างกัน (ถ้ามีรายงานพร้อมใช้งานมากกว่าหนึ่ง) หรือดูรายงานที่ยังไม่ได้กรองได้ 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

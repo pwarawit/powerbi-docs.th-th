@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
-ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.date: 04/08/2020
+ms.openlocfilehash: ff63e38e52a3c8970edfa5b6d9e2ccabeff2e16a
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381111"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979810"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>บันทึกการเปลี่ยนแปลงสำหรับ เซิร์ฟเวอร์รายงาน Power BI
 
@@ -29,7 +29,7 @@ ms.locfileid: "79381111"
            -  การแก้ไขสำหรับรายงาน Power BI ไม่สามารถอัปโหลดได้สำหรับแหล่งข้อมูลบางแหล่ง
            -  การแก้ไขตำแหน่งลิงก์ดาวน์โหลด Power BI Report Server Desktop จากพอร์ทัล
            -  การแก้ไขสำหรับ DynamicImageDPI สำหรับการแสดงภาพ Excel
-           -  การแก้ไขสำหรับการเชื่อมต่อ Oracle โดยใช้วัฒนธรรมของเธรดที่ไม่ถูกต้องในบางสถานการณ์ของผู้ใช้หลายคน
+           -  แก้ไขการเชื่อมต่อ Oracle โดยใช้ลักษณะเธรดที่ไม่ถูกต้องในสถานการณ์ที่มีผู้ใช้หลายคนบางสถานการณ (ดูรายละเอียดเพิ่มเติมที่ [UseInstalledUICulture documentation] (https://docs.microsoft.com/power-bi/report-server/connect-data-sources) )
            -  การแก้ไขสำหรับค่าเริ่มต้น CustomHeaders ที่ทำให้การฝังรายงานไม่สำเร็จ
            -  การแก้ไขสำหรับชื่อพารามิเตอร์ SQL ที่ถูกสร้างขึ้นอย่างไม่ถูกต้องในบางกรณี
     - *เวอร์ชัน: 1.6.7327.3007 (รุ่น 15.0.1102.759) เผยแพร่เมื่อ: 23 มกราคม 2020*
