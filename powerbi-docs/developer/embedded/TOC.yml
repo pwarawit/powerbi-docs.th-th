@@ -48,6 +48,8 @@
           href: embed-from-apps.md
         - name: ส่งออกรายงานไปยังไฟล์
           href: export-to.md
+        - name: ส่งออกรายงานที่มีการแบ่งหน้าไปยังไฟล์
+          href: export-paginated-report.md
         - name: แอปติดตั้งอัตโนมัติ
           href: embed-auto-install-app.md
         - name: สร้างผู้เช่า Azure Active Directory

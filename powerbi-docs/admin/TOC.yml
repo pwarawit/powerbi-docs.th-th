@@ -76,6 +76,8 @@
               href: service-security-data-protection-metrics-report.md
         - name: รักษาความปลอดภัยระดับแถว
           href: ../service-admin-rls.md
+        - name: ตั้งค่าชุดข้อมูลและใบรับรองกระแสข้อมูล
+          href: service-admin-setup-certification.md
         - name: กำหนดค่าแอปสำหรับอุปกรณ์เคลื่อนที่ด้วย Intune
           href: ../service-admin-mobile-intune.md
         - name: Power BI Premium

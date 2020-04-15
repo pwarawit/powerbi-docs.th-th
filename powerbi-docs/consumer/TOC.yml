@@ -18,12 +18,14 @@
           href: end-user-experience.md
         - name: ค้นหาเนื้อหาโดยใช้หน้า landing page ของคุณ
           href: end-user-home.md
-        - name: เรียนรู้วิธีการถามคำถามโดยใช้ภาษาธรรมชาติ
-          href: end-user-q-and-a.md
+        - name: รายการของคุณลักษณะที่พร้อมใช้งานสำหรับผู้บริโภค
+          href: end-user-features.md
         - name: ลงชื่อเข้าใช้เป็นครั้งแรก
           href: end-user-sign-in.md
         - name: ฉันมีสิทธิการใช้งาน Power BI แบบใด
           href: end-user-license.md
+        - name: เรียนรู้วิธีการถามคำถามโดยใช้ภาษาธรรมชาติ
+          href: end-user-q-and-a.md
         - name: นำทาง 'รูปลักษณ์ใหม่ '
           href: ../service-new-look.md
         - name: '''รูปลักษณ์ใหม่ '' การดำเนินการไปที่ไหน'
@@ -60,6 +62,8 @@
               href: end-user-report-filter.md
             - name: เรียนรู้วิธีการทำงานของตัวกรองไขว้ของการแสดงผลด้วยภาพในรายงาน
               href: end-user-interactions.md
+            - name: โต้ตอบกับตัวแบ่งส่วนข้อมูลของรายงาน
+              href: end-user-slicer.md
             - name: ส่งออกรายงานเป็น PDF
               href: end-user-pdf.md
             - name: ส่งออกรายงานไปยัง PowerPoint

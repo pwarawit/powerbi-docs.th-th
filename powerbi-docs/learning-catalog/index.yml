@@ -1,0 +1,132 @@
+### YamlMime:Landing
+title: แค็ตตาล็อกการเรียนรู้ Power BI
+summary: ค้นหาตัวเลือกการฝึกอบรมสำหรับ Power BI
+metadata:
+  title: แค็ตตาล็อกการเรียนรู้ Power BI
+  description: ค้นหาตัวเลือกการเรียนรูสำหรับ Power BI ที่เหมาะสมสำหรับบทบาทในองค์กรของคุณ
+  ms.service: powerbi
+  ms.topic: landing-page
+  author: loreleishannonmsft
+  ms.author: v-lshann
+  ms.date: 04/08/2020
+  ms.openlocfilehash: aff1866616a10e5df124619261d8398bda5c51a3
+  ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+  ms.translationtype: HT
+  ms.contentlocale: th-TH
+  ms.lasthandoff: 04/13/2020
+  ms.locfileid: "81269052"
+landingContent:
+- title: ผู้สร้างการตัดสินใจทางธุรกิจ
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: แค็ตตาล็อกการเรียนรู้ทางด้านธุรกิจและการตัดสินใจทางเทคนิคของผู้ผลิต
+      url: learning-catalog-bdm.md#
+- title: ผู้บริโภค
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: แค็ตตาล็อกการเรียนรู้ของผู้บริโภค
+      url: learning-catalog-consumer.md#
+- title: ผู้สร้างรายงาน
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: แค็ตตาล็อกการเรียนรู้ของผู้สร้างรายงาน
+      url: learning-catalog-report-creator.md#
+    - text: เริ่มใช้งาน
+      url: learning-catalog-report-creator.md#get-started
+    - text: แดชบอร์ด
+      url: learning-catalog-report-creator.md#dashboards
+    - text: การออกแบบรายงาน
+      url: learning-catalog-report-creator.md#report-design
+    - text: การแสดงภาพ
+      url: learning-catalog-report-creator.md#visualization
+    - text: การรวม
+      url: learning-catalog-report-creator.md#integration
+- title: นักวิเคราะห์ข้อมูล
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: แค็ตตาล็อกการเรียนรู้ของนักวิเคราะห์ข้อมูล
+      url: learning-catalog-data-analyst.md#
+    - text: เริ่มใช้งาน
+      url: learning-catalog-data-analyst.md#get-started
+    - text: แนวทางปฏิบัติที่ดีที่สุด
+      url: learning-catalog-data-analyst.md#best-practices
+    - text: กรณีศึกษา
+      url: learning-catalog-data-analyst.md#case-studies
+    - text: แดชบอร์ด
+      url: learning-catalog-data-analyst.md#dashboards
+    - text: การแสดงผลข้อมูลด้วยภาพ
+      url: learning-catalog-data-analyst.md#visualizations
+    - text: การกำกับดูแล และการปรับใช้งาน
+      url: learning-catalog-data-analyst.md#governance-deployment
+    - text: การรวม
+      url: learning-catalog-data-analyst.md#integration
+    - text: ความปลอดภัย
+      url: learning-catalog-data-analyst.md#security
+- title: ผู้ดูแลระบบ
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: แค็ตตาล็อกการเรียนรู้ของผู้ดูแลระบบ
+      url: learning-catalog-administrator.md
+    - text: เริ่มใช้งาน
+      url: learning-catalog-administrator.md#get-started
+    - text: ปรับใช้
+      url: learning-catalog-administrator.md#deploy
+- title: นักพัฒนา
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: แค็ตตาล็อกนักพัฒนาการเรียนรู้
+      url: learning-catalog-developer.md
+    - text: เริ่มใช้งาน
+      url: learning-catalog-developer.md#get-started
+    - text: แบบฝังตัว
+      url: learning-catalog-developer.md#embedded
+    - text: DAX
+      url: learning-catalog-developer.md#dax
+    - text: การพัฒนา
+      url: learning-catalog-developer.md#development
+- title: บทบาทของการขายล่วงหน้าของคู่ค้า
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: แค็ตตาล็อกการเรียนรู้เรื่องการขายล่วงหน้าของคู่ค้า
+      url: learning-catalog-presales.md#
+- title: ที่ปรึกษาด้านการใช้งาน
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: แค็ตตาล็อกการเรียนรู้ที่ปรึกษาแอปพลิเคชันที่ใช้งานได้
+      url: learning-catalog-functional-consultant.md
+    - text: เริ่มใช้งาน
+      url: learning-catalog-functional-consultant.md#get-started
+    - text: แนวทางปฏิบัติที่ดีที่สุด
+      url: learning-catalog-functional-consultant.md#best-practices
+    - text: กรณีศึกษา
+      url: learning-catalog-functional-consultant.md#case-studies
+    - text: แดชบอร์ด
+      url: learning-catalog-functional-consultant.md#dashboards
+    - text: การกำกับดูแล และการปรับใช้งาน
+      url: learning-catalog-functional-consultant.md#governance-deployment
+    - text: การรวม
+      url: learning-catalog-functional-consultant.md#integration
+    - text: ความปลอดภัย
+      url: learning-catalog-functional-consultant.md#security
+    - text: การแสดงผลข้อมูลด้วยภาพ
+      url: learning-catalog-functional-consultant.md#visualizations
+- title: สถาปนิกด้านการหาทางออกของปัญหา
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: แค็ตตาล็อกการเรียนรู้ของสถาปนิกด้านการหาทางออกของปัญหา
+      url: learning-catalog-solution-architect.md
+    - text: เริ่มใช้งาน
+      url: learning-catalog-solution-architect.md#get-started
+    - text: กรณีศึกษา
+      url: learning-catalog-solution-architect.md#case-studies
+    - text: ประสิทธิภาพการทำงาน
+      url: learning-catalog-solution-architect.md#performance
