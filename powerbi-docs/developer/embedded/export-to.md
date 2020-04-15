@@ -17,7 +17,7 @@ ms.locfileid: "80273305"
 # <a name="export-power-bi-report-to-file-preview"></a>ส่งออกรายงาน Power BI ไปยังไฟล์ (ตัวอย่าง)
 
 `exportToFile`API เปิดใช้งานการส่งออกรายงาน Power BI โดยใช้การเรียกใช้ REST รูปแบบไฟล์ต่อไปนี้ได้รับการรองรับ:
-* ** PPTX** (PowerPoint)
+* **PPTX** (PowerPoint)
 * **PDF**
 * **PNG**
     * เมื่อส่งออกไปยัง PNG รายงานที่มีหลายหน้าจะถูกบีบอัดลงในไฟล์ zip

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 02bea09bcd6400b4dc316a08ec74ed2780ad3363
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: e2c742abe5db21ef567d07cf88755eb459d8e091
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273190"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006629"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>การป้องกันข้อมูลใน Power BI (ตัวอย่าง)
 
@@ -103,7 +103,7 @@ ms.locfileid: "80273190"
 * ป้ายชื่อระดับความลับบนแอสเซท Power BI สามารถมองเห็นได้เฉพาะในรายการพื้นที่ทำงานและมุมมองสายข้อมูลเท่านั้น ในขณะนี้ป้ายชื่อจะไม่สามารถมองเห็นได้ในรายการโปรด ที่แชร์กับฉัน ล่าสุด หรือมุมมองแอป อย่างไรก็ตาม โปรดทราบว่าป้ายชื่อที่ใช้กับแอสเซท Power BI แม้ว่าจะไม่สามารถมองเห็นได้ จะยังคงอยู่ในข้อมูลที่ส่งออกไปเป็นไฟล์ Excel, PowerPoint และ PDF เสมอ
 * *การตั้งค่าการเข้ารหัสไฟล์* ของป้ายชื่อระดับความลับ ที่กำหนดค่าใน [ศูนย์การรักษาความปลอดภัย Microsoft 365](https://security.microsoft.com/) หรือ [ศูนย์การปฏิบัติตามข้อบังคับ Microsoft 365](https://compliance.microsoft.com/) นำไปใช้เฉพาะกับไฟล์ที่ *ส่งออกจาก* Power BI เท่านั้น ซึ่งไม่ได้บังคับใช้ *ภายใน* Power BI
 * [การป้องกัน HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) ไม่ได้รับการรองรับสำหรับป้ายชื่อที่ใช้ใน Power BI
-* การดูและการใช้ป้ายชื่อในแอป Office มี[ข้อกำหนดเรื่องสิทธิ์การใช้งาน](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)
+* การดูและการใช้ป้ายชื่อในแอป Office มี[ข้อกำหนดเรื่องสิทธิ์การใช้งาน](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels)
 * ป้ายชื่อระดับความลับได้รับการรองรับสำหรับผู้เช่าในระบบคลาวด์ (สาธารณะ) ส่วนกลางเท่านั้น ป้ายชื่อระดับความลับไม่ได้รับการรองรับสำหรับผู้เช่าในระบบคลาวด์อื่นๆ
 * ไม่รองรับป้ายชื่อระดับความลับของข้อมูลสำหรับแอปเทมเพลต
 * Power BI ไม่รองรับป้ายชื่อระดับความลับของประเภทการป้องกัน**Do Not Forward** และ **Ad-Hoc**

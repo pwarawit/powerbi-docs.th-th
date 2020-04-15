@@ -96,7 +96,7 @@ Microsoft แนะนำให้องค์กรซื้อ Power BI Premiu
 
 คุณสามารถใช้พอร์ทัล PBI เพื่อค้นหาภูมิภาคผู้เช่า PBI ของคุณได้
 
-[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? เกี่ยวกับ Power BI
+`https://app.powerbi.com/` > ? เกี่ยวกับ Power BI
 
 ![เกี่ยวกับ ภูมิภาคผู้เช่า](media/embedded-faq/about-01.png)
 ![Power BI](media/embedded-faq/tenant-location-01.png)
