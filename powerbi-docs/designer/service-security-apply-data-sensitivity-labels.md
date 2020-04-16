@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ea4e8da2e821483fc567a3038c6133c60992e593
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: ab171f81224c3c6cf90070bf221e6b93285d8caa
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538439"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006422"
 ---
 # <a name="apply-data-sensitivity-labels-in-power-bi-preview"></a>ใช้ป้ายชื่อระดับความลับใน Power BI (ตัวอย่าง)
 
@@ -79,7 +79,7 @@ ms.locfileid: "76538439"
 * ป้ายชื่อระดับความลับบนแอสเซท Power BI สามารถมองเห็นได้เฉพาะในรายการพื้นที่ทำงานและมุมมองสายข้อมูลเท่านั้น ในขณะนี้ป้ายชื่อจะไม่สามารถมองเห็นได้ในรายการโปรด ที่แชร์กับฉัน ล่าสุด หรือมุมมองแอป อย่างไรก็ตาม โปรดทราบว่าป้ายชื่อที่ใช้กับแอสเซท Power BI แม้ว่าจะไม่สามารถมองเห็นได้ จะยังคงอยู่ในข้อมูลที่ส่งออกไปเป็นไฟล์ Excel, PowerPoint และ PDF เสมอ
 * *การตั้งค่าการเข้ารหัสไฟล์* ของป้ายชื่อระดับความลับ ที่กำหนดค่าใน [ศูนย์การรักษาความปลอดภัย Microsoft 365](https://security.microsoft.com/) หรือ [ศูนย์การปฏิบัติตามข้อบังคับ Microsoft 365](https://compliance.microsoft.com/) นำไปใช้เฉพาะกับไฟล์ที่ *ส่งออกจาก* Power BI เท่านั้น ซึ่งไม่ได้บังคับใช้ *ภายใน* Power BI
 * [การป้องกัน HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) ไม่ได้รับการรองรับสำหรับป้ายชื่อที่ใช้ใน Power BI
-* การดูและการใช้ป้ายชื่อในแอป Office มี[ข้อกำหนดเรื่องสิทธิ์การใช้งาน](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)
+* การดูและการใช้ป้ายชื่อในแอป Office มี[ข้อกำหนดเรื่องสิทธิ์การใช้งาน](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels)
 * ป้ายชื่อระดับความลับได้รับการรองรับสำหรับผู้เช่าในระบบคลาวด์ (สาธารณะ) ส่วนกลางเท่านั้น ป้ายชื่อระดับความลับไม่ได้รับการรองรับสำหรับผู้เช่าในระบบคลาวด์อื่นๆ
 * ป้ายชื่อระดับความลับไม่ได้รับการสนับสนุนสำหรับ[ผู้ใช้ภายนอก (ผู้ใช้ที่เป็นผู้เยี่ยมชม Azure Active Directory B2B)](../service-admin-azure-ad-b2b.md) ซึ่งหมายความว่าผู้ใช้ภายนอกไม่สามารถดูป้ายชื่อ และจะถูกบล็อกจากการส่งออกข้อมูลไปเป็นไฟล์ Excel, PDF และ PPTX [ลบป้ายชื่อออก](#removing-sensitivity-labels) เพื่อเปิดใช้งานผู้ใช้ภายนอกเพื่อส่งออกข้อมูลไปยังประเภทไฟล์เหล่านั้น
 
