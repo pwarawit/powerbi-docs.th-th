@@ -19,3 +19,5 @@
       href: learning-catalog-functional-consultant.md
     - name: สถาปนิกด้านการหาทางออกของปัญหา
       href: learning-catalog-solution-architect.md
+    - name: แนะนำ DAX
+      href: ../guided-learning/introductiontodax.yml?tutorial-step=1

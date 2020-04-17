@@ -64,6 +64,8 @@
               href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: รายงาน Power BI
           items:
+            - name: แยกรายงานจากแบบจำลอง
+              href: report-separate-from-model.md
             - name: ขยายภาพด้วยคำแนะนำเครื่องมือของหน้ารายงาน
               href: report-page-tooltips.md
             - name: ใช้การดูหน้ารายงานแบบเจาะลึก

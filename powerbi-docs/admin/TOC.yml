@@ -16,14 +16,24 @@
       items:
         - name: บทบาทการจัดการใน Microsoft 365
           href: ../service-admin-role.md
+        - name: การให้สิทธิ์สำหรับองค์กรของคุณ
+          href: ../service-admin-licensing-organization.md
+        - name: Power BI สำหรับภาครัฐของประเทศสหรัฐอเมริกา
+          items:
+            - name: Power BI สำหรับภาครัฐของประเทศสหรัฐอเมริกา
+              href: ../service-govus-overview.md
+            - name: ลงทะเบียนองค์กรภาครัฐของประเทศสหรัฐอเมริกา
+              href: ../service-govus-signup.md
+        - name: Power BI ในระบบคลาวด์ภูมิภาค
+          items:
+            - name: โยกย้ายเพื่อไปยังภูมิภาคเยอรมนีในท้องถิ่น
+              href: service-admin-migrate-data-germany.md
+            - name: ถามที่ถามบ่อยสำหรับลูกค้า Germany Cloud
+              href: ../service-govde-faq.md
         - name: คำถามที่พบบ่อย (FAQ)
           href: ../service-admin-faq.md
         - name: FAQ เกี่ยวกับความพร้อมใช้งานสูงและการย้ายโหนดเมื่อเกิดข้อผิดพลาด
           href: ../service-admin-failover.md
-        - name: โยกย้ายเพื่อไปยังภูมิภาคเยอรมนีในท้องถิ่น
-          href: service-admin-migrate-data-germany.md
-        - name: ถามที่ถามบ่อยสำหรับลูกค้า Germany Cloud
-          href: ../service-govde-faq.md
         - name: Power BI Premium
           items:
             - name: การจัดการความจุแบบพรีเมียม
@@ -38,14 +48,14 @@
       items:
         - name: การใช้สิทธิ์และลงทะเบียน
           items:
-            - name: การให้สิทธิ์สำหรับองค์กรของคุณ
-              href: ../service-admin-licensing-organization.md
+            - name: รับ Power BI สำหรับองค์กรของคุณ
+              href: service-admin-org-subscription.md
             - name: ซื้อ Power BI Pro
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: Power BI สำหรับภาครัฐของประเทศสหรัฐอเมริกา
-              href: ../service-govus-overview.md
-            - name: ลงทะเบียนองค์กรภาครัฐของประเทศสหรัฐอเมริกา
-              href: ../service-govus-signup.md
+            - name: ปิดใช้งานการลงชื่อสมัครใช้บริการด้วยตนเอง
+              href: service-admin-disable-self-service.md
+            - name: ดูและจัดการใบอนุญาตของผู้ใช้
+              href: service-admin-manage-licenses.md
             - name: ลงทะเบียนกับ Microsoft 365 Trial
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: เพิ่ม Power BI ผ่านพันธมิตรของ Microsoft 365
