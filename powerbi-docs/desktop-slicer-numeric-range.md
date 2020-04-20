@@ -1,28 +1,41 @@
 ---
-title: ใช้ตัวแบ่งส่วนข้อมูลช่วงตัวเลขใน Power BI Desktop
-description: เรียนรู้วิธีการใช้ตัวแบ่งส่วนข้อมูลสำหรับกำหนดข้อจำกัดไปยังช่วงตัวเลขใน Power BI Desktop
+title: ใช้ตัวแบ่งส่วนข้อมูลช่วงตัวเลขใน Power BI
+description: เรียนรู้วิธีการใช้ตัวแบ่งส่วนข้อมูลสำหรับกำหนดข้อจำกัดไปยังช่วงตัวเลขใน Power BI
 author: davidiseminger
 ms.reviewer: ''
+featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 04/06/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0fcc666febb4444b5ee83a1646e1e0c3ef9c6d82
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: bd5f937154edf9f8b6a86fb7f53690943a7f3a53
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539313"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006652"
 ---
-# <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>ใช้ตัวแบ่งส่วนข้อมูลช่วงตัวเลขใน Power BI Desktop
+# <a name="use-the-numeric-range-slicer-in-power-bi"></a>ใช้ตัวแบ่งส่วนข้อมูลช่วงตัวเลขใน Power BI
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 ด้วยตัวแบ่งส่วนข้อมูลช่วงตัวเลข คุณสามารถใช้ตัวกรองทุกประเภทในคอลัมน์ตัวเลขใดก็ตามในแบบจำลองข้อมูลของคุณได้ มีสามตัวเลือกสำหรับการกรองข้อมูลตัวเลขของคุณ: ระหว่างตัวเลขน้อยกว่าหรือเท่ากับตัวเลข หรือมากกว่าหรือเท่ากับตัวเลข เทคนิคง่าย ๆ นี้เป็นวิธีที่มีประสิทธิภาพในการกรองข้อมูลของคุณ
 
 ![วิชวลที่มีตัวแบ่งส่วนช่วงตัวเลข](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-0.png)
 
-## <a name="use-the-numeric-range-slicer"></a>ใช้ตัวแบ่งส่วนข้อมูลช่วงตัวเลข
+## <a name="video"></a>Video
+
+ในวิดีโอนี้ จะแสดงการสร้างตัวแบ่งส่วนข้อมูลช่วงตัวเลข
+
+> [!NOTE]
+> วิดีโอนี้ใช้ Power BI Desktop เวอร์ชันเก่า
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
+
+
+## <a name="add-a-numeric-range-slicer"></a>เพิ่มตัวแบ่งส่วนข้อมูลช่วงตัวเลข
 
 คุณสามารถใช้ตัวแบ่งส่วนข้อมูลช่วงตัวเลขได้เช่นเดียวกับที่คุณใช้ตัวแบ่งส่วนข้อมูลอื่น ๆ เพียงแค่สร้างวิชวล**ตัวแบ่งส่วนข้อมูล**สำหรับรายงานของคุณ จากนั้นเลือกค่าตัวเลขสำหรับค่า**เขตข้อมูล** ในรูปต่อไปนี้ เราได้เลือกเขตข้อมูล **LineTotal**
 

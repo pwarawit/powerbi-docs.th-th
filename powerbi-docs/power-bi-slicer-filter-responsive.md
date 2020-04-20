@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/04/2018
+ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877579"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006514"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>สร้างตัวแบ่งส่วนข้อมูล คุณสามารถปรับขนาดใน Power BI ได้
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 ตัวแบ่งส่วนข้อมูลแบบตอบสนองปรับขนาดให้พอดีกับพื้นที่บนรายงานของคุณ ตัวแบ่งส่วนข้อมูลแบบตอบสนอง คุณสามารถปรับขนาดให้มีหลายรูปร่างและขนาดที่แตกต่างกัน จากแนวนอนเป็นแนวตั้ง และค่าในตัวแบ่งส่วนข้อมูลได้จัดเรียงใหม่ด้วยตนเองเหมือนที่คุณทำอีกด้วย ใน Power BI Desktop และใน Power BI service คุณสามารถสร้างให้ตัวแบ่งส่วนข้อมูลแนวนอน และตัวแบ่งส่วนข้อมูลแบบตอบสนองตามวัน/ช่วงเวลา ตัวแบ่งส่วนข้อมูลตามวัน/ช่วงเวลา ยังได้ปรับปรุงพื้นที่สัมผัส ซึ่งง่ายต่อการเปลี่ยนแปลงด้วยปลายนิ้ว คุณสามารถทำให้ตัวแบ่งส่วนข้อมูลแบบตอบสนองเป็นขนาดเล็กหรือใหญ่ตามที่คุณต้อง แล้วพวกมันยังปรับขนาดโดยอัตโนมัติให้พอดีกับรายงาน ใน Power BI service และในแอป mobile Power BI 
 
@@ -80,4 +82,4 @@ ms.locfileid: "73877579"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [ตัวแบ่งส่วนข้อมูลในบริการ Power BI](visuals/power-bi-visualization-slicers.md)
-- มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+- มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

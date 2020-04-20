@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: dfb57d6344e6a8e020404f9cd23c957967b960f7
+ms.sourcegitcommit: a9ebab692c670192b62a31bfe99447908506251b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404176"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "81122257"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
 
@@ -96,6 +96,10 @@ ms.locfileid: "80404176"
 ### <a name="custom-security"></a>การรักษาความปลอดภัยแบบกำหนดเอง
 
 Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI ไม่รองรับการรักษาความปลอดภัยแบบกำหนดเอง ถ้ามีการกำหนดค่าเซิร์ฟเวอร์รายงาน Power BI ของคุณด้วยส่วนขยายการรักษาความปลอดภัยแบบกำหนดเอง คุณจะไม่สามารถบันทึกรายงาน Power BI จาก Power BI Desktop (ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI) ไปยังอินสแตนซ์เซิร์ฟเวอร์รายงาน Power BI ได้ คุณจำเป็นต้องบันทึกไฟล์รายงานนามสกุล .pbix จาก Power BI Desktop และอัปโหลดไปยังไซต์พอร์ทัลเซิร์ฟเวอร์รายงาน Power BI
+
+### <a name="saving-reports-to-a-power-bi-report-server-in-a-different-domain"></a>การบันทึกรายงานไปยังเซิร์ฟเวอร์รายงาน Power BI ในโดเมนอื่น
+
+เมื่อคุณบันทึกรายงาน Power BI ไปยังเซิร์ฟเวอร์รายงาน Power BI ข้อมูลประจำตัว Windows ของคุณจะถูกใช้ การบันทึกไปยังเซิร์ฟเวอร์รายงานในโดเมนอื่นโดยตรง ข้อมูลประจำตัว Windows ของคุณ จะไม่ได้รับการสนับสนุน คุณสามารถใช้เว็บเบราว์เซอร์เพื่อดูเซิร์ฟเวอร์รายงาน และอัปโหลดไฟล์จากเครื่องของคุณแทน
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop สำหรับเซิร์ฟเวอร์รายงาน Power BI เวอร์ชันก่อนหน้านี้
 
