@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 52f840d5806c10de088838cf64187b953f36aa54
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.openlocfilehash: 3277bba0a4351f17d671adf9a70aae4adb7ddbac
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "80550942"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525387"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>บทช่วยสอน: ฝังเนื้อหาของ Power BI ลงในแอปพลิเคชันสำหรับบริการคลาวด์แห่งชาติ
 
@@ -63,7 +63,7 @@ Power BI ยังสนับสนุน[บริการคลาวด์�
 3. เพิ่มพารามิเตอร์ GCC ในแฟ้ม web.config ดังนี้
 
 ```xml
-<add key="authorityUrl" value="https://login.microsoftonline.net/common/" />
+<add key="authorityUrl" value="https://login.microsoftonline.com/common/" />
 <add key="resourceUrl" value="https://analysis.usgovcloudapi.net/powerbi/api" />
 <add key="apiUrl" value="https://api.powerbigov.us/" />
 <add key="embedUrlBase" value="https://app.powerbigov.us" />

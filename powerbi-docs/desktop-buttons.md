@@ -1,20 +1,20 @@
 ---
 title: ใช้ปุ่มใน Power BI
 description: คุณสามารถเพิ่มปุ่มต่าง ๆ ในรายงาน Power BI ที่ทำให้รายงานของคุณมีลักษณะเหมือนกับแอป และเพิ่มการมีส่วนร่วมกับผู้ใช้ในเชิงลึกมากขึ้น
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/12/2020
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6629165ec031fea0d1c1af443e1d7b311bc743aa
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: c703a4b67b642af5199413e80ff1e140905a2338
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201653"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439836"
 ---
 # <a name="use-buttons-in-power-bi"></a>ใช้ปุ่มใน Power BI
 การใช้**ปุ่ม**ใน Power BI ช่วยให้คุณสร้างรายงานที่ทำงานคล้ายกับแอป สร้างสภาพแวดล้อมที่น่าสนใจแก่ผู้ใช้ ให้ผู้ใช้สามารถโฮเวอร์ คลิก และโต้ตอบกับเนื้อหา Power BI คุณสามารถเพิ่มปุ่มไปยังรายงานใน **Power BI Desktop** และใน**บริการของ Power BI** ได้ เมื่อคุณแชร์รายงานของคุณในบริการ Power BI ปุ่มเหล่านั้นจะช่วยสร้างประสบการณ์การใช้งานที่เหมือนกับแอปให้แก่ผู้ใช้ของคุณ

@@ -1,20 +1,20 @@
 ---
 title: ใช้บุ๊กมาร์ก Power BI Desktop เพื่อแชร์ข้อมูลเชิงลึก และสร้างเรื่องราว
 description: บุ๊กมาร์กใน Power BI Desktop ให้คุณบันทึกมุมมองและการตั้งค่าในรายงานของคุณ และสร้างงานนำเสนอที่เป็นเรื่องราว
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/18/2019
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 00ea3e70b34ecdaf2c5bd8b8728153bfb26f899b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: b986b86642e5ac3e6a8394010bf27922daaf5ea7
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79378995"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439928"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>สร้างบุ๊กมาร์ก Power BI Desktop เพื่อแชร์ข้อมูลเชิงลึก และสร้างเรื่องราว
 ด้วย*บุ๊กมาร์ก*ใน Power BI Desktop คุณสามารถจับภาพมุมมองที่กำหนดค่าไว้ในปัจจุบันของหน้ารายงาน รวมถึงการกรองและสถานะของวิชวล หลังจากนั้น คุณสามารถกลับไปยังสถานะดังกล่าวโดยการเลือกบุ๊กมาร์กที่บันทึกไว้ 

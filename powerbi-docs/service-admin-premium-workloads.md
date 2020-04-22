@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a252c10b247ad5fc06565139bc69fc43a9add467
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 6350c67835c097de6f065ba61c0b49b555551952
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267491"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637735"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>กำหนดค่าปริมาณงานในกำลังการผลิตแบบ Premium
 
@@ -202,8 +202,9 @@ ms.locfileid: "81267491"
 
 [แอปเมตริกความจุ Power BI Premium ](service-admin-premium-monitor-capacity.md) มีชุดข้อมูล กระแสข้อมูล และเมตริกรายงานที่มีการแบ่งหน้าเพื่อตรวจสอบปริมาณงานที่เปิดการใช้งานสำหรับความจุของคุณ 
 
-> [!IMPORTANT]
-> ถ้าความจุ Power BI Premium ของคุณกำลังประสบปัญหาการใช้ทรัพยากรสูงจนส่งผลให้เกิดปัญหาด้านประสิทธิภาพการทำงานหรือความมั่นคง คุณสามารถรับอีเมลแจ้งเตือนเพื่อทราบปัญหาและแก้ไขปัญหาได้ คุณสามารถศึกษาข้อมูลเพิ่มเติมได้ที่[ความจุและการแจ้งเตือนความมั่นคง](service-interruption-notifications.md#capacity-and-reliability-notifications)
+
+
+
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

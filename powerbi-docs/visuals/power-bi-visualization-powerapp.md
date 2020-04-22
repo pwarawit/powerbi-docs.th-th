@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3be5f9efe3a6e18ba46f6990b09952d37b967e16
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 5628a114b872b7c0d92d5079198616a20fe85b87
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79525947"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637802"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>บทช่วยสอน: ฝังวิชวล Power App ในรายงาน Power BI
 
@@ -53,7 +53,7 @@ ms.locfileid: "79525947"
 
 3. ในบานหน้าต่าง **เขตข้อมูล** ให้เลือก **ชื่อ** **รหัสผลิตภัณฑ์** และ **ขั้นตอนการขาย** 
 
-    ![เลือกเขตข้อมูล](media/power-bi-visualization-powerapp/power-bi-fields.jpg)
+    ![เลือกเขตข้อมูล](media/power-bi-visualization-powerapp/power-bi-fields.png)
 
 4. ในวิชวล Power Apps เลือกสภาพแวดล้อม Power Apps ที่คุณต้องการสร้างแอป จากนั้นเลือก **สร้างขึ้นใหม่**.
 

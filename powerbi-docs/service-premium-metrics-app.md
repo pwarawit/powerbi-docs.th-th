@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c15576ac6ab9b20a3492341c05d2f9d8eb42e107
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 80f870f1657e629786cec299484f3b3c97609e79
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813063"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637940"
 ---
 # <a name="power-bi-premium-metrics-app"></a>แอปเมตริกความจุ Power BI Premium
 
@@ -28,8 +28,9 @@ ms.locfileid: "80813063"
 
 ส่วนต่อไปนี้จะอธิบายในรายละเอียดของหน้าเริ่มต้นและหน้ารายงานเมตริกสามรายการ 
 
-> [!IMPORTANT]
-> ถ้าความจุ Power BI Premium ของคุณกำลังประสบปัญหาการใช้ทรัพยากรสูงจนส่งผลให้เกิดปัญหาด้านประสิทธิภาพการทำงานหรือความมั่นคง คุณสามารถรับอีเมลแจ้งเตือนเพื่อทราบปัญหาและแก้ไขปัญหาได้ คุณสามารถศึกษาข้อมูลเพิ่มเติมได้ที่[ความจุและการแจ้งเตือนความมั่นคง](service-interruption-notifications.md#capacity-and-reliability-notifications)
+
+
+
 
 ## <a name="premium-capacity-health-center"></a>ศูนย์ประสิทธิภาพความจุพรีเมียม
 

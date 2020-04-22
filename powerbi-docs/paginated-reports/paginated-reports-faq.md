@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 03/18/2020
-ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.date: 04/21/2020
+ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
+ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113632"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "81766290"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>รายงานที่มีการแบ่งหน้าใน Power BI คำถามที่ถามบ่อย 
 
@@ -88,6 +88,8 @@ ms.locfileid: "80113632"
 
 รายงาน power BI ได้รับการปรับให้เหมาะสำหรับการสำรวจและโต้ตอบ  เมื่อพนักงานขายต้องการแบ่งส่วนข้อมูลในรายงานยอดขายตัวเดียวกันโดยแยกตามเขตพื้นที่/อุตสาหกรรม/ลูกค้า แล้วดูการเปลี่ยนแปลงของตัวเลข การสร้างรายงาน Power BI จะดีที่สุด
 
+สำหรับข้อมูลเพิ่มเติม ดู [เมื่อใช้รายงานที่มีการแบ่งหน้าใน Power BI](../guidance/report-paginated-or-power-bi.md)
+
 ### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>เอกสารได้บอกว่าตัวสร้างรายงาน Power BI เป็นเครื่องมือการเขียนรายงานที่ผู้คนเลือกใช้ ฉันสามารถสร้างรายงานแบบแบ่งหน้าในเครื่องมือข้อมูลเซิร์ฟเวอร์ SQL ได้หรือไม่
 
 ได้ แต่บริการของ Power BI จะให้คุณอัปโหลดได้ครั้งละหนึ่งชุดเท่านั้น ดังนั้นในหลายๆ กรณีจึงยังไม่รองรับเครื่องมือข้อมูลเซิร์ฟเวอร์ SQL (SSDT) ให้ผู้เขียนได้ใช้ ดู [รายการฟีเจอร์ที่ไม่ได้รับการรับรอง](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) ฉบับเต็มได้ในภายหลัง ในส่วนคำถามที่พบบ่อยนี้  
@@ -110,10 +112,8 @@ ms.locfileid: "80113632"
 
 - แหล่งข้อมูลที่ใช้ร่วมกัน
 - ชุดข้อมูลที่แชร์
-- รายงานย่อย
 - เข้าถึงรายละเอียดและคลิกผ่านรายงานอื่น ๆ
 - รายงานที่เชื่อมโยงไว้
-- เลเยอร์แผนที่ Bing
 - ฟอนต์แบบกำหนดเอง
 
 คุณจะได้รับข้อความข้อผิดพลาดหากคุณพยายามอัปโหลดไฟล์ที่มีฟีเจอร์ที่ไม่ได้รับการรองรับในบริการของ Power BI นอกเหนือจากการสลับ/โต้ตอบ

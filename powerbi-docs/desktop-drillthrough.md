@@ -1,20 +1,20 @@
 ---
 title: ตั้งค่าการเข้าถึงรายละเอียดในรายงาน Power BI
 description: เรียนรู้วิธีใช้การเข้าถึงรายละเอียดเพื่อเจาะลึกข้อมูลในหน้ารายงานใหม่ในรายงาน Power BI
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/12/2020
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5a494341ff6ee9c5fe4b2c2119749f58f2fd540d
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 5e415fb46f845312253f37d8549a4eecb5b10ae7
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201479"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439790"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>ตั้งค่าการเข้าถึงรายละเอียดในรายงาน Power BI
 ด้วย*การเข้าถึงรายละเอียด*ในรายงาน Power BI คุณสามารถสร้างหน้าในรายงานของคุณที่มุ่งเน้นไปยังรายการเฉพาะเช่น ผู้จัดหา ลูกค้า หรือผู้ผลิต เมือผู้อ่านรายงานของคุณใช้การเข้าถึงรายละเอียด พวกเขาจะคลิกขวาที่จุดข้อมูลในหน้ารายงานอื่น ๆ แล้วเข้าถึงรายละเอียดในหน้าที่เน้น เพื่อดูรายละเอียดที่กรองตามบริบทดังกล่าว นอกจากนี้ คุณยังสามารถ[สร้างปุ่มสำหรับการเข้าถึงรายละเอียด](desktop-drill-through-buttons.md) เมื่อพวกเขาคลิกปุ่ม

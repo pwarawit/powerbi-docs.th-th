@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 268aa73506be5cc025645672f402b88646497b1c
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 86a3c1ce2bbd678a2030fc4a3bc256424f7c8ad8
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813086"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637713"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>ตรวจสอบความจุ Premium ด้วยแอป
 
@@ -22,8 +22,9 @@ ms.locfileid: "80813086"
 
 แอปถูกอัปเดตตามปกติด้วยคุณสมบัติและฟังก์ชันการทำงานใหม่ ๆ ตรวจสอบให้แน่ใจว่าคุณกำลังใช้เวอร์ชันล่าสุด ถ้าคุณได้ติดตั้งแอปเวอร์ชันก่อนหน้าแล้ว แนะนำให้ลบออกจากแอปของคุณแล้ว กด CTRL + F5 เพื่อรีเฟรช
 
-> [!IMPORTANT]
-> ถ้าความจุ Power BI Premium ของคุณกำลังประสบปัญหาการใช้ทรัพยากรสูงจนส่งผลให้เกิดปัญหาด้านประสิทธิภาพการทำงานหรือความมั่นคง คุณสามารถรับอีเมลแจ้งเตือนเพื่อทราบปัญหาและแก้ไขปัญหาได้ ซึ่งอาจเป็นวิธีที่มีประสิทธิภาพในการแก้ไขปัญหาความจุโอเวอร์โหลด คุณสามารถศึกษาข้อมูลเพิ่มเติมได้ที่[ความจุและการแจ้งเตือนความมั่นคง](service-interruption-notifications.md#capacity-and-reliability-notifications)
+
+
+
 
 ## <a name="install-the-app"></a>ติดตั้งแอป
 

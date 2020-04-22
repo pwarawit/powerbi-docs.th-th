@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 2aa62197bc9af359962f25394d4f202a945d97d8
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813109"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637923"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>กำหนดค่าและจัดการความจุใน Power BI Premium
 
@@ -95,8 +95,8 @@ ms.locfileid: "80813109"
 
     คุณไม่สามารถปรับลด P SKU ให้เป็น EM SKUs ได้ คุณสามารถเลื่อนเมาส์ไปวางเหนือตัวเลือกที่ถูกปิดใช้งานเพื่อดูคำอธิบาย
 
-> [!IMPORTANT]
-> ถ้าความจุ Power BI Premium ของคุณกำลังประสบปัญหาการใช้ทรัพยากรสูงจนส่งผลให้เกิดปัญหาด้านประสิทธิภาพการทำงานหรือความมั่นคง คุณสามารถรับอีเมลแจ้งเตือนเพื่อทราบปัญหาและแก้ไขปัญหาได้ คุณสามารถศึกษาข้อมูลเพิ่มเติมได้ที่[ความจุและการแจ้งเตือนความมั่นคง](service-interruption-notifications.md#capacity-and-reliability-notifications)
+
+
 
 
 ### <a name="manage-user-permissions"></a>จัดการสิทธิ์ผู้ใช้

@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 801af5e9c4d5306a3e77d4e82c787cc90e9cac37
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: efa5acbe70ea4541c2f9819d5260cb662ca0adac
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872778"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637877"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>แนะนำไทล์แดชบอร์ดสำหรับนักออกแบบ Power BI
 
@@ -41,7 +41,6 @@ ms.locfileid: "73872778"
 * [รายงาน](service-dashboard-pin-tile-from-report.md)
 * [แดชบอร์ดอื่น](service-pin-tile-to-another-dashboard.md)
 * [สมุดงาน Excel บน OneDrive for Business](service-dashboard-pin-tile-from-excel.md)
-* [Power BI Publisher สำหรับ Excel](publisher-for-excel.md)
 * [Quick Insights (ข้อมูลเชิงลึกด่วน)](service-insights.md)
 * [รายงานที่มีการแบ่งหน้าภายในองค์กรในเซิร์ฟเวอร์รายงาน Power BI หรือ SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
@@ -101,5 +100,5 @@ ms.locfileid: "73872778"
 - [การรวมไทล์ Power BI ลงในเอกสาร Office](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [ปักหมุดรายการ Reporting Services ไปยังแดชบอร์ด Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

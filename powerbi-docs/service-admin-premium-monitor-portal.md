@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 7f300cca6614f638f88886a913b30a93d0f52cfd
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 18ae8828ce5811b4f06038b18ff6b423562c335b
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813017"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637686"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>ตรวจสอบความจุในพอร์ทัลผู้ดูแลระบบ
 
@@ -24,8 +24,9 @@ ms.locfileid: "80813017"
 
 ถ้าคุณต้องการเมตริกที่ครอบคลุมมากขึ้น ให้ใช้แอป [Power BI Premium Capacity Metric](service-admin-premium-monitor-capacity.md) แอปนี้มีข้อมูลการเจาะลึกรายละเอียดและการกรอง และเมตริกที่มีรายละเอียดมากที่สุดสำหรับเกือบทุกแง่มุมที่มีผลต่อประสิทธิภาพของความจุ หากต้องการเรียนรู้เพิ่มเติม โปรดดู [ตรวจสอบความจุ Premium ด้วยแอป](service-admin-premium-monitor-capacity.md)
 
-> [!IMPORTANT]
-> ถ้าความจุ Power BI Premium ของคุณกำลังประสบปัญหาการใช้ทรัพยากรสูงจนส่งผลให้เกิดปัญหาด้านประสิทธิภาพการทำงานหรือความมั่นคง คุณสามารถรับอีเมลแจ้งเตือนเพื่อทราบปัญหาและแก้ไขปัญหาได้ คุณสามารถศึกษาข้อมูลเพิ่มเติมได้ที่[ความจุและการแจ้งเตือนความมั่นคง](service-interruption-notifications.md#capacity-and-reliability-notifications)
+
+
+
 
 ## <a name="system-metrics"></a>เมตริกระบบ
 
