@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5c026e2b7625a2306092f04e11aa77cb275c1f5f
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 098c01aacca7fca0621efe12367f2f66cd0d9d96
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006100"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066118"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>เคล็ดลับในการจัดรูปแบบและใช้คำอธิบายแผนภูมิในรายงาน Power BI
 
@@ -39,7 +39,7 @@ ms.locfileid: "81006100"
 
 สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
-- [เคล็ดลับในการสร้างรายงานที่น่าทึ่ง](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [เคล็ดลับในการสร้างรายงานที่น่าทึ่ง](../desktop-tips-and-tricks-for-creating-reports.md)
 - วิดีโอ biDezine: [เคล็ดลับ 6 อันดับยอดนิยมสำหรับการจัดรูปแบบคำอธิบายแผนภูมิและการดำเนินการใน Power BI](https://www.youtube.com/watch?v=r9XnHmuWkZQ)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 - มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com)

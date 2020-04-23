@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2c0d7c90c92a0a20fb7acf2985707c2bc99a69bc
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 9a1d0abc065380a30b1868710bea31d0bf1fa89f
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006606"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066161"
 ---
 # <a name="tips-to-manage-axes-in-power-bi-reports"></a>เคล็ดลับในการจัดการแกนในรายงาน Power BI
 
@@ -41,7 +41,7 @@ ms.locfileid: "81006606"
 
 สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
-- [เคล็ดลับในการสร้างรายงานที่น่าทึ่ง](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [เคล็ดลับในการสร้างรายงานที่น่าทึ่ง](../desktop-tips-and-tricks-for-creating-reports.md)
 - วิดีโอ biDezine: [เคล็ดลับ 8 อันดับยอดนิยมในการจัดการแกนใน Power BI ได้อย่างมีประสิทธิภาพ](https://www.youtube.com/watch?v=3t9W7Xvpzo0)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 - มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com)

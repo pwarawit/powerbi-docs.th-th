@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 54364162b48b591e0f8eccdeb05e07f02656632a
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 98bb0e31a8cc92f5969f62f8b2a9e03637790fc3
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006583"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065558"
 ---
 # <a name="tips-to-optimize-the-use-of-labels-in-power-bi-reports"></a>เคล็ดลับในการปรับใช้ป้ายชื่อในรายงาน Power BI ให้เหมาะสม
 
@@ -37,7 +37,7 @@ ms.locfileid: "81006583"
 
 สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
-- [เคล็ดลับในการสร้างรายงานที่น่าทึ่ง](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [เคล็ดลับในการสร้างรายงานที่น่าทึ่ง](../desktop-tips-and-tricks-for-creating-reports.md)
 - วิดีโอ biDezine: [เคล็ดลับในการปรับใช้ป้ายชื่อในรายงาน Power BI ให้เหมาะสม](https://www.youtube.com/watch?v=ywx5xUN5VQM)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 - มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com)
