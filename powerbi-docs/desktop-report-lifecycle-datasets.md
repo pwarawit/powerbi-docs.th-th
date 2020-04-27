@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 278aa4c28db97c348e683b759e8a7f9415f19c3e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 1312e56edfb17c57334af263b9f38c3dd97c1894
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79206849"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525440"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>เชื่อมต่อกับชุดข้อมูลในบริการ Power BI จาก Power BI Desktop
 
@@ -91,7 +91,7 @@ Anna สร้างรายงานและสร้างชุดข้อ
 
 หากคุไม่ได้ลงชื่อ Power BI จะพร้อมให้คุณลงชื่อ เมื่อทำการลงชื่อ Power BI แสดงพื้นที่ทำงานที่คุณเป็นสมาชิกอยู่ คุณสามารถเลือกพื้นที่ทำงานใดที่มีชุดข้อมูลที่คุณต้องการสร้างการเชื่อมต่อแบบสดของบริการ Power BI
 
-ชุดข้อมูลในรายการคือชุดข้อมูลที่แชร์ทั้งหมดที่คุณมีสิทธิ์ในการสร้างในพื้นที่ทำงานใด ๆ คุณสามารถค้นหาชุดข้อมูลที่เฉพาะ และดูชื่อ เจ้าของ พื้นที่ทำงานที่มีชุดข้อมูลและเมื่อมีการรีเฟรชล่าสุด คุณยังดูชุดข้อมูล **ENDORSMENT** ที่ผ่านการรับรองหรือเลื่อนระดับที่ด้านบนของรายการ
+ชุดข้อมูลในรายการคือชุดข้อมูลที่แชร์ทั้งหมดที่คุณมีสิทธิ์ในการสร้างในพื้นที่ทำงานใด ๆ คุณสามารถค้นหาชุดข้อมูลที่เฉพาะ และดูชื่อ เจ้าของ พื้นที่ทำงานที่มีชุดข้อมูลและเมื่อมีการรีเฟรชล่าสุด คุณยังดูชุดข้อมูล **ENDORSEMENT** ที่ผ่านการรับรองหรือเลื่อนระดับที่ด้านบนของรายการ
 
 ![รายการชุดข้อมูลที่พร้อมใช้งาน](media/desktop-report-lifecycle-datasets/desktop-select-shared-dataset.png)
 
