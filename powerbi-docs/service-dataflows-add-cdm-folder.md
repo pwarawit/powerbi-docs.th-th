@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: cc47820e5903426d4f3635c78e0dc108049f897e
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404761"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439353"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>เพิ่มโฟลเดอร์ CDM ไปยัง Power BI เป็นกระแสข้อมูล (ตัวอย่าง)
 
@@ -30,6 +30,12 @@ ms.locfileid: "80404761"
 * คุณต้องได้รับอนุญาตให้สามารถอ่านและดำเนินการ กับไฟล์และโฟลเดอร์ทั้งหมดในโฟลเดอร์ CDM เพื่อเพิ่มำฟล์และโฟลเดอร์เหล่านั้นลงใน Power BI
 
 ส่วนต่อไปนี้จะอธิบายวิธีการสร้างแบบกระแสข้อมูลจากโฟลเดอร์ CDM
+
+## <a name="authorizing-users-for-cdm-folders-to-create-a-dataflow"></a>อนุญาตผู้ใช้ให้ใช้โฟลเดอร์ CDM เพื่อสร้างกระแสข้อมูล
+
+ในการสร้างกระแสข้อมูลจากโฟลเดอร์ CDM จะต้องมีการเพิ่มสิทธิการใช้งานต่อไปนี้:
+* ผู้ใช้ที่จะเข้าถึงโฟลเดอร์ CDM ผ่าน Power BI จะต้องมีรายชื่อในบทบาท**เจ้าของสถานที่เก็บข้อมูล Blob** ของบัญชีสถานที่เก็บข้อมูล
+* ผู้ใช้ที่จะเข้าถึงโฟลเดอร์ CDM ผ่าน Power BI ต้องมี **สิทธิการอ่าน** และ **สิทธิดำเนินการ** ACL ทั้งในโฟลเดอร์ CDM เองและในไฟล์หรือโฟลเดอร์ใด ๆ ภายในโฟลเดอร์นั้น 
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>สร้างกระแสข้อมูลจากโฟลเดอร์ CDM
 

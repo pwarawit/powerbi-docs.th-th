@@ -6,23 +6,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c69e0247ecde7d6bd1cf158761a2ff9efd31d2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: de30da9c5cf6ad2046a99fb327cdad825725a14d
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881388"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637825"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>'รูปลักษณ์ใหม่' ของบริการของ Power BI
 
-บริการของ Power BI (app.powerbi.com) มีรูปลักษณ์ใหม่ซึ่งช่วยให้การดูและการโต้ตอบกับรายงานของคุณนั้นง่ายขึ้น รูปลักษณ์ใหม่นั้นใช้งานได้ง่ายขึ้นและช่วยสร้างความคุ้นเคยกับผลิตภัณฑ์ Microsoft อื่น ๆ ในบริการ Power BI เราได้จัดทำเนื้อหารายงานเป็นจุดสนใจหลักโดยเปลี่ยนเป็นธีมสีอ่อนลงและอัปเดตไอคอน ต่อไปนี้คือภาพรวมของสิ่งที่เปลี่ยนไปในรูปลักษณ์ใหม่ ดูส่วนที่มีหมายเลขสำหรับรายละเอียดต่าง ๆ:
+บริการของ Power BI (app.powerbi.com) มีรูปลักษณ์ใหม่ซึ่งช่วยให้การดูและการโต้ตอบกับรายงานของคุณนั้นง่ายขึ้น รูปลักษณ์ใหม่นั้นใช้งานได้ง่ายขึ้นและช่วยสร้างความคุ้นเคยกับผลิตภัณฑ์ Microsoft อื่น ๆ ในบริการ Power BI เราได้จัดทำเนื้อหารายงานเป็นจุดสนใจหลักโดยเปลี่ยนเป็นธีมสีอ่อนลงและอัปเดตไอคอน 
+
+ต้องการเกี่ยวกับรูปลักษณ์ใหม่ใน **Power BI Desktop** อย่างนั้นหรือ คุณสามารถอ่านได้ที่ใช้ [ชุดแถบเครื่องมือที่อัปเดตแล้วใน Power BI Desktop](desktop-ribbon.md)
+
+ต่อไปนี้คือภาพรวมของสิ่งที่เปลี่ยนไปในรูปลักษณ์ใหม่ ดูส่วนที่มีหมายเลขสำหรับรายละเอียดต่าง ๆ:
 
 ![ภาพรวมของการเปลี่ยนแปลงในรูปลักษณ์ใหม่](media/service-new-look/power-bi-new-look-changes.png)
 
-กำลังมองหาการดำเนินการที่เฉพาะเจาะจงหรือไม่ ดู ["รูปลักษณ์ใหม่": การดำเนินการไปที่ไหน](service-new-look-where-actions.md)
+กำลังมองหาการดำเนินการที่เฉพาะเจาะจงหรือไม่ ดู ["รูปลักษณ์ใหม่": การดำเนินการจะมีผลกับตำแหน่งใด](service-new-look-where-actions.md)
 
 ## <a name="quick-tour-of-the-changes"></a>การนำเสนอการเปลี่ยนแปลงแบบเร็ว
 
@@ -36,7 +40,7 @@ ms.locfileid: "73881388"
 
 ![การเลือกรับสำหรับรูปลักษณ์ใหม่](media/service-new-look/power-bi-new-look-off.png)
 
-ถ้าคุณต้องการย้อนกลับไปยังรูปลักษณ์เก่า เพียงแค่เลื่อนกลับเพื่อ**ปิด**![การเปิดรูปลักษณ์ใหม่](media/service-new-look/power-bi-new-look-toggle-on.png) หากคุณไม่เห็นรายการดังกล่าว ให้เลือกเมนูจุดไข่ปลาที่มุมขวาบน
+หากคุณต้องการย้อนกลับไปใช้รูปลักษณ์เก่า เพียงแค่เลื่อนกลับเพื่อ**ปิด**![การเปิดรูปลักษณ์ใหม่](media/service-new-look/power-bi-new-look-toggle-on.png) หากคุณไม่เห็นรายการดังกล่าว ให้เลือกเมนูจุดไข่ปลาที่มุมขวาบน
 
 ![การเลือกไม่รับสำหรับรูปลักษณ์ใหม่](media/service-new-look/power-bi-new-look-on.png)
 
@@ -87,4 +91,6 @@ ms.locfileid: "73881388"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[Power BI สำหรับผู้ใช้งาน](consumer/end-user-consumer.md)
+- [ใช้ชุดแถบเครื่องมือที่อัปเดตแล้วใน Power BI Desktop (ตัวอย่าง)](desktop-ribbon.md)
+- [เลือกใช้ 'รูปลักษณ์ใหม่' ในพื้นที่ทำงาน](collaborate-share/service-workspaces-new-look.md)
+- [Power BI สำหรับผู้ใช้งาน](consumer/end-user-consumer.md)

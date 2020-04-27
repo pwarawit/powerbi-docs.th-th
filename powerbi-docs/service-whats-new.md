@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 014e3963c0297adb4b77a71f1267f7f132944094
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488855"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439859"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
 ตรวจสอบหน้านี้สำหรับปัญหาที่ทราบแล้วและคุณลักษณะที่เผยแพร่ล่าสุดในการ**บริการ Power BI** สำหรับข้อมูล "มีอะไรใหม่" ที่เกี่ยวข้อง ดู:
@@ -29,11 +29,41 @@ ms.locfileid: "79488855"
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+### <a name="april-2020"></a>เมษายน 2020
+* พรีวิวพื้นที่ทำงาน “รูปลักษณ์ใหม่” แบบสาธารณะในบริการของ Power BI
+* ความพร้อมใช้งานทั่วไปของการออกแบบการนำทางแบบกำหนดเองสำหรับแอป [Power BI](service-create-distribute-apps.md)
+
+## <a name="previous-months-2020"></a>เดือนก่อนหน้า (2020)
+### <a name="march-2020"></a>มีนาคม 2020
+* ส่งออกรายงานไปเป็นไฟล์ PDF, PPTX และ PNG โดยใช้ Power BI REST Api
+* ประสบการณ์การค้นหาส่วนกลางในบริการของ Power BI แบบใหม่ที่ดียิ่งขึ้น
+* การปรับปรุงประสิทธิภาพการทำงานใน[ความจุพรีเมียมแบบหลายภูมิศาสตร์](service-admin-premium-multi-geo.md)
+* พรีวิว[การอ่าน/เขียนจุดสิ้นสุด XMLA](service-premium-connect-tools.md) ใน Power BI Premium แบบสาธารณะ
+
+### <a name="february-2020"></a>กุมภาพันธ์ 2562
+* ความสามารถในการเลื่อนระดับแดชบอร์ด รายงาน และแอปบนหน้าแรกของ Power BI
+* การฝังรายงานด้วย[แท็บ Power BI](service-embed-report-microsoft-teams.md) แบบใหม่ใน Microsoft Teams
+* ความพร้อมใช้งานทั่วไปของ[การรีเฟรชส่วนเพิ่ม](service-premium-incremental-refresh.md)พร้อมกับการสนับสนุนสำหรับ Power BI Pro
+* รองรับการสมัครใช้งานอีเมลสำหรับที่อยู่อีเมลภายนอก
+* ความพร้อมใช้งานทั่วไปของ [Bring Your Own Key (BYOK) ](service-encryption-byok.md)สำหรับ Power BI Premium
+
+### <a name="january-2020"></a>มกราคม 2020
+* [เมตริกการใช้งาน](service-usage-metrics.md)แบบใหม่ที่ดียิ่งขึ้นเพื่อการใช้งานพื้นที่ทำงานของ Power BI ที่ดีกว่า
+
+## <a name="2019"></a>2019
+### <a name="december-2019"></a>ธันวาคม 2019
+* API การบันทึกกิจกรรมแบบใหม่ที่ช่วยให้ผู้ดูแลระบบบริการของ Power BI ติดตามกิจกรรมของผู้ใช้และผู้เช่าได้
+
+### <a name="november-2019"></a>พฤศจิกายน 2019
+* การพรีวิว [แบบจำลองขนาดใหญ่ใน Power BI Premium] (service-premium-large-models.md] แบบสาธารณะ
+* การพรีวิวการใช้ตัวควบคุม Microsoft Cloud App Security ใน Power BI แบบสาธารณะ
+
 ### <a name="october-2019"></a>ตุลาคม 2019
 * การดำเนินการใหม่ของ Power Automate เพื่อรีเฟรชชุดข้อมูล Power BI
 * [รายการผู้ติดต่อ](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) สำหรับรายงานและแดชบอร์ดในบริการของ Power BI
+* ความพร้อมใช้งานทั่วไปของ [Automated Machine Learning] (service-machine-learning-automated)
+* การพรีวิวมุมมองสายข้อมูล Power BI แบบสาธารณะ
 
-## <a name="previous-months-2019"></a>เดือนก่อนหน้านี้(2019)
 ### <a name="september-2019"></a>กันยายน 2019
 * อัปเดตการกำหนดค่าการเชื่อมต่อสำหรับ [แอปเทมเพลต](service-template-apps-overview.md)
 

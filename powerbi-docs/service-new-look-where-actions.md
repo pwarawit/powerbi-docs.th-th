@@ -6,19 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2216fb2b18fd0f35fe9ece25ae2bfeea26672a66
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69b42452af53b8929f49a6bde6b47b0cf3cc152e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872023"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525571"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>'รูปลักษณ์ใหม่ ' การดำเนินการไปที่ไหน
 
 บริการของ Power BI (app.powerbi.com) มีรูปลักษณ์ใหม่ซึ่งช่วยให้การดูและการโต้ตอบกับรายงานของคุณนั้นง่ายขึ้น ดังนั้น จึงมีการย้ายเมนูการดำเนินการหลายเมนู ตารางในบทความนี้ทำการแม็ปตำแหน่งที่ตั้งเก่าไปยังตำแหน่งที่ตั้งใหม่ สำหรับพื้นหลัง ดู ["รูปลักษณ์ใหม่" ของบริการของ Power BI](service-new-look.md)
+
+ต้องการเกี่ยวกับรูปลักษณ์ใหม่ใน **Power BI Desktop** อย่างนั้นหรือ คุณสามารถอ่านได้ที่ใช้ [ชุดแถบเครื่องมือที่อัปเดตแล้วใน Power BI Desktop](desktop-ribbon.md)
 
 ## <a name="report-actions-in-the-new-look"></a>รายงานการดำเนินการในรูปลักษณ์ใหม่
 
@@ -56,7 +58,7 @@ ms.locfileid: "73872023"
 | เพิ่มไทล์ | เพิ่มไทล์ | แถบเมนูตัวเลือกเพิ่มเติม (...) > เพิ่มไทล์ |
 | ข้อคิดเห็น | ข้อคิดเห็น | ข้อคิดเห็น |
 | ดูรายการที่เกี่ยวข้อง | ดูรายการที่เกี่ยวข้อง | แถบเมนูตัวเลือกเพิ่มเติม (...) > ดูรายการที่เกี่ยวข้อง |
-| ตั้งเป็นแดชบอร์ดที่แนะนำ | ตั้งเป็นแดชบอร์ดที่แนะนำ| แถบเมนูตัวเลือกเพิ่มเติม (...) > ตั้งเป็นแดชบอร์ดที่แนะนำ|
+| ตั้งเป็นฟีเจอร์ | ตั้งเป็นฟีเจอร์| แถบเมนูตัวเลือกเพิ่มเติม (...) > ตั้งเป็นแดชบอร์ดที่แนะนำ|
 | รายการโปรด | รายการโปรด | รายการโปรด |
 | สมัครใช้งาน | สมัครใช้งาน |สมัครใช้งาน |
 | แชร์ | แชร์ | แชร์ |
