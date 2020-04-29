@@ -26,6 +26,8 @@
           href: power-bi-custom-visuals-organization.md
         - name: คำแนะนำสำหรับการแสดงภาพ Power BI
           href: guidelines-powerbi-visuals.md
+        - name: เคล็ดลับประสิทธิภาพ
+          href: performance-tips.md
         - name: คำถามที่พบบ่อยเกี่ยวกับวิชวล
           href: power-bi-custom-visuals-faq.md
         - name: การใช้ความสามารถ
@@ -70,6 +72,8 @@
           href: enable-sync-slicers.md
         - name: แก้จุดบกพร่องวิชวล
           href: visuals-how-to-debug.md
+        - name: การพัฒนาบนอุปกรณ์เคลื่อนที่
+          href: mobile-development.md
         - name: แก้ปัญหาวิชวล Power BI
           href: power-bi-custom-visuals-troubleshoot.md
     - name: การอ้างอิง
@@ -104,7 +108,9 @@
               href: utils-svg.md
             - name: ยูทิลิตี้ชนิด
               href: utils-type.md
-            - name: คำแนะนำเครื่องมือ
+            - name: ยูทิลิตี้ทดสอบ
+              href: utils-test.md
+            - name: คำแนะนำเครื่องมือยูทิลิตี้
               href: utils-tooltip.md
             - name: ยูทิลิตี้มุมมองข้อมูล
               href: utils-dataview.md
