@@ -1,23 +1,23 @@
 ---
-title: ฝังด้วยส่วนเว็บรายงานใน SharePoint Online
+title: ฝังส่วนเว็บรายงานใน SharePoint Online
 description: ด้วยส่วยรายงานเว็บ Power BI ใหม่ สำหรับ SharePoint Online คุณสามารถฝังรายงาน Power BI แบบโต้ตอบได้อย่างง่ายดายในหน้า SharePoint Online
-author: KesemSharabi
-ms.author: kesharab
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 12/18/2019
-ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/27/2020
+ms.openlocfilehash: 5b726137fae0087701833b2d713cf7b5a329f899
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221723"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585197"
 ---
-# <a name="embed-with-report-web-part-in-sharepoint-online"></a>ฝังด้วยส่วนเว็บรายงานใน SharePoint Online
+# <a name="embed-a-report-web-part-in-sharepoint-online"></a>ฝังส่วนเว็บรายงานใน SharePoint Online
 
 ด้วยส่วยรายงานเว็บ Power BI ใหม่ สำหรับ SharePoint Online คุณสามารถฝังรายงาน Power BI แบบโต้ตอบได้อย่างง่ายดายในหน้า SharePoint Online
 
@@ -38,9 +38,9 @@ ms.locfileid: "75221723"
 
 1. ภายใน Power BI ดูรายงาน
 
-2. เลือกเมนูดรอปดาวน์ของ**ไฟล์**แล้วเลือก**ฝังใน SharePoint Online**
+2. บนเมนูดรอปดาวน์ **ตัวเลือกเพิ่มเติม (...)** เลือก **ฝัง** > **SharePoint Online**
 
-    ![เมนูไฟล์](media/service-embed-report-spo/powerbi-file-menu.png)
+    ![เมนูตัวเลือกเพิ่มเติม, SharePoint Online](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 
 3. คัดลอก URL ของรายงานจากกล่องโต้ตอบ
 

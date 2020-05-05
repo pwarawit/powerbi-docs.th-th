@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c4db4d659c64fba8b7a79e6e36a5f27d8dd5d34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 986c09e404e0190a3efee8480d413d49cbd49186
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869375"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584820"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>แป้นพิมพ์ลัดใน Power BI Desktop
 
@@ -56,6 +56,7 @@ ms.locfileid: "73869375"
 | เลือกหลายรายการ | **Ctrl + Enter** หรือ **Ctrl + spacebar** |
 | คลิกขวา | <ul><li>คีย์บอร์ด Windows: **คีย์บริบท Windows + F10** ปุ่มเปิดเมน Windows อยู่ระหว่างแป้น Alt ซ้ายและแป้นลูกศรซ้าย</li><li>คีย์บอร์ดอื่น ๆ: **Shift + F10**</li></ul> |
 | ล้างการเลือก | **Ctrl + Shift + C** |
+| แสดงหรือซ่อนคำแนะนำเครื่องมือ | **Ctrl + H** |
 
 ## <a name="table-and-matrix-navigation"></a>การนำทางของตารางและเมทริกซ์
 | ในการดำเนินการนี้          | กดปุ่ม                |
@@ -63,7 +64,7 @@ ms.locfileid: "73869375"
 | ย้ายโฟกัสขึ้น/ลงหนึ่งเซลล์ (ทุกเซลล์ในทุกพื้นที่)  | **แป้นลูกศรขึ้น** / **แป้นลูกศรลง** |
 | ย้ายโฟกัสไปทางซ้าย/ขวาหนึ่งเซลล์ (ทุกเซลล์ในทุกพื้นที่)  | **แป้นลูกศรซ้าย** / **แป้นลูกศรขวา** |
 
-## <a name="pane-navigation"></a>การนำทางของบานหน้าต่าง
+## <a name="pane-navigation"></a>หน้าต่างการนำทาง
 | ในการดำเนินการนี้           | กดปุ่ม                |
 | :------------------- | :------------------- |
 | เลือกหลายรายการ | **Ctrl + spacebar** |

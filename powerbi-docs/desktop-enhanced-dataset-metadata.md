@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 301d6397e4a3ae4498234bae3ad8a49aa7552722
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80464634"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584672"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>การใช้เมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้ว (ตัวอย่าง)
 
@@ -46,6 +46,7 @@ ms.locfileid: "80464634"
 
 ในเวอร์ชันตัวอย่าง ข้อจำกัดต่อไปนี้จะนำไปใช้เมื่อเปิดใช้งานคุณลักษณะตัวอย่าง
 
+### <a name="unsupported-features-and-connectors"></a>คุณลักษณะและตัวเชื่อมต่อที่ไม่รองรับ
 เมื่อเปิดไฟล์ PBIX หรือ PBIT ที่มีอยู่ซึ่งยังไม่ได้รับการอัปเกรด การอัปเกรดจะล้มเหลวถ้าชุดข้อมูลประกอบด้วยคุณลักษณะหรือตัวเชื่อมต่อเหล่านี้ ถ้าเกิดความล้มเหลวดังกล่าว ไม่ควรส่งผลกระทบต่อประสบการณ์ของผู้ใช้ทันทีและ Power BI Desktop ยังคงใช้รูปแบบเมตาดาต้าก่อนหน้านี้
 
 * สคริปต์ Python
@@ -67,6 +68,8 @@ ms.locfileid: "80464634"
 
 นอกจากนี้ ไฟล์ PBIX และ PBIT ที่ได้รับการอัปเกรดเรียบร้อยแล้วเพื่อใช้ **เมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้ว** *ไม่สามารถ* ใช้คุณลักษณะหรือตัวเชื่อมต่อข้างต้นในเวอร์ชันปัจจุบันได้
 
+### <a name="lineage-view"></a>มุมมองสายข้อมูล
+ชุดข้อมูลที่ใช้รูปแบบเมตาดาต้าใหม่ในขณะนี้ไม่แสดงลิงก์ไปยังกระแสข้อมูลในมุมมองสายข้อมูลในบริการของ Power BI
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

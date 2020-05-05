@@ -1,21 +1,22 @@
 ---
 title: การสัมมนาออนไลน์ Power BI
 description: การสัมมนาออนไลน์ Power BI
-author: v-tatero
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/01/2019
+ms.date: 04/23/2020
 ms.author: kfollis
-ms.openlocfilehash: 08e1303d0f1a5ee9e0e3e4e778e3f81e0a183df5
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: cfdb4f380cd8ad9655593798f591a4c915988c43
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267560"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120102"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
+[//]: # "Tatevik Tatero คือผู้ขายที่ทำงานร่วมกับ Chauncy Freels และช่วยดูแลรายการการสัมมนาผ่านเว็บนี้"
 
 ลงทะเบียนสำหรับการสัมมนาผ่านเว็บสดของเรากำลังเกิดขึ้น หรือดูของเราเซสชันที่บันทึกไว้ตามความต้องการ
 
@@ -89,7 +90,7 @@ ms.locfileid: "81267560"
 <br>โดย Olaf Hubel และ Miguel Martinez
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
-**การกระตุ้นความสนใจแบบง่าย — เคล็ดลับสำหรับการออกแบบการการจัดรูปแบบการแสดงข้อมูลที่ดีขึ้น**
+**การกระตุ้นความสนใจแบบง่าย—เคล็ดลับสำหรับการออกแบบการแสดงผลข้อมูลด้วยภาพที่ดีขึ้น**
 <br>โดย Miranda Li
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
@@ -164,10 +165,6 @@ ms.locfileid: "81267560"
 <br>โดย Stephen Cracknell และ Stuart Macanliss จากสหรัฐอเมริกาทางแพทย์ทางด้าน IT
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
-**ข่าวกรองที่นำไปใช้สำหรับการขายและบริการ**
-<br>โดย Bobrin กระจายจาก Avanade
-<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
-
 **ผู้ผลิต: อุตสาหกรรมของคุณจะดำเนินการตามการแปลงแบบดิจิทัล - รักษาความเป็นผู้นำ โดยใช้ประโยชน์จากการวิเคราะห์เมื่อต้องการขยายผลกำไรให้เติบโตยิ่งขึ้น**
 <br>โดย Thompson "นพดล"จากระยะขอบสีน้ำเงินและ Pastor Jim จาก กลุ่ม Fastener Elgin
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
@@ -210,14 +207,14 @@ ms.locfileid: "81267560"
 <br>โดย Ted Pattison
 <br>[ดูเดี๋ยวนี้](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
-### <a name="advanced-topics"></a>หัวข้อขั้นสูง ###
+### <a name="advanced-topics"></a>หัวข้อขั้นสูง
 
 **การวิเคราะห์ข้อมูลขั้นสูงด้วย Excel และ Power BI**
 <br>โดย Nagasaikiran Kambhampati และ Miguel Martinez
 <br>[ลงทะเบียนเพื่อเข้าชม](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[ดาวน์โหลดชุดเริ่มต้นสำหรับการวิเคราะห์ข้นสูงเพื่อทำตาม](https://aka.ms/pbiaawebinar)
 
-**[ชุดข้อมูลการสัมมนาบนเว็บของการนำกรอบงานไปใช้ใน Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+**ชุดข้อมูลการสัมมนาเกี่ยวกับเฟรมเวิร์มการปรับใช้ Power BI**
 <br>โดย Manu Kanwarpal และ Paul Henwood
 <br>[ลงทะเบียนและรับชมทันที - ส่วนที่ 1 - การนำมาใช้: ปรับวิถีการส่งข้อมูล](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
 <br>[ลงทะเบียนและรับชมทันที - ส่วนที่ 2 - การกำกับดูแล: ควบคุมการใช้งาน Power BI ของคุณ](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
@@ -225,36 +222,13 @@ ms.locfileid: "81267560"
 <br>[ลงทะเบียนและรับชมทันที - ส่วนที่ 4 - ความปลอดภัย: รักษาข้อมูลของคุณให้ปลอดภัยอยู่เสมอด้วย Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
 <br>[ลงทะเบียนและรับชมทันที - ส่วนที่ 5 - ใช้งานจริง: เผยแพร่ Power BI เรียบร้อยแล้ว](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
-**ชุดข้อมูลการสัมมนาบนเว็บของผู้เชี่ยวชาญด้านการเงินของ Office 365**
-<br>โดย Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky และ Miguel Martinez
-<br>เรียนรู้เคล็ดลับ คำแนะนำ และแนวทางปฏิบัติเพื่อทำงานแบบวันต่อวันให้สำเร็จได้มากขึ้นโดยใช้ Office 365
-<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://aka.ms/Office365FinanceProsPBI)
-
 **จงเป็นนักรบระบบของ Power BI – คำแนะนำของฟีเจอร์ขั้นสูงที่สุดของ Power BI ผ่านข้อมูล Star Wars**
 <br>โดย Gil Raviv
 <br>[ดูเดี๋ยวนี้](https://www.youtube.com/watch?v=r0Qk5V8dvgg)
 
-**วิธีการใช้กลยุทธ์การกำกับดูแลข้อมูลประสบความสำเร็จที่ทำให้องค์กรของคุณปลอดภัยมากยิ่งขึ้น**
-<br>โดย Ajay Anandan
-<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
-
-**เพื่อเร่งทันสมัย BI นำมาใช้กับ Power BI Premium**
-<br>โดย Sirui Sun และ Miguel Martinez
-<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
-
-**มีอะไรใหม่ และน่าสนใจในเซิร์ฟเวอร์รายงาน Power BI**
-<br>โดย Riccardo Muti, Chris Finlan และ Chinmay Joshi
-<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
-
-**วิธีที่ Microsoft ทำ Power BI**
-<br>โดย Kirkland Barrett
-<br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
-
-## <a name="see-also"></a>ดูที่ด้านล่างด้วยเช่นกัน
+## <a name="see-also"></a>อาจดูได้จาก
 
 - [เอกสารทางเทคนิคการ power BI](whitepapers.md)
-
-- [เซสชันตามความต้องการ Microsoft 2017 ประชุมสุดยอดด้านข้อมูลเชิงลึกของข้อมูล](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
 - [Power BI คืออะไร](fundamentals/power-bi-overview.md)
 

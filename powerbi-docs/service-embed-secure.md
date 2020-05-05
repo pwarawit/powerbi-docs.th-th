@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4be8a1ce88d50461ca51bb65278b823046459e30
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488832"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585039"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>ฝังรายงานในพอร์ทัลความปลอดภัยหรือเว็บไซต์
 
@@ -22,11 +22,13 @@ ms.locfileid: "79488832"
 
 ตัวเลือก**ฝังตัว** รองรับ [ตัวกรอง URL](service-url-filters.md) และการตั้งค่า URL ซึ่งช่วยให้คุณสามารถบูรณาการร่วมกับพอร์ทัลโดยใช้วิธีการที่เขียนโค้ดน้อยมากซึ่งต้องการเพียงความรู้พื้นฐาน HTML และ JavaScript เท่านั้น
 
-## <a name="how-to-embed-power-bi-reports-into-portals"></a>วิธีการ**ฝัง**รายงาน Power BI ลงในพอร์ทัล
+## <a name="how-to-embed-power-bi-reports-into-portals"></a>วิธีการฝังรายงาน Power BI ลงในพอร์ทัล
 
-1. ใหม่**ฝัง**ตัวเลือกจะพร้อมใช้งานบนการ**ไฟล์**เมนูสำหรับรายงานในบริการ Power BI
+1. เปิดรายงานใน Power BI
 
-    ![ตัวเลือกดรอปดาวน์ของตัวเลือกแบบฝังการรักษาความปลอดภัย](media/service-embed-secure/secure-embed-drop-down-menu.png)
+2. บนเมนู**ตัวเลือกเพิ่มเติม (...)**  เลือก **ฝังตัว** >  **เว็บไซต์หรือพอร์ทัล** 
+
+    ![ตัวเลือกเว็บไซต์หรือพอร์ทัล](media/service-embed-secure/power-bi-more-options-website.png)
 
 2. เลือกตัวเลือก**ฝังตัว** เพื่อเปิดกล่องโต้ตอบที่จัดเตรียมลิงก์และ iFrame ที่คุณสามารถใช้เพื่อฝังรายงานได้อย่างปลอดภัย
 

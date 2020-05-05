@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/21/2020
-ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
-ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
+ms.date: 04/29/2020
+ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "81766290"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584993"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>รายงานที่มีการแบ่งหน้าใน Power BI คำถามที่ถามบ่อย 
 
@@ -173,6 +173,11 @@ ms.locfileid: "81766290"
 ### <a name="can-you-search-for-paginated-reports-from-the-new-home-experience-in-the-power-bi-service"></a>คุณสามารถค้นหารายงานแบบแบ่งหน้าจากส่วนใช้งานหน้าหลักตัวใหม่ในบริการของ Power BI ได้หรือไม่
 
 ใช่ คุณสามารถค้นหารายงานแบบแบ่งหน้าของคุณจากหน้าหลักได้  และคุณจะเห็นตัวรายงานอยู่ในส่วนใช้งานหน้าหลักใหม่ส่วนอื่นๆ
+
+## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
+นี่คือสิ่งที่ควรทราบเมื่อทำงานกับเขตข้อมูล DateTime ในรายงานที่มีการแบ่งหน้า
+
+- ขณะนี้มีข้อจำกัดทั่วโลกบางอย่างที่เกี่ยวข้องกับพารามิเตอร์ DateTime พารามิเตอร์ DateTime ทั้งหมดในบริการของ Power BI จะถูกนำมาใช้ในรูปแบบสหรัฐอเมริกา (ดด/วว/ปปปป) โดยไม่คำนึงถึงวิธีที่คุณออกแบบ DataTime ในตัวสร้างรายงาน Power BI
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

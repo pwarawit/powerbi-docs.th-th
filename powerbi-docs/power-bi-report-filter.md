@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/17/2020
+ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8dfc6e872b67605a262c7390b91703649a2cfb0f
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 548c76e2d344e996d367cba810bf42442af8d27d
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114091"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120329"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>ทำงานกับตัวกรองในรายงาน Power BI
 
@@ -257,6 +257,10 @@ Power BI Desktop มรชุดแถบเครื่องมือใหม
 ภายในหัวข้อประสบการณ์ใช้งานการกรองของการตั้งค่ารายงาน คุณมีตัวเลือกในการควบคุมว่าผู้ใช้สามารถเปลี่ยนชนิดตัวกรองได้หรือไม่
 
 ![จำกัดการเปลี่ยนแปลงสำหรับชนิดตัวกรอง](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
+
+## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
+
+การเผยแพร่ไปยังเว็บไม่แสดงบานหน้าต่างตัวกรอง ถ้าคุณกำลังวางแผนที่จะเผยแพร่รายงานไปยังเว็บ ให้พิจารณาเพิ่มตัวแบ่งส่วนข้อมูลสำหรับการกรอง
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

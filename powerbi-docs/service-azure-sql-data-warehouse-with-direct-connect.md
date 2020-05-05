@@ -8,14 +8,14 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 06/20/2018
+ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 932c13b84184ad237879e33e943d85020640dd4c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 472eacea2a84d1f4a71d6869406e17f2ffd03e6b
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698335"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82255886"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse พร้อม DirectQuery
 
@@ -61,7 +61,7 @@ Azure SQL Data Warehouse พร้อม DirectQuery ช่วยให้คุ
 
     ![ฐานข้อมูล](media/service-azure-sql-data-warehouse-with-direct-connect/databases.png)
 
-3. เลือก**SQL Data Warehouse** \> **เชื่อมต่อ**
+3. เลือก **SQL Data Warehouse** \> **เชื่อมต่อ**
 
     ![Azure SQL DW ที่มีการเชื่อมต่อโดยตรง](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 
@@ -88,7 +88,7 @@ Azure SQL Data Warehouse พร้อม DirectQuery ช่วยให้คุ
 
 สามารถค้นหาชื่อเซิร์ฟเวอร์และชื่อฐานข้อมูลแบบเต็มของคุณได้ในพอร์ทัล Microsoft Azure โปรดสังเกตว่ามีเฉพาะ SQL Data Warehouse เท่านั้นที่ปรากฏในพอร์ทัล Azure ในขณะนี้
 
-![พอร์ทัล Azure](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
+![พอร์ทัล Microsoft Azure](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 > [!NOTE]
 > ถ้าผู้เช่า Power BI ของคุณอยู่ในภูมิภาคเดียวกันกับ Azure SQL Data Warehouse จะไม่มีค่าธรรมเนียมขาออก คุณสามารถค้นหาตำแหน่งที่ผู้เช่า Power BI ของคุณอยู่โดยใช้[คำแนะนำเหล่านี้](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located)ได้
@@ -101,4 +101,4 @@ Azure SQL Data Warehouse พร้อม DirectQuery ช่วยให้คุ
 * [รับข้อมูลสำหรับ Power BI](service-get-data.md)  
 * [คลังข้อมูล Azure SQL](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
