@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: ab629c15f1e1e998c3870b95993cdf7348cb15ff
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872843"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>สร้างมุมมองโทรศัพท์สำหรับแดชบอร์ดใน Power BI
@@ -38,7 +38,7 @@ ms.locfileid: "73872843"
    ![แถบแดชบอร์ด](media/service-dashboard-copy/power-bi-copied.png)
 
 5.    เปิดแดชบอร์ดใหม่ละแก้ไขตามความจำเป็น นี่คือบางสิ่งที่คุณอาจต้องการทำต่อไป    
-    a. [ย้าย เปลี่ยนชื่อ ปรับขนาด หรือแม้กั่งลบไทล์](service-dashboard-edit-tile.md)  
+    ก. [ย้าย เปลี่ยนชื่อ ปรับขนาด หรือแม้กั่งลบไทล์](service-dashboard-edit-tile.md)  
     b. แก้ไขรายละเอียดไทล์และไฮเปอร์ลิงก์ โดยเลือก**ตัวเลือกเพิ่มเติม** (...) ของไทล์ แล้วเลือก**แก้ไขรายละเอียด**  
     c. [เพิ่มไทล์ใหม่จากแถบเมนูแดชบอร์ด](service-dashboard-add-widget.md) (**เพิ่มไทล์**)  
     d. ปักหมุดไทล์ใหม่[จาก Q&A](service-dashboard-pin-tile-from-q-and-a.md)หรือ[จากรายงาน](service-dashboard-pin-tile-from-report.md)  

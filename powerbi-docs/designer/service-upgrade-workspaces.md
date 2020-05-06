@@ -10,10 +10,10 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 266a8609123f05f258daee60f6ae17f032ebae29
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/23/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74410827"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>อัปเกรดพื้นที่ทำงานแบบคลาสสิกเป็นพื้นที่งานใหม่ใน Power BI
@@ -115,7 +115,7 @@ ms.locfileid: "74410827"
 
 2. ในหัวข้อ**ขั้นสูง** **รายชื่อผู้ติดต่อ**ของพื้นที่ทำงานจะถูกกำหนดค่าเป็นกลุ่ม Office 365 ที่มีการอัปเกรดพื้นที่ทำงาน คุณจะเพิ่มผู้ใช้หรือกลุ่มไปยังรายชื่อผู้ติดต่อหรือสลับไปยังผู้ดูแลระบบพื้นที่ทำงานได้
 
-    ![รายชื่อผู้ติดต่อ](media/service-upgrade-workspaces/power-bi-contact-list-workspace.png)
+    ![รายการที่ติดต่อ](media/service-upgrade-workspaces/power-bi-contact-list-workspace.png)
 
 ### <a name="the-workspace-onedrive"></a>OneDrive ของพื้นที่ทำงาน 
 
@@ -212,4 +212,4 @@ ms.locfileid: "74410827"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [สร้างพื้นที่ทำงานใหม่ใน Power BI](../service-create-the-new-workspaces.md)
 * [สร้างพื้นที่ทำงานแบบคลาสสิก](../service-create-workspaces.md)
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+* มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872682"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>เชื่อมต่อไปยังแหล่งข้อมูลสำหรับกระแสข้อมูล Power BI
@@ -54,23 +54,23 @@ ms.locfileid: "73872682"
 * Power BI
 * Azure
 * บริการออนไลน์
-* อื่นๆ
+* อื่น ๆ
 
 หมวดหมู่แบบ **หมวดหมู่ทั้งหมด** มีแหล่งข้อมูลทั้งหมดจากทุกหมวดหมู่ 
 
 หมวดหมู่ **ไฟล์** ประกอบด้วยการเชื่อมต่อข้อมูลที่ใช้ได้สำหรับกระแสข้อมูลต่อไปนี้:
 
-* การเข้าถึง
+* Access
 * Excel
 * JSON
-* ข้อความ/CSV
+* Text/CSV
 * XML
 
 หมวดหมู่ **ฐานข้อมูล** ประกอบด้วยการเชื่อมต่อข้อมูลที่ใช้ได้สำหรับกระแสข้อมูลต่อไปนี้:
 
 * ฐานข้อมูล IBM DB2
-* ฐานข้อมูล MySQL
-* ฐานข้อมูล Oracle
+* ฐานข้อมูล MySql
+* Oracle Database
 * ฐานข้อมูล PostgreSQL
 * ฐานข้อมูล SQL Server
 * ฐานข้อมูล Sybase
@@ -86,7 +86,7 @@ ms.locfileid: "73872682"
 * Azure Blobs
 * ตัวสำรวจข้อมูลของ Azure
 * คลังข้อมูล Azure SQL
-* ฐานข้อมูล Azure SQL
+* Azure SQL Database
 * ตาราง Azure
 
 หมวดหมู่ **บริการออนไลน์** ประกอบด้วยการเชื่อมต่อข้อมูลที่ใช้ได้สำหรับกระแสข้อมูลต่อไปนี้:
@@ -94,7 +94,7 @@ ms.locfileid: "73872682"
 * Amazon Redshift
 * Common Data Service สำหรับแอป
 * Microsoft Exchange Online
-* ออบเจ็กต์ Salesforce
+* Salesforce Objects
 * รายงาน Salesforce
 * รายการ SharePoint Online
 * Smartsheet
@@ -104,10 +104,10 @@ ms.locfileid: "73872682"
 * Active Directory
 * OData
 * รายการ SharePoint
-* API เว็บ
+* API ของเว็บ
 * เว็บเพจ
 * ตารางว่างเปล่า
-* คิวรีที่ว่างเปล่า
+* Blank Query
 
 
 ## <a name="connecting-to-a-data-source"></a>เชื่อมต่อกับแหล่งข้อมูล

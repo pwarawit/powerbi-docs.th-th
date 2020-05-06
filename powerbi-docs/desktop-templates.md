@@ -10,10 +10,10 @@ ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 25ed90dba0c164a44d691f8247023f2ff7e0a67f
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/01/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76913539"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>สร้างเทมเพลตของรายงานสำหรับ Power BI Desktop
@@ -66,7 +66,7 @@ ms.locfileid: "76913539"
 
 เมื่อมีการระบุพารามิเตอร์และข้อมูลแล้ว รายงานจะถูกสร้างขึ้นซึ่งประกอบด้วยหน้า วิชวล วัตถุแบบจำลองข้อมูล และคิวรีทั้งหมดที่เป็นส่วนหนึ่งของรายงานที่มีการใช้เทมเพลต 
 
-เท่านี้ก็เรียบร้อย การสร้างและการใช้เทมเพลตรายงานใน Power BI Desktop นั้นง่ายดาย ช่วยให้คุณสร้างเค้าโครงที่น่าสนใจและลักษณะอื่นของรายงาน และแบ่งปันกับผู้อื่นได้อย่างง่ายดาย
+เสร็จแล้ว! การสร้างและการใช้เทมเพลตรายงานใน Power BI Desktop นั้นง่ายดาย ช่วยให้คุณสร้างเค้าโครงที่น่าสนใจและลักษณะอื่นของรายงาน และแบ่งปันกับผู้อื่นได้อย่างง่ายดาย
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 นอกจากนี้ คุณอาจสนใจที่จะเรียนรู้เพิ่มเติมเกี่ยวกับ **พารามิเตอร์แบบสอบถาม**:
@@ -75,7 +75,7 @@ ms.locfileid: "76913539"
 นอกจากนี้ยังมีอีกหลายสิ่งที่คุณสามารถทำได้ด้วย Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับขีดความสามารถ กรุณาดูแหล่งทรัพยากรต่อไปนี้:
 
 * [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
-* [ภาพรวมคิวรี่กับ Power BI Desktop](desktop-query-overview.md)
+* [ภาพรวมคิวรี ด้วย Power BI Desktop](desktop-query-overview.md)
 * [ชนิดข้อมูลใน Power BI Desktop](desktop-data-types.md)
 * [จัดรูปทรง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
-* [งานคิวรี่ที่ใช้บ่อยใน Power BI Desktop](desktop-common-query-tasks.md)    
+* [งานคิวรี่ทั่วไปใน Power BI Desktop](desktop-common-query-tasks.md)    

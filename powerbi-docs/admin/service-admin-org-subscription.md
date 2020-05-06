@@ -10,10 +10,10 @@ ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 28acd982faed44a0912a486262c9db7611531265
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81447498"
 ---
 # <a name="get-a-power-bi-subscription-for-your-organization"></a>รับการสมัครใช้งาน Power BI สำหรับองค์กรของคุณ
@@ -69,7 +69,7 @@ ms.locfileid: "81447498"
 
 7. ในส่วน **คุณต้องการจำนวนผู้ใช้กี่ราย** ให้กรอกจำนวนสิทธิ์การเข้าถึงที่ต้องการซื้อ จากนั้นเลือก **ชำระเงินตอนนี้** เพื่อเสร็จสิ้นการทำธุรกรรม
 
-8. หากต้องการตรวจสอบการซื้อของคุณ ให้ไปที่ **การเรียกเก็บเงิน** > **ผลิตภัณฑ์และบริการ** และค้นหา **Power BI Pro**
+8. หากต้องการตรวจสอบการซื้อของคุณ ให้ไปที่ **การเรียกเก็บเงิน** > **ผลิตภัณฑ์และบริการ** และค้นหา **Power BI Pro** 
 
 หากต้องการอ่านข้อมูลเพิ่มเติมเกี่ยวกับวิธีที่องค์กรของคุณรับบริการ Power BI โปรดดู [Power BI ในองค์กรของคุณ](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)
 

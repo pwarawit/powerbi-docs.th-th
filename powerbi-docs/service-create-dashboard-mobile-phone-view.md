@@ -10,10 +10,10 @@ ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 75152d546bc2dc622210d5b9e5933ee44fbdc0b7
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872862"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>ปรับแดชบอร์ดให้เหมาะสมสำหรับโทรศัพท์มือถือ-Power BI 
@@ -57,6 +57,6 @@ ms.locfileid: "73872862"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [สร้างรายงานที่ปรับให้เหมาะสมสำหรับแอปมือถือ Power BI](desktop-create-phone-report.md)
-* [สร้างภาพแบบตอบสนองที่ปรับให้เหมาะสมกับทุกขนาด](visuals/desktop-create-responsive-visuals.md)
+* [สร้างวิชวลแบบตอบสนองที่ปรับให้เหมาะสมกับทุกขนาด](visuals/desktop-create-responsive-visuals.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

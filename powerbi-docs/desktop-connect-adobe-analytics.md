@@ -10,10 +10,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 097c3e5be411c05a99df75bca5ec3e7abe0b19e0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878645"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>เชื่อมต่อกับ Adobe Analytics ใน Power BI Desktop 
@@ -30,11 +30,11 @@ ms.locfileid: "73878645"
 
 ![ลงชื่อเข้าใช้ Adobe Analytics](media/desktop-connect-adobe-analytics/connect-adobe-analytics_03.png)
 
-เมื่อได้รับการร้องขอ ให้ใส่ชื่อผู้ใช้และรหัสผ่านของคุณ ทันทีที่การเชื่อมต่อสำเร็จ คุณสามารถดูตัวอย่างและเลือกมิติและหน่วยวัดต่าง ๆ ภายในกล่องโต้ตอบ**ตัวนำทาง** Power BI เพื่อสร้างผลลัพธ์หนึ่งตาราง คุณยังสามารถใส่ค่าพารามิเตอร์ใด ๆ ที่จำเป็นสำหรับรายการที่เลือกไว้ 
+เมื่อได้รับการถาม ให้ใส่ชื่อผู้ใช้และรหัสผ่านของคุณ ทันทีที่การเชื่อมต่อสำเร็จ คุณสามารถดูตัวอย่างและเลือกมิติและหน่วยวัดต่าง ๆ ภายในกล่องโต้ตอบ**ตัวนำทาง** Power BI เพื่อสร้างผลลัพธ์หนึ่งตาราง คุณยังสามารถใส่ค่าพารามิเตอร์ใด ๆ ที่จำเป็นสำหรับรายการที่เลือกไว้ 
 
 ![เลือกข้อมูลโดยใช้ตัวนำทาง](media/desktop-connect-adobe-analytics/connect-adobe-analytics_04.png)
 
-คุณสามารถ**โหลด**ตารางที่เลือก ซึ่งจะนำทั้งตารางลงใน **Power BI Desktop** หรือคุณสามารถ**แก้ไข**คิวรี ซึ่งจะเปิด**ตัวแก้ไขคิวรี**เพื่อให้คุณสามารถกรองและปรับปรุงชุดข้อมูลที่ต้องการใช้ จากนั้นจึงโหลดชุดข้อมูลที่ปรับปรุงแล้วลงใน **Power BI Desktop**
+คุณสามารถ**โหลด**ตารางที่เลือก ซึ่งจะรวมทั้งตารางลง ใน **Power BI Desktop** หรือคุณสามารถ**แก้ไข**คิวรี ซึ่งจะเปิด**ตัวแก้ไขคิวรี**เพื่อให้คุณสามารถกรองและปรับปรุงชุดข้อมูลที่ต้องการใช้ จากนั้นโหลดชุดข้อมูลที่ปรับปรุงแล้วลงใน **Power BI Desktop**
 
 ![โหลดหรือแก้ไขข้อมูลในตัวนำทาง](media/desktop-connect-adobe-analytics/connect-adobe-analytics_05.png)
 
@@ -44,7 +44,7 @@ ms.locfileid: "73878645"
 
 * [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
-* [จัดรูปทรงและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [จัดรูปทรง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [เชื่อมต่อกับเวิร์กบุ๊ก Excel ใน Power BI Desktop](desktop-connect-excel.md)   
-* [ป้อนข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
+* [ใส่ข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
 

@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 679c3e8c3d94c93899e9dcfae1e57f4b678fb218
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73800170"
 ---
 Power BI ให้คุณสร้างความสัมพันธ์ระหว่างหลายตาราง รวมถึงตารางที่มาจากแหล่งข้อมูลที่แตกต่างกันโดยสิ้นเชิง คุณสามารถดูความสัมพันธ์เหล่านั้นสำหรับรูปแบบข้อมูลใดๆ ได้ในมุมมอง **ความสัมพันธ์** ของ Power BI Desktop

@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.openlocfilehash: 3546254c8bff56ac4caefbdd0b5f8df901256a59
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77527579"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>การสนับสนุนเบราว์เซอร์สำหรับ Power BI Report Server
@@ -30,7 +30,7 @@ Power BI Report Server เผยแพร่เพียงไม่กี่ค
 
 | **เวอร์ชัน** | **วันที่พร้อมใช้งาน** | **วันที่สิ้นสุดการสนับสนุน** |
 | --- | --- | --- |
-| มิถุนายน ค.ศ. 2017 |12 มิถุนายน 2017 |ไม่สนับสนุนอีกต่อไป |
+| มิถุนายน 2017 |12 มิถุนายน 2017 |ไม่สนับสนุนอีกต่อไป |
 | ตุลาคม 2017 |31 ตุลาคม 2017 | ไม่สนับสนุนอีกต่อไป |
 | มีนาคม 2018 | 19 มีนาคม 2018 | ไม่สนับสนุนอีกต่อไป |
 | สิงหาคม 2018 | 15 สิงหาคม 2018 | ไม่สนับสนุนอีกต่อไป |

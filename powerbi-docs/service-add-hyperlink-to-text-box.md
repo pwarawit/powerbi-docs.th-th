@@ -11,10 +11,10 @@ ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 2de2cd80dbffc8c65a4577fffd6a8e41bc6116d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873796"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>เพิ่มการเชื่อมโยงหลายมิติไปยังกล่องข้อความในรายงาน
@@ -43,7 +43,7 @@ ms.locfileid: "73873796"
    ![พิมพ์ หรือวาง URL ลงในเขตข้อมูลการเชื่อมโยงหลายมิติ](media/service-add-hyperlink-to-text-box/power-bi-add-link.png)
 5. ทดสอบลิงก์:  
 
-   a. วางเคอร์เซอร์ของคุณที่ใดก็ได้ในการเชื่อมโยงหลายมิติอันใหม่ในกล่องข้อความเพื่อแสดง URL ในเขตข้อมูลการเชื่อมโยงหลายมิติ  
+   ก. วางเคอร์เซอร์ของคุณที่ใดก็ได้ในการเชื่อมโยงหลายมิติอันใหม่ในกล่องข้อความเพื่อแสดง URL ในเขตข้อมูลการเชื่อมโยงหลายมิติ  
      
       ![การเชื่อมโยงหลายมิติในกล่องข้อความ](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
    
@@ -62,5 +62,5 @@ ms.locfileid: "73873796"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [กล่องข้อความและรูปร่างในรายงาน Power BI](power-bi-reports-add-text-and-shapes.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

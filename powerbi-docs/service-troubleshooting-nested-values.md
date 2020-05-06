@@ -1,5 +1,5 @@
 ---
-title: การแก้ไขปัญหาค่าที่ซ้อนกันกลับคืนเป็นข้อความใน Power BI Service
+title: การแก้ไขปัญหาค่าที่ซ้อนกันกลับคืนเป็นข้อความในบริการ Power BI
 description: เรียนรู้เกี่ยวกับวิธีแก้ไขปัญหาค่าที่ซ้อนกันที่ถูกแปลงเป็นสตริเมื่อใช้การตั้งค่าความเป็นส่วนตัวของแหล่งข้อมูลที่ไม่เหมาะสม
 author: cpopell
 ms.reviewer: ''
@@ -11,10 +11,10 @@ ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
 ms.openlocfilehash: ab40ca9c415dacf52f4d82eb2c157d57aef92f93
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871284"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>การแก้ไขปัญหาค่าที่ซ้อนกันกลับคืนเป็นข้อความในบริการ Power BI

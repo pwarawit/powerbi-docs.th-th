@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874305"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>การสนับสนุนเบราว์เซอร์สำหรับเซิร์ฟเวอร์รายงาน Power BI
@@ -71,11 +71,11 @@ ms.locfileid: "73874305"
 
 | **ชนิดของเบราว์เซอร์** | **การสนับสนุน** | **ค่าเริ่มต้นของเบราว์เซอร์** | **ค่าเริ่มต้นของเซิร์ฟเวอร์** |
 | --- | --- | --- | --- |
-| **Microsoft Edge** (+) |Negotiate, Kerberos, NTLM, Basic |Negotiate |ใช่ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Edge |
-| **Microsoft Internet Explorer** |Negotiate, Kerberos, NTLM, Basic |Negotiate |ใช่ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Internet Explorer |
-| **Google Chrome**(+) |Negotiate, NTLM, Basic |Negotiate |ใช่ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Chrome |
-| **Mozilla Firefox**(+) |NTLM, Basic |NTLM |ใช่ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Firefox |
-| **Apple Safari**(+) |NTLM, Basic |Basic |ใช่ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Safari |
+| **Microsoft Edge** (+) |Negotiate, Kerberos, NTLM, Basic |Negotiate |ได้ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Edge |
+| **Microsoft Internet Explorer** |Negotiate, Kerberos, NTLM, Basic |Negotiate |ได้ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Internet Explorer |
+| **Google Chrome**(+) |Negotiate, NTLM, Basic |Negotiate |ได้ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Chrome |
+| **Mozilla Firefox**(+) |NTLM, Basic |NTLM |ได้ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Firefox |
+| **Apple Safari**(+) |NTLM, Basic |พื้นฐาน |ได้ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Safari |
 
  **(+)** รุ่นล่าสุดที่เผยแพร่สาธารณะ
 
@@ -116,5 +116,5 @@ Your browser does not support scripts or has been configured to not allow script
 [ดาวน์โหลดตัวสร้างรายงาน](https://www.microsoft.com/download/details.aspx?id=53613)  
 [ดาวน์โหลด SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

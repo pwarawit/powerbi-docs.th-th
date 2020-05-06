@@ -10,10 +10,10 @@ ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: ced98b8290059b3098ce83efdd05bb2a20e2d5ee
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761145"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>จัดกลุ่มวิชวลในรายงาน Power BI Desktop
@@ -70,7 +70,7 @@ ms.locfileid: "75761145"
 
 * [การจัดกลุ่มใน Power BI Desktop - วิดีโอ](https://youtu.be/sf4n7VXoQHY?t=10)
 
-คุณอาจสนใจบทความต่อไปนี้:
+คุณอาจมีความสนใจบทความต่อไปนี้:
 
 * [ใช้ตัวเจาะเข้าถึงรายละเอียดข้ามรายงานใน Power BI Desktop](desktop-cross-report-drill-through.md)
 * [การใช้ตัวแบ่งส่วนข้อมูล Power BI Desktop](visuals/power-bi-visualization-slicers.md)

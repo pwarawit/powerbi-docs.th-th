@@ -10,10 +10,10 @@ ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 0ccc32a18098673034e7f37b92f8edb5636ef21d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872541"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>ลบเกือบทุกสิ่งในบริการ Power BI
@@ -56,7 +56,7 @@ ms.locfileid: "73872541"
 
 ### <a name="to-delete-a-workbook"></a>การลบสมุดงาน
 1. ในพื้นที่ทำงานของคุณ เลือกแถบ**สมุดงาน**
-2. ค้นหาสมุดงานที่ต้องการลบแล้วเลือก ลบ ![ไอคอนลบ](media/service-delete/power-bi-delete-report2.png) ไอคอน
+2. ค้นหาสมุดงานที่ต้องการลบแล้วเลือก ลบ ![ไอคอนลบ](media/service-delete/power-bi-delete-report2.png) icon.
 
     ![แถบสมุดงาน](media/service-delete/power-bi-delete-workbooknew.png)
 3. ยืนยันการลบ
@@ -140,4 +140,4 @@ ms.locfileid: "73872541"
 * [ลบแผ่นแดชบอร์ดหนึ่ง](service-dashboard-edit-tile.md)
 * [ลบภาพการแสดงภาพรายงาน](service-delete.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

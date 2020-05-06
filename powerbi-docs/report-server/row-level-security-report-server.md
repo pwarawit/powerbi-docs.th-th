@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
 ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859177"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>การรักษาความปลอดภัยระดับแถว (RLS) ในเซิร์ฟเวอร์รายงาน Power BI
@@ -105,7 +105,7 @@ ms.locfileid: "73859177"
 
 ### <a name="can-i-use-rls-to-limit-the-columns-or-measures-accessible-by-my-users"></a>ฉันสามารถใช้ RLS เพื่อจำกัดคอลัมน์หรือหน่วยวัดที่สามารถเข้าถึงโดยผู้ใช้ของฉันได้หรือไม่ 
 
-หมายเลข ถ้าผู้ใช้มีสิทธิ์เข้าถึงแถวเฉพาะของข้อมูล พวกเขาสามารถเห็นคอลัมน์ทั้งหมดของข้อมูลสำหรับแถวนั้น 
+ไม่ ถ้าผู้ใช้มีสิทธิ์เข้าถึงแถวเฉพาะของข้อมูล พวกเขาสามารถเห็นคอลัมน์ทั้งหมดของข้อมูลสำหรับแถวนั้น 
 
 ### <a name="does-rls-let-me-hide-detailed-data-but-give-access-to-data-summarized-in-visuals"></a>RLS อนุญาตให้ฉันซ่อนข้อมูลรายละเอียด แต่ให้สิทธิ์การเข้าถึงข้อมูลที่สรุปไว้ในภาพหรือไม่? 
 
@@ -121,4 +121,4 @@ ms.locfileid: "73859177"
 [เซิร์ฟเวอร์รายงาน Power BI คืออะไร](get-started.md) 
 [ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

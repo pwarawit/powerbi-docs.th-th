@@ -10,10 +10,10 @@ ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: b766cc4eae71b94a28e12ba989f85542fec2ab83
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871992"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>บทนำชุดเนื้อหาองค์กรใน Power BI
@@ -25,7 +25,7 @@ ms.locfileid: "73871992"
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
-การสร้างชุดเนื้อหาจะแตกต่างจากการแชร์แดชบอร์ดหรือการทำงานร่วมกันบนชุดเนื้อหาเหล่านั้นในพื้นที่ทำงาน อ่าน[ฉันควรทำงานร่วมกันและแชร์แดชบอร์ดและรายงานอย่างไร](service-how-to-collaborate-distribute-dashboards-reports.md) เพื่อตัดสินใจเลือกตัวเลือกที่ดีที่สุดสำหรับสถานการณ์ของคุณ 
+การสร้างชุดเนื้อหาจะแตกต่างจากการแชร์แดชบอร์ดหรือการทำงานร่วมกันบนชุดเนื้อหาเหล่านั้นในพื้นที่ทำงาน อ่าน[ฉันควรทำงานร่วมกันและแชร์แดชบอร์ดและรายงานอย่างไร?](service-how-to-collaborate-distribute-dashboards-reports.md)เพื่อตัดสินใจเลือกตัวเลือกที่ดีที่สุดสำหรับสถานการณ์ของคุณ 
 
 ใน AppSource คุณสามารถเรียกดูหรือค้นหาชุดเนื้อหาที่เผยแพร่ไปทั่วทั้งองค์กร ไปยังกลุ่มการกระจายหรือกลุ่มรักษาความปลอดภัย และไปยัง[กลุ่ม Office 365 ที่คุณเป็นสมาชิ](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)ได้ ถ้าคุณไม่ได้เป็นสมาชิกของกลุ่มใดกลุ่มหนึ่ง คุณจะไม่เห็นชุดเนื้อหาที่แชร์กับกลุ่มนั้น ๆ สมาชิกทั้งหมดของกลุ่มมีการเข้าถึงแบบอ่านอย่างเดียวสำหรับข้อมูลชุดเนื้อหา รายงาน เวิร์กบุ๊ก และแดชบอร์ด (ยกเว้นว่าเป็นแหล่งข้อมูลของ SQL Server Analysis Services (SSAS) ซึ่งเป็นในกรณีที่คุณมีสิทธิ์การใช้งานที่สืบทอดจากแหล่งข้อมูล)
 
@@ -74,6 +74,6 @@ ms.locfileid: "73871992"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [สร้างและเผยแพร่ชุดเนื้อหาองค์กร](service-organizational-content-pack-create-and-publish.md)
 * [สร้างและกระจายแอปฯใน Power BI](service-create-distribute-apps.md) 
-* [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
+* [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

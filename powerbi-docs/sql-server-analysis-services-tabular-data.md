@@ -11,10 +11,10 @@ ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 00b7c98236f37505fbb0ddec81a45b65bf3e3ee6
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871192"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>ข้อมูลสดของ SQL Server Analysis Services ใน Power BI
@@ -32,7 +32,7 @@ ms.locfileid: "73871192"
 
    ![เชื่อมต่อเพื่อรับปุ่มข้อมูล](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
-2. เลือก**ฐานข้อมูลและเพิ่มเติม**
+2. เลือก**ฐานข้อมูลและอื่นๆ อีกมากมาย**
 
    ![เชื่อมต่อเพื่อรับข้อมูล 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
 
@@ -58,8 +58,8 @@ ms.locfileid: "73871192"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-* [On-premises data gateway (เกตเวย์ข้อมูลภายในองค์กร)](service-gateway-onprem.md)  
+* [เกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem.md)  
 * [จัดการแหล่งข้อมูล Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-* [การแก้ไขปัญหาเกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem-tshoot.md)  
+* [การแก้ไขปัญหา เกตเวย์ข้อมูลในองค์กร](service-gateway-onprem-tshoot.md)  
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
