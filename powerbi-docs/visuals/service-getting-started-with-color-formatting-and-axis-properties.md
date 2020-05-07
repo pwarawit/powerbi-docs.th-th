@@ -10,10 +10,10 @@ ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 2433f030f00ec8cd337d97c4402b83ed6c4c5a00
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/31/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76895242"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>เริ่มต้นใช้งานบานหน้าต่างการจัดรูปแบบ
@@ -23,7 +23,7 @@ ms.locfileid: "76895242"
 
 ![แถบเมนูที่แสดงตัวเลือกแก้ไข](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-edit.png)
 
-เมื่อคุณกำลังแก้ไขรายงาน และคุณมีการแสดงภาพที่เลือกไว้ บานหน้าต่าง**การแสดงภาพ**จะปรากฏขึ้น ใช้บานหน้าต่างนี้เพื่อเปลี่ยนการแสดงภาพ ด้านล่างของบานหน้าต่าง **การแสดงภาพ** จะมีไอคอนสามไอคอน: ไอคอน **เขตข้อมูล** (แถบเรียงซ้อน) ไอคอน **รูปแบบ** (แปรงลูกกลิ้ง) และไอคอน **การวิเคราะห์** (แว่นขยาย) ในรูปด้านล่าง ไอคอน **เขตข้อมูล** ถูกเลือกไว้ โดยสังเกตได้จากแถบสีเหลืองที่อยู่ด้านล่างไอคอน
+เมื่อคุณกำลังแก้ไขรายงาน และคุณมีการแสดงภาพที่เลือกไว้ บานหน้าต่าง**การแสดงภาพ**จะปรากฏขึ้น  ใช้บานหน้าต่างนี้เพื่อเปลี่ยนการแสดงภาพ ด้านล่างของบานหน้าต่าง **การแสดงภาพ** จะมีไอคอนสามไอคอน: ไอคอน **เขตข้อมูล** (แถบเรียงซ้อน) ไอคอน **รูปแบบ** (แปรงลูกกลิ้ง) และไอคอน **การวิเคราะห์** (แว่นขยาย) ในรูปด้านล่าง ไอคอน **เขตข้อมูล** ถูกเลือกไว้ โดยสังเกตได้จากแถบสีเหลืองที่อยู่ด้านล่างไอคอน
 
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
@@ -140,12 +140,12 @@ ms.locfileid: "76895242"
 
 อีกหนึ่งตัวอย่างสุดท้ายของการจัดรูปแบบก่อนที่คุณจะเริ่มต้นลองทำด้วยตัวคุณเอง  ลองเพิ่มป้ายชื่อข้อมูลลงในแผนภูมิพื้นที่ 
 
-ต่อไปนี้คือรูปภาพ *ก่อน* 
+ต่อไปนี้คือรูปภาพ *ก่อน*  
 
 ![แผนภูมิพื้นที่ไม่มีการจัดรูปแบบ](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-area-chart.png)
 
 
-และนี่คือรูปภาพ *หลัง*
+และนี่คือรูปภาพ *หลัง* 
 
 ![แผนภูมิพื้นที่มีการจัดรูปแบบ](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-data-labels.png)
 

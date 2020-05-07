@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874464"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>สร้างวิชวลด้วย Power BI Q&A
@@ -48,7 +48,7 @@ ms.locfileid: "73874464"
    
    ![แผนภูมิพื้นที่แบบเติมของถามตอบ (Q&A)](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-create-filled-chart.png)
 
-4. เมื่อต้องการปักหมุดแผนภูมิไปยังแดชบอร์ด เลือกไอคอนปักหมุด ![ปักหมุดไอคอน](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) ที่มุมขวาบน
+4. เมื่อต้องการปักหมุดแผนภูมิไปยังแดชบอร์ด เลือกไอคอนปักหมุด ![ไอคอนรูปเข็มหมุด](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) ที่มุมขวาบน
 
 ## <a name="create-a-visual-in-the-report-editor"></a>สร้างวิชวลในตัวแก้ไขรายงาน
 

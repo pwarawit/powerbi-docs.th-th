@@ -10,10 +10,10 @@ ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
 ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872514"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>จากสมุดงาน Excel สู่รายงานอันน่าตื่นตาตื่นใจในบริการ Power BI
@@ -129,7 +129,7 @@ ms.locfileid: "73872514"
 
 2. ป้อนที่อยู่อีเมลของผู้รับในช่อง **ป้อนที่อยู่อีเมล** และเพิ่มข้อความในช่องด้านล่าง 
 
-3. เมื่อต้องการอนุญาตให้ผู้รับแชร์แดชบอร์ดของคุณกับผู้อื่น เลือก**อนุญาตให้ผู้รับแชร์แดชบอร์ดของคุณ** เลือก**แชร์**
+3. เมื่อต้องการอนุญาตให้ผู้รับแชร์แดชบอร์ดของคุณกับผู้อื่น เลือก**อนุญาตให้ผู้รับแชร์แดชบอร์ดของคุณ** เลือก **แชร์**
 
    ![หน้าต่างแชร์แดชบอร์ด](media/service-from-excel-to-stunning-report/power-bi-share-dash-new.png)
 
@@ -137,7 +137,7 @@ ms.locfileid: "73872514"
 
 * [เริ่มต้นใช้งาน Power BI service](service-get-started.md)
 * [เริ่มต้นใช้งาน Power BI Desktop](desktop-getting-started.md)
-* [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
+* [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

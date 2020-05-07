@@ -1,5 +1,5 @@
 ---
-title: ติดตั้งเซิร์ฟเวอร์รายงาน Power BI
+title: ติดตั้ง Power BI Report Server
 description: เรียนรู้วิธีการติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 author: maggiesMSFT
 ms.author: maggies
@@ -9,17 +9,17 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/16/2020
 ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160615"
 ---
-# <a name="install-power-bi-report-server"></a>ติดตั้งเซิร์ฟเวอร์รายงาน Power BI
+# <a name="install-power-bi-report-server"></a>ติดตั้ง Power BI Report Server
 
 เรียนรู้วิธีการติดตั้งเซิร์ฟเวอร์รายงาน Power BI
 
-## <a name="download-power-bi-report-server"></a>ดาวน์โหลด Power BI Report Server
+## <a name="download-power-bi-report-server"></a>ดาวน์โหลดเซิร์ฟเวอร์รายงาน Power BI
 
 ในหน้า[การรายงานภายในองค์กรกับเซิร์ฟเวอร์รายงาน Power BI](https://powerbi.microsoft.com/report-server/) เลือก**ดาวน์โหลดรุ่นทดลองใช้ฟรี**
 
@@ -47,17 +47,17 @@ ms.locfileid: "76160615"
 
 ![การตั้งค่า Premium](../report-server/media/install-report-server/pbirs-product-key.png "คีย์เซิร์ฟเวอร์รายงาน Power BI ภายในการตั้งค่าขั้นสูง")
 
-การเลือก**คีย์เซิร์ฟเวอร์รายงาน Power BI** จะแสดงบทสนทนาที่มีคีย์ผลิตภัณฑ์ของคุณ คุณสามารถคัดลอกและใช้กับการติดตั้ง
+การเลือก**คีย์เซิร์ฟเวอร์รายงาน Power BI** จะแสดงบทสนทนาที่มีคีย์ผลิตภัณฑ์ของคุณ คุณสามารถคัดลอกคีย์และนำไปใช้กับการติดตั้ง
 
 ![คีย์ผลิตภัณฑ์](../report-server/media/install-report-server/pbirs-product-key-dialog.png "คีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>SQL Server Enterprise Software Assurance (SA)
 
-ถ้าคุณมีข้อตกลง SQL Server Enterprise SA คุณจะสามารถรับคีย์ผลิตภัณฑ์ของคุณจาก[ศูนย์บริการ Volume Licensing](https://www.microsoft.com/Licensing/servicecenter/)
+ถ้าคุณมีข้อตกลง SQL Server Enterprise SA คุณสามารถรับคีย์ผลิตภัณฑ์ของคุณจาก[ศูนย์บริการการมอบสิทธิ์การใช้งาน Volume](https://www.microsoft.com/Licensing/servicecenter/)ได้
 
 ## <a name="install-your-report-server"></a>ติดตั้งเซิร์ฟเวอร์รายงานของคุณ
 
-การติดตั้งเซิร์ฟเวอร์รายงาน Power BI จะเป็นไปอย่างง่ายดาย ขั้นตอนง่าย ๆ สำหรับการติดตั้งไฟล์
+การติดตั้งเซิร์ฟเวอร์รายงาน Power BI จะเป็นไปอย่างง่ายดาย มีเพียงไม่กี่ขั้นตอนในการติดตั้งไฟล์
 
 คุณไม่จำเป็นต้องใช้เปิดงานเซิร์ฟเวอร์กลไกจัดการฐานข้อมูล SQL Server ในขณะติดตั้ง แต่คุณจะต้องมีเพื่อกำหนดค่า “บริการการรายงาน” หลังจากติดตั้ง
 
@@ -65,7 +65,7 @@ ms.locfileid: "76160615"
 
 2. เลือก**ติดตั้งเซิร์ฟเวอร์รายงาน Power BI**
 
-    ![ติดตั้งเซิร์ฟเวอร์รายงาน Power BI](media/install-report-server/pbireportserver-install.png)
+    ![ติดตั้ง Power BI Report Server](media/install-report-server/pbireportserver-install.png)
 3. เลือกรุ่นเพื่อติดตั้ง จากนั้นเลือก**ถัดไป**
 
     ![เลือกรุ่น](media/install-report-server/pbireportserver-choose-edition.png)

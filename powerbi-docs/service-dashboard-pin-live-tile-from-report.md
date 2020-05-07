@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853076"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>ปักหมุดหน้ารายงานทั้งหน้าแบบไลฟ์ไทล์กับแดชบอร์ด Power BI
@@ -37,12 +37,12 @@ ms.locfileid: "73853076"
 2. เนื่องจากการแสดงภาพไม่ได้ถูกเลือกจากแถบเมนู ให้เลือก**ปักหมุดหน้าแบบไลฟ์**
    
    ![ไอคอนปักหมุดหน้าแบบไลฟ์](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. ปักหมุดไทล์ลงในแดชบอร์ดที่มีอยู่ หรือแดชบอร์ดใหม่ โปรดสังเกตข้อความที่ถูกเน้น: *การปักหมุดบนหน้าทำให้การเปลี่ยนแปลงของรายงานไปปรากฎที่ไทล์ของแดชบอร์ดหลังจากที่รีเฟรชหน้าแล้ว*
+3. ปักหมุดไทล์ลงในแดชบอร์ดที่มีอยู่ หรือแดชบอร์ดใหม่ โปรดสังเกตว่า ข้อความที่ไฮไลท์ *การปักหมุดหน้าแบบไลฟ์สามารถทำให้รายงานปรากฏในแดชบอร์ดไทล์เปลี่ยนเมื่อมีการรีเฟรชหน้าได้*
    
-   * แดชบอร์ดที่มีอยู่ ให้เลือกชื่อของแดชบอร์ดจากรายการแบบดร๊อปดาวน์ แดชบอร์ดที่แชร์กับคุณจะไม่ปรากฏขึ้นที่นี่
+   * แดชบอร์ดที่มีอยู่: เลือกชื่อของแดชบอร์ดจากรายการแบบหล่นลง แดชบอร์ดที่แชร์กับคุณจะไม่ปรากฏขึ้นที่นี่
    * แดชบอร์ดใหม่ พิมพ์ชื่อของแดชบอร์ดใหม่
      
-     ![ปักหมุดกล่องข้อความแดชบอร์ด](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page-dialog.png)
+     ![ปักหมุดไปยังแดชบอร์ด](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page-dialog.png)
 4. เลือก**Pin live** ข้อความว่าสำเร็จแล้ว (ใกล้กับมุมบนขวา) ช่วยให้คุณทราบว่า การหน้าถูกเพิ่มเป็นไทล์ ลงในแดชบอร์ดของคุณ
 
 ## <a name="open-the-dashboard-to-see-the-pinned-live-tile"></a>เปิดแดชบอร์ดเพื่อดูไทล์ที่ถูกปักหมุดแบบไลฟ์

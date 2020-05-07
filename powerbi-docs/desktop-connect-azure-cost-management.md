@@ -11,10 +11,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: ed6832bd92ca2bea0d64bbaeb41569b6a8fb6ddc
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/05/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77026703"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>สร้างวิชวลและรายงานด้วยตัวเชื่อมต่อ Azure Cost Management ใน Power BI Desktop
@@ -45,10 +45,10 @@ ms.locfileid: "77026703"
 
 1.  ใน [Azure portal](https://portal.azure.com/) นำทางไปยัง **การจัดการค่าใช้จ่าย + การเรียกเก็บเงิน**
 2.  เลือกโปรไฟลการ์เรียกเก็บเงินของคุณ 
-3.  ในเมนู**การตั้งค่า** ให้เลือก **คุณสมบัติ**  ในแถบด้านข้าง
+3.   ในเมนู**การตั้งค่า** ให้เลือก **คุณสมบัติ**  ในแถบด้านข้าง
 4.  ในเมนู **โปรไฟล์การเรียกเก็บเงิน**  ให้คัดลอก**ID** 
 5.  สำหรับ **ขอบเขตการเลือก** ให้เลือก **ID โปรไฟล์การเรียกเก็บเงิน** และวาง ID โปรไฟล์การเรียกเก็บเงินจากขั้นตอนก่อนหน้า 
-6.  ใส่จำนวนเดือนและเลือก **ตกลง**
+6.  ใส่จำนวนเดือนและเลือก **ตกลง** 
 
     ![รับ ID การเรียกเก็บเงิน](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
@@ -63,7 +63,7 @@ ms.locfileid: "77026703"
 2.  เลือกบัญชีสำหรับการเรียกเก็บเงินของคุณ
 3.  ในเมนู **ภาพรวม** คัดลอก **ID บัญชีการเรียกเก็บเงิน**
 4.  สำหรับ **ขอบเขตการเลือก** ให้เลือก **หมายเลขการสมัครเข้า**  และวาง ID บัญชีการเรียกเก็บเงินจากขั้นตอนก่อนหน้า 
-5.  ใส่จำนวนเดือนและจากนั้นเลือก **ตกลง**
+5.  ใส่จำนวนเดือนและจากนั้นเลือก **ตกลง** 
 
     ![รับ ID การเรียกเก็บเงิน](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 

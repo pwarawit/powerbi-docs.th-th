@@ -11,17 +11,17 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76038546"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>รีเฟรชชุดข้อมูลที่จัดเก็บบน OneDrive หรือ SharePoint Online
 การนำเข้าไฟล์จาก OneDrive หรือ SharePoint Online ลงในบริการ Power BI คือวิธียอดเยี่ยมที่แน่ใจได้ว่างานของคุณในPower BI Desktopยังคงซิงค์กับบริการของ Power BI
 
 ## <a name="advantages-of-storing-a-power-bi-desktop-file-on-onedrive-or-sharepoint-online"></a>ข้อดีของการจัดเก็บไฟล์ Power BI Desktop บน OneDrive หรือ SharePoint Online
-เมื่อคุณจัดเก็บไฟล์ Power BI Desktop บน OneDrive หรือ SharePoint Online ข้อมูลใดๆ ที่คุณได้โหลดลงในแบบจำลองของไฟล์ของคุณจะถูกนำเข้าลงในชุดข้อมูล และรายงานใดๆ ที่คุณสร้างในไฟล์จะถูกโหลดลงใน**รายงาน**ใน Power BI ที่ให้บริการ สมมติว่าคุณทำการเปลี่ยนแปลงไฟล์ของคุณบน OneDrive หรือ SharePoint Online การเปลี่ยนแปลงนี้รวมถึงการมีหน่วยวัดใหม่ เปลี่ยนชื่อคอลัมน์ หรือแก้ไขการแสดงภาพได้ เมื่อคุณบันทึกไฟล์ซึ่งเป็นบริการของ Power BI ที่ซิงค์กับการเปลี่ยนแปลงใหม่โดยปกติแล้วจะใช้เวลาภายในประมาณหนึ่งชั่วโมง
+เมื่อคุณจัดเก็บไฟล์ Power BI Desktop บน OneDrive หรือ SharePoint Online ข้อมูลใดๆ ที่คุณได้โหลดลงในแบบจำลองของไฟล์ของคุณจะถูกนำเข้าลงในชุดข้อมูล  และรายงานใดๆ ที่คุณสร้างในไฟล์จะถูกโหลดลงใน**รายงาน**ใน Power BI ที่ให้บริการ สมมติว่าคุณทำการเปลี่ยนแปลงไฟล์ของคุณบน OneDrive หรือ SharePoint Online การเปลี่ยนแปลงนี้รวมถึงการมีหน่วยวัดใหม่ เปลี่ยนชื่อคอลัมน์ หรือแก้ไขการแสดงภาพได้ เมื่อคุณบันทึกไฟล์ซึ่งเป็นบริการของ Power BI ที่ซิงค์กับการเปลี่ยนแปลงใหม่โดยปกติแล้วจะใช้เวลาภายในประมาณหนึ่งชั่วโมง
 
 คุณสามารถทำการรีเฟรชครั้งเดียวด้วยตนเอง ทันทีใน Power BI Desktop โดยเลือก**รีเฟรช**บน**หน้า**แรก เมื่อคุณเลือก **รีเฟรช**เท่ากับว่าคุณรีเฟรชด้วยข้อมูลที่อัปเดตจากแหล่งข้อมูลต้นฉบับ การรีเฟรชแบบนี้เกิดขึ้นทั้งหมดจากภายในตัวแอปพลิเคชัน Power BI Desktop เอง ซึ่งจะแตกต่างจากการรีเฟรชตามกำหนดการ หรือด้วยตนเองใน Power BI และต้องทำความเข้าใจความแตกต่าง
 
