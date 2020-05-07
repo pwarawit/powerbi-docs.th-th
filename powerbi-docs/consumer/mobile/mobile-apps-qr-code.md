@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
 ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802083"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>สแกนคิวอาร์โค้ดของ Power BI จากอุปกรณ์เคลื่อนที่ของคุณ
-นำไปใช้กับ:
+ใช้ได้กับ:
 
-| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPad](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![โทรศัพท์ Android](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![แท็บเล็ต Android](././media/mobile-apps-qr-code/android-logo-40-px.png) |
+| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPad](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![มือถือ Android](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![แท็บเล็ต Android](././media/mobile-apps-qr-code/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
-|iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |
+|iPhones |iPad |มือถือ Android |แท็บเล็ต Android |
 
 คิวอาร์โค้ดใน Power BI สามารถเชื่อมต่อทุกอย่างในโลกแห่งความจริง เข้ากับข้อมูลที่เกี่ยวข้องกับ BI่ได้โดยตรง &#151; โดยที่ไม่จำเป็นต้องใช้การค้นหา
 
@@ -35,11 +35,11 @@ ms.locfileid: "80802083"
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>สแกนรหัส Power BI QR บน iPhone ของคุณกับสแกนเนอร์ Power BI
 
-1. ที่แถบนำทาง แตะที่ **ตัวเลือกเพิ่มเติม** (...) จากนั้นแตะที่ **สแกนเนอร์**
+1. ที่แถบนำทาง แตะที่ **ตัวเลือกเพิ่มเติม** (...) และแตะที่ **สแกนเนอร์**
 
     ![](media/mobile-apps-qr-code/power-bi-scanner.png)
 
-2. ถ้ากล้องของคุณไม่ได้เปิดใช้งาน คุณจำเป็นต้องอนุมัติให้แอป Power BI ใช้กล้อง นี่เป็นการอนุมัติครั้งเดียว 
+2. ถ้ากล้องของคุณไม่ได้เปิดใช้งาน คุณจำเป็นต้องอนุมัติให้แอป Power BI ใช้กล้อง นี่คืออนุมัติครั้งเดียว 
  
 3. วางตำแหน่งสแกนเนอร์ที่ Power BI QR โค้ด 
    
@@ -56,11 +56,11 @@ ms.locfileid: "80802083"
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>สแกนคิวอาร์โค้ด Power BI บน ของคุณกับสแกนเนอร ์Android Power BI
 
-1. ที่แถบนำทาง แตะที่ **ตัวเลือกเพิ่มเติม** (...) จากนั้นแตะที่ **สแกนเนอร์**
+1. ที่แถบนำทาง แตะที่ **ตัวเลือกเพิ่มเติม** (...) และแตะที่ **สแกนเนอร์**
 
     ![](media/mobile-apps-qr-code/power-bi-scanner.png)
 
-2. ถ้ากล้องของคุณไม่ได้เปิดใช้งาน คุณจำเป็นต้องอนุมัติให้แอป Power BI ใช้กล้อง นี่เป็นการอนุมัติครั้งเดียว 
+2. ถ้ากล้องของคุณไม่ได้เปิดใช้งาน คุณจำเป็นต้องอนุมัติให้แอป Power BI ใช้กล้อง นี่คืออนุมัติครั้งเดียว 
 
 3. วางตำแหน่งสแกนเนอร์ที่ Power BI QR โค้ด 
    
@@ -74,9 +74,9 @@ ms.locfileid: "80802083"
 2. ถ้าคุณไม่ได้ติดตั้งแอป Power BI คุณจะถูกนำไปยัง[Google Play เพื่อดาวน์โหลดแอป](https://go.microsoft.com/fwlink/?LinkID=544867) 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [เชื่อมต่อกับข้อมูล Power BI จากโลกแห่งความจริง](mobile-apps-data-in-real-world-context.md)ด้วยแอปโทรศัพท์เคลื่อนที่
+* [เชื่อมต่อกับข้อมูล Power BI จากโลกแห่งความจริง](mobile-apps-data-in-real-world-context.md)ด้วยแอปสำหรับอุปกรณ์เคลื่อนที่
 * [สร้างคิวอาร์โค้ดสำหรับไทล์ในบริการ Power BI](../../service-create-qr-code-for-tile.md)
 * [สร้างคิวอาร์โค้ดสำหรับรายงานในบริการ Power BI](../../service-create-qr-code-for-report.md)
 * คุณยังสามารถ[สแกนคิวอาร์โค้ดด้วย Power BI สำหรับแอปความเป็นจริงผสม](mobile-mixed-reality-app.md)ได้อีกด้วย
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+* มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

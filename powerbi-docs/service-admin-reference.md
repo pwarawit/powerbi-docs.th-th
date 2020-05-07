@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: b4f4227a53a87cd831962bc5c944a569531b8232
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699877"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>PowerShell cmdlet, REST Api และ.NET SDK สำหรับการจัดการ Power BI
@@ -25,7 +25,7 @@ Power BI ช่วยให้ผู้ดูแลระบบสามาร�
 
 > Cmdlets ด้านล่างนี้ควรถูกเรียกใช้ร่วมกับ `-Scope Organization` ในการดูแลระบบของผู้เช่า
 
-| **ชื่อ Cmdlet** | **นามแฝง** | **เมธอด SDK** | **ปลายทางของ REST API** | **คำอธิบาย** |
+| **ชื่อ Cmdlet** | **นามแฝง** | **เมธอด SDK** | **ปลายทางของ REST API**  | **คำอธิบาย** |
 | --- | --- | --- | --- | --- |
 | `Get-PowerBIDatasource` | N/A | `Datasets_GetDataSourcesAsAdmin` | /v1.0/myorg/admin/datasets/{datasetkey}/datasources | รับแหล่งข้อมูลสำหรับชุดข้อมูลที่ระบุ |
 | `Get-PowerBIDataset` | N/A | `Datasets_GetDatasetsAsAdmin` | /v1.0/myorg/admin/datasets | รับรายการทั้งหมดของชุดข้อมูลในผู้เช่า Power BI |

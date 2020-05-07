@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 32ca01d06f4fc8c3f90f73bf8137349eed0220a6
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698842"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>ค้นหาผู้ใช้ Power BI ที่มีการลงชื่อเข้าใช้
@@ -23,13 +23,13 @@ ms.locfileid: "74698842"
 > [!NOTE]
 > แม้รายงาน**ลงชื่อเข้าใช้**จะให้ข้อมูลที่เป็นประโยชน์ แต่ก็ไม่สามารถระบุประเภทสิทธิการใช้งานที่ผู้ใช้แต่ละคนมีได้ การใช้ศูนย์การจัดการ Microsoft 365 เพื่อดูสิทธิ์การใช้งาน
 
-## <a name="requirements"></a>ข้อกำหนด
+## <a name="requirements"></a>ความต้องการ
 
 ผู้ใช้ใด ๆ (รวมถึงที่ไม่ใช่ผู้ดูแลระบบ) สามารถดูรายงานการลงชื่อเข้าใช้ของตนเองได้ แต่คุณต้องตรงตามข้อกำหนดต่อไปนี้เพื่อดูรายงานผู้ใช้ทั้งหมด
 
 * ผู้เช่าของคุณต้องมีสิทธิการใช้งาน Azure Active Directory Premium ที่เกี่ยวเนื่อง
 
-* คุณต้องได้รับมอบหมายหน้าที่ดังต่อไปนี้: ผู้ดูแลระบบส่วนกลาง ผู้ดูแลความปลอดภัย หรือตัวอ่านความปลอดภัย
+* คุณต้องอยู่ในหนึ่งบทบาทต่อไปนี้: ผู้ดูแลระบบส่วนกลาง, ผู้ ดูแลรักษาความปลอดภัย หรือ ผู้อ่านความปลอดภัย
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>ใช้พอร์ทัล Azure เพื่อดูการลงชื่อเข้าใช้
 
@@ -67,4 +67,4 @@ ms.locfileid: "74698842"
 
 [ใช้การตรวจสอบภายในองค์กรของคุณ](service-admin-auditing.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
