@@ -11,10 +11,10 @@ ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74415255"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>ใช้การวัดผลด่วนสำหรับการคำนวณทั่วไป
@@ -134,5 +134,5 @@ ms.locfileid: "74415255"
 คุณสามารถใช้ตารางวันที่แบบกำหนดเองของคุณเองด้วยหน่วยวัดด่วนของตัวแสดงเวลา ถ้าคุณกำลังใช้รูปแบบตารางจากภายนอก คุณต้องแน่ใจว่าเมื่อสร้างแบบจำลองขึ้นมา คอลัมน์วันที่หลักในตารางต้องถูกทำเครื่องหมายว่าเป็นตารางวันที่ ตามที่อธิบายไว้ใน[ระบุเครื่องหมายเป็นตารางวันที่สำหรับใช้กับตัวแสดงเวลา](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular) ถ้าคุณกำลังนำเข้าตารางวันที่ของคุณเอง ตรวจสอบให้แน่ใจว่าได้ทำเครื่องหมายเป็นตารางวันที่ ตามที่อธิบายไว้ใน[ ตั้งค่าและใช้ตารางวันที่ใน Power BI Desktop](desktop-date-tables.md)
 
 ### <a name="additional-information-and-examples"></a>ข้อมูลเพิ่มเติมและตัวอย่าง
-มีแนวคิดสำหรับการวัดผลด่วนที่ยังไม่มีหรือไม่ ดีเยี่ยม! ลองดูหน้า[ Power BI Ideas](https://go.microsoft.com/fwlink/?linkid=842906) และส่งแนวคิดและสูตร DAX ของคุณสำหรับการวัดผลด่วนที่คุณต้องการดูใน Power BI Desktop เราจะพิจารณาการเพิ่มแนวคิดเหล่านี้ลงในรายการการวัดผลด่วนที่จะเผยแพร่ในอนาคต
+มีแนวคิดสำหรับการวัดผลด่วนที่ยังไม่มีหรือไม่ เยี่ยม! ลองดูหน้า[ Power BI Ideas](https://go.microsoft.com/fwlink/?linkid=842906) และส่งแนวคิดและสูตร DAX ของคุณสำหรับการวัดผลด่วนที่คุณต้องการดูใน Power BI Desktop เราจะพิจารณาการเพิ่มแนวคิดเหล่านี้ลงในรายการการวัดผลด่วนที่จะเผยแพร่ในอนาคต
 

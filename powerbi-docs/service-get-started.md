@@ -10,10 +10,10 @@ ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872323"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>บทช่วยสอน: เริ่มต้นใช้งานกับบริการ Power BI
@@ -194,7 +194,7 @@ ms.locfileid: "73872323"
     Power BI ไม่เปิดรายงาน แต่การถามตอบจะเปิดรายงานแทน เนื่องจากคุณสร้างแผนภูมินี้ที่นั่น
 
 
-## <a name="clean-up-resources"></a>เพิ่มพื้นที่ทรัพยากร
+## <a name="clean-up-resources"></a>ล้างแหล่งข้อมูล
 ในตอนนี้ คุณสำเร็จบทช่วยสอนแล้ว คุณสามารถลบชุดข้อมูล รายงานและแดชบอร์ดได้ 
 
 1. ในบานหน้าต่างนำทางตรวจสอบให้แน่ใจว่าคุณอยู่ใน **พื้นที่ทำงานของฉัน**

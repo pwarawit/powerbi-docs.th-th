@@ -10,10 +10,10 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: dbdd4076c9944cf0335ed1f6b6aa43a2a3887189
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73865966"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>ใช้ Python IDE ภายนอกกับ Power BI
@@ -26,7 +26,7 @@ ms.locfileid: "73865966"
 
 คุณสามารถระบุว่าต้องการใช้ Python IDE แบบใดและเปิดใช้งานได้โดยอัตโนมัติภายใน **Power BI Desktop** หรือไม่
 
-### <a name="requirements"></a>ข้อกำหนด
+### <a name="requirements"></a>ความต้องการ
 เมื่อต้องใช้คุณลักษณะนี้ คุณจำเป็นต้องติดตั้ง **Python IDE** บนเครื่องคอมพิวเตอร์ของคุณ **Power BI Desktop** ไม่รวมการนำเข้าใช้หรือการติดตั้ง Python engine ดังนั้นคุณต้องติดตั้ง **Python** แบบบนเครื่องคอมพิวเตอร์ของคุณแบบแยกต่างหาก คุณสามารถเลือก Python IDE ที่จะใช้ ด้วยตัวเลือกต่อไปนี้:
 
 * คุณสามารถติดตั้ง Python IDE ตัวโปรดของคุณ ซึ่งมีจำนวนมากที่ใช้งานฟรี เช่น [หน้าดาวน์โหลด Visual Studio Code](https://code.visualstudio.com/download/)
@@ -73,7 +73,7 @@ ms.locfileid: "73865966"
    > **Power BI Desktop**เพิ่มสามบรรทัดแรกของสคริปต์ แล้วจึงค่อยสามารถนำเข้าข้อมูลของคุณจาก**Power BI Desktop**เมื่อคุณเรียกใช้สคริปต์
    > 
    > 
-7. สคริปต์ใด ๆ ที่คุณสร้างขึ้นใน **บานหน้าต่างตัวแก้ไขสคริปต์ Python** ของ **Power BI Desktop** จะปรากฏเริ่มต้นในบรรทัดที่ 4 ใน Python IDE ของคุณ ในตอนนี้ คุณสามารถสร้างสคริปต์ Python ของคุณใน Python IDE ได้ เมื่อคุณสร้างสคริปต์ Python เสร็จสมบูรณ์แล้วใน Python IDE ของคุณ คุณจำเป็นต้องคัดลอกและวางสคริปต์กลับเข้าไปยังบานหน้าต่าง **ตัวแก้ไขสคริปต์ Python** ใน **Power BI Desktop** *ยกเว้น*สามบรรทัดแรกของตัวสคริปต์ที่ **Power BI Desktop** สร้างขึ้นโดยอัตโนมัติ ห้ามคัดลอกสามบรรทัดแรกของสคริปต์กลับเข้าไปใน **Power BI Desktop** ซึ่งบรรทัดเหล่านั้นถูกใช้เพื่อนำเข้าข้อมูลของคุณไปยัง Python IDE ของคุณเท่านั้นจาก **Power BI Desktop**
+7. สคริปต์ใด ๆ ที่คุณสร้างขึ้นใน **บานหน้าต่างตัวแก้ไขสคริปต์ Python** ของ **Power BI Desktop** จะปรากฏเริ่มต้นในบรรทัดที่ 4 ใน Python IDE ของคุณ ในตอนนี้ คุณสามารถสร้างสคริปต์ Python ของคุณใน Python IDE ได้ เมื่อคุณสร้างสคริปต์ Python เสร็จสมบูรณ์แล้วใน Python IDE ของคุณ คุณจำเป็นต้องคัดลอกและวางสคริปต์กลับเข้าไปยังบานหน้าต่าง **ตัวแก้ไขสคริปต์ Python** ใน **Power BI Desktop***ยกเว้น*สามบรรทัดแรกของตัวสคริปต์ที่ **Power BI Desktop** สร้างขึ้นโดยอัตโนมัติ ห้ามคัดลอกสามบรรทัดแรกของสคริปต์กลับเข้าไปใน **Power BI Desktop** ซึ่งบรรทัดเหล่านั้นถูกใช้เพื่อนำเข้าข้อมูลของคุณไปยัง Python IDE ของคุณเท่านั้นจาก **Power BI Desktop**
 
 ### <a name="known-limitations"></a>ข้อจำกัดที่ทราบ
 การเปิดใช้งาน Python IDE โดยตรงจาก Power BI Desktop มีข้อจำกัดบางอย่าง:

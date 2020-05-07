@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: c277c21ffd3546307f9c38dfc06364324702986f
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699394"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>เกตเวย์ข้อมูลในองค์กรในเชิงลึก
@@ -22,7 +22,7 @@ ms.locfileid: "74699394"
 
 เราได้ย้ายข้อมูลจากบทความนี้ไปยังหลายบทความผ่าน Power BI และเอกสารทั่วไป ทำตามลิงก์ภายใต้หัวเรื่องแต่ละรายการเพื่อค้นหาเนื้อหาที่เกี่ยวข้อง
 
-## <a name="how-the-gateway-works"></a>วิธีการทำงานของเกตเวย์
+## <a name="how-the-gateway-works"></a>เกตเวย์ทำงานอย่างไร
 
 ดูที่[สถาปัตยกรรมเกตเวย์ข้อมูลภายในองค์กร](/data-integration/gateway/service-gateway-onprem-indepth)
 
@@ -81,7 +81,7 @@ ms.locfileid: "74699394"
 
 ดูที่ [ลงชื่อเข้าใช้บัญชี](/data-integration/gateway/service-gateway-onprem-indepth#sign-in-account)
 
-## <a name="windows-service-account"></a>บัญชีบริการ Windows
+## <a name="windows-service-account"></a>บัญชี Windows Service
 
 ดูที่ [เปลี่ยนบัญชีบริการของเกตเวย์ข้อมูลภายในองค์กร](/data-integration/gateway/service-gateway-service-account)
 
@@ -105,4 +105,4 @@ ms.locfileid: "74699394"
 
 [เกตเวย์ข้อมูลภายในองค์กรคืออะไร](service-gateway-onprem.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

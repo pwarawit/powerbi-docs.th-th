@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
 ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/12/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73925888"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>กำหนดค่าการเข้าถึงเซิร์ฟเวอร์รายงานจากระยะไกล สำหรับแอปอุปกรณ์เคลื่อนที่ ของ Power BI
 
-นำไปใช้กับ:
+ใช้ได้กับ:
 
-| ![iPhone](./media/configure-powerbi-mobile-apps-remote/ios-logo-40-px.png) | ![โทรศัพท์ Android](./media/configure-powerbi-mobile-apps-remote/android-logo-40-px.png) |
+| ![iPhone](./media/configure-powerbi-mobile-apps-remote/ios-logo-40-px.png) | ![มือถือ Android](./media/configure-powerbi-mobile-apps-remote/android-logo-40-px.png) |
 |:--- |:--- |
 | iOS |Android |
 
@@ -38,7 +38,7 @@ ms.locfileid: "73925888"
 
 ตารางต่อไปนี้กล่าวถึงคู่ต่าง ๆ
 
-|คีย์  |ชนิด  |คำอธิบาย  |
+|คีย์  |ประเภท  |คำอธิบาย  |
 |---------|---------|---------|
 | com.microsoft.powerbi.mobile.ServerURL | สตริง | URL เซิร์ฟเวอร์รายงาน <br> ควรเริ่มต้นด้วย http/https |
 | com.microsoft.powerbi.mobile.ServerUsername | สตริง | [เป็นทางเลือก] <br> ชื่อผู้ใช้เพื่อใช้สำหรับการเชื่อมต่อเซิร์ฟเวอร์ <br> หากไม่มีชื่ออยู่ แอปจะปรากฏข้อควมให้ผู้ใช้ให้พิมพ์ชื่อผู้ใช้สำหรับการเชื่อมต่อ| 
@@ -73,5 +73,5 @@ ms.locfileid: "73925888"
 - [ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
 - [ติดตั้ง Power BI Report Server](install-report-server.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

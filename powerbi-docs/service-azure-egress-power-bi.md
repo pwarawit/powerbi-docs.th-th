@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 17175e1accb5013b960c5e1a71ae036b3dda72f3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73855565"
 ---
 # <a name="power-bi-and-azure-egress"></a>ข้อมูลขาออกของ Power BI และ Azure
@@ -36,6 +36,6 @@ ms.locfileid: "73855565"
 * [วิธีการซื้อ Power BI Premium](service-admin-premium-purchase.md)
 * [การสนับสนุน Multi-Geo สำหรับ Power BI Premium (ตัวอย่าง)](service-admin-premium-multi-geo.md)
 * [ผู้เช่า Power BI ของฉันอยู่ที่ไหน?](service-admin-where-is-my-tenant-located.md)
-* [Power BI Premium คำถามที่พบบ่อย](service-premium-faq.md)
+* [Power BI Premium ถามที่ถามบ่อย](service-premium-faq.md)
 
 

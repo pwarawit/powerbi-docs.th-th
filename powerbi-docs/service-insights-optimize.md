@@ -10,13 +10,13 @@ ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 1ed588b0ca183e090d12f9aa0df23460a6037ed4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872213"
 ---
-# <a name="optimize-your-data-for-power-bi-quick-insights"></a>ปรับข้อมูลของคุณให้เหมาะสมสำหรับข้อมูลเชิงลึกด่วนของ Power BI
+# <a name="optimize-your-data-for-power-bi-quick-insights"></a>ปรับข้อมูลของคุณให้เหมาะสมสำหรับ ข้อมูลเชิงลึกด่วนของ Power BI
 ต้องการปรับปรุงผลลัพธ์ข้อมูลเชิงลึกด่วนหรือไม่?  ถ้าคุณเป็นเจ้าของชุดข้อมูล ลองขั้นตอนเหล่านี้:
 
 * ซ่อนหรือยกเลิกการซ่อนคอลัมน์ในชุดข้อมูลของคุณ ข้อมูลเชิงลึกด่วน Power BI ไม่ค้นหาคอลัมน์ที่ซ่อนอยู่  ดังนั้นซ่อนคอลัมน์ที่ซ้ำกันหรือไม่จำเป็น และยกเลิกการซ่อนคอลัมน์ที่น่าสนใจ
@@ -27,5 +27,5 @@ ms.locfileid: "73872213"
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
 [ข้อมูลเชิงลึกด่วนใน Power BI](consumer/end-user-insights.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

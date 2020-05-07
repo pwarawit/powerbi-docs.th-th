@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 2f2c0b2c6ba4d991dd6293b435acc07659013f5b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698520"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>กำหนดค่าแอปฯมือถือโดยใช้ Microsoft Intune
@@ -105,7 +105,7 @@ Microsoft Intune สามารถมีร่วมกับการจัด
 
 1. ใส่ URL ของแอปที่ได้จาก[ขั้นตอนที่ 1](#step-1-get-the-url-for-the-application) และเลือก **ถัดไป**
 
-    ![ตั้งค่าซอฟต์แวร์: Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
+    ![ติดตั้งซอฟต์แวร์: Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
 
 1. ใส่**ผู้ตีพิมพ์** **ชื่อ** และ**คำอธิบาย** นอกจากนี้ คุณยังสามารถเลือกใส่**ไอคอน**ได้ **ประเภท**มีไว้สำหรับแอปฯ Company Portal เมื่อคุณทำเสร็จแล้ว เลือก**ถัดไป**
 
@@ -121,7 +121,7 @@ Microsoft Intune สามารถมีร่วมกับการจัด
 
 ### <a name="deploy-for-ios"></a>ปรับใช้สำหรับ iOS
 
-1. บนหน้าจอแอปฯ เลือกแอปฯที่คุณสร้างขึ้น จากนั้นเลือกลิงก์**จัดการการปรับใช้...**
+1. บนหน้าจอแอปฯ เลือกแอปฯที่คุณสร้างขึ้น จากนั้นเลือกลิงก์**จัดการการปรับใช้...** 
 
     ![จัดการการปรับใช้](media/service-admin-mobile-intune/intune-deploy-ios1.png)
 
@@ -143,7 +143,7 @@ Microsoft Intune สามารถมีร่วมกับการจัด
 
 ### <a name="deploy-for-android"></a>ปรับใช้สำหรับ Android
 
-1. บนหน้าจอแอปฯ เลือกแอปฯที่คุณสร้างขึ้น จากนั้นเลือกลิงก์**จัดการการปรับใช้...**
+1. บนหน้าจอแอปฯ เลือกแอปฯที่คุณสร้างขึ้น จากนั้นเลือกลิงก์**จัดการการปรับใช้...** 
 
     ![จัดการการปรับใช้](media/service-admin-mobile-intune/intune-deploy-android1.png)
 1. ที่หน้าจอ**เลือกกลุ่ม** คุณสามารถเลือกกลุ่มที่คุณต้องการปรับใช้แอปฯนี้ เลือก**ถัดไป**
@@ -172,7 +172,7 @@ Microsoft Intune สามารถมีร่วมกับการจัด
 
     ![แอป Power BI](media/service-admin-mobile-intune/intune-companyportal2.png)
 
-1. เลือก **ติดตั้ง**
+1. เลือก**ติดตั้ง**
 
     ![ติดตั้งแอป](media/service-admin-mobile-intune/intune-companyportal3.png)
 
@@ -190,4 +190,4 @@ Microsoft Intune สามารถมีร่วมกับการจัด
 
 [แอปฯ Power BI สำหรับอุปกรณ์เคลื่อนที่](consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)  
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)  

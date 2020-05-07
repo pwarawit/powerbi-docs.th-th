@@ -1,6 +1,6 @@
 ---
 title: จัดการแหล่งข้อมูลของคุณ - SQL
-description: วิธีการจัดการเกตเวย์ข้อมูลภายในองค์กร และข้อมูลแหล่งข้อมูลที่เป็นของเกตเวย์นั้น ๆ
+description: วิธีการจัดการเกตเวย์ข้อมูลภายในองค์กร และแหล่งข้อมูลของเกตเวย์นั้นๆ
 author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: c0dc3b9eeb7932ca0cb6784fd6a46857821d1b12
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698129"
 ---
 # <a name="manage-your-data-source---sql-server"></a>จัดการแหล่งข้อมูลของคุณ - SQL Server
@@ -36,7 +36,7 @@ ms.locfileid: "74698129"
 ภายใต้ **วิธีการรับรองความถูกต้อง** ให้เลือก **Windows** หรือ **พื้นฐาน** เลือก**พื้นฐาน**ถ้าคุณวางแผนที่จะใช้การรับรองความถูกต้องของ SQL แทนการรับรองความถูกต้องของ Windows จากนั้นป้อนข้อมูลประจำตัวที่จะใช้สำหรับแหล่งข้อมูลนี้
 
 > [!NOTE]
-> คิวรีทั้งหมดที่ไปยังแหล่งข้อมูลจะทำงานโดยใช้ข้อมูลประจำตัวเหล่านี้ เว้นแต่ว่า single sign-on (SSO) ของ Kerberos จะถูกกำหนดค่าและเปิดใช้งานสำหรับแหล่งข้อมูล SSO จะทำให้ชุดข้อมูลนำเข้าใช้ข้อมูลประจำตัวที่จัดเก็บไว้ แต่ชุดข้อมูล DirectQuery จะใช้ผู้ใช้ Power BI ปัจจุบันเพื่อดำเนินการคิวรีโดยใช้ SSO หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการจัดเก็บข้อมูลประจำตัว ให้ดู [จัดเก็บข้อมูลประจำตัวที่เข้ารหัสไว้ในระบบคลาวด์](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud) หรือดูบทความที่อธิบายวิธีการ [ใช้ Kerberos สำหรับ single sign-on (SSO) จาก Power BI ไปยังแหล่งข้อมูลภายในองค์กร](service-gateway-sso-kerberos.md)
+> คิวรีทั้งหมดที่ไปยังแหล่งข้อมูลจะทำงานโดยใช้ข้อมูลประจำตัวเหล่านี้ เว้นแต่ว่า single sign-on (SSO) ของ Kerberos จะถูกกำหนดค่าและเปิดใช้งานสำหรับแหล่งข้อมูล SSO จะทำให้ชุดข้อมูลนำเข้าใช้ข้อมูลประจำตัวที่จัดเก็บไว้ แต่ชุดข้อมูล DirectQuery จะใช้ผู้ใช้ Power BI ปัจจุบันเพื่อดำเนินการคิวรีโดยใช้ SSO หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการจัดเก็บข้อมูลประจำตัว ให้ดู [การจัดเก็บข้อมูลประจำตัวที่เข้ารหัสไว้ในระบบคลาวด์](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud) หรือดูบทความที่อธิบายวิธีการ [ใช้ Kerberos สำหรับ single sign-on (SSO) จาก Power BI ไปยังแหล่งข้อมูลภายในองค์กร](service-gateway-sso-kerberos.md)
 
 ![การกรอกข้อมูลในการตั้งค่าแหล่งข้อมูล](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
 
@@ -80,5 +80,5 @@ ms.locfileid: "74698129"
 * [แก้ไขปัญหาเกตเวย์-Power BI](service-gateway-onprem-tshoot.md)
 * [ใช้ Kerberos สำหรับลงชื่อเข้าใช้ครั้งเดียว (SSO) จาก Power BI ไปยังแหล่งข้อมูลภายในองค์กร](service-gateway-sso-kerberos.md)
 
-มีคำถามเพิ่มเติมหรือไม่? ลองถาม[ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ ลองถาม[ชุมชน Power BI](https://community.powerbi.com/)
 

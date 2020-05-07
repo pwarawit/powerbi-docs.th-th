@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958458"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>รีเฟรชข้อมูลจากฐานข้อมูล SQL Server ภายในองค์กร
@@ -75,7 +75,7 @@ ms.locfileid: "74958458"
 
 5. ลาก **วันที่สิ้นสุด** ลงบน**ตัวกรองระดับรายงาน**และภายใต้**การกรองพื้นฐาน** เลือกเฉพาะกล่องกาเครื่องหมายสำหรับ **(ว่าง)**
 
-    ![ตัวกรองระดับการรายงาน](./media/service-gateway-sql-tutorial/report-level-filters.png)
+    ![ตัวกรองระดับรายงาน](./media/service-gateway-sql-tutorial/report-level-filters.png)
 
     ตอนนี้แผนภูมิควรมีลักษณะดังต่อไปนี้
 
@@ -114,17 +114,17 @@ ms.locfileid: "74958458"
 
 5. บนหน้าการจัดการ**เกตเวย์** บนแท็บ**การตั้งค่าแหล่งข้อมูล** ใส่และตรวจสอบข้อมูลต่อไปนี้ แล้วเลือก**เพิ่ม**
 
-    | ตัวเลือก | ค่า |
+    | ตัวเลือก | Value |
     | --- | --- |
     | ชื่อแหล่งข้อมูล | AdventureWorksProducts |
-    | ชนิดแหล่งข้อมูล | SQL Server |
+    | ชนิดแหล่งข้อมูล | เซิร์ฟเวอร์ SQL |
     | เซิร์ฟเวอร์ | ชื่อของอินสแตนซ์ SQL Server ของคุณ เช่น SQLServer01 (ต้องเหมือนกับสิ่งที่คุณได้ระบุไว้ใน Power BI Desktop) |
     | ฐานข้อมูล | ชื่อของฐานข้อมูล SQL Server ของคุณ เช่น AdventureWorksDW (ต้องเหมือนกับสิ่งที่คุณได้ระบุไว้ใน Power BI Desktop) |
     | วิธีการรับรองความถูกต้อง | Windows หรือพื้นฐาน (โดยทั่วไปแล้วคือ Windows) |
     | ชื่อผู้ใช้ | บัญชีที่คุณใช้เพื่อเชื่อมต่อกับ SQL Server |
     | รหัสผ่าน | รหัสผ่านสำหรับบัญชีที่คุณใช้เพื่อเชื่อมต่อกับ SQL Server |
 
-    ![ตั้งค่าแหล่งข้อมูล](./media/service-gateway-sql-tutorial/data-source-settings.png)
+    ![การตั้งค่าแหล่งข้อมูล](./media/service-gateway-sql-tutorial/data-source-settings.png)
 
 6. บนแท็บ**ชุดข้อมูล** ขยายส่วน**การเชื่อมต่อเกตเวย์**อีกครั้ง เลือกเกตเวย์ข้อมูลที่คุณกำหนดค่า ซึ่งแสดง**สถานะ**ของการใช้งานบนเครื่องที่คุณติดตั้ง และเลือก**นำไปใช้**
 
@@ -143,7 +143,7 @@ ms.locfileid: "74958458"
 
 3. เลือก**ความถี่ในการรีเฟรช**ที่เหมาะสม (**ทุกวัน**สำหรับตัวอย่างนี้), จากนั้นภายใต้**เวลา** ให้เลือก**เพิ่มเวลาอื่น**เมื่อต้องระบุเวลาการรีเฟรชที่ต้องการ (6:30 AM และ PM ตัวอย่างนี้)
 
-    ![กำหนดค่าการรีเฟรชตามกำหนดเวลา](./media/service-gateway-sql-tutorial/configure-scheduled-refresh.png)
+    ![กำหนดค่าการรีเฟรชตามกำหนดการ](./media/service-gateway-sql-tutorial/configure-scheduled-refresh.png)
 
     > [!NOTE]
     > คุณสามารถกำหนดค่าช่วงเวลาการรีเฟรชสูงสุด 8 ครั้งต่อวันหากชุดข้อมูลของคุณอยู่ในความจุที่ใช้ร่วมกันหรือ 48 ครั้งต่อวันสำหรับ Power BI Premium
@@ -197,7 +197,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
     > [!NOTE]
     > แท็บ OneDrive จะเกี่ยวข้องกับชุดข้อมูลที่เชื่อมต่อกับไฟล์ Power BI Desktop เวิร์กบุ๊ก Excel หรือไฟล์ CSV ใน OneDrive หรือ SharePoint Online ตามที่อธิบายไว้ในรายละเอียดเพิ่มเติมใน [รีเฟรชข้อมูลใน Power BI](refresh-data.md)
 
-## <a name="clean-up-resources"></a>ล้างแหล่งข้อมูล
+## <a name="clean-up-resources"></a>เพิ่มพื้นที่ทรัพยากร
 
 ถ้าคุณไม่ต้องการใช้ข้อมูลตัวอย่างอีกต่อไป วางฐานข้อมูลใน SQL Server Management Studio (SSMS) ถ้าคุณไม่ต้องการใช้แหล่งข้อมูล SQL Server ให้ลบแหล่งข้อมูลออกจากเกตเวย์ข้อมูลของคุณ นอกจากนี้ ให้พิจารณาถอนการติดตั้งเกตเวย์ข้อมูลถ้าคุณเพียงแค่ติดตั้งไว้เพื่อวัตถุประสงค์ในการทำให้บทช่วยสอนนี้สมบูรณ์ คุณยังควรลบชุดข้อมูล AdventureWorksProducts และรายงาน AdventureWorksProducts ที่ Power BI สร้างขึ้นเมื่อคุณอัปโหลดไฟล์ AdventureWorksProducts.pbix
 

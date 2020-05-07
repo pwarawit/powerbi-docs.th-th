@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 4440db5888eeeab638eab4ea3819107d37bdbdbd
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75223466"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>ใช้ R IDE ภายนอกกับ Power BI
@@ -27,7 +27,7 @@ ms.locfileid: "75223466"
 
 ตั้งแต่ **Power BI Desktop** ที่วางจำหน่ายในเดือนกันยายน 2016(รุ่น 2.39.4526.362) คุณสามารถระบุ R IDE ที่คุณต้องการใช้ และได้เปิดใช้งานโดยอัตโนมัติจากภายใน**Power BI Desktop**
 
-### <a name="requirements"></a>ข้อกำหนด
+### <a name="requirements"></a>ความต้องการ
 เมื่อต้องใช้คุณลักษณะนี้ คุณจำเป็นต้องติดตั้ง**R IDE**บนเครื่องคอมพิวเตอร์ของคุณ **Power BI Desktop**ไม่รวมการนำเข้าใช้หรือการติดตั้ง R engine ดังนั้นคุณต้องติดตั้ง**R**แบบบนเครื่องคอมพิวเตอร์ของคุณแบบแยกต่างหาก คุณสามารถเลือก R IDE ที่จะใช้ ด้วยตัวเลือกต่อไปนี้
 
 * คุณสามารถติดตั้ง R IDE ตัวโปรดของคุณ ซึ่งมีจำนวนมากที่ใช้งานฟรี เช่น[Revolution Open download page](https://mran.revolutionanalytics.com/download/)และ[CRAN Repository](https://cran.r-project.org/bin/windows/base/) ได้
@@ -85,6 +85,6 @@ ms.locfileid: "75223466"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 ดูข้อมูลเพิ่มเติมเกี่ยวกับ R ใน Power BI
 
-* [การเรียกใช้สคริปต์ R ใน Power BI Desktop](desktop-r-scripts.md)
+* [กำลังเรียกใช้สคริปต์ R ใน Power BI Desktop](desktop-r-scripts.md)
 * [สร้างภาพ Power BI ที่ใช้ R](desktop-r-visuals.md)
 

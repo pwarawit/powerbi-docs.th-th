@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: db86fee2303759d30b2ff64dc59b56314f220474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73867369"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>ใช้ป้ายลำดับชั้นแบบอินไลน์ใน Power BI Desktop
@@ -63,7 +63,7 @@ ms.locfileid: "73867369"
 > 
 > 
 
-## <a name="troubleshooting"></a>การแก้ไขปัญหา
+## <a name="troubleshooting"></a>แนวทางการแก้ไขปัญหา
 เป็นไปได้ที่วิชวลของคุณ ค้างอยู่ที่ระดับลำดับชั้นแบบอินไลน์ที่ขยายแล้ว ในบางกรณีคุณอาจพบว่า บางวิชวลของคุณค้างอยู่ในโหมดที่ขยายแล้ว และไม่สามารถเลื่อนขึ้นไปยังลำดับชั้นสูงกว่าได้ ซึ่งสามารถเกิดขึ้นได้ถ้าคุณทำขั้นตอนต่อไปนี้ (วิธีการแก้ไขปัญหานี้อยู่*ด้านล่าง*ขั้นตอนที่ก่อให้เกิดปัญหา):
 
 ขั้นตอนที่อาจทำให้วิชวลของคุณค้างอยู่ในสถานะที่ถูกขยาย:

@@ -10,10 +10,10 @@ ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74565637"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>เชื่อมต่อ LinkedIn Sales Navigator ใน Power BI Desktop
@@ -50,7 +50,7 @@ ms.locfileid: "74565637"
 
 ![ลงชื่อเข้าใช้ LinkedIn](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-05.png)
 
-เมื่อเชื่อมต่อเรียบร้อยแล้ว คุณจะได้รับแจ้งให้เลือกข้อมูลจากสัญญา LinkedIn Sales Navigator จากหน้าต่าง **Navigator**
+เมื่อเชื่อมต่อเรียบร้อยแล้ว คุณจะได้รับแจ้งให้เลือกข้อมูลจากสัญญา LinkedIn Sales Navigator จากหน้าต่าง **Navigator**{3}{4}
 
 ![เลือกข้อมูลด้วย Navigator](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-09.png)
 
@@ -80,7 +80,7 @@ ms.locfileid: "74565637"
 แอปแม่แบบจะมีแท็บ 4 แบบเพื่อช่วยวิเคราะห์และแชร์ข้อมูลของคุณ ดังนี้
 
 * การใช้งาน
-* ค้นหา
+* Search
 * InMail
 * SSI
 
@@ -106,7 +106,7 @@ ms.locfileid: "74565637"
 
 จากตรงนี้ คุณจะเชื่อมต่อข้อมูลของคุณได้โดยเลือกจำนวนวันของข้อมูลที่จะโหลด คุณโหลดข้อมูลได้สูงสุดถึง 365 วัน คุณจะต้องลงชื่อเข้าใช้และใช้อีเมลเดิมที่คุณใช้ลงชื่อเข้าใช้ LinkedIn Sales Navigator ผ่านเว็บไซต์อีกครั้ง 
 
-![ลงชื่อเข้าใช้](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-17.png)
+![เข้าสู่ระบบ](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-17.png)
 
 แอปแม่แบบ จากนั้นรีเฟรชข้อมูลในแอปด้วยข้อมูลข้องคุณ คุณยังตั้งค่าการรีเฟรชตามกำหนดการได้เพื่อให้ข้อมูลในแอปเป็นปัจจุบันตามความถี่การรีเฟรชที่คุณระบุ 
 
@@ -121,7 +121,7 @@ ms.locfileid: "74565637"
 
 * [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
-* [จัดรูปทรงและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [จัดรูปทรง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [เชื่อมต่อกับเวิร์กบุ๊ก Excel ใน Power BI Desktop](desktop-connect-excel.md)   
-* [ป้อนข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
+* [ใส่ข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
 

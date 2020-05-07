@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 ms.openlocfilehash: f6eba8e1138f3c7e934de7152acf52a020c19f07
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859680"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>วิธีการค้นหาคีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงานของคุณ
@@ -29,12 +29,12 @@ ms.locfileid: "73859680"
 
 ![คีย์เซิร์ฟเวอร์รายงาน Power BI ภายในการตั้งค่าขั้นสูง](media/find-product-key/pbirs-product-key.png)
 
-การเลือก**คีย์เซิร์ฟเวอร์รายงาน Power BI**จะแสดงกล่องโต้ตอบที่มีคีย์ผลิตภัณฑ์ของคุณ คุณสามารถคัดลอกและใช้กับการติดตั้ง
+การเลือก**คีย์เซิร์ฟเวอร์รายงาน Power BI**จะแสดงกล่องโต้ตอบที่มีคีย์ผลิตภัณฑ์ของคุณ คุณสามารถคัดลอกคีย์และนำไปใช้กับการติดตั้ง
 
 ![คีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI](media/find-product-key/pbirs-product-key-dialog.png)
 
 ## <a name="purchased-software-assurance-agreement"></a>ข้อตกลงการรับประกันซอฟต์แวร์ที่ซื้อแล้ว
-ถ้าคุณมีข้อตกลง SQL Server Enterprise SA คุณจะสามารถรับคีย์ผลิตภัณฑ์ของคุณจาก[ศูนย์บริการ Volume Licensing](https://www.microsoft.com/Licensing/servicecenter/) ค้นหาภายใต้เซอร์วิสแพ็คล่าสุดสำหรับเซิร์ฟเวอร์ SQL รุ่นล่าสุด หากคุณค้นหาไม่พบ ให้ค้นหาภายใต้การปล่อย RTM ของเซิร์ฟเวอร์ SQL รุ่นล่าสุด
+ถ้าคุณมีข้อตกลง SQL Server Enterprise SA คุณสามารถรับคีย์ผลิตภัณฑ์ของคุณจาก[ศูนย์บริการการมอบสิทธิ์การใช้งาน Volume](https://www.microsoft.com/Licensing/servicecenter/)ได้ ค้นหาภายใต้เซอร์วิสแพ็คล่าสุดสำหรับเซิร์ฟเวอร์ SQL รุ่นล่าสุด หากคุณค้นหาไม่พบ ให้ค้นหาภายใต้การปล่อย RTM ของเซิร์ฟเวอร์ SQL รุ่นล่าสุด
 
 > [!NOTE]
 > คุณต้องค้นหาภายใต้ส่วนดาวน์โหลด ไม่ใช่ส่วนคีย์
@@ -49,5 +49,5 @@ ms.locfileid: "73859680"
 [ดาวน์โหลดตัวสร้างรายงาน](https://www.microsoft.com/download/details.aspx?id=53613)  
 [ดาวน์โหลด SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 
