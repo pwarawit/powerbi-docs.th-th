@@ -12,10 +12,10 @@ ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872243"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>สร้างข้อมูลเชิงลึกโดยอัตโนมัติด้วย Power BI
@@ -39,7 +39,7 @@ ms.locfileid: "73872243"
 
 1. จากแท็บ**ชุดข้อมูล** เลือก**ตัวเลือกเพิ่มเติม** (...) แล้วเลือก**รับข้อมูลเชิงลึกด่วน**
    
-    ![แท็บชุดข้อมูล](media/service-insights/power-bi-ellipses.png)
+    ![แถบชุดข้อมูล](media/service-insights/power-bi-ellipses.png)
    
     ![เมนูจุดไข่ปลา](media/service-insights/power-bi-tab.png)
 2. Power BI ใช้[อัลกอริธึมต่าง ๆ](service-insight-types.md)เพื่อค้นหาแนวโน้มในชุดข้อมูลของคุณ
@@ -95,5 +95,5 @@ ms.locfileid: "73872243"
 - ถ้าคุณเป็นเจ้าของชุดข้อมูล[ปรับให้เหมาะสมสำหรับข้อมูลเชิงลึกด่วน](service-insights-optimize.md)
 - เรียนรู้เกี่ยวกับ[ชนิดของข้อมูลเชิงลึกด่วนที่พร้อมใช้งาน](service-insight-types.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

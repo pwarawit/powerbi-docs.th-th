@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
 ms.openlocfilehash: d67e7acf4309595e8bccac86119ea38f1a97797f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853405"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>สร้างแดชบอร์ด Power BI จากรายงาน
@@ -114,7 +114,7 @@ ms.locfileid: "73853405"
 * [ปรับขนาดและย้ายไทล์](service-dashboard-edit-tile.md)
 * [ทั้งหมดเกี่ยวกับไทล์แดชบอร์ด](service-dashboard-tiles.md)
 * [แชร์แดชบอร์ดของคุณโดยการสร้างแอปฯ](service-create-workspaces.md)
-* [Power BI - แนวคิดพื้นฐาน](service-basic-concepts.md)
+* [Power BI แนวคิดพื้นฐาน](service-basic-concepts.md)
 * [เคล็ดลับสำหรับการออกแบบแดชบอร์ด ที่ยอดเยี่ยม](service-dashboards-design-tips.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 5bc0d3bbfb2c2b67b56e6406646f6131a360b97d
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73800173"
 ---
 ข้อแตกต่างหลักอย่างหนึ่งระหว่างภาษาสูตรของ **DAX** และ Excel คือ DAX อนุญาตให้คุณผ่าน*ทั้งตาราง*ได้ระหว่างนิพจน์ แทนที่จะถูกจำกัดอยู่ที่ค่าเดี่ยว ผลกระทบใหญ่อย่างหนึ่งคือ DAX อนุญาตให้คุณกรองตารางในนิพจน์ได้ จากนั้น DAX จะทำงานกับชุดค่าที่ได้รับการกรองแล้ว

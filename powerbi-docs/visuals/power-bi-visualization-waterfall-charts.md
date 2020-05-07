@@ -11,10 +11,10 @@ ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74907675"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>แผนภูมิแบบน้ำตกใน Power BI
@@ -26,7 +26,7 @@ ms.locfileid: "74907675"
 คอลัมน์เป็นสีที่แสดงรหัส เพื่อให้คุณสามารถสังเกตการเพิ่มขึ้นและการลดลงได้อย่างรวดเร็ว คอลัมน์ค่าเริ่มต้นและคอลัมน์ค่าสุดท้ายมัก[เริ่มต้นบนแกนนอน](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "เริ่มต้นบนแกนนอน")ขณะที่ค่ากลางจะเป็นคอลัมน์แบบลอยตัว เนื่องจากมี "สไตล์" แบบนี้ จึงยังเรียกแผนภูมิแบบน้ำตกอีกชื่อหนึ่งว่าแผนภูมิแบบสะพาน
 
    > [!NOTE]
-   > วิดีโอนี้ใช้ Power BI Desktop เวอร์ชั่นเก่า
+   > วิดีโอนี้ใช้ Power BI Desktop เวอร์ชันเก่า
    > 
    > 
 
@@ -46,7 +46,7 @@ ms.locfileid: "74907675"
 
 * เมื่อต้องการแสดงภาพจำนวนเงินที่หาได้และใช้จ่ายในแต่ละเดือน และยอดคงเหลือสะสมสำหรับบัญชีของคุณ
 
-## <a name="prerequisite"></a>เงื่อนไขเบื้องต้น
+## <a name="prerequisite"></a>ข้อกำหนดเบื้องต้น
 
 บทช่วยสอนนี้ใช้[ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
@@ -56,7 +56,7 @@ ms.locfileid: "74907675"
 
 1. เปิด**ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก**ในมุมมองรายงาน ![ภาพหน้าจอไอคอนมุมมองรายงาน](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
-1. เลือก ![สกรีนช็อตของแท็บสีเหลือง](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) หากต้องการเพิ่มหน้าใหม่
+1. Select ![สกรีนช็อตของแท็บสีเหลือง](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) หากต้องการเพิ่มหน้าใหม่
 
 
 ## <a name="create-a-waterfall-chart"></a>สร้างแผนภูมิแบบน้ำตก
@@ -73,7 +73,7 @@ ms.locfileid: "74907675"
 
     ![แม่แบบการแสดงภาพ](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
-1. เลือก**เวลา** > **เดือนตามรอบบัญชี** เพื่อเพิ่มไปยังแอ่ง **ประเภท**
+1. เลือก**เวลา** > **เดือนตามรอบบัญชี** เพื่อเพิ่มไปยัง**ประเภท** ตามที่เหมาะสม
 
     ![แผนภูมิน้ำตก](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 

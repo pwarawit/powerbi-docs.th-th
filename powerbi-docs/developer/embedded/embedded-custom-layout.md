@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 12/19/2017
 ms.openlocfilehash: e114c208093c9f3401c43e9ea44502e65d6d84fd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79493215"
 ---
 # <a name="custom-layouts"></a>เค้าโครงแบบกำหนดเอง
@@ -109,8 +109,8 @@ enum VisualContainerDisplayMode {
 ```
 
 - `x,y,z`: กำหนดตำแหน่งใหม่ของวิชวล
-- `width`, ความสูง: กำหนดขนาดของวิชวลใหม่
-- `displayState`: กำหนดการมองเห็นของวิชวล
+- `width`, height: กำหนดขนาดของวิชวลใหม่
+- `displayState`: กำหนดมองเห็นของวิชวล
 
 ## <a name="update-layout"></a>ปรับปรุงเค้าโครง
 
@@ -170,7 +170,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-## <a name="see-also"></a>อาจดูได้จาก
+## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 [ฝังตัวแดชบอร์ด รายงาน และไทล์ Power BI ของคุณ](embed-sample-for-customers.md)   
 [ถามชุมชน Power BI](https://community.powerbi.com/)

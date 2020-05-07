@@ -10,10 +10,10 @@ ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 10540ed49064b9e28543ce46b43d8bb2d9ca6cf7
-ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74178271"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 เคล็ดลับสำหรับการรับความช่วยเหลือเกี่ยวกับคำถาม Power BI ของคุณ
@@ -29,7 +29,7 @@ ms.locfileid: "74178271"
 ทีม Power BI ปรับปรุงและพัฒนาเอกสารประกอบ Power BI อย่างต่อเนื่องรวมทั้งมีการฝึกอบรมด้วย คุณสามารถค้นหาเนื้อหาที่ดีที่สุด รวมถึงการบันทึกการสัมมนาผ่านเว็บ รายงาน คำแนะนำการเรียนรู้ และลิงก์ไปยังโพสต์ในบล็อกของฟีเจอร์ล่าสุดทั้งหมด
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3 อ่านบล็อก Power BI เกี่ยวกับข่าวสารล่าสุด
-ทีม Power BI อธิบายฟีเจอร์ใหม่ทั้งหมดใน[โพสต์ในบล็อก Power BI](https://powerbi.microsoft.com/blog/) ปกติของพวกเขา ค้นหาว่ามีอะไรใหม่ตั้งแต่ Power BI Desktop จนถึงแอปมือถือ Power BI หรือไม่ พยายามกลับมาดูบ่อยๆ ว่ามีอะไรใหม่: การสแกนบล็อกในแต่ละสัปดาห์ใช้เวลาไม่นาน คุณไม่เคยทราบว่าเมื่อไหร่คุณจะได้รับประโยชนข้อมูลบืตนั้นที่คุณสังเกตเห็นเมื่อหลายเดือนก่อน
+ทีม Power BI อธิบายฟีเจอร์ใหม่ทั้งหมดใน[โพสต์ในบล็อก Power BI](https://powerbi.microsoft.com/blog/) ปกติของพวกเขา ค้นหาว่ามีอะไรใหม่ตั้งแต่ Power BI Desktop จนถึงแอปมือถือ Power BI หรือไม่ สร้างพฤติกรรมของการกลับมาดูว่ามีอะไรใหม่เสมอ ให้ใช้เวลาสักสองสามนาทีต่อสัปดาห์เพื่อหาสิ่งใหม่ๆในบล็อก คุณไม่เคยทราบว่าเมื่อไหร่คุณจะได้รับประโยชนข้อมูลบืตนั้นที่คุณสังเกตเห็นเมื่อหลายเดือนก่อน
 
 ## <a name="4-try-twitter"></a>4 ลองใช้ Twitter
 ลูกค้า Power BI และผู้เชี่ยวชาญจำนวนมากอยู่บน Twitter ถามคำถามของคุณในทวีต เพิ่มแฮชแท็ก #powerbi และ #powerbihelp เพื่อให้บุคคลทีรู้เรื่องนี้เห็นทวิตของคุณ
@@ -70,4 +70,4 @@ ms.locfileid: "74178271"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [Power BI คืออะไร](fundamentals/power-bi-overview.md)
 * ลองถาม[ชุมชน Power BI](https://community.powerbi.com/)
-* ยังคงมีปัญหาหรือไม่? โปรดเยี่ยมชม[หน้าการรองรับของ Power BI](https://powerbi.microsoft.com/support/)
+* ยังคงมีปัญหาใช่หรือไม่? โปรดเยี่ยมชม[หน้าการรองรับของ Power BI](https://powerbi.microsoft.com/support/)

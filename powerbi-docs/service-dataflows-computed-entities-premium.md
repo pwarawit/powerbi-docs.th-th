@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a655c55520d76bfaeb51318d09244ea663ccc192
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872653"
 ---
 # <a name="using-computed-entities-on-power-bi-premium"></a>การใช้เอนทิตีที่คำนวณใน Power BI Premium
@@ -60,7 +60,7 @@ ms.locfileid: "73872653"
 
 จากนั้น คุณต้องผสานเอนทิตี *บัญชี* กับเอนทิตี *ServiceCallsAggregated* เพื่อคำนวณตาราง**บัญชี**ที่เพิ่มข้อมูล
 
-![ตัวอย่างของเอนทิตีที่คำนวณใน Power BI Premium](media/service-dataflows-computed-entities-premium/computed-entities-premium_03.png)
+![ตัวอย่างของเอนทิตีที่คำนวณไว้ใน Power BI Premium](media/service-dataflows-computed-entities-premium/computed-entities-premium_03.png)
 
 และจากนั้นคุณจะเห็นผลลัพธ์ ดังที่แสดง *EnrichedAccount* ในภาพต่อไปนี้
 

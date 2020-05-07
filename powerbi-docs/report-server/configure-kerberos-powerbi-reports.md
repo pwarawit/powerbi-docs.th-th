@@ -1,5 +1,5 @@
 ---
-title: กำหนดค่า Kerberos เพื่อใช้รายงาน Power BI
+title: กำหนดค่า Kerberos เมื่อต้องใช้รายงาน Power BI
 description: เรียนรู้วิธีการกำหนดค่าเซิร์ฟเวอร์รายงานของคุณสำหรับการรับรองความถูกต้อง Kerberos ไปยังแหล่งข้อมูลที่ใช้ภายในรายงานของ Power BI สำหรับสภาพแวดล้อมแบบกระจาย
 author: maggiesMSFT
 ms.reviewer: ''
@@ -9,13 +9,13 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maggies
 ms.openlocfilehash: 6e341f80e3631228c28590ccf0a7711e0b624f2c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874223"
 ---
-# <a name="configure-kerberos-to-use-power-bi-reports"></a>กำหนดค่า Kerberos เพื่อใช้รายงาน Power BI
+# <a name="configure-kerberos-to-use-power-bi-reports"></a>กำหนดค่า Kerberos เมื่อต้องใช้รายงาน Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 เรียนรู้วิธีการกำหนดค่าเซิร์ฟเวอร์รายงานของคุณสำหรับการรับรองความถูกต้อง Kerberos ไปยังแหล่งข้อมูลที่ใช้ภายในรายงานของ Power BI สำหรับสภาพแวดล้อมแบบกระจาย
@@ -134,7 +134,7 @@ SPN สำหรับ Analysis Services จะคล้ายกับที่
 
 ตัวอย่างของ SPN สำหรับ Analysis Services มีลักษณะดังต่อไปนี้
 
-| ชนิด | รูปแบบ |
+| ประเภท | รูปแบบ |
 | --- | --- |
 | ตัวอย่างเริ่มต้น |MSOLAPSvc.3/ContosoAS.contoso.com<br>MSOLAPSvc.3/ContosoAS |
 | ตัวอย่างที่ตั้งชื่อ |MSOLAPSvc.3/ContosoAS.contoso.com:INSTANCENAME<br>MSOLAPSvc.3/ContosoAS:INSTANCENAME |
@@ -187,14 +187,14 @@ SPN สำหรับ SQL Browser จะคล้ายกับสิ่งท
 เราจะต้องกำหนดค่าการมอบสิทธิ์ที่บังคับด้วยส่งผ่านโปรโตคอล สำหรับการรับมอบสิทธิ์ทีี่บังคับ คุณต้องมีความชัดเจนว่าบริการใดที่คุณต้องการมอบหมาย เราจะไปและเพิ่มทั้ง SPN สำหรับบริการ Analysis Services และ SPN SQL Browser ไปยังรายการที่เซิร์ฟเวอร์รายงาน Power BI สามารถมอบหมายสิทธิ์ได้
 
 1. คลิกขวาบนบัญชีผู้ใช้บริการเซิร์ฟเวอร์รายงาน และเลือก**คุณสมบัติ**
-2. เลือกแถบ **การมอบหมาย**
+2. เลือกแท็บ**การมอบหมาย**
 3. เลือก **เชื่อถือคอมพิวเตอร์เครื่องนี้สำหรับการรับมอบสิทธิ์ไปยังบริการที่ระบุเท่านั้น**
 4. เลือก**ใช้โปรโตคอลรับรองความถูกต้องใดก็ได้**
 5. ใต้**บริการที่บัญชีผู้ใช้นี้สามารถใช้ข้อมูลประจำตัวที่ได้รับมอบหมาย:** เลือก**เพิ่ม**
 6. ในกล่องโต้ตอบใหม่ เลือก**ผู้ใช้หรือคอมพิวเตอร์**
 7. ป้อนบัญชีบริการสำหรับบริการ Analysis Services และเลือก**ตกลง**
 8. เลือก SPN ที่คุณสร้างขึ้น ซึ่งจะเริ่มต้นด้วย`MSOLAPSvc.3` ถ้าคุณเพิ่มทั้ง FQDN และ NetBIOS SPN ระบบจะเลือกทั้งสองอย่าง คุณอาจเห็นแค่อย่างเดียวเท่านั้น
-9. เลือก**ตกลง**  คุณควรเห็น SPN ในรายการแล้วตอนนี้
+9. เลือก**ตกลง**  คุณควรเห็น SPN ในรายการแล้ว
 10. คุณอาจเลือก**ขยาย**เพื่อแสดงทั้ง FQDN และ NetBIOS SPN ในรายการดังกล่าว
 11. เลือก**เพิ่ม**อีกครั้ง เราจะเพิ่ม SPN SQL Browser ตอนนี้้
 12. ในกล่องโต้ตอบใหม่ เลือก**ผู้ใช้หรือคอมพิวเตอร์**
@@ -217,5 +217,5 @@ SPN สำหรับ SQL Browser จะคล้ายกับสิ่งท
 [ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
 [ติดตั้ง Power BI Report Server](install-report-server.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

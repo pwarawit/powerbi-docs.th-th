@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: b2a7f4434ac82a125352eaefdd2417d9039b710f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73868625"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>ตั้งค่า และใช้งานตารางวันที่ใน Power BI Desktop
@@ -74,7 +74,7 @@ ms.locfileid: "73868625"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-คุณอาจสนใจบทความต่อไปนี้:
+คุณอาจมีความสนใจบทความต่อไปนี้:
 
 * [วันที่/เวลาอัตโนมัติใน Power BI Desktop](desktop-auto-date-time.md)
 * [ชนิดข้อมูลใน Power BI Desktop](desktop-data-types.md)

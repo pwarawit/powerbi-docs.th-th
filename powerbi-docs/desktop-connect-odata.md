@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 3f825c3c7247cba41d574dccde2fc5eda49e70a2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73876437"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>เชื่อมต่อกับตัวดึงข้อมูล OData ใน Power BI Desktop
@@ -32,7 +32,7 @@ Power BI Desktop เชื่อมต่อกับตัวดึงข้อ
 
 ![](media/desktop-connect-odata/connect-to-odata_3.png)
 
-คุณสามารถเลือกปุ่ม**แก้ไข** ซึ่งจะเปิด**ตัวแก้ไขแบบสอบถาม**ขึ้นมา ในหน้าต่างนี้คุณจะสามารถจัดการรูปร่างและเปลี่ยนแปลงข้อมูลจากตัวดึงข้อมูล OData ได้ ก่อนที่จะนำเข้าข้อมูลไปยัง Power BI Desktop หรือคุณสามารถเลือกปุ่ม**โหลด** และนำเข้าองค์ประกอบข้อมูลทั้งหมดที่คุณได้เลือกในช่องแสดงข้อมูลด้านซ้าย
+คุณสามารถเลือกปุ่ม**แก้ไข** ซึ่งจะเปิด**ตัวแก้ไขแบบสอบถาม**ขึ้นมา ในหน้าต่างนี้คุณจะสามารถจัดการรูปร่างและเปลี่ยนแปลงข้อมูลจากตัวดึงข้อมูล OData ได้ ก่อนที่จะนำเข้าข้อมูลไปยัง Power BI Desktop หรือคุณสามารถเลือก**ปุ่ม**โหลด และนำเข้าองค์ประกอบข้อมูลทั้งหมดที่คุณเลือกในช่องแสดงข้อมูลด้านซ้าย
 
 เมื่อเราเลือก**การโหลด** Power BI Desktop จะนำเข้ารายการที่เลือกไว้และแสดงหน้าต่าง**การโหลด**ของความคืบหน้าการนำเข้า
 
@@ -51,7 +51,7 @@ Power BI Desktop เชื่อมต่อกับตัวดึงข้อ
 
 * [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
-* [จัดรูปทรงและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [จัดรูปทรง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [เชื่อมต่อกับเวิร์กบุ๊ก Excel ใน Power BI Desktop](desktop-connect-excel.md)   
-* [ป้อนข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
+* [ใส่ข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
 
