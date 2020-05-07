@@ -10,10 +10,10 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 3936ebfedb1e4e51fe93b948a49de0b9fb133c52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881293"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>ลบการเชื่อมต่อของคุณกับชุดเนื้อหา Power BI ขององค์กร
@@ -33,8 +33,8 @@ ms.locfileid: "73881293"
 นอกจากนี้ การลบชุดข้อมูลยังเป็นการลบรายงานและแดชบอร์ดทั้งหมดที่เกี่ยวข้อง อย่างไรก็ตาม การลบการเชื่อมต่อชุดเนื้อหานี้ไม่ได้ลบชุดเนื้อหาจาก AppSource ขององค์กรของคุณ  คุณสามารถกลับไปยัง AppSource และเพิ่มชุดเนื้อหานี้กลับไปยังพื้นที่ทำงานของคุณได้เสมอ คุณสามารถ[ลบชุดเนื้อหาจาก AppSource](service-organizational-content-pack-manage-update-delete.md)ได้ ถ้าคุณเป็นผู้สร้างชุดเนื้อหานั้น
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [แนะนำชุดเนื้อหาองค์กร](service-organizational-content-pack-introduction.md) 
+* [บทนำเกี่ยวกับชุดเนื้อหาองค์กร](service-organizational-content-pack-introduction.md) 
 * [สร้างและกระจายแอปฯใน Power BI](service-create-distribute-apps.md) 
 * [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)  
-* มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+* มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

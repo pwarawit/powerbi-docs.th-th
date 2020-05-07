@@ -10,10 +10,10 @@ ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: cf1d67318fc86b1044e38e6f4f5f56c9473c39a1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74265493"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>เปิดใช้งาน Q&A กับการเชื่อมต่อแบบสดใน Power BI
@@ -60,9 +60,9 @@ ms.locfileid: "74265493"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-- [On-premises data gateway (เกตเวย์ข้อมูลภายในองค์กร)](service-gateway-onprem.md)  
+- [เกตเวย์ข้อมูลภายในองค์กร](service-gateway-onprem.md)  
 - [จัดการแหล่งข้อมูลของคุณ - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-- [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)  
+- [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)  
 - [ภาพรวม Power BI Q&A](consumer/end-user-q-and-a.md)  
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

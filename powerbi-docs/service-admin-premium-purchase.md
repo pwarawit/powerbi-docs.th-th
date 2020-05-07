@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: aed0d1e4dec6f6efe49dd39cd5b6fc60f8977e44
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488625"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>วิธีการซื้อ Power BI Premium
@@ -57,7 +57,7 @@ ms.locfileid: "79488625"
 
 1. วางเคอร์เซอร์เหนือ จุดไข่ปลา ( **. . .** )แล้ว เลือก**ซื้อทันที**
 
-    ![ซื้อทันที](media/service-admin-premium-purchase/premium-purchase.png)
+    ![ซื้อเดี๋ยวนี้](media/service-admin-premium-purchase/premium-purchase.png)
 
 1. ทำตามขั้นตอนเพื่อทำการซื้อให้เสร็จสมบูรณ์
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: e9156e539ee9f1a344b89f7814c148829498e5fc
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435938"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>ลงชื่อเข้าระบบครั้งเดียวในแอปมือถือ Power BI สำหรับ Windows
@@ -24,7 +24,7 @@ ms.locfileid: "79435938"
 SSO จะเปิดใช้งานสำหรับอุปกรณ์ Windows ที่จัดการโดย Windows Azure Active Directory เท่านั้น
 
 >[!NOTE]
->การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ **โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
+>การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ**โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [เรียนรู้เพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="sign-in-with-sso"></a>ลงชื่อเข้าใช้ด้วย SSO
 
@@ -37,5 +37,5 @@ SSO จะเปิดใช้งานสำหรับอุปกรณ์ 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [เริ่มต้นใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10](mobile-windows-10-phone-app-get-started.md)
-- มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+- มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

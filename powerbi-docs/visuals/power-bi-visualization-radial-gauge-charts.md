@@ -11,10 +11,10 @@ ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: e783b4357d4db39e09aabbb1df39e1bb5c84532e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73880900"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>แผนภูมิหน้าปัดความเร็วใน Power BI
@@ -66,7 +66,7 @@ ms.locfileid: "73880900"
 
 ## <a name="create-a-basic-radial-gauge"></a>สร้างแผนภูมิหน้าปัดความเร็วแบบพื้นฐาน
 
-### <a name="step-1-create-a-gauge-to-track-gross-sales"></a>ขั้นที่ 1: สร้างตัววัดแบบหน้าปัดความเร็วเพื่อติดตามยอดขายรวม
+### <a name="step-1-create-a-gauge-to-track-gross-sales"></a>ขั้นตอนที่ 1: สร้างตัววัดแบบหน้าปัดความเร็วเพื่อติดตามยอดขายรวม
 
 1. เริ่มต้นบน หน้ารายงานเปล่า
 
@@ -87,7 +87,7 @@ ms.locfileid: "73880900"
     > [!TIP]
     > ตามค่าเริ่มต้น Power BI สร้างแผนภูมหน้าปัดความเร็วที่คาดการณ์ตามค่าปัจจุบัน (ในกรณีนี้คือ**ค่าเฉลี่ยของผลรวมขาย**) จะถือว่าเป็นจุดกลิ่งกลางของหน้าปัด เนื่องจากค่า**ยอดขายรวมค่าเฉลี่ย**คือ $182.76K ค่าเริ่มต้น (ต่ำสุด) ถูกตั้งค่าเป็น 0 และค่าสิ้นสุด (สูงสุด) ถูกตั้งค่าเป็นคู่ค่าปัจจุบัน
 
-### <a name="step-3-set-a-target-value"></a>ขั้นที่ 3: ตั้งค่าเป้าหมาย
+### <a name="step-3-set-a-target-value"></a>ขั้นตอนที่ 3: ตั้งค่าเป้าหมาย
 
 1. ลาก**COGS**จากบานหน้าต่าง**เขตข้อมูล**เพื่อตั้ง**ค่าเป้าหมาย**ที่ดี
 
@@ -102,7 +102,7 @@ ms.locfileid: "73880900"
    > [!NOTE]
    > คุณสามารถใส่ค่าเป้าหมายด้วยตนเอง ดู [ใช้ตัวเลือกของการจัดรูปแบบเพื่อตั้งค่าต่ำสุด สูงสุด และส่วนของค่าเป้าหมาย](#use-manual-format-options-to-set-minimum-maximum-and-target-values)
 
-### <a name="step-4-set-a-maximum-value"></a>ขั้นที่ 4: ตั้งค่าสูงสุด
+### <a name="step-4-set-a-maximum-value"></a>ขั้นตอนที่ 4: ตั้งค่าสูงสุด
 
 ในขั้นตอนที่ 2 Power BI ให้ใช้เขตข้อมูลที่ตั้ง**ค่า**ต่ำสุด(เริ่มต้น) และค่าสูงสุด(สิ้นสุด)โดยอัตโนมัติ จะเกิดอะไรขึ้นถ้าคุณต้องการตั้งค่าสูงสุดของคุณเอง สมมติว่าแทนที่จะใช้่ค่าปัจจุบันคุณสองเป็นค่าที่เป็นไปได้สูงสุด คุณต้องการตั้งค่าเป็นตัวเลขยอดขายรวมสูงสุดในชุดข้อมูลของคุณหรือไม่
 
@@ -116,7 +116,7 @@ ms.locfileid: "73880900"
 
    ![สกรีนช็อตของแผนภูมิตัววัดที่เสร็จสมบูรณ์แล้ว](media/power-bi-visualization-radial-gauge-charts/power-bi-final-gauge.png)
 
-### <a name="step-5-save-your-report"></a>ขั้นที่ 5: บันทึกรายงานของคุณ
+### <a name="step-5-save-your-report"></a>ขั้นตอนที่ 5: บันทึกรายงานของคุณ
 
 1. [บันทึกรายงาน](../service-report-save.md)
 

@@ -13,17 +13,17 @@ metadata:
   ms.author: maggies
   ms.date: 03/17/2020
   ms.openlocfilehash: 12bd1e2ac706925301ca139bd84cef249c71e18c
-  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: th-TH
-  ms.lasthandoff: 03/18/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "79488487"
 landingContent:
 - title: Power BI สำหรับผู้ดูแลระบบและองค์กร
   linkLists:
   - linkListType: overview
     links:
-    - text: การดูแล Power BI คืออะไร?
+    - text: ดูแล Power BI คืออะไร
       url: ../service-admin-administering-power-bi-in-your-organization.md
     - text: Power BI Premium คืออะไร?
       url: ../service-premium-what-is.md
