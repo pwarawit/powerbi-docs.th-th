@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: painbar
 ms.openlocfilehash: ce7b3c3bc667023ef36650d8c551caaceab04c02
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802812"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>ปกป้องแอป Power BI ด้วย Face ID, Touch ID, รหัสผ่าน หรือข้อมูลทางชีวมิติ 
@@ -20,11 +20,11 @@ ms.locfileid: "80802812"
 
 แอป Power BI สำหรับ iOS และแอนดรอยด์ช่วยให้คุณสามารถปกป้องข้อมูลของคุณได้โดยการกำหนดค่าการระบุเพิ่มเติม จากนั้น ผู้ใช้จะต้องทำการยืนยันตัวตนทุกครั้งที่มีการเปิดใช้งานแอปหรือนำแอปขึ้นมาที่เบื้องหน้า สำหรับ iOS กรณีนี้หมายความว่าคุณต้องให้ Face ID, Touch ID หรือรหัสผ่าน สำหรับแอนดรอยด์ กรณีนี้หมายความว่าคุณต้องให้ข้อมูลทางชีวมิติ (Fingerprint ID)
 
-นำไปใช้กับ:
+ใช้ได้กับ:
 
-| ![iPhone](./media/mobile-native-secure-access/ios-logo-40-px.png) | ![iPad](./media/mobile-native-secure-access/ios-logo-40-px.png) | ![โทรศัพท์ Android](././media/mobile-native-secure-access/android-logo-40-px.png) | ![แท็บเล็ต Android](././media/mobile-native-secure-access/android-logo-40-px.png) |
+| ![iPhone](./media/mobile-native-secure-access/ios-logo-40-px.png) | ![iPad](./media/mobile-native-secure-access/ios-logo-40-px.png) | ![มือถือ Android](././media/mobile-native-secure-access/android-logo-40-px.png) | ![แท็บเล็ต Android](././media/mobile-native-secure-access/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
-|iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |
+|iPhones |iPad |มือถือ Android |แท็บเล็ต Android |
 
 ## <a name="turn-on-face-id-touch-id-or-passcode-on-ios"></a>เปิด Face ID, Touch ID หรือรหัสผ่านบน iOS
 

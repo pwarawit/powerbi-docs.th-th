@@ -1,19 +1,19 @@
 ---
 title: เคล็ดลับสำหรับการเขียนแอปเทมเพลตใน Power BI
 description: เคล็ดลับเกี่ยวกับการเขียนคิวรี่ แบบจำลองข้อมูล รายงาน และแดชบอร์ดสำหรับการทำให้แอแม่ดี
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 03/24/2020
-ms.author: tebercov
-ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.date: 05/04/2020
+ms.author: painbar
+ms.openlocfilehash: 266e44b5e5ecff2f86bcd3d43ce91368cc57b9e1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066293"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781305"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>เคล็ดลับสำหรับการเขียนแอปเทมเพลตใน Power BI
 
@@ -142,22 +142,8 @@ ms.locfileid: "82066293"
 * Power B - ผู้ใช้ Power BI สามารถดูได้
 
 เพื่อเปลี่ยนเส้นทางผู้ใช้ไปยังลิงก์ดาวน์โหลดของแอปใน Power BI โปรดดูตัวอย่างโค้ดต่อไปนี้: [ที่เก็บ GitHub](https://github.com/microsoft/Template-apps-examples/tree/master/src)
+
 [![ลิงก์ดาวน์โหลดของแอป](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
-
-
-
-## <a name="known-limitations"></a>ข้อจำกัดที่ทราบ
-
-| ฟีเจอร์ | ข้อจำกัดที่ทราบ |
-|---------|---------|
-|เนื้อหา:  ชุดข้อมูล   | ควรมีชุดข้อมูลหนึ่งชุด อนุญาตเฉพาะชุดข้อมูลที่สร้างขึ้นใน Power BI Desktop (ไฟล์.pbix) <br>ไม่ได้รับการสนับสนุน ชุดข้อมูลจากอื่น ๆ แอปแม่แบบ ชุดข้อมูลพื้นที่ทำงานข้าม รายงานแบบแบ่งหน้า (ไฟล์.rdl) เวิร์กบุ๊ก Excel เมตาดาต้าชุดข้อมูลที่ปรับปรุง |
-|เนื้อหา: แดชบอร์ด | ไม่อนุญาตให้ใช้ไทล์แบบเรียลไทม์ (หรืออีกนัยหนึ่งก็คือ ไม่มีการสนับสนุนสำหรับพุชหรือชุดข้อมูลการสตรีม) |
-|เนื้อหา: กระแสข้อมูล | ไม่ได้รับการสนับสนุน กระแสข้อมูล |
-|เนื้อหาจากไฟล์ | สนับสนุนเฉพาะไฟล์ .pbix <br>ไม่ได้รับการสนับสนุน: แฟ้ม.rdl (รายงานแบบแบ่งหน้า) เวิร์กบุ๊ก Excel   |
-| แหล่งข้อมูล | แหล่งข้อมูลที่สนับสนุนสำหรับระบบคลาวด์ที่ทำกำหนดการรีเฟรชข้อมูลแล้ว <br>ไม่ได้รับการสนับสนุน <li> DirectQuery</li><li>เชื่อมต่อแบบสด (AS Azure ไม่มี)</li> <li>แหล่งข้อมูล (เกตเวย์ส่วนบุคคลและองค์กรไม่ได้รับการสนับสนุน) ในองค์กร</li> <li>แบบเรียลไทม์ (ไม่มีการสนับสนุนสำหรับชุดข้อมูลแบบพุช)</li> <li>โมเดลแบบรวม</li></ul> |
-| ชุดข้อมูล: พื้นที่ทำงานข้าม | ชุดข้อมูลพื้นที่ทำงานข้ามไม่ได้รับอนุญาต  |
-| พารามิเตอรคิวรี่ | ไม่ได้รับการสนับสนุน พารามิเตอร์ของชนิด "ใดๆ" หรือ "ไบนารี" ชนิดบล็อกรีเฟรชสำหรับชุดข้อมูล |
-| วิชวล Power BI | สนับสนุนเฉพาะวิชวล Power BI ที่พร้อมใช้งานแบบสาธารณะ ไม่สนับสนุน[วิชวล Power BI ขององค์กร](developer/visuals/power-bi-custom-visuals-organization.md) |
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

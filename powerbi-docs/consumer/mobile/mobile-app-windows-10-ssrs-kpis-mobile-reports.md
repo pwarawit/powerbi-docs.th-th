@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
 ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435386"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>ดูรายงานและ KPI ภายในองค์กรในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
@@ -19,7 +19,7 @@ ms.locfileid: "79435386"
 
 ![รายงานอุปกรณ์มือถือของ Reporting Services](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
-## <a name="first-things-first"></a>สิ่งแรกที่ต้องทำ
+## <a name="first-things-first"></a>ขั้นแรก
 [สร้างรายงานอุปกรณ์มือถือของ Reporting Services](https://msdn.microsoft.com/library/mt652547.aspx) ด้วย SQL Server 2016 Enterprise Edition Mobile Report Publisher แล้วเผยแพร่รายงานอุปกรณ์มือถือนั้นไปยัง [พอร์ทัลของเว็บ Reporting Services](https://msdn.microsoft.com/library/mt637133.aspx) สร้าง KPI อย่างเหมาะสมในพอร์ทัลของเว็บ จัดระเบียบรายงานอุปกรณ์มือถือในโฟลเดอร์ แล้วทำเครื่องหมายเป็นรายการโปรดของคุณ เพื่อให้คุณสามารถค้นหาได้ง่าย 
 
 จากนั้นในแอป Power BI สำหรับ Windows 10 ดู KPS รายงานมือถือและรายงาน Power BI จัดระเบียบในโฟลเดอร์หรือรวบรวมเป็นรายการโปรด 
@@ -28,13 +28,13 @@ ms.locfileid: "79435386"
 > อุปกรณ์ของคุณจะต้องสามารถใช้งาน Windows 10 ได้ แอปสามารถทำงานได้เต็มประสิทธิภาพในอุปกรณ์ที่มี RAM อย่างน้อย 1 GB และที่เก็บข้อมูลภายใน 8 GB
 
 >[!NOTE]
->การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ**โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
+>การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ**โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [เรียนรู้เพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="explore-samples-without-a-sql-server-2016-reporting-services-server"></a>สำรวจตัวอย่างโดยไม่มีเซิร์ฟเวอร์ SQL Server 2016 Reporting Services
 แม้ว่าคุณไม่สามารถเข้าถึงพอร์ทัลของเว็บ Reporting Services ได้ แต่ยังสามารถสำรวจดูคุณลักษณะต่างๆ ในรายงานอุปกรณ์มือถือของ Reporting Services ได้
 
 1. ในอุปกรณ์ที่ใช้งาน Windows 10 ของคุณ ให้เปิดแอป Power BI
-2. แตะปุ่มการนำทางส่วนกลาง ![ปุ่มการนำทางส่วนกลาง](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) ในมุมบนซ้าย
+2. แตะปุ่มนำทางส่วนกลาง ![ปุ่มนำทางส่วนกลาง](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) ในมุมซ้ายบน
 3. แตะไอคอน **การตั้งค่า**![ไอคอนการตั้งค่า](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) คลิกขวา หรือแตะค้าง **เชื่อมต่อกับเซิร์ฟเวอร์** แล้วแตะ **ดูตัวอย่าง**
    
    ![ดูตัวอย่างของ SSRS](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-win10-connect-ssrs-samples.png)
@@ -46,8 +46,8 @@ ms.locfileid: "79435386"
 
 ## <a name="connect-to-a-reporting-services-report-server"></a>เชื่อมต่อกับรีพอร์ตเซิร์ฟเวอร์ของ Reporting Services
 1. ที่ด้านล่างของบานหน้าต่างนำทาง ให้แตะ**การตั้งค่า** ![ไอคอนการตั้งค่า](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png)
-2. แตะ **เชื่อมต่อกับเซิร์ฟเวอร์**
-3. กรอกที่อยู่เซิร์ฟเวอร์ รวมทั้งชื่อผู้ใช้และรหัสผ่านของคุณ ใช้รูปแบบนี้สำหรับที่อยู่เซิร์ฟเวอร์:
+2. แตะ**เชื่อมต่อกับเซิร์ฟเวอร์**
+3. กรอกที่อยู่เซิร์ฟเวอร์ รวมทั้งชื่อผู้ใช้และรหัสผ่านของคุณ ใช้รูปแบบนี้สำหรับที่อยู่ของเซิร์ฟเวอร์:
    
      `https://<servername>/reports` OR   `https://<servername>/reports`
    
@@ -82,13 +82,13 @@ ms.locfileid: "79435386"
 ## <a name="view-your-favorite-kpis-and-reports"></a>ดู KPI และรายงานที่เป็นรายการโปรดของคุณ
 คุณสามารถทำเครื่องหมายให้ KPI และรายงานอุปกรณ์มือถือต่างๆ ในพอร์ทัลของเว็บบริการรายงานของคุณเป็นรายการโปรด จากนั้นดูรายการโปรดเหล่านี้ในโฟลเดอร์ใดโฟลเดอร์หนึ่งตามที่สะดวกในอุปกรณ์ Windows 10 ของคุณ รวมทั้งรายงานและแดชบอร์ดที่เป็นรายการโปรดใน Power BI ของคุณ
 
-* แตะ **รายการโปรด**
+* แตะ**รายการโปรด**
   
    ![ไอคอนรายการโปรด](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-favorite-menu.png)
   
    รายการโปรดของคุณจากพอร์ทัลของเว็บทั้งหมดล้วนอยู่ในหน้านี้
   
-อ่านข้อมูลเพิ่มเติมเกี่ยวกับ [รายการโปรดในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่](mobile-apps-favorites.md)
+อ่านเพิ่มเติมเกี่ยวกับ[รายการโปรดในแอปโทรศัพท์เคลื่อนที่ Power BI](mobile-apps-favorites.md)
 
 ## <a name="remove-a-connection-to-a-report-server"></a>ยุติการเชื่อมต่อกับรีพอร์ตเซิร์ฟเวอร์
 คุณสามารถเชื่อมต่อกับรีพอร์ตเซิร์ฟเวอร์จากแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ได้เพียงครั้งละหนึ่งเซิร์ฟเวอร์เท่านั้น ถ้าคุณต้องการเชื่อมต่อกับเซิร์ฟเวอร์อื่น ก็จะต้องยกเลิกการเชื่อมต่อกับเซิร์ฟเวอร์ที่ใช้งานอยู่ในปัจจุบันก่อน
@@ -108,5 +108,5 @@ ms.locfileid: "79435386"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [เริ่มต้นใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10](mobile-windows-10-phone-app-get-started.md)  
 * [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)  
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+* มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

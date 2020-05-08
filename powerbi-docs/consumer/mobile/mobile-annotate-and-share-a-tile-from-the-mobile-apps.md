@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205515"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>ใส่คำอธิบายประกอบ และแชร์ไทล์ รายงาน หรือรูปภาพในแอปสำหรับอุปกรณ์เคลื่อนที่ของ Power BI
-ใช้กับ
+ใช้ได้กับ:
 
-| ![iPhone](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/ipad-logo-50-px.png) | ![โทรศัพท์ Android](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-tablet-logo-50-px.png) |
+| ![iPhone](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/ipad-logo-50-px.png) | ![มือถือ Android](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |
+| iPhones |iPad |มือถือ Android |แท็บเล็ต Android |
 
 คุณสามารถใส่คำอธิบายประกอบ และแชร์สแนปช็อตของไทล์ รายงาน หรือภาพจากอุปกรณ์เคลื่อนที่ Power BI สำหรับอุปกรณ์ iOS และ Android ผู้รับของคุณเห็นเหมือนกับเวลาที่คุณส่งเมล์ รวมถึงลิงก์ คุณสามารถส่งสแนปช็อตของไทล์ให้ทุกคน ไม่เพียงเพื่อนร่วมงานในโดเมนอีเมลเดียวกันเท่านั้น คุณสามารถเพิ่มคำอธิบายประกอบ บรรทัด ข้อความ หรือประทับตรา ก่อนที่คุณแชร์ได้
 
@@ -39,7 +39,7 @@ ms.locfileid: "79205515"
 
 ## <a name="open-a-report-for-annotating"></a>เปิดรายงานสำหรับใส่คำอธิบายประกอบ
 1. เปิดรายงาน 
-2. แตะไอคอนการใส่คำอธิบายประกอบ ![ไอคอนการใส่คำอธิบายประกอบ](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) ในมุมขวาบนของรายงาน
+2. แตะไอคอนใส่คำอธิบายประกอบ ![ไอคอนการใส่คำอธิบายประกอบ](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) ในมุมขวาบนของรายงาน
 3. คุณพร้อมที่จะ[ใส่คำอธิบายประกอบและแชร์รายงาน](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)
 
 ## <a name="open-a-visual-for-annotating"></a>เปิดรูปภาพสำหรับใส่คำอธิบายประกอบ
@@ -73,5 +73,5 @@ ms.locfileid: "79205515"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [แชร์แดชบอร์ดจากแอป Power BI mobile ](mobile-share-dashboard-from-the-mobile-apps.md)
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+* มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

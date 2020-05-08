@@ -11,7 +11,7 @@
           href: mobile-whats-new-in-the-mobile-apps.md
         - name: พบหน้าโฮมเพจ
           href: mobile-apps-home-page.md
-    - name: การเริ่มต้นใช้งานด่วน
+    - name: เริ่มต้นใช้งานด่วน
       expanded: true
       items:
         - name: สำรวจแดชบอร์ดและรายงาน
@@ -28,9 +28,9 @@
           href: mobile-apps-data-in-real-world-context.md
         - name: ดูข้อมูลของคุณแบบออฟไลน์ในแอปสำหรับอุปกรณ์เคลื่อนที่
           href: mobile-apps-offline-data.md
-        - name: Power BI สำหรับแอปความเป็นจริงผสม (แสดงตัวอย่าง)
+        - name: Power BI สำหรับแอปความเป็นจริงผสม (ตัวอย่าง)
           href: mobile-mixed-reality-app.md
-    - name: วิธีการ
+    - name: วิธีใช้
       items:
         - name: แอปทั้งหมดสำหรับอุปกรณ์เคลื่อนที่
           items:

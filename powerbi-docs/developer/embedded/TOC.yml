@@ -30,7 +30,7 @@
           href: embedded-performance-best-practices.md
         - name: โครงร่างสำคัญของบริการ
           href: embed-service-principal.md
-        - name: รักษาความปลอดภัยระดับแถว
+        - name: รักษาความปลอดภัยตามระดับแถว
           href: embedded-row-level-security.md
         - name: ความปลอดภัยระดับแถวของรายงานที่มีการแบ่งหน้า
           href: paginated-reports-row-level-security.md
@@ -42,7 +42,7 @@
           href: embedded-faq.md
         - name: สิทธิ์ของ Power BI
           href: power-bi-permissions.md
-    - name: วิธีการ
+    - name: วิธีใช้
       items:
         - name: ฝังตัวจากแอป
           href: embed-from-apps.md

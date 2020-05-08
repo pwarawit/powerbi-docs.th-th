@@ -46,7 +46,7 @@
               href: composite-model-guidance.md
         - name: DAX
           items:
-            - name: ฟังก์ชันการแบ่งเทียบกับตัวดำเนินการหาร (/)
+            - name: ฟังก์ชัน DIVIDE เทียบกับตัวดำเนินการหาร (/)
               href: dax-divide-function-operator.md
             - name: การใช้ฟังก์ชันข้อผิดพลาดที่เหมาะสม
               href: dax-error-functions.md
@@ -113,10 +113,10 @@
     - name: เอกสารทางเทคนิค
       items:
         - name: ภาพรวมเอกสารทางเทคนิค
-          href: ../whitepapers.md
-        - name: เอกสารทางเทคนิคเรื่องความปลอดภัย Power BI
-          href: ../whitepaper-powerbi-security.md
+          href: whitepapers.md
+        - name: เอกสารทางเทคนิคเรื่องความปลอดภัยของPower BI
+          href: whitepaper-powerbi-security.md
         - name: การปรับใช้ Power BI premium
-          href: ../whitepaper-powerbi-premium-deployment.md
+          href: whitepaper-powerbi-premium-deployment.md
         - name: กระจาย Power BI ภายนอกโดยใช้ Azure Active Directory B2B
-          href: ../whitepaper-azure-b2b-power-bi.md
+          href: whitepaper-azure-b2b-power-bi.md

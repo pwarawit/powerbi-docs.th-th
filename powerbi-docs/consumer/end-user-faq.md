@@ -10,10 +10,10 @@ ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040008"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>คำถามที่ถามบ่อยเกี่ยวกับ Power BI
@@ -54,13 +54,13 @@ Power BI Desktop เป็นแอปพลิเคชันฟรีที่
 
 คุณยังสามารถลงทะเบียนสำหรับบริการของ Power BI เป็นรายบุคคลได้อีกด้วย โปรดดู[กระบวนการลงทะเบียนแบบบริการตนเองของ Power BI](../service-self-service-signup-for-power-bi.md)
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>ทำไมฉันต้องลงทะเบียนด้วยอีเมลที่ทำงานของฉันด้วย?
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>ทำไมฉันต้องลงทะเบียนด้วยอีเมลที่ทำงานของฉันด้วย
 
 Power BI ไม่รองรับอีเมลของการบริการอีเมล์ของลูกค้าหรือจากผู้ให้บริการโทรคมนาคม เรียนรู้เพิ่มเติมเกี่ยวกับ[Power BI กระบวนการลงทะเบียนแบบบริการตนเอง](../service-self-service-signup-for-power-bi.md)
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI รองรับอุปกรณ์เคลื่อนที่หรือไม่
 
-ใช่ Power BI มีแอปในระบบสำหรับโทรศัพท์ และแท็บเล็ต อุปกรณ์ iOS และอุปกรณ์ Windows 10 ดาวน์โหลดหนึ่งใน[แอปสำหรับอุปกรณ์เคลื่อนของ Power BI](https://powerbi.microsoft.com/mobile)จากร้านค้าเกี่ยวข้อง:  
+ได้ Power BI มีแอปในระบบสำหรับโทรศัพท์ และแท็บเล็ต อุปกรณ์ iOS และอุปกรณ์ Windows 10 ดาวน์โหลดหนึ่งใน[แอปสำหรับอุปกรณ์เคลื่อนของ Power BI](https://powerbi.microsoft.com/mobile)จากร้านค้าเกี่ยวข้อง:  
 
 * [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
 * [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)

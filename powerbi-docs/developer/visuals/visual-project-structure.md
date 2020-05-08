@@ -1,5 +1,5 @@
 ---
-title: โครงสร้างของโครงการแสดงผล Power BI
+title: โครงสร้างของโครงการวิชวล Power BI
 description: บทความนี้อธิบายเกี่ยวกับโฟลเดอร์และโครงสร้างไฟล์ของโครงการวิชวล Power BI
 author: KesemSharabi
 ms.author: kesharab
@@ -9,13 +9,13 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
 ms.openlocfilehash: 18267f06bd43166cb1958d3aff73913a31189953
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80550760"
 ---
-# <a name="power-bi-visual-project-structure"></a>โครงสร้างของโครงการแสดงผล Power BI
+# <a name="power-bi-visual-project-structure"></a>โครงสร้างของโครงการวิชวล Power BI
 
 วิธีที่ดีที่สุดในการเริ่มต้นสร้างวิชวล Power BI ใหม่คือการใช้เครื่องมือวิชวล Power BI [.pbiviz](https://www.npmjs.com/package/powerbi-visuals-tools)
 

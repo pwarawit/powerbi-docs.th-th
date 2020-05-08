@@ -1,6 +1,6 @@
 ---
 title: จัดการแหล่งข้อมูลของคุณ - นำเข้า/รีเฟรชตามกำหนดการ
-description: วิธีการจัดการเกตเวย์ข้อมูลภายในองค์กร และข้อมูลแหล่งข้อมูลที่เป็นของเกตเวย์นั้น ๆ บทความนี้มีไว้เฉพาะสำหรับแหล่งข้อมูลที่สามารถใช้ได้กับการนำเข้า/การรีเฟรชที่กำหนดตารางเวลา
+description: วิธีการจัดการเกตเวย์ข้อมูลภายในองค์กร และแหล่งข้อมูลของเกตเวย์นั้นๆ บทความนี้มีไว้เฉพาะสำหรับแหล่งข้อมูลที่สามารถใช้ได้กับการนำเข้า/การรีเฟรชที่กำหนดตารางเวลา
 author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,17 +10,17 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 13d8cd9838cdcb035e7dd30a1180ac77957441ea
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207424"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>จัดการแหล่งข้อมูลของคุณ - นำเข้า/รีเฟรชตามกำหนดการ
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-หลังจากคุณ[ติดตั้งเกตเวย์ข้อมูลภายในองค์กรแล้ว](/data-integration/gateway/service-gateway-install) คุณจำเป็นต้อง[เพิ่มแหล่งข้อมูล](service-gateway-data-sources.md#add-a-data-source)ที่สามารถใช้ได้กับเกตเวย์ดังกล่าว บทความนี้จะดูที่วิธีการทำงานกับเกตเวย์และแหล่งข้อมูลที่จะใช้สำหรับการรีเฟรชตามกำหนดการที่ตรงกันข้ามกับ DirectQuery หรือการเชื่อมต่อแบบสด
+หลังจากคุณ[ติดตั้งเกตเวย์ข้อมูลภายในองค์กรแล้ว](/data-integration/gateway/service-gateway-install) คุณจะต้อง[เพิ่มแหล่งข้อมูล](service-gateway-data-sources.md#add-a-data-source)ที่สามารถใช้ได้กับเกตเวย์ดังกล่าว บทความนี้จะดูที่วิธีการทำงานกับเกตเวย์และแหล่งข้อมูลที่จะใช้สำหรับการรีเฟรชตามกำหนดการที่ตรงกันข้ามกับ DirectQuery หรือการเชื่อมต่อแบบสด
 
 ## <a name="add-a-data-source"></a>เพิ่มแหล่งข้อมูล
 
@@ -33,7 +33,7 @@ ms.locfileid: "79207424"
 จากนั้นกรอกข้อมูลสำหรับแหล่งข้อมูล ซึ่งรวมถึงข้อมูลแหล่งที่มาและข้อมูลประจำตัวที่ใช้เพื่อเข้าถึงแหล่งข้อมูล
 
 > [!NOTE]
-> คิวรีทั้งหมดที่ไปยังแหล่งข้อมูลจะทำงานโดยใช้ข้อมูลประจำตัวเหล่านี้ หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการจัดเก็บข้อมูลประจำตัว ให้ดู [จัดเก็บข้อมูลประจำตัวที่เข้ารหัสไว้ในระบบคลาวด์](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)
+> คิวรีทั้งหมดที่ไปยังแหล่งข้อมูลจะทำงานโดยใช้ข้อมูลประจำตัวเหล่านี้ หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับวิธีการจัดเก็บข้อมูลประจำตัว ให้ดู [การจัดเก็บข้อมูลประจำตัวที่เข้ารหัสไว้ในระบบคลาวด์](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)
 
 ![การกรอกข้อมูลในการตั้งค่าแหล่งข้อมูล](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings3-oracle.png)
 

@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205883"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>ออบเจ็กต์และคุณสมบัติของวิชวล Power BI
@@ -30,7 +30,7 @@ ms.locfileid: "79205883"
 }
 ```
 
-## <a name="display-name"></a>ชื่อที่แสดง
+## <a name="display-name"></a>ชื่อที่ใช้แสดง
 
 `displayName` คือชื่อที่จะแสดงในบานหน้าต่างคุณสมบัติ
 
@@ -241,7 +241,7 @@ selector: {
 }
 ```
 
-##### <a name="example"></a>ตัวอย่าง:
+##### <a name="example"></a>ตัวอย่าง
 
 ตัวอย่างต่อไปนี้แสดงให้เห็นว่า objectEnumeration หนึ่งออบเจ็กต์จะมองหาออบเจ็กต์ customColor ที่มีหนึ่งคุณสมบัติ *การใส่สีพื้นหลัง* หนึ่งค่า เราต้องการให้ออบเจ็กต์นี้ผูกไว้กับ `dataViews[index].metadata.objects` แบบสแตติก ตามที่แสดง:
 
