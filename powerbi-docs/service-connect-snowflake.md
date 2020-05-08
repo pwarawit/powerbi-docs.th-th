@@ -10,10 +10,10 @@ ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77576868"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>การเชื่อมต่อกับ Snowflake ในบริการ Power BI
@@ -66,7 +66,7 @@ ms.locfileid: "77576868"
 
 ถ้าคุณเลือกที่จะไม่เปิดใช้งาน SSO จากนั้นผู้ใช้จะรีเฟรชรายงานจะใช้ข้อมูลประจำตัวของผู้ใช้ที่เข้าสู่ระบบ เช่น รายงาน Power BI อื่นๆ ส่วนใหญ่
 
-### <a name="troubleshooting"></a>การแก้ไขปัญหา
+### <a name="troubleshooting"></a>แนวทางการแก้ไขปัญหา
 
 หากคุณพบปัญหาใด ๆ เกี่ยวกับการรวม โปรดอ้างอิง[คู่มือการแก้ไขปัญหา](https://docs.snowflake.net/manuals/LIMITEDACCESS/oauth-powerbi.html#troubleshooting)ของ Snowflake
 

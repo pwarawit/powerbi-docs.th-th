@@ -12,10 +12,10 @@ ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040170"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>เริ่มต้นใช้งานด่วน - ทำความรู้จักบริการของ Power BI
@@ -156,10 +156,10 @@ ms.locfileid: "79040170"
 
 สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [หน้าแรกของ Power BI](end-user-home.md)
 
-## <a name="clean-up-resources"></a>ล้างแหล่งข้อมูล
+## <a name="clean-up-resources"></a>เพิ่มพื้นที่ทรัพยากร
 หลังจากที่คุณดำเนินการเริ่มต้นด่วนนี้เสร็จสิ้นแล้ว คุณสามารถลบแดชบอร์ดตัวอย่าง รายงาน และชุดข้อมูลได้หากต้องการ
 
-1. เปิดบริการ Power BI (app.powerbi.com) และลงชื่อเข้าใช้    
+1. เปิดบริการของ Power BI (app.powerbi.com) และลงชื่อเข้าใช้    
 2. เปิดหน้าแรกของ Power BI เลื่อนลงไปยัง **พื้นที่ทำงาน** และเลือก*การขายและการตลาด*      
 
 3. วางเมาส์เหนือแดชบอร์ด รายงาน หรือชุดข้อมูล และเลือก **ตัวเลือกเพิ่มเติม (...)**  > **ลบ** ทำซ้ำจนกว่าลบรายการทั้งสามออกหมด

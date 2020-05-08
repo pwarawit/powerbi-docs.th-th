@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207608"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>แก้ไขหรือลบแดชบอร์ดไทล์
@@ -65,7 +65,7 @@ ms.locfileid: "79207608"
 
    ![เลื่อนไปเหนือไทล์](media/service-dashboard-edit-tile/power-bi-pin.png)
 
-6. เมื่อข้อความแสดงความ “สำเร็จ” ปรากฏขึ้น เลือก**ไปยังแดชบอร์ด** คุณจะถูกถามให้บันทึกการเปลี่ยนแปลง เลือก**บันทึก**
+6. เมื่อข้อความแสดงความ “สำเร็จ” ปรากฏขึ้น เลือก**ไปยังแดชบอร์ด** คุณจะถูกถามให้บันทึกการเปลี่ยนแปลง เลือก **บันทึก**
 
 - - -
 <a name="move"></a>
@@ -79,14 +79,14 @@ ms.locfileid: "79207608"
 ## <a name="resize-the-tile"></a>ปรับขนาดไทล์
 คุณสามารถสร้างไทล์ได้หลายขนาด จาก 1 x 1 หน่วยไทล์จนถึง 5 x 5 เลือกและลากหูหิ้ว(ที่มุมล่างขวา) เพื่อปรับขนาดไทล์
 
-![วิดีโอ](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
+![video](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
 ## <a name="more-options--menu"></a>เมนู **ตัวเลือกเพิ่มเติม** (...)
 
 1. เลือก**ตัวเลือกเพิ่มเติม** (...) ในมุมขวาบนของไทล์ 
    
-   ![ไทล์จุดไข่ปลา](media/service-dashboard-edit-tile/power-bi-tile.png)
+   ![จุดไข่ปลาไทล์](media/service-dashboard-edit-tile/power-bi-tile.png)
 
 2. วางเคอร์เซอร์เหนือไทล์ "บัญชี" และเลือกจุดไข่ปลาเมื่อต้องแสดงตัวเลือก ตัวเลือกที่พร้อมใช้งานจะแตกต่างกันตามชนิดไทล์  ตัวอย่าง ตัวเลือกที่พร้อมใช้งานสำหรับไทล์รายงานแบบไลฟ์ต่างจากตัวเลือกที่พร้อมใช้งานสำหรับไทล์การแสดงภาพแบบมาตรฐาน นอกจากนี้ ถ้ามีการแชร์แดชบอร์ดกับคุณ(คุณไม่ใช่เจ้าของ) คุณจะมีตัวเลือกน้อยลง
 
@@ -129,7 +129,7 @@ ms.locfileid: "79207608"
 1. จากเมนูจุดไข่ปลาแบบหล่นลง ให้เลือก**ปักหมุดไทล์** ![ไอคอนหมุด](media/service-dashboard-edit-tile/pinnooutline.png)
 2. ให้ตัดสินใจว่าจะปักหมุดรายการซ้ำของไทล์นี้กับแดชบอร์ดที่มีอยแล้วหรือแดชบอร์ดใหม่ 
    
-   ![ปักหมุดกล่องข้อความแดชบอร์ด](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
+   ![ปักหมุดไปยังแดชบอร์ด](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
 3. เลือก**หมุด**
 
 <a name="delete"></a>
@@ -145,7 +145,7 @@ ms.locfileid: "79207608"
 
 [แดชบอร์ดใน Power BI](consumer/end-user-dashboards.md)
 
-[แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
+[แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

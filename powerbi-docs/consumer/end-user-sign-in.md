@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 753458b4db621fff5a4bba4aebb96543284013ff
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114099"
 ---
 # <a name="sign-in-to-power-bi-service"></a>ลงชื่อเข้าใช้บริการ Power BI
@@ -45,7 +45,7 @@ ms.locfileid: "79114099"
 
 ![ที่อยู่อีเมลที่พิมพ์ลงในเขตข้อมูลลงชื่อเข้าใช้](media/end-user-sign-in/power-bi-login.png)
 
-ถ้าคุณต้องการให้ Power BI จดจำข้อมูลประจำตัวของคุณให้เลือก **ใช่** 
+ถ้าคุณต้องการให้ Power BI จดจำข้อมูลประจำตัวของคุณให้เลือก **ใช่**  
 
 ![ตัดสินใจว่าคุณต้องการให้ Power BI จดจำข้อมูลประจำตัวของคุณหรือไม่](media/end-user-sign-in/power-bi-stay-signed-in.png)
 

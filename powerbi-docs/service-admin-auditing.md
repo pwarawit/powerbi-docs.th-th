@@ -11,10 +11,10 @@ ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
 ms.openlocfilehash: 1102022edca3afad2a658facdf43da7b8bca547d
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113795"
 ---
 # <a name="track-user-activities-in-power-bi"></a>ติดตามกิจกรรมของผู้ใช้ใน Power BI
@@ -104,7 +104,7 @@ $activities[0]
 
 ## <a name="use-the-audit-log"></a>ใช้บันทึกการตรวจสอบ
 
-หากงานของคุณคือการติดตามกิจกรรมผู้ใช้ทั่วทั้ง Power BI และ Office 365 ให้คุณทำงานด้วยการตรวจสอบในศูนย์การรักษาความปลอดภัยและการปฏิบัติตามข้อบังคับ Office 365 หรือใช้ PowerShell การตรวจสอบขึ้นอยู่กับหน้าที่การใช้งานใน Exchange Online ซึ่งถูกเตรียมพร้อมใช้งานมาโดยอัตโนมัติเพื่อรองรับ Power BI
+หากงานของคุณคือการติดตามกิจกรรมผู้ใช้ทั่วทั้ง Power BI และ Office 365 ให้คุณทำงานด้วยการตรวจสอบในศูนย์การรักษาความปลอดภัยและการปฏิบัติตามข้อบังคับ Office 365 หรือใช้ PowerShell การตรวจสอบขึ้นอยู่กับหน้าที่การใช้งานใน Exchange Online ซึ่งถูกเตรียมพร้อมใช้งานมาโดยอัตโนมัติเพื่อรองรับ Power BI 
 
 คุณสามารถกรองข้อมูลการตรวจสอบภายในได้ตามช่วงวัน ผู้ใช้ แดชบอร์ด รายงาน ชุดข้อมูล และประเภทกิจกรรมได้ นอกจากนี้ คุณยังสามารถดาวน์โหลดกิจกรรมในรูปแบบไฟล์ csv (คั่นด้วยจุลภาคค่า) เพื่อทำการวิเคราะห์แบบออฟไลน์ได้
 

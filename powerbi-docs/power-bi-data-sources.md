@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/10/2020
 ms.author: kfollis
 ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79041688"
 ---
 # <a name="power-bi-data-sources"></a>แหล่งข้อมูล Power BI
@@ -36,22 +36,22 @@ ms.locfileid: "79041688"
 | Azure Cosmos DB | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Azure Cost Management | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Azure Data Explorer (Kusto) | ใช่ | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ |
-| Azure Data Lake Storage Gen1 | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
+| Azure Data Lake Storage รุ่น1 | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Azure Data Lake Storage Gen2 | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
 | Azure DevOps | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Azure DevOps Server | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ใช่ |
 | Azure HDInsight (HDFS) | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Azure HDInsight Spark | ใช่ | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ |
-| ฐานข้อมูล Azure SQL | ใช่ | ใช่ | ใช่ | ใช่ <sup>2</sup> | ไม่ใช่ |
+| Azure SQL Database | ใช่ | ใช่ | ใช่ | ใช่ <sup>2</sup> | ไม่ใช่ |
 | คลังข้อมูล Azure SQL | ใช่ | ใช่ | ใช่ | ใช่ <sup>2</sup> | ไม่ใช่ |
-| พื้นที่เก็บข้อมูล Azure Table | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
+| Azure Table Storage | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
 | BI Connector | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
 | BI360 - การรายงานการจัดทำงบประมาณและการเงิน | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Common Data Service | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Data.World - รับชุดข้อมูล | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Denodo | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
 | Dremio | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
-| Dynamics 365 (ออนไลน์) | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
+| Dynamics 365 (online) | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Dynamics 365 Business Central | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Dynamics 365 Business Central (ภายในองค์กร) | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Dynamics 365 Customer Insights | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
@@ -67,8 +67,8 @@ ms.locfileid: "79041688"
 | GitHub | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Google Analytics | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Google BigQuery | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
-| ไฟล์ Hadoop (HDFS) | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
-| HDInsight Interactive Query | ใช่ | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ |
+| Hadoop File (HDFS) | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
+| คิวรีแบบโต้ตอบ HDInsight | ใช่ | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ |
 | IBM DB2 | ใช่ | ใช่ | ใช่ | ใช่ | ไม่ใช่ |
 | ฐานข้อมูล IBM Informix | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
 | IBM Netezza | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
@@ -109,7 +109,7 @@ ms.locfileid: "79041688"
 | QuickBooks Online | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | สคริปต์ R | ใช่ | ใช่ <sup>5</sup> | ไม่ใช่ | ใช่ <sup>5</sup> | ไม่ใช่ |
 | Roamler | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
-| ออบเจ็กต์ Salesforce | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
+| Salesforce Objects | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | รายงาน Salesforce | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | เซิร์ฟเวอร์ข้อความ SAP Business Warehouse | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
 | เซิร์ฟเวอร์ SAP Business Warehouse | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
@@ -121,7 +121,7 @@ ms.locfileid: "79041688"
 | Snowflake | ใช่ | ใช่ | ใช่ | ใช่ | ไม่ใช่ |
 | Spark | ใช่ | ใช่ | ใช่ | ใช่ | ไม่ใช่ |
 | SparkPost | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
-| SQL Server | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
+| เซิร์ฟเวอร์ SQL | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
 | SQL Server Analysis Services | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
 | Stripe | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | SurveyMonkey | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
@@ -158,7 +158,7 @@ ms.locfileid: "79041688"
 เมื่อเปิดใช้งานตัวเลือก SSO และผู้ใช้ของคุณจะเข้าถึงรายงานที่สร้างขึ้นบนยอดของแหล่งข้อมูล Power BI จะส่งข้อมูลประจำตัว Azure AD ที่รับรองความถูกต้องของผู้ใช้ในการคิวรีไปยังแหล่งข้อมูลเบื้องต้น ซึ่งจะช่วยให้ Power BI เป็นไปตามการตั้งค่าความปลอดภัยที่มีการกำหนดค่าในระดับแหล่งข้อมูล
 ตัวเลือก SSO จะมีผลต่อชุดข้อมูลทั้งหมดที่ใช้แหล่งข้อมูลนี้ แต่จะไม่มีผลต่อวิธีการรับรองความถูกต้องที่ใช้สำหรับสถานการณ์สมมติการนำเข้า แหล่งข้อมูลต่อไปนี้สนับสนุน SSO สำหรับการเชื่อมต่อผ่านทาง DirectQuery:
 
-- ฐานข้อมูล Azure SQL
+- Azure SQL Database
 - คลังข้อมูล Azure SQL
 - Impala
 - SAP HANA
@@ -166,7 +166,7 @@ ms.locfileid: "79041688"
 - SAP BW Message Server
 - Snowflake
 - Spark
-- SQL Server
+- เซิร์ฟเวอร์ SQL
 - Teradata
 
 > [!Note]

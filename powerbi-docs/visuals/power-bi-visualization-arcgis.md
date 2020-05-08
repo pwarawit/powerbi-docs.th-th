@@ -11,10 +11,10 @@ ms.date: 10/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: e97d2301a77bb3fe4a7a8f4e50f6da73a68842d0
-ms.sourcegitcommit: 30ed21cca2125001f2f992dc6c5f546f4956631c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/27/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77652553"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>สร้างแผนที่ ArcGIS ใน Power BI Desktop
@@ -55,7 +55,7 @@ ArcGIS Maps for Power BI ให้บริการโดย Esri (https://www.
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-บทช่วยสอนนี้ใช้ Power BI Desktop และ[ตัวอย่างการวิเคราะห์การค้าปลีก](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) PBIX นอกจากนี้ยังสามารถสร้าง ArcGIS Maps for Power BI ได้โดยใช้บริการของ Power BI 
+บทช่วยสอนนี้ใช้ Power BI Desktop และ[ตัวอย่างการวิเคราะห์การค้าปลีก](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) PBIX  นอกจากนี้ยังสามารถสร้าง ArcGIS Maps for Power BI ได้โดยใช้บริการของ Power BI 
 
 1. จากด้านบนซ้ายของแถบเมนู เลือก **ไฟล์** \> **เปิด**
    

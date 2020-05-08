@@ -10,10 +10,10 @@ ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 48380d40d819ea1af74430546b9548c372bd2091
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77426621"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>สิทธิ์ในการสร้างสำหรับชุดข้อมูลที่แชร์ (ตัวอย่าง)
@@ -108,4 +108,4 @@ Power BI เปิดตัวสิทธิ์ในการสร้าง�
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [ใช้ชุดข้อมูลทั้งพื้นที่ทำงาน (ดูตัวอย่าง)](service-datasets-across-workspaces.md)
-- มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+- มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

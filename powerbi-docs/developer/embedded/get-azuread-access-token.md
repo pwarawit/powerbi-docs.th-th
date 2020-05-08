@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/04/2019
 ms.openlocfilehash: cac59a4689eecd75c53ca1c62d7b097438b2ae53
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114531"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>รับโทเค็นการเข้าถึง Azure AD สำหรับแอปพลิเคชัน Power BI ของคุณ
@@ -21,7 +21,7 @@ ms.locfileid: "80114531"
 
 ก่อนที่คุณจะสามารถเรียกใช้ REST API คุณจำเป็นต้องรับ Azure Active Directory (Azure AD) **โทเค็นการเข้าถึงการรับรองความถูกต้อง** แอปของคุณใช้โทเค็นเพื่อเข้าถึงยังแดชบอร์ด ไทล์ และรายงาน Power BI เมื่อต้องการเรียนรู้เพิ่มเติม ดู[ให้สิทธิอนุญาตการเข้าถึง Azure Active Directory โดยใช้โฟลว์ที่อนุญาตให้ใช้รหัส OAuth 2.0](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code)
 
-โทเค็นการเข้าถึงจะถูกเรียกใช้แตกต่างกัน ขึ้นอยู่กับวิธีการที่คุณจะฝังเนื้อหา บทความนี้แสดงถึงสองวิธีการที่แตกต่างกัน
+โทเค็นการเข้าถึงจะถูกเรียกใช้แตกต่างกัน ขึ้นอยู่กับวิธีการที่คุณจะฝังเนื้อหา  บทความนี้แสดงถึงสองวิธีการที่แตกต่างกัน
 
 ## <a name="access-token-for-power-bi-users-user-owns-data"></a>โทเค็นการเข้าถึงสำหรับผู้ใช้ Power BI (ผู้ใช้เป็นเจ้าของข้อมูล)
 
@@ -196,7 +196,7 @@ var authenticationContext = new AuthenticationContext(AuthorityUrl);
 m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 ```
 
-## <a name="troubleshoot"></a>การแก้ไขปัญหา
+## <a name="troubleshoot"></a>แก้ไขปัญหา
 
 ข้อความแสดงข้อผิดพลาด "'AuthenticationContext' ไม่มีคำจำกัดความของ 'AcquireToken' และไม่พบการเข้าถึง 'AcquireToken' ที่ยอมรับอาร์กิวเมนต์แรกในประเภท 'AuthenticationContext' (คุณไม่ได้ใช้คำสั่งหรือการอ้างอิงแอสเซมบลีใช่หรือไม่)"
 

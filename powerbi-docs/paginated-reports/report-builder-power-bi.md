@@ -10,10 +10,10 @@ ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621529"
 ---
 # <a name="power-bi-report-builder"></a>ตัวสร้างรายงานใน Power BI
@@ -32,7 +32,7 @@ ms.locfileid: "80621529"
  
 -   **เริ่มต้นด้วยตาราง, เมทริกซ์หรือตัวช่วยสร้างแผนภูมิ** สร้างการเชื่อมต่อแหล่งข้อมูล ลากฟิลด์และวางลงเพื่อสร้างคิวรีชุดข้อมูล เลือกเค้าโครงและสไตล์ แล้วปรับแต่งรายงานของคุณ  
   
--   **เริ่มด้วยตัวช่วยสร้างแผนที่** คุณสามารถสร้างรายงานที่แสดงข้อมูลรวมกับพื้นหลังทางภูมิศาสตร์หรือเรขาคณิตได้ ข้อมูลแผนที่อาจเป็นข้อมูลเชิงพื้นที่ที่ได้จากคิวรี Transact-SQL หรือจาก Environmental Systems Research Institute, Inc. แฟ้มเชปไฟล์ (ESRI) คุณยังสามารถเพิ่มพื้นหลังไทล์แผนที่ของ Microsoft Bing ได้  
+-   **เริ่มด้วยตัวช่วยสร้างแผนที่** คุณสามารถสร้างรายงานที่แสดงข้อมูลรวมกับพื้นหลังทางภูมิศาสตร์หรือเรขาคณิตได้ ข้อมูลแผนที่อาจเป็นข้อมูลเชิงพื้นที่ที่ได้จากคิวรี Transact-SQL หรือจากเชปไฟล์ของ Environmental Systems Research Institute, Inc. (ESRI) คุณยังสามารถเพิ่มพื้นหลังไทล์แผนที่ของ Microsoft Bing ได้  
 
 ##  <a name="design-your-report"></a><a name="DesignRept"></a> ออกแบบรายงานของคุณ  
   

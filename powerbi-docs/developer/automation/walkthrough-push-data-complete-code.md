@@ -9,15 +9,15 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 4745935e618f47f6092f6a33d879dd95d59b9963
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488303"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>ส่งข้อมูลไปยังชุดข้อมูลรายการรหัสที่สร็จสมบูรณ์
 
-บทความนี้เป็นส่วนหนึ่งของคำแนะนำทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
+บทความนี้เป็นส่วนหนึ่งของการฝึกปฏิบัติทีละขั้นตอนเพื่อ[พุชข้อมูลลงในชุดข้อมูล](walkthrough-push-data.md)
 
 หลังจากที่คุณทำตามขั้นตอนที่ 2 ถึง 5 ในการ**ส่งข้อมูลไปยังชุดข้อมูล**รหัสแหล่งที่มาที่สมบูรณ์ของคุณควรมีลักษณะดังต่อไปนี้
 

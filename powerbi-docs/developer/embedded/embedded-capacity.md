@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
 ms.openlocfilehash: 27d6ddd9b24e09805bd22150a22347e5cd93c8e0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79492847"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>ความจุและ SKU ในการวิเคราะห์แบบฝังตัวของ Power BI
@@ -30,7 +30,7 @@ ms.locfileid: "79492847"
 * *Power BI Embedded*  - ข้อเสนอของ Azure
 * การฝังตัว Power BI เป็นส่วนหนึ่งของ *Power BI Premium*  - ข้อเสนอของ Office
 
-### <a name="power-bi-embedded"></a>Power BI Embedded
+### <a name="power-bi-embedded"></a>Power BI ที่ฝังตัว
 
 Power BI Embedded มีไว้สำหรับ ISV และนักพัฒนาที่ต้องการฝังภาพลงในแอปพลิเคชันของตน
 
@@ -48,7 +48,7 @@ Power BI Premium เป็นผลิตภัณฑ์ SaaS ที่ให้
 
 เพื่อทำความเข้าใจปริมาณงานที่รองรับสำหรับแต่ละเทียร์ โปรดดูที่บทความ [กำหนดค่าปริมาณงานในกำลังการผลิตแบบ Premium](../../service-admin-premium-workloads.md)
 
-ใช้ลิงก์นี้เพื่อวางแผนและทดสอบความจุของคุณ
+ใช้ลิงก์นี้เพื่อ{1}วางแผนและทดสอบความจุของคุณ{2}
 * [การวางแผนความจุ](embedded-capacity-planning.md)
 * [การทดสอบวิธีการ](../../service-premium-capacity-optimize.md#testing-approaches)
 
@@ -75,7 +75,7 @@ Power BI premium นำเสนอ SKU สองแบบคือ *P* แล�
 <col width="20%">
 <tbody>
 <tr>
-<td style="text-align: center"; colspan="2"><p><b>คุณลักษณะ</b></p></td>
+<td style="text-align: center"; colspan="2"><p><b>คุณสมบัติ</b></p></td>
 <td style="text-align: center">
 <p><b>Power BI Embedded</b></p>
 </td>
@@ -113,7 +113,7 @@ Power BI premium นำเสนอ SKU สองแบบคือ *P* แล�
 </tr>
 <tr>
 <td rowspan="3">เนื้อหา Power BI<br>(ด้วยสิทธิ์การใช้งาน Power BI ฟรี)</td>
-<td>บริการ Power BI</td>
+<td>บริการ power BI</td>
 <td style="text-align: center">✖</td>
 <td style="text-align: center">✖</td>
 <td style="text-align: center">✔</td>

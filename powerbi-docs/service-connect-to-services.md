@@ -9,10 +9,10 @@ ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76975044"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>เชื่อมต่อกับบริการที่คุณใช้กับ Power BI
@@ -38,7 +38,7 @@ ms.locfileid: "76975044"
 1. เลือก**แอป**ในบานหน้าต่างนำทาง > เลือกแอป
    
      ![หน้าแอป](media/service-connect-to-services/power-bi-service-apps-open-app.png)
-2. คุณสามารถถามคำถามโดยการพิมพ์ในกล่อง Q&A หรือคลิกที่ไทล์เพื่อเปิดรายงานด้านใน 
+2. คุณสามารถถามคำถามโดยการพิมพ์ในกล่องถามตอบ หรือคลิกที่ไทล์เพื่อเปิดรายงานพื้นฐาน 
    
     ![แดชบอร์ Google Analytics](media/service-connect-to-services/googleanalytics2.png)
    
@@ -51,11 +51,11 @@ ms.locfileid: "76975044"
 
 สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการเชื่อมต่อกับบริการที่เฉพาะเจาะจง โปรดดูที่หน้าช่วยเหลือส่วนบุคคล
 
-## <a name="troubleshooting"></a>การแก้ไขปัญหา
+## <a name="troubleshooting"></a>แนวทางการแก้ไขปัญหา
 **ไทล์ที่ว่างเปล่า**  
 ขณะที่ Power BI เชื่อมต่อไปยังบริการครั้งแรก คุณอาจเห็นชุดที่ว่างเปล่าของไทล์บนแดชบอร์ดของคุณ ถ้าคุณยังคงเห็นแดชบอร์ดว่างเปล่าหลังจากชั่วโมง 2 อาจเป็นได้ว่าการเชื่อมต่อล้มเหลว ถ้าคุณไม่เห็นข้อความแสดงข้อผิดพลาดที่มีรายละเอียดในการแก้ไขปัญหา ให้ยื่นตั๋วการสนับสนุน
 
-* เลือกไอคอนเครื่องหมายคำถาม (**?**) ที่มุมบนขวา > **รับความช่วยเหลือ**
+* เลือกไอคอนเครื่องหมายคำถาม ( **?** ) ที่มุมบนขวา > **รับความช่วยเหลือ**
   
     ![ไอคอนรับความช่วยเหลือ](media/service-connect-to-services/power-bi-service-get-help.png)
 
@@ -70,5 +70,5 @@ ms.locfileid: "76975044"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [แจกจ่ายแอปไปยังเพื่อนร่วมงานของคุณ](service-create-distribute-apps.md)
 * [สร้างพื้นที่ทำงานใหม่ใน Power BI](service-create-the-new-workspaces.md)
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+* มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

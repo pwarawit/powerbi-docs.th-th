@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/20/2020
 ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77558565"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>ข้อกำหนดฮาร์ดแวร์และซอฟต์แวร์สำหรับติดตั้งเซิร์ฟเวอร์รายงาน Power BI
@@ -25,9 +25,9 @@ ms.locfileid: "77558565"
 | --- | --- |
 | .NET Framework |4.7<br><br>คุณสามารถติดตั้ง .NET Framework จาก [Microsoft.NET Framework 4.7 (ตัวติดตั้งบนเว็บ) สำหรับ Windows](https://support.microsoft.com/en-us/kb/3186500) ได้ด้วยตนเอง<br/><br/> สำหรับข้อมูลเพิ่มเติม คำแนะนำ และแนวทางเกี่ยวกับ .NET Framework 4.7 โปรดดู[คู่มือ .NET Framework Deployment สำหรับนักพัฒนา](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers)<br/><br/>Windows 8.1 และ Windows Server 2012 R2 จำเป็นต้องมี [KB2919355](https://support.microsoft.com/kb/2919355) ก่อนติดตั้ง .NET Framework 4.7 |
 | ฮาร์ดดิสก์ |เซิร์ฟเวอร์รายงาน Power BI จำเป็นต้องมีเนื้อที่บนฮาร์ดดิสก์อย่างน้อย 1 กิกะไบต์<br><br>จะต้องเพิ่มเนื้อที่ว่างบนเซิร์ฟเวอร์ฐานข้อมูลที่โฮสต์ฐานข้อมูลของเซิร์ฟเวอร์รายงาน |
-| หน่วยความจำ |**ขั้นต่ำ:** 1 GB<br/><br/> **แนะนำ:** อย่างน้อย 4 GB |
+| หน่วยความจำ |**ต่ำสุด:** 1 GB<br/><br/> **แนะนำ:** อย่างน้อย 4 GB |
 | ความเร็วในการประมวลผล |**ค่าต่ำสุด:** x64 ตัวประมวลผล: 1.4 GHz<br/><br/> **แนะนำ:** 2.0 GHz หรือเร็วกว่า |
-| ชนิดตัวประมวลผล |x64 ตัวประมวลผล: AMD Opteron, AMD Athlon 64, Xeon Intel พร้อมการรองรับ Intel EM64, IV Pentium Intel พร้อมการรองรับ EM64T |
+| ชนิดตัวประมวลผล |x64 Processor: AMD Opteron, AMD Athlon 64, Xeon Intel with Intel EM64T support, IV Pentium Intel with EM64T support |
 | ระบบปฏิบัติการ |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
 
 > [!NOTE]
@@ -64,12 +64,12 @@ SQL Server ถูกใช้เพื่อโฮสต์ฐานข้อม
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>การเชื่อมต่อสดของรายงาน Power BI และ Analysis Services
 
-คุณสามารถใช้การเชื่อมต่อแบบสดกับอินสแตนซ์หลายมิติ หรือแบบตาราง เซิร์ฟเวอร์ Analysis Services ของคุณต้องเป็นเวอร์ชันและรุ่นที่เหมาะสมเพื่อให้ทำงานได้ถูกต้อง
+คุณสามารถใช้การเชื่อมต่อสดกับอินสแตนซ์ตารางหรืออินสแตนซ์หลายมิติ เซิร์ฟเวอร์ Analysis Services ของคุณต้องเป็นเวอร์ชันและรุ่นที่เหมาะสมเพื่อให้ทำงานได้ถูกต้อง
 
 | **รุ่นของเซิร์ฟเวอร์** | **SKU ที่จำเป็นต้องมี** |
 | --- | --- |
 | 2012 SP1 CU4 หรือใหม่กว่า |เทคโนโลยีสำหรับการรวบรวมข้อมูล จัดเก็บ วิเคราะห์ และการเข้าถึงข้อมูล รวมถึงการดูในหลากหลายมุมมอง (BI) และ SKU องค์กร |
-| 2014 |Business Intelligence and Enterprise SKU |
+| 2014 |เทคโนโลยีสำหรับการรวบรวมข้อมูล จัดเก็บ วิเคราะห์ และการเข้าถึงข้อมูล รวมถึงการดูในหลากหลายมุมมอง (BI) และ SKU องค์กร |
 | 2016 และเวอร์ชันที่ใหม่กว่า |SKU มาตรฐาน หรือสูงกว่า |
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

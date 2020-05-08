@@ -10,10 +10,10 @@ ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77427678"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>ใช้การรวมข้อมูลใน Power BI Desktop
@@ -46,11 +46,11 @@ ms.locfileid: "77427678"
 กล่องโต้ตอบ **จัดการการรวมข้อมูล** แสดงแถวของแต่ละคอลัมน์ในตาราง ซึ่งคุณสามารถระบุลักษณะการทำงานของการรวมข้อมูลได้ ในตัวอย่างต่อไปนี้ การคิวรีไปยังตารางรายละเอียด **Sales** จะถูกเปลี่ยนเส้นทางภายในไปยังตารางการรวม **Sales Agg** 
 
 เมนูดรอปดาวน์ **การสรุป** ในกล่องโต้ตอบ **จัดการการรวมข้อมูล** มีค่าต่อไปนี้:
-- จำนวน
-- GroupBy
-- Max
-- ต่ำสุด
-- ผลรวม
+- Count
+- จัดกลุ่มตาม
+- ค่าสูงสุด
+- ค่าต่ำสุด
+- Sum
 - นับแถวของตาราง
 
 ![กล่องโต้ตอบ  Manage aggregation](media/desktop-aggregations/aggregations_07.jpg)
@@ -118,7 +118,7 @@ ms.locfileid: "77427678"
 
 - ภูมิศาสตร์
 - ลูกค้า
-- วันที่
+- วัน
 - หมวดสินค้าย่อยของผลิตภัณฑ์
 - หมวดสินค้าของผลิตภัณฑ์
 

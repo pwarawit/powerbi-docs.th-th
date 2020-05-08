@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 498636d61f61764cfaef29db32454f55f1328243
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78401217"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>ข้อกำหนดเบื้องต้นของแหล่งข้อมูล Power BI
@@ -21,8 +21,8 @@ ms.locfileid: "78401217"
 
 | แหล่งข้อมูล | ตัวให้บริการ | เวอร์ชันขั้นต่ำของตัวให้บริการ | เวอร์ชันขั้นต่ำของแหล่งข้อมูล | วัตถุในแหล่งข้อมูลที่สนับสนุน | ลิงก์ดาวน์โหลด |
 | --- | --- | --- | --- | --- | --- |
-| SQL Server |ADO.net (มีอยู่แล้วใน .Net Framework) |.NET Framework 3.5 (เท่านั้น) |SQL Server 2005 + |ตาราง/มุมมอง, ฟังก์ชันสเกลา, ฟังก์ชันตาราง |รวมอยู่ใน .NET Framework 3.5 หรือใหม่กว่า |
-| การเข้าถึง |Microsoft Access Database Engine (ACE) |ACE 2010 SP1 |ไม่มีข้อจำกัด |ตาราง/มุมมอง |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
+| เซิร์ฟเวอร์ SQL |ADO.net (มีอยู่แล้วใน .Net Framework) |.NET Framework 3.5 (เท่านั้น) |SQL Server 2005 + |ตาราง/มุมมอง, ฟังก์ชันสเกลา, ฟังก์ชันตาราง |รวมอยู่ใน .NET Framework 3.5 หรือใหม่กว่า |
+| Access |Microsoft Access Database Engine (ACE) |ACE 2010 SP1 |ไม่มีข้อจำกัด |ตาราง/มุมมอง |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Excel (เฉพาะไฟล์ .xls เท่านั้น) (ดูหมายเหตุ 1) |Microsoft Access Database Engine (ACE) |ACE 2010 SP1 |ไม่มีข้อจำกัด |ตาราง, แผ่นงาน |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
 | Oracle (ดูหมายเหตุ 2) |ODP.NET |ODAC 11.2 รีลีส 5 (11.2.0.3.20) |9.x+ |ตาราง/มุมมอง |[ลิงก์ดาวน์โหลด](https://go.microsoft.com/fwlink/?linkid=272376&clcid=0x409) |
 | | System.Data.OracleClient (มีอยู่แล้วใน .NET Framework) |.NET Framework 3.5 |9.x+ |ตาราง/มุมมอง |รวมอยู่ใน .NET Framework 3.5 หรือใหม่กว่า |

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
 ms.openlocfilehash: bad6b507e970319003a8d338ecf29a2afc948e9c
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435570"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>สร้างและดูรายการโปรดในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
@@ -23,7 +23,7 @@ ms.locfileid: "79435570"
 | iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |อุปกรณ์ Windows 10 |
 
 >[!NOTE]
->การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ**โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
+>การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ **โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 อ่านเกี่ยวกับการสร้างและดูแดชบอร์ด รายงาน และแอป Power BI รายการโปรด รวมถึง KPI และเซิร์ฟเวอร์รายงาน Power BI และ Reporting Services ภายในองค์กรของคุณที่เป็นรายการโปรดในแอปสำหรับอุปกรณ์เคลื่อนที่
 

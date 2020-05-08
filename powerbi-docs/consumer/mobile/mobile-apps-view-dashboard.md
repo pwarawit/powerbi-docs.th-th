@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205538"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>ดูแดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
-นำไปใช้กับ:
+ใช้ได้กับ:
 
-| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![โทรศัพท์ Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
+| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![มือถือ Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
 | [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPads](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[โทรศัพท์ android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[แท็บเล็ต android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |
 
@@ -156,5 +156,5 @@ ms.locfileid: "79205538"
 * [ดาวน์โหลดแอป Android](https://go.microsoft.com/fwlink/?LinkID=544867)จาก Google play  
 * [เริ่มต้นใช้งานแอป Android สำหรับ Power BI](mobile-android-app-get-started.md)  
 * [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+* มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

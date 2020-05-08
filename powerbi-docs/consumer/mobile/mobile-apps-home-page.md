@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
 ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205676"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>แนะนำหน้าแรกของแอปสำหรับอุปกรณ์เคลื่อนที่อย่างรวดเร็ว
 ในการแนะนำนี้ คุณจะคุ้นเคยกับหน้าแรกของแอปสำหรับอุปกรณ์เคลื่อนที่ของ Power BI และตัวช่วยนำทางที่จะทำให้คุณได้รับสิ่งที่คุณต้องการอย่างรวดเร็ว
 
-นำไปใช้กับ:
+ใช้ได้กับ:
 
 | ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) |
 |:--- |:--- |:--- |
