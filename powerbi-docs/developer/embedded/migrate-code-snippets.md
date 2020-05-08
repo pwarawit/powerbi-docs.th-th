@@ -9,17 +9,17 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114495"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>โค้ดสำหรับการโยกย้ายเนื้อหาจากคอลเลกชันพื้นที่ทำงานของ Power BI
 
 ต่อไปนี้คือโค้ดบางอย่างของการดำเนินงานพื้นฐานที่จำเป็นสำหรับการโยกย้ายเนื้อหา สำหรับขั้นตอนที่เกี่ยวข้องกับรายงานบางชนิด ดู[วิธีการโยกย้ายเนื้อหาคอลเลกชันของพื้นที่ทำงาน Power BI ไปยัง Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration)
 
-A **เครื่องมือการโยกย้าย**จะพร้อมใช้งานเพื่อให้คุณใช้เพื่อช่วยเหลือเกี่ยวกับการคัดลอกเนื้อหาจาก Power BI Embedded (PaaS) ไปยังบริการ Power BI (SaaS) โดยเฉพาะอย่างยิ่งถ้าคุณมีเนื้อหาจำนวนมาก สำหรับข้อมูลเพิ่มเติม ดู[เครื่องมือการโยกย้าย Power BI Embedded](migrate-tool.md)
+A **เครื่องมือการโยกย้าย**จะพร้อมใช้งานเพื่อให้คุณใช้เพื่อช่วยเหลือเกี่ยวกับการคัดลอกเนื้อหาจาก Power BI Embedded (PaaS) ไปยังบริการ Power BI (SaaS) โดยเฉพาะอย่างยิ่ง ถ้าคุณมีเนื้อหาจำนวนมาก สำหรับข้อมูลเพิ่มเติม ดู[เครื่องมือการโยกย้ายของ Power BI Embedded](migrate-tool.md)
 
 รหัสด้านล่างนี้คือ ตัวอย่างที่ใช้ C# และ[Power BI .NET SDK](https://www.nuget.org/profiles/powerbi)
 
@@ -230,11 +230,11 @@ using System.Threading.Tasks;
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 [เครื่องมือการโยกบ้าย Power BI Embedded](migrate-tool.md)  
-[การฝังด้วย Power BI](embedding.md)  
-[วิธีการย้ายเนื้อหาคอลเลกชันพื้นที่ทำงานแบบฝัง Power BI ไปยัง Power BI](migrate-from-powerbi-embedded.md)  
-[วิธีฝัง Power BI แดชบอร์ด รายงาน และไทล์](embed-sample-for-your-organization.md)  
+[ฝังด้วย Power BI](embedding.md)  
+[วิธีการย้ายเนื้อหาคอลเลกชันพื้นที่ทำงาน Power BI Embedded ไปยัง Power BI](migrate-from-powerbi-embedded.md)  
+[วิธีฝัง แดชบอร์ด รายงาน และไทล์ Power BI ของคุณ](embed-sample-for-your-organization.md)  
 [Power BI Premium คืออะไร](../../service-premium-what-is.md)  
-[พื้นที่เก็บข้อมูลของ JavaScript API Git](https://github.com/Microsoft/PowerBI-JavaScript)  
+[JavaScript API Git repo](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git repo](https://github.com/Microsoft/PowerBI-CSharp)  
 [ตัวอย่างการฝัง JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [เอกสารบรรยายแนวความคิดของ Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  

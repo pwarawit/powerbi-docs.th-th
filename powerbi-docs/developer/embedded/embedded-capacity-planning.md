@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
 ms.openlocfilehash: f437b1d1fbfc1e905878fbb99875f1fc455e7b14
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79493261"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>ความจุและ SKU ในการวิเคราะห์แบบฝังของ Power BI
@@ -42,7 +42,7 @@ ms.locfileid: "79493261"
 ต่อไปนี้คือตัวอย่างของวิธีที่คุณสามารถใช้เครื่องมือการวางแผนได้
 
 * ผู้ดูแลความจุสามารถรู้จำนวนผู้ใช้ที่สามารถจัดการได้ในรอบเวลาที่กำหนดได้ดีขึ้นได้
-* ผู้เขียนรายงานสามารถทำความเข้าใจลักษณะการทำงานของการโหลด โดยใช้การวัดด้วย[ตัววิเคราะห์ประสิทธิภาพ](https://docs.microsoft.com/power-bi/desktop-performance-analyzer)ของ Power BI desktop
+* ผู้เขียนรายงานสามารถทำความเข้าใจลักษณะการทำงานของการโหลด โดยใช้การวัดด้วย[ตัววิเคราะห์ประสิทธิภาพ](https://docs.microsoft.com/power-bi/desktop-performance-analyzer)ของ Power BI desktop 
 * คุณสามารถเห็นการแสดงผลที่เกิดขึ้นตามเวลาจริงบนเบราว์เซอร์ของคุณได้
 * ในการใช้ตัวสร้างโพรไฟล์ของ SQL Server คุณสามารถ[เชื่อมต่อกับปลายทาง XMLA](https://powerbi.microsoft.com/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/) ของความจุที่วัดเพื่อดูคิวรีที่กำลังดำเนินการได้
 * ผลการทดสอบการโหลดจะปรากฏในหน้าชุดข้อมูลแอปเมตริกของความจุแบบพรีเมียม ผู้ดูแลความจุสามารถใช้เครื่องมือนี้เพื่อสร้างการโหลดและดูว่าการโหลดจะแสดงขึ้นได้อย่างไรได้

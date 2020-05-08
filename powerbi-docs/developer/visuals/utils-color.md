@@ -9,16 +9,16 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
 ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379363"
 ---
 # <a name="color-utils"></a>ยูทิลิตี้สี
 บทความนี้จะช่วยให้คุณสามารถติดตั้ง นำเข้า และใช้คำแนะนำเครื่องมือยูทิลิตี้สี บทความนี้อธิบายวิธีการใช้ยูทิลิตี้สี ทำให้ง่ายต่อการใช้ชุดรูปแบบและจานสีบนจุดข้อมูลของการแสดงผลด้วยภาพของ Power BI
 
-## <a name="requirements"></a>ข้อกำหนด
+## <a name="requirements"></a>ความต้องการ
 หากต้องการใช้แพคเกจ คุณควรมีสิ่งต่อไปนี้:
 * [node.js](https://nodejs.org) (เราขอแนะนำเวอร์ชัน LTS รุ่นล่าสุด)
 * [npm](https://www.npmjs.com/) (เวอร์ชันเก่าที่สุดที่ได้รับการรองรับคือ 3.0.0)
@@ -56,7 +56,7 @@ import { ColorHelper } from "powerbi-visuals-utils-colorutils";
 ```typescript
 getColorForSeriesValue(objects: IDataViewObjects, value: PrimitiveValue, themeColorName?: ThemeColorName): string;
 ```
-#### <a name="example"></a>ตัวอย่าง:
+#### <a name="example"></a>ตัวอย่าง
 ```typescript
 import powerbi from "powerbi-visuals-api";
 import { ColorHelper } from "powerbi-visuals-utils-colorutils";
@@ -109,7 +109,7 @@ export class YourVisual implements IVisual {
 ```typescript
  getColorForMeasure(objects: IDataViewObjects, measureKey: any, themeColorName?: ThemeColorName): string;
 ```
-#### <a name="example"></a>ตัวอย่าง:
+#### <a name="example"></a>ตัวอย่าง
 ```typescript
 import powerbi from "powerbi-visuals-api";
 import { ColorHelper } from "powerbi-visuals-utils-colorutils";
@@ -153,7 +153,7 @@ export class YourVisual implements IVisual {
 ```typescript
 static normalizeSelector(selector: Selector, isSingleSeries?: boolean): Selector;
 ```
-#### <a name="example"></a>ตัวอย่าง:
+#### <a name="example"></a>ตัวอย่าง
 ```typescript
 import ISelectionId = powerbi.visuals.ISelectionId;
 import { ColorHelper } from "powerbi-visuals-utils-colorutils";
@@ -226,7 +226,7 @@ export class MyVisual implements IVisual {
 function hexToRGBString(hex: string, transparency?: number): string
 ```
 
-#### <a name="example"></a>ตัวอย่าง:
+#### <a name="example"></a>ตัวอย่าง
 
 ```typescript
 import  { hexToRGBString } from "powerbi-visuals-utils-colorutils";
@@ -243,7 +243,7 @@ hexToRGBString('#112233');
 function rotate(rgbString: string, rotateFactor: number): string
 ```
 
-#### <a name="example"></a>ตัวอย่าง:
+#### <a name="example"></a>ตัวอย่าง
 
 ```typescript
 import { rotate } from "powerbi-visuals-utils-colorutils";
@@ -258,7 +258,7 @@ rotate("#CC0000", 0.25); // returns: #66CC00
 function parseColorString(color: string): RgbColor
 ```
 
-#### <a name="example"></a>ตัวอย่าง:
+#### <a name="example"></a>ตัวอย่าง
 
 ```typescript
 import { parseColorString } from "powerbi-visuals-utils-colorutils";
@@ -277,7 +277,7 @@ parseColorString('rgba(1, 2, 3, 1.0)');
 function calculateHighlightColor(rgbColor: RgbColor, lumianceThreshold: number, delta: number): string
 ```
 
-#### <a name="example"></a>ตัวอย่าง:
+#### <a name="example"></a>ตัวอย่าง
 
 ```typescript
 import { calculateHighlightColor } from "powerbi-visuals-utils-colorutils";
@@ -297,7 +297,7 @@ calculateHighlightColor(yellowRGB, 0.8, 0.2);
 function createLinearColorScale(domain: number[], range: string[], clamp: boolean): LinearColorScale
 ```
 
-#### <a name="example"></a>ตัวอย่าง:
+#### <a name="example"></a>ตัวอย่าง
 
 ```typescript
 import { createLinearColorScale } from "powerbi-visuals-utils-colorutils";
@@ -319,7 +319,7 @@ scale(10); // returns: yellow
 function shadeColor(color: string, percent: number): string
 ```
 
-#### <a name="example"></a>ตัวอย่าง:
+#### <a name="example"></a>ตัวอย่าง
 
 ```typescript
 import { shadeColor } from "powerbi-visuals-utils-colorutils";
@@ -330,14 +330,14 @@ shadeColor('#00B8AA', -0.25); // returns '#008a80'
 shadeColor('#00B8AA', 0); // returns '#00b8aa'
 ```
 
-### <a name="rgbblend"></a>rgbBlend
+### <a name="rgbblend"></a>rgbBlend{1}
 การซ้อนทับสีด้วยความทึบเหนือสีพื้นหลัง ให้ละเว้นช่องสัญญาณอัลฟ่า
 
 ```typescript
 function rgbBlend(foreColor: RgbColor, opacity: number, backColor: RgbColor): RgbColor
 ```
 
-#### <a name="example"></a>ตัวอย่าง:
+#### <a name="example"></a>ตัวอย่าง
 
 ```typescript
 import { rgbBlend} from "powerbi-visuals-utils-colorutils";
@@ -354,7 +354,7 @@ rgbBlend({R: 100, G: 100, B: 100}, 0.5, {R: 200, G: 200, B: 200});
 function channelBlend(foreChannel: number, opacity: number, backChannel: number): number
 ```
 
-#### <a name="example"></a>ตัวอย่าง:
+#### <a name="example"></a>ตัวอย่าง
 
 ```typescript
 import { channelBlend} from "powerbi-visuals-utils-colorutils";
@@ -372,7 +372,7 @@ channelBlend(88, 0, 88); // returns: 88
 function hexBlend(foreColor: string, opacity: number, backColor: string): string
 ```
 
-#### <a name="example"></a>ตัวอย่าง:
+#### <a name="example"></a>ตัวอย่าง
 
 ```typescript
 import { hexBlend} from "powerbi-visuals-utils-colorutils";

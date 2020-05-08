@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.reviewer: zakharb
 ms.date: 02/05/2019
 ms.openlocfilehash: 57204602900e76e7bd5034e96f6385e5e944c04e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114807"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>สร้างความจุ Power BI Embedded ในพอร์ทัล Azure
@@ -24,11 +24,11 @@ ms.locfileid: "80114807"
 
 > [!VIDEO https://www.youtube.com/embed/aXrvFfg_iSk]
 
-## <a name="before-you-begin"></a>ก่อนที่คุณเริ่มต้น
+## <a name="before-you-begin"></a>ก่อนเริ่มต้น
 
 เมื่อต้องการทำตามการเริ่มต้นใช้งานด่วน คุณจำเป็นต้อง:
 
-* **สมัครใช้งาน azure:** เยี่ยมชม[ Azure รุ่นทดลองใช้ฟรี ](https://azure.microsoft.com/free/)เพื่อสร้างบัญชีผู้ใช้
+* **สมัครใช้งาน azure:** เยี่ยมชม[Azure รุ่นทดลองใช้ฟรี](https://azure.microsoft.com/free/)เพื่อสร้างบัญชีผู้ใช้
 * **Azure Active Directory:** การสมัครใช้งานของคุณต้องเชื่อมโยงกับผู้เช่าของ Azure Active Directory (AAD) นอกจากนี้ ***คุณต้องลงชื่อเข้าใช้ Azure ด้วยบัญชีผู้เช่ารายนั้น*** บัญชี Microsoft ไม่ได้รับการสนับสนุน หากต้องการเรียนรู้เพิ่มเติม ดู[การรับรองความถูกต้องและสิทธิ์ผู้ใช้](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users)
 * **ผู้เช่า Power BI:** บัญชีในผู้เช่า AAD ของคุณอย่างน้อยหนึ่งบัญชีต้องลงชื่อสมัครใช้งาน Power BI
 * **กลุ่มทรัพยากร:** ใช้กลุ่มทรัพยากรที่คุณมีอยู่หรือ[สร้างกลุ่มใหม่](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)
@@ -45,7 +45,7 @@ ms.locfileid: "80114807"
 
     ![ฟิลด์เพื่อกรอกข้อมูลสำหรับสร้างความจุใหม่](media/azure-pbie-create-capacity/azure-portal-create-power-bi-embedded.png)
 
-    |การตั้งค่า |คำอธิบาย |
+    |ตั้งค่า |คำอธิบาย |
     |---------|---------|
     |**ชื่อทรัพยากร**|ชื่อเพื่อระบุความจุ ชื่อทรัพยากรจะแสดงอยู่ภายในพอร์ทัลผู้ดูแลระบบ Power BI นอกเหนือจากพอร์ทัล Azure|
     |**การสมัครใช้งาน**|การสมัครใช้งานที่คุณต้องการสร้างความจุ|

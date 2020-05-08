@@ -9,10 +9,10 @@ ms.topic: troubleshooting
 ms.date: 11/01/2017
 ms.author: maggies
 ms.openlocfilehash: dd7d6a140dd9828a188f22144e31ea89e342c370
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698704"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>แก้ไขปัญหาการรีเฟรชตามกำหนดเวลาในเซิร์ฟเวอร์รายงาน Power BI
@@ -42,7 +42,7 @@ ms.locfileid: "74698704"
 ### <a name="kerberos-configuration"></a>การกำหนดค่า Kerberos
 การเชื่อมต่อกับแหล่งข้อมูลด้วยข้อมูลประจำตัว Windows อาจจำเป็นต้องกำหนดการมอบหมายที่มีข้อจำกัดของ Kerberos เพื่อให้การเชื่อมต่อสำเร็จ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกำหนดค่าการมอบหมายที่มีข้อจำกัดของ Kerberos ดู[การกำหนดค่า Kerberos เพื่อใช้กับ Power BI](configure-kerberos-powerbi-reports.md)
 
-## <a name="known-issues"></a>ปัญหาที่ทราบแล้ว
+## <a name="known-issues"></a>รับทราบปัญหาแล้ว
 ข้อมูลเกี่ยวกับปัญหาที่ทราบแล้ว จะแสดงอยู่ที่นี่เมื่อมีข้อมูลพร้อมให้บริการ
 
 ## <a name="configuration-settings"></a>การกำหนดค่า
@@ -190,5 +190,5 @@ C:\Program Files\Microsoft Power BI Report Server\PBIRS\LogFiles\RSPowerBI_*.log
 ## <a name="lock-pages-in-memory-windows-privilege"></a>สิทธิ์ Windows ในการล็อกหน้าในหน่วยความจำ
 ถ้าคุณพบว่า คุณจะไม่สามารถแสดงรายงาน Power BI การกำหนดสิทธิ์**ล็อกหน้าในหน่วยความจำ** ให้กับบัญชีบริการที่เรียกใช้งาน เซิร์ฟเวอร์รายงาน Power BI อาจช่วยได้ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกำหนดค่า**ล็อกหน้าในหน่วยความจำ** ดู[สิทธิ์การใช้งาน Windows ที่กำหนดให้กับบัญชีบริการ Analysis Services](https://docs.microsoft.com/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)
 
-คำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

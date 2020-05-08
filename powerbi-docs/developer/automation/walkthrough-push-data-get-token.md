@@ -9,13 +9,13 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
 ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488280"
 ---
-# <a name="step-2-get-an-authentication-access-token"></a>ขั้นตอนที่ 2: รับโทเค็นการเข้าใช้การรับรองความถูกต้อง
+# <a name="step-2-get-an-authentication-access-token"></a>ขั้นตอนที่ 2: รับโทเค็นการเข้าถึงการรับรองความถูกต้อง
 
 บทความนี้คือ ขั้นตอนที่สองในชุด[พุชข้อมูลลงในชุดข้อมูล Power BI](walkthrough-push-data.md)
 
@@ -31,7 +31,7 @@ ms.locfileid: "79488280"
 
 2. ติดตั้ง[ไลบรารีรับรองความถูกต้อง AD Azure สำหรับแพคเกจ .NET NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) แอป .Net ของคุณต้องการแพคเกจนี้เพื่อรับโทเค็นรักษาความปลอดภัยการรับรองความถูกต้อง 
 
-     a. เลือก**เครื่องมือ** > **ตัวจัดการแพคเกจ NuGet** > **คอนโซลตัวจัดการแพคเกจ**
+     ก. เลือก**เครื่องมือ** > **ตัวจัดการแพคเกจ NuGet** > **คอนโซลตัวจัดการแพคเกจ**
 
      b. ป้อน **Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612**
 
@@ -58,7 +58,7 @@ ms.locfileid: "79488280"
   {
   }
   ```
-* ค่าคงที่เพื่อยกเลิก Main(string[] args):
+* ใน static void Main(string[] args):
   
   ```csharp
   static void Main(string[] args)
