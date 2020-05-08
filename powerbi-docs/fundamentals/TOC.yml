@@ -23,13 +23,13 @@
           href: ../service-basic-concepts.md
         - name: 10 เคล็ดลับสำหรับการรับความช่วยเหลือ
           href: ../service-tips-for-finding-help.md
-        - name: สิทธิ์การใช้งาน
+        - name: การมอบสิทธิ์การใช้งาน
           items:
             - name: ลงทะเบียนใช้งาน Power BI
               href: ../service-self-service-signup-for-power-bi.md
             - name: คุณลักษณะตามประเภทของสิทธิ์การใช้งาน
               href: ../service-features-license-type.md
-    - name: คำแนะนำวิธีการ
+    - name: คู่มือวิธีใช้
       items:
         - name: รับ Power BI Desktop
           href: ../desktop-get-the-desktop.md
@@ -39,13 +39,13 @@
       items:
         - name: ภาษาที่รองรับและประเทศ/ภูมิภาค
           href: ../supported-languages-countries-regions.md
-        - name: เบราว์เซอร์ที่สนับสนุน
+        - name: เบราว์เซอร์ทีรองรับ
           href: ../power-bi-browsers.md
     - name: ทรัพยากร
       items:
         - name: วิดีโอ
           href: ../videos.md
-        - name: สัมมนาผ่านเว็บ
+        - name: การสัมมนาผ่านเว็บ
           href: ../webinars.md
         - name: วิดีโอ Power BI Desktop
           href: ../desktop-videos.md

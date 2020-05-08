@@ -11,10 +11,10 @@ ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: aafba825c5bd4ece3c8b97256d5943f91b456cd7
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609698"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate และ Power BI
@@ -23,7 +23,7 @@ ms.locfileid: "77609698"
 
 [เริ่มต้นใช้งาน  Power Automate ทันที](https://docs.microsoft.com/power-automate/getting-started)
 
-ดู Sirui สร้างโฟลว์ Power Automate ที่ส่งอีเมลที่มีรายละเอียดให้เพื่อนร่วมงาน เมื่อการแจ้งเตือนของ Power BI ถูกทริกเกอร์ แล้วทำตามคำแนะนำทีละขั้นตอนด้านล่างวิดีโอเพื่อลองทำด้วยตนเอง
+ดู Sirui สร้างโฟลว์ Power Automate ที่ส่งอีเมลที่มีรายละเอียดให้เพื่อนร่วมงาน เมื่อการแจ้งเตือนของ Power BI ถูกทริกเกอร์ แล้ว ทำตามคำแนะนำทีละขั้นตอนด้านล่างวิดีโอเพื่อลองทำด้วยตนเอง
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
@@ -101,7 +101,7 @@ ms.locfileid: "77609698"
    ![ดำเนินต่อเพื่อสร้างโฟลว์](media/service-flow-integration/power-bi-flow-event.png)
 5. ให้เลือก **สร้างโฟลว์**เมื่อทำเสร็จแล้ว  Power Automate จะบันทึกและประเมินโฟลว์ ถ้าไม่ มีข้อผิดพลาด ให้เลือก**เสร็จสิ้น**เพื่อเรียกใช้โฟลว์นี้  ขั้นตอนใหม่ถูกเพิ่มลงในหน้า**โฟลว์ของฉัน**
    
-   ![ทำให้โฟลว์เสร็จสมบูรณ์](media/service-flow-integration/power-bi-flow-running.png)
+   ![ทำโฟลว์ให้เสร็จ](media/service-flow-integration/power-bi-flow-running.png)
 6. เมื่อโฟลว์ถูกทริกเกอร์ โดยการแจ้งเตือนข้อมูล Power BI คุณจะได้รับการแจ้งเตือนเหตุการณ์บน Outlook ที่คล้ายกัน
    
     ![Power Automate จะทริกเกอร์การแจ้งเตือนใน Outlook](media/service-flow-integration/power-bi-flow-notice.png)
@@ -110,6 +110,6 @@ ms.locfileid: "77609698"
 * [เริ่มต้นใช้งาน Power Automate](https://docs.microsoft.com/power-automate/getting-started/)
 * [ตั้งค่าการแจ้งเตือนข้อมูลใน Power BI service](service-set-data-alerts.md)
 * [ตั้งค่าการแจ้งเตือนข้อมูลบน iPhone ของคุณ](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* [ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [ตั้งค่าการแจ้งเตือนข้อมูลในแอป mobile Power BI สำหรับ Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 82005eb448164b863811ab78a8f76ed954da60a2
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114543"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>การแก้ไข: "จำเป็นต้องอัปเดต Android System Webview"
@@ -22,13 +22,13 @@ ms.locfileid: "79114543"
 
 ถ้าอุปกรณ์ Android ของคุณใช้งาน Android 7 หรือใหม่กว่า คุณอาจได้รับข้อความเพื่อให้อัปเดต Android System Webview อีกครั้ง 
 
-## <a name="solution-upgrade-your-version-of-the-chrome-app"></a>วิธีการแก้ไข: อัปเกรดเวอร์ชันแอป Chrome ของคุณ
+## <a name="solution-upgrade-your-version-of-the-chrome-app"></a>วิธีแก้ไข: อัปเกรดเวอร์ชันแอป Chrome ของคุณ
 จริงๆ แล้วคุณจำเป็นต้องอัปเกรดแอป Chrome 
 
 * กลับไปยัง Google Play Store ให้ค้นหา Chrome และอัปเกรด
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [ดาวน์โหลดแอป Android](https://go.microsoft.com/fwlink/?LinkID=544867) จาก Android app store
+* [ดาวน์โหลดแอป Android](https://go.microsoft.com/fwlink/?LinkID=544867) จาก Android app store.
 * [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+* มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 

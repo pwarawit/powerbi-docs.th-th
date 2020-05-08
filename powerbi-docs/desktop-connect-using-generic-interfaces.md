@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: eaf2e7fed056653f2ee44e25b493e6b5e170a8dd
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761467"
 ---
 # <a name="connect-to-data-by-using-power-bi-desktop-generic-interfaces"></a>เชื่อมต่อกับข้อมูลโดยใช้อินเตอร์เฟสทั่วไปของ Power BI Desktop 
@@ -102,16 +102,16 @@ ms.locfileid: "75761467"
 
 | ตัวเชื่อมต่อทั่วไปของ Power BI Desktop | แหล่งข้อมูลภายนอก | ลิงก์สำหรับข้อมูลเพิ่มเติม |
 | --- | --- | --- |
-| สคริปต์ R |ไฟล์ SAS |[คำแนะนำสคริปต์ R จาก CRAN](https://cran.r-project.org/doc/manuals/R-data.html) |
-| สคริปต์ R |ไฟล์ SPSS |[คำแนะนำสคริปต์ R จาก CRAN](https://cran.r-project.org/doc/manuals/R-data.html) |
-| สคริปต์ R |ไฟล์สถิติ R |[คำแนะนำสคริปต์ R จาก CRAN](https://cran.r-project.org/doc/manuals/R-data.html) |
+| R Script |ไฟล์ SAS |[คำแนะนำสคริปต์ R จาก CRAN](https://cran.r-project.org/doc/manuals/R-data.html) |
+| R Script |ไฟล์ SPSS |[คำแนะนำสคริปต์ R จาก CRAN](https://cran.r-project.org/doc/manuals/R-data.html) |
+| R Script |ไฟล์สถิติ R |[คำแนะนำสคริปต์ R จาก CRAN](https://cran.r-project.org/doc/manuals/R-data.html) |
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 มีข้อมูลหลากหลายประเภทที่คุณสามารถเชื่อมต่อโดยใช้ **Power BI Desktop** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแหล่งข้อมูล โปรดดูทรัพยากรต่อไปนี้:
 
 * [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
-* [จัดรูปทรงและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [จัดรูปทรง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [เชื่อมต่อกับเวิร์กบุ๊ก Excel ใน Power BI Desktop](desktop-connect-excel.md)   
-* [ป้อนข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
+* [ใส่ข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
 

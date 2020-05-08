@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381433"
 ---
 # <a name="visualization-types-in-power-bi"></a>ชนิดการแสดงภาพใน Power BI
@@ -88,7 +88,7 @@ ms.locfileid: "79381433"
 
 สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิผู้มีอิทธิพลหลักใน Power BI](power-bi-visualization-influencers.md)
 
-### <a name="kpis"></a>KPI
+### <a name="kpis"></a>KPIs
 ![แผนภูมิ KPI](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
 >[!TIP]
@@ -123,7 +123,7 @@ ms.locfileid: "79381433"
 
 สำหรับข้อมูลเพิ่มเติม ดู [แผนที่แถบสีใน Power BI](power-bi-visualization-filled-maps-choropleths.md)
 
-### <a name="maps-shape-maps"></a>แผนที่: แผนที่รูปร่าง
+### <a name="maps-shape-maps"></a>แผนที่: สร้างแผนที่รูปร่าง
 ![แผนที่รูปร่างของเท็กซัส](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]
@@ -133,7 +133,7 @@ ms.locfileid: "79381433"
 
 
 ### <a name="matrix"></a>เมทริกซ์
-![เมทริกซ์](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![เมตริก](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
 >ตารางสนับสนุนการใช้งานแบบสองมิติ แต่เมทริกซ์ทำให้การแสดงข้อมูลง่ายและมีความหมายในทั้งหลายมิติและเมทริกซ์สนับสนุนการจัดวางอย่างเป็นขั้นเป็นตอน เมทริกซ์จะรวมข้อมูลโดยอัตโนมัติและสามารถเจาะลึกลงไป 
@@ -212,7 +212,7 @@ ms.locfileid: "79381433"
 สำหรับข้อมูลเพิ่มเติม ดู[การทำงานกับตารางใน Power BI](power-bi-visualization-tables.md)
 
 ### <a name="treemaps"></a>แผนภูมิต้นไม้
-![แผนที่ต้นไม้](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![แผนผังต้นไม้](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิต้นไม้ใน Power BI](power-bi-visualization-treemaps.md)
 

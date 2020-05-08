@@ -55,7 +55,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848723'
             - name: ฝังรายงาน
               href: quickstart-embed.md
-    - name: วิธีการ
+    - name: วิธีใช้
       items:
         - name: ติดตั้ง Power BI Desktop
           href: install-powerbi-desktop.md
@@ -79,7 +79,7 @@
               href: access-dataset-odata.md
             - name: เปลี่ยนแปลงชุดอักขระการเชื่อมต่อต้นทางของข้อมูลผ่าน PowerShell
               href: connect-data-source-apis.md
-            - name: กำหนดค่าการรีเฟรชตามกำหนดเวลา
+            - name: กำหนดค่าการรีเฟรชตามกำหนดการ
               href: configure-scheduled-refresh.md
             - name: เพิ่มข้อคิดเห็นในรายงาน
               href: add-comments.md
@@ -93,7 +93,7 @@
               href: upgrade.md
             - name: ย้ายเซิร์ฟเวอร์รายงาน
               href: migrate-report-server.md
-            - name: กำหนดค่า Kerberos เพื่อใช้รายงาน Power BI
+            - name: กำหนดค่า Kerberos เมื่อต้องใช้รายงาน Power BI
               href: configure-kerberos-powerbi-reports.md
             - name: กำหนดค่าการเข้าถึงแอปสำหรับอุปกรณ์เคลื่อนจากระยะไกล
               href: configure-powerbi-mobile-apps-remote.md

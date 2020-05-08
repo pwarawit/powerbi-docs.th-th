@@ -1,5 +1,5 @@
 ---
-title: Power BI สำหรับแอปความเป็นจริงผสม (แสดงตัวอย่าง)
+title: Power BI สำหรับแอปความเป็นจริงผสม (ตัวอย่าง)
 description: ดูแดชบอร์ดและรายงานใน Power BI สำหรับแอปความเป็นจริงผสม (ตัวอย่าง) โดยเข้าไปอยู่ในโลกเสมือน หรือในบริบทของสภาพแวดล้อมคุณ
 author: paulinbar
 ms.reviewer: ''
@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205929"
 ---
-# <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI สำหรับแอปความเป็นจริงผสม (แสดงตัวอย่าง)
+# <a name="power-bi-for-mixed-reality-app-preview"></a>Power BI สำหรับแอปความเป็นจริงผสม (ตัวอย่าง)
 ดูแดชบอร์ดและรายงานของคุณใน Power BI สำหรับแอปความเป็นจริงผสม (ตัวอย่าง) ในขณะที่เข้าไปอยู่ในในโลกเสมือน หรือวางไว้ในตำแหน่งที่ตั้งตามบริบทของสภาพแวดล้อมคุณ 
 
-[ดาวน์โหลดแอป Power BI สำหรับความเป็นจริงผสม](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) จาก Windows Store ใน Windows Store ซึ่งถูกเรียกว่า "Power BI Mobile" โต้ตอบกับแดชบอร์ดและรายงานของคุณในโลกเสมือน แล้วเลือกรายการที่คุณต้องการวาง 
+[ดาวน์โหลดแอป Power BI สำหรับความเป็นจริงผสม](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab)จาก Windows store: ใน Windows Store จะเรียกว่า "Power BI Mobile" โต้ตอบกับแดชบอร์ดและรายงานของคุณในโลกเสมือน แล้วเลือกรายการที่คุณต้องการวาง 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>สองมุมมอง: Windows แบบคลาสสิกและฮอโลกราฟิก
 
