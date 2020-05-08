@@ -99,6 +99,14 @@
               href: ../paginated-reports/report-builder-previewing-reports.md
             - name: คำถามที่พบบ่อยเกี่ยวกับรายงานที่มีการแบ่งหน้า
               href: ../paginated-reports/paginated-reports-faq.md
+        - name: ขั้นตอนการปรับใช้งาน
+          items:
+            - name: บทนำเกี่ยวกับขั้นตอนการปรับใช้งาน
+              href: deployment-pipelines-overview.md
+            - name: ทำความเข้าใจขั้นตอนการปรับใช้งาน
+              href: deployment-pipelines-process.md
+            - name: แนวทางปฏิบัติที่ดีที่สุด
+              href: deployment-pipelines-best-practices.md
     - name: คำแนะนำวิธีการ
       items:
         - name: รายงาน Power BI
@@ -121,22 +129,20 @@
               href: ../desktop-buttons.md
             - name: สร้างปุ่มดูรายละเอียดแนวลึก
               href: ../desktop-drill-through-buttons.md
+            - name: ใช้คุณลักษณะดูรายละเอียดเจาะลึก
+              href: ../desktop-drillthrough.md
+            - name: ใช้คุณลักษณะดูรายละเอียดเจาะลึกแบบข้ามรายงาน
+              href: ../desktop-cross-report-drill-through.md
             - name: สร้างบุ๊กมาร์กเพื่อบันทึกและแชร์ข้อมูลเชิงลึก
               href: ../desktop-bookmarks.md
             - name: ทำงานกับธีมรายงาน
               href: ../desktop-report-themes.md
             - name: ทำงานกับตัวกรองในรายงาน
               href: ../power-bi-report-filter.md
-            - name: ใช้คุณลักษณะดูรายละเอียดเจาะลึก
-              href: ../desktop-drillthrough.md
-            - name: ใช้คุณลักษณะดูรายละเอียดเจาะลึกแบบข้ามรายงาน
-              href: ../desktop-cross-report-drill-through.md
+            - name: เพิ่มตัวกรองในรายงาน
+              href: ../power-bi-report-add-filter.md
             - name: ปรับใช้การจัดกลุ่มและการใช้ช่องเก็บ
               href: ../desktop-grouping-and-binning.md
-            - name: สร้างวิชวลของ Power BI ด้วย R
-              href: ../desktop-r-visuals.md
-            - name: ดาวน์โหลดและใช้วิชวล Power BI ที่ทำงานด้วย R
-              href: ../desktop-r-powered-custom-visuals.md
             - name: ปรับใช้เส้นตารางและจัดชิดกับเส้นตาราง
               href: ../desktop-gridlines-snap-to-grid.md
             - name: ปรับใช้การตั้งค่าการแสดงหน้าในรายงาน
@@ -153,6 +159,8 @@
               href: ../desktop-slicer-numeric-range.md
             - name: ตัวแบ่งส่วนข้อมูลวันที่แบบสัมพัทธ์และตัวกรอง
               href: ../visuals/desktop-slicer-filter-date-range.md
+            - name: ตัวแบ่งส่วนข้อมูลเวลาแบบสัมพัทธ์และตัวกรอง
+              href: slicer-filter-relative-time.md
             - name: สร้างตัวแบ่งส่วนข้อมูลที่คุณสามารถปรับขนาดได้
               href: ../power-bi-slicer-filter-responsive.md
             - name: เพิ่มเขตข้อมูลหลายรายการในตัวแบ่งส่วนข้อมูล
@@ -189,8 +197,6 @@
               href: ../desktop-templates.md
             - name: สร้างรายงานจากชุดข้อมูล
               href: ../service-report-create-new.md
-            - name: เพิ่มตัวกรองในรายงาน
-              href: ../power-bi-report-add-filter.md
             - name: บันทึกรายงาน
               href: ../service-report-save.md
             - name: ทำงานกับรายงานในมุมมองการแก้ไข
@@ -201,6 +207,8 @@
               href: ../service-aggregates.md
             - name: สร้างคิวอาร์โค้ดสำหรับรายงาน
               href: ../service-create-qr-code-for-report.md
+            - name: อนุญาตให้บริโภคปรับแต่งวิชวล (ตัวอย่าง)
+              href: power-bi-personalize-visuals.md
             - name: ส่งออกรายงานไปยัง Power BI Desktop (ตัวอย่าง)
               href: ../service-export-to-pbix.md
             - name: เผยแพร่ชุดข้อมูลและรายงาน
@@ -267,6 +275,10 @@
               href: ../visuals/power-bi-visualization-powerapp.md
             - name: วิชวล R
               href: ../visuals/service-r-visuals.md
+            - name: สร้างวิชวลของ Power BI ด้วย R
+              href: ../desktop-r-visuals.md
+            - name: ดาวน์โหลดและใช้วิชวล Power BI ที่ทำงานด้วย R
+              href: ../desktop-r-powered-custom-visuals.md
             - name: แผนภูมิตัววัดรัศมี
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: แผนภูมิ Ribbon
@@ -371,6 +383,12 @@
               href: ../service-data-classification.md
             - name: ไอเท็มของแดชบอร์ด
               href: ../service-dashboard-themes.md
+        - name: ขั้นตอนการปรับใช้งาน
+          items:
+            - name: เริ่มใช้งาน
+              href: deployment-pipelines-get-started.md
+            - name: การแก้ไขปัญหา
+              href: deployment-pipelines-troubleshooting.md
         - name: งานอื่น ๆ
           items:
             - name: เปลี่ยนชื่อเนื้อหา

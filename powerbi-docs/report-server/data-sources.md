@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: maggies
 ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979856"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>แหล่งข้อมูลรายงาน Power BI ใน Power BI Report Server
@@ -32,7 +32,7 @@ ms.locfileid: "80979856"
 | --- | --- | --- | --- |
 | ฐานข้อมูล SQL Server |ใช่ |ใช่ |ใช่ |
 | SQL Server Analysis Services |ใช่ |ใช่ |ใช่ |
-| ฐานข้อมูล Azure SQL |ใช่ |ใช่ |ใช่ |
+| Azure SQL Database |ใช่ |ใช่ |ใช่ |
 | คลังข้อมูล Azure SQL |ใช่ |ใช่ |ใช่ |
 | Excel |ใช่ |ใช่ |ไม่ใช่ |
 | ฐานข้อมูล Access |ใช่ |ใช่ |ไม่ใช่ |
@@ -42,26 +42,26 @@ ms.locfileid: "80979856"
 | Azure Data Lake Store |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure HDInsight (HDFS) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure HDInsight (Spark) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| พื้นที่เก็บข้อมูล Azure Table |ใช่ |ใช่ |ไม่ใช่ |
-| Dynamics 365 (ออนไลน์) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Azure Table Storage |ใช่ |ใช่ |ไม่ใช่ |
+| Dynamics 365 (online) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Facebook |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | โฟลเดอร์ |ใช่ |ใช่ |ไม่ใช่ |
 | Google Analytics |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| ไฟล์ Hadoop (HDFS) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Hadoop File (HDFS) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | ฐานข้อมูล IBM DB2 |ใช่ |ใช่ |ไม่ใช่ |
 | Impala |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | JSON |ใช่ |ใช่ |ไม่ใช่ |
 | Microsoft Exchange |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Microsoft Exchange Online |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| ฐานข้อมูล MySQL |ใช่ |ใช่ |ไม่ใช่ |
-| ตัวดึงข้อมูล OData |ใช่ |ใช่ |ไม่ใช่ |
+| ฐานข้อมูล MySql |ใช่ |ใช่ |ไม่ใช่ |
+| เนื้อหาสรุป OData |ใช่ |ใช่ |ไม่ใช่ |
 | ODBC |ใช่ |ใช่ |ไม่ใช่ |
 | OLE DB |ใช่ |ใช่ |ไม่ใช่ |
-| ฐานข้อมูล Oracle |ใช่ |ใช่ |ใช่ |
+| Oracle Database |ใช่ |ใช่ |ใช่ |
 | ฐานข้อมูล PostgreSQL |ใช่ |ใช่ |ไม่ใช่ |
-| Power BI service |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
-| สคริปต์ R |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| ออบเจ็กต์ Salesforce |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| บริการ power BI |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
+| R Script |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Salesforce Objects |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | รายงาน Salesforce |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | เซิร์ฟเวอร์ SAP Business Warehouse |ใช่ |ใช่ |ใช่ |
 | ฐานข้อมูล SAP HANA |ใช่ |ใช่ |ใช่ |
@@ -74,38 +74,38 @@ ms.locfileid: "80979856"
 | Text/CSV |ใช่ |ใช่ |ไม่ใช่ |
 | เว็บ |ใช่ |ใช่ |ไม่ใช่ |
 | XML |ใช่ |ใช่ |ไม่ใช่ |
-| appFigures (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| appFigures (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | ฐานข้อมูล Azure Analysis Services |ใช่ |ไม่ใช่ |ใช่ |
 | Azure Cosmos DB (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure HDInsight Spark |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Common Data Service (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| comScore Digital Analytix (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Dynamics 365 for Customer Insights (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Dynamics 365 สำหรับ Financials (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| GitHub (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Google BigQuery |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| ฐานข้อมูล IBM Informix (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| IBM Netezza (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Kusto (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| MailChimp (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Microsoft Azure Consumption Insights (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Mixpanel (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Common Data Service (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| comScore Digital Analytix (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Dynamics 365 for Customer Insights (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Dynamics 365 for Financials (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| GitHub (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Google BigQuery (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| ฐานข้อมูล IBM Informix |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| IBM Netezza |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Kusto (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| MailChimp (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Microsoft Azure Consumption Insights (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Mixpanel (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Planview Enterprise (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Projectplace (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| QuickBooks Online (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| QuickBooks Online (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Smartsheet |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Spark (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| SparkPost (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Spark (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| SparkPost (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | SQL Sentry (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Stripe (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| SweetIQ (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Stripe (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| SweetIQ (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Troux (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Twilio (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| tyGraph (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Twilio (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| tyGraph (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Vertica (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Visual Studio Team Services (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Webtrends (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Zendesk (เบต้า) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Visual Studio Team Services (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Webtrends (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Zendesk (Beta) |ใช่ |ไม่ใช่ |ไม่ใช่ |
 
 > [!IMPORTANT]
 > รักษาความปลอดภัยระดับแถวที่ถูกตั้งในระดับแหล่งข้อมูลควรทำงานกับ DirectQuery (SQL Server, Azure SQL Database, Oracle and Teradata) และเชื่อมต่อแบบตรงนั้นเข้าใจว่า Kerberos ได้ถูกตั้งค่าค่าอย่างถูกต้องสภาพแวดล้อมของระบบของคุณ
@@ -121,7 +121,7 @@ ms.locfileid: "80979856"
 | ฐานข้อมูล SQL Server |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |
 | SQL Server Analysis Services |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |
 | เว็บ |ใช่ |ไม่ใช่ |ใช่ |ใช่ |
-| ฐานข้อมูล Azure SQL |ไม่ใช่ |ไม่ใช่ |ใช่ |ไม่ใช่ |
+| Azure SQL Database |ไม่ใช่ |ไม่ใช่ |ใช่ |ไม่ใช่ |
 | คลังข้อมูล Azure SQL |ไม่ใช่ |ไม่ใช่ |ใช่ |ไม่ใช่ |
 | Active Directory |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |
 | Amazon Redshift |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
@@ -129,7 +129,7 @@ ms.locfileid: "80979856"
 | Azure Data Lake Store |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure HDInsight (HDFS) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure HDInsight (Spark) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
-| พื้นที่เก็บข้อมูล Azure Table |ไม่ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Azure Table Storage |ไม่ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Dynamics 365 (online) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Facebook |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | โฟลเดอร์ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ใช่ |
@@ -140,12 +140,12 @@ ms.locfileid: "80979856"
 | Microsoft Exchange |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Microsoft Exchange Online |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | ฐานข้อมูล MySql |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |
-| OData Feed |ใช่ |ใช่ |ใช่ |ใช่ |
+| เนื้อหาสรุป OData |ใช่ |ใช่ |ใช่ |ใช่ |
 | ODBC |ใช่ |ไม่ใช่ |ใช่ |ใช่ |
 | OLE DB |ใช่ |ไม่ใช่ |ใช่ |ใช่ |
-| ฐานข้อมูล Oracle |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |
+| Oracle Database |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |
 | ฐานข้อมูล PostgreSQL |ไม่ใช่ |ไม่ใช่ |ใช่ |ไม่ใช่ |
-| Power BI service |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
+| บริการ power BI |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | R Script |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Salesforce Objects |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | รายงาน Salesforce |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
@@ -157,18 +157,18 @@ ms.locfileid: "80979856"
 | Snowflake |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | ฐานข้อมูล Sybase |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |
 | Teradata |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่** |
-| appFigures (เบต้า) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
+| appFigures (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Azure Analysis Services database (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Azure Cosmos DB (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Azure HDInsight Spark (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Azure Cosmos DB (เบต้า) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Azure HDInsight Spark |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Common Data Service (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | comScore Digital Analytix (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Dynamics 365 for Customer Insights (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Dynamics 365 for Financials (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | GitHub (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Google BigQuery (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
-| IBM Informix database (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
-| IBM Netezza (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
+| ฐานข้อมูล IBM Informix |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
+| IBM Netezza |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Kusto (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | MailChimp (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Microsoft Azure Consumption Insights (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
@@ -185,7 +185,7 @@ ms.locfileid: "80979856"
 | Troux (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Twilio (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | tyGraph (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
-| Vertica (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Vertica (เบต้า) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Visual Studio Team Services (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Webtrends (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
 | Zendesk (Beta) |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |ไม่ใช่ |
@@ -200,9 +200,9 @@ ms.locfileid: "80979856"
 | --- | --- | --- | --- | --- | --- |
 | ฐานข้อมูล SQL Server |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |ใช่ |
 | SQL Server Analysis Services |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |ใช่ |
-| ฐานข้อมูล Azure SQL |ไม่ใช่ |ไม่ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
+| Azure SQL Database |ไม่ใช่ |ไม่ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | คลังข้อมูล Azure SQL |ไม่ใช่ |ไม่ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
-| ฐานข้อมูล Oracle |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |ใช่ |
+| Oracle Database |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |ใช่ |
 | เซิร์ฟเวอร์ SAP Business Warehouse |ไม่ใช่ |ไม่ใช่ |ใช่ |ไม่ใช่ |ไม่ใช่ |
 | ฐานข้อมูล SAP HANA |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |ใช่** |
 | Teradata |ไม่ใช่ |ไม่ใช่ |ใช่ |ใช่ |ใช่ |

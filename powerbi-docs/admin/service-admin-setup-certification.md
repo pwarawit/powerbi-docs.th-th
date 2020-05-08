@@ -9,10 +9,10 @@ ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Share your work
 ms.openlocfilehash: 1fc33b48613335f4fba97921e3d528175eb2a47f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81267856"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>ตั้งค่าการรับรองชุดข้อมูลและกระแสข้อมูล (ตัวอย่าง)
@@ -44,4 +44,4 @@ ms.locfileid: "81267856"
 * [รับรองชุดข้อมูล](../service-datasets-certify.md)
 * [เลื่อนระดับกระแสข้อมูล](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow)
 * [รับรองกระแสข้อมูล](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)
-* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+* มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
