@@ -5,7 +5,7 @@
     - name: ภาพรวม
       expanded: true
       items:
-        - name: การดูแล Power BI คืออะไร?
+        - name: ดูแล Power BI คืออะไร
           href: ../service-admin-administering-power-bi-in-your-organization.md
         - name: ผู้เช่าของฉันอยู่ที่ไหน
           href: ../service-admin-where-is-my-tenant-located.md
@@ -44,7 +44,7 @@
               href: ../service-premium-capacity-scenarios.md
             - name: คำถามที่ถามบ่อยสำหรับ Power BI Premium
               href: ../service-premium-faq.md
-    - name: วิธีการ
+    - name: วิธีใช้
       items:
         - name: การใช้สิทธิ์และลงทะเบียน
           items:
@@ -84,7 +84,7 @@
               href: service-security-using-microsoft-cloud-app-security-controls.md
             - name: รายงานเมตริกการป้องกันข้อมูล
               href: service-security-data-protection-metrics-report.md
-        - name: รักษาความปลอดภัยระดับแถว
+        - name: รักษาความปลอดภัยตามระดับแถว
           href: ../service-admin-rls.md
         - name: ตั้งค่าชุดข้อมูลและใบรับรองกระแสข้อมูล
           href: service-admin-setup-certification.md
@@ -131,7 +131,7 @@
           href: ../service-admin-power-bi-security.md
         - name: ระดับความเป็นส่วนตัว
           href: ../desktop-privacy-levels.md
-    - name: การแก้ไขปัญหา
+    - name: แก้ไขปัญหา
       items:
         - name: ลงชื่อเข้าใช้ไม่ได้ใช่ไหม?
           href: ../power-bi-cannot-sign-in.md
@@ -145,7 +145,5 @@
           href: ../service-admin-capturing-additional-diagnostic-information-for-power-bi.md
         - name: ที่อยู่อีเมลสำรองสำหรับ Power BI
           href: ../service-admin-alternate-email-address-for-power-bi.md
-        - name: วิธีใช้บัญชีผู้ใช้เดียวกันเข้าสู่ระบบสำหรับ Power BI และ Azure
+        - name: วิธีใช้บัญชีเดียวกันสำหรับเข้าสู่ระบบ Power BI และ Azure
           href: ../service-admin-how-to-use-the-same-account-as-azure.md
-        - name: Office 365 มุ่งเน้น - ปัญหาที่ทราบแล้ว
-          href: ../service-admin-office-365-dedicated-known-issues.md

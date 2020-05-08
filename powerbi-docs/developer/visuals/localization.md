@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
 ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379933"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>เพิ่มตำแหน่งที่ตั้งใน Power BI สำหรับวิชวล Power BI
@@ -45,7 +45,7 @@ this.locale = options.host.locale;
 
 ตำแหน่งที่ตั้งที่ได้รับการสนับสนุน:
 
-สตริงของตำแหน่งที่ตั้ง | ภาษา
+สตริงของตำแหน่งที่ตั้ง | Language
 --------------|----------------------
 ar-SA | العربية (อาหรับ)
 bg-BG | български (บัลแกเรีย)

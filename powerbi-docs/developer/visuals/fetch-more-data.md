@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 6d51a27bc5c0f18b7f784395dedd58813bfffbc0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 6c79673e9d4b7edc95bdfe0373bb8a47d9fe587b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380697"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>ดึงข้อมูลเพิ่มเติมจาก Power BI
@@ -95,7 +95,7 @@ btn_click(){
 }
 ```
 
-Power BI เรียกเมธอด `update` ของวิชวลด้วยเซกเมนต์ใหม่ของข้อมูลเพื่อตอบสนองต่อการเรียกใช้เมธอด `this.host.fetchMoreData`
+Power BI เรียกเมธอด `this.host.fetchMoreData` ของวิชวลด้วยเซกเมนต์ใหม่ของข้อมูลเพื่อตอบสนองต่อการเรียกใช้เมธอด `update`
 
 > [!NOTE]
 > เพื่อหลีกเลี่ยงข้อจำกัดของหน่วยความจำไคลเอนต์ ปัจจุบัน Power BI จำกัดข้อมูลที่ดึงมาทั้งหมดเป็น 100 MB คุณสามารถเห็นว่าถึงขีดจำกัดแล้วเมื่อ fetchMoreData () ส่งกลับ `false`

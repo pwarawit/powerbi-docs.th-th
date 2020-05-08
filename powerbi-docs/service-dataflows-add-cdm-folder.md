@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: cc47820e5903426d4f3635c78e0dc108049f897e
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439353"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>เพิ่มโฟลเดอร์ CDM ไปยัง Power BI เป็นกระแสข้อมูล (ตัวอย่าง)
@@ -27,7 +27,7 @@ ms.locfileid: "81439353"
 * ผู้ดูแลระบบต้องเชื่อมโยงบัญชีที่เก็บข้อมูล ADLS Gen2 ภายใน Power BI ก่อนที่จะสามารถใช้ได้ ดู [เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับ ที่เก็บกระแสข้อมูล](service-dataflows-connect-azure-data-lake-storage-gen2.md) เพื่อเรียนรู้วิธีการเชื่อมโยงบัญชี ADLS Gen2 ไปยัง Power BI
 * การสร้างกระแสข้อมูลจากโฟลเดอร์ CDM สามารถใช้งานได้ใน*พื้นที่ทำงานใหม่*[เท่านั้น](service-create-the-new-workspaces.md) 
 * การเพิ่มโฟลเดอร์ CDM ไปยัง Power BI จำเป็นต้องให้ผู้ใช้เพิ่มโฟลเดอร์เพื่อให้ได้รับ[การอนุญาตจากไฟล์และโฟลเดอร์ CDM](https://go.microsoft.com/fwlink/?linkid=2029121)
-* คุณต้องได้รับอนุญาตให้สามารถอ่านและดำเนินการ กับไฟล์และโฟลเดอร์ทั้งหมดในโฟลเดอร์ CDM เพื่อเพิ่มำฟล์และโฟลเดอร์เหล่านั้นลงใน Power BI
+* คุณต้องได้รับอนุญาตให้สามารถอ่านและดำเนินการ กับไฟล์และโฟลเดอร์ทั้งหมดในโฟลเดอร์ CDM เพื่อเพิ่มำฟล์และโฟลเดอร์เหล่านั้นลงใน Power BI 
 
 ส่วนต่อไปนี้จะอธิบายวิธีการสร้างแบบกระแสข้อมูลจากโฟลเดอร์ CDM
 

@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: e856c3afca0578c906a54f636dd58cd9208607a8
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 31ce44059ec2abd5a2615267311ba651993342ba
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207999"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841905"
 ---
 # <a name="power-bi-security"></a>Power BI Security
 
-สำหรับคำอธิบายโดยละเอียดของความปลอดภัยของ Power BI [อ่านเอกสารทางเทคนิคของความปลอดภัยของ Power BI:](whitepaper-powerbi-security.md)
+สำหรับคำอธิบายโดยละเอียดของความปลอดภัยของ Power BI [อ่านเอกสารทางเทคนิคของความปลอดภัยของ Power BI:](guidance/whitepaper-powerbi-security.md)
 
 Power BI service ถูกสร้างบน**Azure**ซึ่งเป็นโครงสร้างพื้นฐานและแพลตฟอร์มการประมวลผล ชอง Microsoft cloud สถาปัตยกรรมบริการ Power BI นั้นยึดตามคลัสเตอร์สองตัว คลัสเตอร์ Web Front End (**WFE**) และคลัสเตอร์**Back End** คลัสเตอร์ WFE จัดการการเชื่อมต่อเริ่มต้นและการรับรองความถูกต้องเพื่อไปยัง บริการ Power BI และเมื่อการรับรองความถูกต้องเสร็จแล้ว Back End จะจัดการผู้ใช้อื่นๆ ที่ตามมาทั้งหมด Power BI ใช้ Azure Active Directory (AAD) เพื่อจัดเก็บและจัดการข้อมูลประจำตัวผู้ใช้ และจัดการเก็บข้อมูลของข้อมูลและเมตาดาต้าโดยใช้ Azure BLOB และฐานข้อมูล SQL Azure ตามลำดับ
 

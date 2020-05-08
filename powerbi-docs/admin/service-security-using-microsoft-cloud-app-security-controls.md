@@ -10,17 +10,17 @@ ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: 6d342773f35adef5f7b61953b06e526a42be75dc
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76537404"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>การใช้ตัวควบคุม Microsoft Cloud App Security ใน Power BI (ตัวอย่าง)
 
 ด้วยการใช้ Microsoft Cloud App Security กับ Power BI คุณสามารถช่วยปกป้องรายงาน ข้อมูล และบริการของ Power BI มิให้รั่วไหลโดยไม่ได้ตั้งใจหรือมิให้ถูกละเมิด ด้วย Cloud App Security คุณสามารถสร้างนโยบายการเข้าถึงตามเงื่อนไขสำหรับข้อมูลขององค์กรโดยใช้ตัวควบคุมเซสชันแบบเรียลไทม์ใน Azure Active Directory (Azure AD) ซึ่งช่วยให้มั่นใจได้ว่าการวิเคราะห์ Power BI ของคุณมีความปลอดภัย หลังจากที่มีการกำหนดนโยบายเหล่านี้ ผู้ดูแลระบบสามารถตรวจสอบการเข้าถึงและกิจกรรมของผู้ใช้ ทำการวิเคราะห์ความเสี่ยงแบบเรียลไทม์ และตั้งค่าตัวควบคุมเฉพาะป้ายชื่อได้ 
 
-![การใช้บานหน้าต่างตัวควบคุม Microsoft Cloud App Security](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-01.png)
+![การใช้บานหน้าต่างตัวควบคุม Microsoft Cloud App Security ](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-01.png)
 
 คุณสามารถกำหนดค่า Microsoft Cloud App Security สำหรับแอปและบริการทุกประเภท ไม่ใช่เพียงแค่ Power BI เท่านั้น Cloud App Security คือบริการของ Microsoft ที่ปกป้องแอปและอุปกรณ์และสามารถจัดการผ่านแดชบอร์ดของตนเองได้ คุณจะต้องกำหนดค่า Cloud App Security ในการทำงานกับ Power BI เพื่อใช้ประโยชน์จากการคุ้มครอง Cloud App Security สำหรับข้อมูล Power BI และการวิเคราะห์ของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Cloud App Security รวมถึงภาพรวมของวิธีการทำงาน แดชบอร์ด และคะแนนความเสี่ยงของแอป ให้ดูเอกสารประกอบ [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/)
 
@@ -29,10 +29,10 @@ ms.locfileid: "76537404"
 
 ในการใช้ Microsoft Cloud App Security กับ Power BI คุณต้องใช้และกำหนดค่าบริการการรักษาความปลอดภัยของ Microsoft ที่เกี่ยวข้อง ซึ่งบางรายการถูกตั้งค่าไว้นอก Power BI
 
-### <a name="microsoft-cloud-app-security-licensing"></a>สิทธิ์การใช้งาน Microsoft Cloud App Security
+### <a name="microsoft-cloud-app-security-licensing"></a>สิทธิ์การใช้งาน Microsoft Cloud App Security 
 
 เพื่อให้มี Microsoft Cloud App Security ในผู้เช่าของคุณ คุณต้องมีสิทธิ์การใช้งานต่อไปนี้:
-* MCAS: มีความสามารถของ OCAS สำหรับแอปที่สนับสนุนทั้งหมด ส่วนหนึ่งของชุดโปรแกรม EMS E5 และ M365 E5
+* MCAS: มีความสามารถของ OCAS สำหรับแอปที่สนับสนุนทั้งหมด ส่วนหนึ่งของชุดโปรแกรม EMS E5 และ M365 E5 
 * CAS-D: มีเฉพาะ MCAS Discovery เท่านั้น
 * OCAS: มีความสามารถของ MCAS สำหรับ Office 365 เท่านั้น ส่วนหนึ่งของชุดโปรแกรม Office E5
 * ทางเลือก: AAD P1 และ AIP P1 เพื่อใช้ประโยชน์จากความสามารถของ Microsoft Cloud App Security หลัก

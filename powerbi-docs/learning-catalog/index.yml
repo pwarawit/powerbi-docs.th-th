@@ -10,10 +10,10 @@ metadata:
   ms.author: v-lshann
   ms.date: 04/08/2020
   ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
-  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: th-TH
-  ms.lasthandoff: 04/16/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "81439307"
 landingContent:
 - title: ผู้สร้างการตัดสินใจทางธุรกิจ
@@ -58,13 +58,13 @@ landingContent:
       url: learning-catalog-data-analyst.md#case-studies
     - text: แดชบอร์ด
       url: learning-catalog-data-analyst.md#dashboards
-    - text: การแสดงผลข้อมูลด้วยภาพ
+    - text: 'การจัดรูปแบบการแสดงข้อมูล '
       url: learning-catalog-data-analyst.md#visualizations
     - text: การกำกับดูแล และการปรับใช้งาน
       url: learning-catalog-data-analyst.md#governance-deployment
     - text: การรวม
       url: learning-catalog-data-analyst.md#integration
-    - text: ความปลอดภัย
+    - text: การรักษาความปลอดภัย
       url: learning-catalog-data-analyst.md#security
 - title: ผู้ดูแลระบบ
   linkLists:
@@ -114,9 +114,9 @@ landingContent:
       url: learning-catalog-functional-consultant.md#governance-deployment
     - text: การรวม
       url: learning-catalog-functional-consultant.md#integration
-    - text: ความปลอดภัย
+    - text: การรักษาความปลอดภัย
       url: learning-catalog-functional-consultant.md#security
-    - text: การแสดงผลข้อมูลด้วยภาพ
+    - text: 'การจัดรูปแบบการแสดงข้อมูล '
       url: learning-catalog-functional-consultant.md#visualizations
 - title: สถาปนิกด้านการหาทางออกของปัญหา
   linkLists:
@@ -128,5 +128,5 @@ landingContent:
       url: learning-catalog-solution-architect.md#get-started
     - text: กรณีศึกษา
       url: learning-catalog-solution-architect.md#case-studies
-    - text: ประสิทธิภาพการทำงาน
+    - text: ประสิทธิภาพ
       url: learning-catalog-solution-architect.md#performance

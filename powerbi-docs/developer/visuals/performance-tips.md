@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
 ms.openlocfilehash: 7ebc02b2c459517957425e78438e12e89dc2e1bb
-ms.sourcegitcommit: 1059c6222458f189fb5301dcb689dad2b2c00bc1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/28/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82196571"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>วิธีการสร้างวิชวล Power BI ประสิทธิภาพสูง
@@ -102,7 +102,7 @@ ms.locfileid: "82196571"
 สำหรับข้อมูลเพิ่มเติม โปรดดู [youmightnotneedjquery.com](http://youmightnotneedjquery.com/) สำหรับตัวอย่างทางเลือกในฟังก์ชันเช่น `show`, `hide`, `addClass` ของ JQuery และอื่นๆ อีกมากมาย  
 
 ### <a name="use-canvas-or-webgl"></a>ใช้พื้นที่ทำงานหรือ WebGL 
-สำหรับการใช้ภาพเคลื่อนไหวซ้ำ ให้พิจารณาการใช้ **พื้นที่ทำงานห**รือ **WebGL** แทนที่จะเป็น SVG ซึ่งแตกต่างจาก SVG เพราะว่าประสิทธิภาพการทำงานของตัวเลือกเหล่านี้จะถูกกำหนดโดยขนาดแทนที่จะเป็นเนื้อหา 
+สำหรับการใช้ภาพเคลื่อนไหวซ้ำ ให้พิจารณาการใช้ **พื้นที่ทำงาน**หรือ **WebGL** แทนที่จะเป็น SVG ซึ่งแตกต่างจาก SVG เพราะว่าประสิทธิภาพการทำงานของตัวเลือกเหล่านี้จะถูกกำหนดโดยขนาดแทนที่จะเป็นเนื้อหา 
 
 คุณสามารถอ่านเพิ่มเติมเกี่ยวกับความแตกต่างใน [SVG กับ พื้นที่ทำงาน: วิธีการเลือก](https://msdn.microsoft.com/library/gg193983(v=vs.85).aspx) 
 

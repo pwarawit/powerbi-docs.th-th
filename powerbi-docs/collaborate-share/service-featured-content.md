@@ -10,10 +10,10 @@ ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79496274"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>แสดงเนื้อหาในส่วนแนะนำในหน้าแรกของ Power BI ของเพื่อนร่วมงาน
@@ -46,7 +46,7 @@ ms.locfileid: "79496274"
 
     :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="การตั้งค่าเนื้อหาที่แนะนำ":::
 
-4. เลือก**บันทึก**
+4. เลือก **บันทึก**
 
     ในตอนนี้ผู้ใช้ทุกคนซึ่งมีสิทธิ์เข้าถึงแดชบอร์ดหรือรายงานนี้ จะเห็นเนื้อหาในส่วน**ที่แนะนำ**บน**หน้าหลัก**
 
@@ -60,5 +60,5 @@ ms.locfileid: "79496274"
 
 * [ฉันควรทำงานร่วมกัน และแชร์แดชบอร์ดและรายงานได้อย่างไร](../service-how-to-collaborate-distribute-dashboards-reports.md)
 * [จัดการเนื้อหาที่แนะนำในพอร์ทัลผู้ดูแลระบบ](../service-admin-portal.md#manage-featured-content)
-* มีคำถามหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+* มีคำถามหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

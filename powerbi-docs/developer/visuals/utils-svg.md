@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
 ms.openlocfilehash: aa1ac8074e842a51b369c48f57c4b5016a80140c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377983"
 ---
 # <a name="svg-utils"></a>ยูทิลิตี้ SVG
@@ -438,7 +438,7 @@ Rect.bottomLeft({ left: 25, top: 25, width: 100, height: 100 });
 function bottomRight(rect: IRect): IPoint;
 ```
 
-### <a name="example"></a>ตัวอย่าง:
+### <a name="example"></a>ตัวอย่าง
 
 ```typescript
 import { shapes } from "powerbi-visuals-utils-svgutils";

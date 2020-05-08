@@ -1,5 +1,5 @@
 ---
-title: Always Encrypted ในเซิร์ฟเวอร์รายงาน Power BI
+title: 'Always Encrypted ในเซิร์ฟเวอร์รายงาน Power BI '
 description: บทความนี้จะขยายความการรองรับ Always Encrypted ในเซิร์ฟเวอร์รายงาน Power BI เมื่อใช้แหล่งข้อมูลชนิด Microsoft SQL Server และฐานข้อมูล Microsoft Azure SQL
 author: maggiesMSFT
 ms.reviewer: cfinlan
@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
 ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76710217"
 ---
-# <a name="always-encrypted-in-power-bi-report-server"></a>Always Encrypted ในเซิร์ฟเวอร์รายงาน Power BI
+# <a name="always-encrypted-in-power-bi-report-server"></a>Always Encrypted ในเซิร์ฟเวอร์รายงาน Power BI 
 
 บทความนี้จะขยายความการรองรับ Always Encrypted ในเซิร์ฟเวอร์รายงาน Power BI เมื่อใช้แหล่งข้อมูลชนิด Microsoft SQL Server และฐานข้อมูล Microsoft Azure SQL สำหรับข้อมูลเพิ่มเติมเกี่ยวกับความสามารถของ Always Encrypted ใน SQL Server ให้ดูที่บทความ [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine)
 
-## <a name="always-encrypted-user-isolation"></a>การแยกผู้ใช้ของ Always Encrypted
+## <a name="always-encrypted-user-isolation"></a>การแยกผู้ใช้ของ Always Encrypted 
 
 ในขณะนี้ เซิร์ฟเวอร์รายงาน Power BI ไม่จำกัดการเข้าถึงคอลัมน์ Always Encrypted ในรายงานถ้าผู้ใช้มีสิทธิ์ในการเข้าถึงรายงาน  ดังนั้นหากเซิร์ฟเวอร์ได้รับอนุญาตให้เข้าถึงคีย์การเข้ารหัสของคอลัมน์ผ่านคีย์หลักของคอลัมน์ ผู้ใช้จะสามารถเข้าถึงคอลัมน์ทั้งหมดสำหรับรายงานที่พวกเขาสามารถเข้าถึงได้
 

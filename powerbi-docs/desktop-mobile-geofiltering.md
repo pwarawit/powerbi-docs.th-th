@@ -9,10 +9,10 @@ ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
 ms.openlocfilehash: b30310f78dca919474baf6d5870294bfc05dcacf
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761007"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>ตั้งค่าตัวกรองทางภูมิศาสตร์ใน Power BI Desktop สำหรับใช้ในแอปบนอุปกรณ์เคลื่อนที่

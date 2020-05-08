@@ -10,10 +10,10 @@ ms.date: 12/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: aa05ffa7ba07ea1daf162f8ebb2baa3d18f64b29
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75256367"
 ---
 # <a name="migrate-your-subscription-to-the-new-go-local-german-regions"></a>ย้ายการสมัครใช้งาน Power BI ของคุณไปยังภูมิภาคภาษาเยอรมัน "ไปในท้องถิ่น" ใหม่
