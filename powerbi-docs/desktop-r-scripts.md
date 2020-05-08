@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 358a61c13418bd29a9e83ed7029e8b90f9a5988e
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76161577"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>เรียกใช้สคริปต์ R ใน Power BI Desktop
@@ -61,13 +61,13 @@ ms.locfileid: "76161577"
 
 ![ตัวเลือกสคริปต์ R กล่องข้อความตัวเลือก Power BI Desktop](media/desktop-r-scripts/r-scripts-4.png)
 
-### <a name="refresh"></a>รีเฟรช
+### <a name="refresh"></a>Refresh
 
 คุณสามารถรีเฟรชสคริปต์ R ใน Power BI Desktop เมื่อคุณรีเฟรชสคริปต์ R, Power BI Desktop เรียกใช้สคริปต์ R อีกครั้งในสภาพแวดล้อมของ Power BI Desktop
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-ดูข้อมูลเพิ่มเติมเกี่ยวกับ R ใน Power BI ได้ในบทความต่อไปนี้
+ดูข้อมูลเพิ่มเติมเกี่ยวกับ R ใน Power BI
 
 * [สร้างภาพ Power BI ที่ใช้ R](desktop-r-visuals.md)
 * [ใช้ R IDE ภายนอกกับ Power BI](desktop-r-ide.md)

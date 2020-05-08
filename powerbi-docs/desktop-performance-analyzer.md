@@ -10,10 +10,10 @@ ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76709772"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>ใช้ตัววิเคราะห์ประสิทธิภาพในการตรวจสอบประสิทธิภาพขององค์ประกอบรายงาน
@@ -38,7 +38,7 @@ ms.locfileid: "76709772"
 
 เมื่อต้องการให้ตัววิเคราะห์ประสิทธิภาพเริ่มต้นการบันทึก เพียงแค่เลือก **เริ่มการบันทึก**
 
-![เริ่มบันทึก](media/desktop-performance-analyzer/performance-analyzer-03.png)
+![เริ่มการบันทึก](media/desktop-performance-analyzer/performance-analyzer-03.png)
 
 การดำเนินการใดก็ตามที่คุณทำในรายงานจะแสดงขึ้นและบันทึกในบานหน้าต่างตัววิเคราะห์ประสิทธิภาพตามลำดับที่มีการโหลดวิชวลโดย Power BI ตัวอย่างเช่น คุณอาจมีรายงานที่ผู้ใช้แจ้งว่าการรีเฟรชใช้เวลานาน หรือการแสดงวิชวลในรายงานบางวิชวลใช้เวลานานเมื่อมีการปรับแถบเลื่อน ตัววิเคราะห์ประสิทธิภาพสามารถบอกคุณได้ว่าวิชวลใดเป็นสาเหตุ และระบุลักษณะของวิชวลที่ใช้เวลานานที่สุดในการดำเนินการ 
 
@@ -86,11 +86,11 @@ ms.locfileid: "76709772"
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ **Power BI Desktop** และวิธีการเริ่มต้นใช้งาน ตรวจสอบบทความต่อไปนี้
 
 * [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
-* [ภาพรวมคิวรี่กับ Power BI Desktop](desktop-query-overview.md)
+* [ภาพรวมคิวรี ด้วย Power BI Desktop](desktop-query-overview.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
 * [เชื่อมต่อกับข้อมูลใน Power BI Desktop](desktop-connect-to-data.md)
-* [จัดรูปร่างและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
-* [งานคิวรี่ที่ใช้บ่อยใน Power BI Desktop](desktop-common-query-tasks.md)   
+* [จัดรูปทรง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [งานคิวรี่ทั่วไปใน Power BI Desktop](desktop-common-query-tasks.md)   
 
 สำหรับข้อมูลเกี่ยวกับตัวอย่างตัววิเคราะห์ประสิทธิภาพ ให้ดูแหล่งข้อมูลต่อไปนี้
 

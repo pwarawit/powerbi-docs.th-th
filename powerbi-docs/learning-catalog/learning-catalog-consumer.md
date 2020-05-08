@@ -7,10 +7,10 @@ ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
 ms.openlocfilehash: ba29698354116a02da3ff392347e0713cdf1e8a2
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268431"
 ---
 # <a name="consumers-learning-catalog"></a>แค็ตตาล็อกการเรียนรู้ของผู้บริโภค
@@ -24,4 +24,4 @@ ms.locfileid: "81268431"
 |--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-------------------|
 | [ใช้ข้อมูลด้วย Power BI](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/) | คุณต้องการตัดสินใจทางธุรกิจโดยใช้ข้อมูลใช่หรือไม่ เรียนรู้วิธีดำเนินการใน Power BI เรียนรู้เพื่อทำงานใน Power BI เพื่อตรวจสอบและโต้ตอบกับเนื้อหานี้เพื่อตัดสินใจทางธุรกิจ | ฟรี เส้นทางการเรียนรู้ออนไลน์ด้วยตนเอง | 2 ชม. 9 น.  |
 | [ช่อง YouTube ของ Microsoft Power BI](https://www.youtube.com/user/mspowerbi/videos) | ช่อง YouTube ที่มีเนื้อหาจากทีมผลิตภัณฑ์ Power BI ของ Microsoft  | วิดีโอ  |            |
-| [Power BI คืออะไร](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview) | ภาพรวมของ Power BI | เว็บไซต์  | 3 นาทีในการอ่าน |
+| [Power BI คืออะไร](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview) | ภาพรวมของ Power BI | {1}เว็บไซต์{2}  | 3 นาทีในการอ่าน |

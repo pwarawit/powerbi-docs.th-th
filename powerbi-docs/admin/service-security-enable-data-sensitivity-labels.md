@@ -10,10 +10,10 @@ ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76537243"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>เปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI (แสดงตัวอย่าง)
@@ -60,9 +60,9 @@ Power BI ใช้ป้ายชื่อระดับความลับ M
 * ไม่มีการโยกย้ายป้ายชื่อระดับความลับไปยังเวอร์ชัน Microsoft Information Protection ที่สนับสนุนโดย Power BI เรียนรู้เพิ่มเติมเกี่ยวกับ [การโยกย้ายป้ายชื่อระดับความลับ](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 * ไม่ได้มีการกำหนดป้ายชื่อระดับความลับ Microsoft Information Protection ในองค์กร นอกจากนี้ป้ายชื่อจะต้องเป็นส่วนหนึ่งของนโยบายที่เผยแพร่แล้ว จึงจะสามารถใช้ได้ [เรียนรู้เพิ่มเติมเกี่ยวกับป้ายชื่อระดับความลับ](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels) หรือเยี่ยมชม [ศูนย์ความปลอดภัยและการปฏิบัติตามข้อกำหนดของ Microsoft](https://sip.protection.office.com/sensitivity?flight=EnableMIPLabels) เพื่ออ่านข้อมูลเกี่ยวกับวิธีการกำหนดป้ายชื่อและเผยแพร่นโยบายสำหรับองค์กรของคุณ
 
-## <a name="licensing"></a>สิทธิ์การใช้งาน
+## <a name="licensing"></a>การมอบสิทธิ์การใช้งาน
 
-* เมื่อต้องการดูหรือใช้ป้ายชื่อระดับความลับ Microsoft Information Protection ใน Power BI ผู้ใช้ต้องมีสิทธิ์การใช้งานของ Azure Information Protection แบบ Premium P1 หรือ Premium P2 คุณสามารถซื้อ Microsoft Azure Information Protection แบบสแตนด์อโลนหรือผ่านหนึ่งในชุดโปรแกรมการอนุญาตให้ใช้สิทธิของ Microsoft ได้ โปรดดู [การกำหนดราคา Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) สำหรับรายละเอียด
+* เมื่อต้องการดูหรือใช้ป้ายชื่อระดับความลับ Microsoft Information Protection ใน Power BI ผู้ใช้ต้องมีสิทธิ์การใช้งานของ Azure Information Protection แบบ Premium P1 หรือ Premium P2 สามารถซื้อ Microsoft Azure Information Protection แบบสแตนด์อโลนหรือผ่านหนึ่งในชุดโปรแกรมสิทธิ์การใช้งานของ Microsoft ได้ โปรดดู [การกำหนดราคา Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) สำหรับรายละเอียด
 * ผู้ใช้ที่จำเป็นต้องใช้ป้ายชื่อบนแอสเซท Power BI ต้องมีสิทธิ์การใช้งาน Power BI Pro
 
 

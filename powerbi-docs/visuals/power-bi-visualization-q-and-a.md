@@ -1,6 +1,6 @@
 ---
-title: ใช้วิชวลถามตอบของ Power BI
-description: วิธีการตั้งค่าวิชวลถามตอบของ Power BI
+title: 'ใช้วิชวลถามตอบของ Power BI '
+description: 'วิธีการตั้งค่าวิชวลถามตอบของ Power BI '
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
 ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762289"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>บทนำเกี่ยวกับการแสดงภาพถามตอบของ Power BI
@@ -96,7 +96,7 @@ ms.locfileid: "75762289"
 
 7.  เพิ่มวิชวลเพิ่มเติมในหน้ารายงานและดูว่าวิชวลถามตอบ (Q&A) โต้ตอบกับวิชวลอื่น ๆ ในหน้าได้อย่างไร ในตัวอย่างนี้ วิชวลถามตอบ (Q&A) ได้กรองแผนภูมิเส้นแบบกรองข้าม และแมปและไฮไลท์ข้ามแผนภูมิแท่ง
 
-    ![วิชวลถามตอบ (Q&A) ที่มีหนึ่งแถบถูกเลือก และส่งผลกระทบต่อวิชวลทั้งสามบนหน้ารายงาน](media/power-bi-visualization-q-and-a/power-bi-filters.png)
+    ![ วิชวลถามตอบ (Q&A) ที่มีหนึ่งแถบถูกเลือก และส่งผลกระทบต่อวิชวลทั้งสามบนหน้ารายงาน](media/power-bi-visualization-q-and-a/power-bi-filters.png)
 
 ## <a name="format-and-customize-the-qa-visual"></a>จัดรูปแบบและปรับแต่งวิชวลถามตอบ
 วิชวลถามตอบสามารถปรับแต่งได้โดยใช้บานหน้าต่างการจัดรูปแบบและโดยการใช้ธีม 

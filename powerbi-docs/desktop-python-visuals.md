@@ -10,10 +10,10 @@ ms.date: 04/03/2020
 ms.author: otarb
 LocalizationGroup: Create reports
 ms.openlocfilehash: 72c285fd57af21fcb3d1a4568a5ff2e83016072f
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979879"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>สร้างภาพของ Power BI โดยใช้ Python
@@ -54,7 +54,7 @@ print (df)
 
     - **ตัวแก้ไขสคริปต์ Python** ปรากฏขึ้นทางด้านล่างของบานหน้าต่างกลาง
 
-    ![เรียกใช้สคริปต์ในตัวแก้ไขสคริปต์ Python](media/desktop-python-visuals/python-visuals-3.png)
+    ![เรียกใช้สคริปต์ในตัวแก้ไขสคริปต์ Python ](media/desktop-python-visuals/python-visuals-3.png)
 
 1. จากนั้น ลากเขตข้อมูล**อายุ** **เด็ก** **Fname** **เพศ** **สัตว์เลี้ยง** **รัฐ** และ **น้ำหนัก** ไปยังส่วน **ค่า** ที่มีการระบุว่า **เพิ่มเขตข้อมูลที่นี่**
 
