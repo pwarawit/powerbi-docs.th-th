@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 4f289bf319bf29de8f8765d55bf3400048420af5
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76829063"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>ขนาดเกตเวย์ข้อมูลภายในองค์กร
@@ -46,7 +46,7 @@ ms.locfileid: "76829063"
 
 การเชื่อมต่อที่เชื่อถือได้ รวดเร็ว และสม่ำเสมอ เป็นสิ่งสำคัญที่ต้องตรวจสอบให้แน่ใจว่าผู้ใช้รายงานมีประสบการณ์ตอบสนองในลักษณะนี้
 
-![แผนผังจะแสดงเกตเวย์ข้อมูลภายในองค์กรที่เชื่อมต่อกับแหล่งที่มาภายในองค์กร:  ฐานข้อมูลแบบตารางและแบบความสัมพันธ์ใน Analysis Services เกตเวย์ทำงานส่วนใหญ่ในโหมดพาส-ทรู](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
+![แผนผังจะแสดงเกตเวย์ข้อมูลภายในองค์กรที่เชื่อมต่อกับแหล่งที่มาภายในองค์กร:  ฐานข้อมูลแบบตารางและแบบความสัมพันธ์ใน Analysis Services  เกตเวย์ทำงานส่วนใหญ่ในโหมดพาส-ทรู](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
 
 ## <a name="sizing-considerations"></a>ข้อควรพิจารณาเกี่ยวกับการปรับขนาด
 
@@ -83,7 +83,9 @@ ms.locfileid: "76829063"
 วางแผนสำหรับการเชื่อมต่อที่ดีที่สุดที่เป็นไปได้ระหว่างบริการของ Power BI กับเกตเวย์ของคุณ และเกตเวย์ของคุณกับแหล่งข้อมูล
 
 - มุ่งมั่นเพื่อความน่าเชื่อถือ ความรวดเร็ว และเวลาในการตอบสนองที่ต่ำและสม่ำเสมอ
+
 - กำจัด - หรือลด - การกระโดดของเครื่องระหว่างเกตเวย์และแหล่งข้อมูลของคุณ
+
 - ลบการควบคุมเครือข่ายใดๆ ที่กำหนดโดยเลเยอร์พร็อกซีไฟร์วอลล์ของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับจุดสิ้นสุด Power BI ดู [URL Power BI สำหรับการอนุญาตพิเศษ](../power-bi-whitelist-urls.md)
 - กำหนดค่า [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) เพื่อสร้างการเชื่อมต่อส่วนตัวที่มีการจัดการไปยัง Power BI
 - สำหรับแหล่งข้อมูลใน Azure VMs ตรวจสอบให้แน่ใจว่า VMs [colocate กับบริการของ Power BI](../service-admin-where-is-my-tenant-located.md)

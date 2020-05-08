@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78920834"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>หลีกเลี่ยงหน้าเปล่าเมื่อพิมพ์รายงานที่ระบุเลขหน้า
@@ -46,7 +46,7 @@ ms.locfileid: "78920834"
 
 สาเหตุทั่วไปที่ทำให้มีการแสดงหน้าเปล่าออกมา คือ เนื้อหารายงาน มีความกว้าง_เกินกว่าพื้นที่หน้าที่พร้อมใช้งาน_
 
-คุณสามารถดูและตั้งค่าความกว้างของเนื้อหารายงานได้เท่านั้นโดยใช้บานหน้าต่าง **คุณสมบัติ** อันดับแรก ให้คลิกที่ใดก็ได้ในพื้นที่ว่างของเนื้อหารายงาน
+คุณสามารถดูและตั้งค่าความกว้างของเนื้อหารายงานได้เท่านั้นโดยใช้บานหน้าต่าง **คุณสมบัติ**  อันดับแรก ให้คลิกที่ใดก็ได้ในพื้นที่ว่างของเนื้อหารายงาน
 
 ![รูปแสดงบานหน้าต่างคุณสมบัติการ โดยเน้นคุณสมบัติความกว้างของเนื้อหารายงาน](media/report-paginated-blank-page/report-body-properties-width.png)
 

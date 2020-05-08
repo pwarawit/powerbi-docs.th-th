@@ -35,7 +35,7 @@
           href: ../desktop-bidirectional-filtering.md
         - name: ทำงานกับแบบจำลองหลายมิติใน Power BI
           href: ../desktop-default-member-multidimensional-models.md
-    - name: คำแนะนำวิธีการ
+    - name: คู่มือวิธีใช้
       items:
         - name: ดำเนินงานคิวรีแบบทั่วไป
           href: ../desktop-common-query-tasks.md
@@ -103,7 +103,7 @@
               href: ../service-dataflows-azure-data-lake-integration.md
             - name: เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับการเก็บกระแสข้อมูล
               href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
-            - name: การตั้งค่าตัวเลขกระแสข้อมูลในพื้นที่ทำงาน (ดูตัวอย่าง)
+            - name: กำหนดค่าการตั้งค่ากระแสข้อมูลพื้นที่ทำงาน (ตัวอย่าง)
               href: ../service-dataflows-configure-workspace-storage-settings.md
             - name: เพิ่มโฟลเดอร์ CDM ไปยัง Power BI เป็นกระแสข้อมูล (ตัวอย่าง)
               href: ../service-dataflows-add-cdm-folder.md
@@ -111,7 +111,7 @@
               href: ../service-machine-learning-integration.md
             - name: ใช้ Cognitive Services ใน Power BI
               href: ../service-cognitive-services.md
-            - name: การเรียนรู้ของเครื่องอัตโนมัติใน Power BI
+            - name: 'การเรียนรู้ของเครื่องอัตโนมัติใน Power BI '
               href: ../service-machine-learning-automated.md
     - name: การอ้างอิง
       items:

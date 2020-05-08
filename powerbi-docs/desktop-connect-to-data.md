@@ -11,10 +11,10 @@ ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 751a53e2bfe0c9743a71cc41aa349afa23fd013a
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76539199"
 ---
 # <a name="connect-to-data-sources-in-power-bi-desktop"></a>เชื่อมต่อกับแหล่งข้อมูลใน Power BI Desktop
@@ -76,7 +76,7 @@ ms.locfileid: "76539199"
 * [จัดรูปร่างและรวมข้อมูลใน Power BI Desktop](desktop-shape-and-combine-data.md)
 * [ใช้งานคิวรีที่ใช้บ่อยใน Power BI Desktop](desktop-common-query-tasks.md)   
 
-ต้องการส่งคำติชมถึงเราหรือไม่ ดีเยี่ยม! ใช้รายการเมนู**ส่งความคิดเห็น**ใน Power BI Desktop หรือเยี่ยมชม[คำติชมชุมชน](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) เราหวังว่าจะได้รับคำติชมจากคุณ!
+ต้องการส่งคำติชมถึงเราหรือไม่ เยี่ยม! ใช้รายการเมนู**ส่งความคิดเห็น**ใน Power BI Desktop หรือเยี่ยมชม[คำติชมชุมชน](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback) เราหวังว่าจะได้รับคำติชมจากคุณ!
 
-![ส่งแนวความคิด](media/desktop-connect-to-data/sendfeedback.png)
+![นำส่งแนวความคิด](media/desktop-connect-to-data/sendfeedback.png)
 

@@ -16,7 +16,7 @@
           href: ../service-usage-metrics.md
         - name: ตรวจสอบการใช้ในพื้นที่ทำงานใหม่
           href: ../service-modern-usage-metrics.md
-    - name: คำแนะนำวิธีการ
+    - name: คู่มือวิธีใช้
       expanded: true
       items:
         - name: ทำงานร่วมกันใน Power BI

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/02/2020
 ms.author: maggies
 ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
-ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80647665"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>คำแนะนำในการวางแผนความจุสำหรับเวอร์รายงาน Power BI
@@ -41,7 +41,7 @@ ms.locfileid: "80647665"
 
 * Active Directory Domain Controller สิ่งนี้จำเป็นสำหรับ SQL Server Database Engine, SQL Server Analysis Services และเซิร์ฟเวอร์รายงาน Power BI เพื่อรับรองคำขอทั้งหมดได้อย่างปลอดภัย
 * SQL Server Database Engine and SQL Server Analysis Services นี่คือตำแหน่งที่เราจัดเก็บฐานข้อมูลทั้งหมดสำหรับรายงานที่จะใช้เมื่อเราแสดงผล
-* เซิร์ฟเวอร์รายงานของ Power BI
+* เซิร์ฟเวอร Power BI Report
 * ฐ่านข้อมูลเซิร์ฟเวอร์รายงานของ Power BI ฐานข้อมูลเซิร์ฟเวอร์รายงานถูกโฮสต์บนคอมพิวเตอร์มากเครื่องมากกว่าเซิร์ฟเวอร์รายงาน Power BI เพื่อให้ไม่จำเป็นเพื่อการแย่งหน่วยความจำของ SQL Server Database Engine CPU เครือข่าย และแหล่งข้อมูลบนดิสก์
 
 ![](media/capacity-planning/report-server-topology.png)
@@ -62,7 +62,7 @@ ms.locfileid: "80647665"
 > เครื่องมือนี้ไม่ได้รับการสนับสนุนอย่างเป็นทางการจาก Microsoft แต่ทีมผลิตภัณฑ์จะมีส่วนร่วมในโครงการและตอบปัญหาที่ผู้สนับสนุนรายอื่นแจ้งให้ทราบ
 
 ### <a name="workloads"></a>ปริมาณงาน
-มีโปรไฟล์ปริมาณงาน 2 ชุดที่ใช้ในการทดสอบ: รายงาน power BI Heavy และมีการแบ่งหน้ารายงาน Heavy ตารางด้านล่างนี้อธิบายเกี่ยวกับการแจกแจงคำขอที่ดำเนินการกับเซิร์ฟเวอร์รายงาน
+มีโปรไฟล์ปริมาณงาน 2 ตัว ที่ใช้ในการทดสอบ Power BI Report Heavy และ Paginated Report Heavy ตารางด้านล่างนี้อธิบายเกี่ยวกับการแจกแจงคำขอที่ดำเนินการกับเซิร์ฟเวอร์รายงาน
 
 | กิจกรรม | Power BI Report Heavy ความถี่ของการเกิดขึ้น | Paginated Report Heavy ความถี่ของการเกิดขึ้น |
 | --- | --- | --- |
@@ -91,7 +91,7 @@ ms.locfileid: "80647665"
 | **Power BI Report Heavy** |ผู้ใช้ 1000 ราย |ผู้ใช้ 3000 ราย |
 | **Paginated Report Heavy** |ผู้ใช้ 2000 ราย |ผู้ใช้ 3,200 ราย |
 
-## <a name="summary"></a>สรุป
+## <a name="summary"></a>ข้อมูลสรุป
 สำหรับแต่ละทดสอบการโหลดที่ทำ CPU ใช้ทรัพยากรมากที่สุดตรงจุดโหลดสูงสุดบนเครื่องเซิร์ฟเวอร์รายงาน Power BI เนื่องจากนี่ ทรัพยากรแรกที่ต้องการเพิ่มคือจำนวนของ core อีกวิธีหนึ่งคือ คุณสามารถพิจารณาขยาย โดยการเพิ่มโฮสต์เซิร์ฟเวอร์รายงาน Power BI ในโทโพโลยีของคุณ
 
 ผลลัพธ์นำเสนอในเอกสารนี้มาจากการดำเนินการกับชุดเฉพาะของรายงานที่ใช้ชุดข้อมูล ซึ่งถูกทำซ้ำในรูปแบบเฉพาะเจาะจง เป็นจุดอ้างอิงที่มีประโยชน์ แต่โปรดทราบว่าการใช้งานของคุณจะขึ้นอยู่กับรายงาน คิวรี่ รูปแบบการใช้ และการปรับใช้ของเซิร์ฟเวอร์รายงาน Power BI ของคุณ
@@ -105,7 +105,7 @@ ms.locfileid: "80647665"
 | ชนิดเครื่องเสมือน | ตัวประมวลผล | หน่วยความจำ | ขนาด azure VM |
 | --- | --- | --- | --- |
 | **Active Directory Domain Controller** |2 Cores |7 GB |Standard_DS2_v2 |
-| **SQL Server Database Engine and Analysis Services** |16 cores |56 GB |Standard_DS5_v2 |
+| **SQL Server Database Engine and Analysis Services** |16 Cores |56 GB |Standard_DS5_v2 |
 | **ฐานข้อมูลเซิร์ฟเวอร์รายงาน** |16 Cores |56 GB |Standard_DS5_v2 |
 
 **1.2 กำหนดค่าเครื่องเสมือนของเซิร์ฟเวอร์รายงาน BI power** 
