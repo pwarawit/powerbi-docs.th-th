@@ -11,10 +11,10 @@ ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75885267"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>สร้างวิชวลโครงข่ายของข้อมูลใน Power BI (ตัวอย่าง)
@@ -108,7 +108,7 @@ vs
 
 คุณสามารถมี AI ได้หลายระดับ นอกจากนี้คุณยังสามารถผสม  AI ระดับต่างๆ ได้ (จากค่าสูงไปหาค่าต่ำและกลับไปเป็นมูลค่าสูง): ![โครงข่ายของข้อมูล AI หลายเส้นทาง](media/power-bi-visualization-decomposition-tree/tree-multi-ai-path.png)
 
-หากคุณเลือกโหนดอื่นในโครงข่าย AI แยกจะคำนวณใหม่ตั้งแต่เริ่มต้น ในตัวอย่างด้านล่างเราเปลี่ยนโหนดที่เลือกในระดับ**การคาดการณ์อคติ** ระดับที่ตามมาจะเปลี่ยนเพื่อให้ได้ค่าที่สูงและต่ำที่ถูกต้อง![โครงสร้างการสลายตัวของต้นไม้ปฏิสัมพันธ์ของ AI](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
+หากคุณเลือกโหนดอื่นในโครงข่าย AI แยกจะคำนวณใหม่ตั้งแต่เริ่มต้น ในตัวอย่างด้านล่างเราเปลี่ยนโหนดที่เลือกในระดับ**การคาดการณ์อคติ**  ระดับที่ตามมาจะเปลี่ยนเพื่อให้ได้ค่าที่สูงและต่ำที่ถูกต้อง![โครงสร้างการสลายตัวของต้นไม้ปฏิสัมพันธ์ของ AI](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
 
 ระดับ AI จะคำนวณอีกครั้งเมื่อคุณผ่านการกรองโครงข่ายของข้อมูลด้วยภาพอื่น ในตัวอย่างด้านล่างเราจะเห็นว่า % รายการค้าง ของเราสูงสุดสำหรับโรงงาน #0477
 

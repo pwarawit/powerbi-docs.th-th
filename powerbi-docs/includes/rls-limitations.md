@@ -5,10 +5,10 @@ ms.topic: include
 ms.date: 01/31/2020
 ms.author: davidi
 ms.openlocfilehash: b67025de5e2a70876a31fd42e22c9572403288fa
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464420"
 ---
 ## <a name="limitations"></a>ข้อจำกัด
@@ -21,7 +21,7 @@ ms.locfileid: "77464420"
 
 * สนับสนุนเฉพาะการนำเข้าและการเชื่อมต่อ DirectQuery เท่านั้น Live connection ไปถึง Analysis Services ได้รับการจัดการในแบบจำลองแบบภายในองค์กร
 
-## <a name="known-issues"></a>รับทราบปัญหาแล้ว
+## <a name="known-issues"></a>ปัญหาที่ทราบแล้ว
 
 มีปัญหาที่รู้จัก ที่คุณจะได้รับข้อความแสดงข้อผิดพลาด หากคุณพยายามเผยแพร่รายงานที่เผยแพร่แล้วก่อนหน้านี้จาก Power BI Desktop ต่อไปนี้คือสถานการณ์สมมติ:
 
@@ -31,4 +31,4 @@ ms.locfileid: "77464420"
 
 1. Anna ได้รับข้อผิดพลาด
 
-**แก้ไขปัญหาชั่วคราว:** เผยแพร่ไฟล์ Power BI Desktop จากบริการ Power BI อีกครั้งจนกว่าปัญหานี้ได้รับการแก้ไข คุณสามารถทำได้โดยการเลือก **รับข้อมูล** > **ไฟล์**
+**วิธีแก้ปัญหา:** เผยแพร่ไฟล์ Power BI Desktop จากบริการ Power BI อีกครั้งจนกว่าปัญหานี้ได้รับการแก้ไข คุณสามารถทำได้โดยการเลือก **รับข้อมูล** > **ไฟล์**

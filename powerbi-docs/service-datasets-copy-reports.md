@@ -10,10 +10,10 @@ ms.date: 01/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76268862"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>คัดลอกรายงานจากพื้นที่ทำงานอื่น ๆ (ดูตัวอย่าง)
@@ -41,7 +41,7 @@ ms.locfileid: "76268862"
 
     คุณสามารถบันทึกรายงานไว้ในพื้นที่ทำงานปัจจุบันหรือที่อื่นในบริการของ Power BI คุณเห็นเฉพาะพื้นที่ทำงานที่เป็นพื้นที่ทำงานประสบการณ์ใหม่ ซึ่งคุณเป็นสมาชิกเท่านั้น 
   
-4. เลือก**บันทึก**
+4. เลือก **บันทึก**
 
     Power BI จะสร้างสำเนาของรายงานและรายการต่างๆ ในรายการของชุดข้อมูลโดยอัตโนมัติ หากรายงานนั้นอ้างอิงจากชุดข้อมูลที่อยู่ภายนอกพื้นที่ทำงาน ไอคอนสำหรับชุดข้อมูลนี้จะแตกต่างจากไอคอนสำหรับชุดข้อมูลในพื้นที่ทำงาน: ![ไอคอนชุดข้อมูลที่ใช้ร่วมกัน](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
     
@@ -107,4 +107,4 @@ ms.locfileid: "76268862"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [ใช้ชุดข้อมูลทั้งพื้นที่ทำงาน (ดูตัวอย่าง)](service-datasets-across-workspaces.md)
-- มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+- มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)

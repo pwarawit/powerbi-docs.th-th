@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
 ms.openlocfilehash: a18e0a094c5bc42f7a77a045ac7b552e458e5628
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78919844"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>ติดตั้งตัวสร้างรายงาน - เซิร์ฟเวอร์รายงาน Power BI
@@ -23,7 +23,7 @@ ms.locfileid: "78919844"
   
 โดยทั่วไป ผู้ดูแลระบบจะติดตั้งและกำหนดค่าเซิร์ฟเวอร์รายงาน Power BI อนุญาตการดาวน์โหลดตัวสร้างรายงานจากพอร์ทัลเว็บ และจัดการโฟลเดอร์และสิทธิ์อนุญาตต่างๆ ไปยังรายงาน และชุดข้อมูลที่ใช้ร่วมกันที่บันทึกไปยังเซิร์ฟเวอร์รายงาน สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการดูแลระบบเซิร์ฟเวอร์รายงาน Power BI ดู [ภาพรวมผู้ดูแลระบบ, เซิร์ฟเวอร์รายงาน Power BI](admin-handbook-overview.md)  
   
-## <a name="system-requirements"></a>ความต้องการของระบบ
+## <a name="system-requirements"></a>ข้อกำหนดของระบบ
   
  ดูส่วน **ความต้องการของระบบ** ของ [หน้าดาวน์โหลดตัวสร้างรายงาน](https://go.microsoft.com/fwlink/?LinkID=734968) ในศูนย์ดาวน์โหลดของ Microsoft
  
@@ -46,7 +46,7 @@ ms.locfileid: "78919844"
     ![หน้าจอชุดข้อมูลหรือรายงานใหม่](media/quickstart-create-paginated-report/reportserver-paginated-new-report-screen.png)
  
 
-##  <a name="download"></a> ติดตั้งตัวสร้างรายงานจากศูนย์ดาวน์โหลด  
+##  <a name="install-report-builder-from-the-download-center"></a><a name="download"></a> ติดตั้งตัวสร้างรายงานจากศูนย์ดาวน์โหลด  
   
 1.  บน [หน้าตัวสร้างรายงานของศูนย์ดาวน์โหลดของ Microsoft](https://go.microsoft.com/fwlink/?LinkID=734968) เลือก **ดาวน์โหลด**  
   
