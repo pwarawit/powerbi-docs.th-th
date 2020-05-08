@@ -10,10 +10,10 @@ ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: ab171f81224c3c6cf90070bf221e6b93285d8caa
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006422"
 ---
 # <a name="apply-data-sensitivity-labels-in-power-bi-preview"></a>ใช้ป้ายชื่อระดับความลับใน Power BI (ตัวอย่าง)
@@ -34,7 +34,7 @@ ms.locfileid: "81006422"
 * องค์กรของคุณต้องกำหนดป้ายชื่อระดับความลับใน [ศูนย์ความปลอดภัยของ Microsoft 365](https://security.microsoft.com/) หรือ [ศูนย์การปฏิบัติตามข้อบังคับ Microsoft 365](https://compliance.microsoft.com/)
 * คุณต้องเป็นสมาชิกของกลุ่มความปลอดภัยที่มีสิทธิ์ใช้ป้ายชื่อระดับความลับของข้อมูลตามที่อธิบายไว้ในบทความชื่อ [เปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI (ตัวอย่าง)](../admin/service-security-enable-data-sensitivity-labels.md#enable-data-sensitivity-labels)
 * คุณต้องมีสิทธิ์การใช้งาน Power BI Pro และสิทธิ์แก้ไขบนแหล่งข้อมูลที่คุณต้องการติดป้ายชื่อ 
-* คุณต้องมีสิทธิ์การใช้งานของ Azure Information Protection แบบ Premium P1 หรือ Premium P2 คุณสามารถซื้อ Microsoft Azure Information Protection แบบสแตนด์อโลนหรือผ่านหนึ่งในชุดโปรแกรมการอนุญาตให้ใช้สิทธิของ Microsoft ได้ โปรดดู [การกำหนดราคา Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) สำหรับรายละเอียด
+* คุณต้องมีสิทธิ์การใช้งานของ Azure Information Protection แบบ Premium P1 หรือ Premium P2 สามารถซื้อ Microsoft Azure Information Protection แบบสแตนด์อโลนหรือผ่านหนึ่งในชุดโปรแกรมสิทธิ์การใช้งานของ Microsoft ได้ โปรดดู [การกำหนดราคา Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) สำหรับรายละเอียด
 
 เมื่อต้องการใช้หรือเปลี่ยนป้ายชื่อระดับความลับในรายงาน ให้คลิกไอคอนการตั้งค่ารายงานบนรายการพื้นที่ทำงาน แล้วไปที่ส่วนความลับของข้อมูลในบานหน้าต่างการตั้งค่าด้านข้าง เลือกป้ายชื่อระดับความลับที่เหมาะสมและบันทึกการตั้งค่า
 
@@ -71,7 +71,7 @@ ms.locfileid: "81006422"
 
 การใช้ป้ายชื่อระดับความลับของข้อมูลมีข้อควรพิจารณาดังต่อไปนี้:
 
-* การดูหรือใช้ป้ายชื่อระดับความลับ Microsoft Information Protection ใน Power BI ต้องมีสิทธิ์การใช้งานของ Azure Information Protection แบบ Premium P1 หรือ Premium P2 คุณสามารถซื้อ Microsoft Azure Information Protection แบบสแตนด์อโลนหรือผ่านหนึ่งในชุดโปรแกรมการอนุญาตให้ใช้สิทธิของ Microsoft ได้ โปรดดู [การกำหนดราคา Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) สำหรับรายละเอียด
+* การดูหรือใช้ป้ายชื่อระดับความลับ Microsoft Information Protection ใน Power BI ต้องมีสิทธิ์การใช้งานของ Azure Information Protection แบบ Premium P1 หรือ Premium P2 สามารถซื้อ Microsoft Azure Information Protection แบบสแตนด์อโลนหรือผ่านหนึ่งในชุดโปรแกรมสิทธิ์การใช้งานของ Microsoft ได้ โปรดดู [การกำหนดราคา Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) สำหรับรายละเอียด
 * ป้ายชื่อระดับความลับสามารถใช้ได้เฉพาะบนแดชบอร์ด รายงาน ชุดข้อมูล และกระแสข้อมูลเท่านั้น
 * การบังคับใช้ตัวควบคุมการป้องกันและป้ายชื่อบนไฟล์ที่ส่งออกจะรองรับเฉพาะไฟล์ Excel, PowerPoint และ PDF เท่านั้น การป้องกันและป้ายชื่อไม่ได้มีการบังคับใช้เมื่อมีการส่งออกข้อมูลเป็นไฟล์ CSV สมัครใช้งานอีเมล วิชวลแบบฝังตัว และการพิมพ์
 * ผู้ใช้ที่ส่งออกไฟล์จาก Power BI มีสิทธิ์ในการเข้าถึงและการแก้ไขไฟล์นั้นตามการตั้งค่าป้ายชื่อระดับความลับ ผู้ใช้ที่ส่งออกข้อมูลไม่ได้รับสิทธิ์การเป็นเจ้าของสำหรับไฟล์ดังกล่าว 

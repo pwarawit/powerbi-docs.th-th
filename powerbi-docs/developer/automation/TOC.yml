@@ -32,7 +32,7 @@
               href: api-dataset-properties.md
             - name: การกำหนดรุ่นแบบจำลองข้อมูล
               href: api-data-model-versioning.md
-    - name: วิธีการ
+    - name: วิธีใช้
       items:
         - name: กำหนดค่าข้อมูลประจำตัว
           href: configure-credentials.md

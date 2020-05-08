@@ -1,6 +1,6 @@
 ---
 title: รายงาน Power BI รีเฟรชตามกำหนดการในเซิร์ฟเวอร์รายงาน Power BI
-description: รายงาน Power BI สามารถเชื่อมต่อกับแหล่งข้อมูลต่างที่แตกต่างกันได้ ขึ้นอยู่กับวิธีการใช้ข้อมูล แหล่งข้อมูลที่แตกต่างกันพร้อมใช้งาน
+description: รายงาน Power BI สามารถเชื่อมต่อกับแหล่งข้อมูลต่างที่แตกต่างกันได้ ขึ้นอยู่กับวิธีการใช้ข้อมูล แหล่งข้อมูลที่แตกต่างกันสามารถใช้งานได้
 author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
 ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75837612"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>รายงาน Power BI รีเฟรชตามกำหนดการในเซิร์ฟเวอร์รายงาน Power BI
@@ -57,7 +57,7 @@ ms.locfileid: "75837612"
 ### <a name="memory-limits"></a>ขีดจำกัดหน่วยความจำ
 ปริมาณงานแบบดั้งเดิมสำหรับเซิร์ฟเวอร์รายงานเหมือนกับเว็บแอปพลิเคชัน ความสามารถในการอัปโหลดรายงานที่มีข้อมูลที่นำเข้า หรือ DirectQuery และความสามารถในการดำเนินการรีเฟรชตามกำหนดการ ขึ้นอยู่กับอินสแตนซ์ Analysis Services ที่ถูกโฮสต์ควบคู่ไปกับเซิร์ฟเวอร์รายงาน จากผลที่ได้อาจทำให้เกิดความดันหน่วยความจำที่ไม่คาดคิดบนเซิร์ฟเวอร์ วางแผนการใช้งานเซิร์ฟเวอร์ของคุณให้สอดคล้องกับ Analysis Services ที่อาจจะสามารถใช้หน่วยความจำควบคู่ไปกับเซิร์ฟเวอร์รายงาน
 
-สำหรับข้อมูลเกี่ยวกับวิธีการตรวจสอบอินสแตนซ์ Analysis Services ดูที่[ตรวจสอบอินสแตนซ์ Analysis Services](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance)
+สำหรับข้อมูลเกี่ยวกับวิธีการตรวจสอบอินสแตนซ์ Analysis Services ดู[ตรวจสอบอินสแตนซ์ Analysis Services](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance)
 
 สำหรับข้อมูลเกี่ยวกับการตั้งค่าหน่วยความจำภายใน Analysis Services ดู[คุณสมบัติหน่วยความจำ](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)
 

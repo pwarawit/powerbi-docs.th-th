@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
 ms.openlocfilehash: 5a3cfb7ea9c9f398193b45652aa43c6b83c8f70b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378006"
 ---
 # <a name="type-utils"></a>ยูทิลิตี้ชนิด
@@ -34,7 +34,7 @@ npm ติดตั้ง powerbi-visuals-utils-typeutils --บันทึก �
 
 ### <a name="pow10"></a>pow10
 
-ฟังก์ชันคืนค่ายกกำลัง 10
+ฟังก์ชันคืนค่ายกกำลัง 10 
 
 ```typescript
 function pow10(exp: number): number;

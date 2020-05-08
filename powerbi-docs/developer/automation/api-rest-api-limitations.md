@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 5f4067e77631f22951844c0d4d64b06e5e2e30cc
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79079588"
 ---
 # <a name="power-bi-rest-api-limitations"></a>ข้อจำกัดของ Power BI REST API  
@@ -30,7 +30,7 @@ ms.locfileid: "79079588"
 * สามารถเก็บแถวได้สูงสุด 5,000,000 แถวต่อ 1 ตารางในชุดข้อมูลที่ชื่อ ' ไม่มีข้อบังคับสำหรับการเก็บข้อมูล'  
 * ขั้นตอนการโพสต์แถวอนุญาตให้มีเพียง 4000 ตัวอักษรต่อค่าตัวเลขในสตริงคอลัมน์
   
-## <a name="see-also"></a>อาจดูได้จาก
+## <a name="see-also"></a>ดูเพิ่มเติมที่
 
 * [ข้อจำกัดและข้อปฏิบัติของบริการ Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-service-limits-restrictions)   
 * [ภาพรวมของ Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
