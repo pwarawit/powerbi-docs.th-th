@@ -11,10 +11,10 @@ ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: efa5acbe70ea4541c2f9819d5260cb662ca0adac
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637877"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>แนะนำไทล์แดชบอร์ดสำหรับนักออกแบบ Power BI
@@ -41,7 +41,7 @@ ms.locfileid: "81637877"
 * [รายงาน](service-dashboard-pin-tile-from-report.md)
 * [แดชบอร์ดอื่น](service-pin-tile-to-another-dashboard.md)
 * [สมุดงาน Excel บน OneDrive for Business](service-dashboard-pin-tile-from-excel.md)
-* [Quick Insights (ข้อมูลเชิงลึกด่วน)](service-insights.md)
+* [ข้อมูลเชิงลึกด่วน](service-insights.md)
 * [รายงานที่มีการแบ่งหน้าภายในองค์กรในเซิร์ฟเวอร์รายงาน Power BI หรือ SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 คุณสามารถสร้างไทล์แบบเดี่ยวสำหรับรูปภาพ กล่องข้อความ วิดีโอ ข้อมูลสตรีมมิ่ง และเนื้อหาบนเว็บได้โดยตรงบนแดชบอร์ดโดยใช้ตัวควบคุม [เพิ่มไทล์](service-dashboard-add-widget.md)
@@ -96,7 +96,7 @@ ms.locfileid: "81637877"
 - [สร้างการ์ด (ไทล์ตัวเลขขนาดใหญ่) สำหรับแดชบอร์ดของคุณ](power-bi-visualization-card.md)
 - [บทนำแดชบอร์ดสำหรับนักออกแบบ Power BI](service-dashboards.md)  
 - [การรีเฟรชข้อมูลใน Power BI](refresh-data.md)
-- [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
+- [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](service-basic-concepts.md)
 - [การรวมไทล์ Power BI ลงในเอกสาร Office](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [ปักหมุดรายการ Reporting Services ไปยังแดชบอร์ด Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
 

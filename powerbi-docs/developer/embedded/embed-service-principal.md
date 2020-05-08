@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
 ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
-ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80751634"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>การฝังเนื้อหา Power BI ด้วยบริการหลักและความลับของแอปพลิเคชัน
@@ -33,7 +33,7 @@ ms.locfileid: "80751634"
     2. รับ *รหัสแอปพลิเคชัน* และ *ความลับของแอปพลิเคชัน* ของแอป
 
     >[!NOTE]
-    >ขั้นตอนเหล่านี้จะอธิบายไว้ใน **ขั้นตอนที่ 1** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสร้างแอป Azure AD โปรดดูบทความ [สร้างแอป Azure AD](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    >ขั้นตอนเหล่านี้จะอธิบายไว้ใน **ขั้นตอนที่ 1** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสร้างแอป Azure AD โปรดดูบทความ [สร้างแอป Azure AD](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal) 
 
 2. สร้างกลุ่มความปลอดภัย Azure AD
 
@@ -75,7 +75,7 @@ ms.locfileid: "80751634"
 
     ![รหัสแอปพลิเคชัน](media/embed-service-principal/application-id.png)
 
-7. คลิกแท็บ **ใบรับรองและความลับ**
+7. คลิกแท็บ **ใบรับรองและความลับ** 
 
      ![รหัสแอปพลิเคชัน](media/embed-service-principal/certificates-and-secrets.png)
 
@@ -117,6 +117,7 @@ $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
 ## <a name="step-2---create-an-azure-ad-security-group"></a>ขั้นตอนที่ 2 - สร้างกลุ่มความปลอดภัย Azure AD
 
 บริการหลักของคุณไม่มีสิทธิ์ในการเข้าถึงเนื้อหา Power BI และ API ของคุณ ในการให้สิทธิ์การเข้าถึงบริการหลัก ให้สร้างกลุ่มความปลอดภัยใน Azure AD และเพิ่มบริการหลักที่คุณสร้างไว้ในกลุ่มความปลอดภัยนั้น
+
 
 มีสองวิธีในการสร้างกลุ่มความปลอดภัยใน Azure AD:
 * ด้วยตนเอง (ใน Azure)
@@ -172,7 +173,7 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
     ![ผู้ดูแลระบบพื้นที่ทำงาน](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
-## <a name="step-5---embed-your-content"></a>ขั้นตอนที่ 5 - ฝังเนื้อหาของคุณ
+## <a name="step-5---embed-your-content"></a>ขั้นตอนที่ 5 - ฝังเนื้อหาของคุณ 
 
 คุณสามารถฝังเนื้อหาของคุณภายในแอปพลิเคชันตัวอย่าง หรือภายในแอปพลิเคชันของคุณเอง
 
