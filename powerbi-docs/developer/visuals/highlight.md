@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
 ms.openlocfilehash: a472db6c6dcc1266a11e78d72ab8465df7682042
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114163"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>ไฮไลต์จุดข้อมูลใน Power BI Visuals
@@ -32,7 +32,7 @@ ms.locfileid: "80114163"
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>ไฮไลต์จุดข้อมูลด้วยการแมปมุมมองข้อมูลตามประเภท
 
-วิชวลที่มีการแมปมุมมองข้อมูลตามประเภทมี`capabilities.json`พร้อมด้วย`"supportsHighlight": true`พารามิเตอร์ ตัวอย่างเช่น:
+วิชวลที่มีการแมปมุมมองข้อมูลตามประเภทมี`capabilities.json`พร้อมด้วย`"supportsHighlight": true`พารามิเตอร์  ตัวอย่างเช่น:
 
 ```json
 {
@@ -275,7 +275,7 @@ div.value {
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>ไฮไลต์จุดข้อมูลด้วยการแมปมุมมองข้อมูลแบบเมทริกซ์
 
-วิชวลที่มีการแมปมุมมองข้อมูลแบบเมทริกซ์มี`capabilities.json`พร้อมด้วย`"supportsHighlight": true`พารามิเตอร์ ตัวอย่างเช่น:
+วิชวลที่มีการแมปมุมมองข้อมูลแบบเมทริกซ์มี`capabilities.json`พร้อมด้วย`"supportsHighlight": true`พารามิเตอร์  ตัวอย่างเช่น:
 
 ```json
 {
@@ -323,7 +323,7 @@ div.value {
 
 ข้อมูลตัวอย่างในการสร้างลำดับชั้นสำหรับการแมปมุมมองข้อมูลแบบเมทริกซ์:
 
-|   Row1   |   Row2   |   Row3   |   คอลัมน์1   |   คอลัมน์2   |   คอลัมน์3   |   ค่า   |
+|   Row1   |   Row2   |   Row3   |   คอลัมน์ 1   |   คอลัมน์2   |   คอลัมน์3   |   มูลค่า   |
 |-----|-----|------|-------|-------|-------|-------|
 |   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |
