@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/24/2020
-ms.openlocfilehash: cbf30e3479629533faea73465362c378d4b73848
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.date: 04/28/2020
+ms.openlocfilehash: ad75cf6b85a896fbdc275748dc31c620206e08a2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82255760"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82692889"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>แหล่งข้อมูลที่ได้รับการสนับสนุนสำหรับรายงานที่มีการแบ่งหน้าของ Power BI
 
@@ -25,7 +25,7 @@ ms.locfileid: "82255760"
 
 | แหล่งข้อมูล | การรับรองความถูกต้อง | บันทึกย่อ |
 | --- | --- | --- |
-| ฐานข้อมูล Azure SQL <br>คลังข้อมูล Azure SQL | ลงชื่อเข้าระบบครั้งเดียว (SSO) เบื้องต้น, OAuth2 |   |
+| ฐานข้อมูล Azure SQL <br>คลังข้อมูล Azure SQL | ลงชื่อเข้าระบบครั้งเดียว (SSO) เบื้องต้น, OAuth2 | คุณอาจใช้ Enterprise Gateway ด้วย Azure SQL DB ได้ อย่างไรก็ตาม คุณไม่สามารถใช้ SSO หรือ oAuth2 เพื่อรับรองความถูกต้องในสถานการณ์เหล่านั้นได้   |
 | อินสแตนซ์ที่จัดการแล้วของ Azure SQL | พื้นฐาน | ผ่านตำแหน่งข้อมูลสาธารณะหรือส่วนตัว (ตำแหน่งข้อมูลส่วนตัวจำเป็นต้องได้รับการกำหนดเส้นทางผ่านเกตเวย์ขององค์กร)  |
 | Azure Analysis Services | SSO, OAuth2 | ไฟร์วอลล์ AAS ต้องปิดใช้งานหรือกำหนดค่าเพื่ออนุญาตช่วง IP ทั้งหมด|
 | ชุดข้อมูล Power BI | SSO | ชุดข้อมูล Power BI แบบพรีเมียมและแบบไม่พรีเมี่ยม ต้องมีสิทธิ์ในการอ่าน |

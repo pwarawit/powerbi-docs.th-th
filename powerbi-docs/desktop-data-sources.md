@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 04/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5247b2c990c8c0cfd29da0e8a30cdc8691000106
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207263"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866828"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 
@@ -139,7 +139,7 @@ ms.locfileid: "79207263"
 * HDInsight Interactive Query
 * Azure Data Explorer (Kusto)
 * Azure Cost Management
-* Azure Time Series Insights (เบต้า)
+
 
 แสดงรูปภาพต่อไปนี้**รับข้อมูล**สำหรับ**Azure**
 
@@ -191,6 +191,9 @@ ms.locfileid: "79207263"
 * Quick Base
 * TeamDesk (เบต้า)
 * การวิเคราะห์สถานที่ทำงาน (เบต้า)
+* Projectplace สำหรับ Power BI (เบต้า)
+* การวิเคราะห์ Webtrends (เบต้า)
+* Zoho Creator (เบต้า)
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**บริการออนไลน์**
 
@@ -213,6 +216,7 @@ ms.locfileid: "79207263"
 * ODBC
 * OLE DB
 * BI360 - การรายงานการจัดทำงบประมาณและการเงิน (เบต้า)
+* การรวมข้อมูล Cognite (เบต้า)
 * FHIR
 * เส้นตารางข้อมูล (เบต้า)
 * Jamf Pro (เบต้า)
@@ -220,13 +224,15 @@ ms.locfileid: "79207263"
 * Paxata
 * QubolePresto (เบต้า)
 * Roamler (เบต้า)
-* Siteimprove (เบต้า)
+* Siteimprove
 * SurveyMonkey(เบต้า)
-* Tenforce (Smart)List (เบต้า)
 * TIBCO(R) Data Virtualization (เบต้า)
 * Vena (เบต้า)
 * Workforce Dimensions (เบต้า)
 * Zucchetti HR Infinity (เบต้า)
+* รายการ Tenforce (สมาร์ท)
+* ทางลัดข้อมูลเชิงลึกทางธุรกิจ (เบต้า)
+* ข้อมูลเชิงลึก Vessel (เบต้า)
 * คิวรีที่ว่างเปล่า
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**อื่น ๆ**

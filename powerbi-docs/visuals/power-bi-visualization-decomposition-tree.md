@@ -8,16 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75885267"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865579"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>สร้างวิชวลโครงข่ายของข้อมูลใน Power BI (ตัวอย่าง)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 การแสดงผลด้วยภาพโครงข่ายของข้อมูลใน Power BI ช่วยให้คุณสามารถแสดงภาพข้อมูลข้ามหลายมิติได้ โดยจะรวมข้อมูลและช่วยให้เจาะลึกลงในมิติของคุณในลำดับใดก็ได้ นอกจากนี้ยังเป็นการแสดงภาพข่าวกรอง (AI) แบบเทียมเพื่อให้คุณสามารถขอให้ค้นหามิติถัดไปเพื่อดูรายละเอียดแนวลึกตามเกณฑ์บางอย่าง ซึ่งทำให้เป็นเครื่องมือที่มีประโยชน์สำหรับการสำรวจแบบเฉพาะกิจและการดำเนินการวิเคราะห์สาเหตุหลัก
@@ -29,6 +32,8 @@ ms.locfileid: "75885267"
 - สถานการณ์ของห่วงโซ่อุปทานที่วิเคราะห์เปอร์เซ็นต์ของผลิตภัณฑ์ที่บริษัทมีในรายการค้างส่ง (สินค้าหมด)  
 - สถานการณ์การขายที่แบ่งยอดขายของวิดีโอเกมตามปัจจัยหลายอย่างเช่น ประเภทเกมและผู้เผยแพร่
 
+> [!NOTE]
+> การแชร์รายงานของคุณกับผู้ร่วมงาน Power BI กำหนดให้คุณต้องมีสิทธิ์การใช้งาน Power BI Pro แต่ละรายการ หรือรายงานจะถูกบันทึกในความจุแบบพรีเมียม    
 
 ## <a name="get-started"></a>เริ่มใช้งาน
 เลือกไอคอนแผนภูมิเส้นจากบานหน้าต่างการแสดงภาพ

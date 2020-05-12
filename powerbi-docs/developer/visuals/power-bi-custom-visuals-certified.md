@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 2dee596648c9921cefab6903167e780bfacb122e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b759d19046ddb375646743a50025689ab9a566c0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113911"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613545"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>รับการรับรองส่วนการจัดแสดง Power BI
 
@@ -82,8 +82,6 @@ ms.locfileid: "80113911"
 
 คุณต้องคอมไพล์วิชวล Power BI ของคุณด้วย `pbiviz package` ถ้าคุณกำลังใช้สคริปต์การสร้างของคุณเองให้  `npm run package`คำสั่งสร้างแบบกำหนดเอง
 
-
-
 ### <a name="source-code-requirements"></a>ข้อกำหนดของแหล่งโค้ด
 
 ตรวจสอบว่าคุณได้ทำตามรายการนโยบาย [ การรับรองความถูกต้องของ Power BI](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification) หากการส่งของคุณไม่เป็นไปตามหลักเกณฑ์เหล่านี้ อีเมลที่ใช้ในการปฏิเสธจากศูนย์คู่ค้าจะรวมถึงหมายเลขนโยบายที่แสดงรายการอยู่ในลิงก์นี้
@@ -150,6 +148,25 @@ ms.locfileid: "80113911"
     ![ส่วนติดต่อ Power BI การแสดงผลด้วยภาพของ Power BI ที่ผ่านการรับรอง](media/power-bi-custom-visuals-certified/certified-visual-blue.png)
 
 * คุณสามารถแสดงการแสดงผลด้วยภาพของ Power BI ที่ได้รับการรับรองได้โดยการเลือกตัวเลือกตัวกรอง *Power BI ที่ได้รับการรับรอง*
+
+## <a name="publication-timeline"></a>ไทม์ไลน์การเผยแพร่
+
+การปรับใช้ใน AppSource คือกระบวนการที่อาจต้องใช้เวลาสักครู่ วิชวล Power BI พร้อมที่จะดาวน์โหลดจาก AppSource ได้เมื่อกระบวนการนี้เสร็จสมบูรณ์
+
+### <a name="when-will-users-be-able-to-download-my-visual"></a>ผู้ใช้จะสามารถดาวน์โหลดวิชวลของฉันได้เมื่อใด
+
+* หากคุณส่งวิชวล Power BI เป็นครั้งแรก ผู้ใช้จะสามารถดาวน์โหลดวิชวลได้ภายในสองถึงสามชั่วโมงหลังจากที่คุณได้รับอีเมลจาก AppSource
+
+* หากคุณส่งการอัปเดตไปยังวิชวล Power BI ที่มีอยู่ ผู้ใช้จะสามารถดาวน์โหลดวิชวลได้ภายในหนึ่งเดือนหลังจากการส่งของคุณ
+
+    >[!NOTE]
+    > เขตข้อมูล*เวอร์ชัน*ใน AppSource จะอัปเดตในวันที่ Power BI ของคุณได้รับการอนุมัติโดย AppSource ประมาณหนึ่งสัปดาห์หลังจากที่คุณส่งวิชวลของคุณ ผู้ใช้จะสามารถดาวน์โหลดวิชวลที่อัปเดตแล้วได้ แต่ความสามารถที่อัปเดตแล้วจะไม่มีผล ความสามารถใหม่ของวิชวลของคุณจะส่งผลกระทบต่อรายงานของผู้ใช้หลังจากผ่านไปประมาณหนึ่งเดือน 
+
+### <a name="when-will-my-power-bi-visual-display-a-certification-badge"></a>วิชวล Power BI ของฉันจะแสดงตัวบอกสถานะใบรับรองเมื่อใด
+
+* หากคุณส่งวิชวล Power BI เป็นครั้งแรก ตัวบอกสถานะใบรับรองจะปรากฏขึ้นภายในหนึ่งวันหลังจากได้รับอีเมลการอนุมัติจาก AppSource
+
+* หากคุณกำลังร้องขอการรับรองสำหรับวิชวล Power BI ที่มีอยู่ คุณจะเห็นตัวบอกสถานะใบรับรองได้ภายในหนึ่งเดือนหลังจากการส่งของคุณ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

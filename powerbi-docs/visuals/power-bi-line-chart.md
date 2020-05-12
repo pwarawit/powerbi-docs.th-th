@@ -2,27 +2,35 @@
 title: แผนภูมิเส้นใน Power BI
 description: แผนภูมิเส้นใน Power BI
 author: mihart
-ms.reviewer: amac
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/26/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e46aa05ac326b5c959da8a29329fa92f4aec0b4d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871079"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867035"
 ---
 # <a name="line-charts-in-power-bi"></a>แผนภูมิเส้นใน Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 แผนภูมิเส้นคือ ชุดของจุดข้อมูลที่จะแสดงด้วยจุดและเชื่อมต่อด้วยเส้นตรง แผนภูมิเส้นอาจมีเส้นเดียวหรือหลายเส้น แผนภูมิเส้นมีแกน X และแกน Y 
 
 ![แผนภูมิเส้นแบบง่าย](media/power-bi-line-charts/power-bi-line.png)
 
+
+
 ## <a name="create-a-line-chart"></a>สร้างแผนภูมิเส้น
 คำแนะนำเหล่านี้ใช้แอปตัวอย่างการขายและการตลาดเพื่อสร้างแผนภูมิเส้นที่แสดงยอดขายของปีนี้ตามประเภท หากต้องการทำตามขั้นตอน รับแอปตัวอย่างจาก appsource.com
+
+> [!NOTE]
+> การแชร์รายงานของคุณกับผู้ร่วมงาน Power BI กำหนดให้คุณต้องมีสิทธิ์การใช้งาน Power BI Pro แต่ละรายการ หรือรายงานจะถูกบันทึกในความจุแบบพรีเมียม
 
 1. เริ่มต้นบน หน้ารายงานเปล่า หากคุณกำลังใช้บริการของ Power BI ตรวจสอบให้แน่ใจว่า คุณเปิดรายงานใน [มุมมองการแก้ไข](../service-interact-with-a-report-in-editing-view.md)
 
@@ -45,7 +53,7 @@ ms.locfileid: "73871079"
 
 6. อีกวิธีหนึ่ง คือ [ปรับขนาดและสีของข้อความในแผนภูมิ](power-bi-visualization-customize-title-background-and-legend.md) 
 
-    ![เพิ่มขนาดฟอนต์และเปลี่ยนฟอนต์แกน Y](media/power-bi-line-charts/power-bi-line-3years.png)
+    ![เพิ่มขนาดแบบอักษรและเปลี่ยนแบบอักษรแกน Y](media/power-bi-line-charts/power-bi-line-3years.png)
 
 ## <a name="add-additional-lines-to-the-chart"></a>เพิ่มเส้นเพิ่มเติมลงในแผนภูมิ
 แผนภูมิเส้นสามารถมีเส้นหลายเส้นที่แตกต่างกัน และ ในบางกรณี ค่าในเส้นต่างๆ อาจแตกต่างกันมากจนแสดงผลร่วมกันได้ไม่ดี มาดูที่การเพิ่มแผนภูมิเส้นเพิ่มเติมไปยังแผนภูมิปัจจุบันของเรา และเรียนรู้วิธีการจัดรูปแบบแผนภูมิของเราเมื่อเมื่อค่าที่แสดงด้วยเส้นมีความแตกต่างกันมาก 

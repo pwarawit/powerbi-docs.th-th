@@ -9,16 +9,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: cec8d598713000ec1d2b5a1fb72ebaa7d8932faf
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a05b677a3a6c826c8207af29e965a7cd76149fbe
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74010889"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841054"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>แก้ไขตัวแปร SAP ในบริการ Power BI
 
-เมื่อคุณใช้ SAP Business Warehouse หรือ SAP HANA กับ DirectQuery ในขณะนี้ผู้เขียนรายงานสามารถอนุญาตให้ผู้ใช้ปลายทางแก้ไขตัวแปร SAP ใน **บริการ Power BI** สำหรับพื้นที่ทำงานแบบพรีเมียมและที่ใช้งานร่วมกันได้แล้ว โปรดทราบว่าคุณลักษณะนี้ใช้ไม่ได้กับรายงานในแท็บ แชร์กับฉัน ของ พื้นที่ทำงานของฉัน 
+เมื่อคุณใช้ SAP Business Warehouse หรือ SAP HANA กับ DirectQuery ในขณะนี้ผู้เขียนรายงานสามารถอนุญาตให้ผู้ใช้ปลายทางแก้ไขตัวแปร SAP ใน **บริการ Power BI** สำหรับพื้นที่ทำงานแบบพรีเมียมและที่ใช้งานร่วมกันได้แล้ว โปรดทราบว่าคุณลักษณะนี้ไม่สามารถใช้งานกับรายงานในแท็บ แชร์กับฉัน ของ พื้นที่ทำงานของฉัน และแอปที่สร้างจากพื้นที่ทำงาน V1 ได้ 
 
 ![แก้ไขกล่องโต้ตอบตัวแปร](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 

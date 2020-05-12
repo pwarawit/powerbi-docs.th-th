@@ -3,21 +3,22 @@ title: แผนที่ต้นไม้ใน Power BI
 description: แผนที่ต้นไม้ใน Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b70e9611b22f1df20d39cdbd338fd5b6bfe1b43d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880748"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866897"
 ---
 # <a name="treemaps-in-power-bi"></a>แผนที่ต้นไม้ใน Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -39,14 +40,6 @@ ms.locfileid: "73880748"
 
 คุณสามารถนำจำนวนสินค้าที่ขายไปเปรียบเทียบกับเสื้อผ้าประเภทอื่นๆ ด้วยการเปรียบเทียบขนาดและเฉดสีของโหนดปลายสุด สี่เหลี่ยมที่ใหญ่กว่าและเข้มกว่าหมายถึงค่าที่สูงกว่า
 
-ต้องการดูผู้อื่นสร้างทรีแมปเป็นครั้งแรกหรือไม่ ข้ามไปยังเวลาที่ 2:10 ในวิดีโอนี้เพื่อดู Amanda สร้างทรีแมป
-
-   > [!NOTE]
-   > วิดีโอนี้ใช้ Power BI Desktop เวอร์ชันเก่า
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-treemap"></a>เราจะใช้ทรีแมปในกรณีใด
 
@@ -75,6 +68,10 @@ ms.locfileid: "73880748"
 1. เปิด**ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก**ในมุมมองรายงาน ![ภาพหน้าจอไอคอนมุมมองรายงาน](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
 1. เลือก ![สกรีนช็อตของแท็บสีเหลือง](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) หากต้องการเพิ่มหน้าใหม่
+
+> [!NOTE]
+> การแชร์รายงานของคุณกับผู้ร่วมงาน Power BI กำหนดให้คุณต้องมีสิทธิ์การใช้งาน Power BI Pro แต่ละรายการ หรือรายงานจะถูกบันทึกในความจุแบบพรีเมียม    
+
 
 
 หลังจากที่คุณเรียกดูชุดข้อมูล **ตัวอย่างการวิเคราะห์ร้านค้าปลีก** คุณจะสามารถเริ่มใช้งานได้

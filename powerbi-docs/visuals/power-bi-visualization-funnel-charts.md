@@ -7,25 +7,30 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/12/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 356d738795f8bf99ba1e2f8dfc705b23f52a6d5e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b60a4c14873427bd06d2b6abce48c9d3d3008859
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762450"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865264"
 ---
 # <a name="create-and-use-funnel-charts"></a>สร้างและใช้แผนภูมิกรวย
 
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-แผนภูมิกรวยช่วยให้คุณแสดงกระบวนการเส้นตรง ที่แบ่งเป็นขั้นตอนที่เชื่อมต่อกันตามลำดับ ตัวอย่างเช่น กรวยการขายที่ติดตามขั้นตอนของลูกค้า: เป้าหมาย \> เป้าหมายที่ผ่านคุณสมบัติ \> สนใจ \> ทำสัญญา \> ปิดการขาย  มองอย่างรวดเร็ว รูปร่างของกรวยบ่งบอกสุขภาพของกระบวนการที่คุณกำลังติดตาม
+แผนภูมิกรวยช่วยให้คุณแสดงกระบวนการเส้นตรง ที่แบ่งเป็นขั้นตอนที่เชื่อมต่อกันตามลำดับ ยกตัวอย่างเช่น ช่วงระยะการขายที่มีการติดตามลูกค้าตามขั้นตอนดังนี้: ลูกค้าที่เป็นเป้าหมาย\>ลูกค้าเป้าหมายที่มีคุณสมบัติ\>ผู้ที่มีแนวโน้มจะเป็นลูกค้า\>ทำสัญญา\>ปิดลูกค้า  มองอย่างรวดเร็ว รูปร่างของกรวยบ่งบอกสุขภาพของกระบวนการที่คุณกำลังติดตาม
 
 แต่ละขั้นตอนกรวยการแสดงเปอร์เซ็นต์ของผลรวม ดังนั้น ในกรณีส่วนใหญ่ แผนภูมิกรวยจะมีรูปเหมือนกรวย - ด้วยขั้นตอนแรกที่ใหญ่ที่สุด และขั้นตอนถัด ๆ มาเล็กกว่าขั้นตอนก่อนหน้า  แผนภูมิเป็นรูปต้นแพร์จะยังมีประโยชน์ -- สามารถใช้ระบุปัญหาในกระบวนการได้  แต่โดยทั่วไปแล้ว ขั้นแรกหรือขั้น "ทางเข้า" มีขนาดใหญ่ที่สุด
 
 ![ตัวอย่างสีน้ำเงินกรวย](media/power-bi-visualization-funnel-charts/funnelplain.png)
+
+> [!NOTE]
+> การแชร์รายงานของคุณกับผู้ร่วมงาน Power BI กำหนดให้คุณต้องมีสิทธิ์การใช้งาน Power BI Pro แต่ละรายการ หรือรายงานจะถูกบันทึกในความจุแบบพรีเมียม    
 
 ## <a name="when-to-use-a-funnel-chart"></a>เมื่อใดที่ใช้แผนภูมิกรวย
 แผนภูมิกรวยเป็นตัวเลือกที่ดีสำหรับ:
@@ -49,18 +54,18 @@ ms.locfileid: "75762450"
    > รับชมวิดีโอนี้เพื่อดู Will จัดทำแผนภูมิกรวยโดยใช้ตัวอย่างด้านการขายและการตลาด จากนั้นทำตามขั้นตอนด้านล่างวิดีโอเพื่อทดลองด้วยตัวเองโดยใช้ไฟล์ตัวอย่าง Opportunity Analysis PBIX
    > 
    > 
-## <a name="prerequisite"></a>ข้อกำหนดเบื้องต้น
+## <a name="prerequisite"></a>เงื่อนไขเบื้องต้น
 
 บทช่วยสอนนี้ใช้ไฟล์ PBIX [Opportunity Analysis .PBIX ตัวอย่าง](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix
 )
 
-1. จากด้านบนซ้ายของแถบเมนู เลือก **ไฟล์** > **เปิด**
+1. จากด้านบนซ็ายของแถบเมนู เลือก **ไฟล์** > **เปิด**
    
 2. ค้นหาสำเนา**ไฟล์ PBIX ตัวอย่างการวิเคราะห์โอกาส**
 
 1. เปิด**ไฟล์ PBIX ตัวอย่างการวิเคราะห์โอกาส**ในมุมมองรายงาน ![ภาพหน้าจอไอคอนมุมมองรายงาน](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
-1. Select ![สกรีนช็อตของแท็บสีเหลือง](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) หากต้องการเพิ่มหน้าใหม่
+1. เลือก ![สกรีนช็อตของแท็บสีเหลือง](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) หากต้องการเพิ่มหน้าใหม่
 
 
 ## <a name="create-a-basic-funnel-chart"></a>สร้างแผนภูมิกรวยพื้นฐาน
@@ -91,7 +96,7 @@ ms.locfileid: "75762450"
 
 6. [บันทึกรายงาน](../service-report-save.md)
 
-## <a name="highlighting-and-cross-filtering"></a>การเน้นและการกรองข้าม
+## <a name="highlighting-and-cross-filtering"></a>การทำไฮไลท์และการกรองข้าม
 สำหรับข้อมูลเกี่ยวกับการใช้บานหน้าต่างตัวกรอง ดู[เพิ่มตัวกรองไปยังรายงาน](../power-bi-report-add-filter.md)
 
 ไฮไลต์แท่งในแผนภูมิกรวย จะกรองข้ามการแสดงภาพอื่น ๆ บนหน้ารายงาน... และในทางกลับกัน เพื่อทำตาม เพิ่มวิชวลอีกสองสามวิชวล บนหน้ารายงานที่มีแผนภูมิกรวย

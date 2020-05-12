@@ -3,21 +3,23 @@ title: แผนภูมิหน้าปัดความเร็วใน 
 description: แผนภูมิหน้าปัดความเร็วใน Power BI
 author: mihart
 ms.reviewer: ''
-featuredvideoid: xmja6Epqa
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e783b4357d4db39e09aabbb1df39e1bb5c84532e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7c6c4dbe9f17464483f5b44542ffbe04f715d4bd
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880900"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866943"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>แผนภูมิหน้าปัดความเร็วใน Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -27,12 +29,8 @@ ms.locfileid: "73880900"
 
 ในตัวอย่างนี้ เรามีผู้ค้าปลีกรถยนต์ที่กำลังติดตามการขายเฉลี่ยของทีมขายต่อเดือน เข็มแสดงเป้าหมายทางการขายรถยนต์ให้ได้ 140 คัน การขายเฉลี่ยที่เป็นไปได้น้อยที่สุดคือ 0 และสูงสุดเป็น 200 คัน  การแรเงาสีน้ำเงินแสดงว่า ตอนนี้เราประมาณการว่ามีการขาย 120 คันในเดือนนี้ โชคดี มีสัปดาห์อื่นยังที่สามารถไปถึงเป้าหมายได้
 
-ดูวิธีที่คุณสามารถสร้างภาพการวัดตัวเดียว: ตัวประเมิน บัตร และ KPI
-   > [!NOTE]
-   > วิดีโอนี้ใช้ Power BI Desktop เวอร์ชันเก่า
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
+> [!NOTE]
+> การแชร์รายงานของคุณกับผู้ร่วมงาน Power BI กำหนดให้คุณต้องมีสิทธิ์การใช้งาน Power BI Pro แต่ละรายการ หรือรายงานจะถูกบันทึกในความจุแบบพรีเมียม
 
 ## <a name="when-to-use-a-radial-gauge"></a>เมื่อต้องการใช้แผนภูมิหน้าปัดความเร็ว
 

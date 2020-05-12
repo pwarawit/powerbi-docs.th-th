@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/11/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5fda121af151e787c444b928c320b7f33fe1405c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75757887"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866985"
 ---
 # <a name="create-and-use-basic-area-charts"></a>สร้างและใช้แผนภูมิพื้นที่แบบพื้นฐาน
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -25,6 +27,9 @@ ms.locfileid: "75757887"
 แผนภูมิพื้นที่เน้นให้เห็นปริมาณการเปลี่ยนแปลงตามเวลา และสามารถใช้เพื่อดึงความสนใจไปยังค่าผลรวมในทั่วทั้งแนวโน้ม ตัวอย่างเช่น เราสามารถลงจุดข้อมูลที่แสดงกำไรเมื่อเวลาผ่านไปในแผนภูมิพื้นที่เพื่อเน้นกำไรรวมได้
 
 ![](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
+
+> [!NOTE]
+> การแชร์รายงานของคุณกับผู้ร่วมงาน Power BI กำหนดให้คุณต้องมีสิทธิ์การใช้งาน Power BI Pro แต่ละรายการ หรือรายงานจะถูกบันทึกในความจุแบบพรีเมียม
 
 ## <a name="when-to-use-a-basic-area-chart"></a>เมื่อต้องการใช้แผนภูมิพื้นที่พื้นฐาน
 แผนภูมิพื้นที่พื้นฐานคือตัวเลือกที่ดีที่สุด:
@@ -41,7 +46,7 @@ ms.locfileid: "75757887"
 
 1. เปิด**ไฟล์ PBIX ตัวอย่างการวิเคราะห์การค้าปลีก**ในมุมมองรายงาน ![ภาพหน้าจอไอคอนมุมมองรายงาน](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
-1. Select ![สกรีนช็อตของแท็บสีเหลือง](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) หากต้องการเพิ่มหน้าใหม่
+1. เลือก ![สกรีนช็อตของแท็บสีเหลือง](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) หากต้องการเพิ่มหน้าใหม่
 
 
 ## <a name="create-a-basic-area-chart"></a>สร้างแผนภูมิพื้นที่พื้นฐาน
@@ -49,7 +54,7 @@ ms.locfileid: "75757887"
 
 1. ขั้นตอนเหล่านี้จะช่วยสร้างแผนภูมิพื้นที่ที่แสดงยอดขายของปีนี้และยอดขายของปีที่แล้วแยกตามเดือน
    
-   ก. จากพื้นที่เขตข้อมูล เลือก**ยอดขาย\>ยอดขายของปีที่แล้ว**และ**ยอดขายของปีนี้ > ค่า**
+   a. จากพื้นที่เขตข้อมูล เลือก**ยอดขาย\>ยอดขายของปีที่แล้ว**และ**ยอดขายของปีนี้ > ค่า**
 
    ![ค่าข้อมูลแผนภูมิพื้นที่](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
@@ -62,8 +67,8 @@ ms.locfileid: "75757887"
    
    d.  ในการแสดงแผนภูมิตามเดือน เลือกจุดไข่ปลา (มุมบนขวาของภาพ) แล้วเลือก**เรียงลำดับตามเดือน** เมื่อต้องเปลี่ยนลำดับการจัดเรียง เลือกจุดไข่ปลาอีกครั้ง แล้วคลิก**เรียงลำดับจากน้อยไปมาก**หรือ**เรียงลำดับจากมากไปน้อย**
 
-## <a name="highlighting-and-cross-filtering"></a>การเน้นและการกรองข้าม
-สำหรับข้อมูลเกี่ยวกับการใช้บานหน้าต่างตัวกรอง ดู[เพิ่มตัวกรองไปยังรายงาน](../power-bi-report-add-filter.md)
+## <a name="highlighting-and-cross-filtering"></a>การทำไฮไลท์และการกรองข้าม
+สำหรับข้อมูลเกี่ยวกับการใช้บานหน้าต่างตัวกรอง โปรดดู[เพิ่มตัวกรองไปยังรายงาน](../power-bi-report-add-filter.md)
 
 เมื่อต้องการทำไฮไลท์เฉพาะพื้นที่หนึ่งในแผนภูมิของคุณ เลือกพื้นที่นั้นหรือเส้นขอบด้านบนของพื้นที่ดังกล่าว  ถ้ามีการแสดงภาพอื่น ๆ บนหน้าเดียวกัน การทำไฮไลท์บนแผนภูมิพื้นที่พื้นฐานจะไม่กรองข้ามการแสดงภาพอื่น ๆ บนหน้ารายงาน ซึ่งต่างจากชนิดการแสดงภาพอื่น ๆ อย่างไรก็ตาม แผนภูมิพื้นที่เป็นเป้าหมายสำหรับการกรองข้ามที่เปิดใช้งานโดยการแสดงภาพอื่น ๆ บนหน้ารายงาน 
 

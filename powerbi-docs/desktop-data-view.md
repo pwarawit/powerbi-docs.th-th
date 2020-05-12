@@ -6,19 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a82465adb5b0c7fe8be0e6e724c5eda1bfcf7ec0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1fee95bbfb790a1c61d82131579c8fb43980ca05
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79206964"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866736"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>ทำงานด้วยมุมมองข้อมูลใน Power BI Desktop
 
 *มุมมองข้อมูล* ช่วยให้คุณตรวจสอบ สำรวจ และทำความเข้าใจข้อมูลในรูปแบบ *Power BI Desktop* ซึ่งจะแตกต่างจากวิธีที่คุณดูตาราง คอลัมน์ และข้อมูลใน *ตัวแก้ไข Power Query* ด้วยมุมมองข้อมูล คุณจะกำลังดูข้อมูลของคุณ*หลังจาก*ที่โหลดเข้ามาในรูปแบบเรียบร้อยแล้ว
+
+> [!NOTE]
+> เนื่องจากมุมมองข้อมูลแสดงข้อมูลหลังจากที่โหลดลงในแบบจำลองแล้ว ไอคอนมุมมองข้อมูลจะไม่สามารถมองเห็นได้หากแหล่งข้อมูลทั้งหมดขึ้นอยู่กับ DirectQuery 
 
 เมื่อคุณกำลังจัดรูปแบบข้อมูลของคุณ บางครั้งคุณต้องการดูว่ามีอะไรอยู่ในตารางหรือคอลัมน์จริง ๆ โดยไม่สร้างวิชวลบนพื้นที่รายงาน คุณอาจต้องการดูลึกลงไปถึงระดับแถว ความสามารถนี้จะเป็นประโยชน์มาก โดยเฉพาะอย่างยิ่งเมื่อคุณกำลังจะสร้างการวัดและคอลัมน์จากการคำนวณ หรือคุณจำเป็นต้องระบุชนิดข้อมูลหรือประเภทข้อมูล
 
@@ -48,3 +51,14 @@ ms.locfileid: "79206964"
 
 > [!NOTE]
 > เมื่อมีการสร้างแบบจำลอง Power BI ในวัฒนธรรมอื่นนอกเหนือจากส่วนติดต่อผู้ใช้ปัจจุบันของคุณ กล่องการค้นหาจะไม่ปรากฏในส่วนติดต่อผู้ใช้ของมุมมองข้อมูล สำหรับสิ่งอื่นใดนอกเหนือจากเขตข้อมูลข้อความ ตัวอย่างเช่น รายการนี้จะปรับใช้สำหรับแบบจำลองที่สร้างขึ้นในภาษาอังกฤษแบบสหรัฐอเมริกาที่คุณดูในภาษาสเปน
+
+
+## <a name="next-steps"></a>ขั้นตอนถัดไป
+
+คุณสามารถทำการเรียงลำดับของของต่างๆ ด้วย Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับขีดความสามารถ กรุณาดูแหล่งทรัพยากรต่อไปนี้:
+
+* [Power BI Desktop คืออะไร](desktop-what-is-desktop.md)
+* [ภาพรวมคำถามด้วย Power BI Desktop](desktop-query-overview.md)
+* [ชนิดข้อมูลใน Power BI Desktop](desktop-data-types.md)
+* [จัดรูปร่างและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [งานแบบสอบถามทั่วไปใน Power BI Desktop](desktop-common-query-tasks.md)

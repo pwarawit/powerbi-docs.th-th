@@ -10,10 +10,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 1dfb75595de939f99bf269d67bf9c29a2f0db249
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871636"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>จัดลำดับหน้าในรายงานในบริการ Power BI และ Power BI Desktop
@@ -28,7 +28,7 @@ ms.locfileid: "73871636"
 1. ถ้าคุณพยายามที่จะนำทางออกจากรายงาน และรายงานมีการเปลี่ยนแปลง Power BI จะแสดงข้อความเตือนขึ้น
    
    ![บันทึกการเปลี่ยนแปลง](media/service-report-save/power-bi-unsaved.png)
-2. อีกวิธีในการบันทึกรายงานคือให้ เลือก**ไฟล์** \> **บันทึก**หรือ**บันทึกเป็น** ถ้าคุณอยู่ใน[มุมมองการอ่าน](consumer/end-user-reading-view.md)คุณจะเห็นตัวเลือกในการบันทึกเป็นเฉพาะ 
+2. อีกวิธีหนึ่งในการบันทึกรายงานคือการเลือก **ไฟล์** \> **บันทึก** หรือ **บันทึกเป็น** ถ้าคุณอยู่ใน[มุมมองการอ่าน](consumer/end-user-reading-view.md)คุณจะเห็นตัวเลือกในการบันทึกเป็นเฉพาะ 
    
    ![บันทึกรายงาน](media/service-report-save/power-bi-save-new.png)
 3. ถ้านี่เป็นรายงานใหม่ (บันทึก) หรือเวอร์ชันใหม่ของรายงานที่มีอยู่ (บันทึกเป็น) โปรดตั้งชื่อคำอธิบายให้แก่มัน  **รายงานจะถูกบันทึกไปยังพื้นที่ทำงานที่มีการเคลื่อนไหวอยู่**
@@ -40,5 +40,5 @@ ms.locfileid: "73871636"
 
 [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

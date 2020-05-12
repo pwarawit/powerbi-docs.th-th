@@ -1,5 +1,5 @@
 ---
-title: ใช้เมทริกซ์วิชวลใน Power BI
+title: สร้างเมทริกซ์วิชวลใน Power BI
 description: เรียนรู้เพิ่มเติมเกี่ยวกับเมทริกซ์วิชวล ว่าสามารถทำให้การวางรูปแบบเป็นขั้นและการเน้นแกรนูลาร์ใน Power BI ได้อย่างไร
 author: mihart
 ms.reviewer: ''
@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81637846"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866598"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>สร้างการแสดงข้อมูลเมทริกซ์ใน Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,6 +30,8 @@ ms.locfileid: "81637846"
 
 มีคุณลักษณะมากมายที่เกี่ยวข้องกับเมทริกซ์ และเราจะไปศึกษาในส่วนต่อ ๆ ไปของบทความนี้
 
+> [!NOTE]
+> การแชร์รายงานของคุณกับผู้ร่วมงาน Power BI กำหนดให้คุณต้องมีสิทธิ์การใช้งาน Power BI Pro แต่ละรายการ หรือรายงานจะถูกบันทึกในความจุแบบพรีเมียม
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>ทำความเข้าใจวิธีที่ Power BI คำนวณผลรวม
 

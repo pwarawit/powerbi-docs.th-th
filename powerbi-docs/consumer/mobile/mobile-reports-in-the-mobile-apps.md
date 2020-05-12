@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435777"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841744"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>สำรวจรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI
 นำไปใช้กับ:
@@ -45,7 +45,7 @@ ms.locfileid: "79435777"
 * ![ไอคอนรายงานบนโทรศัพท์](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) ระบุรายงานที่มีหน้ารายงานที่ปรับให้เหมาะสมสำหรับโทรศัพท์อย่างน้อยหนึ่งหน้า ซึ่งจะแสดงในการจัดตำแหน่งตามแนวตั้ง
 
 > [!NOTE]
-> เมื่อคุณถือโทรศัพท์ของคุณตามการจัดตำแหน่งในแนวนอน คุณจะได้รับเค้าโครงแนวนอนเสมอ แม้ว่าหน้ารายงานจะมีเค้าโครงแบบโทรศัพท์ก็ตาม
+> เมื่อคุณถือโทรศัพท์ของคุณตามการจัดตำแหน่งในแนวนอน คุณจะได้รับเค้าโครงแนวนอนเสมอ แม้ว่าหน้ารายงานจะมีเค้าโครงแบบอุปกรณ์มือถือก็ตาม
 
 หากต้องการรับรายงานจากแดชบอร์ด ให้แตะที่**ตัวเลือกเพิ่มเติม** (...) ตรงมุมขวาบนของไทล์ จากนั้นจึงแตะที่ **เปิดรายงาน**:
   

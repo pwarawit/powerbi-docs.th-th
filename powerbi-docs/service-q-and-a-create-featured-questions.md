@@ -10,10 +10,10 @@ ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 1571589844abb8e9acf0bbb78eccf5664db9bf52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881115"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>สร้างคำถามที่น่าสนใจสำหรับ Power BI Q&A
@@ -31,7 +31,7 @@ ms.locfileid: "73881115"
 1. บนแดชบอร์ด เลือกกล่องคำถาม Q&A   โปรดสังเกตว่า Q&A ที่มีอยู่มีประโยชน์เพราะแสดงรายการของคำที่ปรากฏในชุดข้อมูล
 2. เพื่อเพิ่มลงในรายการนี้ ให้เลือกไอคอนเฟืองที่มุมขวาบนของ Power BI  
    ![ไอคอนรูปเฟือง](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
-3. เลือก**ตั้งค่า** &gt; **ชุดข้อมูล** &gt; **ตัวอย่างการวิเคราะห์ร้านค้าปลีก** &gt; **คำถามที่แนะนำใน Q&A**  
+3. เลือก **การตั้งค่า** &gt; **ชุดข้อมูล** &gt; **ตัวอย่างการวิเคราะห์ร้านค้าปลีก** &gt; **คำถามที่แนะนำใน Q&A**  
 4. เลือก**เพิ่มคำถาม**
    
    ![เมนูการตั้งค่า](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
@@ -49,5 +49,5 @@ ms.locfileid: "73881115"
 - [ใช้การถามตอบในแดชบอร์ดและรายงาน](power-bi-tutorial-q-and-a.md)  
 - [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](service-basic-concepts.md)  
 
-มีคำถามเพิ่มเติมหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

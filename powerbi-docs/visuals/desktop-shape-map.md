@@ -7,22 +7,27 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/18/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5717d543d5c70bbbe7c25ed3e55778639d777170
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525671"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866552"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>สร้างการแสดงผลข้อมูลด้วยภาพแบบแผนที่รูปร่างใน Power BI Desktop (ตัวอย่าง)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 สร้างภาพ**แผนที่รูปร่าง**เพื่อเปรียบเทียบภูมิภาคบนแผนที่โดยใช้สี ไม่เหมือนกับภาพ**แผนที่** **แผนที่รูปร่าง**ไม่สามารถแสดงตำแหน่งที่ตั้งทางภูมิศาสตร์อย่างแม่นยำของจุดข้อมูลบนแผนที่ได้ แต่วัตถุประสงค์หลักคือการเปรียบเทียบภูมิภาคบนแผนที่โดยการใช้สีแตกต่างกัน
 
 การแสดงภาพ**แผนที่รูปร่าง**อ้างอิงตามแผนที่ TopoJSON ซึ่งมีความสามารถที่น่าสนใจในการใช้แผนที่แบบกำหนดเองซึ่งคุณสามารถสร้างได้ ตัวอย่างของแผนที่แบบกำหนดเองคือ: แผนที่ทางภูมิศาสตร์ แผนที่เก้าอี้นั่ง แผนที่การจัดเรียง แผนผังชั้น และอื่น ๆ ความสามารถในการใช้แผนที่แบบกำหนดเองของ**แผนที่รูปร่าง** จะยังไม่มีในรุ่นตัวอย่างนี้
+
+> [!NOTE]
+> การแชร์รายงานของคุณกับผู้ร่วมงาน Power BI กำหนดให้คุณต้องมีสิทธิ์การใช้งาน Power BI Pro แต่ละรายการ หรือรายงานจะถูกบันทึกในความจุแบบพรีเมียม
 
 ## <a name="creating-shape-maps"></a>การสร้างแผนที่รูปร่าง
 คุณสามารถทดลองตัวควบคุม**แผนที่รูปร่าง** ด้วยแผนที่ที่มาพร้อมรุ่นตัวอย่างนี้ หรือคุณสามารถใช้แผนที่แบบกำหนดเองของคุณเองได้ถ้าเป็นไปตามข้อกำหนดที่ระบุไว้ในส่วน**ใช้แผนที่แบบกำหนดเอง** .
@@ -95,9 +100,9 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 คุณสามารถใส่คอลัมน์ใหม่ โดยการพิมพ์ชื่อคอลัมน์ใหม่ (ในคอลัมน์ว่างทางด้านขวา) จากนั้นเพิ่มค่าในเซลล์แต่ละเซลล์ เหมือนกับที่คุณทำใน Excel เมื่อเสร็จแล้ว เลือก**โหลด**และตารางจะถูกเพิ่มลงในรูปแบบข้อมูลสำหรับ Power BI Desktop
 
 > [!NOTE]
-> เมื่อทำงานกับประเทศหรือภูมิภาค ให้ใช้ตัวย่อสามตัวเพื่อให้แน่ใจว่าการเข้ารหัสทางภูมิศาสตร์ทำงานได้อย่างถูกต้องในการจัดรูปแบบการแสดงข้อมูลแผนที่ *อย่า*ใช้ตัวย่อสองตัวอักษร เนื่องจากอาจไม่รู้จักบางประเทศหรือบางภูมิภาค
+> เมื่อทำงานกับประเทศหรือภูมิภาค ใช้ตัวย่อสามตัวอักษรเพื่อให้แน่ใจว่า การกำหนดพิกัดทางภูมิศาสตร์ทำงานได้อย่างถูกต้องในการแสดงภาพแผนที่ *อย่า*ใช้ตัวย่อสองตัวอักษร เนื่องจากอาจไม่รู้จักบางประเทศหรือบางภูมิภาค
 > 
-> ถ้าคุณมีเพียงตัวย่อสองตัว ให้ดู[บล็อกโพสต์ภายนอกนี้](https://blog.ailon.org/how-to-display-2-letter-country-data-on-a-power-bi-map-85fc738497d6#.yudauacxp)สำหรับขั้นตอนวิธีการเชื่อมโยงตัวย่อประเทศ/ภูมิภาคแบบสองตัวของคุณเข้ากับตัวย่อประเทศ/ภูมิภาคแบบสามตัว
+> ถ้าคุณมีเพียงตัวย่อสองตัวอักษร ดู[บล็อกโพสต์ภายนอกนี้](https://blog.ailon.org/how-to-display-2-letter-country-data-on-a-power-bi-map-85fc738497d6#.yudauacxp)สำหรับขั้นตอนการเชื่อมโยงตัวย่อประเทศ/ภูมิภาคแบบสองตัวอักษรของคุณ เข้ากับตัวย่อประเทศ/ภูมิภาคแบบสามตัวอักษร
 > 
 > 
 
@@ -138,7 +143,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | at-oo |AT-4 |Oberösterreich |Upper Austria |OO |
 | at-no |AT-3 |Niederösterreich |Lower Austria |NO |
 | at-ka |AT-2 |Kärnten |Carinthia |KA |
-| at-bu |AT-1 |Burgenland |Burgenland |หน่วยธุรกิจ |
+| at-bu |AT-1 |Burgenland |Burgenland |BU |
 
 ### <a name="brazil-states"></a>บราซิล: รัฐ
 
@@ -176,7 +181,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | Litigated Zone 3 |
 | Litigated Zone 4 |
 
-### <a name="canada-provinces"></a>แคนาดา: จังหวัด
+### <a name="canada-provinces"></a>แคนาดา: เขต
 
 | ID | iso | name | postal |
 | --- | --- | --- | --- |
@@ -186,7 +191,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | ca-sk |CA-SK |Saskatchewan |SK |
 | ca-qc |CA-QC |Quebec |QC |
 | ca-pe |CA-PE |Prince Edward Island |PE |
-| ca-on |CA-ON |Ontario |เปิด |
+| ca-on |CA-ON |Ontario |ON |
 | ca-ns |CA-NS |Nova Scotia |NS |
 | ca-nl |CA-NL |Newfoundland and Labrador |NL |
 | ca-nb |CA-NB |New Brunswick |NB |
@@ -234,7 +239,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | de-he |DE-HE |Hessen |Hesse |HE |
 | de-hh |DE-HH |Hamburg |Hamburg |HH |
 | de-hb |DE-HB |Bremen |Bremen |HB |
-| de-by |DE-BY |Bayern |Bavaria |โดย |
+| de-by |DE-BY |Bayern |Bavaria |BY |
 | de-bw |DE-BW |Baden-Württemberg |Baden-Wurttemberg |BW |
 
 ### <a name="ireland-counties"></a>ไอร์แลนด์: เขต
@@ -330,7 +335,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 | mx-bcn |B.C. |MX-BCN |Baja California |Baja California |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>เนเธอร์แลนด์: จังหวัด
+### <a name="netherlands-provinces"></a>เนเธอร์แลนด์: เขต
 
 | ID | iso | name | name-en |
 | --- | --- | --- | --- |
@@ -360,56 +365,56 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 | ID | name | postal |
 | --- | --- | --- |
-| us-mi |มิชิแกน |MI |
-| us-ak |อลาสกา |AK |
+| us-mi |Michigan |MI |
+| us-ak |Alaska |AK |
 | us-hi |Hawaii |HI |
 | us-fl |Florida |FL |
-| us-la |หลุยเซียน่า |LA |
-| us-ar |อาร์คันซอ |AR |
-| us-sc |เซาท์ แคโรไลนา |SC |
+| us-la |Louisiana |LA |
+| us-ar |Arkansas |AR |
+| us-sc |South Carolina |SC |
 | us-ga |Georgia |GA |
-| us-ms |มิสซิสซิปปี |MS |
+| us-ms |Mississippi |MS |
 | us-al |Alabama |AL |
 | us-nm |New Mexico |NM |
 | us-tx |Texas |TX |
-| us-tn |เทนเนสซี่ |TN |
-| us-nc |นอร์ท แคโรไลนา |NC |
-| us-ok |โอกลาโฮมา |OK |
-| us-az |แอริโซนา |AZ |
+| us-tn |Tennessee |TN |
+| us-nc |North Carolina |NC |
+| us-ok |Oklahoma |ตกลง |
+| us-az |Arizona |AZ |
 | us-mo |Missouri |MO |
-| us-va |เวอร์จิเนีย |VA |
-| us-ks |แคนซัส |KS |
-| us-ky |เคนทักกี |KY |
-| us-co |โคโลราโด |CO |
-| us-md |แมรี่แลนด์ |MD |
+| us-va |Virginia |VA |
+| us-ks |Kansas |KS |
+| us-ky |Kentucky |KY |
+| us-co |Colorado |CO |
+| us-md |Maryland |MD |
 | us-wv |West Virginia |WV |
-| us-de |เดลาแวร์ |DE |
+| us-de |Delaware |DE |
 | us-dc |District of Columbia |DC |
-| us-il |อิลลินอยส์ |IL |
-| us-oh |โอไฮโอ |OH |
+| us-il |Illinois |IL |
+| us-oh |Ohio |OH |
 | us-ca |California |CA |
-| us-ut |ยูทาห์ |UT |
+| us-ut |Utah |UT |
 | us-nv |Nevada |NV |
-| us-in |อินเดียน่า |IN |
+| us-in |Indiana |IN |
 | us-nj |New Jersey |NJ |
 | us-ri |Rhode Island |RI |
 | us-ct |Connecticut |CT |
-| us-pa |เพนซิลวาเนีย |PA |
+| us-pa |Pennsylvania |PA |
 | us-ny |New York |NY |
-| us-ne |เนบราสก้า |NE |
-| us-ma |แมสซาชูเซตส์ |MA |
-| us-ia |ไอโอวา |IA |
-| us-nh |นิวแฮมป์เชียร์ |NH |
-| us-or |โอเรกอน |OR |
-| us-mn |มินเนโซต้า |MN |
-| us-vt |เวอร์มอนท์ |VT |
-| us-id |ไอดาโฮ |ID |
+| us-ne |Nebraska |NE |
+| us-ma |Massachusetts |MA |
+| us-ia |Iowa |IA |
+| us-nh |New Hampshire |NH |
+| us-or |Oregon |OR |
+| us-mn |Minnesota |MN |
+| us-vt |Vermont |VT |
+| us-id |Idaho |ID |
 | us-wi |Wisconsin |WI |
-| us-wy |ไวโอมิง |WY |
-| us-sd |เซาท์ ดาโกต้า |SD |
-| us-nd |นอร์ท ดาโกต้า |ND |
-| us-me |เมน |ME |
-| us-mt |มอนตานา |MT |
+| us-wy |Wyoming |WY |
+| us-sd |South Dakota |SD |
+| us-nd |North Dakota |ND |
+| us-me |Maine |ME |
+| us-mt |Montana |MT |
 | us-wa |Washington |WA |
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

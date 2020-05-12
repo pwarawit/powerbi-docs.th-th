@@ -10,10 +10,10 @@ ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 8e9563d10d80290a48e20cd2d6a889831d34924b
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/26/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74548594"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>เชื่อมต่อกับ Office365Mon ด้วย Power BI
@@ -31,7 +31,7 @@ ms.locfileid: "74548594"
 2. ในกล่อง**บริการ** เลือก**รับ**
    
    ![](media/service-connect-to-office365mon/pbi_getservices.png) 
-3. เลือก**Office365Mon** \> **รับ**
+3. เลือก **Office365Mon** \> **รับ**
    
    ![](media/service-connect-to-office365mon/o365mon.png)
 4. สำหรับวิธีการรับรองความถูกต้อง ให้เลือก **oAuth2** \> **ลงชื่อเข้าใช้**

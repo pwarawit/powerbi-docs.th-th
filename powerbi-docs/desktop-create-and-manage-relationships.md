@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6f71cf9b8325441fe3827a259daf3bcbe15765a5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 373ad0d230b3d9d7b9d35909d086b0611637f0e2
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76710040"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866345"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>สร้างและจัดการความสัมพันธ์ใน Power BI Desktop
 เมื่อคุณนำเข้าหลายตาราง มีโอกาสที่คุณจะต้องทำการวิเคราะห์โดยใช้ข้อมูลจากตารางเหล่านั้นทั้งหมด ความสัมพันธ์ระหว่างตารางเหล่านั้นเป็นสิ่งจำเป็นสำหรับการคำนวณผลลัพธ์อย่างถูกต้อง และแสดงข้อมูลในรายงานของคุณอย่างถูกต้อง Power BI Desktop ทำให้สร้างความสัมพันธ์ดังกล่าวได้ง่ายขึ้น ในความเป็นจริง ในกรณีส่วนใหญ่คุณไม่จำเป็นต้องทำอะไร คุณลักษณะการตรวจหาอัตโนมัติทำได้สำหรับคุณ อย่างไรก็ตาม ในบางกรณีคุณอาจต้องสร้างความสัมพันธ์ด้วยตนเอง หรือคุจำเป็นต้องทำการเปลี่ยนแปลงบางอย่างสำหรับความสัมพันธ์นั้น ไม่ว่าด้วยใช้วิธีใด จำเป็นต้องทำความเข้าใจความสัมพันธ์ใน Power BI Desktop วิธีการสร้างและวิธีการแก้ไขใจความสัมพันธ์เหล่านี้
@@ -271,7 +271,7 @@ ms.locfileid: "76710040"
 
  ![ทิศทางการกรองข้าม](media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png)
 
-ข้อกำหนดตัวกรองจะจัดเรียงต่อเนื่องจาก **CompanyProject** ไปยัง **CompanyEmployee** (ดังที่แสดงในรูปด้านล่าง) แต่ข้อกำหนดตัวกรองดังกล่าวจะไม่จัดเรียงไปถึง **CompanyEmployee** 
+ข้อกำหนดตัวกรองจะจัดเรียงต่อเนื่องจาก **CompanyProject** ไปยัง **ProjectHours** (ตามที่แสดงในรูปด้านล่าง) แต่ข้อกำหนดตัวกรองดังกล่าวจะไม่จัดเรียงไปถึง **CompanyEmployee** 
 
  ![ตัวอย่างการกรองข้าม](media/desktop-create-and-manage-relationships/candmrel_singledircrossfiltering.png)
 
