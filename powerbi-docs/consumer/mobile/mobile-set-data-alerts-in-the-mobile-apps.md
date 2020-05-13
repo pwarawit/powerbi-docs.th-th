@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 288ac6620af03c49d0a7f96e219e88d855381caf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435823"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279560"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -29,7 +29,7 @@ ms.locfileid: "79435823"
 > [!WARNING]
 > การแจ้งเตือนข้อมูลแสดงข้อมูลของคุณ ถ้าอุปกรณ์ของคุณถูกขโมย เราขอแนะนำให้ไปยังบริการของ Power BI เพื่อปิดกฎการแจ้งเตือนทั้งหมดที่อิงข้อมูล 
 > 
-> เรียนรู้เพิ่มเติมเกี่ยวกับ[การจัดการการแจ้งเตือนข้อมูลในบริการของ Power BI](../../service-set-data-alerts.md)
+> เรียนรู้เพิ่มเติมเกี่ยวกับ[การจัดการการแจ้งเตือนข้อมูลในบริการของ Power BI](../../create-reports/service-set-data-alerts.md)
 > 
 > 
 
@@ -58,7 +58,7 @@ ms.locfileid: "79435823"
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>จัดการการแจ้งเตือนบน iPhone หรือ iPad ของคุณ
-คุณสามารถจัดการการแจ้งเตือนแต่ละรายการบนอุปกรณ์เคลื่อนที่ของคุณ หรือ[จัดการการแจ้งเตือนของคุณทั้งหมดในบริการของ Power BI](../../service-set-data-alerts.md)ได้
+คุณสามารถจัดการการแจ้งเตือนแต่ละรายการบนอุปกรณ์เคลื่อนที่ของคุณ หรือ[จัดการการแจ้งเตือนของคุณทั้งหมดในบริการของ Power BI](../../create-reports/service-set-data-alerts.md)ได้
 
 1. ในแดชบอร์ด แตะตัวเลขหรือไทล์ตัวประเมินที่มีข้อความแจ้งเตือน  
    
@@ -92,7 +92,7 @@ ms.locfileid: "79435823"
 8. แตะ**บันทึก**
 
 ### <a name="manage-alerts-on-an-android-device"></a>จัดการการแจ้งเตือนบนอุปกรณ์ Android
-คุณสามารถจัดการการแจ้งเตือนแต่ละรายการในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่หรือ[จัดการการแจ้งเตือนของคุณทั้งหมดในบริการของ Power BI](../../service-set-data-alerts.md) ได้
+คุณสามารถจัดการการแจ้งเตือนแต่ละรายการในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่หรือ[จัดการการแจ้งเตือนของคุณทั้งหมดในบริการของ Power BI](../../create-reports/service-set-data-alerts.md) ได้
 
 1. ในแดชบอร์ด แตะตัวเลขหรือไทล์ตัวประเมินที่มีข้อความแจ้งเตือน  
 2. แตะไอคอน bell ทึบ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png)  
@@ -131,7 +131,7 @@ ms.locfileid: "79435823"
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>จัดการการแจ้งเตือนบนอุปกรณ์ Windows
-คุณสามารถจัดการการแจ้งเตือนแต่ละรายการในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่หรือ[จัดการการแจ้งเตือนของคุณทั้งหมดในบริการของ Power BI](../../service-set-data-alerts.md) ได้
+คุณสามารถจัดการการแจ้งเตือนแต่ละรายการในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่หรือ[จัดการการแจ้งเตือนของคุณทั้งหมดในบริการของ Power BI](../../create-reports/service-set-data-alerts.md) ได้
 
 1. ในแดชบอร์ด แตะตัวเลขหรือไทล์ตัวประเมินที่มีข้อความแจ้งเตือน  
 2. แตะไอคอน bell ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png)  
@@ -172,7 +172,6 @@ ms.locfileid: "79435823"
 * ข้อความแจ้งเตือนจะไม่ทำงานกับไทล์ที่ประกอบด้วยข้อมูลสตรีม
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [จัดการการแจ้งเตือนของคุณในบริการของ Power BI](../../service-set-data-alerts.md)
+* [จัดการการแจ้งเตือนของคุณในบริการของ Power BI](../../create-reports/service-set-data-alerts.md)
 * [ศูนย์การแจ้งเตือนอุปกรณ์เคลื่อนที่ power BI](mobile-apps-notification-center.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-

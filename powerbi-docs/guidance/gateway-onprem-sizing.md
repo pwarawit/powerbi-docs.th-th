@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4f289bf319bf29de8f8765d55bf3400048420af5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: de84dd7e9021abf1198f2dc4f910afb8bd078ac6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76829063"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279537"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>ขนาดเกตเวย์ข้อมูลภายในองค์กร
 
-บทความนี้มุ่งเป้าที่ผู้ดูแลระบบ Power BI ที่จำเป็นต้องติดตั้งและจัดการ [เกตเวย์ข้อมูลภายในองค์กร](../service-gateway-onprem.md)
+บทความนี้มุ่งเป้าที่ผู้ดูแลระบบ Power BI ที่จำเป็นต้องติดตั้งและจัดการ [เกตเวย์ข้อมูลภายในองค์กร](../connect-data/service-gateway-onprem.md)
 
 จำเป็นต้องใช้เกตเวย์เมื่อ Power BI ต้องเข้าถึงข้อมูลที่ไม่สามารถใช้งานได้โดยตรงผ่านทางอินเทอร์เน็ต สามารถติดตั้งได้บนเซิร์ฟเวอร์ภายในองค์กรหรือ VM-hosted Infrastructure-as-a-Service (IaaS)
 
@@ -39,8 +39,8 @@ ms.locfileid: "76829063"
 
 ปริมาณงาน _การเชื่อมต่อสดและ DirectQuery_ ส่วนใหญ่จะทำงานในโหมดพาส-ทรู บริการของ Power BI ส่งคิวรีและตอบสนองของเกตเวย์ด้วยผลลัพธ์คิวรี โดยทั่วไป ผลลัพธ์คิวรีมีขนาดเล็ก
 
-- สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเชื่อมต่อสด ดู [ชุดข้อมูลในบริการของ Power BI (แบบจำลองข้อมูลที่โฮสต์ภายนอก)](../service-datasets-understand.md#external-hosted-models)
-- สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ DirectQuery ดู [โหมดชุดข้อมูลในบริการของ Power BI (โหมด DirectQuery)](../service-dataset-modes-understand.md#directquery-mode)
+- สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการเชื่อมต่อสด ดู [ชุดข้อมูลในบริการของ Power BI (แบบจำลองข้อมูลที่โฮสต์ภายนอก)](../connect-data/service-datasets-understand.md#external-hosted-models)
+- สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ DirectQuery ดู [โหมดชุดข้อมูลในบริการของ Power BI (โหมด DirectQuery)](../connect-data/service-dataset-modes-understand.md#directquery-mode)
 
 ปริมาณงานนี้จำเป็นต้องมีทรัพยากรของ CPU สำหรับคิวรีของเส้นทางและผลลัพธ์คิวรี โดยปกติแล้วจะมีความต้องการ CPU น้อยกว่าปริมาณการแคชข้อมูลที่จำเป็น โดยเฉพาะอย่างยิ่งเมื่อจำเป็นต้องแปลงข้อมูลสำหรับการแคช
 
@@ -62,13 +62,13 @@ ms.locfileid: "76829063"
   - จำนวนผู้ใช้รายงานที่เกิดขึ้นพร้อมกัน
   - จำนวนการแสดงผลด้วยภาพบนหน้ารายงาน (แต่ละวิชวลจะส่งอย่างน้อยหนึ่งคิวรี)
   - ความถี่ของการอัปเดตแคชคิวรีของแดชบอร์ด Power BI
-  - จำนวนรายงานแบบเรียลไทม์ใช้คุณลักษณะ[การรีเฟรชหน้าโดยอัตโนมัติ](../desktop-automatic-page-refresh.md)
-  - ไม่ว่าชุดข้อมูลจะบังคับใช้ [การรักษาความปลอดภัยระดับแถว (RLS)](../desktop-rls.md) หรือไม่
+  - จำนวนรายงานแบบเรียลไทม์ใช้คุณลักษณะ[การรีเฟรชหน้าโดยอัตโนมัติ](../create-reports/desktop-automatic-page-refresh.md)
+  - ไม่ว่าชุดข้อมูลจะบังคับใช้ [การรักษาความปลอดภัยระดับแถว (RLS)](../create-reports/desktop-rls.md) หรือไม่
 
 โดยทั่วไป แล้วปริมาณงานการเชื่อมต่อสดและ DirectQuery จำเป็นต้องมี CPU เพียงพอ ในขณะที่ปริมาณงานแคชข้อมูลจำเป็นต้องใช้ CPU และหน่วยความจำมากขึ้น ปริมาณงานทั้งสองขึ้นอยู่กับการเชื่อมต่อที่ดีกับบริการของ Power BI และแหล่งข้อมูล
 
 > [!NOTE]
-> ความจุ Power BI กำหนดขีดจำกัดในการรีเฟรชแบบจำลองแบบขนาน และอัตราความเร็วการเชื่อมต่อสดและ DirectQuery การปรับขนาดของเกตเวย์ของคุณเพื่อส่งข้อมูลมากกว่าที่บริการของ Power BI สนับสนุนไม่ได้ส่งผลใดๆ เกิดขึ้น ขีดจำกัดมีความแตกต่างตาม Premium SKU (และ SKU ที่มีขนาดเท่ากัน) สำหรับข้อมูลเพิ่มเติม ให้ดู [Power BI Premium คืออะไร (โหนดความจุ)](../service-premium-what-is.md#capacity-nodes)
+> ความจุ Power BI กำหนดขีดจำกัดในการรีเฟรชแบบจำลองแบบขนาน และอัตราความเร็วการเชื่อมต่อสดและ DirectQuery การปรับขนาดของเกตเวย์ของคุณเพื่อส่งข้อมูลมากกว่าที่บริการของ Power BI สนับสนุนไม่ได้ส่งผลใดๆ เกิดขึ้น ขีดจำกัดมีความแตกต่างตาม Premium SKU (และ SKU ที่มีขนาดเท่ากัน) สำหรับข้อมูลเพิ่มเติม ให้ดู [Power BI Premium คืออะไร (โหนดความจุ)](../admin/service-premium-what-is.md#capacity-nodes)
 
 ## <a name="recommendations"></a>คำแนะนำ
 
@@ -86,9 +86,9 @@ ms.locfileid: "76829063"
 
 - กำจัด - หรือลด - การกระโดดของเครื่องระหว่างเกตเวย์และแหล่งข้อมูลของคุณ
 
-- ลบการควบคุมเครือข่ายใดๆ ที่กำหนดโดยเลเยอร์พร็อกซีไฟร์วอลล์ของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับจุดสิ้นสุด Power BI ดู [URL Power BI สำหรับการอนุญาตพิเศษ](../power-bi-whitelist-urls.md)
+- ลบการควบคุมเครือข่ายใดๆ ที่กำหนดโดยเลเยอร์พร็อกซีไฟร์วอลล์ของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับจุดสิ้นสุด Power BI ดู [URL Power BI สำหรับการอนุญาตพิเศษ](../admin/power-bi-whitelist-urls.md)
 - กำหนดค่า [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) เพื่อสร้างการเชื่อมต่อส่วนตัวที่มีการจัดการไปยัง Power BI
-- สำหรับแหล่งข้อมูลใน Azure VMs ตรวจสอบให้แน่ใจว่า VMs [colocate กับบริการของ Power BI](../service-admin-where-is-my-tenant-located.md)
+- สำหรับแหล่งข้อมูลใน Azure VMs ตรวจสอบให้แน่ใจว่า VMs [colocate กับบริการของ Power BI](../admin/service-admin-where-is-my-tenant-located.md)
 - สำหรับปริมาณงานการเชื่อมต่อสดไปยัง SQL Server Analysis Services (SSAS) ที่เกี่ยวข้องกับ RLS แบบไดนามิก ตรวจสอบให้แน่ใจว่ามีการเชื่อมต่อที่ดีระหว่างเครื่องเกตเวย์และ Active Directory ภายในองค์กร
 
 ### <a name="clustering"></a>การทำคลัสเตอร์
@@ -107,17 +107,17 @@ ms.locfileid: "76829063"
 สำหรับชุดข้อมูลที่นำเข้า:
 
 - กำหนดค่าการรีเฟรชข้อมูลน้อยลง
-- กำหนดค่า [การรีเฟรชแบบเพิ่มทีละส่วน](../service-premium-incremental-refresh.md) เพื่อลดจำนวนข้อมูลที่จะถ่ายโอน
+- กำหนดค่า [การรีเฟรชแบบเพิ่มทีละส่วน](../admin/service-premium-incremental-refresh.md) เพื่อลดจำนวนข้อมูลที่จะถ่ายโอน
 - เมื่อใดที่เป็นไปได้ ตรวจสอบแน่ใจว่ามี [การพับคิวรี](power-query-folding.md)เกิดขึ้น
-- โดยเฉพาะอย่างยิ่งสำหรับข้อมูลขนาดใหญ่หรือความจำเป็นสำหรับผลลัพธ์ที่มีความแฝงต่ำ ให้แปลงการออกแบบเป็นแบบจำลอง DirectQuery หรือ [แบบรวม](../service-dataset-modes-understand.md#composite-mode)
+- โดยเฉพาะอย่างยิ่งสำหรับข้อมูลขนาดใหญ่หรือความจำเป็นสำหรับผลลัพธ์ที่มีความแฝงต่ำ ให้แปลงการออกแบบเป็นแบบจำลอง DirectQuery หรือ [แบบรวม](../connect-data/service-dataset-modes-understand.md#composite-mode)
 
 สำหรับชุดข้อมูล DirectQuery:
 
 - ปรับแหล่งข้อมูล แบบจำลอง และการออกแบบรายงานให้เหมาะสม สำหรับข้อมูลเพิ่มเติม ดู [คำแนะนำแบบจำลอง DirectQuery ใน Power BI Desktop](directquery-model-guidance.md)
-- สร้าง [การรวม](../desktop-aggregations.md) เพื่อแคชผลลัพธ์ในระดับที่สูงขึ้น เพื่อลดจำนวนคำขอ DirectQuery
-- จำกัดช่วง [การรีเฟรชหน้าอัตโนมัติ](../desktop-automatic-page-refresh.md) ในการออกแบบรายงานและการตั้งค่าความจุ
+- สร้าง [การรวม](../transform-model/desktop-aggregations.md) เพื่อแคชผลลัพธ์ในระดับที่สูงขึ้น เพื่อลดจำนวนคำขอ DirectQuery
+- จำกัดช่วง [การรีเฟรชหน้าอัตโนมัติ](../create-reports/desktop-automatic-page-refresh.md) ในการออกแบบรายงานและการตั้งค่าความจุ
 - โดยเฉพาะอย่างยิ่งเมื่อบังคับใช้ RLS แบบไดนามิก ให้จำกัดความถี่ในการอัปเดตแคชของแดชบอร์ด
-- โดยเฉพาะอย่างยิ่งสำหรับข้อมูลที่มีขนาดเล็กหรือสำหรับข้อมูลถาวร ให้แปลงการออกแบบเป็นแบบจำลองการนำเข้าหรือ [แบบรวม](../service-dataset-modes-understand.md#composite-mode)
+- โดยเฉพาะอย่างยิ่งสำหรับข้อมูลที่มีขนาดเล็กหรือสำหรับข้อมูลถาวร ให้แปลงการออกแบบเป็นแบบจำลองการนำเข้าหรือ [แบบรวม](../connect-data/service-dataset-modes-understand.md#composite-mode)
 
 สำหรับชุดข้อมูลการเชื่อมต่อสด:
 
@@ -127,10 +127,10 @@ ms.locfileid: "76829063"
 
 สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
-- [คำแนะนำสำหรับการปรับใช้เกตเวย์ข้อมูลจาก Power BI](../service-gateway-deployment-guidance.md)
+- [คำแนะนำสำหรับการปรับใช้เกตเวย์ข้อมูลจาก Power BI](../connect-data/service-gateway-deployment-guidance.md)
 - [กำหนดค่าการตั้งค่าพร็อกซีสำหรับเกตเวย์ข้อมูลภายในองค์กร](/data-integration/gateway/service-gateway-proxy)
 - [การตรวจสอบและปรับประสิทธิภาพการทำงานของเกตเวย์ข้อมูลภายในองค์กรให้เหมาะสม](/data-integration/gateway/service-gateway-performance)
-- [แก้ไขปัญหาเกตเวย์-Power BI](../service-gateway-onprem-tshoot.md)
+- [แก้ไขปัญหาเกตเวย์-Power BI](../connect-data/service-gateway-onprem-tshoot.md)
 - [แก้ไขปัญหาเกตเวย์ข้อมูลภายในองค์กร](/data-integration/gateway/service-gateway-tshoot)
 - [ความสำคัญของการพับคิวรี](power-query-folding.md)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

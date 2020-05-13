@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 7284532d95cce780f4022477faab9033adcd764a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492617"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279399"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>แนวทางปฏิบัติที่ดีที่สุดเพื่อประสิทธิภาพการทำงานของ Power BI Embedded
 
@@ -59,7 +59,7 @@ ms.locfileid: "79492617"
 
 องค์กรที่มีความจุของ Power BI Premium หรือความจุใน Power BI แบบฝังตัว สามารถใช้ประโยชน์จากการแคชคิวรีเพื่อให้รายงานที่เกี่ยวข้องกับชุดข้อมูลแสดงผลเร็วขึ้น
 
-[เรียนรู้เพิ่มเติมเกี่ยวกับการแคชของแบบสอบถามใน Power BI](../../power-bi-query-caching.md)
+[เรียนรู้เพิ่มเติมเกี่ยวกับการแคชของแบบสอบถามใน Power BI](../../connect-data/power-bi-query-caching.md)
 
 ## <a name="preload"></a>พรีโหลด
 
@@ -99,7 +99,7 @@ ms.locfileid: "79492617"
 เมื่อต้องการตรวจสอบประสิทธิภาพการทำงานขององค์ประกอบรายงานคุณอาจใช้ตัววิเคราะห์ประสิทธิภาพใน Power BI Desktop
 ตัววิเคราะห์ประสิทธิภาพการทำงานจะช่วยให้คุณสามารถดูและบันทึกบันทึกที่วัดว่าแต่ละองค์ประกอบรายงานของคุณดำเนินการได้อย่างไร
 
-[เรียนรู้เพิ่มเติมเกี่ยวกับตัววิเคราะห์ประสิทธิภาพ](../../desktop-performance-analyzer.md)
+[เรียนรู้เพิ่มเติมเกี่ยวกับตัววิเคราะห์ประสิทธิภาพ](../../create-reports/desktop-performance-analyzer.md)
 
 > [!NOTE]
 > โปรดอย่าลืมเปรียบเทียบประสิทธิภาพรายงานแบบฝังตัวเพื่อประสิทธิภาพการทำงานบน powerbi.com ซึ่งอาจช่วยให้คุณเข้าใจจุดเริ่มต้นของปัญหาด้านประสิทธิภาพการทำงานของคุณ

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 48b13b73455d39eb7dc8cbf9df3e95408592f7f5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841744"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279514"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>สำรวจรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI
 นำไปใช้กับ:
@@ -27,7 +27,7 @@ ms.locfileid: "82841744"
 
 รายงาน Power BI คือมุมมองแบบโต้ตอบของข้อมูลของคุณ ที่มีการแสดงผลด้วยภาพที่แสดงการค้นพบและข้อมูลเชิงลึกแตกต่างจากข้อมูลนั้น การดูรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI เป็นขั้นตอนที่สามในกระบวนการแบบสามขั้นตอน
 
-1. [สร้างรายงานใน Power BI Desktop](../../desktop-report-view.md) คุณยังสามารถ [ปรับรายงานให้เหมาะสมสำหรับโทรศัพท์](mobile-apps-view-phone-report.md) ใน Power BI Desktop ได้
+1. [สร้างรายงานใน Power BI Desktop](../../create-reports/desktop-report-view.md) คุณยังสามารถ [ปรับรายงานให้เหมาะสมสำหรับโทรศัพท์](mobile-apps-view-phone-report.md) ใน Power BI Desktop ได้
 2. เผยแพร่รายงานเหล่านั้นไปยังบริการ Power BI [(https://powerbi.com)](https://powerbi.com)หรือ[เซิร์ฟเวอร์รายงาน Power BI](../../report-server/get-started.md)  
 3. โต้ตอบกับรายงานเหล่านั้นในแอปอุปกรณ์เคลื่อนที่ Power BI
 
@@ -100,7 +100,7 @@ ms.locfileid: "82841744"
 เมื่อคุณแตะส่วนที่เฉพาะเจาะจงของการแสดงผลด้วยภาพ จากนั้นจึงแตะตัวเลือก *การเข้าถึงรายละเอียด* Power BI จะนำคุณไปยังหน้าอื่นในรายงาน ซึ่งกรองตามค่าที่คุณแตะ ผู้สร้างรายงานสามารถกำหนดหนึ่งหรือหลายตัวเลือกสำหรับการเข้าถึงรายละเอียด ซึ่งแต่ละตัวเลือกจะนำคุณไปยังรายงานคนละหน้า ในกรณีดังกล่าว คุณสามารถเลือกได้ว่าตัวเลือกใดที่คุณต้องการเข้าถึงรายละเอียด ปุ่มย้อนกลับจะนำคุณกลับไปยังหน้าก่อนหน้า
 
 
-หากต้องการดูข้อมูลเพิ่มเติม กรุณาอ่านวิธีการ [เพิ่มการเข้าถึงรายละเอียดใน Power BI Desktop](../../desktop-drillthrough.md)
+หากต้องการดูข้อมูลเพิ่มเติม กรุณาอ่านวิธีการ [เพิ่มการเข้าถึงรายละเอียดใน Power BI Desktop](../../create-reports/desktop-drillthrough.md)
    
    > [!IMPORTANT]
    > ในแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI การดำเนินการดูรายละเอียดในเมทริกซ์และภาพตารางจะเปิดใช้งานผ่านค่าเซลล์เท่านั้น โดยไม่ผ่านคอลัมน์หรือส่วนหัวของแถว
@@ -164,6 +164,5 @@ ms.locfileid: "82841744"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ดูและโต้ตอบกับรายงาน Power BI ที่ปรับให้เหมาะสมกับโทรศัพท์ของคุณ](mobile-apps-view-phone-report.md)
-* [สร้างเวอร์ชันของรายงานที่ปรับให้เหมาะสมที่สุดสำหรับโทรศัพท์แล้ว](../../desktop-create-phone-report.md)
+* [สร้างเวอร์ชันของรายงานที่ปรับให้เหมาะสมที่สุดสำหรับโทรศัพท์แล้ว](../../create-reports/desktop-create-phone-report.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-
