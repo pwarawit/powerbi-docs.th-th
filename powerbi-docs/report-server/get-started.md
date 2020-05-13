@@ -9,12 +9,12 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 3e01bd0d7314cba1eb46dacff01b350c6685a6e9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 39ccb9120b7dd61d7f160c296d2de799b7f3fe23
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82613612"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141111"
 ---
 # <a name="what-is-power-bi-report-server"></a>เซิร์ฟเวอร์รายงาน Power BI คืออะไร?
 
@@ -26,7 +26,7 @@ Power BI Report Server เป็นเซิร์ฟเวอร์รายง
 เซิร์ฟเวอร์รายงาน Power BI คล้ายกับทั้ง SQL Server Reporting Services และบริการออนไลน์ของ Power BI แต่ในด้านที่ต่างกัน เซิร์ฟเวอร์รายงาน Power BI ทำการโฮสต์รายงาน Power BI (.pbix), ไฟล์ Excel และรายงานที่มีการแบ่งหน้า (.rdl) เช่นเดียวกับบริการของ Power BI เซิร์ฟเวอร์รายงาน Power BI อยู่ภายในองค์กร เหมือนกับ Reporting Services คุณสมบัติเซิร์ฟเวอร์รายงาน Power BI คือชุดใหญ่ของ Reporting Services: ทุกอย่างที่คุณสามารถทำได้ใน Reporting Services คุณสามารถทำได้ในเซิร์ฟเวอร์รายงาน Power BI รวมทั้งเพิ่มการสนับสนุนสำหรับรายงาน Power BI ดู[เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI](compare-report-server-service.md) สำหรับรายละเอียด
 
 ## <a name="licensing-power-bi-report-server"></a>สิทธิ์การใช้งานเซิร์ฟเวอร์รายงาน Power BI
-เซิร์ฟเวอร์รายงาน power BI จะใช้งานได้เมื่อมีใบอนุญาตให้ใช้งานสองอย่างดังต่อไปนี้: [Power BI Premium](../service-premium-what-is.md) และ [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)พร้อมการรับประกันซอฟต์แวร์ ด้วยสิทธิ์การใช้งาน Power BI Premium คุณสามารถสร้างการปรับใช้ที่ผสมผสานระหว่างระบบคลาวด์และภายในองค์กร  
+เซิร์ฟเวอร์รายงาน power BI จะใช้งานได้เมื่อมีใบอนุญาตให้ใช้งานสองอย่างดังต่อไปนี้: [Power BI Premium](../admin/service-premium-what-is.md) และ [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions)พร้อมการรับประกันซอฟต์แวร์ ด้วยสิทธิ์การใช้งาน Power BI Premium คุณสามารถสร้างการปรับใช้ที่ผสมผสานระหว่างระบบคลาวด์และภายในองค์กร  
 
 > [!NOTE]
 > สำหรับ Power BI Premium เซิร์ฟเวอร์รายงาน Power BI จะมาพร้อมกับ P SKU ไม่รวมกับ EM SKU
@@ -71,5 +71,3 @@ Power BI Report Server เป็นเซิร์ฟเวอร์รายง
 [ดาวน์โหลดตัวสร้างรายงาน](https://www.microsoft.com/download/details.aspx?id=53613)  
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-
-

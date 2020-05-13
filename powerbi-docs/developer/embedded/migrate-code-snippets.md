@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b2976511577dc6e83aa17c83c6c6c560f0755d15
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114495"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141192"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>โค้ดสำหรับการโยกย้ายเนื้อหาจากคอลเลกชันพื้นที่ทำงานของ Power BI
 
@@ -233,7 +233,7 @@ using System.Threading.Tasks;
 [ฝังด้วย Power BI](embedding.md)  
 [วิธีการย้ายเนื้อหาคอลเลกชันพื้นที่ทำงาน Power BI Embedded ไปยัง Power BI](migrate-from-powerbi-embedded.md)  
 [วิธีฝัง แดชบอร์ด รายงาน และไทล์ Power BI ของคุณ](embed-sample-for-your-organization.md)  
-[Power BI Premium คืออะไร](../../service-premium-what-is.md)  
+[Power BI Premium คืออะไร](../../admin/service-premium-what-is.md)  
 [JavaScript API Git repo](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git repo](https://github.com/Microsoft/PowerBI-CSharp)  
 [ตัวอย่างการฝัง JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

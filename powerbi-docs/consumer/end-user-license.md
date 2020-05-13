@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 8610f5c0efbc3da394e4de7c263a88aad813eae2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 14e3b0f2956252e0b09abcf314d6e14b9a9709ad
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82066087"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83129498"
 ---
 # <a name="using-the-power-bi-service-as-a-consumer"></a>ฉันสามารถทำอะไรกับบริการของ Power BI ในฐานะ*ผู้บริโภค*ได้บ้าง
 
@@ -47,7 +47,7 @@ Premium คือการสมัครใช้งานเชิงองค
 
 ภายในพื้นที่ทำงานดังกล่าว ผู้ออกแบบจะมอบหมายบทบาทต่าง ๆ เช่น **ผู้ชม** **ผู้สนับสนุน** **สมาชิก** และ**ผู้ดูแลระบบ**เพื่อกำหนดขอบเขตที่เพื่อนร่วมงานผู้นั้นสามารถโต้ตอบกับเนื้อหาได้ สำหรับข้อมูลเพิ่มเติม โปรดอ่านที่[สิทธิ์และบทบาทของพื้นที่ทำงาน](end-user-workspaces.md) 
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับความจุแบบพรีเมียม โปรดดูที่ [Microsoft Power BI Premium คืออะไร](../service-premium-what-is.md)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับความจุแบบพรีเมียม โปรดดูที่ [Microsoft Power BI Premium คืออะไร](../admin/service-premium-what-is.md)
 
 
 ## <a name="find-out-which-licenses-you-have"></a>เพื่อดูว่าคุณมีสิทธิการใช้งานใดบ้าง

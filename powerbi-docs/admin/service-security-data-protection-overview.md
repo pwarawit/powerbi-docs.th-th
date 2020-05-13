@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 97e7bf44233e0986459be9edf719cd21cd3d7a01
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d7fc915c9c21460670bf86f308b756196886983a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81637604"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83132034"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>การป้องกันข้อมูลใน Power BI (ตัวอย่าง)
 
@@ -113,6 +113,6 @@ ms.locfileid: "81637604"
 บทความนี้แสดงภาพรวมของการป้องกันข้อมูลใน Power BI บทความต่อไปนี้แสดงรายละเอียดเพิ่มเติมเกี่ยวกับการป้องกันข้อมูลใน Power BI 
 
 * [เปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI](service-security-enable-data-sensitivity-labels.md)
-* [ใช้ป้ายชื่อระดับความลับของข้อมูลใน Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
+* [ใช้ป้ายชื่อระดับความลับของข้อมูลใน Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [ใช้ตัวควบคุม Microsoft Cloud App Security ใน Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
 * [รายงานเมตริกการป้องกันข้อมูล](service-security-data-protection-metrics-report.md)

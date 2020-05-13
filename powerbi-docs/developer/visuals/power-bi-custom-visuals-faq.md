@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d70d1357af3309ddd9584b11ccf79115cde095c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0a66b0fc1a984e0905fba209ca59afb3a02696b2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79383309"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131309"
 ---
 # <a name="power-bi-visuals-faq"></a>คำถามที่พบบ่อยเกี่ยวกับการแสดงผลด้วยภาพของ Power BI
 
@@ -24,7 +24,7 @@ ms.locfileid: "79383309"
 
 ### <a name="how-can-the-admin-manage-organizational-power-bi-visuals"></a>ผู้ดูแลระบบจะจัดการการแสดงผล Power BI ของหน่วยงานอย่างไรบ้าง
 
-จากไซต์ของผู้ดูแลระบบ ในแท็บ *Organizational visuals* ผู้ดูแลระบบจะสามารถดูแล[จัดการการแสดง Power BI ของหน่วยงานทั้งหมดในองค์กร](../../service-admin-portal.md#organizational-visuals) เช่น เพิ่ม ปิดใช้งาน เปิดใช้งานหรือลบวิชวล Power BI
+จากไซต์ของผู้ดูแลระบบ ในแท็บ *Organizational visuals* ผู้ดูแลระบบจะสามารถดูแล[จัดการการแสดง Power BI ของหน่วยงานทั้งหมดในองค์กร](../../admin/service-admin-portal.md#organizational-visuals) เช่น เพิ่ม ปิดใช้งาน เปิดใช้งานหรือลบวิชวล Power BI
 
 ผู้ใช้ในองค์กรสามารถค้นหาวิชวล Power BI ได้อย่างง่ายดายและนำเข้าข้อมูลลงในรายงานของพวกเขาได้โดยตรงจาก Power BI Desktop หรือบริการ
 

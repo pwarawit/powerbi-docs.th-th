@@ -8,19 +8,19 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f1608fd2511e38758b5bf05041d625cf524fff34
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920736"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83127810"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>เมื่อใช้รายงานที่มีการแบ่งหน้าใน Power BI
 
 บทความนี้กำหนดเป้าหมายให้คุณในฐานะผู้สร้างรายงานที่ออกแบบรายงานสำหรับ Power BI ซึ่งมีคำแนะนำเพื่อช่วยให้คุณสามารถเลือกได้ว่าเมื่อไหร่จึงจะพัฒนา [รายงานที่มีการแบ่งหน้าของ Power BI ](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 
 > [!NOTE]
-> การเผยแพร่รายงานที่มีการแบ่งหน้าของ Power BI จำเป็นต้องมีการสมัครใช้งาน Power BI Premium รายงานจะแสดงเฉพาะเมื่ออยู่ในพื้นที่ทำงานบนความจุเฉพาะที่[เปิดใช้งานปริมาณงานของรายงานที่มีการแบ่งหน้า](../service-admin-premium-workloads.md#paginated-reports)
+> การเผยแพร่รายงานที่มีการแบ่งหน้าของ Power BI จำเป็นต้องมีการสมัครใช้งาน Power BI Premium รายงานจะแสดงเฉพาะเมื่ออยู่ในพื้นที่ทำงานบนความจุเฉพาะที่[เปิดใช้งานปริมาณงานของรายงานที่มีการแบ่งหน้า](../admin/service-admin-premium-workloads.md#paginated-reports)
 
 รายงานที่มีการแบ่งหน้าของ Power BI จะถูกปรับให้เหมาะสมที่สุดสำหรับ**การพิมพ์** หรือ **การสร้าง PDF** อีกทั้งยังมีความสามารถในการสร้างเค้าโครงรูปแบบพิกเซลที่สมบูรณ์แบบ ดังนั้นรายงานที่มีการแบ่งหน้าเหมาะสำหรับรายงานการดำเนินงานเช่น ใบเรียกเก็บเงินการขาย
 
@@ -36,7 +36,7 @@ ms.locfileid: "78920736"
 
 เมื่อคุณมีรายงาน SQL Server Reporting Services (SSRS) [Report Definition Language (RDL)](/sql/reporting-services/reports/report-definition-language-ssrs) อยู่แล้ว คุณสามารถเลือกที่จะปรับใช้งานรายงานเหล่านี้ใหม่ในฐานะ [รายงานของ Power BI](../consumer/end-user-reports.md) หรือย้ายรายงานเหล่านั้นในฐานะรายงานที่มีการแบ่งหน้าไปยัง Power BI สำหรับข้อมูลเพิ่มเติม โปรดดู [ย้ายรายงาน SQL Server Reporting Services ไปยัง Power BI](migrate-ssrs-reports-to-power-bi.md)
 
-เมื่อเผยแพร่ไปยังพื้นที่ทำงานของ Power BI รายงานที่มีการแบ่งหน้าจะสามารถใช้ได้เคียงข้างกับรายงานของ Power BI จากนั้นสามารถกระจายได้อย่างง่ายดายโดยใช้ [แอป Power BI](../service-create-distribute-apps.md).
+เมื่อเผยแพร่ไปยังพื้นที่ทำงานของ Power BI รายงานที่มีการแบ่งหน้าจะสามารถใช้ได้เคียงข้างกับรายงานของ Power BI จากนั้นสามารถกระจายได้อย่างง่ายดายโดยใช้ [แอป Power BI](../collaborate-share/service-create-distribute-apps.md).
 
 คุณอาจพิจารณาพัฒนารายงาน SSRS ขึ้นใหม่แทนที่จะย้ายข้อมูล ซึ่งเป็นจริงโดยเฉพาะอย่างยิ่งสำหรับรายงานเหล่านั้นที่มีวัตถุประสงค์เพื่อสร้างประสบการณ์การวิเคราะห์ ในกรณีเหล่านี้ รายงานของ Power BI มีแนวโน้มที่จะมอบประสบการณ์การใช้งานรายงานที่ดีขึ้น
 

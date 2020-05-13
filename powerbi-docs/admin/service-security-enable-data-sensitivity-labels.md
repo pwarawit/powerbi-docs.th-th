@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 60b7c858a98a105454efe0233484120ad4319f62
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76537243"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131914"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>เปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI (แสดงตัวอย่าง)
 
 เมื่อมีการเปิดใช้งาน [ป้ายชื่อระดับความลับของข้อมูลของ Microsoft Information Protection](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) ใน Power BI รายการต่อไปนี้จะมีผลบังคับใช้:
 
-* ผู้ใช้และกลุ่มความปลอดภัยบางกลุ่มในองค์กรสามารถจัดประเภทและ [นำป้ายชื่อระดับความลับ](../designer/service-security-apply-data-sensitivity-labels.md) ไปใช้ในแดชบอร์ด Power BI รายงาน ชุดข้อมูล และกระแสข้อมูล (ต่อจากนี้จะเรียกว่า *แอสเซท*)
+* ผู้ใช้และกลุ่มความปลอดภัยบางกลุ่มในองค์กรสามารถจัดประเภทและ [นำป้ายชื่อระดับความลับ](../collaborate-share/service-security-apply-data-sensitivity-labels.md) ไปใช้ในแดชบอร์ด Power BI รายงาน ชุดข้อมูล และกระแสข้อมูล (ต่อจากนี้จะเรียกว่า *แอสเซท*)
 * สมาชิกทั้งหมดขององค์กรสามารถดูป้ายชื่อเหล่านั้นได้
 
 ป้ายชื่อระดับความลับของข้อมูลจะส่งเสริมการป้องกันข้อมูลโดยการทำให้ผู้สร้างและผู้ใช้ของ Power BI ตระหนักถึงระดับความลับของข้อมูล ในขณะที่ให้ข้อมูลเกี่ยวกับความหมายของการจำแนกประเภทและวิธีจัดการข้อมูลที่มีการจำแนกประเภทนั้น
@@ -71,6 +71,6 @@ Power BI ใช้ป้ายชื่อระดับความลับ M
 บทความนี้อธิบายวิธีการเปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI บทความต่อไปนี้แสดงรายละเอียดเพิ่มเติมเกี่ยวกับการป้องกันข้อมูลใน Power BI 
 
 * [ภาพรวมของการป้องกันข้อมูลใน Power BI](service-security-data-protection-overview.md)
-* [ใช้ป้ายชื่อระดับความลับของข้อมูลใน Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
+* [ใช้ป้ายชื่อระดับความลับของข้อมูลใน Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [ใช้ตัวควบคุม Microsoft Cloud App Security ใน Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
 * [รายงานเมตริกการป้องกันข้อมูล](service-security-data-protection-metrics-report.md)

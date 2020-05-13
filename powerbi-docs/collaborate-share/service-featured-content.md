@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4d8b3d48828840920b6bbd792c9fe9da40308b39
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79496274"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83142309"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>แสดงเนื้อหาในส่วนแนะนำในหน้าแรกของ Power BI ของเพื่อนร่วมงาน
 
@@ -24,9 +24,9 @@ ms.locfileid: "79496274"
 
 ## <a name="who-can-feature-content"></a>ใครสามารถแสดงเนื้อหาในส่วนแนะนำได้บ้าง
 
-ข้อจำกัดนี้ขึ้นอยู่กับผู้ดูแลระบบ Power BI ของคุณเพื่อเปิดใช้งานความสามารถในการแสดงเนื้อหาในส่วนแนะนำในผู้เช่าของคุณ ผู้ดูแลระบบยังเลือกว่าใครสามารถแสดงเนื้อหาในส่วนแนะนำได้บ้าง ดูบทความ [พอร์ทัลผู้ดูแลระบบ](../service-admin-portal.md#featured-content) สำหรับรายละเอียด
+ข้อจำกัดนี้ขึ้นอยู่กับผู้ดูแลระบบ Power BI ของคุณเพื่อเปิดใช้งานความสามารถในการแสดงเนื้อหาในส่วนแนะนำในผู้เช่าของคุณ ผู้ดูแลระบบยังเลือกว่าใครสามารถแสดงเนื้อหาในส่วนแนะนำได้บ้าง ดูบทความ [พอร์ทัลผู้ดูแลระบบ](../admin/service-admin-portal.md#featured-content) สำหรับรายละเอียด
 
-ถ้าคุณเป็นหนึ่งในกลุ่มที่เลือกในองค์กรของคุณที่มีความรับผิดชอบนั้น คุณจำเป็นต้องมีสิทธิการใช้งาน Power BI Pro เพื่อแสดงแดชบอร์ดและรายงานในส่วนแนะนำ คุณจำเป็นต้องมีบทบาทผู้ดูแลระบบ สมาชิก หรือผู้สนับสนุนในพื้นที่ทำงาน เมื่อต้องการแสดงแอปในส่วนแนะนำของตัวเอง คุณจำเป็นต้องมีบทบาทผู้ดูแลระบบหรือสมาชิกในพื้นที่ทำงาน โปรดดู [บทบาทในพื้นที่ทำงานใหม่](../service-new-workspaces.md#roles-in-the-new-workspaces) สำหรับรายละเอียด
+ถ้าคุณเป็นหนึ่งในกลุ่มที่เลือกในองค์กรของคุณที่มีความรับผิดชอบนั้น คุณจำเป็นต้องมีสิทธิการใช้งาน Power BI Pro เพื่อแสดงแดชบอร์ดและรายงานในส่วนแนะนำ คุณจำเป็นต้องมีบทบาทผู้ดูแลระบบ สมาชิก หรือผู้สนับสนุนในพื้นที่ทำงาน เมื่อต้องการแสดงแอปในส่วนแนะนำของตัวเอง คุณจำเป็นต้องมีบทบาทผู้ดูแลระบบหรือสมาชิกในพื้นที่ทำงาน โปรดดู [บทบาทในพื้นที่ทำงานใหม่](service-new-workspaces.md#roles-in-the-new-workspaces) สำหรับรายละเอียด
 
 ## <a name="who-sees-featured-content"></a>ใครสามารถมองเห็นเนื้อหาที่แนะนำได้บ้าง
 
@@ -58,7 +58,6 @@ ms.locfileid: "79496274"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-* [ฉันควรทำงานร่วมกัน และแชร์แดชบอร์ดและรายงานได้อย่างไร](../service-how-to-collaborate-distribute-dashboards-reports.md)
-* [จัดการเนื้อหาที่แนะนำในพอร์ทัลผู้ดูแลระบบ](../service-admin-portal.md#manage-featured-content)
+* [ฉันควรทำงานร่วมกัน และแชร์แดชบอร์ดและรายงานได้อย่างไร](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
+* [จัดการเนื้อหาที่แนะนำในพอร์ทัลผู้ดูแลระบบ](../admin/service-admin-portal.md#manage-featured-content)
 * มีคำถามหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
-

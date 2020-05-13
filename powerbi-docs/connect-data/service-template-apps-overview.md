@@ -1,0 +1,113 @@
+---
+title: แอปแม่แบบ Power BI คืออะไร
+description: บทความนี้คือภาพรวมของโปรแกรมแอปแม่แบบ Power BI เรียนรู้วิธีสร้างแอป Power BI ด้วยโค๊ดเพียงเล็กน้อยหรือไม่มีเลย และปรับใช้กับลูกค้า Power BI ทุกท่าน
+author: paulinbar
+ms.reviewer: ''
+ms.service: powerbi
+ms.subservice: powerbi-template-apps
+ms.topic: conceptual
+ms.date: 05/04/2020
+ms.author: painbar
+ms.openlocfilehash: 3c508578b6438b0edfc3b4c9dfb7b724418894dd
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83307991"
+---
+# <a name="what-are-power-bi-template-apps"></a>แอปแม่แบบ Power BI คืออะไร
+
+แอป*แม่แบบ Power BI*ใหม่เปิดให้คู่ค้า Power BI สร้างแอป Power BI ด้วยโค๊ดเพียงเล็กน้อยหรือไม่มีเลย และปรับใช้กับลูกค้า Power BI ทุกท่าน  บทความนี้คือภาพรวมของโปรแกรมแอปแม่แบบ Power BI
+
+ในสถานะคู่ค้าของ Power BI คุณสร้างชุดเนื้อหานอกกรอบของลูกค้าของคุณและเผยแพร่ด้วยตัวของคุณเอง  
+
+คุณสร้างแอปแม่แบบที่ช่วยให้ลูกค้าของคุณสามารถเชื่อมต่อและสร้างอินสแตนซ์ภายในบัญชีของตนเอง ในฐานะเป็นผู้เชี่ยวชาญด้านโดเมน พวกเขาสามารถปลดล็อกข้อมูลในลักษณะที่ผู้ใช้งานทางธุรกิจสามารถใช้งานได้อย่างง่ายดาย  
+
+คุณส่งแอปเทมเพลตไปยัง Partner Center แอปจะสามารถใช้งานได้อย่างสาธารณะใน [Power BI Apps marketplace](https://app.powerbi.com/getdata/services) และ [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi). นี่คือภาพรวมระดับสูงที่ประสบการณ์การสร้างแอปเทมเพลตสาธารณะ
+
+## <a name="power-bi-apps-marketplace"></a>Power BI Apps marketplace
+
+Power BI Template Apps อนุญาตให้ Power BI Pro หรือผู้ใช้ Power BI Premium สามารถเข้าถึงรายงานและแดชบอร์ดเชิงลึกที่สามารถเชื่อมต่อกับแหล่งข้อมูลแบบสดๆ ได้ Power BI Apps หลายๆ ตัวพร้อมใช้แล้วใน [Power BI Apps marketplace](https://app.powerbi.com/getdata/services).
+
+|  |
+|     :---:      |
+| [![เว็บแอป Microsoft Project](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp) [![เว็บแอป Microsoft 365 Usage Analytics](./media/service-template-apps-overview/microsoft365-usage-analytics.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics) [![เว็บแอป Dynamic 365 Business Central - Sales](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales) [![เว็บแอป Microsoft Forms Pro Customer Satisfaction](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction) |
+|  |
+
+## <a name="process"></a>กระบวนการ
+ขั้นตอนทั่วไปในการพัฒนาและการส่งแอปเทมเพลตที่มีหลายขั้นตอน ขั้นตอนบางอย่างสามารถรวมกิจกรรมมากกว่าหนึ่งรายการในเวลาเดียวกัน
+
+
+| ขั้น | Power BI Desktop |  |บริการ Power BI  |  |Partner Center  |
+|---|--------|--|---------|---------|---------|
+| **หนึ่ง** | สร้างแบบจำลองข้อมูลและรายงานในไฟล์ .pbix |  | สร้างพื้นที่ทำงาน นำเข้าไฟล์ .pbix สร้างแดชบอร์ดเพิ่มเติม  |  | ลงทะเบียนเป็นคู่ค้า |
+| **สอง** |  |  | สร้างแพคเกจทดสอบและเรียกใช้การตรวจสอบภายใน        |  | |
+| **สาม** | |  | เลื่อนระดับแพคเกจทดสอบเป็นเตรียมการผลิตสำหรับการตรวจสอบนอกผู้เช่า Power BI ของคุณและส่งไปที่ AppSource  |  | แพคเกจเตรียมการผลิตของคุณ สร้างแอปแม่แบบ Power BI และเริ่มกระบวนการตรวจสอบ |
+| **สี่** | |  | เลื่อนระดับแพคเกจเตรียมการผลิตไปเป็นการผลิต |  | ถ่ายทอดสด |
+
+## <a name="before-you-begin"></a>ก่อนที่คุณเริ่มต้น
+
+สร้างแอปแม่แบบ คุณต้องมีสิทธิ์เข้าถึงเพื่อสร้างแอปแม่แบบ ดูพอร์ทัลของผู้ดูแลระบบ Power BI การตั้งค่าแอปแม่แบบสำหรับรายละเอียด 
+
+การเผยแพร่เป็นแอปเทมเพลตไปยังบริการ Power BI และ AppSource คุณต้องมีคุณสมบัติตามข้อกำหนดสำหรับ[กลายเป็นผู้เผยแพร่ใน Partner Center](https://docs.microsoft.com/azure/marketplace/become-publisher)
+ 
+## <a name="high-level-steps"></a>ขั้นตอนระดับสูง
+
+นี่คือขั้นตอนระดับสูง 
+
+1. [ตรวจสอบข้อกำหนดต่างๆ](#requirements) เพื่อให้แน่ใจว่าคุณได้ปฎิบัติตามข้อกำหนดเหล่านั้น 
+
+2. สร้างรายงานใน Power BI Desktop ใช้พารามิเตอร์เพื่อให้คุณสามารถบันทึกเป็นไฟล์ที่บุคคลอื่นสามารถใช้ได้ 
+
+3. สร้างพื้นที่ทำงานสำหรับแอปแม่แบบของคุณในผู้เช่าของคุณบนบริการ Power BI (app.powerbi.com) 
+
+4. นำเข้าไฟล์.pbix และเพิ่มเนื้อหาเช่นแดชบอร์ดลงในแอปของคุณ 
+
+5. สร้างแพคเกจทดสอบเพื่อทดสอบแอปแม่แบบด้วยตนเองภายในองค์กรของคุณ 
+
+6. เลื่อนระดับแอปทดสอบเป็นก่อนเตรียมการผลิตเพื่อส่งแอปสำหรับการตรวจสอบความถูกต้องใน AppSource และเพื่อทำการทดสอบภายนอกผู้เช่าของคุณเอง 
+
+7. ส่งเนื้อหาไปที่ [Partner Center](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) เพื่อทำการเผยแพร่ 
+
+8. ทำให้ข้อเสนอของคุณไปยัง 'ถ่ายทอดสด' ใน AppSource และย้ายแอปของคุณไปยังการผลิตใน Power BI
+
+9. ตอนนี้ คุณสามารถเริ่มพัฒนาเวอร์ชันถัดไปในพื้นที่ทำงานที่มีอยู่ของคุณ ในการเตรียมการผลิต 
+
+## <a name="requirements"></a>ข้อกำหนด
+
+สร้างแอปแม่แบบ คุณต้องมีสิทธิ์เข้าถึงเพื่อสร้างแอปแม่แบบ ดู[พอร์ทัลของผู้ดูแลระบบ Power BI การตั้งค่าแอปแม่แบบ](../admin/service-admin-portal.md#template-apps-settings)สำหรับรายละเอียด
+
+การเผยแพร่เป็นแอปเทมเพลตไปยังบริการ Power BI และ AppSource คุณต้องมีคุณสมบัติตามข้อกำหนดสำหรับ[กลายเป็นผู้เผยแพร่ใน Partner Center](https://docs.microsoft.com/azure/marketplace/become-publisher)
+ > [!NOTE] 
+ > การส่งแอปแม่แบบจะได้รับการจัดการใน [Partner Center](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) ใช้บัญชีที่ลงทะเบียนเดียวกันในศูนย์นักพัฒนา Microsoft เพื่อลงชื่อเข้าใช้ คุณควรมีบัญชี Microsoft บัญชีเดียวเท่านั้นสำหรับข้อเสนอ AppSource ของคุณ ไม่ควรมีบัญชีเฉพาะกับแต่ละบริการหรือข้อเสนอ
+
+## <a name="tips"></a>เคล็ดลับ 
+
+- ตรวจสอบให้แน่ใจว่า แอปของคุณรวมถึงข้อมูลตัวอย่างสามารถเริ่มต้นใช้งานในการคลิกเดียว 
+- ตรวจสอบแอปพลิเคชันของคุณอย่างรอบครอบโดยการติดตั้งในผู้เช่าของคุณและผู้เช่าสำรอง ตรวจสอบให้แน่ใจว่าลูกค้าได้ดูสิ่งที่คุณต้องการดูเท่านั้น 
+- ใช้ AppSource เป็นร้านค้าออนไลน์ของคุณในการโฮสต์แอปพลิเคชันของคุณ ด้วยวิธีนี้ทุกคนสามารถใช้ Power BI ค้นหาแอปของคุณได้ 
+- พิจารณาเสนอชุดเนื้อหามากกว่าหนึ่งชุด สำหรับสถานการณ์ที่แตกต่างกัน 
+- เปิดใช้งานการกำหนดค่าข้อมูล ตัวอย่าง สนับสนุนการเชื่อมต่อแบบกำหนดเองและการกำหนดค่าพารามิเตอร์ ด้วยตัวติดตั้ง
+
+ดู[เคล็ดลับสำหรับการเขียนแอปแม่แบบใน Power BI](service-template-apps-tips.md) สำหรับคำแนะนำเพิ่มเติม
+
+## <a name="known-limitations"></a>ข้อจำกัดที่ทราบ
+
+| ฟีเจอร์ | ข้อจำกัดที่ทราบ |
+|---------|---------|
+|เนื้อหา:  ชุดข้อมูล   | ควรมีชุดข้อมูลหนึ่งชุด อนุญาตเฉพาะชุดข้อมูลที่สร้างขึ้นใน Power BI Desktop (ไฟล์.pbix) <br>ไม่ได้รับการสนับสนุน ชุดข้อมูลจากอื่น ๆ แอปแม่แบบ ชุดข้อมูลพื้นที่ทำงานข้าม รายงานแบบแบ่งหน้า (ไฟล์.rdl) เวิร์กบุ๊ก Excel |
+|เนื้อหา: แดชบอร์ด | ไม่อนุญาตให้ใช้ไทล์แบบเรียลไทม์ (หรืออีกนัยหนึ่งก็คือ ไม่มีการสนับสนุนสำหรับพุชหรือชุดข้อมูลการสตรีม) |
+|เนื้อหา: กระแสข้อมูล | ไม่ได้รับการสนับสนุน กระแสข้อมูล |
+|เนื้อหาจากไฟล์ | สนับสนุนเฉพาะไฟล์ .pbix <br>ไม่ได้รับการสนับสนุน: แฟ้ม.rdl (รายงานแบบแบ่งหน้า) เวิร์กบุ๊ก Excel   |
+| แหล่งข้อมูล | แหล่งข้อมูลที่สนับสนุนสำหรับระบบคลาวด์ที่ทำกำหนดการรีเฟรชข้อมูลแล้ว <br>ไม่ได้รับการสนับสนุน <li> DirectQuery</li><li>เชื่อมต่อแบบสด (AS Azure ไม่มี)</li> <li>แหล่งข้อมูล (เกตเวย์ส่วนบุคคลและองค์กรไม่ได้รับการสนับสนุน) ในองค์กร</li> <li>แบบเรียลไทม์ (ไม่มีการสนับสนุนสำหรับชุดข้อมูลแบบพุช)</li> <li>โมเดลแบบรวม</li></ul> |
+| ชุดข้อมูล: พื้นที่ทำงานข้าม | ชุดข้อมูลพื้นที่ทำงานข้ามไม่ได้รับอนุญาต  |
+| พารามิเตอรคิวรี่ | ไม่ได้รับการสนับสนุน พารามิเตอร์ของชนิด "ใดๆ" หรือ "ไบนารี" ชนิดบล็อกรีเฟรชสำหรับชุดข้อมูล |
+| วิชวล Power BI | สนับสนุนเฉพาะวิชวล Power BI ที่พร้อมใช้งานแบบสาธารณะ ไม่สนับสนุน[วิชวล Power BI ขององค์กร](../developer/visuals/power-bi-custom-visuals-organization.md) |
+| บริการคลาวด์สาธารณะ | แอปเทมเพลตไม่สามารถใช้งานได้ในบริการคลาวด์สาธารณะ |
+
+## <a name="support"></a>การสนับสนุน
+สำหรับการสนับสนุนในระหว่างการพัฒนา กรุณาใช้ [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) เรากำลังตรวจสอบและจัดการไซต์นี้ ปัญหาของลูกค้าจะไปถึงทีมงานที่เกี่ยวข้องได้อย่างรวดเร็ว
+
+## <a name="next-steps"></a>ขั้นตอนถัดไป
+
+[สร้างแอปแม่แบบ](service-template-apps-create.md)
