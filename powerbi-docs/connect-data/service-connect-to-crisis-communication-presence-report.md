@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f637bb10ed7ec27dcb3da07fc04cae39328ffebe
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fef6bc5c396ccaf89ff4cd0e5a449cb9d01ce75b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752268"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275512"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>การเชื่อมต่อเข้ากับรายงานสภาพการณ์การสื่อสารในภาวะวิกฤติ
 
@@ -89,20 +89,20 @@ ms.locfileid: "80752268"
 
 ## <a name="schedule-report-refresh"></a>กำหนดเวลาการรีเฟรชรายงาน
 
-เมื่อรีเฟรชข้อมูลแล้ว ให้[ตั้งค่ากำหนดเวลาการรีเฟรช](../refresh-scheduled-refresh.md)เพื่อให้ข้อมูลรายงานเป็นข้อมูลล่าสุดอยู่เสมอ
+เมื่อรีเฟรชข้อมูลแล้ว ให้[ตั้งค่ากำหนดเวลาการรีเฟรช](../connect-data/refresh-scheduled-refresh.md)เพื่อให้ข้อมูลรายงานเป็นข้อมูลล่าสุดอยู่เสมอ
 
 1. ในแถบส่วนหัวด้านบนสุด เลือก **Power BI**
 
    ![เส้นทางของ Power BI](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-powerbi-breadcrumb.png)
 
-1. ในหน้าต่างนำทางด้านซ้าย มองหาแดชบอร์ดการสนับสนุนการตัดสินใจเกี่ยวกับการตอบสนองต่อสภาวะฉุกเฉินของโรงพยาบาลที่อยู่ใน**พื้นที่ทำงาน** แล้วปฏิบัติตามคำแนะนำที่อธิบายไว้ในบทความ[การปรับค่าการรีเฟรชตามกำหนดเวลา](../refresh-scheduled-refresh.md)
+1. ในหน้าต่างนำทางด้านซ้าย มองหาแดชบอร์ดการสนับสนุนการตัดสินใจเกี่ยวกับการตอบสนองต่อสภาวะฉุกเฉินของโรงพยาบาลที่อยู่ใน**พื้นที่ทำงาน** แล้วปฏิบัติตามคำแนะนำที่อธิบายไว้ในบทความ[การปรับค่าการรีเฟรชตามกำหนดเวลา](../connect-data/refresh-scheduled-refresh.md)
 
 ## <a name="customize-and-share"></a>ปรับแต่งตามความต้องการและแชร์
 
-คุณสามารถดูรายละเอียดได้ที่[ปรับแต่งและแชร์แอป](../service-template-apps-install-distribute.md#customize-and-share-the-app) ตรวจสอบให้มั่นใจว่าคุณได้อ่าน[ข้อความปฏิเสธความรับผิดชอบของรายงาน](../create-reports/sample-covid-19-us.md#disclaimers)ก่อนที่จะเผยแพร่หรือแจกจ่ายแอป
+คุณสามารถดูรายละเอียดได้ที่[ปรับแต่งและแชร์แอป](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) ตรวจสอบให้มั่นใจว่าคุณได้อ่าน[ข้อความปฏิเสธความรับผิดชอบของรายงาน](../create-reports/sample-covid-19-us.md#disclaimers)ก่อนที่จะเผยแพร่หรือแจกจ่ายแอป
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ตั้งค่าและเรียนรู้เกี่ยวกับตัวอย่างเทมเพลตของการสื่อสารในภาวะวิกฤติใน Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-* [แอปเทมเพลต Power BI คืออะไร](../service-template-apps-overview.md)
-* [ติดตั้งและแจกจ่ายแอปเทมเพลตในองค์กรของคุณ](../service-template-apps-install-distribute.md)
+* [แอปเทมเพลต Power BI คืออะไร](../connect-data/service-template-apps-overview.md)
+* [ติดตั้งและแจกจ่ายแอปเทมเพลตในองค์กรของคุณ](../connect-data/service-template-apps-install-distribute.md)

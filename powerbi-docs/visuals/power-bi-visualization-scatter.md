@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33c07df0cd8c0e00489f344e721164ed9252fcaf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866920"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276846"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>แผนภูมิกระจาย แผนภูมิฟองอากาศ และแผนภูมิลงจุดใน Power BI
 
@@ -177,13 +177,13 @@ ms.locfileid: "82866920"
 
 ![สกรีนช็อตของแผนภูมิกระจาย มี TempTime ถูกเพิ่มไปยังรายละเอียดได้ดี](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
-การสร้างเขตข้อมูลใหม่[ใช้ตัวแก้ไขแบบสอบถามของ Power BI Desktop เพืื่อเพิ่มคอลัมน์ดัชนี](../desktop-add-custom-column.md)ไปยังชุดข้อมูลของคุณ จากนั้นเพิ่มคอลัมน์นี้ไปยังพื้นที่การแสดงภาพ**รายละเอียด**ของคุณได้ดี
+การสร้างเขตข้อมูลใหม่[ใช้ตัวแก้ไขแบบสอบถามของ Power BI Desktop เพืื่อเพิ่มคอลัมน์ดัชนี](../create-reports/desktop-add-custom-column.md)ไปยังชุดข้อมูลของคุณ จากนั้นเพิ่มคอลัมน์นี้ไปยังพื้นที่การแสดงภาพ**รายละเอียด**ของคุณได้ดี
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 คุณอาจสนใจบทความต่อไปนี้:
 
-* [การสุ่มตัวอย่างความหนาแน่นสูงในแผนภูมิกระจาย Power BI](desktop-high-density-scatter-charts.md)
+* [การสุ่มตัวอย่างความหนาแน่นสูงในแผนภูมิกระจาย Power BI](../create-reports/desktop-high-density-scatter-charts.md)
 * [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 * [เคล็ดลับในการเรียงลำดับและเผยแพร่แผนพลอตข้อมูลในรายงาน Power BI](../guidance/report-tips-sort-distribute-data-plots.md)
 

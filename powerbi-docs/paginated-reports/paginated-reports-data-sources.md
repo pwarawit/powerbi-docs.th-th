@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/28/2020
-ms.openlocfilehash: ad75cf6b85a896fbdc275748dc31c620206e08a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82692889"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279169"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>แหล่งข้อมูลที่ได้รับการสนับสนุนสำหรับรายงานที่มีการแบ่งหน้าของ Power BI
 
@@ -38,7 +38,7 @@ ms.locfileid: "82692889"
 
 ## <a name="other-data-sources"></a>แหล่งข้อมูลอื่นๆ
 
-นอกเหนือจากแหล่งข้อมูลที่ได้รับการสนับสนุนในแบบดั้งเดิม แหล่งข้อมูลต่อไปนี้สามารถเข้าถึงได้ผ่านทาง[เกตเวย์ข้อมูล Power BI](../service-gateway-onprem.md):
+นอกเหนือจากแหล่งข้อมูลที่ได้รับการสนับสนุนในแบบดั้งเดิม แหล่งข้อมูลต่อไปนี้สามารถเข้าถึงได้ผ่านทาง[เกตเวย์ข้อมูล Power BI](../connect-data/service-gateway-onprem.md):
 
 - SQL Server
 - SQL Server Analysis Services
@@ -74,3 +74,4 @@ ms.locfileid: "82692889"
 [ดูรายงานแบบแบ่งหน้าในบริการของ Power BI](../consumer/paginated-reports-view-power-bi-service.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+

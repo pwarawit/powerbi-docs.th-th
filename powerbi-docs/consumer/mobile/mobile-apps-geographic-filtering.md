@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7ee8887752f6a5161e0046e4aac1711f2ce64922
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435340"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276225"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>กรองรายงานตามตำแหน่งที่ตั้งทางภูมิศาสตร์ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 ใช้ได้กับ:
@@ -39,17 +39,16 @@ ms.locfileid: "79435340"
 ## <a name="why-dont-i-see-location-tags-on-a-report"></a>ทำไมฉันจึงไม่เห็นแท็กตำแหน่งที่ตั้งในรายงาน
 จะต้องปฏิบัติตามเงื่อนไขทั้งหมดสามข้อต่อไปนี้เพื่อให้คุณเห็นแท็กตำแหน่ง 
 
-* บุคคลที่สร้างรายงานใน Power BI Desktop จะต้องมีการ[จัดประเภทข้อมูลทางภูมิศาสตร์](../../desktop-mobile-geofiltering.md)ให้กับคอลัมน์อย่างน้อยหนึ่งคอลัมน์ เช่น เมือง รัฐ หรือประเทศ/ภูมิภาค
+* บุคคลที่สร้างรายงานใน Power BI Desktop จะต้องมีการ[จัดประเภทข้อมูลทางภูมิศาสตร์](../../transform-model/desktop-mobile-geofiltering.md)ให้กับคอลัมน์อย่างน้อยหนึ่งคอลัมน์ เช่น เมือง รัฐ หรือประเทศ/ภูมิภาค
 * คุณอยู่ในตำแหน่งที่มีข้อมูลในคอลัมน์นั้น
 * คุณกำลังใช้อุปกรณ์เคลื่อนที่อย่างใดอย่างหนึ่งในนี้:
   * iOS (iPad, iPhone, iPod)
   * Android (โทรศัพท์, แท็บเล็ต)
   * มือถือ Windows 10 (อุปกรณ์ Windows 10 อื่น ๆ เช่นพีซีและแท็บเล็ตไม่สนับสนุนการกรองทางภูมิศาสตร์)
 
-อ่านเพิ่มเติมเกี่ยวกับ[การตั้งค่าการกรองทางภูมิศาสตร์](../../desktop-mobile-geofiltering.md)ใน Power BI Desktop
+อ่านเพิ่มเติมเกี่ยวกับ[การตั้งค่าการกรองทางภูมิศาสตร์](../../transform-model/desktop-mobile-geofiltering.md)ใน Power BI Desktop
 
 ### <a name="next-steps"></a>ขั้นตอนถัดไป
 * [เชื่อมต่อกับข้อมูล Power BI จากโลกแห่งความจริง](mobile-apps-data-in-real-world-context.md)ด้วยแอปสำหรับอุปกรณ์เคลื่อนที่
-* [จัดประเภทข้อมูลใน Power BI Desktop](../../desktop-data-categorization.md) 
+* [จัดประเภทข้อมูลใน Power BI Desktop](../../transform-model/desktop-data-categorization.md) 
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-

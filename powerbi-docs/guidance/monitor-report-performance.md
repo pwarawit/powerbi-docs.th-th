@@ -9,16 +9,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525548"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279031"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>ตรวจสอบประสิทธิภาพของรายงานใน Power BI
 
-ตรวจสอบประสิทธิภาพการทำงานของรายงานใน Power BI Desktop โดยใช้แอป [Power BI Premium Metrics](../service-premium-metrics-app.md) และหาตำแหน่งที่ทีการทำงานระดับคอขวดและเรียนรู้วิธีการที่คุณจะสามารถปรับปรุงประสิทธิภาพการทำงานของรายงาน
+ตรวจสอบประสิทธิภาพการทำงานของรายงานใน Power BI Desktop โดยใช้แอป [Power BI Premium Metrics](../admin/service-premium-metrics-app.md) และหาตำแหน่งที่ทีการทำงานระดับคอขวดและเรียนรู้วิธีการที่คุณจะสามารถปรับปรุงประสิทธิภาพการทำงานของรายงาน
 
 การตรวจสอบประสิทธิภาพการทำงานเกี่ยวข้องกันในสถานการณ์ต่อไปนี้:
 
@@ -39,7 +39,7 @@ ms.locfileid: "81525548"
 
 ## <a name="use-performance-analyzer"></a>ใช้ตัววิเคราะห์ประสิทธิภาพ
 
-ใช้[ตัววิเคราะห์ประสิทธิภาพ](../desktop-performance-analyzer.md)ใน Power BI Desktop เพื่อดูว่าแต่ละองค์ประกอบรายงานของคุณเช่น การแสดงผลด้วยภาพและสูตร DAX กำลังทำอะไรอยู่ ซึ่งเป็นประโยชน์โดยเฉพาะอย่างยิ่งในการตรวจสอบว่าเป็นคิวรีหรือการแสดงผลด้วยภาพที่มีการรองรับปัญหาด้านประสิทธิภาพการทำงาน
+ใช้[ตัววิเคราะห์ประสิทธิภาพ](../create-reports/desktop-performance-analyzer.md)ใน Power BI Desktop เพื่อดูว่าแต่ละองค์ประกอบรายงานของคุณเช่น การแสดงผลด้วยภาพและสูตร DAX กำลังทำอะไรอยู่ ซึ่งเป็นประโยชน์โดยเฉพาะอย่างยิ่งในการตรวจสอบว่าเป็นคิวรีหรือการแสดงผลด้วยภาพที่มีการรองรับปัญหาด้านประสิทธิภาพการทำงาน
 
 ## <a name="use-sql-server-profiler"></a>ใช้ตัวสร้างโพรไฟล์ของเซิร์ฟเวอร์ SQL
 
@@ -77,15 +77,15 @@ ms.locfileid: "81525548"
 
 ## <a name="monitor-premium-metrics"></a>ตรวจสอบเมตริกพรีเมี่ยม
 
-สำหรับความจุ Power BI Premium คุณสามารถใช้**แอปเมตริก Power BI Premium** เพื่อจัดการประสิทธิภาพและความจุของการสมัครใช้งาน Power BI Premium ของคุณได้ สำหรับข้อมูลเพิ่มเติม ให้ดู[แอปเมตริก Power BI Premium](../service-premium-metrics-app.md)
+สำหรับความจุ Power BI Premium คุณสามารถใช้**แอปเมตริก Power BI Premium** เพื่อจัดการประสิทธิภาพและความจุของการสมัครใช้งาน Power BI Premium ของคุณได้ สำหรับข้อมูลเพิ่มเติม ให้ดู[แอปเมตริก Power BI Premium](../admin/service-premium-metrics-app.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
 - [การวินิจฉัยแบบคิวรี](/power-query/QueryDiagnostics)
-- [ตัววิเคราะห์ประสิทธิภาพ](../desktop-performance-analyzer.md)
+- [ตัววิเคราะห์ประสิทธิภาพ](../create-reports/desktop-performance-analyzer.md)
 - [วิธีแก้ไขปัญหาประสิทธิภาพของรายงานใน Power BI](report-performance-troubleshoot.md)
-- [แอปเมตริก Power BI Premium](../service-premium-metrics-app.md)
+- [แอปเมตริก Power BI Premium](../admin/service-premium-metrics-app.md)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 - มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com/)

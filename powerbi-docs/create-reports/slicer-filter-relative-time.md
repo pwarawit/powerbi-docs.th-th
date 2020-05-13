@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4f0bfdbf3eb3856f872c872fbe0880ad39839e07
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 31563e5bb5b91468b8913c3204e9d27607716c77
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867610"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279215"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>ใช้ตัวแบ่งส่วนและตัวกรองเวลาแบบสัมพัทธ์ใน Power BI
 
@@ -24,7 +24,7 @@ ms.locfileid: "82867610"
 
 :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="ตัวอย่างเวลาสัมพัทธ์":::
 
-คุณไม่จำเป็นต้องใช้คุณลักษณะร่วมกับคุณลักษณะ[การรีเฟรชหน้าอัตโนมัติ](../desktop-automatic-page-refresh.md) อย่างไรก็ตาม สถานการณ์เวลาที่สัมพันธ์กันหลายรายการจับคู่กับคุณลักษณะการรีเฟรชหน้าอัตโนมัติได้เป็นอย่างดี  
+คุณไม่จำเป็นต้องใช้คุณลักษณะร่วมกับคุณลักษณะ[การรีเฟรชหน้าอัตโนมัติ](../create-reports/desktop-automatic-page-refresh.md) อย่างไรก็ตาม สถานการณ์เวลาที่สัมพันธ์กันหลายรายการจับคู่กับคุณลักษณะการรีเฟรชหน้าอัตโนมัติได้เป็นอย่างดี  
 
 > [!NOTE]
 > เมื่อคุณใช้ตัวกรองและตัวแบ่งส่วนเวลาแบบสัมพัทธ์ในระดับหน้าหรือรายงาน วิชวลทั้งหมดบนหน้าหรือรายงานนั้นจะถูกกรองไปยังช่วงเวลาที่แน่นอนเดียวกัน โดยใช้เวลา*ของจุดยึด*ที่ใช้งานร่วมกัน เนื่องจากวิชวลอาจมีเวลาการดำเนินการที่แตกต่างกันเล็กน้อย เวลาของจุดยึดที่ใช้ร่วมกันนี้จะรับประกันการซิงโครไนซ์วิชวลทั่วทุกหน้าและทั่วทุกรายงานของคุณ อ่านข้อมูลเพิ่มเติมเกี่ยวกับ[เวลาของจุดยึด](#understanding-anchor-time)ในบทความนี้
@@ -107,4 +107,3 @@ ms.locfileid: "82867610"
 
 - [ใช้ตัวแบ่งส่วนและตัวกรองวันที่แบบสัมพัทธ์ใน Power BI](../visuals/desktop-slicer-filter-date-range.md)
 - [ตัวแบ่งส่วนข้อมูลใน Power BI](../visuals/power-bi-visualization-slicers.md)
-

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377201"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279445"
 ---
 # <a name="visual-types-in-power-bi"></a>ชนิดของวิชวลใน Power BI
 
@@ -152,7 +152,7 @@ KPI เป็นตัวเลือกที่ดีที่สุด:
 ![วิชวลถามตอบ](media/end-user-visual-type/power-bi-q-and-a.png)
 
 >[!TIP]
->คล้ายกับ [ประสบการณ์ถามตอบเกี่ยวกับแดชบอร์ด](../power-bi-tutorial-q-and-a.md) วิชวลถามตอบช่วยให้คุณสามารถถามคำถามเกี่ยวกับข้อมูลของคุณโดยใช้ภาษาธรรมชาติ 
+>คล้ายกับ [ประสบการณ์ถามตอบเกี่ยวกับแดชบอร์ด](../create-reports/power-bi-tutorial-q-and-a.md) วิชวลถามตอบช่วยให้คุณสามารถถามคำถามเกี่ยวกับข้อมูลของคุณโดยใช้ภาษาธรรมชาติ 
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู[วิชวลถามตอบใน Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)
 
@@ -248,3 +248,4 @@ KPI เป็นตัวเลือกที่ดีที่สุด:
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [โต้ตอบกับวิชวลในรายงาน แดชบอร์ด และแอป](end-user-visualizations.md)    
 [อ้างอิงภาพที่ถูกต้องจาก sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

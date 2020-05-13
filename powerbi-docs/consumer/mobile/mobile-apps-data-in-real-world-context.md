@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: e7d3d19bdef1b19d397ac7db13cdec2317f8ab42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 512d9f5662a87b3819b7151eb0fc3a4d6a540dd6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114555"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278525"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>รับข้อมูลจากโลกแห่งความจริงด้วยแอปโทรศัพท์เคลื่อนที่ Power BI
 แอปโทรศัพท์เคลื่อนที่ Power BI สามารถเชื่อมโลกแห่งความจริงเข้ากับข้อมูล BI ที่เกี่ยวข้องได้โดยตรงในหลายวิธีที่แตกต่างกัน 
@@ -25,14 +25,14 @@ ms.locfileid: "79114555"
 
 ข้อมูลเพิ่มเติมเกี่ยวกับ:
 
-* [การสร้างคิวอาร์โค้ดสำหรับไทล์ใน Power BI](../../service-create-qr-code-for-tile.md)
+* [การสร้างคิวอาร์โค้ดสำหรับไทล์ใน Power BI](../../create-reports/service-create-qr-code-for-tile.md)
 * [การสแกนคิวอาร์โค้ดของ Power BI จากอุปกรณ์เคลื่อนที่ของคุณ](mobile-apps-qr-code.md)
 * [การสแกนคิวอาร์โค้ด ด้วย Power BI สำหรับแอปความเป็นจริงผสม](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)
 
 ## <a name="qr-codes-for-reports"></a>คิวอาร์โค้ดสำหรับรายงาน
 สร้างคิวอาร์โค้ดสำหรับรายงาน  เมื่อเพื่อนร่วมงานของคุณสแกนรหัสด้วย iPhones ของพวกเขา (โทรศัพท์ Android กำลังมาในเร็ว ๆ นี้) พวกเขาจะเห็นรายงานคุณได้โยงเข้ากับคิวอาร์โค้ดนั้น ๆ 
 
-ข้อมูลเพิ่มเติมเกี่ยวกับ[การสร้างคิวอาร์โค้ดสำหรับรายงานใน Power BI](../../service-create-qr-code-for-report.md)
+ข้อมูลเพิ่มเติมเกี่ยวกับ[การสร้างคิวอาร์โค้ดสำหรับรายงานใน Power BI](../../create-reports/service-create-qr-code-for-report.md)
 
 ## <a name="barcodes"></a>บาร์โค้ด
 ติดป้ายข้อมูลบาร์โค้ดในรายงานของคุณเพื่อให้เพื่อนร่วมงานสามารถสแกนบาร์โค้ดที่อยู่บนผลิตภัณฑ์ และสามารถเข้าตรงไปยังรายงานที่ได้รับการกรองสำหรับผลิตภัณฑ์นั้นแล้ว
@@ -41,7 +41,7 @@ ms.locfileid: "79114555"
 
 ข้อมูลเพิ่มเติมเกี่ยวกับ:
 
-* [ติดป้ายข้อมูลบาร์โค้ดในรายงาน](../../desktop-mobile-barcodes.md)
+* [ติดป้ายข้อมูลบาร์โค้ดในรายงาน](../../transform-model/desktop-mobile-barcodes.md)
 * [การสแกนบาร์โค้ดจากแอป Power BI บน iPhone ของคุณ](mobile-apps-scan-barcode-iphone.md)
 
 ## <a name="filter-by-location"></a>กรองข้อมูลตามตำแหน่ง
@@ -50,6 +50,5 @@ ms.locfileid: "79114555"
 ข้อมูลเพิ่มเติมเกี่ยวกับ[การกรองตามตำแหน่งที่ตั้ง](mobile-apps-geographic-filtering.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [การสร้างคิวอาร์โค้ดสำหรับไทล์ใน Power BI](../../service-create-qr-code-for-tile.md)
-* [การสร้างคิวอาร์โค้ดสำหรับรายงานใน Power BI](../../service-create-qr-code-for-report.md)
-
+* [การสร้างคิวอาร์โค้ดสำหรับไทล์ใน Power BI](../../create-reports/service-create-qr-code-for-tile.md)
+* [การสร้างคิวอาร์โค้ดสำหรับรายงานใน Power BI](../../create-reports/service-create-qr-code-for-report.md)

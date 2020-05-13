@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c296e202dccf814fcb9e1a4c6ee0620185723248
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 34c0287c8a4df296e41826f32de95b0c050c8d08
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865701"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277329"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>สร้างแผนที่ ArcGIS ใน Power BI Desktop
 
@@ -73,7 +73,7 @@ ArcGIS Maps for Power BI ให้บริการโดย Esri (https://www.
    
 ## <a name="create-an-arcgis-maps-for-power-bi-map-visualization"></a>สร้างการแสดงภาพ ArcGIS Maps for Power BI
 
-ดู Will สร้างการแสดงภาพที่แตกต่างกันสองสามภาพ จากนั้นใช้ขั้นตอนด้านล่าง เพื่อลองทำด้วยตนเองโดยใช้[ ไฟล์ .PBIX ตัวอย่างการวิเคราะห์การค้าปลีก](../sample-datasets.md)
+ดู Will สร้างการแสดงภาพที่แตกต่างกันสองสามภาพ จากนั้นใช้ขั้นตอนด้านล่าง เพื่อลองทำด้วยตนเองโดยใช้[ ไฟล์ .PBIX ตัวอย่างการวิเคราะห์การค้าปลีก](../create-reports/sample-datasets.md)
     
 
    > [!NOTE]
@@ -368,4 +368,5 @@ ArcGIS Maps for Power BI ตรวจพบขอบเขตมาตรฐา�
 [บล็อกโพสต์ประกาศให้ใช้งาน ArcGIS Maps for Power BI](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+
 

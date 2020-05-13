@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 387f0cd4ecea59fd55af0a9eceff2272ddd8097b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75220130"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278870"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>ดูรายงานจากรีพอร์ตเซิร์ฟเวอร์ภายในองค์กรและ KPI ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 
@@ -107,7 +107,7 @@ ms.locfileid: "75220130"
   > ดูรายละเอียดลงและขึ้นในขณะนี้ไม่ได้เปิดใช้งานในรายงานของ Power BI บนเซิร์ฟเวอร์รายงาน Power BI
   
     ![รายงาน power BI](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
-* ใน Power BI Desktop เจ้าของรายงานสามารถ[ปรับรายงาน](../../desktop-create-phone-report.md)ให้เหมาะสมสำหรับแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ได้ บนโทรศัพท์มือถือ รายงานที่ปรับให้เหมาะสมจะมีไอคอนพิเศษ![ไอคอนรายงาน Power BI ที่ปรับให้เหมาะสม](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png)และแบบการจัดหน้า
+* ใน Power BI Desktop เจ้าของรายงานสามารถ[ปรับรายงาน](../../create-reports/desktop-create-phone-report.md)ให้เหมาะสมสำหรับแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ได้ บนโทรศัพท์มือถือ รายงานที่ปรับให้เหมาะสมจะมีไอคอนพิเศษ![ไอคอนรายงาน Power BI ที่ปรับให้เหมาะสม](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png)และแบบการจัดหน้า
   
     ![รายงาน power BI ที่ปรับให้เหมาะสมสำหรับอุปกรณ์เคลื่อนที่](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-report.png)
 * แตะ KPI เพื่อดูในโหมดโฟกัส
@@ -133,4 +133,3 @@ ms.locfileid: "75220130"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)  
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-

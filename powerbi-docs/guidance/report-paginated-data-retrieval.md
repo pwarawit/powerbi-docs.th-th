@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 067171f7ec74beccdb5a312c1cac5bbc6c87541f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 511dc42a3090f838654cda84f596d34f02bb3439
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377661"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275098"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>คำแนะนำการเรียกข้อมูลสำหรับรายงานที่มีการแบ่งหน้า
 
@@ -101,14 +101,14 @@ ms.locfileid: "79377661"
 
 ## <a name="non-native-data-sources"></a>แหล่งข้อมูลที่ไม่ใช่แบบดั้งเดิม
 
-หากคุณต้องการพัฒนารายงานที่มีการแบ่งหน้าตามแหล่งข้อมูลที่ไม่ได้[รองรับตามรายงานที่มีการแบ่งหน้าแบบดั้งเดิม](../paginated-reports/paginated-reports-data-sources.md) คุณจะสามารถพัฒนาแบบจำลองข้อมูล Power BI Desktop ได้เป็นอันดับแรก ด้วยวิธีการนี้ คุณจะสามารถเชื่อมต่อกับ [แหล่งข้อมูลของ Power BI](../power-bi-data-sources.md) ได้มากกว่า 100 รายการ หลังจากเผยแพร่ไปยังบริการของ Power BI คุณจะสามารถพัฒนารายงานที่มีการแบ่งหน้าที่เชื่อมต่อกับชุดข้อมูลของ Power BI
+หากคุณต้องการพัฒนารายงานที่มีการแบ่งหน้าตามแหล่งข้อมูลที่ไม่ได้[รองรับตามรายงานที่มีการแบ่งหน้าแบบดั้งเดิม](../paginated-reports/paginated-reports-data-sources.md) คุณจะสามารถพัฒนาแบบจำลองข้อมูล Power BI Desktop ได้เป็นอันดับแรก ด้วยวิธีการนี้ คุณจะสามารถเชื่อมต่อกับ [แหล่งข้อมูลของ Power BI](../connect-data/power-bi-data-sources.md) ได้มากกว่า 100 รายการ หลังจากเผยแพร่ไปยังบริการของ Power BI คุณจะสามารถพัฒนารายงานที่มีการแบ่งหน้าที่เชื่อมต่อกับชุดข้อมูลของ Power BI
 
 ## <a name="data-integration"></a>การรวมข้อมูล
 
 หากคุณต้องการรวมข้อมูลจากแหล่งข้อมูลหลายรายการ คุณมีสองตัวเลือก:
 
 - **รวมชุดข้อมูลรายงาน**: หากแหล่งข้อมูล [รองรับตามรายงานที่มีการแบ่งหน้าแบบดั้งเดิม](../paginated-reports/paginated-reports-data-sources.md) คุณจะสามารถลองสร้างเขตข้อมูลที่คำนวณ ซึ่งใช้ฟังก์ชันของตัวสร้างรายงานคือ [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) หรือ [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function)
-- **พัฒนาแบบจำลอง Power BI Desktop**: อย่างไรก็ตาม มีแนวโน้มที่จะมีประสิทธิภาพมากกว่าหากคุณพัฒนาแบบจำลองข้อมูลใน Power BI Desktop คุณสามารถใช้ Power Query ในการรวมคิวรีต่างๆ ตาม [แหล่งข้อมูลที่รองรับ](../power-bi-data-sources.md) หลังจากเผยแพร่ไปยังบริการของ Power BI คุณจะสามารถพัฒนารายงานที่มีการแบ่งหน้าที่เชื่อมต่อกับชุดข้อมูลของ Power BI
+- **พัฒนาแบบจำลอง Power BI Desktop**: อย่างไรก็ตาม มีแนวโน้มที่จะมีประสิทธิภาพมากกว่าหากคุณพัฒนาแบบจำลองข้อมูลใน Power BI Desktop คุณสามารถใช้ Power Query ในการรวมคิวรีต่างๆ ตาม [แหล่งข้อมูลที่รองรับ](../connect-data/power-bi-data-sources.md) หลังจากเผยแพร่ไปยังบริการของ Power BI คุณจะสามารถพัฒนารายงานที่มีการแบ่งหน้าที่เชื่อมต่อกับชุดข้อมูลของ Power BI
 
 ## <a name="sql-server-complex-data-types"></a>ประเภทข้อมูลที่ซับซ้อนของ SQL Server
 

@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a874875c470cd85720570e57b7c6d7cf50dabca1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381456"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274178"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>ปรับใช้ข้อจำกัดของจุดข้อมูลและกลยุทธ์ตามรูปแบบการแสดงผลด้วยภาพ
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
 
 การแสดงภาพต้องทำได้อย่างรวดเร็ว และแม่นยำเมื่อแสดงภาพใน Power BI ที่จำเป็นต้องใช้การตั้งค่าอัลกอริทึมในการกำหนดค่าสำหรับของภาพแต่ละชนิด วิชวลใน Power BI ต้องยืดหยุ่นมากพอที่จะจัดการขนาดของชุดข้อมูลที่แตกต่างกัน ชุดข้อมูลบางอย่างมีจุดข้อมูลเพียงเล็กน้อย ในขณะที่บางชุดข้อมูลอื่น ๆ มีจุดข้อมูลเป็นระดับเพตะไบต์ บทความนี้อธิบายกลยุทธ์ที่ Power BI ใช้ในการแสดงภาพ
 
@@ -57,7 +59,7 @@ ms.locfileid: "79381456"
 ## <a name="strategies-and-data-point-limits-by-visual-type"></a>กลยุทธ์และจุดข้อมูลจำกัดตามรูปแบบการแสดงผลด้วยภาพ
 
 ### <a name="area-chart"></a>แผนภูมิพื้นที่
-ดู[วิธีการทำงานของเส้นอย่างง่าย ๆ](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+ดู[วิธีการทำงานของเส้นอย่างง่าย ๆ](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="barcolumn-chart"></a>แผนภูมิแท่ง/คอลัมน์
 - เมื่ออยู่ในโหมดแบบกลุ่ม
@@ -97,10 +99,10 @@ ms.locfileid: "79381456"
 - 3,500 อันดับล่างสุด
 
 ### <a name="line-chart"></a>แผนภูมิเส้น
-ดู[วิธีการทำงานของเส้นอย่างง่าย ๆ](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+ดู[วิธีการทำงานของเส้นอย่างง่าย ๆ](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="line-chart-high-density"></a>แผนภูมิเส้น ความหนาแน่นสูง
-ดู [การสุ่มตัวอย่างความหนาแน่นสูง](../desktop-high-density-sampling.md)
+ดู [การสุ่มตัวอย่างความหนาแน่นสูง](../create-reports/desktop-high-density-sampling.md)
 
 ### <a name="map"></a>แผนที่ 
 - แต้มสูงสุด: 3,500
@@ -109,9 +111,9 @@ ms.locfileid: "79381456"
 - ตำแหน่งที่ตั้ง: 3,500 อันดับสูงสุด
 - ขนาด, ตำแหน่งที่ตั้ง: 3,500 อันดับสูงสุด
 - ตำแหน่งที่ตั้ง ละติจูด และลองจิจูดรวม (+/- ตามขนาด): 3,500 อันดับสูงสุด
-- ละติจูด ลองจิจูด: ดูการ[กระจายความหนาแน่นสูง](desktop-high-density-scatter-charts.md)
+- ละติจูด ลองจิจูด: ดูการ[กระจายความหนาแน่นสูง](../create-reports/desktop-high-density-scatter-charts.md)
 - ละติจูด ลองจิจูด ขนาด: 3,500 อันดับสูงสุด
-- คำอธิบายแผนภูมิ ละติจูด ลองจิจูด: ดูการ[กระจายความหนาแน่นสูง](desktop-high-density-scatter-charts.md)
+- คำอธิบายแผนภูมิ ละติจูด ลองจิจูด: ดูการ[กระจายความหนาแน่นสูง](../create-reports/desktop-high-density-scatter-charts.md)
 - คำอธิบายแผนภูมิ ละติจูด ลองจิจูด ขนาด: คำอธิบายแผนภูมิยอดนิยม 233 คำ,  ละติจูดและลองจิจูด 15 ตำแหน่งสูงสุด (สามารถใช้สถิติหรือขีดจำกัดแบบไดนามิกได้)
 - ตำแหน่งที่ตั้ง คำอธิบายแผนภูมิ และละติจูดลองจิจูดแบบผลรวม (+/- ตามขนาด): ตำแหน่งที่ตั้งยอดนิยม 233 แห่ง คำอธิบายแผนภูมิยอดนิยม 15 คำ (สามารถใช้สถิติหรือขีดจำกัดแบบไดนามิก)
 

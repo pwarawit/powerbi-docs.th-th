@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290593"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278686"
 ---
 # <a name="referencing-power-query-queries"></a>การอ้างอิงคิวรี Power Query
 
@@ -42,7 +42,7 @@ ms.locfileid: "78290593"
 
 โดยทั่วไปแล้วเราแนะนำให้คุณอ้างอิงคิวรีเพื่อเลี่ยงการทำคิวรีซ้ำ อย่างไรก็ตามอย่างที่ได้อธิบายไปในบทความนี้แล้ว การดำเนินการเช่นนั้นอาจทำให้การรีเฟรชข้อมูลช้าลงและทำให้แหล่งข้อมูลทำงานหนักเกินไป
 
-เราแนะนำให้คุณสร้าง [กระแสข้อมูล](../service-dataflows-overview.md) แทน การใช้กระแสข้อมูลสามารถช่วยปรับปรุงเวลาที่รีเฟรชข้อมูลและลดผลกระทบกับแหล่งข้อมูลของคุณได้
+เราแนะนำให้คุณสร้าง [กระแสข้อมูล](../transform-model/service-dataflows-overview.md) แทน การใช้กระแสข้อมูลสามารถช่วยปรับปรุงเวลาที่รีเฟรชข้อมูลและลดผลกระทบกับแหล่งข้อมูลของคุณได้
 
 คุณสามารถออกแบบกระแสข้อมูลเพื่อย่อส่วนแหล่งข้อมูลและแปลงข้อมูล เมื่อกระแสข้อมูลยังคงอยู่ที่ที่เก็บข้อมูลในบริการ Power BI การดึงข้อมูลจึงสามารถทำได้อย่างรวดเร็ว ดังนั้น แม้ว่าจะมีการรอขอคิวรีอ้างอิงข้อมูลในกระแสข้อมูลหลายครั้ง เวลาในการรีเฟรชข้อมูลสามารถทำให้เร็วขึ้นได้
 
@@ -52,7 +52,7 @@ ms.locfileid: "78290593"
 
 สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
-- [การเตรียมข้อมูลด้วยตนเองใน Power BI](../service-dataflows-overview.md)
-- [การสร้างและการใช้กระแสข้อมูลใน Power BI](../service-dataflows-create-use.md)
+- [การเตรียมข้อมูลด้วยตนเองใน Power BI](../transform-model/service-dataflows-overview.md)
+- [การสร้างและการใช้กระแสข้อมูลใน Power BI](../transform-model/service-dataflows-create-use.md)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 - มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com/)

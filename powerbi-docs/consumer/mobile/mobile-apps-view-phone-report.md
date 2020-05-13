@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841790"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273534"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>ดูรายงาน Power BI ที่ปรับให้เหมาะสมกับมือถือของคุณ
 
@@ -48,7 +48,7 @@ ms.locfileid: "82841790"
 ## <a name="cross-highlight-visuals"></a>การไฮไลต์เชื่อมโยงวิชวล
 การไฮไลต์เชื่อมโยงการแสดงผลด้วยภาพในมุมมองแนวตั้งจะทำงานเช่นเดียวกันกับในบริการของ Power BI และบนมือถือในมุมมองแนวนอน: เมื่อคุณเลือกข้อมูลในวิชวลหนึ่ง วิชวลจะเน้นข้อมูลที่เกี่ยวข้องกันในวิชวลอื่นบนหน้านั้น
 
-อ่านเพิ่มเติมเกี่ยวกับ[การกรอง และไฮไลต์ใน Power BI](../../power-bi-reports-filters-and-highlighting.md)
+อ่านเพิ่มเติมเกี่ยวกับ[การกรอง และไฮไลต์ใน Power BI](../../create-reports/power-bi-reports-filters-and-highlighting.md)
 
 ## <a name="select-visuals"></a>การเลือกวิชวล
 ในรายงานมือถือ เมื่อคุณเลือกวิชวล รายงานจะไฮไลต์วิชวลนั้น โฟกัสไปที่วิชวล หยุดรูปแบบการสัมผัสบนพื่นที่ทำงาน
@@ -131,8 +131,7 @@ ms.locfileid: "82841790"
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [สร้างรายงานที่ปรับให้เหมาะสมสำหรับแอป Power BI ในอุปกรณ์มือถือ](../../desktop-create-phone-report.md)
-* [สร้างมุมมองโทรศัพท์สำหรับแดชบอร์ดใน Power BI](../../service-create-dashboard-mobile-phone-view.md)
+* [สร้างรายงานที่ปรับให้เหมาะสมสำหรับแอป Power BI ในอุปกรณ์มือถือ](../../create-reports/desktop-create-phone-report.md)
+* [สร้างมุมมองโทรศัพท์สำหรับแดชบอร์ดใน Power BI](../../create-reports/service-create-dashboard-mobile-phone-view.md)
 * [สร้างวิชวลแบบตอบสนองที่ปรับให้เหมาะสมกับทุกขนาด](../../visuals/desktop-create-responsive-visuals.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-

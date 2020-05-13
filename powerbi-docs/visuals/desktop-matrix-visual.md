@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866598"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279192"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>สร้างการแสดงข้อมูลเมทริกซ์ใน Power BI
 
@@ -62,7 +62,7 @@ ms.locfileid: "82866598"
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
-> ถ้าคุณกำลังสร้างรายงานเพิ่มเติมจากโมเดล Analysis Services หลายมิติ จะมีข้อควรพิจารณาพิเศษบางอย่างสำหรับการขยาย/ยุบ ในกรณีที่แบบจำลองนั้นใช้คุณลักษณะสมาชิกเริ่มต้น สำหรับข้อมูลเพิ่มเติม โปรดอ่านที่[ทำงานกับแบบจำลองหลายมิติใน Power BI](../desktop-default-member-multidimensional-models.md)
+> ถ้าคุณกำลังสร้างรายงานเพิ่มเติมจากโมเดล Analysis Services หลายมิติ จะมีข้อควรพิจารณาพิเศษบางอย่างสำหรับการขยาย/ยุบ ในกรณีที่แบบจำลองนั้นใช้คุณลักษณะสมาชิกเริ่มต้น สำหรับข้อมูลเพิ่มเติม โปรดอ่านที่[ทำงานกับแบบจำลองหลายมิติใน Power BI](../connect-data/desktop-default-member-multidimensional-models.md)
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>การดูรายละเอียดแนวลึกในภาพเมทริกซ์
 ด้วยภาพเมทริกซ์คุณสามารถทำกิจกรรมดูรายละเอียดแนวลึกที่ไม่เคยมีให้บริการมาก่อนได้ ซึ่งรวมถึงความสามารถในการดูรายละเอียดแนวลึกที่ระดับแถว คอลัมน์ และแม้แต่ส่วนและเซลล์ ลองมาดูวิธีการดูรายละเอียดแนวลึก
@@ -211,7 +211,7 @@ ms.locfileid: "82866598"
 
 เปิด  **URL ของเว็บ** และเลือกเขตข้อมูลที่จะใช้เป็น URL สำหรับคอลัมน์ เมื่อนำไปใช้แล้ว ค่าในเขตข้อมูลนั้น (คอลัมน์) จะกลายเป็นลิงก์ที่ใช้งานอยู่ เลื่อนวางเม้าส์เพื่อดูลิงก์และเลือกเพื่อข้ามไปยังหน้านั้น 
 
-สำหรับข้อมูลเพิ่มเติม ดูที่ [การจัดรูปแบบตารางแบบมีเงื่อนไข](../desktop-conditional-table-formatting.md)
+สำหรับข้อมูลเพิ่มเติม ดูที่ [การจัดรูปแบบตารางแบบมีเงื่อนไข](../create-reports/desktop-conditional-table-formatting.md)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>การแรเงาและสีแบบอักษร กับวิชวลเมทริกซ์
 ด้วยวิชวลเมทริกซ์ คุณสามารถใช้การจัดรูปแบบตามเงื่อนไข (สี แรเงา และแถบข้อมูล) ในพื้นหลังของเซลล์ภายในเมทริกซ์ และคุณสามารถใช้การจัดรูปแบบตามเงื่อนไขกับข้อความและค่า
@@ -233,3 +233,5 @@ ms.locfileid: "82866598"
 [วิชวล Power Apps สำหรับ Power BI](power-bi-visualization-powerapp.md)
 
 [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

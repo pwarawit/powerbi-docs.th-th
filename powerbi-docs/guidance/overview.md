@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2019
 ms.author: asaxton
-ms.openlocfilehash: e3aeff47e585d9a54edf46f7001f4686e9a76c3a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 441400a5d32ea776288f976aa1d2155a971f3c72
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73875565"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279008"
 ---
 # <a name="guidance-for-power-bi"></a>คำแนะนำสำหรับ Power BI
 
@@ -36,6 +36,6 @@ ms.locfileid: "73875565"
 
 | คำแนะนำ | คำอธิบาย |
 | --- | --- |
-| [แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล](../service-dataflows-best-practices.md) | อธิบายเกี่ยวกับแนวทางปฏิบัติที่ดีที่สุดสำหรับการออกแบบกระแสข้อมูลใน Power BI |
+| [แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล](../transform-model/service-dataflows-best-practices.md) | อธิบายเกี่ยวกับแนวทางปฏิบัติที่ดีที่สุดสำหรับการออกแบบกระแสข้อมูลใน Power BI |
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

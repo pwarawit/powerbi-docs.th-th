@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8f71eab47aba9621805891b10874ea9e501ed0bf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496287"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277927"
 ---
 # <a name="view-a-dashboard"></a>ดูแดชบอร์ด
 
@@ -49,10 +49,10 @@ ms.locfileid: "77496287"
 - **ล่าสุด**- หากคุณเพิ่งเข้าชมแดชบอร์ด
 - **แอป**-แอปส่วนใหญ่ประกอบด้วยทั้งแดชบอร์ดและรายงาน
 - **แชร์กับฉัน** - หากเพื่อนร่วมงาน[ได้แชร์แดชบอร์ดกับคุณ](end-user-shared-with-me.md)
-- **พื้นที่ทำงานของฉัน** - หากคุณได้ดาวน์โหลด[ตัวอย่าง Power BI](../sample-datasets.md) ใดๆ
+- **พื้นที่ทำงานของฉัน** - หากคุณได้ดาวน์โหลด[ตัวอย่าง Power BI](../create-reports/sample-datasets.md) ใดๆ
 
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* สร้างความคุ้นเคยกับแดชบอร์ดโดยเข้าดูหนึ่งใน[ตัวอย่าง](../sample-tutorial-connect-to-the-samples.md)ของเรา    
+* สร้างความคุ้นเคยกับแดชบอร์ดโดยเข้าดูหนึ่งใน[ตัวอย่าง](../create-reports/sample-tutorial-connect-to-the-samples.md)ของเรา    
 * เรียนรู้เกี่ยวกับ[ไทล์แดชบอร์ด](end-user-tiles.md)และสิ่งที่จะเกิดขึ้นเมื่อคุณเลือกหนึ่งแดชบอร์ด

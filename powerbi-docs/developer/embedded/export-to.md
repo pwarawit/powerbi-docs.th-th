@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1d51c16502d3217e0158add2126d0b5726d87ff1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525479"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83144710"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>ส่งออกรายงาน Power BI ไปยังไฟล์ (ตัวอย่าง)
 
@@ -34,7 +34,7 @@ ms.locfileid: "81525479"
 
 ## <a name="using-the-api"></a>การใช้ API
 
-ก่อนที่จะใช้ API ให้ยืนยันว่ามีการเปิดใช้งาน[การตั้งค่าผู้เช่าผู้ดูแลระบบ](../../service-admin-portal.md#tenant-settings)ดังต่อไปนี้:
+ก่อนที่จะใช้ API ให้ยืนยันว่ามีการเปิดใช้งาน[การตั้งค่าผู้เช่าผู้ดูแลระบบ](../../admin/service-admin-portal.md#tenant-settings)ดังต่อไปนี้:
 * **ส่งออกรายงานในรูปแบบงานนำเสนอ PowerPoint หรือเอกสาร PDF** - เปิดใช้งานโดยค่าเริ่มต้น
 * **ส่งออกรายงานเป็นไฟล์รูปภาพ** - จำเป็นสำหรับ *.png* เท่านั้นและปิดใช้งานตามค่าเริ่มต้น
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a38b3aa72c37d10ce19344ebe6f3c3f286661d62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120286"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275535"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>ติดตั้งและใช้แอปกับแดชบอร์ดและรายงาน
 
@@ -65,7 +65,7 @@ ms.locfileid: "82120286"
 
 ## <a name="get-an-app-from-the-microsoft-appsource-website"></a>ดาวน์โหลดแอปจากเว็บไซต์ Microsoft AppSource 
 
-ในตัวอย่างนี้ เราจะเปิดหนึ่งในแอปตัวอย่างของ Microsoft บน AppSource คุณจะพบแอปสำหรับบริการหลายอย่างที่คุณใช้เพื่อเรียกใช้ธุรกิจของคุณ  บริการเช่น Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo และอื่น ๆ อีกมากมาย เมื่อต้องการเรียนรู้เพิ่มเติม ดู[แอปสำหรับบริการที่คุณใช้กับ Power BI](../service-connect-to-services.md) 
+ในตัวอย่างนี้ เราจะเปิดหนึ่งในแอปตัวอย่างของ Microsoft บน AppSource คุณจะพบแอปสำหรับบริการหลายอย่างที่คุณใช้เพื่อเรียกใช้ธุรกิจของคุณ  บริการเช่น Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo และอื่น ๆ อีกมากมาย เมื่อต้องการเรียนรู้เพิ่มเติม ดู[แอปสำหรับบริการที่คุณใช้กับ Power BI](../connect-data/service-connect-to-services.md) 
 
 1. ในเบราว์เซอร์ เปิด [https://appsource.microsoft.com](https://appsource.microsoft.com) และเลือก **แอป Power BI**
 
@@ -142,3 +142,4 @@ ms.locfileid: "82120286"
 * [กลับไปยังภาพรวมของแอป](end-user-apps.md)
 * [ดูรายงาน Power BI](end-user-report-open.md)
 * [มีการแชร์เนื้อหาด้วยวิธีอื่นกับคุณ](end-user-shared-with-me.md)
+

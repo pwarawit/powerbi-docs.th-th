@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 502e37cda5533fe6d9b1ce45faa67f809dbeec78
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9c883b32d03362e5d0e0d6d5ed074cb627fabaf1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263702"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273211"
 ---
 # <a name="bi-directional-relationship-guidance"></a>คำแนะนำความสัมพันธ์แบบสองทิศทาง
 
@@ -134,10 +134,11 @@ CALCULATE(
 
 สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
-- [ความสัมพันธ์ของแบบจำลองใน Power BI Desktop](../desktop-relationships-understand.md)
+- [ความสัมพันธ์ของแบบจำลองใน Power BI Desktop](../transform-model/desktop-relationships-understand.md)
 - [ทำความเข้าใจแบบจำลองมิติที่มีลักษณะคล้ายดาวและความสำคัญที่มีต่อ Power BI](star-schema.md)
 - [คำแนะนำความสัมพันธ์แบบหนึ่งต่อหนึ่ง](relationships-one-to-one.md)
 - [คำแนะนำความสัมพันธ์แบบกลุ่มต่อกลุ่ม](relationships-many-to-many.md)
 - [คำแนะนำการแก้ไขปัญหาความสัมพันธ์](relationships-troubleshoot.md)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 - มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com/)
+

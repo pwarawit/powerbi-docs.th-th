@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e5f4fc253fbb7427de8adb21305f66769abcd428
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435915"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273097"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>สำรวจไทล์ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -52,7 +52,7 @@ ms.locfileid: "79435915"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
    
-    ลิงก์สามารถไปที่แดชบอร์ด Power BI อื่น หรือ URL ภายนอกได้ คุณสามารถ[แตะลิงก์](../../service-dashboard-edit-tile.md#hyperlink)เพื่อเปิดภายในแอป Power BI ได้ Power BI จะขอให้คุณอนุญาต ถ้าเป็นไซต์ภายนอก
+    ลิงก์สามารถไปที่แดชบอร์ด Power BI อื่น หรือ URL ภายนอกได้ คุณสามารถ[แตะลิงก์](../../create-reports/service-dashboard-edit-tile.md#hyperlink)เพื่อเปิดภายในแอป Power BI ได้ Power BI จะขอให้คุณอนุญาต ถ้าเป็นไซต์ภายนอก
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -77,7 +77,7 @@ ms.locfileid: "79435915"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
-    ลิงก์สามารถไปที่แดชบอร์ด Power BI อื่น หรือ URL ภายนอกได้ คุณสามารถ[แตะลิงก์](../../service-dashboard-edit-tile.md#hyperlink)เพื่อเปิดภายในแอป Power BI ได้ Power BI จะขอให้คุณอนุญาต ถ้าเป็นไซต์ภายนอก
+    ลิงก์สามารถไปที่แดชบอร์ด Power BI อื่น หรือ URL ภายนอกได้ คุณสามารถ[แตะลิงก์](../../create-reports/service-dashboard-edit-tile.md#hyperlink)เพื่อเปิดภายในแอป Power BI ได้ Power BI จะขอให้คุณอนุญาต ถ้าเป็นไซต์ภายนอก
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -98,7 +98,7 @@ ms.locfileid: "79435915"
    
     แตะ **เปิดรายงาน** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)เพื่อ[ ดูรายงานที่ซ่อนอยู่](mobile-reports-in-the-mobile-apps.md)
    
-    [เปิดลิงก์](../../service-dashboard-edit-tile.md#hyperlink)ถ้ามีลิงก์ ลิงก์สามารถไปที่แดชบอร์ด Power BI อื่น หรือ URL ภายนอกได้
+    [เปิดลิงก์](../../create-reports/service-dashboard-edit-tile.md#hyperlink)ถ้ามีลิงก์ ลิงก์สามารถไปที่แดชบอร์ด Power BI อื่น หรือ URL ภายนอกได้
 3. แตะ **ขยายไทล์** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png) ซึ่งจะเปิดขึ้นในโหมดโฟกัส โดยสามารถดูและสำรวจข้อมูลของไทล์ได้ง่ายขึ้น ในโหมดโฟกัสคุณสามารถ:
    
    หมุนแผนภูมิวงกลมเพื่อแสดงค่าชิ้นส่วนที่ด้านบนของวงกลม  
@@ -130,4 +130,3 @@ ms.locfileid: "79435915"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-

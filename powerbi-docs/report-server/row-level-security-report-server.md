@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d94e9696ee41e8bd76f7d11aab794ccd2dc701b3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73859177"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277996"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>การรักษาความปลอดภัยระดับแถว (RLS) ในเซิร์ฟเวอร์รายงาน Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "73859177"
 
 ทำเครื่องหมายที่ช่องนี้เมื่อใช้งาน[การรักษาความปลอดภัยระดับแถวแบบไดนามิก](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters)ตามชื่อผู้ใช้หรือรหัสล็อกอิน 
 
-เพื่อเรียนรู้เพิ่มเติม ดูที่[ตัวกรองไขว้แบบสองทิศทางที่ใช้ DirectQuery ใน Power BI Desktop](../desktop-bidirectional-filtering.md)และบทความเชิงเทคนิคของ[การรักษาความปลอดภัยแบบลำจองภาษา BI แบบตาราง](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)
+เพื่อเรียนรู้เพิ่มเติม ดูที่[ตัวกรองไขว้แบบสองทิศทางที่ใช้ DirectQuery ใน Power BI Desktop](../transform-model/desktop-bidirectional-filtering.md)และบทความเชิงเทคนิคของ[การรักษาความปลอดภัยแบบลำจองภาษา BI แบบตาราง](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)
 
 [!INCLUDE [rls-desktop-view-as-roles](../includes/rls-desktop-view-as-roles.md)]
 
@@ -84,7 +84,7 @@ ms.locfileid: "73859177"
 
 ผู้ใช้ที่มีรายงานโดยใช้ชื่อผู้ใช้ () ฟังก์ชั่น DAX จะสังเกตเห็นพฤติกรรมใหม่ในขณะนี้ซึ่งชื่อผู้ใช้หลัก (UPN) จะถูกส่งคืนยกเว้นเมื่อใช้ DirectQuery กับการรักษาความปลอดภัยแบบรวม  เนื่องจาก RLS ไม่ได้ปฏิบัติตามในสถานการณ์นั้น ลักษณะการทำงานในสถานการณ์นั้นจะไม่เปลี่ยนแปลง
 
-คุณสามารถกำหนด RLS บนชุดข้อมูลที่สร้างขึ้นด้วย Power BI Desktop เท่านั้น เพื่อเปิดใช้งาน RLS สำหรับชุดข้อมูลที่สร้างขึ้นโดยใช้ Excel คุณจะต้องแปลงไฟล์ของคุณให้เป็นไฟล์ Power BI Desktop (PBIX) ก่อน เรียนรู้เพิ่มเติมเกี่ยวกับ[การแปลงแฟ้ม Excel](../desktop-import-excel-workbooks.md)
+คุณสามารถกำหนด RLS บนชุดข้อมูลที่สร้างขึ้นด้วย Power BI Desktop เท่านั้น เพื่อเปิดใช้งาน RLS สำหรับชุดข้อมูลที่สร้างขึ้นโดยใช้ Excel คุณจะต้องแปลงไฟล์ของคุณให้เป็นไฟล์ Power BI Desktop (PBIX) ก่อน เรียนรู้เพิ่มเติมเกี่ยวกับ[การแปลงแฟ้ม Excel](../connect-data/desktop-import-excel-workbooks.md)
 
 เฉพาะการสกัด แปลง และโหลดข้อมูล (ETL) และการเชื่อมต่อ DirectQuery โดยใช้ข้อมูลประจำตัวจะได้รับการสนับสนุน การเชื่อมต่อแบบสดไปยังบริการการวิเคราะห์และการเชื่อมต่อ DirectQuery โดยใช้การรับรองความถูกต้องแบบรวมถูกจัดการในแหล่งข้อมูลพื้นฐาน 
 
@@ -122,3 +122,4 @@ ms.locfileid: "73859177"
 [ภาพรวมของผู้ดูแลระบบ](admin-handbook-overview.md)  
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+

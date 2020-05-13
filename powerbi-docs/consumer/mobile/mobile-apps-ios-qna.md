@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 78bfc17e81a3de3ce9f6f32c694de902ae0a1ef9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 015c227fd600827e306c8b31b68992e33e6a3206
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114838"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276202"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>นักวิเคราะห์เสมือนของถามตอบ ในแอป iOS - Power BI
 
@@ -102,7 +102,7 @@ ms.locfileid: "79114838"
 * ทำตาม [เคล็ดลับเหล่านี้ในการถามคำถามในถามตอบ](../end-user-q-and-a-tips.md) ในบริการของ Power BI หรือนักวิเคราะห์เสมือนของถามตอบในแอปสำหรับอุปกรณ์เคลื่อนที่ระบบ iOS ของคุณ
 
 ### <a name="how-to-enhance-the-dataset"></a>วิธีการปรับปรุงชุดข้อมูล
-* ปรับปรุงชุดข้อมูลใน Power BI Desktop หรือในบริการของ Power BI เพื่อ [ทำให้ข้อมูลของคุณสามารถใช้งานได้อย่างมีประสิทธิภาพในการถามตอบและนักวิเคราะห์เสมือนของถามตอบ](../../service-prepare-data-for-q-and-a.md)
+* ปรับปรุงชุดข้อมูลใน Power BI Desktop หรือในบริการของ Power BI เพื่อ [ทำให้ข้อมูลของคุณสามารถใช้งานได้อย่างมีประสิทธิภาพในการถามตอบและนักวิเคราะห์เสมือนของถามตอบ](../../create-reports/service-prepare-data-for-q-and-a.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [การถามตอบในบริการ Power BI](../end-user-q-and-a.md)

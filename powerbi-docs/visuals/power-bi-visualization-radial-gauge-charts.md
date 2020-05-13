@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7c6c4dbe9f17464483f5b44542ffbe04f715d4bd
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 4274136df063258b6879057636f11ec437873ae6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866943"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276363"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>แผนภูมิหน้าปัดความเร็วใน Power BI
 
@@ -116,7 +116,7 @@ ms.locfileid: "82866943"
 
 ### <a name="step-5-save-your-report"></a>ขั้นตอนที่ 5: บันทึกรายงานของคุณ
 
-1. [บันทึกรายงาน](../service-report-save.md)
+1. [บันทึกรายงาน](../create-reports/service-report-save.md)
 
 ## <a name="use-manual-format-options-to-set-minimum-maximum-and-target-values"></a>ใช้ตัวเลือกของการจัดรูปแบบเพื่อตั้งค่าต่ำสุด สูงสุด และค่าเป้าหมาย
 
@@ -151,3 +151,4 @@ ms.locfileid: "82866943"
 * [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+

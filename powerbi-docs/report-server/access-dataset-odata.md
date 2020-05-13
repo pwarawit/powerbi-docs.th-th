@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/05/2018
 ms.author: maggies
-ms.openlocfilehash: 49fe816e4920443ca101fc2f463fa23eae1ce765
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a831c73f098458d769f389916b83ca8152c1f43d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73860534"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272798"
 ---
 # <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>เข้าถึงชุดข้อมูลที่ใช้ร่วมกันเป็นฟีด OData ในเซิร์ฟเวอร์รายงาน Power BI
 คุณสามารถเข้าถึงชุดข้อมูลที่ใช้ร่วมกันจาก Power BI Desktop ด้วยฟีด OData
@@ -30,7 +30,8 @@ ms.locfileid: "73860534"
 
 โปรดตรวจสอบให้แน่ใจว่าใช้**ตัวเลือกขั้นสูง**เพื่อที่คุณจะสามารถเปิดใช้งานคอลัมน์ชนิดเปิด และจัดรูปแบบคอลัมน์ตาม Power Query ตามความต้องการของคุณ
 
-อ่านเพิ่มเติมเกี่ยวกับ[เชื่อมต่อกับฟีด OData ใน Power BI Desktop](../desktop-connect-odata.md)
+อ่านเพิ่มเติมเกี่ยวกับ[เชื่อมต่อกับฟีด OData ใน Power BI Desktop](../connect-data/desktop-connect-odata.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+
 

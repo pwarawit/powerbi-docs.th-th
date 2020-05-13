@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 61322db7085bd41539c0c79d483403b794f23f26
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8c91e2a07143a6355b7049e80cbdc3e4ba906013
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114304"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145383"
 ---
 # <a name="printing-from-the-power-bi-service"></a>การพิมพจากบริการของ Power BI
 
@@ -116,7 +116,6 @@ ms.locfileid: "79114304"
 * A: ย้อนกลับไปที่แดชบอร์ดหรือรายงานในมุมมองเริ่มต้น แล้วเปิดการแสดงผลโหมดโฟกัสและโหมดเต็มหน้าจอตามลำดับ 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[แชร์แดชบอร์ดและรายงานกับเพื่อนร่วมงานและผู้อื่น](../service-share-dashboards.md)
+[แชร์แดชบอร์ดและรายงานกับเพื่อนร่วมงานและผู้อื่น](../collaborate-share/service-share-dashboards.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
-

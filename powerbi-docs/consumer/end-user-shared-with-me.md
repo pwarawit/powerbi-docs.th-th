@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e54fbf7c521d057b6cc9fe1dde6c66358a9c349d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80302482"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277536"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>แสดงแดชบอร์ดและรายงานที่ได้แชร์กับฉัน
 
@@ -26,7 +26,7 @@ ms.locfileid: "80302482"
 
 ![ไอคอนแชร์](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-ดู Amanda ่อธิบายรายการเนื้อหา**แชร์กับฉัน** และแสดงให้เห็นวิธีการนำทางและกรองรายการ แล้ว ทำตามคำแนะนำทีละขั้นตอนด้านล่างวิดีโอเพื่อลองทำด้วยตนเอง เพื่อที่คุณจะสามารถดูแดชบอร์ดที่แชร์กับคุณ คุณจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro อ่าน[Power BI Premium คืออะไร](../service-premium-what-is.md)สำหรับรายละเอียด
+ดู Amanda ่อธิบายรายการเนื้อหา**แชร์กับฉัน** และแสดงให้เห็นวิธีการนำทางและกรองรายการ แล้ว ทำตามคำแนะนำทีละขั้นตอนด้านล่างวิดีโอเพื่อลองทำด้วยตนเอง เพื่อที่คุณจะสามารถดูแดชบอร์ดที่แชร์กับคุณ คุณจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro อ่าน[Power BI Premium คืออะไร](../admin/service-premium-what-is.md)สำหรับรายละเอียด
     
 
 > [!NOTE]
@@ -50,7 +50,7 @@ ms.locfileid: "80302482"
 * [ดูข้อมูลเชิงลึก](end-user-insights.md)ที่ Power BI พบใน![ไอคอนข้อมูลเชิงลึก](./media/end-user-shared-with-me/power-bi-insights.png)สำหรับข้อมูลดังกล่าว
   
   > [!NOTE]
-  > ดูรายละเอียดการแยกประเภท EGRC โดยเลือก **การแยกประเภท** หรือ [ดูการแยกประเภทข้อมูลแดชบอร์ด](../service-data-classification.md)
+  > ดูรายละเอียดการแยกประเภท EGRC โดยเลือก **การแยกประเภท** หรือ [ดูการแยกประเภทข้อมูลแดชบอร์ด](../create-reports/service-data-classification.md)
   > 
 
 

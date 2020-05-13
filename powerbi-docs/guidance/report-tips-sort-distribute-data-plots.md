@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e532c78254dffc9a3f95a165f509f8cc0553f09b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 639999044da94c3f31abdf63737a876b63dc83c9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065950"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278916"
 ---
 # <a name="tips-to-sort-and-distribute-data-plots-in-power-bi-reports"></a>เคล็ดลับในการเรียงลำดับและเผยแพร่แผนพลอตข้อมูลในรายงาน Power BI
 
@@ -42,7 +42,8 @@ ms.locfileid: "82065950"
 
 สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
-- [เคล็ดลับในการสร้างรายงานที่น่าทึ่ง](../desktop-tips-and-tricks-for-creating-reports.md)
+- [เคล็ดลับในการสร้างรายงานที่น่าทึ่ง](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - วิดีโอ biDezine: [9 สุดยอดเคล็ดลับในการเรียงลำดับและเผยแพร่พลอตข้อมูลใน Power BI](https://www.youtube.com/watch?v=BnhA4qa-9Jk)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 - มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com/)
+

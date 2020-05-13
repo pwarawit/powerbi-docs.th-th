@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 90d5e48ca200a6817338ae6c44595905cc76bfed
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 97e0a4f6e522997e6f132d1c3dbc493188ba66ba
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752682"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275489"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>การเชื่อมต่อรายงานการติดตาม COVID-19 ในสหรัฐอเมริกา
 บทความนี้จะแจ้งวิธีการติดตั้งแอปเทมเพลตสำหรับรายงานการติดตาม COVID-19 และวิธีการเชื่อมต่อกับแหล่งข้อมูลให้คุณทราบ
@@ -54,14 +54,14 @@ ms.locfileid: "80752682"
 
 ## <a name="schedule-report-refresh"></a>กำหนดเวลาการรีเฟรชรายงาน
 
-เมื่อการรีเฟรชข้อมูลเสร็จสมบูรณ์ คุณจะอยู่ในพื้นที่ทำงานที่เชื่อมโยงกับแอป [ตั้งค่ากำหนดเวลาการรีเฟรช](../refresh-scheduled-refresh.md)เพื่อให้ข้อมูลรายงานเป็นข้อมูลล่าสุดอยู่เสมอ
+เมื่อการรีเฟรชข้อมูลเสร็จสมบูรณ์ คุณจะอยู่ในพื้นที่ทำงานที่เชื่อมโยงกับแอป [ตั้งค่ากำหนดเวลาการรีเฟรช](../connect-data/refresh-scheduled-refresh.md)เพื่อให้ข้อมูลรายงานเป็นข้อมูลล่าสุดอยู่เสมอ
 
 ## <a name="customize-and-share"></a>ปรับแต่งตามความต้องการและแชร์
 
-คุณสามารถดูรายละเอียดได้ที่[ปรับแต่งและแชร์แอป](../service-template-apps-install-distribute.md#customize-and-share-the-app) ตรวจสอบให้มั่นใจว่าคุณได้อ่าน[ข้อความปฏิเสธความรับผิดชอบของรายงาน](../create-reports/sample-covid-19-us.md#disclaimers)ก่อนที่จะเผยแพร่หรือแจกจ่ายแอป
+คุณสามารถดูรายละเอียดได้ที่[ปรับแต่งและแชร์แอป](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) ตรวจสอบให้มั่นใจว่าคุณได้อ่าน[ข้อความปฏิเสธความรับผิดชอบของรายงาน](../create-reports/sample-covid-19-us.md#disclaimers)ก่อนที่จะเผยแพร่หรือแจกจ่ายแอป
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ตัวอย่างการติดตาม COVID-19 สำหรับรัฐของสหรัฐอเมริกาและรัฐบาลในท้องถิ่น](../create-reports/sample-covid-19-us.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-* [แอปเทมเพลต Power BI คืออะไร](../service-template-apps-overview.md)
-* [ติดตั้งและแจกจ่ายแอปเทมเพลตในองค์กรของคุณ](../service-template-apps-install-distribute.md)
+* [แอปเทมเพลต Power BI คืออะไร](../connect-data/service-template-apps-overview.md)
+* [ติดตั้งและแจกจ่ายแอปเทมเพลตในองค์กรของคุณ](../connect-data/service-template-apps-install-distribute.md)

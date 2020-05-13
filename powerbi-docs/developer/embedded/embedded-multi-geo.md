@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 269fe87a61df3470a8d11e4934ff1fca4bde7e86
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114669"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149252"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>การสนับสนุนหลายภูมิภาคสำหรับ Power BI Embedded
 
 **การสนับสนุนหลายภูมิภาคเพื่อ Power BI Embedded**หมายความว่า Isv และองค์กรที่สร้างแอปพลิเคชันโดยใช้ Power BI Embedded ฝังตัววิเคราะห์ลงในแอปของพวกเขา จะสามารถปรับใช้ข้อมูลของพวกเขาในภูมิภาคต่างๆ ได้ทั่วโลก
 
-ตอนนี้ลูกค้าที่ใช้**Power BI Embedded**สามารถตั้งค่า**ความจุ**โดยใช้ตัวเลือก**หลายภูมิภาค**ตามคุณลักษณะและข้อจำกัดที่[Power BI Premium สนับสนุน](../../service-admin-premium-Multi-Geo.md)
+ตอนนี้ลูกค้าที่ใช้**Power BI Embedded**สามารถตั้งค่า**ความจุ**โดยใช้ตัวเลือก**หลายภูมิภาค**ตามคุณลักษณะและข้อจำกัดที่[Power BI Premium สนับสนุน](../../admin/service-admin-premium-Multi-Geo.md)
 
 ## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>สร้างทรัพยากรความจุ Power BI Embedded ใหม่ด้วย Multi-Geo
 
@@ -89,6 +89,6 @@ ms.locfileid: "80114669"
 
 * [สร้างความจุ Power BI Embedded](azure-pbie-create-capacity.md)
 
-* [Multi-Geo ในความจุ Power BI Premium](../../service-admin-premium-multi-geo.md)
+* [Multi-Geo ในความจุ Power BI Premium](../../admin/service-admin-premium-multi-geo.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

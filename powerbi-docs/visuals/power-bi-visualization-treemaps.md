@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: afc18fa33ec1612900cecc0a34eb50851804fb62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866897"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276708"
 ---
 # <a name="treemaps-in-power-bi"></a>แผนที่ต้นไม้ใน Power BI
 
@@ -120,10 +120,11 @@ ms.locfileid: "82866897"
 1. ในแผนภูมิวงกลม**ยอดขายปีล่าสุดในร้านค้าเครือข่ายสาขา** เมื่อเลือกชิ้นวงกลม**การขายตรงสินค้าแฟชั่น** จะกรองข้ามทรีแมป
    ![การสาธิต GIF ของคุณลักษณะการกรองข้าม](media/power-bi-visualization-treemaps/treemapnoowl.gif)
 
-1. เมื่อต้องการจัดการวิธีการที่แผนภูมิไฮไลต์ข้ามและกรองข้ามระหว่างกัน โปรดดู [การเปลี่ยนแปลงวิธีการโต้ตอบของการแสดงภาพในรายงาน Power BI](../service-reports-visual-interactions.md)
+1. เมื่อต้องการจัดการวิธีการที่แผนภูมิไฮไลต์ข้ามและกรองข้ามระหว่างกัน โปรดดู [การเปลี่ยนแปลงวิธีการโต้ตอบของการแสดงภาพในรายงาน Power BI](../create-reports/service-reports-visual-interactions.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 * [แผนภูมิแบบน้ำตกใน Power BI](power-bi-visualization-waterfall-charts.md)
 
 * [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+

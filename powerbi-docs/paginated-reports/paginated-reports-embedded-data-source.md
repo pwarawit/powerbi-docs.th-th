@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 83fadfe5f690a87563d20b9c6385b9a37193b9c9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b70db42732143d5db938ad793be8aa3997ecdd8c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921780"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276915"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>สร้างแหล่งข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI
 
@@ -27,11 +27,11 @@ ms.locfileid: "78921780"
 - Oracle 
 - Teradata 
 
-สำหรับแหล่งข้อมูลต่อไปนี้ ให้ใช้ตัวเลือก[การเชื่อมต่อ SQL Server Analysis Services](../service-premium-connect-tools.md):
+สำหรับแหล่งข้อมูลต่อไปนี้ ให้ใช้ตัวเลือก[การเชื่อมต่อ SQL Server Analysis Services](../admin/service-premium-connect-tools.md):
 
 - ชุดข้อมูล Power BI Premium
 
-รายงานแบบแบ่งหน้าจะเชื่อมต่อกับแหล่งข้อมูลในองค์กรโดยใช้[เกตเวย์ของ Power BI](../service-gateway-onprem.md) คุณสามารถตั้งค่าเกตเวย์ได้หลังจากที่เผยแพร่รายงานไปยังบริการของ Power BI แล้ว
+รายงานแบบแบ่งหน้าจะเชื่อมต่อกับแหล่งข้อมูลในองค์กรโดยใช้[เกตเวย์ของ Power BI](../connect-data/service-gateway-onprem.md) คุณสามารถตั้งค่าเกตเวย์ได้หลังจากที่เผยแพร่รายงานไปยังบริการของ Power BI แล้ว
 
 ดู[ข้อมูลรายงานในตัวสร้างรายงาน Power BI](report-builder-data.md) สำหรับรายละเอียดเพิ่มเติม
 
@@ -93,3 +93,4 @@ ms.locfileid: "78921780"
 
 - [สร้างชุดข้อมูลแบบฝังตัวสำหรับรายงานแบบแบ่งหน้าในบริการของ Power BI](paginated-reports-create-embedded-dataset.md)
 - [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](paginated-reports-report-builder-power-bi.md)
+

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6af8568dc39544ce064643c8dfb80fa2932cf13a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82149681"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279238"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>เชื่อมต่อไปยังแดชบอร์ดการตอบสนองเหตุฉุกเฉินในระดับภูมิภาค
 แดชบอร์ดการตอบสนองเหตุฉุกเฉินในระดับภูมิภาคคือคอมโพเนนต์รายงานของ[โซลูชันการตอบสนองเหตุฉุกเฉินของ Microsoft Power Platform](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview) ผู้ดูแลระบบระดับภูมิภาคสามารถดูแดชบอร์ดในผู้เช่า Power BI ของตน เพื่อให้พวกเขาสามารถดูข้อมูลและเมตริกที่สำคัญที่จะช่วยให้พวกเขาตัดสินใจได้อย่างมีประสิทธิภาพ
@@ -82,21 +82,21 @@ ms.locfileid: "82149681"
 
 ## <a name="schedule-report-refresh"></a>กำหนดเวลาการรีเฟรชรายงาน
 
-เมื่อรีเฟรชข้อมูลแล้ว ให้[ตั้งค่ากำหนดเวลาการรีเฟรช](../refresh-scheduled-refresh.md)เพื่อให้ข้อมูลรายงานเป็นข้อมูลล่าสุดอยู่เสมอ
+เมื่อรีเฟรชข้อมูลแล้ว ให้[ตั้งค่ากำหนดเวลาการรีเฟรช](../connect-data/refresh-scheduled-refresh.md)เพื่อให้ข้อมูลรายงานเป็นข้อมูลล่าสุดอยู่เสมอ
 
 1. ในแถบส่วนหัวด้านบนสุด เลือก **Power BI**
 
    ![เส้นทางของ Power BI](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-powerbi-breadcrumb.png)
 
-1. ในหน้าต่างนำทางด้านซ้าย มองหาพื้นที่ทำงานของแดชบอร์ดการตอบสนองเหตุฉุกเฉินในระดับภูมิภาคที่อยู่ใน**พื้นที่ทำงาน** แล้วปฏิบัติตามคำแนะนำที่อธิบายไว้ในบทความ[กำหนดค่าการรีเฟรชตามกำหนดเวลา](../refresh-scheduled-refresh.md)
+1. ในหน้าต่างนำทางด้านซ้าย มองหาพื้นที่ทำงานของแดชบอร์ดการตอบสนองเหตุฉุกเฉินในระดับภูมิภาคที่อยู่ใน**พื้นที่ทำงาน** แล้วปฏิบัติตามคำแนะนำที่อธิบายไว้ในบทความ[กำหนดค่าการรีเฟรชตามกำหนดเวลา](../connect-data/refresh-scheduled-refresh.md)
 
 ## <a name="customize-and-share"></a>ปรับแต่งตามความต้องการและแชร์
 
-คุณสามารถดูรายละเอียดได้ที่[ปรับแต่งและแชร์แอป](../service-template-apps-install-distribute.md#customize-and-share-the-app) ตรวจสอบให้มั่นใจว่าคุณได้อ่าน[ข้อความปฏิเสธความรับผิดชอบของรายงาน](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)ก่อนที่จะเผยแพร่หรือแจกจ่ายแอป
+คุณสามารถดูรายละเอียดได้ที่[ปรับแต่งและแชร์แอป](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) ตรวจสอบให้มั่นใจว่าคุณได้อ่าน[ข้อความปฏิเสธความรับผิดชอบของรายงาน](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)ก่อนที่จะเผยแพร่หรือแจกจ่ายแอป
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [การทำความเข้าใจเกี่ยวกับแดชบอร์ดการตอบสนองเหตุฉุกเฉินในระดับภูมิภาค](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
 * [ตั้งค่าและเรียนรู้เกี่ยวกับตัวอย่างเทมเพลตของการสื่อสารในภาวะวิกฤติใน Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-* [แอปเทมเพลต Power BI คืออะไร](../service-template-apps-overview.md)
-* [ติดตั้งและแจกจ่ายแอปเทมเพลตในองค์กรของคุณ](../service-template-apps-install-distribute.md)
+* [แอปเทมเพลต Power BI คืออะไร](../connect-data/service-template-apps-overview.md)
+* [ติดตั้งและแจกจ่ายแอปเทมเพลตในองค์กรของคุณ](../connect-data/service-template-apps-install-distribute.md)

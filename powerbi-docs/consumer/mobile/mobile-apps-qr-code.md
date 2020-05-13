@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c4d1ce3a4a15c2d79951865e03131e001260e2c9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802083"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276087"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>สแกนคิวอาร์โค้ดของ Power BI จากอุปกรณ์เคลื่อนที่ของคุณ
 ใช้ได้กับ:
@@ -24,7 +24,7 @@ ms.locfileid: "80802083"
 
 คิวอาร์โค้ดใน Power BI สามารถเชื่อมต่อทุกอย่างในโลกแห่งความจริง เข้ากับข้อมูลที่เกี่ยวข้องกับ BI่ได้โดยตรง &#151; โดยที่ไม่จำเป็นต้องใช้การค้นหา
 
-อย่างเช่น เพื่อนร่วมงานได้[สร้างคิวอาร์โค้ดในบริการ Power BI](../../service-create-qr-code-for-tile.md)สำหรับรายงาน หรือไทล์ในแดชบอร์ด แชร์แดชบอร์ดหรือรายงานกับคุณ และวางคิวอาร์โค้ดในตำแหน่งที่ตั้งคีย์&#151;ตัวอย่างเช่น ในอีเมล หรือในรายการที่เฉพาะเจาะจง 
+อย่างเช่น เพื่อนร่วมงานได้[สร้างคิวอาร์โค้ดในบริการ Power BI](../../create-reports/service-create-qr-code-for-tile.md)สำหรับรายงาน หรือไทล์ในแดชบอร์ด แชร์แดชบอร์ดหรือรายงานกับคุณ และวางคิวอาร์โค้ดในตำแหน่งที่ตั้งคีย์&#151;ตัวอย่างเช่น ในอีเมล หรือในรายการที่เฉพาะเจาะจง 
 
 คุณสามารถสแกนคิวอาร์โค้ด สำหรับการเข้าถึงไปยังไทลแบบทันที์ที่เกี่ยวข้องหรือรายงาน จากโทรศัพท์ของคุณโดยตรง ใช้เครื่องสแกนในแอป Power BI หรือสแกนเนอร์อื่น ๆ ที่ติดตั้งบนโทรศัพท์ของคุณ 
 
@@ -75,8 +75,7 @@ ms.locfileid: "80802083"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [เชื่อมต่อกับข้อมูล Power BI จากโลกแห่งความจริง](mobile-apps-data-in-real-world-context.md)ด้วยแอปสำหรับอุปกรณ์เคลื่อนที่
-* [สร้างคิวอาร์โค้ดสำหรับไทล์ในบริการ Power BI](../../service-create-qr-code-for-tile.md)
-* [สร้างคิวอาร์โค้ดสำหรับรายงานในบริการ Power BI](../../service-create-qr-code-for-report.md)
+* [สร้างคิวอาร์โค้ดสำหรับไทล์ในบริการ Power BI](../../create-reports/service-create-qr-code-for-tile.md)
+* [สร้างคิวอาร์โค้ดสำหรับรายงานในบริการ Power BI](../../create-reports/service-create-qr-code-for-report.md)
 * คุณยังสามารถ[สแกนคิวอาร์โค้ดด้วย Power BI สำหรับแอปความเป็นจริงผสม](mobile-mixed-reality-app.md)ได้อีกด้วย
 * มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-

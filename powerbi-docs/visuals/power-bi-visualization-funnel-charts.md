@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b60a4c14873427bd06d2b6abce48c9d3d3008859
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 6eee86423fdfc1e1a9338aa4fecfd5eae0c0d111
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865264"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272867"
 ---
 # <a name="create-and-use-funnel-charts"></a>สร้างและใช้แผนภูมิกรวย
 
@@ -94,20 +94,23 @@ ms.locfileid: "82865264"
      
      ![รายละเอียดสำหรับแถบข้อเสนอ](media/power-bi-visualization-funnel-charts/funnelhover-new.png)
 
-6. [บันทึกรายงาน](../service-report-save.md)
+6. [บันทึกรายงาน](../create-reports/service-report-save.md)
 
 ## <a name="highlighting-and-cross-filtering"></a>การทำไฮไลท์และการกรองข้าม
-สำหรับข้อมูลเกี่ยวกับการใช้บานหน้าต่างตัวกรอง ดู[เพิ่มตัวกรองไปยังรายงาน](../power-bi-report-add-filter.md)
+สำหรับข้อมูลเกี่ยวกับการใช้บานหน้าต่างตัวกรอง ดู[เพิ่มตัวกรองไปยังรายงาน](../create-reports/power-bi-report-add-filter.md)
 
 ไฮไลต์แท่งในแผนภูมิกรวย จะกรองข้ามการแสดงภาพอื่น ๆ บนหน้ารายงาน... และในทางกลับกัน เพื่อทำตาม เพิ่มวิชวลอีกสองสามวิชวล บนหน้ารายงานที่มีแผนภูมิกรวย
 
 1. บนกรวย เลือกแท่ง**ข้อเสนอ** ซึ่งจะไฮไลต์เชื่อมโยงไปยังการแสดงภาพอื่น ๆ บนหน้า ใช้ CTRL เพื่อเลือกหลายค่า
    
    ![โต้ตอบกับภาพแสดงวิดีโอสั้น ๆ](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. เพื่อกำหนดลักษณะ การไฮไลต์เชื่อมโยง และการกรองข้าม ระหว่างวิชวล ดู[การโต้ตอบระหว่างวิชวลใน Power BI](../service-reports-visual-interactions.md)
+2. เพื่อกำหนดลักษณะ การไฮไลต์เชื่อมโยง และการกรองข้าม ระหว่างวิชวล ดู[การโต้ตอบระหว่างวิชวลใน Power BI](../create-reports/service-reports-visual-interactions.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 [ตัววัดใน Power BI](power-bi-visualization-radial-gauge-charts.md)
 
 [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866985"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277168"
 ---
 # <a name="create-and-use-basic-area-charts"></a>สร้างและใช้แผนภูมิพื้นที่แบบพื้นฐาน
 
@@ -68,7 +68,7 @@ ms.locfileid: "82866985"
    d.  ในการแสดงแผนภูมิตามเดือน เลือกจุดไข่ปลา (มุมบนขวาของภาพ) แล้วเลือก**เรียงลำดับตามเดือน** เมื่อต้องเปลี่ยนลำดับการจัดเรียง เลือกจุดไข่ปลาอีกครั้ง แล้วคลิก**เรียงลำดับจากน้อยไปมาก**หรือ**เรียงลำดับจากมากไปน้อย**
 
 ## <a name="highlighting-and-cross-filtering"></a>การทำไฮไลท์และการกรองข้าม
-สำหรับข้อมูลเกี่ยวกับการใช้บานหน้าต่างตัวกรอง โปรดดู[เพิ่มตัวกรองไปยังรายงาน](../power-bi-report-add-filter.md)
+สำหรับข้อมูลเกี่ยวกับการใช้บานหน้าต่างตัวกรอง โปรดดู[เพิ่มตัวกรองไปยังรายงาน](../create-reports/power-bi-report-add-filter.md)
 
 เมื่อต้องการทำไฮไลท์เฉพาะพื้นที่หนึ่งในแผนภูมิของคุณ เลือกพื้นที่นั้นหรือเส้นขอบด้านบนของพื้นที่ดังกล่าว  ถ้ามีการแสดงภาพอื่น ๆ บนหน้าเดียวกัน การทำไฮไลท์บนแผนภูมิพื้นที่พื้นฐานจะไม่กรองข้ามการแสดงภาพอื่น ๆ บนหน้ารายงาน ซึ่งต่างจากชนิดการแสดงภาพอื่น ๆ อย่างไรก็ตาม แผนภูมิพื้นที่เป็นเป้าหมายสำหรับการกรองข้ามที่เปิดใช้งานโดยการแสดงภาพอื่น ๆ บนหน้ารายงาน 
 
@@ -78,7 +78,7 @@ ms.locfileid: "82866985"
 
     ![ตัวอย่างการกรอง](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
-เมื่อต้องการเรียนรู้เพิ่มเติม ดู[การโต้ตอบแบบภาพในรายงาน](../service-reports-visual-interactions.md)
+เมื่อต้องการเรียนรู้เพิ่มเติม ดู[การโต้ตอบแบบภาพในรายงาน](../create-reports/service-reports-visual-interactions.md)
 
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา   
@@ -87,4 +87,6 @@ ms.locfileid: "82866985"
 
 ## <a name="next-step"></a>ขั้นตอนถัดไป
 [รายงานใน Power BI](power-bi-visualization-card.md)  
+
+
 

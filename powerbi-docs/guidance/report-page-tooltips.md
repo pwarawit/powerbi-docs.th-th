@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3af0828afcc7c085b896fe9e1b99f3b10bfdd5f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377753"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277858"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>ขยายภาพด้วยคำแนะนำเครื่องมือของหน้ารายงาน
 
-บทความนี้กำหนดเป้าหมายคุณในฐานะผู้สร้างรายงานที่ออกแบบรายงาน Power BI ซึ่งมีข้อเสนอแนะและคำแนะนำเมื่อสร้าง [คำแนะนำเครื่องมือของหน้ารายงาน](../desktop-tooltips.md)
+บทความนี้กำหนดเป้าหมายคุณในฐานะผู้สร้างรายงานที่ออกแบบรายงาน Power BI ซึ่งมีข้อเสนอแนะและคำแนะนำเมื่อสร้าง [คำแนะนำเครื่องมือของหน้ารายงาน](../create-reports/desktop-tooltips.md)
 
 ## <a name="suggestions"></a>มีข้อเสนอแนะไหม
 
@@ -29,7 +29,7 @@ ms.locfileid: "79377753"
 > [!NOTE]
 > วิชวลรายงานสามารถแสดงคำแนะนำเครื่องมือของหน้าได้เฉพาะเมื่อตัวกรองหน้าคำแนะนำเครื่องมือเข้ากันได้กับการออกแบบของวิชวล ตัวอย่างเช่น วิชวลที่จัดกลุ่มตาม _ผลิตภัณฑ์_ เข้ากันได้กับหน้าคำแนะนำเครื่องมือที่กรองด้วย _ผลิตภัณฑ์_
 >
-> คำแนะนำเครื่องมือของหน้าไม่สนับสนุนการโต้ตอบ หากคุณต้องการให้ผู้ใช้โต้ตอบกับรายงานของคุณ ให้สร้าง [หน้าการดูรายละเอียดแบบเจาะลึก](../desktop-drillthrough.md) แทน
+> คำแนะนำเครื่องมือของหน้าไม่สนับสนุนการโต้ตอบ หากคุณต้องการให้ผู้ใช้โต้ตอบกับรายงานของคุณ ให้สร้าง [หน้าการดูรายละเอียดแบบเจาะลึก](../create-reports/desktop-drillthrough.md) แทน
 >
 > วิชวล Power BI ไม่สนับสนุนคำแนะนำเครื่องมือของหน้า
 
@@ -65,7 +65,7 @@ ms.locfileid: "79377753"
 
 น่าสนใจว่าคุณยังสามารถแสดงปุ่ม รูปภาพ กล่องข้อความ และรูปร่างไปยังคำแนะนำเครื่องมือของหน้าในส่วนหัวของวิชวลได้อีกด้วย
 
-ตัวอย่างต่อไปนี้แสดงสิ่งที่เกิดขึ้นเมื่อผู้ใช้รายงานเลื่อนเคอร์เซอร์ไปที่ [ไอคอนส่วนหัวของการแสดงผลด้วยภาพ](../desktop-visual-elements-for-reports.md)
+ตัวอย่างต่อไปนี้แสดงสิ่งที่เกิดขึ้นเมื่อผู้ใช้รายงานเลื่อนเคอร์เซอร์ไปที่ [ไอคอนส่วนหัวของการแสดงผลด้วยภาพ](../create-reports/desktop-visual-elements-for-reports.md)
 
 ![ผู้ใช้รายงานวางเคอร์เซอร์ไว้เหนือไอคอนส่วนหัวของวิชวล (ไอคอนเครื่องหมายคำถาม) คำแนะนำเครื่องมือที่จัดรูปแบบ Rich Text Format ปรากฏขึ้น](media/report-page-tooltips/suggestion-add-help.png)
 
@@ -85,8 +85,8 @@ ms.locfileid: "79377753"
 
 สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
-- [สร้างคำแนะนำเครื่องมือตามหน้ารายงานใน Power BI Desktop](../desktop-tooltips.md)
-- [การกำหนดค่าคำแนะนำเครื่องมือเองใน Power BI Desktop](../desktop-custom-tooltips.md)
-- [ใช้องค์ประกอบภาพเพื่อปรับปรุงรายงาน Power BI](../desktop-visual-elements-for-reports.md)
+- [สร้างคำแนะนำเครื่องมือตามหน้ารายงานใน Power BI Desktop](../create-reports/desktop-tooltips.md)
+- [การกำหนดค่าคำแนะนำเครื่องมือเองใน Power BI Desktop](../create-reports/desktop-custom-tooltips.md)
+- [ใช้องค์ประกอบภาพเพื่อปรับปรุงรายงาน Power BI](../create-reports/desktop-visual-elements-for-reports.md)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 - มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com/)

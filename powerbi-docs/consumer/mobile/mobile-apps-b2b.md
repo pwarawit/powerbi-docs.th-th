@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 711c920f5b0b7feeeeb2297e0f93714e1e89f1a2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75219923"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148185"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>ดูเนื้อหา Power BI ที่แชร์กับคุณจากองค์กรภายนอก
 
@@ -28,7 +28,7 @@ Power BI บูรณาการรวมเข้ากับ Azure Active Dir
 
 ## <a name="accessing-shared-content"></a>การเข้าถึงเนื้อหาที่แชร์
 
-**ก่อนอื่น คุณต้องการใครสักคนจากองค์กรภายนอกเพื่อแชร์รายการกับคุณ** เมื่อมีคน [แชร์รายการกับคุณ](../../service-share-dashboards.md) ไม่ว่าจะเป็นจากองค์กรเดียวกันหรือจากองค์กรภายนอก คุณจะได้รับอีเมลพร้อมลิงก์ไปยังรายการที่แชร์นั้น การกดเข้าลิงก์ในอุปกรณ์มือถือของคุณจะเปิดแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ หากแอปตระหนักว่ารายการนั้นแชร์จากองค์กรภายนอก แอปจะเชื่อมต่อกับองค์กรนั้นอีกครั้งด้วยข้อมูลประจำตัวของคุณ หลังจากนั้นแอปจะโหลดรายการทั้งหมดที่แชร์กับคุณจากองค์กรนั้น
+**ก่อนอื่น คุณต้องการใครสักคนจากองค์กรภายนอกเพื่อแชร์รายการกับคุณ** เมื่อมีคน [แชร์รายการกับคุณ](../../collaborate-share/service-share-dashboards.md) ไม่ว่าจะเป็นจากองค์กรเดียวกันหรือจากองค์กรภายนอก คุณจะได้รับอีเมลพร้อมลิงก์ไปยังรายการที่แชร์นั้น การกดเข้าลิงก์ในอุปกรณ์มือถือของคุณจะเปิดแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ หากแอปตระหนักว่ารายการนั้นแชร์จากองค์กรภายนอก แอปจะเชื่อมต่อกับองค์กรนั้นอีกครั้งด้วยข้อมูลประจำตัวของคุณ หลังจากนั้นแอปจะโหลดรายการทั้งหมดที่แชร์กับคุณจากองค์กรนั้น
 
 ![Power BI เปิดรายการที่แชร์จากอีเมล ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 

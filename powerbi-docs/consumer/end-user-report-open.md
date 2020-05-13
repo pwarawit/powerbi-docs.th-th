@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 6ffdc73e5e9ef9ccd416378c19da587986c80b55
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 661277337c00f160c010351ba5f827b6e0fc2f8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114334"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277628"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>ดูรายงานในบริการของ Power BI สำหรับ*ผู้บริโภค*
 
@@ -99,14 +99,14 @@ ms.locfileid: "79114334"
     ![เปิดรายงานในมุมมองการอ่าน](./media/end-user-report-open/power-bi-report-tabs.png)
 
 > [!NOTE]
-> ไทล์ทั้งหมดไม่นำไปสู่รายงาน ถ้าคุณเลือกไทล์ที่[ถูกสร้างขึ้นด้วยการถามตอบ](end-user-q-and-a.md) หน้าจอถามตอบจะเปิดขึ้น หากคุณเลือกไทล์ที่[สร้างขึ้นโดยใช้แดชบอร์ด **เพิ่มวิดเจ็ต**ของไทล์](../service-dashboard-add-widget.md) แล้วสิ่งต่างๆ อาจเกิดขึ้นได้ วิดีโออาจเล่น เว็บไซต์เปิดขึ้น และอื่น ๆ อีกมากมาย  
+> ไทล์ทั้งหมดไม่นำไปสู่รายงาน ถ้าคุณเลือกไทล์ที่[ถูกสร้างขึ้นด้วยการถามตอบ](end-user-q-and-a.md) หน้าจอถามตอบจะเปิดขึ้น หากคุณเลือกไทล์ที่[สร้างขึ้นโดยใช้แดชบอร์ด **เพิ่มวิดเจ็ต**ของไทล์](../create-reports/service-dashboard-add-widget.md) แล้วสิ่งต่างๆ อาจเกิดขึ้นได้ วิดีโออาจเล่น เว็บไซต์เปิดขึ้น และอื่น ๆ อีกมากมาย  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>ยังคงวิธีอื่น ๆ ในการเปิดรายงาน
 เมื่อคุณใช้บริการของ Power BI ต่าง ๆ ได้คล่องแล้ว คุณจะรู้ว่าเวิร์กโฟลว์การทำงานแบบไหนที่ดีที่สุดสำหรับคุณ สองสามวิธีอื่น ๆ ในการเข้าถึงรายงาน:
 - จากหน้าต่างนำทาง ใช้[รายการโปรด](end-user-favorite.md) และ [ล่าสุด](end-user-recent.md)    
 - ใช้[เนื้อหาที่เกี่ยวข้องกับมุมมอง](end-user-related.md)    
-- ในอีเมล เมื่อมีใคร[แชร์กับคุณ](../service-share-reports.md) หรือคุณ[ตั้งค่าการแจ้งเตือน](end-user-alerts.md)    
+- ในอีเมล เมื่อมีใคร[แชร์กับคุณ](../collaborate-share/service-share-reports.md) หรือคุณ[ตั้งค่าการแจ้งเตือน](end-user-alerts.md)    
 - จาก[ศูนย์การแจ้งเตือน](end-user-notification-center.md)ของคุณ    
 - จากพื้นที่ทำงาน
 - และอื่น ๆ อีกมากมาย

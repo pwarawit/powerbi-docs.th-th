@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867035"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274201"
 ---
 # <a name="line-charts-in-power-bi"></a>แผนภูมิเส้นใน Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "82867035"
 > [!NOTE]
 > การแชร์รายงานของคุณกับผู้ร่วมงาน Power BI กำหนดให้คุณต้องมีสิทธิ์การใช้งาน Power BI Pro แต่ละรายการ หรือรายงานจะถูกบันทึกในความจุแบบพรีเมียม
 
-1. เริ่มต้นบน หน้ารายงานเปล่า หากคุณกำลังใช้บริการของ Power BI ตรวจสอบให้แน่ใจว่า คุณเปิดรายงานใน [มุมมองการแก้ไข](../service-interact-with-a-report-in-editing-view.md)
+1. เริ่มต้นบน หน้ารายงานเปล่า หากคุณกำลังใช้บริการของ Power BI ตรวจสอบให้แน่ใจว่า คุณเปิดรายงานใน [มุมมองการแก้ไข](../create-reports/service-interact-with-a-report-in-editing-view.md)
 
 2. จากบานหน้าต่างเขตข้อมูล ให้เลือก**SalesFact** \> **ผลรวมหน่วย** และเลือก**วัน** > **เดือน**  Power BI สร้างแผนภูมิคอลัมน์บนพื้นที่รายงานของคุณ
 
@@ -74,7 +74,7 @@ ms.locfileid: "82867035"
    ![ค่าที่แตกต่างกันมาก](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>การทำไฮไลท์และการกรองข้าม
-สำหรับข้อมูลเกี่ยวกับการใช้บานหน้าต่างตัวกรอง โปรดดู[เพิ่มตัวกรองไปยังรายงาน](../power-bi-report-add-filter.md)
+สำหรับข้อมูลเกี่ยวกับการใช้บานหน้าต่างตัวกรอง โปรดดู[เพิ่มตัวกรองไปยังรายงาน](../create-reports/power-bi-report-add-filter.md)
 
 การเลือกจุดข้อมูลบนแผนภูมิเส้น เป็นการไฮไลต์แบบเชื่อมโยงและกรองข้ามไปยังการแสดงภาพอื่น ๆ บนหน้ารายงาน และในทางกลับกัน การยกเลิกไฮไลต์จะเป็นการยกเลิกการกระทำดังกล่าว หากต้องการปฏิบัติตาม ให้เปิดแท็บ **ตลาด**  
 
@@ -86,7 +86,7 @@ ms.locfileid: "82867035"
 
 โปรดสังเกตว่า แผนภูมิคอลัมน์จะมีการไฮไลต์ข้าม และเกจวัดมีการกรองแบบข้าม
 
-เมื่อต้องการจัดการวิธีการที่แผนภูมิเน้นข้ามและกรองข้ามระหว่างกัน โปรดดู[การโต้ตอบแบบการแสดงภาพในรายงาน Power BI](../service-reports-visual-interactions.md)
+เมื่อต้องการจัดการวิธีการที่แผนภูมิเน้นข้ามและกรองข้ามระหว่างกัน โปรดดู[การโต้ตอบแบบการแสดงภาพในรายงาน Power BI](../create-reports/service-reports-visual-interactions.md)
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
 * แผนภูมิเส้นหนึ่งไม่สามารถมีแกน Y คู่กัน  คุณจะต้องใช้แผนภูมิผสมแทน
@@ -95,5 +95,8 @@ ms.locfileid: "82867035"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 [ชนิดการแสดงภาพใน Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+
 
 

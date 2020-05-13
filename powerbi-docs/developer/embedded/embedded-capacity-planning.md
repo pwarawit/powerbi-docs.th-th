@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: f437b1d1fbfc1e905878fbb99875f1fc455e7b14
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79493261"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145130"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>ความจุและ SKU ในการวิเคราะห์แบบฝังของ Power BI
 
@@ -51,7 +51,7 @@ ms.locfileid: "79493261"
 
 หากต้องการดูผลกระทบของการทดสอบการโหลดในแอปเมตริกหลังจากการทดสอบ ให้ทำตามคำแนะนำด้านล่าง คาดว่าจะมีความล่าช้า 15 นาทีตั้งแต่เวลาที่การทดสอบเริ่มสร้างการโหลด จนกว่าเวลาที่โหลดจะปรากฏในเมตริก
 
-1. ขยายแถบ**ชุดข้อมูล**ของหน้าเริ่มต้น[แอปเมตริก](../../service-admin-premium-monitor-capacity.md)ของคุณ
+1. ขยายแถบ**ชุดข้อมูล**ของหน้าเริ่มต้น[แอปเมตริก](../../admin/service-admin-premium-monitor-capacity.md)ของคุณ
 2. เริ่มต้นการรีเฟรชตามความต้องการโดยการคลิก**รีเฟรชทันที** ผู้ดูแลระบบควร
 
     ![เมตริกความจุ Power BI Premium](media/embedded-capacity-planning/embedded-capacity-planning.png)

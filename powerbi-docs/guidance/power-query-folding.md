@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: e8123bba9f68305e1944dbfb280b5255e4fb9b48
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 271ccd9abcba8fe75f0ad66a88cb970584855a35
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75622159"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149170"
 ---
 # <a name="query-folding-guidance-in-power-bi-desktop"></a>คำแนะนำการพับคิวรีใน Power BI Desktop
 
@@ -52,5 +52,5 @@ _การพับคิวรี_ คือความสามารถส�
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
 - บทความแนวคิดของ[การพับคิวรี](/power-query/power-query-folding)ใน Power Query
-- [การรีเฟรชแบบเพิ่มหน่วยใน Power BI Premium](../service-premium-incremental-refresh.md)
+- [การรีเฟรชแบบเพิ่มหน่วยใน Power BI Premium](../admin/service-premium-incremental-refresh.md)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

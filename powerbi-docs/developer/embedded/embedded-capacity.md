@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 27d6ddd9b24e09805bd22150a22347e5cd93c8e0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 66ef36f669b5f34c19f283cf9ebc8be2b12332ec
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492847"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148644"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>ความจุและ SKU ในการวิเคราะห์แบบฝังตัวของ Power BI
 
@@ -38,7 +38,7 @@ Power BI Embedded มีไว้สำหรับ ISV และนักพั
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
-[Power BI Premium](../../service-premium-what-is.md) มีความจุที่ปรับให้เหมาะกับองค์กร ที่ต้องการโซลูชัน BI ที่สมบูรณ์ ที่ให้มุมมองเดียวกันแก่องค์กร คู่ค้า ลูกค้า และผู้จัดหาสินค้าขององค์กร
+[Power BI Premium](../../admin/service-premium-what-is.md) มีความจุที่ปรับให้เหมาะกับองค์กร ที่ต้องการโซลูชัน BI ที่สมบูรณ์ ที่ให้มุมมองเดียวกันแก่องค์กร คู่ค้า ลูกค้า และผู้จัดหาสินค้าขององค์กร
 
 Power BI Premium เป็นผลิตภัณฑ์ SaaS ที่ให้ผู้ใช้สามารถใช้เนื้อหาผ่านทางแอปสำหรับอุปกรณ์เคลื่อนที่ แอปที่พัฒนาขึ้นเองภายใน หรือที่พอร์ทัล Power BI (บริการ Power BI) สิ่งนี้ทำให้ Power BI Premium มีโซลูชันสำหรับแอปพลิเคชันของลูกค้าทั้งภายในและภายนอก
 
@@ -46,21 +46,21 @@ Power BI Premium เป็นผลิตภัณฑ์ SaaS ที่ให้
 
 ความจุแต่ละแบบจะนำเสนอ SKU เฉพาะแบบ และ SKU แต่ละแบบจะนำเสนอเทียร์ทรัพยากรที่แตกต่างกันสำหรับหน่วยความจำและพลังในการประมวลผล ประเภทของ SKU ที่คุณต้องการ จะขึ้นอยู่กับประเภทโซลูชันที่คุณต้องการปรับใช้
 
-เพื่อทำความเข้าใจปริมาณงานที่รองรับสำหรับแต่ละเทียร์ โปรดดูที่บทความ [กำหนดค่าปริมาณงานในกำลังการผลิตแบบ Premium](../../service-admin-premium-workloads.md)
+เพื่อทำความเข้าใจปริมาณงานที่รองรับสำหรับแต่ละเทียร์ โปรดดูที่บทความ [กำหนดค่าปริมาณงานในกำลังการผลิตแบบ Premium](../../admin/service-admin-premium-workloads.md)
 
 ใช้ลิงก์นี้เพื่อ{1}วางแผนและทดสอบความจุของคุณ{2}
 * [การวางแผนความจุ](embedded-capacity-planning.md)
-* [การทดสอบวิธีการ](../../service-premium-capacity-optimize.md#testing-approaches)
+* [การทดสอบวิธีการ](../../admin/service-premium-capacity-optimize.md#testing-approaches)
 
 ### <a name="power-bi-embedded-skus"></a>SKU สำหรับ Power BI Embedded
 
-Power BI Embedded จะถูกจัดส่งด้วย [*a* SKU](../../service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)
+Power BI Embedded จะถูกจัดส่งด้วย [*a* SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)
 
 ### <a name="power-bi-premium-skus"></a>Power BI Premium SKU
 
 Power BI premium นำเสนอ SKU สองแบบคือ *P* และ *EM*
-* [เข้าใจความแตกต่างระหว่าง *P* กับ *EM* SKU](../../service-premium-what-is.md#subscriptions-and-licensing)
-* [ซื้อ Premium SKU](../../service-admin-premium-purchase.md)
+* [เข้าใจความแตกต่างระหว่าง *P* กับ *EM* SKU](../../admin/service-premium-what-is.md#subscriptions-and-licensing)
+* [ซื้อ Premium SKU](../../admin/service-admin-premium-purchase.md)
 
 ### <a name="which-sku-should-i-use"></a>SKU ใดที่คุณควรใช้
 

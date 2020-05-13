@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 7415750d59155f690cf0ff1ced25b31669f73710
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b6b84d9e6c5f0dee912ccf80cf6949618b16d8c5
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114577"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148990"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>เครื่องมือการย้าย Power BI แบบฝัง
 
@@ -271,7 +271,7 @@ ms.locfileid: "80114577"
 
 [การฝังด้วย Power BI](embedding.md)  
 [วิธีการย้ายเนื้อหาคอลเลกชันพื้นที่ทำงานแบบฝัง Power BI ไปยัง Power BI](migrate-from-powerbi-embedded.md)  
-[Power BI Premium คืออะไร](../../service-premium-what-is.md)  
+[Power BI Premium คืออะไร](../../admin/service-premium-what-is.md)  
 [พื้นที่เก็บข้อมูลของ JavaScript API Git](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git repo](https://github.com/Microsoft/PowerBI-CSharp)  
 [ตัวอย่างการฝัง JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: cb3947ec7aaf6d67a22eb1d7543a57e66e87f5f3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 029970885070fad34e38697aa4c81fce316b7410
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114438"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277674"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>สำรวจภาพรวมของบานหน้าต่างตัวกรองรายงาน
 
@@ -25,7 +25,7 @@ ms.locfileid: "79114438"
 
 บทความนี้จะอธิบายบานหน้าต่าง **ตัวกรอง** รายงานในบริการของ Power BI ใช้ตัวกรองเพื่อค้นหาข้อมูลเชิงลึกใหม่ในข้อมูลของคุณ
 
-มีหลายวิธีในการกรองข้อมูลใน Power BI สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวกรอง ดูที่ [ตัวกรองและการไฮไลท์ในรายงาน Power BI](../power-bi-reports-filters-and-highlighting.md)
+มีหลายวิธีในการกรองข้อมูลใน Power BI สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตัวกรอง ดูที่ [ตัวกรองและการไฮไลท์ในรายงาน Power BI](../create-reports/power-bi-reports-filters-and-highlighting.md)
 
 ![สกรีนช็อตของรายงานในเบราว์เซอร์ที่มีลูกศรชี้ไปยังตัวเลือกตัวกรอง](media/end-user-report-filter/power-bi-report.png)
 

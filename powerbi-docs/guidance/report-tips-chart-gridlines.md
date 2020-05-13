@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: c40d93cc06204ee7a935727c3b38494fdeb71256
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1a8dba63b0832886ce550cb2ed02249317e7240e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065537"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272775"
 ---
 # <a name="tips-to-control-chart-gridlines-in-power-bi-reports"></a>เคล็ดลับในการควบคุมเส้นตารางแผนภูมิในรายงาน Power BI
 
@@ -36,7 +36,8 @@ ms.locfileid: "82065537"
 
 สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
-- [เคล็ดลับในการสร้างรายงานที่น่าทึ่ง](../desktop-tips-and-tricks-for-creating-reports.md)
+- [เคล็ดลับในการสร้างรายงานที่น่าทึ่ง](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - วิดีโอ biDezine: [เคล็ดลับยอดนิยม 3 อันดับแรกในการควบคุมเส้นตารางแผนภูมิใน Power BI](https://www.youtube.com/watch?v=Y-igshes2LI)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 - มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com)
+
