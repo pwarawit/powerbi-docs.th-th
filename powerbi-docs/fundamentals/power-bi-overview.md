@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487747"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349620"
 ---
 # <a name="what-is-power-bi"></a>Power BI คืออะไร
 **Power BI** คือคอลเลกชันของบริการซอฟต์แวร์ แอป และตัวเชื่อมต่อที่ทำงานร่วมกันเพื่อเปลี่ยนแหล่งข้อมูลที่ไม่เกี่ยวข้องของคุณให้เป็นข้อมูลเชิงลึกที่สอดคล้องกัน แสดงข้อมูลได้ และโต้ตอบได้ ข้อมูลของคุณอาจเป็นสเปรดชีต Excel หรือคอลเลกชันของระบบ Cloud และคลังข้อมูลแบบไฮบริดภายในองค์กร Power BI ช่วยให้คุณเชื่อมต่อกับแหล่งข้อมูลของคุณ แสดงภาพและค้นพบเรื่องสำคัญ รวมถึงแชร์สิ่งเหล่านั้นกับบุคคลหรือทุกคนที่คุณต้องการได้อย่างง่ายดาย
@@ -42,9 +42,9 @@ Power BI ประกอบด้วย:
 วิธีที่คุณใช้ Power BI สามารถยึดตามลักษณะหรือบริการของ Power BI ซึ่งเป็นเครื่องมือที่ดีที่สุดสำหรับสถานการณ์ของคุณ ตัวอย่างเช่น คุณสามารถใช้ Power BI Desktop ในการสร้างรายงานเกี่ยวกับการส่วนมีส่วนร่วมกับลูกค้าสำหรับทีมของคุณเอง และคุณอาจดูสินค้าคงคลังและความคืบหน้ากระบวนการผลิตในแดชบอร์ดแบบเรียลไทม์ในบริการของ Power BI เนื่องจากแต่ละส่วนของ Power BI พร้อมให้บริการแก่คุณ จึงเป็นเหตุผลที่ผลิตภัณฑ์ Power BI มีความยืดหยุ่นและน่าสนใจ
 
 สำรวจเอกสารประกอบที่เหมาะสมกับบทบาทของคุณ:
-- Power BI Desktop สำหรับ[*นักออกแบบ*](../desktop-what-is-desktop.md)
+- Power BI Desktop สำหรับ[*นักออกแบบ*](desktop-what-is-desktop.md)
 - Power BI สำหรับ [*ผู้บริโภค*](../consumer/end-user-consumer.md)
-- Power BI สำหรับ [*ผู้ดูแลระบบ*](../service-admin-administering-power-bi-in-your-organization.md)
+- Power BI สำหรับ [*ผู้ดูแลระบบ*](../admin/service-admin-administering-power-bi-in-your-organization.md)
 - Power BI สำหรับ *นักพัฒนา*
     * [การวิเคราะห์แบบฝังตัวด้วย Power BI](../developer/embedded/embedding.md)
     * [Power BI อะไรที่ถูกฝังอยู่ใน Azure?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
@@ -71,5 +71,5 @@ Power BI ประกอบด้วย:
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 - [เริ่มต้นใช้งานด่วน: เรียนรู้วิธีการสำรวจบริการของ Power BI](../service-the-new-power-bi-experience.md)   
-- [บทช่วยสอน: เริ่มต้นใช้งานกับบริการของ Power BI](../service-get-started.md)
-- [เริ่มต้นใช้งานด่วน: เชื่อมต่อกับข้อมูลใน Power BI Desktop](../desktop-quickstart-connect-to-data.md)
+- [บทช่วยสอน: เริ่มต้นใช้งานกับบริการของ Power BI](service-get-started.md)
+- [เริ่มต้นใช้งานด่วน: เชื่อมต่อกับข้อมูลใน Power BI Desktop](../connect-data/desktop-quickstart-connect-to-data.md)

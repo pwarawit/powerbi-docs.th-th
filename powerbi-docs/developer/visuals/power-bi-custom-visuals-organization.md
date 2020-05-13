@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80464585"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278824"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>วิชวลองค์กรใน Power BI
 
@@ -42,8 +42,6 @@ ms.locfileid: "80464585"
 มีข้อควรพิจารณาและข้อจำกัดที่คุณจำเป็นต้องระวังมากมาย
 
 ผู้ดูแลระบบ
-
-* ไม่รองรับส่วนการแสดงผล Power BIแบบดั้งเดิม (เช่น ส่วนการแสดงผล Power BI ที่ไม่ได้สร้างขึ้นจาก API รุ่นใหม่)
 
 * หากวิชวล Power BI จาก ApSource หรือไฟล์ถูกลบจากที่เก็บ รายงานใด ๆ ที่มีอยู่ที่ใช้วิชวลที่ถูกลบนั้นจะหยุดการแสดงผล ไม่สามารถย้อนกลับการลบจากที่เก็บได้ หากต้องการปิดใช้งานวิชวล Power BI ชั่วคราวจาก ApSource หรือไฟล์ ให้ใช้คุณลักษณะ "ปิดใช้งาน"
 
