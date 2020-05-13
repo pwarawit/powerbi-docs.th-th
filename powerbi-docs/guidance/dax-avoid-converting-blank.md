@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2f70b98ed540a2e5b87e5a949e30b0c1c02069d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700397"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279652"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: หลีกเลี่ยงการแปลง BLANK ไปเป็นค่า
 
@@ -66,7 +66,7 @@ DIVIDE([Profit], [Sales])
 ![ขณะนี้วิชวลตารางเดียวกันจะแสดงข้อมูลสี่แถว แต่ละแถวใช้สำหรับลูกค้าที่มีมูลค่ายอดขายและค่าอัตรากำไรไม่เป็นศูนย์](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
-> เมื่อจำเป็น คุณสามารถกำหนดค่าวิชวลเพื่อแสดงการจัดกลุ่มทั้งหมด (ที่ส่งกลับค่าหรือค่า BLANK) ภายในบริบทของตัวกรองได้โดยการเปิดใช้งานตัวเลือก [แสดงรายการโดยไม่มีข้อมูล](../desktop-show-items-no-data.md)
+> เมื่อจำเป็น คุณสามารถกำหนดค่าวิชวลเพื่อแสดงการจัดกลุ่มทั้งหมด (ที่ส่งกลับค่าหรือค่า BLANK) ภายในบริบทของตัวกรองได้โดยการเปิดใช้งานตัวเลือก [แสดงรายการโดยไม่มีข้อมูล](../create-reports/desktop-show-items-no-data.md)
 
 ## <a name="recommendation"></a>คำแนะนำ
 
@@ -80,3 +80,4 @@ DIVIDE([Profit], [Sales])
 
 - [ข้อมูลอ้างอิงเกี่ยวกับ Data Analysis Expressions (DAX)](/dax/)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+
