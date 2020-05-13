@@ -6,339 +6,339 @@
       expanded: true
       items:
         - name: แหล่งข้อมูลใน Power BI
-          href: ../service-get-data.md
+          href: service-get-data.md
         - name: เกตเวย์ข้อมูลภายในองค์กรคืออะไร?
-          href: ../service-gateway-onprem.md
+          href: service-gateway-onprem.md
     - name: การเริ่มต้นใช้งานด่วน
       expanded: true
       items:
         - name: เชื่อมต่อกับข้อมูลใน Power BI Desktop
-          href: ../desktop-quickstart-connect-to-data.md
+          href: desktop-quickstart-connect-to-data.md
     - name: บทช่วยสอน
       items:
         - name: รูปร่างและรวมแหล่งข้อมูลหลายแหล่ง
-          href: ../desktop-shape-and-combine-data.md
+          href: desktop-shape-and-combine-data.md
         - name: นำเข้าและวิเคราะห์ข้อมูลเว็บเพจ
-          href: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
         - name: วิเคราะห์ข้อมูลยอดขายจาก Excel และตัวดึงข้อมูล OData
-          href: ../desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
         - name: วิเคราะห์ข้อมูล Facebook
-          href: ../desktop-tutorial-facebook-analytics.md
+          href: desktop-tutorial-facebook-analytics.md
         - name: ใช้การรักษาความปลอดภัยระดับแถวในแบบจำลองตาราง Analysis Services
-          href: ../desktop-tutorial-row-level-security-onprem-ssas-tabular.md
+          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: เริ่มใช้งานด้วย Power BI
-          href: ../service-get-started.md
+          href: ../fundamentals/service-get-started.md
         - name: เชื่อมต่อกับตัวอย่าง GitHub
-          href: ../service-tutorial-connect-to-github.md
+          href: service-tutorial-connect-to-github.md
         - name: วิเคราะห์ใน Excel
-          href: ../service-tutorial-analyze-in-excel.md
+          href: ../collaborate-share/service-tutorial-analyze-in-excel.md
         - name: ใช้ Cognitive Services
-          href: ../service-tutorial-use-cognitive-services.md
+          href: service-tutorial-use-cognitive-services.md
         - name: การบูรณาการการเรียนรู้ของเครื่อง
-          href: ../service-tutorial-invoke-machine-learning-model.md
+          href: service-tutorial-invoke-machine-learning-model.md
         - name: สร้างแบบจำลองการเรียนรู้ของเครื่อง
-          href: ../service-tutorial-build-machine-learning-model.md
+          href: service-tutorial-build-machine-learning-model.md
         - name: รีเฟรชข้อมูลจาก SQL Server
-          href: ../service-gateway-sql-tutorial.md
+          href: service-gateway-sql-tutorial.md
     - name: แนวคิด
       items:
         - name: แหล่งข้อมูล Power BI
-          href: ../power-bi-data-sources.md
+          href: power-bi-data-sources.md
         - name: ข้อกำหนดเบื้องต้นของแหล่งข้อมูล Power BI
-          href: ../desktop-data-source-prerequisites.md
+          href: desktop-data-source-prerequisites.md
         - name: การใช้เมตาดาต้าชุดข้อมูลที่ปรับปรุงใน Power BI Desktop (ตัวอย่าง)
-          href: ../desktop-enhanced-dataset-metadata.md
+          href: desktop-enhanced-dataset-metadata.md
         - name: ทำงานกับแบบจำลองหลายมิติใน Power BI
-          href: ../desktop-default-member-multidimensional-models.md
+          href: desktop-default-member-multidimensional-models.md
         - name: เกี่ยวกับการใช้ DirectQuery ใน Power BI
-          href: ../desktop-directquery-about.md
+          href: desktop-directquery-about.md
         - name: เกตเวย์
           items:
             - name: คำแนะนำสำหรับการปรับใช้เกตเวย์ข้อมูล
-              href: ../service-gateway-deployment-guidance.md
+              href: service-gateway-deployment-guidance.md
             - name: คำถามที่ถามบ่อยของเกตเวย์ข้อมูลภายในองค์กร
-              href: ../service-gateway-power-bi-faq.md
+              href: service-gateway-power-bi-faq.md
     - name: คำแนะนำวิธีการ
       items:
         - name: เชื่อมต่อกับแหล่งข้อมูล
-          href: ../desktop-connect-to-data.md
+          href: desktop-connect-to-data.md
         - name: เชื่อมต่อกับข้อมูล
           items:
             - name: เชื่อมต่อกับแหล่งข้อมูล
-              href: ../desktop-data-sources.md
+              href: desktop-data-sources.md
             - name: สร้างรายงานบนรายการ SharePoint
-              href: ../desktop-sharepoint-online-list.md
+              href: desktop-sharepoint-online-list.md
             - name: เชื่อมต่อกับ LinkedIn Sales Navigator
-              href: ../desktop-connect-linkedin-sales-navigator.md
+              href: desktop-connect-linkedin-sales-navigator.md
             - name: รับข้อมูลเว็บเพจโดยให้ตัวอย่าง
-              href: ../desktop-connect-to-web-by-example.md
+              href: desktop-connect-to-web-by-example.md
             - name: เชื่อมต่อกับชุดข้อมูลในบริการ Power BI
-              href: ../desktop-report-lifecycle-datasets.md
+              href: desktop-report-lifecycle-datasets.md
             - name: นำเข้าเวิร์กบุ๊ก Excel
-              href: ../desktop-import-excel-workbooks.md
+              href: desktop-import-excel-workbooks.md
             - name: เชื่อมต่อกับข้อมูลด้วยอินเทอร์เฟซทั่วไปของ Power BI Desktop
-              href: ../desktop-connect-using-generic-interfaces.md
+              href: desktop-connect-using-generic-interfaces.md
             - name: เชื่อมต่อกับไฟล์ PDF
-              href: ../desktop-connect-pdf.md
+              href: desktop-connect-pdf.md
             - name: เชื่อมต่อกับ Adobe Analytics
-              href: ../desktop-connect-adobe-analytics.md
+              href: desktop-connect-adobe-analytics.md
             - name: เชื่อมต่อกับฐานข้อมูล Oracle
-              href: ../desktop-connect-oracle-database.md
+              href: desktop-connect-oracle-database.md
             - name: Python
               items:
                 - name: เรียกใช้สคริปต์ Python
-                  href: ../desktop-python-scripts.md
+                  href: desktop-python-scripts.md
                 - name: ใช้ Python ในตัวแก้ไขคิวรี
-                  href: ../desktop-python-in-query-editor.md
+                  href: desktop-python-in-query-editor.md
                 - name: ใช้งาน Python IDE ภายนอก
-                  href: ../desktop-python-ide.md
+                  href: desktop-python-ide.md
                 - name: สร้างวิชวลด้วย Python
-                  href: ../desktop-python-visuals.md
+                  href: desktop-python-visuals.md
             - name: เรียกใช้สคริปต์ R
-              href: ../desktop-r-scripts.md
+              href: desktop-r-scripts.md
             - name: ใช้ R ในตัวแก้ไขคิวรี
-              href: ../desktop-r-in-query-editor.md
+              href: desktop-r-in-query-editor.md
             - name: ใช้งาน R IDE ภายนอก
-              href: ../desktop-r-ide.md
+              href: desktop-r-ide.md
             - name: สร้างวิชวลด้วยแพคเกจ R
-              href: ../service-r-packages-support.md
+              href: service-r-packages-support.md
             - name: ใส่ข้อมูลโดยตรงลงใน Power BI Desktop
-              href: ../desktop-enter-data-directly-into-desktop.md
+              href: desktop-enter-data-directly-into-desktop.md
             - name: เชื่อมต่อกับเวิร์กบุ๊ก Excel
-              href: ../desktop-connect-excel.md
+              href: desktop-connect-excel.md
             - name: เชื่อมต่อกับแบบจำลองหลายมิติ SSAS
-              href: ../desktop-ssas-multidimensional.md
+              href: desktop-ssas-multidimensional.md
             - name: เชื่อมต่อกับไฟล์ CSV
-              href: ../desktop-connect-csv.md
+              href: desktop-connect-csv.md
             - name: เชื่อมต่อกับฐานข้อมูล Google BigQuery
-              href: ../desktop-connect-bigquery.md
+              href: desktop-connect-bigquery.md
             - name: เชื่อมต่อกับฐานข้อมูล Impala
-              href: ../desktop-connect-impala.md
+              href: desktop-connect-impala.md
             - name: เชื่อมต่อกับฟีด OData
-              href: ../desktop-connect-odata.md
+              href: desktop-connect-odata.md
             - name: เชื่อมต่อกับฐานข้อมูล Amazon Redshift
-              href: ../desktop-connect-redshift.md
+              href: desktop-connect-redshift.md
             - name: เชื่อมต่อกับเว็บเพจ
-              href: ../desktop-connect-to-web.md
+              href: desktop-connect-to-web.md
             - name: เชื่อมต่อกับ Snowflake Computing Warehouse
-              href: ../desktop-connect-snowflake.md
+              href: desktop-connect-snowflake.md
             - name: สร้างวิชวลด้วยตัวเชื่อมต่อ Azure Cost Management
-              href: ../desktop-connect-azure-cost-management.md
+              href: desktop-connect-azure-cost-management.md
             - name: เชื่อมต่อกับข้อมูล Azure Consumption Insights
-              href: ../desktop-connect-azure-consumption-insights.md
+              href: desktop-connect-azure-consumption-insights.md
             - name: เชื่อมต่อกับฐานข้อมูล SAP HANA
-              href: ../desktop-sap-hana.md
+              href: desktop-sap-hana.md
             - name: เปิดใช้งานการเข้ารหัสลับสำหรับ SAP HANA
-              href: ../desktop-sap-hana-encryption.md
+              href: desktop-sap-hana-encryption.md
             - name: เชื่อมต่อกับข้อมูลแบบตารางของ Analysis Services
-              href: ../desktop-analysis-services-tabular-data.md
+              href: desktop-analysis-services-tabular-data.md
             - name: เชื่อมต่อกับแหล่งข้อมูลด้วย DirectQuery
-              href: ../desktop-use-directquery.md
+              href: desktop-use-directquery.md
             - name: เชื่อมต่อกับ SAP Business Warehouse ด้วย DirectQuery
-              href: ../desktop-directquery-sap-bw.md
+              href: desktop-directquery-sap-bw.md
             - name: เชื่อมต่อกับแหล่งข้อมูล SAP HANA ด้วย DirectQuery
-              href: ../desktop-directquery-sap-hana.md
+              href: desktop-directquery-sap-hana.md
             - name: ใช้การตั้งค่า Assume Referential Integrity (ตั้งสมมุติฐานว่ามีกฎการอ้างอิง)
-              href: ../desktop-assume-referential-integrity.md
+              href: desktop-assume-referential-integrity.md
             - name: เข้าถึงข้อมูล SAP BW ด้วยตัวเชื่อมต่อ SAP BW
-              href: ../desktop-sap-bw-connector.md
+              href: desktop-sap-bw-connector.md
             - name: ใช้ลิงก์ OneDrive for Business
-              href: ../desktop-use-onedrive-business-links.md
+              href: desktop-use-onedrive-business-links.md
             - name: 'บริการจากบุคคลที่สาม: ใช้ตัวเชื่อมต่อ Facebook'
-              href: ../service-facebook-connector.md
+              href: service-facebook-connector.md
             - name: 'บริการจากบุคคลที่สาม: ใช้ตัวเชื่อมต่อ Google Analytics'
-              href: ../service-google-analytics-connector.md
+              href: service-google-analytics-connector.md
             - name: เชื่อมต่อกับข้อมูล Project Online ผ่าน Power BI Desktop
-              href: ../desktop-project-online-connect-to-data.md
+              href: desktop-project-online-connect-to-data.md
         - name: รับข้อมูลจากไฟล์
           items:
             - name: การรับข้อมูลจากไฟล์
-              href: ../service-get-data-from-files.md
+              href: service-get-data-from-files.md
             - name: จาก Excel สู่รายงานที่น่าทึ่ง
-              href: ../service-from-excel-to-stunning-report.md
+              href: service-from-excel-to-stunning-report.md
             - name: รับข้อมูลจากไฟล์สมุดงาน Excel
-              href: ../service-excel-workbook-files.md
+              href: service-excel-workbook-files.md
             - name: รับข้อมูลจากไฟล์ Power BI Desktop
-              href: ../service-desktop-files.md
+              href: service-desktop-files.md
             - name: แก้ไขพารามิเตอร์
-              href: ../service-parameters.md
+              href: service-parameters.md
             - name: รับข้อมูลจากไฟล์ค่า (.csv) ที่ใช้จุลภาคเป็นตัวคั่น
-              href: ../service-comma-separated-value-files.md
+              href: service-comma-separated-value-files.md
             - name: การสตรีมในเวลาจริงใน Power BI
-              href: ../service-real-time-streaming.md
+              href: service-real-time-streaming.md
             - name: เผยแพร่ไปยัง Power BI จาก Excel 2016
-              href: ../service-publish-from-excel.md
+              href: service-publish-from-excel.md
             - name: ลดขนาดของเวิร์กบุ๊ก Excel
-              href: ../reduce-the-size-of-an-excel-workbook.md
+              href: reduce-the-size-of-an-excel-workbook.md
         - name: รับข้อมูลจากชุดข้อมูลที่แชร์
           items:
             - name: ใช้ชุดข้อมูลทั่วทั้งพื้นที่ทำงาน
-              href: ../service-datasets-across-workspaces.md
+              href: service-datasets-across-workspaces.md
             - name: แบ่งปันชุดข้อมูล (ดูตัวอย่าง)
-              href: ../service-datasets-share.md
+              href: service-datasets-share.md
             - name: สร้างสิทธิการอนุญาตสำหรับชุดข้อมูลที่ใช้ร่วมกัน
-              href: ../service-datasets-build-permissions.md
+              href: service-datasets-build-permissions.md
             - name: สร้างรายงานที่ยึดตามชุดข้อมูล
-              href: ../service-datasets-discover-across-workspaces.md
+              href: service-datasets-discover-across-workspaces.md
             - name: คัดลอกรายงานตามชุดข้อมูล
-              href: ../service-datasets-copy-reports.md
+              href: service-datasets-copy-reports.md
             - name: ควบคุมการใช้ชุดข้อมูล
-              href: ../service-datasets-admin-across-workspaces.md
+              href: service-datasets-admin-across-workspaces.md
         - name: รับรองชุดข้อมูล
           items:
             - name: เลื่อนระดับชุดข้อมูล
-              href: ../service-datasets-promote.md
+              href: service-datasets-promote.md
             - name: รับรองชุดข้อมูล
-              href: ../service-datasets-certify.md
+              href: service-datasets-certify.md
         - name: รับข้อมูลจากฐานข้อมูล
           items:
             - name: Azure และ Power BI
-              href: ../service-azure-and-power-bi.md
+              href: service-azure-and-power-bi.md
             - name: ข้อมูลขาออกของ Power BI และ Azure
-              href: ../service-azure-egress-power-bi.md
+              href: service-azure-egress-power-bi.md
             - name: Azure SQL Data Warehouse พร้อม DirectQuery
-              href: ../service-azure-sql-data-warehouse-with-direct-connect.md
+              href: service-azure-sql-data-warehouse-with-direct-connect.md
             - name: Azure SQL Database พร้อม DirectQuery
-              href: ../service-azure-sql-database-with-direct-connect.md
+              href: service-azure-sql-database-with-direct-connect.md
             - name: ข้อมูลสดของ SQL Server Analysis Services ใน Power BI
-              href: ../sql-server-analysis-services-tabular-data.md
+              href: sql-server-analysis-services-tabular-data.md
         - name: รีเฟรชข้อมูล
           items:
             - name: การรีเฟรชข้อมูลใน Power BI
-              href: ../refresh-data.md
+              href: refresh-data.md
             - name: กำหนดค่าการรีเฟรชตามกำหนดเวลา
-              href: ../refresh-scheduled-refresh.md
+              href: refresh-scheduled-refresh.md
             - name: คิวรีการรีเฟรชแบบเพิ่มหน่วย
-              href: ../service-premium-incremental-refresh.md
+              href: ../admin/service-premium-incremental-refresh.md
             - name: รีเฟรชชุดข้อมูลจากไฟล์ Power BI Desktop ภายในเครื่อง
-              href: ../refresh-desktop-file-local-drive.md
+              href: refresh-desktop-file-local-drive.md
             - name: รีเฟรชชุดข้อมูลจากไฟล์ Power BI Desktop ในระบบคลาวด์
-              href: ../refresh-desktop-file-onedrive.md
+              href: refresh-desktop-file-onedrive.md
             - name: รีเฟรชชุดข้อมูลจากเวิร์กบุ๊ก Excel ภายในเครื่อง
-              href: ../refresh-excel-file-local-drive.md
+              href: refresh-excel-file-local-drive.md
             - name: รีเฟรชชุดข้อมูลจากเวิร์กบุ๊ก Excel ในระบบคลาวด์
-              href: ../refresh-excel-file-onedrive.md
+              href: refresh-excel-file-onedrive.md
             - name: รีเฟรชชุดข้อมูลจากไฟล์ .csv บน OneDrive
-              href: ../refresh-csv-file-onedrive.md
+              href: refresh-csv-file-onedrive.md
             - name: การแคชคิวรีใน Power BI Premium
-              href: ../power-bi-query-caching.md
+              href: power-bi-query-caching.md
         - name: แอปแม่แบบ
           items:
             - name: ภาพรวมแอปแม่แบบ
-              href: ../service-template-apps-overview.md
+              href: service-template-apps-overview.md
             - name: สร้างแอปแม่แบบ
-              href: ../service-template-apps-create.md
+              href: service-template-apps-create.md
             - name: เคล็ดลับสำหรับการสร้างแอปเทมเพลต
-              href: ../service-template-apps-tips.md
+              href: service-template-apps-tips.md
             - name: ติดตั้งและเผยแพร่แอปเทมเพลต
-              href: ../service-template-apps-install-distribute.md
+              href: service-template-apps-install-distribute.md
             - name: อัปเดต ลบ และแยกแอปแม่แบบใน Power BI
-              href: ../service-template-update-delete-extract.md
+              href: service-template-update-delete-extract.md
             - name: ตัวอย่างแอปเทมเพลต
-              href: ../service-template-apps-samples.md
+              href: service-template-apps-samples.md
         - name: การแก้ไขปัญหา
           items:
             - name: แก้ไขปัญหาสถานการณ์สมมติในการรีเฟรช
-              href: ../refresh-troubleshooting-refresh-scenarios.md
+              href: refresh-troubleshooting-refresh-scenarios.md
             - name: แก้ไขปัญหาแหล่งข้อมูลที่ไม่รองรับสำหรับรีเฟรช
-              href: ../service-admin-troubleshoot-unsupported-data-source-for-refresh.md
+              href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
             - name: แก้ไขปัญหาการรีเฟรชตามกำหนดเวลาสำหรับ Azure SQL Database
-              href: ../service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
+              href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: แก้ไขปัญหาการวิเคราะห์ใน Excel
-              href: ../desktop-troubleshooting-analyze-in-excel.md
+              href: ../collaborate-share/desktop-troubleshooting-analyze-in-excel.md
             - name: 'ข้อผิดพลาด: เราไม่พบข้อมูลใด ๆ ในสมุดงาน Excel ของคุณ'
-              href: ../service-admin-troubleshoot-excel-workbook-data.md
+              href: service-admin-troubleshoot-excel-workbook-data.md
             - name: วิธีรีเฟรชข้อมูลประจำตัวของชุดเนื้อหา Xero ถ้าการรีเฟรชล้มเหลว
-              href: ../service-refresh-xero-credentials.md
+              href: service-refresh-xero-credentials.md
         - name: เชื่อมต่อกับเซิร์ฟเวอร์
           items:
             - name: เชื่อมต่อกับเซิร์ฟเวอร์ด้วยแอป
-              href: ../service-connect-to-services.md
+              href: service-connect-to-services.md
             - name: รายงานการติดตาม COVID-19 ในสหรัฐอเมริกา
               href: service-connect-to-covid-19-tracking.md
             - name: รายงานสภาพการณ์การสื่อสารในภาวะวิกฤติ
               href: service-connect-to-crisis-communication-presence-report.md
             - name: GitHub
-              href: ../service-connect-to-github.md
+              href: service-connect-to-github.md
             - name: แดชบอร์ดการสนับสนุนการตัดสินใจเกี่ยวกับการตอบสนองต่อสภาวะฉุกเฉินของโรงพยาบาล
               href: service-connect-to-health-emergency-response.md
             - name: เครื่องคำนวณความยั่งยืนของ Microsoft
-              href: ../service-connect-to-microsoft-sustainability-calculator.md
+              href: service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon
-              href: ../service-connect-to-office365mon.md
+              href: service-connect-to-office365mon.md
             - name: Project Online
-              href: ../service-connect-to-project-online.md
+              href: service-connect-to-project-online.md
             - name: QuickBooks Online
-              href: ../service-connect-to-quickbooks-online.md
+              href: service-connect-to-quickbooks-online.md
             - name: แดชบอร์ดการตอบสนองเหตุฉุกเฉินในระดับภูมิภาค
               href: service-connect-to-regional-emergency-response.md
             - name: Salesforce
-              href: ../service-connect-to-salesforce.md
+              href: service-connect-to-salesforce.md
             - name: Smartsheet
-              href: ../service-connect-to-smartsheet.md
+              href: service-connect-to-smartsheet.md
             - name: Xero
-              href: ../service-connect-to-xero.md
+              href: service-connect-to-xero.md
             - name: Zendesk
-              href: ../service-connect-to-zendesk.md
+              href: service-connect-to-zendesk.md
         - name: เกตเวย์
           items:
             - name: เกตเวย์ข้อมูลภายในองค์กร - เชิงลึก
-              href: ../service-gateway-onprem-indepth.md
+              href: service-gateway-onprem-indepth.md
             - name: เกตเวย์ข้อมูลภายในองค์กร (โหมดส่วนบุคคล)
-              href: ../service-gateway-personal-mode.md
+              href: service-gateway-personal-mode.md
             - name: จัดการแหล่งข้อมูลเกตเวย์
               items:
                 - name: จัดการแหล่งข้อมูล
-                  href: ../service-gateway-data-sources.md
+                  href: service-gateway-data-sources.md
                 - name: จัดการแหล่งข้อมูลองค์กรของคุณ - Analysis Services
-                  href: ../service-gateway-enterprise-manage-ssas.md
+                  href: service-gateway-enterprise-manage-ssas.md
                 - name: จัดการแหล่งข้อมูลองค์กรของคุณ - SAP HANA
-                  href: ../service-gateway-enterprise-manage-sap.md
+                  href: service-gateway-enterprise-manage-sap.md
                 - name: จัดการแหล่งข้อมูลองค์กรของคุณ - SQL
-                  href: ../service-gateway-enterprise-manage-sql.md
+                  href: service-gateway-enterprise-manage-sql.md
                 - name: จัดการแหล่งข้อมูลของคุณ - Oracle
-                  href: ../service-gateway-onprem-manage-oracle.md
+                  href: service-gateway-onprem-manage-oracle.md
                 - name: จัดการแหล่งข้อมูลองค์กรของคุณ - นำเข้า/รีเฟรชตามกำหนดเวลา
-                  href: ../service-gateway-enterprise-manage-scheduled-refresh.md
+                  href: service-gateway-enterprise-manage-scheduled-refresh.md
                 - name: ผนวกแหล่งข้อมูลภายในระบบคลาวด์ในองค์กร
-                  href: ../service-gateway-mashup-on-premises-cloud.md
+                  href: service-gateway-mashup-on-premises-cloud.md
             - name: เปิดใช้งานการลงชื่อเข้าระบบครั้งเดียว (SSO)
               items:
                 - name: ภาพรวม SSO
-                  href: ../service-gateway-sso-overview.md
+                  href: service-gateway-sso-overview.md
                 - name: ใช้ Kerberos SSO
                   items:
                     - name: กำหนดค่า SSO ที่ใช้ Kerberos
-                      href: ../service-gateway-sso-kerberos.md
+                      href: service-gateway-sso-kerberos.md
                     - name: การกำหนดค่าเฉพาะแหล่งข้อมูล
                       items:
                         - name: SAP HANA
-                          href: ../service-gateway-sso-kerberos-sap-hana.md
+                          href: service-gateway-sso-kerberos-sap-hana.md
                         - name: SAP sapcrypto (ไลบรารีการเข้ารหัสลับทั่วไป)
-                          href: ../service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                          href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
                         - name: SAP BW - gx64krb5.dll
-                          href: ../service-gateway-sso-kerberos-sap-bw-gx64krb.md
+                          href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
                 - name: SSO ที่ยึดตาม SAML
-                  href: ../service-gateway-sso-saml.md
+                  href: service-gateway-sso-saml.md
             - name: แก้ไขปัญหาเกตเวย์
-              href: ../service-gateway-onprem-tshoot.md
+              href: service-gateway-onprem-tshoot.md
             - name: แก้ไขปัญหาเกตเวย์ (โหมดส่วนตัว)
-              href: ../service-admin-troubleshooting-power-bi-personal-gateway.md
+              href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: ใช้ตัวเชื่อมต่อที่กำหนดเอง
-              href: ../service-gateway-custom-connectors.md
+              href: service-gateway-custom-connectors.md
         - name: การแก้ไขปัญหา
           items:
             - name: การแก้ไขปัญหาการนำเข้าไฟล์ Access และไฟล์ .xls ของ Excel
-              href: ../desktop-access-database-errors.md
+              href: desktop-access-database-errors.md
             - name: แก้ไขปัญหาการเปิด Power BI Desktop
-              href: ../desktop-error-launching-desktop.md
+              href: desktop-error-launching-desktop.md
             - name: แก้ไขปัญหาการพัฒนาแบบจำลอง DirectQuery
-              href: ../desktop-directquery-troubleshoot.md
+              href: desktop-directquery-troubleshoot.md
     - name: การอ้างอิง
       items:
         - name: ชนิดข้อมูลใน Power BI Desktop
-          href: ../desktop-data-types.md
+          href: desktop-data-types.md
         - name: การขยายความสามารถของตัวเชื่อมต่อ
-          href: ../desktop-connector-extensibility.md
+          href: desktop-connector-extensibility.md
         - name: ตัวเชื่อมต่อจากบุคคลที่สามที่เชื่อถือได้
-          href: ../desktop-trusted-third-party-connectors.md
+          href: desktop-trusted-third-party-connectors.md

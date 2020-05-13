@@ -12,33 +12,33 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/05/2020
-  ms.openlocfilehash: 04ce4ce2ec0038ff6e79a2e65de8279a3a73dcad
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: cbe4b08f84dcd4246bceb83933366d1086d27bd0
+  ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
   ms.translationtype: HT
   ms.contentlocale: th-TH
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439606"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83348792"
 landingContent:
 - title: Power BI คืออะไร
   linkLists:
   - linkListType: overview
     links:
     - text: Power BI คืออะไร
-      url: ../power-bi-overview.md
+      url: power-bi-overview.md
     - text: Power BI Desktop คืออะไร
-      url: ../desktop-what-is-desktop.md
+      url: desktop-what-is-desktop.md
     - text: บริการ Power BI คืออะไร
-      url: ../power-bi-service-overview.md
+      url: power-bi-service-overview.md
     - text: การเปรียบเทียบ Power BI Desktop และการบริการ
-      url: ../service-service-vs-desktop.md
+      url: service-service-vs-desktop.md
 - title: มีอะไรใหม่บ้าง?
   linkLists:
   - linkListType: concept
     links:
     - text: มีอะไรใหม่ใน Power BI Desktop บ้าง
-      url: ../desktop-latest-update.md
+      url: desktop-latest-update.md
     - text: มีอะไรใหม่ในบริการ
-      url: ../service-whats-new.md
+      url: service-whats-new.md
 - title: เริ่มต้นใช้งานด้วย Learn
   linkLists:
   - linkListType: learn
@@ -47,21 +47,21 @@ landingContent:
       url: https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/
     - text: รับข้อมูลด้วย Power BI Desktop
       url: https://docs.microsoft.com/learn/modules/get-data-power-bi/?tutorial-step=1
-- title: การมอบสิทธิ์การใช้งาน
+- title: สิทธิ์การใช้งาน
   linkLists:
   - linkListType: concept
     links:
     - text: ลงทะเบียนใช้งาน Power BI
-      url: ../service-self-service-signup-for-power-bi.md
+      url: service-self-service-signup-for-power-bi.md
     - text: คุณลักษณะตามประเภทของสิทธิ์การใช้งาน
-      url: ../service-features-license-type.md
+      url: service-features-license-type.md
 - title: ทรัพยากร
   linkLists:
   - linkListType: reference
     links:
     - text: วิดีโอ Power BI
-      url: ../videos.md
+      url: videos.md
     - text: วิดีโอ Power BI Desktop
-      url: ../desktop-videos.md
-    - text: การสัมมนาผ่านเว็บ
-      url: ../webinars.md
+      url: desktop-videos.md
+    - text: สัมมนาผ่านเว็บ
+      url: webinars.md

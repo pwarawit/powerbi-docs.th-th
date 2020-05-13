@@ -6,114 +6,114 @@
       expanded: true
       items:
         - name: ภาพรวมตัวแก้ไขคิวรี
-          href: ../desktop-query-overview.md
+          href: desktop-query-overview.md
         - name: การเตรียมข้อมูลด้วยตัวเองโดยใช้กระแสข้อมูล
-          href: ../service-dataflows-overview.md
+          href: service-dataflows-overview.md
     - name: บทช่วยสอน
       expanded: true
       items:
         - name: สร้างหน่วยวัดของคุณเอง
-          href: ../desktop-tutorial-create-measures.md
+          href: desktop-tutorial-create-measures.md
         - name: สร้างคอลัมน์จากการคำนวณ
-          href: ../desktop-tutorial-create-calculated-columns.md
+          href: desktop-tutorial-create-calculated-columns.md
     - name: แนวคิด
       expanded: true
       items:
         - name: ทำความเข้าใจกับความสัมพันธ์ของแบบจำลอง
-          href: ../desktop-relationships-understand.md
+          href: desktop-relationships-understand.md
         - name: ทำงานกับมุมมองการสร้างแบบจำลอง
-          href: ../desktop-modeling-view.md
+          href: desktop-modeling-view.md
         - name: จัดการการรวม
-          href: ../desktop-aggregations.md
+          href: desktop-aggregations.md
         - name: ใช้โมเดลแบบรวม
-          href: ../desktop-composite-models.md
+          href: desktop-composite-models.md
         - name: ปรับใช้ความสัมพันธ์แบบกลุ่มต่อกลุ่ม
-          href: ../desktop-many-to-many-relationships.md
+          href: desktop-many-to-many-relationships.md
         - name: จัดการโหมดพื้นที่เก็บข้อมูล
-          href: ../desktop-storage-mode.md
+          href: desktop-storage-mode.md
         - name: เปิดใช้การกรองแบบข้ามสองทิศทาง
-          href: ../desktop-bidirectional-filtering.md
+          href: desktop-bidirectional-filtering.md
         - name: ทำงานกับแบบจำลองหลายมิติใน Power BI
-          href: ../desktop-default-member-multidimensional-models.md
-    - name: คู่มือวิธีใช้
+          href: ../connect-data/desktop-default-member-multidimensional-models.md
+    - name: คำแนะนำวิธีการ
       items:
         - name: ดำเนินงานคิวรีแบบทั่วไป
-          href: ../desktop-common-query-tasks.md
+          href: desktop-common-query-tasks.md
         - name: สร้างและจัดการความสัมพันธ์
-          href: ../desktop-create-and-manage-relationships.md
+          href: desktop-create-and-manage-relationships.md
         - name: การใช้บานหน้าต่างการวิเคราะห์
-          href: ../desktop-analytics-pane.md
+          href: desktop-analytics-pane.md
         - name: ทำงานกับมุมมองข้อมูล
-          href: ../desktop-data-view.md
+          href: ../connect-data/desktop-data-view.md
         - name: ใช้พื้นฐานของ DAX
-          href: ../desktop-quickstart-learn-dax-basics.md
+          href: desktop-quickstart-learn-dax-basics.md
         - name: ทำงานกับมุมมองความสัมพันธ์
-          href: ../desktop-relationship-view.md
+          href: desktop-relationship-view.md
         - name: แปลงและทำข้อมูลให้เป็นรูปร่าง
           items:
             - name: รวมไฟล์ (ไบนารี)
-              href: ../desktop-combine-binaries.md
+              href: desktop-combine-binaries.md
             - name: ใช้ข้อมูลเชิงลึกของ AI (ตัวอย่าง)
-              href: ../desktop-ai-insights.md
+              href: desktop-ai-insights.md
         - name: จำลองแบบข้อมูลของคุณ
           items:
             - name: สร้างหน่วยวัดด่วนสำหรับการคำนวณทั่วไป
-              href: ../desktop-quick-measures.md
+              href: desktop-quick-measures.md
             - name: สร้างและใช้พารามิเตอร์ What if (เกิดอะไรขึ้นถ้า) เพื่อแสดงภาพตัวแปร
-              href: ../desktop-what-if.md
+              href: desktop-what-if.md
             - name: ระบุหมวดหมู่ข้อมูลใน Power BI Desktop
-              href: ../desktop-data-categorization.md
+              href: desktop-data-categorization.md
             - name: แท็กเขตข้อมูลบาร์โค้ดใน Power BI สำหรับแอปสำหรับอุปกรณ์เคลื่อนที่
-              href: ../desktop-mobile-barcodes.md
+              href: desktop-mobile-barcodes.md
             - name: ตั้งค่าตัวกรองทางภูมิศาสตร์ใน Power BI สำหรับแอปบนอุปกรณ์เคลื่อนที่
-              href: ../desktop-mobile-geofiltering.md
+              href: desktop-mobile-geofiltering.md
             - name: สร้างคอลัมน์จากการคำนวณ
-              href: ../desktop-calculated-columns.md
+              href: desktop-calculated-columns.md
             - name: สร้างตารางจากการคำนวณ
-              href: ../desktop-calculated-tables.md
+              href: desktop-calculated-tables.md
             - name: สร้างหน่วยวัดสำหรับการวิเคราะห์ข้อมูล
-              href: ../desktop-measures.md
+              href: desktop-measures.md
             - name: นำเข้า และแสดง KPI
-              href: ../desktop-import-and-display-kpis.md
+              href: desktop-import-and-display-kpis.md
             - name: ปรับใช้วันที่/เวลาอัตโนมัติ
-              href: ../desktop-auto-date-time.md
+              href: desktop-auto-date-time.md
         - name: บริการเตรียมข้อมูลด้วยตนเอง
           items:
             - name: สร้างและใช้กระแสข้อมูล
-              href: ../service-dataflows-create-use.md
+              href: service-dataflows-create-use.md
             - name: เลื่อนระดับหรือรับรองกระแสข้อมูล
               href: service-dataflows-promote-certify.md
             - name: ใช้โปรแกรมการคำนวณขั้นสูงที่มีกระแสข้อมูล
-              href: ../service-dataflows-enhanced-compute-engine.md
+              href: service-dataflows-enhanced-compute-engine.md
             - name: เอนทิตีที่มีการคำนวณ ด้วย Power BI Premium
-              href: ../service-dataflows-computed-entities-premium.md
+              href: service-dataflows-computed-entities-premium.md
             - name: เชื่อมต่อกับแหล่งข้อมูลด้วยกระแสข้อมูล
-              href: ../service-dataflows-data-sources.md
+              href: service-dataflows-data-sources.md
             - name: ใช้กระแสข้อมูลกับแหล่งข้อมูลภายในองค์กร
-              href: ../service-dataflows-on-premises-gateways.md
+              href: service-dataflows-on-premises-gateways.md
             - name: เอนทิตีลิงก์ระหว่างกระแสข้อมูล
-              href: ../service-dataflows-linked-entities.md
+              href: service-dataflows-linked-entities.md
             - name: ใช้การรีเฟรชแบบเพิ่มหน่วยกับกระแสข้อมูล
-              href: ../service-dataflows-incremental-refresh.md
+              href: service-dataflows-incremental-refresh.md
             - name: นักพัฒนาทรัพยากรเพื่อกระแสข้อมูล
-              href: ../service-dataflows-developer-resources.md
+              href: service-dataflows-developer-resources.md
             - name: เชื่อมต่อกระแสข้อมูลกับ Power BI Desktop
-              href: ../desktop-connect-dataflows.md
+              href: desktop-connect-dataflows.md
             - name: การรวมกระแสข้อมูลและ Azure Data Lake (ตัวอย่าง)
-              href: ../service-dataflows-azure-data-lake-integration.md
+              href: service-dataflows-azure-data-lake-integration.md
             - name: เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับการเก็บกระแสข้อมูล
-              href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
-            - name: กำหนดค่าการตั้งค่ากระแสข้อมูลพื้นที่ทำงาน (ตัวอย่าง)
-              href: ../service-dataflows-configure-workspace-storage-settings.md
+              href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+            - name: การตั้งค่าตัวเลขกระแสข้อมูลในพื้นที่ทำงาน (ดูตัวอย่าง)
+              href: service-dataflows-configure-workspace-storage-settings.md
             - name: เพิ่มโฟลเดอร์ CDM ไปยัง Power BI เป็นกระแสข้อมูล (ตัวอย่าง)
-              href: ../service-dataflows-add-cdm-folder.md
+              href: service-dataflows-add-cdm-folder.md
             - name: การเรียนรู้เกี่ยวกับการรวมเข้าด้วยกันกับจักรกลด้วย Power BI
-              href: ../service-machine-learning-integration.md
+              href: service-machine-learning-integration.md
             - name: ใช้ Cognitive Services ใน Power BI
-              href: ../service-cognitive-services.md
-            - name: 'การเรียนรู้ของเครื่องอัตโนมัติใน Power BI '
-              href: ../service-machine-learning-automated.md
+              href: service-cognitive-services.md
+            - name: การเรียนรู้ของเครื่องอัตโนมัติใน Power BI
+              href: service-machine-learning-automated.md
     - name: การอ้างอิง
       items:
         - name: ทางลัดตัวแก้ไขสูตร
-          href: ../desktop-formula-editor.md
+          href: desktop-formula-editor.md

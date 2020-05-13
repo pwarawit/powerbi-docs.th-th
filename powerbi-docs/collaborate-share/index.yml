@@ -12,56 +12,56 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/03/2020
-  ms.openlocfilehash: d4099c6ad1a5ed6396d8c4a777e3a0aa13a6d570
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 9b2f5fd70ed00dccb122fb4195284a1f3e0f75c2
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: th-TH
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "79112773"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83275190"
 landingContent:
 - title: เริ่มต้นทำงานร่วมกันและแชร์
   linkLists:
   - linkListType: overview
     links:
     - text: วิธีการแชร์งานของคุณ
-      url: ../service-how-to-collaborate-distribute-dashboards-reports.md
+      url: service-how-to-collaborate-distribute-dashboards-reports.md
 - title: ทำงานร่วมกับเพื่อนร่วมงาน
   linkLists:
   - linkListType: concept
     links:
     - text: บทนำชุดข้อมูลทั้งพื้นที่ทำงาน
-      url: ../service-datasets-across-workspaces.md
+      url: ../connect-data/service-datasets-across-workspaces.md
     - text: สิทธิในการสร้างสำหรับชุดข้อมูลที่ใช้ร่วมกัน
-      url: ../service-datasets-build-permissions.md
+      url: ../connect-data/service-datasets-build-permissions.md
   - linkListType: how-to-guide
     links:
     - text: จัดการงานในพื้นที่ทำงานใหม่
-      url: ../service-new-workspaces.md
+      url: service-new-workspaces.md
 - title: แชร์งานของคุณ
   linkLists:
   - linkListType: concept
     links:
     - text: เผยแพร่แอป
-      url: ../service-create-distribute-apps.md
+      url: service-create-distribute-apps.md
     - text: เฝ้าติดตามเมตริกการใช้งาน
-      url: ../service-modern-usage-metrics.md
+      url: service-modern-usage-metrics.md
   - linkListType: how-to-guide
     links:
     - text: แชร์รายงานและแดชบอร์ด
-      url: ../service-share-dashboards.md
+      url: service-share-dashboards.md
     - text: กรองข้อมูลและแชร์รายงาน
-      url: ../service-share-reports.md
+      url: service-share-reports.md
     - text: แชร์ชุดข้อมูล
-      url: ../service-datasets-share.md
+      url: ../connect-data/service-datasets-share.md
 - title: รวมกับบริการอื่น ๆ
   linkLists:
   - linkListType: concept
     links:
     - text: Azure และ Power BI
-      url: ../service-azure-and-power-bi.md
+      url: ../connect-data/service-azure-and-power-bi.md
     - text: วิเคราะห์ใน Excel
-      url: ../service-analyze-in-excel.md
+      url: service-analyze-in-excel.md
   - linkListType: how-to-guide
     links:
     - text: ฝังใน SharePoint Online
-      url: ../service-embed-report-spo.md
+      url: service-embed-report-spo.md

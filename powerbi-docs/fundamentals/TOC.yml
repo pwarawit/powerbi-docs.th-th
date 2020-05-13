@@ -6,50 +6,50 @@
       expanded: true
       items:
         - name: Power BI คืออะไร
-          href: ../power-bi-overview.md
+          href: power-bi-overview.md
         - name: Power BI Desktop คืออะไร
-          href: ../desktop-what-is-desktop.md
+          href: desktop-what-is-desktop.md
         - name: บริการ Power BI คืออะไร
-          href: ../power-bi-service-overview.md
+          href: power-bi-service-overview.md
         - name: การเปรียบเทียบ Power BI Desktop และการบริการ
-          href: ../service-service-vs-desktop.md
+          href: service-service-vs-desktop.md
     - name: แนวคิด
       items:
         - name: มีอะไรใหม่ในการอัปเดต Power BI Desktop ล่าสุด
-          href: ../desktop-latest-update.md
+          href: desktop-latest-update.md
         - name: มีอะไรใหม่ในบริการ Power BI
-          href: ../service-whats-new.md
+          href: service-whats-new.md
         - name: 'เข้าใจบริการของ Power BI:'
-          href: ../service-basic-concepts.md
+          href: service-basic-concepts.md
         - name: 10 เคล็ดลับสำหรับการรับความช่วยเหลือ
-          href: ../service-tips-for-finding-help.md
-        - name: การมอบสิทธิ์การใช้งาน
+          href: service-tips-for-finding-help.md
+        - name: สิทธิ์การใช้งาน
           items:
             - name: ลงทะเบียนใช้งาน Power BI
-              href: ../service-self-service-signup-for-power-bi.md
+              href: service-self-service-signup-for-power-bi.md
             - name: คุณลักษณะตามประเภทของสิทธิ์การใช้งาน
-              href: ../service-features-license-type.md
-    - name: คู่มือวิธีใช้
+              href: service-features-license-type.md
+    - name: คำแนะนำวิธีการ
       items:
         - name: รับ Power BI Desktop
-          href: ../desktop-get-the-desktop.md
+          href: desktop-get-the-desktop.md
         - name: เริ่มต้นใช้งาน Power BI Desktop
-          href: ../desktop-getting-started.md
+          href: desktop-getting-started.md
     - name: การอ้างอิง
       items:
         - name: ภาษาที่รองรับและประเทศ/ภูมิภาค
-          href: ../supported-languages-countries-regions.md
-        - name: เบราว์เซอร์ทีรองรับ
-          href: ../power-bi-browsers.md
+          href: supported-languages-countries-regions.md
+        - name: เบราว์เซอร์ที่สนับสนุน
+          href: power-bi-browsers.md
     - name: ทรัพยากร
       items:
         - name: วิดีโอ
-          href: ../videos.md
-        - name: การสัมมนาผ่านเว็บ
-          href: ../webinars.md
+          href: videos.md
+        - name: สัมมนาผ่านเว็บ
+          href: webinars.md
         - name: วิดีโอ Power BI Desktop
-          href: ../desktop-videos.md
+          href: desktop-videos.md
         - name: การเก็บอัปเดตถาวรของ Power BI Desktop
-          href: ../desktop-latest-update-archive.md
+          href: desktop-latest-update-archive.md
         - name: คำชี้แจงนโยบายความเป็นส่วนตัว ส่งรอยยิ้ม ใน Power BI Desktop
-          href: ../desktop-send-smile-privacy-statement.md
+          href: desktop-send-smile-privacy-statement.md

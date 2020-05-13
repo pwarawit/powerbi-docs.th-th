@@ -21,7 +21,7 @@
             - name: ปิดใช้งานการรีเฟรชพื้นหลังของ Power Query
               href: power-query-background-refresh.md
             - name: แนวทางปฏิบัติที่ดีที่สุดสำหรับกระแสข้อมูล
-              href: ../service-dataflows-best-practices.md
+              href: ../transform-model/service-dataflows-best-practices.md
         - name: การสร้างแบบจำลองข้อมูล
           items:
             - name: Schema ติดดาวคืออะไร
@@ -46,7 +46,7 @@
               href: composite-model-guidance.md
         - name: DAX
           items:
-            - name: ฟังก์ชัน DIVIDE เทียบกับตัวดำเนินการหาร (/)
+            - name: ฟังก์ชันการแบ่งเทียบกับตัวดำเนินการหาร (/)
               href: dax-divide-function-operator.md
             - name: การใช้ฟังก์ชันข้อผิดพลาดที่เหมาะสม
               href: dax-error-functions.md
@@ -114,7 +114,7 @@
       items:
         - name: ภาพรวมเอกสารทางเทคนิค
           href: whitepapers.md
-        - name: เอกสารทางเทคนิคเรื่องความปลอดภัยของPower BI
+        - name: เอกสารทางเทคนิคเรื่องความปลอดภัย Power BI
           href: whitepaper-powerbi-security.md
         - name: การปรับใช้ Power BI premium
           href: whitepaper-powerbi-premium-deployment.md

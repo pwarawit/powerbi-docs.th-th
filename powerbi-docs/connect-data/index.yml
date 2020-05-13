@@ -12,60 +12,60 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 02/25/2020
-  ms.openlocfilehash: a46c459c61f85b2f8cb4885f93c1893724485dff
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: b1f5d2842bb65710cda9e83dc821b7a60117f756
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: th-TH
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "78924149"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83273879"
 landingContent:
 - title: เชื่อมต่อกับข้อมูลใน Power BI
   linkLists:
   - linkListType: concept
     links:
     - text: แหล่งข้อมูล
-      url: ../desktop-data-sources.md
+      url: desktop-data-sources.md
     - text: มุมมองข้อมูลใน Power BI Desktop
-      url: ../desktop-data-view.md
+      url: desktop-data-view.md
   - linkListType: tutorial
     links:
     - text: นำเข้าข้อมูลจากหน้าเว็บ
-      url: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+      url: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
 - title: เกตเวย์
   linkLists:
   - linkListType: concept
     links:
     - text: เกตเวย์ข้อมูลภายในองค์กร
-      url: ../service-gateway-onprem.md
+      url: service-gateway-onprem.md
   - linkListType: tutorial
     links:
     - text: เชื่อมต่อกับข้อมูล SQL Server ภายในองค์กร
-      url: ../service-gateway-sql-tutorial.md
+      url: service-gateway-sql-tutorial.md
   - linkListType: how-to-guide
     links:
     - text: ใช้เกตเวย์ส่วนบุคคล
-      url: ../service-gateway-personal-mode.md
+      url: service-gateway-personal-mode.md
 - title: แอปแม่แบบ
   linkLists:
   - linkListType: overview
     links:
     - text: แอปแม่แบบคืออะไร
-      url: ../service-template-apps-overview.md
+      url: service-template-apps-overview.md
   - linkListType: concept
     links:
     - text: สร้างแอปแม่แบบ
-      url: ../service-template-apps-create.md
+      url: service-template-apps-create.md
     - text: แจกจ่ายแอปแม่แบบในองค์กรของคุณ
-      url: ../service-template-apps-install-distribute.md
+      url: service-template-apps-install-distribute.md
 - title: รีเฟรชข้อมูล
   linkLists:
   - linkListType: concept
     links:
     - text: การรีเฟรชข้อมูล
-      url: ../refresh-data.md
+      url: refresh-data.md
     - text: การรีเฟรชแบบเพิ่มหน่วยใน Power BI Premium
-      url: ../service-premium-incremental-refresh.md
+      url: ../admin/service-premium-incremental-refresh.md
   - linkListType: how-to-guide
     links:
-    - text: กำหนดค่าการรีเฟรชตามกำหนดการ
-      url: ../refresh-scheduled-refresh.md
+    - text: กำหนดค่าการรีเฟรชตามกำหนดเวลา
+      url: refresh-scheduled-refresh.md

@@ -5,7 +5,7 @@
       expanded: true
       items:
         - name: แนะนำตัวแก้ไขรายงาน
-          href: ../service-the-report-editor-take-a-tour.md
+          href: service-the-report-editor-take-a-tour.md
         - name: อะไรคือรายงานที่มีการแบ่งหน้า?
           href: ../paginated-reports/paginated-reports-report-builder-power-bi.md
     - name: บทช่วยสอน
@@ -19,46 +19,46 @@
       expanded: true
       items:
         - name: รับตัวอย่างสำหรับ Power BI
-          href: ../sample-datasets.md
+          href: sample-datasets.md
         - name: ตัวอย่าง COVID-19 ในสหรัฐอเมริกา
           href: sample-covid-19-us.md
         - name: ตัวอย่างความสามารถในการทำกำไรสำหรับลูกค้า
-          href: ../sample-customer-profitability.md
+          href: sample-customer-profitability.md
         - name: ตัวอย่างการวิเคราะห์ค่าใช้จ่ายในด้านไอที...
-          href: ../sample-it-spend.md
+          href: sample-it-spend.md
         - name: ตัวอย่างทรัพยากรบุคคล
-          href: ../sample-human-resources.md
+          href: sample-human-resources.md
         - name: ตัวอย่างการวิเคราะห์โอกาส
-          href: ../sample-opportunity-analysis.md
+          href: sample-opportunity-analysis.md
         - name: ตัวอย่างการวิเคราะห์ด้านการจัดซื้อ
-          href: ../sample-procurement.md
+          href: sample-procurement.md
         - name: ตัวอย่างการวิเคราะห์การค้าปลีก
-          href: ../sample-retail-analysis.md
+          href: sample-retail-analysis.md
         - name: สำรวจตัวอย่างการวิเคราะห์การค้าปลีก
-          href: ../sample-tutorial-connect-to-the-samples.md
+          href: sample-tutorial-connect-to-the-samples.md
         - name: ตัวอย่างการขายและการตลาด
-          href: ../sample-sales-and-marketing.md
+          href: sample-sales-and-marketing.md
         - name: ตัวอย่างการวิเคราะห์คุณภาพของซัพพลายเออร์
-          href: ../sample-supplier-quality.md
+          href: sample-supplier-quality.md
         - name: ดาวน์โหลดเวิร์กบุ๊กตัวอย่างด้านการเงิน
-          href: ../sample-financial-download.md
+          href: sample-financial-download.md
     - name: แนวคิด
       expanded: true
       items:
         - name: รายงาน Power BI
           items:
             - name: ทำงานกับมุมมองรายงาน
-              href: ../desktop-report-view.md
+              href: desktop-report-view.md
             - name: ชนิดของตัวกรองในรายงาน
-              href: ../power-bi-report-filter-types.md
+              href: power-bi-report-filter-types.md
             - name: ตัวกรองและการทำไฮไลท์ในรายงาน
-              href: ../power-bi-reports-filters-and-highlighting.md
+              href: power-bi-reports-filters-and-highlighting.md
             - name: การสุ่มตัวอย่างเส้นความหนาแน่นสูง
-              href: ../desktop-high-density-sampling.md
+              href: desktop-high-density-sampling.md
             - name: เกี่ยวกับวิชวลถามตอบ
               href: ../visuals/power-bi-visualization-q-and-a.md
             - name: เกี่ยวกับความสามารถในการเข้าถึง
-              href: ../desktop-accessibility-overview.md
+              href: desktop-accessibility-overview.md
             - name: ถามตอบภาษาธรรมชาติ
               items:
                 - name: บทนำถามตอบ
@@ -112,107 +112,107 @@
         - name: รายงาน Power BI
           items:
             - name: เปิดใช้งานการรีเฟรชหน้าแบบอัตโนมัติ (ตัวอย่าง)
-              href: ../desktop-automatic-page-refresh.md
+              href: desktop-automatic-page-refresh.md
             - name: ตรวจสอบองค์ประกอบรายงานด้วย Performance Analyzer
-              href: ../desktop-performance-analyzer.md
+              href: desktop-performance-analyzer.md
             - name: ใช้องค์ประกอบวิชวลสำหรับรายงาน
-              href: ../desktop-visual-elements-for-reports.md
+              href: desktop-visual-elements-for-reports.md
             - name: เพิ่มคำแนะนำเครื่องมือรายงานเพื่อปรับปรุงภาพของคุณ
-              href: ../desktop-tooltips.md
+              href: desktop-tooltips.md
             - name: ส่งออกรายงานเป็นไฟล์ PDF
-              href: ../desktop-export-to-pdf.md
+              href: desktop-export-to-pdf.md
             - name: ปรับใช้ข้อมูลเชิงลึกเพื่ออธิบายการผันผวนของวิชวล (ตัวอย่าง)
-              href: ../desktop-insights.md
+              href: desktop-insights.md
             - name: ใช้ข้อมูลเชิงลึกเพื่อค้นหาว่าการกระจายแตกต่างกันอย่างไร (ตัวอย่าง)
-              href: ../desktop-insights-find-where-different.md
+              href: desktop-insights-find-where-different.md
             - name: สร้างปุ่ม
-              href: ../desktop-buttons.md
+              href: desktop-buttons.md
             - name: สร้างปุ่มดูรายละเอียดแนวลึก
-              href: ../desktop-drill-through-buttons.md
+              href: desktop-drill-through-buttons.md
             - name: ใช้คุณลักษณะดูรายละเอียดเจาะลึก
-              href: ../desktop-drillthrough.md
+              href: desktop-drillthrough.md
             - name: ใช้คุณลักษณะดูรายละเอียดเจาะลึกแบบข้ามรายงาน
-              href: ../desktop-cross-report-drill-through.md
+              href: desktop-cross-report-drill-through.md
             - name: สร้างบุ๊กมาร์กเพื่อบันทึกและแชร์ข้อมูลเชิงลึก
-              href: ../desktop-bookmarks.md
+              href: desktop-bookmarks.md
             - name: ทำงานกับธีมรายงาน
-              href: ../desktop-report-themes.md
+              href: desktop-report-themes.md
             - name: ทำงานกับตัวกรองในรายงาน
-              href: ../power-bi-report-filter.md
+              href: power-bi-report-filter.md
             - name: เพิ่มตัวกรองในรายงาน
-              href: ../power-bi-report-add-filter.md
+              href: power-bi-report-add-filter.md
             - name: ปรับใช้การจัดกลุ่มและการใช้ช่องเก็บ
-              href: ../desktop-grouping-and-binning.md
+              href: desktop-grouping-and-binning.md
             - name: ปรับใช้เส้นตารางและจัดชิดกับเส้นตาราง
-              href: ../desktop-gridlines-snap-to-grid.md
+              href: desktop-gridlines-snap-to-grid.md
             - name: ปรับใช้การตั้งค่าการแสดงหน้าในรายงาน
-              href: ../power-bi-report-display-settings.md
+              href: power-bi-report-display-settings.md
             - name: เพิ่มคอลัมน์จากตัวอย่าง
-              href: ../desktop-add-column-from-example.md
+              href: desktop-add-column-from-example.md
             - name: เพิ่มคอลัมน์แบบกำหนดเอง
-              href: ../desktop-add-custom-column.md
+              href: desktop-add-custom-column.md
             - name: ใช้ป้ายลำดับชั้นแบบอินไลน์
-              href: ../desktop-inline-hierarchy-labels.md
+              href: desktop-inline-hierarchy-labels.md
             - name: ตัวแบ่งส่วนข้อมูล
               href: ../visuals/power-bi-visualization-slicers.md
             - name: ตัวแบ่งส่วนข้อมูลช่วงตัวเลข
-              href: ../desktop-slicer-numeric-range.md
+              href: desktop-slicer-numeric-range.md
             - name: ตัวแบ่งส่วนข้อมูลวันที่แบบสัมพัทธ์และตัวกรอง
               href: ../visuals/desktop-slicer-filter-date-range.md
             - name: ตัวแบ่งส่วนข้อมูลเวลาแบบสัมพัทธ์และตัวกรอง
               href: slicer-filter-relative-time.md
             - name: สร้างตัวแบ่งส่วนข้อมูลที่คุณสามารถปรับขนาดได้
-              href: ../power-bi-slicer-filter-responsive.md
+              href: power-bi-slicer-filter-responsive.md
             - name: เพิ่มเขตข้อมูลหลายรายการในตัวแบ่งส่วนข้อมูล
               href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: จำกัดการเข้าถึงข้อมูลด้วยการรักษาความปลอดภัยระดับแถว
-              href: ../desktop-rls.md
+              href: desktop-rls.md
             - name: ปรับแต่งคำแนะนำเครื่องมือ
-              href: ../desktop-custom-tooltips.md
+              href: desktop-custom-tooltips.md
             - name: เพิ่มกล่องข้อความและรูปร่างในรายงาน
-              href: ../power-bi-reports-add-text-and-shapes.md
+              href: power-bi-reports-add-text-and-shapes.md
             - name: เพิ่มไฮเปอร์ลิงก์ไปยังกล่องข้อความ
-              href: ../service-add-hyperlink-to-text-box.md
+              href: service-add-hyperlink-to-text-box.md
             - name: เพิ่มไฮเปอร์ลิงก์ลงในตาราง
-              href: ../power-bi-hyperlinks-in-tables.md
+              href: power-bi-hyperlinks-in-tables.md
             - name: แสดงรูปภาพต่าง ๆ ในตาราง เมทริกซ์ หรือตัวแบ่งส่วนข้อมูล
-              href: ../power-bi-images-tables.md
+              href: power-bi-images-tables.md
             - name: แสดงสตริงรูปแบบแบบกำหนดเอง
-              href: ../desktop-custom-format-strings.md
+              href: desktop-custom-format-strings.md
             - name: ใช้การจัดรูปแบบตารางตามเงื่อนไข
-              href: ../desktop-conditional-table-formatting.md
+              href: desktop-conditional-table-formatting.md
             - name: สร้างชื่อที่อ้างอิงตามนิพจน์ แบบไดนามิก
-              href: ../desktop-conditional-format-visual-titles.md
+              href: desktop-conditional-format-visual-titles.md
             - name: เรียงลำดับตามคอลัมน์
-              href: ../desktop-sort-by-column.md
+              href: desktop-sort-by-column.md
             - name: ปรับรายงานให้เหมาะสมสำหรับแอปอุปกรณ์เคลื่อนที่
-              href: ../desktop-create-phone-report.md
+              href: desktop-create-phone-report.md
             - name: ปรับใช้ตัวเลือก ดูข้อมูล และ ดูเรกคอร์ด
-              href: ../desktop-see-data-see-records.md
+              href: desktop-see-data-see-records.md
             - name: คำแนะนำและเคล็ดลับสำหรับการสร้างรายงาน
-              href: ../desktop-tips-and-tricks-for-creating-reports.md
+              href: desktop-tips-and-tricks-for-creating-reports.md
             - name: จัดกลุ่มวิชวลในรายงาน
-              href: ../desktop-grouping-visuals.md
+              href: desktop-grouping-visuals.md
             - name: สร้างแม่แบบรายงาน
-              href: ../desktop-templates.md
+              href: desktop-templates.md
             - name: สร้างรายงานจากชุดข้อมูล
-              href: ../service-report-create-new.md
+              href: service-report-create-new.md
             - name: บันทึกรายงาน
-              href: ../service-report-save.md
+              href: service-report-save.md
             - name: ทำงานกับรายงานในมุมมองการแก้ไข
-              href: ../service-interact-with-a-report-in-editing-view.md
+              href: service-interact-with-a-report-in-editing-view.md
             - name: วิเคราะห์ใน Excel
-              href: ../service-analyze-in-excel.md
+              href: ../collaborate-share/service-analyze-in-excel.md
             - name: ทำงานกับการรวมค่าในบริการ
-              href: ../service-aggregates.md
+              href: service-aggregates.md
             - name: สร้างคิวอาร์โค้ดสำหรับรายงาน
-              href: ../service-create-qr-code-for-report.md
+              href: service-create-qr-code-for-report.md
             - name: อนุญาตให้บริโภคปรับแต่งวิชวล (ตัวอย่าง)
               href: power-bi-personalize-visuals.md
             - name: ส่งออกรายงานไปยัง Power BI Desktop (ตัวอย่าง)
-              href: ../service-export-to-pbix.md
+              href: service-export-to-pbix.md
             - name: เผยแพร่ชุดข้อมูลและรายงาน
-              href: ../desktop-upload-desktop-files.md
+              href: desktop-upload-desktop-files.md
         - name: การแสดงผลข้อมูลด้วยภาพ
           items:
             - name: เพิ่มวิชวลไปยังรายงาน (ตอนที่ 1)
@@ -226,7 +226,7 @@
             - name: ปรับแต่งชื่อวิชวล พื้นหลัง และคำอธิบายใต้ภาพ
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
             - name: แสดงรายการโดยไม่มีข้อมูล
-              href: ../desktop-show-items-no-data.md
+              href: desktop-show-items-no-data.md
             - name: ปรับใช้ข้อจำกัดของจุดข้อมูลและกลยุทธ์ตามรูปแบบการแสดงผลด้วยภาพ
               href: ../visuals/power-bi-data-points.md
             - name: แสดงข้อมูลเบื้องต้นของวิชวล
@@ -242,7 +242,7 @@
             - name: ย้าย ปรับขนาด และเปิดหน้าต่างวิชวลในรายงาน
               href: ../visuals/power-bi-visualization-move-and-resize.md
             - name: เปลี่ยนวิธีการที่การแสดงผลด้วยภาพโต้ตอบในรายงาน
-              href: ../service-reports-visual-interactions.md
+              href: service-reports-visual-interactions.md
             - name: เคล็ดลับและลูกเล่นในการแสดงข้อมูลแผนที่
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: ปรับแต่งคุณสมบัติแกน X และแกน Y ด้วยตนเอง
@@ -276,9 +276,9 @@
             - name: วิชวล R
               href: ../visuals/service-r-visuals.md
             - name: สร้างวิชวลของ Power BI ด้วย R
-              href: ../desktop-r-visuals.md
+              href: desktop-r-visuals.md
             - name: ดาวน์โหลดและใช้วิชวล Power BI ที่ทำงานด้วย R
-              href: ../desktop-r-powered-custom-visuals.md
+              href: desktop-r-powered-custom-visuals.md
             - name: แผนภูมิตัววัดรัศมี
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: แผนภูมิ Ribbon
@@ -304,29 +304,29 @@
             - name: แนวทางปฏิบัติที่ดีที่สุดของการถามตอบ
               href: ../natural-language/q-and-a-best-practices.md
             - name: ใช้การถามตอบเพื่อสำรวจข้อมูลของคุณ
-              href: ../power-bi-tutorial-q-and-a.md
+              href: power-bi-tutorial-q-and-a.md
             - name: สร้างการแสดงผลด้วยภาพด้วยการถามตอบ
-              href: ../power-bi-visualization-introduction-to-q-and-a.md
+              href: power-bi-visualization-introduction-to-q-and-a.md
             - name: ทำให้ข้อมูล Excel ทำงานได้ดีกับการถามตอบ
-              href: ../service-prepare-data-for-q-and-a.md
+              href: service-prepare-data-for-q-and-a.md
             - name: สร้างคำถามที่แนะนำสำหรับ ถามตอบ
-              href: ../service-q-and-a-create-featured-questions.md
+              href: service-q-and-a-create-featured-questions.md
             - name: ใช้ ถามตอบ ที่มีการเชื่อมต่อสด
-              href: ../service-q-and-a-direct-query.md
+              href: service-q-and-a-direct-query.md
             - name: ข้อมูลเชิงลึกด่วน
-              href: ../service-insights.md
+              href: service-insights.md
             - name: ปรับข้อมูลให้เหมาะสมสำหรับข้อมูลเชิงลึกด่วน
-              href: ../service-insights-optimize.md
+              href: service-insights-optimize.md
         - name: การช่วยสำหรับการเข้าถึง
           items:
             - name: ออกแบบรายงานที่สามารถเข้าถึงได้
-              href: ../desktop-accessibility-creating-reports.md
+              href: desktop-accessibility-creating-reports.md
             - name: สร้างรายงานที่มีเครื่องมือช่วยสำหรับการเข้าถึง
-              href: ../desktop-accessibility-creating-tools.md
+              href: desktop-accessibility-creating-tools.md
             - name: ใช้รายงานด้วยคุณลักษณะการช่วยสำหรับการเข้าถึง
-              href: ../desktop-accessibility-consuming-tools.md
+              href: desktop-accessibility-consuming-tools.md
             - name: แป้นพิมพ์ลัดใน Power BI Desktop
-              href: ../desktop-accessibility-keyboard-shortcuts.md
+              href: desktop-accessibility-keyboard-shortcuts.md
         - name: รายงานที่มีการแบ่งหน้า
           items:
             - name: ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรง
@@ -350,39 +350,39 @@
         - name: แดชบอร์ด
           items:
             - name: แนะนำแดชบอร์ด
-              href: ../service-dashboards.md
+              href: service-dashboards.md
             - name: ไทล์แดชบอร์ด
-              href: ../service-dashboard-tiles.md
+              href: service-dashboard-tiles.md
             - name: สร้างแดชบอร์ดจากรายงาน
-              href: ../service-dashboard-create.md
+              href: service-dashboard-create.md
             - name: สร้างสำเนาของแดชบอร์ด
-              href: ../service-dashboard-copy.md
+              href: service-dashboard-copy.md
             - name: ปักหมุดไทล์ไปยังแดชบอร์ดจากรายงาน
-              href: ../service-dashboard-pin-tile-from-report.md
+              href: service-dashboard-pin-tile-from-report.md
             - name: ปักหมุดไทล์จากแดชบอร์ดหนึ่งไปยังอีกแดชบอร์ดหนึ่ง
-              href: ../service-pin-tile-to-another-dashboard.md
+              href: service-pin-tile-to-another-dashboard.md
             - name: ปักหมุดไทล์ไปยังแดชบอร์ดจาก Excel
-              href: ../service-dashboard-pin-tile-from-excel.md
+              href: service-dashboard-pin-tile-from-excel.md
             - name: ปักหมุดไทล์ที่แดชบอร์ดจาก Q&A
-              href: ../service-dashboard-pin-tile-from-q-and-a.md
+              href: service-dashboard-pin-tile-from-q-and-a.md
             - name: ปักหมุดทั้งหน้ารายงานไปยังแดชบอร์ด
-              href: ../service-dashboard-pin-live-tile-from-report.md
+              href: service-dashboard-pin-live-tile-from-report.md
             - name: การแจ้งเตือนข้อมูลในบริการ
-              href: ../service-set-data-alerts.md
+              href: service-set-data-alerts.md
             - name: เพิ่มรูปภาพ กล่องข้อความ วิดีโอ หรือโค้ดลงในแดชบอร์ด
-              href: ../service-dashboard-add-widget.md
+              href: service-dashboard-add-widget.md
             - name: แก้ไขไทล์
-              href: ../service-dashboard-edit-tile.md
+              href: service-dashboard-edit-tile.md
             - name: เคล็ดลับสำหรับการออกแบบแดชบอร์ดที่ยอดเยี่ยม
-              href: ../service-dashboards-design-tips.md
+              href: service-dashboards-design-tips.md
             - name: ปรับแดชบอร์ดให้เหมาะสมสำหรับโทรศัพท์
-              href: ../service-create-dashboard-mobile-phone-view.md
+              href: service-create-dashboard-mobile-phone-view.md
             - name: สร้างคิวอาร์โค้ดสำหรับไทล์
-              href: ../service-create-qr-code-for-tile.md
+              href: service-create-qr-code-for-tile.md
             - name: การจัดประเภทข้อมูลของแดชบอร์ด
-              href: ../service-data-classification.md
+              href: service-data-classification.md
             - name: ไอเท็มของแดชบอร์ด
-              href: ../service-dashboard-themes.md
+              href: service-dashboard-themes.md
         - name: ขั้นตอนการปรับใช้งาน
           items:
             - name: เริ่มใช้งาน
@@ -392,8 +392,8 @@
         - name: งานอื่น ๆ
           items:
             - name: เปลี่ยนชื่อเนื้อหา
-              href: ../service-rename.md
+              href: service-rename.md
             - name: ตั้งค่าผู้ติดต่อของรายการ
-              href: ../service-item-contact.md
+              href: service-item-contact.md
             - name: ลบเกือบทุกรายการ
-              href: ../service-delete.md
+              href: service-delete.md
