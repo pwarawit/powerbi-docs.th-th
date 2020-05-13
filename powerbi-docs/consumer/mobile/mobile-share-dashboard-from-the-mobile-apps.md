@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31d3ee405f77acaa47bb158ddde97778a8af9ff0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435800"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349344"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>แชร์แดชบอร์ดหรือรายงานจากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI
 ใช้ได้กับ:
@@ -25,7 +25,7 @@ ms.locfileid: "79435800"
 >[!NOTE]
 >การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ**โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [เรียนรู้เพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
 
-ด้วย[สิทธิ์การใช้งาน Power BI Pro](../../service-features-license-type.md) คุณสามารถเชิญบุคคลอื่นเพื่อดูแดชบอร์ดและรายงานของคุณ โดยการแชร์ลิงก์จากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ได้ คุณสามารถแชร์กับทุกคน ทั้งในและนอกองค์กรของคุณ ทั้งมีหรือไม่มีบัญชีอีเมลขององค์กร พวกเขาจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro ด้วย หรือเนื้อหาจำเป็นต้องอยู่ใน[ความจุพรีเมียม](../../service-premium-what-is.md)
+ด้วย[สิทธิ์การใช้งาน Power BI Pro](../../fundamentals/service-features-license-type.md) คุณสามารถเชิญบุคคลอื่นเพื่อดูแดชบอร์ดและรายงานของคุณ โดยการแชร์ลิงก์จากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ได้ คุณสามารถแชร์กับทุกคน ทั้งในและนอกองค์กรของคุณ ทั้งมีหรือไม่มีบัญชีอีเมลขององค์กร พวกเขาจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro ด้วย หรือเนื้อหาจำเป็นต้องอยู่ใน[ความจุพรีเมียม](../../admin/service-premium-what-is.md)
 
 จากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI สำหรับ iOS และ Android คุณยังสามารถ[ใส่คำอธิบายประกอบ และแชร์สแนปช็อตของไทล์ รายงาน หรือวิชวล](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)กับทุกคนได้ 
 
@@ -42,7 +42,7 @@ ms.locfileid: "79435800"
    * บนแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ ให้แตะ **ตัวเลือกเพิ่มเติม** (...) บนแถบนำทางและเลือก ![แชร์กับฉัน](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **แชร์กับฉัน**
    * ในบริการของ Power BI ให้คลิก ![แชร์กับฉัน](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **แชร์กับฉัน** ในบานหน้าต่างนำทางด้านซ้ายมือ
    
-   อ่านเพิ่มเติม[บันทึกย่อเกี่ยวกับการแชร์กับเพื่อนร่วมงาน](../../service-share-dashboards.md)
+   อ่านเพิ่มเติม[บันทึกย่อเกี่ยวกับการแชร์กับเพื่อนร่วมงาน](../../collaborate-share/service-share-dashboards.md)
 
 ### <a name="unshare-from-your-iphone-or-ipad"></a>ยกเลิกการแชร์จาก iPhone หรือ iPad ของคุณ
 คุณสามารถยกเลิกการแชร์ถ้าคุณเป็นเจ้าของเท่านั้น
@@ -67,7 +67,7 @@ ms.locfileid: "79435800"
    * บนแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ ให้แตะ **ตัวเลือกเพิ่มเติม** (...) บนแถบนำทางและเลือก ![แชร์กับฉัน](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **แชร์กับฉัน**
    * ในบริการของ Power BI ให้คลิก ![แชร์กับฉัน](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **แชร์กับฉัน** ในบานหน้าต่างนำทางด้านซ้ายมือ
    
-   อ่านเพิ่มเติม[บันทึกย่อเกี่ยวกับการแชร์กับเพื่อนร่วมงาน](../../service-share-dashboards.md)
+   อ่านเพิ่มเติม[บันทึกย่อเกี่ยวกับการแชร์กับเพื่อนร่วมงาน](../../collaborate-share/service-share-dashboards.md)
 
 
 ### <a name="unshare-from-your-android-device"></a>ยกเลิกการแชร์จากอุปกรณ์ Android ของคุณ
@@ -97,10 +97,9 @@ ms.locfileid: "79435800"
    * บนแอป Power BI สำหรับอุปกรณ์เคลื่อนที่ ให้แตะ **ตัวเลือกเพิ่มเติม** (...) บนแถบนำทางและเลือก ![แชร์กับฉัน](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **แชร์กับฉัน**
    * ในบริการของ Power BI ให้คลิก ![แชร์กับฉัน](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **แชร์กับฉัน** ในบานหน้าต่างนำทางด้านซ้ายมือ
    
-   อ่านเพิ่มเติม[บันทึกย่อเกี่ยวกับการแชร์กับเพื่อนร่วมงาน](../../service-share-dashboards.md)
+   อ่านเพิ่มเติม[บันทึกย่อเกี่ยวกับการแชร์กับเพื่อนร่วมงาน](../../collaborate-share/service-share-dashboards.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ใส่คำอธิบายประกอบ และแชร์สแนปช็อตของไทล์ รายงาน หรือภาพในแอปสำหรับอุปกรณ์เคลื่อนที่](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
-* [แชร์แดชบอร์ดหรือรายงานใน Power BI](../../service-share-dashboards.md)
+* [แชร์แดชบอร์ดหรือรายงานใน Power BI](../../collaborate-share/service-share-dashboards.md)
 * มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-

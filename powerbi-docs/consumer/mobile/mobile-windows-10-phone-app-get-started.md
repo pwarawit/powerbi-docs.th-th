@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 0bbdc13e1adf52ba90435f22920e4351e8f34404
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435961"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349367"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>เริ่มใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
 แอป Power BI สำหรับอุปกรณ์เคลื่อนที่บน Windows 10 นำ Power BI ไปยังแท็บเล็ตหรือโทรศัพท์ของคุณ คุณจะได้รับการเข้าถึงข้อมูลทางธุรกิจของคุณที่มีการปรับปรุงล่าสุดผ่านทางอุปกรณ์เคลื่อนที่ที่เปิดใช้งานระบบสัมผัส ดูและโต้ตอบกับแดชบอร์ดบริษัทของคุณจากที่ใดก็ได้บน [หน้าจอเริ่มต้นของ Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)
 
 ![ไทล์รายงานสดของ Windows](./media/mobile-windows-10-phone-app-get-started/pbi_win10_livetile.gif)
 
-คุณ[สร้างแดชบอร์ดและรายงานในบริการของ Power BI](../../service-get-started.md) ด้วยข้อมูลของคุณ 
+คุณ[สร้างแดชบอร์ดและรายงานในบริการของ Power BI](../../fundamentals/service-get-started.md) ด้วยข้อมูลของคุณ 
 
 จากนั้น โต้ตอบกับแดชบอร์ดและรายงานของคุณ สำรวจข้อมูล บันทึก แล้วแชร์ ทั้งหมดจากแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
 
@@ -38,7 +38,7 @@ ms.locfileid: "79435961"
 ถ้าคุณยังไม่ได้ลงทะเบียน ให้ไปยัง[บริการของ Power BI](https://powerbi.com/) ลงทะเบียนสำหรับบัญชีของคุณเองเพื่อสร้างและจัดเก็บแดชบอร์ดและรายงานและนำข้อมูลของคุณมารวมเข้าด้วยกัน จากนั้น ลงชื่อเข้าใช้ Power BI จากอุปกรณ์ Windows 10 ของคุณเพื่อดูแดชบอร์ดของคุณเองจากที่ไหนก็ได้
 
 1. ในบริการของ Power BI แตะ [ลงทะเบียน](https://go.microsoft.com/fwlink/?LinkID=513879) เพื่อสร้างบัญชี Power BI
-2. เริ่มต้น[สร้างแดชบอร์ดและรายงานของคุณเอง](../../service-get-started.md)
+2. เริ่มต้น[สร้างแดชบอร์ดและรายงานของคุณเอง](../../fundamentals/service-get-started.md)
 
 ## <a name="get-started-with-the-power-bi-app"></a>เริ่มต้นใช้งานแอป Power BI
 1. บนหน้าจอเริ่มต้นของอุปกรณ์ Windows 10 ให้เปิดแอป Power BI
@@ -110,7 +110,7 @@ ms.locfileid: "79435961"
 ต่อไปนี้คือสิ่งอื่นๆ ที่คุณสามารถทำในแอป Power BI สำหรับ Windows 10 กับแดชบอร์ดและรายงานใน Power BI ตลอดจนรายงานอุปกรณ์มือถือและ KPI ของ Reporting Services ในพอร์ทัลเว็บ Reporting Services
 
 ### <a name="power-bi-dashboards-and-reports"></a>แดชบอร์ดและรายงาน Power BI
-* ดู[แอปของคุณ](../../service-create-distribute-apps.md)
+* ดู[แอปของคุณ](../../collaborate-share/service-create-distribute-apps.md)
 * ดู[แดชบอร์ด](mobile-apps-view-dashboard.md)ของคุณ
 * [ปักหมุดไทล์และแดชบอร์ด Power BI](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) เป็นไทล์รายงานสดบนหน้าจอเริ่มต้นของอุปกรณ์ของคุณ
 * [แชร์ไทล์](mobile-windows-10-phone-app-get-started.md)
@@ -125,4 +125,3 @@ ms.locfileid: "79435961"
 * [ดาวน์โหลดแอป Power BI](https://go.microsoft.com/fwlink/?LinkID=526478) จาก Windows Store  
 * [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)
 * มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-

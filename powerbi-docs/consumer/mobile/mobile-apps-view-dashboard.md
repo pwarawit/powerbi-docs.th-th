@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8a3a80ea7bb318944961a57ac6fdac695aa46253
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205538"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349459"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>ดูแดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 ใช้ได้กับ:
@@ -29,8 +29,8 @@ ms.locfileid: "79205538"
 
 เมื่อต้องการดูแดชบอร์ดและรายงานบนอุปกรณ์เคลื่อนที่ของคุณ คุณจำเป็นต้องสร้างหรือเชื่อมต่อกับรายการเหล่านั้นในเว็บเบราว์เซอร์ 
 
-1. ไปยังบริการของ Power BI ([https://www.powerbi.com](https://www.powerbi.com)) และ[ลงทะเบียนสำหรับบัญชีผู้ใช้](../../service-self-service-signup-for-power-bi.md)
-2. [สร้างแดชบอร์ดและรายงาน Power BI ของคุณ](../../service-get-started.md)หรือเชื่อมต่อกับ[แอป Power BI](../../service-connect-to-services.md)ที่มีอยู่สำหรับบริการที่หลากหลาย เช่น[Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md)
+1. ไปยังบริการของ Power BI ([https://www.powerbi.com](https://www.powerbi.com)) และ[ลงทะเบียนสำหรับบัญชีผู้ใช้](../../fundamentals/service-self-service-signup-for-power-bi.md)
+2. [สร้างแดชบอร์ดและรายงาน Power BI ของคุณ](../../fundamentals/service-get-started.md)หรือเชื่อมต่อกับ[แอป Power BI](../../connect-data/service-connect-to-services.md)ที่มีอยู่สำหรับบริการที่หลากหลาย เช่น[Microsoft Dynamics CRM](../../connect-data/service-connect-to-services.md)
 
 ที่นี่ คุณสามารถเปิดแดชบอร์ดในบริการของ Power BI
 
@@ -45,14 +45,14 @@ ms.locfileid: "79205538"
     ![แตะแดชบอร์ด](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
    * ดาวสีเหลือง ![ดาวรายการโปรด](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) แสดงแดชบอร์ดที่เป็นรายการโปรด 
-   * เครื่องหมายด้านล่างแต่ละชื่อของแดชบอร์ด (ในกรณีนี้ คือ "MBI") ![จัดประเภทข้อมูล](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)แสดงวิธีการจัดประเภทข้อมูลในแต่ละแดชบอร์ด อ่านเพิ่มเติมเกี่ยวกับ[การจัดประเภทข้อมูลใน Power BI](../../service-data-classification.md)
+   * เครื่องหมายด้านล่างแต่ละชื่อของแดชบอร์ด (ในกรณีนี้ คือ "MBI") ![จัดประเภทข้อมูล](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)แสดงวิธีการจัดประเภทข้อมูลในแต่ละแดชบอร์ด อ่านเพิ่มเติมเกี่ยวกับ[การจัดประเภทข้อมูลใน Power BI](../../create-reports/service-data-classification.md)
    
    ตามค่าเริ่มต้น แดชบอร์ด Power BI จะมีลักษณะแตกต่างกันเล็กน้อยบน iPhone ของคุณ ไทล์ทั้งหมดจะปรากฏในขนาดเท่ากัน และถูกจัดเรียงทีละอันจากบนลงล่าง
    
     ![มุมมองแดชบอร์ดแนวตั้ง](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
-   > ถ้าคุณเป็นเจ้าของแดชบอร์ด ในบริการของ Power BI คุณจะสามารถ[สร้างมุมมองแดชบอร์ดสำหรับโทรศัพท์](../../service-create-dashboard-mobile-phone-view.md)ในโหมดแนวตั้งได้ 
+   > ถ้าคุณเป็นเจ้าของแดชบอร์ด ในบริการของ Power BI คุณจะสามารถ[สร้างมุมมองแดชบอร์ดสำหรับโทรศัพท์](../../create-reports/service-create-dashboard-mobile-phone-view.md)ในโหมดแนวตั้งได้ 
    > 
    > 
    
@@ -85,7 +85,7 @@ ms.locfileid: "79205538"
    ![หน้าแรกของแดชบอร์ด](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * ดาวสีเหลือง ![ดาวรายการโปรด](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) แสดงแดชบอร์ดที่เป็นรายการโปรด 
-   * เครื่องหมายด้านล่างแต่ละชื่อของแดชบอร์ด (ในกรณีนี้ คือ "MBI") ![จัดประเภทข้อมูล](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)แสดงวิธีการจัดประเภทข้อมูลในแต่ละแดชบอร์ด อ่านเพิ่มเติมเกี่ยวกับ[การจัดประเภทข้อมูลใน Power BI](../../service-data-classification.md)
+   * เครื่องหมายด้านล่างแต่ละชื่อของแดชบอร์ด (ในกรณีนี้ คือ "MBI") ![จัดประเภทข้อมูล](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)แสดงวิธีการจัดประเภทข้อมูลในแต่ละแดชบอร์ด อ่านเพิ่มเติมเกี่ยวกับ[การจัดประเภทข้อมูลใน Power BI](../../create-reports/service-data-classification.md)
 3. คุณสามารถแชร์แดชบอร์ดจากพื้นที่ทำงานของคุณ แตะจุดไข่ปลา ( **...** ) ที่มุมขวาล่างของไทล์แดชบอร์ด และ แตะ**เชิญบุคคลอื่น**
    
    ![ไอคอนเชิญ](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
@@ -109,13 +109,13 @@ ms.locfileid: "79205538"
 
     ดาวสีเหลือง ![ดาวรายการโปรด](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) แสดงแดชบอร์ดที่เป็นรายการโปรด 
 
-    เครื่องหมายด้านล่างแต่ละชื่อของแดชบอร์ด (ในกรณีนี้ "MBI") ![จัดประเภทข้อมูล](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)แสดงวิธีการจัดประเภทข้อมูลในแต่ละแดชบอร์ด อ่านเพิ่มเติมเกี่ยวกับ[การจัดประเภทข้อมูลใน Power BI](../../service-data-classification.md)
+    เครื่องหมายด้านล่างแต่ละชื่อของแดชบอร์ด (ในกรณีนี้ "MBI") ![จัดประเภทข้อมูล](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)แสดงวิธีการจัดประเภทข้อมูลในแต่ละแดชบอร์ด อ่านเพิ่มเติมเกี่ยวกับ[การจัดประเภทข้อมูลใน Power BI](../../create-reports/service-data-classification.md)
 
     แดชบอร์ด Power BI จะมีลักษณะแตกต่างกันเล็กน้อยบน Android ของคุณ ไทล์ทั้งหมดจะปรากฏในขนาดเท่ากัน และถูกจัดเรียงทีละอันจากบนลงล่าง
 
     ![มุมมองแดชบอร์ดแนวตั้ง](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-    ถ้าคุณเป็นเจ้าของแดชบอร์ด ในบริการของ Power BI คุณจะสามารถ[สร้างมุมมองแดชบอร์ดสำหรับโทรศัพท์](../../service-create-dashboard-mobile-phone-view.md)ในโหมดแนวตั้งได้ 
+    ถ้าคุณเป็นเจ้าของแดชบอร์ด ในบริการของ Power BI คุณจะสามารถ[สร้างมุมมองแดชบอร์ดสำหรับโทรศัพท์](../../create-reports/service-create-dashboard-mobile-phone-view.md)ในโหมดแนวตั้งได้ 
 
 1. ในขณะที่อยู่บนแดชบอร์ด คุณสามารถแตะที่ปุ่ม**ตัวเลือกเพิ่มเติม**แนวตั้ง (...) ถัดจากชื่อเพื่อเชิญเพื่อนร่วมงาน รีเฟรช หรือรับข้อมูลเกี่ยวกับแดชบอร์ด:
    
@@ -132,7 +132,7 @@ ms.locfileid: "79205538"
    ![หน้าแรกของแดชบอร์ด](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * ดาวสีเหลือง ![ดาวรายการโปรด](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) แสดงแดชบอร์ดที่เป็นรายการโปรด 
-   * เครื่องหมายด้านล่างแต่ละชื่อของแดชบอร์ด (ในกรณีนี้ คือ "MBI") ![จัดประเภทข้อมูล](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)แสดงวิธีการจัดประเภทข้อมูลในแต่ละแดชบอร์ด อ่านเพิ่มเติมเกี่ยวกับ[การจัดประเภทข้อมูลใน Power BI](../../service-data-classification.md)
+   * เครื่องหมายด้านล่างแต่ละชื่อของแดชบอร์ด (ในกรณีนี้ คือ "MBI") ![จัดประเภทข้อมูล](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)แสดงวิธีการจัดประเภทข้อมูลในแต่ละแดชบอร์ด อ่านเพิ่มเติมเกี่ยวกับ[การจัดประเภทข้อมูลใน Power BI](../../create-reports/service-data-classification.md)
 3. ในขณะที่อยู่บนแดชบอร์ด คุณสามารถแตะที่ปุ่ม**ตัวเลือกเพิ่มเติม**แนวตั้ง (...) ถัดจากชื่อเพื่อเชิญเพื่อนร่วมงาน รีเฟรช หรือรับข้อมูลเกี่ยวกับแดชบอร์ด:
    
    ![เมนูจุดไข่ปลา](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -150,11 +150,10 @@ ms.locfileid: "79205538"
 
 ![มุมมองแดชบอร์ดสำหรับโทรศัพท์](./media/mobile-apps-view-dashboard/power-bi-phone-dashboard-in-progress.png)
 
-อ่านเพิ่มเติมเกี่ยวกับ[สร้างมุมมองแดชบอร์ด](../../service-create-dashboard-mobile-phone-view.md)สำหรับโทรศัพท์
+อ่านเพิ่มเติมเกี่ยวกับ[สร้างมุมมองแดชบอร์ด](../../create-reports/service-create-dashboard-mobile-phone-view.md)สำหรับโทรศัพท์
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ดาวน์โหลดแอป Android](https://go.microsoft.com/fwlink/?LinkID=544867)จาก Google play  
 * [เริ่มต้นใช้งานแอป Android สำหรับ Power BI](mobile-android-app-get-started.md)  
 * [Power BI คืออะไร](../../fundamentals/power-bi-overview.md)
 * มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-

@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 074bc95a9e259df84211d3f922831db323d506cc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922102"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348677"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรงในตัวสร้างรายงาน - Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "78922102"
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
 - หากต้องการป้อนข้อมูลโดยตรงในรายงานแบบแบ่งหน้า ให้ติดตั้ง [ตัวสร้างรายงานจาก Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53613) เวอร์ชันใหม่ 
-- หากต้องการบันทึกรายงานแบบแบ่งหน้าของคุณไปยังบริการ Power BI คุณต้องใช้ [บัญชี Power BI Pro](../service-self-service-signup-for-power-bi.md) และเขียนการเข้าถึงพื้นที่ทำงานใน [ความจุ Power BI Premium](../service-premium-what-is.md)
+- หากต้องการบันทึกรายงานแบบแบ่งหน้าของคุณไปยังบริการ Power BI คุณต้องใช้ [บัญชี Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md) และเขียนการเข้าถึงพื้นที่ทำงานใน [ความจุ Power BI Premium](../admin/service-premium-what-is.md)
 - หากต้องการบันทึกรายงานแบบแบ่งหน้าของคุณไปยังเซิร์ฟเวอร์รายงาน คุณต้องมีสิทธิ์เพื่อ[แก้ไขไฟล์ RsReportServer.config](#upload-the-paginated-report-to-a-report-server)
 
 ## <a name="get-started"></a>เริ่มใช้งาน

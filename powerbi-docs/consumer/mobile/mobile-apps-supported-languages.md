@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 4f135a411d69835e925cf97b418bda6ae80adc1a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6c8957526f3aaf63d6dda80d5e5d84db1eb22df4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79113179"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349390"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>ภาษาที่รองรับในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 ปัจจุบัน แอป Power BI สำหรับอุปกรณ์เคลื่อนที่รองรับภาษาเหล่านี้:
@@ -58,7 +58,6 @@ ms.locfileid: "79113179"
 * แจ้งเตือนเป็นภาษาอังกฤษเท่านั้น ตัวอย่างเช่น ถ้ามีบางคนแชร์แดชบอร์ดกับคุณ การแจ้งเตือนจะเป็นภาษาอังกฤษ 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [ภาษาที่รองรับและประเทศ/ภูมิภาคสำหรับ Power BI](../../supported-languages-countries-regions.md)
+* [ภาษาที่รองรับและประเทศ/ภูมิภาคสำหรับ Power BI](../../fundamentals/supported-languages-countries-regions.md)
 * มีคำถามหรือไม่? ลองถาม[ชุมชน Power BI](https://community.powerbi.com/)
 * ยังคงมีปัญหาใช่หรือไม่? โปรดเยี่ยมชม[หน้าการสนับสนุน Power BI](https://powerbi.microsoft.com/support/)
-

@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e74a59d3ff4a5568352c647ec9f384ad8c3a09b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 53a4ae78fa996c1e48ed0c16e0caf15e4f687697
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81638536"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347941"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>เลือกใช้รูปลักษณ์พื้นที่ทำงาน “รูปลักษณ์ใหม่” (พรีวิว)
 
-พื้นที่ทำงานมีรูปลักษณ์ใหม่ที่สอดคล้องกับ[รูปลักษณ์ใหม่](../service-new-look.md)ของบริการ Power BI ทุกคนที่ใช้บริการ Power BI (app.powerbi.com) สามารถเลือกใช้งานได้ เมื่อคุณเปิดการ **ลักษณะใหม่** ในแถบส่วนหัวสีดำคุณเลือกที่จะค้นหารายงานและพื้นที่ทำงานใหม่ ทุกพื้นที่ทำงาน ทั้งคลาสสิกและแบบใหม่สามารถได้ประโยชน์จากรูปลักษณ์ใหม่ได้
+พื้นที่ทำงานมีรูปลักษณ์ใหม่ที่สอดคล้องกับ[รูปลักษณ์ใหม่](../consumer/service-new-look.md)ของบริการ Power BI ทุกคนที่ใช้บริการ Power BI (app.powerbi.com) สามารถเลือกใช้งานได้ เมื่อคุณเปิดการ **ลักษณะใหม่** ในแถบส่วนหัวสีดำคุณเลือกที่จะค้นหารายงานและพื้นที่ทำงานใหม่ ทุกพื้นที่ทำงาน ทั้งคลาสสิกและแบบใหม่สามารถได้ประโยชน์จากรูปลักษณ์ใหม่ได้
 
-ต้องการเกี่ยวกับรูปลักษณ์ใหม่ใน **Power BI Desktop**อย่างนั้นหรือ คุณสามารถอ่านได้ที่ใช้ [ชุดแถบเครื่องมือที่อัปเดตแล้วใน Power BI Desktop](../desktop-ribbon.md)
+ต้องการเกี่ยวกับรูปลักษณ์ใหม่ใน **Power BI Desktop**อย่างนั้นหรือ คุณสามารถอ่านได้ที่ใช้ [ชุดแถบเครื่องมือที่อัปเดตแล้วใน Power BI Desktop](../create-reports/desktop-ribbon.md)
 
 ## <a name="features-of-the-new-look"></a>คุณลักษณะของรูปลักษณ์ใหม่่
 
@@ -50,7 +50,6 @@ ms.locfileid: "81638536"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-- [ใช้ชุดแถบเครื่องมือที่อัปเดตแล้วใน Power BI Desktop](../desktop-ribbon.md)
-- ["รูปลักษณ์ใหม่" ของบริการของ Power BI](../service-new-look.md)
+- [ใช้ชุดแถบเครื่องมือที่อัปเดตแล้วใน Power BI Desktop](../create-reports/desktop-ribbon.md)
+- ["รูปลักษณ์ใหม่" ของบริการของ Power BI](../consumer/service-new-look.md)
 - มีคำถามหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
-

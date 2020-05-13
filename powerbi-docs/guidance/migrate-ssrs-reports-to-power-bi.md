@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b87848953722d33235a11729a3643c627cca7234
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d9fd23a0cf5c3ed26c78e4c53ae600bf74daca91
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525625"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348194"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>โยกย้ายรายงานบริการรายงานเซิร์ฟเวอร์ SQL ไปยัง Power BI
 
@@ -37,7 +37,7 @@ ms.locfileid: "79525625"
 
 ### <a name="preparing-for-migration"></a>การเตรียมพร้อมสำหรับการโยกย้าย
 
-หลังจากที่คุณเตรียมพร้อมเพื่อโยกย้ายรายงานของคุณไปยัง Power BI ก่อนอื่น ให้ยืนยันว่า องค์กรของคุณมีการสมัครสมาชิก [Power BI Premium](../service-premium-what-is.md) การสมัครสมาชิกนี้จำเป็นต้องมีการโฮสต์และเรียกใช้รายงานที่มีการแบ่งหน้าของ Power BI ของคุณ
+หลังจากที่คุณเตรียมพร้อมเพื่อโยกย้ายรายงานของคุณไปยัง Power BI ก่อนอื่น ให้ยืนยันว่า องค์กรของคุณมีการสมัครสมาชิก [Power BI Premium](../admin/service-premium-what-is.md) การสมัครสมาชิกนี้จำเป็นต้องมีการโฮสต์และเรียกใช้รายงานที่มีการแบ่งหน้าของ Power BI ของคุณ
 
 ### <a name="supported-versions"></a>เวอร์ชันที่รองรับ
 
@@ -112,12 +112,12 @@ ms.locfileid: "79525625"
 
 เป้าหมายของระยะ_เตรียมพร้อม_ เกี่ยวข้องกับการเตรียมทุกอย่างให้พร้อม โดยครอบคลุมถึงการตั้งค่าสภาพแวดล้อมของ Power BI วางแผนลักษณะการรักษาความปลอดภัยและเผยแพร่รายงานและแนวคิดของคุณสำหรับการพัฒนาหน่วยข้อมูล SSRS ใหม่ ที่จะไม่โยกย้าย
 
-1. ตรวจสอบให้แน่ใจว่า ได้เปิดใช้งาน [เวิร์กโหลดรายงานที่มีการแบ่งหน้า](../service-admin-premium-workloads.md#paginated-reports) สำหรับความจุของ Power BI Premium ของคุณ และมีหน่วยความจำเพียงพอ
-1. ยืนยันการสนับสนุนสำหรับ[แหล่งข้อมูล](../paginated-reports/paginated-reports-data-sources.md)ของรายงานของคุณ และตั้งค่า[เกตเวย์ Power BI](../service-gateway-onprem.md) เพื่ออนุญาตการเชื่อมต่อกับแหล่งข้อมูลภายในองค์กรใด ๆ
-1. ทำความคุ้นเคยกับการรักษาความปลอดภัย Power BI และวางแผน [วิธีที่คุณจะสร้างโฟลเดอร์ SSRS และสิทธิ์อนุญาตขึ้นใหม่](/sql/reporting-services/security/secure-folders) กับ [พื้นที่ทำงานของ Power BI และบทบาทของพื้นที่ทำงาน](../service-new-workspaces.md)
-1. ทำความคุ้นเคยกับการแชร์ Power BI และวางแผนเกี่ยวกับแนวทางการกระจายเนื้อหาโดยการเผยแพร [แอป Power BI](../service-create-distribute-apps.md)
-1. พิจารณาการใช้[ชุดข้อมูล Power BI ที่ใช้ร่วมกัน](../service-datasets-build-permissions.md) แทนแหล่งข้อมูลที่ใช้ร่วมกัน SSRS ของคุณ
-1. ใช้ [Power BI Desktop](../desktop-what-is-desktop.md) เพื่อพัฒนารายงานที่ปรับให้เหมาะสมสำหรับอุปกรณ์เคลื่อนที่ ซึ่งอาจใช้ [วิชวลแบบกำหนดเอง Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) แทน KPI และรายงานบนมือถือ SSRS ของคุณ
+1. ตรวจสอบให้แน่ใจว่า ได้เปิดใช้งาน [เวิร์กโหลดรายงานที่มีการแบ่งหน้า](../admin/service-admin-premium-workloads.md#paginated-reports) สำหรับความจุของ Power BI Premium ของคุณ และมีหน่วยความจำเพียงพอ
+1. ยืนยันการสนับสนุนสำหรับ[แหล่งข้อมูล](../paginated-reports/paginated-reports-data-sources.md)ของรายงานของคุณ และตั้งค่า[เกตเวย์ Power BI](../connect-data/service-gateway-onprem.md) เพื่ออนุญาตการเชื่อมต่อกับแหล่งข้อมูลภายในองค์กรใด ๆ
+1. ทำความคุ้นเคยกับการรักษาความปลอดภัย Power BI และวางแผน [วิธีที่คุณจะสร้างโฟลเดอร์ SSRS และสิทธิ์อนุญาตขึ้นใหม่](/sql/reporting-services/security/secure-folders) กับ [พื้นที่ทำงานของ Power BI และบทบาทของพื้นที่ทำงาน](../collaborate-share/service-new-workspaces.md)
+1. ทำความคุ้นเคยกับการแชร์ Power BI และวางแผนเกี่ยวกับแนวทางการกระจายเนื้อหาโดยการเผยแพร [แอป Power BI](../collaborate-share/service-create-distribute-apps.md)
+1. พิจารณาการใช้[ชุดข้อมูล Power BI ที่ใช้ร่วมกัน](../connect-data/service-datasets-build-permissions.md) แทนแหล่งข้อมูลที่ใช้ร่วมกัน SSRS ของคุณ
+1. ใช้ [Power BI Desktop](../fundamentals/desktop-what-is-desktop.md) เพื่อพัฒนารายงานที่ปรับให้เหมาะสมสำหรับอุปกรณ์เคลื่อนที่ ซึ่งอาจใช้ [วิชวลแบบกำหนดเอง Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) แทน KPI และรายงานบนมือถือ SSRS ของคุณ
 1. ประเมินการใช้เขตข้อมูลที่มีอยู่ภายใน **UserID** ในรายงานของคุณอีกครั้ง ถ้าคุณอาศัย **UserID** ในการรักษาความปลอดภัยข้อมูลรายงาน โปรดทำความเข้าใจว่าสำหรับรายงานที่มีการแบ่งหน้า (เมื่อโฮสต์ในบริการของ Power BI) จะส่งชื่อผู้ใช้หลัก (UPN) กลับมา ดังนั้น แทนที่จะส่งกลับชื่อบัญชี NT ตัวอย่างเช่น _AW\mblythe_ เขตข้อมูลที่มีอยู่ภายในจะส่งบางอย่างกลับมา เช่น _m blythe&commat;adventureworks.com_ คุณจำเป็นจะต้องทบทวนข้อกำหนดชุดข้อมูลของคุณและอาจรวมถึงแหล่งข้อมูล เมื่อได้รับการทบทวนและเผยแพร่แล้ว เราขอแนะนำให้คุณทดสอบรายงานของคุณอย่างละเอียดเพื่อให้แน่ใจว่าสิทธิ์ของข้อมูลทำงานตามที่คาดไว้
 1. ประเมินการใช้เขตข้อมูลที่มีอยู่ภายใน **ExecutionTime** ในรายงานของคุณอีกครั้ง สำหรับรายงานที่มีการแบ่งหน้า (เมื่อโฮสต์ในบริการของ Power BI) เขตข้อมูลที่มีอยู่ภายในจะส่งกลับวันที่/เวลา _ในรูปแบบเวลามาตรฐานสากล (หรือ UTC)_ ซึ่งอาจส่งผลกระทบต่อค่าเริ่มต้นของพารามิเตอร์รายงานและป้ายชื่อเวลาการดำเนินการรายงาน (โดยทั่วไปแล้วจะถูกเพิ่มไปยังส่วนท้ายของรายงาน)
 1. ถ้าแหล่งข้อมูลของคุณเป็น SQL Server (ภายในองค์กร) ให้ตรวจสอบว่ารายงานไม่ได้ใช้การแสดงข้อมูลด้วยภาพแบบแผนที่ การแสดงข้อมูลด้วยภาพแบบแผนที่จะขึ้นอยู่กับชนิดข้อมูลเชิงพื้นที่ของ SQL Server และเกตเวย์เหล่านี้ไม่ได้รับการสนับสนุน สำหรับข้อมูลเพิ่มเติม โปรดดู [คำแนะนำการเรียกข้อมูลสำหรับรายงานที่มีการแบ่งหน้า (ชนิดข้อมูลที่ซับซ้อนของ SQL Server)](report-paginated-data-retrieval.md#sql-server-complex-data-types)
@@ -171,9 +171,9 @@ ms.locfileid: "79525625"
 
 เราขอแนะนำอย่างสูงให้คุณดำเนินการต่อไปนี้เพื่อให้แน่ใจว่าผู้ใช้รายงานจะได้รับประสบการณ์การใช้งานที่ดีที่สุด:
 
-1. ทำการทดสอบรายงานในแต่ละ[เบราว์เซอร์ที่สนับสนุนโดย Power BI](../power-bi-browsers.md) เพื่อยีนยันว่ารายงานแสดงผลอย่างถูกต้อง
+1. ทำการทดสอบรายงานในแต่ละ[เบราว์เซอร์ที่สนับสนุนโดย Power BI](../fundamentals/power-bi-browsers.md) เพื่อยีนยันว่ารายงานแสดงผลอย่างถูกต้อง
 1. เรียกใช้การทดสอบเพื่อเปรียบเทียบเวลาการแสดงผลรายงานใน SSRS และ Power BI ตรวจสอบว่ารายงาน Power BI แสดงผลในเวลาที่ยอมรับได้
-1. หากรายงาน Power BI ไม่สามารถแสดงผลได้ เนื่องจากมีหน่วยความจำไม่เพียงพอ ให้จัดสรร[แหล่งข้อมูลเพิ่มเติมไปยังความจุ Power BI Premium](../service-admin-premium-workloads.md#paginated-reports)
+1. หากรายงาน Power BI ไม่สามารถแสดงผลได้ เนื่องจากมีหน่วยความจำไม่เพียงพอ ให้จัดสรร[แหล่งข้อมูลเพิ่มเติมไปยังความจุ Power BI Premium](../admin/service-admin-premium-workloads.md#paginated-reports)
 1. สำหรับรายงานที่แสดงผลในระยะยาว ให้พิจารณาใช้ Power BI ในการส่งรายงานไปยังผู้ใช้รายงานของคุณในรูปแบบ[การสมัครใช้งานทางอีเมล พร้อมกับเอกสารแนบรายงาน](../consumer/paginated-reports-subscriptions.md)
 1. สำหรับรายงาน Power BI ที่อ้างอิงจากชุดข้อมูล Power BI ให้ตรวจสอบดีไซน์ของแบบจำลองเพื่อให้แน่ใจว่า สามารถทำงานได้อย่างเต็มประสิทธิภาพ
 
@@ -183,8 +183,8 @@ ms.locfileid: "79525625"
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับปัญหาเหล่านี้ รวมถึงขั้นตอนที่ระบุเพื่อทำความเข้าใจและโยกย้ายปัญหา โปรดดูที่บทความต่อไปนี้:
 
-- [การปรับความจุแบบพรีเมียมให้เหมาะสม](../service-premium-capacity-optimize.md)
-- [ตรวจสอบความจุแบบพรีเมียมภายในแอป](../service-admin-premium-monitor-capacity.md)
+- [การปรับความจุแบบพรีเมียมให้เหมาะสม](../admin/service-premium-capacity-optimize.md)
+- [ตรวจสอบความจุแบบพรีเมียมภายในแอป](../admin/service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
@@ -195,7 +195,7 @@ ms.locfileid: "79525625"
 - [เมื่อใช้รายงานที่มีการแบ่งหน้าใน Power BI](report-paginated-or-power-bi.md)
 - [รายงานที่มีการแบ่งหน้าใน Power BI: คำถามที่พบบ่อย](../paginated-reports/paginated-reports-faq.md)
 - [หลักสูตรออนไลน์: รายงานแบบแบ่งหน้าในหนึ่งวัน ](../paginated-reports/paginated-reports-online-course.md)
-- [Power BI Premium คำถามที่พบบ่อย](../service-premium-faq.md)
+- [Power BI Premium คำถามที่พบบ่อย](../admin/service-premium-faq.md)
 - [เครื่องมือการโยกย้าย RDL](https://github.com/microsoft/RdlMigration)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 - มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com)

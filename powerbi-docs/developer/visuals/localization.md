@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379933"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349298"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>เพิ่มตำแหน่งที่ตั้งใน Power BI สำหรับวิชวล Power BI
 
 วิชวลสามารถเรียกใช้ตำแหน่งที่ตั้งใน Power BI เพื่อแปลเนื้อหาให้เป็นภาษาที่เกี่ยวข้อง
 
-อ่านเพิ่มเติมเกี่ยวกับ [ภาษาและประเทศ/ภูมิภาคที่รองรับสำหรับ Power BI](./../../supported-languages-countries-regions.md)
+อ่านเพิ่มเติมเกี่ยวกับ [ภาษาและประเทศ/ภูมิภาคที่รองรับสำหรับ Power BI](./../../fundamentals/supported-languages-countries-regions.md)
 
 ตัวอย่างเช่น รับตำแหน่งที่ตั้งในวิชวลแผนภูมิแท่งตัวอย่าง
 

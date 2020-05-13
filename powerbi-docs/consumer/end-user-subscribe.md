@@ -10,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/24/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 10d1e87fabc54c5886930c52ce60ed4a62479847
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e5d87e3b41d6048b214fca45fc99df35f997d3c1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525456"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347319"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>สมัครสมาชิกรายงานหรือแดชบอร์ดในบริการของ Power BI 
 
@@ -25,7 +25,7 @@ ms.locfileid: "81525456"
 
 ไม่เคยที่จะเท่าทันแดชบอร์ดและรายงานที่สำคัญที่สุดของคุณอย่างนี้มาก่อน สมัครใช้งานหน้ารายงานและแดชบอร์ดที่สำคัญที่สุดคุณ และ Power BI จะส่งอีเมสแนปช็อตถึงคุณ คุณบอก Power BI ความถี่ที่คุณต้องการรับอีเมล: รายวัน รายสัปดาห์ หรือเมื่อรีเฟรชข้อมูล คุณสามารถกำหนดเวลาเฉพาะสำหรับ Power BI ในการส่งอีเมล หรือเรียกใช้งานตอนนี้  โดยรวมแล้ว คุณสามารถตั้งค่าการสมัครใช้งานถึง 24 รายการต่อรายงานหรือแดชบอร์ดได้
 
-อีเมลและสแนปช็อตจะใช้ภาษาที่ถูกตั้งในการตั้งค่า Power BI (ดู[ภาษาที่รองรับและประเทศ/ภูมิภาคสำหรับ Power BI](../supported-languages-countries-regions.md)) ถ้าไม่กำหนดภาษา Power BI จะใช้ภาษาตามการตั้งค่าตำแหน่งที่ตั้งในเบราว์เซอร์ปัจจุบันของคุณ เมื่อต้องการดู หรือตั้งค่าการกำหนดลักษณะภาษาของคุณ ให้เลือกไอคอนรูปเฟือง ![ไอคอนรูปเฟือง](./media/end-user-subscribe/power-bi-settings-icon.png) >  **ตั้งค่า > ทั่วไป > ภาษา** 
+อีเมลและสแนปช็อตจะใช้ภาษาที่ถูกตั้งในการตั้งค่า Power BI (ดู[ภาษาที่รองรับและประเทศ/ภูมิภาคสำหรับ Power BI](../fundamentals/supported-languages-countries-regions.md)) ถ้าไม่กำหนดภาษา Power BI จะใช้ภาษาตามการตั้งค่าตำแหน่งที่ตั้งในเบราว์เซอร์ปัจจุบันของคุณ เมื่อต้องการดู หรือตั้งค่าการกำหนดลักษณะภาษาของคุณ ให้เลือกไอคอนรูปเฟือง ![ไอคอนรูปเฟือง](./media/end-user-subscribe/power-bi-settings-icon.png) >  **ตั้งค่า > ทั่วไป > ภาษา** 
 
 ![ดรอปดาวน์ภาษา](./media/end-user-subscribe/power-bi-language.png)
 
