@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1aa682a71fe7469f8a9c7d5415fb843400e5d312
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82613568"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148330"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>เผยแพร่วิชวลแบบกำหนดเองไปยัง Partner Canter
 
@@ -27,7 +27,7 @@ ms.locfileid: "82613568"
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>การเตรียมเพื่อส่งวิชวล Power BI ของคุณ
 
-ก่อนที่จะส่งวิชวล Power BI ไปยัง AppSource ตรวจสอบให้แน่ใจว่าคุณได้อ่าน[แนวทางการแสดงภาพ Power BI](guidelines-powerbi-visuals.md) และ [ทดสอบวิชวลแบบกำหนดเองของคุณ](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)
+ก่อนที่จะส่งวิชวล Power BI ไปยัง AppSource ตรวจสอบให้แน่ใจว่าคุณได้อ่าน[แนวทางการแสดงภาพ Power BI](guidelines-powerbi-visuals.md) และ [ทดสอบวิชวลแบบกำหนดเองของคุณ](./submission-testing.md)
 
 เมื่อคุณพร้อมที่จะส่งวิชวล Power BI ของคุณให้ตรวจสอบว่าวิชวลของคุณตรงตามข้อกำหนดทั้งหมดที่ระบุไว้ด้านล่าง
 
@@ -93,15 +93,16 @@ ms.locfileid: "82613568"
 
 8. ถ้าผลิตภัณฑ์ของคุณจำเป็นต้องมีการซื้อเพิ่มเติมให้เลือก  **การตั้งค่าผลิตภัณฑ์**และตรวจสอบกล่องกาเครื่องหมาย **การซื้อของบริการที่เกี่ยวข้อง**
 
-9. (ไม่บังคับ) ถ้าคุณต้องการ [รับรอง](power-bi-custom-visuals-certified.md) วิชวลของคุณให้เลือกกล่องกาเครื่องหมาย **การตั้งค่าผลิตภัณฑ์** และตรวจสอบ **การรับรองความถูกต้องของ Power BI** 
+9. (ไม่บังคับ) ถ้าคุณต้องการ [รับรอง](power-bi-custom-visuals-certified.md) วิชวลของคุณให้เลือกกล่องกาเครื่องหมาย **การตั้งค่าผลิตภัณฑ์** และตรวจสอบ **การรับรองความถูกต้องของ Power BI**
     >[!TIP]
     >กระบวนการขอใบรับรองThe Power BI อาจใช้เวลาสักระยะ หากคุณกำลังสร้างวิชวล Power BI ใหม่ เราแนะนำให้คุณเผยแพร่วิชวล Power BI ผ่าน Partner Center ก่อนที่คุณจะขอใบรับรอง Power BI กระบวนการนี้เพื่อให้แน่ใจว่าการเผยแพร่วิชวลของคุณจะไม่ถูกเลื่อนออกไป
 
 10. เลือก **การตั้งค่าผลิตภัณฑ์** และคลิก **ตรวจสอบและเผยแพร่**
 
+
 ## <a name="tracking-submission-status-and-usage"></a>การติดตามสถานะการส่งและการใช้งาน
 
-* คุณสามารถทบทวน[นโยบายการตรวจสอบความถูกต้อง](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)ได้
+คุณสามารถตรวจดู[นโยบายการตรวจสอบ](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)ได้
 
 * หลังจากส่งแล้ว คุณจะสามารถดูสถานะการส่งได้ใน[แดชบอร์ดแอป](https://sellerdashboard.microsoft.com/Application/Summary/)
 
