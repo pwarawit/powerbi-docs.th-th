@@ -1,6 +1,6 @@
-- name: สำรวจ Power BI (ผู้บริโภค)
+- name: สำรวจ Power BI (../consumer)
   href: 'https://docs.microsoft.com/learn/modules/explore-power-bi-service'
-- name: วิเคราะห์ข้อมูลใน Power BI (ผู้บริโภค)
+- name: วิเคราะห์ข้อมูลใน Power BI (../consumer)
   href: 'https://docs.microsoft.com/learn/modules/analyze-data-power-bi'
 - name: เริ่มสร้างด้วย Power BI
   href: 'https://docs.microsoft.com/learn/modules/get-started-with-power-bi'

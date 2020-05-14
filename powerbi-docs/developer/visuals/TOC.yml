@@ -12,6 +12,10 @@
       items:
         - name: พัฒนาวิชวล Power BI
           href: custom-visual-develop-tutorial.md
+        - name: สร้างวิชวลตามการตอบสนอง
+          href: create-react-visual.md
+        - name: สร้างแผนภูมิแท่ง
+          href: create-bar-chart.md
         - name: เพิ่มตัวเลือกการจัดรูปแบบ
           href: custom-visual-develop-tutorial-format-options.md
         - name: เพิ่มการทดสอบหน่วยสำหรับโครงการวิชวล
@@ -38,14 +42,20 @@
           href: objects-properties.md
         - name: โหมดแก้ไขขั้นสูง
           href: advanced-edit-mode.md
+        - name: คุณลักษณะ supportsKeyboardFocus
+          href: supportskeyboardfocus-feature.md
+        - name: supportsMultiVisualSelection-feature.md
+          href: supportsmultivisualselection-feature.md
     - name: วิธีการ
       items:
         - name: รับการรับรองส่วนการจัดแสดง Power BI
           href: power-bi-custom-visuals-certified.md
         - name: เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
           href: office-store.md
+        - name: ทดสอบวิชวล Power BI ของคุณ
+          href: submission-testing.md
         - name: ใช้ส่วนแสดงผล Power BI จาก R ใน Power BI
-          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+          href: ../../create-reports/desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
         - name: การโต้ตอบกับวิชวล
           href: visuals-interactions.md
         - name: เพิ่มการเลือก
@@ -64,6 +74,8 @@
           href: context-menu.md
         - name: เพิ่มการสนับสนุนการดูรายละเอียดแนวลึก
           href: drill-down-support.md
+        - name: เพิ่มสีลงในวิชวลของคุณ
+          href: add-colors-power-bi-visual.md
         - name: เน้นข้อมูลในวิชวล
           href: highlight.md
         - name: เพิ่มการสนับสนุนโหมดความคมชัดสูง
@@ -78,10 +90,14 @@
           href: power-bi-custom-visuals-troubleshoot.md
     - name: การอ้างอิง
       items:
+        - name: บันทึกการเปลี่ยนแปลง
+          href: changelog.md
         - name: หน้าเริ่มต้น
           href: landing-page.md
         - name: เปิดใช้แอป
           href: launch-url.md
+        - name: API ของวิชวล
+          href: visual-api.md
         - name: API ที่เก็บข้อมูลภายใน
           href: local-storage.md
         - name: เหตุการณ์การแสดงผล
@@ -119,8 +135,8 @@
         - name: ศูนย์นักพัฒนา
           href: 'https://powerbi.microsoft.com/developers/'
         - name: ตัวอย่างสำหรับวิชวล Power BI
-          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-        - name: Power BI Visuals Git repo
+          href: samples.md
+        - name: Git Repo วิชวลแบบกำหนดเอง
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
         - name: การสร้างใบรับรอง SSL
           href: create-ssl-certificate.md
