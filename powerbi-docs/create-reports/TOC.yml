@@ -339,6 +339,8 @@
               href: ../paginated-reports/report-builder-shared-datasets.md
             - name: สร้างพารามิเตอร์
               href: ../paginated-reports/paginated-reports-parameters.md
+            - name: มุมมองรายงาน
+              href: ../paginated-reports/page-view.md
             - name: รายงานย่อย
               href: ../paginated-reports/subreports.md
             - name: แก้ปัญหารายงานย่อย

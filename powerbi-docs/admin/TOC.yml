@@ -112,8 +112,10 @@
               href: service-encryption-byok.md
             - name: รีสตาร์ตความจุแบบพรีเมียม
               href: service-admin-premium-restart.md
-            - name: การเชื่อมต่อชุดข้อมูลที่มีตำแหน่งข้อมูล XMLA (ตัวอย่าง)
+            - name: การเชื่อมต่อชุดข้อมูลด้วยปลายทาง XMLA
               href: service-premium-connect-tools.md
+            - name: หลักการระบบอัตโนมัติพร้อมบริการ
+              href: service-premium-service-principal.md
     - name: การอ้างอิง
       items:
         - name: 'PowerShell, REST Api และ .NET SDK'

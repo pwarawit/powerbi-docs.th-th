@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/17/2020
-  ms.openlocfilehash: d64c608be40aa156b3df23d5dd5ad01d50ab00dc
-  ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+  ms.openlocfilehash: 2256fbfed7410aea069638a773b83156096ab855
+  ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
   ms.translationtype: HT
   ms.contentlocale: th-TH
-  ms.lasthandoff: 05/13/2020
-  ms.locfileid: "83130070"
+  ms.lasthandoff: 05/16/2020
+  ms.locfileid: "83438002"
 landingContent:
 - title: Power BI สำหรับผู้ดูแลระบบและองค์กร
   linkLists:
@@ -29,7 +29,7 @@ landingContent:
       url: service-premium-what-is.md
   - linkListType: concept
     links:
-    - text: บทบาทการดูแลระบบใน Office 365
+    - text: บทบาทการบริหารจัดการ
       url: service-admin-role.md
 - title: เริ่มใช้งาน
   linkLists:
@@ -43,7 +43,7 @@ landingContent:
     links:
     - text: ซื้อ Power BI Pro
       url: service-admin-purchasing-power-bi-pro.md
-    - text: ลงทะเบียนสำหรับการทดลองใช้งาน Office 365
+    - text: ลงทะเบียนกับ Microsoft 365 Trial
       url: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
     - text: เพิ่ม Power BI กับคู่ค้า Office 365
       url: service-admin-syndication-partner.md
