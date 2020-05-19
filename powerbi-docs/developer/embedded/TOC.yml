@@ -30,7 +30,7 @@
           href: embedded-performance-best-practices.md
         - name: โครงร่างสำคัญของบริการ
           href: embed-service-principal.md
-        - name: รักษาความปลอดภัยตามระดับแถว
+        - name: รักษาความปลอดภัยระดับแถว
           href: embedded-row-level-security.md
         - name: ความปลอดภัยระดับแถวของรายงานที่มีการแบ่งหน้า
           href: paginated-reports-row-level-security.md
@@ -42,7 +42,7 @@
           href: embedded-faq.md
         - name: สิทธิ์ของ Power BI
           href: power-bi-permissions.md
-    - name: วิธีใช้
+    - name: วิธีการ
       items:
         - name: ฝังตัวจากแอป
           href: embed-from-apps.md
@@ -89,7 +89,7 @@
             - name: จัดการทรัพยากร azure REST APIs
               href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
             - name: Power BI REST APIs
-              href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+              href: 'https://docs.microsoft.com/rest/api/power-bi/'
         - name: ไลบรารี Power BI
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: ฝังเค้าโครงแบบกำหนดเองลงในแอป

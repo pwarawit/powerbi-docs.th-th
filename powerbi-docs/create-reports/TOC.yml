@@ -12,7 +12,7 @@
       expanded: true
       items:
         - name: 'หลักสูตรออนไลน์: รายงานที่มีการแบ่งหน้า'
-          href: ../paginated-reports/paginated-reports-online-course.md
+          href: ../learning-catalog/paginated-reports-online-course.md
         - name: สร้างรายงานที่มีการแบ่งหน้าและอัปโหลด
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: ตัวอย่าง
