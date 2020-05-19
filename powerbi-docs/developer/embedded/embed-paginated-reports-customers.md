@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: d9ebab8c52be8872865b0c308e8629c92603bbaa
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403771"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276064"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>บทช่วยสอน: ฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันสำหรับลูกค้าของคุณ (ตัวอย่าง)
 
@@ -34,14 +34,14 @@ ms.locfileid: "80403771"
 * [องค์ประกอบหลักของบริการ (โทเค็นเฉพาะแอป)](embed-service-principal.md)
 * การสมัครใช้งาน [Microsoft Azure](https://azure.microsoft.com/)
 * การตั้งค่า [ผู้เช่า Azure Active Directory](create-an-azure-active-directory-tenant.md) ของคุณเอง
-* [ความจุ](#create-a-dedicated-capacity)อย่างน้อย A4 หรือ P1 โดยมีการเปิดใช้งานปริมาณงาน [รายงานที่มีการแบ่งหน้า](../../service-admin-premium-workloads.md#paginated-reports)
+* [ความจุ](#create-a-dedicated-capacity)อย่างน้อย A4 หรือ P1 โดยมีการเปิดใช้งานปริมาณงาน [รายงานที่มีการแบ่งหน้า](../../admin/service-admin-premium-workloads.md#paginated-reports)
 
 ถ้าคุณยังไม่มีการสมัครใช้งาน Azure สร้าง[บัญชีฟรี](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)ก่อนที่คุณจะเริ่ม
 
 > [!IMPORTANT]
 > * คุณต้องใช้**โครงร่างสำคัญของบริการ** ผู้ใช้หลักไม่ได้รับการสนับสนุน
 > * แหล่งข้อมูลที่จำเป็นต้องมีการลงชื่อเข้าระบบครั้งเดียว (SSO) ไม่ได้รับการสนับสนุน
-> * ชุดข้อมูล Power BI ไม่ได้รับการสนับสนุนเป็น[แหล่งข้อมูล](../../service-get-data.md)
+> * ชุดข้อมูล Power BI ไม่ได้รับการสนับสนุนเป็น[แหล่งข้อมูล](../../connect-data/service-get-data.md)
 
 ## <a name="set-up-your-power-bi-environment"></a>ตั้งค่าสภาพแวดล้อม Power BI ของคุณ
 
@@ -49,12 +49,12 @@ ms.locfileid: "80403771"
 
 ### <a name="create-an-app-workspace"></a>สร้างพื้นที่ทำงานสำหรับแอป
 
-ถ้าคุณกำลังใช้ [องค์ประกอบหลักของบริการ](embed-service-principal.md) เพื่อเข้าสู่ระบบแอปพลิเคชันของคุณ คุณจำเป็นต้องใช้[พื้นที่ทำงานใหม่](../../service-create-the-new-workspaces.md) ในฐานะที่เป็น *องค์ประกอบหลักของบริการ* คุณต้องเป็นผู้ดูแลระบบหรือสมาชิกของพื้นที่ทำงานแอปที่เกี่ยวข้องกับแอปพลิเคชันของคุณ
+ถ้าคุณกำลังใช้ [องค์ประกอบหลักของบริการ](embed-service-principal.md) เพื่อเข้าสู่ระบบแอปพลิเคชันของคุณ คุณจำเป็นต้องใช้[พื้นที่ทำงานใหม่](../../collaborate-share/service-create-the-new-workspaces.md) ในฐานะที่เป็น *องค์ประกอบหลักของบริการ* คุณต้องเป็นผู้ดูแลระบบหรือสมาชิกของพื้นที่ทำงานแอปที่เกี่ยวข้องกับแอปพลิเคชันของคุณ
 
 ### <a name="create-a-dedicated-capacity"></a>สร้างความจุเฉพาะ
 
 ก่อนที่คุณจะนำเข้าหรืออัปโหลดรรายงานที่มีการแบ่งหน้าเพื่อทำการฝัง คุณต้องกำหนดพื้นที่ทำงานที่มีรายงานอยู่ ให้มีความจุอยู่ในระดับอย่างน้อย A4 หรือ P1 มีความจุสองชนิดที่คุณสามารถเลือกได้จาก:
-* **Power BI Premium** - สำหรับการฝังรายงานที่มีการแบ่งหน้า ต้องการความจุ SKU ระดับ *P* เมื่อมีการฝังเนื้อหา Power BI โซลูชันนี้เรียกว่า *การฝัง Power BI* สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสมัครสมาชิกนี้ โปรดดู [Power BI Premium คืออะไร](../../service-premium-what-is.md)
+* **Power BI Premium** - สำหรับการฝังรายงานที่มีการแบ่งหน้า ต้องการความจุ SKU ระดับ *P* เมื่อมีการฝังเนื้อหา Power BI โซลูชันนี้เรียกว่า *การฝัง Power BI* สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสมัครสมาชิกนี้ โปรดดู [Power BI Premium คืออะไร](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded** - คุณสามารถซื้อความจุเฉพาะจาก [พอร์ทัล Microsoft Azure](https://portal.azure.com) การสมัครสมาชิกนี้ใช้ SKU ระดับ *A* สำหรับการฝังรรายงานที่มีการแบ่งหน้า คุณจำเป็นต้องมีการสมัครใช้งานอย่างน้อย *A4* สำหรับรายละเอียดเกี่ยวกับวิธีการสร้างความจุ Power BI Embedded โปรดดู[สร้างความจุ Power BI Embedded ในพอร์ทัล Azure](azure-pbie-create-capacity.md)
 
 ตารางด้านล่างอธิบายแหล่งข้อมูลและขีดจำกัดของแต่ละ SKU หากต้องการตรวจสอบความจุที่เหมาะสมที่สุดกับความต้องการของคุณ ให้ดูตาราง [SKU ใดที่ฉันควรซื้อสำหรับสถานการณ์ของฉัน](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose)
@@ -242,7 +242,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>สร้างโทเค็นแบบฝังตัว
 
-สร้างโทเค็นแบบฝัง ซึ่งสามารถใช้ได้จาก API ของ JavaScript หากต้องการสร้างโทเค็นแบบฝังสำหรับการฝังรายงานที่มีการแบ่งหน้าของ Power BI ให้ใช้รายงาน API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+สร้างโทเค็นแบบฝัง ซึ่งสามารถใช้ได้จาก API ของ JavaScript หากต้องการสร้างโทเค็นแบบฝังสำหรับการฝังรายงานที่มีการแบ่งหน้าของ Power BI ให้ใช้รายงาน API [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
 
 ตัวอย่างของการสร้างโทเค็นแบบฝังจะมีให้ในไฟล์   *Services\EmbedService.cs* ใน [แอปพลิเคชันตัวอย่าง](https://github.com/Microsoft/PowerBI-Developer-Samples)
 

@@ -7,17 +7,19 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/3/2019
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6504e49c67d3c2344033f0cad53394ec5ae87e21
+ms.sourcegitcommit: 52177142c3e1f49147dff08fe48600a85a814a2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758117"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82944831"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>ปรับแต่งคุณสมบัติแกน X และแกน Y ด้วยตนเอง
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -216,13 +218,12 @@ ms.locfileid: "75758117"
 
 1. จัดรูปแบบชื่อแผนภูมิ ในตัวอย่างนี้ เราได้ย่อชื่อแกนหนึ่งแกน และลดขนาดตัวอักษรสำหรับชื่อเรื่องทั้งสอง 
     - ขนาดฟอนต์: **9**
-    - ย่อ **ชื่อแกน** สำหรับแกน Y แรก (แผนภูมิคอลัมน์): ยอดขายปีที่แล้วและปีนี้
+    - ย่อ **ชื่อแกน** สำหรับแกน Y แรก (แผนภูมิคอลัมน์): ยอดขายปีที่แล้วและปีนี้ 
+    
+     ![ภาพหน้าจอของแผนภูมิผสมที่มีการแสดงชื่อแบบเต็ม](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
 
-    ![ภาพหน้าจอของแผนภูมิผสมที่มีการแสดงชื่อแบบเต็ม](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
-
-
-
-สำหรับข้อมูลเพิ่มเติม โปรดดูบทความ [คำแนะนำและเคล็ดลับในการจัดรูปแบบสีใน Power BI](service-tips-and-tricks-for-color-formatting.md) และ [กำหนดชื่อเรื่องการแสดงผลข้อมูลด้วยภาพ คำอธิบายแผนภูมิ และพื้นหลัง](power-bi-visualization-customize-title-background-and-legend.md) และค้นหาการอัปเดตใหม่สำหรับการจัดรูปแบบชื่อที่จะมาถึงในไม่ช้า 
+    สำหรับข้อมูลเพิ่มเติม โปรดดู [คำแนะนำและเคล็ดลับในการจัดรูปแบบสีใน Power BI](service-tips-and-tricks-for-color-formatting.md) และ [กำหนดชื่อเรื่องการแสดงผลข้อมูลด้วยภาพ คำอธิบายแผนภูมิ และพื้นหลัง](power-bi-visualization-customize-title-background-and-legend.md) 
+    
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

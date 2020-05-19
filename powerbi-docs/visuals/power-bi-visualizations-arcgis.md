@@ -7,18 +7,24 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/18/2019
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 59685b4c3ceab4b60cba92ec1d3924b902c1426a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5783df071830cdb19ef124ebb908f53955823c69
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77115319"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83130955"
 ---
 # <a name="interact-with-arcgis-maps-in-power-bi"></a>โต้ตอบกับ ArcGIS maps ใน Power BI
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
+
 หัวข้อนี้เขียนขึ้นจากมุมมองของบุคคลที่ใช้แผนที่ ArcGIS ในบริการ Power BI เดสก์ท็อป หรืออุปกรณ์เคลื่อนที่ เมื่อผู้ออกแบบแชร์แผนที่ ArcGIS สำหรับวิชวล Power BI กับคุณ มีหลายวิธีในการโต้ตอบกับวิชวลนั้น  เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการสร้างแผนที่ ArcGIS ดู[แผนที่ ArcGIS โดยบทช่วยสอน Esri](../visuals/power-bi-visualization-arcgis.md)
+
+> [!NOTE]
+> การแชร์รายงานของคุณกับผู้ร่วมงาน Power BI กำหนดให้คุณต้องมีสิทธิ์การใช้งาน Power BI Pro แต่ละรายการ หรือรายงานจะถูกบันทึกในความจุแบบพรีเมียม ดู [การแชร์รายงาน](../collaborate-share/service-share-reports.md)
 
 การรวมกันระหว่างแผนที่ ArcGIS และ Power BI ทำให้การนำเสนอจุดต่าง ๆ บนแผนที่ก้าวขึ้นไปอีกระดับ ผู้ออกแบบรายงานเริ่มต้นด้วยแผนที่ และแนบเลเยอร์ข้อมูลประชากรเข้ากับแผนที่นั้น ชุดข้อมูลของเลเยอร์ข้อมูลที่ยึดตามตำแหน่งนี้ (เช่น ข้อมูลประชากร) บนแผนที่ด้วยการวิเคราะห์เชิงพื้นที่สื่อความเข้าใจข้อมูลอย่างลึกซึ้งในการแสดงภาพของคุณ
 

@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 12/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c9de9031fdbee48fca3b9a025fe2547ec08a5f20
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 33511dd5a61882de77d6089a5f77e70361f3cbed
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871023"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277605"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>เปลี่ยนชนิดของการแสดงภาพในรายงาน Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -29,10 +31,12 @@ ms.locfileid: "73871023"
 3. ในบานหน้าต่างการแสดงภาพ เลือกชนิดของการแสดงภาพใหม่ 
    
    ![วิดีโอที่แสดงการเปลี่ยนแผนภูมิคอลัมน์ไปเป็นแผนภูมิเส้น](media/power-bi-report-change-visualization-type/change-viz/change-viz.gif).
-4. (ตัวเลือก) [ปักหมุดการแสดงภาพของคุณ](../service-dashboard-pin-tile-from-report.md)ไปยังแดชบอร์ดให้เป็นไทล์ได้ 
+4. (ตัวเลือก) [ปักหมุดการแสดงภาพของคุณ](../create-reports/service-dashboard-pin-tile-from-report.md)ไปยังแดชบอร์ดให้เป็นไทล์ได้ 
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
 ถ้าคุณเปลี่ยนชนิดการแสดงภาพในรายงานหลังจากที่คุณปักหมุดไปยังแดชบอร์ด ไทล์จะไม่ถูกอัปเดตโดยอัตโนมัติ ดังนั้นหากคุณใช้บริการของ Power BI ในการปักหมุดการแสดงผลข้อมูลด้วยภาพเป็นแผนภูมิเส้น จากนั้นในรายงาน คุณเปลี่ยนเป็นแผนภูมิแท่ง แผนภูมิที่ปักหมุดไว้แล้วของข้อมูลนี้จะยังคงเป็นแผนภูมิเส้น ปักหมุดแผนภูมิแท่งเพื่อแสดงบนแดชบอร์ดด้วย
+
+การแชร์รายงานของคุณกับผู้ร่วมงาน Power BI กำหนดให้คุณต้องมีสิทธิ์การใช้งาน Power BI Pro แต่ละรายการ หรือรายงานจะถูกบันทึกในความจุแบบพรีเมียม ดู [การแชร์รายงาน](../collaborate-share/service-share-reports.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 อ่านข้อมูลเพิ่มเติมเกี่ยวกับ[การแสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)

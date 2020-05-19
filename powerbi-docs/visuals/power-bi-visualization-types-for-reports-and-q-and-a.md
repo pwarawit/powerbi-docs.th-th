@@ -7,14 +7,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7210e2f2f6fa3581744a5400bcdeb795d8883120
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381433"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276823"
 ---
 # <a name="visualization-types-in-power-bi"></a>ชนิดการแสดงภาพใน Power BI
 ## <a name="power-bi-visualizations"></a>การแสดงภาพ Power BI
@@ -88,7 +88,7 @@ ms.locfileid: "79381433"
 
 สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิผู้มีอิทธิพลหลักใน Power BI](power-bi-visualization-influencers.md)
 
-### <a name="kpis"></a>KPIs
+### <a name="kpis"></a>KPI
 ![แผนภูมิ KPI](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
 >[!TIP]
@@ -123,7 +123,7 @@ ms.locfileid: "79381433"
 
 สำหรับข้อมูลเพิ่มเติม ดู [แผนที่แถบสีใน Power BI](power-bi-visualization-filled-maps-choropleths.md)
 
-### <a name="maps-shape-maps"></a>แผนที่: สร้างแผนที่รูปร่าง
+### <a name="maps-shape-maps"></a>แผนที่: แผนที่รูปร่าง
 ![แผนที่รูปร่างของเท็กซัส](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
 
 >[!TIP]
@@ -133,7 +133,7 @@ ms.locfileid: "79381433"
 
 
 ### <a name="matrix"></a>เมทริกซ์
-![เมตริก](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![เมทริกซ์](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
 >ตารางสนับสนุนการใช้งานแบบสองมิติ แต่เมทริกซ์ทำให้การแสดงข้อมูลง่ายและมีความหมายในทั้งหลายมิติและเมทริกซ์สนับสนุนการจัดวางอย่างเป็นขั้นเป็นตอน เมทริกซ์จะรวมข้อมูลโดยอัตโนมัติและสามารถเจาะลึกลงไป 
@@ -157,7 +157,7 @@ ms.locfileid: "79381433"
 ![วิชวลถามตอบ](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
 
 >[!TIP]
->คล้ายกับ [ประสบการณ์ถามตอบเกี่ยวกับแดชบอร์ด](../power-bi-tutorial-q-and-a.md) วิชวลถามตอบช่วยให้คุณสามารถถามคำถามเกี่ยวกับข้อมูลของคุณโดยใช้ภาษาธรรมชาติ 
+>คล้ายกับ [ประสบการณ์ถามตอบเกี่ยวกับแดชบอร์ด](../create-reports/power-bi-tutorial-q-and-a.md) วิชวลถามตอบช่วยให้คุณสามารถถามคำถามเกี่ยวกับข้อมูลของคุณโดยใช้ภาษาธรรมชาติ 
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู[วิชวลถามตอบใน Power BI](power-bi-visualization-q-and-a.md)
 
@@ -191,7 +191,7 @@ ms.locfileid: "79381433"
 >[!TIP]
 >จุดข้อมูลมากเกินไปบนการแสดงผลด้วยภาพสามารถทำให้หยุดชะงักได้ เพื่อใช้อัลกอริทึมการสุ่มตัวอย่างที่ซับซ้อนเพื่อให้แน่ใจความแม่นยำของการแสดงภาพ
 
-สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิกระจายความหนาแน่นสูงใน Power BI](desktop-high-density-scatter-charts.md)
+สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิกระจายความหนาแน่นสูงใน Power BI](../create-reports/desktop-high-density-scatter-charts.md)
 
 ### <a name="slicers"></a>ตัวแบ่งส่วนข้อมูล
 ![ตัวแบ่งส่วนข้อมูล](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
@@ -201,7 +201,7 @@ ms.locfileid: "79381433"
 ### <a name="standalone-images"></a>รูปภาพเดี่ยว
 ![รูปภาพเดี่ยว](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
-สำหรับข้อมูลเพิ่มเติม ดู[เพิ่มรูปภาพวิดเจ็ตไปยังแดชบอร์ด](../service-dashboard-add-widget.md)
+สำหรับข้อมูลเพิ่มเติม ดู[เพิ่มรูปภาพวิดเจ็ตไปยังแดชบอร์ด](../create-reports/service-dashboard-add-widget.md)
 
 ### <a name="tables"></a>ตาราง
 ![ภาพตาราง](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
@@ -212,7 +212,7 @@ ms.locfileid: "79381433"
 สำหรับข้อมูลเพิ่มเติม ดู[การทำงานกับตารางใน Power BI](power-bi-visualization-tables.md)
 
 ### <a name="treemaps"></a>แผนภูมิต้นไม้
-![แผนผังต้นไม้](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![แผนที่ต้นไม้](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 สำหรับข้อมูลเพิ่มเติม ดู[แผนภูมิต้นไม้ใน Power BI](power-bi-visualization-treemaps.md)
 
@@ -232,8 +232,11 @@ ms.locfileid: "79381433"
 
 "***ยอดขายตามรัฐเป็นแผนผังต้นไม้***"
 
+ถ้าแดชบอร์ดของคุณไม่มีเขตข้อมูล Q&A อาจมีการปิดใช้งานโดยผู้ดูแลระบบผู้เช่าของคุณ 
+
 ![กล่องคำถาม Q&A ที่แสดงชนิดการแสดงผลข้อมูลด้วยภาพตามที่ระบุ](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [การแสดงภาพในรายงาน Power BI](power-bi-report-visualizations.md)    
 [อ้างอิงภาพที่ถูกต้องจาก sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

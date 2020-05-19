@@ -1,20 +1,23 @@
 ---
-title: 'ใช้วิชวลถามตอบของ Power BI '
-description: 'วิธีการตั้งค่าวิชวลถามตอบของ Power BI '
-author: mihart
+title: ใช้วิชวลถามตอบของ Power BI
+description: วิธีการตั้งค่าวิชวลถามตอบของ Power BI
+author: rien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e94b27945f277c352773e7f9eaa3979fa8bc7451
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762289"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148345"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>บทนำเกี่ยวกับการแสดงภาพถามตอบของ Power BI
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -47,8 +50,10 @@ ms.locfileid: "75762289"
 
 1. เลือก ![สกรีนช็อตของแท็บสีเหลือง](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) หากต้องการเพิ่มหน้าใหม่
 
+ถ้าคุณเห็นข้อผิดพลาดเมื่อสร้างวิชวลถามตอบ ตรวจสอบให้แน่ใจว่าได้ดูส่วน[ข้อจำกัด](../natural-language/q-and-a-limitations.md) เพื่อดูว่าการกำหนดค่าแหล่งข้อมูลได้รับการสนับสนุนหรือไม่    
 
-ถ้าคุณเห็นข้อผิดพลาดเมื่อสร้างวิชวลถามตอบ ตรวจสอบให้แน่ใจว่าได้ดูส่วน[ข้อจำกัด](../natural-language/q-and-a-limitations.md) เพื่อดูว่าการกำหนดค่าแหล่งข้อมูลได้รับการสนับสนุนหรือไม่
+> [!NOTE]
+> การแชร์รายงานของคุณกับผู้ร่วมงาน Power BI กำหนดให้คุณต้องมีสิทธิ์การใช้งาน Power BI Pro แต่ละรายการ หรือรายงานจะถูกบันทึกในความจุแบบพรีเมียม ดู [การแชร์รายงาน](../collaborate-share/service-share-reports.md)
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>สร้างวิชวลถามตอบโดยใช้คำถามที่แนะนำ
 ในแบบฝึกหัดนี้ เราจะเลือกหนึ่งในคำถามที่แนะนำเพื่อสร้างวิชวลถามตอบ 
@@ -96,7 +101,7 @@ ms.locfileid: "75762289"
 
 7.  เพิ่มวิชวลเพิ่มเติมในหน้ารายงานและดูว่าวิชวลถามตอบ (Q&A) โต้ตอบกับวิชวลอื่น ๆ ในหน้าได้อย่างไร ในตัวอย่างนี้ วิชวลถามตอบ (Q&A) ได้กรองแผนภูมิเส้นแบบกรองข้าม และแมปและไฮไลท์ข้ามแผนภูมิแท่ง
 
-    ![ วิชวลถามตอบ (Q&A) ที่มีหนึ่งแถบถูกเลือก และส่งผลกระทบต่อวิชวลทั้งสามบนหน้ารายงาน](media/power-bi-visualization-q-and-a/power-bi-filters.png)
+    ![วิชวลถามตอบ (Q&A) ที่มีหนึ่งแถบถูกเลือก และส่งผลกระทบต่อวิชวลทั้งสามบนหน้ารายงาน](media/power-bi-visualization-q-and-a/power-bi-filters.png)
 
 ## <a name="format-and-customize-the-qa-visual"></a>จัดรูปแบบและปรับแต่งวิชวลถามตอบ
 วิชวลถามตอบสามารถปรับแต่งได้โดยใช้บานหน้าต่างการจัดรูปแบบและโดยการใช้ธีม 
