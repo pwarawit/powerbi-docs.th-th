@@ -1,134 +1,204 @@
 ---
-title: สร้างใบรับรอง SSL
-description: แก้ไขคำแนะนำเพื่อสร้างใบรับรองด้วยตนเองสำหรับเซิร์ฟเวอร์สำหรับนักพัฒนา
+title: สร้างใบรับรอง SSL สำหรับวิชวล Power BI
+description: เรียนรู้วิธีการสร้างใบรับรอง SSL โดยใช้เครื่องมือวิชวล Power BI ใน Windows, Mac หรือ Linux หรือด้วยตนเอง
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
-ms.date: 06/18/2019
-ms.openlocfilehash: fab40863d7beae4892a56975aa5e92c4fe5486ac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/08/2020
+ms.openlocfilehash: 37bd8f15dcf17cd0f967e819338a719edf2a3054
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380283"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276386"
 ---
 # <a name="create-an-ssl-certificate"></a>สร้างใบรับรอง SSL
 
-บทความนี้อธิบายวิธีการสร้างใบรับรอง SSL
+บทความนี้อธิบายวิธีการสร้างและติดตั้งใบรับรอง Secure Sockets Layer (SSL) สำหรับวิชวล Power BI
 
-หากต้องการสร้างใบรับรองโดยใช้ PowerShell `New-SelfSignedCertificate` cmdlet บน Windows 8 หรือใหม่กว่า ให้เรียกใช้คำสั่งต่อไปนี้:
+สำหรับกระบวนการ Windows, macOS X และ Linux คุณต้องมีเครื่องมือวิชวล Power BI **pbiviz** แพคเกจที่ติดตั้ง สำหรับข้อมูลเพิ่มเติมดู [ตั้งค่าสภาพแวดล้อมของนักพัฒนา](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#setting-up-the-developer-environment) 
+
+## <a name="create-a-certificate-on-windows"></a>สร้างใบรับรองบน Windows
+
+หากต้องการสร้างใบรับรองโดยใช้ PowerShell `New-SelfSignedCertificate` cmdlet บน Windows 8 และใหม่กว่า ให้เรียกใช้คำสั่งต่อไปนี้:
+
+```powershell
+pbiviz --install-cert
+```
+
+สำหรับ Windows 7  `pbiviz` เครื่องมือจำเป็นต้องใช้โปรแกรมอรรถประโยชน์ OpenSSL เพื่อให้มีใช้จากบรรทัดคำสั่ง หากต้องการติดตั้ง OpenSSL ให้ไปที่ [OpenSSL](https://www.openssl.org) หรือ [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries)
+
+สำหรับข้อมูลเพิ่มเติมและคำแนะนำสำหรับการติดตั้งใบรับรอง ดู [สร้างและติดตั้งใบรับรองสำหรับ Windows](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#windows)
+
+## <a name="create-a-certificate-on-macos-x"></a>สร้างใบรับรองบน macOS X
+
+โปรแกรมอรรถประโยชน์ OpenSSL มักจะพร้อมใช้งานในระบบปฏิบัติการ macOS X
+
+คุณยังสามารถติดตั้งโปรแกรมอรรถประโยชน์ OpenSSL โดยการเรียกใช้คำสั่งต่อไปนี้:
+
+- จากตัวจัดการแพ็คเกจ *Brew*
+  
+  ```cmd
+  brew install openssl
+  brew link openssl --force
+  ```
+
+- โดยใช้ *MacPorts*:
+  
+  ```cmd
+  sudo port install openssl
+  ```
+
+หลังจากที่คุณติดตั้งโปรแกรมอรรถประโยชน์ OpenSSL ให้เรียกใช้คำสั่งต่อไปนี้เพื่อสร้างใบรับรองใหม่:
 
 ```cmd
 pbiviz --install-cert
 ```
 
-เครื่องมือต้องการการติดตั้ง OpenSSL สำหรับ Windows 7 ยูทิลิตี้ OpenSSL ต้องพร้อมใช้งานจากบรรทัดคำสั่ง (command line)
+สำหรับข้อมูลเพิ่มเติมและคำแนะนำให้ดู [สร้างและติดตั้งใบรับรองสำหรับ OS X](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#osx)
 
-หากต้องการติดตั้ง OpenSSL ให้ไปที่เว็บไซต์ [OpenSSL](https://www.openssl.org) หรือ [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries)
+## <a name="create-a-certificate-on-linux"></a>สร้างใบรับรองบน Linux
 
-## <a name="create-a-certificate-mac-os-x"></a>สร้างใบรับรอง (Mac OS X)
+โปรแกรมอรรถประโยชน์ OpenSSL มักจะพร้อมใช้งานในระบบปฏิบัติการ Linux
 
-โดยทั่วไปแล้วยูทิลิตี้ OpenSSL จะพร้อมใช้งานในระบบปฏิบัติการ Linux หรือ Mac OS X
+ก่อนที่คุณจะเริ่มต้นให้เรียกใช้คำสั่งต่อไปนี้เพื่อตรวจสอบให้แน่ใจว่ามีการติดตั้ง `openssl` และ `certutil`:
 
-คุณยังสามารถติดตั้งยูทิลิตี้นี้ได้โดยการเรียกใช้คำสั่งต่อไปนี้:
-
-* จากตัวจัดการแพ็คเกจ *Brew*
-
-    ```cmd
-    brew install openssl
-    brew link openssl --force
-    ```
-
-* โดยใช้ *MacPorts*:
-
-    ```cmd
-    sudo port install openssl
-    ```
-
-หลังจากที่คุณติดตั้งยูทิลิตี้ OpenSSL สำหรับสร้างใบรับรองใหม่แล้ว ให้เรียกใช้คำสั่งต่อไปนี้:
-
-```cmd
-pbiviz --install-cert
+```sh
+which openssl
+which certutil
 ```
 
-## <a name="create-a-certificate-linux"></a>สร้างใบรับรอง (Linux)
+หากไม่ได้ติดตั้ง `openssl` และ `certutil` ให้ติดตั้งโปรแกรมอรรถประโยชน์ `openssl` และ `libnss3`
 
-ถ้ายูทิลิตี้ OpenSSL ไม่พร้อมใช้งานในระบบปฏิบัติการ Linux ของคุณ คุณสามารถติดตั้งโดยใช้คำสั่งใดคำสั่งหนึ่งต่อไปนี้:
+### <a name="create-the-ssl-configuration-file"></a>สร้างไฟล์การกำหนดค่า SSL
 
-* สำหรับตัวจัดการแพ็คเกจ *APT*:
+สร้างไฟล์ชื่อ */tmp/openssl.cnf* ที่มีข้อความต่อไปนี้:
 
-    ```cmd
-    sudo apt-get install openssl
-    ```
+```
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
 
-* สำหรับ *โปรแกรมอัปเดต Yellowdog*:
-
-    ```cmd
-    yum install openssl
-    ```
-
-* สำหรับ *ตัวจัดการแพ็คเกจ Redhat*:
-
-    ```cmd
-    rpm install openssl
-    ```
-
-ถ้ายูทิลิตี้ OpenSSL พร้อมใช้งานในระบบปฏิบัติการของคุณแล้ว ให้สร้างใบรับรองใหม่โดยการเรียกใช้คำสั่งต่อไปนี้:
-
-```cmd
-pbiviz --install-cert
+[ alt_names ]
+DNS.1=localhost
 ```
 
-หรือคุณสามารถรับยูทิลิตี้ OpenSSL ได้โดยไปยังเว็บไซต์ [OpenSSL](https://www.openssl.org) หรือ [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries)
+### <a name="generate-root-certificate-authority"></a>สร้างผู้ออกใบรับรองหลัก
 
-## <a name="generate-the-certificate-manually"></a>สร้างใบรับรองด้วยตนเอง
+ในการสร้างผู้ออกใบรับรองหลัก (CA) ในการลงชื่อใบรับรองในเครื่องให้เรียกใช้คำสั่งต่อไปนี้:
 
-คุณสามารถระบุว่าใบรับรองสร้างขึ้นโดยเครื่องมือใด ๆ
-
-ถ้ามีการติดตั้งยูทิลิตี้ OpenSSL เรียบร้อยแล้วในระบบของคุณ ให้สร้างใบรับรองใหม่โดยการเรียกใช้คำสั่งต่อไปนี้:
-
-```cmd
-openssl req -x509 -newkey rsa:4096 -keyout PowerBICustomVisualTest_private.key -out PowerBICustomVisualTest_public.crt -days 365
+```sh
+touch $HOME/.rnd
+openssl req -x509 -nodes -new -sha256 -days 1024 -newkey rsa:2048 -keyout /tmp/local-root-ca.key -out /tmp/local-root-ca.pem -subj "/C=US/CN=Local Root CA/O=Local Root CA"
+openssl x509 -outform pem -in /tmp/local-root-ca.pem -out /tmp/local-root-ca.crt
 ```
 
-โดยทั่วไปแล้วคุณสามารถค้นหาใบรับรองเว็บเซิร์ฟเวอร์ PowerBI-visuals-tools ได้โดยเรียกใช้คำสั่งใดคำสั่งหนึ่งต่อไปนี้:
+### <a name="generate-a-certificate-for-localhost"></a>สร้างใบรับรองสำหรับ localhost 
 
-* สำหรับอินสแตนซ์ส่วนกลางของเครื่องมือ:
+หากต้องการสร้างใบรับรองสำหรับ `localhost` โดยใช้ *CA และ* openssl ที่สร้างขึ้นให้เรียกใช้คำสั่งต่อไปนี้:
 
-    ```cmd
-    %appdata%\npm\node_modules\PowerBI-visuals-tools\certs
-    ```
+```sh
+PBIVIZ=`which pbiviz`
+PBIVIZ=`dirname $PBIVIZ`
+PBIVIZ="$PBIVIZ/../lib/node_modules/powerbi-visuals-tools/certs"
+# Make sure that $PBIVIZ contains the correct certificate directory path. ls $PBIVIZ should list 'blank' file.
+openssl req -new -nodes -newkey rsa:2048 -keyout $PBIVIZ/PowerBIVisualTest_private.key -out $PBIVIZ/PowerBIVisualTest.csr -subj "/C=US/O=PowerBI Visuals/CN=localhost"
+openssl x509 -req -sha256 -days 1024 -in $PBIVIZ/PowerBIVisualTest.csr -CA /tmp/local-root-ca.pem -CAkey /tmp/local-root-ca.key -CAcreateserial -extfile /tmp/openssl.cnf -out $PBIVIZ/PowerBIVisualTest_public.crt
+```
 
-* สำหรับอินสแตนซ์เฉพาะที่ของเครื่องมือ:
+### <a name="add-root-certificates"></a>เพิ่มใบรับรองหลัก
 
-    ```cmd
-    <custom visual project root>\node_modules\PowerBI-visuals-tools\certs
-    ```
+หากต้องการเพิ่มใบรับรองหลักลงในฐานข้อมูลของเบราว์เซอร์ Chrome ให้เรียกใช้:
 
-หากคุณใช้รูปแบบ PEM ให้บันทึกไฟล์ใบรับรองเป็น *PowerBICustomVisualTest_public.crt* และบันทึก privateKey เป็น *PowerBICustomVisualTest_public.key*
+```sh
+certutil -A -n "Local Root CA" -t "CT,C,C" -i /tmp/local-root-ca.pem -d sql:$HOME/.pki/nssdb
+```
 
-หากคุณใช้รูปแบบ PFX ให้บันทึกไฟล์ใบรับรองเป็น *PowerBICustomVisualTest_public.pfx*
+หากต้องการเพิ่มใบรับรองหลักลงในฐานข้อมูลของเบราว์เซอร์ Mozilla Firefox ให้เรียกใช้:
+
+```sh
+for certDB in $(find $HOME/.mozilla* -name "cert*.db")
+do
+certDir=$(dirname ${certDB});
+certutil -A -n "Local Root CA" -t "CT,C,C" -i /tmp/local-root-ca.pem -d sql:${certDir}
+done
+```
+
+เมื่อต้องการเพิ่มใบรับรองหลักทั้งระบบ ให้เรียกใช้:
+
+```sh
+sudo cp /tmp/local-root-ca.pem /usr/local/share/ca-certificates/
+sudo update-ca-certificates
+```
+
+### <a name="remove-root-certificates"></a>เอาใบรับรองหลักออก
+
+เมื่อต้องการเอาใบรับรองหลักออก ให้เรียกใช้:
+
+```sh
+sudo rm /usr/local/share/ca-certificates/local-root-ca.pem
+sudo update-ca-certificates --fresh
+```
+
+## <a name="generate-a-certificate-manually"></a>สร้างใบรับรองด้วยตนเอง
+
+คุณยังสามารถสร้างใบรับรอง SSL ด้วยตนเองโดยใช้ OpenSSL คุณสามารถระบุเครื่องมือใดๆ ในการสร้างใบรับรองของคุณ
+
+ถ้ามีการติดตั้งโปรแกรมอรรถประโยชน์ OpenSSL อยู่แล้วให้สร้างใบรับรองใหม่โดยการเรียกใช้:
+
+```cmd
+openssl req -x509 -newkey rsa:4096 -keyout PowerBIVisualTest_private.key -out PowerBIVisualTest_public.crt -days 365
+```
+
+โดยปกติแล้วคุณสามารถค้นหาใบรับรองเว็บเซิร์ฟเวอร์ `PowerBI-visuals-tools` ได้โดยการเรียกใช้คำสั่งต่อไปนี้:
+
+- สำหรับอินสแตนซ์ส่วนกลางของเครื่องมือ:
+  
+  ```cmd
+  %appdata%\npm\node_modules\PowerBI-visuals-tools\certs
+  ```
+
+- สำหรับอินสแตนซ์เฉพาะที่ของเครื่องมือ:
+  
+  ```cmd
+  <Power BI visual project root>\node_modules\PowerBI-visuals-tools\certs
+  ```
+
+### <a name="pem-format"></a>รูปแบบ PEM
+
+ถ้าคุณใช้รูปแบบใบรับรอง Privacy Enhanced Mail (PEM) บันทึกไฟล์ใบรับรองเป็น *PowerBIVisualTest_public.crt* และบันทึกคีย์ส่วนตัวเป็น *PowerBIVisualTest_private.key*
+
+### <a name="pfx-format"></a>รูปแบบ PFX
+
+ถ้าคุณใช้รูปแบบใบรับรอง Personal Information Exchange (PFX) บันทึกไฟล์ใบรับรองเป็น *PowerBIVisualTest_public.pfx*
 
 หากไฟล์ใบรับรอง PFX ของคุณต้องการวลีรหัสผ่านให้ทำดังนี้:
+
 1. ในไฟล์กำหนดค่า ให้ระบุว่า:
-
-    ```cmd
-    \PowerBI-visuals-tools\config.json
-    ```
-
-1. ในส่วน `server` ระบุวลีรหัสผ่านโดยการแทนที่ข้อความตัวอย่าง "*YOUR PASSPHRASE*":
+   
+   ```cmd
+   \PowerBI-visuals-tools\config.json
+   ```
+   
+1. ในส่วน `server` ระบุวลีรหัสผ่านโดยการแทนที่ข้อความตัวอย่าง \<YOUR PASSPHRASE> placeholder:
 
     ```cmd
     "server":{
         "root":"webRoot",
         "assetsRoute":"/assets",
-        "privateKey":"certs/PowerBICustomVisualTest_private.key",
-        "certificate":"certs/PowerBICustomVisualTest_public.crt",
-        "pfx":"certs/PowerBICustomVisualTest_public.pfx",
+        "privateKey":"certs/PowerBIVisualTest_private.key",
+        "certificate":"certs/PowerBIVisualTest_public.crt",
+        "pfx":"certs/PowerBIVisualTest_public.pfx",
         "port":"8080",
-        "passphrase":"YOUR PASSPHRASE"
+        "passphrase":"<YOUR PASSPHRASE>"
     }
     ```
+
+## <a name="next-steps"></a>ขั้นตอนถัดไป
+- [พัฒนาวิชวล Power BI](custom-visual-develop-tutorial.md)
+- [ตัวอย่างวิชวล Power BI](samples.md)
+- [เผยแพร่วิชวล Power BI ลงใน AppSource](office-store.md)
