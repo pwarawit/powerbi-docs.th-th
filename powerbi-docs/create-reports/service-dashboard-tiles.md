@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0b0bf61672d383900dad50e5fe7404f7f4a7f0bc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 96a780d7d7b100acb283623107d4ec841666bb8f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348930"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561673"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>แนะนำไทล์แดชบอร์ดสำหรับนักออกแบบ Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "83348930"
 
 ![แดชบอร์ด Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-แดชบอร์ดและไทล์แดชบอร์ดเป็นคุณลักษณะของบริการ Power BI ไม่ใช่ของ Power BI Desktop คุณไม่สามารถสร้างแดชบอร์ดบนอุปกรณ์มือถือได้ แต่คุณสามารถ [ดูและแชร์]../consumer/mobile/mobile-apps-view-dashboard.md) รายการเหล่านั้นได้ที่นั่น
+แดชบอร์ดและไทล์แดชบอร์ดเป็นคุณลักษณะของบริการ Power BI ไม่ใช่ของ Power BI Desktop คุณไม่สามารถสร้างแดชบอร์ดบนอุปกรณ์มือถือ แต่คุณสามารถ [ดู และแชร์](../consumer/mobile/mobile-apps-view-dashboard.md) ได้
 
 นอกจากการปักหมุดไทล์แล้ว คุณยังสามารถสร้างไทล์แบบเดี่ยวได้โดยตรงบนแดชบอร์ดโดยใช้ตัวควบคุม [เพิ่มไทล์](service-dashboard-add-widget.md) ไทล์แบบเดี่ยวรวมถึง: กล่องข้อความ รูปภาพ วิดีโอ ข้อมูลสตรีมมิ่ง และเนื้อหาบนเว็บ
 
@@ -98,6 +98,6 @@ ms.locfileid: "83348930"
 - [การรีเฟรชข้อมูลใน Power BI](../connect-data/refresh-data.md)
 - [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](../fundamentals/service-basic-concepts.md)
 - [การรวมไทล์ Power BI ลงในเอกสาร Office](https://powerbi.microsoft.com/blog/integrating-power-bi-tiles-into-office-documents/)
-- [ปักหมุดรายการ Reporting Services ไปยังแดชบอร์ด Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
+- [ปักหมุดรายการ Reporting Services ไปยังแดชบอร์ด Power BI](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

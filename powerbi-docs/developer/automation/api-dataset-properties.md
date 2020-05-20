@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079680"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561512"
 ---
 # <a name="dataset-properties"></a>คุณสมบัติของชุดข้อมูล
 
@@ -46,8 +46,8 @@ isHidden     | บูลีน        | ถ้าเป็นจริง ตา
 ชื่อ  |ประเภท  |คำอธิบาย  |อ่านอย่างเดียว  |บังคับ
 ---------|---------|---------|---------|---------
 name     |  สตริง        | ชื่อคอลัมน์ที่ผู้ใช้กำหนดเอง        |  เป็นเท็จ       | เป็นจริง       
-ชนิดข้อมูล     |  สตริง       |  [ชนิดข้อมูล EDM](https://msdn.microsoft.com/library/ee382832.aspx)ที่ได้รับการสนับสนุนและข้อจำกัด ดู[ข้อจำกัดชนิดของข้อมูล](#data-type-restrictions)      |  เป็นเท็จ       | เป็นจริง        
-formatString     | สตริง        | สตริงที่อธิบายว่า ควรจัดรูปแบบค่าอย่างไรเมื่อแสดงค่านั้น เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการจัดรูปแบบสตริง ดู[เนื้อหาFORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx)      | เป็นเท็จ        | เป็นเท็จ        
+ชนิดข้อมูล     |  สตริง       |  [ชนิดข้อมูล EDM](/dotnet/framework/data/adonet/entity-data-model-primitive-data-types)ที่ได้รับการสนับสนุนและข้อจำกัด ดู[ข้อจำกัดชนิดของข้อมูล](#data-type-restrictions)      |  เป็นเท็จ       | เป็นจริง        
+formatString     | สตริง        | สตริงที่อธิบายว่า ควรจัดรูปแบบค่าอย่างไรเมื่อแสดงค่านั้น เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการจัดรูปแบบสตริง ดู[เนื้อหาFORMAT_STRING](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents)      | เป็นเท็จ        | เป็นเท็จ        
 sortByColumn    | สตริง        |   ชื่อสตริงของคอลัมน์หนึ่งในตารางเดียวกันจะถูกใช้เพื่อจัดลำดับคอลัมน์ปัจจุบัน     | เป็นเท็จ        | เป็นเท็จ       
 dataCategory     | สตริง        |  ค่าสตริงที่จะใช้กับประเภทของข้อมูลซึ่งอธิบายเกี่ยวกับข้อมูลภายในคอลัมน์นี้ ค่าบางค่าทั่วไปรวมถึง: ที่อยู่ เมือง ทวีป ประเทศ รูปภาพ ImageUrl ละติจูด ลองติจูด องค์กร ตำแหน่ง รหัสไปรษณีย์ รัฐหรือมณฑล WebUrl       |  เป็นเท็จ       | เป็นเท็จ        
 isHidden    |  บูลีน       |  คุณสมบัติที่ระบุว่าคอลัมน์ถูกซ่อนจากมุมมองหรือไม่ ค่าเริ่มต้นเป็นเท็จ       | เป็นเท็จ        | เป็นเท็จ        
@@ -59,7 +59,7 @@ summarizeBy     | สตริง        |  วิธีการรวมแบ
 ---------|---------|---------|---------|---------
 name     | สตริง        |  ชื่อหน่วยวัดที่ผู้ใช้กำหนดเอง       |  เป็นเท็จ       | เป็นจริง        
 นิพจน์     | สตริง        | นิพจน์ DAX ถูกต้อง        | เป็นเท็จ        |  เป็นจริง       
-formatString     | สตริง        |  สตริงที่อธิบายว่า ควรจัดรูปแบบค่าอย่างไรเมื่อแสดงค่านั้น เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการจัดรูปแบบสตริง ดู[เนื้อหาFORMAT_STRING](https://msdn.microsoft.com/library/ms146084.aspx)       | เป็นเท็จ        | เป็นเท็จ        
+formatString     | สตริง        |  สตริงที่อธิบายว่า ควรจัดรูปแบบค่าอย่างไรเมื่อแสดงค่านั้น เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการจัดรูปแบบสตริง ดู[เนื้อหาFORMAT_STRING](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents)       | เป็นเท็จ        | เป็นเท็จ        
 isHidden     | สตริง        |  ถ้าเป็นจริง ตารางจะถูกซ่อนจากเครื่องมือไคลเอ็นต์       |  เป็นเท็จ       | เป็นเท็จ       
 
 ## <a name="relationship"></a>ความสัมพันธ์

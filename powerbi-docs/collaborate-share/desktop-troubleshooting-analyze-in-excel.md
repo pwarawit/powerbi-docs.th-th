@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 45395fbb9d815580132ea254812fddec4cec4ba5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 555d203cfa8bd00e745c0dcff5de7f7e8d48f06c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275305"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563195"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>การแก้ไขปัญหาการวิเคราะห์ใน Excel
 
@@ -84,7 +84,7 @@ ms.locfileid: "83275305"
 ถ้าคุณกำลังพยายามเข้าถึงชุดข้อมูลที่มีการเชื่อมต่อกับข้อมูล Analysis Services ภายในองค์กร คุณอาจได้รับข้อความข้อผิดพลาดหนึ่ง **การวิเคราะห์ใน Excel**สนับสนุนการเชื่อมต่อกับชุดข้อมูลและรายงาน**Analysis Services**ภายในองค์กรด้วยสตริงการเชื่อมต่อ ตราบใดที่คอมพิวเตอร์ของคุณอยู่บนโดเมนเดียวกันกับเซิร์ฟเวอร์**Analysis Services** และบัญชีของคุณมีสิทธิ์เข้าใช้งานเซิร์ฟเวอร์**Analysis Services** นั้นได้
 
 ## <a name="cant-drag-anything-to-the-pivottable-values-area-no-measures"></a>ไม่สามารถลากสิ่งใดไปยังพื้นที่ค่า PivotTable ได้ (ไม่มีหน่วยวัด)
-เมื่อ**การวิเคราะห์ใน Excel**เชื่อมต่อกับแบบจำลอง OLAP ภายนอกแล้ว (ซึ่งเป็นวิธีการที่ Excel เชื่อมต่อกับ Power BI) *PivotTable*[ ต้องการกำหนด **หน่วยวัด** ในแบบจำลองภายนอก](https://support.microsoft.com/kb/234700) เนื่องจากการคำนวณทั้งหมดดำเนินการบนเซิร์ฟเวอร์ ซึ่งจะแตกต่างกับเมื่อคุณทำงานกับแหล่งข้อมูลภายในเครื่อง (เช่น ตารางใน Excel หรือเมื่อคุณทำงานกับชุดข้อมูลใน **Power BI Desktop** หรือ **บริการ Power BI**) ซึ่งเป็นกรณีที่แบบจำลองแบบตารางพร้อมใช้งานภายในเครื่อง และ[คุณสามารถใช้หน่วยวัดได้](https://msdn.microsoft.com/library/gg399077.aspx) โดยเป็นหน่วยวัดที่สร้างขึ้นแบบไดนามิกและไม่ได้จัดเก็บไว้ในแบบจำลองข้อมูล ในกรณีเหล่านี้ ลักษณะการทำงานใน Excel จะแตกต่างจากลักษณะการทำงานใน**Power BI Desktop**หรือ**บริการ Power BI**: อาจมีคอลัมน์ในข้อมูลดังกล่าวที่สามารถใช้เป็นหน่วยวัดใน Power BI ได้แต่ไม่สามารถใช้เป็นค่า (หน่วยวัด) ใน Excel ได้
+เมื่อ**การวิเคราะห์ใน Excel**เชื่อมต่อกับแบบจำลอง OLAP ภายนอกแล้ว (ซึ่งเป็นวิธีการที่ Excel เชื่อมต่อกับ Power BI) *PivotTable*[ ต้องการกำหนด **หน่วยวัด** ในแบบจำลองภายนอก](https://support.microsoft.com/kb/234700) เนื่องจากการคำนวณทั้งหมดดำเนินการบนเซิร์ฟเวอร์ ซึ่งจะแตกต่างกับเมื่อคุณทำงานกับแหล่งข้อมูลภายในเครื่อง (เช่น ตารางใน Excel หรือเมื่อคุณทำงานกับชุดข้อมูลใน **Power BI Desktop** หรือ **บริการ Power BI**) ซึ่งเป็นกรณีที่แบบจำลองแบบตารางพร้อมใช้งานภายในเครื่อง และ[คุณสามารถใช้หน่วยวัดได้](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4) โดยเป็นหน่วยวัดที่สร้างขึ้นแบบไดนามิกและไม่ได้จัดเก็บไว้ในแบบจำลองข้อมูล ในกรณีเหล่านี้ ลักษณะการทำงานใน Excel จะแตกต่างจากลักษณะการทำงานใน**Power BI Desktop**หรือ**บริการ Power BI**: อาจมีคอลัมน์ในข้อมูลดังกล่าวที่สามารถใช้เป็นหน่วยวัดใน Power BI ได้แต่ไม่สามารถใช้เป็นค่า (หน่วยวัด) ใน Excel ได้
 
 เมื่อต้องการแก้ปัญหานี้ คุณมีสองสามตัวเลือก:
 
@@ -99,7 +99,7 @@ ms.locfileid: "83275305"
 
 [บทช่วยสอน: สร้างหน่วยวัดของคุณเองใน Power BI Desktop](../transform-model/desktop-tutorial-create-measures.md)
 
-[หน่วยวัดใน PowerPivot](https://msdn.microsoft.com/library/gg399077.aspx)
+[หน่วยวัดใน PowerPivot](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4)
 
 [สร้างหน่วยวัดใน PowerPivot](https://support.office.com/article/Create-a-Measure-in-Power-Pivot-d3cc1495-b4e5-48e7-ba98-163022a71198)
 
