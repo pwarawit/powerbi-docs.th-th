@@ -1,19 +1,19 @@
 ---
 title: คำแนะนำในการวางแผนความจุสำหรับเวอร์รายงาน Power BI
 description: เอกสารนี้มีคำแนะนำเกี่ยวกับการวางแผนความจุสำหรับเวอร์รายงาน Power BI โดยการแชร์ผลลัพธ์ของการโหลดทดสอบมีการดำเนินการของปริมาณงานต่าง ๆ
-author: maggiesMSFT
+author: parthsha
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/02/2020
-ms.author: maggies
-ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 3/5/2018
+ms.author: parshah
+ms.openlocfilehash: 8b30089fe04c832734bd418cc58fabb7b574a082
+ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80647665"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80361775"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>คำแนะนำในการวางแผนความจุสำหรับเวอร์รายงาน Power BI
 เซิร์ฟเวอรรายงาน์ power BI เป็นแบบบริการตนเอง BI และเป็นโซลูชันการรายงานสำหรับองค์กรธุรกิจ ซึ่งลูกค้าสามารถปรับใช้ภายในองค์กรหลังไฟร์วอลล์ของพวกเขา ได้ จะรวมความสามารถในการรายงานแบบโต้ตอบของ Power BI Desktop ด้วยแพลตฟอร์มที่เซิร์ฟเวอร์ภายในองค์กรของ SQL Server Reporting Services ด้วยน้ำหนักและการเติบโตของการใช้งานของการวิเคราะห์และการรายงานภายในองค์กร การจัดทำงบประมาณฮาร์ดแวร์โครงสร้างพื้นฐานและลิขสิทธิ์ซอฟต์แวร์จึงถูกใช้งาน เพื่อขยายไปยังฐานผู้ใช้แบบองค์กร ซึ่งเป็นเรื่องท้าทายยิ่งนัก เอกสารนี้มีวัตถุประสงค์เพื่อเสนอคำแนะนำเกี่ยวกับการวางแผนความจุสำหรับเซิร์ฟเวอร์รายงาน Power BI โดยแบ่งปันผลลัพธ์การดำเนินการทดสอบการโหลดจำนวนมากของปริมาณงานต่าง ๆ กับเซิร์ฟเวอร์รายงาน ในขณะที่รายงาน คิวรี และการใช้รูปแบบขององค์กรแตกต่างกันอย่างกว้างขวาง ผลลัพธที่์แสดงอยู่ในเอกสารนี้ พร้อมกับการทดสอบจริงที่ใช้และอธิบายโดยละเอียดเกี่ยวกับวิธี่ดำเนินการ ทำหน้าที่เป็นจุดอ้างอิงสำหรับทุกคน ในช่วงต้นของขั้นตอนการวางแผนเพื่อใช้เซิร์ฟเวอร์รายงาน Power BI
@@ -41,7 +41,7 @@ ms.locfileid: "80647665"
 
 * Active Directory Domain Controller สิ่งนี้จำเป็นสำหรับ SQL Server Database Engine, SQL Server Analysis Services และเซิร์ฟเวอร์รายงาน Power BI เพื่อรับรองคำขอทั้งหมดได้อย่างปลอดภัย
 * SQL Server Database Engine and SQL Server Analysis Services นี่คือตำแหน่งที่เราจัดเก็บฐานข้อมูลทั้งหมดสำหรับรายงานที่จะใช้เมื่อเราแสดงผล
-* เซิร์ฟเวอร Power BI Report
+* เซิร์ฟเวอร์รายงานของ Power BI
 * ฐ่านข้อมูลเซิร์ฟเวอร์รายงานของ Power BI ฐานข้อมูลเซิร์ฟเวอร์รายงานถูกโฮสต์บนคอมพิวเตอร์มากเครื่องมากกว่าเซิร์ฟเวอร์รายงาน Power BI เพื่อให้ไม่จำเป็นเพื่อการแย่งหน่วยความจำของ SQL Server Database Engine CPU เครือข่าย และแหล่งข้อมูลบนดิสก์
 
 ![](media/capacity-planning/report-server-topology.png)
@@ -62,7 +62,7 @@ ms.locfileid: "80647665"
 > เครื่องมือนี้ไม่ได้รับการสนับสนุนอย่างเป็นทางการจาก Microsoft แต่ทีมผลิตภัณฑ์จะมีส่วนร่วมในโครงการและตอบปัญหาที่ผู้สนับสนุนรายอื่นแจ้งให้ทราบ
 
 ### <a name="workloads"></a>ปริมาณงาน
-มีโปรไฟล์ปริมาณงาน 2 ตัว ที่ใช้ในการทดสอบ Power BI Report Heavy และ Paginated Report Heavy ตารางด้านล่างนี้อธิบายเกี่ยวกับการแจกแจงคำขอที่ดำเนินการกับเซิร์ฟเวอร์รายงาน
+มีโปรไฟล์ปริมาณงาน 2 ชุดที่ใช้ในการทดสอบ: รายงาน power BI Heavy และมีการแบ่งหน้ารายงาน Heavy ตารางด้านล่างนี้อธิบายเกี่ยวกับการแจกแจงคำขอที่ดำเนินการกับเซิร์ฟเวอร์รายงาน
 
 | กิจกรรม | Power BI Report Heavy ความถี่ของการเกิดขึ้น | Paginated Report Heavy ความถี่ของการเกิดขึ้น |
 | --- | --- | --- |
@@ -91,7 +91,23 @@ ms.locfileid: "80647665"
 | **Power BI Report Heavy** |ผู้ใช้ 1000 ราย |ผู้ใช้ 3000 ราย |
 | **Paginated Report Heavy** |ผู้ใช้ 2000 ราย |ผู้ใช้ 3,200 ราย |
 
-## <a name="summary"></a>ข้อมูลสรุป
+### <a name="view-results"></a>ดูผลลัพธ์
+เลือกรายงานเพื่อดูผลลัพธ์ของการทดสอบการโหลด
+
+| ปริมาณงาน | 8 Core/32 GB | 16 Core/64 GB |
+| --- | --- | --- |
+| **Power BI Report Heavy** |[มุมมอง 8 core](https://msit.powerbi.com/view?r=eyJrIjoiMDhhNGY4NGQtNGRhYy00Yzk4LTk2MzAtYzFlNWI5NjBkMGFiIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |[มุมมอง 16 core](https://msit.powerbi.com/view?r=eyJrIjoiNDBiODk1OGUtYTAyOC00MzVhLThmZmYtNzVjNTFjNzMwYzkwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |
+| **Paginated Report Heavy** |[มุมมอง 8 core](https://msit.powerbi.com/view?r=eyJrIjoiNDFiZWYzMTktZGIxNS00MzcwLThjODQtMmJkMGRiZWEzNjhlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |[มุมมอง 16 core](https://msit.powerbi.com/view?r=eyJrIjoiOTU0YjJkYTgtNDg4Yy00NzlhLWIwMGYtMzg4YWI2MjNmOTZjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9) |
+
+<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiMDhhNGY4NGQtNGRhYy00Yzk4LTk2MzAtYzFlNWI5NjBkMGFiIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
+
+<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiNDBiODk1OGUtYTAyOC00MzVhLThmZmYtNzVjNTFjNzMwYzkwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
+
+<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiNDFiZWYzMTktZGIxNS00MzcwLThjODQtMmJkMGRiZWEzNjhlIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
+
+<iframe width="640" height="360" src="https://msit.powerbi.com/view?r=eyJrIjoiOTU0YjJkYTgtNDg4Yy00NzlhLWIwMGYtMzg4YWI2MjNmOTZjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
+
+## <a name="summary"></a>สรุป
 สำหรับแต่ละทดสอบการโหลดที่ทำ CPU ใช้ทรัพยากรมากที่สุดตรงจุดโหลดสูงสุดบนเครื่องเซิร์ฟเวอร์รายงาน Power BI เนื่องจากนี่ ทรัพยากรแรกที่ต้องการเพิ่มคือจำนวนของ core อีกวิธีหนึ่งคือ คุณสามารถพิจารณาขยาย โดยการเพิ่มโฮสต์เซิร์ฟเวอร์รายงาน Power BI ในโทโพโลยีของคุณ
 
 ผลลัพธ์นำเสนอในเอกสารนี้มาจากการดำเนินการกับชุดเฉพาะของรายงานที่ใช้ชุดข้อมูล ซึ่งถูกทำซ้ำในรูปแบบเฉพาะเจาะจง เป็นจุดอ้างอิงที่มีประโยชน์ แต่โปรดทราบว่าการใช้งานของคุณจะขึ้นอยู่กับรายงาน คิวรี่ รูปแบบการใช้ และการปรับใช้ของเซิร์ฟเวอร์รายงาน Power BI ของคุณ
@@ -105,7 +121,7 @@ ms.locfileid: "80647665"
 | ชนิดเครื่องเสมือน | ตัวประมวลผล | หน่วยความจำ | ขนาด azure VM |
 | --- | --- | --- | --- |
 | **Active Directory Domain Controller** |2 Cores |7 GB |Standard_DS2_v2 |
-| **SQL Server Database Engine and Analysis Services** |16 Cores |56 GB |Standard_DS5_v2 |
+| **SQL Server Database Engine and Analysis Services** |16 cores |56 GB |Standard_DS5_v2 |
 | **ฐานข้อมูลเซิร์ฟเวอร์รายงาน** |16 Cores |56 GB |Standard_DS5_v2 |
 
 **1.2 กำหนดค่าเครื่องเสมือนของเซิร์ฟเวอร์รายงาน BI power** 
