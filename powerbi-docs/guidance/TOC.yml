@@ -110,6 +110,8 @@
               href: monitor-report-performance.md
             - name: แก้ไขปัญหาประสิทธิภาพรายงาน
               href: report-performance-troubleshoot.md
+            - name: แนวปฏิบัติที่ดีที่สุดสำหรับไปป์ไลน์การปรับใช้งาน
+              href: ../create-reports/deployment-pipelines-best-practices.md
     - name: เอกสารทางเทคนิค
       items:
         - name: ภาพรวมเอกสารทางเทคนิค
