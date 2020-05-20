@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 16d62af90855c99f9d50c35dd411ef50f2a9a4e6
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205676"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565180"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>แนะนำหน้าแรกของแอปสำหรับอุปกรณ์เคลื่อนที่อย่างรวดเร็ว
 ในการแนะนำนี้ คุณจะคุ้นเคยกับหน้าแรกของแอปสำหรับอุปกรณ์เคลื่อนที่ของ Power BI และตัวช่วยนำทางที่จะทำให้คุณได้รับสิ่งที่คุณต้องการอย่างรวดเร็ว
@@ -41,7 +41,7 @@ ms.locfileid: "79205676"
 การอัปเดตในฟีดประกอบด้วย:
 * **ข้อมูลที่ถูกรีเฟรช**: เมื่อข้อมูลในรายงานหรือแดชบบอร์ดในรายการโปรดหรือรายการล่าสุดของคุณได้รับการรีเฟรช
 * **ความคิดเห็นใหม่**: เมื่อผู้คนสร้างความคิดเห็นในรายงานหรือแดชบอร์ดที่อยู่ในรายการโปรดหรือรายการล่าสุดของคุณ หรือเมื่อมีคนกล่าวถึงคุณในความคิดเห็น
-* **การเตือนข้อมูล**: เมื่อข้อมูลถึงเกณฑ์ที่คุณได้ตั้งไว้ก่อนหน้าใน [การเตือนข้อมูล](../../mobile-set-data-alerts-in-the-mobile-apps.md)
+* **การเตือนข้อมูล**: เมื่อข้อมูลถึงเกณฑ์ที่คุณได้ตั้งไว้ก่อนหน้าใน [การเตือนข้อมูล](mobile-set-data-alerts-in-the-mobile-apps.md)
 * **อัปเดตแอป**: เมื่อผู้สร้างแอปเผยแพร่อัปเดตแอปที่คุณกำลังใช้
 
  แตะที่รายการกิจกรรม เพื่อไปยังตำแหน่งที่เกี่ยวข้อง เพื่อสำรวจเพิ่มเติม
@@ -57,13 +57,13 @@ ms.locfileid: "79205676"
 แถบนำทางช่วยให้เข้าถึงอย่างรวดเร็วไปยัง:
 
 * ![ไอคอนหน้าหลัก](./media/mobile-apps-home-page/powerbi-mobile-app-home-icon.png) **หน้าหลัก** - กลับไปยังหน้าหลัก
-* ![ไอคอนรายการโปรด](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **รายการโปรด** - รายงาน แดชบอร์ด และแอปที่คุณทำเครื่องหมายเป็น[รายการโปรด](../../mobile-apps-favorites.md)
+* ![ไอคอนรายการโปรด](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **รายการโปรด** - รายงาน แดชบอร์ด และแอปที่คุณทำเครื่องหมายเป็น[รายการโปรด](mobile-apps-favorites.md)
 * ![ไอคอนแอป](./media/mobile-apps-home-page/powerbi-mobile-app-apps-icon.png) **แอป** - แอปที่คุณติดตั้งในบัญชีของคุณ
 * ![ไอคอนพื้นที่ทำงาน](./media/mobile-apps-home-page/powerbi-mobile-app-workspaces-icon.png) **พื้นที่ทำงาน** - โฟลเดอร์งานที่มีรายงานและแดชบอร์ดที่ผู้สร้างเนื้อหาสร้างขึ้น
 * ![ไอคอนล่าสุด](./media/mobile-apps-home-page/powerbi-mobile-app-recents-icon.png) **ล่าสุด** - ที่คุณได้รับการเข้าชมเมื่อเร็วๆนี้-รายการที่คุณเพิ่งดู
 * ![ไอคอนแชร์กับฉัน](./media/mobile-apps-home-page/powerbi-mobile-app-shared-with-me-icon.png) **แชร์กับฉัน** - รายการที่บุคคลอื่นแชร์ให้คุณ
 * ![ไอคอนตัวอย่าง](./media/mobile-apps-home-page/powerbi-mobile-app-samples-icon.png) **ตัวอย่าง**- ตัวอย่าง Power BI ที่คุณสามารถใช้เพื่อเรียนรู้เกี่ยวกับความสามารถของ Power BI
-* ![ไอคอนสแกนเนอร์](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **สแกนเนอร์** - กล้องของอุปกรณ์ที่คุณสามารถใช้เป็นสแกนเนอร์เพื่อสแกนบาร์โค้ด [บาร์โค้ด](../../mobile-apps-scan-barcode-iphone.md) และ [คิวอาร์โค้ด](../../mobile-apps-qr-code.md)
+* ![ไอคอนสแกนเนอร์](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **สแกนเนอร์** - กล้องของอุปกรณ์ที่คุณสามารถใช้เป็นสแกนเนอร์เพื่อสแกนบาร์โค้ด [บาร์โค้ด](mobile-apps-scan-barcode-iphone.md) และ [คิวอาร์โค้ด](mobile-apps-qr-code.md)
 
 ## <a name="header"></a>ส่วนหัว
 
@@ -72,11 +72,11 @@ ms.locfileid: "79205676"
 ![ส่วนหัว](./media/mobile-apps-home-page/powerbi-mobile-app-header.png)
 
 ส่วนหัวแสดงรายการนทางต่อไปนี้:
-* **รูปโปรไฟล์หรืออวตาร** - เปิดแผงด้านข้าง ซึ่งคุณสามารถ [สลับระหว่างบริการ Power BI ของคุณและบัญชีเซิร์ฟเวอร์รายงาน](../../mobile-app-ssrs-kpis-mobile-on-premises-reports.md) รวมทั้งการตั้งค่าแอปอุปกรณ์เคลื่อนที่ Power BI
+* **รูปโปรไฟล์หรืออวตาร** - เปิดแผงด้านข้าง ซึ่งคุณสามารถ [สลับระหว่างบริการ Power BI ของคุณและบัญชีเซิร์ฟเวอร์รายงาน](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) รวมทั้งการตั้งค่าแอปอุปกรณ์เคลื่อนที่ Power BI
 
     ![แผงด้านข้าง](./media/mobile-apps-home-page/powerbi-mobile-app-side-panel.png)
 
-* **การแจ้งเตือน** - เปิด [หน้าการแจ้งเตือน](../../mobile-apps-notification-center.md) ซึ่งคุณสามารถดูและเข้าถึงการแจ้งเตือนของเรา จุดที่ระฆังการแจ้งเตือนที่คุณมีการแจ้งเตือนที่บ่งบอกว่าคุณมีการแจ้งเตือนใหม่
+* **การแจ้งเตือน** - เปิด [หน้าการแจ้งเตือน](mobile-apps-notification-center.md) ซึ่งคุณสามารถดูและเข้าถึงการแจ้งเตือนของเรา จุดที่ระฆังการแจ้งเตือนที่คุณมีการแจ้งเตือนที่บ่งบอกว่าคุณมีการแจ้งเตือนใหม่
 
     ![หน้าการแจ้งเตือน](./media/mobile-apps-home-page/powerbi-mobile-app-notifications-page.png)
 
@@ -86,5 +86,5 @@ ms.locfileid: "79205676"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 ในการแนะนำนี้ คุณจะได้สำรวจหน้าหลักของแอปอุปกรณ์เคลื่อนที่ Power BI อ่านข้อมูลเพิ่มเติมเกี่ยวกับการใช้สำหรับอุปกรณ์เคลื่อนที่ Power BI 
-* [สำรวจแดชบอร์ดและรายงาน](../../mobile-apps-quickstart-view-dashboard-report.md)
-* [สำรวจรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI](../../mobile-reports-in-the-mobile-apps.md)
+* [สำรวจแดชบอร์ดและรายงาน](mobile-apps-quickstart-view-dashboard-report.md)
+* [สำรวจรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI](mobile-reports-in-the-mobile-apps.md)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 45edb3695acdcc5519fb0b62cebc853ff25ce97a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 81e293f4dbf15a21c2546a54f140b163ebc93c05
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145228"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565660"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>บทช่วยสอน: สร้างรายงานแบบแบ่งหน้าและอัปโหลดไปยังบริการของ Power BI
 
@@ -42,7 +42,7 @@ ms.locfileid: "83145228"
 
 โปรดดูข้อกำหนดเบื้องต้นในการอัปโหลดรายงานแบบแบ่งหน้าไปยังบริการของ Power BI:
 
-- คุณต้องมี[สิทธิ์การใช้งาน Power BI Pro](../service-admin-power-bi-pro-in-your-organization.md)
+- คุณต้องมี[สิทธิ์การใช้งาน Power BI Pro](../admin/service-admin-licensing-organization.md)
 - คุณต้องมีพื้นที่ทำงานบนบริการใน[ความจุ Power BI Premium](../admin/service-premium-what-is.md) มีไอคอนรูปข้าวหลามตัดที่หมายถึง![ไอคอนรูปข้าวหลามตัดพรีเมียม](media/paginated-reports-quickstart-aw/premium-diamond.png)อยู่ถัดจากชื่อของพื้นที่ทำงาน
 
 ## <a name="create-the-matrix-with-a-wizard"></a>ใช้วิซาร์ดสร้างเมทริกซ์

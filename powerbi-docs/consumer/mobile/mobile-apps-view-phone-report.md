@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 380057c2c65db3ea659adc39d692d8955201483b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273534"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565134"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>ดูรายงาน Power BI ที่ปรับให้เหมาะสมกับมือถือของคุณ
 
@@ -60,7 +60,7 @@ ms.locfileid: "83273534"
 
 * ในรายงานมือถือ แตะที่จุดไข่ปลา ( **...** ) ในมุมบนขวาของวิชวล > **ขยายเป็นโหมดโฟกัส**
   
-    ![ขยายเป็นโหมดโฟกัส](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![ขยายเป็นโหมดโฟกัส](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
 สิ่งที่คุณทำในโหมดโฟกัสจะมีผลต่อพื้นที่รายงานและในทางกลับกันด้วย เช่น ถ้าคุณไฮไลต์ค่าในการแสดงผลด้วยภาพแล้วกลับไปยังรายงานทั้งหมด รายงานจะถูกกรองด้วยค่าที่คุณไฮไลต์ในการแสดงผลด้วยภาพ
 
@@ -72,7 +72,7 @@ ms.locfileid: "83273534"
   
     เมื่อต้องล้างการสำรวจทั้งหมดจากวิชวล แตะที่จุดไข่ปลา ( **...** ) > **แปลงกลับ**
   
-    ![แปลงกลับ](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![แปลงกลับ](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
     การแปลงกลับที่อยู่ในระดับรายงาน จะเป็นการล้างการสำรวจภาพทั้งหมด หรือที่ระดับภาพ จะเป็นการล้างการสำรวจเฉพาะภาพที่เลือกไว้   
 
@@ -86,14 +86,14 @@ ms.locfileid: "83273534"
 2. ToolTip จะปรากฎขึ้นมา ซึ่งหากมีการกำหนดลำดับชั้นไว้ ส่วนท้ายของ tooltip จะแสดงรายละเอียดแนวลึกและลูกศรขึ้นให้เห็น
 3. แตะที่ลูกศรลงเพื่อดูรายละเอียดแนวลึก
 
-    ![แตะที่ดูรายละเอียดแนวลึก](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![แตะที่ดูรายละเอียดแนวลึก](media/mobile-apps-view-phone-report/report-drill-down.png)
     
 4. แตะที่ลูกศรขึ้นเพื่อดูรายละเอียดแนวลึก
 
 ### <a name="drill-to-next-level"></a>ดููแนวลึกไปยังระดับถัดไป
 1. ในรายงานบนมือถือ แตะที่จุดไข่ปลา ( **...** ) ในมุมบนขวา > **ขยายเป็นโหมดโฟกัส**
    
-    ![ขยายเป็นโหมดโฟกัส](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![ขยายเป็นโหมดโฟกัส](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     ในตัวอย่างนี้ แท่ง แสดงค่าของแต่ละรัฐ
 2. แตะไอคอนสำรวจ ![ไอคอนสำรวจ](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) ที่ด้านล่างซ้าย
@@ -111,7 +111,7 @@ ms.locfileid: "83273534"
     ![ยังคงขยายไประดับที่ต่ำกว่า](./media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
 5. เมื่อต้องการกลับไปที่ระดับเดิม แตะจุดไข่ปลา ( **...** ) อีกครั้ง > **แปลงกลับ**
    
-    ![แปลงกลับ](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![แปลงกลับ](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
 ## <a name="drill-through-from-a-value"></a>ดูรายละเอียดแนวลึกจากค่า
 ดูข้อมูลรายละเอียดจากค่าที่เชื่อมต่อกันระหว่างหน้ารายงานหนึ่งกับหน้ารายงานอื่น เมื่อคุณดูข้อมูลรายละเอียดจากจุดข้อมูลไปยังหน้ารายงานอื่น ค่าของจุดข้อมูลจะถูกนำไปใช้เพื่อกรองการดูข้อมูลรายละเอียดผ่านหน้าหรือจะอยู่ในบริบทของข้อมูลที่เลือกไว้
@@ -121,11 +121,11 @@ ms.locfileid: "83273534"
 2. ToolTip จะปรากฎขึ้นมา ซึ่งหากมีการกำหนดการดูข้อมูลรายละเอียดไว้ ส่วนท้ายของ tooltip จะแสดงลูกศรการดูข้อมูลรายละเอียดให้เห็น
 3. แตะที่ลูกศรเพื่อดูข้อมูลรายละเอียด
 
-    ![แตะที่ดูข้อมูลรายละเอียด](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![แตะที่ดูข้อมูลรายละเอียด](media/mobile-apps-view-phone-report/report-drill-through1.png)
 
 4. เลือกหน้ารายงานที่จะดูข้อมูลรายละเอียด
 
-    ![เลือกหน้ารายงาน](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![เลือกหน้ารายงาน](media/mobile-apps-view-phone-report/report-drill-through2.png)
 
 5. ใช้ปุ่มย้อนกลับที่ส่วนหัวของแอปเพื่อย้อนกลับไปยังหน้าเว็บที่คุณเริ่มต้น
 
@@ -133,5 +133,5 @@ ms.locfileid: "83273534"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [สร้างรายงานที่ปรับให้เหมาะสมสำหรับแอป Power BI ในอุปกรณ์มือถือ](../../create-reports/desktop-create-phone-report.md)
 * [สร้างมุมมองโทรศัพท์สำหรับแดชบอร์ดใน Power BI](../../create-reports/service-create-dashboard-mobile-phone-view.md)
-* [สร้างวิชวลแบบตอบสนองที่ปรับให้เหมาะสมกับทุกขนาด](../../visuals/desktop-create-responsive-visuals.md)
+* [สร้างวิชวลแบบตอบสนองที่ปรับให้เหมาะสมกับทุกขนาด](../../visuals/power-bi-report-visualizations.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

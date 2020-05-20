@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f4585e4c1eb629b4676b74157c0520d70540da7b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348171"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565157"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>มีอะไรใหม่ใน Power BI Report Server
 
@@ -247,7 +247,7 @@ ms.locfileid: "83348171"
 
 #### <a name="accessible-visual-interaction"></a>การโต้ตอบกับส่วนแสดงผลที่ใช้งานได้
 
-ตอนนี้คุณสามารถเข้าไปยังจุดข้อมูลได้จากส่วนแสดงผลในตัวหลาย ๆ ส่วนที่ใช้ส่วนการสืบค้นผ่านแป้นพิมพ์ อ่านรายละเอียดเพิ่มเติมเกี่ยวกับ [การเข้าถึงในรายงาน Power BI](../desktop-accessibility.md)
+ตอนนี้คุณสามารถเข้าไปยังจุดข้อมูลได้จากส่วนแสดงผลในตัวหลาย ๆ ส่วนที่ใช้ส่วนการสืบค้นผ่านแป้นพิมพ์ อ่านรายละเอียดเพิ่มเติมเกี่ยวกับ [การเข้าถึงในรายงาน Power BI](../create-reports/desktop-accessibility-overview.md)
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>ชื่อสำหรับการกำหนดรูปแบบภายใต้เงื่อนไขและการดำเนินการของ URL ทางเว็บ
 

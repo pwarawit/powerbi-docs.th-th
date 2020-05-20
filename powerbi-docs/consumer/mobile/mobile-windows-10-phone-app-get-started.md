@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 04b5bfbc08295974efcb7d583036d96274754bad
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349367"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565706"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>เริ่มใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
 แอป Power BI สำหรับอุปกรณ์เคลื่อนที่บน Windows 10 นำ Power BI ไปยังแท็บเล็ตหรือโทรศัพท์ของคุณ คุณจะได้รับการเข้าถึงข้อมูลทางธุรกิจของคุณที่มีการปรับปรุงล่าสุดผ่านทางอุปกรณ์เคลื่อนที่ที่เปิดใช้งานระบบสัมผัส ดูและโต้ตอบกับแดชบอร์ดบริษัทของคุณจากที่ใดก็ได้บน [หน้าจอเริ่มต้นของ Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)
@@ -118,8 +118,8 @@ ms.locfileid: "83349367"
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>รายงานอุปกรณ์มือถือและ KPI ของ Reporting Services
 * [ดูรายงานอุปกรณ์มือถือและ KPI ของ Reporting Services](mobile-app-windows-10-ssrs-kpis-mobile-reports.md) ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับอุปกรณ์ Windows 10
-* สร้าง [KPI บนพอร์ทัลเว็บ Reporting Services](https://msdn.microsoft.com/library/mt683632.aspx)
-* [สร้างรายงานอุปกรณ์มือถือของคุณเองด้วย SQL Server Mobile Report Publisher](https://msdn.microsoft.com/library/mt652547.aspx) และเผยแพร่ไปยังพอร์ทัลเว็บ Reporting Services
+* สร้าง [KPI บนพอร์ทัลเว็บ Reporting Services](/sql/reporting-services/working-with-kpis-in-reporting-services)
+* [สร้างรายงานอุปกรณ์มือถือของคุณเองด้วย SQL Server Mobile Report Publisher](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher) และเผยแพร่ไปยังพอร์ทัลเว็บ Reporting Services
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ดาวน์โหลดแอป Power BI](https://go.microsoft.com/fwlink/?LinkID=526478) จาก Windows Store  

@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 583d33a1d28fa926bdea41988d651f12de5a8e92
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a490951808271cb845c1ec558344bcf5fdc6c145
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309141"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564957"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>การแก้ไขปัญหาสถานการณ์สมมติในการรีเฟรช
 
@@ -33,7 +33,7 @@ ms.locfileid: "83309141"
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>รีเฟรชโดยการใช้ตัวเชื่อมต่อเว็บ ไม่ทำงานอย่างถูกต้อง
 
-ถ้าคุณมีสคริปต์ตัวเชื่อมต่อเว็บที่ใช้ในฟังก์ชัน[**Web.Page**](https://msdn.microsoft.com/library/mt260924.aspx) และคุณได้อัปเดตชุดข้อมูลหรือรายงานของคุณหลังวันที่ 18 พฤศจิกายน 2016 คุณต้องใช้เกตเวย์สำหรับการรีเฟรชเพื่อให้ระบบทำงานอย่างถูกต้อง
+ถ้าคุณมีสคริปต์ตัวเชื่อมต่อเว็บที่ใช้ในฟังก์ชัน[**Web.Page**](/powerquery-m/web-page) และคุณได้อัปเดตชุดข้อมูลหรือรายงานของคุณหลังวันที่ 18 พฤศจิกายน 2016 คุณต้องใช้เกตเวย์สำหรับการรีเฟรชเพื่อให้ระบบทำงานอย่างถูกต้อง
 
 ## <a name="unsupported-data-source-for-refresh"></a>แหล่งข้อมูลที่ไม่รับรองสำหรับการรีเฟรช
 

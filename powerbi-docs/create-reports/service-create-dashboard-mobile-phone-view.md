@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93d94aadb8e7606fd6d55c463a2be88f87e48047
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2aa75d1cbe04f33197bf8941fd101c66384142dd
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314868"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565821"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>ปรับแดชบอร์ดให้เหมาะสมสำหรับโทรศัพท์มือถือ-Power BI 
 เมื่อคุณดูแดชบอร์ดในโหมดแนวตั้งบนโทรศัพท์ของคุณ คุณจะสังเกตเห็นแดชบอร์ดที่เป็นแบบซ้อนถัดๆกัน ที่มีขนาดเดียวกันทั้งหมด ใน Power BI service คุณสามารถสร้างมุมมองของแดชบอร์ดโดยเฉพาะสำหรับโหมดแนวตั้งของคุณ เมื่อคุณเปิดใช้งานมุมมองทางโทรศัพท์เมื่อคุณหันโทรศัพท์ไปทางทางด้านข้าง คุณจะเห็นแดชบอร์ดถูกวางไว้ในบริการ
@@ -57,5 +57,5 @@ ms.locfileid: "83314868"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [สร้างรายงานที่ปรับให้เหมาะสมสำหรับแอปมือถือ Power BI](desktop-create-phone-report.md)
-* [สร้างวิชวลแบบตอบสนองที่ปรับให้เหมาะสมกับทุกขนาด](../visuals/desktop-create-responsive-visuals.md)
+* [สร้างวิชวลแบบตอบสนองที่ปรับให้เหมาะสมกับทุกขนาด](../visuals/power-bi-report-visualizations.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

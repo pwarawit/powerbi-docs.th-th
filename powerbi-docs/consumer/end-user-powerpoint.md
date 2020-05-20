@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1dbb35ab45a1172044cedb7fbe484ed4da6c43db
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f70c41e40ff2da385b2f63798b93dec3fcd7b7c5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348378"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565752"
 ---
 # <a name="export-reports-to-powerpoint"></a>ส่งออกรายงานไปยัง PowerPoint
 
@@ -31,7 +31,7 @@ ms.locfileid: "83348378"
 
 รับ**รายงาน Power BI**ของคุณ ที่ถูกส่งออกเป็น**PowerPoint**อย่างรวดเร็ว ทำตามขั้นตอนที่แสดงในส่วนถัดไป
 
-คุณยังสามารถคัดลอกหนึ่งวิชวลต่อหนึ่งครั้งจากบริการของ Power BI และวางลงใน PowerPoint (หรือโปรแกรมอื่นๆ ที่รองรับการวาง) ได้ เลือกไอคอน **คัดลอกเป็นรูปภาพ** เพื่อคัดลอกวิชวลไปยังคลิปบอร์ดของคุณ จากนั้นจึงเปิด PowerPoint และวางวิชวล สำหรับข้อมูลเพิ่มเติม ดู [คัดลอกวิชวลเป็นรูปภาพคงที่](../power-bi-visualization-copy-paste.md)
+คุณยังสามารถคัดลอกหนึ่งวิชวลต่อหนึ่งครั้งจากบริการของ Power BI และวางลงใน PowerPoint (หรือโปรแกรมอื่นๆ ที่รองรับการวาง) ได้ เลือกไอคอน **คัดลอกเป็นรูปภาพ** เพื่อคัดลอกวิชวลไปยังคลิปบอร์ดของคุณ จากนั้นจึงเปิด PowerPoint และวางวิชวล สำหรับข้อมูลเพิ่มเติม ดู [คัดลอกวิชวลเป็นรูปภาพคงที่](../visuals/power-bi-visualization-copy-paste.md)
 
 ![เลือกไอคอนคัดลอกเป็นรูปภาพ](media/end-user-powerpoint/power-bi-copy.png)
 
@@ -87,12 +87,12 @@ ms.locfileid: "83348378"
 มีข้อควรพิจารณาและข้อจำกัดสองสามตัวที่ควรทราบเมื่อทำงานกับฟีเจอร์**ส่งออกไปยัง PowerPoint**
  
 
-* [ตัวกรอง URL](../service-url-filters.md) จะไม่ถูกนำมาพิจารณาหากคุณเลือก **ค่าปัจจุบัน** สำหรับการส่งออกของคุณ
+* [ตัวกรอง URL](../collaborate-share/service-url-filters.md) จะไม่ถูกนำมาพิจารณาหากคุณเลือก **ค่าปัจจุบัน** สำหรับการส่งออกของคุณ
 
 * เมื่อทำการส่งออกไปยัง PowerPoint หากรายงานใช้แบบอักษรแบบกำหนดเอง แบบอักษรดังกล่าวจะถูกแทนที่ด้วยแบบอักษรเริ่มต้น
 
 * ชนิดวิชวลต่อไปนี้ไม่ได้รับการรองรับ และจะไม่ถูกส่งออกไปยัง PowerPoint:
-   - ไม่รองรับ [วิชวลแบบกำหนดเองที่ไม่ได้รับการรับรอง](../developer/power-bi-custom-visuals-certified.md)) 
+   - ไม่รองรับ [วิชวลแบบกำหนดเองที่ไม่ได้รับการรับรอง](../developer/visuals/power-bi-custom-visuals-certified.md)) 
    - ไม่รองรับ[วิชวล ESRI ArcGIS](../visuals/power-bi-visualizations-arcgis.md)
    - ไม่รองรับวิชวล R และ Python
    - ภาพพื้นหลังจะถูกตัดรูปด้วยพื้นที่ที่กำหนดขอบเขตของแผนภูมิ แนะนำให้คุณลบภาพพื้นหลังก่อนส่งออกเป็นไฟล์ PowerPoint
@@ -109,5 +109,5 @@ ms.locfileid: "83348378"
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-[คัดลอกวิชวลเป็นรูปภาพแบบคงที่](../power-bi-visualization-copy-paste.md)    
+[คัดลอกวิชวลเป็นรูปภาพแบบคงที่](../visuals/power-bi-visualization-copy-paste.md)    
 [พิมพ์หน้ารายงาน](end-user-print.md)

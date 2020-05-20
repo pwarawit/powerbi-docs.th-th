@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 35e5d3b93305f8f2271db6343164cad8b57a4bfd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c687486af1293660af5496e27ea707bb1afeec80
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348861"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564563"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>การแนะนำไปยังแดชบอร์ดสำหรับนักออกแบบ Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "83348861"
 
 ![แดชบอร์ด](media/service-dashboards/power-bi-dashboard2.png)
 
-แดชบอร์ดเป็นคุณลักษณะหนึ่งของบริการ Power BI เท่านั้น แต่คุณไม่สามารถใช้แดชบอร์ดใน Power BI Desktop ได้ ถึงแม้ว่าคุณไม่สามารถสร้างแดชบอร์ดบนอุปกรณ์มือถือได้ แต่คุณสามารถ [ดูและแชร์]../consumer/mobile/mobile-apps-view-dashboard.md) รายการเหล่านั้นได้ที่นั่น
+แดชบอร์ดเป็นคุณลักษณะหนึ่งของบริการ Power BI เท่านั้น แต่คุณไม่สามารถใช้แดชบอร์ดใน Power BI Desktop ได้ ถึงแม้ว่าคุณไม่สามารถสร้างแดชบอร์ดบนอุปกรณ์มือถือ แต่คุณสามารถ [ดูและแชร์](../consumer/mobile/mobile-apps-view-dashboard.md) ได้
 
 ## <a name="dashboard-basics"></a>ข้อมูลพื้นฐานเกี่ยวกับแดชบอร์ด 
 

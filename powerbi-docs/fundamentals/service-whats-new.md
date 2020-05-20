@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b89c64caa7a4f8fe846cca488164758550a4869a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361209"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566074"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
 ตรวจสอบหน้านี้สำหรับปัญหาที่ทราบแล้วและคุณลักษณะที่เผยแพร่ล่าสุดในการ**บริการ Power BI** สำหรับข้อมูล "มีอะไรใหม่" ที่เกี่ยวข้อง ดู:
@@ -225,7 +225,7 @@ ms.locfileid: "83361209"
 
 ### <a name="june-2017"></a>มิถุนายน 2017
 * [Power BI Premium](https://powerbi.microsoft.com/blog/power-bi-premium-generally-available/)พร้อมใช้งานโดยทั่วไปแล้ว
-* ปรับปรุง API ให้ดีขึ้นหลายจุดสำหรับ[การรีเฟรชตามกำหนดการโดยอัตโนมัติ](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/)[โคลนและรวมรายงานอีกครั้ง](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1)[อัปเดตการรวมเกตเวย์](https://msdn.microsoft.com/library/mt784650.aspx)และอื่น ๆ อีกมากมาย
+* ปรับปรุง API ให้ดีขึ้นหลายจุดสำหรับ[การรีเฟรชตามกำหนดการโดยอัตโนมัติ](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/)[โคลนและรวมรายงานอีกครั้ง](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1)[อัปเดตการรวมเกตเวย์](/rest/api/power-bi/)และอื่น ๆ อีกมากมาย
 * ลิงก์ที่เกี่ยวข้องในแอปฯ Power BI จากไทล์แดชบอร์ดไปยังแดชบอร์ดและรายงานอื่น ๆ
 * [ตัวเชื่อมต่อ Impala](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)พร้อมใช้งานโดยทั่วไปแล้วบน Power BI Desktop
 * ขยายความสามารถในวิชวลของ Power BI ด้วย[วิชวล Power BI แบบโต้ตอบในภาษา R](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/)

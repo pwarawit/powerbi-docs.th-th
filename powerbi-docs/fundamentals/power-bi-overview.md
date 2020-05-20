@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349620"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564460"
 ---
 # <a name="what-is-power-bi"></a>Power BI คืออะไร
 **Power BI** คือคอลเลกชันของบริการซอฟต์แวร์ แอป และตัวเชื่อมต่อที่ทำงานร่วมกันเพื่อเปลี่ยนแหล่งข้อมูลที่ไม่เกี่ยวข้องของคุณให้เป็นข้อมูลเชิงลึกที่สอดคล้องกัน แสดงข้อมูลได้ และโต้ตอบได้ ข้อมูลของคุณอาจเป็นสเปรดชีต Excel หรือคอลเลกชันของระบบ Cloud และคลังข้อมูลแบบไฮบริดภายในองค์กร Power BI ช่วยให้คุณเชื่อมต่อกับแหล่งข้อมูลของคุณ แสดงภาพและค้นพบเรื่องสำคัญ รวมถึงแชร์สิ่งเหล่านั้นกับบุคคลหรือทุกคนที่คุณต้องการได้อย่างง่ายดาย
@@ -70,6 +70,6 @@ Power BI ประกอบด้วย:
 เรียนรู้เพิ่มเติมเกี่ยวกับ [Power BI Report Server](../report-server/get-started.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-- [เริ่มต้นใช้งานด่วน: เรียนรู้วิธีการสำรวจบริการของ Power BI](../service-the-new-power-bi-experience.md)   
+- [เริ่มต้นใช้งานด่วน: เรียนรู้วิธีการสำรวจบริการของ Power BI](../consumer/end-user-experience.md)   
 - [บทช่วยสอน: เริ่มต้นใช้งานกับบริการของ Power BI](service-get-started.md)
 - [เริ่มต้นใช้งานด่วน: เชื่อมต่อกับข้อมูลใน Power BI Desktop](../connect-data/desktop-quickstart-connect-to-data.md)
