@@ -83,6 +83,8 @@
               href: service-dataflows-create-use.md
             - name: เลื่อนระดับหรือรับรองกระแสข้อมูล
               href: service-dataflows-promote-certify.md
+            - name: ใช้ DirectQuery ด้วยกระแสข้อมูลใน Power BI (ตัวอย่าง)
+              href: service-dataflows-directquery.md
             - name: ใช้โปรแกรมการคำนวณขั้นสูงที่มีกระแสข้อมูล
               href: service-dataflows-enhanced-compute-engine.md
             - name: เอนทิตีที่มีการคำนวณ ด้วย Power BI Premium

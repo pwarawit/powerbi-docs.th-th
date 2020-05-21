@@ -43,7 +43,7 @@
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: ร่วมมือทำงานในพื้นที่ทำงานดั้งเดิม
               href: service-collaborate-power-bi-workspace.md
-            - name: จัดการกลุ่มของคุณใน Power BI และ Office 365
+            - name: จัดการกลุ่มของคุณใน Power BI และ Microsoft 365
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
         - name: เผยแพร่และแชร์งานของคุณ
           items:
@@ -71,9 +71,11 @@
           items:
             - name: วิเคราะห์ใน Excel
               href: service-analyze-in-excel.md
+            - name: ตารางแนะนำ Power BI ใน Excel
+              href: service-excel-featured-tables.md
             - name: แก้ไขปัญหาการวิเคราะห์ใน Excel
               href: desktop-troubleshooting-analyze-in-excel.md
-            - name: 'ข้อผิดพลาด: เราไม่พบข้อมูลใด ๆ ในสมุดงาน Excel ของคุณ'
+            - name: 'ข้อผิดพลาด: เราไม่พบข้อมูลในสมุดงาน Excel ของคุณ'
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate และ Power BI
               href: service-flow-integration.md

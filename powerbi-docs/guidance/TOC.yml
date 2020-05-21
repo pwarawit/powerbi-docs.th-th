@@ -116,8 +116,10 @@
       items:
         - name: ภาพรวมเอกสารทางเทคนิค
           href: whitepapers.md
-        - name: เอกสารทางเทคนิคเรื่องความปลอดภัย Power BI
+        - name: เอกสารทางเทคนิคเรื่องความปลอดภัยของPower BI
           href: whitepaper-powerbi-security.md
+        - name: เอกสารการปรับใช้ Power BI enterprise
+          href: whitepaper-powerbi-enterprise-deployment.md
         - name: การปรับใช้ Power BI premium
           href: whitepaper-powerbi-premium-deployment.md
         - name: กระจาย Power BI ภายนอกโดยใช้ Azure Active Directory B2B

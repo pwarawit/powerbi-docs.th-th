@@ -208,8 +208,8 @@
               href: refresh-data.md
             - name: กำหนดค่าการรีเฟรชตามกำหนดเวลา
               href: refresh-scheduled-refresh.md
-            - name: ศูนย์รีเฟรช
-              href: refresh-center.md
+            - name: รีเฟรชสรุป
+              href: refresh-summaries.md
             - name: คิวรีการรีเฟรชแบบเพิ่มหน่วย
               href: ../admin/service-premium-incremental-refresh.md
             - name: รีเฟรชชุดข้อมูลจากไฟล์ Power BI Desktop ภายในเครื่อง
