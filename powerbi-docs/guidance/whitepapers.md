@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/28/2019
+ms.date: 05/19/2020
 ms.author: maggies
-ms.openlocfilehash: 8b103902f7a151dcbfee9fa6ff54830129a65c14
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 98b5323efa8b6c6c0e1d6f1dbab640fe5f4cae4c
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279077"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693972"
 ---
 # <a name="whitepapers-for-power-bi"></a>เอกสารทางเทคนิคสำหรับ Power BI
 
@@ -21,7 +21,7 @@ ms.locfileid: "83279077"
 
 | เอกสารทางเทคนิค | คำอธิบาย | วันที่ |
 | --- | --- | --- |
-| [วางแผนการใช้งาน Power BI Enterprise](https://go.microsoft.com/fwlink/?linkid=2057861) |เอกสารทางเทคนิคนี้สรุปข้อควรพิจารณาสำหรับการใช้งาน Power BI ในระดับองค์กรอย่างปลอดภัยและมีประสิทธิภาพ | กรกฎาคม 2018 |
+| [วางแผนการใช้งาน Power BI Enterprise](https://aka.ms/PBIEnterpriseDeploymentWP) |เอกสารทางเทคนิคที่อัปเดตแล้วนี้สรุปและหลักปฏิบัติที่ดีที่สุดสำหรับการปรับใช้ Power BI ขององค์กรที่มีประสิทธิภาพและปลอดภัย | May ๒๐๒๐ |
 | [Power BI และกระแสข้อมูล](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| เอกสารสรุปนี้อธิบายถึงกระแสข้อมูลในรายละเอียดทางเทคนิค และอธิบายถึงความสามารถและความคิดริเริ่มที่อยู่เบื้องหลังฟีเจอร์และฟังก์ชันของกระแสข้อมูล | พฤศจิกายน 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |อธิบาย Power BI Premium ทั้งตามที่มีอยู่เมื่อเปิดใช้งาน และพัฒนาการของ Power BI Premium | ตุลาคม 2017 |
 | [การใช้งานและการวางแผน Power BI Premium](whitepaper-powerbi-premium-deployment.md)| เอกสารนี้มีคำแนะนำและแนวทางปฏิบัติที่ดีที่สุดสำหรับการวางแผนและการใช้งานความจุพรีเมียมสำหรับปริมาณงานที่กำหนดไว้อย่างดี| มีนาคม 2019 |
@@ -38,4 +38,4 @@ ms.locfileid: "83279077"
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
-คำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
