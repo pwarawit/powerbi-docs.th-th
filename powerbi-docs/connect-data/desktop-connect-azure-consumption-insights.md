@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5cc566798d53a29ef1f205c34d7e97d9331a164d
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8959e703da2587b7633df4313606bdb11a8c983b
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347987"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407493"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>เชื่อมต่อกับ Microsoft Azure Consumption Insights ใน Power BI desktop
 
@@ -184,7 +184,7 @@ Azure ยังบริการ[**Azure Consumption and Insights (ACI) API**](
 | --- | --- | --- | --- |
 | AccountName |accountName |ชื่อบัญชี |ไม่ใช่ |
 | AccountId |accountId | |ใช่ |
-| AcccountOwnerId |accountOwnerEmail |AccountOwnerId |ไม่ใช่ |
+| AccountOwnerId |accountOwnerEmail |AccountOwnerId |ไม่ใช่ |
 | AdditionalInfo |additionalInfo |AdditionalInfo |ไม่ใช่ |
 | AdditionalInfold | | |ใช่ |
 | ปริมาณการใช้ |consumedQuantity |ปริมาณการใช้ |ไม่ใช่ |
