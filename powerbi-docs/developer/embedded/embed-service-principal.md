@@ -9,18 +9,24 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275972"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403452"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>การฝังเนื้อหา Power BI ด้วยบริการหลักและความลับของแอปพลิเคชัน
 
-[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
+บริการหลักคือวิธีการรับรองความถูกต้องที่สามารถใช้เพื่ออนุญาตให้แอปพลิเคชัน  Azure AD เข้าถึงเนื้อหาบริการของ Power BI และ API
 
-บทความนี้อธิบายการรับรองความถูกต้องของบริการหลักโดยใช้ *รหัสแอปพลิเคชัน* และ *ความลับของแอปพลิเคชัน*
+เมื่อคุณสร้างแอป Azure Active Directory (Azure AD)  [วัตถุบริการหลัก](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) จะถูกสร้างขึ้น วัตถุบริการหลัก ซึ่งเป็นที่รู้จักกันว่า *บริการหลัก* จะช่วยให้ Azure AD รับรองความถูกต้องของแอปของคุณ เมื่อรับรองความถูกต้องแล้ว แอปจะสามารถเข้าถึงแหล่งข้อมูลผู้เช่า Azure AD
+
+ในการรับรองความถูกต้อง บริการหลักจะใช้ *รหัส แอปพลิเคชัน* ของแอป Azure AD และหนึ่งในรายการต่อไปนี้:
+* ข้อมูลลับของแอปพลิเคชัน
+* ใบรับรอง
+
+บทความนี้อธิบายการรับรองความถูกต้องของบริการหลักโดยใช้ *รหัสแอปพลิเคชัน* และ *ความลับของแอปพลิเคชัน* ในการรับรองความถูกต้องโดยใช้บริการหลักที่มีใบรับรอง โปรดดู [การรับรองตัวตนยึดตามใบรับรองของ Power BI]()
 
 ## <a name="method"></a>วิธี
 
@@ -33,7 +39,7 @@ ms.locfileid: "83275972"
     2. รับ *รหัสแอปพลิเคชัน* และ *ความลับของแอปพลิเคชัน* ของแอป
 
     >[!NOTE]
-    >ขั้นตอนเหล่านี้จะอธิบายไว้ใน **ขั้นตอนที่ 1** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสร้างแอป Azure AD โปรดดูบทความ [สร้างแอป Azure AD](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal) 
+    >ขั้นตอนเหล่านี้จะอธิบายไว้ใน **ขั้นตอนที่ 1** สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการสร้างแอป Azure AD โปรดดูบทความ [สร้างแอป Azure AD](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
 
 2. สร้างกลุ่มความปลอดภัย Azure AD
 
@@ -49,12 +55,12 @@ ms.locfileid: "83275972"
 ## <a name="step-1---create-an-azure-ad-app"></a>ขั้นตอนที่ 1 - สร้าง แอป Azure AD
 
 สร้างแอป Azure AD โดยใช้วิธีใดวิธีหนึ่งต่อไปนี้:
-* สร้างแอปใน [พอร์ทัล Microsoft Azure](https://portal.azure.com/#allservices)
+* สร้างแอปใน [พอร์ทัล Microsoft Azure](https://ms.portal.azure.com/#allservices)
 * สร้างแอปโดยใช้ [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1)
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>การสร้างแอป Azure AD ในพอร์ทัล Microsoft Azure
 
-1. ลงชื่อเข้าใช้ใน [Microsoft Azure](https://portal.azure.com/#allservices)
+1. ลงชื่อเข้าใช้ใน [Microsoft Azure](https://ms.portal.azure.com/#allservices)
 
 2. ค้นหา **การลงทะเบียนแอป** และคลิกลิงก์ **การลงทะเบียนแอป**
 
@@ -66,7 +72,7 @@ ms.locfileid: "83275972"
 
 4. ระบุข้อมูลที่จำเป็น:
     * **ชื่อ** - กรอกชื่อสำหรับแอปพลิเคชันของคุณ
-    * **ประเภทบัญชีที่รองรับการใช้งาน** - เลือกบัญชี Azure AD ที่คุณต้องการ
+    * **ชนิดบัญชีที่ได้รับการสนับสนุน** - เลือกประเภทบัญชีที่ได้รับการสนับสนุน
     * (ไม่บังคับ) **เปลี่ยนเส้นทาง URI** - กรอก URI ถ้าจำเป็น
 
 5. คลิก **ลงทะเบียน**
@@ -75,7 +81,7 @@ ms.locfileid: "83275972"
 
     ![รหัสแอปพลิเคชัน](media/embed-service-principal/application-id.png)
 
-7. คลิกแท็บ **ใบรับรองและความลับ** 
+7. คลิกแท็บ **ใบรับรองและความลับ**
 
      ![รหัสแอปพลิเคชัน](media/embed-service-principal/certificates-and-secrets.png)
 
@@ -117,7 +123,6 @@ $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
 ## <a name="step-2---create-an-azure-ad-security-group"></a>ขั้นตอนที่ 2 - สร้างกลุ่มความปลอดภัย Azure AD
 
 บริการหลักของคุณไม่มีสิทธิ์ในการเข้าถึงเนื้อหา Power BI และ API ของคุณ ในการให้สิทธิ์การเข้าถึงบริการหลัก ให้สร้างกลุ่มความปลอดภัยใน Azure AD และเพิ่มบริการหลักที่คุณสร้างไว้ในกลุ่มความปลอดภัยนั้น
-
 
 มีสองวิธีในการสร้างกลุ่มความปลอดภัยใน Azure AD:
 * ด้วยตนเอง (ใน Azure)
@@ -173,7 +178,7 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
     ![ผู้ดูแลระบบพื้นที่ทำงาน](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
-## <a name="step-5---embed-your-content"></a>ขั้นตอนที่ 5 - ฝังเนื้อหาของคุณ 
+## <a name="step-5---embed-your-content"></a>ขั้นตอนที่ 5 - ฝังเนื้อหาของคุณ
 
 คุณสามารถฝังเนื้อหาของคุณภายในแอปพลิเคชันตัวอย่าง หรือภายในแอปพลิเคชันของคุณเอง
 
@@ -184,14 +189,14 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 
-* บริการหลักจะทำงานร่วมกับ[พื้นที่ทำงานใหม่](../../collaborate-share/service-create-the-new-workspaces.md)เท่านั้น
+* บริการหลักจะทำงานร่วมกับ[พื้นที่ทำงานใหม่](../../service-create-the-new-workspaces.md)เท่านั้น
 * **ความจุเฉพาะของฉัน** ไม่ได้รับการสนับสนุนเมื่อใช้บริการหลัก
 * ต้องใช้ความจุเฉพาะเมื่อย้ายไปยังการผลิต
 * คุณไม่สามารถลงชื่อเข้าใช้พอร์ทัล Power BI ด้วยบริการหลัก
 * คุณจำเป็นต้องมีสิทธิ์ของผู้ดูแลระบบ Power BI เพื่อเปิดใช้งานบริการหลักในการตั้งค่านักพัฒนาภายในพอร์ทัลผู้ดูแลระบบของ Power BI
 * คุณไม่สามารถติดตั้ง หรือจัดการเกตเวย์ข้อมูลภายในองค์กรโดยใช้บริการหลัก
 * แอปพลิเคชัน [แบบฝังตัวสำหรับองค์กรของคุณ](embed-sample-for-your-organization.md) ไม่สามารถใช้บริการหลักได้
-* [Dataflows](../../transform-model/service-dataflows-overview.md) การจัดการไม่ได้รับการสนับสนุน
+* [Dataflows](../../service-dataflows-overview.md) การจัดการไม่ได้รับการสนับสนุน
 * ปัจจุบัน โครงร่างสำคัญของบริการไม่สนับสนุนผู้ดูแลระบบ APIs
 * เมื่อใช้โครงร่างสำคัญของบริการด้วยแหล่งข้อมูล [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) โครงร่างสำคัญของบริการจะต้องมีสิทธิ์อินสแตนซ์ Azure Analysis Services การใช้กลุ่มความปลอดภัยที่ประกอบด้วยโครงร่างสำคัญของบริการสำหรับวัตถุประสงค์นี้ไม่ได้ผล
 
@@ -200,3 +205,5 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 * [Power BI Embedded สำหรับลูกค้าของคุณ](embed-sample-for-customers.md)
 
 * [ความปลอดภัยระดับแถวโดยใช้เกตเวย์ข้อมูลภายในองค์กรที่มีโครงร่างสำคัญของบริการ](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+* [การฝังเนื้อหา Power BI ด้วยบริการหลักและใบรับรอง]()

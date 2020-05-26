@@ -174,7 +174,7 @@
           items:
             - name: ใช้ชุดข้อมูลทั่วทั้งพื้นที่ทำงาน
               href: service-datasets-across-workspaces.md
-            - name: แบ่งปันชุดข้อมูล (ดูตัวอย่าง)
+            - name: แบ่งปันชุดข้อมูล
               href: service-datasets-share.md
             - name: สร้างสิทธิการอนุญาตสำหรับชุดข้อมูลที่ใช้ร่วมกัน
               href: service-datasets-build-permissions.md
