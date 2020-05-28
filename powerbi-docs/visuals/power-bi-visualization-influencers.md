@@ -4,17 +4,17 @@ description: 'บทช่วยสอน: สร้างการแสดง�
 author: mihart
 ms.reviewer: juluczni
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7c59ddd15a85eeabe0edae6d6a9649f56092ab7
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 36254e61bbb19e3dd64d920406ba78d1ee8b11ec
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141423"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813772"
 ---
 # <a name="create-key-influencers-visualizations"></a>สร้างการแสดงผลข้อมูลด้วยภาพของผู้มีอิทธิพลหลัก
 
