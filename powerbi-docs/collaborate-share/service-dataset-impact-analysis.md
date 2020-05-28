@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: edb34fc5592a6b851ae2c48690a772d75049fb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dd7387bcb008d10ec8887ac777431b5423d43f4c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274868"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120330"
 ---
 # <a name="dataset-impact-analysis"></a>การวิเคราะห์ผลกระทบของชุดข้อมูล
 
@@ -54,7 +54,7 @@ ms.locfileid: "83274868"
 
 ## <a name="notify-contacts"></a>แจ้งบุคคลติดต่อ
 
-หากคุณทำการเปลี่ยนแปลงกับชุดข้อมูล หรือกำลังคิดที่จะทำการเปลี่ยนแปลง คุณอาจต้องการติดต่อผู้ใช้ที่เกี่ยวข้อง เพื่อแจ้งให้พวกเขาทราบ เมื่อคุณแจ้งบุคคลติดต่อ ระบบจะส่งอีเมลไปยัง [รายชื่อบุคคลติดต่อ](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list) ของพื้นที่ทำงานทั้งหมดที่ได้รับผลกระทบ ชื่อของคุณจะปรากฏบนอีเมล ดังนั้น บุคคลติดต่อจะสามารถค้นหาคุณได้และตอบกลับในเธรดอีเมลใหม่ 
+หากคุณทำการเปลี่ยนแปลงกับชุดข้อมูล หรือกำลังคิดที่จะทำการเปลี่ยนแปลง คุณอาจต้องการติดต่อผู้ใช้ที่เกี่ยวข้อง เพื่อแจ้งให้พวกเขาทราบ เมื่อคุณแจ้งบุคคลติดต่อ ระบบจะส่งอีเมลไปยัง [รายชื่อบุคคลติดต่อ](../collaborate-share/service-create-the-new-workspaces.md#create-a-contact-list) ของพื้นที่ทำงานทั้งหมดที่ได้รับผลกระทบ ชื่อของคุณจะปรากฏบนอีเมล ดังนั้น บุคคลติดต่อจะสามารถค้นหาคุณได้และตอบกลับในเธรดอีเมลใหม่ 
 
 1. คลิก **แจ้งบุคคลติดต่อ** ในบานหน้าต่างด้านข่างการวิเคราะห์ผลกระทบ กล่องโต้ตอบแจ้งบุคคลติดต่อจะปรากฏขึ้น
 
