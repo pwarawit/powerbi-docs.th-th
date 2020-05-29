@@ -52,6 +52,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: เผยแพร่วิชวลแบบกำหนดเองลงใน AppSource
           href: office-store.md
+        - name: สร้างวิชวลที่ขับเคลื่อนด้วย R
+          href: create-r-based-power-bi-desktop.md
         - name: ทดสอบวิชวล Power BI ของคุณ
           href: submission-testing.md
         - name: ใช้ส่วนแสดงผล Power BI จาก R ใน Power BI
