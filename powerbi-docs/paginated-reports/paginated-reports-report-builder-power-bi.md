@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 11/27/2019
-ms.openlocfilehash: 55e74809b47b2906edac9a06f701aa30b3498f80
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/14/2020
+ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144746"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565517"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร
 
@@ -76,7 +76,7 @@ ms.locfileid: "83144746"
 
 - การปักหมุดหน้ารายงานหรือวิชวลไปยังแดชบอร์ด Power BI คุณยังสามารถปักหมุดการแสดงภาพไปยังแดชบอร์ด Power BI จากรายงานที่มีแบ่งหน้าภายในองค์กรบนเซิร์ฟเวอร์รายงาน Power BI หรือเซิร์ฟเวอร์ Reporting Services ดูการ [ปักหมุดรายการ Reporting Services ไปยังแดชบอร์ด Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards) สำหรับรายละเอียดเพิ่มเติม
 - แผนผังเอกสาร
-- รายงานย่อยและรายงานลงรายละเอียด  ทั้งนี้คุณสามารถพิจารณาใช้พารามิเตอร์ URL พร้อมรายงานแบบแบ่งหน้าเพื่อเจาะรายละเอียด
+- รายงานการเข้าถึงรายละเอียด  พิจารณาใช้พารามิเตอร์ URL กับรายงานที่มีการแบ่งหน้าสำหรับสถานการณ์การเข้าถึงรายละเอียด
 - แหล่งข้อมูลที่ใช้ร่วมกันและชุดข้อมูลที่ใช้ร่วมกัน
 
  
@@ -85,4 +85,4 @@ ms.locfileid: "83144746"
 - [ติดตั้งตัวสร้างรายงาน Power BI จากศูนย์ดาวน์โหลด Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [บทช่วยสอน: สร้างรายงานที่มีการแบ่งหน้า](paginated-reports-quickstart-aw.md)
 - [ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรง](paginated-reports-enter-data.md)
-- [บทช่วยสอน: ฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันสำหรับลูกค้าของคุณ](../developer/embed-paginated-reports-customers.md)
+- [บทช่วยสอน: ฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันสำหรับลูกค้าของคุณ](../developer/embedded/embed-paginated-reports-customers.md)

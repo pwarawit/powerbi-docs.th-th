@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a9880eea0511b942c3c7310a059caf5cd9415e1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 68dce4919dcc15cfcdd6a7c6776d569e43f9666b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292075"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561753"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>นำเข้าสมุดงาน Excel ลงใน Power BI Desktop
 ด้วย Power BI Desktop คุณจะสามารถนำเข้าเวิร์กบุ๊กของ Excel ที่มีคิวรีของ Power Query แบบจำลอง Power Pivot แผ่นงานของ Power View ลงใน Power BI Desktop ได้อย่างง่ายดาย Power BI Desktop จะสร้างรายงานและการจัดรูปแบบการแสดงข้อมูลโดยอัตโนมัติโดยยึดตามเวิร์กบุ๊ก Excel หลังจากนำเข้าแล้ว คุณสามารถปรับปรุงรายงานเหล่านั้นต่อด้วย Power BI Desktop โดยใช้คุณลักษณะที่มีอยู่และคุณลักษณะใหม่ที่เผยแพร่ในอัปเดตประจำเดือนของ Power BI Desktop
@@ -30,7 +30,7 @@ ms.locfileid: "83292075"
    ขณะนี้ ยังไม่มีการจำกัดขนาดหรือจำนวนของวัตถุในเวิร์กบุ๊ก แต่เวิร์กบุ๊กขนาดใหญ่ทำให้ Power BI Desktop ใช้เวลานานในการวิเคราะห์ และนำเข้า
 
    > [!NOTE]
-   > จะโหลด หรือนำเข้าไฟล์ Excel จากโฟลเดอร์ OneDrive for Business ที่แชร์ หรือจากโฟลเดอร์กลุ่ม Office 365 ใช้ URL ของไฟล์ Excel และการป้อนข้อมูลลงในแหล่งข้อมูลในเว็บ Power BI Desktop มีสองสามขั้นตอนที่คุณจำเป็นต้องทำตาม เพื่อจัดรูปแบบ URL ของ OneDrive for Business ให้ถูกต้อง สำหรับข้อมูลและชุดขั้นตอนที่ถูกต้อง ดู [ใช้การเชื่อมโยง OneDrive for Business ใน Power BI Desktop](desktop-use-onedrive-business-links.md)
+   > หากต้องการโหลด หรือนำเข้าไฟล์ Excel จากโฟลเดอร์ OneDrive for Business ที่แชร์ หรือจากโฟลเดอร์ Microsoft 365 Group ให้ใช้ URL ของไฟล์ Excel และการป้อนข้อมูลลงในแหล่งข้อมูลในเว็บ Power BI Desktop มีสองสามขั้นตอนที่คุณจำเป็นต้องทำตาม เพื่อจัดรูปแบบ URL ของ OneDrive for Business ให้ถูกต้อง สำหรับข้อมูลและชุดขั้นตอนที่ถูกต้อง ดู [ใช้การเชื่อมโยง OneDrive for Business ใน Power BI Desktop](desktop-use-onedrive-business-links.md)
    > 
    > 
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: dd3d3702524bc8939720a177dcdcc291081542f4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349275"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565311"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 สำหรับ "ข้อมูลอะไรใหม่" ที่เกี่ยวข้อง ให้ดู
@@ -274,7 +274,7 @@ ms.locfileid: "83349275"
 
 ### <a name="shared-credentials-now-in-android"></a>ข้อมูลประจำตัวที่ใช้ร่วมกัน (ตอนนี้ใน Android)
 
-การลงชื่อเข้าใช้ใน Power BI จากแอปมือถือจะง่ายกว่าที่เคย ด้วยข้อมูลประจำตัวที่แชร์ เราได้ทำให้ขั้นตอนการลงชื่อเข้าใช้ง่ายขึ้น ด้วยการใช้ข้อมูลประจำตัวของแอป Office 365 อื่นๆ เพื่อยืนยันตัวตนของคุณในบริการของ Power BI
+การลงชื่อเข้าใช้ใน Power BI จากแอปมือถือจะง่ายกว่าที่เคย ด้วยข้อมูลประจำตัวที่แชร์ เราได้ทำให้ขั้นตอนการลงชื่อเข้าใช้ง่ายขึ้น ด้วยการใช้ข้อมูลประจำตัวของแอป Microsoft 365 อื่นๆ เพื่อยืนยันตัวตนของคุณในบริการของ Power BI
 
 ### <a name="in-app-urls-now-in-android"></a>URL ในแอป (ตอนนี้ใน Android) 
 
@@ -294,7 +294,7 @@ ms.locfileid: "83349275"
 
 ### <a name="shared-credentials-ios"></a>ข้อมูลประจำตัวที่แชร์ (iOS)
 
-การลงชื่อเข้าใช้ใน Power BI จากแอปมือถือจะง่ายกว่าที่เคย ด้วยข้อมูลประจำตัวที่แชร์ เราได้ทำให้ขั้นตอนการลงชื่อเข้าใช้ง่ายขึ้น ด้วยการใช้ข้อมูลประจำตัวของแอป Office 365 อื่นๆ เพื่อยืนยันตัวตนของคุณในบริการของ Power BI
+การลงชื่อเข้าใช้ใน Power BI จากแอปมือถือจะง่ายกว่าที่เคย ด้วยข้อมูลประจำตัวที่แชร์ เราได้ทำให้ขั้นตอนการลงชื่อเข้าใช้ง่ายขึ้น ด้วยการใช้ข้อมูลประจำตัวของแอป Microsoft 365 อื่นๆ เพื่อยืนยันตัวตนของคุณในบริการของ Power BI
 
 ### <a name="in-app-urls-ios"></a>URL ในแอป (iOS) 
 

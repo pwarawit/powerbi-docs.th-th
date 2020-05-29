@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/17/2020
+ms.date: 05/19/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 21e0e6ee4499beac5937d0d5777bc7b66c2f09d1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2b170a9a5d6e5f36eab555401daf613774c2c984
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361600"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693991"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>มีอะไรใหม่ใน Power BI Desktop บ้าง
 
-## <a name="april-2020-update-2805803282"></a>การอัปเดตประจเดือนำเมษายน 2020 (2.80.5803.282)
+## <a name="may-2020-update-2815831621"></a>การอัปเดตประจำเดือนพฤษภาคม 2020 (2.81.5831.621)
 
-เรายินดีที่จะแบ่งปัน Power BI Desktop ประจำเดือนเมษายนของเรากับคุณ ซึ่งเป็นชุมชนระดับโลกของเรา 
+เราหวังว่า Power BI Desktop ประจำเดือนพฤษภาคมของเราจะนำข้อมูลเชิงลึกใหม่ๆ ความสามารถใหม่ๆ และทัศนคติเชิงบวกที่ดีให้แก่ชุมชนของเราทั่วโลก 
 
 สามารถรับเวอร์ชันล่าสุดของ Power BI Desktop จาก[ศูนย์ดาวน์โหลด](https://www.microsoft.com/download/details.aspx?id=58494) ถ้าคุณกำลังใช้งาน Windows 10 คุณสามารถรับ Power BI Desktop ได้จาก [Windows Store ](https://aka.ms/pbidesktopstore) เวอร์ชันรายเดือนจะเหมือนกันแม้ว่าหมายเลขเวอร์ชันอาจแตกต่างกัน โดยไม่คำนึงถึงวิธีการที่คุณติดตั้ง Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการดาวน์โหลดและติดตั้ง Power BI Desktop ดู [Get Power BI Desktop](desktop-get-the-desktop.md) 
 
@@ -41,46 +41,43 @@ ms.locfileid: "83361600"
 
 
 ### <a name="reporting"></a>การรายงาน
-* ตั้งค่าวิชวลส่วนบุคคล (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=54)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Personalize_visuals) 
-* เปลี่ยนการตรวจหาการรีเฟรชหน้า (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=447) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Change_detection) 
-* ตัวแบ่งส่วนวันทแบบสัมพัทธ์ (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=744) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Relative_time_filter) 
-* การเลือกสี่เหลี่ยมผืนผ้า Lasso ในวิชวลทั้วทั้งหมด [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=1016) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Lasso_select) 
-* การจัดรูปแบบตามเงื่อนไขสำหรับผลรวมทั้งหมดและผลรวมย่อยในตารางและเมทริกซ์ [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=1075) [[บทความ]](../create-reports/desktop-conditional-table-formatting.md#totals-and-subtotals) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Conditional_formatting) 
-* การปรับแต่งกล่องโต้ตอบธีมพร้อมให้บริการทั่วไปแล้ว [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=1250) [[บทความ]](../create-reports/desktop-report-themes.md#customize-report-themes) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Customize_theme_GA) 
-* การค้นหาการจัดรูปแบบตามเงื่อนไขที่ปรับปรุงประสิทธิภาพแล้ว [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=1479) [[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Improved_discoverability) 
-
-
+* เรียบเรียงตารางคุณลักษณะสำหรับ Excel (พรีวิว) [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=20)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Excel) 
+* ใช้ตัวกรองทั้งหมด (พรีวิว)   [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=193) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Apply_all) 
+* ปรับปรุงการเปลี่ยนแปลงการตรวจหา (พรีวิว)  [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=475)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_CDM) 
+* ดูข้อมูลรายละเอียดการดำเนินการของปุ่มพร้อมให้บริการทั่วไปแล้วในปัจจุบัน [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=626)  [[บทความ]](../create-reports/desktop-drill-through-buttons.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Drill_through) 
+* การปรับปรุงการดำเนินการนำทางหน้า [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1143)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_page_nav) 
+* ปุ่มรองรับการใส่รูปภาพแล้วในปัจจุบัน  [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1465)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_fill_images) 
+* การวางเงารองรับในการแสดงผลด้วยภาพ  [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1561)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_shadow) 
+* การย้ายบานหน้าต่างตัวกรอง [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1688)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_migration) 
 
 ### <a name="analytics"></a>การวิเคราะห์
-* การสนับสนุน DirectQuery สำหรับวิชวล AI [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=1498) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Direct_Query_AI) 
-* แผนภูมิการจำแนกข้อมูลแบบต้นไม้สนับสนุนคำแนะนำเครื่องมือและในขณะน [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=1550) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Decomp_tree_tooltips) 
-* การอัปเดตการถามตอบ [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=1606) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_QA_updates) 
+* โครงข่ายของข้อมูลพร้อมให้บริการโดยทั่วไปแล้วในปัจจุบัน [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1701)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Decomp_tree) 
 
 
 ### <a name="visuals"></a>การแสดงผลด้วยภาพ
-* ไอคอนการแสดงภาพใหม่ [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=1946) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_New_Visualization_icons) 
-* วิชวล Power BI ใหม่ [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=1833) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Visualizations)
+* วิชวล Power BI ใหม่ [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1840) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Visualizations)
+* Power Apps เสมือนจริงสามารถใช้ร่วมกับภาษาที่รองรับทั้งหมดได้แล้วในปัจจุบัน [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1861)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_lang)
 
-
-### <a name="template-apps"></a>แอปแม่แบบ
-* ศูนย์ Power Platform ของ Excellence StartKit [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=1969) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_CoE_StartKit) 
-* การค้นหา Azure Cognitive: วิเคราะห์บันทึกและเมทริกซ์ [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=1969) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Azure_Cognitive_Search)
-* แอป COVID-19 [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=1969)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_COVID)
+### <a name="modeling"></a>การสร้างแบบจำลอง
+* ตัวคั่นรายการและสัญลักษณ์ทศนิยมมีค่าเริ่มต้นเป็นตัวคั่น DAX มาตรฐานแล้วในปัจจุบัน [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1869)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_List_separator)
 
 
 ### <a name="data-preparation"></a>การเตรียมข้อมูล
-* การปรับปรุงประสิทธิภาพการวินิจฉัยแบบสอบถาม [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=2011) [[บล็อค]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Enhancements_to_Query) 
+* DirectQuery ในกระแสข้อมูล [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1883)   [[บทความ]](../transform-model/service-dataflows-directquery.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_DQ_Dataflows) 
+* เว็บตามตัวอย่างมีค่าเริ่มต้นเป็นตารางแนะนำอัตโนมัติแล้วในปัจจุบัน  [[video]](https://youtu.be/JtuHIslowxk?t=1916)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Web_by_example) 
+* ปรับปรุงการวินิจฉัยคิวรี: พาร์ติชันระดับความเป็นส่วนตัว  [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1931)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Query_Diag) 
 
 
 ### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
-* มุมมองโฟลเดอร์ CDM สำหรับ Azure Data Lake Storage รุ่น 2 [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=2124) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_CDM_Folder_view) 
+* ตัวเชื่อมต่อข้อมูลใหม่จำนวนมาก  [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1948)   [[บทความ]](../connect-data/desktop-data-sources.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Data_connectivity) 
+
 
 
 ### <a name="other-features"></a>คุณลักษณะอื่น ๆ
-* การฝึกอบรมผู้นำการสอนใหม่ [[วิดีโอ]](https://youtu.be/q2Hfn_Rhb3E?t=2147) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_New_instructor-led_training) 
+* การวิเคราะห์ผลกระทบของชุดข้อมูล [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1964)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Impact) 
 
 
-สำหรับข้อมูลโดยละเอียดเกี่ยวกับคุณลักษณะใหม่เหล่านี้แต่ละตัว โปรดดู [บล็อกโพสต์สรุปคุณลักษณะของ Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/)
+สำหรับข้อมูลโดยละเอียดเกี่ยวกับคุณลักษณะใหม่เหล่านี้แต่ละตัว โปรดดู [บล็อกโพสต์สรุปคุณลักษณะของ Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/)
 
 นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
 
@@ -91,7 +88,7 @@ ms.locfileid: "83361600"
 ### <a name="power-bi-desktop-monthly-update-video"></a>วิดีโออัปเดตประจำเดือน Power BI Desktop
 วิดีโอต่อไปนี้อธิบายการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์:
 
-> [!VIDEO https://www.youtube.com/embed/q2Hfn_Rhb3E]
+> [!VIDEO https://www.youtube.com/embed/JtuHIslowxk]
 
 ## <a name="more-videos"></a>วิดีโอเพิ่มเติม
 

@@ -1,5 +1,5 @@
 ---
-title: ติดตามสถานภาพบริการ Power BI ใน Office 365
+title: ติดตามสถานภาพบริการ Power BI ใน Microsoft 365
 description: เรียนรู้วิธีการดูสถานภาพบริการปัจจุบันและในอดีตในศูนย์การจัดการ Microsoft 365
 author: kfollis
 ms.reviewer: ''
@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9d0ed841da3f398b8e0a8dc0a35ed040ccf3cab6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3498b893d7916c37d21e66908cbea4e6a919f978
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139743"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563711"
 ---
-# <a name="track-power-bi-service-health-in-office-365"></a>ติดตามสถานภาพบริการ Power BI ใน Office 365
+# <a name="track-power-bi-service-health-in-microsoft-365"></a>ติดตามสถานภาพบริการ Power BI ใน Microsoft 365
 
 ศูนย์การจัดการ Microsoft 365 มีเครื่องมือที่สำคัญสำหรับผู้ดูแลระบบ Power BI เครื่องมือนี้รวมข้อมูลปัจจุบันและอดีตเกี่ยวกับสุขภาพบริการ หากต้องการเข้าถึงข้อมูลบริการสุขภาพ คุณต้องได้รับหน้าที่เป็นหนึ่งในตำแหน่งต่อไปนี้:
 
 * ผู้ดูแลระบบบริการ Power BI
 
-* ผู้ดูแลระบบส่วนกลางของ Office 365
+* ผู้ดูแลระบบส่วนกลาง
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับบทบาท ดู[บทบาทผู้ดูแลระบบที่เกี่ยวข้องกับ Power BI](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)
 

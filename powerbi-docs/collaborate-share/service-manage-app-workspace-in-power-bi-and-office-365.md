@@ -1,6 +1,6 @@
 ---
-title: จัดการพื้นที่ทำงานของคุณใน Power BI และ Office 365
-description: พื้นที่ทำงานใน Power BI เป็นประสบการณ์การทำงานร่วมกันภายในกลุ่ม Office 365 จัดการพื้นที่ทำงานใน Power BI และใน Office 365 ด้วย
+title: จัดการพื้นที่ทำงานของคุณใน Power BI และ Microsoft 365
+description: พื้นที่ทำงานใน Power BI เป็นประสบการณ์การทำงานร่วมกันภายใน Microsoft 365 Group จัดการพื้นที่ทำงานใน Power BI และใน Microsoft 365 ด้วย
 author: maggiesMSFT
 ms.reviewer: lukasz
 ms.service: powerbi
@@ -9,27 +9,27 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 27f3c88607f57be8b5abffdbec71ecfe80beea23
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1365eba697538255ea8c23b03f0b5db71a7ba1cd
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348079"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693813"
 ---
-# <a name="manage-your-workspace-in-power-bi-and-office-365"></a>จัดการพื้นที่ทำงานของคุณใน Power BI และ Office 365
+# <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>จัดการพื้นที่ทำงานของคุณใน Power BI และ Microsoft 365
 
-ในฐานะผู้สร้างหรือผู้ดูแลระบบของ[พื้นที่ทำงานใน Power BI](service-create-distribute-apps.md)หรือใน Office 365 คุณสามารถจัดการบางส่วนของพื้นที่ทำงานใน Power BI ลักษณะอื่นๆ คุณจัดการใน Office 365
+ในฐานะผู้สร้างหรือผู้ดูแลระบบของ[พื้นที่ทำงานใน Power BI](service-create-distribute-apps.md)หรือใน Microsoft 365 คุณสามารถจัดการลักษณะบางส่วนของพื้นที่ทำงานใน Power BI ลักษณะอื่น ๆ ที่คุณจัดการใน Microsoft 365
 
 > [!NOTE]
-> ประสบการณ์พื้นที่ทำงานใหม่จะเปลี่ยนความสัมพันธ์ระหว่างพื้นที่ทำงาน Power BI และกลุ่ม Office 365 คุณจะไม่สามารถสร้างกลุ่ม Office 365 โดยอัตโนมัติทุกครั้งที่คุณสร้างพื้นที่ทำงานใหม่ อ่านเกี่ยวกับ [สร้างพื้นที่ทำงานใหม่](service-create-the-new-workspaces.md)
+> ประสบการณ์พื้นที่ทำงานใหม่จะเปลี่ยนความสัมพันธ์ระหว่างพื้นที่ทำงาน Power BI และ Microsoft 365 Group คุณจะไม่สามารถสร้าง Microsoft 365 Group โดยอัตโนมัติทุกครั้งที่คุณสร้างพื้นที่ทำงานใหม่ อ่านเกี่ยวกับ [สร้างพื้นที่ทำงานใหม่](service-create-the-new-workspaces.md)
 
 ใน **Power BI** คุณสามารถ:
 
 * เพิ่มหรือลบสมาชิกพื้นที่ทำงาน รวมถึงการทำให้สมาชิกพื้นที่ทำงานเป็นผู้ดูแลระบบ
 * แก้ไขชื่อพื้นที่ทำงาน
-* ลบพื้นที่ทำงาน ซึ่งจะลบกลุ่ม Office 365 ออกด้วย
+* ลบพื้นที่ทำงาน ซึ่งจะลบ Microsoft 365 Group ออกด้วย
 
-ใน **Office 365** คุณสามารถ:
+ใน **Microsoft 365** คุณสามารถ:
 
 * เพิ่มหรือลบสมาชิกกลุ่มพื้นที่ทำงาน รวมถึงการทำให้สมาชิกเป็นเจ้าของ
 * แก้ไขชื่อกลุ่ม รูปภาพ คำอธิบาย และการตั้งค่าอื่นๆ
@@ -53,9 +53,9 @@ ms.locfileid: "83348079"
 
 1. เลือก**บันทึก**หรือ**ยกเลิก**
 
-## <a name="edit-power-bi-workspace-properties-in-office-365"></a>แก้ไขคุณสมบัติพื้นที่ทำงาน Power BI ใน Office 365
+## <a name="edit-power-bi-workspace-properties-in-microsoft-365"></a>แก้ไขคุณสมบัติพื้นที่ทำงาน Power BI ใน Microsoft 365
 
-คุณยังสามารถแก้ไขลักษณะของพื้นที่ทำงานได้โดยตรงใน Outlook for Office 365
+คุณยังสามารถแก้ไขลักษณะของพื้นที่ทำงานได้โดยตรงใน Outlook for Microsoft 365
 
 ### <a name="edit-the-members-of-the-workspace-group"></a>แก้ไขสมาชิกของกลุ่มพื้นที่ทำงาน
 
@@ -63,17 +63,17 @@ ms.locfileid: "83348079"
 
    ![แก้ไขพื้นที่ทำงานใน Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 
-   การดำเนินการนี้จะเปิดกลุ่มมุมมอง Outlook for Office 365 ของพื้นที่ทำงาน คุณอาจจำเป็นต้องลงชื่อเข้าใช้บัญชีขององค์กรของคุณ
+   การดำเนินการนี้จะเปิดมุมมอง Outlook for Microsoft 365 Group ของพื้นที่ทำงาน คุณอาจจำเป็นต้องลงชื่อเข้าใช้บัญชีขององค์กรของคุณ
 
 1. เลือกบทบาทถัดจากชื่อเพื่อนร่วมทีมเพื่อให้บุคคลนั้นเป็น **สมาชิก** หรือ **เจ้าของ** เลือก **X** เพื่อลบบุคคลออกจากกลุ่ม
 
-   ![แก้ไขกลุ่มใน Office 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
+   ![แก้ไขกลุ่มใน Microsoft 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>เพิ่มรูปภาพ และตั้งค่าคุณสมบัติพื้นที่ทำงานอื่นๆ
 
-เมื่อคุณเผยแพร่แอปของคุณจากพื้นที่ทำงาน รูปภาพที่คุณเพิ่มที่นี่จะเป็นรูปภาพสำหรับแอปของคุณ ดูหัวข้อ [เพิ่มรูปภาพในพื้นที่ทำงาน Office 365](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional) ในบทความ **สร้างพื้นที่ทำงานใหม่**
+เมื่อคุณเผยแพร่แอปของคุณจากพื้นที่ทำงาน รูปภาพที่คุณเพิ่มที่นี่จะเป็นรูปภาพสำหรับแอปของคุณ ดูหัวข้อ [เพิ่มรูปภาพในพื้นที่ทำงาน Microsoft 365](service-create-workspaces.md#add-an-image-to-your-microsoft-365-workspace-optional) ในบทความ **สร้างพื้นที่ทำงานใหม่**
 
-1. ในมุมมอง Outlook for Office 365 ของพื้นที่ทำงาน ให้ไปที่แท็บ **เกี่ยวกับ** แล้วเลือก **แก้ไข**
+1. ในมุมมอง Outlook for Microsoft 365 ของพื้นที่ทำงาน ให้ไปที่แท็บ **เกี่ยวกับ** แล้วเลือก **แก้ไข**
 
     ![แก้ไขไอคอนกลุ่ม](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 1. คุณสามารถแก้ไขชื่อ คำอธิบาย และภาษาสำหรับการแจ้งเตือนที่เกี่ยวข้องกับกลุ่มได้ คุณยังสามารถเพิ่มรูปภาพ และตั้งค่าคุณสมบัติอื่นได้ ที่นี่

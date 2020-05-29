@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/09/2020
+ms.date: 05/09/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: abc936c6ea4b61e4837e05fbde110e5159296815
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ab232d4e5b6d17e7f20ed8a41875ca47693eb285
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867127"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407594"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>อนุญาตให้ผู้ใช้สามารถตั้งค่าวิชวลส่วนบุคคลในรายงานได้
 
@@ -26,7 +26,7 @@ ms.locfileid: "82867127"
  
 ## <a name="what-report-consumers-can-change"></a>ผู้ใช้รายงานรายใดบ้างที่สามารถเปลี่ยนแปลงได้
 
-คุณลักษณะนี้ช่วยให้ผู้ใช้สามารถรับข้อมูลเชิงลึกเพิ่มเติมผ่านการสำรวจวิชวลแบบเฉพาะกิจบนรายงาน Power BI คุณลักษณะนี้เหมาะสำหรับผู้เขียนรายงานที่ต้องการเปิดใช้งานสถานการณ์การสำรวจพื้นฐานของตัวอ่านรายงานของพวกเขา ต่อไปนี้คือการปรับเปลี่ยนตัวอ่านรายงานที่สามารถทำได้:
+คุณลักษณะนี้ช่วยให้ผู้ใช้สามารถรับข้อมูลเชิงลึกเพิ่มเติมผ่านการสำรวจวิชวลแบบเฉพาะกิจบนรายงาน Power BI หากต้องการเรียนรู้วิธีการใช้คุณลักษณะนี้ในฐานะลูกค้า ให้ดู [ตั้งค่าวิชวลส่วนบุคคลในรายงานของคุณ](../consumer/end-user-personalize-visuals.md) คุณลักษณะนี้เหมาะสำหรับผู้เขียนรายงานที่ต้องการเปิดใช้งานสถานการณ์การสำรวจพื้นฐานของตัวอ่านรายงานของตน ต่อไปนี้คือการปรับเปลี่ยนตัวอ่านรายงานที่สามารถทำได้:
 
 - การเปลี่ยนชนิดของการแสดงภาพ
 - สลับหน่วยวัดหรือมิติ
@@ -84,69 +84,6 @@ ms.locfileid: "82867127"
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="แถบเลื่อนสำหรับการเปิดหรือปิดการตั้งค่าวิชวลส่วนบุคคล":::
 
-## <a name="personalize-visuals-in-the-power-bi-service"></a>ตั้งค่าวิชวลส่วนบุคคลในบริการของ Power BI
-
-ด้วยการตั้งค่าวิชวลส่วนบุคคล ผู้ใช้ของคุณสามารถสำรวจข้อมูลของคุณได้หลายวิธี โดยไม่ต้องออกจากมุมมองการอ่านรายงาน ตัวอย่างต่อไปนี้แสดงวิธีการต่าง ๆ ที่ผู้ใช้สามารถปรับเปลี่ยนการแสดงภาพเพื่อตอบสนองต่อความต้องการของตนเอง 
-
-1. เปิดรายงานในมุมมองการอ่านในบริการของ Power BI
-
-2. ที่มุมบนขวาของวิชวล ให้เลือกไอคอน **ตั้งค่าวิชวลนี้ส่วนบุคคล** ![ตั้งค่าไอคอนวิชวลนี้ส่วนบุคคล](media/power-bi-personalize-visuals/power-bi-personalize-visual-icon.png) 
-
-### <a name="change-the-visualization-type"></a>การเปลี่ยนชนิดของการแสดงภาพ
-
-คุณสามารถดูการแสดงภาพในรูปแบบการแสดงที่แตกต่างกันได้โดยการเปลี่ยน**ประเภทการแสดงภาพ**
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="เปลี่ยนประเภทการแสดงภาพ":::
- 
-### <a name="swap-out-a-measure-or-dimension"></a>สลับหน่วยวัดหรือมิติ
-คุณสามารถแทนที่หน่วยวัดหรือมิติบนแกน X ได้โดยการเลือกเขตข้อมูลที่คุณต้องการแทนที่ จากนั้นจึงเลือกหน่วยวัดหรือมิติอื่น
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="เปลี่ยนแกน":::
- 
-### <a name="add-or-remove-a-legend"></a>เพิ่มหรือลบคำอธิบายแผนภูมิ
-ด้วยการเพิ่มคำอธิบายแผนภูมิ คุณสามารถเข้ารหัสสีวิชวลตามหมวดหมู่ได้ คุณสามารถลบการเข้ารหัสสีตามหมวดหมู่ได้โดยการล้างกล่อง **คำอธิบายแผนภูมิ** ในบานหน้าต่าง **ตั้งค่าส่วนบุคคล** 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="เพิ่มหรือลบคำอธิบายแผนภูมิ":::
-
-### <a name="compare-two-or-more-different-measures"></a>เปรียบเทียบหน่วยวัดที่แตกต่างกันสองหน่วยขึ้นไป
-คุณสามารถเปรียบเทียบค่าสำหรับหน่วยวัดที่แตกต่างกันได้ โดยใช้ไอคอน + เพื่อเพิ่มหน่วยวัดหลายรายการสำหรับวิชวล
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="เปรียบเทียบหน่วยวัด":::
-
-### <a name="change-aggregations"></a>เปลี่ยนการรวม
-คุณสามารถเปลี่ยนวิธีการคำนวณหน่วยวัดได้โดยการเปลี่ยนการรวมในบานหน้าต่าง **ตั้งค่าส่วนบุคคล**
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="เปลี่ยนการรวม":::
-
-### <a name="capture-changes"></a>บันทึกการเปลี่ยนแปลง 
-ด้วยการใช้บุ๊กมาร์กส่วนบุคคลในการบันทึกการเปลี่ยนแปลงของคุณช่วยให้คุณสามารถกลับไปยังมุมมองส่วนบุคคลของคุณได้ 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="สร้างบุ๊กมาร์ก":::
- 
-นอกจากนี้ คุณยังสามารถสร้างบุ๊กมาร์กเป็นมุมมองเริ่มต้นของคุณได้
-
-### <a name="share-changes"></a>แชร์การเปลี่ยนแปลง 
-หากคุณมีสิทธิ์ในการอ่านและแชร์ต่อ คุณสามารถเลือกเพื่อรวมการเปลี่ยนแปลงของคุณได้เมื่อคุณแชร์รายงาน
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="แชร์การเปลี่ยนแปลง":::
- 
-### <a name="reset-all-your-changes-to-a-report"></a>รีเซ็ตการเปลี่ยนแปลงทั้งหมดของคุณในรายงาน
-
-เลือก **รีเซ็ตเป็นค่าเริ่มต้น** เพื่อลบการเปลี่ยนแปลงทั้งหมดของคุณในรายงานออก และตั้งค่ากลับไปเป็นมุมมองที่บันทึกไว้ล่าสุดของผู้เขียนของรายงาน
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="รีเซ็ตการเปลี่ยนแปลงทั้งหมด":::
- 
-### <a name="reset-all-your-changes-to-a-visual"></a>รีเซ็ตการเปลี่ยนแปลงทั้งหมดของคุณในวิชวล
-
-เลือก **รีเซ็ตวิชวลนี้** เพื่อลบการเปลี่ยนแปลงทั้งหมดของคุณในวิชวลที่เฉพาะเจาะจงออก และตั้งค่ากลับไปเป็นมุมมองวิชวลที่บันทึกไว้ล่าสุดของผู้เขียนของรายงาน
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="รีเซ็ตการเปลี่ยนแปลงวิชวลทั้งหมด":::
- 
-### <a name="clear-recent-changes"></a>ล้างการเปลี่ยนแปลงล่าสุด
-
-เลือกไอคอนยางลบเพื่อล้างการเปลี่ยนแปลงล่าสุดทั้งหมดที่คุณทำไว้ตั้งแต่คุณเปิดบานหน้าต่าง **ตั้งค่าส่วนบุคคล**  
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="เปลี่ยนการเปลี่ยนแปลงล่าสุดกลับเป็นค่าเดิม":::
 
 ## <a name="limitations-and-known-issues"></a>ข้อจำกัดและปัญหาที่ทราบแล้ว
 
@@ -164,7 +101,8 @@ ms.locfileid: "82867127"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
+[ตั้งค่าวิชวลส่วนบุคคลในรายงานของคุณ](../consumer/end-user-personalize-visuals.md)     
+
 ลองสัมผัสประสบการณ์การใช้งานการตั้งค่าวิชวลส่วนบุคคลใหม่ ส่งคำติชมของคุณของคุณเกี่ยวกับคุณสมบัตินี้ และสิ่งที่เราสามารถปรับปรุงได้ ใน [ไซต์ Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi) 
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
-

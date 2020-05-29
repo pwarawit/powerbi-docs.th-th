@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584993"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565637"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>รายงานที่มีการแบ่งหน้าใน Power BI คำถามที่ถามบ่อย 
 
@@ -41,7 +41,7 @@ ms.locfileid: "82584993"
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>ฉันจะตรวจสอบผู้ใช้รายงานแบบแบ่งหน้าในผู้เช่าของฉันได้อย่างไร
 
-การตรวจสอบ Office 365 จะบันทึกรายละเอียดการใช้ของรายงานประเภทนี้ไว้เมื่อมีเหตุการณ์ต่อไปนี้: 
+บันทึกการตรวจสอบจะบันทึกรายละเอียดการใช้ของรายงานประเภทนี้ไว้เมื่อมีเหตุการณ์ต่อไปนี้:
 
 - ดูรายงาน Power BI
 - ลบรายงาน Power BI
@@ -152,7 +152,7 @@ ms.locfileid: "82584993"
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>ฉันสามารถใช้ Power BI Embedded เพื่อฝังรายงานแบบแบ่งหน้าในแอปที่ฉันโฮสต์อยู่ได้หรือไม่
 
-การฝัง SaaS ซึ่งรวมถึงการสนับสนุนแบบฝังตัวที่ปลอดภัยพร้อมใช้งานแล้ว สำหรับการฝัง PaaS โปรดดูที่บทช่วยสอน [ฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันสำหรับลูกค้าของคุณ](../developer/embed-paginated-reports-customers.md)
+การฝัง SaaS ซึ่งรวมถึงการสนับสนุนแบบฝังตัวที่ปลอดภัยพร้อมใช้งานแล้ว สำหรับการฝัง PaaS โปรดดูที่บทช่วยสอน [ฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันสำหรับลูกค้าของคุณ](../developer/embedded/embed-paginated-reports-customers.md)
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>ฉันสามารถลงรายละเอียดจากรายงาน Power BI ในรายงานแบบแบ่งหน้าได้หรือไม่
 

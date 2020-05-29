@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/21/2018
-ms.openlocfilehash: 907e65635424b709ec2c0850e4d0d759f4ba6dd3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/14/2020
+ms.openlocfilehash: 8d2efebcfd2d4bc4289f0c8136ef060507fe0a86
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73874086"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438280"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>กำหนดค่าเซิร์ฟเวอร์รายงานของคุณเพื่อโฮสต์ เวิร์กบุ๊ก Excel โดยใช้ Office Online Server (OOS)
 
@@ -179,7 +179,8 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 
 ## <a name="limitations-and-considerations"></a>ข้อจำกัดและข้อควรพิจารณา
 
-* คุณทำได้แค่การอ่านเวิร์กบุ๊กเท่านั้น
+- คุณทำได้แค่การอ่านเวิร์กบุ๊กเท่านั้น
+- การรีเฟรชตามกำหนดเวลาไม่ได้รับการสนับสนุนสำหรับเวิร์กบุ๊ก Excel ในเซิร์ฟเวอร์รายงาน Power BI
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

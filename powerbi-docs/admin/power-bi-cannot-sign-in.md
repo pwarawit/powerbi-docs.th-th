@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: b65cf23e37773861d41b037b0f45c430224f1930
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ec9848f71aa8ba69089de5222dfa9f63703f43c5
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129975"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438027"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>การแก้ไขปัญหาการลงชื่อเข้าใช้สำหรับ Power BI
 
@@ -26,7 +26,7 @@ ms.locfileid: "83129975"
 
 ก่อนอื่น พยายามสร้างตั๋วการสนับสนุนผ่าน[หน้าการสนับสนุน Power BI](https://powerbi.microsoft.com/support/)
 
-ถ้าคุณไม่สามารถไปที่หน้าการสนับสนุน Power BI จากนั้นให้ลองสร้างตั๋วผ่าน[หน้าการสนับสนุน Office 365](https://support.office.com/home/contact)
+ถ้าคุณไม่สามารถไปที่หน้าการสนับสนุน Power BI จากนั้นให้ลองสร้างตั๋วผ่าน [Office Support](https://support.office.com/home/contact)
 
 หากคุณไม่สามารถสร้างตั๋วผ่านหน้าใดหน้าหนึ่งเหล่านี้ ให้ลองติดต่อฝ่ายสนับสนุนทางโทรศัพท์:
 
@@ -34,7 +34,7 @@ ms.locfileid: "83129975"
 * สำหรับลูกค้าในทวีปยุโรป ตะวันออกกลาง และเอเชีย (EMEA): +44-844-800-2400
 * สำหรับลูกค้าในอินเดีย: +1-800-419-5666
 
-ตัวเลือกอื่นสำหรับการติดต่อฝ่ายสนับสนุนของ Microsoft เพื่อขอความช่วยเหลือคือการซื้อ[การสนับสนุนด้วย Microsoft Premiert](https://support.microsoft.com/premier) หากคุณทราบว่าองค์กรของคุณได้ซื้อบริการ Microsoft Premier แต่คุณยังคงไม่สามารถสร้างกรณีจากช่องทาง Power BI หรือ Office 365 ใดก็ตามได้ โปรดติดต่อฝ่ายสนับสนุน Premier ผ่านทางโทรศัพท์:
+ตัวเลือกอื่นสำหรับการติดต่อฝ่ายสนับสนุนของ Microsoft เพื่อขอความช่วยเหลือคือการซื้อ[การสนับสนุนด้วย Microsoft Premiert](https://support.microsoft.com/premier) หากคุณทราบว่าองค์กรของคุณได้ซื้อบริการ Microsoft Premier แต่คุณยังคงไม่สามารถสร้างกรณีจากช่องทาง Power BI หรือ Office Support ใดก็ตามได้ โปรดติดต่อฝ่ายสนับสนุน Premier ผ่านทางโทรศัพท์:
 
 * สำหรับลูกค้าในสหรัฐอเมริกา (US) และส่วนอื่นของอเมริกา: +1-800-936-3100
 * สำหรับลูกค้าในทวีปยุโรป ตะวันออกกลาง และเอเชีย (EMEA): +44-844-800-8338

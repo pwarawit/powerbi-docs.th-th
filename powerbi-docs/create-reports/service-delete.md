@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3fdb969888d023ca9683c2460086f2fb8157c3c3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a48d83223ab02d2f9f043dde2facebd6ad73c27a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83304564"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565683"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>ลบเกือบทุกสิ่งในบริการ Power BI
 บทความนี้สอนวิธีการลบแดชบอร์ด รายงาน เวิร์กบุ๊ก ชุดข้อมูล แอปฯ การแสดงภาพ และพื้นที่ทำงานในบริการ Power BI
@@ -82,7 +82,7 @@ ms.locfileid: "83304564"
 
 ## <a name="delete-a-workspace"></a>ลบพื้นที่ทำงาน
 > [!WARNING]
-> เมื่อคุณสร้างพื้นที่ทำงาน คุณจะสร้างกลุ่ม Office 365 ด้วย และเมื่อคุณลบพื้นที่ทำงาน คุณจะลบกลุ่ม Office365 ด้วย นั่นหมายความว่า กลุ่มจะถูกลบออกจากผลิตภัณฑ์ O365 อื่น ๆ เช่น SharePoint และทีม Microsoft
+> เมื่อคุณสร้างพื้นที่ทำงาน คุณจะสร้าง Microsoft 365 Group ด้วย และเมื่อคุณลบพื้นที่ทำงาน คุณจะลบ Microsoft 365 Group ด้วย นั่นหมายความว่า กลุ่มจะถูกลบออกจากผลิตภัณฑ์ Microsoft 365 อื่น ๆ เช่น SharePoint และ Microsoft Teams
 >
 >
 

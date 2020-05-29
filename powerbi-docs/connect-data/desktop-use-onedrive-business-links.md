@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 706703985242284725fb4fc2d42bf46e54c605c7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e5effe6f397dd53fe6347708774118e9c491abc1
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285819"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564147"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>ใช้ลิงก์ OneDrive for Business ใน Power BI Desktop
-หลายคนมีเวิร์กบุ๊ก Excel ที่จัดเก็บไว้ใน OneDrive for Business ที่จะเหมาะสำหรับใช้งานกับ Power BI Desktop  ด้วย Power BI Desktop คุณสามารถใช้ลิงก์ออนไลน์สำหรับไฟล์ Excel ที่จัดเก็บไว้ใน OneDrive for Business เพื่อสร้างรายงานและวิชวลได้  คุณสามารถใช้บัญชีผู้ใช้กลุ่ม OneDrive for Business หรือบัญชีผู้ใช้บุคคล OneDrive for Business ของคุณก็ได้
+หลายคนมีเวิร์กบุ๊ก Excel ที่จัดเก็บไว้ใน OneDrive for Business ที่จะเหมาะสำหรับใช้งานกับ Power BI Desktop ด้วย Power BI Desktop คุณสามารถใช้ลิงก์ออนไลน์สำหรับไฟล์ Excel ที่จัดเก็บไว้ใน OneDrive for Business เพื่อสร้างรายงานและวิชวลได้ คุณสามารถใช้บัญชีผู้ใช้กลุ่ม OneDrive for Business หรือบัญชีผู้ใช้บุคคล OneDrive for Business ของคุณก็ได้
 
 การรับลิงก์ออนไลน์จาก OneDrive for Business ต้องใช้ขั้นตอนที่เฉพาะเจาะจงสองสามขั้นตอน ส่วนต่อไปนี้จะอธิบายขั้นตอนดังกล่าว ให้คุณสามารถแชร์ลิงก์ของไฟล์ระหว่างกลุ่ม ระหว่างเครื่อง และกับเพื่อนร่วมงานของคุณ
 
-## <a name="get-a-link-from-excel"></a>รับลิงก์จาก Excel 
+## <a name="get-a-link-from-excel"></a>รับลิงก์จาก Excel
 1. นำทางไปยังที่ตั้ง OneDrive for Business ของคุณโดยใช้เบราว์เซอร์ คลิกขวาไฟล์ที่คุณต้องการใช้ และเลือก**เปิดใน Excel**
    
    > [!NOTE]
@@ -44,7 +44,7 @@ ms.locfileid: "83285819"
 3. ลบสตริง *?web=1* ออกที่จุดสิ้นสุดของลิงก์เพื่อให้ Power BI Desktop สามารถนำทางไปยังไฟล์ของคุณอย่างถูกต้อง จากนั้นเลือก**ตกลง**
    
     ![](media/desktop-use-onedrive-business-links/power-bi-web-link-confirmation.png) 
-4. ถ้า Power BI Desktop พร้อมท์คุณสำหรับข้อมูลประจำตัว เลือก **Windows** (สำหรับไซต์ SharePoint ภายในองค์กร) หรือ **บัญชีองค์กร** (สำหรับ Office 365 หรือ ไซต์ OneDrive for Business) อย่างใดอย่างหนึ่ง
+4. ถ้า Power BI Desktop พร้อมท์คุณสำหรับข้อมูลประจำตัว เลือก **Windows** (สำหรับไซต์ SharePoint ภายในองค์กร) หรือ **บัญชีองค์กร** (สำหรับ Microsoft 365 หรือ ไซต์ OneDrive for Business) อย่างใดอย่างหนึ่ง
    
    ![](media/desktop-use-onedrive-business-links/odb-links_06.png)
 

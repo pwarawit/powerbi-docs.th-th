@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: c424572cf222e4b2f65354e7b9a0959b60a56fca
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7034bd544ee9c14dd5f32df9335faefd4221e4ac
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143902"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693888"
 ---
 # <a name="embed-reports-in-microsoft-teams-with-the-power-bi-tab"></a>รายงานที่ฝังใน Microsoft Teams ด้วยแท็บ Power BI
 
@@ -28,11 +28,12 @@ ms.locfileid: "83143902"
 - ผู้ใช้ของคุณสิทธิ์การใช้งาน Power BI Pro หรือรายงานที่มีอยู่ในความจุ [Power BI Premium (EM หรือ P SKU)](../admin/service-premium-what-is.md) พร้อมสิทธิ์การใช้งาน Power BI
 - Microsoft Teams มีแท็บ Power BI
 - ผู้ใช้ได้ลงชื่อเข้าใช้ในบริการของ Power BI เพื่อเปิดใช้สิทธิ์การใช้งาน Power BI ของตนสำหรับการใช้รายงาน
-- ผู้ใช้ต้องมีสิทธิ์ในการดูรายงาน
+- หากต้องการเพิ่มรายงานใน Microsoft Teams ด้วยแท็บ Power BI คุณต้องมีอย่างน้อยหนึ่งบทบาทของผู้ชมในพื้นที่ทำงานที่โฮสต์รายงาน ดู[บทบาทในพื้นที่ทำงานใหม่](service-new-workspaces.md#roles-in-the-new-workspaces)สำหรับข้อมูลเกี่ยวกับบทบาทที่แตกต่างกัน
+- หากต้องการดูรายงานในแท็บ Power BI ใน Microsoft Teams ผู้ใช้ต้องมีสิทธิ์ในการดูรายงาน
 
 นอกจากนี้ เพื่อทำให้**การแสดงตัวอย่างลิงก์** ให้แน่ใจว่า:
 - ผู้ใช้จะต้องเป็นไปตามข้อกำหนดในการใช้แท็บ Power BI สำหรับ Microsoft Teams
-- ผู้ใช้ได้ลงชื่อเข้าในบริการของ Power BI Bot 
+- ผู้ใช้ได้ลงชื่อเข้าในบริการของ Power BI แล้ว 
 
 
 ## <a name="embed-your-report"></a>ฝังรายงานของคุณ
@@ -90,12 +91,12 @@ ms.locfileid: "83143902"
 
 ## <a name="grant-access-to-reports"></a>อนุญาตการเข้าถึงรายงาน
 
-การฝังรายงานใน Microsoft Teams หรือการส่งลิงก์ไปยังรายการไม่ให้สิทธิ์ผู้ใช้ในการดูรายงานโดยอัตโนมัติ คุณต้อง [อนุญาตให้ผู้ใช้ดูรายงานใน Power BI](service-share-dashboards.md) คุณสามารถใช้กลุ่ม Office 365 สำหรับทีมของคุณเพื่อทำให้ง่ายขึ้น 
+การฝังรายงานใน Microsoft Teams หรือการส่งลิงก์ไปยังรายการไม่ให้สิทธิ์ผู้ใช้ในการดูรายงานโดยอัตโนมัติ คุณต้อง [อนุญาตให้ผู้ใช้ดูรายงานใน Power BI](service-share-dashboards.md) คุณสามารถใช้ Microsoft 365 Group สำหรับทีมของคุณเพื่อทำให้ง่ายขึ้น
 
 > [!IMPORTANT]
 > ให้ตรวจสอบให้แน่ใจว่าว่าใครสามารถดูรายงานภายใน Power BI service และอนุญาตให้เข้าถึงสิ่งที่ไม่ได้อยู่ในรายการ
 
-วิธีหนึ่งในการตรวจสอบให้แน่ใจว่าทุกคนในทีมของคุณมีสิทธิ์เข้าถึงรายงาน คือการวางรายงานเหล่านั้นไว้ในพื้นที่ทำงานแบบเดียวใน Power BI และให้ Office 365 Group แก่ทีมของคุณเข้าถึงพื้นที่ทำงาน
+วิธีหนึ่งในการตรวจสอบให้แน่ใจว่าทุกคนในทีมของคุณมีสิทธิ์เข้าถึงรายงาน คือการวางรายงานเหล่านั้นไว้ในพื้นที่ทำงานแบบเดียวใน Power BI และให้ Microsoft 365 Group แก่ทีมของคุณเข้าถึงพื้นที่ทำงาน
 
 ## <a name="link-previews"></a>การแสดงตัวอย่างลิงก์ 
 
@@ -123,7 +124,7 @@ ms.locfileid: "83143902"
 - Power BI ไม่รองรับภาษาที่แปลเป็นภาษาท้องถิ่นเช่นเดียวกับที่ Microsoft Teams รองรับ ผลที่ได้คือคุณอาจไม่เห็นการแปลที่เหมาะสมภายในรายงานแบบฝังตัว
 - คุณไม่สามารถฝังแดชบอร์ด Power BI ในแท็บ Power BI สำหรับ Microsoft Teams ได้
 - ผู้ใช้ที่ไม่มีสิทธิ์การใช้งาน Power BI หรือสิทธิ์การใช้งานในรายงานจะเห็นข้อความ "เนื้อหาไม่พร้อมใช้งาน"
-- คุณอาจมีปัญหาถ้าใช้ Internet Explorer 10 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+- คุณอาจมีปัญหาถ้าใช้ Internet Explorer 10 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - ไม่รองรับ [ตัวกรอง URL](service-url-filters.md) ด้วยแท็บ Power BI สำหรับ Microsoft Teams
 - ในระบบคลาวด์ภายในประเทศ แท็บ Power BI ใหม่ไม่พร้อมใช้งาน รุ่นที่เก่ากว่าอาจพร้อมใช้งานที่ไม่รองรับพื้นที่ทำงานใหม่ พื้นที่ทำงานที่เคยทำ หรือรายงานในแอป Power BI 
 - หลังจากที่คุณบันทึกแท็บแล้ว คุณจะไม่สามารถเปลี่ยนชื่อแท็บผ่านการตั้งค่าแท็บได้ ใช้ตัวเลือกเปลี่ยนชื่อเพื่อดำเนินการเปลี่ยนชื่อ

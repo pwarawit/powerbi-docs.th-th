@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ba0e04ff4cd56566f7d33445fafa7c8cfcc6b7ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284807"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565471"
 ---
 # <a name="share-a-dataset-preview"></a>แชร์ชุดข้อมูล (ตัวอย่าง)
 
@@ -24,7 +24,7 @@ ms.locfileid: "83284807"
 
 1. คุณต้องเริ่มต้นโดยการสร้างไฟล์.pbix ด้วยแบบจำลองข้อมูลใน Power BI Desktop หากคุณวางแผนที่จะเสนอชุดข้อมูลนี้ให้ผู้อื่นสร้างรายงาน คุณอาจไม่ได้ออกแบบรายงานในไฟล์. pbix
 
-    แนวทางปฏิบัติที่ดีที่สุดคือการบันทึกไฟล์.pbix ไว้ในกลุ่ม Office 365
+    แนวทางปฏิบัติที่ดีที่สุดคือการบันทึกไฟล์.pbix ไว้ใน Microsoft 365 Group
 
 1. เผยแพร่ไฟล์.pbix ไปยัง[พื้นที่ทำงานประสบการณ์การใช้งานใหม่](../collaborate-share/service-create-the-new-workspaces.md)ในบริการของ Power BI
     
@@ -54,4 +54,4 @@ ms.locfileid: "83284807"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [ใช้ชุดข้อมูลทั้งพื้นที่ทำงาน (ดูตัวอย่าง)](service-datasets-across-workspaces.md)
-- มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+- มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

@@ -7,47 +7,43 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/11/2020
+ms.date: 05/18/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 84ce61c98048690c1560a2c49aed07591a22119f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8bea8c2fc59deeb6aec4817f27d10371518f523e
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83137679"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564370"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>ตรวจสอบความจุ Premium ด้วยแอป
 
 การตรวจสอบความจุของคุณเป็นสิ่งสำคัญในการตัดสินใจอย่างชาญฉลาดว่าจะใช้ทรัพยากรความจุ Premium ของคุณให้ดีที่สุดได้อย่างไร คุณสามารถตรวจสอบความจุในพอร์ทัลผู้ดูแลระบบหรือด้วยแอป **การวัดความจ ุPower BI Premium** บทความนี้อธิบายโดยใช้แอปการวัดความจุ Premium แอปมีข้อมูลเชิงลึกมากที่สุดเป็นวิธีการใช้งานความจุของคุณ สำหรับภาพรวมระดับสูงขึ้นของการวัดการใช้งานเฉลี่ยช่วงเจ็ดวันที่ผ่านมา คุณสามารถใช้พอร์ทัลผู้ดูแลระบบ หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการตรวจสอบในพอร์ทัล ดู[ตรวจสอบความจุ Premium ในพอร์ทัลผู้ดูแลระบบ](service-admin-premium-monitor-portal.md)
 
-แอปถูกอัปเดตตามปกติด้วยคุณสมบัติและฟังก์ชันการทำงานใหม่ ๆ ตรวจสอบให้แน่ใจว่าคุณกำลังใช้เวอร์ชันล่าสุด ถ้าคุณได้ติดตั้งแอปเวอร์ชันก่อนหน้าแล้ว แนะนำให้ลบออกจากแอปของคุณแล้ว กด CTRL + F5 เพื่อรีเฟรช
+แอปถูกอัปเดตตามปกติด้วยคุณสมบัติและฟังก์ชันการทำงานใหม่ ๆ ตรวจสอบให้แน่ใจว่าคุณกำลังใช้เวอร์ชันล่าสุด เมื่อเวอร์ชันใหม่จะพร้อมใช้งาน คุณจะได้รับ[การแจ้งเตือน](../connect-data/service-template-apps-install-distribute.md#update-a-template-app)
 
 > [!IMPORTANT]
 > ถ้าความจุ Power BI Premium ของคุณกำลังประสบปัญหาการใช้ทรัพยากรสูงจนส่งผลให้เกิดปัญหาด้านประสิทธิภาพการทำงานหรือความมั่นคง คุณสามารถรับอีเมลแจ้งเตือนเพื่อทราบปัญหาและแก้ไขปัญหาได้ ซึ่งอาจเป็นวิธีที่มีประสิทธิภาพในการแก้ไขปัญหาความจุโอเวอร์โหลด คุณสามารถศึกษาข้อมูลเพิ่มเติมได้ที่[ความจุและการแจ้งเตือนความมั่นคง](service-interruption-notifications.md#capacity-and-reliability-notifications)
 
 ## <a name="install-the-app"></a>ติดตั้งแอป
 
-คุณสามารถไปยัง[แอปการวัดความจุ Premium ](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics)ได้โดยตรงหรือติดตั้งแอปเหมือนที่คุณทำกับแอปอื่น ๆ ใน Power BI
-
-1. ใน Power BI คลิ๊ก**แอป**
-
-    ![ไปที่แอป](media/service-admin-premium-monitor-capacity/apps.png)
-
-2. ทางด้านขวา คลิ๊ก**รับแอป**
-3. ในประเภท**แอป** ค้นหา**แอปวัดความจุ Power BI Premium**
-4. สมัครใช้งานเพื่อติดตั้งแอป
-
-รอสักครู่ จะใช้เวลาสักครู่เพื่อติดตั้ง และรีเฟรชการวัด ถ้าแอปแสดงผลการวัดว่าง กด F5 เพื่อรีเฟรชเบราว์เซอร์ของคุณ
+ไปที่ [เชื่อมต่อกับเมตริกความจุ Power BI Premium](../connect-data/service-connect-to-pbi-premium-capacity-metrics.md) เพื่อดูวิธีการติดตั้งแอปและเชื่อมต่อกับข้อมูล อีกวิธีหนึ่งคือคุณสามารถ [ตรงไปยังแอป](https://go.microsoft.com/fwlink/?linkid=2114036)
 
 ## <a name="get-app-refresh-history"></a>รับข้อมูลประวัติการรีเฟรชแอป
 
-เมื่อต้องการตรวจสอบเวลาล่าสุดที่แอปการวัดความจุ Premium ของคุณรีเฟรช คลิก**การตั้งค่า** > **ชุดข้อมูล** > **การวัดความจุ Power BI Premium**  > **ประวัติการรีเฟรช** 
+เมื่อต้องการตรวจสอบครั้งล่าสุดที่แอปเมตริกความจุ Power BI Premium ของคุณรีเฟรช:
 
-![ประวัติการรีเฟรชในการตั้งค่า](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
+1. ไปที่พื้นที่ทำงานที่มีการติดตั้งแอป
 
-การรีเฟรชครั้งล่าสุดจะแสดง หรือคลิก**ประวัติการรีเฟรช**เพื่อดูการรีเฟรชที่กำหนดไว้ และการรีเฟรชตามความต้องการ
+   ![ไปที่พื้นที่ทำงานของแอป](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
 
-![รีเฟรชล่าสุด](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
+1. คลิกปุ่ม **กำหนดตารางเวลาการรีเฟรช** บนบรรทัดชุดข้อมูล
+
+   ![ปุ่มกำหนดตารางเวลาการรีเฟรช](media/service-admin-premium-monitor-capacity/schedule-refresh.png)
+
+   การรีเฟรชครั้งล่าสุดจะแสดงขึ้น คลิก**ประวัติการรีเฟรช**เพื่อดูการรีเฟรชที่กำหนดไว้ และการรีเฟรชตามความต้องการ
+
+   ![รีเฟรชล่าสุด](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
 
 ## <a name="monitor-capacities-with-the-app"></a>ตรวจสอบความจุด้วยแอป
 

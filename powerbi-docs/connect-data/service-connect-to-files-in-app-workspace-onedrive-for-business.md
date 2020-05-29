@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4995671fe5a3a4af0e74ce97d3227f73f005dc3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 62d0282af47b0d57a0b9ac307b422191b440b45c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348539"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564090"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>เชื่อมต่อไปยังไฟล์ที่จัดเก็บไว้ใน OneDrive สำหรับพื้นที่ทำงานของ Power BI ของคุณ
 หลังจากที่คุณ [สร้างพื้นที่ทำงานใน Power BI](../collaborate-share/service-create-distribute-apps.md) คุณสามารถจัดเก็บไฟล์ Excel, CSV และ Power BI Desktop ของคุณบน OneDrive for Business สำหรับพื้นที่ทำงานของ Power BI ของคุณ คุณสามารถปรับปรุงแฟ้มที่คุณเก็บไว้ใน OneDrive การอัปเดตเหล่านั้นมีผลในรายงาน Power BI และแดชบอร์ดที่ยึดตามไฟล์เหล่านั้นโดยอัตโนมัติ 
 
 > [!NOTE]
-> ประสบการณ์พื้นที่ทำงานใหม่จะเปลี่ยนความสัมพันธ์ระหว่างพื้นที่ทำงาน Power BI และกลุ่ม Office 365 คุณจะไม่สามารถสร้างกลุ่ม Office 365 โดยอัตโนมัติทุกครั้งที่คุณสร้างพื้นที่ทำงานใหม่ อ่านเกี่ยวกับ [สร้างพื้นที่ทำงานใหม่](../collaborate-share/service-create-the-new-workspaces.md)
+> ประสบการณ์พื้นที่ทำงานใหม่จะเปลี่ยนความสัมพันธ์ระหว่างพื้นที่ทำงาน Power BI และ Microsoft 365 Group คุณจะไม่สามารถสร้าง Microsoft 365 Group โดยอัตโนมัติทุกครั้งที่คุณสร้างพื้นที่ทำงานใหม่ อ่านเกี่ยวกับ [สร้างพื้นที่ทำงานใหม่](../collaborate-share/service-create-the-new-workspaces.md)
 
 การเพิ่มไฟล์ลงในพื้นที่ทำงานของคุณเป็นกระบวนการแบบสองขั้นตอน: 
 
@@ -34,10 +34,10 @@ ms.locfileid: "83348539"
 1. ใน Power BI service เลือกลูกศรอยู่ถัดจากพื้นที่ทำงาน > เลือกจุดไข่ปลา ( **...** ) ถัดจากชื่อพื้นที่ทำงานของคุณ 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
-2. เลือก**ไฟล์**เพื่อเปิด OneDrive for Business สำหรับพื้นที่ทำงานบน Office 365
+2. เลือก**ไฟล์**เพื่อเปิด OneDrive for Business สำหรับพื้นที่ทำงานบน Microsoft 365
    
    > [!NOTE]
-   > ถ้าคุณไม่เห็น**ไฟล์**บนเมนูพื้นที่ทำงาน ให้เลือก**สมาชิก**เพื่อเปิด OneDrive for Business สำหรับพื้นที่ทำงาน ที่นั่น เลือก**ไฟล์** Office 365 ตั้งค่าตำแหน่งที่เก็บข้อมูล OneDrive สำหรับไฟล์พื้นที่ทำงานของกลุ่มของแอปของคุณ กระบวนการนี้อาจใช้เวลาสักครู่ 
+   > ถ้าคุณไม่เห็น**ไฟล์**บนเมนูพื้นที่ทำงาน ให้เลือก**สมาชิก**เพื่อเปิด OneDrive for Business สำหรับพื้นที่ทำงาน ที่นั่น เลือก**ไฟล์** Microsoft 365 ตั้งค่าตำแหน่งที่เก็บข้อมูล OneDrive สำหรับไฟล์พื้นที่ทำงานของกลุ่มของแอปของคุณ กระบวนการนี้อาจใช้เวลาสักครู่
    > 
    > 
 3. ที่นี่ คุณสามารถอัปโหลดไฟล์ไปยัง OneDrive for Business สำหรับพื้นที่ทำงานของคุณ เลือก**อัปโหลด**และนำทางไปยังไฟล์ของคุณ

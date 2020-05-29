@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/23/2020
+ms.date: 05/18/2020
 ms.author: kfollis
-ms.openlocfilehash: 7ed9f22f262e03885681cf2fdc36867533837cdc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1a90a9826d794f84933a75213043c31a9a67a4b5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83360933"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566051"
 ---
 # <a name="power-bi-webinars"></a>การสัมมนาออนไลน์ Power BI
 [//]: # "Tatevik Tatero คือผู้ขายที่ทำงานร่วมกับ Chauncy Freels และช่วยดูแลรายการการสัมมนาผ่านเว็บนี้"
@@ -22,13 +22,20 @@ ms.locfileid: "83360933"
 
 ## <a name="upcoming-webinars"></a>การสัมมนาผ่านเว็บที่กำลังจะมาถึง
 
-สัมมนาผ่านเว็บยังไม่จัดกำหนดการ กรุณาตรวจสอบใหม่เพื่อดูงานที่จะจัดในอนาคต
+**อะไรคือความแตกต่างระหว่าง Analytics และ BI?**
+<br>โดย Nate Findley และชาร์ลส์ Feddersen จาก Microsoft
+<br>[ลงทะเบียนเพื่อดูในวันที่ 3 มิถุนายน 2020 เวลา 10:00 – 11:00 น. ตามเวลา PDT]( https://info.microsoft.com/ww-landing-What-is-the-difference-between-analytics-and-business-intelligence.html?lcid=en-u)
+
 
 >[การสัมมนาผ่านเว็บที่กำลังมาถึงจากชุมชน Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>การสัมมนาที่โดดเด่น
 
 เริ่มต้นใช้งานสัมมนาผ่านเว็บตามความต้องการเหล่านี้ได้รับความนิยม
+
+**สำรวจผลกระทบโดยรวมทางเศรษฐกิจของ Microsoft Power BI**
+<br>โดย Megan Tomlin จาก Microsoft และ Jonathan Lipsitz จาก Forrester Consulting
+<br>[ดูเดี๋ยวนี้]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
 
 **การวิเคราะห์ในเหตุการณ์เสมือนใน  Azure เร่งเวลาเพื่อดูข้อมูลเชิงลึกด้วย  Azure Synapse Analytics**
 <br>โดย Gayle Sheppard และ John Macintyre
@@ -86,7 +93,7 @@ ms.locfileid: "83360933"
 <br>โดย Nimrod Shalit
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
-**Power BI, Excel และ Office 365: ปรับข้อมูลองค์กรของคุณให้เหมาะสม**
+**Power BI, Excel และ Microsoft 365: ปรับข้อมูลองค์กรของคุณให้เหมาะสม**
 <br>โดย Olaf Hubel และ Miguel Martinez
 <br>[ลงทะเบียน และดูเดี๋ยวนี้](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 

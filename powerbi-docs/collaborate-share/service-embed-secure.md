@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2b7c442ef39bba58b7ac7f8224928d29ea56d9c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348148"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693832"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>ฝังรายงานในพอร์ทัลความปลอดภัยหรือเว็บไซต์
 
@@ -26,7 +26,7 @@ ms.locfileid: "83348148"
 
 1. เปิดรายงานใน Power BI
 
-2. บนเมนู**ตัวเลือกเพิ่มเติม (...)**  เลือก **ฝังตัว** >  **เว็บไซต์หรือพอร์ทัล** 
+2. บนเมนู**ตัวเลือกเพิ่มเติม (...)**  เลือก **ฝังตัว** >  **เว็บไซต์หรือพอร์ทัล**
 
     ![ตัวเลือกเว็บไซต์หรือพอร์ทัล](media/service-embed-secure/power-bi-more-options-website.png)
 
@@ -50,7 +50,7 @@ ms.locfileid: "83348148"
 
 ตัวเลือก**ฝังตัว**ตัวไม่อนุญาตให้ผู้ใช้ดูรายงานโดยอัตโนมัติ คุณสามารถตั้งค่าสิทธิ์ในการดูได้ในบริการของ Power BI
 
-ในบริการของ Power BI คุณสามารถแชร์รายงานแบบฝังกับผู้ใช้ที่ต้องการการเข้าถึง หากคุณกำลังใช้ Office 365 Group คุณสามารถแสดงรายชื่อผู้ใช้ในฐานะสมาชิกของพื้นที่ทำงาน สำหรับข้อมูลเพิ่มเติม โปรดดูวิธีการ [จัดการพื้นที่ทำงานใน Power BI และ Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md)
+ในบริการของ Power BI คุณสามารถแชร์รายงานแบบฝังกับผู้ใช้ที่ต้องการการเข้าถึง หากคุณกำลังใช้ Microsoft 365 Group คุณสามารถแสดงรายชื่อผู้ใช้ในฐานะสมาชิกของพื้นที่ทำงานได้ สำหรับข้อมูลเพิ่มเติม โปรดดูวิธีการ [จัดการพื้นที่ทำงานใน Power BI และ Microsoft 365](service-manage-app-workspace-in-power-bi-and-office-365.md)
 
 ## <a name="licensing"></a>สิทธิ์การใช้งาน
 

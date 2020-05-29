@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: 18ca1b58d37fedb2c8246b91dc765168002e163e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a6cb8575ef5265264cf0c15c4cfcfc4207726a07
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275949"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565591"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
@@ -22,9 +22,9 @@ ms.locfileid: "83275949"
 
 ## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>ลักษณะการทำงานของเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
-| คุณลักษณะ | เซิร์ฟเวอร Power BI Report | บริการของ Power BI | บันทึกย่อ |
+| คุณลักษณะ | เซิร์ฟเวอร์รายงาน Power BI | บริการของ Power BI | บันทึกย่อ |
 |---------|---------|---------|---------|
-| ปรับใช้ | ภายในองค์กร หรือคลาวด์ที่โฮสต์ | ระบบคลาวด์ | เซิร์ฟเวอร์รายงาน Power BI สามารถปรับใช้ใน Azure VM (โฮสต์บนคลาวด์) หากได้รับสิทธิการใช้งานผ่าน Power BI Premium หรือ SQL Server Enterprise ด้วยการรับประกันซอฟท์แวร์|
+| การปรับใช้ | ภายในองค์กร หรือคลาวด์ที่โฮสต์ | ระบบคลาวด์ | เซิร์ฟเวอร์รายงาน Power BI สามารถปรับใช้ใน Azure VM (โฮสต์บนคลาวด์) หากได้รับสิทธิการใช้งานผ่าน Power BI Premium หรือ SQL Server Enterprise ด้วยการรับประกันซอฟท์แวร์|
 | ข้อมูลต้นทาง | ระบบคลาวด์ และ/หรือ ภายในองค์กร | ระบบคลาวด์ และ/หรือ ภายในองค์กร |  |
 | สิทธิ์การใช้งาน | Power BI Premium หรือ SQL Server EE ที่มีการประกันซอฟแวร์ (SA) | Power BI Pro และ/หรือ Power BI Premium | |  
 | วงจรชีวิต | นโยบายวงจรชีวิตสมัยใหม่ | บริการที่มีการจัดการอย่างสมบูรณ์ |  |
@@ -49,9 +49,9 @@ ms.locfileid: "83275949"
 | การแจ้งเตือนข้อมูล | ไม่ใช่ | ใช่ | [การแจ้งเตือนข้อมูล](../create-reports/service-set-data-alerts.md)ในบริการของ Power BI
 | รักษาความปลอดภัยระดับแถว (RLS) | ใช่ | ใช่ | มีทั้งใน DirectQuery (แหล่งข้อมูล) และโหมดการนำเข้า <br><br>การรักษาความปลอดภัยระดับแถวใน[บริการของ Power BI](../admin/service-admin-rls.md) <br><br>การรักษาความปลอดภัยระดับแถว (RLS) ใน[เซิร์ฟเวอร์รายงาน Power BI](row-level-security-report-server.md) |
 | โหมดเต็มหน้าจอ | ไม่ใช่ | ใช่ | [โหมดเต็มหน้าจอ](../consumer/end-user-focus.md)ในบริการของ Power BI |
-| ทำงานร่วมกับ Office 365 ขั้นสูง | ไม่ใช่ | ใช่ | [ทำงานร่วมกันในพื้นที่ทำงาน](../collaborate-share/service-collaborate-power-bi-workspace.md)ด้วย Office 365 |
+| การทำงานร่วมกัน Microsoft 365 ขั้นสูง | ไม่ใช่ | ใช่ | [การทำงานร่วมกันในพื้นที่ทำงาน](../collaborate-share/service-collaborate-power-bi-workspace.md)ด้วย Microsoft 365 |
 | วิชวล R | ไม่ใช่ | ใช่ | [สร้างการแสดงผลด้วยภาพ R](../create-reports/desktop-r-visuals.md) ใน Power BI Desktop และเผยแพร่ไปยังบริการของ Power BI คุณไม่สามารถบันทึกรายงาน Power BI กับการแสดงผลด้วยภาพ R ไปยังเซิร์ฟเวอร์รายงาน Power BI ได้  |
-| แสดงตัวอย่างฟีเจอร์ | ไม่ใช่ | ใช่ | [ยินยอมเข้าร่วม สำหรับคุณลักษณะตัวอย่างในบริการของ Power BI](../consumer/end-user-preview-features.md) |
+| คุณลักษณะแสดงตัวอย่าง | ไม่ใช่ | ใช่ | [ยินยอมเข้าร่วม สำหรับคุณลักษณะตัวอย่างในบริการของ Power BI](../consumer/end-user-preview-features.md) |
 | วิชวล Power BI | ใช่ | ใช่ | [วิชวล Power BI](../developer/visuals/power-bi-custom-visuals.md) |
 | โมเดลแบบรวม | ไม่ใช่ | ใช่ |
 | Power BI Desktop | เวอร์ชันที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน มีให้ดาวน์โหลดสำหรับเซิร์ฟเวอร์รายงาน | เวอร์ชันที่ปรับให้เหมาะสมสำหรับบริการของ Power BI มีที่ Windows Store | [Power BI Desktop สำหรับเซิร์ฟเวอร์รายงาน](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop สำหรับบริการของ Power BI](https://aka.ms/pbidesktopstore) |

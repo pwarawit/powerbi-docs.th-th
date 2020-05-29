@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
-ms.openlocfilehash: 0a0964f82c80017b53feb668cca8399b18a72cfc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8d7642dfbac40b3a31190bc02835a4132ee12e11
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268523"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564063"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>แค็ตตาล็อกการเรียนรู้ที่ปรึกษาแอปพลิเคชันที่ใช้งานได้
 
@@ -82,7 +82,7 @@ ms.locfileid: "81268523"
 | [รวมกันดีกว่า: ข้อดี 5 ข้อที่ผู้ใช้ Excel ได้จากการใช้ Power BI](https://info.microsoft.com/excel-powerbi-better-together-ondemand.html)  | Excel เป็นหนึ่งในโปรแกรมที่ได้รับความนิยมมากที่สุดในโลก บุคคลและธุรกิจนับล้านรายใช้โปรแกรมนี้สำหรับทุกอย่างตั้งแต่การป้อนข้อมูลแบบง่ายและการบัญชีไปจนถึงการวิเคราะห์เชิงสถิติและข้อมูลขั้นสูง อย่างไรก็ตามผู้คนจำนวนมากไม่ทราบว่าพวกเขาสามารถขยายฟังก์ชันการทำงานของ Excel ได้อย่างรวดเร็ว และประหยัดเวลาและเพิ่มประสิทธิภาพของพวกเขา เมื่อพวกเขาจับคู่กับโปรแกรม Microsoft อื่น: Power BI เรากำลังจะสำรวจเหตุผลที่แตกต่างกันห้าประการว่าทำไมคุณและธุรกิจของคุณจะได้รับประโยชน์จากการใช้ Excel และ Power BI หลังจากสิ้นสุด คุณควรมีความรู้ทั้งหมดที่คุณจำเป็นต้องใช้เพื่อเริ่มต้นความสามารถขององค์กรในการวิเคราะห์ ตีความ และใช้ประโยชน์จากข้อมูลของคุณ | สัมมนาผ่านเว็บ |   |
 | [นอกเหนือจาก Spreadsheet](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_02OnDemandRegistration-ForminBody.html)  | การเรียกผู้ใช้ Excel และนักวิเคราะห์ทั้งหมด: ทำงานอย่างชาญฉลาด ส่งมอบคุณค่ามากขึ้น และมุ่งเน้นสิ่งที่สำคัญ เรียนรู้วิธีการสร้างรายงานที่สวยงามให้กับบุคคลที่คุณต้องการใช้ แชร์ข้อมูลด้วยภาพในลักษณะที่เพื่อนร่วมงานสามารถเข้าใจได้โดยไม่ต้องมีคำอธิบาย และทำให้ทุกคนสามารถเข้าถึงข้อมูลเชิงลึกที่ต้องการข้อมูลได้ทุกที่ ดูการทำงานของ Microsoft Power BI ในเซสชันออนไลน์นี้  | สัมมนาผ่านเว็บ |   |
 | [วาดภาพข้อมูลเชิงลึกที่เหมาะสมด้วย Power BI และ Visio](https://info.microsoft.com/ww-ondemand-powerbi-and-visio.html) | เข้าร่วมกับเราสำหรับการสัมมนาผ่านเว็บนี้เพื่อเรียนรู้วิธีการรวมแดชบอร์ด Power BI และไดอะแกรม Microsoft Visio เพื่อสร้างข้อมูลเชิงลึกแบบเป็นภาพที่ทรงพลัง Visio และ Power BI จะเป็นภาพสูงและเสริมกันอย่างเป็นธรรมชาติ Visio ช่วยให้คุณสามารถสร้างไดอะแกรมเพื่อแสดงได้ เช่น เวิร์กโฟลว์ที่เชื่อมต่อถึงกันและเค้าโครงเสมือนจริง Power BI ช่วยให้คุณสร้างแดชบอร์ดได้ง่ายโดยใช้แผนภูมิและแผนที่เพื่อวัดตัวบ่งชี้ประสิทธิภาพหลัก รวมถึงติดตามเป้าหมายด้วย| สัมมนาผ่านเว็บ |   |
-| [Power BI, Excel และ Office 365: ปรับข้อมูลองค์กรของคุณให้เหมาะสม](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | ในเซสชันที่เต็มไปด้วยการสาธิตนี้ เราจะได้เรียนรู้วิธีการใช้จุดแข็งที่เป็นเอกลักษณ์ของ Microsoft Excel ใน Power BI เพื่อกระตุ้นการวิเคราะห์ธุรกิจและข้อมูลเชิงลึกของคุณ  | สัมมนาผ่านเว็บ |   |
+| [Power BI, Excel และ Microsoft 365: ปรับข้อมูลองค์กรของคุณให้เหมาะสม](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | ในเซสชันที่เต็มไปด้วยการสาธิตนี้ เราจะได้เรียนรู้วิธีการใช้จุดแข็งที่เป็นเอกลักษณ์ของ Microsoft Excel ใน Power BI เพื่อกระตุ้นการวิเคราะห์ธุรกิจและข้อมูลเชิงลึกของคุณ  | สัมมนาผ่านเว็บ |   |
 | [การใช้ Power BI กับ Dynamics 365 Finance และการดำเนินการต่าง ๆ](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations-OnDemand.html)   | ลงทะเบียนสำหรับการสัมมนาผ่านเว็บนี้เพื่อเรียนรู้ว่าโซลูชันการรายงานของ Power BI สามารถฝังตัวและจัดการภายใน Dynamics 365 Finance and Operations โดยใช้ Azure Data Lake ได้อย่างไร ค้นหาวิธีการส่งมอบข้อมูลเชิงลึกที่นำไปใช้ได้จริงอย่างรวดเร็วโดยไม่ต้องหยุดให้บริการและแบ่งปันโซลูชันการวิเคราะห์ไปยังองค์กรโดยใช้ Power BI  | สัมมนาผ่านเว็บ |   |
 ## <a name="security"></a>ความปลอดภัย<a name="security"></a>
 | เนื้อหา   | คำอธิบาย  | รูปแบบ   | ความยาว   |

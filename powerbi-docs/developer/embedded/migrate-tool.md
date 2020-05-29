@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: b6b84d9e6c5f0dee912ccf80cf6949618b16d8c5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5df9ddd44bdc8952dab14809ce3facd74e5d3753
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148990"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564169"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>เครื่องมือการย้าย Power BI แบบฝัง
 
@@ -49,7 +49,7 @@ ms.locfileid: "83148990"
 3. คุณจะได้รับแจ้งให้ลงชื่อเข้าใช้ คุณเข้าสู่ระบบการสมัครใช้งาน Azure ของคุณ
 
    > [!IMPORTANT]
-   > นี่**ไม่**ใช่บัญชีองค์กร Office 365 ของคุณที่คุณใช้เพื่อลงชื่อเข้าใช้ Power BI
+   > บัญชีนี้**ไม่ใช่**บัญชีองค์กรของคุณที่คุณใช้เพื่อลงชื่อเข้าใช้ Power BI
 
 4. เลือกการสมัครใช้งาน Azure ซึ่งเก็บคอลเลกชันพื้นที่ทำงาน Power BI แบบฝังของคุณ
 

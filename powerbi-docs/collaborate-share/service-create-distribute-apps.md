@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 08b9585195e805548546e832915e07f0e02265f5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348286"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693567"
 ---
 # <a name="publish-an-app-in-power-bi"></a>เผยแพร่แอปใน Power BI
 
@@ -64,7 +64,7 @@ ms.locfileid: "83348286"
 5. บน**สิทธิ** ตัดสินใจว่าใครสามารถเข้าถึงแอป และสิ่งที่พวกเขาสามารถทำได้ในแอป 
 
     - ใน[พื้นที่ทำงานแบบคลาสสิก](service-create-workspaces.md): ทุกคนในองค์กรของคุณ บุคคลที่เฉพาะเจาะจง หรือกลุ่มความปลอดภัยของ Azure Active Directory (Azure AD)
-    - ใน[พื้นที่ทำงานประสบการณ์ใหม่](service-create-the-new-workspaces.md): บุคคลที่เฉพาะเจาะจง กลุ่มความปลอดภัย Azure AD และรายการการแจกจ่าย และกลุ่ม Office 365 ผู้ใช้พื้นที่ทำงานทั้งหมดจะมีสิทธิ์การเข้าถึงแอปสำหรับพื้นที่ทำงานโดยอัตโนมัติ
+    - ใน[พื้นที่ทำงานประสบการณ์ใหม่](service-create-the-new-workspaces.md): บุคคลที่เฉพาะเจาะจง กลุ่มความปลอดภัย Azure AD และรายการการแจกจ่าย และ Microsoft 365 Group ผู้ใช้พื้นที่ทำงานทั้งหมดจะมีสิทธิ์การเข้าถึงแอปสำหรับพื้นที่ทำงานโดยอัตโนมัติ
     - คุณสามารถอนุญาตให้ผู้ใช้แอปเชื่อมต่อกับชุดข้อมูลเบื้องต้นของแอปโดยให้สิทธิ์การสร้างแก่พวกเขา พวกเขาจะเห็นชุดข้อมูลเหล่านี้เมื่อพวกเขากำลังค้นหาชุดข้อมูลที่แชร์อยู่ อ่านเพิ่มเติมเกี่ยวกับ [การอนุญาตให้ผู้ใช้เชื่อมต่อกับชุดข้อมูลของแอป](#allow-users-to-connect-to-datasets) ในบทความนี้
     - ผู้ใช้ที่มีสิทธิ์การสร้างสามารถมีสิทธิ์ในการทำสำเนารายงานจากแอปนี้ไปยังพื้นที่ทำงานอื่นด้วย อ่านเพิ่มเติมเกี่ยวกับ [การอนุญาตให้ผู้ใช้ทำสำเนารายงานในแอป](#allow-users-to-copy-reports) ในบทความนี้
     

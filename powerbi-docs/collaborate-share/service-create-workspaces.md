@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d70b291b4ff2b157c15967d602cfbee8e12965a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1d37225e1de1ffdf0617a84c3b0514d32494c563
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144344"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693951"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>สร้างพื้นที่ทำงานแบบคลาสสิกใน Power BI
 
@@ -22,30 +22,30 @@ ms.locfileid: "83144344"
 
 **คุณทราบหรือไม่** Power BI มีประสบการณ์ในพื้นที่ทำงานใหม่ซึ่งตอนนี้เป็นค่าเริ่มต้น อ่าน [จัดระเบียบงานในพื้นที่ทำงานใหม่ ](service-new-workspaces.md) สำหรับรายละเอียดเกี่ยวกับพื้นที่ทำงานใหม่ พร้อมที่จะโยกย้ายจากพื้นที่ทำงานแบบคลาสสิกของคุณหรือยัง ดู [อัปเกรดพื้นที่ทำงานแบบคลาสสิกเป็นพื้นที่งานใหม่ใน Power BI](service-upgrade-workspaces.md) สำหรับรายละเอียด
 
-เมื่อคุณสร้างพื้นที่ทำงานแบบคลาสสิก คุณกำลังสร้างกลุ่ม Office 365 พื้นฐานที่เกี่ยวข้อง การดูแลระบบพื้นที่ทำงานทั้งหมดอยู่ใน Office 365 คุณสามารถเพิ่มผู้ร่วมงานไปยังพื้นที่ทำงานเหล่านี้ได้ในฐานะเป็นสมาชิกหรือเป็นผู้ดูแลระบบ ในพื้นที่ทำงาน คุณสามารถทำงานร่วมกันทั้งหมดบนแดชบอร์ด รายงาน และบทความอื่นๆ ที่คุณวางแผนที่จะเผยแพร่ไปยังผู้ชมจำนวนมาก ทุกคนที่คุณเพิ่มลงในพื้นที่ทำงานต้องมีสิทธิ์การใช้งาน Power BI Pro 
+เมื่อคุณสร้างพื้นที่ทำงานแบบคลาสสิก คุณกำลังสร้าง Microsoft 365 Group พื้นฐานที่เกี่ยวข้อง การดูแลระบบพื้นที่ทำงานทั้งหมดอยู่ใน Microsoft 365 คุณสามารถเพิ่มผู้ร่วมงานไปยังพื้นที่ทำงานเหล่านี้ได้ในฐานะเป็นสมาชิกหรือเป็นผู้ดูแลระบบ ในพื้นที่ทำงาน คุณสามารถทำงานร่วมกันทั้งหมดบนแดชบอร์ด รายงาน และบทความอื่นๆ ที่คุณวางแผนที่จะเผยแพร่ไปยังผู้ชมจำนวนมาก ทุกคนที่คุณเพิ่มลงในพื้นที่ทำงานต้องมีสิทธิ์การใช้งาน Power BI Pro
 
 ## <a name="video-apps-and-workspaces"></a>วิดีโอ: แอปและพื้นที่ทำงาน
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-a-classic-workspace-based-on-an-office-365-group"></a>สร้างพื้นที่ทำงานแบบคลาสสิกโดยอาศัยกลุ่ม Office 365
+## <a name="create-a-classic-workspace-based-on-a-microsoft-365-group"></a>สร้างพื้นที่ทำงานแบบคลาสสิกโดยอาศัย Microsoft 365 Group
 
-เมื่อคุณสร้างพื้นที่ทำงาน ก็จะต้องสร้างบนกลุ่ม Office 365
+เมื่อคุณสร้างพื้นที่ทำงาน ก็จะต้องสร้างบน Microsoft 365 Group
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
 
-เมื่อคุณเริ่มสร้างพื้นที่ทำงานเป็นครั้งแรก คุณอาจต้องรอเป็นเวลาหนึ่งชั่วโมงหรือมากกว่า เพื่อให้พื้นที่ทำงานเผยแพร่ไปยัง Office 365 
+เมื่อคุณเริ่มสร้างพื้นที่ทำงานเป็นครั้งแรก คุณอาจต้องรอเป็นเวลาหนึ่งชั่วโมงหรือมากกว่า เพื่อให้พื้นที่ทำงานเผยแพร่ไปยัง Microsoft 365
 
-### <a name="add-an-image-to-your-office-365-workspace-optional"></a>เพิ่มรูปภาพลงในพื้นที่ทำงาน Office 365 ของคุณ (เป็นตัวเลือก)
+### <a name="add-an-image-to-your-microsoft-365-workspace-optional"></a>เพิ่มรูปภาพลงในพื้นที่ทำงาน Microsoft 365 ของคุณ (เป็นตัวเลือก)
 ตามค่าเริ่มต้น Power BI สร้างวงกลมสีขนาดเล็กสำหรับแอปฯของคุณด้วยชื่อย่อของแอปฯ แต่คุณอาจต้องการกำหนดด้วยตนเองด้วยรูปภาพหนึ่ง ในการเพิ่มรูปภาพ คุณจำเป็นต้องมีสิทธิ์การใช้งาน Exchange Online
 
 1. เลือก**พื้นที่ทำงาน** เลือก**ตัวเลือกเพิ่มเติม** (...) ที่อยู่ถัดจากชื่อของพื้นที่ทำงาน จากนั้นเลือก**สมาชิก** 
    
      ![เลือกสมาชิกพื้นที่ทำงาน](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
-    บัญชี Office 365 Outlook สำหรับพื้นที่ทำงานเปิดขึ้นในหน้าต่างเบราว์เซอร์ใหม่
+    บัญชี Microsoft 365 Outlook สำหรับพื้นที่ทำงานเปิดขึ้นในหน้าต่างเบราว์เซอร์ใหม่
 2. เลือกดินสอ **แก้ไข**
    
-     ![ไอคอนรูปดินสอ Office 365](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
+     ![ไอคอนดินสอใน Microsoft 365](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
 3. เลือกไอคอนกล้องถ่ายรูปอีกครั้งและค้นหารูปภาพที่คุณต้องการใช้
    
      ![เลือกรูปภาพจากกล้องถ่ายรูป](media/service-create-workspaces/power-bi-workspace-old-camera.png)
@@ -54,7 +54,7 @@ ms.locfileid: "83144344"
 
 4. เลือก **ตกลง** จากนั้นจึงเลือก **บันทึก**
    
-    รูปภาพแทนที่วงกลมสีในหน้าต่าง Office 365 Outlook 
+    รูปภาพแทนที่วงกลมสีในหน้าต่าง Microsoft 365 Outlook
    
      ![ภาพที่กำหนดเอง](media/service-create-workspaces/power-bi-workspace-old-new-image.png)
    
