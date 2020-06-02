@@ -9,36 +9,36 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: aeaaf0e1e8baa70b5159d908ce1e27bb937de372
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9f94d6a1b99bce40d3f901dd71877da3f6b236af
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344721"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792882"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI สำหรับลูกค้าส่วนราชการสหรัฐอเมริกา
-บทความนี้สำหรับลูกค้าส่วนราชการสหรัฐอเมริกาที่มีการปรับใช้ Power BI เป็นส่วนหนึ่งของแผนสำหรับหน่วยงานรัฐใน Office 365 แผนสำหรับหน่วยงานรัฐได้รับการออกแบบมาเพื่อความต้องการเฉพาะขององค์กรที่ต้องเป็นไปตามมาตรฐานการปฏิบัติตามข้อบังคับและความปลอดภัยของสหรัฐอเมริกา บริการของ Power BI ที่ได้รับการออกแบบเพื่อลูกค้าส่วนราชการสหรัฐอเมริกามีความแตกต่างจากบริการของ Power BIเวอร์ชันเชิงพาณิชย์ ความต่างในคุณลักษณะและความสามารถเหล่านี้จะอธิบายไว้ในส่วนถัดไป
+บทความนี้สำหรับลูกค้าส่วนราชการสหรัฐอเมริกาที่มีการปรับใช้ Power BI เป็นส่วนหนึ่งของแผนสำหรับหน่วยงานรัฐใน Microsoft 365 แผนสำหรับหน่วยงานรัฐได้รับการออกแบบมาเพื่อความต้องการเฉพาะขององค์กรที่ต้องเป็นไปตามมาตรฐานการปฏิบัติตามข้อบังคับและความปลอดภัยของสหรัฐอเมริกา บริการของ Power BI ที่ได้รับการออกแบบเพื่อลูกค้าส่วนราชการสหรัฐอเมริกามีความแตกต่างจากบริการของ Power BIเวอร์ชันเชิงพาณิชย์ ความต่างในคุณลักษณะและความสามารถเหล่านี้จะอธิบายไว้ในส่วนถัดไป
 
-## <a name="add-power-bi-to-your-office-365-government-plan"></a>เพิ่ม Power BI ไปยังแผนสำหรับหน่วยงานรัฐใน Office 365 ของคุณ
+## <a name="add-power-bi-to-your-microsoft-365-government-plan"></a>เพิ่ม Power BI ไปยังแผนสำหรับหน่วยงานรัฐใน Microsoft 365 ของคุณ
 
-ก่อนที่คุณจะได้รับการสมัครใช้งานของรัฐบาลสหรัฐอเมริกาและมอบหมายสิทธิ์ให้กับผู้ใช้ คุณจะต้องลงทะเบียนในแผน Office 365 Government ถ้าองค์กรของคุณมีแผนสำหรับหน่วยงานรัฐใน Office 365 เรียบร้อยแล้ว ให้ข้ามไปข้างหน้าเพื่อ [ซื้อการสมัครใช้งาน Power BI Pro สำหรับลูกค้าภาครัฐ](#buy-a-power-bi-pro-subscription-for-government-customers)
+ก่อนที่คุณจะได้รับการสมัครใช้งาน Power BI ของรัฐบาลสหรัฐอเมริกาและมอบหมายสิทธิ์ให้กับผู้ใช้ คุณจะต้องลงทะเบียนในแผนสำหรับหน่วยงานรัฐใน Microsoft 365 ถ้าองค์กรของคุณมีแผนสำหรับหน่วยงานรัฐใน Microsoft 365 แล้ว ให้ข้ามขั้นตอนไปที่ [ซื้อการสมัครใช้งาน Power BI Pro สำหรับลูกค้าส่วนราชการสหรัฐอเมริกา](#buy-a-power-bi-pro-subscription-for-government-customers)
 
-### <a name="enroll-in-an-office-365-government-plan"></a>ลงทะเบียนในแผนสำหรับหน่วยงานรัฐใน Office 365
+### <a name="enroll-in-a-microsoft-365-government-plan"></a>ลงทะเบียนในแผนสำหรับหน่วยงานรัฐใน Microsoft 365
 
-ถ้าคุณเป็นลูกค้าใหม่ คุณต้องตรวจสอบสิทธิ์ขององค์กรของคุณก่อนที่คุณจะสามารถลงทะเบียนในแผนสำหรับหน่วยงานรัฐใน Office 365 ได้  เริ่มต้นใช้งานโดยการดำเนินการ [Office 365 สำหรับแบบฟอร์มการตรวจสอบความถูกต้องสิทธิ์ของภาครัฐ](https://www.microsoft.com/microsoft-365/government/eligibility-validation) เพื่อให้แน่ใจว่าคุณกำลังเลือกแผนที่เหมาะสมสำหรับองค์กรของคุณ ให้ปรึกษา [คำอธิบายบริการของส่วนราชการสหรัฐอเมริกาใน Office  365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)
+ถ้าคุณเป็นลูกค้าใหม่ คุณต้องตรวจสอบสิทธิ์ขององค์กรของคุณก่อนที่คุณจะสามารถลงทะเบียนในแผนสำหรับหน่วยงานรัฐใน Microsoft 365 ได้  เริ่มต้นใช้งานโดยการดำเนินการ [Microsoft 365 สำหรับแบบฟอร์มการตรวจสอบความถูกต้องสิทธิ์ของภาครัฐ](https://www.microsoft.com/microsoft-365/government/eligibility-validation) เพื่อให้แน่ใจว่าคุณกำลังเลือกแผนที่เหมาะสมสำหรับองค์กรของคุณ ให้ปรึกษา [คำอธิบายบริการของส่วนราชการสหรัฐอเมริกาใน Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)
 
 > [!NOTE]
-> ถ้าคุณได้ปรับใช้ Power BI ไปยังสภาพแวดล้อมเชิงพาณิชย์และต้องการย้ายไปยังระบบคลาวด์ของรัฐบาลสหรัฐอเมริกา คุณจะต้องเพิ่มการสมัครใช้งาน Power BI Pro ใหม่ลงในแผน Office 365 Government ของคุณ ต่อจากนั้น ทำซ้ำข้อมูลเชิงพาณิชย์ไปยังบริการของ Power BI สำหรับส่วนราชการสหรัฐอเมริกา ให้ลบการกำหนดสิทธิการใช้งานเชิงพาณิชย์ออกจากบัญชีผู้ใช้ จากนั้นกำหนดสิทธิการใช้งานของส่วนราชการใน Power BI Pro ให้กับบัญชีผู้ใช้
+> ถ้าคุณได้ปรับใช้ Power BI ไปยังสภาพแวดล้อมเชิงพาณิชย์และต้องการย้ายไปยังระบบคลาวด์ของรัฐบาลสหรัฐอเมริกา คุณจะต้องเพิ่มการสมัครใช้งาน Power BI Pro ใหม่ลงในแผนสำหรับหน่วยงานรัฐใน Microsoft 365 ของคุณ ต่อจากนั้น ทำซ้ำข้อมูลเชิงพาณิชย์ไปยังบริการของ Power BI สำหรับส่วนราชการสหรัฐอเมริกา ให้ลบการกำหนดสิทธิการใช้งานเชิงพาณิชย์ออกจากบัญชีผู้ใช้ จากนั้นกำหนดสิทธิการใช้งานของส่วนราชการใน Power BI Pro ให้กับบัญชีผู้ใช้
 >
 >
 ## <a name="government-cloud-instances"></a>อินสแตนซ์คลาวด์ของภาครัฐ
-Office 365 มีสภาพแวดล้อมที่แตกต่างกันสำหรับหน่วยงานภาครัฐ เพื่อตอบสนองความต้องการการปฏิบัติตามข้อกำหนดต่างๆ ที่หลากหลาย สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแต่ละสภาพแวดล้อมอย่าง โปรดดู:
+Microsoft 365 มีสภาพแวดล้อมที่แตกต่างกันสำหรับหน่วยงานภาครัฐ เพื่อตอบสนองความต้องการการปฏิบัติตามข้อกำหนดต่างๆ ที่หลากหลาย สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแต่ละสภาพแวดล้อมอย่าง โปรดดู:
 
-* [Office 365 Government Community Cloud (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) ได้รับการออกแบบมาสำหรับภาครัฐ รัฐ และรัฐบาลท้องถิ่น
+* [ชุมชน Cloud สำหรับรัฐบาล (GCC) ใน Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) ได้รับการออกแบบมาสำหรับรัฐบาลกลาง รัฐ และรัฐบาลท้องถิ่น
 
-* [Office 365 Government Community Cloud High (GCC High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) ได้รับการออกแบบมาสำหรับหน่วยงานของรัฐบาลกลาง อุตสาหกรรมการป้องกัน อุตสาหกรรมการบินและอวกาศ และองค์กรอื่นๆ ที่มีข้อมูลที่ไม่เป็นความลับซึ่งมีการควบคุมอยู่ สภาพแวดล้อมนี้เหมาะสมสำหรับองค์กรความปลอดภัยระดับชาติและบริษัทที่มีข้อมูล International Traffic in Arms Regulations (ITAR) หรือข้อกำหนด Defense Federal Acquisition Regulations Supplement (DFARS)
+* [ชุมชน Cloud ระดับสูงสำหรับส่วนราชการ (GCC High) ใน Microsoft 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) ได้รับการออกแบบมาสำหรับหน่วยงานของรัฐบาลกลาง อุตสาหกรรมการป้องกัน อุตสาหกรรมการบินและอวกาศ และองค์กรอื่นๆ ที่มีข้อมูลที่ไม่เป็นความลับซึ่งมีการควบคุมอยู่ สภาพแวดล้อมนี้เหมาะสมสำหรับองค์กรความปลอดภัยระดับชาติและบริษัทที่มีข้อมูล International Traffic in Arms Regulations (ITAR) หรือข้อกำหนด Defense Federal Acquisition Regulations Supplement (DFARS)
 
-* [สภาพแวดล้อมของ Office 365 DoD](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) ได้รับการออกแบบมาโดยเฉพาะสำหรับกระทรวงกลาโหมสหรัฐ 
+* [สภาพแวดล้อมของ Microsoft 365 DoD](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) ได้รับการออกแบบมาโดยเฉพาะสำหรับกระทรวงกลาโหม สหรัฐอเมริกา 
 
 ## <a name="connect-to-power-bi-for-us-government"></a>เชื่อมต่อ Power BI สำหรับรัฐบาลสหรัฐอเมริกา
 
@@ -52,7 +52,7 @@ URL สำหรับการเชื่อมต่อกับ Power BI แ
 
 ## <a name="buy-a-power-bi-pro-subscription-for-government-customers"></a>ซื้อการสมัครใช้งาน Power BI Pro สำหรับลูกค้าภาครัฐ
 
-หลังจากที่คุณปรับใช้ Office 365 แล้ว คุณสามารถเพิ่มการสมัครใช้งาน Power BI Pro ได้ ทำตามคำแนะนำทีละขั้นตอนใน [ลงทะเบียนองค์กรภาครัฐของสหรัฐอเมริกาของคุณ](service-govus-signup.md) เพื่อซื้อบริการของส่วนราชการใน Power BI Pro ซื้อสิทธิ์การใช้งานที่เพียงพอสำหรับผู้ใช้ทุกรายที่จำเป็นต้องใช้ Power BI และจากนั้นจึงมอบหมายสิทธิ์การใช้งานให้กับบัญชีบุคคลแต่ละราย
+หลังจากที่คุณปรับใช้ Microsoft 365 แล้ว คุณสามารถเพิ่มการสมัครใช้งาน Power BI Pro ได้ ทำตามคำแนะนำทีละขั้นตอนใน [ลงทะเบียนองค์กรภาครัฐของสหรัฐอเมริกาของคุณ](service-govus-signup.md) เพื่อซื้อบริการของส่วนราชการใน Power BI Pro ซื้อสิทธิ์การใช้งานที่เพียงพอสำหรับผู้ใช้ทุกรายที่จำเป็นต้องใช้ Power BI และจากนั้นจึงมอบหมายสิทธิ์การใช้งานให้กับบัญชีบุคคลแต่ละราย
 
 > [!IMPORTANT]
 > Power BI สำหรับรัฐบาลสหรัฐอเมริกา ไม่สามารถใช้งานด้วยสิทธิการใช้งาน *ฟรี* ในการเข้าถึง Government Community Cloud ผู้ใช้แต่ละรายจะต้องได้รับมอบหมายสิทธิ์การใช้งาน *Pro* ถ้าบัญชีผู้ใช้ได้รับมอบหมายสิทธิ์การใช้งานฟรี ผู้ใช้นั้นจะได้รับอนุญาตให้เข้าถึงเฉพาะระบบคลาวด์เชิงพาณิชย์เท่านั้น และจะพบปัญหาการรับรองความถูกต้องและการเข้าถึง ถ้าคุณซื้อ Power BI Premium คุณไม่จำเป็นต้องกำหนดสิทธิการใช้งาน Pro เพื่อให้สามารถเข้าถึงได้  ผู้ใช้ในองค์กรสามารถเข้าถึงรายงานที่แชร์กับพวกเขาได้ตราบใดที่ยังมีการเผยแพร่รายงานไปยังความจุแบบพรีเมียม เพื่อทบทวนความแตกต่างระหว่างประเภทสิทธิ์การใช้งาน ดูที่ [ฟีเจอร์บริการของ Power BI ตามประเภทสิทธิ์การใช้งาน](../fundamentals/service-features-license-type.md)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 39d30cc7949565872fd638f289756be6541eee0d
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 530b1dd757f8fe0bfdb120601ae8ea28d95ed835
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564997"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793695"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>คำถามที่ถามบ่อยเกี่ยวกับ Power BI
 
@@ -27,14 +27,14 @@ ms.locfileid: "83564997"
 
 บริการ Power BI คือบริการวิเคราะห์ธุรกิจบนระบบคลาวด์ที่ช่วยให้ทุกคนสมารถแสดงผลด้วยภาพและวิเคราะห์ข้อมูลได้อย่างรวดเร็ว มีประสิทธิภาพ และเข้าใจได้ง่าย เชื่อมต่อผู้ใช้ไปยังช่วงที่กว้างขวางของข้อมูลบนคลาวด์และในองค์กรผ่านแดชบอร์ดที่ใช้งานง่าย รายงานแบบโต้ตอบ และแสดงภาพที่ดึงดูดความสนใจ ได้ทำข้อมูลให้มีชีวิต เรียนรู้เพิ่มเติมเกี่ยวกับ [Power BI](../fundamentals/power-bi-overview.md)
 
-## <a name="what-is-the-microsoft-power-bi-service-for-consumers"></a>บริการของ Microsoft Power BI สำหรับ*ผู้บริโภค*คืออะไร
+## <a name="what-is-a-power-bi-consumers"></a>*ผู้บริโภค* ของ Power BI คืออะไร
 
 วิธีคุณโต้ตอบกับ Power BI จะขึ้นอยู่กับบทบาทงานของคุณ ในฐานะที่เป็นผู้ใช้ปลายทางหรือ*ผู้บริโภค* คุณเป็นบุคคลที่ได้รับเนื่้อหา (แดชบอร์ด รายงาน และแอป) จากเพื่อนร่วมงาน คุณใช้งานใน Power BI เวอร์ชันออนไลน์หรือมือถือ ซึ่งเรียกว่าบริการของ Power BI โดยการตรวจสอบและการโต้ตอบกับเนื้อหานี้เพื่อทำการตัดสินใจทางธุรกิจ  อ่านเพิ่มเติมเกี่ยวกับ [Power BI สำหรับผู้บริโภค](index.yml)
 
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>อะไรคือความแตกต่างระหว่าง Power BI Pro กับ Power BI Premium
 
-Power BI Pro เป็นสิทธิ์สำหรับผู้ใช้ในการใช้งานที่อนุญาตให้เข้าถึงเนื้อหาและความสามารถทั้งหมดในบริการ Power BI คุณยังสามารถแชร์เนื้อหา และทำงานร่วมกับผู้ใช้ Pro ได้ เฉพาะผู้ใช้แบบ Pro เท่านั้นที่สามารถเผยแพร่เนื้อหาไปยังพื้นที่ทำงาน แชร์แดชบอร์ด และสมัครสมาชิกแดชบอร์ดและรายงานได้ สิทธิ์การใช้งานชนิดนี้จะถูกกำหนดให้กับรายงาน Power BI *นักออกแบบ*นักพัฒนา และผู้ดูแลระบบ 
+Power BI Pro เป็นสิทธิ์สำหรับผู้ใช้ในการใช้งานที่อนุญาตให้เข้าถึงเนื้อหาและความสามารถทั้งหมดในบริการ Power BI คุณยังสามารถแชร์เนื้อหา และทำงานร่วมกับผู้ใช้ Pro ได้ เฉพาะผู้ใช้แบบ Pro เท่านั้นที่สามารถเผยแพร่เนื้อหาไปยังพื้นที่ทำงาน แชร์แดชบอร์ด และสมัครสมาชิกแดชบอร์ดและรายงานได้ 
 
 Premium มอบความสามารถเฉพาะด้านเพื่อให้เกิดประสิทธิภาพที่สม่ำเสมอ Power BI Premium ยังสนับสนุนปริมาณข้อมูลขนาดใหญ่ใน Power BI สำหรับผู้ใช้แต่ละราย Power BI Premium ยังช่วยให้สามารถกระจายเนื้อหาได้อย่างกว้างขวางโดยผู้ใช้ Pro และไม่ต้องมีใบอนุญาตต่อผู้ใช้สำหรับผู้รับที่ดูเนื้อหา ซึ่งหมายความว่า*ผู้บริโภค* สามารถทำงานร่วมกับเพื่อนร่วมงานและดูและโต้ตอบกับแดชบอร์ด รายงาน และแอปที่แชร์กับพวกเขาได้ 
 
@@ -54,13 +54,13 @@ Power BI Desktop เป็นแอปพลิเคชันฟรีที่
 
 คุณยังสามารถลงทะเบียนสำหรับบริการของ Power BI เป็นรายบุคคลได้อีกด้วย โปรดดู[กระบวนการลงทะเบียนแบบบริการตนเองของ Power BI](../fundamentals/service-self-service-signup-for-power-bi.md)
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>ทำไมฉันต้องลงทะเบียนด้วยอีเมลที่ทำงานของฉันด้วย
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>ทำไมฉันต้องลงทะเบียนด้วยอีเมลที่ทำงานของฉันด้วย?
 
 Power BI ไม่รองรับอีเมลของการบริการอีเมล์ของลูกค้าหรือจากผู้ให้บริการโทรคมนาคม เรียนรู้เพิ่มเติมเกี่ยวกับ[Power BI กระบวนการลงทะเบียนแบบบริการตนเอง](../fundamentals/service-self-service-signup-for-power-bi.md)
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI รองรับอุปกรณ์เคลื่อนที่หรือไม่
 
-ได้ Power BI มีแอปในระบบสำหรับโทรศัพท์ และแท็บเล็ต อุปกรณ์ iOS และอุปกรณ์ Windows 10 ดาวน์โหลดหนึ่งใน[แอปสำหรับอุปกรณ์เคลื่อนของ Power BI](https://powerbi.microsoft.com/mobile)จากร้านค้าเกี่ยวข้อง:  
+ใช่ Power BI มีแอปในระบบสำหรับโทรศัพท์ และแท็บเล็ต อุปกรณ์ iOS และอุปกรณ์ Windows 10 ดาวน์โหลดหนึ่งใน[แอปสำหรับอุปกรณ์เคลื่อนของ Power BI](https://powerbi.microsoft.com/mobile)จากร้านค้าเกี่ยวข้อง:  
 
 * [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
 * [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)

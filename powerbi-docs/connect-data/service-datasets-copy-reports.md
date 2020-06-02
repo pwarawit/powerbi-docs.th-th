@@ -1,22 +1,22 @@
 ---
-title: คัดลอกรายงานจากแอปหรือพื้นที่ทำงานอื่นๆ (ตัวอย่าง) - Power BI
+title: คัดลอกรายงานจากแอปหรือพื้นที่ทำงานอื่น - Power BI
 description: เรียนรู้วิธีที่คุณสามารถสร้างสำเนาของรายงานและบันทึกไปยังพื้นที่ทำงานของคุณเอง
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d70f029568dca578bb76350a42b5146ecc335759
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83312637"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793102"
 ---
-# <a name="copy-reports-from-other-workspaces-preview"></a>คัดลอกรายงานจากพื้นที่ทำงานอื่น ๆ (ดูตัวอย่าง)
+# <a name="copy-reports-from-other-workspaces"></a>คัดลอกรายงานจากพื้นที่ทำงานอื่น
 
 เมื่อคุณพบรายงานที่คุณชอบในพื้นที่ทำงานหรือแอป คุณสามารถทำสำเนา และบันทึกไว้ในพื้นที่ทำงานอื่นได้ จากนั้นคุณสามารถปรับเปลี่ยนสำเนารายงานของคุณโดยการเพิ่มหรือลบภาพวิชวลและองค์ประกอบอื่น ๆ คุณไม่ต้องกังวลเกี่ยวกับการสร้างแบบจำลองข้อมูล แบบจำลองจะถูกสร้างไว้แล้วสำหรับคุณ และการแก้ไขรายงานที่มีอยู่นั้นง่ายกว่าการเริ่มจากศูนย์ อย่างไรก็ตาม เมื่อคุณสร้างแอปขึ้นจากพื้นที่ทำงานของคุณ ในบางครั้งคุณไม่สามารถเผยแพร่สำเนาของรายงานในแอปได้ โปรดดู [ข้อควรพิจารณาและข้อจำกัดในบทความ "ใช้ชุดข้อมูลในพื้นที่ทำงาน"](service-datasets-across-workspaces.md#considerations-and-limitations) สำหรับรายละเอียดเพิ่มเติม
 
@@ -41,7 +41,7 @@ ms.locfileid: "83312637"
 
     คุณสามารถบันทึกรายงานไว้ในพื้นที่ทำงานปัจจุบันหรือที่อื่นในบริการของ Power BI คุณเห็นเฉพาะพื้นที่ทำงานที่เป็นพื้นที่ทำงานประสบการณ์ใหม่ ซึ่งคุณเป็นสมาชิกเท่านั้น 
   
-4. เลือก **บันทึก**
+4. เลือก**บันทึก**
 
     Power BI จะสร้างสำเนาของรายงานและรายการต่างๆ ในรายการของชุดข้อมูลโดยอัตโนมัติ หากรายงานนั้นอ้างอิงจากชุดข้อมูลที่อยู่ภายนอกพื้นที่ทำงาน ไอคอนสำหรับชุดข้อมูลนี้จะแตกต่างจากไอคอนสำหรับชุดข้อมูลในพื้นที่ทำงาน: ![ไอคอนชุดข้อมูลที่ใช้ร่วมกัน](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
     
@@ -106,5 +106,5 @@ ms.locfileid: "83312637"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-- [ใช้ชุดข้อมูลทั้งพื้นที่ทำงาน (ดูตัวอย่าง)](service-datasets-across-workspaces.md)
-- มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+- [ใช้ชุดข้อมูลทั่วทั้งพื้นที่ทำงาน](service-datasets-across-workspaces.md)
+- มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

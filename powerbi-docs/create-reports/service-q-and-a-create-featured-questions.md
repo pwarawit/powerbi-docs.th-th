@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 05/26/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4b80d329c89299cbe87fb29aa340733f0031192a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6e3d44c9871332842ed0e3f3d9b9fb5fc64a5a65
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349012"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121122"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>สร้างคำถามที่น่าสนใจสำหรับ Power BI Q&A
 ถ้าคุณเป็นเจ้าของชุดข้อมูล คุณสามารถเพิ่มคำถามที่แนะนำของคุณเองในชุดข้อมูลนั้น การถามตอบของ Power BI จะแสดงคำถามเหล่านั้นให้เพื่อนร่วมงานที่ใช้รายงานที่ยึดตามชุดข้อมูลของคุณ  คำถามที่แนะนำนั้นเพื่อให้เพื่อนร่วมงานของคุณมีความคิดเบื้องต้น เกี่ยวกับชนิดของคำถามที่พวกเขาสามารถสอบถามเกี่ยวกับชุดข้อมูล คำถามที่น่าสนใจที่คุณเพิ่มนั้นขึ้นกับคุณ -- เพิ่มคำถามยอดนิยม คำถามที่แสดงผลลัพธ์ที่น่าสนใจ หรือคำถามที่อาจเป็นเรื่องยากที่จะเขียนเป็นวลี
@@ -40,7 +40,7 @@ ms.locfileid: "83349012"
 6. นำทางกลับไปยังแดชบอร์ด Power BI สำหรับตัวอย่างการวิเคราะห์ร้านค้าปลีก และวางเคอร์เซอร์ของคุณในกล่องคำถาม Q&A   
    ![กล่องคำถามสำหรับถามตอบพร้อมกับคำถามที่แนะนำ](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question-to-start.png)
 7. คำถามแนะนำใหม่**ยอดขายตามเขตแบบแผนที่** เป็นสิ่งแรกในรายการ เลือกมัน  
-8. คำตอบแสดงเป็นการแสดงภาพแผนที่ที่มีการเติม  
+8. Power BI สร้างคำตอบและแสดงออกมาเป็นการแสดงภาพแผนที่แถบสี  
    ![ถามตอบคำถามที่ได้รับการตอบกลับที่แนะนำ: แสดงภาพแผนที่](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

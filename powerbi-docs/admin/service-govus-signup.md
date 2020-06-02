@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 3f001c91c89b18b43c953669272b4d5be37dd154
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2701765ce9d9a059016265049ddecf444a0640ea
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135518"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792963"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>ลงทะเบียนหน่วยงานราชการของสหรัฐ ของคุณใน Power BI service
 
-มีบริการ Power BI รุ่นหนึ่งซึ่งเป็นส่วนหนึ่งของ [แผน Office 365 Government](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans?rtc=1) บทความนี้ออกแบบมาสำหรับลูกค้ารัฐบาลสหรัฐอเมริกา และกระบวนการลงทะเบียนที่อธิบายไว้ที่นี่แตกต่างจากบริการ Power BI เชิงพาณิชย์
+มีบริการ Power BI รุ่นหนึ่งซึ่งเป็นส่วนหนึ่งของ [แผนสำหรับหน่วยงานรัฐใน Microsoft 365](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans?rtc=1) บทความนี้ออกแบบมาสำหรับลูกค้ารัฐบาลสหรัฐอเมริกา และกระบวนการลงทะเบียนที่อธิบายไว้ที่นี่แตกต่างจากบริการ Power BI เชิงพาณิชย์
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการบริการ Power BI สำหรับส่วนราชการสหรัฐ ให้ดู [Power BI สำหรับลูกค้าส่วนราชการสหรัฐ - ภาพรวม](service-govus-overview.md)
 
@@ -29,19 +29,19 @@ ms.locfileid: "83135518"
 
 ## <a name="select-the-right-sign-up-process-for-your-us-government-organization"></a>เลือกกระบวนการลงทะเบียนขวาสำหรับส่วนราชการสหรัฐ
 
-ส่วนราชการสหรัฐของคุณอาจจะใหม่กับระบบคลาวด์สำหรับส่วนราชการ หรืออาจมีการสมัครใช้งานอยู่แล้วได้ ส่วนต่อไปนี้แสดงรายละเอียดขั้นตอนการลงทะเบียนโดยยึดตามตำแหน่งที่คุณอยู่ด้วยแผน Office 365 Government และ Power BI ขั้นตอนเหล่านี้จะแตกต่างกันโดยขึ้นอยู่กับการลงทะเบียนปัจจุบันของคุณ
+ส่วนราชการสหรัฐของคุณอาจจะใหม่กับระบบคลาวด์สำหรับส่วนราชการ หรืออาจมีการสมัครใช้งานอยู่แล้วได้ ส่วนต่อไปนี้แสดงรายละเอียดขั้นตอนการลงทะเบียนโดยยึดตามตำแหน่งที่คุณอยู่ด้วยแผนสำหรับหน่วยงานรัฐใน  Microsoft 365 และ Power BI ขั้นตอนเหล่านี้จะแตกต่างกันโดยขึ้นอยู่กับการลงทะเบียนปัจจุบันของคุณ
 
 หลังจากที่คุณลงทะเบียน Power BI สำหรับส่วนราชการสหรัฐ ให้ทำงานกับทีมงานบัญชีของคุณเพื่อเริ่มต้นกระบวนการ [*การอนุญาตพิเศษ*](#additional-signup-information) ตามอธิบายไว้ในบทความนี้ ขั้นตอนนั้นจำเป็นต้องเปิดใช้งานองค์กรของคุณอย่างเต็มรูปแบบในระบบคลาวด์สำหรับส่วนราชการ
 
-## <a name="sign-up-for-a-new-office-365-government-plan"></a>ลงทะเบียนสำหรับแผน Office 365 Government ใหม่
+## <a name="sign-up-for-a-new-microsoft-365-government-plan"></a>ลงทะเบียนสำหรับแผนสำหรับหน่วยงานรัฐใน Microsoft 365 ใหม่
 
-หากองค์กรของคุณยังใหม่ต่อระบบคลาวด์สำหรับส่วนราชการ ให้ทำตามขั้นตอนเหล่านี้เพื่อรับแผน Office 365 Government:
+หากองค์กรของคุณยังใหม่ต่อระบบคลาวด์สำหรับส่วนราชการ ให้ทำตามขั้นตอนเหล่านี้เพื่อรับแผนสำหรับหน่วยงานรัฐใน Microsoft 365:
 
 > [!NOTE]
 > ขั้นตอนเหล่านี้ควรดำเนินการโดยผู้ดูแลระบบส่วนกลาง
 >
 
-1. ไปที่ [แผน Office 365 Government](https://products.office.com/government/office-365-web-services-for-government)
+1. ไปที่ [แผนสำหรับหน่วยงานรัฐใน Microsoft 365](https://products.office.com/government/office-365-web-services-for-government)
 2. เลือก **เริ่มต้นใช้งานด้วยรุ่นทดลองฟรี**
 3. กรอกแบบฟอร์มเพื่อแจ้งให้เราทราบเกี่ยวกับองค์กรของคุณ ใช้รายการแบบหล่นลงเพื่อเลือกประเภทองค์กรของคุณ
 
@@ -49,11 +49,11 @@ ms.locfileid: "83135518"
 
 4. ส่งฟอร์มเพื่อเริ่มกระบวนการออนบอร์ด ตัวแทนของ Microsoft หรือคู่ค้าของคุณสามารถช่วยเหลือหากมีข้อสงสัย
 
-หลังจากกระบวนการนี้เสร็จสมบูรณ์ ให้ทำตามขั้นตอนสำหรับลูกค้า Office 365 Government ที่มีอยู่เพื่อเพิ่มการสมัครใช้งาน Power BI
+หลังจากกระบวนการนี้เสร็จสมบูรณ์ ให้ทำตามขั้นตอนสำหรับลูกค้า Microsoft 365 Government ที่มีอยู่เพื่อเพิ่มการสมัครใช้งาน Power BI
 
-## <a name="add-power-bi-to-an-office-365-government-plan"></a>เพิ่ม Power BI ไปยังแผน Office 365 Government
+## <a name="add-power-bi-to-a-microsoft-365-government-plan"></a>เพิ่ม Power BI ไปยังแผนสำหรับหน่วยงานรัฐใน Microsoft 365
 
-ถ้าองค์กรของคุณมีแผน Office 365 Government แล้ว ให้ทำตามขั้นตอนเหล่านี้เพื่อเพิ่มการสมัครใช้งาน Power BI:
+ถ้าองค์กรของคุณมีแผนสำหรับหน่วยงานรัฐใน Microsoft 365 แล้ว ให้ทำตามขั้นตอนเหล่านี้เพื่อเพิ่มการสมัครใช้งาน Power BI:
 
 > [!NOTE]
 > ขั้นตอนเหล่านี้ควรดำเนินการโดยผู้ดูแลระบบส่วนกลาง

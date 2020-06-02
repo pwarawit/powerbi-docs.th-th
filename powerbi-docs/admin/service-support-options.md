@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: kfollis
-ms.openlocfilehash: 690f69f584b4b185929ad465cf4ddd75e26c1011
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3ec6e3f060b495efd6b961a7a16d8e1cf68f44c9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131606"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120622"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>ตัวเลือกการสนับสนุน Power BI Pro และ Power BI Premium
 
@@ -24,7 +24,7 @@ ms.locfileid: "83131606"
 | **ฝ่ายสนับสนุนเกี่ยวกับชุมชน**: ฟอรัมเว็บสำหรับผู้ใช้เพื่อรับการสนับสนุนแบบบุคคลต่อบุคคล คำแนะนำ และแนวทางปฏิบัติที่ดีที่สุดพร้อมคำตอบจากชุมชนระดับโลกของผู้เชี่ยวชาญ Power BI และพนักงานของ Microsoft | X |   |   | ไม่มี การมีส่วนร่วมนั้นจัดทำขึ้นโดยใช้ความพยายามอย่างดีที่สุด | [ชุมชน Power BI](https://community.powerbi.com) |
 | **ฝ่ายสนับสนุนผู้ใช้ปลายทาง Power BI Pro**: การสนับสนุนทางเทคนิคขั้นพื้นฐานสำหรับผู้ใช้ปลายทางที่สร้างและบริโภคเนื้อหาใน Power BI | X |   |   | หนึ่งวันทำการ | [เว็บไซต์สนับสนุน Power BI](https://support.powerbi.com)  |
 | **การสนับสนุนสำหรับผู้ดูแลระบบ Power BI Premium**: การสนับสนุนทางเทคนิคสำหรับผู้ดูแลระบบ การปรับใช้ และใช้งานความจุ Power BI Premium | X |   |   | หนึ่งวันทำการหรือหนึ่งชั่วโมงขึ้นอยู่กับความรุนแรงของกรณี\* | [เว็บไซต์สนับสนุน Power BI](https://support.powerbi.com)<br>OR<br>[ศูนย์การจัดการ Microsoft 365](https://portal.office.com/adminportal)<br>OR<br> โทรศัพท์ |
-| **พอร์ทัลผู้ดูแลระบบของ power BI**: การสนับสนุนด้านเทคนิคและการเรียกเก็บเงินสำหรับผู้ดูแลระบบของการปรับใช้ Power BI ที่องค์กรของพวกเขา  หากต้องการใช้ตัวเลือกนี้คุณต้องเป็นผู้ดูแลระบบ Azure Active Directory ของ บริษัท ผู้ดูแลระบบส่วนกลาง Office 365 ผู้ดูแลบริการ Office 365 หรือผู้ดูแลระบบ Power BI | X | X |   | หนึ่งวันทำการหรือหนึ่งชั่วโมงขึ้นอยู่กับความรุนแรงของกรณี\* | [ศูนย์การจัดการ Microsoft 365](https://portal.office.com/adminportal)<br>OR<br> โทรศัพท์ |
+| **พอร์ทัลผู้ดูแลระบบของ power BI**: การสนับสนุนด้านเทคนิคและการเรียกเก็บเงินสำหรับผู้ดูแลระบบของการปรับใช้ Power BI ที่องค์กรของพวกเขา  ในการใช้ตัวเลือกนี้ คุณจะต้องเป็นผู้ดูแลระบบของบริษัท ผู้ดูแลระบบส่วนกลาง ผู้ดูแลบริการ หรือผู้ดูแลระบบบริการของ Power BI | X | X |   | หนึ่งวันทำการหรือหนึ่งชั่วโมงขึ้นอยู่กับความรุนแรงของกรณี\* | [ศูนย์การจัดการ Microsoft 365](https://portal.office.com/adminportal)<br>OR<br> โทรศัพท์ |
 | **ฝ่ายสนับสนุนของ Microsoft Premier**: แนวทางระดับองค์กรที่ให้การสนับสนุนด้วยการจัดการบัญชี ตัวเลือกสำหรับการสนับสนุนในสถานที่ และบริการเชิงรุก เช่น การเพิ่มประสิทธิภาพการฝึกอบรมและการจำลองข้อมูล | X | X | X | หลากหลายขึ้นอยู่กับการเสนอขายและความรุนแรงของกรณี\* | ผู้จัดการบัญชีด้านเทคนิค <br>OR<br> [ศูนย์การจัดการ Microsoft 365](https://portal.office.com/adminportal) |
 | | | | | | |
 

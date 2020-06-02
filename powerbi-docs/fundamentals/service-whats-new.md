@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83566074"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813358"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
 ตรวจสอบหน้านี้สำหรับปัญหาที่ทราบแล้วและคุณลักษณะที่เผยแพร่ล่าสุดในการ**บริการ Power BI** สำหรับข้อมูล "มีอะไรใหม่" ที่เกี่ยวข้อง ดู:
@@ -175,7 +175,7 @@ ms.locfileid: "83566074"
 
 ### <a name="april-2018"></a>เมษายน 2018
 * [รายงานบทสรุป Power BI เกี่ยวกับการป้องกันข้อมูล](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-* [แฟ้มบันทึกการตรวจสอบ](../admin/service-admin-auditing.md) บริการของ Power BI จะเปิดตามค่าเริ่มต้นสำหรับผู้เช่า Office 365
+* [บันทึกการตรวจสอบ](../admin/service-admin-auditing.md) ของบริการของ Power BI จะเปิดตามค่าเริ่มต้นสำหรับองค์กร
 
 ### <a name="march-2018"></a>มีนาคม 2018
 * [ตัวกรองแบบถาวร](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)ในบริการ Power BI
@@ -189,7 +189,7 @@ ms.locfileid: "83566074"
 ### <a name="january-2018"></a>มกราคม 2018
 *    รายงาน Power BI ที่แชร์และเป็นรายการโปรด
 *    OAuth2 และ DirectQuery Single Sign-on Support (SSO) สำหรับฐานข้อมูล Azure SQL และคลังข้อมูล (Data Warehouse)
-*    การตรวจสอบในภูมิภาค: บันทึกการตรวจสอบจะถูกเก็บไว้ใน Office 365 ภูมิภาคเดียวกันกับผู้เช่าของตน
+*    การตรวจสอบในภูมิภาค: ในตอนนี้ บันทึกการตรวจสอบจะถูกเก็บไว้ในภูมิภาค Microsoft 365 เดียวกันกับผู้เช่า
 *    GA ของ SharePoint Online [ส่วนเว็บของรายงาน Power BI](https://go.microsoft.com/fwlink/p/?LinkId=825698)
 *    ผู้ดูแลระบบควบคุมเพื่อปิดการดูวิชวล Power BI สำหรับผู้ใช้ทั้งหมดในผู้เช่าหนึ่ง
 *    การรีเฟรชตามกำหนดการสนับสนุนสำหรับ Azure Analysis Services (AAS)
@@ -255,7 +255,7 @@ ms.locfileid: "83566074"
 
 ### <a name="january-2017"></a>มกราคม 2017
 * จัดการ Power BI โดยใช้[บทบาทผู้ดูแลระบบ Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole)
-* [บันทึกการตรวจสอบ Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) ในพอร์ทัลการตรวจสอบ Office 365 พร้อมใช้งานทั่วโลก
+* [บันทึกการตรวจสอบ Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) ในพอร์ทัลการตรวจสอบ พร้อมใช้งานทั่วโลก
 * เวอร์ชัน 1.4 ของ[เครื่องมือสำหรับนักพัฒนาและ API ของวิชวล Power BI](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) ออกสู่ตลาดแล้ว
 * [ชุดคุณลักษณะสตรีมมิ่งแบบเรียลไทม์](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)นำออกสู่ตลาดเพื่อพร้อมใช้งานทั่วไปแล้ว
 * [ส่งข้อมูลไปยัง Power BI โดยใช้ Power Automate](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)โดยไม่ต้องเขียนโค้ดใด ๆ
@@ -278,7 +278,7 @@ ms.locfileid: "83566074"
 * ใช้ประโยชน์จาก[การรวม Power BI กับ Microsoft Teams ใหม่](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)
 * ออกแบบ[การแสดงภาพ R](https://powerbi.microsoft.com/blog/r-powered-custom-visuals/)ใน Power BI โดยไม่ทำความเข้าใจเกี่ยวกับ R.
 * ตัวอย่าง: ด้วย [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/) ผู้เชี่ยวชาญ BI สามารถสร้างแบบจำลอง BI เชิงความหมายได้ตามข้อมูลที่อยู่ในระบบคลาวด์หรือภายในองค์กร เพื่อให้ผู้ใช้ทางธุรกิจมีมุมมองข้อมูลของตนที่ลดความซับซ้อนลง
-* บทบาทใหม่ของ[ผู้ดูแลระบบบริการ Power BI](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/) สามารถกำหนดให้กับผู้ใช้ที่ควรมีสิทธิ์เข้าถึงพอร์ทัลผู้ดูแล Power BI แต่ไม่ใช่สิทธิ์การเข้าถึงการดูแลอื่น ๆ ของ Office 365
+* [บทบาทผู้ดูแลระบบบริการของ Power BI](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/) ใหม่นั้น สามารถถูกกำหนดให้กับผู้ใช้ที่ควรมีสิทธิ์การเข้าถึงพอร์ทัลผู้ดูแลระบบ Power BI แต่ไม่ใช่สิทธิ์การเข้าถึงการดูแลอื่นๆ
 * สำรวจ[ข้อมูลขั้นสูง MYOB ของคุณด้วย Power BI](https://powerbi.microsoft.com/blog/explore-your-myob-advanced-data-with-power-bi/)
 * วิธีการที่ผู้ที่ไม่ใช่ผู้ดูแลระบบสามารถตรวจทาน[บันทึกการตรวจสอบ Power BI](https://powerbi.microsoft.com/blog/tech-tip-thursday-power-bi-auditing-for-a-non-administrator/) ได้
 * แสดงผล[คอลัมน์ข้อเป็นเคล็ดลับเครื่องมือ](https://powerbi.microsoft.com/blog/tech-tip-thursday-displaying-text-columns-in-tool-tips/)
@@ -694,7 +694,7 @@ ms.locfileid: "83566074"
 **4 สิงหาคม 2015**
 
 * ตอนนี้ Power BI นำเสนอ [Circuit ID](https://powerbi.microsoft.com/blog/circuit-id-data-with-power-bi/)สำหรับผู้ใช้เพื่อให้มีความสามารถในการติดตามและตรวจสอบ Circuit ID บริการระบบคลาวด์สำหรับการติดต่อสื่อสารทั้งหมด ซึ่งช่วยเพิ่มศักยภาพให้ผู้ใช้สามารถทำการตัดสินใจทางธุรกิจที่ถูกต้อง สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับวิธีการเริ่มต้นใช้งาน โปรดดูหน้าความช่วยเหลือชุดเนื้อหา Circuit ID สำหรับ[ Power BI](../connect-data/service-connect-to-services.md)
-* วันนี้เราได้เผยแพร่การปรับปรุงคุณลักษณะการแชร์แดชบอร์ดที่ง่ายต่อการใช้งานยิ่งขึ้น  ถ้าองค์กรของคุณใช้ Office 365 สำหรับอีเมล ขณะนี้คุณสามารถ[แชร์กับกลุ่มการกระจายอีเมล](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/)ได้ด้วยวิธีเดียวกันกับที่ีคุณจะส่งอีเมลใน Outlook  เพียงแค่ใส่ที่อยู่ของกลุ่มการกระจายและคลิกแชร์  สมาชิกทั้งหมดของกลุ่มการกระจายจะได้รับอีเมลเชิญให้เข้าดูแดชบอร์ด
+* วันนี้เราได้เผยแพร่การปรับปรุงคุณลักษณะการแชร์แดชบอร์ดที่ง่ายต่อการใช้งานยิ่งขึ้น  ถ้าองค์กรของคุณใช้ Microsoft 365 สำหรับอีเมล ขณะนี้คุณสามารถ [แชร์กับกลุ่มการกระจายอีเมล](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/) ได้ด้วยวิธีเดียวกันกับที่คุณใช้ส่งอีเมลใน Outlook  เพียงแค่ใส่ที่อยู่ของกลุ่มการกระจายและคลิกแชร์  สมาชิกทั้งหมดของกลุ่มการกระจายจะได้รับอีเมลเชิญให้เข้าดูแดชบอร์ด
 
 **28 กรกฎาคม 2015**
 
@@ -704,7 +704,7 @@ ms.locfileid: "83566074"
 
 * เรามีความยินดีอย่างยิ่งที่จะประกาศ "ความพร้อมใช้งานทั่วไป" (General availability: GA) ของ Power BI ลงทะเบียนวันนี้เพื่อใช้[Power BI Pro](service-self-service-signup-for-power-bi.md) เราได้นำเสนอคุณลักษณะใหม่ที่ดีเยี่ยม โดยเป็นส่วนหนึ่งของการเผยแพร่ GA:
 * ประสบการณ์ใหม่สำหรับการสร้างการแสดงภาพและรายงาน: พื้นที่รายงานใหม่มีตัวเลือกการแสดงภาพมากขึ้น ให้คุณสามารถควบคุมการจัดรูปแบบชื่อเรื่อง คำอธิบายแผนภูมิ แกน สี พื้นหลัง และอื่น ๆ ได้มากขึ้น
-* [กลุ่ม Power BI](../collaborate-share/service-create-distribute-apps.md): กลุ่มเสนอประสบการณ์การทำงานร่วมกันอย่างมีประสิทธิภาพที่สร้างขึ้นภายในกลุ่ม Office 365
+* [กลุ่ม Power BI](../collaborate-share/service-create-distribute-apps.md): กลุ่มที่ให้ประสบการณ์การทำงานร่วมกันอย่างมีประสิทธิภาพที่สร้างขึ้นภายในกลุ่ม Microsoft 365
 * [ชุดเนื้อหาองค์กร](../collaborate-share/service-organizational-content-pack-introduction.md): Power BI ช่วยให้การสร้างแดชบอร์ดและรายงานทำได้ง่ายมาก และตอนนี้ผู้ใช้สามารถเผยแพร่เนื้อหานี้ไปยังแกลเลอรีเนื้อหาองค์กรได้
 * [นำเข้าไฟล์ Excel ทั้งหมด](../connect-data/service-excel-workbook-files.md): คุณสามารถนำเข้าเวิร์กบุ๊ก Excel ใด ๆ ที่จัดเก็บบน OneDrive for Business ลงใน Power BI และดูทั้งเวิร์กบุ๊กได้ เหมือนกับที่คุณดำเนินการใน Excel Online
 * [นำไฟล์ CSV เข้ามา](../connect-data/service-get-data-from-files.md): เช่นเดียวกับไฟล์ Excel หรือไฟล์ Power BI Desktop ไฟล์ข้อความค่าที่คั่นด้วยเครื่องหมายจุลภาค (CSV) ยังเป็นชุดข้อมูลสำหรับแดชบอร์ด Power BI และรายงานของคุณได้
@@ -715,7 +715,7 @@ ms.locfileid: "83566074"
 
 * Acumatica Cloud ERP ส่งมอบชุดของแอปพลิเคชันการจัดการธุรกิจที่รวมเข้าด้วยกันอย่างสมบูรณ์ เช่น Financials, Distribution, CRM และ Project Accounting ที่ขับเคลื่อนโดยแพลตฟอร์มที่มีความยืดหยุ่นและมีประสิทธิภาพ ด้วยชุดเนื้อหา Power BI [ Acumatica](https://powerbi.microsoft.com/blog/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi/) คุณสามารถเชื่อมต่อได้อย่างรวดเร็วและรับข้อมูลเชิงลึกลงในข้อมูลโอกาสทางการขายของคุณได้ทันที เนื้อหานี้รวมถึงแดชบอร์ดแบบใช้ได้ทันที ชุดรายงาน และชุดข้อมูลที่รวบรวมเพื่อการสำรวจและให้รายละเอียด เช่น ผลรวมโอกาสที่คุณอาจชนะตามวัน อ่านเพิ่มเติม[ที่นี่](../connect-data/service-connect-to-services.md) 
 * ในตอนนี้ [Azure HDInsight](https://powerbi.microsoft.com/blog/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight/) มีการบริการ Spark ที่มีการจัดการเต็มรูปแบบ ความสามารถนี้ช่วยให้สถานการณ์เช่นการเรียนรู้ของเครื่อง (Machine learning) ในแบบซ้ำ ๆ และการวิเคราะห์ข้อมูลแบบโต้ตอบได้ Power BI ช่วยให้คุณสามารถเชื่อมต่อโดยตรงไปยังข้อมูลใน Spark บน HDInsight นำเสนอการสำรวจที่ง่ายและสำรวจต่อเนื่อง สำหรับข้อมูลเพิ่มเติม อ่าน[เอกสารวิธีใช้](../connect-data/power-bi-data-sources.md)ของเรา
-* [การรวมการนำทาง Office 365 และตัวเปิดใช้แอปพลิเคชัน](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher) ด้วยการคลิกครั้งเดียว ตอนนี้คุณสามารถไปยังแอปพลิเคชัน Office 365 ทั้งหมดของคุณได้
+* [การรวมการนำทางและตัวเปิดแอปพลิเคชัน Microsoft 365](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher) ด้วยการคลิกครั้งเดียว ตอนนี้คุณสามารถไปยังแอปพลิเคชัน Microsoft 365 ทั้งหมดของคุณได้
 * [การระบุ URL ที่กำหนดเอง](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#url)ที่ ผู้ใช้นำทางไปยังเมื่อผู้ใช้คลิกไทล์หนึ่ง ตอนนี้คุณมีความสามารถในการควบคุมตรงตำแหน่งที่ผู้ใช้ไป: รายงานเฉพาะ แดชบอร์ดอื่น รายงาน SSRS หรือยังเว็บไซต์ภายนอก 
 * [การมองเห็นและการจัดการการเก็บข้อมูล](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#storage)ที่คุณกำลังใช้งานใน Power BI
 * [การกำหนดค่าภาพและเขตข้อมูลที่แสดงในถามตอบ](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#visual)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ad60e65406ee69bed4e544486c955765203ddc5c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a2c4925e03a0e356ca44556fa7e545459c487dac
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348010"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733404"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>บทนำชุดเนื้อหาองค์กรใน Power BI
 > [!NOTE]
@@ -25,9 +25,9 @@ ms.locfileid: "83348010"
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
-การสร้างชุดเนื้อหาจะแตกต่างจากการแชร์แดชบอร์ดหรือการทำงานร่วมกันบนชุดเนื้อหาเหล่านั้นในพื้นที่ทำงาน อ่าน[ฉันควรทำงานร่วมกันและแชร์แดชบอร์ดและรายงานอย่างไร?](service-how-to-collaborate-distribute-dashboards-reports.md)เพื่อตัดสินใจเลือกตัวเลือกที่ดีที่สุดสำหรับสถานการณ์ของคุณ 
+การสร้างชุดเนื้อหาจะแตกต่างจากการแชร์แดชบอร์ดหรือการทำงานร่วมกันบนชุดเนื้อหาเหล่านั้นในพื้นที่ทำงาน อ่าน[ฉันควรทำงานร่วมกันและแชร์แดชบอร์ดและรายงานอย่างไร](service-how-to-collaborate-distribute-dashboards-reports.md) เพื่อตัดสินใจเลือกตัวเลือกที่ดีที่สุดสำหรับสถานการณ์ของคุณ 
 
-ใน AppSource คุณสามารถเรียกดูหรือค้นหาชุดเนื้อหาที่เผยแพร่ไปทั่วทั้งองค์กร ไปยังกลุ่มการกระจายหรือกลุ่มรักษาความปลอดภัย และไปยัง[กลุ่ม Office 365 ที่คุณเป็นสมาชิ](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)ได้ ถ้าคุณไม่ได้เป็นสมาชิกของกลุ่มใดกลุ่มหนึ่ง คุณจะไม่เห็นชุดเนื้อหาที่แชร์กับกลุ่มนั้น ๆ สมาชิกทั้งหมดของกลุ่มมีการเข้าถึงแบบอ่านอย่างเดียวสำหรับข้อมูลชุดเนื้อหา รายงาน เวิร์กบุ๊ก และแดชบอร์ด (ยกเว้นว่าเป็นแหล่งข้อมูลของ SQL Server Analysis Services (SSAS) ซึ่งเป็นในกรณีที่คุณมีสิทธิ์การใช้งานที่สืบทอดจากแหล่งข้อมูล)
+ใน AppSource คุณสามารถเรียกดูหรือค้นหาชุดเนื้อหาที่เผยแพร่ไปยังทั่วทั้งองค์กร ไปยังกลุ่มการกระจาย หรือกลุ่มรักษาความปลอดภัย และไปยัง[กลุ่ม Microsoft 365 ที่คุณเป็นสมาชิก](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9) ได้ ถ้าคุณไม่ได้เป็นสมาชิกของกลุ่มใดกลุ่มหนึ่ง คุณจะไม่เห็นชุดเนื้อหาที่แชร์กับกลุ่มนั้น ๆ สมาชิกทั้งหมดของกลุ่มมีการเข้าถึงแบบอ่านอย่างเดียวสำหรับข้อมูลชุดเนื้อหา รายงาน เวิร์กบุ๊ก และแดชบอร์ด (ยกเว้นว่าเป็นแหล่งข้อมูลของ SQL Server Analysis Services (SSAS) ซึ่งเป็นในกรณีที่คุณมีสิทธิ์การใช้งานที่สืบทอดจากแหล่งข้อมูล)
 
 แดชบอร์ด รายงาน และเวิร์กบุ๊ก Excel เป็นแบบอ่านอย่างเดียว แต่คุณสามารถคัดลอกและใช้แดชบอร์ดและรายงานเป็นจุดเริ่มต้นสำหรับการสร้างชุดเนื้อหาเวอร์ชันส่วนบุคคลของคุณเองได้
 
@@ -74,5 +74,5 @@ ms.locfileid: "83348010"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [สร้างและเผยแพร่ชุดเนื้อหาองค์กร](service-organizational-content-pack-create-and-publish.md)
 * [สร้างและกระจายแอปฯใน Power BI](service-create-distribute-apps.md) 
-* [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](../fundamentals/service-basic-concepts.md)
+* [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](../fundamentals/service-basic-concepts.md)
 * มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

@@ -1,22 +1,22 @@
 ---
-title: รับรองชุดข้อมูล (ดูตัวอย่าง) - Power BI
+title: รับรองชุดข้อมูล - Power BI
 description: เรียนรู้วิธีการแนะนำผู้ใช้ในองค์กรไปยังชุดข้อมูลที่เชื่อถือได้ คุณภาพสูง
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bdce9ec797d00b34f657ed66df6b7a5ce373334d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a6d03521cd3962dcf9549d99076d8606b1142976
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285014"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792942"
 ---
-# <a name="certify-datasets-preview"></a>รับรองชุดข้อมูล (ดูตัวอย่าง)
+# <a name="certify-datasets---power-bi"></a>รับรองชุดข้อมูล - Power BI
 
 องค์กรของคุณสามารถรับรองชุดข้อมูลที่เป็นแหล่งข้อมูลที่เชื่อถือได้สำหรับข้อมูลสำคัญ ชุดข้อมูลเหล่านี้จะได้รับการแนะนำให้เป็นที่รู้จักเมื่อผู้ออกแบบรายงานเริ่มสร้างรายงานและค้นหาข้อมูลที่เชื่อถือได้ การออบใบรับรองอาจเป็นกระบวนการการคัดเลือกที่พิถีพิถันโดยมีเพียงชุดข้อมูลที่มีค่าที่สุดเท่านั้นที่จะได้รับการรับรอง ผู้ดูแลระบบผู้เช่า Power BI มีการตั้งค่าใหม่ เพื่อให้พวกเขาสามารถควบคุมผู้ที่สามารถรับรองชุดข้อมูลได้อย่างเข้มงวด ดังนั้นผู้ดูแลระบบต้องให้แน่ใจว่าใบรับรองชุดข้อมูลทำให้ข้อมูลมีความน่าเชื่อถือและเป็นทางการอย่างแท้จริง ซึ่งออกแบบมาสำหรับใช้งานทั้งองค์กร
 

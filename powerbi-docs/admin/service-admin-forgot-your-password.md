@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/13/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 7f5f24273b05666098376a2ef04a5dcaada6461b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b2743fee2c681f0923d243304ea8f44b45ee3e17
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139823"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812162"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>ลืมรหัสผ่านของคุณสำหรับ Power BI ใช่หรือไม่
 
@@ -22,7 +22,7 @@ ms.locfileid: "83139823"
 
 <https://passwordreset.microsoftonline.com>
 
-ถ้าคุณบอกบัญชีของคุณไม่ได้ตั้งค่าสำหรับการตั้งค่ารหัสผ่านใหม่โปรดติดต่อผู้ดูแลระบบ Office 365 ของคุณ ถ้าคุณกำลังใช้เวอร์ชันทดลองใช้ฟรี ผู้ดูแลระบบคือบุคคลแรกในองค์กรของคุณที่ลงทะเบียน
+ถ้าคุณได้รับแจ้งว่าบัญชีของคุณไม่ได้ตั้งค่าสำหรับการตั้งค่ารหัสผ่านใหม่ โปรดติดต่อผู้ดูแลระบบของคุณ ถ้าคุณกำลังใช้เวอร์ชันทดลองใช้ฟรี ผู้ดูแลระบบคือบุคคลแรกในองค์กรของคุณที่ลงทะเบียน
 
 ถ้าคุณยังคงมีปัญหาการเข้าถึงบัญชีของคุณ คุณสามารถติดต่อทีมสนับสนุนเพื่อรีเซ็ตรหัสผ่านได้
 

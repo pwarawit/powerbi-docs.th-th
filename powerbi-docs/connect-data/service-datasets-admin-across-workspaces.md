@@ -1,22 +1,22 @@
 ---
-title: ควบคุมการใช้ชุดข้อมูลทั้งพื้นที่ทำงาน (ดูตัวอย่าง) - Power BI
+title: ควบคุมการใช้งานชุดข้อมูลทั่วทั้งพื้นที่ทำงาน - Power BI
 description: เรียนรู้วิธีการจำกัดการไหลของข้อมูลในผู้เช่า Power BI
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d1ad29bebc148d9f30e8d22240dd149787251a0a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4599b5aa8961c5a6526f5de6a07815355e6e41db
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285451"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793552"
 ---
-# <a name="control-the-use-of-datasets-across-workspaces-preview"></a>ควบคุมการใช้ชุดข้อมูลทั้งพื้นที่ทำงาน (ดูตัวอย่าง)
+# <a name="control-the-use-of-datasets-across-workspaces"></a>ควบคุมการใช้งานชุดข้อมูลทั่วทั้งพื้นที่ทำงาน
 
 การใช้ชุดข้อมูลทั้งพื้นที่ทำงานเป็นวิธีมีประสิทธิภาพเพื่อส่งเสริมวัฒนธรรมการเก็บข้อมูลและการพัฒนาข้อมูลให้เป็นระบบภายในองค์กร ถ้าคุณเป็นผู้ดูแลระบบ Power BI ในบางครั้งคุณต้องการจำกัดการไหลของข้อมูลภายในผู้เช่า Power BI ด้วยการตั้งค่าผู้เช่า **ใช้ชุดข้อมูลทั้งพื้นที่ทำงาน** คุณสามารถจำกัดการใช้ชุดข้อมูลซ้ำ ไม่ว่าจะทั้งหมดหรือบางส่วนต่อกลุ่มความปลอดภัยได้
 
@@ -38,5 +38,5 @@ ms.locfileid: "83285451"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-- [ใช้ชุดข้อมูลทั้งพื้นที่ทำงาน (ดูตัวอย่าง)](service-datasets-across-workspaces.md)
-- มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+- [ใช้ชุดข้อมูลทั่วทั้งพื้นที่ทำงาน](service-datasets-across-workspaces.md)
+- มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

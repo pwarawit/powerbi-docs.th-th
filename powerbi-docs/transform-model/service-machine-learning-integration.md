@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 1004549c37f4bff92e4a8b1d31b3844b7cdd0f2d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5562271eebc10789e27f7e65c7ff96b72de43aae
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83330416"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121062"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>การรวม Azure Machine Learning ใน Power BI
 
@@ -30,6 +30,9 @@ ms.locfileid: "83330416"
 
 - ภาพรวม:  [Azure Machine Learning คืออะไร](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
 - เริ่มต้นใช้งานด่วนและบทช่วยสอนสำหรับ Azure Machine Learning:  [เอกสารประกอบ Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/)
+
+> [!NOTE]
+> จำเป็นต้องมีการสมัครใช้งาน Power BI Premium ในการใช้การรวม Azure Machine Learning
 
 ## <a name="granting-access-to-the-azure-ml-model-to-a-power-bi-user"></a>การให้สิทธิ์เข้าถึงแบบจำลอง Azure ML แก่ผู้ใช้ Power BI
 

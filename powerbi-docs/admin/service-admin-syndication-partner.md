@@ -1,6 +1,6 @@
 ---
 title: ไม่สามารถเพิ่ม Power BI กับคู่ค้า O365
-description: ไม่สามารถเพิ่ม Power BI กับคู่ค้า syndication สำหรับ Office 365 รูปแบบ syndication เป็นรูปแบบการจัดซื้อแบบหนึ่ง ที่ใช้โดย Office 365
+description: ไม่สามารถเพิ่ม Power BI กับคู่ค้า Syndication ของ Microsoft 365 แบบจำลองแบบ Syndicated คือแบบจำลองการซื้อที่ใช้โดย Microsoft 365
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 5907f23bb5bf1bcdc5a4ca3412e5331a09d145c9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2c590875b4dee81f7ca54434d6e5895be885be97
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344951"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812346"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>ไม่สามารถเพิ่ม Power BI กับ Office 365 ที่สมัครผ่านคู่ค้า
 
-Office 365 อนุญาตให้บริษัทสามารถขายต่อ Office 365 โดยรวมเข้ากับโซลูชันของพวกเขาเองได้ และให้บริการด้านการจัดซื้อ, การเรียกเก็บเงิน และการสนับสนุน แก่ลูกค้าปลายทางในจุดเดียว
+Microsoft 365 อนุญาตให้บริษัทสามารถขายต่อ Microsoft 365 โดยรวมเข้ากับโซลูชันของพวกเขาเองได้ และให้บริการด้านการจัดซื้อ การเรียกเก็บเงิน และการสนับสนุน ให้แก่ลูกค้าปลายทางในจุดเดียว
 
 หากคุณสนใจซื้อ Power BI ควบคู่ไปกับการสมัครใช้งาน Office 365 เราขอแนะนำให้ติดต่อกับคู่ค้าของคุณ หากคู่ค้าของคุณไม่มี Power BI ให้บริการ คุณมีทางเลือกหลายทางให้พิจารณา
 
@@ -52,13 +52,13 @@ Office 365 อนุญาตให้บริษัทสามารถขา
 
 ### <a name="enable-ad-hoc-subscriptions"></a>เปิดใช้งานการสมัครใช้งานแบบเฉพาะกิจ
 
-ตามค่าเริ่มต้น การลงทะเบียนรายบุคคล (หรือที่เรียกว่าการสมัครแบบเฉพาะกิจ) จะถูกปิดการใช้งาน ในกรณีนี้ คุณจะเห็นข้อความต่อไปนี้เมื่อคุณพยายามลงทะเบียน: *แผนก IT ของคุณได้ปิดการลงทะเบียนสำหรับ Microsoft Power BI*
+ตามค่าเริ่มต้น การลงทะเบียนรายบุคคล (หรือที่เรียกว่าการสมัครแบบเฉพาะกิจ) จะถูกปิดการใช้งาน ในกรณีนี้ คุณจะเห็นข้อความต่อไปนี้เมื่อคุณพยายามลงทะเบียน: *แผนก IT ของคุณได้ปิดใช้งานการลงทะเบียนสำหรับ Microsoft Power BI*
 
 ![รูปภาพขออภัย](media/service-admin-syndication-partner/sorry.png)
 
 ถ้าต้องการเปิดให้สมัครใช้งานเฉพาะกิจ คุณต้องติดต่อกับคู่ค้าของคุณและขอให้เขาเปิดให้ใช้งาน หากคุณเป็นผู้ดูแลระบบผู้เช่าของคุณ และทราบวิธีการใช้คำสั่ง Azure Active Directory PowerShell คุณสามารถเปิดใช้งานการสมัครใช้เฉพาะกิจได้ด้วยตนเอง [PowerShell Azure Active Directory สำหรับกราฟ](/powershell/azure/active-directory/install-adv2/)
 
-1. ลงชื่อเข้าใช้ Azure Active Directory โดยใช้ข้อมูลประจำตัว Office 365 ของคุณ บรรทัดแรกของสคริปต์ด้านล่างจะปรากฏขึ้นเพื่อให้คุณใส่ข้อมูลประจำตัวของคุณ บรรทัดสองจะเชื่อมต่อกับ Azure Active Directory
+1. ลงชื่อเข้าใช้ Azure Active Directory โดยใช้ข้อมูลประจำตัวสำหรับ Microsoft 365 ของคุณ บรรทัดแรกของสคริปต์ด้านล่างจะปรากฏขึ้นเพื่อให้คุณใส่ข้อมูลประจำตัวของคุณ บรรทัดที่สองจะเชื่อมต่อกับ Azure Active Directory
 
     ```powershell
     $msolcred = get-credential

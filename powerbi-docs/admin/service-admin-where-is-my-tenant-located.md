@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4a763b31333004a8cdecda5262967473817bc983
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a797547562a8968591ca6551f85a56e0da98d680
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135991"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793281"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>ผู้เช่า Power BI ของฉันอยู่ที่ไหน?
 
@@ -34,7 +34,7 @@ ms.locfileid: "83135991"
 
 ## <a name="how-the-data-region-is-selected"></a>วิธีเลือกขอบเขตข้อมูล
 
-ขอบเขตข้อมูลจะยึดตามประเทศที่คุณเลือกเมื่อคุณสร้างผู้เช่า การเลือกนำไปใช้เพื่อลงทะเบียนใน Office 365 และ Power BI เนื่องจากข้อมูลนี้ถูกใช้ร่วมกัน หากเป็นผู้เช่าใหม่ ให้เลือกประเทศที่เหมาะสมจากรายการเมื่อคุณลงทะเบียน
+ขอบเขตข้อมูลจะยึดตามประเทศที่คุณเลือกเมื่อคุณสร้างผู้เช่า การเลือกจะนำไปใช้เพื่อลงทะเบียนสำหรับทั้ง Microsoft 365 และ Power BI เนื่องจากข้อมูลนี้ถูกใช้ร่วมกัน หากเป็นผู้เช่าใหม่ ให้เลือกประเทศที่เหมาะสมจากรายการเมื่อคุณลงทะเบียน
 
 ![การเลือกประเทศ](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a3a7d7b0afa4a1eb3d6af81d3e6ba1315e291c4b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 25a0f5abe07b82c2397ab2800802eba6f624a27c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324735"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119943"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>จัดกลุ่มวิชวลในรายงาน Power BI Desktop
 ด้วยคุณลักษณะ**การจัดกลุ่ม**ใน **Power BI Desktop**คุณสามารถจัดกลุ่มวิชวลเข้าด้วยกันในรายงานของคุณได้ เช่น ปุ่ม กล่องข้อความ ภาพรูปทรง และวิชวลที่คุณสร้างเช่นเดียวกับที่คุณจัดกลุ่มรายการใน PowerPoint การจัดกลุ่มวิชวลในรายงานช่วยให้คุณปฏิบัติต่อกลุ่มเช่นเดียวกับวัตถุเดี่ยว ทำให้เคลื่อนไหว ปรับขนาด และทำงานกับเลเยอร์ในรายงานของคุณได้ง่ายขึ้นเร็วขึ้น และทันใจขึ้น
@@ -33,6 +33,8 @@ ms.locfileid: "83324735"
 ![การซ้อนกลุ่ม](media/desktop-grouping-visuals/grouping-visuals-03.png)
 
 ภายในบานหน้าต่าง**การเลือก** คุณยังสามารถลากและปล่อยแต่ละวิชวลเพื่อรวมไว้ในกลุ่ม ลบออกจากกลุ่ม ซ้อนกลุ่ม หรือลบกลุ่มหรือแต่ละวิชวลออกจากการซ้อนกันได้ เพียงแค่ลากวิชวลที่คุณต้องการปรับและวางลงในตำแหน่งที่คุณต้องการ หากมีการซ้อนทับ การสร้างเลเยอร์ของวิชวลจะถูกกำหนดโดยคำสั่งของพวกเขาในรายการ *ลำดับเลเยอร์*
+
+การเปลี่ยนชื่อกลุ่มเป็นเรื่องง่าย: เพียงแค่ดับเบิลคลิกที่ชื่อกลุ่มในบานหน้าต่าง **การเลือก** จากนั้นจึงพิมพ์ชื่อใหม่ของกลุ่มของคุณ
 
 ![ลากแล้วปล่อยกลุ่ม](media/desktop-grouping-visuals/grouping-visuals-04.png)
 
@@ -70,7 +72,7 @@ ms.locfileid: "83324735"
 
 * [การจัดกลุ่มใน Power BI Desktop - วิดีโอ](https://youtu.be/sf4n7VXoQHY?t=10)
 
-คุณอาจมีความสนใจบทความต่อไปนี้:
+คุณอาจสนใจบทความต่อไปนี้:
 
 * [ใช้ตัวเจาะเข้าถึงรายละเอียดข้ามรายงานใน Power BI Desktop](desktop-cross-report-drill-through.md)
 * [การใช้ตัวแบ่งส่วนข้อมูล Power BI Desktop](../visuals/power-bi-visualization-slicers.md)
