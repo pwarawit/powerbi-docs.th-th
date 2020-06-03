@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 01/30/2020
-ms.openlocfilehash: b4ed632d6106fa552cebf9837ba238bdc7a4d3f1
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.date: 04/28/2020
+ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
+ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404833"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "83279169"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>แหล่งข้อมูลที่ได้รับการสนับสนุนสำหรับรายงานที่มีการแบ่งหน้าของ Power BI
 
@@ -25,8 +25,8 @@ ms.locfileid: "80404833"
 
 | แหล่งข้อมูล | การรับรองความถูกต้อง | บันทึกย่อ |
 | --- | --- | --- |
-| ฐานข้อมูล Azure SQL <br>คลังข้อมูล Azure SQL | ลงชื่อเข้าระบบครั้งเดียว (SSO) เบื้องต้น, OAuth2 |   |
-| อินสแตนซ์ที่จัดการแล้วของ Azure SQL | พื้นฐาน | ผ่านจุดสิ้นสุดสาธารณะโดยใช้นามสกุลไฟล์ฐานข้อมูล Azure SQL  |
+| ฐานข้อมูล Azure SQL <br>คลังข้อมูล Azure SQL | ลงชื่อเข้าระบบครั้งเดียว (SSO) เบื้องต้น, OAuth2 | คุณอาจใช้ Enterprise Gateway ด้วย Azure SQL DB ได้ อย่างไรก็ตาม คุณไม่สามารถใช้ SSO หรือ oAuth2 เพื่อรับรองความถูกต้องในสถานการณ์เหล่านั้นได้   |
+| อินสแตนซ์ที่จัดการแล้วของ Azure SQL | พื้นฐาน | ผ่านตำแหน่งข้อมูลสาธารณะหรือส่วนตัว (ตำแหน่งข้อมูลส่วนตัวจำเป็นต้องได้รับการกำหนดเส้นทางผ่านเกตเวย์ขององค์กร)  |
 | Azure Analysis Services | SSO, OAuth2 | ไฟร์วอลล์ AAS ต้องปิดใช้งานหรือกำหนดค่าเพื่ออนุญาตช่วง IP ทั้งหมด|
 | ชุดข้อมูล Power BI | SSO | ชุดข้อมูล Power BI แบบพรีเมียมและแบบไม่พรีเมี่ยม ต้องมีสิทธิ์ในการอ่าน |
 | ชุดข้อมูล Power BI แบบพรีเมียม (XMLA) | SSO |   |
@@ -38,7 +38,7 @@ ms.locfileid: "80404833"
 
 ## <a name="other-data-sources"></a>แหล่งข้อมูลอื่นๆ
 
-นอกเหนือจากแหล่งข้อมูลที่ได้รับการสนับสนุนในแบบดั้งเดิม แหล่งข้อมูลต่อไปนี้สามารถเข้าถึงได้ผ่านทาง[เกตเวย์ข้อมูล Power BI](../service-gateway-onprem.md):
+นอกเหนือจากแหล่งข้อมูลที่ได้รับการสนับสนุนในแบบดั้งเดิม แหล่งข้อมูลต่อไปนี้สามารถเข้าถึงได้ผ่านทาง[เกตเวย์ข้อมูล Power BI](../connect-data/service-gateway-onprem.md):
 
 - SQL Server
 - SQL Server Analysis Services
@@ -74,3 +74,4 @@ ms.locfileid: "80404833"
 [ดูรายงานแบบแบ่งหน้าในบริการของ Power BI](../consumer/paginated-reports-view-power-bi-service.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+

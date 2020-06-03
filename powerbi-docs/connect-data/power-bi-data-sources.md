@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/10/2020
+ms.date: 06/01/2020
 ms.author: kfollis
-ms.openlocfilehash: 2aa12ec3d55e491535d12107fc70709f9d41c3f0
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 7fcd5b5f7a6365aac597186618ce2b18fcc44d7f
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438096"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273402"
 ---
 # <a name="power-bi-data-sources"></a>แหล่งข้อมูล Power BI
 
@@ -31,7 +31,7 @@ ms.locfileid: "83438096"
 | Amazon Redshift | ใช่ | ใช่ | ใช่ | ใช่ | ไม่ใช่ |
 | appFigures | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | คิวบ์ AtScale | ใช่ | ใช่ | ใช่ | ใช่ | ไม่ใช่ |
-| Azure Analysis Services | ใช่ | ใช่ | ใช่ | ใช่ <sup>2</sup> | ไม่ใช่ |
+| Azure Analysis Services | ใช่ | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ |
 | พื้นที่เก็บข้อมูล Azure Blob | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
 | Azure Cosmos DB | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Azure Cost Management | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
