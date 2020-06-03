@@ -9,21 +9,18 @@ ms.topic: conceptual
 ms.date: 05/17/2020
 ms.author: mihart
 LocalizationGroup: Administration
-ms.openlocfilehash: 9db228253e0e88105108a1b3a5eaf725c73e0abb
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 9c13f29b29742e62cb08c973e5444a7879e6222a
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563606"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812231"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>ลงทะเบียนสำหรับ Power BI ด้วย Microsoft 365 รุ่นทดลองใช้ฟรี ตัวใหม่
 
 บทความนี้อธิบายวิธีทางเลือกในการลงทะเบียนสำหรับ Power BI ถ้าคุณยังไม่มีบัญชีผู้ใช้อีเมลที่ทำงานหรือโรงเรียน
 
 หากคุณกำลังมีปัญหาในการลงทะเบียนใช้งาน Power BI ด้วยที่อยู่อีเมลของคุณ ก่อนอื่นให้ตรวจสอบให้แน่ใจว่าเป็น [ที่อยู่อีเมลที่สามารถใช้ได้กับ Power BI](../fundamentals/service-self-service-signup-for-power-bi.md#supported-email-addresses) ถ้าไม่สำเร็จ ให้ลงทะเบียนสำหรับ Microsoft 365 รุ่นทดลองใช้ฟรีและสร้างบัญชีที่ทำงาน จากนั้น ใช้บัญชีที่ทำงานใหม่เพื่อลงทะเบียนสำหรับบริการของ Power BI คุณจะสามารถใช้ Power BI ได้แม้ว่า Microsoft 365 รุ่นทดลองใช้ฟรีจะหมดอายุ
-
-> [!NOTE]
-> Office 365 เพิ่งจะเปลี่ยนชื่อใหม่เป็น Microsoft 365 คุณอาจยังคงเห็นว่ามีการอ้างอิงถึงในฐานะ Office 365 จนกว่าบทความของเราทั้งหมดจะได้รับการอัปเดต
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>ลงทะเบียนสำหรับรุ่นทดลองใช้ Office ของ Microsoft 365
 ลงทะเบียนสำหรับ Microsoft 365 รุ่นทดลองใช้ฟรี[บนเว็บไซต์ Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) ถ้าคุณยังไม่มีบัญชี Microsoft จะแนะนำให้คุณทำตามขั้นตอนในการสร้างบัญชี เนื่องจากบัญชีอีเมลการค้าเชิงพาณิชย์ (เช่น Hotmail และ Gmail) จะไม่สามารถใช้งานได้กับ Microsoft 365 คุณจะต้องสร้างบัญชีใหม่ที่จะ  บัญชีอีเมลนั้นจะมีลักษณะบางอย่างเช่น *zalan@onmicrosoft.com*
@@ -42,7 +39,7 @@ ms.locfileid: "83563606"
 
     ![สร้างบัญชีที่ทำงานหรือโรงเรียน](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-enter-info.png)
 
-3. สร้างที่อยู่อีเมลและรหัสผ่านใหม่ของคุณ สร้างชื่อการลงชื่อเข้าใช้ใหม่ของคุณที่มีลักษณะเหมือน you@yourcompany.onmicrosoft.com นี่คือการลงชื่อเข้าใช้ด้วยบัญชี Office 365 ใหม่ของคุณและด้วย Power BI
+3. สร้างที่อยู่อีเมลและรหัสผ่านใหม่ของคุณ สร้างชื่อการลงชื่อเข้าใช้ใหม่ของคุณที่มีลักษณะเหมือน you@yourcompany.onmicrosoft.com นี่คือการลงชื่อเข้าใช้ด้วยบัญชีที่ทำงานหรือโรงเรียนใหม่ของคุณและกับ Power BI
 
     ![เลือกลงทะเบียนสำหรับบัญชีใหม่](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
 

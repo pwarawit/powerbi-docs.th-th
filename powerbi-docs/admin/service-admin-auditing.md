@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: c0f8e6f0282e4a862c8fc92e922a412ba0f56098
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564626"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812438"
 ---
 # <a name="track-user-activities-in-power-bi"></a>ติดตามกิจกรรมของผู้ใช้ใน Power BI
 
@@ -26,7 +26,7 @@ ms.locfileid: "83564626"
 | รวมเหตุการณ์จาก SharePoint Online, Exchange Online, Dynamics 365 และบริการอื่นๆ นอกเหนือจากเหตุการณ์การตรวจสอบ Power BI | รวมเฉพาะเหตุการณ์การตรวจสอบ Power BI |
 | เฉพาะผู้ใช้ที่มีสิทธิ์ในการบันทึกการตรวจสอบหรือบันทึกการตรวจสอบแบบดูเท่านั้นที่สามารถเข้าถึงได้ เช่น ผู้ดูแลระบบและผู้สอบบัญชีส่วนกลาง | ผู้ดูแลระบบส่วนกลางและผู้ดูแลระบบบริการของ Power BI มีสิทธิ์เข้าถึง |
 | ผู้ดูแลระบบส่วนกลางและผู้ตรวจสอบสามารถค้นหาบันทึกการตรวจสอบแบบรวมได้โดยใช้ศูนย์การรักษาความปลอดภัย Microsoft 365 และศูนย์การปฏิบัติตามข้อบังคับ Microsoft 365 | ยังไม่มีอินเทอร์เฟซผู้ใช้ในการค้นหาบันทึกกิจกรรม |
-| ผู้ดูแลระบบส่วนกลางและผู้ตรวจสอบสามารถดาวน์โหลดรายการบันทึกการตรวจสอบได้โดยใช้ API การจัดการของ Office 365 และ cmdlets | ผู้ดูแลระบบส่วนกลางและผู้ดูแลระบบบริการของ Power BI สามารถดาวน์โหลดบันทึกรายการกิจกรรมโดยใช้ Power BI REST API และ cmdlet การจัดการ |
+| ผู้ดูแลระบบส่วนกลางและผู้ตรวจสอบสามารถดาวน์โหลดรายการบันทึกการตรวจสอบได้โดยใช้ API การจัดการของ Microsoft 365 และ cmdlets | ผู้ดูแลระบบส่วนกลางและผู้ดูแลระบบบริการของ Power BI สามารถดาวน์โหลดบันทึกรายการกิจกรรมโดยใช้ Power BI REST API และ cmdlet การจัดการ |
 | เก็บข้อมูลการตรวจสอบเป็นเวลา 90 วัน | เก็บข้อมูลกิจกรรมเป็นเวลา 30 วัน (มุมมองสาธารณะ) |
 | เก็บรักษาข้อมูลการตรวจสอบแม้ว่าผู้เช่าจะถูกย้ายไปยังภูมิภาค Azure อื่นก็ตาม | ไม่เก็บรักษาข้อมูลการตรวจสอบเมื่อผู้เช่าถูกย้ายไปยังภูมิภาค Azure อื่น |
 
@@ -239,6 +239,7 @@ Remove-PSSession $Session
 
 | ชื่อที่เรียกง่าย                                     | ชื่อการดำเนินการ                              | บันทึกย่อ                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| เข้าถึงตารางที่แนะนำของ Power BI ใน Excel | AnalyzedByExternalApplication |    |
 | เพิ่มแหล่งข้อมูลไปยังเกตเวย์ Power BI แล้ว             | AddDatasourceToGateway                      |                                          |
 | เพิ่มการเข้าถึงโฟลเดอร์ Power BI แล้ว                      | AddFolderAccess                             | ยังไม่ได้ใช้ในปัจจุบัน                       |
 | เพิ่มสมาชิกกลุ่ม Power BI แล้ว                      | AddGroupMembers                             |                                          |
@@ -299,6 +300,7 @@ Remove-PSSession $Session
 | พิมพ์แดชบอร์ด Power BI แล้ว                        | PrintDashboard                              |                                          |
 | พิมพ์หน้ารายงาน Power BI แล้ว                      | PrintReport                                 |                                          |
 | เผยแพร่รายงาน Power BI ไปยังเว็บแล้ว                  | PublishToWebReport <sup>2</sup>                         |                                          |
+| ตารางที่แนะนำที่เผยแพร่หรือปรับปรุงแล้ว | UpdateFeaturedTables <sup>3</sup>   | |
 | ได้รับข้อมูลลับสำหรับกระแสข้อมูล Power BI จาก Key Vault แล้ว  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | ลบแหล่งข้อมูลออกจากเกตเวย์ Power BI แล้ว         | RemoveDatasourceFromGateway                 |                                          |
 | ลบสมาชิกกลุ่ม Power BI แล้ว                    | DeleteGroupMembers                          |                                          |
@@ -341,6 +343,8 @@ Remove-PSSession $Session
 <sup>1</sup> การเผยแพร่จาก Power BI Desktop ไปยังบริการคือเหตุการณ์ CreateReport ในบริการ
 
 <sup>2</sup> PublishtoWebReport อ้างอิงถึงคุณลักษณะ [เผยแพร่ไปยังเว็บ](../collaborate-share/service-publish-to-web.md)
+
+<sup>3</sup> UpdateFeaturedTables อ้างอิงถึง [ตารางที่แนะนำของ Power BI ใน Excel](../collaborate-share/service-excel-featured-tables.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

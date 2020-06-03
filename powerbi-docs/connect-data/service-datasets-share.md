@@ -1,22 +1,22 @@
 ---
-title: แชร์ชุดข้อมูล (ตัวอย่าง)
+title: แชร์ชุดข้อมูล
 description: ในฐานะเจ้าของชุดข้อมูล คุณสามารถสร้างและแชร์ชุดข้อมูลของคุณเพื่อให้ผู้อื่นสามารถใช้ได้ เรียนรู้วิธีการแชร์
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565471"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794092"
 ---
-# <a name="share-a-dataset-preview"></a>แชร์ชุดข้อมูล (ตัวอย่าง)
+# <a name="share-a-dataset"></a>แชร์ชุดข้อมูล
 
 ในฐานะผู้สร้าง*แบบจำลองข้อมูล*ใน Power BI Desktop คุณกำลังสร้าง*ชุดข้อมูล*ที่คุณสามารถแจกจ่ายได้ในบริการของ Power BI จากนั้น ผู้สร้างรายงานอื่น ๆ สามารถใช้ชุดข้อมูลของคุณเป็นพื้นฐานสำหรับรายงานของตนเอง ในบทความนี้ คุณจะได้เรียนรู้วิธีการแชร์ชุดข้อมูลของคุณ หากต้องการเรียนรู้วิธีการให้และลบการเข้าถึงชุดข้อมูลที่คุณแชร์ กรุณาอ่านเกี่ยวกับ[สิทธิ์ในการสร้าง](service-datasets-build-permissions.md)
 
@@ -26,7 +26,7 @@ ms.locfileid: "83565471"
 
     แนวทางปฏิบัติที่ดีที่สุดคือการบันทึกไฟล์.pbix ไว้ใน Microsoft 365 Group
 
-1. เผยแพร่ไฟล์.pbix ไปยัง[พื้นที่ทำงานประสบการณ์การใช้งานใหม่](../collaborate-share/service-create-the-new-workspaces.md)ในบริการของ Power BI
+1. เผยแพร่ไฟล์.pbix ไปยัง[ประสบการณ์การใช้งานพื้นที่ทำงานใหม่](../collaborate-share/service-create-the-new-workspaces.md)ในบริการของ Power BI
     
     แล้วสมาชิกอื่น ๆ ในพื้นที่ทำงานนี้จะสามารถสร้างรายงานในพื้นที่ทำงานอื่น ๆ โดยยึดตามชุดข้อมูลนี้
 
@@ -53,5 +53,5 @@ ms.locfileid: "83565471"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-- [ใช้ชุดข้อมูลทั้งพื้นที่ทำงาน (ดูตัวอย่าง)](service-datasets-across-workspaces.md)
+- [ใช้ชุดข้อมูลทั่วทั้งพื้นที่ทำงาน](service-datasets-across-workspaces.md)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

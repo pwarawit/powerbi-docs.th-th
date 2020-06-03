@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/27/2020
+ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 605d35d55f3191b230d9c4a8d118e2c238283ff2
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564483"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733610"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>ดูแล Power BI ในพอร์ทัลผู้ดูแลระบบ
 
@@ -356,6 +356,16 @@ ms.locfileid: "83564483"
 ### <a name="use-global-search-for-power-bi-preview"></a>ใช้การค้นหาทั้งหมดสำหรับ Power BI (ตัวอย่าง)
 
 ผู้ใช้ในองค์กรสามารถใช้คุณลักษณะการค้นหาภายนอกที่อาศัยการค้นหา Azure
+
+## <a name="featured-tables-settings"></a>การตั้งค่าตารางที่แนะนำ
+
+ภายใต้ **การตั้งค่าผู้เช่า** **อนุญาตการเชื่อมต่อกับตารางที่แนะนำ** การตั้งค่าผู้เช่าช่วยให้ผู้ดูแลระบบ Power BI สามารถควบคุมได้ว่าใครในองค์กรสามารถใช้ตารางที่แนะนำในแกลเลอรีชนิดข้อมูล Excel ได้ 
+
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="การเชื่อมต่อกับตารางที่แนะนำทั้งหมด":::
+
+การเชื่อมต่อไปยังตารางที่แนะนำจะถูกปิดใช้งานถ้าการตั้งค่าผู้เช่า **ส่งออกข้อมูล** ถูกตั้งค่าเป็น **ปิดใช้งาน**
+
+อ่านเพิ่มเติมเกี่ยวกับ [ตารางที่แนะนำของ Power BI ใน Excel](../collaborate-share/service-excel-featured-tables.md)
 
 ## <a name="power-bi-visuals-settings"></a>การตั้งค่าวิชวล Power BI
 

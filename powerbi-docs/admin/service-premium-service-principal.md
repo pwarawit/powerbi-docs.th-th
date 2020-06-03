@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/12/2020
+ms.date: 05/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1a6cf5cad4fe4b76d44dcfaecd81324003687b10
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: aa8b457dfd33cff40dbd651f0e07811e361e52d9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407897"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120953"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>ทำให้พื้นที่ทำงาน Premium และงานชุดข้อมูลเป็นแบบอัตโนมัติิด้วยบริการหลัก
 
@@ -29,7 +29,7 @@ Power BI Premium ใช้ฟังก์ชันการทำงานขอ
 - Azure Logic Apps
 - แอปพลิเคชันไคลเอ็นต์แบบกำหนดเอง
 
-สามารถใช้บริการหลักเฉพาะกับตำแหน่งข้อมูล XMLA เทียบกับ [พื้นที่ทำงานใหม่](../collaborate-share/service-new-workspaces.md) ไม่รองรับพื้นที่ทำงานแบบคลาสสิก บริการหลักมีเฉพาะสิทธิ์ที่จำเป็นในการดำเนินงานสำหรับพื้นที่ทำงานที่ได้รับมอบหมาย สิทธิ์จะได้รับมอบหมายผ่านทางการเข้าถึงพื้นที่ทำงาน ซึ่งคล้ายกันกับบัญชี UPN ทั่วไปมาก
+เฉพาะ [พื้นที่ทำงานใหม่](../collaborate-share/service-new-workspaces.md) เท่านั้นที่สนับสนุนการเชื่อมต่อตำแหน่งข้อมูลของ XMLA โดยใช้บริการหลัก ไม่รองรับพื้นที่ทำงานแบบคลาสสิก บริการหลักมีเฉพาะสิทธิ์ที่จำเป็นในการดำเนินงานสำหรับพื้นที่ทำงานที่ได้รับมอบหมาย สิทธิ์จะได้รับมอบหมายผ่านทางการเข้าถึงพื้นที่ทำงาน ซึ่งคล้ายกันกับบัญชี UPN ทั่วไปมาก
 
 ในการดำเนินการเขียนการปฏิบัติการ **ภาระงานชุดข้อมูล** ของความจุจะต้องมี [ตำแหน่งข้อมูล XMLA ที่เปิดใช้งานสำหรับอ่าน-เขียน](service-premium-connect-tools.md#enable-xmla-read-write) ชุดข้อมูลที่เผยแพร่จาก Power BI Desktop ควรมีการเปิดใช้งานคุณลักษณะการ [รูปแบบเมตาดาต้าขั้นสูง](../connect-data/desktop-enhanced-dataset-metadata.md)
 
@@ -91,7 +91,7 @@ $PWord = ConvertTo-SecureString -String $AppSecret -AsPlainText -Force
 
 $Credential = New-Object -TypeName "System.Management.Automation.PSCredential" -ArgumentList $AppId, $PWord
 
-Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -Database "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
+Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -DatabaseName "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
 ```
 
 ### <a name="amo-and-adomd"></a>AMO และ ADOMD
