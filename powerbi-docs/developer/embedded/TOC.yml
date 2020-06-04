@@ -28,8 +28,6 @@
           href: embedded-capacity-planning.md
         - name: แนวทางปฏิบัติที่ดีที่สุดของประสิทธิภาพการทำงาน
           href: embedded-performance-best-practices.md
-        - name: โครงร่างสำคัญของบริการ
-          href: embed-service-principal.md
         - name: รักษาความปลอดภัยระดับแถว
           href: embedded-row-level-security.md
         - name: ความปลอดภัยระดับแถวของรายงานที่มีการแบ่งหน้า
@@ -40,10 +38,12 @@
           href: azure-pbie-diag-logs.md
         - name: คำถามที่พบบ่อยของการฝังตัว
           href: embedded-faq.md
-        - name: สิทธิ์ของ Power BI
-          href: power-bi-permissions.md
     - name: วิธีการ
       items:
+        - name: ฝังโดยใช้บริการหลักพร้อมด้วยใบรับรอง
+          href: embed-service-principal-certificate.md
+        - name: ฝังโดยใช้บริการหลักพร้อมด้วยข้อมูลลับของแอป
+          href: embed-service-principal.md
         - name: ฝังตัวจากแอป
           href: embed-from-apps.md
         - name: ส่งออกรายงานไปยังไฟล์
