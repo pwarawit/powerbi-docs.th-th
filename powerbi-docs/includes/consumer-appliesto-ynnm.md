@@ -1,5 +1,5 @@
 ---
-title: รวมไฟล์
+title: รวมถึงไฟล์
 description: รวมไฟล์
 services: ''
 author: mihart

@@ -46,7 +46,7 @@ ms.locfileid: "83142309"
 
     :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="การตั้งค่าเนื้อหาที่แนะนำ":::
 
-4. เลือก **บันทึก**
+4. เลือก**บันทึก**
 
     ในตอนนี้ผู้ใช้ทุกคนซึ่งมีสิทธิ์เข้าถึงแดชบอร์ดหรือรายงานนี้ จะเห็นเนื้อหาในส่วน**ที่แนะนำ**บน**หน้าหลัก**
 
@@ -60,4 +60,4 @@ ms.locfileid: "83142309"
 
 * [ฉันควรทำงานร่วมกัน และแชร์แดชบอร์ดและรายงานได้อย่างไร](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 * [จัดการเนื้อหาที่แนะนำในพอร์ทัลผู้ดูแลระบบ](../admin/service-admin-portal.md#manage-featured-content)
-* มีคำถามหรือไม่? [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+* มีคำถามหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

@@ -44,4 +44,4 @@ ms.locfileid: "83274408"
 * [รับรองชุดข้อมูล](../connect-data/service-datasets-certify.md)
 * [เลื่อนระดับกระแสข้อมูล](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow)
 * [รับรองกระแสข้อมูล](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)
-* มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+* มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

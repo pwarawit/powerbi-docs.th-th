@@ -16,14 +16,14 @@ ms.lasthandoff: 05/13/2020
 ms.locfileid: "83349344"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>แชร์แดชบอร์ดหรือรายงานจากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI
-ใช้ได้กับ:
+นำไปใช้กับ:
 
-| ![iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![มือถือ Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![โทรศัพท์ Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhones |iPad |มือถือ Android |แท็บเล็ต Android |อุปกรณ์ Windows 10 |
+| iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |อุปกรณ์ Windows 10 |
 
 >[!NOTE]
->การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ**โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [เรียนรู้เพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
+>การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ **โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ด้วย[สิทธิ์การใช้งาน Power BI Pro](../../fundamentals/service-features-license-type.md) คุณสามารถเชิญบุคคลอื่นเพื่อดูแดชบอร์ดและรายงานของคุณ โดยการแชร์ลิงก์จากแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ได้ คุณสามารถแชร์กับทุกคน ทั้งในและนอกองค์กรของคุณ ทั้งมีหรือไม่มีบัญชีอีเมลขององค์กร พวกเขาจำเป็นต้องมีสิทธิ์การใช้งาน Power BI Pro ด้วย หรือเนื้อหาจำเป็นต้องอยู่ใน[ความจุพรีเมียม](../../admin/service-premium-what-is.md)
 
@@ -102,4 +102,4 @@ ms.locfileid: "83349344"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [ใส่คำอธิบายประกอบ และแชร์สแนปช็อตของไทล์ รายงาน หรือภาพในแอปสำหรับอุปกรณ์เคลื่อนที่](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [แชร์แดชบอร์ดหรือรายงานใน Power BI](../../collaborate-share/service-share-dashboards.md)
-* มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+* คำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

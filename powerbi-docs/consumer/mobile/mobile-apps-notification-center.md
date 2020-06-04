@@ -16,14 +16,14 @@ ms.lasthandoff: 05/13/2020
 ms.locfileid: "83276110"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>รับการแจ้งเตือนในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
-ใช้ได้กับ:
+นำไปใช้กับ:
 
-| ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![มือถือ Android](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![โทรศัพท์ Android](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhones |iPad |มือถือ Android |แท็บเล็ต Android |อุปกรณ์ Windows 10 |
+| iPhone |iPad |โทรศัพท์ Android |แท็บเล็ต Android |อุปกรณ์ Windows 10 |
 
 >[!NOTE]
->การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ**โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [เรียนรู้เพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
+>การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ **โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 การแจ้งเตือนจะนำข้อมูลที่เกี่ยวข้องกับประสบการณ์ Power BI ให้คุณ ในบริการของ Power BI หรือบนอุปกรณ์เคลื่อนที่ของคุณ เมื่อคุณเปิดการแจ้งเตือน คุณจะเห็นตัวดึงข้อมูลเรียงเป็นลำดับเกี่ยวกับ[การแจ้งเตือนที่คุณได้ตั้งค่า](mobile-set-data-alerts-in-the-mobile-apps.md)แดชบอร์ดใหม่ที่มีการแชร์กับคุณ การเปลี่ยนแปลงพื้นที่การทำงานกลุ่มของคุณ รายละเอียดเกี่ยวกับเหตุการณ์ใน Power BI และการประชุม และอื่นๆ
 
@@ -72,7 +72,7 @@ ms.locfileid: "83276110"
     ![เลือกการแจ้งเตือน](./media/mobile-apps-notification-center/power-bi-notifications-windows10-settings.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [แจ้งเตือนข้อมูลในบริการ Power BI](../../create-reports/service-set-data-alerts.md)
-* [ตั้งค่าการแจ้งเตือนข้อมูลในแอปฯ iPhone (Power BI สำหรับ iOS)](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [ตั้งค่าการแจ้งเตือนข้อมูลในแอป mobile Power BI สำหรับ Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [การแจ้งเตือนข้อมูลในบริการของ Power BI](../../create-reports/service-set-data-alerts.md)
+* [ตั้งค่าการแจ้งเตือนข้อมูลในแอปบน iPhone (Power BI สำหรับ iOS)](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
 * [ดาวน์โหลดเวอร์ชันล่าสุดของแอป Power BI](https://powerbi.microsoft.com/mobile/)สำหรับอุปกรณ์เคลื่อนที่
