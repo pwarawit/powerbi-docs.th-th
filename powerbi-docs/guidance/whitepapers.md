@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 06/03/2020
 ms.author: maggies
-ms.openlocfilehash: f0bf8edc3c954bf5c79d76c1a3bdba1a08ae40ae
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 529be27d10a5ac1a352473be14e6e7184493bdf9
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121097"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336808"
 ---
 # <a name="whitepapers-for-power-bi"></a>เอกสารทางเทคนิคสำหรับ Power BI
 
@@ -21,7 +21,7 @@ ms.locfileid: "84121097"
 
 | เอกสารทางเทคนิค | คำอธิบาย | วันที่ |
 | --- | --- | --- |
-| [วางแผนการใช้งาน Power BI Enterprise](https://aka.ms/PBIEnterpriseDeploymentWP) |เอกสารทางเทคนิคที่อัปเดตแล้วนี้สรุปและหลักปฏิบัติที่ดีที่สุดสำหรับการปรับใช้ Power BI ขององค์กรที่มีประสิทธิภาพและปลอดภัย | May ๒๐๒๐ |
+| [วางแผนการใช้งาน Power BI Enterprise](https://aka.ms/PBIEnterpriseDeploymentWP) |เอกสารทางเทคนิคที่อัปเดตแล้วนี้สรุปและหลักปฏิบัติที่ดีที่สุดสำหรับการปรับใช้ Power BI ขององค์กรที่มีประสิทธิภาพและปลอดภัย | มิถุนายน๒๐๒๐ |
 | [Power BI และกระแสข้อมูล](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| เอกสารสรุปนี้อธิบายถึงกระแสข้อมูลในรายละเอียดทางเทคนิค และอธิบายถึงความสามารถและความคิดริเริ่มที่อยู่เบื้องหลังฟีเจอร์และฟังก์ชันของกระแสข้อมูล | พฤศจิกายน 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |อธิบาย Power BI Premium ทั้งตามที่มีอยู่เมื่อเปิดใช้งาน และพัฒนาการของ Power BI Premium | ตุลาคม 2017 |
 | [การใช้งานและการวางแผน Power BI Premium](whitepaper-powerbi-premium-deployment.md)| เนื้อหาของเอกสารนี้ได้รับการรวมเข้ากับคำแนะนำทั่วไป ดูลิงก์สำหรับคำแนะนำและแนวทางปฏิบัติที่ดีที่สุดสำหรับการวางแผนและปรับใช้ความจุพรีเมียมสำหรับปริมาณงานที่กำหนดไว้อย่างดี| มีนาคม 2019 |
