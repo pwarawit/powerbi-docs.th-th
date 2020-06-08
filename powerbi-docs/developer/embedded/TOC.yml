@@ -94,6 +94,8 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: ฝังเค้าโครงแบบกำหนดเองลงในแอป
           href: embedded-custom-layout.md
+        - name: Azure CLI
+          href: /cli/azure/ext/powerbidedicated/powerbi
     - name: ทรัพยากร
       items:
         - name: ศูนย์นักพัฒนา
