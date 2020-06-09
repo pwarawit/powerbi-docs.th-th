@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4a363ce72002003981f1bcbe46e0f5367f89860f
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 417d5a03ed45897896db15f2fd31d3badae837c5
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733494"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273471"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>เผยแพร่ชุดข้อมูลและรายงานจาก Power BI Desktop
 เมื่อคุณเผยแพร่เป็นไฟล์ Power BI Desktop ไปยังบริการ Power BI แสดงว่าคุณได้เผยแพร่ข้อมูลในแบบจำลองดังกล่าวไปยังพื้นที่ทำงาน Power BI ของคุณ ข้อมูลเดียวกันนี้จะเป็นจริงสำหรับรายงานใด ๆ ที่คุณสร้างไว้ในมุมมอง**รายงาน** คุณจะเห็นชุดข้อมูลใหม่ที่มีชื่อเดียวกัน และรายงานต่างๆในตัวนำทางของพื้นที่ทำงานของคุณ
@@ -23,13 +23,12 @@ ms.locfileid: "83733494"
 
 > [!NOTE]
 > การเปลี่ยนแปลงใดๆที่คุณทำกับรายงานใน Power BI จะไม่ถูกบันทึกกลับไปยังไฟล์ Power BI Desktop ต้นฉบับ ซึ่งรวมถึงเวลาที่คุณเเพิ่ม ลบ หรือเปลี่ยนแปลงการแสดงภาพต่าง ๆ ในรายงาน
-> 
-> 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>เมื่อต้องการเผยแพร่ชุดข้อมูลและรายงาน Power BI Desktop
 1. ใน Power BI Desktop เลือก **ไฟล์** \> **เผยแพร่** \> **เผยแพร่ไปยัง Power BI** หรือเลือก **เผยแพร่** บน Ribbon  
 
    ![ปุ่มเผยแพร่](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
+
 
 2. ลงชื่อเข้าใช้ไปยัง Power BI
 3. เลือกปลายทาง
@@ -55,3 +54,7 @@ ms.locfileid: "83733494"
    ![คำเตือนเกี่ยวกับผลกระทบของการเผยแพร่ชุดข้อมูลใหม่อีกครั้ง](media/desktop-upload-desktop-files/pbid-dataset-impact-analysis-desktop-warning.png)
 
    [เรียนรู้เพิ่มเติมเกี่ยวกับการวิเคราะห์ผลกระทบของชุดข้อมูล](../collaborate-share/service-dataset-impact-analysis.md)
+
+> [!NOTE]
+> การเชื่อมต่อข้อมูลบางอย่างในรายงาน Power BI อาจรวมถึงการเชื่อมโยงไปยังข้อมูล แทนที่จะรวมข้อมูลในชุดข้อมูลที่นำเข้าลงในบริการ Power BI ตัวอย่างเช่น ลิงก์การเชื่อมต่อ DirectQuery ไปยังข้อมูลเนื่องจากเกิดการอัปเดตหรือการโต้ตอบ แทนที่จะนำเข้าข้อมูลด้วยตัวเอง ถ้าแหล่งข้อมูลที่เชื่อมโยงในรายงานของคุณอยู่ภายในองค์กร คุณอาจจำเป็นต้องมีเกตเวย์เพื่อเข้าถึงจาก Power BI อีกด้วย สำหรับข้อมูลเพิ่มเติม ดูที่ [เกตเวย์ข้อมูลภายในองค์กรคืออะไร](../connect-data/service-gateway-onprem.md)
+> 

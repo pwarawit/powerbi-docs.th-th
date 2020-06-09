@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 09/13/2019
+ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 38f3b9e40001b5cc3d90d35ed56e768237345e5d
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: f28182b8ecfcadae92f64a725622493ebd7a6c61
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84119799"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160260"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>การแก้ไขปัญหาสถานการณ์สมมติในการรีเฟรช
 
@@ -23,7 +23,14 @@ ms.locfileid: "84119799"
 > [!NOTE]
 > ถ้าคุณพบกับสถานการณ์สมมติที่ไม่ได้แสดงอยู่ในรายการด้านล่างนี้ และทำให้เกิดปัญหากับคุณ คุณสามารถขอความช่วยเหลือเพิ่มเติมได้ใน[เว็บไซต์ชุมชน](https://community.powerbi.com/) หรือคุณสามารถสร้าง[ตั๋วสนับสนุน](https://powerbi.microsoft.com/support/)ได้
 >
->
+
+คุณควรตรวจสอบให้แน่ใจว่ามีการตอบสนองความต้องการพื้นฐานสำหรับการรีเฟรชและผ่านการตรวจสอบแล้ว ข้อกำหนดพื้นฐานเหล่านี้ประกอบด้วย:
+
+* ตรวจสอบเวอร์ชันของเกตเวย์ว่าเป็นเวอร์ชันล่าสุด
+* ตรวจสอบว่ารายงานได้เลือกเกตเวย์แล้ว ถ้าไม่ใช่ แหล่งข้อมูลอาจมีการเปลี่ยนแปลงหรืออาจหายไป
+
+หลังจากที่คุณยืนยันความต้องการเหล่านั้นแล้ว โปรดลองดูที่ส่วนต่อไปนี้เพื่อแก้ไขปัญหาเพิ่มเติม 
+
 
 ## <a name="email-notifications"></a>การแจ้งเตือนทางอีเมล
 

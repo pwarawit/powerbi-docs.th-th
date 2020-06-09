@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 78487f52df9f62e85e80f02d9653c9ac2f5b52c7
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276064"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337130"
 ---
-# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>บทช่วยสอน: ฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันสำหรับลูกค้าของคุณ (ตัวอย่าง)
+# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>บทช่วยสอน: ฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันสำหรับลูกค้าของคุณ
 
 ด้วย **Power BI Embedded in Azure** หรือ **Power BI embedding in Office** คุณสามารถฝังรายงานที่มีการแบ่งหน้าลงในแอปพลิเคชันโดยใช้ข้อมูลที่แอปเป็นเจ้าของ **แอปเป็นเจ้าของข้อมูล** เกี่ยวกับแอปพลิเคชันที่ใช้ Power BI เป็นแพลตฟอร์มการวิเคราะห์แบบฝังตัว ในฐานะที่เป็น **ISV** หรือ **นักพัฒนา** คุณสามารถสร้างเนื้อหา Power BI ที่แสดงรายงานที่มีการแบ่งหน้าในแอปพลิเคชันที่รวมงานทั้งหมดไว้ด้วยกันและที่โต้ตอบได้ โดยผู้ใช้ไม่ต้องมีสิทธิ์การใช้งาน Power BI บทช่วยสอนนี้สาธิตวิธีการรวมรายงานที่มีการแบ่งหน้าลงในแอปพลิเคชัน โดยใช้ Power BI SDK .NET กับ Power BI JavaScript API
 
@@ -40,7 +40,7 @@ ms.locfileid: "83276064"
 
 > [!IMPORTANT]
 > * คุณต้องใช้**โครงร่างสำคัญของบริการ** ผู้ใช้หลักไม่ได้รับการสนับสนุน
-> * แหล่งข้อมูลที่จำเป็นต้องมีการลงชื่อเข้าระบบครั้งเดียว (SSO) ไม่ได้รับการสนับสนุน
+> * แหล่งข้อมูลที่จำเป็นต้องมีการลงชื่อเข้าระบบครั้งเดียว (SSO) ไม่ได้รับการสนับสนุน สำหรับรายการของชุดข้อมูลที่ได้รับการสนับสนุนและวิธีการรับรองความถูกต้อง โปรดดูที่ [แหล่งข้อมูลที่สนับสนุนสำหรับรายงานที่มีการแบ่งหน้า Power BI](../../paginated-reports/paginated-reports-data-sources.md) 
 > * ชุดข้อมูล Power BI ไม่ได้รับการสนับสนุนเป็น[แหล่งข้อมูล](../../connect-data/service-get-data.md)
 
 ## <a name="set-up-your-power-bi-environment"></a>ตั้งค่าสภาพแวดล้อม Power BI ของคุณ

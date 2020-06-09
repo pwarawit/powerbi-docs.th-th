@@ -1,5 +1,5 @@
 ---
-title: รับการสมัครใช้งาน Power BI สำหรับองค์กรของคุณ
+title: รับการสมัครใช้งานบริการ Power BI สำหรับองค์กรของคุณ
 description: วิธีการลงทะเบียนสำหรับการสมัครใช้งานบริการ Power BI ในญานะผู้ดูแลระบบและการซื้อสิทธิการใช้งานเป็นกลุ่ม
 author: kfollis
 ms.reviewer: ''
@@ -8,17 +8,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/13/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bb8abab7d3f8430037b31e2797d62ce8d7b03e1
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 39ecda08527e0805b1ce26ebd9a1c83ceb57187b
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438182"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160053"
 ---
-# <a name="get-a-power-bi-subscription-for-your-organization"></a>รับการสมัครใช้งาน Power BI สำหรับองค์กรของคุณ
+# <a name="get-a-power-bi-service-subscription-for-your-organization"></a>รับการสมัครใช้งานบริการ Power BI สำหรับองค์กรของคุณ
 
-ผู้ดูแลระบบสามารถลงทะเบียนสำหรับ Power BI ผ่านหน้า **บริการสั่งซื้อ** บนศูนย์การจัดการ Microsoft 365 ได้ เมื่อผู้ดูแลระบบลงทะเบียนสำหรับ Power BI พวกเขาสามารถกำหนดสิทธิการใช้งานไปยังผู้ใช้ที่ควรมีสิทธิ์เข้าใช้งานได้
+ผู้ดูแลระบบสามารถลงทะเบียนสำหรับบริการ Power BI ผ่านหน้า **บริการสั่งซื้อ** บนศูนย์การจัดการ Microsoft 365 ได้ เมื่อผู้ดูแลระบบลงทะเบียนสำหรับ Power BI พวกเขาสามารถกำหนดสิทธิการใช้งานไปยังผู้ใช้ที่ควรมีสิทธิ์เข้าใช้งานได้
 
 ผู้ใช้ในองค์กรของคุณสามารถลงทะเบียนสำหรับ Power BI ได้ผ่านเว็บไซต์ Power BI เมื่อผู้ใช้ในองค์กรของคุณลงทะเบียนสำหรับ Power BI จะมีการกำหนดสิทธิ์การใช้งาน Power BI ให้ผู้ใช้เหล่านั้นโดยอัตโนมัติ ถ้าคุณต้องการปิดใช้งานความสามารถของการบริการตนเอง ให้ทำตามขั้นตอนใน [เปิดใช้งานหรือปิดใช้งานการลงทะเบียนและการซื้อแบบบริการตนเอง](service-admin-disable-self-service.md)
 

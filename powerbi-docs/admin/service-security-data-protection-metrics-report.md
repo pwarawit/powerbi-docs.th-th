@@ -6,34 +6,34 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/23/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: e16acffd683b14eb48a6e21ddc456caeac25efc3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fdc246d1edb487ce7280ceee8a3727d2faeb0252
+ms.sourcegitcommit: 12f26ae9a2615cb287fee9046b0dc713af764c04
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131995"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "84229084"
 ---
-# <a name="data-protection-metrics-report-preview"></a>รายงานเมตริกการป้องกันข้อมูล (ตัวอย่าง)
+# <a name="data-protection-metrics-report"></a>รายงานเมตริกการป้องกันข้อมูล
 
 ## <a name="what-is-the-data-protection-metrics-report"></a>รายงานเมตริกการป้องกันข้อมูลคืออะไร
-รายงานเมตริกการป้องกันข้อมูลเป็นรายงานเฉพาะที่ [ผู้ดูแลระบบ Power BI](../admin/service-admin-role.md) สามารถใช้เพื่อตรวจสอบและติดตามการใช้งานป้ายชื่อระดับความลับของข้อมูลและการเริ่มนำไปใช้ในผู้เช่าของตน
+รายงานเมตริกการป้องกันข้อมูลเป็นรายงานเฉพาะที่ [ผู้ดูแลระบบ Power BI](../service-admin-role.md) สามารถใช้เพื่อตรวจสอบและติดตามการใช้งานป้ายชื่อระดับความลับของข้อมูลและการเริ่มนำไปใช้ในผู้เช่าของตน
 
 ![รายงานเมตริกการป้องกันข้อมูล](./media/service-security-data-protection-metrics-report/protection-metrics-seven-days-1.png)
  
 คุณลักษณะรายงานประกอบด้วย:
 * แผนภูมิคอลัมน์แบบเรียงซ้อน 100% ที่แสดงการใช้งานป้ายชื่อระดับความลับรายวันในช่วง 7, 30 หรือ 90 วันที่ผ่านมา แผนภูมินี้ช่วยให้ง่ายต่อการติดตามการใช้งานที่สัมพันธ์กันของชนิดป้ายชื่อที่แตกต่างกันเมื่อเวลาผ่านไป
 * แผนภูมิโดนัทที่แสดงสถานะปัจจุบันของการใช้ป้ายชื่อระดับความลับในผู้เช่าสำหรับแดชบอร์ด รายงาน ชุดข้อมูล และกระแสข้อมูล
-* ลิงก์ไปยังพอร์ทัล Cloud App Security ที่มีข้อมูลการแจ้งเตือนของ Power BI ผู้ใช้ที่มีความเสี่ยง บันทึกกิจกรรม และข้อมูลอื่น ๆ สำหรับข้อมูลเพิ่มเติม โปรดดู[การใช้ตัวควบคุม Microsoft Cloud App Security ใน Power BI (ตัวอย่าง)](./service-security-using-microsoft-cloud-app-security-controls.md)
+* ลิงก์ไปยังพอร์ทัล Cloud App Security ที่มีข้อมูลการแจ้งเตือนของ Power BI ผู้ใช้ที่มีความเสี่ยง บันทึกกิจกรรม และข้อมูลอื่น ๆ สำหรับข้อมูลเพิ่มเติม โปรดดู[การใช้ตัวควบคุม Microsoft Cloud App Security ใน Power BI](./service-security-using-microsoft-cloud-app-security-controls.md)
 
 รายงานจะรีเฟรชทุก 24 ชั่วโมง
 
 ## <a name="viewing-the-data-protection-metrics-report"></a>การดูรายงานเมตริกการป้องกันข้อมูล
 
-คุณต้องมี [บทบาทผู้ดูแลระบบ Power BI](../admin/service-admin-role.md) เพื่อเปิดและดูรายงาน
-หากต้องการดูรายงาน ให้ไปที่ **การตั้งค่า > พอร์ทัลผู้ดูแลระบบ** และเลือก **เมตริกการป้องกัน (ตัวอย่าง)**
+คุณต้องมี [บทบาทผู้ดูแลระบบ Power BI](../service-admin-role.md) เพื่อเปิดและดูรายงาน
+หากต้องการดูรายงาน ให้ไปที่ **การตั้งค่า > พอร์ทัลผู้ดูแลระบบ** และเลือก **เมตริกการป้องกัน**
 
 ![พอร์ทัลผู้ดูแลระบบเมตริกการป้องกัน](./media/service-security-data-protection-metrics-report/protection-metrics-admin-portal.png)
  
@@ -51,9 +51,9 @@ ms.locfileid: "83131995"
 * เพื่อเข้าถึงข้อมูล Cloud App Security องค์กรของคุณต้องมี [สิทธิ์การใช้งาน Cloud App Security](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing) ที่เหมาะสม
 * ถ้าคุณตัดสินใจที่จะแชร์ข้อมูลจากรายงานเมตริกการป้องกันข้อมูลด้วยผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบ Power BI โปรดตระหนักว่ารายงานนี้ประกอบด้วยข้อมูลที่สำคัญเกี่ยวกับองค์กรของคุณ
 * รายงานเมตริกการป้องกันข้อมูลเป็นรายงานชนิดพิเศษ และไม่แสดงในรายการ "แชร์กับฉัน" "ล่าสุด" และ "รายการโปรด"
-* รายงานเมตริกการป้องกันข้อมูลไม่พร้อมใช้งานสำหรับ [ผู้ใช้ภายนอก (Azure Active Directory ผู้ใช้ที่เป็นผู้เยี่ยมชม B2B)](../admin/service-admin-azure-ad-b2b.md)
+* รายงานเมตริกการป้องกันข้อมูลไม่พร้อมใช้งานสำหรับ [ผู้ใช้ภายนอก (Azure Active Directory ผู้ใช้ที่เป็นผู้เยี่ยมชม B2B)](../service-admin-azure-ad-b2b.md)
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [การป้องกันข้อมูลใน Power BI (ตัวอย่าง)](./service-security-data-protection-overview.md)
-* [การใช้ตัวควบคุม Microsoft Cloud App Security ใน Power BI (ตัวอย่าง)](./service-security-using-microsoft-cloud-app-security-controls.md)
-* [ทำความเข้าใจเกี่ยวกับบทบาทผู้ดูแลระบบบริการของ Power BI](../admin/service-admin-role.md)
-* [เปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI](./service-security-enable-data-sensitivity-labels.md)
+* [การป้องกันข้อมูลใน Power BI](./service-security-data-protection-overview.md)
+* [ใช้ตัวควบคุม Microsoft Cloud App Security ใน Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
+* [ทำความเข้าใจเกี่ยวกับบทบาทผู้ดูแลระบบบริการของ Power BI](service-admin-role.md)
+* [เปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI](service-security-enable-data-sensitivity-labels.md)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28e19c750819b883adc2319c171ef1cb7b3125f1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 136376da9d00e5f40397f0d4152e83d17a171168
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273902"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272988"
 ---
 # <a name="publish-to-web-from-power-bi"></a>เผยแพร่บนเว็บจาก Power BI
 
@@ -169,8 +169,7 @@ ms.locfileid: "83273902"
 
 องค์กรที่สร้างขึ้นมักจะมีผู้ดูแลระบบ Power BI อยู่แล้ว บุคคลในบทบาทต่อไปนี้สามารถทำหน้าที่เป็นผู้ดูแลระบบ Power BI ได้:
 
-- ผู้ดูแลระบบ Office 365
-- ผู้ดูแลระบบ Azure Active Directory
+- ผู้ดูแลระบบส่วนกลาง
 - ผู้ใช้ที่มีบทบาทผู้ดูแลระบบบริการของ Power BI ใน Azure Active Directory
 
 คุณจำเป็นต้อง [ค้นหาหนึ่งในบุคคลเหล่านี้](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) ในองค์กรของคุณและขอให้พวกเขาอัปเดต [การตั้งค่าผู้เช่าสำหรับเผยแพร่ไปยังเว็บ](../admin/service-admin-portal.md#publish-to-web) ในพอร์ทัลผู้ดูแลระบบ

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e126451bf016bf4e9dcce7b7a4df51db9ed20386
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ec0d12ddf91b04654b90c5a3e7cdfda24bc04604
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320526"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315913"
 ---
 # <a name="the-enhanced-compute-engine"></a>กลไกการคำนวณขั้นสูง
 
@@ -31,6 +31,9 @@ ms.locfileid: "83320526"
 กลไกการคำนวณขั้นสูงเปิดใช้งานจากหน้า **การตั้งค่าความจุ** ในบริการของ Power BI ในส่วน **กระแสข้อมูล** โดยค่าเริ่มต้น กลไกการคำนวณขั้นสูงจะ**ปิด** เมื่อต้องการเปิดใช้งาน ให้สลับเป็น **เปิด** ดังที่แสดงในภาพต่อไปนี้ แล้วบันทึกการตั้งค่าของคุณ 
 
 ![เปิดกลไกการคำนวณขั้นสูง](media/service-dataflows-enhanced-compute-engine/enhanced-compute-engine-01.png)
+
+> [!IMPORTANT]
+> กลไกการคำนวณขั้นสูงทำงานเฉพาะสำหรับความจุ Power BI ของ A3 และสูงกว่า
 
 เมื่อเปิดกลไกการคำนวณขั้นสูงแล้ว ให้กลับไปที่กระแสข้อมูล คุณควรจะมองเห็นการปรับปรุงประสิทธิภาพที่ดีขึ้นในเอนทิตีที่คำนวณใดๆ ซึ่งทำงานที่ซับซ้อนต่าง ๆ เช่น *รวม* หรือ *จัดกลุ่มตาม* การดำเนินการสำหรับกระแสข้อมูลที่สร้างจากเอนทิตีที่ลิงก์ซึ่งมีอยู่แล้วบนความจุเดียวกัน 
 

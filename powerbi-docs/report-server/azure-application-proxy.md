@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/06/2020
+ms.date: 05/27/2020
 ms.author: maggies
-ms.openlocfilehash: 548e66685c7b460829e171d097d18640cd5b0f57
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3bd792c585f42add6652205a6e4a99fe116ad20f
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922608"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159846"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>กำหนดค่าเซิร์ฟเวอร์รายงาน Power BI ด้วยพร็อกซีแอปพลิเคชัน Azure
 
@@ -166,7 +166,10 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 ![กลุ่มตัวเชื่อมต่อเริ่มต้น](media/azure-application-proxy/report-server-application-proxy-1.png)
 
-เรายังไม่ได้ทำการเปลี่ยนแปลงใดๆ ในส่วน**การตั้งค่าเพิ่มเติม** ซึ่งได้รับการกำหนดค่าให้ทำงานกับตัวเลือกเริ่มต้น:
+เรายังไม่ได้ทำการเปลี่ยนแปลงใดๆ ในส่วน**การตั้งค่าเพิ่มเติม** ซึ่งได้รับการกำหนดค่าให้ทำงานกับตัวเลือกเริ่มต้น
+
+> [!IMPORTANT]
+> เมื่อกำหนดค่าพร็อกซีแอปพลิเคชัน โปรดทราบว่าคุณสมบัติ **การหมดเวลาของแอปพลิเคชันหลังบ้าน** ถูกตั้งค่าเป็น **ค่าเริ่มต้น** (85 วินาที) ถ้าคุณมีรายงานที่ใช้เวลานานกว่า 85 วินาทีในการดำเนิน ให้ตั้งค่าคุณสมบัตินี้เป็น **ยาว** (180 วินาที) ซึ่งเป็นค่าการหมดเวลาที่เป็นไปได้สูงสุด เมื่อกำหนดค่าเป็น **ยาว** แล้วรายงานทั้งหมดจะต้องดำเนินการให้เสร็จสมบูรณ์ภายใน 180 วินาทีหรือไม่เช่นนั้นจะหมดเวลาและส่งผลให้เกิดข้อผิดพลาด
 
 ![กำหนดค่าการตั้งค่าเพิ่มเติม](media/azure-application-proxy/report-server-application-proxy-1.png)
 

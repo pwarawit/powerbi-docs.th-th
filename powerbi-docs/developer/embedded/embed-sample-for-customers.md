@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 12/12/2019
-ms.openlocfilehash: 7eef6c7522bc364bc4b66c9567189dd7aec72239
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 06/02/2020
+ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349850"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337084"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ
 
@@ -46,7 +46,7 @@ ms.locfileid: "83349850"
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>ลงทะเบียนแอปพลิเคชันใน Azure Active Directory (Azure AD)
 
-[ลงทะเบียนแอปพลิเคชัน](register-app.md)กับ Azure Active Directory เพื่ออนุญาตให้เข้าถึงแอปพลิเคชัน[Power BI REST ](https://docs.microsoft.com/rest/api/power-bi/) การลงทะเบียนแอปพลิเคชันจะทำให้คุณสร้างอัตลักษณ์แอปพลิเคชันของคุณและระบุสิทธิ์ไปยังทรัพยากร Power BI REST โดยขึ้นอยู่กับถ้าคุณต้องการใช้บัญชีหลัก หรือ[บริการหลัก](embed-service-principal.md)กำหนดวิธีการเริ่มต้นใช้งานการลงทะเบียนแอปพลิเคชัน
+[ลงทะเบียนแอปพลิเคชัน](register-app.md)กับ Azure Active Directory เพื่ออนุญาตให้เข้าถึงแอปพลิเคชัน[Power BI REST ](https://docs.microsoft.com/rest/api/power-bi/) การลงทะเบียนแอปพลิเคชันจะทำให้คุณสร้างอัตลักษณ์แอปพลิเคชันของคุณและระบุ[สิทธิ์ไปยังทรัพยากร Power BI REST](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent) โดยขึ้นอยู่กับถ้าคุณต้องการใช้บัญชีหลัก หรือ[บริการหลัก](embed-service-principal.md)กำหนดวิธีการเริ่มต้นใช้งานการลงทะเบียนแอปพลิเคชัน
 
 ซึ่งขึ้นอยู่กับวิธีที่คุณใช้ มีผลต่อแอปพลิเคชันชนิดใดที่คุณลงทะเบียนใน Azure
 
@@ -206,7 +206,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 แอตทริบิวต์นี้จำเป็นสำหรับ AuthenticationType ของ[บริการหลัก](embed-service-principal.md)เท่านั้น
 
-กรอกข้อมูล**ผู้เช่า** ด้วย ID ผู้เช่า azure ของคุณ คุณสามารถรับข้อมูลนี้ได้จาก [ศูนย์ผู้ดูแลระบบ Azure AD](/onedrive/find-your-office-365-tenant-id) เมื่อลงชื่อเข้าใช้บริการของ Power BI หรือใช้ Powershell
+กรอกข้อมูล**ผู้เช่า** ด้วย ID ผู้เช่า Azure ของคุณ คุณสามารถรับข้อมูลนี้ได้จาก[ศูนย์ผู้ดูแลระบบ Azure AD](/onedrive/find-your-office-365-tenant-id) เมื่อลงชื่อเข้าใช้บริการของ Power BI หรือใช้ Powershell
 
 ### <a name="run-the-application"></a>เรียกใช้แอปพลิเคชัน
 
@@ -280,7 +280,7 @@ Report report = reports.Value.FirstOrDefault();
 * Models\EmbedConfig.cs
 * Models\TileEmbedConfig.cs
 
-ด้านล่างนี้คือตัวอย่างรหัสสำหรับการใช้งาน API ของโทเค็นแบบฝังตัวสำหรับรายงาน GenerateTokenInGroup 
+ด้านล่างนี้คือตัวอย่างรหัสสำหรับการใช้งาน API ของโทเค็นแบบฝังตัวสำหรับรายงาน GenerateTokenInGroup
 ```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;

@@ -1,6 +1,6 @@
 ---
-title: การออกใบอนุญาตการใช้งาน Power BI ในองค์กรของคุณ
-description: ภาพรวมของประเภทสิทธิการใช้งานที่แตกต่างกันที่มีอยู่ใน Power BI และวิธีที่ผู้ดูแลระบบซื้อและจัดการสิทธิใช้งานสำหรับองค์กรของพวกเขา
+title: การให้สิทธิการใช้งาน Power BI สำหรับผู้ใช้ในองค์กรของคุณ
+description: ภาพรวมของประเภทสิทธิการใช้งานของผู้ใช้ที่แตกต่างกันที่มีอยู่ใน Power BI และวิธีที่ผู้ดูแลระบบซื้อและจัดการสิทธิใช้งานสำหรับผู้ใช้ในองค์กรของพวกเขา
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,15 +8,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/14/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a0ce3eab2992c59c5b887db1f0838f88db7ad2da
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 5bac52e98830c97262945e1434880f9c178a0932
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563499"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160007"
 ---
-# <a name="power-bi-licensing-in-your-organization"></a>การออกใบอนุญาตการใช้งาน Power BI ในองค์กรของคุณ
+# <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>การให้สิทธิการใช้งานบริการ Power BI สำหรับผู้ที่อยู่ในองค์กรของคุณ
 
 สิ่งที่ผู้ใช้สามารถทำได้ในบริการของ Power BI จะขึ้นอยู่กับชนิดของใบอนุญาตต่อผู้ใช้ที่พวกเขามี ระดับการเข้าถึงที่ให้ไว้โดยสิทธิ์การใช้งานของพวกเขาจะขึ้นอยู่กับว่ามีการกำหนดการเข้าถึงพื้นที่ทำงานไปยังความจุ Power BI Premium หรือไม่ ผู้ใช้ทั้งหมดของบริการ Power BI ต้องมีสิทธิการใช้งาน
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1816fb7926ed378cdb70ce2e0ade08893828ce4c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1d0dcc80c358fa4c6f0768d515c399a3f381bfe7
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301344"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273379"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>การแก้ไขปัญหาการนำเข้าไฟล์ Access และไฟล์ .xls ของ Excel ใน Power BI Desktop
 
@@ -30,7 +30,7 @@ ms.locfileid: "83301344"
 
 ## <a name="situation-2-the-access-database-engine-bit-version-32-bit-or-64-bit-is-different-from-your-power-bi-desktop-bit-version"></a>สถานการณ์ที่ 2: เวอร์ชันบิตของกลไกจัดการฐานข้อมูล Access (32 บิต หรือ 64 บิต) แตกต่างจากเวอร์ชันบิตของ Power BI Desktop ของคุณ
 
-สถานการณ์นี้มักจะเกิดขึ้นเมื่อเวอร์ชั่นของ Microsoft Office ที่ติดตั้งเป็นแบบ 32 บิต และเวอร์ชันของ Power BI Desktop ที่ติดตั้งเป็นแบบ 64 บิต สถานการณ์ตรงกันข้ามสามารถเกิดขึ้นได้และเกิดการไม่สอดล้องกันของเวอร์ชันบิตในกรณีใดกรณีหนึ่ง หากคุณใช้การสมัครใช้งาน Office 365 ให้ดู [สถานการณ์ที่ 3](#situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription) สำหรับปัญหาและวิธีแก้ไขที่แตกต่างกัน วิธีการแก้ไขหนึ่งจากหลายข้อต่อไปนี้สามารถแก้ไขข้อผิดพลาดเรื่องเวอร์ชันบิตที่ไม่ตรงกัน:
+สถานการณ์นี้มักจะเกิดขึ้นเมื่อเวอร์ชั่นของ Microsoft Office ที่ติดตั้งเป็นแบบ 32 บิต และเวอร์ชันของ Power BI Desktop ที่ติดตั้งเป็นแบบ 64 บิต สถานการณ์ตรงกันข้ามสามารถเกิดขึ้นได้และเกิดการไม่สอดล้องกันของเวอร์ชันบิตในกรณีใดกรณีหนึ่ง หากคุณใช้การสมัครใช้งาน Microsoft 365 ให้ดู [สถานการณ์ที่ 3](#situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription) สำหรับปัญหาและวิธีแก้ไขที่แตกต่างกัน วิธีการแก้ไขหนึ่งจากหลายข้อต่อไปนี้สามารถแก้ไขข้อผิดพลาดเรื่องเวอร์ชันบิตที่ไม่ตรงกัน:
 
 ### <a name="solution-1"></a>วิธีการแก้ไขที่ 1
 
@@ -79,9 +79,9 @@ ms.locfileid: "83301344"
    
        c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
 
-## <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>สถานการณ์ที่ 3: ปัญหาในการใช้ไฟล์ Access หรือ .XLS กับ Office 365 แบบสมัครใช้งาน
+## <a name="situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription"></a>สถานการณ์ที่ 3: ปัญหาในการใช้ไฟล์ Access หรือ .XLS กับ Microsoft 365 แบบสมัครใช้งาน
 
-ถ้าคุณกำลังใช้ Office 365 แบบสมัครใช้งานไม่ว่าจะเป็น **Office 2013** หรือ **Office 2016** ตัวให้บริการของกลไกจัดการฐานข้อมูล Access จะได้รับการลงทะเบียนในตำแหน่งที่ตั้งของรีจิสทรีเสมือนจริงที่สามารถเข้าถึงได้*เฉพาะ*กระบวนการต่าง ๆ ของ Microsoft Office เท่านั้น เป็นผลให้กลไกจัดการ Mashup (ซึ่งรับผิดชอบในการเรียกใช้งาน Excel ที่ไม่ใช่ Office 365 และ Power BI Desktop และไม่ใช่กระบวนการ Office) ไม่สามารถใช้งานตัวให้บริการของกลไกจัดการฐานข้อมูล Access ได้
+ถ้าคุณกำลังใช้ Microsoft 365 แบบสมัครใช้งานไม่ว่าจะเป็น **Office 2013** หรือ **Office 2016** ตัวให้บริการของกลไกจัดการฐานข้อมูล Access จะได้รับการลงทะเบียนในตำแหน่งที่ตั้งของรีจิสทรีเสมือนจริงที่สามารถเข้าถึงได้*เฉพาะ*กระบวนการต่าง ๆ ของ Microsoft Office เท่านั้น เป็นผลให้กลไกจัดการ Mashup (ซึ่งรับผิดชอบในการเรียกใช้งาน Excel ที่ไม่ใช่ Office 365 และ Power BI Desktop และไม่ใช่กระบวนการ Office) ไม่สามารถใช้งานตัวให้บริการของกลไกจัดการฐานข้อมูล Access ได้
 
 เพื่อแก้ไขสถานการณ์นี้ ให้[ดาวน์โหลดและติดตั้งกลไกจัดการฐานข้อมูล Access ชนิดสามารถเผยแพร่ต่อ](https://www.microsoft.com/download/details.aspx?id=13255)ที่เข้ากับเวอร์ชันบิตของ Power BI Desktop ที่ติดตั้งของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเวอร์ชันบิต ให้ดูส่วนก่อนหน้าในบทความนี้
 

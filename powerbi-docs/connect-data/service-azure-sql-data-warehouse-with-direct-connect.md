@@ -8,18 +8,18 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 04/28/2020
+ms.date: 06/03/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 166f5abb2e773ebdbdce552b4dd2fff99b3142f8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cde97805519a800fc98668cb523db92f0276b06d
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302287"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336991"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse พร้อม DirectQuery
 
-Azure SQL Data Warehouse พร้อม DirectQuery ช่วยให้คุณสามารถสร้างรายงานแบบไดนามิกที่ยึดตามข้อมูลและเมทริกซ์ที่คุณมีอยู่แล้วใน Azure SQL Data Warehouse ด้วย DirectQuery แบบสอบถามจะถูกส่งกลับไปยัง Azure SQL Data Warehouse ของคุณในแบบเรียลไทม์ ตามที่คุณสำรวจข้อมูล โดยแบบสอบถามแบบเรียลไทม์นั้นมีการรวมเข้ากับ SQL Data Warehouse ส่วนหนึ่ง เพื่อให้ผู้ใช้งานสามารถสร้างรายงานแบบไดนามิกได้ในเวลาเพียงไม่นาน แม้จะมีข้อมูลเยอะระดับเทราไบต์ นอกจากนี้ คำนำของปุ่ม**เปิดใน Power BI**อนุญาตให้ผู้ใช้เชื่อมต่อ Power BI กับ SQL Data Warehouse ได้โดยตรงโดยไม่ต้องระบุข้อมูลดัวกล่าวด้วยตนเอง
+Azure SQL Data Warehouse พร้อม DirectQuery ช่วยให้คุณสามารถสร้างรายงานแบบไดนามิกที่ยึดตามข้อมูลและเมทริกซ์ที่คุณมีอยู่แล้วใน Azure SQL Data Warehouse ด้วย DirectQuery แบบสอบถามจะถูกส่งกลับไปยัง Azure SQL Data Warehouse ของคุณในแบบเรียลไทม์ ตามที่คุณสำรวจข้อมูล โดยแบบสอบถามแบบเรียลไทม์นั้นมีการรวมเข้ากับ SQL Data Warehouse ส่วนหนึ่ง เพื่อให้ผู้ใช้งานสามารถสร้างรายงานแบบไดนามิกได้ในเวลาเพียงไม่นาน แม้จะมีข้อมูลเยอะระดับเทราไบต์ นอกจากนี้ ลิงก์**สร้างแดชบอร์ด + รายงาน** ช่วยให้ผู้ใช้สามารถสร้างรายงาน Power BI โดยใช้ SQL Data Warehouse ของพวกเขา
 
 เมื่อใช้ตัวเชื่อมต่อ SQL Data Warehouse:
 
@@ -32,57 +32,41 @@ Azure SQL Data Warehouse พร้อม DirectQuery ช่วยให้คุ
 
 ข้อจำกัดและบันทึกย่อเหล่านี้อาจเปลี่ยนแปลงขณะที่เราปรับปรุงประสบการณ์การใช้งานขึ้นเรื่อย ๆ ขั้นตอนในการเชื่อมต่อจะมีรายละเอียดดังด้านล่าง
 
-## <a name="using-the-open-in-power-bi-button"></a>ใช้ปุ่ม 'เปิดใน Power BI'
+## <a name="build-dashboards-and-reports-in-power-bi"></a>สร้างแดชบอร์ดและรายงานใน Power BI
 
 > [!Important]
-> เรากำลังปรับปรุงการเชื่อมต่อของเรากับคลังข้อมูล SQL ของ Azure  สำหรับประสบการณ์ดีที่สุดในการเชื่อมต่อกับแหล่งคลังข้อมูล SQL ของ Azure ของคุณ ใช้ Power BI Desktop  เมื่อคุณได้สร้างรูปแบบข้อมูลและรายงานของคุณแล้ว คุณสามารถเผยแพร่สิ่งดังกล่าวไปยังบริการ Power BI  ตัวเชื่อมต่อโดยตรงสำหรับคลังข้อมูล SQL ของ Azure ในบริการ Power BI ในขณะนี้ไม่ได้รับการสนับสนุน
+> เรากำลังปรับปรุงการเชื่อมต่อของเรากับคลังข้อมูล SQL ของ Azure สำหรับประสบการณ์ดีที่สุดในการเชื่อมต่อกับแหล่งคลังข้อมูล SQL ของ Azure ของคุณ ใช้ Power BI Desktop เมื่อคุณได้สร้างรูปแบบข้อมูลและรายงานของคุณแล้ว คุณสามารถเผยแพร่สิ่งดังกล่าวไปยังบริการ Power BI ตัวเชื่อมต่อโดยตรงที่มีอยู่ก่อนหน้านี้สำหรับ Azure SQL Data Warehouse ในบริการ Power BI ในขณะนี้ไม่สามารถใช้ได้อีกต่อไป
 
-การเคลื่อนย้ายข้อมูลระหว่าง SQL Data Warehouse กับ Power BI ด้วยวิธีที่ง่ายที่สุดคือการใช้ปุ่ม **เปิดใน Power BI**ภายในพอร์ทัล Microsoft Azure ปุ่มนี้ช่วยให้คุณสามารถเริ่มสร้างแดชบอร์ดใหม่ใน Power BI ได้อย่างราบรื่น
+การเคลื่อนย้ายข้อมูลระหว่าง SQL Data Warehouse กับ Power BI คือการสร้างรายงานใน Power BI Desktop คุณสามารถใช้ปุ่ม **สร้างแดชบอร์ด + รายงาน** ภายในพอร์ทัล Azure
 
-1. เมื่อต้องการเริ่มใช้งาน ให้ไปยังอินสแตนซ์ SQL Data Warehouse ในพอร์ทัล Microsoft Azure โปรดสังเกตว่ามีเฉพาะ SQL Data Warehouse เท่านั้นที่ปรากฏในพอร์ทัล Azure ในขณะนี้
+1. ในการเริ่มต้น ให้ดาวน์โหลดและติดตั้ง Power BI Desktop ดูบทความ [รับ Power BI Desktop](../fundamentals/desktop-get-the-desktop.md) สำหรับข้อมูลเกี่ยวกับการดาวน์โหลดและติดตั้ง หรือไปยังขั้นตอนถัดไปโดยตรง
 
-2. คลิกที่ปุ่ม**เปิดใน Power BI**
+2. คุณยังสามารถคลิกลิงก์ **สร้างแดชบอร์ด + รายงาน** เพื่อดาวน์โหลด Power BI Desktop ได้อีกด้วย
 
-    ![เปิดใน Power BI](media/service-azure-sql-data-warehouse-with-direct-connect/openinpowerbi.png)
+    ![เปิดใน Power BI](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-01.png)
 
-3. คุณต้องลงชื่อเข้าใช้เองหากเราไม่สามารถลงชื่อเข้าใช้โดยตรงให้คุณได้ หรือหากคุณไม่มีบัญชี Power BI
 
-4. จากนั้นระบบจะพาคุณไปยังหน้าการเชื่อมต่อกับ SQL Data Warehouse โดยใช้ข้อมูลที่สร้างไว้ก่อนหน้าแล้วใน SQL Data Warehouse ใส่ข้อมูลประจำตัวของคุณและกดที่การเชื่อมต่อเพื่อสร้างการเชื่อมต่อ
+## <a name="connecting-through-power-bi-desktop"></a>เชื่อมต่อผ่านทาง Power BI Desktop
 
-## <a name="connecting-through-power-bi"></a>เชื่อมต่อผ่านทาง Power BI
+คุณสามารถเชื่อมต่อกับ SQL Data Warehouse ได้โดยใช้ปุ่ม **รับข้อมูล** ใน Power BI Desktop 
 
-นอกจากนี้ SQL Data Warehouse ยังอยู่ในรายการบนหน้า Power BI Get Data ด้วย 
+1. เลือกปุ่ม **รับข้อมูล** จากเมนู **หน้าหลัก**  
 
-1. เลือก**รับข้อมูล**ที่ด้านล่างของบานหน้าต่างนำทาง  
+    ![ปุ่มรับข้อมูล](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-02.png)
 
-    ![ปุ่มรับข้อมูล](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
+2. เลือก **เพิ่มเติม ...** เพื่อดูแหล่งข้อมูลทั้งหมดที่มีอยู่ จากหน้าต่างที่ปรากฏขึ้น ให้เลือก **Azure** จากบานหน้าต่างด้านซ้ายจากนั้นเลือก **Azure SQL Data Warehouse** จากรายการของตัวเชื่อมต่อที่พร้อมใช้งานในบานหน้าต่างด้านขวา
 
-2. ภายใน**ฐานข้อมูล** เลือก**รับ**
+    ![แหล่งข้อมูล Azure](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-03.png)
 
-    ![ฐานข้อมูล](media/service-azure-sql-data-warehouse-with-direct-connect/databases.png)
+3. ในหน้าต่างที่ปรากฏขึ้น ให้ใส่เซิร์ฟเวอร์ของคุณและเลือกระบุฐานข้อมูลที่คุณต้องการเชื่อมต่อ คุณยังสามารถเลือกโหมดการเชื่อมต่อข้อมูลของคุณ: Import หรือ DirectQuery สำหรับการเข้าถึงข้อมูลแบบเรียลไทม์ใน Azure SQL Data Warehouse ของคุณ ให้ใช้ DirectQuery
 
-3. เลือก **SQL Data Warehouse** \> **เชื่อมต่อ**
+    ![Azure SQL DW ที่มีการเชื่อมต่อโดยตรง](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-04.png)
 
-    ![Azure SQL DW ที่มีการเชื่อมต่อโดยตรง](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
+4. สำหรับตัวเลือกขั้นสูงสำหรับการเชื่อมต่อ Azure SQL Data Warehouse ให้เลือกลูกศรลงที่อยู่ด้านช้าง **ตัวเลือกขั้นสูง** เพื่อแสดงตัวเลือกเพิ่มเติมสำหรับการเชื่อมต่อของคุณ
 
-4. ใส่ข้อมูลที่จำเป็นเพื่อเชื่อมต่อ หัวข้อ**การค้นหาพารามิเตอร์**ที่ด้านล่างแสดงให้เห็นว่าข้อมูลนี้อยู่ในตำแหน่งใดของพอร์ทัล Azure
+    ![ชื่อเซิร์ฟเวอร์](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-05.png)
 
-    ![ชื่อเซิร์ฟเวอร์](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
-
-    ![ชื่อเซิร์ฟเวอร์ขั้นสูง](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
-
-    ![ชื่อผู้ใช้](media/service-azure-sql-data-warehouse-with-direct-connect/username.png)
-
-   > [!NOTE]
-   > ชื่อผู้ใช้จะเป็นผู้ใช้ที่กำหนดไว้ในตัวอย่าง Azure SQL Data Warehouse ของคุณ
-
-5. เจาะลึกลงในชุดข้อมูลโดยการเลือกไทล์ใหม่หรือชุดข้อมูลที่สร้างขึ้นใหม่ที่บ่งชี้ ด้วยเครื่องหมายดอกจัน ชุดข้อมูลนี้จะมีชื่อเดียวกับฐานข้อมูลของคุณ
-
-    ![ชุดข้อมูล 2](media/service-azure-sql-data-warehouse-with-direct-connect/dataset2.png)
-
-6. คุณสามารถสำรวจตารางและคอลัมน์ทั้งหมดได้ การเลือกคอลัมน์จะเป็นการส่งแบบสอบถามกลับไปยังแหล่งข้อมูล และสร้างภาพของคุณแบบไดนามิก นอกจากนี้จะมีการแปลตัวกรองเป็นแบบสอบถามกลับไปยังคลังข้อมูลของคุณด้วย ภาพเหล่านี้สามารถถูกบันทึกไว้ในรายงานใหม่และปักหมุดกลับไปยังแดชบอร์ดของคุณได้
-
-    ![สำรวจ 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
+ส่วนถัดไปจะอธิบายวิธีการค้นหาค่าพารามิเตอร์สำหรับการเชื่อมต่อของคุณ 
 
 ## <a name="finding-parameter-values"></a>ค้นหาค่าพารามิเตอร์
 
@@ -97,6 +81,7 @@ Azure SQL Data Warehouse พร้อม DirectQuery ช่วยให้คุ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
+* [เกี่ยวกับการใช้ DirectQuery ใน Power BI](desktop-directquery-about.md)
 * [Power BI คืออะไร](../fundamentals/power-bi-overview.md)  
 * [รับข้อมูลสำหรับ Power BI](service-get-data.md)  
 * [คลังข้อมูล Azure SQL](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)

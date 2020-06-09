@@ -7,94 +7,115 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f29d59d3b10f8dc963d8ba1965638bc01bae0c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40a145814938b15b55476f4cc0536290cd009cfe
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83335706"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273224"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>ใช้ธีมรายงานใน Power BI Desktop
 
 ด้วย *ธีมรายงาน* ของ Power BI Desktop คุณสามารถเปลี่ยนแปลงการออกแบบกับรายงานทั้งหมดของคุณได้ เช่น การใช้สีสำหรับองค์กร การเปลี่ยนชุดไอคอน หรือการใช้การจัดรูปแบบภาพตามค่าเริ่มต้นใหม่ เมื่อคุณใช้ธีมรายงาน วิชวลทั้งหมดในรายงานของคุณจะใช้สีและการจัดรูปแบบจากธีมที่คุณเลือกเป็นค่าเริ่มต้น มีข้อยกเว้นบางอยู่บางประการ ซึ่งจะอธิบายภายหลังในบทความนี้
 
-![ธีมรายงาน](media/desktop-report-themes/report-themes-1a.png)
+คุณสามารถเลือกธีมรายงานได้โดยการนำทางไปยังริบบอน **มุมมอง** จากนั้นเลือกปุ่มลูกศรดรอปดาวน์ในส่วน **ธีม** ของริบบอน แล้วเลือกธีมที่คุณต้องการ ธีมที่พร้อมใช้งานจะคล้ายกับธีมที่เห็นในผลิตภัณฑ์อื่นๆ ของ Microsoft เช่น Microsoft PowerPoint
+
+![ธีมรายงาน](media/desktop-report-themes/report-themes-01.png)
 
 ธีมรายงานมีทั้งหมดสองประเภท คือ ธีมรายงานที่มีอยู่ภายในระบบ และไฟล์ธีมรายงานแบบกำหนดเอง
 
-- ธีมรายงานที่มีอยู่ภายในระบบนั้น จะประกอบด้วยแบบสีที่กำหนดไว้ล่วงหน้า ซึ่งติดตั้งมากับ Power BI Desktop คุณเลือกธีมรายงานที่มีอยู่ภายในระบบได้โดยตรงจากเมนู Power BI Desktop
+- ธีมรายงาน**ที่มีอยู่ภายในระบบ**นั้น จะประกอบด้วยแบบสีที่กำหนดไว้ล่วงหน้า ซึ่งติดตั้งมากับ Power BI Desktop คุณเลือกธีมรายงานที่มีอยู่ภายในระบบได้โดยตรงจากเมนู Power BI Desktop
 
-- ไฟล์ธีมรายงานแบบกำหนดเองเป็นธีมรายงานที่ถูกสร้างขึ้นในไฟล์ JSON ที่มีการกำหนดโครงสร้างพื้นฐานไว้แล้ว ในการใช้งานธีมรายงานแบบกำหนดเอง คุณสามารถนำเข้าไฟล์ JSON ลงใน Power BI Desktop และนำไปใช้กับรายงานของคุณ
+- ธีมรายงานแบบ**กำหนดเอง**ถูกสร้างขึ้นโดยการปรับธีมปัจจุบันจากนั้นบันทึกเป็นธีมที่กำหนดเอง หรือสร้างธีมที่คุณกำหนดเองโดยใช้ไฟล์ JSON ไฟล์ JSON ให้การควบคุมที่ละเอียดมากกว่าหลายแง่มุมของธีมรายงานตามที่อธิบายไว้ภายหลังในบทความนี้ 
 
-  คุณยังสามารถปรับแต่งธีมรายงานที่มีอยู่ได้จากภายใน Power BI Desktop โดยใช้กล่องโต้ตอบ [**ปรับแต่งธีม**](#create-and-customize-a-theme-in-power-bi-desktop)
+มาคุยกันว่าธีมรายงานทำงานอย่างไร จากนั้นให้ข้ามไปยังวิธีการสร้างธีมรายงานแบบกำหนดเองกันเถอะ
 
-คุณสามารถปรับแต่งและกำหนดมาตรฐานองค์ประกอบเกือบทั้งหมดที่ปรากฏในส่วน**การจัดรูปแบบ** ของบานหน้าต่าง **การแสดงวิชวล** โดยผ่านการปรับแต่งโดยตรงใน Power BI Desktop หรือผ่านธีมรายงานไฟล์ JSON เป้าหมายคือเพื่อให้คุณสามารถควบคุมลักษณะและรูปแบบค่าเริ่มต้นของรายงานของคุณได้อย่างเต็มที่ ไปจนถึงระดับแยกย่อย
 
 ## <a name="how-report-themes-work"></a>ธีมรายงาน ทำงานอย่างไร
 
-หากต้องการใช้ธีมรายงานกับรายงาน Power BI Desktop คุณสามารถเลือกจาก[ธีมรายงานที่มีอยู่แล้วภายใน](#built-in-report-themes) หรือคุณสามารถ[นำเข้าไฟล์ JSON ของธีมแบบกำหนดเอง](#import-custom-report-theme-files) หรือคุณสามารถ[ใช้กล่องโต้ตอบ**ปรับแต่งธีม**](#create-and-customize-a-theme-in-power-bi-desktop)
+เมื่อต้องการนำธีมรายงานไปใช้กับรายงาน Power BI Desktop คุณสามารถเลือกจากตัวเลือกต่อไปนี้:
 
-สำหรับข้อมูลโดยละเอียดเกี่ยวกับค่าเริ่มต้นที่สามารถปรับแต่งได ้โปรดดูที่หัวข้อ [รูปแบบ JSON ของธีมรายงาน](#report-theme-json-file-format) ด้านล่าง
+* เลือกจาก [ธีมรายงานที่มีอยู่แล้วภายในที่พร้อมใช้งาน](#built-in-report-themes) ซึ่งมีอยู่แล้วภายใน Power BI Desktop
+* กำหนดธีมเองโดยใช้กล่องโต้ตอบ **กำหนดค่าธีม**
+* [นำเข้าไฟล์ JSON ของธีมแบบกำหนดเอง](#import-custom-report-theme-files)
+
+เราจะมาดูตัวเลือกเหล่านี้กัน
 
 ### <a name="built-in-report-themes"></a>ธีมรายงานที่มีอยู่ภายในระบบ
 
 เพื่อเลือกจากธีมรายงานที่มีอยู่ภายในระบบ:
 
-1. เลือก **สลับธีม** จาก Ribbon **หน้าแรก**
+1. เลือกปุ่มลูกศรดรอปดาวน์**ธีม** **สลับธีม** จากริบบอน **มุมมอง**
 
-   ![เลือกธีมรายงาน](media/desktop-report-themes/report-themes-2a.png)
+   ![เลือกธีมรายงาน](media/desktop-report-themes/report-themes-02.png)
 
-2. เลือกหนึ่งธีมจากรายการธีมที่มีให้ จากเมนูดรอปดาวน์
+2. เลือกจากบรรดาธีมที่รวมอยู่จากเมนูดรอปดาวน์ที่ปรากฏขึ้น
+
+   ![เลือกธีมรายงาน](media/desktop-report-themes/report-themes-03.png)
 
    ในตอนนี้ธีมรายงานของคุณได้ถูกนำไปใช้กับรายงานแล้ว
 
-ตารางต่อไปนี้แสดงธีมรายงานที่มีอยู่ภายในระบบ
+    ตารางต่อไปนี้แสดงธีมรายงานที่มีอยู่ภายในระบบ
+    
+    | ธีมรายงานที่มีอยู่ภายในระบบ | ลำดับสีเริ่มต้น |
+    |------ |---------- |
+    | ค่าเริ่มต้น | ![ค่าเริ่มต้น](media/desktop-report-themes/report-themes-color-scheme-default.png)|
+    | Highrise | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+    | ผู้บริหาร | ![ผู้บริหาร](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+    | พรมแดน| ![พรมแดน](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
+    | สร้างสรรค์ | ![สร้างสรรค์](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
+    | ดอกไม้บาน | ![ดอกไม้บาน](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
+    | คลื่น| ![คลื่น](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
+    | อุณหภูมิ | ![อุณหภูมิ](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
+    | พระอาทิตย์| ![พระอาทิตย์](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
+    | แตกต่าง | ![แตกต่าง](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
+    | พายุ | ![พายุ](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+    | คลาสสิก | ![คลาสสิก](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+    | ซิตี้ปาร์ค | ![ซิตี้ปาร์ค](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
+    | ชั้นเรียน | ![ชั้นเรียน](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
+    | ปลอดภัยสำหรับผู้ที่ตาบอดสี | ![ปลอดภัยสำหรับผู้ที่ตาบอดสี](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
+    | ไฟฟ้า | ![ไฟฟ้า](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
+    | ความคมชัดสูง | ![ความคมชัดสูง](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
+    | พระอาทิตย์ตก | ![พระอาทิตย์ตก](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
+    | พลบค่ำ | ![พลบค่ำ](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+    
+3. คุณยังสามารถเรียกดูคอลเลกชันของธีมที่สร้างขึ้นโดยสมาชิกของชุมชน Power BI ได้ โดยการเลือก**แกลเลอรีธีม** จากรายการแบบดรอปดาวน์ของธีม
 
-| ธีมรายงานที่มีอยู่ภายในระบบ | ลำดับสีเริ่มต้น |
-|------ |---------- |
-| ค่าเริ่มต้น | ![ค่าเริ่มต้น](media/desktop-report-themes/report-themes-color-scheme-default.png)|
-| Highrise | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
-| ผู้บริหาร | ![ผู้บริหาร](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
-| พรมแดน| ![พรมแดน](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
-| สร้างสรรค์ | ![สร้างสรรค์](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
-| ดอกไม้บาน | ![ดอกไม้บาน](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
-| คลื่น| ![คลื่น](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
-| อุณหภูมิ | ![อุณหภูมิ](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
-| พระอาทิตย์| ![พระอาทิตย์](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
-| แตกต่าง | ![แตกต่าง](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
-| พายุ | ![พายุ](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
-| คลาสสิก | ![คลาสสิก](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
-| ซิตี้ปาร์ค | ![ซิตี้ปาร์ค](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
-| ชั้นเรียน | ![ชั้นเรียน](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
-| ปลอดภัยสำหรับผู้ที่ตาบอดสี | ![ปลอดภัยสำหรับผู้ที่ตาบอดสี](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
-| ไฟฟ้า | ![ไฟฟ้า](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
-| ความคมชัดสูง | ![ความคมชัดสูง](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
-| พระอาทิตย์ตก | ![พระอาทิตย์ตก](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
-| พลบค่ำ | ![พลบค่ำ](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+   ![แกลเลอรีธีม](media/desktop-report-themes/report-themes-04.png)
+
+    จากแกลเลอรี คุณสามารถเลือกธีมที่คุณต้องการและดาวน์โหลดไฟล์ JSON ที่เกี่ยวข้อง 
+
+    หากต้องการติดตั้งไฟล์ที่ดาวน์โหลด ให้เลือก **เรียกดูธีม** จากดรอปดาวน์ **ธีม** ไปที่ตำแหน่งที่คุณดาวน์โหลดไฟล์ JSON และเลือกเพื่อนำเข้าธีมไปยัง Power BI Desktop ให้เป็นธีมใหม่
+
+    เมื่อประสบความสำเร็จ Power BI จะแสดงกล่องโต้ตอบที่การนำเข้าเสร็จสมบูรณ์
+
+   ![นำเข้าธีมเรียบร้อยแล้ว](media/desktop-report-themes/report-themes-05.png)
 
 ## <a name="customize-report-themes"></a>ปรับแต่งธีมรายงาน
 
-นับตั้งแต่การเปิดตัว Power BI Desktop ในเดือนธันวาคม 2019 ในตอนนี้มีวิธีการปรับแต่งธีมรายงานสองวิธี:
+คุณสามารถปรับแต่งและกำหนดมาตรฐานองค์ประกอบเกือบทั้งหมดที่ปรากฏในส่วน**การจัดรูปแบบ** ของบานหน้าต่าง **การแสดงวิชวล** โดยผ่านการปรับแต่งโดยตรงใน Power BI Desktop หรือผ่านธีมรายงานไฟล์ JSON เป้าหมายคือเพื่อให้คุณสามารถควบคุมลักษณะและรูปแบบค่าเริ่มต้นของรายงานของคุณได้อย่างเต็มที่ ไปจนถึงระดับแยกย่อย
+
+สองวิธีในการปรับแต่งธีมรายงานมีดังต่อไปนี้:
 
 - [สร้างและปรับแต่งธีมใน Power BI Desktop](#create-and-customize-a-theme-in-power-bi-desktop)
 - [สร้างและปรับแต่งไฟล์ JSON ของธีมรายงานแบบกำหนดเอง](#introduction-to-report-theme-json-files)
 
+ลองมาดูที่แต่ละแนวทางเหล่านี้ในส่วนต่อไปนี้
+
 ### <a name="create-and-customize-a-theme-in-power-bi-desktop"></a>สร้างและปรับแต่งธีมใน Power BI Desktop
 
-ในการปรับแต่งธีมโดยตรงใน Power BI Desktop:
+เมื่อต้องการกำหนดธีมโดยตรงใน Power BI Desktop คุณสามารถเลือกธีมที่ใกล้เคียงกับสิ่งที่คุณต้องการ และทำการปรับเปลี่ยนบางอย่างได้ ก่อนอื่นให้เลือกธีมที่ปิดอยู่ (หรือเริ่มต้นด้วยธีมใดก็ตามและปรับแต่งให้แตกต่างจากดั้งเดิม) และทำตามขั้นตอนต่อไปนี้:
 
-1. จาก Ribbon **หน้าแรก** เลือก **สลับธีม** > **ปรับแต่งธีมปัจจุบัน**
+1. จากริบบอน **มุมมอง** ให้เลือกปุ่มดรอปดาวน์ **ธีม** และเลือก **กำหนดค่าธีมปัจจุบัน**
 
-   กล่องโต้ตอบจะปรากฏขึ้น ซึ่งแสดงวิธีการกำหนดธีมรายงานที่นำไปใช้กับรายงานในปัจจุบัน
+   ![กำหนดธีม](media/desktop-report-themes/report-themes-06.png)
 
-   ![กำหนดธีม](media/desktop-report-themes/report-themes_5b.png)
+2. กล่องโต้ตอบจะปรากฏขึ้น ซึ่งคุณสามารถทำการเปลี่ยนแปลงได้ทุกประเภทกับธีมปัจจุบันจากนั้นสามารถบันทึกการตั้งค่าของคุณเป็นธีมใหม่ได้
 
-2. ถ้าคุณต้องการใช้ธีมที่มีอยู่และต้องการปรับเปลี่ยนบางอย่าง ให้เลือกธีม (หรือนำเข้า) แล้วเลือก **กำหนดธีมปัจจุบัน**
-
-   ![กำหนดธีมปัจจุบัน](media/desktop-report-themes/report-themes_5c.png)
+   ![กำหนดธีมปัจจุบัน](media/desktop-report-themes/report-themes-07.png)
 
 การตั้งค่าธีมที่สามารถกำหนดได้นั้น สามารถทำได้ในหมวดหมู่ต่างๆ ต่อไปนี้ ซึ่งจะแสดงในหน้าต่าง **กำหนดธีม**:
 
@@ -113,11 +134,11 @@ ms.locfileid: "83335706"
 
 ### <a name="import-custom-report-theme-files"></a>นำเข้าไฟล์ธีมรายงานแบบกำหนดเอง
 
-หากต้องการนำเข้าไฟล์ธีมรายงานแบบกำหนดเอง
+คุณยังสามารถนำเข้าไฟล์ธีมรายงานแบบกำหนดเองได้โดยทำตามขั้นตอนต่อไปนี้:
 
-1. เลือกปุ่ม**สลับธีม** จาก Ribbon **หน้าแรก** จากนั้นเลือก**นำเข้าธีม**จากเมนูบดรอปดาวน์
+1. เลือกริบบอน **มุมมอง** จากนั้นเลือกปุ่มดรอปดาวน์ **ธีม** และเลือก **เรียกดูธีม**
 
-   ![ธีมนำเข้า](media/desktop-report-themes/report-themes-3a.png)
+   ![ธีมนำเข้า](media/desktop-report-themes/report-themes-08.png)
 
    หน้าต่างจะปรากฏขึ้นเพื่อให้คุณเรียกดูตำแหน่งที่ตั้งของไฟล์ธีม JSON
 
@@ -127,7 +148,7 @@ ms.locfileid: "83335706"
 
    เมื่อโหลดไฟล์ธีมสำเร็จแล้ว Power BI Desktop จะแสดงข้อความแจ้งให้ทราบ
 
-   ![นำเข้าสำเร็จแล้ว](media/desktop-report-themes/report-themes_5.png)
+   ![นำเข้าธีมเรียบร้อยแล้ว](media/desktop-report-themes/report-themes-05.png)
 
 ## <a name="introduction-to-report-theme-json-files"></a>บทนำเบื้องต้นของไฟล์ JSON ของธีมรายงาน
 
@@ -172,7 +193,7 @@ ms.locfileid: "83335706"
 
 3. เลือกรายการดรอปดาวน์เพื่อดู **สีธีม** ข้อมูลของธีมรายงาน
 
-   ![สีธีม](media/desktop-report-themes/report-themes_8.png)
+   ![สีธีม](media/desktop-report-themes/report-themes-09.png)
 
 ในตัวอย่างของเรา หลังจากที่ใช้โทนสีเขียว และสีน้ำตาลจากธีมรายงาน St. Patrick's Day แล้ว ให้เลือกดูสีธีม เห็นสีเขียวทั้งหมดนั่นไหม? นั่นเป็นเพราะว่าสีเหล่านั้นเป็นส่วนหนึ่งของธีมรายงานที่เราได้นำเข้าและนำไปใช้งาน
 
@@ -184,7 +205,7 @@ ms.locfileid: "83335706"
 
 หรือ สมมติว่าคุณต้องการตั้งค่าสีของสีจุดข้อมูลด้วยตนเองโดยใช้ส่วน **สีธีม** เมื่อคุณใช้ธีมรายงานใหม่ สีเหล่านั้นจะ*ไม่* ถูกอัปเดต ในการเรียกใช้ค่าเริ่มต้นของสีตามเดิม เพื่อให้สามารถอัปเดตได้เมื่อคุณใช้ธีมรายงานใหม่ คุณสามารถเลือก **กลับไปใช้ค่าเริ่มต้น** หรือเลือกสีจากชุด **สีธีม** ในเครื่องมือเลือกสี
 
-![กลับไปใช้ค่าเริ่มต้น](media/desktop-report-themes/report-themes_9.png)
+![กลับไปใช้ค่าเริ่มต้น](media/desktop-report-themes/report-themes-10.png)
 
 วิชวล Power BI หลายรายการจะไม่มีผลใช้งานกับธีมรายงาน
 
@@ -230,9 +251,9 @@ ms.locfileid: "83335706"
 
 ธีมรายงาน สามารถทำให้รายงาน Power BI Desktop ของคุณ สะท้อนสีสันในแบบของคุณ องค์กรของคุณ หรือแม้แต่ฤดูกาล หรือเทศกาลได้
 
-## <a name="export-report-themes-preview"></a>ส่งออกธีมรายงาน (ตัวอย่าง)
+## <a name="export-report-themes"></a>ส่งออกธีมรายงาน
 
-นับตั้งแต่การเปิดตัว Power BI Desktop ในเดือนธันวาคม 2019 ตอนนี้คุณมีตัวเลือกในการส่งออกธีมรายงานที่ใช้ในปัจจุบันได้โดยตรงจาก Power BI Desktop ไปยังไฟล์ JSON หลังจากที่คุณส่งออกธีมรายงานแล้ว คุณสามารถนำมาใช้ใหม่ในรายงานอื่นได้ ตัวเลือกนี้ช่วยให้คุณสามารถส่งออกไฟล์ JSON สำหรับธีมส่วนใหญ่ที่มีอยู่แล้วภายในระบบได้ ซึ่งจะยกเว้นเพียงธีมพื้นฐาน ธีมคลาสสิกและธีมค่าเริ่มต้น ซึ่งธีมอื่นๆ จะสร้างขึ้นจากตีมเหล่านี้เมื่อมีการนำเข้า
+คุณสามารถส่งออกธีมรายงานที่ใช้ในขณะนี้ได้โดยตรงจาก Power BI Desktop ไปยังไฟล์ JSON หลังจากที่คุณส่งออกธีมรายงานแล้ว คุณสามารถนำมาใช้ใหม่ในรายงานอื่นได้ ตัวเลือกนี้ช่วยให้คุณสามารถส่งออกไฟล์ JSON สำหรับธีมส่วนใหญ่ที่มีอยู่แล้วภายในระบบได้ ซึ่งจะยกเว้นเพียงธีมพื้นฐาน ธีมคลาสสิกและธีมค่าเริ่มต้น ซึ่งธีมอื่นๆ จะสร้างขึ้นจากตีมเหล่านี้เมื่อมีการนำเข้า
 
 ในการส่งออกธีมที่ใช้ในปัจจุบันจาก Power BI Desktop:
 

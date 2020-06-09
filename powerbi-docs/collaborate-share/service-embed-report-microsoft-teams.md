@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 7034bd544ee9c14dd5f32df9335faefd4221e4ac
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 5d0c9fcfbd35b8b42e8196f6f014c96803f6ffc5
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693888"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159547"
 ---
 # <a name="embed-reports-in-microsoft-teams-with-the-power-bi-tab"></a>รายงานที่ฝังใน Microsoft Teams ด้วยแท็บ Power BI
 
@@ -48,7 +48,7 @@ ms.locfileid: "83693888"
 
     ![รายการแท็บของ Microsoft Teams ที่แสดง Power BI](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-tab.png)
 
-3. ใช้ตัวเลือกที่ให้มาเพื่อเลือกรายงานจากพื้นที่ทำงาน ที่แชร์กับฉัน หรือแอป Power BI
+3. ใช้ตัวเลือกที่ให้มาเพื่อเลือกรายงานจากพื้นที่ทำงาน หรือแอป Power BI
 
     ![แท็บ Power BI สำหรับการตั้งค่า Microsoft Teams](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-tab-settings.png)
 

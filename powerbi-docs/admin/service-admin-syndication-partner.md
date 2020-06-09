@@ -1,26 +1,27 @@
 ---
-title: ไม่สามารถเพิ่ม Power BI กับคู่ค้า O365
-description: ไม่สามารถเพิ่ม Power BI กับคู่ค้า Syndication ของ Microsoft 365 แบบจำลองแบบ Syndicated คือแบบจำลองการซื้อที่ใช้โดย Microsoft 365
+title: ซื้อ Power BI ผ่านคู่ค้า Microsoft 365 ของคุณ
+description: เรียนรู้วิธีการเพิ่ม Power BI ลงในการสมัครใช้งาน Microsoft 365 ที่คุณซื้อผ่านคู่ค้า แบบจำลองแบบ Syndicated คือแบบจำลองการซื้อที่ใช้โดย Microsoft 365
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 05/27/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 2c590875b4dee81f7ca54434d6e5895be885be97
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: bc00c69869ea58aee8b4d0a79fce6b24489bde18
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812346"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159774"
 ---
-# <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>ไม่สามารถเพิ่ม Power BI กับ Office 365 ที่สมัครผ่านคู่ค้า
+# <a name="add-power-bi-to-a-microsoft-365-partner-subscription"></a>เพิ่ม Power BI ในการสมัครสมาชิกคู่ค้า Microsoft 365
 
 Microsoft 365 อนุญาตให้บริษัทสามารถขายต่อ Microsoft 365 โดยรวมเข้ากับโซลูชันของพวกเขาเองได้ และให้บริการด้านการจัดซื้อ การเรียกเก็บเงิน และการสนับสนุน ให้แก่ลูกค้าปลายทางในจุดเดียว
 
-หากคุณสนใจซื้อ Power BI ควบคู่ไปกับการสมัครใช้งาน Office 365 เราขอแนะนำให้ติดต่อกับคู่ค้าของคุณ หากคู่ค้าของคุณไม่มี Power BI ให้บริการ คุณมีทางเลือกหลายทางให้พิจารณา
+หากคุณสนใจที่จะเพิ่ม Power BI ในการสมัครใช้งาน Microsoft 365 เราขอแนะนำให้ติดต่อกับคู่ค้าของคุณ ถ้าคู่ค้าของคุณไม่มี Power BI ในขณะนี้ คุณสามารถติดตามตัวเลือกที่อธิบายไว้ด้านล่าง
 
 ## <a name="work-with-your-partner-to-purchase-power-bi"></a>ติดต่อกับคู่ค้าของคุณเพื่อซื้อ Power BI
 
@@ -32,17 +33,19 @@ Microsoft 365 อนุญาตให้บริษัทสามารถข
 
 ## <a name="purchase-from-microsoft-or-another-channel"></a>สั่งซื้อจาก Microsoft หรือช่องทางอื่น
 
-ขึ้นอยู่กับความสัมพันธ์ระหว่างคู่ค้าของคุณ คุณอาจสามารถซื้อ Power BI โดยตรงจาก Microsoft หรือคู่ค้าอื่นได้ คุณสามารถตรวจสอบว่าคุณสามารถเพิ่มการสมัครใช้งาน Power BI ในศูนย์การจัดการ Microsoft 365 ได้หรือไม่ (จำเป็นต้องเป็นสมาชิกในบทบาทผู้ดูแลระบบส่วนกลางหรือผู้ดูแลระบบเรียกเก็บเงิน)
+ขึ้นอยู่กับความสัมพันธ์ระหว่างคู่ค้าของคุณ คุณอาจสามารถซื้อ Power BI โดยตรงจาก Microsoft หรือคู่ค้าอื่นได้ คุณสามารถตรวจสอบว่าคุณสามารถเพิ่มการสมัครใช้งาน Power BI ในศูนย์การจัดการ Microsoft 365 ได้หรือไม่ (จำเป็นต้องเป็นสมาชิกในบทบาทผู้ดูแลระบบส่วนกลางหรือบทบาทผู้ดูแลระบบการเรียกเก็บเงิน)
 
 1. ไปที่ [ศูนย์การจัดการ Microsoft 365](https://admin.microsoft.com/AdminPortal/Home#/homepage)
 
-1. ในเมนูทางด้านซ้าย เปิด **การเรียกเก็บเงิน**:
+1. ในเมนูด้านซ้าย ให้เปิด **การเรียกเก็บเงิน** จากนั้นเลือก **ผลิตภัณฑ์ของคุณ**:
 
-    * หากคุณเห็น **การสมัครใช้งาน** คุณสามารถขอรับบริการจาก Microsoft โดยตรง หรือติดต่อคู่ค้าอื่นที่มี Power BI
+   ![เมนูการเรียกเก็บเงินในศูนย์การจัดการ Microsoft 365](media/service-admin-syndication-partner/365-my-products.png)
 
-        ![การเรียกเก็บเงินกับการสมัครใช้งาน](media/service-admin-syndication-partner/billingsub.png)
+ 1. ค้นหา **การสมัครสมาชิก** ตามที่แสดงในภาพด้านล่าง หากคุณเห็น **การสมัครใช้งาน** คุณสามารถขอรับบริการจาก Microsoft โดยตรง หรือติดต่อคู่ค้าอื่นที่มี Power BI
 
-    * หากคุณไม่เห็น **การสมัครใช้งาน** คุณจะไม่สามารถซื้อโดยตรงจาก Microsoft หรือจากคู่ค้าอื่นได้
+    ![ผลิตภัณฑ์ของคุณที่มีการสมัครใช้งาน](media\service-admin-syndication-partner\365-subscriptions.png)
+
+    หากคุณไม่เห็น **การสมัครใช้งาน** คุณจะไม่สามารถซื้อโดยตรงจาก Microsoft หรือจากคู่ค้าอื่นได้
 
 หากคู่ค้าของคุณไม่มี Power BI และคุณไม่สามารถซื้อโดยตรงจาก Microsoft หรือคู่ค้าอื่น ให้พิจารณาลงทะเบียนทดลองใช้งานฟรี
 
@@ -56,31 +59,11 @@ Microsoft 365 อนุญาตให้บริษัทสามารถข
 
 ![รูปภาพขออภัย](media/service-admin-syndication-partner/sorry.png)
 
-ถ้าต้องการเปิดให้สมัครใช้งานเฉพาะกิจ คุณต้องติดต่อกับคู่ค้าของคุณและขอให้เขาเปิดให้ใช้งาน หากคุณเป็นผู้ดูแลระบบผู้เช่าของคุณ และทราบวิธีการใช้คำสั่ง Azure Active Directory PowerShell คุณสามารถเปิดใช้งานการสมัครใช้เฉพาะกิจได้ด้วยตนเอง [PowerShell Azure Active Directory สำหรับกราฟ](/powershell/azure/active-directory/install-adv2/)
-
-1. ลงชื่อเข้าใช้ Azure Active Directory โดยใช้ข้อมูลประจำตัวสำหรับ Microsoft 365 ของคุณ บรรทัดแรกของสคริปต์ด้านล่างจะปรากฏขึ้นเพื่อให้คุณใส่ข้อมูลประจำตัวของคุณ บรรทัดที่สองจะเชื่อมต่อกับ Azure Active Directory
-
-    ```powershell
-    $msolcred = get-credential
-    connect-msolservice -credential $msolcred
-    ```
-
-    ![ป้อนข้อมูลประจำตัวของคุณ](media/service-admin-syndication-partner/aad-signin.png)
-
-1. เมื่อคุณลงชื่อเข้าใช้แล้ว ให้เรียกใช้คำสั่งต่อไปนี้เพื่อตรวจสอบการตั้งค่าปัจจุบันสำหรับ `AllowAdHocSubscriptions`
-
-    ```powershell
-    Get-MsolCompanyInformation
-    ```
-
-1. เรียกใช้คำสั่งต่อไปนี้เพื่อเปิดใช้งานการลงทะเบียนฟรี
-
-    ```powershell
-    Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-    ```
+ถ้าต้องการเปิดให้สมัครใช้งานเฉพาะกิจ คุณต้องติดต่อกับคู่ค้าของคุณและขอให้เขาเปิดให้ใช้งาน หากคุณเป็นผู้ดูแลระบบผู้เช่าของคุณ และทราบวิธีการใช้คำสั่ง Azure Active Directory PowerShell คุณสามารถเปิดใช้งานการสมัครใช้เฉพาะกิจได้ด้วยตนเอง สำหรับข้อมูลเพิ่มเติม ให้ทำตามขั้นตอนใน [เปิดหรือปิดใช้งานการซื้อแบบบริการตนเอง](service-admin-disable-self-service.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[สิทธิ์การใช้งาน Power BI สำหรับองค์กรของคุณ](service-admin-licensing-organization.md)
+* [สิทธิ์การใช้งาน Power BI สำหรับองค์กรของคุณ](service-admin-licensing-organization.md)
+* [ซื้อและะมอบใบอนุญาตการใช้งาน Power BI Pro](service-admin-purchasing-power-bi-pro.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

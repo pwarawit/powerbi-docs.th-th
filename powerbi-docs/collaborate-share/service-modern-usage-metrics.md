@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 183fceb6877109960ea1fb7e6f36bd74588f8f10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 894aa17e0a6a2be52446be0a67452d96d45c9a5b
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693846"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316074"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>ตรวจสอบเมตริกการใช้งานในประสบการณ์พื้นที่ทำงานใหม่
 
@@ -132,7 +132,7 @@ ms.locfileid: "83693846"
 
 ## <a name="disable-usage-metrics-reports"></a>ปิดการใช้งานรายงานเมตริกการใช้งาน
 
-รายงานเมตริกการใช้งานเป็นคุณลักษณะที่ผู้ดูแลระบบ Power BI หรือ Microsoft 365 สามารถเปิดหรือปิดได้ ผู้ดูแลระบบสามารถควบคุมระดับแยกย่อยที่ผู้ใช้มีสิทธิ์เข้าถึงเมตริกการใช้งาน ระดับแยกย่อยเหล่านี้มีอยู่แล้วโดยเป็นค่าเริ่มต้นสำหรับผู้ใช้ทั้งหมดในองค์กร ดู[ควบคุมเมตริกการใช้งาน](../admin/service-admin-portal.md#control-usage-metrics)ในบทความพอร์ทัลของผู้ดูแลระบบสำหรับรายละเอียดเกี่ยวกับการตั้งค่าเหล่านี้
+รายงานเมตริกการใช้งานเป็นคุณลักษณะที่ผู้ดูแลระบบ Power BI หรือส่วนกลางสามารถเปิดหรือปิดได้ ผู้ดูแลระบบสามารถควบคุมระดับแยกย่อยที่ผู้ใช้มีสิทธิ์เข้าถึงเมตริกการใช้งาน ระดับแยกย่อยเหล่านี้มีอยู่แล้วโดยเป็นค่าเริ่มต้นสำหรับผู้ใช้ทั้งหมดในองค์กร ดู[ควบคุมเมตริกการใช้งาน](../admin/service-admin-portal.md#control-usage-metrics)ในบทความพอร์ทัลของผู้ดูแลระบบสำหรับรายละเอียดเกี่ยวกับการตั้งค่าเหล่านี้
 
 > [!NOTE]
 > เฉพาะผู้ดูแลระบบสำหรับผู้เช่า Power BI เท่านั้นที่สามารถดูพอร์ทัลผู้ดูแลระบบ และแก้ไขการตั้งค่า

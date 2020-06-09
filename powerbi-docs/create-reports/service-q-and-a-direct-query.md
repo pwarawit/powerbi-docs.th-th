@@ -6,19 +6,22 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 05/29/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 3544a5330a21036e0ddecb351fd67b424ca6ebc7
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cceeb3c874bf3320b7c826790c46b4cafd6d45a2
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348884"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219485"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>เปิดใช้งาน Q&A กับการเชื่อมต่อแบบสดใน Power BI
-## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>อะไรคือเกตเวย์ข้อมูลภายในองค์กร  เชื่อมแบบไลฟ์คืออะไร
-ชุดข้อมูลใน Power BI สามารถนำเข้ามาใน Power BI หรือคุณสามารถสร้างการเชื่อมต่อแบบไลฟ์ไปยังพวกนั้นได้ ชุดข้อมูลการเชื่อมต่อแบบสดมักเรียกว่าแบบ "ภายในองค์กร" การเชื่อมต่อแบบไลฟ์ถูกจัดการโดยใช้[เกตเวย์](../connect-data/service-gateway-onprem.md)และข้อมูลและคิวรี่ถูกส่งกลับไปกลับมาโดยใช้คิวรแบบไลฟ์
+
+คุณสามารถนำเข้าชุดข้อมูลมาใน Power BI หรือคุณสามารถสร้าง*การเชื่อมต่อแบบสด*ไปยังพวกนั้นได้ ชุดข้อมูลการเชื่อมต่อแบบสดมักจะอยู่ภายในองค์กร ถ้าเป็นเช่นนั้น คุณจัดการการเชื่อมต่อแบบสดโดยใช้[เกตเวย์](../connect-data/service-gateway-onprem.md) ข้อมูลและการสอบถามจะถูกส่งกลับมาโดยใช้คิวรีแบบสด
+
+> [!NOTE]
+> การเชื่อมต่อแบบสดยังสนับสนุนชุดข้อมูล Azure Analysis Services ซึ่งไม่จำเป็นต้องใช้เกตเวย์
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>การถามตอบสำหรับชุดข้อมูลของเกตเวย์ข้อมูลภายในองค์กร
 ถ้าคุณต้องการใช้ Q&A ที่มีชุดข้อมูลที่คุณเข้าถึงผ่านเกตเวย์ คุณจะต้องเปิดใช้งานมันก่อน
@@ -60,9 +63,9 @@ ms.locfileid: "83348884"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-- [เกตเวย์ข้อมูลภายในองค์กร](../connect-data/service-gateway-onprem.md)  
+- [On-premises data gateway (เกตเวย์ข้อมูลภายในองค์กร)](../connect-data/service-gateway-onprem.md)  
 - [จัดการแหล่งข้อมูลของคุณ - Analysis Services](../connect-data/service-gateway-enterprise-manage-ssas.md)  
-- [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการของ Power BI](../fundamentals/service-basic-concepts.md)  
+- [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](../fundamentals/service-basic-concepts.md)  
 - [ภาพรวม Power BI Q&A](../consumer/end-user-q-and-a.md)  
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

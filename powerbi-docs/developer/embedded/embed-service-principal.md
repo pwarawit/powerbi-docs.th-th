@@ -1,6 +1,6 @@
 ---
-title: บริการหลักพร้อมด้วย Power BI
-description: เรียนรู้วิธีการลงทะเบียนแอปพลิเคชันภายใน Azure Active Directory โดยใช้บริการหลักและความลับของแอปพลิเคชัน สำหรับการใช้งานด้วยการฝังเนื้อหา Power BI
+title: การฝังเนื้อหา Power BI ด้วยบริการหลักและความลับของแอปพลิเคชัน
+description: เรียนรู้วิธีการรับรองความถูกต้องสำหรับการวิเคราะห์แบบฝังตัวโดยใช้บริการแอปพลิเคชัน Azure Active Directory หลักและข้อมูลลับของแอปพลิเคชัน
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,19 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/30/2020
-ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.date: 05/12/2020
+ms.openlocfilehash: da7db691628b0fbcfd42d6a35f99b18b4cfdcc88
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121209"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315874"
 ---
-# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>การฝังเนื้อหา Power BI ด้วยบริการหลักและความลับของแอปพลิเคชัน
+# <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>การฝังเนื้อหา Power BI ด้วยบริการหลักและความลับของแอปพลิเคชัน
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 บทความนี้อธิบายการรับรองความถูกต้องของบริการหลักโดยใช้ *รหัสแอปพลิเคชัน* และ *ความลับของแอปพลิเคชัน*
+
+>[!NOTE]
+>เราขอแนะนำให้คุณรักษาความปลอดภัยบริการหลังบ้านของคุณโดยใช้ใบรับรอง แทนที่จะเป็นคีย์ลับ
+>* [เรียนรู้เพิ่มเติมเกี่ยวกับการรับโทเค็นการเข้าถึงจาก Azure AD โดยใช้คีย์ลับหรือใบรับรอง](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion)
+>* [การฝังเนื้อหา Power BI ด้วยบริการหลักและใบรับรอง](embed-service-principal-certificate.md)
 
 ## <a name="method"></a>วิธี
 
@@ -54,30 +59,12 @@ ms.locfileid: "84121209"
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>การสร้างแอป Azure AD ในพอร์ทัล Microsoft Azure
 
-1. ลงชื่อเข้าใช้ใน [Microsoft Azure](https://portal.azure.com/#allservices)
-
-2. ค้นหา **การลงทะเบียนแอป** และคลิกลิงก์ **การลงทะเบียนแอป**
-
-    ![ลงทะเบียนแอป azure](media/embed-service-principal/azure-app-registration.png)
-
-3. คลิก **การลงทะเบียนใหม่**
-
-    ![การลงทะเบียนใหม่](media/embed-service-principal/new-registration.png)
-
-4. ระบุข้อมูลที่จำเป็น:
-    * **ชื่อ** - กรอกชื่อสำหรับแอปพลิเคชันของคุณ
-    * **ประเภทบัญชีที่รองรับการใช้งาน** - เลือกบัญชี Azure AD ที่คุณต้องการ
-    * (ไม่บังคับ) **เปลี่ยนเส้นทาง URI** - กรอก URI ถ้าจำเป็น
-
-5. คลิก **ลงทะเบียน**
-
-6. หลังจากลงทะเบียนแล้ว *รหัสแอปพลิเคชัน* จะพร้อมใช้งานจากแท็บ **ภาพรวม** คัดลอกและบันทึก *รหัสแอปพลิเคชัน* สำหรับใช้งานในภายหลัง
-
-    ![รหัสแอปพลิเคชัน](media/embed-service-principal/application-id.png)
+[!INCLUDE[service create app](../../includes/service-principal-create-app.md)]
 
 7. คลิกแท็บ **ใบรับรองและความลับ**
 
      ![รหัสแอปพลิเคชัน](media/embed-service-principal/certificates-and-secrets.png)
+
 
 8. คลิก **ความลับของไคลเอ็นต์ใหม่**
 
@@ -157,7 +144,7 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 ![พอร์ทัลผู้ดูแลระบบ](media/embed-service-principal/admin-portal.png)
 
-## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>ขั้นตอนที่ 4 - เพิ่มบริการหลักเป็นผู้ดูแลระบบในพื้นที่ทำงานของคุณ
+## <a name="step-4---add-the-service-principal-to-your-workspace"></a>ขั้นตอนที่ 4 - เพิ่มบริการหลักไปยังพื้นที่ทำงานของคุณ
 
 ในการเปิดใช้งานการเข้าถึงแอป Azure AD ของคุณ เช่น รายงาน แดชบอร์ด และชุดข้อมูลในบริการ Power BI ให้เพิ่มเอนทิตีบริการหลักเป็นสมาชิกหรือผู้ดูแลระบบในพื้นที่ทำงานของคุณ
 
@@ -181,20 +168,21 @@ Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
 
 หลังจากที่มีการฝังเนื้อหาของคุณแล้ว คุณก็พร้อมที่จะ [ย้ายไปยังการผลิต](embed-sample-for-customers.md#move-to-production)
 
-## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
-
-* บริการหลักจะทำงานร่วมกับ[พื้นที่ทำงานใหม่](../../collaborate-share/service-create-the-new-workspaces.md)เท่านั้น
-* **ความจุเฉพาะของฉัน** ไม่ได้รับการสนับสนุนเมื่อใช้บริการหลัก
-* ต้องใช้ความจุเฉพาะเมื่อย้ายไปยังการผลิต
-* คุณไม่สามารถลงชื่อเข้าใช้พอร์ทัล Power BI ด้วยบริการหลัก
-* คุณจำเป็นต้องมีสิทธิ์ของผู้ดูแลระบบ Power BI เพื่อเปิดใช้งานบริการหลักในการตั้งค่านักพัฒนาภายในพอร์ทัลผู้ดูแลระบบของ Power BI
-* แอปพลิเคชัน [แบบฝังตัวสำหรับองค์กรของคุณ](embed-sample-for-your-organization.md) ไม่สามารถใช้บริการหลักได้
-* [Dataflows](../../transform-model/service-dataflows-overview.md) การจัดการไม่ได้รับการสนับสนุน
-* ปัจจุบัน โครงร่างสำคัญของบริการไม่สนับสนุนผู้ดูแลระบบ APIs
-* เมื่อใช้โครงร่างสำคัญของบริการด้วยแหล่งข้อมูล [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) โครงร่างสำคัญของบริการจะต้องมีสิทธิ์อินสแตนซ์ Azure Analysis Services การใช้กลุ่มความปลอดภัยที่ประกอบด้วยโครงร่างสำคัญของบริการสำหรับวัตถุประสงค์นี้ไม่ได้ผล
+[!INCLUDE[service principal limitations](../../includes/service-principal-limitations.md)]
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-* [Power BI Embedded สำหรับลูกค้าของคุณ](embed-sample-for-customers.md)
+>[!div class="nextstepaction"]
+>[ลงทะเบียนแอป](register-app.md)
 
-* [ความปลอดภัยระดับแถวโดยใช้เกตเวย์ข้อมูลภายในองค์กรที่มีโครงร่างสำคัญของบริการ](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+> [!div class="nextstepaction"]
+>[Power BI Embedded สำหรับลูกค้าของคุณ](embed-sample-for-customers.md)
+
+>[!div class="nextstepaction"]
+>[แอปพลิเคชันและออบเจ็กต์บริการหลักใน Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
+>[!div class="nextstepaction"]
+>[ความปลอดภัยระดับแถวโดยใช้เกตเวย์ข้อมูลภายในองค์กรที่มีโครงร่างสำคัญของบริการ](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+>[!div class="nextstepaction"]
+>[การฝังเนื้อหา Power BI ด้วยบริการหลักและใบรับรอง](embed-service-principal-certificate.md)

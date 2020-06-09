@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e8c45145695d61bcd7173e2202db98ec306c4b4d
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80404025"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336877"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>ลงทะเบียนแอปพลิเคชัน Azure AD เพื่อใช้กับ Power BI
 
@@ -52,9 +52,9 @@ ms.locfileid: "80404025"
 
     ![ชนิดของแอป](media/register-app/register-app-new-design-app-type.png)
 
-5. ถ้าคุณเลือก**แอปพลิเคชันเว็บฝั่งเซิร์ฟเวอร์**สำหรับชนิดแอปพลิเคชัน จากนั้นดำเนินการต่อเนื่องโดยการใส่ค่าสำหรับ **URL โฮมเพจ** และ **URL เปลี่ยนเส้นทาง**  **URL เปลี่ยนเส้นทาง**ทำงานร่วมกับ URL ที่ถูกต้อง และควรตรงกับแอปพลิเคชันที่คุณสร้างขึ้น ถ้าคุณเลือก**ดั้งเดิม**ดำเนินการต่อในขั้นตอนที่ 6
+5. ถ้าคุณเลือก**แอปพลิเคชันเว็บฝั่งเซิร์ฟเวอร์**สำหรับชนิดแอปพลิเคชัน จากนั้นดำเนินการต่อเนื่องโดยการใส่ค่าสำหรับ **URL โฮมเพจ** และ **URL เปลี่ยนเส้นทาง** **URL เปลี่ยนเส้นทาง**ทำงานร่วมกับ URL ที่ถูกต้อง และควรตรงกับแอปพลิเคชันที่คุณสร้างขึ้น ถ้าคุณเลือก**ดั้งเดิม**ดำเนินการต่อในขั้นตอนที่ 6
 
-6. เลือก Power BI API ที่แอปพลิเคชันของคุณต้องการ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสิทธิ์การเข้าถึง Power BI ดูที่[สิทธิ์ Power BI](power-bi-permissions.md) จากนั้นเลือก**ลงทะเบียน**
+6. เลือก Power BI API ที่แอปพลิเคชันของคุณต้องการ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสิทธิ์การเข้าถึง Power BI ให้ดู [สิทธิ์และการยินยอมในจุดสิ้นสุดของแพลตฟอร์มข้อมูลประจำตัวของ Microsoft](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent) จากนั้นเลือก**ลงทะเบียน**
 
     ![เลือก API เพื่อลงทะเบียน](media/register-app/register-app-new-app-registration-apis-register.png)
 
@@ -108,7 +108,7 @@ ms.locfileid: "80404025"
 
 2. เลือก**สิทธิ์ API** ภายใต้หัวข้อ **จัดการ**
 
-3. ภายใน **สิทธิ์ API** เลือก **เพิ่มสิทธิ์**  จากนั้นเลือก **Power BI Service** 
+3. ภายใน **สิทธิ์ API** เลือก **เพิ่มสิทธิ์**  จากนั้นเลือก **Power BI Service**
 
     ![การอนุญาตของแอป 03](media/register-app/powerbi-embedded-azuread-app-permissions03.png)
 

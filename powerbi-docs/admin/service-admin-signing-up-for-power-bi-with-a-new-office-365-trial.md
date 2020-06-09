@@ -8,21 +8,23 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/17/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 9c13f29b29742e62cb08c973e5444a7879e6222a
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: bab0eba6e2ae3d0ec8ede57f9875385dbb26a60a
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812231"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159869"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>ลงทะเบียนสำหรับ Power BI ด้วย Microsoft 365 รุ่นทดลองใช้ฟรี ตัวใหม่
 
-บทความนี้อธิบายวิธีทางเลือกในการลงทะเบียนสำหรับ Power BI ถ้าคุณยังไม่มีบัญชีผู้ใช้อีเมลที่ทำงานหรือโรงเรียน
+บทความนี้อธิบายวิธีทางเลือกในการลงทะเบียนสำหรับบริการ Power BI ถ้าคุณยังไม่มีบัญชีผู้ใช้อีเมลที่ทำงานหรือโรงเรียน
 
 หากคุณกำลังมีปัญหาในการลงทะเบียนใช้งาน Power BI ด้วยที่อยู่อีเมลของคุณ ก่อนอื่นให้ตรวจสอบให้แน่ใจว่าเป็น [ที่อยู่อีเมลที่สามารถใช้ได้กับ Power BI](../fundamentals/service-self-service-signup-for-power-bi.md#supported-email-addresses) ถ้าไม่สำเร็จ ให้ลงทะเบียนสำหรับ Microsoft 365 รุ่นทดลองใช้ฟรีและสร้างบัญชีที่ทำงาน จากนั้น ใช้บัญชีที่ทำงานใหม่เพื่อลงทะเบียนสำหรับบริการของ Power BI คุณจะสามารถใช้ Power BI ได้แม้ว่า Microsoft 365 รุ่นทดลองใช้ฟรีจะหมดอายุ
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>ลงทะเบียนสำหรับรุ่นทดลองใช้ Office ของ Microsoft 365
+
 ลงทะเบียนสำหรับ Microsoft 365 รุ่นทดลองใช้ฟรี[บนเว็บไซต์ Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) ถ้าคุณยังไม่มีบัญชี Microsoft จะแนะนำให้คุณทำตามขั้นตอนในการสร้างบัญชี เนื่องจากบัญชีอีเมลการค้าเชิงพาณิชย์ (เช่น Hotmail และ Gmail) จะไม่สามารถใช้งานได้กับ Microsoft 365 คุณจะต้องสร้างบัญชีใหม่ที่จะ  บัญชีอีเมลนั้นจะมีลักษณะบางอย่างเช่น *zalan@onmicrosoft.com*
 
 ![เลือกทดลองใช้ฟรี](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)

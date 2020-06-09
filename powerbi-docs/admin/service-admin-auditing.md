@@ -8,14 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/11/2020
 ms.author: kfollis
-ms.custom: seodec18
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: c0f8e6f0282e4a862c8fc92e922a412ba0f56098
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: f479bb865a11de57587a0302738411327327ed33
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812438"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272689"
 ---
 # <a name="track-user-activities-in-power-bi"></a>ติดตามกิจกรรมของผู้ใช้ใน Power BI
 
@@ -133,9 +133,9 @@ $activities[0]
 
 1. เลือก**บันทึกการตรวจสอบ**
 
-1. เลือก**ไปที่ศูนย์ผู้ดูแลระบบ O365**
+1. เลือก **ไปที่ศูนย์การจัดการ Microsoft 365**
 
-   ![สกรีนช็อตของพอร์ทัลผู้ดูแลระบบด้วยตัวเลือกบันทึกการตรวจสอบและตัวเลือกไปยังการเรียกศูนย์การจัดการ Microsoft O365 ออกมา](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![สกรีนช็อตของพอร์ทัลผู้ดูแลระบบด้วยตัวเลือกบันทึกการตรวจสอบและตัวเลือกไปยังการเรียกศูนย์การจัดการ Microsoft 365 ออกมา](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ### <a name="search-only-power-bi-activities"></a>ค้นหากิจกรรม Power BI เท่านั้น
 
