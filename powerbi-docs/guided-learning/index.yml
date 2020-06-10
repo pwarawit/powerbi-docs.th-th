@@ -6,12 +6,12 @@ metadata:
   ms.service: powerbi
   ms.author: davidiseminger
   ms.date: 09/20/2019
-  ms.openlocfilehash: bd094c8a4568c7fb05ca49996fb0c8f409c668d3
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: e358b7b78b4c87b500e6d749bee39fcdc9b2fd02
+  ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
   ms.translationtype: HT
   ms.contentlocale: th-TH
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "74178340"
+  ms.lasthandoff: 06/08/2020
+  ms.locfileid: "84532614"
 title: การเรียนรู้ Microsoft Power BI พร้อมคำแนะนำ
 summary: เริ่มการเรียนรู้ของคุณด้วยคอลเลกชันหลักสูตรที่เป็นลำดับนี้ และทำความเข้าใจความสามารถที่กว้างขวางและมีประสิทธิภาพของ Microsoft Power BI
 landingContent:
@@ -83,7 +83,7 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/3-create-calculated-columns
     - text: ปรับแบบจำลองข้อมูลให้เหมาะสม - 8 นาที
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4-optimize-data-models
-    - text: สร้างหน่วยวัดจากการคำนวณ - 15 นาที
+    - text: สร้างหน่วยวัด - 15 นาที
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4b-create-calculated-measures
     - text: สร้างตารางจากการคำนวณ - 4 นาที
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/5-create-calculated-tables
