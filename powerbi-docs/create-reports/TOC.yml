@@ -47,6 +47,8 @@
       items:
         - name: รายงาน Power BI
           items:
+            - name: โมเดิร์นริบบอน Power BI
+              href: desktop-ribbon.md
             - name: ทำงานกับมุมมองรายงาน
               href: desktop-report-view.md
             - name: ชนิดของตัวกรองในรายงาน

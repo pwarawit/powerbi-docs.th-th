@@ -28,6 +28,8 @@
               href: star-schema.md
             - name: ลดขนาดแบบจำลองข้อมูล
               href: import-modeling-data-reduction.md
+            - name: สร้างตารางวัน
+              href: model-date-tables.md
             - name: คำแนะนำวันที่/เวลาอัตโนมัติ
               href: auto-date-time.md
             - name: ความสัมพันธ์หนึ่งต่อหนึ่ง
@@ -44,6 +46,8 @@
               href: directquery-model-guidance.md
             - name: คำแนะนำโมเดลแบบรวม
               href: composite-model-guidance.md
+            - name: คำแนะนำการรักษาความปลอดภัยระดับแถว (RLS)
+              href: rls-guidance.md
         - name: DAX
           items:
             - name: ฟังก์ชันการแบ่งเทียบกับตัวดำเนินการหาร (/)

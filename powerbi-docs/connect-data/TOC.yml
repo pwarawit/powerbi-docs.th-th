@@ -122,6 +122,8 @@
               href: desktop-connect-to-web.md
             - name: เชื่อมต่อกับ Snowflake Computing Warehouse
               href: desktop-connect-snowflake.md
+            - name: เชื่อมต่อกับ Snowflake ในบริการ Power BI
+              href: service-connect-snowflake.md
             - name: สร้างวิชวลด้วยตัวเชื่อมต่อ Azure Cost Management
               href: desktop-connect-azure-cost-management.md
             - name: เชื่อมต่อกับข้อมูล Azure Consumption Insights

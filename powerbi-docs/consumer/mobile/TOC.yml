@@ -11,7 +11,7 @@
           href: mobile-whats-new-in-the-mobile-apps.md
         - name: พบหน้าโฮมเพจ
           href: mobile-apps-home-page.md
-    - name: เริ่มต้นใช้งานด่วน
+    - name: การเริ่มต้นใช้งานด่วน
       expanded: true
       items:
         - name: สำรวจแดชบอร์ดและรายงาน
@@ -28,9 +28,9 @@
           href: mobile-apps-data-in-real-world-context.md
         - name: ดูข้อมูลของคุณแบบออฟไลน์ในแอปสำหรับอุปกรณ์เคลื่อนที่
           href: mobile-apps-offline-data.md
-        - name: Power BI สำหรับแอปความเป็นจริงผสม (ตัวอย่าง)
+        - name: Power BI สำหรับแอปความเป็นจริงผสม (แสดงตัวอย่าง)
           href: mobile-mixed-reality-app.md
-    - name: วิธีใช้
+    - name: วิธีการ
       items:
         - name: แอปทั้งหมดสำหรับอุปกรณ์เคลื่อนที่
           items:
@@ -84,6 +84,8 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: การรวมการค้นหาอุปกรณ์ iOS
               href: mobile-apps-iOS-search-integration.md
+            - name: โหมดสีเข้ม
+              href: mobile-apps-dark-mode.md
             - name: แอป Power BI Apple Watch
               href: mobile-apple-watch.md
         - name: อุปกรณ์ Android
@@ -106,7 +108,7 @@
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
             - name: ดูรายงานและ KPIs ภายในองค์กร
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: ดู Power BI บน Surface Hub
+            - name: โหมดการนำเสนอสำหรับอุปกรณ์ Surface Hub และ Windows 10
               href: mobile-windows-10-app-presentation-mode.md
             - name: ลงชื่อเข้าระบบครั้งเดียวในแอป Windows
               href: mobile-windows-10-app-single-sign-on-sso.md

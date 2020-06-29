@@ -49,8 +49,12 @@
           items:
             - name: แชร์แดชบอร์ดและรายงาน
               href: service-share-dashboards.md
+            - name: ขอการเข้าถึงรายงานหรือแดชบอร์ด
+              href: service-request-access.md
             - name: กรองข้อมูลและแชร์รายงาน
               href: service-share-reports.md
+            - name: แก้ไขปัญหาการแชร์รายงานหรือแดชบอร์ด
+              href: service-troubleshoot-sharing.md
             - name: กรองรายงานโดยใช้พารามิเตอร์ใน URL
               href: service-url-filters.md
             - name: สมัครใช้งานตัวคุณเองและผู้อื่น

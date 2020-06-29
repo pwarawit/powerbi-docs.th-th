@@ -74,6 +74,8 @@
               href: end-user-spotlight.md
             - name: ปรับแต่งภาพ
               href: end-user-personalize-visuals.md
+            - name: วิเคราะห์ความผันผวนโดยการแสดงผลด้วยภาพ
+              href: end-user-analyze-visuals.md
             - name: รายงานที่มีการแบ่งหน้าใน Power BI
               items:
                 - name: รายงานที่มีการแบ่งหน้า
@@ -92,6 +94,8 @@
               href: end-user-visual-type.md
             - name: แสดงข้อมูลที่ใช้เพื่อสร้างการแสดงภาพ
               href: end-user-show-data.md
+            - name: คัดลอกการแสดงภาพและวางในตำแหน่งอื่น
+              href: end-user-copy-paste.md
             - name: การเจาะดูข้อมูลลึกในวิชวล
               href: end-user-drill.md
             - name: โต้ตอบกับ ArcGIS Maps

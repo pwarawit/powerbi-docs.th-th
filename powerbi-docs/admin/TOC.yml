@@ -24,7 +24,7 @@
               href: service-govus-overview.md
             - name: ลงทะเบียนองค์กรภาครัฐของประเทศสหรัฐอเมริกา
               href: service-govus-signup.md
-        - name: Power BI ในระบบคลาวด์ภูมิภาค
+        - name: Power BI ในบริการคลาวด์แห่งชาติ
           items:
             - name: โยกย้ายเพื่อไปยังภูมิภาคเยอรมนีในท้องถิ่น
               href: service-admin-migrate-data-germany.md
@@ -116,6 +116,8 @@
               href: service-premium-connect-tools.md
             - name: หลักการระบบอัตโนมัติพร้อมบริการ
               href: service-premium-service-principal.md
+            - name: แก้ไขปัญหาการเชื่อมต่อจุดปลายทาง XMLA
+              href: troubleshoot-xmla-endpoint.md
     - name: การอ้างอิง
       items:
         - name: 'PowerShell, REST Api และ .NET SDK'
