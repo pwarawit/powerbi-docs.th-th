@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e91698413df11a2f593128a616948935b65c0c4e
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 2988f02b8207eafe5155073af9acc60dcb0a81cf
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272919"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225316"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>กรองและแชร์รายงาน Power BI
 *แชร์*เป็นวิธีที่ดีเมื่อต้องให้บางคนสามารถเข้าถึงแดชบอร์ดและรายงานของคุณ จะเกิดอะไรขึ้นถ้าคุณต้องการแชร์รายงานที่ถูกกรอง คุณอาจต้องการให้รายงานแสดงเฉพาะข้อมูลสำหรับเมือง หรือพนักงานขาย หรือปีที่เฉพาะเจาะจง บทความนี้อธิบายวิธีการกรองรายงานและการแชร์เวอร์ชันที่กรองแล้วของรายงาน อีกวิธีหนึ่งในการแชร์รายงานที่กรองแล้วคือการ [เพิ่มพารามิเตอร์คิวรีไปยัง URL ของรายงาน](service-url-filters.md) ในทั้งสองกรณี รายงานจะถูกกรองเมื่อผู้รับเปิดเป็นครั้งแรก พวกเขาสามารถล้างตัวเลือกตัวกรองในรายงานได้
