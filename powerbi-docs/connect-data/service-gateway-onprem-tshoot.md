@@ -6,15 +6,15 @@ ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 698765cd71873de3badfce45ef546ed61220b323
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 0fd6e2d9a05c07ae5ed74a4f3f35af5267a68a87
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565334"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236204"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>แก้ไขปัญหาเกตเวย์ - Power BI
 
@@ -54,7 +54,7 @@ ms.locfileid: "83565334"
 
 คุณยังสามารถค้นหาใน **บันทึกเหตุการณ์** > **บันทึกแอปพลิเคชันและบริการ** > **บริการเกตเวย์ข้อมูลภายในองค์กร**สำหรับรายละเอียดเพิ่มเติม
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>ข้อผิดพลาด: เราพบข้อผิดพลาดขณะพยายามเชื่อมต่อกับ\<เซิร์ฟเวอร์\> รายละเอียด: "เราสามารถเข้าถึงเกตเวย์ข้อมูลได้ แต่เกตเวย์ข้อมูลไม่สามารถเข้าถึงแหล่งข้อมูลในองค์กรได้"
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>ข้อผิดพลาด: เราพบข้อผิดพลาดในระหว่างลองทำการเชื่อมต่อไปยัง\<server\> รายละเอียด: "เราสามารถเข้าถึงเกตเวย์ข้อมูลได้ แต่เกตเวย์ข้อมูลไม่สามารถเข้าถึงแหล่งข้อมูลในองค์กรได้"
 
 คุณไม่สามารถเชื่อมต่อไปยังแหล่งข้อมูลที่ระบุไว้ ตรวจสอบให้แน่ใจว่าข้อมูลที่ให้ไว้สำหรับแหล่งข้อมูลนั้นถูกต้อง
 

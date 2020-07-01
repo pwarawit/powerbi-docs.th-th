@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 4ce9946672514d3d3f181c573789b256888a4372
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 723869023824f7841eaaa895ab551b719a69c0e2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325862"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236304"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>ระบุหมวดหมู่ข้อมูลใน Power BI Desktop
 ใน Power BI Desktop คุณสามารถระบุ*ประเภทของข้อมูล*สำหรับคอลัมน์ เพื่อให้ Power BI Desktop ทราบว่าควรจัดการกับค่าเหล่านั้นอย่างไรเมื่อดำเนินการแสดงผลเป็นภาพ
