@@ -4,16 +4,16 @@ description: วิธีการรับและติดตั้งแอ�
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fe54cedf7f8432d4a5e621256b9b77029f6b38a5
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 612c54a201c947309394c442ba8b8ec1ed567879
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83692887"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229939"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>เชื่อมต่อกับเมตริกความจุ Power BI Premium
 การตรวจสอบความจุของคุณเป็นสิ่งสำคัญในการตัดสินใจอย่างชาญฉลาดว่าจะใช้ทรัพยากรความจุ Premium ของคุณให้ดีที่สุดได้อย่างไร แอปเมตริกความจุ Power BI Premium มีข้อมูลเชิงลึกมากที่สุดเกี่ยวกับวิธีการใช้งานความจุของคุณ

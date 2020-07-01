@@ -4,16 +4,16 @@ description: วิธีการรับและติดตั้งแด�
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279238"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229675"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>เชื่อมต่อไปยังแดชบอร์ดการตอบสนองเหตุฉุกเฉินในระดับภูมิภาค
 แดชบอร์ดการตอบสนองเหตุฉุกเฉินในระดับภูมิภาคคือคอมโพเนนต์รายงานของ[โซลูชันการตอบสนองเหตุฉุกเฉินของ Microsoft Power Platform](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview) ผู้ดูแลระบบระดับภูมิภาคสามารถดูแดชบอร์ดในผู้เช่า Power BI ของตน เพื่อให้พวกเขาสามารถดูข้อมูลและเมตริกที่สำคัญที่จะช่วยให้พวกเขาตัดสินใจได้อย่างมีประสิทธิภาพ
