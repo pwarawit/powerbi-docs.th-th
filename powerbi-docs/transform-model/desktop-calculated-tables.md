@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 22dc752a07c1633e0c42ceb25a8fcbf2a6314f4d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3f23f18002ce12c3b6706469f36bde077e117941
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83338880"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237894"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>สร้างตารางจากการคำนวณใน Power BI Desktop
 โดยส่วนใหญ่แล้ว คุณจะสร้างตารางโดยการนำเข้าข้อมูลไปยังแบบจำลองของคุณจากแหล่งข้อมูลภายนอก แต่ *ตารางจากการคำนวณ* ช่วยให้คุณสามารถเพิ่มตารางใหม่โดยยึดตามข้อมูลที่คุณได้โหลดลงไปยังแบบจำลองแล้ว แทนที่จะคิวรีและโหลดค่าจากแหล่งข้อมูลลงไปยังคอลัมน์ใหม่ในตาราง คุณสามารถสร้างสูตร [Data Analysis Expressions (DAX)](/dax/index) ที่ใช้กำหนดค่าของตารางได้

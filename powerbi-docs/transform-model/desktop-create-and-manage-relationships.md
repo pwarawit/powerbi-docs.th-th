@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a0000d2e0da3613bb74e8d3d0aed2dd7fa3e3dcc
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: f241315eecdbb600a798630167913aa1be0079a3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160283"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239060"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>สร้างและจัดการความสัมพันธ์ใน Power BI Desktop
 เมื่อคุณนำเข้าหลายตาราง มีโอกาสที่คุณจะต้องทำการวิเคราะห์โดยใช้ข้อมูลจากตารางเหล่านั้นทั้งหมด ความสัมพันธ์ระหว่างตารางเหล่านั้นเป็นสิ่งจำเป็นสำหรับการคำนวณผลลัพธ์อย่างถูกต้อง และแสดงข้อมูลในรายงานของคุณอย่างถูกต้อง Power BI Desktop ทำให้สร้างความสัมพันธ์ดังกล่าวได้ง่ายขึ้น ในความเป็นจริง ในกรณีส่วนใหญ่คุณไม่จำเป็นต้องทำอะไร คุณลักษณะการตรวจหาอัตโนมัติทำได้สำหรับคุณ อย่างไรก็ตาม ในบางกรณีคุณอาจต้องสร้างความสัมพันธ์ด้วยตนเอง หรือคุจำเป็นต้องทำการเปลี่ยนแปลงบางอย่างสำหรับความสัมพันธ์นั้น ไม่ว่าด้วยใช้วิธีใด จำเป็นต้องทำความเข้าใจความสัมพันธ์ใน Power BI Desktop วิธีการสร้างและวิธีการแก้ไขใจความสัมพันธ์เหล่านี้

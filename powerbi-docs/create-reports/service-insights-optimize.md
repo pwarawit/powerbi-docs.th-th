@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a4ea55841a2ca5e7a368e822429e3de4ae1f4b64
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 277e160767f21fb221896015553e8d7dcfcf9567
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83304403"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238249"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>ปรับข้อมูลของคุณให้เหมาะสมสำหรับ ข้อมูลเชิงลึกด่วนของ Power BI
 ต้องการปรับปรุงผลลัพธ์ข้อมูลเชิงลึกด่วนหรือไม่?  ถ้าคุณเป็นเจ้าของชุดข้อมูล ลองขั้นตอนเหล่านี้:

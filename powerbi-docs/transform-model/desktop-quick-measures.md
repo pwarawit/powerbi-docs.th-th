@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2bb48ad44c1f1d440fb5741fc55cc4a83f315dc8
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83306243"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237146"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>ใช้การวัดผลด่วนสำหรับการคำนวณทั่วไป
 คุณสามารถใช้*การวัดผลด่วน*สำหรับการคำนวณทั่วไปและมีประสิทธิภาพได้อย่างรวดเร็วและง่ายดาย การวัดผลด่วนเรียกใช้ชุดของคำสั่งนิพจน์การวิเคราะห์ข้อมูล (DAX) ที่อยู่เบื้องหลังฉากดังกล่าว จากนั้นแสดงผลลัพธ์ให้แก่คุณในรายงานของคุณ คุณไม่จำเป็นต้องเขียน DAX ซึ่งจะทำให้คุณยึดตามข้อมูลที่คุณใส่ไว้ในกล่องโต้ตอบ มีการคำนวนอยู่มากมายหลายประเภท และวิธีการปรับเปลี่ยนแต่ละการคำนวณให้ตรงกับความต้องการของคุณ ยิ่งไปกว่านั้น คุณสามารถดู DAX ที่ดำเนินการโดยการวัดผลด่วน และเริ่มต้นหรือขยายความรู้ DAX ของคุณเอง

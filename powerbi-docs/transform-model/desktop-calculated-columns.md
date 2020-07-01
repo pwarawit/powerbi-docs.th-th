@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 425bf50ad6eb4da9b50f7d9cdc760ef71cb7bff2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 90a8cf81c2dd0dae3a31a15197785e64432f1a01
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83339018"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237910"
 ---
 # <a name="create-calculated-columns-in-power-bi-desktop"></a>สร้างคอลัมน์จากการคำนวณใน Power BI Desktop
 คุณสามารถใช้คอลัมน์จากการคำนวณเพื่อเพิ่มข้อมูลใหม่ลงในตารางที่มีอยู่แล้วในแบบจำลองของคุณ แต่แทนที่จะทำแบบสอบถามและโหลดค่าลงในคอลัมน์ใหม่ของคุณจากแหล่งข้อมูล คุณสามารถสร้างสูตรนิพจน์การวิเคราะห์ข้อมูล (DAX) ที่กำหนดค่าของคอลัมน์ได้ ใน Power BI Desktop คอลัมน์จากการคำนวณถูกสร้างขึ้นโดยใช้คุณลักษณะคอลัมน์ใหม่ในมุมมอง**รายงาน**

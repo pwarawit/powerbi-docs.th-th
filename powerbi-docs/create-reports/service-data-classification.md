@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/10/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b9aeb033586eaf5c0effd838626af6c877080f64
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4179244dde8f5ebf2cc78bb84c4141e3bb3a6364
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322734"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238368"
 ---
 # <a name="dashboard-data-classification"></a>การจัดประเภทข้อมูลของแดชบอร์ด
 แดชบอร์ดทุกตัวจะแตกต่างกันไป และขึ้นอยู่กับแหล่งข้อมูลที่เชื่อมต่อ คุณอาจจะเห็นว่าคุณและเพื่อนร่วมงานของคุณแชร์ความต้องการมาตรการที่แตกต่างกัน โดยขึ้นอยู่กับระดับความลับของข้อมูล แดชบอร์ดบางตัวไม่ควรจะหรือพิมพ์หรือใช้ร่วมกันกับที่อยู่ภายนอกบริษัทของคุณ ในขณะที่ตัวอื่นๆสามารถแชร์ได้อย่างอิสระ โดยใช้การจัดประเภทข้อมูลแดชบอร์ด คุณจะสามารถสร้างความตระหนักให้กับบุคคลที่กำลังดูแดชบอร์ดของคุณ เกี่ยวกับระดับการรักษาความปลอดภัยใดควรใช้ คุณสามารถแท็กแดชบอร์ดของคุณ ด้วยการจัดประเภทที่กำหนดโดยแผนก IT ของบริษัทของคุณ ดังนั้นทุกคนที่ดูเนื้อหาจะมีการทำความเข้าใจเกี่ยวกับระดับความลับของข้อมูลในระดับเดียวกันได้

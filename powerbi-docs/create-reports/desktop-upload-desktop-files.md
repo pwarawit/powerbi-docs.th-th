@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 417d5a03ed45897896db15f2fd31d3badae837c5
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 91b19fd5e357f4ab020b72b259ab5053c36af8f7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273471"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238439"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>เผยแพร่ชุดข้อมูลและรายงานจาก Power BI Desktop
 เมื่อคุณเผยแพร่เป็นไฟล์ Power BI Desktop ไปยังบริการ Power BI แสดงว่าคุณได้เผยแพร่ข้อมูลในแบบจำลองดังกล่าวไปยังพื้นที่ทำงาน Power BI ของคุณ ข้อมูลเดียวกันนี้จะเป็นจริงสำหรับรายงานใด ๆ ที่คุณสร้างไว้ในมุมมอง**รายงาน** คุณจะเห็นชุดข้อมูลใหม่ที่มีชื่อเดียวกัน และรายงานต่างๆในตัวนำทางของพื้นที่ทำงานของคุณ
