@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9bbd5cbafa7f6c17fd9b9a02b93a27cc5859ee4a
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 81ba595be7262c81cdb68f2a1ed052c45663d7a7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272781"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234357"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>เผยแพร่ไปยัง Power BI จาก Microsoft Excel
 ด้วย Microsoft Excel 2016 และรุ่นใหม่กว่า คุณสามารถเผยแพร่สมุดงาน Excel ของคุณไปยังพื้นที่ทำงาน [Power BI](https://powerbi.microsoft.com) ได้โดยตรง ซึ่งเป็นที่ที่คุณสามารถสร้างรายงานและแดชบอร์ดแบบโต้ตอบสูงตามข้อมูลของสมุดงานของคุณได้ จากนั้นคุณสามารถแชร์ข้อมูลเชิงลึกของคุณกับผู้อื่นในองค์กรของคุณได้
