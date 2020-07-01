@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 5df9ddd44bdc8952dab14809ce3facd74e5d3753
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 60e80311ff12da2bc79b7f844c81c7b5c8f4c3ac
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564169"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354880"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>เครื่องมือการย้าย Power BI แบบฝัง
 
@@ -151,7 +151,7 @@ ms.locfileid: "83564169"
 
 ในแท็บ**ดาวน์โหลด**คุณจะเห็นรายการของรายงานและเมตาดาต้าที่เกี่ยวข้อง คุณสามารถดูสถานะการส่งออกและสถานะการส่งออกก่อนหน้านี้
 
-![](media/migrate-tool/migrate-tool-download-tab.png)
+![ดาวน์โหลด](media/migrate-tool/migrate-tool-download-tab.png)
 
 คุณมีสองตัวเลือก
 

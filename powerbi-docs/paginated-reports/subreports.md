@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9ced88289b2170d503a8394d5b83175659178e85
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272821"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239586"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>รายงานย่อยในรายงานที่มีการแบ่งหน้าของ Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "83272821"
   
  ในภาพประกอบนี้ ข้อมูลผู้ติดต่อที่แสดงในรายงานคำสั่งขายหลักมาจากรายงานย่อยของผู้ติดต่อ  
   
-คุณสร้างและแก้ไขไฟล์คำจำกัดความของรายงานที่มีการแบ่งหน้า (.rdl) ใน Power BI Report Builder คุณสามารถอัปโหลดรายงานย่อยที่จัดเก็บใน SQL Server Reporting Services ไปยังพื้นที่ทำงานแบบพรีเมียมในบริการของ Power BI ได้ รายงานหลักและรายงานย่อยจะต้องเผยแพร่ไปยังพื้นที่ทำงานเดียวกัน ติดตั้ง [Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513)
+คุณสร้างและแก้ไขไฟล์คำจำกัดความของรายงานที่มีการแบ่งหน้า (.rdl) ใน Power BI Report Builder คุณสามารถอัปโหลดรายงานย่อยที่จัดเก็บใน SQL Server Reporting Services ไปยังพื้นที่ทำงานแบบพรีเมียมในบริการของ Power BI ได้ รายงานหลักและรายงานย่อยจะต้องเผยแพร่ไปยังพื้นที่ทำงานเดียวกัน ติดตั้ง [Power BI Report Builder](https://aka.ms/pbireportbuilder)
   
 ## <a name="work-with-report-builder-and-the-power-bi-service"></a>ทำงานด้วยตัวสร้างรายงานและบริการของ Power BI
 
