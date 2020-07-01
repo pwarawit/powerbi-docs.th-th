@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: f18f8b56db8635d407417949bc35adb61fb4a2c5
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565637"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427567"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>รายงานที่มีการแบ่งหน้าใน Power BI คำถามที่ถามบ่อย 
 
@@ -96,7 +96,7 @@ ms.locfileid: "83565637"
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>คุณรองรับตัวสร้างรายงานเวอร์ชันใด
 
-เราเพิ่งเผยแพร่ตัวสร้างรายงาน Power BI ในฐานะเครื่องมือการเขียนหลักสำหรับรายงานแบบแบ่งหน้าในบริการ Power BI ติดตั้ง[ตัวสร้างรายงาน Power BI จากศูนย์ดาวน์โหลด Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
+เราเพิ่งเผยแพร่ตัวสร้างรายงาน Power BI ในฐานะเครื่องมือการเขียนหลักสำหรับรายงานแบบแบ่งหน้าในบริการ Power BI ติดตั้ง[ตัวสร้างรายงาน Power BI จากศูนย์ดาวน์โหลด Microsoft](https://aka.ms/pbireportbuilder)
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>ฉันจะย้ายรายงานที่มีอยู่แล้วและบันทึกไว้ใน SQL Server Reporting Services ไปยัง Power BI ได้อย่างไร
 
@@ -181,5 +181,5 @@ ms.locfileid: "83565637"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-- [ติดตั้งตัวสร้างรายงาน Power BI จากศูนย์ดาวน์โหลด Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [ติดตั้งตัวสร้างรายงาน Power BI จากศูนย์ดาวน์โหลด Microsoft](https://aka.ms/pbireportbuilder)
 - [บทช่วยสอน: สร้างรายงานที่มีการแบ่งหน้า](paginated-reports-quickstart-aw.md)

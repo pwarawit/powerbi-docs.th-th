@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6e3d44c9871332842ed0e3f3d9b9fb5fc64a5a65
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 65ed1806491f281bcc4d8adc365e5d286b6204ec
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121122"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218849"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>สร้างคำถามที่น่าสนใจสำหรับ Power BI Q&A
 ถ้าคุณเป็นเจ้าของชุดข้อมูล คุณสามารถเพิ่มคำถามที่แนะนำของคุณเองในชุดข้อมูลนั้น การถามตอบของ Power BI จะแสดงคำถามเหล่านั้นให้เพื่อนร่วมงานที่ใช้รายงานที่ยึดตามชุดข้อมูลของคุณ  คำถามที่แนะนำนั้นเพื่อให้เพื่อนร่วมงานของคุณมีความคิดเบื้องต้น เกี่ยวกับชนิดของคำถามที่พวกเขาสามารถสอบถามเกี่ยวกับชุดข้อมูล คำถามที่น่าสนใจที่คุณเพิ่มนั้นขึ้นกับคุณ -- เพิ่มคำถามยอดนิยม คำถามที่แสดงผลลัพธ์ที่น่าสนใจ หรือคำถามที่อาจเป็นเรื่องยากที่จะเขียนเป็นวลี
