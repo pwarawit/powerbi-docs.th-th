@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/14/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 722516004a454f970b7a88e2bf4c48d1d0176b6b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 91ca05a144166abbc903d42ba30a5c70b839987d
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237359"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782801"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>สร้างและใช้วิชวล R ใน Power BI 
 
@@ -104,15 +104,19 @@ ms.locfileid: "85237359"
   
   * เพิ่มบรรทัดต่อไปนี้ที่ตอนต้นของสคริปต์ R:
     
-        powerbi_rEnableShowText =  1
+```powerbi_rEnableShowText =  1```
+
 * ฟอนต์ภาษาจีน ญี่ปุ่น และภาษาเกาหลีจำเป็นต้องดำเนินการตามขั้นตอนต่อไปนี้ทั้งหมดเพื่อให้สามารถทำงานได้อย่างถูกต้องในบริการ Power BI:
   
   * ก่อนอื่น ติดตั้งแพคเกจ R *showtext*และอ้างอิงที่เกี่ยวเนื่องทั้งหมด คุณสามารถดำเนินการนี้ได้โดยการเรียกใช้สคริปต์ต่อไปนี้:
     
-        *install.packages("showtext")*
+```install.packages("showtext")```
+
   * ถัดไป เพิ่มบรรทัดต่อไปนี้ที่จุดเริ่มต้นของสคริปต์ R:
     
-        powerbi_rEnableShowTextForCJKLanguages =  1
+```R script
+powerbi_rEnableShowTextForCJKLanguages =  1
+```
 
 ## <a name="overview-of-r-packages"></a>ภาพรวมของแพคเกจ R
 แพคเกจ R เป็นคอลเลกชันของ R ฟังก์ชัน ข้อมูล และการรวมกันของโค้ดที่จะถูกรวมในรูปแบบที่กำหนดไว้อย่างดี เมื่อมีการติดตั้ง R แพคเกจจะมาพร้อมกับชุดมาตรฐาน และแพคเกจอื่น ๆ จะพร้อมสำหรับการดาวน์โหลดและติดตั้ง เมื่อติดตั้งแล้ว คุณจะต้องโหลดแพคเกจ R ลงในเซสชันที่จะใช้ แหล่งข้อมูลหลักของแพคเกจ R ฟรีคือ CRAN [Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html)

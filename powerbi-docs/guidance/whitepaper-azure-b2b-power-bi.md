@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2783f434e2bb1d6d45ed1a9442c60da7b09e7ae4
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: MT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565448"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782794"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>กระจายเนื้อหา Power BI ให้กับผู้ใช้ที่เป็นผู้เยี่ยมชมภายนอก โดยใช้ Azure Active Directory B2B
 
@@ -71,7 +71,7 @@ Contoso ทำงานกับผู้รับเหมาย่อยเพ
 
 
 
-1. กระบวนการเริ่มต้นจากผู้ดูแลระบบเชิญผู้ใช้ที่เป็นผู้เยี่ยมชมอาจโดยการกำหนดเอง หรือผ่านทาง API ที่ได้มาจาก Azure Active Directory
+1. กระบวนการเริ่มต้นด้วยผู้ดูแลระบบ IT ที่เชิญผู้ใช้ที่เป็นผู้เยี่ยมชมด้วยตนเองหรือผ่าน API ที่ให้มาโดย Azure Active Directory
 2. ผู้ใช้ยอมรับคำเชิญไปยังองค์กร
 3. เมื่อผู้ใช้ยอมรับคำเชิญแล้ว ผู้ใช้ใน Power BI สามารถแชร์รายงานหรือแดชบอร์ดกับผู้ใช้ภายนอก หรือในกลุ่มปลอดภัยของพวกเขา เช่นเดียวกับการแชร์ทั่วไปใน Power BI ผู้ใช้ภายนอกจะได้รับอีเมลที่ มีลิงก์ไปยังรายการ
 4. เมื่อผู้ใช้ภายนอกเข้าถึงลิงก์ การรับรองความถูกต้องของพวกเขาในไดเรกทอรีของพวกเขาจะถูกส่งไปยัง Azure AD ของ Contoso เพื่อขออนุญาตเข้าสู่เนื้อหา Power BI
@@ -240,7 +240,7 @@ Power BI รวมเข้ากับ Azure AD B2B ให้ Contoso มีว
     * คำเชิญที่วางแผน
     * คำเชิญเฉพาะกิจ
 
-    **คำเชิญที่วางแผน**
+    **คำเชิญที่วางแผนไว้**
 
     ในวิธีนี้ Contoso เชิญผู้ใช้ที่เป็นผู้เยี่ยมชมไปยัง Azure AD ของเขาล่วงหน้า และจากนั้นแจกจ่ายเนื้อหา Power BI ไปให้พวกเขา Contoso สามารถเชิญผู้ใช้ที่เป็นผู้เยี่ยมชมจากพอร์ทัล Azure หรือใช้ PowerShell นี่คือขั้นตอนในการเชิญผู้ใช้ที่เป็นผู้เยี่ยมชมจากพอร์ทัล Azure:
 
@@ -616,7 +616,7 @@ Contoso สามารถบังคับใช้นโยบายการ
 
 **Contoso บังคับให้รับรองความถูกต้องแบบหลายปัจจัยสำหรับผู้ใช้ที่เป็นผู้เยี่ยมชมได้หรือไม่ ถ้าคู่ค้าไม่มีการรับรองความถูกต้องแบบหลายปัจจัย**
 
-ใช่ สำหรับข้อมูลเพิ่มเติม ดู [เข้าถึงตามเงื่อนไขสำหรับผู้ใช้ทำงานร่วมกัน B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)
+ได้ สำหรับข้อมูลเพิ่มเติม ดู [เข้าถึงตามเงื่อนไขสำหรับผู้ใช้ทำงานร่วมกัน B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)
 
 **การทำงานร่วมกันแบบ B2B ทำงานอย่างไรเมื่อคู่ค้าที่ได้รับเชิญนั้นใช้กลุ่มรวมในการเพิ่มการรับรองความถูกต้องภายในองค์กรของพวกเขา**
 

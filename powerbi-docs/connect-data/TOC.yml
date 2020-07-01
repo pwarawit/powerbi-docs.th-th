@@ -94,6 +94,8 @@
                   href: desktop-python-ide.md
                 - name: สร้างวิชวลด้วย Python
                   href: desktop-python-visuals.md
+                - name: เรียนรู้แพ็คเกจ Python ที่รองรับ
+                  href: service-python-packages-support.md
             - name: เรียกใช้สคริปต์ R
               href: desktop-r-scripts.md
             - name: ใช้ R ในตัวแก้ไขคิวรี
