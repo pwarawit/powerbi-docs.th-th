@@ -4,16 +4,16 @@ description: อ่านเกี่ยวกับการจัดเก็�
 author: maggiesMSFT
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 62d0282af47b0d57a0b9ac307b422191b440b45c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: fdbb571a30f530ddeba37a7eaf490718b6c8116d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564090"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230371"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>เชื่อมต่อไปยังไฟล์ที่จัดเก็บไว้ใน OneDrive สำหรับพื้นที่ทำงานของ Power BI ของคุณ
 หลังจากที่คุณ [สร้างพื้นที่ทำงานใน Power BI](../collaborate-share/service-create-distribute-apps.md) คุณสามารถจัดเก็บไฟล์ Excel, CSV และ Power BI Desktop ของคุณบน OneDrive for Business สำหรับพื้นที่ทำงานของ Power BI ของคุณ คุณสามารถปรับปรุงแฟ้มที่คุณเก็บไว้ใน OneDrive การอัปเดตเหล่านั้นมีผลในรายงาน Power BI และแดชบอร์ดที่ยึดตามไฟล์เหล่านั้นโดยอัตโนมัติ 

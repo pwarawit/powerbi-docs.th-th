@@ -4,15 +4,15 @@ description: แอปสำหรับอุปกรณ์เคลื่อ�
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: 28353ec6d0b2f8a1f83544d63526748c621cb858
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a56fecdadc8eddba3fa755497a4ebc978496b7a1
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83694099"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231342"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>ดูรายงานและ KPI ภายในองค์กรในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 แอป Power BI สำหรับ Windows 10 มีการเข้าถึงแบบไลฟ์, touch ที่เปิดใช้งานการเชื่อมต่อกับข้อมูลทางธุรกิจภายในองค์กรที่สำคัญของคุณในReporting Services SQL Server 2016 
