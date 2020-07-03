@@ -26,8 +26,6 @@
           href: desktop-tutorial-facebook-analytics.md
         - name: ใช้การรักษาความปลอดภัยระดับแถวในแบบจำลองตาราง Analysis Services
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-        - name: เริ่มใช้งานด้วย Power BI
-          href: ../fundamentals/service-get-started.md
         - name: เชื่อมต่อกับตัวอย่าง GitHub
           href: service-tutorial-connect-to-github.md
         - name: วิเคราะห์ใน Excel
