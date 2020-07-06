@@ -118,6 +118,14 @@
               href: report-performance-troubleshoot.md
             - name: แนวปฏิบัติที่ดีที่สุดสำหรับไปป์ไลน์การปรับใช้งาน
               href: ../create-reports/deployment-pipelines-best-practices.md
+    - name: ศูนย์แห่งความเป็นเลิศ (COE)
+      items:
+        - name: การแปลง BI ของ Microsoft
+          href: center-of-excellence-microsoft-business-intelligence-transformation.md
+        - name: สร้าง COE
+          href: center-of-excellence-establish.md
+        - name: สถาปัตยกรรมโซลูชัน BI ใน COE
+          href: center-of-excellence-business-intelligence-solution-architecture.md
     - name: เอกสารทางเทคนิค
       items:
         - name: ภาพรวมเอกสารทางเทคนิค
