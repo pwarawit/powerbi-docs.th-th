@@ -6,13 +6,12 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: c4a823b0b41def6c10cd8f932bb97e91eb977ecb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.date: 06/25/2020
+ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148603"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782574"
 ---
 # <a name="understand-the-deployment-process-preview"></a>ทำความเข้าใจขั้นตอนการปรับใช้งาน (ตัวอย่าง)
 
@@ -60,7 +59,7 @@ ms.locfileid: "83148603"
 
 ข้อมูลในชุดข้อมูลเป้าหมายจะถูกเก็บไว้เมื่อเป็นไปได้ ถ้าไม่มีการเปลี่ยนแปลงไปยังชุดข้อมูล ข้อมูลจะถูกเก็บไว้เหมือนก่อนที่จะมีการใช้งาน
 
-เมื่อมีการเปลี่ยนแปลงเล็กๆ เช่นการเพิ่มตารางหรือหน่วยวัดที่มีการคำนวณ Power BI จะเก็บข้อมูลเดิมและการรีเฟรชถูกปรับให้เหมาะสมเพื่อรีเฟรชเฉพาะสิ่งที่จำเป็นเท่านั้น สำหรับการทำลาย schema ที่เปลี่ยนแปลงหรือการเปลี่ยนแปลงในการเชื่อมต่อแหล่งข้อมูลจำเป็นต้องรีเฟรชแบบเต็ม
+เมื่อมีการเปลี่ยนแปลงเล็กๆ เช่นการเพิ่มตารางหรือหน่วยวัด Power BI จะเก็บข้อมูลเดิมและการรีเฟรชถูกปรับให้เหมาะสมเพื่อรีเฟรชเฉพาะสิ่งที่จำเป็นเท่านั้น สำหรับการทำลาย schema ที่เปลี่ยนแปลงหรือการเปลี่ยนแปลงในการเชื่อมต่อแหล่งข้อมูลจำเป็นต้องรีเฟรชแบบเต็ม
 
 ### <a name="requirements-for-deploying-to-a-stage-with-an-existing-workspace"></a>ข้อกำหนดสำหรับการปรับใช้กับขั้นตอนด้วยพื้นที่ทำงานที่มีอยู่
 
@@ -152,14 +151,14 @@ ms.locfileid: "83148603"
 
 สร้างแอปสำหรับขั้นตอนไปป์ไลน์การปรับใช้แต่ละขั้นตอน เพื่อให้คุณสามารถทดสอบการอัปเดตแอปแต่ละครั้งจากมุมมองของผู้ใช้ปลายทาง ไปป์ไลน์การปรับใช้จะช่วยให้คุณสามารถจัดการกระบวนการนี้ได้อย่างง่ายดาย ใช้ปุ่มเผยแพร่หรือมุมมองในการ์ดพื้นที่ทำงานเพื่อเผยแพร่หรือดูแอปในขั้นตอนไปป์ไลน์ที่ระบุ
 
-[![](media/deployment-pipelines-process/publish.png "Publish app")](media/deployment-pipelines-process/publish.png#lightbox)
+[![เผยแพร่แอป](media/deployment-pipelines-process/publish.png "เผยแพร่แอป")](media/deployment-pipelines-process/publish.png#lightbox)
 
 ในขั้นตอนการผลิต ปุ่มการดำเนินการหลักที่มุมล่างซ้ายเปิดหน้าการอัปเดตแอปใน Power BI เพื่อให้การอัปเดตข้อมูลเนื้อหาใดๆ พร้อมใช้งานสำหรับผู้ใช้แอป
 
-[![](media/deployment-pipelines-process/update-app.png "Update app")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![อัปเดตแอป](media/deployment-pipelines-process/update-app.png "อัปเดตแอป")](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
->กระบวนการปรับใช้ไม่รวมการอัปเดตเนื้อหาของแอปหรือการตั้งค่า เมื่อต้องการนำการเปลี่ยนแปลงไปใช้กับเนื้อหาหรือการตั้งค่า คุณจำเป็นต้องอัปเดตแอปในขั้นตอนไปป์ไลน์ที่จำเป็นด้วยตนเอง
+>กระบวนการปรับใช้ไม่รวมการอัปเดตเนื้อหาหรือการตั้งค่าของแอป เมื่อต้องการนำการเปลี่ยนแปลงไปใช้กับเนื้อหาหรือการตั้งค่า คุณจำเป็นต้องอัปเดตแอปในขั้นตอนไปป์ไลน์ที่จำเป็นด้วยตนเอง
 
 ## <a name="permissions"></a>การอนุญาต
 
@@ -236,13 +235,23 @@ ms.locfileid: "83148603"
 
 * รายการ power BI เช่นรายงานและแดชบอร์ดที่มี [ป้ายชื่อระดับความลับของ Power BI](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)ไม่สามารถปรับใช้ได้
 
-* ไม่สามารถปรับใช้ชุดข้อมูลที่มีการกำหนดค่า [รีเฟรชแบบเพิ่มหน่วยได้](../admin/service-premium-incremental-refresh.md)
+* จำนวนสูงสุดของรายการ Power BI ที่สามารถปรับใช้ได้ในการจัดวางเดี่ยวคือ 300
 
 * สำหรับรายการของข้อจำกัดของพื้นที่ทำงาน ดู [ข้อจำกัดของการกำหนดพื้นที่ทำงาน](deployment-pipelines-get-started.md#workspace-assignment-limitations)
 
-* สำหรับรายการของข้อจำกัดของกฎชุดข้อมูล ดู [ข้อจำกัดของกฎชุดข้อมูล](deployment-pipelines-get-started.md#dataset-rule-limitations)
-
 * สำหรับรายการของรายการที่ไม่ได้รับการรองรับ ดู [รายการที่ไม่ได้รับการรองรับ](#unsupported-items)
+
+### <a name="dataset-limitations"></a>ข้อจำกัดของชุดข้อมูล
+
+* ไม่สามารถปรับใช้ชุดข้อมูลที่มีการกำหนดค่า [รีเฟรชแบบเพิ่มหน่วยได้](../admin/service-premium-incremental-refresh.md)
+
+* ชุดข้อมูลที่ใช้การเชื่อมต่อข้อมูลแบบเรียลไทม์ไม่สามารถจัดวางได้
+
+* ในระหว่างการปรับใช้ถ้าชุดข้อมูลเป้าหมายใช้ [การเชื่อมต่อแบบสด](../connect-data/desktop-report-lifecycle-datasets.md) ชุดข้อมูลต้นฉบับต้องใช้โหมดการเชื่อมต่อนี้เช่นกัน
+
+* หลังจากที่มีการปรับใช้ การดาวน์โหลดชุดข้อมูล (จากขั้นตอนที่ได้รับการจัดวาง) จะไม่ได้รับการรองรับ
+
+* สำหรับรายการของข้อจำกัดของกฎชุดข้อมูล ดู [ข้อจำกัดของกฎชุดข้อมูล](deployment-pipelines-get-started.md#dataset-rule-limitations)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

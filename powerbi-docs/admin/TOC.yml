@@ -76,13 +76,15 @@
           href: desktop-admin-sign-in-form.md
         - name: การป้องกันข้อมูล
           items:
-            - name: ภาพรวมเกี่ยวกับการป้องกันข้อมูล
-              href: service-security-data-protection-overview.md
-            - name: เปิดใช้งานการติดป้ายชื่อระดับความลับของข้อมูล
+            - name: ป้ายชื่อระดับความลับใน Power BI
+              href: service-security-sensitivity-label-overview.md
+            - name: เปิดใช้งานการติดป้ายชื่อระดับความลับ
               href: service-security-enable-data-sensitivity-labels.md
+            - name: วิธีการใช้ป้ายชื่อระดับความลับของข้อมูล
+              href: service-security-apply-data-sensitivity-labels.md
             - name: ใช้ Microsoft Cloud App Security กับ Power BI
               href: service-security-using-microsoft-cloud-app-security-controls.md
-            - name: รายงานเมตริกการป้องกันข้อมูล
+            - name: รายงานเมตริกการป้องกัน
               href: service-security-data-protection-metrics-report.md
         - name: รักษาความปลอดภัยระดับแถว
           href: service-admin-rls.md
