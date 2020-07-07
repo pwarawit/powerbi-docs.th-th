@@ -38,7 +38,7 @@
             - name: การวิเคราะห์ผลกระทบของชุดข้อมูล
               href: service-dataset-impact-analysis.md
             - name: กำหนดค่าป้ายชื่อระดับความลับของข้อมูล
-              href: ../collaborate-share/service-security-apply-data-sensitivity-labels.md
+              href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: เชื่อมต่อกับไฟล์บน OneDrive ของกลุ่มของคุณ
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: ร่วมมือทำงานในพื้นที่ทำงานดั้งเดิม
