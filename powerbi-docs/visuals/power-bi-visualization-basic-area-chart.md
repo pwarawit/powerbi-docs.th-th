@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/16/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e03a453b95a797b281f789e8aed40b3879b54e02
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: dd0cfbcb2b4e4d18a7aa69fb65063f9d81e0a14a
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563855"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354811"
 ---
 # <a name="create-and-use-basic-area-charts"></a>สร้างและใช้แผนภูมิพื้นที่แบบพื้นฐาน
 
@@ -26,7 +25,7 @@ ms.locfileid: "83563855"
 
 แผนภูมิพื้นที่เน้นให้เห็นปริมาณการเปลี่ยนแปลงตามเวลา และสามารถใช้เพื่อดึงความสนใจไปยังค่าผลรวมในทั่วทั้งแนวโน้ม ตัวอย่างเช่น เราสามารถลงจุดข้อมูลที่แสดงกำไรเมื่อเวลาผ่านไปในแผนภูมิพื้นที่เพื่อเน้นกำไรรวมได้
 
-![](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
+![แผนภูมิพื้นที่พื้นฐาน](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
 
 > [!NOTE]
 > การแชร์รายงานของคุณกับผู้ร่วมงาน Power BI กำหนดให้คุณต้องมีสิทธิ์การใช้งาน Power BI Pro แต่ละรายการ หรือรายงานจะถูกบันทึกในความจุแบบพรีเมียม

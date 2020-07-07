@@ -6,14 +6,13 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: c8c62709775bb269eb57b2f88c174f1dc4fd13ad
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
-ms.translationtype: HT
+ms.openlocfilehash: f592b7927d713e343f1d3ad11453cbbacc17fffd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794116"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354949"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>สร้างผู้เช่า Azure Active Directory เพื่อใช้กับ Power BI
 
@@ -60,29 +59,29 @@ ms.locfileid: "83794116"
 
 1. ภายในพอร์ทัล Azure ตรวจสอบให้แน่ใจว่าคุณกำลังอยู่บน Azure Active Directory ที่ปรากฎขึ้นทางด้านข้าง
 
-    ![](media/create-an-azure-active-directory-tenant/aad-flyout.png)
+    ![Azure AD ที่ปรากฏขึ้น](media/create-an-azure-active-directory-tenant/aad-flyout.png)
 
     ถ้าไม่เป็นเช่นนั้น เลือกไอคอน Azure Active Directory จากแถบบริการทางด้านซ้าย
 
-    ![](media/create-an-azure-active-directory-tenant/aad-service.png)
+    ![ไอคอน Azure AD](media/create-an-azure-active-directory-tenant/aad-service.png)
 
 2. ภายใต้ **จัดการ** เลือก **ผู้ใช้**
 
-    ![](media/create-an-azure-active-directory-tenant/users-and-groups.png)
+    ![ผู้ใช้และกลุ่ม Azure AD](media/create-an-azure-active-directory-tenant/users-and-groups.png)
 
 3. เลือก **ผู้ใช้ทั้งหมด** แล้วเลือก **+ ผู้ใช้ใหม่**
 
 4. ระบุ**ชื่อ**และ**ชื่อผู้ใช้**สำหรับผู้ดูแลระบบส่วนกลางผู้เช่าของคุณ เปลี่ยน **บทบาทไดเรกทอรี**ให้เป็น**ผู้ดูแลระบบส่วนกลาง** คุณยังสามารถแสดงรหัสผ่านชั่วคราวได้ เมื่อคุณทำเสร็จแล้ว เลือก **สร้าง**
 
-    ![](media/create-an-azure-active-directory-tenant/global-admin.png)
+    ![ผู้ดูแลระบบส่วนกลางของ Azure AD](media/create-an-azure-active-directory-tenant/global-admin.png)
 
 5. ให้ทำแบบเดียวกันสำหรับผู้ใช้ที่เป็นผู้เช่าทั่วไป คุณสามารถใช้บัญชีนี้สำหรับบัญชีฝังตัวหลักของคุณ ในเวลานี้ สำหรับ**บทบาทไดเรกทอรี** ปล่อยให้เป็น **ผู้ใช้** จดรหัสผ่าน จากนั้นเลือก **สร้าง**
 
-    ![](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
+    ![ผู้ใช้ Azure AD](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
 
 6. ลงทะเบียนสมัครใช้สำหรับ Power BI ด้วยบัญชีผู้ใช้ที่คุณสร้างในขั้นตอนที่ 5 ไปที่ [powerbi.com](https://powerbi.microsoft.com/get-started/) และเลือก **ทดลองใช้ฟรี** ภายใต้ **Power BI - การทำงานร่วมกันและการแชร์บนระบบคลาวด์**
 
-    ![](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
+    ![สร้างผู้เช่า](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
 
     เมื่อคุณลงทะเบียนสมัครใช้ คุณจะได้รับแจ้งให้ทดลองใช้ Power BI Pro ฟรีเป็นเวลา 60 วัน คุณสามารถเลือกเพื่อกลายเป็นผู้ใช้ระดับ Pro ซึ่งทำให้คุณมีตัวเลือกในการ[เริ่มต้นพัฒนาโซลูชันแบบฝังตัว](embed-sample-for-customers.md)ได้
 

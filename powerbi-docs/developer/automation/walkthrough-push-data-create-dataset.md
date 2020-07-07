@@ -8,15 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: 149b4f8663838c0a87609a1ec24358fb9ee9727e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 8860a06355f201c463e97d81021a8e5476ac98c8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403632"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354995"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>ขั้นตอนที่ 3: สร้างชุดข้อมูลใน Power BI
-บทความนี้เป็นส่วนหนึ่งของการฝึกปฏิบัติทีละขั้นตอนเพื่อ[พุชข้อมูลลงในชุดข้อมูล](walkthrough-push-data.md)
+บทความนี้เป็นส่วนหนึ่งของคำแนะนำทีละขั้นตอนเพื่อ[ส่งข้อมูลไปยังชุดข้อมูล](walkthrough-push-data.md)
 
 ใน**ขั้นตอนที่ 2** ของการฝึกปฏิบัติ พุชข้อมูลลงในชุดข้อมูล เรื่อง[รับโทเคนการเข้าถึงการรับรองความถูกต้อง](walkthrough-push-data-get-token.md) คุณได้รับโทเค็นการรับรองความถูกต้องกับ **Azure AD** แล้ว ในขั้นตอนนี้ คุณจะใช้โทเค็นเพื่อเรียกการดำเนินการ [โพสต์ชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/pushdatasets)
 
@@ -26,7 +25,7 @@ ms.locfileid: "80403632"
 
 เมื่อคุณเรียกใช้การดำเนินการ[โพสต์ชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) ชุดข้อมูลใหม่จะถูกสร้างขึ้น 
 
-![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
+![สร้างชุดข้อมูล](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
 นี่คือวิธีการสร้างชุดข้อมูลใน Power BI
 
@@ -235,5 +234,5 @@ namespace walkthrough_push_data
 * [ภาพรวมของ Power BI REST API](overview-of-power-bi-rest-api.md)  
 * [การอ้างอิง Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
+คุณมีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

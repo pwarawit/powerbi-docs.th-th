@@ -5,15 +5,14 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
-ms.translationtype: HT
+ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693036"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235701"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>ติดตั้งและแจกจ่ายแอปเทมเพลตในองค์กรของคุณ
 
@@ -38,15 +37,19 @@ ms.locfileid: "83693036"
 
     ![รับแอป](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-1. ในหน้าต่าง AppSource ที่ปรากฏขึ้น ให้เลือก **แอป** เรียกดูหรือค้นหาแอปที่คุณต้องการ จากนั้นเลือก **รับทันที**
+1. ใน Power BI apps marketplace ที่ปรากฏขึ้น ให้เลือก**แอปแม่แบบ** แอปแบบแม่แบบทั้งหมดที่พร้อมใช้งานใน AppSource จะแสดงขึ้น เรียกดูเพื่อค้นหาแอปแบบแม่แบบที่คุณกำลังค้นหา หรือรับการเลือกการกรองโดยใช้กล่องค้นหา การพิมพ์ส่วนหนึ่งของชื่อแอปแม่แบบ หรือประเภทเช่น การเงิน การวิเคราะห์ การตลาด และอื่นๆ จะช่วยให้ง่ายต่อการค้นหารายการที่คุณกำลังมองหา
 
     ![ค้นหาใน AppSource](media/service-template-apps-install-distribute/power-bi-appsource.png)
+
+1. เมื่อคุณพบแอปแม่แบบที่คุณกำลังค้นหา ให้คลิกที่แอปนั้นๆ ข้อเสนอแอปแม่แบบจะแสดงขึ้น คลิก**รับทันที**
+
+   ![ข้อเสนอแอปแม่แบบ](media/service-template-apps-install-distribute/power-bi-template-app-offer.png)
 
 1. ในกล่องโต้ตอบที่ปรากฏขึ้น ให้เลือก **ติดตั้ง**
 
     ![ติดตั้งแอป](media/service-template-apps-install-distribute/power-install-dialog.png)
     
-    ระบบจะติดตั้งแอปพร้อมกับพื้นที่ทำงานที่เกี่ยวข้อง **หากคุณตัดสินใจปรับแต่งแอป คุณสามารถทำได้ในพื้นที่ทำงานที่เกี่ยวข้องนี้**
+    แอปจะได้รับการติดตั้งพร้อมกับพื้นที่ทำงานชื่อเดียวกันกับที่มีความจำเป็นสำหรับ[การแก้ไข](#customize-and-share-the-app)เพิ่มเติม
 
     > [!NOTE]
     > หากคุณใช้ลิงก์การติดตั้งสำหรับแอปที่ไม่ระบุอยู่ใน AppSource กล่องโต้ตอบสำหรับการตรวจสอบความถูกต้องจะขอให้คุณยืนยันตัวเลือกของคุณ

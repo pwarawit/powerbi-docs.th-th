@@ -1,20 +1,19 @@
 ---
 title: ติดตั้งและใช้แอปการขายและการตลาดในบริการของ Power BI
-description: ใน Power BI แอปรวมรายงานและแดชบอร์ดที่เกี่ยวข้องเข้าด้วยกัน ทั้งหมดในที่เดียว ติดตั้งแอปการขายและการตลาดจาก AppSource
+description: ใน Power BI แอปรวมรายงานและแดชบอร์ดที่เกี่ยวข้องเข้าด้วยกัน ทั้งหมดในที่เดียว ติดตั้งแอปการขายและการตลาดจากตลาดสินค้าแอป Power BI
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 02/19/2020
+ms.topic: how-to
+ms.date: 06/09/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 65584772a60be1a784828226fbac48458ded7be8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: df22baeae8acb09ac9b7f071c16ec8697203f8fa
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496865"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236583"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>ติดตั้งและใช้แอปตัวอย่างการขายและการตลาดในบริการของ Power BI
 
@@ -23,43 +22,42 @@ ms.locfileid: "77496865"
 ในตอนนี้คุณมี[ความเข้าใจพื้นฐานเกี่ยวกับวิธีการรับเนื้อหา Power BI](end-user-app-view.md) แล้ว เราจะดาวน์โหลดแอปการขายและการตลาดจาก Microsoft AppSource (appsource.com) กัน 
 
 
-## <a name="microsoft-appsource-appsourcecom"></a>Microsoft AppSource (appsource.com)
-ต่อไปนี้คือลิงก์ไปยังแอป: [แอปการตลาดและการขาย](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview) การเลือกลิงก์นี้จะเปิดหน้าดาวน์โหลดสำหรับแอปนี้บน Microsoft AppSource 
+## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>รับแอปจากตลาดสินค้าแอป Power BI
 
-1. คุณอาจต้องลงชื่อเข้าใช้ก่อนจึงจะสามารถดาวน์โหลดแอปได้ ลงชื่อเข้าใช้ด้วยอีเมลแอดเดรสเดียวกันกับที่คุณใช้สำหรับ Power BI 
+1. [ลงชื่อเข้าใช้บริการของ Power BI](./end-user-sign-in.md) หากคุณยังไม่ได้ลงชื่อเข้าใช้ 
 
-    ![หน้าจอลงชื่อเข้าใช้ AppSource  ](./media/end-user-app-marketing/power-bi-sign-in.png)
+1. เมื่อคุณอยู่ใน Power BI ให้เลือก **แอป > รับแอป** 
 
-2. เลือก**รับทันที** 
+    ![รับแอป  ](./media/end-user-app-marketing/power-bi-get-apps.png)
 
-    ![เว็บไซต์ AppSource ที่มีแอป Power BI ที่เลือก  ](./media/end-user-app-marketing/power-bi-get-now.png)
+1. ตลาดสินค้าแอป Power BI จะเปิดขึ้น ค้นหาแอปการขายและการตลาด หากคุณไม่เห็น ให้ลองพิมพ์ "การขาย" ในกล่องค้นหา
 
+    ![ตลาดสินค้าแอป Power BI  ](./media/end-user-app-marketing/power-bi-apps-marketplace.png)
 
-3. หากคุณลงชื่อเข้าใช้ AppSource เป็นครั้งแรก คุณจะต้องยอมรับข้อกำหนดการใช้งาน 
+1. คลิกที่ไทล์ของแอป ข้อเสนอของแอป AppSource จะเปิดขึ้น คลิก **รับทันที**
 
-    ![หน้าจอข้อกำหนดการใช้งานของ AppSource  ](./media/end-user-app-marketing/power-bi-term.png)
+   ![ข้อเสนอแอปใน  AppSource](./media/end-user-app-marketing/power-bi-apps-app-offering.png)
 
+1. ยืนยันว่าคุณต้องการติดตั้งแอปนี้
 
-4. บริการของ Power BI เปิดขึ้นมา ยืนยันว่าคุณต้องการติดตั้งแอปนี้
+   ![ติดตั้งแอปนี้หรือไม่](./media/end-user-app-marketing/power-bi-app-install.png)
 
-    ![ติดตั้งแอปนี้หรือไม่  ](./media/end-user-apps/power-bi-app-install.png)
+5. บริการของ Power BI จะแสดงข้อความยืนยันเมื่อมีการติดตั้งแอปแล้ว เลือก**ไปที่แอป**เพื่อเปิดแอป แดชบอร์ดของแอปหรือรายงานแอปจะแสดงขึ้นตามวิธีการที่นักออกแบบสร้างแอป
 
-5. บริการของ Power BI จะแสดงข้อความความสำเร็จเมื่อมีการติดตั้งแอปแล้ว เลือก**ไปที่แอป**เพื่อเปิดแอป แดชบอร์ดของแอปหรือรายงานแอปจะแสดงขึ้นตามวิธีการที่นักออกแบบสร้างแอป
-
-    ![ติดตั้งแอปเรียบร้อยแล้ว ](./media/end-user-apps/power-bi-app-ready.png)
+    ![ติดตั้งแอปเรียบร้อยแล้ว ](./media/end-user-app-marketing/power-bi-app-ready.png)
 
     คุณยังสามารถเปิดแอปได้โดยตรงจากรายการเนื้อหาแอปของคุณโดยการเลือก**แอป** และเลือก **Sales & Marketing**
 
-    ![แอปใน Power BI](./media/end-user-apps/power-bi-apps.png)
+    ![แอปใน Power BI](./media/end-user-app-marketing/power-bi-apps-sales-marketing.png)
 
 
 6. เลือกว่าจะสำรวจหรือกำหนดค่าและแชร์แอปใหม่ของคุณหรือไม่ เนื่องจากเราได้เลือกแอปตัวอย่าง Microsoft มาเริ่มต้นด้วยการสำรวจ 
 
-    ![สำรวจด้วยข้อมูลตัวอย่าง](./media/end-user-apps/power-bi-explore.png)
+    ![สำรวจด้วยข้อมูลตัวอย่าง](./media/end-user-app-marketing/power-bi-explore.png)
 
 7.  แอปใหม่ของคุณเปิดขึ้นพร้อมกับแดชบอร์ด *นักออกแบบ*แอปสามารถตั้งค่าแอปเพื่อเปิดรายงานแทนได้  
 
-    ![สำรวจด้วยข้อมูลตัวอย่าง](./media/end-user-apps/power-bi-new-app.png)
+    ![สำรวจด้วยข้อมูลตัวอย่าง](./media/end-user-app-marketing/power-bi-new-app.png)
 
 
 

@@ -5,16 +5,15 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e24888d4be0a527bd7af6a28fd28795b516b2020
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: d6301b4eea49ab4ae5714446e051290cb254c324
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309279"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354765"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับการเก็บกระแสข้อมูล
 
@@ -42,7 +41,7 @@ ms.locfileid: "83309279"
 
 คุณต้องสร้างและกำหนดค่าบัญชีเก็บข้อมูลก่อนที่คุณจะสามารถกำหนดค่า Power BI ด้วยบัญชี Azure Data Lake Storage Gen2 ได้ ลองมาดูข้อกำหนดสำหรับ Power BI:
 
-1. คุณต้องเป็นเจ้าของบัญชีที่เก็บข้อมูล ADLS ซึ่งจะต้องได้รับมอบหมายในระดับทรัพยากร ไม่ได้รับจากระดับการสมัครสมาชิก
+1. คุณต้องเป็นเจ้าของบัญชีที่เก็บข้อมูล ADLS ซึ่งจะต้องได้รับมอบหมายในระดับทรัพยากร ไม่ได้รับการสืบทอดจากระดับการสมัครสมาชิก
 2. ต้องสร้างบัญชีเก็บข้อมูลในพื้นที่เดียวกันกับที่เช่า AADในฐานะผู้เช่า Power BI ของคุณ
 3. ต้องสร้างบัญชีเก็บข้อมูลในภูมิภาคเดียวกันกับผู้เช่า Power BI ของคุณ เมื่อต้องการกำหนดว่าผู้เช่า Power BI ของคุณอยู่ที่ใด ให้ดูที่ [ผู้เช่า Power BI ของฉันอยู่ที่ไหน](../admin/service-admin-where-is-my-tenant-located.md)
 4. บัญชีเก็บข้อมูลต้องให้ฟีเจอร์*พื้นที่เก็บชื่อตามลำดับชั้น*เปิดใช้งาน

@@ -6,14 +6,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 06/26/2020
 ms.author: maggies
-ms.openlocfilehash: 7cb5772e6ccdc1e4036d70f65a3a28210a4f6df1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 531c0ab2bb797e1ad5aaa4d974e51963f7c3e2ad
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260726"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485403"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>แหล่งข้อมูลรายงานที่มีการแบ่งหน้าในเซิร์ฟเวอร์รายงาน Power BI
 รายงานที่มีการแบ่งหน้าของ Reporting Services ในเซิร์ฟเวอร์รายงาน Power BI สนับสนุนแหล่งข้อมูลเดียวกันกับที่ได้รับการสนับสนุนใน SQL Server Reporting Services ดูรายการ [แหล่งข้อมูลที่สนับสนุนโดย Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs)
@@ -25,7 +24,7 @@ ms.locfileid: "78260726"
 ตามค่าเริ่มต้น เซิร์ฟเวอร์รายงานจะใช้วัฒนธรรม UI ของไคลเอ็นต์แรกเพื่อโหลด ODP.NET  ด้วยเหตุนี้ การเชื่อมต่อในภายหลังทั้งหมดไปยัง Oracle จากเซิร์ฟเวอร์รายงานจะอยู่ในวัฒนธรรม UI เริ่มต้นจนกว่าจะเริ่มบริการใหม่  วิธีการนี้อาจทำให้เกิดปัญหาในการแสดงรายงานเนื่องจากไม่ตรงกันในการจัดรูปแบบวัฒนธรรม UI
 
 เพื่อเสนอการใช้งานที่ดีขึ้นในเซิร์ฟเวอร์รายงาน Power BI เราได้แนะนำการตั้งค่าการกำหนดค่าชื่อ UseInstalledUICulture เมื่อ UseInstalledUICulture ถูกตั้งค่าเป็นจริง เซิร์ฟเวอร์รายงานจะโหลด ODP.NET ในวัฒนธรรม UI ของเซิร์ฟเวอร์แทนที่จะเป็นวัฒนธรรมของไคลเอ็นต์แรก
-การตั้งค่านี้พร้อมใช้งานในเซิร์ฟเวอร์รายงาน Power BI เริ่มต้นด้วยการเผยแพร่บริการในเดือนกุมภาพันธ์
+การตั้งค่านี้พร้อมใช้งานในเซิร์ฟเวอร์รายงาน Power BI เริ่มต้นด้วยการเผยแพร่บริการในเดือนมีนาคม 2020
 
 หากต้องการเปิดใช้งานฟีเจอร์ ให้ปรับเปลี่ยนไฟล์ rsreportserver.config ของรายการส่วนขยาย ORACLE เช่นเดียวกันกับด้านล่าง
 ```xml

@@ -5,15 +5,14 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 002df4e6c3eec7095258647a0015042efb98257f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 54091175b49a0465a56a689190965429715a4754
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292512"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485564"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>แก้ไขปัญหาการพัฒนาแบบจำลอง DirectQuery ใน Power BI Desktop
 
@@ -42,13 +41,13 @@ ms.locfileid: "83292512"
 - Teradata
 - SAP HANA
 
-สามารถพบแฟ้มการติดตามในโฟลเดอร์**AppData**สำหรับผู้ใช้ปัจจุบัน _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
+ไฟล์การติดตามจะอยู่ในโฟลเดอร์ **AppData** สำหรับผู้ใช้ปัจจุบัน: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
 
 ต่อไปนี้คือวิธีอย่างง่ายสำหรับเข้าถึงโฟลเดอร์นี้: ใน Power BI Desktop เลือก _ไฟล์ > ตัวเลือกและการตั้งค่า > ตัวเลือก_ แล้วเลือกหน้า **การวินิจฉัย** หน้าต่างกล่องโต้ตอบต่อไปนี้ปรากฏขึ้น
 
 ![หน้าต่าง Power BI Desktop เปิดอยู่และมีการเลือกหน้าการวินิจฉัยส่วนกลาง ส่วนตัวเลือกการวินิจฉัยมีคุณสมบัติสองประการ: เปิดใช้งานการติดตามและบายพาสแคชการกำหนดรหัสพิกัด เปิดใช้งานตัวเลือกเปิดใช้งานการติดตาม ส่วนคอลเลกชันบันทึกข้อมูลการหยุดทำงานมีปุ่มเปิดใช้งานเดี๋ยวนี้และลิงก์เพื่อเปิดโฟลเดอร์บันทึกข้อมูลหยุดทำงาน/การติดตาม](media/desktop-directquery-troubleshoot/desktop-directquery-troubleshoot-desktop-file-options-diagnostics.png)
 
-เมื่อคุณเลือกลิงก์**เปิดโฟลเดอร์บันทึกข้อมูลหยุดทำงาน/การติดตาม**ที่อยู่ภายใต้คอลเลกชันบันทึกข้อมูลการหยุดทำงาน โฟลเดอร์ต่อไปนี้จะเปิดขึ้น _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_
+เมื่อคุณเลือกลิงก์ **เปิดโฟลเดอร์บันทึกข้อมูลหยุดทำงาน/การติดตาม** ที่อยู่ภายใต้คอลเลกชันบันทึกข้อมูลการหยุดทำงาน โฟลเดอร์ต่อไปนี้จะเปิดขึ้น: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_
 
 การนำทางไปยังโฟลเดอร์หลักของโฟลเดอร์นั้นจะแสดงโฟลเดอร์ที่ประกอบด้วย_AnalysisServicesWorkspaces_ซึ่งจะประกอบด้วยโฟลเดอร์ย่อยของพื้นที่ทำงานหนึ่งสำหรับทุก ๆ อินสแตนซ์ที่เปิดของ Power BI Desktop โฟลเดอร์ย่อยเหล่านี้จะได้รับการตั้งชื่อคำต่อท้ายที่เป็นจำนวนเต็ม เช่น_AnalysisServicesWorkspace2058279583_
 
@@ -63,7 +62,7 @@ ms.locfileid: "83292512"
 เมื่อต้องเปิดไฟล์การติดตาม ทำตามขั้นตอนต่อไปนี้
 
 1. ในตัวสร้างโพรไฟล์ของ SQL Server เลือก _ไฟล์ > เปิด > ไฟล์การติดตาม_
-2. ใส่เส้นทางไปยังไฟล์ติดตามสำหรับเซสชัน Power BI เปิดอยู่ในปัจจุบัน เช่น _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_
+2. ระบุเส้นทางไปยังไฟล์การติดตามสำหรับเซสชัน Power BI ที่เปิดอยู่ในขณะนี้เช่น: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_
 3. เปิด _FlightRecorderCurrent.trc_
 
 เหตุการณ์ทั้งหมดจากเซสชันปัจจุบันจะปรากฏขึ้น ตัวอย่างที่มีคำอธิบายประกอบจะแสดงด้านล่าง ซึ่งเน้นกลุ่มของเหตุการณ์ แต่ละกลุ่มมีดังต่อไปนี้

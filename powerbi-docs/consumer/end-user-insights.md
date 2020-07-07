@@ -7,15 +7,14 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 06/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 111b2b5fe0ae4b341816becdb4baf0b96e057cdd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377302"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354512"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>ดูข้อมูลเชิงลึกบนไทล์แดชบอร์ดด้วย Power BI
 
@@ -61,9 +60,11 @@ ms.locfileid: "79377302"
 กลับไปที่รายงานของคุณ โดยเลือก **ออกจากโหมดโฟกัส**จากมุมด้านซ้ายบน
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
-- **ดูข้อมูลเชิงลึก**ใช้ไม่ได้กับชนิดไทล์ของแดชบอร์ดทั้งหมด เช่น ไม่สามารถใช้ได้กับวิชวล Power BI<!--[Power BI visuals](end-user-custom-visuals.md)-->
+- **ดูข้อมูลเชิงลึก**ใช้ไม่ได้กับชนิดไทล์ของแดชบอร์ดทั้งหมด เช่น ไม่พร้อมใช้งานสำหรับวิชวลแบบกำหนดเองของ Power BI<!--[Power BI visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
+
+เรียกใช้ข้อมูลเชิงลึกบนวิชวลรายงาน [โดยใช้คุณลักษณะการวิเคราะห์](end-user-analyze-visuals.md)    
 เรียนรู้เกี่ยวกับการ[ชนิดของข้อมูลเชิงลึกด่วนที่พร้อมใช้งาน](end-user-insight-types.md)
 

@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/10/2020
+ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: beb744e1293db077111df8212c0861154aa86242
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279192"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354719"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>สร้างการแสดงข้อมูลเมทริกซ์ใน Power BI
 
@@ -49,17 +48,17 @@ ms.locfileid: "83279192"
 ## <a name="expanding-and-collapsing-row-headers"></a>การขยายและการยุบส่วนหัวของแถว
 มีสองวิธีที่คุณสามารถขยายส่วนหัวของแถวได้ ขั้นตอนแรกคือการคลิกขวาที่เมนู คุณจะเห็นตัวเลือกเพื่อขยายส่วนหัวของแถวนั้นๆ ที่คุณเลือก ระดับทั้งหมด หรือทุกอย่างไปจนถึงระดับสุดท้ายของลำดับชั้น คุณมีตัวเลือกที่คล้ายกันสำหรับการยุบส่วนหัวของแถวเช่นกัน
 
-![](media/desktop-matrix-visual/power-bi-expand1.png)
+![เมนูแสดงการขยายและการเลือก](media/desktop-matrix-visual/power-bi-expand1.png)
 
 คุณยังสามารถเพิ่มปุ่ม +/- ไปยังส่วนหัวของแถวผ่านบานหน้าต่างการจัดรูปแบบภายใต้การ์ด**ส่วนหัวของแถว** ได้ ตามค่าเริ่มต้น ไอคอนจะตรงกับการจัดรูปแบบของส่วนหัวของแถว แต่คุณสามารถกำหนดสีและขนาดของไอคอนแยกต่างหากได้ถ้าคุณต้องการ
 
 เมื่อเปิดไอคอนแล้ว จะทำงานคล้ายกับไอคอน PivotTable ใน Excel
 
-![](media/desktop-matrix-visual/power-bi-expand2.png)
+![เมทริกซ์แสดงไอคอนที่เปิดอยู่](media/desktop-matrix-visual/power-bi-expand2.png)
 
 สถานะการขยายของเมทริกซ์จะบันทึกกับรายงานของคุณ คุณสามารถปักหมุดเมทริกซ์ไปยังแดชบอร์ดที่ขยายหรือยุบได้ เมื่อเลือกไทล์แดชบอร์ดและรายงานเปิดอยู่ ยังสามารถเปลี่ยนแปลงสถานะการขยายในรายงานได้ 
 
-![](media/desktop-matrix-visual/power-bi-expand3.png)
+![เมทริกซ์แสดงสถานะการขยาย](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
 > ถ้าคุณกำลังสร้างรายงานเพิ่มเติมจากโมเดล Analysis Services หลายมิติ จะมีข้อควรพิจารณาพิเศษบางอย่างสำหรับการขยาย/ยุบ ในกรณีที่แบบจำลองนั้นใช้คุณลักษณะสมาชิกเริ่มต้น สำหรับข้อมูลเพิ่มเติม โปรดอ่านที่[ทำงานกับแบบจำลองหลายมิติใน Power BI](../connect-data/desktop-default-member-multidimensional-models.md)

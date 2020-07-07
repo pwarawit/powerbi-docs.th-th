@@ -6,16 +6,15 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: ''
 ms.date: 01/31/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 89c33de2ef7319c6dcbeace0df79786128e16cd9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 9036967c826dee83847c3bc3d4a903bbe749b2ce
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334326"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238649"
 ---
 # <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>จำกัดการเข้าถึงข้อมูลที่มีการรักษาความปลอดภัยระดับแถว (RLS) สำหรับ Power BI Desktop
 
@@ -36,6 +35,9 @@ ms.locfileid: "83334326"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-[รักษาความปลอดภัยระดับแถว (RLS) ด้วยบริการของ Power BI](../admin/service-admin-rls.md)  
+สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
-มีคำถามเพิ่มเติมหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+- [การรักษาความปลอดภัยระดับแถว (RLS) ด้วย Power BI](../admin/service-admin-rls.md)
+- [คำแนะนำในการรักษาความปลอดภัยระดับแถว (RLS) ใน Power BI Desktop](../guidance/rls-guidance.md)
+- มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+- มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com/)

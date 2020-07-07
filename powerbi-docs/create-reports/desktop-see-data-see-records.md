@@ -5,16 +5,15 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d1aca2499ecf2be3e38fe36bd00f5ff5b2c17cc7
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
-ms.translationtype: HT
+ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793938"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238623"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>ใช้ตารางวิชวลและตารางจุดข้อมูลใน Power BI Desktop
 ใน **Power BI Desktop** คุณสามารถเจาะลึกรายละเอียดของการแสดงผลใด ๆ และดูข้อมูลพื้นฐานหรือระเบียนข้อมูลสำหรับวิชวลที่เลือก ให้อยู่ในรูปข้อความได้ คุณลักษณะเหล่านี้ บางครั้งเรียกว่าการ*คลิกผ่าน*หรือ*ดูรายละเอียด*หรือ*เข้าถึงรายละเอียด*
@@ -82,7 +81,7 @@ ms.locfileid: "83793938"
 > [!NOTE]
 >**ตารางจุดข้อมูล** มีข้อจำกัดดังต่อไปนี้:
 > - คุณไม่สามารถเปลี่ยนข้อมูลในมุมมอง **ตารางจุดข้อมูล** และบันทึกกลับไปยังรายงานได้
-> - คุณไม่สามารถใช้ **ตารางจุดข้อมูล** เมื่อวิชวลของคุณใช้หน่วยวัดจากการคำนวณ
+> - คุณไม่สามารถใช้ **ตารางจุดข้อมูล** เมื่อวิชวลของคุณใช้หน่วยวัดจากการคำนวณในกลุ่มหน่วยวัด (หลายมิติ)
 > - คุณไม่สามารถใช้ **ตารางจุดข้อมูล** เมื่อคุณเชื่อมต่อกับแบบจำลองสดแบบหลายมิติ (MD)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

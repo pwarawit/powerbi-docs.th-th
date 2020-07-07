@@ -5,16 +5,15 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: b74c0948ba8d22f1917f9750f86e899c8a99a904
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276570"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239389"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>แสดงข้อมูลเบื้องต้นของการจัดรูปแบบการแสดงข้อมูล
 
@@ -70,7 +69,7 @@ ms.locfileid: "83276570"
 
 - ถ้าปุ่ม **ดูเรกคอร์ด** ในริบบอนถูกปิดใช้งาน และแสดงเป็นสีเทา แสดงว่า การแสดงผลข้อมูลด้วยภาพที่เลือกไม่สนับสนุน ดูเรกคอร์ด
 - คุณไม่สามารถเปลี่ยนข้อมูลในมุมมอง ดูเรกคอร์ด และบันทึกกลับไปยังรายงานได้
-- คุณไม่สามารถใช้ ดูเรกคอร์ด เมื่อวิชวลของคุณใช้หน่วยวัดจากการคำนวณ
+- คุณไม่สามารถใช้ ดูระเบียน เมื่อวิชวลของคุณใช้หน่วยวัดจากการคำนวณในแบบจำลองหลายมิติ
 - คุณไม่สามารถใช้ ดูเรกคอร์ด เมื่อคุณเชื่อมต่อกับแบบจำลองสดแบบหลายมิติ (MD)  
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

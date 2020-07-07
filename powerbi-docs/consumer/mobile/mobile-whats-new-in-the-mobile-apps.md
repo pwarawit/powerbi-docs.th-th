@@ -6,14 +6,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/24/2020
 ms.author: painbar
-ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: 9655783decee99bc90071cdfbd66a8b58d8272f4
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565311"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782585"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>มีอะไรใหม่ในแอปมือถือสำหรับ Power BI
 สำหรับ "ข้อมูลอะไรใหม่" ที่เกี่ยวข้อง ให้ดู
@@ -24,6 +23,20 @@ ms.locfileid: "83565311"
 
 >[!NOTE]
 >การสนับสนุนแอปอุปกรณ์เคลื่อนที่ Power BI สำหรับ**โทรศัพท์ที่ใช้ Windows 10 Mobile** จะถูกยกเลิกในวันที่ 16 มีนาคม 2021 [ศึกษาเพิ่มเติม](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="june-2020"></a>มิถุนายน 2020
+### <a name="show-your-bookmarks-in-slideshows-windows"></a>แสดงบุ๊กมาร์กของคุณในการนำเสนอสไลด์ (Windows)
+ขณะนี้คุณสามารถใส่บุ๊กมาร์กรายงานและบุ๊กมาร์กส่วนบุคคลในการนำเสนอสไลด์ของคุณได้โดยอัตโนมัติในฐานะส่วนหนึ่งของงานนำเสนอเพื่อเน้นข้อมูลเชิงลึกที่เฉพาะเจาะจงในข้อมูลของคุณ
+[ลองใช้ดูได้!](mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
+
+## <a name="may-2020"></a>พฤษภาคม 2020
+### <a name="weve-added-dark-mode-to-power-bi-mobile-ios"></a>เราได้เพิ่มโหมดมืดลงใน Power BI บนมือถือ (iOS)
+ลองใช้โหมดมืดใหม่ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ iOS13 ในโหมดมืดคุณจะเห็นข้อความสีบนพื้นหลังสีเข้มลดความสว่างของหน้าจอและทำให้ง่ายต่อการดูเนื้อหาของคุณ คุณสามารถสลับระหว่างธีมในการตั้งค่าลักษณะที่ปรากฏของแอป [ศึกษาเพิ่มเติม](mobile-apps-dark-mode.md)
+
+![โหมดมืดในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode.png)
+
+### <a name="apply-bookmarks-in-presentation-mode-windows"></a>ใช้บุ๊กมาร์กในโหมดการนำเสนอ (Windows)
+ขณะนี้เมื่อนำเสนอรายงานในโหมดการนำเสนอ คุณสามารถใช้ทั้งบุ๊กมาร์กส่วนบุคคลและบุ๊กมาร์กรายงานกับหน้ารายงานได้เพื่อบอกเล่าเรื่องราวเกี่ยวกับข้อมูลของคุณ [ลองใช้ดูได้!](mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
 
 ## <a name="april-2020"></a>เมษายน 2020
 

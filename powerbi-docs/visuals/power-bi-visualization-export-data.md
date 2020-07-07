@@ -7,16 +7,15 @@ ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0fc91eab8c377f5571e66eb7baaf55234fafa97
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
-ms.translationtype: HT
+ms.openlocfilehash: f4d1bb58093ed3c78330370d5a44a3f98ee4aae7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337038"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238962"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>ส่งออกข้อมูลที่ใช้เพื่อสร้างการแสดงผลข้อมูลด้วยภาพ
 
@@ -156,7 +155,7 @@ ms.locfileid: "84337038"
 
 ## <a name="customize-the-export-data-user-experience"></a>กำหนดค่าประสบการณ์ของผู้ใช้ข้อมูลการส่งออก
 
-ผู้ใช้ที่ได้รับสิทธิการเข้าถึงรายงานจะ **ได้รับอนุญาตให้เข้าถึงชุดข้อมูลเบื้องต้นทั้งหมด** เว้นแต่ว่า [row-level security (RLS)(../admin/service-admin-rls.md) จำกัดการเข้าถึงของพวกเขา ผู้สร้างรายงานและผู้ดูแลระบบ Power BI สามารถใช้ความสามารถที่อธิบายไว้ด้านล่างเพื่อปรับแต่งประสบการณ์ของผู้ใช้
+ผู้ใช้ที่ได้รับสิทธิการเข้าถึงรายงานจะ **ได้รับอนุญาตให้เข้าถึงชุดข้อมูลเบื้องต้นทั้งหมด** เว้นแต่ว่า [การรักษาความปลอดภัยระดับแถว (RLS)](../admin/service-admin-rls.md) จำกัดการเข้าถึงของพวกเขา ผู้สร้างรายงานและผู้ดูแลระบบ Power BI สามารถใช้ความสามารถที่อธิบายไว้ด้านล่างเพื่อปรับแต่งประสบการณ์ของผู้ใช้
 
 - ผู้สร้างรายงาน[ตัดสินใจว่า*ตัวเลือกการส่งออก*](#set-the-export-options)ใดที่พร้อมใช้งานสำหรับผู้ใช้  
 
@@ -171,7 +170,7 @@ ms.locfileid: "84337038"
 
 ## <a name="protect-data-when-it-is-exported-out-of-power-bi"></a>ปกป้องข้อมูลเมื่อมีการส่งออกจาก Power BI
 
-- ผู้สร้างรายงานสามารถใช้ [ป้ายชื่อระดับความลับ](../admin/service-security-data-protection-overview.md) กับรายงาน  ป้ายชื่อเหล่านี้จะกำหนดว่าใครสามารถเข้าถึงข้อมูลรายงานและวิธีการส่งออกข้อมูลไปยัง Excel, PowerPoint และ PDF ระดับความลับบางอย่างประกอบด้วยการตั้งค่าการป้องกัน (เช่น สิทธิ์ การเข้ารหัสลับ) ซึ่งจะใช้เมื่อมีการส่งออกข้อมูล ถ้าระดับความลับประกอบด้วยการตั้งค่าการป้องกัน การตั้งค่าเหล่านั้นจะถูกนำไปใช้เมื่อคุณส่งออกข้อมูลไปยัง Excel, PowerPoint และ PDF เฉพาะผู้ที่มีสิทธิ์ที่เหมาะสมเท่านั้นที่จะสามารถส่งออก ดู บันทึก และแชร์ข้อมูลรายงานได้ 
+- ผู้เขียนรายงานสามารถจัดประเภทและรายงานป้ายชื่อโดยใช้ [ป้ายชื่อระดับความลับของ Microsoft Information Protection](../admin/service-security-data-protection-overview.md) ถ้าป้ายชื่อระดับความลับมีการตั้งค่าการป้องกัน Power BI จะใช้การตั้งค่าการป้องกันเหล่านี้เมื่อส่งออกข้อมูลรายงานไปยัง Excel, PowerPoint หรือไฟล์ PDF เฉพาะผู้ใช้ที่ได้รับอนุญาตเท่านั้นที่สามารถเปิดไฟล์ที่มีการป้องกัน
 
 - ผู้ดูแลระบบ Power BI และความปลอดภัยสามารถใช้ [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) เพื่อตรวจสอบการเข้าถึงและกิจกรรมของผู้ใช้ ดำเนินการวิเคราะห์ความเสี่ยงแบบเรียลไทม์ และตั้งค่าตัวควบคุมเฉพาะป้ายกำกับได้ ตัวอย่างเช่น องค์กรสามารถใช้ Microsoft Cloud App Security เพื่อกำหนดค่านโยบายที่ป้องกันไม่ให้ผู้ใช้ดาวน์โหลดข้อมูลที่ละเอียดอ่อนจาก Power BI ไปยังอุปกรณ์ที่ไม่มีการจัดการได้
 

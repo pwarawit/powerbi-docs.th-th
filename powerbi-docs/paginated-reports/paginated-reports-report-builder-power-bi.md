@@ -1,6 +1,6 @@
 ---
 title: รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร
-description: รายงานแบบแบ่งหน้า ในรูปแบบรายงานมาตรฐานใน SQL Server Reporting Services พร้อมใช้งานในบริการของ Power BI แล้ว รายงานเหล่านี้สามารถพิมพ์หรือแชร์ได้ คุณสามารถควบคุมเค้าโครงรายงานได้เต็มที่ เช่น กำหนดให้แสดงข้อมูลทั้งหมดในตาราง แม้ว่าตารางนั้นต้องใช้พื้นที่หลายหน้า
+description: รายงานแบบแบ่งหน้าพร้อมใช้ในบริการของ Power BI แล้วในตอนนี้ รายงานเหล่านี้เป็นเป็นรูปแบบรายงานมาตรฐานที่มีมายาวนานใน SQL Server Reporting Services รายงานเหล่านี้สามารถพิมพ์หรือแชร์ได้ คุณสามารถควบคุมเค้าโครงรายงานได้เต็มที่ เช่น กำหนดให้แสดงข้อมูลทั้งหมดในตาราง แม้ว่าตารางนั้นต้องใช้พื้นที่หลายหน้า
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,12 +9,11 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 05/19/2020
-ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
-ms.translationtype: HT
+ms.openlocfilehash: 7483b6878a7f7c2e01be7869827f8de66499cc5f
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733427"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393800"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร
 
@@ -95,7 +94,8 @@ ms.locfileid: "83733427"
  
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-- [ติดตั้งตัวสร้างรายงาน Power BI จากศูนย์ดาวน์โหลด Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [ติดตั้งตัวสร้างรายงาน Power BI จากศูนย์ดาวน์โหลด Microsoft](https://aka.ms/pbireportbuilder)
 - [บทช่วยสอน: สร้างรายงานที่มีการแบ่งหน้า](paginated-reports-quickstart-aw.md)
+- [หลักสูตรออนไลน์: รายงานที่มีการแบ่งหน้าของ Power BI ในวันเดียว](../learning-catalog/paginated-reports-online-course.md)
 - [ใส่ข้อมูลในรายงานแบบแบ่งหน้าโดยตรง](paginated-reports-enter-data.md)
 - [บทช่วยสอน: ฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันสำหรับลูกค้าของคุณ](../developer/embedded/embed-paginated-reports-customers.md)

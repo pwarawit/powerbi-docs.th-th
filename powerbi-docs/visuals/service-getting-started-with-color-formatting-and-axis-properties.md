@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 06/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276593"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354604"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>เริ่มต้นใช้งานบานหน้าต่างการจัดรูปแบบ
 
@@ -28,11 +27,11 @@ ms.locfileid: "83276593"
 
 เมื่อคุณกำลังแก้ไขรายงาน และคุณมีการแสดงภาพที่เลือกไว้ บานหน้าต่าง**การแสดงภาพ**จะปรากฏขึ้น ใช้บานหน้าต่างนี้เพื่อเปลี่ยนการแสดงภาพ ด้านล่างของบานหน้าต่าง **การแสดงภาพ** จะมีไอคอนสามไอคอน: ไอคอน **เขตข้อมูล** (แถบเรียงซ้อน) ไอคอน **รูปแบบ** (แปรงลูกกลิ้ง) และไอคอน **การวิเคราะห์** (แว่นขยาย) ในรูปด้านล่าง ไอคอน **เขตข้อมูล** ถูกเลือกไว้ โดยสังเกตได้จากแถบสีเหลืองที่อยู่ด้านล่างไอคอน
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
+![บานหน้าต่างการแสดงภาพที่มีไอคอนเขตข้อมูลที่เลือก](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
 เมื่อคุณเลือก **รูปแบบ** พื้นที่ด้านล่างไอคอนจะแสดงการกำหนดรูปแบบที่พร้อมใช้งานสำหรับการแสดงภาพที่เลือกไว้ในปัจจุบัน  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
+![บานหน้าต่างการแสดงภาพที่มีไอคอนรูปแบบที่เลือก](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
 
 คุณสามารถกำหนดองค์ประกอบของแต่ละการแสดงภาพเองได้มากมาย ตัวเลือกที่พร้อมใช้งานขึ้นอยู่กับประเภทของการแสดงภาพที่เลือก บางตัวเลือกเหล่านั้นคือ:
 
@@ -119,7 +118,7 @@ ms.locfileid: "83276593"
 ## <a name="changing-axis-properties"></a>การเปลี่ยนแปลงคุณสมบัติแกน
 
 มักจะมีประโยชน์ในการปรับเปลี่ยนแกน X หรือแกน Y คล้ายกับการใช้งานแบบมีสีสัน คุณสามารถปรับเปลี่ยนแกนได้โดยเลือกไอคอนลูกศรชี้ลงทางด้านซ้ายของแกนคุณต้องการเปลี่ยนแปลง ดังที่แสดงในรูปต่อไปนี้  
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
+![บานหน้าต่างรูปแบบที่มีลูกศรไปยังการ์ดแกน Y](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
 
 ในตัวอย่างด้านล่าง เราได้จัดรูปแบบแกน Y โดย:
 - ย้ายป้ายชื่อไปยังด้านขวาของการแสดงภาพ

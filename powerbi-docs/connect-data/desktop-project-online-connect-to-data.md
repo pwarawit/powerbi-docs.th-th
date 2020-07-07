@@ -6,16 +6,15 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: 726c265198c7489ac1de055d0fc00b1988109d11
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563063"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85223316"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>เชื่อมต่อกับข้อมูล Project Online ผ่าน Power BI Desktop
 คุณสามารถเชื่อมต่อไปยังข้อมูลใน Project Online ผ่านทาง Power BI Desktop
@@ -29,7 +28,7 @@ ms.locfileid: "83563063"
 3. เลือก**ตัวดึงข้อมูล OData** และเลือก**เชื่อมต่อ**
 4. ใส่ที่อยู่ของตัวดึงข้อมูล OData ของคุณในกล่อง URL แล้ว คลิกตกลง
    
-   ถ้าที่อยู่สำหรับไซต์ Project Web App ของคุณเป็นรูปแบบ *https://\<tenantname\>.sharepoint.com/sites/pwa* ที่อยู่ที่คุณจะใส่สำหรับตัวดึงข้อมูล OData ของคุณคือ *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*
+   หากที่อยู่สำหรับไซต์ Project Web App ของคุณเป็นรูปแบบ *https://\<tenantname\>.sharepoint.com/sites/pwa* จากนั้นที่อยู่ที่คุณจะป้อนใส่สำหรับฟีด OData ของคุณคือ *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*
    
    สำหรับตัวอย่าง เรากำลังใช้:
 

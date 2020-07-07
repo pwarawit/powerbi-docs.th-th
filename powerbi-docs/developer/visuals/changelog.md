@@ -8,36 +8,38 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: fa8759d7edb519240140263bcd01bfdddd9c7d86
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: 3cf415cbd14da28d523a042fdf4099fe464a4a8b
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141053"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739195"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>บันทึกการเปลี่ยนแปลง API ของวิชวล Power BI
 หน้านี้ประกอบด้วยข้อมูลสรุปสั้นๆ ของเวอร์ชัน  API เวอร์ชันที่แสดงที่นี่ถือว่าเป็นเวอร์ชันที่เสถียรและจะไม่มีการเปลี่ยนแปลง
 
-## <a name="api-v26"></a>API v 2.6
+## <a name="api-v320"></a>API v3.2.0
+  * สนับสนุน **[supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)**
+
+## <a name="api-v260"></a>API v2.6.0
   * เพิ่ม **isInFocus** เพื่ออัปเดตตัวเลือกและวิธีการ **switchFocusModeState** ไปยังโฮสต์วิชวล
   * รองรับการปรับแต่ง **ผลรวมย่อย**
 
-## <a name="api-v25"></a>API v2.5
+## <a name="api-v250"></a>API v2.5.0
   * รองรับ **[บานหน้าต่างการวิเคราะห์](./analytics-pane.md)**
   * รองรับวิธีการ `SelectionIdBuilder` **withMatrixNode** และ **withTable**
   * ไม่รองรับอินเทอร์เฟซ `DataRepetitionSelector` อีกต่อไป โดยแทนที่ด้วยอินเทอร์เฟซ `data.CustomVisualOpaqueIdentity`
 
-## <a name="api-v23"></a>API v2.3
+## <a name="api-v230"></a>API v2.3.0
   * **[API หน้าเริ่มต้น](./landing-page.md)**
   * **[API ที่เก็บข้อมูลภายใน](./local-storage.md)**
   * **[API ตัวกรองทูเพิล (ตัวกรองหลายคอลัมน์)](./filter-api.md#the-tuple-filter-api-multi-column-filter)**
   * **[API เหตุการณ์การแสดงผล](./event-service.md#render-events-in-power-bi-visuals)**
 
-## <a name="api-v22"></a>API v2.2
+## <a name="api-v220"></a>API v2.2.0
   * รองรับ **[การกู้คืนตัวกรอง JSON จาก DataView](./filter-api.md#restore-the-json-filter-from-the-data-view)**
   * **[API ContextMenu](./context-menu.md)**
 
-## <a name="api-v21"></a>API v2.1
+## <a name="api-v210"></a>API v2.1.0
   * การปรับปรุงประสิทธิภาพการทำงาน:
     * เวลาโหลดเร็วขึ้น
     * ฟุตพริ้นท์หน่วยความจำที่มีขนาดเล็กลง
@@ -58,32 +60,32 @@ ms.locfileid: "83141053"
    ```
 * คุณสมบัติ `proto` ไม่จัดเก็บ metadata\data ที่ซ่อนไว้ภายใน dataView อีกต่อไป วิชวลที่สามารถเข้าถึงคุณสมบัติผ่าน `proto` อาจเสียหายจากการอัปเดตนี้
 
-## <a name="api-v113"></a>API v 1.13
+## <a name="api-v1130"></a>API v1.13.0
 * รองรับ **[ตัวแบ่งส่วนข้อมูลการซิงค์](./enable-sync-slicers.md)** โปรดทราบว่าจะใช้ได้เฉพาะตัวแบ่งส่วนเขตข้อมูลเดี่ยว เนื่องจาก PBI สถานะของโค้ดปัจจุบัน [อ่านเพิ่มเติม](/power-bi/desktop-slicers)
 * การเข้าถึง: [รองรับความคมชัดสูง](./high-contrast-support.md) 
 * การเข้าถึง: อนุญาตให้มีการตั้งค่าสถานะโฟกัสของแป้นพิมพ์
 
-## <a name="api-v112"></a>API v1.12
+## <a name="api-v1120"></a>API v1.12.0
 * รองรับธีม
 * รองรับ **[fetchMoreData](./fetch-more-data.md)** โปรดทราบว่า **Fetch More Data API** เอาชนะขีดจำกัดสูงสุดของจุดข้อมูลที่ 30K
 * **[API คำแนะนำเครื่องมือของ Canvas](./add-tooltips.md#add-report-page-tooltips)**
 
-## <a name="api-v111"></a>API v1.11
+## <a name="api-v1110"></a>API v1.11.0
 * **[ API FilterManager](./filter-api.md)**
 * รองรับ **[บุ๊กมาร์ก](./bookmarks-support.md)** 
 
-## <a name="api-v110"></a>API v1.10
+## <a name="api-v1100"></a>API v1.10.0
 * เพิ่ม `ILocalizationManager`
 * **API การรับรองความถูกต้อง**
 
-## <a name="api-v19"></a>API v1.9
+## <a name="api-v190"></a>API v1.9.0
 * **[API launchUrl](./launch-url.md)**
 
-## <a name="api-v18"></a>API v1.8
+## <a name="api-v180"></a>API v1.8.0
 * รองรับ **fillRule** ชนิดใหม่ (การไล่ระดับสี) ใน schema ความสามารถ
 * รองรับคุณสมบัติ **กฎ** ใน schema ความสามารถสำหรับคุณสมบัติวัตถุ
 
-## <a name="api-v17"></a>API v1.7
+## <a name="api-v170"></a>API v1.7.0
 * รองรับ **[RESJSON](./localization.md#resource-file)**
 
 ## <a name="api-v162"></a>API  v1.6.2

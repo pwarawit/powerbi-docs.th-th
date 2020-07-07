@@ -6,16 +6,15 @@ ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7e3a9d6db1b7f51f02f3dbc94da1d6b35eac3222
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: 1e0fdf11eab5ea264e78363984ff49bbc95660d8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348907"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354328"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>ปักหมุดไทล์ไปยังแดชบอร์ด Power BI จากรายงาน
 
@@ -57,6 +56,11 @@ ms.locfileid: "83348907"
 อีกหนึ่งตัวเลือกก็คือ การปักหมุดหน้ารายงานทั้งหมดไปยังแดชบอร์ด ซึ่งเป็นวิธีง่าย ๆ ในการปักหมุดการแสดงข้อมูลด้วยภาพมากกว่าหนึ่งรายการในแต่ละครั้ง เมื่อคุณปักหมุดหน้ารายงานทั้งหน้า ไทล์จะเป็นแบบ*สด* นั่นก็คือ คุณสามารถโต้ตอบกับไทล์บนแดชบอร์ดได้ การเปลี่ยนแปลงที่คุณทำกับการแสดงข้อมูลลด้วยภาพในตัวแก้ไขรายงาน เช่นการเพิ่มตัวกรองหรือการเปลี่ยนแปลงเขตข้อมูลที่ใช้ในแผนภูมิ จะปรากฏในไทล์แดชบอร์ดด้วยเช่นกัน  
 
 สำหรับข้อมูลเพิ่มเติม ให้ดู[ปักหมุดหน้ารายงานทั้งหน้า](service-dashboard-pin-live-tile-from-report.md)
+
+> [!NOTE]
+> ไม่มีการใช้ตัวเลือกการจัดรูปแบบบางอย่างในการแสดงผลด้วยภาพเมื่อมีการปักหมุดไปยังแดชบอร์ด การตั้งค่าเส้นขอบ เงา และพื้นหลังจะถูกละเว้นในไทล์ที่ปักหมุดไว้ สำหรับวิชวลการ์ดจะมีการแสดงข้อความที่ใช้สำหรับค่าเสมอในแดชบอร์ดโดยใช้ตระกูลฟอนต์ 'DIN' 
+> 
+>
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 - [แดชบอร์ดสำหรับผู้บริโภคบริการของ Power BI](../consumer/end-user-dashboards.md)

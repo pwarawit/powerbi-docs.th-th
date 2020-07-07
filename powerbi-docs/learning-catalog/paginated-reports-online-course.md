@@ -1,6 +1,6 @@
 ---
 title: หลักสูตรรายงานที่มีการแบ่งหน้าของ Power BI ในหนึ่งวัน
-description: หลักสูตรออนไลน์นี้มีจุดประสงค์เพื่อเสริมกำลังให้คุณในฐานะผู้เขียนรายงานที่มีความรู้ด้านเทคนิคที่จำเป็นในการสร้าง เผยแพร่ และแจกจ่ายรายงานที่มีการแบ่งหน้าของ Power BI
+description: หลักสูตรที่ใช้วิดีโอนี้มีจุดประสงค์เพื่อเสริมกำลังให้คุณในฐานะผู้เขียนรายงานที่มีความรู้ด้านเทคนิคที่จำเป็นในการสร้าง เผยแพร่ และแจกจ่ายรายงานที่มีการแบ่งหน้าของ Power BI
 author: peter-myers
 ms.reviewer: maggies
 featuredvideoid: DN1t5p9aui0
@@ -9,12 +9,11 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3b6c3f79b6695c670b942253ddd2c2b158dc3acc
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
-ms.translationtype: HT
+ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693238"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427491"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>หลักสูตรรายงานที่มีการแบ่งหน้าของ Power BI ในหนึ่งวัน
 
@@ -93,11 +92,11 @@ ms.locfileid: "83693238"
 - **MySolution**: โฟลเดอร์นี้จัดเก็บไฟล์โซลูชันของคุณ คำแนะนำในแล็บจะตรงกับคุณเมื่อใช้งาน
 - **Presentation**: โฟลเดอร์นี้ประกอบด้วยไฟล์การนำเสนอหลักสูตร ซึ่งพร้อมใช้งานในรูปแบบเอกสาร PDF
 
-### <a name="getting-started-with-the-kit"></a>เริ่มต้นใช้งานด้วยชุดคิท
+### <a name="get-started-with-the-kit"></a>เริ่มต้นใช้งานชุดข้อมูล
 
 เราขอแนะนำให้คุณรับชมหลักสูตรออนไลน์ก่อน คุณสามารถอ้างอิงกลับไปยังทฤษฎีการนำเสนอ โดยเปิดไฟล์ **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf** ไฟล์การนำเสนอ ประกอบด้วยสไลด์แล็บแปดแล็บ ซึ่งระบุเวลาในการนำทฤษฎีสู่การปฏิบัติ นอกจากนี้ ยังหมายรวมถึงลิงก์แหล่งข้อมูลจำนวนมาก ที่จะช่วยให้คุณสามารถค้นหาเนื้อหาที่เกี่ยวข้องได้
 
-เมื่อคุณพร้อมที่จะเริ่มต้นแล็บแห่งแรก ให้เปิดไฟล์ **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** เอกสารนี้จะแนะนำคุณในการลงชื่อเข้าใช้บริการของ Power BI อัปโหลดชุดข้อมูล จากนั้นติดตั้ง [ตัวสร้างรายงาน Power BI](../paginated-reports/report-builder-power-bi.md)
+เมื่อคุณพร้อมที่จะเริ่มต้นแล็บแห่งแรก ให้เปิดไฟล์ **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** เอกสารนี้จะแนะนำคุณในการลงชื่อเข้าใช้บริการของ Power BI อัปโหลดชุดข้อมูล จากนั้นติดตั้ง [ตัวสร้างรายงาน Power BI](https://aka.ms/pbireportbuilder)
 
 > [!NOTE]
 > คุณมีหน้าที่รับผิดชอบในการมีบัญชี Power BI ของตนเอง หากคุณไม่ได้มีบัญชีอยู่แล้ว ดูที่ [ลงทะเบียน Power BI เป็นรายบุคคล](../fundamentals/service-self-service-signup-for-power-bi.md)

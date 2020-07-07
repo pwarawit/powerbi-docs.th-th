@@ -5,17 +5,16 @@ author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/19/2020
 ms.author: mihart
-ms.custom: licensing support
+ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: baa556b1db10827b5979331ddcc22fa1e111a661
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
-ms.translationtype: HT
+ms.openlocfilehash: ed50045aca966face5d758c9036508bdfef81d5e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160168"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236554"
 ---
 # <a name="apps-in-power-bi"></a>แอปใน Power BI
 
@@ -43,15 +42,17 @@ ms.locfileid: "84160168"
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>รับแอปใหม่
-คุณสามารถรับแอปในสองสามวิธีที่แตกต่างกัน วิธีการบางอย่างจะแสดงอยู่ด้านล่าง  แต่สำหรับคำแนะนำทีละขั้นตอนโดยละเอียดสำหรับการรับและสำรวจแอป ให้ดู [เปิดและโต้ตอบกับแอป](end-user-app-view.md)
+วิธีที่ดีที่สุดในการรับแอปใหม่มาจาก [ตลาดสินค้าแอป Power BI](https://app.powerbi.com/groups/me/getapps/apps)
 
-- นักออกแบบแอปสามารถติดตั้งแอปโดยอัตโนมัติในบัญชี Power BI ของคุณ และในครั้งต่อไปที่คุณเปิดบริการของ Power BI คุณจะเห็นแอปใหม่ในรายการเนื้อหาของ **แอป** 
-- ผู้ออกแบบแอปสามารถส่งอีเมลลิงก์โดยตรงไปยังแอปให้กับคุณได้ การเลือกลิงก์จะเปิดแอปในบริการของ Power BI
-- ใน Power BI บนอุปกรณ์เคลื่อนที่ของคุณ คุณสามารถเติดตั้งแอปได้ จากลิงก์โดยตรงเท่านั้น และไม่สามารถตัดตั้งจาก AppSource ถ้าผู้สร้างแอปติดตั้งแอปโดยอัตโนมัติ คุณจะเห็นได้ในรายการของแอป
-- คุณสามารถค้นหาแอปใน[AppSource](https://appsource.microsoft.com)ได้ AppSource ประกอบด้วยแอปที่เผยแพร่ โดยนักออกแบบรายงานทั้งภายในและ ภายนอกบริษัทของคุณ คุณอาจพบแอปบน AppSource สำหรับบริการที่คุณใช้อยู่แล้วเช่น Google Analytics, GitHub หรือ Microsoft Dynamics คุณยังจะได้พบกับแอปที่เป็นตัวอย่างที่คุณสามารถใช้เพื่อเรียนรู้ Power BI ได้  
+![ตลาดสินค้าแอป Power BI](./media/end-user-apps/power-bi-app-marketplace.png)
 
+มีวิธีอีกสองสามวิธีในการรับแอป วิธีการดังกล่าวจะแสดงอยู่ด้านล่าง แต่สำหรับคำแนะนำทีละขั้นตอนโดยละเอียดสำหรับการรับและสำรวจแอป ให้ดู [เปิดและโต้ตอบกับแอป](end-user-app-view.md)
 
-## <a name="next-step"></a>ขั้นตอนถัดไป
+* นักออกแบบแอปสามารถติดตั้งแอปโดยอัตโนมัติในบัญชี Power BI ของคุณ และในครั้งต่อไปที่คุณเปิดบริการของ Power BI คุณจะเห็นแอปใหม่ในรายการเนื้อหาของ **แอป** 
+* ผู้ออกแบบแอปสามารถส่งอีเมลลิงก์โดยตรงไปยังแอปให้กับคุณได้ การเลือกลิงก์จะเปิดแอปในบริการของ Power BI
+* ใน Power BI บนอุปกรณ์เคลื่อนที่ของคุณ คุณสามารถเติดตั้งแอปได้ จากลิงก์โดยตรงเท่านั้น และไม่สามารถตัดตั้งจาก AppSource ถ้าผู้สร้างแอปติดตั้งแอปโดยอัตโนมัติ คุณจะเห็นได้ในรายการของแอป 
+
+## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [เปิดและโต้ตอบกับแอป](end-user-app-view.md)
 * [วิธีอื่น ๆ ในการแชร์เนื้อหา](end-user-shared-with-me.md)
 

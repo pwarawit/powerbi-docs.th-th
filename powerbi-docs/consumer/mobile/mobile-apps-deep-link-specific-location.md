@@ -5,15 +5,14 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: f0a72cf315c8ad911414274daae11b712971b305
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 2590e5fad227027f7cc2fddf2f93a18b92f39ae3
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114497"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393805"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>สร้างการเชื่อมโยงไปยังตำแหน่งที่ตั้งเฉพาะในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 คุณสามารถใช้ลิงก์เพื่อเข้าใช้งานรายการเฉพาะใน Power BI ได้โดยตรง: รายงาน แดชบอร์ด และไทล์
@@ -33,7 +32,7 @@ https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
 ```
 
 > [!IMPORTANT]
-> หากเนื้อหาของคุณเก็บไว้ในศูนย์ข้อมูลพิเศษ เช่น หน่วยงานราชการ ประเทศจีน ฯลฯ ลิงก์ควรเริ่มต้นด้วยที่อยู่ Power BI ที่เหมาะสม เช่น `app.powerbigov.us` หรือ  `app.powerbi.cn`   
+> หากเนื้อหาของคุณโฮสต์อยู่ในศูนย์ข้อมูลพิเศษ เช่น หน่วยงานราชการ ประเทศจีน ฯลฯ ลิงก์ควรเริ่มต้นด้วยที่อยู่ Power BI ที่เหมาะสม เช่น `app.powerbigov.us` หรือ  `app.powerbi.cn`   
 >
 
 

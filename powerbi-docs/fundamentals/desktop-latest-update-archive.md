@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/19/2020
+ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5203f2676409de28cfa9faf9442beaeb324b6f54
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
-ms.translationtype: HT
+ms.openlocfilehash: 5a8b2934c47d3bc85b1710927fefb814f027c035
+ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812898"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84685271"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -32,6 +31,97 @@ ms.locfileid: "83812898"
 คุณยังสามารถดูวิดีโอ**อัปเดตล่าสุด**เริ่มตั้งแต่แรก จากภายในบทความนี้เลย โดยคลิกที่ไอคอน**เล่น**บนรูปภาพวิดีโอที่อยู่ด้านล่างรายการการอัปเดตได้
 
 ส่วนต่อไปนี้อธิบายวิธีการอัปเดตเดือนก่อนหน้าไปยัง**Power BI Desktop**
+
+
+
+## <a name="may-2020-update-2815831621"></a>การอัปเดตประจำเดือนพฤษภาคม 2020 (2.81.5831.621)
+
+เราหวังว่า Power BI Desktop ประจำเดือนพฤษภาคมของเราจะนำเสนอข้อมูลเชิงลึกใหม่ๆ ความสามารถใหม่และทัศนคติเชิงบวกที่ดีให้แก่ชุมชนของเราทั่วโลก 
+
+สามารถรับเวอร์ชันล่าสุดของ Power BI Desktop จาก[ศูนย์ดาวน์โหลด](https://www.microsoft.com/download/details.aspx?id=58494) ถ้าคุณกำลังใช้งาน Windows 10 คุณสามารถรับ Power BI Desktop ได้จาก [Windows Store ](https://aka.ms/pbidesktopstore) เวอร์ชันรายเดือนจะเหมือนกันแม้ว่าหมายเลขเวอร์ชันอาจแตกต่างกัน โดยไม่คำนึงถึงวิธีการที่คุณติดตั้ง Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการดาวน์โหลดและติดตั้ง Power BI Desktop ดู [Get Power BI Desktop](desktop-get-the-desktop.md) 
+
+> [!IMPORTANT]
+> เริ่มต้นด้วยการปล่อยออกมาในกันยายน 2019 Power BI Desktop มาพร้อมกับแพคเกจการติดตั้ง .exe เดียวที่มีภาษาที่รองรับทั้งหมด ไม่มีการเผยแพร่เวอร์ชัน .msi อีกต่อไป
+
+
+ลิงก์ที่อยู่ข้าง ๆ แต่ละคุณลักษณะในรายการอัปเดต Power BI Desktop จะถูกแปลเป็นดังนี้:
+
+* \[บล็อก\]: คุณลักษณะส่วนใหญ่จะอธิบายไว้ในส่วนของบล็อคโพสต์ ที่อัปเดตรายเดือน
+* \[วิดีโอ\]: คุณลักษณะบางอย่างมีการตัดตอนจากวิดีโอที่ได้กล่าวถึงคุณลักษณะ ซึ่งจะเล่นในแท็บเบราว์เซอร์ใหม่
+* \[บทความ\]: บางคุณลักษณะมีบทความที่ให้รายละเอียดเพิ่มเติม
+* คุณลักษณะบางอย่างจะอธิบายในตัวเองและไม่จำเป็นต้องมีบทความหรือวิดีโอ
+
+นอกจากนี้คุณยังสามารถดู[การอัปเดตประจำเดือนทั้งหมดของ Power BI Desktop](#power-bi-desktop-monthly-update-video) ได้
+
+การอัปเดตใหม่ต่อไปนี้จะถูกอัปเดตไปยัง Power BI Desktop ในเดือนนี้:
+
+
+### <a name="reporting"></a>การรายงาน
+* เรียบเรียงตารางคุณลักษณะสำหรับ Excel (พรีวิว) [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=20)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Excel) 
+* ใช้ตัวกรองทั้งหมด (พรีวิว)   [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=193) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Apply_all) 
+* ปรับปรุงการเปลี่ยนแปลงการตรวจหา (พรีวิว)  [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=475)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_CDM) 
+* ดูข้อมูลรายละเอียดการดำเนินการของปุ่มพร้อมให้บริการทั่วไปแล้วในปัจจุบัน [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=626)  [[บทความ]](../create-reports/desktop-drill-through-buttons.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Drill_through) 
+* การปรับปรุงการดำเนินการนำทางหน้า [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1143)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_page_nav) 
+* ปุ่มรองรับการใส่รูปภาพแล้วในปัจจุบัน  [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1465)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_fill_images) 
+* การวางเงารองรับในการแสดงผลด้วยภาพ  [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1561)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_shadow) 
+* การย้ายบานหน้าต่างตัวกรอง [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1688)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_migration) 
+
+### <a name="analytics"></a>การวิเคราะห์
+* โครงข่ายของข้อมูลพร้อมให้บริการโดยทั่วไปแล้วในปัจจุบัน [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1701)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Decomp_tree) 
+
+
+### <a name="visuals"></a>การแสดงผลด้วยภาพ
+* วิชวล Power BI ใหม่ [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1840) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Visualizations)
+* Power Apps เสมือนจริงสามารถใช้ร่วมกับภาษาที่รองรับทั้งหมดได้แล้วในปัจจุบัน [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1861)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_lang)
+
+### <a name="modeling"></a>การสร้างแบบจำลอง
+* ตัวคั่นรายการและสัญลักษณ์ทศนิยมมีค่าเริ่มต้นเป็นตัวคั่น DAX มาตรฐานแล้วในปัจจุบัน [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1869)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_List_separator)
+
+
+### <a name="data-preparation"></a>การเตรียมข้อมูล
+* DirectQuery ในกระแสข้อมูล [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1883)   [[บทความ]](../transform-model/service-dataflows-directquery.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_DQ_Dataflows) 
+* เว็บตามตัวอย่างมีค่าเริ่มต้นเป็นตารางแนะนำอัตโนมัติแล้วในปัจจุบัน  [[video]](https://youtu.be/JtuHIslowxk?t=1916)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Web_by_example) 
+* ปรับปรุงการวินิจฉัยคิวรี: พาร์ติชันระดับความเป็นส่วนตัว  [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1931)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Query_Diag) 
+
+
+### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
+* ตัวเชื่อมต่อข้อมูลใหม่จำนวนมาก  [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1948)   [[บทความ]](../connect-data/desktop-data-sources.md)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Data_connectivity) 
+
+
+
+### <a name="other-features"></a>คุณลักษณะอื่น ๆ
+* การวิเคราะห์ผลกระทบของชุดข้อมูล [[วิดีโอ]](https://youtu.be/JtuHIslowxk?t=1964)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Impact) 
+
+
+สำหรับข้อมูลโดยละเอียดเกี่ยวกับคุณลักษณะใหม่เหล่านี้แต่ละตัว โปรดดู [บล็อกโพสต์สรุปคุณลักษณะของ Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/)
+
+นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
+
+> [!NOTE]
+> ดูแหล่งข้อมูล [ที่พร้อมใช้งานสำหรับ Power BI Desktop](../connect-data/desktop-data-sources.md) รายการของเรามีการความก้าวหน้าเสมอ โปรดตรวจสอบให้บ่อยครั้ง
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>วิดีโออัปเดตประจำเดือน Power BI Desktop
+วิดีโอต่อไปนี้อธิบายการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์:
+
+> [!VIDEO https://www.youtube.com/embed/JtuHIslowxk]
+
+
+
+นอกจากนี้คุณยังสามารถดาวน์โหลด Power BI Desktop เวอร์ชันก่อนหน้าหากองค์กรของคุณต้องการใช้ได้ด้วยเช่นกัน เราแนะนำให้คุณใช้เวอร์ชันล่าสุดของ Power BI Desktop มากกว่าเวอร์ชันก่อนหน้าเสมอ เวอร์ชันก่อนหน้าทั้งหมดมีข้อจำกัดดังต่อไปนี้:
+
+* Power BI Desktop รุ่นก่อนหน้าจะไม่มีให้บริการ - คุณควรใช้รุ่นล่าสุดเสมอเพื่อใช้คุณลักษณะและการอัปเดตล่าสุด
+* คุณอาจไม่สามารถเปิดไฟล์ที่สร้างหรือบันทึกใน Power BI Desktop รุ่นใหม่กว่าด้วย Power BI Desktop เวอร์ชันก่อนหน้าได้ 
+* หากคุณได้รับคำเตือนเมื่อโหลดรายงานที่บันทึกใน Power BI Desktop เวอร์ชันที่ใหม่กว่า แล้วบันทึกรายงานนั้นในเวอร์ชันก่อนหน้า คุณจะสูญเสียข้อมูลใดๆ ที่เกี่ยวข้องกับคุณลักษณะใหม่
+* เราจัดเก็บ Power BI Desktop เวอร์ชันภาษาอังกฤษเท่านั้น
+
+เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
+
+* [เวอร์ชันเดือนพฤษภาคม 2020 ของ Power BI Desktop - 32-bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-05.exe)
+* [เวอร์ชันเดือนพฤษภาคม 2020 ของ Power BI Desktop -  64-bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-05_x64.exe)
+
+
+
 
 
 ## <a name="april-2020-update-2805803282"></a>การอัปเดตประจเดือนำเมษายน 2020 (2.80.5803.282)
@@ -368,19 +458,6 @@ ms.locfileid: "83812898"
 วิดีโอต่อไปนี้อธิบายการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์:
 
 > [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
-
-นอกจากนี้คุณยังสามารถดาวน์โหลด Power BI Desktop เวอร์ชันก่อนหน้าหากองค์กรของคุณต้องการใช้ได้ด้วยเช่นกัน เราแนะนำให้คุณใช้เวอร์ชันล่าสุดของ Power BI Desktop มากกว่าเวอร์ชันก่อนหน้าเสมอ เวอร์ชันก่อนหน้าทั้งหมดมีข้อจำกัดดังต่อไปนี้:
-
-* Power BI Desktop รุ่นก่อนหน้าจะไม่มีให้บริการ - คุณควรใช้รุ่นล่าสุดเสมอเพื่อใช้คุณลักษณะและการอัปเดตล่าสุด
-* คุณอาจไม่สามารถเปิดไฟล์ที่สร้างหรือบันทึกใน Power BI Desktop รุ่นใหม่กว่าด้วย Power BI Desktop เวอร์ชันก่อนหน้าได้ 
-* หากคุณได้รับคำเตือนเมื่อโหลดรายงานที่บันทึกใน Power BI Desktop เวอร์ชันที่ใหม่กว่า แล้วบันทึกรายงานนั้นในเวอร์ชันก่อนหน้า คุณจะสูญเสียข้อมูลใดๆ ที่เกี่ยวข้องกับคุณลักษณะใหม่
-* เราจัดเก็บ Power BI Desktop เวอร์ชันภาษาอังกฤษเท่านั้น
-
-เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
-
-* [Power BI Desktop - 32 บิต เวอร์ชันธันวาคม 2019](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-12.exe)
-* [Power BI Desktop - 64 บิต เวอร์ชันธันวาคม 2019](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-12_x64.exe)
-
 
 
 ## <a name="november-2019-update-2755649341"></a>อัปเดตเดือนพฤศจิกายน 2019 (2.75.5649.341)

@@ -5,15 +5,14 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ea3d786642d969eb8f0879bd336a49c486b3f95c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: ae8121af4e3c16e7e8dd047284034fc95d0403fd
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349528"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393829"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>ใช้วันที่/เวลาอัตโนมัติใน Power BI Desktop
 
@@ -24,7 +23,6 @@ ms.locfileid: "83349528"
 เมื่อเปิดใช้งานตัวเลือกนี้แล้ว Power BI Desktop สร้างตารางวันที่/เวลาอัตโนมัติที่ซ่อนอยู่สำหรับแต่ละคอลัมน์วันที่ โดยมีเงื่อนไขดังต่อไปนี้เป็นจริงทั้งหมด:
 
 - โหมดที่เก็บข้อมูลของตารางคือ นำเข้า
-- คอลัมน์นี้ไม่ใช่คอลัมน์จากการคำนวณ
 - ชนิดข้อมูลของคอลัมน์คือ วันที่ หรือวันที่/เวลา
 - คอลัมน์ไม่ได้อยู่ในด้าน "กลุ่ม" ของความสัมพันธ์ในแบบจำลอง
 
@@ -99,6 +97,7 @@ Date Count = COUNT(Sales[OrderDate].[Date])
 สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
 - [คำแนะนำวันที่/เวลาอัตโนมัติใน Power BI Desktop](../guidance/auto-date-time.md)
+- [สร้างตารางวันที่ใน Power BI Desktop](../guidance/model-date-tables.md)
 - [ตั้งค่า และใช้งานตารางวันที่ใน Power BI Desktop](desktop-date-tables.md)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
 - มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com/)

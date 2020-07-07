@@ -11,14 +11,13 @@ ms.subservice: powerbi-consumer
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/11/2020
+ms.date: 06/17/2020
 ms.author: mihart
-ms.openlocfilehash: ef25e98bb87b52cf7f0bd30c118b7e2fa5509991
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
-ms.translationtype: HT
+ms.openlocfilehash: 20d54e9050e1481180b3a8b58a69c7235198bef3
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813818"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355156"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>เริ่มต้นใช้งานด่วน: เรียนรู้เกี่ยวกับความสามารถ Power BI สำหรับ*ผู้บริโภค*
 
@@ -156,7 +155,7 @@ Easily navigate between the visualizations on the report page.
     ![report Selection pane](media/end-user-reading-view/power-bi-selection-pane-new.png) -->
 
 ### <a name="zoom-in-on-individual-visuals"></a>ซูมขยายภาพต่าง ๆ
-เวางเมาส์เหนือภาพ และเลือก**ไอคอน**โหมดโฟกัส ![](media/end-user-reading-view/pbi_popouticon.jpg) เมื่อคุณดูภาพในโหมดโฟกัส ภาพจะขยายเต็มพื้นที่รายงานทั้งหมดตามที่แสดงด้านล่าง
+วางเมาส์เหนือวิชวล และเลือกไอคอน **โหมดโฟกัส** ![เลือกโหมดโฟกัสจากเมนู ](media/end-user-reading-view/pbi_popouticon.jpg) เมื่อคุณดูภาพในโหมดโฟกัส ภาพจะขยายเต็มพื้นที่รายงานทั้งหมดตามที่แสดงด้านล่าง
 
 ![โหมดโฟกัส](media/end-user-reading-view/power-bi-full-screen-before.png)
 

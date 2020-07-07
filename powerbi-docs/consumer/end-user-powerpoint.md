@@ -6,16 +6,15 @@ ms.reviewer: ''
 ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f70c41e40ff2da385b2f63798b93dec3fcd7b7c5
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: d1120b15974d0e747dc60cf2c56dff1135c9d29c
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565752"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782533"
 ---
 # <a name="export-reports-to-powerpoint"></a>ส่งออกรายงานไปยัง PowerPoint
 
@@ -102,6 +101,8 @@ ms.locfileid: "83565752"
     - ถ้าคุณแชร์แดชบอร์ดกับบุคคลภายนอกองค์กรของคุณ (และดังนั้น ผู้ใช้ที่ไม่อยู่ในผู้เช่า Power BI ของคุณ) ผู้ใช้รายนั้นจะไม่สามารถส่งรายงานที่เกี่ยวข้องของแดชบอร์ดที่แชร์เป็น PowerPoint ได้ ตัวอย่างเช่น ถ้าคุณเป็นเช่นนั้น aaron@contoso.comคุณสามารถแชร์ให้david@cohowinery.comได้ แต่ david@cohowinery.com ไม่สามารถส่งออกรายงานที่เชื่อมโยงไปยังไฟล์ PowerPoint
     - รายงานที่มีจำนวนหน้ารายงานมากกว่า 30 หน้า เฉพาะ 30 หน้าแรกเท่านั้นที่จะถูกส่งออก
     - รายงานที่มีการส่งออกไปยัง PowerPoint ในเวอร์ชันที่เก่ากว่า
+    - รายงานที่ใช้เวลานานกว่าหนึ่งชั่วโมงเพื่อดำเนินการ 
+    - หน้ารายงานที่ใช้เวลานานกว่า 6 นาทีในการโหลด 
 
 * หากรายการเมนู**ส่งออกไปยัง PowerPoint** ไม่พร้อมใช้งานในบริการของ Power BI อาจเป็นไปได้ว่าผู้ดูแลระบบผู้เช่าของคุณได้ปิดใช้งานคุณลักษณะนี้ ติดต่อผู้ดูแลระบบผู้เช่าของคุณสำหรับรายละเอียด
 * Power BI service ใช้การตั้งค่าภาษาของ Power BI ของคุณเป็นภาษาสำหรับการส่งออกไปยัง PowerPoint ดูหรือตั้งค่าภาษาของคุณโดยเลือกไอคอนรูปเฟือง ![ไอคอนรูปเฟือง](media/end-user-powerpoint/power-bi-settings-icon.png) > **การตั้งค่า** > **ทั่วไป** > **ภาษา**

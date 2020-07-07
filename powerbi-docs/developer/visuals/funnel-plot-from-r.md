@@ -8,12 +8,11 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 42304e60740c215b1300e66f074807aea10ec6f9
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
-ms.translationtype: HT
+ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84317063"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354489"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>บทช่วยสอน: สร้างแผนภูมิกรวยจากสคริปต์ R ไปยังวิชวล R
 บทความนี้จะอธิบายวิธีสร้างแผนภูมิกรวยโดยใช้สคริปต์ R ในวิชวล R เป็นขั้นเป็นตอน
@@ -89,13 +88,13 @@ ms.locfileid: "84317063"
 
    คุณจะต้องอัปเดตส่วน: `dataRoles` และ `dataViewMappings`ซึ่งกำหนดชื่อ ชนิด คำแนะนำเครื่องมือ และคอลัมน์สูงสุดสำหรับแต่ละเขตข้อมูลป้อนเข้า
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
+   ![ก่อนและหลัง](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
    
    สำหรับข้อมูลเพิ่มเติม ให้ดู [capabilities](./capabilities.md)
 
 1. แก้ไข *script.r* เพื่อรองรับ `Population`, `Number` และ `Tooltips` ให้เป็นกรอบข้อมูลอินพุตแทนที่จะเป็น `dataset` หรือดาวน์โหลด [script.r](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/script.r)
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
+   ![สคริปต์](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
 
    > [!TIP]
    > หากต้องการทำตามการเปลี่ยนแปลงในสคริปต์ R ให้ค้นหาบล็อกข้อคิดเห็น: 
@@ -125,7 +124,7 @@ ms.locfileid: "84317063"
 
    ดาวน์โหลด [capabilities.json](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/capabilities.json) ดู [คุณสมบุติวัตถุ](./objects-properties.md) สำหรับข้อมูลเพิ่มเติม
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
+   ![ความสามารถ](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
 
 1. แก้ไข *src/settings.ts* เพื่อมิเรอร์ [settings.ts นี้](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/src/settings.ts) ไฟล์นี้จะถูกเขียนใน TypeScript  
 
@@ -133,7 +132,7 @@ ms.locfileid: "84317063"
    - ประกาศอินเทอร์เฟซใหม่เพื่อเก็บค่าคุณสมบัติ
    - กำหนดคุณสมบัติสมาชิกและค่าเริ่มต้น
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
+   ![การตั้งค่า](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
 
 1. แก้ไข *script.r* เพื่อมิเรอร์ [script.r นี้](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script.r) ซึ่งเพิ่มการสนับสนุนสำหรับพารามิเตอร์ใน UI โดยการเพิ่มการเรียก `if.exists` ต่อพารามิเตอร์ผู้ใช้
 
@@ -150,7 +149,7 @@ ms.locfileid: "84317063"
    > #RVIZ_IN_PBI_GUIDE:END:Removed to enable user parameters
    > ```
 
-   ![](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
+   ![สคริปต์ก่อนและหลัง](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
 
    คุณสามารถตัดสินใจที่จะไม่เปิดเผยพารามิเตอร์ไปยัง UI อย่างที่เราทำ  
 

@@ -6,16 +6,15 @@ ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114131"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782557"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>การนำทางสำหรับผู้บริโภค Power BI: การค้นหาส่วนกลาง
 
@@ -39,11 +38,11 @@ ms.locfileid: "79114131"
 
 ## <a name="sorting-content-lists"></a>เรียงลำดับรายการเนื้อหา
 
-หากคุณมีเนื้อหาเพียงเล็กน้อยเท่านั้น คุณอาจไม่จำเป็นต้องใช้การเรียงลำดับ  แต่เมื่อคุณมีรายการแดชบอร์ดและรายงานที่ยาวแล้ว การเรียงลำดับจะช่วยให้คุณค้นหาสิ่งที่คุณต้องการ ตัวอย่างเช่น รายการเนื้อหา **แชร์กับฉัน** นี้มี 63 รายการ 
+หากคุณมีเนื้อหาเพียงเล็กน้อยเท่านั้น คุณอาจไม่จำเป็นต้องใช้การเรียงลำดับ  แต่เมื่อคุณมีรายการแดชบอร์ดและรายงานที่ยาวแล้ว การเรียงลำดับจะช่วยให้คุณค้นหาสิ่งที่คุณต้องการ ตัวอย่างเช่น รายการเนื้อหา **แชร์กับฉัน** นี้มี 257 รายการ 
 
-![รายการเนื้อหาที่แชร์กับฉัน](./media/end-user-search-sort/power-bi-long-lists.png)
+![รายการเนื้อหาที่แชร์กับฉัน](./media/end-user-search-sort/power-bi-all-shared.png)
 
-ในตอนนี้ รายการเนื้อหานี้จะเรียงลำดับตามวันที่จากใหม่ล่าสุดไปเก่าที่สุด เมื่อต้องการเปลี่ยนเกณฑ์การเรียงลำดับ ให้เลือกลูกศรทางด้านขวาของ **วันที่ (ล่าสุด)**
+ในตอนนี้รายการเนื้อหานี้จะเรียงลำดับตามตัวอักษรของชื่อจาก A ถึง Z เมื่อต้องการเปลี่ยนเกณฑ์การเรียงลำดับให้เลือกลูกศรทางด้านขวาของ **ชื่อ (A-Z)**
 
 ![เมนูดรอปดาวน์การเรียงลำดับ](./media/end-user-search-sort/power-bi-sort-date.png)
 
@@ -60,5 +59,7 @@ ms.locfileid: "79114131"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [เรียงลำดับวิชวลในรายงาน](end-user-change-sort.md)
+
+[การเรียงลำดับข้อมูลในวิชวล](end-user-change-sort.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

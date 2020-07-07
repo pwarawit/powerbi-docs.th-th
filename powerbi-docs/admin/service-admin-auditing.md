@@ -5,17 +5,16 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: f479bb865a11de57587a0302738411327327ed33
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272689"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782411"
 ---
 # <a name="track-user-activities-in-power-bi"></a>ติดตามกิจกรรมของผู้ใช้ใน Power BI
 
@@ -244,8 +243,9 @@ Remove-PSSession $Session
 | เพิ่มการเข้าถึงโฟลเดอร์ Power BI แล้ว                      | AddFolderAccess                             | ยังไม่ได้ใช้ในปัจจุบัน                       |
 | เพิ่มสมาชิกกลุ่ม Power BI แล้ว                      | AddGroupMembers                             |                                          |
 | ผู้ดูแลระบบแนบบัญชีเก็บข้อมูลกระแสข้อมูลไปยังผู้เช่า | AdminAttachedDataflowStorageAccountToTenant | ยังไม่ได้ใช้ในปัจจุบัน                       |
-| ชุดข้อมูล Power BI ที่วิเคราะห์แล้ว                         | AnalyzedByExternalApplication               |                                          |
-| วิเคราะห์รายงาน Power BI แล้ว                          | AnalyzeInExcel                              | สร้างขึ้นเมื่อผู้ใช้โต้ตอบกับบริการ การดาวน์โหลดไฟล์ `*.odc` ไม่ได้สร้างเหตุการณ์การตรวจสอบ                                         |
+| ชุดข้อมูล Power BI ที่วิเคราะห์แล้ว                         | AnalyzedByExternalApplication               | สร้างขึ้นเมื่อผู้ใช้โต้ตอบกับบริการ                                         |
+| วิเคราะห์รายงาน Power BI แล้ว                          | AnalyzeInExcel                              |                                          |
+| กำหนดพื้นที่ทำงานให้กับไปป์ไลน์การปรับใช้                          | AssignWorkspaceToPipeline                              |                                          |
 | แนบบัญชีที่จัดก็บข้อมูลกระแสข้อมูลแล้ว                 | AttachedDataflowStorageAccount              |                                          |
 | ผูกชุดข้อมูล Power BI ไปยังเกตเวย์แล้ว                | BindToGateway                               |                                          |
 | รีเฟรชกระแสข้อมูลที่ยกเลิกแล้ว                        | CancelDataflowRefresh                       |                                          |
@@ -254,7 +254,9 @@ Remove-PSSession $Session
 | เปลี่ยนแปลงการเชื่อมต่อชุดข้อมูล Power BI แล้ว              | SetAllConnections                           |                                          |
 | เปลี่ยนผู้ดูแลระบบเกตเวย์ Power BI แล้ว                   | ChangeGatewayAdministrators                 |                                          |
 | เปลี่ยนผู้ใช้แหล่งข้อมูลเกตเวย์ Power IB แล้ว        | ChangeGatewayDatasourceUsers                |                                          |
+| สร้างวิชวลแบบกำหนดเองขององค์กร                          | InsertOrganizationalGalleryItem                                |                                          |
 | สร้างชุดเนื้อหา Power BI ขององค์กรแล้ว      | CreateOrgApp                                |                                          |
+| สร้างไปป์ไลน์การปรับใช้งาน      | CreateAlmPipeline                                |                                          |
 | สร้างแอป Power BI แล้ว                              | CreateApp                                   |                                          |
 | สร้างแดชบอร์ด Power BI แล้ว                        | CreateDashboard                             |                                          |
 | สร้างกระแสข้อมูล Power BI แล้ว                         | CreateDataflow                              |                                          |
@@ -264,9 +266,13 @@ Remove-PSSession $Session
 | เกตเวย์ Power BI ที่สร้างขึ้น                          | CreateGateway                               |                                          |
 | สร้างกลุ่ม Power BI แล้ว                            | CreateGroup                                 |                                          |
 | สร้างรายงาน Power BI แล้ว                           | CreateReport <sup>1</sup>                                |                                          |
+| วิชวลที่กำหนดเองร้องขอโทเค็นการเข้าใช้ Azure AD                           | GenerateCustomVisualAADAccessToken                                |                                          |
+| วิชวลที่กำหนดเองร้องขอโทเค็นการเข้าใช้ Office Web Apps                           | GenerateCustomVisualWACAccessToken                                |                                          |
 | กระแสข้อมูลที่ย้ายไปยังบัญชีเก็บข้อมูลภายนอก     | DataflowMigratedToExternalStorageAccount    | ยังไม่ได้ใช้ในปัจจุบัน                       |
 | การให้สิทธิ์กระแสข้อมูลที่เพิ่มเข้าไป                        | DataflowPermissionsAdded                    | ยังไม่ได้ใช้ในปัจจุบัน                       |
 | การให้สิทธิ์กระแสข้อมูลที่ถูกลบ                      | DataflowPermissionsRemoved                  | ยังไม่ได้ใช้ในปัจจุบัน                       |
+| ลบวิชวลแบบกำหนดเองขององค์กร     | DeleteOrganizationalGalleryItem                                |                                          |
+| ลบไปป์ไลน์การปรับใช้งาน      | DeleteAlmPipeline                                |                                          |
 | ลบชุดเนื้อหา Power BI ขององค์กรแล้ว      | DeleteOrgApp                                |                                          |
 | ลบข้อคิดเห็น Power BI แล้ว                          | DeleteComment                               |                                          |
 | ลบแดชบอร์ด Power BI แล้ว                        | DeleteDashboard                             | ยังไม่ได้ใช้ในปัจจุบัน                       |
@@ -278,6 +284,7 @@ Remove-PSSession $Session
 | เกตเวย์ Power BI ที่ตรวจพบ                          | DeleteGateway                               |                                          |
 | ลบกลุ่ม Power BI แล้ว                            | DeleteGroup                                 |                                          |
 | ลบรายงาน Power BI แล้ว                           | DeleteReport                                |                                          |
+| ปรับใช้กับระยะไปป์ไลน์                           | DeployAlmPipeline                                |                                          |
 | ค้นพบแหล่งข้อมูลสำหรับชุดข้อมูล Power BI แล้ว          | GetDatasources                              |                                          |
 | รายงาน Power BI ที่ดาวน์โหลด                        | DownloadReport                              |                                          |
 | แก้ไขคุณสมบัติของกระแสข้อมูลแล้ว                        | EditDataflowProperties                      |                                          |
@@ -302,6 +309,7 @@ Remove-PSSession $Session
 | เผยแพร่รายงาน Power BI ไปยังเว็บแล้ว                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | ตารางที่แนะนำที่เผยแพร่หรือปรับปรุงแล้ว | UpdateFeaturedTables <sup>3</sup>   | |
 | ได้รับข้อมูลลับสำหรับกระแสข้อมูล Power BI จาก Key Vault แล้ว  | ReceiveDataflowSecretFromKeyVault           |                                          |
+| ลบพื้นที่ทำงานจากไปป์ไลน์การปรับใช้         | UnassignWorkspaceFromPipeline                 |                                          |
 | ลบแหล่งข้อมูลออกจากเกตเวย์ Power BI แล้ว         | RemoveDatasourceFromGateway                 |                                          |
 | ลบสมาชิกกลุ่ม Power BI แล้ว                    | DeleteGroupMembers                          |                                          |
 | ลบพื้นที่ทำงานออกจากความจุแล้ว                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -321,9 +329,12 @@ Remove-PSSession $Session
 | เข้าควบคุมกระแสข้อมูล Power BI แล้ว                     | TookOverDataflow                             |                                          |
 | ยกเลิกเผยแพร่แอป Power BI แล้ว                          | UnpublishApp                                |                                          |
 | อัปเดตการตั้งค่าการกำกับดูแลทรัพยากรความจุ      | UpdateCapacityResourceGovernanceSettings    | ปัจจุบันไม่อยู่ในศูนย์การจัดการ Microsoft 365 |
+| อัปเดตวิชวลแบบกำหนดเองขององค์กร                     | UpdateOrganizationalGalleryItem                   |                                          |
 | อัปเดตผู้ดูแลความจุแล้ว                            | UpdateCapacityAdmins                        |                                          |
 | อัปเดตชื่อที่แสดงความจุแล้ว                     | UpdateCapacityDisplayName                   |                                          |
 | ปรับปรุงสิทธิ์การกำหนดที่จัดเก็บกระแสข้อมูลแล้ว   | UpdatedDataflowStorageAssignmentPermissions |                                          |
+| อัปเดตการเข้าถึงไปป์ไลน์การปรับใช้งาน   | UpdateAlmPipelineAccess |                                          |
+| อัปเดตการกำหนดค่าไปป์ไลน์การปรับใช้   | SetConfigurationAlmPipeline |                                          |
 | อัปเดตการตั้งค่า Power BI ขององค์กรแล้ว          | UpdatedAdminFeatureSwitch                   |                                          |
 | อัปเดตแอป Power BI แล้ว                              | UpdateApp                                   |                                          |
 | อัปเดตกระแสข้อมูล Power BI แล้ว                         | UpdateDataflow                              |                                          |

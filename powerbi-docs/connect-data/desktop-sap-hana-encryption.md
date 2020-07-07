@@ -6,16 +6,15 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 364736ae8f4cf800c9c63282feb07f8e081aeb42
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 83e1725b7ce7d38a00d0564702977c3a8eef7c1d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83289223"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85222879"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>เปิดใช้งานการเข้ารหัสลับสำหรับ SAP HANA
 
@@ -38,9 +37,9 @@ ms.locfileid: "83289223"
 
 สร้างคำขอการรับรองใบรับรอง X509 สำหรับเซิร์ฟเวอร์ HANA
 
-1. การใช้ SSH จะเชื่อมต่อกับเครื่อง Linux ที่เซิร์ฟเวอร์ HANA ทำงานเป็นผู้ดูแลระบบ \<sid\>
+1. การใช้ SSH จะเชื่อมต่อกับเครื่อง Linux ที่เซิร์ฟเวอร์ HANA ทำงานเป็น \<sid\>adm
 
-1. ไปยัง Home directory _/__usr/sap/\<sid\>/home_
+1. ไปยังหน้าหลัก directory _/__usr/sap/\<sid\>/home_
 
 1. สร้างไดเรกทอรีที่ซ่อนอยู่ด้วยชื่อ _ __ssl_ถ้าไม่มีอยู่
 
@@ -104,7 +103,7 @@ ms.locfileid: "83289223"
 
         ![ตรวจสอบใบรับรองของเซิร์ฟเวอร์ - บริการ](media/desktop-sap-hana-encryption/validate-server-certificate-service.png)
 
-    - บริการ power BI
+    - บริการ Power BI
 
         ![ตรวจสอบใบรับรองของเซิร์ฟเวอร์ - เดสก์ทอป](media/desktop-sap-hana-encryption/validate-server-certificate-desktop.png)
 

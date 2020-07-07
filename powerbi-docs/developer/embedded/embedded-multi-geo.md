@@ -6,14 +6,13 @@ ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: 9c99d48a0b9d50312d2ae5ce152826fcf1ab9319
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149252"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238779"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>การสนับสนุนหลายภูมิภาคสำหรับ Power BI Embedded
 
@@ -80,6 +79,8 @@ ms.locfileid: "83149252"
 * เมื่อมีการย้ายข้อมูลจากภูมิภาคหนึ่งไปอีกภูมิภาคหนึ่งในสภาพแวดล้อมของ Multi-Geo ข้อมูลต้นทางอาจอยู่ในภูมิภาคที่ใช้เวลาย้ายนานถึง 30 วัน ในช่วงเวลาดังกล่าว ผู้ใช้ไม่สามารถเข้าถึงข้อมูลได้ ข้อมูลจะถูกลบออกจากภูมิภาคและทำลายในระยะเวลา 30 วันนั้น
 
 * Multi-Geo ไม่ได้ส่งผลให้เกิดประสิทธิภาพที่ดีขึ้นโดยทั่วไป การโหลดรายงานและแดชบอร์ดยังเกี่ยวข้องกับคำร้องขอเมต้าดาต้าไปยังภูมิภาคบ้าน
+
+* ในการฝังสำหรับสถานการณ์ลูกค้าของคุณข้อความคิวรีและผลลัพธ์คิวรีจะดำเนินการขนส่งต่อไปผ่านผู้เช่าหน้าแรก
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

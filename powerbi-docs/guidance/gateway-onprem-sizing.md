@@ -8,12 +8,11 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: de84dd7e9021abf1198f2dc4f910afb8bd078ac6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279537"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485955"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>ขนาดเกตเวย์ข้อมูลภายในองค์กร
 
@@ -46,7 +45,7 @@ ms.locfileid: "83279537"
 
 การเชื่อมต่อที่เชื่อถือได้ รวดเร็ว และสม่ำเสมอ เป็นสิ่งสำคัญที่ต้องตรวจสอบให้แน่ใจว่าผู้ใช้รายงานมีประสบการณ์ตอบสนองในลักษณะนี้
 
-![แผนผังจะแสดงเกตเวย์ข้อมูลภายในองค์กรที่เชื่อมต่อกับแหล่งที่มาภายในองค์กร:  ฐานข้อมูลแบบตารางและแบบความสัมพันธ์ใน Analysis Services  เกตเวย์ทำงานส่วนใหญ่ในโหมดพาส-ทรู](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
+![แผนผังจะแสดงเกตเวย์ข้อมูลภายในองค์กรที่เชื่อมต่อกับแหล่งที่มาภายในองค์กร:  ฐานข้อมูลแบบตารางและแบบความสัมพันธ์ใน Analysis Services เกตเวย์ทำงานส่วนใหญ่ในโหมดพาส-ทรู](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
 
 ## <a name="sizing-considerations"></a>ข้อควรพิจารณาเกี่ยวกับการปรับขนาด
 
@@ -83,10 +82,8 @@ ms.locfileid: "83279537"
 วางแผนสำหรับการเชื่อมต่อที่ดีที่สุดที่เป็นไปได้ระหว่างบริการของ Power BI กับเกตเวย์ของคุณ และเกตเวย์ของคุณกับแหล่งข้อมูล
 
 - มุ่งมั่นเพื่อความน่าเชื่อถือ ความรวดเร็ว และเวลาในการตอบสนองที่ต่ำและสม่ำเสมอ
-
 - กำจัด - หรือลด - การกระโดดของเครื่องระหว่างเกตเวย์และแหล่งข้อมูลของคุณ
-
-- ลบการควบคุมเครือข่ายใดๆ ที่กำหนดโดยเลเยอร์พร็อกซีไฟร์วอลล์ของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับจุดสิ้นสุด Power BI ดู [URL Power BI สำหรับการอนุญาตพิเศษ](../admin/power-bi-whitelist-urls.md)
+- ลบการควบคุมเครือข่ายใดๆ ที่กำหนดโดยเลเยอร์พร็อกซีไฟร์วอลล์ของคุณ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับตำแหน่งข้อมูล Power BI ดูที่ [เพิ่ม URL Power BI ในรายการอนุญาตของคุณ](../admin/power-bi-whitelist-urls.md)
 - กำหนดค่า [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) เพื่อสร้างการเชื่อมต่อส่วนตัวที่มีการจัดการไปยัง Power BI
 - สำหรับแหล่งข้อมูลใน Azure VMs ตรวจสอบให้แน่ใจว่า VMs [colocate กับบริการของ Power BI](../admin/service-admin-where-is-my-tenant-located.md)
 - สำหรับปริมาณงานการเชื่อมต่อสดไปยัง SQL Server Analysis Services (SSAS) ที่เกี่ยวข้องกับ RLS แบบไดนามิก ตรวจสอบให้แน่ใจว่ามีการเชื่อมต่อที่ดีระหว่างเครื่องเกตเวย์และ Active Directory ภายในองค์กร

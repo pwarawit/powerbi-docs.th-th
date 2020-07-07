@@ -1,19 +1,18 @@
 ---
 title: แหล่งข้อมูล Power BI
 description: บทความนี้แสดงรายการแหล่งข้อมูลที่ Power BI สนับสนุน รวมถึงข้อมูลเกี่ยวกับ DirectQuery และเกตเวย์ข้อมูลภายในองค์กร
-author: kfollis
+author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/01/2020
-ms.author: kfollis
-ms.openlocfilehash: 7fcd5b5f7a6365aac597186618ce2b18fcc44d7f
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.date: 06/10/2020
+ms.author: davidi
+ms.openlocfilehash: 0bc6b844457f625d0287f2ec85f582a6ea874624
+ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273402"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84681870"
 ---
 # <a name="power-bi-data-sources"></a>แหล่งข้อมูล Power BI
 
@@ -90,7 +89,7 @@ ms.locfileid: "84273402"
 | การรักษาความปลอดภัยของ Microsoft Graph | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
 | Mixpanel | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | MySQL | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ใช่ |
-| OData | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
+| OData | ใช่ | ใช่ <sup>7</sup> | ไม่ใช่ | ใช่ | ไม่ใช่ |
 | ODBC | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ใช่ |
 | Oledb | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ใช่ |
 | Oracle | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
@@ -152,6 +151,8 @@ ms.locfileid: "84273402"
 <sup>5</sup> ได้รับการสนับสนุนเฉพาะด้วย[เกตเวย์ส่วนบุคคล](service-gateway-personal-mode.md)เท่านั้น
 
 <sup>6</sup> จำเป็นสำหรับฐานข้อมูล .html .xls และ Access
+
+<sup>7</sup> บริการของ Power BI ไม่รองรับฟีด OData ที่จำเป็นต้องมีการรับรองความถูกต้อง
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>การลงชื่อเข้าระบบครั้งเดียว (SSO) สำหรับแหล่งข้อมูล DirectQuery
 

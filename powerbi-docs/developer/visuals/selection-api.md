@@ -7,14 +7,13 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 57f443ec11d918966c25b9d59a1656bb02983fbb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80113703"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238043"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>เพิ่มการโต้ตอบลงในภาพด้วยการเลือกภาพ Power BI
 
@@ -81,7 +80,7 @@ export interface ISelectionIdBuilder {
 
 มาดูกันว่าการเลือกจะแสดงถึงการแมปมุมมองข้อมูลแบบจัดกลุ่มสำหรับชุดข้อมูลตัวอย่างได้อย่างไร:
 
-| ผู้ผลิต | ประเภท | Value |
+| ผู้ผลิต | ชนิด | ค่า |
 | - | - | - |
 | ไครสเลอร์ | รถภายในประเทศ | 28883 |
 | ไครสเลอร์ | รถบรรทุกภายในประเทศ | 117131 |
@@ -161,7 +160,7 @@ export interface ISelectionIdBuilder {
 
 ตัวอย่างเช่น เมื่อผู้ใช้เลือก `Chrysler` โดย `Manufacturer` ภาพอื่นๆ ควรแสดงข้อมูลต่อไปนี้:
 
-| ผู้ผลิต | ประเภท | Value |
+| ผู้ผลิต | ชนิด | ค่า |
 | - | - | - |
 | **ไครสเลอร์** | รถภายในประเทศ | 28883 |
 | **ไครสเลอร์** | รถบรรทุกภายในประเทศ | 117131 |
@@ -170,7 +169,7 @@ export interface ISelectionIdBuilder {
 
 เมื่อผู้ใช้เลือก`Import Car`โดย`Type` (เลือกข้อมูลตามชุด) ภาพอื่นๆ ควรแสดงข้อมูลต่อไปนี้:
 
-| ผู้ผลิต | ประเภท | Value |
+| ผู้ผลิต | ชนิด | ค่า |
 | - | - | - |
 | ไครสเลอร์ | **รถนำเข้า** | 0 |
 | ฟอร์ด | **รถนำเข้า** | 0 |

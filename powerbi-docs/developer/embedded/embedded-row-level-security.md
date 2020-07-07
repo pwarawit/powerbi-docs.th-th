@@ -8,12 +8,11 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 71f204058bfa94c61df8299d2a2c7c9063caad5d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: b412af6899b9299fc4fde8ea217569747a445e45
+ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277030"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "84795150"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>การรักษาความปลอดภัยระดับแถวด้วย Power BI Embedded
 
@@ -88,16 +87,19 @@ API รับรายการของข้อมูลประจำตั�
 
 คุณสามารถสร้างโทเค็นที่ฝังได้โดยใช้เมธอด **GenerateTokenInGroup** บน **PowerBIClient.Reports**
 
-ตัวอย่างเช่น คุณสามารถเปลี่ยนตัวอย่าง [PowerBIEmbedded_AppOwnsData](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) ได้ *Services\EmbedService.cs บรรทัด 76 และ 77*สามารถอัปเดตจาก:
+ตัวอย่างเช่น คุณสามารถเปลี่ยนตัวอย่าง *[PowerBI - นักพัฒนา - ตัวอย่าง](https://github.com/Microsoft/PowerBI-Developer-Samples)  > .NET Framework > ฝังตัวสำหรับลูกค้าของคุณ > **PowerBIEmbedded_AppOwnsData*** ได้
+
+**ก่อนการเปลี่ยนแปลง**
 
 ```csharp
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
+// Generate Embed Token with effective identities.
+generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view", identities: new List<EffectiveIdentity> { rls });
 
-var tokenResponse = await client.Reports.GenerateTokenInGroupAsync(GroupId, report.Id, generateTokenRequestParameters);
+// Generate Embed Token for reports without effective identities.
+generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
 ```
 
-ถึง
+**หลังการเปลี่ยนแปลง**
 
 ```csharp
 var generateTokenRequestParameters = new GenerateTokenRequest("View", null, identities: new List<EffectiveIdentity> { new EffectiveIdentity(username: "username", roles: new List<string> { "roleA", "roleB" }, datasets: new List<string> { "datasetId" }) });
@@ -144,6 +146,9 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 ### <a name="using-the-customdata-feature"></a>ใช้ฟีเจอร์ CustomData
 
 ฟีเจอร์ CustomData จะทำงานสำหรับแบบจำลองที่อยู่ใน **Azure Analysis Services** เท่านั้นและจะทำงานเฉพาะในโหมด**ถ่ายทอดสด** คุณลักษณะข้อมูลแบบกำหนดเองไม่สามารถตั้งค่าภายในไฟล์ .pbix ได้ซึ่งต่างจากผู้ใช้และบทบาท เมื่อสร้างโทเค็นด้วยคุณลักษณะข้อมูลแบบกำหนดเอง คุณต้องมีชื่อผู้ใช้
+
+>[!NOTE]
+>ชื่อผู้ใช้ CustomData สามารถมีความยาวได้ 256 อักขระเท่านั้น
 
 ฟีเจอร์ CustomData อนุญาตให้คุณเพิ่มตัวกรองแถวเมื่อดูข้อมูล Power BI ในแอปพลิเคชันของคุณเมื่อใช้**Azure Analysis Services**เป็นแหล่งข้อมูลของคุณ (ดูข้อมูล Power BI ที่เชื่อมต่อกับ Azure Analysis Services ในแอปพลิเคชันของคุณ ).
 

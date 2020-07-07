@@ -6,18 +6,21 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
-ms.date: 02/23/2020
-ms.openlocfilehash: bd7758be32d18fd3be06a7847edc7795c2b5f9e1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.topic: how-to
+ms.date: 06/23/2020
+ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114784"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355018"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>กำหนดค่าข้อมูลประจำตัวทางโปรแกรมสำหรับ Power BI
 
-ทำตามขั้นตอนเหล่านี้เพื่อกำหนดค่าข้อมูลประจำตัวทางโปรแกรมสำหรับ Power BI
+ทำตามขั้นตอนในบทความนี้เพื่อกำหนดค่าข้อมูลประจำตัวทางโปรแกรมสำหรับ Power BI
+
+>[!NOTE]
+>* ผู้ใช้ที่เรียกต้องเป็นเจ้าของชุดข้อมูลหรือผู้ดูแลเกตเวย์ คุณยังสามารถใช้ [บริการหลัก](../embedded/embed-service-principal-certificate.md) ได้ ตัวอย่างเช่น บริการหลักสามารถเป็นเจ้าของชุดข้อมูล
+>* แหล่งข้อมูลระบบคลาวด์ และข้อมูลประจำตัวที่สอดคล้องกันจะถูกจัดการในระดับผู้ใช้
 
 ## <a name="update-credentials-flow-for-data-sources"></a>อัปเดตโฟลว์ข้อมูลประจำตัวสำหรับแหล่งข้อมูล
 
@@ -218,7 +221,7 @@ var credentials = "{\"credentialData\":\"\"}";
 
 ---
 
-## <a name="troubleshooting"></a>แนวทางการแก้ไขปัญหา
+## <a name="troubleshooting"></a>การแก้ไขปัญหา
 
 ### <a name="no-gateway-and-data-source-id-found-when-calling-get-data-sources"></a>ไม่มีเกตเวย์และข้อมูล ID ที่พบเมื่อเรียกใช้ฟังก์ชันรับแหล่งข้อมูล
 
