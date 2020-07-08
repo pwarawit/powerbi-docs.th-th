@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 546f712c87e67240fd15ee2563252d8f322212c7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221011"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034508"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>ส่งออกรายงาน Power BI ไปยังไฟล์ (ตัวอย่าง)
 
@@ -73,7 +73,7 @@ API เป็นแบบอะซิงโครนัส เมื่อมี
 
 ### <a name="data-protection"></a>การป้องกันข้อมูล
 
-รูปแบบ .pdf และ .pptx รองรับ[ป้ายชื่อระดับความลับ](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi) หากคุณส่งออกรายงานที่มีป้ายชื่อระดับความลับในรูปแบบ .pdf หรือ .pptx ไฟล์ที่ส่งออกจะแสดงรายงานที่มีป้ายชื่อระดับความลับ
+รูปแบบ .pdf และ .pptx รองรับ[ป้ายชื่อระดับความลับ](../../admin/service-security-sensitivity-label-overview.md) หากคุณส่งออกรายงานที่มีป้ายชื่อระดับความลับในรูปแบบ .pdf หรือ .pptx ไฟล์ที่ส่งออกจะแสดงรายงานที่มีป้ายชื่อระดับความลับ
 
 รายงานที่มีป้ายชื่อระดับความลับ จะไม่สามารถส่งออกในรูปแบบ .pdf หรือ .pptx โดยใช้ [หลักบริการ](embed-service-principal.md) ได้
 
