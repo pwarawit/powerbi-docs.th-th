@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cac39407cac3af833656a4e94edf9a3c80bbc26
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e32824a58faa3a6a98e4d38f7362c62ab13b069e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231618"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034462"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>เชื่อมต่อกับ Zendesk ด้วย Power BI
 
@@ -28,6 +28,9 @@ ms.locfileid: "85231618"
 
 >[!NOTE]
 >คุณจำเป็นต้องมีบัญชีผู้ดูแลระบบ Zendesk เพื่อเชื่อมต่อ รายละเอียดเพิ่มเติมเกี่ยวกับ[ข้อกำหนด](#system-requirements) อยู่ที่ด้านล่าง
+
+>[!WARNING]
+>ก่อนวันที่ 15 ต.ค. 2019 นั้น Zendesk Support Search API อนุญาตให้ได้รับผลลัพธ์รวม 200,000 รายการ ผ่านการแบ่งหน้าของคิวรีขนาดใหญ่ เพื่อจัดแนวการใช้งานการค้นหาให้สอดคล้องกับขอบเขตที่ตั้งใจไว้ ตอนนี้ Zendesk จำกัดจำนวนผลลัพธ์สูงสุดที่ส่งคืนเท่ากับ 1,000 รายการ โดยมีผลลัพธ์สูงสุด 100 รายการต่อหน้า อย่างไรก็ตาม ตัวเชื่อมต่อ Zendesk Power BI ปัจจุบันยังคงสามารถสร้างการเรียกใช้ API ที่เกินขีดจำกัดใหม่เหล่านี้ส่งผลให้เกิดผลลัพธ์ที่อาจทำให้เข้าใจผิดได้
 
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
 

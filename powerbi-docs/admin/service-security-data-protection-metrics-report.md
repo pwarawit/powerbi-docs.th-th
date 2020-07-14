@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 759957b6412f4835aaf170fcebb7fd2beac4e234
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0452dabef54cc899abf7a6cbbd6ab718bf22524e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227160"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034324"
 ---
 # <a name="data-protection-metrics-report"></a>รายงานเมตริกการป้องกันข้อมูล
 
 ## <a name="what-is-the-data-protection-metrics-report"></a>รายงานเมตริกการป้องกันข้อมูลคืออะไร
-รายงานเมตริกการป้องกันข้อมูลเป็นรายงานเฉพาะที่ [ผู้ดูแลระบบ Power BI](../service-admin-role.md) สามารถใช้เพื่อตรวจสอบและติดตามการใช้งานป้ายชื่อระดับความลับของข้อมูลและการเริ่มนำไปใช้ในผู้เช่าของตน
+รายงานเมตริกการป้องกันข้อมูลเป็นรายงานเฉพาะที่ [ผู้ดูแลระบบ Power BI](../service-admin-role.md) สามารถใช้เพื่อตรวจสอบและติดตามการใช้งานป้ายชื่อระดับความลับและการเริ่มนำไปใช้ในผู้เช่าของตน
 
 ![รายงานเมตริกการป้องกันข้อมูล](./media/service-security-data-protection-metrics-report/protection-metrics-seven-days-1.png)
  
@@ -47,13 +47,13 @@ ms.locfileid: "85227160"
 
 จะมีการเผยแพร่เวอร์ชันที่ปรับปรุงของรายงานเมตริกการป้องกันข้อมูลเป็นระยะ ๆ เมื่อคุณเปิดรายงานถ้ามีเวอร์ชันใหม่พร้อมใช้งาน ระบบจะถามว่าคุณต้องการเปิดเวอร์ชันใหม่หรือไม่ ถ้าคุณพูดว่า "ใช่" เวอร์ชันใหม่ของรายงานจะโหลดและเขียนทับเวอร์ชันเก่า การเปลี่ยนแปลงใด ๆ ที่คุณอาจทำกับรายงานเก่าและ/หรือชุดข้อมูลจะสูญหายไป คุณสามารถเลือกที่จะไม่เปิดเวอร์ชันใหม่ แต่ในกรณีนี้คุณจะไม่ได้รับประโยชน์จากการปรับปรุงเวอร์ชันใหม่ 
 ## <a name="notes-and-considerations"></a>บันทึกย่อและข้อควรพิจารณา
-* เมื่อต้องการสร้างรายงานเมตริกการป้องกันข้อมูลให้สำเร็จ [การป้องกันข้อมูล](./service-security-enable-data-sensitivity-labels.md) ต้องเปิดใช้งานบนผู้เช่าของคุณ และ[ควรจะนำป้ายชื่อระดับความลับไปใช้](../collaborate-share/service-security-apply-data-sensitivity-labels.md) 
+* เมื่อต้องการสร้างรายงานเมตริกการป้องกันข้อมูลให้สำเร็จ [การป้องกันข้อมูล](./service-security-enable-data-sensitivity-labels.md) ต้องเปิดใช้งานบนผู้เช่าของคุณ และ[ควรจะนำป้ายชื่อระดับความลับไปใช้](./service-security-apply-data-sensitivity-labels.md) 
 * เพื่อเข้าถึงข้อมูล Cloud App Security องค์กรของคุณต้องมี [สิทธิ์การใช้งาน Cloud App Security](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing) ที่เหมาะสม
 * ถ้าคุณตัดสินใจที่จะแชร์ข้อมูลจากรายงานเมตริกการป้องกันข้อมูลด้วยผู้ใช้ที่ไม่ใช่ผู้ดูแลระบบ Power BI โปรดตระหนักว่ารายงานนี้ประกอบด้วยข้อมูลที่สำคัญเกี่ยวกับองค์กรของคุณ
 * รายงานเมตริกการป้องกันข้อมูลเป็นรายงานชนิดพิเศษ และไม่แสดงในรายการ "แชร์กับฉัน" "ล่าสุด" และ "รายการโปรด"
 * รายงานเมตริกการป้องกันข้อมูลไม่พร้อมใช้งานสำหรับ [ผู้ใช้ภายนอก (Azure Active Directory ผู้ใช้ที่เป็นผู้เยี่ยมชม B2B)](../service-admin-azure-ad-b2b.md)
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
-* [การป้องกันข้อมูลใน Power BI](./service-security-data-protection-overview.md)
+* [ป้ายชื่อระดับความลับใน Power BI](./service-security-sensitivity-label-overview.md)
 * [ใช้ตัวควบคุม Microsoft Cloud App Security ใน Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
 * [ทำความเข้าใจเกี่ยวกับบทบาทผู้ดูแลระบบบริการของ Power BI](service-admin-role.md)
-* [เปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI](service-security-enable-data-sensitivity-labels.md)
+* [เปิดใช้งานป้ายชื่อระดับความลับใน Power BI](service-security-enable-data-sensitivity-labels.md)

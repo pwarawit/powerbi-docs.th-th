@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 07/02/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fcf774af00fe65c5f9708f85f6270cda8405896f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4083304a13b75df900e25204b54f62368be43e70
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222563"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939501"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>ใช้ DirectQuery ใน Power BI Desktop
 ด้วย *Power BI Desktop* เมื่อคุณเชื่อมต่อกับแหล่งข้อมูลของคุณ คุณสามารถนำเข้าสำเนาของข้อมูลลงใน Power BI Desktop ได้ สำหรับบางแหล่งข้อมูล คุณสามารถเลือกวิธีการอื่นได้: เชื่อมต่อโดยตรงกับแหล่งข้อมูลโดยใช้ DirectQuery
@@ -53,7 +53,7 @@ ms.locfileid: "85222563"
 
 - ข้อจำกัดจะถูกใส่ไว้ในนิพจน์ DAX ที่ได้รับอนุญาตในหน่วยวัดเพื่อให้แน่ใจว่าคิวรีที่ส่งไปยังแหล่งข้อมูลเบื้องต้นมีประสิทธิภาพที่ยอมรับได้
 
-- มีข้อจำกัดของแถวที่ 1 ล้านแถวสำหรับการส่งคืนข้อมูลเมื่อใช้ DirectQuery หากไม่ได้ใช้ความจุแบบ Premium ข้อจำกัดนี้ไม่มีผลต่อการรวมหรือการคำนวณที่ใช้ในการสร้างชุดข้อมูลที่ DirectQuery ส่งค่ากลับคืน เฉพาะแถวเท่านั้นที่จะถูกส่งคืน ความจุแบบ Premium สามารถตั้งค่าขีดจำกัดแถวสูงสุดตามที่อธิบายไว้ใน [โพสต์นี้](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/) 
+- มีขีดจำกัดหนึ่งล้านแถวสำหรับแหล่งข้อมูลบนคลาวด์ที่มีแหล่งข้อมูลภายในองค์กรที่จำกัดไว้ในส่วนที่กำหนดประมาณ 4 MB ต่อแถว (ขึ้นอยู่กับอัลกอริทึมการบีบอัดที่เป็นกรรมสิทธิ์) หรือขนาดข้อมูล 16MB สำหรับวิชวลทั้งหมด อาจมีข้อจำกัดบางอย่างเกิดขึ้นเมื่อใช้ความจุ Premium ข้อจำกัดนี้ไม่มีผลต่อการรวมหรือการคำนวณที่ใช้ในการสร้างชุดข้อมูลที่ DirectQuery ส่งค่ากลับคืน เฉพาะแถวเท่านั้นที่จะถูกส่งคืน ความจุแบบ Premium สามารถตั้งค่าขีดจำกัดแถวสูงสุดตามที่อธิบายไว้ใน [โพสต์นี้](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/) 
 
     ตัวอย่างเช่น คุณสามารถรวมแถว 10,000,000 แถวกับคิวรีของคุณที่เปิดใช้งานบนแหล่งข้อมูลของคุณได้ คิวรีจะแสดงผลลัพธ์ของการรวมดังกล่าวไปยัง Power BI อย่างถูกต้องแม่นยำโดยใช้ DirectQuery หากข้อมูล Power BI ที่แสดงน้อยกว่า 1,000,000 แถว ถ้าแถวมากกว่าหนึ่งล้านแถวถูกส่งกลับจาก DirectQuery Power BI จะส่งกลับข้อผิดพลาด (เว้นแต่ในความจุแบบ Premium และจำนวนแถวอยู่ภายใต้ขีดจำกัดการตั้งค่าของผู้ดูแลระบบ)
 

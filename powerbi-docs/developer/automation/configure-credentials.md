@@ -8,11 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355018"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034071"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>กำหนดค่าข้อมูลประจำตัวทางโปรแกรมสำหรับ Power BI
 
@@ -48,13 +49,16 @@ ms.locfileid: "85355018"
 
     ---
 
-2. เรียกใช้ฟังก์ชัน [รับเกตเวย์](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways)เพื่อเรียกใช้คีย์สาธารณะของเกตเวย์
+    >[!NOTE]
+    >หากคุณกำลังใช้แหล่งข้อมูลคลาวด์ อย่าทำตามขั้นตอนถัดไปในส่วนนี้ ตั้งค่าข้อมูลประจำตัวโดยใช้ ID เกตเวย์และ ID แหล่งข้อมูลที่ได้รับในขั้นตอนที่ 1 โดยการเรียก [อัปเดตแหล่งข้อมูล](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) 
+
+3. เรียกใช้ฟังก์ชัน [รับเกตเวย์](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways)เพื่อเรียกใช้คีย์สาธารณะของเกตเวย์
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
     ```
 
-3. เข้ารหัสข้อมูลประจำตัว
+4. เข้ารหัสข้อมูลประจำตัว
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -72,7 +76,7 @@ ms.locfileid: "85355018"
 
     ---  
 
-4. สร้างรายละเอียดข้อมูลประจำตัวด้วยข้อมูลประจำตัวที่เข้ารหัสลับไว้
+5. สร้างรายละเอียดข้อมูลประจำตัวด้วยข้อมูลประจำตัวที่เข้ารหัสลับไว้
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -100,7 +104,7 @@ ms.locfileid: "85355018"
 
     ---
 
-5. เรียกใช้ฟังก์ชัน[แหล่งข้อมูลอัปเดต](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)เพื่อตั้งค่าข้อมูลประจำตัว
+6. เรียกใช้ฟังก์ชัน[แหล่งข้อมูลอัปเดต](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)เพื่อตั้งค่าข้อมูลประจำตัว
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);

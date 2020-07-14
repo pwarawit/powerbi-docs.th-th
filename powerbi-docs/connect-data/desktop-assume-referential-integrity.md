@@ -9,19 +9,19 @@ ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f8f5e39d320ca0135665977e740fd1dedecb988b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c0a7ef3ef7ce62ca1939791c3dcf198428f1353c
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224835"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034370"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>ใช้ประมาณการตั้งค่า Referential Integrity ใน Power BI Desktop
 เมื่อเชื่อมต่อกับแหล่งข้อมูลโดยใช้ **DirectQuery** คุณสามารถใช้การเลือก **ประมาณ Referential Integrity** เพื่อเปิดใช้งานการเรียกใช้แบบสอบถามที่มีปะสิทธิภาพมากยิ่งขึ้นกับแหล่งข้อมูลของคุณได้ คุณลักษณะนี้มีข้อกำหนดบางอย่างเกี่ยวกับข้อมูลต้นแบบ และจะพร้อมใช้งานเมื่อใช้ **DirectQuery**
 
 การตั้งค่า **ประมาณ referential integrity** จะเปิดใช้งานแบบสอบถามบนแหล่งข้อมูลเพื่อใช้คำสั่ง **INNER JOIN**่ แทน **OUTER JOIN** ซึ่งช่วยปรับปรุงประสิทธิภาพแบบสอบถาม
 
-![](media/desktop-assume-referential-integrity/assume-referential-integrity_1.png)
+![ภาพหน้าจอของกล่องโต้ตอบแก้ไขความสัมพันธ์เพื่อเลือก ตั้งสมมุติฐานว่ามีกฎการอ้างอิง](media/desktop-assume-referential-integrity/assume-referential-integrity_1.png)
 
 ## <a name="requirements-for-using-assume-referential-integrity"></a>ข้อกำหนดสำหรับการใช้การประมาณ referential integrity
 เป็นการตั้งค่าขั้นสูงและจะเปิดใช้งานเมื่อเชื่อมต่อกับข้อมูลโดยใช้ **DirectQuery** เท่านั้น ข้อกำหนดดังต่อไปนี้เป็นสิ่งจำเป็นสำหรับ **ประมาณ referential integrity** เพื่อให้ทำงานอย่างถูกต้อง:
@@ -36,18 +36,18 @@ ms.locfileid: "85224835"
 
 1. ในรูปต่อไปนี้ที่แสดงในตาราง **Orders** และตาราง **Products** โปรดสังเกตว่า referential integrity จะเกิดขึ้นระหว่าง **Orders[ProductID]** กับ **Products[ProductID]** คอลัมน์ **[ProductID]** ในตาราง **Orders** จะไม่เป็น *Null* และทุกค่ายังปรากฏในตาราง **Products** ด้วย ดังนั้น **ประมาณ Referential Integrity** จึงควรถูกตั้งค่าเพื่อรับแบบสอบถามมีประสิทธิภาพมากขึ้น (การใช้การตั้งค่านี้จะไม่เปลี่ยนแปลงค่าที่แสดงในการแสดงผลด้วยภาพ)
    
-   ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
+   ![ภาพหน้าจอของตารางคำสั่งซื้อและตารางผลิตภัณฑ์](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
 2. ในภาพถัดไป จะสังเกตเห็นได้ว่า ไม่มี referential integrity เกิดขึ้นระหว่าง **Orders[DepotID]** กับ **Depots[DepotID]** เพราะ **DepotID** เป็น *Null* สำหรับบาง *Orders* ดังนั้น **ประมาณ Referential Integrity** จึงไม่ควร*ถูก*ตั้งค่า
    
-   ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
+   ![ภาพหน้าจอของตารางคำสั่งซื้อและตารางผลิตภัณฑ์](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. ในตอนท้าย ไม่มีของ referential integrity เกิดขึ้นระหว่าง **Orders[CustomerID]** กับ **Customers[CustID]** ในตารางดังต่อไปนี้ กล่าวคือ **CustomerID** จะมีบางค่า (ในกรณีนี้ ได้แก่ *CustX*) ซึ่งไม่เกิดขึ้นในตาราง *Customers* ดังนั้น **ประมาณ Referential Integrity** จึงไม่ควร*ถูก*ตั้งค่า
    
-   ![](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
+   ![ภาพหน้าจอของตารางคำสั่งซื้อและตารางลูกค้า](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
 
 ## <a name="setting-assume-referential-integrity"></a>การตั้งค่าการประมาณ Referential Integrity
 เมื่อต้องการเปิดใช้งานคุณลักษณะนี้ เลือกกล่องกาเครื่องหมายถัดจาก **ประมาณ Referential Integrity**ดังที่แสดงในภาพต่อไปนี้
 
-![](media/desktop-assume-referential-integrity/assume-referential-integrity_1.png)
+![ภาพหน้าจอของกล่องโต้ตอบแก้ไขความสัมพันธ์ที่ช่วยให้คุณสามารถเลือก ตั้งสมมุติฐานว่ามีกฎการอ้างอิง](media/desktop-assume-referential-integrity/assume-referential-integrity_1.png)
 
 เมื่อเลือกแล้ว การตั้งค่าก็จะถูกตรวจสอบกับข้อมูลเพื่อให้แน่ใจว่า ไม่มี *Null* หรือแถวที่ไม่ตรงกัน *อย่างไรก็ตาม* สำหรับกรณีที่มีจำนวนค่ามาก การตรวจสอบจะไม่สามารถรับประกันได้ว่า ไม่มีปัญหาใด ๆ เกี่ยวกับ referential integrity
 

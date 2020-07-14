@@ -9,19 +9,19 @@ ms.topic: reference
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 19189529637fe5511ebd6f736c17b8a10a1d2ef9
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83130299"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86033795"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>ระดับความเป็นส่วนตัวของ Power BI Desktop
 ใน**Power BI Desktop** ระดับความเป็นส่วนตัวระบุระดับการแยกที่กำหนดระดับ ซึ่งแหล่งข้อมูลหนึ่งจะถูกแยกจากแหล่งข้อมูลอื่น ๆ แม้ว่าระดับการแยกแบบเข้มงวด จะป้องกันข้อมูลจากการแลกเปลี่ยนระหว่างแหล่งข้อมูล แต่อาจลดทำงานและมีผลกระทบกับประสิทธิภาพ
 
 การตั้งค่า**ระดับความเป็นส่วนตัว** พบใน**ไฟล์ > ตัวเลือกและการตั้งค่า > ตัวเลือก**แล้ว**ไฟล์ปัจจุบัน > ความเป็นส่วนตัว** กำหนดว่าจะใช้ Power BI Desktop การตั้งค่าระดับความเป็นส่วนตัวขณะรวมข้อมูลหรือไม่ กล่องโต้ตอบนี้ลิงก์ไปยังเอกสาร Power BI Desktop ที่เกี่ยวกับระดับความเป็นส่วนตัวและระดับความเป็นส่วนตัว (บทความนี้)
 
-![](media/desktop-privacy-levels/desktop_privacylevels1.png)
+![ภาพหน้าจอของกล่องโต้ตอบตัวเลือก](media/desktop-privacy-levels/desktop_privacylevels1.png)
 
 ## <a name="configure-a-privacy-level"></a>ตั้งค่าระดับความเป็นส่วนตัว
 ด้วยการตั้งค่าระดับความเป็นส่วนตัว คุณสามารถระบุระดับการแยกที่กำหนดระดับ ซึ่งแหล่งข้อมูลหนึ่งจะถูกแยกจากแหล่งข้อมูลอื่น ๆ
@@ -37,7 +37,7 @@ ms.locfileid: "83130299"
 
 เพื่อกำหนดค่าระดับความเป็นส่วนตัวแหล่งข้อมูล เลือกแหล่งข้อมูล จากนั้นเลือก**แก้ไข** กล่องโต้ตอบ**การตั้งค่าแหล่งข้อมูล**ปรากฏขึ้น ซึ่งคุณสามารถเลือกระดับความเป็นส่วนตัวที่เหมาะสมจากเมนูดรอปดาวน์ที่ด้านล่างของกล่องโต้ตอบ ดังที่แสดงในรูปต่อไปนี้
 
-![](media/desktop-privacy-levels/desktop_privacylevels2.png)
+![ภาพหน้าจอของกล่องโต้ตอบการตั้งค่าแหล่งข้อมูล](media/desktop-privacy-levels/desktop_privacylevels2.png)
 
 > [!CAUTION]
 > คุณควรกำหนดค่าแหล่งข้อมูลที่ประกอบด้วยข้อมูลที่สำคัญ หรือเป็นความลับสูงเป็น**ส่วนตัว**

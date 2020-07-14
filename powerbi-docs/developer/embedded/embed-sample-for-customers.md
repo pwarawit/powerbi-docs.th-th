@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
+ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337084"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "86092250"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>บทช่วยสอน: ฝังเนื้อหา Power BI ลงในแอปพลิเคชันสำหรับลูกค้าของคุณ
 
@@ -428,9 +428,12 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
 ### <a name="development-testing"></a>การทดสอบการพัฒนา
 
-โทเค็นแบบฝังตัวที่มีสิทธิ์การใช้งาน PRO มีไว้สำหรับทดสอบการพัฒนา ดังนั้นจำนวนของโทเค็นแบบฝังตัวที่บัญชีหลัก Power BI หรือบริการหลักสามารถสร้างได้จึงมีจำนวนจำกัด ความจุเฉพาะจำเป็นสำหรับการฝังตัวในสภาพแวดล้อมการผลิต ไม่มีข้อจำกัดในจำนวนโทเค็นแบบฝังตัวที่คุณสามารถสร้างด้วยความจุเฉพาะ ไปยัง[คุณลักษณะที่มี](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) เพื่อตรวจสอบค่าการใช้งาน ที่สามารถบอกได้ว่าปัจจุบันมีการใช้งานฝังตัวแล้วกี่เปอร์เซ็นต์ ปริมาณการใช้งานขึ้นอยู่กับบัญชีผู้ใช้หลัก
+สำหรับการทดสอบการพัฒนา คุณสามารถใช้โทเค็นรุ่นทดลองใช้แบบฝังพร้อมกับสิทธิ์ใช้งานแบบ Pro หากต้องการฝังในสภาพแวดล้อมการผลิต ให้ใช้ความจุเฉพาะ
 
-สำหรับรายละเอียดเพิ่มเติม ดูได้ที่ [เอกสารทางเทคนิคเรื่องการวางแผนความจุวิเคราะห์แบบฝัง](https://aka.ms/pbiewhitepaper)
+จำนวนโทเค็นการทดลองแบบฝังของบริการ Power BI หรือบัญชีหลักที่สามารถสร้างได้นั้นมีจำกัด ใช้ API ของ[คุณลักษณะที่มีอยู่](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)เพื่อตรวจสอบเปอร์เซ็นต์ของการใช้งานแบบฝังในปัจจุบันของคุณ จำนวนการใช้งานจะปรากฏขึ้นต่อบริการหลักหรือบัญชีหลัก
+
+หากคุณใช้งานโทเค็นแบบฝังหมดขณะทดสอบ คุณจำเป็นต้องซื้อ Power BI Embedded หรือ[ความจุ](embedded-capacity.md) Premium ไม่มีการจำกัดจำนวนโทเค็นแบบฝังที่คุณสามารถสร้างได้ด้วยความจุเฉพาะ
+
 
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>กำหนดพื้นที่ทำงานสำหรับความจุเฉพาะ
 

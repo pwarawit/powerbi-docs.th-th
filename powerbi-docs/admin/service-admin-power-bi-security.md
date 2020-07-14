@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 6e006bc858ad9d82073ced7929c87920da6559ab
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564397"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034171"
 ---
 # <a name="power-bi-security"></a>Power BI Security
 
@@ -28,11 +28,11 @@ Power BI service ถูกสร้างบน**Azure**ซึ่งเป็น
 
 คลัสเตอร์**WFE**จัดการกระบวนการเชื่อมต่อและรับรองตัวตนเริ่มต้นสำหรับ Power BI โดยใช้ AAD ในการรับรองตัวตนของไคลเอ็นต์ และใส่โทเค็นสำหรับไคลเอ็นต์ถัดๆไป ซึ่งเชื่อมต่อ Power BI service. Power BI ยังใช้**Azure Traffic Manager** (ATM) โดยตรงกับปริมาณการใช้งานของผู้ใช้ที่ใกล้ที่สุดกับศูนย์ข้อมูล โดยขึ้นอยู่กับการบันทึก DNS ของไคลเอ็นต์ที่พยายามเชื่อมต่อกับกระบวนการรับรองตัวตนและเมื่อต้องดาวน์โหลดเนื้อหาแบบคงที่หรือไฟล์ Power BI ใช้**Azure Content Delivery Network** (CDN) เพื่อแจกจ่ายเนื้อหาแบบคงที่ที่จำเป็นได้อย่างมีประสิทธิภาพ และบันทึกเป็นไฟล์ในตัวผู้ใช้โดยยึดตามตำแหน่งที่ตั้งทางภูมิศาสตร์
 
-![](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
+![แผนภาพที่แสดงสถาปัตยกรรม Power B I สำหรับคลัสเตอร์ Front End ของเว็บ](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
 
 คลัสเตอร์**Back End**คือวิธีการที่ไคลเอนต์การรับรองตัวตนแล้วโต้ตอบกับ Power BI service คลัสเตอร์**Back End**จัดการการแสดงภาพ แดชบอร์ดผู้ใช้ ชุดข้อมูล รายงาน ที่เก็บข้อมูล การเชื่อมต่อข้อมูล การรีเฟรชข้อมูล และลักษณะอื่น ๆ ของโต้ตอบกับบริการ Power BI **บทบาทเกตเวย์**ทำหน้าที่เป็นเกตเวย์ระหว่างผู้ใช้ที่ร้องขอและ Power BI service ผู้ใช้ไม่ได้ทำงานโดยตรงกับบทบาทใด ๆ นอกเหนือจาก**บทบาทเกตเวย์** **Azure API Management** จะจัดการ**บทบาทเกตเวย์**ในท้ายที่สุด
 
-![](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
+![แผนภาพที่แสดงสถาปัตยกรรม Power B I สำหรับคลัสเตอร์ Back End ของเว็บ](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
 
 > [!IMPORTANT]
 > ต้องบันทึกว่า**Azure API Management** (APIM) และบทบาท**เกตเวย์** (GW) จะสามารถเข้าถึงผ่านอินเทอร์เน็ตสาธารณะ พวกเขาให้รับรองตัวตน การอนุญาต DDoS protection Throttling ปรับสมดุลการโหลด กำหนดเส้นทาง และความสามารถอื่น ๆ

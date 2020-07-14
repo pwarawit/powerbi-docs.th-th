@@ -7,12 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/27/2020
-ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.date: 07/06/2020
+ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739241"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034048"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>มีอะไรใหม่ใน Power BI Report Server
 
@@ -27,9 +28,11 @@ ms.locfileid: "84739241"
 
 ## <a name="may-2020"></a>พฤษภาคม 2020
 
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงานของ Power BI
+
 ท่ามกลางไฮไลท์ของการอัปเดตนี้คือตัวแบ่งส่วนข้อมูลแบบลำดับชั้น และวิชวลสำหรับโครงข่ายของข้อมูล และการวินิจฉัยคิวรี สิ่งต่อไปนี้เป็นรายการทั้งหมดของคุณลักษณะใหม่และอัปเดต สำหรับรายละเอียด โปรดดู [โพสต์บล็อก Power BI Report Server สำหรับพฤษภาคม 2020](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/) 
 
-### <a name="reporting"></a>การรายงาน
+#### <a name="reporting"></a>การรายงาน
 
 - ตัวแบ่งส่วนแบบลำดับชั้น
 - ชนิดการดำเนินการใหม่สำหรับปุ่ม:
@@ -50,7 +53,7 @@ ms.locfileid: "84739241"
     - ประสบการณ์การใช้งานบานหน้าต่างตัวกรองใหม่
     - การค้นหาบานหน้าต่างตัวกรอง
     
-### <a name="modeling"></a>การสร้างแบบจำลอง
+#### <a name="modeling"></a>การสร้างแบบจำลอง
 
 - ฟังก์ชัน DAX ใหม่:
 
@@ -60,18 +63,24 @@ ms.locfileid: "84739241"
 
 - ตัวคั่น DAX มาตรฐาน
 
-### <a name="visualizations"></a>การแสดงผลข้อมูลด้วยภาพ
+#### <a name="visualizations"></a>การแสดงผลข้อมูลด้วยภาพ
 
 - ไอคอนการแสดงผลข้อมูลด้วยภาพใหม่
 - เงาในการวางวิชวล
 
-### <a name="data-preparation"></a>การเตรียมข้อมูล
+#### <a name="data-preparation"></a>การเตรียมข้อมูล
 
 - การวินิจฉัยแบบคิวรี
 
-### <a name="other"></a>อื่นๆ
+#### <a name="other"></a>อื่นๆ
 
 - การใช้ข้อมูลประจำตัวของระบบเริ่มต้นสำหรับเว็บพร็อกซี
+
+### <a name="power-bi-report-server"></a>เซิร์ฟเวอร์รายงาน Power BI
+
+#### <a name="power-bi-visuals-api"></a>API การแสดงผลด้วยภาพของ Power BI
+
+เวอร์ชันของ API ที่ส่งไปพร้อมกับรุ่นการวางจำหน่ายนี้คือ 3.2
 
 ## <a name="january-2020"></a>มกราคม 2020
 

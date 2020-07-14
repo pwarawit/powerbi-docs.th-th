@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 04/27/2020
-ms.openlocfilehash: 6448fd85f281024aaaf03973496eaa0c4350c13b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 06/28/2020
+ms.openlocfilehash: 94419bb25aa00645b22a1dad1f97fcc792c3d63d
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226260"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939539"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>ฝังส่วนเว็บรายงานใน SharePoint Online
 
 ด้วยส่วยรายงานเว็บ Power BI ใหม่ สำหรับ SharePoint Online คุณสามารถฝังรายงาน Power BI แบบโต้ตอบได้อย่างง่ายดายในหน้า SharePoint Online
 
-เมื่อใช้ตัวเลือก**การฝังใน SharePoint Online** รายงานที่ฝังตัวนั้นมีความปลอดภัยทั้งหมด ดังนั้นคุณจะสามารถสร้างพอร์ทัลความปลอดภัยภายในได้อย่างง่ายดาย
+เมื่อใช้ตัวเลือกใหม่ **ฝังใน SharePoint Online** รายงานแบบฝังจะคำนึงถึงการอนุญาตรายการทั้งหมดและความปลอดภัยของข้อมูลผ่าน [การรักษาความปลอดภัยระดับแถว (RLS)](../admin/service-admin-rls.md) เพื่อให้คุณสามารถสร้างพอร์ทัลภายในที่ปลอดภัยได้อย่างง่ายดาย
 
 ## <a name="requirements"></a>ข้อกำหนด
 

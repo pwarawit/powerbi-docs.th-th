@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: e1162ecfb9eee7d1a0bfaf5a7ef25244ec8935c0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3c36a2725748e2c701c65f1737c39f4d56128962
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226818"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034393"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>การแก้ไขปัญหาการวิเคราะห์ใน Excel
 
@@ -45,22 +45,22 @@ ms.locfileid: "85226818"
 
 เมื่อต้องการดาวน์โหลดไลบรารี Excel ล่าสุด โปรดไปที่ Power BI และเลือก**ลูกศรลง**ที่มุมบนขวาของบริการ Power BI แล้วเลือก**อัปเดตการวิเคราะห์ใน Excel**
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
+![ภาพหน้าจอของตัวเลือกเมนูลูกศรลงที่มุมบนขวา เพื่ออัปเดต Analyze in Excel](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
 
 ในกล่องโต้ตอบที่ปรากฏขึ้น เลือก**ดาวน์โหลด (ตัวอย่าง)**
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
+![ภาพหน้าจอของกล่องโต้ตอบอัปเดต Analyze in Excel เพื่อเลือกปุ่มดาวน์โหลดหรือตัวอย่าง](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
 
 ## <a name="determining-whether-you-need-to-update-your-excel-libraries"></a>การกำหนดว่าคุณจำเป็นต้องอัปเดต Excel ไลบรารีของคุณหรือไม่
 คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดของไลบรารีผู้ให้บริการ Excel OLE DB ได้จากลิงก์ในส่วนก่อนหน้านี้ เมื่อคุณดาวน์โหลดไลบรารี OLD DB ที่เหมาะสมแล้วและระบบเริ่มการติดตั้ง จะมีการตรวจสอบเทียบกับเวอร์ชันที่ติดตั้งปัจจุบันของคุณ
 
 ถ้าไลบรารีลูกค้าสำหรับผู้ให้บริการ Excel OLE DB ของคุณมีข้อมูลล่าสุด คุณจะเห็นกล่องโต้ตอบที่มีลักษณะดังต่อไปนี้:
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
+![ภาพหน้าจอของกล่องโต้ตอบที่ขอให้อัปเดตถ้ามีไลบรารีไคลเอ็นต์ของผู้ให้บริการ Excel O L E B รุ่นที่ใหม่กว่า](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
 
 อีกวิธีหนึ่งคือ ถ้าคุณกำลังติดตั้งเวอร์ชันที่ใหม่กว่าเวอร์ชันบนคอมพิวเตอร์ของคุณ กล่องโต้ตอบต่อไปนี้ปรากฏขึ้น:
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
+![ภาพหน้าจอของกล่องโต้ตอบเพื่อยืนยันการอัปเกรดในระหว่างการติดตั้งไลบรารีไคลเอ็นต์ของผู้ให้บริการ Excel O L E B](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
 
 ถ้าคุณเห็นกล่องโต้ตอบที่ปรากฏขึ้นให้คุณอัปเกรด คุณควรทำการติดตั้งต่อไปเพื่อให้ได้เวอร์ชันล่าสุดของผู้ให้บริการ OLE DB ติดตั้งในคอมพิวเตอร์ของคุณ
 

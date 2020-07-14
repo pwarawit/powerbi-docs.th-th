@@ -1,32 +1,32 @@
 ---
-title: เปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI
-description: เรียนรู้วิธีการเปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI
+title: เปิดใช้งานป้ายชื่อระดับความลับใน Power BI
+description: เรียนรู้วิธีการเปิดใช้งานป้ายชื่อระดับความลับใน Power BI
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 06/15/2020
+ms.date: 07/06/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: c6c1c20e88e6da96ed0c7239ee26f63220c28a00
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0fe1b7b1b8175511838005b7b63ca7543bbf939a
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227042"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034347"
 ---
-# <a name="enable-data-sensitivity-labels-in-power-bi"></a>เปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI
+# <a name="enable-sensitivity-labels-in-power-bi"></a>เปิดใช้งานป้ายชื่อระดับความลับใน Power BI
 
-เพื่อให้มีการใช้ [ป้ายชื่อระดับความลับของ Microsoft Information Protection](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) ใน Power BI ป้ายชื่อดังกล่าวจะต้องเปิดใช้งานบนผู้เช่า บทความนี้แสดงให้เห็นว่าผู้ดูแลระบบผู้เช่า Power BI จะดำเนินการเช่นนั้นได้อย่างไร สำหรับภาพรวมเกี่ยวกับป้ายชื่อระดับความลับของข้อมูลใน Power BI โปรดดู [การป้องกันข้อมูลใน Power BI](service-security-data-protection-overview.md) สำหรับข้อมูลเกี่ยวกับการใช้ป้ายชื่อระดับความลับใน Power BI โปรดดู [การใช้ป้ายชื่อระดับความลับ](../collaborate-share/service-security-apply-data-sensitivity-labels.md) 
+เพื่อให้มีการใช้ [ป้ายชื่อระดับความลับของ Microsoft Information Protection](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) ใน Power BI ป้ายชื่อดังกล่าวจะต้องเปิดใช้งานบนผู้เช่า บทความนี้แสดงให้เห็นว่าผู้ดูแลระบบผู้เช่า Power BI จะดำเนินการเช่นนั้นได้อย่างไร สำหรับภาพรวมเกี่ยวกับป้ายชื่อระดับความลับใน Power BI โปรดดู [ป้ายชื่อระดับความลับใน Power BI](service-security-sensitivity-label-overview.md) สำหรับข้อมูลเกี่ยวกับการใช้ป้ายชื่อระดับความลับใน Power BI โปรดดู [การใช้ป้ายชื่อระดับความลับ](./service-security-apply-data-sensitivity-labels.md) 
 
 เมื่อเปิดใช้งานป้ายชื่อระดับความลับ:
 
-* ผู้ใช้และกลุ่มความปลอดภัยที่ระบุในองค์กรสามารถจัดประเภทและ [นำป้ายชื่อระดับความลับ](../collaborate-share/service-security-apply-data-sensitivity-labels.md) ไปใช้ในรายงาน Power BI แดชบอร์ด ชุดข้อมูล และกระแสข้อมูล
+* ผู้ใช้และกลุ่มความปลอดภัยที่ระบุในองค์กรสามารถจัดประเภทและ [นำป้ายชื่อระดับความลับ](./service-security-apply-data-sensitivity-labels.md) ไปใช้ในรายงาน Power BI แดชบอร์ด ชุดข้อมูล และกระแสข้อมูล
 * สมาชิกทั้งหมดขององค์กรสามารถดูป้ายชื่อเหล่านั้นได้
 
-การเปิดใช้งานป้ายชื่อระดับความลับของข้อมูลจำเป็นต้องมีสิทธิ์การใช้งาน Azure Information Protection โปรดดู [การให้สิทธิการใช้งาน](service-security-data-protection-overview.md#licensing) สำหรับรายละเอียดเพิ่มเติม
+การเปิดใช้งานป้ายชื่อระดับความลับจำเป็นต้องมีสิทธิ์การใช้งาน Azure Information Protection โปรดดู [การให้สิทธิการใช้งาน](service-security-sensitivity-label-overview.md#licensing) สำหรับรายละเอียดเพิ่มเติม
 
-## <a name="enable-data-sensitivity-labels"></a>เปิดใช้งานป้ายชื่อระดับความลับของข้อมูล
+## <a name="enable-sensitivity-labels"></a>เปิดใช้งานป้ายชื่อระดับความลับ
 
 ไปที่ **พอร์ทัลผู้ดูแลระบบ Power BI**  ให้เปิดบานหน้าต่าง **การตั้งค่าผู้เช่า** และค้นหาส่วน **การป้องกันข้อมูล**
 
@@ -52,33 +52,19 @@ ms.locfileid: "85227042"
 
 Power BI ใช้ป้ายชื่อระดับความลับ Microsoft Information Protection ดังนั้นถ้าคุณพบข้อผิดพลาดเมื่อพยายามเปิดใช้งานป้ายชื่อระดับความลับ อาจเป็นเพราะหนึ่งในสาเหตุต่อไปนี้:
 
-* คุณไม่มี[สิทธิ์การใช้งาน](service-security-data-protection-overview.md#licensing) Azure Information Protection
+* คุณไม่มี[สิทธิ์การใช้งาน](service-security-sensitivity-label-overview.md#licensing) Azure Information Protection
 * ไม่มีการโยกย้ายป้ายชื่อระดับความลับไปยังเวอร์ชัน Microsoft Information Protection ที่สนับสนุนโดย Power BI เรียนรู้เพิ่มเติมเกี่ยวกับ [การโยกย้ายป้ายชื่อระดับความลับ](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 * ไม่ได้มีการกำหนดป้ายชื่อระดับความลับ Microsoft Information Protection ในองค์กร โปรดทราบว่าเพื่อให้สามารถใช้งานได้ ป้ายชื่อจะต้องเป็นส่วนหนึ่งของนโยบายที่เผยแพร่แล้ว จึงจะสามารถใช้ได้ [เรียนรู้เพิ่มเติมเกี่ยวกับป้ายชื่อระดับความลับ](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels) หรือเยี่ยมชม [ศูนย์ความปลอดภัยและการปฏิบัติตามข้อกำหนดของ Microsoft](https://sip.protection.office.com/sensitivity?flight=EnableMIPLabels) เพื่ออ่านข้อมูลเกี่ยวกับวิธีการกำหนดป้ายชื่อและเผยแพร่นโยบายสำหรับองค์กรของคุณ
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 
-รายการต่อไปนี้แสดงข้อจำกัดบางอย่างของป้ายชื่อระดับความลับใน Power BI:
-
-**ทั่วไป**
-* ป้ายชื่อระดับความลับสามารถใช้ได้เฉพาะบนแดชบอร์ด รายงาน ชุดข้อมูล และกระแสข้อมูลเท่านั้น ในปัจจุบัน ป้ายชื่อระดับความลับยังไม่สามารถใช้ได้สำหรับ [รายงานที่มีการแบ่งหน้า](../paginated-reports/report-builder-power-bi.md) และสมุดงาน
-* ป้ายชื่อระดับความลับบนแอสเซท Power BI สามารถมองเห็นได้ในรายการพื้นที่ทำงาน สายข้อมูล รายการโปรด ล่าสุด และมุมมองแอป ในขณะนี้ป้ายชื่อจะไม่สามารถมองเห็นได้ในมุมมอง "แบ่งปันแล้วกับฉัน" อย่างไรก็ตาม โปรดทราบว่าป้ายชื่อที่ใช้กับแอสเซท Power BI แม้ว่าจะไม่สามารถมองเห็นได้ จะยังคงอยู่ในข้อมูลที่ส่งออกไปเป็นไฟล์ Excel, PowerPoint และ PDF เสมอ
-* ป้ายชื่อระดับความลับได้รับการรองรับสำหรับผู้เช่าในระบบคลาวด์ (สาธารณะ) ส่วนกลางเท่านั้น ป้ายชื่อระดับความลับไม่ได้รับการรองรับสำหรับผู้เช่าในระบบคลาวด์อื่นๆ
-* ไม่รองรับป้ายชื่อระดับความลับของข้อมูลสำหรับแอปเทมเพลต ป้ายชื่อระดับความลับที่ตั้งค่าโดยผู้สร้างแอปเทมเพลตจะถูกลบออกเเมื่อมีการแยกและติดตั้งแอป และป้ายชื่อระดับความลับที่เพิ่มไปยังอาร์ทิแฟกต์ในแอปเทมเพลตที่ติดตั้งโดยผู้บริโภคแอปสูญหายไป (ตั้งค่าใหม่เป็นไม่มีอะไร) เมื่อมีการอัปเดตแอป
-* Power BI ไม่รองรับป้ายชื่อระดับความลับของประเภทการป้องกัน [Do Not Forward](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions), [ผู้ใช้กำหนดเอง](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions) และ [HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) ประเภทการป้องกันแบบ Do Not Forward และผู้ใช้กำหนดเองหมายถึงป้ายชื่อที่กำหนดใน[ศูนย์ความปลอดภัยของ Microsoft 365](https://security.microsoft.com/) หรือ[ศูนย์ควบคุมการปฏิบัติตามข้อบังคับของ Microsoft 365](https://compliance.microsoft.com/)
-* ไม่แนะนำให้ผู้ใช้สามารถใช้ป้ายชื่อหลักใน Power BI ได้ ถ้ามีการใช้ป้ายชื่อหลักกับเนื้อหา การส่งออกข้อมูลจากเนื้อหานั้นไปยังไฟล์ (Excel, PowerPoint และ PDF) จะล้มเหลว ดู [ป้ายชื่อย่อย (การจัดกลุ่มป้ายชื่อ)](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels)
-
-**ส่งออก**
-* ตัวควบคุมป้ายชื่อและการป้องกันจะถูกบังคับใช้เฉพาะเมื่อมีการส่งออกข้อมูลไปยังไฟล์ Excel, PowerPoint และ PDF ป้ายชื่อและการป้องกันไม่ได้ถูกบังคับใช้เมื่อมีการส่งออกข้อมูลไปยังไฟล์ .csv หรือ .pbix, Analyze ใน Excel หรือเส้นทางการส่งออกอื่นๆ
-* การใช้ป้ายชื่อระดับความลับและการป้องกันกับไฟล์ที่ส่งออกจะไม่เพิ่มเครื่องหมายเนื้อหาไปยังไฟล์ อย่างไรก็ตาม ถ้ามีการกำหนดค่าป้ายชื่อเพื่อใช้เครื่องหมายเนื้อหา ดังนั้นเครื่องหมายเนื้อหาดังกล่าวจะถูกนำไปใช้โดยอัตโนมัติโดยไคลเอ็นต์การติดป้ายแบบรวมของ Azure Information Protection เมื่อเปิดไฟล์ในแอป Office desktop การทำเครื่องหมายเนื้อหาจะไม่ถูกนำไปใช้โดยอัตโนมัติเมื่อคุณใช้การติดป้ายชื่อที่มีอยู่ภายในสำหรับเดสก์ท็อป อุปกรณ์เคลื่อนที่ หรือเว็บแอป โปรดดู [เมื่อแอป Office ใช้การทำเครื่องหมายเนื้อหาและการเข้ารหัสลับ](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption) สำหรับรายละเอียดเพิ่มเติม
-* ผู้ใช้ที่ส่งออกไฟล์จาก Power BI มีสิทธิ์ในการเข้าถึงและการแก้ไขไฟล์นั้นตามการตั้งค่าป้ายชื่อระดับความลับ ผู้ใช้ที่ส่งออกข้อมูลไม่ได้รับสิทธิ์การเป็นเจ้าของสำหรับไฟล์ดังกล่าว
-* การส่งออกจะล้มเหลวถ้าไม่สามารถนำป้ายชื่อไปใช้ได้เมื่อมีการส่งออกข้อมูลไปยังไฟล์ หากต้องการตรวจสอบว่าการส่งออกล้มเหลวเนื่องจากไม่สามารถใช้ป้ายชื่อได้ ให้คลิกที่ชื่อรายงานหรือแดชบอร์ดที่กึ่งกลางของแถบชื่อเรื่องและดูว่า "ไม่สามารถโหลดป้ายชื่อระดับความลับได้" ในดร็อปดาวน์ข้อมูลที่เปิดขึ้น ซึ่งอาจเกิดขึ้นได้ถ้าป้ายชื่อที่ใช้ได้รับการยกเลิกการเผยแพร่หรือถูกลบโดยผู้ดูแลระบบความปลอดภัย หรือเป็นผลมาจากปัญหาระบบชั่วคราว
+ดู [ป้ายชื่อระดับความลับใน Power BI](service-security-sensitivity-label-overview.md#limitations) สำหรับรายการขีดจำกัดของป้ายชื่อระดับความลับใน Power BI
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-บทความนี้อธิบายวิธีการเปิดใช้งานป้ายชื่อระดับความลับของข้อมูลใน Power BI บทความต่อไปนี้แสดงรายละเอียดเพิ่มเติมเกี่ยวกับการป้องกันข้อมูลใน Power BI 
+บทความนี้อธิบายวิธีการเปิดใช้งานป้ายชื่อระดับความลับใน Power BI บทความต่อไปนี้แสดงรายละเอียดเพิ่มเติมเกี่ยวกับการป้องกันข้อมูลใน Power BI 
 
-* [ภาพรวมของการป้องกันข้อมูลใน Power BI](service-security-data-protection-overview.md)
-* [ใช้ป้ายชื่อระดับความลับของข้อมูลใน Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+* [ภาพรวมของป้ายชื่อระดับความลับใน Power BI](service-security-sensitivity-label-overview.md)
+* [วิธีการใช้ป้ายชื่อระดับความลับใน Power BI](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [ใช้ตัวควบคุม Microsoft Cloud App Security ใน Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
-* [รายงานเมตริกการป้องกันข้อมูล](service-security-data-protection-metrics-report.md)
+* [รายงานเมตริกการป้องกัน](service-security-data-protection-metrics-report.md)

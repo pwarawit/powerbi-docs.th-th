@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3857478e972caef0a53c1de82f6dcc96650a7386
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d741a489c5655e5a08f49f7197389a67c5d016ed
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225698"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034416"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>จัดการ อัปเดต และลบชุดเนื้อหาองค์กร
 > [!NOTE]
@@ -40,12 +40,12 @@ ms.locfileid: "85225698"
 
 1. เลือก**ชุดเนื้อหามอง**ในข้อความ
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
-2. หรือเลือกไอคอนเกียร์ ในมุมขวาบน![](media/service-organizational-content-pack-manage-update-delete/cog.png)และเลือก**ดูชุดเนื้อหา**
+   ![ภาพหน้าจอของกล่องโต้ตอบข้อความเพื่อเลือก ดูชุดเนื้อหา](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
+2. หรือเลือกไอคอนฟันเฟืองที่มุมบนขวา ![ภาพหน้าจอของไอคอนฟันเฟือง](media/service-organizational-content-pack-manage-update-delete/cog.png) และเลือก **ดูชุดเนื้อหา**
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
+   ![ภาพหน้าจอของไอคอนฟันเฟืองที่มุมบนขวา](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
    
-   โปรดสังเกตไอคอนคำเตือน![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png)  ซึ่งช่วยให้คุณทราบว่าคุณได้ปรับเปลี่ยนชุดเนื้อหาด้วยวิธีบางอย่างและไม่ตรงกับสิ่งที่คุณได้เผยแพร่ไป
+   โปรดสังเกตไอคอนคำเตือน ![ภาพหน้าจอของไอคอนคำเตือน](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png).  ซึ่งช่วยให้คุณทราบว่าคุณได้ปรับเปลี่ยนชุดเนื้อหาด้วยวิธีบางอย่างและไม่ตรงกับสิ่งที่คุณได้เผยแพร่ไป
 3. เลือก **แก้ไข**  
 4. ทำการเปลี่ยนแปลงที่จำเป็นในการ**อัปเดตชุดเนื้อหา**และเลือก**อัปเดต** ข้อความ**ประสบความสำเร็จ**ปรากฏขึ้น
    
@@ -55,8 +55,8 @@ ms.locfileid: "85225698"
 ## <a name="update-the-audience-expand-or-restrict-access"></a>อัพเดตผู้ชม ขยายหรือจำกัดการเข้าถึง
 การปรับเปลี่ยนอื่นที่่ผู้สร้างชุดเนื้อหาสามารถทำได้คือ ขยายและการจำกัดการเข้าถึงชุดเนื้อหา  บางทีคุณเผยแพร่ชุดเนื้อหาให้กับผู้ชมที่กว้างขวาง และคุณตัดสินใจจำกัดการเข้าถึงให้เป็นกลุ่มขนาดเล็กลง  
 
-1. เลือกไอคอนเกียร์ ![](media/service-organizational-content-pack-manage-update-delete/cog.png)และเลือก**มองชุดเนื้อหา**
-2. เลือก**แก้ไข** 
+1. เลือกไอคอนฟันเฟือง ![ภาพหน้าจอของไอคอนฟันเฟือง](media/service-organizational-content-pack-manage-update-delete/cog.png) และเลือก **ดูชุดเนื้อหา**
+2. เลือก **แก้ไข** 
 3. ทำการเปลี่ยนแปลงที่จำเป็นในการ**อัปเดตชุดเนื้อหา**และเลือก**อัปเดต** ตัวอย่างเช่น ลบกลุ่มการแจกจ่ายเดิมในเขตข้อมูล**กลุ่มที่เฉพาะเจาะจง** และแทนที่ ด้วยกลุ่มการแจกจ่ายอื่น (ที่มีสมาชิกที่น้อยกว่า)
    
    ข้อความว่าประสบความสำเร็จปรากฏขึ้น
@@ -77,7 +77,7 @@ ms.locfileid: "85225698"
 > 
 > 
 
-1. เมื่อต้องการลบชุดเนื้อหาจาก AppSource ให้ไปยังพื้นที่ทำงานที่คุณสร้างชุดเนื้อหา จากนั้นเลือกไอคอนเฟือง ![](media/service-organizational-content-pack-manage-update-delete/cog.png) และเลือก**ดูชุดเนื้อหา**
+1. เมื่อต้องการลบชุดเนื้อหาจาก AppSource ให้ไปยังพื้นที่ทำงานที่คุณสร้างชุดเนื้อหา เลือกไอคอนฟันเฟือง ![ภาพหน้าจอของไอคอนฟันเฟือง](media/service-organizational-content-pack-manage-update-delete/cog.png) และเลือก **ดูชุดเนื้อหา**
 2. เลือก**ลบ\>ลบ** 
    
    * สำหรับสมาชิกกลุ่มที่ยังไม่ไดทำเวอณืชั่นแบบกำหนดเองของชุดเนื้อหา แดชบอร์ดและรายงานที่เกี่ยวข้องกับชุดเนื้อหาที่จะถูกลบออกโดยอัตโนมัติ ใช้งานไม่ได้อีกแล้ว และชุดเนื้อหาจะไม่ปรากฏในบานหน้าต่างนำทาง

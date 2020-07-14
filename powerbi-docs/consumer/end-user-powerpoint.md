@@ -7,18 +7,19 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/12/2020
+ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: d1120b15974d0e747dc60cf2c56dff1135c9d29c
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 85dc7e9807e11114c4fb6abb988d10c583b9e56c
+ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782533"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "85837050"
 ---
 # <a name="export-reports-to-powerpoint"></a>ส่งออกรายงานไปยัง PowerPoint
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 
 ด้วยบริการของ Power BI (app.powerbi.com) คุณสามารถเผยแพร่รายงานของคุณไปยัง Microsoft PowerPoint และสร้างชุดสไลด์ที่ยึดตามรายงาน Power BI ของคุณได้อย่างง่ายดาย ขณะส่งออกเป็น PowerPoint กรณีต่อไปนี้จะเกิดขึ้น:
@@ -39,7 +40,7 @@ ms.locfileid: "85782533"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-ขณะที่รายงานที่คุณต้องการส่งออกเป็น PowerPoint ปรากฏขึ้น ให้เลือก **ส่งออก** > **PowerPoint** จากแถบเมนู
+เมื่อรายงานที่คุณต้องการส่งออกไปยัง PowerPoint ถูกแสดงอยู่บนพื้นที่แก้ไข ให้เลือก **ไฟล์** > **ส่งออกไปยัง PowerPoint** จากแถบเมนู
 
 ![เลือก ส่งออก จากแถบเมนู](media/end-user-powerpoint/power-bi-export.png)
 
@@ -85,6 +86,10 @@ ms.locfileid: "85782533"
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
 มีข้อควรพิจารณาและข้อจำกัดสองสามตัวที่ควรทราบเมื่อทำงานกับฟีเจอร์**ส่งออกไปยัง PowerPoint**
  
+
+* ถ้าคุณไม่เห็นตัวเลือก **การส่งออก** ตรวจสอบให้แน่ใจว่าคุณได้เปิดใช้งาน "รูปลักษณ์ใหม่" และคุณกำลังดูรายงานอยู่ (ไม่ใช่แดชบอร์ด)
+
+    ![ภาพหน้าจอของปุ่มสลับรูปลักษณ์ใหม่](media/end-user-powerpoint/power-bi-new-look.png)
 
 * [ตัวกรอง URL](../collaborate-share/service-url-filters.md) จะไม่ถูกนำมาพิจารณาหากคุณเลือก **ค่าปัจจุบัน** สำหรับการส่งออกของคุณ
 

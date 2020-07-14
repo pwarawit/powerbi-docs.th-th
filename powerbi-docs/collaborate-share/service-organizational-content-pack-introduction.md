@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ace3b89051ee5f7b082979f2739cef71ceb05440
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84ecbb51663629b663373b884af86329f49e974f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225748"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034485"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>บทนำชุดเนื้อหาองค์กรใน Power BI
 > [!NOTE]
@@ -23,7 +23,7 @@ ms.locfileid: "85225748"
 
 คุณกระจายรายงานไปยังเพื่อนร่วมงานของคุณผ่านทางอีเมลเป็นประจำหรือไม่? ลองวิธีนี้แทน: รวมชุดแดชบอร์ด รายงาน เวิร์กบุ๊ก Excel และชุดข้อมูลของคุณ และเผยแพร่ไปยังทีมของคุณเป็น*ชุดเนื้อหาองค์กร* ชุดเนื้อหาที่คุณสร้างจะทำให้เพื่อนร่วมงานของคุณพบ &#151; ได้ง่าย เนื่องจากทั้งหมดอยู่ใน AppSource เนื่องจากเป็นส่วนหนึ่งของ Power BI เพื่อนร่วมงานของคุณจะใช้ประโยชน์จากคุณลักษณะทั้งหมดของ Power BI รวมถึงการสำรวจข้อมูลแบบโต้ตอบ ภาพใหม่ การถามตอบ การรวมกับแหล่งข้อมูลอื่น การรีเฟรชข้อมูล และอื่น ๆ
 
-![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
+![ภาพหน้าจอของแดชบอร์ดที่แสดงชุดเนื้อหาระดับองค์กร](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
 การสร้างชุดเนื้อหาจะแตกต่างจากการแชร์แดชบอร์ดหรือการทำงานร่วมกันบนชุดเนื้อหาเหล่านั้นในพื้นที่ทำงาน อ่าน[ฉันควรทำงานร่วมกันและแชร์แดชบอร์ดและรายงานอย่างไร](service-how-to-collaborate-distribute-dashboards-reports.md) เพื่อตัดสินใจเลือกตัวเลือกที่ดีที่สุดสำหรับสถานการณ์ของคุณ 
 
