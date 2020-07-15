@@ -2,7 +2,7 @@
 title: เรียกใช้และดูข้อมูลเชิงลึกบนไทล์แดชบอร์ด
 description: ในฐานะผู้ใช้งานปลายทางของ Power BI เรียนรู้วิธีการรับข้อมูลเชิงลึกเกี่ยวกับไทล์ของชุดข้อมูลและแดชบอร์ดของคุณ
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 111b2b5fe0ae4b341816becdb4baf0b96e057cdd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 5e38be33e851997e82bdde2cc3fc898b02044254
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354512"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264003"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>ดูข้อมูลเชิงลึกบนไทล์แดชบอร์ดด้วย Power BI
 

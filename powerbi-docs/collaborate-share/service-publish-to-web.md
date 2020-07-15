@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5e7fe8a7c71927a1e89bd4e86209c580ae1f3b29
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225661"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216543"
 ---
 # <a name="publish-to-web-from-power-bi"></a>เผยแพร่บนเว็บจาก Power BI
 
@@ -28,10 +29,6 @@ ms.locfileid: "85225661"
 ## <a name="create-embed-codes-with-publish-to-web"></a>สร้างโค้ดฝังตัวที่มีการเผยแพร่บนเว็บ
 
 **การเผยแพร่บนเว็บ**สามารถใช้งานได้สำหรับรายงานที่คุณแก้ไขในพื้นที่ทำงานส่วนตัวและกลุ่ม  ไม่สามารถใช้งานได้สำหรับรายงานที่แชร์กับคุณ หรือรายงานที่ใช้การรักษาความปลอดภัยระดับแถวเพื่อรักษาความปลอดภัยข้อมูล ดูหัวข้อ[**ข้อจำกัด**](#limitations)ด้านล่างสำหรับรายละเอียดกรณีทั้งห**มดที่ตัวเลือกการเผ**ยแพร่บนเว็บนั้นไม่รองรับ ตรวจสอบ**คำเตือน**ก่อนหน้าในบทความนี้ก่อนใช้**การเผยแพร่บนเว็บ**
-
-วิดีโอสั้น ๆ ต่อไปนี้แสดงวิธีการทำงานของคุณสมบัตินี้ แล้วลองทำด้วยตนเองในขั้นตอนด้านล่าง
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UF9QtqE7s4Y" frameborder="0" allowfullscreen></iframe>
 
 ขั้นตอนต่อไปนี้อธิบายวิธีการใช้**เผยแพร่ไปยังเว็บ**
 
