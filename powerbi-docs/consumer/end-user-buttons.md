@@ -2,19 +2,19 @@
 title: เรียนรู้วิธีการทำงานของปุ่มในบริการ Power BI
 description: สามารถใช้ปุ่มเพื่อเปิดการดำเนินการต่าง ๆ ซึ่งรวมถึงการนำทางในรายงาน การเข้าถึงรายละเอียด และการเข้าถึงรายละเอียดแบบข้ามรายงาน
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 14024a9c28da93cbe9e6e586ee66f634b63a70b8
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 51871e9653a1f3d0d48f25de33d4a72603695cf4
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940120"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161801"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>ปุ่มในบริการ Power BI
 ในรายงานที่คุณได้รับจากเพื่อนร่วมงาน คุณอาจสังเกตเห็นปุ่มต่าง ๆ และสงสัยว่าจะใช้งานอย่างไร บางปุ่มมีคำศัพท์ บางปุ่มมีลูกศร บางปุ่มมีกราฟิก และบางปุ่มยังมีเมนูแบบดรอปดาวน์ด้วย บทความนี้จะสอนวิธีการรับรู้ปุ่มและวิธีการที่จะคิดออกว่าจะทำอย่างไรกับปุ่มดังกล่าว

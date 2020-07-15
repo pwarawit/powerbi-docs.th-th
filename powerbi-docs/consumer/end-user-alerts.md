@@ -2,7 +2,7 @@
 title: 'บทช่วยสอน: ตั้งค่าการแจ้งเตือนข้อมูลในแดชบอร์ดบริการของ Power BI'
 description: ในบทช่วยสอน คุณจะได้เรียนรู้เกี่ยวกับการตั้งค่าการแจ้งเตือน เมื่อข้อมูลในแดชบอร์ดของคุณมีการเปลี่ยนเกินขีดจำกัดที่คุณตั้งไว้ในบริการของ Power BI ของ Microsoft
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 15efacda18980c4e79d91f291e1714eec69fef59
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb6e874a0ed0c8ce67ff9349f21c5e752ec08b47
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221406"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162355"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>บทช่วยสอน: ตั้งค่าการแจ้งเตือนบนแดชบอร์ด Power BI
 
