@@ -71,7 +71,7 @@ ms.locfileid: "73874305"
 
 | **ชนิดของเบราว์เซอร์** | **การสนับสนุน** | **ค่าเริ่มต้นของเบราว์เซอร์** | **ค่าเริ่มต้นของเซิร์ฟเวอร์** |
 | --- | --- | --- | --- |
-| **Microsoft Edge** (+) |Negotiate, Kerberos, NTLM, Basic |Negotiate |ได้ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Edge |
+| **Microsoft Edge** (+) |Negotiate, Kerberos, NTLM, Basic |Negotiate |ได้ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Microsoft Edge |
 | **Microsoft Internet Explorer** |Negotiate, Kerberos, NTLM, Basic |Negotiate |ได้ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Internet Explorer |
 | **Google Chrome**(+) |Negotiate, NTLM, Basic |Negotiate |ได้ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Chrome |
 | **Mozilla Firefox**(+) |NTLM, Basic |NTLM |ได้ การตั้งค่าการรับรองความถูกต้องเริ่มต้นทำงานกับ Firefox |
