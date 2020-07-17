@@ -47,6 +47,8 @@
       items:
         - name: รายงาน Power BI
           items:
+            - name: Power BI Desktop และเครื่องมือภายนอก
+              href: desktop-external-tools.md
             - name: โมเดิร์นริบบอน Power BI
               href: desktop-ribbon.md
             - name: ทำงานกับมุมมองรายงาน
