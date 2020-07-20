@@ -7,24 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/06/2020
-ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/08/2020
+ms.openlocfilehash: af737472b85dcfa05935aefa9ddd7a6fcbb746f2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034048"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214359"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>มีอะไรใหม่ใน Power BI Report Server
 
-เรียนรู้เกี่ยวกับส่วนประกอบใหม่ๆ ในเซิร์ฟเวอร์รายงานของ Power BI และ Power BI Desktop ที่ปรับแต่งสำหรับเซิร์ฟเวอร์รายงานของ Power BI บทความนี้ครอบคลุมคุณสมบัติที่สำคัญและจะมีการอัปเดตสำหรับเวอร์ชั่นใหม่ ๆ
+เรียนรู้เกี่ยวกับส่วนประกอบใหม่ๆ ในเซิร์ฟเวอร์รายงานของ Power BI และ Power BI Desktop ที่ปรับแต่งสำหรับเซิร์ฟเวอร์รายงานของ Power BI บทความนี้ครอบคลุมคุณสมบัติที่สำคัญและจะมีการอัปเดตสำหรับเวอร์ชั่นใหม่ ๆ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับส่วนประกอบใหม่ ๆ ในเซิร์ฟเวอร์รายงาน Power BI ให้ดู [บันทึกการเปลี่ยนแปลงสำหรับเซิร์ฟเวอร์รายงาน Power BI](changelog.md)
 
 ดาวน์โหลด [เซิร์ฟเวอร์รายงานของ Power BI และ Power BI Desktop ที่ปรับแต่งสำหรับเซิร์ฟเวอร์รายงานของ Power BI](https://powerbi.microsoft.com/report-server/)
-
-สำหรับข้อมูล "มีอะไรใหม่" ที่เกี่ยวข้อง ดู:
-
-- [มีอะไรใหม่ในบริการ Power BI](../fundamentals/service-whats-new.md)
-- [มีอะไรใหม่ใน Power BI Desktop](../fundamentals/desktop-latest-update.md)
 
 ## <a name="may-2020"></a>พฤษภาคม 2020
 

@@ -10,18 +10,18 @@ ms.topic: overview
 ms.date: 05/29/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 7628106c29be75c4eb01bc9d7d52a3c9ededb9e8
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: c3e56df49caac8b5250a4e382cab253a0a9c5210
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272572"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161341"
 ---
 # <a name="what-is-power-bi-administration"></a>การดูแลระบบ Power BI คืออะไร
 
 การดูแลระบบ Power BI คือการจัดการการตั้งค่าทั้งองค์กรที่ควบคุมวิธีการทำงานของ Power BI ผู้ใช้ที่ได้รับมอบหมายบทบาทผู้ดูแลระบบกำหนดค่า ตรวจสอบ และเตรียมใช้งานทรัพยากรขององค์กร บทความนี้ให้ภาพรวมของบทบาทการดูแล งาน และเครื่องมือต่าง ๆ เพื่อช่วยคุณเริ่มต้น
 
-![พอร์ทัลผู้ดูแลระบบของ power BI](media/service-admin-administering-power-bi-in-your-organization/admin-portal.png)
+![ภาพหน้าจอของพอร์ทัลผู้ดูแลระบบ Power B I ที่แสดงการตั้งค่าทั่วทั้งองค์กร](media/service-admin-administering-power-bi-in-your-organization/admin-portal.png)
 
 ## <a name="administrator-roles-related-to-power-bi"></a>บทบาทผู้ดูแลระบบที่เกี่ยวข้องกับ Power BI
 

@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: fdbb571a30f530ddeba37a7eaf490718b6c8116d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0016c5af8d8e9e154abf3c9e94dc6330a73d358d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230371"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216262"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>เชื่อมต่อไปยังไฟล์ที่จัดเก็บไว้ใน OneDrive สำหรับพื้นที่ทำงานของ Power BI ของคุณ
 หลังจากที่คุณ [สร้างพื้นที่ทำงานใน Power BI](../collaborate-share/service-create-distribute-apps.md) คุณสามารถจัดเก็บไฟล์ Excel, CSV และ Power BI Desktop ของคุณบน OneDrive for Business สำหรับพื้นที่ทำงานของ Power BI ของคุณ คุณสามารถปรับปรุงแฟ้มที่คุณเก็บไว้ใน OneDrive การอัปเดตเหล่านั้นมีผลในรายงาน Power BI และแดชบอร์ดที่ยึดตามไฟล์เหล่านั้นโดยอัตโนมัติ 
@@ -33,7 +33,7 @@ ms.locfileid: "85230371"
 ## <a name="1-upload-files-to-the-onedrive-for-business-for-your-workspace"></a>1 อัปโหลดไฟล์ไปยัง OneDrive for Business สำหรับพื้นที่ทำงานของคุณ
 1. ใน Power BI service เลือกลูกศรอยู่ถัดจากพื้นที่ทำงาน > เลือกจุดไข่ปลา ( **...** ) ถัดจากชื่อพื้นที่ทำงานของคุณ 
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
+   ![ภาพหน้าจอของพื้นที่ทำงาน Power BI ที่แสดงชื่อพื้นที่ทำงานที่เลือก](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
 2. เลือก**ไฟล์**เพื่อเปิด OneDrive for Business สำหรับพื้นที่ทำงานบน Microsoft 365
    
    > [!NOTE]
@@ -42,7 +42,7 @@ ms.locfileid: "85230371"
    > 
 3. ที่นี่ คุณสามารถอัปโหลดไฟล์ไปยัง OneDrive for Business สำหรับพื้นที่ทำงานของคุณ เลือก**อัปโหลด**และนำทางไปยังไฟล์ของคุณ
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
+   ![ภาพหน้าจอของ OneDrive for Business ที่แสดงวิธีการนำทางเพื่ออัปโหลดไฟล์](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
 
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 นำเข้าไฟล์ Excel ในฐานะชุดข้อมูลหรือในฐานะสมุดงาน Excel Online
 เมื่อไฟล์ของคุณอยู่ใน OneDrive for Business สำหรับพื้นที่ทำงาน คุณมีตัวเลือกดังนี้ คุณสามารถ: 
@@ -54,26 +54,26 @@ ms.locfileid: "85230371"
 1. ใน Power BI ให้สลับไปยังพื้นที่ทำงาน ดังนั้นชื่อพื้นที่ทำงานจะอยู่ที่มุมบนซ้าย 
 2. เลือก**รับข้อมูล**ที่ด้านล่างของบานหน้าต่างนำทาง 
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
+   ![ภาพหน้าจอของปุ่มรับข้อมูล ที่แสดงในบานหน้าต่างนำทาง](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
 3. ในกล่อง**ไฟล์** เลือก**รับ**
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
+   ![ภาพหน้าจอของกล่องโต้ตอบไฟล์ ที่แสดงปุ่มรับ](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
 4. เลือก**OneDrive** - *ชื่อพื้นที่ทำงานของคุณ*
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
+    ![ภาพหน้าจอของไทล์สามตัวเพื่อเลือกพื้นที่ทำงานของคุณ ที่แสดงไฟล์ภายในเครื่อง OneDrive และ SharePoint](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
 5. เลือกไฟล์คุณต้อง > **เชื่อมต่อ**
    
     ในจุดนี้คุณตัดสินใจว่า จะ[นำเข้าข้อมูลจากสมุดงาน Excel](service-get-data-from-files.md)หรือ[เชื่อมต่อไปยังเวิร์กบุ๊ก Excel ทั้งหมด](service-excel-workbook-files.md)
 6. เลือก**นำเข้า**หรือ**เชื่อมต่อ**
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)
+    ![ภาพหน้าจอของกล่องโต้ตอบ OneDrive for Business ที่แสดงนำเข้าจาก Excel หรือเชื่อมต่อกับ Excel](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)
 7. ถ้าคุณเลือก**นำเข้า** แล้วเวิร์กบุ๊กปรากฏขึ้นบนแท็บ**ชุดข้อมูล** 
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-import.png)
+    ![ภาพหน้าจอของพื้นที่ทำงานใน Power BI ที่แสดงแท็บชุดข้อมูล](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-import.png)
    
     ถ้าคุณเลือก**เชื่อมต่อ**แล้วเวิร์กบุ๊กอยู่บนแท็บ**สมุดงาน**
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
+    ![ภาพหน้าจอของพื้นที่ทำงานใน Power BI ที่แสดงแท็บสมุดงาน](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 * [สร้างแอปและพื้นที่ทำงานใน Power BI](../collaborate-share/service-create-distribute-apps.md)

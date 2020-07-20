@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 41d5350bf2986f9b8f0f01acf97e96eafc3b4db8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9fcf67a52bde69e62816af09a8fed69c8383927d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229517"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216190"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>เชื่อมต่อกับ Salesforce ด้วย Power BI
 ด้วย Power BI คุณสามารถเชื่อมต่อกับบัญชี Salesforce.com ของคุณได้อย่างง่ายดาย ด้วยการเชื่อมต่อนี้ คุณสามารถค้นคืนข้อมูล Salesforce ของคุณ และมีแดชบอร์ดและรายงานโดยอัตโนมัติที่ให้มา
@@ -24,37 +24,37 @@ ms.locfileid: "85229517"
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
 1. ใน Power BI ให้เลือก**รับข้อมูล**ที่ด้านล่างของบานหน้าต่างนำทาง
    
-   ![](media/service-connect-to-salesforce/pbi_getdata.png) 
+   ![ภาพหน้าจอของปุ่มรับข้อมูล ที่แสดงในบานหน้าต่างนำทาง](media/service-connect-to-salesforce/pbi_getdata.png) 
 2. ในกล่อง**บริการ** เลือก**รับ**
    
-   ![](media/service-connect-to-salesforce/pbi_getservices.png) 
+   ![ภาพหน้าจอของกล่องโต้ตอบบริการ ที่แสดงปุ่มรับ](media/service-connect-to-salesforce/pbi_getservices.png) 
 3. เลือก**วิเคราะห์สำหรับ Salesforce**และเลือก**รับ**  
    
-   ![](media/service-connect-to-salesforce/salesforce.png)
+   ![ภาพหน้าจอของกล่องโต้ตอบการวิเคราะห์สำหรับ Salesforce ที่แสดงลิงก์รับทันที](media/service-connect-to-salesforce/salesforce.png)
 4. เลือก**ลงชื่อเข้าใช้**เพื่อเริ่มการลงชื่อเข้าใช้ในโฟลว์
    
-    ![](media/service-connect-to-salesforce/dialog.png)
+    ![ภาพหน้าจอของกล่องโต้ตอบเชื่อมต่อกับ Salesforce ที่แสดงปุ่มลงชื่อเข้าใช้](media/service-connect-to-salesforce/dialog.png)
 5. เมื่อมีข้อความถาม ให้ใส่ข้อมูลประจำตัวของ Salesforce คลิก**อนุญาต**และอนุญาตให้ Power BI เข้าถึงข้อมูล Salesforce พื้นฐานและข้อมูลของคุณ
    
-   ![](media/service-connect-to-salesforce/sf_authorize.png)
+   ![ภาพหน้าจอของข้อมูลประจำตัว Salesforce ที่แสดงว่า Power BI กำลังร้องขอสิทธิ์ในการเข้าถึงข้อมูลของคุณ](media/service-connect-to-salesforce/sf_authorize.png)
 6. กำหนดค่าสิ่งที่คุณต้องการนำเข้าลงใน Power BI โดยใช้ตัวเลือกรายการเลือกแบบดึงลง
    
    * **แดชบอร์ด**
      
      เลือกแดชบอร์ดที่กำหนดไว้ล่วงหน้าโดยยึดตาม persona (เช่น**ผู้จัดการฝ่ายขาย**) แดชบอร์ดเหล่านี้จะค้นคืนชุดข้อมูลมาตรฐานเฉพาะจาก Salesforce และจะไม่รวมเขตข้อมูลแบบกำหนดเอง
      
-     ![](media/service-connect-to-salesforce/pbi_salesforcechooserole.png)
+     ![ภาพหน้าจอของแดชบอร์ด Salesforce ที่แสดงตัวเลือกเพื่อเลือกแดชบอร์ดที่กำหนดไว้ล่วงหน้าโดยยึดตามบุคคล](media/service-connect-to-salesforce/pbi_salesforcechooserole.png)
    * **รายงาน**
      
      เลือกอย่างน้อยหนึ่งรายงานแบบกำหนดเองจากบัญชี Salesforce ของคุณ รายงานเหล่านี้ตรงกับมุมมองของคุณใน Salesforce และสามารถรวมข้อมูลจากเขตข้อมูลแบบกำหนดเองหรือวัตถุ
      
-     ![](media/service-connect-to-salesforce/pbi_salesforcereports.png)
+     ![ภาพหน้าจอของรายงาน Salesforce ที่แสดงรายการของรายงานแบบกำหนดเอง](media/service-connect-to-salesforce/pbi_salesforcereports.png)
      
      ถ้าคุณไม่เห็นรายงานใดๆ ให้เพิ่มหรือสร้าบัญชี Salesforce ของคุณ แล้วลองเชื่อมต่ออีกครั้ง
 
 7. คลิก **เชื่อมต่อ** เพื่อเริ่มกระบวนการนำเข้า ในระหว่างการนำเข้า คุณเห็นการแจ้งเตือนที่แสดงว่าการนำเข้ากำลังดำเนินการอยู่ เมื่อนำเข้าเสร็จสมบูรณ์ คุณจะเห็นแดชบอร์ด รายงาน และชุดข้อมูลสำหรับข้อมูล Salesforce ของคุณที่แสดงอยู่ในบานหน้าต่างนำทาง
    
-   ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
+   ![ภาพหน้าจอของแดชบอร์ดของผู้จัดการฝ่ายขาย ที่แสดงแดชบอร์ด รายงาน และชุดข้อมูล](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
 คุณสามารถปรับเปลี่ยนแดชบอร์ดเพื่อแสดงข้อมูลของคุณด้วยวิธีที่คุณต้องการ คุณสามารถถามคำถาม Q&A หรือ [เลือกไทล์](../consumer/end-user-tiles.md) เพื่อเปิดรายงานด้านในและ[แก้ไข หรือลบไทล์ในแดชบอร์ดออก](../create-reports/service-dashboard-edit-tile.md)
 

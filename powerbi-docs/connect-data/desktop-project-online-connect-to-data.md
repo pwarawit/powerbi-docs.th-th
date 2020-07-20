@@ -10,11 +10,12 @@ ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726c265198c7489ac1de055d0fc00b1988109d11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 807ba59066508d063dba2e2f921eff19cf018bc5
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223316"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214597"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>เชื่อมต่อกับข้อมูล Project Online ผ่าน Power BI Desktop
 คุณสามารถเชื่อมต่อไปยังข้อมูลใน Project Online ผ่านทาง Power BI Desktop
@@ -36,7 +37,7 @@ ms.locfileid: "85223316"
 
 5. Power BI Desktop จะพร้อมท์ให้คุณรับรองสิทธิ์กับบัญชีที่ทำงานหรือบัญชีโรงเรียนของคุณ เลือกบัญชีผู้ใช้ขององค์กร แล้วใส่ข้อมูลประจำตัวของคุณ
    
-   ![](media/desktop-project-online-connect-to-data/image.png)
+   ![ภาพหน้าจอของ Power BI Desktop ที่แสดงพรอมท์ข้อมูลประจำตัวเพื่อเชื่อมต่อ](media/desktop-project-online-connect-to-data/image.png)
 
 บัญชีที่คุณใช้เพื่อเชื่อมต่อกับตัวดึงข้อมูล OData อย่างน้อยต้องมีตัวแสดงพอร์ตโครงการเพื่อข้าถึงไซต์ Project Web App 
 

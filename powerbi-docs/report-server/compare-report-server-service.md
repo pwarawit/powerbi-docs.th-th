@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 03/04/2020
-ms.openlocfilehash: a6cb8575ef5265264cf0c15c4cfcfc4207726a07
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 07/08/2020
+ms.openlocfilehash: 34f4265444d030902474c740dda91f8431d36625
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565591"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216522"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
@@ -50,7 +50,8 @@ ms.locfileid: "83565591"
 | รักษาความปลอดภัยระดับแถว (RLS) | ใช่ | ใช่ | มีทั้งใน DirectQuery (แหล่งข้อมูล) และโหมดการนำเข้า <br><br>การรักษาความปลอดภัยระดับแถวใน[บริการของ Power BI](../admin/service-admin-rls.md) <br><br>การรักษาความปลอดภัยระดับแถว (RLS) ใน[เซิร์ฟเวอร์รายงาน Power BI](row-level-security-report-server.md) |
 | โหมดเต็มหน้าจอ | ไม่ใช่ | ใช่ | [โหมดเต็มหน้าจอ](../consumer/end-user-focus.md)ในบริการของ Power BI |
 | การทำงานร่วมกัน Microsoft 365 ขั้นสูง | ไม่ใช่ | ใช่ | [การทำงานร่วมกันในพื้นที่ทำงาน](../collaborate-share/service-collaborate-power-bi-workspace.md)ด้วย Microsoft 365 |
-| วิชวล R | ไม่ใช่ | ใช่ | [สร้างการแสดงผลด้วยภาพ R](../create-reports/desktop-r-visuals.md) ใน Power BI Desktop และเผยแพร่ไปยังบริการของ Power BI คุณไม่สามารถบันทึกรายงาน Power BI กับการแสดงผลด้วยภาพ R ไปยังเซิร์ฟเวอร์รายงาน Power BI ได้  |
+| สคริปต์และวิชวล R | ไม่ใช่ | ใช่ | [สร้างวิชวล R](../create-reports/desktop-r-visuals.md) และเรียกใช้สคริปต์ R ใน Power BI Desktop และเผยแพร่ไปยังบริการของ Power BI คุณไม่สามารถบันทึกรายงาน Power BI ที่มีสคริปต์หรือวิชวล R ไปยังเซิร์ฟเวอร์ Power BI Report ได้  |
+| สคริปต์และวิชวล Python | ไม่ใช่ | ใช่ | [สร้างสคริปต์และวิชวล Python](../connect-data/desktop-python-scripts.md) ใน Power BI Desktop และเผยแพร่ไปยังบริการของ Power BI คุณไม่สามารถบันทึกรายงาน Power BI ที่มีสคริปต์หรือวิชวล Python ไปยังเซิร์ฟเวอร์ Power BI Report ได้ |
 | คุณลักษณะแสดงตัวอย่าง | ไม่ใช่ | ใช่ | [ยินยอมเข้าร่วม สำหรับคุณลักษณะตัวอย่างในบริการของ Power BI](../consumer/end-user-preview-features.md) |
 | วิชวล Power BI | ใช่ | ใช่ | [วิชวล Power BI](../developer/visuals/power-bi-custom-visuals.md) |
 | โมเดลแบบรวม | ไม่ใช่ | ใช่ |

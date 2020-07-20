@@ -9,11 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 05/19/2020
-ms.openlocfilehash: 7483b6878a7f7c2e01be7869827f8de66499cc5f
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 0f07c27cf9c69c07ae7b05c0cbf2573605647252
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393800"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264830"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร
 
@@ -23,7 +24,7 @@ ms.locfileid: "85393800"
 
 ![มีการแบ่งหน้า](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-คุณสามารถดูตัวอย่างรายงานของคุณในตัวสร้างรายงาน แล้วเผยแพร่ไปยังบริการของ Power BI ได้ `https://app.powerbi.com` คุณต้องมีสิทธิ์การใช้งาน Power BI Pro ในการที่จะเผยแพร่รายงานไปยังบริการ คุณสามารถเผยแพร่และแบ่งปันรายงานที่มีการแบ่งหน้าได้ในพื้นที่ทำงานของฉัน หรือในพื้นที่ทำงาน ตราบเท่าที่พื้นที่ทำงานอยู่ในความจุ Power BI Premium นอกจากนี้ ผู้ดูแลระบบ Power BI ต้องเปิดใช้งานรายงานที่มีการแบ่งหน้าใน[ส่วนความจุแบบพรีเมียม](../admin/service-admin-premium-workloads.md#paginated-reports)ของพอร์ทัลผู้ดูแลของ Power BI 
+คุณสามารถดูตัวอย่างรายงานของคุณในตัวสร้างรายงาน แล้วเผยแพร่ไปยังบริการ Power BI หรือ app.powerbi.com ได้ คุณต้องมีสิทธิ์การใช้งาน Power BI Pro ในการที่จะเผยแพร่รายงานไปยังบริการ คุณสามารถเผยแพร่และแบ่งปันรายงานที่มีการแบ่งหน้าได้ในพื้นที่ทำงานของฉัน หรือในพื้นที่ทำงาน ตราบเท่าที่พื้นที่ทำงานอยู่ในความจุ Power BI Premium นอกจากนี้ ผู้ดูแลระบบ Power BI ต้องเปิดใช้งานรายงานที่มีการแบ่งหน้าใน[ส่วนความจุแบบพรีเมียม](../admin/service-admin-premium-workloads.md#paginated-reports)ของพอร์ทัลผู้ดูแลของ Power BI 
 
 ## <a name="compare-power-bi-reports-and-paginated-reports"></a>เปรียบเทียบรายงาน Power BI และรายงานที่มีการแบ่งหน้า
 

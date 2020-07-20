@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9632bfaecc524aac95ec524cccb59ba08a7bc21f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 68f2dc14b713345796ba0472fc3d55f6baedf819
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229084"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263196"
 ---
 # <a name="add-a-column-from-examples-in-power-bi-desktop"></a>เพิ่มคอลัมน์จากตัวอย่างใน Power BI Desktop
 ด้วย *เพิ่มคอลัมน์จากตัวอย่าง* ในตัวแก้ไข Power Query คุณสามารถเพิ่มคอลัมน์ใหม่ลงในแบบจำลองข้อมูลของคุณได้ง่ายๆ โดยการให้ค่าตัวอย่างอย่างน้อยหนึ่งรายการสำหรับคอลัมน์ใหม่ คุณสามารถสร้างตัวอย่างคอลัมน์ใหม่จากส่วนที่เลือกหรือใส่ค่าที่ยึดตามคอลัมน์ที่มีอยู่ทั้งหมดในตารางได้
 
-![](media/desktop-add-column-from-example/add-column-from-example_01.png)
+![ภาพหน้าจอของ Power Query Editor ที่แสดงวิธีการเพิ่มคอลัมน์จากตัวอย่างใน Power B I Desktop](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
 การใช้ *เพิ่มคอลัมน์จากตัวอย่าง*ช่วยให้คุณสร้างคอลัมน์ใหม่ได้อย่างรวดเร็วและง่ายดาย และเหมาะสำหรับสถานการณ์ต่อไปนี้:
 
@@ -165,4 +165,3 @@ ms.locfileid: "85229084"
 - ผลรวม
 - แทนเจนต์
 - บักเก็ต/ช่วง
-

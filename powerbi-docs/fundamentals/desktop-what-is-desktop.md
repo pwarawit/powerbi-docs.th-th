@@ -9,18 +9,18 @@ ms.topic: overview
 ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: bd95dfcc5d621b5ae4988e187d7cc6d9478feb58
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2a67bd6c2a3d757475580d218547be689dbb99d2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361531"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216932"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop คืออะไร
 
 *Power BI Desktop* คือแอปพลิเคชันฟรีที่คุณสามารถติดตั้งบนคอมพิวเตอร์ของคุณ เพื่อช่วยให้คุณเชื่อมต่อ แปลง และแสดงข้อมูลของคุณ ด้วย Power BI Desktop คุณสามารถเชื่อมต่อกับหลายแหล่งข้อมูลและรวมกันได้ (มักเรียกว่า *การสร้างแบบจำลอง*) ลงในแบบจำลองข้อมูล แบบจำลองข้อมูลนี้ช่วยให้คุณสามารถสร้างวิชวลและคอลเลกชันของวิชวลที่คุณสามารถแชร์เป็นรายงานกับบุคคลอื่นภายในองค์กรของคุณ ผู้ใช้ส่วนใหญ่ที่ทำงานในโครงการข่าวกรองธุรกิจ ใช้ Power BI Desktop เพื่อสร้างรายงาน จากนั้นใช้ *บริการของ Power BI* เพื่อแชร์รายงานของพวกเขาให้กับผู้อื่น
 
-![Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
+![ภาพหน้าจอของ Power B I Desktop ที่แสดงข้อมูลตัวอย่าง](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
 การใช้งานที่บ่อยที่สุดของ Power BI Desktop มีดังนี้:
 
@@ -39,7 +39,7 @@ ms.locfileid: "83361531"
 
 รูปภาพต่อไปนี้แสดงมุมมองสามแบบดังที่แสดงตามแนวทางด้านซ้ายของพื้นที่ทำงาน:
 
-![มุมมอง Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop-07.png)
+![ภาพหน้าจอของ Power B I Desktop ที่แสดงบานหน้าต่าง สามมุมมอง](media/desktop-what-is-desktop/what-is-desktop-07.png)
  
 
 ## <a name="connect-to-data"></a>เชื่อมต่อกับข้อมูล
@@ -51,11 +51,11 @@ ms.locfileid: "83361531"
 
    หน้าต่าง**รับข้อมูล**จะปรากฎขึ้น ซึ่งแสดงแหล่งข้อมูลหลายประเภทที่ Power BI Desktop สามารถเชื่อมต่อได้
 
-   ![รับข้อมูลใน Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_02.png)
+   ![ภาพหน้าจอของ Power BI Desktop ที่แสดงกล่องโต้ตอบรับข้อมูล](media/desktop-what-is-desktop/what-is-desktop_02.png)
 
 2. เมื่อคุณเลือกชนิดข้อมูล คุณจะได้รับพร้อมท์สำหรับข้อมูล เช่น URL และข้อมูลประจำตัว ที่จำเป็นสำหรับให้ Power BI Desktop เชื่อมต่อกับแหล่งข้อมูลในนามของคุณ
 
-   ![เชื่อมต่อกับฐานข้อมูล SQL Server ใน Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_03.png)
+   ![ภาพหน้าจอของ Power B I Desktop ที่แสดงกล่องโต้ตอบ SQL Server Database](media/desktop-what-is-desktop/what-is-desktop_03.png)
 
 3. หลังจากที่คุณเชื่อมต่อกับแหล่งข้อมูลหนึ่งหรือหลายแหล่ง คุณอาจต้องการแปลงข้อมูลเพื่อให้เป็นประโยชน์สำหรับคุณ
 
@@ -69,13 +69,13 @@ ms.locfileid: "83361531"
 
    หน้าต่าง**ตัวแก้ไขคิวรี Power** จะปรากฏขึ้น
 
-   ![ตัวแก้ไขคิวรี Power ใน Power BI Desktop](media/desktop-getting-started/designer_gsg_editquery.png)
+   ![ภาพหน้าจอของหน้าต่าง Power BI Desktop ที่แสดงหน้าต่างตัวแก้ไข Power Query](media/desktop-getting-started/designer_gsg_editquery.png)
 
-แต่ละขั้นตอนที่คุณดำเนินการในการแปลงข้อมูล (เช่น การเปลี่ยนชื่อตาราง การแปลงชนิดข้อมูล หรือการลบคอลัมน์) จะถูกบันทึกโดยตัวแก้ไขคิวรี Power  ทุกครั้งที่คิวรีนี้เชื่อมต่อกับแหล่งข้อมูล จะดำเนินการตามขั้นตอนเหล่านั้นเพื่อจัดรูปร่างข้อมูลในรูปแบบที่คุณระบุเสมอ
+แต่ละขั้นตอนที่คุณดำเนินการในการแปลงข้อมูล (เช่น การเปลี่ยนชื่อตาราง การแปลงชนิดข้อมูล หรือการลบคอลัมน์) จะถูกบันทึกโดยตัวแก้ไขคิวรี Power ทุกครั้งที่คิวรีนี้เชื่อมต่อกับแหล่งข้อมูล จะดำเนินการตามขั้นตอนเหล่านั้นเพื่อจัดรูปร่างข้อมูลในรูปแบบที่คุณระบุเสมอ
 
 รูปภาพต่อไปนี้แสดง บานหน้าต่าง**ตัวแก้ไขคิวรี Power** สำหรับคิวรีที่ได้จัดรูปแบบ และกลายเป็นแบบจำลอง
 
- ![หน้าต่างตัวแก้ไขคิวรี Power](media/desktop-getting-started/shapecombine_querysettingsfinished.png)
+ ![ภาพหน้าจอของ Power BI Desktop ที่แสดงหน้าต่างตัวแก้ไข Power Query สำหรับคิวรีที่มีรูปร่าง](media/desktop-getting-started/shapecombine_querysettingsfinished.png)
 
 เมื่อข้อมูลของคุณอยู่ในแบบที่คุณต้องการแล้ว คุณสามารถสร้างวิชวล หรือการแสดงผลด้วยภาพ 
 
@@ -83,13 +83,13 @@ ms.locfileid: "83361531"
 
 หลังจากที่คุณมีแบบจำลอง คุณสามารถลาก*เขตข้อมูล*ลงบนพื้นที่รายงานเพื่อสร้าง*วิชวล*ได้ วิชวลเป็นการแสดงข้อมูลในรูปแบบของคุณด้วยภาพกราฟิก มีวิชวลชนิดต่าง ๆ จำนวนมากให้เลือกจากใน Power BI Desktop วิชวลต่อไปนี้แสดงแผนภูมิคอลัมน์แบบง่าย 
 
-![วิชวลใน Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_04.png)
+![ภาพหน้าจอของ Power B I Desktop ที่แสดงแผนภูมิแท่งตัวอย่าง](media/desktop-what-is-desktop/what-is-desktop_04.png)
 
 วิธีการสร้างหรือเปลี่ยนแปลงวิชวล: 
 
 - จากบานหน้าต่าง**การแสดงผลด้วยภาพ** เลือกไอคอนวิชวล 
 
-   ![บานหน้าต่างการแสดงผลด้วยภาพใน Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_05.png)
+   ![ภาพหน้าจอของ Power B I Desktop ที่แสดงบานหน้าต่างการแสดงผลข้อมูลด้วยภาพ](media/desktop-what-is-desktop/what-is-desktop_05.png)
 
    ถ้าคุณมีวิชวลที่เลือกแล้วบนพื้นที่รายงาน วิชวลที่เลือกจะเปลี่ยนเป็นชนิดคุณที่เลือก 
 
@@ -98,13 +98,13 @@ ms.locfileid: "83361531"
 
 ## <a name="create-reports"></a>สร้างรายงาน
 
-บ่อยครั้งที่คุณต้องการสร้างคอลเลกชันของวิชวลที่แสดงข้อมูลคุณในแง่มุมต่าง ๆ กัน จากข้อมูลที่คุณใช้สร้างแบบจำลองของคุณใน Power BI Desktop คอลเลกชันของวิชวลในไฟล์ Power BI Desktop หนึ่งไฟล์ จะเรียกว่า*รายงาน* รายงานสามารถมีหนึ่งหรือหลายหน้า เหมือนกับแฟ้ม Excel ที่สามารถมีเวิร์กชีตหนึ่งหรือหลายแผ่น 
+บ่อยครั้งที่คุณต้องการสร้างคอลเลกชันของวิชวลที่แสดงข้อมูลคุณในแง่มุมต่าง ๆ กัน จากข้อมูลที่คุณใช้สร้างแบบจำลองของคุณใน Power BI Desktop คอลเลกชันของวิชวลในไฟล์ Power BI Desktop หนึ่งไฟล์ จะเรียกว่า*รายงาน* รายงานสามารถมีหนึ่งหรือหลายหน้า เหมือนกับแฟ้ม Excel ที่สามารถมีเวิร์กชีตหนึ่งหรือหลายแผ่น
 
 ด้วย Power BI Desktop คุณสามารถสร้างรายงานที่ซับซ้อนและสวยงาม โดยใช้ข้อมูลจากหลายแหล่งข้อมูล ทั้งหมดในรายงานเดียว ที่คุณสามารถแชร์ให้กับผู้อื่นในองค์กรของคุณได้
 
 ในรูปต่อไปนี้ คุณจะเห็นหน้าแรกของรายงาน Power BI Desktop ที่ชื่อว่า **Overview** เห็นจากแท็บที่ใกล้กับด้านล่างของรูปภาพ 
 
-![รายงานตัวอย่าง Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
+![ภาพหน้าจอของ Power B I Desktop ที่แสดงแท็บภาพรวม](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
 ## <a name="share-reports"></a>แชร์รายงาน
 
@@ -114,7 +114,7 @@ ms.locfileid: "83361531"
 
 1. เลือก **เผยแพร่** จากริบบอน**หน้าแรก**
 
-   ![เผยแพร่รายงานจาก Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_06.png)
+   ![ภาพหน้าจอของ Power B I Desktop ที่แสดงปุ่มเผยแพร่](media/desktop-what-is-desktop/what-is-desktop_06.png)
 
    Power BI Desktop เชื่อมต่อคุณกับบริการของ Power BI กับบัญชี Power BI ของคุณ 
 

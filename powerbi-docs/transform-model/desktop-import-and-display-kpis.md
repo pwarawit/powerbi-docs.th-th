@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 41289fbfb76dc2453ccb871f93cf1cb4e18de7f7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b12cc24c7ddddd0bc866a3bbeb23e0c7097711db
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237101"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215251"
 ---
 # <a name="import-and-display-kpis-in-power-bi"></a>นำเข้า และแสดง KPI ใน Power BI
 ด้วย **Power BI Desktop** คุณสามารถนำเข้าและแสดง KPI ในตาราง, เมทริกซ์ และการ์ดได้
@@ -27,10 +27,10 @@ ms.locfileid: "85237101"
 
 1. หลังจากนำเข้าลงใน Power BI, KPI ของคุณจะปรากฏขึ้นในบานหน้าต่าง**เขตข้อมูล** ที่ทำเครื่องหมายด้วยไอคอน![ไฟจราจร](media/desktop-import-and-display-kpis/traffic.png) เพื่อใช้ KPI ในรายงานของคุณ ตรวจสอบให้แน่ใจว่าได้ขยายเนื้อหา ให้แสดงเขตข้อมูล **Value**, **Goal** และ **Status**
 
-    ![](media/desktop-import-and-display-kpis/desktoppreviewfeatureon2.png)
-
+    ![ภาพหน้าจอของ Power BI Desktop ที่แสดง Delta KPI ที่ขยายในบานหน้าต่างเขตข้อมูล](media/desktop-import-and-display-kpis/desktoppreviewfeatureon2.png)
+ 
 1. KPI ที่นำเข้า เหมาะที่สุดสำหรับการแสดงภาพชนิดมาตรฐาน เช่น ชนิด**ตาราง** Power BI ยังมีการแสดงภาพชนิด **KPI** ซึ่งควรใช้เพื่อสร้าง KPI ใหม่เท่านั้น
    
-    ![](media/desktop-import-and-display-kpis/desktoppreviewfeatureon3.png)
+    ![ภาพหน้าจอของ Power BI Desktop ที่แสดงเขตข้อมูล Table1 ที่เลือกในบานหน้าต่างเขตข้อมูล](media/desktop-import-and-display-kpis/desktoppreviewfeatureon3.png)
 
 ขั้นตอนทั้งหมดก็มีเพียงเท่านี้ คุณสามารถใช้ KPI เพื่อเน้นแนวโน้มที่สำคัญ, ความคืบหน้า หรือตัวบ่งชี้ที่สำคัญอื่นๆ

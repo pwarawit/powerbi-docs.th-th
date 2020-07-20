@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/29/2020
-ms.openlocfilehash: f18f8b56db8635d407417949bc35adb61fb4a2c5
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.date: 07/08/2020
+ms.openlocfilehash: acde398c1d8954b815c86cce77a6be0cfcf1553f
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427567"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216671"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>รายงานที่มีการแบ่งหน้าใน Power BI คำถามที่ถามบ่อย 
 
@@ -162,7 +162,7 @@ ms.locfileid: "84427567"
 
 ใช่ รายงานแบบแบ่งหน้าจะรองรับการปรับใช้กับแอปจากพื้นที่ทำงานทั้ง v1 และ v2 
 
-### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>ฟีเจอร์เฉพาะอื่นๆ ของรายงานใน Power BI เช่น การปักหมุดไทล์รายงานไปยังแดชบอร์ด จะใช้งานกับรายงานแบบแบ่งหน้าได้หรือไม่
+### <a name="will-other-report-specific-features-in-power-bi-like-pinning-report-tiles-to-dashboards-work-with-paginated-reports"></a>ฟีเจอร์เฉพาะอื่นๆ ของรายงานใน Power BI เช่น การปักหมุดไทล์รายงานไปยังแดชบอร์ด จะใช้งานกับรายงานแบบแบ่งหน้าได้หรือไม่
 
 เรามีแผนที่จะทำให้รายงานรองรับสถานการณ์ส่วนใหญ่ในบริการให้ได้มากที่สุด  ตามหลักการแล้ว แม้ว่าเครื่องมือที่ใช้เขียนรายงานจะต่างกัน แต่เมื่อดูจากมุมของผู้บริโภค จะเห็นว่ามันเป็นเพียงแค่รายงานอีกตัวหนึ่งที่อยู่ในรายการในพอร์ทัล พวกเขาไม่สนใจว่าสร้างอย่างไร พวกเขาสามารถทำสิ่งที่ต้องการได้เลย  ตัวอย่างของแพริตีฟีเจอร์นี้ที่เห็นได้ชัดคือส่วนรองรับข้อคิดเห็นที่ได้วางแผนไว้ แม้ว่าตัวฟีเจอร์จะทำงานต่างกันเล็กน้อยเมื่อใช้กับรายงานแต่ละประเภท แต่คุณจะใช้ส่วนข้อคิดเห็นได้กับทั้งคู่
 

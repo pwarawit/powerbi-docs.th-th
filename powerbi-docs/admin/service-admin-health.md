@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 610fe7ea2188d40d42ab91a355df68bc07bb0d84
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3b3faab2a01a00e09560d39e850f40d0672a5863
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228520"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161180"
 ---
 # <a name="track-power-bi-service-health-in-microsoft-365"></a>ติดตามสถานภาพบริการ Power BI ใน Microsoft 365
 
@@ -38,7 +38,7 @@ ms.locfileid: "85228520"
 
 1. เมื่อต้องการดูข้อมูลเพิ่มเติม เลือก**แสดงรายละเอียด**สำหรับรายการ ในสกรีนช็อตด้านล่าง คุณจะเห็นรายละเอียดเพิ่มเติม รวมถึงการปรับปรุงสถานะล่าสุดด้วย
 
-    ![สกรีนช็อตของรายละเอียดคำแนะนำ](media/service-admin-health/advisory-details.png)
+    ![ภาพหน้าจอของรายละเอียดคำแนะนำ ที่แสดงข้อมูลเพิ่มเติม](media/service-admin-health/advisory-details.png)
 
     เลื่อนลงเพื่อดูข้อมูลเพิ่มเติม จากนั้นปิดบานหน้าต่างเมื่อคุณทำเสร็จแล้ว
 

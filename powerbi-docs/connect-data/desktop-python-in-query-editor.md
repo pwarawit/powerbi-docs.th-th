@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5fb76d5f4e32c1ff7f9d68757e071f1bc69a7ddf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6e1c18f61cc822cd9656a49a65c98b225709c540
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223292"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215488"
 ---
 # <a name="use-python-in-query-editor"></a>ใช้ Python ในตัวแก้ไขคิวรี
 คุณสามารถใช้ **Python** ซึ่งเป็นภาษาการเขียนโปรแกรมที่นักสถิติ นักวิทยาศาสตร์ข้อมูล และนักวิเคราะห์ข้อมูลใช้กันอย่างกว้างขวางใน **ตัวแก้ไขคิวรีของ** Power BI Desktop การรวม Python ใน **ตัวแก้ไขคิวรี** ช่วยให้คุณดำเนินการทำความสะอาดข้อมูลโดยใช้ Python  และดำเนินการวิเคราะห์และการจัดรูปทรงข้อมูลขั้นสูงในชุดข้อมูล รวมทั้งการเติมเต็มข้อมูลที่คาดหาย การคาดการณ์ และการทำคลัสเตอร์ และอื่นๆ **Python** เป็นภาษาที่มีประสิทธิภาพ และสามารถใช้ได้ใน **ตัวแก้ไขคิวรี** เพื่อเตรียมแบบจำลองข้อมูลของคุณ และสร้างรายงาน
@@ -27,19 +27,19 @@ ms.locfileid: "85223292"
 
 1. ก่อนอื่น โหลดข้อมูลของคุณลงใน **Power BI Desktop** ในตัวอย่างนี้ โหลดไฟล์ *EuStockMarkets_NA.csv* และเลือก**รับข้อมูล > CSV** จาก ribbon ของ **Home** ใน **Power BI Desktop**
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-1.png)
+   ![ภาพหน้าจอของแถบเครื่องมือริบบอนรับข้อมูลใน Power BI Desktop ที่แสดงการเลือก C S V](media/desktop-python-in-query-editor/python-in-query-editor-1.png)
 2. เลือกไฟล์ แล้วเลือก**เปิด**และ CSV จะแสดงในกล่องโต้ตอบ**ไฟล์ CSV**
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-2.png)
+   ![ภาพหน้าจอของกล่องโต้ตอบไฟล์ C S V ที่แสดง C S V ที่เลือกไว้](media/desktop-python-in-query-editor/python-in-query-editor-2.png)
 3. เมื่อข้อมูลถูกโหลด คุณจะเห็นข้อมูลในบานหน้าต่าง**เขตข้อมูล**ใน Power BI Desktop
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-3.png)
+   ![ภาพหน้าจอของบานหน้าต่างเขตข้อมูล ที่แสดงข้อมูลที่โหลดไว้](media/desktop-python-in-query-editor/python-in-query-editor-3.png)
 4. เปิด**ตัวแก้ไขคิวรี**โดยเลือก**แก้ไขคิวรี**จากแท็บ **Home** ใน**Power BI Desktop**
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-4.png)
+   ![ภาพหน้าจอของเครื่องมือแก้ไขคิวรีใน Power B I Desktop ที่แสดงการเลือกแก้ไขคิวรี](media/desktop-python-in-query-editor/python-in-query-editor-4.png)
 5. ในแท็บ **แปลง** เลือก **เรียกใช้สคริปต์ R** และตัวแก้ไข**เรียกใช้สคริปต์ Python** จะปรากฏขึ้น (แสดงอยู่ในขั้นตอนถัดไป) โปรดสังเกตว่า แถว 15 และ 20 ไม่มีข้อมูลบางอย่าง และแถวอื่นๆ ก็ขาดข้อมูลบางอย่างที่คุณไม่สามารถมองเห็นในรูปต่อไปนี้ ขั้นตอนด้านล่างแสดงวิธีที่ Python สามารถ (และจะ) ใส่ข้อมูลในแถวเหล่านั้นให้สมบูรณ์
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
+   ![ภาพหน้าจอของแท็บแปลง ที่แสดงแถวของข้อมูล](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
 6. สำหรับตัวอย่างนี้ ใส่รหัสสคริปต์ต่อไปนี้:
    
     ```python
@@ -55,13 +55,13 @@ ms.locfileid: "85223292"
    
    เมื่อวางรหัสลงในกล่องโต้ตอบ **เรียกใช้สคริปต์ Python** รหัสจะมีลักษณะดังต่อไปนี้:
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-5b.png)
+   ![ภาพหน้าจอของกล่องโต้ตอบเรียกใช้สคริปต์ Python ที่แสดงรหัสสคริปต์](media/desktop-python-in-query-editor/python-in-query-editor-5b.png)
 7. หลังจากเลือก**ตกลง**, **ตัวแก้ไขคิวรี**จะแสดงคำเตือนเกี่ยวกับความเป็นส่วนตัวของข้อมูล
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-6.png)
+   ![ภาพหน้าจอของบานหน้าต่างเครื่องมือแก้ไขคิวรี ที่แสดงคำเตือนเกี่ยวกับความเป็นส่วนตัวของข้อมูล](media/desktop-python-in-query-editor/python-in-query-editor-6.png)
 8. เพื่อให้สคริปต์ Python ทำงานอย่างถูกต้องในบริการของ Power BI คุณจำเป็นต้องตั้งค่าแหล่งข้อมูลทั้งหมดเป็น *สาธารณะ* สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าความเป็นส่วนตัวและผลกระทบของการตั้งค่า ดู[ระดับความเป็นส่วนตัว](../admin/desktop-privacy-levels.md)
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-7.png)
+   ![ภาพหน้าจอของกล่องโต้ตอบระดับความเป็นส่วนตัว ที่แสดงว่ามีการตั้งค่าสาธารณะไว้](media/desktop-python-in-query-editor/python-in-query-editor-7.png)
    
    โปรดสังเกตคอลัมน์ใหม่ในบานหน้าต่าง**เขตข้อมูล**ที่เรียกว่า *completedValues* โปรดสังเกตว่า มีองค์ประกอบข้อมูลบางอย่างหายไป เช่น ในแถวที่ 15 และ 18 โปรดดูในส่วน วิธีการที่ Python จัดการเรื่องเหล่านั้นในหัวข้อถัดไป
    
@@ -71,7 +71,7 @@ ms.locfileid: "85223292"
 ## <a name="creating-visuals-from-python-script-data"></a>สร้างวิชวลจากข้อมูลสคริปต์ Python
 ในตอนนี้ เราสามารถสร้างวิชวลเพื่อดูวิธีที่สคริปต์ Python ทำงานด้วยการใช้ไลบรารี *pandas* เติมค่าที่หายไป ดังที่แสดงในรูปต่อไปนี้:
 
-![](media/desktop-python-in-query-editor/python-in-query-editor-8.png)
+![ภาพหน้าจอของวิชวล ที่แสดงข้อมูลดั้งเดิมและค่าที่ขาดหายไปโดยสมบูรณ์ของไลบรารี Pandas](media/desktop-python-in-query-editor/python-in-query-editor-8.png)
 
 เมื่อวิชวลดังกล่าวเสร็จสมบูรณ์ และภาพอื่นๆ ที่คุณอาจต้องการสร้างโดยใช้ **Power BI Desktop** คุณสามารถบันทึกไฟล์ของ **Power BI Desktop** (ซึ่งจะบันทึกเป็นไฟล์ .pbix) และจากนั้น ใช้แบบจำลองข้อมูลที่รวมถึงสคริปต์ Python ที่เป็นส่วนหนึ่งของแบบจำลองนั้นในบริการของ Power BI
 
@@ -88,11 +88,11 @@ ms.locfileid: "85223292"
 
 * ต้องตั้งค่าแหล่งข้อมูล Python ทั้งหมดเป็น*สาธารณะ*และขั้นตอนอื่นๆ ทั้งหมดในคิวรีที่ถูกสร้างขึ้นใน **ตัวแก้ไขคิวรี** ต้องเป็นสาธารณะด้วย เมื่อต้องเข้าตั้งค่าแหล่งข้อมูล ใน **Power BI Desktop** เลือก**ไฟล์ > ตัวเลือกและการตั้งค่า > การตั้งค่าแหล่งข้อมูล**
   
-  ![](media/desktop-python-in-query-editor/python-in-query-editor-9.png)
+  ![ภาพหน้าจอของเมนูไฟล์ใน Power B I Desktop ที่แสดงการเลือกการตั้งค่าแหล่งข้อมูล](media/desktop-python-in-query-editor/python-in-query-editor-9.png)
   
   จากกล่องโต้ตอบ**การตั้งค่าแหล่งข้อมูล** เลือกแหล่งข้อมูล และจากนั้น เลือก**แก้ไขสิทธิ์...** และกำหนดให้**ระดับความเป็นส่วนตัว**ถูกตั้งค่าเป็น*สาธารณะ*
   
-  ![](media/desktop-python-in-query-editor/python-in-query-editor-10.png)    
+  ![ภาพหน้าจอของกล่องโต้ตอบการตั้งค่าแหล่งข้อมูล ที่แสดงว่าระดับความเป็นส่วนตัวถูกตั้งค่าเป็นสาธารณะ](media/desktop-python-in-query-editor/python-in-query-editor-10.png)    
 * เมื่อต้องการรีเฟรชการแสดงผลด้วยวิชวล Python หรือชุดข้อมูลของคุณตามกำหนดการ คุณจำเป็นต้องเปิดใช้งาน**รีเฟรชตามกำหนดการ**และมี**เกตเวย์ส่วนบุคคล**ที่ติดตั้งบนคอมพิวเตอร์ที่บรรจุสมุดงานและมีการติดตั้ง Python สำหรับข้อมูลเพิ่มเติมในทั้งสองเรื่อง ดูหัวข้อก่อนหน้าในบทความนี้ ซึ่งมีลิงก์เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับเรื่องนี้แต่ละเรื่อง
 * ในขณะนี้ไม่รองรับตารางที่ซ้อนกัน (ตารางของตาราง) 
 

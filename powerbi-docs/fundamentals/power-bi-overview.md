@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 6a21288a8f2946bd1e1a874d0810dd9241b1ffe2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83564460"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216759"
 ---
 # <a name="what-is-power-bi"></a>Power BI คืออะไร
 **Power BI** คือคอลเลกชันของบริการซอฟต์แวร์ แอป และตัวเชื่อมต่อที่ทำงานร่วมกันเพื่อเปลี่ยนแหล่งข้อมูลที่ไม่เกี่ยวข้องของคุณให้เป็นข้อมูลเชิงลึกที่สอดคล้องกัน แสดงข้อมูลได้ และโต้ตอบได้ ข้อมูลของคุณอาจเป็นสเปรดชีต Excel หรือคอลเลกชันของระบบ Cloud และคลังข้อมูลแบบไฮบริดภายในองค์กร Power BI ช่วยให้คุณเชื่อมต่อกับแหล่งข้อมูลของคุณ แสดงภาพและค้นพบเรื่องสำคัญ รวมถึงแชร์สิ่งเหล่านั้นกับบุคคลหรือทุกคนที่คุณต้องการได้อย่างง่ายดาย
@@ -24,7 +24,7 @@ Power BI ประกอบด้วย:
 - บริการ SaaS (*Software as a Service*) แบบออนไลน์ที่เรียกว่า **บริการของ Power BI** 
 - **แอปสำหรับอุปกรณ์เคลื่อนที่** Power BI สำหรับอุปกรณ์ Windows, iOS และ Android
 
-![Power BI Desktop, บริการ, อุปกรณ์เคลื่อนที่](media/power-bi-overview/power-bi-overview-blocks.png)
+![แผนภาพของ Power B I Desktop, Service และ Mobile ที่แสดงการรวมของทั้งสามรายการนี้](media/power-bi-overview/power-bi-overview-blocks.png)
 
 องค์ประกอบทั้งสามเหล่านี้ อันได้แก่ &mdash;Pwer BI Desktop บริการ และแอปสำหรับอุปกรณ์เคลื่อนที่&mdash; ได้รับการออกแบบมาเพื่อช่วยคุณในการสร้าง แชร์ และใช้ข้อมูลเชิงลึกทางธุรกิจด้วยวิธีหรือบทบาทที่คุณต้องการได้อย่างมีประสิทธิภาพสูงสุด
 
@@ -63,7 +63,7 @@ Power BI ประกอบด้วย:
 
 คุณสามารถสร้าง ปรับใช้ และจัดการ Power BI สำหรับอุปกรณ์เคลื่อนที่และรายงานที่มีการแบ่งหน้าภายในองค์กรกับช่วงเตรียมพร้อมสำหรับการใช้เครื่องมือและบริการที่เซิร์ฟเวอร์รายงาน Power BI มี
 
-![ไดอะแกรมสำหรับภายในองค์กร](media/power-bi-overview/power-bi-report-server2.png)
+![แผนภาพของ Power B I Desktop, Service และ Mobile ที่แสดงการรวมของทั้งสามรายการนี้](media/power-bi-overview/power-bi-report-server2.png)
 
 เซิร์ฟเวอร์รายงาน Power BI เป็นโซลูชันที่คุณปรับใช้หลังไฟร์วอลล์ของคุณ และจัดส่งรายงานของคุณไปยังผู้ใช้ที่ถูกต้อง ด้วยวิธีต่างๆ ไม่ว่าจะดูในเว็บเบราว์เซอร์ บนอุปกรณ์เคลื่อนที่ หรือทางอีเมล และเนื่องจากเซิร์ฟเวอร์รายงาน Power BI เข้ากันได้กับ Power BI ในระบบคลาวด์ คุณสามารถย้ายไปยังคลาวด์เมื่อคุณพร้อม 
 

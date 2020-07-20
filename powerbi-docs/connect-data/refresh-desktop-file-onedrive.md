@@ -10,26 +10,26 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 62beab136dce53c7a3412eb5e2a4ec6470d14ec2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e2144cc7460ea2eff84bbcc1e93f02c99d650b35
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220919"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216374"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>รีเฟรชชุดข้อมูลที่จัดเก็บบน OneDrive หรือ SharePoint Online
 การนำเข้าไฟล์จาก OneDrive หรือ SharePoint Online ลงในบริการ Power BI คือวิธียอดเยี่ยมที่แน่ใจได้ว่างานของคุณในPower BI Desktopยังคงซิงค์กับบริการของ Power BI
 
 ## <a name="advantages-of-storing-a-power-bi-desktop-file-on-onedrive-or-sharepoint-online"></a>ข้อดีของการจัดเก็บไฟล์ Power BI Desktop บน OneDrive หรือ SharePoint Online
-เมื่อคุณจัดเก็บไฟล์ Power BI Desktop บน OneDrive หรือ SharePoint Online ข้อมูลใดๆ ที่คุณได้โหลดลงในแบบจำลองของไฟล์ของคุณจะถูกนำเข้าลงในชุดข้อมูล  และรายงานใดๆ ที่คุณสร้างในไฟล์จะถูกโหลดลงใน**รายงาน**ใน Power BI ที่ให้บริการ สมมติว่าคุณทำการเปลี่ยนแปลงไฟล์ของคุณบน OneDrive หรือ SharePoint Online การเปลี่ยนแปลงนี้รวมถึงการมีหน่วยวัดใหม่ เปลี่ยนชื่อคอลัมน์ หรือแก้ไขการแสดงภาพได้ เมื่อคุณบันทึกไฟล์ซึ่งเป็นบริการของ Power BI ที่ซิงค์กับการเปลี่ยนแปลงใหม่โดยปกติแล้วจะใช้เวลาภายในประมาณหนึ่งชั่วโมง
+เมื่อคุณจัดเก็บไฟล์ Power BI Desktop บน OneDrive หรือ SharePoint Online ข้อมูลใดๆ ที่คุณได้โหลดลงในแบบจำลองของไฟล์ของคุณจะถูกนำเข้าลงในชุดข้อมูล และรายงานใดๆ ที่คุณสร้างในไฟล์จะถูกโหลดลงใน**รายงาน**ใน Power BI ที่ให้บริการ สมมติว่าคุณทำการเปลี่ยนแปลงไฟล์ของคุณบน OneDrive หรือ SharePoint Online การเปลี่ยนแปลงนี้รวมถึงการมีหน่วยวัดใหม่ เปลี่ยนชื่อคอลัมน์ หรือแก้ไขการแสดงภาพได้ เมื่อคุณบันทึกไฟล์ซึ่งเป็นบริการของ Power BI ที่ซิงค์กับการเปลี่ยนแปลงใหม่โดยปกติแล้วจะใช้เวลาภายในประมาณหนึ่งชั่วโมง
 
 คุณสามารถทำการรีเฟรชครั้งเดียวด้วยตนเอง ทันทีใน Power BI Desktop โดยเลือก**รีเฟรช**บน**หน้า**แรก เมื่อคุณเลือก **รีเฟรช**เท่ากับว่าคุณรีเฟรชด้วยข้อมูลที่อัปเดตจากแหล่งข้อมูลต้นฉบับ การรีเฟรชแบบนี้เกิดขึ้นทั้งหมดจากภายในตัวแอปพลิเคชัน Power BI Desktop เอง ซึ่งจะแตกต่างจากการรีเฟรชตามกำหนดการ หรือด้วยตนเองใน Power BI และต้องทำความเข้าใจความแตกต่าง
 
-![](media/refresh-desktop-file-onedrive/pbix-refresh.png)
+![ภาพหน้าจอของแถบเครื่องมือริบบอนหน้าแรกใน Power B I Desktop ที่แสดงการเลือกการรีเฟรช](media/refresh-desktop-file-onedrive/pbix-refresh.png)
 
 เมื่อคุณนำเข้าไฟล์ Power BI Desktop ของคุณจาก OneDrive หรือ SharePoint Online คุณโหลดข้อมูลและข้อมูลเกี่ยวกับแบบจำลองลงในชุดข้อมูลใน Power BI คุณจะต้องรีเฟรชชุดข้อมูลในบริการ Power BI เนื่องจากนั่นคือข้องมูลที่รายงานของคุณอ้างอิงตาม เนื่องจากแหล่งข้อมูลอยู่ภายนอก คุณสามารถรีเฟรชชุดข้อมูลด้วยตนเอง โดยใช้**รีเฟรชตอนนี้**หรือคุณสามารถตั้งค่ากำหนดการรีเฟรช โดยใช้**รีเฟรชตามกำหนดการ** 
 
-![](media/refresh-desktop-file-onedrive/powerbi-service-refresh.png)
+![ภาพหน้าจอของชุดข้อมูลใน Power B I Desktop ที่แสดงการเลือกรีเฟรชตารางเวลา](media/refresh-desktop-file-onedrive/powerbi-service-refresh.png)
 
 เมื่อคุณรีเฟรชชุดข้อมูล Power BI ไม่มีการเชื่อมต่อไปยังไฟล์บน OneDrive หรือ SharePoint Online เพื่อคิวรีให้ได้ข้อมูลที่ปรับปรุง ใช้ข้อมูลในชุดข้อมูลเพื่อเชื่อมต่อโดยตรงกับแหล่งข้อมูลเพื่อทำการคิวรีให้ได้ข้อมูลที่ปรับปรุง และจากนั้นก็โหลดลงชุดข้อมูล ข้อมูลที่ถูกรีเฟรชในชุดข้อมูลจะไม่ถูกซิงโครไนซ์กลับไปยังไฟล์บน OneDrive หรือ SharePoint Online
 
@@ -58,7 +58,7 @@ ms.locfileid: "85220919"
 
 เมื่อคุณลงชื่อเข้าใช้บัญชี Microsoft ของคุณ ตรวจสอบให้แน่ใจว่าเลือก **ให้ฉันลงชื่อเข้าใช้เสมอ** และจากนั้น Power BI จะสามารถซิงโครไนซ์การอัปเดตใด ๆ ที่คุณทำกับไฟล์ใน Power BI Desktop ด้วยชุดข้อมูลใน Power BI
 
-![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
+![ภาพหน้าจอของกล่องโต้ตอบการลงชื่อเข้าใช้ ที่แสดงกล่องให้ฉันลงชื่อเข้าใช้เสมอที่ถูกเลือกไว้](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
 
 ถ้าคุณเปลี่ยนข้อมูลประจำตัวของ Microsoft คุณจะไม่สามารถซิงโครไนซ์การเปลี่ยนแปลงได้ระหว่างไฟล์ของคุณบน OneDrive และชุดข้อมูลใน Power BI คุณจำเป็นต้องเชื่อมต่อและนำเข้าไฟล์ของคุณอีกครั้งจาก OneDrive
 

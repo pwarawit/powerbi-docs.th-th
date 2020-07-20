@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6b130016bf4514b817edbf8c91cfb24d2063e6f1
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279652"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215441"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: หลีกเลี่ยงการแปลง BLANK ไปเป็นค่า
 
@@ -47,7 +47,7 @@ DIVIDE([Profit], [Sales], 0)
 
 เรามาดูกันว่าจะเกิดอะไรขึ้นเมื่อมีการเพิ่มหน่วยวัด **อัตรากำไร** ในตารางวิชวล การจัดกลุ่มตามลูกค้า
 
-![ตารางวิชวลประกอบด้วยสามคอลัมน์: ลูกค้า ยอดขาย และอัตรากำไร ตารางจะแสดงข้อมูลประมาณ 10 แถว แต่แถบเลื่อนแนวตั้งแสดงว่ามีแถวอีกมากมายที่สามารถแสดงได้ คอลัมน์ยอดขายไม่แสดงค่าใด ๆ คอลัมน์อัตรากำไรแสดงเฉพาะศูนย์เท่านั้น](media/dax-avoid-converting-blank/table-visual-poor.png)
+![ภาพหน้าจอของ Power BI Desktop ที่แสดงวิชวลตารางของข้อมูลที่มีหนึ่งแถวต่อลูกค้า ค่ายอดขายจะว่างเปล่าและค่าอัตราส่วนกำไรเป็นศูนย์เปอร์เซ็นต์ ](media/dax-avoid-converting-blank/table-visual-poor.png)
 
 วิชวลของตารางแสดงจำนวนแถวมากมาย (ในความเป็นจริงแล้วมีลูกค้า 18,484 รายในแบบจำลอง ดังนั้นตารางจึงพยายามแสดงทั้งหมด) โปรดสังเกตว่าลูกค้าในมุมมองยังไม่ได้ทำให้เกิดยอดขายใดเลย ทว่าเนื่องจากหน่วยวัด **อัตรากำไร** จะส่งกลับค่าเสมอ ดังนั้นจึงมีการแสดงค่า
 
@@ -63,7 +63,7 @@ DIVIDE([Profit], [Sales])
 
 ขณะนี้วิชวลตารางจะแสดงเฉพาะลูกค้าที่สร้างยอดขายภายในบริบทตัวกรองปัจจุบัน หน่วยวัดที่ปรับปรุงใหม่ส่งผลให้ผู้ใช้รายงานของคุณมีประสบการณ์ที่มีประสิทธิภาพมากขึ้นและใช้งานได้จริง
 
-![ขณะนี้วิชวลตารางเดียวกันจะแสดงข้อมูลสี่แถว แต่ละแถวใช้สำหรับลูกค้าที่มีมูลค่ายอดขายและค่าอัตรากำไรไม่เป็นศูนย์](media/dax-avoid-converting-blank/table-visual-good.png)
+![ภาพหน้าจอของ Power BI Desktop ที่แสดงวิชวลตารางของข้อมูลที่มีเนื้อหาที่ถูกกรอง](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
 > เมื่อจำเป็น คุณสามารถกำหนดค่าวิชวลเพื่อแสดงการจัดกลุ่มทั้งหมด (ที่ส่งกลับค่าหรือค่า BLANK) ภายในบริบทของตัวกรองได้โดยการเปิดใช้งานตัวเลือก [แสดงรายการโดยไม่มีข้อมูล](../create-reports/desktop-show-items-no-data.md)
@@ -80,4 +80,3 @@ DIVIDE([Profit], [Sales])
 
 - [ข้อมูลอ้างอิงเกี่ยวกับ Data Analysis Expressions (DAX)](/dax/)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-

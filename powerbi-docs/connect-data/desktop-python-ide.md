@@ -9,24 +9,24 @@ ms.topic: how-to
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 902b2580dbdd454b5a0eec234ba11e59cc5eb666
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8fdc0ecb4dfa1d35077e773ff7f568106168009c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223423"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215354"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>ใช้ Python IDE ภายนอกกับ Power BI
 ด้วย**Power BI Desktop** คุณสามารถใช้ Python IDE ภายนอกของคุณ (สภาพแวดล้อมรวมเพื่อการพัฒนา) เพื่อสร้าง และปรับปรุงสคริปต์ Python แล้วจะใช้สคริปต์เหล่านั้นใน Power BI ได้
 
-![](media/desktop-python-ide/python-ide-1.png)
+![ภาพหน้าจอของกล่องโต้ตอบตัวเลือก ที่แสดง Visual Studio Code ที่ป้อนในเขตข้อมูล Python IDE ที่ตรวจพบ](media/desktop-python-ide/python-ide-1.png)
 
 ## <a name="enable-an-external-python-ide"></a>เปิดใช้งานการ Python IDE ภายนอก
 คุณสามารถเปิดใช้ของคุณ Python IDE ภายนอกจาก**Power BI Desktop** และจะนำเข้าข้อมูลของคุณโดยอัตโนมัติ และแสดงใน Python IDE จากที่นั่น คุณสามารถปรับเปลี่ยนสคริปต์ใน Python IDE ภายนอก จากนั้นวางกลับลงใน **Power BI Desktop** เพื่อสร้างวิชวลและรายงาน Power BI ได้
 
 คุณสามารถระบุว่าต้องการใช้ Python IDE แบบใดและเปิดใช้งานได้โดยอัตโนมัติภายใน **Power BI Desktop** หรือไม่
 
-### <a name="requirements"></a>ความต้องการ
+### <a name="requirements"></a>ข้อกำหนด
 เมื่อต้องใช้คุณลักษณะนี้ คุณจำเป็นต้องติดตั้ง **Python IDE** บนเครื่องคอมพิวเตอร์ของคุณ **Power BI Desktop** ไม่รวมการนำเข้าใช้หรือการติดตั้ง Python engine ดังนั้นคุณต้องติดตั้ง **Python** แบบบนเครื่องคอมพิวเตอร์ของคุณแบบแยกต่างหาก คุณสามารถเลือก Python IDE ที่จะใช้ ด้วยตัวเลือกต่อไปนี้:
 
 * คุณสามารถติดตั้ง Python IDE ตัวโปรดของคุณ ซึ่งมีจำนวนมากที่ใช้งานฟรี เช่น [หน้าดาวน์โหลด Visual Studio Code](https://code.visualstudio.com/download/)
@@ -36,7 +36,7 @@ ms.locfileid: "85223423"
   * คุณสามารถเชื่อมโยงไฟล์ **.PY** จาก IDE ภายนอกที่คุณต้องการเปิดใช้งาน **Power BI Desktop**
   * คุณสามารถระบุไฟล์ .exe ที่ **Power BI Desktop** ควรเปิดใช้งานโดยเลือก *อื่น ๆ* จากส่วน **ตัวเลือกสคริปต์ Python** ในกล่องโต้ตอบ **ตัวเลือก** คุณสามารถนำกล่องโต้ตอบ **ตัวเลือก**โดยไปที่**ไฟล์ > ตัวเลือกและการตั้งค่า > ตัวเลือก**
     
-    ![](media/desktop-python-ide/python-ide-2.png)
+    ![ภาพหน้าจอของกล่องโต้ตอบตัวเลือก ที่แสดงโปรแกรมอื่นที่ป้อนในเขตข้อมูล Python IDE ที่ตรวจพบ](media/desktop-python-ide/python-ide-2.png)
 
 ถ้าคุณติดตั้ง Python IDE หลายตัว คุณสามารถระบุได้ว่าจะเปิดตัวใด โดยการเลือกเมนูดรอปดาวน์ *Python IDE ที่ตรวจพบ* ในกล่องโต้ตอบ **ตัวเลือก**
 
@@ -50,13 +50,13 @@ ms.locfileid: "85223423"
 1. โหลดข้อมูลลงใน**Power BI Desktop**
 2. เลือกเขตข้อมูลบางอย่างจากบานหน้าต่าง**เขตข้อมูล**ที่คุณต้องการใช้งาน ถ้าคุณยังไม่ได้เปิดใช้งานรูปของสคริปต์ คุณจะได้ถูกถามให้ทำเช่นนั้น
    
-   ![](media/desktop-python-ide/python-ide-3.png)
+   ![ภาพหน้าจอของกล่องโต้ตอบเปิดใช้งานวิชวลสคริปต์ ที่พรอมท์คุณให้เปิดใช้งาน](media/desktop-python-ide/python-ide-3.png)
 3. เมื่อเปิดใช้งานวิชวลของสคริปต์ คุณจะสามารถเลือกรูป Python จากบานหน้าต่าง **การแสดงวิชวล** ซึ่งสร้างวิชวล Python แบบว่างที่พร้อมที่จะแสดงผลลัพธ์ของสคริปต์ของคุณ บานหน้าต่าง**ตัวแก้ไขสคริปต์ Python** จะปรากฏขึ้น
    
-   ![](media/desktop-python-ide/python-ide-4.png)
+   ![ภาพหน้าจอของบานหน้าต่างการแสดงผลข้อมูลด้วยภาพ ที่แสดงวิชวล Python ที่ว่างเปล่า](media/desktop-python-ide/python-ide-4.png)
 4. ตอนนี้ คุณสามารถเลือกเขตข้อมูลที่คุณต้องการใช้ในสคริปต์ Python ได้ เมื่อคุณเลือกเขตข้อมูล เขตข้อมูล**ตัวแก้ไขสคริปต์ Python** จะถูกสร้างขึ้นแบบอัตโนมัติโดยเป็นไปตามเขตข้อมูลที่คุณเลือก คุณสามารถสร้าง (หรือวาง) สคริปต์ Python ของคุณโดยตรงในบานหน้าต่าง **ตัวแก้ไขสคริปต์ Python** หรือคุณสามารถปล่อยให้ว่างเปล่าก็ได้
    
-   ![](media/desktop-python-ide/python-ide-5.png)
+   ![ภาพหน้าจอของบานหน้าต่างการแสดงผลข้อมูลด้วยภาพ ที่แสดงวิชวล Python ที่ว่างเปล่าพร้อมโค้ดสคริปต์ในตัวแก้ไขสคริปต์](media/desktop-python-ide/python-ide-5.png)
    
    > [!NOTE]
    > ชนิดการรวมเริ่มต้นสำหรับวิชวล Python คือ *ไม่ต้องทำการสรุป*
@@ -64,10 +64,10 @@ ms.locfileid: "85223423"
    > 
 5. ขณะนี้คุณสามารถเปิดใช้ Python IDE ของคุณได้โดยตรงจาก**Power BI Desktop** เลือกปุ่ม **เปิดใช้ Python IDE** ที่พบบนด้านขวาของแถบชื่อ **ตัวแก้ไขสคริปต์ Python** ตามที่แสดงด้านล่าง
    
-   ![](media/desktop-python-ide/python-ide-6.png)
+   ![ภาพหน้าจอของตัวแก้ไขสคริปต์ Python ที่แสดงวิธีการเปิดใช้งาน Python IDE](media/desktop-python-ide/python-ide-6.png)
 6. Power BI Desktop เรียกใช้งาน Python IDE ที่ระบุของคุณ ดังที่แสดงในรูปต่อไปนี้ (ในภาพนี้ **Visual Studio Code** เป็น Python IDE ค่าเริ่มต้น)
    
-   ![](media/desktop-python-ide/python-ide-7.png)
+   ![ภาพหน้าจอของ Python IDE ที่แสดงใน Visual Studio Code](media/desktop-python-ide/python-ide-7.png)
    
    > [!NOTE]
    > **Power BI Desktop**เพิ่มสามบรรทัดแรกของสคริปต์ แล้วจึงค่อยสามารถนำเข้าข้อมูลของคุณจาก**Power BI Desktop**เมื่อคุณเรียกใช้สคริปต์

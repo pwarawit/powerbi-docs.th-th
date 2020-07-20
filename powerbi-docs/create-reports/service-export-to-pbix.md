@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: b8fddd6b88effac3375840dd6034ca93cec52f12
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5cd0dd3b91109e63e5481e2f5e5516fd9ecd245c
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238311"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385986"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>ดาวน์โหลดรายงานจากบริการของ Power BI ไปยังไฟล์ Power BI Desktop (ตัวอย่าง)
+      
 ใน Power BI Desktop คุณสามารถเผยแพร่รายงาน (ไฟล์ *.pbix*) จากคอมพิวเตอร์ในเครื่องของคุณไปยังบริการของ Power BI ได้ รายงาน Power BI สามารถไปยังทิศทางอื่น ๆ ได้เช่นกัน: คุณสามารถดาวน์โหลดรายงานจากบริการของ Power BI ไปยังไฟล์ Power BI Desktop ส่วนขยายสำหรับรายงาน Power BI ในกรณีใดก็ตามคือ .pbix
 
 มีข้อจำกัดบางประการที่ควรคำนึงถึง ซึ่งจะกล่าวถึงในส่วน [ข้อควรพิจารณาและการแก้ไขปัญหา](#considerations-and-troubleshooting) ของบทความนี้
-
 
 ![รายการแบบเลื่อนลงของไฟล์](media/service-export-to-pbix/power-bi-file-export.png)
 
@@ -47,6 +47,7 @@ ms.locfileid: "85238311"
     ![ตัวแก้ไขรายงาน Power BI Desktop](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>ข้อควรพิจารณาและการแก้ไขปัญหา
+
 มีข้อควรพิจารณาและขีดจำกัดที่สำคัญสองสามข้อที่เชื่อมโยงกับการดาวน์โหลดไฟล์ .pbix จากบริการ Power BI
 
 * เมื่อต้องการดาวน์โหลดไฟล์ คุณต้องแก้ไขการเข้าถึงในรายงาน
@@ -56,9 +57,12 @@ ms.locfileid: "85238311"
 * ใช้เวอร์ชันล่าสุดของ Power BI Desktop เสมอเมื่อเปิดไฟล์ที่ดาวน์โหลดแล้ว ไฟล์ .pbix ที่ดาวน์โหลดแล้วอาจไม่สามารถเปิดได้ในเวอร์ชันที่ไม่ใช่เวอร์ชั่นปัจจุบันของ Power BI Desktop
 * หากผู้ดูแลระบบของคุณปิดใช้งานความสามารถในการดาวน์โหลดข้อมูล คุณลักษณะนี้จะไม่ปรากฏในบริการของ Power BI
 * ชุดข้อมูลที่มีการรีเฟรชแบบเพิ่มทีละหน่วยไม่สามารถดาวน์โหลดเป็นไฟล์ .pbix ได้
-* ถ้าคุณสร้างรายงาน Power BI โดยยึดตามชุดข้อมูลในพื้นที่ทำงานหนึ่งและเผยแพร่ไปยังพื้นที่ทำงานอื่น คุณและผู้ใช้ของคุณจะไม่สามารถดาวน์โหลดได้ ในขณะนี้ คุณลักษณะการดาวน์โหลดไม่ได้รับการสนับสนุนในสถานการณ์นี้
+* ไม่สามารถดาวน์โหลดชุดข้อมูลที่เปิดใช้งานสำหรับ[แบบจำลองขนาดใหญ่](../admin/service-premium-large-models.md)ไปยังแฟ้ม .pbix ได้
+* ไม่สามารถดาวน์โหลดชุดข้อมูลที่ปรับแก้โดยใช้[จุดสิ้นสุด XMLA](../admin/service-premium-connect-tools.md)ไปยังแฟ้ม .pbix ได้
+* หากคุณสร้างรายงาน Power BI โดยยึดตามชุดข้อมูลในพื้นที่ทำงานหนึ่งและเผยแพร่ไปยังพื้นที่ทำงานอื่น คุณและผู้ใช้ของคุณจะไม่สามารถดาวน์โหลดรายงานได้ ในขณะนี้ คุณลักษณะการดาวน์โหลดไม่ได้รับการสนับสนุนในสถานการณ์นี้
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
+
 ดูวิดีโอความยาวหนึ่งนาที**Guy in a Cube**สำหรับคุณลักษณะนี้:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ymWqU5jiUl0" frameborder="0" allowfullscreen></iframe>

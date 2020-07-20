@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5a363a951e9c8f6cc04f825c64dce811d0a954e8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7ce25bb448d698f8c1ce4b77e8823e96220a1792
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219332"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264460"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>สร้างคิวอาร์โค้ด ให้แก่รายงานที่ใช้ในแอปสำหรับอุปกรณ์เคลื่อนที่ของ Power BI
 คิวอาร์โค้ดใน Power BI สามารถเชื่อมต่อทุกอย่างในโลกแห่งความจริง เข้ากับข้อมูลที่เกี่ยวข้องกับ BI่ได้โดยตรง &#151; โดยที่ไม่จำเป็นต้องใช้การค้นหา
@@ -26,13 +26,13 @@ ms.locfileid: "85219332"
 
 ## <a name="create-a-qr-code-for-a-tile"></a>สร้างคิวอาร์โค้ดสำหรับไทล์
 1. เปิดแดชบอร์ดในบริการ Power BI
-2. เลือก **ตัวเลือกเพิ่มเติม** (...) ที่มุมขวาบนของไทล์ แล้วเลือก**โหมดโฟกัส** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg)
+2. เลือก **ตัวเลือกเพิ่มเติม** (...) ที่มุมขวาบนของไทล์ แล้วเลือก**โหมดโฟกัส** ![ไอคอนเต็มหน้าจอ](media/service-create-qr-code-for-tile/fullscreen-icon.jpg)
 3. เลือก **ตัวเลือกเพิ่มเติม** (...) ที่มุมขวาบน แล้วเลือก**สร้างคิวอาร์โค้ด** 
    
-    ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
+    ![ภาพหน้าจอของไทล์ ที่แสดงตัวชี้จากจุดไข่ปลาเพื่อสร้างรหัส QR](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
 4. กล่องโต้ตอบที่มีคิวอาร์โค้ดจะปรากฏขึ้น 
    
-    ![](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
+    ![ภาพหน้าจอของกล่องโต้ตอบ ที่แสดงว่ารหัส QR พร้อมที่จะดาวน์โหลดหรือบันทึก](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
 5. จากที่นี่ คุณสามารถสแกนคิวอาร์โค้ด หรือดาวน์โหลด และบันทึกเพื่อให้คุณสามารถ: 
    
    * เพิ่มคิวอาร์โค้ดลงในอีเมลหรือเอกสารอื่น ๆ หรือ 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 59cb62a9186da03a265fc3a8711d7275c3772af3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 39eef27e746e636ddb331d28a930c1cd0dca0a5d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75623072"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214911"
 ---
 # <a name="disable-power-query-background-refresh"></a>ปิดใช้งานการรีเฟรชพื้นหลังของ Power Query
 
@@ -28,19 +28,19 @@ ms.locfileid: "75623072"
 
 คุณจะได้รับการรีเฟรชได้รวดเร็วยิ่งขึ้นโดยการตั้งค่าไฟล์ Power BI Desktop เพื่ออัปเด การแสดงตัวอย่างของแคช_ในพื้นหลัง_ ใน Power BI Desktop คุณเปิดใช้งานโดยการเลือก _ไฟล์ > ตัวเลือกและการตั้งค่า > ตัวเลือก_จากนั้นเลือกหน้า_โหลดข้อมูล_ คุณสามารถเปิดตัวเลือก**การอนุญาตให้ดาวน์โหลดภาพแสดงตัวอย่างข้อมูลในพื้นหลัง** โปรดทราบว่าตัวเลือกนี้สามารถกำหนดสำหรับไฟล์ปัจจุบันได้
 
-![ตัวเลือกข้อมูลพื้นหลังของ Power BI Desktop](media/power-query-background-refresh/power-query-options-background-data.png)
+![ภาพหน้าจอของ Power BI Desktop ที่แสดงตัวเลือกข้อมูลพื้นหลัง](media/power-query-background-refresh/power-query-options-background-data.png)
 
 การเปิดใช้งานการรีเฟรชพื้นหลังสามารถทำให้ข้อมูลแสดงตัวอย่างหมดอายุแล้ว ถ้าเกิดขึ้น ตัวแก้ไข Power Query จะแจ้งให้คุณทราบด้วยคำเตือนต่อไปนี้:
 
-![ตัวแก้ไข Power Query จะแจ้งเกี่ยวกับข้อมูลตัวอย่างเดิม](media/power-query-background-refresh/power-query-preview-data-old.png)
+![ภาพหน้าจอของหน้าต่าง Power BI Desktop ที่แสดงคำเตือนของตัวแก้ไข Power Query เกี่ยวกับข้อมูลตัวอย่างเก่า](media/power-query-background-refresh/power-query-preview-data-old.png)
 
 สามารถอัปเดตแคชตัวอย่างได้ คุณสามารถอัปเดตสำหรับคิวรีเดียว หรือคิวรีทั้งหมดโดยใช้คำสั่ง **รีเฟรชตัวอย่าง** คุณจะพบที่ริบบิ้น **หน้าหลัก** ของหน้าต่างตัวแก้ไข Power Query
 
-![ตัวแก้ไข Power Query สั่งให้รีเฟรชข้อมูลตัวอย่าง](media/power-query-background-refresh/power-query-refresh-preview-data.png)
+![ภาพหน้าจอของหน้าต่าง Power BI Desktop ที่แสดงคำสั่งของตัวแก้ไข Power Query เพื่อรีเฟรชข้อมูลตัวอย่าง](media/power-query-background-refresh/power-query-refresh-preview-data.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 สำหรับข้อมูลเพิ่มเติมที่เกี่ยวข้องกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
 - [เอกสาร Power Query](/power-query/)
-- มีคำถามหรือไม่? [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+- มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)

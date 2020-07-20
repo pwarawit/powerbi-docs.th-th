@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: f69d55e6c4f0916ac2c0c5083e062b248c4c36de
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b877ec917953bb6ec456a0042035e498c591e1ed
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239434"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86213990"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>วิธีการค้นหาคีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงานของคุณ
 เรียนรู้วิธีคุณสามารถค้นหาคีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI ของคุณเมื่อต้องการติดตั้งเซิร์ฟเวอร์ของคุณในสภาพแวดล้อมการผลิต
@@ -29,20 +29,20 @@ ms.locfileid: "85239434"
 
 ![คีย์เซิร์ฟเวอร์รายงาน Power BI ภายในการตั้งค่าขั้นสูง](media/find-product-key/pbirs-product-key.png)
 
-การเลือก**คีย์เซิร์ฟเวอร์รายงาน Power BI**จะแสดงกล่องโต้ตอบที่มีคีย์ผลิตภัณฑ์ของคุณ คุณสามารถคัดลอกคีย์และนำไปใช้กับการติดตั้ง
+โดยเลือก**คีย์เซิร์ฟเวอร์รายงาน Power BI**จะแสดงกล่องโต้ตอบที่มีคีย์ผลิตภัณฑ์ของคุณ คุณสามารถคัดลอกและใช้กับการติดตั้ง
 
 ![คีย์ผลิตภัณฑ์เซิร์ฟเวอร์รายงาน Power BI](media/find-product-key/pbirs-product-key-dialog.png)
 
 ## <a name="purchased-software-assurance-agreement"></a>ข้อตกลงการรับประกันซอฟต์แวร์ที่ซื้อแล้ว
-ถ้าคุณมีข้อตกลง SQL Server Enterprise SA คุณสามารถรับคีย์ผลิตภัณฑ์ของคุณจาก[ศูนย์บริการการมอบสิทธิ์การใช้งาน Volume](https://www.microsoft.com/Licensing/servicecenter/)ได้ ค้นหาภายใต้เซอร์วิสแพ็คล่าสุดสำหรับเซิร์ฟเวอร์ SQL รุ่นล่าสุด หากคุณค้นหาไม่พบ ให้ค้นหาภายใต้การปล่อย RTM ของเซิร์ฟเวอร์ SQL รุ่นล่าสุด
+ถ้าคุณมีข้อตกลง SQL Server Enterprise SA คุณจะสามารถรับคีย์ผลิตภัณฑ์ของคุณจาก[ศูนย์บริการ Volume Licensing](https://www.microsoft.com/Licensing/servicecenter/) ค้นหาภายใต้เซอร์วิสแพ็คล่าสุดสำหรับเซิร์ฟเวอร์ SQL รุ่นล่าสุด หากคุณค้นหาไม่พบ ให้ค้นหาภายใต้การปล่อย RTM ของเซิร์ฟเวอร์ SQL รุ่นล่าสุด
 
 > [!NOTE]
 > คุณต้องค้นหาภายใต้ส่วนดาวน์โหลด ไม่ใช่ส่วนคีย์
 > 
 > 
 
-![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
-
+![ภาพหน้าจอของ SQL Server Enterprise ที่แสดงแท็บการดาวน์โหลดและคีย์ที่มีข้อมูลการรวมของ Power B I Report](media/find-product-key/vlsc-download.png "ศูนย์บริการสิทธิ์การใช้งาน Volume")
+ 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 [ติดตั้ง Power BI Report Server](install-report-server.md)  
 [ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับ Power BI Report Server](install-powerbi-desktop.md)  

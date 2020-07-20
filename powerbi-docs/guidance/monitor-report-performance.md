@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3c76fed8f5533ad339904c4f8251a7404270a0ae
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279031"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216596"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>ตรวจสอบประสิทธิภาพของรายงานใน Power BI
 
@@ -35,7 +35,7 @@ ms.locfileid: "83279031"
 > [!NOTE]
 > การวินิจฉัยคิวรีเป็นฟีเจอร์แสดงตัวอย่าง ดังนั้นคุณต้องเปิดใช้งานใน_ตัวเลือกและการตั้งค่า_ เมื่อเปิดใช้งาน คำสั่งจะพร้อมใช้งานในหน้าต่างตัวแก้ไข Power Query บนแท็บ ribbon **เครื่องมือ**
 
-![ภาพแสดงแถบ ribbon เครื่องมือตัวแก้ไข Power Query Ribbon แสดงคำสั่งวินิจฉัยขั้นตอน การเริ่มต้นคำสั่งการวินิจฉัย และคำสั่งหยุดการวินิจฉัย](media/monitor-report-performance/power-query-diagnotics.png)
+![ภาพหน้าจอของแถบเครื่องมือตัวแก้ไข Power Query ที่แสดงคำสั่งวินิจฉัยขั้นตอน คำสั่งเริ่มการวินิจฉัย และคำสั่งหยุดการวินิจฉัย](media/monitor-report-performance/power-query-diagnotics.png)
 
 ## <a name="use-performance-analyzer"></a>ใช้ตัววิเคราะห์ประสิทธิภาพ
 

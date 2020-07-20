@@ -1,18 +1,18 @@
 ---
 title: สร้างรายงานแบบแบ่งหน้าด้วยชุดข้อมูลที่ใช้ร่วมกันของ Power BI - ตัวสร้างรายงาน Power BI
 description: สร้างรายงานแบบแบ่งหน้าในตัวสร้างรายงาน Power BI โดยอ้างอิงจากชุดข้อมูลที่ใช้ร่วมกันของ Power BI
-ms.date: 02/12/2020
+ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d3955b8dde22863e7b0224d335b162846e0741d2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239796"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216793"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>สร้างรายงานแบบแบ่งหน้าโดยอ้างอิงจากชุดข้อมูลที่ใช้ร่วมกันของ Power BI
 
@@ -104,6 +104,9 @@ ms.locfileid: "85239796"
     ![ตัวออกแบบคิวรีในตัวสร้างรายงาน](media/report-builder-shared-datasets/power-bi-report-builder-query-designer.png)
 
 1. ในกล่องด้านบน ให้วางคิวรีที่คุณคัดลอกจาก Power BI Desktop
+
+    > [!NOTE]
+    > ถ้าคิวรีของคุณมีฟังก์ชัน TOPN ให้ลบออกจากคิวรีของคุณ
 
 1. เลือก**ดำเนินการคิวรี** (เครื่องหมายอัศเจรีย์สีแดง !) เพื่อให้แน่ใจว่าคิวรีของคุณทำงาน 
 

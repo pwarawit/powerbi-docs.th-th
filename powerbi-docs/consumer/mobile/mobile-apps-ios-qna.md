@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: de20bc743c582d42d81f2d4c2544e3acf5f1b99c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234511"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264911"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>นักวิเคราะห์เสมือนของถามตอบ ในแอป iOS - Power BI
 
@@ -49,40 +49,40 @@ ms.locfileid: "85234511"
 3. พิมพ์ **แสดง** แตะที่ **ยอดขาย** จากรายการแนะนำ > **ส่ง** ![ไอคอนส่ง](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
 
     ![แสดงยอดขาย](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. แตะที่ **โดย** จากคำสำคัญ จากนั้นแตะที่ **รายการ** จากรายการแนะนำ > **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
+4. แตะที่ **ตาม** จากคำสำคัญ จากนั้นแตะที่**รายการ**จากรายการแนะนำ > **ส่ง** ![ไอคอนส่ง](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
 
     ![ยอดขายตามรายการสินค้า](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. แตะ **เป็น** จากคำสำคัญ แตะไอคอนแผนภูมิคอลัมน์ ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) แล้วแตะ **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
+5. แตะที่ **เป็น** จากคำสำคัญ แตะไอคอนแผนภูมิคอลัมน์ ![ไอคอนแผนภูมิ](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) จากนั้นแตะที่**ส่ง** ![ไอคอนส่ง](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
 6. แตะแผนภูมิผลลัพธ์ค้างไว้ แล้วแตะ **ขยาย**
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
+    ![ภาพหน้าจอของแผนภูมิคอลัมน์ ที่แสดงตัวชี้เพื่อขยาย](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
 
     แผนภูมิก็จะเปิดในโหมดโฟกัสในแอป
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
+    ![ภาพหน้าจอของแผนภูมิคอลัมน์ ที่แสดงโหมดโฟกัสของแผนภูมิ](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. แตะลูกศรที่มุมซ้ายบน เพื่อกลับไปยังหน้าต่างการสนทนาสำหรับนักวิเคราะห์เสมือนของถามตอบ
 8. แตะ X ที่ด้านขวาของกล่องข้อความ เพื่อลบข้อความ แล้วเริ่มต้นอีกครั้ง
-9. ลองตั้งคำถามใหม่: แตะที่ **ด้านบน** จากส่วนคำสำคัญ ให้แตะ **ยอดขายโดยเฉลี่ย $/หน่วย/ปี** > **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
+9. ลองตั้งคำถามใหม่: แตะที่ **สูงสุด** จากคำสำคัญ แตะที่**ยอดขายโดยเฉลี่ย $/หน่วย** > **ส่ง** ![ไอคอนส่ง](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. เลือก **โดย** ในส่วนคำสำคัญ ให้แตะ **เวลา**จากรายการคำแนะนำด้านบน > **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
+    ![ภาพหน้าจอของคำถาม ที่แสดงยอดขายสูงสุดตามจำนวนค่าเฉลี่ยต่อหน่วย](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
+10. เลือก **ตาม** จากคำสำคัญ แตะที่**เวลา**จากรายการคำแนะนำด้านบน > **ส่ง** ![ไอคอนส่ง](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
 
-     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. พิมพ์ **เป็น** เลือกไอคอนแผนภูมิเส้น ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png)จากรายการคำแนะนำ > **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
+     ![ภาพหน้าจอของแผนภูมิ ที่แสดงยอดขายสูงสุดตามจำนวนค่าเฉลี่ยต่อหน่วยตามเวลา](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
+11. พิมพ์ **เป็น** เลือกไอคอนแผนภูมิเส้น ![ไอคอนแผนภูมิ](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png)จากรายการคำแนะนำ > **ส่ง** ![ไอคอนส่ง](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
+    ![ภาพหน้าจอของคอลัมน์และแผนภูมิเส้น ที่แสดงตัวชี้จากคอลัมน์ไปยังแผนภูมิเส้น](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 
 ## <a name="try-saying-your-questions"></a>ลองพูดถามคำถามของคุณ
 ถึงตอนี้ คุณก็สามารถถามคำถามเกี่ยวกับข้อมูลของคุณในแอปสำหรับอุปกรณ์เคลื่อนที่ Power BI ได้โดยการพูดแทนที่จะใช้วิธีพิมพ์
 
 1. แตะไอคอนนักวิเคราะห์เสมือนของถามตอบ ![ไอคอนนักวิเคราะห์เสมือนของถามตอบ](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) จากเมนูการดำเนินการที่ด้านล่างของหน้า (ที่ด้านบนของหน้าใน iPad)
-2. แตะไอคอนไมโครโฟน ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png)
+2. แตะไอคอนไมโครโฟน ![ไอคอนไมโครโฟน](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
+    ![ภาพหน้าจอของคำถาม ที่แสดงว่าไมโครโฟนทำงานอยู่](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. เมื่อไอคอนไมโครโฟนพร้อมใช้งาน ให้เริ่มพูด ตัวอย่างเช่น พูดว่า "average unit price by time (ราคาเฉลี่ยต่อหน่วยตามระยะเวลา)" จากนั้นแตะ **ส่ง** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
+1. เมื่อไอคอนไมโครโฟนพร้อมใช้งาน ให้เริ่มพูด ตัวอย่างเช่น พูดว่า "average unit price by time (ราคาเฉลี่ยต่อหน่วยตามระยะเวลา)" จากนั้นแตะที่**ส่ง** ![ไอคอนส่ง](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
+    ![ภาพหน้าจอของคำถาม ที่แสดงว่าคำพูดเสร็จสมบูรณ์](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 
 ### <a name="questions-about-privacy-when-using-speech-to-text"></a>มีคำถามเกี่ยวกับความเป็นส่วนตัว เมื่อใช้การเปลี่ยนคำพูดให้เป็นข้อความหรือไม่
 โปรดดูส่วนเนื้อหาการรู้จำเสียงของ[มีอะไรใหม่ใน iOS](https://go.microsoft.com/fwlink/?linkid=845624) ในคู่มือสำหรับนักพัฒนา Apple iOS
@@ -91,7 +91,7 @@ ms.locfileid: "85234511"
 * ต้องการความช่วยเหลือหรือไม่ เพียงแค่พูดว่า "Hi (สวัสดี)" หรือ "Help (ช่วยด้วย)" แล้วคุณก็จะได้รับความช่วยเหลือเกี่ยวกับการเริ่มต้นถามคำถามใหม่
 * มีความประสงค์จะส่งคำติชมเกี่ยวกับผลลัพธ์นี้หรือไม่ แตะแผนภูมิหรือผลลัพธ์อื่นๆ ค้างไว้ แล้วแตะที่รูปหน้ายิ้มหรือหน้าบึ้ง
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
+    ![ภาพหน้าจอของแผนภูมิคอลัมน์ ที่แสดงข้อคิดเห็นพร้อมด้วยตัวชี้ไปยังหน้ายิ้ม](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
 
     คำติชมของคุณเป็นแบบไม่ระบุชื่อ และจะช่วยให้เราปรับปรุงการตอบคำถามของเรา
 

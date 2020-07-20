@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 87a30acce38966d0e044f4ed0b6691ccbc7acd3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 0be1f3aeb48e4596566c36c1ee8cfadeb3c33d10
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349229"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214033"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>การเปรียบเทียบ Power BI Desktop และบริการ Power BI
 
 ในแผนภาพเวนน์ที่เปรียบเทียบ Power BI Desktop และบริการ Power BI พื้นที่ตรงกลางจะแสดงให้เห็นว่าทั้งสองทับซ้อนกันอย่างไร งานบางอย่างที่คุณสามารถทำได้ทั้งใน Power BI Desktop หรือบริการ ทั้งสองด้านของแผนภาพเวนน์แสดงคุณสมบัติที่เป็นเอกลักษณ์ของแอปพลิเคชันและบริการ  
 
-![แผนภาพเวนน์ของ Power BI Desktop และบริการ](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
+![แผนภาพเวนน์ แสดงความสัมพันธ์ระหว่าง Power BI Desktop และบริการ Power BI](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
 **Power BI Desktop** เป็นเครื่องมือการวิเคราะห์ข้อมูลและการสร้างรายงานที่สมบูรณ์แบบ ซึ่งคุณสามารถติดตั้งแอปพลิเคชันฟรีได้บนคอมพิวเตอร์ของคุณ ซึ่งรวมถึง Query Editor ที่คุณสามารถเชื่อมต่อกับแหล่งข้อมูลที่แตกต่างกันมากมายและรวมเข้าด้วยกัน (มักเรียกว่าการสร้างแบบจำลอง) ลงในแบบจำลองข้อมูล จากนั้นคุณออกแบบรายงานที่ยึดตามแบบจำลองข้อมูลนั้น [แนวทางการเริ่มใช้งาน Power BI Desktop](desktop-getting-started.md) ผ่านกระบวนการต่างๆ
 
@@ -33,7 +33,7 @@ ms.locfileid: "83349229"
 
 ทั้งในแอปพลิเคชันและบริการ คุณสามารถสร้างและแก้ไข *รายงาน* ได้ รายงานสามารถมีตั้งแต่หนึ่งหน้าขึ้นไปได้ พร้อมด้วยวิชวลและชุดของวิชวล เพิ่มบุ๊กมาร์ก ปุ่ม ตัวกรอง และการเจาะลึกข้อมูลเพื่อปรับปรุงการนำทางในรายงานของคุณ
 
-![การแก้ไขรายงานใน Power BI Desktop หรือในบริการ](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
+![ภาพหน้าจอของ Power BI Desktop และบริการ Power BI พร้อมส่วนที่มีลำดับเลข](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
 เครื่องมือแก้ไขรายงานใน Power BI Desktop และในบริการมีความคล้ายคลึงกัน โดยมีการสร้างขึ้นจากสามส่วน:  
 

@@ -7,14 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 07/09/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 1ff7332bc71935cd6b679fa546dc2f1d37551436
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782557"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215740"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>การนำทางสำหรับผู้บริโภค Power BI: การค้นหาส่วนกลาง
 
@@ -28,7 +29,7 @@ ms.locfileid: "85782557"
 ## <a name="searching-for-content"></a>กำลังค้นหาสำหรับเนื้อหา
  การค้นหาพร้อมใช้งานจากเกือบทุกส่วนของบริการ Power BI เพียงแค่มองหากล่องค้นหาหรือไอคอนค้นหา ![ไอคอนแว่นขยาย](./media/end-user-search-sort/power-bi-search-icon.png).
 
- ในเขตข้อมูลการค้นหา ให้พิมพ์ชื่อทั้งหมดหรือบางส่วนของแดชบอร์ด รายงาน สมุดงาน แอป หรือเจ้าของ Power BI ค้นหาเนื้อหาทั้งหมดของคุณ 
+ ในเขตข้อมูลการค้นหา ให้พิมพ์ชื่อทั้งหมดหรือบางส่วนของแดชบอร์ด รายงาน สมุดงาน พื้นที่ทำงาน แอป หรือเจ้าของ Power BI ค้นหาเนื้อหาทั้งหมดของคุณ 
 
  ![การค้นหารายงาน](./media/end-user-search-sort/power-bi-search-field.png) 
 

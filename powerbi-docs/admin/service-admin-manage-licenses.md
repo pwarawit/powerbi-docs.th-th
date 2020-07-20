@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b110dceb7427e3aeefe8e7ef48e579943a7e6f3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: af58a79c5c81e8f04e5d0ba714703c202f9c8000
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228454"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161364"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>ดูและจัดการใบอนุญาตของผู้ใช้ Power BI
 
@@ -35,7 +35,7 @@ ms.locfileid: "85228454"
 
 การสมัครใช้งาน Power BI ที่ใช้งานของคุณจะแสดงอยู่ในรายการพร้อมกับการสมัครใช้งานอื่น ๆ ที่คุณมี คุณอาจเห็นการสมัครใช้งานที่ไม่คาดคิดสำหรับ Power BI (ฟรี) ดังที่แสดงไว้ที่นี่
 
-  ![การสมัครใช้งานที่เปิดใช้งานผู้ใช้แบบฟรีของ Power BI](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
+  ![ภาพหน้าจอของการสมัครใช้งาน Power B I ที่แสดงการสมัครใช้งานฟรี](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
 การสมัครใช้งานประเภทนี้จะถูกสร้างขึ้นสำหรับคุณเมื่อผู้ใช้ใช้ประโยชน์จากการลงทะเบียนแบบบริการตนเอง หากต้องการอ่านเพิ่มเติม โปรดดู [Power BI ในองค์กรของคุณ](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)
 

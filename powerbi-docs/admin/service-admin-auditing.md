@@ -10,11 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782411"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161732"
 ---
 # <a name="track-user-activities-in-power-bi"></a>ติดตามกิจกรรมของผู้ใช้ใน Power BI
 
@@ -144,7 +145,7 @@ $activities[0]
 
 2. เลือก **กิจกรรม Power BI**
 
-   ![สกรีนช็อตของการค้นหาบันทึกการตรวจสอบด้วยการเรียก Power BI ออกมา](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+   ![ภาพหน้าจอของการเรียกการค้นหาบันทึกการตรวจสอบด้วยกิจกรรม Power BI ออกมา](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
 3. เลือกที่ได้ก็ได้ภายนอกกล่องการเลือกเพื่อปิด
 
@@ -156,13 +157,13 @@ $activities[0]
 
 จะมีข้อผิดพลาดแสดงถ้าเลือกช่วงวันมีค่ามากกว่า 90 วัน หากคุณกำลังใช้ช่วงวันที่สูงสุด 90 วัน เลือกเวลาปัจจุบันสำหรับ **วันเริ่มต้น** มิฉะนั้น คุณจะได้รับข้อผิดพลาดที่ระบุว่า วันที่เริ่มต้นเร็วกว่าวันที่สิ้นสุด หากคุณเปิดการตรวจสอบภายในช่วง 90 วันที่ผ่านมา ช่วงวันที่จะไม่สามารถเริ่มก่อนวันที่ที่เปิดใช้งานการตรวจสอบ
 
-![สกรีนช็อตของวิธีเรียกการค้นหาบันทึกการตรวจสอบด้วยตัวเลือกวันที่เริ่มต้นและสิ้นสุดออกมา](media/service-admin-auditing/search-audit-log-by-date.png)
+![ภาพหน้าจอของการเรียกการค้นหาบันทึกการตรวจสอบด้วยตัวเลือกวันที่เริ่มต้นและสิ้นสุดออกมา](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ### <a name="search-the-audit-logs-by-users"></a>ค้นหาบันทึกการตรวจสอบตามผู้ใช้งาน
 
 คุณสามารถค้นหารายการบันทึกการตรวจสอบสำหรับกิจกรรมต่าง ๆ ที่ดำเนินการโดยผู้ใช้ที่ระบุได้ ให้ใส่ชื่อผู้ใช้อย่างน้อยหนึ่งชื่อในเขตข้อมูล **ผู้ใช้** ชื่อผู้ใช้มีลักษณะเหมือนกับที่อยู่อีเมล ซึ่งเป็นบัญชีผู้ใช้ที่เข้าสู่ระบบ Power BI ด้วย ปล่อยให้กล่องนี้ว่างไว้เพื่อกลับไปยังรายการสำหรับผู้ใช้ทั้งหมด (และบัญชีบริการ) ในองค์กรของคุณ
 
-![ค้นหาตามผู้ใช้งาน](media/service-admin-auditing/search-audit-log-by-user.png)
+![ภาพหน้าจอของการเรียกการค้นหาบันทึกการตรวจสอบด้วยผู้ใช้ออกมา](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ### <a name="view-search-results"></a>ดูผลลัพธ์การค้นหา
 
@@ -197,7 +198,7 @@ $activities[0]
 
 1. เลือก**บันทึกผลลัพธ์ที่โหลด**หรือ**ดาวน์โหลดผลลัพธ์ทั้งหมด** อย่างใดอย่างหนึ่ง
 
-    ![ภาพหน้าจอของตัวเลือกผลลัพธ์การส่งออก](media/service-admin-auditing/export-auditing-results.png)
+    ![ภาพหน้าจอของการเรียกตัวเลือกส่งออกผลลัพธ์ที่มีการดาวน์โหลดผลลัพธ์ทั้งหมดออกมา](media/service-admin-auditing/export-auditing-results.png)
 
 ### <a name="use-powershell-to-search-audit-logs"></a>ใช้ PowerShell เพื่อค้นหาบันทึกการตรวจสอบ
 

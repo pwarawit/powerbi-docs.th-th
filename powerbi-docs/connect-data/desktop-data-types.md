@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 40f85c40abd543e4f90a1f571ce648bfc4af7d9e
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561581"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216453"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>ชนิดข้อมูลใน Power BI Desktop
 บทความนี้อธิบายถึงชนิดข้อมูลที่ใช้ใน Power BI Desktop และนิพจน์การวิเคราะห์ข้อมูล (DAX) 
@@ -28,11 +28,11 @@ ms.locfileid: "83561581"
 
 **ชนิดข้อมูลในตัวแก้ไขคิวรี**
 
-![](media/desktop-data-types/pbiddatatypesinqueryeditort.png)
+![ภาพหน้าจอของริบบอนชนิดข้อมูล ที่แสดงในตัวแก้ไขคิวรี](media/desktop-data-types/pbiddatatypesinqueryeditort.png)
 
 **ชนิดข้อมูลในมุมมองข้อมูลหรือมุมมองรายงาน**
 
-![](media/desktop-data-types/pbiddatatypesindatareportview.png)
+![ภาพหน้าจอของริบบอนชนิดข้อมูล ที่แสดงในมุมมองข้อมูล](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
 ชนิดข้อมูลแบบหล่นลงในตัวแก้ไขคิวรีมีสองชนิดที่ไม่อยู่ในมุมมองข้อมูลหรือมุมมองรายงานในขณะนี้ คือ: **วันที่/เวลา/โซนเวลา**และ**ระยะเวลา** เมื่อคอลัมน์ที่มีชนิดข้อมูลเหล่านี้ถูกโหลดลงในแบบจำลองและดูในมุมมองข้อมูลหรือมุมมองรายงาน คอลัมน์ที่มีชนิดข้อมูลวันที่/เวลา/โซนเวลา จะถูกแปลงเป็น วันที่/เวลา และคอลัมน์ที่มีชนิดข้อมูลระยะเวลาจะถูกแปลงเป็นเลขทศนิยาม
 

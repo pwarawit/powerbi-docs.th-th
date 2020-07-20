@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2c92fb47f576b750aa4815b56fabece2b5bc1de5
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 396c760a97911a35d7fdc0c608fc35de1cf6586d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565982"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216821"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>เทคนิคการลดข้อมูลเพื่อการนำเข้าการสร้างแบบจำลอง
 
@@ -84,7 +84,7 @@ ms.locfileid: "83565982"
 
 ไม่ควรโหลดคิวรี Power Query ที่มีเป้าหมายสนับสนุนการรวมข้อมูลกับคิวรีอื่น ๆ ไปยังแบบจำลอง เพื่อหลีกเลี่ยงการโหลดคิวรีไปยังแบบจำลอง ดูแลเพื่อให้แน่ใจว่าคุณปิดใช้งานการโหลดคิวรีในอินสแตนซ์เหล่านี้
 
-![การปิดใช้งานการโหลดสำหรับคิวรี Power Query](media/import-modeling-data-reduction/power-query-disable-query-load.png)
+![ภาพหน้าจอของ Power Query ที่แสดงตัวเลือก "เปิดใช้งานการโหลด"](media/import-modeling-data-reduction/power-query-disable-query-load.png)
 
 ## <a name="disable-auto-datetime"></a>ปิดใช้งานวันที่/เวลาอัตโนมัติ
 

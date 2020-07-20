@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 3d1c1919b5a940bc4ed6c5b0de9bd0af6444af00
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6cddfd820da45de6141b698b8cb6e3c2bfc68069
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220068"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264889"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>ตั้งค่าการแจ้งเตือนข้อมูลในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 นำไปใช้กับ:
@@ -37,14 +37,14 @@ ms.locfileid: "85220068"
 ### <a name="set-an-alert-on-an-iphone-or-ipad"></a>ตั้งค่าการแจ้งเตือนบน iPhone หรือ iPad
 1. แตะหมายเลขหรือไทล์ตัวประเมินในแดชบอร์ดเพื่อเปิดในโหมดโฟกัส  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
-2. แตะไอคอน bell![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png)เพื่อเพิ่มข้อความแจ้งเตือน  
+   ![ภาพหน้าจอของแดชบอร์ด ที่แสดงไทล์ตัววัดในโหมดโฟกัส](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
+2. แตะที่ไอคอนรูปกระดิ่ง ![ไอคอนรูปกระดิ่ง](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) หากต้องการเพิ่มการแจ้งเตือน  
 3. แตะ**เพิ่มกฎการแจ้งเตือน**
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
+   ![ภาพหน้าจอของกฎการแจ้งเตือน ที่แสดงว่าไม่มีการตั้งค่าการแจ้งเตือน](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
 4. เลือกรับการแจ้งเตือนที่มากหรือน้อยกว่าค่าหนึ่ง จากนั้นตั้งค่า
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-set-alert-threshold.png)
+   ![ภาพหน้าจอของการตั้งค่าการแจ้งเตือน ที่แสดงชื่อการแจ้งเตือนและค่าที่จะตั้งค่า](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-set-alert-threshold.png)
 5. ตัดสินใจว่า จะรับการแจ้งเตือนเป็นรายชั่วโมงหรือรายวัน และเลือกว่าจะรับอีเมล์เมื่อคุณได้รับการแจ้งเตือนด้วยหรือไม่
    
    > [!NOTE]
@@ -55,32 +55,32 @@ ms.locfileid: "85220068"
 7. แตะ**บันทึก**
 8. ไทล์เดียวสามารถมีการแจ้งเตือนสำหรับค่าทั้งเหนือและต่ำกว่าค่าเกณฑ์ ใน**จัดการการแจ้งเตือน**แตะ**เพิ่มกฎการแจ้งเตือน**
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
+   ![ภาพหน้าจอของการจัดการการแจ้งเตือน ที่แสดงตัวชี้ไปยังการเพิ่มกฎการแจ้งเตือน](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>จัดการการแจ้งเตือนบน iPhone หรือ iPad ของคุณ
 คุณสามารถจัดการการแจ้งเตือนแต่ละรายการบนอุปกรณ์เคลื่อนที่ของคุณ หรือ[จัดการการแจ้งเตือนของคุณทั้งหมดในบริการของ Power BI](../../create-reports/service-set-data-alerts.md)ได้
 
 1. ในแดชบอร์ด แตะตัวเลขหรือไทล์ตัวประเมินที่มีข้อความแจ้งเตือน  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+   ![ภาพหน้าจอของแดชบอร์ด ที่แสดงไทล์ตัวเลขที่มีการแจ้งเตือน](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
 
-2. แตะไอคอน bell ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png)  
+2. แตะที่ไอคอนรูปกระดิ่ง ![ไอคอนรูปกระดิ่ง](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png).  
 3. แตะชื่อของการแจ้งเตือนเพื่อแก้ไข แตะตัวเลื่อนเพื่อปิดการแจ้งเตือนทางอีเมล์ หรือแตะถังขยะเพื่อลบการแจ้งเตือน
    
-    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
+    ![ภาพหน้าจอของการแจ้งเตือน ที่ชี้ไปยังชื่อการแจ้งเตือน ถังขยะสำหรับการลบการแจ้งเตือน และแถบเลื่อนเพื่อปิดการแจ้งเตือน](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
 
 ## <a name="data-alerts-on-an-android-device"></a>การแจ้งเตือนข้อมูลบนอุปกรณ์ Android
 ### <a name="set-an-alert-on-an-android-device"></a>ตั้งค่าการแจ้งเตือนบนอุปกรณ์ Android
 1. ในแดชบอร์ด Power BI แตะตัวเลขหรือไทล์ตัวประเมินเพื่อเปิด  
-2. แตะไอคอน bell![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png)เพื่อเพิ่มข้อความแจ้งเตือน  
+2. แตะที่ไอคอนรูปกระดิ่ง ![ไอคอนรูปกระดิ่ง](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png) หากต้องการเพิ่มการแจ้งเตือน  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
+   ![ภาพหน้าจอของแดชบอร์ด ที่แสดงไทล์ตัวเลขที่มีการแจ้งเตือน](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
 3. แตะไอคอนเครื่องหมายบวก (+)
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-plus-alert.png)
+   ![ภาพหน้าจอของจัดการการแจ้งเตือน ที่แสดงตัวชี้ไปยังไอคอนเครื่องหมายบวก](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-plus-alert.png)
 4. เลือกเพื่อรับการแจ้งเตือนที่เหนือหรือต่ำกว่าค่าหนึ่ง และพิมพ์ค่า
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tablet-set-alert-condition.png)
+   ![ภาพหน้าจอของการตั้งค่าการแจ้งเตือน ที่แสดงตัวชี้ไปยังบันทึกและเสร็จสิ้น](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tablet-set-alert-condition.png)
 5. แตะ**เสร็จสิ้น**
 6. ตัดสินใจว่า จะรับการแจ้งเตือนเป็นรายชั่วโมงหรือรายวัน และเลือกว่าจะรับอีเมล์เมื่อคุณได้รับการแจ้งเตือนด้วยหรือไม่
    
@@ -95,12 +95,12 @@ ms.locfileid: "85220068"
 คุณสามารถจัดการการแจ้งเตือนแต่ละรายการในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่หรือ[จัดการการแจ้งเตือนของคุณทั้งหมดในบริการของ Power BI](../../create-reports/service-set-data-alerts.md) ได้
 
 1. ในแดชบอร์ด แตะตัวเลขหรือไทล์ตัวประเมินที่มีข้อความแจ้งเตือน  
-2. แตะไอคอน bell ทึบ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png)  
+2. แตะที่ไอคอนรูปกระดิ่งแบบทึบ ![ไอคอนรูปกระดิ่ง](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
 3. แตะการแจ้งเตือนเพื่อเปลี่ยนแปลงค่า หรือปิดการแจ้งเตือน
    
-    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
+    ![ภาพหน้าจอของไทล์จัดการการแจ้งเตือน ที่แสดงไอคอนเครื่องหมายบวกสำหรับการเพิ่มการแจ้งเตือน](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
 4. แตะไอคอนเครื่องหมายบวก (+) เมื่อต้องเพิ่มการแจ้งเตือนอื่นให้ไทล์เดียวกัน
-5. เมื่อต้องลบการแจ้งเตือนทั้งหมด แตะไอคอนถังขยะ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png)
+5. หากต้องลบการแจ้งเตือนทั้งหมด แตะไอคอนถังขยะ ![ไอคอนถังขยะ](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png).
 
 ## <a name="data-alerts-on-a-windows-device"></a>การแจ้งเตือนข้อมูลบนอุปกรณ์ Windows
 
@@ -109,15 +109,15 @@ ms.locfileid: "85220068"
 
 ### <a name="set-data-alerts-on-a-windows-device"></a>ตั้งค่าการแจ้งเตือนข้อมูลบนอุปกรณ์ Windows
 1. แตะหมายเลขหรือไทล์ตัวประเมินในแดชบอร์ดเพื่อเปิด  
-2. แตะไอคอน bell![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png)เพื่อเพิ่มข้อความแจ้งเตือน  
+2. แตะที่ไอคอนรูปกระดิ่ง ![ไอคอนรูปกระดิ่ง](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) หากต้องการเพิ่มการแจ้งเตือน  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
+   ![ภาพหน้าจอของแดชบอร์ด ที่แสดงไทล์ตัวเลขที่มีการแจ้งเตือน](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
 3. แตะไอคอนเครื่องหมายบวก (+)
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-no-alerts-yet.png)
+   ![ภาพหน้าจอของจัดการการแจ้งเตือน ที่แสดงว่าไม่มีการตั้งค่าการแจ้งเตือน](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-no-alerts-yet.png)
 4. เลือกเพื่อรับการแจ้งเตือนที่เหนือหรือต่ำกว่าค่าหนึ่ง และพิมพ์ค่า
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-set-alert.png)
+   ![ภาพหน้าจอของการตั้งค่าการแจ้งเตือน ที่แสดงรายการต่าง ๆ เพื่อแก้ไขการแจ้งเตือน](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-set-alert.png)
 5. ตัดสินใจว่า จะรับการแจ้งเตือนเป็นรายชั่วโมงหรือรายวัน และเลือกว่าจะรับอีเมล์เมื่อคุณได้รับการแจ้งเตือนด้วยหรือไม่
    
    > [!NOTE]
@@ -128,18 +128,18 @@ ms.locfileid: "85220068"
 7. แตะตัวกาเครื่องหมาย
 8. ไทล์เดียวสามารถมีการแจ้งเตือนสำหรับค่าทั้งเหนือและต่ำกว่าค่าเกณฑ์ ใน**จัดการการแจ้งเตือน**แตะเครื่องหมายบวก (+)
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
+   ![ภาพหน้าจอของจัดการการแจ้งเตือน ที่แสดงเครื่องหมายบวกสำหรับการเพิ่มการแจ้งเตือน](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>จัดการการแจ้งเตือนบนอุปกรณ์ Windows
 คุณสามารถจัดการการแจ้งเตือนแต่ละรายการในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่หรือ[จัดการการแจ้งเตือนของคุณทั้งหมดในบริการของ Power BI](../../create-reports/service-set-data-alerts.md) ได้
 
 1. ในแดชบอร์ด แตะตัวเลขหรือไทล์ตัวประเมินที่มีข้อความแจ้งเตือน  
-2. แตะไอคอน bell ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png)  
+2. แตะที่ไอคอนรูปกระดิ่ง ![ไอคอนรูปกระดิ่ง](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-has-alerts.png)
+   ![ภาพหน้าจอของแดชบอร์ด ที่แสดงไทล์ตัวเลขที่มีการแจ้งเตือน](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-has-alerts.png)
 3. แตะการแจ้งเตือนเพื่อเปลี่ยนแปลงค่า หรือปิดการแจ้งเตือน
    
-    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
+    ![ภาพหน้าจอของจัดการการแจ้งเตือน ที่แสดงเครื่องหมายบวกสำหรับการเพิ่มการแจ้งเตือน](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 4. เมื่อต้องลบการแจ้งเตือนทั้งหมด คลิกขวา หรือแตะ ค้าง > **ลบ**
 
 ## <a name="receiving-alerts"></a>รับการแจ้งเตือน
@@ -152,7 +152,7 @@ ms.locfileid: "85220068"
    ตราบใดที่ข้อมูลเกินค่าเกณฑ์ คุณจะได้รับการแจ้งเตือนทุกชั่วโมงหรือทุกๆ 24 ชั่วโมง
 2. ถ้าคุณได้ตั้งค่าการแจ้งเตือนให้ส่งอีเมล์ คุณจะพบสิ่งที่เหมือนสิ่งนี้้ในกล่องอีเมลเข้าของคุณ
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
+   ![ภาพหน้าจอของการแจ้งเตือนทางอีเมล ที่แสดงการแจ้งเตือน](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
 3. Power BI จะเพิ่มข้อความไปยัง [ศูนย์การแจ้งเตือน](mobile-apps-notification-center.md) ของคุณ และเพิ่มจุดสีเหลืองลงในไอคอนระฆัง ![ไอคอนระฆัง](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) บนแถบชื่อเรื่อง (iOS และ Android) หรือปุ่มการนำทางส่วนกลาง ![ปุ่มนำทางส่วนกลาง](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (อุปกรณ์ Windows 10)
 
 

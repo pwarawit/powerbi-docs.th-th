@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b649b3694eab5a573f814efd707155154d54b18
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c34244669b538a5c3138536adbfd022eb00e646d
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236677"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263032"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>รับข้อมูลจากไฟล์ Power BI Desktop
-![](media/service-desktop-files/pbid_file_icon.png)
+![ไอคอนไฟล์ Power B I Desktop](media/service-desktop-files/pbid_file_icon.png)
 
 **Power BI Desktop**ทำให้ข่าวกรองธุรกิจและการรายงานเป็นเรื่องง่าย ไม่ว่าคุณกำลังเชื่อมต่อกับแหล่งข้อมูลต่าง ๆ มากมาย ทำแบบสอบถาม หรือกำลังแปลงข้อมูล ทำแบบจำลองข้อมูลของคุณ หรือสร้างรายงานแบบไดนามิกและมีประสิทธิภาพ **Power BI Desktop**ทำให้งานด้านข่าวกรองธุรกิจทำงานง่ายและรวดเร็ว ถ้าคุณไม่คุ้นเคยกับ **Power BI Desktop** โปรดดู[เริ่มต้นใช้งาน Power BI Desktop](../fundamentals/desktop-getting-started.md)
 
@@ -38,13 +38,13 @@ ms.locfileid: "85236677"
 
 1. ใน Power BI ในพื้นที่ตัวนำทาง คลิก **รับข้อมูล**
    
-   ![](media/service-desktop-files/pbid_get_data_button.png)
+   ![ภาพหน้าจอของรับข้อมูล ที่แสดงปุ่มในบานหน้าต่างการนำทาง](media/service-desktop-files/pbid_get_data_button.png)
 2. ใน**ไฟล์** คลิก**รับ**
    
-   ![](media/service-desktop-files/pbid_files_get.png)
+   ![ภาพหน้าจอของกล่องโต้ตอบไฟล์ ที่แสดงปุ่มรับ](media/service-desktop-files/pbid_files_get.png)
 3. ค้นหาไฟล์ของคุณ ไฟล์ Power BI Desktop มีนามสกุลเป็น .PBIX
    
-   ![](media/service-desktop-files/pbid_find_your_file.png)
+   ![ภาพหน้าจอของไทล์สี่รายการเพื่อค้นหาไฟล์ของคุณ ที่แสดงไทล์ของไฟล์ภายในเครื่อง, OneDrive Business, OneDrive Personal และ SharePoint](media/service-desktop-files/pbid_find_your_file.png)
 
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>เผยแพร่ไฟล์จาก Power BI Desktop ไปยังไซต์ Power BI ของคุณ
 การใช้การเผยแพร่จาก Power BI Desktop นั้นคล้ายคลึงกับการใช้รับข้อมูลใน Power BI ในแง่ของการนำเข้าข้อมูลไฟล์ของคุณจากไดรฟ์ภายในคอมพิวเตอร์ของคุณหรือการเชื่อมต่อกับไฟล์บน OneDrive อย่างไรก็ตาม ทั้งสองแบบมีความแตกต่างบางประการ: หากคุณอัปโหลดจากไดรฟ์ภายในคอมพิวเตอร์ของคุณ คุณจะต้องรีเฟรชข้อมูลนั้นบ่อยครั้งเพื่อให้แน่ใจว่าสำเนาข้อมูลออนไลน์และภายในเครื่องเป็นข้อมูลปัจจุบันซึ่งกันและกัน 
@@ -53,12 +53,12 @@ ms.locfileid: "85236677"
 
 1. ใน Power BI Desktop คลิก**ไฟล์** > **เผยแพร่** > **เผยแพร่ไปยัง Power BI**หรือคลิก**เผยแพร่**บน Ribbon
    
-   ![](media/service-desktop-files/pbid_publish.png)
+   ![ภาพหน้าจอของการเผยแพร่บนแถบเครื่องมือริบบอน ที่แสดงวิธีการเผยแพร่จาก Power B I Desktop](media/service-desktop-files/pbid_publish.png)
 2. ลงชื่อเข้าใช้ไปยัง Power BI คุณจำเป็นต้องทำขั้นตอนนี้เฉพาะครั้งแรกเท่านั้น
    
-   เมื่อเสร็จสิ้น คุณจะได้รับลิงก์เพื่อเปิดรายงานของคุณในไซต์ Power BI ของคุณ
+   เมื่อเสร็จสิ้น คุณจะได้รับลิงก์เพื่อเปิดรายงานของคุณในเว็บไซต์ Power BI ของคุณ
    
-   ![](media/service-desktop-files/pbid_publishing.png)
+   ![ภาพหน้าจอของกล่องโต้ตอบการยืนยันการลงชื่อเข้าใช้ ที่แสดงว่าคุณได้ลงชื่อเข้าใช้ด้วยลิงก์เพื่อเปิดรายงานของคุณสำเร็จแล้ว](media/service-desktop-files/pbid_publishing.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 **สำรวจข้อมูลของคุณ** เมื่อคุณได้รับข้อมูลและรายงานจากไฟล์ของคุณลงใน Power BI แล้ว นั่นก็ถึงเวลาการสำรวจ ถ้าไฟล์ของคุณมีรายงานอยู่แล้ว รายงานเหล่านี้จะปรากฏในพื้นที่ตัวนำทางใน**รายงาน** ถ้าไฟล์ของคุณมีเพียงข้อมูล คุณสามารถสร้างรายงานใหม่ ได้ เพียงคลิกขวาที่ชุดข้อมูลใหม่แล้ว คลิก**สำรวจ**

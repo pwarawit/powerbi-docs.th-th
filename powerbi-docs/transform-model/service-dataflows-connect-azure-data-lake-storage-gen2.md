@@ -9,11 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d6301b4eea49ab4ae5714446e051290cb254c324
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354765"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385963"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>เชื่อมต่อ Azure Data Lake Storage Gen2 สำหรับการเก็บกระแสข้อมูล
 
@@ -45,6 +46,7 @@ ms.locfileid: "85354765"
 2. ต้องสร้างบัญชีเก็บข้อมูลในพื้นที่เดียวกันกับที่เช่า AADในฐานะผู้เช่า Power BI ของคุณ
 3. ต้องสร้างบัญชีเก็บข้อมูลในภูมิภาคเดียวกันกับผู้เช่า Power BI ของคุณ เมื่อต้องการกำหนดว่าผู้เช่า Power BI ของคุณอยู่ที่ใด ให้ดูที่ [ผู้เช่า Power BI ของฉันอยู่ที่ไหน](../admin/service-admin-where-is-my-tenant-located.md)
 4. บัญชีเก็บข้อมูลต้องให้ฟีเจอร์*พื้นที่เก็บชื่อตามลำดับชั้น*เปิดใช้งาน
+5. ถ้าบัญชีที่เก็บข้อมูลไม่ได้ถูกสร้างขึ้นโดยผู้ใช้ปัจจุบัน โปรดตรวจสอบให้แน่ใจว่าผู้ใช้ปัจจุบันได้รับมอบหมายสิทธิ์ [เจ้าของ Blob Data ของที่เก็บข้อมูล](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) และ [เจ้าของ](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner) (เนื่องจากเจ้าของไม่มีสิทธิ์ระดับข้อมูล จึงจำเป็นต้องมีสิทธิ์เจ้าของ Blob Data)
 
 ส่วนต่อไปนี้จะเป็นรายละเอียดขั้นตอนที่จำเป็นสำหรับการตั้งค่าบัญชี Azure Data Lake Storage Gen2 ของคุณ
 

@@ -10,12 +10,12 @@ ms.date: 09/17/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 670373afb5cb890c87a24a129cd43fde7bd5d892
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 49e0b85cb42b008f8d5e3e38296172e24b868fa8
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83128946"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161226"
 ---
 # <a name="capture-additional-diagnostic-information-for-power-bi"></a>จับข้อมูลการวินิจฉัยเพิ่มเติมสำหรับ Power BI
 
@@ -25,11 +25,11 @@ ms.locfileid: "83128946"
 
 1. กด **F12**เพื่อเปิดเครื่องมือสำหรับนักพัฒนา Microsoft Edge
 
-   ![สกรีนช็อตของแท็บองค์ประกอบเครื่องมือสำหรับนักพัฒนา Microsoft Edge](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
+   ![ภาพหน้าจอของแท็บองค์ประกอบเครื่องมือสำหรับนักพัฒนา Microsoft Edge](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
 
 1. เลือกแท็บ **เครือข่าย** จะแสดงรายการข้อมูลเครือข่ายที่ดักจับได้แล้ว
 
-   ![สกรีนช็อตของแท็บเครือข่ายเครื่องมือสำหรับนักพัฒนา Microsoft Edge](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
+   ![ภาพหน้าจอของแท็บเครือข่ายเครื่องมือสำหรับนักพัฒนา Microsoft Edge](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
 
     คุณสามารถ:
 
@@ -39,11 +39,11 @@ ms.locfileid: "83128946"
 
 1. เมื่อต้องหยุดการการสร้างโปรไฟล์เซสซันคุณสามารถเลือกสี่เหลี่ยมสีแดงบนแท็บ**เครือข่าย** ในบริเวณของเครื่องมือสำหรับนักพัฒนา
 
-   ![สกรีนช็อตของแท็บเครือข่ายของเครื่องมือสำหรับนักพัฒนา Microsoft Edge ที่มีการโทรออกจากปุ่มหยุด](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
+   ![ภาพหน้าจอของแท็บเครือข่ายของเครื่องมือสำหรับนักพัฒนา Microsoft Edge ที่มีคำอธิบายภาพสำหรับไอคอนหยุด](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
 
 1. เลือกไอคอนดิสก์เพื่อส่งออกข้อมูลเป็นไฟล์ที่เก็บถาวรของ HTTP (ฮาร์)
 
-   ![สกรีนช็อตของแท็บเครือข่ายของเครื่องมือสำหรับนักพัฒนา Microsoft Edge ที่มีการโทรออกจากไอคอนแผ่นดิสก์](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
+   ![ภาพหน้าจอของแท็บเครือข่ายของเครื่องมือสำหรับนักพัฒนา Microsoft Edge ที่มีคำอธิบายภาพสำหรับไอคอนแผ่นดิสก์](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
 
 1. ใส่ชื่อไฟล์ และบันทึกไฟล์ HAR
 

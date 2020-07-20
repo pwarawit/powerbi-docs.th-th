@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 471522e0f66fe4bf03a8c1616d1a24221149f2e0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 422782c3036f94c1ea764f46135200116092d70c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229901"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216238"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>เชื่อมต่อกับ Office365Mon ด้วย Power BI
 การวิเคราะห์การหยุดการทำงานและข้อมูลสมรรถนะการทำงานของ Office 365 ของคุณทำได้ง่ายด้วย Power BI และแอปแม่แบบ Office365Mon Power BI ดึงข้อมูลของคุณ ทั้งการหยุดทำงานและปัญหาด้านสุขภาพ จากนั้นสร้างแดชบอร์ดแบบคิดนอกกรอบและรายงานที่ยึดตามข้อมูลนั้น
@@ -27,23 +27,23 @@ ms.locfileid: "85229901"
 ## <a name="how-to-connect"></a>วิธีการเชื่อมต่อ
 1. เลือก**รับข้อมูล**ที่ด้านล่างของบานหน้าต่างนำทาง
    
-   ![](media/service-connect-to-office365mon/pbi_getdata.png)
+   ![ภาพหน้าจอของปุ่มรับข้อมูล ที่แสดงปุ่มในบานหน้าต่างการนำทาง](media/service-connect-to-office365mon/pbi_getdata.png)
 2. ในกล่อง**บริการ** เลือก**รับ**
    
-   ![](media/service-connect-to-office365mon/pbi_getservices.png) 
+   ![ภาพหน้าจอของกล่องโต้ตอบบริการ ที่แสดงปุ่มรับ](media/service-connect-to-office365mon/pbi_getservices.png) 
 3. เลือก **Office365Mon** \> **รับ**
    
-   ![](media/service-connect-to-office365mon/o365mon.png)
+   ![ภาพหน้าจอของกล่องโต้ตอบ Office365Mon ที่แสดงลิงก์รับ](media/service-connect-to-office365mon/o365mon.png)
 4. สำหรับวิธีการรับรองความถูกต้อง ให้เลือก **oAuth2** \> **ลงชื่อเข้าใช้**
    
    เมื่อไดถูกถาม ให้ใส่ข้อมูลประจำตัวของผู้ดูแลระบบ Office365Mon และทำตามกระบวนการรับรองความถูกต้อง
    
-   ![](media/service-connect-to-office365mon/creds.png)
+   ![ภาพหน้าจอของกล่องโต้ตอบ Office365Mon ที่แสดง o Auth2 ในเขตข้อมูลวิธีการรับรองความถูกต้อง](media/service-connect-to-office365mon/creds.png)
    
-   ![](media/service-connect-to-office365mon/creds2.png)
+   ![ภาพหน้าจอของการลงชื่อเข้าใช้ Office365Mon ที่แสดงการส่งข้อความแจ้งเตือนสำหรับข้อมูลประจำตัว](media/service-connect-to-office365mon/creds2.png)
 5. หลังจากที่ Power BI นำเข้าข้อมูลแล้ว คุณจะเห็นแดชบอร์ด รายงาน และชุดข้อมูลใหม่ในบานหน้าต่างนำทาง รายการใหม่ถูกทำเครื่องหมายด้วยเครื่องหมายดอกจันสีเหลือง \* เลือกกรอก Office365Mon
    
-   ![](media/service-connect-to-office365mon/dashboard4.png)
+   ![ภาพหน้าจอของบานหน้าต่างการนำทางใน Power B I ที่สดงแดชบอร์ด รายงาน และชุดข้อมูล](media/service-connect-to-office365mon/dashboard4.png)
 
 **ฉันต้องทำอะไรตอนนี้**
 

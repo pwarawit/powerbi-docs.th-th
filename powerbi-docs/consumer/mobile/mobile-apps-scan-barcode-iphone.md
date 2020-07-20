@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 88b5c6c377588003a02f571c29ef8baef5540ae3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9265cc94aceb53b1b088f2393ca607c83f94b978
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220229"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264796"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>สแกนบาร์โค้ดด้วยอุปกรณ์ของคุณจากแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 สแกนบาร์โค้ดในโลกแห่งความจริงเพื่อไปยังข้อมูล BI ที่ถูกกรองโดยตรงในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
@@ -27,14 +27,14 @@ ms.locfileid: "85220229"
 
 บอกเพื่อนร่วมงานที่ถูก[แท็กเขตข้อมูลบาร์โค้ดในรายงาน Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md)และแชร์รายงานกับคุณ 
 
-![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+![ภาพหน้าจอของการสแกนบาร์โค้ดผลิตภัณฑ์ ที่แสดงการใช้เครื่องสแกนบนบาร์โค้ดของเครื่องดื่มสี](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
 
 เมื่อคุณสามารถสแกนบาร์โค้ดผลิตภัณฑด้วยตัวสแกนในแอป Power BI บนอุปกรณ์ของคุณ คุณจะเห็นรายงาน (หรือรายการของรายงาน) ด้วยบาร์โค้ดนั้น คุณสามารถเปิดรายงานนั้นซึ่งถูกกรองไปยังบาร์โค้ดนั้น
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>สแกนบาร์โค้ดด้วยตัวสแกน Power BI
 1. ที่แถบนำทาง แตะที่ **ตัวเลือกเพิ่มเติม** (...) และแตะที่ **สแกนเนอร์**
 
-    ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
+    ![ภาพหน้าจอของตัวเลือกเพิ่มเติมในบานหน้าต่างการนำทาง ที่แสดงการเลือกเครื่องสแกน](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
 
 2. ถ้ากล้องของคุณไม่ได้เปิดใช้งาน คุณจำเป็นต้องอนุมัติให้แอป Power BI ใช้กล้อง นี่เป็นการอนุมัติครั้งเดียว 
 4. เล็งตัวสแกนไปที่บาร์โค้ดบนผลิตภัณฑ์ คุณจะเห็นรายชื่อรายงานที่เชื่อมโยงกับบาร์โค้ดนั้น
@@ -43,8 +43,8 @@ ms.locfileid: "85220229"
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>กรองด้วยบาร์โค้ดอื่นๆ ในขณะอยู่ในรายงาน
 ในขณะที่กำลังดูรายงานที่ถูกกรองด้วยบาร์โค้ดบนอุปกรณ์ของคุณ คุณอาจต้องการกรองรายงานเดียวกันด้วยบาร์โค้ดที่แตกต่างกัน
 
-* ถ้าไอคอนบาร์โค้ดมีตัวกรอง![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png)ตัวกรองจะใช้งานอยู่ และรายงานจะถูกกรองด้วยบาร์โค้ดแล้ว 
-* ถ้าไอคอนไม่มีตัวกรองอยู่ ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png)ตัวกรองจะไม่พร้อมใช้งานและระบบจะไม่กรองรายงานตามบาร์โค้ด 
+* หากไอคอนบาร์โค้ดมีตัวกรอง ![ไอคอนที่กรองแล้ว](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png)ตัวกรองเปิดทำงานอยู่และรายงานถูกกรองด้วยบาร์โค้ดแล้ว 
+* หากไอคอนไม่มีตัวกรอง ![ไอคอนที่ไม่ได้กรอง](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png)ตัวกรองจะไม่เปิดทำงานและรายงานไม่ถูกกรองด้วยบาร์โค้ด 
 
 ไม่ว่าวิธีใด ให้แตะไอคอนเพื่อเปิดเมนูขนาดเล็กที่มีตัวสแกนแบบลอยตัวอยู่
 

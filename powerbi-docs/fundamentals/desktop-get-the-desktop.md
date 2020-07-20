@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a043e230ba74432254248ee70db495bc75a3d28b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3038463a9e3447ee9b38ae3cb178f3486d21bc80
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232493"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215115"
 ---
 # <a name="get-power-bi-desktop"></a>รับ Power BI Desktop
 Power BI Desktop ช่วยให้คุณสร้างแบบสอบถามขั้นสูง โมเดล และรายงานที่แสดงข้อมูลเป็นภาพ เมื่อใช้ Power BI Desktop คุณสามารถสร้างโมเดลข้อมูล สร้างรายงาน และแชร์งานของคุณโดยการเผยแพร่ไปยังบริการของ Power BI ได้ Power BI Desktop มีให้ดาวน์โหลดฟรี
@@ -35,13 +35,13 @@ Power BI Desktop ช่วยให้คุณสร้างแบบสอบ
 
     - จาก[บริการของ Power BI ](https://docs.microsoft.com/power-bi/service-get-started)ให้เลือกไอคอน **ดาวน์โหลด** จากมุมบนขวาแล้วเลือก **Power BI Desktop**.
 
-      ![ดาวน์โหลด Power BI Desktop จากบริการ Power BI](media/desktop-get-the-desktop/getpbid_downloads.png)
+      ![ภาพหน้าจอของ Microsoft Store ที่แสดงตัวเลือกการดาวน์โหลด Power B I Desktop](media/desktop-get-the-desktop/getpbid_downloads.png)
 
    - ไปที่ [่หน้าผลิตภัณฑ์ Power BI Desktop](https://powerbi.microsoft.com/desktop/) จากนั้นเลือก **ดาวน์โหลดฟรี**
   
 2. หลังจากที่คุณไปถึงหน้า **Power BI Desktop** ของ Microsoft Store แล้ว ให้เลือก **ติดตั้ง**
 
-     ![รับ Power BI Desktop จาก Microsoft Store](media/desktop-get-the-desktop/getpbid_04.png)
+     ![ภาพหน้าจอของ Microsoft Store ที่แสดงตัวเลือกการติดตั้ง Power B I Desktop](media/desktop-get-the-desktop/getpbid_04.png)
 
 มีข้อดีบางประการในการรับ Power BI Desktop จาก Microsoft Store:
 
@@ -66,7 +66,7 @@ Power BI Desktop ช่วยให้คุณสร้างแบบสอบ
   
   การดาวน์โหลด Power BI Desktop สามารถทำได้จาก ศูนย์ดาวน์โหลด เลือก **ดาวน์โหลด** จากหน้า [ศูนย์ดาวน์โหลด](https://www.microsoft.com/download/details.aspx?id=58494) จากนั้นระบุไฟล์การติดตั้งเพื่อดาวน์โหลด 32 บิต หรือ 64 บิต
 
-  ![ระบุไฟล์การติดตั้ง Power BI Desktop](media/desktop-get-the-desktop/download-desktop-exe.png)
+  ![ภาพหน้าจอของศูนย์การดาวน์โหลด ที่แสดงกล่องกาเครื่องหมายดาวน์โหลด Power B I Desktop แบบ 64-bit](media/desktop-get-the-desktop/download-desktop-exe.png)
 
 ### <a name="install-power-bi-desktop-after-downloading-it"></a>ติดตั้ง Power BI Desktop หลังจากดาวน์โหลดแล้ว
 คุณจะได้รับพร้อมท์ให้เรียกใช้ไฟล์การติดตั้งหลังจากที่คุณดาวน์โหลดเสร็จแล้ว
@@ -75,7 +75,7 @@ Power BI Desktop ช่วยให้คุณสร้างแบบสอบ
 
 หลังจากที่คุณเปิดใช้งานแพคเกจการติดตั้ง Power BI Desktop จะติดตั้งเป็นแอปพลิเคชันและทำงานบนเดสก์ท็อปของคุณ
 
-![เรียกใช้การติดตั้ง Power BI Desktop](media/desktop-get-the-desktop/designer_gsg_install.png)
+![ภาพหน้าจอของการติดตั้ง Power B I Desktop ที่แสดงตัวช่วยสร้างการตั้งค่า](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
 > ไม่รองรับการติดตั้งเวอร์ชันดาวน์โหลด (MSI) (ไม่รองรับ) และเวอร์ชัน Microsoft Store ของ Power BI Desktop บนคอมพิวเตอร์เครื่องเดียวกัน (ในบางครั้งเรียกว่าการติดตั้ง *ข้างกัน*) ถอนการติดตั้ง Power BI Desktop ด้วยตนเองก่อนที่คุณจะดาวน์โหลดจาก Microsoft Store
@@ -84,7 +84,7 @@ Power BI Desktop ช่วยให้คุณสร้างแบบสอบ
 ## <a name="using-power-bi-desktop"></a>การใช้ Power BI Desktop
 เมื่อคุณเรียกใช้ Power BI Desktop หน้าจอยินดีต้อนรับจะแสดงขึ้นมา
 
-![หน้าจอยินดีต้อนรับสู่ Power BI Desktop](media/desktop-get-the-desktop/getpbid_05.png)
+![ภาพหน้าจอของการติดตั้ง Power B I Desktop ที่แสดงหน้าจอต้อนรับ](media/desktop-get-the-desktop/getpbid_05.png)
 
 ถ้าคุณกำลังใช้ Power BI Desktop เป็นครั้งแรก (ซึ่งหมายถึงการติดตั้งไม่ใช่การอัปเกรด) คุณจะได้รับพร้อมท์ให้กรอกแบบฟอร์มหรือลงชื่อเข้าใช้ในบริการของ Power BI ก่อนที่คุณจะสามารถดำเนินการต่อได้
 
@@ -141,7 +141,7 @@ Power BI Desktop ช่วยให้คุณสร้างแบบสอบ
 
 ### <a name="installing-power-bi-desktop-on-remote-machines"></a>การติดตั้ง Power BI Desktop บนเครื่องระยะไกล
 
-หากคุณแนะนำให้ผู้ใช้ของคุณใช้งาน Power BI Desktop ด้วยเครื่องมือที่จำเป็นต้องใช้ไฟล์ตัวติดตั้ง Windows (ไฟล์ .msi) คุณสามารถแยกไฟล์ .msi จากไฟล์ .exe ของตัวติดตั้ง Power BI Desktop ได้ ใช้เครื่องมือของบริษัทอื่น เช่น WiX Toolset
+หากคุณปรับใช้งาน Power BI Desktop ให้กับผู้ใช้ของคุณด้วยเครื่องมือที่จำเป็นต้องใช้ไฟล์ตัวติดตั้ง Windows (ไฟล์ .msi) คุณสามารถแยกไฟล์ .msi จากไฟล์ .exe ของตัวติดตั้ง Power BI Desktop ได้ ใช้เครื่องมือของบริษัทอื่น เช่น WiX Toolset
 
 > [!NOTE]
 > ในฐานะที่เป็นผลิตภัณฑ์ของบุคคลที่สาม ตัวเลือก WiX Toolset อาจมีการเปลี่ยนแปลงได้โดยไม่ต้องแจ้งให้ทราบล่วงหน้า โปรดตรวจสอบว่าเอกสารประกอบนั้นมีข้อมูลที่เป็นปัจจุบันที่สุด และติดต่อพวกเขาตามที่อยู่ทางไปรษณีย์เพื่อขอความช่วยเหลือ

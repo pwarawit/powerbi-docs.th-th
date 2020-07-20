@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b343136acb22d213c0e2ad2dfcf83fbda805e88a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d6de937f4be3c503c146c31a32c56b67ee97a8c4
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224135"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214801"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>เชื่อมต่อกับ Snowflake Computing Warehouse ใน Power BI Desktop
 ใน Power BI Desktop คุณสามารถเชื่อมต่อไปยัง **Snowflake** Computing Warehouse และใช้ข้อมูลพื้นฐานได้เช่นเดียวกับแหล่งข้อมูลอื่นๆ ใน Power BI Desktop 
@@ -22,15 +22,15 @@ ms.locfileid: "85224135"
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>เชื่อมต่อกับ Snowflake Computing Warehouse
 เมื่อต้องการเชื่อมต่อกับ **Snowflake** Computing Warehouse ให้เลือก**เรียกใช้ข้อมูล**จากแถบ**หน้าหลัก**ใน Power BI Desktop เลือก**ฐานข้อมูล**จากประเภททางด้านซ้าย จากนั้นคุณจะเห็น **Snowflake**
 
-![](media/desktop-connect-snowflake/connect-snowflake-2b.png)
+![ภาพหน้าจอของกล่องโต้ตอบรับข้อมูล ที่แสดงการเลือกฐานข้อมูล Snowflake](media/desktop-connect-snowflake/connect-snowflake-2b.png)
 
 ในหน้าต่าง **Snowflake** ที่ปรากฏขึ้น ให้พิมพ์หรือวางชื่อ Snowflake Computing Warehouse ลงในกล่อง แล้วเลือก**ตกลง** โปรดทราบว่าคุณสามารถเลือก**นำเข้า**ข้อมูลได้โดยตรงใน Power BI หรือจะใช้ **DirectQuery** ก็ได้ เรียนรู้เพิ่มเติมเกี่ยวกับ[การใช้ DirectQuery](desktop-use-directquery.md) โปรดทราบว่า AAD SSO สนับสนุนเฉพาะ DirectQuery เท่านั้น
 
-![](media/desktop-connect-snowflake/connect-snowflake-3.png)
+![ภาพหน้าจอของกล่องโต้ตอบ Snowflake ที่แสดงปุ่มนำเข้าวิทยุที่เลือกไว้](media/desktop-connect-snowflake/connect-snowflake-3.png)
 
 เมื่อได้รับการถาม ให้ใส่ชื่อผู้ใช้และรหัสผ่านของคุณ
 
-![](media/desktop-connect-snowflake/connect-snowflake-4.png)
+![ภาพหน้าจอของข้อความแจ้งเตือนข้อมูลประจำตัว Snowflake ที่แสดงเขตข้อมูลชื่อผู้ใช้และรหัสผ่าน](media/desktop-connect-snowflake/connect-snowflake-4.png)
 
 > [!NOTE]
 > เมื่อคุณใส่ชื่อผู้ใช้และรหัสผ่านสำหรับเซิร์ฟเวอร์ **Snowflake** ที่เฉพาะเจาะจงแล้ว Power BI Desktop จะใช้ข้อมูลประจำตัวเดียวกันนั้นเพื่อพยายามเชื่อมต่ออีกครั้ง คุณสามารถปรับเปลี่ยนข้อมูลประจำตัวเหล่านั้นได้โดยไปที่ **ไฟล์ > ตัวเลือกและการตั้งค่า > การตั้งค่าแหล่งข้อมูล**

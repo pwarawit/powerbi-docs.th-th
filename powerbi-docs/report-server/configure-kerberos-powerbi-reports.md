@@ -1,5 +1,5 @@
 ---
-title: กำหนดค่า Kerberos เมื่อต้องใช้รายงาน Power BI
+title: กำหนดค่า Kerberos เพื่อใช้รายงาน Power BI
 description: เรียนรู้วิธีการกำหนดค่าเซิร์ฟเวอร์รายงานของคุณสำหรับการรับรองความถูกต้อง Kerberos ไปยังแหล่งข้อมูลที่ใช้ภายในรายงานของ Power BI สำหรับสภาพแวดล้อมแบบกระจาย
 author: maggiesMSFT
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: aee58d27eb75bbe14629235591065e236502588a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a9dd66d726a2417c936204898eb2cdfb749fcc94
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236103"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216516"
 ---
-# <a name="configure-kerberos-to-use-power-bi-reports"></a>กำหนดค่า Kerberos เมื่อต้องใช้รายงาน Power BI
+# <a name="configure-kerberos-to-use-power-bi-reports"></a>กำหนดค่า Kerberos เพื่อใช้รายงาน Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 เรียนรู้วิธีการกำหนดค่าเซิร์ฟเวอร์รายงานของคุณสำหรับการรับรองความถูกต้อง Kerberos ไปยังแหล่งข้อมูลที่ใช้ภายในรายงานของ Power BI สำหรับสภาพแวดล้อมแบบกระจาย
@@ -31,14 +31,14 @@ ms.locfileid: "85236103"
 
     Something went wrong.
 
-    We couldn’t run the report because we couldn’t connect to its data source. The report or data source might not be configured correctly. 
+    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
 
 ในรายละเอียดทางเทคนิค คุณจะเห็นข้อความต่อไปนี้
 
-    We couldn’t connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
-
+![ภาพหน้าจอของรายงาน Power BI ที่แสดงข้อความข้อผิดพลาดที่เกี่ยวข้องกับปัญหาการเชื่อมต่อกับเซิร์ฟเวอร์ Analysis Services](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
+ 
 ## <a name="configuring-kerberos-constrained-delegation"></a>การกำหนดค่าการมอบสิทธิ์ที่บังคับของ Kerberos
 มีหลายรายการที่จำเป็นต้องกำหนดค่าลำดับเพื่อให้การรับมอบสิทธิ์ที่บังคับของ Kerberos ทำงานได้ ซึ่งรวมถึงชื่อหลักของการบริการ (Service Principal Name: SPN) และการตั้งค่าการมอบสิทธิ์บนบัญชีบริการ
 
@@ -134,7 +134,7 @@ SPN สำหรับ Analysis Services จะคล้ายกับที่
 
 ตัวอย่างของ SPN สำหรับ Analysis Services มีลักษณะดังต่อไปนี้
 
-| ประเภท | รูปแบบ |
+| ชนิด | รูปแบบ |
 | --- | --- |
 | ตัวอย่างเริ่มต้น |MSOLAPSvc.3/ContosoAS.contoso.com<br>MSOLAPSvc.3/ContosoAS |
 | ตัวอย่างที่ตั้งชื่อ |MSOLAPSvc.3/ContosoAS.contoso.com:INSTANCENAME<br>MSOLAPSvc.3/ContosoAS:INSTANCENAME |
@@ -187,14 +187,14 @@ SPN สำหรับ SQL Browser จะคล้ายกับสิ่งท
 เราจะต้องกำหนดค่าการมอบสิทธิ์ที่บังคับด้วยส่งผ่านโปรโตคอล สำหรับการรับมอบสิทธิ์ทีี่บังคับ คุณต้องมีความชัดเจนว่าบริการใดที่คุณต้องการมอบหมาย เราจะไปและเพิ่มทั้ง SPN สำหรับบริการ Analysis Services และ SPN SQL Browser ไปยังรายการที่เซิร์ฟเวอร์รายงาน Power BI สามารถมอบหมายสิทธิ์ได้
 
 1. คลิกขวาบนบัญชีผู้ใช้บริการเซิร์ฟเวอร์รายงาน และเลือก**คุณสมบัติ**
-2. เลือกแท็บ**การมอบหมาย**
+2. เลือกแถบ **การมอบหมาย**
 3. เลือก **เชื่อถือคอมพิวเตอร์เครื่องนี้สำหรับการรับมอบสิทธิ์ไปยังบริการที่ระบุเท่านั้น**
 4. เลือก**ใช้โปรโตคอลรับรองความถูกต้องใดก็ได้**
 5. ใต้**บริการที่บัญชีผู้ใช้นี้สามารถใช้ข้อมูลประจำตัวที่ได้รับมอบหมาย:** เลือก**เพิ่ม**
 6. ในกล่องโต้ตอบใหม่ เลือก**ผู้ใช้หรือคอมพิวเตอร์**
 7. ป้อนบัญชีบริการสำหรับบริการ Analysis Services และเลือก**ตกลง**
 8. เลือก SPN ที่คุณสร้างขึ้น ซึ่งจะเริ่มต้นด้วย`MSOLAPSvc.3` ถ้าคุณเพิ่มทั้ง FQDN และ NetBIOS SPN ระบบจะเลือกทั้งสองอย่าง คุณอาจเห็นแค่อย่างเดียวเท่านั้น
-9. เลือก**ตกลง**  คุณควรเห็น SPN ในรายการแล้ว
+9. เลือก**ตกลง**  คุณควรเห็น SPN ในรายการแล้วตอนนี้
 10. คุณอาจเลือก**ขยาย**เพื่อแสดงทั้ง FQDN และ NetBIOS SPN ในรายการดังกล่าว
 11. เลือก**เพิ่ม**อีกครั้ง เราจะเพิ่ม SPN SQL Browser ตอนนี้้
 12. ในกล่องโต้ตอบใหม่ เลือก**ผู้ใช้หรือคอมพิวเตอร์**
@@ -202,14 +202,14 @@ SPN สำหรับ SQL Browser จะคล้ายกับสิ่งท
 14. เลือก SPN ที่คุณสร้างขึ้น ซึ่งจะเริ่มต้นด้วย`MSOLAPDisco.3` ถ้าคุณเพิ่มทั้ง FQDN และ NetBIOS SPN ระบบจะเลือกทั้งสองอย่าง คุณอาจเห็นแค่อย่างเดียวเท่านั้น
 15. เลือก**ตกลง** กล่องโต้ตอบควรมีลักษณะคล้ายรูปต่อไปนี้ ถ้าคุณได้ทำเครื่องหมายที่**ขยาย**
     
-    ![](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
+    ![ภาพหน้าจอของรายงาน Power BI ที่แสดงแท็บการรับมอบสิทธิ์ของหน้าต่างคุณสมบัติ](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
 16. เลือก**ตกลง**
 17. ปิดและเปิดเซิร์ฟเวอร์รายงาน Power BI ใหม่
 
 ## <a name="running-a-power-bi-report"></a>การเรียกใช้รายงาน Power BI
 หลังจากที่มีการกำหนดค่าด้านบนทั้งหมดแล้ว รายงานของคุณควรแสดงอย่างถูกต้อง 
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report.png)
+![ภาพหน้าจอของรายงาน Power BI ที่แสดงมุมมองแดชบอร์ดตัวอย่าง](media/configure-kerberos-powerbi-reports/powerbi-report.png)
 
 ขณะที่การกำหนดค่านี้ควรใช้ได้ในกรณีส่วนใหญ่ ด้วย Kerberos อาจมีการกำหนดค่าที่แตกต่างออกไปโดยขึ้นอยู่กับสภาพแวดล้อมของคุณ ถ้ารายงานยังคงไม่โหลด คุณจะต้องติดต่อผู้ดูแลระบบโดเมนของคุณเพื่อตรวจสอบเพิ่มเติม หรือติดต่อฝ่ายสนับสนุน
 

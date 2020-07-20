@@ -8,11 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: e1a24d8d15881bf8a1948d91758c7592f75ea7ac
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485955"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214213"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>ขนาดเกตเวย์ข้อมูลภายในองค์กร
 
@@ -32,7 +33,7 @@ ms.locfileid: "85485955"
 1. **การเรียกและการแปลงข้อมูล**: ข้อมูลจะถูกเรียกใช้ และเมื่อจำเป็น จะถูกแปลง เมื่อใดก็ตามที่เป็นไปได้ Power Query mashup engine จะส่งขั้นตอนการแปลงไปยังแหล่งข้อมูล - ซึ่งเรียกว่า _[การพับคิวรี](power-query-folding.md)_ เมื่อไม่สามารถทำได้ การแปลงจะต้องทำโดยเกตเวย์ ในกรณีนี้ เกตเวย์จะใช้ทรัพยากร CPU และหน่วยความจำมากขึ้น
 1. **ถ่ายโอน**: ข้อมูลถูกถ่ายโอนไปยังบริการของ Power BI —การเชื่อมต่ออินเทอร์เน็ตที่เชื่อถือได้และรวดเร็วเป็นสิ่งสำคัญโดยเฉพาะอย่างยิ่งสำหรับจำนวนข้อมูลขนาดใหญ่
 
-![แผนผังจะแสดงเกตเวย์ข้อมูลภายในองค์กรที่เชื่อมต่อกับแหล่งที่มาภายในองค์กร: ฐานข้อมูลเชิงสัมพันธ์ สมุดงาน Excel และไฟล์ CSV เกตเวย์ดึงและแปลงข้อมูล](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
+![แผนผังของข้อมูลแคช ที่แสดงเกตเวย์ข้อมูลภายในองค์กรที่เชื่อมต่อกับแหล่งที่มาภายในองค์กร:](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
 
 ### <a name="live-connection-and-directquery-workloads"></a>ปริมาณงานการเชื่อมต่อสดและ DirectQuery
 
@@ -45,7 +46,7 @@ ms.locfileid: "85485955"
 
 การเชื่อมต่อที่เชื่อถือได้ รวดเร็ว และสม่ำเสมอ เป็นสิ่งสำคัญที่ต้องตรวจสอบให้แน่ใจว่าผู้ใช้รายงานมีประสบการณ์ตอบสนองในลักษณะนี้
 
-![แผนผังจะแสดงเกตเวย์ข้อมูลภายในองค์กรที่เชื่อมต่อกับแหล่งที่มาภายในองค์กร:  ฐานข้อมูลแบบตารางและแบบความสัมพันธ์ใน Analysis Services เกตเวย์ทำงานส่วนใหญ่ในโหมดพาส-ทรู](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
+![แผนผังของ การเชื่อมต่อสดและ DirectQuery ที่แสดงเกตเวย์ข้อมูลภายในองค์กรที่เชื่อมต่อกับแหล่งที่มาภายในองค์กร:](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
 
 ## <a name="sizing-considerations"></a>ข้อควรพิจารณาเกี่ยวกับการปรับขนาด
 

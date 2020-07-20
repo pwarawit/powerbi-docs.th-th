@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: bd671e32167837a5b8b96388bb2687616e6cada5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 50d3adef65791c3fecd1a2125f67318fb8ab0298
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228560"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214244"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>ladakจัดการที่เก็บข้อมูลในพื้นที่ทำงานบน Power BI
 
@@ -48,21 +48,19 @@ ms.locfileid: "85228560"
 
 ขนาดของแดชบอร์ดที่คุณแชร์จะแตกต่างกัน ทั้งนี้ขึ้นอยู่กับว่ามีอะไรปักหมุดอยู่ข้างในบ้าง ตัวอย่างเช่น ถ้าคุณปักหมุดรายการจากรายงานสองฉบับที่เป็นส่วนหนึ่งของชุดข้อมูลที่แตกต่างกันสองชุด ขนาดจะรวมชุดข้อมูลทั้งสองชุด
 
-<a name="manage"/>
-
 ## <a name="manage-items-you-own"></a>จัดการรายการที่คุณเป็นเจ้าของ
 
 ดูว่าคุณกำลังใช้พื้นที่จัดเก็บข้อมูลเท่าไรในบัญชีของคุณ Power BI และจัดการบัญชีของคุณ
 
 1. เพื่อจัดการพื้นที่เก็บข้อมูลของคุณเอง ให้ไปที่ **พื้นที่งานของฉัน** ในบานหน้าต่างนำทาง
    
-    ![พื้นที่ทำงานของฉัน](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+    ![ภาพหน้าจอของบานหน้าต่างการนำทางที่มีการเรียกใช้พื้นที่ทำงานของฉัน](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 
-2. เลือกไอคอนรูปเฟือง ![ไอคอนรูปเฟือง](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ในมุมบนขวา \> **จัดการที่เก็บข้อมูลส่วนตัว**
+2. เลือก![ไอคอนรูปเฟือง](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)ที่มุมขวาบนของ**จัดการที่เก็บข้อมูลส่วนบุคคล**
    
     แถบด้านบนแสดงให้เห็นว่า คุณได้ใช้ที่เก็บข้อมูลมากแค่ไหน
    
-    ![จัดการพื้นที่เก็บข้อมูลอย่างจำกัด](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
+    ![ภาพหน้าจอของการจัดการขีดจำกัดที่เก็บข้อมูล ที่แสดงว่าที่เก็บข้อมูลถูกใช้งานไปเท่าไหร่แล้ว](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
    
     ชุดข้อมูลและรายงานจะถูกแบ่งออกเป็นสองแท็บ:
    
@@ -74,14 +72,14 @@ ms.locfileid: "85228560"
 โปรดทราบว่า คุณหรือบุคคลอื่นอาจมีรายงานและแดชบอร์ดที่ขึ้นกับชุดข้อมูลหนึ่ง ๆ ถ้าคุณลบชุดข้อมูล รายงานและแดชบอร์ดเหล่านั้นจะไม่ทำงานอีกต่อไป
 
 ## <a name="manage-your-workspace"></a>จัดการพื้นที่ทำงานของคุณ
-1. เลือกลูกศรที่อยู่ถัดจาก **พื้นที่ทำงาน** \> เลือกชื่อของพื้นที่ทำงาน
+1. เลือกลูกศรที่อยู่ถัดจาก**พื้นที่ทำงาน** และเลือกชื่อของพื้นที่ทำงาน
    
-    ![เลือกพื้นที่ทำงาน](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. เลือกไอคอนรูปเฟือง ![ไอคอนรูปเฟือง](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ในมุมบนขวา \> **จัดการที่เก็บข้อมูลกลุ่ม**
+    ![ภาพหน้าจอของการเลือกพื้นที่ทำงาน ที่แสดงพื้นที่ทำงานของกลุ่มการขาย](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+2. เลือก![ไอคอนรูปเฟือง](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)ที่มุมบนขวาของ**จัดการที่เก็บข้อมูลกลุ่ม**
    
     แถบด้านบนแสดงให้เห็นว่า มีการใช้ที่เก็บข้อมูลกลุ่มมากแค่ไหน
    
-    ![จัดการที่เก็บข้อมูลของพื้นที่ทำงาน](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![ภาพหน้าจอของการจัดการที่เก็บข้อมูล ที่แสดงว่าขีดจำกัดที่เก็บข้อมูลของกลุ่มการขายถูกใช้งานไปเท่าไหร่แล้ว](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     ชุดข้อมูลและรายงานจะถูกแบ่งออกเป็นสองแท็บ:
    
@@ -104,15 +102,15 @@ ms.locfileid: "85228560"
 
 เมื่อคุณเลือกไอคอนรูปเฟือง ![ไอคอนรูปเฟือง](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png), คุณจะเห็นแถบสีแดงซึ่งระบุว่า คุณกำลังใช้งานเกินขีดจำกัดความจุของข้อมูลของคุณ
 
-![พื้นที่เก็บข้อมูลถึงขีดจำกัดแล้ว](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![ภาพหน้าจอของความจุที่เก็บข้อมูล ที่แสดงว่าความจุถึงขีดจำกัดแล้ว](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
 ขีดจำกัดนี้ยังระบุไว้ภายใน **จัดการที่เก็บข้อมูลส่วนบุคคล**อีกด้วย
 
- ![จัดการที่เก็บข้อมูลส่วนบุคคลเพราะถึงขีดจำกัดของที่เก็บข้อมูล](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
+ ![ภาพหน้าจอของความจุที่เก็บข้อมูลส่วนบุคคล ที่แสดงว่าความจุของเจนถึงขีดจำกัดแล้ว](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
- เมื่อคุณพยายามที่จะดำเนินการใด ๆ ที่ทำให้ถึงขีดจำกัดเหล่านี้ คุณจะเห็นข้อความที่ระบุว่า คุณกำลังใช้เกินขีดจำกัด คุณสามารถ[จัดการ](#manage)ที่เก็บข้อมูลของคุณเพื่อลดปริมาณข้อมูล และผ่านข้อจำกัดดังกล่าว
+ เมื่อคุณพยายามที่จะดำเนินการใด ๆ ที่ทำให้ถึงขีดจำกัดเหล่านี้ คุณจะเห็นข้อความที่ระบุว่า คุณกำลังใช้เกินขีดจำกัด คุณสามารถ[จัดการที่เก็บข้อมูลของคุณ](#manage-items-you-own)เพื่อลดปริมาณข้อมูลในที่เก็บข้อมูลและแก้ไขขีดจำกัดดังกล่าว
 
- ![เกินขีดจำกัดที่จัดเก็บของคุณ](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+ ![ภาพหน้าจอของกล่องโต้ตอบการใช้งานเกินขีดจำกัดที่เก็บข้อมูลของคุณ ที่แสดงว่าความจุถึงขีดจำกัดแล้ว](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
  ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

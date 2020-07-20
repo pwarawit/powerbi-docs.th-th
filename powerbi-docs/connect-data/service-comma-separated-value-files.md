@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4827049ee8eff86b2ce71ee9befd3d01760c0840
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 20c289648dc6e9b9784335c0d92f6725328dfffc
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230485"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216314"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>รับข้อมูลจากไฟล์ Comma Separated Value (.CSV) (ใช้จุลภาคเป็นตัวคั่น)
-![](media/service-comma-separated-value-files/csv_icon.png)
+![ไอคอน C S V](media/service-comma-separated-value-files/csv_icon.png)
 
 ไฟล์ค่าที่ใช้จุลภาคเป็นตัวคั่นเป็นที่รู้จักกันในรูปแบบ .CSV ซึ่งเป็นไฟล์ข้อความอย่างง่ายที่มีแถวของข้อมูล โดยที่แต่ละค่าจะถูกคั่นด้วยเครื่องหมายจุลภาค ชนิดของไฟล์เหล่านี้อาจประกอบด้วยข้อมูลจำนวนมากภายในขนาดไฟล์ค่อนข้างเล็ก ทำให้ไฟล์เหล่านี้เป็นแหล่งข้อมูลที่เหมาะสมที่สุดสำหรับ Power BI คุณสามารถดาวน์โหลดตัวอย่างไฟล์ .CSV [ที่นี่](https://go.microsoft.com/fwlink/?LinkID=619356)
 
@@ -41,13 +41,13 @@ ms.locfileid: "85230485"
 
 1. ใน Power BI ในพื้นที่ตัวนำทาง คลิก**รับข้อมูล**
    
-   ![](media/service-comma-separated-value-files/csv_get_data_button.png)
+   ![ภาพหน้าจอของรับข้อมูลใน Power BI Desktop ที่แสดงปุ่มในบานหน้าต่างตัวนำทาง](media/service-comma-separated-value-files/csv_get_data_button.png)
 2. ใน**ไฟล์** คลิก**รับ**
    
-   ![](media/service-comma-separated-value-files/csv_files_get.png)
+   ![ภาพหน้าจอของกล่องโต้ตอบไฟล์ ที่แสดงปุ่มรับ](media/service-comma-separated-value-files/csv_files_get.png)
 3. ค้นหาไฟล์ของคุณ
    
-   ![](media/service-comma-separated-value-files/csv_find_your_file.png)
+   ![ภาพหน้าจอของไทล์สี่รายการเพื่อค้นหาไฟล์ของคุณ ที่แสดงการเลือกไฟล์ภายในเครื่อง, OneDrive Business, OneDrive Personal และ SharePoint](media/service-comma-separated-value-files/csv_find_your_file.png)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 **สำรวจข้อมูลของคุณ** เมื่อคุณได้รับข้อมูลจากไฟล์ของคุณลงใน Power BI แล้ว นั่นก็ถึงเวลาการสำรวจ เพียงคลิกขวาที่ชุดข้อมูลใหม่ จากนั้นคลิก**สำรวจ**

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6c6bbf8476087532fd3a049a0e4bde3191892325
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: d2d28d8ea3f7e2e7217124483f90ecc28d44314f
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564042"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161709"
 ---
 # <a name="use-an-alternate-email-address"></a>ใช้ที่อยู่อีเมลสำรอง
 
@@ -37,7 +37,7 @@ ms.locfileid: "83564042"
 
     หากไม่สามารถแก้ไขรายละเอียดของคุณได้ แสดงว่าผู้ดูแลระบบของคุณเป็นผู้จัดการที่อยู่อีเมลของคุณ โปรดติดต่อผู้ดูแลระบบของคุณเพื่ออัปเดตที่อยู่อีเมลของคุณ
 
-    ![รายละเอียดการติดต่อ](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
+    ![ภาพหน้าจอของกล่องโต้ตอบรายละเอียดผู้ติดต่อ ที่แสดงวิธีการระบุอีเมลสำรอง](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
 
 1. ในเขตข้อมูล **อีเมลสำรอง** ใส่ที่อยู่อีเมลที่คุณต้องการให้ Microsoft 365 ส่งการอัปเดตให้ Power BI
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 21105513bf77a4ede8d788860a99fedaf3a6c48c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278686"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214879"
 ---
 # <a name="referencing-power-query-queries"></a>การอ้างอิงคิวรี Power Query
 
@@ -23,13 +23,13 @@ ms.locfileid: "83278686"
 
 พิจารณาหลายคิวรี: **คิวรีที่ 1** แหล่งข้อมูลจากบริการเว็บและไม่สามารถโหลดได้ **คิวรีที่ 2**, **คิวรีที่ 3** และ **คิวรีที่ 4** ทั้งหมดอ้างอิงจาก**คิวรีที่ 1** และผลลัพธ์ที่โหลดไปยังรูปแบบข้อมูล
 
-![มุมมองการอ้างอิงคิวรีจะแสดงผลคิวรีตามที่อธิบายไว้ในพารากราฟก่อนหน้า](media/power-query-referenced-queries/query-dependencies-web-service.png)
+![แผนภาพที่แสดงมุมมองการขึ้นต่อกันของคิวรี โดยจะแสดงคิวรีตามที่อธิบายในย่อหน้าก่อนหน้านี้](media/power-query-referenced-queries/query-dependencies-web-service.png)
 
 เมื่อรีเฟรชรูปแบบข้อมูลแล้ว ระบบมักจะสันนิษฐานว่า Power Query ได้ข้อมูลมาจากผลลัพธ์ของ **คิวรี 1** และนั่นคือการนำคิวรีที่อ้างอิงแล้วกลับมาใช้งานใหม่อีกครั้ง วิธีคิดแบบนี้ไม่ถูกต้อง อันที่จริงแล้ว Power Query ให้ **คิวรี 2**, **คิวรี 3** และ **คิวรี 4** ดำเนินการแตกต่างกัน
 
 คุณสามารถพูดได้ว่า **คิวรี 2** ฝังตัวอยู่กับ **คิวรี 1** ก็ได้ ยังมีกรณีสำหรับ **คิวรี 3** และ **คิวรี 4** ด้วยนะ ประโยคต่อไปนี้จะแสดงให้เห็นภาพที่ชัดเจนขึ้นว่าสรุปแล้วคิวรีมีรูปแบบดำเนินการอย่างไร
 
-![การดัดแปลงมุมมองการอ้างอิงคิวรีแสดงผลเป็น คิวรีที่ 2 คิวรีที่ 3 และ คิวรีที่ 4 ซึ่งทั้งสามคิวรีฝังตัวเข้ากับคิวรีที่ 1](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
+![แผนภาพที่แสดงมุมมองการขึ้นต่อกันของคิวรีในรูปแบบที่แก้ไขแล้ว โดยจะแสดงคิวรี 2, คิวรี 3 และคิวรี 4](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
 
 **คิวรที่ 1** จะมีการดำเนินการทั้งหมดสามครั้ง การดำเนินการหลายๆ ครั้งจะส่งผลให้การรีเฟรชข้อมูลช้าลงและถ้าเลวร้ายกว่านั้นการดำเนินการนี้จะส่งผลกระทบกับแหล่งข้อมูล
 

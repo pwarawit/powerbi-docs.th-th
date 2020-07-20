@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4f9b69e863b71fda0cece06df7065740bd55463e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 620e71ffa08a02dc0d0080b310fb0252388e1b10
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228882"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161203"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>ค้นหาผู้ใช้ Power BI ที่มีการลงชื่อเข้าใช้
 
@@ -23,13 +23,13 @@ ms.locfileid: "85228882"
 > [!NOTE]
 > แม้รายงาน**ลงชื่อเข้าใช้**จะให้ข้อมูลที่เป็นประโยชน์ แต่ก็ไม่สามารถระบุประเภทสิทธิการใช้งานที่ผู้ใช้แต่ละคนมีได้ การใช้ศูนย์การจัดการ Microsoft 365 เพื่อดูสิทธิ์การใช้งาน
 
-## <a name="requirements"></a>ความต้องการ
+## <a name="requirements"></a>ข้อกำหนด
 
 ผู้ใช้ใด ๆ (รวมถึงที่ไม่ใช่ผู้ดูแลระบบ) สามารถดูรายงานการลงชื่อเข้าใช้ของตนเองได้ แต่คุณต้องตรงตามข้อกำหนดต่อไปนี้เพื่อดูรายงานผู้ใช้ทั้งหมด
 
 * ผู้เช่าของคุณต้องมีสิทธิการใช้งาน Azure Active Directory Premium ที่เกี่ยวเนื่อง
 
-* คุณต้องอยู่ในหนึ่งบทบาทต่อไปนี้: ผู้ดูแลระบบส่วนกลาง, ผู้ ดูแลรักษาความปลอดภัย หรือ ผู้อ่านความปลอดภัย
+* คุณต้องได้รับมอบหมายหน้าที่ดังต่อไปนี้: ผู้ดูแลระบบส่วนกลาง ผู้ดูแลความปลอดภัย หรือตัวอ่านความปลอดภัย
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>ใช้พอร์ทัล Azure เพื่อดูการลงชื่อเข้าใช้
 
@@ -51,7 +51,7 @@ ms.locfileid: "85228882"
 
 คุณสามารถ[ดาวน์โหลดรายงานลงชื่อเข้าใช้](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report)ในรูปแบบไฟล์ CSV หรือไฟล์ JSON ได้
 
-![สกรีนช็อตของปุ่มดาวน์โหลด](media/service-admin-access-usage/download-sign-in-data-csv.png)
+![ภาพหน้าจอของการส่งออกข้อมูลพร้อมตัวเลือกการดาวน์โหลดที่ถูกเน้น](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
 ที่ด้านบนของรายงาน**ลงชื่อเข้าใช้** เลือก**ดาวน์โหลด** แล้วเลือกหนึ่งในตัวเลือกต่อไปนี้:
 

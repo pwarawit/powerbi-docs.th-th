@@ -1,7 +1,7 @@
 ---
 title: ตัวสร้างรายงานใน Power BI
 description: ตัวสร้างรายงานใน Power BI เป็นเครื่องมือสำหรับเขียนรายงานแบบแบ่งหน้า
-ms.date: 06/29/2020
+ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,11 +9,12 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: a0c22be90b609e25a6403e33cb646b35e9467c07
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: f74fb596fb2a080922d0e62a4492ef6c8ccd4e0d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782761"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216740"
 ---
 # <a name="power-bi-report-builder"></a>ตัวสร้างรายงานใน Power BI
 
@@ -21,9 +22,7 @@ ms.locfileid: "85782761"
  
 พร้อมที่จะเริ่มการเขียนหรือไม่ [ติดตั้งตัวสร้างรายงาน Power BI](https://aka.ms/pbireportbuilder) จากศูนย์ดาวน์โหลด Microsoft
 
-คุณอยากเรียนรู้จากวิดิโอมากกว่าใช่ไหม ตรวจสอบรายงานที่มีเลขหน้าซีรี่ส์วิดีโอของ Power BI บน ยูปทูปโดยคริส ฟินแลน ผู้จัดการโครงการ Power BI
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/78TZeiEhveY?list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ" frameborder="0" allowfullscreen></iframe>
+คุณอยากเรียนรู้จากวิดิโอมากกว่าใช่ไหม ดู[หลักสูตรที่สอนผ่านวิดีโอ: การเรียนรู้เกี่ยวกับรายงานแบบแบ่งหน้าของ Power BI ในวันเดียว](../learning-catalog/paginated-reports-online-course.md)
 
 รายงานที่มีเลขต่อไปนี้มีเมทริกซ์ที่มีกลุ่มแถว และคอลัมน์เส้นแบบประกายไฟ ตัวบ่งชี้และแผนภูมิวงกลมแบบสรุปในเซลล์มุมพร้อมแผนที่ที่มีข้อมูลทางภูมิศาสตร์สองชุดที่แสดงด้วยสีและขนาดวงกลม  
 
@@ -62,4 +61,4 @@ ms.locfileid: "85782761"
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 - [รายงานแบบแบ่งหน้าใน Power BI Premium คืออะไร](paginated-reports-report-builder-power-bi.md)
-- ชม [รายงานที่มีเลขหน้า Power BI ](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) บนยูธูป โดยผู้จัดการโปรแกรมหลัก Power BI คริส ฟินแลน
+- [หลักสูตรที่สอนผ่านวิดีโอ: รายงานที่มีการแบ่งหน้าของ Power BI ในวันเดียว](../learning-catalog/paginated-reports-online-course.md)

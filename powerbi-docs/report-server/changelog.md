@@ -7,18 +7,19 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 06/30/2020
-ms.openlocfilehash: 0339dd4a8fa7b429db01715060bfd146db115e46
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.date: 07/08/2020
+ms.openlocfilehash: 8b777cba35f32dcf2d6561b73c350d047d473223
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782740"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162286"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>บันทึกการเปลี่ยนแปลงสำหรับ เซิร์ฟเวอร์รายงาน Power BI
 
 บันทึกการเปลี่ยนแปลงนี้ สำหรับเซิร์ฟเวอร์รายงาน Power BI และแสดงรายการสิ่งใหม่ รวมไปถึงการแก้ไขข้อบกพร่อง ของการเผยแพร่แต่ละรุ่น
 
-สำหรับข้อมูลโดยละเอียดเกี่ยวกับคุณลักษณะใหม่ ๆ ดู[มีอะไรใหม่ในเซิร์ฟเวอร์รายงาน Power BI](whats-new.md) 
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่ต่าง ๆ โปรดดูที่[มีอะไรใหม่ในเซิร์ฟเวอร์ Power BI Report](whats-new.md) 
 
 ## <a name="may-2020"></a>พฤษภาคม 2020
 - **เซิร์ฟเวอร์รายงาน Power BI**

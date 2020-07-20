@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d74c6583197441d63cb6c7c40ba44a5b21885b28
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 76c76cf5ae41c369e3810f3a52ee43816184d8e1
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219194"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263065"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>ปักหมุดไทล์ที่แดชบอร์ดจาก Q&A
 ## <a name="how-to-pin-a-tile-from-qa"></a>วิธีการปักหมุดไทล์จาก Q&A
@@ -32,7 +32,7 @@ Q&A คือเครื่องมือราย Power BI แบบเฉพ
    ![พิมพ์คำถาม](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
 
    กล่องคำถามให้คำแนะนำคุณ
-4. เมื่อต้องการเพิ่มแผนภูมิลงในแดชบอร์ดของคุณแบบไทล์ ให้เลือกหมุด![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png)ทางด้านขวาของพื้นที ถ้ามีการแชร์แดชบอร์ดกับคุณ คุณจะไม่สามารถปักหมุดการสร้างการแสดงภาพใดได้
+4. หากต้องการเพิ่มแผนภูมิไปยังแดชบอร์ดในรูปแบบไทล์ ให้เลือกปักหมุด ![ปักหมุดไอคอน](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) ที่ด้านขวาบนของพื้นที่ทำงาน ถ้ามีการแชร์แดชบอร์ดกับคุณ คุณจะไม่สามารถปักหมุดการสร้างการแสดงภาพใดได้
 
 5. ปักหมุดไทล์ลงในแดชบอร์ดที่มีอยู่ หรือแดชบอร์ดใหม่
 

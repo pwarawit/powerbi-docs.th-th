@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3247e718e5e98536ddce3a253f8e78e5ff615614
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ec290ce53155f24a9213a4849ecb82abd6cfc592
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234462"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263654"
 ---
 # <a name="use-the-google-analytics-connector-for-power-bi-desktop"></a>ใช้ตัวเชื่อมต่อ Google Analytics สำหรับ Power BI Desktop
 > [!NOTE]
@@ -27,21 +27,21 @@ ms.locfileid: "85234462"
 2. ในหน้าต่าง**รับข้อมูล** เลือก**บริการออนไลน์**จากประเภทในบานหน้าต่างด้านซ้าย
 3. เลือก **Google Analytics** จากตัวเลือกในบานหน้าต่างด้านขวา
 4. ที่ด้านล่างของหน้าต่าง เลือก**เชื่อมต่อ**  
-   ![](media/service-google-analytics-connector/tps_googleanalytics_1.png)
+   ![หน้าจอของแท็บหน้าแรก ที่แสดงแถบเครื่องมือริบบอนรับข้อมูลพร้อมด้วย Google Analytics ที่เลือกไว้และปุ่มเชื่อมต่อ](media/service-google-analytics-connector/tps_googleanalytics_1.png)
 
 คุณได้รับพร้อมท์กล่องโต้ตอบที่อธิบายว่า ตัวเชื่อมต่อเป็นบริการจากบุคคลที่สาม และเตือนเกี่ยวกับคุณลักษณะและความพร้อมใช้งาน ที่อาจเปลี่ยนไปตามช่วงเวลา และคำอธิบายอื่น ๆ  
-![](media/service-google-analytics-connector/tps_googleanalytics_2.png)
+![ภาพหน้าจอของกล่องโต้ตอบการเชื่อมต่อ ที่แสดงคำเตือนว่าตัวเชื่อมต่อทำงานโดยใช้บริการของบุคคลที่สาม](media/service-google-analytics-connector/tps_googleanalytics_2.png)
 
 เมื่อคุณเลือก**ดำเนินการต่อ** คุณจะได้รับพร้อมท์ให้ลงชื่อเข้าใช้ Google Analytics  
-![](media/service-google-analytics-connector/tps_googleanalytics_3.png)
+![ภาพหน้าจอของข้อความแจ้งเตือน Google Analytics ที่แสดงว่าคุณจำเป็นต้องลงชื่อเข้าใช้เพื่อเชื่อมต่อ](media/service-google-analytics-connector/tps_googleanalytics_3.png)
 
 เมื่อคุณใส่ข้อมูลประจำตัวของคุณ คุณได้รับพร้อมท์ว่า Power BI ต้องสามารถเข้าถึงแบบออฟไลน์ นี่คือวิธีที่คุณใช้ **Power BI Desktop** เพื่อเข้าถึงข้อมูล Google Analytics ของคุณ  
 
 เมื่อคุณยอมรับ **Power BI Desktop** แสดงให้เห็นว่าคุณลงชื่อเข้าใช้แล้ว  
-![](media/service-google-analytics-connector/tps_googleanalytics_5.png)
+![ภาพหน้าจอของข้อความแจ้งเตือน Google Analytics ที่แสดงว่าคุณลงชื่อเข้าใช้](media/service-google-analytics-connector/tps_googleanalytics_5.png)
 
 เลือก**เชื่อมต่อ** และข้อมูล Google Analytics ของคุณ จะถูกเชื่อมต่อกับ **Power BI Desktop** และโหลดข้อมูล  
-![](media/service-google-analytics-connector/tps_googleanalytics_6.png)
+![ภาพหน้าจอของกล่องโต้ตอบโหลด ที่แสดงว่ามีการเชื่อมต่อและโหลดข้อมูล Google Analytics](media/service-google-analytics-connector/tps_googleanalytics_6.png)
 
 ## <a name="changes-to-the-api"></a>การเปลี่ยนแปลงของ API
 แม้ว่าเราพยายามเผยแพร่อัปเดตที่สอดคล้องกับการเปลี่ยนแปลงใด ๆ API อาจเปลี่ยนแปลงในลักษณะที่ส่งผลกระทบต่อผลลัพธ์ของคิวรีที่เราสร้างขึ้น ในบางกรณี บางแบบสอบถามอาจไม่สนับสนุนอีกต่อไป เนื่องจากการต้องพึ่งพาจากบุคคลที่สามนี้ เราไม่สามารถรับประกันผลลัพธ์ของคิวรีคุณเมื่อใช้ตัวเชื่อมต่อนี้

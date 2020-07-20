@@ -9,11 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9fa3ee1c1e0f757eb3b464785c8cb3fe3ab6e78
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238623"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264737"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>ใช้ตารางวิชวลและตารางจุดข้อมูลใน Power BI Desktop
 ใน **Power BI Desktop** คุณสามารถเจาะลึกรายละเอียดของการแสดงผลใด ๆ และดูข้อมูลพื้นฐานหรือระเบียนข้อมูลสำหรับวิชวลที่เลือก ให้อยู่ในรูปข้อความได้ คุณลักษณะเหล่านี้ บางครั้งเรียกว่าการ*คลิกผ่าน*หรือ*ดูรายละเอียด*หรือ*เข้าถึงรายละเอียด*
@@ -73,7 +74,7 @@ ms.locfileid: "85238623"
 
 เมื่อคุณได้เลือก **ตารางจุดข้อมูล** สำหรับองค์ประกอบข้อมูล พื้นที่ทำงานของ Power BI Desktop จะแสดงข้อมูลทั้งหมดที่เกี่ยวข้องกับองค์ประกอบที่เลือก 
 
-![](media/desktop-see-data-see-records/visual-table-09.png)
+![ภาพหน้าจอของผืนผ้าใบ ที่แสดงข้อมูลทั้งหมดที่เกี่ยวข้องกับองค์ประกอบที่เลือกเมื่อคุณเลือกตารางจุดข้อมูล](media/desktop-see-data-see-records/visual-table-09.png)
 
 เพื่อกลับไปยังรายงาน เลือก **< กลับไปที่รายงาน** ในมุมบนซ้ายของพื้นที่ทำงาน
 

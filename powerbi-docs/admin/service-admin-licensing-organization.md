@@ -10,11 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e050fd4ec3e533c07ecfd0f0604092bec7fc00b5
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 276770b677d85e0e125e7dd87bb0a800248d71c2
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85484943"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161484"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>การให้สิทธิการใช้งานบริการ Power BI สำหรับผู้ที่อยู่ในองค์กรของคุณ
 
@@ -56,7 +57,7 @@ ms.locfileid: "85484943"
 1. ระบุจำนวนสิทธิ์การใช้งานที่จำเป็นเพื่อให้ครอบคลุมผู้ใช้ทั้งหมดของคุณ
 1. เลือก **กำหนดให้กับผู้ใช้ทั้งหมดของคุณที่ไม่มีสิทธิ์โดยอัตโนมัติ** จากนั้นให้ตรวจสอบ
 
-  ![การสมัครใช้งานฟรีที่กำหนดโดยอัตโนมัติของ Power BI](media/service-admin-licensing-organization/m365-auto-assign.png) 
+  ![ภาพหน้าจอของการสมัครใช้งาน Power B I ฟรีซึ่งมอบหมายสิทธิ์การใช้งานโดยอัตโนมัติ ที่แสดงการลงทะเบียนแบบบริการตนเอง](media/service-admin-licensing-organization/m365-auto-assign.png)
 
 ถ้าคุณต้องการดูว่าผู้ใช้ใดบ้างในองค์กรของคุณอาจมีสิทธิการใช้งานอยู่แล้ว โปรดดู [ดูและจัดการสิทธิการใช้งานของผู้ดูแล](service-admin-manage-licenses.md) เพื่อเรียนรู้วิธีการ
 

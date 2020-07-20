@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c40ba6827e788a51402b3aa22497b5ddde1bcdc2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9ebc5857248b2d8c764262e2f27559c1960e1884
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240409"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263301"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>เริ่มใช้งานแอป Power BI สำหรับอุปกรณ์เคลื่อนที่สำหรับ Windows 10
 แอป Power BI สำหรับอุปกรณ์เคลื่อนที่บน Windows 10 นำ Power BI ไปยังแท็บเล็ตหรือโทรศัพท์ของคุณ คุณจะได้รับการเข้าถึงข้อมูลทางธุรกิจของคุณที่มีการปรับปรุงล่าสุดผ่านทางอุปกรณ์เคลื่อนที่ที่เปิดใช้งานระบบสัมผัส ดูและโต้ตอบกับแดชบอร์ดบริษัทของคุณจากที่ใดก็ได้บน [หน้าจอเริ่มต้นของ Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)
@@ -67,12 +67,12 @@ ms.locfileid: "85240409"
 
 ### <a name="reporting-services-mobile-report-samples"></a>ตัวอย่างรายงานอุปกรณ์มือถือของ Reporting Services
 1. แตะปุ่มการนำทางส่วนกลาง ![ปุ่มการนำทางส่วนกลาง](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) ในมุมบนซ้าย
-2. แตะไอคอน **การตั้งค่า**![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) คลิกขวาหรือแตะ **เชื่อมต่อกับเซิร์ฟเวอร์** ค้างไว้ จากนั้นแตะ **ดูตัวอย่าง**
+2. แตะไอคอน **การตั้งค่า**![ไอคอนการตั้งค่า](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) คลิกขวา หรือแตะค้าง **เชื่อมต่อกับเซิร์ฟเวอร์** แล้วแตะ **ดูตัวอย่าง**
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
+   ![ภาพหน้าจอของหน้าจอการตั้งค่า ที่แสดงตัวชี้จากไอคอนการตั้งค่าเพื่อเชื่อมต่อไปยังเซิร์ฟเวอร์](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. เปิดโฟลเดอร์รายงานการขายปลีกหรือรายงานการขาย เพื่อสำรวจ KPI และรายงานอุปกรณ์มือถือของโฟลเดอร์เหล่านี้
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
+   ![ภาพหน้าจอของรายงาน ที่แสดง KPI และรายงานอุปกรณ์มือถือ](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
 
 ## <a name="search-for-dashboards-reports-and-apps"></a>ค้นหาแดชบอร์ด รายงาน และแอป
 ค้นหาแดชบอร์ด รายงาน และแอปของคุณได้อย่างรวดเร็ว โดยพิมพ์ในกล่องค้นหาที่ด้านบนของแอปเสมอ

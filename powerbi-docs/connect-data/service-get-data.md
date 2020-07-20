@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 021b5f0856ef4ff3730102efda88fd089a36dfcf
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: bd3ab4a1c6f702ad866211339a3d3a386c4981fa
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320089"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264418"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>แหล่งข้อมูลสำหรับบริการ Power BI
 ข้อมูลเป็นหัวใจสำคัญของ Power BI หากคุณกำลังสำรวจข้อมูล คุณอาจทำได้โดยการสร้างแผนภูมิและแดชบอร์ด หรือการถามคำถามด้วย**ถามตอบ**ได้ การจัดรูปแบบการแสดงข้อมูลและคำตอบที่คุณเห็นจะได้รับข้อมูลเบื้องต้นจากชุดข้อมูล แตชุดข้อมูลนั้นมาจากไหน ใช่แล้ว ชุดข้อมูลมาจากแหล่งข้อมูล
@@ -23,14 +23,14 @@ ms.locfileid: "83320089"
 
 คุณสามารถรับข้อมูลจากแหล่งข้อมูลใดก็ได้ใน Power BI โดยการเลือก**รับข้อมูล**ที่มุมล่างซ้ายของหน้าได้
 
-![](media/service-get-data/pbi-getdata-navigation-link.png) 
+![ภาพหน้าจอของรับข้อมูล ที่แสดงในมุมล่างซ้ายของหน้าจอบริการ Power BI](media/service-get-data/pbi-getdata-navigation-link.png) 
 
 หลังจากที่คุณเลือก**รับข้อมูล** คุณสามารถเลือกข้อมูลที่ต้องการเข้าถึง
 
-![](media/service-get-data/pbi-getdata-startscreen.png)
+![ภาพหน้าจอของตัวเลือกรับข้อมูล ที่แสดงตัวเลือกเพื่อเลือกข้อมูลที่คุณต้องการเข้าถึง](media/service-get-data/pbi-getdata-startscreen.png)
 
 ## <a name="discover-content"></a>ค้นพบเนื้อหา
-![](media/service-get-data/pbi-getdata-discovercontent.png)
+![ภาพหน้าจอของส่วนการค้นหาเนื้อหา ที่แสดงโลโก้คู่ค้า](media/service-get-data/pbi-getdata-discovercontent.png)
 
 ส่วน **ชุดเนื้อหา** ประกอบด้วยข้อมูลและรายงานทั้งหมดที่คุณต้องการแล้วเตรียมพร้อมสำหรับคุณ ใน Power BI มีชุดเนื้อหาสองชนิด: องค์กรและบริการ 
 
@@ -43,7 +43,7 @@ ms.locfileid: "83320089"
 ส่วน **สร้างเนื้อหาใหม่** ประกอบด้วยตัวเลือกสำหรับการสร้าง และการนำเข้าเนื้อหาด้วยตนเอง ใน Power BI มีสองวิธีในการสร้างหรือนำเข้าเนื้อหาของคุณเอง: ไฟล์และฐานข้อมูล 
 
 ### <a name="files"></a>ไฟล์
-![](media/service-get-data/pbi_getdata_files.png)
+![Excel, Power BI Desktop และไอคอน CSV](media/service-get-data/pbi_getdata_files.png)
 
 **Excel** ( *.xlsx*, *.xlsm*) - ใน Excel เวิร์กบุ๊กอาจมีชนิดข้อมูลต่างกัน ตัวอย่างเช่น สามารถรวมข้อมูลที่คุณใส่ลงในแผ่นงานด้วยตนเอง ซึ่งอาจมีข้อมูลที่คุณทำการคิวรีและโหลดจากแหล่งข้อมูลภายนอก โดยใช้ Power Query Power Query จะพร้อมใช้งานผ่านฟังก์ชัน **รับและแปลง** ใน Excel 2016 หรือ Power Pivot คุณอาจนำเข้าข้อมูลจากตารางในแผ่นงาน หรือนำเข้าข้อมูลจากแบบจำลองข้อมูล เมื่อต้องการเรียนรู้เพิ่มเติม ดู [รับข้อมูลจากไฟล์สำหรับ Power BI](service-get-data-from-files.md)
 
@@ -56,7 +56,7 @@ ms.locfileid: "83320089"
 ตำแหน่งที่คุณจัดเก็บไฟล์ของคุณทำให้มีความแตกต่างมากเกินไป OneDrive for Business มีจำนวนยืดหยุ่นและรวมกับ Power BI การเก็บไฟล์บนไดรฟ์ภายในเครื่องสามารถทำได้ แต่ถ้าคุณต้องการรีเฟรชข้อมูลของคุณ มีขั้นตอนเพิ่มเติม สำหรับข้อมูลเพิ่มเติม โปรดดูลิงก์บทความด้านล่าง:
 
 ### <a name="databases"></a>ฐานข้อมูล
-![](media/service-get-data/pbi_getdata_databases.png)
+![ภาพหน้าจอของฐานข้อมูล ที่แสดงฐานข้อมูลในโลโก้ระบบคลาวด์](media/service-get-data/pbi_getdata_databases.png)
 
 **ฐานข้อมูลในระบบคลาวด์**-จากบริการของ Power BI คุณสามารถเชื่อมต่อสด:
 
