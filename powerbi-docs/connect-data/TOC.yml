@@ -156,8 +156,6 @@
           items:
             - name: การรับข้อมูลจากไฟล์
               href: service-get-data-from-files.md
-            - name: จาก Excel สู่รายงานที่น่าทึ่ง
-              href: service-from-excel-to-stunning-report.md
             - name: รับข้อมูลจากไฟล์สมุดงาน Excel
               href: service-excel-workbook-files.md
             - name: รับข้อมูลจากไฟล์ Power BI Desktop
