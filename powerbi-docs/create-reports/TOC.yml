@@ -11,6 +11,10 @@
     - name: บทช่วยสอน
       expanded: true
       items:
+        - name: 'Power BI Desktop: จาก Excel เป็นรายงาน'
+          href: desktop-excel-stunning-report.md
+        - name: 'บริการ Power BI: จาก Excel เป็นรายงาน'
+          href: service-from-excel-to-stunning-report.md
         - name: 'หลักสูตรออนไลน์: รายงานที่มีการแบ่งหน้า'
           href: ../learning-catalog/paginated-reports-online-course.md
         - name: สร้างรายงานที่มีการแบ่งหน้าและอัปโหลด
