@@ -10,11 +10,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1febf93d35500d56f5b3b104487725f33d7b17ad
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a1e42b4901e8659bb5d999294f29a80a0389280
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234183"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557244"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop"></a>การรีเฟรชหน้าอัตโนมัติใน Power BI Desktop 
 
@@ -146,6 +147,7 @@ Power BI Desktop ไม่มีข้อจำกัดสำหรับช่
 * การนำเข้า โหมดที่เก็บข้อมูลแบบ LiveConnect และ Push ไม่รองรับสำหรับการรีเฟรชเพจอัตโนมัติ  
 * โมเดลแบบรวมที่มีแหล่งข้อมูล DirectQuery อย่างน้อยหนึ่งรายการมีการรองรับ
 * Power BI Desktop ไม่มีข้อจำกัดสำหรับช่วงเวลาการรีเฟรช ช่วงเวลาอาจเป็นค่าที่ใช้บ่อยเหมือนกันทุกวินาที เมื่อมีการเผยแพร่รายงานไปยังบริการของ Power BI ข้อจำกัดบางอย่างจะถูกนำไปใช้ตามอธิบายไว้ในบทความ [ก่อนหน้านี้](#restrictions-on-refresh-intervals)
+* การฝัง SharePoint Online ไม่รองรับการรีเฟรชหน้าอัตโนมัติ
 
 ### <a name="performance-diagnostics"></a>การวินิจฉัยประสิทธิภาพ
 

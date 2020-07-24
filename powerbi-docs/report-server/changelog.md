@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: 8b777cba35f32dcf2d6561b73c350d047d473223
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1263de975319b7b0e2ef5123d985fa50a126d680
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162286"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459611"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>บันทึกการเปลี่ยนแปลงสำหรับ เซิร์ฟเวอร์รายงาน Power BI
 
@@ -52,11 +52,12 @@ ms.locfileid: "86162286"
 
 
 - **Power BI Desktop (ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI)**
-    - *เวอร์ชัน: 2.81.5831.941 (พฤษภาคม 2020), เผยแพร่เมื่อ: 27 พฤษภาคม 2020* (รุ่นใหม่และเวอร์ชันใหม่)
+   - *เวอร์ชัน: 2.81.5831.1181 (พฤษภาคม 2020), เผยแพร่เมื่อ: 9 มิถุนายน 2020*
+        - แก้ไขข้อบกพร่อง
+           -  แก้ไขสำหรับวิชวล MarketPlace
+   - *เวอร์ชัน: 2.81.5831.941 (พฤษภาคม 2020), เผยแพร่เมื่อ: 27 พฤษภาคม 2020* (รุ่นใหม่และเวอร์ชันใหม่)
         - ประกอบด้วยการเปลี่ยนแปลงที่จำเป็นสำหรับการเชื่อมต่อกับ เซิร์ฟเวอร์รายงาน Power BI (พฤษภาคม 2020)        
-
-
-
+   
 ## <a name="january-2020"></a>มกราคม 2020
 - **เซิร์ฟเวอร์รายงาน Power BI**
     - *เวอร์ชัน: 1.6.7364.4075 (รุ่น 15.0.1102.777) เผยแพร่เมื่อ: 2 มีนาคม 2020*

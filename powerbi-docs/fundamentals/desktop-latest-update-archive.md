@@ -6,14 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a8b2934c47d3bc85b1710927fefb814f027c035
-ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
+ms.openlocfilehash: f0eef1441eb0bb87b6e7b85e791c47174c752bc7
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84685271"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409432"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>การอัปเดตประจำเดือนก่อนหน้าสำหรับ Power BI Desktop
 
@@ -31,6 +32,94 @@ ms.locfileid: "84685271"
 คุณยังสามารถดูวิดีโอ**อัปเดตล่าสุด**เริ่มตั้งแต่แรก จากภายในบทความนี้เลย โดยคลิกที่ไอคอน**เล่น**บนรูปภาพวิดีโอที่อยู่ด้านล่างรายการการอัปเดตได้
 
 ส่วนต่อไปนี้อธิบายวิธีการอัปเดตเดือนก่อนหน้าไปยัง**Power BI Desktop**
+
+
+## <a name="june-2020-update-2825858301"></a>การอัปเดตประจำเดือนมิถุนายน 2020 (2.82.5858.301)
+
+เดือนมิถุนายน Power BI Desktop ของเราให้ความรู้สึกเหมือนเป็นการเริ่มต้นใหม่ที่เต็มไปด้วยความสามารถใหม่ๆ ฟีเจอร์ที่มีอยู่โดยทั่วไปและโอกาสมากมายในการเข้าถึงโลกของข้อมูลและการโต้ตอบของคุณ 
+
+สามารถรับเวอร์ชันล่าสุดของ Power BI Desktop จาก[ศูนย์ดาวน์โหลด](https://www.microsoft.com/download/details.aspx?id=58494) ถ้าคุณกำลังใช้งาน Windows 10 คุณสามารถรับ Power BI Desktop ได้จาก [Windows Store ](https://aka.ms/pbidesktopstore) เวอร์ชันรายเดือนจะเหมือนกันแม้ว่าหมายเลขเวอร์ชันอาจแตกต่างกัน โดยไม่คำนึงถึงวิธีการที่คุณติดตั้ง Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการดาวน์โหลดและติดตั้ง Power BI Desktop ดู [Get Power BI Desktop](desktop-get-the-desktop.md) 
+
+> [!IMPORTANT]
+> เริ่มต้นด้วยการปล่อยออกมาในกันยายน 2019 Power BI Desktop มาพร้อมกับแพคเกจการติดตั้ง .exe เดียวที่มีภาษาที่รองรับทั้งหมด ไม่มีการเผยแพร่เวอร์ชัน .msi อีกต่อไป
+
+
+ลิงก์ที่อยู่ข้าง ๆ แต่ละคุณลักษณะในรายการอัปเดต Power BI Desktop จะถูกแปลเป็นดังนี้:
+
+* \[บล็อก\]: คุณลักษณะส่วนใหญ่จะอธิบายไว้ในส่วนของบล็อคโพสต์ ที่อัปเดตรายเดือน
+* \[วิดีโอ\]: คุณลักษณะบางอย่างมีการตัดตอนจากวิดีโอที่ได้กล่าวถึงคุณลักษณะ ซึ่งจะเล่นในแท็บเบราว์เซอร์ใหม่
+* \[บทความ\]: บางคุณลักษณะมีบทความที่ให้รายละเอียดเพิ่มเติม
+* คุณลักษณะบางอย่างจะอธิบายในตัวเองและไม่จำเป็นต้องมีบทความหรือวิดีโอ
+
+นอกจากนี้คุณยังสามารถดู[การอัปเดตประจำเดือนทั้งหมดของ Power BI Desktop](#power-bi-desktop-monthly-update-video) ได้
+
+การอัปเดตใหม่ต่อไปนี้จะถูกอัปเดตไปยัง Power BI Desktop ในเดือนนี้:
+
+
+### <a name="reporting"></a>การรายงาน
+* การปรับปรุงการสร้างเค้าโครงมือถือ [[วิดีโอ]](https://youtu.be/WUo8TnHNHYM?t=15) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile) 
+* ขณะนี้การรีเฟรชเพจอัตโนมัติพร้อมให้บริการโดยทั่วไปแล้ว [[วิดีโอ]](https://youtu.be/WUo8TnHNHYM?t=266) [[บทความ]](../create-reports/desktop-automatic-page-refresh.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_APR) 
+* ขณะนี้ตัวแบ่งเชิงลำดับชั้นพร้อมให้บริการโดยทั่วไปแล้ว [[วิดีโอ]](https://youtu.be/WUo8TnHNHYM?t=819) [[บทความ]](../create-reports/desktop-drill-through-buttons.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Hierarchical_slicer) 
+* ขณะนี้ริบบอนที่ทันสมัยพร้อมให้บริการโดยทั่วไปแล้ว [[วิดีโอ]](https://youtu.be/WUo8TnHNHYM?t=1057) [[บทความ]](../create-reports/desktop-ribbon.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_ribbon) 
+* ในตอนนี้ RLS ได้รับการสนับสนุนสำหรับตารางที่แนะนำในแกลเลอรีประเภทข้อมูลของ Excel [[วิดีโอ]](https://youtu.be/WUo8TnHNHYM?t=1075) [[บทความ]](../collaborate-share/service-excel-featured-tables.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_RLS) 
+
+
+
+### <a name="analytics"></a>การวิเคราะห์
+* ขณะนี้ข้อมูลเชิงลึกของ AI พร้อมให้บริการโดยทั่วไปแล้ว [[วิดีโอ]](https://youtu.be/WUo8TnHNHYM?t=1106) [[บทความ]](../transform-model/desktop-ai-insights.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_AI) 
+
+
+### <a name="visuals"></a>การแสดงผลด้วยภาพ
+* ตัวเลือกการจัดรูปแบบจุดแผนภูมิเส้น [[วิดีโอ]](https://youtu.be/WUo8TnHNHYM?t=1262) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Line_chart)
+* วิชวลจำนวนมากจากผู้ขายที่หลากหลาย [[วิดีโอ]](https://youtu.be/WUo8TnHNHYM?t=1342) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Radar)
+
+### <a name="template-apps"></a>แอปแม่แบบ
+* การวิเคราะห์ทรัพยากรบุคคลที่คล่องตัว [[วิดีโอ]](https://youtu.be/WUo8TnHNHYM?t=1482)  [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Agile_HR_Analytics)
+* รายงานข้อมูลผู้ใช้ Uber [[วิดีโอ]](https://youtu.be/WUo8TnHNHYM?t=1507) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Uber_User_Data)
+
+
+### <a name="modeling"></a>การสร้างแบบจำลอง
+* มุมมองแบบจำลองเปิดใช้งานสำหรับการเชื่อมต่อแบบสด (ตัวอย่าง) [[วิดีโอ]](https://youtu.be/WUo8TnHNHYM?t=1527) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Model_view_enabled)
+* อัปเดตไปยังมุมมองแบบจำลอง [[วิดีโอ]](https://youtu.be/WUo8TnHNHYM?t=1624) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Updates_to_Model)
+
+
+### <a name="data-connectivity"></a>การเชื่อมต่อข้อมูล
+* ตัวเชื่อมต่อกระบวนการหลอม Palantir [[วิดีโอ]](https://youtu.be/WUo8TnHNHYM?t=1700) [[บทความ]](../connect-data/desktop-data-sources.md) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Palantir) 
+
+
+### <a name="other-features"></a>คุณลักษณะอื่น ๆ
+* การฝึกอบรม Power BI ใหม่ [[วิดีโอ]](https://youtu.be/WUo8TnHNHYM?t=1722) [[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_pbi_training) 
+
+
+สำหรับข้อมูลโดยละเอียดเกี่ยวกับคุณลักษณะใหม่เหล่านี้แต่ละตัว โปรดดู [บล็อกโพสต์สรุปคุณลักษณะของ Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/)
+
+นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
+
+> [!NOTE]
+> ดูแหล่งข้อมูล [ที่พร้อมใช้งานสำหรับ Power BI Desktop](../connect-data/desktop-data-sources.md) รายการของเรามีการความก้าวหน้าเสมอ โปรดตรวจสอบให้บ่อยครั้ง
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>วิดีโออัปเดตประจำเดือน Power BI Desktop
+วิดีโอต่อไปนี้อธิบายการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์:
+
+> [!VIDEO https://www.youtube.com/embed/WUo8TnHNHYM]
+
+
+นอกจากนี้คุณยังสามารถดาวน์โหลด Power BI Desktop เวอร์ชันก่อนหน้าหากองค์กรของคุณต้องการใช้ได้ด้วยเช่นกัน เราแนะนำให้คุณใช้เวอร์ชันล่าสุดของ Power BI Desktop มากกว่าเวอร์ชันก่อนหน้าเสมอ เวอร์ชันก่อนหน้าทั้งหมดมีข้อจำกัดดังต่อไปนี้:
+
+* Power BI Desktop รุ่นก่อนหน้าจะไม่มีให้บริการ - คุณควรใช้รุ่นล่าสุดเสมอเพื่อใช้คุณลักษณะและการอัปเดตล่าสุด
+* คุณอาจไม่สามารถเปิดไฟล์ที่สร้างหรือบันทึกใน Power BI Desktop รุ่นใหม่กว่าด้วย Power BI Desktop เวอร์ชันก่อนหน้าได้ 
+* หากคุณได้รับคำเตือนเมื่อโหลดรายงานที่บันทึกใน Power BI Desktop เวอร์ชันที่ใหม่กว่า แล้วบันทึกรายงานนั้นในเวอร์ชันก่อนหน้า คุณจะสูญเสียข้อมูลใดๆ ที่เกี่ยวข้องกับคุณลักษณะใหม่
+* เราจัดเก็บ Power BI Desktop เวอร์ชันภาษาอังกฤษเท่านั้น
+
+เลือกการลิงก์ต่อไปนี้เพื่อดาวน์โหลดเวอร์ชันก่อนหน้านี้: 
+
+* [Power BI Desktop รุ่นเดือนมิถุนายน 2020 - 32 บิต](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-06.exe)
+* [Power BI Desktop รุ่นเดือนมิถุนายน 2020 - 64 บิต](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-06_x64.exe)
+
+
+
+
 
 
 
@@ -655,7 +744,7 @@ ms.locfileid: "84685271"
 * การปรับปรุงประสิทธิภาพการทำงานของคิวรีสำหรับแบบจำลอง DirectQuery  [[วิดีโอ]](https://youtu.be/neq0THnRJzo?t=1272)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#perfDirectQuery)https://youtu.be/neq0THnRJzo?t=1208
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
@@ -711,7 +800,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
@@ -852,7 +941,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
@@ -929,7 +1018,7 @@ ms.locfileid: "84685271"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O8GlHDz8xUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 ## <a name="april-2019-update-2685432361"></a>การอัปเดตประจำเมษายน 2019 (2.68.5432.361)
 
@@ -990,7 +1079,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
@@ -1121,7 +1210,7 @@ ms.locfileid: "84685271"
 * ปรับปรุง Live เชื่อมต่อ และข้อผิดพลาด DirectQuery [[วิดีโอ]](https://youtu.be/dMD25wfElLg?t=2926)[[บล็อก]  ](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#error) 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
@@ -1251,7 +1340,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
@@ -1309,7 +1398,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
@@ -1357,7 +1446,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
@@ -1367,7 +1456,7 @@ ms.locfileid: "84685271"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rzw2WyI09kY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> นอกจากนี้คุณอาจสนใจที่จะเรียนรู้[มีอะไรใหม่ในบริการของ Power BI](service-whats-new.md) และลองดู[มีอะไรใหม่ในแอปมือถือสำหรับ Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) ได้
+> นอกจากนี้คุณอาจจะสนใจที่เรียนรู้ว่า[มีอะไรใหม่ในบริการ Power BI บ้าง](service-whats-new.md) และดูว่า[มีอะไรใหม่ในแอปสำหรับอุปกรณ์เคลื่อนที่สำหรับ Power BI บ้าง](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 
 
@@ -1464,7 +1553,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
@@ -1613,7 +1702,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
@@ -1658,7 +1747,7 @@ ms.locfileid: "84685271"
 * ดูข้อผิดพลาดก่อนหน้าที่คุณพบ[[วิดีโอ]](https://youtu.be/kuI6MMzDh34?t=34m51s)[[บล็อก]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
@@ -1722,7 +1811,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
@@ -1829,7 +1918,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
@@ -1885,7 +1974,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
@@ -1983,11 +2072,11 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
-วิดีโอต่อไปนี้อธิบาย และแสดงการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
+วิดีโอต่อไปนี้จะอธิบายและแสดงการอัปเดตแต่ละรายการเหล่านี้ คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/moTQJlnClJw" frameborder="0" allowfullscreen></iframe>
 
@@ -2028,11 +2117,11 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
-วิดีโอต่อไปนี้อธิบาย และแสดงการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
+วิดีโอต่อไปนี้จะอธิบายและแสดงการอัปเดตแต่ละรายการเหล่านี้ คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ND8U0yXroaQ" frameborder="0" allowfullscreen></iframe>
 
@@ -2078,11 +2167,11 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดู[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2) ที่คุณสามารถได้รายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละอย่างเหล่านี้ (นี่คือบล็อกเดียวกันกับที่อ้างอิงลงในรายการข้างบน)
 
-วิดีโอต่อไปนี้อธิบาย และแสดงการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
+วิดีโอต่อไปนี้จะอธิบายและแสดงการอัปเดตแต่ละรายการเหล่านี้ คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4X96ow7FnSY" frameborder="0" allowfullscreen></iframe>
 
@@ -2170,7 +2259,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดูที่[โพสต์บล็อก](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/)ซึ่่งคุณสามารถดูข้อมูลที่มีรายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละคุณลักษณะเหล่านี้ได้ (นี่เป็นการอ้างอิงถึงโพสต์บล็อก บล็อกเดียวกันกับรายการด้านบน)
 
@@ -2215,7 +2304,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดูที่[โพสต์บล็อก](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/)ซึ่่งคุณสามารถดูข้อมูลที่มีรายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละคุณลักษณะเหล่านี้ได้ (นี่เป็นการอ้างอิงถึงโพสต์บล็อก บล็อกเดียวกันกับรายการด้านบน)
 
@@ -2258,7 +2347,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดูที่[โพสต์บล็อก](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/)ซึ่่งคุณสามารถดูข้อมูลที่มีรายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละคุณลักษณะเหล่านี้ได้ (นี่เป็นการอ้างอิงถึงโพสต์บล็อก บล็อกเดียวกันกับรายการด้านบน)
 
@@ -2342,7 +2431,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดูที่[โพสต์บล็อก](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/)ซึ่่งคุณสามารถดูข้อมูลที่มีรายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละคุณลักษณะเหล่านี้ได้ (นี่เป็นการอ้างอิงถึงโพสต์บล็อก บล็อกเดียวกันกับรายการด้านบน)
 
@@ -2395,7 +2484,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดูที่[โพสต์บล็อก](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/)ซึ่่งคุณสามารถดูข้อมูลที่มีรายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละคุณลักษณะเหล่านี้ได้ (นี่เป็นการอ้างอิงถึงโพสต์บล็อก บล็อกเดียวกันกับรายการด้านบน)
 
@@ -2506,11 +2595,11 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดูที่[โพสต์บล็อก](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)ซึ่่งคุณสามารถดูข้อมูลที่มีรายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละคุณลักษณะเหล่านี้ได้ (นี่เป็นการอ้างอิงถึงโพสต์บล็อก บล็อกเดียวกันกับรายการด้านบน)
 
-วิดีโอต่อไปนี้อธิบาย และแสดงการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
+วิดีโอต่อไปนี้จะอธิบายและแสดงการอัปเดตแต่ละรายการเหล่านี้ คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pcUr6E8g_KI" frameborder="0" allowfullscreen></iframe>
 
@@ -2567,11 +2656,11 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดูที่[โพสต์บล็อก](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)ซึ่่งคุณสามารถดูข้อมูลที่มีรายละเอียดเพิ่มเติมเกี่ยวกับคุณลักษณะใหม่แต่ละคุณลักษณะเหล่านี้ได้ (นี่เป็นการอ้างอิงถึงโพสต์บล็อก บล็อกเดียวกันกับรายการด้านบน)
 
-วิดีโอต่อไปนี้อธิบาย และแสดงการปรับปรุงแต่ละอย่าง คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
+วิดีโอต่อไปนี้จะอธิบายและแสดงการอัปเดตแต่ละรายการเหล่านี้ คุณยังสามารถดูวิดีโอได้จากบล็อกโพสต์
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0VvG7Eqoke8" frameborder="0" allowfullscreen></iframe>
 
@@ -2663,7 +2752,7 @@ ms.locfileid: "84685271"
 
 
 > [!NOTE]
-> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่มีให้ใน Power BI Desktop](../connect-data/desktop-data-sources.md)รายการของเราก็กำลังโตขึ้นเรื่อย ๆ ดังนั้นควรตรวจดูบ่อย ๆ
+> คุณยังสามารถ[ดูแหล่งข้อมูลทั้งหมดที่พร้อมใช้งานสำหรับ Power BI Desktop ได้](../connect-data/desktop-data-sources.md) รายการของเราจะเพิ่มจำนวนขึ้นเสมอ ดังนั้นโปรดกลับมาตรวจสอบเป็นประจำ
 
 ต้องการข้อมูลเพิ่มเติมเกี่ยวกับการปรับปรุงเหล่านี้หรือไม่ ลองดูที่[บล็อกโพสต์](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)ซึ่่งคุณสามารถดูข้อมูลในรายละเอียดเพิ่มเติมเกี่ยวกับแต่ละคุณลักษณะใหม่เหล่านี้ได้
 

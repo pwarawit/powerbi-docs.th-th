@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 01/08/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b4146cef6ae34c7c6e5eb9713242c3a2cb0257ee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a3e393fa02d0bccc3e966c467b41883e72ae05e
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237773"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459657"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>การใช้กระแสข้อมูลกับแหล่งข้อมูลภายในองค์กร
 
@@ -69,6 +69,7 @@ ms.locfileid: "85237773"
 * การเปลี่ยนเกตเวย์จะส่งผลกระทบกับกระแสข้อมูลทั้งชุด
 * ถ้าต้องใช้เกตเวย์จำนวนหนึ่ง ขอแนะนำให้สร้างกระแสข้อมูลไว้จำนวนหนึ่ง (หนึ่งชุดต่อเกตเวย์หนึ่งตัว) แล้วใช้การคำนวณหรือความสามารถในการอ้างอิงเอนทิตีเพื่อรวมข้อมูล
 * กระแสข้อมูลได้รับการรองรับเมื่อใช้เกตเวย์ของบริษัทเท่านั้น เกตเวย์ส่วนตัวจะไม่พร้อมใช้งานในรายการดรอปดาวน์และหน้าจอตั้งค่า
+* แหล่งข้อมูลในเครื่องที่กำหนดค่าด้วยตัวเลือก [ใช้ SSO ผ่าน Kerberos สำหรับคิวรี่ DirectQuery และนำเข้า](../connect-data/service-gateway-sso-kerberos.md#run-a-power-bi-report) ในกระแสข้อมูล
 
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป

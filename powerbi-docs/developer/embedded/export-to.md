@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 03/24/2020
-ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/13/2020
+ms.openlocfilehash: 04dae0a59391ba48c7a8b6858c98ed11490ca946
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034508"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557119"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>ส่งออกรายงาน Power BI ไปยังไฟล์ (ตัวอย่าง)
 
@@ -117,9 +117,10 @@ API เป็นแบบอะซิงโครนัส เมื่อมี
 
 เมื่อคุณสร้างงานส่งออก มีสามขั้นตอนเพื่อการปฏิบัติตามดังนี้:
 
-1. ส่งคำขอการส่งออก
-2. การโพลล์
-3. การรับไฟล์
+1. [การส่งคำขอการส่งออก](#step-1---sending-an-export-request)
+2. [การโพลล์](#step-2---polling)
+3. [การรับไฟล์](#step-3---getting-the-file)
+4. [การใช้สตรีมไฟล์](#step-4---using-the-file-stream)
 
 หัวข้อนี้มีตัวอย่างสำหรับแต่ละขั้นตอน
 
@@ -231,6 +232,10 @@ public class ExportedFile
     public string FileSuffix;
 }
 ```
+
+### <a name="step-4---using-the-file-stream"></a>ขั้นตอนที่ 4 - การใช้สตรีมไฟล์
+
+เมื่อคุณมีสตรีมไฟล์ คุณสามารถจัดการได้ในแบบที่เหมาะกับความต้องการของคุณมากที่สุด ตัวอย่างเช่น คุณสามารถส่งอีเมลหรือใช้เพื่อดาวน์โหลดรายงานที่ส่งออก
 
 ### <a name="end-to-end-example"></a>ตัวอย่างแบบต้นจนจบ
 

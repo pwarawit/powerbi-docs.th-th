@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/08/2020
-ms.openlocfilehash: 037fbdf3c1e4c01bac91e6089f9fa1c7dd1635d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 07/14/2020
+ms.openlocfilehash: 94cd4fd652fc1b06a73e1ea319a65e1aa5b46c7e
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238996"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437226"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>เผยแพร่วิชวลแบบกำหนดเองไปยัง Partner Canter
 
@@ -23,7 +23,7 @@ ms.locfileid: "85238996"
 
 สามารถหาแอป SaaS และ add-in สำหรับผลิตภัณฑ์และบริการของ Microsoft ได้ใน [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)
 
-![ที่เก็บ Office](media/office-store/appsource-01.png)
+![สกรีนช็อตของวิชวล Power BI ใน AppSource](media/office-store/appsource-01.png)
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>การเตรียมเพื่อส่งวิชวล Power BI ของคุณ
 
@@ -61,7 +61,7 @@ ms.locfileid: "85238996"
 
 ## <a name="submitting-to-appsource"></a>การส่งไป AppSource
 
-หากต้องการส่งวิชวล Power BI ของคุณไปยัง AppSource คุณจำเป็นต้องได้รับแพคเกจแอปจากทีม Power BI จากนั้นส่งไปยังศูนย์คู่ค้า 
+หากต้องการส่งวิชวล Power BI ของคุณไปยัง AppSource คุณจำเป็นต้องได้รับแพคเกจแอปจากทีม Power BI จากนั้นส่งไปยังศูนย์คู่ค้า
 
 ### <a name="getting-the-app-package"></a>การรับแพคเกจแอป
 
@@ -73,6 +73,11 @@ ms.locfileid: "85238996"
 
 หากต้องการส่งวิชวล Power BI ของคุณไปยังศูนย์คู่ค้าคุณจะต้องได้รับการลงทะเบียนกับศูนย์คู่ค้า ถ้าคุณยังไม่ได้ลงทะเบียน [เปิดบัญชีนักพัฒนาในศูนย์คู่ค้า](https://docs.microsoft.com/office/dev/store/open-a-developer-account)
 
+>[!NOTE]
+>**ผู้เผยแพร่รายบุคคล** สามารถใช้หนึ่งในวิธีการเหล่านี้เพื่อส่งวิชวล Power BI:
+>* หากคุณมีบัญชีแดชบอร์ดของผู้ขายเดิม คุณสามารถใช้ข้อมูลประจำตัวของบัญชีนี้เพื่อลงชื่อเข้าใช้ศูนย์คู่ค้าได้
+>* หากคุณไม่มีบัญชีแดชบอร์ดของผู้ขายเดิมและไม่ได้ลงทะเบียนกับศูนย์คู่ค้า คุณจะต้อง [เปิดบัญชีนักพัฒนาในศูนย์คู่ค้า](https://docs.microsoft.com/office/dev/store/open-a-developer-account) โดยใช้อีเมลที่ทำงานของคุณ
+
 ทำตามขั้นตอนด้านล่างเพื่อส่งวิชวล Power BI ของคุณไปยังศูนย์คู่ค้า สำหรับข้อมูลเพิ่มเติมเกี่ยวกับกระบวนการส่งให้ดูที่การ [นำทางโซลูชัน Office ของคุณไปยัง AppSource ผ่านศูนย์คู่ค้า](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource)
 
 1. ลงชื่อเข้าใช้ใน **Partner Center**
@@ -83,7 +88,7 @@ ms.locfileid: "85238996"
 
 4. เลือก **สร้างใหม่** และจากเมนูดรอปดาวน์เลือก **วิชวล Power BI**
 
-    ![ที่เก็บ Office](media/office-store/power-bi-visual.png)
+    ![สกรีนช็อตของการสร้างวิชวล Power BI ใหม่ในแท็บร้านค้าสำนักงานในศูนย์คู่ค้า](media/office-store/power-bi-visual.png)
 
 5. ใน **สร้างหน้าต่าง Power BI วิชวลใหม่** ใส่ชื่อสำหรับวิชวล Power BI ของคุณและเลือก **สร้าง**
 

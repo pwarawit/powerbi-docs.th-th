@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: e76d820e804a19db148e0db4c2702e002ee2c017
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4dd5698f91177733e150577490775eefb7e2f2ef
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275926"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557198"
 ---
 # <a name="deployment-pipelines-best-practices-preview"></a>แนวทางปฏิบัติที่ดีที่สุดสำหรับไปป์ไลน์การปรับใช้ (ตัวอย่าง)
 
@@ -140,7 +140,7 @@ ms.locfileid: "83275926"
 
 เมื่อทำการทดสอบ คุณสามารถใช้ความจุเดียวกันกับขั้นตอนการผลิตได้ อย่างไรก็ตามการดำเนินการนี้สามารถทำให้การผลิตไม่เสถียรในระหว่างการทดสอบการโหลด หากต้องการหลีกเลี่ยงการผลิตที่ไม่เสถียร ให้ใช้ความจุอื่นที่มีแหล่งข้อมูลคล้ายคลึงกันกับความจุในการผลิต เพื่อทำการทดสอบ เพื่อหลีกเลี่ยงค่าใช้จ่ายเพิ่มเติมคุณสามารถใช้ [ความจุ Azure A](../developer/embedded/azure-pbie-create-capacity.md) ในการชำระเงินสำหรับเวลาการทดสอบเท่านั้น
 
-![แผนภาพแนวทางปฏิบัติที่ดีที่สุดสำหรับไปป์ไลน์การปรับใช้](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
+![ไดอะแกรมที่แสดงไปป์ไลน์การปรับใช้งานกับสภาพแวดล้อมการทดสอบที่เลียนแบบสภาพแวดล้อมการผลิต](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
 
 ### <a name="use-dataset-rules-with-a-real-life-data-source"></a>ใช้กฎชุดข้อมูลที่มีแหล่งข้อมูลในชีวิตจริง
 

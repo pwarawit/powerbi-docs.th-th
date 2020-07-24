@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 04/22/2020
+ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 056d69a866b0b56e83557e77462e03e3e00a2c8d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218550"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409524"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>ใช้ตัวแบ่งส่วนและตัวกรองเวลาแบบสัมพัทธ์ใน Power BI
 
@@ -22,18 +22,12 @@ ms.locfileid: "85218550"
 
 ด้วยสถานการณ์การรีเฟรชอย่างรวดเร็วที่เกิดขึ้นใหม่ ความสามารถในการกรองไปยังหน้าต่างที่มีขนาดเล็กกว่าจะมีประโยชน์ ด้วยตัวแบ่งส่วนเวลาแบบสัมพัทธ์หรือตัวกรองวันที่ี่แบบสัมพัทธ์ คุณสามารถใช้ตัวกรองที่ยึดตามเวลากับคอลัมน์วันที่หรือเวลาใดก็ตามในแบบจำลองข้อมูลของคุณได้ ตัวอย่างเช่น คุณสามารถใช้ตัวแบ่งส่วนเวลาแบบสัมพัทธ์ เพื่อแสดงเฉพาะการดูวิดีโอภายในนาทีหรือชั่วโมงที่ผ่านมาได้ 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="ตัวอย่างเวลาสัมพัทธ์":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="สกรีนช็อตของตัวอย่างเวลาสัมพัทธ์":::
 
 คุณไม่จำเป็นต้องใช้คุณลักษณะร่วมกับคุณลักษณะ[การรีเฟรชหน้าอัตโนมัติ](../create-reports/desktop-automatic-page-refresh.md) อย่างไรก็ตาม สถานการณ์เวลาที่สัมพันธ์กันหลายรายการจับคู่กับคุณลักษณะการรีเฟรชหน้าอัตโนมัติได้เป็นอย่างดี  
 
 > [!NOTE]
 > เมื่อคุณใช้ตัวกรองและตัวแบ่งส่วนเวลาแบบสัมพัทธ์ในระดับหน้าหรือรายงาน วิชวลทั้งหมดบนหน้าหรือรายงานนั้นจะถูกกรองไปยังช่วงเวลาที่แน่นอนเดียวกัน โดยใช้เวลา*ของจุดยึด*ที่ใช้งานร่วมกัน เนื่องจากวิชวลอาจมีเวลาการดำเนินการที่แตกต่างกันเล็กน้อย เวลาของจุดยึดที่ใช้ร่วมกันนี้จะรับประกันการซิงโครไนซ์วิชวลทั่วทุกหน้าและทั่วทุกรายงานของคุณ อ่านข้อมูลเพิ่มเติมเกี่ยวกับ[เวลาของจุดยึด](#understanding-anchor-time)ในบทความนี้
-
-## <a name="turn-on-relative-time-preview"></a>เปิดการแสดงตัวอย่างของเวลาสัมพัทธ์
-
-ตัวกรองเวลาแบบสัมพัทธ์อยู่ในการแสดงตัวอย่าง ดังนั้นคุณจำเป็นต้องเปิดสวิตช์คุณลักษณะ ไปยังตัวเลือก **ไฟล์** >  **และตัวเลือก** > **การตั้งค่า** ภายใน**การตั้งค่าส่วนกลาง** > **คุณลักษณะการแสดงตัวอย่าง** ตรวจสอบให้แน่ใจว่าคุณได้เลือก**ตัวกรองเวลาแบบสัมพัทธ์**
-
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-preview.png" alt-text="ตั้งค่าตัวเลือกการแสดงตัวอย่างเวลาแบบสัมพัทธ์":::
 
 ## <a name="create-a-relative-time-slicer-or-filter"></a>สร้างตัวแบ่งส่วนหรือตัวกรองเวลา่แบบสัมพัทธ์
 
@@ -45,7 +39,7 @@ ms.locfileid: "85218550"
 
 2. เลือกประเภทการแสดงภาพของ**ตัวแบ่งส่วน**
 
-    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="สร้างตัวแบ่งส่วนเวลา":::
+    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="สกรีนช็อตของการสร้างตัวแบ่งส่วนข้อมูลเวลา":::
 
 ### <a name="create-a-filter"></a>สร้างตัวกรอง
  
@@ -55,27 +49,27 @@ ms.locfileid: "85218550"
 
 ขั้นตอนถัดไป ให้คุณเปลี่ยนประเภทตัวกรองเป็น**เวลาสัมพัทธ์**
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="เปลี่ยนเป็นเวลาสัมพัทธ์":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="สกรีนช็อตของการเปลี่ยนแปลงเป็นเวลาที่สัมพันธ์กัน":::
  
 นี่คือลักษณะที่ปรากฏในตัวแบ่งส่วน:
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="เวลาสัมพัทธ์ในตัวแบ่งส่วน":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="สกรีนช็อตของเวลาแบบสัมพัทธ์ในตัวแบ่งส่วนข้อมูล":::
 
 นี่คือลักษณะที่ปรากฏในการ์ดตัวกรอง: 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="เวลาสัมพัทธ์ในตัวกรอง":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="สกรีนช็อตของเวลาแบบสัมพัทธ์ในตัวกรอง":::
  
 ด้วยตัวกรองประเภทใหม่นี้ คุณจึงมีตัวเลือกในการกรองตามช่วงเวลา **ล่าสุด** **ถัดไป** หรือ **ช่วงเวลานี้**: 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="เลือกล่าสุด ถัดไป หรือช่วงเวลานี้":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="สกรีนช็อตของการเลือกล่าสุด ถัดไป หรือช่วงเวลานี้":::
  
 คุณกำหนดุหน้าต่างเวลาโดยใช้จำนวนเต็มและหน่วยของเวลา: **นาที** หรือ **ชั่วโมง**
  
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="เลือกนาทีหรือชั่วโมง":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="สกรีนช็อตของการเลือกนาทีหรือชั่วโมง":::
 
 หากคุณต้องการประหยัดพื้นที่บนพื้นที่ทำงาน คุณยังสามารถสร้างตัวกรองเวลาแบบสัมพัทธ์เป็นการ์ดตัวกรองในบานหน้าต่างตัวกรองได้
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="ตั้งเวลาสัมพัทธ์ในตัวกรองแทน":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="สกรีนช็อตของการตั้งค่าเวลาแบบสัมพัทธ์ในตัวกรองแทน":::
  
 ## <a name="understanding-anchor-time"></a>การทำความเข้าใจเวลาจุดยึด
 
@@ -101,7 +95,7 @@ ms.locfileid: "85218550"
     - ไม่สนับสนุนผ่าน API แบบฝังตัว
     - ไม่สนับสนุนการเผยแพร่ไปยังเว็บ
 
-- **การแคชคิวรี**: เราใช้แคชไคลเอ็นต์ ดังนั้นสมมติว่าคุณระบุ "1 นาทีที่ผ่านมา" แล้วระบุ "5 นาทีที่ผ่านมา" จากนั้นกลับไปที่ "1 นาทีที่ผ่านมา" ที่จุดนั้น คุณจะเห็นผลลัพธ์เดียวกันกับการเรียกใช้ครั้งแรก ยกเว้นในกรณีที่คุณรีเฟรชหน้าหรือหน้านั้นรีเฟรชโดยอัตโนมัติ
+- **การแคชคิวรี**: เราใช้แคชไคลเอ็นต์ สมมติว่าคุณระบุ "1 นาทีที่ผ่านมา" แล้วระบุ "5 นาทีที่ผ่านมา" จากนั้นกลับไปที่ "1 นาทีที่ผ่านมา" ที่จุดนั้น คุณจะเห็นผลลัพธ์เดียวกันกับการเรียกใช้ครั้งแรก ยกเว้นในกรณีที่คุณรีเฟรชหน้าหรือหน้านั้นรีเฟรชโดยอัตโนมัติ
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

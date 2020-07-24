@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e68d860800f2265923189e470bc633589e612c11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 785ad7b7d10a164f8257f8aacab177116c0b553b
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224149"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459634"
 ---
 # <a name="connect-to-pdf-files-in-power-bi-desktop"></a>เชื่อมต่อกับไฟล์ PDF ใน Power BI Desktop
 ใน Power BI Desktop คุณสามารถเชื่อมต่อกับ **ไฟล์ PDF** และใช้ข้อมูลที่รวมจากไฟล์เช่นเดียวกับแหล่งข้อมูลอื่น ๆ ใน Power BI Desktop
@@ -40,12 +40,16 @@ ms.locfileid: "85224149"
 
 `Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
 
+## <a name="limitations-and-considerations"></a>ข้อจำกัดและข้อควรพิจารณา
+
+เมื่อทำงานกับตัวเชื่อมต่อ PDF บนชุดข้อมูลในความจุพรีเมี่ยม ตัวเชื่อมต่อ PDF จะเชื่อมต่ออย่างไม่ถูกต้อง หากต้องการเปิดใช้งานตัวเชื่อมต่อ PDF เพื่อทำงานกับชุดข้อมูลในความจุพรีเมี่ยม ให้กำหนดค่าชุดข้อมูลนั้นเพื่อใช้เกตเวย์และยืนยันการเชื่อมต่อกับชุดข้อมูลนั้นผ่านเกตเวย์  
+
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 มีข้อมูลหลากหลายประเภทที่คุณสามารถเชื่อมต่อโดยใช้ Power BI Desktop สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแหล่งข้อมูล โปรดดูทรัพยากรต่อไปนี้:
 
 * [Power BI Desktop คืออะไร](../fundamentals/desktop-what-is-desktop.md)
 * [แหล่งข้อมูลใน Power BI Desktop](desktop-data-sources.md)
-* [จัดรูปทรง และรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
+* [จัดรูปทรงและรวมข้อมูลด้วย Power BI Desktop](desktop-shape-and-combine-data.md)
 * [เชื่อมต่อกับเวิร์กบุ๊ก Excel ใน Power BI Desktop](desktop-connect-excel.md)   
-* [ใส่ข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   
+* [ป้อนข้อมูลลงใน Power BI Desktop โดยตรง](desktop-enter-data-directly-into-desktop.md)   

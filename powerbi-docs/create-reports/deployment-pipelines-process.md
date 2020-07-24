@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 002a50fd2e8e55d5ec06d7f15420ae8299861b37
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034301"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557221"
 ---
 # <a name="understand-the-deployment-process-preview"></a>ทำความเข้าใจขั้นตอนการปรับใช้งาน (ตัวอย่าง)
 
@@ -152,11 +152,11 @@ ms.locfileid: "86034301"
 
 สร้างแอปสำหรับขั้นตอนไปป์ไลน์การปรับใช้แต่ละขั้นตอน เพื่อให้คุณสามารถทดสอบการอัปเดตแอปแต่ละครั้งจากมุมมองของผู้ใช้ปลายทาง ไปป์ไลน์การปรับใช้จะช่วยให้คุณสามารถจัดการกระบวนการนี้ได้อย่างง่ายดาย ใช้ปุ่มเผยแพร่หรือมุมมองในการ์ดพื้นที่ทำงานเพื่อเผยแพร่หรือดูแอปในขั้นตอนไปป์ไลน์ที่ระบุ
 
-[![เผยแพร่แอป](media/deployment-pipelines-process/publish.png "เผยแพร่แอป")](media/deployment-pipelines-process/publish.png#lightbox)
+[![สกรีนช็อตที่ไฮไลท์ปุ่มเผยแพร่แอปที่ด้านล่างขวาของขั้นตอนการผลิต](media/deployment-pipelines-process/publish.png)](media/deployment-pipelines-process/publish.png#lightbox)
 
 ในขั้นตอนการผลิต ปุ่มการดำเนินการหลักที่มุมล่างซ้ายเปิดหน้าการอัปเดตแอปใน Power BI เพื่อให้การอัปเดตข้อมูลเนื้อหาใดๆ พร้อมใช้งานสำหรับผู้ใช้แอป
 
-[![อัปเดตแอป](media/deployment-pipelines-process/update-app.png "อัปเดตแอป")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![สกรีนช็อตที่ไฮไลท์ปุ่มเผยแพร่แอปที่ด้านล่างขวาของขั้นตอนการผลิต](media/deployment-pipelines-process/update-app.png)](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >กระบวนการปรับใช้ไม่รวมการอัปเดตเนื้อหาหรือการตั้งค่าของแอป เมื่อต้องการนำการเปลี่ยนแปลงไปใช้กับเนื้อหาหรือการตั้งค่า คุณจำเป็นต้องอัปเดตแอปในขั้นตอนไปป์ไลน์ที่จำเป็นด้วยตนเอง

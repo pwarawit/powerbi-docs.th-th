@@ -7,11 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: 6e9ed3217a7ee589eaf1469ba179ef8c8bc474e9
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354742"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557267"
 ---
 # <a name="get-started-with-deployment-pipelines-preview"></a>เริ่มต้นด้วยไปป์ไลน์การปรับใช้ (ตัวอย่าง)
 
@@ -30,7 +31,7 @@ ms.locfileid: "85354742"
 >[!NOTE]
 > คุณยังสามารถดูปุ่มไปป์ไลน์การปรับใช้ถ้าคุณได้สร้างไปป์ไลน์ก่อนหน้านี้หรือถ้ามีการแชร์ไปป์ไลน์กับคุณ
 
-![หน้าเริ่มต้นไปป์ไลน์การปรับใช้](media/deployment-pipelines-get-started/creating-pipeline.png)
+![สกรีนช็อตของหน้าเริ่มต้นขั้นตอนการปรับใช้](media/deployment-pipelines-get-started/creating-pipeline.png)
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>ขั้นตอนที่ 1 - สร้างไปป์ไลน์การปรับใช้งาน
 
@@ -83,7 +84,7 @@ ms.locfileid: "85354742"
 
 เลือกขั้นตอนที่จะปรับใช้และคลิกปุ่มปรับใช้ กระบวนการปรับใช้สร้างพื้นที่ทำงานซ้ำในขั้นตอนเป้าหมาย พื้นที่ทำงานนี้ประกอบด้วยเนื้อหาทั้งหมดที่มีอยู่ในขั้นตอนปัจจุบัน
 
-[![ปรับใช้](media/deployment-pipelines-get-started/deploy.png "ปรับใช้เนื้อหาทั้งหมด")](media/deployment-pipelines-get-started/deploy.png#lightbox)
+[![สกรีนช็อตที่แสดงปุ่มปรับใช้สำหรับขั้นตอนการพัฒนาและทดสอบในไปป์ไลน์การปรับใช้งาน](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>การปรับใช้ที่เลือก
 
@@ -91,7 +92,7 @@ ms.locfileid: "85354742"
 
 เนื่องจากแดชบอร์ด รายงาน และชุดข้อมูลที่เกี่ยวข้องและมีการขึ้นต่อกัน คุณสามารถใช้ปุ่มเลือกที่เกี่ยวข้องเพื่อตรวจสอบรายการทั้งหมดที่รายการเหล่านั้นจะขึ้นอยู่ด้วย ตัวอย่างเช่นหากคุณต้องการปรับใช้รายงานไปยังขั้นตอนถัดไปการคลิกปุ่มเลือกที่เกี่ยวข้องจะทำเครื่องหมายชุดข้อมูลที่รายงานเชื่อมต่อด้วยเพื่อให้ทั้งคู่ใช้งานได้ทันทีและรายงานจะไม่แตก
 
-[![การปรับใช้ที่เลือก](media/deployment-pipelines-get-started/selective-deploy.png "การปรับใช้ที่เลือก")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
+[![สกรีนช็อตที่แสดงตัวเลือกการปรับใช้งานในไปป์ไลน์การปรับใช้งานที่มีอยู่หลังจากเลือกตัวเลือกแสดงเพิ่มเติม](media/deployment-pipelines-get-started/selective-deploy.png)](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
 
 >[!NOTE]
 > * คุณไม่สามารถปรับใช้รายงานหรือแดชบอร์ดไปยังขั้นตอนถัดไปได้ถ้าไม่มีรายการที่ขึ้นอยู่ด้วยอยู่ในขั้นตอนที่คุณกำลังปรับใช้อยู่
@@ -103,7 +104,7 @@ ms.locfileid: "85354742"
 
 การปรับใช้ไปยังขั้นตอนก่อนหน้านี้จะทำงานเฉพาะเมื่อขั้นตอนก่อนหน้าของเนื้อหาว่างเปล่า เมื่อปรับใช้กับขั้นตอนก่อนหน้า คุณไม่สามารถเลือกรายการที่ระบุได้ เนื้อหาทั้งหมดในขั้นตอนจะถูกปรับใช้
 
-[![การปรับใช้ย้อนหลัง](media/deployment-pipelines-get-started/deploy-back.png "การปรับใช้ย้อนหลัง")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
+[![สกรีนช็อตที่แสดงปุ่มปรับใช้กับขั้นตอนก่อนหน้าพร้อมใช้งานจากเมนูทดสอบหรือขั้นตอนการผลิต](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
 ## <a name="step-4---create-dataset-rules"></a>ขั้นตอนที่ 4 - สร้างกฎชุดข้อมูล
 
@@ -120,15 +121,15 @@ ms.locfileid: "85354742"
 
 1. ในขั้นตอนไปป์ไลน์ที่คุณต้องการสร้างกฎชุดข้อมูลให้คลิก **การตั้งค่าการปรับใช้**
 
-    ![การตั้งค่าการปรับใช้](media/deployment-pipelines-get-started/deployment-settings.png)
+    ![สกรีนช็อตของปุ่มการตั้งค่าการปรับใช้ตั้งอยู่ที่ด้านขวาบนของแต่ละขั้นตอนไปป์ไลน์การปรับใช้งาน](media/deployment-pipelines-get-started/deployment-settings.png)
 
 2. จากบานหน้าต่างการตั้งค่าการปรับใช้ เลือกชุดข้อมูลที่คุณต้องการสร้างกฎ
 
-    [![กฎชุดข้อมูล](media/deployment-pipelines-get-started/dataset-rules.png "เลือกชุดข้อมูล")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
+    [![สกรีนช็อตที่แสดงการเลือกชุดข้อมูลสำหรับการสร้างกฎชุดข้อมูล](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
 3. เลือกชนิดของกฎที่คุณต้องการสร้าง ขยายรายการและคลิก **เพิ่มกฎ**
 
-     [![เพิ่มกฎ](media/deployment-pipelines-get-started/add-rule.png "การเพิ่มกฎ")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
+     [![สกรีนช็อตที่แสดงการเลือกกฎแหล่งข้อมูลและคลิกเพิ่มตัวเลือกกฎ](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
 ### <a name="dataset-rule-types"></a>ชนิดกฎชุดข้อมูล
 
@@ -151,6 +152,8 @@ ms.locfileid: "85354742"
 * เมื่อรายการถูกเอาออกหรือลบกฎจะถูกลบด้วย ไม่สามารถคืนค่ากฎเหล่านี้ได้
 
 * หากแหล่งข้อมูลหรือพารามิเตอร์ที่กำหนดไว้ในกฎมีการเปลี่ยนแปลงหรือลบออกจากชุดข้อมูลต้นทาง กฎจะไม่ถูกต้องและการปรับใช้จะล้มเหลว
+
+* ไม่สามารถกำหนดกฎพารามิเตอร์สำหรับพารามิเตอร์ที่มีชนิดเป็น *ทุกชนิด* หรือ *ไบนารี* สำหรับข้อมูลเพิ่มเติม โปรดดู [ข้อจำกัดของพารามิเตอร์การปรับปรุงชุดข้อมูล](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters)
 
 * กฎแหล่งข้อมูลสามารถกำหนดได้สำหรับแหล่งข้อมูลต่อไปนี้เท่านั้น:
     * บริการวิเคราะห์ Azure
@@ -179,7 +182,7 @@ ms.locfileid: "85354742"
 
 เมื่อสองลำดับขั้นตอนมีเนื้อหา เนื้อหาจะถูกเปรียบเทียบโดยยึดตามเมตาดาต้าของรายการเนื้อหา การเปรียบเทียบนี้ไม่รวมการเปรียบเทียบข้อมูลหรือเวลาการรีเฟรชระหว่างขั้นตอน
 
- [![โฟลว์การปรับใช้](media/deployment-pipelines-get-started/deployment-flow.png "การเปรียบเทียบขั้นตอน")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
+ [![สกรีนช็อตที่แสดงไปป์ไลน์การปรับใช้งานที่มีตัวบ่งชี้การเปรียบเทียบ](media/deployment-pipelines-get-started/deployment-flow.png)](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
 
 เพื่อให้สามารถแสดงข้อมูลเชิงลึกของวิชวลได้อย่างรวดเร็วในความแตกต่างระหว่างสองลำดับขั้นตอน ตัวบ่งชี้ไอคอนเปรียบเทียบจะปรากฏขึ้น ตัวบ่งชี้การเปรียบเทียบมีสองสถานะ:
 
@@ -200,13 +203,13 @@ ms.locfileid: "85354742"
     >[!NOTE]
     >การใช้งานจะไม่ส่งผลกระทบรายการ *หายไปจาก*
 
- [![เปรียบเทียบ](media/deployment-pipelines-get-started/compare.png "มุมมองเปรียบเทียบ")](media/deployment-pipelines-get-started/compare.png#lightbox)
+ [![สกรีนช็อตที่แสดงตัวเลือกการเปรียบเทียบซึ่งขยายมุมมองการเปรียบเทียบและอนุญาตให้มีการเปรียบเทียบรายการระหว่างขั้นตอนไปป์ไลน์การปรับใช้งาน](media/deployment-pipelines-get-started/compare.png)](media/deployment-pipelines-get-started/compare.png#lightbox)
 
 ## <a name="overriding-content"></a>การแทนที่เนื้อหา
 
 เมื่อคุณปรับใช้หลังจากทำการเปลี่ยนแปลงเนื้อหาในขั้นตอนต้นทาง เนื้อหาที่คุณเปลี่ยนในขั้นตอนเป้าหมายจะถูกเขียนทับ หลังจากที่คลิก *ปรับใช้*แล้วคุณจะได้รับคำเตือนเป็นรายการจำนวนของรายการที่จะถูกเขียนทับ
 
-![แทนที่การแจ้งเตือนเนื้อหา](media/deployment-pipelines-get-started/replaced-content.png)
+![สกรีนช็อตของคำเตือนเนื้อหาที่ถูกแทนที่ซึ่งจะแสดงขึ้นเมื่อการปรับใช้เป็นสาเหตุทำให้เกิดการเปลี่ยนแปลงไปยังรายการในขั้นตอนที่คุณใช้งานอยู่](media/deployment-pipelines-get-started/replaced-content.png)
 
 คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับ [รายการที่จะถูกคัดลอกไปยังขั้นตอนถัดไป](deployment-pipelines-process.md#deployed-items)และ [รายการที่ไม่ถูกคัดลอก](deployment-pipelines-process.md#unsupported-items)ใน [ทำความเข้าใจกระบวนการปรับใช้](deployment-pipelines-process.md)
 
