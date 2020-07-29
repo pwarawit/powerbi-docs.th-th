@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 07/27/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 50d3adef65791c3fecd1a2125f67318fb8ab0298
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: eb59359497dec351c960ce0c6a3ce11b4f6eab0d
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214244"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252118"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>ladakจัดการที่เก็บข้อมูลในพื้นที่ทำงานบน Power BI
 
@@ -28,7 +28,7 @@ ms.locfileid: "86214244"
 ### <a name="shared-capacity-limits"></a>ขีดจำกัดความจุแบบใช้ร่วมกัน
 สำหรับพื้นที่ทำงานในความจุที่ใช้ร่วมกัน: 
 
-- มีขีดจำกัดสำหรับพื้นที่เก็บข้อมูลตามพื้นที่ทำงานอยุ่ที่ 100 GB
+- มีขีดจำกัดสำหรับพื้นที่เก็บข้อมูลตามพื้นที่ทำงาน 10 GB
 - สำหรับพื้นที่ทำงานของแอป การใช้งานทั้งหมดจะต้องไม่เกิน 10 GB คูณด้วยจำนวนสิทธิ์ใช้งาน Pro ในผู้เช่า
 
 ### <a name="premium-capacity-limits"></a>ขีดจำกัดความจุแบบพรีเมียม

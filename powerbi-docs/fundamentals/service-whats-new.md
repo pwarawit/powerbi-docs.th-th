@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b43d52445c9a5232ba1747a9dae9333da8697f84
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 40f1e0938f54fe55abf8148e12f8842041b42c3d
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273080"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252785"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>มีอะไรใหม่ในบริการ Power BI
 ตรวจสอบหน้านี้สำหรับปัญหาที่ทราบแล้วและคุณลักษณะที่เผยแพร่ล่าสุดในการ**บริการ Power BI** สำหรับข้อมูล "มีอะไรใหม่" ที่เกี่ยวข้อง ดู:
@@ -42,7 +42,7 @@ ms.locfileid: "84273080"
 
 ### <a name="february-2020"></a>กุมภาพันธ์ 2562
 * ความสามารถในการเลื่อนระดับแดชบอร์ด รายงาน และแอปบนหน้าแรกของ Power BI
-* การฝังรายงานด้วย[แท็บ Power BI](../collaborate-share/service-embed-report-microsoft-teams.md) แบบใหม่ใน Microsoft Teams
+* การฝังรายงานด้วย[แท็บ Power BI](../collaborate-share/service-collaborate-microsoft-teams.md) แบบใหม่ใน Microsoft Teams
 * ความพร้อมใช้งานทั่วไปของ[การรีเฟรชส่วนเพิ่ม](../admin/service-premium-incremental-refresh.md)พร้อมกับการสนับสนุนสำหรับ Power BI Pro
 * รองรับการสมัครใช้งานอีเมลสำหรับที่อยู่อีเมลภายนอก
 * ความพร้อมใช้งานทั่วไปของ [Bring Your Own Key (BYOK) ](../admin/service-encryption-byok.md)สำหรับ Power BI Premium

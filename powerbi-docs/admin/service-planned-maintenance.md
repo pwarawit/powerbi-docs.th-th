@@ -11,11 +11,12 @@ ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: cc9364129159b5527d309f125d42e661d0b4c206
-ms.sourcegitcommit: a58d10ca62bc55e83b58cf8e8495ac01a4bd6532
+ms.openlocfilehash: 099cd750328bed0b23524d6119c4d7ce91548a23
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/20/2020
-ms.locfileid: "85120578"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252049"
 ---
 # <a name="power-bi-planned-maintenance"></a>การบำรุงรักษาตามแผนของ Power BI
 
@@ -36,7 +37,7 @@ ms.locfileid: "85120578"
 * ผู้ใช้แอป Power BI บนโทรศัพท์มือถือจะต้องตรวจสอบว่ามีการใช้แอปเวอร์ชันล่าสุดและต้องออกจากระบบแล้วลงชื่อกลับเข้าไปในแอปอีกครั้ง ตรวจสอบร้านค้าแอปของโทรศัพท์มือถือของคุณหรือตรวจสอบหน้า [Power BI สำหรับโทรศัพท์มือถือ](https://powerbi.microsoft.com/mobile/)ของเรา
 * ลูกค้าที่มีการแก้ไขหรือเผยแพร่รายงานที่ใช้ภาพขององค์กรไม่ว่าจะอยู่ภายในเครื่องหรือจาก OneDrive และตำแหน่งที่ตั้งของ SharePoint จะต้องนำเข้าภาพผ่านทางที่จัดเก็บภาพขององค์กรหรือดาวน์โหลด .PBIX ที่อัปเดตแล้วก่อนเผยแพร่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับภาพขององค์กร ให้ดู[ภาพขององค์กร](service-admin-portal.md#organization-visuals)
 * หากเวิร์กบุ๊ก Excel ที่ใช้ฟีเจอร์วิเคราะห์ใน Excel ไม่ได้เฟรช คุณอาจต้องอัปเดตสตริงการเชื่อมต่อหรือดาวน์โหลดการเชื่อมต่อ ODC ใหม่สำหรับชุดข้อมูลนั้น โปรดดูที่[วิเคราะห์ใน Excel](../collaborate-share/service-analyze-in-excel.md#connect-to-power-bi-data) เพื่อศึกษาข้อมูลเพิ่มเติม
-* ลิงก์ไปยัง Power BI embedded ในเนื้อหาอาจล้มเหลวในการเชื่อมต่อเมื่อการบำรุงรักษาเสร็จสมบูรณ์ ตัวอย่างเช่น ลิงก์แบบฝังตัวใน SharePoint หรือ Teams อาจส่งผลให้เกิดข้อผิดพลาดของผู้ใช้ ในการแก้ไขปัญหานี้ คุณต้องสร้างลิงก์แบบฝังตัวใหม่ใน Power BI จากนั้นอัปเดตตำแหน่งที่ใช้งานอยู่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลิงก์แบบฝังตัว ให้ดู[ฝังส่วนเว็บรายงานใน SharePoint Online](../collaborate-share/service-embed-report-spo.md) และ[ ทำงานร่วมกันใน Microsoft Teams กับ Power BI ](../collaborate-share/service-embed-report-microsoft-teams.md)
+* ลิงก์ไปยัง Power BI embedded ในเนื้อหาอาจล้มเหลวในการเชื่อมต่อเมื่อการบำรุงรักษาเสร็จสมบูรณ์ ตัวอย่างเช่น ลิงก์แบบฝังตัวใน SharePoint หรือ Teams อาจส่งผลให้เกิดข้อผิดพลาดของผู้ใช้ ในการแก้ไขปัญหานี้ คุณต้องสร้างลิงก์แบบฝังตัวใหม่ใน Power BI จากนั้นอัปเดตตำแหน่งที่ใช้งานอยู่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับลิงก์แบบฝังตัว ให้ดู[ฝังส่วนเว็บรายงานใน SharePoint Online](../collaborate-share/service-embed-report-spo.md) และ[ ทำงานร่วมกันใน Microsoft Teams กับ Power BI ](../collaborate-share/service-collaborate-microsoft-teams.md)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
