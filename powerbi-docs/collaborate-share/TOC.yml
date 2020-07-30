@@ -37,6 +37,8 @@
               href: service-data-lineage.md
             - name: การวิเคราะห์ผลกระทบของชุดข้อมูล
               href: service-dataset-impact-analysis.md
+            - name: การวิเคราะห์ผลกระทบของแหล่งข้อมูล
+              href: service-data-source-impact-analysis.md
             - name: กำหนดค่าป้ายชื่อระดับความลับของข้อมูล
               href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: เชื่อมต่อกับไฟล์บน OneDrive ของกลุ่มของคุณ
@@ -45,6 +47,16 @@
               href: service-collaborate-power-bi-workspace.md
             - name: จัดการกลุ่มของคุณใน Power BI และ Microsoft 365
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
+        - name: Power BI ใน Teams
+          items:
+            - name: ทำงานร่วมกันใน Teams
+              href: service-collaborate-microsoft-teams.md
+            - name: รายงานที่ฝังใน Teams
+              href: service-embed-report-microsoft-teams.md
+            - name: แชร์โดยตรงไปยัง Teams
+              href: service-share-report-teams.md
+            - name: รับตัวอย่างลิงก์ใน Teams
+              href: service-teams-link-preview.md
         - name: เผยแพร่และแชร์งานของคุณ
           items:
             - name: แชร์แดชบอร์ดและรายงาน
@@ -61,8 +73,6 @@
               href: service-report-subscribe.md
             - name: เนื้อหาคุณลักษณะในหน้าหลัก
               href: service-featured-content.md
-            - name: รายงานที่ฝังใน Microsoft Teams
-              href: service-embed-report-microsoft-teams.md
             - name: รายงานที่ฝังใน SharePoint Online
               href: service-embed-report-spo.md
             - name: รายงานที่ฝังในพอร์ทัลหรือเว็บไซต์ที่ปลอดภัย
@@ -71,20 +81,22 @@
               href: service-publish-to-web.md
             - name: แชร์แดชบอร์ดที่เชื่อมโยงไปยังเวิร์กบุ๊ก Excel บน OneDrive
               href: service-share-dashboard-that-links-to-excel-onedrive.md
-        - name: ขยาย Power BI
+        - name: Power BI ใน Excel
           items:
             - name: วิเคราะห์ใน Excel
               href: service-analyze-in-excel.md
-            - name: ตารางแนะนำ Power BI ใน Excel
+            - name: ใช้ตารางที่แนะนำของ Power BI ใน Excel
               href: service-excel-featured-tables.md
+            - name: ตั้งค่าตารางที่แนะนำ
+              href: service-create-excel-featured-tables.md
             - name: แก้ไขปัญหาการวิเคราะห์ใน Excel
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'ข้อผิดพลาด: เราไม่พบข้อมูลในสมุดงาน Excel ของคุณ'
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
-            - name: Power Automate และ Power BI
-              href: service-flow-integration.md
-            - name: ใช้แอปของบุคคลที่สาม
-              href: service-power-bi-get-started-third-party-apps.md
+        - name: Power Automate และ Power BI
+          href: service-flow-integration.md
+        - name: ใช้แอปของบุคคลที่สาม
+          href: service-power-bi-get-started-third-party-apps.md
         - name: ชุดเนื้อหาระดับองค์กร
           items:
             - name: บทนำชุดเนื้อหาองค์กร
