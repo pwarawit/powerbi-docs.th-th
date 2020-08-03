@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ebc9a36b4a4e54d6388625921c98c571859568f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0b617afdeb69f2367b83ad40b2146f5ce78cdc89
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237588"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364019"
 ---
 # <a name="manage-your-data-source---oracle"></a>จัดการแหล่งข้อมูลของคุณ - Oracle
 
@@ -22,44 +22,22 @@ ms.locfileid: "85237588"
 
 หลังจากคุณ[ติดตั้งเกตเวย์ข้อมูลภายในองค์กรแล้ว](/data-integration/gateway/service-gateway-install) คุณจำเป็นต้อง[เพิ่มแหล่งข้อมูล](service-gateway-data-sources.md#add-a-data-source)ที่สามารถใช้ได้กับเกตเวย์ดังกล่าว บทความนี้จะดูวิธีการทำงานกับเกตเวย์และแหล่งข้อมูล Oracle สำหรับการรีเฟรชตามกำหนดการหรือสำหรับ DirectQuery
 
+## <a name="connect-to-an-oracle-database"></a>เชื่อมต่อกับฐานข้อมูล Oracle
+การเชื่อมต่อกับฐานข้อมูล Oracle ด้วยเกตเวย์ข้อมูลภายในองค์กรนั้น ต้องติดตั้งซอฟต์แวร์ไคลเอ็นต์ Oracle ที่ถูกต้องบนคอมพิวเตอร์ที่ใช้งานเกตเวย์ ซอฟต์แวร์ไคลเอ็นต์ Oracle ที่คุณใช้ขึ้นอยู่กับเวอร์ชันของเซิร์ฟเวอร์ Oracle แต่จะตรงกับเกตเวย์ 64 บิตเสมอ
+
+เวอร์ชัน Oracle ที่รองรับ: 
+- Oracle Server 9 และเวอร์ชันที่ใหม่กว่า
+- ซอฟต์แวร์ Oracle Data Access Client (ODAC) 11.2 และเวอร์ชันที่ใหม่กว่า
+
 ## <a name="install-the-oracle-client"></a>ติดตั้ง Oracle client
+- [ดาวน์โหลดและติดตั้งไคลเอ็นต์ Oracle 64 บิต](https://www.oracle.com/database/technologies/odac-downloads.html)
 
-หากคุณต้องการเชื่อมต่อเกตเวย์กับ Oracle server ของคุณ คุณจำเป็นต้องติดตั้งและกำหนดค่าตัวให้บริการข้อมูล Oracle สำหรับ .NET (ODP.NET) ODP.NET คือส่วนหนึ่งขององค์ประกอบการเข้าถึงข้อมูล Oracle (Oracle Data Access Components: ODAC)
-
-สำหรับ Power BI Desktop เวอร์ชัน 32 บิต ใช้ลิงก์ต่อไปนี้เพื่อดาวน์โหลดและติดตั้ง Oracle Client เวอร์ชัน 32 บิต:
-
-* [32-bit Oracle Data Access Components (ODAC) พร้อมเครื่องมือผู้พัฒนา Oracle สำหรับ Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
-
-สำหรับ Power BI Desktop เวอร์ชัน 64 บิต หรือสำหรับเกตเวย์ข้อมูลภายในองค์กร ใช้ลิงก์ต่อไปนี้เพื่อดาวน์โหลดและติดตั้ง Oracle Client เวอร์ชัน 64 บิต:
-
-* [64-bit ODAC 12.2c Release 1 (12.2.0.1.0) สำหรับ Windows x64](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
-
-หลังจากติดตั้งไคลเอนต์แล้ว ให้กำหนดค่าไฟล์ tnsnames.ora ของคุณด้วยข้อมูลที่เหมาะสมสำหรับฐานข้อมูลของคุณ Power BI Desktop และเกตเวย์หายไปจาก net_service_name ที่กำหนดไว้ในไฟล์ tnsnames.ora หากไม่ได้กำหนดค่า net_service_name คุณจะไม่สามารถเชื่อมต่อได้ เส้นทางตามค่าเริ่มต้นสำหรับ tnsnames.ora มีดังนี้: `[Oracle Home Directory]\Network\Admin\tnsnames.ora` สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการกำหนดค่าไฟล์ tnsnames.ora ให้ดูที่[Oracle: พารามิเตอร์การตั้งชื่อภายในเครื่อง (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm)
-
-### <a name="example-tnsnamesora-file-entry"></a>ตัวอย่างการใส่ข้อมูลไฟล์ tnsnames.ora
-
-รูปแบบพื้นฐานของรายการข้อมูลใน tnsname.ora มีดังนี้:
-
-```
-net_service_name=
- (DESCRIPTION=
-   (ADDRESS=(protocol_address_information))
-   (CONNECT_DATA=
-     (SERVICE_NAME=service_name)))
-```
-
-ตัวอย่างของเซิร์ฟเวอร์และข้อมูลพอร์ตที่กรอกแล้วเป็นดังนี้:
-
-```
-CONTOSO =
-  (DESCRIPTION =
-    (ADDRESS = (PROTOCOL = TCP)(HOST = oracleserver.contoso.com)(PORT = 1521))
-    (CONNECT_DATA =
-      (SERVER = DEDICATED)
-      (SERVICE_NAME = CONTOSO)
-    )
-  )
-```
+> [!NOTE]
+> เลือกเวอร์ชันของ Oracle Data Access Client (ODAC) ซึ่งสามารถทำงานร่วมกับเซิร์ฟเวอร์ Oracle ของคุณได้ ตัวอย่างเช่น ODAC 12.x ไม่รองรับเซิร์ฟเวอร์ Oracle เวอร์ชัน 9
+> เลือกตัวติดตั้ง Windows ของไคลเอ็นต์ Oracle
+> ระหว่างการตั้งค่าของไคลเอ็นต์ Oracle คุณต้องตรวจสอบให้แน่ใจว่าได้เปิดใช้งาน *กำหนดค่า ODP.NET และ/หรือผู้ให้บริการ Oracle สำหรับ ASP.NET ที่ระดับเครื่อง* โดยการเลือกกล่องกาเครื่องหมายที่เกี่ยวข้องในระหว่างการตั้งค่าตัวช่วยสร้าง ตัวช่วยสร้างไคลเอ็นต์ Oracle บางเวอร์ชันเลือกกล่องกาเครื่องหมายตามค่าเริ่มต้น ซึ่งเวอร์ชันอื่น ๆ ไม่ทำเช่นนี้ ตรวจสอบให้แน่ใจว่าคุณได้เลือกกล่องกาเครื่องหมายเพื่อให้ Power BI สามารถเชื่อมต่อกับฐานข้อมูล Oracle ของคุณได้
+ 
+หลังจากที่ติดตั้งไคลเอ็นต์และกำหนดค่า ODAC อย่างถูกต้องแล้ว เราขอแนะนำให้ใช้ PowerBI Desktop หรือไคลเอ็นต์ทดสอบอื่น ๆ เพื่อตรวจสอบการติดตั้งและการกำหนดค่าที่ถูกต้องบนเกตเวย์
 
 ## <a name="add-a-data-source"></a>เพิ่มแหล่งข้อมูล
 
@@ -111,7 +89,7 @@ CONTOSO =
 
 ## <a name="troubleshooting"></a>การแก้ไขปัญหา
 
-คุณอาจพบข้อผิดพลาดจำนวนมากจาก Oracle เมื่อไวยากรณ์การตั้งชื่อไม่ถูกต้อง หรือไม่ได้กำหนดค่าอย่างถูกต้อง:
+คุณอาจพบข้อผิดพลาดต่าง ๆ มากมายจาก Oracle เมื่อไวยากรณ์การตั้งชื่อไม่ถูกต้อง หรือไม่ได้กำหนดค่าอย่างถูกต้อง:
 
 * ORA-12154: TNS: ไม่สามารถแก้ไขตัวระบุการเชื่อมต่อที่ระบุได้
 * ORA-12514: TNS: ในขณะนี้ ตัวรอรับการติดต่อไม่รู้จักบริการที่ร้องขอในตัวอธิบายการเชื่อมต่อ
@@ -121,8 +99,9 @@ CONTOSO =
 
 ข้อผิดพลาดเหล่านี้อาจเกิดขึ้นหากไม่ได้ติดตั้ง Oracle client หรือกำหนดค่าไม่ถูกต้อง ถ้ามีการติดตั้งอยู่แล้ว ให้ตรวจสอบว่ามีการกำหนดค่าไฟล์ tnsnames.ora อย่างถูกต้องหรือไม่ และคุณกำลังใช้ net_service_name ที่เหมาะสมหรือไม่ นอกจากนี้ คุณจะต้องตรวจสอบให้แน่ใจว่า net_service_name สำหรับเครื่องที่ใช้ Power BI Desktop และเครื่องที่ใช้งานเกตเวย์นั้นเป็นตัวเดียวกันหรือไม่ สำหรับข้อมูลเพิ่มเติม โปรดดู [ติดตั้ง Oracle Client](#install-the-oracle-client)
 
-> [!NOTE]
-> คุณอาจประสบปัญหาความเข้ากันได้ระหว่างเวอร์ชัน Oracle server และเวอร์ชัน Oracle client โดยทั่วไปแล้ว คุณต้องการให้เวอร์ชันเหล่านี้ตรงกัน
+คุณอาจประสบปัญหาความเข้ากันได้ระหว่างเวอร์ชัน Oracle server และเวอร์ชัน Oracle Data Access Client โดยทั่วไปแล้ว คุณต้องใช้เวอร์ชันที่สอดคล้องกัน เนื่องจากชุดการทำงานบางอย่างอาจไม่เข้ากัน ตัวอย่างเช่น ODAC 12.x นั้นไม่รองรับเซิร์ฟเวอร์ Oracle เวอร์ชัน 9
+
+สำหรับการวินิจฉัยปัญหาการเชื่อมต่อระหว่างเซิร์ฟเวอร์แหล่งข้อมูลและเครื่องเกตเวย์ เราขอแนะนำให้ติดตั้งไคลเอ็นต์ (เช่น PowerBI Desktop หรือ Oracle ODBC Test) บนเครื่องเกตเวย์ คุณสามารถใช้ไคลเอ็นต์เพื่อตรวจสอบการเชื่อมต่อกับเซิร์ฟเวอร์แหล่งข้อมูลได้
 
 สำหรับข้อมูลการแก้ไขปัญหาเพิ่มเติมที่เกี่ยวข้องกับเกตเวย์ โปรดดู [การแก้ไขปัญหาเกตเวย์ข้อมูลในองค์กร](/data-integration/gateway/service-gateway-tshoot)
 

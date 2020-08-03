@@ -1,5 +1,5 @@
 ---
-title: PowerShell cmdlet, REST Api และ.NET SDK สำหรับผู้ดูแลระบบ
+title: PowerShell cmdlet, REST API และไลบรารีไคลเอ็นต์ .NET สำหรับผู้ดูแลระบบ
 description: เรียนรู้เกี่ยวกับวิธีคุณสามารถจัดการ Power BI ด้วยสคริปต์และ การเขียนโปรแกรม Api
 author: kfollis
 ms.reviewer: ''
@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: b4f4227a53a87cd831962bc5c944a569531b8232
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e1c95c330687131a29753359f5223e096bddab1d
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136289"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952627"
 ---
-# <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>PowerShell cmdlet, REST Api และ.NET SDK สำหรับการจัดการ Power BI
-Power BI ช่วยให้ผู้ดูแลระบบสามารถเขียนสคริปต์งานทั่วไปด้วย cmdlet ของ PowerShell และยังยอมให้ใช้ REST Api และ .NET SDK สำหรับการพัฒนาโซลูชันการดูแลระบบ หัวข้อนี้แสดงรายการ cmdlet และวิธีของ SDK ที่เหมือนกันและจุดปลายทางของ REST API สำหรับข้อมูลเพิ่มเติม ให้ด:
+# <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>PowerShell cmdlet, REST API และไลบรารีไคลเอ็นต์ .NET สำหรับผู้ดูแลระบบ Power BI
+Power BI ช่วยให้ผู้ดูแลระบบสามารถเขียนสคริปต์งานทั่วไปด้วย cmdlet ของ PowerShell นอกจากนี้ยังแสดง REST Api และให้บริการไลบรารีไคลเอ็นต์ .NET สำหรับการพัฒนาโซลูชันการดูแลระบบด้วย หัวข้อนี้แสดงรายการ cmdlet รวมถึง API และจุดสิ้นสุดของ REST API ที่สอดคล้องกัน สำหรับข้อมูลเพิ่มเติม ให้ด:
 
 - PowerShell [ดาวน์โหลด](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/)และ[เอกสาร](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps)
 - REST API [เอกสาร ](https://docs.microsoft.com/rest/api/power-bi/admin)
-- .NET SDK [ดาวน์โหลด](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
+- ไลบรารีไคลเอ็นต์ .NET [ดาวน์โหลด](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
 
 > Cmdlets ด้านล่างนี้ควรถูกเรียกใช้ร่วมกับ `-Scope Organization` ในการดูแลระบบของผู้เช่า
 
-| **ชื่อ Cmdlet** | **นามแฝง** | **เมธอด SDK** | **ปลายทางของ REST API**  | **คำอธิบาย** |
+| **ชื่อ Cmdlet** | **นามแฝง** | **API** | **ปลายทางของ REST API** | **คำอธิบาย** |
 | --- | --- | --- | --- | --- |
 | `Get-PowerBIDatasource` | N/A | `Datasets_GetDataSourcesAsAdmin` | /v1.0/myorg/admin/datasets/{datasetkey}/datasources | รับแหล่งข้อมูลสำหรับชุดข้อมูลที่ระบุ |
 | `Get-PowerBIDataset` | N/A | `Datasets_GetDatasetsAsAdmin` | /v1.0/myorg/admin/datasets | รับรายการทั้งหมดของชุดข้อมูลในผู้เช่า Power BI |

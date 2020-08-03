@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 01/29/2020
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3038463a9e3447ee9b38ae3cb178f3486d21bc80
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: ab1dd7be867d886f4944e9771be5c9ff188d2037
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215115"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252647"
 ---
 # <a name="get-power-bi-desktop"></a>รับ Power BI Desktop
 Power BI Desktop ช่วยให้คุณสร้างแบบสอบถามขั้นสูง โมเดล และรายงานที่แสดงข้อมูลเป็นภาพ เมื่อใช้ Power BI Desktop คุณสามารถสร้างโมเดลข้อมูล สร้างรายงาน และแชร์งานของคุณโดยการเผยแพร่ไปยังบริการของ Power BI ได้ Power BI Desktop มีให้ดาวน์โหลดฟรี
@@ -25,6 +25,11 @@ Power BI Desktop ช่วยให้คุณสร้างแบบสอบ
 * [ดาวน์โหลดโดยตรง เป็นการปฏิบัติการที่คุณดาวน์โหลด และติดตั้งบนคอมพิวเตอร์ของคุณ](#download-power-bi-desktop-directly)
 
 ไม่ว่าจะติดตั้งวิธีใด จะได้รับ Power BI Desktop เวอร์ชันล่าสุดในคอมพิวเตอร์ของคุณ แต่มีความแตกต่างบางอย่างที่ควรทราบ ซึ่งจะอธิบายในส่วนต่อไปนี้
+
+
+> [!IMPORTANT]
+> มีการอัปเดตและเผยแพร่ Power BI Desktop เป็นประจำทุกเดือน ซึ่งจะรวมคำติชมของลูกค้าและคุณสมบัติใหม่ด้วย รองรับเฉพาะเวอร์ชันล่าสุดของ Power BI Desktop เท่านั้น ซึ่งฝ่ายสนับสนุนสำหรับ Power BI Desktop จะขอให้ลูกค้าที่ติดต่อมาอัปเกรดเป็นเวอร์ชันล่าสุด คุณสามารถดาวน์โหลด Power BI Desktop เวอร์ชันล่าสุดได้จาก [Windows Store](https://aka.ms/pbidesktopstore) หรือไฟล์ปฏิบัติการเดียวซึ่งมีภาษาที่รองรับทั้งหมดที่คุณ[ดาวน์โหลด](https://www.microsoft.com/download/details.aspx?id=58494)และติดตั้งบนคอมพิวเตอร์ของคุณ
+
 
 ## <a name="install-as-an-app-from-the-microsoft-store"></a>ติดตั้งเป็นแอปจาก Microsoft Store
 มีสองสามวิธีในการเข้าถึง Power BI Desktop เวอร์ชันล่าสุดจาก Microsoft Store 

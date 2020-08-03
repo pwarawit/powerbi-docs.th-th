@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 02/13/2020
-ms.openlocfilehash: 3f4538639765f62387fe6b4e493886f85ba22c3d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 07/24/2020
+ms.openlocfilehash: d361430387d9c24b8b4ef0b673c50cf4cec5a24b
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239359"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252622"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>ติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI
 
-เมื่อต้องสร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน Power BI คุณจำเป็นต้องดาวน์โหลดและติดตั้ง Power BI Desktop เวอร์ชันที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI การเผยแพร่นี้จะแตกต่างจาก Power BI Desktop ที่ใช้กับบริการ Power BI ตัวอย่างเช่น เวอร์ชัน Power BI Desktop สำหรับบริการ Power BI จะมีคุณลักษณะตัวอย่างที่ไม่มีอยู่ในเวอร์ชันเซิร์ฟเวอร์รายงาน Power BI จนกว่าจะออกวางจำหน่ายทั่วไป การใช้การเผยแพรนี้จะทำให้แน่ใจว่า เซิร์ฟเวอร์รายงานสามารถโต้ตอบกับรายงานและแบบจำลองเวอร์ชันที่ทราบแล้วได้ 
+เมื่อต้องสร้างรายงาน Power BI สำหรับเซิร์ฟเวอร์รายงาน Power BI คุณจำเป็นต้องดาวน์โหลดและติดตั้ง Power BI Desktop เวอร์ชันที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI การเผยแพร่นี้จะแตกต่างจาก Power BI Desktop ที่ใช้กับบริการ Power BI ตัวอย่างเช่น เวอร์ชันของ Power BI Desktop สำหรับบริการของ Power BI ที่มีคุณลักษณะการแสดงตัวอย่าง คุณลักษณะเหล่านั้นไม่ได้อยู่ในเวอร์ชัน Power BI Report Server จนกว่าจะพร้อมใช้งานทั่วไป การใช้การเผยแพรนี้จะทำให้แน่ใจว่า เซิร์ฟเวอร์รายงานสามารถโต้ตอบกับรายงานและแบบจำลองเวอร์ชันที่ทราบแล้วได้ 
 
-ข่าวดีก็คือ คุุณสามารถติดตั้ง Power BI Desktop และ Power BI Desktop ที่ปรับให้เหมาะสมสำหรับเซิร์ฟเวอร์รายงาน Power BI ได้โดยควบคู่กันไปบนคอมพิวเตอร์เครื่องเดียวกัน
+ไม่ต้องกังวล เนื่องจากคุณสามารถติดตั้ง Power BI Desktop และ Power BI Desktop ที่ปรับให้เหมาะสมสำหรับ Power BI Report Server ได้โดยควบคู่กันไปบนคอมพิวเตอร์เครื่องเดียวกัน
 
 ## <a name="download-and-install-power-bi-desktop"></a>ดาวน์โหลด และติดตั้ง Power BI Desktop
 
@@ -38,27 +38,27 @@ ms.locfileid: "85239359"
     - **PBIDesktopRS.msi** (เวอร์ชัน 32 บิต) หรือ
     - **PBIDesktopRS_x64.msi** (เวอร์ชัน 64 บิต)
 
-1. หลังจากดาวน์โหลดตัวติดตั้ง ให้เรียกใช้ตัวช่วยติดตั้ง Power BI Desktop (กันยายน 2019)
+1. หลังจากที่คุณดาวน์โหลดตัวติดตั้งแล้ว เรียกใช้ตัวช่วยสร้างการติดตั้ง Power BI Desktop
 
 2. ในตอนท้ายของการติดตั้ง เลือก **เรียกใช้ Power BI Desktop**
 
     จะเริ่มต้นโดยอัตโนมัติ และคุณก็พร้อมที่จะไปต่อ
 
 ## <a name="verify-youre-using-the-correct-version"></a>ตรวจสอบว่าคุณกำลังใช้เวอร์ชันที่ถูกต้อง
-เป็นเรื่องง่ายเมื่อต้องการตรวจสอบว่าคุณกำลังใช้ Power BI Desktop ที่ถูกต้องอยู่: ดูที่เปิดใช้งานหน้าจอหรือแถบชื่อเรื่องภายใน Power BI Desktop คุณสามารถแจ้งว่าคุณมีเวอร์ชั่นที่ถูกต้อง เนื่องจาก **Power BI Desktop (กันยายน 2019)** อยู่ในแถบรายการแจ้งชื่อ นอกจากนี้ สีโลโก้ Power BI จะกลับกันโดยสีเหลืองจะอยู่บนพื้นดำแทนที่เป็นสีดำบนพื้นเหลือง
+เป็นเรื่องง่ายเมื่อต้องการตรวจสอบว่าคุณกำลังใช้ Power BI Desktop ที่ถูกต้องอยู่: ดูที่เปิดใช้งานหน้าจอหรือแถบชื่อเรื่องภายใน Power BI Desktop คุณสามารถตรวจสอบได้ว่าคุณติดตั้งเวอร์ชันที่ถูกต้อง โดยดูว่ามี **Power BI Desktop (พฤษภาคม 2020)** อยู่ในแถบชื่อเรื่อง นอกจากนี้ สีโลโก้ Power BI จะกลับกันโดยสีเหลืองจะอยู่บนพื้นดำแทนที่เป็นสีดำบนพื้นเหลือง
 
-![Power BI Desktop กันยายน 2019](media/install-powerbi-desktop/power-bi-report-server-desktop-sept-2019.png)
+![Power BI Desktop พฤษภาคม 2020](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
 
 เวอร์ชั่น Power BI Desktop สำหรับบริการ Power BI ไม่มีเดือนและปีในแถบรายการชื่อ
 
 ## <a name="file-extension-association"></a>การเชื่อมโยงนามสกุลไฟล์
-ถ้าคุณติดตั้งทั้ง Power BI Desktop และ Power BI Desktop ที่ปรับให้เหมาะสมสำหรับเซิร์ฟเวอร์รายงาน Power BI บนเครื่องเดียวกัน การติดตั้งล่าสุดของ Power BI Desktop จะมีการเชื่อมโยงไฟล์กับไฟล์ .pbix ดังนั้นแล้วเมื่อคุณดับเบิลคลิกที่ไฟล ์.pbix ก็จะเปิดใช้ Power BI Desktop ที่คุณได้ทำการติดตั้งล่าสุด
+เนื่องจากคุณสามารถติดตั้ง Power BI Desktop และ Power BI Desktop ที่ปรับให้เหมาะสมสำหรับ Power BI Report Server ได้โดยควบคู่กันไปบนคอมพิวเตอร์เครื่องเดียวกัน การติดตั้ง Power BI Desktop ครั้งล่าสุดของคุณมีการเชื่อมโยงไฟล์กับไฟล์ .pbix ดังนั้นแล้วเมื่อคุณดับเบิลคลิกที่ไฟล ์.pbix ก็จะเปิดใช้ Power BI Desktop ที่คุณได้ทำการติดตั้งล่าสุด
 
 ถ้าคุณมี Power BI Desktop อยู่ แล้วติดตั้ง Power BI Desktop ที่ปรับให้เหมาะสมสำหรับเซิร์ฟเวอร์รายงาน Power BI ไฟล์ pbix ทั้งหมดก็จะเปิดใน Power BI Desktop ที่ปรับให้เหมาะสมสำหรับเซิร์ฟเวอร์รายงาน Power BI ตามค่าเริ่มต้น ถ้าคุณต้องการให้ Power BI Desktop เป็นค่าเริ่มต้นแทนสำหรับเปิดใช้งานเมื่อเปิดไฟล์ .pbix ให้ติดตั้ง [ Power BI Desktop จาก Microsoft Store ใหม่](https://aka.ms/pbidesktopstore)
 
 คุณสามารถเปิด Power BI Desktop เวอร์ชันที่คุณต้องการใช้ก่อนได้เสมอ จากนั้น ให้เปิดไฟล์จากภายใน Power BI Desktop
 
-การแก้ไขรายงาน Power BI จากภายในเซิร์ฟเวอร์รายงาน Power BI หรือการสร้างรายงาน Power BI ใหม่จากพอร์ทัลเว็บมักจะเปิด Power BI Desktop เวอร์ชันที่ถูกต้องเสมอ
+นี่คือวิธีที่ปลอดภัยที่สุดในการเปิด Power BI Desktop เวอร์ชันที่ถูกต้อง เริ่มต้นการแก้ไขรายงาน Power BI จากภายใน Power BI Report Server หรือสร้างรายงาน Power BI ใหม่จากบริการของ Power BI
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 
@@ -100,12 +100,6 @@ Power BI Desktop ที่ปรับให้เหมาะสำหรับ
 ### <a name="saving-reports-to-a-power-bi-report-server-in-a-different-domain"></a>การบันทึกรายงานไปยังเซิร์ฟเวอร์รายงาน Power BI ในโดเมนอื่น
 
 เมื่อคุณบันทึกรายงาน Power BI ไปยังเซิร์ฟเวอร์รายงาน Power BI ข้อมูลประจำตัว Windows ของคุณจะถูกใช้ การบันทึกไปยังเซิร์ฟเวอร์รายงานในโดเมนอื่นโดยตรง ข้อมูลประจำตัว Windows ของคุณ จะไม่ได้รับการสนับสนุน คุณสามารถใช้เว็บเบราว์เซอร์เพื่อดูเซิร์ฟเวอร์รายงาน และอัปโหลดไฟล์จากเครื่องของคุณแทน
-
-## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop สำหรับเซิร์ฟเวอร์รายงาน Power BI เวอร์ชันก่อนหน้านี้
-
-ถ้าเซิร์ฟเวอร์รายงานของคุณเป็นเวอร์ชันก่อนหน้า คุณจำเป็นต้องมี Power BI Desktop เวอร์ชันที่สอดคล้องกัน นี่คือลิงก์สำหรับดาวน์โหลดเวอร์ชันก่อนหน้านี้
-
-- Microsoft Power BI Desktop ([ปรับให้เหมาะสมสำหรับ เซิร์ฟเวอร์รายงาน Power BI - กันยายน 2019](https://go.microsoft.com/fwlink/?linkid=2103723))
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

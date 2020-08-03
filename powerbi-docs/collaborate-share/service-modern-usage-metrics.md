@@ -1,5 +1,5 @@
 ---
-title: ตรวจสอบเมตริกการใช้งานในประสบการณ์พื้นที่ทำงานใหม่
+title: ตรวจสอบเมตริกการใช้งานในประสบการณ์พื้นที่ทำงานใหม่ (ตัวอย่าง)
 description: วิธีการดู บันทึก และใช้เมตริกการใช้งานในประสบการณ์พื้นที่ทำงานใหม่สำหรับแดชบอร์ดและรายงานใน Power BI
 author: maggiesMSFT
 ms.author: maggies
@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 380fe94a123c26d7502ce68bc21372f791a3508f
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 7c8c1744c8ecbbf170ae073d2e302fe55faea55b
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162054"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953041"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>ตรวจสอบเมตริกการใช้งานในประสบการณ์พื้นที่ทำงานใหม่
 
@@ -65,6 +65,9 @@ ms.locfileid: "86162054"
 ### <a name="usage-metrics-report-dataset"></a>ชุดข้อมูลรายงานเมตริกการใช้งาน
 
 รายงานเมตริกการใช้งานที่ได้รับการปรับปรุงแล้วขึ้นอยู่กับชุดข้อมูลรายงานเมตริกการใช้งานซึ่ง Power BI สร้างขึ้นโดยอัตโนมัติเมื่อคุณเปิดใช้งานการปรับปรุงรายงานเมตริกการใช้งานในครั้งแรก Power BI จะรีเฟรชชุดข้อมูลนี้ทุกวัน ถึงแม้คุณจะไม่สามารถเปลี่ยนกำหนดเวลาการรีเฟรชได้ คุณยังสามารถอัปเดตข้อมูลประจำตัวที่ Power BI ใช้เพื่อรีเฟรชข้อมูลเมตริกการใช้งานได้ ซึ่งอาจจำเป็นต้องดำเนินการรีเฟรชตามกำหนดเวลาต่อ ถ้าข้อมูลประจำตัวหมดอายุ หรือหากคุณลบผู้ใช้ที่ใช้งานรายงานเมตริกการใช้งานเป็นครั้งแรกจากพื้นที่ทำงานที่มีชุดข้อมูลอยู่ออกไป
+
+> [!NOTE]
+> ขณะที่ยังอยู่ในตัวอย่าง ชุดข้อมูลเมตริกการใช้งานอาจมีการเปลี่ยนแปลงเล็กน้อยซึ่งมีผลต่อรายงานที่กำหนดเอง  
 
 ### <a name="usage-metrics-report-pages"></a>หน้ารายงานเมตริกการใช้งาน
 

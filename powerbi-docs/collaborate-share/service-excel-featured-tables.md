@@ -6,96 +6,94 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 07/24/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a872c0ada80a7168ebc6bb545de1ad474c4561b7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 00fba391a6ad92f1e3edaf0e2af9691452724f6e
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226371"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87251759"
 ---
 # <a name="access-power-bi-featured-tables-in-excel-preview"></a>เข้าถึงตารางที่แนะนำของ Power BI ใน Excel (ตัวอย่าง)
 
-ใน Excel คุณสามารถค้นหาข้อมูลจากตารางที่แนะนำในชุดข้อมูล Power BI ในแกลเลอรีชนิดข้อมูลได้ ตารางที่แนะนำช่วยให้การเพิ่มข้อมูลระดับองค์กรไปยังแผ่นงาน Excel ของคุณเป็นไปได้ง่ายขึ้น ด้วยการใช้ความสามารถของชุดข้อมูลที่ได้รับการรับรองและที่เลื่อนระดับของ Power BI องค์กรสามารถอนุญาตผู้ใช้เพิ่มขึ้นเพื่อค้นหาและใช้ข้อมูล ที่เกี่ยวข้องและสามารถรีเฟรชได้ เพื่อการตัดสินใจที่ดียิ่งขึ้น อ่านเพิ่มเติมเกี่ยวกับการใช้ [ชนิดข้อมูล Excel จาก Power BI](https://support.office.com/article/use-excel-data-types-from-power-bi-preview-cd8938ce-f963-444d-b82a-7140848241e9) ในเอกสารประกอบของ Excel
+ในแกลเลอรีชนิดข้อมูลใน Excel คุณสามารถค้นหาข้อมูลจาก*ตารางที่แนะนำ*ในชุดข้อมูล Power BI ได้ ตารางที่แนะนำช่วยให้การเพิ่มข้อมูลระดับองค์กรไปยังแผ่นงาน Excel ของคุณเป็นไปได้ง่ายขึ้น ขั้นตอนต่อไปนี้คือการรับจากข้อมูล Power BI ไปยังแผ่นงาน Excel
 
-แกลเลอรีชนิดข้อมูลจะแสดงเฉพาะตารางที่แนะนำที่ ผู้สร้างแบบจำลองได้รวบรวมไว้ในชุดข้อมูล Power BI เท่านั้น คุณยังสามารถเรียกดูชุดข้อมูลใน Excel ที่คุณสามารถเข้าถึงได้ใน Power BI ใน Excel ให้เลือกตัวเลือก **ชุดข้อมูล Power BI** ภายใต้ **รับข้อมูล** บนแถบเครื่องมือ **ข้อมูล**
+- ตัวสร้างแบบจำลองข้อมูล Power BI จะ[เลื่อนระดับหรือรับรองชุดข้อมูลใน Power BI](../connect-data/service-datasets-promote.md)
+- ตัวสร้างแบบจำลองข้อมูลจะ[ระบุตารางที่แนะนำ](service-create-excel-featured-tables.md)ในชุดข้อมูล และบันทึกชุดข้อมูลนั้นไปยังบริการของ Power BI
+- ส่วนที่เหลือขององค์กรสามารถเชื่อมต่อกับตารางที่แนะนำเหล่านั้นใน Excel สำหรับข้อมูลที่เกี่ยวข้องและสามารถรีเฟรชได้ Excel จะอ้างอิงตารางเหล่านั้นเป็น*ชนิดข้อมูล*และแสดงรายการในแกลเลอรีชนิดข้อมูล
 
-## <a name="access-power-bi-data-through-the-excel-data-types-gallery"></a>เข้าถึงข้อมูล Power BI ผ่านแกลเลอรีชนิดข้อมูล Excel
-ตารางที่แนะนำในชุดข้อมูล Power BI จะปรากฏในแกลเลอรีชนิดข้อมูล Excel ในแถบเครื่องมือข้อมูล
+> [!NOTE]
+> นอกจากนี้คุณยังสามารถรับข้อมูลจากชุดข้อมูลใด ๆ ที่คุณสามารถเข้าถึงใน Power BI ได้ใน Excel บนแถบเครื่องมือริบบอน**ข้อมูล** ให้เลือก**รับข้อมูล** > **จาก Power BI (Microsoft)**
+> :::image type="content" source="media/service-excel-featured-tables/excel-get-data-power-bi.png" alt-text="ภาพหน้าจอของรับข้อมูลจากตัวเลือก Power BI บนแถบเครื่องมือริบบอนข้อมูล":::
 
-:::image type="content" source="media/service-excel-featured-tables/excel-data-ribbon.png" alt-text="แถบเครื่องมือข้อมูล Excel":::
+## <a name="the-excel-data-types-gallery"></a>แกลเลอรีชนิดข้อมูล Excel
+ตารางที่แนะนำในชุดข้อมูล Power BI จะปรากฏเป็น*ชนิดข้อมูล*บนแถบเครื่องมือริบบอน**ข้อมูล** ในแกลเลอรี**ชนิดข้อมูล** Excel
 
-เมื่อขยาย แกลเลอรีจะแสดงชนิดข้อมูลที่พร้อมใช้งานสูงสุด
+:::image type="content" source="media/service-excel-featured-tables/excel-data-ribbon.png" alt-text="ภาพหน้าจอของแกลเลอรีชนิดข้อมูลในแถบเครื่องมือริบบอนข้อมูล Excel":::
 
-:::image type="content" source="media/service-excel-featured-tables/excel-data-types-gallery.png" alt-text="แกลเลอรีชนิดข้อมูล Excel":::
+เมื่อขยาย แกลเลอรีจะแสดงชนิดข้อมูลทั่วไป เช่น **สินค้าในคลัง**และ**ภูมิศาสตร์** เสริมด้วยชนิดข้อมูล 10 อันดับแรกของ**องค์กร**ที่คุณสามารถใช้งานได้ -- ตารางที่แนะนำจากชุดข้อมูล Power BI
+
+:::image type="content" source="media/service-excel-featured-tables/excel-data-types-gallery.png" alt-text="ภาพหน้าจอของแกลเลอรีชนิดข้อมูล Excel":::
+
+## <a name="format-a-range-of-cells-as-a-table-optional"></a>จัดรูปแบบช่วงของเซลล์เป็นตาราง (ตัวเลือกเสริม)
+
+ ก่อนที่คุณจะเริ่มต้น เราขอแนะนำให้จัดรูปแบบข้อมูลของคุณเป็นตาราง Excel ด้วยวิธีนี้ การเปลี่ยนแปลงที่คุณดำเนินการกับแถวหนึ่งจะมีผลกับแถวอื่น ๆ ในตารางด้วย 
+
+1. เพิ่มส่วนหัวคอลัมน์ 
+2. จากนั้นเลือกเซลล์ในข้อมูลของคุณและกด Ctrl + T 
+3. เลือก**ตารางของฉันมีส่วนหัว** > **ตกลง**
+
+    :::image type="content" source="media/service-excel-featured-tables/excel-format-table.png" alt-text="ภาพหน้าจอของการแปลงช่วงเป็นตาราง":::
+
+## <a name="search-for-power-bi-data-in-the-excel-data-types-gallery"></a>ค้นหาข้อมูล Power BI ในแกลเลอรีชนิดข้อมูล Excel
+
+หากต้องการค้นหาข้อมูลในตารางที่แนะนำของ Power BI ให้เลือกเซลล์หรือช่วงในแผ่นงาน Excel ที่มีค่าตรงกับค่าในตารางที่แนะนำ เลือก**องค์กร** Excel ค้นหาตารางที่แนะนำทั้งหมดซึ่งคุณมีสิทธิ์ในการเข้าถึง โดยการหารายการที่ตรงกัน
+
+:::image type="content" source="media/service-excel-featured-tables/excel-table-organization.png" alt-text="ภาพหน้าจอของเลือกเซลล์หรือช่วงของเซลล์":::
  
-หากต้องการค้นหาข้อมูลในตารางที่แนะนำของ Power BI ให้เลือกเซลล์หรือช่วงในแผ่นงาน Excel ของคุณ
+หากคุณทราบว่าตารางแนะนำที่คุณกำลังค้นหาคือตารางใด ให้เลือก**จากองค์กรของคุณ (ตัวอย่าง)** จากแกลเลอรี และเลือกตารางดังกล่าว
 
-:::image type="content" source="media/service-excel-featured-tables/excel-select-cell.png" alt-text="เลือกเซลล์":::
+:::image type="content" source="media/service-excel-featured-tables/excel-organizational-data-table.png" alt-text="ภาพหน้าจอของข้อมูลองค์กร Excel, ตารางชนิดข้อมูลผู้จัดหา":::
  
-เลือกตัวเลือก **ข้อมูลองค์กร** จากแกลเลอรีเพื่อค้นหาข้อมูลในตารางที่แนะนำในชุดข้อมูลที่มีการรับรองความถูกต้องซึ่งคุณสามารถเข้าถึงได้
+เมื่อคุณค้นหา หาก Excel พบแถวที่ตรงกันซึ่งมีระดับความน่าเชื่อถือสูง เซลล์จะเชื่อมโยงกับแถวเหล่านั้นทันที ไอคอนหน่วยข้อมูลที่เชื่อมโยงกันจะระบุเซลล์ที่เชื่อมโยงกับแถวใน Power BI
 
-:::image type="content" source="media/service-excel-featured-tables/excel-organizational-data.png" alt-text="ข้อมูลองค์กรใน Excel":::
+:::image type="content" source="media/service-excel-featured-tables/excel-linked-card-icon.png" alt-text="ภาพหน้าจอของไอคอนหน่วยข้อมูลที่เชื่อมโยง":::
+
+หากเซลล์อาจมีแถวที่ตรงกันมากกว่าหนึ่งแถว เซลล์จะแสดงไอคอนเครื่องหมายคำถาม และบานหน้าต่าง**ตัวเลือกข้อมูล**จะเปิด ในตัวอย่างต่อไปนี้ ผู้ใช้เลือกช่วงจาก B2:B10 และค้นหาตารางที่แนะนำของ Power BI แถวทั้งหมดมีรายการที่ตรงกัน ยกเว้นเซลล์ B5 "Ma Maison" **ตัวเลือกข้อมูล**แสดงรายการที่อาจตรงกันสองรายการ
+
+:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-pane.png" alt-text="ภาพหน้าจอของบานหน้าต่างตัวเลือกข้อมูล Excel":::
  
-เลือกชนิดข้อมูลที่เฉพาะเจาะจง ถ้าคุณทราบว่าข้อมูลประเภทใดที่คุณกำลังค้นหา หรือคุณไม่พบแถวที่ตรงกันโดยใช้ตัวเลือกข้อมูลองค์กร
+ตัวเลือกข้อมูลองค์กรสามารถส่งกลับแถวจากหลายตารางที่แนะนำได้ Excel จะจัดกลุ่มแถวที่อาจตรงกันตามชนิดข้อมูลเดิม Excel จะเรียงลำดับชนิดข้อมูลโดยยึดตามแถวที่อาจตรงกันที่มีประสิทธิภาพที่สุด ใช้ลูกศรเชฟรอนเพื่อยุบและขยายชนิดข้อมูลไปยังแถวที่ตรงกัน
 
-:::image type="content" source="media/service-excel-featured-tables/excel-select-data-type.png" alt-text="เลือกชนิดข้อมูล":::
+:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-multiple.png" alt-text="ภาพหน้าจอของบานหน้าต่างตัวเลือกข้อมูล Excel ที่มีความเป็นไปได้หลายรายการ":::
  
-เมื่อคุณค้นหา หากพบแถวที่ตรงกันซึ่งมีความเชื่อมั่นระดับสูง เซลล์จะถูกเชื่อมโยงกับแถวนั้นทันที ไอคอนรายการที่เชื่อมโยงจะระบุเซลล์ถูกเชื่อมโยงกับแถวใน Power BI
+สำหรับแต่ละแถว เลือกชื่อแถวเพื่อดูรายละเอียดเพิ่มเติมภายในแถวเพื่อช่วยให้คุณเลือกแถวที่ถูกต้อง หลังจากที่คุณพบแถวแล้ว ให้กด**เลือก**เพื่อเชื่อมโยงแถวกับเซลล์ใน Excel 
 
-:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-icon.png" alt-text="ไอคอนรายการที่เชื่อมโยง":::
-
-ถ้าเซลล์มีหลายแถวที่อาจตรงกัน บานหน้าต่างตัวเลือกข้อมูลจะแสดงขึ้น เซลล์จะแสดงไอคอนเครื่องหมายคำถามซึ่งจะเปิดบานหน้าต่างตัวเลือกข้อมูลในแถวนั้น ต่อไปนี้คือตัวอย่างหลังจากที่ผู้ใช้เลือกช่วงจาก A2: A7 และค้นหาตารางที่แนะนำของ Power BI
-
-:::image type="content" source="media/service-excel-featured-tables/excel-multiple-matches.png" alt-text="หลายแถวที่อาจตรงกัน":::
-
-บานหน้าต่าง **ตัวเลือกข้อมูล** แสดงแถวที่อาจตรงกัน
-
-:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-pane.png" alt-text="บานหน้าต่างตัวเลือกข้อมูล Excel":::
+:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-details.png" alt-text="ภาพหน้าจอของรายละเอียดตัวเลือกข้อมูล":::
  
-ตัวเลือกข้อมูลองค์กรสามารถส่งกลับแถวจากหลากหลายชนิดข้อมูลได้ Excel จะจัดกลุ่มแถวที่อาจตรงกันตามชนิดข้อมูลเดิม Excel จะเรียงลำดับชนิดข้อมูลโดยยึดตามแถวที่อาจตรงกันที่มีประสิทธิภาพที่สุด ใช้ลูกศรเชฟรอนเพื่อยุบและขยายชนิดข้อมูลไปยังแถวที่ตรงกัน
-
-:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-multiple.png" alt-text="บานหน้าต่างตัวเลือกข้อมูล Excel":::
+การเลือกไอคอน**การ์ด**ในเซลล์จะแสดงบัตรที่มีข้อมูลจากเขตข้อมูลใดตาม และเขตข้อมูลจากการคำนวณในตารางที่แนะนำ ชื่อของการ์ดแสดงค่าของเขตข้อมูลป้ายชื่อแถวในตารางที่แนะนำ
  
-สำหรับแต่ละแถว เลือกชื่อแถวเพื่อดูรายละเอียดเพิ่มเติมภายในแถวเพื่อช่วยให้คุณเลือกแถวที่ถูกต้อง หลังจากที่คุณพบแถวแล้ว ให้กด **เลือก** เพื่อเชื่อมโยงแถวไปยังเซลล์ใน Excel 
+:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-details.png" alt-text="ภาพหน้าจอของรายละเอียดหน่วยข้อมูลที่เชื่อมโยง":::
 
-:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-select.png" alt-text="รายละเอียดตัวเลือกข้อมูล":::
- 
-เมื่อแถวถูกเลือก เซลล์จะถูกเชื่อมโยงไปยังแถวและค่าของของแถวนั้นจะมีค่า เดียวกับเขตข้อมูล **ป้ายชื่อแถว** ในตารางที่แนะนำของ Power BI 
+เลือกไอคอน**แทรกข้อมูล** จากนั้นเลือกชื่อเขตข้อมูลจากรายการเขตข้อมูลเพื่อเพิ่มค่าลงในเส้นตาราง  
 
-:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-icon.png" alt-text="รายการที่เชื่อมโยงของ Excel":::
- 
-การเลือกไอคอน **เซลล์ที่เชื่อมโยง** จะแสดงบัตรที่มีข้อมูลจากเขตข้อมูลใดตาม และเขตข้อมูลจากการคำนวณในตารางที่แนะนำ ชื่อของการ์ดแสดงค่าของเขตข้อมูลป้ายชื่อแถวในตารางที่แนะนำ
- 
-:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-details.png" alt-text="รายละเอียดรายการที่เชื่อมโยง":::
+:::image type="content" source="media/service-excel-featured-tables/excel-select-field.png" alt-text="ภาพหน้าจอของเลือกชื่อเขตข้อมูล":::
 
-เลือกไอคอน **แทรกข้อมูล** เพื่อเพิ่มค่าเขตข้อมูลลงในเส้นตาราง
+ค่าเขตข้อมูลหนึ่งหรือหลายค่าถูกวางลงในเซลล์ที่อยู่ติดกัน สูตรเซลล์หมายถึงเซลล์ที่เชื่อมโยงและชื่อเขตข้อมูล ดังนั้นคุณสามารถใช้ข้อมูลในฟังก์ชัน Excel ได้
 
-:::image type="content" source="media/service-excel-featured-tables/excel-insert-data.png" alt-text="แทรกข้อมูล"::: 
-
-เลือกชื่อเขตข้อมูลจากรายการเขตข้อมูลเพื่อเพิ่มค่าลงในเส้นตาราง  
-
-:::image type="content" source="media/service-excel-featured-tables/excel-select-field.png" alt-text="เลือกชื่อเขตข้อมูล":::
-
-ค่าเขตข้อมูลถูกวางลงในเซลล์ที่อยู่ติดกัน สูตรเซลล์หมายถึงเซลล์ที่เชื่อมโยงและชื่อเขตข้อมูล ดังนั้นคุณสามารถใช้ข้อมูลในฟังก์ชัน Excel ได้
-
-:::image type="content" source="media/service-excel-featured-tables/excel-cell-formula.png" alt-text="สูตรเซลล์ Excel":::
- 
-เมื่อคุณจัดรูปแบบข้อมูลของคุณเป็นตาราง Excel การเพิ่มเขตข้อมูลจะขยายตารางและตั้งส่วนหัวของคอลัมน์ให้ตรงกับชื่อเขตข้อมูล แถวที่เชื่อมโยงกับชนิดข้อมูลเดียวกันจะถูกเติมด้วยค่าที่เกี่ยวข้อง
-
-:::image type="content" source="media/service-excel-featured-tables/excel-field-column-name.png" alt-text="เขตข้อมูล คือ ชื่อคอลัมน์"::: 
+:::image type="content" source="media/service-excel-featured-tables/excel-cell-formula.png" alt-text="ภาพหน้าจอของสูตรเซลล์ Excel":::
 
 ## <a name="cell-formulas"></a>สูตรเซลล์
 
 เมื่อคุณใช้ตาราง Excel คุณสามารถอ้างอิงไปยังคอลัมน์ตารางที่มีการเชื่อมโยง จากนั้นเพิ่มเขตข้อมูลโดยใช้การอ้างอิง `.` (ช่วงเวลา)
 
-:::image type="content" source="media/service-excel-featured-tables/excel-dot-reference.png" alt-text="การอ้างอิงช่วงเวลา Excel":::
+:::image type="content" source="media/service-excel-featured-tables/excel-dot-reference.png" alt-text="ภาพหน้าจอของการอ้างอิงช่วงเวลา Excel":::
 
 ในทำนองเดียวกันเมื่อคุณใช้เซลล์ คุณสามารถอ้างอิงไปยังเซลล์และใช้การอ้างอิง `.` (ช่วงเวลา) เพื่อเรียกเขตข้อมูลได้
 
-:::image type="content" source="media/service-excel-featured-tables/excel-cell-dot-reference.png" alt-text="การอ้างอิงช่วงเวลาเซลล์":::
+:::image type="content" source="media/service-excel-featured-tables/excel-cell-dot-reference.png" alt-text="ภาพหน้าจอของการอ้างอิงช่วงเวลาเซลล์":::
  
 ## <a name="data-caching-and-refresh"></a>การแคชข้อมูลและการรีเฟรช
 
@@ -103,24 +101,25 @@ ms.locfileid: "85226371"
 
 ใช้ปุ่ม **รีเฟรชทั้งหมด** ในแถบเครื่องมือ **ข้อมูล** เพื่อรีเฟรชข้อมูลในเซลล์ที่เชื่อมโยง 
 
-:::image type="content" source="media/service-excel-featured-tables/excel-refresh-all.png" alt-text="รีเฟรชทั้งหมด":::
+:::image type="content" source="media/service-excel-featured-tables/excel-refresh-all.png" alt-text="ภาพหน้าจอของรีเฟรชทั้งหมด":::
  
 คุณยังสามารถรีเฟรชเซลล์ทีละรายการได้ คลิกขวาที่เซลล์และเลือก **ชนิดข้อมูล** > **รีเฟรช**
 
 ## <a name="show-a-card-change-or-convert-to-text"></a>แสดงการ์ด เปลี่ยนแปลง หรือแปลงเป็นข้อความ
 
-เซลล์ที่เชื่อมโยงได้เพิ่มตัวเลือกเมนูการคลิกขวาแล้ว คลิกขวาที่เซลล์ > เลือก **ชนิดข้อมูล** >  
+เซลล์ที่เชื่อมโยงได้เพิ่มตัวเลือกเมนูการคลิกขวาแล้ว คลิกขวาที่เซลล์ นอกจากตัวเลือกตามปกแล้ว คุณจะเห็นรายการต่อไปนี้ด้วย:
 
-- **แสดงการ์ด**
+- **แสดงการ์ดชนิดข้อมูล**
 - **รีเฟรช**
-- **เปลี่ยน** 
+- **เปลี่ยน**
 - **แปลงเป็นข้อความ**
 
-:::image type="content" source="media/service-excel-featured-tables/excel-right-click-data-type.png" alt-text="คลิกขวา แปลงเป็นข้อความ":::
+:::image type="content" source="media/service-excel-featured-tables/excel-right-click-data-type.png" alt-text="ภาพหน้าจอของคลิกขวา แปลงเป็นข้อความ":::
  
 **แปลงเป็นข้อความ** นำการเชื่อมโยงกับแถวในตารางที่แนะนำ Power BI ออก ที่สำคัญคือข้อความในเซลล์จะเป็นค่าป้ายชื่อแถวของเซลล์ที่เชื่อมโยง ถ้าคุณเชื่อมโยงเซลล์ไปยังแถวที่คุณไม่ได้ตั้งใจ ให้เลือก **เลิกทำ** ใน Excel เพื่อคืนค่าเซลล์เริ่มต้น
 
 ## <a name="licensing"></a>สิทธิ์การใช้งาน
+
 แกลเลอรีชนิดข้อมูล Excel และประสบการณ์การเชื่อมต่อกับตารางที่แนะนำของ Power BI จะพร้อมใช้งานสำหรับลูกค้า Excel E5 และ G5 เท่านั้น 
 
 ## <a name="security"></a>ความปลอดภัย
@@ -128,39 +127,6 @@ ms.locfileid: "85226371"
 คุณจะเห็นเฉพาะตารางที่แนะนำจากชุดข้อมูลที่คุณมีสิทธิ์เข้าถึงใน Power BI เมื่อรีเฟรชข้อมูล คุณต้องมีสิทธิ์ในการเข้าถึงชุดข้อมูลใน Power BI เพื่อเรียกแถว ซึ่งจำเป็นต้องมีสิทธิ์ในการสร้างหรือเขียนบนชุดข้อมูล Excel แคชข้อมูลที่ส่งกลับสำหรับทั้งแถว ทุกคนที่คุณแชร์ไฟล์ Excel ด้วยสามารถดูข้อมูลสำหรับเขตข้อมูลทั้งหมดในเซลล์ที่เชื่อมโยงทั้งหมดได้
 
 ถ้าชุดข้อมูล Power BI มีการรักษาความปลอดภัยระดับแถวหรือป้ายชื่อระดับความลับของ Microsoft Information Protection อยู่ ตารางที่แนะนำจากชุดข้อมูลนั้นจะไม่ได้รวมอยู่ในแกลเลอรีชนิดข้อมูล Excel นี่คือข้อจำกัดของการแสดงตัวอย่างเริ่มต้น
-
-## <a name="curate-a-featured-table-in-power-bi-desktop"></a>รวบรวมตารางที่แนะนำใน Power BI Desktop
-แกลเลอรีชนิดข้อมูล Excel แสดงตารางที่แนะนำในชุดข้อมูลที่อัปโหลดไปยังบริการของ Power BI ใช้ Power BI Desktop เพื่อจัดการตารางที่แนะนำในแบบจำลองข้อมูล จากนั้นอัปโหลดไปยังบริการของ Power BI
-
-### <a name="turn-on-the-featured-table-preview"></a>เปิดใช้งานตัวอย่างตารางที่แนะนำ
-
-1. ใน Power BI Desktop เลือกตัวเลือก **ไฟล์** > **และตัวเลือก** > **การตั้งค่า** > **คุณลักษณะตัวอย่าง**
-2. เลือกกล่องกาเครื่องหมาย **ตารางที่แนะนำ**
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="ดูตัวอย่างตัวเลือกตารางที่แนะนำ":::
-
-### <a name="select-a-table"></a>เลือกตาราง
-
-1. ใน Power BI Desktop ไปที่มุมมองแบบจำลอง
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="มุมมองแบบจำลอง":::
- 
-2. เลือกตารางและตั้ง **เป็นตารางที่แนะนำ** เป็น **ใช่**
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="ตั้งเป็นตารางที่แนะนำให้เป็นใช่":::
-
-4. ใน **ตั้งค่าตารางที่แนะนำนี้** ให้ใส่เขตข้อมูลที่จำเป็น:
-
-    - **คำอธิบาย**
-    - ค่าเขตข้อมูล **ป้ายชื่อแถว** จะใช้ใน Excel เพื่อให้ผู้ใช้สามารถระบุแถวได้อย่างง่ายดาย ซึ่งจะปรากฏเป็นค่าเซลล์สำหรับเซลล์ที่เชื่อมโยงในบานหน้าต่าง **ตัวเลือกข้อมูล** และในการ์ด **ข้อมูล** 
-    - ค่าเขตข้อมูลของ **คอลัมน์คีย์** มี ID เฉพาะสำหรับแถว ค่านี้เปิดใช้งาน Excel เพื่อเชื่อมโยงเซลล์ไปยังแถวที่ระบุในตาราง
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="ตั้งค่าตารางที่แนะนำ":::
-
-หลังจากที่คุณเผยแพร่หรือนำเข้าชุดข้อมูลไปยังบริการของ Power BI แล้ว ตารางที่แนะนำจะแสดงอยู่ในแกลเลอรีชนิดข้อมูล Excel
-
-- Excel แคชรายการของชนิดข้อมูล ดังนั้นคุณจำเป็นต้องรีสตาร์ท Excel ใหม่เพื่อดูตารางที่แนะนำที่เผยแพร่ใหม่
-- ชุดข้อมูลบางชุดไม่ได้รับการรองรับในการแสดงตัวอย่าง ตารางที่แนะนำที่กำหนดไว้ในชุดข้อมูลเหล่านั้นจะไม่ปรากฏใน Excel ดูข้อควรพิจารณาและข้อจำกัดสำหรับรายละเอียด
 
 ## <a name="administrative-control"></a>การควบคุมการดูแลระบบ
 
@@ -193,7 +159,7 @@ ms.locfileid: "85226371"
     - หน่วยวัดที่กำหนดไว้ในตารางที่แนะนำ
     - หน่วยวัดที่กำหนดไว้ในตารางที่เกี่ยวข้อง และหน่วยวัดโดยนัยที่คำนวณจากความสัมพันธ์
 
-- Excel จะแสดงเฉพาะตารางที่แนะนำที่จัดเก็บไว้ในพื้นที่ทำงาน Power BI ใหม่เท่านั้น ตารางที่แนะนำที่จัดเก็บไว้ในพื้นที่ทำงานแบบคลาสสิกหรือพื้นที่ทำงานของฉันไม่มีการแสดงในชนิดข้อมูลใน Excel คุณสามารถ [ อัปเกรดพื้นที่ทำงานแบบคลาสสิกเป็นพื้นที่งานใหม่ใน](service-upgrade-workspaces.md) Power BI
+- Excel จะแสดงเฉพาะตารางที่แนะนำ (*ชนิดข้อมูล*) ที่จัดเก็บในพื้นที่ทำงาน Power BI ใหม่เท่านั้น ตารางที่แนะนำที่จัดเก็บไว้ในพื้นที่ทำงานแบบคลาสสิกหรือพื้นที่ทำงานของฉันไม่มีการแสดงในชนิดข้อมูลใน Excel คุณสามารถ [ อัปเกรดพื้นที่ทำงานแบบคลาสสิกเป็นพื้นที่งานใหม่ใน](service-upgrade-workspaces.md) Power BI
 
 ประสบการณ์ชนิดข้อมูลใน Excel จะคล้ายกับฟังก์ชันการค้นหา โดยจะใช้ค่าเซลล์ที่ให้มาจากแผ่นงาน Excel และค้นหาแถวที่ตรงกันในตารางที่แนะนำของ Power BI ประสบการณ์การค้นหามีลักษณะการทำงานต่อไปนี้:
 
@@ -213,5 +179,7 @@ ms.locfileid: "85226371"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
+- [ตั้งค่าตารางที่แนะนำใน Power BI Desktop](service-create-excel-featured-tables.md)
+- อ่านข้อมูลเกี่ยวกับ[การใช้ชนิดข้อมูล Excel จาก Power BI](https://support.office.com/article/use-excel-data-types-from-power-bi-preview-cd8938ce-f963-444d-b82a-7140848241e9) ในเอกสารประกอบของ Excel
 - มีคำถามหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)
 

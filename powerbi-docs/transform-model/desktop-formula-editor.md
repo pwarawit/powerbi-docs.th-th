@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 835feb7c7535a50a10c736464d8366f1f7bf910a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 8cbc5d3018f16cecd5013dab2d4da01b0a69ef9f
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565890"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87363950"
 ---
 # <a name="formula-editor-in-power-bi-desktop"></a>ตัวแก้ไขสูตรใน Power BI Desktop
 
@@ -61,5 +61,5 @@ ms.locfileid: "83565890"
 บทความต่อไปนี้แสดงข้อมูลเพิ่มเติมเกี่ยวกับสูตรและ DAX ใน Power BI Desktop
 
 * [พื้นฐาน DAX ใน Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
-* [เรียนรู้เกี่ยวกับ DAX สำหรับ Power BI](https://docs.microsoft.com/power-bi/guided-learning/introductiontodax?tutorial-step=1)
+* [DAX ใน Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/) หลักสูตร Microsoft Learn
 * [การอ้างอิงเกี่ยวกับ DAX](/dax/)

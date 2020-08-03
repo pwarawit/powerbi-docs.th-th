@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 03/13/2020
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ec716f0824ce083b034dc8fd459f00fdb7768ac4
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 62f0f6d9bac3b8451f3c5efc70612c2ef067aed4
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215596"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252808"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>เริ่มต้นใช้งาน Power BI Desktop
 ยินดีต้อนรับสู่คู่มือการเริ่มต้นสำหรับ Power BI Desktop ทัวร์นี้แสดงวิธีการที่ Power BI Desktop ทำงาน สิ่งที่สามารถทำได ้และวิธีการสร้างโมเดลข้อมูลที่แข็งแกร่ง และรายงานที่น่าทึ่ง เพื่อขยายข่าวกรองธุรกิจของคุณ
@@ -24,6 +24,11 @@ ms.locfileid: "86215596"
 ![ภาพหน้าจอของ Power BI Desktop ที่แสดงรายการงานตัวอย่าง](media/desktop-getting-started/hero-02.png)
 
 นอกจากนี้คุณยังสามารถดูวิดีโอ [เริ่มต้นใช้งานกับ Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA) และดาวน์โหลดเวิร์กบุ๊ก Excel [ตัวอย่างทางการเงิน](https://go.microsoft.com/fwlink/?LinkID=521962) เพื่อทำตามวิดีโอ
+
+
+> [!IMPORTANT]
+> มีการอัปเดตและเผยแพร่ Power BI Desktop เป็นประจำทุกเดือน ซึ่งจะรวมคำติชมของลูกค้าและคุณสมบัติใหม่ด้วย รองรับเฉพาะเวอร์ชันล่าสุดของ Power BI Desktop เท่านั้น ซึ่งฝ่ายสนับสนุนสำหรับ Power BI Desktop จะขอให้ลูกค้าที่ติดต่อมาอัปเกรดเป็นเวอร์ชันล่าสุด คุณสามารถดาวน์โหลด Power BI Desktop เวอร์ชันล่าสุดได้จาก [Windows Store](https://aka.ms/pbidesktopstore) หรือไฟล์ปฏิบัติการเดียวซึ่งมีภาษาที่รองรับทั้งหมดที่คุณ[ดาวน์โหลด](https://www.microsoft.com/download/details.aspx?id=58494)และติดตั้งบนคอมพิวเตอร์ของคุณ
+
 
 ## <a name="how-power-bi-desktop-works"></a>วิธีการทำงานของ Power BI Desktop
 ด้วย Power BI Desktop คุณสามารถ

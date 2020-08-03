@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a3df69e52614fba3152f6539b2c4cbcf4f5c87d2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8f79037c4117baaba1a50b6fe4e728b57fad362f
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227680"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252095"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>ลงทะเบียนสำหรับ Power BI ด้วย Microsoft 365 รุ่นทดลองใช้ฟรี ตัวใหม่
 
@@ -25,7 +25,7 @@ ms.locfileid: "85227680"
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>ลงทะเบียนสำหรับรุ่นทดลองใช้ Office ของ Microsoft 365
 
-ลงทะเบียนสำหรับ Microsoft 365 รุ่นทดลองใช้ฟรี[บนเว็บไซต์ Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) ถ้าคุณยังไม่มีบัญชี Microsoft จะแนะนำให้คุณทำตามขั้นตอนในการสร้างบัญชี เนื่องจากบัญชีอีเมลการค้าเชิงพาณิชย์ (เช่น Hotmail และ Gmail) จะไม่สามารถใช้งานได้กับ Microsoft 365 คุณจะต้องสร้างบัญชีใหม่ที่จะ  บัญชีอีเมลนั้นจะมีลักษณะบางอย่างเช่น *zalan@onmicrosoft.com*
+ลงทะเบียนสำหรับ Microsoft 365 รุ่นทดลองใช้ฟรี[บนเว็บไซต์ Microsoft 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) ถ้าคุณยังไม่มีบัญชี Microsoft จะแนะนำให้คุณทำตามขั้นตอนในการสร้างบัญชี เนื่องจากบัญชีอีเมลการค้าเชิงพาณิชย์ (เช่น Hotmail และ Gmail) จะไม่สามารถใช้งานได้กับ Microsoft 365 คุณจะต้องสร้างบัญชีใหม่ที่จะ  บัญชีอีเมลนั้นจะมีลักษณะบางอย่างเหมือนกับ *zalan\@onmicrosoft.com*
 
 ![เลือกทดลองใช้ฟรี](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)
 
