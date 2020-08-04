@@ -24,9 +24,9 @@
           href: funnel-plot-from-r.md
     - name: แนวคิด
       items:
-        - name: โครงสร้างของโครงการแสดงผล Power BI
+        - name: โครงสร้างของโครงการวิชวล Power BI
           href: visual-project-structure.md
-        - name: แนวคิดแบบแสดงผลด้วยภาพ
+        - name: ' การรวมระบบวิชวลของ Power BI'
           href: power-bi-visuals-concept.md
         - name: วิชวลสำหรับองค์กรใน Power BI
           href: power-bi-custom-visuals-organization.md
