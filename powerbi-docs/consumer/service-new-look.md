@@ -2,19 +2,19 @@
 title: "'รูปลักษณ์ใหม่' ของบริการของ Power BI"
 description: บริการของ Power BI (app.powerbi.com) มีรูปลักษณ์ใหม่ บทความนี้อธิบายวิธีการนำทางรายงานโดยใช้รูปลักษณ์ใหม่
 author: maggiesMSFT
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 188f4bfb5e54d3b132d77dbf7229e58491281042
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 01edbc2a3ec3fe9423b5eab575b1b0450185d6bd
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813910"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538044"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>'รูปลักษณ์ใหม่' ของบริการของ Power BI
 

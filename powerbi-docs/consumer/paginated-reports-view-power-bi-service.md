@@ -3,17 +3,17 @@ title: ดูรายงานแบบแบ่งหน้าในบริ�
 description: ในบทช่วยสอนนี้ คุณจะได้เรียนรู้เกี่ยวกับการดูรายงานแบบแบ่งหน้าในบริการของ Power BI
 author: maggiesMSFT
 ms.author: maggies
-ms.reviewer: ''
+ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 12/03/2019
-ms.openlocfilehash: 5d3a281b3ab584fb46094db13c005056e167f942
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 66ca8313af6fb88c23c4aa69e77405b281ea07e3
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240189"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538113"
 ---
 # <a name="view-a-paginated-report-in-the-power-bi-service"></a>ดูรายงานแบบแบ่งหน้าในบริการของ Power BI
 
