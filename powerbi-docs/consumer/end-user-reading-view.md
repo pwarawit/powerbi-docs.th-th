@@ -4,6 +4,7 @@ description: ในการเริ่มต้นใช้งานด่ว�
 services: powerbi
 documentationcenter: ''
 author: mihart
+ms.reviewer: mihart
 editor: ''
 tags: ''
 ms.service: powerbi
@@ -13,11 +14,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/17/2020
 ms.author: mihart
-ms.openlocfilehash: 20d54e9050e1481180b3a8b58a69c7235198bef3
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 7d9d0a3f9aaea77a969f11561a22ab68fbec0264
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355156"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537262"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>เริ่มต้นใช้งานด่วน: เรียนรู้เกี่ยวกับความสามารถ Power BI สำหรับ*ผู้บริโภค*
 

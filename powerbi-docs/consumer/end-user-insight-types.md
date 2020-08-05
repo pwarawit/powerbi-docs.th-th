@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f2b526db1dd60c971d87475a09b12db97ec61f69
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 44b66c2c8245b7f9629ad36879e6f13a5e720687
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263865"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537768"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>ชนิดของข้อมูลเชิงลึกด่วนที่ได้รับการสนับสนุนโดย Power BI
 
