@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9d20f9aa5311d8ee96246ab8b3ed832330742973
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dcdd663ec9899f7623789915754087c4643c9806
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223920"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411991"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 
@@ -73,7 +73,7 @@ ms.locfileid: "85223920"
 * ฐานข้อมูล Access
 * ฐานข้อมูล SQL Server Analysis Services
 * ฐานข้อมูล Oracle
-* ฐานข้อมูล IBM DB2
+* ฐานข้อมูล IBM Db2
 * ฐานข้อมูล IBM Informix
 * IBM Netezza
 * ฐานข้อมูล MySQL
@@ -116,7 +116,7 @@ ms.locfileid: "85223920"
 * ชุดข้อมูล Power BI
 * กระแสข้อมูล Power BI
 * Common Data Service
-* กระแสข้อมูล Power Platform
+* กระแสข้อมูล Power Platform (เบต้า)
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ **Power Platform**
 
@@ -133,6 +133,7 @@ ms.locfileid: "85223920"
 * พื้นที่เก็บข้อมูล Azure Blob
 * พื้นที่เก็บข้อมูล Azure Table
 * Azure Cosmos DB
+* Azure Data Explorer (Kusto)
 * Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
@@ -171,21 +172,19 @@ ms.locfileid: "85223920"
 * Marketo (เบต้า)
 * Mixpanel (เบต้า)
 * Planview Enterprise One - PRM (เบต้า)
-* Planview Projectplace (เบต้า)
 * QuickBooks Online (เบต้า)
 * Smartsheet
 * SparkPost (เบต้า)
 * SweetIQ (เบต้า)
 * Planview Enterprise One - CTM (เบต้า)
 * Twilio (เบต้า)
-* tyGraph (เบต้า)
-* Webtrends (เบต้า)
 * Zendesk (เบต้า)
 * Asana (Beta)
 * Dynamics 365 Customer Insights (Beta)
 * แหล่งข้อมูล Emigo
 * Entersoft Business Suite (เบต้า)
-* การวิเคราะห์ FactSet (เบต้า)
+* การวิเคราะห์ FactSet
+* กระบวนการหลอม Palantir
 * Industrial App Store
 * คลังข้อมูล Intune (เบต้า)
 * การรักษาความปลอดภัยของ Microsoft Graph
@@ -218,7 +217,10 @@ ms.locfileid: "85223920"
 * สคริปต์ Python
 * ODBC
 * OLE DB
+* Acterys : การวางแผน & แบบจำลองอัตโนมัติ (เบต้า)
+* ระบบอัตโนมัติที่ใดก็ได้ (เบต้า)
 * Solver
+* Cherwell (เบต้า)
 * การรวมข้อมูล Cognite (เบต้า)
 * FHIR
 * เส้นตารางข้อมูล (เบต้า)
@@ -233,6 +235,7 @@ ms.locfileid: "85223920"
 * รายการ Tenforce (สมาร์ท)
 * TIBCO(R) Data Virtualization (เบต้า)
 * Vena (เบต้า)
+* ข้อมูลเชิงลึก Vessel (เบต้า)
 * Workforce Dimensions (เบต้า)
 * Zucchetti HR Infinity (เบต้า)
 * คิวรีที่ว่างเปล่า

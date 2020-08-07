@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: fd3b50e9016298db8b692d6a2f3549b770f143e8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 21a4075861bfa37407ef8ffc73e2beabe50ff095
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700673"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537561"
 ---
 # <a name="dax-use-countrows-instead-of-count"></a>DAX: ใช้ COUNTROWS แทน COUNT
 
@@ -52,4 +52,6 @@ COUNTROWS(Sales)
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
 - [ข้อมูลอ้างอิงเกี่ยวกับ Data Analysis Expressions (DAX)](/dax/)
+- เส้นทางการเรียนรู้: [ใช้ DAX ใน Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+- มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com)

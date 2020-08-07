@@ -9,19 +9,28 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 68459deb29c59af3b9e2b185d54cf4e523d555d8
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252578"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478026"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>ฝังเนื้อหา Power BI ใน Microsoft Teams
 
 คุณสามารถฝังรายงาน Power BI แบบโต้ตอบในช่องทางการสื่อสารและการสนทนาของ Microsoft Teams ได้อย่างง่ายดาย 
 
-ดู[การทำงานร่วมกันใน Microsoft Teams ด้วย Power BI](service-embed-report-microsoft-teams.md) สำหรับพื้นหลังเกี่ยวกับวิธีที่ระบบ Power Bi และ Teams ทำงานร่วมกัน รวมถึงข้อกำหนดต่าง ๆ ที่คุณต้องปฏิบัติตามด้วย
+## <a name="requirements"></a>ข้อกำหนด
+
+หากต้องการใช้แท็บ **Power BI** ใน Microsoft Teams ให้ตรวจสอบองค์ประกอบต่าง ๆ เหล่านี้:
+
+- Microsoft Teams มีแท็บ **Power BI**
+- หากต้องการเพิ่มรายงานใน Microsoft Teams ด้วยแท็บ **Power BI** อย่างน้อยคุณต้องมีบทบาทผู้ชมในพื้นที่ทำงานที่โฮสต์รายงาน ดู[บทบาทในพื้นที่ทำงานใหม่](service-new-workspaces.md#roles-in-the-new-workspaces)สำหรับข้อมูลเกี่ยวกับบทบาทที่แตกต่างกัน
+- หากต้องการดูรายงานในแท็บ **Power BI** ใน Microsoft Teams ผู้ใช้ต้องมีสิทธิ์ในการดูรายงาน
+- ผู้ใช้จะต้องเป็นผู้ใช้  Microsoft Teams ที่มีสิทธิ์เข้าถึงช่องและการสนทนา
+
+ดู[การทำงานร่วมกันใน Microsoft Teams ด้วย Power BI](service-embed-report-microsoft-teams.md) สำหรับเบื้องหลังเกี่ยวกับวิธีที่ระบบ Power Bi และ Teams ทำงานร่วมกัน รวมถึงข้อกำหนดต่าง ๆ ด้วย
 
 ## <a name="embed-a-report-in-teams"></a>ฝังรายงานใน Teams
 

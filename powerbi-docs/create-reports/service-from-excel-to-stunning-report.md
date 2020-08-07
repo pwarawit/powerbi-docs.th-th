@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 07/23/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: f901dcad1743383b85db3935ede8fddf8a4ed492
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87251796"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478141"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>บทช่วยสอน: จากสมุดงาน Excel ไปยังรายงานในบริการของ Power BI และต่อไปยัง Microsoft Teams
 ผู้จัดการของคุณต้องการดูรายงานเกี่ยวกับยอดขายล่าสุดและตัวเลขกำไรของคุณภายในเย็นวันนี้ แต่ข้อมูลล่าสุดอยู่ในระบบต่าง ๆ ของบุคคลที่สามและไฟล์ในแล็ปท็อปของคุณ ในอดีตต้องใช้เวลาหลายชั่วโมงในการสร้างภาพและจัดรูปแบบรายงาน และคุณเริ่มที่จะรู้สึกกังวล
@@ -204,8 +204,6 @@ ms.locfileid: "87251796"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-* [เริ่มต้นใช้งาน Power BI service](../fundamentals/service-get-started.md)
-* [เริ่มต้นใช้งาน Power BI Desktop](../fundamentals/desktop-getting-started.md)
-* [แนวคิดพื้นฐานสำหรับนักออกแบบในบริการ Power BI](../fundamentals/service-basic-concepts.md)
+* ในตอนนี้คุณได้สร้างรายงานพื้นฐานในบริการของ Power BI แล้ววิธีการสร้างรายงานใน Power BI Desktop ล่ะ? ลองใช้บทช่วยสอน [จากเวิร์กบุ๊ก Excel ไปสู่รายงานอันน่าทึ่งใน Power BI Desktop](desktop-excel-stunning-report.md)
 
 มีคำถามเพิ่มเติมหรือไม่ [ลองไปที่ชุมชน Power BI](https://community.powerbi.com/)

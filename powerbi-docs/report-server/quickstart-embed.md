@@ -3,17 +3,17 @@ title: ฝังรายงานเซิร์ฟเวอร์รายง�
 description: บทความนี้แสดงวิธีการฝังรายงานเซิร์ฟเวอร์รายงาน Power BI ใน iFrame ใน SharePoint Server
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 08/12/2019
+ms.date: 07/28/2020
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 4e7616ec3ce6552130848bc0508bf8b9ac8ac965
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4f6382b78a02750c76987de4fa911eb8c7d33b50
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762611"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87412014"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>ฝังรายงานเซิร์ฟเวอร์รายงาน Power BI โดยใช้ iFrame ใน SharePoint Server
 
@@ -24,7 +24,7 @@ ms.locfileid: "75762611"
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 * ติดตั้งและกำหนดค่า [เซิร์ฟเวอร์รายงาน Power BI](https://powerbi.microsoft.com/report-server/) แล้ว
 * ติดตั้ง [Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงาน Power BI](install-powerbi-desktop.md) แล้ว
-* ติดตั้งและกำหนดค่า [SharePoint](https://docs.microsoft.com/sharepoint/install/install) แล้ว
+* ติดตั้งและกำหนดค่า [สภาพแวดล้อม SharePoint 2013 2016 หรือ 2019](https://docs.microsoft.com/sharepoint/install/install) แล้ว
 * สามารถรองรับ Internet Explorer 11 ได้เฉพาะเมื่อมีการตั้งค่าโหมดเอกสารเป็นโหมด IE11 (Microsoft Edge) หรือเมื่อใช้ SharePoint Online คุณอาจใช้เบราว์เซอร์อื่นๆ ที่รองรับกับ SharePoint ภายในองค์กรและ SharePoint Online
 
 ## <a name="create-the-power-bi-report-url"></a>สร้าง URL ของรายงาน Power BI

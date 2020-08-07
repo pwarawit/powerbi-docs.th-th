@@ -6,24 +6,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/24/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e39d2fe11a58691b259784c292fec6e5ee6cb322
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254220"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478095"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>ตั้งค่าตารางที่แนะนำใน Power BI Desktop (ตัวอย่าง)
 
 ในแกลเลอรีชนิดข้อมูลใน Excel ผู้ใช้ของคุณสามารถค้นหาข้อมูลจาก*ตารางที่แนะนำ*ในชุดข้อมูล Power BI ของคุณได้ ในบทความนี้ คุณจะได้เรียนรู้วิธีการตั้งค่าตารางเป็นตาราง*ที่แนะนำ*ในชุดข้อมูลของคุณ แท็กเหล่านี้ช่วยให้ผู้ใช้ของคุณสามารถเพิ่มข้อมูลระดับองค์กรไปยังแผ่นงาน Excel ได้ง่ายขึ้น ต่อไปนี้เป็นขั้นตอนพื้นฐานสำหรับการตั้งค่าและการแชร์ตารางที่แนะนำ
 
-1. คุณ[เลื่อนระดับหรือรับรองชุดข้อมูลใน Power BI](../connect-data/service-datasets-promote.md) 
 1. คุณระบุตารางที่แนะนำในชุดข้อมูลของคุณใน Power BI Desktop (บทความนี้)
 1. คุณบันทึกชุดข้อมูลเหล่านั้นด้วยตารางที่แนะนำให้เป็นหนึ่งในพื้นที่ทำงานใหม่ ผู้สร้างรายงานสามารถจัดทำรายงานซึ่งมีตารางที่แนะนำเหล่านั้นได้ 
 1. ส่วนที่เหลือขององค์กรสามารถเชื่อมต่อกับตารางที่แนะนำเหล่านั้น โดยอ้างอิงเป็น*ชนิดข้อมูล*ใน Excel สำหรับข้อมูลที่เกี่ยวข้องและสามารถรีเฟรชได้ บทความเรื่อง[เข้าถึงตารางที่แนะนำของ Power BI ใน Excel (ตัวอย่าง)](service-excel-featured-tables.md) อธิบายการใช้ตารางที่แนะนำเหล่านี้ใน Excel
+
+> [!NOTE]
+> คุณสามารถ[เลื่อนระดับหรือรับรองชุดข้อมูลใน Power BI](../connect-data/service-datasets-promote.md) ซึ่งเรียกว่า *การรับรองความถูกต้อง* ตารางการจัดลำดับ Excel ในชุดข้อมูลที่ได้รับรองในแกลเลอรีชนิดข้อมูล Excel แสดงรายการตารางที่แนะนำในชุดข้อมูลที่ได้รับการรับรองก่อน จากนั้นเป็นตารางในชุดข้อมูลที่ได้รับเลื่อนระดับ Excel แสดงรายการตารางที่แนะนำในชุดข้อมูลที่ไม่ได้รับการรับรองหลังจากนั้น 
 
 ## <a name="turn-on-the-featured-table-preview"></a>เปิดใช้งานตัวอย่างตารางที่แนะนำ
 
@@ -31,6 +33,8 @@ ms.locfileid: "87254220"
 2. เลือกกล่องกาเครื่องหมาย **ตารางที่แนะนำ**
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="ดูตัวอย่างตัวเลือกตารางที่แนะนำ":::
+
+3. รีสตาร์ต Power BI Desktop
 
 ## <a name="select-a-table"></a>เลือกตาราง
 

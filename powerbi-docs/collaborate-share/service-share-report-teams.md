@@ -9,19 +9,25 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 6305a41188c4416b62d5432823bb30946e5e524d
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 0152f835f130eaea12addee1cc8daa15975d7aa1
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254087"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478072"
 ---
 # <a name="share-directly-to-teams-from-the-power-bi-service"></a>แชร์โดยตรงจากบริการของ Power BI ไปยัง Teams
 
 คุณสามารถแชร์แดชบอร์ด รายงาน และวิชวล Power BI จากบริการของ Power BI ไปยัง Microsoft Teams ได้โดยตรง ใช้คุณลักษณะ**แชร์ไปยัง Teams** เพื่อเริ่มการสนทนาอย่างรวดเร็วเมื่อคุณดูรายงานและแดชบอร์ดในบริการของ Power BI
 
-ดู[การทำงานร่วมกันใน Microsoft Teams ด้วย Power BI](service-collaborate-microsoft-teams.md) สำหรับพื้นหลังเกี่ยวกับวิธีที่ระบบ Power Bi และ Teams ทำงานร่วมกัน รวมถึงข้อกำหนดต่าง ๆ ที่คุณต้องปฏิบัติตามด้วย
+## <a name="requirements"></a>ข้อกำหนด
+
+หากต้องการใช้ฟังก์ชัน**แชร์ไปยัง Teams** ใน Power BI ให้ตรวจสอบการตั้งค่านี้:
+
+- ผู้ดูแลระบบ Power BI ยังไม่ได้ปิดใช้งาน **แชร์ไปยัง Teams** ในการตั้งค่าผู้เช่าในพอร์ทัลผู้ดูแลระบบ Power BI การตั้งค่านี้อนุญาตให้องค์กรซ่อนปุ่ม**แชร์ไปยัง Teams** ได้ ดูรายละเอียดที่บทความ[พอร์ทัลผู้ดูแลระบบ Power BI](../admin/service-admin-portal.md#share-to-teams-tenant-setting)
+
+ดู[การทำงานร่วมกันใน Microsoft Teams ด้วย Power BI](service-collaborate-microsoft-teams.md) สำหรับเบื้องหลังเกี่ยวกับวิธีที่ระบบ Power Bi และ Teams ทำงานร่วมกัน รวมถึงข้อกำหนดต่าง ๆ ด้วย
 
 ## <a name="share-power-bi-content-to-teams"></a>แชร์เนื้อหา Power BI ไปยัง Teams
 

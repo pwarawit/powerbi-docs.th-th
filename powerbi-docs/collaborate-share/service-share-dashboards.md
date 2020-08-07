@@ -10,11 +10,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d09ebee0cc22c7037db437e1c7a46a3d19ff36fd
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 68d6a399a5ecccf07aaa71f74b18fd4ddd6082f5
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485608"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768529"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>แชร์แดชบอร์ด Power BI และรายงานกับเพื่อนร่วมงานและคนอื่นๆ
 *การแชร์*เป็นวิธีที่ง่ายที่สุดในการให้ผู้ใช้สามารถเข้าถึงแดชบอร์ดและรายงานของคุณในบริการของ Power BI ได้ คุณสามารถแชร์กับบุคคลภายในหรือภายนอกองค์กรของคุณได้
@@ -33,7 +34,7 @@ ms.locfileid: "85485608"
 
 ## <a name="share-a-dashboard-or-report"></a>แชร์แดชบอร์ดหรือรายงาน
 
-1. ในรายการของแดชบอร์ดหรือรายงาน หรือในแดชบอร์ดหรือรายงานที่เปิด ให้เลือก**แชร์** ![ไอคอนแชร์](media/service-share-dashboards/power-bi-share-icon.png)
+1. ในรายการของแดชบอร์ดหรือรายงาน หรือในแดชบอร์ดหรือรายงานที่เปิด ให้เลือก**แชร์**:::image type="icon" source="../media/power-bi-share-icon.png" border="false":::
 
 2. ในกล่องทางด้านบน ใส่อยู่อีเมลแบบเต็มสำหรับแต่ละบุคคล กลุ่มการแจกจ่ายหรือกลุ่มความปลอดภัย คุณไม่สามารถใช้ร่วมกับรายการการแจกแจงแบบไดนามิก 
    
@@ -66,7 +67,7 @@ ms.locfileid: "85485608"
 ## <a name="see-who-has-access-to-a-dashboard-or-report"></a>ดูว่าใครสามารถเข้าถึงแดชบอร์ดหรือรายงานที่คุณแชร์ได้บ้าง
 ในบางครั้งคุณจำเป็นต้องดูบุคคลที่คุณได้แชร์ และดูว่าพวกเขาได้แชร์กับใครบ้าง
 
-1. ในรายการของแดชบอร์ดหรือรายงาน หรือในแดชบอร์ดหรือรายงานที่เปิด ให้เลือก**แชร์** ![ไอคอนแชร์](media/service-share-dashboards/power-bi-share-icon.png) 
+1. ในรายการของแดชบอร์ดและรายงาน หรือในแดชบอร์ดหรือรายงานเอง ให้เลือก**แชร์** :::image type="icon" source="../media/power-bi-share-icon.png" border="false"::: 
 2. ในกล่องโต้ตอบ **แชร์แดชบอร์ด** หรือ **รายงาน** ให้เลือก **เข้าถึง**
    
     ![แชร์กล่องโต้ตอบแดชบอร์ด แท็บการเข้าถึง](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -109,7 +110,7 @@ ms.locfileid: "85485608"
 * ยกเลิกการทำเครื่องหมาย**อนุญาตให้ผู้รับแชร์แดชบอร์ด (หรือรายงาน)** ที่ด้านล่างของคำเชิญก่อนที่จะส่ง
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>ถ้าคุณเคยแชร์แดชบอร์ดหรือรายงาน
-1. ในรายการของแดชบอร์ดหรือรายงาน หรือในแดชบอร์ดหรือรายงานที่เปิด ให้เลือก**แชร์** ![ไอคอนแชร์](media/service-share-dashboards/power-bi-share-icon.png) 
+1. ในรายการของแดชบอร์ดและรายงาน หรือในแดชบอร์ดหรือรายงานเอง ให้เลือก**แชร์** :::image type="icon" source="../media/power-bi-share-icon.png" border="false"::: 
 2. ในกล่องโต้ตอบ **แชร์แดชบอร์ด** หรือ **รายงาน** ให้เลือก **เข้าถึง**
    
     ![แชร์กล่องโต้ตอบแดชบอร์ด แท็บการเข้าถึง](media/service-share-dashboards/power-bi-share-dialog-access.png)

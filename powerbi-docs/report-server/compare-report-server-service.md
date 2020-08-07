@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 07/27/2020
-ms.openlocfilehash: c91642a08642a52b333ccba14078068eaa9ba616
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/28/2020
+ms.openlocfilehash: 44cfbeb85f30e2d84dc2c693ab4837606eb899eb
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252877"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87412060"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>เปรียบเทียบเซิร์ฟเวอร์รายงาน Power BI และบริการของ Power BI
 
@@ -48,6 +48,7 @@ ms.locfileid: "87252877"
 | การสมัครสมาชิกอีเมลสำหรับรายงานที่มีการแบ่งหน้า | ใช่ | ใช่ | [สมัครใช้งานรายงานที่มีการแบ่งหน้าสำหรับตัวคุณเองและผู้อื่นในบริการของ Power BI](../consumer/paginated-reports-subscriptions.md)<br><br>[การจัดส่งอีเมลใน Reporting Services](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | การแจ้งเตือนข้อมูล | ไม่ใช่ | ใช่ | [การแจ้งเตือนข้อมูล](../create-reports/service-set-data-alerts.md)ในบริการของ Power BI
 | รักษาความปลอดภัยระดับแถว (RLS) | ใช่ | ใช่ | มีทั้งใน DirectQuery (แหล่งข้อมูล) และโหมดการนำเข้า <br><br>การรักษาความปลอดภัยระดับแถวใน[บริการของ Power BI](../admin/service-admin-rls.md) <br><br>การรักษาความปลอดภัยระดับแถว (RLS) ใน[เซิร์ฟเวอร์รายงาน Power BI](row-level-security-report-server.md) |
+| ความสัมพันธ์แบบกลุ่มต่อกลุ่ม | ไม่ใช่ | ใช่ | [ใช้ความสัมพันธ์แบบกลุ่มต่อกลุ่ม](../transform-model/desktop-many-to-many-relationships.md) ใน Power BI Desktop |
 | การดูรายละเอียดแบบเจาะลึกข้ามรายงาน | ไม่ใช่ | ใช่ | [ใช้การดูรายละเอียดแบบเจาะลึกข้ามรายงาน](../create-reports/desktop-cross-report-drill-through.md) |
 | โหมดเต็มหน้าจอ | ไม่ใช่ | ใช่ | [โหมดเต็มหน้าจอ](../consumer/end-user-focus.md)ในบริการของ Power BI |
 | การทำงานร่วมกัน Microsoft 365 ขั้นสูง | ไม่ใช่ | ใช่ | [การทำงานร่วมกันในพื้นที่ทำงาน](../collaborate-share/service-collaborate-power-bi-workspace.md)ด้วย Microsoft 365 |

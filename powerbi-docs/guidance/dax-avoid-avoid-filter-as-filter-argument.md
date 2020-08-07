@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 6abcb77e3eb534e8b5d20c1d5567c117cbb97ffe
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5120b1ec0ce1acbe746dabe2b11b5653a34a4603
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76161443"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537607"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: หลีกเลี่ยงการใช้ตัวกรองเป็นอาร์กิวเมนต์ตัวกรอง
 
@@ -103,4 +103,6 @@ CALCULATE(
 
 - [ข้อมูลอ้างอิงเกี่ยวกับ Data Analysis Expressions (DAX)](/dax/)
 - [ฟังก์ชันตัวกรอง (DAX)](/dax/filter-function-dax)
+- เส้นทางการเรียนรู้: [ใช้ DAX ใน Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
+- มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com)

@@ -9,17 +9,17 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 17a0879dac416a98d214ed11861947cb2c311487
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254219"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478049"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>ทำงานร่วมกันใน Microsoft Teams ด้วย Power BI
 
-คุณมีตัวเลือกหลายรูปแบบในการแชร์และการทำงานร่วมกันในส่วนของเนื้อหา Power Bi แบบโต้ตอบในช่องทางการสื่อสารและการสนทนาของ Microsoft Teams 
+ในขณะที่พนักงานถูกกระจายและอยู่ระยะไกลจะกลายเป็นบรรทัดฐานใหม่ มีองค์กรจำนวนมากขึ้นที่จำเป็นต้องขึ้นอยู่กับ Microsoft Teams เพื่อให้พนักงานสามารถซิงค์ข้อมูลได้ Power BI มีตัวเลือกหลายรูปแบบในการแชร์และการทำงานร่วมกันในส่วนของเนื้อหา Power Bi แบบโต้ตอบในช่องทางการสื่อสารและการสนทนาของ Microsoft Teams 
 
 - ด้วยแท็บ**Power BI**สำหรับ Microsoft Teams คุณสามารถ[ฝังรายงานแบบโต้ตอบในช่องทางการสื่อสารและการสนทนาของ Microsoft Teams ได้](service-embed-report-microsoft-teams.md) แท็บ **Power BI** ช่วยให้เพื่อนร่วมงานของคุณสามารถค้นหาข้อมูลของทีมและหารือเกี่ยวกับข้อมูลภายในช่องทางการสื่อสารสำหรับทีมของคุณ 
 - สร้าง[ตัวอย่างลิงก์](service-teams-link-preview.md) เมื่อคุณวางลิงก์ที่เชื่อมโยงไปยังรายงานของคุณ แดชบอร์ด และแอปต่าง ๆ ลงในกล่องข้อความ Microsoft Teams ตัวอย่างลิงก์แสดงข้อมูลเกี่ยวกับลิงก์ 
@@ -34,17 +34,6 @@ ms.locfileid: "87254219"
 - ผู้ใช้ของคุณสิทธิ์การใช้งาน Power BI Pro หรือรายงานที่มีอยู่ในความจุ [Power BI Premium (EM หรือ P SKU)](../admin/service-premium-what-is.md) พร้อมสิทธิ์การใช้งาน Power BI
 - ผู้ใช้ลงชื่อเข้าใช้ในบริการของ Power BI เพื่อเปิดใช้สิทธิ์การใช้งาน Power BI ของตนเองแล้ว
 - ผู้ใช้จะต้องปฏิบัติตามข้อกำหนดในการใช้งานแท็บ **Power BI** ใน Microsoft Teams
-
-หากต้องการใช้แท็บ **Power BI** ใน Microsoft Teams ให้ตรวจสอบองค์ประกอบต่าง ๆ เหล่านี้:
-
-- Microsoft Teams มีแท็บ **Power BI**
-- หากต้องการเพิ่มรายงานใน Microsoft Teams ด้วยแท็บ **Power BI** อย่างน้อยคุณต้องมีบทบาทผู้ชมในพื้นที่ทำงานที่โฮสต์รายงาน ดู[บทบาทในพื้นที่ทำงานใหม่](service-new-workspaces.md#roles-in-the-new-workspaces)สำหรับข้อมูลเกี่ยวกับบทบาทที่แตกต่างกัน
-- หากต้องการดูรายงานในแท็บ **Power BI** ใน Microsoft Teams ผู้ใช้ต้องมีสิทธิ์ในการดูรายงาน
-- ผู้ใช้จะต้องเป็นผู้ใช้  Microsoft Teams ที่มีสิทธิ์เข้าถึงช่องและการสนทนา
-
-หากต้องการใช้ฟังก์ชัน**แชร์ไปยัง Teams** ใน Power BI ให้ตรวจสอบการตั้งค่านี้:
-
-- ผู้ดูแลระบบ Power BI ยังไม่ได้ปิดใช้งาน **แชร์ไปยัง Teams** ในการตั้งค่าผู้เช่าในพอร์ทัลผู้ดูแลระบบ Power BI การตั้งค่านี้อนุญาตให้องค์กรซ่อนปุ่ม**แชร์ไปยัง Teams** ได้ ดูรายละเอียดที่บทความ[พอร์ทัลผู้ดูแลระบบ Power BI](../admin/service-admin-portal.md#share-to-teams-tenant-setting)
 
 ## <a name="grant-access-to-reports"></a>อนุญาตการเข้าถึงรายงาน
 

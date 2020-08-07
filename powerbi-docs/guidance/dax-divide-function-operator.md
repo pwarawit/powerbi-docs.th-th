@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b792c7d9f6200544188e9f9fe711cd1394e8b921
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c3733f98c278895102165e9d2db52f0e9318903
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279583"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537538"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: ฟังก์ชันการแบ่งเทียบกับตัวดำเนินการหาร (/)
 
@@ -65,5 +65,6 @@ DIVIDE([Profit], [Sales])
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับบทความนี้ โปรดดูทรัพยากรต่อไปนี้:
 
 - [ข้อมูลอ้างอิงเกี่ยวกับ Data Analysis Expressions (DAX)](/dax/)
+- เส้นทางการเรียนรู้: [ใช้ DAX ใน Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - มีคำถามหรือไม่ [ลองถามชุมชน Power BI](https://community.powerbi.com/)
-
+- มีข้อเสนอแนะไหม [สนับสนุนแนวคิดในการปรับปรุง Power BI](https://ideas.powerbi.com)
