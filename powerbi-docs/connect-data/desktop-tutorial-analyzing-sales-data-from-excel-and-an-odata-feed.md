@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: bf4a4ba9c816aaca19e04d0061df7316ffcc7a2b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2ef73377728703926ac6bc51f847a54451e1321e
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83287314"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878724"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>บทช่วยสอน: วิเคราะห์ข้อมูลยอดขายจาก Excel และตัวดึงข้อมูล OData
 
@@ -273,6 +273,6 @@ Power BI Desktop ไม่จำเป็นต้องเรียกร้อ
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
 * [อ่านบทช่วยสอนอื่น ๆ ของ Power BI Desktop](/power-bi/guided-learning/)
-* [ดูวิดีโอ Power BI Desktop](/power-bi/desktop-videos)
+* [ดูวิดีโอ Power BI Desktop](/power-bi/fundamentals/desktop-videos)
 * [เยี่ยมชมกระดานสนทนา Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [อ่านบล็อก Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)

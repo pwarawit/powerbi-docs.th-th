@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: aed09a9cd26452a03363e8606e45938715595558
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f752544b48a8ba2fdce703475749e1a731089e7d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161687"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878427"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>การจัดการ Power BI - คำถามที่ถามบ่อย (FAQ)
 
@@ -55,7 +55,7 @@ ms.locfileid: "86161687"
 
 ### <a name="using-powershell"></a>ใช้ PowerShell
 
-บางขั้นตอนในส่วนนี้จำเป็นต้องมีสคริปต์ Windows PowerShell หากคุณไม่คุ้นเคยกับ PowerShell เราขอแนะนำ [คู่มือเริ่มต้นใช้งาน PowerShell](https://go.microsoft.com/fwlink/p/?LinkID=286814) หากต้องการเรียกใช้สคริปต์ ก่อนอื่นให้ติดตั้งเวอร์ชัน 64 บิตล่าสุดของ [Azure Active Directory PowerShell สำหรับกราฟ](/powershell/azure/active-directory/)
+บางขั้นตอนในส่วนนี้จำเป็นต้องมีสคริปต์ Windows PowerShell หากคุณไม่คุ้นเคยกับ PowerShell เราขอแนะนำ [คู่มือเริ่มต้นใช้งาน PowerShell](https://go.microsoft.com/fwlink/p/?LinkID=286814) หากต้องการเรียกใช้สคริปต์ ก่อนอื่นให้ติดตั้งเวอร์ชัน 64 บิตล่าสุดของ [Azure Active Directory PowerShell สำหรับกราฟ](/powershell/azure/active-directory/overview)
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>ผู้ใช้จะลงทะเบียนสำหรับ Power BI ได้อย่างไร?
 

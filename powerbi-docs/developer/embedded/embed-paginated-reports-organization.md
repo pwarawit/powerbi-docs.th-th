@@ -9,11 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 2c27ccdc2e8703e532a105d0b833bcd5164d245e
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 1c348cbf74e6bc2999383bc5a5c031576a293ac2
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782841"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878740"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>บทช่วยสอน: ฝังรายงานที่มีการแบ่งหน้าของ Power BI ในแอปพลิเคชันสำหรับองค์กรของคุณ
 
@@ -184,7 +185,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport -Name "Sal
 
 สำหรับการฝังกับผู้เช่าขององค์กรของคุณ กรุณาใช้ URL - *https://login.microsoftonline.com/common/oauth2/authorize*
 
-สำหรับการฝังกับผู้เยี่ยมชม กรุณาใช้ URL - *https://login.microsoftonline.com/report-owner-tenant-id* - ที่ซึ่งคุณเพิ่มรหัสผู้เช่าของเจ้าของรายงานในการแทนที่ของ*report-owner-tenant-id*
+สำหรับการฝังกับผู้เยี่ยมชม กรุณาใช้ URL - *`https://login.microsoftonline.com/report-owner-tenant-id`* - ที่ซึ่งคุณเพิ่มรหัสผู้เช่าของเจ้าของรายงานในการแทนที่ของ*report-owner-tenant-id*
 
 ### <a name="run-the-application"></a>เรียกใช้แอปพลิเคชัน
 

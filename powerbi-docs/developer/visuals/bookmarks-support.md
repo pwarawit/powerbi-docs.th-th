@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: aed8317c36cdd118b03bff2db93788f493ac9ad2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380536"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878586"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>เพิ่มการรองรับบุ๊กมาร์กสำหรับวิชวล Power BI
 
@@ -49,9 +49,9 @@ ms.locfileid: "79380536"
 
 ถ้าวิชวลของคุณโต้ตอบกับวิชวลอื่นโดยใช้[ตัวเลือก](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md) คุณสามารถเพิ่มบุ๊กมาร์กอย่างใดอย่างหนึ่งในสองวิธี:
 
-* ถ้าวิชวลไม่ได้ใช้ [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) คุณสามารถใช้เมธอด `FilterManager.restoreSelectionIds`
+* ถ้าวิชวลไม่ได้ใช้ [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts) คุณสามารถใช้เมธอด `FilterManager.restoreSelectionIds`
 
-* ถ้าวิชวลนั้นใช้ [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) เพื่อจัดการตัวเลือกเรียบร้อยแล้ว คุณควรใช้เมธอด `applySelectionFromFilter` ในอินสแตนซ์ของ `InteractivityService`
+* ถ้าวิชวลนั้นใช้ [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts) เพื่อจัดการตัวเลือกเรียบร้อยแล้ว คุณควรใช้เมธอด `applySelectionFromFilter` ในอินสแตนซ์ของ `InteractivityService`
 
 #### <a name="use-iselectionmanagerregisteronselectcallback"></a>ใช้ ISelectionManager.registerOnSelectCallback
 

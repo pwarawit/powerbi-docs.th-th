@@ -8,11 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 3cf415cbd14da28d523a042fdf4099fe464a4a8b
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: 95d2cec8cf731c403e204beeb6c013c2cfe0ce1d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739195"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878573"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>บันทึกการเปลี่ยนแปลง API ของวิชวล Power BI
 หน้านี้ประกอบด้วยข้อมูลสรุปสั้นๆ ของเวอร์ชัน  API เวอร์ชันที่แสดงที่นี่ถือว่าเป็นเวอร์ชันที่เสถียรและจะไม่มีการเปลี่ยนแปลง
@@ -90,7 +91,7 @@ ms.locfileid: "84739195"
 
 ## <a name="api-v162"></a>API  v1.6.2
 * รองรับ **[โหมดแก้ไข](./advanced-edit-mode.md)** สำหรับวิชวลเพื่อเข้าสู่โหมดแก้ไขในวิชวล
-* รองรับ **[วิชวล R Power BI แบบโต้ตอบ (html)](https://microsoft.github.io/PowerBI-visuals/tutorials/building-r-powered-custom-visual/creating-r-visuals.md)** โดยอ้างอิงตาม html
+* รองรับ **[วิชวล R Power BI แบบโต้ตอบ (html)](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** โดยอ้างอิงตาม html
 
 ## <a name="api-v150"></a>API v1.5.0
 * รองรับ **[อนุญาตให้มีการโต้ตอบ](./visuals-interactions.md)** สำหรับความสามารถในการโต้ตอบของวิชวล
@@ -104,7 +105,7 @@ ms.locfileid: "84739195"
 ## <a name="api-v120"></a>API v1.2.0
 * เพิ่ม **colorPalette** เพื่อจัดการสีที่ใช้ในวิชวลของคุณ
 * รองรับ **การเลือกหลายรายการ** - selectionManager สามารถยอมรับอาร์เรย์ของ `SelectionId`
-* รองรับ **[วิชวล R](https://microsoft.github.io/PowerBI-visuals/tutorials/building-r-powered-custom-visual/creating-r-visuals.md)** โดยใช้สคริปต์ R
+* รองรับ **[วิชวล R](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** โดยใช้สคริปต์ R
 
 ## <a name="api-v110"></a>API v1.1.0
 * รองรับการแก้จุดบกพร่องของวิชวลใน iFrame

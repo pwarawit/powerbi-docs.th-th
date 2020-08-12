@@ -8,11 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354489"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878701"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>บทช่วยสอน: สร้างแผนภูมิกรวยจากสคริปต์ R ไปยังวิชวล R
 บทความนี้จะอธิบายวิธีสร้างแผนภูมิกรวยโดยใช้สคริปต์ R ในวิชวล R เป็นขั้นเป็นตอน
@@ -74,7 +75,7 @@ ms.locfileid: "85354489"
 1. บรรจุวิชวลเป็นแพคเกจอีกครั้งโดยใช้คำสั่ง `pbiviz package` และลองนำเข้าไปยัง Power BI
 
 > [!NOTE]
-> ดู [PBIX](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3-RCustomVisual/funnelPlot_RCustomVisual.pbix) และ [โค้ดต้นฉบับ](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/) สำหรับการดาวน์โหลด
+> ดู [PBIX](https://github.com/microsoft/PowerBI-visuals/blob/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) และ [โค้ดต้นฉบับ](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/) สำหรับการดาวน์โหลด
 
 ## <a name="make-r-based-visual-improvements"></a>สร้างการปรับปรุงวิชวลแบบใช้ R
 
@@ -273,7 +274,7 @@ ms.locfileid: "85354489"
 
 * แต่ละวิชวล R จะใช้ตัวดำเนินการ `unique` กับตารางข้อมูลอินพุต หากต้องการหลีกเลี่ยงการลบแถวที่เหมือนกัน ให้พิจารณาเพิ่มเขตข้อมูลอินพุตพิเศษด้วย ID ที่ไม่ซ้ำกันและละเว้นในโค้ด R   
 
-* ถ้าคุณมีบัญชี Power BI ให้ใช้บริการ Power BI เพื่อพัฒนาวิชวล [on-the-fly](/PowerBI-visuals/docs/step-by-step-lab/creating-a-custom-visual/#testing-the-custom-visual) แทนที่จะบรรจุเป็นแพคเกจอีกครั้งด้วยคำสั่ง `pbiviz package`
+* ถ้าคุณมีบัญชี Power BI ให้ใช้บริการ Power BI เพื่อพัฒนาวิชวล [on-the-fly](/power-bi/developer/visuals/custom-visual-develop-tutorial/) แทนที่จะบรรจุเป็นแพคเกจอีกครั้งด้วยคำสั่ง `pbiviz package`
 
 ### <a name="html-widgets-gallery"></a>แกลเลอรีวิดเจ็ต HTML
 สำรวจวิชวลใน[แกลเลอรีวิดเจ็ต HTML](http://gallery.htmlwidgets.org/) สำหรับการใช้งานในวิชวลถัดไปของคุณ เพื่อทำให้สิ่งต่างๆ เป็นเรื่องง่าย เราได้สร้าง [ที่เก็บโครงการของวิชวล](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) พร้อมวิชวล HTML แบบโต้ตอบมากกว่า 20 รายการให้เลือก!

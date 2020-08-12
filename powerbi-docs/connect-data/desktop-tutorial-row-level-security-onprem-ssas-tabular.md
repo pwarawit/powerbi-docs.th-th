@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 972241228ca9fc669289d3c0efa0a357094f6f67
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4426960cefc23111740d0e930f7a9704e18f8bb6
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286371"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878301"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>ใช้การรักษาความปลอดภัยระดับแถวในแบบจำลองตาราง Analysis Services
 
@@ -64,7 +64,7 @@ ms.locfileid: "83286371"
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>งานที่ 2: สร้างแบบจำลองตารางด้วยตารางข้อเท็จจริงและมิติข้อมูล
 
-เมื่อคลังข้อมูลเชิงสัมพันธ์ของคุณเสร็จเรียบร้อยแล้ว คุณจะต้องกำหนดแบบจำลองตารางของคุณ คุณสามารถสร้างแบบจำลองได้โดยใช้ [SQL Server Data Tools](/sql/ssdt/sql-server-data-tools) (SSDT) สำหรับข้อมูลเพิ่มเติม โปรดดูที่[สร้างโครงการแบบจำลองตารางใหม่](/sql/analysis-services/lesson-1-create-a-new-tabular-model-project)
+เมื่อคลังข้อมูลเชิงสัมพันธ์ของคุณเสร็จเรียบร้อยแล้ว คุณจะต้องกำหนดแบบจำลองตารางของคุณ คุณสามารถสร้างแบบจำลองได้โดยใช้ [SQL Server Data Tools](/sql/ssdt/sql-server-data-tools) (SSDT) สำหรับข้อมูลเพิ่มเติม โปรดดูที่[สร้างโครงการแบบจำลองตารางใหม่](/analysis-services/tutorial-tabular-1400/as-lesson-1-create-a-new-tabular-model-project)
 
 1. นำเข้าตารางที่จำเป็นทั้งหมดลงในแบบจำลอง ดังที่แสดงด้านล่าง
 
@@ -101,7 +101,7 @@ ms.locfileid: "83286371"
 
     สูตรนี้ระบุว่า คอลัมน์ทั้งหมดจะแก้ไข `false` ซึ่งหมายความว่าคอลัมน์ตาราง `DimUserSecurity` ไม่สามารถสอบถามได้
 
-ตอนนี้ คุณจะต้องประมวลผลและปรับใช้แบบจำลอง สำหรับข้อมูลเพิ่มเติม ดูที่ [ปรับใช้](/sql/analysis-services/lesson-13-deploy)
+ตอนนี้ คุณจะต้องประมวลผลและปรับใช้แบบจำลอง สำหรับข้อมูลเพิ่มเติม ดูที่ [ปรับใช้](/analysis-services/tutorial-tabular-1200/lesson-13-deploy)
 
 ## <a name="task-3-add-data-sources-within-your-on-premises-data-gateway"></a>งานที่ 3: เพิ่มแหล่งข้อมูลภายในเกตเวย์ข้อมูลในองค์กรของคุณ
 
@@ -164,9 +164,9 @@ ms.locfileid: "83286371"
 งานนี้อนุมานว่าคุณคุ้นเคยกับ [SQL Server Profiler](/sql/tools/sql-server-profiler/sql-server-profiler) เนื่องจากคุณจำเป็นต้องจับภาพการติดตาม SQL Server profiler ในอินสแตนซ์ตารางแบบ SSAS ในองค์กรของคุณ
 
 เซสชันได้รับการเตรียมใช้งานทันทีที่ผู้ใช้ ซึ่งได้แก่ ริต้า เข้าถึงแดชบอร์ดในบริการของ Power BI คุณสามารถพบว่า บทบาท **salesterritoryusers** มีผลทันที โดยชื่อผู้ใช้ที่มีประสิทธิภาพมีฐานะเป็น **<EffectiveUserName>rita@contoso.com</EffectiveUserName>**
-
+```
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>rita@contoso.com</EffectiveUserName></PropertyList>
-
+```
 ตามคำขอชื่อผู้ใช้ที่มีประสิทธิภาพ Analysis Services จะแปลงคำขอเป็นข้อมูลประจำตัว `contoso\rita` จริงหลังจากคิวรี Active Directory ในเครื่อง เมื่อ Analysis Services ได้รับข้อมูลประจำตัว Analysis Services จะส่งกลับข้อมูลที่ผู้ใช้มีสิทธิ์ในการดูและเข้าถึง
 
 หากมีกิจกรรมอื่นๆ เกิดขึ้นกับแดชบอร์ด ด้วย SQL Profiler คุณจะเห็นคิวรีเฉพาะอย่างไปยังรูปแบบตารางข้อมูล Analysis Services ในฐานะเป็นคิวรี DAX ตัวอย่างเช่น หากริต้าไปจากแดชบอร์ดไปยังรายงานเบื้องต้น คิวรีต่อไปนี้จะเกิดขึ้น

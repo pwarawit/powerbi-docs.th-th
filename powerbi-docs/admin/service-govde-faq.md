@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: fb67243b14fc5a89de0efc6f8248aa2b37fb2bbf
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: f42ee7a0b3b1aaf562e3ab087ad9c07501707afc
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034094"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878385"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>ถามที่ถามบ่อยสำหรับ Power BI สำหรับลูกค้าระบบคลาวด์ประเทศเยอรมนี
 **บริการ Power BI**มีเวอร์ชันที่พร้อมใช้งานสำหรับลูกค้าสหภาพยุโรป/ข้อตกลงการค้าเสรียุโรป/ยุโรป (EU/EFTA) มักจะอ้างอิงถึงเป็น Deutschland Microsoft Cloud (MCD) **บริการ Power BI**ในเวอร์ชันที่อธิบายไว้ในบทความนี้เป็นบริการเฉพาะสำหรับลูกค้า EU/EFTA และแยกต่างหากออกมา รวมทั้งแตกต่างจากเวอร์ชันเชิงพาณิชย์ของ**บริการ Power BI** หรือบริการ Power BI ที่จัดหาสำหรับลูกค้าภาครัฐบาล
@@ -64,7 +64,7 @@ ms.locfileid: "86034094"
 | API บริการ |[https://api.powerbi.de/](https://api.powerbi.de/) |[https://api.powerbi.com/](https://api.powerbi.com/) |
 | พอร์ทัล Office สำหรับการจัดการสิทธิ์การใช้งานผู้ใช้ สถานะสถานภาพบริการ และการสนับสนุนคำขอโดยผู้ดูแลระบบ |[https://portal.office.de/](https://portal.office.de/) |[https://portal.office.com/](https://portal.office.com/) |
 | AAD Authority Uri |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
-| Power BI Service Resource Uri |[https://analysis.cloudapi.de/powerbi/api](https://analysis.cloudapi.de/powerbi/api) |[https://analysis.windows.net/powerbi/api](https://analysis.windows.net/powerbi/api) |
+| Power BI Service Resource Uri |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) | |
 | ไลบรารี่วิชวล Power BI |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | ลงทะเบียนแอปพลิเคชันสำหรับ Power BI (สำหรับฝัง) |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
 | พอร์ทัล Azure (สำหรับแบบฝังตัว) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |

@@ -9,17 +9,18 @@ ms.topic: conceptual
 ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a09311c5fdb1a8b2e008996d993015f33ee9b5f
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: b1204b28ae5239bf4080472129b0862862446e5d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739264"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878467"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>การใช้เมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้ว (ตัวอย่าง)
 
 เมื่อ Power BI Desktop สร้างรายงาน จะมีการสร้างเมตาดาต้าชุดข้อมูลในไฟล์ PBIX และ PBIT ที่เกี่ยวข้องกันด้วย ก่อนหน้านี้ มีการจัดเก็บเมตาดาต้าในรูปแบบที่เฉพาะเจาะจงไปยัง Power BI Desktop ใช้นิพจน์ M และแหล่งข้อมูลที่เข้ารหัส 64 และสมมติฐานที่ทำเกี่ยวกับวิธีการจัดเก็บเมตาดาต้า
 
-ด้วยการเผยแพร่คุณลักษณะ**เมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้ว** ข้อจำกัดมากมายเหล่านี้จึงถูกกำจัดออกไป ด้วยการเปิดใช้งานคุณลักษณะ**เมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้ว** เมตาดาต้าที่สร้างโดย Power BI Desktop จะใช้รูปแบบที่คล้ายคลึงกับรูปแบบที่ใช้สำหรับแบบจำลองตาราง Analysis Services โดยยึดตาม[แบบจำลองออบเจ็กต์ตาราง](https://docs.microsoft.com/bi-reference/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo)
+ด้วยการเผยแพร่คุณลักษณะ**เมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้ว** ข้อจำกัดมากมายเหล่านี้จึงถูกกำจัดออกไป ด้วยการเปิดใช้งานคุณลักษณะ**เมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้ว** เมตาดาต้าที่สร้างโดย Power BI Desktop จะใช้รูปแบบที่คล้ายคลึงกับรูปแบบที่ใช้สำหรับแบบจำลองตาราง Analysis Services โดยยึดตาม[แบบจำลองออบเจ็กต์ตาราง](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo)
 
 
 คุณลักษณะ**เมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้ว**เป็นข้อมูลเชิงกลยุทธ์และพื้นฐาน เนื่องจากฟังก์ชัน Power BI ในอนาคตจะสร้างขึ้นตามเมตาดาต้าของฟังก์ชันดังกล่าว ความสามารถเพิ่มเติมบางอย่างที่จะได้รับประโยชน์จากเมตาดาต้าชุดข้อมูลที่ปรับปรุงประสิทธิภาพแล้วรวมถึง [อ่าน/เขียน XMLA](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite) สำหรับการจัดการของชุดข้อมูล Power BI และการย้ายปริมาณงาน Analysis Services ไปยัง Power BI เพื่อให้ได้ประโยชน์จากคุณลักษณะที่พัฒนาขึ้นใหม่
