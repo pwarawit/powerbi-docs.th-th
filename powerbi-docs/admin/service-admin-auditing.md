@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: e8e81c297841e32d1f4d966de23b5d752b654c20
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161732"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091629"
 ---
 # <a name="track-user-activities-in-power-bi"></a>ติดตามกิจกรรมของผู้ใช้ใน Power BI
 
@@ -318,6 +318,9 @@ Remove-PSSession $Session
 | ร้องขอการรีเฟรชกระแสข้อมูล Power BI แล้ว               | RequestDataflowRefresh                      | ยังไม่ได้ใช้ในปัจจุบัน                       |
 | ร้องขอการรีเฟรชชุดข้อมูล Power BI แล้ว                | RefreshDataset                              |                                          |
 | เรียกคืนพื้นที่ทำงาน Power BI แล้ว                     | GetWorkspaces                               |                                          |
+| ใช้ป้ายชื่อระดับความลับ                         | ใช้ป้ายชื่อระดับความลับ                     |                                          |
+| เปลี่ยนป้ายชื่อระดับความลับ                         | เปลี่ยนป้ายชื่อระดับความลับ                     |                                          |
+| ลบป้ายชื่อระดับความลับออก                         | ลบป้ายชื่อระดับความลับออก                     |                                          |
 | ตั้งค่าตำแหน่งที่จัดเก็บกระแสข้อมูลสำหรับพื้นที่ทำงาน     | SetDataflowStorageLocationForWorkspace      |                                          |
 | ตั้งค่าการรีเฟรชตามกำหนดเวลาบนกระแสข้อมูล Power BI        | SetScheduledRefreshOnDataflow               |                                          |
 | ตั้งค่าการรีเฟรชตามกำหนดเวลาบนชุดข้อมูล Power BI         | SetScheduledRefresh                         |                                          |

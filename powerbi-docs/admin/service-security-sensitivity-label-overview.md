@@ -6,15 +6,15 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/05/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ea161af0156aa0bee2fe92ab2f87fb82630f5589
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 4d719d7df5b982341b6377c41e448267197e769b
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252141"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049262"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>ป้ายชื่อระดับความลับใน Power BI
 
@@ -39,7 +39,7 @@ ms.locfileid: "87252141"
 
 ## <a name="how-sensitivity-labels-work-in-power-bi"></a>ป้ายชื่อระดับความลับทำงานใน Power BI ได้อย่างไร
 
-เมื่อคุณนำป้ายชื่อระดับความลับไปใช้กับแดชบอร์ด รายงาน ชุดข้อมูล และกระแสข้อมูลของ Power BI จะคล้ายกับการใช้แท็กกับแหล่งข้อมูลดังกล่าวมีประโยชน์ดังต่อไปนี้:
+เมื่อคุณนำป้ายชื่อระดับความลับไปใช้กับแดชบอร์ด รายงาน ชุดข้อมูล หรือกระแสข้อมูลของ Power BI นั่นจะคล้ายกับการใช้แท็กกับแหล่งข้อมูลดังกล่าวที่จะมีประโยชน์ดังต่อไปนี้:
 * **แบบปรับแต่งได้** - คุณสามารถสร้างหมวดหมู่สำหรับเนื้อหาที่ละเอียดอ่อนในระดับที่แตกต่างกันในองค์กรของคุณ เช่น ส่วนบุคคล สาธารณะ ทั่วไป เป็นความลับ และเป็นความลับสูง
 * **ข้อความชัดเจน** - เนื่องจากป้ายชื่อเป็นข้อความที่ชัดเจน จึงเป็นเรื่องง่ายสำหรับผู้ใช้ที่จะเข้าใจวิธีการปฏิบัติต่อเนื้อหาตามแนวทางของป้ายชื่อระดับความลับ
 * **ถาวร** -  หลังจากใช้งานป้ายชื่อระดับความลับกับเนื้อหา ป้ายชื่อจะรวมเข้ากับเนื้อหาดังกล่าวเมื่อมีการส่งออกไปยังไฟล์ Excel, PowerPoint และ PDF และเป็นข้อมูลพื้นฐานสำหรับการใช้และบังคับใช้นโยบาย
@@ -69,21 +69,33 @@ ms.locfileid: "87252141"
 
 ผู้ใช้ที่ส่งออกไฟล์จาก Power BI มีสิทธิ์ในการเข้าถึงและการแก้ไขไฟล์นั้นตามการตั้งค่าป้ายชื่อระดับความลับ พวกเขาไม่ได้รับสิทธิ์ความเป็นเจ้าของไปยังไฟล์
 
-ป้ายชื่อระดับความลับและการป้องกันไม่ได้ถูกนำไปใช้เมื่อมีการส่งออกข้อมูลไปยังไฟล์ .csv หรือ .pbix, Analyze ใน Excel หรือเส้นทางการส่งออกอื่นๆ
+ป้ายชื่อระดับความลับและการป้องกันไม่ได้ถูกนำไปใช้เมื่อมีการส่งออกข้อมูลไปยังไฟล์ .csv, .pbix หรือเส้นทางการส่งออกอื่นๆ
 
 การใช้ป้ายชื่อระดับความลับและการป้องกันกับไฟล์ที่ส่งออกจะไม่เพิ่มเครื่องหมายเนื้อหาไปยังไฟล์ อย่างไรก็ตาม ถ้ามีการกำหนดค่าป้ายชื่อเพื่อใช้เครื่องหมายเนื้อหา ดังนั้นเครื่องหมายเนื้อหาดังกล่าวจะถูกนำไปใช้โดยอัตโนมัติโดยไคลเอ็นต์การติดป้ายแบบรวมของ Azure Information Protection เมื่อเปิดไฟล์ในแอป Office desktop การทำเครื่องหมายเนื้อหาจะไม่ถูกนำไปใช้โดยอัตโนมัติเมื่อคุณใช้การติดป้ายชื่อที่มีอยู่ภายในสำหรับเดสก์ท็อป อุปกรณ์เคลื่อนที่ หรือเว็บแอป โปรดดู [เมื่อแอป Office ใช้การทำเครื่องหมายเนื้อหาและการเข้ารหัสลับ](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption) สำหรับรายละเอียดเพิ่มเติม
 
 การส่งออกล้มเหลวถ้าไม่สามารถนำป้ายชื่อไปใช้ได้เมื่อมีการส่งออกข้อมูลไปยังไฟล์ หากต้องการตรวจสอบว่าการส่งออกล้มเหลวเนื่องจากไม่สามารถใช้ป้ายชื่อได้ ให้คลิกที่ชื่อรายงานหรือแดชบอร์ดที่กึ่งกลางของแถบชื่อเรื่องและดูว่า "ไม่สามารถโหลดป้ายชื่อระดับความลับได้" ในดร็อปดาวน์ข้อมูลที่เปิดขึ้น ซึ่งอาจเกิดขึ้นได้เนื่องมาจากปัญหาระบบชั่วคราว หรือถ้าป้ายชื่อที่ใช้ได้รับการยกเลิกการเผยแพร่หรือถูกลบโดยผู้ดูแลระบบความปลอดภัย
 
+## <a name="sensitivity-label-inheritance-in-analyze-in-excel"></a>การรับทอดป้ายชื่อระดับความลับในการวิเคราะห์ใน Excel
+
+เมื่อคุณสร้าง PivotTable ใน Excel ด้วยการเชื่อมต่อแบบสดไปยังชุดข้อมูล Power BI (คุณสามารถทำสิ่งนี้ได้จาก Power BI ผ่าน [การวิเคราะห์ใน Excel](../collaborate-share/service-analyze-in-excel.md) หรือจาก [Excel](https://support.microsoft.com/office/create-a-pivottable-from-power-bi-datasets-31444a04-9c38-4dd7-9a45-22848c666884?ui=en-US&rs=en-US&ad=US)) ป้ายชื่อระดับความลับของชุดข้อมูลจะได้ถูกรับทอดและนำไปใช้กับไฟล์ Excel ของคุณพร้อมกับการป้องกันต่าง ๆ ที่เกี่ยวข้อง ถ้าป้ายชื่อบนชุดข้อมูลมีการเปลี่ยนแปลงในภายหลังในการจำกัดที่มากขึ้น ป้ายชื่อที่ใช้ในไฟล์ Excel ที่เชื่อมโยงจะอัปเดตโดยอัตโนมัติเมื่อรีเฟรชข้อมูล
+
+![ภาพหน้าจอของ Excel ที่แสดงป้ายชื่อระดับความลับที่รับทอดมาจากชุดข้อมูลผ่านการเชื่อมต่อแบบสด](media/service-security-sensitivity-label-overview/live-connection-inheritance.png)
+ 
+ป้ายชื่อระดับความลับใน Excel ที่ตั้งค่าด้วยตนเองจะไม่ถูกเขียนทับอัตโนมัติโดยป้ายชื่อระดับความลับของชุดข้อมูล แต่แบนเนอร์จะแจ้งให้คุณทราบว่าชุดข้อมูลที่มีป้ายชื่อระดับความลับและแนะนำให้คุณใช้งาน
+
+>[!NOTE]
+>ถ้าหากป้ายชื่อระดับความลับของชุดข้อมูลถูกจำกัดน้อยกว่าป้ายชื่อระดับความลับของไฟล์ Excel ซึ่งไม่มีการรับทอดป้ายชื่อหรือการอัปเดตที่เกิดขึ้นแต่อย่างใด ไฟล์ Excel ไม่เคยรับทอดป้ายชื่อระดับความลับที่ถูกจำกัดน้อยลง
+
+
 ## <a name="sensitivity-label-persistence-in-embedded-reports-and-dashboards"></a>การคงอยู่ของป้ายชื่อระดับความลับในรายงานและแดชบอร์ดแบบฝังตัว
 
-คุณสามารถฝังรายงาน Power BI แดชบอร์ด และวิชวลในแอปพลิเคชันทางธุรกิจ เช่น Microsoft Teams และ SharePoint หรือในเว็บไซต์ขององค์กรได้ เมื่อคุณฝังวิชวล รายงาน หรือแดชบอร์ดที่มีป้ายชื่อระดับความลับอยู่ ป้ายชื่อระดับความลับจะปรากฏในมุมมองแบบฝังตัว และป้ายชื่อและการป้องกันจะยังคงอยู่เมื่อมีการส่งออกข้อมูลไปยัง Excel
+คุณสามารถฝังรายงาน Power BI แดชบอร์ด และวิชวลในแอปพลิเคชันทางธุรกิจ เช่น Microsoft Teams และ SharePoint หรือในเว็บไซต์ขององค์กรได้ เมื่อคุณฝังวิชวล รายงาน หรือแดชบอร์ดที่มีการใช้ป้ายชื่อระดับความลับอยู่ ป้ายชื่อระดับความลับจะปรากฏในมุมมองแบบฝังตัว และป้ายชื่อและการป้องกันจะยังคงอยู่เมื่อมีการส่งออกข้อมูลไปยัง Excel
 
 ![ภาพหน้าจอของรายงานที่ฝังใน SharePoint Online](media/service-security-sensitivity-label-overview/embedded-report-sensitivity-label.png)
 
 สนับสนุนสถานการณ์การฝังต่อไปนี้:
 * [ฝังตัวสำหรับองค์กรของคุณ](../developer/embedded/embed-sample-for-your-organization.md)
-* แอป Microsoft 365 (เช่น [Teams](../collaborate-share/service-collaborate-microsoft-teams.md) และ [SharePoint](../collaborate-share/service-embed-report-spo.md))
+* แอป Microsoft 365 (เช่น [Teams](../collaborate-share/service-embed-report-microsoft-teams.md) และ [SharePoint](../collaborate-share/service-embed-report-spo.md))
 * [การฝัง URL ที่ปลอดภัย](../collaborate-share/service-embed-secure.md) (การฝังจากบริการ Power BI) 
 
 ## <a name="sensitivity-labels-in-the-power-bi-mobile-apps"></a>ป้ายชื่อระดับความลับในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
@@ -95,18 +107,9 @@ ms.locfileid: "87252141"
 ## <a name="supported-clouds"></a>รองรับระบบคลาวด์
 ป้ายชื่อระดับความลับยังรองรับเฉพาะผู้เช่าในระบบคลาวด์ส่วนกลาง (สาธารณะ) เท่านั้น และไม่รองรับสำหรับผู้เช่าในระบบคลาวด์ เช่น ระบบคลาวด์ของชาติ
 
-## <a name="requirements-for-using-sensitivity-labels-in-power-bi"></a>ข้อกำหนดสำหรับการใช้ป้ายชื่อระดับความลับใน Power BI
+## <a name="licensing-and-requirements"></a>การอนุญาตใช้งานและสิ่งที่ต้องการ
 
-ก่อนที่จะเปิดและใช้งานป้ายชื่อระดับความลับของคุณใน Power BI คุณต้องดำเนินการข้อกำหนดเบื้องต้นต่อไปนี้ให้เสร็จสมบูรณ์ก่อน:
-* ตรวจสอบให้แน่ใจว่ามีการกำหนดป้ายชื่อระดับความลับใน [ศูนย์ความปลอดภัยของ Microsoft 365](https://security.microsoft.com/) หรือ [ศูนย์การปฏิบัติตามข้อบังคับ Microsoft 365](https://compliance.microsoft.com/)
-* [เปิดใช้งานป้ายชื่อระดับความลับ](service-security-enable-data-sensitivity-labels.md)ใน Power BI
-* ตรวจสอบให้แน่ใจว่าผู้ใช้มี[สิทธิการใช้งานที่เหมาะสม](#licensing)
-
-## <a name="licensing"></a>สิทธิ์การใช้งาน
-
-* การดูหรือใช้ป้ายชื่อระดับความลับ Microsoft Information Protection ใน Power BI ต้องมีสิทธิ์การใช้งานของ Azure Information Protection แบบ Premium P1 หรือ Premium P2 คุณสามารถซื้อ Microsoft Azure Information Protection แบบสแตนด์อโลนหรือผ่านหนึ่งในชุดโปรแกรมการอนุญาตให้ใช้สิทธิของ Microsoft ได้ โปรดดู [การกำหนดราคา Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) สำหรับรายละเอียด
-* การดูและการใช้ป้ายชื่อในแอป Office มี[ข้อกำหนดเรื่องสิทธิ์การใช้งาน](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels)
-* หากต้องการนำป้ายชื่อระดับความลับไปใช้กับเนื้อหา Power BI ผู้ใช้จะต้องมีสิทธิ์การใช้งาน Power BI Pro นอกเหนือจากหนึ่งในสิทธิ์การใช้งาน Azure Information Protection ที่กล่าวถึงข้างต้น
+ดู [ การอนุญาตใช้งานและสิ่งที่ต้องการ](service-security-enable-data-sensitivity-labels.md#licensing-and-requirements)
 
 ## <a name="sensitivity-label-creation-and-management"></a>การสร้างและการจัดการป้ายชื่อระดับความลับ
 
@@ -125,7 +128,7 @@ ms.locfileid: "87252141"
 * ป้ายชื่อระดับความลับบนแอสเซท Power BI สามารถมองเห็นได้ในรายการพื้นที่ทำงาน สายข้อมูล รายการโปรด ล่าสุด และมุมมองแอป ในขณะนี้ป้ายชื่อจะไม่สามารถมองเห็นได้ในมุมมอง "แบ่งปันแล้วกับฉัน" อย่างไรก็ตาม โปรดทราบว่าป้ายชื่อที่ใช้กับแอสเซท Power BI แม้ว่าจะไม่สามารถมองเห็นได้ จะยังคงอยู่ในข้อมูลที่ส่งออกไปเป็นไฟล์ Excel, PowerPoint และ PDF เสมอ
 * ไม่รองรับป้ายชื่อระดับความลับของข้อมูลสำหรับแอปเทมเพลต ป้ายชื่อระดับความลับที่ตั้งค่าโดยผู้สร้างแอปเทมเพลตจะถูกลบออกเเมื่อมีการแยกและติดตั้งแอป และป้ายชื่อระดับความลับที่เพิ่มไปยังอาร์ทิแฟกต์ในแอปเทมเพลตที่ติดตั้งโดยผู้บริโภคแอปสูญหายไป (ตั้งค่าใหม่เป็นไม่มีอะไร) เมื่อมีการอัปเดตแอป
 * Power BI ไม่รองรับป้ายชื่อระดับความลับของประเภทการป้องกัน [Do Not Forward](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions), [ผู้ใช้กำหนดเอง](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions) และ [HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) ประเภทการป้องกันแบบ Do Not Forward และผู้ใช้กำหนดเองหมายถึงป้ายชื่อที่กำหนดใน[ศูนย์ความปลอดภัยของ Microsoft 365](https://security.microsoft.com/) หรือ[ศูนย์ควบคุมการปฏิบัติตามข้อบังคับของ Microsoft 365](https://compliance.microsoft.com/)
-* ไม่แนะนำให้ผู้ใช้สามารถใช้ป้ายชื่อหลักใน Power BI ได้ ถ้ามีการใช้ป้ายชื่อหลักกับเนื้อหา การส่งออกข้อมูลจากเนื้อหานั้นไปยังไฟล์ (Excel, PowerPoint และ PDF) จะล้มเหลว ดู [ป้ายชื่อย่อย (การจัดกลุ่มป้ายชื่อ)](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels)
+* ไม่แนะนำให้ผู้ใช้สามารถใช้ป้ายชื่อหลักใน Power BI ได้ หากมีการใช้ป้ายชื่อหลักกับเนื้อหา การส่งออกข้อมูลจากเนื้อหานั้นไปยังไฟล์ (Excel, PowerPoint และ PDF) จะล้มเหลว ดู [ป้ายชื่อย่อย (การจัดกลุ่มป้ายชื่อ)](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels)
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

@@ -114,6 +114,8 @@
               href: service-admin-premium-multi-geo.md
             - name: นำคีย์การเข้ารหัสลับของคุณมาเอง
               href: service-encryption-byok.md
+            - name: ใช้คีย์ที่ลูกค้าจัดการ
+              href: service-encryption-customer-managed-keys.md
             - name: รีสตาร์ตความจุแบบพรีเมียม
               href: service-admin-premium-restart.md
             - name: การเชื่อมต่อชุดข้อมูลด้วยปลายทาง XMLA

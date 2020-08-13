@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 0fe1b7b1b8175511838005b7b63ca7543bbf939a
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ebc4601f3575e84c248aef9204537a7d93c428ac
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034347"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049195"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>เปิดใช้งานป้ายชื่อระดับความลับใน Power BI
 
@@ -24,7 +24,20 @@ ms.locfileid: "86034347"
 * ผู้ใช้และกลุ่มความปลอดภัยที่ระบุในองค์กรสามารถจัดประเภทและ [นำป้ายชื่อระดับความลับ](./service-security-apply-data-sensitivity-labels.md) ไปใช้ในรายงาน Power BI แดชบอร์ด ชุดข้อมูล และกระแสข้อมูล
 * สมาชิกทั้งหมดขององค์กรสามารถดูป้ายชื่อเหล่านั้นได้
 
-การเปิดใช้งานป้ายชื่อระดับความลับจำเป็นต้องมีสิทธิ์การใช้งาน Azure Information Protection โปรดดู [การให้สิทธิการใช้งาน](service-security-sensitivity-label-overview.md#licensing) สำหรับรายละเอียดเพิ่มเติม
+การเปิดใช้งานป้ายชื่อระดับความลับจำเป็นต้องมีสิทธิ์การใช้งาน Azure Information Protection ดู [ใบอนุญาตใช้งานและข้อกำหนด](#licensing-and-requirements) สำหรับรายละเอียด
+
+## <a name="licensing-and-requirements"></a>การอนุญาตใช้งานและสิ่งที่ต้องการ
+
+* จำเป็นต้องมีใบอนุญาตใช้งานความคุ้มครองข้อมูล Azure Premium P1 หรือ Premium P2 เพื่อใช้หรือดูป้ายระดับความลับของความคุ้มครองข้อมูลของ Microsoft ใน Power BI ความคุ้มครองข้อมูลของ Azure สามารถซื้อได้ทั้งแบบสแตนด์อโลนหรือผ่านชุดการออกใบอนุญาตใช้งานของ Microsoft ดู [การกำหนดราคา Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) สำหรับรายละเอียด
+
+* ในการใช้ป้ายกำกับกับเนื้อหา Power BI ผู้ใช้ต้องมีใบอนุญาตใช้งาน Power BI Pro นอกเหนือจากสิทธิ์การใช้งานความคุ้มครองข้อมูลของ Azure ที่กล่าวถึงข้างต้น
+
+* แอป Office มี [ข้อกำหนดสิทธิ์การใช้งานสำหรับการดูและใช้ป้ายชื่อระดับความลับ]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels ) ของตัวเอง
+
+* ก่อนเปิดใช้งานป้ายชื่อระดับความลับสำหรับผู้เช่าของคุณ ให้ตรวจสอบให้แน่ใจว่าได้กำหนดและเผยแพร่ให้สำหรับผู้ใช้และกลุ่มที่เกี่ยวข้องแล้ว ดู [สร้างและกำหนดค่าป้ายชื่อระดับความลับและนโยบาย](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide) สำหรับรายละเอียด
+
+>[!NOTE]
+> หากองค์กรของคุณใช้ป้ายชื่อระดับความลับของความคุ้มครองข้อมูลของ Azure จำเป็นต้องโยกย้ายไปยังแพลตฟอร์มความคุ้มครองข้อมูลการติดป้ายชื่อแบบรวมของ Microsoft เพื่อให้ใช้ใน Power BI ได้ [เรียนรู้เพิ่มเติมเกี่ยวกับการย้ายป้ายชื่อระดับความลับ](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
 
 ## <a name="enable-sensitivity-labels"></a>เปิดใช้งานป้ายชื่อระดับความลับ
 
@@ -52,9 +65,9 @@ ms.locfileid: "86034347"
 
 Power BI ใช้ป้ายชื่อระดับความลับ Microsoft Information Protection ดังนั้นถ้าคุณพบข้อผิดพลาดเมื่อพยายามเปิดใช้งานป้ายชื่อระดับความลับ อาจเป็นเพราะหนึ่งในสาเหตุต่อไปนี้:
 
-* คุณไม่มี[สิทธิ์การใช้งาน](service-security-sensitivity-label-overview.md#licensing) Azure Information Protection
-* ไม่มีการโยกย้ายป้ายชื่อระดับความลับไปยังเวอร์ชัน Microsoft Information Protection ที่สนับสนุนโดย Power BI เรียนรู้เพิ่มเติมเกี่ยวกับ [การโยกย้ายป้ายชื่อระดับความลับ](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
-* ไม่ได้มีการกำหนดป้ายชื่อระดับความลับ Microsoft Information Protection ในองค์กร โปรดทราบว่าเพื่อให้สามารถใช้งานได้ ป้ายชื่อจะต้องเป็นส่วนหนึ่งของนโยบายที่เผยแพร่แล้ว จึงจะสามารถใช้ได้ [เรียนรู้เพิ่มเติมเกี่ยวกับป้ายชื่อระดับความลับ](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels) หรือเยี่ยมชม [ศูนย์ความปลอดภัยและการปฏิบัติตามข้อกำหนดของ Microsoft](https://sip.protection.office.com/sensitivity?flight=EnableMIPLabels) เพื่ออ่านข้อมูลเกี่ยวกับวิธีการกำหนดป้ายชื่อและเผยแพร่นโยบายสำหรับองค์กรของคุณ
+* คุณไม่มี[สิทธิ์การใช้งาน](#licensing-and-requirements) Azure Information Protection
+* ป้ายชื่อระดับความลับยังไม่ได้รับการ [ย้ายข้อมูล](#enable-sensitivity-labels) ไปยังเวอร์ชันความคุ้มครองข้อมูลของ Microsoft ที่รองรับโดย Power BI
+* ไม่มีป้ายชื่อระดับความลับความคุ้มครองข้อมูลของ Microsoft ถูก [กำหนดไว้ในองค์กร](#enable-sensitivity-labels)
 
 ## <a name="considerations-and-limitations"></a>ข้อควรพิจารณาและข้อจำกัด
 

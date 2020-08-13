@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: f92d10fdff880049460d24c714201d9a433745d8
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: be2f98341abd581cd2df717d19b3a9110548a2ec
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86035254"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049218"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>วิธีการใช้ป้ายชื่อระดับความลับใน Power BI
 
@@ -21,8 +21,8 @@ ms.locfileid: "86035254"
 
 เพื่อให้สามารถใช้ป้ายชื่อระดับความลับใน Power BI:
 * คุณต้องมีสิทธิการใช้งาน Power BI แบบ Pro และสิทธิแก้ไขบนแหล่งข้อมูลที่คุณต้องการติดป้ายชื่อ
-* คุณต้องเป็นสมาชิกของกลุ่มความปลอดภัยที่มีสิทธิ์ใช้ป้ายชื่อระดับความลับตามที่อธิบายไว้ในบทความชื่อ [เปิดใช้งานป้ายชื่อระดับความลับใน Power BI](./service-security-enable-data-sensitivity-labels.md#enable-sensitivity-labels)
-* ต้องสอดคล้องกับ[ข้อกำหนดเบื้องต้น](./service-security-sensitivity-label-overview.md#requirements-for-using-sensitivity-labels-in-power-bi) และ[ข้อกำหนดสิทธิการใช้งาน](./service-security-data-protection-overview.md#licensing)ทั้งหมด
+* คุณต้องเป็นสมาชิกของกลุ่มความปลอดภัยที่มีสิทธิ์ใช้ป้ายชื่อระดับความลับตามที่อธิบายไว้ในบทความชื่อ [เปิดใช้งานป้ายชื่อระดับความลับใน Power BI](./service-security-enable-data-sensitivity-labels.md)
+* ต้องเป็นไปตาม [ใบอนุญาตใช้งานและข้อกำหนดอื่น ๆ](./service-security-enable-data-sensitivity-labels.md#licensing-and-requirements) ทั้งหมด
 
 สำหรับข้อมูลเพิ่มเติมเกี่ยวกับป้ายชื่อระดับความลับใน Power BI โปรดดู [ป้ายชื่อระดับความลับใน Power BI](service-security-sensitivity-label-overview.md)
 

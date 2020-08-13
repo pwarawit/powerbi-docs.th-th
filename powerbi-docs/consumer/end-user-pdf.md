@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ec45d971855aefe35161f2b10fecd483f0345a46
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768814"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837508"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>ส่งออกรายงานจาก Power BI เป็น PDF
 
@@ -52,6 +52,7 @@ ms.locfileid: "87768814"
 ## <a name="limitations-and-considerations"></a>ข้อจำกัดและข้อควรพิจารณา
 มีข้อควรพิจารณาและข้อจำกัดสองสามข้อที่ควรทราบเมื่อทำงานร่วมกับคุณสมบัติ**ส่งออกเป็น PDF**
 
+* PDF จะรวมข้อมูลและการแสดงภาพที่มองเห็นได้บนผืนผ้าใบ Power BI ของคุณ หากวิชวลมีแถบเลื่อน PDF จะรวมวิชวลไว้ในสถานะเริ่มต้นที่ไม่มีการเลื่อน  
 * การแสดงผลด้วยภาพแบบ R และ Python ยังไม่รองรับในขณะนี้ ใน PDF ภาพเหล่านี้จะว่างเปล่า และแสดงข้อความข้อผิดพลาด 
 * รองรับวิชวล Power BI ที่ผ่านการรับรองแล้ว สำหรับข้อมูลเพิ่มเติมเกี่ยวกับภาพวิชวล Power BI ที่ได้การรับรอง รวมถึงวิธีการรับภาพวิชวล Power BI ที่ได้รับการรับรอง ให้ดู[รับวิชวล Power BI ที่ได้รับการรับรอง](../developer/visuals/power-bi-custom-visuals-certified.md) ไม่สนับสนุนวิชวล Power BI ที่ไม่ได้รับการรับรอง ใน PDF ภาพเหล่านี้จะแสดงพร้อมด้วยข้อความข้อผิดพลาด
 * ไมรองรับการแสดงผลด้วยภาพ ESRI

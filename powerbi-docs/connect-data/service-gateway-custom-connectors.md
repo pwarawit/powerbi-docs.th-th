@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 08/07/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: dea1198519f59a81c49e2f7a95a903c37bd4fb11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c171369cad8a311f91bd4b8542577cbd0c8e4657
+ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236622"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87988714"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>ใช้ตัวเชื่อมต่อข้อมูลแบบกำหนดเองกับเกตเวย์ข้อมูลภายในองค์กร
 
@@ -47,6 +47,7 @@ ms.locfileid: "85236622"
 * ตรวจสอบให้แน่ใจว่าโฟลเดอร์ที่คุณสร้างจะสามารถเข้าถึงบริการเกตเวย์พื้นหลัง โดยทั่วไปแล้ว โฟลเดอร์ภายใต้โฟลเดอร์ Windows หรือโฟลเดอร์ระบบของผู้ใช้ของคุณจะไม่สามารถเข้าถึงได้ แอปเกตเวย์ข้อมูลภายในองค์กรจะแสดงข้อความถ้าไม่สามารถเข้าถึงโฟลเดอร์ได้ คำแนะนำนี้ใช้ไม่ได้กับเกตเวย์ข้อมูลภายในองค์กร (โหมดส่วนบุคคล)
 * สำหรับตัวเชื่อมต่อแบบกำหนดเองเพื่อทำงานกับเกตเวย์ข้อมูลภายในองค์กร พวกเขาจำเป็นต้องใช้ส่วน "TestConnection" ในรหัสของตัวเชื่อมต่อแบบกำหนดเอง ส่วนนี้ไม่จำเป็นเมื่อคุณใช้ตัวเชื่อมต่อแบบกำหนดเองกับ Power BI Desktop ด้วยเหตุผลนี้ คุณสามารถมีตัวเชื่อมต่อที่ใช้งานได้กับ Power BI Desktop แต่ไม่ใช่กับเกตเวย์ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้งาน TestConnection โปรดดู [เอกสารนี้](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support)
 * OAuth สำหรับตัวเชื่อมต่อแบบกำหนดเองผ่านเกตเวย์ได้รับการรองรับเฉพาะสำหรับผู้ดูแลเกตเวย์แต่ไม่ใช่แหล่งข้อมูลอื่นๆ ในขณะนี้
+* หากตัวเชื่อมต่อที่กำหนดเองของคุณอยู่บนไดรฟ์เครือข่ายให้รวมพา ธแบบเต็มในแอปเกตเวย์ข้อมูลภายในองค์กร
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 

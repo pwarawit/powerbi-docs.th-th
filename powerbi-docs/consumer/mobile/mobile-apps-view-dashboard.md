@@ -1,21 +1,21 @@
 ---
-title: ดูแดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
-description: สร้างหรือเชื่อมต่อกับแดชบอร์ดและรายงานในบริการของ Power BI จากนั้น ดูข้อมูลได้ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+title: ดูแดชบอร์ดในแอปมือถือของ Power BI
+description: สร้างหรือเชื่อมต่อกับแดชบอร์ดในบริการ Power BI จากนั้น ดูข้อมูลได้ในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 08/10/2020
 ms.author: painbar
-ms.openlocfilehash: 5911d1ded5c2ccf780454c60b7a5867223801a49
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: db889c945a7ea6f674bcc95e8ccf2c2075d56094
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220413"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091705"
 ---
-# <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>ดูแดชบอร์ดและรายงานในแอป Power BI สำหรับอุปกรณ์เคลื่อนที่
+# <a name="view-dashboards-in-the-power-bi-mobile-apps"></a>ดูแดชบอร์ดในแอปมือถือของ Power BI
 นำไปใช้กับ:
 
 | ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![โทรศัพท์ Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![แท็บเล็ต Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 

@@ -6,13 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 08/05/2020
 ms.author: davidi
-ms.openlocfilehash: 0bc6b844457f625d0287f2ec85f582a6ea874624
-ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
+ms.openlocfilehash: 6afc5dd36127390dd359d76fc8970d5ef6f7b590
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84681870"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837577"
 ---
 # <a name="power-bi-data-sources"></a>แหล่งข้อมูล Power BI
 
@@ -93,7 +94,7 @@ ms.locfileid: "84681870"
 | ODBC | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ใช่ |
 | Oledb | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ใช่ |
 | Oracle | ใช่ | ใช่ | ใช่ | ใช่ | ใช่ |
-| Paxata | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
+| Paxata <sup>8</sup> | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ |
 | PDF | ใช่ | ใช่ | ไม่ใช่ | ใช่ | ไม่ใช่ <sup>4</sup> |
 | Planview Enterprise One - CMT | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
 | Planview Enterprise One - PRM | ใช่ | ใช่ | ไม่ใช่ | ไม่ใช่ | ไม่ใช่ |
@@ -154,6 +155,8 @@ ms.locfileid: "84681870"
 
 <sup>7</sup> บริการของ Power BI ไม่รองรับฟีด OData ที่จำเป็นต้องมีการรับรองความถูกต้อง
 
+<sup>8</sup> Paxata ที่ได้รับการสนับสนุนในเวอร์ชันของ Power BI Desktop ที่ปรับให้เหมาะสำหรับเซิร์ฟเวอร์รายงานของ Power BI ซึ่งไม่ได้รับการสนับสนุนในรายงาน Power BI ที่ได้เผยแพร่ไปยังเซิร์ฟเวอร์รายงานของ Power BI ดู [แหล่งข้อมูลรายงาน Power BI ในเซิร์ฟเวอร์รายงาน Power BI](../report-server/data-sources.md) สำหรับรายการของแหล่งข้อมูลที่ได้รับการสนับสนุน
+
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>การลงชื่อเข้าระบบครั้งเดียว (SSO) สำหรับแหล่งข้อมูล DirectQuery
 
 เมื่อเปิดใช้งานตัวเลือก SSO และผู้ใช้ของคุณจะเข้าถึงรายงานที่สร้างขึ้นบนยอดของแหล่งข้อมูล Power BI จะส่งข้อมูลประจำตัว Azure AD ที่รับรองความถูกต้องของผู้ใช้ในการคิวรีไปยังแหล่งข้อมูลเบื้องต้น ซึ่งจะช่วยให้ Power BI เป็นไปตามการตั้งค่าความปลอดภัยที่มีการกำหนดค่าในระดับแหล่งข้อมูล
@@ -179,3 +182,4 @@ ms.locfileid: "84681870"
 [การใช้ DirectQuery ใน Power BI](desktop-directquery-about.md)  
 [ข้อมูลสดของ SQL Server Analysis Services ใน Power BI](sql-server-analysis-services-tabular-data.md)  
 [เกตเวย์ข้อมูลภายในองค์กรคืออะไร](service-gateway-onprem.md)  
+[แหล่งข้อมูลรายงาน Power BI ใน Power BI Report Server](../report-server/data-sources.md)
