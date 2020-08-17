@@ -119,7 +119,7 @@
       items:
         - name: รายงาน Power BI
           items:
-            - name: เปิดใช้งานการรีเฟรชหน้าแบบอัตโนมัติ (ตัวอย่าง)
+            - name: เปิดใช้งานการรีเฟรชหน้าอัตโนมัติ
               href: desktop-automatic-page-refresh.md
             - name: ตรวจสอบองค์ประกอบรายงานด้วย Performance Analyzer
               href: desktop-performance-analyzer.md
