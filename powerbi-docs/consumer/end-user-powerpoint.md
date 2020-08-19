@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3707399d21d15b16236e0e33da6c264fb6e364b4
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 2cffd2b9913773e7f29d1afa960209ddeddd3583
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768983"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160429"
 ---
 # <a name="export-reports-to-powerpoint"></a>ส่งออกรายงานไปยัง PowerPoint
 
@@ -102,7 +102,6 @@ ms.locfileid: "87768983"
    - ภาพพื้นหลังจะถูกตัดรูปด้วยพื้นที่ที่กำหนดขอบเขตของแผนภูมิ แนะนำให้คุณลบภาพพื้นหลังก่อนส่งออกเป็นไฟล์ PowerPoint
 
 * ไม่สามารถส่งออกรายงานบางรายการได้ สิ่งเหล่านี้รวมถึง:
-    - รายงานที่มีเจ้าของเป็นผู้ใช้ภายนอกโดเมนผู้เช่า Power BI ของคุณ เช่น รายงานที่มีบุคคลภายนอกองค์กรของคุณเป็นเจ้าของ และถูกแชร์ให้คุณ
     - ถ้าคุณแชร์แดชบอร์ดกับบุคคลภายนอกองค์กรของคุณ (และดังนั้น ผู้ใช้ที่ไม่อยู่ในผู้เช่า Power BI ของคุณ) ผู้ใช้รายนั้นจะไม่สามารถส่งรายงานที่เกี่ยวข้องของแดชบอร์ดที่แชร์เป็น PowerPoint ได้ ตัวอย่างเช่น ถ้าคุณเป็นเช่นนั้น aaron@contoso.comคุณสามารถแชร์ให้david@cohowinery.comได้ แต่ david@cohowinery.com ไม่สามารถส่งออกรายงานที่เชื่อมโยงไปยังไฟล์ PowerPoint
     - รายงานที่มีจำนวนหน้ารายงานมากกว่า 50 หน้า เฉพาะรายงาน 50 หน้าแรกจะมีการส่งออก
     - รายงานที่มีการส่งออกไปยัง PowerPoint ในเวอร์ชันที่เก่ากว่า

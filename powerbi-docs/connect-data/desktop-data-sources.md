@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/28/2020
+ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dcdd663ec9899f7623789915754087c4643c9806
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 1e64ca5c94b180cf98cf8d8992681861281ca2ae
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411991"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160406"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>แหล่งข้อมูลใน Power BI Desktop
 
@@ -217,28 +217,31 @@ ms.locfileid: "87411991"
 * สคริปต์ Python
 * ODBC
 * OLE DB
-* Acterys : การวางแผน & แบบจำลองอัตโนมัติ (เบต้า)
-* ระบบอัตโนมัติที่ใดก็ได้ (เบต้า)
 * Solver
-* Cherwell (เบต้า)
-* การรวมข้อมูล Cognite (เบต้า)
 * FHIR
 * เส้นตารางข้อมูล (เบต้า)
 * Jamf Pro (เบต้า)
-* MicroStrategy สำหรับ Power BI
 * Paxata
 * QubolePresto (เบต้า)
 * Roamler (เบต้า)
 * ทางลัดข้อมูลเชิงลึกทางธุรกิจ (เบต้า)
 * Siteimprove
-* SurveyMonkey(เบต้า)
 * รายการ Tenforce (สมาร์ท)
 * TIBCO(R) Data Virtualization (เบต้า)
-* Vena (เบต้า)
 * ข้อมูลเชิงลึก Vessel (เบต้า)
 * Workforce Dimensions (เบต้า)
 * Zucchetti HR Infinity (เบต้า)
+* การรวมข้อมูล Cognite (เบต้า)
+* MicroStrategy สำหรับ Power BI
+* SurveyMonkey(เบต้า)
+* Vena (เบต้า)
+* Acterys : การวางแผน & แบบจำลองอัตโนมัติ (เบต้า)
+* ระบบอัตโนมัติที่ใดก็ได้ (เบต้า)
+* Cherwell (เบต้า)
 * คิวรีที่ว่างเปล่า
+
+
+
 
 รูปภาพต่อไปนี้แสดงหน้าต่าง**รับข้อมูล**สำหรับ**อื่น ๆ**
 
