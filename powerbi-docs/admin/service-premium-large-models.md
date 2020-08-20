@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 0169eba3e27b4014f9dbf20f88a10575caf903fe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227254"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204326"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>แบบจำลองขนาดใหญ่ใน Power BI Premium (ตัวอย่าง)
 
@@ -114,7 +114,6 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 โปรดคำนึงถึงข้อจำกัดต่อไปนี้เมื่อใช้แบบจำลองขนาดใหญ่:
 
-- **นำการเข้ารหัส BYOK สำหรับคีย์ของคุณมาเอง** : ชุดข้อมูลที่เปิดใช้งานสำหรับ Premium Files ไม่มีการเข้ารหัสโดย [BYOK](service-encryption-byok.md)
 - **การสนับสนุน Multi-geo** : ชุดข้อมูลที่เปิดใช้งานสำหรับ Premium Files จะล้มเหลวในความจุที่มีการเปิดใช้งาน [Multi-geo](service-admin-premium-multi-geo.md)
 
 - **ดาวน์โหลดไปยัง Power BI Desktop** : ถ้ามีการจัดเก็บชุดข้อมูลบน Premium Files [การดาวน์โหลดเป็นไฟล์ .pbix](../create-reports/service-export-to-pbix.md) จะล้มเหลว
@@ -157,7 +156,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 ลิงก์ต่อไปนี้จะให้ข้อมูลที่มีประโยชน์สำหรับการทำงานกับโมเดลขนาดใหญ่:
 
 * [ที่เก็บไฟล์ Azure Premium](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
-* [กำหนดค่าการรองรับ Multi-Geo สำหรับ Power BI Premium](service-admin-premium-multi-geo.md)
+* [กำหนดค่าการสนับสนุน Multi-Geo สำหรับ Power BI Premium](service-admin-premium-multi-geo.md)
 * [นำคีย์การเข้ารหัสลับของคุณเองมาใช้กับ Power BI](service-encryption-byok.md)
 * [วิธีการทำงานของความจุ](service-premium-what-is.md#how-capacities-function)
 * [การรีเฟรชแบบเพิ่มหน่วย](service-premium-incremental-refresh.md)

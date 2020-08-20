@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 02/20/2020
+ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 944d115b0592954d92460ca26ae5b59311abc42e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a6513bdf7451db7068fe2540d32546df4d42ae8e
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227492"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204567"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>นำคีย์การเข้ารหัสลับของคุณเองมาใช้กับ Power BI
 
@@ -32,7 +32,7 @@ BYOK ทำให้ง่ายต่อการปฏิบัติตาม
 - เวิร์กบุ๊ก Excel (เว้นแต่ว่าข้อมูลจะถูกนำเข้าลงใน Power BI Desktop ก่อน)
 - [ส่งชุดข้อมูล](/rest/api/power-bi/pushdatasets)
 - [ชุดข้อมูลการสตรีม](../connect-data/service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
-- [แบบจำลองขนาดใหญ่](service-premium-large-models.md)
+
 
 BYOK ใช้กับชุดข้อมูลเท่านั้น Push ชุดข้อมูล ไฟล์ Excel และไฟล์ CSV ที่ผู้ใช้สามารถอัปโหลดไปยังบริการไม่ได้รับการเข้ารหัสโดยใช้คีย์ของคุณเอง เมื่อต้องระบุอาร์ทิแฟกต์ที่จัดเก็บไว้ในพื้นที่ทำงานของคุณ ให้ใช้คำสั่ง PowerShell ต่อไปนี้:
 
