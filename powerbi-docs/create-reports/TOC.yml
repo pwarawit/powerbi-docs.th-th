@@ -71,6 +71,8 @@
               items:
                 - name: บทนำถามตอบ
                   href: ../natural-language/q-and-a-intro.md
+                - name: แหล่งข้อมูลคำถามและคำตอบ
+                  href: ../natural-language/q-and-a-data-sources.md
                 - name: บทนำเครื่องมือถามตอบ
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: เครื่องมือถามตอบขั้นสูง
