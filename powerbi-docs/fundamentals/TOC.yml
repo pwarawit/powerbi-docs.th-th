@@ -15,6 +15,8 @@
           href: service-service-vs-desktop.md
     - name: บทช่วยสอน
       items:
+        - name: เริ่มต้นใช้งาน Power BI Desktop
+          href: desktop-getting-started.md
         - name: เริ่มต้นใช้งานกับบริการ Power BI
           href: service-get-started.md
     - name: แนวคิด
@@ -41,8 +43,6 @@
       items:
         - name: รับ Power BI Desktop
           href: desktop-get-the-desktop.md
-        - name: เริ่มต้นใช้งาน Power BI Desktop
-          href: desktop-getting-started.md
     - name: การอ้างอิง
       items:
         - name: ภาษาที่รองรับและประเทศ/ภูมิภาค
