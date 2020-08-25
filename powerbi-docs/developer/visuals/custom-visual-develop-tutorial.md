@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: d82f09fa4c545129bbd1032041dcfab6f4f67901
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: ebb0107b158e505a8095b4c8f6b6b32731e7e98d
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739356"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512942"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>บทช่วยสอน: การพัฒนาวิชวลสำหรับ Power BI
 
@@ -130,7 +130,7 @@ ms.locfileid: "84739356"
 4. ปิดทุกเบราว์เซอร์ที่คุณเปิดอยู่
 
 > [!NOTE]
-> ถ้าเบราว์เซอร์ยังไม่รู้จักใบรับรอง คุณอาจจำเป็นต้องรีสตาร์ตคอมพิวเตอร์ของคุณ
+> ถ้าเบราว์เซอร์ยังไม่รู้จักใบรับรอง คุณอาจจำเป็นต้องรีสตาร์ตคอมพิวเตอร์ของคุณ เบราเซอร์บางชนิด เช่น Firefox กำหนดให้คุณเชื่อถือใบรับรองที่มีการเซ็นชื่อด้วยตนเอง เพื่อดำเนินการดังกล่าว ให้ไปที่หน้าเซิร์ฟเวอร์เว็บแพค (https://localhost:8080/webpack-dev-server) และยอมรับความเสี่ยง
 
 ## <a name="creating-a-custom-visual"></a>การสร้างวิชวลแบบกำหนดเองได้
 

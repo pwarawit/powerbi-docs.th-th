@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/23/2020
+ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ab1dd7be867d886f4944e9771be5c9ff188d2037
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c5c4c7b08f69bd91fc8a4e6ab13a05878936225d
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252647"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160222"
 ---
 # <a name="get-power-bi-desktop"></a>รับ Power BI Desktop
 Power BI Desktop ช่วยให้คุณสร้างแบบสอบถามขั้นสูง โมเดล และรายงานที่แสดงข้อมูลเป็นภาพ เมื่อใช้ Power BI Desktop คุณสามารถสร้างโมเดลข้อมูล สร้างรายงาน และแชร์งานของคุณโดยการเผยแพร่ไปยังบริการของ Power BI ได้ Power BI Desktop มีให้ดาวน์โหลดฟรี
@@ -97,6 +97,9 @@ Power BI Desktop ช่วยให้คุณสร้างแบบสอบ
 
 ## <a name="minimum-requirements"></a>ข้อกำหนดขั้นต่ำ
 รายการต่อไปนี้คือข้อกำหนดขั้นต่ำเพื่อเรียกใช้ Power BI Desktop:
+
+> [!IMPORTANT]
+> Power BI Desktop จะไม่ได้รับการสนับสนุนใน Windows 7 อีกต่อไปหลังจากวันที่31มกราคม 2021 หลังจากวันที่ดังกล่าว Power BI Desktop จะได้รับการสนับสนุนบน Windows 8 หรือ Windows รุ่นที่ใหม่กว่า สำหรับ Power BI Desktop รุ่นที่เผยแพร่ล่าสุดเท่านั้น 
 
 * Windows 7 / Windows Server 2008 R2 หรือใหม่กว่า
 * .NET 4.5

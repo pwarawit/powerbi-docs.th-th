@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: 4f4650d47e420313075509301e940bf7092d4d5a
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: d82026ddb3ae12d95aed94fc6f96f45b4861ec48
+ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252854"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88168431"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>แหล่งข้อมูลที่ได้รับการสนับสนุนสำหรับรายงานที่มีการแบ่งหน้าของ Power BI
 
@@ -27,7 +27,7 @@ ms.locfileid: "87252854"
 | --- | --- | --- |
 | ฐานข้อมูล Azure SQL <br>คลังข้อมูล Azure SQL | ลงชื่อเข้าระบบครั้งเดียว (SSO) เบื้องต้น, OAuth2 | คุณอาจใช้ Enterprise Gateway ด้วย Azure SQL DB ได้ อย่างไรก็ตาม คุณไม่สามารถใช้ SSO หรือ oAuth2 เพื่อรับรองความถูกต้องในสถานการณ์เหล่านั้นได้   |
 | อินสแตนซ์ที่จัดการแล้วของ Azure SQL | พื้นฐาน | ผ่านตำแหน่งข้อมูลสาธารณะหรือส่วนตัว (ตำแหน่งข้อมูลส่วนตัวจำเป็นต้องได้รับการกำหนดเส้นทางผ่านเกตเวย์ขององค์กร)  |
-| Azure Analysis Services | SSO, OAuth2 | ไฟร์วอลล์ AAS ต้องปิดใช้งานหรือกำหนดค่าเพื่ออนุญาตช่วง IP ทั้งหมด|
+| Azure Analysis Services | SSO, OAuth2 | ต้องปิดการใช้งานไฟร์วอลล์ AAS หรือกำหนดค่าเพื่ออนุญาตช่วง IP ทั้งหมดในเขต BlackForest ข้อกำหนดนี้ใช้กับเขต BlackForest เท่านั้น |
 | ชุดข้อมูล Power BI | SSO | ชุดข้อมูล Power BI แบบพรีเมียมและแบบไม่พรีเมี่ยม ต้องมีสิทธิ์ในการอ่าน |
 | ชุดข้อมูล Power BI แบบพรีเมียม (XMLA) | SSO | ไม่รองรับชุดข้อมูล Power BI เป็นแหล่งข้อมูลสำหรับรายงานแบบแบ่งหน้าที่ฝังอยู่  |
 | ป้อนข้อมูล | N/A | ข้อมูลถูกฝังไว้ในรายงาน |

@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 07/13/2020
-ms.openlocfilehash: fd30b9df6fce484bffab430888260145bb374ce9
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 8e3ca6d9615a348fec928f13a561fbb97e719d6a
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091583"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160383"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>ส่งออกรายงาน Power BI ไปยังไฟล์ (ตัวอย่าง)
 
@@ -103,8 +103,7 @@ API เป็นแบบอะซิงโครนัส เมื่อมี
 * สำหรับการแสดงตัวอย่างสาธารณะ จำนวนหน้ารายงาน Power BI ที่ส่งออกต่อชั่วโมงจะถูกจำกัดไว้ที่ 50 หน้าต่อความจุ
 * รายงานที่ส่งออกต้องมีขนาดไฟล์ไม่เกิน 250 MB
 * เมื่อส่งออกในรูปแบบ .png ป้ายชื่อความระดับความลับจะไม่ได้รับการสนับสนุน
-* รายงานที่มีป้ายชื่อระดับความลับ จะไม่สามารถส่งออกในรูปแบบ .pdf หรือ .pptx โดยใช้ [หลักบริการ](embed-service-principal.md) ได้
-* จำนวนหน้าซึ่งสามารถรวมอยู่ในรายงานที่ส่งออกได้คือ 30 หากรายงานมีหลายหน้า API จะส่งคืนข้อผิดพลาดและงานส่งออกจะถูกยกเลิก
+* จำนวนหน้าซึ่งสามารถรวมอยู่ในรายงานที่ส่งออกได้คือ 50 หากรายงานมีหลายหน้า API จะส่งคืนข้อผิดพลาดและงานส่งออกจะถูกยกเลิก
 * ไม่รองรับ[บุ๊กมาร์กส่วนบุคคล](../../consumer/end-user-bookmarks.md#personal-bookmarks)และ[ตัวกรองแบบถาวร](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)
 * การแสดงผลด้วยภาพของ Power BI ที่แสดงในรายการด้านล่างไม่ได้รับการรองรับ เมื่อรายงานที่มีการแสดงผลด้วยภาพเหล่านี้ถูกส่งออก ส่วนของรายงานที่ประกอบด้วยการแสดงผลด้วยภาพดังกล่าวจะไม่แสดง และจะแสดงสัญลักษณ์ข้อผิดพลาด
     * การแสดงผลด้วยภาพของ Power BI ที่ไม่ผ่านการจัดการ

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 5ca205bf2e82269140926ac69ccdead43b0cddd8
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091652"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204963"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>สำรวจรายงานในแอปอุปกรณ์เคลื่อนที่ Power BI
 นำไปใช้กับ:
@@ -53,6 +53,9 @@ ms.locfileid: "88091652"
   
   ไม่สามารถเปิดไทล์ทั้งหมดเป็นรายงานได้ ตัวอย่างเช่น ไทล์ที่สร้างขึ้นเมื่อคุณถามคำถามในกล่องการถามตอบจะไม่เปิดรายงานเมื่อคุณแตะ
   
+## <a name="zoom-in-on-your-data"></a>ซูมข้อมูลของคุณ   
+ใช้การถ่างนิ้วเพื่อซูมรายงานของคุณเพื่อดูรายละเอียดมากขึ้น หุบนิ้วเข้าเพื่อซูมออก ขยายนิ้วเพื่อซูมบนโทรศัพท์ Android และ iOS และแท็บเล็ต
+
 ## <a name="interact-with-reports"></a>โต้ตอบกับรายงาน
 หลังจากที่คุณมีรายงานที่เปิดในแอปแล้ว คุณสามารถเริ่มทำงานกับรายงานดังกล่าวได้ คุณสามารถดำเนินงานได้หลายรูปแบบด้วยรายงานและข้อมูลในรายงาน ในส่วนท้ายของรายงาน คุณจะพบการดำเนินการซึ่งคุณสามารถใช้กับรายงานได้ ด้วยการแตะและการแตะยาวบนข้อมูลที่แสดงในรายงาน คุณยังสามารถแบ่งส่วนและตัดข้อมูลได้
 

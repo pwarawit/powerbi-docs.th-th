@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 07/16/2019
-ms.openlocfilehash: 1602743230f1a369fe3da48fa37a313b9d9bbea4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 08/12/2020
+ms.openlocfilehash: c9d6b10c05ac3e19c5ebdcb5a0f3a1ab9b989a10
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435892"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204947"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>คำแนะนำสำหรับการแสดงภาพ Power BI
 ก่อนที่คุณจะ[เผยแพร่](office-store.md)วิชวล Power BI ของคุณไปยัง Microsoft AppSource เพื่อให้ผู้อื่นสามารถค้นหาและใช้งานได้ ต้องตรวจสอบให้แน่ใจว่าคุณได้ทำตามคำแนะนำเพื่อสร้างประสบการณ์ที่ยอดเยี่ยมสำหรับผู้ใช้ของคุณแล้ว
@@ -59,6 +59,9 @@ ms.locfileid: "79435892"
 การแสดงผลด้วยภาพของ Power BI ทั้งหมดควรเปิดใช้งานเมนูบริบทเพื่อนำเสนอประสบการณ์แบบครบวงจร
 โปรดตรวจสอบ[บทความ](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md)นี้เพื่อเรียนรู้วิธีการเพิ่มเมนูบริบท
 
+>[!div class="mx-imgBorder"]
+>![ภาพหน้าจอของเมนูบริบทการแสดงภาพของ Power BI](media/guidelines-powerbi-visuals/context-menu.png)
+
 ## <a name="commercial-logo"></a>โลโก้เชิงพาณิชย์
 ส่วนนี้จะอธิบายข้อกำหนดสำหรับการเพิ่มโลโก้เชิงพาณิชย์ในวิชวล Power BI โลโก้เชิงพาณิชย์ไม่ได้เป็นแบบบังคับ ถ้าเพิ่ม จะต้องเป็นไปตามคำแนะนำเหล่านี้
 
@@ -74,15 +77,15 @@ ms.locfileid: "79435892"
 มีโลโก้เชิงพาณิชย์สามประเภท:
 * **โลโก้** - โลโก้มีองค์ประกอบสองอย่างที่ติดแน่นอยู่ด้วยกัน คือ ไอคอนและชื่อ
 
-    ![โลโก้ Microsoft](media/guidelines-powerbi-visuals/microsoft-logo.png)
+    ![ภาพหน้าจอของโลโก้ Microsoft](media/guidelines-powerbi-visuals/microsoft-logo.png)
 
 * **สัญลักษณ์** - กราฟิกที่ไม่มีข้อความ
 
-    ![คำโลโก้ Microsoft](media/guidelines-powerbi-visuals/microsoft-symbol.png)
+    ![ภาพหน้าจอของเครื่องมือ Microsoft](media/guidelines-powerbi-visuals/microsoft-symbol.png)
 
 * **คำโลโก้** - โลโก้ที่ไม่มีไอคอน แต่ประกอบด้วยข้อความเท่านั้น
 
-    ![คำโลโก้ Microsoft](media/guidelines-powerbi-visuals/microsoft-logotype.png)
+    ![ภาพหน้าจอของโลโก้ Microsoft แบบไม่มีไอคอน](media/guidelines-powerbi-visuals/microsoft-logotype.png)
 
 ### <a name="commercial-logo-color"></a>สีของโลโก้เชิงพาณิชย์
 
@@ -90,15 +93,15 @@ ms.locfileid: "79435892"
 
 * **โลโก้**
 
-    ![คำโลโก้ Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
+    ![ภาพหน้าจอของโลโก้ Microsoft ในสีเทา](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
 
 * **สัญลักษณ์** - กราฟิกที่ไม่มีข้อความ
 
-    ![คำโลโก้ Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
+    ![ภาพหน้าจอของเครื่องหมาย Microsoft ในสีเทา](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
 
 * **คำโลโก้** - โลโก้ที่ไม่มีไอคอน แต่ประกอบด้วยข้อความเท่านั้น
 
-    ![คำโลโก้ Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
+    ![ภาพหน้าจอของโลโก้ Microsoft แบบไม่มีไอคอน ในสีเทา](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
 
 > [!TIP]
 > * หากวิชวล Power BI ของคุณมีกราฟิก ให้พิจารณาเพิ่มพื้นหลังสีขาวที่มีระยะขอบ 10 px ให้กับโลโก้ของคุณ
@@ -110,13 +113,13 @@ ms.locfileid: "79435892"
 
 ตารางต่อไปนี้อธิบายถึงข้อควรพิจารณาของขนาดสำหรับวิชวล Power BI
 
-|  |วิชวล Power BI ขนาดเล็ก  |วิชวล Power BI ขนาดใหญ่  |
+|ตั้งค่า  |วิชวล Power BI ขนาดเล็ก  |วิชวล Power BI ขนาดใหญ่  |
 |---------|---------|---------|
 |*ความกว้างของโลโก้*    |สูงสุด 240 px         |มากกว่า 240 px         |
 |*ความสูงของโลโก้*     |สูงสุด 160 px         |มากกว่า 160 px         |
 |*ขนาดกล่องแสดงขอบเขต*     |40 x 15 px         |101 x 30 px         |
-|*ตัวอย่างโลโก้เชิงพาณิชย์*     |![คำโลโก้ Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![โลโก้ Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
-|*ตัวอย่างกล่องแสดงขอบเขต*    |![ตัวอย่างโลโก้ขนาดเล็ก](media/guidelines-powerbi-visuals/small-logo-box.png)         |![ตัวอย่างโลโก้ขนาดใหญ่](media/guidelines-powerbi-visuals/big-logo-box.png)         |
+|*ตัวอย่างโลโก้เชิงพาณิชย์*     |![ภาพหน้าจอของโลโก้เชิงพาณิชย์ขนาดเล็กของ Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![ภาพหน้าจอของโลโก้เชิงพาณิชย์ของ Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
+|*ตัวอย่างกล่องแสดงขอบเขต*    |![ภาพหน้าจอของขนาดของโลโก้ขนาดเล็ก](media/guidelines-powerbi-visuals/small-logo-box.png)         |![ภาพหน้าจอของขนาดของโลโก้ขนาดใหญ่](media/guidelines-powerbi-visuals/big-logo-box.png)         |
 |    |         |         |
 
 ### <a name="commercial-logo-behavior"></a>ลักษณะการทำงานของโลโก้เชิงพาณิชย์
@@ -140,11 +143,11 @@ ms.locfileid: "79435892"
 
 * หลีกเลี่ยงการใช้โลโก้เชิงพาณิชย์ที่มีสีสันหรือสีดำ โลโก้เชิงพาณิชย์ต้องเป็นสีเทา (hex color #C8C8C8)
 
-    ![โลโก้สีสันที่ไม่ได้รับอนุญาต](media/guidelines-powerbi-visuals/no-color-logo.png) ![โลโก้สีดำที่ไม่ได้รับอนุญาต](media/guidelines-powerbi-visuals/black-logo.png)
+    ![ภาพหน้าจอของโลโก้ Microsoft ที่มีสีสันที่ไม่ได้รับอนุญาต](media/guidelines-powerbi-visuals/no-color-logo.png) ![ภาพหน้าจอของโลโก้ Microsoft ที่มีสีดำที่ไม่ได้รับอนุญาต](media/guidelines-powerbi-visuals/black-logo.png)
 
 * โลโก้เชิงพาณิชย์ที่มีเอฟเฟกต์ เช่น การไล่ระดับสีหรือเงาที่เข้ม
 
-    ![ลักษณะโลโก้ที่ไม่ได้รับอนุญาต](media/guidelines-powerbi-visuals/no-style-logo.png)
+    ![ภาพหน้าจอของตัวอย่างโลโก้สไตล์ Microsoft ที่ไม่ได้รับอนุญาต](media/guidelines-powerbi-visuals/no-style-logo.png)
 
 ## <a name="best-practices"></a>แนวทางปฏิบัติที่ดีที่สุด
 
@@ -164,4 +167,7 @@ ms.locfileid: "79435892"
 
 ## <a name="next-steps"></a>ขั้นตอนถัดไป
 
-เรียนรู้วิธีการที่คุณสามารถเผยแพร่วิชวล Power BI ของคุณไปยัง [Microsoft AppSource](office-store.md) เพื่อให้บุคคลอื่นสามารถค้นหาและใช้งานได้
+เรียนรู้วิธีการที่คุณสามารถเผยแพร่วิชวล Power BI ของคุณไปยัง Microsoft AppSource เพื่อให้บุคคลอื่นสามารถค้นหาและใช้งานได้
+
+>[!div class="nextstepaction"]
+>[เผยแพร่วิชวล Power BI](office-store.md)
